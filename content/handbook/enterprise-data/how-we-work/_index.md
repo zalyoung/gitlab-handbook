@@ -51,6 +51,103 @@ Here's the process to follow to create a new Data issue:
 4. Leave the **Assignees** blank. The Data Team will process your request as a part of our [Daily Triage](/handbook/enterprise-data/how-we-work/triage/).
 <!--need to review the activities that are part of triage process -->
 
+### Backlog Management and Prioritization
+
+The Data Team backlog consists of all issues in the `workflow::2 - waiting for prioritization` stage. These issues have been validated during triage and determined to warrant development. 
+
+#### Backlog Definition
+
+**What constitutes the backlog:**
+- All issues labeled with `workflow::2 - waiting for prioritization`
+- Issues that have been triaged and scoped with sufficient detail
+- Work that has been determined to provide business value and warrants development resources
+
+**What is not part of the backlog:**
+- Issues still in `workflow::1 - triage & validation` (not yet validated)
+- Issues that have progressed beyond prioritization (already scheduled or in development)
+- Issues marked as won't-fix or closed during triage
+
+#### Prioritization Framework
+
+##### Strategic Projects (Data Team OKRs)
+
+**Characteristics:**
+- Large-scale initiatives aligned with company objectives
+- Require significant cross-functional coordination
+- Typically span (multiple) quarter(s) or have substantial scope
+- Should be labeled as `Data Team OKRs`
+
+**Scheduling Process:**
+- Scheduled quarterly through Data Steering Committee collaboration
+- Reviewed and prioritized during quarterly planning cycles
+- Require [Opportunity Canvas](https://gitlab.com/gitlab-data/analytics/-/issues) documentation for evaluation
+- Subject to [Data Leadership Forum](/handbook/enterprise-data/how-we-work/#data-leadership-forum) review and approval
+
+##### Business Operations Projects
+
+**Characteristics:**
+- Smaller, tactical improvements supporting day-to-day operations
+- Can typically be completed within shorter timeframes (weeks to months)
+- Support specific business partner needs or operational efficiency
+- May be reactive to urgent business requirements
+
+**Scheduling Process:**
+- Scheduled on an ongoing basis by Data Team Members
+- Coordinated with relevant Business Partners when appropriate
+- Can be prioritized and picked up as team member capacity allows
+- Should align with team member expertise and current workload
+
+#### Data Team Member Empowerment
+
+Data Team Members are empowered to make scheduling decisions independently for Business Operations projects, following GitLab's [Manager of One](https://handbook.gitlab.com/handbook/values/#manager-of-one) principle. Team members should:
+
+1. **Consult with their manager when needed** - Seek guidance for complex decisions or when additional support is required
+2. **Assess their current availability and workload** - Review ongoing commitments and capacity
+3. **Evaluate business impact and urgency** - Consider both immediate needs and strategic value
+4. **Make autonomous decisions** on what work to prioritize and pick up next
+5. **Communicate decisions transparently** - Update issue assignments and stakeholders promptly
+
+#### Dynamic Prioritization and Workload Management
+
+Priorities can shift based on changing business needs, urgent issues, or new strategic initiatives. Our approach to backlog management recognizes this reality and empowers team members to adapt dynamically while maintaining transparency and accountability.
+
+When higher priority work emerges, team members have the authority to pause current initiatives in favor of more critical items. Move existing issues back to the backlog (`workflow::2 - waiting for prioritization`), inform stakeholders of the change and provide updated timelines, then unassign yourself from paused work and update labels appropriately. This approach ensures that stakeholders always have visibility into what's happening and why, even when priorities shift.
+
+Team members should avoid carrying too many simultaneous initiatives, but what constitutes "too many" depends on several factors. 
+
+- Individual team member experience and capacity
+- Complexity and type of work
+- Current business priorities and deadlines
+- External dependencies and collaboration requirements
+
+Rather than imposing rigid rules, we trust team members to use their judgment and consult with their manager when uncertain about their capacity. This approach aligns with GitLab's Manager of One principle.
+
+#### Assignment Meaning and Expectations
+
+When a Data Team Member assigns themselves to an issue, it indicates:
+
+- **Ownership** of the issue through to completion
+- **Responsibility** for proactive communication and regular updates
+- **Commitment** to deliver within reasonable and communicated timeframes
+- **Authority** to make technical decisions related to the work
+
+#### Backlog Visibility and Management
+
+### Labeling and Tracking
+
+Proper labeling and assignment of issues serves as the foundation for our backlog visibility and team coordination.
+
+The current backlog size becomes immediately visible through all issues marked with `workflow::2 - waiting for prioritization`, including a size estimate. This gives us a clear picture of validated work that's ready to be picked up, helping both team members identify their next priorities and managers understand the volume of committed work ahead. Similarly, active work is represented by issues assigned to team members and progressing through development stages, providing insight into what's currently being delivered.
+
+Labeling helps identifying potential bottlenecks before they become problems. When we can see team members with excessive concurrent assignments, it becomes possible to redistribute work, provide additional support, or help prioritize competing demands. This visibility is crucial for maintaining sustainable work practices and preventing burnout.
+
+### Monitoring and Metrics
+Team leads and managers should regularly review:
+- Backlog size and aging of issues
+- Team member workload distribution
+- Time spent on strategic vs. operational work
+- Stakeholder satisfaction with response times
+
 **New Issue**
 
 | Request Type | Issue Template To Choose |
