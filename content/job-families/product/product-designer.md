@@ -115,7 +115,6 @@ Everything in the Senior Product Designer role, plus:
 
 A Staff Product Designer is expected to meet the [base requirements](#base-requirements-for-all-roles) and execute their responsibilities with a commitment to **coaching, up-levelling the team, and product outcomes** (e.g. [Monthly Active Users (MAU)](/handbook/product/performance-indicators/)).
 
-
 ### Principal Product Designer
 
 #### Principal Job Grade
