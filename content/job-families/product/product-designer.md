@@ -37,7 +37,8 @@ A Product Designer reports to a [Product Design Manager](/job-families/product/p
 
 ### Product Designer
 
-A Product Designer is expected to meet the [base requirements](#base-requirements-for-all-roles) and execute the following responsibilities with a commitment to **results and agreed actions**.
+#### Job Grade
+
 The Product Designer is a [grade 6](http://about.gitlab.com/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
 
 #### Responsibilities
@@ -54,9 +55,14 @@ The Product Designer is a [grade 6](http://about.gitlab.com/handbook/total-rewar
 - **Deferred UX:** Understand [deferred UX][deferred-ux] and make recommendations to address it in your group(s), with the help from a more senior product designer or your manager.
 - **Recruiting:** Evaluate case studies during the product designer candidate interview process and interview product manager candidates.
 
+#### Requirements
+
+A Product Designer is expected to meet the [base requirements](#base-requirements-for-all-roles) and execute their responsibilities with a commitment to **results and agreed actions**.
+
 ### Senior Product Designer
 
-A Senior Product Designer is expected to meet the [base requirements](#base-requirements-for-all-roles) and execute the following responsibilities while modeling a **sense of urgency** and commitment to **iteration and collaboration for user outcomes** (e.g. [efficiency](/handbook/product/ux/ux-research/usability-testing/#usability-at-gitlab)).
+#### Senior Job Grade
+
 The Senior Product Designer is a [grade 7](http://about.gitlab.com/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
 
 #### Senior Responsibilities
@@ -76,9 +82,14 @@ Everything in the Product Designer role, plus:
 - **Public presence:** Help promote GitLab publicly by writing blog articles, giving talks, publishing videos to GitLab Unfiltered, or responding on social media, where appropriate.
 - **Cross-stage collaboration:** Support your product design manager and product manager in identifying dependencies between groups and stages and advocating for cross-stage collaboration when needed.
 
+#### Senior Requirements
+
+A Senior Product Designer is expected to meet the [base requirements](#base-requirements-for-all-roles) and execute their responsibilities while modeling a **sense of urgency** and commitment to **iteration and collaboration for user outcomes** (e.g. [efficiency](/handbook/product/ux/ux-research/usability-testing/#usability-at-gitlab)).
+
 ### Staff Product Designer
 
-A Staff Product Designer is expected to meet the [base requirements](#base-requirements-for-all-roles) and execute the following responsibilities with a commitment to **coaching, up-levelling the team, and product outcomes** (e.g. [Monthly Active Users (MAU)](/handbook/product/performance-indicators/)).
+#### Staff Job Grade
+
 The Staff Product Designer is a [grade 8](http://about.gitlab.com/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
 
 #### Staff Responsibilities
@@ -100,9 +111,15 @@ Everything in the Senior Product Designer role, plus:
 - **Early adoption:** Drive the adoption of new processes, tools, and methods to improve the design practice.
 - **Open source:** Create a welcoming community for every contributor by driving engagement of design community contributions.
 
+#### Staff Requirements
+
+A Staff Product Designer is expected to meet the [base requirements](#base-requirements-for-all-roles) and execute their responsibilities with a commitment to **coaching, up-levelling the team, and product outcomes** (e.g. [Monthly Active Users (MAU)](/handbook/product/performance-indicators/)).
+
+
 ### Principal Product Designer
 
-A Principal Product Designer is expected to meet the [base requirements](#base-requirements-for-all-roles) and execute the following responsibilities with a commitment to **innovation, thought leadership, and business outcomes** (e.g. [Annual Recurring Revenue (ARR)](/handbook/sales/sales-term-glossary/arr-in-practice/#annual-recurring-revenue-arr)).
+#### Principal Job Grade
+
 The Principal Product Designer is a [grade 9](http://about.gitlab.com/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
 
 #### Principal Responsibilities
@@ -126,6 +143,10 @@ Everything in the Staff Product Designer role, plus:
 - **Early adoption:** Drive the adoption of new processes, tools, and methods to improve the UX maturity of the organization.
 - **Public presence:** Be an active voice in the UX of DevSecOps and in the broader UX industry, and evangelize the learnings, successes, and methods of the department to the public.
 - **Supporting others:** Support peers in their working rhythm and self-care, and translate their successes, concerns, feedback, and morale to their managers and leadership.
+
+#### Principal Requirements
+
+A Principal Product Designer is expected to meet the [base requirements](#base-requirements-for-all-roles) and execute their responsibilities with a commitment to **innovation, thought leadership, and business outcomes** (e.g. [Annual Recurring Revenue (ARR)](/handbook/sales/sales-term-glossary/arr-in-practice/#annual-recurring-revenue-arr)).
 
 ## Foundations Specialty
 
