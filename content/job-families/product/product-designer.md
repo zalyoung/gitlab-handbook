@@ -43,7 +43,7 @@ The Product Designer is a [grade 6](http://about.gitlab.com/handbook/total-rewar
 
 #### Responsibilities
 
-- **Product knowledge:** Have working knowledge of the features in your group(s).
+- **Product knowledge:** Have working knowledge of the group you are assigned.
 - **Research:** Conduct [solution validation](http://about.gitlab.com/handbook/product-development-flow/#validation-phase-4-solution-validation) and incorporate insights into design decisions to fulfill user and business needs.
 - **Deliverables:** Create deliverables for the group(s) you support (for example: JTBD, UX Scorecards, competitive evaluations, user flows, low fidelity wireframes, high fidelity mockups, prototypes, and so on) that solve real user problems through the user experience.
 - **Communication:** Communicate UX activities to the department, your group(s), and other team members using clear language that simplifies complexity.
@@ -130,17 +130,17 @@ Everything in the Staff Product Designer role, plus:
 - **Research:** Collaboratively identify and conduct strategic research with a UX researcher, help designers make connections across the research efforts in your stage, enable accountability for design choices through research, and cultivate a learning culture in the organization.
 - **Deliverables:** Solve design problems of the highest scope, complexity, and ambiguity for your stage.
 - **Communication:** Communicate UX activities with a focus on business outcomes, and guide conversations to remove blockers and encourage collaboration across teams.
-- **Iteration:** Lead and coach iteration in the organization, encourage quick feedback loops and completion over perfection, and help cross-functional team members break down solutions into actionable steps, aligned with long-term goals.
+- **Iteration:** Lead and coach iteration in your stage, encourage quick feedback loops and completion over perfection, and help cross-functional team members break down solutions into actionable steps, aligned with long-term goals.
 - **Design reviews:** Participate in [Design Reviews](http://about.gitlab.com/handbook/product/ux/product-designer/#design-reviews) across the subdepartment to ensure high-quality output, and model best practices for giving and receiving feedback.
 - **Deferred UX:** Help your stage prioritize and close [deferred UX][deferred-ux].
 - **Thought leadership:** Lead and bring a UX voice to complex scenarios, build trust between UX and other disciplines, interface with managers and leaders, and enable designers to engage on large (stage or section-wide) initiatives.
 - **Recruiting:** Conduct portfolio reviews with staff product designers of qualified design candidates, and help retain a world-class team of product designers and product design managers.
-- **Cross-stage collaboration:** Identify innovation opportunities in the organization with a willingness to experiment, and collaborate with teams to help them make informed decisions.
+- **Cross-stage collaboration:** Identify innovation opportunities with a willingness to experiment, and collaborate with teams to help them make informed decisions.
 - **Mentoring:** Actively engage with and support designers' career development, mentor cross-functional team members and UX leaders, and foster a skill-building environment within the department.
 - **Vision:** Connect the work in your stage and the department to the broader product and company objectives.
 - **Goal setting:** Help your stage set achievable, measurable, and impactful goals that drive user, product, and business outcomes.
 - **Operations:** Expose cultural, operational, and organizational needs in the department, take responsibility for addressing some of them, and enable others to help.
-- **Early adoption:** Drive the adoption of new processes, tools, and methods to improve the UX maturity of the organization.
+- **Early adoption:** Drive the adoption of new processes, tools, and methods to improve UX practices.
 - **Public presence:** Be an active voice in the UX of DevSecOps and in the broader UX industry, and evangelize the learnings, successes, and methods of the department to the public.
 - **Supporting others:** Support peers in their working rhythm and self-care, and translate their successes, concerns, feedback, and morale to their managers and leadership.
 
