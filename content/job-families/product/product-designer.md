@@ -219,6 +219,6 @@ The hiring process for internal candidates may be slightly adjusted from the abo
 
 Additional details about our process can be found on our [hiring page](http://about.gitlab.com/handbook/hiring/).
 
-[deferred-ux]: (/handbook/product/ux/performance-indicators/#deferred-ux)
+[deferred-ux]: /handbook/product/ux/performance-indicators/#deferred-ux
 [pajamas]: https://design.gitlab.com
 [product-hierarchy]: /handbook/product/categories/#hierarchy
