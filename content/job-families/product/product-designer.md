@@ -52,7 +52,7 @@ The Product Designer is a [grade 6](http://about.gitlab.com/handbook/total-rewar
 - **Design system:** Actively contribute to the [Pajamas Design System][pajamas] by keeping design components available and up to date in design and prototyping tools, and ensuring that components fit together visually and functionally.
 - **UI copy:** Collaborate closely with a technical writer on microcopy and documentation suggestions.
 - **Design reviews:** Participate in [Design Reviews](http://about.gitlab.com/handbook/product/ux/product-designer/#design-reviews), giving and receiving feedback in an appropriate way.
-- **Deferred UX:** Understand [deferred UX][deferred-ux] and make recommendations to address it in your group, with the help from a more senior product designer or your manager.
+- **Deferred UX:** Understand [deferred UX][deferred-ux] and make recommendations to address it in your group.
 - **Recruiting:** Evaluate case studies during the product designer candidate interview process and interview product manager candidates.
 
 #### Requirements
@@ -104,7 +104,7 @@ Everything in the Senior Product Designer role, plus:
 - **Deferred UX:** Help the product teams of your group to prioritize and [close Deferred UX](http://about.gitlab.com/handbook/product/ux/performance-indicators/#deferred-ux).
 - **Thought leadership:** Support designers in advocating for best practices within their teams.
 - **Recruiting:** Conduct independent portfolio reviews of qualified design candidates to help identify top talent in the candidate pool.
-- **Cross-stage collaboration:** Promote a holistic UX by proactively helping designers navigate the organization and considering product overlaps, connections, and potential collisions.
+- **Cross-stage collaboration:** Promote a holistic UX by proactively helping designers navigate the organization and consider product overlaps, connections, and potential collisions.
 - **Mentoring:** Provide impactful feedback to ICs of the UX deparment and mentor them throughout product development.
 - **Vision:** Collaborate with your group to create a user-centric vision and shape the long-term roadmap based on user needs, connecting it to the broader product and company objectives.
 - **Early adoption:** Drive the adoption of new processes, tools, and methods to improve the design practice.
