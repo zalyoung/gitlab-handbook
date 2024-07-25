@@ -160,6 +160,7 @@ Please reference this page for an overview of the areas your CSM will engage wit
 - [CSM Rhythm of Business](/handbook/customer-success/csm/rhythm/)
 - [Using Gainsight](/handbook/customer-success/csm/gainsight/)
 - [CSM Responsibilities and Services](/handbook/customer-success/csm/services/)
+- [CSM/A: Managing Dedicated Customers](/handbook/customer-success/csm/dedicated-engagement/)
 - [CSM and Product Interaction](/handbook/customer-success/csm/product/)
 - [CSM and Professional Services Interaction](/handbook/customer-success/csm/engaging-with-ps/)
 - [CSM and Support Interaction](/handbook/customer-success/csm/support/)
