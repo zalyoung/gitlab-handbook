@@ -132,7 +132,7 @@ Everything in the Staff Product Designer role, plus:
 - **Deferred UX:** Help your stage prioritize and close [deferred UX][deferred-ux].
 - **Thought leadership:** Lead and bring a UX voice to complex scenarios, build trust between UX and other disciplines, interface with managers and leaders, and enable designers to engage on large (stage or section-wide) initiatives.
 - **Recruiting:** Conduct portfolio reviews with staff product designers of qualified design candidates, and help retain a world-class team of product designers and product design managers.
-- **Cross-stage collaboration:** Identify innovation opportunities with a willingness to experiment, and collaborate with teams to help them make informed decisions.
+- **Cross-stage collaboration:** Identify innovation opportunities, and collaborate with teams to help them make informed decisions and iterate on those opportunities.
 - **Mentoring:** Actively engage with and support designers' career development, mentor cross-functional team members and UX leaders, and foster a skill-building environment within the department.
 - **Vision:** Connect the work in your stage and the department to the broader product and company objectives.
 - **Goal setting:** Help your stage set achievable, measurable, and impactful goals that drive user, product, and business outcomes.
