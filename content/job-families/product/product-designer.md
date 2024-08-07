@@ -166,12 +166,10 @@ Everything in the various levels of product designer roles, plus:
 
 ## Performance indicators
 
-- [Perception of system usability](http://about.gitlab.com/handbook/product/ux/performance-indicators/#system-usability-scale-sus-score)
-- [Ratio of proactive vs reactive UX work](http://about.gitlab.com/handbook/product/ux/performance-indicators/#ratio-of-proactive-vs-reactive-ux-work)
-- [Beautifying our UI](http://about.gitlab.com/handbook/product/ux/performance-indicators/#ui-beautification)
-- [Ratio of breadth vs depth work](http://about.gitlab.com/handbook/product/ux/performance-indicators/#ratio-of-breadth-vs-depth-work)
+- [Perception of usability (SUS)](/handbook/product/ux/performance-indicators/#system-usability-scale-sus-score)
+- [Product Customer Satisfaction (CSAT)](/handbook/product/ux/performance-indicators/#product-customer-satisfaction-csat-score)
+- [Pajamas component migrations](/handbook/product/ux/performance-indicators/#pajamas-component-migrations)
 - [Deferred UX][deferred-ux]
-- [Pajamas component migrations](http://about.gitlab.com/handbook/product/ux/performance-indicators/#pajamas-component-migrations)
 
 ## Relevant links
 
