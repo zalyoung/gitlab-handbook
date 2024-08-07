@@ -1,6 +1,6 @@
 ---
 title: "DevSecOps with GitLab Duo - Hands-On Lab: Working with Security Vulnerabilities"
-description: "This Hands-On Guide walks you through using GitLab Duo to explain security vulnerabilities"
+description: "This Hands-On Guide walks you through using GitLab Duo to explain security vulnerabilities."
 ---
 
 > Estimated time to complete: 30 minutes
@@ -48,8 +48,8 @@ GitLab Duo extends beyond just code generation. GitLab Duo can support you throu
     func randomGitlab(w http.ResponseWriter, r *http.Request) {
       words := []string{"git", "lab", "repo", "commit", "branch"}
       word := words[rand.Intn(len(words))]
-      
-      fmt.Fprintf(w, word) 
+
+      fmt.Fprintf(w, word)
     }
 
     func main() {
@@ -86,4 +86,4 @@ You have completed this lab exercise. You can view the other [lab guides for thi
 
 ## Suggestions?
 
-If you’d like to suggest changes to the lab, please submit them via merge request.
+If you'd like to suggest changes to the lab, please submit them via merge request.

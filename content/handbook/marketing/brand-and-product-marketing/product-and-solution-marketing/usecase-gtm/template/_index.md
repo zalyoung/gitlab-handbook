@@ -1,14 +1,9 @@
 ---
-
 title: "Usecase: Template"
 ---
 
+```markdown
 <!--
-
-
-
-
-
 
 -->
 
@@ -18,14 +13,13 @@ title: "Usecase: Template"
 | ---- | --- |
 | xyz  | abc |
 
-
 # The Market Viewpoint
 
 ## UseCase Name
 
 Define and describe the use case in customer terms.  Reference the [customer use case page](/handbook/marketing/use-cases/)
 
-- [Keywords and SEO Terms](./keywords/)
+- [Keywords and SEO Terms](keywords/)
 
 ## Personas
 
@@ -40,7 +34,6 @@ Who are the buyers
 ## Industry Analyst Resources
 
 List key analyst coverage of this use case
-
 
 ## Market Requirements
 
@@ -136,18 +129,23 @@ This table shows the recommended use cases to adopt, links to product documentat
 ## Resources
 
 ### Presentations
+
 - LINK
 
 ### Whitepapers and infographics
+
 - LINK
 
 ### Videos (including basic demo videos)
+
 - LINK
 
 ### Integrations Demo Videos
+
 - LINK
 
 ### Clickthrough & Live Demos
+
 - Link
 
 ## Buyer's Journey
@@ -156,6 +154,7 @@ Inventory of key pages in the buyer's Journey
 
 | **Awareness** <br> learning about the problem  |  **Consideration** <br> looking for solution ideas  |  **Decision** <br> is this the right solution|
 | ------ | -------- |-------- |
-| [topic page?]()  | [solution page]() | [proof points]() |
-| [landing pages?]() | ?comparisons?  | [comparisons]() |
-| -etc?            |   |  - [product page x]() <br>  - [product page y]() <br>  - [product page z]() |
+| topic page?  | solution page | proof points |
+| landing pages? | ?comparisons?  | comparisons |
+| -etc?            |   |  - product page x <br>  - product page y <br>  - product page z |
+```

@@ -1,13 +1,6 @@
 ---
-
 title: "Acquisition Process"
 ---
-
-
-
-
-
-
 
 This is a detailed view of our acquisition process. For more information about
 our acquisitions approach visit our [acquisitions handbook](/handbook/acquisitions/).
@@ -96,7 +89,7 @@ The process is comprised of five key stages:
             - Risk Management Program Documentation
             - Risk Register and status of risks
             - Results of security reviews the entity has performed over it's current vendors
-1. Early technical diligence:
+1. [Early technical diligence](https://internal.gitlab.com/handbook/corporate-development/acquisition-process-technical-diligence/):
     1. In case the target company has open source components, the respective Dir. Engineering (dependent on GitLab stage) will start an early code review to determine: code quality, development practices, contributions, license compliance and more. That should be turned around within 2-3 business days.
         1. The Corporate Development Deal Process Manager will create a new document (`Project [code-name] - Technical Diligence`) for the Technical Call meeting notes, separate from the main acquisition document. Future diligence findings, and all other technical diligence related note-taking of meetings (external and internal), which are engineering-centric should be recorded in this Technical Diligence document, a separate and internal Google Doc from the main acquisition document. The Technical Diligence document will be bookmarked to the Slack channel topic of `#p-code_name-technical-diligence`
 
@@ -132,6 +125,7 @@ The process is comprised of five key stages:
     1. Deal Milestones:
         1. We aim to set 3 milestones at 2, 4 and 6 months from joining GitLab, to provide a concise set of goals which should cover the bulk of our product interest in the target company
         1. Milestones should be articulated as objectives as opposed to tasks. The structure of defining milestones should resemble that of OKRs, with each milestone having an objective and then a few key results which will be required to achieve the objective. This will help target companies focus on driving the objectives and not be tied to, and concerned with, a specific task as changes are likely to occur once integration work starts. The milestones outline the objectives to facilitate the work required in achieving the roadmap advancement the deal was identified with delivering. Each milestone should be broken down to the keys required to complete in order to achieve success for the milestone's objective.
+            1. Include GitLab Legal on Milestone formation discussion threads and synchronous calls to help ensure that Milestone language is meets GitLab Legal's level of specificity and clarity.
         1. First milestone shipped within 60 days of joining GitLab:
             1. Accounting for 3 weeks of onboarding, targets will ship the first milestone 5 weeks following the end of the onboarding period
             1. Critical to adopting our culture and successful future integration of the target's engineering team in GitLab
@@ -149,8 +143,7 @@ The process is comprised of five key stages:
         1. Complete term sheet ([template](https://docs.google.com/document/d/1_G2bXxhMe_qXrF8LdZcXwsCcIs1GJAS1-v42U2MV8a4/edit)) draft with proposed details (asset payment, retention bonuses, Deal Milestones, closing schedule, customer termination and closing conditions) filled in.
     1. Functional approvals: The Corporate Development, Product and Engineering Champions will present the business case for acquisition to the CPO, CTO and CRO. They will review to approve the items listed in the Champions' approval (complete: executive summary, business case, term sheet)
     1. CEO, CFO and CLO approvals: The Corporate Development, Product and Engineering Champions will present the business case for acquisition to the CEO, CFO and CLO. This meeting will also capture the **explicit approval** of the term sheet to start negotiations.
-        1. Approval of term sheet to start negotiations will be tracked in a [term
-        sheet approval issue](<https://gitlab.com/gitlab-com/corporate-development/issues/new?issuable_template=term_sheet_approval>). We don't include any financial and milestone information in the approval tracking issue for confidentiality reasons.
+        1. Approval of term sheet to start negotiations will be tracked in a [term sheet approval issue](https://gitlab.com/gitlab-com/corporate-development/issues/new?issuable_template=term_sheet_approval). We don't include any financial and milestone information in the approval tracking issue for confidentiality reasons.
 1. Term Sheet:
     1. Once the terms to start negotiations have been approved, the Corporate Development Deal Champion will reach out to the target company to share the offer and term sheet.
     1. Once an agreement on terms with the target has been reached, the term sheet (with any changes) will be brought forward for approval from: CLO, CFO, CEO (in that order). These approvals will be captured in the term sheet approval issue.

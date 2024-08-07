@@ -1,5 +1,4 @@
 ---
-
 title: "Tableau Developer Guide"
 description: "GitLab's Tableau Developer guide"
 ---
@@ -72,6 +71,23 @@ In the following window, be sure to check the box for 'Embed Credentials'.
 ![''](images/cloud-embed.png)
 
 </details>
+
+### Workflow for Embedding Your Rolename to Avoid Errors in Published Dashboards
+
+This is the process for ensuring that your rolename is properly embedded into your published dashboards. This has two key steps, and following them in this order can help avoid the following two errors:
+
+1. A user tries to access your published dashboard and is instead met with an error window asking them to login to Snowflake.
+1. Another analyst tries to quickly check your data source in Cloud, to see how it is built or to see how the custom SQL is constructed.
+
+The first place that you get the option to embed your rolename is when you first form a connection to your datasource. It looks like this:
+
+![Connection](images/initial_connection_rolename.png)
+
+If you want other people to be able to access your data source, you need to leave it blank. There is no reason to enter your rolename at this step, you will do it at a later step, so the proper workflow is to leave it blank at this step.
+
+From here, set up your datasource and develop as you would like. Then, when you are ready, publish your workbook/datasource. This is where you will follow the steps from the [start of this section](.../tableau-developer-guide/#connection-types-in-workbooks) for embedding your rolename as you publish the workbook. 
+
+If you forget to embed your rolename at this step, then your users will be asked to sign into Snowflake or otherwise send an error instead of letting them access the dashboard.
 
 ## Embedding in the Handbook
 
@@ -244,7 +260,7 @@ and set the `CLIENT_SESSION_KEEP_ALIVE` flag to `True`. Typical locations for th
 
 ![''](images/snowflake-odbc-ini.png)
 
-## Replacing Datasource in Tableau Desktop
+## Replacing Datasources in Tableau Desktop
 
 The steps are as follows:
 
@@ -257,3 +273,98 @@ Current and select new datasource for the Replacement and select ok
 1. Check that the all of the fields swapped over to the new datasource are working and not showing an error- some may have a `!` next to them and require replacing.  Any manual field aliases may also need to be reapplied.
 1. Right click on the datasource to be replaced and select close (to reduce un-needed clutter).
 1. Publish the workbook.
+
+## Testing Tables from MR Databases in Tableau Prior to Merging
+
+If you are working in Tableau using a report table from snowflake (created in DBT), you will likely need to update your table at some point. It is in your best interest to test these changes in Tableau prior to merging your MR, so that you can catch any problems with the updates before going through the process of formally requesting to merge the changes, and waiting for the data to be available.
+
+There are some key lessons that the Data Team learned about testing our MR databases in Tableau, which we will share below.
+
+### Workflow
+
+1. The author of the MR shares the MR database with you.
+2. Open up a development copy of the workbook or data source you want to test the changes on.
+   1. ***Make sure you are using a development copy and not working on the published data source!*** This is important because at some point in the future, when the MR is merged, you will no longer be able to access the data source that points to the MR db - even to update it to repoint to PROD. Hence it is important that you leave the original data source untouched to avoid this issue.
+3. Open up the data connections pane.
+4. Find the MR database in the left-hand connections window/dropdown.
+5. Replace the PROD tables with the MR database tables.
+6. Test your changes.
+7. Close and exit without saving your changes, or un-do the changes to revert the dashboard back to it's original state and data source.
+8. Merge the MR when you are satisfied with the changes - the MR database will disappear.
+
+### Forming a Connection
+
+Once you have a local development copy of the data source, open up the data source connection pane where you would normally edit a data source.
+
+![''](images/connection_pane.png)
+
+On the left side is where you add new connections, and in the middle is where the tables that make up the workbook are visualized.
+
+If you have been granted access to query the MR database which is attached to the merge request you are looking for, then you will be able to see it as an option under the dropdown for "**Database**".
+
+![''](images/dropdown_database.png)
+
+Search this MR database for your desired tables. Create your data source as you normally would - either replacing exiting tables with a test version, or bringing out new tables into the model and creating a join or relationship.
+
+You can now test the tables that the MR would build right in your Tableau workbook, to make sure all of the changes will have the desired effect.
+
+### Saving Changes
+
+You cannot save these changes that you are testing, because once the MR gets merged, the MR database you are using will disappear.
+
+It is recommended you only test the logic and totals of the columns being added/changed, and not make any time-consuming dashboard changes that will not be able to be saved.
+
+If you try saving the development copy that is pointing to your development data source, you will be unable to access that data source.
+
+### Avoiding Errors
+
+To repeat: once your Merge Request gets merged, any Tableau Data Source which is trying to connect to that MR database will become inaccessible. You will not be able to even open the data source to edit it - in Cloud, Desktop, a duplicate version, or via any other method.
+
+This is why it is recommended to work on a development copy of the data source only, and not in the published/production version of the data source at all.
+
+*Even if you are 'searching for' the MR database (pictured below) but not using this connection for any of the tables in the workbook, you will encounter errors.*
+
+![''](images/searching.png)
+
+Below is the error you will get if any leftover connections to the dropped database still exist in your data source. There is no workaround for this, you will need to replace the data source with an identical data source or, if you do not have an identical version, you will need to rebuild it and then 'Replace References' on most of the fields.
+
+![''](images/error_message.png)
+
+### Final Testing Notes
+
+Testing MR databases is a useful way to test changes before they get merged into production and save time. The use cases that work best for this are:
+
+- Business logic changes that would affect a total number
+- Quick changes to fields that would affect the view
+
+It is not efficient to extensively test changes that would require many changes to the dashboard/ calculated fields, because you will not be able to save those changes for use with the updated table once the MR goes through.
+
+Make sure to open a local, development copy of the workbook/data source prior to testing the MR database.
+
+## What are Relationships? (Tableau)
+
+Relationships are a feature in Tableau that allow you to combine data from multiple tables for analysis without having to define join types. They offer a more flexible and performant way to work with multi-table data sources compared to traditional joins. Here are some key points about relationships in Tableau:
+
+1. Dynamic and flexible: Relationships adapt to the specific fields and filters used in a visualization, optimizing queries for better performance.
+
+2. Maintain data granularity: Unlike joins, relationships preserve the native level of detail in each related table, reducing data duplication and aggregation issues.
+
+3. Multiple tables at different levels of detail: You can easily relate tables with different levels of granularity without worrying about fanout or incorrect aggregations.
+
+4. Noodle diagrams: Relationships are represented visually as "noodles" connecting tables in the data model, making it easier to understand table associations.
+
+5. Context-aware: Tableau only queries the tables and fields necessary for the current visualization, improving performance and reducing unnecessary data retrieval.
+
+6. Easy to set up: Simply drag and drop tables onto the canvas and define relationships based on common fields between tables.
+
+7. Compatibility with joins: You can still use traditional joins within a single logical table, allowing for a hybrid approach when needed.
+
+8. Performance optimization: Relationships often result in better query performance compared to complex join scenarios, especially for large datasets.
+
+9. Simplified data modeling: Relationships make it easier to create and maintain complex data models without requiring extensive knowledge of join types and their implications.
+
+10. Improved data accuracy: By maintaining the native level of detail in each table, relationships help prevent accidental data loss or duplication that can occur with poorly designed joins.
+
+When working with multi-table data sources in Tableau, consider using relationships as your default approach for combining tables, reserving joins for specific scenarios where more precise control over table combinations is required.
+
+If you would like to see a simple example demonstrating how relationships work - with the SQL queries that the example produced, you can find an in-depth writeup [here](https://anniesanalytics.com/what-are-relationships-in-tableau-really).

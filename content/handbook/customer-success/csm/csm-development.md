@@ -1,15 +1,7 @@
 ---
-
 title: "CSM Development"
 description: "Available development paths and resources for Customer Success Managers at GitLab."
 ---
-
-
-
-
-
-
-
 
 As a Customer Success Manager at GitLab, you should feel empowered to take the time to invest in yourself and your career, leaning into the [70-20-10 rule for development](/handbook/people-group/learning-and-development/career-development/#70-20-10-rule-for-development).
 
@@ -32,7 +24,7 @@ The content is divided into three key categories of competencies. [LevelUp](http
 
 ---
 
-{: #general-csm}
+<a name="general-csm"></a>
 
 ### 💡 Customer Success Management
 
@@ -90,7 +82,7 @@ As CSMs have positioned themselves to be more strategic and reach Director, VP, 
 - [Dynamic Public Speaking by University of Washington](https://www.coursera.org/specializations/public-speaking) (Coursera)
 - [Storytelling and influencing: Communicate with impact](https://www.coursera.org/learn/communicate-with-impact) (Coursera)
 
-{: #soft-skills}
+<a name="soft-skills"></a>
 
 ### 💬 Soft Skills
 
@@ -105,7 +97,7 @@ As CSMs have positioned themselves to be more strategic and reach Director, VP, 
 - [How to Make Strategic Thinking a Habit](https://www.linkedin.com/learning/how-to-make-strategic-thinking-a-habit/why-make-strategic-thinking-a-habit?u=2255073)  (LinkedIn Learning)
 - [Leading with Emotional Intelligence](https://www.linkedin.com/learning/leading-with-emotional-intelligence-3/lead-with-emotional-intelligence) (LinkedIn Learning)
 
-{: #tech-domain}
+<a name="tech-domain"></a>
 
 ### 🚀 Technology and Domain Knowledge
 

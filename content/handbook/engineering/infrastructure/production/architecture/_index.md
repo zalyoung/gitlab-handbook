@@ -46,8 +46,7 @@ The compute and network layout that runs GitLab.com
 
 [Source](https://docs.google.com/drawings/d/1NmafL3ULQnjuY3_JFMWDwXpjdd0I1hyMXkZ0bwUYNhI/edit), GitLab internal use only
 
-Most of GitLab.com is deployed on Kubernetes using  [GitLab cloud native helm
-chart](https://docs.gitlab.com/charts/). There are a few exceptions for this
+Most of GitLab.com is deployed on Kubernetes using  [GitLab cloud native helm chart](https://docs.gitlab.com/charts/). There are a few exceptions for this
 which are mainly the datastore services like `PostgresSQL`, `Gitaly`, `Redis`, `Elasticsearch`.
 
 ##### Cluster Configuration {#cluster-configuration }
@@ -148,7 +147,7 @@ When needed we also sometimes deal with CPU saturation by making application cha
 
 #### Network Architecture
 
-<img src="/images/handbook/engineering/infrastructure/production-architecture/network-arch.png" alt="">
+<img src="https://about.gitlab.com/images/handbook/engineering/infrastructure/production-architecture/network-arch.png" alt="">
 
 [Source](https://drive.google.com/file/d/19-IMmcJHVUz_bWOXU7_1NoYOdQJEZ3lM/view?usp=sharing), GitLab internal use only
 

@@ -8,7 +8,7 @@ AppSec manages [a wide range of tasks with a high volume of work](https://gitlab
 
 ### What decisions does this data help us make?
 
-Collecting this data helps inform decisions involving the team's capacity and headcount needs.
+Collecting this data helps inform decisions involving the team's capacity and headcount needs. These metrics are only analyzed in aggregate and are __not__ utilized or referenced for evaluating individual team member performance. They are solely used to understand overall team dynamics and requirements.
 
 ### Where are the charts that are based on this data?
 
@@ -48,6 +48,10 @@ Classifying each type of work helps to distinguish where exactly more capacity o
 | AppSecWorkType::CriticalProjects | Indicates the work was associated to [critical projects](/handbook/security/critical-projects/) |
 | AppSecWorkType::HackerAdmin | Indicates the work was associated to HackerOne administration |
 | AppSecWorkType::Operational | Should be used for everything else that's not covered by a label above |
+
+### Work impacted by SIRT incidents
+
+When SIRT incidents happen, this has an impact on our capacity. To evalute that impact, team members should apply the label `ImpactedBySIRTIncidents` to the issue.
 
 #### Who assigns this label and when?
 
