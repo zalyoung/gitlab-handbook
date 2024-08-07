@@ -107,7 +107,7 @@ Everything in the Senior Product Designer role, plus:
 - **Cross-stage collaboration:** Promote a holistic UX by proactively helping designers navigate the organization and consider product overlaps, connections, and potential collisions.
 - **Mentoring:** Provide impactful feedback to ICs of the UX deparment and mentor them throughout product development.
 - **Vision:** Collaborate with your group to create a user-centric vision and shape the long-term roadmap based on user needs, connecting it to the broader product and company objectives.
-- **Early adoption:** Drive the adoption of new processes, tools, and methods to improve the design practice.
+- **Early adoption:** Experiment with and drive the adoption of new processes, tools, and methods to improve the product design practice.
 - **Open source:** Create a welcoming community for every contributor by driving engagement of design community contributions.
 
 #### Staff Requirements
@@ -137,7 +137,7 @@ Everything in the Staff Product Designer role, plus:
 - **Vision:** Connect the work in your stage and the department to the broader product and company objectives.
 - **Goal setting:** Help your stage set achievable, measurable, and impactful goals that drive user, product, and business outcomes.
 - **Operations:** Expose cultural, operational, and organizational needs in the department, take responsibility for addressing some of them, and enable others to help.
-- **Early adoption:** Drive the adoption of new processes, tools, and methods to improve UX practices.
+- **Early adoption:** Experiment with and drive the adoption of new processes, tools, and methods to improve practices in the UX department.
 - **Public presence:** Be an active voice in the UX of DevSecOps and in the broader UX industry, and evangelize the learnings, successes, and methods of the department to the public.
 - **Supporting others:** Support peers in their working rhythm and self-care, and translate their successes, concerns, feedback, and morale to their managers and leadership.
 
