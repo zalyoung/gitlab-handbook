@@ -72,7 +72,7 @@ Everything in the Product Designer role, plus:
 - **Product knowledge:** Deeply understand the technology and features of your [group][product-hierarchy] and proactively learn about other groups.
 - **Research:** Identify [solution validation](http://about.gitlab.com/handbook/product-development-flow/#validation-phase-4-solution-validation) opportunities. Conduct research and incorporate insights into design decisions to fulfill user and business needs.
 - **Deliverables:** Create deliverables for your group (for example: JTBD, UX Scorecards, competitive evaluations, low fidelity wireframes, high fidelity mockups, prototypes, journey maps, storyboards, design vision, and so on) that help define the vision and execution of solving real user problems through the user experience.
-- **Communication:** Communicate UX activities with a focus on iteration and collaboration for user outcomes.
+- **Communication:** Communicate UX activities with a strong point of view that highlights iteration and collaboration for user outcomes.
 - **Usability:** Proactively identify both small and large usability issues within your group, and help influence your product manager to prioritize them.
 - **Iteration:** Lead and coach iteration of design work within the [validation track](http://about.gitlab.com/handbook/product-development-flow/#validation-track) for your group.
 - **Design system:** Actively contribute to the [Pajamas Design System][pajamas], help determine whether components are single-use or multi-use, and provide recommendations to designers regarding new component requests.
