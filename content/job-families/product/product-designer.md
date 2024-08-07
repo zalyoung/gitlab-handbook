@@ -102,7 +102,7 @@ Everything in the Senior Product Designer role, plus:
 - **Communication:** Communicate UX activities with a focus on product outcomes, and set an example for frequent and effective asynchronous communication.
 - **Iteration:** Understand long-term goals in your group and help other designers break down designs into actionable steps.
 - **Deferred UX:** Help the product teams of your group to prioritize and [close Deferred UX](http://about.gitlab.com/handbook/product/ux/performance-indicators/#deferred-ux).
-- **Thought leadership:** Support other designers in advocating for best practices within their teams.
+- **Thought leadership:** Promote best practices and support other designers in advocating for them within their teams.
 - **Recruiting:** Conduct independent portfolio reviews of qualified design candidates to help identify top talent in the candidate pool.
 - **Cross-stage collaboration:** Promote a holistic UX by proactively helping other designers navigate the organization and consider product overlaps, connections, and potential collisions.
 - **Mentoring:** Provide impactful feedback to ICs of the UX deparment and mentor them throughout product development.
