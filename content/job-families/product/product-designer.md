@@ -136,7 +136,7 @@ Everything in the Staff Product Designer role, plus:
 - **Mentoring:** Actively engage with and support other designers' career development, mentor cross-functional team members and UX leaders, and foster a skill-building environment within the department.
 - **Vision:** Connect the work in your stage and the department to the broader product and company objectives.
 - **Goal setting:** Help your stage set achievable, measurable, and impactful goals that drive user, product, and business outcomes.
-- **Operations:** Expose cultural, operational, and organizational needs in the department, take responsibility for addressing some of them, and enable others to help.
+- **Operations:** Expose cultural, operational, and organizational needs in the department, address them or enable others to help.
 - **Early adoption:** Experiment with and drive the adoption of new processes, tools, and methods to improve practices in the UX department.
 - **Public presence:** Be an active voice in the UX of DevSecOps and in the broader UX industry, and evangelize the learnings, successes, and methods of the department to the public.
 - **Supporting others:** Support peers in their working rhythm and self-care, and translate their successes, concerns, feedback, and morale to their managers and leadership.
