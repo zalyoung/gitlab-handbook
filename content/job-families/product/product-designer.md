@@ -57,7 +57,7 @@ The Product Designer is a [grade 6](http://about.gitlab.com/handbook/total-rewar
 
 #### Requirements
 
-A Product Designer is expected to meet the [base requirements](#base-requirements-for-all-roles) and execute their responsibilities with a commitment to **results and agreed actions**.
+A Product Designer is expected to meet the [base requirements](#base-requirements-for-all-roles) and execute their responsibilities with a [commitment to results and agreed actions](/handbook/values/#results-competency).
 
 ### Senior Product Designer
 
@@ -70,9 +70,9 @@ The Senior Product Designer is a [grade 7](http://about.gitlab.com/handbook/tota
 Everything in the Product Designer role, plus:
 
 - **Product knowledge:** Deeply understand the technology and features of your [group](/handbook/product/categories/#hierarchy) and proactively learn about other groups.
-- **Research:** Identify [solution validation](http://about.gitlab.com/handbook/product-development-flow/#validation-phase-4-solution-validation) opportunities. Conduct research and incorporate insights into design decisions to fulfill user and business needs.
+- **Research:** Proactively identify opportunities to do [solution validation](http://about.gitlab.com/handbook/product-development-flow/#validation-phase-4-solution-validation).
 - **Deliverables:** Create deliverables for your group (for example: JTBD, UX Scorecards, competitive evaluations, low fidelity wireframes, high fidelity mockups, prototypes, journey maps, storyboards, design vision, and so on) that help define the vision and execution of solving real user problems through the user experience.
-- **Communication:** Communicate UX activities with a strong point of view that highlights iteration and collaboration for user outcomes.
+- **Communication:** Communicate UX activities with a strong point of view that shows how iteration and collaboration drive specific results.
 - **Usability:** Proactively identify both small and large usability issues within your group, and help influence your product manager to prioritize them.
 - **Iteration:** Lead and coach iteration of design work within the [validation track](http://about.gitlab.com/handbook/product-development-flow/#validation-track) for your group.
 - **Design system:** Actively contribute to the [Pajamas Design System](https://design.gitlab.com), help determine whether components are single-use or multi-use, and provide recommendations to other designers regarding new component requests.
@@ -84,7 +84,7 @@ Everything in the Product Designer role, plus:
 
 #### Senior Requirements
 
-A Senior Product Designer is expected to meet the [base requirements](#base-requirements-for-all-roles) and execute their responsibilities while modeling a **sense of urgency** and commitment to **iteration and collaboration for user outcomes** (e.g. [efficiency](/handbook/product/ux/ux-research/usability-testing/#usability-at-gitlab)).
+A Senior Product Designer is expected to meet the [base requirements](#base-requirements-for-all-roles) and execute their responsibilities while [modeling a sense of urgency and commitment to deliver results](/handbook/values/#results-competency).
 
 ### Staff Product Designer
 
@@ -99,7 +99,7 @@ Everything in the Senior Product Designer role, plus:
 - **Product knowledge:** Deeply understand the technology and features of your [group](/handbook/product/categories/#hierarchy) and have a working knowledge of the end-to-end GitLab product.
 - **Research:** Understand the nuances and considerations between problem and solution validation, mentor other designers on how they plan their research, and work with your product design manager on potential strategic research needs.
 - **Deliverables:** Create tactical and strategic deliverables for your group (for example: JTBD, UX Scorecards, wireframes, competitive evaluations, prototypes, journey maps, storyboards, design vision, and so on).
-- **Communication:** Communicate UX activities with a focus on product outcomes, and set an example for frequent and effective asynchronous communication.
+- **Communication:** Set an example for frequent and effective asynchronous communication.
 - **Iteration:** Understand long-term goals in your group and help other designers break down designs into actionable steps.
 - **Deferred UX:** Help the product teams of the group you support to prioritize and [close Deferred UX](http://about.gitlab.com/handbook/product/ux/performance-indicators/#deferred-ux).
 - **Thought leadership:** Promote best practices and support other designers in advocating for them within their teams.
@@ -112,7 +112,7 @@ Everything in the Senior Product Designer role, plus:
 
 #### Staff Requirements
 
-A Staff Product Designer is expected to meet the [base requirements](#base-requirements-for-all-roles) and execute their responsibilities with a commitment to **coaching, up-levelling the team, and product outcomes** (e.g. [Monthly Active Users (MAU)](/handbook/product/performance-indicators/)).
+A Staff Product Designer is expected to meet the [base requirements](#base-requirements-for-all-roles) and execute their responsibilities while [coaching team members to collaborate and work iteratively](/handbook/product/performance-indicators/).
 
 ### Principal Product Designer
 
@@ -127,7 +127,7 @@ Everything in the Staff Product Designer role, plus:
 - **Product knowledge:** Deeply understand the technology and features within your [stage](/handbook/product/categories/#hierarchy) and have knowledge of the end-to-end GitLab product.
 - **Research:** Collaboratively identify and conduct strategic research with a UX researcher, help other designers make connections across the research efforts in your stage, enable accountability for design choices through research, and cultivate a learning culture in the organization.
 - **Deliverables:** Solve design problems of the highest scope, complexity, and ambiguity for your stage.
-- **Communication:** Communicate UX activities with a focus on business outcomes, and guide conversations to remove blockers and encourage collaboration across teams.
+- **Communication:** Guide conversations to remove blockers and encourage collaboration across teams.
 - **Iteration:** Lead and coach iteration in your stage, encourage quick feedback loops and completion over perfection, and help cross-functional team members break down solutions into actionable steps, aligned with long-term goals.
 - **Deferred UX:** Help the stage you support to prioritize and close Deferred UX.
 - **Thought leadership:** Lead and bring a UX voice to complex scenarios, build trust between UX and other disciplines, interface with managers and leaders, and enable other designers to engage on large (stage or section-wide) initiatives.
@@ -135,7 +135,7 @@ Everything in the Staff Product Designer role, plus:
 - **Cross-stage collaboration:** Identify innovation opportunities, and collaborate with teams to help them make informed decisions and iterate on those opportunities.
 - **Mentoring:** Actively engage with and support other designers' career development, mentor cross-functional team members and UX leaders, and foster a skill-building environment within the department.
 - **Vision:** Connect the work in your stage and the department to the broader product and company objectives.
-- **Goal setting:** Help your stage set achievable, measurable, and impactful goals that drive user, product, and business outcomes.
+- **Goal setting:** Help your stage set achievable, measurable, and impactful goals that drive results.
 - **Operations:** Expose cultural, operational, and organizational needs in the department, address them or enable others to help.
 - **Early adoption:** Experiment with and drive the adoption of new processes, tools, and methods to improve practices in the UX department.
 - **Public presence:** Be an active voice in the UX of DevSecOps and in the broader UX industry, and evangelize the learnings, successes, and methods of the department to the public.
@@ -143,7 +143,7 @@ Everything in the Staff Product Designer role, plus:
 
 #### Principal Requirements
 
-A Principal Product Designer is expected to meet the [base requirements](#base-requirements-for-all-roles) and execute their responsibilities with a commitment to **innovation, thought leadership, and business outcomes** (e.g. [Annual Recurring Revenue (ARR)](/handbook/sales/sales-term-glossary/arr-in-practice/#annual-recurring-revenue-arr)).
+A Principal Product Designer is expected to meet the [base requirements](#base-requirements-for-all-roles) and execute their responsibilities while [fostering a culture of ownership of personal performance](/handbook/product/performance-indicators/).
 
 ## Foundations Specialty
 
