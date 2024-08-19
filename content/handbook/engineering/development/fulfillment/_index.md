@@ -770,8 +770,8 @@ Complete the following details when creating the issue.
 
 In the threads below consider the following:
 
-- Why was it (un)successful? If successful, how did it meet the definition of an [MVC](/handbook/product/product-principles/#the-minimal-viable-change-mvc)?
-- How did the example not meet the definition of an [MVC](/handbook/product/product-principles/#the-minimal-viable-change-mvc)? In what ways could you have iterated differently? List specific examples.
+- Why was it (un)successful? If successful, how did it meet the definition of an [MVC](/handbook/product/product-principles/#the-minimal-valuable-change-mvc)?
+- How did the example not meet the definition of an [MVC](/handbook/product/product-principles/#the-minimal-valuable-change-mvc)? In what ways could you have iterated differently? List specific examples.
 - Identify areas of improvement for the team that can be incorporated into our processes and workflows.
 
 Follow [these rules](/handbook/engineering/management/group-retrospectives/) for an effective retrospective.
@@ -923,9 +923,9 @@ Google groups can be used for easily sending calendar invites to members of the 
 | [s_fulfillment_daily](https://app.slack.com/client/T02592416/C01BNLX4085) | Used to share daily standup updates. |
 | [s_fulfillment_status](https://app.slack.com/client/T02592416/CL7SX4N86) | [CustomersDot](https://gitlab.com/gitlab-org/customers-gitlab-com/) health monitoring channel. |
 
-### Guidelines to ask questions in [s_fulfillment](https://app.slack.com/client/T02592416/CMJ8JR0RH) slack channel
+### Guidelines to ask questions in s_fulfillment slack channel
 
-1. The channel can be used to ask all product, engineering, and Fulfillment processes related questions.
+1. The [s_fulfillment](https://app.slack.com/client/T02592416/CMJ8JR0RH) slack channel can be used to ask all product, engineering, and Fulfillment processes related questions.
 1. When your question has been answered, please react with the ✅ (`:white_check_mark:`) Slack emoji to the original question so that team members know that it has been answered and they do not need to look at it any longer.
 1. For urgent support issues, please follow the [STAR escalation](/handbook/support/internal-support/support-ticket-attention-requests.html#requesting-an-escalation) strategy.
 1. For [internal support requests](/handbook/support/internal-support/#internal-requests) regarding licensing, subscriptions, trials, grace period extensions, or any requests involving a customer, please fill out the [internal request form](https://support-super-form-gitlab-com-support-support-op-651f22e90ce6d7.gitlab.io/).

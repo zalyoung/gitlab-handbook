@@ -90,7 +90,7 @@
 /content/handbook/company/culture/inclusion/ @wendybarnes
 /content/handbook/company/culture/inclusion/tmrg-gitlab-black/ @erran @madou
 /content/handbook/company/culture/inclusion/erg-gitlab-diversability.md @jgladen @sam.white @kchappell
-/content/handbook/company/culture/inclusion/tmrg-gitlab-generational-understanding.md @DarwinJS @wendybarnes @mdrussell @terrichu
+/content/handbook/company/culture/inclusion/tmag-gitlab-generational-understanding.md @wendybarnes @mdrussell @terrichu
 /content/handbook/company/culture/inclusion/tmrg-gitlab-gente.md @pmejia @romerg
 /content/handbook/company/culture/inclusion/tmrg-global-voices.md @eliran.mesika @twoodham @marin
 /content/handbook/company/culture/internal-feedback.md @wendybarnes @mwilkins
@@ -127,17 +127,19 @@
 /content/handbook/engineering/development/data-science/ai-powered/ai-framework @oregand @m_gill @timzallmann
 /content/handbook/engineering/development/data-science/ai-powered/custom-models @oregand @m_gill @timzallmann @sean_carroll
 /content/handbook/engineering/development/data-science/ai-powered/duo-chat @juan-silva @m_gill @timzallmann
-/content/handbook/engineering/development/data-science/ai-powered/model-validation @mray2020
-/content/handbook/engineering/development/data-science/modelops/ @m_gill @mray2020
+/content/handbook/engineering/development/data-science/ai-powered/model-validation @m_gill
+/content/handbook/engineering/development/data-science/modelops/ @m_gill
 /content/handbook/engineering/development/database.md @alexives
 /content/handbook/engineering/development/dev/ @timzallmann
 /content/handbook/engineering/development/dev/create/ @dsatcher
-/content/handbook/engineering/development/dev/create/code-creation/ @mnohr
+/content/handbook/engineering/development/dev/create/code-creation/ @mnohr @jordanjanes
 /content/handbook/engineering/development/dev/create/editor-extensions.md @dashaadu @kisha.mavryck
 /content/handbook/engineering/development/dev/create/remote-development/ @adebayo_a
 /content/handbook/engineering/development/dev/manage/ @wortschi @m_gill @mksionek
-/content/handbook/engineering/development/dev/manage/foundations/ @samdbeckham @tauriedavis
-/content/handbook/engineering/development/dev/manage/import-and-integrate/ @wortschi
+/content/handbook/engineering/development/dev/foundations/ @m_gill @samdbeckham @wortschi
+/content/handbook/engineering/development/dev/foundations/design-system @samdbeckham
+/content/handbook/engineering/development/dev/foundations/import-and-integrate/ @wortschi
+/content/handbook/engineering/development/dev/foundations/personal-productivity @samdbeckham
 /content/handbook/engineering/development/dev/plan/ @donaldcook @timzallmann @johnhope @kushalpandya @blabuschagne @vshushlin
 /content/handbook/engineering/development/dev/plan/knowledge.md @vshushlin
 /content/handbook/engineering/development/dev/plan/optimize.md @blabuschagne
@@ -472,8 +474,9 @@
 
 ^[product]
 /content/handbook/product/ @david
-/content/handbook/product/fulfillment-guide.md @ofernandez2
-/content/handbook/product/product-analysis/engineering/ @ddeng1 @lmai1 @cbraza
+/content/handbook/product/groups/fulfillment-guide.md @ofernandez2
+/content/handbook/product/groups/product-analysis/ @cbraza @justinfarris
+/content/handbook/product/groups/product-analysis/engineering/ @ddeng1 @lmai1 @cbraza
 /content/job-families/product/ @david @vkarnes @mflouton @justinfarris @hbenson @cbednarz @anjali_kaufmann @dparsonage @glucchesi @carlierussell @mwilkins
 /content/job-families/product/pricing.md @justinfarris @cbednarz @anjali_kaufmann @glucchesi @carlierussell @mwilkins @bmcdonald5 @kbullock1 @JennyBurns @jessdurbin @ltepper
 /content/job-families/product/product-analyst.md @justinfarris @cbraza @cbednarz @anjali_kaufmann @glucchesi @carlierussell @mwilkins @bmcdonald5 @kbullock1 @JennyBurns @jessdurbin @ltepper
@@ -504,7 +507,7 @@
 /content/handbook/sales/channel/ @ecepulis
 /content/handbook/sales/club/ @kdemarest @kagarrett
 /content/handbook/sales/command-of-the-message/ @akramer @dsteer
-/content/handbook/sales/commercial/ @hmason @jvpotter @akramer @kyla @steve_xu @carolynharding
+/content/handbook/sales/commercial/ @bcaller @jvpotter @akramer @kyla @steve_xu @carolynharding
 /content/handbook/sales/commissions/ @james_harrison
 /content/handbook/sales/faq-from-prospects.md @akramer
 /content/handbook/sales/field-communications/ @monicaj @shannonthompson
@@ -534,7 +537,7 @@
 /content/handbook/sales/playbook/ @emelier @kshirazi
 /content/handbook/sales/prospecting.md @emelier @akramer @kshirazi
 /content/handbook/sales/public-sector.md @james_harrison
-/content/handbook/sales/qbrs/ @ashahrazad1 @azaglul @shannonthompson @monicaj
+/content/handbook/sales/qbrs/ @ashahrazad1 @shannonthompson @monicaj
 /content/handbook/sales/qualification-questions.md @akramer
 /content/handbook/sales/readmes/ @akramer
 /content/handbook/sales/revenue-programs.md @dsteer
@@ -668,8 +671,8 @@
 
 ## This section is for policies that Security Governance manages and aren't Controlled Documents. This should remain near the Controlled Documents section.
 [Security and Technologies Policies]
-/content/handbook/security/security-assurance/security-and-technology-policies-management.md @tdilbeck @corey-oas @lcoleman @jlongo_gitlab @cynthiamiller @gitlab-com/egroup @gitlab-com/content-sites
-/content/handbook/security/software-development-lifecycle-policy.md @jlongo_gitlab @joshlemos @juliedavila @gitlab-com/egroup @gitlab-com/content-sites
+/content/handbook/security/security-and-technology-policies/security-and-technology-policies-management.md @tdilbeck @corey-oas @lcoleman @jlongo_gitlab @cynthiamiller @gitlab-com/egroup @gitlab-com/content-sites
+/content/handbook/security/security-and-technology-policies/software-development-lifecycle-policy.md @jlongo_gitlab @joshlemos @juliedavila @gitlab-com/egroup @gitlab-com/content-sites
 
 ## This section is for SOX related documents.
 [SOX-Documents]
@@ -689,16 +692,14 @@
 /content/handbook/people-group/acceptable-use-policy.md @wendybarnes @akramer @emilyplotkin @pegan @gitlab-com/egroup @gitlab-com/content-sites
 /content/handbook/people-group/offboarding/offboarding_standards.md @wendybarnes @mpatel8 @gitlab-com/egroup @gitlab-com/content-sites
 /content/handbook/people-policies/_index.md @cgudgenov @emilyplotkin @pegan @wendybarnes @gitlab-com/egroup @gitlab-com/content-sites
-/content/handbook/security/access-management-policy.md @joshlemos @jlongo_gitlab @juliedavila @gitlab-com/egroup @gitlab-com/content-sites
-/content/handbook/security/audit-logging-policy.md @joshlemos @jlongo_gitlab @juliedavila @gitlab-com/egroup @gitlab-com/content-sites
-/content/handbook/security/change-management-policy.md @joshlemos @jlongo_gitlab @juliedavila @gitlab-com/egroup @gitlab-com/content-sites
+/content/handbook/security/security-and-technology-policies/access-management-policy.md @joshlemos @jlongo_gitlab @juliedavila @gitlab-com/egroup @gitlab-com/content-sites
+/content/handbook/security/security-and-technology-policies/audit-logging-policy.md @joshlemos @jlongo_gitlab @juliedavila @gitlab-com/egroup @gitlab-com/content-sites
 /content/handbook/security/controlled-document-procedure.md @joshlemos @jlongo_gitlab @juliedavila @gitlab-com/egroup @gitlab-com/content-sites
 /content/handbook/security/data-classification-standard.md @joshlemos @jlongo_gitlab @juliedavila @tdilbeck @emccrann @gitlab-com/egroup @gitlab-com/content-sites
 /content/handbook/security/isms.md @joshlemos @jlongo_gitlab @juliedavila @gitlab-com/egroup @gitlab-com/content-sites
 /content/handbook/security/password-standard.md @joshlemos @jlongo_gitlab @juliedavila @gitlab-com/egroup @gitlab-com/content-sites
 /content/handbook/security/physical-security-standard-for-company-assets.md @joshlemos @jlongo_gitlab @juliedavila @plafoucriere @gitlab-com/egroup @gitlab-com/content-sites
-/content/handbook/security/product-security/vulnerability-management/ @juliedavila @estrike @gitlab-com/egroup @gitlab-com/content-sites
-/content/handbook/security/product-security/vulnerability-management/encryption-policy.md @juliedavila @estrike @gitlab-com/egroup @gitlab-com/content-sites
+/content/handbook/security/product-security/vulnerability-management/_index.md @juliedavila @estrike @gitlab-com/egroup @gitlab-com/content-sites
 /content/handbook/security/records-retention-deletion.md @joshlemos @jlongo_gitlab @juliedavila @gitlab-com/egroup @gitlab-com/content-sites
 /content/handbook/security/security-assurance/governance/sec-training.md @cynthiamiller @tdilbeck @corey-oas @lcoleman @jlongo_gitlab @gitlab-com/egroup @gitlab-com/content-sites
 /content/handbook/security/security-assurance/security-compliance/access-reviews.md @cynthiamiller @tdilbeck @corey-oas @lcoleman @jlongo_gitlab @gitlab-com/egroup @gitlab-com/content-sites

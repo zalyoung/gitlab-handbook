@@ -12,7 +12,7 @@ When we go **back and forth three times,** we jump on a [synchronous video call]
 
 We communicate respectfully and professionally at all times.
 
-## Effective & responsible communication guidelines
+## Effective & Responsible Communication Guidelines
 
 1. **Assume [Positive Intent](/handbook/values/#collaboration).** Always begin with a position of positivity and grace.
 1. **Kindness Matters.** You are looking at a screen, but you are really talking to a person. If you wouldn't say it to a person's face, do not send it to them in a text message.
@@ -747,8 +747,8 @@ For example:
    As a listener, advocate (verbally if necessary) for those who have raised their hand.
    Just like in-person meetings be cognizant of when, who, and how you interrupt, we don't want [manterrupting](http://time.com/3666135/sheryl-sandberg-talking-while-female-manterruptions/).
 1. We end on the scheduled time. It might feel rude to end a meeting, but you're actually allowing all attendees to be on time for their next meeting.
-1. Do not use the chat of products like Zoom to communicate during the call, use the linked document instead. This allows everyone to contribute additional questions, answers, and links in the relevant place. It also makes it easier for people in conflicting timezones to contribute questions before the call and makes it easier to review questions and answers after the call, which can be before watching the recording.
-1. You do not need to remind other people to vocalize their questions. Just say their name and a keyword of the question, e.g. 'Jay about credit-cards'.
+1. Do not use the chat of products like Zoom to communicate during the call, use the linked document instead. Zoom Chat has been configured for a 30 day retention. This allows everyone to contribute additional questions, answers, and links in the relevant place. It also makes it easier for people in conflicting timezones to contribute questions before the call and makes it easier to review questions and answers after the call, which can be before watching the recording.
+1. You do not need to remind other people to vocalize their questions. Just say their name and a keyword of the question, e.g. 'Jay about credit-cards'. 
 1. Every comment is document worthy, even small support comments such as `+1` or `Very Cool!`.
 1. We encourage the recording and [sharing of everything to our YouTube Unfiltered channel](/handbook/marketing/marketing-operations/youtube/).
 1. It is unusual to smoke in an open office or video conference, vaping is associated with this. For this reason we ask that you don't vape during calls, and if you absolutely have to, kindly switch your camera off.

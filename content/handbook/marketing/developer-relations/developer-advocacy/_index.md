@@ -1,8 +1,6 @@
 ---
 title: "Developer Advocacy"
 description: "Developer Advocates build GitLab's technical brand with deep, meaningful conversations on engineering topics relevant to our community."
-aliases:
-- /handbook/marketing/developer-relations/developer-evangelism/index.html
 ---
 
 ## <i class="fas fa-bullhorn fa-fw color-purple font-awesome"></i> Welcome to the Developer Advocacy Handbook
@@ -131,6 +129,12 @@ Please read the [Content](/handbook/marketing/developer-relations/developer-advo
 ### Corporate event support
 
 The Developer Advocate team plays a key role in supporting events. We work closely alongside [Corporate Event Marketing](/handbook/marketing/integrated-marketing/corporate-events/) to provide strategic content and assistance for both corporate and third-party sponsored events. This collaboration ensures the success and seamless execution of various gatherings. To learn more please refer to the [Events page](/handbook/marketing/developer-relations/events/).
+
+### Consultancy
+
+Developer Advocates serve as consultants and subject matter experts (SMEs), leveraging their expertise and experience to support teams and customers with product features, new SKUs, and other topics.
+
+Please read the [Consultancy](/handbook/marketing/developer-relations/developer-advocacy/consultancy/) handbook to learn more about consultancy requests, decision matrix, and examples with GitLab Duo / AI adoption.
 
 ### Spokespersons
 

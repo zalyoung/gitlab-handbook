@@ -118,9 +118,8 @@ Status: In progress
 - Calibrations & Workday input by Director+: 2024-06-24 to 2024-07-10
 - PBP & E-Group leader approvals: 2024-07-12
 - Workday Approvals: 2024-07-16 to 2024-07-18
-- Communication: 2024-07-24 to 2024-08-01
+- Communication: 2024-07-24 to 2024-08-01 (after fully approved in Workday)
 - Effective date for promotions: 2024-08-01
-- Communication: After fully approved in Workday
 - After communicating 1:1 with individuals **on or after 2023-07-24**, updates can be posted publicly in #team-member-updates. Managers should *not* communicate until Total Rewards communicates that the promotions are approved.
 
 ## Planning
@@ -439,7 +438,7 @@ This section describes the approval chain after the People Business Partner subm
 #### Job Change Letter
 
 1. For [GitLab entities](/handbook/people-group/employment-solutions/#gitlab-entities) and [Independent Contractors](/handbook/people-group/employment-solutions/#team-members-hired-as-contractors-via-our-gitlab-it-bv-entity) a job change letter may be required, as per the steps mentioned below. If the team member is employed by a PEO, notify the applicable [PEO](/handbook/people-group/employment-solutions/#peo-professional-employer-organization-employer-of-record-and-not-a-gitlab-entity) either by email or for remote.com via their dashboard. See the People Connect 1password vault for contact details.
-1. Review the Signature requirements per country and process the job change letter accordingly. Please note not all entities and country locations require Job Change Letters (for example team members in the US will not receive a Job Change Letter).
+1. Review the [Signature requirements per country](https://docs.google.com/spreadsheets/d/1soc-j0Z_UUqHX8X04zJUzBrDv0I1SNCjkbO8-OTZQ24/edit?usp=sharing) and process the job change letter accordingly. Please note not all entities and country locations require Job Change Letters (for example team members in the US will not receive a Job Change Letter).
 1. Make a copy of the applicable Job Change Letter template and enter all applicable information based on the Workday request and add the applicable [Signatory](/handbook/hiring/talent-acquisition-framework/ces-contract-processes/#entity-contract-signatories) or [Company Signature Stamp](https://docs.google.com/document/d/1RWkI7zuFIUkW_sh1TmYii6e8zNOmz9USUoEr1wBIBpQ/edit?usp=sharing). The effective date is as follows:
     - For sales personnel with a variable change, the effective date is always the 1st of the month regardless of their entity.
     - If the team member is making a lateral move where there is no change in compensation, then the start date can be any Monday.
@@ -510,7 +509,7 @@ Note: There are no changes that are made in Workday for acting roles. To track a
 
 A person "acting" in the role is someone who occupies a role temporarily and will move back to their original role. "Acting" in a role may be to experiment with the role to determine if it fits an individual's career development path goals, or may be filling in for a vacant role while we hire someone to fill the role permanently. While interim is only applicable to the Engineering division, acting is used across GitLab.
 
-*Interviews are not required role Acting roles as they generally do not end in promotion, nor are direct reports in Workday generally moved to Acting managers.* The process for selecting someone for an acting position is:
+*Interviews are not required for Acting roles as they generally do not end in promotion, nor are direct reports in Workday generally moved to Acting managers.* The process for selecting someone for an acting position is:
 
 - Upcoming Acting roles will be discussed during staff meetings.
 - Leadership can gather interest from their team members for the upcoming acting roles.
