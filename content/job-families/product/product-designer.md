@@ -134,7 +134,7 @@ Everything in the Staff Product Designer role, plus:
 - **Recruiting:** Conduct portfolio reviews with staff product designers of qualified design candidates, and help retain a world-class team of product designers and product design managers.
 - **Cross-stage collaboration:** Identify innovation opportunities, and collaborate with teams to help them make informed decisions and iterate on those opportunities.
 - **Mentoring:** Actively engage with and support other designers' career development, mentor cross-functional team members and UX leaders, and foster a skill-building environment within the department.
-- **Vision:** Connect the work in your stage and the department to the broader product and company objectives.
+- **Vision:** Influence the vision and roadmap of your stage, connecting it to the broader product and company objectives.
 - **Goal setting:** Help your stage set achievable, measurable, and impactful goals that drive results.
 - **Operations:** Expose cultural, operational, and organizational needs in the department, address them or enable others to help.
 - **Early adoption:** Experiment with and drive the adoption of new processes, tools, and methods to improve practices in the UX department.
