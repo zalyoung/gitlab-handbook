@@ -30,7 +30,7 @@ A Product Designer reports to a [Product Design Manager](/job-families/product/p
 - You share our [values](/handbook/values/), and work in accordance with those values.
 - Strong [bias for action](/handbook/values/#bias-for-action) and ability to develop daily priorities to achieve goals ([manager of one](/handbook/values/#managers-of-one)).
 - Proficiency in the English language, both written and verbal, sufficient for success in a remote and largely asynchronous work environment.
-- Working knowlege of HTML/CSS, and familiarily with JavaScript.
+- Working knowledge of HTML/CSS, and familiarity with JavaScript.
 - General knowledge of Git (for example, branching, push/pulling, committing, squashing) and DevOps (for example, pipelines, deployments, security) flows.
 
 ## Levels
@@ -51,7 +51,7 @@ The Product Designer is a [grade 6](http://about.gitlab.com/handbook/total-rewar
 - **Iteration:** Practice design iteration within the [validation track](http://about.gitlab.com/handbook/product-development-flow/#validation-track) and take part in the [monthly release process](http://about.gitlab.com/handbook/engineering/workflow/#product-development-timeline) by [breaking down the designs](http://about.gitlab.com/handbook/product/ux/product-designer/#ideate-and-iterate) to fit the release cadence of your group. [Review and approve merge requests](http://about.gitlab.com/handbook/product/ux/product-designer/mr-reviews/) submitted by developers within the [build track](http://about.gitlab.com/handbook/product-development-flow/#build-track).
 - **Design system:** Actively contribute to the [Pajamas Design System](https://design.gitlab.com) by keeping design components available and up to date in design and prototyping tools, and ensuring that components fit together visually and functionally.
 - **UI copy:** Collaborate closely with a technical writer on microcopy and documentation suggestions.
-- **Design reviews:** Participate in [Design Reviews](http://about.gitlab.com/handbook/product/ux/product-designer/#design-reviews), giving and receiving feedback in an appropriate way.
+- **Design reviews:** Participate in [Design Reviews](http://about.gitlab.com/handbook/product/ux/product-designer/#design-reviews), giving and receiving feedback appropriately.
 - **Deferred UX:** Understand Deferred UX and make recommendations for its resolution with the help from a senior or staff product designer or your product design manager.
 - **Recruiting:** Evaluate case studies during the product designer candidate interview process and interview product manager candidates.
 
@@ -105,7 +105,7 @@ Everything in the Senior Product Designer role, plus:
 - **Thought leadership:** Promote best practices and support other designers in advocating for them within their teams.
 - **Recruiting:** Conduct independent portfolio reviews of qualified design candidates to help identify top talent in the candidate pool.
 - **Cross-stage collaboration:** Promote a holistic UX by proactively helping other designers navigate the organization and consider product overlaps, connections, and potential collisions.
-- **Mentoring:** Provide impactful feedback to ICs of the UX deparment and mentor them throughout product development.
+- **Mentoring:** Provide impactful feedback to ICs of the UX department and mentor them throughout product development.
 - **Vision:** Collaborate with your group to create a user-centric vision and shape the long-term roadmap based on user needs, connecting it to the broader product and company objectives.
 - **Early adoption:** Experiment with and drive the adoption of new processes, tools, and methods to improve the product design practice.
 - **Open source:** Create a welcoming community for every contributor by driving engagement of design community contributions.
@@ -161,7 +161,7 @@ Everything in the various levels of product designer roles, plus:
 
 - **Intermediate development skills** We work primarily with Vue, Rails, and SCSS, so designers should be comfortable updating, building, and reviewing code within those frameworks.
 - **Advanced Git knowledge** Since we spend most of our time working in merge requests, designers should be comfortable using Git effectively.
-- **Creation and management of feature flags** Know when to use feature flags, how to create them, and montitor their progress and potential feedback.
+- **Creation and management of feature flags** Know when to use feature flags, how to create them, and monitor their progress and potential feedback.
 - **Familiarity with unit testing** The ability to fix, update, and write RSpec and Jest tests.
 
 ## Performance indicators
@@ -193,11 +193,11 @@ Candidates for this position can expect the hiring process to follow the order b
   - Towards the end of each interview, you'll be given some time to ask questions.
 - If you successfully pass the previous interviews, you'll meet with a senior manager of product design for a 50-minute interview. This interview will focus on assessing your research, strategy, and design skills. The interviewer will want to understand how you have incorporated research into your work and get a feel for your understanding of the fundamentals of research and UX methodology. Be prepared to answer questions around the soft skills product designers need, and be prepared to talk to the interviewer about how you apply these skills in the real world.
 - The final interview will be with a product manager and engineering manager. They'll focus on your ability to collaborate with product and engineering teams and determine how well your skills align with the needs of a specific stage group.
-- Successful candidates will subsequently be made an offer via a video call or phone call.
+- Successful candidates will subsequently be made an offer through a video call or phone call.
 
 ### Hiring process for UX Paper Cuts Specialty
 
-The UX Paper Cuts speciality has an emphasis on basic coding skills as the role involves making changes to the product by creating, reviewing, and merging MRs. The final interview will be with a member of the UX Paper Cuts team and will focus on discussing the technical exercise you'll receive a couple of days prior to the scheduled call. The technical exercise is brief and to be completed in advance. It's an opportunity to learn your comfort and capability in making small frontend changes. This final interview and exercise replaces the product manager and engineering manager mentioned above.
+The UX Paper Cuts specialty has an emphasis on basic coding skills as the role involves making changes to the product by creating, reviewing, and merging MRs. The final interview will be with a member of the UX Paper Cuts team and will focus on discussing the technical exercise you'll receive a couple of days prior to the scheduled call. The technical exercise is brief and to be completed in advance. It's an opportunity to learn your comfort and capability in making small frontend changes. This final interview and exercise replaces the product manager and engineering manager mentioned above.
 
 ### Preparing for your interviews
 
