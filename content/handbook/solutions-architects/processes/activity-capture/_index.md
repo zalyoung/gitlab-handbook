@@ -73,9 +73,9 @@ Capturing various types of data helps us build a comprehensive understanding of 
 - **Overview**: Log activities such as meetings and calls using Rattle integrated with Slack and Salesforce.
 - **Details**: [Activity Based Logging Guide](/handbook/solutions-architects/processes/activity-capture/activity-logging)
   
-### 2. **Email Logging (Salesforce Connector/BCC) [Optional]**
+### 2. **Email Logging (Gong) [Optional]**
 
-- **Overview**: Record email communications with customers in Salesforce using the BCC address or Salesforce Chrome plugin.
+- **Overview**: Record email communications with customers in Salesforce using the Gong email connection.
 - **Details**: [Email Logging Guide](/handbook/solutions-architects/processes/activity-capture/email-logging)
 
 ### 3. **SFDC Fields [Required]**
