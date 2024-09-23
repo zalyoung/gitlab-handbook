@@ -87,3 +87,7 @@ The following are considerations for choosing multi-region buckets over dual-reg
    [^1]: Most of the Redis load is on the primary node, so losing replicas should not cause any service interruption
    [^2]: We setup maximum replicas in our Kubernetes clusters servicing front-end traffic, this is done to avoid saturating downstream dependencies. For a zonal failure, a cluster reconfiguration is necessary to increase these maximums.
    [^3]: There is a 4 hr RPO for Operations because Chef is an single point of failure in a single availability zone and our restore method uses disk snapshots, taken every 4 hours. While most of our Chef configuration is also stored in Git, some data (like node registrations) are only stored on the server.
+
+## Single Source of Truth
+
+[Main Backups Page](/handbook/engineering/infrastructure/production/#backups)

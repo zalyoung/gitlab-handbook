@@ -168,6 +168,101 @@ Exceptions to this backup policy will be tracked in the [compliance issue tracke
 
 - Parent Policy: [Information Security Policy](/handbook/security/)
 
+## DR process
+
+### Roles & Responsibilities
+
+| Role | Responsibility|
+| ---- | ------ |
+| Infrastructure Team | Responsible for executing recovery of the production gitlab.com database in the event of a disaster |
+| Infrastructure Management (Code Owners) | Responsible for approving significant changes and exceptions to this procedure |
+
+### Database recovery
+
+### Purpose
+
+This is a overview of the disaster recovery strategy we have in place for the PostgreSQL databases. In this context, a disaster means losing the any one of the database clusters or parts of them (a DROP DATABASE-type incident).
+
+### Scope
+
+Applies to recovery of the GitLab PostgreSQL production database in a disaster scenario.
+
+### Summary
+
+For the [PostgreSQL database disaster recovery process](#database-recovery) we utilize
+Postgresql backups with WAL-G , where we constantly stream completed [WAL files](https://www.postgresql.org/docs/current/wal-intro.html) and push "full" backup periodically( on a daily basis ) to GCS to enable [PITR](https://www.postgresql.org/docs/9.6/continuous-archiving.html).
+
+In case of a disaster, this allows us to replay WAL logs to a specific point in time. We utilize [delayed replicas](#delayed-replica) to quickly perform PITR from the WAL archive in case disaster strikes additionally we have [archived replicas](#archive-replica) inplace to continuously validate the WAL archive, ensuring that the Point-in-Time Recovery (PITR) process is intact and can be applied without interruption.
+
+### Procedure in depth
+
+For more information please refer our runbook doc for Postgresql backups [here](https://gitlab.com/gitlab-com/runbooks/-/blob/master/docs/patroni/postgresql-backups-wale-walg.md?ref_type=heads)
+
+## Disaster Recovery Gamedays
+
+### Overview
+
+Mock DR events planned on a quarterly schedule simulated for a service and/or combination of services to test our DR processes and improve on them in case of an actual incident.
+
+### Definitions
+
+#### Confidence Levels
+
+We have clear confidence levels setup for each of the services that helps represent how efficient our current DR process is.
+
+#### Zonal Confidence Level
+
+- <b>No confidence</b>
+    1. We have not tested recovery
+    2. We do not have a good understanding of the impact of the component going down
+    3. We do not have an emergency plan for when the component goes down
+
+- <b>Low confidence</b>
+    1. We have not tested recovery
+    2. We have a good understanding of the impact of the component going down
+    3. We may or may not have an emergency plan when the component goes down, but it has not been validated
+
+- <b>Medium confidence</b>
+    1. We have tested recovery in a production like environment but not tested in production
+    2. We have a good understanding of the impact of the component going down
+    3. We have an emergency plan for when the component goes down, and it has been validated in some environment
+
+- <b>High confidence</b>
+    1. We have tested recovery in production
+    2. We have a good understanding of the impact of the component going down
+    3. We have an emergency plan when the component goes down, and it has been validated
+
+**Note** : This is still a WIP object, currently we have services like Gitaly , Patroni , PG Bouncer , HAProxy in Medium confidence
+
+### Time Measurements
+
+During the process of testing our recovery processes for Zonal and Regional outages, we want to record timing information.
+There are three different timing categories right now:
+
+1. Fleet specific VM recreation time
+2. Component specific DR restore process time
+3. Total DR restore process time
+
+#### Common measurements
+
+<b>VM Provision Time</b>
+This is the time from when an apply is performed from an MR to create new VMs until we record a successful bootstrap script completion.
+In the bootstrap logs (or console output), look for Bootstrap finished in X minutes and Y seconds.
+When many VMs are provisioned, we should find the last VM to complete as our measurement.
+
+<b>Bootstrap Time</b>
+During the provisioning process, when a new VM is created, it executes a bootstrap script that may restart the VM.
+This measurement might take place over multiple boots.
+This script can help measure the bootstrap time.
+This can be collected for all VMs during a gameday, or a random VM if we are creating many VMs.
+
+<b>Gameday DR Process Time</b>
+The time it takes to execute a DR process. This should include creating MRs, communications, execution, and verification.
+This measurement is a rough measurement right now since current process has MRs created in advance of the gameday.
+Ideally, this measurement is designed to inform the overall flow and duration of recovery work for planning purposes.
+
+**Note** : View time measurements [here](https://gitlab.com/gitlab-com/runbooks/-/blob/master/docs/disaster-recovery/recovery-measurements.md)
+
 ## Patching
 
 ### Policy
