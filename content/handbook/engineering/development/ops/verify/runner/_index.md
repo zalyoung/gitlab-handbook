@@ -380,6 +380,82 @@ there.
 The only course of action here is to fix the vulnerable code. If the fix is not simple and will take time to implement
 (and prevent us from meeting CVE SLAs), it might be necessary to create a [deviation request issue](#third-party-os-packages).
 
+### Working with security forks
+
+When issues are marked confidential, the MR that fixes the issue should be made in a project's security fork (see
+[security-forks](https://gitlab.com/gitlab-org/security?filter=gitlab%20runner)). In general the process is identical to
+crating and merging MRs in the canonical project repo, with a couple of notable differences.
+
+Note that MRs in the security repo _must_ be reviewed/approved by a security counterpart in addition to a runner
+code-owner.
+
+The examples below are given for the [GitLab Runner](https://gitlab.com/gitlab-org/gitlab-runner) project, but apply
+equally to all [runner-related projects with security forks](https://gitlab.com/gitlab-org/security?filter=gitlab%20runner).
+
+#### Keeping the security fork up to date with its canonical repo
+
+Security forks are configured to automatically synchronize with the canonical repo, but this can be disabled if changes
+exist in the security fork's `main` branch that do not exists in the canonical repo's `main` branch. This usually
+happens when a security MR is merged into the security fork's `main`, but not into the canonical repo's `main` branch.
+In this event, it is necessary to manually synchronize the security fork against the canonical repo.
+
+From a checked-out canonical repo:
+
+```shell
+git fetch # ensure you have the latest changes from the canonical repo.
+git remote add security git@gitlab.com:gitlab-org/security/gitlab-runner.git # add the security repo as a remote, be sure to use the git url.
+git fetch security # fetch the security fork repo references.
+git checkout -b security-main security/main # checkout the security fork's main branch.
+git rebase --rebase-merges origin/main # rebase the canoncial main onto the security main.
+git log --color --topo-order --oneline # ensure the resulting history is sane.
+git push --force # push the resulting local security main brnach to the security remote repo.
+```
+
+Notes:
+
+1. These steps will not fully synchronize the security and canonical repositories in both directions. They will only
+   bring changes that are only the canonical repo, into the security repo. Synchronizing in the other direction is
+   described below.
+2. The security repos do/should not have force-push branch protection on the `main` branch, but if the one you are
+   working with does, temporarily disable it so you can perform the last step.
+3. If the security fork `main` branch becomes too out of date with the canonical repo `main` branch (specifically with
+   changes that exist only in the security repo), merge conflicts are likely to occur when rebasing the canonical repo
+   atop the security fork. You will have to resolve these.
+
+#### Merging security MRs back into the canonical repo
+
+When MRs created in the security repo are merged (into the security repo's `main` branch), the security and canonical
+repo will become unsynchronized. Merging MRs from the security fork back into the canonical repo is a manual process.
+Each MR in the security repo that a developer wants to incorporate into the canonical repo must be be done manually via
+a new MR in the canonical repo. This procedure is manual so developers can control when these merges are done.
+
+To merge an MR already merged in the security fork `main` branch into the canonical repo, follow these steps:
+
+From a checked-out canonical repo:
+
+```shell
+git fetch # ensure you have the latest changes from the canonical repo.
+git remote add security git@gitlab.com:gitlab-org/security/gitlab-runner.git # add the security repo as a remote, be sure to use the git url.
+git fetch security # fetch the security fork repo references.
+git checkout -b name-of-working-branch origin/main # create a new branch into which you'll cherry-pick commits from the security repo.
+git cherry-pick sha-of-commit-in-security-repo # cherry-pick all commits from the relevant MR from the security repo into your branch in the canonical repo.
+```
+
+Repeat the final step for all commits in the relevant MR, in topographical order, _excluding the merge commit_. Do not
+include the MR's merge commit in the cherry-picked commits.
+
+Finally, create an MR in the canonical repo from this branch as usual.
+
+Notes:
+
+1. If the security fork becomes too out of date with the canonical repo, merge conflicts are likely when
+cherry-picking the commits. You will have to resolve them.
+2. You should manually synchronize the security repo as described above immediate after the MR is merged into the
+   canonical main.
+3. It is not the aim of these instruction to completely synchronize the security and canonical repos in both directions.
+   Full synchronization will occur as a byproduct of merging all MRs from the security repo into the canonical repo. It
+   is up to the developers' discretion when this happens for each MR.
+
 ## Issue Health Status Definitions
 
 - **On Track** - We are confident this issue will be completed and live for the current milestone. It is all [downhill from here](https://basecamp.com/shapeup/3.4-chapter-12#work-is-like-a-hill).
