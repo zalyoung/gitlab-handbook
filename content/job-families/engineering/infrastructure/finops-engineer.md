@@ -35,7 +35,6 @@ Unless otherwise stated, all FinOps roles at GitLab share the following requirem
 
 ## Job Grades
 
-
 ### Senior FinOps Engineer
 
 The Senior FinOps Engineer is a [grade 7](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
