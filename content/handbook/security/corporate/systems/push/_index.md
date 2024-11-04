@@ -16,5 +16,3 @@ In addition, the agent gives the Security Team visibility into unapproved SaaS a
 
 - DRI: `@zhardie1`
 - `#security-corpsec` Slack channel
-
-## TODO
