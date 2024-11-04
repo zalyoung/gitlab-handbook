@@ -1,0 +1,41 @@
+---
+title: "FinOps Engineering"
+description: "FinOps Engineers at GitLab work in support of both Infrastructure and Finance."
+canonical_path: "/job-families/engineering/infrastructure/finops-engineer"
+manual_cookiebot: true
+---
+
+## FinOps Engineering Roles at GitLab
+
+FinOps Engineers at GitLab are a supporting function to enable financial oversight on our production platforms. The FinOps Engineer is responsible for optimizing cloud costs and ensuring financial accountability in the organization's cloud infrastructure. They work together with Engineers and Financial Analysts to solve common goals.
+
+Unless otherwise stated, all FinOps roles at GitLab share the following requirements and responsibilities:
+
+### Requirements
+
+- 3+ years of experience in cloud operations or cloud cost management, preferably in a SaaS environment.
+- Strong understanding of cloud computing platforms (AWS, GCP, OCI, SaaS vendors), and Cloud-native technologies (Kubernetes, CDNs, Buckets, AI models...)
+- Experience with cloud cost management tools (Cloudability, CloudHealth, etc.).
+- Experience with scripting and automation tools (Python, Bash, CI/CD, etc.).
+- Experience with Data Visualization Tools (E.g. Looker Studio, Snowflake, Grafana, Kibana)
+- Good understanding of data ingestion methodologies (e.g. ETL, ELT, dbt, Airflow)
+- Excellent analytical and problem-solving skills, with a passion for driving cost efficiency.
+- Strong communication and interpersonal skills, adept at collaborating effectively in a remote setting.
+- Able to thrive in a fully remote organization.
+
+### Responsibilities
+
+- Design and implement cloud cost allocation and chargeback models tailored to our SaaS product.
+- Create unit-economics strategy and alllocation method for Engineering and Product teams.
+- Develop forecasting models to predict future outcomes of cloud infrastructure spend and usage.
+- Partner with engineering teams to identify and implement cost optimization opportunities, fostering a culture of cost awareness.
+- Proactively monitor cloud usage patterns and identify anomalies, enabling quick action to prevent cost overruns.
+- Automate cloud cost management processes to improve efficiency and scalability.
+- Stay at the forefront of cloud cost management, researching and evaluating new tools and technologies to enhance our FinOps capabilities.
+
+## Job Grades
+
+
+### Senior FinOps Engineer
+
+The Senior FinOps Engineer is a [grade 7](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
