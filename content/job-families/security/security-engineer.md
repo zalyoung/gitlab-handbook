@@ -385,43 +385,30 @@ Security Assurance Engineers enable Sales and support go-to-market by achieving 
 
 ### Security Architect
 
-Security Architecture is a highly technical team responsible for the assessment, mitigation and reduction of risks associated with the GitLab product and maintaining security strategy and solutions across the entire GitLab ecosystem. 
+Security Architects are responsible for the assessment, reduction or mitigation of risks associated with the GitLab product and architecture. They maintains the security strategy and solutions across the entire GitLab ecosystem. 
 
-This position reports to the VP of Product Security. Generally we would see this specialty to be filled at the Staff Security Engineer level and above. Staff+ engineers have a wide sphere of influence and responsibility at the individual contributor level and as such may be asked to focus on high impacting focus areas. 
+Security Architects report to the VP of Product Security. Generally we would see this specialty to be filled at the Staff Security Engineer level and above. These Security Engineers have a wide sphere of influence and responsibility at the Individual Contributor level and as such may be asked to focus on high impacting focus areas. 
 
-Responsibilities: 
+Responsibilities
 
-- Get a better understanding of our security posture and a better grasp on priorities, by creating and maintaining a Product Risk Register (PRR).
-- Make the PRR the cornerstone of Security Architecture, to derive metrics to drive decisions and define Key Performance Indicators (KPIs) for the Product Security department.
-- Define key architectural patterns, engineering practices and standards and drive them across the organization and 
-- Work closely with other teams to develop and promote security architectures to protect the GitLab product. 
-- Advocate, document and define security architecture vision from a strategic perspective, including internal and external platforms, tools, and systems.
+- Define key architectural patterns, practices, and standards and drive them across the organization.
+- Maintain a high level of Architecture fluency by documenting GitLab systems, environements, and flows.
+- Advocate, document, and define Security Architecture vision from a strategic perspective.
+- Maintain a good understanding of our security posture and a better grasp on priorities with the Product Risk Register.
+- Derive metrics and dashboards from the Product Risk Register to drive decisions and define Key Performance Indicators (KPIs) for the Product Security department.
 - Contribute to, interpret, and disseminate information security policies, standards, and promote awareness of these artifacts to technical component owners.
-- Ensure compliance to information security practices & standards to reduce the likelihood of breaches, audit findings, regulatory, and legal liabilities
+- Ensure compliance to information security practices & standards to reduce the likelihood of breaches, audit findings, regulatory, and legal liabilities.
 - Be a consultant for escalated security incidents where applicable.
+- Unification and optimization of processes between teams. 
 
 Requirements
 
 - Ability to measure and quantify risk to adopt the right response.
-- Deep knowledge of GitLab internals and teams.
 - Understand the concept of architectural complexity.
 - Deep, experience-based, understanding of one or more of software/infrastructure/enterprise architectural best practices
 - Knowledge of AI concepts and threats.
 
-Security Architects can also be domain experts in specific areas like Cloud Security, Software Security, or even Enterprise Architecture.
-
-#### Security Architect (Enterprise)
-
-The Security Architect (Enterprise) is focused on creating a streamlined environment to achieve the business’ mission from a security perspective, in collaboration with the rest of the organization.
-
-Specialized Responsibilities (Enterprise)
-
-- Centralise security insights in the establishment of metrics, dashboards, and integration of operational processes supporting the PRR.
-- Build and maintain security value metrics that drive decision making at the C-Level.
-- Unification and optimization of processes between teams. 
-- Create a stable, efficient, and cohesive ecosystem supported by Security Architecture to facilitate cross-departmental collaboration on security-related operations.
-
-Specialized Requirements (Enterprise)
+Nice to have
 
 - Ecosystem knowledge of security teams and cross-departmental processes.
 - Experience in working on high-impact operations involving multiple departments and divisions. 
