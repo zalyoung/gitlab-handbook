@@ -29,4 +29,6 @@ Access to the [GitLab Rails Console](https://docs.gitlab.com/ee/administration/o
 
 ### Exceptions to this policy
 
-In some exceptional scenarios, such as critical production outages impacting customers, temporary authorization to make changes via the rails console may be requested. To do so, you must get the approval of the current EOC in addition to either an Infrastructure Manager or IMOC. After the immediate need has passed, actions taken in the console should be translated into code changes and deployed through the standard release process to ensure a permanent and auditable fix. 
+In some exceptional scenarios, such as critical production outages impacting customers, temporary authorization to make changes via the rails console may be requested. Approval can be obtained from any Engineering Manager in the Infrastructure Platforms department. If you are in an incident, approval can also be obtained from the current EOC or IM.
+
+After the immediate need has passed, actions taken in the console should be translated into code changes and deployed through the standard release process to ensure a permanent and auditable fix. 
