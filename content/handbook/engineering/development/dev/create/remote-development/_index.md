@@ -205,7 +205,7 @@ NOTE: All issues in this process _must_ be assigned the `~Category:Workspace` or
 
 ```mermaid
 graph TD;
-  S[Feature Inception] -->|"New epic is created, and '(workspaces|webide)-workflow::unprioritized' label is applied"| V[High Level Validation and Planning]
+  S[Feature Inception] -->|"New epic is created, and '(workspaces|webide)-workflow::unprioritized' label is applied"| V[High Level Planning]
   V -->|"Epic is prioritized into the roadmap and on the epic board by PM"| R[Async Refinement]
   R -->|"Epic is broken down into issues and 'refined' label applied. Change epic color to 'Apricot'."| P[IPM - Sync/Async]
   P -->|"Epics marked refined have all of its issues weighed. Once all weighed, change epic color to 'Mint'."| I[Ready for Development]
