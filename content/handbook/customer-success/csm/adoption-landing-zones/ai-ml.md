@@ -7,7 +7,6 @@ description: "A page containing links to helpful AI/ML resources for the CSM tea
 
 ## Highspot Pages
 
-
 ## General interaction with customers
 
 ### GitLab Duo / AI - Interaction with customers
