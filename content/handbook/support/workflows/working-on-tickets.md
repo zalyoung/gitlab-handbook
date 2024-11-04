@@ -87,8 +87,6 @@ If you are using the Zendesk Download Router, you can set up automatic cleanup u
    0 12 * * * find ~/Downloads -type d -name "zd-*" -mtime +30 -exec rm -rf {} +
    ```
 
-Alternatively, consider setting a weekly calendar reminder to clean up your `~/Downloads` folder.
-
 ## First response and ongoing communication
 
 When starting work on a ticket, prioritize these steps to effectively address
