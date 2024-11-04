@@ -60,6 +60,36 @@ Employ the following workflows for:
   - Normal FRT 8h, NRT 24h
   - Low FRT 24h, NRT 24h
 
+## Managing Zendesk attachments
+
+When working with Zendesk tickets, you may need to download attachments to your laptop. While [our laptops have full disk encryption](../../security/corporate/services/laptops/security/encryption/_index.md), we need to be careful with downloaded attachments as they can contain [RED data (customer data)](../../security/data-classification-standard.md#redtext-danger-red):
+
+- Delete any downloaded Zendesk attachments as soon as possible after resolving the ticket
+- Keep downloads in a dedicated folder for easier management
+- Take extra care with sensitive information (tokens, passwords, credentials). If needed, [remove the sensitive information](../providing_excellent_customer_service.md#removing-information-from-tickets) directly from the ticket as well
+- Remember that sanitized data in Zendesk doesn't affect previously downloaded copies
+
+It is recommended to use the [Zendesk Download Router](https://gitlab.com/gitlab-com/support/toolbox/zd-dl-router) web browser extension
+to download attachments from Zendesk. By default, the extension will download all Zendesk attachments to `~/Downloads/zd-%TICKET_ID%`. 
+Note that this assumes your browser is using its default download location - you may need to adjust paths if you've customized your browser's download settings.
+
+If you are using the Zendesk Download Router, you can set up automatic cleanup using `crontab`:
+
+1. Open your crontab for editing:
+
+   ```shell
+   crontab -e
+   ```
+
+1. Add the following line (adjust the path if needed):
+   
+   ```shell
+   # Automatically delete any Zendesk attachments older than 30 days
+   0 12 * * * find ~/Downloads -type d -name "zd-*" -mtime +30 -exec rm -rf {} +
+   ```
+
+Alternatively, consider setting a weekly calendar reminder to clean up your `~/Downloads` folder.
+
 ## First response and ongoing communication
 
 When starting work on a ticket, prioritize these steps to effectively address
