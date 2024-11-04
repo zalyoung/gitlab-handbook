@@ -11,7 +11,6 @@ The Diversity, Inclusion and Belonging (DIB) team builds an environment where al
 
 ## Requirements
 
-- Ability to use GitLab
 - Share our [values](/handbook/values/), and work in accordance with those values
 - Strong business acumen and ability to connect DIB learning to business needs
 - Skilled at taking a consultative and collaborative approach to problem solving
@@ -23,12 +22,13 @@ The Diversity, Inclusion and Belonging (DIB) team builds an environment where al
 - Experience working in a global environment preferred
 - Strong ability to plan proactively and react quickly when problems arise
 - Strong communication skills
+- Ability to use GitLab
 
 ## Levels
 
 ### Diversity, Inclusion, and Belonging Specialist
 
-The Diversity, Inclusion and Belonging Specialist reports to the [Diversity Business Partner](#senior-diversity-business-partner).
+The Diversity, Inclusion and Belonging Specialist reports to the [Senior Diversity Business Partner](#senior-diversity-business-partner).
 
 #### Diversity, Inclusion, and Belonging Specialist Job Grade
 
@@ -84,12 +84,12 @@ The Senior Diversity Business Partner is a [grade 7](/handbook/total-rewards/com
 - Extends the Diversity, Inclusion, and Belonging Specialist responsibilities
 - Influence and hold leadership accountable to deliver on DIB initiatives; provide consultation, coordination and strategic planning for the design and implementation of programs focused on creating a culture of belonging, developing and advancing diverse internal talent, and reducing the attrition of diverse talent.
 - Focus on and drive initiatives that move the needle on our overall headcount and promotions among underrepresented groups.
-- Expand and extend GitLab’s DIB strategy into the R&D organization, with added rigor and accountability.
+- Expand and extend GitLab’s DIB strategy into the Division they are assigned to partner, adding rigor and accountability for results.
 - Leverage data driven insights throughout to determine the narrative, measure success and advocate for change.
 - Build strong collaborative working relationships among People and other cross-functional teams.
-- Establish, manage and iterate on key performance indicators and OKRs specifically supporting the employee lifecycle within the Engineering, Product and Security departments.
+- Establish, manage and iterate on key performance indicators and OKRs specifically supporting the employee lifecycle within the Divsion they responsible for partnering with.
 - Ensure alignment with our Learning and Development team members and develop a long term roadmap that will scale beyond R&D.
-- Alignment with people business partners on org health metrics for R&D divisions and subsequent DIB programs necessary pending outcomes
+- Alignment with people business partners on org health metrics for the Divisions and subsequent DIB programs necessary pending outcomes
 - Manage monthly DIB communication strategy in alignment with internal communications teams
 - Default to partnership in order to build meaningful programs that inspire and deliver change in the organization.
 
