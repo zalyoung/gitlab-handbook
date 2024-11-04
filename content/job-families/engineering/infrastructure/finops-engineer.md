@@ -15,7 +15,7 @@ Unless otherwise stated, all FinOps roles at GitLab share the following requirem
 
 - 3+ years of experience in cloud operations or cloud cost management, preferably in a SaaS environment.
 - Strong understanding of cloud computing platforms (AWS, GCP, OCI, SaaS vendors), and Cloud Native technologies (Kubernetes, Prometheus, OpenCost, etc)
-- Strong understanding of the FOCUS Framework.
+- Strong understanding of the [FOCUS Framework](https://www.finops.org/insights/focus-1-0-available/#what-is-focus).
 - Experience with cloud cost management tools (Cloudability, CloudHealth, etc.).
 - Experience with scripting and automation tools (Python, Bash, CI/CD, etc.).
 - Experience with Data Visualization Tools (Looker Studio, Snowflake, Grafana, Kibana)
