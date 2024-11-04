@@ -11,7 +11,6 @@ The Push agent (Chrome Extension) will be installed across GitLab’s entire fle
 
 In addition, the agent gives the Security Team visibility into unapproved SaaS applications and plugins allowing Security to quickly assess the overall risk to GitLab. GitLab is currently only considering covering Google Chrome based browsers, which will soon be a requirement to access GitLab data.
 
-
 ### System Owner
 
 - DRI: `@zhardie1`
