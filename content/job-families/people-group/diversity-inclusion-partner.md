@@ -28,7 +28,7 @@ The Diversity, Inclusion and Belonging (DIB) team builds an environment where al
 
 ### Diversity, Inclusion, and Belonging Specialist
 
-The Diversity, Inclusion and Belonging Specialist reports to the [DIB Partner](#diversity-inclusion-and-belonging-partner).
+The Diversity, Inclusion and Belonging Specialist reports to the [Diversity Business Partner](#senior-diversity-business-partner).
 
 #### Diversity, Inclusion, and Belonging Specialist Job Grade
 
@@ -113,7 +113,6 @@ The Senior Diversity Business Partner is a [grade 7](/handbook/total-rewards/com
 - [Women voluntary attrition](/handbook/company/culture/inclusion/#performance-indicators)
 - [Pay equality](/handbook/company/culture/inclusion/#performance-indicators)
 - [Engagement survey inclusion score](/handbook/company/culture/inclusion/#performance-indicators)
-
 
 ### Manager, Diversity Inclusion, and Belonging
 
