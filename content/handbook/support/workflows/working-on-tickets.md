@@ -69,7 +69,7 @@ When working with Zendesk tickets, you may need to download attachments to your 
 1. Take extra care with sensitive information (tokens, passwords, credentials). If needed, [remove the sensitive information](../providing_excellent_customer_service.md#removing-information-from-tickets) directly from the ticket as well
 
 It is recommended to use the [Zendesk Download Router](https://gitlab.com/gitlab-com/support/toolbox/zd-dl-router) web browser extension
-to download attachments from Zendesk. By default, the extension will download all Zendesk attachments to `~/Downloads/zd-%TICKET_ID%`. 
+to download attachments from Zendesk. By default, the extension will download all Zendesk attachments to `~/Downloads/zd-%TICKET_ID%`.
 Note that this assumes your browser is using its default download location - you may need to adjust paths if you've customized your browser's download settings.
 
 If you are using the Zendesk Download Router, you can set up automatic cleanup using `crontab`:
@@ -81,7 +81,6 @@ If you are using the Zendesk Download Router, you can set up automatic cleanup u
    ```
 
 1. Add the following line (adjust the path if needed):
-   
    ```shell
    # Automatically delete any Zendesk attachments older than 30 days
    0 12 * * * find ~/Downloads -type d -name "zd-*" -mtime +30 -exec rm -rf {} +
