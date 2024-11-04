@@ -7,8 +7,8 @@ title: "Security Architecture"
 ## Team Information
 
 - **Team Pages**
-  - [Handbook Page](https://handbook.gitlab.com/handbook/security/product-security/security-architecture/)
-  - [Gitlab Sub-Group](https://gitlab.com/gitlab-com/gl-security/product-security/security-architecture/)
+  - [Handbook Page](/handbook/security/product-security/security-architecture/)
+  - [GitLab Sub-Group](https://gitlab.com/gitlab-com/gl-security/product-security/security-architecture/)
 - **Contact Info**
   - Slack Channels
     - `#security-architecture`: main channel to engage with the team
@@ -68,17 +68,17 @@ cycle of source code:
 
 <!-- Using this page until infrasec requirements are in the handbook -->
 
-- [Security Requirements for Development and Deployment]({{< ref "security-development-deployment-requirements" >}})
+- [Security Requirements for Development and Deployment](/handbook/security/planning/security-development-deployment-requirements/)
 
 ### Compliance
 
-- [GitLab Audit Logging Policy]({{< ref "audit-logging-policy" >}})
+- [GitLab Audit Logging Policy](/handbook/security/security-and-technology-policies/audit-logging-policy/)
 
 ### Cryptography
 
 - [Do not roll your own crypto]({{< ref "encryption-policy#rolling-your-own-crypto" >}}) (also one of our [Security Architecture Principles](#security-architecture-principles)
 )
-- Reference our [GitLab Cryptography Standard]({{< ref "cryptographic-standard" >}})
+- Reference our [GitLab Cryptography Standard](/handbook/security/cryptographic-standard/)
 
 <!-- Add FIPS and FedRamp requirements here when available -->
 
@@ -158,7 +158,7 @@ Make attacks less attractive.
 #### Examples
 
 - A system/service that only needs to read git commits should not be able to access user data
-- GitLab team members don't have access to billing data, nor anything else [classified red data]({{< ref "data-classification-standard" >}})
+- GitLab team members don't have access to billing data, nor anything else [classified red data](/handbook/security/data-classification-standard/)
 
 #### Links
 
@@ -360,13 +360,13 @@ aka Fail Safe Defaults.
 - Don't rely on a single point/layer of security:
   - Secure every level
   - Stop failures at one level propagating
-- [Encrypt data at rest]({{< ref "encryption-policy#encryption-at-rest" >}}) and [in transit]({{< ref "encryption-policy#encryption-in-transit" >}})
+- [Encrypt data at rest](/handbook/security/product-security/vulnerability-management/encryption-policy/#encryption-at-rest) and [in transit](/handbook/security/product-security/vulnerability-management/encryption-policy/#encryption-in-transit)
 - Use vulnerability scanners
 - Close unnecessary ports and disable unused features
 
 #### Examples
 
-- A resource is well protected when accessed via the UI, but could be more exposed via the API.
+- A resource is well protected when accessed with the UI, but could be more exposed through the API.
 - Accounts are locked when too many attempts, in order to avoid brute-force attacks.
 - OS execution can lead to bypass all application security layers, because the execution occurs
   outside of the application.
@@ -446,7 +446,7 @@ aka Fail Safe Defaults.
 - The weakest link could also be a user. Not enforcing strong passwords and MFA could lead to
   sensitive data exposure, but users can also do harmful actions without being aware of it.
 - OS (system) commands often leads to bypassing most, if not all, the security controls of an
-  applicaton. It is a common vector for [RCEs](https://en.wikipedia.org/wiki/Arbitrary_code_execution) and should be avoided as much as possible.
+  application. It is a common vector for [RCEs](https://en.wikipedia.org/wiki/Arbitrary_code_execution) and should be avoided as much as possible.
 
 #### Links
 
