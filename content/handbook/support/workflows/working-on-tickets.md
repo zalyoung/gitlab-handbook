@@ -62,13 +62,13 @@ Employ the following workflows for:
 
 ## Managing Zendesk attachments
 
-When working with Zendesk tickets, you may need to download attachments to your laptop. While [our laptops have full disk encryption](../../security/corporate/services/laptops/security/encryption/_index.md), we need to be careful with downloaded attachments as they can contain [RED data (customer data)](../../security/data-classification-standard.md#redtext-danger-red):
+When working with Zendesk tickets, you may need to download attachments to your laptop. While [our laptops have full disk encryption](../../security/corporate/services/laptops/security/encryption/), we need to be careful with downloaded attachments as they can contain [RED data (customer data)](../../security/#redtext-danger-red):
 
 1. Keep downloads in a dedicated folder for easier management, for example with [Zendesk Download Router](https://gitlab.com/gitlab-com/support/toolbox/zd-dl-router)
 1. Automate the deletion of downloaded attachments as soon as possible after resolving the ticket
 1. Take extra care with sensitive information (tokens, passwords, credentials). If needed, [remove the sensitive information](../providing_excellent_customer_service.md#removing-information-from-tickets) directly from the ticket as well
 
-It is recommended to use the [Zendesk Download Router](https://gitlab.com/gitlab-com/support/toolbox/zd-dl-router) web browser extension
+The [Zendesk Download Router](https://gitlab.com/gitlab-com/support/toolbox/zd-dl-router) web browser extension can be used
 to download attachments from Zendesk. By default, the extension will download all Zendesk attachments to `~/Downloads/zd-%TICKET_ID%`.
 Note that this assumes your browser is using its default download location - you may need to adjust paths if you've customized your browser's download settings.
 
