@@ -81,6 +81,7 @@ If you are using the Zendesk Download Router, you can set up automatic cleanup u
    ```
 
 1. Add the following line (adjust the path if needed):
+
    ```shell
    # Automatically delete any Zendesk attachments older than 30 days
    0 12 * * * find ~/Downloads -type d -name "zd-*" -mtime +30 -exec rm -rf {} +
