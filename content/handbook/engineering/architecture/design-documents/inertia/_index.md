@@ -23,8 +23,8 @@ toc_hide: true
 Most of our new frontend features are implemented with Vue and GraphQL. But when it comes to navigating _between_ different pages, we are still limited to full page loads and server-rendered HTML responses.
 This makes browsing GitLab feel slower than it could be, because:
 
--   Nowadays, all the app's main navigation (left sidebar, breadcrumbs, right drawer) are interactive Vue components already, yet we have to recreate them from scratch on every page load.
--   And most (new) pages are implemented as Vue apps. So on many pages, 100% of what you see is rendered with Vue, yet we have to init many indivual Vue _apps_ in DOM, making everything slower, less interactive, and requiring lots of boilerplate code.
+- Nowadays, all the app's main navigation (left sidebar, breadcrumbs, right drawer) are interactive Vue components already, yet we have to recreate them from scratch on every page load.
+- And most (new) pages are implemented as Vue apps. So on many pages, 100% of what you see is rendered with Vue, yet we have to init many indivual Vue _apps_ in DOM, making everything slower, less interactive, and requiring lots of boilerplate code.
 
 **This design document suggests we add [Inertia](https://inertiajs.com/) to our codebase and use it for pages where already most or all of their content is made up by Vue.** Navigating between such pages with Inertia only takes a fraction of the time it would take to do a full page load, as all that goes "over the wire" is a small chunk of JSON with the needed data to display another Vue component as the next "[page](https://inertiajs.com/pages)", instead of building and sending a full HTML page.
 
@@ -79,12 +79,12 @@ There might even be parts were can settle on the existing Haml pages, like the s
 
 A proof-of-concept MR of the following steps can be found here: https://gitlab.com/gitlab-org/gitlab/-/merge_requests/165637
 
--   Add Inertia to our codebase behind a feature flag. It consists of the [`inertia-rails`](https://github.com/inertiajs/inertia-rails) gem for the server side, and a npm package for the [client side](https://inertiajs.com/client-side-setup).
--   Recreate the current page layout (Left sidebar, breadcrumbs, duo chat drawer) as an Inertia layout.
--   Start migrating pages that already are 100% Vue apps to render with with Inertia.
--   Now when a user navigates from one Inertia-rendered page to another Inertia-rendered page, the layout components stay "alive", and only the page content is updated.
--   At the same time, this approach doesn't break any existing Haml-based pages. We can iterate page by page, migrate Haml pages to Vue first (which is a benefit in itself) and in a later step swap out how these pages are init, removing _a lot_ of custom code, as Inertia provides a nice off-the-shelf solutution to organize and init Vue app as pages.
--   Keep iterating to migrate the majority of pages to be Inertia-rendered.
+- Add Inertia to our codebase behind a feature flag. It consists of the [`inertia-rails`](https://github.com/inertiajs/inertia-rails) gem for the server side, and a npm package for the [client side](https://inertiajs.com/client-side-setup).
+- Recreate the current page layout (Left sidebar, breadcrumbs, duo chat drawer) as an Inertia layout.
+- Start migrating pages that already are 100% Vue apps to render with with Inertia.
+- Now when a user navigates from one Inertia-rendered page to another Inertia-rendered page, the layout components stay "alive", and only the page content is updated.
+- At the same time, this approach doesn't break any existing Haml-based pages. We can iterate page by page, migrate Haml pages to Vue first (which is a benefit in itself) and in a later step swap out how these pages are init, removing _a lot_ of custom code, as Inertia provides a nice off-the-shelf solutution to organize and init Vue app as pages.
+- Keep iterating to migrate the majority of pages to be Inertia-rendered.
 
 ## Design and implementation details
 
@@ -109,7 +109,7 @@ Starting out with Inertia v1 and our Vue2 might work (It does in the POC.), but 
 
 **Possible solution**: We are confident that we could update the current Vue2 adapter to work with the upcoming Inertia 2, and either contribute that upstream, or just create our own fork, for the time while we still use Vue2.
 
-#### Links in Markdown / etc.
+#### Links in Markdown content
 
 To get the faster page visits with Inertia, links between pages have to be done with the special Inertia `<Link>` component, which is just an `<a>` with a surrounding event handler to do the Ajax request. We will have to tweak our Markdown2HTML rendering to be aware when to use a classic `a` and when a `Link`, depending on the target page. But this is not a blocker. Having the normal `a` tags would just be today's behavior with a full page load.
 
