@@ -153,8 +153,8 @@ The Remote Development group has modified parts of the [Plan](/handbook/product-
 
 The crux of these changes is focused around the following process phases:
 
-1. "High Level Validation and Planning". This is analogous to the [Validation Track in the GitLab Product Flow](/handbook/product-development-flow/#validation-track), because it needs to achieve the same [Validation Goals & Outcomes](/handbook/product-development-flow/#validation-goals--outcomes) before we can start refining and prioritizing issues.
-1. The "Pre-Iteration Planning Meeting", or "Pre-IPM". This is analogous to ["backlog refinement"](/handbook/product-development-flow/#outcomes-and-activities-4) in the standard GitLab product development flow. The goal of the Pre-IPM is to ensure that all issues which are to be prioritized in the upcoming iteration(s) are ready for the wider team to briefly discuss and estimate in the next IPM.
+1. "High Level Planning". This is analogous to the [Validation Track in the GitLab Product Flow](/handbook/product-development-flow/#validation-track), because it needs to achieve the same [Validation Goals & Outcomes](/handbook/product-development-flow/#validation-goals--outcomes) before we can start refining and prioritizing issues.
+1. The "Async Refinement Process". This is analogous to ["backlog refinement"](/handbook/product-development-flow/#outcomes-and-activities-4) in the standard GitLab product development flow. The goal of the Pre-IPM is to ensure that all issues which are to be prioritized in the upcoming iteration(s) are ready for the wider team to briefly discuss and estimate in the next IPM.
 1. The "Iteration Planning Meeting", or "IPM". This is analogous to the ["Weekly Cycle" in XP](https://www.amazon.com/Extreme-Programming-Explained-Embrace-Change/dp/0321278658) or ["Sprint Planning" in Scrum](https://www.scrum.org/resources/what-is-sprint-planning).
 
 These components allow us to provide realistic velocity-based estimates based on ["Yesterday's Weather"](https://gitlab.com/gitlab-com/www-gitlab-com/uploads/283f165896e2851bdc324f790d9c90e4/Screen_Shot_2023-03-27_at_6.16.51_PM.png) historical velocity analysis.
@@ -218,13 +218,13 @@ graph TD;
 
 ```
 
-#### Feature Inception
+#### 1. Feature Inception
 Ideas can come from anywhere and anyone. If you have an idea...
 1. Capture it in an issue under the [Workspaces](https://gitlab.com/groups/gitlab-org/-/epics/12601) or [Web IDE](https://gitlab.com/groups/gitlab-org/-/epics/10543) User Feedbback & Insights epic.
 2. Pre-fix the issue title with "Feedback:..." or "Idea:..." 
 3. Add this as a topic of discussion on the [Workspaces](https://docs.google.com/document/d/1Xfr5YHdStC7_3kVAognj0SxbXlcavj2ofgp1mH2zH4U/) or [Web IDE](https://docs.google.com/document/d/18l9wI2tRcFgvX8nJfmO3qVG9-smEQL0VwDh5aOOZj0s/) High Level Planning agenda
 
-### High Level Planning
+#### 2. High Level Planning
 
 The **High Level Planning** meeting is an open forum where new and ongoing work is identified, discussed, and prioritized. Team members can propose topics by adding them to the agenda in advance. The meeting typically covers:
 
@@ -233,24 +233,18 @@ The **High Level Planning** meeting is an open forum where new and ongoing work 
 - **Escalation of Bugs/Technical Debt**: Issues that need urgent attention or adjustments to the timeline.
 
 **Meeting Objectives:**
-- **Identify and Discuss Topics:** 
-  - Team members are encouraged to propose any relevant topics in advance and discuss them during the meeting.
+- **Identify and Discuss Topics:** Team members are encouraged to propose any relevant topics in advance and discuss them during the meeting.
   
-- **Prioritize Work:** 
-  - The meeting serves to clarify the most important work and make decisions on what should take priority.
+- **Prioritize Work:**  The meeting serves to clarify the most important work and make decisions on what should take priority.
 
 **Post-Meeting Actions:**
-- **Roadmap Assessment:** 
-  - After the meeting, the Product Manager will assess the proposed changes and update the epic board(s), which serves as the source of truth for work prioritization.
+- **Roadmap Assessment:** After the meeting, the Product Manager will assess the proposed changes and update the epic board(s), which serves as the source of truth for work prioritization.
 
-- **Epic Creation and Prioritization:** 
-  - New features will be converted into epics and prioritized on the epic board.
-  - The Product Manager will determine the order of feature work and mark upcoming work with the `~"(workspaces|webide)-workflow::unprioritized"` label.
+- **Epic Creation and Prioritization:** Features will be converted into epics and the Product Manager will determine the order of feature work and mark upcoming work with the `~"(workspaces|webide)-workflow::prioritized"` label.
 
-- **Board Order Guidelines:** 
-  - Please avoid changing the order of items on the epic board without consulting the Engineering Manager or Product Manager first.
+- **Board Order Guidelines:** Please avoid changing the order of items on the epic board without consulting the Engineering Manager or Product Manager first.
 
-#### Async Refinement Process
+#### 3. Async Refinement Process
 
 The **Async Refinement** process is designed to prepare upcoming work efficiently on the epic board, which serves as our source of truth for prioritization.
 
@@ -278,7 +272,7 @@ The **Async Refinement** process is designed to prepare upcoming work efficientl
    - Following refinement, epics enter the **Iteration Planning Meeting** where all issues within an epic are weighed.
    - After this stage, epics are marked <span style="color:#4dd787">mint</span> to indicate they are fully weighed and ready for execution.
 
-#### Iteration Planning Meeting
+#### 4. Iteration Planning Meeting
 
 The **Iteration Planning Meeting** is a collaborative session where the team reviews and weighs issues within epics marked as <span style="color:#f3ad5d">apricot</span> on the epic board. This process ensures that each refined epic is fully understood, in scope, and aligned with the team’s goals.
 
@@ -297,15 +291,20 @@ The **Iteration Planning Meeting** is a collaborative session where the team rev
 This structure allows for both synchronous and asynchronous participation, enabling thorough preparation and alignment on upcoming work.
 
 
-#### 4. Assigning prioritized issues to specific releases based on calculated iterations
+#### 5. Milestone Planning & Starting Development
 
-TODO: This can be automated in the future by adding functionality to the chrome extension. For now, it will be a manual process.
+TODO: Assigning prioritized issues to specific releases based on calculated iterations can be automated in the future by adding functionality to the chrome extension. For now, it will be a manual process.
 
-**TL;DR: Assign issues to specific releases based on their calculated iteration**
+The **Milestone Planning & Starting Development** process is used to plan issues for development in upcoming releases and to align team efforts with milestone.
 
-At this point, once all prioritized issues have been estimated, with the use of the [GitLab Velocity Board Extension](https://gitlab.com/cwoolley-gitlab/gl-velocity-board-extension) we will be able to know how they break down into future iterations.
+**Epic and Issue Setup:** When starting work on a new epic, all child issues are labeled with `~"(workspaces|webide)-workflow::prioritized"`and assigned the milestone **`%"Next 1-3 Releases"`** to indicate they are prioritized for near-term development.
 
-Then, based on the dates of calculated iterations, we can reassign the issues from the `Next 1-3 releases` milestone into specific milestones.
+**Milestone Planning and Creating Planning Issue**:
+1. Before each milestone begins, the Engineering Manager along with Product Manager reviews and assigns issues for the upcoming release based on the team’s velocity. Specific milestone number `%XX.X` to designate them as part of the planned release.
+
+2. A **Planning Issue** is automatically created two weeks before start of the new release cycle. This issue is populated with relevant details to guide the team through the milestone. You can view and access all active Planning Issues [here](https://gitlab.com/gitlab-com/create-stage/remote-development/-/issues/?sort=updated_desc&state=opened&search=planning%20issue&first_page_size=50).
+
+This structure enables smooth planning, tracking, and alignment of development work within each milestone, ensuring work progresses as planned and within scope.
 
 ### Example Lifecycle for a Feature Issue
 
