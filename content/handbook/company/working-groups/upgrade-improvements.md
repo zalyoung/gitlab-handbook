@@ -1,7 +1,7 @@
 ---
 title: "Upgrade improvements"
 description: "The working group aims to enhance customer's experience of the entire lifecycle of upgrading a self-managed GitLab instance."
-status: active
+status: Paused
 ---
 
 ## Attributes
@@ -51,7 +51,7 @@ status: active
 </tr>
 <tr>
 <td>Status</td>
-<td>Active</td>
+<td>Paused</td>
 </tr>
 </table>
 
