@@ -125,7 +125,7 @@ This is covered in the [Neurodiversity Resources Handbook Page]({{< ref "neurodi
 
 [Neurodiverse Employees may need accommodations for remote work](https://www.shrm.org/resourcesandtools/hr-topics/employee-relations/pages/neurodiverse-employees-may-need-accommodations-for-remote-work.aspx)
 
-[Workplace Accommodations](https://www.us.specialisterne.com/workplace-accommodations-part-2/)
+[Workplace Accommodations](https://www.dol.gov/general/topic/disability/jobaccommodations)
 
 **What can you do if someone discloses they are neurodivergent to you?**
 
