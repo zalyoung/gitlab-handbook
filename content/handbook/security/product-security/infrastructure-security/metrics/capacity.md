@@ -15,7 +15,7 @@ Collecting this data helps inform decisions involving the team's capacity and he
 
 ### Where are the charts that are based on this data?
 
-This still needs to be done and is tracked in [this issue](https://gitlab.com/gitlab-com/gl-security/product-security/infrastructure-security/bau/-/issues/6503).
+InfraSec capacity metrics are available in [Tableau](https://10az.online.tableau.com/t/gitlab/views/InfraSecMetrics/InfraSecCapacityMetrics_1). For detailed explanation about the metrics, please refer the metrics section in the internal handbook.
 
 ### Metrics Review Frequency
 
