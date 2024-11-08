@@ -15,7 +15,6 @@ The Software Delivery Stage Vision is defined in the [Infrastructure Platforms d
 
 ## Top-level Responsibilities
 
-
 ## Teams
 
 The SoftwareDelivery Stage is composed by the following teams:
@@ -31,7 +30,6 @@ The SoftwareDelivery Stage is composed by the following teams:
 ## Performance indicators
 
 <!-- We should list the PIs we want to look at -->
-
 
 ## On-call dutirs
 
@@ -57,18 +55,14 @@ Each working epic should be accompanied by an issue board. Issue boards should b
 
 #### Workflow
 
-
 #### Priority Labels
 
 <!-- Priority labels explanations -->
 
 #### Other Labels
 
-
 ## Software Delivery AMA and Demo
-
 
 ## History
 
 <!-- Add here how the Stage came into existence -->
-
