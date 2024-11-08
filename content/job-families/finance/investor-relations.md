@@ -79,7 +79,8 @@ The Investor Relations Analyst is a [grade 8](/handbook/total-rewards/compensati
 - Extends that of the Senior Analyst role
 - Existing network of equity research analysts and institutional investors
 - Excellent proficiency in Excel, PowerPoint, Google Sheets, and Google Slides; experience with financial research tools AlphaSense and FactSet
-- Experience interacting with C-level executives
+- Proven experience communicating and collaborating with executive level leaders on matters of importance
+- Effectively able to articulate complex analysis and data to non financial audiences
 
 ## Vice President, Investor Relations
 
