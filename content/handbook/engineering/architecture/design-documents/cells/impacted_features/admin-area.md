@@ -180,7 +180,7 @@ In the future, we might add a way to navigate to a given cell through the UI.
 
 Investigation issue: https://gitlab.com/gitlab-org/gitlab/-/issues/451136
 
-##### Process
+##### Data-pulling process
 
 1. [In requester cell] Process is aborted if the last sync timestamp (stored in Redis) is present and it's fresh enough (e.g. < 1 hour)
 1. [In requester cell] Sends a `GetCanonicalAppSettings({ "attributes": ["attr1", "attr2"] })` request to the [Topology Service](../../topology_service.md) to get canonical cluster-level attributes values
@@ -208,16 +208,12 @@ sequenceDiagram
     Requester cell-->Requester cell: After updating attributes, the computed checksum is checked against the one received from the Topology Service
 ```
 
-##### At cell boot time
+This process would happen:
 
-This logic would be implemented in a new Rails initializer at `config/initializers/2_application_settings.rb`.
+- At cell boot time, through a new Rails initializer at `config/initializers/2_application_settings.rb`.
+- Periodically (to ensure no settings have drifted) on all cells, through a CRON-based background job. The periodicity is to be define, but every hour should be sufficient.
 
-##### Periodically
-
-On all cells, a CRON-based background job would perform the same actions as the one described above for boot time synchronisation to ensure no settings have drifted.
-The synchronization could happen every hour.
-
-##### Upon cluster-level attribute update
+##### Callback process upon setting update
 
 When a cell updates one ore many cluster-level attributes at once, a background job is started that:
 
@@ -288,6 +284,10 @@ we handle all the following cases:
    1. A cluster-level attribute is changed to be cell-level in the follower cells, but not yet in the leader cell (**same as 1.4**):
       - Follower cells wouldn't ask for the attribute so the leader cell wouldn't send it in the sync response.
       - No change when the change is deployed to the leader cell since the leader cell only sends requested attributes.
+
+##### Authentication of `Topology Service -> Cell` and `Cell -> Topology Service` requests
+
+[We will rely on Mutual TLS introduced in Phase 5.1](https://gitlab.com/groups/gitlab-org/-/epics/15680).
 
 ##### Implementation
 
