@@ -213,7 +213,7 @@ This process would happen:
 - At cell boot time, through a new Rails initializer at `config/initializers/2_application_settings.rb`.
 - Periodically (to ensure no settings have drifted) on all cells, through a CRON-based background job. The periodicity is to be define, but every hour should be sufficient.
 
-##### Callback process upon setting update
+##### Callback process upon settings update
 
 When a cell updates one ore many cluster-level attributes at once, a background job is started that:
 
