@@ -9,6 +9,10 @@ The Software Delivery mission is to streamline and optimize the delivery, releas
 
 The Software Delivery Stage Vision is defined in the [Infrastructure Platforms direction pages](https://about.gitlab.com/direction/saas-platforms/software-delivery/)
 
+## Vision and Direction
+
+Our vision and direction are located with other product direction pages [here](https://about.gitlab.com/direction/saas-platforms/software-delivery/).
+
 ## Roadmap
 
 <!-- Link to Roadmap -->
