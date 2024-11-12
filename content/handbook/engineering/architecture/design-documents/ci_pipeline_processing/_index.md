@@ -103,7 +103,7 @@ For example; publishing failures to dedicated page or dedicated external service
 ### Problem 2: Abuse of the `allow_failure` keyword
 
 We control the blocker behavior of a manual job by the [`allow_failure`](https://docs.gitlab.com/ee/ci/yaml/index.html#allow_failure) keyword.
-Actually, it has other responsibilities; _"determine whether a pipeline should continue running when a job fails"_.
+Actually, it has other responsibilities; *"determine whether a pipeline should continue running when a job fails"*.
 
 Currently, a [manual job](https://docs.gitlab.com/ee/ci/jobs/job_control.html#create-a-job-that-must-be-run-manually);
 
@@ -387,7 +387,7 @@ test:
 What should be the behavior of the "skipped" and "ignored" states?
 Let's go over an example;
 
-_(In this scenario, we assume that we don't have any difference between DAG and STAGE behaviors.)_
+*(In this scenario, we assume that we don't have any difference between DAG and STAGE behaviors.)*
 
 **Example 1:**
 
