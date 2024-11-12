@@ -27,16 +27,44 @@ Some keywords accumulated a number of responsibilities, and some ambiguous overl
 keywords and subtle differences in behavior were introduced over time.
 The current implementation and YAML syntax also make it challenging to implement new features.
 
-In this design document, we will discuss the problems and propose
-a new architecture for pipeline processing. Most of these problems have been discussed before in the
-["Restructure CI job when keyword"](https://gitlab.com/groups/gitlab-org/-/epics/6788) epic.
+In this design document, we will outline a streamlined approach to improve pipeline behavior predictability
+and reduce the configuration burden on users, ultimately strengthening GitLab's product competitiveness.
 
 ## Goals
 
-- We want to make the pipeline processing more understandable, predictable and consistent.
-- We want to unify the behaviors of DAG and STAGE. STAGE can be written as DAG and vice versa.
-- We want to decouple the manual jobs' blocking behavior from the `allow_failure` keyword.
-- We want to clarify the responsibilities of the `when` keyword.
+### Business Goals
+
+- **Enhance Product Competitiveness**: By reducing configuration complexity and improving pipeline predictability,
+  GitLab will offer a more intuitive and robust CI/CD experience. This positions GitLab as the preferred choice
+  for both new and existing users, helping to attract and retain customers, including those with highly complex workflows.
+- **Improve User Retention and Satisfaction**: By providing a clearer, more predictable pipeline configuration experience,
+  GitLab can reduce user frustration and decrease the support burden. This results in more satisfied users
+  who are more likely to adopt additional GitLab products and services.
+- **Mitigate Risks of Configuration Errors**: Streamlining pipeline configuration reduces the likelihood of configuration-related errors,
+  lowering the risk of wrongly-configured pipelines. This reliability supports GitLab's reputation for enterprise-grade dependability.
+- **Increase Operational Efficiency**: Clarifying keyword responsibilities and simplifying the pipeline model
+  reduces code complexity, which improves maintainability and decreases the time and resources needed for future enhancements.
+  The development teams will have greater agility to implement new features and address issues quickly.
+
+### Product Goals
+
+- Provide a clear, consistent pipeline configuration model that reduces ambiguity and allows users to more accurately control pipeline behavior.
+- Create a cohesive, predictable model for DAG and STAGE configurations, enabling users to seamlessly integrate both without risk of unexpected behavior.
+- Simplify GitLab CI's codebase to make future improvements more manageable and reduce the maintenance burden on GitLab's engineering team.
+
+### Problem Statement
+
+- **Ambiguity and Overlapping Keyword Roles**: Some keywords, like `when` and `allow_failure`, have multiple roles that overlap,
+  leading to unpredictable behavior. Users find it difficult to anticipate outcomes, especially in complex pipelines.
+  This ambiguity increases support cases and frustrates users, who may seek alternative solutions.
+  - *Related Issues*: [#233876](https://gitlab.com/gitlab-org/gitlab/-/issues/233876), [#382179](https://gitlab.com/gitlab-org/gitlab/-/issues/382179),
+    [Epic](https://gitlab.com/groups/gitlab-org/-/epics/6788#note_2202988134),
+    [#17759](https://gitlab.com/gitlab-org/gitlab/-/issues/17759), [#17397](https://gitlab.com/gitlab-org/gitlab/-/issues/17397).
+- **Inconsistent Pipeline Models**: The STAGE and DAG models do not always behave consistently,
+  making it challenging for users to configure pipelines that use both models without unintended side effects.
+  This inconsistency adds a learning curve and reduces GitLab's appeal for complex pipeline needs.
+  - *Related Issues*: [#233712](https://gitlab.com/gitlab-org/gitlab/-/issues/233712), [#219371](https://gitlab.com/gitlab-org/gitlab/-/issues/219371),
+    [#388866](https://gitlab.com/gitlab-org/gitlab/-/issues/388866), [#20237](https://gitlab.com/gitlab-org/gitlab/-/issues/20237).
 
 ## Non-Goals
 
@@ -45,6 +73,8 @@ We will not discuss how to avoid breaking changes for now.
 ## Motivation
 
 The list of problems is the main motivation for this design document.
+Most of these problems have been discussed before in the
+["Restructure CI job when keyword"](https://gitlab.com/groups/gitlab-org/-/epics/6788) epic.
 
 ### Problem 1: The responsibility of the `when` keyword
 
@@ -73,7 +103,7 @@ For example; publishing failures to dedicated page or dedicated external service
 ### Problem 2: Abuse of the `allow_failure` keyword
 
 We control the blocker behavior of a manual job by the [`allow_failure`](https://docs.gitlab.com/ee/ci/yaml/index.html#allow_failure) keyword.
-Actually, it has other responsibilities; _"determine whether a pipeline should continue running when a job fails"_.
+Actually, it has other responsibilities; *"determine whether a pipeline should continue running when a job fails"*.
 
 Currently, a [manual job](https://docs.gitlab.com/ee/ci/jobs/job_control.html#create-a-job-that-must-be-run-manually);
 
@@ -261,6 +291,11 @@ rollback_job:
 
 Let's assume that we solved the problem 3 and the "skipped" and "ignored" states are not different in DAG and STAGE.
 How should they behave in general? Are they successful or not? Should "skipped" and "ignored" be different?
+
+- Skipped jobs are those that don't meet the conditions to run (`when: on_success` or `when: on_failure`).
+- Ignored jobs typically refer to manual jobs that are not blocking the pipeline (`allow_failure: true`),
+which are treated as if they didn't exist in the pipeline.
+
 Let's examine some examples;
 
 **Example 4.1. The ignored status with manual jobs**
@@ -347,10 +382,93 @@ test:
 - `build2` runs and succeeds.
 - `test` runs because "success" + "skipped" is a successful state.
 
+#### Brainstorming on the skipped and ignored states
+
+What should be the behavior of the "skipped" and "ignored" states?
+Let's go over an example;
+
+*(In this scenario, we assume that we don't have any difference between DAG and STAGE behaviors.)*
+
+**Example 1:**
+
+```yaml
+build1:
+  stage: build
+  script: ./build1.sh
+
+build2:
+  stage: build
+  script: ./build2.sh
+
+test1:
+  stage: test
+  script: ./test1.sh
+  needs: [build1]
+
+test2:
+  stage: test
+  script: ./test2.sh
+  needs: [build2]
+
+rollback:
+  stage: finalize
+  script: ./rollback.sh
+  when: on_failure
+  needs: [test1, test2]
+
+deploy:
+  stage: finalize
+  script: ./deploy.sh
+  needs: [test1, test2]
+```
+
+What happens when `build1` fails?
+
+1. `build1` runs and fails.
+1. `build2` runs and succeeds.
+1. `test1` is skipped because it has `needs: [build1]` and its composite previous status is "failed".
+1. `test2` runs and succeeds.
+1. Are we going to run `rollback`? It has `when: on_failure` and its composite previous status is "skipped".
+1. `deploy` is skipped because it has `needs: [test1, test2]` and its composite previous status is "skipped".
+1. The status of the stage `build` is "failed".
+1. The status of the stage `test` is "success".
+1. What is the status of the stage `finalize`?
+1. What is the overall status of the pipeline?
+
+**Proposal: Introducing `when: on_not_success`**
+
+The current behavior of `when: on_failure` triggers jobs only when there is a clear failure.
+However, in some cases, you may want to trigger a job not just for explicit failures but also
+when a job is skipped due to a previous failure or another condition.
+
+Let's replace `when: on_failure` with `when: on_not_success` in the previous example;
+
+```yaml
+# ...
+
+rollback:
+  stage: finalize
+  script: ./rollback.sh
+  when: on_not_success
+  needs: [test1, test2]
+
+# ...
+```
+
+What happens when `build1` fails?
+
+1. ...
+1. `rollback` runs and succeeds because it has `when: on_not_success` and its composite previous status is "skipped".
+1. ...
+1. The status of the stage `finalize` is "success".
+1. The overall status of the pipeline is "failed".
+
 ### Problem 5: The `dependencies` keyword
 
 The [`dependencies`](https://docs.gitlab.com/ee/ci/yaml/index.html#dependencies) keyword is used to define a list of jobs to fetch
-[artifacts](https://docs.gitlab.com/ee/ci/yaml/index.html#artifacts) from. It is a shared responsibility with the `needs` keyword.
+[artifacts](https://docs.gitlab.com/ee/ci/yaml/index.html#artifacts) from. When `dependencies` is not defined in a job,
+all jobs in earlier stages are considered dependent and the job fetches all artifacts from those jobs.
+It is a shared responsibility with the `needs` keyword.
 Moreover, they can be used together in the same job. We may not need to discuss all possible scenarios but this example
 is enough to show the confusion;
 
@@ -419,7 +537,7 @@ Dropping jobs in the `failed` state has been handy because we could communicate 
 for better feedback. When canceling jobs for various reasons we don't have a way to indicate that.
 We cancel jobs because the user ran out of Compute Credits while the pipeline was running,
 or because the pipeline is auto-canceled by another pipeline or other reasons.
-If we had a `stop_reason` instead of `failure_reason` we could use that for both cancelled and failed jobs
+If we had a `stop_reason` instead of `failure_reason` we could use that for both canceled and failed jobs
 and we could also use the `canceled` status more appropriately.
 
 ### Information 2: Empty state
@@ -454,7 +572,7 @@ The same goes to `on_failure`, it does not mean that everything failed, but does
 This semantic goes by a expectation that your pipeline succeeds, and this is happy path.
 Not that your pipeline fails, because then it requires user intervention to fix it.
 
-## Technical expectations
+## Expectations
 
 All proposals or future decisions must follow these goals;
 
@@ -470,7 +588,9 @@ All proposals or future decisions must follow these goals;
     - Why: It is not its responsibility.
     - How: Another keyword will be introduced to control if a job is added to the pipeline or not.
 1. The "skipped" and "ignored" states must be reconsidered.
-    - TODO: We need to discuss this more.
+    - The "skipped" status should not be considered a success. Jobs with `when: on_success` should **not** run after it.
+    - The "ignored" status (for non-blocking manual jobs) should also not be considered a success. However,
+      it is also **not** a failure. Jobs with `when: on_success` should run after it.
 1. A new keyword structure must be introduced to specify if a job is an "automatic", "manual", or "delayed" job.
     - Why: It is not the responsibility of the `when` keyword.
     - How: A new keyword will be introduced to control the behavior of a job.
@@ -484,8 +604,129 @@ All proposals or future decisions must follow these goals;
 
 ## Proposal
 
-N/A
+**Introduce new keyword structures for job execution types**
+
+- A new keyword, `execution`, will be introduced to specify whether a job is `automatic`, `manual`, or `delayed`.
+  - `automatic`: Runs immediately without user intervention.
+  - `manual`: Requires manual triggering.
+  - `delayed`: Runs after a specified delay without user intervention.
+- This separates job behavior from the `when` keyword, allowing `execution` to clearly define how the job is triggered.
+
+**Introduce a new keyword to control manual job blocking behavior**
+
+- A keyword (`blocker`) will be added to define whether a manual job blocks the pipeline from proceeding.
+- This will remove the dependency on `allow_failure` for controlling blocking behavior.
+- For example, a job with `execution: manual` and `blocker: false` will not block the pipeline.
+- This can also be used with the `execution: delayed` jobs. Currently, `delayed` jobs are always blocking the pipeline.
+  With this keyword, we can define whether a `delayed` job is blocking or not.
+
+**Clarify the behavior of the `when` keyword**
+
+- The `when` keyword will continue to decide and answer only the question of **under what conditions a job should run**.
+  It will not control job types or pipeline inclusion.
+  - For example: `when: on_success`, `when: on_failure`, `when: always`.
+- The `when` keyword will not work with `manual` and `delayed` when `execution` is used.
+
+**New way to control pipeline inclusion**
+
+- A new keyword (`included`) will be introduced to control whether a job is included in the pipeline.
+- This keyword will be used to define whether a job should be added to the pipeline or not.
+- For example, a job with `included: false` will not be added to the pipeline.
+- This replaces the previous `when: never` keyword, which was used to exclude jobs from pipelines.
+
+**Standardize handling of the "skipped" and "ignored" states**
+
+- **Skipped jobs** will be treated as **unsuccessful** for pipeline flow decisions. Jobs with `when: on_success` will not run after a skipped job.
+- **Ignored jobs** (non-blocking manual jobs) will be treated as **neutral** and will not prevent `when: on_success` jobs from running.
+
+**Introduce the new `when: on_not_success` keyword**
+
+- A new keyword, `when: on_not_success`, will be introduced to trigger jobs when a previous job is skipped or failed.
+- This keyword will allow jobs to run when a previous job is not successful, including skipped jobs.
+- This keyword will provide a more flexible way to control job execution based on the pipeline status.
+
+**Differentiate the composite status calculation for jobs and stages/pipelines**
+
+- We need to differentiate the composite status calculation between job requirements and the overall stage/pipeline.
+- When calculating the overall status of a stage or pipeline, jobs with a `skipped` status are ignored,
+  they do not affect the final status of the stage or pipeline because skipped jobs are neither executed nor failed.
+- This ensures that `skipped` jobs won't influence the outcome
+  and the final stage or pipeline status is determined based on the remaining relevant jobs,
+  which better reflects the true state of the stage or pipeline.
+- Without this differentiation, skipped jobs could create inconsistencies, causing stages or pipelines to appear
+  as ambiguous. By ignoring `skipped` jobs, we maintain a logically sound status calculation that avoids
+  misleading results based on jobs that were not meant to run.
+
+**Unify DAG and Stage behaviors**
+
+- The `needs` keyword will only define job dependencies, and its behavior will be aligned with `stage` so that DAG and stage processing work consistently.
+- Both DAG and stage workflows will treat "ignored" jobs as neutral and "skipped" jobs as unsuccessful.
+
+**Make `needs` and `dependencies` mutually exclusive**
+
+- The `needs` and `dependencies` keywords should not be used together, as they serve different purposes.
+  The `needs` keyword controls job ordering, while `dependencies` fetches artifacts.
+- The usage of both will be simplified to prevent confusion.
+
+**Default Empty Dependencies for Jobs**
+
+- Set `dependencies` to an empty list (`[]`) by default, requiring users to explicitly specify the dependencies needed by each job.
+- Expected Benefits:
+  - Users will have a clearer view of the artifacts and dependencies each job relies on, making pipeline configurations easier to understand and debug.
+  - With no unnecessary artifact transfers by default, pipelines will become more efficient, reducing time and resource consumption.
+  - This change can facilitate new features such as additive CI pipelines, as discussed in [PoC Additive CI Pipelines](https://gitlab.com/gitlab-org/gitlab/-/issues/413435).
+
+### Examples
+
+```yaml
+job1:
+  execution: automatic # default, options: automatic, manual, delayed
+  when: on_success # default, options: on_success, on_failure, always
+  script: exit 0 # success
+  rules:
+    - if: $CI_COMMIT_BRANCH == "master"
+      included: true # default, options: true, false (replaces `when: never`)
+
+job2:
+  execution: manual
+  blocker: false # default, options: true, false
+  script: exit 0 # success
+
+job3:
+  execution: delayed
+  delay: 1h
+  script: exit 0 # success
+
+job4:
+  execution: manual
+  blocker: true
+  script: exit 0 # success
+
+job5:
+  script: exit 1 # failed
+
+job6:
+  script: exit 0 # success
+  needs: [job5] # job5 is failed; job6 is skipped
+
+job7:
+  script: exit 0 # success
+  needs: [job1, job2] # job1 is successful, job2 is ignored; job7 runs
+
+job8:
+  script: exit 0 # success
+  needs: [job4] # job4 is blocked; job8 is "created"
+
+job9:
+  script: exit 0 # success
+  needs: [job1, job6] # job1 is successful, job6 is skipped; job9 is skipped
+```
 
 ## Design and implementation details
 
-N/A
+This will be determined after the proposal is approved.
+Breaking changes, implementation details, and migration paths will be discussed in this phase.
+
+## Feedback
+
+Please share your feedback at [the feedback issue](https://gitlab.com/gitlab-org/gitlab/-/issues/420616).
