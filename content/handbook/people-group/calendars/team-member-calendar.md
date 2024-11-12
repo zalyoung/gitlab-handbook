@@ -21,7 +21,6 @@ Details about key events and programs are communicated via Slack channels like #
 | Talent Assessment | ----- | ----- | 2025-01-27: Self Evaluation cycle starts |
 | Observances and Awareness | National Family Caregivers Month; Transgender Awareness Week – November 13-19; Transgender Day of Remembrance - November 20;  Remembrance Day - November 11 | ----- | Martin Luther King Jr. Day - January 20 |
 
-
 ## FY26 Q1
 
 | Event Type | February | March | April |
@@ -29,4 +28,3 @@ Details about key events and programs are communicated via Slack channels like #
 | All Company Events | FY26 Q1 starts | Assembly all-company meeting | FY26 Q1 ends |
 | Talent Assessment | 2025-02-06: Self-Evaluation cycle ends | Kick off Manager Evaluation cycle; Talent Assessment in Workday is locked; Final review & approval | Communication: Performance/Growth Potential Assessment and Annual Compensation Review |
 | Observances abd Awareness | ----- | Women's History Month | ----- |
-
