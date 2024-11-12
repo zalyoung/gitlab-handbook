@@ -27,33 +27,44 @@ Some keywords accumulated a number of responsibilities, and some ambiguous overl
 keywords and subtle differences in behavior were introduced over time.
 The current implementation and YAML syntax also make it challenging to implement new features.
 
-In this design document, we will discuss the problems and propose
-a new architecture for pipeline processing. Most of these problems have been discussed before in the
-["Restructure CI job when keyword"](https://gitlab.com/groups/gitlab-org/-/epics/6788) epic.
+In this design document, we will outline a streamlined approach to improve pipeline behavior predictability
+and reduce the configuration burden on users, ultimately strengthening GitLab's product competitiveness.
 
 ## Goals
 
-- We want to make the pipeline processing more understandable, predictable and consistent.
-- We want to unify the behaviors of DAG and STAGE. STAGE can be written as DAG and vice versa.
-- We want to decouple the manual jobs' blocking behavior from the `allow_failure` keyword.
-- We want to clarify the responsibilities of the `when` keyword.
+### Business Goals
 
-### Customer Impact
+- **Enhance Product Competitiveness**: By reducing configuration complexity and improving pipeline predictability,
+  GitLab will offer a more intuitive and robust CI/CD experience. This positions GitLab as the preferred choice
+  for both new and existing users, helping to attract and retain customers, including those with highly complex workflows.
+- **Improve User Retention and Satisfaction**: By providing a clearer, more predictable pipeline configuration experience,
+  GitLab can reduce user frustration and decrease the support burden. This results in more satisfied users
+  who are more likely to adopt additional GitLab products and services.
+- **Mitigate Risks of Configuration Errors**: Streamlining pipeline configuration reduces the likelihood of configuration-related errors,
+  lowering the risk of wrongly-configured pipelines. This reliability supports GitLab's reputation for enterprise-grade dependability.
+- **Increase Operational Efficiency**: Clarifying keyword responsibilities and simplifying the pipeline model
+  reduces code complexity, which improves maintainability and decreases the time and resources needed for future enhancements.
+  The development teams will have greater agility to implement new features and address issues quickly.
 
-Once these goals are accomplished, we expect to see significant improvements in the user experience with GitLab CI.
-The changes will provide many benefits to users:
+### Product Goals
 
-- The removal of ambiguous overlaps between the `when` and `allow_failure` keywords
-  will reduce the complexity of writing pipeline configurations.
-  Clearer responsibilities for keywords will make it easier for users to understand and maintain their pipeline configurations,
-  especially in complex workflows with multiple jobs and stages.
-  - See issues: [1](https://gitlab.com/gitlab-org/gitlab/-/issues/233876), [2](https://gitlab.com/gitlab-org/gitlab/-/issues/382179),
-    [3](https://gitlab.com/gitlab-org/gitlab/-/issues/20237), [4](https://gitlab.com/gitlab-org/gitlab/-/issues/17759),
-    [5](https://gitlab.com/gitlab-org/gitlab/-/issues/17397).
-- By unifying the behaviors of DAG and STAGE, pipelines will become more predictable, reducing the chances of unexpected results.
-  - See issues: [1](https://gitlab.com/gitlab-org/gitlab/-/issues/233712), [2](https://gitlab.com/gitlab-org/gitlab/-/issues/219371).
-- Users will have more confidence that their pipelines will execute exactly as defined, with fewer edge cases and unexpected overlaps between keywords.
-  - See issues: [1](https://gitlab.com/gitlab-org/gitlab/-/issues/388866).
+- Provide a clear, consistent pipeline configuration model that reduces ambiguity and allows users to more accurately control pipeline behavior.
+- Create a cohesive, predictable model for DAG and STAGE configurations, enabling users to seamlessly integrate both without risk of unexpected behavior.
+- Simplify GitLab CI's codebase to make future improvements more manageable and reduce the maintenance burden on GitLab's engineering team.
+
+### Problem Statement
+
+- **Ambiguity and Overlapping Keyword Roles**: Some keywords, like `when` and `allow_failure`, have multiple roles that overlap,
+  leading to unpredictable behavior. Users find it difficult to anticipate outcomes, especially in complex pipelines.
+  This ambiguity increases support cases and frustrates users, who may seek alternative solutions.
+  - *Related Issues*: [#233876](https://gitlab.com/gitlab-org/gitlab/-/issues/233876), [#382179](https://gitlab.com/gitlab-org/gitlab/-/issues/382179),
+    [Epic](https://gitlab.com/groups/gitlab-org/-/epics/6788#note_2202988134),
+    [#17759](https://gitlab.com/gitlab-org/gitlab/-/issues/17759), [#17397](https://gitlab.com/gitlab-org/gitlab/-/issues/17397).
+- **Inconsistent Pipeline Models**: The STAGE and DAG models do not always behave consistently,
+  making it challenging for users to configure pipelines that use both models without unintended side effects.
+  This inconsistency adds a learning curve and reduces GitLab's appeal for complex pipeline needs.
+  - *Related Issues*: [#233712](https://gitlab.com/gitlab-org/gitlab/-/issues/233712), [#219371](https://gitlab.com/gitlab-org/gitlab/-/issues/219371),
+    [#388866](https://gitlab.com/gitlab-org/gitlab/-/issues/388866), [#20237](https://gitlab.com/gitlab-org/gitlab/-/issues/20237).
 
 ## Non-Goals
 
@@ -62,6 +73,8 @@ We will not discuss how to avoid breaking changes for now.
 ## Motivation
 
 The list of problems is the main motivation for this design document.
+Most of these problems have been discussed before in the
+["Restructure CI job when keyword"](https://gitlab.com/groups/gitlab-org/-/epics/6788) epic.
 
 ### Problem 1: The responsibility of the `when` keyword
 
