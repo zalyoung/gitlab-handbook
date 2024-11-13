@@ -22,7 +22,7 @@ The purpose of the advisory committee is create cross-functional alignment on ES
 
 Members of the ESG Advisory Committee:
 
-- Robin Shulman (Egroup)
+- Robin Schulman (Egroup)
 - Wendy Barnes (Egroup)
 - Brian Robins (Egroup)
 - Stacy Cline (ESG)
