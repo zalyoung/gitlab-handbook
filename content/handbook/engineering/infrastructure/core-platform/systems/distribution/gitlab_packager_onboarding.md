@@ -3,8 +3,17 @@ title: "Gitlab Packager Onboarding"
 description: "Overview of how Gitlab packager works and how to use it"
 ---
 
-## Common links
+## Overview 
 
+### Architectural Overview
 
-## Summary
+### Authenticating
+
+### Publishing a Package
+
+## Onboarding
+
+### Requesting Access
+
+### Setting Up a Publishing Pipeline
 
