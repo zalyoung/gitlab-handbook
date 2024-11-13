@@ -27,7 +27,7 @@ Details about key events and programs are communicated via Slack channels like #
 | ----- | ----- | ----- | ----- |
 | All Company Events | FY26 Q1 starts | Assembly all-company meeting | FY26 Q1 ends |
 | Talent Assessment | 2025-02-06: Self-Evaluation cycle ends | Kick off Manager Evaluation cycle; Talent Assessment in Workday is locked; Final review & approval | Communication: Performance/Growth Potential Assessment and Annual Compensation Review |
-| Observances abd Awareness | ----- | Women's History Month | ----- |
+| Observances and Awareness | ----- | Women's History Month | ----- |
 
 ## FY26 Q2
 
