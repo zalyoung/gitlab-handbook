@@ -559,12 +559,22 @@ The following costs are monthly rates which would be deducted from your paycheck
 
 <details markdown="1">
 
-<summary>Cigna Vision Period to Submit Claims</summary>
+<summary>Cigna Vision Claims and Period to Submit Claims</summary>
 
 For in-network services: 365 days from Date of Service.
 
 For out-of-network services: 365 days from Date of Service.
 
+Vision claims can be submitted online through the vision section of the site, rather than the regular online submission. This is because the claims are routed differently via EyeMed. Below are steps on how to submit Vision/EyeMed claims online via mycigna.com:
+
+1. Hover over Coverage.
+1. Click Vision.
+1. Click on Visit Cigna Vision button.
+1. Hover over Claims.
+1. Click on Out-of-Network Claim Form. 
+1. Scroll down to Online Claim Form.
+1. Fill out online form, upload receipt(s) and Click Submit Claim.
+ 
 </details>
 
 ## Basic Life Insurance and AD&D
