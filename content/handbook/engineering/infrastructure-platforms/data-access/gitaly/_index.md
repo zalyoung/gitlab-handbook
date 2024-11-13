@@ -1,5 +1,5 @@
 ---
-title: "Core Platform:Gitaly Team"
+title: "Gitaly Team"
 ---
 
 ## What is Gitaly?
@@ -22,7 +22,7 @@ Processes fully independent of business inputs (such as repository maintenance) 
 
 Please see the public [product direction for Gitaly](https://about.gitlab.com/direction/gitaly/).
 
-The [vision and principles](https://internal.gitlab.com/handbook/engineering/infrastructure/core-platform/systems/gitaly/roadmap/) driving the roadmap can be found in the internal handbook.
+The [vision and principles](https://internal.gitlab.com/handbook/engineering/infrastructure-platforms/data-access/gitaly/roadmap/) driving the roadmap can be found in the internal handbook.
 
 The current roadmap is [this epic board](https://gitlab.com/groups/gitlab-org/-/epic_boards/1058926?label_name[]=Roadmap&label_name[]=group%3A%3Agitaly). See [Roadmap planning](#roadmap-planning) below as to how this is managed.
 
@@ -206,7 +206,7 @@ The current roadmap is [this epic board](https://gitlab.com/groups/gitlab-org/-/
 - Once accepted, we add the `Roadmap` label.
 - Ongoing roadmap items get `roadmap::now`,  while `roadmap::next` and `roadmap::later` show what's been triaged and pushed into the future for now.
 - At each quarterly planning:
-  - we review roadmap items (using arguments from the [vision and principles](https://internal.gitlab.com/handbook/engineering/infrastructure/core-platform/systems/gitaly/roadmap/), current business priorities etc)
+  - we review roadmap items (using arguments from the [vision and principles](https://internal.gitlab.com/handbook/engineering/infrastructure-platforms/data-access/gitaly/roadmap/), current business priorities etc)
   - and then take on OKRs that push those goals forward.
 
 ### Quarterly OKR planning
