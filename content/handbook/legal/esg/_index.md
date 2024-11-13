@@ -22,9 +22,15 @@ The purpose of the advisory committee is create cross-functional alignment on ES
 
 Members of the ESG Advisory Committee:
 
+- Robin Shulman (Egroup)
+- Wendy Barnes (Egroup)
+- Brian Robins (Egroup)
+- Stacy Cline (ESG)
+- Kim Buncle (ESG)
 - Kelsey Turcotte (Investor Relations)
 - Lisa Boughner (Communications)
-- Aime Bright & Billy Stallings (Marketing)
+- Amie Bright (Marketing)
+- Billy Stallings (Marketing)
 - Pattie Egan (People)
 - Sherida McMullan (DIB)
 - Stella Treas (CoS)
