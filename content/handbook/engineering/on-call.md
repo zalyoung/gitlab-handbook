@@ -81,7 +81,7 @@ In addition to incident management responsibilities, the EOC also is responsible
 
 - Gitaly team provides an expert oncall rotation via PagerDuty, currently in [pilot](https://gitlab.com/groups/gitlab-org/core-platform-section/-/epics/4).
 - SLO is 15 minutes, during working hours only (which still tends to cover 24h of workdays, given team member distribution).
-- For more details, see the [team page](/handbook/engineering/infrastructure/core-platform/systems/gitaly/#gitaly-oncall-rotation)
+- For more details, see the [team page](/handbook/engineering/infrastructure-platforms/data-access/gitaly/#gitaly-oncall-rotation)
 
 ## Security Team On-Call Rotation
 

@@ -1,10 +1,10 @@
 ---
-title: "Reliability:Database Reliability Team"
+title: "Database Operations Team"
 ---
 
 ## Mission
 
-The Database Reliability team at GitLab mission is to Build, Run and Own the entire lifecycle of the PostgreSQL database engine for GitLab.com.
+The Database Operations team at GitLab mission is to Build, Run and Own the entire lifecycle of the PostgreSQL database engine for GitLab.com.
 
 The team is focused on owning the reliability, scalability, performance & security of the database engine and its supporting services. The team should be seeking to build their services on top of [Reliability::Foundations](/handbook/engineering/infrastructure/team/reliability/foundations/) services and cloud vendor managed products, where appropriate, to reduce complexity, improve efficiency and deliver new capabilities quicker.
 
@@ -58,7 +58,7 @@ We use quarterly [Objectives and Key Results](/handbook/company/okrs/) to plan a
 We measure the value we contribute by using [performance indicator metrics](/handbook/engineering/infrastructure/performance-indicators/#key-performance-indicators).
 
 In addition to the Infrastructure Department's KPIs for [availability](/handbook/engineering/infrastructure/performance-indicators/#gitlabcom-availability)
-and [performance](/handbook/engineering/infrastructure/performance-indicators/#gitlab-com-performance) of GitLab.com, the Database Reliability team tracks the following:
+and [performance](/handbook/engineering/infrastructure/performance-indicators/#gitlab-com-performance) of GitLab.com, the Database Operations team tracks the following:
 
 - Backup and Recovery SLOs
 - General database availability(Uptime)

@@ -1,27 +1,27 @@
 ---
-title: "Infrastructure"
-description: "The Infrastructure Department is responsible for the availability, reliability, performance, and scalability of GitLab.com and other supporting services"
+title: "Infrastructure Platforms"
+description: "The Infrastructure Platforms department is responsible for the availability, reliability, performance, and scalability of GitLab.com and other supporting services"
 ---
 
 ## Mission
 
-The Infrastructure Department enables GitLab (the company) to deliver a single DevOps application, and GitLab SaaS users to focus on generating value for their own businesses by ensuring that we operate an enterprise-grade SaaS platform.
+The Infrastructure Platforms department enables GitLab (the company) to deliver a single DevOps application, and GitLab SaaS users to focus on generating value for their own businesses by ensuring that we operate an enterprise-grade SaaS platform.
 
-The Infrastructure Department does this by focusing on **availability**, **reliability**, **performance**, and **scalability** efforts.
+The Infrastructure Platforms department does this by focusing on **availability**, **reliability**, **performance**, and **scalability** efforts.
 These responsibilities have cost efficiency as an additional driving force, reinforced by the properly prioritized [**dogfooding**](#dogfooding) efforts.
 
 Many other teams also contribute to the success of the SaaS platform because [GitLab.com is not a role](/handbook/company/structure/#gitlabcom-isnt-a-role).
-However, it is the responsibility of the Infrastructure Department to drive the ongoing evolution of the SaaS platform, enabled by platform observability data.
+However, it is the responsibility of the Infrastructure Platforms department to drive the ongoing evolution of the SaaS platform, enabled by platform observability data.
 
 ## Getting Assistance
 
-If you're a GitLab team member and are looking to alert the Infrastructure teams about an availability issue with GitLab.com, please find quick instructions to report an incident here: [Reporting an Incident](/handbook/engineering/infrastructure/incident-management/#reporting-an-incident).
+If you're a GitLab team member and are looking to alert the Infrastructure Platforms teams about an availability issue with GitLab.com, please find quick instructions to report an incident here: [Reporting an Incident](/handbook/engineering/infrastructure/incident-management/#reporting-an-incident).
 
 For all other queries, please see the [getting assistance](/getting-assistance) page.
 
 ## Vision
 
-The Infrastructure Department operates a fast, secure, and reliable SaaS platform to which (and with which) [everyone can contribute](/handbook/company/mission/#everyone-can-contribute).
+The Infrastructure Platforms department operates a fast, secure, and reliable SaaS platform to which (and with which) [everyone can contribute](/handbook/company/mission/#everyone-can-contribute).
 
 Integral part of this vision is to:
 
@@ -34,7 +34,7 @@ Integral part of this vision is to:
 
 The direction is accomplished by using [Objectives and Key Results (OKRs)](/handbook/engineering/infrastructure-quality/okrs/).
 
-Other strategic initiatives to achieve this vision are driven by the needs of enterprise customers looking to adopt GitLab.com. [The GitLab.com strategy](https://about.gitlab.com/direction/enablement/dotcom/) catalogs top customer requests for the SaaS offering and outlines strategic initiatves across both Infrastructure and Stage Groups needed to address these gaps.
+Other strategic initiatives to achieve this vision are driven by the needs of enterprise customers looking to adopt GitLab.com. [The GitLab.com strategy](https://about.gitlab.com/direction/enablement/dotcom/) catalogs top customer requests for the SaaS offering and outlines strategic initiatves across both Infrastructure Platforms and Stage Groups needed to address these gaps.
 
 {{% include "includes/we-are-also-product-development.md" %}}
 
@@ -44,16 +44,16 @@ Other strategic initiatives to achieve this vision are driven by the needs of en
 
 ```mermaid
 flowchart LR
-    I[Infrastructure]
-    click I "/handbook/engineering/infrastructure/"
+    I[Infrastructure Platforms]
+    click I "/handbook/engineering/infrastructure-platforms/"
 
     I --> TPM[Technical Program Management]
     click TPM "/handbook/engineering/infrastructure/technical-program-management/"
 
     I --> EP[Engineering Productivity]
     click EP "/handbook/engineering/infrastructure/engineering-productivity/"
-    I --> C[Core Platform]
-    click C "/handbook/engineering/infrastructure/core-platform/"
+    I --> DA[Data Access]
+    click DA "/handbook/engineering/infrastructure/data-access/"
     I --> EA[Engineering Analytics]
     click EA "/handbook/engineering/quality/engineering-analytics/"
     I --> TP[Test Platform]
@@ -61,30 +61,16 @@ flowchart LR
     I --> SP[SaaS Platforms]
     click SP "/handbook/engineering/infrastructure/platforms/"
 
-    C --> SS[Systems Stage]
-    click SS "/handbook/engineering/infrastructure/core-platform/systems/"
-
-    SS --> GC[Gitaly]
-    click GC "/handbook/engineering/infrastructure-platforms/data-access/gitaly/"
-    SS --> Git[Git]
-    click GG "/handbook/engineering/infrastructure-platforms/data-access/git/"
-    SS --> Geo
-    click Geo "/handbook/engineering/infrastructure/core-platform/systems/geo/"
-    SS --> DB[Distribution::Build]
-    click DB "/handbook/engineering/infrastructure/core-platform/systems/distribution/"
-    SS --> DD[Distribution::Deploy]
-    click DD "/handbook/engineering/infrastructure/core-platform/systems/distribution/"
-
-    C --> DS[Data Stores Stage]
-    click DS "/handbook/engineering/infrastructure/core-platform/data_stores/"
-    DS --> TS[Tenant Scale]
-    click TS "/handbook/engineering/infrastructure/core-platform/tenant-scale/"
-    DS --> Database
-    click Database "/handbook/engineering/infrastructure-platforms/data-access/database-framework/"
-    DS --> GS[Global Search]
-    click GS "/handbook/engineering/infrastructure/core-platform/data_stores/search/"
-    DS --> CC[Cloud Connector]
-    click CC "/handbook/engineering/infrastructure/core-platform/data_stores/cloud-connector/"
+    DA --> DF[Database Framework]
+    click DF "/handbook/engineering/infrastructure-platforms/data-access/database-framework/"
+    DA --> DO[Database Operations]
+    click DO "/handbook/engineering/infrastructure-platforms/data-access/database-operations/"
+    DA --> Durability
+    click Durability "/handbook/engineering/infrastructure-platforms/data-access/durability/"
+    DA --> Git
+    click Git "/handbook/engineering/infrastructure-platforms/data-access/git/"
+    DA --> Gitaly
+    click Gitaly "/handbook/engineering/infrastructure-platforms/data-access/gitaly/"
 
     SP --> DE[Delivery]
     click DE "/handbook/engineering/infrastructure/team/delivery/"
@@ -122,17 +108,17 @@ The [**Infrastructure Library**](https://gitlab.com/gitlab-com/gl-infra/readines
 
 ## Dogfooding
 
-The Infrastructure department uses GitLab and GitLab features extensively as the main tool for operating many [environments](/handbook/engineering/infrastructure/environments/), including GitLab.com.
+The Infrastructure Platforms department uses GitLab and GitLab features extensively as the main tool for operating many [environments](/handbook/engineering/infrastructure/environments/), including GitLab.com.
 
-We follow the same [dogfooding process](/handbook/engineering/development/principles/#dogfooding) as part of the Engineering function, while keeping the [department mission statement](#mission) as the primary prioritization driver. The prioritization process is aligned to [the Engineering function level prioritization process](/handbook/engineering/#prioritizing-technical-decisions) which defines where the priority of dogfooding lies with regards to other technical decisions the Infrastructure department makes.
+We follow the same [dogfooding process](/handbook/engineering/development/principles/#dogfooding) as part of the Engineering function, while keeping the [department mission statement](#mission) as the primary prioritization driver. The prioritization process is aligned to [the Engineering function level prioritization process](/handbook/engineering/#prioritizing-technical-decisions) which defines where the priority of dogfooding lies with regards to other technical decisions the Infrastructure Platforms department makes.
 
 When we consider building tools to help us operate GitLab.com, we follow the [`5x rule`](/handbook/product/product-processes/dogfooding-for-r-d/#dogfooding-process) to determine whether to build the tool as a feature in GitLab or outside of GitLab. To track Infrastructure's contributions back into the GitLab product, we tag those issues with the appropriate [Dogfooding](https://gitlab.com/groups/gitlab-org/-/labels?utf8=%E2%9C%93&subscribed=&search=dogfooding) label.
 
-## Handbook use at the Infrastructure department
+## Handbook use at the Infrastructure Platforms department
 
 At GitLab, we have a [handbook first policy](/handbook/about/handbook-usage/#why-handbook-first). It is how we communicate process changes, and how we build up a single source of truth for work that is being delivered every day.
 
-The [handbook usage page guide](/handbook/about/handbook-usage/) lists a number of general tips. Highlighting the ones that can be encountered most frequently in the Infrastructure department:
+The [handbook usage page guide](/handbook/about/handbook-usage/) lists a number of general tips. Highlighting the ones that can be encountered most frequently in the Infrastructure Platforms department:
 
 1. The wider community can benefit from training materials, architectural diagrams, technical documentation, and how-to documentation. A good place for this detailed information is in the related project documentation. A handbook page can contain a high level overview, and link to more in-depth information placed in the project documentation.
 1. Think about the audience consuming the material in the handbook. A detailed run through of a GitLab.com operational runbook in the handbook might provide information that is not applicable to self-managed users, potentially causing confusion. Additionally, the handbook is not a go-to place for operational information, and grouping operational information together in a single place while explaining the general context with links as a reference will increase visibility.
@@ -141,11 +127,11 @@ The [handbook usage page guide](/handbook/about/handbook-usage/) lists a number 
 
 ## Projects
 
-Classification of the Infrastructure department projects is described on the [infrastructure department projects page](/handbook/engineering/infrastructure/projects).
+Classification of the Infrastructure Platforms department projects is described on the [infrastructure department projects page](/handbook/engineering/infrastructure/projects).
 
 The [infrastructure issue tracker](https://gitlab.com/gitlab-com/gl-infra/production-engineering/-/issues) is the backlog and a catch-all project for the infrastructure teams and tracks the work our teams are doing–unrelated to an ongoing change or incident.
 
-In addition to tracking the backlog, Infrastructure Department projects are captured in our [Infrastructure Department Epic](https://gitlab.com/groups/gitlab-com/-/epics/1049) as well as in our [Quarterly Objectives & Key Results](https://gitlab.com/groups/gitlab-com/-/epics/1420)
+In addition to tracking the backlog, Infrastructure Platforms department projects are captured in our [Infrastructure Platforms department Epic](https://gitlab.com/groups/gitlab-com/-/epics/1049) as well as in our [Quarterly Objectives & Key Results](https://gitlab.com/groups/gitlab-com/-/epics/1420)
 
 ## Supporting Product Features
 
@@ -153,17 +139,17 @@ We have a model that we use to help us support product features. [This model](/h
 
 ## Ownership
 
-The Infrastructure team maintains responsibility for the underlying infrastructure on which customer-facing services run.  Specific ownership details are in the [GitLab Service Ownership Policy](service-ownership/index.html)
+The Infrastructure Platforms team maintains responsibility for the underlying infrastructure on which customer-facing services run.  Specific ownership details are in the [GitLab Service Ownership Policy](service-ownership/index.html)
 
 ## Stable Counterparts
 
-Infrastructure SREs may be aligned with [stage groups](/handbook/product/categories/#categories-a-z) as [stable counterparts](https://about.gitlab.com/blog/2018/10/16/an-ode-to-stable-counterparts/).
+Infrastructure Platforms SREs may be aligned with [stage groups](/handbook/product/categories/#categories-a-z) as [stable counterparts](https://about.gitlab.com/blog/2018/10/16/an-ode-to-stable-counterparts/).
 
-[Stable Counterparts](team/stable-counterpart.html) are used as a framework for managing reliable services at GitLab.  The framework provides guidelines for collaboration between [Stage Groups](/handbook/product/categories/#categories-a-z) and [Infrastructure Teams](/handbook/engineering/infrastructure-quality/#engaging-with-the-infrastructure-teams).
+[Stable Counterparts](team/stable-counterpart.html) are used as a framework for managing reliable services at GitLab.  The framework provides guidelines for collaboration between [Stage Groups](/handbook/product/categories/#categories-a-z) and [Infrastructure Platforms Teams](/handbook/engineering/infrastructure-quality/#engaging-with-the-infrastructure-teams).
 
 ## Interviewing
 
-The Infrastructure department hires for a number of different technical specialisms and positions across its teams. This [Infrastructure Interviewing Guide](/handbook/hiring/interviewing/infrastructure-interview/) offers more detail on some of our regular openings, interview process and other useful information related to applying to jobs with us. More information on our current openings can be found on the [careers page](https://about.gitlab.com/jobs/).
+The Infrastructure Platforms department hires for a number of different technical specialisms and positions across its teams. This [Infrastructure Platforms Interviewing Guide](/handbook/hiring/interviewing/infrastructure-interview/) offers more detail on some of our regular openings, interview process and other useful information related to applying to jobs with us. More information on our current openings can be found on the [careers page](https://about.gitlab.com/jobs/).
 
 ## Common Links
 
@@ -180,7 +166,7 @@ The Infrastructure department hires for a number of different technical speciali
 
 ### General Issue Trackers
 
-- [Infrastructure issue queue](https://gitlab.com/gitlab-com/gl-infra/production-engineering/-/issues)
+- [Infrastructure Platforms issue queue](https://gitlab.com/gitlab-com/gl-infra/production-engineering/-/issues)
 - [Production incidents, and changes](https://gitlab.com/gitlab-com/gl-infra/production/issues/)
 - [Delivery](https://gitlab.com/gitlab-com/gl-infra/delivery/issues/)
 - [Scalability](https://gitlab.com/gitlab-com/gl-infra/scalability/issues/)
@@ -192,12 +178,12 @@ The Infrastructure department hires for a number of different technical speciali
 - [Environments](environments/)
 - [Monitoring](../monitoring/_index.md)
 - [Readiness Reviews](production/readiness/)
-- [Infrastructure Standards](infrastructure-standards/)
+- [Infrastructure Platforms Standards](infrastructure-standards/)
 
 ## Other Pages
 
 - [On-call Handover](/handbook/engineering/infrastructure/team/ops/on-call-handover/)
 - [SRE Onboarding](/handbook/engineering/infrastructure/team/ops/sre-onboarding/)
 - [GitLab.com data breach notification policy](/security/#data-breach-notification-policy)
-- [Infrastructure careers and internships](career/)
+- [Infrastructure Platforms careers and internships](career/)
 - [Coding at scale](/handbook/engineering/infrastructure/team/scalability/#regarding-coding-at-scale)

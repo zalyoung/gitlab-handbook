@@ -108,7 +108,7 @@ NOTE: these people generally do not carry pagers and are only likely available d
 
 Use the [product sections](/handbook/product/categories/) handbook page to determine whom to contact.
 
-- [Get attention from Gitaly team](/handbook/engineering/infrastructure/core-platform/systems/gitaly/#how-to-contact-the-team): issues related to Git and Git repositories, Gitaly Cluster, including data recovery.
+- [Get attention from Gitaly team](/handbook/engineering/infrastructure-platforms/data-access/gitaly/#how-to-contact-the-team): issues related to Git and Git repositories, Gitaly Cluster, including data recovery.
 - [Get attention from Fulfillment team](/handbook/engineering/development/fulfillment/#escalation-process-for-incidents-or-outages): issues related to CustomersDot (customers.gitlab.com).
 
 ### First response time SLOs

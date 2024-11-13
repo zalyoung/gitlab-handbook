@@ -280,7 +280,7 @@ In each of these responsibilities, we focus on the long-term mindset required to
 
 ### Gitaly
 
-SREs in [Gitaly](/handbook/engineering/infrastructure/core-platform/systems/gitaly/) work alongside [Backend Engineers](/job-families/engineering/development/backend/#gitaly) with a focus primarily on improving the availability, reliability and scalability  of the Gitaly fleet on GitLab.com. While the backend engineers approach their responsibilities from a software developer point of view, the SREs approach the same problems from the operational perspective and collaborate closely on finding an optimal solution, in addition to ensuring that new Gitaly features can run at scale and deployed to production safely.
+SREs in [Gitaly](/handbook/engineering/infrastructure-platforms/data-access/gitaly/) work alongside [Backend Engineers](/job-families/engineering/development/backend/#gitaly) with a focus primarily on improving the availability, reliability and scalability  of the Gitaly fleet on GitLab.com. While the backend engineers approach their responsibilities from a software developer point of view, the SREs approach the same problems from the operational perspective and collaborate closely on finding an optimal solution, in addition to ensuring that new Gitaly features can run at scale and deployed to production safely.
 
 #### Responsibilities
 

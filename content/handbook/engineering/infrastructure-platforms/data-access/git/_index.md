@@ -1,5 +1,5 @@
 ---
-title: "Core Platform:Git Team"
+title: "Git Team"
 ---
 
 **Mission**: Develop Git in accordance with the goals of the community and GitLab, and integrate it into our products.
