@@ -132,6 +132,17 @@ Virtual GitLab-sponsored volunteer events are open for all team members to join,
 
 ### Virtual GitLab Sponsored Events
 
+#### TL;DR Table
+
+| Title | Region | Necessary skills | Date | Time Commitment | Signup URL | Description |
+|-------|--------|------------------|------|-----------------|------------|-------------|
+| SuitUp | Global (Americas & EMEA) | No technical skills required | 2024-11-13, 2024-11-21, 2021-12-3, and 2024-12-10 | 1-2.5 hours | [Signup](https://docs.google.com/forms/d/e/1FAIpQLSecDzez2BjeTUdABzd6aiiAvwOcfIU2B2fyzENVbgsu2ivBqQ/viewform) | Empower students through career panels and business competitions focused on Technology & AI for Good or Business & Technology. |
+| The Red Cross & Missing Maps | Global | No technical skills required | 2024-12-5 | 1 hour | [Signup](https://docs.google.com/forms/d/e/1FAIpQLSd3xA6Zxgok9DDeJss-2hdhWPfl9X0-EXnn4zqTilZ729H6iA/viewform) | Help map areas for humanitarian organizations to assist in disaster relief efforts. |
+| Goodera & Incorporated Foundation | Japan (APAC) | No technical skills required | 2024-12-5 | 1 hour | [Signup](https://docs.google.com/forms/d/e/1FAIpQLSeyx5hjQFGnfIBJDjKe9vcfOLCodhwHME_C16BQAbXvivrV6w/viewform) | Record audiobooks for children undergoing medical treatment to alleviate stress and anxiety. |
+| Goodera & YouthBuild | Mexico (Americas) | Spanish speaking and writing required | 2024-12-10 | 1 hour | [Signup](https://docs.google.com/forms/d/e/1FAIpQLSc8cVs01tWr9OYhctP1yGpUT-NLM9RdtsKrnpiI4Ek-c2W9Ug/viewform) | Review resumes of youth to provide tips on industry-standard best practices. |
+| Goodera and Backpacks for VIC Kids | Australia (APAC) | No technical skills required | 2024-11-20 | 1 hour | [Signup](https://docs.google.com/forms/d/e/1FAIpQLSeYtDM843DJpmEElWVxJvVA2XczKmMYwQs-Xuws1LkWJ4NLmg/viewform) | Create engaging scratch coding exercises for middle school students to explore computer science concepts. |
+| Goodera and the Maya Care Foundation | India (APAC) | No technical skills required | 2024-12-4 | 1 hour | [Signup](https://docs.google.com/forms/d/e/1FAIpQLSd03HZBcriGtI6guIsbylKxGtUM1nu36ymdm55YNlnd6T1C2w/viewform) | Engage with Senior Citizens in nursing homes through meaningful conversations and activities. |
+
 #### SuitUp, Global
 
 SuitUp programs empower students to discover their passions through experiential learning opportunities and mentorship alongside corporate volunteers. There are two types of opportunities available with Suit Up:
