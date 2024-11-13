@@ -59,23 +59,13 @@ To grant new users access- you need to do the following:
 
 Flows must be named by the following [naming conventions](https://docs.google.com/spreadsheets/d/1d70MOLN6ZNVUNXHNoK3AnQu2e_oecnLc-wl-zvpYp54/edit?usp=sharing).
 
-## Flow Creation
-
-The creation of net new flows need to be approved. Currently, that approval process lives outside of Groove. At the end of Q3, Groove is releasing functionality for flows to be approved directly within Groove. Once this is released, we plan to open up the ability to create flows more widely.
+## Groove Flows Creation
 
 ### Flow Approval Process
 
-In the transition period from Outreach to Groove, if you have identified a sequence that didn’t come over from Outreach, please provide a link to the sequence for approval in the #groove-flow-approvals Slack channel. The flow will be reviewed, and if approved, the appropriate team will rebuild the sequence for you as a Groove flow with an SLA of one (1) business day.
+Individual flows can be created by any team member in Groove for personal use. XDRs and Renewals Managers will need to submit their individual flows for approvals, while Account Executives and SMB Advocates can create individual flows without the need for approvals.
 
-**Approval Matrix**
-
-Approvers for net new flows are dependent on the team creating the flow.
-
-- Sales Development Org: `Panos Rodopoulos` or `Ed Bao` - Sales Dev please use [this Issue template](https://gitlab.com/gitlab-com/marketing/sales-development/-/blob/main/.gitlab/issue_templates/BDR_Flow_Creation_Request.md?ref_type=heads)
-- Sales Org
-  - Account Executives: `Kathleen Rintelman-Betances`
-  - Renewals Managers: `Suzy Verdin`
-  - SMB Advocates: `Mike Smith`
+Should a team member want to turn their individual flow into a master flow for other team members to leverage, approvals by the appropiate Operations team or BDR Manager will be required. Please review the sections below for specific guidance depending on your team.
 
 ### New Sales Dev Manager Flow Approval Process (Nov 2024)
 
@@ -109,9 +99,30 @@ Approvers for net new flows are dependent on the team creating the flow.
 - Only approve LT flows for very specific reasons - include that in the description of the flow
 - Schedule recurring monthly checks of flow analytics to help with deprecation and promotion of flows
 
-### Sales Flows
+### Sales: Flow Creation Requirements & Sharing with BDRs
 
-For Sales, blank flows have been pre built for each team member to choose based on frequency of communication, and if you would like to majority call versus email, or a mix of both.
+Watch this [15-minute demo](https://youtu.be/pf6OuKWDHIE) on GitLab Unfiltered for a walkthrough on how to create a flow.
+
+**Flow Requirements**
+
+Ensure that your flow is following the specified requirements. Flows will be reviewed by Sales Operations on a bi-weekly basis and will be adjusted or removed if they do not meet the requirements.
+
+- Name the flow according to the [naming conventions](https://docs.google.com/spreadsheets/d/1d70MOLN6ZNVUNXHNoK3AnQu2e_oecnLc-wl-zvpYp54/edit?gid=0#gid=0)
+  - Example: `AE OB HT AMER JENKINS`
+- Use merge fields for the recipient's name and the company name
+  - Merge fields will pull from Salesforce directly to populate the contact or lead records first name and the related account name.
+- If a flow is intended for an offer or promo, set an expiration date by opening up the Flow in the Groove webapp, clicking on Settings, and clicking on `Flow Expiration Settings`.
+- Assign a Label
+  - Please choose from the available list of Labels, and do not create a new one as Labels are visible to all Groove users. If you have identified a need for a new Label, please post in the #groove-flow-approvals Slack channel.
+  - All Sales labels start with `SALES`. Example: `SALES: Account Executives`, `SALES: Renewals`, `SALES: SMB`.
+
+#### Sharing with BDRs
+
+The Sales and Sales Dev organizations have their own processes for creating and maintaining flows. If you have a flow that you would like to share with your BDR for their usage, please reach out to the BDR Manager or Sales Dev Operations team for review and approval.
+
+**Sample Flows**
+
+If you're new to creating flows, there are blank flows available as samples (or templates) for each team member to choose based on frequency of communication, and if you would like to majority call versus email, or a mix of both. These flows can be found in the [Groove Flows tab](https://groove.clari.com/flows), click on Filter, choose Labels, and select the `SALES: Blank` option.
 
 Below are a few options:
 
