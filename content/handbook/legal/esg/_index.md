@@ -35,7 +35,7 @@ Members of the ESG Advisory Committee:
 - Sherida McMullan (DIB)
 - Stella Treas (CoS)
 - Scott Rissmiller (Corporate Legal)
-- Emily Plotkin (Employement Legal)
+- Emily Plotkin (Employment Legal)
 - Rendi Miller (Procurement)
 - James Shen (Finance)
 
