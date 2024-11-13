@@ -43,7 +43,7 @@ For any other offboarding questions from active team members please reach out to
 
 ##### France
 
-Team Members resigning in France should also email a copy of their resignation letter to legal-employment@gitlab.com.
+In addition to submitting their resignation directly in Workday (following the guidelines in the 'How to Submit a Resignation' [e-Learning](https://drive.google.com/file/d/1CWEfVPFLRLtcFQh81mYAuXtYKvf3hKW0/view?usp=sharing) or [Job Aid](https://docs.google.com/document/d/1AVHHBKd6dtyn0DOl4_UydbdEhectLpH5aMh17r9Sg_4/edit)) and complying with any contractual requirements, Team Members resigning in France should also email a copy of their resignation letter to legal-employment@gitlab.com.
 
 ##### Singapore
 
