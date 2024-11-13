@@ -128,17 +128,17 @@ Additionally, this program offers volunteering opportunities around a major holi
 
 Below you’ll find information on our GitLab-sponsored virtual events, what’s to come on some local in-person volunteer events, and ideas on how to volunteer as a team or individually.
 
-Virtual GitLab-sponsored volunteer events are open for all team members to join, and are scheduled across different time zones and regions to offer flexible options in choosing an activity to participate in. By signing up for a virtual event, you’ll receive a calendar invite and a Know Before You Go document outlining all preparation details. Additional virtual volunteer events may be added, check back for details.
+Virtual GitLab-sponsored volunteer events are open for all team members to join, and are scheduled across different time zones and regions to offer flexible options in choosing an activity to participate in. By signing up for a virtual event, you’ll receive a calendar invite and a Know Before You Go document outlining all preparation details. Preparation time for the virtual events should not exceed 15 minutes. 
 
 ### Virtual GitLab Sponsored Events
 
 #### TL;DR Table
 
-| Title | Region | Necessary skills | Date | Time Commitment | Signup URL | Description |
+| Title | Region Supported | Necessary skills | Date | Time Commitment | Signup URL | Description |
 |-------|--------|------------------|------|-----------------|------------|-------------|
 | SuitUp | Global (Americas & EMEA) | No technical skills required | 2024-11-13, 2024-11-21, 2021-12-3, and 2024-12-10 | 1-2.5 hours | [Signup](https://docs.google.com/forms/d/e/1FAIpQLSecDzez2BjeTUdABzd6aiiAvwOcfIU2B2fyzENVbgsu2ivBqQ/viewform) | Empower students through career panels and business competitions focused on Technology & AI for Good or Business & Technology. |
 | The Red Cross & Missing Maps | Global | No technical skills required | 2024-12-5 | 1 hour | [Signup](https://docs.google.com/forms/d/e/1FAIpQLSd3xA6Zxgok9DDeJss-2hdhWPfl9X0-EXnn4zqTilZ729H6iA/viewform) | Help map areas for humanitarian organizations to assist in disaster relief efforts. |
-| Goodera & Incorporated Foundation | Japan (APAC) | No technical skills required | 2024-12-5 | 1 hour | [Signup](https://docs.google.com/forms/d/e/1FAIpQLSeyx5hjQFGnfIBJDjKe9vcfOLCodhwHME_C16BQAbXvivrV6w/viewform) | Record audiobooks for children undergoing medical treatment to alleviate stress and anxiety. |
+| Goodera, Club Rainbow & The Ronald McDonald House | Singapore (APAC) & Washington DC (Americas) | No technical skills required | 2024-12-5 | 1 hour | [Signup](https://docs.google.com/forms/d/e/1FAIpQLSeyx5hjQFGnfIBJDjKe9vcfOLCodhwHME_C16BQAbXvivrV6w/viewform) | Record audiobooks for children undergoing medical treatment to alleviate stress and anxiety. |
 | Goodera & YouthBuild | Mexico (Americas) | Spanish speaking and writing required | 2024-12-10 | 1 hour | [Signup](https://docs.google.com/forms/d/e/1FAIpQLSc8cVs01tWr9OYhctP1yGpUT-NLM9RdtsKrnpiI4Ek-c2W9Ug/viewform) | Review resumes of youth to provide tips on industry-standard best practices. |
 | Goodera and Backpacks for VIC Kids | Australia (APAC) | No technical skills required | 2024-11-20 | 1 hour | [Signup](https://docs.google.com/forms/d/e/1FAIpQLSeYtDM843DJpmEElWVxJvVA2XczKmMYwQs-Xuws1LkWJ4NLmg/viewform) | Create engaging scratch coding exercises for middle school students to explore computer science concepts. |
 | Goodera and the Maya Care Foundation | India (APAC) | No technical skills required | 2024-12-4 | 1 hour | [Signup](https://docs.google.com/forms/d/e/1FAIpQLSd03HZBcriGtI6guIsbylKxGtUM1nu36ymdm55YNlnd6T1C2w/viewform) | Engage with Senior Citizens in nursing homes through meaningful conversations and activities. |
@@ -154,7 +154,7 @@ SuitUp programs empower students to discover their passions through experiential
 
 **Dates:** 2024-11-13, 2024-11-21, 2021-12-3, and 2024-12-10. Sign up [here](https://docs.google.com/forms/d/e/1FAIpQLSecDzez2BjeTUdABzd6aiiAvwOcfIU2B2fyzENVbgsu2ivBqQ/viewform).
 
-**Time commitment:** 1-2.5 hours
+**Time commitment:** Coach-1.5 hours, Judge-1 hour
 
 **Regions supported through volunteerism:** US & EMEA
 
@@ -170,17 +170,17 @@ Each year, disasters around the world kill nearly 100,000 and affect or displace
 
 **Regions supported through volunteerism:** TBD by Missing Maps based upon the open source projects currently open.
 
-#### Goodera & Incorporated Foundation, Japan
+#### Goodera, Club Rainbow & The Ronald McDonald House, APAC & Americas
 
 Hospital visits and medical treatment lead to significant mental and physical stress in children. Studies have shown that listening to an audiobook could be effective in alleviating fear and anxiety for children during treatment or while at the pediatric care center. For this event, volunteers will audio-record short stories and poems for children undergoing treatment. The audiobooks will be available at the nonprofit's center as a source of comfort and engagement over the course of their treatment.
 
-**Necessary volunteer skills:** No technical skills are required to volunteer. Volunteers should feel comfortable reading aloud in a private setting. This event will currently be held in English, however if there are enough volunteers who prefer to record the books in Japanese, we will offer that as an alternative opportunity.
+**Necessary volunteer skills:** No technical skills are required to volunteer. Volunteers should feel comfortable reading aloud in a private setting. 
 
 **Date:** 2024-12-5. Sign up [here](https://docs.google.com/forms/d/e/1FAIpQLSeyx5hjQFGnfIBJDjKe9vcfOLCodhwHME_C16BQAbXvivrV6w/viewform).
 
 **Time commitment:** 1 hour
 
-**Regions supported through volunteerism:** APAC
+**Regions supported through volunteerism:** APAC & US
 
 #### Goodera & YouthBuild, Mexico
 
@@ -224,9 +224,9 @@ In-person opportunities can be organized by the GitLab ESG team, [GiveLab Champi
 
 - Phoenix, Arizona - 2024-11-22, Sign up [here](https://docs.google.com/forms/d/e/1FAIpQLSeCCqkuG4yD84qSzooMbJZ2AdXo7ftQo1gwe1mW3KlPVlRNrw/viewform)
 - Seattle, Washington - 2024-12-3, Sign up [here](https://docs.google.com/forms/d/e/1FAIpQLSfZgazBaOxn3CUExSUMQshNqdEF28nxxWCzSj3bY616BJbjEw/viewform)
-- San Francisco & San Jose, California - details coming soon
-- San Diego, California - details coming soon
+- San Diego, California - 2024-12-5, Sign up [here](https://docs.google.com/forms/d/e/1FAIpQLSfybXDQga0OgwHazB9OxmCAC_n45ZxIEte-FyN73xXBbj2QAQ/viewform?usp=sharing)
 - Amsterdam, Netherlands - details coming soon
+- San Francisco & San Jose, California - details coming soon
 
 ### Identify a volunteer opportunity by using the GiveLab Volunteer Directory
 
@@ -234,11 +234,11 @@ We’ve curated a [list](https://docs.google.com/spreadsheets/d/1koFKQbKqm4jpKtZ
 
 ### Organize a volunteer activity for an all-hands or team builder
 
-Please open [an issue](https://gitlab.com/gitlab-com/www-gitlab-com/-/issues/new?issuable_template=volunteer_support) and reach out to April Skeete in the #givelab slack channel
+Please open [an issue](https://gitlab.com/gitlab-com/www-gitlab-com/-/issues/new?issuable_template=volunteer_support) and reach out to April Skeete in the #givelab slack channel.
 
 ### Volunteer independently
 
-Many of you already volunteer in your community and we want to capture how you make an impact. If you already utilize PTO to volunteer, follow the instructions on requesting time off and adding ‘volunteer time’ as the reason and join the #givelab slack channel to share your story!
+Many of you already volunteer in your community and we want to capture how you make an impact. Please report your independent volunteer efforts [here](https://docs.google.com/forms/d/e/1FAIpQLSdI0QFfGK5QsjXZ0WXs2Z9PF-Vw48LHINTYrkP12KCjRPtTfQ/viewform) so that we can celebrate your impact. If you already utilize PTO to volunteer, follow the instructions on requesting time off and adding ‘volunteer time’ as the reason and join the #givelab slack channel to share your story!
 
 ### Contribute to GitLab’s OSS codebase
 
