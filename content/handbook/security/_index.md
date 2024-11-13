@@ -1,5 +1,7 @@
 ---
 title: Security at GitLab
+# See https://www.docsy.dev/docs/adding-content/content/#docs-section-landing-pages
+no_list: true
 ---
 
 ## <i class="fas fa-rocket" id="biz-tech-icons"></i> Security Vision and Mission
