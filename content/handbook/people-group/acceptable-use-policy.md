@@ -87,7 +87,7 @@ Prohibited system and network activities include, but are not limited to, the fo
 
 #### Unacceptable Email and Communications Activities
 
-Forwarding of confidential business emails or documents to personal external email addresses is prohibited.
+Forwarding of confidential business emails or documents to personal external email addresses is prohibited. Automated forwarding of emails from a team member account is also prohibited.
 
 > Note: GitLab may retrieve messages from archives and servers without prior notice if GitLab has sufficient reason to do so. If deemed necessary, this investigation will be conducted with the knowledge and approval of the Security, People Business Partners, and Legal Departments.
 
