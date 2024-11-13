@@ -558,7 +558,7 @@ Consideration: When communicating with your release post team, use the release p
 
 *A technical writer, once assigned to the release post merge request, will check the syntax and the content structure.*
 
-The **Structural check** [checklist in the main release post merge request description](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/.gitlab/merge_request_templates/Release-Post.md#structural-check-technical-writing-lead)
+The **Structural check** [checklist in the main release post merge request description](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/.gitlab/merge_request_templates/Release-Post.md.erb#L301)
 will guide them through the structural check.
 
 Given that the technical writing review occurs in release post items'
