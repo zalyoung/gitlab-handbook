@@ -3,7 +3,7 @@
 # good title can help communicate what the design document is and should be considered
 # as part of any review.
 title: Simplifying Rate Limiting Configuration
-status: proposed
+status: ongoing
 creation-date: "2024-09-24"
 authors: [ "@sarahwalker", "@donnaalexandra" ]
 coaches: [ "@andrewn" ]
@@ -175,10 +175,10 @@ Modify GitLab's existing rate limiting architecture to support passing in rate l
 
 ![Phase 1 Centralize Bypass Illustration](/images/handbook/engineering/architecture/design-documents/rate_limiting_simplification/phase-1-bypass.jpeg)
 
-- **Manage IP-based rate limiting bypasses in one location**
+- **Phase 1.1: Manage IP-based rate limiting bypasses in one location**
   - Migrate [bypass header logic](https://gitlab.com/gitlab-cookbooks/gitlab-haproxy/-/blob/65f8adc65b62db74714bd53dd48a50f7d9cfede3/templates/default/frontends/https.erb#L49) out of HAProxy and into Cloudflare.
   - Cloudflare custom rules support [transform-rule](https://developers.cloudflare.com/rules/transform/) actions which should make this possible.
-- **Support passing in a configuration file for Cloudflare rules**
+- **Phase 1.2: Support passing in a configuration file for Cloudflare rules**
   - Migrate [Cloudflare rules](https://ops.gitlab.net/gitlab-com/gl-infra/config-mgmt/-/blob/main/environments/gprd/cloudflare-rate-limits-waf-and-rules.tf) to use the [cloudflare-waf-rules](https://ops.gitlab.net/gitlab-com/gl-infra/terraform-modules/cloudflare/cloudflare-waf-rules/-/tree/main?ref_type=heads) Terraform module.
   - Use [terraform-vars](https://registry.terraform.io/providers/terraform-redhat/rhcs/latest/docs/guides/terraform-vars) to manage configuration of these rules.
 
@@ -389,6 +389,10 @@ Any of the improvements we make to the GitLab Application will need to work with
 ### Dedicated
 
 The Cells architecture is based on Dedicated tooling, and with improvements being made to utilise the Cloudflare WAF module, that lays the foundations for supporting improvements here too.
+
+### Cloud Connector
+
+[Cloud Connector](../../../infrastructure/rate-limiting/#cloud-connector) rate limits are configured in Cloudflare to throttle the consumption of non-horizontally scalable resources such as AI vendor limits. As part of Phase 1 to simplify our edge network configuration, we'll need to ensure Cloud Connector rate limits are included in these improvements.
 
 ## Alternative Solutions
 
