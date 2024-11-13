@@ -27,7 +27,6 @@ Currently, the ticket processor actions on the following:
 - [Add internal comments on Zendesk tickets based on the organization](#add-internal-comments-on-zendesk-tickets-based-on-the-organization)
 - [Add tags on Zendesk tickets when a STAR is made on them](#add-tags-on-zendesk-tickets-when-a-star-is-made-on-them)
 - [Add ticket weighting values to Zendesk tickets](#add-ticket-weighting-values-to-zendesk-tickets)
-- [Automatically redact attachments on closed tickets](#automatically-redact-attachments-on-closed-tickets)
 
 ### Autowork account blocked requests
 
@@ -172,33 +171,9 @@ This determines the ticket's "weight" based on specific criteria. The criteria
 currently used can be seen within the
 [ticket processor's code](https://gitlab.com/gitlab-support-readiness/zendesk-global/tickets/processor)
 
-### Automatically redact attachments on closed tickets
-
-This sends the ticket's ID to the processor, where it then scrapes all comments
-on the ticket. While scraping them, it looks for the following:
-
-- Attachment files on the comment
-- Inline file usage on the comment
-
-It then fully redacts all that it has found, replacing it with an empty
-`redacted.txt` file.
-
 ## What it does on Zendesk US Government
 
 Currently, the ticket processor actions on the following:
-
-- [Automatically redact attachments on closed tickets](#automatically-redact-attachments-on-closed-tickets-1)
-
-### Automatically redact attachments on closed tickets
-
-This sends the ticket's ID to the processor, where it then scrapes all comments
-on the ticket. While scraping them, it looks for the following:
-
-- Attachment files on the comment
-- Inline file usage on the comment
-
-It then fully redacts all that it has found, replacing it with an empty
-`redacted.txt` file.
 
 ## Change management
 
