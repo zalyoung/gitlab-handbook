@@ -133,7 +133,7 @@ The documentation tells us that the issue is not having a new line at the end of
 
 1. Return to your variables by selecting **Settings > CI/CD > Variables**.
 
-1. Select the group next to the `SSH_INVALID_KEY` variable .
+1. Select the group next to the `SSH_INVALID_KEY` variable.
 
 1. Expand the group variable section and select the **Edit** icon next to the `SSH_INVALID_KEY` variable.
 

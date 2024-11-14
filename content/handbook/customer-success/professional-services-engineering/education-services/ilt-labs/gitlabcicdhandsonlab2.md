@@ -122,7 +122,8 @@ A merge request pipeline will run every time you make a change to a branch in a 
 
 To define a job that runs in a merge request, we will add a rules definition to the job. The rule we add will check the `CI_PIPELINE_SOURCE` to see if it is merge_request_event.
 
-1. Open your `.gitlab-ci.yml` file in the pipeline editor
+1. Open your `.gitlab-ci.yml` file in the pipeline editor.
+
 1. Below the `script` for your `build go` and `run go` jobs, add the following rule:
 
     ```yml
