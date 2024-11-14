@@ -122,7 +122,7 @@ Please reach out to Total Rewards for information on how to use your Income Prot
 
 ## Pension Introduction
 
-GitLab provides and contributes into an Auto-Enrollment personal pension scheme with [Scottish Widows](http://www.scottishwidows.co.uk/retirement/retirement-explained/basics/auto-enrolment/)
+GitLab provides and contributes into an Auto-Enrollment personal pension scheme with [Scottish Widows](https://www.scottishwidows.co.uk/retirement/retirement-explained/basics/auto-enrolment/)
 
 Willis Towers Watson act as employee benefit advisers to the GitLab GPPP and although cannot provide you with financial advice are available to explain the details of the GitLab GPPP and answer any questions you may have.
 
@@ -183,7 +183,7 @@ The following process is followed by GitLab People Operations to join the Scheme
 When an employee joins the scheme they will be sent a welcome pack in the post stating that they are now a scheme member, it will also have their login details. Employees can login to access their own personal fund and can make adjustments as they see fit.
 
 If the team member hasn't received their Scottish Widows package in the mail within their first 2 months of their joining date, they can log on to their
-[Scottish Widows Portal](http://www.scottishwidows.co.uk/personal). Select "Register Now', and fill out your details (no need to fill out the Policy Number, as you can use your National Insurance Number instead). Please do not try to log in via the portal before Papaya has uploaded your information in accordance to the schedule above, as you will be denied access.
+[Scottish Widows Portal](https://www.scottishwidows.co.uk/personal). Select "Register Now', and fill out your details (no need to fill out the Policy Number, as you can use your National Insurance Number instead). Please do not try to log in via the portal before Papaya has uploaded your information in accordance to the schedule above, as you will be denied access.
 
 </details>
 

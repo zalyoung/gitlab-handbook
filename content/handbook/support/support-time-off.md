@@ -96,7 +96,7 @@ Follow the guidance below to prepare yourself, your customers, and your colleagu
 If you are assigned to any PagerDuty shifts (such as on-call) during the time off, arrange for coverage:
 
 1. Find a volunteer to cover for you; get help from your manager if necessary.
-1. [Create the appropriate override in PagerDuty](https://support.pagerduty.com/docs/editing-schedules#create-and-delete-overrides).
+1. [Create the appropriate override in PagerDuty](https://support.pagerduty.com/main/docs/edit-schedules#create-overrides).
 
 ### Coverage for assigned tickets
 

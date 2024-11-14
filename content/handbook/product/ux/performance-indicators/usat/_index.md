@@ -3,7 +3,7 @@ title: "User Satisfaction (USAT) Survey"
 description: "The User Satisfaction (USAT) survey is a performance indicator we use within the Product division to measure the end user satisfaction of our product."
 ---
 
-* Within the Product division, we have adopted [User Satisfaction (USAT)](https://www.qualtrics.com/uk/experience-management/customer/what-is-csat/) (formerly called Product CSAT) as a survey metric and are collecting data on this metrics within a survey on a quarterly basis.
+* Within the Product division, we have adopted [Product Customer Satisfaction Score (PCSAT)](https://www.qualtrics.com/en-gb/experience-management/customer/what-is-csat/) and are conducting this survey on a quarterly basis.
   * We previously surveyed users with the Net Promoter Score (NPS) metric, which we moved away from starting in FY25 Q1 ([see internal only proposal deck](https://docs.google.com/presentation/d/18FYO0UoUQi__7hPnD0uhVmeJrN16n23OISQnom0eRE8/edit?usp=sharing)).
 * We are using USAT because it allows us to:
   * Measure satisfaction directly vs. indirectly.

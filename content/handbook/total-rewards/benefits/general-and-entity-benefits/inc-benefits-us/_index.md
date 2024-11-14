@@ -616,7 +616,7 @@ See the [disability insurance flyer](https://drive.google.com/file/d/1sN3LR0mz7m
 1. The Absence Management team will complete the Employer portion of the [Short-Term disability](https://drive.google.com/file/d/1guydUTEc0vBFMaa_IsSktZ5hXAbOXdvD/view?usp=sharing) application and email the completed portion along with the [Assignment of Benefits](https://drive.google.com/file/d/1nd0r5qj9PS21HDFH97Jbft9dZzlpTOsr/view?usp=sharing) form.
 1. At the end of the maximum benefit period for short-term disability of 12 weeks, the team member will determine whether they are able to return back to work.
    - If the team member intends to return on or before the end of the 12 weeks, they should email leaves@gitlab.com a Return to Work authorization form from their physician stating that they are able to return to work and listing any accommodations needed, if applicable, at least 5 calendar days before their return date. The Absence Management team will request this at least 5 business days before the team member's anticipated return to work date if not already provided by the team member.
-   - If the team member is unable to return, the team member will be moved to unpaid leave and will have the option to continue their benefits by electing [COBRA coverage](https://www.dol.gov/sites/dolgov/files/ebsa/about-ebsa/our-activities/resource-center/faqs/cobra-continuation-health-coverage-consumer.pdf). The team member will be eligible to apply for long-term disability at this time.
+   - If the team member is unable to return, the team member will be moved to unpaid leave and will have the option to continue their benefits by electing [COBRA coverage](https://www.dol.gov/sites/dolgov/files/ebsa/about-ebsa/our-activities/resource-center/faqs/cobra-continuation-coverage.pdf). The team member will be eligible to apply for long-term disability at this time.
 
 </details>
 
@@ -691,7 +691,7 @@ Effective 2024-08-01, Team Members can elect to make after-tax contributions to 
 
 Please see the [Fidelity Roth 401(k) contributions, after-tax contributions, and the Roth in-plan conversion FAQ](https://drive.google.com/file/d/1WtisN4O4O7X_vtS6YP4X8nVP1xukc2uL/view?usp=sharing) for more details.
 
-Please also see our [webinar with SageView](https://drive.google.com/file/d/1u0LrgJFh3-_lQ-vgXlI2CBbnKJ0t7eX6/view?usp=sharing) on how this 401(k) feature works, the benefits of using the feature, and considerations team members should be aware of before participating.  
+Please also see our [webinar with SageView](https://drive.google.com/file/d/1u0LrgJFh3-_lQ-vgXlI2CBbnKJ0t7eX6/view?usp=sharing) on how this 401(k) feature works, the benefits of using the feature, and considerations team members should be aware of before participating.
 
 Team Members should take note that the 401(k) after-tax deductions takes priority over ESPP contributions.
 Team Members should calculate their after-tax contributions carefully to ensure that they have enough funds for ESSP contributions, should they wish to participate in both features.
@@ -843,7 +843,7 @@ You can also choose to front-load the team member portion of your HSA contributi
 
 <summary>Health Savings Account and Offboarding GitLab </summary>
 
-Your Health Savings Account and any funds within the account as of your date of termination are yours to keep. You may continue to use the dollars in your account for eligible healthcare expenses at your next employer, and/or allow the money to remain in the account and grow over time. Wex may charge fees to manage your HSA account directly. Please contact WEX (Discovery) at 866.451.3399, via live chat or customerservice@discoverybenefits.com with any questions about your HSA accounts.  
+Your Health Savings Account and any funds within the account as of your date of termination are yours to keep. You may continue to use the dollars in your account for eligible healthcare expenses at your next employer, and/or allow the money to remain in the account and grow over time. Wex may charge fees to manage your HSA account directly. Please contact WEX (Discovery) at 866.451.3399, via live chat or customerservice@discoverybenefits.com with any questions about your HSA accounts.
 
 </details>
 
@@ -1044,7 +1044,7 @@ To access LifeMart through ADP:
 
 ## COBRA
 
-If you are enrolled in medical, dental, and/or vision when you terminate from GitLab (either voluntarily or involuntarily), you may be eligible to continue your coverage through [COBRA](https://www.dol.gov/sites/dolgov/files/ebsa/about-ebsa/our-activities/resource-center/faqs/cobra-continuation-health-coverage-consumer.pdf).
+If you are enrolled in medical, dental, and/or vision when you terminate from GitLab (either voluntarily or involuntarily), you may be eligible to continue your coverage through [COBRA](https://www.dol.gov/sites/dolgov/files/ebsa/about-ebsa/our-activities/resource-center/faqs/cobra-continuation-coverage.pdf).
 
 </details>
 

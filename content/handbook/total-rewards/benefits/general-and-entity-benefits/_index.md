@@ -108,9 +108,9 @@ In an emergency, International SOS (ISOS) can provide quick medical, safety, and
 
 Your coverage as a GitLab team member is automatic and is year-round. There are several ways to interact with ISOS, depending on your preference:
 
-- Team members can download the [ISOS emergency app](https://my.internationalsos.com/LP=8890?_ga=2.54701099.1827787566.1652889843-59998074.1652889840) — it's the best way to get medical, safety, and security assistance abroad. Before traveling, open the App and register using your GitLab email address.
+- Team members can download the [ISOS emergency app](https://my.internationalsos.com/LP=8890) — it's the best way to get medical, safety, and security assistance abroad. Before traveling, open the App and register using your GitLab email address.
   - Please use a unique password and not the same as your existing GitLab credentials.
-  - Note that this is not a GitLab application and is managed by ISOS. You can read more about the app [here](https://internationalsos.com/subscriber/assistance-app).
+  - Note that this is not a GitLab application and is managed by ISOS. You can read more about the app [here](https://www.internationalsos.com/subscriber/assistance-app).
   - If you have medical, safety, or security questions before or during travel, open the ISOS app and press the Need Assistance button. You will be directed to ISOS's closest emergency alarm center, where a nurse, doctor, safety, or security expert will assist you.
   - If team members prefer not to download the app, we encourage you to follow this [link](https://www.internationalsos.com/Private/NET_StandardMembershipCards/comprehensive.aspx?CustomerNumber=401GDA935395IT&CompanyID=GitLab%2c+Inc.&ProgramName=Assignee+%26+International+Traveler+Assistance&PhoneNum1=Philadelphia+++%2b1+215+942+8226&PhoneNum2=Sydney+++%2b61+2+9372+2468&PhoneNum3=London+++%2b44+(0)20+8762+8008&PhoneNum4=Singapore+++%2b65+6338+7800&Language=en-US) and print or take a picture of the membership card with the emergency contact details. You can save the number in your phone for easy access.
   - Note that International SOS is an optional resource for team members and is only one of the ways you can receive care.
@@ -355,6 +355,6 @@ If you're interested in learning about how other GitLab team members approach pa
 
 When Team Members are affected by natural disasters such as fires, earthquakes, floods, etc..., GitLab has established a Team Member Relief Program to assist with financial hardship from these disasters or other emergencies. This program is managed in partnership with E4E Relief, a non-profit that helps businesses establish global disaster relief programs for their Team Members.
 
-This program provides Team Members and their families with short-term, need-based assistance in times of extreme need. If you experience a difficult situation, please visit the [GitLab Cares Portal](http://gitlab.e4erelief.org/) to easily determine if you're eligible for program assistance and to apply for assistance.
+This program provides Team Members and their families with short-term, need-based assistance in times of extreme need. If you experience a difficult situation, please visit the [GitLab Cares Portal](https://gitlab.e4erelief.org/) to easily determine if you're eligible for program assistance and to apply for assistance.
 
 GitLab started the fund with an initial contribution to support team members. Team Members may also choose to make donations to the fund as part of their annual giving and donation efforts. If you wish to make a donation, please visit the Portal and select 'Contribute to the Fund'. Donationas are tax-deductable (country-specific tax laws apply).

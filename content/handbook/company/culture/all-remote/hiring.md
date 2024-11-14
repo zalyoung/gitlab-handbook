@@ -209,20 +209,20 @@ Onboarding is a continuous process during a team member's first year. Investing 
 1. Increases productivity more quickly
 1. Better team member retention
 
-Companies that invest in onboarding report [54% more productivity](https://www.myshortlister.com/insights/employee-onboarding-statistics) from new hires. Studies show that [87% of team members are less likely to leave a company](http://www.totalteambuilding.com.au/the-positive-impact-of-team-building) when they feel engaged.
+Companies that invest in onboarding report [54% more productivity](https://www.myshortlister.com/insights/employee-onboarding-statistics) from new hires. Studies show that [87% of team members are less likely to leave a company](https://www.totalteambuilding.com.au/the-positive-impact-of-team-building) when they feel engaged.
 
 1. Sets clear expectations
 1. Reduces new-hire anxiety
 1. Increases productivity more quickly
 1. Better team member retention
 
-Companies that invest in onboarding report [54% more productivity](https://www.myshortlister.com/insights/employee-onboarding-statistics) from new hires. Studies show that [87% of team members are less likely to leave a company](http://www.totalteambuilding.com.au/the-positive-impact-of-team-building) when they feel engaged.
+Companies that invest in onboarding report [54% more productivity](https://www.myshortlister.com/insights/employee-onboarding-statistics) from new hires. Studies show that [87% of team members are less likely to leave a company](https://www.totalteambuilding.com.au/the-positive-impact-of-team-building) when they feel engaged.
 
 We are so convinced in the power of onboarding well that we've created a [Complete Guide to Remote Onboarding for New Hires](onboarding/). To help new hires focus on [three key onboarding dimensions](https://hbr.org/2018/12/to-retain-new-hires-spend-more-time-onboarding-them)--[organizational](onboarding/#organizational-onboarding), [technical](onboarding/#technical-requirements-for-all-remote-onboarding), and [social](onboarding/#social-requirements-for-all-remote-onboarding)--we assign a mentor or [onboarding buddy]({{< ref "onboarding-buddies" >}}).
 
 #### Assign a mentor or onboarding buddy
 
-To help prevent [New Job Anxiety](http://www.classycareergirl.com/2017/02/new-job-anxiety-conquer) and aid onboarding and the adjustment to an [all-remote]({{< ref "_index.md" >}}) culture, new team members are assigned an onboarding buddy.
+To help prevent [New Job Anxiety](https://www.classycareergirl.com/new-job-anxiety-conquer/) and aid onboarding and the adjustment to an [all-remote]({{< ref "_index.md" >}}) culture, new team members are assigned an onboarding buddy.
 
 A mentor or onboarding buddy is a friendly point of contact for a new team member. This individual sets the example for building relationships and models how to communicate in a variety of ways, such as video calls, check-ins on Slack, and [coffee chats](informal-communication/#coffee-chats).
 

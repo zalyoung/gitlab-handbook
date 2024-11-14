@@ -275,10 +275,10 @@ If you're interested in starting or joining an m-team meeting, reach out to othe
 1. [Carta's Manager's FAQ](https://medium.com/eshares-blog/a-managers-faq-35858a229f84)
 1. [Carta's How to hire](https://carta.com/blog/how-to-hire/)
 1. [How Facebook Tries to Prevent Office Politics](https://hbr.org/2016/06/how-facebook-tries-to-prevent-office-politics)
-1. [The Management Myth](http://www.theatlantic.com/magazine/archive/2006/06/the-management-myth/304883/)
-1. [Later Stage Advice for Startups](http://themacro.com/articles/2016/07/later-stage-advice-for-startups/)
+1. [The Management Myth](https://www.theatlantic.com/magazine/archive/2006/06/the-management-myth/304883/)
+1. [Later Stage Advice for Startups](https://themacro.com/articles/2016/07/later-stage-advice-for-startups/)
 1. [Mental Models I Find Repeatedly Useful](https://medium.com/@yegg/mental-models-i-find-repeatedly-useful-936f1cc405d)
-1. [This Is The Most Difficult Skill For CEOs To Learn](http://www.businessinsider.com/whats-the-most-difficult-ceo-skill-managing-your-own-psychology-2011-4)
+1. [This Is The Most Difficult Skill For CEOs To Learn](https://www.businessinsider.com/whats-the-most-difficult-ceo-skill-managing-your-own-psychology-2011-4)
 1. Great article about [how to think about PIPs](https://mfbt.ca/how-i-talk-to-leaders-about-firing-people-8149dfcb035b), although our time scales are shorter.
 1. [Impraise Blog: 1-on-1s for Engaged Employees](https://www.impraise.com/blog/how-to-support-effective-remote-performance-management-with-11s)
 1. [Mind Tools: Giving Feedback: Keeping Team Member Performance High, and Well Integrated](https://www.mindtools.com/pages/article/newTMM_98.htm)
@@ -315,7 +315,7 @@ We sometimes self-organize [book clubs]({{< ref "book-clubs" >}}) to read throug
 
 ## Email Lists
 
-1. [Software Lead Weekly](http://softwareleadweekly.com/)
+1. [Software Lead Weekly](https://softwareleadweekly.com/)
 
 ## Training
 

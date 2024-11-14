@@ -28,7 +28,7 @@ GitLab offers all team members the ability to use the Financial Wellness Program
 
 - 1:1 sessions for all GitLab team members globally to connect with a dedicated Wellness Specialist to discuss topics such as Investment Assets (including Stock Options), Asset Protection, Income Protection, Debt Management, and Estate Planning.
   - The main goal here is the commitment to help understanding how the GitLab equity plan works, and providing resources in what team members can consider in financial management. SageView won't provide tax, legal, or financial advice, but can help you to understand the pieces of information you will need to seek personal advise on to manage your own personal situation.
-- Access to [Sage411](http://www.sage411.com) for general questions and investment support.
+- Access to [Sage411](https://sage411.com/) for general questions and investment support.
 - Access to SageView's communications
 - Financial Wellness Workshops hosted by SageView
 

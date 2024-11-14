@@ -22,7 +22,7 @@ How we design:
 - We review all merge requests containing the [UX] label to ensure design and engineering parity.
 - We dogfood Product Analytics to measure and test the impact of each product iteration.
 
-Learn more about what we work on and the problems we are solving on our public [direction page](https://about.gitlab.com/direction/analytics/product-analytics/).
+Learn more about what we work on and the problems we are solving on our public [direction page](https://about.gitlab.com/direction/monitor/).
 
 ## Team members
 

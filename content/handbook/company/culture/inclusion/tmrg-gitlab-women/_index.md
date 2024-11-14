@@ -104,7 +104,7 @@ The following are books suggested by GitLab team members in the [#women Slack ch
 
 | Book Title and Author | Optional Book Review |
 | ----- | ----- |
-| [WolfPack by Abby Wambach](http://abbywambach.com/books/wolfpack/) | |
+| [WolfPack by Abby Wambach](https://abbywambach.com/books/wolfpack/) | |
 | [Radical Candor by Kim Scott](https://www.radicalcandor.com/the-book/) | |
 | [Lean In by Sheryl Sandberg](https://leanin.org/book) | |
 | [The Memo by Minda Harts](https://www.mindaharts.com/book/) | |

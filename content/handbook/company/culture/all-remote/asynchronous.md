@@ -277,7 +277,7 @@ GitLab embraces asynchronous work and [non-linear workdays](non-linear-workday/)
 
 Remote workers lack many of the physical gateways that serve as dividers between work and life. When work and life happen in the same building, and one's work equipment is always within reach, it's far too easy to allow unread Slack messages to haunt you.
 
-Being intentional about removing Slack from one's phone is a great way to reinforce that time away from work is important. A [litany](http://sitn.hms.harvard.edu/flash/2018/dopamine-smartphones-battle-time/) of [studies](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6449671/) have covered the addictive impact of smartphones. Even if you aren't sure if this approach will benefit you, give it a try. It's a [two-way door](/handbook/values/#make-two-way-door-decisions).
+Being intentional about removing Slack from one's phone is a great way to reinforce that time away from work is important. A [litany](https://sitn.hms.harvard.edu/flash/2018/dopamine-smartphones-battle-time/) of [studies](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6449671/) have covered the addictive impact of smartphones. Even if you aren't sure if this approach will benefit you, give it a try. It's a [two-way door](/handbook/values/#make-two-way-door-decisions).
 
 ### Be transparent on capacity
 
@@ -346,7 +346,7 @@ Suggesting to "hop on a quick videocall" may feel insignificant, but it can have
 
 ### When to pivot from asynchronous to synchronous
 
-When a back-and-forth asynchronous conversation is moving very slowly with a high volume of small statements between two people, sometimes a quick synchronous discussion leads to a quick micro-resolution. Generally, if two people go back-and-forth more than three times on the exact same topic — and it's impractical to [break it into smaller async-friendly decisions](/handbook/values/#minimal-valuable-change-mvc) — it makes sense to temporarily pivot to synchronous **or** leverage a richer communication medium such as [Yac](http://yac.com/) or [Loom](https://www.loom.com/).
+When a back-and-forth asynchronous conversation is moving very slowly with a high volume of small statements between two people, sometimes a quick synchronous discussion leads to a quick micro-resolution. Generally, if two people go back-and-forth more than three times on the exact same topic — and it's impractical to [break it into smaller async-friendly decisions](/handbook/values/#minimal-valuable-change-mvc) — it makes sense to temporarily pivot to synchronous **or** leverage a richer communication medium such as [Yac](https://yac.com/) or [Loom](https://www.loom.com/).
 
 These tools allow messages to be conveyed asynchronously, though the use of audio and video as the medium may enable deeper connections to be made compared to raw text transmissions.
 

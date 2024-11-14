@@ -124,7 +124,7 @@ It's important to put the audio being listened to, or guests audio directly into
 An external microphone and camera are an important part of a professional stream.
 Microphones and Headphones can be [expensed](/handbook/finance/expenses/) as part of working at GitLab.
 
-1. [Stream Deck](https://www.elgato.com/en/stream-deck). A Stream Deck allows you to have even more control over your stream. You can change scenes, control music and sound effects, there's even a plug in for common commands in VSCode. A stream deck is not required, but is part of many common streaming set ups.
+1. [Stream Deck](https://www.elgato.com/us/en/p/stream-deck-mk2-black). A Stream Deck allows you to have even more control over your stream. You can change scenes, control music and sound effects, there's even a plug in for common commands in VSCode. A stream deck is not required, but is part of many common streaming set ups.
 
 ### Streaming on Twitch
 

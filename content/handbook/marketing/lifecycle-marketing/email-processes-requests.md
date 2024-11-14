@@ -466,17 +466,17 @@ It's virtually impossible to support all the calendar applications available. To
 ### Steps to manually creating "add to calendar" links in our emails
 <!-- DO NOT CHANGE THIS ANCHOR -->
 * Create google calendar link for your events
-  * Use this tool to generate your event information: [http://kalinka.tardate.com/](http://kalinka.tardate.com/)
+  * Use this tool to generate your event information: [https://kalinka.tardate.com/](https://kalinka.tardate.com/)
   * You would have to copy and paste the information for the event from marketo to the tool above, this takes about 2 minutes
     * Location should be formatted as follows to show up as an address in the google calendar invite:
 
       **747 Howard St, San Francisco, CA 94103, USA**
     * Make sure time zone is correct
 
-  * Create link [Example Here](http://www.google.com/calendar/event?action=TEMPLATE&dates=20200406T150000Z%2F20200409T030000Z&text=Google%20Next%202020&location=747%20Howard%20St%2C%20San%20Francisco%2C%20CA%2094103%2C%20USA&details=https%3A%2F%2Fcloud.withgoogle.com%2Fnext%2Fsf%2F) and paste into correct template in Marketo as follows:
+  * Create link [Example Here](https://www.google.com/calendar/event?action=TEMPLATE&dates=20200406T150000Z%2F20200409T030000Z&text=Google%20Next%202020&location=747%20Howard%20St%2C%20San%20Francisco%2C%20CA%2094103%2C%20USA&details=https%3A%2F%2Fcloud.withgoogle.com%2Fnext%2Fsf%2F) and paste into correct template in Marketo as follows:
 
     ```html
-    <a href="http://www.google.com/calendar/event?action=TEMPLATE&dates=20200206T035000Z%2F20200206T065000Z&text=Nouts%20test%20event&location=5107%20Oakbrook%20Drive%2C%20Durham%2C%20NC&details=nout's%20test%20event%20">Add to Google calendar</a>
+    <a href="https://www.google.com/calendar/event?action=TEMPLATE&dates=20200206T035000Z%2F20200206T065000Z&text=Nouts%20test%20event&location=5107%20Oakbrook%20Drive%2C%20Durham%2C%20NC&details=nout's%20test%20event%20">Add to Google calendar</a>
     ```
 
 * Create ICS file for all other calendars (mostly Outlook and Apple)

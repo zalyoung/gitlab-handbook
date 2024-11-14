@@ -31,8 +31,8 @@ Small and Medium Size Business Account Executives "SMB AE" act as Account Execut
 #### SMB Support
 
 - **SMB Training Support** = [`#smb_training_support`](https://app.slack.com/client/T02592416/CKYLWKGJU)
-- **Sales Support** = [`#sales-support`](http://app.slack.com/client/T02592416/CNLBL40H4/thread/CKYLWKGJU)
-- **Questions** = [`#questions`](http://app.slack.com/client/T02592416/C0AR2KW4B)
+- **Sales Support** = [`#sales-support`](https://app.slack.com/client/T02592416/CNLBL40H4/thread/CKYLWKGJU)
+- **Questions** = [`#questions`](https://app.slack.com/client/T02592416/C0AR2KW4B)
 
 #### Closed deals
 

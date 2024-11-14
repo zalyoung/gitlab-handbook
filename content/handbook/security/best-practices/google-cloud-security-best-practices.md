@@ -85,7 +85,7 @@ In addition, you can find official, platform-specific documentation of features 
 
 - [Google Cloud](https://cloud.google.com/vpc/docs/using-firewalls#creating_firewall_rules#console)
 - [Amazon Web Services (AWS)](https://docs.aws.amazon.com/vpc/latest/userguide/VPC_SecurityGroups.html)
-- [Azure](https://docs.microsoft.com/en-us/learn/modules/introduction-azure-web-application-firewall/)
+- [Azure](https://learn.microsoft.com/en-us/training/modules/introduction-azure-web-application-firewall/)
 
 IP filtering should be set up and used when hosting any version of GitLab affected by known and disclosed vulnerabilities.
 

@@ -98,7 +98,7 @@ Always **check the website of the Embassy of the Country you want to visit** loc
 
 - **6 months beforehand**: make appointment at embassy, and start gathering all necessary paperwork, forms, certificates, pictures, etc.
   - Sometimes you might call the embassy, and be told that you do not need to schedule an interview so far ahead of your trip. Don't take their word for it, since that advice is typically made with the "typical, best case"  process in mind and for example in the case of the USA does not account for the possibility of a black hole "administrative processing" period. In other words, make sure you get an appointment as early as possible.
-  - If the country where the embassy/consulate is located where you are going for your application is listed as anything other than "High Income" by the [World Bank's "Little Data Book"](https://openknowledge.worldbank.org/bitstream/handle/10986/23968/9781464808340.pdf?sequence=4&isAllowed=y) then it is likely that the embassy/consulate there has a [high tendency to say "no" to visa applications](http://www.alllaw.com/articles/nolo/us-immigration/harder-get-visa-from-certain-countries.html). We recommend to engage the services of a local lawyer who is familiar with the embassy process to help check that your paperwork is in order, and to practice interview questions. You're also welcome to ask for support when you are in a "High Income" country. People Ops can help you with this.
+  - If the country where the embassy/consulate is located where you are going for your application is listed as anything other than "High Income" by the [World Bank's "Little Data Book"](https://openknowledge.worldbank.org/bitstream/handle/10986/23968/9781464808340.pdf?sequence=4&isAllowed=y) then it is likely that the embassy/consulate there has a [high tendency to say "no" to visa applications](https://www.alllaw.com/articles/nolo/us-immigration/harder-get-visa-from-certain-countries.html). We recommend to engage the services of a local lawyer who is familiar with the embassy process to help check that your paperwork is in order, and to practice interview questions. You're also welcome to ask for support when you are in a "High Income" country. People Ops can help you with this.
 - **3 months beforehand** (or earlier if indicated by the embassy you are applying to): go to embassy for interview.
 - **2 months beforehand**: if you have not received your visa by now, contact your local lawyer again to see if anything can be done to expedite the process.
 
@@ -120,7 +120,7 @@ The IND (Dutch immigration services) in general take about 4 to 6 weeks' time to
 
 ### 30% Ruling in the Netherlands
 
-The [30% reimbursement ruling](https://www.iamsterdam.com/en/living/take-care-of-official-matters/highly-skilled-migrants/thirty-percent-ruling) (better known as the 30% ruling) is a tax advantage for highly skilled migrants moving to the Netherlands. This benefit, granted for five years, allows them to receive 30% of their employment income tax free. As an example, when your employment income is EUR 60,000; the 30% ruling ensures a net pay of EUR 18,000. The remainder of EUR 42,000 is subject to Dutch taxes. In addition, when being entitled to the 30% ruling you can exclude your savings from Dutch income tax (which can be beneficial once you have exercised your stock options).
+The [30% reimbursement ruling](https://www.iamsterdam.com/en/live-work-study/living/official-procedures/30-tax-ruling) (better known as the 30% ruling) is a tax advantage for highly skilled migrants moving to the Netherlands. This benefit, granted for five years, allows them to receive 30% of their employment income tax free. As an example, when your employment income is EUR 60,000; the 30% ruling ensures a net pay of EUR 18,000. The remainder of EUR 42,000 is subject to Dutch taxes. In addition, when being entitled to the 30% ruling you can exclude your savings from Dutch income tax (which can be beneficial once you have exercised your stock options).
 
 The 30% ruling is a mutual application filed by the employee and GitLab BV as the employer. During the onboarding procedure a [questionnaire](https://docs.google.com/document/d/1Ok6LS9T4P6tnPu2N6BDRDeveOYzd1ILpkbQRhl911w4/edit?ts=5caf1bca) is shared in order to gather the necessary information to file the application for the 30% ruling. People Ops shares the 30% ruling questionnaire and supporting documentation with  HRSavvy (the company that supports GitLab with visas and payroll in the Netherlands). HR Savvy will subsequently apply for the 30% ruling. There are some conditions to be satisfied to be granted the 30% ruling.
 
@@ -256,7 +256,7 @@ If a candidate is interested in employment at GitLab in a country where they req
 More detailed links on the process:
 
 - [Schengenvisainfo.com/EU-Blue-Card](https://www.schengenvisainfo.com/eu-blue-card/)
-- [EU Immigration portal](https://ec.europa.eu/immigration/blue-card/essential-information_en#:~:text=How%20long%20can%20I%20work,which%20has%20issued%20the%20card.)
+- [EU Immigration portal](https://immigration-portal.ec.europa.eu/eu-blue-card/essential-information_en)
 
 ### Other visas GitLab may be able to accept
 

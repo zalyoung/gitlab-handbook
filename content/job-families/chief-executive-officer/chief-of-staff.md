@@ -93,7 +93,7 @@ As always, the interviews and screening call will be conducted via a [video call
 
 - [What Is a Chief of Staff to the CEO and When Do You Need One?](https://www.bridgespan.org/insights/library/careers/chief-of-staff-role#sidebar-two) by Madeleine Niebauer 2018-09-26
 - [The Chief of Staff to the CEO role in Silicon Valley](https://medium.com/@juliadewahl/the-chief-of-staff-role-in-silicon-valley-182eb93e636e) by Julia DeWahl 2019-04-29
-- [The Unrepentant Generalist: How to Be a Great Chief of Staff in Tech](http://www.nehrlich.com/blog/2019/10/31/how-to-be-a-great-chief-of-staff-in-tech/)
+- [The Unrepentant Generalist: How to Be a Great Chief of Staff in Tech](https://www.nehrlich.com/blog/2019/10/31/how-to-be-a-great-chief-of-staff-in-tech/)
 - [NYT: Hail to the Chief of Staff](https://www.nytimes.com/2019/11/07/style/what-does-a-chief-of-staff-do.html)
 - 2020 March: [Chief of Staff in the Tech Industry](https://medium.com/@alexismonville/chief-of-staff-in-the-tech-industry-c7dc3a43dae6)
 - [Emilie Schario's Notes on the CoS to the CEO Book](https://docs.google.com/document/d/1ZjWmqhv78eic57gxR825FvC9GMHo91pYakb3Jc7ximU/edit?usp=sharing)

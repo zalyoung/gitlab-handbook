@@ -69,7 +69,7 @@ Searching for a string with whitespaces requires to [use quotes](https://www.alg
 More API URL examples:
 
 - Front page: https://hn.algolia.com/api/v1/search?&query=gitlab&tags=front_page
-- Mentions: http://hn.algolia.com/api/v1/search_by_date?query="devops+platform"
+- Mentions: https://hn.algolia.com/api/v1/search_by_date?query="devops+platform"
 
 #### gitlab-blog Forum Bot
 

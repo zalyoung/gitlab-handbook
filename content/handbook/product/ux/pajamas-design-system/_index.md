@@ -40,7 +40,7 @@ UX Design, and Contributors to work together more seamlessly and improve our pro
 
 - Product Designers can spend more time solving problems and less time designing
 (and redesigning) UI components. Components can be reused, making design efforts
-scalable and ensuring our UI stays [DRY](https://deviq.com/don-t-repeat-yourself/).
+scalable and ensuring our UI stays [DRY](https://deviq.com/principles/dont-repeat-yourself).
 - Engineers can reference design documentation that enables them to easily eliminate
 inconsistencies between design and code without assistance from a Product Designer.
 - Engineers can find coding and development guidelines which will enable them to

@@ -34,7 +34,7 @@ Due to the nature of language, there are many pronouns that one could choose fro
 **she/her**, **they/them**, and **he/him**.
 
 The way people display pronouns vary, but most people choose to display their
-[personal pronouns](https://www.grammarly.com/blog/personal-pronouns/) in the format shown above. Occasionally, one might
+[personal pronouns](https://www.grammarly.com/blog/parts-of-speech/personal-pronouns/) in the format shown above. Occasionally, one might
 also include the corresponding possessive pronoun, such as **they/them/theirs**, as a matter of personal preference or
 to provide additional clarity.
 
@@ -51,7 +51,7 @@ as in this example from [Wikipedia](https://en.wikipedia.org/wiki/Singular_they)
 More recently, "they" has seen an increase in usage as a singular pronoun for known individuals who do not identify as
 a man or woman. Simply use "they" as you normally would in a sentence when referring to someone who uses **they/them**
 pronouns, and you're all set! If you ever get stuck, Grammarly has a great write-up on
-[singular they](https://www.grammarly.com/blog/use-the-singular-they/).
+[singular they](https://www.grammarly.com/blog/parts-of-speech/use-the-singular-they/).
 
 ### Multiple pronouns
 

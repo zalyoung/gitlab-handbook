@@ -40,7 +40,7 @@ NOTE: The default instructions below prescribe using "the GCP project called `gi
 
 To run the `create_project_with_auto_devops_spec` tests, ensure you have GDK set up to run a GKE cluster (see [above instructions](/handbook/engineering/development/ops/configure/autodevops/#configure-your-gdk-to-run-the-tests)) and call the test from the `../gitlab/qa/` directory.
 
-Example: `CHROME_HEADLESS=true bundle exec bin/qa Test::Instance::All http://gdk.test:3000 -- qa/specs/features/browser_ui/7_configure/auto_devops/create_project_with_auto_devops_spec.rb --tag orchestrated --tag kubernetes`
+Example: `CHROME_HEADLESS=true bundle exec bin/qa Test::Instance::All https://gdk.test:3000 -- qa/specs/features/browser_ui/7_configure/auto_devops/create_project_with_auto_devops_spec.rb --tag orchestrated --tag kubernetes`
 
 or
 

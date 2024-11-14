@@ -233,5 +233,5 @@ Additional dashboards are available in Grafana that show application performance
 - [#s_plan](https://gitlab.slack.com/archives/s_plan) in Slack
 - [Recorded meetings](https://www.youtube.com/playlist?list=PL05JrBw4t0KouWOCpPdlVZmwr3QCqhQ94)
 - [Retrospectives](https://gitlab.com/gl-retrospectives/plan/issues?scope=all&utf8=%E2%9C%93&state=all&label_name[]=retrospective)
-- [Group Conversations](http://gitlab-org.gitlab.io/group-conversations/plan/) (archive; group conversations now happen at a the
+- [Group Conversations](https://gitlab-org.gitlab.io/group-conversations/plan/) (archive; group conversations now happen at a the
   [section level](/handbook/company/team/structure/#organizational-structure))

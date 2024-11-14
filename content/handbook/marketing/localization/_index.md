@@ -172,15 +172,15 @@ The canonical version of our site will the United States English version on `abo
 <head>
  <title>Widgets, Inc</title>
   <link rel="alternate" hreflang="en-gb"
-       href="http://en-gb.example.com/page.html" />
+       href="https://en-gb.example.com/page.html" />
   <link rel="alternate" hreflang="en-us"
-       href="http://en-us.example.com/page.html" />
+       href="https://en-us.example.com/page.html" />
   <link rel="alternate" hreflang="en"
-       href="http://en.example.com/page.html" />
+       href="https://en.example.com/page.html" />
   <link rel="alternate" hreflang="de"
-       href="http://de.example.com/page.html" />
+       href="https://de.example.com/page.html" />
  <link rel="alternate" hreflang="x-default"
-       href="http://www.example.com/" />
+       href="https://www.example.com/" />
 </head>
 ```
 

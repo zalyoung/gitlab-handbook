@@ -266,7 +266,7 @@ When downgrading product maturity, we adjust our customer's current expectations
 We have boundless [ambition](/handbook/product/product-principles/#how-this-impacts-planning), and we expect GitLab to continue to add new stages to the DevOps lifecycle. Below is a list of future stages we are considering:
 
 1. Data, maybe leveraging [Meltano product](https://meltano.com/)
-1. Networking, maybe leveraging some of the [open source standards for networking](https://www.linux.com/news/5-open-source-software-defined-networking-projects-know/) and/or [Terraform networking providers](https://www.terraform.io/docs/providers/type/network-index.html)
+1. Networking, maybe leveraging some of the [open source standards for networking](https://www.linux.com/news/5-open-source-software-defined-networking-projects-know/) and/or [Terraform networking providers](https://developer.hashicorp.com/terraform/language/providers)
 1. Design, we already have [design management](https://gitlab.com/groups/gitlab-org/-/epics/1445) today
 
 Stages are different from the [application types](https://about.gitlab.com/direction/#maturity) you can service with GitLab.

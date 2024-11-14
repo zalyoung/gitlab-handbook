@@ -103,7 +103,7 @@ After this, the [model_feature_service_manager](https://gitlab.com/gitlab-data/d
 
 Currently we have the UI running in a VM that can be accessed by requesting permission to the Data Engineering team. In case you would like to run the UI locally, you can use one of these two commands:
 
-1. `make ui-local`: This runs the UI locally against the production database / production registry. After running the command you can access it through the following `http://0.0.0.0:8889`.
+1. `make ui-local`: This runs the UI locally against the production database / production registry. After running the command you can access it through the following `https://0.0.0.0:8889`.
 2. `make ui-staging`: This runs the UI against your personal development database instead of the production database (for example, when creating a MR to introduce new features and you want to test locally).
 
 ## Project Structure
@@ -219,8 +219,8 @@ WITH base AS (
 
     SELECT DISTINCT
         base.dim_crm_account_id,
-        dim_date.snapshot_month 
-    FROM base 
+        dim_date.snapshot_month
+    FROM base
     CROSS JOIN dim_date
 )
 
@@ -232,7 +232,7 @@ SELECT
 
 FROM scaffold a
 LEFT JOIN base b
-      ON a.dim_crm_account_id = b.dim_crm_account_id 
+      ON a.dim_crm_account_id = b.dim_crm_account_id
       AND b.snapshot_month BETWEEN ADD_MONTHS(a.snapshot_month, -{period_unit}) AND a.snapshot_month
 GROUP BY 1, 2, 3
 ```

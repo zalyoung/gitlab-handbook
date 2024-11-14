@@ -92,7 +92,7 @@ References:
 
 ### Cultural Impacts and Differences
 
-It is important to recognize that people from different cultures have different ways of saying things, different body language, different ways of dressing/attire and even different ways of looking at things. You can review examples of typical cultural differences on the [Center of Intercultural Competence](http://www.cicb.net/en/home/examples).
+It is important to recognize that people from different cultures have different ways of saying things, different body language, different ways of dressing/attire and even different ways of looking at things. You can review examples of typical cultural differences on the [Center of Intercultural Competence](https://www.cicb.net/en/home/examples).
 
 Summit attendees should also remember:
 

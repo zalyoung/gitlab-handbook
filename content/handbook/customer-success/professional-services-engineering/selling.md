@@ -53,7 +53,7 @@ After following the above process steps, click `Generate PDF` to obtain an Order
 
 ### Custom-Scoped Services
 
-If the account team (SAE/ISR/SA/CSM) determines that the customer requires additional services outside of those listed in the [full catalog](https://about.gitlab.com/services/catalog/), they should initiate a scoping engagement with the PS team by opening the [Services Calculator](http://services-calculator.gitlab.io/) and submitting with the information required (customer name, GitLab username and email address). If you don't know the specifics, you can submit with the defaults. This will add an issue to the  PS Engagement Manager's queue to follow up with you on next steps. Check out the [detailed steps below](#custom-scoped-services-detailed-workflow) for custom-scoped engagements for more details.
+If the account team (SAE/ISR/SA/CSM) determines that the customer requires additional services outside of those listed in the [full catalog](https://about.gitlab.com/services/catalog/), they should initiate a scoping engagement with the PS team by opening the [Services Calculator](https://services-calculator.gitlab.io/) and submitting with the information required (customer name, GitLab username and email address). If you don't know the specifics, you can submit with the defaults. This will add an issue to the  PS Engagement Manager's queue to follow up with you on next steps. Check out the [detailed steps below](#custom-scoped-services-detailed-workflow) for custom-scoped engagements for more details.
 
 ### Instructions for creating a Professional Services Quote
 

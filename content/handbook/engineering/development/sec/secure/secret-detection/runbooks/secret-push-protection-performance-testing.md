@@ -139,7 +139,7 @@ docker run -it \
   -v $PWD:/results \
   -v $PWD:/config \
   gitlab/gpt-data-generator \
-  --environment gcp-2k.json --environment-url=http://34.83.26.81 \
+  --environment gcp-2k.json --environment-url=https://34.83.26.81 \
   --subgroups 10 --projects 10 --no-vertical
 ```
 

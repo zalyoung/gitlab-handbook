@@ -37,7 +37,7 @@ You can find instructions on how to set up keyword searches in Chrome and Firefo
 
 ### Setting up keyword searches on Chrome
 
-Keyword searches are created as new `Site searches` in Chrome under the [Search engine](chrome://settings/searchEngines) Settings. By default, typing the keyword in [Chrome's Omnibox](https://developer.chrome.com/docs/extensions/reference/omnibox/) (address bar) then tapping on <kbd>space</kbd> or <kbd>tab</kbd>, then entering the query and hitting <kbd>return</kbd> will use this keyword search.
+Keyword searches are created as new `Site searches` in Chrome under the [Search engine](chrome://settings/searchEngines) Settings. By default, typing the keyword in [Chrome's Omnibox](https://developer.chrome.com/docs/extensions/reference/api/omnibox) (address bar) then tapping on <kbd>space</kbd> or <kbd>tab</kbd>, then entering the query and hitting <kbd>return</kbd> will use this keyword search.
 
 The steps below show you how to set up a keyword search for searching the GitLab handbook.
 
@@ -194,7 +194,7 @@ To search for recorded events in [GitLab Unfiltered via our YouTube Channel](htt
 
 *In the [GitLab Unfiltered](https://www.youtube.com/channel/UCMtZ0sc1HHNtGGWZFDRTh5A) video above, Darren M. walks through a brief tutorial on using Git file history and Git blame to track down a handbook change.*
 
-You can search repositories in GitLab for changes using [Git file History](https://docs.gitlab.com/ee/user/project/repository/git_history.html) and [Git blames](https://docs.gitlab.com/ee/user/project/repository/git_blame.html).
+You can search repositories in GitLab for changes using [Git file History](https://docs.gitlab.com/ee/user/project/repository/files/git_history.html) and [Git blames](https://docs.gitlab.com/ee/user/project/repository/git_blame.html).
 
 Git file History provides information about the commit history associated with a file, while a blame provides more information about every line in a file, including the last modified time, author, and commit hash.
 

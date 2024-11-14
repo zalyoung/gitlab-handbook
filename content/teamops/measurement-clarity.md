@@ -52,7 +52,7 @@ These are documented in a tool that's accessible to the entire organization. Any
 - *Team:* When starting a new project, define and document the contributions of each team member, and how "success" will be measured both individually and collectively.
 - *Company:* In performance review agendas, add a section to revisit (and update, if needed) each team member's weekly, monthly, quarterly, and yearly OKRs and KPIs. Specifically discuss and answer the question, "What does productivity look like in this role?"
 
-**Recommended TeamOps Partner:** [Lance Robbins](http://lancehrobbins.com/) (consultant)
+**Recommended TeamOps Partner:** [Lance Robbins](https://lancehrobbins.com/) (consultant)
 {{% /details %}}
 
 ## Measure results, not hours
@@ -78,7 +78,7 @@ Producing the `10 Years of GitLab` integrated marketing campaign and [associated
 - *Team:* Confirm that the assigned objectives and key results (OKRs) of each team member are prominently displayed in each project management plan.
 - *Company:* Confirm that your HR or People department is measuring and monitoring presenteeism, and that work location is not being discussed during performance reviews.
 
-**Recommended TeamOps Partner:** [Lance Robbins](http://lancehrobbins.com/) (consultant)
+**Recommended TeamOps Partner:** [Lance Robbins](https://lancehrobbins.com/) (consultant)
 {{% /details %}}
 
 ## Definition of done
@@ -104,7 +104,7 @@ Every quarter, GitLab's Workplace team adds new features and enhancements to the
 - *Team:* Create a field in your project management plan template for listing the project's definition of done.
 - *Company:* When approving OKRs, include a Definition of Done as a minimum requirement for fulfillment, then supplement with more ambitious goals for the team or individual to work toward.
 
-**Recommended TeamOps Partner:** [Lance Robbins](http://lancehrobbins.com/) (consultant)
+**Recommended TeamOps Partner:** [Lance Robbins](https://lancehrobbins.com/) (consultant)
 {{% /details %}}
 
 ## Prioritize due dates over scope
@@ -128,7 +128,7 @@ As of 2022-12-01, GitLab has [shipped a monthly product release](https://about.g
 - *Team:* Confirm that the due date of a project is prominently displayed in each project management plan for your team.
 - *Company:* Update your company's onboarding and continuing education programs to include training about how to produce iterative results.
 
-**Recommended TeamOps Partner:** [Lance Robbins](http://lancehrobbins.com/) (consultant)
+**Recommended TeamOps Partner:** [Lance Robbins](https://lancehrobbins.com/) (consultant)
 {{% /details %}}
 
 ## Transparent feedback
@@ -191,7 +191,7 @@ At the same time each quarter, executive leadership hosts [GitLab Assembly](/han
 - *Team:* Design and document a cadence calendar for team rituals, such as delivery cycles, team offsites, or performance reviews.
 - *Company:* Design and document a cadence calendar for company rituals, such as OKRs, stakeholder meetings, or workforce retreats.
 
-**Recommended TeamOps Partner:** [Lance Robbins](http://lancehrobbins.com/) (consultant)
+**Recommended TeamOps Partner:** [Lance Robbins](https://lancehrobbins.com/) (consultant)
 {{% /details %}}
 
 ---

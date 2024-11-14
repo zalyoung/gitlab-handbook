@@ -315,10 +315,10 @@ If you do not wish to keep the GitLab Runner on your device, you may follow the 
 
    ```ps
    cd C:\GitLab-Runner
-   .\gitlab-runner.exe list 
+   .\gitlab-runner.exe list
    ```
 
-1. Using the URL and token, run the unregister command: ```gitlab-runner unregister --url "http://gitlab.example.com/" --token t0k3n```
+1. Using the URL and token, run the unregister command: ```gitlab-runner unregister --url "https://gitlab.example.com/" --token t0k3n```
 
 ## Lab Guide Complete
 

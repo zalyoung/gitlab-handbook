@@ -42,7 +42,7 @@ If our customer is reporting problems connecting to GitLab.com, we should ask fo
 
 ```shell
 traceroute gitlab.com
-curl http://gitlab.com/cdn-cgi/trace
+curl https://gitlab.com/cdn-cgi/trace
 curl https://gitlab.com/cdn-cgi/trace
 curl -svo /dev/null https://gitlab.com
 ```

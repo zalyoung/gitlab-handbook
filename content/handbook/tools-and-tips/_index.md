@@ -391,7 +391,7 @@ Double check before international travel, as it may be supported but have hidden
 
 When connecting to a network with a [captive portal](https://en.wikipedia.org/wiki/Captive_portal), most websites will not load as modern sites use HTTPS, and captive portals interrupt that process.
 Your device will try and compensate for this, but it can be tough to manage manually.
-If you have trouble, try connecting to [http://captive.apple.com/](http://captive.apple.com/) first, which is intentionally only HTTP and will load the captive portal.
+If you have trouble, try connecting to [https://captive.apple.com/](https://captive.apple.com/) first, which is intentionally only HTTP and will load the captive portal.
 
 ### FIDO2 / WebAuthn
 
@@ -490,7 +490,7 @@ The [Google Calendar](/handbook/tools-and-tips/#google-calendar) invite is the s
 
 ## Google
 
-Need a new document or new slide deck quickly? Use shortcuts like <http://doc.new> or <http://slide.new>. The full list (not even restricted to Google products) is available at <https://whats.new/shortcuts/>.
+Need a new document or new slide deck quickly? Use shortcuts like <https://doc.new> or <https://slide.new>. The full list (not even restricted to Google products) is available at <https://whats.new/shortcuts/>.
 
 ### Google Docs
 

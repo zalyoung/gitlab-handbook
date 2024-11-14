@@ -97,7 +97,7 @@ git show c46489109e4:qa/qa/specs/features/ee/browser_ui/1_manage/group/restrict_
 ```
 
 You can determine the revision SHA deployed on a GitLab instance by either navigating to www.example.com/help,
-by calling the `http://www.example.com/api/v4/version` API or by running `/chatops run auto_deploy status` in a Slack
+by calling the `https://www.example.com/api/v4/version` API or by running `/chatops run auto_deploy status` in a Slack
 channel such as #chat-ops-test.
 
 You can also determine if your commit has been deployed on a GitLab environment using [ChatOps](https://docs.gitlab.com/ee/ci/chatops).
@@ -217,7 +217,7 @@ Restart GDK using the `FIPS_MODE` variable:
 
 Tests can then be ran with the `FIPS` variable set:
 
-`FIPS=1 bundle exec bin/qa Test::Instance::All http://gdk.test:3000/ ./qa/specs/features/browser_ui/2_plan/issue/create_issue_spec.rb`
+`FIPS=1 bundle exec bin/qa Test::Instance::All https://gdk.test:3000/ ./qa/specs/features/browser_ui/2_plan/issue/create_issue_spec.rb`
 
 ### Run the test against your GDK
 

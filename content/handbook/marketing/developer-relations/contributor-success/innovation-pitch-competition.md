@@ -13,7 +13,7 @@ description: Information and guidelines about the Innovation Pitch Competition
 * This initiative was designed to engage our community, stimulate innovation, and showcase creativity within our field, marking a significant milestone in our commitment to fostering talent and recognizing outstanding contributions.
 * Participants submitted a 2.5-minute video pitch, promoting their proof of concept, and a proof of concept.
 * A jury of GitLab team members selected the top pitches.
-* Fulfillment Partner to run this competition was [DevPost](http://gitlab.devpost.com)
+* Fulfillment Partner to run this competition was [DevPost](https://gitlab.devpost.com)
 * Winners were announced during an [Innovation Pitch Competition Finale live stream on YouTube](https://www.youtube.com/watch?v=b62uClk-wN4)
 * Some selected contributions can receive follow up investment post events (ref: [Deep Dive](https://docs.google.com/document/d/1Hx990RwTzFpp3Z6xWNy-Tvs6bblyeXFhAu9SmO9gMiM/edit?usp=sharing) sessions).
 * An [in-depth background document](https://docs.google.com/document/d/1k8EE3reAqewBa_wpY9N3mGowqm8fHqQXq7M1ftxRHH0/edit) has been compiled, detailing iterations, context, and foundational materials for potential future use. Additionally, a separate document outlines the [responsibilities of the competition's DRI](https://docs.google.com/document/d/1ca9J7CouVL3t0M8F4Xis2vGej0MaceJzNsyNrpuwFTY/edit?usp=sharing) from December to March, featuring a to-do list and numerous links to various support documents.
@@ -38,7 +38,7 @@ description: Information and guidelines about the Innovation Pitch Competition
 * Submissions to the competition had to meet the following requirements:
   * A demo video of the project which should not be more than 2.5 minutes.
   * Video should include footage that shows the Project functioning, and be uploaded and made publicly visible on YouTube (preferred), Vimeo, Facebook Video, or Youku.
-  * A working proof of concept for the project in a publicly visible repository on [GitLab.com](http://GitLab.com)
+  * A working proof of concept for the project in a publicly visible repository on [GitLab.com](https://GitLab.com)
   * Provide a URL to the open-source code repository, licensed under the MIT license.
   * A text description explaining the features and functionality of the project as they relate to the judging criteria.
 * The [official rules](https://gitlab.devpost.com/rules) are published on DevPost.

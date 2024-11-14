@@ -69,8 +69,8 @@ Solutions Architects frequently interact with customers for demos, presentations
 
 - [Muzzle](https://muzzleapp.com/) to mute all notifications prior to beginning a call
 - [Tab Resize Chrome plugin](https://chrome.google.com/webstore/detail/tab-resize-split-screen-l/bkpenclhmiealbebdopglffmfdiilejc?hl=en-US) to break tabs into split-screen viewing
-- [Screenbrush](http://screenbrush.imagestudiopro.com/) to draw on the screen
-- [Toby](http://www.gettoby.com/) or [Tabs Outliner](https://chrome.google.com/webstore/detail/tabs-outliner/eggkanocgddhmamlbiijnphhppkpkmkl) to launch many preset tabs at once
+- [Screenbrush](https://screenbrush.imagestudiopro.com/) to draw on the screen
+- [Toby](https://www.gettoby.com/) or [Tabs Outliner](https://chrome.google.com/webstore/detail/tabs-outliner/eggkanocgddhmamlbiijnphhppkpkmkl) to launch many preset tabs at once
 - [Station](https://getstation.com/) to group pages by application in a smart dock
 - [MouseBeam](https://geeky.gent/tag/mousebeam/) enables the mouse cursor to use multiple screens like a circle
 - [Rectangle](https://rectangleapp.com/) to quickly move and resize windows in macOS using keyboard shortcuts or snap areas

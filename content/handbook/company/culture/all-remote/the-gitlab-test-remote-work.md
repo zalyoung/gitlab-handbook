@@ -10,7 +10,7 @@ twitter_creator: "@gitlab"
 ![GitLab remote work spectrum illustration](/images/all-remote/spectrum_of_remote_work_gitlab.jpg)
 {style="max-width: 50%;"}
 
-GitLab is one of the world's largest all-remote organizations. As we've scaled remote, we've documented over 40 individual guides that comprehensively cover the proven principles of remote-first work, culture, process, and optimization. The foundational elements are distilled in [The Remote Playbook](http://allremote.info).
+GitLab is one of the world's largest all-remote organizations. As we've scaled remote, we've documented over 40 individual guides that comprehensively cover the proven principles of remote-first work, culture, process, and optimization. The foundational elements are distilled in [The Remote Playbook](https://allremote.info).
 
 For some, there's still a looming question: *How do I know if we're running a great remote operation?*
 

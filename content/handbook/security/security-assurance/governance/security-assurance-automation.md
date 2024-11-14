@@ -164,7 +164,7 @@ Below is a list of libraries we use to assist with standardization:
      - Dependency Management: [Pipenv](https://pipenv.pypa.io/en/latest/)
      - CLI: [argparse](https://docs.python.org/3/library/argparse.html)
   3) Modules
-     - Dependency Management: [PDM](https://pdm.fming.dev/)
+     - Dependency Management: [PDM](https://pdm-project.org/en/latest/)
         - [PDM](https://pdm-project.org/latest/) has been selected over [Poetry](https://python-poetry.org/) due to PDM's direct support of [PEP 621](https://peps.python.org/pep-0621/), [PEP631](https://peps.python.org/pep-0631/), and [PEP 517](https://peps.python.org/pep-0517/)
      - CLI: [click](https://click.palletsprojects.com/en/7.x/)
 

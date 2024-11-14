@@ -35,7 +35,7 @@ In an all-remote organization with team members spread across an array of time z
 
 Documentation is an essential competitive advantage. Companies which rely on vocalizing end up repeating themselves over and over in meetings, creating an inefficient environment with tremendous opportunity for knowledge leaks. While communicating and documenting through text may feel like a burden in the moment, it prevents a toxic cycle of meetings and touch points which serve only to "bring people up to speed."
 
-[Tim Casasola](https://twitter.com/timcasasola) of Sanctuary Computer [asserts](http://www.timcasasola.com/blog/writing) that "great writing makes remote work better. It saves time, reduces meetings, removes extrovert bias, and invites other perspectives."
+[Tim Casasola](https://twitter.com/timcasasola) of Sanctuary Computer [asserts](https://www.timcasasola.com/blog/writing) that "great writing makes remote work better. It saves time, reduces meetings, removes extrovert bias, and invites other perspectives."
 
 Communicating answers to problems via text makes documentation easier. Rather than transcribing one's voice, one must simply copy and paste in a structured format within a company's [handbook](/handbook). It's vital to understand that nurturing this habit serves more than the person receiving the answer. It is, in essence, paying it forward. Documenting solutions makes a more efficient future for every new hire who joins and asks the same question, not to mention existing team members who join a project or conversation midstream and need to understand what steps have been taken thus far (and why).
 
