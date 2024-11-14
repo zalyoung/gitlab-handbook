@@ -17,7 +17,6 @@ Core Platform focuses on improving our capabilities and metrics in the following
 - [Geo](/handbook/engineering/infrastructure/core-platform/systems/geo/)
 - [Gitaly](/handbook/engineering/infrastructure/core-platform/systems/gitaly/)
 - [Cloud Connector](/handbook/engineering/infrastructure/core-platform/data_stores/cloud-connector/)
-- [Global Search](/handbook/engineering/infrastructure/core-platform/data_stores/search/)
 - [Tenant Scale](/handbook/engineering/infrastructure/core-platform/tenant-scale/)
 
 ## All Team Members
@@ -47,10 +46,6 @@ The following people are permanent members of teams that belong to the Core Plat
 ### Gitaly
 
 {{< team-by-manager-slug manager="andrashorvath" >}}
-
-### Global Search
-
-{{< team-by-manager-slug manager="cliu" team="Global Search" >}}
 
 ### Cloud Connector
 
