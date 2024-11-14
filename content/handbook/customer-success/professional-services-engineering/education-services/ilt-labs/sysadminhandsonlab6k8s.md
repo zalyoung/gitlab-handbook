@@ -1,6 +1,6 @@
 ---
-title: "GitLab System Admin - Hands-On Lab: Troubleshooting"
-description: "This Hands-On Guide demonstrates how to troubleshoot your GitLab instance"
+title: "GitLab System Admin - Hands-On Lab: Troubleshooting GitLab Kubernetes"
+description: "This Hands-On Guide demonstrates how to troubleshoot your GitLab Kubernetes instance"
 ---
 
 > Estimated time to complete: 30 minutes

@@ -1,6 +1,6 @@
 ---
-title: "GitLab System Admin - Hands-On Lab: Upgrading GitLab"
-description: "This Hands-On Guide demonstrates how to upgrade your GitLab instance"
+title: "GitLab System Admin - Hands-On Lab: Upgrading GitLab Kubernetes"
+description: "This Hands-On Guide demonstrates how to upgrade your GitLab Kubernetes instance"
 ---
 
 > Estimated time to complete: 30 minutes

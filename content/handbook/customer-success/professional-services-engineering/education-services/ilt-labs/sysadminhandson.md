@@ -1,6 +1,6 @@
 ---
-title: "GitLab System Administration - Hands-On Lab Overview"
-description: "This Hands-On Guide walks you through the lab exercises in the GitLab System Administration course."
+title: "GitLab System Administration with Omnibus - Hands-On Lab Overview"
+description: "This Hands-On Guide walks you through the lab exercises in the GitLab System Administration course using Omnibus."
 ---
 
 ## GitLab System Administration Lab Guides

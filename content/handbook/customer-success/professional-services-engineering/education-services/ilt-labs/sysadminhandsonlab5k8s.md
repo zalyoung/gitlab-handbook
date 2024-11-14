@@ -1,6 +1,6 @@
 ---
-title: "GitLab System Admin - Hands-On Lab: Logging and Monitoring"
-description: "This Hands-On Guide demonstrates how to monitor your GitLab instance and analyze your logs"
+title: "GitLab System Admin - Hands-On Lab: Logging and Monitoring GitLab Kubernetes"
+description: "This Hands-On Guide demonstrates how to monitor your GitLab Kubernetes instance and analyze your logs"
 ---
 
 > Estimated time to complete: 30 minutes

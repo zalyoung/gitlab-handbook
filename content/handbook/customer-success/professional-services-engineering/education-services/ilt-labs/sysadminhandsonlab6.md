@@ -1,6 +1,6 @@
 ---
-title: "GitLab System Admin - Hands-On Lab: Troubleshooting"
-description: "This Hands-On Guide demonstrates how to troubleshoot your GitLab instance"
+title: "GitLab System Admin - Hands-On Lab: Troubleshooting GitLab Omnibus"
+description: "This Hands-On Guide demonstrates how to troubleshoot your GitLab Omnibus instance"
 ---
 
 > Estimated time to complete: 30 minutes

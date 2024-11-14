@@ -1,6 +1,6 @@
 ---
-title: "GitLab System Admin - Hands-On Lab: Upgrading GitLab"
-description: "This Hands-On Guide demonstrates how to upgrade your GitLab instance"
+title: "GitLab System Admin - Hands-On Lab: Upgrading GitLab Omnibus"
+description: "This Hands-On Guide demonstrates how to upgrade your GitLab Omnibus instance"
 ---
 
 > Estimated time to complete: 30 minutes

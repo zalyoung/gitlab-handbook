@@ -1,6 +1,6 @@
 ---
-title: "GitLab System Admin - Hands-On Lab: Exploring the Admin Dashboard"
-description: "This Hands-On Guide demonstrates how to troubleshoot and fix CI/CD pipelines"
+title: "GitLab System Admin - Hands-On Lab: Exploring the Omnibus Admin Dashboard"
+description: "This Hands-On Guide demonstrates the admin dashboard of the Omnibus GitLab installation."
 ---
 
 ## Objectives
