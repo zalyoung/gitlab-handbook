@@ -102,9 +102,9 @@ A PCL is manually enforced once the following requirements are met:
 
 The following dates are currently scheduled PCLs.
 
-| Dates                       | Type       | Reason                        |
-|-----------------------------|------------|-------------------------------|
-| 2024-03-08 23:00 UTC -> 2024-03-17 20:00 UTC | Hard | GitLab Summit (Low team members availability) |
+| Dates                                        | Type   | Reason                                            |
+|----------------------------------------------|--------|---------------------------------------------------|
+| 2024-12-23 03:00 UTC -> 2025-01-06 03:00 UTC | Hard   | Year End Holidays (Low team member availability)  |
 
 Times for the dates without a time specified begin at 09:00 UTC and end the next day at 09:00 UTC.
 
