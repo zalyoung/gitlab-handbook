@@ -11,7 +11,7 @@ Customer Satisfaction is a qualitative metric to ascertain a deeper understandin
 
 **GitLab utilizes a few types of customer satisfaction surveys:**
 
-* [**User Satisfaction (USAT)**](https://handbook.gitlab.com/handbook/product/ux/performance-indicators/usat/)**:** Administered by the UX Research team via Rally UXR & Qualtrics to a representative sample of paid end users of GitLab, these surveys focus on measuring satisfaction with GitLab the product on a quarterly basis.  
+* [**User Satisfaction (USAT)**](/handbook.gitlab.com/handbook/product/ux/performance-indicators/usat/)**:** Administered by the UX Research team via Rally UXR & Qualtrics to a representative sample of paid end users of GitLab, these surveys focus on measuring satisfaction with GitLab the product on a quarterly basis.  
 * [**Customer Satisfaction CSAT**](/handbook/sales/field-operations/customer-success-operations/cs-ops-programs/all-customer-csat-cs/): This biannual survey, owned by Customer Success, measures the satisfaction level in both the product and engagement with our teams.   
 * **Service CSAT:** Administered by the Customer Success team via Gainsight to a larger audience, these surveys assess customer satisfaction with GitLab's overall support, service levels, and customer experience. These tend to be transactional, focused on the most immediate interaction with our team.
 
@@ -64,9 +64,7 @@ In order to target leaders and decision-makers on accounts, three types of users
 
 Each satisfaction survey is owned by different teams. Please see the linked pages above for links to dashboards.
 
-.
 ---
-
 ## **Deprecated Surveys**
 
 ### **Net Promoter Score Survey (NPS)**
@@ -78,11 +76,7 @@ Customers received NPS surveys at multiple points in their lifecycle from 2021 t
 * Post-Onboarding NPS/CSAT  
 * Pre-Renewal NPS  
 * Post-Renewal NPS/CSAT
-
-.
 ---
-
-
 | Page Metadata |  |
 | :---- | :---- |
 | Last Updated | Oct 29, 2024 |
