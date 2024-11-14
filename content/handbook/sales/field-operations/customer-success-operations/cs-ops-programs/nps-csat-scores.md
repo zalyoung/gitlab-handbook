@@ -5,7 +5,7 @@ description: "A deep dive into these surveys, how they are defined and actioned.
 
 ## **What are customer satisfaction surveys?**
 
-Customer Satisfaction is a qualitative metric to ascertain a deeper understanding of the customer sentiment at a point in the life cycle. **Customer Satisfaction score**, or **CSAT,** is a transactional attribute to understand how a specific action, product, or experience in the customer lifecycle has gone.
+Customer Satisfaction is a qualitative metric to develop a deeper understanding of the customer sentiment at a point in the life cycle. **Customer Satisfaction score**, or **CSAT,** is a transactional attribute to understand how a specific action, product, or experience in the customer lifecycle has gone.
 
 **Note**: Any type of question or questions can be a customer satisfaction survey. There are **no standards for questions or metrics**. It is entirely based on what the company is trying to learn about the customer from a question.
 
