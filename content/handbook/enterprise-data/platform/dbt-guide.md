@@ -1585,6 +1585,21 @@ Query optimization involves looking at the way the query executes and making cha
 - Ensure that the order `JOIN` clauses are operating on as few rows as feasible
 - Minimize fan out of rows and cartesian results in `JOIN` clauses
 
+#### Test Optimization
+
+By default uniqueness and `not_null` should be tested on all primary keys, however tests should be able to complete in a reasonable time. If a long-running test is detected there are some strategies that can be used to remove the test or improve performance.
+
+- Is the test checking for uniqueness on a model which already has a QUALIFY statement on that field? In this case uniqueness is built into the model and does not need to be tested although care should be taken that further changes do not alter this.
+- Is the test checking for uniqueness on an incremental model which already has that field defined as the `unique_key`? Any attempt to insert a duplicate key will result in a processing error so testing may not be required.
+- If the table is very large then the lookback period can be specified in the test config, for example:
+
+```yaml
+data_tests:
+  - unique:
+      config:
+        where: "created_at >= DATEADD('day',-3,CURRENT_DATE())"
+```
+
 #### Clustering
 
 The application of clustering, and automatic reclustering, will be very dependent on the situation and would typically be placed on the source tables in the lineage of the model where a performance increase is desired. Clustering should be considered in the following circumstances:

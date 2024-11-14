@@ -280,6 +280,7 @@ datestamp
 datetime
 daycares
 DBeaver
+dbt
 Debian
 debloating
 decodable
