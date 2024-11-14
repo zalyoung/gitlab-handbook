@@ -214,7 +214,7 @@ Relevant parents can take paternity leave. These are:
 
 - You will be entitled to take 7 weeks of Parent's leave in the first 2 years of a child's birth or adoption and you can take 7 consecutive weeks or 7 separate weeks of leave.
 - Team members must give written notice to the Absence Management team at `leaves@domain.com` of their intention to take parent's leave at least 6 weeks before the intended start date.
-- You may also qualify for 7 weeks [Parent's Benefit](https://www.citizensinformation.ie/en/social_welfare/social_welfare_payments/social_welfare_payments_to_families_and_children/parents_benefit.en.html) if you have enough social insurance (PRSI) contributions.
+- You may also qualify for 7 weeks [Parent's Benefit](https://www.citizensinformation.ie/en/social-welfare/families-and-children/parents-benefit/) if you have enough social insurance (PRSI) contributions.
 - To apply for Parent's Benefit, submit your application via the [Parent's Benefit gov.ie website](https://www.gov.ie/en/service/b321b1-parents-benefit/) at least 4 weeks before the date you start your parent's leave.
 - Parent's Leave runs concurrently with [GitLab Parental Leave]({{< ref "general-and-entity-benefits#parental-leave" >}}).
 
@@ -252,7 +252,7 @@ To initiate your leave, submit your time off by selecting the `Parental Leave` c
     1. Your signature and date
 - Once notice has been given, the team member must submit a copy of the decision from the Deciding Officer of the Department of Employment Affairs and Social Protection, that the person to be cared for is medically certified as requiring full-time care and attention.
 - Once Carer's Leave has been approved, at least two weeks before the start of leave, the team member must complete a [confirmation document](https://docs.google.com/document/d/1uQ6EldAAxS0gvr9bQ7SXkrsWVh-Yccs5M9HZgvZMRMc/edit?usp=sharing). GitLab will retain a copy, and provide the team member with a copy.
-- If you have enough PRSI contributions, you may qualify for [Carer's Benefit](https://www.citizensinformation.ie/en/social_welfare/social_welfare_payments/carers/carers_benefit.html) from the Department of Social Protection. If you do not qualify for Carer's Benefit, you may qualify for [Carer's Allowance](https://www.citizensinformation.ie/social_welfare/social_welfare_payments/carers/carers_allowance.html). You can take Carer's Leave even if you do not qualify for these payments.
+- If you have enough PRSI contributions, you may qualify for [Carer's Benefit](https://www.citizensinformation.ie/en/social_welfare/social_welfare_payments/carers/carers_benefit.html) from the Department of Social Protection. If you do not qualify for Carer's Benefit, you may qualify for [Carer's Allowance](https://www.citizensinformation.ie/en/social-welfare/carers/carers-allowance/). You can take Carer's Leave even if you do not qualify for these payments.
 - Carer's Leave runs concurrently with GitLab's Sick time policy. If you receive Carer's Benefit or Carer's Allowance from DSP, GitLab will supplement your payment so that you receive 100% of your salary for the first 25 working days.
 
 **Force Majeure Leave**

@@ -22,7 +22,7 @@ Since GitLab is an [all remote](/handbook/company/culture/all-remote/) company w
 - [Unemployment Insurance](https://labor.alaska.gov/lss/forms/1012.pdf)
 - [Summary of Alaska Child Labor Law](https://labor.alaska.gov/lss/forms/child-labor-law-summary.pdf)
 - [Summary of Alaska Wage and Hour Act](https://labor.alaska.gov/lss/forms/Summary_of_Alaska_Wage_and_Hour_Act__Rev_1-23.pdf)
-- [Alaska - Americans with Disabilities Act](http://doa.alaska.gov/ada/policy/DLWDColor.pdf)
+- [Alaska - Americans with Disabilities Act](https://doa.alaska.gov/ada/policy/DLWDColor.pdf)
 - [Alaska - Alcohol and Drug-free Workplace Policy](https://doa.alaska.gov/dop/fileadmin/Employee_Orientation/pdf/DrugFreeWorkplacePoster.pdf)
 - [State of Alaska Whistleblower Act](https://doa.alaska.gov/dop/fileadmin/StatewidePlanning/pdf/WhistleblowerActPoster.pdf)
 
@@ -151,7 +151,7 @@ Since GitLab is an [all remote](/handbook/company/culture/all-remote/) company w
 
 - [Minimum Wage](https://floridajobs.org/docs/default-source/business-growth-and-partnerships/for-employers/posters-and-required-notices/2022-minimum-wage/2022-florida-minimum-wage-poster-english.pdf?sfvrsn=921754b0_2)
 - [Florida Law Prohibits Discrimination](https://static1.squarespace.com/static/588649581b10e370157a9395/t/5a747f81c8302552ab8a99a4/1517584258080/Florida+Law+Discrimination+Poster.pdf)
-- [Equal Opportunity is the Law](http://www.floridajobs.org/docs/default-source/office-for-civil-rights/moa/tabs/2-a-english33.pdf?sfvrsn=2)
+- [Equal Opportunity is the Law](https://www.floridajobs.org/docs/default-source/office-for-civil-rights/moa/tabs/2-a-english33.pdf?sfvrsn=2)
 - [Unemployment Compensation Benefits](https://floridarevenue.com/forms_library/current/rt83.pdf)
 - [Workers' Compensation](https://www.floridajobs.org/PDG/PostersforEmployers/BrokenArmPoster.pdf)
 
@@ -217,7 +217,7 @@ Since GitLab is an [all remote](/handbook/company/culture/all-remote/) company w
 ### Kansas
 
 - [Unemployment Insurance](https://www.dol.ks.gov/home/showpublisheddocument/100/638363383565870000)
-- [Kansas Law Provides Equal Opportunity](http://www.khrc.net/pdf/ksemployposter.pdf)
+- [Kansas Law Provides Equal Opportunity](https://www.khrc.net/pdf/ksemployposter.pdf)
 - [Workers' Compensation Notice - Inc.](https://drive.google.com/file/d/1wfEtSjJ7O_MDx4eIg9-5rebCLkDyrkgL/view?usp=sharing)
 
 ### Kentucky
@@ -266,7 +266,7 @@ Since GitLab is an [all remote](/handbook/company/culture/all-remote/) company w
 - [Unemployment Insurance Law](https://www.dllr.state.md.us/employment/empguide/uibenefitposter.pdf)
 - [Health Insurance Coverage](https://www.dllr.state.md.us/employment/empguide/healthinsposter.pdf)
 - [Pregnancy Rights](https://mccr.maryland.gov/Documents/publications/Publications_2edb.Pregnancy%20Disability%20-%20Employment%20(Poster%20Color).pdf)
-- [Employment of Minors](http://www.dllr.state.md.us/labor/wages/minorfactsheet.pdf)
+- [Employment of Minors](https://www.dllr.state.md.us/labor/wages/minorfactsheet.pdf)
 - **Montgomery County**
   - [Minimum Wage and Overtime Law](https://www.dllr.state.md.us/labor/wages/minimumwagelawmont.pdf)
   - [Earned Sick and Safe Leave](https://www.montgomerycountymd.gov/humanrights/Resources/Files/EarnedSickandSavedLeave_Poster.pdf)
@@ -298,7 +298,7 @@ Since GitLab is an [all remote](/handbook/company/culture/all-remote/) company w
 - [Safety and Health Protection on the Job](https://www.dli.mn.gov/sites/default/files/pdf/mnosha_poster.pdf)
 - [Unemployment Insurance](https://www.uimn.org/assets/109_tcm1068-192562.pdf)
 - [Workers' Compensation Notice - Inc.](https://drive.google.com/file/d/1TiucUJJeuRL_P9KRhGMVEvyXe12Qik5w/view?usp=sharing)
-- [Labor and Employment Rights](http://sicktimeinfo.minneapolismn.gov/uploads/9/6/3/1/96313024/mpls_required_employee_notice_poster.pdf)
+- [Labor and Employment Rights](https://sicktimeinfo.minneapolismn.gov/uploads/9/6/3/1/96313024/mpls_required_employee_notice_poster.pdf)
 - [Earned Sick and Safe Time](https://drive.google.com/file/d/1fspfrI5g8GmszlaphjEGcH63ILbqMiAL/view?usp=drive_link)
 - [Nursing Mothers, Lactating Employees, and Pregnancy Accommodations Notice](https://www.dli.mn.gov/sites/default/files/pdf/WESA_employee_notice.pdf)
 - **City of Duluth**
@@ -333,7 +333,7 @@ Since GitLab is an [all remote](/handbook/company/culture/all-remote/) company w
 - [Nebraska Minimum Wage](https://drive.google.com/file/d/1BvPZ_fGm38kHgzqrCSpOHHOGbmra3rW-/view?usp=sharing)
 - [Discrimination in Employment](https://neoc.nebraska.gov/sites/default/files/2024-08/NEOC%20Poster%20%281%29.pdf)
 - [Unemployment Insurance Advisement of Benefit Rights](https://drive.google.com/file/d/1rs9FXv38OQNtSUJKjzyeR6mub9HAtQT7/view?usp=sharing)
-- [Job Safety and Health](http://www.mathy.com/wp-content/uploads/2018/01/Job-Safety-and-Health-saf39812-03-1.pdf)
+- [Job Safety and Health](https://www.mathy.com/wp-content/uploads/2018/01/Job-Safety-and-Health-saf39812-03-1.pdf)
 - [Workers' Compensation Notice - Inc.](https://drive.google.com/file/d/1F8NGLQMfWEN_ktxbmo2wuKDXXiIgK-r1/view?usp=sharing)
 
 ### Nevada

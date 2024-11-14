@@ -313,7 +313,7 @@ In addition, you can find official, platform-specific documentation of features 
 
 - [Google Cloud](https://cloud.google.com/vpc/docs/using-firewalls#creating_firewall_rules#console)
 - [Amazon Web Services (AWS)](https://docs.aws.amazon.com/vpc/latest/userguide/VPC_SecurityGroups.html)
-- [Azure](https://docs.microsoft.com/en-us/learn/modules/introduction-azure-web-application-firewall/)
+- [Azure](https://learn.microsoft.com/en-us/training/modules/introduction-azure-web-application-firewall/)
 
 ### TLS
 
@@ -341,7 +341,7 @@ For instructions on using self-signed certificates on your test instances, pleas
 
 - [Google Cloud](https://cloud.google.com/load-balancing/docs/ssl-certificates/self-managed-certs)
 - [AWS](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/SSL-on-amazon-linux-2.html)
-- [Azure](https://docs.microsoft.com/en-us/azure/active-directory/develop/howto-create-self-signed-certificate)
+- [Azure](https://learn.microsoft.com/en-us/entra/identity-platform/howto-create-self-signed-certificate)
 
 ### Patching against known vulnerabilities
 
@@ -428,7 +428,7 @@ virtualization.
 
 #### Install Vagrant
 
-From [Introduction to Vagrant](https://www.vagrantup.com/intro)
+From [Introduction to Vagrant](https://developer.hashicorp.com/vagrant/intro)
 
 > Vagrant is a tool for building and managing virtual machine environments in a single workflow
 
@@ -635,7 +635,7 @@ export NAME=gitlab-test-11.9
 export IP=$(docker-machine ip $ENV_NAME)
 
 docker run --detach \
---env GITLAB_OMNIBUS_CONFIG="external_url 'http://$IP:$HTTP_PORT'; gitlab_rails['gitlab_shell_ssh_port'] = $SSH_PORT;" \
+--env GITLAB_OMNIBUS_CONFIG="external_url 'https://$IP:$HTTP_PORT'; gitlab_rails['gitlab_shell_ssh_port'] = $SSH_PORT;" \
 --hostname $IP \
 -p $HTTP_PORT:$HTTP_PORT -p $SSH_PORT:22 \
 --name $CONTAINER_NAME \
@@ -651,7 +651,7 @@ echo $IP
 # example output: 192.168.151.134
 ```
 
-- Browse to: <http://192.168.151.134:8888/>
+- Browse to: <https://192.168.151.134:8888/>
 
 **Note**: The container might take a few seconds to spin up and become accessible via the browser.
 

@@ -176,11 +176,11 @@ I often find the midday slump to be so real, so if I'm feeling this way I step a
 ![GitLab all-remote ergonomic workspace](/images/all-remote/gitlab-com-all-remote-v3-dark-1280x270.png)
 {style="max-width: 50%;"}
 
-The goal of [office ergonomics](http://ergo-plus.com/office-ergonomics-10-tips-to-help-you-avoid-fatigue) is to design your [workspace](workspace/) so that it fits you and allows for a comfortable working environment for maximum productivity and efficiency.
+The goal of [office ergonomics](https://ergo-plus.com/office-ergonomics-10-tips-to-help-you-avoid-fatigue) is to design your [workspace](workspace/) so that it fits you and allows for a comfortable working environment for maximum productivity and efficiency.
 
 Since we all work from home, GitLab wants each team member to have the [supplies](/handbook/finance/spending-company-money/) and knowledge they need to create an ergonomic home office.
 
-Here are some tips from the [Mayo Clinic](http://www.mayoclinic.org/healthy-lifestyle/adult-health/in-depth/office-ergonomics/art-20046169) on how to arrange your work station.
+Here are some tips from the [Mayo Clinic](https://www.mayoclinic.org/healthy-lifestyle/adult-health/in-depth/office-ergonomics/art-20046169) on how to arrange your work station.
 
 - **Chair**: Choose a chair that supports your spinal curves. Adjust the height of your chair so that your feet rest flat on the floor or on a footrest and your thighs are parallel to the floor. Adjust armrests so your arms gently rest on them with your shoulders relaxed.
 - **Keyboard and mouse:** Place your mouse within easy reach and on the same surface as your keyboard. While typing or using your mouse, keep your wrists straight, your upper arms close to your body, and your hands at or slightly below the level of your elbows. Use keyboard shortcuts to reduce extended mouse use. If possible, adjust the sensitivity of the mouse so you can use a light touch to operate it. Alternate the hand you use to operate the mouse by moving the mouse to the other side of your keyboard. Keep regularly used objects close to your body to minimize reaching. Stand up to reach anything that can't be comfortably reached while sitting.
@@ -204,7 +204,7 @@ It's sometimes hard to remember to stay active when you work from home. Here are
 - Avoid "Digital Eye Strain" by following the [20-20-20 Rule](https://www.healthline.com/health/eye-health/20-20-20-rule#definition). Every 20 minutes look into the distance (at least 20 feet/6 meters) for 20 seconds.
 - Use an app - there are some that will remind you to take a break or help you with your computer posture:
   - [Time Out](https://itunes.apple.com/us/app/time-out-break-reminders/id402592703?mt=12 )(macOS)
-  - [Awareness](http://iamfutureproof.com/tools/awareness) (macOS)
+  - [Awareness](https://iamfutureproof.com/tools/awareness) (macOS)
   - [SafeEyes](https://slgobinath.github.io/SafeEyes) (GNU/Linux)
 - Move every day
   - Go for a walk or do a short exercise for at least 15 minutes a day.

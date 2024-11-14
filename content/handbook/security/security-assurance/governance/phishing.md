@@ -166,7 +166,7 @@ When viewing the source of an HTML email it is important to remember that the
 text inside the "HREF" field is the actual link destination/target and the text
 before the `</A>` tag is the text that will be displayed to the user.
 
-`<a href="http://evilsite.example.org">Google Login!</a>`
+`<a href="https://evilsite.example.org">Google Login!</a>`
 
 In this case, "Google Login!" will be displayed to the user but the
 actual target of the link is "evilsite.example.org".

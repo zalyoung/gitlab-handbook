@@ -182,15 +182,15 @@ The sample discovery questions below are meant to provide a baseline and help yo
 
 *Remarks*:
 
-GitHub HA is not a real HA setup, it's more like a [failover solution](https://help.github.com/en/enterprise/2.21/admin/installation/configuring-github-enterprise-server-for-high-availability) (with sync between 2 virtual machines, there is no bare metal solution)
-Moreover, zero-downtime upgrade seems [not possible](https://help.github.com/en/enterprise/2.21/admin/installation/about-high-availability-configuration#targeted-failure-scenarios)
+GitHub HA is not a real HA setup, it's more like a [failover solution](https://docs.github.com/en/enterprise-server@2.21/admin/enterprise-management/configuring-high-availability) (with sync between 2 virtual machines, there is no bare metal solution)
+Moreover, zero-downtime upgrade seems [not possible](https://docs.github.com/en/enterprise-server@2.21/admin/enterprise-management/configuring-high-availability/about-high-availability-configuration#targeted-failure-scenarios)
 
 - How long have you been operational on GitHub Actions?  Can you do whatever you want with GitHub Actions?
 Any security issue with GitHub Actions? How do you protect your secret variables to not be displayed in the logs of the runners?
 
 *Remarks*:
 
-[GitHub documentation](https://help.github.com/en/actions/configuring-and-managing-workflows/creating-and-storing-encrypted-secrets): GitHub automatically redacts secrets printed to the log, but you should avoid printing secrets to the log intentionally.
+[GitHub documentation](https://docs.github.com/en/actions/security-for-github-actions/security-guides/using-secrets-in-github-actions): GitHub automatically redacts secrets printed to the log, but you should avoid printing secrets to the log intentionally.
 You [cannot mask variable](https://julienrenaux.fr/2019/12/20/github-actions-security-risk/) with GitHub Actions (with [GitLab you can](https://docs.gitlab.com/ee/ci/variables/#mask-a-custom-variable))
 
 - How do you scale your GitHub Actions runners? (versus the GitLab Kubernetes executor)
@@ -204,7 +204,7 @@ There are no Epics within GitHub
 
 *Remarks*:
 
-(pending verification) "security alerts for vulnerable dependencies" of GitHub need that your GitHub instance should [be connected to GitHub Enterprise Cloud](https://help.github.com/en/enterprise/2.21/admin/installation/enabling-security-alerts-for-vulnerable-dependencies-on-github-enterprise-server) (no air-gapped version)
+(pending verification) "security alerts for vulnerable dependencies" of GitHub need that your GitHub instance should [be connected to GitHub Enterprise Cloud](https://docs.github.com/en/enterprise-server@2.21/admin/configuration/managing-connections-between-github-enterprise-server-and-github-enterprise-cloud/enabling-alerts-for-vulnerable-dependencies-on-github-enterprise-server) (no air-gapped version)
 
 - Are you using Codespaces? If so, what for?
 

@@ -24,13 +24,13 @@ When looking for a parent-friendly job, instead of focusing on the specific role
 
 While there are numerous [advantages to remote work]({{< ref "remote-benefits" >}}), being able to pair working and parenting/caregiving is considered an enormous benefit to many people.
 
-1. You have more [flexibility](https://web.archive.org/web/20200606214525/http://shedoesdatathings.com/post/1-year-at-gitlab/) in your [daily life](people/#those-who-value-flexibility-and-autonomy) (for [kids](https://about.gitlab.com/blog/2019/07/25/balancing-career-and-baby), parents, friends, groceries, sports, deliveries).
+1. You have more [flexibility](https://web.archive.org/web/20200606214525/https://shedoesdatathings.com/post/1-year-at-gitlab/) in your [daily life](people/#those-who-value-flexibility-and-autonomy) (for [kids](https://about.gitlab.com/blog/2019/07/25/balancing-career-and-baby), parents, friends, groceries, sports, deliveries).
 1. No more time, [stress](https://www.forbes.com/sites/markeghrari/2016/01/21/a-long-commute-could-be-the-last-thing-your-marriage-needs#5baf10f04245), or money wasted on a [commute](https://www.inc.com/business-insider/study-reveals-commute-time-impacts-job-satisfaction.html) (subway and bus fees, gas, car maintenance, tolls, etc.).
 1. You can optimize your life for superior air quality and medical facilities, a healthier community environment, and better schools for your children, rather than access to onsite jobs.
 1. Expectant parents have the autonomy to more easily plan around and attend doctor's appointments, optimize for their physical comfort during the day, and work [non-linear workdays](non-linear-workday/) to build in rest when needed.
 1. Ability to [travel to other places](https://about.gitlab.com/blog/2017/01/31/around-the-world-in-6-releases) without taking vacation (family, fun, etc.).
 1. Freedom to [relocate](/handbook/people-group/relocation), be [location independent](https://about.gitlab.com/blog/2019/06/25/how-remote-work-at-gitlab-enables-location-independence), or even [travel with other remote professionals](resources/#organizations-for-traveling-remote-work).
-1. You can [set up and decorate your office or workspace](https://thriveglobal.com/stories/how-remote-work-can-reduce-stress-and-revitalize-your-mindset) in whatever way [works best for you](https://about.gitlab.com/blog/2019/08/01/working-remotely-with-children-at-home).
+1. You can [set up and decorate your office or workspace](https://community.thriveglobal.com/how-remote-work-can-reduce-stress-and-revitalize-your-mindset/) in whatever way [works best for you](https://about.gitlab.com/blog/2019/08/01/working-remotely-with-children-at-home).
 1. You can [choose your working hours](people/#worklife-harmony) based on when you're [most productive](asynchronous/).
 
 ## Q: What are the challenges of work from home parenting?

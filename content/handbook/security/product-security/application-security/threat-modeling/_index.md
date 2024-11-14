@@ -178,6 +178,6 @@ Proof of a threat via numerous indicators as opposed to just theory or conjectur
 Here are some helpful links.
 
 - [Excerpt from a Security Department "Show and Tell" discussing Threat Modeling](https://www.youtube.com/watch?v=bySfiuk5iHg).
-- [Blog post](https://michenriksen.com/blog/drawio-for-threat-modeling/) by [Michael Henriksen](https://www.gitlab.com/mhenriksen) that talks about using Draw.io [available via diagrams.net](https://www.diagrams.net/index.html) to construct diagrams and flowcharts, and using them during threat modeling. Included is a [link](https://github.com/michenriksen/drawio-threatmodeling) to useful libraries for threat model diagrams.
+- [Blog post](https://michenriksen.com/blog/drawio-for-threat-modeling/) by [Michael Henriksen](https://gitlab.com/mhenriksen) that talks about using Draw.io [available via diagrams.net](https://www.diagrams.net/index.html) to construct diagrams and flowcharts, and using them during threat modeling. Included is a [link](https://github.com/michenriksen/drawio-threatmodeling) to useful libraries for threat model diagrams.
 - In addition to [Elevation of Privilege](https://www.microsoft.com/en-us/download/details.aspx?id=20303) there is also [OWASP Cornucopia](https://owasp.org/www-project-cornucopia/), which leans more towards web-based applications.
 - [MITRE ATT&CK](https://attack.mitre.org/). This is not a framework used for threat modeling per se, but it could be adapted to and mapped to an existing threat modeling framework.

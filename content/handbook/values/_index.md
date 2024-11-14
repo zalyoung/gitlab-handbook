@@ -140,7 +140,7 @@ A "steel" position should be against the absolute most effective version of your
 
 ##### Address behavior, but don't label people
 
-There is a lot of good in [this article](http://bobsutton.typepad.com/my_weblog/2006/10/the_no_asshole_.html) about not wanting jerks on our team, but we believe that **jerk** is a label for behavior rather than an inherent classification of a person.  We avoid classifications.
+There is a lot of good in [this article](https://bobsutton.typepad.com/my_weblog/2006/10/the_no_asshole_.html) about not wanting jerks on our team, but we believe that **jerk** is a label for behavior rather than an inherent classification of a person.  We avoid classifications.
 
 ##### Say sorry
 
@@ -465,7 +465,7 @@ It is far more efficient to read a document at your convenience than to have to 
 
 ##### Boring solutions
 
-Use the simplest and most boring solution for a problem, and remember that ["boring"](http://boringtechnology.club/) should [not be conflated with "bad" or "technical debt."](http://mcfunley.com/choose-boring-technology)
+Use the simplest and most boring solution for a problem, and remember that ["boring"](https://boringtechnology.club/) should [not be conflated with "bad" or "technical debt."](https://mcfunley.com/choose-boring-technology)
 The speed of innovation for our organization and product is constrained by the total complexity we have added so far, so every little reduction in complexity helps.
 Don't pick an interesting technology just to make your work more fun;
 using established, popular tech will ensure a more stable and more familiar experience for you and other contributors.
@@ -956,7 +956,7 @@ We are positive about the future of the company. We are **S**hort **Te**rm **C**
 <!-- vale handbook.Spelling = YES -->
 ##### Be deliberate about scale
 
-First, optimize for speed and results (and be deliberate about how your change affects other processes/functionality); when it is a success, figure out how to scale it. Great examples are in [this article by Paul Graham](http://paulgraham.com/ds.html).
+First, optimize for speed and results (and be deliberate about how your change affects other processes/functionality); when it is a success, figure out how to scale it. Great examples are in [this article by Paul Graham](https://paulgraham.com/ds.html).
 
 ##### Resist bundling
 
@@ -1115,7 +1115,7 @@ Be transparent to the right people (up) at the right time (when still actionable
 
 ##### Transparency is most valuable if you continue to do it when there are costs
 
-We practice transparency even when hiding the facts would be easier. For example, many companies do not give you the real reason why they declined your application because it increases the chance of legal action. We want to only reject people for the right reasons and we want to give them the opportunity to grow by getting this feedback. Therefore, we'll accept the increased risk of holding ourselves to a high standard of making decisions and do the right thing by telling them what we thought. Other examples are being transparent about [security incidents](http://disq.us/p/1r9gceh) and participating in and contributing to Live Broadcasts.
+We practice transparency even when hiding the facts would be easier. For example, many companies do not give you the real reason why they declined your application because it increases the chance of legal action. We want to only reject people for the right reasons and we want to give them the opportunity to grow by getting this feedback. Therefore, we'll accept the increased risk of holding ourselves to a high standard of making decisions and do the right thing by telling them what we thought. Other examples are being transparent about [security incidents](https://disq.us/p/1r9gceh) and participating in and contributing to Live Broadcasts.
 
 Transparency has costs (distraction, mis-interpretation, etc.) but also great benefits (productivity, hiring, retention, brand awareness, etc). Team members can view more details on these benefits by referencing the "Transparency Benefit Quantification" slides in Google Drive). We should carefully weigh the tradeoff between costs and benefits, to prevent a knee-jerk reaction to reduce transparency when it has costs.
 

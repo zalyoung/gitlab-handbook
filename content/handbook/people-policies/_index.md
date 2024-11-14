@@ -161,7 +161,7 @@ GitLab strives to maintain a workplace that is free from illegal use, possession
 ## Mental Health Awareness Statement
 
 1. Why is awareness of Mental Health important at GitLab?
-    - It can affect any and all of us. Statistics indicate that [1 in 4](http://www.who.int/whr/2001/media_centre/press_release/en/) of us will be affected by mental or neurological disorders at some point in our life. That said, we are all subject to periods where we or those around us find the "the normal stresses of life" harder than usual to deal with.
+    - It can affect any and all of us. Statistics indicate that [1 in 4](https://www.who.int/whr/2001/media_centre/press_release/en/) of us will be affected by mental or neurological disorders at some point in our life. That said, we are all subject to periods where we or those around us find the "the normal stresses of life" harder than usual to deal with.
     - The more we are aware of mental health, the more inclusive we are. That will help encourage any colleagues currently experiencing mental health issues to talk about it.
     - Our business at its core is a group of people working together towards a common goal. With awareness of what might affect our colleagues, we are better equipped to help them if they do discuss it with us and therefore help our business.
     - Mental health has so much emotional baggage as a topic that it can initially seem scary to talk about. Promoting mental health awareness helps to remove the stigma and taboos associated with it.

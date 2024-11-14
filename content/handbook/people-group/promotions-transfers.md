@@ -117,7 +117,7 @@ Below is the timeline for FY26:
 
 ### FY26-Q4 (Nov 1)
 
-Status: Pending  
+Status: Pending
 
 - Planning:
 - Calibrations & Workday input by Director+:
@@ -129,7 +129,7 @@ Status: Pending
 
 ### FY27-Q2 (May 1)
 
-Status: Pending  
+Status: Pending
 
 - Planning:
 - Calibrations & Workday input by Director+:
@@ -141,7 +141,7 @@ Status: Pending
 
 ### FY27-Q4 (Nov 1)
 
-Status: Pending  
+Status: Pending
 
 - Planning:
 - Calibrations & Workday input by Director+:
@@ -645,7 +645,7 @@ Note for Sales Managers: If team members are not moved under the correct sales m
 
 1. Audit all job change requests and ensure the changes are captured in the Payroll tracker.
 1. In case of `Job Title Specialty` change requests, managers will reach out to the People Connect Team [HelpLab](https://helplab.gitlab.systems/esc?id=emp_taxonomy_topic&topic_id=14aff309478c069067429ee0026d4372) to have a team members `Speciality` updated in Workday.
-    - The People Connect Team member should check whether the title already exists in Workday. If not, check whether the `Job Speciality` has been added to the respective departments Handbook page (example: [https://handbook.gitlab.com/handbook/engineering/development/enablement/data_stores/search/](/handbook/engineering/development/enablement/data_stores/search/)) or if the People Connect Team members are tagged in a respective issue to have it added. If unclear, reach out to the [respective People Business Partner](/handbook/people-group#people-business-partner-alignment-to-division)
+    - The People Connect Team member should check whether the title already exists in Workday. If not, check whether the `Job Speciality` has been added to the respective departments Handbook page or if the People Connect Team members are tagged in a respective issue to have it added. If unclear, reach out to the [respective People Business Partner](/handbook/people-group#people-business-partner-alignment-to-division)
 
 ## Department Transfers
 

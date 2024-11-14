@@ -91,7 +91,7 @@ You will need a copy of vanilla Ubuntu copied onto a UEFI bootable USB drive (la
 - After you have reached the Ubuntu Desktop, you will have a few more steps to perform.
 - Edit /etc/apt/sources.list, remove the `#` symbol to uncomment the line that reads:
 
-    `# deb http://archive.canonical.com/ubuntu bionic partner`
+    `# deb https://archive.canonical.com/ubuntu bionic partner`
 
 - Insert the USB drive labeled "Backup" and perform the following action:
 - Enter the following commands from a terminal window (the instructions below assume your username is mloveless, change to your username:

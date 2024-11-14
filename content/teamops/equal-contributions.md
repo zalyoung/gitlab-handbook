@@ -136,7 +136,7 @@ GitLab's Learning and Development team hosted a [livestreamed Group Conversation
 - *Team:* Create a field in your project management plan template for listing the project's stable counterparts from other departments. Be sure to include their contact information, time zone, and expected level of contributions. (We recommend the [RACI matrix](/handbook/people-group/directly-responsible-individuals/#dri-consulted-informed-dci).) Also include dates for Key Review Meetings.
 - *Company:* Assign each department director to schedule an open-invitation "Ask Me Anything" meeting (Group Conversation) for every quarter this year.
 
-**Recommended TeamOps Partner:** [Lance Robbins](http://lancehrobbins.com/) (consultant)
+**Recommended TeamOps Partner:** [Lance Robbins](https://lancehrobbins.com/) (consultant)
 {{% /details %}}
 
 ## Tool prioritization

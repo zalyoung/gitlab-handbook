@@ -557,7 +557,7 @@ Partner Leave
 - Team members must email the Absence Management team `leaves@gitlab.com` as soon as possible to notify them of the first date of leave and, if possible, the end date of their leave.
 - Team members must select `Military Leave` in Workday to ensure that statutory entitlements are properly tracked.
 
-For more information related to this policy, please reivew the [Employment New Zealand website](https://www.employment.govt.nz/leave-and-holidays/other-types-of-leave/defence-force-volunteers/)
+For more information related to this policy, please reivew the [Employment New Zealand website](https://www.employment.govt.nz/leave-and-holidays/defence-force-volunteers)
 
 </details>
 
@@ -579,7 +579,7 @@ For more information related to this policy, please reivew the [Employment New Z
 - All team members who have been called for jury service are entitled to unpaid leave for the duration of the service. Team members who attend jury service receive an attendance fee from the Ministry of Justice.
 - Jury Service Leave runs concurrently with GitLab PTO. Team members must select `Jury Duty` in Workday to ensure that statutory entitlements are properly tracked.
 
-For more information related to this policy, please reivew the [Employment New Zealand website](https://www.employment.govt.nz/leave-and-holidays/other-types-of-leave/jury-service/)
+For more information related to this policy, please reivew the [Employment New Zealand website](https://www.employment.govt.nz/leave-and-holidays/jury-service)
 
 </details>
 

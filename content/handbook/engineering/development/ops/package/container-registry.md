@@ -82,11 +82,11 @@ The team has agreed on the following process to handle alerts:
       - The alert has been automatically resolved.
       - Open an issue if this requires attention in the future. If the alert/CI notification is due to a flake, identify the severity of the failure and add an appropriate priority label, CC `@trizzi` in the issue for prioritization and `@gitlab-org/ci-cd/package-stage/container-registry-group` so that they are aware of the issue.
       - If this is a recurring alert that was deemed as safe to ignore, consider raising an issue to adjust the alert thresholds, CC `@trizzi` in the issue for prioritization and `@gitlab-org/ci-cd/package-stage/container-registry-group` so that they are aware of the issue.
-      - If you raised or updated an issue, ensure that it has the correct labels. If the problem is due to a flaky test, then apply the `~"failure::flaky-test"` label. `~"flaky-test::<type>"` labels are optional but recommended. If it is due to an alert, apply the `~"container registry::alert"` label. Finally, ensure that the issue has the appropriate `~"priority::N"` label. 
+      - If you raised or updated an issue, ensure that it has the correct labels. If the problem is due to a flaky test, then apply the `~"failure::flaky-test"` label. `~"flaky-test::<type>"` labels are optional but recommended. If it is due to an alert, apply the `~"container registry::alert"` label. Finally, ensure that the issue has the appropriate `~"priority::N"` label.
    1. Otherwise:
       - Review the [#production](https://gitlab.enterprise.slack.com/archives/C101F3796) channel and the [#incident-management](https://gitlab.enterprise.slack.com/archives/CB7P5CJS1) channel for existing incidents that may be related.
       - If there is an ongoing incident, consider helping or reaching out to the team for assistance.
-      - Otherwise, consider [reporting an incident](https://about.gitlab.com/handbook/engineering/infrastructure/incident-management/#reporting-an-incident).
+      - Otherwise, consider [reporting an incident](/handbook/engineering/infrastructure/incident-management/#reporting-an-incident).
       - Share details in the [#g_container-registry](https://gitlab.enterprise.slack.com/archives/CRD4A8HG8) channel to raise awareness.
       - Ping people as needed.
    1. Add a comment as a thread to the alert that you reviewed.

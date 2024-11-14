@@ -260,7 +260,7 @@ We take inspiration from the great work being done by other communities. Some of
 - [Latinas in Tech](https://latinasintech.org/) - This community inspires us through their work to make the tech community more diverse and inclusive.
 - [Women in Tech](https://women-in-tech.org/) - This community inspires us through their work to make the tech community more diverse and inclusive.
 - [Women Who Code](https://www.womenwhocode.com/) - This community inspires us through their work to make the tech community more diverse and inclusive.
-- [Rails Girls](http://railsgirls.com/) - This community inspires us through their work to make the tech community more diverse and inclusive.
+- [Rails Girls](https://railsgirls.com/) - This community inspires us through their work to make the tech community more diverse and inclusive.
 
 ## <i class="fas fa-book" fa-fw color-orange font-awesome></i> Community Learning Pathway
 

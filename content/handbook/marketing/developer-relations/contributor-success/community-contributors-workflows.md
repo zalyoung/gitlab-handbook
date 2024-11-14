@@ -525,7 +525,7 @@ You can also directly query data from `Merge Requests` pages for projects (e.g. 
 
 ### Number of Contributors
 
-In the past we often mentioned 2,000+ contributors in the GitLab community (GitLab team members + wider community) as you can see in [this example](https://about.gitlab.com/blog/2018/08/13/join-the-gitlab-community/). However, this only included contributors to CE and EE projects based on the old [https://contributors.gitlab.com](https://web.archive.org/web/20190619012814/http://contributors.gitlab.com/) page.
+In the past we often mentioned 2,000+ contributors in the GitLab community (GitLab team members + wider community) as you can see in [this example](https://about.gitlab.com/blog/2018/08/13/join-the-gitlab-community/). However, this only included contributors to CE and EE projects based on the old [https://contributors.gitlab.com](https://web.archive.org/web/20190619012814/https://contributors.gitlab.com/) page.
 
 If you include other GitLab projects, the total number of contributors is much larger.
 

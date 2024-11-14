@@ -91,7 +91,7 @@ The PS team has been building maturity and repeatability to its services over th
 
 To discuss our services offerings with prospects, it is often helpful to have a few slides to describe the role of the professional services team.  Feel free to use this deck directly - however if you'd like to modify it please first make a copy.
 
-[Professional Services Pitch Deck](http://bit.ly/psslides)
+[Professional Services Pitch Deck](https://bit.ly/psslides)
 
 ### Data Sheets
 

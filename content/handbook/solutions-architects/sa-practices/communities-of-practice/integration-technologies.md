@@ -45,4 +45,4 @@ Demo Examples:
 
 **Question: Are Elasticsearch operations transactional?**
 
-**Answer:** No, not out of the box. Elasticsearch was not designed to be [ACID](http://en.wikipedia.org/wiki/ACID) compliant.
+**Answer:** No, not out of the box. Elasticsearch was not designed to be [ACID](https://en.wikipedia.org/wiki/ACID) compliant.

@@ -180,7 +180,7 @@ These videos are private by default. To view them, you will need to [switch to t
 
 - Watch the video or [read the slides](#additional-resources) for each topic that is relevant to you.
 - The videos were recorded over two full days.  It is suggested that you split up viewing them over multiple days by topic and/or by the hour.
-- Consider watching the videos at [1.25X speed](http://osxdaily.com/2017/04/14/adjust-youtube-video-playback-speed/)
+- Consider watching the videos at [1.25X speed](https://osxdaily.com/2017/04/14/adjust-youtube-video-playback-speed/)
 
 ### Schedule and Topics
 

@@ -211,7 +211,7 @@ For blog posts, prefer referring to interviewees by their first names as this is
 
 ## Voice
 
-We prefer that writers use active voice instead of passive voice in blog posts. *Voice* describes whether the subject of a sentence receives or performs the action of a verb. Learn more about tone of voice in this [blog post by Grammarly](https://www.grammarly.com/blog/active-vs-passive-voice/).
+We prefer that writers use active voice instead of passive voice in blog posts. *Voice* describes whether the subject of a sentence receives or performs the action of a verb. Learn more about tone of voice in this [blog post by Grammarly](https://www.grammarly.com/blog/sentences/active-vs-passive-voice/).
 
 > Example: "The GitLab community submitted 1 million merge requests in March 2019." (active) vs. "One million merge requests were submitted by the GitLab community in March 2019." (passive)
 

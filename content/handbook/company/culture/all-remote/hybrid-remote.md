@@ -180,7 +180,7 @@ We believe it's useful for transitioning companies to see *how* others are embra
 1. Slack - *[A new guide for adapting to a radically different workplace](https://slack.com/blog/transformation/navigating-the-disruption-of-work)*
 1. Hubspot - *[How we're building a hybrid company](https://www.hubspot.com/careers-blog/future-of-work-hybrid)*
 1. Coinbase - *[Building a remote-first company: our biggest lessons so far](https://www.coinbase.com/blog/building-a-remote-first-company-our-biggest-lessons-so-far)*
-1. Herman Miller - *[The Future of Work: Looking Forward](https://www.hermanmiller.com/research/categories/white-papers/looking-forward)*
+1. Herman Miller - *[The Future of Work: Looking Forward](https://www.hermanmiller.com/solutions/future-of-work/)*
 
 ## Companies embracing hybrid-remote
 
@@ -189,7 +189,7 @@ COVID-19 created a wave of companies intentionally shifting to remote-first. For
 1. HubSpot — *[The Future of Work at HubSpot: How We're Building a Hybrid Company](https://www.hubspot.com/careers-blog/future-of-work-hybrid)*
 1. Dropbox — *[Dropbox goes Virtual First](https://blog.dropbox.com/topics/company/dropbox-goes-virtual-first)*
 1. Robinhood — *[Robinhood is a Remote First Company](https://newsroom.aboutrobinhood.com/robinhood-is-a-remote-first-company/)*
-1. Reddit — *[Evolving Reddit's Workforce](https://redditblog.com/2020/10/27/evolving-reddits-workforce)*
+1. Reddit — *[Evolving Reddit's Workforce](https://redditinc.com/blog/evolving-reddits-workforce)*
 1. Figma — *[How work is changing at Figma](https://www.figma.com/blog/how-work-is-changing-at-figma)*
 1. Coinbase — *[Post COVID-19, Coinbase will be a remote-first company](https://www.coinbase.com/blog/post-covid-19-coinbase-will-be-a-remote-first-company)*
 1. Shopify — *[Digital by default](https://www.shopify.com/careers/work-anywhere)*
@@ -197,8 +197,8 @@ COVID-19 created a wave of companies intentionally shifting to remote-first. For
 1. Slack — *[A new guide for adapting to a radically different workplace](https://slack.com/blog/transformation/navigating-the-disruption-of-work)*
 1. Sike Insights — *[EQ & Remote Managers Report](https://bit.ly/3iX519B)*
 1. Spotify — *[Distributed-First Is the Future of Work at Spotify](https://newsroom.spotify.com/2021-02-12/distributed-first-is-the-future-of-work-at-spotify)*
-1. Grammarly — *[The Future of Work at Grammarly](https://www.grammarly.com/blog/remote-first-hybrid-work-model/?)*
-1. Mailchimp — *[The Future of Work at Mailchimp](https://mailchimp.com/future-of-work-at-mailchimp)*
+1. Grammarly — *[The Future of Work at Grammarly](https://www.grammarly.com/blog/company/remote-first-hybrid-work-model/)*
+1. Mailchimp — *[The Future of Work at Mailchimp](https://web.archive.org/web/20230207083313/https://mailchimp.com/future-of-work-at-mailchimp/)*
 1. Adobe - *[The Future of Work at Adobe](https://blog.adobe.com/en/publish/2021/06/24/future-of-work-adobe)*
 1. Asana - *[Reuniting and Thriving in a Distributed World With Asana](https://blog.asana.com/2021/04/reuniting-teams)*
 1. LinkedIn - *[A Sneak Peek at LinkedIn's New Hybrid Workplace Plans](https://www.linkedin.com/business/talent/blog/talent-engagement/sneak-peek-at-linkedins-new-hybrid-workplace-plans)*
@@ -210,10 +210,10 @@ COVID-19 created a wave of companies intentionally shifting to remote-first. For
 1. Google - *[A Hybrid Approach to Work](https://blog.google/inside-google/life-at-google/hybrid-approach-work)*
 1. Amazon - *[Amazon Updates Return-to-Office Guidance](https://www.aboutamazon.com/news/workplace/amazon-updates-return-to-office-guidance)*
 1. Canva - *[Canva's Future of Work: Flexibility and Connection](https://medium.com/canva/canvas-future-of-work-flexibility-and-connection-b410d1793d83)*
-1. Microsoft - *[The Philosophy and Practice of our Hybrid Workplace](https://blogs.microsoft.com/blog/2021/03/22/the-philosophy-and-practice-of-our-hybrid-workplace)*
+1. Microsoft - *[The Philosophy and Practice of our Hybrid Workplace](https://blogs.microsoft.com/blog/2021/03/22/the-philosophy-and-practice-of-our-hybrid-workplace//)*
 1. Unilever - *[Our Future Workplace](https://www.unilever.com/planet-and-society/future-of-work/future-workplace)*
 1. Zoom - *[How Zoom is Approaching our Next Phase of Work](https://www.zoom.com/en/blog/how-zoom-is-approaching-our-next-phase-of-work/)*
-1. Deloitte - *[Transforming when, where, and how we work](https://www2.deloitte.com/us/en/pages/careers/articles/join-deloitte-hybrid-workplace-vaccine-update.html)*
+1. Deloitte - *[Transforming when, where, and how we work](https://www2.deloitte.com/us/en/pages/careers/articles/join-deloitte-hybrid-workplace.html)*
 
 ## Do hybrid-remote employees have a commute?
 
@@ -234,7 +234,7 @@ Hybrid-remote employees can plan for more flexibility in their [daily life](peop
 
 A hybrid-remote schedule is often asynchronous, allowing an individual to [choose their working hours](people/#worklife-harmony) based on when they are [most productive](asynchronous/).
 
-They can also [set up and decorate an office or workspace](https://thriveglobal.com/stories/how-remote-work-can-reduce-stress-and-revitalize-your-mindset) in whatever way [works best for them](https://about.gitlab.com/blog/2019/08/01/working-remotely-with-children-at-home).
+They can also [set up and decorate an office or workspace](https://community.thriveglobal.com/how-remote-work-can-reduce-stress-and-revitalize-your-mindset/) in whatever way [works best for them](https://about.gitlab.com/blog/2019/08/01/working-remotely-with-children-at-home).
 
 And of course, a hybrid schedule allows more flexibility for [traveling while working]({{< ref "working-while-traveling" >}}).
 

@@ -63,21 +63,21 @@ After these changes, the `index.js` file should look like this:
 
   ```js
     //A binary search will search a sorted list in log(n) time
-    module.exports.binarySearch = function binarySearch(arr, val) { 
-        let start = 0; 
-        let end = arr.length - 1; 
-        while (start <= end) { 
-            let mid = Math.floor((start + end) / 2); 
-            if (arr[mid] === val) { 
-                return mid; 
-            } 
-            if (val < arr[mid]) { 
-                end = mid - 1; 
-            } else { 
-                start = mid + 1; 
-            } 
-        } 
-        return -1; 
+    module.exports.binarySearch = function binarySearch(arr, val) {
+        let start = 0;
+        let end = arr.length - 1;
+        while (start <= end) {
+            let mid = Math.floor((start + end) / 2);
+            if (arr[mid] === val) {
+                return mid;
+            }
+            if (val < arr[mid]) {
+                end = mid - 1;
+            } else {
+                start = mid + 1;
+            }
+        }
+        return -1;
     }
 
     module.exports.linearSearch = function linearSearch(arr, val){
@@ -150,7 +150,7 @@ After these changes, the `index.js` file should look like this:
         - echo "Add script here that deploys the code to your infrastructure"
       environment:
         name: review/$CI_COMMIT_REF_NAME
-        url: http://$ip:4001
+        url: https://$ip:4001
       rules:
         - if: $CI_PIPELINE_SOURCE == "merge_request_event"
     ```
@@ -222,7 +222,7 @@ After these changes, the `index.js` file should look like this:
         - ssh root@$ip 'pm2 start -f /www/index.js'
       environment:
         name: review/$CI_COMMIT_REF_NAME
-        url: http://$ip:4001
+        url: https://$ip:4001
       rules:
         - if: $CI_PIPELINE_SOURCE == "merge_request_event"
     ```

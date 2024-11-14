@@ -30,7 +30,7 @@ If you're a GitLab team member looking for help with a security problem, please 
 - After 10 minutes, if the alert has not been acknowledged, support management is alerted. After a further 5 minutes, *everyone* on the customer on-call rotation is alerted.
 - All tickets that are raised as emergencies will receive [the emergency SLA](https://about.gitlab.com/support/#priority-support). The on-call engineer's first action will be to [determine if the situation qualifies as an emergency]({{< ref "customer_emergencies_workflows#determine-if-the-situation-qualifies-as-an-emergency" >}}) and work with the customer to find the best path forward.
 - After 30 minutes, if the customer has not responded to our initial contact with them, let them know that the emergency ticket will be closed and that you are opening a normal priority ticket on their behalf. Also let them know that they are welcome to open a new emergency ticket if necessary.
-- You can view the [schedule](https://gitlab.pagerduty.com/schedules#PIQ317K) and the [escalation policy](https://gitlab.pagerduty.com/escalation_policies#PKV6GCH) on PagerDuty. You can also opt to [subscribe to your on-call schedule](https://support.pagerduty.com/docs/schedules-in-apps#section-export-only-your-on-call-shifts), which is updated daily.
+- You can view the [schedule](https://gitlab.pagerduty.com/schedules#PIQ317K) and the [escalation policy](https://gitlab.pagerduty.com/escalation_policies#PKV6GCH) on PagerDuty. You can also opt to [subscribe to your on-call schedule](https://support.pagerduty.com/main/docs/schedule-basics-in-apps#section-export-only-your-on-call-shifts), which is updated daily.
 - After each shift, *if* there was an alert / incident, the on call person will send a hand off email to the next on call explaining what happened and what's ongoing, pointing at the right issues with the progress.
 - If you need to reach the current on-call engineer and they're not accessible on Slack (e.g. it's a weekend, or the end of a shift), you can [manually trigger a PagerDuty incident](https://support.pagerduty.com/docs/incidents#trigger-an-incident) to get their attention, selecting **Customer Support** as the Impacted Service and assigning it to the relevant Support Engineer.
 - See the [GitLab Support On-Call Guide](/handbook/support/on-call) for a more
@@ -112,7 +112,7 @@ In addition to incident management responsibilities, the EOC also is responsible
 
 ## PagerDuty
 
-We use [PagerDuty](http://gitlab.pagerduty.com/) to set the on-call
+We use [PagerDuty](https://gitlab.pagerduty.com/) to set the on-call
 schedules, and to route notifications to the appropriate individual(s).
 
 ### Swapping On-Call Duty

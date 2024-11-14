@@ -88,7 +88,7 @@ For more info on the capabilities of each role, [see the knowledge base article]
 ## Training
 
 1. [The Path to Understanding: Onboarding Training](https://customer.pathfactory.com/customer-onboarding)
-1. [Getting started video series](http://successwith.pathfactory.com/c/lookbookhq-tutorial-?x=Blrk3E) (must be provisioned to PathFactory and use your GitLab email address to view)
+1. [Getting started video series](https://successwith.pathfactory.com/c/lookbookhq-tutorial-?x=Blrk3E) (must be provisioned to PathFactory and use your GitLab email address to view)
 1. [Digital marketing brown bag session overview](https://drive.google.com/open?id=1Hzb6ard48k-11r5a8oBDD_NLjeZnkMK2) - [Slides](https://drive.google.com/open?id=1XxOIE2O-VW0I9z09kpLs5ops52oF6iDSP1a1MF8NkGY)
 1. [Author role training (Do not share externally - PII data presented)](https://drive.google.com/file/d/1YdK96hzDj043iESfDXV7ejz5sgbIXKCv/view?usp=sharing)
 1. [Reporter role training (Do not share externally - PII data presented)](https://drive.google.com/file/d/1U_QAkZoELITmJt7Jr_AMXZiQZBpAhaIj/view?usp=sharing)
@@ -548,7 +548,7 @@ You are able to change the appearance of the following components of a content t
 1. Favicon
 1. Header
 
-[Video walkthrough of appearances](http://successwith.lookbookhq.com/c/ilos-appearance-conf?x=Blrk3E) (Nook login required)
+[Video walkthrough of appearances](https://successwith.lookbookhq.com/c/ilos-appearance-conf?x=Blrk3E) (Nook login required)
 
 **Create a new appearance group**
 

@@ -137,11 +137,11 @@ For Git trace v2:
 ```bash
 # Debugging git operations
 # If GIT_TRACE2_PERF_BRIEF or trace2.perfBrief is true, the time, file, and line fields are omitted.
-GIT_TRACE2_PERF_BRIEF=1 GIT_TRACE2_PERF=true git clone http://gitlab.com/gitlab-org/gitaly
-GIT_TRACE2_PERF_BRIEF=1 GIT_TRACE2_PERF=$(pwd)/git-perf.log git clone http://gitlab.com/gitlab-org/gitaly
+GIT_TRACE2_PERF_BRIEF=1 GIT_TRACE2_PERF=true git clone https://gitlab.com/gitlab-org/gitaly
+GIT_TRACE2_PERF_BRIEF=1 GIT_TRACE2_PERF=$(pwd)/git-perf.log git clone https://gitlab.com/gitlab-org/gitaly
 
 # Output git events in json format
-GIT_TRACE2_BRIEF=true GIT_TRACE2_EVENT=$(pwd)/trace2.json git clone http://gitlab.com/gitlab-org/gitaly
+GIT_TRACE2_BRIEF=true GIT_TRACE2_EVENT=$(pwd)/trace2.json git clone https://gitlab.com/gitlab-org/gitaly
 ```
 
 Outputs can be configured in different formats:

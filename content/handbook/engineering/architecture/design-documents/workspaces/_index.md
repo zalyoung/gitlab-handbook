@@ -636,7 +636,7 @@ metadata:
   annotations:
     kubernetes.io/ingress.class: traefik
     ingress.kubernetes.io/auth-type: forward
-    ingress.kubernetes.io/auth-url: http://traefik-forward-auth:4181
+    ingress.kubernetes.io/auth-url: https://traefik-forward-auth:4181
     ingress.kubernetes.io/auth-response-headers: X-Forwarded-User
 spec:
   ingressClassName: traefik

@@ -181,7 +181,7 @@ PSEs or Technical Instructors who deliver GitLab Education Services instructor-l
 
 ##### Training lab pre-course instructor workflow
 
-PS uses the [GitLab Lab Environment](http://gitlabdemo.com/) as the standard environment for hands-on course lab activities and hands-on certification assessments. Follow these steps to set up your course attendees for lab access.
+PS uses the [GitLab Lab Environment](https://gitlabdemo.com/) as the standard environment for hands-on course lab activities and hands-on certification assessments. Follow these steps to set up your course attendees for lab access.
 
 **1. GitLab lab environment invitation codes**
 

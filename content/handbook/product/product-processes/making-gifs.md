@@ -32,7 +32,7 @@ Show only what you need to. Not everything needs to be in there, its a glimpse a
 
 ### Step 2
 
-> All my GIFs start as videos – [Andy Orsow](http://blog.invisionapp.com/7-tips-for-designing-awesome-gifs/)
+> All my GIFs start as videos – [Andy Orsow](https://blog.invisionapp.com/7-tips-for-designing-awesome-gifs/)
 
 If you want to create professional GIFs, you want to start from a video file. This can give you expert control over the output if you need it (e.g. motion blur can add additional professionalism). Video files will in most cases be created from a screen recording software, details can be found in the [Tools Section](#tools)
 
@@ -40,7 +40,7 @@ If you want to create professional GIFs, you want to start from a video file. Th
 
 Reduce the amount of colors visible. You can do this either be thinking beforehand what exactly you will capture or by limiting the amount of output colors exported in the resulting GIF (see options [gifify](#gifify-cli) ). Check your result to see if it fits your needs.
 
-Another step could be to drop duplicate frames by manually searching through all frames. For more information on this, look [here](http://blog.invisionapp.com/7-tips-for-designing-awesome-gifs/). This additional step can take a lot of time. As with anything: "Only use it if you need to".
+Another step could be to drop duplicate frames by manually searching through all frames. For more information on this, look [here](https://blog.invisionapp.com/7-tips-for-designing-awesome-gifs/). This additional step can take a lot of time. As with anything: "Only use it if you need to".
 
 ### Step 4
 
@@ -61,14 +61,14 @@ A few things are important in this section:
 
 #### Gifox (macOS)
 
-[Gifox](http://gifox.io/) is the absolute best option here, although a paid app, its reasonably priced ($14.99). It has support for all of the features, shortcuts, and then some.
+[Gifox](https://gifox.io/) is the absolute best option here, although a paid app, its reasonably priced ($14.99). It has support for all of the features, shortcuts, and then some.
 
 Worthy of mentioning:
 
 - [Kap](https://getkap.co/) (free and open source!)
 - [Giphy capture](https://itunes.apple.com/us/app/giphy-capture.-the-gif-maker/id668208984?mt=12) (free and a great option!)
-- [Licecap](http://www.cockos.com/licecap/) (free, but limited options for output, results can have bad colors)
-- [ScreenToGif](http://www.screentogif.com/) (Windows, free and open source with powerful editor)
+- [Licecap](https://www.cockos.com/licecap/) (free, but limited options for output, results can have bad colors)
+- [ScreenToGif](https://www.screentogif.com/) (Windows, free and open source with powerful editor)
 
 #### FFCast + FFmpeg (Linux)
 
@@ -90,13 +90,13 @@ On every Mac, QuickTime has already been installed. It features a nice screen re
 Worthy of mentioning:
 
 - [Screeny](https://itunes.apple.com/us/app/screeny/id440991524?mt=12) (free for now)
-- [Gif Brewery](http://gifbrewery.com/) (not free)
+- [Gif Brewery](https://gifbrewery.com/) (not free)
 - [ffscreencast](https://github.com/cytopia/ffscreencast) (CLI tool, only capture the whole screen)
-- [CloudApp](https://www.getcloudapp.com/) (free with a paid option)
+- [CloudApp](https://zight.com/) (free with a paid option)
 
 #### Camstudio (Windows)
 
-[Camstudio](http://camstudio.org/) is a free tool. Not yet tested...
+[Camstudio](https://camstudio.org/) is a free tool. Not yet tested...
 
 #### FFCast + FFmpeg (Linux)
 
@@ -114,13 +114,13 @@ Example command:
 
 Worthy of mentioning:
 
-- [Drop to Gif](http://mortenjust.github.io/droptogif/) (Great free open source option to just convert on macOS with a GUI!)
+- [Drop to Gif](https://mortenjust.github.io/droptogif/) (Great free open source option to just convert on macOS with a GUI!)
 - [Screengif](https://github.com/dergachev/screengif) (CLI similar to gifify)
-- [Gif Brewery](http://gifbrewery.com/) (macOS, not free)
+- [Gif Brewery](https://gifbrewery.com/) (macOS, not free)
 
 #### Convert video to GIF online
 
-- [EZGif](http://ezgif.com/video-to-gif) (Pretty good results and provides some settings)
+- [EZGif](https://ezgif.com/video-to-gif) (Pretty good results and provides some settings)
 - [Giphy Gifmaker](https://giphy.com/create/gifmaker) (You can keep your GIFs private if you have an account. Otherwise: "all of your GIF are belong to GIPHY")
 - [imgur Video to GIF](https://imgur.com/vidgif) (Create a GIF from hundreds of popular video sites. Use Download to get a GIF or link for .gifv format)
 

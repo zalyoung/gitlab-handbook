@@ -6,7 +6,7 @@ description: "The scaled agile framework has evolved to be a common approach for
 
 The scaled agile framework has evolved to be a common approach for large enterprises adopt agile delivery practices at scale where they need to manage governance, coordination, and cross project collaboration.
 
-Before explaining how GitLab can support SAFe, a brief overview of the GitLab project and portfolio model help.   This [slide deck](http://bit.ly/2K5ZDka) is where we have been collaborating internally about how GitLab can support the Scaled Agile Framework.
+Before explaining how GitLab can support SAFe, a brief overview of the GitLab project and portfolio model help.   This [slide deck](https://bit.ly/2K5ZDka) is where we have been collaborating internally about how GitLab can support the Scaled Agile Framework.
 
 ## GitLab Project Management
 

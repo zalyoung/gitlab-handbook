@@ -90,8 +90,8 @@ the winner as the next DRI for that time zone.
 | 2020-06-02 | [Describe your perfect date](https://www.youtube.com/watch?v=-BNwiqDGz5g) | Sam |
 | 2020-07-07 | Which historical figure would you most like to go for a drink with? | ? |
 | 2020-08-04 | Favorite Pizza Toppings (Wrong Answers Only)| [Angelo](https://gitlab.com/agulina) |
-| 2020-09-01 | [Movie / TV Series line](http://gph.is/1GFhxC9) you would use in a Merge Request | ? |
-| 2020-10-20 | Spooktacular (Special Halloween edition) | [Alexander Turinske](http://gitlab.com/aturinske) |
+| 2020-09-01 | [Movie / TV Series line](https://gph.is/1GFhxC9) you would use in a Merge Request | ? |
+| 2020-10-20 | Spooktacular (Special Halloween edition) | [Alexander Turinske](https://gitlab.com/aturinske) |
 | 2021-03-02 | What's your favourite childhood movie? Or the one you've watched the most times? | Frédéric C. |
 | 2021-04-06 | If you could have a super power, what would it be? (No matter what anyone says, being rich is not a superpower, sorry Batman)? | Lena H-K. |
 | 2021-05-11 | If you were not a software engineer, what would you do? | Lukas Eipert |

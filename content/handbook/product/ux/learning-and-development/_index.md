@@ -122,7 +122,7 @@ Managers should add approved growth and development programs to the [department 
 - [Growth Design](https://lexroman.com/growthdesign)
 - [Practicing Growth Design](https://lexroman.com/blog/2019/9/30/practicing-growth-design)
 - [What is a Growth Designer?](https://blog.alexaroman.com/what-is-a-growth-designer-1b342d55a358)
-- [Growth Designers Resources](https://growthdesigners.co/resources)
+- [Growth Designers Resources](https://www.growthdesigners.co/tools)
 - [Growth Design Case Studies](https://growth.design/case-studies/)
 - [The Psychology of Design](https://growth.design/psychology/)
 - [10 insights into user-centered growth design](https://medium.com/dropbox-design/user-centered-growth-design-97a53d829807)

@@ -233,7 +233,7 @@ Amongst the many competitors in the DevOps space, Jenkins and CircleCI are the c
 
 ### Garter Peer Insights 'Voice of the Customer'
 
-[GitLab Recognized as a Gartner Peer Insights Customers' Choice for ARO](https://page.gitlab.com/resources-report-gartner-voc-aro.html)
+[GitLab Recognized as a Gartner Peer Insights Customers' Choice for ARO](https://about.gitlab.com/analysts/gartner-votc20/)
 
 > - [Gartner Peer Insights 'Voice of the Customer' Application Release Orchestration 2020](https://about.gitlab.com/analysts/gartner-votc20/)
 

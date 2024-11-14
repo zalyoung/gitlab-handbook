@@ -190,7 +190,7 @@ Ontario - Team members who have been employed by GitLab for at least two consecu
 
 Quebec - The Act Respecting Labour Standards (ALS) provides for two days of paid absence per calendar year (January 1 to December 31). This leave runs concurrently with GitLab Sick Time. Employees must designate any time off for illness as `Out Sick` in Workday to ensure that annual sick leave entitlement is properly tracked.
 
-Québec - [La Loi sur les normes du travail (N-1.1)](http://www.legisquebec.gouv.qc.ca/fr/showdoc/cs/N-1.1) prévoit deux jours d'absence rémunérée par année civile (du 1er janvier au 31 décembre). Ce congé s'exécute simultanément avec les règles de congé de GitLab. Les employés doivent désigner tout congé de maladie par la catégorie «Out Sick» dans PTO par Roots, pour s'assurer que le droit aux congés de maladie annuels est correctement suivi.
+Québec - [La Loi sur les normes du travail (N-1.1)](https://www.legisquebec.gouv.qc.ca/fr/showdoc/cs/N-1.1) prévoit deux jours d'absence rémunérée par année civile (du 1er janvier au 31 décembre). Ce congé s'exécute simultanément avec les règles de congé de GitLab. Les employés doivent désigner tout congé de maladie par la catégorie «Out Sick» dans PTO par Roots, pour s'assurer que le droit aux congés de maladie annuels est correctement suivi.
 
 ## GitLab Canada Corp Parental leave
 
@@ -509,7 +509,7 @@ More information on these leave entitlements can be found on the [Government of 
 
 The following leave types run concurrently with GitLab time away policies (PTO, Sick Time, etc.). To initiate leave, and ensure that statutory entitlements are properly tracked, team members should contact the Absence Management team `leaves@domain.com` and then submit the time off request by selecting the appropriate option in Workday. If you do not feel comfortable submitting your time away in Workday, the Absence Management team can enter your time off in Workday on your behalf.
 
-More information about these leave types can be found on the [Government of Alberta website](https://www.alberta.ca/job-protected-leaves.aspx).
+More information about these leave types can be found on the [Government of Alberta website](https://www.alberta.ca/job-protected-leaves).
 
 **Bereavement Leave** *Team members who have been employed with GitLab for at least 90 days*
 
@@ -523,7 +523,7 @@ More information about these leave types can be found on the [Government of Albe
 
 **Compassionate Care Leave** *Team members who have been employed with GitLab for at least 90 days*
 
-- Up to 27 weeks of unpaid leave to give care or support to a gravely ill [family member](https://www.alberta.ca/compassionate-care-leave.aspx#jumplinks-2) with a significant risk of dying within 26 weeks.
+- Up to 27 weeks of unpaid leave to give care or support to a gravely ill [family member](https://www.alberta.ca/compassionate-care-leave#jumplinks-2) with a significant risk of dying within 26 weeks.
 - Team members must submit a medical certificate to the Absence Management team at `leaves@gitlab.com`
 - Team members may also be eligible for [Employment Insurance](https://www.canada.ca/en/services/benefits/ei/caregiving.html)
 - Team Members should select `Out Sick` in Workday.

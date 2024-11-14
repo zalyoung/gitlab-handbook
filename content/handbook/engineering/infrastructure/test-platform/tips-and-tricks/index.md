@@ -265,7 +265,7 @@ This is useful when testing on a fresh GitLab instance (e.g., an omnibus-gitlab 
 Usage example (run from the `gitlab/qa` directory):
 
 ```shell
-$ bundle exec rake  'initialize_gitlab_auth[http://gitlab.test]'
+$ bundle exec rake  'initialize_gitlab_auth[https://gitlab.test]'
 Signing in and creating the default password for the root user if it's not set already...
 Creating an API scoped access token for the root user...
 Token: s8xbMN3qMjyUyQATDWgp

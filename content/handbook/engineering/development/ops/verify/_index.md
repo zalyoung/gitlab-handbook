@@ -277,4 +277,4 @@ As part of our GitLab values, we strive to be [inclusive to those in regions wit
   * Verify:Pipeline Security [#g_pipeline-security](https://gitlab.slack.com/archives/CPANF553J)
 * Verify Engineering Management [#s_verify-em](https://gitlab.slack.com/archives/C014UTH4W02)
 * Verify Frontend Engineering [#s_verify_fe](https://gitlab.slack.com/archives/CUYH1MP0Q)
-* CI/CD UX [#ux_ci-cd](http://gitlab.slack.com/archives/CL9STLJ06)
+* CI/CD UX [#ux_ci-cd](https://gitlab.slack.com/archives/CL9STLJ06)

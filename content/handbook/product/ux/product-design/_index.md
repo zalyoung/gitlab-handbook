@@ -50,7 +50,7 @@ Product Designers adhere to the [Product Development flow](/handbook/product-dev
 - [Design Process](/handbook/product/ux/product-designer/#product-design-process)
 - [Partnering with UX Research](/handbook/product/ux/product-designer/#partnering-with-ux-researchers)
 - [Partnering with Technical Writers](/handbook/product/ux/product-designer/#partnering-with-technical-writers)
-- [Contributing to Pajamas](https://design.gitlab.com/get-started/contribute)
+- [Contributing to Pajamas](https://design.gitlab.com/get-started/contributing/)
 - [Designing with AI](/handbook/product/ux/product-designer/#designing-with-ai)
 
 New GitLab Product Designers should refer to the [Product Designer Workflow handbook page](/handbook/ux/product-design/workflow/) for a comprehensive guide to getting started.

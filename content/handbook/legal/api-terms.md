@@ -17,7 +17,7 @@ F. In the event of an inconsistency between these API Terms and those of an agre
 
 ## 1. License and Use
 
-1.1. Provided that you comply with these API Terms, all documentation relating to the GitLab APIs at [docs.gitlab.com](https://docs.gitlab.com/) and [developer.gitlab.com](http://developer.gitlab.com), and all applicable laws, we grant you a non-exclusive, non-transferable, non-sublicensable, revocable, limited right to access and use the GitLab APIs to:
+1.1. Provided that you comply with these API Terms, all documentation relating to the GitLab APIs at [docs.gitlab.com](https://docs.gitlab.com/) and [developer.gitlab.com](https://developer.gitlab.com), and all applicable laws, we grant you a non-exclusive, non-transferable, non-sublicensable, revocable, limited right to access and use the GitLab APIs to:
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.1.1. Develop, test and support any application or integration developed by you which interacts with the GitLab APIs (each, an "**Integration**") and;
 

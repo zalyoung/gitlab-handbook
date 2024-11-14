@@ -79,7 +79,7 @@ We recognize that unlawful and unethical behavior could happen despite our best 
 
 ### Reporting Misconduct (Anonymously OR Non-Anonymously)
 
-Team members should use [EthicsPoint](https://secure.ethicspoint.com/domain/media/en/gui/74686/index.html) to report unethical and unlawful behavior, and violations of the Business Code of Conduct and Ethics and policies in support of the Code. Reports can be **anonymous** or **non-anonymous**. Reports can be made using the platform [online](http://gitlab.ethicspoint.com/.) or by using EthicsPoint's hotline, which is available 24 hours a day, 365 days a year. The toll-free hotline number for the USA is 1-833-756-0853. Direct access phone numbers for other locations can be viewed on the EthicsPoint website by using the country location drop-down menu.  In the alternative, misconduct may be reported in any manner described in GitLab's [Whistleblower Policy](https://drive.google.com/drive/folders/1kB3k5) or applicable [country-specific whistleblower policies](/handbook/legal/whistleblowing/#country-specific-whistleblower-policies).
+Team members should use [EthicsPoint](https://secure.ethicspoint.com/domain/media/en/gui/74686/index.html) to report unethical and unlawful behavior, and violations of the Business Code of Conduct and Ethics and policies in support of the Code. Reports can be **anonymous** or **non-anonymous**. Reports can be made using the platform [online](https://gitlab.ethicspoint.com/.) or by using EthicsPoint's hotline, which is available 24 hours a day, 365 days a year. The toll-free hotline number for the USA is 1-833-756-0853. Direct access phone numbers for other locations can be viewed on the EthicsPoint website by using the country location drop-down menu.  In the alternative, misconduct may be reported in any manner described in GitLab's [Whistleblower Policy](https://drive.google.com/drive/folders/1kB3k5) or applicable [country-specific whistleblower policies](/handbook/legal/whistleblowing/#country-specific-whistleblower-policies).
 
 ### Reporting Workplace Harassment (Non-Anonymous Only)
 
@@ -87,7 +87,7 @@ Team members who are comfortable doing so may report workplace harassment concer
 
 ### Reporting Concerns about Team Member Relations (Anonymously OR Non-Anonymously)
 
-Team members who would like to **anonymously** report workplace harassment concerns or who would like to, **anonymously** or **non-anonymously**, report other concerns involving team member relations should use [Lighthouse Services](https://www.lighthouse-services.com/gitlab). Topics may vary but could include, for example, wrongful discharge or disciplinary action, discrimination, alcohol and substance abuse, or threats.
+Team members who would like to **anonymously** report workplace harassment concerns or who would like to, **anonymously** or **non-anonymously**, report other concerns involving team member relations should use [Lighthouse Services](https://report.syntrio.com/_StandardCustomURL/LHILandingPage.asp). Topics may vary but could include, for example, wrongful discharge or disciplinary action, discrimination, alcohol and substance abuse, or threats.
 
 Reports can be made using the platform or through the following avenues, which are available 24 hours a day, 365 days a year.
 

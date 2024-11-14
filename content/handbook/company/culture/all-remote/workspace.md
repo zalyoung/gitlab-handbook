@@ -97,7 +97,7 @@ However, if you frequently speak in front of audiences, record talks or podcasts
 
 Several GitLab team members have positive experiences with the [M-Audio UberMic](https://www.amazon.com/M-Audio-Uber-Mic-Professional-Microphone/dp/B0767N58ZY).
 
-"*When audio quality is high (vs low), people judge the content as better and more important. They also judge the speaker as more intelligent, competent, and likable. Messages that are difficult to process are less compelling.*" This [research](https://tips.ariyh.com/p/good-sound-quality-smarter), conducted by Norbert Schwarz at the University of Southern California, reinforces the importance of investing in equipment and atmosphere to generate the highest-fidelity audio in a remote work setting. If you have the funds available, this is an often-overlooked but very worthy way to use them.
+"*When audio quality is high (vs low), people judge the content as better and more important. They also judge the speaker as more intelligent, competent, and likable. Messages that are difficult to process are less compelling.*" This [research](https://app.sciencesays.com/p/good-sound-quality-smarter), conducted by Norbert Schwarz at the University of Southern California, reinforces the importance of investing in equipment and atmosphere to generate the highest-fidelity audio in a remote work setting. If you have the funds available, this is an often-overlooked but very worthy way to use them.
 
 ### Monitor
 
@@ -264,7 +264,7 @@ Be sure to have the ["I'm home but working" conversation with children](https://
 
 ### How can I decorate my home office?
 
-When you work from home, you create a space that fuels your work. According to this [Thrive Global article on remote space setup](https://thriveglobal.com/stories/how-remote-work-can-reduce-stress-and-revitalize-your-mindset), "Maybe that is art, pictures, having a couch close by, or maybe it's just having music playing...at home you can really do whatever you want. It feels less like a corporate job and more of your own thing."
+When you work from home, you create a space that fuels your work. According to this [Thrive Global article on remote space setup](https://community.thriveglobal.com/how-remote-work-can-reduce-stress-and-revitalize-your-mindset/), "Maybe that is art, pictures, having a couch close by, or maybe it's just having music playing...at home you can really do whatever you want. It feels less like a corporate job and more of your own thing."
 
 Try not to [worry about your background](meetings/#meetings-are-about-the-work-not-the-background) too much. Sometimes pets or family wander into a room while you're on a call and reminds us that we are people first and colleagues second.
 

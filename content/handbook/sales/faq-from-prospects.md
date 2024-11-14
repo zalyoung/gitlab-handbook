@@ -23,7 +23,7 @@ description: "See FAQs about GitLab's features, user management, statistics/logs
 
 - Q: Do you have syntax coloring? For which languages? Is it extensible?
 
-  A: GitLab uses the rouge ruby library for syntax highlighting. Rouge supports 77 languages and counting, including Ruby, JavaScript, Swift, Go, C++, and Haskell. For a complete list of supported languages and how to extend it, visit the rouge website: http://rouge.jneen.net/
+  A: GitLab uses the rouge ruby library for syntax highlighting. Rouge supports 77 languages and counting, including Ruby, JavaScript, Swift, Go, C++, and Haskell. For a complete list of supported languages and how to extend it, visit the rouge website: https://rouge.jneen.net/
 
   Documentation: https://docs.gitlab.com/ee/user/project/repository/files/highlighting.html
 

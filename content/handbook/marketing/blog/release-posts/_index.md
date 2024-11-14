@@ -513,7 +513,7 @@ Always link to the "EE" version of GitLab docs `https://docs.gitlab.com/ee/` (no
 - To understand the feature better look at the issue and MR for the feature, they are linked in the YAML. Sometimes the issue description will include the value prop. Read the comments in the issue and MR for the feature, often users and customers will chime in with why they want a feature and what pain the lack of the feature is causing.
 - The release post and `features.yml` can have the same or very similar content - e.g. same screen shot.
   - The tone of the release post is more about introducing the feature "we're happy to ship XYZ..."
-  - The tone of `features.yml` should be [evergreen](https://www.thebalancecareers.com/what-is-evergreen-content-definition-dos-and-don-ts-2316028) to appear on our website in various places.
+  - The tone of `features.yml` should be [evergreen](https://web.archive.org/web/20190610215424/https://www.thebalancecareers.com/what-is-evergreen-content-definition-dos-and-don-ts-2316028) to appear on our website in various places.
 
 ## PMM Lead
 
@@ -1488,7 +1488,7 @@ To run the project locally:
    ```
 
 1. [Run Middleman](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/doc/development.md#run-middleman).
-1. See the release post locally, using `http://127.0.0.1:4567/` instead of `https://about.gitlab.com/`. For example, `http://127.0.0.1:4567/releases/2021/09/22/gitlab-14-3-released/`.
+1. See the release post locally, using `https://127.0.0.1:4567/` instead of `https://about.gitlab.com/`. For example, `https://127.0.0.1:4567/releases/2021/09/22/gitlab-14-3-released/`.
 
 ### Feature order
 
@@ -1601,7 +1601,7 @@ It does not check if:
 - `top` and `primary` items have an image or video
 - `issue_url` is supplied, since there are other alternatives
 
-The schema is implemented using [Rx](http://rx.codesimply.com/index.html).
+The schema is implemented using [Rx](https://rx.codesimply.com/index.html).
 
 ### Deprecation rake task troubleshooting
 
