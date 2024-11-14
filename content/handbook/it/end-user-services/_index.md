@@ -44,7 +44,7 @@ To read more about our Jamf deployment please visit the [**Endpoint Management**
 
 #### Laptop Delivery Metrics
 
-To view laptop delivery metrics and statistic please visit the [Laptop Metrics Handbook Page](/handbook/it/end-user-services/laptop-metrics/)
+To view laptop delivery metrics and statistic please visit the [Laptop Metrics Handbook Page](https://internal.gitlab.com/handbook/it/end-user-services/gitlab-laptop-metrics/)
 
 #### GitLab Onboarding and machine management
 
