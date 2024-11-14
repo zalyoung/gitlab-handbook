@@ -51,7 +51,7 @@ Whenever possible, we prefer to communicate asynchronously using issues, merge r
 
 ## Work
 
-We follow the general workflow and principles defined in [Product Development Flow](/handbook/product-development-flow/) and [Engineering Workflow](/handbook/engineering/workflow/). To bring an issue to our attention, please create an issue in the relevant project. Add the `~"group::global search"` label and any other suitable labels. If it is an urgent issue, please reach out to the Product Manager or Engineering Manager listed in the [Stable Counterparts](/handbook/engineering/infrastructure/core-platform/data_stores/search/#stable-counterparts) section above.
+We follow the general workflow and principles defined in [Product Development Flow](/handbook/product-development-flow/) and [Engineering Workflow](/handbook/engineering/workflow/). To bring an issue to our attention, please create an issue in the relevant project. Add the `~"group::global search"` label and any other suitable labels. If it is an urgent issue, please reach out to the Product Manager or Engineering Manager listed in the [Stable Counterparts](/handbook/engineering/development/dev/foundations/search/#stable-counterparts) section above.
 
 Below are a few guidelines the team follows in the day-to-day work.
 
@@ -93,7 +93,7 @@ We review the bugfix merge requests every week. To facilitate this process, we h
 The team has been actively working on enabling Elasticsearch powered Advanced Search on GitLab.com. [Based on our analysis](https://gitlab.com/groups/gitlab-org/-/epics/1736), we set our first target to roll this feature out for all the paid groups on GitLab.com. You can find more details about the timeline and progress in the links below.
 
 - [Plan of Advanced. Search Rollout on GitLab.com](https://gitlab.com/groups/gitlab-com/-/epics/649)
-- [Steps and Enhancements of Advanced Search Rollout on GitLab.com](/handbook/engineering/infrastructure/core-platform/data_stores/search/es-rollout-timeline/)
+- [Steps and Enhancements of Advanced Search Rollout on GitLab.com](/handbook/engineering/development/dev/foundations/search/es-rollout-timeline/)
 
 ### Severity Labels for Search Issues (`~advanced search`, `~global search`)
 
@@ -154,7 +154,7 @@ When onboarding domain experts from other groups to help cover production incide
 ### Common Links
 
 - [Global Search Team Milestone Board](https://gitlab.com/groups/gitlab-org/-/boards/1339901?label_name[]=group%3A%3Aglobal%20search)
-- [Global Search Team Workflow Board](https://gitlab.com/groups/gitlab-org/-/boards/1584459?label_name[]=group%3A%3Aglobal%20search)
+- [Global Search Team Workflow Board](https://gitlab.com/groups/gitlab-org/-/boards/4440461?not[label_name][]=UX%20Paper%20Cuts&label_name[]=group%3A%3Aglobal%20search&milestone_title=Started)
 - [Global Search Team Epics](https://gitlab.com/groups/gitlab-org/-/epics?scope=all&utf8=%E2%9C%93&state=opened&label_name[]=group%3A%3Aglobal%20search)
 - Global Search team slack channel (internal) [#g_global_search](https://gitlab.slack.com/app_redirect?channel=g_global_search)
 - [Global Search Roadmap](https://gitlab.com/groups/gitlab-org/-/roadmap?state=all&sort=start_date_asc&layout=MONTHS&timeframe_range_type=CURRENT_YEAR&label_name%5B%5D=group%3A%3Aglobal+search&label_name%5B%5D=Roadmap&progress=COUNT&show_progress=true&show_milestones=false&milestones_type=ALL)
@@ -162,7 +162,7 @@ When onboarding domain experts from other groups to help cover production incide
 
 ### JTBD
 
-We utilize the [Jobs to be Done](/handbook/product/ux/jobs-to-be-done/) (JTBD) framework to better understand our customers' and users' needs. You can view the current list of our JTBD [here](/handbook/engineering/infrastructure/core-platform/data_stores/search/jtbd/#jobs-to-be-done).
+We utilize the [Jobs to be Done](/handbook/product/ux/jobs-to-be-done/) (JTBD) framework to better understand our customers' and users' needs. You can view the current list of our JTBD [here](/handbook/engineering/development/dev/foundations/search/jtbd/#jobs-to-be-done).
 
 ### Performance Testing
 

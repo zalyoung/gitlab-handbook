@@ -81,8 +81,6 @@ flowchart LR
     click TS "/handbook/engineering/infrastructure/core-platform/tenant-scale/"
     DS --> Database
     click Database "/handbook/engineering/infrastructure-platforms/data-access/database-framework/"
-    DS --> GS[Global Search]
-    click GS "/handbook/engineering/infrastructure/core-platform/data_stores/search/"
     DS --> CC[Cloud Connector]
     click CC "/handbook/engineering/infrastructure/core-platform/data_stores/cloud-connector/"
 
