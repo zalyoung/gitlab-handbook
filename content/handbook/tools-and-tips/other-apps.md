@@ -331,7 +331,7 @@ DeepL is available as a Web site but also as a Mac app for free. Using a shortcu
 
 ### OBS to partially share a window
 
-If you are in a situation where you want to share only parts of your screen to another one (f.e you are at a customer on-site and still want to take notes without sharing them as well) you can OBS to do that.
+If you are in a situation where you want to share only parts of your screen to another one (f.e you are at a customer on-site and still want to take notes without sharing them as well) you can use OBS to achieve that.
 In some scenarios extending is not the best solution because it can be tough to navigate the demo while sitting in front of the projector, so mirroring is often easier. 
 
 1. Under MacOs display settings, choose Extend screen rather than Mirror
