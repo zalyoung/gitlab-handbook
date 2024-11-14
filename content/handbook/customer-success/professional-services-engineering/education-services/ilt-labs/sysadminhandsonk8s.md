@@ -1,18 +1,18 @@
 ---
-title: "GitLab System Administration - Hands-On Lab Overview"
-description: "This Hands-On Guide walks you through the lab exercises in the GitLab System Administration course."
+title: "GitLab System Administration with Kubernetes - Hands-On Lab Overview"
+description: "This Hands-On Guide walks you through the lab exercises in the GitLab System Administration course using Kubernetes."
 ---
 
 ## GitLab System Administration Lab Guides
 
 | Lab Name |  Lab Link |
 |-----------|------------|
-| Exploring the Admin Dashboard | [Lab Link](/handbook/customer-success/professional-services-engineering/education-services/ilt-labs/sysadminhandsonlab1) |
-| Exploring the GitLab Instance | [Lab Link](/handbook/customer-success/professional-services-engineering/education-services/ilt-labs/sysadminhandsonlab2) |
-| Backup and Restore | [Lab Link](/handbook/customer-success/professional-services-engineering/education-services/ilt-labs/sysadminhandsonlab3) |
-| Upgrading GitLab | [Lab Link](/handbook/customer-success/professional-services-engineering/education-services/ilt-labs/sysadminhandsonlab4) |
-| Logging and Monitoring | [Lab Link](/handbook/customer-success/professional-services-engineering/education-services/ilt-labs/sysadminhandsonlab5) |
-| Troubleshooting | [Lab Link](/handbook/customer-success/professional-services-engineering/education-services/ilt-labs/sysadminhandsonlab6) |
+| Exploring the Admin Dashboard | [Lab Link](/handbook/customer-success/professional-services-engineering/education-services/ilt-labs/sysadminhandsonlab1k8s) |
+| Exploring the GitLab Instance | [Lab Link](/handbook/customer-success/professional-services-engineering/education-services/ilt-labs/sysadminhandsonlab2k8s) |
+| Backup and Restore | [Lab Link](/handbook/customer-success/professional-services-engineering/education-services/ilt-labs/sysadminhandsonlab3k8s) |
+| Upgrading GitLab | [Lab Link](/handbook/customer-success/professional-services-engineering/education-services/ilt-labs/sysadminhandsonlab4k8s) |
+| Logging and Monitoring | [Lab Link](/handbook/customer-success/professional-services-engineering/education-services/ilt-labs/sysadminhandsonlab5k8s) |
+| Troubleshooting | [Lab Link](/handbook/customer-success/professional-services-engineering/education-services/ilt-labs/sysadminhandsonlab6k8s) |
 
 ## Quick links
 

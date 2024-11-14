@@ -1,6 +1,6 @@
 ---
-title: "GitLab System Admin - Hands-On Lab: Backup and Restore"
-description: "This Hands-On Guide demonstrates how to backup and restore your GitLab instance"
+title: "GitLab System Admin - Hands-On Lab: Kubernetes Backup and Restore"
+description: "This Hands-On Guide demonstrates how to backup and restore your GitLab Kubernetes instance"
 ---
 
 > Estimated time to complete: 30 minutes

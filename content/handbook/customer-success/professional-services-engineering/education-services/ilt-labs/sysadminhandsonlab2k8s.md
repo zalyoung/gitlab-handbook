@@ -1,6 +1,6 @@
 ---
-title: "GitLab System Admin - Hands-On Lab: Exploring the GitLab Instance"
-description: "This Hands-On Guide demonstrates how to access and work with command line tools in your GitLab instance"
+title: "GitLab System Admin - Hands-On Lab: Exploring the GitLab Kubernetes Instance"
+description: "This Hands-On Guide demonstrates how to access and work with command line tools in your GitLab Kubernetes instance"
 ---
 
 ## Objectives
