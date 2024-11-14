@@ -318,9 +318,31 @@ It also offers a free reliable mobile video conference app.
 [Loom (Free)](https://www.useloom.com/) is a handy Chrome plugin tool for video walkthroughs.
 Nice tool for demo recordings and internal/external documentation. Note, Loom videos are public by default - ensure you are not exposing data that should remain private. GitLab does have a Loom workspace, for a license please follow the instructions on the [tech stack page](/handbook/business-technology/tech-stack/)
 
+
 ## Language and translation
 
 ### DeepL
 
 The GitLab handbook and most other content is written in English. Even if a non-native speaker's English is pretty good there might be times when the content is too sophisticated and a translation is welcome. Avoiding tedious copy and paste into another browser tab or app can easily be achieved by using the [DeepL translator](https://www.deepl.com/).
 DeepL is available as a Web site but also as a Mac app for free. Using a shortcut on MacOS takes selected text from the handbook right into the app and starts translating. Linux users can only use a Chrome extension and right-click to open another tab for the Web version.
+
+
+## Screenshare
+
+### OBS to partially share a window
+
+If you are in a situation where you want to share only parts of your screen to another one (f.e you are at a customer on-site and still want to take notes without sharing them as well) you can OBS to do that.
+In some scenarios extending is not the best solution because it can be tough to navigate the demo while sitting in front of the projector, so mirroring is often easier. 
+
+1. Under MacOs display settings, choose Extend screen rather than Mirror
+2. Create a new scene in OBS
+3. Add the screen capture as a source for that scene
+4. Select the window you want to share
+5. Right click on the preview
+6. Select "Fullscreen projector preview" and select the screen you want to mirror to
+7. Voilá - only the selected window will be mirrored to the other screen
+8. The preview will run in a new window and you can close this window if you don't need it anymore
+
+### Google Slides
+
+If you want to have your presenter notes on your display and only share the slides to the audience, open your presentation from the Chrome window of your main display. Make sure your display settings are set to Extend rather than mirror. In the top menu of Google Slides select the arrow next to Slideshow and open the "Presentation display options". Check "Presenter View" and "Fullscreen". Under "Display slideshow on" select the display you want the slideshow to appear on. Click "Start slideshow" and everything will be set up automatically. 
