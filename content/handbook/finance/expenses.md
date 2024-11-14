@@ -449,7 +449,7 @@ The company will cover all work-related travel expenses. This includes lodging a
 
 #### Repairs to company issued equipment
 
-- If you need to replace a battery or something small that does not affect the productivity or speed of the device, please go ahead and get that small item replaced and expensed.
+- If you need to replace a battery, laptop charger, or something small that does not affect the productivity or speed of the device, please go ahead and get that small item replaced and expensed.
 - The category to use in Navan is 'Office Supplies'.
 - Please get approval from your Manager if your equipment appears to be damaged, defective, or in need of repair
 - Business Operations can advise on next steps to ensure you have the proper equipment to work.
