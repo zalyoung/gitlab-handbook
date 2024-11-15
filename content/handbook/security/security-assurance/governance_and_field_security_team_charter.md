@@ -11,12 +11,9 @@ The mission of the Governance and Field Security team is to: (i) drive the devel
 
 ### Roles and responsibilities
 
-Please refer to the following roles and responsibilities for Governance and Field Security team members:
+Please refer to the following roles and responsibilities for Governance and Field Security team members. All three specialties (Governance, Field Security, Sec. Assurance Automation) can be found under each job grade:
 
-[Goverance team member roles and responsibilities](/job-families/security/security-assurance-job-family)
-{.h4}
-
-[Field Security team member roles and responsibilities](/job-families/security/security-assurance-job-family)
+[Security Assurance team member roles and responsibilities](/job-families/security/security-assurance-job-family/)
 {.h4}
 
 ## High Level Core Competencies
@@ -59,7 +56,8 @@ Please refer to the following roles and responsibilities for Governance and Fiel
 
 ### Metrics
 
-- Development and maintenance of department-level metrics for Governance and Field Security and cross-functional Security Assurance teams
+- Development and maintenance of department-level metrics for Governance and Field Security and cross-functional Security Assurance teams.
+- The Governance and Field Security team serves as the technical DRI for creating data sources that feed department-level metrics for all Security Assurance teams.
 
 ## Program goals
 
@@ -75,14 +73,15 @@ Please refer to the following roles and responsibilities for Governance and Fiel
 - Develop role based security training for high risk team members
 - Maintain awareness of existing and new regulatory and compliance requirements, and feed that information to relevant teams for triage and action
 - Develop and maintain a holistic set of policies and procedures to support regulatory, compliance, and operational requirements
-- Improve the effectiveness and efficiency of existing and new processes through automation.
-- Automate compliance controls and compliance control monitoring processes
-- Reduce the amount of time consumed by manual tasks.
+
 
 ### Automation
 
 - Reduce manual efforts through automation and simplification of new and existing processes
 - Streamline and enhance Security Assurance tooling through native and custom built integrations
+- Improve the effectiveness and efficiency of existing and new processes through automation.
+- Automate compliance controls and compliance control monitoring processes
+- Reduce the amount of time consumed by manual tasks.
 
 ## Program scope
 
