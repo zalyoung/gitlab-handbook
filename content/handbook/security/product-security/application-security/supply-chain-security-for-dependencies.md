@@ -1,10 +1,15 @@
 <!-- TODO: Integrate https://gitlab.com/gitlab-org/gitlab/-/merge_requests/60618/diffs-->
 
-## Software Supply Chain Security Guidelines for Open Source Dependencies
+## Software Supply Chain Security Guidelines for Open Source Dependencies and Libraries
 
 This guide provides developers and security team members with best practices and considerations for evaluating and securing open source dependencies in their projects. By following these steps, one can minimize the risk of supply chain compromises and ensure the overall security of software.
 
-### Supply Chain Security Considerations for Open Source Dependencies
+Follow these guidelines whenever a merge request (MR) adds a new library or dependency to:
+
+- A library manifest (e.g., `Gemfile`, `package.json`, `go.mod`)
+- A lockfile (e.g., `Gemfile.lock`, `yarn.lock`, `go.sum`)
+
+### Supply Chain Security Considerations for Open Source Dependencies and Libraries
 
 - Is the project actively developed, maintained, and mature?
   - When was the code last updated?
@@ -27,6 +32,13 @@ This guide provides developers and security team members with best practices and
 - Are releases signed or cryptographically verifiable?
 - Are project maintainers using 2FA?
 - Do project maintainers use accounts registered to personal custom email domains?
+
+### Code Inspection
+
+- Review all library code for malicious or problematic content
+- For Gems or Node.js modules, inspect the distributed code, not the repository
+- Use services like diffend.io for Gems or app.renovatebot.com for Node.js modules
+- For vendored libraries, use standard code review tools
 
 ### Supply Chain Security Best Practices
 
