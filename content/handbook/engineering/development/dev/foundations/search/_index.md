@@ -45,7 +45,6 @@ The Global Search team shares responsibilites with the AI Framework team in the 
 ## Advanced Search data stores and interfaces today
 
 ![Global Search data stores and interfaces diagram](global_search_interfaces.png)
-
 ### A note on basic search
 
 Basic search utilizes Postgres for text searching and Gitaly for code searching. Both functionalities are significantly limited compared to with Advanced search.
