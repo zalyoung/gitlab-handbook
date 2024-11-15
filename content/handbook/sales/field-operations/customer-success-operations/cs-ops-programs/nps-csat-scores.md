@@ -11,8 +11,8 @@ Customer Satisfaction surveys are a qualitative metric to gain a deeper understa
 
 **Examples of customer satisfaction surveys in GitLab:**
 
-* [**User Satisfaction (USAT)**](/handbook.gitlab.com/handbook/product/ux/performance-indicators/usat/)**:** Administered by the UX Research team via Rally UXR & Qualtrics to a representative sample of paid end users of GitLab, these surveys focus on measuring satisfaction with GitLab the product on a quarterly basis.  
-* **Customer Satisfaction CSAT**: This biannual survey, owned by Customer Success, measures the satisfaction level in both the product and engagement with our teams.   
+* [**User Satisfaction (USAT)**](/handbook/product/ux/performance-indicators/usat/)**:** Administered by the UX Research team via Rally UXR & Qualtrics to a representative sample of paid end users of GitLab, these surveys focus on measuring satisfaction with GitLab the product on a quarterly basis.  
+* [**Customer Satisfaction CSAT**](/handbook.gitlab.com/handbook/sales/field-operations/customer-success-operations/cs-ops-programs/all-customer-csat-cs/): This biannual survey, owned by Customer Success, measures the satisfaction level in both the product and engagement with our teams.   
 * **Service CSAT:** Administered by the Customer Success team via Gainsight to a larger audience, these surveys assess customer satisfaction with GitLab's overall support, service levels, and customer experience. These tend to be transactional, focused on the most immediate interaction with our team.
 
 All teams are working collaboratively to streamline the survey process, improve data collection efficiency, and ensure that we have a comprehensive understanding of customer feedback. [OKR](https://gitlab.com/gitlab-com/gitlab-OKRs/-/work_items/9025). 
@@ -30,7 +30,7 @@ All teams are working collaboratively to streamline the survey process, improve 
 * [All-Customer CSAT Survey (Customer Success)](/handbook/sales/field-operations/customer-success-operations/cs-ops-programs/all-customer-csat-cs/)  
 * Post-Scale Engagement CSAT Survey  
 * Digital SMB [Case Closure Survey](/handbook/sales/commercial/global_digital_smb/#email-to-case) CSAT Survey  
-* [USAT Survey (UX Research)](/handbook/product/ux/performance-indicators/usat/)
+* [USAT Survey (UX Research)](/handbook/product/ux/performance-indicators/#user-satisfaction-usat-score)
 
 ### **What are the differences between the All-Customer CSAT and USAT surveys?**
 
