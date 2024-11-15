@@ -35,11 +35,7 @@ Team Members hired prior to April 2022 are legacied in to the medical allowance 
 
 ### Life Insurance
 
-- Death: BRL 50,000
-- Total or partial permanent disability due to accident: BRL 50,000
-- Family funeral assistance: BRL 5,000
-
-Note: All amounts stated above are estimates and may change during the course of the year as more employees in Brazil are added or removed from the policy.
+Remote provides Life Insurance through Prudential. Coverage amount is 24x your monthly salary. Gitlab covers 100% of the premiums. Team Members can assign their Beneficiaries in the Remote portal. 
 
 ### Remote - Brazil  Statutory Leave policies
 
