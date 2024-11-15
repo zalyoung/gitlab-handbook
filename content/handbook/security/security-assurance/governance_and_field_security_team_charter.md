@@ -44,10 +44,10 @@ Please refer to the following roles and responsibilities for Governance and Fiel
 - Breaking complex requests into smaller manageable components
 - Deployment of new Security Assurance technologies and integration with existing technologies
 
-### Internal Security Evangelism
+### Policies and Awareness
 
-- Policy and procedure management
-- Security awareness and training for internal team members
+- Policy and standard management
+- Security awareness and role-specific training for internal team members
 
 ### Compliance Monitoring and Oversight
 
