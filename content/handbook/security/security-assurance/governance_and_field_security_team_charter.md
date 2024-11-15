@@ -94,7 +94,7 @@ The scope of the Governance program is company-wide. Governance collaborates wit
 
 ### Automation
 
-The scope of the Automation program is primarily Assurance, with impacts company-wide. Automation collaborates with cross-functional teams to develop automated solutions to increase security efficiency, accuracy, and scope for all other Assurance programs.
+The scope of the Automation program is primarily Assurance, with impacts company-wide as Security Assurance works across the company. Automation collaborates with cross-functional teams to develop automated solutions to increase security efficiency, accuracy, and scope for all other Assurance programs.
 
 ## Strengths and skills
 
