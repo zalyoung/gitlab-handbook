@@ -74,7 +74,6 @@ Please refer to the following roles and responsibilities for Governance and Fiel
 - Maintain awareness of existing and new regulatory and compliance requirements, and feed that information to relevant teams for triage and action
 - Develop and maintain a holistic set of policies and procedures to support regulatory, compliance, and operational requirements
 
-
 ### Automation
 
 - Reduce manual efforts through automation and simplification of new and existing processes
@@ -93,6 +92,10 @@ The scope of the Field Security program is company-wide. Field Security collabor
 
 The scope of the Governance program is company-wide. Governance collaborates with all cross-functional teams to support security awareness, internal security evangelism, automation, policy and procedure management, and compliance monitoring and oversight activities.
 
+### Automation
+
+The scope of the Automation program is primarily Assurance, with impacts company-wide. Automation collaborates with cross-functional teams to develop automated solutions to increase security efficiency, accuracy, and scope for all other Assurance programs.
+
 ## Strengths and skills
 
 ### Field Security
@@ -109,4 +112,12 @@ The scope of the Governance program is company-wide. Governance collaborates wit
 - Technical acumen
 - Analytical acumen
 - Attention to diverse audiences
+- Effective communication skills
+
+### Automation
+
+- Technical acumen
+- Analytical acumen
+- Growth and efficiency mindset approach to problems
+- Cross-program relationships identification and integration
 - Effective communication skills
