@@ -99,13 +99,19 @@ Transportation Allowance for Co-Working Space Users
 
 Team members who elect to work from a co-working space on a monthly basis, in line with the Global Expense Policy, are eligible to receive a transportation allowance. This allowance is intended to cover travel expenses from the team member's residence to the co-working space.
 
-#### Eligibility Criteria
+<details markdown="1">
+
+<summary>Eligibility Criteria</summary>
 
 - The co-working space must  in line with the [Global Expense Policy](https://handbook.gitlab.com/handbook/finance/expenses/#co-working-space)
 - The co-working space must be used regularly (i.e., on a monthly basis).
 - Team members must submit required documentation as outlined below.
 
-#### Application Process
+</details>
+
+<details markdown="1">
+
+<summary>Application Process</summary>
 
 To receive the transportation allowance, team members must:
 
@@ -120,6 +126,8 @@ To receive the transportation allowance, team members must:
 Submit your form and supporting documents by the 4th of each month to be included in the upcoming payroll cycle. Submitted details will be reviewed by the Non-US Payroll and Total Rewards Team, who will calculate and process the allowance through payroll.
 
 Note: This allowance will be paid through payroll rather than reimbursed through Navan. While the Global Expense Policy generally excludes transportation to and from co-working spaces from reimbursement, the Israel transportation allowance will still be processed as outlined here. If a team member works from a co-working space on a one-off basis while traveling for business, travel expenses should be reimbursed via Navan in line with the Global Expense Policy.
+
+</details>
 
 ### Accrued Recuperation
 
