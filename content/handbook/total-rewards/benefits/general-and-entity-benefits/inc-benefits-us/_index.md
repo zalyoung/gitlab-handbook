@@ -26,7 +26,7 @@ Please see additional information on the 2025 US Benefit Plans
 
 - Need help selecting a plan? Use the [Flimp PlanSelect tool](https://myplanselect.com/navigation/Gitlab/2024) to help you find the plan that best fits you and your family’s needs.
 - Review the [2025 Benefits Memo](https://docs.google.com/document/d/13u3mMkiqRr7lO0m4htejjsQnXEr8lePn/edit?usp=sharing&ouid=115600862362829120699&rtpof=true&sd=true) for highlights and updates
-- See the [2025 US Benefits Guide](TBD) for a full review of the GitLab Benefit Plans
+- See the [2025 US Benefits Guide](https://drive.google.com/file/d/1-1Y15FG5oiksax_871eIX-bJBeDxIF_k/view) for a full review of the GitLab Benefit Plans
 - Watch our [2025 Benefits Video](https://www.brainshark.com/1/player/willis?pi=zHgzXkIHdzaInCz0&r3f1=&fb=0) for a review of all the plans.
 - See our 2025 [Annual Rights Notices](https://drive.google.com/file/d/1t17_KcSPt4l09YQL3Iiy544yxXf5z8Bx/view?usp=sharing)
 - GitLab offers Mental Wellness Services through [Modern Health](/handbook/total-rewards/benefits/modern-health/). In addition to these services, team members that enroll in the Cigna and Kaiser plans have access to their network of [Mental Health Programs and Resources](https://drive.google.com/file/d/1LT_LG1Px3xrGMBP0-iMPXaFyQvopfSiL/view?usp=sharing)
