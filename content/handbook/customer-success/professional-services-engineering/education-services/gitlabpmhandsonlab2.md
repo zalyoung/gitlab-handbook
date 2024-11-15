@@ -19,14 +19,6 @@ In GitLab, projects and subgroups help you organize your codebases and effective
 
 ## Prerequisites
 
-### Instructor-Led Training Prerequisites
-
-1. You have already redeemed the invitation/voucher code.
-
-1. You have signed into https://ilt.gitlabtraining.cloud with the username provided.
-
-1. You have clicked the `My Group` button and opened a new browser tab with the URL `https://ilt.gitlabtraining.cloud/training-users/session-{id}/iu{######}`. You should see `My Test Group - iu{######}` as the title of the group.
-
 #### Self-Paced Training Prerequisites
 
 1. You have already redeemed the invitation/voucher code.
