@@ -77,8 +77,9 @@ Please refer to the following roles and responsibilities for Governance and Fiel
 ### Automation
 
 - Reduce manual efforts through automation and simplification of new and existing processes
-- Streamline and enhance Security Assurance tooling through native and custom built integrations
-- Improve the effectiveness and efficiency of existing and new processes through automation.
+- Streamline and enhance Security Assurance tooling through native and custom built integrations and products
+- Improve the effectiveness and efficiency of existing and new processes through automation
+- Champion an engineering mindset for Assurance processes and programs
 - Automate compliance controls and compliance control monitoring processes
 - Reduce the amount of time consumed by manual tasks.
 
