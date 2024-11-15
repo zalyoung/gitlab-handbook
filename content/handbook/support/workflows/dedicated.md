@@ -154,6 +154,12 @@ In most cases, customers should use **Switchboard** to update the IP allowlist f
 1. Ask the customer to provided the [required information](https://docs.gitlab.com/ee/administration/dedicated/#ip-allowlist) in the ticket. In this case, it's a comma-separated list of IP addresses.
 1. Open a [Request for Help issue](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/team/-/issues/new?issuable_template=request_for_help) and confirm that the `support::request-for-help`) in the GitLab Dedicated issue tracker.
 
+##### SCIM / OIDC with IP Allowlist request
+
+Customers who use the IP allowlist may request to enable the SCIM or OIDC endpoints to the internet. This is a simple on/off toggle but must be performed by the Environment Automation team:
+
+1. Open a [Request for Help issue](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/team/-/issues/new?issuable_template=request_for_help) in the GitLab Dedicated issue tracker. (Confirm that the `support::request-for-help` label has been applied)
+
 #### SAML Request
 
 1. Ask the customer to provided the [required information](https://docs.gitlab.com/ee/administration/dedicated/#saml) in the ticket. In this case, it's a SAML configuration block or can be a list of information provided by a customer.
