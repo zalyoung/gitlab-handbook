@@ -92,6 +92,41 @@ Israel Team Members are granted a meal allowance of up to NIS 900 per month. Vou
 
 The People-Connect Team will assist Payroll in the administration of this benefit.
 
+### Transportation Allowance
+
+This policy applies to all Israel-based GitLab team members who choose to work from a co-working space regularly and meet the requirements outlined in the [Global Expense Co-Working Space Policy](handbook/finance/expenses/#co-working-space)
+ This allowance is intended to cover travel expenses from the team member's residence to the co-working space.
+
+Note: This allowance will be paid through payroll rather than reimbursed through Navan. While the Global Expense Policy generally excludes transportation to and from co-working spaces from reimbursement, the Israel transportation allowance will still be processed as outlined here. If a team member works from a co-working space on a one-off basis while traveling for business, travel expenses should be reimbursed via Navan in line with the Global Expense Policy.
+
+<details markdown="1">
+
+<summary>Eligibility Criteria</summary>
+
+- The co-working space must  in line with the [Global Expense Co-Working Space Policy](handbook/finance/expenses/#co-working-space)
+- The co-working space must be used regularly (i.e., on a monthly basis).
+- Team members must submit required documentation as outlined below.
+
+</details>
+
+<details markdown="1">
+
+<summary>Application Process</summary>
+
+To receive the transportation allowance, team members must:
+
+- Complete and submit the [Israel Transportation Allowance Form on HelpLab](https://helplab.gitlab.systems/esc?id=sc_cat_item&sys_id=0f8a3eefff991e103691fe34fc4fd9be)
+- Information required for the form:
+  - A copy of the lease agreement for the co-working space.
+  - The address of the co-working space.
+  - The number of days per week that the team member intends to travel to the co-working space.
+- The allowance is provided for the duration of the lease agreement. Once the lease agreement lapses, team members must resubmit the form and HelpLab ticket to continue receiving the allowance.
+- It is the team member’s responsibility to submit a new request upon lease expiration.
+
+Submit your form and supporting documents by the 4th of each month to be included in the upcoming payroll cycle. Submitted details will be reviewed by the Non-US Payroll and Total Rewards Team, who will calculate and process the allowance through payroll.
+
+</details>
+
 ### Accrued Recuperation
 
 Accrued Recuperation is an Israel entitlement meant to help fund expenses that encourage recuperation and recovery. GitLab will pay the Accrued Recuperation payment in July, in accordance with applicable law. The pay is subject to completion of one year of employment.
