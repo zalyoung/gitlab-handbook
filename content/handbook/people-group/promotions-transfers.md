@@ -117,7 +117,7 @@ Below is the timeline for FY26:
 
 ### FY26-Q4 (Nov 1)
 
-Status: Pending
+Status: Pending  
 
 - Planning:
 - Calibrations & Workday input by Director+:
@@ -129,7 +129,7 @@ Status: Pending
 
 ### FY27-Q2 (May 1)
 
-Status: Pending
+Status: Pending  
 
 - Planning:
 - Calibrations & Workday input by Director+:
@@ -141,7 +141,7 @@ Status: Pending
 
 ### FY27-Q4 (Nov 1)
 
-Status: Pending
+Status: Pending  
 
 - Planning:
 - Calibrations & Workday input by Director+:
@@ -254,7 +254,22 @@ Philosophically, all promotions at GitLab are approached in the same way, follow
 Promotions to Senior Director+ level ([job grade 11]({{< ref "compensation-calculator#gitlab-job-grades" >}}) and above) have the following differences:
 
 1. **Planning**: Senior Director+ promotions need to be added to E-group's promotion project sheet at least two quarters ahead of the desired promotion quarter for visibility. For example, if I want to promote an individual effective in Q1 (February), then I need to have this team member added to E-group's projection sheet within Q3 (latest October). Please work with your aligned People Business Partner, who will ensure the promotion projection is added.
-1. **Calibration**: All Senior Director+ level promotions are calibrated at the E-group level, as opposed to at the Department level. Calibration timeline will align to the timing of the [E-group offsite]({{< ref "offsite#schedule" >}}), and will thus differ from the Calibration timeline of the rest of the organization. All promotion documents need to be completed and shared with the E-group for visibility and preparation at least *2 weeks before the off-site date*.
+1. **Level Scoping**: We want to ensure rigor and consistency in our organization design principles and expectations for senior leadership roles. For Senior Director+ promotions, we utilize a scoping tool to evaluate the role (not the team member) for business need and alignment to the Job Frameworks.
+1. **Cross Functional Feedback**: We require at least 3 examples of cross functional feedback when reviewing Senior Director+ promotions. This feedback will not be made public and will only be reviewed by the calibration committee, PBP, direct manager and team member. 
+
+- All three of the business results highlighted in the promotion document should have feedback provided from at least one cross functional team member. 
+- Feedback providers should have direct experience working with the team member on one or more of the business results highlighted in their promotion document as a project team member, DRI, or stakeholder.
+- Feedback provider is not in the same reporting line as the manager (I.E. not team member’s manager, skip level, etc.)
+- Feedback providers must be cross-functional. When determining the most appropriate team members to provide feedback, the core focus should be on who worked most closely with the promotion candidate on the business results highlighted in the promotion document.
+- Feedback providers should be at or above the target promotion level. Feedback providers can be individual contributors or people managers at or above the target promotion level. The reason we require feedback providers to be at or above the target promotion level is to ensure they are able to speak to business results and collaboration in the context of next level expectations as team members who are already operating at the next level.
+- Feedback will be captured in this template, separate from the Promotion Document and will be reviewed as part of the calibration discussion. Feedback will be summarized, and it is not required to provide specific names of the feedback providers. 
+
+**Feedback question guidance**: 
+
+1. Please provide feedback on X delivery of Y business results, and collaboration with you and/or your team. 
+1. Specifically highlight performance against the Job Frameworks, CREDIT Values and HPT Pillars
+
+1. **Calibration**: All Senior Director level promotions are calibrated at the Divisional VP+ leadership level, as opposed to at the Department level. Vice President level promotions are calibrated at E-group. The calibration timeline will align to the timing of the [E-group offsite]({{< ref "offsite#schedule" >}}) or extended monthly meeting, and will thus differ from the Calibration timeline of the rest of the organization. All promotion documents, feedback summaries and scoping tools need to be completed and shared with the E-group for visibility and preparation at least *2 weeks before the off-site date*.
 
 The only exception to this process is when there is an open budgeted and publicly advertised vacancy for a Director or above level role that an internal team member interviews for and is offered. If external candidates have been considered and interviewed, and the internal candidate earns the role through a standard hiring process (screening, full interview process) then the recruiter may make an offer to the candidate as soon as the offer is approved. There should be no difference in the timing or process of making and accepting an offer for open roles between internal and external candidates.
 
@@ -645,7 +660,7 @@ Note for Sales Managers: If team members are not moved under the correct sales m
 
 1. Audit all job change requests and ensure the changes are captured in the Payroll tracker.
 1. In case of `Job Title Specialty` change requests, managers will reach out to the People Connect Team [HelpLab](https://helplab.gitlab.systems/esc?id=emp_taxonomy_topic&topic_id=14aff309478c069067429ee0026d4372) to have a team members `Speciality` updated in Workday.
-    - The People Connect Team member should check whether the title already exists in Workday. If not, check whether the `Job Speciality` has been added to the respective departments Handbook page or if the People Connect Team members are tagged in a respective issue to have it added. If unclear, reach out to the [respective People Business Partner](/handbook/people-group#people-business-partner-alignment-to-division)
+    - The People Connect Team member should check whether the title already exists in Workday. If not, check whether the `Job Speciality` has been added to the respective departments Handbook page (example: [https://handbook.gitlab.com/handbook/engineering/development/enablement/data_stores/search/](/handbook/engineering/development/enablement/data_stores/search/)) or if the People Connect Team members are tagged in a respective issue to have it added. If unclear, reach out to the [respective People Business Partner](/handbook/people-group/people-business-partners/#people-business-partner-alignments)
 
 ## Department Transfers
 
