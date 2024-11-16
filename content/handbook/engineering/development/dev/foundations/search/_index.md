@@ -44,7 +44,7 @@ The Global Search team shares responsibilites with the AI Framework team in the 
 
 ## Advanced Search data stores and interfaces today
 
-![Global Search data stores and interfaces diagram](global_search_interfaces.png)
+![Global Search data stores and interfaces diagram](/images/global_search_interfaces.png)
 
 ### A note on basic search
 
