@@ -22,6 +22,7 @@ Marketing Analytics supports the entire Marketing team to develop and execute a 
 - [David Egan, Staff Data Analyst](/handbook/company/team/#dwegan)
 - [Djordje Micovic, Staff Data Analyst](/handbook/company/team/#dmicovic)
 - [Dennis Charukulvanich, Senior Data Analyst](/handbook/company/team/#dennischarukulvanich)
+- [Ankit Kanwar, Senior Data Analyst](/handbook/company/team/#akanwar)
 
 ## <i id="biz-tech-icons" class="far fa-paper-plane"></i>How to Communicate with Us
 
@@ -67,17 +68,6 @@ Marketing Analytics uses a [local issue board](https://gitlab.com/gitlab-com/mar
 #### Issue Weights
 
 Marketing Analytics uses the Fibonnacci sequence when creating [issue weights](https://docs.gitlab.com/ee/user/project/issues/issue_weight.html). We start with a weight of 2, smaller is too simple for an issue. Similarly, we break any issue larger than 13 into an epic.
-
-### Triage Schedule
-
-We follow a weekly triage schedule and alternate responsibility between the team. You can see who is currently on triage with our shared [Google Calendar](https://calendar.google.com/calendar/u/0?cid=Y185YTczZjgzOWQyOWUyY2U3MDEwYjkyNTJmYzFmY2U2NTYzM2MyMzBiOGQxNzk5NmY4ZDIyODkxOGVlNmM1ZWM5QGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20).
-
-During your rotation, you are expected to:
-
-- Triage new issues in our board according to our stakeholder alignment, checking at least twice per day.
-- Triage or help with new messages in [#mktg-strat-analytics](https://gitlab.slack.com/archives/C01HTAYQBM5)
-
-Dennis is responsible for all web analytics triage.
 
 ### Epics
 
