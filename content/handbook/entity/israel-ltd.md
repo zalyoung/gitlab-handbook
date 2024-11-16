@@ -103,7 +103,7 @@ Team members who elect to work from a co-working space on a monthly basis, in li
 
 <summary>Eligibility Criteria</summary>
 
-- The co-working space must  in line with the [Global Expense Policy](https://handbook.gitlab.com/handbook/finance/expenses/#co-working-space)
+- The co-working space must  in line with the [Global Expense Policy](/handbook/finance/expenses/#co-working-space)
 - The co-working space must be used regularly (i.e., on a monthly basis).
 - Team members must submit required documentation as outlined below.
 
