@@ -252,7 +252,6 @@ To the top of that amount, 24,26% taxes should be added.
 All Sweden-based team members will be automatically covered by group life insurance.
 Lump sum benefit: 352,800 SEK for deaths before age 55 (or later if there are children under 17). This benefit decreases with age and is tax-free.
 
-
 ### Remote - Sweden Statutory Leave Policies
 
 Below is information related to Sweden's statutory leave policies.  Please note that team members hired in Sweden are hired via Remote (PEO) and you should always check with Remote first for the most up to date information.
