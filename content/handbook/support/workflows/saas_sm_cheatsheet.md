@@ -1,7 +1,6 @@
 ---
 title: SaaS, Self-Managed and Dedicated Troubleshooting tables
 category: Support Team
-subcategory: Uncategorized
 description: "Troubleshooting tips for various problems on each GitLab platform type"
 ---
 
