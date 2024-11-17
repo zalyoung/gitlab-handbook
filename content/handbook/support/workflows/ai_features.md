@@ -1,7 +1,6 @@
 ---
 title: AI Workflow
-category: GitLab.com, Self-Managed
-subcategory: AI
+category: AI
 description: "Workflow for ticket related to our AI Features"
 ---
 
