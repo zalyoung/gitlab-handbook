@@ -153,6 +153,10 @@ Note: The points, levels & status can still change.
     - Merged merge requests credited to all content participants that have commented in that issue or were assigned to it, each participant was credited 2 contribution points
     - Merged merge requests credited to all code participants, each participant was credited 5 Contribution Points
 
+### Recognizing organizations that contribute
+
+An organization's contributions are calculated as the sum of user contributions grouped by the organization configured in their GitLab user profile.
+
 ## Phase 2: Rewards and incentives based on member's value to GitLab, including product marketing
 
 When looking at our total community, we want to cheer for those that spread the word & promote our cause (formerly known as GitLab Heroes & Meetups program), in combination with contributions that happen on GitLab.com. Combining the offline & online contributions in a single program is challenging but necessary.
