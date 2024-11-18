@@ -43,24 +43,31 @@ To request a Subject Matter Expert (SME) for an opportunity, follow these steps:
 3. **Prep Call Required**: If the request is to join a customer meeting, when the SME has accepted, have a prep call ahead of that meeting.
 4. **Agenda Required:** Ensure you do have an Agenda created and this was communicated with the customer.  Ensure you have a next steps and clear outcomes for the meeting.
 5. **Complete Discovery Before**: Please ensure that all necessary discovery has occurred before you requested a SME and that you have documented as such.
-6. **Resist from Directly contacting PM Without a SME Request**: If an AE, a SA, or CSM requests a PM, Field CTO directly, ask the requester, to first consider requesting a SME. You, the SA/ CSM can then request a SME in the appropriate SME channel. PMs have been directed to redirect all questions to SMEs by the use of the SME Slack handles, if they determine that the SMEs were not initially engaged, and the request is not associated with any escalations, request for product direction.
+6. **Resist from Directly contacting PM Without a SME Request** in certain scenarios. [See below](#sme-pm-alternative).
 7. **Use SME Channels:** All request should be made in the SME channels and not in Customer slack channels etc.
 
-### Before Engaging or Requesting A PM Consider Requesting a SME First
+### Before Engaging or Requesting A PM Consider Requesting a SME First {#sme-pm-alternative}
 
  It is the goal for the SMEs to become experts in AI, Dedicated, App Security, Plan, CICD and Metrics, so that they can assist account teams and customers in adopting and using them. We need to reduce the burden on Product Managers to teach the field and customers on how to use the product.
 
 **Resist from Directly contacting PM Without a SME Request**: If an AE, a SA, or CSM requests a PM, Field CTO directly, ask the requester, to first consider requesting a SME. You, the SA/ CSM can then request a SME in the appropriate SME channel. PMs have been directed to redirect all questions to SMEs by the use of the SME Slack handles, if they determine that the SMEs were not initially engaged, and the request is not associated with any escalations, request for product direction.
 
-For these scenarios, please engage the SME community before engaging a PM.
+**For these scenarios, please engage the SME community before engaging a PM.**
 
-1. Requesting answers to technical questions 
+In lieu of directly engaging Product management, SMEs should be requested or engaged for one of the following scenarios:
+
+1. Answering Technical Questions 
    1. Ask the question in the `sme-` channel using the Stack Overflow integration and have a SME answer it.
    2. If questions are asked in a customer channel or in the `f_` channels, Product Managers are free to redirect these questions to the SMEs using the SME Slack handles
-2. Request to join a Customer Call, to do a demo, discuss best practices or just to answer technical questions.
-   1. At no time should an AE, SA, or CSA request that a PM joins a call for tomorrow or the next day, especially just to answer technical questions, or best practices.
+2. Request for Content 
+3. Request for a Demo 
+4. Request for Best Practices 
+5. Request to Speak at a Conference 
+6. Request to join a Customer Call, in order to conduct a demo, discuss best practices or just to answer technical questions
 
-You can engage PMs, as noted in the [Product Management Section of the Handbook](/handbook/product/product-management/#requests-for-product-support), for the following scenarios:
+**You can engage PMs**, as noted in the [Product Management Section of the Handbook](/handbook/product/product-management/#requests-for-product-support), for the following scenarios:
+
+**NOTE: At no time should an AE, SA, or CSA request that a PM joins a call for tomorrow or the next day, especially just to answer technical questions, or best practices.**
 
 1. Request to join a [Customer Call](/handbook/product/product-management/#product-joining-customer-calls)for gaps in functionality, roadmaps, discussion on direction of the product.  
 2. Do Not just simply request a Product Manager to join a call just because the AE insists, or you have noyt gathered the context or done any extensive discovery.
