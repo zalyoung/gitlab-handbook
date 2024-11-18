@@ -314,8 +314,10 @@ results on the compliance dashboard.
 
 ## Constraints
 
-1. We should limit the maximum number of compliance frameworks a project can have.
-1. We should limit the maximum number of compliance requirements a framework can have.
+1. We should limit the maximum number of compliance frameworks a project can have. In the beginning we can keep this limit as 20
+and increase later on if needed.
+1. We should limit the maximum number of compliance requirements a framework can have. In the beginning we can keep this limit as 50
+and increase later on if needed.
 1. We should limit the maximum number of fields an expression can have. In the beginning we can keep this limit as 5
 and increase later on if needed.
 1. We should create an allowlist of project settings and associations that could be used for creating expressions.
