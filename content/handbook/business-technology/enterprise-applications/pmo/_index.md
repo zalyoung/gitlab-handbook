@@ -18,24 +18,32 @@ We are a global team, focused on building and managing world-class information t
 
 ![it-pmo](/handbook/business-technology/enterprise-applications/pmo/it-pmo-planning.png)
 
-The IT portfolio planning & prioritization process has 6 steps:
+The IT EntApps Portfolio planning & prioritization process has 6 steps:
 
 1. Portfolio of Projects
 2. Prioritization
-3. Resources & Capacity Planning
-4. Project Commits
-5. T-Shirt Sizing
+3. T-Shirt Sizing
+4. Resources & Capacity Planning
+5. Project Commits
 6. Alignment & OKRs
 
-### IT Portfolio of Projects
+### Portfolio of Projects
 
-The inventory of all committed and planned projects for the quarter in IT Operations and Enterprise Applications. The [IT Portfolio: Quarterly Commits](https://docs.google.com/spreadsheets/d/1ojnTFGB2iYJz9kNPYdoLc4PeyDqAN60gu9cQBrKpHJQ/edit?pli=1#gid=1316376797) is available for internal team members to track IT planned initiatives. All projects on the IT Portfolio have a Team & Corporate Stack Ranke to align with the overall [global optimization](/handbook/values/#global-optimization).
+The inventory of all committed and planned projects for the quarter in IT Enterprise Applications. The [IT EntApps Portfolio: Quarter Commits](https://docs.google.com/spreadsheets/d/1ojnTFGB2iYJz9kNPYdoLc4PeyDqAN60gu9cQBrKpHJQ/edit?pli=1#gid=1316376797) is available for internal team members to track IT EntApps planned initiatives. All projects on the IT EntApps Portfolio have a Corporate Stack Rank to align with the overall [global optimization](/handbook/values/#global-optimization).
 
-### IT Project Prioritization
+### Project Prioritization
 
-The [IT Project Prioritization tracker](https://docs.google.com/spreadsheets/d/1fnV3nWI0sNdbakHUys78d-lpbpKexFD_1kdO8JoVySY/edit#gid=745075679) is used to log new projects / initiatives with the IT team. The IT PMO team will review it as part of the IT Quarterly Portfolio Planning:
+The [IT Project Prioritization tracker](https://docs.google.com/spreadsheets/d/1fnV3nWI0sNdbakHUys78d-lpbpKexFD_1kdO8JoVySY/edit#gid=745075679) is used to log new projects / initiatives with the IT EntApps team. The PMO team will review it as part of the IT EntApps Quarterly Portfolio Planning:
 
 ![it-pmo](/handbook/business-technology/enterprise-applications/pmo/quarterly-planning.png)
+
+### T-Shirt Sizing
+
+Consists in identifying the project's:
+
+- Estimated Level Of Effort (LOE)
+- Duration
+- Roles & Responsibilities
 
 ### Resources & Capacity Planning
 
@@ -46,25 +54,17 @@ Achieved by:
 
 ### Project Commits
 
-All projects added to the [IT Portfolio: Quarterly Commits](https://docs.google.com/spreadsheets/d/1ojnTFGB2iYJz9kNPYdoLc4PeyDqAN60gu9cQBrKpHJQ/edit?pli=1#gid=955721517) have:
+All projects added to the [IT EntApps Portfolio: Quarterly Commits](https://docs.google.com/spreadsheets/d/1ojnTFGB2iYJz9kNPYdoLc4PeyDqAN60gu9cQBrKpHJQ/edit?pli=1#gid=955721517) have:
 
 - Resources assigned in order of priority
 - An appropriated label:
-  - **Committed**: Projects that are in-flight / being worked on
-  - **Planned**: Projects that will be picked up once the resources from a committed project becomes available
-  - **Backlog**: Projects that are in the pipeline but not yet ready to start
-
-### T-Shirt Sizing
-
-Consists in identifying the project's:
-
-- Estimated Level Of Effort (LOE)
-- Duration
-- Roles & Responsibilities
+  - **Committed**: Projects that are in-flight / being worked on.
+  - **Planned**: Projects that will be picked up once the resources from a committed project becomes available.
+  - **Backlog**: Projects that are in the pipeline but not yet ready to start.
 
 ### Alignment & OKRs
 
-All projects added to the [IT Portfolio: Quarterly Commits](https://docs.google.com/spreadsheets/d/1ojnTFGB2iYJz9kNPYdoLc4PeyDqAN60gu9cQBrKpHJQ/edit?pli=1#gid=955721517) are part of the Business Technology [OKRs](https://about.gitlab.com/company/okrs/) for:
+Projects added to the [IT Portfolio: Quarter Commits](https://docs.google.com/spreadsheets/d/1ojnTFGB2iYJz9kNPYdoLc4PeyDqAN60gu9cQBrKpHJQ/edit?pli=1#gid=955721517) are part of the IT EntApps [OKRs](https://about.gitlab.com/company/okrs/) for:
 
 - Awareness
 - Accountability
@@ -72,7 +72,7 @@ All projects added to the [IT Portfolio: Quarterly Commits](https://docs.google.
 
 ## Release Management
 
-The release management plan helps the IT team:
+The release management plan helps the IT EntApps team:
 
 - Set an agreed upon standard
 - Operationalize
@@ -87,21 +87,12 @@ The release management plan helps the IT team:
 
 ## Governance and Program Management Methodology
 
-Visit the [Governance and IT Program Management](/handbook/business-technology/enterprise-applications/pmo/pmo-governance/) page to understand the methodology adopted by the IT PMO team for all GitLab IT programs aimed at achieving the following objectives:
+Visit the [Governance and IT Program Management](/handbook/business-technology/enterprise-applications/pmo/pmo-governance/) page to understand the methodology adopted by the IT EntApps PMO team for all GitLab IT programs aimed at achieving the following objectives:
 
 - Ensuring robust results and efficient execution.
 - Ensuring proper scoping aligned with our value of iteration.
 - Engaging appropriate stakeholders in line with our value of collaboration.
 - Maintaining proper documentation for compliance, consistent with our transparency value.
-
-## IT PMO Intake Process
-
-Every week, the IT PMO Management team review the [IT-Intake-PMO](https://gitlab.com/groups/gitlab-com/-/boards/5982959?label_name[]=it-intake-pmo) board, with only a single outcome for the issues listed under the _Open_ list:
-
-- The issue is related to an ongoing project from the [IT Portfolio of Projects](/handbook/business-technology/enterprise-applications/pmo/#it-portfolio-of-projects) and it will be picked up by the IT Program Manager that is assigned to the project.
-  - IT PMO will add the appropriated [team label](/handbook/business-technology/enterprise-applications/pmo/#labels) and work with the business requestor to get all necessary information so the issue can be placed into the appropriated EntApps Milestone.
-- The issue **is not** related to an ongoing project from the [IT Portfolio of Projects](/handbook/business-technology/enterprise-applications/pmo/#it-portfolio-of-projects) and so it will be placed in the backlog in the [IT Prioritization tracker](/handbook/business-technology/enterprise-applications/pmo/#it-project-prioritization). The IT Prioritization tracker is reviewed during the [IT Portfolio Review (monthly) meeting](/handbook/business-technology/enterprise-applications/pmo/#it-portfolio-review-meetings-lead-to-cash-cro-and-ga)
-  - The _it-pmo-backlog_ label will be added.
 
 ## Project Epics & Issues
 
@@ -153,7 +144,7 @@ In order to track the progress of each program efficiently, all Epics are assign
 
 ### Issue Boards
 
-The IT teams use [issue boards](https://docs.gitlab.com/ee/user/project/issue_board.html) in GitLab to strategically plan, organize, and visualize their work managed through GitLab issues. To understand how IT teams organize and manage their issue boards, visit [each team's respective page](/handbook/business-technology/#-the-team).
+The IT EntApps teams use [issue boards](https://docs.gitlab.com/ee/user/project/issue_board.html) in GitLab to strategically plan, organize, and visualize their work managed through GitLab issues. To understand how IT teams organize and manage their issue boards, visit [each team's respective page](/handbook/business-technology/#-the-team).
 
 ### Labels
 
@@ -161,13 +152,12 @@ The IT teams use [labels](https://docs.gitlab.com/ee/user/project/labels.html) t
 
 To better organize and manage their work, the IT teams have different label categories. Click on each category to view the current labels utilized by the IT teams:
 
-- [Priority labels](https://gitlab.com/groups/gitlab-com/-/labels?subscribed=&search=it-priority)
-- [Team labels](https://gitlab.com/groups/gitlab-com/-/labels?subscribed=&search=it-entapps)
-- [Status labels](https://gitlab.com/groups/gitlab-com/-/labels?subscribed=&search=it-status)
-- [Project labels](https://gitlab.com/groups/gitlab-com/-/labels?subscribed=&search=it-proj)
-- [System labels](https://gitlab.com/groups/gitlab-com/-/labels?subscribed=&search=it-system)
-- [Service Desk labels](https://gitlab.com/groups/gitlab-com/-/labels?subscribed=&search=it-service+desk)
-- [Intake labels](https://gitlab.com/groups/gitlab-com/-/labels?subscribed=&search=it-intake)
+- [Priority labels](https://gitlab.com/groups/gitlab-com/-/labels?subscribed=&sort=relevance&search=entapps-priority)
+- [Team labels](https://gitlab.com/groups/gitlab-com/-/labels?subscribed=&sort=relevance&search=entapps-teams)
+- [Status labels](https://gitlab.com/groups/gitlab-com/-/labels?subscribed=&sort=relevance&search=entapps-status)
+- [Project labels](https://gitlab.com/groups/gitlab-com/-/labels?subscribed=&sort=relevance&search=entapps-project)
+- [Catalog labels](https://gitlab.com/groups/gitlab-com/-/labels?subscribed=&sort=relevance&search=entapps-catalog)
+- [Service Desk labels](https://gitlab.com/groups/gitlab-com/-/labels?subscribed=&sort=relevance&search=entapps-type)
 
 ## Project Reporting
 
@@ -190,56 +180,17 @@ The IT PMO team takes the lead in initiating discussions regarding enablement an
 
 There are several activities that take place to prepare for new OKRs / commits and report on the current ones:
 
-- **Project List & Priorities from Business**: The IT PMO team reaches out to Business stakeholders to get a list of projects and priorities for the upcoming quarter.
-- **Update OKR(s) progress**: The IT PMO works with IT Leadership to update the OKR(s) progress in gitlab.com.
-- **IT PMO & Leadership - Upcoming Quarter Priorities Review**: The IT PMO team reviews the business projects and priorities with IT Leadership to add initiatives to the upcoming commits tracker.
-- **Quarter Commits - Corporate Rank**: The IT Leadership works with the business leaders to rank the initiatives in order of priority for the company.
-- **Cross Functional Meeting - Quarter Commits Review**: IT PMO team hosts the `IT Portfolio: Quarter Planning` meetings to review the list of projects and priorities for the upcoming quarter with the Business stakeholders.
-- **IT PMO - Quarter Commits (Adjustments)**: The IT PMO team makes all the necessary adjustments to the upcoming quarter commits following the meeting with the Business stakeholders.
-- **IT Leadership - Quarter Commits (Adjustments)**: The IT Leadership team makes all the necessary adjustments to the upcoming quarter commits following the updates from the Corporate stakeholders.
-- **Upcoming Quarter Commits Shared with the Business**: The IT PMO team shares the upcoming quarter commits with the Business stakeholders.
+- **Project List & Priorities from Business**: The PMO team reaches out to Business stakeholders to get a list of projects and priorities for the upcoming quarter.
+- **IT EntApps PMO & Leadership - Upcoming Quarter Priorities Review**: The PMO team reviews the business projects and priorities with IT EntApps Leadership to add initiatives to the upcoming commits tracker.
+- **Cross Functional Meeting - Quarter Commits Review**: PMO team hosts the `IT EntApps Portfolio: Quarter Planning` meetings to review the list of projects and priorities for the upcoming quarter with the Business stakeholders.
+- **IT EntApps PMO & Leadership - Quarter Commits (Adjustments)**: The PMO team makes all the necessary adjustments to the upcoming quarter commits following the meeting with the Business stakeholders.
+- **Quarter Commits - Corporate Rank**: The IT EntApps Leadership works with the business leaders to rank the initiatives in order of priority for the company.
+- **Upcoming Quarter Commits Shared with the Business**: PMO team shares the upcoming quarter commits with the Business stakeholders.
 - **Finalize Upcoming Quarter OKR(s)**: Upcoming quarter commits are completed.
-- **IT All Hands Quarterly Meeting**: The IT Leadership hosts the Quarterly IT All Hands.
-
-### FY25 Q1 Calendar
-
-![it-pmo](/handbook/business-technology/enterprise-applications/pmo/it-pmo-fy25-q1.png)
-
-### FY25 Q2 Calendar
-
-![it-pmo](/handbook/business-technology/enterprise-applications/pmo/it-pmo-fy25-q2.png)
-
-### FY25 Q3 Calendar
-
-![it-pmo](/handbook/business-technology/enterprise-applications/pmo/it-pmo-fy25-q3.png)
 
 ### FY25 Q4 Calendar
 
 ![it-pmo](/handbook/business-technology/enterprise-applications/pmo/it-pmo-fy25-q4.png)
-
-## Weekly Roll Up Reporting
-
-The IT Integrations team designed the Rolly Bot, a tool aimed at automating the generation and distribution of weekly status updates. With this tool, the IT PMO Team can deliver consistent updates on ongoing projects. A [new roll-up](https://gitlab.com/gitlab-com/business-technology/program-management-office/it-projects-reporting/-/issues) is produced every Monday.
-
-## Definitions and terms used across the IT department
-
-- **Service Desk**: Single point of contact between IT service providers and users/customers. The primary goal of the Service Desk is to ensure that all incidents, service requests, and other IT-related issues are promptly addressed and resolved, ensuring minimal disruption to the business.
-- **Continual Service Improvement (CSI)**: An ongoing process that focuses on improving the quality of services and the efficiency of IT processes. It involves identifying areas for improvement, implementing changes, and measuring the results.
-- **Service Request, Change request and Incident**: three distinct concepts that play essential roles in IT Service Management. Here are the key differences between them:
-
-| Concept | Definition | Purpose | Examples |
-| ------ | ------ | ------ | ------ |
-| **Service Request** | A service request is a formal request from a user or customer for information, advice, a standard change, or access to an IT service. It involves predefined and well-documented procedures. | Service requests are typically routine, low-risk, and straightforward tasks that do not require major changes to the IT environment. They aim to fulfill specific user needs and provide predefined services quickly and efficiently. | Password reset, user account creation, software installation, email account setup, hardware procurement, conference room booking, etc. |
-| **Change Request** | A change request is a formal proposal to modify the configuration of an IT service, system, or infrastructure in a controlled manner. It aims to introduce improvements, fix issues, implement new features, or make any other alterations that can potentially impact the existing environment. | Change requests involve making intentional changes to the IT environment, and they need to be carefully evaluated, planned, and implemented to avoid disruptions and minimize risks. Change management ensures that changes are controlled and align with business objectives. | Software upgrade, hardware replacement, infrastructure configuration change, service maintenance window, database schema modification, etc. |
-| **Incident** | An incident is an unplanned interruption or reduction in the quality of an IT service. It can also refer to the failure of a configuration item (CI) that has not yet impacted service but poses a significant risk of doing so in the future. | Incidents are unexpected events that disrupt normal service operations and require immediate attention to restore service to its normal state. Incident management focuses on minimizing the impact of incidents on users and business operations. | Network outage, application crash, server failure, data loss, email delivery problems, etc. |
-
-- **Project:** To be considered a project the request need to meet all the below criteria:
-  - The work will taken more than 48hrs to be built and tested (end to end)
-  - Involves 2 or more systems
-  - Involves 2 or more stakeholders
-  - Involves 2 or more teams (even within IT so for example, EntApps LTC and EntApps Integrations)
-
-The main difference between a project and a change request in ITIL lies in their scope, nature, and the processes they follow. Projects are temporary, comprehensive efforts aimed at achieving specific goals, while change requests are smaller, routine or ad-hoc requests to modify existing IT services or configurations.
 
 ## <i class="fas fa-file-alt" id="biz-tech-icons"></i> Meetings
 
@@ -256,30 +207,11 @@ The team follows [GitLab meeting practices and standards](https://about.gitlab.c
 ### IT Leadership Meeting
 
 - **Purpose**: Every week the IT Leadership team has a dedicated time to sync up and discuss current activities (urgent and important) that impacts the whole team.
-  - **Frequency**: Weekly, on Thursdays
+  - **Frequency**: Weekly, on Mondays
     - The time of this meeting may vary to accommodate the different timezones of the IT / Business Technology team members.
-  - **Participants**: VP, IT (host), IT PMO, Enterprise Applications Leadership, IT Operations Leadership.
+  - **Participants**: VP, IT (host), PMO, Enterprise Applications Leadership.
 
-### IT Management Team Meetings
-
-- **Purpose**: Every week each IT functional team has a dedicated time to sync up and discuss current activities (urgent and important) that impacts the whole team.
-  - **Frequency**: Weekly
-    - The time of this meeting may vary to accommodate the different timezones of the IT / Business Technology team members.
-  - **Participants**: IT Functional Teams.
-
-### OKR Review
-
-- **Purpose**: Every month the IT Leadership team has a dedicated time to sync up and discuss current activities (urgent and important) that impacts the whole team.
-  - **Frequency**: Monthly
-  - **Participants**: VP, IT (host), IT PMO, Enterprise Applications Leadership, IT Operations Leadership.
-
-### IT Key Review
-
-- **Purpose**: Key review meetings allow a functional group to stay updated on and discuss essential success measurements, such as: OKRs, KPIs, how the team is trending toward achieving goals, blocked tasks, new assignments, workstream changes, etc.
-  - **Frequency**: Quarterly
-  - **Participants**: VP, IT (host), all GitLab.
-
-### IT All Hands
+### IT EntApps All Hands
 
 - **Purpose**: Share company updates, stay connected, and receive feedback.
   - **Frequency**: Quarterly (on the first week of the new quarter)
@@ -303,29 +235,17 @@ The team follows [GitLab meeting practices and standards](https://about.gitlab.c
 
 - **Purpose**: Discuss roadmap & timelines, shifts in priorities, alignment to goals. This is a strategic meeting to ensure that teams are aligned with their key business partners and have clarity on our shared roadmap.
   - **Frequency**: Quarterly (on the third week of the month before quarter end)
-  - **Participants**: IT PMO (host), Business & IT Leadership.
-
-### IT SteerCo
-
-- **Purpose**: Provide advice, ensure delivery of IT project outputs and the achievement of IT project outcomes.
-  - **Frequency**: Quarterly
-  - **Participants**: VP, IT (host), Business & IT Leadership.
-
-### Budget Planning
-
-- **Purpose**: Discuss the company's budget and make adjustments as needed.
-  - **Frequency**: Annual
-  - **Participants**: Business & IT Leadership.
+  - **Participants**: IT PMO (host), Business & IT EntApps Leadership.
 
 ## <i class="fas fa-headset" id="biz-tech-icons"></i> How To Connect With Us
 
-### IT PMO Slack Channels
+### PMO Slack Channels
 
 - [#business-technology](https://gitlab.slack.com/archives/C01BLS12V37) is the primary channel for all business technology related conversations. This is where GitLab team members can link to their issues, ask for help, direction, and get general feedback from members of the Business Technology team.
 
 ### GitLab Groups and Projects
 
-The IT PMO team primarily uses the below groups and projects on GitLab:
+The IT EntApps PMO team primarily uses the below groups and projects on GitLab:
 
 - [Program Management Office](https://gitlab.com/gitlab-com/business-technology/program-management-office) group: main group for the IT PMO team.
 
