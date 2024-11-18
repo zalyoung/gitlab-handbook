@@ -280,6 +280,8 @@ The following dates are currently scheduled PCLs. Times for the dates below begi
 
 | Dates                       | Type       | Reason                        |
 |-----------------------------|------------|-------------------------------|
+| 2024-12-20 23:00 UTC -> 2025-01-05 09:00 UTC | Hard | End of Year PCL |
+| 2024-11-27 22:00 UTC -> 2024-12-02 02:00 UTC | Hard | Thanksgiving PCL |
 | 2024-10-25 23:00 UTC -> 2024-10-29 11:00 UTC | Hard | Upgrade CI database cluster to PostgreSQL v16 |
 | 2024-11-01 23:00 UTC -> 2024-11-05 11:00 UTC | Hard | Upgrade MAIN database cluster to PostgreSQL v16 |
 | Recurring: [Monthly release date](https://about.gitlab.com/releases/)      | Soft       | Release day                   |
