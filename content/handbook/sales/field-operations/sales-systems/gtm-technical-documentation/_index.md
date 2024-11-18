@@ -799,3 +799,8 @@ TF_QuoteAfterCreateUpdate_StampNetARRAutomation flow
 TF_OpportunityAfterUpdate_SyncStage1NetARR flow
 Net_ARR_Automation__c field in Opportunity
 ARR_Net__c field in Opportunity
+
+### Opportunity Product
+
+Please see the dedicated [Opportunity Product](https://internal.gitlab.com/handbook/it-enterprise-applications/documentation/guides/opportunity-product/)
+
