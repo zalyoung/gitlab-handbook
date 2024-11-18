@@ -454,6 +454,33 @@ The Ecosystem team is responsible for seamless integration between GitLab and 3r
 - Proficient or fluent with one or more of other common languages: Go, Python, Java, Node, JavaScript, etc.
 - Familiar with full web technology stack (e.g. HTTP, cookies, asset loading, caching).
 
+### Git
+
+Git engineers focus on the Git version control system. You will spend the
+majority of your time doing upstream development, provide expertise to other
+teams at GitLab using Git, foster the Git community, and ensure the long-term
+viability of the Git project as a whole.
+
+#### Responsibilities
+
+- Participate in architectural discussions surrounding the use of Git at GitLab.
+- Develop code in the context of the upstream project.
+- Engage with the Git community to review patch series and discuss direction.
+- Provide expertise on how to use Git effectively and efficiently.
+- Provide expertise on how to integrate Git into the product.
+- Scope, estimate and describe tasks to reach the team's goals.
+- Engage with customers and support to root cause Git-related issues.
+
+#### Requirements
+
+- Mandatory: Production experience in building, debugging and optimizing software in large-scale, high-volume environments.
+- Mandatory: Solid production C and Shell scripting experience.
+- Highly desirable: Experience working and communicating with open source communities.
+- Highly desirable: Good understanding of Git's internal data structures.
+- Highly desirable: Experience running Git servers.
+- Highly desirable: You can reason about software, algorithms, and performance from a high level.
+- Highly desirable: Solid production Go experience.
+
 ### Gitaly
 
 Gitaly is a new service in our architecture that handles git and other filesystem operations for GitLab instances, and aims to improve reliability and performance while scaling to meet the needs of installations with thousands of concurrent users, including our site GitLab.com. This position reports to the Gitaly Lead.
