@@ -42,11 +42,19 @@ Professional services can be positioned when a prospect becomes a customer (e.g.
 
 For the larger, more strategic customers PS Engagement Managers tend to get involved earlier in the selling process to help with discovery and provide lessons learned on rollout from past engagements. For the medium sized customers, Engagement managers tend to get involved with account teams when the SFDC stage 4 (Proposal) is achieved.
 
-### Customer Success Discovery
+### PS Opp Qualification
 
-The Account team should be encouraged to use the [Customer Terrain Mapping templates](/handbook/customer-success/customer-terrain-mapping/#catalog-of-customer-terrain-mapping-engagements) to help the customer to start thinking about *how* they will achieve their longer term success. This typically results in conversations about services to aide them in their journey.
+As the overall subscription deal is progressing, the account team should begin to qualify in or out an attached professional services opportunity. They can do this with some [simple scripts](/handbook/customer-success/professional-services-engineering/positioning/#value-of-gitlab-professional-services) to first establish value of professional services. Next they should ask qualifying questions like: 
 
-### Services Needed
+1. How do you plan to execute the upcoming transition onto the GitLab platform?
+1. Who will manage this, both from a technical perspective and a change management standpoint?
+1. What will that person or people be de-prioritizing to drive this?
+1. Have those people worked with the intricacies of such a transition in the past? 
+1. How do you plan to surface and manage risks throughout the transition period?
+
+If the customer is uncertain to any of these questions, you can assert that it might make sense to bring in the PS Engagement Manager in to scope the engagement as an option to help derisk the rollout of GitLab and maximize the value/impact of the subscription purchase.   
+
+### AE Creates PS Only Opp in SFDC
 
 Once its identified that the customer will likely want to engage with professional services, its the responsibility of the Account Team to [get in touch with the Engagement Manager](/handbook/customer-success/professional-services-engineering/engagement-mgmt/#how-to-contact-or-collaborate-with-us).
 
