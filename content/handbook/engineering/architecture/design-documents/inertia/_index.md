@@ -42,7 +42,7 @@ So if you are on a slow connection or non-performant device, you will eventually
 
 With Inertia page visits, the page layout stays visible and active while going from one page to the next, and only the page content is swapped out.
 
-This also means that way less data is sent over the network. Only the inital page load for the first page you open sends the server-rendered `index.html` and inits the Vue layout components.
+This also means that way less data is sent over the network. Only the initial page load for the first page you open sends the server-rendered `index.html` and inits the Vue layout components.
 For sub-sequent visits, only the required `props` data for the next page Vue component is sent via JSON, removing all HTML boilerplate that we today send over the wire on every page load, making page visits feel faster and smoother.
 
 #### Improved DX
@@ -51,7 +51,7 @@ Every frontend dev at GitLab knows the hoops to jump through when you want a new
 
 Inertia offers a simple yet powerful solution to organize pages (which are just Vue components) in a folder structure and have them auto-init, with all their required props, from the Rails controller level.
 
-At the same time, this still feels familiar to how we do Rails today. We can use all Ruby features and Rails conventions to create the data/props for the response, using existing helpers etc. The only thing we change is the response format, from HTML to JSON. See [how Intertia works](https://inertiajs.com/how-it-works) for more details.
+At the same time, this still feels familiar to how we do Rails today. We can use all Ruby features and Rails conventions to create the data/props for the response, using existing helpers etc. The only thing we change is the response format, from HTML to JSON. See [how Inertia works](https://inertiajs.com/how-it-works) for more details.
 
 #### Future opportunities
 
@@ -73,7 +73,7 @@ This proposal does not suggest to immediately stop writing any Haml. It would be
 
 One of the benefits of this approach is actually that we can do this in any pace that we think is best. We can take it slow if we want or have to. It's not a "all now, or nothing ever" approach, but keeps everything old working as is, while it allows us to build new parts on this approach, and migrate older parts when there is an opportunity to do so.
 
-There might even be parts were can settle on the existing Haml pages, like the sign-in pages, as these use a simpler layout (no sidebar, breadcrumbs or duo) anyway.
+There likely will be parts where we would settle on the existing Haml pages, like the sign-in pages or administation settings, as these use a simpler layout or do not receive heavy traffic.
 
 ## Proposal
 
@@ -83,7 +83,9 @@ A proof-of-concept MR of the following steps can be found here: https://gitlab.c
 - Recreate the current page layout (Left sidebar, breadcrumbs, duo chat drawer) as an Inertia layout.
 - Start migrating pages that already are 100% Vue apps to render with with Inertia.
 - Now when a user navigates from one Inertia-rendered page to another Inertia-rendered page, the layout components stay "alive", and only the page content is updated.
-- At the same time, this approach doesn't break any existing Haml-based pages. We can iterate page by page, migrate Haml pages to Vue first (which is a benefit in itself) and in a later step swap out how these pages are init, removing _a lot_ of custom code, as Inertia provides a nice off-the-shelf solutution to organize and init Vue app as pages.
+- At the same time, this approach doesn't break any existing Haml-based pages. We can iterate page by page, migrate Haml pages to Vue as needed. Here we could focus on much-utilised pages which are important for the user journey.
+- Inertia provides a nice off-the-shelf solution for initialising Vue apps as pages, removing the need for _a lot_ of custom init code.
+- Some of our pages are hosting multiple Vue Apps on a single page, sometimes separated by a few chunks of Haml. A more performant navigation with Inertia could motivate to move these pages fully to Vue.
 - Keep iterating to migrate the majority of pages to be Inertia-rendered.
 
 ## Design and implementation details
@@ -103,9 +105,9 @@ If we commit to Inertia, we should be ready to actually `git commit` back to `in
 
 #### inertiajs/vue2 npm package
 
-⚠️ **This is where it gets a bit messy** While there is a official Inertia adapter for Vue 2, this will stop working with the next major release of Inertia. This [v2](https://v2.inertiajs.com/upgrade-guide) release is already in beta, and it **will drop support for Vue2**.
+⚠️ **Area of concern:** While there is a official Inertia adapter for Vue 2, this will stop working with the next major release of Inertia. This [v2](https://v2.inertiajs.com/upgrade-guide) release is already in beta, and it **will drop support for Vue2**.
 
-Starting out with Inertia v1 and our Vue2 might work (It does in the POC.), but it might also create another dependency blocker when we finally move GitLab to Vue 3, as it is unknown if Inertia's Vue3 adapter would work in `compat` mode.
+As the Proof of Concept demonstrates: Inertia v1 with Vue2 works. But this removal of Vue2 support might also create another blocker  want to move GitLab to Vue3, as it is unknown if Inertia's Vue3 adapter would work in `compat` mode.
 
 **Possible solution**: We are confident that we could update the current Vue2 adapter to work with the upcoming Inertia 2, and either contribute that upstream, or just create our own fork, for the time while we still use Vue2.
 
@@ -113,13 +115,13 @@ Starting out with Inertia v1 and our Vue2 might work (It does in the POC.), but 
 
 To get the faster page visits with Inertia, links between pages have to be done with the special Inertia `<Link>` component, which is just an `<a>` with a surrounding event handler to do the Ajax request. We will have to tweak our Markdown2HTML rendering to be aware when to use a classic `a` and when a `Link`, depending on the target page. But this is not a blocker. Having the normal `a` tags would just be today's behavior with a full page load.
 
-Something similar is already implemented for the sidbar nav links in the prototype MR.
+Something similar is already implemented for the sidebar nav links in the prototype MR.
 
 #### No more "cold start" on every page load
 
 Today, every page load "resets" everything JS-related to zero, and rebuilds it. While this has all the downsides described above, it also has the hidden benefit of built-in garbage collection. Any memory leak is shut by just starting over.
 
-With Inerta, in case we have existing Vue components with memory leaks (like not cleaning up event handlers), we would now be much more likely to run into these memory leaks, because we never do such a full "reset".
+With Inertia potential Vue components with memory leaks (like not cleaning up event handlers), would now be more likely to create problems for end-users, because we stop doing full "resets" upon navigation.
 
 #### Differences in how redirects, rails flash and history are handled
 
