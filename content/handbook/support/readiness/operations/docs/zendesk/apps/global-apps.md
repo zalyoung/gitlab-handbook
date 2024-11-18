@@ -259,6 +259,8 @@ The current plugins are:
   > On tickets where the product type is `GitLab.com`, clicking the button on the plugin will attempt to auto-associate the requester to an organizaiton. If that is not possible, it will detail why it was not possible.
 - **Associate User**
   > On a Support Ops ticket, it will ask you for an email address. It will then use the organization on the current ticket to associate said email address to that organization.
+- **CMP Developers**
+  > Outputs a list of CMP developers (by email) for an organization (if it has a CMP)
 
 App information:
 
