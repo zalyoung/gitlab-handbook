@@ -64,7 +64,7 @@ In lieu of directly engaging Product management, SMEs should be requested or eng
 4. Request for Best Practices. 
 5. Request to Speak at a Conference. 
 6. Request to join a Customer Call, in order to conduct a demo, discuss best practices or just to answer technical questions.
-7. Request for [reference architectue cost estimates](https://docs.gitlab.com/ee/administration/reference_architectures/index.html#cost-calculator-templates) or Creating a Dedicated pricing calculator for an opportunity. See [example](https://calculator.aws/#/estimate?id=a0cbf2cd318c0fc77d5e39c2165841418aef9ace)
+7. Request for [reference architecture cost estimates](https://docs.gitlab.com/ee/administration/reference_architectures/index.html#cost-calculator-templates) or Creating a Dedicated pricing calculator for an opportunity. See [example](https://calculator.aws/#/estimate?id=a0cbf2cd318c0fc77d5e39c2165841418aef9ace)
 
 #### When to Engage a Product Manager
 
