@@ -58,27 +58,33 @@ In lieu of directly engaging Product management, SMEs should be requested or eng
 
 1. Answering Technical Questions 
    1. Ask the question in the `sme-` channel using the Stack Overflow integration and have a SME answer it.
-   2. If questions are asked in a customer channel or in the `f_` channels, Product Managers are free to redirect these questions to the SMEs using the SME Slack handles
-2. Request for Content 
-3. Request for a Demo 
-4. Request for Best Practices 
-5. Request to Speak at a Conference 
-6. Request to join a Customer Call, in order to conduct a demo, discuss best practices or just to answer technical questions
+   2. If questions are asked in a customer channel or in the `f_` channels, Product Managers are free to redirect these questions to the SMEs using the SME Slack handles.
+2. Request for Content. 
+3. Request for a Demo.
+4. Request for Best Practices. 
+5. Request to Speak at a Conference. 
+6. Request to join a Customer Call, in order to conduct a demo, discuss best practices or just to answer technical questions.
+
+#### When to Engage a Product Manager
 
 **You can engage PMs**, as noted in the [Product Management Section of the Handbook](/handbook/product/product-management/#requests-for-product-support), for the following scenarios:
 
-**NOTE: At no time should an AE, SA, or CSA request that a PM joins a call for tomorrow or the next day, especially just to answer technical questions, or best practices.**
-
-1. Request to join a [Customer Call](/handbook/product/product-management/#product-joining-customer-calls)for gaps in functionality, roadmaps, discussion on direction of the product.  
-2. Do Not just simply request a Product Manager to join a call just because the AE insists, or you have noyt gathered the context or done any extensive discovery.
-3. During a POV and assistance is needed on new functionality, or there is a need for a fix or enhancement
-4. During a customer escalation, once the appropriate [escalation process](/handbook/product/product-management/#how-do-i-escalate-a-feature-request) has been followed.
+1. Request for a Roadmap.
+2. Discussion on the Direct of the Product.
+3. Feedback and Questions on Gaps in Functionality 
+4. Request to join a Customer Meeting to discuss for gaps in functionality, roadmaps, or future direction of the product.
+   1. Please follow the Product Management process to request a [Customer Call](/handbook/product/product-management/#product-joining-customer-calls)
+   2. **NOTE: At no time should an AE, SA, or CSA request that a PM joins a call for tomorrow or the next day, especially just to answer technical questions, or best practices.**  See list 
+    of scenarios above where SMEs should be requested instead of a PM.
+   3. Do not just simply request a Product Manager to join a call just because the AE insists, or you have not gathered the context or done any extensive discovery beforehand on exactly what the customer needs. 
+5. During a POV and assistance is needed on new functionality, or there is a need for a fix or enhancement.
+6. During a customer escalation, once the appropriate [escalation process](/handbook/product/product-management/#how-do-i-escalate-a-feature-request) has been followed.
 
 ### **During Customer calls with a SME**
 
 1. **Prep:** Have a prep call ahead of that meeting with all parties involved.
 2. **Clear Agenda, Next Steps, Outcomes:** Ensure you do have an Agenda and this was communicated with the customer.  Ensure you have a next steps and clear outcomes for the meeting.
-3. **SA/ CSM Quarterback Technical Calls:** The SA/ CSMs should be the one to run the call. Don't have a SME join and just turn it over to the SME
+3. **SA/ CSM Quarterback Technical Calls:** The SA/ CSMs should be the one to run the call. Don't have a SME join and just turn it over to the SME.
 4. **Note Taking:** SAs should share the Notes doc to the SMEs for everyone to collaborate. However the SAs/ CSMs are responsible for capturing all notes.
 5. **Retro:** Have a Retro After the Call, to determine follow ups. See the below for SME follow ups and actions to be taken.
 
