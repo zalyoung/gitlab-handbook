@@ -5,11 +5,11 @@ description: “Discover how GitLab Scopes Professional Services can fit into th
 
 ## PS Process & Methodology Mapped to the Customer Journey
 
-The Professional Services process and methodology fits within the Customer journey that is supported by Customer Success.Professional Services contributes to the customer journey from the point of **SOW Close** through the **Project Closee** phase.
+The Professional Services process and methodology fits within the Customer journey that is supported by Customer Success.Professional Services contributes to the customer journey from the point of **SOW Close** through the **Project Close** phase.
 
-![!\[''\](/handbook/customer-success/professional-services-engineering/processes/customer-journey-mapped-ps-process.png)](<PS Delivery Customer Journey Flow - Page 1 (11).png>)
+![PS Delivery Customer Journey Flow](../../../../../static/customer-journey-mapped-ps-process.png)
 
- [Source, GitLab Team Members Only](https://docs.google.com/presentation/d/1eC_ocJkzNkH4Vw3v4Vkd3S58a0NALYxXtnb6BZ7pJdc/edit?usp=sharing)
+[Source, GitLab Team Members Only](https://docs.google.com/presentation/d/1eC_ocJkzNkH4Vw3v4Vkd3S58a0NALYxXtnb6BZ7pJdc/edit?usp=sharing)
 
 ## PS Process Methodology Stages
 
@@ -17,7 +17,7 @@ The above diagram (slide 4) is meant to describe the Directly Responsible Indivi
 
 In the linked pages below, you can see a detailed drill down into the steps within each stage that individuals use to perform activities to deliver desired outcomes per each stage. These pages are split by the Phase of the selling process (Pre-sales vs Post-sales).
 
-![Pre-Sales Stages & Steps](pre-sales-methodology/scoping-workflow.png)
+![Pre-Sales Stages & Steps](../../../../../static/professional-services-scoping-workflow.png)
 
 ## Pre-Sales Overview
 
@@ -29,8 +29,8 @@ This page will help outline the when and how to get involved with positioning an
 
 For custom SOWs, the [workflow for SOW creation](/handbook/customer-success/professional-services-engineering/selling/#custom-scoped-services) involves a partnership between the Account Team and the Professional Services Team.
 
-![''](scoping-workflow.png)
-[Source](https://docs.google.com/presentation/d/1TOI2aoseBoyWYQC6-xpJVMknEncCNreSFfMvOHO7EBA/edit#slide=id.gbfb62d0c00_0_58) (GitLab Team Members Only)
+
+[Source, GitLab Team Members Only](https://docs.google.com/presentation/d/1TOI2aoseBoyWYQC6-xpJVMknEncCNreSFfMvOHO7EBA/edit#slide=id.gbfb62d0c00_0_58)
 
 ## 1. Positioning
 

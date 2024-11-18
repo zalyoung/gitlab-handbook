@@ -1,6 +1,5 @@
 ---
 title: "Professional Services Delivery Methodology"
-description: "Learn the processes and methodology that GitLab Professional Services uses to help ensure Customer Success."
 ---
 
 ## What is the Professional Services Delivery Methodology (PSDM)
