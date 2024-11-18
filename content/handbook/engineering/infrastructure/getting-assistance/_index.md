@@ -70,6 +70,20 @@ Open a request for help in the [Request For Help Tracker](https://gitlab.com/git
 
 Our Slack channel is: [#g_delivery](https://gitlab.enterprise.slack.com/archives/CCFV016SV)
 
+### Data Access - Durability
+
+Open a request for help in the [Request For Help Tracker](https://gitlab.com/gitlab-com/saas-platforms/saas-platforms-request-for-help/-/issues/new?issuable_template=RfhTemplate_DataAccessDurability)
+
+We can help with:
+
+1. Sidekiq
+1. Redis
+1. Gitaly Infrastructure
+1. Backup / Restore
+1. Disaster Recovery
+
+Our Slack channel is: [#g_durability](https://gitlab.enterprise.slack.com/archives/C07U8G0LHEH)
+
 ### Scalability - Observability
 
 Open a request for help in the [Request For Help Tracker](https://gitlab.com/gitlab-com/saas-platforms/saas-platforms-request-for-help/-/issues/new?issuable_template=RfhTemplate_ScalabilityObservability)
