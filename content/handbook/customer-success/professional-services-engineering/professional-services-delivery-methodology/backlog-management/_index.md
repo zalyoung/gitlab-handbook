@@ -17,7 +17,7 @@ The problem arises from a combination of issues such as:
 
 The following picture shows how these things are strongly related:
 
-![IntegrateBizAndIT.jpg](../../../../../../static/images/IntegrateBizAndIT.jpg.jpg)
+![IntegrateBizAndIT.jpg](/images/professional-services/IntegrateBizAndIT.jpg)
 
 ## Prerequisites
 

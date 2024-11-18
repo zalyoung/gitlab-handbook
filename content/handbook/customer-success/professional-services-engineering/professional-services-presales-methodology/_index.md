@@ -7,7 +7,7 @@ description: “Discover how GitLab Scopes Professional Services can fit into th
 
 The Professional Services process and methodology fits within the Customer journey that is supported by Customer Success.Professional Services contributes to the customer journey from the point of **SOW Close** through the **Project Close** phase.
 
-![PS Delivery Customer Journey Flow](../../../../../static/images/customer-journey-mapped-ps-process.png)
+![PS Delivery Customer Journey Flow](/images/professional-services/customer-journey-mapped-ps-process.png)
 
 [Source, GitLab Team Members Only](https://docs.google.com/presentation/d/1eC_ocJkzNkH4Vw3v4Vkd3S58a0NALYxXtnb6BZ7pJdc/edit?usp=sharing)
 
@@ -17,7 +17,7 @@ The above diagram (slide 4) is meant to describe the Directly Responsible Indivi
 
 In the linked pages below, you can see a detailed drill down into the steps within each stage that individuals use to perform activities to deliver desired outcomes per each stage. These pages are split by the Phase of the selling process (Pre-sales vs Post-sales).
 
-![Pre-Sales Stages & Steps](../../../../../static/images/professional-services-scoping-workflow.png)
+![Pre-Sales Stages & Steps](/images/professional-services/professional-services-scoping-workflow.png)
 
 ## Pre-Sales Overview
 
