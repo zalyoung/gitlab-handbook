@@ -17,7 +17,7 @@ The problem arises from a combination of issues such as:
 
 The following picture shows how these things are strongly related:
 
-![IntegrateBizAndIT.jpg](../IntegrateBizAndIT.jpg)refi
+![IntegrateBizAndIT.jpg](../../../../../../static/images/IntegrateBizAndIT.jpg.jpg)
 
 ## Prerequisites
 
