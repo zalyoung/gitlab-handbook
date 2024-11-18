@@ -262,7 +262,7 @@ Promotions to Senior Director+ level ([job grade 11]({{< ref "compensation-calcu
 - Feedback provider is not in the same reporting line as the manager (I.E. not team member’s manager, skip level, etc.)
 - Feedback providers must be cross-functional. When determining the most appropriate team members to provide feedback, the core focus should be on who worked most closely with the promotion candidate on the business results highlighted in the promotion document.
 - Feedback providers should be at or above the target promotion level. Feedback providers can be individual contributors or people managers at or above the target promotion level. The reason we require feedback providers to be at or above the target promotion level is to ensure they are able to speak to business results and collaboration in the context of next level expectations as team members who are already operating at the next level.
-- Feedback will be captured in this template, separate from the Promotion Document and will be reviewed as part of the calibration discussion. Feedback will be summarized, and it is not required to provide specific names of the feedback providers. 
+- Feedback will be captured in [this template](https://docs.google.com/document/d/12WRYWICcxwvyVP4L052v9ciSNIhUlRUKGkr1AKq89zY/edit?usp=sharing), separate from the Promotion Document and will be reviewed as part of the calibration discussion. Feedback will be summarized, and it is not required to provide specific names of the feedback providers.
 
 **Feedback question guidance**: 
 
