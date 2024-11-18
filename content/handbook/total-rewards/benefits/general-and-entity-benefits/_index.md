@@ -64,7 +64,7 @@ In the unfortunate event that a GitLab team member passes away, GitLab will prov
     - Upload to your Documents folder in Workday - [here](https://docs.google.com/document/d/19B0lsMu7dMhof1ghPuBxHP23DuDqi2qpWF8pCWyEUN4/edit) is the job aid for quick reference.
   - For part-time GitLab team members, the lump sum is calculated pro-rata, so for example for a team member that works for GitLab 50% of the time, the lump sum would be [$10,000]({{< ref "compensation#exchange-rates" >}}).
 
-## Discount Well-being Platform
+## HealthKick Well-being Platform & Discounts
 
 Starting 2024, GitLab has partnered with HealthKick, a global well-being platform providing Team Members discounts across well-being, fitness, & overall lifestyle offerings/services.
 
