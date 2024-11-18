@@ -142,3 +142,7 @@ But given that its main parts are all Vue components already today (sidebar, bre
 #### No real page loads to analyze/track
 
 This would definitely need a few tweaks to support tracking page visits, but shouldn't be too complicated to make this work with our existing systems. We just have to fire these tracking events on Inertia visits (or `Link` clicks).
+
+#### Vue-router
+
+Some pages like the Repository browser are using client-side routing with `vue-router`. It's yet unclear how well-behaved a combination of Rails-based routing + Inertia + Vue-router would be.
