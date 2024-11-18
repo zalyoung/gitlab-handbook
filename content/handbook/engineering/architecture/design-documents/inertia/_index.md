@@ -47,7 +47,7 @@ For sub-sequent visits, only the required `props` data for the next page Vue com
 
 #### Improved DX
 
-Every frontend dev at GitLab knows the hoops to jump through when you want a new Vue app to be initialized on a certain page. While the current approach works and is used hundreds of times, it's also hundreds of repetitions. That is not DRY, impossible to test, takes time to review, and is pure boilerplate.
+In order to initialise a Vue App at GitLab, we are repeating a lot of boiler code to pass down data from backend to frontend. Often this involves custom serialization in the form of data attributes, which are then parsed again in the frontend, just before they are passed into the Vue app. This involves a lot of repetition. This glue code is often untested and adds review times.
 
 Inertia offers a simple yet powerful solution to organize pages (which are just Vue components) in a folder structure and have them auto-init, with all their required props, from the Rails controller level.
 
