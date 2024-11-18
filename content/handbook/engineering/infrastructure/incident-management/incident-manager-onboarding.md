@@ -168,9 +168,8 @@ Shifts are assigned based on the working hours that you selected during onboardi
 
 ### What if I work a shift on a weekend or holiday?
 
-When an Incident Manager shift includes a weekend the team member can shift their work-week to include that day (and exclude another day). As an example, if an Incident Manager shift includes Saturday, then the team member could plan their work-week for that week to be Tues-Sat.
-
-While the example above is the intended idea, we will note that anything close to that which works for the team member will be fine as well.  For example, if you'd much rather take some other day in the adjoining weeks, or working [non-linear workdays](/handbook/company/culture/all-remote/non-linear-workday/) to accomodate the shift.
+There is time in-lieu in accordance with local laws when an Incident Manager's
+shift falls on a weekend or public holiday.
 
 Example scenarios:
 
@@ -179,10 +178,8 @@ Example scenarios:
    - During the Sunday shift they stay home to play with their daughters. They finished their days earlier this week to rest, but also considered taking half of Friday off that week.
 1. Tanuki is scheduled for the Friday-Monday Incident Manager shift. Knowing that the week after the shift will be very busy, they take Thursday before the shift off. They spend the weekend decluttering the basement where their phone is in ears reach.
 
-Two things that won't work:
-
-1. "carrying" the day for some longer time in the future as if it is an accrued vacation time (because it isn't).
-2. Allowing your typical worked time to become longer. Fulfilling an Incident Manager shift should not result in adding total hours to your work week, but in some cases (weekends & holidays) it may ask that you shift those hours.
+If you still have more questions, feel free to ask for guidance in the
+`#im-general` slack channel.
 
 ### Can I expense my cell phone service used for on-call?
 
