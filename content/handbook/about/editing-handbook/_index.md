@@ -244,6 +244,16 @@ Alternatively, navigate into our GitLab.com profile into [your To-Do list](https
 
 It can also be browser related: Try clearing the cache, open an incognito window (on macOS: `cmd shift n`), or use a different browser to test.
 
+### 404 on new page
+
+If a new page is created as part of a merge request, but the page is not showing up on the site,
+check the file name.
+
+The most common issue is using `index.md` instead of `_index.md` in a folder that has other pages.
+The other pages will not display.
+
+See [pages and folder structure](#naming-pages-and-folder-structure) for more information.
+
 ### Failing pipelines
 
 To see why your pipeline is failing, there are two main places to look:
