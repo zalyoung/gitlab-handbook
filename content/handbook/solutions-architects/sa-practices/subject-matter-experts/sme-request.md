@@ -64,13 +64,14 @@ In lieu of directly engaging Product management, SMEs should be requested or eng
 4. Request for Best Practices. 
 5. Request to Speak at a Conference. 
 6. Request to join a Customer Call, in order to conduct a demo, discuss best practices or just to answer technical questions.
+7. Request for [reference architectue cost estimates](https://docs.gitlab.com/ee/administration/reference_architectures/index.html#cost-calculator-templates) or Creating a Dedicated pricing calculator for an opportunity. See [example](https://calculator.aws/#/estimate?id=a0cbf2cd318c0fc77d5e39c2165841418aef9ace)
 
 #### When to Engage a Product Manager
 
 **You can engage PMs**, as noted in the [Product Management Section of the Handbook](/handbook/product/product-management/#requests-for-product-support), for the following scenarios:
 
 1. Request for a Roadmap.
-2. Discussion on the Direct of the Product.
+2. Discussion on the Direction of the Product.
 3. Feedback and Questions on Gaps in Functionality 
 4. Request to join a Customer Meeting to discuss for gaps in functionality, roadmaps, or future direction of the product.
    1. Please follow the Product Management process to request a [Customer Call](/handbook/product/product-management/#product-joining-customer-calls)
