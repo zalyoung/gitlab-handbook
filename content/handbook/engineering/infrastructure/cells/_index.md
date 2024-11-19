@@ -221,7 +221,7 @@ Exit Criteria:
 - Cell available at `xxx.cells.gitlab.com`.
 - Cell doesn't handle data uniqueness.
 
-![phase-1](img/phase-1.png)
+![phase-1](/images/cells/phase-1.png)
 
 [source](https://excalidraw.com/#json=DuwGFqR2LcS6k2TZlYu9u,LKDzUCdkiHLO11c3rgFVeQ)
 
@@ -351,7 +351,7 @@ Before/After:
 
 Details:
 
-- [Epic](hhttps://gitlab.com/groups/gitlab-org/-/epics/14511)
+- [Epic](https://gitlab.com/groups/gitlab-org/-/epics/14511)
 - [DAG](https://cells-architecture-overview-gitlab-org-tenant-sc-ff1c641f886923.gitlab.io/phase-1-8/#groups_Phase_5,groups_Phase_5_1_mTLS,groups_Phase_5_2_Sequence,groups_Phase_5_3_Claim,groups_Phase_5_4_Deploy)
 
 ### Phase 6: Monolith Cell
