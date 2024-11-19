@@ -1,6 +1,6 @@
 ---
 title: "Still a Startup"
-description: "GitLab elevates others through knowledge sharing, job access, and our software platform.."
+description: "GitLab elevates others through knowledge sharing, job access, and our software platform."
 canonical_path: "/company/still-a-startup/"
 ---
 
