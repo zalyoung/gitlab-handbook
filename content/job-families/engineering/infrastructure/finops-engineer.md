@@ -11,6 +11,12 @@ FinOps Engineers at GitLab are a supporting function to enable financial oversig
 
 Unless otherwise stated, all FinOps roles at GitLab share the following requirements and responsibilities:
 
+### Responsibilities
+
+- Proactively monitor cloud usage patterns and identify anomalies, enabling quick action to prevent cost overruns.
+- Automate cloud cost management processes to improve efficiency and scalability.
+- Stay at the forefront of cloud cost management, researching and evaluating new tools and technologies to enhance our FinOps capabilities.
+
 ### Requirements
 
 - Relevant experience in cloud operations or cloud cost management, preferably in a SaaS environment.
@@ -24,18 +30,32 @@ Unless otherwise stated, all FinOps roles at GitLab share the following requirem
 - Strong communication and interpersonal skills, adept at collaborating effectively in a remote setting.
 - Able to thrive in a fully remote organization.
 
-### Responsibilities
-
-- Design and implement cloud cost allocation and chargeback models tailored to our SaaS product.
-- Create unit-economics strategy and allocation method for Engineering and Product teams.
-- Develop forecasting models to predict future outcomes of cloud infrastructure spend and usage.
-- Partner with engineering teams to identify and implement cost optimization opportunities, fostering a culture of cost awareness.
-- Proactively monitor cloud usage patterns and identify anomalies, enabling quick action to prevent cost overruns.
-- Automate cloud cost management processes to improve efficiency and scalability.
-- Stay at the forefront of cloud cost management, researching and evaluating new tools and technologies to enhance our FinOps capabilities.
-
 ## Job Grades
+
+### FinOps Engineer (Intermediate)
+
+The FinOps Engineer reports to the FinOps Engineering Manager.
+
+#### Responsibilities
+
+- As described above
 
 ### Senior FinOps Engineer
 
 The Senior FinOps Engineer is a [grade 7](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
+
+#### Responsibilities
+
+- As described above
+- Partner with engineering teams to identify and implement cost optimization opportunities, fostering a culture of cost awareness.
+- Design and implement cloud cost allocation and chargeback models tailored to our SaaS product.
+- Develop forecasting models to predict future outcomes of cloud infrastructure spend and usage.
+
+### Staff FinOps Engineer
+
+The Staff FinOps Engineer is a [grade 8](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
+
+#### Responsibilities
+
+- As described above
+- Create unit-economics strategy and allocation method for Engineering and Product teams.
