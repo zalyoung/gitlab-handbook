@@ -1,5 +1,5 @@
 ---
-title: Secure, Composition Analysis
+title: Application Security Testing, Composition Analysis
 description: "The Composition Analysis group at GitLab is charged with developing solutions which perform Container and Dependency Scanning and License Compliance."
 ---
 
@@ -11,7 +11,7 @@ See [the exhaustive list of projects](#projects) the group maintains.
 
 ## Common Links
 
-- Slack channel: [#g_secure-composition-analysis](https://gitlab.slack.com/archives/CKWHYU7U2)
+- Slack channel: [#g_ast-composition-analysis](https://gitlab.slack.com/archives/CKWHYU7U2)
 - Slack alias: @secure_composition_analysis_dev
 - Google groups: composition-analysis-dev@gitlab.com
 
@@ -96,12 +96,12 @@ At the end of the rotation, add the next engineers as Owners of [`@gitlab-org/se
 
 1. Monitor slack channels for questions, support requests, and alerts. While other team members may respond to these requests, the engineer assigned to the reaction rotation is expected to handle them primarily.
 If a support engineer requests assistance via Slack and it requires investigation or debugging, they should be directed to raise an issue in [a dedicated project](https://gitlab.com/gitlab-com/sec-sub-department/section-sec-request-for-help).
-    - [#g_secure-composition-analysis](https://gitlab.slack.com/archives/CKWHYU7U2)
-    - [#s_secure](https://gitlab.slack.com/archives/C8S0HHM44)
+    - [#g_ast-composition-analysis](https://gitlab.slack.com/archives/CKWHYU7U2)
+    - [#s_ast](https://gitlab.slack.com/archives/C8S0HHM44)
     - [#sec-section](https://gitlab.slack.com/archives/C02087FTL5V)
-    - [#s_secure-alerts](https://gitlab.slack.com/archives/CAU9SFKNU)
+    - [#s_ast-alerts](https://gitlab.slack.com/archives/CAU9SFKNU)
     - [#f_container_scanning](https://gitlab.slack.com/archives/C041F2XJACB)
-    - [#g_secure-composition-analysis-alerts](https://gitlab.slack.com/archives/C04UX9MQNSJ)
+    - [#g_ast-composition-analysis-alerts](https://gitlab.slack.com/archives/C04UX9MQNSJ)
     - [#sec-eng-requests-for-help](https://gitlab.enterprise.slack.com/archives/C071W3BA87J)
 1. Monitor [Section Sec Request For Help](https://gitlab.com/gitlab-com/sec-sub-department/section-sec-request-for-help/-/issues/?label_name=Help%20group%3A%3Acomposition%20analysis) project for support requests.
 1. Refine scheduled bugs and maintenance issues.
@@ -117,12 +117,12 @@ These items must be triaged continuously throughout the milestone which means th
     1. Container base images.
     1. Application dependencies.
     1. Programming language.
-1. Check in on test failures. Check relevant slack channels ([#g_secure-composition-analysis-alerts](https://gitlab.slack.com/archives/C04UX9MQNSJ), [#s_secure-alerts](https://gitlab.slack.com/archives/CAU9SFKNU)).
+1. Check in on test failures. Check relevant slack channels ([#g_ast-composition-analysis-alerts](https://gitlab.slack.com/archives/C04UX9MQNSJ), [#s_ast-alerts](https://gitlab.slack.com/archives/CAU9SFKNU)).
 1. Check latest pipelines for any release failures. If any issue is preventing the automated release process from running, begin the [release failure escalation process](#release-failure-process).
 1. Consider creating or updating any automation or tooling (related to security, maintainership or support!).
 1. Monitor failures and errors on license-db project, use the `#f_licese_database` Slack channel for communication about these items, so other team members can provide the support.
     1. Check latest [scheduled pipelines of license-db](https://gitlab.com/gitlab-org/security-products/license-db/deployment/-/pipeline_schedules) for any failures. Ensure that pipelines pass or create an issue to fix the failure.
-    1. Monitor the Slack channel `#g_secure-composition-analysis-alerts` for any incidents on the license-db infrastructure.
+    1. Monitor the Slack channel `#g_ast-composition-analysis-alerts` for any incidents on the license-db infrastructure.
         - In case of an incident react with :eye: to indicate that you are looking into it.
         - If the incident isn't resolved in 30 minutes or more, investigate on it.
         - Write down in the insident Slack thread all the steps that were done to resolve it.
@@ -160,8 +160,8 @@ These items must be triaged continuously throughout the milestone which means th
    - **Support Requests:**
      - [Request #7890](link to request): Description of the support request in progress, current status, and any communication with the requester.
    - **Slack Channels Monitoring:**
-     - #g_secure-composition-analysis: Summary of recent discussions, any unresolved questions, and pending actions.
-     - #s_secure-alerts: Summary of recent alerts, any unresolved issues, and pending actions.
+     - #g_ast-composition-analysis: Summary of recent discussions, any unresolved questions, and pending actions.
+     - #s_ast-alerts: Summary of recent alerts, any unresolved issues, and pending actions.
 
 3. **Maintenance Tasks:**
    - **Community Contributions:**
@@ -186,7 +186,7 @@ This handover template ensures that the incoming engineer is fully informed of t
 
 We are responsible for triaging vulnerabilities reported on 2 sets of projects: the projects maintained by GitLab and the upstream scanner software we might depend on. Though, we have different processes that apply depending on the situation.
 
-See the [Secure sub-department vulnerability management process](/handbook/engineering/development/sec/secure/#vulnerability-management-process).
+See the [Application Security Testing sub-department vulnerability management process](/handbook/engineering/development/sec/secure/#vulnerability-management-process).
 
 #### Security Policy
 
@@ -283,7 +283,7 @@ You can leverage quick actions to add the necessary labels.
 /confidential
 
 /label ~security ~"type::bug" ~"bug::vulnerability"
-/label ~"section::sec" ~"devops::secure" ~"group::composition analysis"
+/label ~"section::sec" ~"devops::application security testing" ~"group::composition analysis"
 
 <!-- depending on the affected project: -->
 /label ~"Category:Software Composition Analysis"
@@ -335,7 +335,7 @@ that have impacted composition analysis in the future.
     /label ~"priority::3"
     /label ~"priority::4"
 
-    /label ~"section::sec" ~"devops::secure" ~"group::composition analysis" ~"type::bug" ~"bug::availability"
+    /label ~"section::sec" ~"devops::application security testing" ~"group::composition analysis" ~"type::bug" ~"bug::availability"
 
     <!--
     Select one of the following categories
