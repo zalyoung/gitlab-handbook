@@ -1217,7 +1217,7 @@ Opportunity Category Definitions are viewable [here](https://docs.google.com/doc
 
 #### Quote Entity Information
 
-On Order Forms, GitLab entity information will be populated via the following rules. This table is based on the [ISO-2 billing country code](http://www.nationsonline.org/oneworld/country_code_list.htm) of the direct customer or reseller we are delivering invoices to:
+On Order Forms, GitLab entity information will be populated via the following rules. This table is based on the [ISO-2 billing country code](https://www.nationsonline.org/oneworld/country_code_list.htm) of the direct customer or reseller we are delivering invoices to:
 
 **New Subscription and Renew Subscription Quotes**
 

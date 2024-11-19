@@ -215,6 +215,15 @@ Upon approval, the maintainer who merges the MR will:
 - Contribute to issues and review merge requests.
 - Understand the relation between the [GitLab Operator and the GitLab Helm chart](https://docs.gitlab.com/operator/developer/charts_dependency.html).
 
+#### Project maintainer process for `ai-gateway`
+
+[`ai-gateway`](https://gitlab.com/gitlab-org/modelops/applied-ml/code-suggestions/ai-assist)
+
+- Understand the [software architecture](/handbook/engineering/architecture/design-documents/ai_gateway/).
+- Setup [GitLab Duo for local development](https://docs.gitlab.com/ee/development/ai_features/#instructions-for-setting-up-gitlab-duo-features-in-the-local-development-environment).
+- Read through [Maintainership documentation](https://gitlab.com/gitlab-org/modelops/applied-ml/code-suggestions/ai-assist/-/blob/main/docs/maintainership.md)
+and follow the steps outlined there to become a maintainer.
+
 #### Learning to be a maintainer
 
 While any reviewer may be recommended by their manager to become a maintainer at any time, reviewers who wish to become maintainers should follow a few basic steps on each review in order to get into a maintainer mindset, and learn from feedback from maintainers.

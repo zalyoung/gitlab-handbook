@@ -19,7 +19,7 @@ If a team is needing access to Vimeo, please open a [bulk access request](/handb
 
 ### User Roles
 
-[Managing team members on your account](https://vimeo.zendesk.com/hc/en-us/articles/224818687-Managing-team-members-on-your-account)
+[Managing team members on your account](https://help.vimeo.com/hc/en-us/articles/12425434123793-How-to-add-team-members-to-your-account)
 
 1. `Uploaders` - Uploaders can only upload videos to the account. On their upload page, they will be able to toggle between uploading videos to their own account and uploading videos to the company account. Uploaders will only be able to edit the title and description of the video while it is being uploaded to the company account. Any videos an uploader adds to the company account will have the [privacy setting](#privacy-settings-overview) `Only Me`, but as the account owner, you can change the video's privacy setting after upload. **Note:** Uploaders will need to make sure they select the correct account from their upload page. Uploaders do not have any access to the company account otherwise. They cannot view or edit the video after they've uploaded it nor can they access any settings for the company account.
 1. `Viewers` - Viewers can be invited to specific folders within the account, but they will have limited access to the contents of those folders. They can access the review page, leave notes, and share videos that are within those folders. They do not have the ability to upload, edit, publish, or access any other settings or areas of the account that are meant for working members.
@@ -75,7 +75,7 @@ Only the `Owner` role has the ability to delete videos in Vimeo. As such, we hav
 
 ## Create
 
-[Vimeo Create](https://vimeo.zendesk.com/hc/en-us/articles/360037832151-Vimeo-Create-overview) is Vimeo's new video maker tool. It allows you to easily and quickly create your own video from stock videos, photos, and personal videos. [See the knowledge base article](https://vimeo.zendesk.com/hc/en-us/articles/360037832151-Vimeo-Create-overview) for a full tutorial.
+[Vimeo Create](https://help.vimeo.com/hc/en-us/articles/12426490688913-Creating-and-editing-videos-with-Vimeo) is Vimeo's new video maker tool. It allows you to easily and quickly create your own video from stock videos, photos, and personal videos. [See the knowledge base article](https://help.vimeo.com/hc/en-us/articles/12426490688913-Creating-and-editing-videos-with-Vimeo) for a full tutorial.
 
 ## Upload
 
@@ -88,7 +88,7 @@ For more information about conducting virtual events, see the [virtual events ha
 ### Best Practices
 
 - [Streaming Best Practices](https://vimeo.zendesk.com/hc/en-us/articles/360040590272-Streaming-Best-Practices)
-- [Recommended network configuration for streaming](https://vimeo.zendesk.com/hc/en-us/articles/360040960091-Recommended-network-configuration-for-streaming)
+- [Recommended network configuration for streaming](https://help.vimeo.com/hc/en-us/articles/12426939452817-Recommended-network-configuration-for-live-events)
 - [Network and browser requirements for viewing streams](https://vimeo.zendesk.com/hc/en-us/articles/360040394231-Network-and-browser-requirements-for-viewing-streams)
 
 ### Create a live event
@@ -111,7 +111,7 @@ For more information about conducting virtual events, see the [virtual events ha
 1. Enter a description for your live event under the `Description` field.
 1. Under the video preview, you can choose a thumbnail for your video cover and edit the start time of the event.
 1. Under the `Embed` tab, select the options you would like to toggle on or off before generating your embed code. First, select the preferred embed privacy. You can choose `Anywhere`, `Nowhere`, or `Specific domains`. [See live event privacy settings](#live-event-privacy-settings).
-1. Under `Video Controls` toggle on/off the options for your live event.  [See more about customizing the embedded player and adding embed presets](https://vimeo.zendesk.com/hc/en-us/articles/224972808-Customizing-the-embedded-player).
+1. Under `Video Controls` toggle on/off the options for your live event.  [See more about customizing the embedded player and adding embed presets](https://help.vimeo.com/hc/en-us/articles/12426259745937-How-to-customize-the-embedded-player).
 1. Choose your preferred interaction tool and its respective settings (optional). See [interaction tools](#interaction-tools) for more detail.
 1. Under the `Destinations` tab, select where you will be streaming your live event. Available destinations to stream: Vimeo. [More destinations coming soon](https://gitlab.com/gitlab-com/marketing/marketing-operations/-/issues/3872). Click `Next`.
 1. Vimeo will ask permission to use your device's microphone and camera. After acceptance, a low-res preview will be made available to test audio/video input/output. Notice a new sidebar menu available to manage the stream including: [Destinations](#destinations), [Chat](#chat), [Polls](#polls), [Q&A](#q--a), [Graphics](#graphics), and [Stream Health](#stream-health). One or more of these features may not be enabled based on the set up of your live event.
@@ -244,7 +244,7 @@ Vimeo supports [simulcasting](https://vimeo.zendesk.com/hc/en-us/articles/360000
 
 ### Email capture
 
-[Email capture](https://vimeo.zendesk.com/hc/en-us/articles/224819147-Email-capture) can appear before, during, or after a video, with the option to "gate" your video behind the email capture field, or let viewers skip it.
+[Email capture](https://help.vimeo.com/hc/en-us/articles/12426216056849-How-to-add-registration-to-your-video) can appear before, during, or after a video, with the option to "gate" your video behind the email capture field, or let viewers skip it.
 
 You can set up the email capture screen to appear before, during, or after your embedded videos, then download those email addresses. There is no direct integration between Vimeo and Marketo. You can only set up one email capture screen per video. For example, if you've already chosen to display the email capture screen before your video, you'll no longer see the options to display it during or after in the embed settings. **Note:** Email capture is not supported on Facebook or Twitter.
 
@@ -275,7 +275,7 @@ If you only want the email addresses from one particular video, you can download
 
 ### Cards
 
-[Cards](https://vimeo.zendesk.com/hc/en-us/articles/115007469808-Cards) are a customizable, notification-style layer that you can set to appear during playback and remain on the screen for six seconds.
+[Cards](https://help.vimeo.com/hc/en-us/articles/12426192274961-How-to-add-cards-to-videos) are a customizable, notification-style layer that you can set to appear during playback and remain on the screen for six seconds.
 
 ### End screens
 
@@ -303,7 +303,7 @@ If you only want the email addresses from one particular video, you can download
 
 ## Showcases
 
-With a [showcase](https://vimeo.zendesk.com/hc/en-us/articles/228908367-Showcases), you can organize videos together to share publicly or privately. A showcase is a great way to distribute a collection of videos to any audience. And with password-protection, you can control exactly who gets to see each one.
+With a [showcase](https://help.vimeo.com/hc/en-us/articles/12426259177105-How-to-create-a-showcase), you can organize videos together to share publicly or privately. A showcase is a great way to distribute a collection of videos to any audience. And with password-protection, you can control exactly who gets to see each one.
 
 ### Create a Showcase
 
@@ -320,7 +320,7 @@ With a [showcase](https://vimeo.zendesk.com/hc/en-us/articles/228908367-Showcase
 
 ### Custom Domains
 
-A [custom domain](https://vimeo.zendesk.com/hc/en-us/articles/228908367-Showcases#customdomain) can be created for your showcase. If you are interested, please open an issue in marketing ops.
+A [custom domain](https://help.vimeo.com/hc/en-us/articles/12426259177105-How-to-create-a-showcase#customdomain) can be created for your showcase. If you are interested, please open an issue in marketing ops.
 
 ## Analytics
 

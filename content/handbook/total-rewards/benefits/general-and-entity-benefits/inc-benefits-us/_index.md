@@ -26,7 +26,7 @@ Please see additional information on the 2025 US Benefit Plans
 
 - Need help selecting a plan? Use the [Flimp PlanSelect tool](https://myplanselect.com/navigation/Gitlab/2024) to help you find the plan that best fits you and your family’s needs.
 - Review the [2025 Benefits Memo](https://docs.google.com/document/d/13u3mMkiqRr7lO0m4htejjsQnXEr8lePn/edit?usp=sharing&ouid=115600862362829120699&rtpof=true&sd=true) for highlights and updates
-- See the [2025 US Benefits Guide](TBD) for a full review of the GitLab Benefit Plans
+- See the [2025 US Benefits Guide](https://drive.google.com/file/d/1-1Y15FG5oiksax_871eIX-bJBeDxIF_k/view) for a full review of the GitLab Benefit Plans
 - Watch our [2025 Benefits Video](https://www.brainshark.com/1/player/willis?pi=zHgzXkIHdzaInCz0&r3f1=&fb=0) for a review of all the plans.
 - See our 2025 [Annual Rights Notices](https://drive.google.com/file/d/1t17_KcSPt4l09YQL3Iiy544yxXf5z8Bx/view?usp=sharing)
 - GitLab offers Mental Wellness Services through [Modern Health](/handbook/total-rewards/benefits/modern-health/). In addition to these services, team members that enroll in the Cigna and Kaiser plans have access to their network of [Mental Health Programs and Resources](https://drive.google.com/file/d/1LT_LG1Px3xrGMBP0-iMPXaFyQvopfSiL/view?usp=sharing)
@@ -89,7 +89,9 @@ Kaiser cards will be mailed within 3 weeks of submitting your benefit elections.
 
 Team Members have 30 days from their Hire Date to enroll in the benefit plans. Enrollment is through our benefit administrator, PlanSource.
 
-**If you do not enroll in a plan within your benefits election period, you will automatically be enrolled in the High Deductible Health Plan (HDHP).**
+**In 2024, New Hires that do not enroll in a plan within your benefits election period will be automatically enrolled in the High Deductible Health Plan (HDHP).**
+
+**In 2025, New Hires that do not enroll in a plan within your benefits election period will be automatically enrolled in to the [Medical Waiver Allowance](/handbook/total-rewards/benefits/general-and-entity-benefits/inc-benefits-us/#medical-allowance) and waive all other lines of optional cover**
 
 More information on the processed deductions in payroll from PlanSource can be found on the [Accounting and Reporting page](/handbook/finance/accounting/).
 
@@ -179,7 +181,7 @@ Please see the [2024 Annual Notice](https://drive.google.com/file/d/1fB5r88VUiyd
 
 **Need help selecting a plan? Check out the [PlanSelect Tool](https://myplanselect.com/navigation/Gitlab/2025) to help you find a plan that best suits your needs. You can also reach out to the [Cigna One Guide Service](https://drive.google.com/file/d/1eIvtYtYPSt3Q0h-Byd16CFFfT0bxv8yF/view) to walk through the GitLab Cigna plans available.
 
-### Medical Allowance
+### Medical Waiver Allowance
 
 If you already have current group medical coverage, **you may choose to waive or opt out of group health benefits. If you choose to waive health coverage, you will receive a $300.00 monthly benefit allowance** and will still be able to enroll in dental, vision, optional plans, and flexible spending accounts. <br> In order to receive the monthly benefit allowance you must [log on to PlanSource](/handbook/total-rewards/benefits/general-and-entity-benefits/inc-benefits-us/#logging-into-plansource) and actively waive medical cover.<br>
 
@@ -559,12 +561,22 @@ The following costs are monthly rates which would be deducted from your paycheck
 
 <details markdown="1">
 
-<summary>Cigna Vision Period to Submit Claims</summary>
+<summary>Cigna Vision Claims and Period to Submit Claims</summary>
 
 For in-network services: 365 days from Date of Service.
 
 For out-of-network services: 365 days from Date of Service.
 
+Vision claims can be submitted online through the vision section of the site, rather than the regular online submission. This is because the claims are routed differently via EyeMed. Below are steps on how to submit Vision/EyeMed claims online via mycigna.com:
+
+1. Hover over Coverage.
+1. Click Vision.
+1. Click on Visit Cigna Vision button.
+1. Hover over Claims.
+1. Click on Out-of-Network Claim Form. 
+1. Scroll down to Online Claim Form.
+1. Fill out online form, upload receipt(s) and Click Submit Claim.
+ 
 </details>
 
 ## Basic Life Insurance and AD&D
@@ -606,7 +618,7 @@ See the [disability insurance flyer](https://drive.google.com/file/d/1sN3LR0mz7m
 1. The Absence Management team will complete the Employer portion of the [Short-Term disability](https://drive.google.com/file/d/1guydUTEc0vBFMaa_IsSktZ5hXAbOXdvD/view?usp=sharing) application and email the completed portion along with the [Assignment of Benefits](https://drive.google.com/file/d/1nd0r5qj9PS21HDFH97Jbft9dZzlpTOsr/view?usp=sharing) form.
 1. At the end of the maximum benefit period for short-term disability of 12 weeks, the team member will determine whether they are able to return back to work.
    - If the team member intends to return on or before the end of the 12 weeks, they should email leaves@gitlab.com a Return to Work authorization form from their physician stating that they are able to return to work and listing any accommodations needed, if applicable, at least 5 calendar days before their return date. The Absence Management team will request this at least 5 business days before the team member's anticipated return to work date if not already provided by the team member.
-   - If the team member is unable to return, the team member will be moved to unpaid leave and will have the option to continue their benefits by electing [COBRA coverage](https://www.dol.gov/sites/dolgov/files/ebsa/about-ebsa/our-activities/resource-center/faqs/cobra-continuation-health-coverage-consumer.pdf). The team member will be eligible to apply for long-term disability at this time.
+   - If the team member is unable to return, the team member will be moved to unpaid leave and will have the option to continue their benefits by electing [COBRA coverage](https://www.dol.gov/sites/dolgov/files/ebsa/about-ebsa/our-activities/resource-center/faqs/cobra-continuation-coverage.pdf). The team member will be eligible to apply for long-term disability at this time.
 
 </details>
 
@@ -681,7 +693,7 @@ Effective 2024-08-01, Team Members can elect to make after-tax contributions to 
 
 Please see the [Fidelity Roth 401(k) contributions, after-tax contributions, and the Roth in-plan conversion FAQ](https://drive.google.com/file/d/1WtisN4O4O7X_vtS6YP4X8nVP1xukc2uL/view?usp=sharing) for more details.
 
-Please also see our [webinar with SageView](https://drive.google.com/file/d/1u0LrgJFh3-_lQ-vgXlI2CBbnKJ0t7eX6/view?usp=sharing) on how this 401(k) feature works, the benefits of using the feature, and considerations team members should be aware of before participating.  
+Please also see our [webinar with SageView](https://drive.google.com/file/d/1u0LrgJFh3-_lQ-vgXlI2CBbnKJ0t7eX6/view?usp=sharing) on how this 401(k) feature works, the benefits of using the feature, and considerations team members should be aware of before participating.
 
 Team Members should take note that the 401(k) after-tax deductions takes priority over ESPP contributions.
 Team Members should calculate their after-tax contributions carefully to ensure that they have enough funds for ESSP contributions, should they wish to participate in both features.
@@ -833,7 +845,7 @@ You can also choose to front-load the team member portion of your HSA contributi
 
 <summary>Health Savings Account and Offboarding GitLab </summary>
 
-Your Health Savings Account and any funds within the account as of your date of termination are yours to keep. You may continue to use the dollars in your account for eligible healthcare expenses at your next employer, and/or allow the money to remain in the account and grow over time. Wex may charge fees to manage your HSA account directly. Please contact WEX (Discovery) at 866.451.3399, via live chat or customerservice@discoverybenefits.com with any questions about your HSA accounts.  
+Your Health Savings Account and any funds within the account as of your date of termination are yours to keep. You may continue to use the dollars in your account for eligible healthcare expenses at your next employer, and/or allow the money to remain in the account and grow over time. Wex may charge fees to manage your HSA account directly. Please contact WEX (Discovery) at 866.451.3399, via live chat or customerservice@discoverybenefits.com with any questions about your HSA accounts.
 
 </details>
 
@@ -1034,7 +1046,7 @@ To access LifeMart through ADP:
 
 ## COBRA
 
-If you are enrolled in medical, dental, and/or vision when you terminate from GitLab (either voluntarily or involuntarily), you may be eligible to continue your coverage through [COBRA](https://www.dol.gov/sites/dolgov/files/ebsa/about-ebsa/our-activities/resource-center/faqs/cobra-continuation-health-coverage-consumer.pdf).
+If you are enrolled in medical, dental, and/or vision when you terminate from GitLab (either voluntarily or involuntarily), you may be eligible to continue your coverage through [COBRA](https://www.dol.gov/sites/dolgov/files/ebsa/about-ebsa/our-activities/resource-center/faqs/cobra-continuation-coverage.pdf).
 
 </details>
 

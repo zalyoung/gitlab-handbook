@@ -17,7 +17,7 @@ However, it is the responsibility of the Infrastructure Department to drive the 
 
 If you're a GitLab team member and are looking to alert the Infrastructure teams about an availability issue with GitLab.com, please find quick instructions to report an incident here: [Reporting an Incident](/handbook/engineering/infrastructure/incident-management/#reporting-an-incident).
 
-For all other queries, please see the [getting assistance](/getting-assistance) page.
+For all other queries, please see the [getting assistance](/handbook/engineering/infrastructure/getting-assistance) page.
 
 ## Vision
 
@@ -64,10 +64,10 @@ flowchart LR
     C --> SS[Systems Stage]
     click SS "/handbook/engineering/infrastructure/core-platform/systems/"
 
-    SS --> GC[Gitaly::Cluster]
-    click GC "/handbook/engineering/infrastructure/core-platform/systems/gitaly/"
+    SS --> GC[Gitaly]
+    click GC "/handbook/engineering/infrastructure-platforms/data-access/gitaly/"
     SS --> Git[Git]
-    click GG "/handbook/engineering/infrastructure/core-platform/systems/git/"
+    click GG "/handbook/engineering/infrastructure-platforms/data-access/git/"
     SS --> Geo
     click Geo "/handbook/engineering/infrastructure/core-platform/systems/geo/"
     SS --> DB[Distribution::Build]
@@ -80,9 +80,7 @@ flowchart LR
     DS --> TS[Tenant Scale]
     click TS "/handbook/engineering/infrastructure/core-platform/tenant-scale/"
     DS --> Database
-    click Database "/handbook/engineering/infrastructure/core-platform/data_stores/database/"
-    DS --> GS[Global Search]
-    click GS "/handbook/engineering/infrastructure/core-platform/data_stores/search/"
+    click Database "/handbook/engineering/infrastructure-platforms/data-access/database-framework/"
     DS --> CC[Cloud Connector]
     click CC "/handbook/engineering/infrastructure/core-platform/data_stores/cloud-connector/"
 

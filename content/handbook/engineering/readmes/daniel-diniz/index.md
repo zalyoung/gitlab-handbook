@@ -26,7 +26,7 @@ The 'goal' of writing this document is simply writing in itself, and it's pulibs
 
 I'm passionate about life itself. I love learning new things, preferably on a daily basis. I like it so much that if I would have to name one goal in life, it would be to become a full-time learner.
 
-* Whenever I'm not behind a computer, I try to find any excuse to be outdoors, living life dynamically in many different ways. I like :palm_tree: [Slacklining](https://en.wikipedia.org/wiki/Slacklining), :surfer: [Kitesurfing](https://en.wikipedia.org/wiki/Kiteboarding), :dog: :snowboarder: [Dogsurfing](https://vimeo.com/258229614), :mount_fuji: [Climbing](https://en.wikipedia.org/wiki/Climbing). I'm an adept of the :monkey: [Movement Culture](http://www.idoportal.com/).
+* Whenever I'm not behind a computer, I try to find any excuse to be outdoors, living life dynamically in many different ways. I like :palm_tree: [Slacklining](https://en.wikipedia.org/wiki/Slacklining), :surfer: [Kitesurfing](https://en.wikipedia.org/wiki/Kiteboarding), :dog: :snowboarder: [Dogsurfing](https://vimeo.com/258229614), :mount_fuji: [Climbing](https://en.wikipedia.org/wiki/Climbing). I'm an adept of the :monkey: [Movement Culture](https://www.idoportal.com/).
 
 * I have many :musical_note: musical instruments, and try to find time in between all other activities to explore musicality as much as I can.
 

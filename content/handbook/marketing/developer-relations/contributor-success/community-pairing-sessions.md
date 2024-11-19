@@ -23,7 +23,7 @@ to express their thoughts (in accordance to the [GitLab Code of Conduct](https:/
 
 ## When do they happen?
 
-Community pairing sessions usually happen every Tuesday at 10:15 UTC.
+Community pairing sessions usually happen every Tuesday at 12:15 PM CET (UTC+1) during standard time and CEST (UTC+2) during daylight saving time (typically last Sunday in March to the last Sunday in October)
 On rare occasions, a scheduled session might be skipped if none of the [organizers](#organizers)
 can attend.
 Keep an eye on the `#contribute` channel of the GitLab [Discord server](https://discord.gg/gitlab)

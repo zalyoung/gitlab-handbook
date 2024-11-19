@@ -52,7 +52,7 @@ You can find published dashboards in [Ad-hoc/Development/General](https://10az.o
 
 ## Metric definitions
 
-Taken from https://handbook.gitlab.com/handbook/engineering/metrics/#metrics-list
+Taken from Metrics list
 
 ### Merge Request Rate
 

@@ -322,7 +322,11 @@ The list of semi-standard rate limiting response headers can be found [here](htt
 
 ### Observability
 
-Our support team also have a [Kibana dashboard](support/workflows/ip-blocks/) showing metrics around rate limited responses. Cloudflare rate limits responses can be seen in the [Cloudflare UI](https://dash.cloudflare.com/) (GitLab Cloudflare account access required).
+The below are internal links to support troubleshooting rate limiting related issues:
+
+- [Grafana: Rate Limiting Overview dashboard](https://dashboards.gitlab.net/d/rate-limiting-rate-limiting_overview/rate-limiting3a-rate-limiting3a-overview?orgId=1)
+- [Kibana: Support - Rate limit dashboard](https://log.gprd.gitlab.net/app/r/s/39dcp)
+- [Cloudflare: Security Analytics dashboard](https://dash.cloudflare.com/852e9d53d0f8adbd9205389356f2303d/gitlab.com/security/analytics) (GitLab Cloudflare account access required)
 
 #### Investigating RackAttack logs
 
@@ -331,6 +335,7 @@ Our support team also have a [Kibana dashboard](support/workflows/ip-blocks/) sh
 
 ## Important Links
 
-- [GitLab.com Rate limits overview](https://gitlab.com/gitlab-com/runbooks/-/tree/master/docs/rate-limiting)
 - [docs: GitLab.com](https://docs.gitlab.com/ee/user/gitlab_com/index.html#gitlabcom-specific-rate-limits)
 - [docs: Self Managed (and Dedicated)](https://docs.gitlab.com/ee/security/rate_limits.html)
+- [runbook: GitLab.com rate limiting](https://gitlab.com/gitlab-com/runbooks/-/tree/master/docs/rate-limiting)
+- [handbook: Identifying the cause of IP Blocks on GitLab.com](support/workflows/ip-blocks/) 

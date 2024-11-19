@@ -48,7 +48,7 @@ Bluetooth headphones can be problematic due to limitations of microphone quality
 
 ### Microphones
 
-"*When audio quality is high (vs low), people judge the content as better and more important. They also judge the speaker as more intelligent, competent, and likable. Messages that are difficult to process are less compelling.*" This [research](https://tips.ariyh.com/p/good-sound-quality-smarter), conducted by Norbert Schwarz at the University of Southern California, reinforces the importance of investing in equipment and atmosphere to generate the highest-fidelity audio in a remote setting.
+"*When audio quality is high (vs low), people judge the content as better and more important. They also judge the speaker as more intelligent, competent, and likable. Messages that are difficult to process are less compelling.*" This [research](https://app.sciencesays.com/p/good-sound-quality-smarter), conducted by Norbert Schwarz at the University of Southern California, reinforces the importance of investing in equipment and atmosphere to generate the highest-fidelity audio in a remote setting.
 
 When possible, avoid doing a job interview in a room with other people or in a place with heavy background noise. If you have a pair of Bluetooth or wired earbuds with an in-line microphone (like the ones commonly included with most smartphones), use those instead of the built-in microphone of a laptop, phone, or desktop monitor. These microphones tend to be of low quality, and do little to stop background noise.
 
@@ -66,7 +66,7 @@ Conducting a remote interview is all about preparation, and most importantly, se
 1. **Give instructions for how to connect to the video call.** Include download instructions for the software you're using or a step-by-step guide if connecting from the web.
 1. **Give the candidate an outline.** The team at [FlexJobs](https://www.flexjobs.com/employer-blog/best-practices-conducting-remote-interviews) recommends an outline with an interview start time, the name of the interviewer and anyone else they will be meeting, and the general order of events so they know when to speak.
 1. **Have a practice meeting.** Use this opportunity to make sure your audio and video is coming through clearly.
-1. **Have questions prepared and in front of you ahead of time.** Owl Labs has prepared [this list of remote questions](https://www.owllabs.com/blog/remote-job-interview-questions) if you need some inspiration.
+1. **Have questions prepared and in front of you ahead of time.** Owl Labs has prepared [this list of remote questions](https://resources.owllabs.com/blog/remote-job-interview-questions) if you need some inspiration.
 1. **Share the process and documentation with others.** Make templates and processes available to other interviewers so that everyone communicates effectively.
 
 ## How can you make a remote interview feel more personal?

@@ -285,7 +285,7 @@ Post-Giveaway </summary>
 <li>Winners must sign an Affidavit of Eligibility &amp; Liability, Indemnity, and Publicity Release. Use the &quot;Affidavit of Eligibility - Sweepstakes&quot; template found on the google drive.</li>
 <li>Announce the winners</li>
 </ol>
-<p><a href="https://handbook.gitlab.com/handbook/marketing/brand-and-product-marketing/brand/merchandise-handling/giveaways/">Find out more about the swag giveaways here.</a></p>
+<p><a href="/handbook/marketing/brand-and-product-marketing/brand/merchandise-handling/">Find out more about the swag giveaways here.</a></p>
 
 </details>
 

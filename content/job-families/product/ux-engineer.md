@@ -88,7 +88,7 @@ The Senior UX Engineer role extends the UX Engineer role and is expected to exec
 
 - [Pajamas component migrations](/handbook/product/ux/performance-indicators/#pajamas-component-migrations)
 - [SUS-impacting issues](/handbook/product/ux/performance-indicators/#sus-impacting-issues-openedclosed-each-month)
-- [Deferred UX](http://gitlab.com/handbook/product/ux/performance-indicators/#deferred-ux)
+- [Deferred UX](https://gitlab.com/handbook/product/ux/performance-indicators/#deferred-ux)
 
 ## Hiring Process
 

@@ -177,8 +177,6 @@ Campaigns created in Terminus Email Experiences should align to GTM motions and 
 
 ### Use cases
 
-- [36 Creative Use Cases for Email Signature Marketing](https://resources.sigstr.com/ebooks-or-reports/36-creative-use-cases-for-email-signature-marketing)
-
 **Content**
 
 1. Whitepapers and eBooks

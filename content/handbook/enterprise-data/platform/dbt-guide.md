@@ -29,12 +29,12 @@ For GitLab, this is essential since we use the product for building and running 
 Third, it speaks the language of analysts - SQL.
 This increases the number of people that can contribute since SQL is becoming such a critical part of many people's jobs.
 
-Finally, it enables teams to move faster by integrating [testing and documentation](https://docs.getdbt.com/docs/building-a-dbt-project/building-models/#testing-and-documenting-models) from the start.
+Finally, it enables teams to move faster by integrating [testing and documentation](https://docs.getdbt.com/docs/build/sql-models#testing-and-documenting-models) from the start.
 
 For even more information about the basics of dbt, see our [data analyst onboarding issue template](https://gitlab.com/gitlab-data/analytics/blob/master/.gitlab/issue_templates/Team%3A%20Data%20Onboarding.md)
 
 At times, we rely on dbt packages for some data transformation.
-[Package management](https://docs.getdbt.com/docs/building-a-dbt-project/package-management/) is built-in to dbt.
+[Package management](https://docs.getdbt.com/docs/build/packages) is built-in to dbt.
 A full list of packages available are on the [dbt Hub site](https://hub.getdbt.com).
 
 ## Running dbt
@@ -768,13 +768,13 @@ In dbt, it is possible to generate custom database and schema names. This is use
 
 ##### Databases
 
-The default behavior is documented in the ["Using databases" section of the dbt documentation](https://docs.getdbt.com/docs/building-a-dbt-project/building-models/using-custom-database). A macro called `generate_database_name` determines the schema to write to.
+The default behavior is documented in the ["Using databases" section of the dbt documentation](https://docs.getdbt.com/docs/build/custom-databases). A macro called `generate_database_name` determines the schema to write to.
 
 We override the behavior of this macro with our own [`generate_database_name` definition](https://gitlab.com/gitlab-data/analytics/-/blob/master/transform/snowflake-dbt/macros/utils/generate_database_name.sql). This macro takes the configuration (target name and schema) supplied in the `profiles.yml` as well as the schema configuration provided in the model config to determine what the final schema should be.
 
 ##### Schemas
 
-The default behavior is documented in the ["Using custom schemas" section of the dbt documentation](https://docs.getdbt.com/docs/using-custom-schemas). A macro called `generate_schema_name` determines the schema to write to.
+The default behavior is documented in the ["Using custom schemas" section of the dbt documentation](https://docs.getdbt.com/docs/build/custom-schemas). A macro called `generate_schema_name` determines the schema to write to.
 
 We override the behavior of this macro with our own [`generate_schema_name` definition](https://gitlab.com/gitlab-data/analytics/-/blob/master/transform/snowflake-dbt/macros/utils/generate_schema_name.sql). This macro takes the configuration (target name and schema) supplied in the `profiles.yml` as well as the schema configuration provided in the model config to determine what the final schema should be.
 
@@ -805,7 +805,7 @@ In our dbt project we make use of the [dbt-utils package](https://github.com/dbt
 
 ### Seeds {#seeds}
 
-Seeds are a way to load data from csv files into our data warehouse ([dbt documentation](https://docs.getdbt.com/docs/building-a-dbt-project/seeds/)).
+Seeds are a way to load data from csv files into our data warehouse ([dbt documentation](https://docs.getdbt.com/docs/build/seeds)).
 Because these csv files are located in our dbt repository, they are version controlled and code reviewable.
 This method is appropriate for loading static data which changes infrequently.
 A csv file that's up to ~1k lines long and less than a few kilobytes is probably a good candidate for use with the `dbt seed` command.
@@ -1105,7 +1105,7 @@ All Schema Tests result in a PASS or FAIL status.
 
 Purpose: This test validates critical tables exist in the Zuora Data Pipeline.
 
-We've implemented schema tests as a [dbt macro](https://docs.getdbt.com/docs/building-a-dbt-project/jinja-macros/). This means that instead of writing SQL, a user can add the test by simply calling the macro. This is controlled by the [`raw_table_existence`](https://dbt.gitlabdata.com/#!/macro/macro.gitlab_snowflake.raw_table_existence) macro.
+We've implemented schema tests as a [dbt macro](https://docs.getdbt.com/docs/build/jinja-macros). This means that instead of writing SQL, a user can add the test by simply calling the macro. This is controlled by the [`raw_table_existence`](https://dbt.gitlabdata.com/#!/macro/macro.gitlab_snowflake.raw_table_existence) macro.
 
 ```sql
 -- File: https://gitlab.com/gitlab-data/analytics/-/blob/master/transform/snowflake-dbt/tests/sources/zuora/existence/zuora_raw_source_table_existence.sql
@@ -1161,7 +1161,7 @@ The Rowcount test is a specialized type of Column Value test and is broken out b
 
 Purpose: This test validates we always had 18,849 Zuora subscription records created in 2019.
 
-This test is implemented as a [dbt macro](https://docs.getdbt.com/docs/building-a-dbt-project/jinja-macros/). This means that instead of writing SQL, a user can add the test by simply calling the macro. This is controlled by the [`source_rowcount`](https://dbt.gitlabdata.com/#!/macro/macro.gitlab_snowflake.source_rowcount) macro.
+This test is implemented as a [dbt macro](https://docs.getdbt.com/docs/build/jinja-macros). This means that instead of writing SQL, a user can add the test by simply calling the macro. This is controlled by the [`source_rowcount`](https://dbt.gitlabdata.com/#!/macro/macro.gitlab_snowflake.source_rowcount) macro.
 
 ```sql
 -- https://gitlab.com/gitlab-data/data-tests/-/blob/main/tests/sources/zuora/rowcount/zuora_subscription_source_rowcount_2019.sql
@@ -1427,7 +1427,7 @@ Key items to note:
   - We use the [dbt config alias argument](https://docs.getdbt.com/docs/building-a-dbt-project/building-models/using-custom-aliases/) to rename the table by removing the `_base` suffix and keep the table name clean
 - If a base model built upon the snapshotted source table exists, please re-use the query that has been already written and apply the following modifications:
   - Remove the deduplication process, it is not necessary.
-  - Always add `dbt_scd_id` as a primary key to your snapshot base model and rename it to something more explicit (documentation about snapshot meta-fields can be found [here](https://docs.getdbt.com/docs/building-a-dbt-project/snapshots/#snapshot-meta-fields))
+  - Always add `dbt_scd_id` as a primary key to your snapshot base model and rename it to something more explicit (documentation about snapshot meta-fields can be found [here](https://docs.getdbt.com/docs/build/snapshots#snapshot-meta-fields))
   - Add columns `dbt_valid_from` and `dbt_valid_to` to your query
   - Good example [here with the snapshot base model](https://gitlab.com/gitlab-data/analytics/-/blob/master/transform/snowflake-dbt/models/snapshots/base/gitlab_dotcom_gitlab_subscriptions_snapshots_base.sql) and [the source model](https://gitlab.com/gitlab-data/analytics/-/blob/master/transform/snowflake-dbt/models/sources/gitlab_dotcom/gitlab_dotcom_gitlab_subscriptions_source.sql)
 
@@ -1444,7 +1444,7 @@ We also have a convenience macro [create_snapshot_base](https://gitlab.com/gitla
 
 #### Incremental models on top of snapshots
 
-If you are using date spining to generate record for each day, consider materializing the model as [incremental](https://docs.getdbt.com/docs/building-a-dbt-project/building-models/configuring-incremental-models/). This way only new records will be added based on the snapshot_date condition. For an example implementation look at the [mart_arr_snapshots model](https://gitlab.com/gitlab-data/analytics/-/blob/master/transform/snowflake-dbt/models/marts/arr/mart_arr_snapshots.sql#L35)
+If you are using date spining to generate record for each day, consider materializing the model as [incremental](https://docs.getdbt.com/docs/build/incremental-models). This way only new records will be added based on the snapshot_date condition. For an example implementation look at the [mart_arr_snapshots model](https://gitlab.com/gitlab-data/analytics/-/blob/master/transform/snowflake-dbt/models/marts/arr/mart_arr_snapshots.sql#L35)
 
 ### Testing Downstream Impact
 
@@ -1584,6 +1584,21 @@ Query optimization involves looking at the way the query executes and making cha
 - Reduce spilling to local and remote storage by reducing the columns and rows that are used in the query
 - Ensure that the order `JOIN` clauses are operating on as few rows as feasible
 - Minimize fan out of rows and cartesian results in `JOIN` clauses
+
+#### Test Optimization
+
+By default uniqueness and `not_null` should be tested on all primary keys, however tests should be able to complete in a reasonable time. If a long-running test is detected there are some strategies that can be used to remove the test or improve performance.
+
+- Is the test checking for uniqueness on a model which already has a QUALIFY statement on that field? In this case uniqueness is built into the model and does not need to be tested although care should be taken that further changes do not alter this.
+- Is the test checking for uniqueness on an incremental model which already has that field defined as the `unique_key`? Any attempt to insert a duplicate key will result in a processing error so testing may not be required.
+- If the table is very large then the lookback period can be specified in the test config, for example:
+
+```yaml
+data_tests:
+  - unique:
+      config:
+        where: "created_at >= DATEADD('day',-3,CURRENT_DATE())"
+```
 
 #### Clustering
 

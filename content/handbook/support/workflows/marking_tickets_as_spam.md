@@ -6,18 +6,16 @@ category: Zendesk
 
 ### Marking tickets as spam in Zendesk
 
-Sometimes it can be necessary to mark a ticket as spam in Zendesk. There are two ways to do it:
+Sometimes it can be necessary to mark a ticket as spam in Zendesk.
+This suspends the end-user, and they won't be able to
+submit tickets or access our Service Desk anymore.
 
-**Recommended way:** click the arrow in the right part of a ticket and select `Mark as spam`:
+There are two methods to mark a ticket as spam, depending on your permissions:
 
-  ![Zendesk Mark as Spam](/handbook/support/workflows/assets/zendesk-mark-as-spam.png)
+1. For `Zendesk administrators` and Support agents with `Support Staff - CMOC` role:
+   - Click the dropdown menu on the right side of the ticket
+   - Select `Mark as spam`
 
-Marking a ticket as spam using this method suspends the end-user, and they won't be able to
-submit tickets or access our Service Desk anymore. If you are unsure this measure should be applied, use the alternative method below.
-
-**Alternative method:** open the ticket and select [Spam macro](https://gitlab.com/gitlab-com/support/support-ops/zendesk-global/macros/-/blob/master/macros/active/Unsorted/Spam.yaml) in the list of macros.
-It will add a tag and solve the ticket once applied. The CSAT survey won't be sent for tickets with this tag.
-
-Note: When the `Spam macro` is applied, the Zendesk ticket will not automatically refresh. To ensure that the ticket as been correctly marked as spam, please refresh the Zendesk ticket. If the ticket results in a 404 error, it means it has been successfully marked as spam.
-
-For more details about spam in Zendesk, see the issue [Managing Spam Tickets](https://gitlab.com/gitlab-com/support/support-team-meta/issues/1775).
+1. For all other Support agents:
+   - Apply the [`Spam` macro](https://gitlab.com/gitlab-support-readiness/zendesk-global/macros/-/blob/master/data/active/Unsorted/Spam.yaml)
+   - This will solve the ticket without sending a CSAT survey.

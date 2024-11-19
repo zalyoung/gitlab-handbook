@@ -24,7 +24,7 @@ In the logs, if you see a mention of a rejection due to abuse or explicit confir
   "description": "",
   "session-seconds": 1.7985761165618896,
   "code": 550,
-  "message": "5.7.1 H:M11 [192.237.158.143] Connection refused due to abuse. Please see http://mailspike.org/iplookup.html or contact your E-mail provider."
+  "message": "5.7.1 H:M11 [192.237.158.143] Connection refused due to abuse. Please see https://mailspike.org/iplookup.html or contact your E-mail provider."
 ```
 
 You can confirm that the IP address is ours by doing a "host" lookup on the IP address. It should always end in `mg.gitlab.com`.

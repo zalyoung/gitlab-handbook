@@ -43,7 +43,7 @@ RStudio can connect to various database for production development of models or 
    - **odbc.ini** holds information required to connect to databases, such as host, username, etc. This is where you set up your DSN for your system.
    - to see the location of these configuration files, run the command `odbcinst -j`.
 
-1. Download the latest driver for Snowflake [here](https://sfc-repo.snowflakecomputing.com/odbc/mac64/index.html). You can then follow [these instructions](https://docs.snowflake.com/en/user-guide/odbc-mac.html) to complete the configuration of the driver on your machine.
+1. Download the latest driver for Snowflake [here](https://sfc-repo.snowflakecomputing.com/odbc/mac64/index.html). You can then follow [these instructions](https://docs.snowflake.com/developer-guide/odbc/odbc-mac) to complete the configuration of the driver on your machine.
    - As many parameters as desired can be entered in the configuration files, such as role, database, warehouse, username, etc. However, these can also be specified in RStudio. Is you choose to set up the configuration files with these details, it may be necessary to set up a DSN for every database/schema used in Snowflake.
    - Below are examples of how to configure the **odbc.ini** and **odbcinst.ini** files in the user file location.
 

@@ -71,7 +71,7 @@ Naming new features or [renaming existing features](https://docs.gitlab.com/ee/d
 #### Factors in picking a name
 
 - It should clearly express what the feature is, in order to avoid the [AWS naming situation](https://www.expeditedssl.com/aws-in-plain-english).
-- It should follow [usability heuristics](http://www.designprinciplesftw.com/collections/10-usability-heuristics-for-user-interface-design) when in doubt.
+- It should follow [usability heuristics](https://www.designprinciplesftw.com/collections/10-usability-heuristics-for-user-interface-design) when in doubt.
 - It should be common in the industry.
 - It should not overlap with any other existing concepts in GitLab.
 - It should have as few words as possible (so people won't use a shortened name).

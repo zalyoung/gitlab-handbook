@@ -73,7 +73,7 @@
 /content/job-families/chief-executive-officer @sytses @streas
 
 ^[communication]
-/content/handbook/communication/ @drogozinski @kaylagolden
+/content/handbook/communication/ @drogozinski
 
 ^[Company-culture]
 /content/handbook/company/culture/ @streas
@@ -135,6 +135,7 @@
 /content/handbook/engineering/development/dev/foundations/design-system @samdbeckham
 /content/handbook/engineering/development/dev/foundations/import-and-integrate/ @wortschi
 /content/handbook/engineering/development/dev/foundations/personal-productivity @samdbeckham
+/content/handbook/engineering/development/dev/foundations/search/ @changzhengliu
 /content/handbook/engineering/development/dev/plan/ @donaldcook @timzallmann @johnhope @kushalpandya @blabuschagne @vshushlin
 /content/handbook/engineering/development/dev/plan/knowledge.md @vshushlin
 /content/handbook/engineering/development/dev/plan/optimize.md @blabuschagne
@@ -196,14 +197,16 @@
 /content/handbook/engineering/infrastructure/capacity-planning/ @andrewn @gitlab-org/scalability @marin
 /content/handbook/engineering/infrastructure/core-platform/ @marin
 /content/handbook/engineering/infrastructure/core-platform/tenant-scale.md @sissiyao
-/content/handbook/engineering/infrastructure/core-platform/data_stores/database-reliability/ @rmar1
-/content/handbook/engineering/infrastructure/core-platform/data_stores/database/ @alexives
 /content/handbook/engineering/infrastructure/core-platform/data_stores/help.md @alexives @rmar1 @nhxnguyen
-/content/handbook/engineering/infrastructure/core-platform/data_stores/search/ @changzhengliu
 /content/handbook/engineering/infrastructure/core-platform/data_stores/cloud-connector/ @pjphillips
 /content/handbook/engineering/infrastructure/core-platform/systems/distribution/ @marin @plu8
 /content/handbook/engineering/infrastructure/core-platform/systems/geo/ @luciezhao
-/content/handbook/engineering/infrastructure/core-platform/systems/gitaly/ @andrashorvath @jcaigitlab
+/content/handbook/engineering/infrastructure-platforms/data-access/ @andrashorvath
+/content/handbook/engineering/infrastructure-platforms/data-access/database-framework/ @alexives
+/content/handbook/engineering/infrastructure-platforms/data-access/database-operations/ @rmar1
+/content/handbook/engineering/infrastructure-platforms/data-access/durability/ @jarv
+/content/handbook/engineering/infrastructure-platforms/data-access/gitaly/ @jcaigitlab
+/content/handbook/engineering/infrastructure-platforms/data-access/git/ @pks-gitlab
 /content/handbook/engineering/infrastructure/emergency-change-processes.md @marin @sabrinafarmer
 /content/handbook/engineering/infrastructure/incident-management/ @dawsmith @rnienaber @marin
 /content/handbook/engineering/infrastructure/performance-indicators.md @marin @sabrinafarmer @vincywilson @rymai
@@ -436,8 +439,8 @@
 /content/handbook/people-group/competencies.md @wendybarnes @glucchesi @pegan @cbednarz
 /content/handbook/people-group/contracts-probation-periods.md @mpatel8 @shensiek @alex_venter @Mowry @nutaurus
 /content/handbook/people-group/employment-branding/ @drogozinski @cchiodo @rallen3
-/content/handbook/people-group/employment-branding/people-communications.md @kaylagolden @drogozinski @rallen3
-/content/handbook/people-group/engagement.md @kaylagolden @drogozinski @rallen3
+/content/handbook/people-group/employment-branding/people-communications.md @drogozinski @rallen3
+/content/handbook/people-group/engagement.md @drogozinski @rallen3
 /content/handbook/people-group/employment-solutions.md @pegan @hdevlin
 /content/handbook/people-group/engineering/ @anechan
 /content/handbook/people-group/general-onboarding/ @mpatel8 @Mowry @alex_venter @anechan @ashjammers @nutaurus
@@ -567,11 +570,11 @@
 /content/handbook/security/product-security/ @juliedavila
 /content/handbook/security/product-security/infrastructure-security/ @jacobjernigan
 /content/handbook/security/product-security/data-security/ @jacobjernigan @boconnor @jcamgl
-/content/handbook/security/product-security/application-security/ @jritchey
+/content/handbook/security/product-security/application-security/ @juliedavila
 /content/handbook/security/product-security/architecture/ @plafoucriere
 /content/handbook/security/product-security/security-research/ @estrike
 /content/handbook/security/security-assurance/ @tdilbeck @corey-oas @jlongo_gitlab @cynthiamiller
-/content/handbook/security/security-operations/ @jfuentes2
+/content/handbook/security/security-operations/ @mcoons @cmoberly @rdickson1 @nslaughter @mjozenazemian
 /content/handbook/security/security-operations/security-logging/ @mcoons
 /content/handbook/security/threat-management/ @smanzuik @estrike
 /content/handbook/security/threat-management/identity/ @gitlab-com/gl-security/identity
@@ -736,6 +739,6 @@
 /content/handbook/security/security-assurance/security-risk/storm-program/ @cynthiamiller @tdilbeck @corey-oas @jlongo_gitlab @gitlab-com/egroup @gitlab-com/content-sites
 /content/handbook/security/security-assurance/security-risk/storm-program/critical-systems.md @cynthiamiller @corey-oas @jlongo_gitlab @gitlab-com/egroup @gitlab-com/content-sites
 /content/handbook/security/security-assurance/security-risk/third-party-risk-management.md @cynthiamiller @tdilbeck @corey-oas @jlongo_gitlab @gitlab-com/egroup @gitlab-com/content-sites
-/content/handbook/security/security-operations/sirt/sec-incident-response.md @joshlemos @jfuentes2 @gitlab-com/egroup @gitlab-com/content-sites
-/content/handbook/security/security-operations/sirt/security-incident-communication-plan.md @joshlemos @jfuentes2 @gitlab-com/egroup @gitlab-com/content-sites
+/content/handbook/security/security-operations/sirt/sec-incident-response.md @joshlemos @mcoons @cmoberly @rdickson1 @nslaughter @mjozenazemian @gitlab-com/egroup @gitlab-com/content-sites
+/content/handbook/security/security-operations/sirt/security-incident-communication-plan.md @joshlemos @mcoons @cmoberly @rdickson1 @nslaughter @mjozenazemian @gitlab-com/egroup @gitlab-com/content-sites
 /content/handbook/support/workflows/personal_data_access_account_deletion.md @lyle @jcolyer @gitlab-com/egroup @gitlab-com/content-sites

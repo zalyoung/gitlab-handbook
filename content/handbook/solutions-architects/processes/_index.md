@@ -84,7 +84,7 @@ Simplified process description:
 - If it a standard (non-customized) service from our [full catalog](https://about.gitlab.com/services/catalog/).
   - SAE / AE to order PS directly from Zuora in SFDC.
 - If standard services do not meet the needs of the customer
-  - Use the [Services Calculator](http://services-calculator.gitlab.io/) to generate an issue and a draft quote.
+  - Use the [Services Calculator](https://services-calculator.gitlab.io/) to generate an issue and a draft quote.
   - Iterate on that issue with PS and SAE / AE.
 
 ## Customer Security Assurance

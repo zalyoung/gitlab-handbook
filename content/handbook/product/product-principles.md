@@ -181,7 +181,7 @@ We understand that a natural inclination when using application development tool
 
 #### Inspiration
 
-We admire other "convention over configuration" tools—like [Ruby on Rails](http://rubyonrails.org/) (the doctrine of which perfectly describes the [value of integrated systems](http://rubyonrails.org/doctrine#integrated-systems)), [Ember](http://emberjs.com/), and
+We admire other "convention over configuration" tools—like [Ruby on Rails](https://rubyonrails.org/) (the doctrine of which perfectly describes the [value of integrated systems](https://rubyonrails.org/doctrine#integrated-systems)), [Ember](https://emberjs.com/), and
 [Heroku](https://www.heroku.com/)—and we strive to offer the same advantages for continuous delivery of software.
 
 Furthermore, Ruby on Rails has significantly and positively influenced the Ruby community, uplifting the tool and making it more powerful and useful than ever before. We want GitLab to be to Kubernetes what Rails is to Ruby.

@@ -350,9 +350,9 @@ Depending on your needs, you might want use software to provide overlays and/or 
 ### Audio Rerouting
 
 - [Soundflower Mac Open Source](https://github.com/mattingalls/Soundflower) or install with `brew install --cask soundflower`
-- [Loopback Mac Closed Source](http://www.rogueamoeba.com/loopback/) - Great closed source alternative
+- [Loopback Mac Closed Source](https://www.rogueamoeba.com/loopback/) - Great closed source alternative
 - [Windows alternatives](https://www.reddit.com/r/audioengineering/comments/3geqse/soundflower_alternative_on_windows/)
-- [Linux alternatives](http://askubuntu.com/questions/602593/whats-a-good-soundflower-replacement-for-ubuntu)
+- [Linux alternatives](https://askubuntu.com/questions/602593/whats-a-good-soundflower-replacement-for-ubuntu)
 
 ### Setup
 
@@ -365,7 +365,7 @@ Depending on your needs, you might want use software to provide overlays and/or 
 ![obs studio preferences](/handbook/marketing/marketing-operations/youtube/OBS_Studio_Stream.jpeg)
 
 - Configure your to-be-recorded software's audio to be rerouted to an alternative audio source/output.
-- Under "Audio" in OBS Studio preferences, select the alternative audio source/output under Mic/Auxiliary Device 2. See [this page](http://code-zest.blogspot.nl/2016/02/setting-up-obs-with-audio-output-in-mac.html) for more help
+- Under "Audio" in OBS Studio preferences, select the alternative audio source/output under Mic/Auxiliary Device 2. See [this page](https://code-zest.blogspot.nl/2016/02/setting-up-obs-with-audio-output-in-mac.html) for more help
 - Under "Video" select your preferred resolution and fps settings. Please take note that these should optimally reflect video aspect ratio such as `1920x1080`.
 - Optionally you can set up some output options under "Output"
 - In the normal window of OBS Studio you should now see 2 audio sliders, including "Mic/Aux 2". Configure these to your liking.

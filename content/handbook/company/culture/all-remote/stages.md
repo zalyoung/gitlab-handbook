@@ -36,7 +36,7 @@ Some companies do not allow for any remote work. This could be due to a leadersh
 
 It is worth noting, however, that even businesses which have historically been impossible to complete remotely are seeing new opportunity arise thanks to technological advancements.
 
-The da Vinci Surgical System, for instance, has been [used in telesurgery](http://www.bbc.com/future/story/20140516-i-operate-on-people-400km-away), and communications infrastructure is robust enough in some locales to support [remote broadcasting](https://ftw.usatoday.com/2015/06/espn-broadcasts-remote-integration-save-millions).
+The da Vinci Surgical System, for instance, has been [used in telesurgery](https://www.bbc.com/future/article/20140516-i-operate-on-people-400km-away), and communications infrastructure is robust enough in some locales to support [remote broadcasting](https://ftw.usatoday.com/2015/06/espn-broadcasts-remote-integration-save-millions).
 
 ### Benefits and challenges of a non-remote team arrangement
 

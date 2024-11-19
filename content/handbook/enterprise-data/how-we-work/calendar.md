@@ -19,7 +19,7 @@ While we can't promise we'll never have meetings on Fridays, the team has adopte
 
 ### Bias For The Maker's Schedule
 
-Most Data Team members identify more strongly with the [Maker's Schedule over the Manager's Schedule](http://www.paulgraham.com/makersschedule.html) and we support this by:
+Most Data Team members identify more strongly with the [Maker's Schedule over the Manager's Schedule](https://www.paulgraham.com/makersschedule.html) and we support this by:
 
 - limiting individual contributor meeting exposure to no more than 20% of their time
 - grouping our meetings into contiguous chunks instead of sprinkling them throughout the day or week

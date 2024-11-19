@@ -310,7 +310,7 @@ Each of these conferences present unique opportunities to connect with the infor
 
 #### ISCAP/EDSIG
 
-[ISCAP/EDSIG](http://www.iscap-edsig.org/) is the Information Systems and Computing Academic Professionals and Education Special Interest Group. This group runs two concurrent conferences, EDSIGCON and CONISAIR. This is another Information Systems opportunity with a different group. These conferences can be a bit smaller, but with more chances to connect on a personal level with faculty and students attending.
+[ISCAP/EDSIG](https://www.iscap-edsig.org/) is the Information Systems and Computing Academic Professionals and Education Special Interest Group. This group runs two concurrent conferences, EDSIGCON and CONISAIR. This is another Information Systems opportunity with a different group. These conferences can be a bit smaller, but with more chances to connect on a personal level with faculty and students attending.
 
 ### Evangelism with in-person visits to campus
 

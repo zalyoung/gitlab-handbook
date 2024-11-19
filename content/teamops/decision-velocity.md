@@ -99,7 +99,7 @@ A Senior Developer Advocate at GitLab recognized that many coaching and mentorin
 - *Team:* When designing a project management plan, determine which decisions will be made by which team members. For decisions from anyone other than the DRI, document why the approval authority was moved to that level.
 - *Company:* Update your company's management training program to include training to prioritize delegation and employee empowerment.
 
-**Recommended TeamOps Partner:** [Lance Robbins](http://lancehrobbins.com/) (consultant)
+**Recommended TeamOps Partner:** [Lance Robbins](https://lancehrobbins.com/) (consultant)
 {{% /details %}}
 
 ## Bias for action
@@ -198,7 +198,7 @@ By being transparent in your virtual work, your team can easily prove productivi
 
 **Recommended TeamOps Partners:**
 
-- [Lance Robbins](http://lancehrobbins.com/) (consultant)
+- [Lance Robbins](https://lancehrobbins.com/) (consultant)
 - [Modern Leaders](https://www.modernleaders.co/) (consultant)
 {{% /details %}}
 

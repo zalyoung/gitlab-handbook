@@ -120,7 +120,7 @@ Broad privileges allow malicious or accidental access to protected resources.
 
 - <https://owasp.org/www-community/Access_Control#principle-of-least-privilege>
 - <https://csrc.nist.gov/glossary/term/least_privilege>
-- <https://handbook.gitlab.com/handbook/security/access-management-policy.html#principle-of-least-privilege>
+- <https://handbook.gitlab.com/handbook/security/security-and-technology-policies/access-management-policy/>
 
 </details>
 

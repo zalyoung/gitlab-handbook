@@ -35,7 +35,7 @@ This is why the program is worth the extra overhead for the CEO and [EBA team](/
 
 ### Naming of the program
 
-This role is called a [CEO Shadow](https://feld.com/archives/2015/03/ceo-shadowing.html) to make it clear to external people why a shadow is in a meeting.
+This role is called a [CEO Shadow](https://feld.com/archives/2015/03/ceo-shadowing/) to make it clear to external people why a shadow is in a meeting.
 
 ### About the CEO Shadow Program
 
@@ -340,8 +340,6 @@ To use the script:
 1. Then simply type `setalarm 50` to set a 50-minute timer (`setalarm` defaults to 25 minutes if no argument is provided).
 
 Press `Ctrl+C` if you need to cancel the alarm. You may keep the terminal window running indefinitely so that it is at your finger tips throughout your program duration.
-
-A handy App for time keeping is Senzillo's "Speech Timer for Talks".  It is available for [iOS](https://apps.apple.com/us/app/speech-timer-for-talks/id979433325) and [Android](https://play.google.com/store/apps/details?id=com.hg.SpeechTimer&hl=en&gl=US). Compared to other apps, this timer is easy to setup for the meeting warning levels and to switch between meeting time lengths. It costs $1 to have 3 warning levels - purchasing the application is not required if you just wish to have one warning visualization and watch the timer for the others.
 
 #### Promote Communication Best Practices
 
@@ -792,7 +790,7 @@ CEO Shadow Program alumni are welcome to join the `#ceo-shadow-alumni` Slack cha
 | 2022-03-07 | 2022-03-18 | [Byron Boots](https://gitlab.com/byronboots) | Senior Security Asssurance Engineer | |
 | 2022-03-14 | 2022-03-25 | [Miles Russell](https://gitlab.com/mdrussell) | Sr. Analytics Engineer |  |
 | 2022-03-21 | 2022-04-01 | [Adam Vesey](https://gitlab.com/avesey) | Sr. Legal Counsel |  |
-| 2022-04-11 | 2022-04-22 | [Nikki Silverberg](https://gitlab.com/nikkiroth) | Sr. Marketing Operations Manager | [Interview with Sid: Meeting Preparation and Efficiency](http://www.youtube.com/watch?v=nn1Mjh7j-1I) |
+| 2022-04-11 | 2022-04-22 | [Nikki Silverberg](https://gitlab.com/nikkiroth) | Sr. Marketing Operations Manager | [Interview with Sid: Meeting Preparation and Efficiency](https://www.youtube.com/watch?v=nn1Mjh7j-1I) |
 | 2022-04-18 | 2022-04-29 | [David Egan](https://gitlab.com/degan) | Senior Data Analyst, Marketing | |
 | 2022-04-25 | 2022-04-29 | [Janis Altherr](https://gitlab.com/janis) | Fullstack Engineer, Incubation Engineering | |
 | 2022-05-30 | 2022-06-10 | [Victor Brew](https://gitlab.com/Vbrew) | Pub Sec ISR | |

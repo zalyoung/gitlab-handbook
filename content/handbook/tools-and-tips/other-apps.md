@@ -36,7 +36,7 @@ In any case, you are encouraged to use our [Individual Use Software Request](/ha
 
 Sharing your screen to get your idea across can be very productive, but having personalized ads show up on a webpage may be undesirable.
 Shut off interest based ads by setting your preferences.
-[Google Ad Settings](https://adssettings.google.com/), [AdChoices](http://optout.aboutads.info)
+[Google Ad Settings](https://adssettings.google.com/), [AdChoices](https://optout.aboutads.info/?c=2&lang=EN)
 
 ### Browser extensions
 
@@ -83,7 +83,7 @@ After installing the extension, access the project page you are interested in fo
 Certainly do not install it on your local machine.
 But even the Google Chrome plugin that lets you see embedded Flash content in websites can pose a security hazard.
 If you have not already, go to your [Chrome Flash Settings](chrome://settings/content/flash) and disable Flash.
-For further context, note that [Google Chrome is removing Flash support soon](https://nakedsecurity.sophos.com/2016/05/18/yet-more-bad-news-for-flash-as-google-chrome-says-goodbye-sort-of/), and while the [plugin is better than a local install of Flash](http://security.stackexchange.com/questions/98117/should-flash-be-disabled-or-are-sandboxes-secure-enough),
+For further context, note that [Google Chrome is removing Flash support soon](https://nakedsecurity.sophos.com/2016/05/18/yet-more-bad-news-for-flash-as-google-chrome-says-goodbye-sort-of/), and while the [plugin is better than a local install of Flash](https://security.stackexchange.com/questions/98117/should-flash-be-disabled-or-are-sandboxes-secure-enough),
 it still leaves vulnerabilities for [zero-day attacks](https://en.wikipedia.org/wiki/Zero-day_vulnerability).
 
 ### Prototyping in the browser
@@ -153,7 +153,7 @@ There is also [a repo maintained by GitLab team members](https://gitlab.com/gitl
 
 ### Brain.fm
 
-[Brain.fm (free trial)](http://brain.fm) provides music specially designed to help you focus, relax, meditate, recharge, sleep (great for plane rides).
+[Brain.fm (free trial)](https://www.brain.fm/) provides music specially designed to help you focus, relax, meditate, recharge, sleep (great for plane rides).
 It's not just music though.
 They use scientifically validated brainwave manipulations to get results.
 It is AMAZING and really does work.
@@ -199,7 +199,7 @@ If you find yourself typing `f` and hitting `enter` from muscle memory, you will
 
 ### Paste
 
-[Paste for macOS](https://pasteapp.me/) is a clipboard manager that stores everything you copy and optionally syncs across all your devices.
+[Paste for macOS](https://pasteapp.io/) is a clipboard manager that stores everything you copy and optionally syncs across all your devices.
 It allows you to organize frequently copied data in pinboards, so that you do not need to copy the same data over and over, provides search, multiple paste and has nice visual user interface.
 
 ### Pomodoro technique
@@ -227,7 +227,7 @@ There is [an unofficial extension maintained by GitLab team members](https://www
 
 ### TripMode
 
-[TripMode ($7.99)](https://www.tripmode.ch/) lets you control which apps can use the internet.
+[TripMode ($7.99)](https://tripmode.ch/) lets you control which apps can use the internet.
 This is especially useful when you're working on a cellular/metered connection. TripMode is only available for the Mac.
 
 ### Stream Deck
@@ -269,7 +269,7 @@ Besides the official integrations, you can also use the Apple Shortcuts app to h
 
 ### GitHub Copilot
 
-GitHub released [Copilot](https://copilot.github.com), an AI-powered tool for in-situ suggestions within VSCode, in 2021. It's an interesting and exciting tool. However at this time it does not guarantee that the code being suggested is strictly sourced from codebases governed by [an open source license compatible with our own project](https://gitlab.com/gitlab-org/gitlab-foss/-/blob/master/LICENSE) which could lead to license conflicts. Until the licensing of the suggestions is established, please don't use Copilot.
+GitHub released [Copilot](https://github.com/features/copilot/), an AI-powered tool for in-situ suggestions within VSCode, in 2021. It's an interesting and exciting tool. However at this time it does not guarantee that the code being suggested is strictly sourced from codebases governed by [an open source license compatible with our own project](https://gitlab.com/gitlab-org/gitlab-foss/-/blob/master/LICENSE) which could lead to license conflicts. Until the licensing of the suggestions is established, please don't use Copilot.
 
 ## Video calling
 
@@ -279,7 +279,7 @@ GitHub released [Copilot](https://copilot.github.com), an AI-powered tool for in
 
 ### Shush
 
-[$4.99 tool for macOS](http://mizage.com/shush/) that lets you set a hotkey (e.g. `fn`) to mute your microphone ("push-to-talk" or "push-to-mute").
+[$4.99 tool for macOS](https://mizage.com/shush/) that lets you set a hotkey (e.g. `fn`) to mute your microphone ("push-to-talk" or "push-to-mute").
 Never again will you have to switch your window focus to Google Hangouts or Zoom to speak or mute.
 The icon will show the current state of your mic input (x means muted).
 With a right click (or your configured hotkey) you can switch from push to talk to push to mute.
@@ -291,11 +291,11 @@ Many USB headsets are unmutable.
 
 #### Shush alternative for Linux
 
-If you use Linux (e.g. [Arch](https://www.archlinux.org/), [Ubuntu](https://www.ubuntu.com/) or [Fedora](https://getfedora.org/)) you can create a system-wide keyboard shortcut to mute/unmute your mic.
-Please note that it only works for Linux distributions which use [ALSA](http://alsa-project.org) for sounds (most popular Linux distributions use ALSA).
+If you use Linux (e.g. [Arch](https://archlinux.org/), [Ubuntu](https://ubuntu.com/) or [Fedora](https://getfedora.org/)) you can create a system-wide keyboard shortcut to mute/unmute your mic.
+Please note that it only works for Linux distributions which use [ALSA](https://www.alsa-project.org/wiki/Main_Page) for sounds (most popular Linux distributions use ALSA).
 All you need to do is go to your desktop environment's *Keyboard Settings* and create a custom shortcut with the command `amixer set Capture toggle` and assign a key combination of your choice (e.g. `Pause Break` key).
 Once this is done, you can mute/unmute your mic using the assigned keyboard shortcut while you're in any application.
-Refer to this original answer on [Askubuntu](http://askubuntu.com/a/13364/12242) to learn more.
+Refer to this original answer on [Askubuntu](https://askubuntu.com/questions/12100/command-to-mute-and-unmute-a-microphone/13364) to learn more.
 
 ### Webex
 
@@ -322,5 +322,5 @@ Nice tool for demo recordings and internal/external documentation. Note, Loom vi
 
 ### DeepL
 
-The GitLab handbook and most other content is written in English. Even if a non-native speaker's English is pretty good there might be times when the content is too sophisticated and a translation is welcome. Avoiding tedious copy and paste into another browser tab or app can easily be achieved by using the [DeepL translator](https://www.deepl.com/).
+The GitLab handbook and most other content is written in English. Even if a non-native speaker's English is pretty good there might be times when the content is too sophisticated and a translation is welcome. Avoiding tedious copy and paste into another browser tab or app can easily be achieved by using the [DeepL translator](https://www.deepl.com/en/translator).
 DeepL is available as a Web site but also as a Mac app for free. Using a shortcut on MacOS takes selected text from the handbook right into the app and starts translating. Linux users can only use a Chrome extension and right-click to open another tab for the Web version.

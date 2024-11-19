@@ -151,12 +151,16 @@ GitLab will be required to pay a minimum of 70% of an team member's gross wage, 
 
 #### Applying for Statutory Sick Leave
 
-- If your absences exceed 2 consecutive days, please contact the Absence Management Team `leaves@domain.com` and include your medical certificate in the email.
+- If your absences exceed 2 consecutive days, please contact the Absence Management Team `leaves@gitlab.com` and include your medical certificate in the email.
 - Team members must designate all time off for illness as `Out Sick` in Workday to ensure the Sick Leave is properly tracked.
 
 #### Illness Benefit
 
-Team Members may also be eligible for Ireland's [Illness Benefit](https://www.citizensinformation.ie/en/social_welfare/social_welfare_payments/disability_and_illness/disability_benefit.html). Please contact `leaves@domain.com` for more information.
+Team members may also be eligible for Ireland's [Illness Benefit](https://www.citizensinformation.ie/en/social_welfare/social_welfare_payments/disability_and_illness/disability_benefit.html). Please contact `leaves@gitlab.com` for more information.
+
+### Statutory Domestic Violence Leave
+
+If a team member in Ireland has experienced, or is currently experiencing, domestic violence, they may take up to 5 days per 12 month period of paid domestic violence leave. Team members are not required to give notice in advance of taking this leave but should communicate that the leave has been taken and the relevant dates as soon as is reasonably possible by contacting the Absence Management Team at `leaves@gitlab.com`. The purpose of the leave is, among other things, to enable the team member to seek medical attention, to obtain counselling or other support services, to seek legal advice or to relocate. The leave can be taken as needed and does not need to be used consecutively.
 
 ### Vacation Leave
 
@@ -166,9 +170,9 @@ Team Members may also be eligible for Ireland's [Illness Benefit](https://www.ci
 
 #### Statutory Leave Entitlement
 
-**Maternity Leave:** Team members can take up to 26 weeks of ordinary Maternity Leave. The leave must start at least 2 weeks before the baby's due date and be taken for at least 4 weeks after the baby is born. Team members can take additional unpaid Maternity Leave for up to 16 more weeks, beginning immediately after the end of 26 weeks of ordinary Maternity Leave. If you wish to take additional unpaid Maternity Leave, please notify the Absence Management team at `leaves@domain.com` at least 4 weeks before the ordinary Maternity Leave is due to end.
+**Maternity Leave:** Team members can take up to 26 weeks of ordinary Maternity Leave. The leave must start at least 2 weeks before the baby's due date and be taken for at least 4 weeks after the baby is born. Team members can take additional unpaid Maternity Leave for up to 16 more weeks, beginning immediately after the end of 26 weeks of ordinary Maternity Leave. If you wish to take additional unpaid Maternity Leave, please notify the Absence Management team at `leaves@gitlab.com` at least 4 weeks before the ordinary Maternity Leave is due to end.
 
-**Adoptive Leave:** All team members who qualify as ["qualifying adopters"](https://www.citizensinformation.ie/en/employment/employment_rights_and_conditions/leave_and_holidays/adoptive_leave.html) are entitled to a minimum of 24 consecutive weeks of ordinary Adoptive Leave beginning on the first day of the placement of the child, and up to 16 weeks of additional unpaid Adoptive Leave, beginning immediately after the end of the 24 weeks of ordinary Adoptive Leave. If you wish to take additional unpaid Adoptive Leave, please notify the Absence Management team at `leaves@domain.com` at least 4 weeks before the ordinary Adoptive Leave is due to end.
+**Adoptive Leave:** All team members who qualify as ["qualifying adopters"](https://www.citizensinformation.ie/en/employment/employment_rights_and_conditions/leave_and_holidays/adoptive_leave.html) are entitled to a minimum of 24 consecutive weeks of ordinary Adoptive Leave beginning on the first day of the placement of the child, and up to 16 weeks of additional unpaid Adoptive Leave, beginning immediately after the end of the 24 weeks of ordinary Adoptive Leave. If you wish to take additional unpaid Adoptive Leave, please notify the Absence Management team at `leaves@gitlab.com` at least 4 weeks before the ordinary Adoptive Leave is due to end.
 
 **Paternity Leave:** All team members who qualify as ["relevant parents"](https://www.citizensinformation.ie/en/employment/employment_rights_and_conditions/leave_and_holidays/paternity_leave.html) can take up to 2 consecutive weeks of Paternity Leave, taken within the first 6 months following the birth/adoption.
 
@@ -213,7 +217,7 @@ Relevant parents can take paternity leave. These are:
 #### State Parent's Leave Payment
 
 - You will be entitled to take 7 weeks of Parent's leave in the first 2 years of a child's birth or adoption and you can take 7 consecutive weeks or 7 separate weeks of leave.
-- Team members must give written notice to the Absence Management team at `leaves@domain.com` of their intention to take parent's leave at least 6 weeks before the intended start date.
+- Team members must give written notice to the Absence Management team at `leaves@gitlab.com` of their intention to take parent's leave at least 6 weeks before the intended start date.
 - You may also qualify for 7 weeks [Parent's Benefit](https://www.citizensinformation.ie/en/social_welfare/social_welfare_payments/social_welfare_payments_to_families_and_children/parents_benefit.en.html) if you have enough social insurance (PRSI) contributions.
 - To apply for Parent's Benefit, submit your application via the [Parent's Benefit gov.ie website](https://www.gov.ie/en/service/b321b1-parents-benefit/) at least 4 weeks before the date you start your parent's leave.
 - Parent's Leave runs concurrently with [GitLab Parental Leave]({{< ref "general-and-entity-benefits#parental-leave" >}}).
@@ -224,7 +228,7 @@ Relevant parents can take paternity leave. These are:
 - This leave may be taken in one continuous period or in two separate periods (with at least 10 weeks between each period), or broken into days/half days if agreed upon with your manager.
 - Team members with more than one child may only take a maximum of 26 weeks parental leave in a 12 month period, except in the case of multiple births (e.g. twins).
 - Periods of parental leave taken during any previous employment will be taken into account in calculating the entitlement to parental leave.
-- Team members must give written notice to the Absence Management team at `leaves@domain.com` at least six weeks before taking leave.
+- Team members must give written notice to the Absence Management team at `leaves@gitlab.com` at least six weeks before taking leave.
 - Team members must sign a [confirmation document](https://docs.google.com/document/d/1AuD4itCJb2TsUw6bkKZJWUIfL4UM1Q0MMuY_bNlpJsM/edit?usp=sharing) at least four weeks before leave is set to begin.
 
 #### Midwife Support Service
@@ -252,7 +256,7 @@ To initiate your leave, submit your time off by selecting the `Parental Leave` c
     1. Your signature and date
 - Once notice has been given, the team member must submit a copy of the decision from the Deciding Officer of the Department of Employment Affairs and Social Protection, that the person to be cared for is medically certified as requiring full-time care and attention.
 - Once Carer's Leave has been approved, at least two weeks before the start of leave, the team member must complete a [confirmation document](https://docs.google.com/document/d/1uQ6EldAAxS0gvr9bQ7SXkrsWVh-Yccs5M9HZgvZMRMc/edit?usp=sharing). GitLab will retain a copy, and provide the team member with a copy.
-- If you have enough PRSI contributions, you may qualify for [Carer's Benefit](https://www.citizensinformation.ie/en/social_welfare/social_welfare_payments/carers/carers_benefit.html) from the Department of Social Protection. If you do not qualify for Carer's Benefit, you may qualify for [Carer's Allowance](https://www.citizensinformation.ie/social_welfare/social_welfare_payments/carers/carers_allowance.html). You can take Carer's Leave even if you do not qualify for these payments.
+- If you have enough PRSI contributions, you may qualify for [Carer's Benefit](https://www.citizensinformation.ie/en/social_welfare/social_welfare_payments/carers/carers_benefit.html) from the Department of Social Protection. If you do not qualify for Carer's Benefit, you may qualify for [Carer's Allowance](https://www.citizensinformation.ie/en/social-welfare/carers/carers-allowance/). You can take Carer's Leave even if you do not qualify for these payments.
 - Carer's Leave runs concurrently with GitLab's Sick time policy. If you receive Carer's Benefit or Carer's Allowance from DSP, GitLab will supplement your payment so that you receive 100% of your salary for the first 25 working days.
 
 **Force Majeure Leave**

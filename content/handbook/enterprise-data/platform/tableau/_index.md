@@ -202,7 +202,7 @@ The Production Folder is a separate environment where Tableau users can find das
 1. **Requirements for Workbook Formatting**
    - **Workbook Formatting**: The workbook must include the GitLab logo.
    - **Content Descriptions**: Workbooks and Data Sources should have a 1-2 concise description providing the purpose of the content.
-  
+
 ### Publication to Production Procedure
 
 ![Tableau Publication to Production](/images/handbook/enterprise-data/platform/tableau/publication_to_production.png)
@@ -501,9 +501,9 @@ Inactive licenses will be reclaimed quarterly following our [Data Health and Sec
 - [Actions by Users](https://10az.online.tableau.com/#/site/gitlab/analysis/ActionsbyAllUsers)
 - [eLearning Usage](https://dashboard.skilljar.com/analytics/) (Admins only)
 
-### Access
+## Access
 
-#### Tableau Cloud Access
+### Tableau Cloud Access
 
 Users can request access by creating an issue in the access requests project using the [Tableau_Request issue template](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/new?issuable_template=Tableau_Request). Follow the instructions in the template to ensure it will be picked up by the Central Data Team for provisioning.
 
@@ -513,7 +513,7 @@ Tableau Creators who use Tableau Desktop will need a [Yubikey](/handbook.gitlab.
 
 Once approved, the BI Platform team will then add the user to the `okta-tableau-users` [Google Group](https://groups.google.com/a/gitlab.com/g/okta-tableau-users), add the user in [Tableau Cloud](https://10az.online.tableau.com/#/site/gitlab/users) and assign the correct license, then add the user to the right [Tableau Group](https://10az.online.tableau.com/#/site/gitlab/groups).
 
-#### Tableau Desktop Access
+### Tableau Desktop Access
 
 Creators with an active license to Tableau Cloud are encouraged to use Tableau Desktop for development. Locally developed Data Sources or Workbooks can later be published to Tableau Cloud. All Creators will be assigned access to Tableau Cloud and Desktop. Tableau Desktop keys are automatically assigned by Tableau Cloud when first connecting.
 
@@ -552,7 +552,35 @@ Tableau Cloud allows users to interact with content (that you've created and pub
 
 Fore more details on features offered by each version please see this Tableau article on [Web Authoring and Tableau Desktop Feature Comparison](https://help.tableau.com/current/pro/desktop/en-us/server_desktop_web_edit_differences.htm)
 
-#### Data Source Access: Tableau Cloud
+## Tableau Data Sources
+
+### Tableau Data Source Connection Policy
+
+This policy provides guidance on approved data source connections in Tableau to ensure data consistency, security, and support across all dashboards.
+
+1. **Primary Data Source:** Snowflake
+
+    - **Role:** Snowflake is the main data source, housing core business logic and transformed data. All data requiring transformations or business rules must originate from Snowflake.
+    - **Support:** The Tableau Admin team fully supports Snowflake connections in Tableau.
+
+2. **Additional Approved Data Sources**
+
+    - **Permitted Sources:** Google Sheets, Google Drive, Excel are permitted for external data that doesn’t duplicate Snowflake data.
+    - **Support:** The Tableau Admin team will provide support for the listed permitted connections in Tableau.
+    - **Policy Compliance:** The connection must meet policy guidelines, avoiding duplication of Snowflake data and excluding additional business logic or transformations that belong in the warehouse pipeline.
+
+3. **Additional Data Connections and Available Connectors**
+
+    Tableau provides a wide range of [Supported Connectors](https://help.tableau.com/current/pro/desktop/en-us/exampleconnections_overview.htm) and [Tableau Exchange Connectors](https://exchange.tableau.com/connectors). Generally, all data should be routed through the approved data pipeline. However, direct connections to alternate data sources are permitted in specific cases, such as when data does not require merging with business logic, and a direct connection provides efficiency and quicker time implementation.
+
+    These direct connections may only be used under the following policy:
+
+   - **Approvals:** The connection must be approved by the Data Team and source system business and technical owner. Start a new request [here](https://gitlab.com/gitlab-data/tableau/-/issues/new?issuable_template=Standard%20Data%20Team%20Issue).
+   - **Security:** The connection must be secure. A security audit may be required.
+   - **Policy Compliance:** The connection must meet policy guidelines, avoiding duplication of Snowflake data and excluding additional business logic or transformations that belong in the warehouse pipeline.
+   - **Data Privacy and Governance:** Data access should be restricted as necessary to protect sensitive information, such as PII and MNPI. Coordinate with the Tableau Admin Team to ensure proper data security and privacy measures are in place.
+
+### Data Source Access: **Tableau Cloud**
 
 Please refer to this [Connecting to Data in Tableau Guide](https://docs.google.com/document/d/17DdnVs_KrCw7ic5eJRj7D0i5x5WjfNtYRLGAozdjzSo/edit) for more details.
 
@@ -593,7 +621,7 @@ In order to use the Snowflake connector, you must have a Snowflake account assig
 
 </details>
 
-#### Data Source Access: Tableau Desktop or Tableau Prep Builder
+### Data Source Access: **Tableau Desktop or Tableau Prep Builder**
 
 *Important:* In order to connect Tableau Desktop to Tableau Cloud, you need to set up a Yubikey in Okta. Fingerprints will not work. Please see the [Tableau Cloud Access](/handbook/enterprise-data/platform/tableau/#tableau-online-access) section above for more details on how to order a Yubikey.
 
@@ -769,13 +797,13 @@ Explorer: Below are your instructions on how to access eLearning for Explorer.
 
 Creator: Below are your instructions on how to access eLearning for Creator.
 
-1. Go to http://elearning.tableau.com
+1. Go to https://elearning.tableau.com
 2. Create (or login to) your TableauID account
 3. Confirm your email address via the TableauID confirmation email
-4. Go to http://elearning.tableau.com and log on using your TableauID
+4. Go to https://elearning.tableau.com and log on using your TableauID
 5. Register at the Tableau Learning Center with this Access Code: This should have been DM'd to you by your Tableau provisioner, if not please Slack the provisioner directly
 6. Start using eLearning by clicking on a Course or Learning Path.
-7. Return to http://elearning.tableau.com to continue using Tableau eLearning.
+7. Return to https://elearning.tableau.com to continue using Tableau eLearning.
 
 ## Support
 
@@ -787,7 +815,7 @@ In addition to the proactive steps we've taken with self-service help resources 
 
 We hold weekly office hours (8:30-8:55 AM PST) for Tableau users to be able to regularly meet and showcase their work, as well as discuss topics / ask questions on anything relating to the tool. Please refer to our running [Meeting Agenda and Question & Answer document](https://docs.google.com/document/d/1i23bIsoupKC7rTepbU2lVXTHB5vxKuAgl07kAQq2EBA/edit) for content covered in our sessions.
 
-For additional troubleshooting support you can [submit a support case](https://kb.tableau.com/articles/howto/submitting-a-case-from-the-customer-portal) to Tableau via the [Customer Portal](http://customer.tableausoftware.com/).
+For additional troubleshooting support you can [submit a support case](https://kb.tableau.com/articles/howto/submitting-a-case-from-the-customer-portal) to Tableau via the [Customer Portal](https://customer.tableausoftware.com/).
 
 </details>
 

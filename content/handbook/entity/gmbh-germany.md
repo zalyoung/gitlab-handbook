@@ -350,7 +350,7 @@ We encourage all team members to meet with a *virtual doctor* for the certificat
 
 **Infection Protection Act**
 
-The [Infection Protection Act](http://www.gesetze-im-internet.de/ifsg/index.html) was recently updated with a few [amendments](https://www.bundesregierung.de/breg-de/themen/coronavirus/kinderkrankengeld-1836090) related to entitlement to expanded children's sickness benefits related to the Coronavirus. Please review the current law of the Infection Protection Act (IfSG)and contact your doctor to see how it applies to your situation and family.
+The [Infection Protection Act](https://www.gesetze-im-internet.de/ifsg/index.html) was recently updated with a few [amendments](https://www.bundesregierung.de/breg-de/themen/coronavirus/kinderkrankengeld-1836090) related to entitlement to expanded children's sickness benefits related to the Coronavirus. Please review the current law of the Infection Protection Act (IfSG)and contact your doctor to see how it applies to your situation and family.
 
 ## Administrative Details for Benefits Team
 

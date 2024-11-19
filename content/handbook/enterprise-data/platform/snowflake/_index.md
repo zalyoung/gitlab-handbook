@@ -27,7 +27,7 @@ Login to Snowflake from Okta.
 
 ## Navigating the UI
 
-The [Snowflake Quick Tour of the Web Interface](https://docs.snowflake.com/en/user-guide/snowflake-manager.html) provides comprehensive documentation for the UI.
+The [Snowflake Quick Tour of the Web Interface](https://docs.snowflake.com/user-guide/ui-snowsight-quick-tour) provides comprehensive documentation for the UI.
 
 ## Snowflake account configuration
 

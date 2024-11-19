@@ -295,7 +295,7 @@ The advantages are:
 
 The disadvantages are:
 
-1. It is [suboptimal for both the buyer and GitLab Inc.](http://cdixon.org/2012/07/08/how-bundling-benefits-sellers-and-buyers/).
+1. It is [suboptimal for both the buyer and GitLab Inc.](https://cdixon.org/2012/07/08/how-bundling-benefits-sellers-and-buyers/).
 1. It is hard for the buyer to estimate how much of each feature they will need.
 1. The complexity can lengthen the sales process when buyers have to make separate tiering decisions for each group.
 1. For users, it is unclear what features they can use.

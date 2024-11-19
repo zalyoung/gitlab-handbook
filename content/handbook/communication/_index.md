@@ -745,7 +745,7 @@ For example:
    Interrupting can be done by clicking "Raise Hand" in Zoom, by physically raising your hand on video, or by interrupting verbally.
    As a speaker, allow yourself to be interrupted.
    As a listener, advocate (verbally if necessary) for those who have raised their hand.
-   Just like in-person meetings be cognizant of when, who, and how you interrupt, we don't want [manterrupting](http://time.com/3666135/sheryl-sandberg-talking-while-female-manterruptions/).
+   Just like in-person meetings be cognizant of when, who, and how you interrupt, we don't want [manterrupting](https://time.com/3666135/sheryl-sandberg-talking-while-female-manterruptions/).
 1. We end on the scheduled time. It might feel rude to end a meeting, but you're actually allowing all attendees to be on time for their next meeting.
 1. Do not use the chat of products like Zoom to communicate during the call, use the linked document instead. Zoom Chat has been configured for a 30 day retention. This allows everyone to contribute additional questions, answers, and links in the relevant place. It also makes it easier for people in conflicting timezones to contribute questions before the call and makes it easier to review questions and answers after the call, which can be before watching the recording.
 1. You do not need to remind other people to vocalize their questions. Just say their name and a keyword of the question, e.g. 'Jay about credit-cards'.
@@ -1156,7 +1156,7 @@ There is a lot of information pertaining to Slack, as it is a critical part of G
 
 **Note:** We don't use the term *private message*, because these *direct messages* are not inherently *private* like a phone call or private letter. The messages are potentially accessible by Workspace admins or via Backups. Slack refers to these types of messages as [direct messages themselves](https://slack.com/intl/en-de/help/articles/212281468-What-is-a-direct-message).
 
-When using Slack for work-related purposes, please avoid direct messages. [Direct messages discourage collaboration](https://web.archive.org/web/20140603034414/http://blog.flowdock.com/2014/04/30/beware-of-private-conversations/). You might actually be contacting the wrong person, and they cannot easily redirect you to the right person. If the person is unavailable at the moment, it is less efficient because other people cannot jump in and help. Use a public channel and mention the person or group you want to reach. This ensures it is easy for other people to chime in, involve other people if needed, and learn from whatever is discussed.
+When using Slack for work-related purposes, please avoid direct messages. [Direct messages discourage collaboration](https://web.archive.org/web/20140603034414/https://blog.flowdock.com/2014/04/30/beware-of-private-conversations/). You might actually be contacting the wrong person, and they cannot easily redirect you to the right person. If the person is unavailable at the moment, it is less efficient because other people cannot jump in and help. Use a public channel and mention the person or group you want to reach. This ensures it is easy for other people to chime in, involve other people if needed, and learn from whatever is discussed.
 
 If someone sends you a work-related direct message, it is okay to let them know you'd like to take the conversation to a public channel, linking to this section of the handbook. The process might look something like:
 

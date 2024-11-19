@@ -27,7 +27,7 @@ Here's a bunch of topics I'll be happy to talk about:
 
 - 🎲 Board Games. My favourites at the moment are [Catan](https://boardgamegeek.com/boardgame/13/catan), [Ticket to Ride](https://boardgamegeek.com/boardgame/9209/ticket-ride) and [Pandemic](https://boardgamegeek.com/boardgame/30549/pandemic).
 - 🎮 Video Games. I'm a fan of RPG and/or Strategy games, like  [Surviving Mars](https://store.steampowered.com/app/464920/Surviving_Mars/), the [Fallout series](https://en.wikipedia.org/wiki/Fallout_(series)), and usually anything made by [Obsidian Entertainment](https://en.wikipedia.org/wiki/Obsidian_Entertainment).
-- 🏰 Tabletop Games. I have an ever-expanding collection of TTRPG books, including [GURPS](http://www.sjgames.com/gurps/), [Traveller (Mongoose 2nd Edition)](https://www.mongoosepublishing.com/rpgs/new-traveller.html), [D&D 5th Edition](https://dnd.wizards.com/), [Cyberpunk 2020 & Red](https://rtalsoriangames.com/cyberpunk/), [Shadowrun](https://www.shadowruntabletop.com/) and the [Fallout TTRPG](https://www.modiphius.net/pages/falloutrpg).
+- 🏰 Tabletop Games. I have an ever-expanding collection of TTRPG books, including [GURPS](https://www.sjgames.com/gurps/), [Traveller (Mongoose 2nd Edition)](https://www.mongoosepublishing.com/rpgs/new-traveller.html), [D&D 5th Edition](https://www.dndbeyond.com/), [Cyberpunk 2020 & Red](https://rtalsoriangames.com/cyberpunk/), [Shadowrun](https://www.shadowruntabletop.com/) and the [Fallout TTRPG](https://modiphius.net/pages/fallout-the-roleplaying-game).
 
 ### Books
 

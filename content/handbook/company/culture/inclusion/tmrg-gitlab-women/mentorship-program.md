@@ -207,8 +207,8 @@ Skill development was a key variable used to measure success of this program.
 1. 100% of mentors agree they had the time, resources, and support needed to be a great mentor, would serve as a mentor in a future program, and would suggest the program to their colleagues.
 1. 95.3% of mentees agree that their mentorship contributed to the achievement of their career and development goals at GitLab.
 1. 95.2% of mentees agree that their mentorship contributed to the achievement of their business goals in FY23 Q1 and/or FY23 Q2 at GitLab.
-1. 95.2% of mentees agree that this program strengthened my self-confidence.
-1. 100% of mentees would suggest other GitLab team members join this program as a mentee?
+1. 95.2% of mentees agree that this program strengthened their self-confidence.
+1. 100% of mentees would suggest other GitLab team members join this program as a mentee.
 
 - > I am grateful the company has invested in the Women in GitLab mentorship program. My mentor and I had both a very structured approach to our relationship, but then also took the time to get to know each other and build trust, which allowed for open and honest discussions. I would recommend other team members showing up for this program, both on the mentor and mentee side!
 - > Having someone that is not my manager to work through developmental goals has been extraordinary and I am grateful to my mentor for all the feedback and support as I went from feeling heavy with imposter syndrome to believing in myself and my knowledge level!

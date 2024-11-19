@@ -24,7 +24,7 @@ and complete the issue.
 * Tests statistics
   * [Redash Test Suite Statistics](https://redash.gitlab.com/dashboard/test-suite-statistics)
 * Insights dashboard
-  * [Quality Dashboard](http://quality-dashboard.gitlap.com/)
+  * [Quality Dashboard](https://quality-dashboard.gitlap.com/)
   * [Quality Dashboard Documentation](https://gitlab.com/gitlab-org/gitlab-insights/blob/master/README.md)
 * Triage
   * [Triage Onboarding](/handbook/engineering/infrastructure/engineering-productivity/triage-operations/onboarding/)

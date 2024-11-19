@@ -641,7 +641,7 @@ There are several examples of these types of direction pages today:
 
 1. [Software Supply Chain Security Direction](https://about.gitlab.com/direction/supply-chain/)
 1. [AutoDevOps Direction](https://about.gitlab.com/direction/delivery/auto_devops/)
-1. [Monorepo Product Direction](https://about.gitlab.com/direction/monorepos/)
+1. [Monorepo Product Direction](https://about.gitlab.com/direction/gitaly/monorepos/)
 1. [Versioned Dependencies Direction](https://about.gitlab.com/direction/versioned-dependencies/)
 1. [Customizable Dashboards Direction](https://about.gitlab.com/direction/customizable-dashboards/)
 
@@ -872,7 +872,7 @@ As an all-remote company we run [Remote Design Sprints (RDS)](/handbook/product/
 
 #### Spikes
 
-If you're faced with a very large or complex problem, and it's not clear how to most efficiently iterate towards the desired outcome, consider working with your engineers to build an experimental [spike solution](http://www.jamesshore.com/v2/books/aoad1/spike_solutions). This process is also sometimes referred to as a "technical evaluation." When conducting a spike, the goal is write as little code within the shortest possible time frame to provide the level of information necessary the team needs to determine how to best proceed. At the end of the spike, code is usually discarded as the original goal was to learn, not build production-ready solutions. This process is particularly useful for major refactors and creating [architecture blueprints](/handbook/engineering/architecture/workflow/).
+If you're faced with a very large or complex problem, and it's not clear how to most efficiently iterate towards the desired outcome, consider working with your engineers to build an experimental [spike solution](https://www.jamesshore.com/v2/books/aoad1/spike_solutions). This process is also sometimes referred to as a "technical evaluation." When conducting a spike, the goal is write as little code within the shortest possible time frame to provide the level of information necessary the team needs to determine how to best proceed. At the end of the spike, code is usually discarded as the original goal was to learn, not build production-ready solutions. This process is particularly useful for major refactors and creating [architecture blueprints](/handbook/engineering/architecture/workflow/).
 
 #### Feedback issues
 
@@ -927,7 +927,7 @@ A general list of conferences the company is participating in can be found on ou
 There are a few notable conferences that we would typically always send PMs to:
 
 - [KubeCon](https://events.linuxfoundation.org/)
-- [Atlassian Summit](https://www.atlassian.com/company/events/summit)
+- [Atlassian Summit](https://events.atlassian.com/team22/)
 - [GitHub Universe](https://githubuniverse.com/)
 - [DevOps Enterprise Summit](https://events.itrevolution.com/)
 - [Google Next](https://cloud.withgoogle.com/next)
@@ -1307,7 +1307,7 @@ When we speak to users directly during this workflow, we must be mindful of [Pro
 > Yes, you may share the recording publicly on GitLab.
 >
 > No, you MAY NOT share the recording publicly on GitLab.
-> 
+>
 > I agree that by participating in this, and any future, research activities with GitLab, GitLab B.V. will retain all intellectual property rights in any suggestions, ideas, enhancement requests, feedback, or other recommendations I provide which are hereby assigned to GitLab B.V.
 >
 > Yes
