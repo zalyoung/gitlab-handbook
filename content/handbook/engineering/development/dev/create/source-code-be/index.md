@@ -106,6 +106,12 @@ As a team we strive to be responsive and accommodating when we communicate. When
 
 {{% include "includes/engineering/create/conventional-comments.md" %}}
 
+#### Requesting a review
+
+For an initial review, it's recommended to select a reviewer from the Source Code team.
+
+For maintainer reviews, you can follow the recommendations from the Reviewer Roulette. For time-sensitive or complex reviews, it's preferable to choose a reviewer from the Source Code team.
+
 ### Triage process
 
 The weekly Triage Report is generated automatically by the [GitLab bot](https://gitlab.com/gitlab-bot) and this report is reviewed by the EM. Here is [an example](https://gitlab.com/gitlab-org/quality/triage-reports/-/issues/2700) of a previous report.
