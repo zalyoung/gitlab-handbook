@@ -87,7 +87,7 @@ The release management plan helps the IT EntApps team:
 
 ## Governance and Program Management Methodology
 
-Visit the [Governance and IT Program Management](/handbook/business-technology/enterprise-applications/pmo/pmo-governance/) page to understand the methodology adopted by the IT EntApps PMO team for all GitLab IT programs aimed at achieving the following objectives:
+Visit the [Governance and IT Program Management](/handbook/business-technology/enterprise-applications/pmo/pmo-governance/) page to understand the methodology adopted by the IT EntApps PMO team for all GitLab EntApps programs aimed at achieving the following objectives:
 
 - Ensuring robust results and efficient execution.
 - Ensuring proper scoping aligned with our value of iteration.
@@ -176,7 +176,7 @@ The IT PMO team collaborates with project stakeholders to create these documents
 
 The IT PMO team takes the lead in initiating discussions regarding enablement and collaborates with the project lead to develop training materials and communication plans, as required.
 
-## IT Quarter Planning Process
+## IT EntApps Quarter Planning Process
 
 There are several activities that take place to prepare for new OKRs / commits and report on the current ones:
 
@@ -202,9 +202,9 @@ The team follows [GitLab meeting practices and standards](https://about.gitlab.c
 - All agendas are stored in the PMO Team Meetings [shared drive](https://drive.google.com/drive/folders/1nKgH2Q9PztXE388dbhUHxSh1Vy2V_vLz).
 - The IT PMO team lead all meetings related to projects.
 
-## IT Governance
+## IT EntApps Governance
 
-### IT Leadership Meeting
+### IT EntApps Leadership Meeting
 
 - **Purpose**: Every week the IT Leadership team has a dedicated time to sync up and discuss current activities (urgent and important) that impacts the whole team.
   - **Frequency**: Weekly, on Mondays
@@ -225,30 +225,15 @@ The team follows [GitLab meeting practices and standards](https://about.gitlab.c
   - **Frequency**: Weekly or every 2 weeks
   - **Participants**: IT PMO (host), Business DRI(s), Project Subject Matter Experts (SMEs)
 
-### IT Portfolio Review Meetings (Lead to Cash, CRO and G&A)
+### IT EntApps Portfolio Review Meetings (Lead to Cash, CRO and G&A)
 
 - **Purpose**: During these meetings the IT PMO team discuss roadmap & timelines, shifts in priorities and alignment to goals.
   - **Frequency**: Monthly (on the third week of each month)
   - **Participants**: IT PMO (host), Business DRI(s).
 
-### IT Portfolio: Quarter Planning (Lead to Cash, CRO and G&A)
+### IT EntApps Portfolio: Quarter Planning (Lead to Cash, CRO and G&A)
 
 - **Purpose**: Discuss roadmap & timelines, shifts in priorities, alignment to goals. This is a strategic meeting to ensure that teams are aligned with their key business partners and have clarity on our shared roadmap.
   - **Frequency**: Quarterly (on the third week of the month before quarter end)
   - **Participants**: IT PMO (host), Business & IT EntApps Leadership.
 
-## <i class="fas fa-headset" id="biz-tech-icons"></i> How To Connect With Us
-
-### PMO Slack Channels
-
-- [#business-technology](https://gitlab.slack.com/archives/C01BLS12V37) is the primary channel for all business technology related conversations. This is where GitLab team members can link to their issues, ask for help, direction, and get general feedback from members of the Business Technology team.
-
-### GitLab Groups and Projects
-
-The IT EntApps PMO team primarily uses the below groups and projects on GitLab:
-
-- [Program Management Office](https://gitlab.com/gitlab-com/business-technology/program-management-office) group: main group for the IT PMO team.
-
-### (Governance and IT Program Management) [https://handbook.gitlab.com/handbook/business-technology/pmo/pmo-governance/]
-
-Describes the program methodology for GitLab IT programs to ensure strong results and execution in an efficient way, proper scoping consistent with our value of iteration, correct stakeholders consistent with our value of collaboration and proper documentation for compliance consistent with our transparency value.
