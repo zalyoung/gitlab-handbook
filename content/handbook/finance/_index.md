@@ -75,7 +75,7 @@ If you need this information but cannot find it in your shared vaults, check wit
 ### Fiscal Year
 
 A fiscal year is a one-year period that corporations use for accounting and budgeting.
-GitLab's Fiscal Year runs from February 1 to January 31.
+GitLab's Fiscal Year runs from February 1 to January 31. The fiscal year naming correlates to the ending month of the given fiscal year, for example FY25 is GitLab’s fiscal year running February 1, 2024 to January 31, 2025.
 
 - Q1: February 1 through April 30
 - Q2: May 1 through July 31
