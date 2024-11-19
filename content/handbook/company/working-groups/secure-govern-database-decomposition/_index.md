@@ -12,7 +12,7 @@ canonical_path: "/company/team/structure/working-groups/secure-govern-database-d
 | Date Created    | 1 May 2024 |
 | Start Date      | 13 May 2024 |
 | End Date        |  |
-| Slack           | [#wg_secure-govern-database-decomposition](https://gitlab.slack.com/archives/C01NB475VDF) (only accessible from within the company) |
+| Slack           | [#wg_sec-database-decomposition](https://gitlab.slack.com/archives/C01NB475VDF) (only accessible from within the company) |
 | Google Doc      | [Working Group Agenda](https://docs.google.com/document/d/16JxSsh7AleszlsXU8h0Xevk5nZ-if7YJtRPjpwgqhn4/edit) (only accessible from within the company) |
 | Issue Board     | [Epic Dashboard list](https://epic-dashboard-gitlab-org-tenant-scale-group-4aecf10d1d02154641.gitlab.io/epic_13043#only-open) |
 | Meeting Cadence | Weekly on Mondays. Recorded. EMEA and APAC options. |
