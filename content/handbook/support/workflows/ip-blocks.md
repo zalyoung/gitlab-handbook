@@ -17,7 +17,7 @@ Please also see [the log requests workflow](/handbook/support/workflows/log_requ
 
 ### Search Condition
 
-Start by adding a positive filter on `json.remote_ip` for the IP address provided by the user:
+Start by adding a positive filter on `json.meta.remote_ip` for the IP address provided by the user:
 
 ![Add remote_ip filter](/images/support/ipblocks_add_remoteip_filter.png)
 
