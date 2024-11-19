@@ -43,7 +43,7 @@ The SoftwareDelivery Stage is composed by the following teams:
 
 ## Project Management
 
-Software Delivery Stage has an [entry level Epic](https://gitlab.com/groups/gitlab-com/gl-infra/-/epics/1451) that collects all the groups roadmaps and projects in progress as a single view. This epic is also used for the weekly [Grand Review](https://handbook.gitlab.com/handbook/engineering/infrastructure/platforms/#grand-review) 
+Software Delivery Stage has an [entry level Epic](https://gitlab.com/groups/gitlab-com/gl-infra/-/epics/1451) that collects all the groups roadmaps and projects in progress as a single view. This epic is also used for the weekly [Grand Review](../../platforms/#grand-review) 
 
 ### Epics
 
