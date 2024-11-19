@@ -312,7 +312,7 @@ If a 2FA ticket is opened by an organization that has had this workflow configur
 
 Wait for the customer to comment on the issue and approve the request to disable 2FA.
 
-As stressed in the Slack notification template, we will wait for the customer's answer for 24 hours. If no response is received by then, regular 2FA verification will take place via the [challenges workflow](#step-2-sending-challenges).
+As stressed in the Slack notification template, we will wait for the customer's answer for 24 hours. If no response is received by then, regular 2FA verification will take place via the [challenges workflow](#workflows).
 
 #### 4. Disable 2FA
 
