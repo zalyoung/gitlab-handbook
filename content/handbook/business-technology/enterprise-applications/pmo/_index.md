@@ -192,6 +192,22 @@ There are several activities that take place to prepare for new OKRs / commits a
 
 ![it-pmo](/handbook/business-technology/enterprise-applications/pmo/it-pmo-fy25-q4.png)
 
+### FY26 Q1 Calendar
+
+![it-pmo1](/images/handbook/entapps/calendar-fy26q1.png)
+
+### FY26 Q2 Calendar
+
+![it-pmo2](/images/handbook/entapps/calendar-fy26q2.png)
+
+### FY26 Q3 Calendar
+
+![it-pmo3](/images/handbook/entapps/calendar-fy26q3.png)
+
+### FY26 Q4 Calendar
+
+![it-pmo4](/images/handbook/entapps/calendar-fy26q4.png)
+
 ## <i class="fas fa-file-alt" id="biz-tech-icons"></i> Meetings
 
 ## Meetings Protocol
@@ -236,4 +252,3 @@ The team follows [GitLab meeting practices and standards](https://about.gitlab.c
 - **Purpose**: Discuss roadmap & timelines, shifts in priorities, alignment to goals. This is a strategic meeting to ensure that teams are aligned with their key business partners and have clarity on our shared roadmap.
   - **Frequency**: Quarterly (on the third week of the month before quarter end)
   - **Participants**: IT PMO (host), Business & IT EntApps Leadership.
-
