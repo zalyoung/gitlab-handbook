@@ -68,7 +68,7 @@ If you can't find what you're looking for please reach out to a member of the Sa
 | **SDR AMER and EMEA (Manager - Jonathan Rivat)**              | [`#sdr_amer_emea_inbound`](https://gitlab.enterprise.slack.com/archives/C077J5ANZ0T) |
 | **BDR COMM AMER MM (Manager - Christie Park)**       | [`#bdr_amer_comm`](https://gitlab.enterprise.slack.com/archives/C014PHFNE2U) |
 | **BDR ENTG AMER WEST & LATAM (Manager - Charlotte Platt)** | [`#bdr_entg_amer_west_latam`](https://gitlab.enterprise.slack.com/archives/C04R8DN5H8R) |
-| **BDR ENTG AMER EAST (Manager - Brian Tabbert)**       | [`#bdr_entg_amer_east`](https://gitlab.enterprise.slack.com/archives/C04QL1YSXGW) |
+| **BDR ENTG AMER EAST (Manager - Ashley Dunn)**       | [`#bdr_entg_amer_east`](https://gitlab.enterprise.slack.com/archives/C04QL1YSXGW) |
 | **BDR PUBSEC (Manager - Josh Downey)**          | [`#bdr_amer_pubsec`](https://gitlab.enterprise.slack.com/archives/C04R54N159P)|
 | **All - EMEA (Manager - Elsje Smart)**                                      | [`#sdr_emea`](https://gitlab.slack.com/messages/CCULKLB71) |
 | **BDR COMM EMEA MM - (Manager - Fintan Harrington)**     | [`#bdr_comm_emea_mm`](https://gitlab.slack.com/archives/C04NA4BQP54) |
@@ -91,16 +91,14 @@ If you can't find what you're looking for please reach out to a member of the Sa
 | [Sales Systems Issues](https://gitlab.com/gitlab-com/sales-team/field-operations/systems/-/issues) | This is the Sales Systems issue list, we collaborate closely with them.     |
 | [Marketing Operations Issues](https://gitlab.com/gitlab-com/marketing/marketing-operations/-/issues) | This is the Marketing Operation's team space, we also work closely with them too.  |
 
-## Our SFDC Dashboards
+## Our Dashboards
 
-Please find our SSoT in terms of reporting below, for the 1:1 Dashboards you can also review [the additional guidance here](/handbook/marketing/sales-development/#11-account-and-lead-level-dashboard-coaching-guidance) on how to best use them.
+Please find our SSoT in terms of reporting below, for each dashboard you can also review [the additional guidance here](/handbook/marketing/sales-development/#11-account-and-lead-level-dashboard-coaching-guidance) on how to best use them.
 
 ### Dashboards For Team Members
 
 | Name/Link                                                            | Description                                            |
-|-----------------------------------------------------------------------|--------------------------------------------------------|
-| [1:1 Report - Tableau Self-Managed Instances Database](https://10az.online.tableau.com/#/site/gitlab/views/FreetoPaidCockpitSSAOfficial/FreeSelf-ManagedInstances?%3Aiid=1) | 1:1 Dashboard that breaks down our database in terms of Self-Managed Free Instances.    |
-| [1:1 Report - Tableau Inbound Lead Database](https://10az.online.tableau.com/#/site/gitlab/views/InboundInterestFeedSSAOfficial/InboundInterestFeed-ProspectLevel?:iid=1) | 1:1 Dashboard that breaks down our database in terms of inbound and existing leads.    |
+|-----------------------------------------------------------------------|--------------------------------------------------------| 
 | [1:1 Dashboards - Accounts: EMEA COMM](https://gitlab.my.salesforce.com/01Z8X000000u7O4) | 1:1 dashboard for accounts in the EMEA COMM segment.    |
 | [1:1 Dashboards - Accounts: AMER COMM](https://gitlab.my.salesforce.com/01ZPL000001I5n3) | 1:1 dashboard for accounts in the AMER COMM segment.    |
 | [1:1 Dashboards - Accounts: ENTG AMER/LATAM](https://gitlab.my.salesforce.com/01ZPL000001I6Ub) | 1:1 dashboard for accounts in the ENG AMER/LATAM segment. |
@@ -108,6 +106,9 @@ Please find our SSoT in terms of reporting below, for the 1:1 Dashboards you can
 | [1:1 Dashboards - Accounts: ENTG EMEA](https://gitlab.my.salesforce.com/01ZPL000001I77J)   | 1:1 dashboard for accounts in the ENTG EMEA segment.     |
 | [1:1 Dashboards - Accounts: ENTG AMER](https://gitlab.my.salesforce.com/01ZPL000001I6Ub)   | 1:1 dashboard for accounts in the ENTG EMEA segment.     |
 | [1:1 Dashboards - Accounts: PUBSEC](https://gitlab.my.salesforce.com/01ZPL000001Mcm1)     | 1:1 dashboard for accounts in the PUBSEC segment.       |
+| [1:1 Report - Tableau Self-Managed Instances Database](https://10az.online.tableau.com/#/site/gitlab/views/FreetoPaidCockpitSSAOfficial/FreeSelf-ManagedInstances?%3Aiid=1) | 1:1 Dashboard that breaks down our database in terms of Self-Managed Free Instances.    |
+| [1:1 Report - Tableau Inbound Lead Database](https://10az.online.tableau.com/#/site/gitlab/views/InboundInterestFeedSSAOfficial/InboundInterestFeed-ProspectLevel?:iid=1) | 1:1 Dashboard that breaks down our database in terms of inbound and existing leads. |  
+| [1:1 Report - Tableau Prospecting 360 Database](https://10az.online.tableau.com/#/site/gitlab/views/DraftProspect360V1SAFEFinal/Prospect360LandingPage?:iid=2) | 1:1 Dashboard that combines multiple datapoints into one consolidation view for you to expand your research. |
 
 ### Dashboards For Leaders
 
@@ -968,7 +969,7 @@ A Professional Services Opportunity will be used to cover any integration, consu
 | Account                   | An organization tracked in salesforce.com. An account can be a prospect, customer, former customer, integrator, reseller, or prospective reseller                         |
 | AM                        | Account Manager                                                                                                                                                             |
 | AE                        | Account Executive, can be Major or Strategic in AMER/EMEA Enterprise                                                                                                       |
-| APAC                      | Asia-Pacific                                                                                                                                                                |
+| APJ                      | Asia-Pacific                                                                                                                                                                |
 | BDR                       | Business Development Represenative - focused on outbound                                                                                                                     |
 | CAM                       | Channel Account Manager                                                                                                                                                    |
 | CS                        | Customer Success                                                                                                                                                           |
@@ -1133,7 +1134,7 @@ This is where you can find messaging related to GitLab vs some of our competiors
 
 ### Sales Dev Manager Resources
 
-#### FY24Q3 Manager Tool Certification
+#### Manager Tool Certification
 
 We have an end-to-end process and tool walkthrough that walks manager through all the knowledge and information they need to know to be able to use our tech stack, both for inbound and outbound processes. The full walkthrough of this training is [documented on the issue here](https://gitlab.com/gitlab-com/marketing/sales-development/-/issues/401). Moreover, abbreviated notes of the training can be [found here](https://docs.google.com/document/d/1chOoHvwk-dSsAwoloZhdGiJJoFz0yjjq07kOYmzQUvQ/edit).
 
@@ -1187,6 +1188,8 @@ Additionally this [5' video](https://drive.google.com/file/d/1dx57o5nu9xeHsvHUOC
 | 1:1 Account Dashboard | 17. Consider past Actively Worked Accounts. | **For accounts not in AWA:** <br> As a final check, this report should accounts that were previously outbounded for the territory, do any of them make sense in terms of re-engagement? | Outbound efforts typically take a long time to convert an account, and reviewing new intent data is a great practice to maintaing a good re-engagememt pipeline. |
 | Tableau Dashboard | Inbound Interest Dashboard | This dashboard is an intuitive way for BDRs to manually screen their database. It should be used as a complementary resource to the account-level dashboards above. | While the account-level dashboards are pre-made, and there to guide the thinking of team members in terms of account research, this Tableau dashboard allows a team member more flexibility into sorting through the database. They can use the filters to replicate the permutations of the account level reports in any way that they please. |
 | Tableau Self-Dashboard | Self-Managed Instances Dashboard | This dashboard allows BDRs to track and manage instances that are self-deployed by prospects or clients. | It helps BDRs understand how self-managed instances are performing and identify any potential opportunities to convert them into fully managed accounts or upsell additional services. |
+| Tableau Self-Dashboard | Self-Managed Instances Dashboard | This dashboard allows BDRs to track and manage instances that are self-deployed by prospects or clients. | It helps BDRs understand how self-managed instances are performing and identify any potential opportunities to convert them into fully managed accounts or upsell additional services. |
+| Prospect 360 | Prospect 360 Dashboard | [This dashboard](https://internal.gitlab.com/handbook/enterprise-data/data-catalog/customer-intelligence/#prospect-360) consolidates data from key systems like Salesforce, 6Sense, Qualified, and Marketo, providing BDRs and SDRs with a starting point for account-level prospecting. | By offering a holistic view of account activities, including engagement history and lead/contact interactions, it helps teams identify and prioritize high-potential accounts for conversion. Watch the [Enablement Video (accessible through GitLab Unfiltered Account)](https://www.youtube.com/watch?v=iYnSiISeXYQ) for a comprehensive overview. |
 
 #### General Sales Development Leadership Resources
 
@@ -1239,7 +1242,7 @@ Additionally this [5' video](https://drive.google.com/file/d/1dx57o5nu9xeHsvHUOC
 | :----: | :-----: |
 |  **AMER BDR TEAMS**  | [AMER BDR Action Needed](https://gitlab.my.salesforce.com/01ZPL00000069v3) -  [AMER BDR Manager Attention Needed](https://gitlab.my.salesforce.com/01ZPL00000069VF) |
 |  **EMEA BDR TEAMS**  | [EMEA BDR Action Needed](https://gitlab.my.salesforce.com/01Z4M000000soBO) -  [EMEA BDR Manager Attention Needed](https://gitlab.my.salesforce.com/01ZPL0000006ABB) |
-|  **APAC BDR TEAMS**  | [APAC BDR Action Needed](https://gitlab.my.salesforce.com/01ZPL000000bkbl) -  [APAC BDR Manager Attention Needed](https://gitlab.my.salesforce.com/01ZPL000000cUJd) |
+|  **APJ BDR TEAMS**  | [APJ BDR Action Needed](https://gitlab.my.salesforce.com/01ZPL000000bkbl) -  [APAC BDR Manager Attention Needed](https://gitlab.my.salesforce.com/01ZPL000000cUJd) |
 |  **Global SDR Inbound Teams**  | [SDR Global Action Needed](https://gitlab.my.salesforce.com/01Z4M000000soBT) - [SDR Global Manager Attention Needed](https://gitlab.my.salesforce.com/01ZPL000000pryL)  |
 
 ### Sales_Dev_fyi Channel Information
@@ -1697,13 +1700,13 @@ Announcement Channels
 | [ARR](/handbook/sales/sales-term-glossary/arr-in-practice) pipeline component |
 | 2-way communication must be documented on the Contact in the Opportunity to receive credit. Opportunities missing this documentation will not be considered for compensation and will not retire quota. |
 | For BDRs and SDRs who have SAO/ARR goals, compensation is based on the SAO attainment. ARR attainment is a qualifier for accelerator payments. Our aim is to land net new logos and expand to new customer business units, SAOs being our quantity metric and ARR our quality metric. Our mission is to create good qualified pipeline for the company. SAO credit is given for licenses and not for PS Opportunities (for training, for example) nor pipeline minutes. |
-| **Team Member OTE (SDR/MM BDR, APAC BDR, & Pub Sec)** |
+| **Team Member OTE (SDR/MM BDR, APJ BDR, & Pub Sec)** |
 | 70% Base Pay |
 | 30% Variable Pay: |
 | - 100% Individual SAO Quota: |
 |   - No floor or ceiling |
 |   - Accelerator x 1.5 after meeting 100% of target |
-|   - 1.3 x High LAM New Logo Kicker for APAC/Pub Sec BDRs |
+|   - 1.3 x High LAM New Logo Kicker for APJ/Pub Sec BDRs |
 | **Team Member OTE (ENT BDR Strategic)** |
 | 70% Base Pay |
 | 30% Variable Pay: |
