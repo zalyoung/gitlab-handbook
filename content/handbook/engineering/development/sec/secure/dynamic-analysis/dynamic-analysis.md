@@ -61,7 +61,7 @@ API Security, DAST, and Fuzzing are Ultimate features. Increasing adoption of th
 
 ## How to Contact Us
 
-- Slack channel: #g_secure-dynamic-analysis, #f_secure-api-security, #f_secure-fuzz-testing
+- Slack channel: #g_ast-dynamic-analysis, #f_ast-api-security, #f_ast-fuzz-testing
 - Slack alias: @secure_dynamic_analysis_be
 - Google groups: dynamic-analysis-be@gitlab.com
 - GitLab mention: @gitlab-org/secure/dynamic-analysis-be
@@ -72,7 +72,7 @@ The Dynamic Analysis engineering team provides support to GitLab Support Enginee
 
 ### Other Contact
 
-The DAST team also monitors #s_secure and #sec-section. Both these channels are for wider Secure topics, however are a good place to start if you are not sure which group in Secure to contact.
+The DAST team also monitors #s_ast and #sec-section. Both these channels are for wider AST topics, however are a good place to start if you are not sure which group in AST to contact.
 
 ## How We Work
 
@@ -210,7 +210,7 @@ To complete this mapping, product priority-based issues or epics should be creat
 
 ```text
 /label ~"section::sec"
-/label ~"devops::secure"
+/label ~"devops::application security testing"
 /label ~"group::dynamic analysis"
 /label ~"type::feature"
 ```
@@ -279,7 +279,7 @@ The reaction coordinator of the week is responsible for triaging:
 ##### External Security & Quality Issues
 
 - Ensure security issues (for FedRAMP compliance or platform security) are created or updated, either manually or through automation. Follow up with creation of [Deviation Requests](/handbook/security/security-assurance/dedicated-compliance/poam-deviation-request-procedure/) if necessary.
-- See the [Secure sub-department vulnerability management process](/handbook/engineering/development/sec/secure/#vulnerability-management-process).
+- See the [AST sub-department vulnerability management process](/handbook/engineering/development/sec/secure/#vulnerability-management-process).
 
 ##### Community contributions
 
@@ -312,7 +312,7 @@ When there are too few or no work items in the `workflow::refinement` or the `wo
 ```text
 /milestone {from mapping}
 /label ~"section::sec"
-/label ~"devops::secure"
+/label ~"devops::application security testing"
 /label ~"group::dynamic analysis"
 /label `~workflow::planning breakdown`
 ```
@@ -377,7 +377,7 @@ The DAST analyzer is migrating towards using exclusively a browser-based DAST to
 
 ### Our Approach to Fuzzing
 
-- Fuzzing has one of the largest adoption hurdles of all the Secure products. Coverage fuzzing requires customers to write test harnesses, compile applications with special settings and generates highly technical output.
+- Fuzzing has one of the largest adoption hurdles of all the AST products. Coverage fuzzing requires customers to write test harnesses, compile applications with special settings and generates highly technical output.
 
 Web API Fuzzing requires generating files that allow the Web API fuzzing tool to know what parts of the application to fuzz.
 

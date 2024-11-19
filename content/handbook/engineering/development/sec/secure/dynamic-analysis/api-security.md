@@ -22,7 +22,7 @@ The API Security team is a standalone team which is part of the Dynamic Analysis
 
 ## How to Contact Us
 
-- Slack channel: #g_secure-dynamic-analysis
+- Slack channel: #g_ast-dynamic-analysis
 - Slack alias: @secure_dynamic_analysis_be
 - Google groups: dynamic-analysis-be@gitlab.com
 - GitLab mention: @gitlab-org/secure/dynamic-analysis-be
@@ -31,7 +31,7 @@ The API Security team is a standalone team which is part of the Dynamic Analysis
 
 The Dynamic Analysis group largely follows GitLab's [Product Development Flow](/handbook/product-development-flow/).
 
-Issues worked by this team are backend-centric and are typically in one the above repos, [vendored templates](https://gitlab.com/gitlab-org/gitlab/-/tree/master/lib/gitlab/ci/templates/Security), and GitLab's [Rails monolith](https://gitlab.com/gitlab-org/gitlab). At times, issues can require support from Secure's frontend team if UI changes are required. We will require more notice for initiatives like these.
+Issues worked by this team are backend-centric and are typically in one the above repos, [vendored templates](https://gitlab.com/gitlab-org/gitlab/-/tree/master/lib/gitlab/ci/templates/Security), and GitLab's [Rails monolith](https://gitlab.com/gitlab-org/gitlab). At times, issues can require support from AST's frontend team if UI changes are required. We will require more notice for initiatives like these.
 
 ## Repeated tasks
 
@@ -51,7 +51,7 @@ When opening up issues, the following label snippet often added:
 ```text
 /label ~"Category:API Security"
 /label ~"group::dynamic analysis"
-/label ~"devops::secure"
+/label ~"devops::application security testing"
 /label ~"backend"
 /label ~"section::sec"
 ```
