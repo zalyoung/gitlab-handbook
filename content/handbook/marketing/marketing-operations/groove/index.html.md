@@ -167,6 +167,17 @@ Important Notes on Searching using Labels:
 - When you filter by choosing multiple labels it creates an “and” statement between all of the labels you choose. For example, if you choose the labels “SD OB HT AMER” and “Motion: Competitive Atlassian” it will show every flow that has EITHER of those labels.
 - Best practice is to only filter down by one label and then search for the key word in the flow you are looking for. For example, you can filter by “SD IB HT AMER” and then in the search bar you can search the word “trial” to narrow your search down to all of the HT AMER Trial flows.
 
+### Groove Variables
+
+Groove Variables are formatted different than Outreach. You can find some commone examples below.
+
+- Personalization Example = {!Personalize Messaging Here}
+- Prospect Company/Account Name = {!company}
+- Prospect First Name = {!firstname}
+- Prospect Last Name = {!lastname}
+- Sender First Name = {!user.firstname}
+- Sender Calender Link = {!User.groove_meeting_link__c}
+
 ### Groove Collections
 
 - Team Collections:  Managers own flow approvals for their team members. They are responsible for their team collection which includes: defining their process for content submissions, adhering to naming conventions & labels, quarterly deprecation and reporting on what’s converting. ex. SD EMEA DACH TEAM
