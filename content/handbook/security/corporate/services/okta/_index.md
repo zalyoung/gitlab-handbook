@@ -41,9 +41,9 @@ GitLab requires all team members to use either Biometrics or YubiKey as your [Ok
 
 ### I want to add Touch ID / Face ID / Face Authentication / YubiKey to Okta
 
-**Using [WebAuthn](../../pdf/How_WebAuthn_Works_0.pdf) authentication is required for all team members.**
+**Using [WebAuthn](../pdf/How_WebAuthn_Works_0.pdf) authentication is required for all team members.**
 
-1. While logged in to Okta from the device you wish to add, access the [Settings](../../enduser/settings) page.
+1. While logged in to Okta from the device you wish to add, access the [Settings](../enduser/settings) page.
 1. In the 'Security Methods' section of the page, choose `Set up` or `Set up another` next to `Security Key or Biometric`.
 1. You will then presented with a password verification and passkey verification prompt.
 1. After pressing `Set up` twice, a prompt from your web browser will appear, or a [1Password prompt](#adding-a-passkey-to-1password) may appear. Click the "YubiKey" icon to bypass if it appears and you wish to save it in iCloud Keychain (recommended) or the local Chrome browser.
@@ -72,16 +72,16 @@ GitLab requires all team members to use either Biometrics or YubiKey as your [Ok
 
 1. We recommend enrolling both Chrome and Safari for redundancy on your computer, as well as a mobile device. Each browser needs to be enrolled separately, unless you use iCloud Keychain. Note that separate Chrome browser profiles also need to be enrolled separately. You should enroll one computer browser (for example, Chrome), then add the [mobile device](#i-want-to-add-touch-id--face-id--face-authentication-to-okta-for-my-mobile-device-iphoneipad-or-android), then if required add the other computer [browser](#i-want-to-login-or-add-a-new-computer-to-okta-and-i-have-a-mobile-device-enrolled) (for example, Safari).
 1. If clearing your browser cache, please be careful as you can delete your passkey.
-    1. In Chrome, if using "Clear Browsing Data" function please ensure that you [DO NOT check](../../end-user-services/self-help-troubleshooting/#clearing-google-chrome-cache-like-this-will-break-your-touchid-2fa) "Passwords and other sign-in data" (under "Advanced" tab). By default, this is unchecked.
+    1. In Chrome, if using "Clear Browsing Data" function please ensure that you [DO NOT check](../end-user-services/self-help-troubleshooting/#clearing-google-chrome-cache-like-this-will-break-your-touchid-2fa) "Passwords and other sign-in data" (under "Advanced" tab). By default, this is unchecked.
     1. In Safari, the credential is stored under "Settings->Password". This is separate from the "Settings->Privacy" and "Manage Website Data" where you would click "Remove all" to remove the cache.
 
-Follow the GitLab Okta [FAQ](../../okta/okta-enduser-faq/).
+Follow the GitLab Okta [FAQ](../okta/okta-enduser-faq/).
 
-We have also prepared Introductory Videos on [Configuring Applications](../../videos/configuring-applications) and [Dashboard Tips](../../videos/dashboard-tips).
+We have also prepared Introductory Videos on [Configuring Applications](https://youtu.be/xS2CarGUPLc) and [Dashboard Tips](https://youtu.be/xQQwa_pbe2U).
 
 ### Adding a Passkey to 1Password
 
-1. With the 1Password browser extension installed, access the [Settings](../../enduser/settings) page.
+1. With the 1Password browser extension installed, access the [Settings](../enduser/settings) page.
 1. In the 'Security Methods' section of the page, choose `Set up` or `Set up another` next to `Security Key or Biometric`.
 1. You may then be presented with another prompt to confirm if you wish to `Set up another`, followed by an `Enroll` prompt.
 1. After pressing `Enroll`, a prompt from your web browser will appear.
@@ -99,7 +99,7 @@ These steps are for an iPhone, and may be slightly different for Android.  If yo
 
     <img src="../okta/images/Okta-Mac-Bluetooth-1.png" alt="Okta Mac Bluetooth-1" width="300"/>
     <img src="../okta/images/Okta-Mac-Bluetooth-2.png" alt="Okta Mac Bluetooth-2" width="300"/>
-1. On the computer, login into your [Okta](../../okta)
+1. On the computer, login into your [Okta](../okta)
 1. On the computer, click on your name on the top right to open the drop down menu (similar to above) and navigate to "Settings".
 1. On the computer, under Security Methods click "Set up another" beside Security Key or Biometric. This will take you to a setup authentication screen, click "Verify". Provide Touch ID.
 1. On the computer, click "Set up", then click "Set up" again on the next screen
@@ -125,9 +125,9 @@ These steps are for an iPhone, and may be slightly different for Android.  If yo
 1. On the mobile device, a pop should show up to allow the credential to be saved.
     1. On a iPhone or iPad, it will prompt to save the credential to iCloud Key Chain. Allow this.
     1. If saving the credential fails, go to Settings->`your name`->iCloud and make sure that Passwords and Keychain is set to "On".
-    1. If it still fails, you can also try [force restart](../../iphone/force-restart) and then trying to sign out of iCloud on your mobile device, and then sign back in to iCloud.
+    1. If it still fails, you can also try [force restart](../iphone/force-restart) and then trying to sign out of iCloud on your mobile device, and then sign back in to iCloud.
     1. On Android, this may appear "Use this device with screen lock". Choose this.
-1. On the mobile device, attempt to sign in by visiting [Okta](../../okta).
+1. On the mobile device, attempt to sign in by visiting [Okta](../okta).
 
 ### I want to login or add a new computer to Okta and I have a mobile device enrolled
 
@@ -148,7 +148,7 @@ If both of previous devices are not available, you could use a [YubiKey](https:/
 
 ### I would like to get a YubiKey, how can I do so?
 
-Please fill open up the Slack form using /yubikey in a DM to yourself, ([check out our guide for some additional information](../../security/corporate/systems/yubikey/purchasing/)), and we will coordinate shipment of one to you thru our group buy.
+Please fill open up the Slack form using /yubikey in a DM to yourself, ([check out our guide for some additional information](../security/corporate/systems/yubikey/purchasing/)), and we will coordinate shipment of one to you thru our group buy.
 
 ### Lost access to your 2FA or your OKTA account has been locked out because of failed attempts?
 
@@ -194,7 +194,7 @@ Okta Device Trust ensures that team members are acccessing Okta applications fro
 
 ### After enrolling
 
-You will continue to be able to use a [YubiKey](../../security/corporate/systems/yubikey/2fa/) in addition to Touch ID to login to Okta from macOS device. You will not be able to login from a personal macOS device.
+You will continue to be able to use a [YubiKey](../security/corporate/systems/yubikey/2fa/) in addition to Touch ID to login to Okta from macOS device. You will not be able to login from a personal macOS device.
 
 A macOS device missing the certificate (even when enrolled with Okta Verify), will quickly show:
 ![No Certificate](../okta/images/no-certificate.png)
@@ -223,7 +223,7 @@ If you have any questions or require assistance please reach out to the IT team 
 Create a [new application setup issue](https://gitlab.com/gitlab-com/business-technology/change-management/-/issues/new?issuable_template=okta_new_app_request) and fill in as much information as you can.
 
 Okta is currently configured with assigned groups/roles based on a team member's role/group.
-Refer to the [Access Change Request](../../end-user-services/onboarding-access-requests/access-requests/#access-change-request) section of the handbook for additional information on why an application may not be available in Okta.
+Refer to the [Access Change Request](../end-user-services/onboarding-access-requests/access-requests/#access-change-request) section of the handbook for additional information on why an application may not be available in Okta.
 
 ### How do I get my application set up within Okta?
 
