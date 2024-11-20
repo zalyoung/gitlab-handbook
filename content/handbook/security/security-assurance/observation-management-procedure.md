@@ -11,8 +11,6 @@ This procedure details the creation process for observations.
 
 ## Introduction to Observation Management at GitLab
 
-{{< youtube "6myESjII-Sk" >}}
-
 ## Scope
 
 Tier 3 risks or observations identified at the information system or business process levels
@@ -21,13 +19,13 @@ Tier 3 risks or observations identified at the information system or business pr
 
 | Observation Source | Responsible Team |
 | ---- | ------ |
-| Security control testing activities (CCM) | [Security Compliance]({{< ref "security-compliance" >}}) |
-| Third Party Risk Management (TPRM) activities | [Security Risk]({{< ref "security-risk" >}}) |
-| Customer Assurance Activities (CAA) | [Field Security Team]({{< ref "field-security" >}}) |
-| External audit activities | [Security Compliance]({{< ref "security-compliance" >}}) |
-| Third party application scanning (BitSight) | [Field Security Team]({{< ref "field-security" >}}) |
-| Gap Assessment Activities| [Security Compliance]({{< ref "security-compliance" >}}) |
-| Ad-hoc observations | [Security Assurance]({{< ref "security-assurance" >}}) |
+| Security control testing activities (CCM) | [Security Compliance](/handbook/security/security-assurance/security-compliance/) |
+| Third Party Risk Management (TPRM) activities | [Security Risk](/handbook/security/security-assurance/security-risk/) |
+| Customer Assurance Activities (CAA) | [Field Security Team](/handbook/security/security-assurance/field-security/) |
+| External audit activities | [Security Compliance](/handbook/security/security-assurance/security-compliance/) |
+| Third party application scanning (BitSight) | [Field Security Team](/handbook/security/security-assurance/field-security/) |
+| Gap Assessment Activities| [Security Compliance](/handbook/security/security-assurance/security-compliance/) |
+| Ad-hoc observations | [Security Assurance](/handbook/security/security-assurance/) |
 
 ## Procedure
 
@@ -35,11 +33,51 @@ Tier 3 risks or observations identified at the information system or business pr
 
 ```mermaid
 graph TD;
-  A[Identified] --> B[Assigned];
-  B --> C[Remediation in progress];
-  B --> D[Ignored or Invalid];
-  C --> F[Resolved];
+  A[Identified] --> B[Validated];
+  B --> C[In Progress];
+  B --> D[Stalled];
+  B --> G[Blocked];
+  C --> E[Remediated];
+  E --> F[Remediation Accepted];
+  B --> H[Risk Accepted];
 ```
+
+### Observation Workflow Labels
+
+These workflow labels indicate with the observation issue within the lifecycle.
+
+| Label | Description |
+| ------ | ------ |
+| Observation Workflow:: Identified | Initial review to determine validity of observation     |
+| Observation Workflow:: Validated| Remediation owner has been assigned, but remediation has not started |
+| Observation Workflow:: In Progress| Remediation owner has been assigned and remediation is underway |
+| Observation Workflow:: Remediated| Remediation owner indicates the [remediation step](/handbook/security/security-assurance/observation-remediation-procedure/) is complete|
+| Observation Workflow:: Remediation Accepted| Indicated that the observation manager has reviewed remediation and agrees the issue is closed|
+|Observation Workflow:: Risk Accepted| Observations that no remediation action will be taken and have been risk accepted by the remediation owner. Please tag `@madlake` in these issues.|
+| Observation Workflow:: Blocked| Indicated that the observation is blocked - please indicate why in a comment|
+| Observation Workflow:: Stalled| Indicated that remediation is stalled|
+
+### Observation Category Labels
+
+Labels in this set are used to categorize issues for metrics and reporting and cross-team collaboration.
+
+| Label | Description |
+| ------ | ------ |
+| Department::***   | Department that is responsible for remediation  |
+| RiskRating:: High| Risk rating for security compliance observations - High|
+| RiskRating:: Moderate| Risk rating for security compliance observations - Moderate|
+| RiskRating::Low | Risk rating for security compliance observations - Low|
+| RiskRating:: OFI| Risk rating to identify Opportunities for Improvement (OFI)|
+| ObservationManager::*** | GitLab team member managing the observation through the [observation phases](/handbook/security/security-assurance/observation-management-procedure/#lifecycle-overview). |
+| Blocked:: Awaiting Remediation Owner Input    | This flags indicates the observation manager is waiting for response from the remediation owner.   |
+| Blocked:: Awaiting Observation Manager Input  | This flags the issue for the observation manager on the SecAssurance team                                                                                       |
+| Blocked:: New tool implementation in progress | This flags the issue for pending completion of the new tool                                                                                                     |
+| Upgraded::StORM-Managed                       | This label will be leverage when the observation has been upgraded to a tier 2 risk and will be managed in the StORM program                                    |
+| Upgraded::StORM-Shared                        | This label will be leverage when the observation has been upgraded to a tier 2 risk and remediation is shared by the Security Risk and Security Compliance team |
+| NIST CSF Function::*** | Identifies observations within the NIST CSF function|
+| NIST CSF Category - *** | Identifies observations within the NIST CSF category|
+| seccomp program::***| Identifies which program or external certification is affected by the observation|
+| system::***| Identifies what system is impacted by the observation|
 
 ### Identifying Observations
 
@@ -55,7 +93,7 @@ Observations can be identified through the following channels:
 
 ### Assigning Observations
 
-The observation identifier is responsible for opening an observation in the GitLab Observation Project. The observation identifier fills out all necessary observation information, remediation recommendations and submits the observation to the Remediation Owner for validation. The Observation Manager is responsible for managing the observation through the observation lifecycle. This includes linking the observation to the associated control in Hyperproof, validating the observation with the Remediation Owner, tracking all remediation progress and updating the GitLab issue with current information and status updates. Each observation has both a GitLab Issue (for Remediation Owners) and a Hyperproof Issue (for Observation Managers). Each observation will be assigned a [risk rating]({{< ref "observation-management-procedure#observation-risk-ratings" >}}), which should drive the priority of remediation. Observation Managers are responsible for updating the Hyperproof Issue status once the observation has been confirmed remediated/closed/ignored/invalid.
+The observation identifier is responsible for opening an observation in the GitLab Observation Project. The observation identifier fills out all necessary observation information, remediation recommendations and submits the observation to the Remediation Owner for validation. The Observation Manager is responsible for managing the observation through the observation lifecycle. This includes linking the observation to the associated control in Hyperproof, validating the observation with the Remediation Owner, tracking all remediation progress and updating the GitLab issue with current information and status updates. Each observation has both a GitLab Issue (for Remediation Owners) and a Hyperproof Issue (for Observation Managers). Each observation will be assigned a [risk rating](#observation-risk-ratings), which should drive the priority of remediation. Observation Managers are responsible for updating the Hyperproof Issue status once the observation has been confirmed remediated/closed/ignored/invalid.
 
 **See the associated runbooks below for detailed instructions on how to open and assign a new observation based on observation type:**
 
@@ -307,7 +345,7 @@ In order to arrive at a final observation risk rating, the likelihood and impact
 
 #### Observation Risk Ratings
 
-Tier 3 information system risk ratings are based off the [STORM risk rating methodology]({{< ref "storm-program#risk-factors-and-risk-scoring" >}}).
+Tier 3 information system risk ratings are based off the [STORM risk rating methodology](/handbook/security/security-assurance/security-risk/storm-program/#risk-factors-and-risk-scoring).
 
 > Risk Rating = Likelihood x Impact
 
@@ -319,15 +357,9 @@ An observation's risk rating is based on a judgmental assessment of both the Lik
 - impact to internal and/or external stakeholders
 - expertise to exploit the observation
 
-See the [Observation Management Procedure Handbook page]({{< ref "observation-management-procedure" >}}) for a full list of elements that determine both Likelihood and Impact scores
-
-### Observation Risk Rating Adjustments
-
-As observations are identified, assigned and then move into remediation, there may be cases in which observations do not appropriately map to current GCF controls or are deemed stale. These observations could qualify for an upgraded or downgraded risk level depending on a subset of resolution criteria. Procedures for this process can be found in the [Observation Risk Rating Adjustment Runbook](https://gitlab.com/gitlab-com/gl-security/security-assurance/observation-management/-/blob/master/runbooks/2_Remediation%20and%20Closeout.md#updating-risk-rating)
-
 ### Observation Remediation
 
-For detailed procedures relating to observation remediation, refer to the [observation remediation procedure]({{< ref "observation-remediation-procedure" >}}).
+For detailed procedures relating to observation remediation, refer to the [observation remediation procedure](/handbook/security/security-assurance/observation-remediation-procedure/).
 {{% /details %}}
 
 ## Metrics and Reporting
@@ -342,13 +374,10 @@ Exceptions to this procedure will be tracked as per the [Information Security Po
 
 ## References
 
-- Parent Policy: [Information Security Policy]({{< ref "../_index.md" >}})
-- [GCF Contol Lifecycle]({{< ref "security-control-lifecycle.html" >}})
-- [Observation remediation Procedure]({{< ref "observation-remediation-procedure" >}})
+- [GCF Control Lifecycle](/handbook/security/security-assurance/security-compliance/security-control-lifecycle/)
+- [Observation remediation Procedure](/handbook/security/security-assurance/observation-remediation-procedure/)
 - [Observation Management Project](https://gitlab.com/gitlab-com/gl-security/security-assurance/observation-management)
-- [Insight Charts](https://gitlab.com/gitlab-com/gl-security/security-assurance/observation-management/insights/#/Observation_Issues_Chart)
-- [Sarbanes-Oxley (SOX) Compliance](https://internal.gitlab.com/handbook/internal-audit/sarbanes-oxley/)
 
 ## Contact & Feedback
 
-If you have any questions or feedback about the observation management process please [contact the GitLab Security Assurance Team]({{< ref "security-assurance#contacting-the-team" >}}), or comment in this [feedback issue](https://gitlab.com/gitlab-com/gl-security/security-assurance/observation-management/-/issues/943).
+If you have any questions or feedback about the observation management process please [contact the GitLab Security Assurance Team](/handbook/security/security-assurance/#i-idbiz-tech-icons-classfas-fa-usersicontacting-the-team).
