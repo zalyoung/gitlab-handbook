@@ -1,5 +1,7 @@
 ---
 title: "Security Architecture"
+aliases:
+  - /handbook/security/architecture/
 ---
 
 <link rel="stylesheet" type="text/css" href="/stylesheets/biztech.css" />
@@ -94,7 +96,7 @@ They are detailed below with the principles taken from the book Software Systems
 <details>
 <summary>
 
-### Assign the least privilege possible{.security-architecture-principle}
+### Assign the least privilege possible ## { class="security-architecture-principle" }
 
 </summary>
 
@@ -127,7 +129,7 @@ Broad privileges allow malicious or accidental access to protected resources.
 <details>
 <summary>
 
-### Separate responsibilities{.security-architecture-principle}
+### Separate responsibilities ## { class="security-architecture-principle" }
 
 </summary>
 
@@ -161,7 +163,7 @@ Make attacks less attractive.
 <details>
 <summary>
 
-### Trust cautiously{.security-architecture-principle}
+### Trust cautiously ## { class="security-architecture-principle" }
 
 </summary>
 
@@ -201,7 +203,7 @@ Make attacks less attractive.
 <details>
 <summary>
 
-### Simplest solution possible{.security-architecture-principle}
+### Simplest solution possible ## { class="security-architecture-principle" }
 
 </summary>
 
@@ -235,7 +237,7 @@ Make attacks less attractive.
 <details>
 <summary>
 
-### Audit sensitive events{.security-architecture-principle}
+### Audit sensitive events ## { class="security-architecture-principle" }
 
 </summary>
 
@@ -271,7 +273,7 @@ Make attacks less attractive.
 <details>
 <summary>
 
-### Fail securely & use secure defaults{.security-architecture-principle}
+### Fail securely & use secure defaults ## { class="security-architecture-principle" }
 
 </summary>
 
@@ -305,7 +307,7 @@ aka Fail Safe Defaults.
 <details>
 <summary>
 
-### Never rely upon obscurity{.security-architecture-principle}
+### Never rely upon obscurity ## { class="security-architecture-principle" }
 
 </summary>
 
@@ -336,7 +338,7 @@ aka Fail Safe Defaults.
 <details>
 <summary>
 
-### Implement defense in depth{.security-architecture-principle}
+### Implement defense in depth ## { class="security-architecture-principle" }
 
 </summary>
 
@@ -373,7 +375,7 @@ aka Fail Safe Defaults.
 <details>
 <summary>
 
-### Never invent security technology{.security-architecture-principle}
+### Never invent security technology ## { class="security-architecture-principle" }
 
 </summary>
 
@@ -406,7 +408,7 @@ aka Fail Safe Defaults.
 <details>
 <summary>
 
-### Find the weakest link{.security-architecture-principle}
+### Find the weakest link ## { class="security-architecture-principle" }
 
 </summary>
 
