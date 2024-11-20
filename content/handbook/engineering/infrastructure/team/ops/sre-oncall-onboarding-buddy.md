@@ -40,13 +40,13 @@ The role of a EOC-Buddy is important in helping new engineers become confident a
 
 The EOC buddy program operates on a volunteer basis, allowing experienced engineers to contribute to the team's growth based on their willingness and capacity. Please make sure to check the [Buddy Responsibilities](#buddy-responsibilities) section.
 
-If you are willing to become a EOC-Buddy, assign yourself to `@sre-buddies` Slack group. This group receives notifications when EOC-Shadows are looking for buddies. When you find a suitable match, respond to the request and notify both your manager and the EOC-Shadow.
+If you are willing to become a EOC-Buddy, assign yourself to `@eoc-buddies` Slack group. This group receives notifications when EOC-Shadows are looking for buddies. When you find a suitable match, respond to the request and notify both your manager and the EOC-Shadow.
 
 ## Workflow
 
 ### Being an EOC-Shadow
 
-1. Join the `#sre-shadowing` Slack channel introduce yourself
+1. Join the `#eoc-shadowing` Slack channel introduce yourself
 1. Ping the `@eoc-buddies` Slack group in the channel, specify your timezone and availability and clearly state that you're looking for a buddy
 1. Once a Buddy is assigned, schedule an initial coffee chat with your new EOC-Buddy. Get to know each other and discuss expectations and suitable schedules for sync calls
 1. Join the [SRE Shadow rotation schedule](https://gitlab.pagerduty.com/schedules#PZEBYO0) in PagerDuty and align your shifts with your EOC-Buddy's on-call shifts.
