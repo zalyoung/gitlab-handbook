@@ -380,6 +380,12 @@ The goal of these Flows is to reach out to the prospect quickly and to include o
 - Next, send a screenshot of the first email step to the SAE/AEs who will be CC'd. Explain that this strategy allows them to engage with more personalized messaging if the prospect remains unresponsive. 
   - **Note:** There is a generic task on Day 12 to follow up with the SAE/AE if there has been no engagement. The goal is to keep them informed and work together to engage the prospect.
 
+### High Priority Campaigns and Leads 
+
+A High Priority Lead is a lead that is related to a high priority campaign. Any campaign checked as High Priority will have any members that relate to Actively Working accounts marked as High Priority irregardless of their lead status. These will show up in the BDR's B1 priority view. Check the high priority timestamp and high priority reason fields in salesforce to understand why a lead was marked high priority. 
+
+If you need to move a lead out of high prioriy without contacting them you can [use this flow.](https://groove.clari.com/flows/1097000) This flow is one generic task for you to complete that will move the lead to accepted status and remove the high priority check.
+
 #### How to Change your Email Signature
 
 You must change your email signature [in Terminus](/handbook/marketing/marketing-operations/terminus-email-experiences/) in order for your signature to save. If you only change your signature in Groove or Gmail your signature will revert back within 24 hours.
@@ -977,6 +983,7 @@ A Professional Services Opportunity will be used to cover any integration, consu
 | EMEA                      | Europe, Middle East, and Africa                                                                                                                                            |
 | EULA                      | End User License Agreement                                                                                                                                                  |
 | High intent               | An event, webcast, demo that is a strong indicator of purchase or evaluation                                                                                                |
+| High Priority Lead              | Leads related to a high priority campaign.                                                                                                 |
 | Inquiry                   | An Inbound request or response to an outbound marketing effort                                                                                                              |
 | IQM                       | Initial Qualifying Meeting                                                                                                                                                  |
 | LATAM                     | Latin America (includes all of Central & South America)                                                                                                                     |
