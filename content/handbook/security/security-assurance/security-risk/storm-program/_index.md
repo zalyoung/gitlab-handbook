@@ -159,12 +159,6 @@ Once the Inherent and Residual risk score is determined, the following table can
 
 These ratings represent labels for communication purposes rather than what is or is not acceptable. To determine what is an acceptable risk, please refer to [risk tolerances](#translating-gitlabs-security-risk-appetite-to-risk-tolerance).
 
-#### The Impact of Control Health & Effectiveness Rating (CHER) on Risks
-
-In some cases where controls are identified that mitigate a risk, the Security Risk Team considers the CHER of the control that is established based on continuous monitoring performed by the Security Compliance Team. For details on how the Security Compliance Team rates observations, refer to the [Observation Management]({{< ref "observation-management-procedure" >}}) handbook page.
-
-Given that the scope of the StORM program is limited to Tier 2 Operational Risks, any information system level risks (i.e. Tier 3) identified within the organization are typically not included as part of the StORM program as Tier 3 risks should be addressed by one or more internal controls. However, should a control have a high CHER rating, this may be an indicator of a larger risk. Because of this, there are opportunities for Tier 3 risks to escalate to Tier 2 risks. The decision to escalate a Tier 3 risk in this manner will be documented within the Risk Details.
-
 #### Ad-hoc Risk Identification and Assessment
 
 There may be times that risks are identified outside of traditional risk assessments - such as risks that arise from a security incident, risk identified through regular day-to-day business operations, etc. All security operational risks identified ad-hoc are discussed with the Security Risk Team, an inherent risk score is assigned, and a qualitative analysis done to determine if it should be escalated to the risk register.
