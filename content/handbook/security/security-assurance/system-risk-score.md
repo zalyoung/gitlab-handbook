@@ -79,7 +79,6 @@ There are no exceptions to this process.
 
 ## References
 
-- [Control Health and Effectiveness Rating Procedure]({{< ref "control-health-effectiveness-rating" >}})
 - [GCF Control Lifecycle]({{< ref "security-control-lifecycle" >}})
 - [Observation Creation Procedure]({{< ref "observation-management-procedure" >}})
 - [Observation remediation Procedure]({{< ref "observation-remediation-procedure" >}})]

@@ -305,8 +305,6 @@ In order to arrive at a final observation risk rating, the likelihood and impact
 </tbody>
 </table>
 
-Observation risk ratings play a key role in determining the Control Health and Effectiveness rating of a controls health. See the [Control Health and Effectiveness Rating (CHER) handbook page]({{< ref "control-health-effectiveness-rating" >}}) for details on CHER and how to establish a CHER rating.
-
 #### Observation Risk Ratings
 
 Tier 3 information system risk ratings are based off the [STORM risk rating methodology]({{< ref "storm-program#risk-factors-and-risk-scoring" >}}).

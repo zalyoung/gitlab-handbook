@@ -179,7 +179,6 @@ Exceptions to this procedure will be tracked as per the [Information Security Po
 - [Observation Management Procedure]({{< ref "observation-management-procedure" >}})
 - [Observation Management Project](https://gitlab.com/gitlab-com/gl-security/security-assurance/observation-management)
 - [Insight Charts](https://gitlab.com/gitlab-com/gl-security/security-assurance/observation-management/insights/#/Observation_Issues_Chart)
-- [Control Health and Effectiveness Rating Procedure]({{< ref "control-health-effectiveness-rating" >}})
 
 ## Contact & Feedback
 
