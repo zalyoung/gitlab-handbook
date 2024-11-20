@@ -165,45 +165,45 @@ Object: OPPORTUNITY
 |                                     | Finance Use                    | Customer Involved Correction       |
 |                                     | Other                          |                                    |     
 |-------------------------------------|--------------------------------|------------------------------------|
-| Billing Team                        | Payment Portals (e.g. portal set-ups, Ariba, Coupa) |                             
-|                                     | Billing Disputes (e.g. customer refusing to pay due to incorrect start date) |    
-|                                     | Cancellation Requests | 
-|                                     | Currency Related Questions |    
-|                                     | Invoice Copy Requests |  
-|                                     | Invoice Update (incl. VAT ID, name update, address update, PO) |    
-|                                     | Payment Status Confirmation/Questions |       
-|                                     | Request for Financial Documentation | 
-|                                     | Tax Exemption |    
-|                                     | Bill to/Sold to Address OR Bill to Email Address Updates |  
-|                                     | Internal Support |    
-|                                     | Request Reseller Account Creation in Zuora |  
+| Billing Team                        | Payment Portals (e.g. portal set-ups, Ariba, Coupa) |                |             
+|                                     | Billing Disputes (e.g. customer refusing to pay due to incorrect start date) |   | 
+|                                     | Cancellation Requests | |
+|                                     | Currency Related Questions | |    
+|                                     | Invoice Copy Requests |  |
+|                                     | Invoice Update (incl. VAT ID, name update, address update, PO) |    |
+|                                     | Payment Status Confirmation/Questions |       |
+|                                     | Request for Financial Documentation | |
+|                                     | Tax Exemption |    |
+|                                     | Bill to/Sold to Address OR Bill to Email Address Updates |  |
+|                                     | Internal Support |    |
+|                                     | Request Reseller Account Creation in Zuora |  |
 |-------------------------------------|--------------------------------|------------------------------------|
-| Sales Operations                    | Churn Exception Request - Comp |                             
-|                                     | Opportunity Splits |    
-|                                     | Opportunity Owner Reassignment | 
-|                                     | Opportunity Reassigment (xDR/SA/CSM)|    
-|                                     | Order Type |  
-|                                     | Stage Reversion |    
-|                                     | System Error |       
-|                                     | Other | 
-|-------------------------------------|--------------------------------|
-| Renewal Operations                  | Compensation Question |
-|                                     | Churn Exception Request |
-|                                     | Duplicate Opportunities |
-|                                     | Opportunity Reassignment/ROE |
-|                                     | Opportunity Segment/ROE |
-|                                     | Opportunity Approvals |
-|                                     | Opportunity Data Review |
-|                                     | Opportunity Update |
-|                                     | Subscription Review|
-|                                     | System Error|
-|                                     | Usage/Best Practices |
-|                                     | General Question |
-|-------------------------------------|--------------------------------|
-| Ecosystem Operations                | Quote to Order/Discounts |
-|                                     | SQS/Opp Splits Question |
-|                                     | CPPO |
-|                                     | Link a deal reg to this closed opportunity |
+| Sales Operations                    | Churn Exception Request - Comp |               |              
+|                                     | Opportunity Splits |    |
+|                                     | Opportunity Owner Reassignment | | 
+|                                     | Opportunity Reassigment (xDR/SA/CSM)| |    
+|                                     | Order Type |  |
+|                                     | Stage Reversion | |    
+|                                     | System Error |     |  
+|                                     | Other | |
+|-------------------------------------|--------------------------------|--------------------------------|
+| Renewal Operations                  | Compensation Question | |
+|                                     | Churn Exception Request | |
+|                                     | Duplicate Opportunities | |
+|                                     | Opportunity Reassignment/ROE | |
+|                                     | Opportunity Segment/ROE | |
+|                                     | Opportunity Approvals | |
+|                                     | Opportunity Data Review | |
+|                                     | Opportunity Update | |
+|                                     | Subscription Review| |
+|                                     | System Error| |
+|                                     | Usage/Best Practices | |
+|                                     | General Question | |
+|-------------------------------------|--------------------------------|--------|
+| Ecosystem Operations                | Quote to Order/Discounts | |
+|                                     | SQS/Opp Splits Question | |
+|                                     | CPPO | |
+|                                     | Link a deal reg to this closed opportunity | |
 
 Object: CONTACT 
 
