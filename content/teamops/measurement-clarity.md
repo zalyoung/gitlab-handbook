@@ -29,7 +29,7 @@ Conventional management philosophies glorify "metrics," which is a nonspecific t
 
 While KPIs measure smaller units than OKRs do, the former aren't dependent on the latter. In fact, the two should be symbiotic in nature, informing and influencing each other to enhance operational visibility, measurement accuracy, and team empowerment. If you're not creating OKRs to improve KPIs, then you're either missing KPIs or you have the wrong OKRs.
 
-Crucially, under TeamOps every functional department shares its KPIs transparently shared across the organization. This aids visibility and enables everyone to contribute.
+Crucially, under TeamOps every functional department shares its KPIs transparently across the organization. This aids visibility and enables everyone to contribute.
 
 {{% details summary="Examples and resources for transparent measurements" %}}
 **Example:** [Chief Executive Officer OKR and KPIs](/handbook/company/okrs/fy23-q3/)
