@@ -12,7 +12,7 @@ Guarantee that GitLab has the logging data coverage required to:
 
 ### Our Mission Statement
 
-The team achieves its vision by planing, executing and supporting initiatives
+The team achieves its vision by planning, executing and supporting initiatives
 that improve the coverage and usability of security logging data on GitLab.
 We manage, maintain, design, configure, and document the necessary tools,
 systems and processes to make that happen.
@@ -38,7 +38,7 @@ The Security Logging Team is responsible for managing, maintaining, designing, c
 - Owning and maintaining the security logging standard that defines important aspects and requirements of security logging, monitoring, and alerting at GitLab
 - Working with our internal GitLab customers to ensure they have the logging data, and access to this data, needed to successfully accomplish the responsibilities of their roles
 - Working closely with the Infrastructure team ensuring that log aggregation infrastructure is reliable and available to meet the needs of both Infrastructure and Security
-- Building an maintaining a library of logging profiles for various technologies that can used to gather, format, and send logging data to the appropriate log aggregation systems
+- Building and maintaining a library of logging profiles for various technologies that can used to gather, format, and send logging data to the appropriate log aggregation systems
 
 ### What we are *not* responsible for
 
@@ -62,7 +62,7 @@ The Security Logging Team can be contacted in Slack using the `#security-logging
 
 ## How We Work
 
-We are an internal customer focused and customer driven team. Our customers drive our priorities and help us define our responsibilities. We work to balance this with a risk based approach aimed at reducing and minimizing security risk at GitLab. Additionally, we embrace the DevOps model, software defined infrastructures, a cloud first approach, modular decoupled architectures, self-serviceability, and automate when and wherever possible.
+We are an internal customer focused and customer driven team. Our customers drive our priorities and help us define our responsibilities. We work to balance this with a risk based approach aimed at reducing and minimizing security risk at GitLab. Additionally, we embrace the DevOps model, software defined infrastructures, a cloud first approach, modular decoupled architectures, self-serviceability, and automation when and wherever possible.
 
 ### Meetings and Scheduled Calls
 
@@ -122,7 +122,7 @@ Please use the following labels for **general work only**:
 
 Before starting a new project, the team is **encouraged**
 to define software designs through design docs.
-These design doc documents the high level implementation strategy and key design decisions with emphasis on the trade-offs that were considered during those decisions.
+These design documents highlight the high level implementation strategy and key design decisions with emphasis on the trade-offs that were considered during those decisions.
 
 To start discussing a new design:
 
