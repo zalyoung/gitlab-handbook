@@ -246,14 +246,18 @@ The table below is a comparison between the existing GitLab.com features, and no
 
 ## Questions
 
-1. How do we create new Organizations with the user on additional Cells?
+1. How will we onboard users to an Organization on additional Cells?
 
-    To be defined.
+    An Admin will perform the following tasks:
 
-1. How do we register new users for the existing Organization on additional Cell?
+    1. Create an Organization on the additional cell.
+    1. Create a new user with the Owner role in the Organization.
+    1. Remove the Admin from the Organization. Optional, depending on feature set.
+    1. The new Owner will import data for this group. This would create users, add them to the groups/projects, and add them to the Organization.
 
-    If an Organization is already created, users can be invited.
-    We can then serve the registration flow from additional Cell.
+1. How do we register new users for the existing Organization on an additional Cell?
+
+    The standard [group](https://docs.gitlab.com/ee/user/group/#add-users-to-a-group) and [project](https://docs.gitlab.com/ee/user/project/members/#add-users-to-a-project) invite flows can be used. This means a user with [adequate permissions](https://docs.gitlab.com/ee/user/permissions.html#user-management) can invite users by email to any group or project in the Organization. After the user registers they will be added to the group or project _and_ the Organization.
 
 1. How would users log in?
 
