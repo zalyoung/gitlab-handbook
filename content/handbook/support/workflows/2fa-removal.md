@@ -7,7 +7,7 @@ description: "Workflow detailing how we process 2FA removal requests"
 
 ## Overview
 
-This workflow focuses on disabling [Two-factor Authentication](https://docs.gitlab.com/ee/user/profile/account/two_factor_authentication.html) (2FA) on a GitLab.com account. The general principles of for authenticating a request are covered in our [account verification workflow](account_verification.html).
+This workflow focuses on disabling [Two-factor Authentication](https://docs.gitlab.com/ee/user/profile/account/two_factor_authentication.html) (2FA) on a GitLab.com account. The general principles for authenticating a request are covered in our [account verification workflow](account_verification.html).
 
 2FA removal and other account actions can only be completed if the [workflow](#workflows) below is successful.
 
