@@ -352,11 +352,7 @@ In both cases, it’s essential to tag your templates with the appropriate colle
 
 #### New Groove Flow creation
 
-In an effort to better iterate, and refresh, our Groove content and workflows, we have a structured process for BDRs to create/measure new Groove Flows.
-
-Please log an issue [here](https://gitlab.com/gitlab-com/marketing/sales-development/-/issues/new) by selecting the template `BDR_Flow_Creation_Request.`
-
-The issue description will walk you through all the next steps. This process aims to:
+Please follow the instructions on [the Groove handbook page here](/handbook/marketing/marketing-operations/groove/index.html) 
 
 **Implement Measurement Clarity and Decision Velocity**
 
