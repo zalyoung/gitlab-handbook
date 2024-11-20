@@ -9,7 +9,7 @@ The Data Platform is used for data analytics purposes. This document conceptuall
 
 ## Scope
 
-This document is limited to describe the Data Platform conceptually. There are other resources that describe it in more detail (i.e. the Data Pipelines and the [infrastructure](/handbook/enterprise-data/platform/infrastructure/)/
+This document is limited to describe the Data Platform conceptually. There are other resources that describe it in more detail (i.e. the [data pipelines](/handbook/enterprise-data/platform/pipelines/) and the [infrastructure](/handbook/enterprise-data/platform/infrastructure/)).
 
 ## Roles & Responsibilities
 
