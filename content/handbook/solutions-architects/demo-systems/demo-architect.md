@@ -49,9 +49,11 @@ The goal of labs is to provide SA/CSM/CSEs with the ability to put on hands-on d
 
 ## Data Seeder
 
-Historically prepping for many different types of demos have been difficult espcially if they require pre-configurations such as plan data to work. The [Data Seeder](https://data-seeder-6ea8f7.gitlab.io/) project has solved for this allowing up to seed any type of data into GitLab itself. You can either take advantage of pre-configured content like Tanuki Racing Studios that allows for type/content changing to fit any vertical, or write your own seed files to create a repeatable demo. 
+Historically prepping for many different types of demos have been difficult espcially if they require pre-configurations such as plan data to work. The [Data Seeder](https://data-seeder-6ea8f7.gitlab.io/) project has solved for this allowing up to seed any type of data into GitLab itself. You can either take advantage of pre-configured content like Tanuki Racing Studios that allows for type/content changing to fit any vertical, or write your own seed files to create a repeatable demo. To use this project fill out the seeder request form [here](https://cloud.gitlabdap.com/)
 
 ## AWS Working Groups
+
+If you ever need a shared cluster for a hands on demo or want a deployment target without setting up the cluster yourself we offer a Learn Labs group pre-configured with an attached AWS cluster. This cluster is created through a terraform script you can also demo and has auto-cleanup built in. To request please fill out a customer workshop request [here]([here](https://cloud.gitlabdap.com/)) and mention this ask in the notes.
 
 ## Shared CS Demos
 

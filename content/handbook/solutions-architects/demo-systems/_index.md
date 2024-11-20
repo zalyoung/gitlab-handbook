@@ -11,10 +11,10 @@ The Demo Systems were originally architected by [Jeff Martin](https://gitlab.com
 
 For questions about what demo sample projects are available or peer assistance with troubleshooting your failed pipeline job, please ask in the `#demo-architect-partners` Slack channel.
 
-Please tag `@Jeff Martin` in one of the following Slack channels with any questions or requests related to infrastructure or access requests.
+Please tag `@Jeff Martin` or `@Logan Stucker` in one of the following Slack channels with any questions or requests related to infrastructure or access requests.
 
 - `#demo-systems` is for SA, CSM, and PSE team members with questions or needing technical assistance. No longer for training/workshop related posts.
-- `#demo-architect-partners` is for workshop-related discussions.
+- `#demo-architect-partners` is for workshop/lab/customer event related discussions.
 - `#demo-systems-ps-education` is for ILT/SPT/etc related discussions for Professional Services.
 - `#sandbox-cloud-questions` is for help and support with the [Sandbox Cloud](/handbook/company/infrastructure-standards/realms/sandbox/) (AWS Accounts and GCP Projects).
 
@@ -22,7 +22,7 @@ Please consider this handbook documentation to be the single source of truth ("S
 
 ### Why do we have demo systems?
 
-- **Why shouldn't we just use GitLab.com?** Although you can use GitLab.com for showing most of the value of GitLab use cases, there are some administrative features that require the deployment of GitLab Omnibus infrastructure in AWS, GCP, or local VM/container. Many of our enterprise customers opt for self-managed over GitLab.com so we are mindful of "showing the customer what they'll see in production".
+- **Why shouldn't we always use GitLab.com?** Although you can use GitLab.com for showing most of the value of GitLab use cases, there are some administrative features that require the deployment of GitLab Omnibus infrastructure in AWS, GCP, or a local VM/container. Many of our enterprise customers opt for self-managed over GitLab.com so we are mindful of "showing the customer what they'll see in production".
 
 - **What's special about our infrastructure?** The demo systems infrastructure doesn't do anything special that a customer or partner company couldn't do themselves with the appropriate staffing and engineering investment.
 
@@ -56,7 +56,6 @@ The <code>gitlab-core.us.gitlabdemo.cloud</code> instance was deprecated on 2021
 - `cs.gitlabdemo.cloud` - This is the primary GitLab Omnibus instance that all team members have access to for creating groups, projects, and sandbox purposes on a self-managed Omnibus instance. Please keep in mind that this is a shared environment across all team members and you should treat the Admin areas as read-only.
 - `ilt.gitlabtraining.cloud` - This is used for instructor-led training classes. You should generate credentials for this instance if you are an instructor and need admin access to be able to import sample projects and/or see the groups for all of the students in a class.
 - `spt.gitlabtraining.cloud` - This is used for self-paced training classes that are published in EdCast. You should only generate credentials for this instance if you are involved with instructional design or certification grading of self-paced student courses. If you are enrolled in a self-paced training class, you should follow the instructions for [redeeming an invitation code](#invitation-code-redemption) to generate temporary credentials that can be used for accessing the instance that has been pre-configured for the training lab guide steps.
-- `workshop.gitlabtraining.cloud` - This is used for enablement and field marketing workshops that are delivered on a routine basis. You should generate credentials for this instance if you are involved creating lab sample projects, lab guides, presenting, or supporting a workshop.
 
 ## Isolated Environments
 
@@ -64,6 +63,7 @@ The <code>gitlab-core.us.gitlabdemo.cloud</code> instance was deprecated on 2021
 - **GCP Project**: See the [instructions](#aws-account-or-gcp-project-sandbox-cloud) for provisioning your own isolated GCP project with the GitLab Sandbox Cloud.
 - **AWS Elastic Kubernetes Service (EKS) Cluster:** You can use your AWS account to provision an EKS cluster using the [Adding EKS clusters](https://docs.gitlab.com/ee/user/project/clusters/add_eks_clusters.html) GitLab documentation.
 - **GCP Google Kubernetes Enginge (GKE) Cluster:** Send a message to Jeff Martin with questions about clusters that are in the `group-cs` GCP project. See the tutorial for [configuring GitLab with group-level Kubernetes cluster](/handbook/customer-success/demo-systems/tutorials/getting-started/configuring-group-cluster/) to add your cluster to your GitLab group.
+- **AWS Learning Labs**: dedicated AWS instance for customer facing needs. Deployment targets for this instance can be requested through the [Demo Architecture Portal](https://cloud.gitlabdap.com/)
 
 ## How to Get Started
 
@@ -92,7 +92,7 @@ See the [Sandbox Realm](/handbook/company/infrastructure-standards/realms/sandbo
 
 ### Invitation Code Creation
 
-Invitations codes are created by the demo systems team and can be requested by following the [Workshop Preparation guide](#workshop-preparation).
+Invitations codes are created by the demo architecture team along with the infrastructure to support your events. They can be requested through the [Demo Architecture Portal](https://cloud.gitlabdap.com/)
 
 ### Invitation Code Redemption
 
@@ -116,15 +116,21 @@ Workshop preparation steps will be linked on the resulting issue after completin
 
 ### Workshop lab guide catalog
 
-All of the workshop content that are created officially can be found in the [Learn Labs Sample Projects](https://gitlab.com/gitlab-learn-labs/sample-projects) group. Often workshops don't fit a customers needs out of the box so we support creation of custom customer workshops/labs/demos through the [DA Portal](https://cloud.gitlabdap.com/)
+All of the workshop content that are created officially can be found in the [Learn Labs Sample Projects](https://gitlab.com/gitlab-learn-labs/sample-projects) group. Often workshops don't fit a customers needs out of the box so we support creation of custom customer workshops/labs/demos through the [Demo Architecture Portal](https://cloud.gitlabdap.com/)
+
+### Demo Architecture Support
+
+The Demo Architecture team provides many different offerings to assist you while delivering and preping for demos, workshops, etc. Please reference the [Demo Architect handbook page](/handbook/solutions-architects/demo-systems/demo-architect.md) for a list of all offerings
 
 ## Version Upgrades and Maintenance
 
-We perform version upgrades on the weekend following the [monthly release](/handbook/engineering/releases/). The weekend upgrades are performed at a random time on Saturday or Sunday based on engineer availablility and lasts for approximately 30 minutes.
+For the CS demo instance we perform monthly upgrades on the 4th Friday of every month, always staying one version behind .com.
+
+For all other instances we perform version upgrades on the weekend following the [monthly release](/handbook/engineering/releases/). The weekend upgrades are performed at a random time on Saturday or Sunday based on engineer availablility and lasts for approximately 30 minutes.
 
 We delay the upgrade window for updates that we consider risky or occur during holidays. This occurs during May each year that aligns with the US Memorial Day holiday, in December around the Christmas Holiday, and in January at the end of the fiscal year when we have a configuration freeze until sales demos are completed.
 
-For patch and security updates, we will usually only perform upgrades for critical updates and will announce maintenance windows in the `#demo-systems` channel on Slack.
+For patch and security updates, we will usually only perform upgrades for critical updates and will announce maintenance windows in the `#demo-systems` or `##demo-architect-partners` channel on Slack.
 
 ### Legacy Version Support
 
@@ -136,14 +142,6 @@ For demo and sandbox use cases requiring an older version, you can deploy a GitL
 
 - [Configuring GitLab with group-level Kubernetes cluster](/handbook/customer-success/demo-systems/tutorials/getting-started/configuring-group-cluster/)
 - [Create a Jenkins Pipeline (Deprecated, Educational only)](/handbook/customer-success/demo-systems/tutorials/integrations/create-jenkins-pipeline/)
-
-## Sample Data
-
-Historically, there has not been a consistent set of demo data. Each of our Solutions Architects are responsible for creating their own demo data or forking projects from other team members.
-
-See the handbook page for [Demo Readiness](/handbook/solutions-architects/demonstrations/#demo-readiness) and [Existing Demonstrations](/handbook/solutions-architects/demonstrations/#existing-demonstrations) to get started.
-
-Please see the <a href="https://gitlab.com/gitlab-com/customer-success/solutions-architecture-leaders/sa-initiatives/-/issues">Solutions Architecture Initiatives issue tracker</a> for more information on the crowd sourced OKRs that are in progress and the development of our [Communities of Practice](/handbook/customer-success/initiatives/communities-of-practice/).
 
 ## Projects and Code Repositories
 
