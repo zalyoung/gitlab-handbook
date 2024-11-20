@@ -173,7 +173,7 @@ This section is a high-level summary (3-5 sentences) of achievements that demons
 
 As our most important [value](/handbook/values/#hierarchy), results are at the core of everything we do.
 
-Please list the 3 most impactful results (accomplishments, initiatives, or projects) that demonstrate the team member's performance at the next level aligned with our values and expectations in the [job framework](https://docs.google.com/spreadsheets/d/1FX4NBwF099uMBm7mGBtf1orIJZuHEjtiEa3jSbg9jJs/edit#gid=0).
+Please list the 3 most impactful results (accomplishments, initiatives, or projects) that demonstrate the team member's performance at the next level aligned with our values and expectations in the [job framework](https://docs.google.com/spreadsheets/d/1A46wqVK0ZdhmN7HT7G3QrBbExJw6vZJrSCFIiFd9T7U/edit?gid=0#gid=0).
 
 **Project impact on GitLab / Business Result**
 
@@ -339,7 +339,7 @@ As a leader, if your team member's promotion is approved, you will need to reset
 
 #### Guiding Questions for FY25 Promotions
 
-*Please refer to the [GitLab Job Frameworks](https://docs.google.com/spreadsheets/d/1FX4NBwF099uMBm7mGBtf1orIJZuHEjtiEa3jSbg9jJs/edit#gid=0), [Engineering IC Career Matrix](/handbook/engineering/careers/matrix/) and the [Engineering Leadership Job Families](/job-families/engineering/development/management/) to view the team member's current responsibilities, and future expectations after the promotion.*
+*Please refer to the [GitLab Job Frameworks](https://docs.google.com/spreadsheets/d/1A46wqVK0ZdhmN7HT7G3QrBbExJw6vZJrSCFIiFd9T7U/edit?gid=0#gid=0), [Engineering IC Career Matrix](/handbook/engineering/careers/matrix/) and the [Engineering Leadership Job Families](/job-families/engineering/development/management/) to view the team member's current responsibilities, and future expectations after the promotion.*
 
 1. How will this team member's role change if the promotion is approved? What work will they stop doing in order to make room for their increased responsibilities? It is expected that this be included in the business justification and that these decisions are a benefit to the team, stage and company, depending on the level of the promotion.
 
@@ -377,7 +377,7 @@ The steps below outline the process promotion candidates should follow to reques
         - Feedback provider is not in the same reporting line as the manager (I.E. not team member's manager, skip level, etc.)
         - Feedback providers can be cross-functional or within the division, with a mix of both being the preference and recommendation. The core focus when thinking through who the most appropriate team members to provide feedback are is to reflect on who worked most closely with the promotion candidate on the business results highlighted in the promotion document.
         - Feedback providers should be at or above the target promotion level (I.E. if a Security Engineer is targeting a Senior Security Engineer promotion, the feedback provider's level should be Senior Security Engineer or higher). Feedback providers can be individual contributors or people managers at or above the target promotion level. The reason we require feedback providers to be at or above the target promotion level is to ensure they are able to speak to business results and collaboration in the context of next level expectations as team members who are already operating at the next level.
-    - You can reference our [job grades](/handbook/total-rewards/compensation/compensation-calculator/#job-grades) for a refresh on the people management and individual contributor corresponding job levels, [GitLab Job Frameworks](https://docs.google.com/spreadsheets/d/1FX4NBwF099uMBm7mGBtf1orIJZuHEjtiEa3jSbg9jJs/edit#gid=0) for an overview of key differences by level company-wide, and our [job families](/job-families/security/) as a resource for Security-specific differences in expectations by level.
+    - You can reference our [job grades](/handbook/total-rewards/compensation/compensation-calculator/#job-grades) for a refresh on the people management and individual contributor corresponding job levels, [GitLab Job Frameworks](https://docs.google.com/spreadsheets/d/1A46wqVK0ZdhmN7HT7G3QrBbExJw6vZJrSCFIiFd9T7U/edit?gid=0#gid=0) for an overview of key differences by level company-wide, and our [job families](/job-families/security/) as a resource for Security-specific differences in expectations by level.
     - If you need assistance meeting these requirements for selecting feedback providers, please discuss with your manager for support.
     - **Due date: 2024-11-14**
 5. Team member sends out feedback form copy to feedback providers
@@ -413,7 +413,7 @@ Feedback provided **will not** be shared outside of the promotion candidates' le
 
 An overview of key resources highlighted above for the Security promotion feedback process. These are either resources that will be used during the process, or resources we recommend team members and feedback providers review ahead of kicking off the process.
 
-- [GitLab Job Frameworks](https://docs.google.com/spreadsheets/d/1FX4NBwF099uMBm7mGBtf1orIJZuHEjtiEa3jSbg9jJs/edit#gid=0)
+- [GitLab Job Frameworks](https://docs.google.com/spreadsheets/d/1A46wqVK0ZdhmN7HT7G3QrBbExJw6vZJrSCFIiFd9T7U/edit?gid=0#gid=0)
 - [Security job families](/job-families/security/)
 - [Guidance on Feedback](/handbook/people-group/guidance-on-feedback/)
 - [GitLab job grades](/handbook/total-rewards/compensation/compensation-calculator/#job-grades)
