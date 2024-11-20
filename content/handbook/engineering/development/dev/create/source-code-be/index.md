@@ -69,6 +69,14 @@ Weekly calls between the Product Manager and Engineering Managers (frontend and 
 
 **Note**: if an issue receives a weight > 3 after this process, it may indicate the IC may not have a full idea of what is needed and further research is needed.
 
+#### Epics, issues, and tasks
+
+The Source Code team uses the following structure of planning objects to organize work:
+
+1. **Epics:** are used to identify a larger set of work that aligns to a specific category/theme (most broad) or feature (most specific) that has multiple issues for delivery and spans multiple milestones worth of work.
+1. **Issues:** are used for individual items that will be planned and can be delivered in a single milestone.
+1. **Tasks:** can be created by the issue's DRI inside an issue to further define pieces that need to be delivered as part of completing the issue. Ex: For Pair Programming, For granular details on the progress, etc.
+
 ### Convention over configuration
 
 As stated in our direction, we must place special emphasis on our [convention over configuration](https://about.gitlab.com/direction/create/source_code_management/#critical-product-principles) principle. As the feature set within Create:Source Code grows, it may feel natural to solve problems with configuration. To ensure this is not the case, we must intentionally challenge MVC and new feature issues to check for this. Let's consider the following steps for best results:
