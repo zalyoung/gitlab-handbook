@@ -61,6 +61,8 @@ The table below provides a summary of the available verification options based o
 | Account holder (Paid) | Other member of same paid group | Invalid request type - must be raised by an Enterprise owner | Communication is direct from the target user who must be CC'd on ticket. |
 | Account holder (Free) | Non-member of group with intent to be added | Invalid request type - request must come from Enterprise owner |  |
 
+To summarize: If a user cannot make use of self-serve methods (lost their account recovery codes and has no SSH key registered) there are two potential ways to validate the request and recover the account: having the account holder open the request, or by having an enterprise owner create the request on their behalf.
+
 See the [Enterprise User section]({{< ref "gitlab-com_overview.md#enterprise-users" >}}) on how to identify if a user is an Enterprise User.
 
 ### Conditions when account is used to access Customers Portal
@@ -80,8 +82,6 @@ Because 2FA removal tickets are a matter of record, the ticket must be simple, a
 Do not allow the customer to bring up unrelated topics.
 
 ## Disable 2FA with support intervention
-
-If a user cannot make use of self-serve methods (lost their account recovery codes and has no SSH key registered) there are two potential ways to validate the request and recover the account: having the account holder open the request, or by having an enterprise owner create the request on their behalf.
 
 Support intervention for 2FA removal after the above steps have been attempted is only possible for users with an *existing paid plan* when the ticket is created. For security purposes, Support will not process 2FA resets for users who are added to a paid subscription for the express purpose of having 2FA disabled on their account.
 
@@ -119,7 +119,7 @@ This section is typically done by the peer reviewer. If needed, the peer reviewe
 1. If you agree with the decision, sign into your admin account and locate the username in the users table or by going to `https://gitlab.com/admin/users/usernamegoeshere`
       1. Under the account tab, click `Edit`, add an [Admin Note]({{< ref "admin_note" >}}), and save.
       1. On the account tab, click on `Disable 2FA`.
-      1. Use the `Support::SaaS::Gitlab.com2FA::2FA Removal Verification - Successful` [macro](https://gitlab.com/gitlab-com/support/zendesk-global/macros/-/blob/master/active/Support/SaaS/GitLab.com/2FA/2FA%20Removal%20Verification%20-%20Successful.md?ref_type=heads).
+      1. Use the `Support::SaaS::Gitlab.com::2FA::2FA Removal Verification - Successful` [macro](https://gitlab.com/gitlab-com/support/zendesk-global/macros/-/blob/master/active/Support/SaaS/GitLab.com/2FA/2FA%20Removal%20Verification%20-%20Successful.md?ref_type=heads).
 
 ##### Step 2b: User fails to prove account ownership
 
@@ -161,7 +161,7 @@ This section is typically done by the peer reviewer. If needed, the peer reviewe
 1. If you agree with the decision, sign into your admin account and locate the username in the users table or by going to `https://gitlab.com/admin/users/usernamegoeshere`
       1. Under the account tab, click `Edit`, add an [Admin Note]({{< ref "admin_note" >}}), and save.
       1. On the account tab, click on `Disable 2FA`.
-      1. Use the `Support::SaaS::Gitlab.com2FA::2FA Removal Verification - Successful` [macro](https://gitlab.com/gitlab-com/support/zendesk-global/macros/-/blob/master/active/Support/SaaS/GitLab.com/2FA/2FA%20Removal%20Verification%20-%20Successful.md?ref_type=heads).
+      1. Use the `Support::SaaS::Gitlab.com::2FA::2FA Removal Verification - Successful` [macro](https://gitlab.com/gitlab-com/support/zendesk-global/macros/-/blob/master/active/Support/SaaS/GitLab.com/2FA/2FA%20Removal%20Verification%20-%20Successful.md?ref_type=heads).
 
 ##### Step 2b: Enterprise Owner fails to prove their identity
 
