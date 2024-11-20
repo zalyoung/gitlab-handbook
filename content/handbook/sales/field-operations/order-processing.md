@@ -717,6 +717,12 @@ If an opportunity meets the criteria listed above, but does not meet the Minimum
 1. Approval is required per the [Deal Approval Matrix](https://docs.google.com/document/d/1-CH-uH_zr0qaVaV1QbmVZ1rF669DsaUeq9w-q1QiKPE/edit#heading=h.dccvx02huo2y).
 1. If the approvals noted above are obtained, and no other approvals are required, the quote will be approved. If the approvals noted above are obtained, and other approvals are required (discount approvals, payment term approvals, etc.), the quote approval module will automatically enter the existing approval process.
 
+### Other services quote approvals
+
+#### EM Approval on Consulting Block quotes
+
+For quotes that contain the Professional Services SKU [consulting block](https://about.gitlab.com/services/skus/consulting-block/), the quote will require an approval from an Engagement Manager on the Professional Services team. If you are unsure of who your assigned engagement manager is, check out [the PS to Sales Mapping doc](https://docs.google.com/document/d/1sdehii3Eqp_CiYsGT3dDb0nKbbtwpxKQlni7t3ZgfCs/edit?tab=t.0#heading=h.1er41qhhpoj5) (Internal Team Mmembers only). 
+
 ### Waived True-Ups: Policy and Approval Requirements
 
 **Summary: Waived True-Ups require executive approvals and may negatively impact Net ARR.**
