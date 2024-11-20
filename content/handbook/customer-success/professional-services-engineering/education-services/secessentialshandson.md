@@ -12,7 +12,6 @@ description: "This Hands-On Guide walks you through the lab exercises used in th
 | Enable and Configure Container Scanning | [Lab Link](/handbook/customer-success/professional-services-engineering/education-services/secessentialshandson3) |
 | Enable and Configure License Compliance | [Lab Link](/handbook/customer-success/professional-services-engineering/education-services/secessentialshandson4) |
 | Enable and Configure Coverage-Guided Fuzz Testing | [Lab Link](/handbook/customer-success/professional-services-engineering/education-services/secessentialshandson5) |
-| Enable and Scan Using a Scan Execution Policy | [Lab Link](/handbook/customer-success/professional-services-engineering/education-services/secessentialshandson6) |
 
 ## Quick Links
 
