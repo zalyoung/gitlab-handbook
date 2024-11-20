@@ -164,7 +164,6 @@ Object: OPPORTUNITY
 |                                     | Finance Use                    | Internal Only Correction           |
 |                                     | Finance Use                    | Customer Involved Correction       |
 |                                     | Other                          |                                    |     
-|-------------------------------------|--------------------------------|------------------------------------|
 | Billing Team                        | Payment Portals (e.g. portal set-ups, Ariba, Coupa) |                |             
 |                                     | Billing Disputes (e.g. customer refusing to pay due to incorrect start date) |   | 
 |                                     | Cancellation Requests | |
@@ -177,7 +176,6 @@ Object: OPPORTUNITY
 |                                     | Bill to/Sold to Address OR Bill to Email Address Updates |  |
 |                                     | Internal Support |    |
 |                                     | Request Reseller Account Creation in Zuora |  |
-|-------------------------------------|--------------------------------|------------------------------------|
 | Sales Operations                    | Churn Exception Request - Comp |               |              
 |                                     | Opportunity Splits |    |
 |                                     | Opportunity Owner Reassignment | | 
@@ -186,7 +184,6 @@ Object: OPPORTUNITY
 |                                     | Stage Reversion | |    
 |                                     | System Error |     |  
 |                                     | Other | |
-|-------------------------------------|--------------------------------|--------------------------------|
 | Renewal Operations                  | Compensation Question | |
 |                                     | Churn Exception Request | |
 |                                     | Duplicate Opportunities | |
@@ -199,7 +196,6 @@ Object: OPPORTUNITY
 |                                     | System Error| |
 |                                     | Usage/Best Practices | |
 |                                     | General Question | |
-|-------------------------------------|--------------------------------|--------|
 | Ecosystem Operations                | Quote to Order/Discounts | |
 |                                     | SQS/Opp Splits Question | |
 |                                     | CPPO | |
@@ -254,7 +250,6 @@ Object: PARTNER ACCOUNT
 |                                     | Post-Sale Support |
 |                                     | Update Account Owner |
 |                                     | Partner Account Merges, Name Changes, and Aquisitions |
-|-------------------------------------|--------------------------------------------------------------------------------------------|
 | Billing Team                        | Request Reseller Account Creation in Zuora |
 
 Object: DEAL REGISTRATION
@@ -268,3 +263,9 @@ Object: DEAL REGISTRATION
 |                                     | Linked Customer Account Employee Count/Segment Update |
 |                                     | Extension Request > 30 Days |
 |                                     | Link Reg to a Different Open Opportunity |
+
+Objects: Labra Leads, Labra Referral, Influence Object
+
+| TEAM:                               | REQUEST:                                                                                   |
+|-------------------------------------|--------------------------------------------------------------------------------------------|
+| Ecosystem Operations                | General Question     |
