@@ -45,11 +45,11 @@ Please see the internal [Wiki](https://gitlab.com/gitlab-com/Finance-Division/fi
 Avoid contacting any Billing team members [directly via Slack](/handbook/communication/#avoid-direct-messages). Please tag `@billing-ops` in the #Finance channel.
 
 - Email: `billing@gitlab.com`
-- Salesforce: `@billing-ops`
+- Salesforce: Please follow the Requesting Internal Support workflow outlined [here,](/handbook/sales/field-operations/requesting-internal-support/#salesforce-workflow) this will ensure that your inquiry will be routed to the Billing Operations team.
 
-**Questions on a Quote?** Please contact `@sales-support`
+Please do not tag individual team members on opportunities to avoid potential delays.
 
-Do not tag individual team members in opportunities. Using `@billing-ops` will ensure that your inquiry is supported quickly and will avoid any potential delays.
+**Questions on a Quote?** Please contact the Deal Desk team by following the steps oulined [here.](/handbook/sales/field-operations/requesting-internal-support/#salesforce-workflow)
 
 ## Standard Operating Process
 
