@@ -95,6 +95,10 @@ Budget estimations for the Growth & Development Fund are based on utilization ra
 
 The [Growth and Development]({{< ref "/handbook/people-group/learning-and-development/growth-and-development/" >}}) covers information on the application process and the different types of expenses that are eligible for reimbursement.
 
+## Modern Health - Mental Health Benefit
+
+GitLab offers Mental Health Support to all team members via [Modern Health]({{< ref "modern-health" >}}).
+
 ## GitLab Summit
 
 GitLab Summit (formerly known as Contribute) is our annual GitLab team event where we get together to interact with one another and cultivate our community. Since our team is scattered all over the globe, we try to plan a different location each year. Summit is an optional event, so team members should not feel pressured to attend.
@@ -139,10 +143,6 @@ If you have questions, reach out in the [#peopleconnect](https://gitlab.enterpri
 
 GitLab offers benefits in relation to [obtaining visas and work permits](/handbook/people-group/visas/) for eligible team members.
 
-## Employee Assistance Program
-
-GitLab offers an Employee Assistance Program to all team members via [Modern Health]({{< ref "modern-health" >}}).
-
 ## Incentives
 
 The following incentives are available for GitLab team members:
@@ -172,7 +172,9 @@ Examples of when someone may request a meal train (this list isn't exhaustive):
 - Extended illnesses
 - Condolences
 
-### Instructions for starting a Meal Train
+<details markdown="1">
+
+<summary>Instructions for starting a Meal Train</summary>
 
 1. You may create a Meal Train for yourself or for a fellow team member. If you are not the recipient of the Meal Train, please receive approval from the team member first and forward this to the Total Rewards team. We highly encourage managers to reach out to their team member to see if they would like a Meal Train if the manager informs them of a life disruption.
 1. When creating a Meal Train, please create this in GitLab using the [Meal Train issue template](https://gitlab.com/gitlab-com/people-group/total-rewards/-/blob/master/.gitlab/issue_templates/meal_train.md).
@@ -181,13 +183,19 @@ Examples of when someone may request a meal train (this list isn't exhaustive):
     - The Total Rewards team is also happy to create the issue on your behalf if you send the form details to total-rewards@ domain.
 1. The issue template has 5 pre-populated entries to add a date to, but the Meal Train can be longer or shorter than this. Please add as many dates that are needed and if at the end, you feel more are needed, please add the additional dates and notify the Total Rewards Analyst assigned to the issue that you have added dates so they can help gather support.
 
-### Instructions for participating in a Meal Train
+</details>
+
+<details markdown="1">
+
+<summary>Instructions for participating in a Meal Train</summary>
 
 1. All Meal Trains are posted by a member of the Total Rewards team in the #whats-happening-at-gitlab slack channel. You can also check the [Total Rewards issue tracker](https://gitlab.com/gitlab-com/people-group/total-rewards/-/issues) where all Meal Trains will be designated as such.
 1. If there is a Meal Train occuring, please read through the entire issue. If you are interested in participating, please edit the issue and add your name to the date you would like to contribute to. There is also a field to add the meal you will be providing or the meal delivery service you intend to gift. More instructions for how to proceed as a team member will be located in the issue.
     - Please note, it is typically only possible to gift a gift card from within the same country. The Total Rewards team is researching possible ways to participate from a different country than the recipient, but until we have a solution, we don't advise participating in this from a different country and can not help facilitate this.
 1. Ensure you can follow through on the date you sign up for or please help coordinate a replacement as soon as you know you can no longer participate.
 1. Participation is voluntary and is **NOT** reimbursable by GitLab. Any expense incurred would be your responsibility.
+
+</details>
 
 ## Fertility & Family Planning
 
@@ -220,7 +228,9 @@ If you need to take more time off after Parental Leave, you may utilize GitLab's
 
 Please submit the dates of your PTO in Workday by selecting `Paid Time Off`.
 
-### How to Initiate Your Parental Leave
+<details markdown="1">
+
+<summary>How to Initiate Your Parental Leave</summary>
 
 Some team members may feel comfortable sharing their news sooner than other team members. You can share your news with your Manager whenever you feel comfortable, but we recommend communicating your plan to your manager at least 2-3 months before your leave starts for workload planning purposes. In the meantime, familiarize yourself with the steps below and specific leave requirements in your [country]({{< ref "general-and-entity-benefits#entity-benefits" >}}) (if any).
 
@@ -236,9 +246,13 @@ Your manager and the Absence Management team will be notified after you submit y
   - If eligible to roll over public holidays, and you'd like to use them to extend your time away, please enter this as `Public Holiday` in Workday and add a note indicating "rolling over holidays which occured while on parental leave".
 - Some countries require extra paperwork or have specific leave requirements, which are subject to change as legal requirements change. Please take a look at your [country's leave policy](#entity-benefits).
 
+</details>
+
 ### Commission Payout and Quota Relief
 
-### Commission Payments on Parental Leave
+<details markdown="1">
+
+<summary>Commission Payments on Parental Leave</summary>
 
 Team members on a parental leave of absence longer than 30 days in length will be eligible for parental leave commissions payments, as outlined below.
 
@@ -250,7 +264,11 @@ On the day you return from leave and going forward, your commissions will be bas
 
 In all cases, target variable pay used for LOA commission payments is 1/12 of annual on-target incentives (OTI) per month on leave.
 
-#### Quota Relief While On Parental Leave
+</details>
+
+<details markdown="1">
+
+<summary>Quota Relief While On Parental Leave</summary>
 
 Additionally, effective Q1 FY22, commissioned roles are eligible to receive quota relief during their parental leave if the team member has six months or greater of tenure with GitLab before the start of their leave and their leave of absence is longer than 60 continuous days. The team member will receive credit and commissions as specified in their existing Participant Schedule that occur ***prior*** to the start of the leave. After 60 continuous days of parental leave, quota relief will be applied to the team member on leave for the total duration of the leave up to a total of 4 months. The team member would receive an amended Participant Schedule upon return from leave. That amended participant schedule will include a prorated On Target Incentive based off the number of days that a team member is in seat for the fiscal year. For example, If coming back from leave at the beginning of a fiscal year, the On Target Incentive will not be prorated. Please see a [reference slide here](https://docs.google.com/presentation/d/1pWM8UhJGL7G8w_QzLKM1q2Rqql4OKm7vLD9HSCKfT9g/edit#slide=id.p) for an example of how the quota relief process and calculation works. For more information on quota relief and commissions on leave, please refer to the terms in the [Sales Compensation Plan](/handbook/finance/sales-comp-plan/#sales-compensation-plan).
 
@@ -262,19 +280,25 @@ For Sales roles with a utilization attainment, like the [Professional Services E
 
 On the day you return from leave, the utilization payout returns to the established utilization attainment ranges.
 
+</details>
+
 ### Commission Payments on Non-Parental Leave
 
 Effective Q1 FY25, team members on leave for 30 days or more will be eligible for Commissions to be paid for the first five weeks of non-parental leave. Commissions will be paid based on the 6 prior months of performance with a cap at 100% of plan. After five weeks of non-parental leave, the team member would become ineligible for commissions. Any local requirements for commission payments on non-parental leave would supersede this policy.
 
 For Solution Architects and Sales Management and Customer Success Management, payment will be calculated for individuals using actual team performance for the first five weeks of non-parental leave. These roles will not be eligible for quota relief during non-parental leave.
 
-#### Quota Relief While On Non-Parental Leave
+<details markdown="1">
+
+<summary>Quota Relief While On Non-Parental Leave</summary>
 
 Additionally, effective Q1 FY24, commissioned roles are eligible to receive quota relief if the team member has been with GitLab for six months or longer prior to the start of the leave. The team member will receive credit and commissions as specified in their existing Participant Schedule that occur ***prior*** to the start of the leave. After 60 continuous days of leave, quota relief will be applied to the team member on leave for the total duration of the leave up to a total of 3 months. The team member would receive an amended Participant Schedule upon return from leave. That amended participant schedule will include a prorated On Target Incentive based off the number of days that a team member is in seat for the fiscal year. For example, if coming back from leave at the beginning of a fiscal year the On Target Incentive will not be prorated. Please review this [reference slide](https://docs.google.com/presentation/d/1pWM8UhJGL7G8w_QzLKM1q2Rqql4OKm7vLD9HSCKfT9g/edit#slide=id.p) for an illustration of the quota relief and calculation process. For more information on quota relief and commissions on leave, please refer to the terms in the [Sales Compensation Plan](/handbook/finance/sales-comp-plan/#sales-compensation-plan).
 
 Sales management has discretion on how to cover a team member's territory while they are on leave. However, if another team member is assigned to cover business for someone on leave, they should be assigned the opportunity in SFDC but not the account. Team members covering opportunities will be compensated on the opportunities that they close in their name. Reassigning accounts may trigger quota changes.
 
 You are entitled to and need to comply with your local regulations. They override our policy.
+
+</details>
 
 ### Returning from Parental Leave
 
