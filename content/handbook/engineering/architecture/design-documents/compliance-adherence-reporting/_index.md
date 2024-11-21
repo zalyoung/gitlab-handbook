@@ -35,10 +35,10 @@ Currently the Standards are hard coded in the Adherence report (renamed to Statu
 
 1. Use Compliance Frameworks to include certain projects in the Adherence Report and distinguish which requirements those projects are complaint with.
 1. Add a Requirements level to the Adherence report
-1. Add more Standards and Checks
+1. Add more Standards and Controls
 1. Allow users to customise Standards
 1. Allow users to create their own Standards
-1. Allow users to create customisable Checks
+1. Allow users to create customisable Controls
 
 #### Audit History
 
@@ -76,7 +76,6 @@ compliance frameworks in GitLab 17.3.
 
 ### Non-Goals
 
-1. Allow users to create customisable Controls
 1. Compliance events
    1. [Violations within MRs](https://docs.gitlab.com/ee/user/compliance/compliance_center/compliance_violations_report.html)
    1. [Audit events](https://docs.gitlab.com/ee/user/compliance/audit_events.html)
@@ -97,21 +96,59 @@ compliance frameworks in GitLab 17.3.
 1. Control
    1. A control is a specific compliance rule that needs to be met to meet a compliance requirement. Enforcement of this is achieved in GitLab through settings, Security Policies or Compliance Pipelines.
 
-### Decisions
-
-- ~~[001: Triggering Checks](decisions/001_triggering_checks.md)~~ (changed, see ADR 004)
-- [002: Custom Adherence Report](decisions/002_custom_adherence_report.md)
-- [003: Custom Controls](decisions/003_custom_controls.md)
-- [004: Use Time-based Triggers for Checks](decisions/004_time_based_triggers.md)
-
 ### Design Details
+
+We will use [Sidekiq workers to create controls](decisions/001_triggering_checks.md#use-sidekiq-workers-for-creating-and-updating-checks)
+and [store the adherence configuration in the database as relational data](decisions/002_custom_adherence_report.md#storing-the-compliance-adherence-configuration-in-database-as-relational-data).
 
 See [Scalability review document](scalability_review.md) for further details.
 
-We decided to use [Sidekiq workers for creating checks](decisions/001_triggering_checks.md#use-sidekiq-workers-for-creating-and-updating-checks)
-and [storing the adherence configuration in database as relational data](decisions/002_custom_adherence_report.md#storing-the-compliance-adherence-configuration-in-database-as-relational-data).
+#### Customizable Controls
+
+NOTE: For a more detailed overview, see [ADR 003: Custom Controls](decisions/003_custom_controls.md)
+
+We want the ability to create custom requirements so that users don't need to rely only on the exhaustive list of
+controls that GitLab supports or would support in the future.
+
+Requirements are composed of a combination of both out-of-the-box and user-defined controls. By building
+a normalized and composable data model we avoid special handling for individual controls and can scale both compliance
+and violation evaluations uniformally within our relational datastore.
+
+##### Approach
+
+To allow users to create controls on their own as per their requirements we need to have the following types of
+requirements:
+
+1. [Internal requirements](#internal-requirements): Enable users to create logical expressions from an enumerated list of project and namespace computed properties
+1. [External requirements](#external-requirements): Enable users to create requirements that rely on their external services like HTTP servers.
+
+##### Internal requirements
+
+We will allow users to create logical expressions with all the available project settings. These expressions form the controls against
+which the projects are be evaluated. We store these as a structured JSON in the `compliance_requirements` table with 'internal'
+as the `requirement_type`.
+
+We will use schema validators for validating the input and store these in the `expression` column of the
+`compliance_requirements` database table.
+
+The UI will provide dropdowns to choose the field, operator and values. This is created so that
+the users don't have to write complex JSON expressions on their own.
+
+Each expression is evaluated to a boolean true or false.
+
+##### External requirements
+
+The external HTTP/HTTPS URLs for the user's services are stored in the `compliance_requirements` table with
+'external' as the `requirement_type`.
+
+We POST the latest project settings to these external services and expect a boolean status as the response.
+Alternatively, we could also create a POST API that can be used to update the status of an external requirement, this would be a
+similar to [setting the status of external status checks](https://docs.gitlab.com/ee/api/status_checks.html#set-status-of-an-external-status-check).
+
+#### Database Schema
+
 It was [decided](decisions/003_custom_controls.md#decision) to combine `compliance_checks` and
-`compliance_requirements` tables to reduce redundancy.
+`compliance_requirements` tables to reduce redundancy and rename checks to controls.
 
 The compliance requirements would be stored in a separate table with the following schema:
 
@@ -196,12 +233,19 @@ configured. Instead of an enum we would store the `compliance_requirement_id` in
 
 In the next iteration we would also allow importing and exporting the compliance requirement configurations.
 
-### Implementation Details
+### Constraints
 
-| Issue | Milestone | MR | Status |
-| ----- | --------- | -- | ------ |
-|  |  |  |  |
+Feature should be designed with application limits to mitigate abuse, leading to query timeouts
+and poor user experience.
 
-### FAQ
+1. Limit maximum number of compliance frameworks per project: 20 to be increased as needed
+1. Limit maximum number of requirements per framework: 50 to be increased as needed
+1. Limit maximum number of checks a control expression can have: 5 to be increased as needed
+1. Allowlist of project settings and associations that could be used for creating expressions
 
--
+### Decisions
+
+- ~~[001: Triggering Checks](decisions/001_triggering_checks.md)~~ (changed, see ADR 004)
+- [002: Custom Adherence Report](decisions/002_custom_adherence_report.md)
+- [003: Custom Controls](decisions/003_custom_controls.md)
+- [004: Use Time-based Triggers for Controls](decisions/004_time_based_triggers.md)
