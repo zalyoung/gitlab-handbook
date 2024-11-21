@@ -871,7 +871,7 @@ GitLab has a specific process to follow in crisis situations to ensure effective
 
 ## Presentations
 
-1. All presentations are made in Google Slides using [our templates](/handbook/tools-and-tips/#updating-your-existing-slide-deck-theme).
+1. All presentations are made in Google Slides using [our templates](/handbook/tools-and-tips/#google-slides).
 1. Please allow anyone at GitLab to edit the presentation (preferred) or at least comment on the presentation.
 1. If the content can be public use File > Publish to the web > Publish to get a URL and paste that in the speaker notes of the first slide (commonly the title slide).
 1. The title of every slide should be the message you want the audience to take away, not the subject matter. So use 'Our revenue more than doubled' instead of 'Revenue growth'.
