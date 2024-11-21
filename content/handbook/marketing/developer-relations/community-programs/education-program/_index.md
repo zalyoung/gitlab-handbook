@@ -150,3 +150,4 @@ If the answer to any of the above questions is "no", our team will collaborate w
 1. Make adjustments so we can take on the work.
 1. Find another team that is better suited to deliver the work.
 1. Come to an agreement that the work should not be done.
+-
