@@ -1642,7 +1642,7 @@ Of those 1-3 items listed, do you need any roadblocks removed in order to accomp
 
 You will be notified via the Geekbot plug in on slack at 9 AM your local time on Mondays, as stated above. It is important to note, that unless you answer all questions in the Geekbot plug in, your answers will NOT be shared with your colleagues, so please be sure to complete all questions!
 
-## Out of Office Processes
+## Out of Office Process
 
 We follow the processes documented in the [Communicating your time off section](/handbook/people-group/paid-time-off/#communicating-your-time-off) of our handbook page.
 
@@ -1655,7 +1655,8 @@ Specifically:
 1. Add an OOO to your Slack profile (this will occur automatically when you submit your OOO to Workday). If you're traveling for an event and not necessarily on PTO/vacation, please ensure you are manually updating your Slack status accordingly. 
 1. If your time off was added in Workday, Time off by Deel in Slack will prompt you to add a delegate who will be covering for you. Please fill in this information so it's clear in Slack who people can contact in your absense. 
 1. Add an OOO to your GitLab profile and mark yourself as `busy`
-1. If you are a manager of people, please [assign a delegate in Coupa](/handbook/business-technology/enterprise-applications/guides/coupa-guide/#how-to-add-a-delegate-in-coupa) so you will not hold approvals while you're enjoying your time off.
+1. If you work in ZIP, please assign assign a delegate by going to ZIP - Settings - Personal Settings - Out of Office.
+1. If you work in Coupa, please [assign a delegate in Coupa](/handbook/business-technology/enterprise-applications/guides/coupa-guide/#how-to-add-a-delegate-in-coupa) so you will not hold approvals while you're enjoying your time off.
 
 ## Field Marketing MR process
 
