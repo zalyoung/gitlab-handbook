@@ -656,6 +656,7 @@ livestreaming
 livestreams
 LLM
 LLMs
+localizability
 lockfile
 lockfiles
 Lodash
@@ -1243,6 +1244,7 @@ tooltips
 touchpoint
 touchpoints
 transactionally
+transcreation
 transformative
 transpile
 transpiled
