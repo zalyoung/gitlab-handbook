@@ -55,7 +55,7 @@ Scenario: User did not submit complete application
 
 In **GitLab Service Desk**:
 
-1. Apply the "Funding Info" macro.
+1. Navigate to the (Support-Macros)[https://gitlab.com/gitlab-com/marketing/developer-relations/community-programs/operations/-/tree/main/support-macros?ref_type=heads] Use the the "Funding Info" macro.
 
 Then, in **Salesforce**:
 
