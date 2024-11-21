@@ -78,7 +78,7 @@ In **GitLab Service Desk**:
 
 Then, in **Salesforce**:
 
-1. Open lead / contact in the Zendesk ticket
+1. Open lead / contact in the Service Desk ticket
 2. Ctrl F "Startups Program Status"
 3. Change to "Qualified" Seed Y1
 
@@ -92,15 +92,19 @@ In **GitLab Service Desk**:
 1. Apply the `Early Stage` macro
 2. Set ticket status to `Open`
 
+**Use the Sales Case Routing Sheet**
+
+This sheet can be found [here](https://docs.google.com/spreadsheets/d/1etzGAGH4n-pzA52xka_VAymMYSE44UBySblXhAEh6rM/edit?gid=0#gid=0) 
+
 Then, in **Salesforce**:
 
-1. Open lead / contact in the Zendesk ticket
+1. Open lead / contact in the Service Desk ticket
 2. Ctrl+F to find "Startups Program Status"
 3. Change to "Qualified" Early Y1
 4. Convert the Lead to an Opp
 5. Rename the Opportunity as `Customer Name, Seats, License Type, Startups - Early - Y(1)`
 6. Chatter Mktgops to assign the correct account executive
-7. Once the account executive has been confirmed, handoff the customer via the Zendesk Ticket
+7. Once the account executive has been confirmed, handoff the customer via the Service desk Ticket
 
 For more clarification regarding Startups sales process, please refer to this [highspot page](https://gitlab.highspot.com/items/6410e355fb9e0fe9d2823fcc?lfrm=irel.1#3)
 
