@@ -156,6 +156,11 @@ We prioritize our product roadmap in the [Issue Board by Milestone](https://gitl
 
 60% of our development time is spent on issues priotized by product management and the remaining 40% on issues prioritized by engineering as described in our [engineering initiatives](/handbook/engineering/).
 
+### Unscheduled issues
+
+It happens that sometimes we need to work on an issue or task that wasn't planned or scheduled in the current milestone.
+In that case apply the `~Unscheduled` label and assign it to the current milestone so that we can track it on our [milestone board](https://gitlab.com/groups/gitlab-org/-/boards/5071664?milestone_title=Started).
+
 ### Milestone Planning and Timeline
 
 Our team mostly follows the [Product Development Timeline](/handbook/engineering/workflow/#product-development-timeline) as our group is dependent on the [GitLab self-managed release cycle](https://about.gitlab.com/upcoming-releases/).
