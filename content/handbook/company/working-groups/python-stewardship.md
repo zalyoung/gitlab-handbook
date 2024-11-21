@@ -42,12 +42,12 @@ Examples of existing Python codebases:
 
 ## Exit Criteria
 
-| Criteria | Progress | DRI | Start date | End date |
-| :---- | :---- | :---- | :---- | :---- |
-| A non-Python developer has guidance on how to understand and contribute to Python codebase |  |  |  |  |
-| Guidelines and templates for Python codebase creation (as described in outcomes) have been merged |  |  |  |  |
-| Code review and maintainership guidelines for Python codebase have been merged |  |  |  |  |
-| Guidelines for deployment of each of the three application types |  |  |  |  |
+| Criteria |  DRI |
+| :---- | :---- | :---- | 
+| A non-Python developer has guidance on how to understand and contribute to Python codebase | @mhamda |  
+| Guidelines and templates for Python codebase creation (as described in outcomes) have been merged | @tle_gitlab | 
+| Code review and maintainership guidelines for Python codebase have been merged | @brytania | 
+| Guidelines for deployment of each of the three application types | @eduardobonet |
 
 ## Outcomes
 
@@ -93,6 +93,10 @@ Development experience:
 | Member | Shola Quadri | Associate Backend Engineer, Code Creation |
 | Member | Vitali Tatarintev | Senior Backend Engineer, Code Creation |
 | Member | Mikołaj Wawrzyniak | Staff Backend Engineer, Duo Workflow (Borrow) |
+
+## Sync Recordings
+
+- [2024-11-21 Kick-off 1](https://youtu.be/N4F6ANNxVP0)
 
 ### Non-goals
 
