@@ -148,6 +148,15 @@ Choose the method below that feels most comfortable and have the following infor
 1. [Push your branch](https://docs.gitlab.com/ee/topics/git/commit.html#send-changes-to-gitlab).
 1. [Create a Merge Request](https://docs.gitlab.com/ee/user/project/merge_requests/creating_merge_requests.html) in [GitLab.com](https://gitlab.com/gitlab-com/www-gitlab-com) with the branch that you created and assign your manager as reviewer.
 
+## Reviewing your changes
+
+Once the MR is created, and you have a passing pipeline:
+
+1. Look for the "View app" button in the pipeline widget on the "Overview" tab of the MR.
+1. If the "View app" button does not take you to the correct page, manually visit the URL.
+   - For example, use the domain of the review app `https://your-branch.about.gitlab-review.app/` and add `company/team/` to form `https://your-branch.about.gitlab-review.app/company/team/` to preview your team page changes.
+1. If you make changes, ensure that the latest pipeline has passed before you look at the preview. Otherwise, the latest changes will not be present.
+
 ## Add your pet(s) to the Team Pets Page
 
 Using what you learned in the [steps above](#add-yourself-to-the-team-page), consider adding your pet(s) to the [Team Pets page](https://about.gitlab.com/company/team-pets/).

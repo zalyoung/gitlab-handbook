@@ -13,7 +13,7 @@ We suggest you complete the [GitLab 101 Tool Certification](/handbook/people-gro
 
 ## Add yourself to the team page
 
-For how to add yourself to the team page, see the [add yourself to team guide](/handbook/edit-team-page).
+For how to add yourself to the team page, see the [add yourself to team guide](edit-team-page.md).
 
 ## Markdown formatting
 
