@@ -6,15 +6,17 @@ title: "Enterprise Applications - PMO"
 
 ## <i class="fas fa-users" id="biz-tech-icons"></i> About Us
 
-We are a global team, focused on building and managing world-class information technology systems and business processes. The Enterprise Applications PMO is responsible for portfolio and program management across the EntApps organization. We work closely with the business on both annual and quarterly planning to ensure we understand top business priorities and can plan accordingly. Services include portfolio management, program management, resource management, and project tracking and reporting. To learn more about our individual job functions, visit the Program Management, Business Technology family page.
+We are a global team dedicated to developing and managing cutting edge IT systems and business processes.
+
+The  Enterprise Applications PMO oversees portfolio and program management within the EntApps organization. We collaborate with business teams during annual and quarterly planning to align with top priorities. Our services include portfolio, program and resource management, along with project tracking and reporting.
+
+For detailed insights into our roles and responsibilities, visit the [Program Management Job Family](https://handbook.gitlab.com/job-families/finance/program-management-bt/) page.
 
 ## <i class="fas fa-users" id="biz-tech-icons"></i> Our Team (Org Chart)
 
-[Our Team (Org Chart)](https://internal.gitlab.com/handbook/it-enterprise-applications/about-us/pmo/)
+Explore our team’s structure in the [organization chart](https://internal.gitlab.com/handbook/it-enterprise-applications/about-us/pmo/).
 
-## <i class="fas fa-users" id="biz-tech-icons"></i> Our Services
-
-## IT Enterprise Applications Portfolio Planning & Prioritization
+## <i class="fas fa-users" id="biz-tech-icons"></i> IT EntApps Portfolio Planning & Prioritization: A 6-Step Framework
 
 ![it-pmo](/handbook/business-technology/enterprise-applications/pmo/it-pmo-planning.png)
 
@@ -29,17 +31,18 @@ The IT EntApps Portfolio planning & prioritization process has 6 steps:
 
 ### Portfolio of Projects
 
-The inventory of all committed and planned projects for the quarter in IT Enterprise Applications. The [IT EntApps Portfolio: Quarter Commits](https://docs.google.com/spreadsheets/d/1ojnTFGB2iYJz9kNPYdoLc4PeyDqAN60gu9cQBrKpHJQ/edit?pli=1#gid=1316376797) is available for internal team members to track IT EntApps planned initiatives. All projects on the IT EntApps Portfolio have a Corporate Stack Rank to align with the overall [global optimization](/handbook/values/#global-optimization).
+This section provides a quarterly inventory of all the committed and planned projects for IT Enterprise Applications. Internal team members can use the [IT EntApps Portfolio: Quarter Commits](https://docs.google.com/spreadsheets/d/1ojnTFGB2iYJz9kNPYdoLc4PeyDqAN60gu9cQBrKpHJQ/edit?pli=1#gid=1316376797) to track initiatives. Each project is ranked using a Corporate Stack Rank to ensure alignment with [global optimization](/handbook/values/#global-optimization) goals.
+
 
 ### Project Prioritization
 
-The [IT Project Prioritization tracker](https://docs.google.com/spreadsheets/d/1fnV3nWI0sNdbakHUys78d-lpbpKexFD_1kdO8JoVySY/edit#gid=745075679) is used to log new projects / initiatives with the IT EntApps team. The PMO team will review it as part of the IT EntApps Quarterly Portfolio Planning:
+The [IT Project Prioritization tracker](https://docs.google.com/spreadsheets/d/1fnV3nWI0sNdbakHUys78d-lpbpKexFD_1kdO8JoVySY/edit#gid=745075679) serves as a centralized tool to log and manage new projects and initiatives. The PMO team evaluates these entries during the IT EntApps Quarterly Portfolio Planning process.
 
 ![it-pmo](/handbook/business-technology/enterprise-applications/pmo/quarterly-planning.png)
 
 ### T-Shirt Sizing
 
-Consists in identifying the project's:
+Involves identifying the project's:
 
 - Estimated Level Of Effort (LOE)
 - Duration
@@ -49,15 +52,13 @@ Consists in identifying the project's:
 
 Achieved by:
 
-- Identifying all resource on the team
-- Estimating capacity like Keeping the lights on (KTLO), Admin, Management and Projects
+- Identifying all resource within the team
+- Estimating the capacity requirements for activities such as ‘Keeping the Lights On" (KTLO), administrative tasks, management, and project work.
 
 ### Project Commits
 
-All projects added to the [IT EntApps Portfolio: Quarterly Commits](https://docs.google.com/spreadsheets/d/1ojnTFGB2iYJz9kNPYdoLc4PeyDqAN60gu9cQBrKpHJQ/edit?pli=1#gid=955721517) have:
+All projects added to the [IT EntApps Portfolio: Quarterly Commits](https://docs.google.com/spreadsheets/d/1ojnTFGB2iYJz9kNPYdoLc4PeyDqAN60gu9cQBrKpHJQ/edit?pli=1#gid=955721517) are assigned resources based on priority and categorized under the following labels:
 
-- Resources assigned in order of priority
-- An appropriated label:
   - **Committed**: Projects that are in-flight / being worked on.
   - **Planned**: Projects that will be picked up once the resources from a committed project becomes available.
   - **Backlog**: Projects that are in the pipeline but not yet ready to start.
@@ -72,12 +73,12 @@ Projects added to the [IT Portfolio: Quarter Commits](https://docs.google.com/sp
 
 ## Release Management
 
-The release management plan helps the IT EntApps team:
+The release management plan helps the IT EntApps team to:
 
-- Set an agreed upon standard
-- Operationalize
-- Keep consistency & predictability
-- Communicate changes regularly and transparently
+- Establish a standardized process. 
+- Implement the release management strategy. 
+- Maintain consistency and predictability in releases. 
+- Communicate changes regularly and transparently. 
 
 ### Release Calendar
 
@@ -89,10 +90,10 @@ The release management plan helps the IT EntApps team:
 
 Visit the [Governance and IT Program Management](/handbook/business-technology/enterprise-applications/pmo/pmo-governance/) page to understand the methodology adopted by the IT EntApps PMO team for all GitLab EntApps programs aimed at achieving the following objectives:
 
-- Ensuring robust results and efficient execution.
-- Ensuring proper scoping aligned with our value of iteration.
-- Engaging appropriate stakeholders in line with our value of collaboration.
-- Maintaining proper documentation for compliance, consistent with our transparency value.
+- Ensure robust results and efficient execution.
+- Scope projects effectively, aligning with iterative values.
+- Engage relevant stakeholders to foster collaboration.
+- Maintain transparent and compliant documentation practices.
 
 ## Project Epics & Issues
 
@@ -108,47 +109,47 @@ The System Development Lifecycle outlines a structured set of activities conduct
 
 #### Intake
 
-The intake process starts with the completion of a business requirements document. It is the bridge between business stakeholders defining what is to be worked on and the development group that will build it.
+The Intake process begins with the completion of a business requirements document (BRD). This phase bridges the gap between business stakeholders defining project goals and the development team responsible for implementation.
 
 #### Define
 
-During Define, the project team articulates the business problem and definition of done. This phase covers uses cases, technology impacted and requirements. The ultimate goal of Define is not to figure out everything but to document the process and what is impacted. Finally, before beginning the design, we request approval sign-off from key stakeholders to ensure business requirements are accurate and all-inclusive.
+The Define phase focuses on articulating the business problem and establishing the ‘definition of done.’ It includes identifying use cases, affected technologies, and requirements. The primary goal is to document processes and impacted areas rather than resolve every detail. Before moving to the Design phase, approval is obtained from key stakeholders to ensure accuracy and completeness of business requirements.
 
 #### Design
 
-This phase creates the roadmap of how things will work in the future. The project team work with the business to design a future state process and refine the requirements to build it. This phase should iron out all the details and questions from above.
+The Design phase establishes a roadmap for the future state of the project. The project team collaborates with stakeholders to refine requirements and design processes that align with business goals. This phase addresses outstanding details and resolves any questions from earlier stages.
 
 #### Build
 
-In the Build phase, the project team collaborates with other stakeholders to develop solutions that meet the business requirements but also that are scalable and aligned with best-practices.
+During the Build phase, the project team collaborates with stakeholders to develop scalable solutions that meet business requirements while adhering to best practices.
 
 #### Test
 
-During the test phase, the project team collaborates with other stakeholders to develop test scripts and facilitates the user acceptance testing (UAT) process.
+In the Test phase, the project team works with stakeholders to create test scripts and oversee the User Acceptance Testing (UAT) process, ensuring solutions meet the defined requirements.
 
 #### Deploy
 
-The project team owns developing a deployment plan and collaborating with other implementation teams to ensure completeness. This involves launch plans, user enablement, and go-live communications.
+The Deploy phase involves creating a comprehensive deployment plan in collaboration with implementation teams. Activities include finalizing launch plans, enabling users, and managing go-live communications to ensure a smooth transition.
 
 #### Hypercare
 
-Hypercare is the period that immediately follows the deployment / launch of a new process in Production where an elevated level of support is available to ensure the seamless adoption of a new system.
+Hypercare is the phase immediately following the deployment or launch of a new process in production. During this period, enhanced support is provided to ensure a seamless transition and successful adoption of the new system.
 
 #### Maintenance
 
-The maintenance phase occurs once the new process is fully operational to ensure it continues to function as it was designed to, and repairs or upgrades are performed as needed.
+The Maintenance phase begins after the new process becomes fully operational. It ensures the process continues to function as designed, with repairs or upgrades performed as necessary.
 
 ### Roadmap
 
-In order to track the progress of each program efficiently, all Epics are assigned a Start and End dates, and the [GitLab Roadmap](https://docs.gitlab.com/ee/user/group/roadmap/index.html) is used as a timeline.
+To efficiently track program progress, each Epic is assigned a start and end date. The [GitLab Roadmap](https://docs.gitlab.com/ee/user/group/roadmap/index.html) serves as a timeline to visualize and manage these milestones.
 
 ### Issue Boards
 
-The IT EntApps teams use [issue boards](https://docs.gitlab.com/ee/user/project/issue_board.html) in GitLab to strategically plan, organize, and visualize their work managed through GitLab issues. To understand how IT teams organize and manage their issue boards, visit [each team's respective page](/handbook/business-technology/#-the-team).
+IT EntApps teams use GitLab [issue boards](https://docs.gitlab.com/ee/user/project/issue_board.html) to strategically plan, organize, and visualize their work. To learn more about how IT teams manage issue boards, refer to [each team’s respective page](/handbook/business-technology/#i-classfas-fa-users-idbiz-tech-iconsi-our-functional-structure).
 
 ### Labels
 
-The IT teams use [labels](https://docs.gitlab.com/ee/user/project/labels.html) to categorize issues and epics effectively. By maintaining a concise list of labels, teams can efficiently organize and tag their work, enabling dynamic filtering and streamlined management of epics and issues. All labels are created in the `gitlab.com/gitlab-com` top-level group so they can be applied to any projects that we work on.
+The IT EntApps teams use [labels](https://docs.gitlab.com/ee/user/project/labels.html) to efficiently categorize issues and epics. A well-maintained, concise label list facilitates dynamic filtering and streamlined management of work. All labels are created within the `gitlab.com/gitlab-com` top-level group, making them applicable across all projects.
 
 To better organize and manage their work, the IT teams have different label categories. Click on each category to view the current labels utilized by the IT teams:
 
@@ -164,17 +165,17 @@ To better organize and manage their work, the IT teams have different label cate
 - The IT PMO team uses the Rolly Bot, a tool created by the IT Integrations team aimed at automating the generation and distribution of weekly status updates. Every Friday, the PMO updates the Rolly section of each project Epic (that they are assigned to) to deliver consistent updates on ongoing projects.
   - A new roll up is created every Monday.
 - Asynchronous updates of the program are communicated through the dedicated program Slack channel, using [Geekbot](https://geekbot.com/).
-- For more extensive programs, the IT PMO team may generate a [Weekly Status Report](https://docs.google.com/presentation/d/1FvtL0MHftG33b-6eKO1sVx3vPFKu0DaeVp-GGbLdpcs/edit#slide=id.p1) intended for distribution among the program team and is frequently reviewed during the weekly program status meetings.
+- For larger programs, the IT PMO team prepares a [Weekly Status Report](https://docs.google.com/presentation/d/1FvtL0MHftG33b-6eKO1sVx3vPFKu0DaeVp-GGbLdpcs/edit#slide=id.p1) for distribution among the program team, which is reviewed during weekly status meetings.
 
 ## Compliance Documentation
 
-The IT PMO team supports project stakeholders in gathering all the essential information required for SOX (Sarbanes-Oxley Act) and compliance purposes throughout the project's lifecycle. We have developed multiple templates following the [guidelines](/handbook/business-technology/enterprise-applications/pmo/pmo-governance/#clear-documentation-for-compliance) provided by the [IT Compliance team](/handbook/business-technology/it-compliance/). These templates aid in creating comprehensive and well-structured documentation, facilitating the gathering of essential information.
+The team has developed templates based on IT Compliance team [guidelines](/handbook/business-technology/enterprise-applications/pmo/pmo-governance/#clear-documentation-for-compliance) to streamline the creation of comprehensive, well-structured documentation and facilitate efficient information gathering.
 
 The IT PMO team collaborates with project stakeholders to create these documents and ensures that all necessary approvals are captured within them.
 
 ## Enablement Plan
 
-The IT PMO team takes the lead in initiating discussions regarding enablement and collaborates with the project lead to develop training materials and communication plans, as required.
+The IT PMO team initiates enablement discussions and collaborates with project leads to develop training materials and communication plans as needed.
 
 ## IT EntApps Quarter Planning Process
 
