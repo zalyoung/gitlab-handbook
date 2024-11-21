@@ -16,7 +16,9 @@ For detailed insights into our roles and responsibilities, visit the [Program Ma
 
 Explore our team’s structure in the [organization chart](https://internal.gitlab.com/handbook/it-enterprise-applications/about-us/pmo/).
 
-## <i class="fas fa-users" id="biz-tech-icons"></i> IT EntApps Portfolio Planning & Prioritization: A 6-Step Framework
+## <i class="fas fa-users" id="biz-tech-icons"></i> Our Services
+
+## IT EntApps Portfolio Planning & Prioritization: A 6-Step Framework
 
 ![it-pmo](/handbook/business-technology/enterprise-applications/pmo/it-pmo-planning.png)
 
@@ -32,7 +34,6 @@ The IT EntApps Portfolio planning & prioritization process has 6 steps:
 ### Portfolio of Projects
 
 This section provides a quarterly inventory of all the committed and planned projects for IT Enterprise Applications. Internal team members can use the [IT EntApps Portfolio: Quarter Commits](https://docs.google.com/spreadsheets/d/1ojnTFGB2iYJz9kNPYdoLc4PeyDqAN60gu9cQBrKpHJQ/edit?pli=1#gid=1316376797) to track initiatives. Each project is ranked using a Corporate Stack Rank to ensure alignment with [global optimization](/handbook/values/#global-optimization) goals.
-
 
 ### Project Prioritization
 
@@ -59,9 +60,9 @@ Achieved by:
 
 All projects added to the [IT EntApps Portfolio: Quarterly Commits](https://docs.google.com/spreadsheets/d/1ojnTFGB2iYJz9kNPYdoLc4PeyDqAN60gu9cQBrKpHJQ/edit?pli=1#gid=955721517) are assigned resources based on priority and categorized under the following labels:
 
-  - **Committed**: Projects that are in-flight / being worked on.
-  - **Planned**: Projects that will be picked up once the resources from a committed project becomes available.
-  - **Backlog**: Projects that are in the pipeline but not yet ready to start.
+- **Committed**: Projects that are in-flight / being worked on.
+- **Planned**: Projects that will be picked up once the resources from a committed project becomes available.
+- **Backlog**: Projects that are in the pipeline but not yet ready to start.
 
 ### Alignment & OKRs
 
