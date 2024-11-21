@@ -454,6 +454,19 @@ _(DRI: To be identified by EM of the Analytics Instrumentation group)_
     - DRI to create a merge request for a patch release if required and link the merge request to the main issue
     - DRI to announce in the main issue when the Patch release is completed
 
+### Incident SLOs
+
+The expected timeline for us to address incidents.
+
+| Severity | Time to mitigate (TTM)(1) | Time to resolve (TTR)(2) | 
+|-|-|-|
+| `~"Analytics Instrumentation::Incident-High Severity"` | Within 24 hrs | Within 7 days |
+| `~"Analytics Instrumentation::Incident-Medium Severity"` | Within 72 hrs | Within 30 days |
+
+(1) - Mitigation aims to reduce further impact by investigating and addressing the cause as quickly as possible.
+
+(2) - Resolution uses standard work processes, eg. code review, to completely fix the cause and recover lost data if possible.
+
 ### Incident Notification
 
 _(DRI: The PM of the Analytics Instrumentation group)_
