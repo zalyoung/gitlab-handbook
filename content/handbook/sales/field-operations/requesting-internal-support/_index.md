@@ -125,9 +125,18 @@ Once you’ve submitted your request, here’s how to navigate to the case in Sa
 
 #### How to Report Bugs or Request Fixes
 
-**To Be Added:**
+If you encounter any issues with creating a case for the internal support teams or with the form, please submit your request using [HelpLab application](/handbook/business-technology/enterprise-applications/guides/helplab-guide/#create-a-ticket--request), which can be accessed through the OKTA tile: 
 
-- This section will cover the process for reporting bugs or requesting fixes through HelpLabs. Stay tuned for future updates!
+1. In the HelpLab select **IT**
+2. Click on the **Break/Fix Request** type
+3. The intake form will open and you'll need to populate the following fields:
+   - **Which application** you need help with: Salesforce
+   - **Short description**: add details of your issue
+   - **Urgency**: select the urgency
+   - Please **describe your issue**: add any relevant additional information
+   - **Attachment**: submit a screenshot of the error message
+   - **Optional**: you can add team members to the ticket as a “Watcher”
+4. Click on the “Submit” button on the right side of the form to submit your request.
 
 #### Reports & Dashboards
 
