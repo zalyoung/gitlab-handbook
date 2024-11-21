@@ -83,7 +83,7 @@ The release management plan helps the IT EntApps team to:
 
 ### Release Calendar
 
-![it-pmo](/handbook/business-technology/enterprise-applications/pmo/calendar2024.png)
+![it-pmo](/images/handbook/entapps/release-calendarfy26.png)
 
 ## <i class="fas fa-bullhorn" id="biz-tech-icons"></i> How We Work
 
