@@ -49,13 +49,13 @@ When the promotion period ends, startups will have the option of becoming regula
 
 Here are some common workflows associated with managing the program, including qualifying a startup:
 
-### Review application within (Startups Issue Board)[https://gitlab.com/gitlab-com/marketing/developer-relations/startups-program/startups-program-support/-/boards]
+### Review application within [Startups Issue Board](https://gitlab.com/gitlab-com/marketing/developer-relations/startups-program/startups-program-support/-/boards)
 
 Scenario: User did not submit complete application
 
 In **GitLab Service Desk**:
 
-1. Navigate to the (Support-Macros)[https://gitlab.com/gitlab-com/marketing/developer-relations/community-programs/operations/-/tree/main/support-macros?ref_type=heads] Use the the "Funding Info" macro.
+1. Navigate to the [Support-Macros](https://gitlab.com/gitlab-com/marketing/developer-relations/community-programs/operations/-/tree/main/support-macros?ref_type=heads0) Use the the "Funding Info" macro.
 
 Then, in **Salesforce**:
 
