@@ -25,23 +25,23 @@ Based on these needs, the Data Team is organized in the following way:
 
 | POD                       | Data Product Manager | Analytics Engineer                     | Data Analyst    | Data Scientist |
 | ------------------------- | -------------------- | -------------------------------------- | --------------- | -------------- |
-| Enterprise Metrics        |  @nmcavinue          | @lisvinueza @chrissharp                | @annie-analyst  |                |
-| Customer Intelligence     |  @nmcavinue          | @snalamaru                             | @jonglee1218      |                |
+| Company KPIs              |  @iweeks          | @lisvinueza @chrissharp @annapiaseczna     | @annie-analyst  |                |
+| Customer Intelligence     |  @nmcavinue          |                                | @jonglee1218      |                |
 | Customer Product Adoption |  @mdrussell             | @michellecooper @utkarsh060 |                 |                |
 
 ## Analytics Engineering - Business Stable Counterpart Assignments
 
 | Department       | Functional Analytics Team         | Analytics Engineer      |
 | ---------------- | --------------------------------- | ----------------------- |
-| Sales            |  Revenue Strategy and Analytics   |  @snalamaru             |
-| Marketing        |  Marketing Strategy and Analytics |  @snalamaru             |
+| Sales            |  Revenue Strategy and Analytics   |  @lisvinueza             |
+| Marketing        |  Marketing Strategy and Analytics |  @chrissharp             |
 | Finance          |  FP&A Analytics                   |  @chrissharp            |
 | Customer Success |  CS Strategy and Analytics        |  @mdrussell             |
 | Product          |  Product Data Insights            |  @michellecooper             |
 | Engineering      |  Engineering Analytics            |  @michellecooper        |
 | Security         |  Engineering Analytics            |  @michellecooper        |
 | Support          |  N/A                              |  @michellecooper        |
-| People           |  People Analytics                 |  @rakhireddy (ramping)  |
+| People           |  People Analytics                 |  @rakhireddy            |
 
 ## Data Platform Team Stable Counterpart Assignments
 
