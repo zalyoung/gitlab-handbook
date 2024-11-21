@@ -49,11 +49,11 @@ When the promotion period ends, startups will have the option of becoming regula
 
 Here are some common workflows associated with managing the program, including qualifying a startup:
 
-### Review application within Zendesk "Startups" view
+### Review application within (Startups Issue Board)[https://gitlab.com/gitlab-com/marketing/developer-relations/startups-program/startups-program-support/-/boards]
 
 Scenario: User did not submit complete application
 
-In **Zendesk**:
+In **GitLab Service Desk**:
 
 1. Apply the "Funding Info" macro.
 
@@ -70,7 +70,7 @@ Then, in **Salesforce**:
 If funding amount is less than $5 million USD, startup is deemed **Seed Stage**.
 Follow this flow.
 
-In **Zendesk**:
+In **GitLab Service Desk**:
 
 1. Apply the `Seed stage` macro to send welcome email to customer
 2. Insert a coupon code from the coupon code sheet within the macro
@@ -87,7 +87,7 @@ Then, in **Salesforce**:
 If funding amount is less than $20 Million USD and greater than $5 million USD, startup is deemed **Early Stage**.
 Follow this flow.
 
-In **Zendesk**:
+In **GitLab Service Desk**:
 
 1. Apply the `Early Stage` macro
 2. Set ticket status to `Open`
