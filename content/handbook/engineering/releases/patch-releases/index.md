@@ -25,7 +25,7 @@ bug and vulnerability fixes.
 
 At GitLab, we have two types of patch releases:
 
-1. Planned (default): A planned patch release to publish all available bug and vulnerability fixes per the [GitLab Maintenance Policy]. This is an SLO driven type that take place around the [monthly release](https://about.gitlab.com/releases/).
+1. Planned (default): A planned patch release to publish all available bug and vulnerability fixes per the [GitLab Maintenance Policy](https://docs.gitlab.com/ee/policy/maintenance.html). This is an SLO driven type that take place around the [monthly release](https://about.gitlab.com/releases/).
 1. Unplanned critical: An unplanned, immediate patch and mitigation is required.
 
 An overview of both types of patch release and their touchpoints is included below.
@@ -107,11 +107,11 @@ Release Managers coordinate the release steps to make sure that all prepared fix
 
 ### How can I backport a bug fix to the next patch release?
 
-If you're a GitLab engineer looking to include a bug fix in a patch release, please follow the steps on the [patch release runbook for GitLab engineers]
+If you're a GitLab engineer looking to include a bug fix in a patch release, please follow the steps on the [patch release runbook for GitLab engineers](https://gitlab.com/gitlab-org/release/docs/-/blob/master/general/patch/engineers.md).
 
 ### Where can I find the next patch release information?
 
-Patch release information, including targeted versions, scheduled date and status can be found on the internal Grafana [release dashboard]
+Patch release information, including targeted versions, scheduled date and status can be found on the internal Grafana [release dashboard](https://dashboards.gitlab.net/d/delivery-release_info/delivery3a-release-information?orgId=1)
 
 ### A security issue was assigned to me, where should I start?
 
