@@ -35,8 +35,8 @@ fi
 ## lint all markdown files if .vale files are changed, otherwise only lint the changed markdown files
 if [ -n "$MODIFIED_VALE_FILES" ]; then
   echo "Vale files have changed. Linting all markdown file..."
-  vale --output=.vale/vale-json.tmpl --minAlertLevel suggestion --glob='{content,assets,layouts}/**/*.md' . > vale-codequality.json
-  vale --minAlertLevel error --output=.vale/vale.tmpl --glob='{content,assets,layouts}/**/*.md' .
+  vale --output=.vale/vale-json.tmpl --minAlertLevel suggestion content/**/*.md > vale-codequality.json
+  vale --minAlertLevel error --output=.vale/vale.tmpl content/**/*.md
 elif [ -n "$MODIFIED_MD_FILES" ]; then
   echo "Linting changed files: $MODIFIED_MD_FILES"
   vale --output=.vale/vale-json.tmpl --minAlertLevel suggestion $MODIFIED_MD_FILES > vale-codequality.json
