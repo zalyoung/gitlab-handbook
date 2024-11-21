@@ -35,7 +35,7 @@ Once you have access please take the following steps:
 
 - Download and install the Groove Chrome extension.
 - Connect your calendar and email.
-  - Once you connect your calendar and email to Groove, your emails will begin to log to Salesforce records automatically. Emails sent to or from public domains are blocked from logging to Salesforce.
+  - Once you connect your calendar and email to Groove, your emails will begin to log to Salesforce records automatically. Groove syncs your emails to Salesforce by attaching those messages to contact or lead profiles within your Salesforce instance. This means that emails sent to recipients ***not*** associated with Salesforce will not be synced.
     - To prevent a specific email from being logged to Salesforce, uncheck the `Log` button in the Email Compose window (below the Subject line). This will ensure a specific email is not logged to Salesforce.
 - Connect your LinkedIn Sales Navigator account (if applicable)
 
