@@ -10,7 +10,7 @@ if [ -n "$CI_PROJECT_ID" ]; then
         # if CI_PROJECT_ID matches the current project, then it's not a fork
         BRANCH_POINT=$(git merge-base origin/$CI_MERGE_REQUEST_TARGET_BRANCH_NAME origin/$CI_MERGE_REQUEST_SOURCE_BRANCH_NAME)
         MODIFIED_VALE_FILES=$(git diff --name-only --diff-filter=d $BRANCH_POINT origin/$CI_MERGE_REQUEST_SOURCE_BRANCH_NAME | grep '\.vale')
-        MODIFIED_MD_FILES=$(git diff --name-only --diff-filter=d $BRANCH_POINT origin/$CI_MERGE_REQUEST_SOURCE_BRANCH_NAME | grep '\.md$')
+        MODIFIED_MD_FILES=$(git diff --name-only --diff-filter=d $BRANCH_POINT origin/$CI_MERGE_REQUEST_SOURCE_BRANCH_NAME | grep '\.md$' | grep '^content')
     else
         # assume otherwise it's a fork
         git fetch origin $CI_MERGE_REQUEST_TARGET_BRANCH_NAME
@@ -19,7 +19,7 @@ if [ -n "$CI_PROJECT_ID" ]; then
         git fetch fork $CI_MERGE_REQUEST_SOURCE_BRANCH_NAME
         BRANCH_POINT=$(git merge-base origin/$CI_MERGE_REQUEST_TARGET_BRANCH_NAME fork/$CI_MERGE_REQUEST_SOURCE_BRANCH_NAME)
         MODIFIED_VALE_FILES=$(git diff --name-only $BRANCH_POINT fork/$CI_MERGE_REQUEST_SOURCE_BRANCH_NAME | grep '\.vale')
-        MODIFIED_MD_FILES=$(git diff --name-only $BRANCH_POINT fork/$CI_MERGE_REQUEST_SOURCE_BRANCH_NAME | grep '\.md$')
+        MODIFIED_MD_FILES=$(git diff --name-only $BRANCH_POINT fork/$CI_MERGE_REQUEST_SOURCE_BRANCH_NAME | grep '\.md$' | grep '^content')
         printf "CI_MERGE_REQUEST_TARGET_BRANCH_NAME: $CI_MERGE_REQUEST_TARGET_BRANCH_NAME\nCI_MERGE_REQUEST_SOURCE_PROJECT_URL: $CI_MERGE_REQUEST_SOURCE_PROJECT_URL\nCI_MERGE_REQUEST_SOURCE_BRANCH_NAME: $CI_MERGE_REQUEST_SOURCE_BRANCH_NAME\nBRANCH_POINT: $BRANCH_POINT\n"
         echo "MODIFIED_MD_FILES: $MODIFIED_MD_FILES"
    fi
