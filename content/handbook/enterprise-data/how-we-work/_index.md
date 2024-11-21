@@ -94,6 +94,30 @@ The below steps should be followed when performing a **Design Spike**:
 
 The Data Team, like the rest of GitLab, works hard to document as much as possible. We believe [this framework](https://documentation.divio.com/) for types of documentation from Divio is quite valuable. For the most part, what's captured in the handbook are tutorials, how-to guides, and explanations, while reference documentation lives within in the primary analytics project. We have aspirations to tag our documentation with the appropriate function as well as clearly articulate the [assumed audiences](https://v4.chriskrycho.com/2018/assumed-audiences.html) for each piece of documentation.
 
+#### Documentation guideline
+
+There are several types of documentation we use to capture the topics. Noted the criteria when to use which type of the documentation
+
+- [**(Public) Handbook**](/handbook) - Items related to the operational model we used in the company and in the team, all explanations about tools, technologies and processes and **why** we are doing. Data that is publicly shareable, and does not expose GitLab or its customers to any harm or material impact (Green data, as per Data classification).
+- [**Internal handbook**](https://internal.gitlab.com/) - Items which explain the same category as the public handbook, with the difference that the internal handbook contains [internal information](/handbook/communication/confidentiality-levels/#internal)
+- **Readme.md** file - Specific information related to the code where the README.md file resides, which explains **how** to use that code. If more explanation is needed, a good practice is to either use and/or link to a Handbook article.
+- [**Runbooks**](https://gitlab.com/gitlab-data/runbooks) - Context which explains **how** to solve the issue in production or **how** to sort out other problems. The vital thing is to understand that runbook is a guideline of problem-solving approach
+
+Matrix with the explanation when to use which documentation type:
+
+| Example | Appropriate documentation type|
+|---------|----------------------------------------------------------------|
+| GitLab Duo explanation                                                 | Handbook |
+| Python/dbt/Snowflake guideline                                         | Handbook |
+| Description of the package inventory                                   | Handbook |
+| Explanation about the new pipeline/project                             | Internal Handbook |
+| Data classification description                                        | Internal Handbook |
+| dbt Data lineage diagram                                               | Internal Handbook |
+| Technical explanation of how to run the project                        | README.md |
+| Basic context about the project from the technical perspective         | README.md |
+| Solution of how to fix the Triage issue                                | Runbooks |
+| Exploration article (ie. Design spike) of how to pseudonimize the data | Runbooks |
+
 ### Data Team Value Calculator
 <!-- read through this and make adjustments -->
 
