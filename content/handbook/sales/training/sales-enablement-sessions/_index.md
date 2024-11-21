@@ -23,17 +23,17 @@ To see what training is coming soon, view the [Field Enablement Spotlight issue 
 
 | DATE   | TOPIC | SPEAKERS |
 |--------|--------|--------|
-| Nov 21 |  SFDC Case Revamp & New Quote Approval Process   | RSOE Team  |
 | Nov 28 |  **No Session**  |  |
-| Dec 5 |  Beyond the Role: GitLab Personas  | RSOE Team   |
+| Dec 4 |  Special Spotlight Session  |    |
+| Dec 5 |  Beyond the Title: GitLab Personas  | RSOE Team   |
 | Dec 12 |  Global Ecosystem Team Quarterly Update   | Ecosystem Team |
 | Dec 19 |  Analyst Relations Update  | Analyst Relations Team  |
 | Dec 26 |  **No Session**   |  |
-| Jan 2 |  Business Value Services   | RSOE Team  |
-| Jan 9 |  Gong 201 Training  | RSOE Team |
+| Jan 2 |  TBD   |  TBD  |
+| Jan 9 |  Business Value Services  | RSOE Team |
 | Jan 16 |  Azure DevOps Competitive Enablement  | Marketing |
-| Jan 23 | *No session during the last two weeks of the quarter*   |  |
-| Jan 30 | *No session during the last two weeks of the quarter* |    |
+| Jan 23 | Customer Success - Success Plans   | CS Team  |
+| Jan 30 | *No session during the last week of the quarter* |    |
 
 ## Past Sessions
 
@@ -42,6 +42,7 @@ To see what training is coming soon, view the [Field Enablement Spotlight issue 
 
 | **Date** | **Topic** | **Public or Private** |
 | ------ | ------ | ------ |
+| 2024-11-21 |  **[SFDC Case Revamp & New Quote Approval Process](https://drive.google.com/file/d/1aC8I25Luq-oIBaP4jpwG5eOL2bn20LNh/view?usp=drive_link)**   | Private  |
 | 2024-11-14 | **[New Forrester TEI Study](https://drive.google.com/file/d/1_KPp5AZfUlg446lcc-VwIPzM1Mpg98nd/view?usp=drive_link)**   | Private  |
 | 2024-11-07 |  **[GitHub Universe Competitive Update](https://drive.google.com/file/d/1TIT5CBhk0wBk8dhyviFJB7Md2PnxHEWh/view?usp=drive_link)**  | Private  |
 | 2024-10-17  | **[Maximizing Sales with Customer Advocacy & References](https://drive.google.com/file/d/1JLVWoC6fxppw6e0jRpk5w68aqzxCxouL/view?usp=drive_link)**   |  Private  |
