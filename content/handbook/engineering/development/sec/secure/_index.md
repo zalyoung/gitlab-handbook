@@ -2,7 +2,7 @@
 title: Secure Sub-Department
 ---
 
-The Secure engineering sub-department is responsible for the [Secure Stage](/handbook/product/categories/#secure-stage) of the product.
+The Secure engineering sub-department is responsible for the [Secure Stage](/handbook/product/categories/#sec-section) of the product.
 
 ## Vision
 

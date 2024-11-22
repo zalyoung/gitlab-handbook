@@ -1,10 +1,10 @@
 ---
-title: Secure Support Pod
-description: A technical interest Support Pod focused on GitLab Secure stage features.
+title: Sec Support Pod
+description: A technical interest Support Pod focused on GitLab Sec Section features.
 ---
 
-Secure Pod is a technical interest [Support Pod](https://gitlab.com/groups/gitlab-com/support/-/epics/191)
-focused on GitLab [Secure stage](/handbook/product/categories/#secure-stage) features.
+Sec Pod is a technical interest [Support Pod](https://gitlab.com/groups/gitlab-com/support/-/epics/191)
+focused on GitLab [Sec section](/handbook/product/categories/#sec-section) features.
 
 ## Secure Pod members
 
@@ -20,40 +20,39 @@ focused on GitLab [Secure stage](/handbook/product/categories/#secure-stage) fea
 
 ## Purpose, key results and exit criteria (if any)
 
-Secure Pod is a way for Support Engineers interested in Secure stage features to work on relevant tickets and projects together.
+Sec Pod is a way for Support Engineers interested in Sec section features to work on relevant tickets and projects together.
 
-The goals of Secure pod are to:
+The goals of Sec pod are to:
 
-- identify underlying patterns and trends across Secure tickets
-- file targeted issues and detailed bug reports to improve our Secure features
+- identify underlying patterns and trends across Sec tickets
+- file targeted issues and detailed bug reports to improve our Sec features
 - submit MRs to GitLab documentation for self-service support and ticket deflection
-- assist customers and team members with problems and questions involving Secure stage features
+- assist customers and team members with problems and questions involving Sec section features
 
 ## FAQ
 
-How can I get involved in Secure Pod?
+How can I get involved in Sec Pod?
 
 1. Talk with your manager.
 1. Submit a merge request to add `'Support Focus: Secure'` to your ZenDesk Groups in the [Support Team data](https://gitlab.com/gitlab-support-readiness/support-team/-/tree/master/data/agents?ref_type=heads).
 1. Let your teammates and groupmates know about your new focus area.
-1. Join `#spt_pod_secure` Slack channel.
-1. Attend Secure Pod pairing sessions. (Check GitLab Support calendar for meeting times)
+1. Join `#spt_pod_sec` Slack channel.
+1. Attend Sec Pod pairing sessions. (Check GitLab Support calendar for meeting times)
 
-## How the Secure Pod works
+## How the Sec Pod works
 
-- In the `#spt_pod_secure` [Slack channel](https://gitlab.slack.com/archives/C03FV8G5LV7), we [pin](https://slack.com/help/articles/205239997-Pin-messages-and-bookmark-links) Slack messages about 🎫 tickets that we are keeping an eye on for colleagues, typically when they are [out of the office](/handbook/support/workflows/ooo-ticket-management/).
+- In the `#spt_pod_sec` [Slack channel](https://gitlab.slack.com/archives/C03FV8G5LV7), we [pin](https://slack.com/help/articles/205239997-Pin-messages-and-bookmark-links) Slack messages about 🎫 tickets that we are keeping an eye on for colleagues, typically when they are [out of the office](/handbook/support/workflows/ooo-ticket-management/).
   - During 🍐 pairing sessions, check the pinned messages to see if the tickets there require attention.
   - If you pin a ticket, please remove it when it no longer requires attention from the pod.
 - We apply the scoped `pod::secure` label to the [pairing issues](https://gitlab.com/gitlab-com/support/support-pairing/-/issues/) that we create.
 
 ## Support Pod Resources
 
-- Weekly session: "Secure Pod Pairing" on the GitLab Support Team Calendar, currently scheduled Thursdays at 3:00 PM UTC.
-- Slack channel: [#spt_pod_secure](https://gitlab.slack.com/archives/C03FV8G5LV7)
-- Slack alias: `@securepod`
+- Weekly session: "Sec Pod Pairing" on the GitLab Support Team Calendar, currently scheduled Thursdays at 3:00 PM UTC.
+- Slack channel: [#spt_pod_sec](https://gitlab.slack.com/archives/C03FV8G5LV7)
  GitLab.com label: ~"devops::secure"
 
-## Secure Pod Troubleshooting Resources
+## Sec Pod Troubleshooting Resources
 
 ### Secure Stage
 

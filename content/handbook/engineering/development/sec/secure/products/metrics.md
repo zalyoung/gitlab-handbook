@@ -3,7 +3,7 @@ title: "Secure Product Metrics"
 ---
 
 This page shows various metrics for the products developed and maintained by
-the [Secure Stage](/handbook/product/categories/#secure-stage).
+the [Secure Stage](/handbook/product/categories/#sec-section).
 
 We are [actively supporting Common Weakness Enumeration (CWE)](https://gitlab.com/gitlab-org/gitlab/-/issues/300978)
 as a standard vulnerability classification system and a common language to discuss software weaknesses.

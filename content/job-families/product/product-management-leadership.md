@@ -115,7 +115,7 @@ Responsible for leading the team of PMs who manage the [ModelOps stage groups](/
 
 ##### Secure
 
-Responsible for leading the team of PMs who manage the [Secure stage groups](/handbook/product/categories/#secure-stage). This stage leader sets the vision and direction for how to enable GitLab users to minimize their security risk with continuous identification and prioritization of high-impact vulnerabilities and weaknesses across every stage of the DevOps process. This scope includes identifying, prioritizing, and managing security research requirements across the entire Sec section and working with GitLab's Vulnerability Research team to prioritize those requirements. The Secure GMP works hand in hand with the [Govern stage](/handbook/product/categories/#govern-stage) leader to ensure that their teams, together, are providing a holistic and world-class user experience across all of GitLab's security & compliance offerings.
+Responsible for leading the team of PMs who manage the [Secure stage groups](/handbook/product/categories/#sec-section). This stage leader sets the vision and direction for how to enable GitLab users to minimize their security risk with continuous identification and prioritization of high-impact vulnerabilities and weaknesses across every stage of the DevOps process. This scope includes identifying, prioritizing, and managing security research requirements across the entire Sec section and working with GitLab's Vulnerability Research team to prioritize those requirements. The Secure GMP works hand in hand with the [Govern stage](/handbook/product/categories/#govern-stage) leader to ensure that their teams, together, are providing a holistic and world-class user experience across all of GitLab's security & compliance offerings.
 
 ##### Requirements
 
@@ -126,7 +126,7 @@ Responsible for leading the team of PMs who manage the [Secure stage groups](/ha
 
 #### Govern
 
-Responsible for leading the team of PMs who manage the [Govern stage groups](/handbook/product/categories/#govern-stage). This stage leader sets the vision and direction for how to enable GitLab users with an effective, scalable, and lovable security and compliance solution. This individual also maintains and champions GitLab's [Software Supply Chain Security (SSCS) direction](https://about.gitlab.com/direction/supply-chain/) and coordinates execution of the SSCS roadmap across all GitLab stages. The Govern GMP works hand in hand with the [Secure stage](/handbook/product/categories/#secure-stage) leader to ensure that their teams, together, are providing a holistic and word-class user experience across all of GitLab's security & compliance offerings.
+Responsible for leading the team of PMs who manage the [Govern stage groups](/handbook/product/categories/#govern-stage). This stage leader sets the vision and direction for how to enable GitLab users with an effective, scalable, and lovable security and compliance solution. This individual also maintains and champions GitLab's [Software Supply Chain Security (SSCS) direction](https://about.gitlab.com/direction/supply-chain/) and coordinates execution of the SSCS roadmap across all GitLab stages. The Govern GMP works hand in hand with the [Secure stage](/handbook/product/categories/#sec-section) leader to ensure that their teams, together, are providing a holistic and word-class user experience across all of GitLab's security & compliance offerings.
 
 ##### Requirements
 

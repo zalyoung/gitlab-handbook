@@ -406,7 +406,7 @@ Some seemingly duplicate charts in Dynamic Analysis Metrics are used by the team
 
 **Team members**
 
-[Product categories page section to find Secure team members to collaborate with](/handbook/product/categories/#secure-stage)
+[Product categories page section to find Secure team members to collaborate with](/handbook/product/categories/#sec-section)
 
 [Secure Handbook page section to find Secure engineering team members to collaborate with](/handbook/engineering/development/sec/secure/#team-members)
 
