@@ -16,3 +16,10 @@ This is a list of the checks that we have indentified as being ones that we are 
 
 | Check Name | Description | Notes |
 | ---------- | ----------- | ----- |
+
+## E2E tests
+
+Most of the testing this page documents will be non E2E tests, this section provides a space for us to notate scenarios we have uncovered that are best covered by an E2E test.
+
+| Scenario | Description | Test that covers |
+| -------- | ----------- | ---------------- |
