@@ -339,7 +339,7 @@ User Groups are applied at the Project and Sub-Project levels. We have two types
 
 The Administrator User Group and the Access Control User Group can be customized to meet the unique needs and requirements of each Project and Sub-Project on the Tableau site. This allows for flexibility to add or customize security controls on an as-needed basis. The assignment of a User Groups permission rule set for a Project or Sub-Project will be documented and controlled from YAML files maintained in the Tableau Project in the Data Group.
 
-No content is published in the top level Production, and Development Projects. Content is only published in the Sub-Projects under the Top level projects which is a best practice for content, access, and security control. Top level Project (Production and Development) Leaders will always be a member of the Central Data Team's BI Platform team and will need a site role of Creator to function as Project Administrators for publishing content. [Data Champions](/handbook/enterprise-data/direction/data-champion/) will serve as Project Leaders for the Sub-Projects for their respective functional areas. The Sub-Project Leaders will be added to the applicable Administrator and Access Control Groups in order to have the right permissions to lead the Sub-Project.
+No content is published in the top level Production, and Development Projects. Content is only published in the Sub-Projects under the Top level projects which is a best practice for content, access, and security control. Top level Project (Production and Development) Leaders will always be a member of the Central Data Team's BI Platform team and will need a site role of Creator to function as Project Administrators for publishing content. Project Leaders own the Sub-Projects for their respective functional areas. The Project Leaders will be added to the applicable Administrator and Access Control Groups in order to have the right permissions to lead the Sub-Project.
 
 The standard permission rules for top level Projects are noted below:
 
@@ -509,9 +509,7 @@ Users can request access by creating an issue in the access requests project usi
 
 All users will be given access to their Division's sub-project by default. For access to another team's space please submit your request in a [Tableau Project issue](https://gitlab.com/gitlab-data/tableau/-/issues) via the **All Requests** template and tag the designated Lead Approver(s) for that team from the [BIOps Roles and Responsibilities](/handbook/enterprise-data/platform/tableau/#biops-roles-and-responsibilities) section for approval in your issue.
 
-Tableau Creators who use Tableau Desktop will need a [Yubikey](/handbook.gitlab.com/handbook/security/corporate/systems/yubikey/purchasing/#yubikey-5c-nano-fips) set up in Okta to access content published in Tableau Cloud. If you're unsure which one to get, the recommended device is the [YubiKey 5C Nano FIPS](https://www.yubico.com/product/yubikey-5c-nano-fips/). Currently biometrics are not yet supported in Tableau Desktop.
-
-Once approved, the BI Platform team will then add the user to the `okta-tableau-users` [Google Group](https://groups.google.com/a/gitlab.com/g/okta-tableau-users), add the user in [Tableau Cloud](https://10az.online.tableau.com/#/site/gitlab/users) and assign the correct license, then add the user to the right [Tableau Group](https://10az.online.tableau.com/#/site/gitlab/groups).
+Tableau Creators who use Tableau Desktop will need a [Yubikey](/handbook/security/corporate/systems/yubikey/purchasing/) set up in Okta to access content published in Tableau Cloud. If you're unsure which one to get, the recommended device is the [YubiKey 5C Nano FIPS](https://www.yubico.com/product/yubikey-5c-nano-fips/). Currently biometrics are not yet supported in Tableau Desktop.
 
 ### Tableau Desktop Access
 
@@ -655,6 +653,48 @@ In order to use the Snowflake connector, you must have a Snowflake account assig
 1. Click `Allow`
 1. Click on the Google Sheet you want to use
 1. Click Connect
+
+</details>
+
+### Snowflake OAuth Data Source Connection Expiration Period
+
+Snowflake credentials in Tableau data sources are valid for 90 days. They reset automatically whenever new content is published to Snowflake-connected workbooks or data sources. However, if no publishing occurs within 90 days, the credentials will expire, requiring manual reauthentication. Click the below drop down for the process to update the OAuth Credentials:
+
+<details markdown=1>
+
+<summary><b>Updating Your Snowflake Credentials in Tableau
+</b></summary>
+
+1. Access Account Settings:
+   - Log in to Tableau.
+   - Click your profile icon in the top-right corner of the screen.
+   - Select Account Settings from the dropdown menu.
+
+1. Locate Snowflake Credentials:
+   - Scroll down to the Snowflake section to view your current credentials.
+
+1. Test Each Entry:
+   - For each Snowflake entry listed, click Test.
+   - If the test fails, proceed to the next step.
+
+1. Remove and Re-add Credentials:
+   - Delete the failed Snowflake entry by clicking Delete.
+   - Click Add to re-add your credentials.
+
+1. Re-add Credentials:
+   - Select OAuth Credential as the authentication method.
+   - Enter the Snowflake Server under OAuth instance.
+   - Leave the Role field blank.
+
+1. Complete Authorization:
+   - A new window will pop up.
+   - Click Single Sign-On (SSO)
+   - Click Authorize to complete the process.
+
+1. Repeat for All Accounts:
+   - Perform these steps for each Snowflake account you have set up.
+
+By following these steps, you’ll ensure that your Snowflake OAuth tokens are updated and prevent credential expiration from impacting your Tableau workflows.
 
 </details>
 
