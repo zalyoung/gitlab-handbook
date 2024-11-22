@@ -1691,7 +1691,7 @@ Announcement Channels
 | GitLab ultimate/premium, add ons  | BDR | FO | Commercial, Enterprise | 1 |
 | GitLab ultimate/premium, add ons | BDR | New connected, Growth | Commercial, Enterprise | 1 |
 | Additional seats in current customer department | everyone | Growth | All segments | 1 |
-| Tier upgrade | everyone | Growth | all segments | 1 |
+| Tier upgrade | everyone | Growth | All segments | 1 |
 | Agile planning | everyone | Growth | All segments | 1 |
 | Professional services | everyone | All motions | All segments | 0 |
 
