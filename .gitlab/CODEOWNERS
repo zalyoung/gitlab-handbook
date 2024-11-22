@@ -224,6 +224,7 @@
 /content/handbook/engineering/releases/ @marin @mbursi @dawsmith @gitlab-org/delivery
 /content/handbook/engineering/gitlab-com/ @marin @sabrinafarmer
 /content/handbook/engineering/gitlab-com/policies/ @marin @sabrinafarmer
+/content/handbook/engineering/infrastructure-platforms/developer-experience/ @ghosh-abhinaba @kkolpakova @ksvoboda @marin @vincywilson
 
 ^[Eng-Quality-department]
 /content/handbook/engineering/automation.md @sabrinafarmer @rymai
