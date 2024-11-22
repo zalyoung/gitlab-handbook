@@ -19,6 +19,20 @@ When on-call, please ensure to:
 1. Plan for an additional 15-30 minutes after your shift ends to allow for cross-region handovers
 1. Start your day by checking for emergencies currently in progress from the previous shift. You will be expected to be the DRI for any emergency tickets (or find a replacement DRI) which have not yet been de-escalated/resolved. This ensures that all team members can leave as soon as possible after their shift ends.
 
+## Key Responsibilities for Customer Emergency On-Call
+
+When serving as the Customer Emergency On-Call (CEOC) engineer, follow these key principles to ensure clear ownership and accountability:
+
+1. **Take Assignment**: Immediately assign yourself to any emergency ticket you acknowledge and begin working on. This establishes you as the Directly Responsible Individual (DRI) and ensures clear ownership throughout the emergency response process.
+
+2. **Document Everything**: Keep thorough notes in both Slack threads and the ticket to maintain transparency, reproducability, and enable asynchronous collaboration.
+
+3. **Communicate Status**: Keep stakeholders informed of progress and any handoffs required at the end of your shift.
+
+4. **Follow Through**: Remain the DRI until the emergency is resolved or properly handed off to the next CEOC.
+
+These principles help maintain efficiency while ensuring every emergency has clear ownership and accountability. Being the DRI means you are the single person accountable for driving the emergency to resolution. While you may collaborate with others or need to hand off the ticket during shift changes, there should never be ambiguity about who is currently responsible for an emergency ticket.
+
 ### How to be added to the Customer Emergencies PagerDuty rotation
 
 To be added to the Customer Emergency On Call Rotation, you should have first completed the [Customer Emergency On-Call training module](https://gitlab.com/gitlab-com/support/support-training/-/issues/new) and then after agreement with your manager, you should raise a new [Pager Duty Issue](https://gitlab.com/gitlab-com/support/support-ops/other-software/pagerduty/-/issues) with the Support-Ops team requesting that you are added to the appropriate Pager Duty rotation.
@@ -163,7 +177,7 @@ If at any point you would like advice or help finding additional support, [conta
 1. When an emergency is triggered, you will receive an alert from PD. This could be a text, phone call, email, Slack message, or a combination of those (depending on your PagerDuty notification preferences).
 1. Acknowledge the alert in PagerDuty or Slack. This means that you received the emergency page, and are starting the response process.
 1. **OPTIONAL:** Create a new Issue using the [Emergency Runbook Issue Template](https://gitlab.com/gitlab-com/support/emergency-runbook/-/issues/new), to guide you through the emergency response process for Customer Emergency tickets.
-1. Open the Zendesk ticket.
+1. Open the Zendesk ticket. Assign yourself as the ticket owner to establish yourself as the Directly Responsible Individual (DRI), which prevents confusion about emergency response, ensures consistent customer communication, and creates accountability for follow-through until resolution or proper handoff.
     1. Most PagerDuty notification formats provide a direct link to the ticket.
     1. Alternatively, use Zendesk search with the term `priority: urgent` to find the ticket.
 1. Verify that the requester has an active subscription at Premium level or
@@ -270,6 +284,12 @@ When the call has ended:
 1. Add all relevant internal-only information as an internal note on the ticket.
 1. Tag the next on-call engineer in the emergency's Slack thread.
 1. Review the guidance in the general [On-call - Ending your on-call shift](/handbook/support/on-call/index#ending-your-on-call-shift) section and follow the relevant steps.
+
+Remember that as the DRI, you maintain ownership of the ticket until one of these conditions is met:
+- The emergency is resolved and the ticket is closed
+- The customer confirms they no longer need emergency assistance
+- You've properly handed off DRI responsibility to another engineer during your shift change
+- A new emergency ticket is created for follow-up (in which case, link the tickets and ensure the new ticket has a DRI assigned)
 
 #### When the customer incident is not resolved
 
