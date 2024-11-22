@@ -9,8 +9,6 @@ The Observation Management Program at GitLab is used to identify, track, remedia
 
 This procedure details the creation process for observations.
 
-## Introduction to Observation Management at GitLab
-
 ## Scope
 
 Tier 3 risks or observations identified at the information system or business process levels
@@ -20,10 +18,8 @@ Tier 3 risks or observations identified at the information system or business pr
 | Observation Source | Responsible Team |
 | ---- | ------ |
 | Security control testing activities (CCM) | [Security Compliance](/handbook/security/security-assurance/security-compliance/) |
-| Third Party Risk Management (TPRM) activities | [Security Risk](/handbook/security/security-assurance/security-risk/) |
-| Customer Assurance Activities (CAA) | [Field Security Team](/handbook/security/security-assurance/field-security/) |
+| Business Impact Analysis(BIA) | [Security Risk](/handbook/security/security-assurance/security-risk/) |
 | External audit activities | [Security Compliance](/handbook/security/security-assurance/security-compliance/) |
-| Third party application scanning (BitSight) | [Field Security Team](/handbook/security/security-assurance/field-security/) |
 | Gap Assessment Activities| [Security Compliance](/handbook/security/security-assurance/security-compliance/) |
 | Ad-hoc observations | [Security Assurance](/handbook/security/security-assurance/) |
 
@@ -76,7 +72,7 @@ Labels in this set are used to categorize issues for metrics and reporting and c
 | Upgraded::StORM-Shared                        | This label will be leverage when the observation has been upgraded to a tier 2 risk and remediation is shared by the Security Risk and Security Compliance team |
 | NIST CSF Function::*** | Identifies observations within the NIST CSF function|
 | NIST CSF Category - *** | Identifies observations within the NIST CSF category|
-| seccomp program::***| Identifies which program or external certification is affected by the observation|
+| seccomp program:***| Identifies which program or external certification is affected by the observation|
 | system::***| Identifies what system is impacted by the observation|
 
 ### Identifying Observations
@@ -84,10 +80,8 @@ Labels in this set are used to categorize issues for metrics and reporting and c
 Observations can be identified through the following channels:
 
 1. Security control testing activities (CCM)
-1. Third Party Risk Management (TPRM) activities
-1. Customer Assurance activities (CAA)
+1. Business Impact Analysis (BIA) activities
 1. External audit activities
-1. Third party application scanning (BitSight)
 1. Gap assessment activities
 1. Ad-hoc issues
 
@@ -375,7 +369,7 @@ Exceptions to this procedure will be tracked as per the [Information Security Po
 ## References
 
 - [GCF Control Lifecycle](/handbook/security/security-assurance/security-compliance/security-control-lifecycle/)
-- [Observation remediation Procedure](/handbook/security/security-assurance/observation-remediation-procedure/)
+- [Observation Remediation Procedure](/handbook/security/security-assurance/observation-remediation-procedure/)
 - [Observation Management Project](https://gitlab.com/gitlab-com/gl-security/security-assurance/observation-management)
 
 ## Contact & Feedback
