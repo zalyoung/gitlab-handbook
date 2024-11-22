@@ -153,8 +153,21 @@ The following will describe how to create the personal view to list cases in Glo
 1. Order by: `SLA` - Ascending
 
 
-## Dedicated for US Government
+## GitLab Dedicated for Government
 **Workflows for US Gov Dedicated are still being written**
 1. #spt_pod_dedicated
 1. Dedicated Workflows page
 1. Open RFH on CompSecGov
+
+### Getting Help
+
+There are a few avenues available for getting additional information and assistance when working on a GitLab Dedicated for Government ticket.
+
+- [#spt_pod_dedicated](https://gitlab.enterprise.slack.com/archives/C058LM1RL3V)
+- [GitLab Dedicated Overview](https://handbook.gitlab.com/handbook/support/workflows/dedicated/)
+
+### Handling Emergencies
+
+Emergencies from [GitLab Dedicated for Government](https://docs.gitlab.com/ee/subscriptions/gitlab_dedicated_for_government/) come through the [US Government Emergency support](https://about.gitlab.com/support/us-government-support/#us-government-emergency-support) rotation.
+
+Consider using the `@spt_focus-dedicated` Slack handle to ping members of the GitLab Support team who focus on GitLab Dedicated for additional assistance.
