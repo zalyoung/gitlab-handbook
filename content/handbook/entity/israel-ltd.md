@@ -73,6 +73,8 @@ All team members in Israel are enrolled in the Pension Arrangement. In general t
 - You can elect and personalize your plan via Shaldan or your private insurance agency.
 - Employer contributions are based on your eligible earnings, the definition of eligible earning is Base salary and overtime.
 
+Pension contributions continue while on leave, with the exception of unpaid leave. 
+
 #### Enrollment & Administration of the Pension Plan
 
 During onboarding Total Rewards team will connect team members with our broker, Shaldan, to set up their pension arrangement. Shaldan will work with the Payroll accountant who will deduct the employee contributions and fund the pensions appropriately.
@@ -85,6 +87,8 @@ When team members leave GitLab, they will need to connect with Shaldan to assist
 A Study Fund (Keren Hishtalmut) is a savings instrument in Israel with special tax benefits. Team Members can use the fund to save for education expenses, and other financial goals beyond education.
 
 Team Member contribution to the study fund is 2.5% of their determined salary, which is deducted on a monthly basis. GitLab contributes 7.5% of determined salary to the study fund.
+
+Study Fund contributions continue while on leave, with the exception of unpaid leave.
 
 ### Meal Card
 
