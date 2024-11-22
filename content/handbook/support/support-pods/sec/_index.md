@@ -4,7 +4,7 @@ description: A technical interest Support Pod focused on GitLab Sec Section feat
 ---
 
 Sec Pod is a technical interest [Support Pod](https://gitlab.com/groups/gitlab-com/support/-/epics/191)
-focused on GitLab [Sec section](/handbook/product/categories/#secure-stage) features.
+focused on GitLab [Sec section](/handbook/product/categories/#sec-section) features.
 
 ## Secure Pod members
 
