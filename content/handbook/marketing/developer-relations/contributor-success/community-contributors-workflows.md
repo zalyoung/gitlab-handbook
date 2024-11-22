@@ -339,6 +339,14 @@ and effectiveness by reducing the time required to write and understand code.
 Community contributors can [visit the GitLab Community Duo Access project](https://gitlab.com/gitlab-community/community-members/duo-access) to request a GitLab Duo Enterprise license and learn more
 about the benefits of GitLab Duo.
 
+### Highlighting high-value contributions with product bonuses
+
+This is an experiment that we run in FY25Q4 (November 2024 - January 2025).
+
+To highlight high-value contribution directions, the contributor success team might set up a dedicated budget that product managers (PM) can give out to contributors in their area in a given timeframe. The overall budget is shared equally across user-facing product stages where PMs can apply labels (`community-bonus::10`, `community-bonus::20`. `community-bonus::30`, `community-bonus::50`. `community-bonus::80`. `community-bonus::130`) to show how much value they give to the specific issue/epic. The bonus is accounted for when the issue is closed or in case of an epic, the contributor success team can give out part of the bonus for specific issues as discussed by the respective PM. PMs are expected to stay within their budgets when selecting issues.
+
+Bonuses can be granted after the contribution too.
+
 ### For contributors who don't own a credit card
 
 For contributors who don't own a credit card and need to be manually verified, a GitLab team member can open an [internal request](https://support-super-form-gitlab-com-support-support-op-651f22e90ce6d7.gitlab.io/) using the `Other -> Other License and Renewals related issue` template. GitLab Support will follow the [Manual credit card validation process described in the handbook](/handbook/support/license-and-renewals/workflows/saas/ci_minutes/#manual-credit-card-validation-for-community-contributors) to complete the request.
