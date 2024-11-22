@@ -448,10 +448,10 @@ To review and triage documentation feedback and improvement issues for your grou
 ## Stage leads
 
 {{% alert title="Note" color="primary" %}}
-This section outlines a process that we experimented with in Q1 and Q2 of FY2025, and plan to roll out more widely in Q3. This process is subject to change.
+This section outlines a process that we experimented with in Q1 and Q2 of FY2025, and rolled out more widely in Q3. This process is subject to change.
 {{% /alert %}}
 
-Some Technical Writers are assigned as *stage leads* for a given DevOps stage.
+Some Technical Writers are assigned as *stage leads* for a given [DevOps stage](/handbook/product/ux/technical-writing/#stage-leads).
 
 Stage leads might work across an entire stage, or a subset of groups in the stage.
 They support other Technical Writers assigned to groups in the stage.
