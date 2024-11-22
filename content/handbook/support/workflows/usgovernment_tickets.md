@@ -162,16 +162,16 @@ The following will describe how to create the personal view to list cases in Glo
 
 ### High-Level Notes
 
-1. Don't Panic. 
-1. As of this writing (November 2024), we do not have access to logs for dedicated customers, so we have a much shorter fuse to call on the SREs for help.
-1. In any given Dedicated ticket--emergency or not--the thing to determine is if it's a GitLab application problem or an infastrcture issue.  This is slightly tricky without access to their logs, but is the driving question.
+1. Don't Panic.
+1. As of this writing (November 2024), we do not have access to logs for dedicated customers, so we have a much shorter fuse to call on the SREs for help.1
+1. In any given Dedicated ticket--emergency or not--the thing to determine is if it's a GitLab application problem or an infrastructure issue.  This is slightly tricky without access to their logs, but is the driving question.
 
 ### Getting Help
 
 There are a few avenues available for getting additional information and assistance when working on a GitLab Dedicated for Government ticket.
 
 - [#spt_pod_dedicated](https://gitlab.enterprise.slack.com/archives/C058LM1RL3V)
-- [GitLab Dedicated Overview](https://handbook.gitlab.com/handbook/support/workflows/dedicated/)
+- [GitLab Dedicated Overview](/handbook/support/workflows/dedicated/)
 
 Requests for Help live "In-Boundary" on [CompSecGov](https://compsecgov.gitlab-dedicated.us/gitlab-dedicated-us-public-sector/incident-management). If you need, but don't have, access contact James or Wade to get the process started.  
 
@@ -179,6 +179,6 @@ Requests for Help live "In-Boundary" on [CompSecGov](https://compsecgov.gitlab-d
 
 Emergencies from [GitLab Dedicated for Government](https://docs.gitlab.com/ee/subscriptions/gitlab_dedicated_for_government/) come through the [US Government Emergency support](https://about.gitlab.com/support/us-government-support/#us-government-emergency-support) rotation.
 
-The Global workflow for [Handling GitLab Dedicated emergencies](https://handbook.gitlab.com/handbook/support/workflows/dedicated/#handling-gitlab-dedicated-emergencies) is your guide.
+The Global workflow for [Handling GitLab Dedicated emergencies](/handbook/support/workflows/dedicated/#handling-gitlab-dedicated-emergencies) is your guide.
 
 Consider using the `@spt_focus-dedicated` Slack handle to ping members of the GitLab Support team who focus on GitLab Dedicated for additional assistance.
