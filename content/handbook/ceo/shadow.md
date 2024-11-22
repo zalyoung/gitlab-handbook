@@ -334,6 +334,8 @@ To use the script:
 
 Press `Ctrl+C` if you need to cancel the alarm. You may keep the terminal window running indefinitely so that it is at your finger tips throughout your program duration.
 
+For a no-code solution, previous Shadows have used free online timers/alarms like https://vclock.com/. Shadows may choose to keep the timer visible in a separate window, placed alongside their Zoom window. Shadows can use tools like this to set an alarm for a 5-minute notification, prompting the Shadow to send a 5-minute message to the Zoom chat and reset the alarm for the final 1-minute notification.
+
 #### Promote Communication Best Practices
 
 It's important that everyone encourages others to follow the [communication guidelines](/handbook/communication/), not just the CEO. As shadows, you should remind team members to:
