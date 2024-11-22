@@ -379,20 +379,27 @@ We encourage utilizing our available [Google Groups](https://groups.google.com/m
 
 ### Google Groups
 
-Google groups [were setup](https://gitlab.com/gitlab-org/secure/general/-/issues/246) and are structured as:
+Google groups follow the convention [section]-[stage]-[group], separating multi-word names with `_` and are structured as the following:
 
 - sec-section
-- sec-govern
-- sec-secure
-- sec-govern-threat-insights
-- sec-govern-security-policies
-- sec-govern-compliance
-- sec-secure-static-analysis
-- sec-secure-secret-detection
-- sec-secure-dynamic-analysis
-- sec-secure-composition-analysis
+- sec-software_supply_chain_security
+- sec-security_risk_management
+- sec-application_security_testing
+- sec-security_risk_management-security_insights
+- sec-security_risk_management-security_policies
+- sec-security_risk_management-security_platform_management
+- sec-security_risk_management-security_infrastructure
+- sec-application_security_testing-static_analysis
+- sec-application_security_testing-secret_detection
+- sec-application_security_testing-dynamic_analysis
+- sec-application_security_testing-composition_analysis
+- sec-software_supply_chain_security-authentication
+- sec-software_supply_chain_security-authorization
+- sec-software_supply_chain_security-compliance
+- sec-software_supply_chain_security-pipeline_security
+- vulnerability-research
 
-The members of each google group consists of stable counterparts and the correct `eng-dev-[sub-department]-[team]` group of engineers. When stable counterparts change, or team members onboard/offboard the appropriate group should be updated.
+The members of each google group consists of stable counterparts and the correct `eng-dev-[stage]-[group]` group of engineers. When stable counterparts change, or team members onboard/offboard the appropriate group should be updated by the EM of the respective group.
 
 ## Staying Informed and Informing Team Members
 
