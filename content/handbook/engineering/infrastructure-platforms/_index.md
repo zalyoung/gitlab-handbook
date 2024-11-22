@@ -50,14 +50,10 @@ flowchart LR
     I --> TPM[Technical Program Management]
     click TPM "/handbook/engineering/infrastructure/technical-program-management/"
 
-    I --> EP[Engineering Productivity]
-    click EP "/handbook/engineering/infrastructure/engineering-productivity/"
     I --> DA[Data Access]
     click DA "/handbook/engineering/infrastructure/data-access/"
-    I --> EA[Engineering Analytics]
-    click EA "/handbook/engineering/quality/engineering-analytics/"
-    I --> TP[Test Platform]
-    click TP "/handbook/engineering/infrastructure/test-platform/"
+    I --> DE[Developer Experience]
+    click DE "handbook/engineering/infrastructure-platforms/developer-experience"
     I --> SP[SaaS Platforms]
     click SP "/handbook/engineering/infrastructure/platforms/"
 
@@ -94,12 +90,16 @@ flowchart LR
     D --> Switchboard
     click Switchboard "/handbook/engineering/infrastructure/team/gitlab-dedicated/switchboard/"
 
-    TP --> SMP[Self-Managed Platform]
-    click SMP "/handbook/engineering/infrastructure/test-platform/self-managed-platform-team/"
-    TP --> TE[Test Engineering]
-    click TE "/handbook/engineering/infrastructure/test-platform/test-engineering-team/"
-    TP --> TTI[Test and Tools Infrastructure]
-    click TTI "/handbook/engineering/infrastructure/test-platform/test-and-tools-infrastructure-team/"
+    DE --> DA[Development Analytics]
+    click DA "handbook/engineering/infrastructure-platforms/developer-experience"
+    DE --> DT[Developer Tooling]
+    click DT "handbook/engineering/infrastructure-platforms/developer-experience"
+    DE --> FR[Feature Readiness]
+    click FR "handbook/engineering/infrastructure-platforms/developer-experience"
+    DE --> PE[Performance Enablement]
+    click PE "handbook/engineering/infrastructure-platforms/developer-experience"
+    DE --> TG[Test Governance]
+    click TG "handbook/engineering/infrastructure-platforms/developer-experience"
 ```
 
 ## Design
