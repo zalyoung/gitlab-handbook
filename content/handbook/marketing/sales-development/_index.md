@@ -1687,10 +1687,10 @@ Announcement Channels
 
 | Products Considered | Who | Order Type | Segment | Opportunities |
 | ---------- | -------- | ------- | --------- | -------------- |
-| GitLab ultimate/premium, Duo | SDR | FO + New Connected | SMB/Comm | 1 (Duo Pro is excluded) |
-| GitLab ultimate/premium, Duo | SDR | FO + New Connected + Growth (new groups) | Enterprise | 2 (GitLab + Duo Pro) |
-| GitLab ultimate/premium, Duo | BDR | FO | Comm/Ent | 2 |
-| GitLab ultimate/premium, Duo | BDR | New Connected + Growth | Comm/Ent | 2 |
+| GitLab ultimate/premium, Duo | SDR | FO + New Connected | SMB/Comm | 1 |
+| GitLab ultimate/premium, Duo | SDR | FO + New Connected + Growth (new groups) | Enterprise | 1 |
+| GitLab ultimate/premium, Duo | BDR | FO | Comm/Ent | 1 |
+| GitLab ultimate/premium, Duo | BDR | New Connected + Growth | Comm/Ent | 1 |
 | Additional seats in current customer department | BDR | Growth | Comm/Ent | 1 |
 | Tier upgrade | BDR | Growth | Comm/Ent | 1 |
 | GitLab ultimate/premium, agile planning | everyone | All motions | All segments | 1 (agile planning is excluded) |
