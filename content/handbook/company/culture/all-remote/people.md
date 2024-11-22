@@ -68,7 +68,7 @@ This affords him multiple home bases around the world for less than the cost of 
 
 > I'm definitely spending more time with my children, which they appreciate and I really enjoy. I've always wanted flexibility, but [GitLab] is a place where it's not just lip service. You can live it. - *Melody M., Accounting and External Reporting Manager at GitLab*
 
-Building a career while raising one or more children has its [challenges](https://about.gitlab.com/blog/2019/08/08/remote-kids-part-four). However, all-remote and remote-first organizations provide an [atmopshere]({{< ref "remote-benefits" >}}{{< ref "" >}}) where those who yearn to continue working may do so without the usual family sacrifices linked to daily commutes in colocated environments.
+Building a career while raising one or more children has its [challenges](https://about.gitlab.com/blog/2019/08/08/remote-kids-part-four). However, all-remote and remote-first organizations provide an [atmosphere]({{< ref "remote-benefits" >}}{{< ref "" >}}) where those who yearn to continue working may do so without the usual family sacrifices linked to daily commutes in colocated environments.
 
 Research has shown that parental presence for [infants, toddlers, and older children](https://www.gsb.stanford.edu/insights/eric-bettinger-why-stay-home-parents-are-good-older-children) has a marked impact on a child's adaptability and aptitude. In high-income families, it's easier for one parent to voluntarily step away from work to care for a child, with another parent supporting the group financially. This creates an outsized negative impact on lower-income families, including those residing in rural areas where well-paying colocated career opportunities are limited.
 
