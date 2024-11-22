@@ -131,7 +131,6 @@ For those with regular commitments, look for shorter weeks or timezone variation
 
 | Start date | End date | See one | Teach one | Schedule Notes |
 | ---------- | -------- | ---- | ----- | --------- |
-| 2024-11-18 | 2024-11-22 | OPEN | [Naheil McAvinue](https://gitlab.com/nmcavinue) - Director, Data & Analytics | REMOTE - PT |
 | 2024-11-25 | 2024-11-29 | NO CEO SHADOW | NO CEO SHADOW | CEO TRAVELING |
 | 2024-12-02 | 2024-12-06 | NO CEO SHADOW | NO CEO SHADOW | CEO TRAVELING |
 | 2024-12-09 | 2024-12-13 | NO CEO SHADOW | NO CEO SHADOW | CEO TRAVELING |
