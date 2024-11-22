@@ -137,9 +137,7 @@ Accrued Recuperation is an Israel entitlement meant to help fund expenses that e
 
 ### Gifts
 
-As customary in Israel, GitLab offers monetary gifts to team members during major holidays (Passover and Rosh Hashannah) and during major life events, such as birth of a child, or marriage. These gifts will be provided via gift card and reported as taxable income.
-
-The People-Connect Team will administer this benefit.
+As customary, Gifts are offered for major holidays such as Passover and Rosh Hashanah at the company's discretion. These gifts are provided through a gross payment in payroll. Please note that the gift amount will be subject to taxation.
 
 ### Medical
 
