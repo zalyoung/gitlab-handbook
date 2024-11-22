@@ -366,7 +366,7 @@ Ramping BDRs should only be using OB Flows from the Good and Testing collections
 
 #### Follow Up Groove Flows
 
-For SDRs and BDRs managing leads in their qualifying views, we've created [this video](https://www.youtube.com/watch?v=IKE24LRJbcc) to guide you through using follow-up Groove Flows.
+For SDRs and BDRs managing leads in their qualifying views, we've created [this video](https://www.youtube.com/watch?v=SbvSCY7mESc) to guide you through using follow-up Groove Flows.
 
 Please visit the Groove Flows page and search for the tag `MOTION: Follow-up` to review your available options.
 
