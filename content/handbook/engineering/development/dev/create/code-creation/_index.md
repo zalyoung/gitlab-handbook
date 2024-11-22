@@ -47,11 +47,13 @@ stateDiagram
 
 ## Team Handles
 
-| Category                 | Handle              |
-|--------------------------|---------------------|
-| GitLab Team Handle       | @code-creation-team |
-| Slack Channel            | #g_code_creation    |
-| Slack Handle (Engineers) | @code-creation-engs |
+Use this information to connect with the Code Creation group:
+
+| Category                 | Handle                                |
+|--------------------------|---------------------------------------|
+| GitLab Team Handle       | @gitlab-com/create-team/code-creation |
+| Slack Channel            | #g_code_creation                      |
+| Slack Handle (Engineers) | @code-creation-engs                   |
 
 ## Commonly Monitored Issue Lists
 
