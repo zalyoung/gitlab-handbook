@@ -335,3 +335,8 @@ a relative priority which will affect queuing behavior.
 Arrows are the flow of data
 
 ![Architecture Diagram](tech-arch.drawio.png)
+
+# Resource #
+
+- [Vision Walkthrough](https://www.youtube.com/watch?v=CTw3edURsoE)
+- [RunUp and gRPC Steps](https://youtu.be/qkXcL1ulwtY)
