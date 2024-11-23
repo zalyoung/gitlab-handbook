@@ -49,8 +49,9 @@ environment. Steps may be local or remote. Local step versions are
 determined by the commit SHA. Remote step versions are determined by a
 secure lockfile stored in the repository. The results of a job are
 returned over gRPC to GitLab (separately from the logs) and describe
-the exact parameters of every step executed. Step results can be used
-to reproduce artifacts, byte-for-byte.
+the exact parameters of every step executed. Steps can be written to
+be deterministic, allowing step results to be used to reproduce
+artifacts, byte-for-byte
 
 Step policy is provided by GitLab and enforced by GitLab Runner and
 its agent in the job environment. Policy may constrain available steps
@@ -83,14 +84,15 @@ execution across environments.
 
 ## Development ##
 
-Job payloads can be downloaded from any environment and run locally
-for debugging. Or jobs can be debugged in-place by inserting
-breakpoints into steps and connecting via gRPC to see the execution
-context and interact with the job environment. Steps can be unit
-tested with a built-in testing framework. They can be published and
-consumed through public and private catalogs, as well as within the
-local repository. Steps can be marked as deprecated or defective and
-consumers are automatically notified.
+Job payloads container steps and calling parameters can be downloaded
+from any environment and run locally for debugging. Or jobs can be
+debugged in-place by inserting breakpoints into steps and connecting
+via gRPC to see the execution context and interact with the job
+environment. Steps can be unit tested with a built-in testing
+framework. They can be published and consumed through public and
+private catalogs, as well as within the local repository. Steps can be
+marked as deprecated or defective and consumers are automatically
+notified.
 
 ## Federated Ownership ##
 
@@ -113,10 +115,14 @@ responsible only for dispatching jobs to environments and connecting
 to those environments to deliver the job payload and return results.
 
 There is no more “kubernetes” executor, just a Kubernetes plugin
-capable of customizing pods according to job requirements. There is no
-more “docker” executor, just a Docker step which wraps the job
-payload. There are no more built-in services, just service steps which
-the runner prepends to the job payload.
+configured with GitLab runner, capable of customizing pods according
+to job requirements. There is no more “docker” executor, just a Docker
+step which wraps the job payload. There are no more built-in services,
+just service steps which the runner prepends to the job payload.
+
+Even pre-existing "scripts" are wrapped and delivered as step payloads
+so all CI configuration gain the benefits of a unified steps-based
+execution model.
 
 ## Management ##
 
@@ -132,19 +138,21 @@ available. Tools to build private images are also available and work
 out-of-the-box. Best practices for GitLab Runner efficiency and
 reliability are implemented in the shared tool set.
 
-Time spans for every job, step and sub-step are available as
-observability data. Likewise real-world resource consumption (CPU,
-memory, etc..) is available for each job. Resource consumption is
-tracked over time and, when an environment permits, resource requests
-are tailored automatically to the job’s need.
+Time spans for every job, step and sub-step are exported via
+OpenTelemetry and are available as observability data. Likewise
+real-world resource consumption (CPU, memory, etc..) is available for
+each job. Resource consumption is tracked over time and, when an
+environment permits, resource requests are tailored automatically to
+the job’s need.
 
 ## Routing ##
 
-Job routing and autoscaling decisions are made globally. Jobs can be
-routed around outages and capacity limitations. Created jobs are
-immediately known to the runner autoscaling system, even before the
-jobs are ready for execution. GitLab can provide policy which affects
-routing, including preferred regions, providers and instance types.
+Job routing and autoscaling decisions are made centrally in a simple,
+dedicated routing service. Jobs can be routed around outages and
+capacity limitations. Created jobs are immediately known to the runner
+autoscaling system, even before the jobs are ready for
+execution. GitLab can provide policy which affects routing, including
+preferred regions, providers and instance types.
 
 Jobs can also be routed according to resource requirements and
 available capacity, reported by individual runners. Jobs can also have
