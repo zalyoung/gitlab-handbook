@@ -138,12 +138,23 @@ available. Tools to build private images are also available and work
 out-of-the-box. Best practices for GitLab Runner efficiency and
 reliability are implemented in the shared tool set.
 
+## Observability ##
+
 Time spans for every job, step and sub-step are exported via
 OpenTelemetry and are available as observability data. Likewise
 real-world resource consumption (CPU, memory, etc..) is available for
 each job. Resource consumption is tracked over time and, when an
 environment permits, resource requests are tailored automatically to
 the job’s need.
+
+Resource metrics are fetched by GitLab Runner through the
+environment-specific plugin for each job. Time spans are returned to
+GitLab Runner with step results. Overall capacity and load is
+aggregated by the autoscaling component within GitLab Runner. This
+metric data is pushed from GitLab Runner to a gRPC endpoint on GitLab
+for observability purposes, so it can be proxied the the appropriate
+time-series database. Load are also returned to the Job Router for
+autoscaling and routing purposes.
 
 ## Routing ##
 
