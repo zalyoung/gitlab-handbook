@@ -47,7 +47,7 @@ When the promotion period ends, startups will have the option of becoming regula
 
 ## Verification flow
 
-Here are some common workflows associated with managing the program, including qualifying a startup:
+Here are some common workflows associated with managing the program, including how to qualify a startup:
 
 ### Review application within Startups Issue Board
 
