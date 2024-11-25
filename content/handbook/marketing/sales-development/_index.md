@@ -1692,7 +1692,9 @@ Announcement Channels
 | GitLab ultimate/premium, add ons | BDR | New connected, Growth | Commercial, Enterprise | 1 |
 | Additional seats in current customer department | everyone | Growth | All segments | 1 |
 | Tier upgrade | everyone | Growth | All segments | 1 |
+| GitLab Duo | everyone | Growth | All segments | 1 |
 | Agile planning | everyone | Growth | All segments | 1 |
+| Storage, Compute | everyone | Growth | All segments | 0 |
 | Professional services | everyone | All motions | All segments | 0 |
 
 - **NOTE** If an account only has bought CI minutes, the SDR/BDR will still get credit for a first order Opportunity if the account purchases Premium or Ultimate licenses.
