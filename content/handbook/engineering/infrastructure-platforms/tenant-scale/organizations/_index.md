@@ -1,17 +1,11 @@
 ---
-title: Tenant Scale Group
-description: "The Tenant Scale Group is the direct outcome of applying our value of Iteration to the direction of the Database Scalability Working Group."
+title: Organizations Team
+description: "The Organizations team develops the Organizations feature to support Cells. "
 ---
 
 ## About
 
-The Tenant Scale group (formerly Pods or Sharding group) is part of the [Data Stores stage](/handbook/engineering/infrastructure/core-platform/data_stores/). We
-offer support for groups, projects, and user profiles within our product, but
-our main focus is a long-term horizontal scaling solution for GitLab.
-
-This page covers processes and information specific to the Tenant Scale group.
-See also the [direction page](https://about.gitlab.com/direction/enablement/tenant-scale/) and the
-[features we support per category](/handbook/product/categories/features/#data-storestenant-scale-group).
+The Organizations team's main focus is to develop the application features needed for data sharding and isolation Cells. The team also offers support for groups, projects, and user profiles within our product.
 
 ### Contact
 
@@ -19,7 +13,7 @@ To get in touch with us, it's best to create an issue in the relevant
 project (typically [GitLab](https://gitlab.com/gitlab-org/gitlab)) and add the
 `~"group::tenant scale"` label, along with any other appropriate labels.
 
-For urgent items, feel free to use the Slack channel (internal): [#g_tenant-scale](https://gitlab.slack.com/archives/g_tenant-scale).
+For urgent items, feel free to use the Slack channel (internal): [#g_organizations](https://gitlab.slack.com/archives/g_organizations).
 
 ### Vision
 
@@ -69,9 +63,6 @@ limited to that area and they also work in other areas as needed.
 | Application Readiness questions | Manoj | |
 | [Organization for Cells 1.0](https://gitlab.com/groups/gitlab-org/-/epics/10018) | Alex | Abdul, Rutger, Peter, Zack Cuddy |
 | [Organization isolation](https://gitlab.com/groups/gitlab-org/-/epics/11670) | Shubham | Leonardo da Rosa, Krasimir Angelov |
-| Cells Services: [SSH Routing](https://gitlab.com/groups/gitlab-org/-/epics/12708) | Vasilii Iakliushin | |
-| Cells Services: [HTTP Routing](https://gitlab.com/groups/gitlab-org/-/epics/12491) and [Topology Service](https://gitlab.com/groups/gitlab-org/-/epics/13153) | Thong | Bojan, Filipe Santos, Omar, Manoj, David Leach, Jonathon Sisson |
-| Cells Services: [Database sequences](https://gitlab.com/groups/gitlab-org/-/epics/13155) | Prabakaran Murugesan | |
 
 ## Meetings
 
