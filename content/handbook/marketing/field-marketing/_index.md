@@ -517,11 +517,11 @@ For information regarding Brand support, please visit the [Brand Creative Handbo
 
 The AMER Field Marketing team utilizes GitLab's swag and fulfillment vendor [Brilliant](https://www.brilliantmade.com/) for all of our swag and event asset requirements. Brilliant is available to produce, ship, and store swag and event assets.
 
-### Brilliant Portal
+### Brilliant Store Portal
 
 Field Marketers are responsible for accessing the [Brilliant store portal](https://app.brilliantmade.com/users/sign_in) utilizing their individual logins to order all swag and assets for their events.
 
-#### Brilliant Portal Training
+#### Brilliant Store Portal Training
 
 [**Watch Training Video Here**](https://youtu.be/YRqPeom_H-Q)  *(Note: You must be logged in to GitLab Unfiltered to view)*
 
@@ -533,7 +533,7 @@ For Brilliant support, please see email addresses below. For any questions or co
 - `support@brilliantmade.com` for order/shipping support in North America
 - `international.support@brilliantmade.com` for order/shipping support in EMEA, UK and APJ
 
-### Specialty swag orders for a specific event
+### Specialty Swag Orders, Invoicing, and Brand Approval
 
 - If you would like to order specialty swag for a specific event, please reach out to `gitlab@brilliantmade.com` and provide the following details:
   - Item you are looking to source
@@ -541,11 +541,20 @@ For Brilliant support, please see email addresses below. For any questions or co
   - Budget
   - In-hand ETA
   - Where swag will be shipped (if swag is to be stored in the warehouse, please include `@krogel` on correspondence)
-- All new swag artwork (inlcuding logo placement) will be reviewed and approved by the Brand team.
-  - If the swag item chosen only requires a GitLab logo to be added, Brilliant will provide a proof to the POC and then once approved, proof will be sent to the Brand team for final approval (within the Brilliant portal).
-  - If the swag item chosen requires a full design, please follow the instructions [here](/handbook/marketing/brand-and-product-marketing/brand/merchandise-handling/#swag-program-owners). Please include your FMC in the process to handle the financial requirements.
+- PLEASE NOTE: Every new swag order requires a PO number before Brilliant will submit the order to production. Please make sure to build this approval time into your overall timeline!
 
-### Orders and Shipping Charges
+#### Approval Process through the Brilliant Store Portal
+
+- Brilliant will send the FMM an order estimate through the [Brilliant store portal](/handbook/marketing/field-marketing/#brilliant-portal) (FMM will receive an email notification). FMM to go to the order estimate and save the order to PDF and submit a [contract request](/handbook/marketing/field-marketing/#field-marketing-contract-requests) to the FMC.
+- FMC to route the order through the procurement process.
+- Once the PO number is obtained, the FMM will log back into the Brilliant store portal, go to the order estimate, and click `approve`. An additional screen will pop up where the FMM will include the PO number and then submit.
+- Once the order is approved in the store portal, Brilliant will submit the order to the vendor.
+- All new swag artwork (inlcuding logo placement) will be reviewed and approved by the Brand team.
+  - If the swag item chosen only requires a GitLab logo to be added, Brilliant will provide a proof to the FMM through the store portal (FMM will receive an email notification) and then once approved in the portaly by the FMM, the proof will be sent to the Brand team for final approval (within the Brilliant store portal as well).
+  - If the swag item chosen requires a full design, please follow the instructions to submit a design request [here](/handbook/marketing/brand-and-product-marketing/brand/merchandise-handling/#swag-program-owners). 
+- Once the order has been shipped, Brilliant will submit the invoice through Coupa directly.
+
+### Store Portal Orders and Shipping Charges
 
 - Please see the homepage of the [Brilliant store portal](https://app.brilliantmade.com/users/sign_in) for specific ordering instructions and helpful details.
 - General swag items in the store have previously been ordered and paid for in bulk. You are not required to pay for these swag items from your individual budgets. The cost of the swag items are shown to help indicate the level of swag and how much should be utilized.
@@ -554,7 +563,7 @@ For Brilliant support, please see email addresses below. For any questions or co
 - Item quantities are listed in the portal. Please select from the current items in stock for your event. If you need a larger quantity of an item over what is available, you intend to utilize the remaining stock for an item, or you are ordering over 500 pieces of an item, please reach out to `@krogel` for reordering.
 - Please be aware that ordering newly designed swag or placing reorders for existing items requires adequate lead time. Time frames vary greatly based on the items selected, design approval, and availability. General Lead Times: 6-8 weeks to produce a new item and 2-3 weeks to reorder current designs
 
-### New Swag ideas
+### New swag ideas for bulk orders
 
 If you would like to source a new swag item for the team's inventory, please reach out to `@krogel` directly. All new swag items must be approved by the Brand team for brand consistency.
 
