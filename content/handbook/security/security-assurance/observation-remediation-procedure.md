@@ -17,14 +17,11 @@ This procedure details the remediation process for observations.
 
 | Role | Responsibility|
 | ---- | ------ |
-| Security Compliance Team (Commercial and Dedicated) | Responsible for executing [Security control tests]({{< ref "security-control-lifecycle" >}}) to determine the test of design and test of operating effectiveness of Security and IT general controls. |
-| Security Risk Team | Responsible for executing [Third Party Risk Management]({{< ref "third-party-risk-management" >}}) (TPRM) risk and security assessments to determine risk associated with third party applications and services. |
-| Field Security Team | Responsible for executing [Customer Assurance Activities]({{< ref "customer-security-assessment-process" >}})(CAA) responsible for providing customer assurance with GitLab's security practices and operating procedures. |
+| Security Compliance Team (Commercial and Dedicated) | Responsible for executing [Security control tests](/handbook/security/security-assurance/security-compliance/security-control-lifecycle/) to determine the test of design and test of operating effectiveness of Security and IT general controls. |
+| Security Risk Team | Responsible for executing [Business Impact Analysis](/handbook/security/security-assurance/security-risk/storm-program/business-impact-analysis/) (BIA) assessments to determine our critical system tiers. |
 | Observation Manager | Responsible for being the observation DRI through the observation lifecycle including verifying and fine tuning recommended remediation plans in order to meet legal and regulatory requirements. |
 | Remediation Owner | Validates observation, confirms assignee, stop date (due date), finalizes remediation plan and conducts remediation activity based on defined [remediation SLA's](/handbook/security/security-assurance/observation-remediation-procedure/#remediation-sla). |
-| Observation Program DRI | Responsible for regular reviews of program health and stakeholder report delivery. |
 | Managers to Executive Leadership | Responsible for escalation as necessary and resource allocation for remediation activity. |
-| Security Assurance Management (Code Owners) | Responsible for approving significant changes and exceptions to this procedure. |
 
 ## Procedure
 
