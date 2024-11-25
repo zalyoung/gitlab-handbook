@@ -430,7 +430,6 @@ Anyone desiring to reserve the zoom license for a webcast must submit a [Zoom li
 1. Click into the SFDC campaign
 1. Change the campaign owner to the webcast DRI
 1. Change the status to `in progress`
-1. Edit the `Enable Bizible Touchpoints` field to `Include only "Responded" Campaign Members`
 1. Edit the Budgeted Cost (required) to cost of webcast, or "1" if there is no cost associated
 1. Click save
 
@@ -960,7 +959,6 @@ In the event you need to cancel your webcast, please follow the steps outlined b
 1. Click into the SFDC campaign
 1. Change the campaign owner to the webcast DRI
 1. Change the status to `in progress`
-1. Edit the `Enable Bizible Touchpoints` field to `Include only "Responded" Campaign Members`
 1. Edit the Budgeted Cost (required) to cost of webcast, or "1" if there is no cost associated
 1. Click save
 
@@ -1288,7 +1286,6 @@ The process is very similar to rescheduling.
 1. Click into the SFDC campaign
 1. Change the campaign owner to the webcast DRI
 1. Change the status to `in progress`
-1. Edit the `Enable Bizible Touchpoints` field to `Include only "Responded" Campaign Members`
 1. Edit the Budgeted Cost (required) to cost of webcast, or "1" if there is no cost associated
 1. Click save
 
@@ -1400,4 +1397,4 @@ If additional assistance is required, please comment in the [#marketing_programs
 
 ### Live Webcasts - ON24
 
-TBD - WIP - Go to [ON24](/handbook/marketing/marketing-operations/on24) page for more information.
+Go to [ON24](/handbook/marketing/marketing-operations/on24) page for more information.

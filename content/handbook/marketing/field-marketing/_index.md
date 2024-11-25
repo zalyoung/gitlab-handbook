@@ -65,7 +65,7 @@ Below are best practices when running a roundtable:
 - Ensure questions are prepared between host and GitLab presenter beforehand to lead the conversations within the session
 - Assign notes of each delegate to list leads for upload onto SFDC
 - Pre-analysis of delegates - check to see if their organization is currently a user of GitLab, whether they're CE or EE customers. This could be a great way to start or dig into deeper conversations with the delegate.
-- Ensure you have familiarised yourself with the [White Glove Event Follow Up process](/handbook/marketing/sales-development/#white-glove-event-follow-up-sequence-saes-included) for this type of event.
+- Ensure you have familiarised yourself with the [White Glove Event Follow Up process](/handbook/marketing/sales-development/#white-glove-event-follow-up-flows) for this type of event.
 
 ## 3rd Party Events
 
@@ -199,6 +199,17 @@ Field Marketing utilizes the below issue templates and epic codes for virtual ev
 - [Progression Status](/handbook/marketing/marketing-operations/campaigns-and-programs/#workshop)
 - [Issue Template](https://gitlab.com/gitlab-com/marketing/field-marketing/-/issues/new?issuable_template=Workshop_Template)
 - [Epic Code](/handbook/marketing/field-marketing/field-marketing-epics/#workshops)
+
+## Event Lead Collection Should-Knows 
+
+Not every field event or lead are the same. There will be times when meeting/scanning leads and notetaking for the interaction will require a tweaked processing procedure. A few examples are below:
+
+`High Priority` leads: There are situations where GitLab leadership wants extra attention placed toward a prospective lead/account, assuming the right criteria is met for that lead/account. These leads are referred to as `High Priority` and utilize the `high priority` process. This label not only means its namesake, but it also means the lead will circumvent our normal lead routing and MQL processes to be sent immediately to SDR/BDR for strategic outreach. There are a few reasons why a lead would be marked as `High Priority`, but for this particular handbook page there are two primary definitions to focus on:
+
+- **High Priority Campaign**: This lead was acquired during a `high priority` event. While strategizing for the quarter and year, Sales and Marketing leadership discuss what upcoming field events will be important based on GitLab's current and future goals. If a field event is determined to fit the criteria, all leads collected from this event will be marked as `high priority` and quickly routed for follow up. Leadership will communicate what campaigns qualify
+- **White Glove**: A white glove lead needs strategic outreach and will involve the [SDR, Account Executive and maybe more](/handbook/marketing/sales-development/#white-glove-event-follow-up-flows). Generally, these leads were highly engaged in conversation about GitLab, have detailed event notes about the engagement and or were engaged with specific GitLab team members during the event. White glove leads can exist within a high priority campaign, so use best judgement on which label is most appropriate between the two 
+  
+ Recording `high priority` status for either of these types is simple and included in the spreadsheet used for [self-service list uploads](/handbook/marketing/marketing-operations/automated-list-import/#data-cleaning-instructions) under the `High Priority Reasons?` column - as a dropdown option. The reason feeds into Marketo's `High Priority Reason temp` field, which [then processes](https://engage-ab.marketo.com/?munchkinId=194-VVC-221#/classic/SC56504A1ZN19) the lead for early lead routing. 
 
 ## Post event lead flow for each campaign
 

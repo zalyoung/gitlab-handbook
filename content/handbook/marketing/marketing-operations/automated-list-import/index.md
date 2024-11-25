@@ -164,7 +164,7 @@ The following data cleanup is required for any list prior to sending it to the M
 
 1. Member Statuses must match exactly to the program type and member status [listed](/handbook/marketing/marketing-operations/campaigns-and-programs/#campaign-type--progression-status). If you are updating the member status for an event where we collected registrations through a form, you must include both `No Show` and `Attended` records.
 
-1. If list contains non-Latin characters (ex. Asian languages), it must be uploaded to Marketo using UTF-8 and UTF-16. [Marketo instructions here](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/email-marketing/email-programs/managing-people-in-email-programs/import-a-non-latin-characters-list). Salesforce Data Loader requires UTF-8 encoding, [instructions here](https://help.salesforce.com/articleView?id=faq_import_dataloader_specialchars.htm&type=5).
+1. If list contains non-Latin characters (ex. Asian languages), it must be uploaded to Marketo using UTF-8 and UTF-16. [Marketo instructions here](https://docs.marketo.com/display/public/DOCS/Import+a+Non-Latin+Characters+List). Salesforce Data Loader requires UTF-8 encoding, [instructions here](https://help.salesforce.com/articleView?id=faq_import_dataloader_specialchars.htm&type=5).
 
 1. If there are notes added to the `Last Event Notes` column, add the `SFDC campaign name` to the column titled `Last Event SFDC Campaign Name` for each lead that has notes. If there are no notes for that lead, do not add anything to either column. This column is used to automatically move notes to the `Qualification Notes` field found on lead and contact pages in Salesforce. That field is not overridden like the `Last Event Notes` field and it's where we can keep the notes for much longer.
 
@@ -182,6 +182,8 @@ The following data cleanup is required for any list prior to sending it to the M
 
 - `Preferred Language` must be listed as a language, not a location. See the table below for common languages.
 
+- The `High Priority Reason?` dropdown column is to be used as a replacement for inputting `High Priority` shorthand into the `Last Event Notes` column. Despite no longer needing to input the `High Priority` call signs into the notes column, it's still highly useful to include notes in the `last event notes` column to help identify _why_ the lead was labeled with the `High Priority Reason`. As of Nov 2024, there are only 2 usable options for the dropdown, `High Priority Campaign` and `White Glove`. As noted in the chart below, it's best to know when to use each option. `-` is an option in case the `Reason` needs to be removed, but the Workato bot will _not_ carry the `-` value through the [Marketo processing flow](https://engage-ab.marketo.com/?munchkinId=194-VVC-221#/classic/SC56504B2ZN19) 
+
 </details>
 
 | Field Name             | Required                                  | Accepted Values                                                                                                                           | Notes                                                                                                                                                                                                                                                                   |
@@ -197,6 +199,7 @@ The following data cleanup is required for any list prior to sending it to the M
 | Label as Opt-In?       | No                                        | Yes/No or True/False                                                                                                                      | Leave blank if no option is provided                                                                                                                                                                                                                                    |
 | CRM Partner ID         | No                                        | You can find a list of these IDs [here](/handbook/marketing/marketing-operations/campaigns-and-programs/#partner-crm-ids) | If this import is a part of a joint event with partners, you must include the CRM Partner ID as a column in your list upload. You can find a list of these IDs [here](/handbook/marketing/marketing-operations/campaigns-and-programs/#partner-crm-ids) |
 | Preferred Language | No | Must be written exactly: French, German, Japanese, Italian, Korean, Spanish, Portuguese. Other languages available [here](https://gitlab.com/gitlab-com/marketing/marketing-operations/-/issues/8945). | Leave blank if value is English or unknown |
+| High Priority Reason? | No | High Priority Campaign <br> White Glove  | Only used if leads [need to appear in front of SDRs quickly due to some high propensity to purchase reason](/handbook/marketing/sales-development/#sdr-lead-views). Familiarize yourself with the [white glove](handbook/marketing/sales-development/#white-glove-event-follow-up-flows) process to determine if that dropdown should be used|
 
 ## Reference values for picklists
 
