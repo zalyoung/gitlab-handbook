@@ -94,7 +94,7 @@ Study Fund contributions continue while on leave, with the exception of unpaid l
 
 Israel Team Members are granted a meal allowance of up to NIS 900 per month. Vouchers are managed through Cibus. Team members will receive a debit card to use the benefit.
 
-The People-Connect Team will assist Payroll in the administration of this benefit.
+Team Members do not recieve the meal allowance while on unpaid leave. 
 
 ### Transportation Allowance
 
