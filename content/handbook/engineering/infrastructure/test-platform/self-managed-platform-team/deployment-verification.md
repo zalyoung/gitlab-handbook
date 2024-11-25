@@ -13,6 +13,7 @@ A better approach would be to enhance GitLab's endpoints / health checks to allo
 ### Approach
 
 Deploy verification checks can be divided into three approaches:
+
 1. Improving GitLab's reporting to alert when a problem is detected (is the instance able to connect to S3)
 2. Adding specific checks that can be run in a pipeline to detect if a component is configured correctly (is S3 configured correctly to be connected to)
 3. Once those two are done, we can make the determination if it is worth running an E2E test to validate that the GitLab instance is using the commonent as intended (is GitLab able to push a run result to S3 for future analysis) NOTE: in virtually all use cases, this path will be redundant with GitLab functionality tests that are run earlier in the development cycle and should only be run if we have indentified that there's a specific need to test GitLab functionality as part of the deploy instead of configuration.
