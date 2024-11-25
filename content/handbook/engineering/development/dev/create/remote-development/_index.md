@@ -427,6 +427,26 @@ If a task is too large, has too many unknowns, or requires proof of concept (POC
 1. **Break Down and Close:**
    - Once the investigation task is complete, document the findings and break down the work into actionable refined issues.
 
+### 🧹 Follow-up issues which span multiple releases
+
+Gitlab standards often require breaking down issues that need to be resolved in a specific set of steps that span multiple releases. Typically these are issues related to database migrations ([Dropping Columns](https://docs.gitlab.com/ee/development/database/avoiding_downtime_in_migrations.html#dropping-columns)) or breaking changes in GraphQL such as ["Deprecation and Removal"](https://docs.gitlab.com/ee/api/graphql/index.html#deprecation-and-removal-process).
+
+In such cases where we have follow up tasks for future releases such as removing an ignore rule, removing a deprecated field from GraphQL, finalizing background migrations, etc
+
+**Create a Followup Issue:**
+
+1. **References:** Link the issue to the original issue that spawned it.
+2. **Milestone:** Assign it a specific milestone - i.e Drop column (17.5) -> Followup remove ignore rule (17.6).
+3. **Label:** Assign these labels ~refined, ~prioritized, ~due-date-followup to the issue.
+4. **Due Date:** It should have a due date 1 week into the assigned milestone.
+5. **Epic:** Assign it to the Workspaces [Technical Debt Work](https://gitlab.com/groups/gitlab-org/-/epics/11041) epic.
+
+Note that these sorts of issues which we are _required_ to defer
+until future releases should not be confused with "tech debt"
+work that we are _choosing_ to defer. That is why they use the
+following process involving milestones, custom labels, and due date reminders
+to ensure that we do not forget to follow up and complete them.
+
 ### 🍨 Handling Issues Outside the Process
 
 <span id="-handling-remote-development-issues-outside-the-process" data-message="alias anchor for old links"></span>
