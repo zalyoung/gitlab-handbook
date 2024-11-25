@@ -123,11 +123,11 @@ axisFormat  %Y-%m
 
 | Slice              | % Done | Estimated completion |
 | ---                | ---    | ---                  |
-| [Slice 1](https://gitlab.com/groups/gitlab-org/-/epics/14116?force_legacy_view=true) | 87%  | 2024-12 |
-| [Slice 2](https://gitlab.com/groups/gitlab-org/-/epics/14196?force_legacy_view=true) | 100% | 2024-10 |
-| [Slice 3](https://gitlab.com/groups/gitlab-org/-/epics/14197?force_legacy_view=true) | 65%  | 2024-12 |
+| [Slice 1](https://gitlab.com/groups/gitlab-org/-/epics/14116?force_legacy_view=true) | 95%  | 2024-12 |
+| [Slice 2](https://gitlab.com/groups/gitlab-org/-/epics/14196?force_legacy_view=true) | 98% | 2024-10 |
+| [Slice 3](https://gitlab.com/groups/gitlab-org/-/epics/14197?force_legacy_view=true) | 64%  | 2024-12 |
 
-Last update: [2024-09-18](https://gitlab.com/groups/gitlab-org/-/epics/14165?force_legacy_view=true#note_2112587408).
+Last update: [2024-11-25](https://gitlab.com/groups/gitlab-org/-/epics/14165?force_legacy_view=true#note_2215993745).
 
 ### Plan
 
