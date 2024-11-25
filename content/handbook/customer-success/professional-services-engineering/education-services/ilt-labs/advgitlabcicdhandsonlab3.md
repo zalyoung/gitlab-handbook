@@ -195,6 +195,10 @@ The tests will now look like this:
         - npm install -g jest
       script:
         - jest --ci --testResultsProcessor=jest-junit binarysearch.test.js
+      artifacts:
+        when: always
+        reports:
+          junit: junit.xml
       cache:
         key: $CI_COMMIT_REF_SLUG
         paths:
