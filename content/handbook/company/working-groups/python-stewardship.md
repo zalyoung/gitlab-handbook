@@ -93,6 +93,7 @@ Development experience:
 | Member | Shola Quadri | Associate Backend Engineer, Code Creation |
 | Member | Vitali Tatarintev | Senior Backend Engineer, Code Creation |
 | Member | Mikołaj Wawrzyniak | Staff Backend Engineer, Duo Workflow (Borrow) |
+| Member | Ryan Egesdahl | Senior Distribution Engineer, Distribution Build |
 
 ## Sync Recordings
 
