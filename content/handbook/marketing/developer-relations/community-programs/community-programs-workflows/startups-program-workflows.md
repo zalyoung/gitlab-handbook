@@ -6,7 +6,7 @@ description: "Details on program-specific workflows related to the GitLab for St
 ## Overview
 
 This page contains details regarding workflows specific to the [GitLab for Startups](https://about.gitlab.com/solutions/startups/join/) program.
-Please see the [Community Programs Workflows page](https://handbook.gitlab.com/handbook/marketing/developer-relations/community-programs/community-programs-workflows/) for complete details on the program's application process.
+Please see the [Community Programs Workflows page](content/handbook.gitlab.com/handbook/marketing/developer-relations/community-programs/community-programs-workflows/) for complete details on the program's application process.
 
 Currently, only VC- or accelerator-backed startups are eligibile for the program.
 Startups are not eligible for the program if they have been paying GitLab customers within one calendar year.
@@ -49,7 +49,8 @@ When the promotion period ends, startups will have the option of becoming regula
 
 Here are some common workflows associated with managing the program, including qualifying a startup:
 
-### Review application within [Startups Issue Board](https://gitlab.com/gitlab-com/marketing/developer-relations/startups-program/startups-program-support/-/boards)
+### Review application within Startups Issue Board
+- [Startups Issue Board](https://gitlab.com/gitlab-com/marketing/developer-relations/startups-program/startups-program-support/-/boards)
 
 Scenario: User did not submit complete application
 
