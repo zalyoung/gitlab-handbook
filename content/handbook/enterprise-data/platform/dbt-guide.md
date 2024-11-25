@@ -676,7 +676,7 @@ The Data Team reservers the right to reject code that will dramatically slow the
 
 ### General
 
-- Model names should be as obvious as possible and should use full words where possible, e.g. `accounts` instead of `accts`.
+- Model names should be as obvious as possible and should use full words where possible, e.g. `accounts` instead of `accts`. Avoid using [aliases](https://docs.getdbt.com/docs/build/custom-aliases) unless absolutely necessary. Table names in the warehouse should match the dbt model names to maintain clarity, consistency, and ease of debugging. If an alias is required, document the rationale clearly in the model's description.
 
 - Documenting and testing new data models is a part of the process of creating them. A new dbt model is not complete without tests and documentation.
 
