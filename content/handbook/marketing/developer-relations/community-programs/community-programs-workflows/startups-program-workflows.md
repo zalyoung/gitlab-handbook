@@ -106,6 +106,6 @@ Then, in **Salesforce**:
 6. Chatter Mktgops to assign the correct account executive
 7. Once the account executive has been confirmed, handoff the customer via the Service desk Ticket
 
-For more clarification regarding Startups sales process, please refer to this [highspot page](https://gitlab.highspot.com/items/6410e355fb9e0fe9d2823fcc?lfrm=irel.1#3)
+For more clarification regarding Startups sales process,please refer to this [highspot page](https://gitlab.highspot.com/items/6410e355fb9e0fe9d2823fcc?lfrm=irel.1#3)
 
 If they do not qualify, send them the [Startups:: Rejection macro](/handbook/marketing/developer-relations/community-programs/community-program-applications/email-and-zendesk-macros/#startups-startups-rejection) and offer to connect them to sales via the [Sales handoff process](/handbook/marketing/developer-relations/community-programs/community-program-applications/#handoff-process-to-sales).
