@@ -96,6 +96,8 @@ In **GitLab Service Desk**:
 
 **Use the Sales Case Routing Sheet**
 
+This sheet is the backbone for processing Startup Program leads to Sales.
+
 This sheet can be found [Here](https://docs.google.com/spreadsheets/d/1etzGAGH4n-pzA52xka_VAymMYSE44UBySblXhAEh6rM/edit?gid=0#gid=0) 
 
 Then, in **Salesforce**:
