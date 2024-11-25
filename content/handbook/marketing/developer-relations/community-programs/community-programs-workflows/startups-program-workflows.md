@@ -50,6 +50,7 @@ When the promotion period ends, startups will have the option of becoming regula
 Here are some common workflows associated with managing the program, including qualifying a startup:
 
 ### Review application within Startups Issue Board
+
 - [Startups Issue Board](https://gitlab.com/gitlab-com/marketing/developer-relations/startups-program/startups-program-support/-/boards)
 
 Scenario: User did not submit complete application
