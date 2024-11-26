@@ -176,10 +176,6 @@ For the Gitaly service, the nodes in the affected zone will be impacted by the o
 Disaster Recovery operations follow the [Disaster Recovery runbooks](https://gitlab.com/gitlab-com/runbooks/-/tree/master/docs/disaster-recovery).
 These procedures focus on specific services to enable parallelized recovery efforts.
 
-### Recovery Time Objective (RTO) and Recovery Point Objective (RPO) Targets
-
-TBD
-
 ### GameDays
 
 Mock Disaster Recovery (DR) events are conducted quarterly to simulate incidents involving one or more services.
