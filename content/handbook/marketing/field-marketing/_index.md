@@ -1545,15 +1545,19 @@ Please also note, we can only use Coupa cards for POs up to $25,000. Anything ov
 
 #### Various Charges on Coupa Card
 
-If you are submitting various charges for approval on a Coupa virtual card, please make sure you either provide the PDF contract/order/quote or, if ordering through an online portal, please include a screenshot of the items you need to order. Each separate order requires a supporting PDF or screenshot that shows the vendor name, items being ordered, and total cost. These requests will be reviewed during the procurement process and if approved, the Coupa card issued will cover all costs submitted. Only one Allocadia line item is required per Coupa card approved. For example, if you submit a contract request for booth, AV, and IT charges for a show that equal $3,000, you only need one Allocadia line item ID for all three charges and your plan/forecast number would equal $3,000.
+If you are submitting various charges for approval on a Coupa virtual card, please make sure you either provide the PDF contract/order/quote or, if ordering through an online portal, please include a screenshot of the items you need to order. Each separate order requires a supporting PDF or screenshot that shows the vendor name, items being ordered, and total cost. These requests will be reviewed during the procurement process and if approved, the Coupa card issued will cover all costs submitted. Only one Allocadia line item is required per Coupa card approved. For example, if you submit a contract request for booth, AV, and IT charges for a show that equal $3,000, you only need one Allocadia line item ID for all three charges and your plan/forecast number would equal $3,000. 
+
+PLEASE NOTE: These charges follow the [prepaid policy](/handbook/finance/accounting/#prepaid-expense-policy) and you will always reference the total cost of the charges/PO amount for determining the prepaid threshold. For example, if you submit a $3,000 AV order and a $3,000 booth items order together on one PO, the total PO amount is $6,000. Even though each charge is under the $5k prepaid threshold, the total amount of the PO is $6,000, so you would forecast the charges under the month the event occurs.
+
+#### Multi-Event Contracts
+
+We often receive a discount for multiple events and the vendor includes all events under one contract. When this occurs, the FMM will need to create an Allocadia sub-issue and line item for each event and provide all of the Allocadia IDs in the contract request for the FMC. The FMC will submit the contract in ZIP and add separate lines for each event with that specific event's information and Allocadia ID. 
+
+PLEASE NOTE: These charges follow the [prepaid policy](/handbook/finance/accounting/#prepaid-expense-policy) and you will always reference the total cost of the charges/PO amount for determining the prepaid threshold. For example, if you submit a contract for 3 events and each event costs $3,000, the total PO amount is $9,000. Even though each event is under the $5k prepaid threshold, the total amount of the PO is $9,000, so you would forecast each event charge under the month the event occurs.
 
 #### F&B/AV/Additional Event Charges
 
 Since we often don't have the exact headcount for an event in advance, additional costs (such as AV, F&B, etc.) can be estimated for initial procurement approval. If your additional costs are included in the initial venue contract, please ask the venue to provide pricing for your estimated headcount in the contract (especially for F&B costs, so that you are not only submitting your F&B minimum). This will give us a baseline cost estimate for approval and your FMC will adjust the PO amount as needed, based on final cost (a PO change request will be issued for charges above 10% over the original PO amount). If your additional costs (catering, AV, etc.) are being provided by different vendors from the venue, please make sure you have separate Allocadia line items for those charges and also submit separate contract requests (if a contract is required by the vendors). If the vendor does not require a contract and charges are under $5,000, you can pay with your Navan card.
-
-#### Contract Request Issue Re-use
-
-If you have an event that requires multiple contract requests, feel free to re-use your original contract request issue! Simply re-open the original request, copy the appropriate section that is needed for your new request, and add those fields with new details in a comment to your FMC. Please do not erase the original details from the request, though, as those details are often referenced.
 
 ## Sourcing New Field Marketing Vendors
 
