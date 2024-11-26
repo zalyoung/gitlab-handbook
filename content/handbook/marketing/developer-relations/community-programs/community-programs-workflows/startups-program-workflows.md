@@ -19,6 +19,12 @@ We categorize their approval offering by two different funding qualifications:
 Startups must submit proof of association with a VC or accelerator fund, along with current funding status.
 The easiest way to obtain this information is a Crunchbase, PitchBook, or Y Combinator profile link, which should be submitted upon application.
 
+## Startup Program Service Desk
+
+- We use issue Boards in GitLab service Desk to manage the Startups Program **applications** and **support**. 
+- If you are looking to check the status or file a question with the Startups Program please do so via the Startups Program Issue Board below.
+- [Startups Program Issue Board](https://gitlab.com/gitlab-com/marketing/developer-relations/startups-program/startups-program-support/-/boards)
+
 ## Forms
 
 Our application is a Marketo form with the following fields:
