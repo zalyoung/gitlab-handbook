@@ -71,7 +71,9 @@ Data related to unpatched high-risk vulnerabilities, actively exploited vulnerab
 
 Examples include:
 - XSIRT incidents
+Examples include:
 
+- XSIRT incidents
 - Actively exploited vulnerabilities
 - High-risk unpatched vulnerabilities
 - Sensitive security operations details
