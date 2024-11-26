@@ -54,7 +54,7 @@ Sid (GitLab CEO and Co-founder) and the Learning & Development team discussed gu
 
 "In teamwork, silence isn't golden, it's deadly." ~Mark Sanborn
 
-The habit of seeking feedback may not be easy to develop, but failing to seek honest input from your team can have a significant impact on GitLab's culture. Patrick Lencioni, author of [The Five Dysfunctions of a Team (2002)](https://www.tablegroup.com/books/dysfunctions), cites these consequences of ignoring feedback:
+The habit of seeking feedback may not be easy to develop, but failing to seek honest input from your team can have a significant impact on GitLab's culture. Patrick Lencioni, author of [The Five Dysfunctions of a Team (2002)](https://www.tablegroup.com/product/dysfunctions/), cites these consequences of ignoring feedback:
 
 1. Inattention to Results
 1. Avoidance of Accountability
@@ -239,7 +239,7 @@ Take a moment to identify situations in which you or your team are saying "Thank
 - [Difficult Conversations: How to Discuss What Matters Most](https://www.goodreads.com/book/show/774088.Difficult_Conversations)
 - [The Culture Map](https://www.amazon.com/Culture-Map-Breaking-Invisible-Boundaries/dp/1610392507)
 - On 2018-02-15, we recorded a training on [Peer to Peer Feedback](https://www.youtube.com/watch?v=yzjAeu7RpU8&feature=emb_logo)
-- [Hofstede Country Comparison Tool](https://www.hofstede-insights.com/country-comparison/)
+- [Hofstede Country Comparison Tool](https://www.theculturefactor.com/country-comparison-tool)
 - [Kim Malone Scott speaking about Radical Candor - The Surprising Secret to being a good Boss](https://www.youtube.com/embed/4yODalLQ2lM)
 - [Radical Candor and giving constructive feedback](https://www.youtube.com/embed/0YaXSbLqork)
 - [Giving and Receiving Feedback](https://www.linkedin.com/learning/giving-and-receiving-feedback-18926015) - a 28 minute LinkedIn Learning course by Dr. Gemma Lee Roberts

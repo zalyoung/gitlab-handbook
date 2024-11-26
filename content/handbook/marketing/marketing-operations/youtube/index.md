@@ -176,7 +176,7 @@ Always use YouTube and never use Google Drive, even for [private videos](#visibi
 1. can be easily viewed on other devices, like TVs or streaming devices, with YouTube support.
 1. allow links to a [specific time in the video](https://www.h3xed.com/web-and-internet/link-to-a-specific-time-in-a-youtube-video).
 1. can have subtitles added automatically.
-1. are [zero rated by some mobile providers](https://www.t-mobile.com/offer/binge-on-streaming-video.html)
+1. are [zero rated by some mobile providers](https://www.t-mobile.com/tv-streaming/binge-on)
 1. will be served to people when it is relevant, automatically, since YouTube is a distribution channel.
 1. allows anyone to contribute by leaving comments.
 1. public videos show up in Google search.

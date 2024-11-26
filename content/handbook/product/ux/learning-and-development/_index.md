@@ -131,7 +131,7 @@ Managers should add approved growth and development programs to the [department 
 
 ## UX writing
 
-- [Microcopy: Discover How Tiny Bits of Text Make Tasty Apps and Websites](https://www.amazon.com/dp/B071S54VLL/ref=cm_sw_em_r_mt_dp_51MKD8EZ2M7KMZYX7N2T) by Niaw de Leon
+- [Microcopy: Discover How Tiny Bits of Text Make Tasty Apps and Websites](https://www.amazon.com/dp/B071S54VLL/) by Niaw de Leon
 
 ## Leadership and Communication
 
@@ -165,7 +165,7 @@ Managers should add approved growth and development programs to the [department 
 
 ### Books
 
-- [Deep Work - Rules for Focused Success in a Distracted World](https://www.amazon.com/dp/B013UWFM52/ref=cm_sw_r_tw_dp_F00CBYJ3VJMPM6A2NYNQ) by Cal Newport
+- [Deep Work - Rules for Focused Success in a Distracted World](https://www.amazon.com/dp/B013UWFM52/) by Cal Newport
 - [Make time](https://www.goodreads.com/book/show/37880811-make-time) by Jake Knapp and John Zeratsky
 
 ## Behavioral Psychology in Design

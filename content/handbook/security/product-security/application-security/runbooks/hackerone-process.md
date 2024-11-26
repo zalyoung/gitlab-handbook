@@ -163,7 +163,7 @@ Exposure of information and secrets is handled a little differently to vulnerabi
   - Post a comment in `#security-revocation-self-service` using [this message template](https://gitlab.com/gitlab-com/gl-security/security-operations/sirt/runbooks/-/blob/main/misc/exposed_secrets.md#general-revocation-template-for-secrets)
   - If the information was leaked in an issue, make the Issue confidential and leave an internal note explaining why it's been made confidential.
 - Use the `/security` slack command to initiate an incident
-  - Learn more about engaging the SEOC: https://handbook.gitlab.com/handbook/security/security-operations/sirt/engaging-security-on-call.html#engage-the-security-engineer-on-call
+  - Learn more about engaging the SEOC: <https://handbook.gitlab.com/handbook/security/security-operations/sirt/engaging-security-on-call/#engage-the-security-engineer-on-call>
   - In the description section, include a link to the HackerOne report and any other useful information
     - Share the reporter's IP address(es) and time(s) the reporter accessed the sensitive data to assist with incident response.
   - In the remediation section, document what time and from what IP used to revoke the token or validate the leak.
@@ -191,7 +191,7 @@ Similar to how we handle exposed secrets, we sometimes handle exposed personal d
   - If the information was leaked in an issue, make the Issue confidential and leave an internal note explaining why it's been made confidential.
   - :warning: Bear in mind that turning an issue confidential doesn't turn attachments confidential.
 - Use the `/security` slack command to initiate an incident
-  - Learn more about engaging the SEOC: https://handbook.gitlab.com/handbook/security/security-operations/sirt/engaging-security-on-call.html#engage-the-security-engineer-on-call
+  - Learn more about engaging the SEOC: <https://handbook.gitlab.com/handbook/security/security-operations/sirt/engaging-security-on-call/#engage-the-security-engineer-on-call]>
   - Pick "Information Disclosure" as the nature of incident
   - In the description section, include a link to the HackerOne report and any other useful information
     - If possible, share the reporter's IP address(es) and time(s) the reporter accessed the sensitive data to assist with incident response.

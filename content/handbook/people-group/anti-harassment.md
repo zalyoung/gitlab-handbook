@@ -334,7 +334,7 @@ Nothing in this policy precludes any person from filing a formal grievance in ac
 
 ### Rhode Island Law Requirements
 
-Team members who reside in Rhode Island have the right to file a complaint with the [Rhode Island Commission for Human Rights](https://www.richr.ri.gov/) located at 180 Westminster St., 3rd Floor, Providence, RI 02903. Phone: (401) 222-2661, Voice Relay: 7-1-1.
+Team members who reside in Rhode Island have the right to file a complaint with the [Rhode Island Commission for Human Rights](http://www.richr.ri.gov/) located at 180 Westminster St., 3rd Floor, Providence, RI 02903. Phone: (401) 222-2661, Voice Relay: 7-1-1.
 
 ### Vermont Law Requirements
 

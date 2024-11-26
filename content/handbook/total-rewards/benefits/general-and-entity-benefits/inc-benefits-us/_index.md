@@ -573,10 +573,10 @@ Vision claims can be submitted online through the vision section of the site, ra
 1. Click Vision.
 1. Click on Visit Cigna Vision button.
 1. Hover over Claims.
-1. Click on Out-of-Network Claim Form. 
+1. Click on Out-of-Network Claim Form.
 1. Scroll down to Online Claim Form.
 1. Fill out online form, upload receipt(s) and Click Submit Claim.
- 
+
 </details>
 
 ## Basic Life Insurance and AD&D

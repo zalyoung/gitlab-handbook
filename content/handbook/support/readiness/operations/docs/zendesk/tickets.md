@@ -74,7 +74,7 @@ We currently maintain all groups via Zendesk itself.
 ## Ticket statuses
 
 As per
-[Zendesk](https://support.zendesk.com/hc/en-us/articles/212530318-Updating-and-solving-tickets#topic_i3y_np1_vt)
+[Zendesk](https://support.zendesk.com/hc/en-us/articles/4408832151834-Updating-and-solving-tickets#topic_i3y_np1_vt)
 the various status are defined as:
 
 - New

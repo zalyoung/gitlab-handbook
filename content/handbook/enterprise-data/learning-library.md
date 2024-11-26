@@ -40,7 +40,7 @@ description: "GitLab Data Team Library"
 - [Is your company too dumb to be data-driven?](https://towardsdatascience.com/is-your-company-too-dumb-to-be-data-driven-696932d597c3)
 - [What does "self-serve" analytics mean to you?](https://discourse.getdbt.com/t/what-does-self-serve-in-analytics-mean-to-you/712/5)
 - [Models for integrating data science teams within organizations](https://medium.com/@djpardis/models-for-integrating-data-science-teams-within-organizations-7c5afa032ebd)
-- [Building a Mature Analytics Workflow](https://blog.fishtownanalytics.com/building-a-mature-analytics-workflow/) (Note: this explains the "Analytics is a subfield of software engineering" premise.)
+- [Building a Mature Analytics Workflow](https://www.getdbt.com/blog/building-a-mature-analytics-workflow) (Note: this explains the "Analytics is a subfield of software engineering" premise.)
 - [DataOps playlist on YouTube](https://www.youtube.com/playlist?list=PLVbsAdgZXvtyy6HVKCP0HChjCcq2oW3eK)
 
 ## Data Newsletters

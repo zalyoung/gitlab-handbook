@@ -1097,7 +1097,7 @@ on the user that initiated the interaction and their contact information will di
 
 If you don't have a Zendesk account, see [how to request a light agent Zendesk account](/handbook/support/internal-support/#submitting-internal-license-request-extensions-and-viewing-support-tickets).
 
-You can use [Zendesk's trigger feature](https://support.zendesk.com/hc/en-us/articles/115015611647-Trigger-conditions-and-actions-reference) to receive email alerts when specific keywords relevant
+You can use [Zendesk's trigger feature](https://support.zendesk.com/hc/en-us/articles/4408893545882-Ticket-trigger-conditions-and-actions-reference) to receive email alerts when specific keywords relevant
 to your product area are mentioned in a support ticket. Additionally, it is possible to create a simple dashboard that lists all the currently active support tickets that match the trigger. Reach out
 in #support_escalations to receive some help in setting this up.
 

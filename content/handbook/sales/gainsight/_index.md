@@ -95,7 +95,7 @@ This is because two SFDC accounts were merged into one. What happens is this:
 
 #### Error "Timeline: Invalid authentication credentials. Authentication failed" (Chrome users only)
 
-Usually, this type of error occurs if the Chrome extension version is out of date. Try [updating the Chrome extension](https://community.gainsight.com/timeline-17/update-your-chrome-plugin-39237) to the latest version. It should automatically refresh and begin working, but try logging out and back in if it doesn't resolve right away.
+Usually, this type of error occurs if the Chrome extension version is out of date. Try [updating the Chrome extension](https://communities.gainsight.com/customer-success-cs-15/update-your-chrome-plugin-10392) to the latest version. It should automatically refresh and begin working, but try logging out and back in if it doesn't resolve right away.
 
 If this doesn't solve the issue, reach out to [Gainsight support](#support-tickets) and let them know you've already tried updating the extension and logging out and back in.
 

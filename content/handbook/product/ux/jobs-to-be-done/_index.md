@@ -382,7 +382,7 @@ To get started, ask yourself these questions:
 
 - [Jobs to be Done Playbook by Jim Kalbach](https://rosenfeldmedia.com/books/jobs-to-be-done-book/)
 - [Jobs to be Done by Anthony Ulwick](https://jobs-to-be-done-book.com/)
-- [Competing Against Luck by Clay Christenson](https://www.amazon.com/dp/0062435612/ref=cm_sw_em_r_mt_dp_U_v0k9Eb92AEDZX)
+- [Competing Against Luck by Clay Christenson](https://www.amazon.com/dp/0062435612/)
 - [Intercom on Jobs to be Done by Intercom](https://www.intercom.com/resources/books/intercom-jobs-to-be-done)
 
  -->

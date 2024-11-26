@@ -11,7 +11,7 @@ description: "Diversity, Inclusion & Belonging is fundamental to the success of 
 Diversity, Inclusion & Belonging is fundamental to the success of GitLab.  We include it in every way possible and in all that we do.  We strive for a transparent environment where all globally dispersed voices are heard and welcomed.  We strive for an environment where people can show up as their full selves each day and can contribute to their best ability.  And with over 100,000 organizations utilizing GitLab across the globe, we strive for a team that is representative of our users.
 
 Diversity complements our other [values](/handbook/values/), specifically Collaboration, Efficiency and Results.
-And diversity in our leadership [supports innovation](https://www.bcg.com/en-us/publications/2018/how-diverse-leadership-teams-boost-innovation.aspx), [promotes better decision making](https://www.cloverpop.com/hacking-diversity-with-inclusive-decision-making-white-paper) and [improves financial results](https://www.mckinsey.com/capabilities/people-and-organizational-performance/our-insights/why-diversity-matters).
+And diversity in our leadership [supports innovation](https://www.bcg.com/publications/2018/how-diverse-leadership-teams-boost-innovation), [promotes better decision making](https://www.cloverpop.com/hacking-diversity-with-inclusive-decision-making-white-paper) and [improves financial results](https://www.mckinsey.com/capabilities/people-and-organizational-performance/our-insights/why-diversity-matters).
 
 ## GitLab's Diversity Inclusion and Belonging Mission
 
@@ -229,7 +229,7 @@ At GitLab, we are proud to make reasonable accommodations to the known disabilit
 
 #### Related Disability Legislation
 
-- [United Nations Convention on the Rights of Persons with Disabilities (CRPD)](https://www.un.org/development/desa/disabilities/convention-on-the-rights-of-persons-with-disabilities.html)
+- [United Nations Convention on the Rights of Persons with Disabilities (CRPD)](https://social.desa.un.org/issues/disability/crpd/convention-on-the-rights-of-persons-with-disabilities-crpd)
 - [Global Disability Legislation](https://williamsav.com/wp-content/uploads/2020/06/Global_summary_of_disability_leg.pdf)
 
 ### United States Veteran Inclusion

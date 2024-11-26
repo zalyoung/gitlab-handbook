@@ -105,7 +105,7 @@ In some instances, you will make a selection that will require additional review
 
 #### Known Quote Template Issues
 
-**Additional Line Items Displaying on the Quote**: If you construct a quote and notice that there is an additional line item displaying on your quote, know that this is the result of a [known Zuora bug](https://community.zuora.com/t5/Zuora-CPQ/known-Issue-Duplicate-Rate-Plan-created-for-Renewal-Quote-when/m-p/34564#!%23M3294). The only current workaround in place is to recreate the quote from scratch by clicking the `New Quote` button and follow the New Quote creation flow.
+**Additional Line Items Displaying on the Quote**: If you construct a quote and notice that there is an additional line item displaying on your quote, know that this is the result of a [known Zuora bug](https://web.archive.org/web/20210227012538/https://community.zuora.com/t5/Zuora-CPQ/known-Issue-Duplicate-Rate-Plan-created-for-Renewal-Quote-when/m-p/34564#!%2F%23M3294). The only current workaround in place is to recreate the quote from scratch by clicking the `New Quote` button and follow the New Quote creation flow.
 
 #### Quote Assistance
 
@@ -885,7 +885,7 @@ If you are a quote approver and will be out of office, please take action to del
 1. Navigate to your personal settings in SFDC. At the top right corner of your screen, Click on your name. In the drop down, click "My Settings".
 1. Enter Approver Settings in the Quick Find box, then select Approver Settings. No results? Enter Personal Information in the Quick Find box, then select Personal Information.
      1. Assign your Delegated Approver (the individual to whom your quotes should be rerouted).
-     1. Verify with your Delegated Approver that they have set their [SFDC Approval Settings](https://help.salesforce.com/articleView?id=approvals_change_approval_user_pref.htm&type=5) to "If I am an approver" or "Delegated Approver".
+     1. Verify with your Delegated Approver that they have set their [SFDC Approval Settings](https://help.salesforce.com/s/articleView?id=platform.approvals_change_approval_user_pref.htm&type=5) to "If I am an approver" or "Delegated Approver".
 
 Note: If you are a Delegated Approver and are not receiving approval alerts, contact sales-support for assistance.
 
@@ -1022,7 +1022,7 @@ To send a digital copy of an Order Form to the customer via DocuSign:
 
 - [Send Your First Envelope](https://dsu.docebosaas.com/learn/course/620)
 - [Configure Envelopes for Sending](https://dsu.docebosaas.com/learn/course/687/play/1849:2112/configure-envelopes-for-sending)
-- [DocuSign Support Page](https://support.docusign.com/en/home)
+- [DocuSign Support Page](https://support.docusign.com/s/?language=en_US)
 
 Note: You must log in with your DocuSign credentials to access these educational resources.
 

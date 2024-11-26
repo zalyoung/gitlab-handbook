@@ -56,7 +56,7 @@ We can't design in isolation. All the decisions we make are in the context of a 
 ## Resources
 
 - [Salesforce Workdifferently](https://www.salesforce.com/workdifferently/)
-- [Salesforce Workdifferently: An Introduction To The 6 Principles To Work Differently (video)](https://www.salesforce.com/video/3642076/)
+- [Salesforce Workdifferently: Method cards](https://www.salesforce.com/content/dam/web/en_us/workdifferently/documents/resources-methodcards-all.pdf)
 - [IBM enterprise design thinking](https://www.ibm.com/design/thinking/)
 
 ## Collaborative exercises

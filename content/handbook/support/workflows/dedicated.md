@@ -37,7 +37,7 @@ To receive an invite, ask Armin, Brie, Daphne or Wei-Meng.
 
 ### Conducting a test
 
-When running a test on the GitLab Support Dedicated instance, 
+When running a test on the GitLab Support Dedicated instance,
 
 - consider whether your test can be conducted in an instance deployed via the [Sandbox Cloud Realm](/handbook/company/infrastructure-standards/realms/sandbox/)
 - communicate about it on the Slack channel [#spt_pod_dedicated](https://gitlab.enterprise.slack.com/archives/C058LM1RL3V)
@@ -121,7 +121,7 @@ When any changes are required besides those listed below, raise an issue in the 
 
 1. In the ticket, ask the customer to provide the [required information](https://docs.gitlab.com/ee/administration/dedicated/#inbound-private-link). In this case, it's an **IAM principal**.
 
-   - The IAM principal must be an [IAM role principal](https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_elements_principal.html#principal-roles) or [IAM user principal](https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_elements_principal.html#principal-users).
+   - The IAM principal must be an [IAM role principal](https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_elements_principal.html#principal-roles) or [IAM user principal](https://docs.aws.amazon.com/IAM/latest/UserGuide/).
    - The IAM user principal has the following format: `arn:aws:iam::<Customer_AWS_Account_ID>:user/user-name`. The IAM role principal has the following format: `arn:aws:iam::<Customer_AWS_Account_ID>:role/role-name`. Keep the format of these two in mind to avoid prolonging the ticket if an unexpected format is provided.
 
 1. Open a new [PrivateLink Request issue](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/team/-/issues/new?issuable_template=private_link_request) and confirm that the `support::request-for-help` label is added.
@@ -170,7 +170,7 @@ Customers who use the IP allowlist may request to enable the SCIM or OIDC endpoi
 
 1. In the ticket, ask the customer to provide the [required information](https://docs.gitlab.com/ee/administration/dedicated/#access-to-application-logs). In this case, it's an **IAM principal**.
 
-   - The IAM principal must be an [IAM role principal](https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_elements_principal.html#principal-roles) or [IAM user principal](https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_elements_principal.html#principal-users).
+   - The IAM principal must be an [IAM role principal](https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_elements_principal.html#principal-roles) or [IAM user principal](https://docs.aws.amazon.com/IAM/latest/UserGuide/).
 
 1. Open a [Request for Help issue](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/team/-/issues/new?issuable_template=request_for_help) in the GitLab Dedicated issue tracker.
 1. Provide the IAM principal to the Environment Automation team.

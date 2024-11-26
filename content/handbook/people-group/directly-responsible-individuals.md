@@ -5,7 +5,7 @@ description: "Directly Responsible Individuals (DRIs) at GitLab own particular p
 
 ## What is a directly responsible individual?
 
-[Apple coined the term](https://fortune.com/2011/08/25/how-apple-works-inside-the-worlds-biggest-startup/) "directly responsible individual" (DRI) to refer to the one person with whom the buck stopped on any given project.
+[Apple coined the term](https://fortune.com/article/how-apple-works-inside-the-worlds-biggest-startup/) "directly responsible individual" (DRI) to refer to the one person with whom the buck stopped on any given project.
 The idea is that every project is assigned a DRI who is ultimately held accountable for the success (or failure) of that project.
 
 They likely won't be the only person working on their assigned project, but it's ["up to that person to get it done or find the resources needed."](https://originalfuzz.com/blogs/magazine/83782148-the-directly-responsible-individual)

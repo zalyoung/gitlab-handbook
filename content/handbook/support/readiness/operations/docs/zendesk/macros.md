@@ -7,7 +7,7 @@ canonical_path: "/handbook/support/readiness/operations/docs/zendesk/macros"
 ## What are macros
 
 As per
-[Zendesk](https://support.zendesk.com/hc/en-us/articles/115001236988-Creating-macros-for-tickets):
+[Zendesk](https://support.zendesk.com/hc/en-us/articles/4408844187034-Creating-macros-for-repetitive-ticket-responses-and-actions):
 
 > A macro is a prepared response or action that an agent can manually apply
 > when they are creating or updating tickets. Macros contain actions that can

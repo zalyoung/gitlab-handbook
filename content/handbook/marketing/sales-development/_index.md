@@ -98,7 +98,7 @@ Please find our SSoT in terms of reporting below, for each dashboard you can als
 ### Dashboards For Team Members
 
 | Name/Link                                                            | Description                                            |
-|-----------------------------------------------------------------------|--------------------------------------------------------| 
+|-----------------------------------------------------------------------|--------------------------------------------------------|
 | [1:1 Dashboards - Accounts: EMEA COMM](https://gitlab.my.salesforce.com/01Z8X000000u7O4) | 1:1 dashboard for accounts in the EMEA COMM segment.    |
 | [1:1 Dashboards - Accounts: AMER COMM](https://gitlab.my.salesforce.com/01ZPL000001I5n3) | 1:1 dashboard for accounts in the AMER COMM segment.    |
 | [1:1 Dashboards - Accounts: ENTG AMER/LATAM](https://gitlab.my.salesforce.com/01ZPL000001I6Ub) | 1:1 dashboard for accounts in the ENG AMER/LATAM segment. |
@@ -107,7 +107,7 @@ Please find our SSoT in terms of reporting below, for each dashboard you can als
 | [1:1 Dashboards - Accounts: ENTG AMER](https://gitlab.my.salesforce.com/01ZPL000001I6Ub)   | 1:1 dashboard for accounts in the ENTG EMEA segment.     |
 | [1:1 Dashboards - Accounts: PUBSEC](https://gitlab.my.salesforce.com/01ZPL000001Mcm1)     | 1:1 dashboard for accounts in the PUBSEC segment.       |
 | [1:1 Report - Tableau Self-Managed Instances Database](https://10az.online.tableau.com/#/site/gitlab/views/FreetoPaidCockpitSSAOfficial/FreeSelf-ManagedInstances?%3Aiid=1) | 1:1 Dashboard that breaks down our database in terms of Self-Managed Free Instances.    |
-| [1:1 Report - Tableau Inbound Lead Database](https://10az.online.tableau.com/#/site/gitlab/views/InboundInterestFeedSSAOfficial/InboundInterestFeed-ProspectLevel?:iid=1) | 1:1 Dashboard that breaks down our database in terms of inbound and existing leads. |  
+| [1:1 Report - Tableau Inbound Lead Database](https://10az.online.tableau.com/#/site/gitlab/views/InboundInterestFeedSSAOfficial/InboundInterestFeed-ProspectLevel?:iid=1) | 1:1 Dashboard that breaks down our database in terms of inbound and existing leads. |
 | [1:1 Report - Tableau Prospecting 360 Database - Master](https://10az.online.tableau.com/#/site/gitlab/views/DraftProspect360V1SAFEFinal/Prospect360LandingPage?:iid=2) | The main 1:1 Dashboard that combines multiple datapoints into one consolidation view for you to expand your research. |
 | [1:1 Report - Tableau Prospecting 360 Database - Pursuit or First Order Accounts](https://10az.online.tableau.com/#/site/gitlab/views/DraftProspect360V1SAFEFinal/Prospect360LandingPage/581358d3-3472-4006-b973-c4db683df21c/dc1a9440-5587-4720-ae06-007bc65299f1) | A pre-saved view of the Prospecting 360 dashboard that identifies accounts with engaged leads in the last thirty days and no open opportunities, giving you a chance to pursue leads that show active interest but haven’t yet been captured in the pipeline. |
 | [1:1 Report - Tableau Prospecting 360 Database - Qualifying Surging & On Fire Accounts](https://10az.online.tableau.com/#/site/gitlab/views/DraftProspect360V1SAFEFinal/Prospect360LandingPage/c06f518d-df0e-4db0-8b98-f5e1a8a45ed3/da2db280-9f02-4a4e-9748-dcef783af2db) | A pre-saved view of the Prospecting 360 dashboard that highlights accounts with new or engaged leads that are Surging and On Fire in Qualified, helping you prioritize the most promising accounts. |
@@ -189,7 +189,7 @@ You will find the lead views below. These views are split per use-case for your 
 | FY25 B5 - My Qualifying Leads          | These are leads in qualifying status which means some sort of two-way engagement happened between you two. Please review this section of our handbook for best converting follow-up practices.                                                                                                                                                                                                                          |
 | FY25 B6 - 6QA imported leads           | You can find any leads in your ownership related to accounts that have just hit 6QA status in this view. 6QA means the account has been shown to have high intent signals and has similar signs to other accounts that have purchased from us. We have brought in appropriate titles from ZoomInfo so that when you move the 6QA account into Actively Working, you have some leads all ready for sequencing.                                                                  |
 | FY25 B7 - BDR Prospecting Last 7 Days  | This view will surface leads that you created or refreshed from ZoomInfo or Cognism. (Please note that there is also a contacts view you will need to check should the person already be a contact in our system)                                                                                                                                                                                                                 |
-| FY25 B8 - UG changes - less than 3 months   | This view will surface leads that were automatically created by UserGems for job changed that happened in the last 3 months. | 
+| FY25 B8 - UG changes - less than 3 months   | This view will surface leads that were automatically created by UserGems for job changed that happened in the last 3 months. |
 | FY25 B9 - UG changes - more than 3 months | This view will surface leads that were automatically created by UserGems for job changed that happened more than 3 months ago. |
 
 #### Contact Views
@@ -326,7 +326,7 @@ Leads with certain criteria will be automatically labeled as **Do Not Call** and
 11. If a lead completes a Groove flow without responding, the lead status will automatically change to `Unresponsive` or `Recycle` after seven days of no response.
 12. Manually change the lead status if you do not use a Groove flow to reach out or if you need to disqualify a lead (e.g., for bad data).
 13. If you mark a lead as `Inactive` or a contact as `Inactive`, signifying that this person no longer works at the company, any running Flow will automatically be marked as finished.
-14. If your leads are being reassigned to the `Inquiry Queue`, it’s likely due to a scheduled cleanup job in Traction that updates `Status = Inquiry` to `Inquiry Queue`. To resolve this, add your leads to a Groove flow. 
+14. If your leads are being reassigned to the `Inquiry Queue`, it’s likely due to a scheduled cleanup job in Traction that updates `Status = Inquiry` to `Inquiry Queue`. To resolve this, add your leads to a Groove flow.
     - **Note:** The cleanup job runs daily at 10:30 PM EST/EDT.
 
 #### Groove Labels
@@ -352,7 +352,7 @@ In both cases, it’s essential to tag your templates with the appropriate colle
 
 #### New Groove Flow creation
 
-Please follow the instructions on [the Groove handbook page here](/handbook/marketing/marketing-operations/groove/index.html) 
+Please follow the instructions on [the Groove handbook page here](/handbook/marketing/marketing-operations/groove/index.html)
 
 **Implement Measurement Clarity and Decision Velocity**
 
@@ -377,12 +377,12 @@ For more personal events, such as Executive Roundtables, there may be more detai
 The goal of these Flows is to reach out to the prospect quickly and to include our SAEs/AEs in the conversation.
 
 - The first step is to add the prospect to the Flow. Then, customize the first email step to include the individuals mentioned in the Last Event Notes. You can also delay the first email to allow time for feedback from the SAE/AE if needed.
-- Next, send a screenshot of the first email step to the SAE/AEs who will be CC'd. Explain that this strategy allows them to engage with more personalized messaging if the prospect remains unresponsive. 
+- Next, send a screenshot of the first email step to the SAE/AEs who will be CC'd. Explain that this strategy allows them to engage with more personalized messaging if the prospect remains unresponsive.
   - **Note:** There is a generic task on Day 12 to follow up with the SAE/AE if there has been no engagement. The goal is to keep them informed and work together to engage the prospect.
 
-### High Priority Campaigns and Leads 
+### High Priority Campaigns and Leads
 
-A High Priority Lead is a lead that is related to a high priority campaign. Any campaign checked as High Priority will have any members that relate to Actively Working accounts marked as High Priority irregardless of their lead status. These will show up in the BDR's B1 priority view. Check the high priority timestamp and high priority reason fields in salesforce to understand why a lead was marked high priority. 
+A High Priority Lead is a lead that is related to a high priority campaign. Any campaign checked as High Priority will have any members that relate to Actively Working accounts marked as High Priority irregardless of their lead status. These will show up in the BDR's B1 priority view. Check the high priority timestamp and high priority reason fields in salesforce to understand why a lead was marked high priority.
 
 If you need to move a lead out of high prioriy without contacting them you can [use this flow.](https://groove.clari.com/flows/1097000) This flow is one generic task for you to complete that will move the lead to accepted status and remove the high priority check.
 
@@ -823,7 +823,7 @@ There will be times when an SDR or BDR is working a prospect and, after connecti
 
 - If the SDR or BDR has done their due diligence to verify account information and still ends up finding an opportunity outside of their territory: as long as the related account isn't an AWA and there is no related activity from an SDR in the past 30 days, and the SDR or BDR's manager has verified that the accurate information could not have been uncovered prior to engaging with the prospect, then that SDR or BDR and their team will get SAO credit.
 - If the related account is an AWA or there is related activity from an SDR in the past 30 days, SAO credit will belong to the BDR assigned to the AWA or the SDR working the lead related to the account.
-- If the related account isn't an AWA and there is no related activity from an SDR in the past 30 days, but the SDR or BDR's manager determines that the accurate information should have been uncovered prior to engaging with the prospect, SAO credit will be assigned to the team manager assigned to the correct territory. 
+- If the related account isn't an AWA and there is no related activity from an SDR in the past 30 days, but the SDR or BDR's manager determines that the accurate information should have been uncovered prior to engaging with the prospect, SAO credit will be assigned to the team manager assigned to the correct territory.
 - Any other situations that arise which result in a credit dispute will be investigated and resolved by the SDR or BDR's leader and senior leader.
 
  **In situations where an SDR or BDR has received conflicting information and it is unclear what the correct territory is for an account, they should Chatter the AEs assigned to the potential territories and have them figure out who owns it.**
@@ -1011,7 +1011,7 @@ A Professional Services Opportunity will be used to cover any integration, consu
 | VIP (prospect)           | A Very Important Person, top officer, executive buyer, C-level prospect, or important influencer requiring hyper-personalization.                                            |
 | Influencer (prospect)    | An individual prospect suspected to be involved with IT decision-making, tooling, teams, roadmap, strategic projects, and/or budgets.                                         |
 | User (prospect)          | A prospect with limited influence within an IT organization.                                                                                                                 |
-| Groundswell               | An outbound strategy focused on filling the top of the funnel by generating engagement, opt-ins, MQLs, and uncovering intent signals.                                         |                  
+| Groundswell               | An outbound strategy focused on filling the top of the funnel by generating engagement, opt-ins, MQLs, and uncovering intent signals.                                         |
 | Warm Calling              | The method used to strategically incorporate phone calls and voicemails into an outbound prospecting workflow.                                                               |
 | Rules of Engagement (RoE) | Defines ownership of a lead, SAO credit, and collaboration between SDRs and BDRs.                                                                                          |
 | BDR Prospecting Status    | Salesforce status includes Queued, Actively Working, Worked in FY, and Restricted.                                                                                         |
@@ -1052,7 +1052,7 @@ This page is to act as your guide to the many tools and best practices that the 
 
 #### LinkedIn Training Resources
 
-- LinkedIn Intro: [70 Minute Navigator Tutorial](https://www.linkedin.com/learning/learn-linkedin-sales-navigator-3/welcome-to-sales-navigator)
+- LinkedIn Intro: [70 Minute Navigator Tutorial](https://www.linkedin.com/learning/learning-linkedin-sales-navigator-17282699)
 - GitLab Edcast: [LinkedIn Navigator Training](https://gitlab.edcast.com/journey/week-note)
 - GitLab Video: [Peer Tips](https://drive.google.com/file/d/1xzz8cEiSFqZ7bOw-dpqoNlHjSDwrIFE4/view)
 - GitLab Video: [LinkedIn Personalization](https://www.youtube.com/watch?v=7vEVB-WgDPA)
@@ -1075,12 +1075,15 @@ We currently have in place an automation that will automatically move accounts t
 
 Specifically:
 
-- We have three segments (SMB, MM, ENTG) saved on folder 9a of 6Sense. Each of these segments tries to identify the top accounts we currently have on SFDC that are not being worked by our team.
-- Through 6Sense Orchestrations, we will automatically update these accounts weekly.
-  - We aim for 200 records to be enriched every week.
-  - We aim for a 90 day buffer period between records being enriched.
-  - The SFDC field `Sales Dev Automation` will be enriched with the value of the respective segment (SMB, MM, ENTG)
-- From the moment these accounts get enriched by 6Sense, they will automatically show up on our pre-saved searches on ZoomInfo, one for each segment.
+- Accounts flagged as 6QA from 6Sense, whether they already exist on our system or not, will automatically be marked with the fields:
+  - `BDR Prospecting Status: Actively Working`
+  - `BDR Account Strategy: Showing Intent`
+- These Accounts will be flagged on 1:1 dashboards for team members to review with an expected SLA of **48 hours**
+- Any accounts that team members choose to dispute using the instructions below will be flagged to the Action Needed dashboards for Managers to keep track of.
+- While these accounts are automatically switched to Actively Working to indicate the high propensity to buy, team members need to still review and accept or dispute a 6QA account.
+- This can be done through a secondary field titled `6QA Acceptance Status` where the options `Disputed` (would need to provide reasoning) or `Accepted` can be found.
+- Any accounts that marked as `Accepted` by the BDR team will be flagged on the [MM/ENTG saved search on ZoomInfo](https://app.zoominfo.com/#/apps/searchV2/v2/results/person?query=eyJmaWx0ZXJzIjp7InBhZ2UiOjEsImNvbXBhbnlQYXN0T3JQcmVzZW50IjoiMSIsImlzQ2VydGlmaWVkIjoiaW5jbHVkZSIsInNvcnRCeSI6IlJlbGV2YW5jZSIsInNvcnRPcmRlciI6ImRlc2MiLCJleGNsdWRlRGVmdW5jdENvbXBhbmllcyI6dHJ1ZSwiY29uZmlkZW5jZVNjb3JlTWluIjo4NSwiY29uZmlkZW5jZVNjb3JlTWF4Ijo5OSwib3V0cHV0Q3VycmVuY3lDb2RlIjoiVVNEIiwiaW5wdXRDdXJyZW5jeUNvZGUiOiJVU0QiLCJleGNsdWRlTm9Db21wYW55IjoidHJ1ZSIsInJldHVybk9ubHlCb2FyZE1lbWJlcnMiOmZhbHNlLCJleGNsdWRlQm9hcmRNZW1iZXJzIjp0cnVlLCJzY29yaW5nT3B0aW9ucyI6IntcImlkXCI6XCJaUmhSeWJtUHIxMGU2cEVQVDVBcVwiLFwib25seUNvbnRhY3RGaWx0ZXJzXCI6ZmFsc2V9Iiwic291cmNlSWQiOiJBTlVSQSIsInRpdGxlU2VuaW9yaXR5IjoiQ19FWEVDVVRJVkVTLFZQX0VYRUNVVElWRVMsRElSRUNUT1IiLCJ3b3JrRXhwZXJpZW5jZUpvaW5PcGVyYXRvciI6Ik9SIiwicnBwIjoyNSwiZGVwYXJ0bWVudHMiOiJJbmZvcm1hdGlvbiBUZWNobm9sb2d5LEVuZ2luZWVyaW5nICYgVGVjaG5pY2FsLEMtU3VpdGUiLCJoYXNNb2JpbGVQaG9uZSI6ImluY2x1ZGUiLCJDRi1zYWxlc2ZvcmNlLWFjY291bnQtMTAyIjp7ImluY2x1ZGUiOnsicGxhdGZvcm0iOiJzYWxlc2ZvcmNlIiwiZW50aXR5IjoiYWNjb3VudCIsImZpZWxkTmFtZSI6IjEwMiIsImlkTGlzdCI6WyI0MDU5OXg0NG0xYXl1YWR4Il0sImlzSW5jbHVkZSI6dHJ1ZX19LCJoYXNFbWFpbCI6ImluY2x1ZGUifSwic2VhcmNoVHlwZSI6MH0%3D) which in turn will trigger the [ZoomInfo workflow here](https://app.zoominfo.com/#/apps/automate/workflow/overview/65fdc8011c3ae1ac2cbef07b/completed) to automatically bring relevant decision-makers for these accounts to the [B6 - 6QA view on SFDC.](/handbook/marketing/sales-development/#bdr-lead-views).
+- This is a complementary automation for the outbound team to automatically source some prospects for you. you are still expected to properly add the account to your pipeline following the steps outlined above.
 
   - [SMB Saved Search](https://app.zoominfo.com/#/apps/searchV2/v2/results/person?query=eyJmaWx0ZXJzIjp7InBhZ2UiOjEsImNvbXBhbnlQYXN0T3JQcmVzZW50IjoiMSIsImlzQ2VydGlmaWVkIjoiaW5jbHVkZSIsInNvcnRCeSI6IlJlbGV2YW5jZSIsInNvcnRPcmRlciI6ImRlc2MiLCJleGNsdWRlRGVmdW5jdENvbXBhbmllcyI6dHJ1ZSwiY29uZmlkZW5jZVNjb3JlTWluIjo4NSwiY29uZmlkZW5jZVNjb3JlTWF4Ijo5OSwib3V0cHV0Q3VycmVuY3lDb2RlIjoiVVNEIiwiaW5wdXRDdXJyZW5jeUNvZGUiOiJVU0QiLCJleGNsdWRlTm9Db21wYW55IjoidHJ1ZSIsInJldHVybk9ubHlCb2FyZE1lbWJlcnMiOmZhbHNlLCJleGNsdWRlQm9hcmRNZW1iZXJzIjp0cnVlLCJzY29yaW5nT3B0aW9ucyI6IntcImlkXCI6XCJaUmhSeWJtUHIxMGU2cEVQVDVBcVwiLFwib25seUNvbnRhY3RGaWx0ZXJzXCI6ZmFsc2V9Iiwic291cmNlSWQiOiJBTlVSQSIsInRpdGxlU2VuaW9yaXR5IjoiQ19FWEVDVVRJVkVTLFZQX0VYRUNVVElWRVMsRElSRUNUT1IiLCJycHAiOjI1LCJkZXBhcnRtZW50cyI6IkluZm9ybWF0aW9uIFRlY2hub2xvZ3ksRW5naW5lZXJpbmcgJiBUZWNobmljYWwsQy1TdWl0ZSIsImhhc01vYmlsZVBob25lIjoiaW5jbHVkZSIsIkNGLXNhbGVzZm9yY2UtYWNjb3VudC0xMDEiOnsiaW5jbHVkZSI6eyJwbGF0Zm9ybSI6InNhbGVzZm9yY2UiLCJlbnRpdHkiOiJhY2NvdW50IiwiZmllbGROYW1lIjoiMTAxIiwiaWRMaXN0IjpbIjQwNTk5eDN6bHRmeDliNWoiXSwiaXNJbmNsdWRlIjp0cnVlfX19LCJzZWFyY2hUeXBlIjowfQ%3D%3D)
   - [MM Saved Search](https://app.zoominfo.com/#/apps/searchV2/v2/results/person?query=eyJmaWx0ZXJzIjp7InBhZ2UiOjEsImNvbXBhbnlQYXN0T3JQcmVzZW50IjoiMSIsImlzQ2VydGlmaWVkIjoiaW5jbHVkZSIsInNvcnRCeSI6IlJlbGV2YW5jZSIsInNvcnRPcmRlciI6ImRlc2MiLCJleGNsdWRlRGVmdW5jdENvbXBhbmllcyI6dHJ1ZSwiY29uZmlkZW5jZVNjb3JlTWluIjo4NSwiY29uZmlkZW5jZVNjb3JlTWF4Ijo5OSwib3V0cHV0Q3VycmVuY3lDb2RlIjoiVVNEIiwiaW5wdXRDdXJyZW5jeUNvZGUiOiJVU0QiLCJleGNsdWRlTm9Db21wYW55IjoidHJ1ZSIsInJldHVybk9ubHlCb2FyZE1lbWJlcnMiOmZhbHNlLCJleGNsdWRlQm9hcmRNZW1iZXJzIjp0cnVlLCJzY29yaW5nT3B0aW9ucyI6IntcImlkXCI6XCJaUmhSeWJtUHIxMGU2cEVQVDVBcVwiLFwib25seUNvbnRhY3RGaWx0ZXJzXCI6ZmFsc2V9Iiwic291cmNlSWQiOiJBTlVSQSIsInRpdGxlU2VuaW9yaXR5IjoiQ19FWEVDVVRJVkVTLFZQX0VYRUNVVElWRVMsRElSRUNUT1IiLCJycHAiOjI1LCJkZXBhcnRtZW50cyI6IkluZm9ybWF0aW9uIFRlY2hub2xvZ3ksRW5naW5lZXJpbmcgJiBUZWNobmljYWwsQy1TdWl0ZSIsImhhc01vYmlsZVBob25lIjoiaW5jbHVkZSIsIkNGLXNhbGVzZm9yY2UtYWNjb3VudC0xMDEiOnsiaW5jbHVkZSI6eyJwbGF0Zm9ybSI6InNhbGVzZm9yY2UiLCJlbnRpdHkiOiJhY2NvdW50IiwiZmllbGROYW1lIjoiMTAxIiwiaWRMaXN0IjpbIjQwNTk5eDN6bHRmeDliNWkiXSwiaXNJbmNsdWRlIjp0cnVlfX19LCJzZWFyY2hUeXBlIjowfQ%3D%3D)
@@ -1120,24 +1123,24 @@ This is where you can find messaging related to GitLab vs some of our competiors
 
 #### 1. When a person that we are tracking leaves their current place of employment
 
-- UserGems will track that person to their new role and will automatically create a lead with their new details in our system. 
+- UserGems will track that person to their new role and will automatically create a lead with their new details in our system.
 - These leads will be flagged on the Action Needed BDR dashboards for you and your manager's review, as well as on the [B8 and B9 views for BDRs.](/handbook/marketing/sales-development/#bdr-lead-views)
 - We expect that our [standard RoE](/handbook/marketing/sales-development/#rules-of-engagement-roe) will be followed normally in actioning these leads.
-- These leads will also be automatically enrolled to a Grove flow either if the job change occured [more](https://groove.clari.com/flows/1124150) or [less](https://groove.clari.com/flows/1122335) than 90 days ago. 
+- These leads will also be automatically enrolled to a Grove flow either if the job change occured [more](https://groove.clari.com/flows/1124150) or [less](https://groove.clari.com/flows/1122335) than 90 days ago.
 - If you'd like to iterate on these flows please follow the content creation process outlined [here.](handbook/marketing/sales-development/#new-groove-flow-creation)
 - We'll also notify you via Slack and email about these Job Changes.
 
 #### 2. When a company that we are tracking gets a new hire or promotion
 
-- These people will be automatically be enrolled to a [fully automated Flow](https://groove.clari.com/flows/1124157).  
-  - We expect that our [standard RoE](/handbook/marketing/sales-development/#rules-of-engagement-roe) will be followed normally. 
+- These people will be automatically be enrolled to a [fully automated sequence](https://groove.clari.com/flows/1124157).
+  - We expect that our [standard RoE](/handbook/marketing/sales-development/#rules-of-engagement-roe) will be followed normally.
 
 #### 3. When people leave or join accounts where we have open oppourtunities
 
 - While we are actively working to improve our back-end so that this cohort can be visible on our dashboards, like the use-cases above, we are relying on sending notifications only for these people. In the meantime, you can use the report here to gauge what prospects we have on [this list.](https://gitlab.my.salesforce.com/00OPL000007z6XV). We are currently notifying:
   - The Sales team for people that joined or left a stage 3 or beyond opportunity.
   - The Sales and Sales Development teams for people that joined or left a stage 0, 1 or 2 opportunity.
-- These people are not enrolled to a specific flow, since there multiple scenarios on how to best address them, please search Groove for templated messages [like this one](https://groove.clari.com/templates?fId=280305&tId=3285044) that you can use.  
+- These people are not enrolled to a specific flow, since there multiple scenarios on how to best address them, please search Groove for templated messages [like this one](https://groove.clari.com/templates?fId=280305&tId=3285044) that you can use.
 
 ### Sales Dev Manager Resources
 
@@ -1845,7 +1848,7 @@ In addition to the above, BDR team members are expected to:
 | Volume of Actively Working Accounts per Quarter               | **- Enterprise:** <br> - 75 AWA'd accounts per BDR per Quarter, measured per Actively Working Start Date. <br> - 65 6QAd accounts per Quarter, per BDR. <br> **- Mid-Market:** <br> - 125 AWA'd accounts per BDR per Quarter, measured per Actively Working Start Date. <br> - 25 6QA'd accounts per Quarter, per BDR.  |
 | Research Quality            | >80% usage of Intent tools on AWA'd accounts, with high propensity to purchase indicators showed. |
 | Volume of Prospects per Account | 5-10 prospects added to Groove Flow per account, whose titles and personas match our ICPs. |
-| 6QA Account Review | All automatically 6QA'd accounts to be reviewed, and either accepted or rejected, within 48 hours. | 
+| 6QA Account Review | All automatically 6QA'd accounts to be reviewed, and either accepted or rejected, within 48 hours. |
 
 ### PTO and Flexible Working
 

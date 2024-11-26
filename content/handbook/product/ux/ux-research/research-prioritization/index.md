@@ -40,7 +40,7 @@ Throughout the quarter, the UX Researcher will use the research planning issue a
 
 Monthly, the UX Researcher will facilitate revisiting the research planning issue to refine and update the list to align with monthly development cycles and address any ad-hoc requests.
 
-Optional: As research issues are created throughout the quarter, teams can use a label to show status and [support level](https://research-prioritization.about.gitlab-review.app/handbook/product/ux/ux-research/research-prioritization/index.html#about-the-researcher-support-level). This provides flexibility in how the teams want to view in-flight research throughout the quarter.
+Optional: As research issues are created throughout the quarter, teams can use a label to show status and [support level](/handbook/product/ux/ux-research/research-prioritization/#about-the-researcher-support-level). This provides flexibility in how the teams want to view in-flight research throughout the quarter.
 
 *Timeline guidance for Step 1:* This should be completed within one week
 

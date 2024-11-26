@@ -4,7 +4,7 @@ title: "Monitor:Observability Group"
 
 ## Who we are?
 
-The Observability group is part of the GitLab [Monitor stage](/handbook/engineering/development/ops/monitor/) and builds [GitLab Observability product](https://about.gitlab.com/direction/monitor/observability/).
+The Observability group is part of the GitLab [Monitor stage](/handbook/engineering/development/ops/monitor/) and builds [GitLab Observability product](https://about.gitlab.com/direction/monitor/).
 
 ### Team members
 

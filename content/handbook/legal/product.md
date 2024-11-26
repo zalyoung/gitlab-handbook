@@ -36,7 +36,7 @@ The guidance for using open source software has been updated to enable team memb
   - Team members can request a review by opening a [legal issue](https://gitlab.com/gitlab-com/legal-and-compliance/-/issues/new?issuable_template=general-legal-template).
   - Include the details of how the software will be used, whether or not it will be modified, and how it will be distributed (if at all) in the issue description.
 - `Exception list (Acceptable)`:
-  - [WTFPL](https://wtfpl.net)
+  - [WTFPL](http://www.wtfpl.net/)
 
 Team members must ensure that we **comply with all requirements and restrictions associated with the applicable license** (these are typically defined in the body text of the license).
 

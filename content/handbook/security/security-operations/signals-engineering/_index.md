@@ -37,9 +37,9 @@ Providing Customer Value
 
 | Team Member | Role |
 |---|---|
-| Matt Coons | [Security Manager](https://handbook.gitlab.com/job-families/security/security-leadership/) |
-| Harjeet Sharma | [Staff Security Engineer, Signals Engineering](https://handbook.gitlab.com/job-families/security/security-engineer/#signals-engineering) |
-| Evan Baltman | [Security Engineer, Signals Engineering](https://handbook.gitlab.com/job-families/security/security-engineer/#signals-engineering) |
+| Matt Coons | [Security Manager](/job-families/security/security-leadership/) |
+| Harjeet Sharma | [Staff Security Engineer, Signals Engineering](/job-families/security/security-engineer/#signals-engineering) |
+| Evan Baltman | [Security Engineer, Signals Engineering](/job-families/security/security-engineer/#signals-engineering) |
 
 ### Our Stakeholders
 

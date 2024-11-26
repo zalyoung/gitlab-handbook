@@ -41,12 +41,12 @@ Product support is not included as part of this subscription.
 
 In order to be accepted into the GitLab for Open Source Program, applicants must:
 
-* **Use OSI-approved licenses for their projects:** Every project in the applying namespace must be published under an [OSI-approved open source license](https://opensource.org/licenses/).
+* **Use OSI-approved licenses for their projects:** Every project in the applying namespace must be published under an [OSI-approved open source license](https://opensource.org/license).
 * **Not seek profit:** An organization can accept donations to sustain its work, but it can't seek to make a profit by selling services, by charging for enhancements or add-ons, or by other means.
 * **Be publicly visible:** Both the applicant's GitLab.com group or self-managed instance and source code must be publicly visible and publicly available.
 
 **Please note:** Benefits of the GitLab for Open Source Program apply to a namespace.
-To qualify for the program, every project in an applicant's namespace must carry an [OSI-approved open source license](https://opensource.org/licenses/).
+To qualify for the program, every project in an applicant's namespace must carry an [OSI-approved open source license](https://opensource.org/license).
 
 We make the following exceptions to our eligibility criteria:
 

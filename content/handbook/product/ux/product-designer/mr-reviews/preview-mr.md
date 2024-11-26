@@ -71,7 +71,7 @@ see [how to manually connect your GitLab.com account](https://www.gitpod.io/docs
 - [More how-to topics for GDK](https://gitlab.com/gitlab-org/gitlab-development-kit/-/blob/main/doc/howto/index.md)
 - [Check out branches](https://gitlab.com/gitlab-org/gitlab-development-kit/-/blob/main/doc/howto/gitpod.md#check-out-branches)
 - [Commit and push changes](https://gitlab.com/gitlab-org/gitlab-development-kit/-/blob/main/doc/howto/gitpod.md#commit-and-push-changes)
-- [Prevent auto-deleting workspaces](https://www.gitpod.io/docs/life-of-workspace#garbage-collection)
+- [Prevent auto-deleting workspaces](https://www.gitpod.io/docs/configure/workspaces/workspace-lifecycle#garbage-collection)
 - [Gitpod official documentation](https://www.gitpod.io/docs)
 
 #### GDK

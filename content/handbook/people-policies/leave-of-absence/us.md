@@ -31,7 +31,7 @@ Below are the GitLab and US-specific leave policies available to US team members
 | [Parental Leave]({{< ref "general-and-entity-benefits#parental-leave" >}}) | 16 weeks | Yes* |
 | [Family Medical Leave Act<br>(FMLA- Own Condition)](#the-family-medical-leave-act-fmla) | Up to 12 weeks | Yes* |
 | [Family Medical Leave Act<br>(FMLA - Care for a Family Member)](#the-family-medical-leave-act-fmla) | Up to 12 weeks | Yes* |
-| [California Family Rights Act (CFRA)](https://www.edd.ca.gov/disability/faqs-fmla-cfra.htm) | Up to 12 weeks** | Yes |
+| [California Family Rights Act (CFRA)](https://edd.ca.gov/en/disability/faqs-fmla-cfra) | Up to 12 weeks** | Yes |
 | Military Leave (USERRA) | Cumulative 5 years | Yes, up to 5 years* |
 
 *Except in certain circumstances

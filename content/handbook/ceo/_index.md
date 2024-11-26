@@ -342,7 +342,7 @@ People regularly ask what I use for my home office setup. Below is a list of the
 - Desk: [Jarvis Laminate Standing Desk](https://www.fully.com/standing-desks/jarvis-adjustable-height-desk-laminate.html)
 - Laptop: [13-inch MacBook Pro](https://www.apple.com/shop/buy-mac/macbook-pro/13-inch-space-gray-apple-m1-chip-with-8-core-cpu-and-8-core-gpu-256gb)
 - Stand: [rain design mStand](https://www.raindesigninc.com/mstand.html)
-- Keyboard: [Apple Magic Keyboard](https://www.apple.com/shop/product/MK2C3LL/A/magic-keyboard-with-touch-id-and-numeric-keypad-for-mac-models-with-apple-silicon-us-english-white-keys?)
+- Keyboard: [Apple Magic Keyboard](https://www.apple.com/shop/product/MXK73LL/A/magic-keyboard-with-touch-id-and-numeric-keypad-for-mac-models-with-apple-silicon-usb-c-us-english-white-keys)
 - Mouse: [Microsoft Pro IntelliMouse](https://www.amazon.com/Microsoft-Pro-Intellimouse-Dark-Shadow/dp/B07RPBXBMV?th=1)
 - Monitor: [Apple Pro Display XDR](https://www.apple.com/shop/buy-mac/pro-display-xdr/standard-glass) and/or [LG Ultrafine 5K](https://www.lg.com/us/monitors/lg-27md5kl-b-5k-uhd-led-monitor)
 - Light: [Elgato Keylight](https://www.amazon.com/Elgato-Key-Light-Professional-App-Enabled/dp/B07L755X9G/)
@@ -362,8 +362,8 @@ When preparing scripts or documents in my voice, please follow these guidelines.
 1. When writing a script, read it out loud. If it's not easy to say in one try, edit the script to make it easy to speak.
 1. Any time you make a statement, consider whether there exist any data/proof points to back it up, and include the proof. This proof might exist internally through work our teams are doing, or externally through analyst reports or other such reporting.
 1. Familiarize yourself with [GitLab's Misused Terms](/handbook/communication/top-misused-terms/) and avoid using these. For example, always use "Team members" instead of Employees.
-1. Run text through a readability checker, such as [the ones on this page](https://readabilityformulas.com/free-readability-formula-tests.php). Aim to have a [Flesch Reading Ease score](https://readabilityformulas.com/flesch-reading-ease-readability-formula.php) above 80. This is the score for a document that is "easy" to read.
-1. No interrupters. [Interrupters](https://www.grammarly.com/blog/comma-with-interrupters/) are little thoughts in the middle of a thought and they complicate sentences. So use 'Q2 was a great quarter. I am pleased with the results.' instead of 'Q2, happily, was a great quarter.'
+1. Run text through a readability checker, such as [the ones on this page](https://readabilityformulas.com/free-readability-formula-tests.php). Aim to have a [Flesch Reading Ease score](https://readabilityformulas.com/learn-about-the-flesch-reading-ease-formula/) above 80. This is the score for a document that is "easy" to read.
+1. No interrupters. [Interrupters](https://www.grammarly.com/blog/punctuation-capitalization/comma-with-interrupters/) are little thoughts in the middle of a thought and they complicate sentences. So use 'Q2 was a great quarter. I am pleased with the results.' instead of 'Q2, happily, was a great quarter.'
 1. Be exact, not approximate.
 1. Don't sugarcoat bad news.
 1. Celebrate, but don't boast or brag.

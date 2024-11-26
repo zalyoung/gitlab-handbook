@@ -217,14 +217,14 @@ Since GitLab is an [all remote](/handbook/company/culture/all-remote/) company w
 ### Kansas
 
 - [Unemployment Insurance](https://www.dol.ks.gov/home/showpublisheddocument/100/638363383565870000)
-- [Kansas Law Provides Equal Opportunity](https://www.khrc.net/pdf/ksemployposter.pdf)
+- [Kansas Law Provides Equal Opportunity](https://web.archive.org/web/20240730082943/https://www.khrc.net/pdf/ksemployposter.pdf)
 - [Workers' Compensation Notice - Inc.](https://drive.google.com/file/d/1wfEtSjJ7O_MDx4eIg9-5rebCLkDyrkgL/view?usp=sharing)
 
 ### Kentucky
 
-- [Safety and Health on the Job](https://labor.ky.gov/Documents/KY%20OSH%20Poster%20English.pdf)
-- [Wage and Hour Laws](https://labor.ky.gov/Documents/KY%20Wage%20and%20Hour%20Poster%20English.pdf)
-- [Wage Discrimination Because of Sex](https://labor.ky.gov/Documents/KY%20Wage%20Discrimination%20Poster%20English.pdf)
+- [Safety and Health on the Job](https://elc.ky.gov/workplace-standards/Documents/KY%20OSH%20Poster%20English.pdf)
+- [Wage and Hour Laws](https://elc.ky.gov/workplace-standards/Pages/Wages-and-Hours.aspx)
+- [Wage Discrimination Because of Sex](https://elc.ky.gov/workplace-standards/Documents/KY%20Wage%20Discrimination%20Poster%20English.pdf)
 - [Equal Employment Opportunity](https://kchr.ky.gov/Resources/Brochures%20and%20Posters/FINALEqualEmploymentOpportunityPoster2024.pdf)
 - [Unemployment Compensation Benefits](https://kcc.ky.gov/Documents/Forms%20and%20Posters/ui_ben5_1_0108.pdf)
 - [Workers' Compensation Notice - Inc.](https://drive.google.com/file/d/1VB2kPE0C8uzf8sNwZf-Kf2dE1AxpLHmD/view?usp=sharing)
@@ -294,7 +294,7 @@ Since GitLab is an [all remote](/handbook/company/culture/all-remote/) company w
 ### Minnesota
 
 - [Age Discrimination](https://www.dli.mn.gov/sites/default/files/pdf/agediscr_poster.pdf)
-- [Minimum Wage](https://www.dli.mn.gov/sites/default/files/pdf/minwage_poster_2024.pdf)
+- [Minimum Wage](https://www.dli.mn.gov/minwage)
 - [Safety and Health Protection on the Job](https://www.dli.mn.gov/sites/default/files/pdf/mnosha_poster.pdf)
 - [Unemployment Insurance](https://www.uimn.org/assets/109_tcm1068-192562.pdf)
 - [Workers' Compensation Notice - Inc.](https://drive.google.com/file/d/1TiucUJJeuRL_P9KRhGMVEvyXe12Qik5w/view?usp=sharing)
@@ -404,7 +404,7 @@ Since GitLab is an [all remote](/handbook/company/culture/all-remote/) company w
 
 - [Minimum Wage](https://www.dws.state.nm.us/Portals/0/DM/LaborRelations/MWA_Summary_ENGL_2023.pdf)
 - [Human Rights Act](https://www.dws.state.nm.us/Portals/0/DM/LaborRelations/Human_Rights_poster-letter_size_7.12.2023_UPDATE.pdf?ver=KdwYlrNqS_o_fuGp-q5ygg%3d%3d)
-- [Human Trafficking Poster](https://www.dws.state.nm.us/Portals/0/DM/Business/Human_Trafficking_Poster.pdf)
+- [Human Trafficking Poster](https://web.archive.org/web/20240907064307/https://www.dws.state.nm.us/Portals/0/DM/Business/Human_Trafficking_Poster.pdf)
 - [Job Safety and Health Poster](https://www.env.nm.gov/occupational_health_safety/wp-content/uploads/sites/12/2021/10/OSHA_Poster.pdf)
 - Notice of Accident or Occupational Disease Disablement
 - [Paid Sick Leave](https://www.dws.state.nm.us/Portals/0/DM/LaborRelations/Paid_Sick_Leave_poster_letter_size.pdf?ver=2022-03-29-000528-147)
@@ -567,7 +567,7 @@ Since GitLab is an [all remote](/handbook/company/culture/all-remote/) company w
 
 ### Virginia
 
-- [Virginia Unemployment Compensation Act](https://www.vec.virginia.gov/pdf/vecb29eng.pdf)
+- [Virginia Unemployment Compensation Act](https://web.archive.org/web/20240724090602/https://www.vec.virginia.gov/pdf/vecb29eng.pdf)
 - [Virginia Occupational Safety and Health Act](https://www.doli.virginia.gov/wp-content/uploads/2021/10/Job-Safety-Posters-English-August-2021.pdf)
 - [Earned Income Tax Credit](https://www.irs.gov/pub/irs-pdf/p962esp.pdf)
 - [Virginia CLI](https://www.dss.virginia.gov/files/division/cvs/pi/eitc/employer_info/cli_flyer2021.pdf)

@@ -134,7 +134,7 @@ For details, see [Manage animated images and emoji](https://slack.com/intl/en-gb
 
 ## Slack Status
 
-Slack allows you to set your [status](https://slackhq.com/set-your-status-in-slack) for your fellow GitLab team members by using your choice of standard messages such as "Away" and "Lunch" or a custom message and your choice of emoji.
+Slack allows you to set your [status](https://slack.com/blog/productivity/set-your-status-in-slack) for your fellow GitLab team members by using your choice of standard messages such as "Away" and "Lunch" or a custom message and your choice of emoji.
 
 If you're off work for a holiday or vacation you can update your status by using [Time Off by Deel]({{< ref "paid-time-off#time-off-by-deel" >}}).
 This is a great way to let your team know whether you are available.

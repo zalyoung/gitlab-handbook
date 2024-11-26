@@ -194,8 +194,8 @@ What you will do:
     1. [Explore Ally Allyship](https://trailhead.salesforce.com/content/learn/modules/equality-fundamentals/explore-allyship)
     1. [Cultivate Equality at Work](https://trailhead.salesforce.com/content/learn/modules/equality-fundamentals)
     1. [Communicating with Empathy](https://www.linkedin.com/learning/communicating-with-empathy/empathy-as-a-path-to-productive-conversations?u=2255073)
-    1. [Effective Listening](https://www.linkedin.com/learning/improving-your-listening-skills/welcome?autoplay=true&resume=false&u=2255073)
-    1. [Building Trust](https://www.linkedin.com/learning/building-trust-6/building-trust?u=2255073)
+    1. [Effective Listening](https://www.linkedin.com/learning/improving-your-listening-skills-19238090)
+    1. [Building Trust](https://www.linkedin.com/learning/building-trust-14841538)
     1. [The importance of trust](https://www.linkedin.com/learning/why-trust-matters-with-rachel-botsman/the-importance-of-trust?u=2255073)
     1. [How to engage meaningfully in allyship and anti-racism - OPTIONAL](https://www.linkedin.com/learning/paths/how-to-engage-meaningfully-in-allyship-and-anti-racism?u=2255073)
     1. [Inclusive mindset of committed allies - OPTIONAL](https://www.linkedin.com/learning/inclusive-mindset-for-committed-allies/becoming-a-true-ally?u=2255073)
@@ -231,7 +231,7 @@ There are some essential skills that are required to be an ally, here are a numb
 - [Effective Listening](https://www.linkedin.com/learning/effective-listening/improve-your-listening-skills?u=2255073)
 - [How to engage meaningfully in Allyship](https://www.linkedin.com/learning/paths/how-to-engage-meaningfully-in-allyship-and-anti-racism?u=2255073)
 - [Becoming a true ally](https://www.linkedin.com/learning/inclusive-mindset-for-committed-allies/becoming-a-true-ally?u=2255073)
-- [Building Trust](https://www.linkedin.com/learning/building-trust-6/building-trust?u=2255073)
+- [Building Trust](https://www.linkedin.com/learning/building-trust-14841538)
 - [Why trust matters](https://www.linkedin.com/learning/why-trust-matters-with-rachel-botsman/the-importance-of-trust?u=2255073)
 
 ## Ally Learning Activity and Scenarios

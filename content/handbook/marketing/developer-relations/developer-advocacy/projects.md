@@ -219,7 +219,7 @@ Episodes generally run for 30 minutes and feature 4-5 panelists and a moderator 
 | [GitLab 16.11](https://www.linkedin.com/events/7191139444916146176/comments/) | 5.6K    | 2024/04 |
 | [GitLab 17.0](https://www.linkedin.com/feed/update/urn:li:activity:7198692684436250626) | 6.8K    | 2024/05 |
 | [GitLab 17 Release event recap](https://www.linkedin.com/video/live/urn:li:ugcPost:7212131667262492673/) | 7.3K    | 2024/06 |
-| [Harnessing AI: GitLab’s Insights & Innovations](https://www.linkedin.com/events/7219699059933020163/analytics/) | 6.3K    | 2024/07 |
+| [Harnessing AI: GitLab’s Insights & Innovations](https://www.linkedin.com/events/7219699059933020163) | 6.3K    | 2024/07 |
 
 #### Information for Panelists
 

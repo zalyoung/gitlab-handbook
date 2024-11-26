@@ -7,7 +7,7 @@ canonical_path: "/handbook/support/readiness/operations/docs/zendesk/automations
 ## What are Zendesk automations?
 
 As per
-[Zendesk](https://support.zendesk.com/hc/en-us/articles/203662236-About-automations-and-how-they-work):
+[Zendesk](https://support.zendesk.com/hc/en-us/articles/4408832701850-About-automations-and-how-they-work):
 
 > Automations are similar to triggers because both define conditions and actions
 > that modify ticket properties and optionally send email notifications to
