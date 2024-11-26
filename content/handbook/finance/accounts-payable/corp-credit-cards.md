@@ -191,7 +191,8 @@ Upon review, if more clarification is needed for a certain expense, the AP team 
 ### 8.3 Credit Card Misuse
 
 - An authorized user must follow GitLab's Code of Business Conduct and Ethics as these cards are considered GitLab Property.
-- Any reports with continuous violations to our policy will be subject to management review and could be taken away for non-compliance.
+- Any reports with continuous violations to our policy will be subject to management review and could be taken away for non-compliance. 
+- Failure to comply with any requirements including the supply of valid receipts, will lead to the cardholder receiving an initial warning stating that your card will be deactivated unless the requested documentation is provided. A second warning will result in the permanent deactivation of your card.
 - A cardholder must detail any disputed transaction on the ticket opened in HelpLab, with a copy to the issuing bank to resolve any disputes. The cardholder must ensure that a refund, if processed, should be in favor of GitLab.
 
 ### 8.4 Card Lost or Stolen
