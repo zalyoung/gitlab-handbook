@@ -161,7 +161,7 @@ Once the Calibration phase by Division is complete, Directors and above will hav
 
 The [promotion document](https://docs.google.com/document/d/1oXH9HzdO8gjqdeosstQRC1Mqt_5lCaN1U2kaF9Av-Ec/edit?usp=sharing) is required for all in-line promotions. **Promotion documents should not exceed three pages total.**
 
-As the audience are other GitLab team members, the text should be written in third person using the team member's name and appropriate pronouns (he/she/they) to highlight the work and skills as evidence of the team member's suitability for the role. A [style guide](/handbook/people-group/promotion-document-style-guide/) is available to assist in crafting a compelling document.
+As the audience are other GitLab team members, the text should be written in third person using the team member's name and appropriate pronouns (he/she/they) to highlight the work and skills as evidence of the team member's suitability for the role. A [style guide](/handbook/people-group/promotion-document-style-guide/) is available to assist in crafting a compelling document. You can utilize a bullet format to ensure that you are capturing the relevant sections per [business result](/handbook.gitlab.com/handbook/people-group/promotions-transfers/#business-results) or a short paragraph.
 
 In-line promotion documents should demonstrate values alignment, business need for the role, and team member readiness through delivery of impactful business results. The core sections in our promotion document are: Promotion Summary, Business Results/Impact, Values Alignment and Business Justification.
 
@@ -173,7 +173,7 @@ This section is a high-level summary (3-5 sentences) of achievements that demons
 
 As our most important [value](/handbook/values/#hierarchy), results are at the core of everything we do.
 
-Please list the 3 most impactful results (accomplishments, initiatives, or projects) that demonstrate the team member's performance at the next level aligned with our values and expectations in the [job framework](https://docs.google.com/spreadsheets/d/1A46wqVK0ZdhmN7HT7G3QrBbExJw6vZJrSCFIiFd9T7U/edit?gid=0#gid=0).
+Please list the 3 most impactful results (accomplishments, initiatives, or projects) that demonstrate the team member's performance at the next level aligned with our values and expectations in the [job framework](https://docs.google.com/spreadsheets/d/1A46wqVK0ZdhmN7HT7G3QrBbExJw6vZJrSCFIiFd9T7U/edit?gid=0#gid=0). 
 
 **Project impact on GitLab / Business Result**
 
