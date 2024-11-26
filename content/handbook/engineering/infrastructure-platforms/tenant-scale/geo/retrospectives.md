@@ -32,8 +32,8 @@ Optional:
 
 Occasional (by invitation)
 
-- Core Platform group product manager
-- Core Platform group director of engineering
+- Tenant Scale group product manager
+- Tenant Scale group director of engineering
 
 ## Schedule
 

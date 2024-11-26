@@ -199,7 +199,7 @@
 /content/handbook/engineering/infrastructure/core-platform/data_stores/help.md @alexives @rmar1 @nhxnguyen
 /content/handbook/engineering/infrastructure/core-platform/data_stores/cloud-connector/ @pjphillips
 /content/handbook/engineering/infrastructure/core-platform/systems/distribution/ @marin @plu8
-/content/handbook/engineering/infrastructure/core-platform/systems/geo/ @luciezhao
+/content/handbook/engineering/infrastructure-platforms/tenant-scale/geo/ @luciezhao
 /content/handbook/engineering/infrastructure-platforms/data-access/ @andrashorvath
 /content/handbook/engineering/infrastructure-platforms/data-access/database-framework/ @alexives
 /content/handbook/engineering/infrastructure-platforms/data-access/database-operations/ @rmar1
