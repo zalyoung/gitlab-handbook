@@ -196,6 +196,24 @@ If you need to convert multiple images, combine the `convert` command with `find
 find . -type f -name '*.jpg' -exec sh -c 'convert {} -resize 1920x1080 {}' \;
 ```
 
+### Convert HEIC to JPG
+
+> Tip: Modern macOS versions provide the Finder right-click menu `Quick Actions > Convert Image` which automatically converts an image to JPG. Use this method for quick UI conversions.
+
+[ImageMagick](#imagemagick) provides the `mogrify` CLI command which can be used to convert the `HEIC` image format to other formats like `JPG` which are accepted on all websites.
+
+```shell
+mogrify -format jpg icloudphoto.HEIC
+```
+
+If you need to convert multiple images, combine the `mogrify` command with `find`. Note that this creates new files and requires manual cleanup of `.heic|HEIC` files, `-iname` uses a case insensitive match.
+
+```shell
+find . -type f -iname '*.heic' -exec sh -c 'mogrify -format jpg \"{}\"' \;
+```
+
+An example shell alias can be found in [@dnsmichi's dotfiles project](https://gitlab.com/dnsmichi/dotfiles/-/blob/main/.oh-my-zsh/custom/aliases.zsh?ref_type=heads).
+
 ### Add drop shadow to images
 
 [Install ImageMagick](#imagemagick) and use the `convert` CLI command to add a drop shadow. The `-shadow` parameter may need adjustments on the dimension.

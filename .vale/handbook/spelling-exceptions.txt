@@ -114,6 +114,7 @@ blockquote
 blockquoted
 blockquotes
 blockquoting
+Bluesky
 boolean
 booleans
 Bootsnap
@@ -694,6 +695,7 @@ Maniphest
 Markdown
 markdownlint
 Marketo
+Mastodon
 matcher
 matchers
 Matomo
