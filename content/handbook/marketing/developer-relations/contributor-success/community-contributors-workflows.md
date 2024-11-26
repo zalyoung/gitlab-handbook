@@ -331,13 +331,14 @@ Contributor Success team members can use the [outreach email/message template](/
 
 More information on the [Core Team](https://about.gitlab.com/community/core-team/) is available in the [Core Team handbook page](/handbook/marketing/developer-relations/core-team/).
 
-### Granting GitLab Duo licenses
+### GitLab Duo for Contributors
 
-To support our mission to enable everyone to contribute, we offer GitLab Duo Enterprise licenses to the contributors in our wider community.
-[GitLab Duo](https://about.gitlab.com/gitlab-duo/) features Code Suggestions, Chat, Root Cause Analysis and more AI-powered features to help boost efficiency
-and effectiveness by reducing the time required to write and understand code.
-Community contributors can [visit the GitLab Community Duo Access project](https://gitlab.com/gitlab-community/community-members/duo-access) to request a GitLab Duo Enterprise license and learn more
-about the benefits of GitLab Duo.
+To support our mission to enable everyone to contribute, we offer complimentary GitLab Duo Enterprise
+licenses across the GitLab community forks for all our wider community contributors.
+[GitLab Duo](https://about.gitlab.com/gitlab-duo/) features Code Suggestions, Chat, Root Cause Analysis
+and more AI-powered features to help boost efficiency and effectiveness by reducing the time required
+to write and understand code and pipelines.
+Community contributors receive GitLab Duo once approved for [requesting access to the community forks](https://gitlab.com/groups/gitlab-community/community-members/-/group_members/request_access).
 
 ### Highlighting high-value contributions with product bonuses
 
