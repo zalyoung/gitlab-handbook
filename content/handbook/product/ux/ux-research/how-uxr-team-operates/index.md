@@ -47,14 +47,14 @@ The assigned UX Researchers are the go-to person for their assigned [stage group
 | **Plan**: Project Management, Product Planning, Optimize, Knowledge | [Danika Teverovsky](https://gitlab.com/dteverovsky) |
 | **Secure**: Static Analysis, Secret Detection, Dynamic Analysis, Composition Analysis, Vulnerability Research <br> **Govern**: Security Policies, Threat Insights, Compliance, Authentication, Anti-Abuse, Authorization | [Karen Li](https://gitlab.com/karenyli) (interim cover) |
 | **Create**: Source Code, Code Review, IDE, Editor Extensions, Code Creation | [Ben Leduc-Mills](https://gitlab.com/leducmills) |
-| **Verify**: Pipeline Execution, Pipeline Authoring, Runner, Hosted Runners <br> **Package**: Package <br> **Govern**: Pipeline Security | [Erika Feldman](https://gitlab.com/enf) |
+| **Verify**: Pipeline Execution, Pipeline Authoring, Runner, Hosted Runners <br> **Package**: Package <br> **Govern**: Pipeline Security<br>**AI-Powered**: Duo Workflow / AI Agents | [Erika Feldman](https://gitlab.com/enf) |
 
 | AI themes | UXR Point of Contact |
 | -------- | --------- |
 | AI usability | UX Researcher of your own stage(s) |
 | Code completion | [Ben Leduc-Mills](https://gitlab.com/leducmills) |
 | AI onboarding | [Will Leidheiser](https://gitlab.com/wleidheiser) <br> [Anne Lasch](https://gitlab.com/alasch) |
-| Duo Workflow | [Erika Feldman](https://gitlab.com/enf) |
+| Duo Workflow / AI Agents | [Erika Feldman](https://gitlab.com/enf) |
 | Duo Enterprise | [Danika Teverovsky](https://gitlab.com/dteverovsky) |
 | AI context <br> AI settings | [Nicholas Hertz](https://gitlab.com/NickHertz) |
 | All other AI items or new AI themes | [Nicholas Hertz](https://gitlab.com/NickHertz) <br> [Karen Li](https://gitlab.com/karenyli) |
