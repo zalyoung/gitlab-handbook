@@ -73,3 +73,4 @@ The major areas we are focused on are:
 - [ADR-001: Use load balancer as single entry point](decisions/001_lb_entry_point.md)
 - [ADR-002: Remove OIDC key discovery](decisions/002_remove_oidc_key_discovery.md)
 - [ADR-003: Centralize Unit Primitives configuration](decisions/003_unit_primitives.md)
+- [ADR-004: Self-contained tokens](decisions/004_self_contained_tokens.md)

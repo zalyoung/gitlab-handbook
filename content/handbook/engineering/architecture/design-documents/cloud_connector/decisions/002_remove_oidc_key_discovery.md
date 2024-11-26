@@ -1,5 +1,5 @@
 ---
-title: "Cloud Connector ADR 002: Remove OIDC key discovery"
+title: "ADR 002: Remove OIDC key discovery"
 toc_hide: true
 ---
 
