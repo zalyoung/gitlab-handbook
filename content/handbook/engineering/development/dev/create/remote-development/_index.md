@@ -314,6 +314,39 @@ For a few reasons:
     1. If the discussion for a single issue goes on longer than 5-10 minutes or turns into an extended debate/discussion, this is an indicator that the issue has not been adequately refined, and should go back to the `~"(workspaces|webide)-workflow::unprioritized"` list, and potentially have another issue immediately created and prioritized to do further investigation/refinement, if the refinement scope may be significant.
 1. Issues which are prioritized in the upcoming 1-2 iterations should be assigned to individual(s) at this point, to ensure it gets worked on and not lost.
 
+**Async Process**
+
+**TL;DR: Sometimes issues need to be weighted quickly before the offical IPM meeting. This is how we weight those issues.**
+
+**Prerequisite:** Add the Polly app to your Slack if you have not already.
+
+1. Navigate to Polly application under that Apps section in Slack.
+1. Select Create a Polly.
+1. Select Create New.
+1. Fill out creation Options:
+    1. Create Question: Weight for: **_Add link to issue here._**
+    1. Question Type: Select **_1-to-10_** option.
+    1. Choose audience: Select **_remote_development_async_ipm_** channel.
+    1. Make sure "Send polly as direct message" is **_unchecked_**.
+    1. Select Settings Button.
+    1. Responses: Select **_Non-anonymous_**.
+    1. Results: Select **_Show after close_**.
+    1. Select Submit to save changes.
+1. Send Polly.
+
+**Optional Steps: Template Creation**
+
+This allows you make following Async IPMs faster by standardizing the configurations. After creation, all a user needs to do is select the template from the "My Templates" section, select Use Template, and update the Issue link in the "Create Question" field.
+
+1. Navigate to Polly application under that Apps section in Slack.
+1. Select Go to Polly Dashboard.
+1. Select the Polly you just made.
+1. Select Controls button.
+1. Select Save as Template.
+1. Title Template: **_Remote development async ipm_**.
+1. Ensure "Save audience with template" is **_checked_**.
+1. Select Save.
+
 **Explanation:**
 
 The "Iteration Planning Meeting", or "IPM" meeting is a weekly process where a team reviews the backlog and the current iteration status, estimates and prioritizes work for the next iteration, and uses issues as the single source of truth for discussions and progress. It is analogous to the ["Weekly Cycle" in XP](https://www.amazon.com/Extreme-Programming-Explained-Embrace-Change/dp/0321278658) or ["Sprint Planning" in Scrum](https://www.scrum.org/resources/what-is-sprint-planning).
