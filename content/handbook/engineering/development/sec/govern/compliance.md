@@ -8,11 +8,11 @@ The Compliance group's mission is to provide visibility into an organizations co
 
 ## What we work on
 
-- We use the [Group Direction page](https://about.gitlab.com/direction/govern/compliance/) to describe our high-level goals and direction for our group.
-- From the high-level goals and direction we filter down to a prioritised list of Epics, we try to keep updated in our [Tactical Priorities](https://about.gitlab.com/direction/govern/compliance/tactical-priorities.html)
-- This prioritised list we then use when planning each Milestone. Each Milestone will have its own Issue in our [Planning Epic](https://gitlab.com/groups/gitlab-org/govern/compliance/-/epics/2)
+- We use the [Group Direction page](https://about.gitlab.com/direction/software_supply_chain_security/compliance/) to describe our high-level goals and direction for our group.
+- From the high-level goals and direction we filter down to a prioritised list of Epics, we try to keep updated in our [Tactical Priorities](https://about.gitlab.com/direction/software_supply_chain_security/compliance/tactical-priorities.html)
+- This prioritised list we then use when planning each Milestone. Each Milestone will have its own Issue in our [Planning Epic](https://gitlab.com/groups/gitlab-org/software-supply-chain-security/compliance/-/epics/2)
   - In addition to using the high-level goals and direction as an input to planning Milestones, the Compliance Product Manager considers input from Sales, customers, and internal stakeholders (dogfooding) to decide on the priority for the issues added to each Milestone.
-- We also use [OKRs](/handbook/company/okrs/) to help prioritise strategic initiatives within the group. We use Issues for planning and collate them in our [OKR Epic](https://gitlab.com/groups/gitlab-org/govern/compliance/-/epics/4)
+- We also use [OKRs](/handbook/company/okrs/) to help prioritise strategic initiatives within the group. We use Issues for planning and collate them in our [OKR Epic](https://gitlab.com/groups/gitlab-org/software-supply-chain-security/compliance/-/epics/4)
 
 ## Top Priorities FY25
 
@@ -26,7 +26,7 @@ The Compliance group's mission is to provide visibility into an organizations co
 ## How we work
 
 - In accordance with our [GitLab values](/handbook/values/).
-- Transparently: nearly everything is public, we record/livestream meetings whenever possible (see [links](/handbook/engineering/development/sec/govern/compliance/#links))
+- Transparently: nearly everything is public, we record/livestream meetings whenever possible (see [links](#links))
 - We get a chance to work on the things we want to work on.
 - Everyone can contribute; no silos.
   - The goal is to have product give engineering and design the opportunity to be involved with direction and issue definition from the very beginning.
@@ -40,7 +40,7 @@ Because this group works on components of the application that have a [far-reach
 1. To build more institutional knowledge across the team we try to assign our merge requests to another Compliance team member for first review.
 1. Compliance merge requests use feature flags where it makes sense to minimise impact. We follow the [Feature Flag Lifecycle](/handbook/product-development-flow/feature-flag-lifecycle/) as closely as possible
 1. If a feature flag is used then a feature flag [rollout plan](/handbook/engineering/development/processes/rollout-plans/) will be created. Support (`#support_gitlab-com`) will also be [notified](https://gitlab.com/gitlab-org/gitlab/-/blob/master/.gitlab/issue_templates/Feature%20Flag%20Roll%20Out.md?plain=1#L94) if necessary.
-1. Compliance related merge requests require a review by a [Compliance Engineer](https://gitlab.com/groups/gitlab-org/govern/compliance/engineering/-/group_members?with_inherited_permissions=exclude). This is guarded by using the `CODEOWNERS` feature of GitLab.
+1. Compliance related merge requests require a review by a [Compliance Engineer](https://gitlab.com/groups/gitlab-org/software-supply-chain-security/compliance/engineering/-/group_members?with_inherited_permissions=exclude). This is guarded by using the `CODEOWNERS` feature of GitLab.
 
 ### Working on ad hoc work and questions
 
@@ -124,7 +124,7 @@ We plan in monthly cycles in accordance with our [Product Development Timeline](
 
 ### Pre-planning
 
-- By the 4th, Product should have created a planning issue for their group in the [Compliance project](https://gitlab.com/gitlab-org/govern/compliance/general/-/issues) for the coming release using the [template](https://gitlab.com/gitlab-org/govern/compliance/general/-/blob/main/.gitlab/issue_templates/planning_issue.md).
+- By the 4th, Product should have created a planning issue for their group in the [Compliance project](https://gitlab.com/gitlab-org/software-supply-chain-security/compliance/general/-/issues) for the coming release using the [template](https://gitlab.com/gitlab-org/software-supply-chain-security/compliance/general/-/blob/main/.gitlab/issue_templates/planning_issue.md).
 - The Complaince [quad](/handbook/engineering/infrastructure/test-platform/quad-planning/) will add a tentative plan for the release, outlining the highest priority issues within each of their respective areas.
 - We prioritize using the [cross-functional prioritization](/handbook/product/product-processes/cross-functional-prioritization/). The Product Manager will prioritize `type::feature` issues, the Engineering Manager will prioritize `type::maintenance` issues, and the Quality Manager will prioritize `type::bug` issues.
 - Pre-planning is completed asynchronously by Product, Engineering, Quality and Design on the issue, this is to identify any unknowns or questions that need to be answered and resolved prior to final planning.
@@ -280,7 +280,7 @@ The following is an example of an implementation approach from [https://gitlab.c
 ~documentation
 
 1. Update docs page eg https://docs.gitlab.com/ee/administration/audit_events.html
-1. Update the GraphQL examples https://gitlab.com/gitlab-org/govern/compliance/graphql-example-requests
+1. Update the GraphQL examples <https://gitlab.com/gitlab-org/software-supply-chain-security/compliance/engineering/graphql-example-requests>
 
 ~quality
 
@@ -289,7 +289,7 @@ The following is an example of an implementation approach from [https://gitlab.c
 ```
 
 The [DRI](/handbook/people-group/directly-responsible-individuals/) will ping a relevant counterpart (Quality, UX, etc) and domain expert (database, backend, frontend) before moving the issue to `workflow::scheduling`. This gives the domain expert the opportunity to approve the implementation plan or raise any potential pitfalls or concerns before work begins.
-For domain expert review of development implementation plan, in case of trivial changes, the approval can be solicited from any of the relevant compliance development team members. Do try to find a person who has context around the topic. In case of non-trivial changes, opinions from the whole relevant compliance backend or frontend or both team members should be solicited by tagging respective group (`@gitlab-org/govern/compliance/engineering`) in the issue's comment. Deciding whether the implementation is trivial or non-trivial depends on the discretion of DRI and the initial domain expert asked for review.
+For domain expert review of development implementation plan, in case of trivial changes, the approval can be solicited from any of the relevant compliance development team members. Do try to find a person who has context around the topic. In case of non-trivial changes, opinions from the whole relevant compliance backend or frontend or both team members should be solicited by tagging respective group (`@gitlab-org/software-supply-chain-security/compliance/engineering`) in the issue's comment. Deciding whether the implementation is trivial or non-trivial depends on the discretion of DRI and the initial domain expert asked for review.
 
 Once an issue has been estimated, it can then be moved to `workflow::scheduling` to be assigned a milestone before finally being `workflow::ready for development`.
 
@@ -391,7 +391,7 @@ Great job! 🎉 Your PTO events will be synced to Compliance Group Shared Calend
 ## Group News
 
 The EM will usually create a general update for the group on what is happening within the company and within the group on a weekly basis.
-This update currently takes the form of an issue within the [compliance update Epic](https://gitlab.com/groups/gitlab-org/govern/compliance/-/epics/3)
+This update currently takes the form of an issue within the [compliance update Epic](https://gitlab.com/groups/gitlab-org/software-supply-chain-security/compliance/-/epics/3)
 
 The Compliance EM also contributes to issues in the [Software Supply Chain Security stage weekly updates](https://gitlab.com/groups/gitlab-com/-/epics/2126) epic.
 
@@ -426,11 +426,11 @@ The following people are permanent members of the group:
 ## Links and resources {#links}
 
 - GitLab
-  - [gitlab-org/govern/compliance](https://gitlab.com/gitlab-org/govern/compliance)
-  - [General issues and discussions](https://gitlab.com/gitlab-org/govern/compliance/general/-/issues)
-  - [Engineering issues and discussions](https://gitlab.com/gitlab-org/govern/compliance/engineering)
-  - Compliance alias: `@gitlab-org/govern/compliance`
-  - Compliance engineering alias: `@gitlab-org/govern/compliance/engineering`
+  - [gitlab-org/software-supply-chain-security/compliance](https://gitlab.com/gitlab-org/software-supply-chain-security/compliance)
+  - [General issues and discussions](https://gitlab.com/gitlab-org/software-supply-chain-security/compliance/general/-/issues)
+  - [Engineering issues and discussions](https://gitlab.com/gitlab-org/software-supply-chain-security/compliance/engineering)
+  - Compliance alias: `@gitlab-org/software-supply-chain-security/compliance`
+  - Compliance engineering alias: `@gitlab-org/software-supply-chain-security/compliance/engineering`
   - [Milestone retrospectives](https://gitlab.com/gl-retrospectives/govern/compliance/-/issues)
   - Issue boards
     - [Build board](https://gitlab.com/groups/gitlab-org/-/boards/1305010)
@@ -447,4 +447,4 @@ The following people are permanent members of the group:
   - [Product](https://www.youtube.com/playlist?list=PL05JrBw4t0KqWds1BN41IJxLd1AvpZxGu)
   - [Meetings](https://www.youtube.com/playlist?list=PL05JrBw4t0Kq7_yBKIYHi8qvCWeU0Q3yH)
 
-{{% include "includes/engineering/govern-shared-links.md" %}}
+{{% include "includes/engineering/software_supply_chain_security-shared-links.md" %}}

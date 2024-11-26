@@ -296,7 +296,7 @@ The following people are permanent members of the group:
 
 ### Links and resources {#links}
 
-{{% include "includes/engineering/govern-shared-links.md" %}}
+{{% include "includes/engineering/software_supply_chain_security-shared-links.md" %}}
 
 - [Milestone retrospectives](https://gitlab.com/gl-retrospectives/govern/authentication/-/issues/53)
 - Our Slack channels
