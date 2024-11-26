@@ -61,7 +61,7 @@ Flows must be named by the following [naming conventions](https://docs.google.co
 
 ## Groove Flows Creation
 
-### \RFlow Approval Process
+### Flow Approval Process
 
 Individual flows can be created by any team member in Groove for personal use. XDRs and Renewals Managers will need to submit their individual flows for approvals, while Account Executives and SMB Advocates can create individual flows without the need for approvals.
 
