@@ -812,7 +812,7 @@ For video instructions, [please see here](https://youtu.be/e4X9Dg_1rmA).
 - Badge Paper and Badge Holder Options (3x4)
   - [Avery Badge Paper Only](https://www.avery.com/products/namebadges/5392)
   - [Avery Magnetic Badge Holders with Badge Paper](https://www.avery.com/products/namebadges/8781)
-  - [Amazon Magnetic Badge Holders (with 1 clip lanyard option as well) WITHOUT Badge Paper](https://www.amazon.com/gp/product/B07MLQCHBV/ref=ox_sc_act_title_1?smid=ATVPDKIKX0DER&th=1)
+  - [Amazon Magnetic Badge Holders (with 1 clip lanyard option as well) WITHOUT Badge Paper](https://www.amazon.com/gp/product/B07MLQCHBV/)
   - [Avery Clip Badge Holders with Badge Paper](https://www.avery.com/products/namebadges/74541)
   - [Avery Badge Holders for 1 Clip Lanyards WITHOUT Badge Paper](https://www.avery.com/products/namebadges/74471)
   - [Avery Badge Holders for 2 Clip Lanyards with Badge Paper](https://www.avery.com/products/namebadges/74459)

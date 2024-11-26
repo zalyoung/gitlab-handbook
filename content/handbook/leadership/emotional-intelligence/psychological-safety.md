@@ -135,7 +135,7 @@ Once survey results have been collected and reviewed by each manager, it's sugge
 ## Additional Resources
 
 - Read: [The Role of Psychological Safety in Diversity and Inclusion](https://www.psychologytoday.com/us/blog/the-fearless-organization/202006/the-role-psychological-safety-in-diversity-and-inclusion) - Psychology Today
-- Read: [The Fearless Organization by Amy C. Edmondson](https://www.amazon.com/Fearless-Organization-Psychological-Workplace-Innovation/dp/1119477247/ref=sr_1_1?keywords=The+Fearless+Organization&qid=1567701716&s=gateway&sr=8-1)
+- Read: [The Fearless Organization by Amy C. Edmondson](https://www.amazon.com/Fearless-Organization-Psychological-Workplace-Innovation/dp/1119477247/)
 - Read: [7 ways to create psychological safety in your workplace](https://blog.jostle.me/blog/7-ways-to-create-psychological-safety-in-your-workplace)
 - Read: [What Google Learned from it's Quest to Build the Perfect Team](https://www.nytimes.com/2016/02/28/magazine/what-google-learned-from-its-quest-to-build-the-perfect-team.html)
 - Read: [How To Build An Environment Of Psychological Safety](https://trainingindustry.com/articles/compliance/how-to-build-an-environment-of-psychological-safety/)

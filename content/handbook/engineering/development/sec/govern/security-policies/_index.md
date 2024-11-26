@@ -6,7 +6,7 @@ layout: single
 
 ## Mission
 
-The Security Policies group's mission is to provide security and compliance teams with a way to enforce security controls globally in their organization. With tools developed by our team, customers can prevent security risks by enforcing and automating security scans and requiring security approvals for proposed changes in their repository. For a comprehensive understanding of our vision and direction, we invite you to visit the Direction page at https://about.gitlab.com/direction/govern/security_policies/security_policy_management.
+The Security Policies group's mission is to provide security and compliance teams with a way to enforce security controls globally in their organization. With tools developed by our team, customers can prevent security risks by enforcing and automating security scans and requiring security approvals for proposed changes in their repository. For a comprehensive understanding of our vision and direction, we invite you to visit the Direction page at https://about.gitlab.com/direction/security_risk_management/security_policies/security_policy_management/.
 
 ## Top Priorities FY25
 
@@ -34,7 +34,7 @@ The Security Policies group's mission is to provide security and compliance team
 
 ### Prioritization
 
-We use our [Security Policies Priorities](https://about.gitlab.com/direction/govern/security_policies/security_policy_management/#priorities) list in our direction page to track what we are doing, and what order to do it in.  Each initiative includes these fields:
+We use our [Security Policies Priorities](https://about.gitlab.com/direction/security_risk_management/security_policies/security_policy_management/#security-policies) list in our direction page to track what we are doing, and what order to do it in.  Each initiative includes these fields:
 
 1. Name - Description and link to the epic
 1. BE DRI / FE DRI - indicates the backend and frontend [DRIs](/handbook/engineering/development/sec/govern/sp-ti-planning/#epic-engineering-dri) who will be actively involved.

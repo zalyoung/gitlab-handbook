@@ -484,7 +484,7 @@ _Please contribute your favorite resources here_
 
 #### Books
 
-- [Building a Story brand](https://www.amazon.com/Building-StoryBrand-Clarify-Message-Customers/dp/0718033329/ref=sr_1_11?)
+- [Building a Story brand](https://www.amazon.com/Building-StoryBrand-Clarify-Message-Customers/dp/0718033329/)
 
 ### 💬 Communicating to inspire, align, and activate
 
@@ -571,7 +571,7 @@ _Please contribute your favorite resources here_
 #### Books
 
 - [Dare to Lead](https://www.amazon.com/Dare-Lead-Brave-Conversations-Hearts/dp/0399592520)
-- [Radical Candor](https://www.amazon.com/dp/1529038340/ref=cm_sw_em_r_mt_dp_JW4418H1Q2BQ2MGV62WN)
+- [Radical Candor](https://www.amazon.com/dp/1529038340/)
 
 ### 🤝 Direct team management
 

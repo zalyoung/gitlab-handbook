@@ -87,7 +87,7 @@ Team members who are comfortable doing so may report workplace harassment concer
 
 ### Reporting Concerns about Team Member Relations (Anonymously OR Non-Anonymously)
 
-Team members who would like to **anonymously** report workplace harassment concerns or who would like to, **anonymously** or **non-anonymously**, report other concerns involving team member relations should use [Lighthouse Services](https://report.syntrio.com/_StandardCustomURL/LHILandingPage.asp). Topics may vary but could include, for example, wrongful discharge or disciplinary action, discrimination, alcohol and substance abuse, or threats.
+Team members who would like to **anonymously** report workplace harassment concerns or who would like to, **anonymously** or **non-anonymously**, report other concerns involving team member relations should use [Lighthouse Services](https://www.lighthouse-services.com/gitlab). Topics may vary but could include, for example, wrongful discharge or disciplinary action, discrimination, alcohol and substance abuse, or threats.
 
 Reports can be made using the platform or through the following avenues, which are available 24 hours a day, 365 days a year.
 

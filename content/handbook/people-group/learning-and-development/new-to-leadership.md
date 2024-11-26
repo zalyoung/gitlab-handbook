@@ -25,7 +25,7 @@ In this section we will review various topics that impact new managers. For firs
 
 There are some great articles regarding being new to leadership. Please review the following links for additional reading.
 
-- [15 Tips for New Managers](https://www.thebalancecareers.com/tips-for-new-managers-part-1-2275957)
+- [15 Tips for New Managers](https://www.liveabout.com/tips-for-new-managers-part-1-2275957)
 - [Becoming a Manager: What No One Tells You](https://www.jodymichael.com/blog/becoming-manager-no-one-tells/)
 - [How to Transition From Solo Expert to Effective Manager](https://www.thebalancecareers.com/transitioning-from-solo-expert-to-effective-manager-4116889)
 - [Functions of Managers](https://www.cliffsnotes.com/study-guides/principles-of-management/the-nature-of-management/functions-of-managers)

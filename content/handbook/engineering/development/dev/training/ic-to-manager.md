@@ -70,7 +70,7 @@ Currently as an Individual Contributor, your day to day tasks probably do not in
 
 **Growing Others**
 
-* [Mentor](https://www.linkedin.com/learning/mentoring-others/mentoring-others?u=2255073) a team member and host regularly scheduled 1-1's with a Mentee
+* [Mentor](https://www.linkedin.com/learning/becoming-an-inspiring-mentor) a team member and host regularly scheduled 1-1's with a Mentee
 * Regularly provide [feedback](/handbook/people-group/guidance-on-feedback/) in mentoring relationships, team retrospectives, issues, #thanks channel and Team Slack Channels.
 * Host a Book Club
 

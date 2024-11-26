@@ -68,4 +68,4 @@ Various verticals and industries face specific challenges as they address their 
 | **Need for scalable compute to process big data** |  GitLab support for kubernetes            |
 
 - [IBM - Oil and Gas exploration](https://web.archive.org/web/20180329093111/https://www-935.ibm.com/services/us/gbs/bus/pdf/g510-3882-meeting-challenges-oil-gas-exploration.pdf)
-- [CXO Insights - Oil and Gas Tech Challenges](https://smart-grid.energycioinsights.com/cxo-insights/how-technology-is-changing-the-oil-and-gas-landscape-for-the-better-nwid-51.html)
+- [CXO Insights - Oil and Gas Tech Challenges](https://web.archive.org/web/20220123120654/https://smart-grid.energycioinsights.com/cxo-insights/how-technology-is-changing-the-oil-and-gas-landscape-for-the-better-nwid-51.html)

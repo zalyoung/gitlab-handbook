@@ -37,7 +37,7 @@ how to handle feedback.
 
 - [New Manager Foundations](https://www.linkedin.com/learning/new-manager-foundations-2?u=2255073)
 - [Become a Manager](https://www.linkedin.com/learning/paths/become-a-manager?u=2255073)
-- [Transitioning from IC to Manager](https://www.linkedin.com/learning/transitioning-from-individual-contributor-to-manager?u=2255073)
+- [Transitioning from IC to Manager](https://www.linkedin.com/learning/making-the-move-from-individual-contributor-to-manager)
 - [Avoiding New Manager Mistakes](https://www.linkedin.com/learning/avoiding-new-manager-mistakes?u=2255073)
 
 ## Recognition of Team Members
@@ -65,7 +65,7 @@ The training below is a good resource to ensuring you engage in a productive Men
 - [Elevate Manager Training](/handbook/people-group/learning-and-development/elevate-programs/)(Handbook)
 - [Become a Leader](https://www.linkedin.com/learning/paths/become-a-leader?u=2255073)
 - [Leading Others Effectively](https://www.linkedin.com/learning/paths/leading-others-effectively?u=2255073)
-- [Become a More Resilient Leader in Turbulent Times](https://online-learning.harvard.edu/course/become-more-resilient-leader-turbulent-times?delta=0)
+- [Become a More Resilient Leader in Turbulent Times](https://pll.harvard.edu/course/resilient-leadership)
 - [Leadership Fundamentals](https://www.linkedin.com/learning/leadership-fundamentals/leaving-an-impact?u=2255073)
 
 ## High Performing Teams

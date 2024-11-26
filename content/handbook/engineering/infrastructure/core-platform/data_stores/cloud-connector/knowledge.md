@@ -52,7 +52,7 @@ We have a materials shared in our internal `Ruby on Rails Performance Training` 
 - [The Limits of Copy-on-write: How Ruby Allocates Memory](https://brandur.org/ruby-memory)
 - [Tuning Ruby's Global Method Cache – Shopify Engineering](https://shopify.engineering/17489064-tuning-rubys-global-method-cache)
 - [Understanding Ruby GC through GC.stat](https://www.speedshop.co/2017/03/09/a-guide-to-gc-stat.html)
-- [Unicorn vs. Puma vs. Passenger: which app server is right for you? - Scout APM Blog](https://scoutapm.com/blog/which-ruby-app-server-is-right-for-you)
+- [Unicorn vs. Puma vs. Passenger: which app server is right for you? - Scout APM Blog](https://www.scoutapm.com/which-ruby-app-server-is-right-for-you/)
 - [Untangling Ruby Threads](https://thoughtbot.com/blog/untangling-ruby-threads)
 - [Visualizing Your Ruby Heap by Tenderlove](https://tenderlovemaking.com/2017/09/27/visualizing-your-ruby-heap.html)
 - [Watching and Understanding the Ruby 2.1 Garbage Collector at Work - Thorsten Ball](https://thorstenball.com/blog/2014/03/12/watching-understanding-ruby-2.1-garbage-collector/)

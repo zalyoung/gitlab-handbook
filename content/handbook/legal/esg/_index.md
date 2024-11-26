@@ -18,7 +18,7 @@ Every year GitLab publishes an annual ESG report where we share our approach to 
 
 ### ESG Advisory Committee
 
-The purpose of the advisory committee is create cross-functional alignment on ESG objectives and decision making, to go beyond simply compliance and into long-term operational implementation.  
+The purpose of the advisory committee is create cross-functional alignment on ESG objectives and decision making, to go beyond simply compliance and into long-term operational implementation.
 
 Members of the ESG Advisory Committee:
 
@@ -112,7 +112,7 @@ Throughout the month, team members can volunteer as little as one hour of their 
 
 ### Why GiveLab 30 Days of Impact Exists
 
-While GitLab encourages year-round volunteerism through [GiveLab](/handbook.gitlab.com/handbook/legal/esg/#givelab), GiveLab 30 days of Impact centralizes our efforts into an annual campaign to have a larger collective impact over a specific timeframe. Corporate volunteerism has been proven to be an effective strategy for [boosting engagement](https://bc-ccc.uberflip.com/i/1510320-community-involvement-study-2023-executive-summary/0?_gl=1%2An3v02c%2A_ga%2ANzYwODcyNTg5LjE3Mjc3MTEzNzY.%2A_ga_50520H9ZLC%2AMTcyOTA1NTM1MC4yLjEuMTcyOTA1NTQyNS4wLjAuMA..), improving employee retention, and [strengthening relationships at work](https://blog.catchafire.org/5-corporate-volunteering-stats-you-should-know#:~:text=Studies%20show%20that%2080%25%20of,enhances%20the%20overall%20work%20culture).
+While GitLab encourages year-round volunteerism through [GiveLab](/handbook/legal/esg/#givelab), GiveLab 30 days of Impact centralizes our efforts into an annual campaign to have a larger collective impact over a specific timeframe. Corporate volunteerism has been proven to be an effective strategy for [boosting engagement](https://bc-ccc.uberflip.com/i/1510320-community-involvement-study-2023-executive-summary/0?_gl=1%2An3v02c%2A_ga%2ANzYwODcyNTg5LjE3Mjc3MTEzNzY.%2A_ga_50520H9ZLC%2AMTcyOTA1NTM1MC4yLjEuMTcyOTA1NTQyNS4wLjAuMA..), improving employee retention, and [strengthening relationships at work](https://blog.catchafire.org/5-corporate-volunteering-stats-you-should-know#:~:text=Studies%20show%20that%2080%25%20of,enhances%20the%20overall%20work%20culture).
 Additionally, this program offers volunteering opportunities around a major holiday season in many parts of the world, a time when many are seeking opportunities to give back.
 
 ### Team Member Benefits of Volunteerism
@@ -134,7 +134,7 @@ Additionally, this program offers volunteering opportunities around a major holi
 
 Below you’ll find information on our GitLab-sponsored virtual events, what’s to come on some local in-person volunteer events, and ideas on how to volunteer as a team or individually.
 
-Virtual GitLab-sponsored volunteer events are open for all team members to join, and are scheduled across different time zones and regions to offer flexible options in choosing an activity to participate in. By signing up for a virtual event, you’ll receive a calendar invite and a Know Before You Go document outlining all preparation details. Preparation time for the virtual events should not exceed 15 minutes. 
+Virtual GitLab-sponsored volunteer events are open for all team members to join, and are scheduled across different time zones and regions to offer flexible options in choosing an activity to participate in. By signing up for a virtual event, you’ll receive a calendar invite and a Know Before You Go document outlining all preparation details. Preparation time for the virtual events should not exceed 15 minutes.
 
 ### Virtual GitLab Sponsored Events
 
@@ -156,7 +156,7 @@ SuitUp programs empower students to discover their passions through experiential
 1. Career panels: volunteers can participate in a one-hour panel discussion with students on the topics of Technology & AI for Good or Business & Technology.
 2. Business competition: volunteers will help coach students as they compete in a business competition focused on addressing a real-world social issue by creating an innovative solution using AI. There are four events to choose from.
 
-**Necessary volunteer skills:** No technical skills are required to volunteer. Volunteers should feel comfortable in sharing their career journey guidance and/ or providing feedback and coaching to students.  
+**Necessary volunteer skills:** No technical skills are required to volunteer. Volunteers should feel comfortable in sharing their career journey guidance and/ or providing feedback and coaching to students.
 
 **Dates:** 2024-11-13, 2024-11-21, 2021-12-3, and 2024-12-10. Sign up [here](https://docs.google.com/forms/d/e/1FAIpQLSecDzez2BjeTUdABzd6aiiAvwOcfIU2B2fyzENVbgsu2ivBqQ/viewform).
 
@@ -180,7 +180,7 @@ Each year, disasters around the world kill nearly 100,000 and affect or displace
 
 Hospital visits and medical treatment lead to significant mental and physical stress in children. Studies have shown that listening to an audiobook could be effective in alleviating fear and anxiety for children during treatment or while at the pediatric care center. For this event, volunteers will audio-record short stories and poems for children undergoing treatment. The audiobooks will be available at the nonprofit's center as a source of comfort and engagement over the course of their treatment.
 
-**Necessary volunteer skills:** No technical skills are required to volunteer. Volunteers should feel comfortable reading aloud in a private setting. 
+**Necessary volunteer skills:** No technical skills are required to volunteer. Volunteers should feel comfortable reading aloud in a private setting.
 
 **Date:** 2024-12-5. Sign up [here](https://docs.google.com/forms/d/e/1FAIpQLSeyx5hjQFGnfIBJDjKe9vcfOLCodhwHME_C16BQAbXvivrV6w/viewform).
 
@@ -226,7 +226,7 @@ Engage with Senior Citizens who are presently in a nursing home or institutional
 
 ### Local In-Person Volunteer Events
 
-In-person opportunities can be organized by the GitLab ESG team, [GiveLab Champions](/handbook.gitlab.com/handbook/legal/esg/#givelab-champions), and team members. If you would like to organize an in-person opportunity, please open [an issue](https://gitlab.com/gitlab-com/www-gitlab-com/-/issues/new?issuable_template=volunteer_support) and reach out to April Skeete in the #givelab slack channel. The following locations have plans to host a volunteer event, and as additional opportunities are confirmed they will be added and promoted within the location-specific slack channel.
+In-person opportunities can be organized by the GitLab ESG team, [GiveLab Champions](/handbook/legal/esg/#givelab-champions), and team members. If you would like to organize an in-person opportunity, please open [an issue](https://gitlab.com/gitlab-com/www-gitlab-com/-/issues/new?issuable_template=volunteer_support) and reach out to April Skeete in the #givelab slack channel. The following locations have plans to host a volunteer event, and as additional opportunities are confirmed they will be added and promoted within the location-specific slack channel.
 
 - Phoenix, Arizona - 2024-11-22, Sign up [here](https://docs.google.com/forms/d/e/1FAIpQLSeCCqkuG4yD84qSzooMbJZ2AdXo7ftQo1gwe1mW3KlPVlRNrw/viewform)
 - Seattle, Washington - 2024-12-3, Sign up [here](https://docs.google.com/forms/d/e/1FAIpQLSfZgazBaOxn3CUExSUMQshNqdEF28nxxWCzSj3bY616BJbjEw/viewform)
@@ -258,16 +258,16 @@ All GitLab volunteer activities must support registered nonprofit organizations 
 
 ### Utilizing GitLab’s PTO Policy to Volunteer
 
-Team member participation is voluntary, should not interfere with work commitments, and time off is required to be in alignment with GitLab’s [PTO policy](/handbook.gitlab.com/handbook/people-group/paid-time-off/). Travel is not permitted for this program. Team Members may choose to volunteer virtually or through local in-person events. Volunteer events typically last between one and four hours.
+Team member participation is voluntary, should not interfere with work commitments, and time off is required to be in alignment with GitLab’s [PTO policy](/handbook/people-group/paid-time-off/). Travel is not permitted for this program. Team Members may choose to volunteer virtually or through local in-person events. Volunteer events typically last between one and four hours.
 Managers play an important role in supporting team members in taking time for themselves and their families, while also ensuring accountability to results and coverage for teams and its goals. Our Results for Customers value sits at the top of our values hierarchy, and our PTO policy  empowers managers to appropriately manage workloads and deliverables, while also giving team members the time away they need from work.
 
 ### How to Request Volunteer Time Off
 
-Team Members taking time off to volunteer should communicate time off in advance with their manager. To request volunteer time off, follow the [Paid Time Off](/handbook.gitlab.com/handbook/people-group/paid-time-off/#paid-time-off) procedures outlined in our handbook and reach out to People Connect via HelpLab should you have any concerns. A step-by-step guide on how to request paid time off can be found [here](https://docs.google.com/document/d/1CZvTbPfvCOHDqA9riifMNNN0wsZyaxIql14cj_M5TK8/edit?tab=t.0). Note that when following along with this guide, during “Step 8” there is a section listed as “Reasons”, and here you should select “Volunteer Time Off” from the dropdown options. Note that at this time, entering your paid time off requests labeled as “Volunteer Time Off” can only be completed by submitting your request within Workday, and not the Workday Slack App.
+Team Members taking time off to volunteer should communicate time off in advance with their manager. To request volunteer time off, follow the [Paid Time Off](/handbook/people-group/paid-time-off/#paid-time-off) procedures outlined in our handbook and reach out to People Connect via HelpLab should you have any concerns. A step-by-step guide on how to request paid time off can be found [here](https://docs.google.com/document/d/1CZvTbPfvCOHDqA9riifMNNN0wsZyaxIql14cj_M5TK8/edit?tab=t.0). Note that when following along with this guide, during “Step 8” there is a section listed as “Reasons”, and here you should select “Volunteer Time Off” from the dropdown options. Note that at this time, entering your paid time off requests labeled as “Volunteer Time Off” can only be completed by submitting your request within Workday, and not the Workday Slack App.
 
 ### Expenses and Reimbursements for Participation
 
-Please see our [GiveLab reimbursement policy](/handbook.gitlab.com/handbook/legal/esg/#givelab) to understand current allowances as they relate to volunteering costs.
+Please see our [GiveLab reimbursement policy](/handbook/legal/esg/#givelab) to understand current allowances as they relate to volunteering costs.
 
 ### Contributing Feedback for This Program
 
@@ -534,7 +534,7 @@ A:  Yes, GitLab  measures and discloses its greenhouse gas (GHG) emissions in th
 
 **Q: Does GitLab participate in CDP?**
 
-A: GitLab does not currently respond to the CDP questionnaire. However, we publicly disclose information that closely aligns with the information requested in the questionnaire. We disclose our GHG inventory results, third party assurance letter and our TCFD disclosures in our annual ESG report. We are actively working on setting a GHG reduction target. Please see our [FY24 ESG Report,](/handbook.gitlab.com/handbook/company/esg/) [FY24 Performance Data Tables,](https://about.gitlab.com/documents/FY24_Performance_Data_Tables.pdf) and [TCFD Index](https://about.gitlab.com/documents/GitLab_FY24_TCFD_Index.pdf) for details.
+A: GitLab does not currently respond to the CDP questionnaire. However, we publicly disclose information that closely aligns with the information requested in the questionnaire. We disclose our GHG inventory results, third party assurance letter and our TCFD disclosures in our annual ESG report. We are actively working on setting a GHG reduction target. Please see our [FY24 ESG Report,](/handbook/company/esg/) [FY24 Performance Data Tables,](https://about.gitlab.com/documents/FY24_Performance_Data_Tables.pdf) and [TCFD Index](https://about.gitlab.com/documents/GitLab_FY24_TCFD_Index.pdf) for details.
 
 **Q: Has GitLab set a Science Based Target (SBT)?**
 

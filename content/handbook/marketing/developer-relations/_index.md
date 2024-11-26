@@ -255,7 +255,7 @@ We take inspiration from the great work being done by other communities. Some of
 - [Google Summer of Code](https://summerofcode.withgoogle.com/) - This community inspires us through their work to make the tech community more diverse and inclusive and create new opportunities for people new to tech.
 - [Outreachy](https://www.outreachy.org/) - This community inspires us through their work to make the tech community more diverse and inclusive and create new opportunities for people new to tech.
 - [Grace Hopper Community / Systers](https://anitab.org/our-communities/systers/) - This community inspires us through their work to make the tech community more diverse and inclusive.
-- [Lesbians Who Tech](https://lesbianswhotech.org/debugsummit2021/) - This community inspires us through their work to make the tech community more diverse and inclusive.
+- [Lesbians Who Tech](https://lesbianswhotech.org/) - This community inspires us through their work to make the tech community more diverse and inclusive.
 - [Techqueria](https://techqueria.org/) - This community inspires us through their work to make the tech community more diverse and inclusive.
 - [Latinas in Tech](https://latinasintech.org/) - This community inspires us through their work to make the tech community more diverse and inclusive.
 - [Women in Tech](https://women-in-tech.org/) - This community inspires us through their work to make the tech community more diverse and inclusive.

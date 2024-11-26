@@ -36,7 +36,7 @@ Group priorities are reviewed collaboratively with product counterparts and publ
 - [Vulnerability Pages](https://docs.gitlab.com/ee/user/application_security/vulnerabilities/)
 - [Security scanner integration](https://docs.gitlab.com/ee/development/integrations/secure.html)
 - [Secure and Govern terminology](https://docs.gitlab.com/ee/user/application_security/terminology/)
-- [Govern testing priorities](https://about.gitlab.com/direction/govern/testing_priorities.html)
+- [Govern testing priorities](https://about.gitlab.com/direction/software_supply_chain_security/)
 - [Pipeline Security](https://docs.gitlab.com/ee/ci/pipelines/pipeline_security.html)
 
 ## Sub-department development people leaders

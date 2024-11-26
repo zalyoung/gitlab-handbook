@@ -41,7 +41,7 @@ Conferences are a great place to learn about the latest innovations. Attending t
 
 **Conferences for Backend Engineers**
 
-* [RedisConf](https://redislabs.com/redisconf/)
+* [RedisConf](https://redis.io/events/?et=event)
 * [Gophercon](https://gophercon.eu)
 
 **GraphQL**

@@ -72,7 +72,7 @@ This section of the account plan serves to capture relevant information about ou
 1. From the Gainsight widget, use the top navigaion bar to select the **Contacts tab**.
 1. Use the drag and drop function to add contacts to the map or use the Add Person button located to the right of the widget.
 1. Add further detail (Influence, GitLab Role, Manager) to the contact card by double clicking in the card or using the ellipsis menu.
-1. Check out [this article](https://support.gainsight.com/Gainsight_NXT/07360/People_Maps/Build_People_Maps#Business_Use_Cases) from Gainsight on building maps as well as [this enablement](/handbook/sales/account-planning/#relationship-and-influence-mapping) page.
+1. Check out [this article](https://support.gainsight.com/gainsight_nxt/07360/User_Guides/Build_People_Maps) from Gainsight on building maps as well as [this enablement](/handbook/sales/account-planning/#relationship-and-influence-mapping) page.
 
 ### Whitespace Mapping
 
@@ -96,7 +96,7 @@ Company Intelligence allows users to stay up-to-date on their key customers and 
 
 - [Setting up notifications](https://support.gainsight.com/Gainsight_NXT/Company_Intelligence/FAQs/Company_Intelligence_FAQs).
 - [Company Intelligence FAQs](https://support.gainsight.com/Gainsight_NXT/Company_Intelligence/FAQs/Company_Intelligence_FAQs).
-- [Company Intelligence, The long version](https://support.gainsight.com/SFDC_Edition/Company_Intelligence/About/Company_Intelligence_Overview?mt-draft=true#Overview).
+- [Company Intelligence, The long version](https://support.gainsight.com/gainsight_nxt/Company_Intelligence/About/Company_Intelligence_Overview_Old).
 
 *Note: Only 5,000 Accounts can be tracked at a time. To request an account be added to tracking, please submit an issue in the [Sales Ops project](https://gitlab.com/gitlab-com/sales-team/field-operations/sales-operations/-/issues) and select the General Request template.*
 

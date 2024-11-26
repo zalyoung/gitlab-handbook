@@ -7,7 +7,7 @@ Can't find what you're looking for? Try the main [People Operations page](/handb
 
 ## India
 
-All of the benefits listed below are administered and managed by [Global Upside](https://globalupside.com/). As part of the onboarding process Global Upside will reach out to team members in their first week to arrange setup and enrollment.  Should you have any questions, please contact:
+All of the benefits listed below are administered and managed by [Global Upside](https://www.safeguardglobal.com/). As part of the onboarding process Global Upside will reach out to team members in their first week to arrange setup and enrollment.  Should you have any questions, please contact:
 
 | Email | Purpose |
 | ------ | ------ |
@@ -89,7 +89,7 @@ Loyalty Bonus Amount =  Gratuity Calculation using GitLab Hire Date + Gratuity C
 
 ## Philippines
 
-All of the benefits listed below are administered and managed by [Global Upside](https://globalupside.com/).
+All of the benefits listed below are administered and managed by [Global Upside](https://www.safeguardglobal.com/).
 
 ### Social Security System
 
@@ -141,7 +141,7 @@ To initiate your parental leave, submit your time off by selecting `Parental Lea
 
 ## Latvia
 
-All of the benefits listed below are administered and managed by [Global Upside](https://globalupside.com/).
+All of the benefits listed below are administered and managed by [Global Upside](https://www.safeguardglobal.com/).
 
 ### Medical (Healthcare Monthly Allowance)
 

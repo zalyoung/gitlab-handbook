@@ -87,7 +87,7 @@ The location factor review is an internal process completed by the Total Rewards
 
 **Dice**
 
-1. Download the most recently published [Dice Technology Salary Report](https://techhub.dice.com/Dice-2020-Tech-Salary-Report.html).
+1. Download the most recently published [Dice Technology Salary Report](https://www.dice.com/recruiting/ebooks/dice-tech-salary-report/).
 1. Information from Dice has to be manually pulled out of their PDF to our sheet.
 1. Add the salaries for each city and state reported by Dice to the Dice tab, adding a new line for any new cities or states.
 1. Match any Dice locations to the corresponding GitLab locality, if applicable.
