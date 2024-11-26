@@ -104,6 +104,15 @@ In **GitLab Service Desk**:
 
 This sheet can be found [Here](https://docs.google.com/spreadsheets/d/1etzGAGH4n-pzA52xka_VAymMYSE44UBySblXhAEh6rM/edit?gid=0#gid=0) 
 
+- Follow the steps provided via the Sales Case Routing to decide on what stage you will qualify these Startup Companies. 
+
+These are types of qualifications that Startups can land under:
+
+- Seed Year 1
+- Seed Year 2
+- Early Stage Year 1
+- Early Stage Year 2
+
 Then, in **Salesforce**:
 
 1. Open lead / contact in the Service Desk ticket
