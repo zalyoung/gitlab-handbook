@@ -40,16 +40,14 @@ As a recognition of the efforts of team members who develop inventions for GitLa
 
 - Level One Patent Award: $250 for each named inventor on each patent application submission accepted for filing by GitLab, payable after acceptance.
 - Level Two Patent Award: $500 for each named inventor on each patent application filed by GitLab, payable after filing. No Level Two Patent Award is payable for the filing of a *provisional* patent application.
-- Level Three Patent Award: $1,000 for each named inventor on each patent issued to GitLab, payable after patent issue.
+- Level Three Patent Award: $1,000 for each named inventor on each patent issued to GitLab, payable after issue.
 
 **Continuation Patent Applications**
 
-GitLab also offers the following award program for continuation patent applications. These are patent applications where GitLab seeks to obtain protection for additional claims related to one of GitLab's existing, parent patent applications.  
+Awards are also payable for continuation patent applications. A continuation patent seeks to claim different aspects of the same invention disclosed in an existing patent application.  
 
-- Level One Patent Award: $250 for each named inventor on each continuation patent application filed by GitLab, payable after filing. 
-- Level Two Patent Award: $500 for each named inventor on each patent issued to GitLab, payable after patent issue.
-
-Note that no payment is issued for submission acceptance of continuation patent applications, as these are typically proposed by external legal counsel, rather than team members.
+- Level One Continuation Patent Award: $250 for each named inventor on each continuation patent application filed by GitLab, payable after filing. 
+- Level Two Continuation Patent Award: $500 for each named inventor on each continuation patent issued to GitLab, payable after issue.
 
 ### How to participate
 
