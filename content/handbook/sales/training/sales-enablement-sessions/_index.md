@@ -24,12 +24,12 @@ To see what training is coming soon, view the [Field Enablement Spotlight issue 
 | DATE   | TOPIC | SPEAKERS |
 |--------|--------|--------|
 | Nov 28 |  **No Session**  |  |
-| Dec 4 |  Special Spotlight Session  |    |
+| Dec 4 |   TBD  |    |
 | Dec 5 |  Beyond the Title: GitLab Personas  | RSOE Team   |
 | Dec 12 |  Global Ecosystem Team Quarterly Update   | Ecosystem Team |
 | Dec 19 |  Analyst Relations Update  | Analyst Relations Team  |
 | Dec 26 |  **No Session**   |  |
-| Jan 2 |  TBD   |  TBD  |
+| Jan 2 |  TBD   |    |
 | Jan 9 |  Business Value Services  | RSOE Team |
 | Jan 16 |  Azure DevOps Competitive Enablement  | Marketing |
 | Jan 23 | Customer Success - Success Plans   | CS Team  |
