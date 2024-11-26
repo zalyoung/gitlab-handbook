@@ -62,7 +62,7 @@ Red Data may not be transmitted from an approved Red data source to any other sy
 {style="color: #800080"}
 <!-- markdownlint-enable MD022 -->
 
-Data related to unpatched high-risk vulnerabilities, actively exploited vulnerabilities, and sensitive security operations that require special handling. While requiring strong protection, this data has different operational needs than RED data, particularly regarding:
+Data related to unpatched high-risk vulnerabilities, actively exploited vulnerabilities, or sensitive security operations that require special handling. While requiring strong protection, this data has different operational needs than RED data, particularly regarding:
 
 - Access during incident response
 - Collaboration across R&D teams
