@@ -70,8 +70,6 @@ Data related to unpatched high-risk vulnerabilities, actively exploited vulnerab
 - Evolution to lower classification levels after remediation
 
 Examples include:
-- XSIRT incidents
-Examples include:
 
 - XSIRT incidents
 - Actively exploited vulnerabilities
