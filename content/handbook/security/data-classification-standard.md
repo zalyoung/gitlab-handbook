@@ -58,6 +58,30 @@ Examples include:
 Red Data may not be transmitted from an approved Red data source to any other systems or solutions without first obtaining approval from the Privacy and Security teams.  Any Vendors that process Red Data must first undergo a factual and legal analysis that justifies their processing in accordance with our Customer agreements, as well as global privacy and data security laws. For any questions or concerns related to the transmission of Red data between systems, please reach out to @Security-Risk within the #Sec-Assurance channel.
 
 <!-- markdownlint-disable MD022 -->
+#### PURPLE
+{style="color: #800080"}
+<!-- markdownlint-enable MD022 -->
+
+Data related to unpatched high-risk vulnerabilities, actively exploited vulnerabilities, and sensitive security operations that require special handling. While requiring strong protection, this data has different operational needs than RED data, particularly regarding:
+
+- Access during incident response
+- Collaboration across R&D teams
+- Mobile device access for team members
+- Evolution to lower classification levels after remediation
+
+Examples include:
+- XSIRT incidents
+- Actively exploited vulnerabilities
+- High-risk unpatched vulnerabilities
+- Sensitive security operations details
+
+Access Requirements:
+- Restricted to authorized team members based on need-to-know
+- May require managed devices or specific security controls
+- Can be accessed via approved communication channels
+- Special provisions for incident response teams
+
+<!-- markdownlint-disable MD022 -->
 #### ORANGE
 {style="color: #fd7e14" #orange}
 <!-- markdownlint-enable MD022 -->
