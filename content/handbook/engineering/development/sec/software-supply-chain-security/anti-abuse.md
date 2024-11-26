@@ -34,7 +34,7 @@ We use the same [weekly async issue template](authorization.md#weekly-async-issu
 
 ## Group members
 
- [Anti-abuse group](https://gitlab.com/groups/gitlab-org/govern/authorization/) can be `@` mentioned on GitLab with `@gitlab-org/modelops/anti-abuse`.
+ [Anti-abuse group](https://gitlab.com/groups/gitlab-org/software-supply-chain-security/authorization/) can be `@` mentioned on GitLab with `@gitlab-org/modelops/anti-abuse`.
 
 The following people are permanent members of the group:
 
@@ -48,11 +48,11 @@ We have a weekly team sync meeting with rotating [AMER](https://drive.google.com
 
 ## Collaboration
 
-You are encouraged to work as closely as needed with our [stable counterparts](/handbook/product/categories/#govern-stage).
+You are encouraged to work as closely as needed with our [stable counterparts](/handbook/product/categories/#software-supply-chain-security-stage).
 
 Other teams that we might collaborate with include but are not limited to:
 
-- [Govern:Authentication and Authorization](/handbook/engineering/development/sec/govern/authentication-and-authorization/)
+- [Govern:Authentication and Authorization](/handbook/engineering/development/sec/software-supply-chain-security/authentication-and-authorization/)
 - [Growth:Acquisition and Activation](/handbook/engineering/development/growth/)
 - [Fulfillment:Fulfillment Platform](/handbook/engineering/development/fulfillment/fulfillment-platform/#team-members)
 

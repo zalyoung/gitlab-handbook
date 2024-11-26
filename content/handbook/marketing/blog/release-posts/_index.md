@@ -1044,7 +1044,7 @@ It is a required field.
   - [`configure`](https://about.gitlab.com/stages-devops-lifecycle/configure/)
   - [`monitor`](https://about.gitlab.com/stages-devops-lifecycle/monitor/)
   - [`secure`](https://about.gitlab.com/stages-devops-lifecycle/secure/)
-  - [`govern`](https://about.gitlab.com/stages-devops-lifecycle/govern/)
+  - [`software_supply_chain_security`](https://about.gitlab.com/stages-devops-lifecycle/govern/)
   - [`systems`](/handbook/product/categories/#systems-stage)
   - [`data_stores`](/handbook/product/categories/#data-stores-stage)
 

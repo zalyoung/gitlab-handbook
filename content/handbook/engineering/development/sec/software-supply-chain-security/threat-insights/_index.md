@@ -1,5 +1,5 @@
 ---
-title: Govern, Threat Insights
+title: Software Supply Chain Security, Threat Insights
 description: "The Threat Insights group at GitLab is charged with developing solutions to enable customers to manage their security risks effectively and efficiently."
 layout: single
 ---
@@ -37,7 +37,7 @@ The following members of other functional teams are our stable counterparts, and
 
 ### Performance and Optimization
 
-[Performance and Optimization](https://about.gitlab.com/direction/govern/threat_insights/17_threat_insights_priorities.html#technical-debt-and-deprecations)
+[Performance and Optimization](https://about.gitlab.com/direction/security_risk_management/threat_insights/17_threat_insights_priorities.html#technical-debt-and-deprecations)
 
 DRI: {{< member-by-gitlab "nmccorrison" >}}
 
@@ -45,7 +45,7 @@ DRI: {{< member-by-gitlab "nmccorrison" >}}
 
 ### Projects
 
-[Projects](https://about.gitlab.com/direction/govern/threat_insights/17_threat_insights_priorities.html#vulnerability-management)
+[Projects](https://about.gitlab.com/direction/security_risk_management/threat_insights/17_threat_insights_priorities.html#vulnerability-management)
 
 DRI: {{< member-by-gitlab "ryaanwells" >}}
 
@@ -53,7 +53,7 @@ DRI: {{< member-by-gitlab "ryaanwells" >}}
 
 ### AI
 
-[AI](https://about.gitlab.com/direction/govern/threat_insights/17_threat_insights_priorities.html#ai)
+[AI](https://about.gitlab.com/direction/security_risk_management/threat_insights/17_threat_insights_priorities.html#ai)
 
 DRI: {{< member-by-gitlab "nmccorrison" >}}
 
@@ -73,7 +73,7 @@ Navy engineers report to {{< member-by-gitlab "nmccorrison" >}} and Tangerine en
 * Slack channels:
   * Main channel: [`#g_govern_threat_insights`](https://gitlab.slack.com/archives/CV09DAXEW/p1663788936706469)
   * Stand-up updates: [`#g_govern_threat-insights_standup`](https://gitlab.slack.com/archives/C01U7T6DPNY)
-  * Engineering - All: [`#g_govern_threat_insights_eng`](https://gitlab.slack.com/archives/C05N5BLDYUT)
+  * Engineering - All: [`#s_srm_security_eng`](https://gitlab.slack.com/archives/C05N5BLDYUT)
   * Engineering - Team AI: [`#g_govern_threat_insights_eng_ai`](https://gitlab.enterprise.slack.com/archives/C07KSUHD09E)
   * Engineering - Team Navy: [`#g_govern_threat_insights_performance`](https://gitlab.enterprise.slack.com/archives/C07CA38UG3E)
   * Engineering - Team Tangerine: [`#g_govern_threat_insights_projects`](https://gitlab.enterprise.slack.com/archives/C07CLAV0X33)
@@ -107,7 +107,7 @@ We use our Threat Insights Priorities page for [17.x](https://about.gitlab.com/d
 
 The Threat Insights group largely follows GitLab's [Product Development Flow](/handbook/product-development-flow/).
 
-Additional information can be found on the [Planning page](/handbook/engineering/development/sec/govern/sp-ti-planning/).
+Additional information can be found on the [Planning page](/handbook/engineering/development/sec/software-supply-chain-security/sp-ti-planning/).
 
 ### Milestone Planning
 
@@ -177,7 +177,7 @@ When dealing with Slack interactions you are expected to use the following react
 If a support engineer requests assistance via Slack and it requires investigation or debugging, they should be directed to raise an issue in [a dedicated project](https://gitlab.com/gitlab-com/sec-sub-department/section-sec-request-for-help).
 
 * [#g_govern_threat_insights](https://gitlab.slack.com/archives/CV09DAXEW)
-* [#s_govern](https://gitlab.enterprise.slack.com/archives/CFHGVJ06R)
+* [s_software-supply-chain-security](https://gitlab.enterprise.slack.com/archives/CFHGVJ06R)
 * [#sec-section](https://gitlab.slack.com/archives/C02087FTL5V)
 * [#s_secure-alerts](https://gitlab.slack.com/archives/CAU9SFKNU)
 * [#sec-eng-requests-for-help](https://gitlab.enterprise.slack.com/archives/C071W3BA87J)

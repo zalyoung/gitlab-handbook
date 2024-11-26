@@ -180,7 +180,7 @@ flowchart LR
   A(Plan)
   B(Create)
   C(Release)
-  D(Govern)
+  D(Software Supply Chain Security)
   E(Configure)
   F(Monitor)
   G(Verify)

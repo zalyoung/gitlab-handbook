@@ -418,7 +418,7 @@ For GitLab SaaS and infrastructure cost allocation or attribution, the Engineeri
 | `eng-dev-deploy`       | [Deploy Stage](/handbook/product/categories/#deploy-stage)               |
 | `eng-dev-monitor`      | [Monitor Stage](/handbook/product/categories/#monitor-stage)             |
 | `eng-dev-secure`       | [Secure Stage](/handbook/product/categories/#sec-section)               |
-| `eng-dev-govern`       | [Govern Stage](/handbook/product/categories/#govern-stage)               |
+| `eng-dev-govern`       | [Software Supply Chain Security Stage](/handbook/product/categories/#software-supply-chain-security-stage) |
 | `eng-dev-growth`       | [Growth Stage](/handbook/product/categories/#growth-stage)               |
 | `eng-dev-fulfillment`  | [Fulfillment Stage](/handbook/product/categories/#fulfillment-stage)     |
 | `eng-dev-enablement`   | [Enablement Stage](/handbook/product/categories/#enablement-stage)       |
