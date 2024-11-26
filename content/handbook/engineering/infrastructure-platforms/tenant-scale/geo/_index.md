@@ -69,7 +69,7 @@ Other than the [Collaboration template](https://gitlab.com/gitlab-com/geo-custom
 
 **At minimum Zendesk links and logs are especially important. The issue will not enter our normal triage process if they are missing. If no update has been made on an issue for 2 weeks, they will be auto closed by the EM/PM/Assignee.**
 
-We also have a process for triaging RFH issues, please see [process](/handbook/engineering/infrastructure/core-platform/systems/geo/process/#engineering-customersupport-rotation-process)
+We also have a process for triaging RFH issues, please see [process](/handbook/engineering/infrastructure-platforms/tenant-scale/geo/process/#engineering-customersupport-rotation-process)
 
 If you like, you may assign a priority label to your request. A geo team member or the PM will review this priority assignment during the triage of the issue. Please use the table below as a reference of priority levels and expected response times.
 
@@ -90,7 +90,6 @@ If you like, you may assign a priority label to your request. A geo team member 
 
 - [Geo](https://docs.gitlab.com/ee/administration/geo/index.html)
 - [Disaster Recovery](https://docs.gitlab.com/ee/administration/geo/disaster_recovery/index.html)
-- [Backup and Restore](https://docs.gitlab.com/ee/administration/backup_restore/)
 - [Planned Failover](https://docs.gitlab.com/ee/administration/geo/disaster_recovery/planned_failover.html)
 - [Background Verification](https://docs.gitlab.com/ee/administration/geo/disaster_recovery/background_verification.html)
 - [Geo Glossary](https://docs.gitlab.com/ee/administration/geo/glossary.html)
