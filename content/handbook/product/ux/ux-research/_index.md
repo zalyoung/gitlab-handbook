@@ -20,6 +20,8 @@ We then apply rigorous data analysis and synthesis to transform this data into v
 
 Note that UX Researchers are **one of the many** GitLab Team Members who conduct user research. Other roles, such as Product Managers and Product Designers, frequently conduct research with guidance from the UX Research team. All Research DRIs are supported by our [UX Research Operations Coordination team](/handbook/product/ux/ux-research-coordination/) to conduct efficient and high-quality research.
 
+If you are planning to lead a research project, you can get started [here](/handbook/product/ux/ux-research/resources-for-research-dris).
+
 ### Our two years vision and strategic pillars
 
 Our vision statement consists of two parts:
@@ -77,6 +79,7 @@ The UX Research team is here for you! Reach out in the #ux_research Slack channe
 
 #### Conducting UX Research at GitLab
 
+- [Resources for research DRIs](/handbook/product/ux/ux-research/resources-for-research-dris)
 - [When to conduct UX Research](/handbook/product/ux/ux-research/when-to-conduct-ux-research/)
 - [Defining goals, objectives, and hypotheses](/handbook/product/ux/ux-research/defining-goals-objectives-and-hypotheses/)
 - [Problem Validation and methods](/handbook/product/ux/ux-research/problem-validation-and-methods/)
