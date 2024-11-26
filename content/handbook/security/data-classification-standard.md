@@ -71,11 +71,13 @@ Data related to unpatched high-risk vulnerabilities, actively exploited vulnerab
 
 Examples include:
 - XSIRT incidents
+
 - Actively exploited vulnerabilities
 - High-risk unpatched vulnerabilities
 - Sensitive security operations details
 
 Access Requirements:
+
 - Restricted to authorized team members based on need-to-know
 - May require managed devices or specific security controls
 - Can be accessed via approved communication channels
