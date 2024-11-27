@@ -24,6 +24,14 @@ Here are links to other pages about GitLab Dedicated around GitLab:
 - Infrastructure: [GitLab Dedicated internal docs](https://gitlab-com.gitlab.io/gl-infra/gitlab-dedicated/team/) (GitLab internal only)
 - CSM: [Engaging with GitLab Dedicated Customers](https://internal.gitlab.com/handbook/customer-success/csm/gitlab-dedicated/) (GitLab internal only)
 
+### Handling tickets that are not about GitLab the product but related to how we handle the infrastructure
+
+Handling GitLab Dedicated tickets should be approached the same way as other tickets: use the docs, the handbook and the various issue trackers to help address the customer request. Anything that is related to our provisioning of the tenant or how we manage the infrastructure requires a different approach:
+
+- check the docs and the handbook
+- point the customer to the [GitLab Trust Center](https://trust.gitlab.com/?product=gitlab-dedicated) at `trust.gitlab.com` for inquiries related to compliance
+- point the customer to their CSM for any questions not addressed by the GitLab Trust Center
+
 ### Test and reproduction GitLab Dedicated instance
 
 GitLab Support has access to a GitLab Dedicated instance for testing and problem
