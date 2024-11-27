@@ -139,11 +139,19 @@ Today, every page load "resets" everything JS-related to zero, and rebuilds it. 
 
 With Inertia potential Vue components with memory leaks (like not cleaning up event handlers), would now be more likely to create problems for end-users, because we stop doing full "resets" upon navigation.
 
-#### Differences in how redirects, rails flash and history are handled
+#### Differences in how redirects and rails flash are handled
 
 Inertia can handle [redirects](https://inertiajs.com/redirects), but it requires some caution.
+
 Same for flash messages. These need to be handled as props and rendered by the Vue layout component.
-Browser history is maintained by Inertia. We need to test that nothing breaks here while mixing both Inertia and non-Inertia navigations.
+
+#### Browser history navigation
+
+Browser history is maintained by Inertia. When navigating browser history, Inertia restores pages using prop data cached in history state.
+
+However, Inertia does not restore local page component state automatically. But it supports [remembering state](https://inertiajs.com/remembering-state) for specific components, like a form's `data`.
+
+We need to test for unexpected behavior and bugs while mixing both Inertia and non-Inertia navigations.
 
 #### Layout duplication
 
