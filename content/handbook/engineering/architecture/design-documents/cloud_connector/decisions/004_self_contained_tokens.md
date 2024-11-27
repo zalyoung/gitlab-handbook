@@ -137,3 +137,16 @@ Drawbacks and unknowns:
 
 We have completed a POC in [issue #499556](https://gitlab.com/gitlab-org/gitlab/-/issues/499556).
 If there is consensus on moving forward with this, we will start working on implementation.
+
+### Backwards compatibility with OIDC-D
+
+For the time being, we will continue to support OIDC-D for Cloud Connector integrations that currently rely on it.
+
+Our plan is to implement SC-JWTs in the Python module of [gitlab-cloud-connector](https://gitlab.com/gitlab-org/cloud-connector/gitlab-cloud-connector) first.
+This will immediately benefit our two AI backends: The AI gateway and the Duo Workflow service. We will then decide
+on a case by case basis if we will bring support to our Golang systems or continue to support OIDC-D for these.
+
+We will assume that if the `x5c` claim is missing in a token, then OIDC-D is necessary and perform a key fetch
+as we do today.
+
+Eventually, we plan to phase out OIDC-D entirely.
