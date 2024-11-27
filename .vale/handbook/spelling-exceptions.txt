@@ -938,6 +938,7 @@ Rdoc
 reachability
 readme
 Realplayer
+rearchitecting
 reauthenticate
 reauthenticated
 reauthenticates
