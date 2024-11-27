@@ -2,7 +2,7 @@
 title: "GitLab Security Policies Guidances"
 ---
 
-This page contains information on our Security Policies for the following projects:
+This page contains information on our Security Policies for the following group(s):
 
 - gitlab-org
 
