@@ -49,9 +49,25 @@ For sub-sequent visits, only the required `props` data for the next page Vue com
 
 In order to initialise a Vue App at GitLab, we are repeating a lot of boiler code to pass down data from backend to frontend. Often this involves custom serialization in the form of data attributes, which are then parsed again in the frontend, just before they are passed into the Vue app. This involves a lot of repetition. This glue code is often untested and adds review times.
 
-Inertia offers a simple yet powerful solution to organize pages (which are just Vue components) in a folder structure and have them auto-init, with all their required props, from the Rails controller level.
+Inertia offers a simple yet powerful solution to organize [pages](https://inertia-rails.dev/guide/pages) (which are just Vue components) in a folder structure and have them auto-init, with all their required props, from the Rails controller level.
 
-At the same time, this still feels familiar to how we do Rails today. We can use all Ruby features and Rails conventions to create the data/props for the response, using existing helpers etc. The only thing we change is the response format, from HTML to JSON. See [how Inertia works](https://inertiajs.com/how-it-works) for more details.
+<details>
+<summary>Example</summary>
+A typical Rails controller action using Inertia would look like this:
+
+```ruby
+def index
+  render inertia: 'Events/Index', props: {
+    events: Event.all,
+  }
+end
+```
+
+The `Event/Index` is the name of the page. Inertia(-rails) maps this to `app/assets/javascripts/inertia/pages/Events/Index.vue` and sends instructions in its JSON response to the Inertia-frontend to init this Vue component as the page, passing all `props` data to the page
+, `events` in this example.
+</details>
+
+At the same time, this still feels familiar to how we do Rails today. We can use all Ruby features and Rails conventions to create the `props` for the response, using existing helpers etc. Only the response format changes, from HTML to JSON. See [how Inertia works](https://inertiajs.com/how-it-works) for more details.
 
 #### Future opportunities
 
