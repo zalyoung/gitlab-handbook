@@ -145,13 +145,15 @@ Inertia can handle [redirects](https://inertiajs.com/redirects), but it requires
 
 Same for flash messages. These need to be handled as props and rendered by the Vue layout component.
 
-#### Browser history navigation
+#### Browser history navigation and scroll position
 
 Browser history is maintained by Inertia. When navigating browser history, Inertia restores pages using prop data cached in history state.
 
 However, Inertia does not restore local page component state automatically. But it supports [remembering state](https://inertiajs.com/remembering-state) for specific components, like a form's `data`.
 
-We need to test for unexpected behavior and bugs while mixing both Inertia and non-Inertia navigations.
+It also has built-in [scroll management](https://inertiajs.com/scroll-management) that supports resetting as well as preserving scroll position.
+
+We need to test all of that for unexpected behavior and bugs while mixing both Inertia and non-Inertia navigations.
 
 #### Layout duplication
 
