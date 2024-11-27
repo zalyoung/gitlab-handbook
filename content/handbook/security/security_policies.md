@@ -1,5 +1,5 @@
 ---
-title: "GitLab Security Policies Guidances"
+title: "GitLab Security Policies Guidance"
 ---
 
 This page contains information on our Security Policies for the following group(s):
