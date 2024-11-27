@@ -272,7 +272,15 @@ Grants work rights for the duration of an employment relationship and does not r
 
 #### Japan Engineer Visa
 
-GitLab can provide company information for this visa application. The employee is responsible for their own application and all fees associated with the visa. May be valid for 1 year, 3 years, or 5 years depending on the visa approval, and may be extended/renewed.
+GitLab can provide company information for this visa application. The employee is responsible for their own application and all fees associated with the visa. May be valid for 1 year, 3 years, or 5 years depending on the visa approval, and may be extended/renewed. GitLab cannot assist team members with obtaining a Certificate of Eligibility (COE).
+
+For People Connect internal processing: 
+
+When receiving these requests from team members via HelpLab, provide the following documents to the team member:
+
+- [Company Registration Document](https://drive.google.com/drive/folders/1cLcoIGyb501Zod4OXIKuZjPIL8b7eo8e)
+- Current Year Financials (which can be found in this [folder](https://drive.google.com/drive/folders/1cLcoIGyb501Zod4OXIKuZjPIL8b7eo8e)). If the current/previous years financials are not available, reach out to the Tax team to assist with providing this.
+- Save a copy of this [template](https://docs.google.com/document/d/1Qv8IJz5V4GGvqguuZx20N_V-W2chlV3u_X8iYzl2REU/edit?tab=t.0) and complete all fields that are marked with {}. Once you have all the information completed, send the document to Simon Mundy for signature. 
 
 #### Netherlands Partner Visa
 
