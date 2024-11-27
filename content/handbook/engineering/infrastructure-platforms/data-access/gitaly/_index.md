@@ -101,7 +101,12 @@ and/or PM polling [these dashboards](#useful-links).
 
 ### Gitaly oncall rotation
 
-Gitaly team is in the process of establishing an oncall rotation to provide focused expertise to production SaaS systems. This is currently in [pilot](https://gitlab.com/groups/gitlab-org/core-platform-section/-/epics/4), and replaces the **Incident Manager On-Call (IMOC)** and **Engineer On-Call (EOC)** responsibilities for Gitaly team members. **The tentative start date is 2025-01-01.**
+Gitaly team is in the process of establishing an oncall rotation to provide
+focused expertise to production SaaS systems. This is currently in
+[pilot](https://gitlab.com/groups/gitlab-org/core-platform-section/-/epics/4),
+and replaces the **Incident Manager On-Call (IMOC)** and **Engineer On-Call
+(EOC)** responsibilities for Gitaly team members. **The tentative start date is
+2025-01-01.**
 
 - Rotation is staffed during working hours of team members (no weekends). This still covers 24h of workdays, given the distribution of Gitaly team members, but without guarantees (see [Who is oncall](#who-is-oncall) below)
   - Weekends are explicitly out of scope (not staffed), and escalation must fall back to the current EOC rotation.
@@ -133,14 +138,9 @@ The source of truth is the [PagerDuty rotation](https://gitlab.pagerduty.com/sch
 
 Please refer to https://handbook.gitlab.com/handbook/engineering/on-call/#pagerduty for the mechanics (swapping oncall, adding new team members to the rotation).
 
-## Cluster team
+## Team Members
 
-**Mission**: Provide a durable, performant, and reliable Git storage layer for GitLab.
-
-[Responsibilities](/job-families/engineering/backend-engineer/#cluster) |
-[In the product hierarchy](/handbook/product/categories/#gitalycluster-group)
-
-{{< team-by-departments "Gitaly Cluster Team" >}}
+{{< team-by-departments "Gitaly Team" >}}
 
 ## Working with product
 
@@ -196,15 +196,20 @@ external to the team when applicable.
 
 The DRI is also responsible for project management, which means
 keeping the epic up to date with relevant issues, removing issues that are no
-longer relevant, and writing weekly updates in the form of a comment in the epic
-with the following format:
+longer relevant, and writing weekly updates the automatically generated comment
+in the epic with the following format:
 
 ```markdown
-## Weekly Update YYYY-MM-DD
+HIGH_LEVEL_SUMMARY
 
-### Progress this week
+:tada: **achievements**:
+-
 
-### Blockers
+:issue-blocked: **blockers**:
+-
+
+:arrow_forward: **next**:
+-
 ```
 
 The supporting contributor(s) of an epic will be responsible for supporting the
