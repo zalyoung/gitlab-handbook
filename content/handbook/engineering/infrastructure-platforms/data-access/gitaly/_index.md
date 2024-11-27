@@ -179,7 +179,7 @@ These `Deliverable` issues help show our commitment to GitLab and our customers 
 
 ##### Project Work
 
-The top level [Gitaly epic](https://gitlab.com/groups/gl-gitaly/-/epics/1)
+The top level [Gitaly epic](https://gitlab.com/groups/gitlab-org/data-access/gitaly/-/epics/1)
 contains linked epics representing projects the team is working on. Team members
 will either be the [primary owner](#dri--supporting-contributors) of an epic, or
 a [supporting contributor](#dri--supporting-contributors). This way knowledge gets
@@ -224,8 +224,8 @@ done by anyone on the team.
 
 ##### Technical Roadmap & Customer Issues
 
-The [Gitaly technical roadmap](https://gitlab.com/groups/gl-gitaly/-/epics/2)
-and [Gitaly customer issues](https://gitlab.com/groups/gl-gitaly/-/epics/3)
+The [Gitaly technical roadmap](https://gitlab.com/groups/gitlab-org/data-access/gitaly/-/epics/3)
+and [Gitaly customer issues](https://gitlab.com/groups/gitlab-org/data-access/gitaly/-/epics/2)
 epics contain one-off issues that are not a part of any projects, but are important
 issues to address. These issues will be sorted by priority. Team members can
 pick up work from this board in addition to issues they are working on as part
