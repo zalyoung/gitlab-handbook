@@ -27,7 +27,7 @@ Here's a look at what you can expect from our culture and [all-remote environmen
 
 ### Everyone can contribute
 
-Our size and [our mission]({{< ref "mission#mission" >}}) (that everyone can contribute) mean that our team members can — and are expected to — make an impact across the company.
+Our size and [our mission](/handbook/company/mission/#mission) (enable everyone to contribute to and co-create the software that powers our world.) mean that our team members can — and are expected to — make an impact across the company.
 
 Because we all use our product internally, you don't have to be a developer to learn to collaborate in the GitLab tool.
 From your very first week, no matter your role, you'll gain the technical skills needed to access, question, and contribute to projects far beyond your job description.
