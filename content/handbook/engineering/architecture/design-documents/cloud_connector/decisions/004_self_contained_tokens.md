@@ -22,17 +22,13 @@ building Cloud Connector, it has turned into a liability for us and slows progre
 Generally speaking, OIDC-D standardizes how multiple unrelated parties on the public internet
 exchange configuration for OIDC participants in a standard way.
 We only use [Section 4](https://openid.net/specs/openid-connect-discovery-1_0.html#ProviderConfig)
-of the specification, and specifically only the `jwks_uri` field, which tells the caller where to fetch
-token validation keys, because this is the only relevant bit for Cloud Connector, which does not use OAuth
-or OIDC anywhere else in its design or implementation.
+of the specification, specifically only the `jwks_uri` field, which tells the caller where to fetch
+token validation keys.
 
 This means two requests should be made: one to fetch the configuration object from the identity provider (IdP)
 and a second request to fetch keys at the given address. With two IdPs in our case, that's
-4 requests per Cloud Connector backend to discover keys we already know where to find. Since discovery requests
-never leave GitLab Inc's sphere of control, this is entirely unncessary since backend services could instead dial
-a well-known keys endpoint directly.
-Even then, discovering and fetching keys over the network opens us to undesirable failure modes and leads
-to increased implementation and operational complexity:
+4 requests per Cloud Connector backend to discover keys we already know where to find.
+Discovering and fetching keys over the network adds complexity add increases risk of failure:
 
 1. **Network calls cause operational complexity.**
    It is common to develop and test using a GitLab instance which does not face the public internet but needs to make
@@ -46,7 +42,7 @@ to increased implementation and operational complexity:
    where CustomersDot was put into maintenance mode, making its own keys endpoint unavailable.
 1. **Network requests are costly.** It is too costly for backend services to fetch keys on each request.
    Even if the IdP is reachable, it must maintain a cache, which needs to be
-   invalidate whenever keys roll over. Unfortunately, OIDC-D does not at all address this problem and leaves it up to
+   invalidate whenever keys roll over. Unfortunately, OIDC-D does not address this problem and leaves it up to
    service maintainers and library developers to decide how this should be dealt with.
 1. **Caches introduce a state management problem.** 2 and 3 mean we need to solve a state distribution
    problem where each participant (backend service) may decide on a different strategy on how this cache
@@ -58,8 +54,8 @@ to increased implementation and operational complexity:
    3 independent implementations of OIDC-D (2 in Golang, 1 in Python) that were all built by different teams
    or use different 3rd-party libraries and that exhibit different behaviors as regards key management.
    This results in [bugs](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/173689)
-   and ultimately maintenance overhead. Had this bug made it into a production system, it would have been
-   another total AI outage.
+   and ultimately maintenance overhead. Had this bug made it into a production system, it would have let to
+   another AI outage.
 
 ## Decision
 
@@ -109,7 +105,7 @@ This approach affords us with the following benefits:
    caches. Without a need for caches, no problems like cache invalidation need to be solved. This reduces risk when
    rotating keys since all verification is stateless. Tokens with remaining life-time will still be accepted, while
    newly minted tokens will carry the new key straight away.
-1, **Removes implementation ambiguity.** Self-contained tokens are simple in nature and the `x5c` claim is well-defined.
+1. **Removes implementation ambiguity.** Self-contained tokens are simple in nature and the `x5c` claim is well-defined.
    The rest is standard PKI functionality that is battle-tested and often shipped through standard language libraries
    we can lean on. This makes it far easier to provide implementations that exhibit consistent behavior even across
    language stacks.
@@ -137,7 +133,7 @@ Drawbacks and unknowns:
    by rotating the CA key, which will invalidate all tokens issued by all IdPs. This may not be big problem in practice
    but is worth highlighting.
 
-## Status and next steps
+## Next steps
 
 We have completed a POC in [issue #499556](https://gitlab.com/gitlab-org/gitlab/-/issues/499556).
 If there is consensus on moving forward with this, we will start working on implementation.
