@@ -138,6 +138,8 @@ Drawbacks and unknowns:
 We have completed a POC in [issue #499556](https://gitlab.com/gitlab-org/gitlab/-/issues/499556).
 If there is consensus on moving forward with this, we will start working on implementation.
 
+Work is tracked in [epic &14401](https://gitlab.com/groups/gitlab-org/-/epics/14401).
+
 ### Backwards compatibility with OIDC-D
 
 For the time being, we will continue to support OIDC-D for Cloud Connector integrations that currently rely on it.
