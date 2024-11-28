@@ -25,7 +25,10 @@ At GitLab, UX Research Operations Coordinators collaborate with our Product Desi
 - Share our [values](/handbook/values/), and work in accordance with those values.
 - Simultaneously manage multiple projects and time-driven tasks
 - Strong communication and collaboration skills to keep teams informed on progress
+- Critical thinking and creative problem solving
+- Adaptability and flexibility
 - Empathetic, curious, and open-minded
+- Attention to details
 - Ability to thrive in a fully remote organization
 - Ability to use GitLab
 
@@ -98,11 +101,12 @@ Candidates for this position can expect the hiring process to follow the order b
 **(2)** Then you will meet with our UXR Manager, who will talk about your career, experience, go through some scenario-based questions and ensure there's time for your questions too.
 
 **(3)** After that, we'll then invite you to create a 15-minute video presenting a case study on one or two of your most interesting projects. Use a slide deck to support your presentation. We're excited to learn more about your experience and how you've contributed to impactful projects. Your slide deck should include:
-    - **Context and Objectives:** Briefly describe the project's background, the goals, and the challenges.
-    - **Your Role and Contributions:** Highlight your specific responsiblities and actions taken to address the challenges.
-    - **Processes and Tools:** Share the methods, tools, workflows you used to deliver the project.
-    - **Outcomes and Impact:** Summarize the results of your efforts and the impact on the team or stakeholders.
-    - **Lessons Learned:** Reflect on what went well, what didn't, and what you would do differently in the future.
+
+- **Context and Objectives:** Briefly describe the project's background, the goals, and the challenges.
+- **Your Role and Contributions:** Highlight your specific responsiblities and actions taken to address the challenges.
+- **Processes and Tools:** Share the methods, tools, workflows you used to deliver the project.
+- **Outcomes and Impact:** Summarize the results of your efforts and the impact on the team or stakeholders.
+- **Lessons Learned:** Reflect on what went well, what didn't, and what you would do differently in the future.
 
 > ### Why we ask for a case study
 >
