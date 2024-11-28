@@ -246,6 +246,7 @@ Some reviewers find it helpful to track their progress. This is not required, bu
   - https://gitlab.com/nolith/review-tanuki
   - https://gitlab.com/caalberts/review-tanuki
   - https://gitlab.com/arturoherrero/trainee
+  - https://gitlab.com/knejad/gitlab-career-development#mr-reviews
 - Use an emoji to mark all MRs they received feedback from maintainers on so they are easily searchable.
 
 #### After becoming a maintainer
