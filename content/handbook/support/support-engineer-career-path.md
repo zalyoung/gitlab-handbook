@@ -38,6 +38,7 @@ Recommendations to explore this path:
 - Read about the [Senior Support Engineer role criteria](/job-families/engineering/support-engineer/#senior-support-engineer).
 - Read about the [Senior level competencies and framework requirements](/handbook/engineering/careers/matrix/support/senior/).
 - Watch or listen to the [Ask Us Anything - Being/Becoming a Senior Support Engineer sesssions from 2021-12](https://www.youtube.com/watch?v=jwjPvzz_f5g&list=PL05JrBw4t0KrQVEIzmhhQMR68JGBl3dDy).
+- Watch or listen to the [Async Staff Support Engineer AMA 2024](https://www.youtube.com/playlist?list=PL05JrBw4t0KrWFkNej77kXspfjem_UA1J).
 
 Considerations when building your path:
 
