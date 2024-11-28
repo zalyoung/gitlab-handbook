@@ -53,11 +53,12 @@ The major areas we are focused on are:
   routing decisions based on the requested path, which allows us to target different backend services
   as we broaden the feature scope covered by Cloud Connector.
   - **Status:** done. The decision was documented as [ADR-001](decisions/001_lb_entry_point.md).
-- [**Remove OIDC key discovery.**](https://gitlab.com/groups/gitlab-org/-/epics/15142)
-  The original architecture for Cloud Connector relied heavily on OIDC discovery to fetch JWT validation keys.
-  OIDC discovery is prone to networking and caching problems and adds complexity to solve a problem we don't have.
-  Our proposed alternative to OIDC discovery is to package the public keys used for token validation from our well-known token issuers with Cloud Connector backends directly instead of fetching them over the network.
-  - **Status:** parked. We may publish a follow up ADR for an [alternative approach](https://gitlab.com/groups/gitlab-org/-/epics/14401). The decision was documented as [ADR-002](decisions/002_remove_oidc_key_discovery.md)
+- [**Replace OIDC key discovery with self-contained tokens.**](https://gitlab.com/groups/gitlab-org/-/epics/14401)
+  The original architecture for Cloud Connector relied heavily on OIDC Discovery to fetch JWT validation keys.
+  OIDC Discovery is prone to networking and caching problems and adds unneeded complexity.
+  Our proposed alternative to OIDC Discovery is moving to a stateless architecture that piggy-backs keys on JWTs instead.
+  This decision was documented as [ADR-004](decisions/004_self_contained_tokens.md).
+  - **Status:** Proposed.
 - [**Rate-limiting features.**](https://gitlab.com/groups/gitlab-org/-/epics/12032)
   During periods of elevated traffic, backends integrated with Cloud Connector such as
   AI gateway or TanuKey may experience resource constraints. GitLab should apply a consistent strategy when deciding which instance
