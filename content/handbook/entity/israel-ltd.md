@@ -42,7 +42,7 @@ Trust-based working time generally refers to a GitLab's way of working, a flexib
 
 ### Timekeeping Record
 
-Each team member employeed by GitLab Israel Ltd. will be required to report their actual working hours using the methods prescribed (the details of which will be shared in due course, please hold tight!). These records will be kept by Payroll and can be audited at any time.
+Each team member employed by GitLab Israel Ltd. will be required to report their actual working hours using the methods prescribed (the details of which will be shared in due course, please hold tight!). These records will be kept by Payroll and can be audited at any time.
 
 ### Daily Work Time
 
@@ -62,7 +62,7 @@ Payroll information will be linked in due course - please hold tight!
 
 ## Israel-Specific Team Member Benefits
 
-Currently, GitLab provides the below additional benefits, in addition to mandatory state requirements. [General GitLab benefits](/handbook/total-rewards/benefits/general-and-entity-benefits/) still apply. As part of the [guiding principles](/handbook/total-rewards/benefits/#guiding-principles), we will continously review our benefits design and offerings available through GitLab in Israel.
+Currently, GitLab provides the below additional benefits, in addition to mandatory state requirements. [General GitLab benefits](/handbook/total-rewards/benefits/general-and-entity-benefits/) still apply. As part of the [guiding principles](/handbook/total-rewards/benefits/#guiding-principles), we will continuously review our benefits design and offerings available through GitLab in Israel.
 
 ### Pension
 

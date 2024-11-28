@@ -248,7 +248,7 @@ Scottish Widows:
 - [www.scottishwidows.co.uk/gppae](https://www.scottishwidows.co.uk/gppae)
 - (t) 0345 755 6557
 
-You can also reach out to Willis Tower Watson to explain the details of the GitLab GPPP and answer any questions you may have.
+You can also reach out to Willis Towers Watson to explain the details of the GitLab GPPP and answer any questions you may have.
 
 3 Temple Quay, Temple Back East, Bristol, BS1 6DZ
 Nick Allen, Associate Director

@@ -220,7 +220,7 @@ You don't have to take your Parental Leave in one continuous period, we encourag
 **A few things to note:**
 
 - If you are planning to change or extend your Parental Leave by using a different type of leave such as PTO or any local statutory leave, please send an e-mail to leaves@gitlab.com.
-- When determing the dates of your leave, GitLab uses a 1/7 formula (1 week = 7 days). This means if you are planning on returning to work on a Monday, the last day of your leave will be Sunday. Please use this formula when submitting your Workday request.
+- When determining the dates of your leave, GitLab uses a 1/7 formula (1 week = 7 days). This means if you are planning on returning to work on a Monday, the last day of your leave will be Sunday. Please use this formula when submitting your Workday request.
 
 ### Taking PTO After Taking Parental Leave
 
@@ -381,4 +381,4 @@ When Team Members are affected by natural disasters such as fires, earthquakes, 
 
 This program provides Team Members and their families with short-term, need-based assistance in times of extreme need. If you experience a difficult situation, please visit the [GitLab Cares Portal](https://gitlab.e4erelief.org/) to easily determine if you're eligible for program assistance and to apply for assistance.
 
-GitLab started the fund with an initial contribution to support team members. Team Members may also choose to make donations to the fund as part of their annual giving and donation efforts. If you wish to make a donation, please visit the Portal and select 'Contribute to the Fund'. Donationas are tax-deductable (country-specific tax laws apply).
+GitLab started the fund with an initial contribution to support team members. Team Members may also choose to make donations to the fund as part of their annual giving and donation efforts. If you wish to make a donation, please visit the Portal and select 'Contribute to the Fund'. Donations are tax-deductable (country-specific tax laws apply).

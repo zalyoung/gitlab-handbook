@@ -44,7 +44,7 @@ Sodexo Meal Cards are an optional benefit. These Meal Cards work like a Debit Ca
 
 #### Statutory Leave Entitlement
 
-**Maternity Leave:** Team members can take up to 26 weeks of Maternity Leave (for up to 2 occassions).
+**Maternity Leave:** Team members can take up to 26 weeks of Maternity Leave (for up to 2 occasions).
 
 **Paternity Leave:** There is no statutory entitlement for paternity leave, but team members are eligible for [GitLab's Parental Leave policy]({{< ref "general-and-entity-benefits#parental-leave" >}}).
 
@@ -69,7 +69,7 @@ Gratuity is a statutory offering in India per The Payment of Gratuity Act, 1972 
 
 GitLab has implemented a private loyalty bonus scheme since some team members have been contracted through different employment types as we have worked through country conversion processes. Therefore, the GitLab Loyalty Bonus Scheme will supplement gratuity based on the GitLab hire date vs the PEO hire date.
 
-**Elibility:** One can only claim Loyalty Bonus after retirement or resign from the service after completing 5 years of continuous service.
+**Eligibility:** One can only claim Loyalty Bonus after retirement or resign from the service after completing 5 years of continuous service.
 
 **Forfeiture of Loyalty Bonus:** The full amount of Loyalty Bonus can be forfeited if a team member's services have been terminated due to: a) Riotous or disorderly conduct or any other violent act; b) Committing an offence involving moral turpitude.
 

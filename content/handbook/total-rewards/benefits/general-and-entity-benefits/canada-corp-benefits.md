@@ -142,7 +142,7 @@ It's important to have this information up to date to ensure that team member's 
 - Tax-Status: Taxable benefit at time of claim
 - Termination age: 65 or earlier retirement
 
-## Personal Travel Assitance
+## Personal Travel Assistance
 
 Under the ManuLife plan, Team Members have cover for emergency travel assistance for personal travel, including up to 5,000 for trip cancellation.
 
@@ -669,7 +669,7 @@ Adjustments for Current Team Members
 
 1. Log on to Group Net Canada Life portal
 1. Select "Billing" > View or Print Bill > Current month's Bill
-1. Open up the Current Statment. Scroll down to the "Adjustments for Prior Periods" section. Anyone on this list needs to have thier Employer Premiums.
+1. Open up the Current Statement. Scroll down to the "Adjustments for Prior Periods" section. Anyone on this list needs to have thier Employer Premiums.
 1. On the Canada Life Portal Select "Enrollment" > "Mantain/Inquire on Employee"
 1. Enter the following
     - Function: View In Force Premiums and Taxes
@@ -698,14 +698,14 @@ Adjustments for Current Team Members
 1. Log on to Group Net Canada Life
 1. Enrollment tab > request reports> coverage summary> effective date(today's date)> sort by Employee name
 1. Review the data to identify  if the team member is eligible for more Life Insurance and LTD Coverage than they are currently receiving (i.e. compare the LTD and LTD eligible Amount Columns to see if there is a delta)
-1. Reach out to the team member with the Eligiblity of Insurance Document and instructions so that they can complete their EOI. Notify SC Insurance that the quartelry audit was completed as an fyi.
+1. Reach out to the team member with the Eligibility of Insurance Document and instructions so that they can complete their EOI. Notify SC Insurance that the quarterly audit was completed as an fyi.
 
 - View additional Instructions & email template in the [Quarterly Check for Excess LTD folder](https://drive.google.com/drive/folders/1BCIGQIKJxPOrPHfhdZbnccGEFZTNhh6C?usp=sharing)
 
 ### RRSP Process (Semi-monthly)
 
 1. Team members create Canada Life account and sign up for RRSP
-1. Total Rewards logs on to Canada Life, approves RRSP requests: Menu > Administrative Functions > Online Enrollments > Search for a list: All Full Time Employees - 01. Add an Enrolment date and Approve the enrolment.
+1. Total Rewards logs on to Canada Life, approves RRSP requests: Menu > Administrative Functions > Online Enrollments > Search for a list: All Full Time Employees - 01. Add an Enrollment date and Approve the enrollment.
 1. Total Rewards generates a Canada Life report that lists all of the Contribution %s: Menu > Client Reporting & Tools > Create Reports
      - Select a report: Payroll Deduction details
      - Select a plan: Registered Retirement Savings Plan
