@@ -223,7 +223,7 @@ HR Savvy will assist GitLab in applying for maternity leave covered by social se
 
 ### Administration for Group Accident Policy
 
-The Group Accident Policy is based on calculation in arrears. At the end of the insurance year, Hienfeld will send by post (in dutch) a letter with information requesting details to perform the premium payment in arrears. Once this letter is received, Total Rewards will send the letter to our HR Savvy contact, agnes@savvy-group.eu. HR Savvy will use the payroll data to share the updated Employee details with Heinfeld to calculate the final premium of previous years and a supplmentary premium is invoiced.
+The Group Accident Policy is based on calculation in arrears. At the end of the insurance year, Hienfeld will send by post (in dutch) a letter with information requesting details to perform the premium payment in arrears. Once this letter is received, Total Rewards will send the letter to our HR Savvy contact, agnes@savvy-group.eu. HR Savvy will use the payroll data to share the updated Employee details with Heinfeld to calculate the final premium of previous years and a supplementary premium is invoiced.
 
 On the invoice, a bank account number will be provided to pay the annual premium. Total Rewards will send the invoice to Accounts Payable for payment.
 
