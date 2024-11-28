@@ -3,6 +3,8 @@ title: "ADR 004: Self-contained tokens"
 toc_hide: true
 ---
 
+_**NOTE:** This ADR replaces [ADR002](./002_remove_oidc_key_discovery.md). We will not implement ADR002._
+
 ## Context
 
 Cloud Connector allows clients (GitLab instances & IDEs) to make requests into GitLab's cloud infrastructure
