@@ -43,7 +43,15 @@ The **Security Champions Program** will embed designated security advocates (Sec
 
 - **Knowledge Transfer Process**:
   - **Initial training for engineers, aimed to replace Secure Code Warrior**:  
-    Instead of the generic **Secure Code Warrior (SCW)** training, which has proven to be too broad and not directly relevant to GitLab's environment, the new training will be **hands-on** and **specific to GitLab’s security needs**. This training will focus on **real past vulnerabilities** and practical, context-driven learning that directly applies to GitLab's tech stack and components.
+    Based on [developer feedback for the Secure Code Warrior](https://docs.google.com/forms/d/1pF1r1kKaiVPBU_yQL0ZkbtggkmtvQFwZ6IZ1xqheo1s/edit#responses) (internal-only link), the following trends can be seen:
+      - Engineers **do** prefer a hands-on learning approach
+      - Some challenges were downright incorrect and their solutions inaccurate
+      - Many engineers found that the tutorials and challenges were **not** relevent to their role
+      - The UI is not intuitive, and the platform is hard to navigate
+      - Additions that engineers would prefer include training on **threat modeling and past GitLab bugs*, which currently does not exist in SCW
+
+
+    The new training will also be **hands-on**, but **specific to GitLab’s security needs**. This training will focus on **real past vulnerabilities** and practical, context-driven learning that directly applies to GitLab's tech stack and components.
 
 	-   **GitLab-Specific Vulnerability Training**:  
     Engineers will go through **real historical vulnerabilities** that have been found in GitLab's own codebase. This will help engineers understand common mistakes and vulnerabilities specific to their code, and the techniques used to mitigate them.
