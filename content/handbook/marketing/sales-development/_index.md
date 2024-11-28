@@ -1599,7 +1599,7 @@ If the related SDR relays information that was not picked up in the new SDR's re
 **A:** First check the last interesting moment description on Salesforce and then check the Scoring tab of the Marketo Sales Insight widget that is also on the Salesforce lead page. If no points were allocated to behavior and only to demographic type information please Slack the Marketing Ops group so they are aware that this lead did not take any new action.
 
 **Q:** I received a personal data subject request by a prospect. <Br>
-**A:** Our MOPs team has set up a process to address any data subject requests for deletion or access to data. If you receive a request for deletion or access to data, please re-direct inquiries to the [Personal Data Subject Request](https://support.gitlab.io/account-deletion/).
+**A:** Our MOPs team has set up a process to address any data subject requests for deletion or access to data. If you receive a request for deletion or access to data, please re-direct inquiries to the [Personal Data Subject Request](https://support.gitlab.io/personal-data-request/).
 
 **Q:** Why are BDRs no longer the Account Owner in SFDC? <br>
 **A:** BDRs are no longer listed as the account Owner in SFDC to improve Sales Dev and Sales visibility across all prospects/accounts (excluding PubSec). If you want to filter to see just your accounts, please use the 'BDR Assigned' field.
