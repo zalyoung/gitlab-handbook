@@ -96,7 +96,7 @@ graph TD
 
 ### Quote to Cash workflow
 
-Zuora Billing is a central module within the **[Quote to Cash workflow](/handbook/business-technology/enterprise-applications/quote-to-cash/#quote-to-cash-introduction)** and interfaces with many other apps.
+Zuora Billing is a central module within the **[Quote to Cash workflow](/handbook/business-technology/enterprise-applications/entapps-crm/quote-to-cash/#quote-to-cash-introduction)** and interfaces with many other apps.
 
 ```mermaid
 graph TD
@@ -124,7 +124,7 @@ graph TD
 
 ### Lead to Cash workflow
 
-Zuora Billing is a key module within the **[Lead to Cash workflow](/handbook/business-technology/enterprise-applications/quote-to-cash/#lead-to-cash-flow)**.
+Zuora Billing is a key module within the **[Lead to Cash workflow](/handbook/business-technology/enterprise-applications/entapps-crm/quote-to-cash/#lead-to-cash-flow)**.
 
 ![Lead to Cash Workflow](/handbook/business-technology/tech-stack-guide/2022-06-03_lead_to_cash_flow.png)
 

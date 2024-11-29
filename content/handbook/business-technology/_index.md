@@ -114,5 +114,5 @@ Provide a stable, secure, compliant and highly integrated solutions ecosystem to
         - #[business-technology](https://gitlab.slack.com/archives/C01BLS12V37)
 
 8. **Other References**
-    - [Quote to Cash Documentation](../business-technology/enterprise-applications/quote-to-cash/)
+    - [Quote to Cash Documentation](../business-technology/enterprise-applications/entapps-crm/quote-to-cash/)
     - [Enterprise Application Guides:](../business-technology/enterprise-applications/guides/) GitLab's Enterprise Application Guides for Finance Systems
