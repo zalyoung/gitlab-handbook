@@ -1,6 +1,6 @@
 ---
 title: "Sean Carroll's Readme"
-job: "Engineering Manager, Source Code"
+job: "Senior Engineering Manager, ModelOps and Custom Models"
 ---
 ## Sean Carroll's - README
 
