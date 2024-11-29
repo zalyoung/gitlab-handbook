@@ -273,7 +273,7 @@ Exit Criteria:
 - PreQA Cell configured to generate `_gitlab_session` with prefix using rails config.
 - Route `_gitlab_session` with matching prefix to PreQA Cell using TopologyService::Classify (REST only) with static config file.
 - Continuous Delivery on Ring 0 with no rollback capabilities and doesn't block production deployments.
-- Topology Service [Readiness Review](../production/readiness.md) for [Experiment](https://docs.gitlab.com/ee/policy/experiment-beta-support.html#experiment)
+- Topology Service [Readiness Review](../production/readiness.md) for [Experiment](https://docs.gitlab.com/ee/policy/development_stages_support.html#experiment)
 - Topology Service gRPC endpoint not implemented.
 
 Unblocks:
