@@ -17,7 +17,7 @@ In this lab, you will learn how to implement both scanners for your projects.
 
 To test out DAST scans, we are going to setup an instance of a vulnerability web application called [OWASP Juice Shop](https://owasp.org/www-project-juice-shop/). Scanning this application will show you the full range of DAST scan results you can expect to see.  
 
-1. Create a new project. Name the project `DAST`. <!--DAST scans are really long, can we shorten them?-->
+1. Create a new project. Name the project `DAST`.
 
 1. In the empty project, create a `.gitlab-ci.yml` file.
 
@@ -107,6 +107,73 @@ dast:
 1. Commit these changes and let the DAST scan run. You can monitor the job progress from **Build > Pipelines**.
 
     > Note: This job can take up to 15 minutes to complete.
+
+## Task B. Setting up API Scanners
+
+API scanners allow you to scan your application API endpoints for potential vulnerabilities. To demonstrate this process, we will use an application template which contains an API configuration.
+
+1. Navigate to your ILT group.
+
+1. Select **New project**.
+
+1. Select **Create from template**.
+
+1. Select the **Instance** tab.
+
+1. Select **Use template** next to the **Security Essentials Labs** template.
+
+1. For **Project name**, input `Security Labs`. 
+
+1. Select **Create project**. 
+
+Take some time here to review the `postman_collection.json` file. This file contains the definitions required to run API scanning against the application in this project. After reviewing the file and structure, you can proceed with enabling API scanning.
+
+1. Open your `.gitlab-ci.yml` file. 
+
+1. To start, we will build our application docker container to use with container scanning. To do this, start by adding a build stage.
+
+```yml
+stages:
+  - build
+```
+
+1. Next, add a `build` job which creates a Docker container.
+
+```yml
+build:
+    stage: build
+    services:
+        - docker:26-dind
+    script:
+        - docker build -t $TARGET_IMAGE .
+        - docker login -u "$CI_REGISTRY_USER" -p "$CI_REGISTRY_PASSWORD" $CI_REGISTRY
+        - docker push $TARGET_IMAGE
+```
+
+1. Finally, we will set API scanning to start our container. First, define the `dast` job and add the API security template.
+
+```yml
+include:
+    - template: API-Security.gitlab-ci.yml
+
+stages:
+    - build
+    - dast
+```
+
+1. After this, add the job definition for the API scanner.
+
+```yml
+api_security:
+    services:
+        - name: $CI_REGISTRY_IMAGE/$CI_COMMIT_REF_SLUG:$CI_COMMIT_SHA
+          alias: target
+    variables:
+        APISEC_POSTMAN_COLLECTION: postman_collection.json
+        APISEC_TARGET_URL: http://target:7777
+```
+
+1. Commit these changes and view the results once the pipeline completes.
 
 ## Lab Guide Complete
 
