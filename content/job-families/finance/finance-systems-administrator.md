@@ -112,7 +112,7 @@ Extends the Senior Finance Systems Administrators requirements.
 
 ### Manager, Finance Systems Administrator
 
-The Manager, Finance Systems Administrator reports to the [Director, Enterprise Applications](/job-families/finance/senior-director-enterprise-applications/)
+The Manager, Finance Systems Administrator reports to the [Director, Enterprise Applications](/job-families/finance/information-technology/senior-director-enterprise-applications/)
 
 #### Manager, Finance Systems Administrator Job Grade
 
@@ -142,7 +142,7 @@ The Manager, Finance Systems Administrator is a [grade 8](/handbook/total-reward
 
 ## Career Ladder
 
-The next step in the Manager, Finance Systems Administrator job family is to move to the [Director, Enterprise Applications](/job-families/finance/senior-director-enterprise-applications/) job family.
+The next step in the Manager, Finance Systems Administrator job family is to move to the [Director, Enterprise Applications](/job-families/finance/information-technology/senior-director-enterprise-applications/) job family.
 
 ## Hiring Process
 
