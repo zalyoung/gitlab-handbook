@@ -44,7 +44,7 @@ project but may include:
    may impact deliverables.
 1. Coordination, overseeing the work of others and helping remove blockers.
 
-The Engineering Manager (EM) can also help provide support in project management, but it is up to the tech lead and EM to decide on who owns what to ensure these responsibilities are covered.
+The Engineering Manager (EM) can also help provide support in project management, but the Tech Lead and the EM should collaborate to decide ownership of specific tasks.
 
 ## Difference between a Tech Lead and a Directly Responsible Individual (DRI)
 
