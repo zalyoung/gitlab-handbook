@@ -1,10 +1,10 @@
 ---
-title: "Tech Lead at GitLab"
+title: "Technical Leads at GitLab"
 ---
 
-## Tech Lead at GitLab
+## Technical Leads
 
-At GitLab, Tech Lead is an [archetype](/handbook/engineering/ic-leadership) and a role. When we think
+At GitLab, a Technical Lead ("Tech Lead") is an [archetype](/handbook/engineering/ic-leadership) and a role. When we think
 about "Tech Lead" as an archetype we mean that Staff+ Engineers at GitLab are
 supposed to exhibit patterns of behavior that make them act as technical
 leaders, who partner with Engineering Managers and Product Managers to support
@@ -39,16 +39,49 @@ project but may include:
 1. Providing technical guidance and mentoring to other engineers on the team.
 1. Planning and prioritizing work, organizing the engineering effort by
    breaking down bigger tasks into smaller actionable items.
-1. Tracking progress on commitments and reporting status updates.
+1. Tracking progress on commitments and reporting status updates to stakeholders or the DRI of the project.
 1. Risk management, identifying, assessing and managing technical risks that
    may impact deliverables.
 1. Coordination, overseeing the work of others and helping remove blockers.
 
 The Engineering Manager (EM) can also help provide support in project management, but it is up to the tech lead and EM to decide on who owns what to ensure these responsibilities are covered.
 
+## Difference between a Tech Lead and a Directly Responsible Individual (DRI)
+
+While both Tech Leads and [DRIs](../people-group/directly-responsible-individuals.md) have important leadership roles, they serve different purposes:
+
+- A Tech Lead is a temporary role focused on technical leadership for a specific project or initiative. They provide technical guidance to other engineers, architectural vision, and help coordinate the engineering effort between multiple teams. Multiple Tech Leads can exist simultaneously within a team for different projects.
+
+- A DRI is the single person ultimately accountable for the success or failure of a project or decision. They are empowered to make final decisions and they needn't be the individual that does the tactical project work. 
+
+A Tech Lead may or may not be the DRI for their project. In fact, a Tech Lead can further report to a DRI. 
+
+For example, on a new feature, while the Tech Lead focuses on technical implementation and coordination, the Product Manager is typically the DRI for feature prioritization, and the Engineering Manager is the DRI for delivery.
+
+### When does a project require a Tech Lead?
+
+A Tech Lead may be most valuable for projects that have one or more of these characteristics:
+
+- **Technical complexity**: Projects involving significant architectural decisions or technical risks that need careful consideration and oversight.
+- **Cross-team coordination**: Work that spans multiple teams or requires coordination between different technical teams.
+- **Team size**: Projects where multiple engineers are working simultaneously on related components and would benefit from technical guidance and coordination from a Tech Lead.
+- **Strategic importance**: Initiatives that are critical to business objectives and require dedicated technical leadership to ensure success.
+
+Not every project requires a dedicated Tech Lead. For simpler, well-defined tasks or projects where the technical direction is clear, having a Tech Lead might not be necessary.
+
+### Assigning a Tech Lead to a project
+
+To formally assign a Tech Lead to a project, the Engineering Manager (EM) should follow these steps:
+
+1. Add the designated person as Assignee to the Epic.
+1. Add a clear identifier in the Epic description using the format: "Tech Lead: [Name]".
+1. Add the `~tech-lead-project` label to the Epic.
+
+GitLab will maintain an overview of Tech Leads across projects in the `gitlab-org` group through an automatically generated static site. This site will be built via CI by identifying Epics tagged with the `~tech-lead-project` label, making it easy and transparent to see who is leading which technical initiatives across the organization. The site is accessible at [https://gitlab-org.gitlab.io/gitlab-tech-leads/](https://gitlab-org.gitlab.io/gitlab-tech-leads/) and is updated daily.
+
 ### Slack channel
 
-There is Slack channel available
+There is a Slack channel available
 [#tech_leads](https://gitlab.enterprise.slack.com/archives/C06ALUU5NKS)
 (internal) where Tech Leads can collaborate together, and ask questions about
 the role or an archetype of a Tech Lead. Everyone else is welcome too!
