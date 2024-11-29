@@ -363,7 +363,7 @@ You will see that your branch is one commit behind in the `git status` output.
    git pull
    ```
 
-1. View the updated contents of the file by typing in the `cat README.md` command. You should see the fourth line that you added in the GitLab Web IDE.
+1. View the updated contents of the file by typing in the `cat README.md` command. You should see the third line that you added in the GitLab Web IDE.
 
    ```bash
    cat README.md
