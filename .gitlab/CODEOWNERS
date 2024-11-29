@@ -171,7 +171,9 @@
 /content/handbook/engineering/development/sec/secure/dynamic-analysis/ @tkopel @mikeeddington
 /content/handbook/engineering/development/sec/secure/composition-analysis/ @gonzoyumo @tkopel
 /content/handbook/engineering/development/sec/secure/vulnerability-research/ @idawson
-/content/handbook/engineering/development/sec/secure/static-analysis/ @thiagocsf @adamcohen @jleasure @julianthome @mbenayoun 
+/content/handbook/engineering/development/sec/secure/static-analysis/ @thiagocsf @adamcohen @jleasure @julianthome @mbenayoun
+/content/handbook/engineering/development/sec/security-risk-management/ @dagron1 @rvider
+/content/handbook/engineering/development/sec/security-risk-management/security-infrastructure/ @ryaanwells
 /content/handbook/engineering/expansion-development.md @jeromezng
 /content/handbook/engineering/frontend/ @timzallmann
 /content/handbook/engineering/workflow/ @timzallmann @jeromezng @sgoldstein @dsatcher @m_gill
@@ -304,7 +306,7 @@
 /content/handbook/company/infrastructure-standards/ @gitlab-com/gl-security/identity/infra
 
 ^[it]
-/content/handbook/it/ @mbeee @ericrubin @dzhu-gl @smanzuik @joshlemos 
+/content/handbook/it/ @mbeee @ericrubin @dzhu-gl @smanzuik @joshlemos
 
 ^[legal]
 /content/handbook/company/esg.md @robin @slcline
