@@ -23,7 +23,7 @@ GitLab holds the following registered patents:
 
 - US patent [11,983,091](https://image-ppubs.uspto.gov/dirsearch-public/print/downloadPdf/11983091) covering *adaptively generated program model*
 - US patent [11,868,482](https://ppubs.uspto.gov/dirsearch-public/print/downloadBasicPdf/11868482?requestToken=eyJzdWIiOiI0MWU0Y2Y0Ny1iMGY1LTQxYjgtODFlYS03NTQ5MGJjZjI1Y2IiLCJ2ZXIiOiI3ZWJmNWY3Ni0zNTAzLTQyYjMtODBkNS01OWNiMGI3YjUyNTAiLCJleHAiOjB9) covering *vulnerability tracing using scope and offset*
-- US patent [18/217,435](https://ppubs.uspto.gov/dirsearch-public/print/downloadBasicPdf/12086271?requestToken=eyJzdWIiOiJlYTEyNGNlNC0xNWYxLTQ4YzItYTY3My03ZWJiYzg1MDEwNjIiLCJ2ZXIiOiI1YjA3NDRiNy0wOGMxLTQ5ZjktOGI4Zi0zZDdkOWUxMjliYzIiLCJleHAiOjB9) covering *vulnerability tracking using smatch values of scopes*
+- US patent [12,086,271](https://ppubs.uspto.gov/dirsearch-public/print/downloadBasicPdf/12086271?requestToken=eyJzdWIiOiI0OGE1MDgwZS01NjM0LTQxYWQtYjUxMC0zNzAyYTFiMmFmYjAiLCJ2ZXIiOiI0MzY3MmRjNS1kODA0LTQ2NTItYTBiMS02NzliNGFhZTg2MDUiLCJleHAiOjB9) covering *vulnerability tracking using smatch values of scopes*
 - US patent [9,910,766](https://image-ppubs.uspto.gov/dirsearch-public/print/downloadPdf/9910766) covering *whitebox network fuzzing*
 - US patents [9,767,005](https://image-ppubs.uspto.gov/dirsearch-public/print/downloadPdf/9767005) and [9,098,352](https://image-ppubs.uspto.gov/dirsearch-public/print/downloadPdf/9098352), along with Chinese patent 104346277A, and European patent EP2827253A1 covering *metaphor based language fuzzing of computer code*
 - US patent [9,323,597](https://image-ppubs.uspto.gov/dirsearch-public/print/downloadPdf/9323597) covering *flow based fault testing*.
