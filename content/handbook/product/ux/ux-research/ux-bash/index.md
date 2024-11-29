@@ -15,9 +15,19 @@ Benefits of a UX Bash:
 - Collect user feedback to enhance the product experience.
 - Turn around results to the team in 48 hours.
 
+### Bashes as an opportunity for early customer feedback
+
+Bashes provide a valuable opportunity to gather earyl customer feedback by temporarily giving users access to features still under development. Using something like feature flags can make this process seamless for participants. For example, the `/include` feature was made available to external users during a bash via a feature flag and then turned off after the session concluded. This approach helps test features in a controlled environment and refine them based on real-world usage before broader release.
+
+### When to iterate and run another Bash
+
+UX bashes are most effective when used to uncover actionable insights and measure progress on identified issues. However, it is important to consider the timing of subsequent bashes. 
+
+During early bashes for Duo Chat, substantial feedback indicating that the speed of response was too slow. In such scenarios, it's more effective to focus on addressing core issues before running another bash. Before scheduling a new bash, ensure that meaningful steps have been taken to address major feedback points from prior sessions.
+
 ### Appropriate situations for a UX Bash
 
-Bashes are useful when [foundational research](/handbook/product/ux/ux-research/foundational-research/) has already been conducted, but your team is trying to fine tune the experience before broader release, as quickly as possible. It is also well suited for when a feature is only available internally and it would be difficult to set up a test environment and recruit external users. Bashes offer a cost-effective and efficient supplement to more extensive [solution validation methodologies](/handbook/product/ux/ux-research/solution-validation-and-methods/).
+Bashes are useful when [foundational research](/handbook/product/ux/ux-research/foundational-research/) has already been conducted, but your team is trying to fine tune the experience before broader release, as quickly as possible. Bashes offer a cost-effective and efficient supplement to more extensive [solution validation methodologies](/handbook/product/ux/ux-research/solution-validation-and-methods/).
 
 ### How to set up a UX Bash
 
