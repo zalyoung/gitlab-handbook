@@ -1,5 +1,6 @@
 ---
 title: "Marin Jankovski's README"
+description: "Personal readme page for Marin Jankovski, Director of Platform Infrastructure, GitLab"
 job: "Director of Platform Infrastructure"
 ---
 

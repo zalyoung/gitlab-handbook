@@ -1,5 +1,6 @@
 ---
 title: "Michael Lunøe's README"
+description: "Personal readme page for Michael Lunøe, Staff Frontend Engineer, Fulfillment:Billing and Subscription Management, GitLab"
 job: "Staff Frontend Engineer, Fulfillment:Billing and Subscription Management"
 ---
 
