@@ -27,25 +27,27 @@ Ashley has an MSBA with a Concentration in Computer Information Science from Col
 
 ## Interests
 
-I spend most of my time in Lake Tahoe with my husband, Bobby, and two yellow labs, Bruce and Betty - you can find them on the [GitLab Pet page](/handbook/company/team-pets/#360-bruce-and-betty)! For fun I enjoy skiing, snowboarding and snow shoeing in the winter, and surfing, paddle boarding and golfing in the summer. I am an avid traveler and particularly love visiting Hawaii, New Zealand and anywhere in Europe.
+I split my time between Tahoe and Scottsdale with my husband, Bobby, and two yellow labs, Bruce and Betty - you can find them on the [GitLab Pet page](/handbook/company/team-pets/#360-bruce-and-betty)! For fun, I enjoy skiing, pickleball and golfing. I am an avid traveler and particularly love visiting Hawaii, New Zealand and anywhere in Europe.
 
-I also love engaging with earlier stage companies and up and coming entrepreneurs and am a Board Director for [Seeq Corporation](https://www.seeq.com/), an Advisor for [Snorkel AI](https://snorkel.ai/) and [Alation](https://www.alation.com/), an L.P. in the Stage 2 Capital and Artisanal funds, as well as an angel investor.
+I also love engaging with earlier stage companies and up and coming entrepreneurs and am a Board Director for dbt Labs and [Seeq Corporation](https://www.seeq.com/), an Advisor for [Snorkel AI](https://snorkel.ai/) and other early stage companies, an L.P. in the Stage 2 Capital and Artisanal funds, as well as an angel investor.
 
 ## My working style
 
-I try to always assume positive intent and encourage others to do the same. Trust is important to me. I work hard to gain it from others and hope for the same in return. Authenticity is important to me in everything from the way I show up every day to the presentations I give to my day to day interactions. I live my personal and professional life completely aligned with [GitLab's Values](/handbook/values/) - one of the main reasons I joined this journey.
+I try to always assume positive intent and encourage others to do the same. Trust is important to me. I work hard to gain it from others and hope for the same in return. Authenticity is important to me in everything from the way I show up every day, to the presentations I give, to my day to day interactions. I live my personal and professional life completely aligned with [GitLab's Values](/handbook/values/) - one of the main reasons I joined this journey.
 
-### My goals as the leader of Marketing
+### My goals as the leader of Sales and Marketing
 
-- **Build** with purpose - build a world class marketing team that feels appreciated and recognized
+- **Build** with purpose - build a world-class sales and marketing team that feels appreciated and recognized
 - **Iterate** to innovate - encourage the team to try new things and fail fast
 - **Create** more leaders - the only successful leaders have grown enough people in their roles to replace themselves down the road
 - **Learn** constantly - always listen first and bring zero ego, everyone brings unique perspectives
 - **Execute** on a strategy - make sure everyone knows every day *why* what they are doing is so important - and give them space to challenge the status quo to make us better
 
+Most importantly, to succeed together at GitLab, we must put customers first and infuse customer-centricity as part of our DNA.
+
 ### Motivators
 
-- To thrive somewhere I have to have the 3 Ps
+- To thrive somewhere I it is important for me to experience the 3 Ps
   - Amazing *People* to work and partner with
   - Genuine *Passion* for the space and role
   - Great *Product* I believe in and love
@@ -54,15 +56,15 @@ I try to always assume positive intent and encourage others to do the same. Trus
 
 ### Demotivators
 
-- I believe in teams and lifting each other up to be better. Toxicity and drama will not settle well with me. I strive to cultivate a culture that makes it fun to come to work - together - even on the bad days.
+- I believe in teamwork and lifting each other up to be better. Toxicity and drama will not settle well with me. I strive to cultivate a culture that makes it fun to come to work - together - even on the hard days.
 - I do not like when teams within a company are treated as a service. Marketing is a very strategic function when done properly and my every day #1 job will be to give the team space to be strategic and not get bogged down purely in taking orders and trying to hit others' goals/numbers.
 - Managers are here to listen and empower team members. If you are hearing "no" from your manager with no context on why, please set up time with me to discuss. At GitLab, everyone can and should contribute. If that's not happening, let's talk!
 
 ## Communicating with me
 
-Please bring the problem to me with thoughts on solutions so we can figure out the best way forward together.
+Please bring the problem to me with thoughts on solutions so we can figure out the best way forward together. 
 
-Understand that when I say something, it is just me thinking out loud (collaborating) not me saying to go do something. I love being challenged to think differently and if anything is ever a must do - I'll let you know.
+Often when I say something (I'm told I often speak with conviction), it is just me thinking out loud (collaborating) not me saying to go do something. I love being challenged to think differently and if anything is ever a must do - I'll let you know.
 
 ### Reaching me
 
