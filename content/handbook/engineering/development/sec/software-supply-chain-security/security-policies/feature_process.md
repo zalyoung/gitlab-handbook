@@ -6,7 +6,7 @@ title: Security Policies - Working on features
 
 Feature development is organized in an epic that collects feature related issues. Features are usually developed behind a feature flag. The goal of the feature development process is to default enable the feature flag.
 
-Feature development epics are listed in [team priorities](https://about.gitlab.com/direction/govern/security_policies/#priorities)
+Feature development epics are listed in [team priorities](https://about.gitlab.com/direction/security_risk_management/security_policies/#priorities)
 
 ### Epic's issues
 

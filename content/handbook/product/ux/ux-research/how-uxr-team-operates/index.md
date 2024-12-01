@@ -45,9 +45,9 @@ The assigned UX Researchers are the go-to person for their assigned [stage group
 | **Monitor**: Product Intelligence, Product Analytics | [Nicholas Hertz](https://gitlab.com/NickHertz) |
 | **Manage**: Import and Integrate, Design System, Personal Productivity, UX Paper Cuts | [Thaina Tavares](https://gitlab.com/thaina.t) |
 | **Plan**: Project Management, Product Planning, Optimize, Knowledge | [Danika Teverovsky](https://gitlab.com/dteverovsky) |
-| **Secure**: Static Analysis, Secret Detection, Dynamic Analysis, Composition Analysis, Vulnerability Research <br> **Govern**: Security Policies, Threat Insights, Compliance, Authentication, Anti-Abuse, Authorization | [Karen Li](https://gitlab.com/karenyli) (interim cover) |
+| **Secure**: Static Analysis, Secret Detection, Dynamic Analysis, Composition Analysis, Vulnerability Research <br> **Software Supply Chain Security**: Security Policies, Threat Insights, Compliance, Authentication, Anti-Abuse, Authorization | [Karen Li](https://gitlab.com/karenyli) (interim cover) |
 | **Create**: Source Code, Code Review, IDE, Editor Extensions, Code Creation | [Ben Leduc-Mills](https://gitlab.com/leducmills) |
-| **Verify**: Pipeline Execution, Pipeline Authoring, Runner, Hosted Runners <br> **Package**: Package <br> **Govern**: Pipeline Security<br>**AI-Powered**: Duo Workflow / AI Agents | [Erika Feldman](https://gitlab.com/enf) |
+| **Verify**: Pipeline Execution, Pipeline Authoring, Runner, Hosted Runners <br> **Package**: Package <br> **Software Supply Chain Security**: Pipeline Security<br>**AI-Powered**: Duo Workflow / AI Agents | [Erika Feldman](https://gitlab.com/enf) |
 
 | AI themes | UXR Point of Contact |
 | -------- | --------- |

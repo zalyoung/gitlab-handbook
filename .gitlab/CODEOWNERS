@@ -159,14 +159,14 @@
 /content/handbook/engineering/development/ops/verify/ci-platform/ @cheryl.li @drew
 /content/handbook/engineering/development/processes/infra-dev-escalation/ @jameslopez
 /content/handbook/engineering/development/sec/ @twoodham @jeromezng
-/content/handbook/engineering/development/sec/govern/ @adil.farrukh @alan @jayswain @nmccorrison @nrosandich @jeromezng @ryaanwells @shampton
-/content/handbook/engineering/development/sec/govern/anti-abuse.md @jayswain
-/content/handbook/engineering/development/sec/govern/authentication.md @adil.farrukh
-/content/handbook/engineering/development/sec/govern/authorization.md @jayswain
-/content/handbook/engineering/development/sec/govern/compliance.md @nrosandich
-/content/handbook/engineering/development/sec/govern/pipeline-security/ @shampton
-/content/handbook/engineering/development/sec/govern/security-policies/ @alan
-/content/handbook/engineering/development/sec/govern/threat-insights @nmccorrison @ryaanwells
+/content/handbook/engineering/development/sec/software-supply-chain-security/ @adil.farrukh @alan @jayswain @nmccorrison @nrosandich @jeromezng @ryaanwells @shampton
+/content/handbook/engineering/development/sec/software-supply-chain-security/anti-abuse.md @jayswain
+/content/handbook/engineering/development/sec/software-supply-chain-security/authentication.md @adil.farrukh
+/content/handbook/engineering/development/sec/software-supply-chain-security/authorization.md @jayswain
+/content/handbook/engineering/development/sec/software-supply-chain-security/compliance.md @nrosandich
+/content/handbook/engineering/development/sec/software-supply-chain-security/pipeline-security/ @shampton
+/content/handbook/engineering/development/sec/software-supply-chain-security/security-policies/ @alan
+/content/handbook/engineering/development/sec/software-supply-chain-security/threat-insights @nmccorrison @ryaanwells
 /content/handbook/engineering/development/sec/secure/ @twoodham
 /content/handbook/engineering/development/sec/secure/dynamic-analysis/ @tkopel @mikeeddington
 /content/handbook/engineering/development/sec/secure/composition-analysis/ @gonzoyumo @tkopel

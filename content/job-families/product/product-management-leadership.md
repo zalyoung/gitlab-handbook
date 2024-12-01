@@ -124,9 +124,9 @@ Responsible for leading the team of PMs who manage the [Secure stage groups](/ha
 - Strong ability to define and maintain alignment on product vision and strategy
 - Excellent communication skills and ability to drive cross-functional execution
 
-#### Govern
+#### Software Supply Chain Security
 
-Responsible for leading the team of PMs who manage the [Govern stage groups](/handbook/product/categories/#govern-stage). This stage leader sets the vision and direction for how to enable GitLab users with an effective, scalable, and lovable security and compliance solution. This individual also maintains and champions GitLab's [Software Supply Chain Security (SSCS) direction](https://about.gitlab.com/direction/supply-chain/) and coordinates execution of the SSCS roadmap across all GitLab stages. The Govern GMP works hand in hand with the [Secure stage](/handbook/product/categories/#sec-section) leader to ensure that their teams, together, are providing a holistic and word-class user experience across all of GitLab's security & compliance offerings.
+Responsible for leading the team of PMs who manage the [Software Supply Chain Security stage groups](/handbook/product/categories/#software-supply-chain-security-stage). This stage leader sets the vision and direction for how to enable GitLab users with an effective, scalable, and lovable security and compliance solution. This individual also maintains and champions GitLab's [Software Supply Chain Security (SSCS) direction](https://about.gitlab.com/direction/supply-chain/) and coordinates execution of the SSCS roadmap across all GitLab stages. The Govern GMP works hand in hand with the [Secure stage](/handbook/product/categories/#sec-section) leader to ensure that their teams, together, are providing a holistic and word-class user experience across all of GitLab's security & compliance offerings.
 
 ##### Requirements
 

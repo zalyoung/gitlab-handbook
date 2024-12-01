@@ -141,13 +141,13 @@ description: >-
 
 The following teams comprise the sub-department:
 
-- Govern stage - [handbook](/handbook/engineering/development/sec/govern/)
-  - Anti-abuse group - [handbook](/handbook/engineering/development/sec/govern/anti-abuse)
-  - Authentication group - [handbook](/handbook/engineering/development/sec/govern/authentication)
-  - Authorization group - [handbook](/handbook/engineering/development/sec/govern/authorization)
-  - Compliance group - [handbook](govern/compliance/)
-  - Security Policies group - [handbook](/handbook/engineering/development/sec/govern/security-policies/)
-  - Threat Insights group - [handbook](/handbook/engineering/development/sec/govern/threat-insights/)
+- Software Supply Chain Security stage - [handbook](/handbook/engineering/development/sec/software-supply-chain-security/)
+  - Anti-abuse group - [handbook](/handbook/engineering/development/sec/software-supply-chain-security/anti-abuse)
+  - Authentication group - [handbook](/handbook/engineering/development/sec/software-supply-chain-security/authentication)
+  - Authorization group - [handbook](/handbook/engineering/development/sec/software-supply-chain-security/authorization)
+  - Compliance group - [handbook](software-supply-chain-security/compliance/)
+  - Security Policies group - [handbook](/handbook/engineering/development/sec/software-supply-chain-security/security-policies/)
+  - Threat Insights group - [handbook](/handbook/engineering/development/sec/software-supply-chain-security/threat-insights/)
 - Secure stage - [handbook](/handbook/engineering/development/sec/secure/)
   - Composition Analysis group - [handbook](/handbook/engineering/development/sec/secure/composition-analysis/)
   - Dynamic Analysis group - [handbook](/handbook/engineering/development/sec/secure/dynamic-analysis/dynamic-analysis/)
@@ -169,7 +169,7 @@ Keeping our projects organized is very important for productivity and maintainab
 - To setup a new project we follow the [company-wide Engineering guidelines](/handbook/engineering/gitlab-repositories/).
 - Sec projects should be organized into one of
   - [https://gitlab.com/gitlab-org/secure](https://gitlab.com/gitlab-org/secure)
-  - [https://gitlab.com/gitlab-org/govern](https://gitlab.com/gitlab-org/govern)
+  - [https://gitlab.com/gitlab-org/software-supply-chain-security](https://gitlab.com/gitlab-org/software-supply-chain-security)
   - [https://gitlab.com/gitlab-org/security-products](https://gitlab.com/gitlab-org/security-products)
 
 In general, we want to keep as few projects in `security-products` as necessary.
@@ -180,13 +180,13 @@ In general, we want to keep as few projects in `security-products` as necessary.
 - Demos
 - Historical projects that are difficult to move.
 
-`secure` and `govern` should have projects for:
+`secure` and `software-supply-chain-security` should have projects for:
 
 - End-to-end testing
 - Benchmarks / Stats
 - Tooling
 
-There may be projects that should belong in `secure` or `govern` but for technical reasons are much easier to have in `security-products`. In those cases, we can locate the project in `security-products` if reasonable efforts were made to get the project in `secure` or `govern` but were unsuccessful.
+There may be projects that should belong in `secure` or `software-supply-chain-security` but for technical reasons are much easier to have in `security-products`. In those cases, we can locate the project in `security-products` if reasonable efforts were made to get the project in `secure` or `software-supply-chain-security` but were unsuccessful.
 
 ### Recommended settings
 
@@ -361,7 +361,7 @@ When configuring projects that are not part of the secure stage, please see the 
 
 ## Slack channels
 
-- [#sec-section](https://gitlab.slack.com/archives/C02087FTL5V) - Sec Section discussions spanning the Govern, and Secure stages.
+- [#sec-section](https://gitlab.slack.com/archives/C02087FTL5V) - Sec Section discussions spanning the Software Supply Chain Security and Secure stages.
 - [#sec-growth-datascience-people-leaders](https://gitlab.slack.com/archives/C033F69CQCB) - Engineering people leaders in Sec, Growth, and ModelOps.
 - [🔒sec-growth-datascience-leadership-confidential](https://gitlab.slack.com/archives/GKWF00Y3E) - Private channel for engineering people leaders in Sec, Growth, and ModelOps.
 

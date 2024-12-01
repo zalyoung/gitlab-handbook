@@ -66,11 +66,11 @@ The [Growth sub-department](/handbook/engineering/development/growth/) analyzes 
 
 - Due to the nature of our tech stack, the volume and complexity of work is weighted more strongly towards backend, rather than frontend.
 
-### Govern
+### Software Supply Chain Security
 
-The [Govern sub-department](/handbook/engineering/development/sec/govern/) contributes to development in the [Sec](/handbook/product/categories/#sec-section) section.
+The [Software Supply Chain Security sub-department](/handbook/engineering/development/sec/software-supply-chain-security/) contributes to development in the [Sec](/handbook/product/categories/#sec-section) section.
 
-#### Govern Requirements
+#### Software Supply Chain Security Requirements
 
 - Passion for security.
 - Understanding of all levels of OSI network model and common network protocols.

@@ -409,7 +409,7 @@ graph TD;
     id3 --> id7(Package - 7%)
     id6 --> id9(Monitor - 8%)
     id6 --> id10(Configure - 2%)
-    id6 --> id11(Govern - 28%)
+    id6 --> id11(Software Supply Chain Security - 28%)
 ```
 
 - The percentage here is defined as % of monthly active paid ultimate-tier self-managed instances that adopted that stage. The data is captured directly in the Golden Journey Paths chart (which has been deprecated).

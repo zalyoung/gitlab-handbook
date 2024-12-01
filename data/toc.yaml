@@ -162,8 +162,8 @@
       url: /handbook/engineering/development/fulfillment/
     - name: Ops Sub-department
       url: /handbook/engineering/development/ops/
-    - name: Govern Sub-department
-      url: /handbook/engineering/development/sec/govern/
+    - name: Software Supply Chain Security Sub-department
+      url: /handbook/engineering/development/sec/software-supply-chain-security/
     - name: Secure Sub-department
       url: /handbook/engineering/development/sec/secure/
   - name: Incubation Engineering Department

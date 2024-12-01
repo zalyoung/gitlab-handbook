@@ -1,6 +1,6 @@
 ---
-title: "Govern:Pipeline Security Group"
-description: "The GitLab Govern:Pipeline Security Group Handbook page"
+title: "Software Supply Chain Security:Pipeline Security Group"
+description: "The GitLab Software Supply Chain Security:Pipeline Security Group Handbook page"
 ---
 
 ## Vision
@@ -25,9 +25,9 @@ We measure the value we contribute by using a [Product Performance Indicator](ht
 
 ## Team Members
 
-The following people are permanent members of the Govern:Pipeline Security group:
+The following people are permanent members of the Software Supply Chain Security:Pipeline Security group:
 
-{{< stable-counterparts role="Govern:Pipeline Security" >}}
+{{< stable-counterparts role="Software Supply Chain Security:Pipeline Security" >}}
 
 ## Stable Counterparts
 
@@ -35,7 +35,7 @@ To find our stable counterparts look at the Pipeline Security [product category 
 
 ## JTBD
 
-You can view and contribute to our current list of JTBD and job statements [here](/handbook/engineering/development/sec/govern/pipeline-security/JTBD/#jobs-to-be-done).
+You can view and contribute to our current list of JTBD and job statements [here](/handbook/engineering/development/sec/software-supply-chain-security/pipeline-security/JTBD/#jobs-to-be-done).
 
 ## Technologies
 
@@ -117,7 +117,7 @@ Based on these criteria, an issue can have one of the following weights:
 | 5: Large | Issues that are known to be complex. A solution has been outlined. There are many major edge cases that need to be catered for. Surprises are expected. Extensive coordination with other teams is required. Careful release process needs to be considered. These issues may have potential for adverse performance impact or catastrophic failures. They may also involve more one components (backend, frontend, gitaly, workhorse, runner, etc) or changes the interaction between the components.<br><br>Examples are issues that changes API contracts requiring backward compatibility, requires multiple feature flags to be safely released. It could also be issues where the team does not have any existing expertise or knowledge, or require changes in components that the team does not usually work on. |
 | 8: Unknown | An issue that is weight 8 will not be scheduled and instead should be investigated further in order to be broken down into smaller issues<br><br>Examples are bugs that are not well understood or easily replicated, bugs or features that do not have a suggested solution. |
 
-If the weight of an issue cannot be determined within a day, create a separate [investigation issue](/handbook/engineering/development/sec/govern/pipeline-security/#technical-investigation) for an in-depth investigation.
+If the weight of an issue cannot be determined within a day, create a separate [investigation issue](/handbook/engineering/development/sec/software-supply-chain-security/pipeline-security/#technical-investigation) for an in-depth investigation.
 
 #### Design and Development collaboration
 
@@ -178,7 +178,7 @@ Before the team will accept an issue into a milestone for work it must meet thes
 - Issues labeled with ~"type::feature" include a well stated "why" and customer problem
 - Issues labeled ~"type::bug" include steps to reproduce
 - Designs are in the design tab if needed
-- If the issue will be worked on by Govern:Pipeline Security engineers, it has a [weight](/handbook/engineering/development/dev/create/source-code-be/#weights)
+- If the issue will be worked on by Software Supply Chain Security:Pipeline Security engineers, it has a [weight](/handbook/engineering/development/dev/create/source-code-be/#weights)
 - Design proposal satisfies the [UX Definition of Done (DoD)](/handbook/product/ux/stage-group-ux-strategy/ci-cd/#definition-of-done-for-ux-pilot)
 
 #### Definition of Blocked
@@ -195,11 +195,11 @@ During each milestone, we create a [Release Post Checklist](https://gitlab.com/g
 
 ### Workflow
 
-Unless specifically mentioned below, the Govern:Pipeline Security group follows the standard [engineering](/handbook/engineering/workflow/), [product](/handbook/product-development-flow/), and [UX](/handbook/product/ux/ux-department-workflow/) workflows.
+Unless specifically mentioned below, the Software Supply Chain Security:Pipeline Security group follows the standard [engineering](/handbook/engineering/workflow/), [product](/handbook/product-development-flow/), and [UX](/handbook/product/ux/ux-department-workflow/) workflows.
 
 #### Starting New Work
 
-Govern:Pipeline Security team members are encouraged to start looking for work starting **_Right to left_** on [our milestone board](https://gitlab.com/groups/gitlab-org/-/boards/364216?label_name[]=group%3A%3Apipeline%20security&milestone_title=Started). This is also known as _"Pulling from the right"_. If there is an issue that a team member can help along on the board, they should do so instead of starting new work. This includes conducting code review on issues that the team member may not be assigned to if they feel that they can add value and help move the issue along the board.
+Software Supply Chain Security:Pipeline Security team members are encouraged to start looking for work starting **_Right to left_** on [our milestone board](https://gitlab.com/groups/gitlab-org/-/boards/364216?label_name[]=group%3A%3Apipeline%20security&milestone_title=Started). This is also known as _"Pulling from the right"_. If there is an issue that a team member can help along on the board, they should do so instead of starting new work. This includes conducting code review on issues that the team member may not be assigned to if they feel that they can add value and help move the issue along the board.
 
 Specifically this means, in order:
 
@@ -230,7 +230,7 @@ If a team member believes a specific issue should be considered a `Deliverable` 
 
 #### Code Review
 
-Code reviews follow the standard process of using the reviewer roulette to choose a reviewer and a maintainer. The roulette is **optional**, so if a merge request contains changes that someone outside our group may not fully understand in depth, it is encouraged that a member of the Govern:Pipeline Security team be chosen for the preliminary review to focus on correctly solving the problem. The intent is to leave this choice to the discretion of the engineer but raise the idea that fellow Govern:Pipeline Security team members will sometimes be best able to understand the implications of the features we are implementing. The maintainer review will then be more focused on quality and code standards.
+Code reviews follow the standard process of using the reviewer roulette to choose a reviewer and a maintainer. The roulette is **optional**, so if a merge request contains changes that someone outside our group may not fully understand in depth, it is encouraged that a member of the Software Supply Chain Security:Pipeline Security team be chosen for the preliminary review to focus on correctly solving the problem. The intent is to leave this choice to the discretion of the engineer but raise the idea that fellow Software Supply Chain Security:Pipeline Security team members will sometimes be best able to understand the implications of the features we are implementing. The maintainer review will then be more focused on quality and code standards.
 
 We also recommend that team members take some time to review each others merge requests even if they are not assigned to do so, as described in the [GitLab code review process](/handbook/engineering/workflow/code-review/#reviewer). It is not necessary to assign anyone except the initial domain reviewer to your Merge Request. This process augmentation is intended to encourage team members to review Merge Requests that they are not assigned to. As a new team, reviewing each others merge requests allows us to build familiarity with our product area, helps reduce the amount of investigation that needs to be done when implementing features and fixes, and increases our [lottery factor](https://en.wikipedia.org/wiki/Bus_factor). The more review we can do ourselves, the less work the maintainer will have to do to get the merge request into good shape.
 
@@ -298,7 +298,7 @@ Some notes/suggestions:
 
 #### Monitoring changes behind feature flags
 
-In addition to the steps documented for [developing with feature flags at GitLab](https://docs.gitlab.com/ee/development/feature_flags/) Govern:Pipeline Security engineers monitor their changes' impact on infrastructure using dashboards and logs where possible. Because feature flags allow engineers to have complete control over their code in production it also enables them to take ownership of monitoring the impact their changes have against production infrastructure. In order to monitor our changes we use this [helpful selection of dashboards](/handbook/engineering/monitoring/#selection-of-useful-dashboards-from-the-monitoring) and specifically the [Rails controller dashboard](https://dashboards.gitlab.net/d/web-rails-controller/web-rails-controller) (Internal Only) for monitoring our changes in production. Metrics we evaluate include latency, throughput, CPU usage, memory usage, and database calls, depending on what our change's expected impact will be and any considerations called out in the issue.
+In addition to the steps documented for [developing with feature flags at GitLab](https://docs.gitlab.com/ee/development/feature_flags/) Software Supply Chain Security:Pipeline Security engineers monitor their changes' impact on infrastructure using dashboards and logs where possible. Because feature flags allow engineers to have complete control over their code in production it also enables them to take ownership of monitoring the impact their changes have against production infrastructure. In order to monitor our changes we use this [helpful selection of dashboards](/handbook/engineering/monitoring/#selection-of-useful-dashboards-from-the-monitoring) and specifically the [Rails controller dashboard](https://dashboards.gitlab.net/d/web-rails-controller/web-rails-controller) (Internal Only) for monitoring our changes in production. Metrics we evaluate include latency, throughput, CPU usage, memory usage, and database calls, depending on what our change's expected impact will be and any considerations called out in the issue.
 
 The goal of this process is to reduce the time that a change could potentially have on production infrastructure to the smallest possible window. A side benefit of this process is to increase engineer familiarity with our monitoring tools, and develop more experience with predicting the outcomes of changes as they relate to infrastructure metrics.
 
@@ -320,8 +320,8 @@ The Pipeline Security group supports the product marketing categories described 
 
 | Label                 | |  | | |
 | ----------------------| -------| ----|------------| ---|
-| `Category:Secrets Management` | [Issues](https://gitlab.com/groups/gitlab-org/-/issues?sort=created_date&state=opened&label_name[]=Category:Secrets+Management) | [MRs](https://gitlab.com/gitlab-org/gitlab/-/merge_requests?scope=all&state=opened&label_name[]=Category%3ASecrets%20Management) | [Direction](https://about.gitlab.com/direction/govern/pipeline_security/secrets_management/) | [Documentation](https://docs.gitlab.com/ee/ci/secrets/index.html) |
-| `Category:Secure Artifacts` | [Issues](https://gitlab.com/groups/gitlab-org/-/issues?sort=created_date&state=opened&label_name[]=Category:Secure+Artifacts) | [MRs](https://gitlab.com/gitlab-org/gitlab/-/merge_requests?scope=all&state=opened&label_name[]=Category%3ASecure%20Artifacts) | [Direction](https://about.gitlab.com/direction/govern/pipeline_security/secure_artifacts/) | Documentation - TBD |
+| `Category:Secrets Management` | [Issues](https://gitlab.com/groups/gitlab-org/-/issues?sort=created_date&state=opened&label_name[]=Category:Secrets+Management) | [MRs](https://gitlab.com/gitlab-org/gitlab/-/merge_requests?scope=all&state=opened&label_name[]=Category%3ASecrets%20Management) | [Direction](https://about.gitlab.com/direction/software_supply_chain_security/pipeline_security/secrets_management/) | [Documentation](https://docs.gitlab.com/ee/ci/secrets/index.html) |
+| `Category:Secure Artifacts` | [Issues](https://gitlab.com/groups/gitlab-org/-/issues?sort=created_date&state=opened&label_name[]=Category:Secure+Artifacts) | [MRs](https://gitlab.com/gitlab-org/gitlab/-/merge_requests?scope=all&state=opened&label_name[]=Category%3ASecure%20Artifacts) | [Direction](https://about.gitlab.com/direction/software_supply_chain_security/pipeline_security/secure_artifacts/) | Documentation - TBD |
 
 #### Feature Labels
 
