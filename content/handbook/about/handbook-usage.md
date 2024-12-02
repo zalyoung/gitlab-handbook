@@ -213,7 +213,7 @@ You need [`developer` access](https://docs.gitlab.com/ee/user/permissions.html#p
 
 ### Merge with confidence
 
-You should feel confident merging any changes that pass the pipeline without worrying that you will break the handbook. The tests in the pipeline are designed to catch any major problems. The handbook projects are configured so that changes cannot be merged unless the pipeline passes. In the event that code is merged that does break the handbook in some way, follow the instructions for [reporting an issue to the Handbook on-call team](/handbook/about/on-call/).
+You should feel confident merging any changes that pass the pipeline without worrying that you will break the handbook. The tests in the pipeline are designed to catch any major problems. The handbook projects are configured so that changes cannot be merged unless the pipeline passes. In the event that code is merged that does break the handbook in some way, follow the instructions for [reporting an issue to the Handbook team](/handbook/about/escalation/).
 
 ### Do not use merge immediately
 

@@ -71,7 +71,7 @@
   - name: Handbook Changelog
     url: changelog
   - name: Handbook Escalation
-    url: /handbook/about/on-call.md
+    url: /handbook/about/escalation.md
   - name: Handbook Usage
     url: handbook-usage
   - name: Contribution Guide

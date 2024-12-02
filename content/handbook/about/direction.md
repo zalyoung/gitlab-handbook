@@ -30,7 +30,7 @@ Our hope is that the GitLab Handbook is something that others want to emulate. T
 
 ### What's Next & Why
 
-In the short term, we want to make sure the handbook is [fast and stable](https://gitlab.com/groups/gitlab-com/content-sites/-/epics/10). We also need a [long term plan](https://gitlab.com/groups/gitlab-com/-/epics/2281).
+This is currently under consideration.
 
 As there is no full time DRI, the following are on hold:
 
