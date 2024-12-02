@@ -1,5 +1,6 @@
 ---
 title: Advantages of a single application
+description: "Discussing the advantages of having a single application"
 ---
 
 ## Single application
