@@ -177,6 +177,13 @@
 /handbook/resellers/reseller-agreement/ /handbook/legal/reseller-agreement/ 301
 /teamops/everyone-contributes/ /teamops/equal-contributions/ 301
 
+# Sec realignment - remove 2025-04-02
+/handbook/engineering/development/sec/govern/ /handbook/engineering/development/sec/software-supply-chain-security/ 301
+/handbook/engineering/development/sec/govern/authentication/ /handbook/engineering/development/sec/software-supply-chain-security/authentication/ 301
+/handbook/engineering/development/sec/govern/authorization/ /handbook/engineering/development/sec/software-supply-chain-security/authorization/ 301
+/handbook/engineering/development/sec/govern/compliance/ /handbook/engineering/development/sec/software-supply-chain-security/compliance/ 301
+/handbook/engineering/development/sec/govern/pipeline-security/ /handbook/engineering/development/sec/software-supply-chain-security/pipeline-security/ 301
+
 # Webinar redirects - remove 2025-05-01
 /handbook/customer-success/csm/segment/cse/webinar-calendar/ https://university.gitlab.com/pages/gitlab-user-webinars 301
 /handbook/customer-success/csm/segment/scale/webinar-calendar/  https://university.gitlab.com/pages/gitlab-user-webinars 301
