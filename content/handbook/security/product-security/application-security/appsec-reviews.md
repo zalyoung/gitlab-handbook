@@ -213,3 +213,42 @@ If you are using third party libraries make sure that:
 1. You use the latest stable and available version
 1. Your team has the ability to support and upgrade this library as security patches are published
 1. The maintainer has a security policy
+
+### MR Review guidelines
+
+When concluding a review of a Merge Request make sure you document what you covered,
+and what your conclusions on the reviewed items were.
+
+Having a summary of your steps taken, concerns and coverage helps collaboration with
+other reviewers.
+
+1. **Coverage**: Clearly outline what aspects of the code you have reviewed. This may include:
+   - Specific files or modules examined
+   - Functionality changes assessed
+   - Security implications considered
+
+2. **Steps Taken**: Provide a brief overview of your review process, such as:
+   - Code reading and analysis
+   - Local testing or code execution
+   - Use of any automated tools or linters
+   - Cross-referencing with related issues or documentation
+
+3. **Concerns and Observations**: Document any issues, potential problems, or areas for improvement you've identified during the review. This could include:
+   - Security vulnerabilities
+   - Code quality issues
+   - Potential bugs or edge cases
+   - Suggestions for optimization
+
+4. **Conclusions**: Summarize your overall assessment of the reviewed items, including:
+   - Whether the changes meet the intended requirements
+   - Any blockers or critical issues that need addressing
+   - Recommendations for further actions or improvements
+
+By providing a comprehensive summary of your review process, concerns, and coverage, you facilitate:
+
+- Improved collaboration with other reviewers
+- Easier follow-up on identified issues
+- A clear record of the review process for future reference
+- More efficient resolution of any concerns or questions raised during the review
+
+A well-documented MR review not only helps in the immediate code review process but also contributes to the overall quality and maintainability of the project in the long run.
