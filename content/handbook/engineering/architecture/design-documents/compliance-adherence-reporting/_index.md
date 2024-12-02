@@ -80,6 +80,9 @@ compliance frameworks in GitLab 17.3.
 1. Compliance events
    1. [Violations within MRs](https://docs.gitlab.com/ee/user/compliance/compliance_center/compliance_violations_report.html)
    1. [Audit events](https://docs.gitlab.com/ee/user/compliance/audit_events.html)
+1. [Security Policies](https://docs.gitlab.com/ee/user/application_security/policies/)
+   1. This document does not intend to outline how Security Policies work or how Policies use Compliance Frameworks to scope projects
+   1. For more information on Security Policies refer [this document](compliance_security_policy_relationship.md)
 
 ### Terminology/Glossary
 
@@ -188,7 +191,7 @@ The compliance requirements would be stored in a separate table with the followi
         expression: text
     }
 
-    class project_compliance_status {
+    class project_requirement_compliance_status {
         id: bigint
         created_at: timestamp
         updated_at: timestamp
@@ -198,39 +201,37 @@ The compliance requirements would be stored in a separate table with the followi
         status: smallint
     }
 
-    class compliance_framework_security_policies {
+    class security_policy_requirements {
         id: bigint
         created_at: timestamp
         updated_at: timestamp
-        framework_id: bigint
-        policy_configuration_id: bigint
-        policy_index: smallint
-        project_id: bigint
-        namespace_id: bigint
+        compliance_framework_security_policy_id: bigint
+        compliance_requirement_id: bigint
+        namespace_id: smallint
     }
 
     compliance_management_frameworks --> compliance_requirements : has_many
     compliance_management_frameworks <-- compliance_requirements : belongs_to
     compliance_management_frameworks <--> projects : many_to_many
-    compliance_requirements <--> compliance_framework_security_policies : has_and_belongs_to_many
+    compliance_requirements <--> security_policy_requirements : has_and_belongs_to_many
     projects <-- namespaces : has_many
     projects --> namespaces : belongs_to
     namespaces --> compliance_management_frameworks : has_many
     namespaces <-- compliance_management_frameworks : belongs_to
-    projects --> project_compliance_status : has_many
-    projects <-- project_compliance_status : belongs_to
-    compliance_requirements --> project_compliance_status : has_one
-    compliance_requirements <-- project_compliance_status : belongs_to
+    projects --> project_requirement_compliance_status : has_many
+    projects <-- project_requirement_compliance_status : belongs_to
+    compliance_requirements --> project_requirement_compliance_status : has_one
+    compliance_requirements <-- project_requirement_compliance_status : belongs_to
 ```
 
-We created a new table `project_compliance_configuration_status` for storing the results of compliance requirements and
+We created a new table `project_requirement_compliance_status` for storing the results of compliance requirements and
 plan on dropping the existing `project_compliance_standards_adherence` table. We no longer have a `standard` column
 as we don't want to associate requirements directly with a standard, allowing the users to customise
 and group requirements as per their need.
 
 Unlike the current implementation we would only store results for the projects that have compliance requirements
 configured. Instead of an enum we would store the `compliance_requirement_id` in the
-`project_compliance_configuration_status` table and would display these results at the compliance dashboard.
+`project_requirement_compliance_status` table and would display these results at the compliance dashboard.
 
 In the next iteration we would also allow importing and exporting the compliance requirement configurations.
 
@@ -243,6 +244,79 @@ and poor user experience.
 1. Limit maximum number of requirements per framework: 50 to be increased as needed
 1. Limit maximum number of checks a control expression can have: 5 to be increased as needed
 1. Allowlist of project settings and associations that could be used for creating expressions
+
+### Compliance framework workflow diagrams
+
+#### Compliance framework definition
+
+This workflow diagram shows the creation of Compliance Frameworks, Requirements and Controls, and how security policies are associated with Requirments.
+
+```mermaid
+flowchart TD
+    A[User creates Compliance Framework] --> B[User adds Requirements to Framework]
+    B --> C[User adds Controls in each Requirement]
+    C --> D[User chooses one or more Policies for the Requirement]
+    D --> F[User applies Framework to Project]
+
+    A -- insert --> compliance_management_frameworks@{ shape: cyl }
+    B -- insert --> compliance_requirements@{ shape: cyl }
+    C -- update --> compliance_requirements@{ shape: cyl }
+    D -- insert --> security_policy_requirements@{ shape: cyl }
+```
+
+#### Recurring Configuration Status Checks execution flow 
+
+This workflow diagram shows the how Compliance Frameworks trigger a configuration status check against a Project.
+
+```mermaid
+flowchart TD
+    %% Async Job Trigger
+    F[User applies Framework to Project] --> G[Schedule recurring Configuration check sync job]
+    G --> H[Get all Controls in Framework applied to Project]
+    H --> I[Loop through Controls]
+    I --> J{Control has enforcement mechanism?}
+    J -- Yes --> K{Associated Policy exists?}
+    K -- Yes --> L[Skip Check: Result is Pass]
+    K -- No --> M[Check Setting/Policy configured correctly]
+    J -- No --> N[Evaluate Control compliance]
+
+    M --> O[Result: Pass/Fail]
+    N --> O
+    O --> Q[Upsert result in DB: project_requirement_compliance_status]@{ shape: cyl }
+    L --> Q
+    N -- Fail --> S[Insert violation in DB: project_compliance_violations]@{ shape: cyl }
+
+    Q --> T[Async Configuration check job repeats every 12 hours]
+    T --> G
+```
+
+#### Violation triggers execution flow
+
+This workflow diagram shows how violation status checks are triggered and stored.
+
+```mermaid
+flowchart TD
+    %% Event-Triggered Violation Check
+    F[User applies Framework to Project] --> U[Async Violation check job triggered]
+    U --> V[Get all Controls in Framework applied to Project]
+    V --> W[Loop through Controls]
+    W --> X{Event violates a Control?}
+    X -- Yes --> Y[Insert violation in DB: project_compliance_violations]@{ shape: cyl }
+    X -- No --> Z[No action needed]
+    Y --> AA[Event occurs: 
+    - every 12 hours
+    - MR merged]
+    Z --> AA
+    AA --> U
+```
+
+In the above workflows there will be audit events triggered throughout to give a full history of a projects compliance posture. For example audit events will be logged when a project is evalutated against a control and the result of that evaluation. User can then see when the configuration status changed from one state to another in the past. User can then use the [audit event reports](https://docs.gitlab.com/ee/user/compliance/audit_events.html) or [streaming audit events](https://docs.gitlab.com/ee/user/compliance/audit_event_streaming.html) to trigger other workflows.
+
+Audit events will be logged when:
+
+- user takes an action
+- configuration check result
+- violation check result
 
 ### Decisions
 
