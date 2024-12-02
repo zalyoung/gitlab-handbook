@@ -222,17 +222,18 @@ The structure of having both DRIs and supporting contributors does not introduce
 any hard requirements for moving MRs forward, as reviews and approvals can be
 done by anyone on the team.
 
-##### Technical Roadmap & Customer Issues
+##### Technical Roadmap, Customer Issues, and Cross Functional Issues
 
-The [Gitaly technical roadmap](https://gitlab.com/groups/gitlab-org/data-access/gitaly/-/epics/3)
-and [Gitaly customer issues](https://gitlab.com/groups/gitlab-org/data-access/gitaly/-/epics/2)
-epics contain one-off issues that are not a part of any projects, but are important
-issues to address. These issues will be sorted by priority. Team members can
-pick up work from this board in addition to issues they are working on as part
-of project epics.
+The [Gitaly Technical Roadmap & Customer Issues](https://gitlab.com/groups/gitlab-org/-/boards/8913037?label_name[]=workflow%3A%3Aready%20for%20development&milestone_title=Upcoming)
+board contain one-off issues that are not a part of any projects, but are important
+issues to address. These include [technical roadmap](/handbook/engineering/#technical-roadmaps)
+issues, customer issues, and cross functional work in Gitaly that other teams
+rely on. These issues will be sorted by priority. Team members can pick up work
+from this board in addition to issues they are working on as part of project
+epics.
 
 As a rule of thumb, the ratio of [project](#project-work) work to technical
-roadmap and customer issues should be roughly 70/30.
+roadmap, customer issues should be roughly 70/30.
 
 ##### Urgent and high priority issues
 
