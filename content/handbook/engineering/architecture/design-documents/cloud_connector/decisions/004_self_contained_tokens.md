@@ -133,7 +133,8 @@ Drawbacks and unknowns:
    since backend services would eventually converge onto the new keys automatically (after caches expire.)
    Under this proposal, tokens with longer life times of several days (as issued by CustomersDot) could only be invalidated
    by rotating the CA key, which will invalidate all tokens issued by all IdPs. This may not be big problem in practice
-   but is worth highlighting.
+   but is worth highlighting. Alternatively, requests could be blocked in Cloudflare based on other criteria such as
+   sender IP or instance UUID.
 
 ## Next steps
 
