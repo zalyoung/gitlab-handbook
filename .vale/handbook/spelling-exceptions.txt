@@ -368,6 +368,8 @@ DRIs
 DSLs
 DSN
 Dynatrace
+dyscalculia
+dyspraxia
 EBAs
 ebook
 ebooks
@@ -424,6 +426,7 @@ Figma
 Filebeat
 Filestore
 financials
+findability
 Finicity
 Finnhub
 Fio
@@ -556,6 +559,8 @@ IIFEs
 Immer
 iMovie
 impactful
+incentivized
+incentivizes
 incentivizing
 inclusivity
 inflector
@@ -604,6 +609,7 @@ Jupyter
 JupyterHub
 JWT
 JWTs
+kaizen
 Kaminari
 kanban
 kanbans
@@ -768,6 +774,8 @@ negatable
 Neovim
 Netlify
 Netsuite
+neurodevelopment
+neurodevelopmental
 neurodivergent
 neurodiverse
 neurodiversity
@@ -993,6 +1001,7 @@ repurpose
 repurposes
 repurposing
 repurposing
+reputational
 requestee
 requesters
 requeue
@@ -1231,6 +1240,7 @@ timelogs
 timesheet
 timesheets
 Tiptap
+TMRGs
 ToDo
 todos
 tokenizer
@@ -1287,6 +1297,7 @@ unassigning
 unassigns
 unban
 unbans
+unblocker
 uncached
 uncheck
 unchecked
@@ -1312,6 +1323,7 @@ unfollowed
 unfollows
 Unicorn
 unindexed
+unintuitive
 unlink
 unlinking
 unlinks
@@ -1331,6 +1343,7 @@ unoptimizing
 unparsable
 unpatched
 unpause
+unpredictabilities
 unprioritized
 unprotect
 unprotected
