@@ -19,7 +19,7 @@ Measurement is important in any organization. As Peter Drucker famously said, "I
 
 Teams working via TeamOps should employ methods of measuring productivity, value, and results that *don't* depend on physical supervision as a measure of contribution. Re-prioritizing *what*, *how*, and *when* the organization measures enables a higher frequency of success, greater accountability for objectives, lower workforce discrimination, and wider reach for company communication.
 
-In short: TeamOps treats "work" defines work as something we do, not somewhere we go.
+In short: TeamOps treats "work" as something we do, not somewhere we go.
 
 Action tenets of measurement clarity, including real-world examples of each, are below.
 
