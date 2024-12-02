@@ -176,16 +176,17 @@ Recommended [settings](https://bsky.app/settings):
 
 1. Two-factor authenticaton: Require email code to log into your account.
 1. Accessibility Settings:
-    - ALT text: Require ALT text before posting.
+    - ALT text: Require ALT text before posting media.
     - Media: Disable autoplay for videos and GIFs.
 1. Chat Settings: Review the `Allow messages from` setting to determine whether to accepted them from everyone, users I follow (default), no one.
 1. You can use your domain as custom Bluesky handle, for example `@gitlab.com`, `@sugaroverflow.com` or `@dnsmichi.dev`. This can help to make your handle more memorable and easy to share.
     - [Follow the instructions on the Bluesky blog](https://bsky.social/about/blog/4-28-2023-domain-handle-tutorial) or [@dnsmichi's tutorial](https://dnsmichi.at/2024/11/19/moving-to-bluesky-with-custom-domain-handle/) to setup the DNS TXT record verification.
-    - Consider changing your handle early. All historical tags and quotes will be redirected, but  incoming URLs to starter packs, etc. will be broken and need external updates.
+    - Consider changing your handle early. All historical tags and quotes will be redirected, but incoming URLs to starter packs, etc. will be broken and need external updates.
     - Ensure to register the old handle with a secondary email address, and add a note `moved to @newhandle` into the biography. This helps avoid name squatting.
 
 #### Optional suggestions for Bluesky
 
+1. [Add Bluesky to your GitLab profile](https://docs.gitlab.com/ee/user/profile/#add-external-accounts-to-your-user-profile-page).
 1. Review the [Bluesky Getting Started guide by Dean Lofts](https://blog.deanlofts.xyz/guides/getting-started-bluesky/).
 1. Explore alternative UIs
     - [deck.blue](https://deck.blue/) is a Tweetdeck alternative for Bluesky.
@@ -211,9 +212,10 @@ _Missing features, 2024-11-11:_
     - Workaround: Use a raw API call with the handle: `https://public.api.bsky.app/xrpc/app.bsky.actor.getProfile?actor=YOURHANDLE` in your browser or on the CLI with `curl` and `jq`. Example for `dnsmichi.dev`:
 
     ```shell
-    curl -s 'https://public.api.bsky.app/xrpc/app.bsky.actor.getProfile?actor=dnsmichi.dev' | jq -c '.handle, .followersCount'
+    curl -s 'https://public.api.bsky.app/xrpc/app.bsky.actor.getProfile?actor=dnsmichi.dev' | jq -c '.handle,.did,.followersCount'
     "dnsmichi.dev"
-    1913
+    "did:plc:orvu3nk4bdy7edgw3bvnk4pm"
+    2605
     ```
 
 1. Add user to Starter Pack from their profile view ([issue](https://github.com/bluesky-social/social-app/issues/6104)).
@@ -225,7 +227,7 @@ _Missing features, 2024-11-11:_
 | Cesar Saveedra | [@cealsair.bsky.social](https://bsky.app/profile/cealsair.bsky.social) |
 | Daniel Helfand | [@dhelfand.bsky.social](https://bsky.app/profile/dhelfand.bsky.social) |
 | Fatima Sarah Kalid | [@sugaroverflow.com](https://bsky.app/profile/sugaroverflow.com) |
-| John Coghlan | [@john-cogs.bsky.social](https://bsky.app/profile/john-cogs.bsky.social) |
+| John Coghlan | [@john-cogs.bsky.social](https://bsky.app/profile/coghlan.me) |
 | Michael Friedrich | [@dnsmichi.dev](https://bsky.app/profile/dnsmichi.dev) |
 | William Arias | [@pywarias.bsky.social](https://bsky.app/profile/pywarias.bsky.social) |
 | GitLab brand social | [@gitlab.com](https://bsky.app/profile/gitlab.com) |
