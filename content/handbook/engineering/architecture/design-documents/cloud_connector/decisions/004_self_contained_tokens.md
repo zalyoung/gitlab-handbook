@@ -44,7 +44,7 @@ Discovering and fetching keys over the network adds complexity add increases ris
    where CustomersDot was put into maintenance mode, making its own keys endpoint unavailable.
 1. **Network requests are costly.** It is too costly for backend services to fetch keys on each request.
    Even if the IdP is reachable, it must maintain a cache, which needs to be
-   invalidate whenever keys roll over. Unfortunately, OIDC-D does not address this problem and leaves it up to
+   invalidated whenever keys roll over. Unfortunately, OIDC-D does not address this problem and leaves it up to
    service maintainers and library developers to decide how this should be dealt with.
 1. **Caches introduce a state management problem.** 2 and 3 mean we need to solve a state distribution
    problem where each participant (backend service) may decide on a different strategy on how this cache
@@ -56,7 +56,7 @@ Discovering and fetching keys over the network adds complexity add increases ris
    3 independent implementations of OIDC-D (2 in Golang, 1 in Python) that were all built by different teams
    or use different 3rd-party libraries and that exhibit different behaviors as regards key management.
    This results in [bugs](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/173689)
-   and ultimately maintenance overhead. Had this bug made it into a production system, it would have let to
+   and ultimately maintenance overhead. Had this bug made it into a production system, it would have led to
    another AI outage.
 
 ## Decision
@@ -101,7 +101,7 @@ then use this key to perform ordinary JWT verification as we do today.
 This approach affords us with the following benefits:
 
 1. **Improves resilience and availability in face of network partitions.** Because keys are piggy-backed on each Cloud Connector request,
-   no addition network calls need to be made, which removes all sorts of failure classes by design and improves
+   no additional network calls need to be made, which removes all sorts of failure classes by design and improves
    the resilience and availability of Cloud Connector services.
 1. **Reduces key rotation risk.** Since requests are self-descriptive, no additional state needs to be maintained in
    caches. Without a need for caches, no problems like cache invalidation need to be solved. This reduces risk when
