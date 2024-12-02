@@ -3,6 +3,7 @@ Acai
 Aleesha
 Alix
 Altherr
+Arvind
 ashiel
 Bandur
 Bao
@@ -21,6 +22,7 @@ Davila
 Deepika
 Demiri
 denhams
+Derald
 Diaz
 Dilan
 Djordje
@@ -30,6 +32,7 @@ Dusek
 Dybenko
 Dzalbo
 Egan
+Falor
 Farris
 Gabe
 Gudgenov
@@ -68,6 +71,7 @@ Morrill
 Murph
 Nabitha
 Naheil
+Narayanan
 Neuberger
 Ng
 Nnamdi
