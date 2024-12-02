@@ -97,7 +97,25 @@ The [Growth and Development]({{< ref "/handbook/people-group/learning-and-develo
 
 ## Modern Health - Mental Health Benefit
 
-GitLab offers Mental Health Support to all team members via [Modern Health]({{< ref "modern-health" >}}).
+GitLab offers Mental Health Support through therapy and coaching sessions to all team members via [Modern Health]({{< ref "modern-health" >}}).
+
+## Vivvi Caregiving Benefits
+
+GitLab recognizes the challenges that balancing caregiving responsibilities at home can bring, and we strive to support our team members with comprehensive benefits. GitLab team members are eligible to access **Backup Care & Tutoring Benefits** through Vivvi.
+
+GitLab team members receive credits to use for backup care and learning benefits through Vivvi. [Click here](https://share.hsforms.com/1gj0LdnKCQ1-GXyLsGmFDjg47d19) to sign up and activate your benefits. 
+
+### Benefit Options & Taxability
+
+- **Care Cash:** Use your preferred backup care provider and get reimbursed up to 100 USD per day for the cost.
+- **Virtual Tutoring:** Weekly, 1-hour sessions for students (grades K–12) in subjects like math, SAT prep, or executive functioning skills.
+- **Center-Based Backup Child Care:** Available at Vivvi’s NY campuses or network daycare centers in the US and UK.
+- **In-Home Backup Child Care** For children ages 0–12 in the US, Canada, and UK.
+- **In-Home Backup Adult & Elder Care** For adults of all ages in the US, Canada, and UK.
+
+More information on the program can be found on the [Vivvi FAQ.](https://drive.google.com/file/d/1_AcfteDGUB9L6ZocdUsG3PuNaTGKbD-Y/view) 
+
+Please note that this benefit is considered **taxable income**. To ensure compliance, any usage of the benefit will be reported, and applicable taxes will be deducted through payroll. 
 
 ## GitLab Summit
 
