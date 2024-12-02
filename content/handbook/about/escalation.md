@@ -47,16 +47,16 @@ Additionally, any GitLab team member can volunteer to join the [#handbook-escala
 
 1. Make sure you are in and do not mute the [#handbook-escalation](https://gitlab.slack.com/archives/CVDP3HG5V) channel.
 1. When an issue is reported:
-    1. Acknowledge the team member and let them know you are looking into it.
-    1. You can check on `#production`, `#incident-management`, and `#is-this-known` to see if it's a known issue with infrastructure or other problems.
-    1. Provide an update as soon as you are able to confirm their problem.
-    1. You can also post updates in `#mr-buddies` and/or `#handbook` as appropriate.
-    1. Offer to have a Zoom call to help replicate or resolve the issue if it is not straight forward.
-    1. Resolve the problem, or provide feedback to the team member on how they can resolve it.
-    1. If you do not believe you can resolve it and need further assistance, consider any or all of the following:
-       1. Ping another member of the [Keep main green group](#keep-main-green-group).
-       1. Ping the [handbook DRI](maintenance.md#team-structure), or a member of the code maintainer group.
-       1. [Create a bug issue](https://gitlab.com/gitlab-com/content-sites/handbook/-/issues/new) with details.
+   1. Acknowledge the team member and let them know you are looking into it.
+   1. You can check on `#production`, `#incident-management`, and `#is-this-known` to see if it's a known issue with infrastructure or other problems.
+   1. Provide an update as soon as you are able to confirm their problem.
+   1. You can also post updates in `#mr-buddies` and/or `#handbook` as appropriate.
+   1. Offer to have a Zoom call to help replicate or resolve the issue if it is not straight forward.
+   1. Resolve the problem, or provide feedback to the team member on how they can resolve it.
+   1. If you do not believe you can resolve it and need further assistance, consider any or all of the following:
+      1. Ping another member of the [Keep main green group](#keep-main-green-group).
+      1. Ping the [handbook DRI](maintenance.md#team-structure), or a member of the code maintainer group.
+      1. [Create a bug issue](https://gitlab.com/gitlab-com/content-sites/handbook/-/issues/new) with details.
 
 ### When to hand over to Reliability Engineering
 
@@ -68,7 +68,7 @@ To report an incident follow the instructions on the Incident Management page: <
 
 ### Failing pipeline
 
-Please see the [handbook editing page](../editing-handbook/#failing-pipelines) for guidance and examples.
+Please see the [handbook editing page](editing-handbook/_index.md#failing-pipelines) for guidance and examples.
 
 ### Managing broken main alerts in #handbook-escalation
 
