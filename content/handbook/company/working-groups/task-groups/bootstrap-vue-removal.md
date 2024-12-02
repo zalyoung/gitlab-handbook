@@ -65,3 +65,4 @@ These are the known challenges, but there may be additional issues that have yet
 | Member          | Paul Gascou-Vaillancourt | Senior Frontend Engineer, Foundations::Personal Productivity |
 | Member          | Lukas Eipert             | Staff Frontend Engineer, Foundations::Personal Productivity  |
 | Member          | Lorenz van Herwaarden    | Senior Frontend Engineer, Govern::Threat Insights            |
+| Member          | Chaoyue Zhao             | Frontend Engineer, Create::Source Code                       |
