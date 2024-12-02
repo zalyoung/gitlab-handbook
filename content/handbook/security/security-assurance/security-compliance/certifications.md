@@ -33,7 +33,7 @@ We plan to maintain our existing certifications and attestations. We will contin
 - FedRAMP Moderate Authorization for GitLab Dedicated for Government
 - StateRAMP
 
-**Under consideration / guaging customer demand:**
+**Under consideration / gauging customer demand:**
 
 - PCI DSS SAQ D (Service Provider) and SAQ A (Merchant)
 - IRAP Protected
