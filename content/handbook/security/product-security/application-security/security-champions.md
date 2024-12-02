@@ -24,7 +24,7 @@ The **Security Champions Program** will embed designated security advocates (Sec
     - Advocate for and raise awareness of security best practices in their teams.
   
   - **AppSec Team**:  
-    - Provide initial training and ongoing education to Security Champions. This will most likely be through an LMS platform.
+    - Provide initial training and ongoing education to Security Champions. This will most likely be through a learning management system.
     - Develop and maintain the educational content, including security processes and secure coding guidelines.
     - Support Champions with resources, tools, and expertise for vulnerability management and remediation.
     - Assist with escalation and investigation of high-priority security issues.
