@@ -4,12 +4,7 @@ title: "Technical Leads at GitLab"
 
 ## Technical Leads
 
-At GitLab, a Technical Lead ("Tech Lead") is an [archetype](/handbook/engineering/ic-leadership) and a role. When we think
-about "Tech Lead" as an archetype we mean that Staff+ Engineers at GitLab are
-supposed to exhibit patterns of behavior that make them act as technical
-leaders, who partner with Engineering Managers and Product Managers to support
-milestone planning, coordination, sequencing and then help teammates address
-complexities with their deliverables.
+At GitLab, a Technical Lead ("Tech Lead") is both an [archetype](/handbook/engineering/ic-leadership/#tech-lead) and a [role](#the-tech-lead-role).
 
 "Tech Lead as an archetype" is an expectation, especially for Staff+ Engineers,
 but "Tech Lead as a role" can be assigned to any Engineer, regardless of their
@@ -50,13 +45,13 @@ The Engineering Manager (EM) can also help provide support in project management
 
 While both Tech Leads and [DRIs](../people-group/directly-responsible-individuals.md) have important leadership roles, they serve different purposes:
 
-- A Tech Lead is a temporary role focused on technical leadership for a specific project or initiative. They provide technical guidance to other engineers, architectural vision, and help coordinate the engineering effort between multiple teams. Multiple Tech Leads can exist simultaneously within a team for different projects.
+- A Tech Lead is a temporary role focused on technical leadership for a specific Epic, or initiative, like a working group. While the Tech Lead and DRI roles often overlap, they are distinct and can be assigned separately. The DRI is ultimately accountable for the success or failure of the project and owns the delivery, while the Tech Lead provides technical guidance and coordination.
 
-- A DRI is the single person ultimately accountable for the success or failure of a project or decision. They are empowered to make final decisions and they needn't be the individual that does the tactical project work. 
+- A DRI is the single person ultimately accountable for the success or failure of a project or decision. They have the authority over making final decisions and they needn't be the individual that does the tactical project work. 
 
 A Tech Lead may or may not be the DRI for their project. In fact, a Tech Lead can further report to a DRI. 
 
-For example, on a new feature, while the Tech Lead focuses on technical implementation and coordination, the Product Manager is typically the DRI for feature prioritization, and the Engineering Manager is the DRI for delivery.
+For example, on a cross-functional working group, the Tech Lead may focus on technical implementation and coordination of a specific part of the initiative, while they report to a DRI who is responsible for the overall success of the initiative.
 
 ### When does a project require a Tech Lead?
 
@@ -76,8 +71,6 @@ To formally assign a Tech Lead to a project, the Engineering Manager (EM) should
 1. Add the designated person as Assignee to the Epic.
 1. Add a clear identifier in the Epic description using the format: "Tech Lead: [Name]".
 1. Add the `~tech-lead-project` label to the Epic.
-
-GitLab will maintain an overview of Tech Leads across projects in the `gitlab-org` group through an automatically generated static site. This site will be built via CI by identifying Epics tagged with the `~tech-lead-project` label, making it easy and transparent to see who is leading which technical initiatives across the organization. The site is accessible at [https://gitlab-org.gitlab.io/gitlab-tech-leads/](https://gitlab-org.gitlab.io/gitlab-tech-leads/) and is updated daily.
 
 ### Slack channel
 
