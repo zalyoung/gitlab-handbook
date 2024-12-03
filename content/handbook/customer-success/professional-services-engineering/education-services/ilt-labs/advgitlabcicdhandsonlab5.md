@@ -21,7 +21,7 @@ In this lab we will analyze more complex merge processes, looking specifically a
 
 1. Under Merge options, click the options **Enable merged results pipeline**, **Pipelines must succeed**, and **Enable merge trains**.
 
-1. At the bottom of the page, select **Save changes**.
+1. At the bottom of the section, select **Save changes**.
 
 ## Task B. Running a merge train
 
@@ -40,6 +40,17 @@ To demonstrate a merge train, let’s create a purposefully long CI/CD job.
         - sleep 4m
     ```
 
+1. Add in the following rules to ensure jobs run on merge request pipelines:
+
+```yml
+workflow:
+      auto_cancel:
+        on_job_failure: all
+      rules:
+        - if: $CI_PIPELINE_SOURCE == 'merge_request_event'
+        - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
+```
+
 The current pipeline should look like this:
 
   ```yml
@@ -50,6 +61,9 @@ The current pipeline should look like this:
     workflow:
       auto_cancel:
         on_job_failure: all
+      rules:
+        - if: $CI_PIPELINE_SOURCE == 'merge_request_event'
+        - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
 
     default:
       image: node:latest
