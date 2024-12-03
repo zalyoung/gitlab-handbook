@@ -148,7 +148,25 @@ Table with examples:
 |   I find the way different pipelines are presented to be confusing and it's hard to know which are running  | Pipelines confusing |  Pipelines  | Complex/Confusing |
 |    Any simplification wherever possible is welcome    |   wants simplicity     | Not applicable | Complex/Confusing |
 
-### 8. **Create a summary table with examples for each theme.**
+### 8. **Sentiment Analysis.**
+
+Once you’ve determined your final themes, you may also want to incorporate sentiment analysis into your verbatim analysis. Sentiment analysis identifies and categorizes emotions or attitudes, such as positive, negative, or neutral. This can be applied to the entire response or at the topic level, known as Aspect-Based Sentiment Analysis (ABSA).
+
+ABSA is particularly useful because a single response may include multiple sentiments tied to different topics. For example, a user might express frustration about navigation while praising the dashboard. By applying ABSA, you can identify sentiment at a granular level, providing richer insights into specific aspects of the user experience.
+
+Here’s an example illustrating different sentiments for the same theme:
+
+| SUS Verbatim | Final Code | Topic | SUS Theme | Sentiment |
+| ------ | ------ |  ------ |  ------ |  ------ |
+| I find the new “rules” section of gitlab-ci not intuitive. The former system was less complex and easier to understand. | CI rules complex | CI/CD | Ease of Use | Negative |
+| The new “rules” section of gitlab-ci is fairly straightforward, though it could use a bit more clarity. | CI rules complex | CI/CD | Ease of Use | Neutral |
+| I find the new “rules” section of gitlab-ci much more intuitive and easier to work with compared to the old system. | CI rules complex | CI/CD | Ease of Use | Positive |
+
+
+This approach helps differentiate not just what users are discussing but how they feel about each topic, adding depth and context to your analysis. 
+
+
+### 9. **Create a summary table with examples for each theme.**
 
 After you define and assign your final themes (or during that process), create a table with examples of each theme as well as a quick description. This will make it easier for your stakeholders to understand what you've done.
 
@@ -159,3 +177,4 @@ Table with example:
 | Complex/Confusing | User notes that there is a lot going on with GitLab and/or that it's very complex | "I think the way different pipelines are presented to be confusing and it's hard to know which are running" |
 
 You'll want to set aside some dedicated time to work on your analysis. Generally, your analysis will take 1-2 weeks to complete. It will take you a lot longer if you need to context-switch during your analysis because you'll have to spend time to refamiliarize yourself with the codes or themes that you've generated so far, and if you take too long of a break you'll have to review the data set so that you can make sure that your themes reflect what you saw in the entire data set.
+
