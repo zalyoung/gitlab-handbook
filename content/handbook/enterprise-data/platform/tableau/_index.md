@@ -491,6 +491,8 @@ The Data Team will regularly review users' Tableau activity to determine if user
   - Have accessed a View within the past 90 days
   - Have accessed a Datasource within the past 90 days
 
+In addition to the guidelines above, we typically reserve Creator licenses for team members whose role is primarily Analytics-based (i.e. analysts within functional teams, and/or team members whose core responsibilities include developing reports for their team). 
+
 Inactive licenses will be reclaimed quarterly following our [Data Health and Security practices](/handbook/enterprise-data/data-management/#tableau).
 
 **Tracking License Usage**
