@@ -18,7 +18,7 @@ description: "Learn about the Digital Success team, its mission, structure, coll
 
 ### Roadmap  
 
-- [<i class="far fa-clipboard"></i> Digital Success Roadmap](#https://gitlab.com/groups/gitlab-com/customer-success/digital-success/-/roadmap?state=opened&sort=START_DATE_ASC&layout=WEEKS&timeframe_range_type=CURRENT_QUARTER&progress=COUNT&show_progress=true&show_milestones=true&milestones_type=SUBGROUP&show_labels=true)  
+- [<i class="far fa-clipboard"></i> Digital Success Roadmap](https://gitlab.com/groups/gitlab-com/customer-success/digital-success/-/roadmap?state=opened&sort=START_DATE_ASC&layout=WEEKS&timeframe_range_type=CURRENT_QUARTER&progress=COUNT&show_progress=true&show_milestones=true&milestones_type=SUBGROUP&show_labels=true)  
 
 ### Team Resources  
 
@@ -36,7 +36,7 @@ description: "Learn about the Digital Success team, its mission, structure, coll
 
 ---
 
-## <i class="fa-solid fa-map-location-dot" style="color: #B197FC;"></i> Digital Success Team Strategy  
+## <i class="fa-solid fa-map-location-dot" style="color: #B197FC;"></i> Digital Success Team Strategy
 
 ### **Our Mission: Centralizing Customer Success Content...**  
 
