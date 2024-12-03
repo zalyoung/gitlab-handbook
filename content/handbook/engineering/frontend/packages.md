@@ -12,7 +12,7 @@ more solid review process to make sure the benefits of removing it outweigh the 
     ```md
     The package `<package name>` has been discovered as not being maintained.
 
-    Last update: `<n years ago`
+    Last update: `<n years ago>`
     Latest version: `v.v.v`
     Repository URL: `https://example.com`
 
@@ -25,9 +25,15 @@ more solid review process to make sure the benefits of removing it outweigh the 
 
     ### Alternative packages
     - `name`, `repo url`, pros and cons
+
+    ### Affected areas
+    list the categories where this package is used and how
+
+    ### Other considerations
+    Note any other considerations that may affect the decision to replace the package
     ```
 
 1. Ping at least one FE maintainer on the issue to ask for feedback before deciding on a path forward
 1. If the package has been determined to have no security vulnerabilities, set the issue to public.
 1. Decide whether to leave the package in place or replace it with an alternative package
-1. If deciding to replace the package, start the MR.
+1. If deciding to replace the package, create an MR.
