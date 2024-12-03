@@ -175,7 +175,6 @@ The Organization MVC for Cells 1.0 will contain the following functionality:
   - The creation of an Organization appoints that User as the Organization Owner.
   - Organization Owners can update the existing role of a user from User to Owner or vice versa.
   - A User can only be part of one Organization for Cells 1.0. A new account needs to be created for each Organization a User wants to be part of. GitLab team members may be part of multiple Organizations for testing purposes.
-  - Organization Owners can delete users from an Organization. This equals an account deletion in the context of Cells 1.0.
   - When a user becomes a member of a group or project they are also added as an Organization User. They receive an email informing them that they have been added to the Organization.
   - Removing a user from their last group or project should not remove them from the Organization.
   - Users can delete their own accounts. Users should not be able to delete their account when they are the last Owner of an Organization.
@@ -241,6 +240,7 @@ Organizations in the context of Cells 1.5 will contain the following functionali
 - **Deletion**
   - Organizations can be deleted by Organization Owners.
 - **Users**
+  - Organization Owners can remove users from an Organization. If a user only belongs to one Organization they cannot be removed, they must first be added to a second Organization.
   - Organization Users can be part of multiple Organizations using one account.
   - Users are able to navigate between their Organizations using an Organization switcher.
   - Non-Enterprise Users can be removed from or leave an Organization.
