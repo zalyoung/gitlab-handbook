@@ -319,7 +319,12 @@ hugolint:
     - hugolint linkcheck --format=json $(find content -type f -name '*.md' | grep -v ' ') >linkcheck.json
     - hugolint missinglinks --num 30 $(find content -name '*.md' | grep -v ' ') >missinglinks.txt 2>/dev/null
     - head -n 20 missinglinks.txt
-    - if [ -f "linkcheck.json" ] && [ -s "linkcheck.json" ] && [ "$(jq length linkcheck.json)" -gt 0 ]; then echo "Broken relative links detected."; exit 1; fi
+    - |
+      # Compare with target branch when running as a merge request pipeline.
+      if [ "${CI_PIPELINE_SOURCE}" == "merge_request_event" ]; then
+        hugolint codequality latest --artifact 'linkcheck.json' >'latest.json'
+        hugolint codequality diff --exit-code 'latest.json' 'linkcheck.json'
+      fi
   artifacts:
     when: always
     expire_in: 1 month
