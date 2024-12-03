@@ -68,6 +68,7 @@ See the [Terrain Mapping Engagements Page](/handbook/customer-success/customer-t
 - [Customer Success Manager handbook](/handbook/customer-success/csm/)
 - [Customer Success Engineer handbook](/handbook/customer-success/csm/segment/cse/)
 - [Customer Success Architect handbook](/handbook/customer-success/csm/segment/csa/)
+- [Digital Success handbook](/handbook/customer-success/digital-success/)
 
 ### Customer Success Decision Tree
 
