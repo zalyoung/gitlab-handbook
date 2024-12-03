@@ -42,7 +42,8 @@ Members of the ESG Advisory Committee:
 ## ESG Request Process
 
 ### RFP Process for ESG Questions & Customer ESG Questionnaires
-- If a customer or potential customer has questions related to GitLab’s ESG practices **as part of an RFP**, please follow the [RFP process](https://handbook.gitlab.com/handbook/security/security-assurance/field-security/field-security-rfp/).
+
+- If a customer or potential customer has questions related to GitLab’s ESG practices **as part of an RFP**, please follow the [RFP process](/handbook/security/security-assurance/field-security/field-security-rfp/).
 - If a customer or potential customer requests information via an ESG questionnaire, please open an issue [here](https://gitlab.com/gitlab-com/www-gitlab-com/-/issues/new) and select the ‘ESG Questionnaire’ template.’
 
 ### Philanthropic Requests
