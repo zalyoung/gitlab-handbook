@@ -132,16 +132,16 @@ To ensure the Security Champions program remains effective and current, we propo
 
 ----------
 
-  - **2. Threat Modelling & Escalation**
+  - **2. Threat Modeling & Escalation**
 
-    -   **When Threat Modelling is Needed**:
+    -   **When Threat Modeling is Needed**:
     
         -   **Security Champions should initiate threat modeling** whenever a new feature, product, or change to the system is introduced that has potential security implications (e.g., new architecture, integration, or handling of SAFE data).
         -   If the feature introduces **complex or high-risk concerns** (e.g., involves external services, SAFE data handling, or broad changes), the Security Champion should initiate the process with AppSec.
     -   **Escalation to AppSec**:
     
         -   For features with significant security risks or new areas of concern, **AppSec should be involved early** to ensure that a thorough threat model is done for the feature.
-        -   For less risky or minor changes, **Champions can complete basic threat modelling with their team** and only escalate if they encounter difficulties or require expert validation.
+        -   For less risky or minor changes, **Champions can complete basic threat modeling with their team** and only escalate if they encounter difficulties or require expert validation.
     
     - **Champion’s Role in Threat Modeling**:
     
