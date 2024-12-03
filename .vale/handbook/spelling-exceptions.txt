@@ -461,6 +461,8 @@ Fullstack
 fuzzer
 fuzzing
 Gainsight
+gameday
+gamedays
 Gantt
 Gartner
 Gbps
