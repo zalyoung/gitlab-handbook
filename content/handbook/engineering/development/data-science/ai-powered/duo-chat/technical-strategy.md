@@ -5,11 +5,11 @@ description: "A detailed description of the pillars of technical strategy for th
 
 ### Overview
 
-The [Duo Chat Group](../duo-chat/) is dedicated to enhancing DevSecOps productivity by building an AI natural language interface to GitLab's Platform. This document outlines our technical strategy for building and maintaining this system, focusing on key engineering aspects that will ensure its reliability, scalability, and effectiveness.
+The [Duo Chat Group](../duo-chat/) is dedicated to enhancing DevSecOps productivity by building an AI natural language conversational interface to GitLab's Platform. This document outlines our technical strategy for building and maintaining this system, focusing on key engineering aspects that will ensure its reliability, scalability, and effectiveness.
 
 We've identified several critical areas that require our attention, including system observability, performance optimization, and integration with existing GitLab features. Our approach emphasizes robust monitoring and alerting systems, comprehensive test coverage, and a resilient architecture capable of handling potential failures in external LLM services. We're also prioritizing security and compliance measures to address the evolving regulatory landscape surrounding AI technologies.
 
-To support ongoing development and maintenance, we're establishing clear incident management procedures and investing in tools to improve the developer experience for both our team and GitLab users. This includes creating better documentation, streamlining API interactions, and refining our deployment processes. By addressing these technical challenges, we aim to create a stable foundation that will allow us to iterate on the Chat application effectively, meeting both [current and future requirements](https://about.gitlab.com/direction/ai-powered/duo_chat/) as the project evolves.
+To support ongoing development and maintenance, we're establishing clear incident management procedures and investing in tools to improve the developer experience for both our team as well as contributing teams and of course improve the experience for our Duo Chat users. This includes creating better documentation, streamlining API interactions, and refining our deployment processes. By addressing these technical challenges, we aim to create a stable foundation that will allow us and our contributors to iterate on the Chat application effectively, meeting both [current and future requirements](https://about.gitlab.com/direction/ai-powered/duo_chat/) as the project evolves.
 
 In the coming months, the Duo Chat team will make strategic investments in all of these areas through our [technical roadmap](https://gitlab.com/groups/gitlab-org/ai-powered/duo-chat/-/epics/1). This will form the technical foundation upon which we will continue to build a first-class, LLM-driven Chat solution to meet market and customer needs.
 
@@ -17,7 +17,7 @@ In the coming months, the Duo Chat team will make strategic investments in all o
 
 Given the range of systems, databases, and third-party services involved in each request to the Chat application, it is essential to maintain comprehensive and accessible monitoring dashboards that offer visibility into the status of these various layers and components. The observability framework should be built around key metrics aligned with the four golden signals: latency, traffic, errors, and saturation. Metrics such as resource utilization, concurrency, logs, traces, and events should provide further insight into system performance and behavior.
 
-Additionally, this framework should incorporate a well-defined alerting system, enabling prompt detection and response when any component deviates from expected patterns.
+Furthermore, the framework should include a robust alerting system that facilitates swift detection and response whenever any component deviates from expected patterns.
 
 Although progress has been made in logging errors and displaying error codes in the user interface, further enhancements are necessary. This includes increasing granularity and capturing errors in more specific areas to provide clearer insights during the debugging process. Moreover, error documentation can be improved by offering more actionable guidance, ensuring support staff can effectively address issues as they arise.
 
@@ -53,7 +53,7 @@ In the context of increasing global regulations surrounding AI and data privacy,
 
 Additionally, as AI adoption continues to grow, providing users with explainable AI features will be increasingly important. Enabling transparency around the LLM’s decision-making processes can help build trust in the system, allowing users to understand how responses are generated and ensuring accountability in the AI’s behavior. This focus on security, compliance, and explainability will create a resilient and trustworthy system that aligns with the expectations our customers have for a secure DevSecOps environment like GitLab.
 
-### Developer experience
+### Developer Experience
 
 To support GitLab's internal engineers in integrating their own features with Duo Chat, it is essential to develop and enhance tooling that facilitates seamless interaction with the Chat APIs. Providing a robust framework for extending Chat capabilities will enable engineers to build and deploy custom tools, scripts, and APIs that interact effectively with the Chat system. This involves creating comprehensive documentation and user-friendly interfaces that allow engineers to easily integrate their features, as well as tools for testing and debugging these integrations.
 
