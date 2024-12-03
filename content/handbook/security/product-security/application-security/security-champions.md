@@ -2,6 +2,7 @@
 title: "Security Champions program"
 ---
 
+## Vision
 The Security Champions Program is designed to address the growing challenges of scaling security efforts as GitLab expands. Currently, the AppSec team supports engineering teams through stable counterparts who act as points of contact for security-related tasks like AppSec reviews, MR reviews and threat modeling. However, as the company grows and development velocity increases, this model becomes unsustainable. The Security Champions Program aims to embed dedicated security advocates within each team, allowing for faster and more effective security collaboration.
 
 By appointing Security Champions from within the engineering teams, the program fosters a proactive security culture where developers take ownership of security within their daily workflows. These champions will serve as the main security point of contact within their respective teams, ensuring that secure coding practices are followed, security issues are identified and resolved early, and teams are aligned with AppSec on broader security initiatives.
@@ -12,96 +13,100 @@ This approach will not only distribute security expertise across the organizatio
 
 ## 1. Program Structure
 
-- **Overview**:  
+### Overview  
 The **Security Champions Program** will embed designated security advocates (Security Champions) within each engineering team to drive security efforts. These champions will bridge the gap between engineering and the AppSec team, ensuring that security is deeply embedded in the software development lifecycle. Security Champions will provide security leadership and guidance within their teams, enabling quicker identification and remediation of security issues.
 
-- **Roles & Responsibilities**:
-  - **Security Champions**:  
+### Roles & Responsibilities
+  - **Security Champions**  
     - Act as the primary point of contact for security within their teams.
     - Assist with secure coding practices and provide support for security-related queries.
     - Participate in AppSec reviews, threat modeling, and security testing activities.
     - Help prioritize and escalate vulnerabilities, including those resulting from HackerOne reports.
     - Advocate for and raise awareness of security best practices in their teams.
   
-  - **AppSec Team**:  
+  - **AppSec Team**  
     - Provide initial training and ongoing education to Security Champions. This will most likely be through a learning management system.
     - Develop and maintain the educational content, including security processes and secure coding guidelines.
     - Support Champions with resources, tools, and expertise for vulnerability management and remediation.
     - Assist with escalation and investigation of high-priority security issues.
     - Ensure alignment of Security Champions with broader organizational security initiatives.
 
-- **Scope**:  
-  - Teams Involved:
+### **Scope**
+  - **Other Teams Involved**:
     Initially, the program will involve engineering teams that have had a history of high-severity vulnerabilities, like ~"group::import", as the team members in these groups already have a lot of experience dealing with security issues and fixing them. Over time, the scope will ideally expand to all engineering teams.
 
-  - Embedding Champions:
-    **(WIP)** One Security Champion will be embedded per engineering team. The Champion will work closely with their team, attending milestone planning, retrospectives, and other relevant meetings to ensure security is integrated into every stage of development.
+  - **Embedding Champions (WIP)**: One Security Champion will be embedded per engineering team. The Champion will work closely with their team, attending milestone planning, retrospectives, and other relevant meetings to ensure security is integrated into every stage of development.
 
 ---
 
 ## 2. Knowledge Sharing & Maintenance
 
-- **Knowledge Transfer Process**:
-  - **Initial training for engineers, aimed to replace Secure Code Warrior**:  
-    Based on [developer feedback for the Secure Code Warrior](https://docs.google.com/forms/d/1pF1r1kKaiVPBU_yQL0ZkbtggkmtvQFwZ6IZ1xqheo1s/edit#responses) (internal-only link), the following trends can be seen:
-      - Engineers **do** prefer a hands-on learning approach
-      - Some challenges were downright incorrect and their solutions inaccurate
-      - Many engineers found that the tutorials and challenges were **not** relevent to their role
-      - The UI is not intuitive, and the platform is hard to navigate
-      - Additions that engineers would prefer include training on **threat modeling and past GitLab bugs*, which currently does not exist in SCW
+### Migration Away From Secure Code Warrior (SCW)
 
+Initial training for engineers is  aimed to replace Secure Code Warrior. This is based on [developer feedback for the Secure Code Warrior](https://docs.google.com/forms/d/1pF1r1kKaiVPBU_yQL0ZkbtggkmtvQFwZ6IZ1xqheo1s/edit#responses) (internal-only link) which revealed that:
+  - Engineers **do** prefer a hands-on learning approach
+  - Some challenges were downright incorrect and their solutions inaccurate
+  - Many engineers found that the tutorials and challenges were **not** relevent to their role
+  - The UI is not intuitive, and the platform is hard to navigate
+  - Additions that engineers would prefer include training on *threat modeling and past GitLab bugs*, which currently does not exist in SCW
 
-    The new training will also be **hands-on**, but **specific to GitLab’s security needs**. This training will focus on **real past vulnerabilities** and practical, context-driven learning that directly applies to GitLab's tech stack and components.
+The new training will also be **hands-on**, but **specific to GitLab’s security needs**. This training will focus on **real past vulnerabilities** and practical, context-driven learning that directly applies to GitLab's tech stack and components.
 
-	-   **GitLab-Specific Vulnerability Training**:  
-    Engineers will go through **real historical vulnerabilities** that have been found in GitLab's own codebase. This will help engineers understand common mistakes and vulnerabilities specific to their code, and the techniques used to mitigate them.
+### GitLab-Specific Vulnerability Training  
+
+Engineers will go through **real historical vulnerabilities** that have been found in GitLab's own codebase. This will help engineers understand common mistakes and vulnerabilities specific to their code, and the techniques used to mitigate them.
    
-    -   **Training Content**:
-        -   Case studies of past vulnerabilities in GitLab’s components (e.g., P1 authentication/authorization bypasses, account takeovers, and most importantly- recent S1 security incidents like 5529).
-        -   **Hands-on Labs**: Engineers will be tasked with working on **real-world exercises**, attempting to exploit and then fix historical vulnerabilities in GitLab’s repository. This could include simulating attacks (e.g. XSS, broken access controls) and then guiding engineers to the correct remediation.
-        -   **Security Patching Exercises**: Engineers will practice creating patches for the vulnerabilities, following GitLab's secure coding guidelines. This may involve simulating interactions with AppSec, in order to mock AppSec approvals on security MRs. The Champion can play the role of an AppSec engineer in these scenarios, following [AppSec's handbook process of MR reviews](https://handbook.gitlab.com/handbook/security/product-security/application-security/appsec-reviews/)
-        -   **Focus Areas**: Emphasis will be placed on vulnerabilities related to the technologies used at GitLab (i.e., **Rails**, **Go**).
-    -   **Integrated Vulnerability Scanning Tools**:  
-    Engineers may also be trained to use the **security scanning tools** integrated into GitLab, such as **SAST** (Static Application Security Testing), **vulnerability report dashboards** ([example](https://gitlab.com/gitlab-org/gitaly/-/security/vulnerability_report/?_gl=1%2ae3kp0p%2a_ga%2aNTU4MDk1ODcuMTY2NDc3NTA0OA..%2a_ga_ENFH3X7M5Y%2aMTY3Mzk3MDYwOC4xMDIuMS4xNjczOTcyNDMxLjAuMC4w)) and **dependency scanning**. Engineers will learn how to **triage and fix vulnerabilities** identified by these tools and integrate them into their development workflow.
+### Training Content
+  -   Case studies of past vulnerabilities in GitLab’s components (e.g., P1 authentication/authorization bypasses, account takeovers, and most importantly- recent S1 security incidents like 5529).
+  -   **Hands-on Labs**: Engineers will be tasked with working on **real-world exercises**, attempting to exploit and then fix historical vulnerabilities in GitLab’s repository. This could include simulating attacks (e.g. XSS, broken access controls) and then guiding engineers to the correct remediation.
+  -   **Security Patching Exercises**: Engineers will practice creating patches for the vulnerabilities, following GitLab's secure coding guidelines. This may involve simulating interactions with AppSec, in order to mock AppSec approvals on security MRs. The Champion can play the role of an AppSec engineer in these scenarios, following [AppSec's handbook process of MR reviews](https://handbook.gitlab.com/handbook/security/product-security/application-security/appsec-reviews/)
+  -   **Focus Areas**: Emphasis will be placed on vulnerabilities related to the technologies used at GitLab (i.e., **Rails**, **Go**).
+
+### **Integrated Vulnerability Scanning Tools**:  
+Engineers may also be trained to use the **security scanning tools** integrated into GitLab, such as **SAST** (Static Application Security Testing), **vulnerability report dashboards** ([example](https://gitlab.com/gitlab-org/gitaly/-/security/vulnerability_report/?_gl=1%2ae3kp0p%2a_ga%2aNTU4MDk1ODcuMTY2NDc3NTA0OA..%2a_ga_ENFH3X7M5Y%2aMTY3Mzk3MDYwOC4xMDIuMS4xNjczOTcyNDMxLjAuMC4w)) and **dependency scanning**. Engineers will learn how to **triage and fix vulnerabilities** identified by these tools and integrate them into their development workflow.
     
-    -   **Completion & Evaluation**:  
-    Engineers will complete the training modules with practical exercises and assessments. They will also be given a final **“real-world vulnerability scenario”** where they must identify, prioritize, and remediate a vulnerability in a simulated environment similar to GitLab's production systems.
+### **Completion & Evaluation at End of Training**:  
+Engineers will complete the training modules with practical exercises and assessments. They will also be given a final **“real-world vulnerability scenario”** where they must identify, prioritize, and remediate a vulnerability in a simulated environment similar to GitLab's production systems.
+
+
+## **Training Outline for Security Champions**  
+
+### **Role Introduction**
+  - The role of Security Champions
+    - How Security Champions fit into the broader **AppSec framework** at GitLab.
+    -   Key security challenges faced by GitLab, including past incidents, vulnerability trends, and areas of improvement.
+
+### **Practical Vulnerability Remediation**
+  - Security Champions will receive training on **how to identify**, **analyze**, and help **remediate vulnerabilities** in real code by reviewing MRs and identifying vulnerabilities.
+	- **Collaboration with Engineering Teams**
+	  -   Security Champions will be trained on how to **collaborate with their teams** to ensure security is built into the development lifecycle:
+	  -   Facilitating **security discussions** during milestone planning, reviews, and retrospectives.
+	  -   Assisting engineers with secure design patterns, threat modeling, and code reviews.
+	
+### **Escalation and Incident Response**
+  -   Training on when and how to escalate issues to **AppSec**
+	  -   What to do when a **high-risk vulnerability** is discovered, (eg. the Champion's role during **security incidents**).
+
+## **Training Content Updates & Maintenance**
+
+### **Updating Educational Content**:  
+The process for updating training materials and content will be designed to ensure that all educational resources stay current with emerging security threats, new vulnerabilities, updates to GitLab’s codebase, and improvements to security tools and practices. This continuous improvement process will involve a combination of proactive and reactive updates to address both anticipated needs and lessons learned from past security incidents.
+
+### **Content Review Cycle**
+To ensure the Security Champions program remains effective and current, we propose an agile approach to content management. Instead of resource-intensive quarterly reviews, we'll implement a system of continuous updates driven by trend tracking (like HackerOne stats), distributed responsibilities among Champions and AppSec, and user feedback. This approach will be integrated with GitLab's development cycles and supported by AI-assisted content analysis. By focusing on specific areas each quarter and leveraging internal expertise from AppSec, we can maintain high-quality, relevant training materials without overburdening our teams. This streamlined process will keep our Security Champions at the forefront of evolving security practices while balancing their primary engineering responsibilities.
+
+**Post-Incident Reviews**: After every significant security incident, training content will be updated based on the lessons learned. This may include:
+
+- Updates to secure coding guidelines if a vulnerability type was missed or poorly addressed in the past.
+-   Real-world examples added to the training from post-mortem analysis and remediation steps.
+
+### **Feedback Loops**
+
+**Feedback from Security Champions and Engineers**: Regular feedback from Security Champions and engineering teams will be solicited via surveys, retrospectives, and direct feedback channels (e.g. Slack or ideally GitLab issues). This feedback will be used to adjust content based on user experience, effectiveness, and gaps identified during real-world application.
+
+**Security Metrics**: Metrics will highlight areas where engineers might need more training. For example, if a certain class of vulnerabilities (like pipeline impersonation or account takeovers) is repeatedly discovered, additional content will be created to target those issues specifically.
   
-  - **Training for Security Champions**:  
-    -   **Introduction**
-   
-        -   The role of Security Champions.
-        -   How Security Champions fit into the broader **AppSec framework** at GitLab.
-        -   Key security challenges faced by GitLab, including past incidents, vulnerability trends, and areas of improvement.
-
-    -   **Practical Vulnerability Remediation**
-    
-        -   Security Champions will receive training on **how to identify**, **analyze**, and help **remediate vulnerabilities** in real code by reviewing MRs and identifying vulnerabilities.
-	-   **Collaboration with Engineering Teams**
-	    -   Security Champions will be trained on how to **collaborate with their teams** to ensure security is built into the development lifecycle:
-	        -   Facilitating **security discussions** during milestone planning, reviews, and retrospectives.
-	        -   Assisting engineers with secure design patterns, threat modeling, and code reviews.
-	-   **Escalation and Incident Response**
-    
-	    -   Training on when and how to escalate issues to **AppSec**
-	    -   What to do when a **high-risk vulnerability** is discovered, (eg. the Champion's role during **security incidents**).
-
-- **Content Updates & Maintenance**:
-  - **Updating Educational Content**:  
-    The process for updating training materials and content will be designed to ensure that all educational resources stay current with emerging security threats, new vulnerabilities, updates to GitLab’s codebase, and improvements to security tools and practices. This continuous improvement process will involve a combination of proactive and reactive updates to address both anticipated needs and lessons learned from past security incidents.
-     - **Content Review Cycle**
-       -   **Continuous Improvement**: To ensure the Security Champions program remains effective and current, we propose an agile approach to content management. Instead of resource-intensive quarterly reviews, we'll implement a system of continuous updates driven by trend tracking (like HackerOne stats), distributed responsibilities among Champions and AppSec, and user feedback. This approach will be integrated with GitLab's development cycles and supported by AI-assisted content analysis. By focusing on specific areas each quarter and leveraging internal expertise from AppSec, we can maintain high-quality, relevant training materials without overburdening our teams. This streamlined process will keep our Security Champions at the forefront of evolving security practices while balancing their primary engineering responsibilities.
-       -   **Post-Incident Reviews**: After every significant security incident, training content will be updated based on the lessons learned. This may include:
-           -   Updates to secure coding guidelines if a vulnerability type was missed or poorly addressed in the past.
-           -   Real-world examples added to the training from post-mortem analysis and remediation steps.
-
-   - **Feedback Loops**
-
-       -   **Feedback from Security Champions and Engineers**: Regular feedback from Security Champions and engineering teams will be solicited via surveys, retrospectives, and direct feedback channels (e.g. Slack or ideally GitLab issues). This feedback will be used to adjust content based on user experience, effectiveness, and gaps identified during real-world application.
-       -   **Security Metrics**: Metrics will highlight areas where engineers might need more training. For example, if a certain class of vulnerabilities (like pipeline impersonation or account takeovers) is repeatedly discovered, additional content will be created to target those issues specifically.
-  
-- **Directly Responsible Individuals (DRIs)**:  
- Identify who is responsible for maintaining and updating training content.
+**Directly Responsible Individuals (DRIs)**:  Identify who is responsible for maintaining and updating training content.
 
 ---
 
@@ -179,45 +184,113 @@ The **Security Champions Program** will embed designated security advocates (Sec
 
 ## 5. Objectives and Success Metrics
 
-- **Onboarding Program**:
-  - **Objective**: Ensure all new engineers are effectively trained on GitLab’s secure coding guidelines, past vulnerabilities, and secure development practices.
-  - **Success Metric**: 
-    - 90%+ completion rate for onboarding training within the first 30 days.
-    - Positive feedback from at least 80% of new engineers regarding training relevance and effectiveness.
+### **Onboarding Program**
+**Objective**: Ensure all new engineers are effectively trained on GitLab’s secure coding guidelines, past vulnerabilities, and secure development practices.
 
-- **Security Champions Program**:
-  - **Objective**: Embed security champions in engineering teams to promote secure coding practices, assist with code reviews, and help identify potential security vulnerabilities early in the development process.
-  - **Success Metric**: 
-    - At least one Security Champion in each stage within 3 months.
-    - 80%+ of code reviews include active participation from Security Champions.
-    - Champions identify and raise at least 3 potential vulnerabilities or security-focused improvements per quarter.
-    - At least 2 threat models and 2 AppSec reviews initiated by Champions per quarter.
+**Success Metric**: 
+  - 90%+ completion rate for onboarding training within the first 30 days.
+  - Positive feedback from at least 80% of new engineers regarding training relevance and effectiveness.
 
-- **Champions’ Objectives**:
-  - **Objective**: Equip Security Champions with the tools, knowledge, and support to act as security leaders within their teams, ensuring secure development practices are followed.
-  - **Success Metric**: 
-    - Champions lead or participate in at least 90% of their team’s security-related code reviews.
-    - Champions identify vulnerabilities or suggest improvements during code reviews with measurable impact (e.g., issues raised before the MR is merged). This needs to be quantified.
+### **Security Champions Program**
+**Objective**: Embed security champions in engineering teams to promote secure coding practices, assist with code reviews, and help identify potential security vulnerabilities early in the development process.
 
-- **Engineering Teams’ Objectives**:
-  - **Objective**: Ensure engineering teams adopt secure coding practices, perform thorough code reviews, and engage with AppSec when needed.
-  - **Success Metric**: 
-    - 100% of the engineering teams complete security training.
-    - 95% of engineering teams perform begin threat modelling for new features.
-    - Increase in the number of proactive security discussions in retrospectives.
+**Success Metric**: 
+  - At least one Security Champion in each stage within 3 months.
+  - 80%+ of code reviews include active participation from Security Champions.
+  - Champions identify and raise at least 3 potential vulnerabilities or security-focused improvements per quarter.
+  - At least 2 threat models and 2 AppSec reviews initiated by Champions per quarter.
+
+### **Champions’ Objectives**
+
+**Objective**: Equip Security Champions with the tools, knowledge, and support to act as security leaders within their teams, ensuring secure development practices are followed.
+
+**Success Metric**: 
+  - Champions lead or participate in at least 90% of their team’s security-related code reviews.
+  - Champions identify vulnerabilities or suggest improvements during code reviews with measurable impact (e.g., issues raised before the MR is merged). This needs to be quantified.
+
+### **Engineering Teams’ Objectives**:
+**Objective**: Ensure engineering teams adopt secure coding practices, perform thorough code reviews, and engage with AppSec when needed.
+
+**Success Metric**: 
+  - 100% of the engineering teams complete security training.
+  - 95% of engineering teams perform begin threat modelling for new features.
+  - Increase in the number of proactive security discussions in retrospectives.
 
 ---
 
-## 6. Estimated Timeline
+## 6. Estimated Timeline and Phases
 
-- **Phase 1 (1–2 Months)**:  
-  List tasks for the first phase of the program.
-  
-- **Phase 2 (3–4 Months)**:  
-  List tasks for the second phase.
+## Table of Timelines
+| **Phase**       | **Duration**      | **Key Milestones**                                                                 |
+|------------------|-------------------|-----------------------------------------------------------------------------------|
+| **Phase 1**      | 1 month        | Program draft finalized, stakeholder review completed.                            |
+| **Phase 2**      | 3–4 months        | Pilot teams trained, workflows tested, and feedback incorporated.                |
+| **Phase 3**      | 5+ months         | Full program rollout completed, feedback loops established, and metrics tracked.  |
 
-- **Phase 3 (5+ Months)**:  
-  List tasks for the third phase.
+---
+### Phase 1: Preparation and Initial Drafting (30 days)
+**Objective**: Develop a robust framework and proposal for the Security Champions Program.
+
+### Tasks:
+
+  - Finalize the program structure (this issue).
+  - Finalize what LMS we're looking to use, whether it's SCW or other.
+  - Define success metrics and integration points with other initiatives (e.g., GitLab Continuous Security Framework).
+  - Align budget estimates for training costs and incentives.
+### Deliverables:
+  -  Complete a program draft
+  -  Initial stakeholder feedback incorporated
+
+### Completion Criteria:
+
+  - Stakeholder reviews completed.
+  - All program sections reach draft status.
+  - Handbook MR merged.
+
+---
+### Phase 2: Pilot Development and Review (3–4 Months)
+**Objective**: Pilot the program in selected engineering teams.
+
+### Tasks:
+
+  - Identify pilot teams based on prior engagement with security processes or vulnerability experience.
+  - Develop a SC onboarding routine workflow
+  - Conduct targeted training sessions for Security Champions within these teams.
+  - Develop and test initial workflows for vulnerability escalation and AppSec reviews.
+  - Gather feedback on training materials and processes.
+
+### Deliverables:
+
+  - Fully trained Security Champions in pilot teams.
+  - Feedback documented in an issue with respect to pilot results
+  - Pilot workflows tested and adjusted based on real-world scenarios.
+
+
+### Completion Criteria:
+
+  - Pilot results documented.
+  - Adjustments made to the program structure and training.
+
+---
+### Phase 3: Full Rollout and Expansion (5+ Months)
+**Objective**: Scale the program to all engineering teams.
+
+### Tasks:
+
+  - Roll out the program organization-wide, embedding at least one Security Champion per team.
+  - Conduct training sessions for remaining teams.
+  - Set up periodic check-ins and feedback loops to ensure program effectiveness.
+  - Launch automated tools for vulnerability tracking and training progress monitoring.
+
+### Deliverables:
+
+  - Security Champions embedded across all engineering teams.
+  - Continuous feedback mechanism established.
+
+### Completion Criteria:
+
+  - 90% of targeted engineering teams outfitted with a Security Champion.
+  - Measurable improvement in vulnerability identification and remediation time.
 
 ---
 
