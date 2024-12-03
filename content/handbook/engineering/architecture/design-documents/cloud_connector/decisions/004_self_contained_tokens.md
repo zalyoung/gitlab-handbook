@@ -155,3 +155,38 @@ We will assume that if the `x5c` claim is missing in a token, then OIDC-D is nec
 as we do today.
 
 Eventually, we plan to phase out OIDC-D entirely.
+
+## Appendix
+
+### Configuration impact on AI gateway
+
+This deserves taking a closer look at because we support [self-hosting the AI gateway](https://docs.gitlab.com/ee/administration/self_hosted_models/index.html).
+This means that any changes to configuration or operations could affect self-managed customers.
+
+#### Before: OIDC-D requires callbacks
+
+With OIDC-D, the AI gateway (like any Cloud Connector backend service) must regularly call back into one or more
+IdPs (the GitLab monolith or CustomersDot or both) to fetch the current validation key set, regardless of where it is deployed.
+These callback URLs are currently configured using [the following environment variables](https://gitlab.com/gitlab-org/modelops/applied-ml/code-suggestions/ai-assist/-/blob/c58f238eb7469c9b1a4ef6fa444e35006c542cab/docs/auth.md#L66):
+
+- `AIGW_GITLAB_URL`
+- `AIGW_CUSTOMER_PORTAL_URL`
+
+In scope of Cloud Connector and a cloud-hosted AI gateway, it must locate and call back into both IdPs because it must
+accept and validate requests from both multi-tenant and single-tenant customers, so both values must be set.
+
+In scope of self-hosted models, the AI gateway runs in the customer's own network boundary and must call back to the customer's
+own GitLab instance. In this case, only `AIGW_GITLAB_URL` must be set.
+
+#### After: SC-JWTs require access to certificates
+
+Under this proposal i.e. using SC-JWTs, these callbacks will not be necessary anymore so for purposes of Cloud Connector,
+these environment variables don't need to be set anymore. Instead, a new piece of configuration is necessary, the root CA
+certificate. It is yet unspecified how this will be provided, but likely through the environment as well, as demonstrated
+in this [POC](https://gitlab.com/gitlab-org/modelops/applied-ml/code-suggestions/ai-assist/-/merge_requests/1502).
+
+Additionally, an IdP will need to include their end-entity certificates. This too aren't secrets
+and can be set via `gitlab.yml` as demonstrated in this [POC](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/169900).
+For Cloud Connector, both gitlab.com and CustomersDot need to be deployed with a cert. For self-hosted models, the customer GitLab
+instance needs to be deployed with a cert. To reduce conifguration burden, we should consider generating keys and their
+associated certificates during instance setup.
