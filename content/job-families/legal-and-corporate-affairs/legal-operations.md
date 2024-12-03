@@ -67,7 +67,6 @@ The Legal Operations Manager is a [grade 8](/handbook/total-rewards/compensation
 - Interest in, and ability to use and teach various software technologies, including GitLab 
 - Shares the GitLab values and works in accordance with those values
 
-
 ### Director, Contracts and Legal Operations
 
 The Director, Contracts and Legal Operations reports to the [Chief Legal Officer](/job-families/legal-and-corporate-affairs/chief-legal-officer/).
