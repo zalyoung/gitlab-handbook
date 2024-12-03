@@ -39,7 +39,7 @@ To achieve this, several techniques should be prioritized in the technical roadm
 
 Furthermore, continual evaluation of the system’s performance will be essential to identify bottlenecks and areas for further optimization. Monitoring the usage patterns, resource consumption, and response times will allow the team to proactively address any emerging challenges, ensuring that the system remains scalable and performant as it grows. This focus on both immediate and long-term scalability will support the ongoing success and stability of Duo Chat as it becomes an integral part of the GitLab platform.
 
-### Integration of Duo Chat with GitLab features
+### Expand Context Awareness and Integration of Duo Chat with GitLab features
 
 Integrating Duo Chat seamlessly with GitLab's features is essential for delivering a streamlined, intuitive user experience. By deepening the connection between the Chat system and core GitLab functions such as pipelines, merge requests, issue tracking, and others, users will be empowered to interact with these features in a more conversational and efficient manner. 
 
