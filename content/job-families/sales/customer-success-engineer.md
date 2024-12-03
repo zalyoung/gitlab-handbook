@@ -5,7 +5,7 @@ description: "The Customer Success Engineering (CSE) team focuses on driving ado
 
 ### Customer Success Engineer (CSE)
 
-CSEs drive customer adoption through one-to-many (TODO: Add link) and targeted one-to-one interactions (TODO: Add Link). Operating within a pooled model, CSEs serve clients within a specific ARR range, except SMB customers. One-to-one customer interactions stem from internal field requests and targeted email campaigns tailored for customers within this specific cohort.
+CSEs drive customer [adoption](/handbook/customer-success/csm/segment/cse/cse-operating-rhythm/) through one-to-many and targeted one-to-one interactions. Operating within a pooled model, CSEs serve clients within a specific ARR range, except SMB customers. One-to-one customer interactions stem from internal field requests and targeted email campaigns tailored for customers within this specific cohort.
 
 The CSE reports to the Manager/Senior Manager, CSE.
 
@@ -13,12 +13,13 @@ The CSE reports to the Manager/Senior Manager, CSE.
 
 - Engage with customers, via video conference calls and emails, in a technical consultancy and advisor role during the post-sales process while providing technical and solution guidance
 - Provide technical best practice guidance and sharing relevant resources
-# - Drive the achievement of measurable value (business outcomes), leading to product adoption, renewal, and expansion
-- Align with Account Executives and Renewals Managers to provide customer-facing subject matter expertise based on the customer's business and technical objectives
+- Align with Account Executives and Renewals Managers ([Working with RM (internal)](https://internal.gitlab.com/handbook/customer-success/cse/playbooks/rm-cse-engagement-process/) to provide customer-facing subject matter expertise based on the customer's business and technical objectives
 - Partner with the content team to create and deliver customer webinars and labs in support of 1:many engagements
 - Maintain competency in GitLab's platform and use cases
 - Continuously improve professional skills and promote team learning through activities such as training, reading, and seeking mentorship
 - Continous contribution to the CSE motion and surrounding departments
+- Handle [escalations](/handbook/customer-success/csm/escalations/) together with the rest of the account team
+- Ability to confidently deliver the [Comamnd Of The Message](/handbook/sales/command-of-the-message/) for Value Proposition
 
 #### Customer Success Engineer Requirements
 
@@ -101,7 +102,7 @@ The Manager, CSE is a [grade 9](/handbook/total-rewards/compensation/compensatio
 ### Manager, CSE Responsibilities
 
 - Extends the responsibilities of [Manager, CSM](/job-families/sales/customer-success-management/#manager-csm) by:
-  - Working with a variety of customers in countries across a whole super-region (Americas, EMEA, APAC)
+  - Working with a variety of customers in countries across a whole region (AMER, EMEA, APJ)
   - Foster relationship and collaboration of the whole CSE community on a global level
   - Oversee the creation and delivery of workshops, webinars and other content scaled for a larger target group
 
