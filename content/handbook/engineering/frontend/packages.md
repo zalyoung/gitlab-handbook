@@ -6,8 +6,8 @@ a single place or few related places, you should open a replacement MR directly.
 If the package is used in a wide variety of different places across the codebase, it's better to follow a
 more solid review process to make sure the benefits of removing it outweigh the risk of breaking dependencies.
 
-1. Create a **confidential** issue with the title `Unmaintained dependency in package.json`
-2. Use the below template for the issue:
+1. Create a **confidential** issue in `gitlab-org/gitlab` with the title `Unmaintained dependency in package.json`
+1. Use the below template for the issue:
 
     ```md
     The package `<package name>` has been discovered as not being maintained.
@@ -27,6 +27,7 @@ more solid review process to make sure the benefits of removing it outweigh the 
     - `name`, `repo url`, pros and cons
     ```
 
-3. Ping at least one FE maintainer on the issue to ask for feedback before deciding on a path forward
-4. Decide whether to leave the package in place or replace it with an alternative package
-5. If deciding to replace the package, start the MR.
+1. Ping at least one FE maintainer on the issue to ask for feedback before deciding on a path forward
+1. If the package has been determined to have no security vulnerabilities, set the issue to public.
+1. Decide whether to leave the package in place or replace it with an alternative package
+1. If deciding to replace the package, start the MR.
