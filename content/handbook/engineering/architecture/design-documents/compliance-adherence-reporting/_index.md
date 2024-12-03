@@ -78,7 +78,6 @@ compliance frameworks in GitLab 17.3.
 ### Non-Goals
 
 1. Compliance events
-   1. [Violations within MRs](https://docs.gitlab.com/ee/user/compliance/compliance_center/compliance_violations_report.html)
    1. [Audit events](https://docs.gitlab.com/ee/user/compliance/audit_events.html)
 1. [Security Policies](https://docs.gitlab.com/ee/user/application_security/policies/)
    1. This document does not intend to outline how Security Policies work or how Policies use Compliance Frameworks to scope projects
@@ -99,6 +98,8 @@ compliance frameworks in GitLab 17.3.
    1. A Check is a review of a project's settings, to confirm that it is in a particular position. Checks compose a percentage of a project's compliance posture against a Control.
 1. Control
    1. A control is a specific compliance rule that needs to be met to meet a compliance requirement. Enforcement of this is achieved in GitLab through settings, Security Policies or Compliance Pipelines.
+1. Violation
+   1. A record of an event that when triggered was compared against a Control and found to contravene that control.
 
 ### Design Details
 
@@ -201,13 +202,24 @@ The compliance requirements would be stored in a separate table with the followi
         status: smallint
     }
 
+    class project_compliance_violations {
+        id: bigint
+        created_at: timestamp
+        updated_at: timestamp
+        project_id: bigint
+        namespace_id: bigint
+        compliance_requirement_id: bigint
+        compliance_requirement_expression: jsonb
+        audit_event_id: bigint
+    }
+    
     class security_policy_requirements {
         id: bigint
         created_at: timestamp
         updated_at: timestamp
         compliance_framework_security_policy_id: bigint
         compliance_requirement_id: bigint
-        namespace_id: smallint
+        namespace_id: bigint
     }
 
     compliance_management_frameworks --> compliance_requirements : has_many
@@ -220,8 +232,11 @@ The compliance requirements would be stored in a separate table with the followi
     namespaces <-- compliance_management_frameworks : belongs_to
     projects --> project_requirement_compliance_status : has_many
     projects <-- project_requirement_compliance_status : belongs_to
+    projects --> project_compliance_violations : has_many
+    projects <-- project_compliance_violations : belongs_to
     compliance_requirements --> project_requirement_compliance_status : has_one
     compliance_requirements <-- project_requirement_compliance_status : belongs_to
+    compliance_requirements <--> project_compliance_violations : has_and_belongs_to_many
 ```
 
 We created a new table `project_requirement_compliance_status` for storing the results of compliance requirements and
@@ -234,6 +249,8 @@ configured. Instead of an enum we would store the `compliance_requirement_id` in
 `project_requirement_compliance_status` table and would display these results at the compliance dashboard.
 
 In the next iteration we would also allow importing and exporting the compliance requirement configurations.
+
+Violations records are stored in the new table `project_compliance_violations`. These violation records are immutable and only new records inserted, unlike the `project_requirement_compliance_status` table which is updated on status changes. This creates an immutable history of violations against a requirement for a project.
 
 ### Constraints
 
@@ -324,3 +341,4 @@ Audit events will be logged when:
 - [002: Custom Adherence Report](decisions/002_custom_adherence_report.md)
 - [003: Custom Controls](decisions/003_custom_controls.md)
 - [004: Use Time-based Triggers for Controls](decisions/004_time_based_triggers.md)
+- [005: Violations Engine](decisions/005_violations_engine.md)
