@@ -13,7 +13,7 @@ My leadership approach centers on people – they are the foundation of organiza
 
 ## Core Values
 
-### 1. Personal Values
+### Personal Values
 
 - **Candor**: High-fidelity information drives decision-making. I encourage open dialogue and positive intent, believing that even difficult issues become solvable when discussed openly.
 - **Integrity**: Maintain rigorous accountability standards and act in good faith, regardless of circumstances or audience.
@@ -21,13 +21,13 @@ My leadership approach centers on people – they are the foundation of organiza
 - **Teamwork**: Complex systems require collaborative effort. I value acknowledging both strengths and growth areas in building high-performing teams.
 - **Transparency**: I commit to sharing information openly with leaders whenever possible.
 
-### 2. Strengths
+### My Super Powers
 
 - **Accountability**: I deliver on commitments and maintain high performance standards, communicating proactively when plans need adjustment.
 - **Persistence & Grit**: My achievements come through determination and resilience rather than natural talent. I'm willing to fail and learn repeatedly on the path to success.
 - **Humor**: While I take our security mission seriously, I believe in maintaining perspective through appropriate levity, especially following high-pressure situations once threats are mitigated.
 
-### 3. Growth Areas
+### My Weaknesses
 
 - **Managing Discontent**: My drive for improvement can sometimes overshadow celebrating progress. Please remind me to acknowledge wins.
 - **Patience in Problem-Solving**: I may move too quickly to solutions in areas of expertise. Feel free to encourage more discussion time.
@@ -46,12 +46,12 @@ My leadership approach centers on people – they are the foundation of organiza
 ### Communication Preferences
 
 - **Primary**: Slack is my default communication channel  <br/>
-- **Documentation**: Comments in shared documents (tag me directly) <br/> 
+- **Documentation**: Comments in shared documents (tag me directly). I prefer to write and communicate in long-form content rich documents <br/> 
 - **Meetings**: Reserved for discussions that can't be resolved asynchronously <br/> 
 - **Email**: Long-form, non-urgent communications <br/> 
 - **Phone/Signal**: Emergency and off-hours communication <br/> 
 
-## CISO Role
+## My Role as CISO
 
 Secure GitLab's platform, customers, and company against cyber threats.
 
