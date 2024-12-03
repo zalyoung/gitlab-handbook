@@ -3,7 +3,7 @@ title: "Digital Success"
 description: "Learn about the Digital Success team, its mission, structure, collaboration workflows and content centralization strategy."
 ---
 
-## <i class="fa-solid fa-door-open" style="color: #B197FC;"></i> Welcome to the Digital Success Handbook  
+## <i class="fa-solid fa-door-open" style="color: #B197FC;"></i> Digital Success Handbook  
 
 ---
 
@@ -13,7 +13,7 @@ description: "Learn about the Digital Success team, its mission, structure, coll
 
 #### Issue Boards  
 
-- [<i class="far fa-clipboard"></i> Content Ideation board](#)  
+- [<i class="far fa-clipboard"></i> Content Ideation board](/handbook/customer-success/digital-success/)  
 - [<i class="far fa-clipboard"></i> Digital Success Kanban board](https://gitlab.com/groups/gitlab-com/customer-success/digital-success/-/boards/8954568)
 
 ### Roadmap  
@@ -22,13 +22,13 @@ description: "Learn about the Digital Success team, its mission, structure, coll
 
 ### Team Resources  
 
-- [<i class="far fa-calendar-alt"></i> Digital Success Calendar](#)  
+- [<i class="far fa-calendar-alt"></i> Digital Success Calendar](/handbook/customer-success/digital-success/)  
 
 ### Want to work with the team?  
 
 - [<i class="fa-brands fa-slack"></i> Digital Success Slack Channel](https://gitlab.enterprise.slack.com/archives/C081317BZBM)
-- [<i class="far fa-edit"></i> Submit Content Ideas](#)  
-- [<i class="far fa-edit"></i> Report a Content Issue](#)
+- [<i class="far fa-edit"></i> Submit Content Ideas](/handbook/customer-success/digital-success/)  
+- [<i class="far fa-edit"></i> Report a Content Issue](/handbook/customer-success/digital-success/)
 
 ### Relevant Resources  
 
