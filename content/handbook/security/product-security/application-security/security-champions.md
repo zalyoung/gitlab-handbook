@@ -72,20 +72,20 @@ Engineers will complete the training modules with practical exercises and assess
 ## **Training Outline for Security Champions**  
 
 ### **Role Introduction**
-  - The role of Security Champions
-    - How Security Champions fit into the broader **AppSec framework** at GitLab.
-    -   Key security challenges faced by GitLab, including past incidents, vulnerability trends, and areas of improvement.
+The general role of Security Champions, how Security Champions fit into the broader **AppSec framework** at GitLab and key security challenges faced by GitLab, including past incidents, vulnerability trends, and areas of improvement.
 
 ### **Practical Vulnerability Remediation**
-  - Security Champions will receive training on **how to identify**, **analyze**, and help **remediate vulnerabilities** in real code by reviewing MRs and identifying vulnerabilities.
-	- **Collaboration with Engineering Teams**
-	  -   Security Champions will be trained on how to **collaborate with their teams** to ensure security is built into the development lifecycle:
-	  -   Facilitating **security discussions** during milestone planning, reviews, and retrospectives.
-	  -   Assisting engineers with secure design patterns, threat modeling, and code reviews.
+
+Security Champions will receive training on **how to identify**, **analyze**, and help **remediate vulnerabilities** in real code by reviewing MRs and identifying vulnerabilities.
+
+### **Collaboration with Engineering Teams**
+
+Security Champions will be trained on how to **collaborate with their teams** to ensure security is built into the development lifecycle by:
+  - Facilitating **security discussions** during milestone planning, reviews, and retrospectives.
+  - Assisting engineers with secure design patterns, threat modeling, and code reviews.
 	
 ### **Escalation and Incident Response**
-  -   Training on when and how to escalate issues to **AppSec**
-	  -   What to do when a **high-risk vulnerability** is discovered, (eg. the Champion's role during **security incidents**).
+Security Champions will be trained on when and how to escalate issues to **AppSec** as well as what to do when a **high-risk vulnerability** is discovered. This covers the Champion's role during **security incidents**.
 
 ## **Training Content Updates & Maintenance**
 
