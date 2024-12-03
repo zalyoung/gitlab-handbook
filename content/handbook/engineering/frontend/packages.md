@@ -1,0 +1,32 @@
+# Handling outdated packages
+
+You've found a package we depend on has not been maintained in a while. If this is a package that is only used in
+a single place or few related places, you should open a replacement MR directly.
+
+If the package is used in a wide variety of different places across the codebase, it's better to follow a
+more solid review process to make sure the benefits of removing it outweigh the risk of breaking dependencies.
+
+1. Create a **confidential** issue with the title `Unmaintained dependency in package.json`
+2. Use the below template for the issue:
+
+    ```md
+    The package `<package name>` has been discovered as not being maintained.
+
+    Last update: `<n years ago`
+    Latest version: `v.v.v`
+    Repository URL: `https://example.com`
+
+    ## Risk / benefit evaluation
+
+    ### Evaluate the risk of removing the package
+    [ ] The package has outdated dependencies: `list the dependencies`
+    [ ] The package has performance implications
+    [ ] The package shows uncompatible design decisions
+
+    ### Alternative packages
+    - `name`, `repo url`, pros and cons
+    ```
+
+3. Ping at least one FE maintainer on the issue to ask for feedback before deciding on a path forward
+4. Decide whether to leave the package in place or replace it with an alternative package
+5. If deciding to replace the package, start the MR.
