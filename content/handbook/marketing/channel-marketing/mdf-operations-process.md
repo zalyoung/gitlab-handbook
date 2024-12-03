@@ -60,13 +60,13 @@ description: "The page details the operational process for the MDF program."
 
 1. When the approvals have been completed, review the Funds Request and Allocadia to make sure all the details match including the dates and amounts
      1. Revise accordingly is there are any discrepancy
-     1. You can check the budgeted amount in MDF Tracking View 
+     1. You can check the budgeted amount in MDF Tracking View
 
-#### Step 2: Update MDF # in Allocadia & Epic 
+#### Step 2: Update MDF # in Allocadia & Epic
 
 1. Replace MDF “000” in Allocadia line item name with the new MDF #
-1. In the details panel, check the epic is linked correctly. 
-1. Once confirmed, hit “Create/Update MDF Epic/Issues” to save changes.
+1. In the details panel, check the epic is linked correctly
+1. Once confirmed, hit “Create/Update MDF Epic/Issues” to save changes
 
 ### Marketo
 
@@ -87,11 +87,12 @@ description: "The page details the operational process for the MDF program."
 1. Go to the Marketo Program
 1. Go on the My Tokens” tab and update the Partner Name (listed in the epic)
 
-#### Step 3: Sync Marketo Program to SFDC 
+#### Step 3: Sync Marketo Program to SFDC
+
 1. Go to the tab showcasing the Marketo Program Name
 1. In the Summary, under Settings session, Salesforce Campaign Sync, click “not set”
-1. Under Campaign, click on the dropdown and select Create New.
-1. In Description, paste the **Allocadia Line Item ID** and save.
+1. Under Campaign, click on the dropdown and select "Create New"
+1. In Description, paste the **Allocadia Line Item ID** and save
 
 #### Step 4: Update Tracking Sheet and Epic
 
@@ -184,13 +185,14 @@ description: "The page details the operational process for the MDF program."
 | Department                                                                                | Regional Marketing                       |
 | Coupa Class - GitLab Inc                                                                  | Blank                                    |
 | Do you have any supporting documentation                                                  | None                                     |
-| Will the vendor have access to any of the following data or information?                  | None of the above
+| Will the vendor have access to any of the following data or information?                  | None of the above |
 | Does this request involve the use of a system to collect, store, or transmit GitLab data? | No                                       |
 
 #### Step 4: Add Zip link to Tracking Sheet
 
 #### Step 5: Add Epic Link to comment section of Zip
-1. If legal has any questions tag CMM to answer 
+
+1. If legal has any questions tag CMM to answers
 1. If there is a contract involved, go ahead and approve it when it gets to your queue. 
 1. When the Coupa req is created, tag Renz Santos and tell him to hold the PO until you’ve approved POP / ROI. He’ll still send contract out but this way they won’t be at risk to be paid before mdf is complete 
 
@@ -207,7 +209,9 @@ description: "The page details the operational process for the MDF program."
          1. Last Modified By will show Allocadia Integration
 
 #### Step 3: Add MDF Request on the Salesforce Campaign
+
 #### Step 4: Update Tracking Sheet and Epic
+
 1. Add Salesforce Campaign and Fund Request to epic and tracking spreadsheet.
 
 ## Cancelled
@@ -227,9 +231,11 @@ At any time an MDF campaign has been cancelled, we want to ensure all programs c
 1. Sync to Vartopia” checkbox
 
 ### Fund Request
+
 1. Update the Status to `Cancelled` - By doing so the Partner will receive an automated email informing the Funds Request initially submitted has been canceled or denied.
 
 ### Marketo
+
 1. Ask #mktgops to delete the Marketo Program 
 
 ### Zip
@@ -237,6 +243,7 @@ At any time an MDF campaign has been cancelled, we want to ensure all programs c
 1. If applicable delete the Zip req and comment that the MDF has been canceled.
 
 ### Coupa 
+
 1. If applicable, CMM to ping procurement and finance in the Coupa req to notify them that the MDF has been canceled.
 
 ### GitLab Epic
@@ -250,12 +257,14 @@ This is not applicable to distributors with the exception of Carahsoft.
 ### Step 1: Partner submits MDF Claim
 
 #### Salesforce Fund Claim
+
 1. Partner will attach the POP, Lead List and Invoice in the MDF Claim
 1. Verify the POP, then update the Status to `Approved: POP Received`
 
 ### Step 2: List Import
 
 #### Google Sheet/Drive
+
 1. Clone the [List Import Template](https://docs.google.com/spreadsheets/d/143REaMQLyIy7to-CFktL45TTTLZxBQRJUDIOMCA3CVo/edit#gid=257616838)
 1. Paste the information to the spreadsheet - don’t forget Marketo Program Name, First Name, Last Name, Email, Company Country, Province (only USA/Canada), Member Status, CRM Partner ID are mandatory.
      1. For Distributor: In the CRM ID, add each individual partner CRM ID that each leads corresponds to.  
@@ -269,6 +278,7 @@ This is not applicable to distributors with the exception of Carahsoft.
 Check the Status column for details on why the import may have failed.
 
 #### Salesforce Campaign 
+
 1. Check the campaign members to ensure all has synced to Salesforce with the Status = Responded
 1. If the Status remains in Member, complete the following steps:
      1. Go Marketo Program
@@ -277,9 +287,11 @@ Check the Status column for details on why the import may have failed.
          1. In Schedule, run now.
 
 #### GitLab Epic
+
 1. In the Post - Event, check list import task
 
 #### Tracking Sheet
+
 1. Check "POP and Leads Uploaded" on the tracking sheet 
 
 ### Step 3: Create Coupa Req and PO with the Support for the Procurement team
