@@ -402,6 +402,7 @@ Dashboards
 ### ZoomInfo
 
 Can view the demo in [highspot](https://gitlab.highspot.com/items/66db275add81ed254da5b6ee). With this integration, there are three ways to export records to Groove as a lead and select your flow 
+
 1. ZI Chrome Extension (Expand only);
 2. Advanced Search
 3. Company Org Chart
