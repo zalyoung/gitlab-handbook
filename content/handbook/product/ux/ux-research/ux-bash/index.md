@@ -17,7 +17,9 @@ Benefits of a UX Bash:
 
 ### Bashes as an opportunity for early customer feedback
 
-Bashes provide a valuable opportunity to gather earyl customer feedback by temporarily giving users access to features still under development. Using something like feature flags can make this process seamless for participants. For example, the `/include` feature was made available to external users during a bash via a feature flag and then turned off after the session concluded. This approach helps test features in a controlled environment and refine them based on real-world usage before broader release.
+Bashes provide a valuable opportunity to gather early customer feedback by temporarily giving users access to features still under development. Using something like feature flags can make this process seamless for participants. For example, the `/include` feature was made available to external users during a bash via a feature flag and then turned off after the session concluded. This approach helps test features in a controlled environment and refine them based on real-world usage before broader release.
+
+Note that UX Bashes are not meant to replace the team's process to test features and identify bugs before release. The team should still test the software against their use cases and definition of done before doing a bash. Known problems should be addressed first, so that bash particpants can focus their feedback on less obvious problems.
 
 ### When to iterate and run another Bash
 
