@@ -303,7 +303,6 @@ Check the Status column for details on why the import may have failed.
 | PO is created                          | Email Partner the steps to have them upload their invoice                                                                                                                                                         | Check "PO Created" and "Informed Partner about invoice" |
 | 24 hours after the invoice is uploaded | Approve the invoice. You’ll do this by going to your Coupa inbox and clicking on the line time. It will take you to a new screen and double check the amount is correct and click Approve button (it’s in green)  | Check "Invoice Approved Coupa"                          |
 
-
 ### Step 4: Close Remaining Items
 
 #### Salesforce Funds Request
