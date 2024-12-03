@@ -230,6 +230,7 @@ _Missing features, 2024-11-11:_
 | John Coghlan | [@john-cogs.bsky.social](https://bsky.app/profile/coghlan.me) |
 | Michael Friedrich | [@dnsmichi.dev](https://bsky.app/profile/dnsmichi.dev) |
 | William Arias | [@pywarias.bsky.social](https://bsky.app/profile/pywarias.bsky.social) |
+| Abubakar Siddiq Ango | [@abuango.me](https://bsky.app/profile/abuango.me) |
 | GitLab brand social | [@gitlab.com](https://bsky.app/profile/gitlab.com) |
 
 #### Bluesky Starter Packs
