@@ -115,7 +115,7 @@ If you're a GitLab engineer looking:
 
 Overview of the steps involved with creating a patch release:
 
-![Patch release overview](patch-releases/planned-patch-release-overview.jpg)
+![Patch release overview](patch-releases/patch-release-overview.jpg)
 
 - [Diagram source](https://docs.google.com/presentation/d/12JXlLnZ8lQp7ATdaSoL4x_oCUv04rmqzYp6dQb8AXHE/edit#slide=id.g2d0bc50ab08_0_5)
 
