@@ -3,43 +3,71 @@ title: "Josh Lemos README"
 job: "CISO"
 ---
 
-## Summary
+## Why I'm at GitLab
 
-Everything starts with people, without which we would not have organizational leadership. Humans are the most interesting and difficult part of building and supporting any business enterprise or technological advancement. Our goals as  leaders is to create and maintain environments where brilliant people can thrive and drive incredible outcomes. We must foster a culture in which everyone has an opportunity to meaningfully contribute.
+I joined GitLab after a conversation with Sid about the platform's potential to improve security assurance at internet scale. Having spent a decade leading teams that engineered security solutions into homegrown CI/CD systems, I saw an opportunity to move beyond single-company solutions that served only thousands of developers. At GitLab, we can impact software security globally.
 
-## Values
+## Leadership Philosophy
 
-- **Agency** - Believe in delegating decisions as close to the problem space as possible and empowering teams and leaders to make the right decisions.
-- **Candor** - High fidelity information is the lifeblood of decision making. Team members must be able to speak candidly assuming positive intent.
-- **Integrity** - Maintain a high bar for accountability and act in good faith regardless of the possible audience or headwinds.
-- **Ownership** - When people feel ownership of a problem or objective the likelihood of success increases exponentially.
-- **Teamwork** - Scaling and building complex systems requires teamwork. Recognizing and embracing both strengths and being open about growth areas is essential to building high-performing teams.
-- **Transparency** - Disseminating information to leaders freely and openly where possible.
+My leadership approach centers on people – they are the foundation of organizational success and the most fascinating aspect of any enterprise. This is particularly true in information security, where securing human behavior has been an ongoing challenge for decades. My mission is to create environments where exceptional individuals can thrive and drive remarkable outcomes while fostering a culture of meaningful contribution.
 
-## Working Style & Approach
+## Core Values
 
-- Prefer long-form documents or issues which are context rich over slides and presentations. Find this especially useful when a decision is required. Documentation can clearly articulate the various options and trade-offs and provides a record as to why a specific option was selected.
-- When problem solving (and I love helping teams solve problems) I will encourge first principles thinking. I value data driven approaches and will often go back to the data for insights.
-- Empower team members throughout the organization affording everyone maximum opportunity and autonomy.
-- Default to having information pushed to me and try to minimize information requests. Frequent requests for information are often signal to indicate there is a gap in our status reporting processes.
-- Identify the right opportunities to assist, leaving space for others to step-up and further their development.
-- Mentorship, sponsorship and development of leaders, helping to realize their full potential through active coaching and candid feedback
-- Connect-the-dots between the business objectives, OKRs and the security strategy with cascading goals throughout the information security organization
-- Mediate healthy disagreements, dialogue, and conflict while allowing the data to ground the conversation.
-- Ensure every goal has a Directly Responsible Individuals (DRIs) to drive accountability for everyone in the service of solving a problem or reaching an outcome. DRIs advocate for and own the problems and solutions in order to reach a positive result.
-- Embrace divergent perspectives. As a leader my voice can carry more weight at times so I will often speak last.
+### 1. Personal Values
 
-## Flaws & Pitfalls
+- **Candor**: High-fidelity information drives decision-making. I encourage open dialogue and positive intent, believing that even difficult issues become solvable when discussed openly.
+- **Integrity**: Maintain rigorous accountability standards and act in good faith, regardless of circumstances or audience.
+- **Ownership**: Success multiplies when people feel true ownership of objectives. I believe in pushing decisions to those closest to the problems.
+- **Teamwork**: Complex systems require collaborative effort. I value acknowledging both strengths and growth areas in building high-performing teams.
+- **Transparency**: I commit to sharing information openly with leaders whenever possible.
 
-- In the quest for continuous improvement I can over index on problems and spend too little time appreciating progress. It is something I coach leaders to do but can fail to take my own advice.
-- While I try to meet people where they are I can misjudge the amount of support an individual wants or needs. If you find yourself wanting more guidance or autonomy feel free to tell me where you want to set those agency boundaries.
-- At times I am quick to identify and advocate for a solution especially in problem areas where I have considerable experience or domain expertise. Feel free to encourage me to spend more time hosting the discussion before deciding on a solution.
-- Trained helplessness drives me crazy and I have little patience for it. Everyone is capable of affecting change. Don't stay blocked!
+### 2. Strengths
 
-## Communication Preferences
+- **Accountability**: I deliver on commitments and maintain high performance standards, communicating proactively when plans need adjustment.
+- **Persistence & Grit**: My achievements come through determination and resilience rather than natural talent. I'm willing to fail and learn repeatedly on the path to success.
+- **Humor**: While I take our security mission seriously, I believe in maintaining perspective through appropriate levity, especially following high-pressure situations once threats are mitigated.
 
-- **Slack** - By default Slack is the best way to engage. By default I will delay-send messages to deliver during the recipients working hours.-
-- **Meetings** - Designed for conversations which cannot be solved async. Must have an agenda and action items with DRIs.
-**Document Comments** - Preferred medium for meeting notes and artifacts. Tagging me in documents is sufficient, no need to email. Nudging - in Slack after a day or so is encouraged if there is a pressing deadline.
-- **Email** - Long form communications that should persist beyond the time limits of Slack and do not require an urgent response.
-- **Phone/Signal/etc.** - For urgent communication or emergency response off hours.
+### 3. Growth Areas
+
+- **Managing Discontent**: My drive for improvement can sometimes overshadow celebrating progress. Please remind me to acknowledge wins.
+- **Patience in Problem-Solving**: I may move too quickly to solutions in areas of expertise. Feel free to encourage more discussion time.
+- **Balancing Standards**: I have limited patience for learned helplessness, sometimes expecting others to share my drive for seeking better solutions.
+
+## Working Together
+
+### Expectations
+
+1. **Problem Solving**: Expect first-principles thinking and data-driven approaches <br/>
+2. **Ownership**: Clear DRIs (Directly Responsible Individuals) for all initiatives <br/>
+3. **Growth Mindset**: Continuous learning through active coaching and feedback <br/>
+4. **Customer Focus**: Alignment between business objectives, OKRs, and security strategy <br/>
+5. **Healthy Conflict**: Embracing diverse perspectives and data-grounded discussions <br/>
+
+### Communication Preferences
+
+- **Primary**: Slack is my default communication channel  <br/>
+- **Documentation**: Comments in shared documents (tag me directly) <br/> 
+- **Meetings**: Reserved for discussions that can't be resolved asynchronously <br/> 
+- **Email**: Long-form, non-urgent communications <br/> 
+- **Phone/Signal**: Emergency and off-hours communication <br/> 
+
+## CISO Role
+
+Secure GitLab's platform, customers, and company against cyber threats.
+
+### Key Performance Indicators
+
+- Incident SLA compliance <br/>  
+- Asset inventory coverage <br/> 
+- Time to containment <br/>
+- Internally identified vulnerabilities <br/>  
+
+## Expectations for leadership - What I need from you. What you will get from me
+
+1. **Be Proactive**: Push information rather than waiting to be asked <br/> 
+2. **Challenge Norms**: Take principled risks and question the status quo <br/> 
+3. **Show Integrity**: Own failures, celebrate team successes <br/> 
+4. **Embrace Diversity**: Seek out and value different perspectives <br/> 
+5. **Communicate Clearly**: Default to transparency and structured communication <br/> 
+
+_Remember: I value direct feedback. If you see areas where I can improve or better support you, please let me know._ <br/> 
