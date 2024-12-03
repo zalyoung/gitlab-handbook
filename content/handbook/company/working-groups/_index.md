@@ -202,6 +202,7 @@ If you are unable to attend the existing working group meeting due to time diffe
 
 1. [Automotive Development]({{< ref "automotive-development" >}})
 1. [Customer Use Case Adoption]({{< ref "customer-use-case-adoption" >}})
+1. [Feature Testing]({{< ref "feature-testing" >}})
 1. [FedRAMP Execution]({{< ref "fedramp-execution" >}})
 1. [GCP Partnership]({{< ref "gcp-partnership" >}})
 1. [GitLab.com Disaster Recovery]({{< ref "disaster-recovery" >}})

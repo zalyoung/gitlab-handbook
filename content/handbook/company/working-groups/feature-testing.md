@@ -10,8 +10,8 @@ status: active
 | ----------------- | ------------------------------------------------------------------------------------------------------------------------------------ |
 | Date Created      | 2024-11-01                                                                                                                           |
 | Target End Date   | 2025-02-01                                                                                                                           |
-| Slack             |                                                                          |
-| Google Doc        |  |
+| Slack             | [#wg_feature-testing](https://gitlab.enterprise.slack.com/archives/C082VBQSFSQ)                                                      |
+| Google Doc        | https://docs.google.com/document/d/1ZS4L-vVVVqRAjdOmr4X8ENYD5YEyFxEV8wxuR1OtNvE/edit?tab=t.0                                         |
 | Epic              |                                                                 |
 | Overview & Status | See [Exit Criteria](#exit-criteria)               |
 
