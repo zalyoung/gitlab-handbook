@@ -34,6 +34,10 @@ Choose the method below that feels most comfortable and have the following infor
 - Add your personal LinkedIn / Twitter / GitLab handles. When adding these handles, make sure to only include your username without any links or `@` in front of them, such as `LinkedIn: username`. (Some incorrect examples are: `LinkedIn: linkedin.com/in/username`, `LinkedIn: @username`.)
 - A relative link to your role. If your link is `https://handbook.gitlab.com/job-families/engineering/support-engineer/` use `/job-families/engineering/support-engineer/`. Refer to other entries for reference.
 
+{{% alert title="Note" color="primary" %}}
+For more information on setting the `Export Name/Location to Team Page?` opt-in mentioned below, search for the ["How to: Set Team Page Export Preferences" Google doc](https://drive.google.com/drive/search?q=how+to+Set+Team+Page+Export+Preferences) (internal).
+{{% /alert %}}
+
 ### Method 1: Add your info on GitLab.com using Web IDE
 
 1. Go to the [Handbook version of the team page](/handbook/company/team/) and find yourself.

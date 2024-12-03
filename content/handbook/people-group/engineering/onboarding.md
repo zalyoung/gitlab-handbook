@@ -184,6 +184,10 @@ Every day at 09AM UTC, we have a pipeline running that syncs our new team member
 We fetch all the new team members with a start date of the day before yesterday and check if they opted-in on
 being synced to the team page. Opt-in happens by setting `Export Name Location to Team Page` to `Yes` on their Workday profile. This is a task on day one for the new team member.
 
+{{% alert title="Note" color="primary" %}}
+You can find a Howto guide for setting the Opt-in mentioned above by searching for a doc titled, "How to: Set Team Page Export Preferences" in Google drive.
+{{% /alert %}}
+
 If they selected yes, we grab some data (name, job title, start date, department and country) and format it,
 so it can be added to the team page entry. If they did not opt-in, we still add an entry to the team page.
 However that entry is anonymous. For every new team member, we commit a new file in the `data/team_members` directory.
