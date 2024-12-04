@@ -51,6 +51,7 @@ Every task in Asana can have only one assignee, who serves as the Directly Respo
 ##### DRI (Task Asignee) Guidelines
 
 The DRI should be:
+
 - The person primarily responsible for the outcome of the work
 - Someone with the authority to make decisions about the task
 - Available during the task's timeline
@@ -58,12 +59,14 @@ The DRI should be:
 ###### Collaboration Structure
 
 Task collaborators (followers) should include:
+
 - Stakeholders who need to stay informed
 - Team members providing input or review
 - People who need visibility into the task's progress
 - Project managers overseeing the work
 
 To add collaborators:
+
 1. Click the "+" button in the task's collaborators field
 1. Search for and select team members
 1. Or use @mentions in comments to automatically add collaborators
@@ -73,11 +76,13 @@ To add collaborators:
 When you assign a subtask, be sure the assignee has enough context from the parent task or within the subtask description. Avoid burying subtasks under too many layers. You can always convert subtasks to tasks.
 
 Create subtasks when:
+
 - Different team members are responsible for distinct pieces of work
 - A task requires multiple sequential steps with different owners
 - You need to track individual contributions within a larger task
 
 Example structure:
+
 Main Task: Q4 Blog Post Launch [DRI: Content Manager]
   └─ Subtask 1: Draft content [DRI: Writer]
   └─ Subtask 2: Design graphics [DRI: Designer]
@@ -124,6 +129,7 @@ Create a custom template or use an Asana created template to standardize common 
 ### Quick Decision Guide
 
 Before starting your work, ask yourself:
+
 - Is this Marketing Division work that involves multiple stakeholders? → Use Asana
 - Is this a code change or technical documentation? → Use GitLab
 - Do you need immediate, real-time communication? → Use Slack
@@ -131,7 +137,9 @@ Before starting your work, ask yourself:
 ### Detailed Breakdown by Tool
 
 #### Asana: Project & Task Management
+
 **Best for:**
+
 - Marketing campaign planning and execution
 - Cross-functional collaboration within Marketing
 - Project tracking and status updates
@@ -139,14 +147,18 @@ Before starting your work, ask yourself:
 - Task delegation and progress tracking
 
 #### Slack: Real-time Communication
+
 **Best for:**
+
 - Quick questions
 - Real-time collaboration
 - Team announcements
 - Informal discussions
 
 #### GitLab: Technical Work, Documentation, and Collaborating Outside of Marketing
+
 **Best for:**
+
 - Handbook updates
 - Code changes / merge requests
 - Opening issues to request support from teams outside of Marketing 
@@ -170,31 +182,37 @@ Before starting your work, ask yourself:
 
 #### Example of Cross-Tool Workflow
 
-##### Website Update Project:
+##### Website Update Project
+
 **Asana:**
+
 - Main project management
 - Timeline tracking
 - Stakeholder updates
 - Content approvals
 
 **GitLab:**
+
 - Merge requests
 - Technical documentation
 - Implementation details
 
 **Slack:**
+
 - Urgent deployment questions
 - Quick status checks
 
 #### Best Practices
 
 **Do:**
+
 - Create Asana tasks that link to relevant GitLab issues
 - Move Slack discussions to Asana tasks when they become actionable items
 - Use Asana for all project-related communications and updates
 - Document important Slack and/or GitLab decisions in Asana
 
 **Don't:**
+
 - Create duplicate tracking systems across platforms
 - Have lengthy project discussions in Slack
 - Use GitLab for marketing task management
