@@ -257,7 +257,7 @@
 {{- with $section_data.slack.channel }}
 <tr>
     <th>Slack Channel</th>
-    <td><a href="https://gitlab.slack.com/channels/{{.}}"><i class="fa-brands fa-slack"></i>#{{ . }}</a></td>
+    <td><a href="https://gitlab.slack.com/channels/{{.}}"><i class="fa-brands fa-slack"></i> #{{ . }}</a></td>
 </tr>
 {{- end }}
 {{- with $section_data.slack.alias }}
@@ -295,7 +295,7 @@
 {{- if .group }}
 <tr>
     <th>Features in this Group</th>
-    {{- $pageRef := printf "/handbook/product/categories/features#%s" (anchorize .display_name) -}}
+    {{- $pageRef := printf "/handbook/product/categories/features/#%s" (anchorize .display_name) -}}
     <td><a href="{{$pageRef}}"><i class="fa fa-book"></i> Features</a></td>
 </tr>
 {{- end }}
