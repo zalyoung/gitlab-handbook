@@ -43,7 +43,7 @@ The Regional Sales Director is a [grade 10](/handbook/total-rewards/compensation
 
 ## Career Ladder
 
-The Reginal Sales Director would move into the [VP, Enterprise Sales](/job-families/sales/vp-enterprise-sales/) Job Family, or the [VP, MM and SMB Sales](/job-families/sales/vp-of-commercial-sales/) Job Family.
+The Regional Sales Director would move into the [VP, Enterprise Sales](/job-families/sales/vp-enterprise-sales/) Job Family, or the [VP, MM and SMB Sales](/job-families/sales/vp-of-commercial-sales/) Job Family.
 
 ### Hiring Process
 
