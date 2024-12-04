@@ -52,27 +52,27 @@ GitLab requires all team members to use either Biometrics or YubiKey as your [Ok
 1. You will then presented with a password verification and passkey verification prompt.
 1. After pressing `Set up` twice, a prompt from your web browser will appear, or a [1Password prompt](#adding-a-passkey-to-1password) may appear. Click the "YubiKey" icon to bypass if it appears and you wish to save it in iCloud Keychain (recommended) or the local Chrome browser.
 
-<img src="/handbook/business-technology/okta/images/1password-passkey.png" alt="1Password USB Key" width="300">
+<img src="/handbook/it/okta/images/1password-passkey.png" alt="1Password USB Key" width="300">
 
 1. For iCloud Keychain or a YubiKey, click "Use a different passkey". For the local Chrome browser choose "Continue".
 
-    <img src="/handbook/business-technology/okta/images/Okta-Chrome-Passkey-Popup.png" alt="Okta Add Passkey #1" width="300"/>
+    <img src="/handbook/it/okta/images/Okta-Chrome-Passkey-Popup.png" alt="Okta Add Passkey #1" width="300"/>
 
 1. If you choose to save it in your Chrome profile, another prompt will appear asking you to authenticate using Touch ID or Face ID.
 
-    <img src="/handbook/business-technology/okta/images/Okta-Add-Biometric-2.png" alt="Okta Add Biometric #2" width="300"/>
+    <img src="/handbook/it/okta/images/Okta-Add-Biometric-2.png" alt="Okta Add Biometric #2" width="300"/>
 
 1. If you chose to use the iCloud Keychain or Security Key, choose the correct option to finish enrollment.
 
-    <img src="/handbook/business-technology/okta/images/Okta-Chrome-Passkey-2.png" alt="Okta Add Passkey #2" width="300"/>
+    <img src="/handbook/it/okta/images/Okta-Chrome-Passkey-2.png" alt="Okta Add Passkey #2" width="300"/>
 
 1. For Security Key, relevant prompts will appear.
 
-    <img src="/handbook/business-technology/okta/images/Okta-Add-SecurityKey-1.png" alt="Okta Security Key #1" width="300"/>
+    <img src="/handbook/it/okta/images/Okta-Add-SecurityKey-1.png" alt="Okta Security Key #1" width="300"/>
 
 1. You may be prompted for a PIN, and then finally click `Allow`.
 
-    <img src="/handbook/business-technology/okta/images/Okta-Add-SecurityKey-2.png" alt="Okta Security Key #2" width="300"/>
+    <img src="/handbook/it/okta/images/Okta-Add-SecurityKey-2.png" alt="Okta Security Key #2" width="300"/>
 
 1. We recommend enrolling both Chrome and Safari for redundancy on your computer, as well as a mobile device. Each browser needs to be enrolled separately, unless you use iCloud Keychain. Note that separate Chrome browser profiles also need to be enrolled separately. You should enroll one computer browser (for example, Chrome), then add the [mobile device](#add-biometric-authentication-to-okta-for-mobile-devices-accessing-okta-apps-on-your-phone)), then if required add the other computer [browser](#i-want-to-login-or-add-a-new-computer-to-okta-and-i-have-a-mobile-device-enrolled) (for example, Safari).
 1. If clearing your browser cache, please be careful as you can delete your passkey.
@@ -91,44 +91,41 @@ We have also prepared Introductory Videos on [Configuring Applications](https://
 1. After pressing `Enroll`, a prompt from your web browser will appear.
 1. From 1Password, you'll see a pop up notification from 1Password with the options "New Item" or "Update Existing". Select "Update Existing" and your Okta account to continue.
 
-    <img src="/handbook/business-technology/okta/images/1password-passkey.png" alt="Okta Passkey Key #1" width="300"/>
+    <img src="/handbook/it/okta/images/1password-passkey.png" alt="Okta Passkey Key #1" width="300"/>
 
 ### Add biometric authentication to Okta for mobile devices (accessing Okta apps on your phone)
 
-These steps are for an iPhone, and may be slightly different for Android.  If you are using an iPhone and receive a Developer or XCODE error, please upgrade to iOS 16+. We recommend enrolling a phone even if you don't plan to use it often, in case you need a way to [add a new computer or your credential gets accidentally removed on the computer](#i-want-to-login-or-add-a-new-computer-to-okta-and-i-have-a-mobile-device-enrolled).
+These steps are for an iPhone, and may be slightly different for Android.  If you are using an iPhone, you are required to have the "Passwords" app installed. We recommend enrolling a phone even if you don't plan to use it often, in case you need a way to [add a new computer or your credential gets accidentally removed on the computer](#i-want-to-login-or-add-a-new-computer-to-okta-and-i-have-a-mobile-device-enrolled). 
 
 1. On the computer, if using Chrome, please check that it is on the latest version by visiting the URL `chrome://settings/help` - if a new version is available, please use the `Relaunch` button to restart the browser.
-1. On your Mac, please also check that you are using macOS Ventura [13.0.1](https://support.apple.com/en-us/HT201260#:~:text=From%20the%20Apple%20menu%20%EF%A3%BF,version%20number%20to%20see%20it.) or newer.
 1. On your Mac, please check under "System Settings"->"Privacy & Security"->"Bluetooth" and make sure that Google Chrome has Bluetooth access enabled.
-
-    <img src="/handbook/business-technology/okta/images/Okta-Mac-Bluetooth-1.png" alt="Okta Mac Bluetooth-1" width="300"/>
-    <img src="/handbook/business-technology/okta/images/Okta-Mac-Bluetooth-2.png" alt="Okta Mac Bluetooth-2" width="300"/>
-1. On the computer, login into your [Okta](https://gitlab.okta.com)
+    <img src="/handbook/it/okta/images/Okta-Mac-Bluetooth-1.png" alt="Okta Mac Bluetooth-1" width="300"/>
+    <img src="/handbook/it/okta/images/Okta-Mac-Bluetooth-2.png" alt="Okta Mac Bluetooth-2" width="300"/>
+1. On the computer, login into your [Okta](https://gitlab.okta.com).
 1. On the computer, click on your name on the top right to open the drop down menu (similar to above) and navigate to "Settings".
 1. On the computer, under Security Methods click "Set up another" beside Security Key or Biometric. This will take you to a setup authentication screen, click "Verify". Provide Touch ID.
-1. On the computer, click "Set up", then click "Set up" again on the next screen
+1. On the computer, click "Set up", then click "Set up" again on the next screen.
 1. On the computer, ignore all popups from the 1Password browser extension as it could interfere with the process of transferring the passkey. Click the "Yubikey" icon to bypass if it appears.
-<img src="/handbook/business-technology/okta/images/1password-passkey.png" alt="1Password USB Key" width="300">
+
+<img src="/handbook/it/okta/images/1password-passkey.png" alt="1Password USB Key" width="300">
 
 1. On the computer, the next step depends on the browser and version.
     1. In Chrome and Safari you will see a pop up asking to "Use Touch ID to sign in?" Click "Cancel" to continue setting up your mobile device.
 
-    <img src="/handbook/business-technology/okta/images/okta-apple-touch-id-pop-up.png" alt="Okta Apple Touch ID width="300"/>"
+    <img src="/content/static/images/security/corporate/Okta-Apple-Touch-ID-Popup.png" alt="Okta Apple Touch ID width="300"/>"
 
-    1. In Chrome, the pop up that opens states "Create a passkey for gitlab.okta.com" and has your email address listed. Choose "Use a different passkey" at the bottom left.
+     Next, choose "Use a phone, tablet or security key".
 
-    <img src="/handbook/business-technology/okta/images/Okta-Chrome-Passkey-Popup.png" alt="Okta Chrome Passkey" width="300"/>
+    <img src="/content/static/images/security/corporate/Okta-Chrome-Passkey.png" alt="Okta Chrome Passkey" width="300"/>
 
-     Then, choose "Use a phone, tablet or security key".
+     This should display a QR code that you can scan.
 
-     <img src="/handbook/business-technology/okta/images/Okta-Chrome-Passkey-2.png" alt="Okta Chrome Passkey-2" width="300"/>
-
-      This should display a QR code that you can scan.
     1. In Safari, click "Other options", then choose "iPhone, iPad or Android device - save a passkey on a device with a camera", then "Continue".
-1. On the mobile device, open your camera app and scan. (It may take a few seconds for it to connect). This requires Bluetooth to be enabled on both devices, but does not require pairing.
-1. On the mobile device, a pop should show up to allow the credential to be saved.
-    1. On a iPhone or iPad, it will prompt to save the credential to iCloud Key Chain. Allow this.
-    1. If saving the credential fails, go to Settings->`your name`->iCloud and make sure that Passwords and Keychain is set to "On".
+
+1. On the mobile device, open your camera app and scan. (It may take a few seconds for it to connect). This requires Bluetooth to be enabled on both devices, but does not require pairing. 
+1. On the mobile device, a popup should show up to allow the credential to be saved.
+    1. On a iPhone or iPad, it will prompt to create a passkey. Choose the Passwords app. 
+    1. If saving the credential fails, go to Settings->`your name`->iCloud and make sure that Passwords and Keychain is set to "On" and the "Passwords" app is installed.
     1. If it still fails, you can also try [force restart](https://support.apple.com/guide/iphone/force-restart-iphone-iph8903c3ee6/ios) and then trying to sign out of iCloud on your mobile device, and then sign back in to iCloud.
     1. On Android, this may appear "Use this device with screen lock". Choose this.
 1. On the mobile device, attempt to sign in by visiting [Okta](https://gitlab.okta.com).
