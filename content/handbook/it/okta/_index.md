@@ -56,11 +56,11 @@ GitLab requires all team members to use either Biometrics or YubiKey as your [Ok
 
 1. By default, you will be prompted to save it in your iCloud KeyChain. 
 
-    <img src="/static/images/security/corporate/Okta-Apple-Touch-ID-Popup.png" alt="Okta Apple Touch ID" width="300"/>
+    <img src="/images/security/corporate/Okta-Apple-Touch-ID-Popup.png" alt="Okta Apple Touch ID" width="300"/>
 
 1. If you press cancel, you will be given options to save the passkey in different places.
 
-    <img src="/static/images/security/corporate/Okta-Chrome-Passkey.png" alt="Okta Chrome Passkey" width="300"/>
+    <img src="/images/security/corporate/Okta-Chrome-Passkey.png" alt="Okta Chrome Passkey" width="300"/>
 
 1. For Security Key, choose "Use a phone, tablet, or security key" and a QR code will apepar. You can then tap the security key to save the passkey.
 
@@ -108,11 +108,11 @@ These steps are for an iPhone, and may be slightly different for Android.  If yo
 1. On the computer, the next step depends on the browser and version.
     1. In Chrome and Safari you will see a pop up asking to "Use Touch ID to sign in?" Click "Cancel" to continue setting up your mobile device.
 
-    <img src="/static/images/security/corporate/Okta-Apple-Touch-ID-Popup.png" alt="Okta Apple Touch ID width="300"/>"
+    <img src="/images/security/corporate/Okta-Apple-Touch-ID-Popup.png" alt="Okta Apple Touch ID" width="300"/>"
 
      Next, choose "Use a phone, tablet or security key".
 
-    <img src="/static/images/security/corporate/Okta-Chrome-Passkey.png" alt="Okta Chrome Passkey" width="300"/>
+    <img src="/images/security/corporate/Okta-Chrome-Passkey.png" alt="Okta Chrome Passkey" width="300"/>
 
      This should display a QR code that you can scan.
 
