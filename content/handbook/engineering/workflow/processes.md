@@ -1,22 +1,23 @@
 ---
-title: "Frontend Processes"
+title: "Default Processes"
 ---
 
-This is a (possibly incomplete) collection of how-tos to handle some standard problems and situations.
+This is a (incomplete) collection of how-tos to handle some standard problems and situations with the codebase. Feel free to add
+any currenly unwritten rules on how to address situations that may reoccur periodically.
 
-## Handling unmaintained dependencies in package.json
+## Handling unmaintained dependencies
 
-You've found a package we depend on has not been maintained in a while. If this is a package that is only used in
+You've found a package or gem we depend on has not been maintained in a while. If this is a package that is only used in
 a single place or few related places, you should open a replacement MR directly.
 
 If the package is used in a wide variety of different places across the codebase, it's better to follow a
 more solid review process to make sure the benefits of removing it outweigh the risk of breaking dependencies.
 
-1. Create a **confidential** issue in `gitlab-org/gitlab` with the title `Unmaintained dependency in package.json`
+1. Create a **confidential** issue in `gitlab-org/gitlab` with the title `Unmaintained dependency <dependency name> in <package.json/Gemfile>`
 1. Use the below template for the issue:
 
     ```md
-    The package `<package name>` has been discovered as not being maintained.
+    The dependency `<package name>` has been discovered as not being maintained.
 
     Last update: `<n years ago>`
     Latest version: `v.v.v`
