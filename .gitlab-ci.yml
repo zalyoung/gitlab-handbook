@@ -357,7 +357,7 @@ post_comment_on_failure:
     name: gitlab/glab
     entrypoint: [""]
   before_script:
-    - apk add yq jq sed bash
+    - apk add jq sed bash
   script:
     - bash ./scripts/parse-codequality-report.sh -r ./codequality.json > msg.txt
     - bash ./scripts/post-comment.sh "$(cat msg.txt)"
