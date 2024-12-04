@@ -189,4 +189,4 @@ Additionally, an IdP will need to include their end-entity certificates. This to
 and can be set via `gitlab.yml` as demonstrated in this [POC](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/169900).
 For Cloud Connector, both gitlab.com and CustomersDot need to be deployed with a cert. For self-hosted models, the customer GitLab
 instance needs to be deployed with a cert. To reduce conifguration burden, we should consider generating keys and their
-associated certificates during instance setup.
+associated certificates during instance setup or bundling them with Cloud Connector packages or AI gateway Docker images.
