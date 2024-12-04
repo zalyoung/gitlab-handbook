@@ -38,6 +38,10 @@ Although we have a bias for asynchronous communication, synchronous meetings are
 |-----------|--------------------------------------|-------------|--------------------------------------------------------------------------------------------------------|
 | Every other Thursday | Engineering managers discussion | @m_gill | Ideas, help or resources needed from others, concerns, questions, etc.                                 |
 
+## Skip Levels
+
+{{% include "includes/engineering/foundations-data-science-shared/skip-levels.md" %}}
+
 ## Links and resources
 
 {{% include "includes/engineering/foundations-data-science-shared/shared-links.md" %}}
