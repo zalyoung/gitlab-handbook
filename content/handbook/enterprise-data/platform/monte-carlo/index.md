@@ -115,6 +115,7 @@ All incidents are reported in MonteCarlo incident portal. For triage purposes th
 |           | TIER2                                                | #data-pipelines      | #data-pipelines      | #analytics-pipelines (once per day) | #data-pipelines      |
 |           | TIER3                                                | #data-pipelines      | #data-pipelines      | #analytics-pipelines (once per day) | #data-pipelines      |
 | PREP      | GITLAB_COM                                                  | #data-pipelines                    | #data-pipelines                  | #data-pipelines                                   | #data-pipelines                    |
+|           | Other                                                | #analytics-pipelines                      | #analytics-pipelines                  | #analytics-pipelines                                   | #analytics-pipelines                    |
 | PROD      | COMMON `*` | #analytics-pipelines | #analytics-pipelines | -                                       | #analytics-pipelines                                       |
 |           | WORKSPACE  `**`                                      | -                    | -                    | -                                   | -                    |
 |           | WORKSPACE-DATA-SCIENCE     | #data-science-pipelines | #data-science-pipelines                     | -                                   | #data-science-pipelines |
