@@ -166,18 +166,18 @@ We have three buckets of work:
 1. External requests
 1. General operations, also known as Keep the lights on (KTLO)
 
-While we rely on the `workflow-infra::*` labels to denote the current state of any given issue, we rely on the [Build Board](https://gitlab.com/groups/gitlab-com/gl-infra/-/boards/7578583?label_name%5B%5D=Foundations%3A%3ABuild) to understand what specific issues are ready to be picked up.
+While we rely on the `workflow-infra::*` labels to denote the current state of any given issue, we rely on the [Build Board](https://gitlab.com/groups/gitlab-com/gl-infra/-/boards/7578583) to understand what specific issues are ready to be picked up.
 
 In short, anyone on the team can find issues to work on in the Build Board.
 
-When something is prioritized to be worked on, the `Foundations::Build` label is applied so it is included on the board. With the exception of some external requests, issues being added should be in `workflow-infra::Ready` (clearly defined and [ready](../../platforms/project-management/index.md#workflow-labels) for any team member to pick up).
+When something is prioritized to be worked on, the `Foundations Build` label is applied so it is included on the board. With the exception of some external requests, issues being added should be in `workflow-infra::Ready` (clearly defined and [ready](../../platforms/project-management/index.md#workflow-labels) for any team member to pick up).
 
 We want the build board to be relatively small in size so it is easy to traverse and there is no confusion around what needs to be worked on. It can provide some options for people to find work, but also prevent key work from being missed.
 
-Different people are responsible for adding the `Foundations::Build` label to issues for each bucket of work:
+Different people are responsible for adding the `Foundations Build` label to issues for each bucket of work:
 
-- OKRs - DRIs of each OKR uses the `Foundations::Build` label to communicate what the next issues needed to be picked up are.
-- External requests - the Engineering manager will add `Foundations::Build` to issues that need attention. These will also include the `unblocks others` label to make it clear to people on the interrupt rotation which issues are external requests. The person on interrupt rotation can also actively triage incoming issues, adding the `Foundations::Build` label when new issues are opened.
+- OKRs - DRIs of each OKR uses the `Foundations Build` label to communicate what the next issues needed to be picked up are.
+- External requests - the Engineering manager or person on the [interrupt rotation](#interrupt-rotation) will add `Foundations Build` to issues that need attention. These will also include the `unblocks others` label to make it clear to people on the interrupt rotation which issues are external requests. The person on interrupt rotation can also actively triage incoming issues, adding the `Foundations Build` label when new issues are opened.
 - KTLO - These issues will generally be added according to a general combination of due date/priority/severity/weight. Any team member should feel empowered to add KTLO issues to the board when they fit the criteria (prioritization makes sense based on the due date/priority/severity/weight).
 
 From here, people have options when looking for what's next:
@@ -200,8 +200,8 @@ If a team member is unavailable for more than 2 days of the week they are on tri
 
 The team member on rotation is responsible for:
 
-- Checking the [Foundations Build Board](https://gitlab.com/groups/gitlab-com/gl-infra/-/boards/7578583?label_name%5B%5D=Foundations%3A%3ABuild) throughout the week and ensuring new issues related to Foundations:
-  - Have the correct labels (priority, workflow, any other applicable category labels)
+- Checking the [Foundations Build Board](https://gitlab.com/groups/gitlab-com/gl-infra/-/boards/7578583) throughout the week and ensuring new issues related to Foundations:
+  - Have the correct labels (`Foundations::*`, `Reliability::P*`, `workflow-infra::*`, any other applicable category labels)
   - Have a [weight](#issue-weighting).
   - Are assigned to an [appropriate epic](https://gitlab.com/groups/gitlab-com/gl-infra/-/epics?state=opened&page=1&sort=start_date_desc&label_name[]=team::Foundations) if applicable.
 - Asking issue authors for more information when needed to understand the scope of work.
@@ -238,7 +238,7 @@ In addition to the format described in the [platforms project management page](/
 
 \`\`\`
 /epic [current epic]
-/labels ~"group::Production Engineering" ~"Sub-Department::SaaS Platforms" ~"team::Foundations" ~"workflow-infra::Triage" ~"Reliability::P2"
+/labels ~"group::Production Engineering" ~"team::Foundations" ~"workflow-infra::Triage" ~"Reliability::P2" ~"Foundations::Project work"
 \`\`\`
 
 ## References
@@ -266,15 +266,16 @@ In addition to the format described in the [platforms project management page](/
 
 #### Issues
 
-Open planned work for our team is located in the [Production Engineering](https://gitlab.com/gitlab-com/gl-infra/production-engineering/) project. Issues should be updated whenever significant work occurs. New issues are expected to:
+Issues for our team are tracked in the [Production Engineering](https://gitlab.com/gitlab-com/gl-infra/production-engineering/) project. Issues should be updated whenever significant work occurs. New issues are expected to:
 
 - Link to a related Epic.
 - Include the following Labels (update the priority as needed):
 
    ```text
-   /labels ~"group::Production Engineering" ~"Sub-Department::SaaS Platforms" ~"team::Foundations" ~"workflow-infra::Triage" ~"Reliability::P4"
+   /labels ~"group::Production Engineering" ~"team::Foundations" ~"workflow-infra::Triage" ~"Reliability::P4"
    ```
 
+- A Foundations label that aligns with the bucket of work it fits best in: `Foundations::KTLO`, `Foundations::Requests`, `Foundations::Project Work`, ...
 - If there is a service label that is applicable, also apply that.
 
 ##### Issue weighting
