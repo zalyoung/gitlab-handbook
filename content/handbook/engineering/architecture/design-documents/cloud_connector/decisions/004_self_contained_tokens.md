@@ -119,7 +119,7 @@ Drawbacks and unknowns:
 
 1. **Increased HTTP payload size.** JWTs are Base64-encoded strings sent through the `Authorization` header as bearer tokens.
    Embedding certificates in a token claim will therefore grow the header field and the overall HTTP payload.
-   The increase should be negligible, but we have not yet investigated the impact of this.
+   We looked at how this increase manifests in typical AI requests, and the added cost it would induce [here](https://gitlab.com/gitlab-org/cloud-connector-team/team-tasks/-/issues/199) (internal link).
 1. **More computational work in backend services.** Parsing and verifying the EE cert is a net-new step a backend service
    needs to perform on each request, potentially adding latency. The actual impact of this has yet to be established.
    A key cache may help remove this overhead while not being subjected to state drift as mentioned above, for example
