@@ -80,6 +80,8 @@ Product tours are a self-guided journey emphasizing the 'What' of a feature, ski
 
 | Title | Area | Last updated | DRI |
 |-------|------|--------------|-----|
+| [Idea to MR](https://gitlab.navattic.com/duo-q) | Duo with Amazon Q | 2024-12-03 | @iganbaruch |
+| [Java modernization](https://gitlab.navattic.com/duo-q-transform) | Duo with Amazon Q | 2024-12-03 | @iganbaruch |
 | [Advanced SAST](https://gitlab.navattic.com/advanced-sast) | DevSecOps Platform | 2024-09-22 | @iganbaruch |
 | [AI Impact analytics](https://gitlab.navattic.com/ai-impact) | GitLab Duo | 2024-08-13 | @iganbaruch |
 | [Duo Enterprise](https://gitlab.navattic.com/duo-enterprise) | GitLab Duo | 2024-07-28 | @iganbaruch |
