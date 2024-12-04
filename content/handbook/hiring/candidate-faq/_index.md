@@ -104,11 +104,14 @@ When you receive a reference form, you will have the option to opt-in for a conv
 ### Interview Process FAQs
 
 {{% details summary="How to request for a reasonable accommodation" %}}
-At GitLab we pride ourselves on ensuring that everyone can contribute. To make certain that everyone's interview experience is a positive one, we encourage those who require a reasonable accommodation to successfully carry out the interview process, to reach out to `ces@gitlab.com`. The Candidate Experience team along with Talent Acquisition leadership will work with you to define and accommodate those needs. This could include but is not limited to the following:
+At GitLab, we are committed to fostering an inclusive environment where everyone has the opportunity to contribute. After connecting with a recruiter, applicants who move forward in the hiring process will have the opportunity to request reasonable accommodations to ensure a positive and equitable interview experience.
 
-- Translation Services
-- Use of additional services or assistive technologies
-- Assistance in setting up Closed Captioning for interviews
+When providing your availability for interviews, you’ll receive a link to a form where you can share any accommodation needs. Our Candidate Experience team, in collaboration with your Recruiter, will review your request and work with you to address your needs. Examples of accommodations may include but are not limited to:
+	•	Closed captioning for video interviews.
+	•	Additional time for technical interviews.
+	•	Accessible formats for interview materials.
+
+We are here to support you every step of the way and ensure an inclusive and seamless experience.
 {{% /details %}}
 
 {{% details summary="I've started the interview process at GitLab, but haven't heard back from anyone recently. What do I do?" %}}
