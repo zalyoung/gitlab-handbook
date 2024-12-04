@@ -1794,9 +1794,9 @@ Announcement Channels
 
 ### Sales Dev Performance Management Process
 
-The Sales Development organization believes in getting the job done (consistently delivering results) and doing it right (meeting KPI/SLAs, adhering to our [Three Pillars](./sales-development/#our-three-pillars), and being good partners both internally and externally). Our performance management process is deeply rooted in this philosophy. As we are building high-performing teams, it is important to understand that while we expect results, we also have expectations surrounding how we get to those results. Therefore, a performance management process will be initiated if a team member is not meeting their performance targets and/or is not adhering to their KPIs/SLAs. The idea behind our framework is to address issues promptly to ensure the long-lasting success of all team members.
+The Sales Development organization believes in getting the job done (consistently delivering results) and doing it right (meeting KPI/SLAs, adhering to [Our Three Pillars](handbook/marketing/sales-development/#our-three-pillars), and being good partners both internally and externally). Our performance management process is deeply rooted in this philosophy. As we are building high-performing teams, it is important to understand that while we expect results, we also have expectations surrounding how we get to those results. Therefore, a performance management process will be initiated if a team member is not meeting their performance targets and/or is not adhering to their KPIs/SLAs. The idea behind our framework is to address issues promptly to ensure the long-lasting success of all team members.
 
-The sections below will provide more details as to the performance management process on quota attainment as well as our [Three Pillars](./handbook/marketing/sales-development/#our-three-pillars) and KPIs/SLAs for inbound leads and outbound account management. While regular coaching is expected in weekly 1:1s, informal performance management will be initiated if a ramped team member has two consecutive months below 75-80%* attainment (SAOs, Stage 1 XDR Net ARR or Stage 3 Net ARR).
+The sections below will provide more details as to the performance management process on quota attainment as well as [Our Three Pillars](handbook/marketing/sales-development/#our-three-pillars) and KPIs/SLAs for inbound leads and outbound account management. While regular coaching is expected in weekly 1:1s, informal performance management will be initiated if a ramped team member has two consecutive months below 75-80%* attainment (SAOs, Stage 1 XDR Net ARR or Stage 3 Net ARR).
 
 _*Range due to varied quotas_
 
@@ -1804,9 +1804,9 @@ _*Range due to varied quotas_
 
 Once the team member is informed, expectations will be:
 
-- Month 1: 75-80% attainment + [Three Pillars](./handbook/marketing/sales-development/#our-three-pillars) adherence
-- Month 2: 75-90% attainment + [Three Pillars](./handbook/marketing/sales-development/#our-three-pillars) adherence
-- Month 3 and beyond: 100% Stage 1 XDR Net ARR attainment + [Three Pillars](./handbook/marketing/sales-development/#our-three-pillars) adherence
+- Month 1: 75-80% attainment + adherence to [Our Three Pillars](handbook/marketing/sales-development/#our-three-pillars)
+- Month 2: 75-90% attainment + adherence to [Our Three Pillars](handbook/marketing/sales-development/#our-three-pillars)
+- Month 3 and beyond: 100% Stage 1 XDR Net ARR attainment + adherence to [Our Three Pillars](handbook/marketing/sales-development/#our-three-pillars)
 
 Should the team member fall short of the targets above, a formal warning will be issued. 
 After the formal warning is issued if the team member falls short of targets again, additional disciplinary action could be taken up to and including termination.
@@ -1818,9 +1818,9 @@ As a business we understand that Stage 3 Net ARR is a metric that can take time 
 The process, however, will
  stay the same: once the team member is informed, expectations will be:
 
-- Month 1: 80% attainment + [Three Pillars](./handbook/marketing/sales-development/#our-three-pillars) adherence
-- Month 2: 90% attainment + [Three Pillars](./handbook/marketing/sales-development/#our-three-pillars) adherence
-- Month 3 and beyond: 100% Stage 1 Net ARR attainment + [Three Pillars](./handbook/marketing/sales-development/#our-three-pillars) adherence
+- Month 1: 80% attainment + adherence to [Our Three Pillars](handbook/marketing/sales-development/#our-three-pillars)
+- Month 2: 90% attainment + adherence to [Our Three Pillars](handbook/marketing/sales-development/#our-three-pillars)
+- Month 3 and beyond: 100% Stage 1 Net ARR attainment + adherence to [Our Three Pillars](handbook/marketing/sales-development/#our-three-pillars)
 
 Should the team member fall short of the targets above, a formal warning will be issued. 
 After a  formal warning is issued if the team member falls short of targets again, additional disciplinary action could be taken up to and including termination.
