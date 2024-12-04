@@ -314,9 +314,7 @@ flowchart TD
     W --> X{Event violates a Control?}
     X -- Yes --> Y[Insert violation in DB: project_compliance_violations]@{ shape: cyl }
     X -- No --> Z[No action needed]
-    Y --> AA[Event occurs: 
-    - every 12 hours
-    - MR merged]
+    Y --> AA[Event occurs: every 12 hours or when MR merged]
     Z --> AA
     AA --> U
 ```
