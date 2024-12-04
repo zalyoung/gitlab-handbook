@@ -18,9 +18,9 @@ Some customers using Github Source Code Management want to integrate with Gitlab
 
 ## Motivation
 
-Our current approach with Github <-> Gitlab integration is with mirroring at a minimum 5 minute interval. This is too slow for feedback, uses long lived personal access tokens, and requires a copy of GitHub's source code on GitLab.
+Our current approach with Github <-> Gitlab integration is with mirroring at a minimum 5 minute interval. This is too slow for feedback, uses long lived personal access tokens, and requires a copy of GitHub's source code on GitLab. Additionally, as the entire project and all pipelines are run under the user that initiates the integration; this could lead to permission mismatch.
 
-With an adequate solution, we can sell our product to GitHub users that want Gitlab CI/CD.
+With an effective solution, we can sell GitLab CI/CD and other Ops features to business that use GitHub source control.
 
 There are similar tools in the market that can be used for GitHub to run CI/CD externally. [Buildkite, CircleCi, TeamCity, Jenkins](https://gitlab.com/gitlab-org/gitlab/-/issues/460503#note_2115425859) are examples where the runner pulls directly from GitHub. And where the pipelines config file can live either on GitHub or in the services.
 
@@ -28,9 +28,12 @@ There are similar tools in the market that can be used for GitHub to run CI/CD e
 
 As an initial MVC we want to support
 
-1. Near instant pipeline creation upon Github pushes
-2. Correct user management systems. Either through direct user mapping, or service accounts.
-3. Runners are the only place to interact (fetch/pull) with the source code.
+1. Near instant pipeline creation upon GitHub pushes
+2. Correct user management system, through direct user mapping
+    1. Each user on GitHub's side should have a billable seat on GitLab
+    2. Gitlab users should have the least privilege needed to run pipelines
+3. Runners are the only place to interact (fetch/pull) with the source code
+    1. Customer source code is stored in a GitHub Repo and is never stored in a GitLab repo
 
 ### Non-Goals
 
@@ -55,7 +58,7 @@ These are do-able, but just to reduce scope and complexity we can iterate on add
 ![Architecture](images/GithubGitlabWorkflow.png)
 
 Github will communicate with Gitlab via our GithubApp.
-Gitlab will then trigger sidekiq jobs to create runners which will pull from Github directly.
+When runners poll GitLab's api, GitLab will serialize the jobs including the GitHub repo location for the runner to fetch the code from.
 Gitlab will then use Github's API to update the commit with the pipeline status.
 
 Unfortunately there's nuances to this diagram regarding user management and access tokens that we'll explore below.
@@ -70,6 +73,7 @@ The steps here will be in accordance with the diagram above
 3. Gitlab will receive the push payload.
 4. Gitlab will use Installation Access Tokens (IAT) to exchange for a short lived token (1hr max)
     1. [Github docs for IAT](https://docs.github.com/en/apps/creating-github-apps/authenticating-with-a-github-app/authenticating-as-a-github-app-installation)
+    1. Each GitHub project will come with an Installation ID. GitLab will use a secure `.pem` key with this Installation ID to get a short-lived token for that project.
 5. Gitlab will use the webhook details for which email did the push. And try to run a pipeline with that user on Gitlab's side. If the user does not exist, the pipeline will be created but in a failed status. Any maintainer of the project can then retry the pipeline.
     1. The pipeline will be generated from a `.gitlab-ci.yml` present on Gitlab.com side.
 6. Rails will pass the necessary params including the IAT to the runner. It will also update the pipeline on Github side to "running" via Github API and IAT.
