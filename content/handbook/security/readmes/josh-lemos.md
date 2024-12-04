@@ -18,7 +18,6 @@ People are the foundation of organizational success and the most fascinating asp
 - **Candor**: High-fidelity information drives decision-making. I encourage open dialogue and positive intent, believing that even difficult issues become solvable when discussed openly.
 - **Integrity**: Maintain rigorous accountability standards and act in good faith, regardless of circumstances or audience. Reputation and trust is currency in the security community.
 - **Ownership**: Success multiplies when people feel true ownership of objectives. I believe in pushing decisions to those closest to the problems.
-- **Teamwork**: Complex systems require collaborative effort. I value acknowledging both strengths and growth areas in building high-performing teams.
 - **Transparency**: I commit to sharing information openly with leaders whenever possible.
 
 ### My Super Powers
