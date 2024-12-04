@@ -316,7 +316,7 @@ hugolint:
   before_script:
     - apk add jq
   script:
-    - hugolint linkcheck --format=json $(find content -type f -name '*.md' | grep -v ' ') >linkcheck.json
+    - hugolint linkcheck --exclude .hugolint.exclude --format=json $(find content -type f -name '*.md' | grep -v ' ') >linkcheck.json
     - hugolint missinglinks --num 30 $(find content -name '*.md' | grep -v ' ') >missinglinks.txt 2>/dev/null
     - head -n 20 missinglinks.txt
     - |
