@@ -150,7 +150,7 @@ After these changes, the `index.js` file should look like this:
         - echo "Add script here that deploys the code to your infrastructure"
       environment:
         name: review/$CI_COMMIT_REF_NAME
-        url: https://$ip:4001
+        url: http://$ip:4001
       rules:
         - if: $CI_PIPELINE_SOURCE == "merge_request_event"
     ```
@@ -222,7 +222,7 @@ After these changes, the `index.js` file should look like this:
         - ssh root@$ip 'pm2 start -f /www/index.js'
       environment:
         name: review/$CI_COMMIT_REF_NAME
-        url: https://$ip:4001
+        url: http://$ip:4001
       rules:
         - if: $CI_PIPELINE_SOURCE == "merge_request_event"
     ```
