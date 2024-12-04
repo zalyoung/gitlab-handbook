@@ -37,6 +37,9 @@ Provide GitLab administrators with a way to:
 
 #### Use cases
 
+- The `db_key_base` secret leaked and needs to be rotated.
+- A security policy advise to rotate the `db_key_base` secret regularly
+
 #### Non-functional requirements
 
 ### Non-goals
@@ -44,21 +47,18 @@ Provide GitLab administrators with a way to:
 This blueprint does not cover the following:
 
 - Other secrets such as `secret_key_base`, `otp_key_base`, `openid_connect_signing_key`, and `encrypted_settings_key_base`.
+- Possibility to rotate the secret from the Admin UI.
 
 ## Decisions
 
 ## Proposal
 
-The idea is simple but is based on 3 pre-requisites:
+The idea is simple but is based on 2 pre-requisites:
 
-1. Support for multiple encryption keys
-1. Ability to know what key was used to encrypt an attribute
-1. Ability to list records encrypted with a specific key
+1. Support for multiple encryption keys: this allows online rotation of the secret
+1. Ability to know what key was used to encrypt an attribute: this allows to re-encrypt data encrypted with a legacy key
 
-These 3 pre-requisites would be fulfilled by using `ActiveRecord::Encryption` (except for rotating deterministic keys, but
-support for it should be easy to add).
-
-Once the pre-requisites are in place (i.e. `ActiveRecord::Encryption` is set up and usable), the high-level proposal is as follows:
+The high-level proposal is as follows:
 
 1. When a key need to be rotated, just add it last to the `db_key_base` array in `config/secrets.yml`, and restart GitLab.
    From now on, data will be encrypted with this new key.
@@ -76,16 +76,69 @@ Once the pre-requisites are in place (i.e. `ActiveRecord::Encryption` is set up 
 ```ruby
 current_key_id = ActiveRecord::Encryption::DerivedSecretKeyProvider.new(ActiveRecord::Encryption.config.primary_key.last).encryption_key.id
 
+# ActiveRecord::Encryption
 ApplicationRecord.descendants.select { |d| d.encrypted_attributes.present? }.each do |model|
   model.where("NOT (#{attr}->'h'->'i') ? :value", value: ::Base64.strict_encode64(current_key_id)).find_in_batches do |record|
     record.encrypt # this forces the re-encryption of all encrypted attribute
   end
 end
+
+# TokenAuthenticatable
+ApplicationRecord.descendants.select { |d| d.include?(TokenAuthenticatable) && d.encrypted_token_authenticatable_fields.present? }.each do |model|
+  encrypted_fields = model.encrypted_token_authenticatable_fields
+
+  model.where.not(encryption_key_id: ::Base64.strict_encode64(current_key_id)).find_in_batches do |record|
+    encrypted_fields.each do |field|
+      record.public_send(:"#{field}=", record.public_send(field))
+    end
+    record.save!
+  end
+end
+
+# attr_encrypted
+ApplicationRecord.descendants.select { |d| d.attr_encrypted_attributes.present? }.each do |model|
+  encrypted_fields = model.attr_encrypted_attributes
+
+  model.where.not(encryption_key_id: ::Base64.strict_encode64(current_key_id)).find_in_batches do |record|
+    encrypted_fields.each do |field|
+      record.public_send(:"#{field}=", record.public_send(field))
+    end
+    record.save!
+  end
+end
 ```
+
+### Data encrypted through `ActiveRecord::Encryption`
+
+The `ActiveRecord::Encryption` framework already fullfills the pre-requisites (except for rotating deterministic keys, but
+support for it can be implemented), so as soon as `ActiveRecord::Encryption` will be set up in the application, the implementation of the proposal
+will be possible.
+
+### Data encrypted through `attr_encrypted` and `TokenAuthenticatable`
+
+Currently, `attr_encrypted` and `TokenAuthenticatable` don't store the ID of the key used to encrypt an attribute.
+We could introduce a new `encryption_key_id` column (4 chars) to tables that include encrypted columns.
+
+A single `encryption_key_id` column per table is enough since the same key is used to encrypt all encrypted attributes
+for a given record.
+
+The key ID can be computed with `Digest::SHA1.hexdigest(secret).first(4)`
+(inspired by <https://github.com/rails/rails/blob/v7.0.8.6/activerecord/lib/active_record/encryption/key.rb#L24>).
+
+Once introduced, a post-deploy migration should populate all rows with the current key ID.
+
+The implementation of `attr_encrypted` and `TokenAuthenticatable` will need to be modified to populate the `encryption_key_id` attribute.
+
+In the future, we should migrate all the usage of `attr_encrypted` and `TokenAuthenticatable` to `ActiveRecord::Encryption`.
 
 ## Blockers
 
-`ActiveRecord::Encryption` doesn't support deterministic keys rotation at the moment, support for it should be implemented either in GitLab, or in Rails directly.
+`ActiveRecord::Encryption` doesn't support deterministic keys rotation at the moment, support for it should be
+implemented either in GitLab, or in Rails directly.
+
+Deterministic encryption allows to query a table for a specific column value (e.g. personal access tokens are currently
+queried by their digest, but we should migrate them to be encrypted instead so that we can rotate the key without
+invalidating all the tokens).
 
 ### Use case studies
 
