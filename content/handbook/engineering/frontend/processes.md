@@ -1,4 +1,10 @@
-# Handling outdated packages
+---
+title: "Frontend Processes"
+---
+
+This is a (possibly incomplete) collection of how-tos to handle some standard problems and situations.
+
+## Handling unmaintained dependencies in package.json
 
 You've found a package we depend on has not been maintained in a while. If this is a package that is only used in
 a single place or few related places, you should open a replacement MR directly.
