@@ -54,19 +54,15 @@ GitLab requires all team members to use either Biometrics or YubiKey as your [Ok
 
 <img src="/handbook/it/okta/images/1password-passkey.png" alt="1Password USB Key" width="300">
 
-1. For iCloud Keychain or a YubiKey, click "Use a different passkey". For the local Chrome browser choose "Continue".
+1. By default, you will be prompted to save it in your iCloud KeyChain. 
 
-    <img src="/handbook/it/okta/images/Okta-Chrome-Passkey-Popup.png" alt="Okta Add Passkey #1" width="300"/>
+    <img src="/static/images/security/corporate/Okta-Apple-Touch-ID-Popup.png" alt="Okta Apple Touch ID" width="300"/>
 
-1. If you choose to save it in your Chrome profile, another prompt will appear asking you to authenticate using Touch ID or Face ID.
+1. If you press cancel, you will be given options to save the passkey in different places.
 
-    <img src="/handbook/it/okta/images/Okta-Add-Biometric-2.png" alt="Okta Add Biometric #2" width="300"/>
+    <img src="/static/images/security/corporate/Okta-Chrome-Passkey.png" alt="Okta Chrome Passkey" width="300"/>
 
-1. If you chose to use the iCloud Keychain or Security Key, choose the correct option to finish enrollment.
-
-    <img src="/handbook/it/okta/images/Okta-Chrome-Passkey-2.png" alt="Okta Add Passkey #2" width="300"/>
-
-1. For Security Key, relevant prompts will appear.
+1. For Security Key, choose "Use a phone, tablet, or security key" and a QR code will apepar. You can then tap the security key to save the passkey.
 
     <img src="/handbook/it/okta/images/Okta-Add-SecurityKey-1.png" alt="Okta Security Key #1" width="300"/>
 
@@ -112,11 +108,11 @@ These steps are for an iPhone, and may be slightly different for Android.  If yo
 1. On the computer, the next step depends on the browser and version.
     1. In Chrome and Safari you will see a pop up asking to "Use Touch ID to sign in?" Click "Cancel" to continue setting up your mobile device.
 
-    <img src="/content/static/images/security/corporate/Okta-Apple-Touch-ID-Popup.png" alt="Okta Apple Touch ID width="300"/>"
+    <img src="/static/images/security/corporate/Okta-Apple-Touch-ID-Popup.png" alt="Okta Apple Touch ID width="300"/>"
 
      Next, choose "Use a phone, tablet or security key".
 
-    <img src="/content/static/images/security/corporate/Okta-Chrome-Passkey.png" alt="Okta Chrome Passkey" width="300"/>
+    <img src="/static/images/security/corporate/Okta-Chrome-Passkey.png" alt="Okta Chrome Passkey" width="300"/>
 
      This should display a QR code that you can scan.
 
