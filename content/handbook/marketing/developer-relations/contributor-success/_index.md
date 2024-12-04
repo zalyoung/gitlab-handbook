@@ -34,8 +34,8 @@ This team directly follows the strategy outlined in our [open source growth stra
 
 ## Mission
 
-The goal of the team is to increase the technical improvements and efficiency of our contribution process to sustain our
-ambition of [1000+ contributors with merged MRs per month to GitLab](/handbook/company/strategy/#2-build-on-our-open-core-strength).
+The goal of the team is to lead the contributor program, support & attract customers who co-create GitLab with us and increase the efficiency of our contribution process through technical and process improvements to sustain our
+ambition of 170+ contributors with merged MRs per month to GitLab. This is aligned with GitLab's mission to [**enable everyone to contribute to and co-create the software that powers our world**](/handbook/company/mission/#mission ) and is aligned with the [3-year internal company strategy](https://internal.gitlab.com/handbook/company/three-year-strategy/).
 
 ### FY26 Direction
 
