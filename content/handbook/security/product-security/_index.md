@@ -53,4 +53,6 @@ With some projects having visibility up to the E-Group and our rotations being a
 - If you're supposed to be on rotation during the PTO you're planning, ensure someone is handling that rotation while you're on PTO.
 - Someone in your region (AMER, APAC, EMEA) is available in case of emergency (e.g. incident, emergency request from E-Group).
 
+If you're on PTO for more than 5 days, make sure to create a coverage issue in your team's issue tracker.
+
 If you have additional questions about our PTO Policy, please consult the [corresponding page](https://handbook.gitlab.com/handbook/people-group/paid-time-off/#a-gitlab-team-members-guide-to-time-off).
