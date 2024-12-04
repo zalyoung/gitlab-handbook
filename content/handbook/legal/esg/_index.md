@@ -65,7 +65,9 @@ The team member submitting the issue is responsible for obtaining proper approva
 
 #### GiveLab
 
-GiveLab is GitLab's Team Member Volunteer Program. The GiveLab Program lives under the [ESG Team](/job-families/legal-and-corporate-affairs/environmental-social-governance/) and is a part of GitLab's overall [ESG strategy](/handbook/legal/esg/#esg-strategy) and program development. The term GiveLab encompasses all Team Member Volunteering initiatives at GitLab.
+At GitLab, all team members do work that supports the company, which supports the enhancement of an open source codebase. This codebase is freely available to everyone to make better software faster and drive progress through what they build. Between 2022 and 2024, team members made over 125,000 commits to the open source part of the GitLab codebase.
+
+But, there are also other ways to give back and many team members choose to contribute beyond GitLab. In addition to contributing to GitLab, GitLab offers additional optional pathways for team members to give back while leveraging their unique skills and passions through programs such as GiveLab, GitLab's Team Member Volunteer Program. The GiveLab Program lives under the [ESG Team](/job-families/legal-and-corporate-affairs/environmental-social-governance/) and is a part of GitLab's overall [ESG strategy](/handbook/legal/esg/#esg-strategy) and program development.
 
 GitLab encourages team members to take part in volunteer initiatives that support their local communities, participate in virtual volunteer activities, and organize volunteer activities as part of team events and get togethers.
 
@@ -109,6 +111,7 @@ Throughout the month, team members can volunteer as little as one hour of their 
 - Individual volunteer pursuits
 - Find and contribute to opportunities in the [GiveLab Volunteer Directory](https://docs.google.com/spreadsheets/d/1koFKQbKqm4jpKtZlteLDTPM3HYv20nffXaqRJ2C8YBA/edit?usp=sharing)
 - Include a volunteer activity at an all-hands or team builder
+- Contribute to [GitLab's codebase](/handbook/legal/esg/#contribute-to-gitlabs-oss-codebase) 
 
 ### Why GiveLab 30 Days of Impact Exists
 
@@ -124,6 +127,7 @@ Additionally, this program offers volunteering opportunities around a major holi
 
 ### Importance of Volunteerism at GitLab
 
+- Provide an additional option for team members to volunteer and make a positive impact beyond the impact team members make every day by contributing to GitLab - the platform and the company
 - Provide another way for team members to embody our CREDIT values through volunteerism and social impact
 - Expand GitLab’s positive impact across communities
 - Build trust amongst team members through social connections
@@ -250,7 +254,7 @@ Many of you already volunteer in your community and we want to capture how you m
 
 At GitLab, our mission is to enable everyone to contribute to and co-create the software that powers our world. This, together with our values, is at the core of how we manage our business, including our approach to Environmental, Social, and Governance and our ESG programs such as GiveLab.
 
-Contributors to GitLab — the platform and the company — make up the GitLab community and are fundamental to GitLab’s strategy and mission. Team members who wish to volunteer their time contributing to GitLab help live our mission and contribute to the open source community.
+Contributors to GitLab — the platform and the company — make up the GitLab community and are fundamental to GitLab’s strategy and mission. Team members who wish to volunteer their time [contributing to GitLab](https://about.gitlab.com/community/contribute/) help live our mission and contribute to the open source community.
 
 ### Acceptable Volunteer Activities
 
