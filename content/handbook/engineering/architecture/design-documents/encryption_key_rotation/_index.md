@@ -60,16 +60,16 @@ support for it should be easy to add).
 
 Once the pre-requisites are in place (i.e. `ActiveRecord::Encryption` is set up and usable), the high-level proposal is as follows:
 
-1. When a key need to be rotated, just add it last to the `db_key_base` array in `config/secrets.yml`, and restart GitLab
-  - From now on, data will be encrypted with this new key
-1. The decryption process will try each key (in the order they appear in the `db_key_base` array), until it can decrypt the data
-  - That way, there's no need to bring GitLab down to mass-re-encrypt all data
-1. A background process continuously runs to re-encrypt any data that was encrypted with a legacy key (i.e. not the current key in the `db_key_base` array)
-  - The background process becomes a no-op as soon as all the data is re-encrypted with the current key
+1. When a key need to be rotated, just add it last to the `db_key_base` array in `config/secrets.yml`, and restart GitLab.
+   From now on, data will be encrypted with this new key.
+1. The decryption process will try each key (in the order they appear in the `db_key_base` array), until it can decrypt the data.
+   That way, there's no need to bring GitLab down to mass-re-encrypt all data.
+1. A background process continuously runs to re-encrypt any data that was encrypted with a legacy key (i.e. not the current key in
+   the `db_key_base` array). The background process becomes a no-op as soon as all the data is re-encrypted with the current key.
 1. A new dedicated Admin page allows to monitor the encrypted data status:
-  - How many records are still encoded with a legacy key
-  - What's the expected ETA for everything to be re-encoded with the current key
-  - What keys can be deleted (i.e. no data is encrypted with this key)
+   - How many records are still encoded with a legacy key?
+   - What's the expected ETA for everything to be re-encoded with the current key?
+   - What keys can be deleted (i.e. no data is encrypted with this key)?
 
 ### Pseudo code
 
