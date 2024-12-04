@@ -55,4 +55,4 @@ With some projects having visibility up to the E-Group and our rotations being a
 
 If you're on PTO for more than 5 days, make sure to create a coverage issue in your team's issue tracker.
 
-If you have additional questions about our PTO Policy, please consult the [corresponding page](https://handbook.gitlab.com/handbook/people-group/paid-time-off/#a-gitlab-team-members-guide-to-time-off).
+If you have additional questions about our PTO Policy, please consult the [corresponding page](/content/handbook/people-group/paid-time-off/#a-gitlab-team-members-guide-to-time-off).
