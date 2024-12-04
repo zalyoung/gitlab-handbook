@@ -48,9 +48,9 @@ To request a Subject Matter Expert (SME) for an opportunity, follow these steps:
 
 ### Before Engaging or Requesting A PM Consider Requesting a SME First {#sme-pm-alternative}
 
- It is the goal for the SMEs to become experts in AI, Dedicated, App Security, Plan, CICD and Metrics, so that they can assist account teams and customers in adopting and using them. We need to reduce the burden on Product Managers to teach the field and customers on how to use the product.
+It is the goal for the SMEs to become experts in AI, Dedicated, App Security, Plan, CICD and Metrics, so that they can assist account teams and customers in adopting and using them. We need to reduce the burden on Product Managers to teach the field and customers on how to use the product.
 
-**Resist from Directly contacting PM Without a SME Request**: If an AE, a SA, or CSM requests a PM, Field CTO directly, ask the requester, to first consider requesting a SME. You, the SA/ CSM can then request a SME in the appropriate SME channel. PMs have been directed to redirect all questions to SMEs by the use of the SME Slack handles, if they determine that the SMEs were not initially engaged, and the request is not associated with any escalations, request for product direction.
+**Resist from Directly contacting PM Without a SME Request**: If an AE, a SA, or CSM requests a PM, Field CTO directly, ask the requester, to first consider requesting a SME. You, the SA/ CSM can then request a SME in the appropriate SME channel. PMs have been directed to redirect all questions to SMEs by the use of the SME Slack handles, if they determine that the SMEs were not initially engaged, and the request is not associated with any escalations or request for product direction.
 
 **For these scenarios, please engage the SME community before engaging a PM.**
 
@@ -72,20 +72,24 @@ In lieu of directly engaging Product management, SMEs should be requested or eng
 
 #### When to Engage a Product Manager
 
-Please see [SME Engagement with Product Management](/handbook.gitlab.com/handbook/solutions-architects/sa-practices/subject-matter-experts/sme-engage-pm/)for a full discussion on how SAs, CSMs, and SMEs, should now engage with PMs alongside the SME Program.
+Please see [SME Engagement with Product Management](/handbook.gitlab.com/handbook/solutions-architects/sa-practices/subject-matter-experts/sme-engage-pm/) for a full discussion on how SAs, CSMs, and SMEs should now engage with PMs alongside the SME Program.
 
-**In summary, you can engage PMs**, as noted in the [Product Management Section of the Handbook](/handbook.gitlab.com/handbook/product/product-management/#requests-for-product-support) , for the following scenarios:
+**In summary, you can engage PMs**, as noted in the [Product Management Section of the Handbook](/handbook.gitlab.com/handbook/product/product-management/#requests-for-product-support), for the following types of topics:
 
-1. Request for a Roadmap.
-2. Discussion on the Direct of the Product.
-3. Feedback and Questions on Gaps in Functionality 
-4. Request to join a Customer Meeting to discuss for gaps in functionality, roadmaps, or future direction of the product.
-   1. Please follow the Product Management process to request a [Customer Call](/handbook/product/product-management/#product-joining-customer-calls)
-   2. **NOTE: At no time should an AE, SA, or CSA request that a PM joins a call for tomorrow or the next day, especially just to answer technical questions, or best practices.**  See list 
-    of scenarios above where SMEs should be requested instead of a PM.
-   3. Do not just simply request a Product Manager to join a call just because the AE insists, or you have not gathered the context or done any extensive discovery beforehand on exactly what the customer needs. 
-5. During a POV, and you have already triaged with a SME as discussed above. This is usually the case assistance is needed on brand new functionality, or there is a need for a bug fix or enhancement.
-6. During a customer escalation, once the appropriate [escalation process](/handbook/product/product-management/#how-do-i-escalate-a-feature-request) has been followed.
+1. Request for a roadmap presentation.
+2. Discussion on the direction of the Product.
+3. Feedback and questions on identified gaps in functionality.
+
+Be sure that you have adequately prepared:
+
+- During a POV, you should have already triaged the issue with a SME as discussed above. This is usually the case assistance is needed on brand new functionality, or there is a need for a bug fix or enhancement.
+- During a customer escalation, you should already have followed the [escalation process](/handbook/product/product-management/#how-do-i-escalate-a-feature-request).
+
+To request that a PM join a customer meeting in one of the above situations:
+
+1. Please follow the Product Management process to request a [Customer Call](/handbook/product/product-management/#product-joining-customer-calls)
+2. **NOTE: At no time should an AE, SA, or CSA request that a PM joins a call for tomorrow or the next day, especially just to answer technical questions, or best practices.**  See list of scenarios above where SMEs should be requested instead of a PM.
+3. Do not just simply request a Product Manager to join a call just because the AE insists, or you have not gathered the context or done any extensive discovery beforehand on exactly what the customer needs. 
 
 ### **During Customer calls with a SME**
 
