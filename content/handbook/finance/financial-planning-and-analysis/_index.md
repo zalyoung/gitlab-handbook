@@ -83,16 +83,6 @@ FP&A comprises five different sub-teams to support our FP&A goals:
 - Revise and update the annual sales compensation plan
 - Set annual quota assignments for revenue producing roles
 
-#### FY24 AOP
-
-Final FY24 Planning documents are on Google Drive, please find the links in the [Internal Handbook](https://internal.gitlab.com/handbook/finance/documents/). These include:
-
-- FY24 AOP Board Approval Presentation
-- FY24 AOP SSOT Hiring List
-- FY24 Bookings Quarterization
-
-All of the data for these planning documents are locked in our Adaptive Planning instance (Adaptive Planning can only be accessed by FP&A.)
-
 #### FY26 AOP Milestones
 
 Key planning milestones are listed below. For a more detailed timeline and planning checklist please engage your FP&A business partner.
