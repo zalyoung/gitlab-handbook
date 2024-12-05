@@ -74,7 +74,7 @@ Since multiple Cells can be run on the same top-level domain, and the Docker cli
 
 To authenticate with the dependency proxy in a Cells environment, users will need to run:
 
-```
+```shell
 docker login gitlab.example.com
 ```
 

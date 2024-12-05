@@ -114,16 +114,16 @@ Since multiple Cells can be run on the same top-level domain, and the Docker cli
 
 To authenticate with the container registry in a Cells environment, users will need to run:
 
-```
+```shell
 docker login gitlab.example.com
 ```
 
 The username can be anything; it is not used by GitLab's container registry. The "password" must be one of:
 
-* Personal access token
-* Project access token
-* Group access token
-* Deploy token
+- Personal access token
+- Project access token
+- Group access token
+- Deploy token
 
 Per the current [container registry authentication process](https://docs.gitlab.com/ee/user/packages/container_registry/authenticate_with_container_registry.html).
 
