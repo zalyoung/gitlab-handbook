@@ -130,21 +130,6 @@ Cells overall architecture [blueprint](https://docs.gitlab.com/ee/architecture/b
 <tr>
 <td>
 
-[Sissi Yao](https://gitlab.com/sissiyao)
-
-</td>
-<td>Tenant Scale Engineering Manager</td>
-<td>
-
-1. Status updates of Tenant Scale workstreams
-2. Mitigate risks
-3. Collaborate with Tenant Scale Product Manager on Organizations and Cells projects
-
-</td>
-</tr>
-<tr>
-<td>
-
 [Joshua Lambert](https://gitlab.com/joshlambert)
 
 </td>
