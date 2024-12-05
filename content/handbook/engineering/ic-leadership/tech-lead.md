@@ -59,10 +59,12 @@ A Tech Lead may be most valuable for projects that have one or more of these cha
 
 - **Technical complexity**: Projects involving significant architectural decisions or technical risks that need careful consideration and oversight.
 - **Cross-team coordination**: Work that spans multiple teams or requires coordination between different technical teams.
-- **Team size**: Projects where multiple engineers are working simultaneously on related components and would benefit from technical guidance and coordination from a Tech Lead.
+- **Number of collaborators**: Projects where multiple engineers are working simultaneously on related components and would benefit from technical guidance and coordination from a Tech Lead.
 - **Strategic importance**: Initiatives that are critical to business objectives and require dedicated technical leadership to ensure success.
 
 Not every project requires a dedicated Tech Lead. For simpler, well-defined tasks or projects where the technical direction is clear, having a Tech Lead might not be necessary.
+
+A Tech Lead should not be mistaken as the sole decision maker. We envision Tech Leads as technical facilitators who can help guide the project to success, and not as a central authority that needs to make or approve every technical decision.
 
 ### Assigning a Tech Lead to a project
 
