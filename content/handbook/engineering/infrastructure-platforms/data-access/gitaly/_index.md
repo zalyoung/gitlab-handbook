@@ -74,7 +74,7 @@ Our _engineers_ can help, preferably [async](/handbook/company/culture/all-remot
 - providing product-level fixes or improvements, work to be scheduled and results released as usual, under [direction of EM and PM](#working-with-product)
 - improving our documentation if something's unclear
 
-_Engineering Managers_ (`@jcaigitlab` & `@andrashorvath`) and _Product Managers_ (`@mjwood`) are also happy to engage with customers if you need assistance clarifying roadmaps, product features and timelines, or to ensure the correct prioritization.
+_Engineering Managers_ (`@jcaigitlab`) and _Product Managers_ (`@mjwood`) are also happy to engage with customers if you need assistance clarifying roadmaps, product features and timelines, or to ensure the correct prioritization.
 
 We are not a good fit however if you need:
 
