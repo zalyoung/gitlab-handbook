@@ -49,10 +49,10 @@ Product Security is a key actor in ensuring our product's security.
 
 With some projects having visibility up to the E-Group and our rotations being a critical part of our operational work, before you book our hotel, flight and submit your PTO ensure that:
 
-- You have coordinated with your manager as per our [PTO Policy](/content/handbook/people-group/paid-time-off/#a-gitlab-team-members-guide-to-time-off). This is particularly important if you're working on a project that has high visibility.
+- You have coordinated with your manager as per our [PTO Policy](/handbook/people-group/paid-time-off/#a-gitlab-team-members-guide-to-time-off). This is particularly important if you're working on a project that has high visibility.
 - If you're supposed to be on rotation during the PTO you're planning, ensure someone is handling that rotation while you're on PTO.
 - Someone in your region (AMER, APAC, EMEA) is available in case of emergency (e.g. incident, emergency request from E-Group).
 
 If you're on PTO for 5 days or more, make sure to create a coverage issue in your team's issue tracker.
 
-If you have additional questions about our PTO Policy, please consult the [corresponding page](/content/handbook/people-group/paid-time-off/#a-gitlab-team-members-guide-to-time-off).
+If you have additional questions about our PTO Policy, please consult the [corresponding page](/handbook/people-group/paid-time-off/#a-gitlab-team-members-guide-to-time-off).
