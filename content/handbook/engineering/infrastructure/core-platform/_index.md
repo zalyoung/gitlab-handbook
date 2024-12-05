@@ -53,7 +53,7 @@ The following people are permanent members of teams that belong to the Core Plat
 
 ### Tenant Scale
 
-{{< team-by-manager-slug manager="sissiyao" >}}
+{{< team-by-manager-slug manager="nick-nguyen" team="Organizations" >}}
 
 ## Stable Counterparts
 
