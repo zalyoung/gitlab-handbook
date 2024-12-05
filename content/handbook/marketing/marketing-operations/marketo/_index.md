@@ -520,6 +520,16 @@ Complete list of priority countries as found [here](https://gitlab.com/gitlab-co
 
 </details>
 
+<details><summary>[Education Sector](https://engage-ab.marketo.com/?munchkinId=194-VVC-221#/classic/SG1033A1)</summary>
+Documentation describing this segment can be found [here](https://docs.google.com/spreadsheets/d/1Q_TwMimeBOR3rJ8CK4EM6DJ9YWYO56bTLNYevCS8UA0/edit?gid=0#gid=0)
+
+- Students
+- Teachers
+- Faculty
+- Edu Domain
+
+</details>
+
 ### Snippets
 
 [Localized email footer](https://engage-ab.marketo.com/?munchkinId=194-VVC-221#/ds/snippet/15/overview/details) - This snippet can be applied to localized emails to automatically include the translated unsusbcribe language. The unsubscribe language will be localized if the recipient has a known `Preferred Language`. If they do not have a preferred language on file, the footer will be in English.
