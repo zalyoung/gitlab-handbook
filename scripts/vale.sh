@@ -1,3 +1,4 @@
+#!/bin/bash
 
 if ! [ -f vale-codequality.json ]; then
   echo "[]" > vale-codequality.json
