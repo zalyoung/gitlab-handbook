@@ -50,35 +50,37 @@ else
 fi
 
 ## IMAGE checks
+# TODO: fix new image location loads them properly
+# https://gitlab.com/gitlab-com/content-sites/handbook/-/issues/425
 # Check if newly added images are in /static/images
-printf "%b" "${bold}Checking that added images are in static/images directory...${normal}"
-INCORRECT_IMAGE_PATHS=""
-while read -r image; do
-  if ! [[ "$image" =~ ^static/images/ ]]; then
-    ERROR_FOUND=true
-    INCORRECT_IMAGE_PATHS="$INCORRECT_IMAGE_PATHS- $image\n"
-    fingerprint=$(sha256sum "$image")
-    markdownlinjson=$(cat handbook-codequality.json)
-    cat << EOF | jq -s 'add' - > handbook-codequality.json
-$markdownlinjson
-[
-  {
-    "type": "issue",
-    "check_name": "IMAGES/Incorrect Path",
-    "description": "The image \`$image\` is not in the /static/images directory. Please move it to the correct location.",
-    "severity": "minor",
-    "fingerprint": "$fingerprint",
-    "location": {
-      "path": "$image",
-      "lines": {
-        "begin": 0
-      }
-    }
-  }
-]
-EOF
-  fi
-done < /tmp/IMAGES-added
+# printf "%b" "${bold}Checking that added images are in static/images directory...${normal}"
+# INCORRECT_IMAGE_PATHS=""
+# while read -r image; do
+#   if ! [[ "$image" =~ ^static/images/ ]]; then
+#     ERROR_FOUND=true
+#     INCORRECT_IMAGE_PATHS="$INCORRECT_IMAGE_PATHS- $image\n"
+#     fingerprint=$(sha256sum "$image")
+#     markdownlinjson=$(cat handbook-codequality.json)
+#     cat << EOF | jq -s 'add' - > handbook-codequality.json
+# $markdownlinjson
+# [
+#   {
+#     "type": "issue",
+#     "check_name": "IMAGES/Incorrect Path",
+#     "description": "The image \`$image\` is not in the /static/images directory. Please move it to the correct location.",
+#     "severity": "minor",
+#     "fingerprint": "$fingerprint",
+#     "location": {
+#       "path": "$image",
+#       "lines": {
+#         "begin": 0
+#       }
+#     }
+#   }
+# ]
+# EOF
+#   fi
+# done < /tmp/IMAGES-added
 if [[ $INCORRECT_IMAGE_PATHS != "" ]]; then
   printf "%b" " ${red}${bold}Failed.${normal}\n"
 else
