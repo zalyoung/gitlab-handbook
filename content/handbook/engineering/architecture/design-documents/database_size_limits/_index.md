@@ -2,9 +2,10 @@
 title: 'Database Scalability: Limit on-disk table size to < 100 GB for GitLab.com'
 status: accepted
 creation-date: "2021-06-23"
-authors: [ "@abrandl" ]
+authors: [ "@abrandl", "@tkuah" ]
 coach: ""
 approvers: []
+dris: [ "@alexives" ]
 owning-stage: "~devops::data stores"
 participating-stages: []
 toc_hide: true
@@ -189,7 +190,9 @@ Identifying solutions for offending tables is driven by the [GitLab Database Tea
 | Role               | Who |
 |--------------------|-----|
 | Author             | Andreas Brandl |
-| Engineering Leader | Nick Nyugen |
+| Engineering Leader | Alex Ives |
+| Principal Engineer | Thong Kuah |
+| Senior Engineer    | Maxime Orefice |
 
 ## Decision log
 
