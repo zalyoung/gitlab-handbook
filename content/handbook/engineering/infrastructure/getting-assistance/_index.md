@@ -80,6 +80,17 @@ We can help with:
 
 Our Slack channel is: [#g_foundations](https://gitlab.enterprise.slack.com/archives/C0313V3L5T6)
 
+#### Cloud Connector
+
+Open a request for help in the [Request For Help Tracker](https://gitlab.com/gitlab-com/request-for-help/-/issues/new?issuable_template=SupportRequestTemplate-ProductionEngineering-CloudConnector.md)
+
+We can help with:
+
+1. Cloud Connector
+1. GitLab Duo Healthcheck problems
+
+Our Slack channel is: [#g_cloud_connector](https://gitlab.enterprise.slack.com/archives/CGN8BUCKC)
+
 ### Software Delivery
 
 #### Delivery
