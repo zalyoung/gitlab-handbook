@@ -404,4 +404,6 @@ For more information please review [this section in the quality department handb
 
 ### Categories A-Z
 
+<!-- To edit the content of the Categories index, see: https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/data/stages.yml -->
+
 {{< categories-index >}}
