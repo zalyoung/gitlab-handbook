@@ -66,7 +66,11 @@ generate_table() {
       DESCRIPTION=$(jq -r ".[$i].description" $HREPORT | cut -d ':' -f 2-)
       ERRORS+=( $ERROR )
       if [[ "$ERROR" ]]; then
-        MSG+="| $ERROR | [$FILE]($LOC) | [$LINE]($LOC) | $DESCRIPTION |\n"
+          if [[ -z "$URL" ]]; then
+              MSG+="| $ERROR | [$FILE]($LOC) | [$LINE]($LOC) | $DESCRIPTION |\n"
+          else
+              MSG+="| [$ERROR]($URL) | [$FILE]($LOC) | [$LINE]($LOC) | $DESCRIPTION |\n"
+          fi
       fi
     done
     MSG+="\n"

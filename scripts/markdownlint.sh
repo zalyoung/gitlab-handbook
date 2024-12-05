@@ -1,3 +1,5 @@
+#!/bin/bash
+
 if ! [ -f markdownlint-cli2-codequality.json ]; then
   echo "[]" > markdownlint-cli2-codequality.json
 fi
