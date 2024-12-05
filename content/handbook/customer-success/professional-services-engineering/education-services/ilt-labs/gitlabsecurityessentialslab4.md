@@ -9,17 +9,11 @@ Our initial project has been built and we want to start on the deployment proces
 
 1. Navigate to your project.
 
-1. Select **+ > New file**.
-
-1. In the **Filename**, enter `requirements.txt`.
-
-1. In the file, add the following dependency:
+1. Open the `requirements.txt` file and observe the dependencies in it.
 
     ```
     requests==2.27.1
     ```
-
-1. Select **Commit changes**.
 
 For infrastructure as code, you want to start by deploying an S3 bucket to your environment. To do this, you can set up some terraform files with infrastructure definitions. To do this:
 
@@ -67,7 +61,7 @@ Now that you have dependencies added to your project, you want to ensure that th
 1. Add the following line to your `include` block:
 
 ```yml
-  - component: $CI_SERVER_FQDN/components/dependency-scanning/main@0.5.0
+  - component: https://ilt.gitlabtraining.cloud/components/dependency-scanning/main@0.5.0
 ```
 
 1. Select **Commit changes**.
@@ -102,7 +96,24 @@ In the results, you will see various vulnerabilities in our version of the reque
 
 ### Task C. Add IaC scanning
 
-Is there a component for this or just an includes?
+To add infrastructure as code scanning to your project:
+
+1. Open your `.gitlab-ci.yml` file. 
+
+1. In the include section, add the following template:
+
+```yml
+include:
+  - template: Jobs/SAST-IaC.gitlab-ci.yml
+```
+
+1. Select **Commit changes**.
+
+1. Observe the resulting pipeline and wait for it to complete.
+
+1. Navigate to **Secure > Vulnerability Reports**.
+
+1. Review the results of your IaC scan.
 
 ## Lab Guide Complete
 

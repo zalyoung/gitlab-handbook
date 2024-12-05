@@ -112,16 +112,16 @@ To provide more thorough scanning and vulnerability detection, we will opt to en
 
 1. Below the `excluded_paths` input, add another input named `run_advanced_sast` with a value of `true`. Once complete, your file will look like this:
 
-```yml
-stages:
-  - test
+    ```yml
+    stages:
+    - test
 
-include:
-  - component: ilt.gitlabtraining.cloud/components/sast/sast@main
-    inputs:
-      excluded_paths: venv
-      run_advanced_sast: true
-```
+    include:
+    - component: ilt.gitlabtraining.cloud/components/sast/sast@main
+        inputs:
+        excluded_paths: venv
+        run_advanced_sast: true
+    ```
 
 1. Set the branch to `main` and select **Commit changes**.
 
@@ -183,11 +183,9 @@ The GitLab advanced SAST scanner will provide us more utility from our SAST scan
         SECRET_DETECTION_EXCLUDED_PATHS: tests
     ```
 
-1. You have already learned how to commit your changes to a new branch and create a merge request. Commit your changes to the `add_secret_detection` target branch. The commit message can be left at default or updated to `Add Secret Detection to .gitlab-ci.yml`. For single commit branches, the commit message is used as the merge request title.
+1. Set the branch to `main` and select **Commit changes**.
 
-    > If you look at the security report on this merge request, you will notice that no vulnerabilities have been detected. This occurs because the secrets in `main.py` already exist in the main branch. The scan that occurs in the merge request will only show vulnerabilities that are newly introduced in the merge request. To see existing vulnerabilities, you will need to look at the project level vulnerability report covered in the next section.
-
-1. Click the `Merge` button on your merge request after the pipeline passes.
+1. Navigate to **Build > Pipelines**, review your jobs, and wait for all pipelines to complete.
 
 ## Task G. View the Project Level Vulnerability Report
 

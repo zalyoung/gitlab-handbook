@@ -166,8 +166,6 @@ In this lab, you will learn how to scan for vulnerabilities in your containers.
 
     ```yml
     include:
-    - template: Security/SAST.gitlab-ci.yml
-    - template: Security/Secret-Detection.gitlab-ci.yml
     - template: Security/Container-Scanning.gitlab-ci.yml
     ```
 
@@ -185,9 +183,7 @@ In this lab, you will learn how to scan for vulnerabilities in your containers.
 
 1. In the **Tool** dropdown, click **Container Scanning**.
 
-1. The vulnerabilities listed are vulnerabilities detected inside of the Docker container you created. Click on any individual vulnerability to view more details
-
-<!--Maybe we also add a task to view our security vulnerabilities-->
+1. The vulnerabilities listed are vulnerabilities detected inside of the Docker container you created. Click on any individual vulnerability to view more details.
 
 ## Lab Guide Complete
 
