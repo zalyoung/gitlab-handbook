@@ -34,7 +34,7 @@ We can help with:
 1. Error Budgets
 1. Capacity Planning
 
-Our Slack channel is: [#g_scalability-observability](https://gitlab.enterprise.slack.com/archives/C065RLJB8HK)
+Our Slack channel is: [#g_observability](https://gitlab.enterprise.slack.com/archives/C065RLJB8HK)
 
 #### Ops
 
