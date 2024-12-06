@@ -110,9 +110,10 @@ end
 
 ### Data encrypted through `ActiveRecord::Encryption`
 
-The `ActiveRecord::Encryption` framework already fullfills the pre-requisites (except for rotating deterministic keys, but
-support for it can be implemented), so as soon as `ActiveRecord::Encryption` will be set up in the application, the implementation of the proposal
-will be possible.
+The `ActiveRecord::Encryption` framework already fullfills the pre-requisites (except for rotating deterministic keys,
+but we might work around that, or even implement proper support for it), so as soon as [`ActiveRecord::Encryption` will
+be set up in the application](https://gitlab.com/gitlab-org/gitlab/-/issues/490590), the implementation of the proposal
+will become possible.
 
 ### Data encrypted through `attr_encrypted` and `TokenAuthenticatable`
 
@@ -127,24 +128,40 @@ The key ID can be computed with `Digest::SHA1.hexdigest(secret).first(4)`
 
 Once introduced, a post-deploy migration should populate all rows with the current key ID.
 
-The implementation of `attr_encrypted` and `TokenAuthenticatable` will need to be modified to populate the `encryption_key_id` attribute.
+The implementation of `attr_encrypted` and `TokenAuthenticatable` would need to be modified to populate the
+`encryption_key_id` attribute.
 
-In the future, we should migrate all the usage of `attr_encrypted` and `TokenAuthenticatable` to `ActiveRecord::Encryption`.
+**In the future, we should progressively migrate all the usage of `attr_encrypted` and `TokenAuthenticatable` to
+`ActiveRecord::Encryption`.**
 
-## Blockers
+## Challenges
 
-`ActiveRecord::Encryption` doesn't support deterministic keys rotation at the moment, support for it should be
-implemented either in GitLab, or in Rails directly.
+### Rotation of deterministic key
 
 Deterministic encryption allows to query a table for a specific column value (e.g. personal access tokens are currently
 queried by their digest, but we should migrate them to be encrypted instead so that we can rotate the key without
 invalidating all the tokens).
 
-### Use case studies
+`ActiveRecord::Encryption` doesn't support deterministic keys rotation at the moment, support for it should be
+implemented either in GitLab, or in Rails directly.
 
-### Further investigations required
+That said, we might be able to work around this limitation by specifying explicitly the key to use so that under the
+hood it'll use the `DerivedSecretKeyProvider` with `deterministic: true` option, i.e.
 
-## Alternative solutions
+```ruby
+encrypts :token, key: ActiveRecord::Encryption.config.deterministic_key, deterministic: true
+```
+
+This would work because when the `key` is specified explicitely, the `DerivedSecretKeyProvider` is used which supports
+multiple keys: https://github.com/rails/rails/blob/v7.0.8.6/activerecord/lib/active_record/encryption/scheme.rb#L91
+
+## Proof of Concept
+
+A Proof of Concept merge request was created to show that support of multiple encryption keys is possible today for
+both `attr_encrypted` and `TokenAuthenticatable`: <https://gitlab.com/gitlab-org/gitlab/-/merge_requests/167067>.
+
+What's missing from this PoC is the second pre-requisite [from the above proposal](#proposal): the ability to know
+what key was used to encrypt an attribute. This shouldn't be hard to add support for this with a new column.
 
 ## References
 
