@@ -143,13 +143,13 @@ Usage Discovery Questions:
 1. How are you monitoring the stability and performance of your GitLab instance?
 1. What do you use to monitor your deployed applications?
 
-## Govern
+## Software Supply Chain Security
 
 - [Vulnerability List](https://docs.gitlab.com/ee/user/application_security/vulnerability_report/)
 - [Dependency List](https://docs.gitlab.com/ee/user/application_security/dependency_list/)
 - [Security Policies](https://docs.gitlab.com/ee/user/application_security/policies/)
 - Making use of [Audit Events](https://docs.gitlab.com/ee/administration/audit_events.html) at the instance level as part of managing GitLab.
-- Using [Compliance Management](https://about.gitlab.com/direction/govern/compliance/compliance-management/) within GitLab.
+- Using [Compliance Management](https://about.gitlab.com/direction/software_supply_chain_security/compliance/compliance-management/) within GitLab.
 
 Usage Discovery Questions:
 

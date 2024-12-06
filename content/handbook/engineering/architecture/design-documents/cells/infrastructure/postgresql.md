@@ -161,7 +161,7 @@ TODO: Define performance requirements and check with different steak holders. Di
 #### Decomposition
 
 The application data for [GitLab.com](https://gitlab.com/) is currently decomposed into two separate database clusters, `Main` and `CI`.
-We are evaluating if we can further decompose the `Main` database with [decomposing `Secure and Govern` related tables to a separate Postgres DB](https://gitlab.com/gitlab-org/gitlab/-/issues/427973) to gain more headroom and scalability for the current platform.
+We are evaluating if we can further decompose the `Main` database with [decomposing `Secure- and Software Supply Chain Security-related tables to a separate Postgres DB](https://gitlab.com/gitlab-org/gitlab/-/issues/427973) to gain more headroom and scalability for the current platform.
 
 For Cells it is a design choice to scale horizontally by adding more Cells and to rebalance by moving organizations to less saturated cells.
 Cells should not be scaled vertically to a point where decomposition is reasonable.

@@ -275,7 +275,7 @@ flowchart TD
     D -- insert --> security_policy_requirements@{ shape: cyl }
 ```
 
-#### Recurring Configuration Status Checks execution flow 
+#### Recurring Configuration Status Checks execution flow
 
 This workflow diagram shows the how Compliance Frameworks trigger a configuration status check against a Project.
 
