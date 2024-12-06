@@ -78,6 +78,8 @@ See the [Sending notices workflow](/handbook/support/workflows/sending_notices) 
 
 ## Repo Size Limit Increases
 
+DISCUSSION POINTS: https://gitlab.com/gitlab-org/gitlab/-/issues/467728#note_2237153966
+
 At times, users require an increase to the size limit of their repository as a workaround for a bug issue. In these cases:
 
 1. Open an issue in the **[internal-requests](https://gitlab.com/gitlab-com/support/internal-requests/issues)** issue tracker using the `Repo Size Limit` issue template.
