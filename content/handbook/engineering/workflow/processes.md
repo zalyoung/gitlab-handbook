@@ -42,5 +42,8 @@ more solid review process to make sure the benefits of removing it outweigh the 
 
 1. Ping at least one FE maintainer on the issue to ask for feedback before deciding on a path forward
 1. If the package has been determined to have no security vulnerabilities, set the issue to public.
-1. Decide whether to leave the package in place or replace it with an alternative package
+1. Decide whether to:
+    - leave the package in place
+    - replace it with an alternative package, or 
+    - have GitLab create and maintain a fork
 1. If deciding to replace the package, create an MR.
