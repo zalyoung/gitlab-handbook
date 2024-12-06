@@ -1813,7 +1813,7 @@ After the formal warning is issued if the team member falls short of targets aga
 
 #### Stage 3 Net ARR
 
-As a business we understand that Stage 3 Net ARR is a metric that can take time to influence. We are viewing Stage 3 Net ARR attainment as an indicator of healthy pipeline generation. Two consecutive months below monthly quota attainment suggests potential issues. Stage 3 Net ARR is a direct consequence of Stage 1 Net ARR. Therefore, performance management will focus on what can be immediately influenced by a team member: Stage 1 Net ARR (not Stage 1 XDR Net ARR stamped amounts, but real opportunity value: Stage 1 Net ARR)
+As a business we understand that Stage 3 Net ARR is a metric that can take time to influence. We are viewing Stage 3 Net ARR attainment as an indicator of healthy pipeline generation. Two consecutive months below monthly quota attainment suggests potential issues. Stage 3 Net ARR is a direct consequence of Stage 1 Net ARR. Therefore, performance management will focus on what can be immediately influenced by a team member: Stage 1 Net ARR (not Stage 1 XDR Net ARR stamped amounts, but real opportunity value: Stage 1 Net ARR).
 
 The process, however, will
  stay the same: once the team member is informed, expectations will be:
