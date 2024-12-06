@@ -51,8 +51,8 @@ Please note: Invitation and follow-up emails will not be sent on Thursdays, due 
 
 **Assign issues to:** You must assign issues to the corresponding Lifecycle Marketing Manager for review before send.
 
-* `@aklatzkin`: Global, AMER, Corporate Events, Newsletters
-* `@dambrold`: APAC, EMEA, Intelligent Nurture
+* `@aklatzkin`: Global, EMEA, Public Sector, Localized emails, Corporate Events, Newsletters
+* `@alee`: AMER, EMEA, Customer emails
 
 **Add the issue to the Asana email calendar:** By default, issues will add the label for ~"email-calendar", you will need to add the label for your audience as well:
 
@@ -184,9 +184,8 @@ First step in requesting an email from lifecycle begins by creating an issue usi
 * Step 3: Build the program and email in Marketo by referring to our [email marketing best practices](https://docs.google.com/presentation/d/1j6F-3ZOFtFM9Tjz1srzbqLjSA56sK7lR2LPdKSl57Vo/edit?usp=sharing) and segment the email accordingly.
 * Step 4: Include a link to the Marketo program while submitting an [Email issue request](https://gitlab.com/gitlab-com/marketing/demand-generation/campaigns/-/issues/new?issuable_template=request-email).
 * Step 5: Send a sample for lifecycle to QA
-  * Global/AMER/Newsletters/Corporate/Intelligent Nurture = reviewed by [Allie](mailto:aklatzkin@gitlab.com)
-  * Customers/AMER = reviewed by [Alison](mailto:alee@gitlab.com)
-  * APAC/EMEA/PubSec and Localized Nurtures = reviewed by [Luis](mailto:ldambrosio@gitlab.com)
+  * Global/EMEA/Localized/PubSec/Newsletters/Corporate/Intelligent Nurture = reviewed by [Allie](mailto:aklatzkin@gitlab.com)
+  * Customers/AMER/APAC = reviewed by [Alison](mailto:alee@gitlab.com)
 * Step 6: Lifecycle will make revisions and send the email back to the campaign manager.
 * Step 7: Lifecycle will schedule the email to send at requested time slot
 
