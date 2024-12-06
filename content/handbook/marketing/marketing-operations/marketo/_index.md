@@ -526,6 +526,7 @@ Documentation describing this segment can be found [here](https://docs.google.co
 - Students
 - Teachers
 - Faculty
+- Unrelated Faculty
 - Edu Domain
 
 </details>
