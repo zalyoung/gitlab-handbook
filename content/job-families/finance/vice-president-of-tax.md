@@ -1,16 +1,16 @@
 ---
-title: "Vice President of Tax"
+title: "VP, Tax"
 ---
 
-The Vice President of Tax is responsible for GitLab's overall tax strategy including all components of compliance, tax planning and accounting for income taxes.  The Vice President of Tax will work with advisors, service providers, GitLab's auditors, the Audit Committee and other tax professionals in carrying out his or her responsibilities. The Vice President of Tax will regularly report to the Company's Board of Directors and/or Committees of the Board to update the members on the Company's tax strategy, practices and exposures.
+The VP of Tax is responsible for GitLab's overall tax strategy including all components of compliance, tax planning and accounting for income taxes.  The VP of Tax will work with advisors, service providers, GitLab's auditors, the Audit Committee and other tax professionals in carrying out his or her responsibilities. The VP of Tax will regularly report to the Company's Board of Directors and/or Committees of the Board to update the members on the Company's tax strategy, practices and exposures.
 
-## Vice President of Tax
+## VP of Tax
 
-The Vice President of Tax reports to the [Chief Financial Officer](/job-families/finance/chief-financial-officer/).
+The VP of Tax reports to the [Chief Financial Officer](/job-families/finance/chief-financial-officer/).
 
 ## Job Grade
 
-The Vice President of Tax is a [grade #12](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
+The VP of Tax is a [grade #12](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
 
 ## Responsibilities
 
@@ -48,7 +48,7 @@ The Vice President of Tax is a [grade #12](/handbook/total-rewards/compensation/
 
 ## Career Ladder
 
-The next step for the Vice President of Tax job family is not yet defined.
+The next step for the VP of Tax job family is not yet defined.
 
 ## Hiring Process
 
