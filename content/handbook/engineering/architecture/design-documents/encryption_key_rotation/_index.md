@@ -53,7 +53,7 @@ This blueprint does not cover the following:
 
 ## Proposal
 
-The idea is simple but is based on 2 pre-requisites:
+The idea is based on 2 pre-requisites:
 
 1. Support for multiple encryption keys: this allows online rotation of the secret
 1. Ability to know what key was used to encrypt an attribute: this allows to re-encrypt data encrypted with a legacy key
@@ -62,13 +62,14 @@ The high-level proposal is as follows:
 
 1. When a key need to be rotated, just add it last to the `db_key_base` array in `config/secrets.yml`, and restart GitLab.
    From now on, data will be encrypted with this new key.
-1. The decryption process will try each key (in the order they appear in the `db_key_base` array), until it can decrypt the data.
-   That way, there's no need to bring GitLab down to mass-re-encrypt all data.
-1. A background process continuously runs to re-encrypt any data that was encrypted with a legacy key (i.e. not the current key in
-   the `db_key_base` array). The background process becomes a no-op as soon as all the data is re-encrypted with the current key.
+1. The decryption process will try each key (in the order they appear in the `db_key_base` array), until it can decrypt
+   the data. That way, there's no need to bring GitLab down to mass-re-encrypt all data.
+1. A background process continuously runs to re-encrypt any data that was encrypted with a legacy key (i.e. not the
+   last item from the `db_key_base` array). The background process becomes a no-op as soon as all the data is
+   re-encrypted with the current key.
 1. A new dedicated Admin page allows to monitor the encrypted data status:
-   - How many records are still encoded with a legacy key?
-   - What's the expected ETA for everything to be re-encoded with the current key?
+   - How many records are still encrypted with a legacy key?
+   - What's the expected ETA for everything to be re-encrypted with the current key?
    - What keys can be deleted (i.e. no data is encrypted with this key)?
 
 ### Pseudo code
