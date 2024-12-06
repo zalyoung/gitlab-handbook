@@ -1,119 +1,181 @@
 ---
-title: "GitLab Security Essentials - Hands-On Lab: Dependency and IaC Scanning"
-description: "This Hands-On Guide walks you through the process of using dependency scans and IaC scans on your code"
+title: "GitLab Security Essentials - Hands-On Lab: Container Scanning"
+description: "This Hands-On Guide walks you through the process of using container scanning in your projects"
 ---
 
-### Task A. Add dependencies and IaC
+> Estimated time to complete: 15 to 20 minutes <!--Update to components-->
 
-Our initial project has been built and we want to start on the deployment process. There are two areas we want to configure for our project. The first area is dependencies for our application. The second area is infrastructure for our application deployment. Let's set these up in our project. To add dependencies to your Python project, complete the following steps.
+## Objectives
 
-1. Navigate to your project.
+Many projects depend on using containers that might contain vulnerabilities in the container image.
 
-1. Open the `requirements.txt` file and observe the dependencies in it.
+In this lab, you will learn how to scan for vulnerabilities in your containers.
 
-    ```
-    requests==2.27.1
-    ```
+## Task A. Build the Docker image
 
-For infrastructure as code, you want to start by deploying an S3 bucket to your environment. To do this, you can set up some terraform files with infrastructure definitions. To do this:
+> In this section you will define a job that builds a Docker image. To build a Docker image with a CI/CD pipeline job, you must use a GitLab Runner that's configured to use a Docker executor.
 
-1. Navigate to your project.
+1. Navigate to **Code > Repository** and edit `.gitlab-ci.yml`.
 
-1. Select **+ > New file**.
+1. Define a `build` stage by pasting this in your `.gitlab-ci.yml`, at the top of the stages list, before the `-test` stage. Make sure it has the same indentation as the existing `- test` entry beneath it:
 
-1. In the **Filename**, enter `s3.tf`.
-
-1. Add the following contents to the file:
-
-```yml
-resource "aws_s3_bucket_public_access_block" "publicaccess" {
-    bucket = aws_s3_bucket_demobucket.id
-    block_public_acls = false
-    block_public_policy = false
-}
-```
-
-1. Select **Commit changes**.
-
-This project will also use Docker for deployments. To enable this, we will create a Dockerfile.
-
-1. Navigate to your project.
-
-1. Select **+ > New file**.
-
-1. In the **Filename**, enter `Dockerfile`.
-
-1. Add the following contents to the file:
-
-```yml
-FROM python:3.4-alpine
-ADD main.py .
-```
-
-1. Select **Commit changes**.
-
-### Task B. Add dependency scanning
-
-Now that you have dependencies added to your project, you want to ensure that the dependencies do not contain any security vulnerabilities. To validate this, you can add security scanning to your project.
-
-1. Open your `.gitlab-ci.yml` file.
-
-1. Add the following line to your `include` block:
-
-```yml
-  - component: https://ilt.gitlabtraining.cloud/components/dependency-scanning/main@0.5.0
-```
-
-1. Select **Commit changes**.
-
-To view the progress of your new pipeline:
-
-1. In the left sidebar, select **Build > Pipelines.**
-
-1. Select your most recent pipeline
-
-1. You should now see a job titled `dependency-scanning`. 
-
-Once this job completes, you will be able to view the results of the security scan:
-
-1. In the left sidebar, select **Secure > Vulnerability report**. 
-
-1. In the **Vulnerability report**, filter for the `gemnasium-python` tool. 
-
-1. Click on each vulnerability to review the findings.
-
-In the results, you will see various vulnerabilities in our version of the requests library. Let's fix these issues in our `requirements.txt` file.
-
-1. When you select a vulnerability in the report, you will see a target version number to fix each issue. The first vulnerability recommends an upgrade to version 2.32.0 or above, the second vulnerability recommends an upgrade to version 2.31.0 or above.
-
-1. From this, we can determine that 2.32.0 will fix all our vulnerabilities. To set this version, edit your existing `requirements.txt` file. Update the `requests` import to:
-
-    ```
-    requests==2.32.0
+    ```yml
+    stages:
+    - build
+    - test
     ```
 
-1. Commit these changes and verify that the vulnerability is no longer detected. 
+1. Name your new job and assign it to the **build** stage by pasting this at the end of `.gitlab-ci.yml`:
 
-### Task C. Add IaC scanning
+    ```yml
+    build-and-push-docker-image:
+      stage: build
+    ```
 
-To add infrastructure as code scanning to your project:
+1. Your job must run on a Docker image that contains Docker tools. This approach is sometimes called "Docker in Docker" or "dind". You'll need to specify a version of the image that we've tested and know to work well for this task. Paste this underneath the `build-and-push-docker-image` job that you added in the previous step:
 
-1. Open your `.gitlab-ci.yml` file. 
+    ```yml
+    build-and-push-docker-image:
+      stage: build
+      image: docker:20.10.17
+    ```
 
-1. In the include section, add the following template:
+1. Your job also needs a second Docker image that enables the Docker in Docker workflow. Specify the second image with the `services` keyword, by pasting this into your job definition:
 
-```yml
-include:
-  - template: Jobs/SAST-IaC.gitlab-ci.yml
-```
+    ```yml
+    build-and-push-docker-image:
+      stage: build
+      image: docker:20.10.17
+      services:
+        - docker:20.10.17-dind
+    ```
 
-1. Select **Commit changes**.
+1. It's helpful to define a variable to hold the full name and version of the Docker image you're creating, because you'll need to refer to that information more than once. You can assemble the name and version out of predefined variables that GitLab provides (remember that predefined variables generally start with `CI_`). Paste this into your job definition:
 
-1. Observe the resulting pipeline and wait for it to complete.
+    ```yml
+    build-and-push-docker-image:
+      stage: build
+      image: docker:20.10.17
+      services:
+        - docker:20.10.17-dind
+      variables:
+        IMAGE: $CI_REGISTRY_IMAGE/$CI_COMMIT_REF_SLUG:$CI_COMMIT_SHA
+    ```
 
-1. Navigate to **Secure > Vulnerability Reports**.
+1. If you set a variable telling Docker not to use TLS, you won't have to worry about setting up security certificates. Add the `DOCKER_TLS_CERTDIR` variable.
 
-1. Review the results of your IaC scan.
+    ```yml
+    build-and-push-docker-image:
+      stage: build
+      image: docker:20.10.17
+      services:
+        - docker:20.10.17-dind
+      variables:
+        IMAGE: $CI_REGISTRY_IMAGE/$CI_COMMIT_REF_SLUG:$CI_COMMIT_SHA
+        DOCKER_TLS_CERTDIR: ""
+    ```
+
+1. Tell Docker to build a Docker image using the recipe in `Dockerfile`. Add the `script:` and `docker-build` lines.
+
+    ```yml
+    build-and-push-docker-image:
+      stage: build
+      image: docker:20.10.17
+      services:
+        - docker:20.10.17-dind
+      variables:
+        IMAGE: $CI_REGISTRY_IMAGE/$CI_COMMIT_REF_SLUG:$CI_COMMIT_SHA
+        DOCKER_TLS_CERTDIR: ""
+      script:
+        - docker build --tag $IMAGE .
+    ```
+
+## Task B. Push the Docker image to Project Container Registry
+
+> Your job needs to log in to the project's container registry so it can push your image to it. You can log in using a username, password, and registry URL that are stored in predefined variables.
+
+1. Add the `docker login` line to the bottom of the `script` section.
+
+    ```yml
+    build-and-push-docker-image:
+      stage: build
+      image: docker:20.10.17
+      services:
+        - docker:20.10.17-dind
+      variables:
+        IMAGE: $CI_REGISTRY_IMAGE/$CI_COMMIT_REF_SLUG:$CI_COMMIT_SHA
+        DOCKER_TLS_CERTDIR: ""
+      script:
+        - docker build --tag $IMAGE .
+        - docker login --username $CI_REGISTRY_USER --password $CI_REGISTRY_PASSWORD $CI_REGISTRY
+    ```
+
+1. Your job can push the image with a single Docker command. Add the `docker push` line to the bottom of the `script` section.
+
+    ```yml
+    build-and-push-docker-image:
+      stage: build
+      image: docker:20.10.17
+      services:
+        - docker:20.10.17-dind
+      variables:
+        IMAGE: $CI_REGISTRY_IMAGE/$CI_COMMIT_REF_SLUG:$CI_COMMIT_SHA
+        DOCKER_TLS_CERTDIR: ""
+      script:
+        - docker build --tag $IMAGE .
+        - docker login --username $CI_REGISTRY_USER --password $CI_REGISTRY_PASSWORD $CI_REGISTRY
+        - docker push $IMAGE
+    ```
+
+1. Your completed job definition should look like this. Make any corrections necessary to the job definition in your `.gitlab-ci.yml`.
+
+    ```yml
+    build-and-push-docker-image:
+      stage: build
+      image: docker:20.10.17
+      services:
+        - docker:20.10.17-dind
+      variables:
+        IMAGE: $CI_REGISTRY_IMAGE/$CI_COMMIT_REF_SLUG:$CI_COMMIT_SHA
+        DOCKER_TLS_CERTDIR: ""
+      script:
+        - docker build --tag $IMAGE .
+        - docker login --username $CI_REGISTRY_USER --password $CI_REGISTRY_PASSWORD $CI_REGISTRY
+        - docker push $IMAGE
+    ```
+
+1. Commit the changes to the `main` branch with an appropriate commit message (`Adding a docker file definition`).
+
+1. Navigate to **Build > Pipelines** to watch the progress of the new pipeline. Click on the pipeline to view the CI output for the build job.
+
+1. When the pipeline finishes running, go to left navigation pane and click **Deploy > Container Registry**. Verify that your job created a new Docker image and pushed it into the project's container registry.
+
+## Task C. Enable Container Scanning
+
+> Your application's docker image may contain known vulnerabilities. In order to prevent these vulnerabilities from reaching production, you can detect them with Container Scanning. Now that your Docker image is being built and pushed, you can enable Container Scanning.
+
+1. Add the Container Scanning template to the existing `include:` section of `.gitlab-ci.yml`:
+
+    ```yml
+    include:
+    - component: ilt.gitlabtraining.cloud/components/container-scanning/container-scanning@main
+    ```
+
+    > This can be added anywhere in the list of templates.
+
+1. Commit the changes with an appropriate commit message.
+
+1. Navigate to **Build > Pipelines** to watch the progress of the new pipeline.
+
+1. Open the `container_scanning` job to view the CI output. Wait for the pipeline to finish running.
+
+## Task D. View the results
+
+1. Navigate to **Secure > Vulnerability Report**.
+
+1. In the **Tool** dropdown, click **Container Scanning**.
+
+1. The vulnerabilities listed are vulnerabilities detected inside of the Docker container you created. Click on any individual vulnerability to view more details.
 
 ## Lab Guide Complete
 
