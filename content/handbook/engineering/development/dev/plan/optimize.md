@@ -15,6 +15,7 @@ title: "Optimize Group"
   - The goal is to have product give engineering and design the opportunity to be involved with direction and issue definition from the very beginning.
 - We do an asynchronous daily stand-up in our group stand-up channel:
   - [#g-optimize-engineers-standup](https://gitlab.enterprise.slack.com/archives/C07QLHAS02Z)
+- You can reach out to the team on slack at: [#g_plan_optimize](https://gitlab.enterprise.slack.com/archives/CJZR6KPB4)
 
 #### Prioritization
 
