@@ -222,6 +222,7 @@
 /content/handbook/engineering/infrastructure/team/gitlab-dedicated/switchboard.md @ashiel @marin @amyphillips
 /content/handbook/engineering/infrastructure/team/gitlab-dedicated/us-public-sector-services.md @marin @amyphillips
 /content/handbook/engineering/infrastructure/team/scalability/ @rnienaber @lmcandrew @marin
+/content/handbook/engineering/infrastructure/team/ops/ @kkyrala @rnienaber @marin
 /content/handbook/engineering/monitoring/ @marin @sabrinafarmer
 /content/handbook/engineering/releases/ @marin @mbursi @dawsmith @gitlab-org/delivery
 /content/handbook/engineering/gitlab-com/ @marin @sabrinafarmer
