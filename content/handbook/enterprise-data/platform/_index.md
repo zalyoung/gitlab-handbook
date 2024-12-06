@@ -1151,7 +1151,7 @@ For other tools, add users via the UI and in the appropriate [Google Group](http
 
 #### Stitch provisioning
 
-A new user in Stitch should by default be added to the `General` role. This role gives sufficient access to Stitch to create new, change existing and troubleshoot running extractions.
+A new user in Stitch should by default be added to the `General` role. This role gives sufficient access to Stitch to create new, change existing and troubleshoot running extractions. Stitch provisioning is a two-step process. First, the IT operations team adds the team member to the app.stitch Okta group by feeling the Access Request. The second step involves adding the user's email to the Stitch application.
 
 ## Google Data Studio
 
