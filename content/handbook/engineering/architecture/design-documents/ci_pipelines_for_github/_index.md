@@ -28,11 +28,12 @@ There are similar tools in the market that can be used for GitHub to run CI/CD e
 
 As an initial MVC we want to support
 
-1. Near instant pipeline creation upon GitHub pushes
-2. Correct user management system, through direct user mapping
+1. A GitHub App on GitHub's marketplace
+2. Near instant pipeline creation upon GitHub pushes
+3. Correct user management system, through direct user mapping
     1. Each user on GitHub's side should have a billable seat on GitLab
     2. Gitlab users should have the least privilege needed to run pipelines
-3. Runners are the only place to interact (fetch/pull) with the source code
+4. Runners are the only place to interact (fetch/pull) with the source code
     1. Customer source code is stored in a GitHub Repo and is never stored in a GitLab repo
 
 ### Non-Goals
@@ -57,7 +58,7 @@ These are do-able, but just to reduce scope and complexity we can iterate on add
 
 ![Architecture](images/GithubGitlabWorkflow.png)
 
-Github will communicate with Gitlab via our GithubApp.
+Github will communicate with Gitlab via our GithubApp available on the GitHub marketplace
 When runners poll GitLab's api, GitLab will serialize the jobs including the GitHub repo location for the runner to fetch the code from.
 Gitlab will then use Github's API to update the commit with the pipeline status.
 
