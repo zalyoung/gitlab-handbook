@@ -46,7 +46,7 @@ Suggestion: If I am negatively impacting you, I welcome constructive feedback an
 I am the CEO of GitLab. Here is what I do in 12 words or less that is unique to my role: 
 **Lead the team that defines and drives GitLab’s strategy & execution.**
 
-### Communciation Preferences
+### Communication Preferences
 
 1. I prefer Slack to email. I try to respond to every Slack message I get every day. Keep them concise.
 1. If you need me in near real-time, text or call my phone. My EBA can help to get you in touch if you don’t have this information and it is urgent.
