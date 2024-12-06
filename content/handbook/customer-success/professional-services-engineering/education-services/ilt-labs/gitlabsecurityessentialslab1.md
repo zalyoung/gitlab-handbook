@@ -137,7 +137,7 @@ The GitLab advanced SAST scanner will provide us more utility from our SAST scan
 
 > In the last section, you applied SAST to detect vulnerabilities in your source code. In addition to scanning code for vulnerabilities, GitLab can also scan your code for secrets like keys and API tokens. Adding secret detection to your code will prevent leaking sensitive data in your repositories.
 
-> The Secret Detection job belongs to the **test** stage by default. Since your `.gitlab-ci.yml` already defines that stage, you don't need to define it again.
+The Secret Detection job belongs to the **test** stage by default. Since your `.gitlab-ci.yml` already defines that stage, you don't need to define it again.
 
 1. In the Left sidebar, navigate to **Code > Repository**.
 

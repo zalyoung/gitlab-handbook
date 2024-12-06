@@ -14,8 +14,6 @@ description: "This Hands-On Guide walks you through the lab exercises in the Git
 | DAST and API Scans | [Lab Link](/handbook/customer-success/professional-services-engineering/education-services/secessentialshandson5) |
 | Enable and Scan Using a Scan Execution Policy | [Lab Link](/handbook/customer-success/professional-services-engineering/education-services/secessentialshandson6) |
 
-
-
 ## Quick links
 
 Here are some quick links that may be useful when reviewing this Hands-On Guide.
