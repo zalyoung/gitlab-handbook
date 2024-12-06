@@ -1806,21 +1806,21 @@ Once the team member is informed, expectations will be:
 
 - Month 1: 75-80% attainment + adherence to [Our Three Pillars](handbook/marketing/sales-development/#our-three-pillars)
 - Month 2: 75-90% attainment + adherence to [Our Three Pillars](handbook/marketing/sales-development/#our-three-pillars)
-- Month 3 and beyond: 100% Stage 1 XDR Net ARR attainment + adherence to [Our Three Pillars](handbook/marketing/sales-development/#our-three-pillars)
+- Month 3 and beyond: 100% attainment + adherence to [Our Three Pillars](handbook/marketing/sales-development/#our-three-pillars)
 
 Should the team member fall short of the targets above, a formal warning will be issued. 
 After the formal warning is issued if the team member falls short of targets again, additional disciplinary action could be taken up to and including termination.
 
 #### Stage 3 Net ARR
 
-As a business we understand that Stage 3 Net ARR is a metric that can take time to influence. We are viewing S3 attainment as an indicator of healthy pipeline generation. Two consecutive months below monthly quota attainment suggests potential issues. Stage 3 is a direct consequence of S1 Net ARR. Therefore, performance management will focus on what can be immediately influenced by a team member: Stage 1 Net ARR (not Stage 1 XDR stamped amounts, but real opportunity value: Stage 1 Net ARR)
+As a business we understand that Stage 3 Net ARR is a metric that can take time to influence. We are viewing Stage 3 Net ARR attainment as an indicator of healthy pipeline generation. Two consecutive months below monthly quota attainment suggests potential issues. Stage 3 Net ARR is a direct consequence of Stage 1 Net ARR. Therefore, performance management will focus on what can be immediately influenced by a team member: Stage 1 Net ARR (not Stage 1 XDR Net ARR stamped amounts, but real opportunity value: Stage 1 Net ARR)
 
 The process, however, will
  stay the same: once the team member is informed, expectations will be:
 
 - Month 1: 80% attainment + adherence to [Our Three Pillars](handbook/marketing/sales-development/#our-three-pillars)
 - Month 2: 90% attainment + adherence to [Our Three Pillars](handbook/marketing/sales-development/#our-three-pillars)
-- Month 3 and beyond: 100% Stage 1 Net ARR attainment + adherence to [Our Three Pillars](handbook/marketing/sales-development/#our-three-pillars)
+- Month 3 and beyond: 100% attainment + adherence to [Our Three Pillars](handbook/marketing/sales-development/#our-three-pillars)
 
 Should the team member fall short of the targets above, a formal warning will be issued. 
 After a  formal warning is issued if the team member falls short of targets again, additional disciplinary action could be taken up to and including termination.
