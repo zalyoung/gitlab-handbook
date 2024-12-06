@@ -111,9 +111,9 @@ end
 ### Data encrypted through `ActiveRecord::Encryption`
 
 The `ActiveRecord::Encryption` framework already fullfills the pre-requisites (except for rotating deterministic keys,
-but we might work around that, or even implement proper support for it), so as soon as [`ActiveRecord::Encryption` will
-be set up in the application](https://gitlab.com/gitlab-org/gitlab/-/issues/490590), the implementation of the proposal
-will become possible.
+but we might work around that, or even implement proper support for it), so as soon as
+[`ActiveRecord::Encryption` will be set up in the application](https://gitlab.com/gitlab-org/gitlab/-/issues/490590),
+the implementation of the proposal will become possible.
 
 ### Data encrypted through `attr_encrypted` and `TokenAuthenticatable`
 
