@@ -98,15 +98,14 @@ As of 2022-02-01, the Deal Desk team is structured as follows:
 
 ### Communicating with the Deal Desk Team
 
-#### Salesforce Chatter Communication
+#### Salesforce Case Communication
 
-Deal Desk's primary communication channel is Salesforce Chatter. When you chatter `@Sales-Support`, it will automatically create a case in the Deal Desk/Order Management queue.
+Deal Desk's primary communication channel is cases within Salesforce . Create a case from the Account or Opportunity level by choosing "Request Support" and fill in Request Type.
 
-- Always use `@Sales-Support` for SFDC requests or post `#sales-support` in Slack for general questions.
+- Always request support using the Request Support button on the Account or Opp level. 
   - Please do not tag Deal Desk team members directly in chatter or make a request through Slack direct message. This ensures our team is working as efficiently as possible and that you are covered in case the DD team member who replied first is unavailable.
-  - Direct chatters to team members will not create a case in the Sales Support case queue, and therefore will not be prioritized. You may experience a significant delay in response, or no response at all. Please always use `@Sales-Support` to communicate with the team in chatter.
-- If someone is working on a case, they will continue to support until the case is closed.  If an issue has been resolved, please chatter @Sales-Support to reopen a case.
-- If you tag @Sales-Support on an existing Chatter post/comment by editing it, that action won't generate a request to Deal Desk and we will not receive a notification. Please make sure tag Sales Support on an original post or on a new comment to the original post.
+  - Direct chatters to team members will not create a case in the Sales Support case queue, and therefore will not be prioritized. You may experience a significant delay in response, or no response at all. 
+- If someone is working on a case, they will continue to support until the case is closed.
 
 For cases related to Account Segmentation (ROE, Territory), account data, or account merges, Deal desk will reassign these cases to our Sales Operations team to review and resolve.
 
@@ -155,7 +154,7 @@ Chatter or Slack #sales-support if you are interested in having Deal Desk join y
 
 #### 1. Deal Desk  Case SLAs
 
-The Deal Desk team will do their best to respond to each request to '@sales-support' within 6 business hours. Revenue generating or current quarter requests will take priority, especially during Month & Quarter End. If a task is not resolved within 24 hours it will be escalated (if necessary).
+The Deal Desk team will do their best to respond to new cases created within 6 business hours. Revenue generating or current quarter requests will take priority, especially during Month & Quarter End. If a task is not resolved within 24 hours it will be escalated (if necessary).
 The SLAs below are applicable (especially for contract resets and ramp deals) if all the necessary information is provided in the request.
 
 | Type of Request | First Response | Resolution |
@@ -457,7 +456,7 @@ H.  **Order Form Generation**
 - If the deal contains discounts that require approval, please submit the quote for approval using the button on the quote. The quote must be approved before the PDF can be generated.
   - In the case of reseller deals, please obtain the approvals in Chatter based on the approval matrix.
 - **Order Form Manual Edits**
-  - Please note that Sales reps may only generate PDF versions of the Order Form. If you require special wording or other manual edits, please make the request by tagging `@Sales-Support` in chatter.
+  - Please note that Sales reps may only generate PDF versions of the Order Form. If you require special wording or other manual edits, please make the request by choosing "Request Support" from the Account or Opportunity level.
 
 **To supplement these steps, review the [Highspot Page](https://gitlab.highspot.com/items/63c04679ce74a0ae63ca5e49) or the [RISE Course](https://rise.articulate.com/share/HzJgdaWzK1C_SwlMSCwQchgV9PbpRNvi#/) to see each step live for a New Subscription quote.**
 
@@ -485,7 +484,7 @@ In addition to the step-by-step quoting guides that follow this paragraph, check
 - Next, locate the subscription you would like to amend. If you are unsure which subscription to amend, click on the blue subscription name (i.e. A-S00263985) - this will open a new window that details that subscriptions products, quantities, pricing, etc.
 - Click the pencil icon to amend that subscription.
 - Note: If there are subscriptions available, click on the subscription name to open the subscription information and review the dates, products, and pricing of that subscription.
-- If you are still unable to determine which to choose, please ask @Sales-Support via Chatter to help confirm. and click "Next."
+- If you are still unable to determine which to choose, please request support from DD on the Account or Opp level. and click "Next."
 - On this second and final page of the quoting experience, populate Quote Detail Information.
 
 - The following fields must be populated to successfully create a quote:
@@ -524,7 +523,7 @@ In addition to the step-by-step quoting guides that follow this paragraph, check
   - If the deal contains discounts that require approval, please submit the quote for approval using the button on the quote. The quote must be approved before the PDF can be generated.
     - In the case of reseller deals, please obtain the approvals in Chatter based on the approval matrix.
   - **Order Form Manual Edits**
-    - Please note that Sales reps may only generate PDF versions of the Order Form. If you require special wording or other manual edits, please make the request by tagging @Sales-Support in chatter.
+    - Please note that Sales reps may only generate PDF versions of the Order Form. If you require special wording or other manual edits, please make the requesting support from DD on the Account or Opportunity level.
 
 ##### Prorata calculation of add-on order forms
 
@@ -604,7 +603,7 @@ The following is intended as a step by step guide for opportunity owners or ISRs
 - Open the Renewal opportunity and click the **"New Quote"** button.
 - Select the **applicable billing account**.
 - Next, locate the subscription you would like to renew. If you are unsure which subscription to renew, click on the blue subscription name (i.e. A-S00263985) - this will open a new window that details that subscriptions products, quantities, pricing, etc.
-  - Note: If there are multiple billing accounts or subscriptions available, and you are unable to determine which to choose, please ask @Sales-Support via Chatter.
+  - Note: If there are multiple billing accounts or subscriptions available, and you are unable to determine which to choose, please request support from DD on the Account or Opportunity level.
 - Click the curved arrow renew icon to remew that subscription.
 - Note: If there are subscriptions available, click on the subscription name to open the subscription information and review the dates, products, and pricing of that subscription.
 
@@ -669,7 +668,7 @@ If the customer needs to change the Quote Start Date (typically for Billing purp
   - If the customer has an existing Billing Account, and you intend to sell a new subscription using the same Sold To Contact listed under the Billing Account, select the applicable Billing Account and click "New Quote."
   - If the customer does not have an existing Billing Account, or if the Sold To Contacct you intend to use is not listed under one of the existing Billing Accounts, click "New Billing Account."
 
-    - Note: If there are multiple billing accounts or subscriptions available, and you are unable to determine which to choose, please ask @Sales-Support via Chatter.
+    - Note: If there are multiple billing accounts or subscriptions available, and you are unable to determine which to choose, please request support from DD on the Account or Opportunity level.
 
 - Fill out the necessary information on the quote per the instruction under the **New Subscription Quote** section above.
   - **Note: The Start Date can be later than the original renewal date only if customer has lost access after the renewal grace period. Otherwise no subscription gap is allowed.**
@@ -921,7 +920,7 @@ Contract Resets are used to perform an "Early Renewal" - i.e. start a new 12 mon
 - Fill out the necessary information on the quote per the instruction under the New Subscription Quote section above.
   - **Note: The Start Date should be the new subscription term's start date, or the "Early Renewal" date.**
 - Click Next and update the products and fees per the steps above.
-- **IMPORTANT:** Next, tag `@Sales-Support` in Chatter on the Renewal Opportunity to create a credit opportunity and quote to cancel the existing subscription, which in this scenario is being replaced with the new subscription. Deal Desk will then manually generate a Contract Reset Opp and Order Form to add the credit line into the order form once the quote has been fully approved.
+- **IMPORTANT:** Next, request support from DD on the Renewal Opportunity to create a credit opportunity and quote to cancel the existing subscription, which in this scenario is being replaced with the new subscription. Deal Desk will then manually generate a Contract Reset Opp and Order Form to add the credit line into the order form once the quote has been fully approved.
 
 For GitLab.com subscriptions, Deal Desk will follow the below steps to ensure the customer is not downgraded to free when their initial subscription is cancelled. These are outlined in more detail in [this presentation](https://docs.google.com/presentation/d/1fv_QMzPJ4Al5AaPBNd-IW5dCwuac56ShrzcpjUO_S60/edit?usp=sharing).
 
@@ -944,7 +943,7 @@ For more information on ARR calculation for Contract Resets, see [ARR in Practic
 
 Concurrent Subscriptions are two unique subscriptions (instances) for Self Managed and SaaS issued for the purpose of supporting a large customer migration over an extended period. **This does not allow the customer to use Self Managed and SaaS on the same instance.**
 
-SaaS Subscription with Privilege Access Token (P.A.T) cannot be extended via trial. If your client (almost) expired subscription with P.A.T need to be extended, a $0 order for 1 month new subscription is required. **Rep  will build new opportunity & new sub quote (Initial Term & Renewal Term = 1 month), then collaborate with Deal Desk tag `@Sales-Support` and [legal](/handbook/legal/customer-negotiations/#requesting-content) to finalize the Order Form.**
+SaaS Subscription with Privilege Access Token (P.A.T) cannot be extended via trial. If your client (almost) expired subscription with P.A.T need to be extended, a $0 order for 1 month new subscription is required. **Rep  will build new opportunity & new sub quote (Initial Term & Renewal Term = 1 month), then collaborate with Deal Desk by requesting support on the Account or Opportunity level and [legal](/handbook/legal/customer-negotiations/#requesting-content) to finalize the Order Form.**
 
 Approvals for this deal strucutre will follow the [standard approval matrix](https://docs.google.com/document/d/1-CH-uH_zr0qaVaV1QbmVZ1rF669DsaUeq9w-q1QiKPE/edit#heading=h.f8920bj8v6l9).
 
@@ -1039,7 +1038,7 @@ Ramp Deals are multi-year deals in which products can incrementally vary in pric
 
 ###### How to amend an existing ramp deal, created before 2023-03-01
 
-To amend a ramp deal created before 2023-03-01, tag @Sales-Support in chatter on the opportunity. Deal Desk will create the quotes and Order Form. **Provide the following information for each ramp period:**
+To amend a ramp deal created before 2023-03-01, request support from DD on the Account or Opportunity level. Deal Desk will create the quotes and Order Form. **Provide the following information for each ramp period:**
 
 - Start date and term length
 - Product, quantity, discount
@@ -1231,7 +1230,7 @@ Deal Desk manages AWS and GCP Private Offer creation and acceptance.
 
 #### Process Overview
 
-- **All Private Offer requests must be made in chatter by tagging @Sales-Support on the related SFDC opportunity.** All Private Offer requests must include the following information:
+- **For All Private Offer requests - Request support from DD on the Opportunity level.** All Private Offer requests must include the following information:
   - Customer's AWS or GCP Billing ID
   - Customer Contact name and email address
   - Alliance margin
