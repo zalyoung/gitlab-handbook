@@ -27,7 +27,7 @@ graph TD
     DE --> DA[Development Analytics]
     click DA "handbook/engineering/infrastructure-platforms/developer-experience"
     DE --> DT[Developer Tooling]
-    click DT "handbook/engineering/infrastructure-platforms/developer-experience"
+    click DT "/handbook/engineering/infrastructure-platforms/developer-experience/developer-tooling-team"
     DE --> FR[Feature Readiness]
     click FR "handbook/engineering/infrastructure-platforms/developer-experience"
     DE --> PE[Performance Enablement]
