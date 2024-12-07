@@ -1,0 +1,5 @@
+[Dogfooding for R&D is important](/handbook/product/product-processes/dogfooding-for-r-d/), and even more-so as we graduate to [empowering teams with Artificial Intelligence](/handbook/engineering/core-development/#ai-everywhere-empowering-teams-with-artificial-intelligence). GitLab Duo is an offering to (1) support you across the software development lifecycle, (2) improve the developer experience, and (3) boost productivity. Based on these goals, our teams are placed perfectly to dogfood the features that will best support us, our customers through our own case studies, and our product through high quality feedback.
+
+### When, What and How to Dogfood
+- [x] When you want to automate tasks like bootstrapping a new project or implementing a proof of concept for an issue you are assigned, use [Duo Workflow](https://docs.gitlab.com/ee/user/duo_workflow/) and provide [feedback](https://gitlab.com/gitlab-org/gitlab/-/issues/480148#pray-readme).
+- [x] When you submit an MR and it comes back with a broken pipeline, 
