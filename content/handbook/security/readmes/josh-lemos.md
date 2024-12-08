@@ -5,7 +5,7 @@ job: "CISO"
 
 ## Why I'm at GitLab
 
-I joined GitLab after many conversations with Sid and E-Group about the platform's potential to improve security assurance at internet scale. Having spent a decade leading teams that engineered security solutions into homegrown CI/CD systems, I saw an opportunity to move beyond single-company solutions that served only thousands of developers. At GitLab, we have the opportunity to improve software security globally.
+GitLab builds a platform with the potential to improve security assurance at internet scale. Having spent a decade leading teams that engineered security solutions into homegrown CI/CD systems, I saw an opportunity to move beyond single-company solutions that served thousands of developers to work on a platform that could secure millions. At GitLab, we have the opportunity to improve software security globally. What keeps me at GitLab is the wealth of smart, dedicated team members committed to the same mission.
 
 Throughout my life and career I have sought out difficult challenges. Leading a security division at the most public public-company is one of the most challenging CISO roles in the world. It is a great privilege to help lead this company on our security journey as a DevSecOps company.
 
