@@ -41,6 +41,17 @@ flowchart LR
   click scaleCommunity "./#scale-the-community" _self
  ```
 
+### Current focus 
+
+Our current focus is on the following 5 items. This doesn't mean the other items are not important. Focus does help to make a meaningful change given a certain capacity.
+
+* [Reduce Open Community MR Age](handbook/engineering/open-source/growth-strategy/#reduce-open-community-mr-age)
+* [Create a compelling contributor value proposition](/handbook/engineering/open-source/growth-strategy/#create-a-compelling-contributor-value-proposition)
+* [Contributor advancement system](/handbook/engineering/open-source/growth-strategy/#contributor-advancement-system)
+* [Returning & Frequent Contributors](/handbook/engineering/open-source/growth-strategy/#returning-frequent-contributors)
+* [Non-code contributions](/handbook/engineering/open-source/growth-strategy/#non-code-contributions)
+
+
 ### Improve Contributor Journey
 
 Provide an outstanding, highly efficient and fast contributor experience, from onboarding to getting a change merged. One of the tactics is to reduce contribution stumbling blocks to make the contributor journey more efficient. These stumbling blocks will be identified through gathering feedback from wider community contributors, product teams and GitLab Team Members on contribution friction.
@@ -48,13 +59,16 @@ Provide an outstanding, highly efficient and fast contributor experience, from o
 #### Reduce Open Community MR Age
 
 * **Why:** Improve the speed of contribution to production by reducing [Open community MR Age (OCMA)](/handbook/marketing/developer-relations/performance-indicators/#open-community-mr-age) & review time. We have identified product groups with the highest OCMA. Analysis and improvements are needed to address product groups with the biggest opportunity. In addition to improving MR review and gathering feedback.
-* **Epic:** <https://gitlab.com/groups/gitlab-org/-/epics/9073>
 * **DRI:** [Contributor Success team](/handbook/marketing/developer-relations/contributor-success/)
+
+#### Product & engineering alignment
+
+* **Why:** Contribution submissions, backlog, and technology stack vary amongst all [product groups](/handbook/company/structure/#product-groups). Providing a healthy community backlog alignment & establishing a common best practice outreach for all product groups. In addition, there should be a unified & known workflow for Wider Community Contributions.
+* **DRI:** [Product Operations](/handbook/product/product-operations/), [Developer Advocacy team](/handbook/marketing/developer-relations/developer-advocacy/) & [Contributor Success team](/handbook/marketing/developer-relations/contributor-success/)
 
 #### Simplify & improve contribution guides
 
 * **Why:** Make contribution guides easy to navigate. Our current contribution guides are fragmented and can be hard for new contributors to navigate and understand.
-* **Epic:** <https://gitlab.com/groups/gitlab-com/quality/-/epics/16>
 * **DRI:** [Developer Relations team](/handbook/marketing/developer-relations/)
 
 #### Improve contribution tooling
@@ -63,44 +77,18 @@ Provide an outstanding, highly efficient and fast contributor experience, from o
 * **Epic:** <https://gitlab.com/groups/gitlab-com/quality/-/epics/2>
 * **DRI:** [Developer Tooling team](/handbook/engineering/infrastructure-platforms/developer-experience/developer-tooling-team/)
 
-#### Product groups focus
-
-* **Why:** Contribution submissions, backlog, and technology stack vary amongst all [product groups](/handbook/company/structure/#product-groups). Providing a healthy community backlog alignment & establishing a common best practice outreach for all product groups.
-* **Epic:** <https://gitlab.com/groups/gitlab-org/-/epics/9074>
-* **DRI:** [Product Operations](/handbook/product/product-operations/), [Developer Relations team](/handbook/marketing/developer-relations/) & [Contributor Success team](/handbook/marketing/developer-relations/contributor-success/)
-
-#### Unified Workflow
-
-* **Why:** By reducing workflows that are unique to team members or wider community members, we can create more clarity to everyone in documentation, automation and communication, delivering a boost in velocity.
-* **Epic:** <https://gitlab.com/groups/gitlab-org/-/epics/11649>
-* **DRI:** [Contributor Success team](/handbook/marketing/developer-relations/contributor-success/)
-
 ### Increase Contribution Value
 
 Incentivize, attract and retain contributors by providing a compelling value and regular recognition of contributors for their work. Contributor career advancement materials and awards.
 
-#### Define contributor value proposition
+#### Create a compelling contributor value proposition
 
-* **Why:** We need a clear definition of what drives people to contribute to GitLab and to present a compelling value proposition for increasing code contribution.
-* **Epic:** <https://gitlab.com/groups/gitlab-com/quality/-/epics/11>
+* **Why:** We need a clear definition of what drives people to contribute to GitLab and to present a compelling value proposition for increasing code contribution. One of the programs to drive this challenge is our [co-create program](https://about.gitlab.com/community/co-create/) for customers.
 * **DRI:** [Developer Relations team](/handbook/marketing/developer-relations/)
 
-#### Developer badges & certification
+#### Contributor recognition & advancement system
 
-* **Why:** Implement a badging system and eventually work towards a certification program for GitLab developers
-* **Epic:** <https://gitlab.com/groups/gitlab-org/-/epics/9075>
-* **DRI:** [Contributor Success team](/handbook/marketing/developer-relations/contributor-success/)
-
-#### Contributor recognition
-
-* **Why:** Provide sustained and impactful recognition to recognize & retain our contributors. Increase frequency and targeted recognition to types and persona of contributors
-* **Epic:** <https://gitlab.com/groups/gitlab-org/-/epics/9076>
-* **DRI:** [Contributor Success team](/handbook/marketing/developer-relations/contributor-success/) & [Developer Relations team](/handbook/marketing/developer-relations/)
-
-#### Contributor career advancement
-
-* **Why:** In Open Source Projects, the contributors' motivation in addition to solving a bug or adding a missing feature is to get experience and build their CV for career advancement.
-* **Epic:** <https://gitlab.com/groups/gitlab-org/-/epics/9077>
+* **Why:** In Open Source Projects, one of the contributors' motivation in addition to solving a bug or adding a missing feature is to get experience and build their online presence. This can be solved through levelling-up, badging or other incentivizing systems. In addition, providing sustained and impactful recognition to recognize & retain our contributors. Increase frequency and targeted recognition to types and persona of contributors
 * **DRI:** [Contributor Success team](/handbook/marketing/developer-relations/contributor-success/)
 
 ### Foster Diversity, Equity, and Inclusion
@@ -112,25 +100,10 @@ Center diversity, equity, and inclusion within our open source community relatio
 * **Why:** Aligning with open source communities practicing DEI initiatives will offer GitLab more ideas on reaching new contributors and signal our commitment to DEI to potential contributors.
 * **DRI:** [Developer Relations team](/handbook/marketing/developer-relations/) & [Contributor Success team](/handbook/marketing/developer-relations/contributor-success/)
 
-#### Improve first-time contributor inclusion
+#### Improve contributor inclusion
 
-* **Why:** Improving the newcomer experience to GitLab includes more contributors at different experience levels. A better first-time experience for a contributor can improve chances of return contributions.
+* **Why:** Improving the experience, both newcomer or for contributors who return, to GitLab includes more contributors at different experience levels. A more inclusive, and better, experience for a contributor can improve chances of return contributions.
 * **DRI:** [Contributor Success team](/handbook/marketing/developer-relations/contributor-success/)
-
-#### Track internal DEI group participation
-
-* **Why:** By tracking GitLab participation in DEI groups and initiatives, we can increase our team's awareness on diversity, equity and inclusion best practices. We can also reach more potential contributors at external groups.
-* **DRI:** [Developer Relations team](/handbook/marketing/developer-relations/)
-
-#### Incentivize contributors at qualifying events
-
-* **Why:** Offering incentives for contributors at qualifying events can increase potential first-time contributors from new audiences.
-* **DRI:** [Developer Relations team](/handbook/marketing/developer-relations/) & [Diversity, Inclusion & Belonging team](/handbook/company/culture/inclusion/)
-
-#### Establish contributor resource groups
-
-* **Why:** With resource groups for contributors we can offer mentoring and coaching opportunities for our wider community. This can incentivize more community members and grow our contributors' skillsets.
-* **DRI:** [Developer Relations team](/handbook/marketing/developer-relations/) & [Diversity, Inclusion & Belonging team](/handbook/company/culture/inclusion/)
 
 ### Expand Outreach
 
@@ -139,52 +112,38 @@ Increase awareness with content and events to drive large amounts of contributor
 #### Increase contribution backlog exposure
 
 * **Why:**  Contributing as a new member to a massive project can be overwhelming, which can lead to analysis paralysis and potentially losing contributors. We should offer a lens into a discoverable, sizable set of issues we can direct newcomers to. Consider using established 3rd party platforms.
-* **Epic:** <https://gitlab.com/groups/gitlab-com/quality/-/epics/12>
 * **DRI:** [Developer Relations team](/handbook/marketing/developer-relations/)
 
 #### Scale contributor events
 
 * **Why:** Build a sense of belonging, provide the social environment for contributors to have their voice, meet with their peers, share knowledge and celebrate.
-* **Epic:** <https://gitlab.com/groups/gitlab-org/-/epics/9078>
 * **DRI:** [Developer Relations team](/handbook/marketing/developer-relations/) & [Contributor Success team](/handbook/marketing/developer-relations/contributor-success/)
 
-#### Community office hours
+#### Community office hours & community pairing
 
-* **Why:** We need to scale office hour calls that have traditionally been a unique opportunity for product groups to provide support, guidance to code contributors as well as gather feedback.
-* **Epic:** <https://gitlab.com/groups/gitlab-com/quality/-/epics/14>
-* **Status:** Resolved
+* **Why:** We need to scale office hour calls and our community pairing sessions that have traditionally been a unique opportunity for product groups to provide support, guidance to code contributors as well as gather feedback.
 * **DRI:** [Developer Relations team](/handbook/marketing/developer-relations/) & [Contributor Success team](/handbook/marketing/developer-relations/contributor-success/)
 
 #### Increase social presence
 
 * **Why:** Increase our social media presence beyond the currently limited mediums (Twitter, Discord), which will allow us to tap into existing developer communities.
-* **Epic:** <https://gitlab.com/groups/gitlab-com/quality/-/epics/15>
 * **DRI:** [Developer Relations team](/handbook/marketing/developer-relations/)
 
 ### Scale the Community
 
-Leverage the full-time customer contributor model and create wider community teams for rapid growth.
-
-#### Create a governance model & allow community participation in decision-making
-
-* **Why:** A decision making model that works for the entire community allows us to make decisions faster. It allows wider community members with multiple domain expertise to make decisions on GitLab changes. It allows the maintainers to have the final sign-off. It lets the community be in the driving seat and fosters growth.
-* **Epic:** <https://gitlab.com/groups/gitlab-org/-/epics/9079>
-* **DRI:** [Contributor Success team](/handbook/marketing/developer-relations/contributor-success/)
+Leverage the full-time customer contributor model and create wider community teams for sustainable growth.
 
 #### Returning & Frequent Contributors
 
 * **Why:** Increased contribution by motivating recurring contributions from organizations that use or extend GitLab, such as customers, partners and OSS communities. Reward those that achieve that status with GitLab benefits that are valuable to the individual and the organization.
-* **Epic:** <https://gitlab.com/groups/gitlab-org/-/epics/9080>
 * **DRI:** [Developer Relations team](/handbook/marketing/developer-relations/) & [Contributor Success team](/handbook/marketing/developer-relations/contributor-success/)
+
+#### Non-code contributions
+
+* **Why:** Our userbase is made of a lot of different personas who each can make valuable contributions and improve GitLab. Creating design proposals, code reviews, triaging our issues or facilitating healthy discussions between all actors involved helps us achieve our goals faster. In addition, recognizing non-code contributions such as helping GitLab with promoting the product, our events or other ways to contribute should be recognized and celebrated.
+* **DRI:** [Contributor Success team](/handbook/marketing/developer-relations/contributor-success/)
 
 #### Foster more collaboration
 
 * **Why:** We would like to depart from having contributors work single-handedly and create a team that can do more together.
-* **Epic:** <https://gitlab.com/groups/gitlab-org/-/epics/9081>
-* **DRI:** [Contributor Success team](/handbook/marketing/developer-relations/contributor-success/)
-
-#### Contribution specialization
-
-* **Why:** To surface contribution opportunities tailored to tech professions, implement frontend, backend, UX, Test and etc specialization in contribution types and MR coaches. This also allows a more aligned interaction between contributor and MR coaches of the same specialization.
-* **Epic:** <https://gitlab.com/groups/gitlab-org/-/epics/9082>
 * **DRI:** [Contributor Success team](/handbook/marketing/developer-relations/contributor-success/)
