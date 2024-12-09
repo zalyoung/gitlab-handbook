@@ -13,6 +13,8 @@ toc_hide: true
 This document is a work-in-progress and proposes architecture changes for the GitLab.com SaaS.
 The goal of these changes are to maintain GitLab.com service continuity in the case a regional or zonal outage.
 
+For the current state see [Disaster Recovery Policies for GitLab Backups](/handbook/engineering/gitlab-com/policies/backup/#disaster-recovery).
+
 - A **zonal recovery** is required when all resources are unavailable in one of the three availability zones in `us-east1` or `us-central1`.
 - A **regional recovery** is required when all resources become unavailable in one of the regions critical to operation of GitLab.com, either `us-east1` or `us-central1`.
 
@@ -87,7 +89,3 @@ The following are considerations for choosing multi-region buckets over dual-reg
    [^1]: Most of the Redis load is on the primary node, so losing replicas should not cause any service interruption
    [^2]: We setup maximum replicas in our Kubernetes clusters servicing front-end traffic, this is done to avoid saturating downstream dependencies. For a zonal failure, a cluster reconfiguration is necessary to increase these maximums.
    [^3]: There is a 4 hr RPO for Operations because Chef is an single point of failure in a single availability zone and our restore method uses disk snapshots, taken every 4 hours. While most of our Chef configuration is also stored in Git, some data (like node registrations) are only stored on the server.
-
-## Single Source of Truth
-
-[Main Backups Page](/handbook/engineering/infrastructure/production/#backups)

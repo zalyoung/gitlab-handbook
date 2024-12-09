@@ -131,58 +131,7 @@ For some incidents, we may figure out that the usage patterns that led to the is
 
 ## Backup and Restore
 
-This section is part of [controlled document](/handbook/security/controlled-document-procedure/) covering our controls for backups.  It covers BCD-11 in [the controls](/handbook/security/security-assurance/security-compliance/guidance/business-continuity-and-disaster-recovery/).
-Exceptions to this backup policy will be tracked in the [compliance issue tracker](https://gitlab.com/gitlab-com/gl-security/security-assurance/team-commercial-compliance/compliance/-/issues/).
-
-The backup strategy for GitLab.com consists of both monitoring and automatic restore validation.
-The following data is backed up, monitored and validated through automated restores:
-
-1. All Postgres databases for GitLab.com
-1. Object storage for GitLab.com that includes packages, LFS, uploads and CI data.
-1. The CustomersDot database, responsible for subscriptions and purchasing
-1. Git repositories
-
-### Production Databases
-
-GitLab.com database backups occur every 24 hours, with incremental updates every 60 seconds.
-The data is securely streamed to [GCS](https://cloud.google.com/storage), encrypted, and retained for 90 days.
-The CustomersDot database is backed up daily with a 7-day retention policy.
-All databases are monitored to ensure successful backups, with alerts triggered if recent backups are missing.
-
-Backup restore processes are continuously validated by restoring databases from disk snapshots and replaying WAL segments.
-
-### Object Storage
-
-Data stored in Object Storage (GCS) benefit from Google's [99.999999999% annual durability](https://cloud.google.com/storage/docs/storage-classes#descriptions) and multi-region bucket redundancy.
-To safeguard this data, we enable both [Object Versioning](https://cloud.google.com/storage/docs/object-versioning) and [Soft Delete](https://cloud.google.com/storage/docs/soft-delete).
-
-Automated restore validation is not performed for Object Storage since protection is already ensured through versioning and soft-delete.
-
-### Repositories
-
-Repositories are backed up using block-level disk snapshots taken every hour.
-These snapshots are stored in multi-region object storage and retained for 14 days.
-All disks are monitored, with alerts triggered if recent snapshots are missing.
-
-Restore validation is performed continuously by randomly sampling disks and restoring recent snapshots.
-
-## Disaster Recovery
-
-GitLab.com is deployed in the `us-east1` region across multiple GCP availability zones.
-Most services, except for Gitaly, are distributed across these zones.
-In the event of a short-term outage affecting a single zone within `us-east1`, the unaffected zones will scale to quickly restore service.
-For the Gitaly service, the nodes in the affected zone will be impacted by the outage, and in the case of data loss will require recovery from backups.
-
-Disaster Recovery operations follow the [Disaster Recovery runbooks](https://gitlab.com/gitlab-com/runbooks/-/tree/master/docs/disaster-recovery).
-These procedures focus on specific services to enable parallelized recovery efforts.
-
-### GameDays
-
-Mock Disaster Recovery (DR) events are conducted quarterly to simulate incidents involving one or more services.
-These exercises validate our DR processes to ensure we are prepared for real incidents.
-
-During these [GameDays](https://gitlab.com/gitlab-com/runbooks/-/blob/master/docs/disaster-recovery/gameday.md),
-we validate RTO and RPO targets by [recording measurements for each procedure](https://gitlab.com/gitlab-com/runbooks/-/blob/master/docs/disaster-recovery/recovery-measurements.md).
+See policies for [Backup and Restore](/handbook/engineering/gitlab-com/policies/backup).
 
 ## Patching
 
