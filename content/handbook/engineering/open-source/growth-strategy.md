@@ -43,7 +43,7 @@ flowchart LR
 
 ### Current focus 
 
-Our current focus is on the following 5 items. This doesn't mean the other items are not important. Focus does help to make a meaningful change given a certain capacity.
+We're prioritizing these 5 key items to maximize our impact within our current capacity. While all initiatives are valuable, this focused approach allows us to drive meaningful change more effectively.
 
 * [Reduce Open Community MR Age](handbook/engineering/open-source/growth-strategy/#reduce-open-community-mr-age)
 * [Create a compelling contributor value proposition](/handbook/engineering/open-source/growth-strategy/#create-a-compelling-contributor-value-proposition)
