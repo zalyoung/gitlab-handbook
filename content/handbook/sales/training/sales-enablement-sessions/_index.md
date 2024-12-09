@@ -24,6 +24,7 @@ To see what training is coming soon, view the [Field Enablement Spotlight issue 
 | DATE   | TOPIC | SPEAKERS |
 |--------|--------|--------|
 | Dec 12 |  Global Ecosystem Team Quarterly Update   | Ecosystem Team |
+| Dec 17 |  New Agile Role "Planner" AMA   | Product Marketing |
 | Dec 19 |  Analyst Relations Update  | Analyst Relations Team  |
 | Dec 26 |  **No Session**   |  |
 | Jan 2 |  TBD   |  TBD  |
