@@ -314,11 +314,7 @@ To read more about Okta, please visit the [Okta](/handbook/it/okta/) page of the
 
 To provide proof of Full Disk Encryption, please do the following depending on the system you are running.
 
-- Apple : Take a screenshot showing both the confirmation of enabled Full Disk Encryption as well as the info showing your serial number.
-    Both pieces of information can be found by clicking on the Apple icon in the top left corner of your screen.
-    For proof of disk encryption, choose `System Settings -> Privacy & Security`, and then choose the `FileVault` tab near the top of the window.
-    For your serial number, choose the `About This Mac` option.
-    Please get both pieces of information in a single screenshot.
+- Apple : Evidence is automatically gathered in Jamf. No user action necessary. 
 - Linux : Take a screenshot showing the output of `sudo dmsetup ls && sudo dmidecode -s system-serial-number && cat /etc/fstab`
 
 ### Fleet Intelligence & Remote Lock/Wipe
