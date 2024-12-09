@@ -26,7 +26,7 @@ We support the Security division's [mission and operating principles](/handbook/
 1. [Observation and Remediation Management]({{< ref "observation-management-procedure" >}})
    - Specific to Tier 3 (system-level) risks
    - Identify control weaknesses and gaps (observations)
-   - Provide [remediation recommendations and guidance](/handbook/security/security-assurance/observation-remediation-procedure/)
+   - Provide remediation recommendations and guidance
    - Track remediation to completion
 1. Industry and Regulatory Monitoring and Insights
    - Monitoring drafts and changes to relevant laws, executive orders, directives, regulations, policies, standards, and guidelines.
