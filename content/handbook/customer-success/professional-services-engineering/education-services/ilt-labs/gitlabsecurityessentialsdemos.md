@@ -140,4 +140,3 @@ For API Scanning:
 1. Discuss the different types of vulnerabilities detected by the API Security Scanner. Highlight how these differ from the previous DAST scan. 
 
 1. Review the project configuration required to create and configure the API Security Scanner. Spend some time highlighting the API definitions required. Discuss how different formats are possible for these API definitions. If time allows, you can also show other examples from https://gitlab.com/gitlab-org/security-products/demos/api-dast.
-
