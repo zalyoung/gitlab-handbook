@@ -33,7 +33,7 @@ Please feel free to contribute to this page by opening a merge request.
 1. **Ownership.** I own my work. This means delivering on my commitments and against my goals. When it looks like I can't for some reason, I quickly escalate, so I am aligned with others on the new timing or direction. I expect this ownership from others. I don't like to micromanage and find that it is less necessary when folks are owning their work.
 1. **Community.** I like to invest in communities and community creation, both at work and in my personal life. I believe that positive professional and social connections make work and life more enjoyable.
 
-## My super owers 
+## My superpowers 
 
 1. **Bias for action.** If I believe that something needs to be owned and I don't see anyone owning it, I'll try to step in to make sure that it gets done.
 1. **Problem solving.** I am a problem solver. I enjoy tackling tough challenges and connecting dots. I am good at seeing trends across a company and can think both at a high level and in the details.
