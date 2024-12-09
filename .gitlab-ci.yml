@@ -96,6 +96,7 @@ variables:
   # Specify versions of tools used in pipelines
   HUGO_VERSION: '0.136.5'
   HUGO_IMAGE: "registry.gitlab.com/pages/hugo/hugo_extended:$HUGO_VERSION"
+  HUGOLINT_VERSION: '1.7.1'
   MARKDOWNLINT_VERSION: '0.14.0'
   VALE_VERSION: '3.8.0'
 
@@ -304,21 +305,14 @@ hugolint:
   needs: []
   rules:
     - <<: *build-and-test-only
-      allow_failure: true
     - <<: *is-fork
-      allow_failure: true
     - <<: *default-branch
-      allow_failure: true
     - <<: *merge-request-or-tag
-      allow_failure: true
   image:
-    name: registry.gitlab.com/gitlab-com/content-sites/handbook-tools/hugolint:latest
-  before_script:
-    - apk add jq
+    name: registry.gitlab.com/gitlab-com/content-sites/handbook-tools/hugolint:v${HUGOLINT_VERSION}
   script:
     - hugolint linkcheck --exclude .hugolint.exclude --format=json $(find content -type f -name '*.md' | grep -v ' ') >linkcheck.json
-    - hugolint missinglinks --num 30 $(find content -name '*.md' | grep -v ' ') >missinglinks.txt 2>/dev/null
-    - head -n 20 missinglinks.txt
+    - hugolint missinglinks --num 30 $(find content -name '*.md' | grep -v ' ') 2>/dev/null | tee missinglinks.txt
     - |
       # Compare with target branch when running as a merge request pipeline.
       if [ "${CI_PIPELINE_SOURCE}" == "merge_request_event" ]; then
