@@ -63,7 +63,7 @@ Provide an outstanding, highly efficient and fast contributor experience, from o
 
 #### Product & engineering alignment
 
-* **Why:** Contribution submissions, backlog, and technology stack vary amongst all [product groups](/handbook/company/structure/#product-groups). Providing a healthy community backlog alignment & establishing a common best practice outreach for all product groups. In addition, there should be a unified & known workflow for Wider Community Contributions.
+* **Why:** Within [product groups](/handbook/company/structure/#product-groups), contribution submissions, backlog, and technology stack vary. Healthy community backlog alignment and the establishment of a common best practice for outreach are vital for contributor success. In addition, there should be a unified & known workflow for Wider Community Contributions.
 * **DRI:** [Product Operations](/handbook/product/product-operations/), [Developer Advocacy team](/handbook/marketing/developer-relations/developer-advocacy/) & [Contributor Success team](/handbook/marketing/developer-relations/contributor-success/)
 
 #### Simplify & improve contribution guides
