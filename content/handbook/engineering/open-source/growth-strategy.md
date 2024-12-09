@@ -61,7 +61,7 @@ Provide an outstanding, highly efficient and fast contributor experience, from o
 
 * **Why:** Provide fast and efficient contributor experience via our tooling. Our contributor tooling needs to be optimized for contributor productivity
 * **Epic:** <https://gitlab.com/groups/gitlab-com/quality/-/epics/2>
-* **DRI:** [Engineering Productivity team](/handbook/engineering/infrastructure/engineering-productivity/)
+* **DRI:** [Developer Tooling team](/handbook/engineering/infrastructure-platforms/developer-experience/developer-tooling-team/)
 
 #### Product groups focus
 
