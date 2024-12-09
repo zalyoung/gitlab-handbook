@@ -344,7 +344,7 @@ Community contributors receive GitLab Duo once approved for [requesting access t
 
 This is an experiment that we run in FY25Q4 (November 2024 - January 2025).
 
-To highlight high-value contribution directions, the contributor success team might set up a dedicated budget that product managers (PM) can give out to contributors in their area in a given timeframe. The overall budget is shared equally across user-facing product stages where PMs can apply labels (`community-bonus::10`, `community-bonus::20`. `community-bonus::30`, `community-bonus::50`. `community-bonus::80`. `community-bonus::130`) to show how much value they give to the specific issue/epic. The bonus is accounted for when the issue is closed or in case of an epic, the contributor success team can give out part of the bonus for specific issues as discussed by the respective PM. PMs are expected to stay within their budgets when selecting issues.
+To highlight high-value contribution directions, the contributor success team might set up a dedicated budget that product managers (PM) can give out to contributors in their area in a given timeframe. The overall budget is shared equally across user-facing product stages where PMs can apply labels (`community-bonus::100`. `community-bonus::300`. `community-bonus::500`) to show how much value they give to the specific issue/epic. The bonus is accounted for when the issue is closed or in case of an epic, the contributor success team can give out part of the bonus for specific issues as discussed by the respective PM. PMs are expected to stay within their budgets when selecting issues.
 
 Bonuses can be granted after the contribution too.
 
