@@ -102,7 +102,7 @@ Center diversity, equity, and inclusion within our open source community relatio
 
 #### Improve contributor inclusion
 
-* **Why:** Improving the experience, both newcomer or for contributors who return, to GitLab includes more contributors at different experience levels. A more inclusive, and better, experience for a contributor can improve chances of return contributions.
+* **Why:** To improve the contributor experience for newcomers and returning contributors, and meet contributors at different experience levels. We can improve the changes of a contributor returning by creating a more inclusive experience for them.
 * **DRI:** [Contributor Success team](/handbook/marketing/developer-relations/contributor-success/)
 
 ### Expand Outreach
