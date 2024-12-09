@@ -77,7 +77,6 @@ If an escalation is opened as high or critical, and the escalation is product re
 - Support Engineering is responsible for managing Low and Medium level escalations, leveraging other teams (e.g., Customer Success Managers (CSMs), Engineering) as needed.
 - Support Engineering should inform the CSM of the escalation if a CSM is assigned.
 - The CSM is responsible for managing any account-related issues (e.g., delayed response, open actions, non-compliance installation or product use, etc.) and coordinating with any GitLab executives (e.g., e-group) or senior leadership to address account concerns.
-- If the customer is assigned to TAM Scale, the CSE is responsible for the technical management of the escalated technical concerns raised in the CSE case.
 
 ### What's the difference between an account escalation or an incident escalation?
 
