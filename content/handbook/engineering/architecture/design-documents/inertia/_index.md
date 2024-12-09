@@ -172,3 +172,21 @@ This would definitely need a few tweaks to support tracking page visits, but sho
 #### Vue-router
 
 Some pages like the Repository browser are using client-side routing with `vue-router`. It's yet unclear how well-behaved a combination of Rails-based routing + Inertia + Vue-router would be.
+
+## Alternative Solutions
+
+The following solutions have been considered as alternatives:
+
+### Quicklink
+
+[Quicklink](https://getquick.link/) prefetches all visible links and makes browsing feel faster. But it is not a good fit for us because:
+
+- it would overfetch. By default, it fetches any link in the viewport, meaning in an application like GitLab, with many dense tables and lists, it would fetch _a lot_ of things. Quicklink is better suited for mobile apps, with a small viewport and only a few links per page.
+- it still has to do all the JS init on every page. While it does prefetch the HTML, it does not "pre init" the page. You can still see the page starting with blank breadcrumbs and sidebar, because these are Vue-rendered.
+
+### instant.page
+
+Similar to Quicklink, but [instant.page](https://instant.page/) by default only prefetches on hovering a link:
+
+- Prefetching only on hover avoids overfetching. We could add it to GitLab without any noticable extra load.
+- But it has the same limitation as Quicklink. It only prefetches the HTML, but doesn't "pre init" the page's JavaScript. Things like the sidebar and the breadcrumbs would still get repainted on every page load.
