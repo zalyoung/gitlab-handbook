@@ -19,6 +19,11 @@ The following people of other functional teams are our stable counterparts:
 
 {{< stable-counterparts role="(Product Manager|Frontend Engineer|Technical Writer|Software Engineer in Test|Senior Security Engineer).*(Create:Source Code|Create \(Source)|Dev\:Create" >}}
 
+## Common Links
+
+- GitLab Team Handle: `@gitlab-com/create-team/source-code/backend` 
+- Slack Channel: `#g_create_source-code-be`
+
 ## Sisense and KPIs
 
 To help us stay on track with [Development KPIs](/handbook/company/kpis/#development-department-kpis), we use a [metrics dashboard](https://app.periscopedata.com/app/gitlab/570334/Universal-Engineering-Team-Metrics-Dashboard). This dashboard includes security MRs from production, but doesn't include security MRs from `dev.gitlab.org`. For team-specific data and metrics, ensure you filter by our team.
