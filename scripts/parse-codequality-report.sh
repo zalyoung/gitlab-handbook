@@ -60,6 +60,7 @@ generate_table() {
     LENGTH=$(jq '. | length' $HREPORT)
     for i in $(seq 0 $((LENGTH-1))); do
       ERROR=$(jq -r ".[$i].check_name" $HREPORT | cut -d '/' -f 1)
+      URL=$(jq -r ".[$i].link" $HREPORT)
       FILE=$(jq -r ".[$i].location.path" $HREPORT)
       LINE=$(jq -r ".[$i].location.lines.begin" $HREPORT)
       LOC="$REPO_URL/-/blob/$CI_COMMIT_SHA/$FILE#L$LINE"

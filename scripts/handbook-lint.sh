@@ -400,8 +400,9 @@ rm /tmp/CODEOWNERS
 if [[ $ERROR_FOUND == "true" ]]; then
   printf "%b" "\n${bold}${red}Linting Failed!${normal}${bold} - There are a number of issues with the proposed changes.${normal}\n\n"
   if [[ $INCORRECT_IMAGE_PATHS != "" ]]; then
-    printf "%b" "The following images are being added, but are not located in the static/images folder:\n\n"
+    printf "%b" "The following images are being added, but are not located in the static/images folder.\n\n"
     printf "%b" "$INCORRECT_IMAGE_PATHS\n"
+    printf "%b" "${yellow}See https://handbook.gitlab.com/docs/markdown-guide/#images for more information.${normal}\n"
   fi
   if [[ $LARGE_IMAGE_PATHS != "" ]]; then
     printf "%b" "The following images are being added, but are larger than 500KB each:\n\n"
