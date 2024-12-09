@@ -6,24 +6,25 @@ At GitLab and on the Code Creation team, we believe in a structured yet flexible
 
 ## Issue Creation
 
-When creating a new issue, include these sections:
+When creating a new issue, add as many details as possible during initial creation when knowledge is fresh. [Assume low context](/handbook/company/culture/all-remote/effective-communication/#understanding-low-context-communication) for anyone reading or picking up the issue, and write down any information you think would be relevant.
 
-**Context**
- 
-- Summary or background of the feature, feature change, bug, or investigation. [Assume low context](/handbook/company/culture/all-remote/effective-communication/#understanding-low-context-communication) for anyone reading or picking up the issue, and write down any information you think would be relevant.
-- If applicable, include subsections such as "Further Details", "Scope", etc.
+Label new issues with “workflow::refinement” if they need further discussion or estimation.
 
-**References and Resources**
+Follow this template in the description:
 
-- Include any links to documentations, issues, or MRs that you think may be useful to the assignee.
-- If applicable, indicate a domain expert or resource person/group.
+```markdown
+## Context
 
-**Proposal**
+_Summary or background of the feature, feature change, bug, or investigation. If applicable, include subsections such as "Further Details", "Scope", etc._
 
-- Proposed/suggested solution or any guidance related to it.
-- For investigations or spikes, this may describe an expected outcome or expected output.
-- Add as many details as possible during initial creation when knowledge is fresh
-- Label new issues with "workflow::refinement" if they need further discussion or estimation
+## References and Resources
+
+_Include any links to documentations, other issues, or MRs that you think may be useful to the assignee. If applicable, indicate a domain expert or resource person/group._
+
+## Proposal
+
+_Proposed/suggested solution or any guidance related to it. For investigations or spikes, this may describe an expected outcome or expected output._
+```
 
 ## Issue Refinement
 
