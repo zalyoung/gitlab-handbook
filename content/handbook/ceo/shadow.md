@@ -131,19 +131,12 @@ For those with regular commitments, look for shorter weeks or timezone variation
 
 | Start date | End date | See one | Teach one | Schedule Notes |
 | ---------- | -------- | ---- | ----- | --------- |
-| 2024-11-04 | 2024-11-08 | NO CEO SHADOW | NO CEO SHADOW | IN APAC |
-| 2024-11-11 | 2024-11-15 | NO CEO SHADOW | NO CEO SHADOW | IN APAC |
-| 2024-11-18 | 2024-11-22 | OPEN | [Naheil McAvinue](https://gitlab.com/nmcavinue) - Director, Data & Analytics | REMOTE - PT |
-| 2024-11-25 | 2024-11-29 | [Francesca Gianfiglio](https://gitlab.com/fgianfiglio) - Senior Business Development Representative EMEA | OPEN | REMOTE - PT |
-| 2024-12-02 | 2024-12-06 | OPEN |  [Francesca Gianfiglio](https://gitlab.com/fgianfiglio) - Senior Business Development Representative EMEA  | REMOTE - PT |
-| 2024-12-09 | 2024-12-13 | VP DIRECTS ONLY | VP DIRECTS ONLY | REMOTE - PT |
+| 2024-11-25 | 2024-11-29 | NO CEO SHADOW | NO CEO SHADOW | CEO TRAVELING |
+| 2024-12-02 | 2024-12-06 | NO CEO SHADOW | NO CEO SHADOW | CEO TRAVELING |
+| 2024-12-09 | 2024-12-13 | NO CEO SHADOW | NO CEO SHADOW | CEO TRAVELING |
 | 2024-12-16 | 2024-12-20 | NO CEO SHADOW | NO CEO SHADOW | CEO TRAVELING |
 | 2024-12-23 | 2024-12-27 | NO CEO SHADOW | NO CEO SHADOW | CEO TRAVELING |
 | 2024-12-30 | 2025-01-03 | NO CEO SHADOW | NO CEO SHADOW | CEO PTO |
-| 2025-01-06 | 2025-01-10 | OPEN | OPEN | REMOTE - PT |
-| 2025-01-13 | 2025-01-17 | OPEN | OPEN | REMOTE - PT |
-| 2025-01-20 | 2025-01-24 | OPEN | OPEN | REMOTE - PT |
-| 2025-01-27 | 2025-01-31 | OPEN | OPEN | REMOTE - PT |
 
 If you have questions regarding the planned rotation schedule, please ping the [EBA to the CEO](/handbook/eba/#executive-business-administrator-team) and [Chief of Staff to the CEO](/job-families/chief-executive-officer/chief-of-staff/) in the `#ceo-shadow` Slack channel. The CoS and EBA to the CEO manage the rotation schedule. Please do not add new dates to the schedule when adding in your rotation. The CEO's schedule is subject to constant change and your rotation may need to be rescheduled.
 
@@ -340,6 +333,8 @@ To use the script:
 1. Then simply type `setalarm 50` to set a 50-minute timer (`setalarm` defaults to 25 minutes if no argument is provided).
 
 Press `Ctrl+C` if you need to cancel the alarm. You may keep the terminal window running indefinitely so that it is at your finger tips throughout your program duration.
+
+For a no-code solution, previous Shadows have used free online timers/alarms like https://vclock.com/. Shadows may choose to keep the timer visible in a separate window, placed alongside their Zoom window. Shadows can use tools like this to set an alarm for a 5-minute notification, prompting the Shadow to send a 5-minute message to the Zoom chat and reset the alarm for the final 1-minute notification.
 
 #### Promote Communication Best Practices
 
@@ -838,3 +833,4 @@ CEO Shadow Program alumni are welcome to join the `#ceo-shadow-alumni` Slack cha
 | 2024-09-16 | 2024-10-04 | [Kyle Yetter](https://gitlab.com/kyetter) | Senior Backend Engineer, Geo | |
 | 2024-09-30 | 2024-10-11 | [Nupur Sharma](https://gitlab.com/nsharma2) | Solutions Architect | |
 | 2024-10-21 | 2024-11-01 | [Dan Rhodes](https://gitlab.com/dfrhodes) | Senior Managing Legal Counsel | |
+| 2024-10-28 | 2024-11-22 | [Naheil McAvinue](https://gitlab.com/nmcavinue) | Director, Data & Analytics | |

@@ -114,6 +114,7 @@ blockquote
 blockquoted
 blockquotes
 blockquoting
+Bluesky
 boolean
 booleans
 Bootsnap
@@ -367,6 +368,8 @@ DRIs
 DSLs
 DSN
 Dynatrace
+dyscalculia
+dyspraxia
 EBAs
 ebook
 ebooks
@@ -423,6 +426,7 @@ Figma
 Filebeat
 Filestore
 financials
+findability
 Finicity
 Finnhub
 Fio
@@ -457,6 +461,8 @@ Fullstack
 fuzzer
 fuzzing
 Gainsight
+gameday
+gamedays
 Gantt
 Gartner
 Gbps
@@ -555,6 +561,8 @@ IIFEs
 Immer
 iMovie
 impactful
+incentivized
+incentivizes
 incentivizing
 inclusivity
 inflector
@@ -603,6 +611,7 @@ Jupyter
 JupyterHub
 JWT
 JWTs
+kaizen
 Kaminari
 kanban
 kanbans
@@ -656,6 +665,7 @@ livestreaming
 livestreams
 LLM
 LLMs
+localizability
 lockfile
 lockfiles
 Lodash
@@ -693,6 +703,7 @@ Maniphest
 Markdown
 markdownlint
 Marketo
+Mastodon
 matcher
 matchers
 Matomo
@@ -765,6 +776,8 @@ negatable
 Neovim
 Netlify
 Netsuite
+neurodevelopment
+neurodevelopmental
 neurodivergent
 neurodiverse
 neurodiversity
@@ -935,6 +948,7 @@ Rdoc
 reachability
 readme
 Realplayer
+rearchitecting
 reauthenticate
 reauthenticated
 reauthenticates
@@ -989,6 +1003,7 @@ repurpose
 repurposes
 repurposing
 repurposing
+reputational
 requestee
 requesters
 requeue
@@ -1227,6 +1242,7 @@ timelogs
 timesheet
 timesheets
 Tiptap
+TMRGs
 ToDo
 todos
 tokenizer
@@ -1243,6 +1259,7 @@ tooltips
 touchpoint
 touchpoints
 transactionally
+transcreation
 transformative
 transpile
 transpiled
@@ -1282,6 +1299,7 @@ unassigning
 unassigns
 unban
 unbans
+unblocker
 uncached
 uncheck
 unchecked
@@ -1307,6 +1325,7 @@ unfollowed
 unfollows
 Unicorn
 unindexed
+unintuitive
 unlink
 unlinking
 unlinks
@@ -1326,6 +1345,7 @@ unoptimizing
 unparsable
 unpatched
 unpause
+unpredictabilities
 unprioritized
 unprotect
 unprotected

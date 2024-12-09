@@ -331,13 +331,22 @@ Contributor Success team members can use the [outreach email/message template](/
 
 More information on the [Core Team](https://about.gitlab.com/community/core-team/) is available in the [Core Team handbook page](/handbook/marketing/developer-relations/core-team/).
 
-### Granting GitLab Duo licenses
+### GitLab Duo for Contributors
 
-To support our mission to enable everyone to contribute, we offer GitLab Duo Enterprise licenses to the contributors in our wider community.
-[GitLab Duo](https://about.gitlab.com/gitlab-duo/) features Code Suggestions, Chat, Root Cause Analysis and more AI-powered features to help boost efficiency
-and effectiveness by reducing the time required to write and understand code.
-Community contributors can [visit the GitLab Community Duo Access project](https://gitlab.com/gitlab-community/community-members/duo-access) to request a GitLab Duo Enterprise license and learn more
-about the benefits of GitLab Duo.
+To support our mission to enable everyone to contribute, we offer complimentary GitLab Duo Enterprise
+licenses across the GitLab community forks for all our wider community contributors.
+[GitLab Duo](https://about.gitlab.com/gitlab-duo/) features Code Suggestions, Chat, Root Cause Analysis
+and more AI-powered features to help boost efficiency and effectiveness by reducing the time required
+to write and understand code and pipelines.
+Community contributors receive GitLab Duo once approved for [requesting access to the community forks](https://gitlab.com/groups/gitlab-community/community-members/-/group_members/request_access).
+
+### Highlighting high-value contributions with product bonuses
+
+This is an experiment that we run in FY25Q4 (November 2024 - January 2025).
+
+To highlight high-value contribution directions, the contributor success team might set up a dedicated budget that product managers (PM) can give out to contributors in their area in a given timeframe. The overall budget is shared equally across user-facing product stages where PMs can apply labels (`community-bonus::100`. `community-bonus::300`. `community-bonus::500`) to show how much value they give to the specific issue/epic. The bonus is accounted for when the issue is closed or in case of an epic, the contributor success team can give out part of the bonus for specific issues as discussed by the respective PM. PMs are expected to stay within their budgets when selecting issues.
+
+Bonuses can be granted after the contribution too.
 
 ### For contributors who don't own a credit card
 

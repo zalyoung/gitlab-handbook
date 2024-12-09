@@ -3,7 +3,7 @@
 | 1* | <a href="/handbook/security/#severity-and-priority-labels-on-security-issues">Security</a> | `bug::vulnerability` |
 | 2* | Data Loss | `data loss` |
 | 3* | Resilience, Reliability, <a href="/handbook/engineering/performance/index.html#availability">Availability</a>, <a href="/handbook/engineering/workflow/#infradev">and Performance</a>| `availability`, `infradev`, `Corrective Action`, `bug::performance` |
-| 4 | <a href="https://handbook.gitlab.com/handbook/product/product-okrs/">OKR's</a> | |
+| 4 | <a href="/handbook/product/product-okrs/">OKR's</a> | |
 | 5 | Usability | `Usability benchmark`, `SUS::Impacting`, `Deferred UX` |
 | 6 | Instrumentation | `instrumentation` |
 | 7 | xMAU / ARR Drivers | `direction` |

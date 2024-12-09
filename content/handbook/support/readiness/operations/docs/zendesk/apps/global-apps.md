@@ -16,7 +16,7 @@ App information:
 - This application was developed by
   [Zendesk](https://www.zendesk.com/marketplace/partners/zendesk/) and is
   available in the
-  [Zendesk Marketplace](https://www.zendesk.com/apps/support/advanced-search/).
+  [Zendesk Marketplace](https://www.zendesk.com/marketplace/apps/support/198393/advanced-search/).
 
 ## GitLab Duo
 
@@ -287,7 +287,7 @@ App information:
   - Support APAC
   - Support EMEA
 - This application was developed by Unbabel and is available in the
-  [Zendesk Marketplace](https://www.zendesk.com/apps/support/unbabel-for-zendesk-support/).
+  [Zendesk Marketplace](https://www.zendesk.com/marketplace/apps/support/43875/unbabel-for-zendesk-support/).
 
 ### Configuring Unbabel in Zendesk
 

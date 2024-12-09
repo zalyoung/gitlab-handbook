@@ -72,7 +72,7 @@ As security practitioners and incident response engineers, our security assuranc
 - Acting as an approval point on final messaging to ensure it's ready for external use
 - Liaising with PR and corporate communications for additional reviews and/or messaging needs (public/media statements)
 - Deploying the messaging via collaboration with our PR (media statement), Content Marketing (blog post) and Marketing Operations teams (email response)
-- Posting final communications materials to slack channels (`#developer-relations`, `#social_media_action`, `#sales`, `#security-department` and `#customer-success`) for awareness and use.
+- Posting final communications materials to slack channels (`#developer-relations`, `#social_media_action`, `#sales`, `#security-division` and `#customer-success`) for awareness and use.
   - `Support manager on call` will manage support team awareness
 
 ## Extended team roles, responsibilities and points of contact
@@ -104,7 +104,7 @@ Any time there is a service disruption for team members, the CMOC should post de
 
 ### Incident response channel on Slack
 
-In the cases of incidents that are on-going and require constant communication the `Security Engineer on Call` will set up an incident response Slack channel. All security incident team members and extended POCs should be invited. If the nature of the incident allows, the Slack channel will be public to GitLab and a link to this channel will also be shared in `#security-department` Slack channel to increase visibility.
+In the cases of incidents that are on-going and require constant communication the `Security Engineer on Call` will set up an incident response Slack channel. All security incident team members and extended POCs should be invited. If the nature of the incident allows, the Slack channel will be public to GitLab and a link to this channel will also be shared in `#security-division` Slack channel to increase visibility.
 
 ### Engaging key internal stakeholders (when/how)
 

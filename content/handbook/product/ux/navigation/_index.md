@@ -30,7 +30,7 @@ To help maintain this balance, we ask for everyone to use this process when prop
 * Removing a navigation item
 * Changing the sort order of navigation items
 * Changing navigation functionality or features
-* Launching an [Experiment](https://docs.gitlab.com/ee/policy/experiment-beta-support.html#experiment) or [Beta](https://docs.gitlab.com/ee/policy/experiment-beta-support.html) feature
+* Launching an [Experiment](https://docs.gitlab.com/ee/policy/development_stages_support.html#experiment) or [Beta](https://docs.gitlab.com/ee/policy/development_stages_support.html) feature
 * Changing the viewership of a navigation item (e.g. moving from disabled by default to enabled by default)
 
 ## When to change the navigation

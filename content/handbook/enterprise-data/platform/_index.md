@@ -9,7 +9,7 @@ The Data Platform is used for data analytics purposes. This document conceptuall
 
 ## Scope
 
-This document is limited to describe the Data Platform conceptually. There are other resources that describe it in more detail (i.e. the Data Pipelines and the [infrastructure](/handbook/enterprise-data/platform/infrastructure/)/
+This document is limited to describe the Data Platform conceptually. There are other resources that describe it in more detail (i.e. the [data pipelines](/handbook/enterprise-data/platform/pipelines/) and the [infrastructure](/handbook/enterprise-data/platform/infrastructure/)).
 
 ## Roles & Responsibilities
 
@@ -137,7 +137,7 @@ The following table indexes all of the RAW data sources we are loading into the 
 | [Qualtrics](https://www.qualtrics.com/) | Airflow | `qualitrics` | `qualtrics` | Marketing | 12h / 48h | No | Tier 2 |
 | [Rally](https://help.rallyuxr.com/en/) | Stitch Webhook | `rally_webhook_stitch` | `sensitive` | UX | 24h / 48h | No | Tier 3 |
 | [SaaS Service Ping](https://internal.gitlab.com/handbook/enterprise-data/platform/pipelines/#service-ping) | Airflow | `saas_usage_ping` | `saas_usage_ping` | Product | 1 week / 24h ([more context](https://internal.gitlab.com/handbook/enterprise-data/platform/pipelines/#slo-explanation-for-automated-service-ping)) | No | Tier 1 |
-| [Salesforce](https://www.salesforce.com/) | Stitch | `salesforce_v2_stitch` | `sfdc` | Sales | 6h / 24h | Yes | Tier 1 |
+| [Salesforce](https://www.salesforce.com/us/?ir=1) | Stitch | `salesforce_v2_stitch` | `sfdc` | Sales | 6h / 24h | Yes | Tier 1 |
 | [Salesforce Sandbox](https://gitlab--staging.sandbox.my.salesforce.com/)| Stitch | `salesforce_stitch_sandbox_v2` | `TBC` |Sales | 24h / 48h| Yes| Tier 3|
 | SheetLoad | SheetLoad | `sheetload` | `sheetload` | Multiple | 24h / 48h | Yes | Tier 1 |
 | SIRT Alertapp | Snowflake task | `sirt_alertapp` | `sirt_alertapp` | Engineering | 24h / 48h | No | Tier 3 |
@@ -254,16 +254,16 @@ To get access to snowflake support portal, please follow the below steps.
 
 - When you are in your [Snowsight](https://docs.snowflake.com/en/user-guide/ui-snowsight) instance, open your account (bottom-left corner) and go to the Support option
 
-![support_sf_1.png](../../../../static/images/data/support_sf_1.png)
+![Account](/images/data/support_sf_1.png)
 
 - On the panel, you can see the already open cases
 
-![support_sf_2.png](../../../../static/images/data/support_sf_2.png)
+![Open cases](/images/data/support_sf_2.png)
 
 - In the top-right corner, to open a new case, press `+ Support Case` button
 - Fill in the data to describe your issue and the Snowflake team will handle it
 
-![support_sf_3.png](../../../../static/images/data/support_sf_3.png)
+![Support case](/images/data/support_sf_3.png)
 
 - For each update on your case, you will be informed by email
 
@@ -810,7 +810,7 @@ We use the term snapshots in multiple places throughout the data team handbook a
 
 #### dbt
 
-The most common usage is in reference to [dbt snapshots](https://docs.getdbt.com/docs/snapshots). When dbt snapshots is run, it takes the current state of the *source* data and updates the corresponding *snapshot* table, which is a table that contains the full history of the source table. It has `valid_to` and `valid_from` fields indicating the time period for which that particular snapshot is valid. See the [dbt snapshots](/handbook/enterprise-data/platform/dbt-guide/#snapshots) section in our dbt guide for more technical information.
+The most common usage is in reference to [dbt snapshots](https://docs.getdbt.com/docs/build/snapshots). When dbt snapshots is run, it takes the current state of the *source* data and updates the corresponding *snapshot* table, which is a table that contains the full history of the source table. It has `valid_to` and `valid_from` fields indicating the time period for which that particular snapshot is valid. See the [dbt snapshots](/handbook/enterprise-data/platform/dbt-guide/#snapshots) section in our dbt guide for more technical information.
 
 The tables generated and maintained by dbt snapshots are the raw historical snapshot tables. We will build downstream models on top of these raw historical snapshots for further querying. The [snapshots folder](https://gitlab.com/gitlab-data/analytics/tree/master/transform/snowflake-dbt/snapshots) is where we store the dbt models. One common model we may build is one that generate a single entry (i.e. a single snapshot) for a given day; this is useful when there are multiple snapshots taken in a 24 hour period. We also will build models to return the most current snapshot from the raw historical table.
 
@@ -867,7 +867,7 @@ Once a table is permanent with a retention period we are able to use [Time Trave
 
 ##### Unavailability of the Snowflake environment
 
-For the unlikely event that Snowflake becomes unavailable for an undetermined amount of time, we additionally backup the any business critical data, where Snowflake is the primary source, to Google Cloud Storage (GCS). We execute these backup jobs using dbt's [`run-operation`](https://docs.getdbt.com/docs/using-operations) capabilities. Currently, we backup all of our **snapshots** daily and retain them for a period of 60 days (per GCS retention policy). If a table should be added to this GCS backup procedure it should be added via the [backup manifest](https://gitlab.com/gitlab-data/analytics/-/blob/master/dags/general/backup_manifest.yaml).
+For the unlikely event that Snowflake becomes unavailable for an undetermined amount of time, we additionally backup the any business critical data, where Snowflake is the primary source, to Google Cloud Storage (GCS). We execute these backup jobs using dbt's [`run-operation`](https://docs.getdbt.com/docs/build/hooks-operations) capabilities. Currently, we backup all of our **snapshots** daily and retain them for a period of 60 days (per GCS retention policy). If a table should be added to this GCS backup procedure it should be added via the [backup manifest](https://gitlab.com/gitlab-data/analytics/-/blob/master/dags/general/backup_manifest.yaml).
 
 ### Admin
 
@@ -1121,6 +1121,34 @@ The process for setting up a new Data Spigot is as follows:
 
 Sales Systems Use-Case: Using the Snowflake API
 
+## <i class="fas fa-clone fa-fw -text-blue"></i> Data Deduplication
+
+Data deduplication is essential for ensuring data quality and reducing storage and compute costs in Snowflake. The current GitLab.com pipeline is designed to execute a full data extract for specific tables where incremental extraction is not feasible, as well as for tables intended for Slowly Changing Dimensions (SCD) modeling. To check for any missing transactions in the source system, incremental extraction tables consistently overlap by 30 minutes.
+
+Additionally, all data sourced from another application, CustomersDot, is extracted in full twice a day, as each extract plays a role in building the SCD downstream.
+
+To address our need for reduced Service Level Objectives (SLO) and Service Level Agreements (SLA), we have shifted towards more frequent extracts for both CustomersDot and GitLab.com. This adjustment has resulted in an increase in duplicate records and higher storage requirements in Snowflake for tables associated with both full and incremental extracts. The growing number of duplicates has adversely affected the results of the dbt model and dbt tests on these data sources over time. 
+
+To decrease dbt runtime and enhance the efficiency of Snowflake's computing and storage, we developed a deduplication framework specifically targeting these data sources. This framework can be easily extended to other data sources in Snowflake where duplicate records may accumulate.
+
+### Deduplication Framework
+
+The deduplication framework consists of two main components:
+
+1. **Airflow**: Airflow consists of 3 deduplication DAG's:
+ i. Deduplication DAG for gitlab.com incremental extract `t_deduplication_gitlab_com_incremental`  
+ ii. Deduplication Staging DAG for gitlab.com scd (full) extract `t_deduplication_gitlab_db_scd`  
+ iii. Deduplication SCD DAG for CusotmerDot SCD extract.`t_gitlab_customers_db_dbt`
+ Since we maintain the list of the tables, we extract data in the manifest file as part of gitab_data_extract pipeline. Airflow relies on the exact source of truth to get the list of the tables for which it has to run the deduplication logic.
+ The DAG is scheduled to run weekly.
+
+2. **Snowflake**: In Snowflake, the following activities are carried out:  
+ i. Backup tables are created using Snowflake `clone` command with timestamp suffixes in the `TAP_POSTGRES_BKP` schema inside of the RAW database.
+ ii. A `temporary` table is created with a deduplicated dataset using a `GROUP BY` clause to eliminate duplicates while retaining the most recent records and managing special columns like `_uploaded_at` and `_task_instance`. The deduplication logic selects all unique rows from the table.
+ iii. The temporary tables are swapped with the original tables, while maintaining current grants and permissions.   
+ iv. Temporary tables are dropped after a successful swap.
+ v. Delete the backup table older than 7 days. 
+
 ## <i class="fas fa-chart-bar fa-fw -text-orange"></i>Visualization
 
 We use [Tableau](https://www.tableau.com/) as our Data Visualization and Business Intelligence tool. To request access, please follow submit an [access request](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/new?issuable_template=New_Access_Request). Use the template [Tableau_Rquest](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/blob/master/.gitlab/issue_templates/Tableau_Request.md) for Tableau access requests.
@@ -1151,7 +1179,7 @@ For other tools, add users via the UI and in the appropriate [Google Group](http
 
 #### Stitch provisioning
 
-A new user in Stitch should by default be added to the `General` role. This role gives sufficient access to Stitch to create new, change existing and troubleshoot running extractions.
+A new user in Stitch should by default be added to the `General` role. This role gives sufficient access to Stitch to create new, change existing and troubleshoot running extractions. Stitch provisioning is a two-step process. First, the IT operations team adds the team member to the app.stitch Okta group by feeling the Access Request. The second step involves adding the user's email to the Stitch application.
 
 ## Google Data Studio
 

@@ -71,11 +71,11 @@ For optimal image quality in video calls, a dedicated mirrorless camera or DSLR 
 
 Most phones and laptops come with passable webcams direct from the manufacturer. If you're on a budget or travel often, this may be the best option for you. However, built-in cameras do not offer optimal quality.
 
-If you take frequent video calls in your home workspace, a dedicated webcam like the [Logitech Brio Ultra HD Pro](https://www.logitech.com/en-us/product/brio?crid=34) offers a higher resolution camera compared to built-in cameras, and is better able to handle low-light scenarios. Many dedicated webcams also include a software suite for touching up one's appearance, tweaking white balance, and applying background themes when paired with a green screen. These are also less complicated to install and maintain compared with mirrorless/DSLR rigs.
+If you take frequent video calls in your home workspace, a dedicated webcam like the [Logitech Brio Ultra HD Pro](https://www.logitech.com/en-us/products/webcams/brio-4k-hdr-webcam.960-001105.html) offers a higher resolution camera compared to built-in cameras, and is better able to handle low-light scenarios. Many dedicated webcams also include a software suite for touching up one's appearance, tweaking white balance, and applying background themes when paired with a green screen. These are also less complicated to install and maintain compared with mirrorless/DSLR rigs.
 
-Consider [selecting a webcam](https://thewirecutter.com/reviews/the-best-webcams) with a versatile mount, enabling it to be set atop a desktop monitor as well as a laptop. You can greatly improve the output from a dedicated webcam by focusing on [good lighting](https://www.nytimes.com/wirecutter/blog/video-call-lighting-tips).
+Consider [selecting a webcam](https://www.nytimes.com/wirecutter/reviews/the-best-webcams/) with a versatile mount, enabling it to be set atop a desktop monitor as well as a laptop. You can greatly improve the output from a dedicated webcam by focusing on [good lighting](https://www.nytimes.com/wirecutter/blog/video-call-lighting-tips).
 
-Whether you're working with a webcam or the built-in device camera, you can optimize your space for better results. By utilizing a ring light or [Elgato Key Light](https://www.elgato.com/en/gaming/key-light), and ensuring that there are no windows to your side or rear, you'll create a more even picture with fewer shadows. For more, read [5 tips for mastering video calls](https://about.gitlab.com/blog/2019/08/05/tips-for-mastering-video-calls) on the GitLab blog.
+Whether you're working with a webcam or the built-in device camera, you can optimize your space for better results. By utilizing a ring light or [Elgato Key Light](https://www.elgato.com/ww/en/p/key-light), and ensuring that there are no windows to your side or rear, you'll create a more even picture with fewer shadows. For more, read [5 tips for mastering video calls](https://about.gitlab.com/blog/2019/08/05/tips-for-mastering-video-calls) on the GitLab blog.
 
 ### Headphones
 
@@ -87,13 +87,13 @@ It's important to consider long-term comfort for those who may find themselves i
 
 Bluetooth headphones can be problematic for roles requiring a significant amount of calls, due to limitations of microphone quality, latency, and battery life. If you opt for Bluetooth headphones, you may want to also use a separate wired microphone. Bluetooth headphones, if  paired with multiple devices (e.g. one pair of headphones with a pairing history involving a laptop as well as a phone), may jump between devices.  We recommend pairing one set of Bluetooth headphones per device to avoid unexpected disconnects during video calls.
 
-What constitutes "good headphones" varies significantly depending on preference. We recommend digging into [Wirecutter's various headphone guides](https://thewirecutter.com/electronics/headphones) for researched suggestions.
+What constitutes "good headphones" varies significantly depending on preference. We recommend digging into [Wirecutter's various headphone guides](https://www.nytimes.com/wirecutter/electronics/headphones/) for researched suggestions.
 
 ### Microphone
 
 Almost any phone or laptop comes with a built-in microphone that should be adequate for your needs. A pair of Bluetooth or wired earbuds with an in-line microphone can help reduce background noise, if you work in a noisy space. These are commonly included with most smartphones.
 
-However, if you frequently speak in front of audiences, record talks or podcasts, or simply wish to have excellent audio quality, invest in a [dedicated USB microphone](https://thewirecutter.com/reviews/the-best-usb-microphone) (and, if desired, a desk mount for added ergonomic positioning). For example, [Blue Microphones](https://www.logitechg.com/en-us/products/microphones.html) offers a variety of options that are crafted with creators, streamers, and podcasters in mind, and all provide exceptional clarity and noise reduction on [video calls](/handbook/communication/#video-calls).
+However, if you frequently speak in front of audiences, record talks or podcasts, or simply wish to have excellent audio quality, invest in a [dedicated USB microphone](https://www.nytimes.com/wirecutter/reviews/the-best-usb-microphone) (and, if desired, a desk mount for added ergonomic positioning). For example, [Blue Microphones](https://www.logitechg.com/en-us/products/microphones.html) offers a variety of options that are crafted with creators, streamers, and podcasters in mind, and all provide exceptional clarity and noise reduction on [video calls](/handbook/communication/#video-calls).
 
 Several GitLab team members have positive experiences with the [M-Audio UberMic](https://www.amazon.com/M-Audio-Uber-Mic-Professional-Microphone/dp/B0767N58ZY).
 
@@ -101,7 +101,7 @@ Several GitLab team members have positive experiences with the [M-Audio UberMic]
 
 ### Monitor
 
-If you feel that your digital workspace is too cramped when relying solely on a laptop, consider using at least one [external monitor](https://thewirecutter.com/reviews/best-monitors). External monitors offer flexible positioning, which allows your neck to be situated in a more natural and ergonomically correct position.
+If you feel that your digital workspace is too cramped when relying solely on a laptop, consider using at least one [external monitor](https://www.nytimes.com/wirecutter/reviews/best-monitors). External monitors offer flexible positioning, which allows your neck to be situated in a more natural and ergonomically correct position.
 
 If you do video calls often, an external display will enable you to use one screen for video chatting and another for documentation, referencing pages, etc.
 
@@ -147,7 +147,7 @@ Teleprompters enable eye contact similar to meeting someone in-person and can ma
 
 Laptop keyboards are engineered to *fit the laptop*, not to be ergonomic. Whenever possible, consider working in a space where there's room to utilize an external keyboard. This allows you to adjust the keyboard so that you're typing in a natural way, reducing strain on your wrists and fingers.
 
-There are a wide variety of ergonomic keyboards, and it's worth trying out a few in a retail location if possible. If this is not practical, Wirecutter has assembled [a well-researched guide on the best ergonomic keyboards](https://thewirecutter.com/reviews/comfortable-ergo-keyboard).
+There are a wide variety of ergonomic keyboards, and it's worth trying out a few in a retail location if possible. If this is not practical, Wirecutter has assembled [a well-researched guide on the best ergonomic keyboards](https://www.nytimes.com/wirecutter/reviews/comfortable-ergo-keyboard).
 
 A traditional mouse can put strain on the wrist by creating movements in an unnatural position. Fortunately there are plenty of other options available such as vertical mice, trackpads, trackballs and pen tablets. Each has their own advantages. Find one that is comfortable for you and minimizes wrist movement as much as possible (vertical mice, for example, engage your shoulder and arm more than your wrist and trackballs rely on moving your fingers). You can also consider a left-handed mouse. Wirecutter and CNN Underscored both recommend the [Logitech MX Master 3](https://www.nytimes.com/wirecutter/reviews/logitech-mx-master-3-mouse-review/) mouse. See CNN Underscored for a list of other recomended ergonomic mice [here](https://www.cnn.com/cnn-underscored/reviews/best-ergonomic-mouse).
 
@@ -171,7 +171,7 @@ Unless you plan to utilize a standing desk, which is covered below, your chair i
 
 If possible, visit a physical store to try out a variety of ergonomic seating options, or purchase online from a retailer that offers a generous return policy.
 
-[Steelcase](https://www.steelcase.com/products/office-chairs) and [MillerKnoll](https://www.hermanmiller.com/products/seating) both offer solid options. While retail pricing on chairs from these firms is very high, you can often find them used for less. To assist in your research, consider [Wirecutter's exhaustive (and continually updated) guide to office chairs](https://thewirecutter.com/reviews/best-office-chair).
+[Steelcase](https://www.steelcase.com/products/office-chairs) and [MillerKnoll](https://www.hermanmiller.com/products/seating) both offer solid options. While retail pricing on chairs from these firms is very high, you can often find them used for less. To assist in your research, consider [Wirecutter's exhaustive (and continually updated) guide to office chairs](https://www.nytimes.com/wirecutter/reviews/best-office-chair/).
 
 **Employers:** Consider offering an [allowance](/handbook/finance/spending-company-money/) for employees to invest in a high-quality ergonomic chair.
 
@@ -187,17 +187,17 @@ Generally, a larger desk is preferred, as it reduces crowding. A clean, uncrowde
 
 #### Standing desks
 
-An adjustable standing desk is a great, ergonomic option. You can find standing desks at a variety of price points, heights, adjustability levels, and more. An adjustable desk allows you to easily move your desk higher in order to stand while working, and then adjust it back down to sit for a time. This is a good article on [The Best Standing Desks](https://thewirecutter.com/reviews/best-standing-desk) in higher price ranges.
+An adjustable standing desk is a great, ergonomic option. You can find standing desks at a variety of price points, heights, adjustability levels, and more. An adjustable desk allows you to easily move your desk higher in order to stand while working, and then adjust it back down to sit for a time. This is a good article on [The Best Standing Desks](https://www.nytimes.com/wirecutter/reviews/best-standing-desk) in higher price ranges.
 
-GitLab team members have been satisfied with the value and quality of standing desks from [Autonomous](https://www.autonomous.ai), [IKEA](https://www.ikea.com/us/en/p/skarsta-trotten-desk-sit-stand-white-s49435416), [Fully](https://www.fully.com/standing-desks.html) and [WorkTrainer for small spaces](https://www.worktrainer.de/Kleiner-Wand-Sitz-Steh-Tisch-Walldesk-elektrisch).
+GitLab team members have been satisfied with the value and quality of standing desks from [Autonomous](https://www.autonomous.ai), [IKEA](https://www.ikea.com/us/en/p/trotten-desk-sit-stand-white-s99429578/), [Fully](https://www.fully.com/standing-desks.html) and [WorkTrainer for small spaces](https://www.worktrainer.de/Kleiner-Wand-Sitz-Steh-Tisch-Walldesk-elektrisch).
 
-Research is ongoing as to the [ideal ratio of sitting to standing](https://uwaterloo.ca/kinesiology/how-long-should-you-stand-rather-sit-your-work-station) during a workday.
+Research is ongoing as to the [ideal ratio of sitting to standing](https://uwaterloo.ca/kinesiology-health-sciences/news/innovation-measuring-fatty-acids-saves-labs-time-and-money) during a workday.
 
 > Using advanced ergonomic and health risk calculations, [Jack Callaghan](https://uwaterloo.ca/kinesiology/people-profiles/jack-callaghan), a professor in Waterloo's Department of Kinesiology, has found that the ideal sit-stand ratio lies somewhere between 1:1 and 1:3  – a vast departure from traditional wisdom.
 
 #### Standing mats
 
-If you plan to stand for an extended portion of your working day, consider investing in a [standing desk mat](https://thewirecutter.com/reviews/best-standing-desk-mat). Also called anti-fatigue mats, these cushion one's feet and allow natural weight shifting while working.
+If you plan to stand for an extended portion of your working day, consider investing in a [standing desk mat](https://www.nytimes.com/wirecutter/reviews/best-standing-desk-mat). Also called anti-fatigue mats, these cushion one's feet and allow natural weight shifting while working.
 
 ### Office supplies
 
@@ -212,7 +212,7 @@ When [communicating](informal-communication/) via webcam, you need to be aware o
 Meetings are about the work, [not the background](meetings/#meetings-are-about-the-work-not-the-background), but those who are [designing their home office](https://about.gitlab.com/blog/2019/09/12/not-everyone-has-a-home-office) may want to consider lighting before too many absolutes are put in place. Here are a few lighting tips to be mindful of.
 
 1. Avoid backlighting or sidelighting when possible (e.g. design your office so that outside light shines onto your face, not your back or side).
-1. Consider smart bulbs (e.g. [Philips Hue](https://www2.meethue.com/en-us/bulbs)) to light your office, which can be tweaked to create a soft, pleasing light regardless of your wall color.
+1. Consider smart bulbs (e.g. [Philips Hue](https://www.philips-hue.com/en-us/products/smart-light-bulbs)) to light your office, which can be tweaked to create a soft, pleasing light regardless of your wall color.
 1. While [enclosed rooms](https://about.gitlab.com/blog/2019/09/12/not-everyone-has-a-home-office) are ideal for controlling light, they may feel inhibiting to work from.
 1. Try to avoid shadows and changing light conditions.
 
@@ -232,7 +232,7 @@ Consider [where you prefer to work on a daily basis](https://about.gitlab.com/bl
 
 While remote workers should relish the benefits of being close to friends and family while working, some may prefer a more formal approach to signaling their availability.
 
-For example, the [Luxafor Flag](https://luxafor.com/flag-usb-busylight-availability-indicator) and [Luxafor Switch](https://luxafor.com/luxafor-switch-meeting-room-availability-indicator-light) light indicators utilize a color system to alert those around you (or outside of your home office) whether or not they are free to interrupt without requesting permission.
+For example, the [Luxafor Flag](https://luxafor.com/product/flag/) light indicator utilizes a color system to alert those around you (or outside of your home office) whether or not they are free to interrupt without requesting permission.
 
 Alternatively, if you have access to a nearby light fixture, install a color-changing smart bulb connected to your phone or computer to change the color to indicate availability.
 

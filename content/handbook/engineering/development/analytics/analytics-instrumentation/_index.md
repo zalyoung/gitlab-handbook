@@ -156,6 +156,11 @@ We prioritize our product roadmap in the [Issue Board by Milestone](https://gitl
 
 60% of our development time is spent on issues priotized by product management and the remaining 40% on issues prioritized by engineering as described in our [engineering initiatives](/handbook/engineering/).
 
+### Unscheduled issues
+
+It happens that sometimes we need to work on an issue or task that wasn't planned or scheduled in the current milestone.
+In that case apply the `~Unscheduled` label and assign it to the current milestone so that we can track it on our [milestone board](https://gitlab.com/groups/gitlab-org/-/boards/5071664?milestone_title=Started).
+
 ### Milestone Planning and Timeline
 
 Our team mostly follows the [Product Development Timeline](/handbook/engineering/workflow/#product-development-timeline) as our group is dependent on the [GitLab self-managed release cycle](https://about.gitlab.com/upcoming-releases/).
@@ -388,7 +393,7 @@ Our group holds synchronous meetings to gain additional clarity and alignment on
 
 ## Error budget
 
-We maintain [UsageData API endpoints](https://docs.gitlab.com/ee/development/internal_analytics/service_ping/implement.html#usagedata-api) under the `service_ping` feature to track events, and because of this we must monitor our [budget spend](/handbook/engineering/error-budgets/).
+We maintain [UsageData API endpoints](https://docs.gitlab.com/ee/administration/settings/usage_statistics.html) under the `service_ping` feature to track events, and because of this we must monitor our [budget spend](/handbook/engineering/error-budgets/).
 
 To investigate budget spend, see the [overview](https://dashboards.gitlab.net/d/stage-groups-analytics_instrumentation?orgId=1) and [details](https://dashboards.gitlab.net/d/stage-groups-detail-analytics_instrument?orgId=1) Grafana dashboards for Analytics Instrumentation. You can also check requests contributing to spending the budget in Kibana by filtering by the `service_ping` feature. An example Kibana view can be found [here](https://log.gprd.gitlab.net/goto/8e82ff10-ecb8-11ec-8656-f5f2137823ba).
 
@@ -453,6 +458,19 @@ _(DRI: To be identified by EM of the Analytics Instrumentation group)_
 1. If a patch release is necessary:
     - DRI to create a merge request for a patch release if required and link the merge request to the main issue
     - DRI to announce in the main issue when the Patch release is completed
+
+### Incident SLOs
+
+The expected timeline for us to address incidents.
+
+| Severity | Time to mitigate (TTM)(1) | Time to resolve (TTR)(2) | 
+|-|-|-|
+| `~"Analytics Instrumentation::Incident-High Severity"` | Within 24 hrs | Within 7 days |
+| `~"Analytics Instrumentation::Incident-Medium Severity"` | Within 72 hrs | Within 30 days |
+
+(1) - Mitigation aims to reduce further impact by investigating and addressing the cause as quickly as possible.
+
+(2) - Resolution uses standard work processes, eg. code review, to completely fix the cause and recover lost data if possible.
 
 ### Incident Notification
 

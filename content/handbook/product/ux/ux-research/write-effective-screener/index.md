@@ -74,4 +74,4 @@ When crafting questions, keep the following in mind:
 
 ### Example GitLab Screener
 
-- [Screener template](https://docs.google.com/document/d/1k_6D-IKByLel7KCHhLOhTTDOS91B4CiQXQdPudYQV5U/copy)
+- [Screening Question Repository](https://docs.google.com/document/d/1v8_a3DH9UKhakn61Z1vFXUT-IOAPC6-FwJegaquYUS4/edit?usp=sharing) (internal access only)

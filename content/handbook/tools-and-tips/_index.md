@@ -196,6 +196,24 @@ If you need to convert multiple images, combine the `convert` command with `find
 find . -type f -name '*.jpg' -exec sh -c 'convert {} -resize 1920x1080 {}' \;
 ```
 
+### Convert HEIC to JPG
+
+> Tip: Modern macOS versions provide the Finder right-click menu `Quick Actions > Convert Image` which automatically converts an image to JPG. Use this method for quick UI conversions.
+
+[ImageMagick](#imagemagick) provides the `mogrify` CLI command which can be used to convert the `HEIC` image format to other formats like `JPG` which are accepted on all websites.
+
+```shell
+mogrify -format jpg icloudphoto.HEIC
+```
+
+If you need to convert multiple images, combine the `mogrify` command with `find`. Note that this creates new files and requires manual cleanup of `.heic|HEIC` files, `-iname` uses a case insensitive match.
+
+```shell
+find . -type f -iname '*.heic' -exec sh -c 'mogrify -format jpg \"{}\"' \;
+```
+
+An example shell alias can be found in [@dnsmichi's dotfiles project](https://gitlab.com/dnsmichi/dotfiles/-/blob/main/.oh-my-zsh/custom/aliases.zsh?ref_type=heads).
+
 ### Add drop shadow to images
 
 [Install ImageMagick](#imagemagick) and use the `convert` CLI command to add a drop shadow. The `-shadow` parameter may need adjustments on the dimension.
@@ -216,8 +234,8 @@ If this doesn't work, request that IT Ops reset your 2FA setting.
 Links for finding the settings:
 
 - iOS: [Get help with the date and time on your iPhone, iPad, and iPod touch - Apple Support](https://support.apple.com/en-us/HT203483)
-- macOS: [If the date or time is wrong on your Mac - Apple Support](https://support.apple.com/en-us/HT203413)
-- Linux (using systemd): [systemd-timesyncd - ArchWiki](https://wiki.archlinux.org/index.php/systemd-timesyncd)
+- macOS: [If the date or time is wrong on your Mac - Apple Support](https://support.apple.com/en-ca/guide/mac-help/mchlp2996/mac)
+- Linux (using systemd): [systemd-timesyncd - ArchWiki](https://wiki.archlinux.org/title/Systemd-timesyncd)
 
 For Android there's no definitive link, since most vendors have different UIs for their settings.
 But in the Settings-app, look for "Date & Time" and there should be a "Automatic Date & Time" toggle.
@@ -412,7 +430,7 @@ YubiKey: The most popular FIDO2/WebAuthn device is Yubico's YubiKey. There are a
 YubiKey has been examined by the security industry at large, third party audits and by the Security Team. YubiKey's are more than suitable for use within GitLab and work fine with FIDO2/WebAuthn-compatible systems.
 
 YubiKey has had a number of [security issues](https://www.yubico.com/support/security-advisories/) which are typically resolved quickly. They have a dedicated page for security advisories.
-In rare cases, a security issue involving a hardware token arises that requires the hardware token to be replaced as a firmware update will not mitigate the issue. This happened with [Yubico in 2017](https://www.yubico.com/keycheck/).
+In rare cases, a security issue involving a hardware token arises that requires the hardware token to be replaced as a firmware update will not mitigate the issue. This happened with [Yubico in 2017](https://support.yubico.com/hc/en-us/articles/360021803580-Infineon-RSA-Key-Generation-Issue-Customer-Portal).
 
 Most of the attack models that impact the FIDO2/WebAuthn tokens require physical access to the token itself. That is, the security advisories involve coding issues that can only be exploited via access to the token or the computer that the token is plugged into. This in itself makes the devices more secure.
 
@@ -460,7 +478,7 @@ Due to the number of caveats, SMS is only recommended if there is no other 2FA o
 - SMS is subject to the same phish-style attack as TOTP. The main difference is that some SMS-based authentication schemes time out after 60 seconds instead of 30, making the phish-style attack slightly easier for the attacker.
 - The information regarding your phone number is stored on a SIM card in your phone. If an attacker with physical access to your phone were to steal the SIM, they could impersonate you from their own phone. Of course they could do the same thing with your hardware token, however they would still need your username and password to use the hardware token. Unfortunately, calling up the service and asking for your password to be reset is often confirmed using SMS messaging, so with the possession of the SIM card, the attacker could pose as you. Again, if you treat your phone the same way you treat your credit card or cash, then this type of attack is minimized.
 - An attacker could contact your phone carrier, impersonate you and state you lost your phone, and set up a new SIM card. Unfortunately many times your account is protected with a security question such as "mother's maiden name", "favorite restaurant", or some other simple question - all information that could be determined from a website that does family trees or via social media where you post pictures of your dinner.
-- An older attack known as "[SIMJacker](https://simjacker.com/)" allowed an attacker to send your phone an SMS message with a malicious payload that allows for direct manipulation of the SIM card itself. This attack still works on older SIM cards, although more modern SIMs are no longer vulnerable to this. Most of the known attacks using SIMJacker involved Latin and South America, the Middle East, Northern Africa, parts of Eastern Europe, and parts of Southeast Asia.
+- An older attack known as "[SIMJacker](https://www.enea.com/info/simjacker/)" allowed an attacker to send your phone an SMS message with a malicious payload that allows for direct manipulation of the SIM card itself. This attack still works on older SIM cards, although more modern SIMs are no longer vulnerable to this. Most of the known attacks using SIMJacker involved Latin and South America, the Middle East, Northern Africa, parts of Eastern Europe, and parts of Southeast Asia.
 
 #### If You Must Use SMS
 

@@ -314,6 +314,39 @@ For a few reasons:
     1. If the discussion for a single issue goes on longer than 5-10 minutes or turns into an extended debate/discussion, this is an indicator that the issue has not been adequately refined, and should go back to the `~"(workspaces|webide)-workflow::unprioritized"` list, and potentially have another issue immediately created and prioritized to do further investigation/refinement, if the refinement scope may be significant.
 1. Issues which are prioritized in the upcoming 1-2 iterations should be assigned to individual(s) at this point, to ensure it gets worked on and not lost.
 
+**Async Process**
+
+**TL;DR: Sometimes issues need to be weighted quickly before the offical IPM meeting. This is how we weight those issues.**
+
+**Prerequisite:** Add the Polly app to your Slack if you have not already.
+
+1. Navigate to Polly application under that Apps section in Slack.
+1. Select Create a Polly.
+1. Select Create New.
+1. Fill out creation Options:
+    1. Create Question: Weight for: **_Add link to issue here._**
+    1. Question Type: Select **_1-to-10_** option.
+    1. Choose audience: Select **_remote_development_async_ipm_** channel.
+    1. Make sure "Send polly as direct message" is **_unchecked_**.
+    1. Select Settings Button.
+    1. Responses: Select **_Non-anonymous_**.
+    1. Results: Select **_Show after close_**.
+    1. Select Submit to save changes.
+1. Send Polly.
+
+**Optional Steps: Template Creation**
+
+This allows you make following Async IPMs faster by standardizing the configurations. After creation, all a user needs to do is select the template from the "My Templates" section, select Use Template, and update the Issue link in the "Create Question" field.
+
+1. Navigate to Polly application under that Apps section in Slack.
+1. Select Go to Polly Dashboard.
+1. Select the Polly you just made.
+1. Select Controls button.
+1. Select Save as Template.
+1. Title Template: **_Remote development async ipm_**.
+1. Ensure "Save audience with template" is **_checked_**.
+1. Select Save.
+
 **Explanation:**
 
 The "Iteration Planning Meeting", or "IPM" meeting is a weekly process where a team reviews the backlog and the current iteration status, estimates and prioritizes work for the next iteration, and uses issues as the single source of truth for discussions and progress. It is analogous to the ["Weekly Cycle" in XP](https://www.amazon.com/Extreme-Programming-Explained-Embrace-Change/dp/0321278658) or ["Sprint Planning" in Scrum](https://www.scrum.org/resources/what-is-sprint-planning).
@@ -426,6 +459,26 @@ If a task is too large, has too many unknowns, or requires proof of concept (POC
 
 1. **Break Down and Close:**
    - Once the investigation task is complete, document the findings and break down the work into actionable refined issues.
+
+### 🧹 Follow-up issues which span multiple releases
+
+Gitlab standards often require breaking down issues that need to be resolved in a specific set of steps that span multiple releases. Typically these are issues related to database migrations ([Dropping Columns](https://docs.gitlab.com/ee/development/database/avoiding_downtime_in_migrations.html#dropping-columns)) or breaking changes in GraphQL such as ["Deprecation and Removal"](https://docs.gitlab.com/ee/api/graphql/index.html#deprecation-and-removal-process).
+
+In such cases where we have follow up tasks for future releases such as removing an ignore rule, removing a deprecated field from GraphQL, finalizing background migrations, etc
+
+**Create a Followup Issue:**
+
+1. **References:** Link the issue to the original issue that spawned it.
+2. **Milestone:** Assign it a specific milestone - i.e Drop column (17.5) -> Followup remove ignore rule (17.6).
+3. **Label:** Assign these labels ~refined, ~prioritized, ~due-date-followup to the issue.
+4. **Due Date:** It should have a due date 1 week into the assigned milestone.
+5. **Epic:** Assign it to the Workspaces [Technical Debt Work](https://gitlab.com/groups/gitlab-org/-/epics/11041) epic.
+
+Note that these sorts of issues which we are _required_ to defer
+until future releases should not be confused with "tech debt"
+work that we are _choosing_ to defer. That is why they use the
+following process involving milestones, custom labels, and due date reminders
+to ensure that we do not forget to follow up and complete them.
 
 ### 🍨 Handling Issues Outside the Process
 

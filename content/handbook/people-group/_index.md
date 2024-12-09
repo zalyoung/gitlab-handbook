@@ -66,7 +66,7 @@ Please note that the information provided by you may be the basis for an interna
 
 Lighthouse has a toll free number and other methods of reporting are available 24 hours a day, 7 days a week for use by team members.
 
-- Website: [https://report.syntrio.com/_StandardCustomURL/LHILandingPage.asp](https://report.syntrio.com/_StandardCustomURL/LHILandingPage.asp)
+- Website: <https://www.lighthouse-services.com/gitlab>
 - USA Telephone:
   - English speaking USA and Canada: 833-480-0010
   - Spanish speaking USA and Canada: 800-216-1288

@@ -514,7 +514,7 @@ We're looking for product managers who can help us empower our users to leverage
 - Strong understanding of DevOps and cloud-native application development
 - Bonus points: Significant prior experience with software composition analysis
 
-### Govern
+### Software Supply Chain Security
 
 - Strong understanding of SIEM and operational security
 - Practical understanding of deployment infrastructure and container technologies including Docker and Kubernetes

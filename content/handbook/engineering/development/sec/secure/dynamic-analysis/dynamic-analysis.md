@@ -72,7 +72,7 @@ The Dynamic Analysis engineering team provides support to GitLab Support Enginee
 
 ### Other Contact
 
-The DAST team also monitors #s_ast and #sec-section. Both these channels are for wider AST topics, however are a good place to start if you are not sure which group in AST to contact.
+The DAST team also monitors #s_application-security-testing and #sec-section. Both these channels are for wider AST topics, however are a good place to start if you are not sure which group in AST to contact.
 
 ## How We Work
 

@@ -62,7 +62,7 @@ The Security Architecture review is conducted by a [Security Architect](/job-fam
 - What have component access to?
   - Data → If not minimal data, can we move it?
   - Authentication (credentials)
-- Follow our [Security Architecture Principles]
+- Follow our [Security Architecture Principles](_index.md#security-architecture-principles)
 - Maintain a list of actors
 
 The threats identified can be avoided (different architecture) or mitigated (security controls).
@@ -72,8 +72,8 @@ The threats identified can be avoided (different architecture) or mitigated (sec
 Depending on the type of change being reviewed, the Security Architect can involve:
 
 - the Application Security team:
-  - to create [Threat Models]
-  - to conduct [AppSec reviews]
+  - to create [Threat Models]({{< ref "../application-security/threat-modeling" >}})
+  - to conduct [AppSec reviews](/handbook/security/product-security/application-security/#application-security-reviews)
 - the InfraSec team:
   - to review and make recommendations:
     - Network
@@ -81,9 +81,6 @@ Depending on the type of change being reviewed, the Security Architect can invol
     - Systems
 - The Security Compliance team
 - The Cryptography Officer
-
-[Threat Models]({{< ref "../application-security/threat-modeling" >}})
-[AppSec reviews](/handbook/security/product-security/application-security/#application-security-reviews)
 
 ## Result
 

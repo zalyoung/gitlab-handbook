@@ -42,7 +42,7 @@ Trust-based working time generally refers to a GitLab's way of working, a flexib
 
 ### Timekeeping Record
 
-Each team member employeed by GitLab Israel Ltd. will be required to report their actual working hours using the methods prescribed (the details of which will be shared in due course, please hold tight!). These records will be kept by Payroll and can be audited at any time.
+Each team member employed by GitLab Israel Ltd. will be required to report their actual working hours using the methods prescribed (the details of which will be shared in due course, please hold tight!). These records will be kept by Payroll and can be audited at any time.
 
 ### Daily Work Time
 
@@ -62,7 +62,7 @@ Payroll information will be linked in due course - please hold tight!
 
 ## Israel-Specific Team Member Benefits
 
-Currently, GitLab provides the below additional benefits, in addition to mandatory state requirements. [General GitLab benefits](/handbook/total-rewards/benefits/general-and-entity-benefits/) still apply. As part of the [guiding principles](/handbook/total-rewards/benefits/#guiding-principles), we will continously review our benefits design and offerings available through GitLab in Israel.
+Currently, GitLab provides the below additional benefits, in addition to mandatory state requirements. [General GitLab benefits](/handbook/total-rewards/benefits/general-and-entity-benefits/) still apply. As part of the [guiding principles](/handbook/total-rewards/benefits/#guiding-principles), we will continuously review our benefits design and offerings available through GitLab in Israel.
 
 ### Pension
 
@@ -72,6 +72,8 @@ All team members in Israel are enrolled in the Pension Arrangement. In general t
 - GitLab contributes up to 6.5% (includes disability) and 8.33% (severance pay).There are special cases where this may vary, please refer to your employee contract for specifics.
 - You can elect and personalize your plan via Shaldan or your private insurance agency.
 - Employer contributions are based on your eligible earnings, the definition of eligible earning is Base salary and overtime.
+
+Pension contributions continue while on leave, with the exception of unpaid leave. 
 
 #### Enrollment & Administration of the Pension Plan
 
@@ -86,11 +88,13 @@ A Study Fund (Keren Hishtalmut) is a savings instrument in Israel with special t
 
 Team Member contribution to the study fund is 2.5% of their determined salary, which is deducted on a monthly basis. GitLab contributes 7.5% of determined salary to the study fund.
 
+Study Fund contributions continue while on leave, with the exception of unpaid leave.
+
 ### Meal Card
 
 Israel Team Members are granted a meal allowance of up to NIS 900 per month. Vouchers are managed through Cibus. Team members will receive a debit card to use the benefit.
 
-The People-Connect Team will assist Payroll in the administration of this benefit.
+Team Members do not recieve the meal allowance while on unpaid leave. 
 
 ### Transportation Allowance
 
@@ -133,9 +137,7 @@ Accrued Recuperation is an Israel entitlement meant to help fund expenses that e
 
 ### Gifts
 
-As customary in Israel, GitLab offers monetary gifts to team members during major holidays (Passover and Rosh Hashannah) and during major life events, such as birth of a child, or marriage. These gifts will be provided via gift card and reported as taxable income.
-
-The People-Connect Team will administer this benefit.
+As customary, Gifts are offered for major holidays such as Passover and Rosh Hashanah at the company's discretion. These gifts are provided through a gross payment in payroll. Please note that the gift amount will be subject to taxation.
 
 ### Medical
 

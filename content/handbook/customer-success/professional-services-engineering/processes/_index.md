@@ -28,6 +28,8 @@ Please reference the following tips for [GitLab best practices](professional-ser
 
 How to initially configure GitLab as a Project Management tool can be found [here](professional-services-delivery-methodology/cp/_index.md).
 
+NOTE: any issues marked as "internal" are still visible to anyone who has "developer" access into the Gitlab Collaboration project. This includes anyone outside of Gitlab. It it recommended to use the Projects "Internal Epic" for confidential communications.
+
 ## Project Management Mapping in GitLab
 
 | PM Term    | GitLab Definition |

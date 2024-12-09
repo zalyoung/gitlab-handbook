@@ -1,4 +1,4 @@
-<!-- To edit the content, see: https://gitlab.com/gitlab-com/www-gitlab-com/-/tree/master/data/performance_indicators -->
+{{- /* To edit the content, see: https://gitlab.com/gitlab-com/www-gitlab-com/-/tree/master/data/performance_indicators */}}
 {{ $publicHandbookRef := getenv "PUBLIC_HANDBOOK_REF" | default "master" }}
 {{ .Page.Store.Set "hastableau" true -}}
 {{- $data := slice }}

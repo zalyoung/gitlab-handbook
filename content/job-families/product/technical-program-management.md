@@ -13,7 +13,7 @@ always looking to improve productivity, and are responsible for meeting and exce
 
 ### Manager, Technical Program Management
 
-This role manages a team of Technical Program Managers and reports to the [Chief Product Officer](https://handbook.gitlab.com/job-families/product/chief-product-officer/).
+This role manages a team of Technical Program Managers and reports to the [Chief Product Officer](/job-families/product/chief-product-officer/).
 
 #### Manager, Technical Program Management - Job Grade
 
@@ -38,7 +38,7 @@ The Manager, Technical Program Management is a [grade 8](/handbook/total-rewards
 - Drive PLT offsite planning, facilitation, and follow-ups
 - Demonstrate leadership as [expected of Managers across GitLab](/handbook/company/structure/#management-group)
 
-*Please note: If the Manager, Technical Program Management has less than 4 direct reports, some [individual contributor responsibilities](https://handbook.gitlab.com/job-families/product/technical-program-manager/#staff-technical-program-manager) may be expected to be maintained.*
+*Please note: If the Manager, Technical Program Management has less than 4 direct reports, some [individual contributor responsibilities](/job-families/product/technical-program-manager/#staff-technical-program-manager) may be expected to be maintained.*
 
 #### Manager, Technical Program Management - Requirements
 

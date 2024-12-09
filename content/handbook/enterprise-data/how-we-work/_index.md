@@ -17,7 +17,7 @@ description: "GitLab Data Team Workflow"
 
 ## Practical guide to contributing to the Data Team Projects
 
-Looking to get hands-on with data at GitLab? Check out our [Practical Guide](/handbook/enterprise-data/practical-guide/web-ide/) designed for all team members.
+Looking to get hands-on with data at GitLab? Check out our [Practical Guide](/handbook/enterprise-data/how-we-work/practical-guide/) designed for all team members.
 
 This guide complements our existing resources, but with a more practical focus on the step-by-step process of contributing to the Data Team’s projects.
 
@@ -93,6 +93,30 @@ The below steps should be followed when performing a **Design Spike**:
 ### Documentation
 
 The Data Team, like the rest of GitLab, works hard to document as much as possible. We believe [this framework](https://documentation.divio.com/) for types of documentation from Divio is quite valuable. For the most part, what's captured in the handbook are tutorials, how-to guides, and explanations, while reference documentation lives within in the primary analytics project. We have aspirations to tag our documentation with the appropriate function as well as clearly articulate the [assumed audiences](https://v4.chriskrycho.com/2018/assumed-audiences.html) for each piece of documentation.
+
+#### Documentation guideline
+
+There are several types of documentation we use to capture the topics. Noted the criteria when to use which type of the documentation
+
+- [**(Public) Handbook**](/handbook) - Items related to the operational model we used in the company and in the team, all explanations about tools, technologies and processes and **why** we are doing. Data that is publicly shareable, and does not expose GitLab or its customers to any harm or material impact (Green data, as per Data classification).
+- [**Internal handbook**](https://internal.gitlab.com/) - Items which explain the same category as the public handbook, with the difference that the internal handbook contains [internal information](/handbook/communication/confidentiality-levels/#internal)
+- **Readme.md** file - Specific information related to the code where the README.md file resides, which explains **how** to use that code. If more explanation is needed, a good practice is to either use and/or link to a Handbook article.
+- [**Runbooks**](https://gitlab.com/gitlab-data/runbooks) - Context which explains **how** to solve the issue in production or **how** to sort out other problems. The vital thing is to understand that runbook is a guideline of problem-solving approach
+
+Matrix with the explanation when to use which documentation type:
+
+| Example | Appropriate documentation type|
+|---------|----------------------------------------------------------------|
+| GitLab Duo explanation                                                 | Handbook |
+| Python/dbt/Snowflake guideline                                         | Handbook |
+| Description of the package inventory                                   | Handbook |
+| Explanation about the new pipeline/project                             | Internal Handbook |
+| Data classification description                                        | Internal Handbook |
+| dbt Data lineage diagram                                               | Internal Handbook |
+| Technical explanation of how to run the project                        | README.md |
+| Basic context about the project from the technical perspective         | README.md |
+| Solution of how to fix the Triage issue                                | Runbooks |
+| Exploration article (ie. Design spike) of how to pseudonimize the data | Runbooks |
 
 ### Data Team Value Calculator
 <!-- read through this and make adjustments -->
@@ -179,6 +203,8 @@ All issues should get the following classes of labels assigned to them:
 - **Champion:** The team who has requested the work (may be a functional partner team, or the Data Team itself)
 - **Workflow:** The status of the work
 - **Priority:** Whether the work is P1 (Operational), P2 (OKR), or P3 (Other)
+
+Effective in January 2025, we use a Bot on the Data Team project to check that the Team, Champion, Workflow, and Priority labels have been applied to issues after 14 days of being opened. The bot sends a reminder in the issue to add the missing labels. The first triage response for adding labels is the team member that opens the issue. The 2nd triage response for adding labels is the Data Analyst, Data Scientist, Analytics Engineer, and Data Engineer that are on triage. Issues that do not have Team, Champion, Workflow, and Priority labels applied after 30 days are automatically closed. If an issue is closed due to not having the required labels, team members have the option to reopen the closed issue and apply the labels to meet the issue refinement requirements.   
 
 Optional labels that are useful to communicate state or other priority:
 

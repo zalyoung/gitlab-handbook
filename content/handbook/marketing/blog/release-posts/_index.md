@@ -558,7 +558,7 @@ Consideration: When communicating with your release post team, use the release p
 
 *A technical writer, once assigned to the release post merge request, will check the syntax and the content structure.*
 
-The **Structural check** [checklist in the main release post merge request description](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/.gitlab/merge_request_templates/Release-Post.md#structural-check-technical-writing-lead)
+The **Structural check** [checklist in the main release post merge request description](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/.gitlab/merge_request_templates/Release-Post.md.erb#L301)
 will guide them through the structural check.
 
 Given that the technical writing review occurs in release post items'
@@ -1044,7 +1044,7 @@ It is a required field.
   - [`configure`](https://about.gitlab.com/stages-devops-lifecycle/configure/)
   - [`monitor`](https://about.gitlab.com/stages-devops-lifecycle/monitor/)
   - [`secure`](https://about.gitlab.com/stages-devops-lifecycle/secure/)
-  - [`govern`](https://about.gitlab.com/stages-devops-lifecycle/govern/)
+  - [`software_supply_chain_security`](https://about.gitlab.com/stages-devops-lifecycle/govern/)
   - [`systems`](/handbook/product/categories/#systems-stage)
   - [`data_stores`](/handbook/product/categories/#data-stores-stage)
 

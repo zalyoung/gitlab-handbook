@@ -268,7 +268,7 @@ Additional resources on how to be an ally:
 - [Allyship at GitLab]({{< ref "ally-resources" >}})
 - [Live Learning Ally Training at GitLab](https://ctb.ku.edu/en/table-of-contents/culture/cultural-competence/be-an-ally/main)
 - [Chapter 27. Cultural Competence in a Multicultural World | Section 5. Learning to be an Ally for People from Diverse Gro…Straight for Equality](https://ctb.ku.edu/en/table-of-contents/culture/cultural-competence/be-an-ally/main)
-- [Guide to Allyship](https://www.guidetoallyship.com/#the-work-of-allyship)
+- [Guide to Allyship](https://guidetoallyship.com/#the-work-of-allyship)
 
 ## TMRG or TMAG Leads
 
@@ -491,7 +491,7 @@ Members of the TMRGs are encouraged to identify multiple ways the success will b
 
 We have provided a number of optional resources for TMRGs to use that assist in setting the strategy, roadmap, financial planning etc.
 
-- [TMRG Strategy Template](https://docs.google.com/presentation/d/1Zpz6z_0x3rbjYzUd6fSAojg8ME3FKfWPrI7cD4HmV48/edit?usp=sharing): This can be used to set a 6-12 month strategy for your TMRG, to create an action plan, execute and measure.
+- [TMRG ACTION PLAN Template](https://docs.google.com/document/d/1VdH0S-pHMfy_XbltY9wYghSY9h04U-gcNwR3miZwkX0/edit?tab=t.0): This can be used to create an action plan, execute and measure.
 - [New TMRG Roadmap Template](https://docs.google.com/spreadsheets/d/19Qa6xLIaoxOBbPIoMjYTcL87lx1y1exGGB6z4iD64tY/edit?usp=sharing): This template gives some examples of a Roadmap for new or developing TMRGs
 - [Estabished TMRG Roadmap Template](https://docs.google.com/spreadsheets/d/19Qa6xLIaoxOBbPIoMjYTcL87lx1y1exGGB6z4iD64tY/edit?usp=sharing): This template gives some examples of a yearly roadmap for established or mature stage TMRGs
 - [Budget Tracker](https://docs.google.com/spreadsheets/d/1-BZrH1KsRBYl9r0EYEy6VXlKyvGGf585mwoj9Vz5rgA/edit?usp=sharing): This is a simple budget tracker for Lead or a treasurer of a TMRG to plan and keep a track of the annual budget given to TMRGs.

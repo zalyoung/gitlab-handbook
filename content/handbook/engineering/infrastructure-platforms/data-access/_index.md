@@ -54,4 +54,4 @@ The [Git](/handbook/engineering/infrastructure-platforms/data-access/git/) team
 develops Git in accordance with the goals of the community and GitLab, and
 integrate it into our products.
 
-{{< team-by-manager-slug manager="pks-gitlab" >}}
+{{< team-by-departments "Git Team" >}}

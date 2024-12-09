@@ -50,7 +50,7 @@ Looking for GitLab's library of guides to working remotely? Those are [**here**]
 - [8 secrets of GitLab's remote work culture](https://www.tfir.io/8-secrets-of-gitlabs-remote-work-success/)
 - [How to keep healthy communication habits in remote teams](https://medium.com/gitlab-magazine/how-to-keep-healthy-communication-habits-in-remote-teams-a19eca371952)
 - [Remote work demands a supportive company culture](https://www.dice.com/career-advice/remote-work-demands-supportive-company-culture)
-- [5 fun strategies companies are using to make remote workers feel included](https://business.linkedin.com/talent-solutions/blog/employee-engagement/2019/strategies-companies-use-to-keep-remote-workers-feeling-included)
+- [5 fun strategies companies are using to make remote workers feel included](https://www.linkedin.com/business/talent/blog/talent-engagement/ways-you-can-make-remote-workers-feel-included)
 - [Tech's newest unicorn has employees in 45 countries and zero offices](https://qz.com/work/1394496/gitlab-techs-newest-unicorn-has-no-offices/)
 - [No need to come to the office: Making remote work at GitLab](https://hackernoon.com/no-need-to-come-to-the-office-making-remote-work-at-gitlab-737c42865210)
 - [GitLab and Buffer CEOs talk transparency at scale](https://about.gitlab.com/blog/2017/03/14/buffer-and-gitlab-ceos-talk-transparency/)
@@ -126,7 +126,7 @@ Looking for GitLab's library of guides to working remotely? Those are [**here**]
 #### Podcasts
 
 - [A Whole New Level — Building & Scaling Remote Teams with Sam Corcos and Darren Murph](https://www.levelshealth.com/podcasts/building-scaling-remote-teams-sam-corcos-darren-murph)
-- [The Future of Work Project — Darren Murph // Unlocking the Super Powers of Remote, and its Positive Effects on Families](https://anchor.fm/fowproject/episodes/23-Darren-Murph---Unlocking-the-Super-Powers-of-Remote--and-its-Positive-Effects-on-Families-e115ni7)
+- [The Future of Work Project — Darren Murph // Unlocking the Super Powers of Remote, and its Positive Effects on Families](https://creators.spotify.com/pod/show/fowproject/episodes/23-Darren-Murph---Unlocking-the-Super-Powers-of-Remote--and-its-Positive-Effects-on-Families-e115ni7)
 - [Workology - Building the Future of Work Remotely With Darren Murph](https://workology.com/episode-348-building-the-future-of-work-remotely-with-darren-murph-head-of-remote-at-gitlab/)
 - [HR Leaders Podcast — How GitLab Creates and Sustains Scalable Remote Practices](https://hrleaders.co/podcast/darren-murph-how-gitlab-creates-and-sustains-scalable-remote-practices)
 - [Grafana Labs - Remote work done right: How remote-first companies put people first](https://grafana.com/blog/2022/06/29/remote-work-done-right-how-remote-first-companies-put-people-first/)
@@ -276,7 +276,7 @@ Looking for GitLab's library of guides to working remotely? Those are [**here**]
 
 - [LinkedIn's 2019 Global Talent Trends report](https://business.linkedin.com/content/dam/me/business/en-us/talent-solutions/resources/pdfs/global-talent-trends-2019.pdf)
 - [Things I Wish I Knew Before Going Remote by Marla Brizel Zeschin](https://www.youtube.com/watch?v=nUQ41-vBtdg)
-- [Bond Internet Trends 2019: Remote work = creating internet-enabled work opportunities + efficiencies](https://www.bondcap.com/report/itr19/#view/228)
+- [Bond Internet Trends 2019: Remote work = creating internet-enabled work opportunities + efficiencies](https://www.bondcap.com/report/it19/#view/228)
 - [Work Remotely: Thrive in a Job From Home](https://www.creativelive.com/class/work-remotely-thrive-in-a-job-from-home-with-darren-murph)
 - [TechSAV's Brown Bag Series: Working & Managing Remote](https://www.youtube.com/watch?v=IORw1YvSkmw)
 
@@ -359,7 +359,7 @@ Some organizations (like GitLab) provide stipends or [reimbursement](/handbook/f
 - [The Art of Working Remotely](https://artofworkingremotely.com)
 - [Twist's Remote Work Guides](https://twist.com/remote-work-guides)
 - [Remote Habits](https://remotehabits.com/)
-- [35 of the best Slack communities for remote workers](https://www.owllabs.com/blog/remote-work-slack-communities?hs_amp=true)
+- [35 of the best Slack communities for remote workers](https://resources.owllabs.com/blog/remote-work-slack-communities)
 - [Toggl's Guide to Working With Clients You've Never Met Face-to-Face](https://toggl.com/work-with-online-clients/)
 
 ## Contribute to this page

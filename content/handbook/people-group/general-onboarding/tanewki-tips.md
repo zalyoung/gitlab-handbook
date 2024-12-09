@@ -21,12 +21,13 @@ After you sign your offer and complete your background check and references, you
     - This email will contain all pertainent information such as how to order your office equipment and most importantly your laptop. The IT team also has a very handy, handbook page [you can review](/handbook/it/end-user-services/onboarding-access-requests/#gitlab-laptops).
     - Please note,when you receive your laptop, make sure to **not** sign into the laptop with your personal Apple ID. You will be asked to create an Apple ID on day one with your GitLab email address.
 1. If you are being employed by one of GitLab's US entities, either GitLab Inc or GitLab Federal LLC, you will need to complete your I9 via LawLogix. You will receive an email from LawLogix. This email will walk you through the process of completing the I9.
-1. If you live in Germany, Belgium, or Japan you will need to be on a lookout from an email from the People Connect team to complete some payroll documents.
+1. If you live in Belgium or Japan you will need to be on a lookout from an email from the People Connect team to complete some payroll documents.
 1. In some entity countries, GitLab uses external companies to assist with the collection of payroll documents from you.
 
    - France: Papaya
+   - Germany: Papaya
    - Netherlands: HR Savvy
-   - Singapore: Global Upside / Safeguard
+   - Singapore: Papaya
    - South Korea: Global Upside / Safeguard
    - UK: Papaya
 

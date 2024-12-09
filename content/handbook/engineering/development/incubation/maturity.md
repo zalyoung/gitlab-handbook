@@ -6,7 +6,7 @@ This guide provides guidelines and best practices for how to properly position a
 
 ## Establish an Experiment
 
-The first step when releasing the first iteration for an Incubation Engineering project is to establish the experiment. See the [documentation](https://docs.gitlab.com/ee/policy/experiment-beta-support.html#experiment) for more details on what makes a GitLab Experiment.
+The first step when releasing the first iteration for an Incubation Engineering project is to establish the experiment. See the [documentation](https://docs.gitlab.com/ee/policy/development_stages_support.html#experiment) for more details on what makes a GitLab Experiment.
 
 To establish an experiment, ensure that the feature being released has:
 
@@ -19,7 +19,7 @@ Be sure not to include this feature in a release post until it is mature enough 
 
 ## Graduate from Experiment to Beta
 
-Once an experiment has matured sufficiently and the SEG is confident the feature is stable, unlikely to cause data loss, and the interface is unlikely to drastically change, the feature should be moved to Beta. See the [documentation](https://docs.gitlab.com/ee/policy/experiment-beta-support.html#beta) for expectations of a Beta feature.
+Once an experiment has matured sufficiently and the SEG is confident the feature is stable, unlikely to cause data loss, and the interface is unlikely to drastically change, the feature should be moved to Beta. See the [documentation](https://docs.gitlab.com/ee/policy/development_stages_support.html#beta) for expectations of a Beta feature.
 
 To move an experiment to Beta, the following items should be in place:
 
@@ -34,7 +34,7 @@ To move an experiment to Beta, the following items should be in place:
 
 ## Graduate from Beta to Generally Available (GA)
 
-The final maturity step for a feature is to move to Generally Available (GA). See the [documentation](https://docs.gitlab.com/ee/policy/experiment-beta-support.html#generally-available-ga) for expectations of a GA feature.
+The final maturity step for a feature is to move to Generally Available (GA). See the [documentation](https://docs.gitlab.com/ee/policy/development_stages_support.html#generally-available-ga) for expectations of a GA feature.
 
 A feature that is ready for GA will have:
 

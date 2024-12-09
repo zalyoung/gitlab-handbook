@@ -86,7 +86,7 @@ The Senior Pricing Analyst is a [grade 7](/handbook/total-rewards/compensation/c
 
 ### Senior Pricing Manager
 
-The Senior Pricing Manager brings pricing and packaging domain expertise, contributing to the overall success of the monetization strategy of GitLab.  This role reports to the [VP of Product Monetization](//job-families/product/product-management-leadership/#senior-director-of-product-monetization)
+The Senior Pricing Manager brings pricing and packaging domain expertise, contributing to the overall success of the monetization strategy of GitLab.  This role reports to the [VP of Product Monetization](/job-families/product/product-management-leadership/#senior-director-of-product-monetization)
 
 #### Senior Pricing Manager Responsibilities
 

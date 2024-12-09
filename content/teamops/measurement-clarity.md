@@ -19,7 +19,7 @@ Measurement is important in any organization. As Peter Drucker famously said, "I
 
 Teams working via TeamOps should employ methods of measuring productivity, value, and results that *don't* depend on physical supervision as a measure of contribution. Re-prioritizing *what*, *how*, and *when* the organization measures enables a higher frequency of success, greater accountability for objectives, lower workforce discrimination, and wider reach for company communication.
 
-In short: TeamOps treats "work" defines work as something we do, not somewhere we go.
+In short: TeamOps treats "work" as something we do, not somewhere we go.
 
 Action tenets of measurement clarity, including real-world examples of each, are below.
 
@@ -29,7 +29,7 @@ Conventional management philosophies glorify "metrics," which is a nonspecific t
 
 While KPIs measure smaller units than OKRs do, the former aren't dependent on the latter. In fact, the two should be symbiotic in nature, informing and influencing each other to enhance operational visibility, measurement accuracy, and team empowerment. If you're not creating OKRs to improve KPIs, then you're either missing KPIs or you have the wrong OKRs.
 
-Crucially, under TeamOps every functional department shares its KPIs transparently shared across the organization. This aids visibility and enables everyone to contribute.
+Crucially, under TeamOps every functional department shares its KPIs transparently across the organization. This aids visibility and enables everyone to contribute.
 
 {{% details summary="Examples and resources for transparent measurements" %}}
 **Example:** [Chief Executive Officer OKR and KPIs](/handbook/company/okrs/fy23-q3/)

@@ -135,7 +135,8 @@ The process is comprised of five key stages:
         1. Employee roster review
             1. Set your own LinkedIn profile to [private mode viewing](https://www.linkedin.com/help/linkedin/answer/a564182/private-mode-viewers-of-profiles?lang=en) when reviewing target employee profiles. Private mode viewing will prevent target employees from being alerted to GitLab's examination of their LinkedIn profiles.
         1. Compensation review - to identify any gaps and possible flags led by the HR Business Partner
-        1. Founder technical interviews - founders will go through two rounds of interviews to assess technical and cultural alignment.
+        1. Founder technical interviews - founder(s) will go through two rounds of interviews to assess technical and cultural alignment.
+            1. The founder interview differs in style and objective of a traditional new hire interview. Interviewers will be asked to review the [Interview Preparation Direction](https://docs.google.com/document/d/1k4sW4HgkRd2tN4TgWYITKqymACF2LCks32bVP_GgHs8/edit?tab=t.0#heading=h.97p1j2m533l5) in advance of meeting with the founder(s).
 1. An Application Security Review performed by GitLab's Application Security Team
     1. Identifies application vulnerabilities that need to be considered by GitLab by applying a threat modeling approach to conduct the review
 1. Presenting the business case for approvals (by order of occurrence):

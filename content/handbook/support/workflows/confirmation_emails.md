@@ -168,3 +168,15 @@ Mailgun does not allow us to check for multiple suppressions on the same domain 
 1. Add a filter for `Event is Permanent Fail`.
 1. Scan the results, any email address listed with a `Delivery Status Message` of  `Not delivering to previously bounced address` has been suppressed at one point in time.
 1. Navigate to the `Suppressions` tab and enter in an email address from your previous search to confirm whether or not it's currently suppressed.
+
+### Password reset on behalf of a user
+
+When a user (free or paid) forgot the primary email of their account we are not able to disclose this information but we can send a password reset email on their behalf:
+
+1. Take note of the primary email address of the account.
+1. Open an incognito window.
+1. Go to https://gitlab.com/users/password/new
+1. Trigger the password reset with the user primary email address.
+1. Optional - Go to Mailgun and check the email is delivered before going back to the user with the following:
+
+> Due to our privacy policies I am unable to reveal what the primary email address is. That being said we have triggered a password reset for the account <username> just now, if you have access to the primary email address for this account you should see an email and be able to perform the password reset steps.

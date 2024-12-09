@@ -21,7 +21,7 @@ GitLab is [committed to providing the time]({{< ref "learning-initiatives#take-t
 
 #### Online courses
 
-- [Project Management Foundations](https://www.linkedin.com/learning/project-management-foundations-4/deliver-successful-projects-3)
+- [Project Management Foundations](https://www.linkedin.com/learning/project-management-foundations-15528659)
 
 ### Negotiation
 
@@ -51,7 +51,7 @@ GitLab is [committed to providing the time]({{< ref "learning-initiatives#take-t
 #### Books
 
 - [Dare to Lead](https://www.amazon.com/Dare-Lead-Brave-Conversations-Hearts/dp/0399592520)
-- [Radical Candor](https://www.amazon.com/dp/1529038340/ref=cm_sw_em_r_mt_dp_JW4418H1Q2BQ2MGV62WN)
+- [Radical Candor](https://www.amazon.com/dp/1529038340/)
 
 ### Direct team management
 

@@ -13,9 +13,9 @@ All new Learning and Development (L&D) team members complete our [team onboardin
 ## Books
 
 - [The Art and Science of Competency Models](https://www.amazon.com/Art-Science-Competency-Models-Organizations/dp/0787946028)
-- [High Output Management](https://www.amazon.com/High-Output-Management-Andrew-Grove/dp/0679762884/ref=sr_1_3?dchild=1&keywords=high+performance+management&qid=1613747463&s=books&sr=1-3)
-- [Design for How People Learn](https://www.amazon.com/Design-People-Learn-Voices-Matter/dp/0134211286/ref=sr_1_7?dchild=1&keywords=Adult+Learning&qid=1613753198&sr=8-7)
-- [Learning in Adulthood](https://www.amazon.com/Learning-Adulthood-Comprehensive-Guide-Fourth/dp/1119490480/ref=sr_1_2_sspa?dchild=1&keywords=Adult+Learning&qid=1613753198&sr=8-2-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUExWjJEUDVTVElFV1lFJmVuY3J5cHRlZElkPUEwODUxOTAzMUFISkxPQUFXNkVZMyZlbmNyeXB0ZWRBZElkPUEwNjEyMzIwU1hTVFdGT0ZLN0hMJndpZGdldE5hbWU9c3BfYXRmJmFjdGlvbj1jbGlja1JlZGlyZWN0JmRvTm90TG9nQ2xpY2s9dHJ1ZQ==)
+- [High Output Management](https://www.amazon.com/High-Output-Management-Andrew-Grove/dp/0679762884/)
+- [Design for How People Learn](https://www.amazon.com/Design-People-Learn-Voices-Matter/dp/0134211286/)
+- [Learning in Adulthood](https://www.amazon.com/Learning-Adulthood-Comprehensive-Guide-Fourth/dp/1119490480/)
 
 ## Blogs
 
@@ -56,9 +56,9 @@ All new Learning and Development (L&D) team members complete our [team onboardin
 ## LinkedIn Learning Courses
 
 - [Become an L&D Professional](https://www.linkedin.com/learning/paths/become-an-l-d-professional-4?)
-- [Organizational Learning & Development](https://www.linkedin.com/learning/organizational-learning-and-development/make-your-l-d-a-true-business-partner?)
+- [Organizational Learning & Development](https://www.linkedin.com/learning/organizational-learning-and-development-2024)
 - [Developing a Learning Mindset](https://www.linkedin.com/learning/developing-a-learning-mindset/welcome?)
-- [The Future of Workplace Learning](https://www.linkedin.com/learning/the-future-of-workplace-learning/why-workplace-learning-matters?)
+- [The Future of Workplace Learning](https://www.linkedin.com/learning/the-future-of-workplace-learning-2023)
 - [Build a Company Learning & Development Program](https://www.linkedin.com/learning/paths/build-a-company-learning-and-development-program)
 - [Tips for Learner Engagement](https://www.linkedin.com/learning/tips-for-learner-engagement/)
 

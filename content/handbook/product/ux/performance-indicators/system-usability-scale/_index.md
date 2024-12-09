@@ -133,7 +133,7 @@ Every quarter, an issue will be created (see [issue template](https://gitlab.com
 | Configure  | #g_environments, #ops_section                 |
 | Monitor    | #s_monitor, #ops_section                      |
 | Secure     | #s_secure                                     |
-| Govern     | #s_govern                                     |
+| Software Supply Chain Security | #s_software-supply-chain-security |
 | Growth     | #s_growth                                     |
 | Fulfillment| #s_fulfillment                                |
 | Enablement | #s_enablement                                 |

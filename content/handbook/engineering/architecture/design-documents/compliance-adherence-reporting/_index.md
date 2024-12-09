@@ -8,6 +8,7 @@ approvers: [  ]
 owning-stage: "~govern::compliance"
 participating-stages: []
 toc_hide: true
+no_list: true
 ---
 
 {{< design-document-header >}}
@@ -35,10 +36,10 @@ Currently the Standards are hard coded in the Adherence report (renamed to Statu
 
 1. Use Compliance Frameworks to include certain projects in the Adherence Report and distinguish which requirements those projects are complaint with.
 1. Add a Requirements level to the Adherence report
-1. Add more Standards and Checks
+1. Add more Standards and Controls
 1. Allow users to customise Standards
 1. Allow users to create their own Standards
-1. Allow users to create customisable Checks
+1. Allow users to create customisable Controls
 
 #### Audit History
 
@@ -76,10 +77,11 @@ compliance frameworks in GitLab 17.3.
 
 ### Non-Goals
 
-1. Allow users to create customisable Controls
 1. Compliance events
-   1. [Violations within MRs](https://docs.gitlab.com/ee/user/compliance/compliance_center/compliance_violations_report.html)
    1. [Audit events](https://docs.gitlab.com/ee/user/compliance/audit_events.html)
+1. [Security Policies](https://docs.gitlab.com/ee/user/application_security/policies/)
+   1. This document does not intend to outline how Security Policies work or how Policies use Compliance Frameworks to scope projects
+   1. For more information on Security Policies refer [this document](compliance_security_policy_relationship.md)
 
 ### Terminology/Glossary
 
@@ -96,22 +98,62 @@ compliance frameworks in GitLab 17.3.
    1. A Check is a review of a project's settings, to confirm that it is in a particular position. Checks compose a percentage of a project's compliance posture against a Control.
 1. Control
    1. A control is a specific compliance rule that needs to be met to meet a compliance requirement. Enforcement of this is achieved in GitLab through settings, Security Policies or Compliance Pipelines.
-
-### Decisions
-
-- ~~[001: Triggering Checks](decisions/001_triggering_checks.md)~~ (changed, see ADR 004)
-- [002: Custom Adherence Report](decisions/002_custom_adherence_report.md)
-- [003: Custom Controls](decisions/003_custom_controls.md)
-- [004: Use Time-based Triggers for Checks](decisions/004_time_based_triggers.md)
+1. Violation
+   1. A record of an event that when triggered was compared against a Control and found to contravene that control.
 
 ### Design Details
 
+We will use [Sidekiq workers to create controls](decisions/001_triggering_checks.md#use-sidekiq-workers-for-creating-and-updating-checks)
+and [store the adherence configuration in the database as relational data](decisions/002_custom_adherence_report.md#storing-the-compliance-adherence-configuration-in-database-as-relational-data).
+
 See [Scalability review document](scalability_review.md) for further details.
 
-We decided to use [Sidekiq workers for creating checks](decisions/001_triggering_checks.md#use-sidekiq-workers-for-creating-and-updating-checks)
-and [storing the adherence configuration in database as relational data](decisions/002_custom_adherence_report.md#storing-the-compliance-adherence-configuration-in-database-as-relational-data).
+#### Customizable Controls
+
+NOTE: For a more detailed overview, see [ADR 003: Custom Controls](decisions/003_custom_controls.md)
+
+We want the ability to create custom requirements so that users don't need to rely only on the exhaustive list of
+controls that GitLab supports or would support in the future.
+
+Requirements are composed of a combination of both out-of-the-box and user-defined controls. By building
+a normalized and composable data model we avoid special handling for individual controls and can scale both compliance
+and violation evaluations uniformally within our relational datastore.
+
+##### Approach
+
+To allow users to create controls on their own as per their requirements we need to have the following types of
+requirements:
+
+1. [Internal requirements](#internal-requirements): Enable users to create logical expressions from an enumerated list of project and namespace computed properties
+1. [External requirements](#external-requirements): Enable users to create requirements that rely on their external services like HTTP servers.
+
+##### Internal requirements
+
+We will allow users to create logical expressions with all the available project settings. These expressions form the controls against
+which the projects are be evaluated. We store these as a structured JSON in the `compliance_requirements` table with 'internal'
+as the `requirement_type`.
+
+We will use schema validators for validating the input and store these in the `expression` column of the
+`compliance_requirements` database table.
+
+The UI will provide dropdowns to choose the field, operator and values. This is created so that
+the users don't have to write complex JSON expressions on their own.
+
+Each expression is evaluated to a boolean true or false.
+
+##### External requirements
+
+The external HTTP/HTTPS URLs for the user's services are stored in the `compliance_requirements` table with
+'external' as the `requirement_type`.
+
+We POST the latest project settings to these external services and expect a boolean status as the response.
+Alternatively, we could also create a POST API that can be used to update the status of an external requirement, this would be a
+similar to [setting the status of external status checks](https://docs.gitlab.com/ee/api/status_checks.html#set-status-of-an-external-status-check).
+
+#### Database Schema
+
 It was [decided](decisions/003_custom_controls.md#decision) to combine `compliance_checks` and
-`compliance_requirements` tables to reduce redundancy.
+`compliance_requirements` tables to reduce redundancy and rename checks to controls.
 
 The compliance requirements would be stored in a separate table with the following schema:
 
@@ -150,7 +192,7 @@ The compliance requirements would be stored in a separate table with the followi
         expression: text
     }
 
-    class project_compliance_status {
+    class project_requirement_compliance_status {
         id: bigint
         created_at: timestamp
         updated_at: timestamp
@@ -160,48 +202,135 @@ The compliance requirements would be stored in a separate table with the followi
         status: smallint
     }
 
-    class compliance_framework_security_policies {
+    class project_compliance_violations {
         id: bigint
         created_at: timestamp
         updated_at: timestamp
-        framework_id: bigint
-        policy_configuration_id: bigint
-        policy_index: smallint
         project_id: bigint
+        namespace_id: bigint
+        compliance_requirement_id: bigint
+        compliance_requirement_expression: jsonb
+        audit_event_id: bigint
+    }
+    
+    class security_policy_requirements {
+        id: bigint
+        created_at: timestamp
+        updated_at: timestamp
+        compliance_framework_security_policy_id: bigint
+        compliance_requirement_id: bigint
         namespace_id: bigint
     }
 
     compliance_management_frameworks --> compliance_requirements : has_many
-    compliance_management_frameworks <-- compliance_requirements : belongs_to
     compliance_management_frameworks <--> projects : many_to_many
-    compliance_requirements <--> compliance_framework_security_policies : has_and_belongs_to_many
+    compliance_requirements <--> security_policy_requirements : has_and_belongs_to_many
     projects <-- namespaces : has_many
-    projects --> namespaces : belongs_to
     namespaces --> compliance_management_frameworks : has_many
-    namespaces <-- compliance_management_frameworks : belongs_to
-    projects --> project_compliance_status : has_many
-    projects <-- project_compliance_status : belongs_to
-    compliance_requirements --> project_compliance_status : has_one
-    compliance_requirements <-- project_compliance_status : belongs_to
+    projects --> project_requirement_compliance_status : has_many
+    projects --> project_compliance_violations : has_many
+    compliance_requirements --> project_requirement_compliance_status : has_one
+    compliance_requirements <--> project_compliance_violations : has_and_belongs_to_many
 ```
 
-We created a new table `project_compliance_configuration_status` for storing the results of compliance requirements and
+We created a new table `project_requirement_compliance_status` for storing the results of compliance requirements and
 plan on dropping the existing `project_compliance_standards_adherence` table. We no longer have a `standard` column
 as we don't want to associate requirements directly with a standard, allowing the users to customise
 and group requirements as per their need.
 
 Unlike the current implementation we would only store results for the projects that have compliance requirements
 configured. Instead of an enum we would store the `compliance_requirement_id` in the
-`project_compliance_configuration_status` table and would display these results at the compliance dashboard.
+`project_requirement_compliance_status` table and would display these results at the compliance dashboard.
 
 In the next iteration we would also allow importing and exporting the compliance requirement configurations.
 
-### Implementation Details
+Violations records are stored in the new table `project_compliance_violations`. These violation records are immutable and only new records inserted, unlike the `project_requirement_compliance_status` table which is updated on status changes. This creates an immutable history of violations against a requirement for a project.
 
-| Issue | Milestone | MR | Status |
-| ----- | --------- | -- | ------ |
-|  |  |  |  |
+### Constraints
 
-### FAQ
+Feature should be designed with application limits to mitigate abuse, leading to query timeouts
+and poor user experience.
 
--
+1. Limit maximum number of compliance frameworks per project: 20 to be increased as needed
+1. Limit maximum number of requirements per framework: 50 to be increased as needed
+1. Limit maximum number of checks a control expression can have: 5 to be increased as needed
+1. Allowlist of project settings and associations that could be used for creating expressions
+
+### Compliance framework workflow diagrams
+
+#### Compliance framework definition
+
+This workflow diagram shows the creation of Compliance Frameworks, Requirements and Controls, and how security policies are associated with Requirments.
+
+```mermaid
+flowchart TD
+    A[User creates Compliance Framework] --> B[User adds Requirements to Framework]
+    B --> C[User adds Controls in each Requirement]
+    C --> D[User chooses one or more Policies for the Requirement]
+    D --> F[User applies Framework to Project]
+
+    A -- insert --> compliance_management_frameworks@{ shape: cyl }
+    B -- insert --> compliance_requirements@{ shape: cyl }
+    C -- update --> compliance_requirements@{ shape: cyl }
+    D -- insert --> security_policy_requirements@{ shape: cyl }
+```
+
+#### Recurring Configuration Status Checks execution flow 
+
+This workflow diagram shows the how Compliance Frameworks trigger a configuration status check against a Project.
+
+```mermaid
+flowchart TD
+    %% Async Job Trigger
+    F[User applies Framework to Project] --> G[Schedule recurring Configuration check sync job]
+    G --> H[Get all Controls in Framework applied to Project]
+    H --> I[Loop through Controls]
+    I --> J{Control has enforcement mechanism?}
+    J -- Yes --> K{Associated Policy exists?}
+    K -- Yes --> L[Skip Check: Result is Pass]
+    K -- No --> M[Check Setting/Policy configured correctly]
+    J -- No --> N[Evaluate Control compliance]
+
+    M --> O[Result: Pass/Fail]
+    N --> O
+    O --> Q[Upsert result in DB: project_requirement_compliance_status]@{ shape: cyl }
+    L --> Q
+    N -- Fail --> S[Insert violation in DB: project_compliance_violations]@{ shape: cyl }
+
+    Q --> T[Async Configuration check job repeats every 12 hours]
+    T --> G
+```
+
+#### Violation triggers execution flow
+
+This workflow diagram shows how violation status checks are triggered and stored.
+
+```mermaid
+flowchart TD
+    %% Event-Triggered Violation Check
+    F[User applies Framework to Project] --> U[Async Violation check job triggered]
+    U --> V[Get all Controls in Framework applied to Project]
+    V --> W[Loop through Controls]
+    W --> X{Event violates a Control?}
+    X -- Yes --> Y[Insert violation in DB: project_compliance_violations]@{ shape: cyl }
+    X -- No --> Z[No action needed]
+    Y --> AA[Event occurs: every 12 hours or when MR merged]
+    Z --> AA
+    AA --> U
+```
+
+In the above workflows there will be audit events triggered throughout to give a full history of a projects compliance posture. For example audit events will be logged when a project is evalutated against a control and the result of that evaluation. User can then see when the configuration status changed from one state to another in the past. User can then use the [audit event reports](https://docs.gitlab.com/ee/user/compliance/audit_events.html) or [streaming audit events](https://docs.gitlab.com/ee/user/compliance/audit_event_streaming.html) to trigger other workflows.
+
+Audit events will be logged when:
+
+- user takes an action
+- configuration check result
+- violation check result
+
+### Decisions
+
+- ~~[001: Triggering Checks](decisions/001_triggering_checks.md)~~ (changed, see ADR 004)
+- [002: Custom Adherence Report](decisions/002_custom_adherence_report.md)
+- [003: Custom Controls](decisions/003_custom_controls.md)
+- [004: Use Time-based Triggers for Controls](decisions/004_time_based_triggers.md)
+- [005: Violations Engine](decisions/005_violations_engine.md)

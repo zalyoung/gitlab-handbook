@@ -291,6 +291,13 @@ Once the contract or Mutual Termination Agreement (MTA) has been created by the 
 1. The People Connect Lead shares the relocation contract with gitlabHRSS@globalupside.com. Global Upside then sends an Egnyte (payroll platform) login invitation email to the relocating team member. If they are relocating to France an invite to Mihi will also be sent.
 1. [France requires contracts to be individually drafted by the Legal team.](/handbook/hiring/talent-acquisition-framework/ces-contract-processes/#process-for-gitlab-team-members-in-singapore-south-korea-or-france)
 
+1. If a team member relocating to France is an expatriate who has not been a French tax resident for the 5 calendar years before the calendar year during which they relocate, and they wish to assess their eligibility for the impatriate tax regime, they must let People Connect know three months in advance that they will be undertaking the assessment. The People Connect team can reach out to legal-employment@gitlab.com for support with appropriate contract language once the relocating team member confirms their eligibility. *Note that eligibility is a complex tax matter and the relocating team member should check with their personal tax advisor.*
+
+##### Relocating **from** France
+
+1. The relocating team member needs to resign from GitLab France S.A.S. with a notice date effective one day before the start date of their new contract. Please email the resignation letter to legal-employment@gitlab.com and also [upload the resignation letter to your Workday profile](https://docs.google.com/document/d/19B0lsMu7dMhof1ghPuBxHP23DuDqi2qpWF8pCWyEUN4/edit?tab=t.0). This is required to process your exit in France while you are simultaneously onboarded in the new country.
+1. Once the resignation letter has been emailed to legal-employment@gitlab.com and uploaded to Workday, the People Connect team member will share [this letter](https://docs.google.com/document/d/1wgbt9vK4w-aQEgjDzdOs94t9XOZuiJmPWj6BvlSl7rY/edit?usp=sharing) with the team member relocating away from France for e-signature via DocuSign as soon as possible (and at least within 7 days) in order to waive the balance of the notice period and address any additional matters. Once signed, the People Connect team member will uplaod the letter to the team member's 'Contracts & Changes' Workday folder.
+
 ## Reporting for Relocations
 
 Access to the 'GitLab Team Member Relocations' Workday report can be requested via [this issue](https://gitlab.com/gitlab-com/people-group/people-tools-technology/general/issues/new?issuable_template=intake) and automatically sent on a regular basis.

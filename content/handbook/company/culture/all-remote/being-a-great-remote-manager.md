@@ -248,7 +248,7 @@ Even for those who have managed colocated teams for decades, the thought of mana
 
 For those new to managing remotely, consider shadowing someone with experience and establishing a mentor-mentee relationship.
 
-If you feel comfortable with the softer skills, pay close attention to the processes used by remote managers. For example, you can't walk by a report's desk and get a feel for how things are going, so many remote managers utilize an ongoing [Google Doc agenda]({{< ref "suggested-agenda-format" >}}) (or a dedicated tool, such as [Soapbox](https://soapboxhq.com/) or [Fellow](https://www.fellow.app/)) where notes, blockers, etc. can be chronicled. Checking a living, evolving document as a mechanism for engagement may require building a new habit.
+If you feel comfortable with the softer skills, pay close attention to the processes used by remote managers. For example, you can't walk by a report's desk and get a feel for how things are going, so many remote managers utilize an ongoing [Google Doc agenda]({{< ref "suggested-agenda-format" >}}) (or a dedicated tool, such as Soapbox or [Fellow](https://www.fellow.app/)) where notes, blockers, etc. can be chronicled. Checking a living, evolving document as a mechanism for engagement may require building a new habit.
 
 ## Discuss learning preferences
 

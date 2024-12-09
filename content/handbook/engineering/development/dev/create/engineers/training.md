@@ -43,5 +43,5 @@ For those looking to learn more about GitLab especially outside of the area wher
 
 * [GitLab 101](/handbook/people-group/learning-and-development/gitlab-101/) (Handbook)
 * [GitLab 201](/handbook/people-group/learning-and-development/gitlab-201/) (Handbook)
-* [Learning GitLab](https://www.linkedin.com/learning/learning-gitlab-2/version-control-and-more?u=51852513)
-* [Continuous Delivery with GitLab](https://www.linkedin.com/learning/continuous-delivery-with-gitlab/use-gitlab-for-code-management?u=51852513)
+* [Learning GitLab](https://www.linkedin.com/learning/learning-gitlab-14539757)
+* [Continuous Delivery with GitLab](https://www.linkedin.com/learning/continuous-integration-and-continuous-delivery-with-gitlab)

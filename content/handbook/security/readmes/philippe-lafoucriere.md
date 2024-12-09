@@ -20,11 +20,11 @@ I have worked in various industries, ranging from telecoms to online betting.
 A few facts about me:
 
 - I live in Quebec City, Quebec, Canada.
-- I have dual citizenships: French & Canadian
-- I have 2 mostly wonderful kids and a fantastic wife
-- I have lived, studied and worked in France and other European countries, but also in South East Asia
-- I spent some of my childhood in Pacific Islands near Australia
-- I love all things outdoors
+- I have dual citizenships: French & Canadian.
+- I have 2 teenagers.
+- I have lived, studied and worked in France and other European countries, but also in South East Asia.
+- I spent some of my childhood in South Pacific Islands near Australia.
+- I love all things outdoors.
 
 ### Background story at GitLab
 

@@ -1,5 +1,6 @@
 ---
 title: "Daniel Diniz's README"
+description: "Personal readme page for Daniel Diniz, Support Engineer, GitLab"
 job: "Support Engineer"
 ---
 

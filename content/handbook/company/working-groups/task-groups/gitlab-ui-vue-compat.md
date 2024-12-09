@@ -32,6 +32,8 @@ Since the GitLab UI library is used by various projects (GitLab, Switchboard, Ed
 
 ## Roles and Responsibilities
 
-| Task Group Role | Person       | Title                                               |
-| --------------- | ------------ | ----------------------------------------------------|
-| DRI             | Mark Florian | Staff Frontend Engineer, Foundations::Design System |
+| Task Group Role | Person        | Title                                               |
+| --------------- | ------------- | ----------------------------------------------------|
+| DRI             | Mark Florian  | Staff Frontend Engineer, Foundations::Design System |
+| Member          | Marina Mosti  | Sr. Frontend Engineer, Switchboard                  |
+| Member          | Miguel Rincon | Staff Frontend Engineer, Verify:Runner              |

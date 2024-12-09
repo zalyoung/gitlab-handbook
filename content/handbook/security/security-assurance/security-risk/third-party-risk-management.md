@@ -182,14 +182,10 @@ TPRM procedures are guided by the vendor's Inherent and Residual Risk levels, wh
 |Medium|Orange<sup>2</sup>|
 |Low|Yellow / Green|
 
-<html>
-<small>
-  <ol>
-    <li> <i> Due to increased risk with vendor engagements providing cloud services (such as SaaS offerings), the inherent risk level has been elevated to account for emerging threats and vulnerabilities associated with these types of services. </i> </li>
-    <li><i>Orange Individual-Use Software is assessed as moderate inherent risk under a reduced scope due to the decreased risk associated with these types of requests. See <a href="https://handbook.gitlab.com/handbook/security/security-assurance/security-risk/third-party-risk-management/#individual-use-software-requests">here</a> for further guidance.</i></li>
-  </ol>
-</small>
-</html>
+<ol>
+  <li> <i> Due to increased risk with vendor engagements providing cloud services (such as SaaS offerings), the inherent risk level has been elevated to account for emerging threats and vulnerabilities associated with these types of services. </i> </li>
+  <li><i>Orange Individual-Use Software is assessed as moderate inherent risk under a reduced scope due to the decreased risk associated with these types of requests. See <a href="/handbook/security/security-assurance/security-risk/third-party-risk-management/#individual-use-software-requests">here</a> for further guidance.</i></li>
+</ol>
 
 **Residual Risk** is the level of risk that remains after accounting for mitigating controls required by GitLab's Third Party Risk Management Program. Effectively managing vendor residual risk requires a balanced approach that considers the criticality of the vendor's services or products, the sensitivity of the data involved, and GitLab's risk tolerance.
 
@@ -483,6 +479,6 @@ In specific instances, requirements for the performance or contents of TPRM revi
 - [Data Classification Standard]({{< ref "data-classification-standard" >}})
 - [Current listing of controlled documents](https://gitlab.com/gitlab-com/gl-security/security-assurance/governance/security-governance/-/issues/42)
 - [App Integrations (Team Member Enablement)](https://internal.gitlab.com/handbook/it/end-user-services/app-integrations/)
-- [Observation Management Procedure]({{< ref "observation-remediation-procedure" >}})
+- [Observation Management Procedure]({{< ref "observation-management-procedure" >}})
 - [STORM]({{< ref "storm-program" >}})
 - [Professional Services](/handbook/finance/procurement/#-how-do-i-create-a-purchase-request-in-zip)

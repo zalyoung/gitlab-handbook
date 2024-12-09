@@ -244,6 +244,18 @@ For any issues that were not discussed and given a weight, the engineering
 manager will work with the engineers to see if we need to get more information
 from PM or UX.
 
+### Requesting help
+
+If you are not part of the Support organization, we recommend reaching out to them first, as they have greater availability and can assist with most common issues. There's a dedicated Slack channel [#spt_pod_import_and_integrate](https://gitlab.enterprise.slack.com/archives/C052K0Z1F8T) you can join, follow and ask questions in. However, there are times when in-depth technical knowledge is needed to resolve a customer issue, requiring the involvement of an engineer from the team.
+
+Before requesting help from the Engineering team, please first review the [GitLab documentation](https://docs.gitlab.com/) for the topic of your interest and the additional resources listed below:
+
+- [Importer Runbook](https://gitlab.com/gitlab-org/foundations/import-and-integrate/team/-/blob/main/importers/runbook.md?ref_type=heads)
+- [GitLab Log Analysis Tool](https://gitlab.com/gitlab-org/foundations/import-and-integrate/gitlab-logs-analysis)
+- [Jira playlist](https://www.youtube.com/playlist?list=PL05JrBw4t0Koazgli_PmMQCER2pVH7vUT)
+
+If you cannot find the answer to your question in the resources listed above, please open a [Request for Help (RFH) issue](https://gitlab.com/gitlab-com/dev-sub-department/section-dev-request-for-help/-/issues/new?issuable_template=SupportRequestTemplate-Import-Integrate) and use the `SupportRequestTemplate-Import-Integrate` template. Please ensure that you provide all the required information before reaching out to the team; otherwise, we will be unable to proceed with your request. New issues will be prioritized according to our internal triage process. Please note that we can only support requests for issues affecting the current and the two most recent minor GitLab versions (N-2). We cannot offer a fix for older versions. This is aligned with our [maintenance policy for backports](https://docs.gitlab.com/ee/policy/maintenance.html#patch-releases).
+
 ### Milestone Doctors
 
 In FY2025, on average 4-5 `Request for Help` (RFH) issues per month have been opened for feature categories that are owned by our team. Most of these issues are high-priority requests that involve the Engineering team to help resolve blocking issues for our customers. This type of ad-hoc work causes a lot of interruption while working on milestone Deliverables. To ensure these RFH issues are processed as quickly as possible by the Engineering team and to reduce context-switching time within the team, two engineers take on the "Milestone Doctor" role at every milestone. Their capacity for Deliverable work is reduced to 70% to allow taking over additional responsibilities as "Milestone Doctors".

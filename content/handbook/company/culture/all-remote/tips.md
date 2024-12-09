@@ -160,7 +160,7 @@ I often find the midday slump to be so real, so if I'm feeling this way I step a
 
 ### Communicate clearly
 
-- Remote teams are less likely to know what's going on in each other's daily lives, so it's important that you're able to [express yourself](https://thriveglobal.com/stories/how-these-5-secrets-help-remote-workers-thrive) and ask for help when you need it.
+- Remote teams are less likely to know what's going on in each other's daily lives, so it's important that you're able to [express yourself](https://community.thriveglobal.com/how-these-5-secrets-help-remote-workers-thrive/) and ask for help when you need it.
 - Make the most of your [video calls](https://about.gitlab.com/blog/2019/08/05/tips-for-mastering-video-calls) so that you can build relationships with your team.
 
 ### Decide where to work
@@ -168,7 +168,7 @@ I often find the midday slump to be so real, so if I'm feeling this way I step a
 - Designate a space that's used solely for work so that you can mentally switch from home to office. Don't have a separate room to use as an office? Consider using a screen or partition to physically divide the space.
 - Make sure you have the equipment you need to be productive (for GitLab team members, here's a helpful [guide](/handbook/finance/spending-company-money/)).
 - Join a coworking space or meet up with someone else who works remotely to cowork in person.
-- [Try out different background sounds](https://thriveglobal.com/stories/450-remote-workers-reveal-how-to-boost-productivity-when-working-from-home) like music, ambient noise, or silence to see what works best for you while you're working.
+- [Try out different background sounds](https://community.thriveglobal.com/450-remote-workers-reveal-how-to-boost-productivity-when-working-from-home/) like music, ambient noise, or silence to see what works best for you while you're working.
 - If you have family or roommates at home while you're working, consider [setting boundaries](https://about.gitlab.com/blog/2019/08/01/working-remotely-with-children-at-home) with them about your workspace to reduce interruptions.
 
 ### Create an ergonomic workspace
@@ -176,7 +176,7 @@ I often find the midday slump to be so real, so if I'm feeling this way I step a
 ![GitLab all-remote ergonomic workspace](/images/all-remote/gitlab-com-all-remote-v3-dark-1280x270.png)
 {style="max-width: 50%;"}
 
-The goal of [office ergonomics](https://ergo-plus.com/office-ergonomics-10-tips-to-help-you-avoid-fatigue) is to design your [workspace](workspace/) so that it fits you and allows for a comfortable working environment for maximum productivity and efficiency.
+The goal of [office ergonomics](https://ergo-plus.com/office-ergonomics-10-tips-to-help-you-avoid-fatigue/) is to design your [workspace](workspace/) so that it fits you and allows for a comfortable working environment for maximum productivity and efficiency.
 
 Since we all work from home, GitLab wants each team member to have the [supplies](/handbook/finance/spending-company-money/) and knowledge they need to create an ergonomic home office.
 
@@ -204,7 +204,6 @@ It's sometimes hard to remember to stay active when you work from home. Here are
 - Avoid "Digital Eye Strain" by following the [20-20-20 Rule](https://www.healthline.com/health/eye-health/20-20-20-rule#definition). Every 20 minutes look into the distance (at least 20 feet/6 meters) for 20 seconds.
 - Use an app - there are some that will remind you to take a break or help you with your computer posture:
   - [Time Out](https://itunes.apple.com/us/app/time-out-break-reminders/id402592703?mt=12 )(macOS)
-  - [Awareness](https://iamfutureproof.com/tools/awareness) (macOS)
   - [SafeEyes](https://slgobinath.github.io/SafeEyes) (GNU/Linux)
 - Move every day
   - Go for a walk or do a short exercise for at least 15 minutes a day.

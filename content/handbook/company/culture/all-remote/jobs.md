@@ -122,7 +122,7 @@ Here's a [list](https://www.ryrob.com/remote-jobs-websites/) of 60 remote jobs s
 1. [Grow Remote](https://growremote.ie/)
 1. [Torre](https://torre.ai/?r=KBLTHbrs)
 1. [We Work Remotely](https://weworkremotely.com)
-1. [Remote OK](https://remoteok.com)
+1. [Remote OK](https://remoteok.com/)
 1. [People-First Jobs](https://peoplefirstjobs.com/jobs/)
 1. [Remoters](https://remoters.net/jobs/)
 1. [Wellfound](https://wellfound.com/jobs/)

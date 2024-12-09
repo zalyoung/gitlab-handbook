@@ -24,7 +24,7 @@ The Rules engine is a business automation tool build within Gainsight that allow
 
 #### Connectors 2.0
 
-The `Connectors 2.0` is used as one of the main ingestion methods of data from Salesforce to Gainsight and is a native built integration that exists between the two systems. The connector is authenticated using a Gainsight Integration user in our Salesforce Instance. More information in regards to the connector and how to set it up [in Gainsights Knowledge Base](https://support.gainsight.com/Gainsight_NXT/01Onboarding_and_Implementation/Onboarding_for_Gainsight_NXT_in_Salesforce/Salesforce_Connector/Salesforce_Connector_Overview).
+The `Connectors 2.0` is used as one of the main ingestion methods of data from Salesforce to Gainsight and is a native built integration that exists between the two systems. The connector is authenticated using a Gainsight Integration user in our Salesforce Instance. More information in regards to the connector and how to set it up [in Gainsights Knowledge Base](https://support.gainsight.com/gainsight_nxt/Connectors/CRM_Integrations/Salesforce_Connector).
 
 The `Connectors 2.0` is used between our Salesforce instance and Gainsight instance to mainly sync three objects:
 

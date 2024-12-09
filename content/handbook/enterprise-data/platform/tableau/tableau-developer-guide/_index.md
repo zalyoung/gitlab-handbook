@@ -39,7 +39,7 @@ The way to make sure users can always access the data within a workbook, is to c
 
 If you are publishing a data source from Desktop to the Cloud/Online to be a Tableau Published Data Source, you will get the following window:
 
-![data window](images/data-window.png)
+![data window](/images/data-window.png)
 
 Select the "Edit" button it/data-team/ "Authentication". It will bring you to the following pop-up. Choose your <rolename> to embed.
 

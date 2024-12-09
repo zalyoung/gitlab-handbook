@@ -460,6 +460,14 @@ The responsibility of the DRI is simply to collect information and to ensure the
 | 2024-11-11 | Kushal Pandya |
 | 2024-11-18 | Donald Cook |
 | 2024-11-25 | John Hope |
+| 2024-12-02 | Vladimir Shushlin |
+| 2024-12-09 | Kushal Pandya |
+| 2024-12-16 | Donald Cook |
+| 2024-12-23 | John Hope |
+| 2024-12-30 | Vladimir Shushlin |
+| 2025-01-06 | Kushal Pandya |
+| 2025-01-13 | Donald Cook |
+| 2025-01-20 | John Hope |
 
 #### Links
 

@@ -44,7 +44,7 @@ If a team is needing access to Vimeo, please open a [bulk access request](/handb
 ## Support
 
 1. `#brand_video` in Slack
-1. [Contact Support](https://help.vimeo.com/hc/en-us/contact)
+1. [Contact Support](https://help.vimeo.com/hc/en-us)
 1. [Help Center](https://help.vimeo.com/hc/en-us)
 
 ## Training
@@ -55,7 +55,7 @@ If a team is needing access to Vimeo, please open a [bulk access request](/handb
 
 ## Video Manager
 
-The [video manager](https://vimeo.zendesk.com/hc/en-us/articles/115004610668-The-video-manager) is where all the video uploads are stored and managed.
+The [video manager](https://help.vimeo.com/hc/en-us/articles/12426274382609-Manage-videos-in-your-libraries) is where all the video uploads are stored and managed.
 
 When you navigate to Vimeo.com, you first land in the video manager (when logged in). The video manager houses all videos uploaded, both public and private, as well as video drafts, showcases, and any live events.
 
@@ -279,7 +279,7 @@ If you only want the email addresses from one particular video, you can download
 
 ### End screens
 
-[End screens](https://vimeo.zendesk.com/hc/en-us/articles/115007893267-End-screens) allow you to determine exactly what appears when videos finish playing.
+[End screens](https://help.vimeo.com/hc/en-us/articles/12426231346449-About-end-screens) allow you to determine exactly what appears when videos finish playing.
 
 ## Privacy Settings Overview
 
@@ -338,7 +338,7 @@ Vimeo is integrated with Okta for [access](#access).
 
 ### Slack
 
-If there is an interest to pursue the [Slack integration](https://vimeo.zendesk.com/hc/en-us/articles/360001939888-Slack-integration) for your team or project, please open an issue in marketing ops.
+If there is an interest to pursue the [Slack integration](https://help.vimeo.com/hc/en-us/articles/12426259504145-Slack-integration-with-Vimeo) for your team or project, please open an issue in marketing ops.
 
 ### Social Media
 

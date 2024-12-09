@@ -47,7 +47,6 @@ If you are looking to bring the People Group Engineering team into a discussion/
 If you want to report bugs about existing integrations, you can use any of the following templates:
 
 - [Bug with a /pops command](https://gitlab.com/gitlab-com/people-group/peopleops-eng/employment-automation/-/issues/new?issuable_template=bug_pops_command)
-- [Bug with the Greenhouse <> BambooHR sync](https://gitlab.com/gitlab-com/people-group/peopleops-eng/conservatory/-/issues/new?issuable_template=bug_with_sync)
 - [Bug with Nominations](https://gitlab.com/gitlab-com/people-group/peopleops-eng/nominatorbot/-/issues/new?issuable_template=general_bug)
 
 #### Urgent attention
@@ -147,7 +146,6 @@ We've build several automations and tools to support our People Group. In the fo
 
 ### Team member's employment
 
-- [Greenhouse <> BambooHR Sync]({{< ref "gh-bhr-sync" >}})
 - [Onboarding Automations](/handbook/people-group/engineering/onboarding)
 - [Career Mobility Automations](/handbook/people-group/engineering/career-mobility)
 - [Offboarding Automations](/handbook/people-group/engineering/offboarding)

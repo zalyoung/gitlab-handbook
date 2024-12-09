@@ -57,7 +57,7 @@ If you need to replace an asset source but keep the same link, you can do so fro
 
 ### Bulk upload
 
-You can [bulk upload multiple new assets](https://nook.pathfactory.com/nook/s/article/csv-upload) to the content library via a CSV file.
+You can [bulk upload multiple new assets](https://support.pathfactory.com/kb/csv-upload/) to the content library via a CSV file.
 
 1. Download this [CSV template](https://d1nk153xyqlyhl.cloudfront.net/Content_CSV_Template.csv). This CSV file has the exact format as the CSV bulk upload template.
 1. Provide all the information in the template for your new assets and save as a CSV.

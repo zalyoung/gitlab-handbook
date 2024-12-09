@@ -449,7 +449,7 @@ The company will cover all work-related travel expenses. This includes lodging a
 
 #### Repairs to company issued equipment
 
-- If you need to replace a battery or something small that does not affect the productivity or speed of the device, please go ahead and get that small item replaced and expensed.
+- If you need to replace a battery, laptop charger, or something small that does not affect the productivity or speed of the device, please go ahead and get that small item replaced and expensed.
 - The category to use in Navan is 'Office Supplies'.
 - Please get approval from your Manager if your equipment appears to be damaged, defective, or in need of repair
 - Business Operations can advise on next steps to ensure you have the proper equipment to work.
@@ -579,7 +579,7 @@ The company will cover all work-related travel expenses. This includes lodging a
 
 ### VPN Subscription
 
-- Please read [Why We Don't Have A Corporate VPN](/handbook/security#why-we-dont-have-a-corporate-vpn), and check out our [Personal VPN]({{< ref "personal-vpn" >}}) page regarding usage at GitLab.
+- Please read [Why We Don't Have A Corporate VPN](/handbook/security/product-security/architecture/zero-trust/#why-we-dont-have-a-corporate-vpn), and check out our [Personal VPN]({{< ref "personal-vpn" >}}) page regarding usage at GitLab.
 - Policy is set at $150 per year.
 - Yearly subscription can be submitted in one claim.
 - Monthly subscriptions to be submitted monthly.

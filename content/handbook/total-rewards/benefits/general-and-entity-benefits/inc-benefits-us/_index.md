@@ -573,17 +573,17 @@ Vision claims can be submitted online through the vision section of the site, ra
 1. Click Vision.
 1. Click on Visit Cigna Vision button.
 1. Hover over Claims.
-1. Click on Out-of-Network Claim Form. 
+1. Click on Out-of-Network Claim Form.
 1. Scroll down to Online Claim Form.
 1. Fill out online form, upload receipt(s) and Click Submit Claim.
- 
+
 </details>
 
 ## Basic Life Insurance and AD&D
 
 GitLab offers company paid basic life and accidental death and dismemberment (AD&D) plans through Cigna which is a subsidiary of New York Life. The Company pays for basic life insurance coverage valued at two times annual base salary with a maximum benefit of $500,000, which includes an equal amount of AD&D coverage. Please find additional details, limitations, and exclusions on the [summary of benefits](https://drive.google.com/file/d/1rkA8n3zgZvnoiqzu3ZJuLwZ_9zMaNbZW/view?usp=sharing) and the [Life Insurance Flyer](https://drive.google.com/file/d/1i7JmrI5paxfRnIIp8fi1jvJwAGjCa2By/view?usp=sharing) and [AD&D Insurance Flyer](https://drive.google.com/file/d/1uhMSM2PfeMigPQDR95wQ5rdLG9xZ-6td/view?usp=sharing)
 
-Inclusive of the life insuranc policy is [survivor assurance and support](https://drive.google.com/file/d/1Uhh7S9uotOtHxogCh7Z7AmLfgdufLsig/view?usp=sharing)
+Inclusive of the life insurance policy is [survivor assurance and support](https://drive.google.com/file/d/1Uhh7S9uotOtHxogCh7Z7AmLfgdufLsig/view?usp=sharing)
 
 ### Employee Assistance Program
 

@@ -1,5 +1,6 @@
 ---
 title: GitLab the Product
+description: "About GitLab the product"
 ---
 
 {{% include "includes/product-handbook-links.md" %}}

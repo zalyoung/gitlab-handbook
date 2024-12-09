@@ -112,6 +112,16 @@ the responsible engineering team:
   - If the report is for a bug that can be detected without authentication (in GitLab or anything else we host) consider reaching out to the Red Team or Vulnerability Management to help create a Nuclei template that we can include into our scanning
 - Remember to review the `Pending Disclosure` tab and follow [our disclosure process](#closing-out--disclosing-issues)
 
+#### Calculating CVSS for Vulnerability Chaining
+
+Typically, each HackerOne report discloses a single vulnerability. However, sometimes a single report uses two or more newly discovered vulnerabilities chained together for increased impact.
+
+When a single report discloses two or more new vulnerabilities being chained together for greater impact, calculate the CVSS for each individual vulnerability *and* an additional "vulnerability chaining" CVSS score for the combined impact. Share both the individual CVSS scores and the "vulnerability chaining" CVSS score in the corresponding bug bounty council issue.
+
+The CVSS of each individual vulnerability will be used for the CVEs issued for each vulnerability. The "vulnerability chaining" CVSS will be used to determine bounty award for the report.
+
+For future reports that involve "vulnerability chaining" with previously disclosed vulnerabilities, only calculate the CVSS for newly disclosed vulnerabilities. In such cases, only the new vulnerabilities in the chain will be eligible for a "vulnerability chaining" CVSS-based bounty.
+
 ## Triaging exposed secrets
 
 <details>
@@ -163,7 +173,7 @@ Exposure of information and secrets is handled a little differently to vulnerabi
   - Post a comment in `#security-revocation-self-service` using [this message template](https://gitlab.com/gitlab-com/gl-security/security-operations/sirt/runbooks/-/blob/main/misc/exposed_secrets.md#general-revocation-template-for-secrets)
   - If the information was leaked in an issue, make the Issue confidential and leave an internal note explaining why it's been made confidential.
 - Use the `/security` slack command to initiate an incident
-  - Learn more about engaging the SEOC: https://handbook.gitlab.com/handbook/security/security-operations/sirt/engaging-security-on-call.html#engage-the-security-engineer-on-call
+  - Learn more about engaging the SEOC: <https://handbook.gitlab.com/handbook/security/security-operations/sirt/engaging-security-on-call/#engage-the-security-engineer-on-call>
   - In the description section, include a link to the HackerOne report and any other useful information
     - Share the reporter's IP address(es) and time(s) the reporter accessed the sensitive data to assist with incident response.
   - In the remediation section, document what time and from what IP used to revoke the token or validate the leak.
@@ -191,7 +201,7 @@ Similar to how we handle exposed secrets, we sometimes handle exposed personal d
   - If the information was leaked in an issue, make the Issue confidential and leave an internal note explaining why it's been made confidential.
   - :warning: Bear in mind that turning an issue confidential doesn't turn attachments confidential.
 - Use the `/security` slack command to initiate an incident
-  - Learn more about engaging the SEOC: https://handbook.gitlab.com/handbook/security/security-operations/sirt/engaging-security-on-call.html#engage-the-security-engineer-on-call
+  - Learn more about engaging the SEOC: <https://handbook.gitlab.com/handbook/security/security-operations/sirt/engaging-security-on-call/#engage-the-security-engineer-on-call]>
   - Pick "Information Disclosure" as the nature of incident
   - In the description section, include a link to the HackerOne report and any other useful information
     - If possible, share the reporter's IP address(es) and time(s) the reporter accessed the sensitive data to assist with incident response.

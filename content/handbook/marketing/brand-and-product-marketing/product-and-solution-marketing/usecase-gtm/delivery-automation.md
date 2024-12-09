@@ -141,7 +141,7 @@ GitLab enables you to deliver better software, faster. Unleash team productivity
 
 - **GitLab allows you to start where you are in your journey and reduce other tools as your adoption matures**
 
-> "As per the Forrester Total Economic Impact study, customers were able to eliminate at least 3 tools per year" [TEI](https://about.gitlab.com/resources/report-forrester-tei/)
+> "As per the Forrester Total Economic Impact study, customers were able to eliminate at least 3 tools per year" [TEI](https://about.gitlab.com/resources/study-forrester-tei-gitlab-ultimate/)
 
 - **GitLab supports your cloud-native application transformations (as well as your traditional applications!)**
 

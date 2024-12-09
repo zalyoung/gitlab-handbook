@@ -668,7 +668,7 @@ GitLab has a mature Partner network with good coverage of GitLab-trained Sales a
 - LevelUp video on [Maximizing Value of Partners in a Deal](https://www.youtube.com/watch?v=ndrNX8fIIqs&list=PL05JrBw4t0KrirMKe3CyWl4ZBCKna5rJX&index=2) specifically for AE's to learn more about co-selling success.
 - [Learn more about Partner co-selling best practices, how Partners can help build out key elements of an AE's R7 & Command Plans](/handbook/sales/channel/#partner-co-selling-best-practices-and-how-partners-can-help-with-r7-and-command-plans) and much more in the [Channel Sales Handbook](/handbook/sales/channel/).
 - Slack [#channel-sales](https://gitlab.slack.com/archives/CT9KKE5RR) or reach out to your Channel Account Manager with any questions or requests for assistance. The channel is closely monitored by several members of the channel team who are here to help AE's succeed in co-selling in any way we can.
-- List of [GitLab-trained OPEN and SELECT channel partners](https://help.salesforce.com/articleView?id=reports_schedule.htm&type=5)
+- List of [GitLab-trained OPEN and SELECT channel partners](https://help.salesforce.com/s/articleView?language=en_US&id=reports_schedule.htm&type=5)
 - Channel Partner Finder **[Here](https://partners.gitlab.com/English/directory/)
 
 #### Mid-Market First Order Account Handoff and Named/Territory Collaboration Process

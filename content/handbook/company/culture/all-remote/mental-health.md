@@ -47,7 +47,7 @@ Particularly in a company where [results](/handbook/values/#results) are valued 
 
 Though it sounds counter to conventional wisdom, clarity comes through time away from work. Just as a human must inhale and exhale to survive, one cannot expect to remain healthy and productive if only inhaling more work.
 
-As John Fitch describes in the book [Time Off](https://maxfrenzel.com/time-off), there are four stages of creativity. This was initially [outlined](https://www.brainpickings.org/2013/08/28/the-art-of-thought-graham-wallas-stages) by English social psychologist and London School of Economics co-founder Graham Wallas.
+As John Fitch describes in the book [Time Off](https://maxfrenzel.com/time-off), there are four stages of creativity. This was initially [outlined](https://www.themarginalian.org/2013/08/28/the-art-of-thought-graham-wallas-stages/) by English social psychologist and London School of Economics co-founder Graham Wallas.
 
 1. Preparation
 1. Incubation
@@ -335,7 +335,7 @@ This [Forbes article on remote-work time management tips](https://www.forbes.com
 
 GitLab employee Matej L. outlines [9 tips for eliminating remote work distractions and being more productive](https://about.gitlab.com/blog/2018/05/17/eliminating-distractions-and-getting-things-done) here.
 
-**Pro tip:** experiment with removing Slack from your phone. A [litany](https://sitn.hms.harvard.edu/flash/2018/dopamine-smartphones-battle-time) of [studies](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6449671) have covered the addictive nature of smartphones. Even if you aren't sure if this approach will benefit you, give it a try. It's what we call a [two-way door](/handbook/values/#make-two-way-door-decisions).
+**Pro tip:** experiment with removing Slack from your phone. A [litany](https://sitn.hms.harvard.edu/flash/2018/dopamine-smartphones-battle-time) of [studies](https://pmc.ncbi.nlm.nih.gov/articles/PMC6449671/) have covered the addictive nature of smartphones. Even if you aren't sure if this approach will benefit you, give it a try. It's what we call a [two-way door](/handbook/values/#make-two-way-door-decisions).
 
 ## What are some resources for remote workers struggling with their mental health?
 

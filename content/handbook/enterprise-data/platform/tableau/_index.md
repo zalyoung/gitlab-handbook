@@ -5,9 +5,9 @@ description: "Tableau at GitLab"
 
 | Quick Links | Developer Resources  | Communications |
 | ---         | ---        | ---            |
-| [Tableau Cloud - GitLab](https://10az.online.tableau.com/#/site/gitlab/home) | [GitLab Tableau Developer Guide](/handbook/enterprise-data/platform/tableau/tableau-developer-guide/) | [Internal Slack channel](https://app.slack.com/client/T02592416/C03RMCEHVCP)  | 
-| [Tableau eLearning Portal](https://elearning.tableau.com) |  [Tableau Style Guide](/handbook.gitlab.com/handbook/enterprise-data/platform/tableau/tableau-developer-guide/tableau-style-guide/)  | [External Slack channel](https://app.slack.com/client/T02592416/C031QE95QJU)   |
-| [Tableau Customer Portal](https://customer-portal.tableau.com/s/) | [Developer Tips and Tricks](/handbook.gitlab.com/handbook/enterprise-data/platform/tableau/tableau-developer-guide/tips-and-tricks-for-developers/) | |
+| [Tableau Cloud - GitLab](https://10az.online.tableau.com/#/site/gitlab/home) | [GitLab Tableau Developer Guide](/handbook/enterprise-data/platform/tableau/tableau-developer-guide/) | [Internal Slack channel](https://app.slack.com/client/T02592416/C03RMCEHVCP)  |
+| [Tableau eLearning Portal](https://elearning.tableau.com) |  [Tableau Style Guide](/handbook/enterprise-data/platform/tableau/tableau-developer-guide/tableau-style-guide/)  | [External Slack channel](https://app.slack.com/client/T02592416/C031QE95QJU)   |
+| [Tableau Customer Portal](https://customer-portal.tableau.com/s/) | [Developer Tips and Tricks](/handbook/enterprise-data/platform/tableau/tableau-developer-guide/tips-and-tricks-for-developers/) | |
 | [Tableau Status Page](https://trust.tableau.com) | [Tableau Embedding to Handbook](/handbook/enterprise-data/platform/tableau/embed-demo/) | |
 
 ## Tableau
@@ -339,7 +339,7 @@ User Groups are applied at the Project and Sub-Project levels. We have two types
 
 The Administrator User Group and the Access Control User Group can be customized to meet the unique needs and requirements of each Project and Sub-Project on the Tableau site. This allows for flexibility to add or customize security controls on an as-needed basis. The assignment of a User Groups permission rule set for a Project or Sub-Project will be documented and controlled from YAML files maintained in the Tableau Project in the Data Group.
 
-No content is published in the top level Production, and Development Projects. Content is only published in the Sub-Projects under the Top level projects which is a best practice for content, access, and security control. Top level Project (Production and Development) Leaders will always be a member of the Central Data Team's BI Platform team and will need a site role of Creator to function as Project Administrators for publishing content. [Data Champions](/handbook/enterprise-data/direction/data-champion/) will serve as Project Leaders for the Sub-Projects for their respective functional areas. The Sub-Project Leaders will be added to the applicable Administrator and Access Control Groups in order to have the right permissions to lead the Sub-Project.
+No content is published in the top level Production, and Development Projects. Content is only published in the Sub-Projects under the Top level projects which is a best practice for content, access, and security control. Top level Project (Production and Development) Leaders will always be a member of the Central Data Team's BI Platform team and will need a site role of Creator to function as Project Administrators for publishing content. Project Leaders own the Sub-Projects for their respective functional areas. The Project Leaders will be added to the applicable Administrator and Access Control Groups in order to have the right permissions to lead the Sub-Project.
 
 The standard permission rules for top level Projects are noted below:
 
@@ -491,6 +491,8 @@ The Data Team will regularly review users' Tableau activity to determine if user
   - Have accessed a View within the past 90 days
   - Have accessed a Datasource within the past 90 days
 
+In addition to the guidelines above, we typically reserve Creator licenses for team members whose role is primarily Analytics-based (i.e. analysts within functional teams, and/or team members whose core responsibilities include developing reports for their team). 
+
 Inactive licenses will be reclaimed quarterly following our [Data Health and Security practices](/handbook/enterprise-data/data-management/#tableau).
 
 **Tracking License Usage**
@@ -509,9 +511,7 @@ Users can request access by creating an issue in the access requests project usi
 
 All users will be given access to their Division's sub-project by default. For access to another team's space please submit your request in a [Tableau Project issue](https://gitlab.com/gitlab-data/tableau/-/issues) via the **All Requests** template and tag the designated Lead Approver(s) for that team from the [BIOps Roles and Responsibilities](/handbook/enterprise-data/platform/tableau/#biops-roles-and-responsibilities) section for approval in your issue.
 
-Tableau Creators who use Tableau Desktop will need a [Yubikey](/handbook.gitlab.com/handbook/security/corporate/systems/yubikey/purchasing/#yubikey-5c-nano-fips) set up in Okta to access content published in Tableau Cloud. If you're unsure which one to get, the recommended device is the [YubiKey 5C Nano FIPS](https://www.yubico.com/product/yubikey-5c-nano-fips/). Currently biometrics are not yet supported in Tableau Desktop.
-
-Once approved, the BI Platform team will then add the user to the `okta-tableau-users` [Google Group](https://groups.google.com/a/gitlab.com/g/okta-tableau-users), add the user in [Tableau Cloud](https://10az.online.tableau.com/#/site/gitlab/users) and assign the correct license, then add the user to the right [Tableau Group](https://10az.online.tableau.com/#/site/gitlab/groups).
+Tableau Creators who use Tableau Desktop will need a [Yubikey](/handbook/security/corporate/systems/yubikey/purchasing/#yubikey-5c-nano-fips) set up in Okta to access content published in Tableau Cloud. If you're unsure which one to get, the recommended device is the [YubiKey 5C Nano FIPS](https://www.yubico.com/product/yubikey-5c-nano-fips/). Currently biometrics are not yet supported in Tableau Desktop.
 
 ### Tableau Desktop Access
 
@@ -534,7 +534,7 @@ To update Tableau Desktop to the latest release, follow these steps:
 
 1. **Install the Latest Version:** Run the downloaded installer and follow the on-screen instructions to complete the installation of the latest version of Tableau Desktop.
 
-1. **Uninstall Previous Versions:** To maintain a clean environment and reduce any version conflicts, uninstall any previous versions of Tableau Cloud applications that may still be on your device. This can be done by closing all Tableau Desktop instances, open applications folder, locate previous versions of Tableau Desktop, and then moving them to trash. 
+1. **Uninstall Previous Versions:** To maintain a clean environment and reduce any version conflicts, uninstall any previous versions of Tableau Cloud applications that may still be on your device. This can be done by closing all Tableau Desktop instances, open applications folder, locate previous versions of Tableau Desktop, and then moving them to trash.
 
 </details>
 
@@ -658,6 +658,48 @@ In order to use the Snowflake connector, you must have a Snowflake account assig
 
 </details>
 
+### Snowflake OAuth Data Source Connection Expiration Period
+
+Snowflake credentials in Tableau data sources are valid for 90 days. They reset automatically whenever new content is published to Snowflake-connected workbooks or data sources. However, if no publishing occurs within 90 days, the credentials will expire, requiring manual reauthentication. Click the below drop down for the process to update the OAuth Credentials:
+
+<details markdown=1>
+
+<summary><b>Updating Your Snowflake Credentials in Tableau
+</b></summary>
+
+1. Access Account Settings:
+   - Log in to Tableau.
+   - Click your profile icon in the top-right corner of the screen.
+   - Select Account Settings from the dropdown menu.
+
+1. Locate Snowflake Credentials:
+   - Scroll down to the Snowflake section to view your current credentials.
+
+1. Test Each Entry:
+   - For each Snowflake entry listed, click Test.
+   - If the test fails, proceed to the next step.
+
+1. Remove and Re-add Credentials:
+   - Delete the failed Snowflake entry by clicking Delete.
+   - Click Add to re-add your credentials.
+
+1. Re-add Credentials:
+   - Select OAuth Credential as the authentication method.
+   - Enter the Snowflake Server under OAuth instance.
+   - Leave the Role field blank.
+
+1. Complete Authorization:
+   - A new window will pop up.
+   - Click Single Sign-On (SSO)
+   - Click Authorize to complete the process.
+
+1. Repeat for All Accounts:
+   - Perform these steps for each Snowflake account you have set up.
+
+By following these steps, you’ll ensure that your Snowflake OAuth tokens are updated and prevent credential expiration from impacting your Tableau workflows.
+
+</details>
+
 ## Education
 
 GitLab team members who realize the full potential of analytical insights can do powerful things with data. But having a platform like Tableau and access to data isn't enough; we need to assure that our users are prepared to use Tableau effectively.
@@ -674,7 +716,7 @@ GitLab team members who realize the full potential of analytical insights can do
   - If you experience any issues accessing the training content, check [this page](https://support.skilljar.com/hc/en-us/articles/360033553054) for solutions to the most common problems.
 - [Tableau Community](https://community.tableau.com/s/)
 - [Tableau Support](https://www.tableau.com/support)
-- [Tableau Classroom training](https://www.tableau.com/learn/classroom/course-catalog) & [Training Pass](https://www.tableau.com/tableau-training-pass)
+- [Tableau Classroom training](https://trailheadacademy.salesforce.com/products/tableau#f-products=Tableau) & [Training Pass](https://www.tableau.com/tableau-training-pass)
   - These could be options for you to use as part of your [growth and development benefit](/handbook/people-group/learning-and-development/growth-and-development/). Bring this up with your manager during your [career development conversations](/handbook/people-group/learning-and-development/career-development/#what-is-career-development).
 
 </details>

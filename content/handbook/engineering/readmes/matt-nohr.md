@@ -1,5 +1,6 @@
 ---
 title: "Matt Nohr's README"
+description: "Personal readme page forMatt Nohr, Engineering Manager, Code Review, GitLab"
 job: "Engineering Manager, Code Review"
 ---
 

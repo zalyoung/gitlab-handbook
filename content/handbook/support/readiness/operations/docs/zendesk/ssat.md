@@ -7,7 +7,7 @@ canonical_path: "/handbook/support/readiness/operations/docs/zendesk/ssat"
 ## What is the Zendesk satisfaction survey?
 
 As per
-[Zendesk](https://support.zendesk.com/hc/en-us/articles/203660816-Customizing-your-customer-satisfaction-survey)
+[Zendesk](https://support.zendesk.com/hc/en-us/articles/4408886194202-Customizing-your-customer-satisfaction-survey)
 
 > One of Zendesk Support's most popular features is our built-in customer
 > satisfaction survey. Customer satisfaction allows you to track how well your

@@ -74,7 +74,7 @@ Research has shown that parental presence for [infants, toddlers, and older chil
 
 ### Boosting inclusion and diversity
 
-Historically, this has also [disproportionality impacted females](https://www.pewresearch.org/social-trends/2014/04/08/after-decades-of-decline-a-rise-in-stay-at-home-mothers/), though [The Pew Research Center](https://www.pewsocialtrends.org/2014/06/05/growing-number-of-dads-home-with-the-kids) has seen a recent rise in stay-at-home fathers citing "caring for home/family" as their reason.
+Historically, this has also [disproportionality impacted females](https://www.pewresearch.org/social-trends/2014/04/08/after-decades-of-decline-a-rise-in-stay-at-home-mothers/), though [The Pew Research Center](https://www.pewresearch.org/social-trends/2014/06/05/growing-number-of-dads-home-with-the-kids/) has seen a recent rise in stay-at-home fathers citing "caring for home/family" as their reason.
 
 All-remote solves these quandaries in multiple ways. In families where both parents wish to continue building their career, but desire to parent their child or children at home, [an all-remote work environment affords them that luxury](https://about.gitlab.com/blog/2016/04/08/remote-working-parents). Extrapolated, this contributes to a future generation of adults that have collectively reaped the benefits of increased parental presence, building a better tomorrow for all.
 

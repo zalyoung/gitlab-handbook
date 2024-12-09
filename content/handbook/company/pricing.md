@@ -277,7 +277,7 @@ The value is in making people more effective, saving time on integrating tools, 
 This should more than pay for the increased price of a tier.
 An analogy would be Apple's iPhone: it is twice as expensive as an average Android phone, and while it doesn't deliver twice as much value, the extra value is worth the extra cost.
 
-As [Stripe documented](https://stripe.com/atlas/guides/business-of-saas#hybrid-sales-approaches): hybrid is hard, because "The most common result of attempting both models simultaneously is that only one of the models receives any traction, and (because these models weave themselves into all operations of the company) it typically strangles the other."
+As [Stripe documented](https://stripe.com/guides/atlas/business-of-saas#hybrid-sales-approaches): hybrid is hard, because "The most common result of attempting both models simultaneously is that only one of the models receives any traction, and (because these models weave themselves into all operations of the company) it typically strangles the other."
 
 This hybrid models is how we [bridge the chasm](https://www.worklife.vc/blog/crossing-the-chasm) between self-service and enterprise.
 

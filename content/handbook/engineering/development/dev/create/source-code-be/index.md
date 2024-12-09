@@ -7,6 +7,34 @@ The Create:Source Code BE team focuses on GitLab's Source Code Management (SCM) 
 
 We interface with the Gitaly and Code Review teams, and work closely with the [Create:Source Code Frontend team](/handbook/engineering/development/dev/create/create-source-code-fe/). The features we work with are listed on the [Features by Group Page](/handbook/product/categories/features/#createsource-code-group) and technical documentation is available on the [Create: Source Code Backend](https://docs.gitlab.com/ee/development/backend/create_source_code_be/index.html) page.
 
+## About our team handbook page
+
+This is our central document for finding everything important to our team. It is
+our single source of truth for who is on the team, processes, practices,
+meetings, links, channels, metrics and more. On this page, a team member should
+be able to find everything they need to be fully engaged on this team.
+
+### Updating this page
+
+To be a DRI for updating our team handbook page, consider following these
+steps:
+
+- Navigate to our [handbook update epic](https://gitlab.com/groups/gitlab-org/-/epics/14740).
+- Create a sub issue describing why a change to this page is needed.
+- If it's quick and you have context, weight it as 1 and create an MR with the
+  change.
+- If it's going to require more effort, weight it higher and describe what's
+  needed for a successful change. It can be considered during the next milestone
+  planning.
+- Once the MR is ready, mention `@gitlab-com/create-team/source-code/backend` in
+  a comment asking for feedback. Mentioning the whole team ensures everyone on
+  the team can contribute to how the team operates.
+- If you think this might be an opportunity to share documentation cross
+  functionally, consider pinging the frontend team to get their feedback.
+- Assign the EM as the reviewer.
+- Once a the team has had 2 business days to discuss, and any concerns are
+  resolved, follow up and ask the EM if they can merge.
+
 ## Team members
 
 The following people are permanent members of the Create:Source Code BE Team:
@@ -18,6 +46,11 @@ The following people are permanent members of the Create:Source Code BE Team:
 The following people of other functional teams are our stable counterparts:
 
 {{< stable-counterparts role="(Product Manager|Frontend Engineer|Technical Writer|Software Engineer in Test|Senior Security Engineer).*(Create:Source Code|Create \(Source)|Dev\:Create" >}}
+
+## Common Links
+
+- GitLab Team Handle: `@gitlab-com/create-team/source-code/backend` 
+- Slack Channel: `#g_create_source-code-be`
 
 ## Sisense and KPIs
 
@@ -68,6 +101,14 @@ Weekly calls between the Product Manager and Engineering Managers (frontend and 
 1. When the planned implementation of the issue is in its smallest form, the engineer/EM will provide a weight. EM or PM will mark as `workflow::needs issue review`.
 
 **Note**: if an issue receives a weight > 3 after this process, it may indicate the IC may not have a full idea of what is needed and further research is needed.
+
+#### Epics, issues, and tasks
+
+The Source Code team uses the following structure of planning objects to organize work:
+
+1. **Epics:** are used to identify a larger set of work that aligns to a specific category/theme (most broad) or feature (most specific) that has multiple issues for delivery and spans multiple milestones worth of work.
+1. **Issues:** are used for individual items that will be planned and can be delivered in a single milestone.
+1. **Tasks:** can be created by the issue's DRI inside an issue to further define pieces that need to be delivered as part of completing the issue. Ex: For Pair Programming, For granular details on the progress, etc.
 
 ### Convention over configuration
 

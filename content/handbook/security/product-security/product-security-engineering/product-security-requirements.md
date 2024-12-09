@@ -73,7 +73,7 @@ This section describes the ownership, maintenance, and transition of product con
     - The requirement needs to incubated by the GitLab Product Security team for other reasons
   - The Planning process will require that stakeholders from the requesting Product Security team, the Product Security Engineering team, and the relevant Product and Engineering teams discuss and collectively make a decision with regards to the need to put the feature or functionality behind a Product Security specific feature flag
 - As features and functionality become enabled for and available to users outside of the GitLab Product Security team, an agreed-upon transition will happen to handover ownership and maintenance
-  - Standard GitLab processes and expectations around [support for expertiment, beta, and generally available features](https://docs.gitlab.com/ee/policy/experiment-beta-support.html) will be followed
+  - Standard GitLab processes and expectations around [support for expertiment, beta, and generally available features](https://docs.gitlab.com/ee/policy/development_stages_support.html) will be followed
   - General availability will constitute a complete transfer of ownership responsibilities, although handovers may occur earlier
 
 ## Build vs. Wait vs. Buy

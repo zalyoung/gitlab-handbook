@@ -46,7 +46,7 @@ The following members of other functional teams are our stable counterparts:
 
 If you're not part of the Support organization, please consider seeking help from them first -- Support has better availability and can help in most common cases.
 
-If you still need help, please file an issue [here](https://gitlab.com/gitlab-org/gitaly/-/issues/new?issuable_template=Support%20Request). Post it on [#g_gitaly](https://gitlab.slack.com/archives/g_gitaly) for more immediate visibility and tag EM and PM, and the Support person you're working with.
+If you still need help, please file an issue [here](https://gitlab.com/gitlab-com/request-for-help/-/issues/new?issuable_template=SupportRequestTemplate-Gitaly). Post it on [#g_gitaly](https://gitlab.slack.com/archives/g_gitaly) for more immediate visibility and tag EM and PM, and the Support person you're working with.
 
 #### Future oncall rotation
 
@@ -62,7 +62,7 @@ For these cases, use `/pd trigger` on Slack, then select the Gitaly rotation. Fo
 
 ### Customer issues
 
-Please file an issue [here](https://gitlab.com/gitlab-org/gitaly/-/issues/new?issuable_template=Support%20Request). Post it on [#g_gitaly](https://gitlab.slack.com/archives/g_gitaly) for more immediate visibility.
+Please file an issue [here](https://gitlab.com/gitlab-com/request-for-help/-/issues/new?issuable_template=SupportRequestTemplate-Gitaly). Post it on [#g_gitaly](https://gitlab.slack.com/archives/g_gitaly) for more immediate visibility.
 
 **A note on customer escalations and engagements**
 
@@ -74,7 +74,7 @@ Our _engineers_ can help, preferably [async](/handbook/company/culture/all-remot
 - providing product-level fixes or improvements, work to be scheduled and results released as usual, under [direction of EM and PM](#working-with-product)
 - improving our documentation if something's unclear
 
-_Engineering Managers_ (`@jcaigitlab` & `@andrashorvath`) and _Product Managers_ (`@mjwood`) are also happy to engage with customers if you need assistance clarifying roadmaps, product features and timelines, or to ensure the correct prioritization.
+_Engineering Managers_ (`@jcaigitlab`) and _Product Managers_ (`@mjwood`) are also happy to engage with customers if you need assistance clarifying roadmaps, product features and timelines, or to ensure the correct prioritization.
 
 We are not a good fit however if you need:
 
@@ -101,7 +101,12 @@ and/or PM polling [these dashboards](#useful-links).
 
 ### Gitaly oncall rotation
 
-Gitaly team is in the process of establishing an oncall rotation to provide focused expertise to production SaaS systems. This is currently in [pilot](https://gitlab.com/groups/gitlab-org/core-platform-section/-/epics/4), and replaces the **Incident Manager On-Call (IMOC)** and **Engineer On-Call (EOC)** responsibilities for Gitaly team members. **The tentative start date is 2025-01-01.**
+Gitaly team is in the process of establishing an oncall rotation to provide
+focused expertise to production SaaS systems. This is currently in
+[pilot](https://gitlab.com/groups/gitlab-org/core-platform-section/-/epics/4),
+and replaces the **Incident Manager On-Call (IMOC)** and **Engineer On-Call
+(EOC)** responsibilities for Gitaly team members. **The tentative start date is
+2025-01-01.**
 
 - Rotation is staffed during working hours of team members (no weekends). This still covers 24h of workdays, given the distribution of Gitaly team members, but without guarantees (see [Who is oncall](#who-is-oncall) below)
   - Weekends are explicitly out of scope (not staffed), and escalation must fall back to the current EOC rotation.
@@ -133,14 +138,9 @@ The source of truth is the [PagerDuty rotation](https://gitlab.pagerduty.com/sch
 
 Please refer to https://handbook.gitlab.com/handbook/engineering/on-call/#pagerduty for the mechanics (swapping oncall, adding new team members to the rotation).
 
-## Cluster team
+## Team Members
 
-**Mission**: Provide a durable, performant, and reliable Git storage layer for GitLab.
-
-[Responsibilities](/job-families/engineering/backend-engineer/#cluster) |
-[In the product hierarchy](/handbook/product/categories/#gitalycluster-group)
-
-{{< team-by-departments "Gitaly Cluster Team" >}}
+{{< team-by-departments "Gitaly Team" >}}
 
 ## Working with product
 
@@ -179,7 +179,7 @@ These `Deliverable` issues help show our commitment to GitLab and our customers 
 
 ##### Project Work
 
-The top level [Gitaly epic](https://gitlab.com/groups/gl-gitaly/-/epics/1)
+The top level [Gitaly epic](https://gitlab.com/groups/gitlab-org/data-access/gitaly/-/epics/1)
 contains linked epics representing projects the team is working on. Team members
 will either be the [primary owner](#dri--supporting-contributors) of an epic, or
 a [supporting contributor](#dri--supporting-contributors). This way knowledge gets
@@ -196,15 +196,20 @@ external to the team when applicable.
 
 The DRI is also responsible for project management, which means
 keeping the epic up to date with relevant issues, removing issues that are no
-longer relevant, and writing weekly updates in the form of a comment in the epic
-with the following format:
+longer relevant, and writing weekly updates the automatically generated comment
+in the epic with the following format:
 
 ```markdown
-## Weekly Update YYYY-MM-DD
+HIGH_LEVEL_SUMMARY
 
-### Progress this week
+:tada: **achievements**:
+-
 
-### Blockers
+:issue-blocked: **blockers**:
+-
+
+:arrow_forward: **next**:
+-
 ```
 
 The supporting contributor(s) of an epic will be responsible for supporting the
@@ -224,8 +229,8 @@ done by anyone on the team.
 
 ##### Technical Roadmap & Customer Issues
 
-The [Gitaly technical roadmap](https://gitlab.com/groups/gl-gitaly/-/epics/2)
-and [Gitaly customer issues](https://gitlab.com/groups/gl-gitaly/-/epics/3)
+The [Gitaly technical roadmap](https://gitlab.com/groups/gitlab-org/data-access/gitaly/-/epics/3)
+and [Gitaly customer issues](https://gitlab.com/groups/gitlab-org/data-access/gitaly/-/epics/2)
 epics contain one-off issues that are not a part of any projects, but are important
 issues to address. These issues will be sorted by priority. Team members can
 pick up work from this board in addition to issues they are working on as part

@@ -15,7 +15,7 @@ For GitLab employees, there is a [central license management](https://www.jetbra
     1. If you want to use any other JetBrains product:
         - on a *regular basis*, please *do file* an Access Request.
         - *occasional use* is possible without an Access Request. Please note that we have a limited set of "All Products" licenses. People who filed an Access Request will receive priority treatment over occasional users.
-1. You can [activate a license for yourself](https://www.jetbrains.com/help/license-vault-cloud/Introduction_to_License_Vault.html/Activating_a_license.html) even while an Access Request is pending.
+1. You can [activate a license for yourself](https://www.jetbrains.com/help/license-vault-cloud/Activating_a_license.html) even while an Access Request is pending.
     - Use the license server URL `https://gitlab.fls.jetbrains.com` during activation
     - Make sure you log in via Okta to authenticate
 

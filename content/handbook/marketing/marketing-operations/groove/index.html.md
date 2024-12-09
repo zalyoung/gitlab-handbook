@@ -35,7 +35,7 @@ Once you have access please take the following steps:
 
 - Download and install the Groove Chrome extension.
 - Connect your calendar and email.
-  - Once you connect your calendar and email to Groove, your emails will begin to log to Salesforce records automatically. Emails sent to or from public domains are blocked from logging to Salesforce.
+  - Once you connect your calendar and email to Groove, your emails will begin to log to Salesforce records automatically. Groove syncs your emails to Salesforce by attaching those messages to contact or lead profiles within your Salesforce instance. This means that emails sent to recipients ***not*** associated with Salesforce will not be synced.
     - To prevent a specific email from being logged to Salesforce, uncheck the `Log` button in the Email Compose window (below the Subject line). This will ensure a specific email is not logged to Salesforce.
 - Connect your LinkedIn Sales Navigator account (if applicable)
 
@@ -67,6 +67,22 @@ Individual flows can be created by any team member in Groove for personal use. X
 
 Should a team member want to turn their individual flow into a master flow for other team members to leverage, approvals by the appropiate Operations team or BDR Manager will be required. Please review the sections below for specific guidance depending on your team.
 
+### BDR Flow Creation Process 
+
+BDRs are able to create individual flows that must be approved by their managers. After approval, ownership of these flows will be switched from the BDR to their Manager by Ops.
+
+**Checklist for BDRs when Creating Flows**
+
+- Is the name of the flow inline with our naming conventions? If no, adjust it
+  - Department, Inbound/Outbound, High Touch/Low Touch, Region, Description, Language
+  - Example: SD IB LT EMEA CONTENT GER
+  - All Sales Dev flows begin with “SD”
+- Have you added labels that align to our naming convention? 
+- Is email tracking on/off for each email step?
+- Have you previewed each step of the flow?
+- Are the steps inline with HT/LT principles? HT should always have Phone calls and LI steps 
+- Have you notified your manager with the reason why you are planning to create this flow? 
+
 ### New Sales Dev Manager Flow Approval Process (Nov 2024)
 
 **Mandatory Manager Approval Checks:**
@@ -75,6 +91,7 @@ Should a team member want to turn their individual flow into a master flow for o
   - Department, Inbound/Outbound, High Touch/Low Touch, Region, Description, Language
   - Example: SD IB LT EMEA CONTENT GER
   - All Sales Dev flows begin with “SD”
+- Have you added the flow to your team collection? 
 - Are there labels used that align to our naming convention? (Do not create new labels)
 - Is email tracking on/off for each email step?
 - Consider toggling manual steps to allow them to include their own template
@@ -166,6 +183,17 @@ Important Notes on Searching using Labels:
 
 - When you filter by choosing multiple labels it creates an “and” statement between all of the labels you choose. For example, if you choose the labels “SD OB HT AMER” and “Motion: Competitive Atlassian” it will show every flow that has EITHER of those labels.
 - Best practice is to only filter down by one label and then search for the key word in the flow you are looking for. For example, you can filter by “SD IB HT AMER” and then in the search bar you can search the word “trial” to narrow your search down to all of the HT AMER Trial flows.
+
+### Groove Variables
+
+Groove Variables are formatted different than Outreach. You can find some commone examples below.
+
+- Personalization Example = {!Personalize Messaging Here}
+- Prospect Company/Account Name = {!company}
+- Prospect First Name = {!firstname}
+- Prospect Last Name = {!lastname}
+- Sender First Name = {!user.firstname}
+- Sender Calender Link = {!User.groove_meeting_link__c}
 
 ### Groove Collections
 

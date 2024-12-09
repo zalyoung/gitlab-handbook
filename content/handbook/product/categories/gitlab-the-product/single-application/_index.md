@@ -1,5 +1,6 @@
 ---
 title: Advantages of a single application
+description: "Discussing the advantages of having a single application"
 ---
 
 ## Single application
@@ -180,7 +181,7 @@ flowchart LR
   A(Plan)
   B(Create)
   C(Release)
-  D(Govern)
+  D(Software Supply Chain Security)
   E(Configure)
   F(Monitor)
   G(Verify)
