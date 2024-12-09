@@ -124,7 +124,7 @@ Anything that would be assigned a weight of 8 or larger should be broken down.
 
 ## Test Platform process across product sections
 
-Overall we follow the same process as [defined](../#how-we-work) in our Test Platform handbook across all groups in Core Platform and SaaS Platform
+Overall we follow the same process as [defined](/handbook/engineering/infrastructure/test-platform/#how-we-work) in our Test Platform handbook across all groups in Core Platform and SaaS Platform
 except for a few exceptions curated to fit the needs of specific groups.
 
-* [Test Platform in Distribution group](/handbook/engineering/infrastructure/test-platform/self-managed-platform-team/distribution/)
+* [Test Platform in Distribution group](/handbook/engineering/infrastructure-platforms/developer-experience/performance-enablement/distribution/)

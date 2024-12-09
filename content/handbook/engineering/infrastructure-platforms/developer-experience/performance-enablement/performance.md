@@ -116,7 +116,7 @@ Load testing in the cloud presents a number of challenges:
 
 #### System Level Load Testing
 
-We currently conduct load testing using [GPT](../performance-and-scalability#performance-tool) and [GBPT](../performance-and-scalability#browser-performance-tool). This testing is predominately run against our [Reference Architectures](../performance-and-scalability/#reference-architectures), but can be run against a live environment, but caution should be applied when running against [shared enviornments](../performance-and-scalability#no-shared-environments-usage).
+We currently conduct load testing using [GPT](/handbook/engineering/infrastructure/test-platform/performance-and-scalability/#performance-tool) and [GBPT](/handbook/engineering/infrastructure/test-platform/performance-and-scalability/#browser-performance-tool). This testing is predominately run against our [Reference Architectures](/handbook/engineering/infrastructure/test-platform/performance-and-scalability//#reference-architectures), but can be run against a live environment, but caution should be applied when running against [shared enviornments](/handbook/engineering/infrastructure/test-platform/performance-and-scalability/#no-shared-environments-usage).
 
 #### Component Level Load Testing
 
@@ -157,7 +157,7 @@ We can run load tests on specific sub components. This can be a subsystem (like 
 | [Profiling page](https://gitlab.com/gitlab-org/gitlab/-/blob/master/doc/development/profiling.md?ref_type=heads) | Documentation on approaches to do profiling on GitLab |
 | [Performance Bar](https://docs.gitlab.com/ee/administration/monitoring/performance/performance_bar.html) | Performance Bar that can be used in a running GitLab instance to see metrics |
 | [Performance Guidelines](https://gitlab.com/gitlab-org/gitlab/-/blob/master/doc/development/performance.md?ref_type=heads) | Our docs page on performance guidelines |
-| [Cells Performance Testing](../../cells/cells_test_strategy/#performance-testing) | Cells performance test strategy handbook page |
+| [Cells Performance Testing](/handbook/engineering/infrastructure/cells/cells_test_strategy/#performance-testing) | Cells performance test strategy handbook page |
 | [Metrics Catalog](https://gitlab.com/gitlab-com/runbooks/-/tree/master/metrics-catalog?ref_type=heads) | home for our SLA/SLO/SLI definitions |
 | [Cells Performance Dashboard](https://dashboards.gitlab.net/d/cells-main/cells3a-cells-performance?orgId=1&from=now-6h%2Fm&to=now%2Fm&timezone=utc&var-PROMETHEUS_DS=mimir-gitlab-ops&var-environment=gprd) | First pass at creating an Observability Performance Dashboard in Grafana |
 | [Platform Triage Dashboard](https://dashboards.gitlab.net/d/general-triage/general3a-platform-triage?orgId=1&from=now-6h%2Fm&to=now%2Fm&timezone=utc&var-PROMETHEUS_DS=mimir-gitlab-gprd&var-environment=gprd&var-stage=main) | the home page dashboard for our grafana, a common starting point for investigating performance in our Observability |
