@@ -69,6 +69,7 @@ Please ensure that whenever you update the tech stack, you follow the instructio
 | handbook_link | Text/Markdown or Unknown** | Link to the `Tech Stack Guide` handbook page that includes function and system information.  Example: "The Marketing handbook contains the [Marketo Tech Stack Guide](/handbook/marketing/marketing-operations/marketo/tech-stack-guide-marketo/)." | Optional, MR Author and contributors |
 | external_link | Text/Markdown or Unknown** | Link to the app's primary website. Example: "[ContractWorks](https://www.contractworks.com/)" | Optional, MR Author and contributors |
 | google_group | Text or Unknown** | Google group being used to manage access to the systems through Okta | Optional, MR Author and contributors |
+| now_id | Text/ServiceNow ID | Integration ID for ServiceNow. Please leave blank for EntApps Engineer to Complete | Contributor, Service Now Engineer |
 
 - *For Booleans, you need to type out either `true` or `false`.
 - **Unknown: If information is unknown, please don't leave the field empty, type `null` instead.
@@ -103,6 +104,7 @@ Copy the content below (including the `-` before `title`) and please add your sy
   handbook_link: null
   external_link:
   google_group: null
+  now_id: null
 ```
 
 **Step 2**
