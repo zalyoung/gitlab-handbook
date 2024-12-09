@@ -236,22 +236,28 @@ The table below is a comparison between the existing GitLab.com features, and no
 | Shared user accounts across Cells                               | Users will need to have new user accounts on each Cell for now                                                                                                                                                                                                                                                                                                                                                |
 | GitLab Duo Pro license works across all projects on instance    | GitLab Duo Pro licenses, once granted, [should allow users to use GitLab Duo Pro on all projects on the instance](https://gitlab.com/gitlab-org/gitlab/-/issues/441244). With Cells 1.0, this will only work within their own cell.                                                                                                                                                                           |
 | User removal                                                    | Users can only be part of one Organization. A removal would equal a deletion in this case, so only user deletions will be offered in Organizations on Cells 1.0. Upon removal, there would be no way for a User to discover another Organization to join, as they are private for Cells 1.0.                                                                                                                  |
-| Windows and Mac OS Runners                                      | Mac and Windows runners are still in beta and there are some more complex technical considerations related to cost. See the discussion: [#434982 (comment 1789275416)](https://gitlab.com/gitlab-org/gitlab/-/issues/434982#note_1789275416) on sharing resources.                                                                                                                                            |
+| Hosted runners on Windows and macOS                                     | Hosted runners on Windows and macOS runners are still in beta and there are some more complex technical considerations related to cost. See the discussion: [#434982 (comment 1789275416)](https://gitlab.com/gitlab-org/gitlab/-/issues/434982#note_1789275416) on sharing resources. Self-managed runners are supported.                                                                                                                                         |
 | Multiple Sizes for Linux Runners                                | We will only support [small linux runners on Cells 1.0](https://gitlab.com/gitlab-org/gitlab/-/issues/434982#note_1806447839).                                                                                                                                                                                                                                                                                |
 | GitLab for Jira Cloud app and GitLab for Slack app integrations | Jira and Slack apps can only be configured to post to single endpoints, so there is nothing in the configured endpoints' routes that would allow the Cells router to know which cell to route to. We may need to support at the organization level. See [#467791](https://gitlab.com/gitlab-org/gitlab/-/issues/467791) and [#467809](https://gitlab.com/gitlab-org/gitlab/-/issues/467809) for more details. |
 | Cross-organization downstream pipelines | Private organizations are in Cells 1.0 only and downstream pipelines would be unable to see public organizations. |
 | Any feature dependent on Clickhouse | Clickhouse is not supported on Dedicated, which is the underlying provisioning tool for Cells. Clickhouse is also not supported in any of our other tooling such as Geo, Org Mover, Backup/Restore, etc. |
+| Any feature dependent on [incoming email](https://docs.gitlab.com/ee/administration/incoming_email.html) (`mail_room`) | Cut scope. While we have a [proposal](https://gitlab.com/gitlab-org/gitlab/-/issues/442161#note_1828026768) to have ingest email per cell, we are yet to figure out how to have stable email addresses that can be used even when an organizations moves to a different cell. |
+| Global search | Each cell will have an isolated search cluster. With Cells 1.0, global search will only work within the cell. See the [Cells: Global Search design document](../impacted_features/global-search.md) for more details. |
 
 ## Questions
 
-1. How do we create new Organizations with the user on additional Cells?
+1. How will we onboard users to an Organization on additional Cells?
 
-    To be defined.
+    An Admin will perform the following tasks:
 
-1. How do we register new users for the existing Organization on additional Cell?
+    1. Create an Organization on the additional cell.
+    1. Create a new user with the Owner role in the Organization.
+    1. Remove the Admin from the Organization. Optional, depending on feature set.
+    1. The new Owner will import data for this group. This would create users, add them to the groups/projects, and add them to the Organization.
 
-    If an Organization is already created, users can be invited.
-    We can then serve the registration flow from additional Cell.
+1. How do we register new users for the existing Organization on an additional Cell?
+
+    The standard [group](https://docs.gitlab.com/ee/user/group/#add-users-to-a-group) and [project](https://docs.gitlab.com/ee/user/project/members/#add-users-to-a-project) invite flows can be used. This means a user with [adequate permissions](https://docs.gitlab.com/ee/user/permissions.html#user-management) can invite users by email to any group or project in the Organization. After the user registers they will be added to the group or project _and_ the Organization.
 
 1. How would users log in?
 

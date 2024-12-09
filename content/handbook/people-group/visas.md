@@ -11,16 +11,16 @@ For our purposes, visa sponsorship is defined as the requirement that a company 
 
 ### General Work Authorization Guidelines
 
-- GitLab does not support any visa that requires sponsorship. Sponsorship includes anything that requires GitLab to become a registered employer or sponsor, petition the government directly, fill out an application on behalf of a team member, pay an employer fee, or otherwise places a significant compliance obligation or burden on GitLab. 
-- GitLab is willing to provide company information, including contact information, an offer of employment, and an employment verification letter to validate employment to assist with a visa application that is not tied to a particular employer. This would not be considered sponsorship. 
+- GitLab does not support any visa that requires sponsorship. Sponsorship includes anything that requires GitLab to become a registered employer or sponsor, petition the government directly, fill out an application on behalf of a team member, pay an employer fee, or otherwise places a significant compliance obligation or burden on GitLab.
+- GitLab is willing to provide company information, including contact information, an offer of employment, and an employment verification letter to validate employment to assist with a visa application that is not tied to a particular employer. This would not be considered sponsorship.
 - GitLab can generally accept dependent visas or other family-based work permits that are not tied to an employer. However, if the individual loses a work permit based on their dependent status (e.g., the spouse who is sponsored by their employer loses their sponsored job), then the individual is no longer authorized to work for GitLab.
 - Please note that if a visa expires (even if it was a visa accepted by GitLab), the individual is not eligible to work immediately upon expiration. If a team member’s work authorization expires, please reach out to People Connect to determine if any possible alternative options exist.
 - The following information is limited to countries with GitLab entities. Alternative visa options may exist in locations where GitLab uses PEOs. As the employer of record, we expect PEOs may have their own policies on what visas they accept and/or assist with.
-- Additional information for People Group members related to work authorization is available [here](https://docs.google.com/document/d/1LnDx1NeDDufo-mGYv-eMYqqaLLkIS0___QgtTXp7otI/edit?usp=sharing). 
+- Additional information for People Group members related to work authorization is available [here](https://docs.google.com/document/d/1LnDx1NeDDufo-mGYv-eMYqqaLLkIS0___QgtTXp7otI/edit?usp=sharing).
 
 ### Visas and work permits GitLab may be able to accept
 
-GitLab's acceptance of a visa depends on many factors. The following visas may make a candidate eligible to work at GitLab. The following list is not exhaustive. 
+GitLab's acceptance of a visa depends on many factors. The following visas may make a candidate eligible to work at GitLab. The following list is not exhaustive.
 
 - Australia Employer Nomination Scheme visa (subclass 186)
 - France EU Blue Card
@@ -33,7 +33,6 @@ GitLab's acceptance of a visa depends on many factors. The following visas may m
 - Netherlands EU Blue Card
 - South Korea F5 Permanent Resident Visa
 - Singapore Personalised Employment Pass
-- Singapore Dependent’s Pass
 - Spain EU Blue Card
 - UK Global Talent Visa
 - UK India Young Professionals Scheme Visa
@@ -99,7 +98,7 @@ Always **check the website of the Embassy of the Country you want to visit** loc
 
 - **6 months beforehand**: make appointment at embassy, and start gathering all necessary paperwork, forms, certificates, pictures, etc.
   - Sometimes you might call the embassy, and be told that you do not need to schedule an interview so far ahead of your trip. Don't take their word for it, since that advice is typically made with the "typical, best case"  process in mind and for example in the case of the USA does not account for the possibility of a black hole "administrative processing" period. In other words, make sure you get an appointment as early as possible.
-  - If the country where the embassy/consulate is located where you are going for your application is listed as anything other than "High Income" by the [World Bank's "Little Data Book"](https://openknowledge.worldbank.org/bitstream/handle/10986/23968/9781464808340.pdf?sequence=4&isAllowed=y) then it is likely that the embassy/consulate there has a [high tendency to say "no" to visa applications](http://www.alllaw.com/articles/nolo/us-immigration/harder-get-visa-from-certain-countries.html). We recommend to engage the services of a local lawyer who is familiar with the embassy process to help check that your paperwork is in order, and to practice interview questions. You're also welcome to ask for support when you are in a "High Income" country. People Ops can help you with this.
+  - If the country where the embassy/consulate is located where you are going for your application is listed as anything other than "High Income" by the [World Bank's "Little Data Book"](https://openknowledge.worldbank.org/bitstream/handle/10986/23968/9781464808340.pdf?sequence=4&isAllowed=y) then it is likely that the embassy/consulate there has a [high tendency to say "no" to visa applications](https://www.alllaw.com/articles/nolo/us-immigration/harder-get-visa-from-certain-countries.html). We recommend to engage the services of a local lawyer who is familiar with the embassy process to help check that your paperwork is in order, and to practice interview questions. You're also welcome to ask for support when you are in a "High Income" country. People Ops can help you with this.
 - **3 months beforehand** (or earlier if indicated by the embassy you are applying to): go to embassy for interview.
 - **2 months beforehand**: if you have not received your visa by now, contact your local lawyer again to see if anything can be done to expedite the process.
 
@@ -121,7 +120,7 @@ The IND (Dutch immigration services) in general take about 4 to 6 weeks' time to
 
 ### 30% Ruling in the Netherlands
 
-The [30% reimbursement ruling](https://www.iamsterdam.com/en/living/take-care-of-official-matters/highly-skilled-migrants/thirty-percent-ruling) (better known as the 30% ruling) is a tax advantage for highly skilled migrants moving to the Netherlands. This benefit, granted for five years, allows them to receive 30% of their employment income tax free. As an example, when your employment income is EUR 60,000; the 30% ruling ensures a net pay of EUR 18,000. The remainder of EUR 42,000 is subject to Dutch taxes. In addition, when being entitled to the 30% ruling you can exclude your savings from Dutch income tax (which can be beneficial once you have exercised your stock options).
+The [30% reimbursement ruling](https://www.iamsterdam.com/en/live-work-study/living/official-procedures/30-tax-ruling) (better known as the 30% ruling) is a tax advantage for highly skilled migrants moving to the Netherlands. This benefit, granted for five years, allows them to receive 30% of their employment income tax free. As an example, when your employment income is EUR 60,000; the 30% ruling ensures a net pay of EUR 18,000. The remainder of EUR 42,000 is subject to Dutch taxes. In addition, when being entitled to the 30% ruling you can exclude your savings from Dutch income tax (which can be beneficial once you have exercised your stock options).
 
 The 30% ruling is a mutual application filed by the employee and GitLab BV as the employer. During the onboarding procedure a [questionnaire](https://docs.google.com/document/d/1Ok6LS9T4P6tnPu2N6BDRDeveOYzd1ILpkbQRhl911w4/edit?ts=5caf1bca) is shared in order to gather the necessary information to file the application for the 30% ruling. People Ops shares the 30% ruling questionnaire and supporting documentation with  HRSavvy (the company that supports GitLab with visas and payroll in the Netherlands). HR Savvy will subsequently apply for the 30% ruling. There are some conditions to be satisfied to be granted the 30% ruling.
 
@@ -257,7 +256,7 @@ If a candidate is interested in employment at GitLab in a country where they req
 More detailed links on the process:
 
 - [Schengenvisainfo.com/EU-Blue-Card](https://www.schengenvisainfo.com/eu-blue-card/)
-- [EU Immigration portal](https://ec.europa.eu/immigration/blue-card/essential-information_en#:~:text=How%20long%20can%20I%20work,which%20has%20issued%20the%20card.)
+- [EU Immigration portal](https://immigration-portal.ec.europa.eu/eu-blue-card/essential-information_en)
 
 ### Other visas GitLab may be able to accept
 
@@ -273,7 +272,15 @@ Grants work rights for the duration of an employment relationship and does not r
 
 #### Japan Engineer Visa
 
-GitLab can provide company information for this visa application. The employee is responsible for their own application and all fees associated with the visa. May be valid for 1 year, 3 years, or 5 years depending on the visa approval, and may be extended/renewed.
+GitLab can provide company information for this visa application. The employee is responsible for their own application and all fees associated with the visa. May be valid for 1 year, 3 years, or 5 years depending on the visa approval, and may be extended/renewed. GitLab cannot assist team members with obtaining a Certificate of Eligibility (COE).
+
+For People Connect internal processing: 
+
+When receiving these requests from team members via HelpLab, provide the following documents to the team member:
+
+- [Company Registration Document](https://drive.google.com/drive/folders/1cLcoIGyb501Zod4OXIKuZjPIL8b7eo8e)
+- Current Year Financials (which can be found in this [folder](https://drive.google.com/drive/folders/1cLcoIGyb501Zod4OXIKuZjPIL8b7eo8e)). If the current/previous years financials are not available, reach out to the Tax team to assist with providing this.
+- Save a copy of this [template](https://docs.google.com/document/d/1Qv8IJz5V4GGvqguuZx20N_V-W2chlV3u_X8iYzl2REU/edit?tab=t.0) and complete all fields that are marked with {}. Once you have all the information completed, send the document to Simon Mundy for signature. 
 
 #### Netherlands Partner Visa
 
@@ -286,10 +293,6 @@ Long-term visa that does not require employer sponsorship. Typically valid indef
 #### Singapore Personalised Employment Pass
 
 This is a visa for high earners that does not require sponsorship. Valid for 3 years and cannot be renewed. When hiring candidates who hold a PEP, emphasize that GitLab will not be able to assist with sponsorship of a new pass once their PEP expires. Hiring managers should also understand that a candidate will only be able to work for GitLab until their PEP expires and GitLab will not be able to make exceptions to our sponsorship policy at that time.
-
-#### Singapore Dependent’s Pass
-
-Does not require employer sponsorship (requires sponsorship by spouse’s employer). Typically valid for 2 years and may be renewed.
 
 #### UK Global Talent Visa
 
@@ -333,7 +336,7 @@ Do:
 
 - Ask all candidates the following two questions:
   - Are you legally authorized to work for GitLab in [country of hire]?
-    - If yes, no further information needed. Please keep a written record of this answer in candidate notes so that if conflicting information arises in the future we know that this question was previously addressed with the candidate.  
+    - If yes, no further information needed. Please keep a written record of this answer in candidate notes so that if conflicting information arises in the future we know that this question was previously addressed with the candidate.
     - If no or any other answer is given, please let them know about our Visa Sponsorship policy and state that we’re required to ensure that all new hires are authorized to work at GitLab at the time of hire. If they are unable to secure work authorization by the proposed start date without our sponsorship or other assistance with securing such authorization, we will not be able to move forward with their application. If they state that they’ll need a certain type of visa that they do not currently hold (like a TN or Blue Card) in order to secure work authorization, please consult the preceding section or reach out to People Connect via HelpLab to confirm that it is a visa we can accept.
   - Will you now or in the future require sponsorship for an employment visa?
     - If yes, please point them to our Visa Sponsorship policy and let them know that we will not be able to sponsor their work visa. If they are unable to secure authorization to work at GitLab without sponsorship then we will not be able to move forward with their application.
@@ -342,10 +345,10 @@ Do:
 - Tell all candidates that they must be currently authorized to work in the country of hire on a full-time basis.
 - Tell all candidates that GitLab will not sponsor work visas.
 - Consult this document or People Connect for more context if a candidate offers information about the type of visa or work permit they are currently on without you asking. Some countries prohibit employers from making hiring decisions on the basis of visa type as long as the person is authorized to work without sponsorship, so it’s important to ensure that this information is used only to confirm that this is a visa we can support without issue.
-- If you are concerned that visas or sponsorship may be an issue for a candidate, we are required to wait until after the candidate has accepted a job offer to ask for further details about their visa type and expiration date. 
+- If you are concerned that visas or sponsorship may be an issue for a candidate, we are required to wait until after the candidate has accepted a job offer to ask for further details about their visa type and expiration date.
 
-Don’t: 
+Don’t:
 
 - Treat a candidate differently based on your perception/guess that they may have or may need a visa or work permit for their location.
-- Ask a candidate if they have a visa or what type of visa they have. If a candidate mentions having a visa you may reiterate that Gitlab does not sponsor work visas and confirm that they do not require sponsorship in order to work for GitLab.
+- Ask a candidate if they have a visa or what type of visa they have. If a candidate mentions having a visa you may reiterate that GitLab does not sponsor work visas and confirm that they do not require sponsorship in order to work for GitLab.
 - Ask a candidate about their nationality or citizenship status. If a candidate offers this information do not ask follow-up questions, do not include it in their candidate notes, and do not take it into consideration when deciding whether to move forward with their candidacy.

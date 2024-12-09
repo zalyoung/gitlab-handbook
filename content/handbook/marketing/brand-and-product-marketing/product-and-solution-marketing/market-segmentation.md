@@ -40,8 +40,8 @@ Various verticals and industries face specific challenges as they address their 
 | **Transportation as a Service** | In this market transformation, the differentiation will be in the quality, simplicity and adoption of the technology platform that enables transportation as a service. This will demand rapid and responsive design, development and iteration from the software teams building the transportation as a service platform and infrastructure. (GitLab/Concurrent DevOps) |
 | **Platform consolidation** | In order to reduce manufacturing complexity and waste, platform consolidation will drive manufacturers to differentiate their products on the underlying technology and consumer services (software). The software will be the differentiator, and will require rapid innovation to keep up with a rapidly changing market. |
 
-- [IHS Whitepaper](http://cdn.ihs.com/www/pdf/AUT-TL-WhitePaper-5.pdf)
-- [Digital Economy - top auto industry challenges](https://web.archive.org/web/20180204084630/http://www.digitalistmag.com/digital-economy/2017/09/14/top-tech-challenges-disrupting-revolutionizing-auto-industry-05365751)
+- [IHS Whitepaper](https://cdn.ihs.com/www/pdf/AUT-TL-WhitePaper-5.pdf)
+- [Digital Economy - top auto industry challenges](https://web.archive.org/web/20180204084630/https://www.digitalistmag.com/digital-economy/2017/09/14/top-tech-challenges-disrupting-revolutionizing-auto-industry-05365751)
 - [PWC- Auto Industry Trends](https://www.strategyand.pwc.com/gx/en/insights/industry-trends/2019-automotive.html)
 
 ### Health care
@@ -67,5 +67,5 @@ Various verticals and industries face specific challenges as they address their 
 | **Efficiency in an dynamic commodity market**  |  Speed to innovate and automation to reduce costs            |
 | **Need for scalable compute to process big data** |  GitLab support for kubernetes            |
 
-- [IBM - Oil and Gas exploration](http://www-935.ibm.com/services/us/gbs/bus/pdf/g510-3882-meeting-challenges-oil-gas-exploration.pdf)
-- [CXO Insights - Oil and Gas Tech Challenges](https://smart-grid.energycioinsights.com/cxo-insights/how-technology-is-changing-the-oil-and-gas-landscape-for-the-better-nwid-51.html)
+- [IBM - Oil and Gas exploration](https://web.archive.org/web/20180329093111/https://www-935.ibm.com/services/us/gbs/bus/pdf/g510-3882-meeting-challenges-oil-gas-exploration.pdf)
+- [CXO Insights - Oil and Gas Tech Challenges](https://web.archive.org/web/20220123120654/https://smart-grid.energycioinsights.com/cxo-insights/how-technology-is-changing-the-oil-and-gas-landscape-for-the-better-nwid-51.html)

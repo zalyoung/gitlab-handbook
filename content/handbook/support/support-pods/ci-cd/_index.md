@@ -34,6 +34,7 @@ In the context of "CI/CD" it can be hard to pinpoint where exactly a problem fit
 - {{< member-by-name "Alejandro Guerrero de Alba" >}} (`@alejguer`)
 - {{< member-by-name "Segolene Bouly" >}} (`@sbouly`)
 - {{< member-by-name "Charl Marais" >}} (`@cmarais`)
+- {{< member-by-name "Sarah Crowle" >}} (`@sacrowle`)
 
 ## How to get involved
 
@@ -47,7 +48,7 @@ In the context of "CI/CD" it can be hard to pinpoint where exactly a problem fit
 ## Regular meetings
 
 - CI/CD Pod pairing session:
-  - Mondays, 15:30 CET (13:30 / 14:30 UTC depending on DST, check the `GitLab Support` calendar)
+  - Mondays, 11:00 CET (09:00 / 10:00 UTC depending on DST, check the `GitLab Support` calendar)
   - Thursdays, 15:30 CET (13:30 / 14:30 UTC depending on DST, check the `GitLab Support` calendar)
 
 ## Collaboration channels

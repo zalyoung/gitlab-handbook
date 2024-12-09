@@ -1,6 +1,6 @@
 ---
 title: "PTY LTD Benefits"
-description: "GitLab PTY Australia benefits specific to Australia based team members."
+description: "GitLab PTY Australia benefits specific to Australia and New Zealand based team members."
 ---
 
 Can't find what you're looking for? Try the main [People Operations page](/handbook/people-group/).
@@ -241,7 +241,7 @@ Unpaid carer's leave can be taken:
 #### Long Service Leave
 
 - Team members may be eligible for long service leave in accordance with state/territory based legislation as varied from time to time.
-- This leave runs concurrently with GitLab PTO. Team members should select `AUS Long Service` in Workday to ensure that leave entitlements are properly tracked. 
+- This leave runs concurrently with GitLab PTO. Team members should select `AUS Long Service` in Workday to ensure that leave entitlements are properly tracked.
 
 #### Other Types of Leave
 
@@ -395,7 +395,7 @@ In considering whether contact is unreasonable, think about:
 - the extent to which the team member is being compensated (eg with time off after an on-call rotation):
   - to remain available to perform work during the period in which contact is made; or
   - for working additional hours outside of their ordinary hours of work;
-- the nature of the team member’s role and their level of responsibility; and 
+- the nature of the team member’s role and their level of responsibility; and
 - the team member’s personal circumstances.
 
 In case of an issue arising relating to whether a team member has reasonably (or unreasonably) refused to monitor or respond to contact, the team members involved are encouraged to raise the issue with their manager or contact [Team Member Relations](teammemberrelations@gitlab.com).
@@ -416,7 +416,9 @@ Please note this benefit is considered a "Fringe Benefit" and will be subject to
 
 GitLab retains the right to replace the provider or policy at any time and is not required to offer this benefit to those that may be ineligible. Any benefits provided under the plan do not impact the Team Member's or GitLab's rights to end the employment relationship.
 
-For additional details please refer to the [FAQ](https://drive.google.com/file/d/1Sd2DpIAf7kgl_A5au0VIUYdRuOZ1ZdJx/view?usp=sharing) and [Benefit Summary](https://drive.google.com/file/d/17WUPQMvvWka77Khe6_adSOiSbibNY3GC/view?usp=sharing)
+For additional details please refer to the [FAQ](https://drive.google.com/file/d/1Sd2DpIAf7kgl_A5au0VIUYdRuOZ1ZdJx/view?usp=sharing) [Benefit Summary](https://drive.google.com/file/d/17WUPQMvvWka77Khe6_adSOiSbibNY3GC/view?usp=sharing), and the full [Policy](https://drive.google.com/file/d/1oGOlDjxFKKV96f8URZ31vNlzCYv8kgru/view?usp=sharing)
+
+For a full overview of the plan please view our [2024 New Zealand Webinar](https://drive.google.com/file/d/1CCqSMJTBV8NUtvk5YilKPgZ8kPw2bVcb/view?usp=sharing)
 
 For questions regarding the plan or enrollment please contact WTW:
 email: benefits.nz@willistowerswatson.com
@@ -431,7 +433,7 @@ Eligible Team Members and their families can join the plan at any time, but plea
 ### Adding a new-born child
 
 The special pre-existing condition cover concession above is extended to a newborn child if they are
-added to the policy within three months of the child's birth. Congenital conditions are not covered. Please contact WTW (benefits.nz@willistowerswatson.com) by email to help add members to your policy.
+added to the policy within three months of the child’s birth. Congenital conditions are not covered, please refer to the policy document to review all exclusions. Please contact WTW (benefits.nz@willistowerswatson.com) by email to help add members to your policy.
 
 ## Medical Plan Administration Details
 
@@ -555,7 +557,7 @@ Partner Leave
 - Team members must email the Absence Management team `leaves@gitlab.com` as soon as possible to notify them of the first date of leave and, if possible, the end date of their leave.
 - Team members must select `Military Leave` in Workday to ensure that statutory entitlements are properly tracked.
 
-For more information related to this policy, please reivew the [Employment New Zealand website](https://www.employment.govt.nz/leave-and-holidays/other-types-of-leave/defence-force-volunteers/)
+For more information related to this policy, please reivew the [Employment New Zealand website](https://www.employment.govt.nz/leave-and-holidays/defence-force-volunteers)
 
 </details>
 
@@ -577,7 +579,7 @@ For more information related to this policy, please reivew the [Employment New Z
 - All team members who have been called for jury service are entitled to unpaid leave for the duration of the service. Team members who attend jury service receive an attendance fee from the Ministry of Justice.
 - Jury Service Leave runs concurrently with GitLab PTO. Team members must select `Jury Duty` in Workday to ensure that statutory entitlements are properly tracked.
 
-For more information related to this policy, please reivew the [Employment New Zealand website](https://www.employment.govt.nz/leave-and-holidays/other-types-of-leave/jury-service/)
+For more information related to this policy, please reivew the [Employment New Zealand website](https://www.employment.govt.nz/leave-and-holidays/jury-service)
 
 </details>
 

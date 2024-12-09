@@ -95,7 +95,7 @@ Promotionally, we will make the GitLab CI/CD feature available as part of the Fr
 
 A customer only needs 1 service account on GitLab to run pipelines for GitHub code, but will benefit from having more user accounts.
 
-#### What are the pro/cons for the business if they create one service account and use it to run their pipelines?
+#### What are the pro/cons for the business if they create one service account for their pipelines?
 
 Pro:
 
@@ -168,7 +168,7 @@ possibility, but requires additional complexity such as augmenting how we price.
 - JAXenter:[GitLab 10.6: CI/CD for GitHub, increased Kubernetes support](https://jaxenter.com/gitlab-10-6-142702.html), Jane Elizabeth, 3.23.18
   - "As part of their prior commitment to supporting open source, GitLab already offers all public projects their highest tier features for free. This means that open source projects on GitHub will be able to handle hundreds of concurrent jobs with 50,000 free compute minutes."
 
-- ZDNet:[GitLab makes CI/CD tools available for GitHub repositories](http://www.zdnet.com/article/gitlab-makes-cicd-tools-available-for-github-repositories/), Stephanie Condon, 3.22.18
+- ZDNet:[GitLab makes CI/CD tools available for GitHub repositories](https://www.zdnet.com/article/gitlab-makes-cicd-tools-available-for-github-repositories/), Stephanie Condon, 3.22.18
   - "GitLab is trying to reach more developers this way because it believes CI/CD is 'a core component of making your DevOps transformation,' Mark Pundsack, head of product at GitLab, told ZDNet.
 
 - SiliconANGLE:[GitLab brings code integration and delivery to rival hosting service GitHub](https://siliconangle.com/blog/2018/03/22/gitlab-brings-cicd-capabilities-github/), Maria Deutscher, 3.22.18

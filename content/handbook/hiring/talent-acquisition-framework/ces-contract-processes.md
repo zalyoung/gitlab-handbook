@@ -23,10 +23,10 @@ This chart reflects the available signatories for each of GitLab's entities. The
 |-------- | -----|
 | GitLab Inc | All Recruiting Leads (Jake Foster, Marissa Farris), Jess Dallmar, Rob Allen, Other People Group Team Members who are employed by Inc. and of the appropriate grade to sign the document. JCLs can be signed by Morgan Wilkins  |
 | GitLab Federal LLC    |       Bob Stevens     |
-| GitLab BV Belgium, Dutch & English | Marissa Farris, Pattie Egan|
-| GitLab BV, Netherlands | Marissa Farris & Pattie Egan|
+| GitLab BV Belgium, Dutch & English | Marissa Farris, Jake Foster & Pattie Egan|
+| GitLab BV, Netherlands | Marissa Farris, Jake Foster & Pattie Egan|
 | GitLab Canada Corp | Simon Mundy |
-| GitLab France S.A.S. | Rob Allen & Pattie Egan & Jake Foster|
+| GitLab France S.A.S. | Jake Foster, Pattie Egan, & Rob Allen |
 | GitLab GK, Japan | Jess Dallmar, Rob Allen & Jack Connors Backup: Simon Mundy|
 | GitLab GmbH | Marissa Farris, Rob Allen & Pattie Egan|
 | GitLab Iberia S.L (Spain) | Jake Foster, Rob Allen, Pattie Egan. Backups: Jim Gladen & Simon Mundy |
@@ -36,8 +36,8 @@ This chart reflects the available signatories for each of GitLab's entities. The
 | GitLab PTY Ltd, Australia | Jess Dallmar & Rob Allen, Jack Connors. Backup: Jim Gladen|
 | GitLab PTY Ltd, New Zealand | Jess Dallman & Rob Allen, Jack Connors. Backup: Jim Gladen|
 | GitLab South Korea | Jess Dallmar, Jack Connors & Rob Allen |
-| GitLab Singapore PTE. LTD. | Jess Dallmar & Rob Allen. Backup: Simon Mundy |
-| GitLab UK Ltd | Marissa Farris, Rob Allen, Pattie Egan|
+| GitLab Singapore PTE. LTD. | Jess Dallmar, Jack Connors & Rob Allen. Backup: Simon Mundy |
+| GitLab UK Ltd | Marissa Farris, Jake Foster, Rob Allen, Pattie Egan|
 | JCLs | Choose signatory from the list above. For the US, Morgan Wilkins can also sign. |
 | PEOs | The Candidate Experience Specialist processing the offer. For JCLs, choose Morgan Wilkins or Marissa Farris |
 
@@ -491,7 +491,7 @@ Once this information has been received, please go onto GH and follow the steps 
 
 ## CXC (NOTE: HIRING IS CURRENTLY PAUSED HERE: Please speak with Enablement before sending offer letters)
 
-GitLab is working in partnership with [CXC Global](http://cxcglobal.com/) to employ GitLab team-members located in **Poland**, **Ukraine**, **Romania**, **Russia**, **Serbia**, & **Slovenia**. The actual employment contracts will be sent and issued by CXC and are in accordance with local labor law. CXC also handles the processing and payment of payroll and associated taxes and compliance in each of the countries on behalf of GitLab. The contracts themselves are between the individual and CXC.
+GitLab is working in partnership with [CXC Global](https://www.cxcglobal.com/) to employ GitLab team-members located in **Poland**, **Ukraine**, **Romania**, **Russia**, **Serbia**, & **Slovenia**. The actual employment contracts will be sent and issued by CXC and are in accordance with local labor law. CXC also handles the processing and payment of payroll and associated taxes and compliance in each of the countries on behalf of GitLab. The contracts themselves are between the individual and CXC.
 
 CXC provides a 12 month contract in these locations, and this can be extended. They are only able to support contractors that have an established entity/company in these countries (listed above). The offer details will be provided to CXC by GitLab's hiring team.
 

@@ -132,7 +132,7 @@ Here are some best practices that may help your all-remote team be successful.
 ### Hiring
 
 - Be transparent about your [hiring process and practices](hiring/) so that interviewing time can be spent evaluating the candidate's ability to do the job.
-- [Don't limit yourself](https://doist.com/blog/best-practices-managing-remote-employees) to *only* hiring people who have a passion for remote work. Start by looking for candidates who align with your company [values](/handbook/values/) and the role itself.
+- [Don't limit yourself](https://blog.doist.com/best-practices-managing-remote-employees/) to *only* hiring people who have a passion for remote work. Start by looking for candidates who align with your company [values](/handbook/values/) and the role itself.
 - Assign new hires a [buddy]({{< ref "onboarding-buddies" >}}) so they have someone to reach out to in their first weeks.
 - Define clear goals and [performance indicators](/handbook/company/kpis/) for each role from the start so that you can measure success once you've hired someone for the role.
 
@@ -160,7 +160,7 @@ I often find the midday slump to be so real, so if I'm feeling this way I step a
 
 ### Communicate clearly
 
-- Remote teams are less likely to know what's going on in each other's daily lives, so it's important that you're able to [express yourself](https://thriveglobal.com/stories/how-these-5-secrets-help-remote-workers-thrive) and ask for help when you need it.
+- Remote teams are less likely to know what's going on in each other's daily lives, so it's important that you're able to [express yourself](https://community.thriveglobal.com/how-these-5-secrets-help-remote-workers-thrive/) and ask for help when you need it.
 - Make the most of your [video calls](https://about.gitlab.com/blog/2019/08/05/tips-for-mastering-video-calls) so that you can build relationships with your team.
 
 ### Decide where to work
@@ -168,7 +168,7 @@ I often find the midday slump to be so real, so if I'm feeling this way I step a
 - Designate a space that's used solely for work so that you can mentally switch from home to office. Don't have a separate room to use as an office? Consider using a screen or partition to physically divide the space.
 - Make sure you have the equipment you need to be productive (for GitLab team members, here's a helpful [guide](/handbook/finance/spending-company-money/)).
 - Join a coworking space or meet up with someone else who works remotely to cowork in person.
-- [Try out different background sounds](https://thriveglobal.com/stories/450-remote-workers-reveal-how-to-boost-productivity-when-working-from-home) like music, ambient noise, or silence to see what works best for you while you're working.
+- [Try out different background sounds](https://community.thriveglobal.com/450-remote-workers-reveal-how-to-boost-productivity-when-working-from-home/) like music, ambient noise, or silence to see what works best for you while you're working.
 - If you have family or roommates at home while you're working, consider [setting boundaries](https://about.gitlab.com/blog/2019/08/01/working-remotely-with-children-at-home) with them about your workspace to reduce interruptions.
 
 ### Create an ergonomic workspace
@@ -176,11 +176,11 @@ I often find the midday slump to be so real, so if I'm feeling this way I step a
 ![GitLab all-remote ergonomic workspace](/images/all-remote/gitlab-com-all-remote-v3-dark-1280x270.png)
 {style="max-width: 50%;"}
 
-The goal of [office ergonomics](http://ergo-plus.com/office-ergonomics-10-tips-to-help-you-avoid-fatigue) is to design your [workspace](workspace/) so that it fits you and allows for a comfortable working environment for maximum productivity and efficiency.
+The goal of [office ergonomics](https://ergo-plus.com/office-ergonomics-10-tips-to-help-you-avoid-fatigue/) is to design your [workspace](workspace/) so that it fits you and allows for a comfortable working environment for maximum productivity and efficiency.
 
 Since we all work from home, GitLab wants each team member to have the [supplies](/handbook/finance/spending-company-money/) and knowledge they need to create an ergonomic home office.
 
-Here are some tips from the [Mayo Clinic](http://www.mayoclinic.org/healthy-lifestyle/adult-health/in-depth/office-ergonomics/art-20046169) on how to arrange your work station.
+Here are some tips from the [Mayo Clinic](https://www.mayoclinic.org/healthy-lifestyle/adult-health/in-depth/office-ergonomics/art-20046169) on how to arrange your work station.
 
 - **Chair**: Choose a chair that supports your spinal curves. Adjust the height of your chair so that your feet rest flat on the floor or on a footrest and your thighs are parallel to the floor. Adjust armrests so your arms gently rest on them with your shoulders relaxed.
 - **Keyboard and mouse:** Place your mouse within easy reach and on the same surface as your keyboard. While typing or using your mouse, keep your wrists straight, your upper arms close to your body, and your hands at or slightly below the level of your elbows. Use keyboard shortcuts to reduce extended mouse use. If possible, adjust the sensitivity of the mouse so you can use a light touch to operate it. Alternate the hand you use to operate the mouse by moving the mouse to the other side of your keyboard. Keep regularly used objects close to your body to minimize reaching. Stand up to reach anything that can't be comfortably reached while sitting.
@@ -204,7 +204,6 @@ It's sometimes hard to remember to stay active when you work from home. Here are
 - Avoid "Digital Eye Strain" by following the [20-20-20 Rule](https://www.healthline.com/health/eye-health/20-20-20-rule#definition). Every 20 minutes look into the distance (at least 20 feet/6 meters) for 20 seconds.
 - Use an app - there are some that will remind you to take a break or help you with your computer posture:
   - [Time Out](https://itunes.apple.com/us/app/time-out-break-reminders/id402592703?mt=12 )(macOS)
-  - [Awareness](http://iamfutureproof.com/tools/awareness) (macOS)
   - [SafeEyes](https://slgobinath.github.io/SafeEyes) (GNU/Linux)
 - Move every day
   - Go for a walk or do a short exercise for at least 15 minutes a day.

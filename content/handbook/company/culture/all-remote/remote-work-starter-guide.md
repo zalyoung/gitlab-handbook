@@ -77,11 +77,11 @@ It's important to [overcommunicate with your team](getting-started/#begin-to-cre
 
 {{< youtube "R0AB8ZvnEIU" >}}
 
-*In this [video](https://youtu.be/IU2nTj6NSlQ), GitLab's Head of Remote shares his top work-from-home tips with [Jack Altman](https://twitter.com/jaltma), CEO of [Lattice](http://lattice.com).*
+*In this [video](https://youtu.be/IU2nTj6NSlQ), GitLab's Head of Remote shares his top work-from-home tips with [Jack Altman](https://twitter.com/jaltma), CEO of [Lattice](https://lattice.com).*
 
 ## Additional resources
 
-For a deep dive, consider studying and implementing suggestions from GitLab's [comprehensive guide to remote work](http://allremote.info).
+For a deep dive, consider studying and implementing suggestions from GitLab's [comprehensive guide to remote work](https://allremote.info).
 
 - [How to live your best remote life](https://about.gitlab.com/blog/2019/07/09/tips-for-working-from-home-remote-work)
 - [GitLab's guide for starting a remote job](getting-started/)

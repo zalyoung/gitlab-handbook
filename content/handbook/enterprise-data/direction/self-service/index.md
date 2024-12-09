@@ -12,7 +12,7 @@ title: "Self-Service Data"
 
 - *easy to find*: Data Customers must be able to easily find data relevant to them
 - *easy to understand*: Data must be labeled and organized in a consistent way using business-friendly terms and concepts
-- *actionable*: Data must provide or help provide insights that support [decisions or action](http://www.onstartups.com/tabid/3339/bid/96738/Measuring-What-Matters-How-To-Pick-A-Good-Metric.aspx), towards delivering results
+- *actionable*: Data must provide or help provide insights that support [decisions or action](https://www.onstartups.com/tabid/3339/bid/96738/Measuring-What-Matters-How-To-Pick-A-Good-Metric.aspx), towards delivering results
 
 ### GitLab Self-Service Data Program
 

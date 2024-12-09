@@ -66,7 +66,7 @@ As CSMs have positioned themselves to be more strategic and reach Director, VP, 
 - [Google Doc (Actively being updated)](https://docs.google.com/document/d/1lkk_25XwOOw9eN-NqxuupZsDWRdWPbmFYD8RP8cWXz8/) - Lee Faus, Brian Wald, and Francis Ofungwu share themes (four pillars) they are hearing from executives around GitLab's platform
 - Sandler Articles
   - [How to Use DISC Assessments to Appropriately Customize Workplace Communication](https://www.sandler.com/blog/how-use-disc-assessments-appropriately-customize-workplace-communication/) (Article)
-  - [Up Front Contracts](https://www.dwood.sandler.com/blog/Up-Front-Contracts) (Article)
+  - [Up Front Contracts](https://go.sandler.com/dwood/insights/videos/coaching/elevating-your-up-front-contract-with-danny-wood/) (Article)
 - [Pyramid Principle for Slide Presentation](https://www.myconsultingoffer.org/case-study-interview-prep/pyramid-principle/) (Article)
 - [Tim Ferris - how I prepare for keynotes](https://tim.blog/2010/04/11/public-speaking-how-i-prepare-every-time/) (Article)
 
@@ -91,11 +91,11 @@ As CSMs have positioned themselves to be more strategic and reach Director, VP, 
 - [Secrets to Optimal Client Service](https://www.youtube.com/watch?v=hJbwyN4ZoCg) (YouTube)
 - [Selling Solutions vs Solving Problems](https://www.youtube.com/watch?v=9ZuWLs7ZNpY) (YouTube)
 - [Psychological Safety: Clear Blocks to Innovation, Collaboration, and Risk-Taking](https://www.linkedin.com/learning/psychological-safety-clear-blocks-to-innovation-collaboration-and-risk-taking/psychological-safety-clear-blocks-to-problem-solving-and-innovation?u=2255073) (LinkedIn Learning)
-- [Improving Your Listening Skills](https://www.linkedin.com/learning/improving-your-listening-skills/welcome?u=2255073) (LinkedIn Learning)
+- [Improving Your Listening Skills](https://www.linkedin.com/learning/improving-your-listening-skills-19238090) (LinkedIn Learning)
 - [The Six Morning Habits of High Performers](https://www.linkedin.com/learning/the-six-morning-habits-of-high-performers/six-practices-to-get-back-on-track-16454204?u=2255073) (LinkedIn Learning)
 - [Unconscious Bias](https://www.linkedin.com/learning/unconscious-bias/) (LinkedIn Learning)
 - [How to Make Strategic Thinking a Habit](https://www.linkedin.com/learning/how-to-make-strategic-thinking-a-habit/why-make-strategic-thinking-a-habit?u=2255073)  (LinkedIn Learning)
-- [Leading with Emotional Intelligence](https://www.linkedin.com/learning/leading-with-emotional-intelligence-3/lead-with-emotional-intelligence) (LinkedIn Learning)
+- [Leading with Emotional Intelligence](https://www.linkedin.com/learning/leading-with-emotional-intelligence-19884915) (LinkedIn Learning)
 
 <a name="tech-domain"></a>
 
@@ -139,7 +139,7 @@ As CSMs have positioned themselves to be more strategic and reach Director, VP, 
 
 #### Markdown
 
-- [Handbook Markdown Guide](/handbook/markdown-guide/)
+- [Handbook Markdown Guide](https://handbook.gitlab.com/docs/markdown-guide/)
 - [GitLab Flavored Markdown (GLFM)](https://docs.gitlab.com/ee/user/markdown.html)
 - [Handbook Style Guide](/handbook/about/style-guide/)
 - [Markdown Tutorial](https://about.gitlab.com/blog/2018/08/17/gitlab-markdown-tutorial/)
@@ -181,10 +181,10 @@ Access codes and recording links can be found in this [internal doc](https://doc
 
 ### LinkedIn Learning
 
-[Handbook details about LinkedIn Learning](/handbook/people-group/learning-and-development/linkedin-learning/).
+[Handbook details about LinkedIn Learning](/handbook/people-group/learning-and-development/self-paced-learning/#linkedin-learning).
 
-We also have a list of [Recommended Learning Paths](/handbook/people-group/learning-and-development/linkedin-learning/#recommended-learning-paths).
+We also have a list of [Recommended Learning Paths](/handbook/people-group/learning-and-development/self-paced-learning/#linkedin-learning).
 
 ### Coursera
 
-[Handbook details about Coursera](/handbook/total-rewards/benefits/general-and-entity-benefits/growth-and-development/#self-service-learning-skillserve-coursera-others)
+[Handbook details about Coursera](/handbook/people-group/learning-and-development/growth-and-development/#self-service-learning)

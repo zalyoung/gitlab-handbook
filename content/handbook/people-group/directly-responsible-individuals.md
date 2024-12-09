@@ -5,7 +5,7 @@ description: "Directly Responsible Individuals (DRIs) at GitLab own particular p
 
 ## What is a directly responsible individual?
 
-[Apple coined the term](http://fortune.com/2011/08/25/how-apple-works-inside-the-worlds-biggest-startup/) "directly responsible individual" (DRI) to refer to the one person with whom the buck stopped on any given project.
+[Apple coined the term](https://fortune.com/article/how-apple-works-inside-the-worlds-biggest-startup/) "directly responsible individual" (DRI) to refer to the one person with whom the buck stopped on any given project.
 The idea is that every project is assigned a DRI who is ultimately held accountable for the success (or failure) of that project.
 
 They likely won't be the only person working on their assigned project, but it's ["up to that person to get it done or find the resources needed."](https://originalfuzz.com/blogs/magazine/83782148-the-directly-responsible-individual)
@@ -47,7 +47,7 @@ DRIs work conceptually because they leave no room for ambiguity about who has th
 The DRI should be wholly invested in their assignment and welcome collaboration in order to succeed.
 While they're empowered to make all final decisions, they should know how and when to trust in the experience and judgment of their teams and peers.
 
-**Of course, when things do go wrong, it's also the DRI who (usually) takes the fall** as was the case when Scott Forestall, then iOS senior vice president, was forced to resign after he ["refused to sign the letter apologizing"](http://fortune.com/2012/10/29/inside-apples-major-shakeup/) for Apple's infamously error-laden Maps app redesign in 2011.
+**Of course, when things do go wrong, it's also the DRI who (usually) takes the fall** as was the case when Scott Forestall, then iOS senior vice president, was forced to resign after he ["refused to sign the letter apologizing"](https://fortune.com/2012/10/29/inside-apples-major-shakeup/) for Apple's infamously error-laden Maps app redesign in 2011.
 
 ## Characteristics of a Project DRI
 

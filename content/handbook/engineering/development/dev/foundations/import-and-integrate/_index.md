@@ -244,6 +244,38 @@ For any issues that were not discussed and given a weight, the engineering
 manager will work with the engineers to see if we need to get more information
 from PM or UX.
 
+### Requesting help
+
+If you are not part of the Support organization, we recommend reaching out to them first, as they have greater availability and can assist with most common issues. There's a dedicated Slack channel [#spt_pod_import_and_integrate](https://gitlab.enterprise.slack.com/archives/C052K0Z1F8T) you can join, follow and ask questions in. However, there are times when in-depth technical knowledge is needed to resolve a customer issue, requiring the involvement of an engineer from the team.
+
+Before requesting help from the Engineering team, please first review the [GitLab documentation](https://docs.gitlab.com/) for the topic of your interest and the additional resources listed below:
+
+- [Importer Runbook](https://gitlab.com/gitlab-org/foundations/import-and-integrate/team/-/blob/main/importers/runbook.md?ref_type=heads)
+- [GitLab Log Analysis Tool](https://gitlab.com/gitlab-org/foundations/import-and-integrate/gitlab-logs-analysis)
+- [Jira playlist](https://www.youtube.com/playlist?list=PL05JrBw4t0Koazgli_PmMQCER2pVH7vUT)
+
+If you cannot find the answer to your question in the resources listed above, please open a [Request for Help (RFH) issue](https://gitlab.com/gitlab-com/dev-sub-department/section-dev-request-for-help/-/issues/new?issuable_template=SupportRequestTemplate-Import-Integrate) and use the `SupportRequestTemplate-Import-Integrate` template. Please ensure that you provide all the required information before reaching out to the team; otherwise, we will be unable to proceed with your request. New issues will be prioritized according to our internal triage process. Please note that we can only support requests for issues affecting the current and the two most recent minor GitLab versions (N-2). We cannot offer a fix for older versions. This is aligned with our [maintenance policy for backports](https://docs.gitlab.com/ee/policy/maintenance.html#patch-releases).
+
+### Milestone Doctors
+
+In FY2025, on average 4-5 `Request for Help` (RFH) issues per month have been opened for feature categories that are owned by our team. Most of these issues are high-priority requests that involve the Engineering team to help resolve blocking issues for our customers. This type of ad-hoc work causes a lot of interruption while working on milestone Deliverables. To ensure these RFH issues are processed as quickly as possible by the Engineering team and to reduce context-switching time within the team, two engineers take on the "Milestone Doctor" role at every milestone. Their capacity for Deliverable work is reduced to 70% to allow taking over additional responsibilities as "Milestone Doctors".
+
+#### Responsibilites
+
+- Engage with Support and PS on new [RFH issues](https://gitlab.com/gitlab-com/dev-sub-department/section-dev-request-for-help/-/issues/?label_name%5B%5D=Help%20group%3A%3Aimport%20and%20integrate)
+- Follow-up on long-lasting open issues
+- Assist the Support team on customer calls
+- Maintain team runbook documentation on how Milestone Doctors have successfully diagnosed problems
+- Respond to questions in our team Slack channel #g_manage_import_and_integrate
+
+#### Rotation schedule
+
+- Each milestone two Backend Engineers take the role of a Milestone Doctor.
+- Engineers claim shifts themselves on the [Milestone Doctor schedule spreadsheet](https://docs.google.com/spreadsheets/d/1N6ObBcCnliu4uZS-_IbpsjzgrF5f-etcLohYKAzR6KQ/edit?usp=sharing).
+- At the beginning of a new milestone, Milestone Doctors update assignee section of the [RFH template](https://gitlab.com/gitlab-com/dev-sub-department/section-dev-request-for-help/-/edit/main/.gitlab/issue_templates/SupportRequestTemplate-Import-Integrate.md?ref_type=heads#L99) with their usernames.
+- Given the current team size, every Backend Engineer is expected to sign up as Milestone Doctor once per quarter.
+- At the end of each quarter, the EM assigns unassigned shifts for the upcoming quarter to engineers.
+
 ### Working with Security
 
 The group has an existing [threat model](https://gitlab.com/gitlab-com/gl-security/product-security/appsec/threat-models/-/blob/master/gitlab-org/gitlab/GitLab%20Migration.md) to assist in identifying issues that may have security implications, but there are other considerations.
@@ -274,7 +306,7 @@ During this time the flag is enabled by default but can still be disabled quickl
 In the past, we were able to quickly mitigate several incidents by disabling the feature:
 
 - [2023-09-21: Group import allows impersonation of users in CI pipelines](https://gitlab.com/gitlab-sirt/shared-incidents/incident_4304/-/issues/1)
-- [2023-10-30: Gitlab.com is down](https://gitlab.com/gitlab-com/gl-infra/production/-/issues/17054)
+- [2023-10-30: GitLab.com is down](https://gitlab.com/gitlab-com/gl-infra/production/-/issues/17054)
 - [2024-01-30: Sidekiq Apdex SLO](https://gitlab.com/gitlab-com/gl-infra/production/-/issues/17504)
 
 For changes within importers, integrations or webhooks we should prefer to:
@@ -462,21 +494,31 @@ This is a collection of links for monitoring our features.
 - [Matching "Integrations"](https://new-sentry.gitlab.net/organizations/gitlab/issues/?project=3&query=is%3Aunresolved+Integrations&referrer=issue-list&statsPeriod=14d)
 - [Matching "Jira"](https://new-sentry.gitlab.net/organizations/gitlab/issues/?project=3&query=is%3Aunresolved+Jira&referrer=issue-list&statsPeriod=14d)
 
-### Kibana logs and dashboards
+### Kibana dashboards
 
-#### JiraConnect workers
+See a [list of all Import and Integrate Kibana dashboards](https://log.gprd.gitlab.net/app/dashboards#/list?s=tag:(group::import)&sort=title&sortdir=asc).
+
+Importer dashboards:
+
+- [Project Import/Export](https://log.gprd.gitlab.net/app/dashboards#/view/03a11c50-ba46-11ec-b73f-692cc1ae8214)
+- [GitHub Import - Overview](https://log.gprd.gitlab.net/app/dashboards#/view/62965d10-9c0e-11ed-9f43-e3784d7fe3ca)
+- [GitHub Import - Project import debug](https://log.gprd.gitlab.net/app/dashboards#/view/be0fb6d0-9c24-11ed-85ed-e7557b0a598c)
+- [GitLab Direct Transfer](https://log.gprd.gitlab.net/app/dashboards#/view/f2640580-a8bd-11ed-85ed-e7557b0a598c)
+- [User contributions mapping](https://log.gprd.gitlab.net/app/dashboards#/view/f9c66d73-50a1-43e2-89ab-56b71645df33)
+
+API/Webhooks dashboards:
+
+- [REST and GraphQL API](https://log.gprd.gitlab.net/app/dashboards#/view/ee792100-cfc7-11ec-afaf-2bca15dfbf33)
+- [Webhooks](https://log.gprd.gitlab.net/app/dashboards#/view/deec2320-3914-11ed-b86b-d963a1a6788e)
+
+### Kibana logs
+
+GitLab for Jira Cloud app workers:
 
 - [`JiraConnect::SyncMergeRequestWorker`](https://log.gprd.gitlab.net/goto/309f97d4a5c3e918e2c07754fefc94ee) errors.
 - [`JiraConnect::SyncBranchWorker`](https://log.gprd.gitlab.net/goto/96364e957898896c4dc7e9ee5534b6de) errors.
 - [`JiraConnect::SyncProjectWorker`](https://log.gprd.gitlab.net/goto/5f0e03847ddc1b074d6346199c8bc4d2) errors.
 - [All JiraConnect sync worker](https://log.gprd.gitlab.net/goto/39348f2d169e6929c41dba2d6fb063ee) timeout errors.
-
-#### Import dashboards
-
-- [Project Import/Export - Overview](https://log.gprd.gitlab.net/app/dashboards#/view/03a11c50-ba46-11ec-b73f-692cc1ae8214)
-- [GitHub Import - Overview](https://log.gprd.gitlab.net/app/dashboards#/view/62965d10-9c0e-11ed-9f43-e3784d7fe3ca)
-- [GitHub Import - Project import debug](https://log.gprd.gitlab.net/app/dashboards#/view/be0fb6d0-9c24-11ed-85ed-e7557b0a598c)
-- [GitLab Direct Transfer - Overview](https://log.gprd.gitlab.net/app/dashboards#/view/f2640580-a8bd-11ed-85ed-e7557b0a598c)
 
 ### Error budgets
 

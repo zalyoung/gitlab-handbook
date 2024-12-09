@@ -87,13 +87,13 @@ The table below represents the steps a CSM would typically take in Gainsight. Pl
 
 #### Technical Documentation
 
-- [Gainsight Technical Documentation](/handbook/sales/field-operations/customer-success-operations/gainsight/gainsight-gtm.html)
+- [Gainsight Technical Documentation](/handbook/sales/field-operations/customer-success-operations/gainsight/gainsight-gtm/)
 - [Gainsight Administration](/handbook/sales/field-operations/customer-success-operations/gainsight/)
 - [SalesForce and Zendesk Sync](/handbook/customer-success/csm/gainsight/#salesforce-and-zendesk-syncing)
 
 #### Gainsight University
 
-- [Gainsight End Users eLearning path - Gainsight University](https://education.gainsight.com/page/end-user-training-for-nxt)
+- [Gainsight End Users Learning path - Gainsight University](https://education.gainsight.com/app/learning_paths/86c4a373-8d89-4865-aa13-c1174364e8e9)
 
 #### Video enablement
 
@@ -107,8 +107,7 @@ The videos listed here are internal to GitLab only. You will need to be logged i
 - [Gainsight Assist Gmail Plugin](https://www.youtube.com/watch?v=7_gPQv-CHHA&feature=youtu.be)
 - [Gainsight Account Triage](https://drive.google.com/file/d/1-jM7j-tpY3kC6kZR4xjXS8iUPrkoBrn9/view)
 - [Executive Business Reviews with Gainsight](https://www.youtube.com/watch?v=LE1aNw4OiHw&feature=youtu.be)
-- [Sally Slackbot](https://education.gainsight.com/series/end-user-training/gainsight-sally)
-- [How a Gainsight CSM Uses Gainsight](https://education.gainsight.com/series/end-user-training-for-nxt/how-a-gainsight-csm-uses-gainsight)
+- [How a Gainsight CSM Uses Gainsight](https://education.gainsight.com/app/courses/1a7c70d2-804f-44c6-b378-3bd7e536ae82)
 - [Using Gainsight in Account Team Meetings](https://youtu.be/gT_pz9PoHHg)
 - [License Usage in Gainsight](https://youtu.be/ZqpmxoUy6EE)
 - [Product Usage Data - Overview](https://youtu.be/5_J9Kfbu5JA)

@@ -59,7 +59,8 @@ Entering time off in Workday is not necessary if working but working asynchronou
 ### Holidays
 
 1. We encourage all team members to take time off for public holidays observed in their country. No one is expected to attend calls on days they are not working or out of the office for an official public holiday. As a company that prides itself on a [family & friends first](/handbook/values/#family-and-friends-first-work-second) approach, it's a general guideline that if public schools or government offices in your area are closed for a particular national or regional holiday, that it's recognized for GitLab team members in that location to take that time off as a public holiday as well. For a general listing of public holidays by country, follow these steps:
-    1. Go to the [timeanddate.com](https://www.timeanddate.com/holidays/)
+    1. Go to the [timeanddate.com](https://www.timeanddate.com/date/)
+    1. Select 'Holidays Worldwide' from the Calendar dropdown menu.
     1. Select your country of residence
     1. Change the dropdown from 'All holidays and national observances' to 'Public Holidays'
 
@@ -92,7 +93,7 @@ Communicate broadly when you will be away so other people can manage time effici
 1. Being part of a global remote team means you need to be highly organized and a considerate team player. Each team has busy times so it is always a good idea to check with them to ensure there is adequate coverage in place.
 1. In case an emergency arises while you're away, please designate a backup individual and brief them on your key projects so they can assist in your absence.
 1. Transition and reassign work that is already in progress to another member of your team whenever possible.
-1. Please document your knowledge and share it with others. [Key-person-risk](https://dynamicbusiness.com.au/topics/workplace/hr-and-staff/managing-key-person-risk.html) can have a large impact. This is especially true for "subject matter experts" or SME, people with specialized knowledge of a project, tool, or subject.
+1. Please document your knowledge and share it with others. [Key-person-risk](https://dynamicbusiness.com/locked/managing-key-person-risk.html) can have a large impact. This is especially true for "subject matter experts" or SME, people with specialized knowledge of a project, tool, or subject.
     1. It can be very helpful for your PTO and team members if you document, share (weekly team call + async in Slack) and communicate your PTO already well in advance (2-3 weeks).
     1. One useful way of capturing work is to create & share a Google Doc which lists all your important projects / customer interactions + a short list of useful details per entry. This include tips for covering you best while on PTO. For example:
         1. "Name of covering team member" - also useful for your manager to quickly know who is covering which projects or customers for you.
@@ -274,7 +275,7 @@ You can request a new Workday feature by using the aforementioned `/time-off-dee
 
 ### Instructions for Team Members to update past events
 
-Team members can [correct or edit](https://docs.google.com/document/d/1c0Qp738HXEeIb_SxUeKZYlG3su086CO5Dxa618Rvffk/edit) past-dated time off entries up to 30 days in the past.  All other entries will need to be submitted to the People Connect team for review.  Not all requests will be approved as it is the team member's responsibility to assure all time away requests are accurate.  
+Team members can [correct or edit](https://docs.google.com/document/d/1c0Qp738HXEeIb_SxUeKZYlG3su086CO5Dxa618Rvffk/edit) past-dated time off entries up to 30 days in the past.  All other entries will need to be submitted to the People Connect team for review.  Not all requests will be approved as it is the team member's responsibility to assure all time away requests are accurate.
 
 ## Management's Role in Paid Time Off
 
@@ -295,7 +296,7 @@ Reporting from Workday helps managers:
 1. Be sure their direct reports are taking enough PTO
 1. Review upcoming PTO of direct reports to make project management decisions and manage team member burnout
 
-Managers will have access to Time Away dashboards and other reports within Workday.  
+Managers will have access to Time Away dashboards and other reports within Workday.
 
 #### How to use Workday data to support your team
 
@@ -325,7 +326,7 @@ Taking time off should be a chance for a team members to step away from work and
 
 It is important for us to take a step back to recognize and acknowledge the feeling of being "[burned out](/handbook/company/culture/all-remote/mental-health/)".
 We are not as effective or efficient when we work long hours, miss meals or forego nurturing our personal lives
-for sustained periods of time. If you feel that you or someone on your team may be experiencing [burnout](http://www.mayoclinic.org/healthy-lifestyle/adult-health/in-depth/burnout/art-20046642), be sure to address it right away.
+for sustained periods of time. If you feel that you or someone on your team may be experiencing [burnout](https://www.mayoclinic.org/healthy-lifestyle/adult-health/in-depth/burnout/art-20046642), be sure to address it right away.
 
 To get ahead of a problem, be sure to communicate with your manager if any of the following statements ever apply to you:
 
@@ -360,11 +361,11 @@ but help them arrange things so they **can** take a break. Ask why they feel the
 (there are almost certainly real, concrete reasons) and then ask permission to get busy putting things in place
 that will overcome those barriers. People might be trapped by their own fatigue, being too worn out to find the creative solutions needed to take a break.
 
-Other [tips to avoid burnout](http://www.mayoclinic.org/healthy-lifestyle/adult-health/in-depth/burnout/art-20046642?pg=2) include:
+Other [tips to avoid burnout](https://www.mayoclinic.org/healthy-lifestyle/adult-health/in-depth/burnout/art-20046642?pg=2) include:
 
 - Make use of our [Employee Assistance Program](/handbook/total-rewards/benefits/general-and-entity-benefits/#employee-assistance-program) that can offer professional support during this time.
 - Assess and pursue your interests, skills and passions.
-- Take breaks during the day to eat healthy food and stretch your legs. The [Timeout app](http://dejal.com/timeout/) can help with that.
+- Take breaks during the day to eat healthy food and stretch your legs. The [Timeout app](https://dejal.com/timeout/) can help with that.
 - Make time each day to increase blood and oxygen circulation which improves brain activity and functionality.
 - Get plenty of restful sleep.
 - Meditate to take your mind away from work. [Headspace](https://www.headspace.com/science) and [Calm](https://www.calm.com/meditate) are good tools for creating meditation habits.
@@ -466,9 +467,9 @@ GitLab's [PTO policy](paid-time-off) overrides over GitLab Canada Corp in the se
 - [Newfoundland and Labrador Labor Standards](https://www.gov.nl.ca/ecc/labour/lsaissues/)
 - [Northwest Territories Employment Standards](https://www.ece.gov.nt.ca/en/services/employment-standards)
 - [Nova Scotia Labor Standards](https://novascotia.ca/lae/employmentrights/docs/LabourStandardsCodeGuide.pdf)
-- [Nunavut Labor Standards](http://www.nu-nlsb.ca/)
+- [Nunavut Labor Standards](https://www.nu-nlsb.ca/)
 - [Ontario Employment Standards](https://www.labour.gov.on.ca/english/es/)
-- [Prince Edward Island Employment Standards](https://www.princeedwardisland.ca/en/information/economic-growth-tourism-and-culture/employment-standards-in-pei)
+- [Prince Edward Island Employment Standards](https://www.princeedwardisland.ca/en/information/workforce-advanced-learning-and-population/employment-standards-in-pei)
 - [Quebec Labor Standards](https://www.cnesst.gouv.qc.ca/sites/default/files/documents/labour-standards-quebec.pdf)
 - [Saskatchewan Employment Standards](https://www.saskatchewan.ca/business/employment-standards)
 - [Yukon Employment Standards](https://yukon.ca/en/employment/employment-standards)

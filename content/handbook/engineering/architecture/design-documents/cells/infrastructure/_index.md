@@ -1,4 +1,5 @@
 ---
+title: "Cells: Infrastructure"
 stage: core platform
 group: Tenant Scale
 description: 'Cells: Infrastructure'
@@ -9,8 +10,6 @@ toc_hide: true
 ---
 
 {{< design-document-header >}}
-
-# Cells: Infrastructure
 
 ## Pre-reads
 
@@ -100,6 +99,9 @@ cloud "ClickHouse Cloud" {
 }
 
 frame "Google Cloud Platform" <<gcp>> {
+  frame "topology-service" <<gcp_project>>{
+    rectangle "TopologyService" as TopologyService
+  }
   frame "Cell Cluster" <<cluster>> {
     frame "gitlab-production" <<gcp_project>>{
       frame "gprd (Shared VPC Network)" <<vpc>> as gprdVPC {
@@ -227,7 +229,10 @@ frame "Google Cloud Platform" <<gcp>> {
 
   "Cell Cluster" -u-> cloud.gitlab.com
 }
-
+[RoutingService]-[thickness=1]->TopologyService
+[cell1gke]-[thickness=1]->TopologyService
+[cell2gke]-[thickness=1]->TopologyService
+[primaryFrontend]-[thickness=1]->TopologyService
 [RoutingService]-[thickness=3]->primaryFrontend
 [RoutingService]-[thickness=3]->cell1gke
 [RoutingService]-[thickness=3]->cell2gke

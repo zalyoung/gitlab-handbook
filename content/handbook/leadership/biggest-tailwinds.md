@@ -37,7 +37,7 @@ We also have a [Mitigating Concerns page](https://internal.gitlab.com/handbook/l
 
 [Progressive Delivery](https://about.gitlab.com/blog/2019/04/19/progressive-delivery-using-review-apps/)
 
-[Workloads Moving to the Cloud](https://www.synopsys.com/blogs/software-security/cloud-migration-business/)
+[Workloads Moving to the Cloud](https://www.blackduck.com/blog/cloud-migration-business.html)
 
 ## 4. All-Remote
 

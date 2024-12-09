@@ -30,7 +30,7 @@ These categories are grouped by data source and subject area.
 
 > Is it possible to report at the namespace or user level using Service Ping data?
 
-- Nope! As part of our [Commitment to Individual User Privacy](/handbook/product/analytics-instrumentation-guide/service-usage-data-commitment/), GitLab only collects usage metrics aggregated at the installation level.
+- Nope! As part of our [Commitment to Individual User Privacy](/handbook/product/product-processes/analytics-instrumentation-guide/service-usage-data-commitment/), GitLab only collects usage metrics aggregated at the installation level.
 
 > What is the difference between an instance and an installation?
 
@@ -68,7 +68,7 @@ These categories are grouped by data source and subject area.
 
 <details markdown="1"><summary>Click to expand</summary>
 
-- [Categories of data collected: Subscription, Operational, Optional](/handbook/legal/privacy/customer-product-usage-information/index.html.md#what-are-the-data-collection-services-that-constitute-product-usage-data)
+- [Categories of data collected: Subscription, Operational, Optional](/handbook/legal/privacy/customer-product-usage-information/.md#what-are-the-data-collection-services-that-constitute-product-usage-data)
   - [Operational metrics](https://metrics.gitlab.com/?q=operational)
   - [Optional metrics](https://metrics.gitlab.com/?q=optional)
 

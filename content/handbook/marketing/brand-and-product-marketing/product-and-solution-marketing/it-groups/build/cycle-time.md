@@ -63,7 +63,7 @@ Faster time to market and shorter cycle times are a major challenge that is face
    1. Analyst reports
       1. Forrester has evaluated GitLab as a Leader in Continuous Integration in The Forrester Wave™: Continuous Integration Tools, Q3 2017 report.
       1. Forrester has evaluated GitLab as a strong performer for VSM capabilities on top of its end to end DevOps capabilities.
-      1. [Gartner Peer Reviews - Customer's Choice (Applications release orchestration)](https://www.gartner.com/reviews/market/application-release-orchestration-solutions/vendor/gitlab/?pid=67923)
+      1. Gartner Peer Reviews - Customer's Choice (Applications release orchestration)
       1. IDC recognized GitLab as a top 3 innovator in Agile Code Development Technologies for 2018.
 
    1. Industry Awards

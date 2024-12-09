@@ -11,7 +11,7 @@ description: "Diversity, Inclusion & Belonging is fundamental to the success of 
 Diversity, Inclusion & Belonging is fundamental to the success of GitLab.  We include it in every way possible and in all that we do.  We strive for a transparent environment where all globally dispersed voices are heard and welcomed.  We strive for an environment where people can show up as their full selves each day and can contribute to their best ability.  And with over 100,000 organizations utilizing GitLab across the globe, we strive for a team that is representative of our users.
 
 Diversity complements our other [values](/handbook/values/), specifically Collaboration, Efficiency and Results.
-And diversity in our leadership [supports innovation](https://www.bcg.com/en-us/publications/2018/how-diverse-leadership-teams-boost-innovation.aspx), [promotes better decision making](https://www.cloverpop.com/hacking-diversity-with-inclusive-decision-making-white-paper) and [improves financial results](https://www.mckinsey.com/capabilities/people-and-organizational-performance/our-insights/why-diversity-matters).
+And diversity in our leadership [supports innovation](https://www.bcg.com/publications/2018/how-diverse-leadership-teams-boost-innovation), [promotes better decision making](https://www.cloverpop.com/hacking-diversity-with-inclusive-decision-making-white-paper) and [improves financial results](https://www.mckinsey.com/capabilities/people-and-organizational-performance/our-insights/why-diversity-matters).
 
 ## GitLab's Diversity Inclusion and Belonging Mission
 
@@ -165,7 +165,7 @@ This page outlines the process of [DIB Roundtables](dib-roundtables.md). These c
 
 ### #IamRemarkable Workshop
 
-[#IamRemarkable](https://iamremarkable.withgoogle.com/) is a workshop created by Google. The initiative aims to empower women and other underrepresented groups to celebrate their achievements in the workplace and beyond, and to challenge perceptions around self-promotion.
+[#IamRemarkable](https://www.rmrkblty.org/iamremarkable) is a workshop created by Google. The initiative aims to empower women and other underrepresented groups to celebrate their achievements in the workplace and beyond, and to challenge perceptions around self-promotion.
 
 #### Logistics
 
@@ -183,7 +183,7 @@ Currently, we have three GitLab team members who are certified to facilitate the
 1. Terri Chu
 1. Gosia Ksionek
 
-In order to more efficiently scale this initiative at GitLab, we would *love* to have more facilitators join us! Anyone can [register to become a facilitator](https://iamremarkable.withgoogle.com/about-facilitators). As soon as you have been certified, feel free to add your name to the list of facilitators above.
+In order to more efficiently scale this initiative at GitLab, we would *love* to have more facilitators join us! Anyone can [register to become a facilitator](https://www.rmrkblty.org/iamremarkableabout-facilitators). As soon as you have been certified, feel free to add your name to the list of facilitators above.
 
 ### Stay Interviews or Team Member Experience Interviews
 
@@ -229,7 +229,7 @@ At GitLab, we are proud to make reasonable accommodations to the known disabilit
 
 #### Related Disability Legislation
 
-- [United Nations Convention on the Rights of Persons with Disabilities (CRPD)](https://www.un.org/development/desa/disabilities/convention-on-the-rights-of-persons-with-disabilities.html)
+- [United Nations Convention on the Rights of Persons with Disabilities (CRPD)](https://social.desa.un.org/issues/disability/crpd/convention-on-the-rights-of-persons-with-disabilities-crpd)
 - [Global Disability Legislation](https://williamsav.com/wp-content/uploads/2020/06/Global_summary_of_disability_leg.pdf)
 
 ### United States Veteran Inclusion
@@ -258,7 +258,7 @@ If you are a team member on a GitLab Inc or Federal contract and a disabled vete
 - We have a variety of trainings on [GitLab University](https://university.gitlab.com/learn/dashboard) including
   - DIB @ GitLab
   - Neurodiversity in the Workplace
-  - Digital Accessibility 
+  - Digital Accessibility
   - With many others to increase your knowledge on DIB Subjects
 - [Live Inclusion training](https://www.youtube.com/watch?v=gsQ2OsmgqVM&feature=youtu.be)
 - [Live Ally training](https://www.youtube.com/watch?v=wwZeFjDc4zE&feature=youtu.be)

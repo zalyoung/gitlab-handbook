@@ -43,7 +43,7 @@ RStudio can connect to various database for production development of models or 
    - **odbc.ini** holds information required to connect to databases, such as host, username, etc. This is where you set up your DSN for your system.
    - to see the location of these configuration files, run the command `odbcinst -j`.
 
-1. Download the latest driver for Snowflake [here](https://sfc-repo.snowflakecomputing.com/odbc/mac64/index.html). You can then follow [these instructions](https://docs.snowflake.com/en/user-guide/odbc-mac.html) to complete the configuration of the driver on your machine.
+1. Download the latest driver for Snowflake [here](https://sfc-repo.snowflakecomputing.com/odbc/mac64/index.html). You can then follow [these instructions](https://docs.snowflake.com/developer-guide/odbc/odbc-mac) to complete the configuration of the driver on your machine.
    - As many parameters as desired can be entered in the configuration files, such as role, database, warehouse, username, etc. However, these can also be specified in RStudio. Is you choose to set up the configuration files with these details, it may be necessary to set up a DSN for every database/schema used in Snowflake.
    - Below are examples of how to configure the **odbc.ini** and **odbcinst.ini** files in the user file location.
 
@@ -77,7 +77,7 @@ Authenticator = gitlab.okta.com
 
 ## Connecting to Snowflake in RStudio
 
-The next step is to connect RStudio to Snowflake using the driver configurations you've just set up. This can be accomplished by using the `DBI`,`tidyverse`, and `odbc` packages in R. For a general overview on how to connect to databases in RStudio, please refer to [this website](https://db.rstudio.com/) for detailed information.
+The next step is to connect RStudio to Snowflake using the driver configurations you've just set up. This can be accomplished by using the `DBI`,`tidyverse`, and `odbc` packages in R. For a general overview on how to connect to databases in RStudio, please refer to [this website](https://solutions.posit.co/connections/db/) for detailed information.
 
 This is an example of the code that can be used to connect to Snowflake in R.
 
@@ -239,11 +239,54 @@ This documentation was creating using RStudio version 2022.07.1.
 
 Google Sheets and R have the ability to interact via the `googlesheets4` and `googledrive` packages in R.
 
-1. Installation
-2. Reading Existing Google Sheets
-3. Writing to Google Sheets
+1. Google App Authentication Setup
+2. Package Installation
+3. Reading Existing Google Sheets
+4. Writing to Google Sheets
 
-### Part 1: Installation
+### Part 1: Google App Authentication Setup
+
+1. Follow the steps in the [handbook](/handbook/security/corporate/systems/google/apps/) to add yourself to the Google Cloud Project.
+2. Submit and issue similar to [this one](https://gitlab.com/gitlab-com/gl-security/corp/infra/issue-tracker/-/issues/877) to set up access for yourself specifically
+3. Once the access is set up, you can use the below code to work through setting up and configuring access in RStudio.
+
+```r
+library(googlesheets4)
+library(googledrive)
+## googlesheets4 Test
+google_app <- httr::oauth_app(
+    "R",
+    key = "[KEY].apps.googleusercontent.com",
+    secret = "[SECRET]"
+)
+
+google_key <- "[GOOGLE_KEY]"
+
+# googlesheets4::gs4_auth_configure(app = google_app,
+#                                   api_key = google_key)
+
+googlesheets4::gs4_auth_configure(client = gargle::gargle_oauth_client_from_json("~/Google Drive/Shared drives/People Analytics/Google API in R/googlesheets_api_sm.json"),
+                                  api_key = google_key)
+
+googlesheets4::gs4_auth()
+
+## Test Read
+googlesheets4::read_sheet(ss = "https://docs.google.com/spreadsheets/d/1Oe7AduRIKO7Zqh60v51Zn-WnTJYpcMDho_394urBmpA",
+                          sheet = "stop_words") |>
+    View()
+
+
+## googledrive Test
+
+googledrive::drive_auth()
+
+googledrive::drive_mv(file = "[SHEET_NAME]",
+         path = as_id("[PATH]"),
+         overwrite = TRUE)
+
+```
+
+### Part 2: Installation
 
 - Run the following code in R to install the necessary packages in RStudio
 
@@ -254,7 +297,7 @@ invisible(lapply(pkg, library, character.only = TRUE))
 rm(pkg)
 ```
 
-### Part 2: Reading Existing Google Sheets
+### Part 3: Reading Existing Google Sheets
 
 - The `read_sheet()` function will allow you to read an existing spreadsheet
   - Run the `read_sheet()` command in R pointing to the Spreadsheet URL you want to view
@@ -266,7 +309,7 @@ rm(pkg)
   - A new window will open saying authentication is complete. Close the browser window.
   - rerun the `read_sheet()` command again to confirm you can see output in R
 
-### Part 3: Writing to Google Sheets
+### Part 4: Writing to Google Sheets
 
 Below are a list of functions that can be used to write data into a Google Sheet with examples.
 

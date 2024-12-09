@@ -167,7 +167,7 @@ Serious cases, including any criminal offence.
 
 ## Training & Guidance
 
-Training and guidance on understanding, preventing, and dealing with discrimination and sexual harassment will be provided to both managers and individual team members. The courses and the related enrollment logic can be found [here](https://handbook/legal/legalops/navex/#courses). This training will be provided on a regular cadence, consistent with local requirements, and/or when new legal requirements are introduced. 
+Training and guidance on understanding, preventing, and dealing with discrimination and sexual harassment will be provided to both managers and individual team members. The courses and the related enrollment logic can be found [here](/handbook/legal/legalops/navex/#courses). This training will be provided on a regular cadence, consistent with local requirements, and/or when new legal requirements are introduced.
 
 ## Country & US State-Specific Requirements
 
@@ -345,7 +345,7 @@ If the a team member who resides in Vermont is dissatisfied with this employer's
 We are continuously gathering country specific references to review regulation and obtain guidance on the management of harassment or misconduct at work. Here are a few authorities we referred to in the creation of this policy:
 
 - [Equal Employer Opportunity Commission (EEOC)](https://www.eeoc.gov/eeoc-guidance)
-  - Contact [EEOC](https://www.eeoc.gov/employees/charge.cfm): John F. Kennedy Federal Building, 475 Government Center, Boston, MA 02203, , tel:1-800-669-4000 (voice), 1-800-669-6820 (TDD). Complaints must be filed within 300 days of the adverse action.
+  - Contact [EEOC](https://www.eeoc.gov/filing-charge-discrimination): John F. Kennedy Federal Building, 475 Government Center, Boston, MA 02203, , tel:1-800-669-4000 (voice), 1-800-669-6820 (TDD). Complaints must be filed within 300 days of the adverse action.
 - [Society of Human Resource Management (SHRM)](https://www.shrm.org/topics-tools#verticalTabs-39c94d1460-item-e2208bcacd-tab)
 
 ## Further Guidance (Country-Specific)

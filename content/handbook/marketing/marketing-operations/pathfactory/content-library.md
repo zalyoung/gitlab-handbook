@@ -57,7 +57,7 @@ If you need to replace an asset source but keep the same link, you can do so fro
 
 ### Bulk upload
 
-You can [bulk upload multiple new assets](https://nook.pathfactory.com/nook/s/article/csv-upload) to the content library via a CSV file.
+You can [bulk upload multiple new assets](https://support.pathfactory.com/kb/csv-upload/) to the content library via a CSV file.
 
 1. Download this [CSV template](https://d1nk153xyqlyhl.cloudfront.net/Content_CSV_Template.csv). This CSV file has the exact format as the CSV bulk upload template.
 1. Provide all the information in the template for your new assets and save as a CSV.
@@ -77,7 +77,7 @@ To upload a Vimeo video to PathFactory, you must first [upload your video to Vim
 
 1. Navigate to the `Settings` of your video in Vimeo.
 1. Under `General > Privacy`, select `Hide this video from vimeo.com`. **Note:** Other privacy settings will not allow the video to be embedded in a content track.
-1. Under `Where can this be embedded?` select `Specific domains` and enter `https://learn.gitlab.com`.
+1. Under `Where can this be embedded?` select `Specific domains` and enter `learn.gitlab.com` and `gitlab.lookbookhq.com`.
 1. Click on the plus sign and you'll see the subdomain added to under the field.
 1. Click `save`, and you'll notice Vimeo now indicates the video is private (in the top right corner).
 1. Click on `Embed` in the left sidebar.

@@ -310,7 +310,7 @@ responsibility, willingness of GitLab team-members to teach new GitLab team-memb
 1. Move unlimited vacation to a set amount so GitLab team-members take their full vacation.
     - We are taking a look at what the best option is in regard to a limited or unlimited vacation. We want to urge that GitLab team-members take enough [time off]({{< ref "paid-time-off" >}}) to recharge! Unlimited vacation/taking vacation is encourage at GitLab. For information on how these developments are going, check out the open [issue](https://gitlab.com/gitlab-com/www-gitlab-com/issues/952)
 1. Less downtime on GitLab.com.
-    - Our Infrastructure team is always looking for new ways to improve the ownership of the things we ship. The team will look to have owners of services or features, and these services working will be the way they prove that they are actually delivering. Infrastructure has also increased uptime to 99.91% in [December 2016](http://stats.pingdom.com/81vpf8jyr1h9/1902794/2016/12).
+    - Our Infrastructure team is always looking for new ways to improve the ownership of the things we ship. The team will look to have owners of services or features, and these services working will be the way they prove that they are actually delivering. Infrastructure has also increased uptime to 99.91% in [December 2016](https://stats.pingdom.com/81vpf8jyr1h9/1902794/2016/12).
 1. Casual and social interaction.
     - We have instituted [Coffee Breaks](/handbook/company/culture/all-remote/tips#coffee-chats) to promote catching up with GitLab team-members. Also, all GitLab team-members are just a click away on Slack or a call away on the [Random Hangout](/handbook/communication/#random-room).
 1. Revise Lever Notifications.

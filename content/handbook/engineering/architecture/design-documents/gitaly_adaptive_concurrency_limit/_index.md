@@ -365,7 +365,7 @@ reinforced when learning from production later.
 - [Netflix Performance Under Load](https://netflixtechblog.medium.com/performance-under-load-3e6fa9a60581)
 - [Netflix Adaptive Concurrency Limit](https://Github.com/Netflix/concurrency-limits)
 - [Load Shedding with NGINX using adaptive concurrency control](https://tech.olx.com/load-shedding-with-nginx-using-adaptive-concurrency-control-part-1-e59c7da6a6df)
-- [Overload Control for Scaling WeChat Microservices](http://web1.cs.columbia.edu/~junfeng/papers/dagor-socc18.pdf)
+- [Overload Control for Scaling WeChat Microservices](https://web1.cs.columbia.edu/~junfeng/papers/dagor-socc18.pdf)
 - [ReactiveConf 2019 - Jay Phelps: Backpressure: Resistance is NOT Futile](https://www.youtube.com/watch?v=I6eZ4ZyI1Zg)
 - [AWS re:Invent 2021 - Keeping Netflix reliable using prioritized load shedding](https://www.youtube.com/watch?v=TmNiHbh-6Wg)
 - [AWS Using load shedding to avoid overload](https://aws.amazon.com/builders-library/using-load-shedding-to-avoid-overload/)

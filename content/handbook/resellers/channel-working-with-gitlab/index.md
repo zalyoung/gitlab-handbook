@@ -135,7 +135,7 @@ Authorized partners who have achieved at least Open Status may request a quote a
 
 GitLab quotes reflect reseller pricing, exclusive of incentive rebates, and any discounts provided are not meant for the end customer to see. Resellers need to generate their own quote to the end customer and can then provide any customer discount at that time.
 
-GitLab quotes may come with a [Sertifi](http://corp.sertifi.com/) link. E-signing the quote with Sertifi initiates the invoicing process and causes our systems to invoice you. Do not e-sign the quote until you are ready to be invoiced. Do not e-sign the quote if your customer will be paying us directly.
+GitLab quotes may come with a [Sertifi](https://corp.sertifi.com/) link. E-signing the quote with Sertifi initiates the invoicing process and causes our systems to invoice you. Do not e-sign the quote until you are ready to be invoiced. Do not e-sign the quote if your customer will be paying us directly.
 
 GitLab will not generate a quote, or fulfill an order, without an end user contact complete with email, shipping address, and postal code.
 

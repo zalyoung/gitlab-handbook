@@ -3,16 +3,21 @@ title: "Managing Risk, Project Wins, and Business Development"
 description: "Learn about managing reports around project wins, Business Development Items, and Customer Stories."
 ---
 
-## Mitigating Risk via RAID Issue
+## Mitigating Risk via RAID Board
 
 * The RAID, Risks, Actions, Issues, and Decisions is our way to ensure a single source of truth for project risk & resolution
 * It is where our internal project stakeholders and leadership can reference the latest project information when the project is trending or sitting in a Y/R health status
-* The RAID is automatically created when the PM creates the CPR template. First step is to rename template “RAID - Customer - SOW/PO#
+* The RAID is automatically created when the PM creates the CP template. First step is to rename template “RAID - Customer - SOW/PO#
 * While the RAID is created, managed, and reported by the PM, **the internal & Customer team is encouraged to be updated the RAID as we work through Project challenges and mitigations**
-* [Example](https://gitlab.com/gitlab-com/customer-success/professional-services-group/professional-services-delivery/gitlab-professional-services/southwest/sow-2206/-/issues/8 "SWA RAID Log")
+* [Example](https://gitlab.com/gitlab-com/customer-success/professional-services-group/professional-services-delivery/gitlab-professional-services/autozone/SOW-2464/-/boards/7689705?label_name[]=PS%20RAID%20Log "RAID Log")
 
-[Reporting on Risk](https://gitlab.com/groups/gitlab-com/customer-success/professional-services-group/-/issues/?sort=updated_desc&state=opened&label_name%5B%5D=Escalated&first_page_size=20) via RAID
+Reporting on Risk via RAID
 
+* When creating a Risk, the following labels will be applied: "PS RAID Log" "PS Risk" "PSD Workflow::Not Started"
+* Severity should be defined and added as a label "PS:: Priority High" "PS:: Priority Medium" "PS:: Priority Low"
+* Impact will be quantified through impacts to Timeline, Scope, Quality, or Budget
+* An Owner will be assigned as a person responsible for accepting, mitigating, or resolving the Risk.
+* Mitigation plan will be detailed to lessen or eliminate the Risk.
 * Use the label “Escalated” to create immediate attention as it impacts the progress of the project. For internal visibility, the RAID link is included in the Top Customer Report when a project is Y/R
 * [Escalated items can be found here.](https://gitlab.com/groups/gitlab-com/customer-success/professional-services-group/-/issues/?sort=updated_desc&state=opened&label_name%5B%5D=Escalated&first_page_size=20)
 

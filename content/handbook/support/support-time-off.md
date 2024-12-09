@@ -41,7 +41,7 @@ team calendar.
    'Additional calendars to include?'. The 'Support - Time Off' calendar ID is
    `gitlab.com_as6a088eo3mrvbo57n5kddmgdg@group.calendar.google.com`
 1. Verify the following calendars are shared with you. These are shared with the Support Team Google Group:
-   1. [Support OOO - AMER](https://calendar.google.com/calendar/u/0/embed?src=c_rt0g4ptj1nut4045lcgsm21chg@group.calendar.google.com)
+   1. [Support OOO - AMER](https://calendar.google.com/calendar/embed?src=c_9166d2302886c4ae23f34099eeb4015e2d520e1dd4029711becd8370be996513%40group.calendar.google.com)
    1. [Support OOO - APAC](https://calendar.google.com/calendar/embed?src=c_408bhp8a8j579lqr99j552u21s%40group.calendar.google.com)
    1. [Support OOO - EMEA](https://calendar.google.com/calendar/u/0/embed?src=c_ev56c9rgjd9l1sn291i368jn78@group.calendar.google.com)
 
@@ -96,7 +96,7 @@ Follow the guidance below to prepare yourself, your customers, and your colleagu
 If you are assigned to any PagerDuty shifts (such as on-call) during the time off, arrange for coverage:
 
 1. Find a volunteer to cover for you; get help from your manager if necessary.
-1. [Create the appropriate override in PagerDuty](https://support.pagerduty.com/docs/editing-schedules#create-and-delete-overrides).
+1. [Create the appropriate override in PagerDuty](https://support.pagerduty.com/main/docs/edit-schedules#create-overrides).
 
 ### Coverage for assigned tickets
 
@@ -131,7 +131,7 @@ For high priority tickets, tend towards a handing over to someone else:
 
    - Update the corresponding `yaml` file for yourself in the [Support Team project](https://gitlab.com/gitlab-support-readiness/support-team/-/tree/master/data/agents).
    - Change `works_account_deletion: true` to `works_account_deletion: false`
-   - Assign the MR to your manager.
+   - Request a review from your manager.
    - Make sure to undo this change when you return from OOO.
 1. After coming back, make sure to follow the guidelines for [catching up after a scheduled time off](#catching-up-after-a-scheduled-time-off).
 

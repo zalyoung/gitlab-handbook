@@ -1,5 +1,6 @@
 ---
 title: "Matt Nohr's README"
+description: "Personal readme page forMatt Nohr, Engineering Manager, Code Review, GitLab"
 job: "Engineering Manager, Code Review"
 ---
 
@@ -16,7 +17,7 @@ I've previously worked on these teams at GitLab:
 
 My Links:
 
-- [GitLab](https://www.gitlab.com/mnohr)
+- [GitLab](https://gitlab.com/mnohr)
 - [LinkedIn](https://www.linkedin.com/in/matthewnohr/)
 
 This document is a living breathing thing and likely incomplete. I update it frequently and would appreciate your feedback.

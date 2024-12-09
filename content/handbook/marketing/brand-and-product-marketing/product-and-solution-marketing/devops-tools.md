@@ -22,7 +22,7 @@ The DevOps tools below are commonly found in a build-your-own DevOps tool chain.
 - Countersoft
 - Inflectra Corporation
 - Redmine
-- [BMC Remedy](http://www.bmc.com/it-solutions/remedy-itsm.html)
+- [BMC Remedy](https://www.bmc.com/it-solutions/remedy-itsm.html)
 - QA Symphony
 - FogBugz
 
@@ -42,7 +42,7 @@ The DevOps tools below are commonly found in a build-your-own DevOps tool chain.
 
 ### Portfolio Management
 
-- [Atlassian Jira Portfolio](https://www.atlassian.com/software/jira/portfolio)
+- [Atlassian Jira Portfolio](https://www.atlassian.com/software/jira/product-discovery/features/roadmaps)
 - [CA Technologies / Rally](https://www.ca.com/us.html)
 - Wrike
 - Plutora
@@ -54,7 +54,7 @@ The DevOps tools below are commonly found in a build-your-own DevOps tool chain.
 - [Atlassian Jira Service Desk](https://www.atlassian.com/software/jira/service-desk)
 - [Zendesk](https://www.zendesk.com/)
 - [Freshdesk](https://freshdesk.com/)
-- [CA Service Desk Manager](https://www.ca.com/us/products/ca-service-desk-manager.html)
+- [CA Service Desk Manager](https://www.broadcom.com/products/software/service-management/service-desk-manager)
 
 ### Source code management
 
@@ -113,7 +113,7 @@ The DevOps tools below are commonly found in a build-your-own DevOps tool chain.
 - Urban code
 - Hudson
 - cruisecontrol
-- [Electric Cloud](http://electric-cloud.com/products/electricaccelerator/)
+- [Electric Cloud](https://electric-cloud.com/products/electricaccelerator/)
 - Jet Brains
 - [Zuul](https://zuul-ci.org/)
 - [Buildkite](https://buildkite.com/)
@@ -124,7 +124,7 @@ The DevOps tools below are commonly found in a build-your-own DevOps tool chain.
 - [JFrog Artifactory](https://jfrog.com/artifactory/)
 - [Docker Hub](https://hub.docker.com/)
 - [Docker Trusted Registry](https://docs.docker.com/ee/dtr/)
-- [RedHat/CoreOS Quay](https://coreos.com/quay-enterprise/)
+- [RedHat/CoreOS Quay](https://www.redhat.com/en/technologies/cloud-computing/quay)
 - [Amazon ECR](https://aws.amazon.com/ecr/)
 - [Azure ACR](https://azure.microsoft.com/en-us/services/container-registry/)
 - [Google Cloud Container Registry](https://cloud.google.com/container-registry/)
@@ -142,7 +142,7 @@ The DevOps tools below are commonly found in a build-your-own DevOps tool chain.
 - [Puppet Pipelines](https://help.puppet.com/cdpe/current/Content/UserGuide/cd_user_guide.htm)
 - [Cloudbees Codeship](https://codeship.com/)
 - [Atlassian Bitbucket](https://bitbucket.org/product)
-- [Electric Cloud ElectricFlow](http://electric-cloud.com/products/electricflow/)
+- [Electric Cloud ElectricFlow](https://electric-cloud.com/products/electricflow/)
 - [CA Technologies](https://www.ca.com/us.html)
 - [XebiaLabs](https://xebialabs.com/)
 - [Microsoft TFS/VSTS/Azure DevOps](https://about.gitlab.com/blog/2020/07/09/integrating-azure-devops-scm-and-gitlab/)

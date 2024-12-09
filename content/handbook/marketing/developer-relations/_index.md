@@ -71,7 +71,7 @@ Teams within Developer Relations are reachable in these Slack channels:
 - [Contributor Success](/handbook/marketing/developer-relations/contributor-success/)
 - [Developer Advocacy](/handbook/marketing/developer-relations/developer-advocacy/)
 - [Community Programs](/handbook/marketing/developer-relations/community-programs/)
-  - [Open Source Program](/handbook/marketing/developer-relations/community-programs/opensource-program/)
+  - [Open Source Program](/handbook/marketing/developer-relations/community-programs/open-source-program/)
   - [Education Program](/handbook/marketing/developer-relations/community-programs/education-program/)
   - [Startups Program](/handbook/marketing/developer-relations/community-programs/startups-program/)
 - [Evangelist Program](/handbook/marketing/developer-relations/evangelist-program/)
@@ -105,7 +105,7 @@ Organization:
 
 - [<i class="fas fa-credit-card"></i> Team Budgets](/handbook/marketing/developer-relations/workflows-tools/team-budgets)
 - [<i class="fas fa-shopping-cart"></i> Swag operations](/handbook/marketing/developer-relations/workflows-tools/swag/)
-- [<i class="fas fa-magic"></i> Automated Community Programs](/handbook/marketing/developer-relations/community-programs/automated-community-programs/)
+- [<i class="fas fa-magic"></i> Automated Community Programs](/handbook/marketing/developer-relations/community-programs/community-programs-workflows/#automated-applications-workflow-overview)
 - [<i class="fas fa-robot"></i> Zapier](/handbook/marketing/developer-relations/workflows-tools/zapier/)
 - [<i class="fas fa-inbox"></i> Zendesk](/handbook/marketing/developer-relations/workflows-tools/zendesk/)
 - [<i class="fas fa-envelope"></i> Email](/handbook/marketing/developer-relations/workflows-tools/e-mail/)
@@ -255,12 +255,12 @@ We take inspiration from the great work being done by other communities. Some of
 - [Google Summer of Code](https://summerofcode.withgoogle.com/) - This community inspires us through their work to make the tech community more diverse and inclusive and create new opportunities for people new to tech.
 - [Outreachy](https://www.outreachy.org/) - This community inspires us through their work to make the tech community more diverse and inclusive and create new opportunities for people new to tech.
 - [Grace Hopper Community / Systers](https://anitab.org/our-communities/systers/) - This community inspires us through their work to make the tech community more diverse and inclusive.
-- [Lesbians Who Tech](https://lesbianswhotech.org/debugsummit2021/) - This community inspires us through their work to make the tech community more diverse and inclusive.
+- [Lesbians Who Tech](https://lesbianswhotech.org/) - This community inspires us through their work to make the tech community more diverse and inclusive.
 - [Techqueria](https://techqueria.org/) - This community inspires us through their work to make the tech community more diverse and inclusive.
 - [Latinas in Tech](https://latinasintech.org/) - This community inspires us through their work to make the tech community more diverse and inclusive.
 - [Women in Tech](https://women-in-tech.org/) - This community inspires us through their work to make the tech community more diverse and inclusive.
 - [Women Who Code](https://www.womenwhocode.com/) - This community inspires us through their work to make the tech community more diverse and inclusive.
-- [Rails Girls](http://railsgirls.com/) - This community inspires us through their work to make the tech community more diverse and inclusive.
+- [Rails Girls](https://railsgirls.com/) - This community inspires us through their work to make the tech community more diverse and inclusive.
 
 ## <i class="fas fa-book" fa-fw color-orange font-awesome></i> Community Learning Pathway
 

@@ -274,7 +274,7 @@ The following people are owners of this account and can [grant access](https://z
 
 #### Granting access
 
-1. Log in to [Zoom](http://zoom.us/) with your non-GitLab email
+1. Log in to [Zoom](https://zoom.us/) with your non-GitLab email
 1. Go to [**User Management > Users**](https://zoom.us/account/user)
 1. Click on `Add User`
 1. Specify email addresses

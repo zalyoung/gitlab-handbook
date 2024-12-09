@@ -91,18 +91,33 @@ that can save time and enhance customer satisfaction.
 
 ## Ticket transfers
 
-GitLab Support defines two different types of ticket transfers:
+GitLab Support has 2 different types of ticket transfers - rehomes and handovers.  The following sections describe these, and the supporting concepts of satellite tickets and hot rehomes.
 
-### Rehome definition
+**ReHome** 🏠: A `reHome` is a transfer of a ticket from the region of the SE who delivered the first response to the customer's specified preferred region. At the end of the assigned SE's shift, they will forward the ticket to the appropriate (home) region for completion. These are quick, easy, and should be low effort.
 
-A `rehome` is a transfer of a ticket from the region of the SE who delivered
-the first response to the customer's specified preferred region
+**Satellite** 🛰️: A ReHomed ticket that remains unassigned during the upcoming shift in the designated "home region" and subsequently circulates globally at least once. These are unintended and we should be working to minimize satellites.
 
-### Handover definition
+**Handover** 🤝: When a ticket is transferred from one engineer to another due to factors such as paid time off, expertise, or workload management.
 
-A `handover` is a transfer of a ticket to a different SE in **any** region
-for any reason other than regional preference, such as the assignee taking time
-off.
+**Hot ReHome** 🔥:  A ticket currently being addressed in a different region than the customer’s preferred one.  The ticket then requires a rehome because the customer’s temperature is increasing, which raises the urgency. The sending region makes commitments to the customer with the best intentions, but there is no time for alignment and agreement for the receiving region.
+
+Examples of these tickets include:
+
+- Tickets for which a call or special follow-up has been promised within the next few hours without confirming availability with the receiving region present a challenge for the Support Engineer to address without adequate preparation. (Direct to Call - DTC)
+
+- Tickets not in their region that will trigger the Hot ReHome process due to unmet customer expectations with a STAR request (Falling Star).
+- Not ReHomed tickets that require additional attention.
+(The ticket was held outside of the preferred region for longer than 1 shift, which is raising the risk)
+
+### Hot ReHome prevention
+
+Before placing any ticket in a region other than the customer's preferred one, please ensure the following steps are completed:
+
+**Agreement:** The customer must acknowledge that their initial request for a specific region will not be fulfilled and must provide their consent. Additionally, they should understand the added value associated with the ticket in the current region.
+
+**Understanding:** The customer should be made aware that there may be delays in responses. If it becomes necessary to transfer the ticket back to the originally requested region, a transition period will be implemented to ensure the receiving engineer is adequately prepared.
+
+As you work on the ticket, refrain from making promises on behalf of others. Instead, leave a detailed note in the ticket that outlines the customer's situation and emphasizes the intention to achieve a favorable outcome for them. If necessary, contact a manager in the receiving region for assistance. Furthermore, be considerate of the time of the receiving support engineer.
 
 ## Ticket rehome (transfer to the preferred region)
 
@@ -170,7 +185,7 @@ region, you should follow these steps:
 
 ## Ticket handover (assignee change not related to preferred region)
 
-When an engineer is required to hand over a ticket, either to another region or within the same region (e.g., due to the assignee going on PTO), the following workflows should be followed. 
+When an engineer is required to hand over a ticket, either to another region or within the same region (e.g., due to the assignee going on PTO), the following workflows should be followed.
 
 <details>
   <summary markdown="span">Preparing a ticket for handover</summary>
@@ -196,7 +211,7 @@ When an engineer is required to hand over a ticket, either to another region or 
 1. If additional research is needed:
    - Introduce yourself, inform the customer that further research is required,
      and set expectations for the next steps.
-     
+
 </details>
 
 <details>
@@ -212,7 +227,7 @@ When an engineer is required to hand over a ticket, either to another region or 
 1. If additional research is needed:
    - Introduce yourself, inform the customer that further research is required,
      and set expectations for the next steps.
-     
+
 </details>
 
 ## Contacting a Customer Success Manager (CSM) or Account Manager (AM)
@@ -235,7 +250,7 @@ Zendesk as `Account Owner`. To involve a CSM or AM, use the following methods:
 
 Some customers have an Assigned Support Engineer (ASE) who will own their
 tickets. This will be apparent from the org note in the ticket. For such
-customers, see [the ASE workflow](../assigned-support-engineer/working-on-ase-tickets.html).
+customers, see [the ASE workflow](../enhanced-support-offerings/offering-assigned-support-engineer/working-with-ases/global-support-and-ases.md).
 
 ## FAQ
 
@@ -367,7 +382,7 @@ to ensure proper routing and SLA assignment:
    ticket plugin.
 1. Select the appropriate form type. This will most likely match the request
    type of the originating ticket.
-1. Enter the customer's details like subject, problem description and other 
+1. Enter the customer's details like subject, problem description and other
    relevant information. Use the customer's existing Zendesk Ticket to obtain
    the necessary customer information to complete the form.
 1. Submit the ticket using the `Create Ticket` button.

@@ -23,7 +23,7 @@ description: "GitLab Data Team Library"
 ## Recommended Reading, Listening, Watching
 
 - [The AI Hierarchy of Needs](https://hackernoon.com/the-ai-hierarchy-of-needs-18f111fcc007)
-- [Data Meta Metrics](https://caitlinhudon.com/2017/11/14/data-meta-metrics/)
+- [Data Meta Metrics](https://www.caitlinhudon.com/posts/2017/11/14/data-meta-metrics)
 - [Engineers Shouldn't Write ETL](https://multithreaded.stitchfix.com/blog/2016/03/16/engineers-shouldnt-write-etl/)
 - [The Startup Founder's Guide to Analytics](https://thinkgrowth.org/the-startup-founders-guide-to-analytics-1d2176f20ac1)
 - [Functional Data Engineering — a modern paradigm for batch data processing](https://medium.com/@maximebeauchemin/functional-data-engineering-a-modern-paradigm-for-batch-data-processing-2327ec32c42a)
@@ -40,7 +40,7 @@ description: "GitLab Data Team Library"
 - [Is your company too dumb to be data-driven?](https://towardsdatascience.com/is-your-company-too-dumb-to-be-data-driven-696932d597c3)
 - [What does "self-serve" analytics mean to you?](https://discourse.getdbt.com/t/what-does-self-serve-in-analytics-mean-to-you/712/5)
 - [Models for integrating data science teams within organizations](https://medium.com/@djpardis/models-for-integrating-data-science-teams-within-organizations-7c5afa032ebd)
-- [Building a Mature Analytics Workflow](https://blog.fishtownanalytics.com/building-a-mature-analytics-workflow/) (Note: this explains the "Analytics is a subfield of software engineering" premise.)
+- [Building a Mature Analytics Workflow](https://www.getdbt.com/blog/building-a-mature-analytics-workflow) (Note: this explains the "Analytics is a subfield of software engineering" premise.)
 - [DataOps playlist on YouTube](https://www.youtube.com/playlist?list=PLVbsAdgZXvtyy6HVKCP0HChjCcq2oW3eK)
 
 ## Data Newsletters
@@ -48,16 +48,16 @@ description: "GitLab Data Team Library"
 - [Algos & Ethics](https://algosandethics.substack.com)
 - [Calogica](https://calogica.com/signup)
 - [The Carpentries](https://carpentries.topicbox.com/latest)
-- [DataEng Weekly](http://dataengweekly.com/)
+- [DataEng Weekly](https://dataengweekly.com/)
 - [Data Elixir](https://dataelixir.com/)
 - [Data is Plural](https://tinyletter.com/data-is-plural)
-- [Data Science Roundup Newsletter](http://roundup.fishtownanalytics.com/)
+- [Data Science Roundup Newsletter](https://roundup.getdbt.com/)
 - [Data Science Weekly](https://www.datascienceweekly.org/)
 - [Music and Tech](https://angelddaz.substack.com)
 - [Normcore Tech](https://vicki.substack.com)
 - [NumLock News](https://numlock.substack.com)
 - [One Shot Learning](https://buttondown.email/oneshotlearning)
-- [SF Data](http://weekly.sfdata.io/)
+- [SF Data](https://weekly.sfdata.io/)
 
 ## Data Blogs
 
@@ -66,13 +66,13 @@ description: "GitLab Data Team Library"
 - [Buffer Blog](https://data.buffer.com)
 - [Calogica](https://calogica.com/blog)
 - [Fishtown Analytics Blog](https://blog.fishtownanalytics.com)
-- [Go Data Driven](https://blog.godatadriven.com)
+- [Go Data Driven](https://xebia.com/blog/category/domains/data-ai/)
 - [MBA Mondays](https://avc.com/archive/#mba_mondays_archive)
 - [Mode Analytics Blog](https://blog.modeanalytics.com/)
 - [Multithreaded](https://multithreaded.stitchfix.com/)
 - [Tableau Data Blog](https://www.tableau.com/blog)
-- [Silota](http://www.silota.com/docs/recipes/)
-- [Wes McKinney Blog](http://wesmckinney.com/archives.html)
+- [Silota](https://www.silota.com/docs/recipes/)
+- [Wes McKinney Blog](https://wesmckinney.com/archives.html)
 - [Data Ops](https://medium.com/data-ops)
 - [Retina AI Blog](https://retina.ai/blog/)
 - [StitchFix Algorithms Blog](https://multithreaded.stitchfix.com/algorithms/blog/)
@@ -81,23 +81,23 @@ description: "GitLab Data Team Library"
 
 ## Data Visualization Resources
 
-- [Storytelling with Data](http://storytellingwithdata.com/)
+- [Storytelling with Data](https://storytellingwithdata.com/)
 - [Data Revelations](https://www.datarevelations.com/)
 - [Data Visualization Catalogue](https://datavizcatalogue.com/)
 - [Eager Eyes](https://eagereyes.org/)
 - [FiveThirtyEight's DataLab](https://fivethirtyeight.com/features/)
 - [Flowing Data](https://flowingdata.com/)
 - [From Data to Viz](https://www.data-to-viz.com/)
-- [Gravy Anecdote](http://gravyanecdote.com/)
+- [Gravy Anecdote](https://gravyanecdote.com/)
 - [JunkCharts](https://junkcharts.typepad.com/)
 - [Make a Powerful Point](https://makeapowerfulpoint.wordpress.com/)
-- [Makeover Monday](http://www.makeovermonday.co.uk)
+- [Makeover Monday](https://www.makeovermonday.co.uk)
 - [Perceptual Edge](https://perceptualedge.com/)
 - [PolicyViz](https://policyviz.com/)
 - [The Pudding](https://pudding.cool/)
-- [Visualising Data](http://www.visualisingdata.com/)
-- [VizWiz](http://www.vizwiz.com/)
-- [WTF Visualizations](http://viz.wtf/)
+- [Visualising Data](https://visualisingdata.com/)
+- [VizWiz](https://www.vizwiz.com/)
+- [WTF Visualizations](https://viz.wtf/)
 
 ## Data Slack Communities
 
@@ -109,7 +109,7 @@ description: "GitLab Data Team Library"
 - [Measure](https://docs.google.com/forms/d/e/1FAIpQLSdyAxOcI8z1EEiJDW4sGln-1GK9eJV8Y86eljX-uSlole0Vtg/viewform?c=0&w=1)
 - [Meltano](https://join.slack.com/t/meltano/shared_invite/enQtNTM2NjEzNDY2MDgyLWI1N2EyZjA1N2FiNDBlNDE2OTg4YmI1N2I3OWVjOWI2MzIyYmJmMDQwMTY2MmUwZjNkMTBiYzhiZTI2M2IxMDc)
 - [Open Data Community](https://opendatacommunity.slack.com)
-- [Pachyderm](http://slack.pachyderm.io)
+- [Pachyderm](https://slack.pachyderm.io)
 - [Prefect](https://prefect-community.slack.com/join/shared_invite/enQtODQ3MTA2MjI4OTgyLTliYjEyYzljNTc2OThlMDE4YmViYzk3NDU4Y2EzMWZiODM0NmU3NjM0NjIyNWY0MGIxOGQzODMxNDMxYWYyOTE)
 - [PyCarolinas](https://pycarolinas.slack.com/join/shared_invite/enQtNjI4NTY0MzM5MDc5LWE2ZjI3YmFkNTAzOTM2NmYyMWUwMmYzZGFkYTY2ZjdkZWFmZDg0YzE0MjQzMzMzMzVhOWUwN2I3MTQwMTllMjY)
 - [R for Data Analysis](https://r-data-team.slack.com)
@@ -120,7 +120,7 @@ description: "GitLab Data Team Library"
 
 - [Chris Albon](https://chrisalbon.com/#postgresql)
 - [Mode SQL Tutorial](https://mode.com/sql-tutorial/introduction-to-sql/)
-- [dbt Tutorial](https://tutorial.getdbt.com/tutorial/setting-up)
+- [dbt Tutorial](https://docs.getdbt.com/docs/get-started-dbt)
 - [Technically.dev Post on SQL](https://technically.dev/posts/sql-for-the-rest-of-us.html)
 - [Elements of Data Science](https://allendowney.github.io/ElementsOfDataScience/)
 - [Machine Learning Resources](https://drive.google.com/drive/folders/1sOXWW-FujwKU2T-auG7KPR9h6xqDRx0z?usp=sharing) (GitLab Internal)
@@ -130,5 +130,5 @@ description: "GitLab Data Team Library"
 - [HackerRank (Exercises)](https://www.hackerrank.com/domains/sql?filters%5Bstatus%5D%5B%5D=unsolved&badge_type=sql)
 - [Udacity](https://www.udacity.com/course/intro-to-relational-databases--ud197)
 - [Stanford University Mini-Courses](https://lagunita.stanford.edu/courses/DB/2014/SelfPaced/about)
-- [The Data School by Chartio](https://dataschool.com/learn/inroduction-to-teaching-others-sql)
+- [The Data School by Chartio](https://dataschool.com/how-to-teach-people-sql/introduction/)
 - [W3Schools](https://www.w3schools.com/sql/default.asp)

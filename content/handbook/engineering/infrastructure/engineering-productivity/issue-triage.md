@@ -42,7 +42,7 @@ An issue is considered completely triaged when all of the following criteria are
 
 ## Type Labels
 
-Type labels are defined on the [Engineering Metrics page](/handbook/product/groups/product-analysis/engineering/dashboards/#work-type-classification).
+Type labels are defined on the [Engineering Metrics page](/handbook/product/groups/product-analysis/engineering/metrics/#work-type-classification).
 If you are unsure about the type, you can tag the product or engineering manager for the [group](#group-labels) and ask their opinion.
 
 ## Group labels
@@ -86,16 +86,20 @@ Once you've determined a severity for an issue add a note that explains in summa
 | `~bug::ux` User experience problem [&sup3;](#ux) | "I can't figure this out." Users are blocked and/or likely to make risky errors due to poor usability, and are likely to ask for support. | "I can figure out why this is happening, but it's really painful to solve." Users are significantly delayed by the available workaround. | "This still works, but I have to make small changes to my process." Users are self sufficient in completing the task with the workaround, but may be somewhat delayed. |  "There is a small inconvenience or inconsistency." Usability isn't ideal or there is a small cosmetic issue. | [Product Designers](/handbook/product/ux/product-design/) of that Product group |
 | `~"bug::availability"` of GitLab SaaS | See [Availability section](#availability) | See [Availability section](#availability) | See [Availability section](#availability) | See [Availability section](#availability) | |
 | `~"bug::vulnerability"` Security Vulnerability | See [Vulnerability Remediation SLAs](/handbook/security/product-security/vulnerability-management/sla/) | See [Vulnerability Remediation SLAs](/handbook/security/product-security/vulnerability-management/sla/) | See [Vulnerability Remediation SLAs](/handbook/security/product-security/vulnerability-management/sla/) | See [Vulnerability Remediation SLAs](/handbook/security/product-security/vulnerability-management/sla/) | AppSec team |
-| Global Search | See [Search Prioritization](/handbook/engineering/infrastructure/core-platform/data_stores/search/#severity-labels-for-search-issues-advanced-search-global-search) | See [Search Prioritization](/handbook/engineering/infrastructure/core-platform/data_stores/search/#severity-labels-for-search-issues-advanced-search-global-search) | See [Search Prioritization](/handbook/engineering/infrastructure/core-platform/data_stores/search/#severity-labels-for-search-issues-advanced-search-global-search) | See [Search Prioritization](/handbook/engineering/infrastructure/core-platform/data_stores/search/#severity-labels-for-search-issues-advanced-search-global-search) | |
+| Global Search | See [Search Prioritization](/handbook/engineering/development/dev/foundations/search/#severity-labels-for-search-issues-advanced-search-global-search) | See [Search Prioritization](/handbook/engineering/development/dev/foundations/search/#severity-labels-for-search-issues-advanced-search-global-search) | See [Search Prioritization](/handbook/engineering/development/dev/foundations/search/#severity-labels-for-search-issues-advanced-search-global-search) | See [Search Prioritization](/handbook/engineering/development/dev/foundations/search/#severity-labels-for-search-issues-advanced-search-global-search) | |
 | `~test` Bugs blocking end-to-end test execution | See [Blocked tests section](#blocked-tests) | See [Blocked tests section](#blocked-tests) | See [Blocked tests section](#blocked-tests) | See [Blocked tests section](#blocked-tests) | [Test Platform Sub-Department](/handbook/engineering/infrastructure/test-platform/) |
 | `~GitLab.com Resource Saturation` Capacity planning warnings | Mean forecast shows Hard SLO breach within 3 months. | | | | Scalability Engineering Manager (who will hand over to EM that owns the resource) |
 
 ### Severity SLOs
 
-The severity label also helps us define the time a ~"type::bug" or ~"corrective action" of that severity should be completed.
+The severity label also helps us define a completion time for issues with the following labels:
+
+- `~"type::bug"`
+- `~"infradev"`
+
 This indicates the expected timeline & urgency which is used to measure our SLO targets.
 
-| **Severity**   | Incident root cause analysis `~corrective action` SLO | `~"type::bug"` resolution SLO | `~"GitLab.com Resource Saturation"` resolution SLO | Security `~vulnerability` SLO |
+| **Severity**   |  `~infradev` SLO | `~"type::bug"` resolution SLO | `~"GitLab.com Resource Saturation"` resolution SLO | Security `~vulnerability` SLO |
 |----------------|---------|--------------------------------------------------------------------------------| ----|-----|
 | `~"severity::1"` | 1 week  | The current release + next available deployment to GitLab.com (within 30 days) | Within 2 months | See [Vulnerability Remediation SLAs](/handbook/security/product-security/vulnerability-management/sla/) |
 | `~"severity::2"` | 30 days | The next release (60 days)                                                   |  | See [Vulnerability Remediation SLAs](/handbook/security/product-security/vulnerability-management/sla/)  |
@@ -446,8 +450,8 @@ The original issue about these policies is [#17693](https://gitlab.com/gitlab-or
 The following projects, resources, and blog posts were very helpful in crafting these policies:
 
 - [CodeTriage](https://www.codetriage.com/)
-- [How to be an open source gardener](http://words.steveklabnik.com/how-to-be-an-open-source-gardener)
-- [Managing the Deluge of Atom Issues](http://blog.atom.io/2016/04/19/managing-the-deluge-of-atom-issues.html)
-- [Handling Large OSS Projects Defensively](http://artsy.github.io/blog/2016/07/03/handling-big-projects/)
+- [How to be an open source gardener](https://steveklabnik.com/writing/how-to-be-an-open-source-gardener)
+- [Managing the Deluge of Atom Issues](https://web.archive.org/web/20221129082058/https://blog.atom.io/2016/04/19/managing-the-deluge-of-atom-issues.html)
+- [Handling Large OSS Projects Defensively](https://artsy.github.io/blog/2016/07/03/handling-big-projects/)
 - [My condolences, you're now the maintainer of a popular open source project](https://runcommand.io/2016/06/26/my-condolences-youre-now-the-maintainer-of-a-popular-open-source-project/)
 - [The Art of Closing](https://blog.jessfraz.com/post/the-art-of-closing/)

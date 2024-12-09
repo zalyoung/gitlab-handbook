@@ -372,7 +372,7 @@ Teams can also arrange shared meals around the world. [Global pizza parties](htt
 ![GitLab team in Luna Park live game show](/images/all-remote/luna_park_game_show_gitlab.jpg)
 {style="max-width: 50%;"}
 
-You can now bring peers or colleagues into online game shows through platforms like [Luna Park](https://golunapark.com). Some social games are built for synchronous experiences, while on-demand games are more amenable to asynchronous engagement across time zones.
+You can now bring peers or colleagues into online game shows through platforms like [Luna Park](https://golunapark.com). Some social games are built for synchronous experiences like [Collab](https://collab.getchinwag.com), while on-demand games are more amenable to asynchronous engagement across time zones.
 
 ## Virtual lunch table
 
@@ -402,7 +402,7 @@ GitLab's Customer Success team ideated and executed a [worldwide scavenger hunt]
 
 GitLab's global [marketing team](/handbook/marketing) plays pub-style trivia every other week. You can compete as individuals or as teams, with a suggested time of 1 hour. For those within the GitLab organization, email `events@gitlab.com` if you want to arrange a game for your team.
 
-GitLab utilizes [MysteryTrip](http://games.mysterytrip.co), which serves large teams well and doesn't place a heavy preparation load on the organizer. MysteryTrip handles the preparation work for questions, acts as trivia master, and has automatic scoring and a leadercard. This makes spinning up a game quick and easy, with pricing set at around $20 per player. For those outside of the GitLab organization, regularly-scheduled trivia sessions are an excellent way to take everyone's focus away from work and engage in a shared experience.
+GitLab utilizes MysteryTrip, which serves large teams well and doesn't place a heavy preparation load on the organizer. MysteryTrip handles the preparation work for questions, acts as trivia master, and has automatic scoring and a leadercard. This makes spinning up a game quick and easy, with pricing set at around $20 per player. For those outside of the GitLab organization, regularly-scheduled trivia sessions are an excellent way to take everyone's focus away from work and engage in a shared experience.
 
 ## Co-working calls
 
@@ -436,7 +436,7 @@ In this section, we'll spotlight tips and advice from other experts and companie
 
 ### Tools for building empathy and connection
 
-1. Build empathy, rapport, and cohesion on remote teams with [Kona by Sike Insights](https://sikeinsights.com)
+1. Build empathy, rapport, and cohesion on remote teams with [Kona by Sike Insights](https://www.heykona.com/)
 1. Asynchronous voice messaging for teams via [Yac](https://www.yac.com)
 1. Asynchronous video messaging for teams via [Loom](https://www.loom.com)
 

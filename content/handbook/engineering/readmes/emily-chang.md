@@ -72,5 +72,5 @@ The [GitLab value](/handbook/values/) that resonates with me the most is [🤝 C
 | [Keyboard](/handbook/company/culture/all-remote/workspace/#external-keyboard-and-mouse) | [Keychron K2v2](https://www.keychron.com/products/keychron-k2-wireless-mechanical-keyboard) |
 | [Mouse](/handbook/company/culture/all-remote/workspace/#external-keyboard-and-mouse) | [Logitech MX Master 3](https://www.logitech.com/en-my/products/mice/mx-master-3.910-005698.html) |
 | Laptop Stand | [Olmaster Laptop Stand](https://www.amazon.com/Muti-Angle-Adjustable-Heat-Vent-Ergonomic-Compatible/dp/B081YHNXZ5) |
-| [Webcam](/handbook/company/culture/all-remote/workspace/#webcams) | [Logitech C920](https://www.logitech.com/en-my/products/webcams/c920-pro-hd-webcam.960-000770.html) |
+| [Webcam](/handbook/company/culture/all-remote/workspace/#webcams) | [Logitech C920](https://support.logi.com/hc/en-us/articles/360024326953-Getting-started-HD-Pro-Webcam-C920) |
 | USB C Hub | [Ugreen 10 in 1 USB C Hub](https://www.ugreen.com/products/10-in-1-usb-c-hub) |

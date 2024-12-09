@@ -162,7 +162,7 @@ QUILTBAG is a comprehensive, newer term that stands for queer and questioning, u
 
 Sex and gender are often seen as the same thing but in reality, [sex and gender are distinct](https://www.medicalnewstoday.com/articles/232363.php).
 
-Sex can refer to a person's anatomy and physiology, which can include phenotype, internal and external genitalia, gonads, hormone levels, chromosomes, epigenetics, etc... Maybe people believe sex is binary (either male or female) but in reality, sex is a non-binary construct where [1 in 1500 people are born intersex](http://www.isna.org/faq/frequency).
+Sex can refer to a person's anatomy and physiology, which can include phenotype, internal and external genitalia, gonads, hormone levels, chromosomes, epigenetics, etc... Maybe people believe sex is binary (either male or female) but in reality, sex is a non-binary construct where [1 in 1500 people are born intersex](https://isna.org/faq/frequency/).
 
 Gender refers to the social norms, emotions, and behaviors that are associated with being female, male, androgynous, or others. Gender traits can vary greatly depending on the time period and cultural context. It's important to remember that gender is not an inherently natural thing, but rather a social construct that varies from society to society.
 
@@ -208,7 +208,7 @@ Simple, just ask :)
 
 Asking for someone's pronouns is the same as asking for their name. In the same way that you wouldn't assume what someone's name is and start calling them by a name that wasn't theirs, you shouldn't assume someone's pronouns.
 
-In English, there are [many common pronouns](https://uwm.edu/lgbtrc/qa_faqs/what-are-some-commonly-used-pronouns/) such as the singular they/them and ze/hir/hirs. To learn more see this [Time article on pronouns](http://time.com/4327915/gender-neutral-pronouns/).
+In English, there are [many common pronouns](https://uwm.edu/lgbtrc/support-resources/gender-pronouns/) such as the singular they/them and ze/hir/hirs. To learn more see this [Time article on pronouns](https://time.com/4327915/gender-neutral-pronouns/).
 
 For more information on pronouns, check out [Pronoun Guidance and Information]({{< ref "pronouns" >}}).
 

@@ -5,7 +5,7 @@ description: "Learn the processes and methodology that GitLab Professional Servi
 
 ## What is the Professional Services Delivery Methodology (PSDM)
 
-The Professional Services Delivery Methodology (PSDM) is the guiding light for Program and Project Delivery within Gitlab. The goal is to ensure the PS Delivery team operates within a predictable time slice against the Project scope while ensuring we’re focused on Customer Success. This is done through Gitlab.com as the SSOT, label guidelines for managing and reporting against progress, risk, iterations needed against our processes and enablement material, and fundamental Agile best practices.
+The Professional Services Delivery Methodology (PSDM) is the guiding light for Program and Project Delivery within GitLab. The goal is to ensure the PS Delivery team operates within a predictable time slice against the Project scope while ensuring we’re focused on Customer Success. This is done through GitLab.com as the SSOT, label guidelines for managing and reporting against progress, risk, iterations needed against our processes and enablement material, and fundamental Agile best practices.
 
 ## Iteration 0
 
@@ -24,9 +24,11 @@ Proper Iteration 0 preparedness allows us to address risk early and instills con
 
 GitLab will be used as a project management and collaboration platform. We will be using the following features/terminology in GitLab defined below.
 
-Please reference the following tips for [Gitlab best practices](professional-services-delivery-methodology/gitlab-best-practices/_index.md) when navigating Gitlab.
+Please reference the following tips for [GitLab best practices](professional-services-delivery-methodology/gitlab-best-practices/_index.md) when navigating GitLab.
 
 How to initially configure GitLab as a Project Management tool can be found [here](professional-services-delivery-methodology/cp/_index.md).
+
+NOTE: any issues marked as "internal" are still visible to anyone who has "developer" access into the Gitlab Collaboration project. This includes anyone outside of Gitlab. It it recommended to use the Projects "Internal Epic" for confidential communications.
 
 ## Project Management Mapping in GitLab
 
@@ -34,7 +36,7 @@ How to initially configure GitLab as a Project Management tool can be found [her
 | -------- | ------- |
 | Group  | This is the landing page for Customer the project. The single source of truth of Project Governance.    |
 | Projects | If an engagement has more than one Workstream (or SOW), we will track against more than one Project. CO activities will be tracked against the original project (SOW).   |
-| Boards    | Typically organized by labels or scoped labels to keep the team on track together. Sometimes the Gitlab/Customer team works to track against multiple Boards over Projects.    |
+| Boards    | Typically organized by labels or scoped labels to keep the team on track together. Sometimes the GitLab/Customer team works to track against multiple Boards over Projects.    |
 | Epics    | Generally from Workstreams or "Activities" from the SOW.    |
 | Issues    | These are the atomic units of work that roll into the Epic.    |
 | Iterations    | Time-boxed (generally) two-week events, that are reviewed during the Agile ceremonies.      |
@@ -42,7 +44,7 @@ How to initially configure GitLab as a Project Management tool can be found [her
 | Labels    | We use these in a variety of ways, but the most important ones are: </br> <ul><li>To manage progress during delivery using a left-to-right flow</li><li>To manage prioritization</li><li>To organize specific sub-categories of work to keep the team organized.</li><li>To manage risk and mitigation</li></ul> |
 | Weight | Size or level of effort of the issue. See [Good Estimation Techniques](./professional-services-delivery-methodology/good-estimation-techniques/_index.md) for assigning weight    |
 
-Reference [here](professional-services-delivery-methodology/agile-to-gitlab-terminology/_index.md) for additional clarity around mapping Agile terminology to Gitlab.
+Reference [here](professional-services-delivery-methodology/agile-to-gitlab-terminology/_index.md) for additional clarity around mapping Agile terminology to GitLab.
 
 ## Label Guidelines
 
@@ -582,7 +584,7 @@ PSEs or Technical Instructors who deliver GitLab Education Services instructor-l
 
 ##### Training lab pre-course instructor workflow
 
-PS uses the [GitLab Lab Environment](http://gitlabdemo.com/) as the standard environment for hands-on course lab activities and hands-on certification assessments. Follow these steps to set up your course attendees for lab access.
+PS uses the [GitLab Lab Environment](https://gitlabdemo.com/) as the standard environment for hands-on course lab activities and hands-on certification assessments. Follow these steps to set up your course attendees for lab access.
 
 **1. GitLab Demo System invitation codes**
 

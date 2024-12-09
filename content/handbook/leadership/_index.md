@@ -77,7 +77,7 @@ This is a more [efficient](/handbook/values/#efficiency), [transparent](/handboo
 Giving regular [feedback](/handbook/company/culture/all-remote/effective-communication/#feedback-is-a-gift) is extremely important for both managers and team members. Feedback can take the form of coaching sessions, separate from [1-to-1 meetings]({{< ref "1-1" >}}). Giving feedback is also about being prepared and, depending on the situation, you should create separate agendas and structure them as follows:
 
 1. Provide [context](/handbook/company/culture/all-remote/effective-communication/#understanding-low-context-communication).
-1. Use a framework for your feedback. Our recommended framework is [Crucial Conversations]({{< ref "crucial-conversations" >}}) -- we offer [a training course](/handbook/total-rewards/benefits/general-and-entity-benefits/growth-and-development/#crucial-conversations-training), and the book is part of our [recommended reading for leaders](#books).
+1. Use a framework for your feedback. Our recommended framework is [Crucial Conversations]({{< ref "crucial-conversations" >}}) -- we offer [a training course](/handbook/people-group/learning-and-development/growth-and-development/#crucial-conversations-training), and the book is part of our [recommended reading for leaders](#books).
 1. Ask yourself, is this:
     - Actionable
     - Specific
@@ -275,10 +275,10 @@ If you're interested in starting or joining an m-team meeting, reach out to othe
 1. [Carta's Manager's FAQ](https://medium.com/eshares-blog/a-managers-faq-35858a229f84)
 1. [Carta's How to hire](https://carta.com/blog/how-to-hire/)
 1. [How Facebook Tries to Prevent Office Politics](https://hbr.org/2016/06/how-facebook-tries-to-prevent-office-politics)
-1. [The Management Myth](http://www.theatlantic.com/magazine/archive/2006/06/the-management-myth/304883/)
-1. [Later Stage Advice for Startups](http://themacro.com/articles/2016/07/later-stage-advice-for-startups/)
+1. [The Management Myth](https://www.theatlantic.com/magazine/archive/2006/06/the-management-myth/304883/)
+1. [Later Stage Advice for Startups](https://themacro.com/articles/2016/07/later-stage-advice-for-startups/)
 1. [Mental Models I Find Repeatedly Useful](https://medium.com/@yegg/mental-models-i-find-repeatedly-useful-936f1cc405d)
-1. [This Is The Most Difficult Skill For CEOs To Learn](http://www.businessinsider.com/whats-the-most-difficult-ceo-skill-managing-your-own-psychology-2011-4)
+1. [This Is The Most Difficult Skill For CEOs To Learn](https://www.businessinsider.com/whats-the-most-difficult-ceo-skill-managing-your-own-psychology-2011-4)
 1. Great article about [how to think about PIPs](https://mfbt.ca/how-i-talk-to-leaders-about-firing-people-8149dfcb035b), although our time scales are shorter.
 1. [Impraise Blog: 1-on-1s for Engaged Employees](https://www.impraise.com/blog/how-to-support-effective-remote-performance-management-with-11s)
 1. [Mind Tools: Giving Feedback: Keeping Team Member Performance High, and Well Integrated](https://www.mindtools.com/pages/article/newTMM_98.htm)
@@ -315,7 +315,7 @@ We sometimes self-organize [book clubs]({{< ref "book-clubs" >}}) to read throug
 
 ## Email Lists
 
-1. [Software Lead Weekly](http://softwareleadweekly.com/)
+1. [Software Lead Weekly](https://softwareleadweekly.com/)
 
 ## Training
 
@@ -323,8 +323,8 @@ When you give leadership training please [screen share the handbook instead of c
 
 ### Leadership Development Opportunities
 
-1. Managers can participate in our [Elevate program](/handbook/people-group/learning-and-development/elevate/), focused on developing management skills to lead all-remote teams.
-1. Leadership development coaching with the [growth & development benefit](/handbook/total-rewards/benefits/general-and-entity-benefits/growth-and-development/#introduction). More details about a formal GitLab coaching program to come.
+1. Managers can participate in our [Elevate program](/handbook/people-group/learning-and-development/elevate-programs/), focused on developing management skills to lead all-remote teams.
+1. Leadership development coaching with the [growth & development benefit](/handbook/people-group/learning-and-development/growth-and-development/#introduction). More details about a formal GitLab coaching program to come.
 1. [Self-led opportunities to be a mentor](/handbook/people-group/learning-and-development/mentor/) - keep an eye out for a company-wide mentorship program with applications opening at the end of January 2022.
 1. [Join the women's TMRG mentorship group](/handbook/company/culture/inclusion/tmrg-gitlab-women/mentorship-program/) to either be a mentor to practice leadership or get paired with a leader to learn from.
 1. Sign up for [Crucial Conversations training](/handbook/people-group/learning-and-development/learning-initiatives/#crucial-conversations)

@@ -12,7 +12,7 @@ Most of the resources here are free but any content requiring payment [can be re
 
 ## Growth and Development
 
-GitLab provides team members with the [growth and development benefit](/handbook/total-rewards/benefits/general-and-entity-benefits/growth-and-development/) to access external resources to develop their career. To take advantage of this benefit, review the company handbook page and follow the process.
+GitLab provides team members with the [growth and development benefit](/handbook/people-group/learning-and-development/growth-and-development/) to access external resources to develop their career. To take advantage of this benefit, review the company handbook page and follow the process.
 
 Managers should add approved growth and development programs to the [department spreadsheet tracker](https://docs.google.com/spreadsheets/d/1hLm_XEX3Vux1Co_dMY5A74io8oqXArDAX6MonlBOYNg/edit#gid=1233213154) in order to track departmental budget.
 
@@ -122,7 +122,7 @@ Managers should add approved growth and development programs to the [department 
 - [Growth Design](https://lexroman.com/growthdesign)
 - [Practicing Growth Design](https://lexroman.com/blog/2019/9/30/practicing-growth-design)
 - [What is a Growth Designer?](https://blog.alexaroman.com/what-is-a-growth-designer-1b342d55a358)
-- [Growth Designers Resources](https://growthdesigners.co/resources)
+- [Growth Designers Resources](https://www.growthdesigners.co/tools)
 - [Growth Design Case Studies](https://growth.design/case-studies/)
 - [The Psychology of Design](https://growth.design/psychology/)
 - [10 insights into user-centered growth design](https://medium.com/dropbox-design/user-centered-growth-design-97a53d829807)
@@ -131,7 +131,7 @@ Managers should add approved growth and development programs to the [department 
 
 ## UX writing
 
-- [Microcopy: Discover How Tiny Bits of Text Make Tasty Apps and Websites](https://www.amazon.com/dp/B071S54VLL/ref=cm_sw_em_r_mt_dp_51MKD8EZ2M7KMZYX7N2T) by Niaw de Leon
+- [Microcopy: Discover How Tiny Bits of Text Make Tasty Apps and Websites](https://www.amazon.com/dp/B071S54VLL/) by Niaw de Leon
 
 ## Leadership and Communication
 
@@ -165,7 +165,7 @@ Managers should add approved growth and development programs to the [department 
 
 ### Books
 
-- [Deep Work - Rules for Focused Success in a Distracted World](https://www.amazon.com/dp/B013UWFM52/ref=cm_sw_r_tw_dp_F00CBYJ3VJMPM6A2NYNQ) by Cal Newport
+- [Deep Work - Rules for Focused Success in a Distracted World](https://www.amazon.com/dp/B013UWFM52/) by Cal Newport
 - [Make time](https://www.goodreads.com/book/show/37880811-make-time) by Jake Knapp and John Zeratsky
 
 ## Behavioral Psychology in Design

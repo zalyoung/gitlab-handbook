@@ -57,7 +57,7 @@ A sample of questions to be answered by a Head of Remote Work:
 1. Who will champion your culture and values, not only to galvanize teams through a pandemic, but excite them by building a more disciplined, cohesive, [asynchronous](asynchronous/), inclusive, and diverse future?
 1. Who will understand the nuances of remote and the myriad business implications beyond just today?
 
-**For an added deep dive on the topic, replete with a decision-making rubric, download the [Head of Remote white paper](https://remote.com/head-of-remote-whitepaper) from our friends at Remote.com and Distribute Consulting.**
+**For an added deep dive on the topic, replete with a decision-making rubric, download the [Head of Remote white paper](https://web.archive.org/web/20240829121204/https://remote.com/resources/research/head-of-remote-whitepaper) from our friends at Remote.com and Distribute Consulting.**
 
 ### Remote transformation consultants
 
@@ -83,11 +83,11 @@ Multitudes of firms are hiring for this role without formally posting a job desc
 1. Facebook (now Meta): [Director, Future of Work Movement](https://www.linkedin.com/in/simon-hill-815aa615) and [Director, Future of Work](https://www.linkedin.com/in/kelly-monahan-ph-d-18879413)
 1. Dropbox: [Head of Virtual First](https://www.linkedin.com/in/terryotran) and [VP of Design](https://www.linkedin.com/in/alastairsimpson)
 1. Twitter: [VP of Real Estate & Workplace and Remote Experience](https://www.linkedin.com/in/tracy-hawkins-5b303326)
-1. Upwork: [Director of Remote Organizational Effectiveness](https://www.linkedin.com/jobs/view/director-of-remote-organizational-effectiveness-at-upwork-3255327139)
+1. Upwork: Director of Remote Organizational Effectiveness
 1. Grammarly: [Head of Remote-First Hybrid](https://www.grammarly.com/jobs/corporate/head-of-remote-first-hybrid?gh_jid=4496226)
 1. Okta: Head of Dynamic Work
 1. LinkedIn: [Vice President, Flex Work](https://www.linkedin.com/in/shannonhickshardy)
-1. VMWare: [Senior Director, Collaboration and Productivity](https://www.linkedin.com/jobs/view/senior-director-collaboration-and-productivity-opportunity-for-working-remotely-at-vmware-2507890473)
+1. VMWare: Senior Director, Collaboration and Productivity
 1. Cloudflare: [Head of Distributed Work](https://www.linkedin.com/posts/seacue_head-of-distributed-work-activity-6798698073041313792-mDjb)
 1. Quora: [Remote Work HR Specialist](https://www.linkedin.com/in/kara-ortbal-ab051b60)
 1. Zapier: Remote Communications Manager
@@ -101,7 +101,7 @@ Multitudes of firms are hiring for this role without formally posting a job desc
 1. Avalon Consulting Group: [SVP and Director of Remote Work](https://www.linkedin.com/in/margot-hostie-o-leary-82225056)
 1. Strata Solar: [Director, Remote Operations](https://www.linkedin.com/in/keary-dosier)
 1. Doist: [Head of Remote](https://twitter.com/dcwarrington/status/1444933106042122241)
-1. Castor: [Remote Lead](https://www.linkedin.com/posts/activity-6864516789041266688-toU2)
+1. Castor: Remote Lead
 1. Atlassian: [VP, Team Anywhere](https://www.linkedin.com/feed/update/urn:li:activity:6883851660725161984)
 1. NPR: [Director, Future of Work](https://www.linkedin.com/in/angie-hamilton-lowe-b0874b1)
 1. Prudential Financial: [VP, Head of Capabilities for Future of Work](https://www.linkedin.com/in/wagnerdenuzzo)
@@ -284,7 +284,7 @@ The below is an inexhaustive list of news articles covering the growing movement
 1. LinkedIn Talent Blog: [Why You Need to Hire a Head of Remote Work — and What That Job Entails](https://business.linkedin.com/talent-solutions/blog/work-flexibility/2020/why-you-need-to-hire-a-head-of-remote-work)
 1. Reworked: [Is Now the Time to Invest in a Head of Remote Work?](https://www.reworked.co/leadership/is-now-the-time-to-invest-in-a-head-of-remote-work)
 1. Running Remote: [Is it time for your company to hire a Head of Remote?](https://runningremote.com/is-it-time-for-your-company-to-hire-a-head-of-remote)
-1. Zenefits: [Why Companies Are Hiring a Head of Remote Work (and Why You Should, Too)](https://www.zenefits.com/workest/why-companies-are-hiring-a-head-of-remote-work-and-why-you-should-too)
+1. Zenefits: [Why Companies Are Hiring a Head of Remote Work (and Why You Should, Too)](https://web.archive.org/web/20230602020646/https://www.zenefits.com/workest/why-companies-are-hiring-a-head-of-remote-work-and-why-you-should-too/)
 1. Fast Company: [Why your business needs a Head of Remote](https://www.fastcompany.com/90715519/why-your-business-needs-a-head-of-remote)
 
 ## Contribute your lessons

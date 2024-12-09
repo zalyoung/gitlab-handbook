@@ -638,18 +638,22 @@ Citations:
 
 #### Architecture of multi-regional deployment of Topology Service
 
+The Topology Service and its storage (Cloud Spanner) are deployed in two regions, providing resilience in case of a regional outage and reducing latency for users in those areas. The HTTP Router Service connects to the Topology Service through a public load balancer, while internal cells use Private Service Connect for communication. This setup helps minimize ingress and egress costs.
+
 ```mermaid
 graph TD;
-    user_eu((User in EU));
-    user_us((User in US));
+    user_us_central((User in US Central));
+    user_us_east((User in US East));
     gitlab_com_gcp_load_balancer[GitLab.com GCP Load Balancer];
-    topology_service_gcp_load_balancer[Topology Service GCP Load Balancer];
+    topology_service_gcp_load_balancer[Topology Service Public GCP Load Balancer];
     http_router[HTTP Routing Service];
-    topology_service_eu[Topology Service in EU];
-    topology_service_us[Topology Service in US];
-    cell_us{Cell US};
-    cell_eu{Cell EU};
-    spanner[Google Cloud Spanner];
+    topology_service_us_central[Topology Service in US Central];
+    topology_service_us_east[Topology Service in US East];
+    cell_us_east{Cell US East};
+    cell_us_central{Cell US Central};
+    spanner_us_central[Google Cloud Spanner US Central];
+    spanner_us_east[Google Cloud Spanner US East];
+
     subgraph Cloudflare
         http_router;
     end
@@ -658,32 +662,44 @@ graph TD;
         gitlab_com_gcp_load_balancer;
         topology_service_gcp_load_balancer;
       end
-      subgraph Europe
-        topology_service_eu;
-        cell_eu;
+      subgraph US Central
+        subgraph Cloud Run US Central
+            topology_service_us_central;
+        end
+        cell_us_central;
       end
-      subgraph US
-        topology_service_us;
-        cell_us;
+      subgraph US East
+        subgraph Cloud Run US East
+            topology_service_us_east;
+        end
+        cell_us_east;
       end
-      subgraph Multi-regional Cloud Spanner
-        spanner;
+      subgraph Multi-regional Cloud Spanner Cluster 
+        spanner_us_central;
+        spanner_us_east;
       end
     end
 
-    user_eu--HTTPS-->http_router;
-    user_us--HTTPS-->http_router;
+    user_us_central--HTTPS-->http_router;
+    user_us_east--HTTPS-->http_router;
     http_router--REST/mTLS-->topology_service_gcp_load_balancer;
     http_router--HTTPS-->gitlab_com_gcp_load_balancer;
-    gitlab_com_gcp_load_balancer--HTTPS-->cell_eu;
-    gitlab_com_gcp_load_balancer--HTTPS-->cell_us;
-    topology_service_gcp_load_balancer--HTTPS-->topology_service_eu;
-    topology_service_gcp_load_balancer--HTTPS-->topology_service_us;
-    cell_eu--gRPC/mTLS-->topology_service_eu;
-    cell_us--gRPC/mTLS-->topology_service_us;
-    topology_service_eu--gRPC-->spanner;
-    topology_service_us--gRPC-->spanner;
+    gitlab_com_gcp_load_balancer--HTTPS-->cell_us_central;
+    gitlab_com_gcp_load_balancer--HTTPS-->cell_us_east;
+    topology_service_gcp_load_balancer--HTTPS-->topology_service_us_central;
+    topology_service_gcp_load_balancer--HTTPS-->topology_service_us_east;
+    cell_us_central--gRPC/mTLS via Private Service Connect-->topology_service_us_central;
+    cell_us_east--gRPC/mTLS via Private Service Connect-->topology_service_us_east;
+    topology_service_us_central--gRPC-->spanner_us_central;
+    topology_service_us_east--gRPC-->spanner_us_east;
+    spanner_us_east<--Replication-->spanner_us_central;
 ```
+
+Citations:
+
+1. Google (n.d.). Using private service connect with cloudrun services. Google Cloud. Retrieved Nov 11, 2024, from <https://cloud.google.com/vpc/docs/private-service-connect>
+1. Google (n.d.). How multi-region with cloud spanner works. Google Cloud. Retrieved Nov 11, 2024,<https://cloud.google.com/blog/topics/developers-practitioners/demystifying-cloud-spanner-multi-region-configurations>
+1. [ADR for private service connect](..q/decisions/004_vpc_subnet_design/)
 
 ### Performance
 

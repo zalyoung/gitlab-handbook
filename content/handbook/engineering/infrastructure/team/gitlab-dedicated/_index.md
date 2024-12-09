@@ -102,9 +102,9 @@ A PCL is manually enforced once the following requirements are met:
 
 The following dates are currently scheduled PCLs.
 
-| Dates                       | Type       | Reason                        |
-|-----------------------------|------------|-------------------------------|
-| 2024-03-08 23:00 UTC -> 2024-03-17 20:00 UTC | Hard | GitLab Summit (Low team members availability) |
+| Dates                                        | Type   | Reason                                            |
+|----------------------------------------------|--------|---------------------------------------------------|
+| 2024-12-23 03:00 UTC -> 2025-01-06 03:00 UTC | Hard   | Year End Holidays (Low team member availability)  |
 
 Times for the dates without a time specified begin at 09:00 UTC and end the next day at 09:00 UTC.
 
@@ -411,7 +411,7 @@ If no update has been provided in an epic or issue for over a week, the issue wi
 
 #### Reporting
 
-We provide reports on status of GitLab Dedicated to meet [Top Cross-Functional Initiative requirements](/handbook/company/top-cross-functional-initiatives/#cross-functional-initiative-dris).
+We provide reports on status of GitLab Dedicated to meet Top Cross-Functional Initiative requirements.
 
 ### Backlog Refinement
 
@@ -544,7 +544,7 @@ There are three other workflow labels of importance:
 
 #### Support labels
 
-Scoped support labels are applied to the issues that are opened when a GitLab Support Engineer escalates a ticket for assistance using the ["request for help"](/handbook/support/workflows/how-to-get-help.html#how-to-use-gitlabcom-to-formally-request-help-from-the-gitlab-development-team) process. These requests are reviewed periodically by members of the GitLab Support team. The purpose of this review is to identify whether a request could have been deflected. These reviews primarily lead to updates to the [GitLab Dedicated Support workflows](/handbook/support/workflows/index/#gitlab-dedicated) and the [GitLab docs](https://docs.gitlab.com/).
+Scoped support labels are applied to the issues that are opened when a GitLab Support Engineer escalates a ticket for assistance using the ["request for help"](/handbook/support/workflows/how-to-get-help/#how-to-use-gitlabcom-to-formally-request-help-from-the-gitlab-development-team) process. These requests are reviewed periodically by members of the GitLab Support team. The purpose of this review is to identify whether a request could have been deflected. These reviews primarily lead to updates to the [GitLab Dedicated Support workflows](/handbook/support/workflows/index/#gitlab-dedicated) and the [GitLab docs](https://docs.gitlab.com/).
 
 | State Label | Description |
 | ----------- | ----------- |
@@ -688,7 +688,7 @@ Some tips:
 1. For items that need to be monitored it is encouraged to attach the current forecast in the comment;
    the forecast will likely change in place over the following weeks, and the history can be useful.
 1. Look for the component / alert name in the
-   [Capacity Planning Issue Tracker](https://gitlab.com/gitlab-com/gl-infra/capacity-planning-tracker/gitlab-dedicated/-/issues) can be a good source of information,
+   [Capacity Planning Issue Tracker](https://gitlab.com/gitlab-com/gl-infra/capacity-planning-trackers/gitlab-dedicated/-/issues) can be a good source of information,
    as some recurring saturation forecast share the same or similar causes,
    or just to gain some insight into how these issues have been investigated and resolved in the past.
 1. Remember that some items may alert across multiple tenants.

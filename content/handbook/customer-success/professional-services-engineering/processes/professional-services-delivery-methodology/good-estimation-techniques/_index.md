@@ -18,7 +18,7 @@ We recommend the below t-shirt sizing estimation if the GitLab and Customer Proj
 * Sm - 1  (0-2 hrs)
 * Med - 2   (2-5 hrs)
 * Large -3  (5-10 hrs)
-* _anything more than 10hrs should be broken into smaller tasks_ 
+* _anything more than 10hrs should be broken into smaller tasks_
 
 ## Estimation Uncertainty
 
@@ -268,7 +268,7 @@ What is important to understand, both for estimation efficiency as well as team 
 
 The bigger the team, the harder it is to effectively communicate, estimate, and come to consensus. The bigger the team, the more likely something will fall through the cracks because of miscommunication. Because most of our PS engagements are conducted remotely, this problem is amplified even more.
 
-This challenge of ever increasing communication paths with larger teams is also somewhat related to the famous "[Dunbar's number](http://en.wikipedia.org/wiki/Dunbar's_number)", which suggested a cognitive limit to the number of people with whom one can maintain stable social relationships (\~150).
+This challenge of ever increasing communication paths with larger teams is also somewhat related to the famous "[Dunbar's number](https://en.wikipedia.org/wiki/Dunbar's_number)", which suggested a cognitive limit to the number of people with whom one can maintain stable social relationships (\~150).
 
 ## What is Velocity?
 
@@ -282,7 +282,7 @@ Using Estimation Poker, estimation variability decreases usually over the course
 
 ![Estimation Accuracty](EstimationAccuracySelfCorrect.jpg)
 
-Pleases note that "stable teams" is key here – teams need to be stable, meaning team members need to know each other, have worked with each other, and successfully formed a team – following the standard "forming–storming–norming–performing" model of group development, first proposed by [Bruce Tuckman in 1965](http://en.wikipedia.org/wiki/Tuckman's_stages_of_group_development).
+Pleases note that "stable teams" is key here – teams need to be stable, meaning team members need to know each other, have worked with each other, and successfully formed a team – following the standard "forming–storming–norming–performing" model of group development, first proposed by [Bruce Tuckman in 1965](https://en.wikipedia.org/wiki/Tuckman's_stages_of_group_development).
 
 These phases are all necessary and inevitable in order for the team to grow, to face up to challenges, to tackle problems, to find solutions, to plan work, and to deliver results. As most of our larger PS engagement will require extensive cross-team communication and collaboration with Customer Development Teams, it is necessary to understand and be aware of team dynamics on the customer side as well.
 

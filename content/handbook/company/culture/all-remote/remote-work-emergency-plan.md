@@ -78,13 +78,13 @@ Managing a remote company is much like managing any company. It comes down to **
 
 {{< youtube "R0AB8ZvnEIU" >}}
 
-*In the [video](https://youtu.be/IU2nTj6NSlQ) above, GitLab's Head of Remote shares his top tips for employees and employers who have been forced into a work-from-home scenario with [Jack Altman](https://twitter.com/jaltma), CEO of [Lattice](http://lattice.com). Discover more in GitLab's [Remote Work playlist](https://www.youtube.com/playlist?list=PL05JrBw4t0Kq7QUX-Ux5fOunQotqJbECc).*
+*In the [video](https://youtu.be/IU2nTj6NSlQ) above, GitLab's Head of Remote shares his top tips for employees and employers who have been forced into a work-from-home scenario with [Jack Altman](https://twitter.com/jaltma), CEO of [Lattice](https://lattice.com). Discover more in GitLab's [Remote Work playlist](https://www.youtube.com/playlist?list=PL05JrBw4t0Kq7QUX-Ux5fOunQotqJbECc).*
 
 {{% include "includes/coursera_gitlab_remote_course.md" %}}
 
 ## Additional resources
 
-We recognize that many companies are in need of establishing baseline remote principles right away. For those who wish to dive deeper, consider studying and implementing the guides below — surfaced from GitLab's [comprehensive guide to remote work](http://allremote.info).
+We recognize that many companies are in need of establishing baseline remote principles right away. For those who wish to dive deeper, consider studying and implementing the guides below — surfaced from GitLab's [comprehensive guide to remote work](https://allremote.info).
 
 - [Pitfalls to watch out for when embracing remote](what-not-to-do/)
 - [Navigating the phases of remote adaptation](phases-of-remote-adaptation/)

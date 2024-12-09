@@ -140,7 +140,7 @@ A "steel" position should be against the absolute most effective version of your
 
 ##### Address behavior, but don't label people
 
-There is a lot of good in [this article](http://bobsutton.typepad.com/my_weblog/2006/10/the_no_asshole_.html) about not wanting jerks on our team, but we believe that **jerk** is a label for behavior rather than an inherent classification of a person.  We avoid classifications.
+There is a lot of good in [this article](https://bobsutton.typepad.com/my_weblog/2006/10/the_no_asshole_.html) about not wanting jerks on our team, but we believe that **jerk** is a label for behavior rather than an inherent classification of a person.  We avoid classifications.
 
 ##### Say sorry
 
@@ -231,7 +231,7 @@ We demonstrate collaboration when we take action to help others and include othe
 
 <table class="tg">
   <tr>
-    <th class="tg-0lax"><a href="https://handbook.gitlab.com/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades">GitLab Job Grade</a></th>
+    <th class="tg-0lax"><a href="/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades">GitLab Job Grade</a></th>
     <th class="tg-0lax">Demonstrates Collaboration Competency by…</th>
     <th class="tg-0lax">Knowledge Assessment<br></th>
   </tr>
@@ -327,7 +327,7 @@ At GitLab, we want to drive customer results through focusing on platform enhanc
 1. **Large customer requests**. Catering to requests from large customers leads to the [innovator's dilemma](https://en.wikipedia.org/wiki/The_Innovator%27s_Dilemma), we need to also focus on results for small and future customers.
 1. **Our existing scope**. For example, when customers asked for better integrations and complained about integration costs and effort, we responded by expanding our scope to create a [single application](/handbook/product/categories/gitlab-the-product/single-application/) for the DevOps lifecycle.
 1. **Our assumptions**. Every company works differently, so we can't assume that what works well for us will support our customers' needs. When we have an idea, we must directly validate our assumptions with multiple customers to ensure we create scalable, highly relevant solutions.
-1. **What we control**. We should take responsibility for what the **customer experiences**, even when it isn't entirely in our control. We aim to treat every customer-managed instance downtime as a [$1M a day problem](https://gitlab.com/gitlab-com/www-gitlab-com/commit/8b7857c1f7c59c53e4a9c0d6008830459d817497).
+1. **What we control**. We strive to provide the best possible experience for each of our customers, and take responsibility for all of the aspects that we can reasonably control.
 
 ##### Measure impact, not activity
 
@@ -403,7 +403,7 @@ We demonstrate results when we do what we promised to each other, customers, use
 
 <table class="tg">
   <tr>
-    <th class="tg-0lax"><a href="https://handbook.gitlab.com/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades">GitLab Job Grade</a></th>
+    <th class="tg-0lax"><a href="/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades">GitLab Job Grade</a></th>
     <th class="tg-0lax">Demonstrates Results Competency by…</th>
     <th class="tg-0lax">Knowledge Assessment<br></th>
   </tr>
@@ -465,7 +465,7 @@ It is far more efficient to read a document at your convenience than to have to 
 
 ##### Boring solutions
 
-Use the simplest and most boring solution for a problem, and remember that ["boring"](http://boringtechnology.club/) should [not be conflated with "bad" or "technical debt."](http://mcfunley.com/choose-boring-technology)
+Use the simplest and most boring solution for a problem, and remember that ["boring"](https://boringtechnology.club/) should [not be conflated with "bad" or "technical debt."](https://mcfunley.com/choose-boring-technology)
 The speed of innovation for our organization and product is constrained by the total complexity we have added so far, so every little reduction in complexity helps.
 Don't pick an interesting technology just to make your work more fun;
 using established, popular tech will ensure a more stable and more familiar experience for you and other contributors.
@@ -497,7 +497,7 @@ We have [guidelines](/handbook/finance/spending-company-money/#guidelines) aroun
 
 ##### Frugality
 
-[Amazon states it best](http://www.amazon.jobs/principles) with: "Accomplish more with less. Constraints breed resourcefulness, self-sufficiency, and invention. There are no extra points for growing headcount, budget size, or fixed expense."
+[Amazon states it best](https://www.amazon.jobs/content/en/our-workplace/leadership-principles) with: "Accomplish more with less. Constraints breed resourcefulness, self-sufficiency, and invention. There are no extra points for growing headcount, budget size, or fixed expense."
 
 ##### Short verbal answers
 
@@ -538,7 +538,7 @@ We demonstrate efficiency when we work on the right things, not doing more than 
 
 <table class="tg">
   <tr>
-    <th class="tg-0lax"><a href="https://handbook.gitlab.com/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades">GitLab Job Grade</a></th>
+    <th class="tg-0lax"><a href="/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades">GitLab Job Grade</a></th>
     <th class="tg-0lax">Demonstrates Efficiency Competency by…</th>
     <th class="tg-0lax">Knowledge Assessment<br></th>
   </tr>
@@ -763,7 +763,7 @@ If you would like to improve your skills or expand your knowledge on topics rela
 
 <table class="tg">
   <tr>
-    <th class="tg-0lax" style="border:gray; border-width:0.5px; border-style:solid;"><a href="https://handbook.gitlab.com/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades">GitLab Job Grade</a></th>
+    <th class="tg-0lax" style="border:gray; border-width:0.5px; border-style:solid;"><a href="/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades">GitLab Job Grade</a></th>
     <th class="tg-0lax" style="border:gray; border-width:0.5px; border-style:solid;">Demonstrates Diversity &amp; Inclusion Competency by…</th>
     <th class="tg-0lax" style="border:gray; border-width:0.5px; border-style:solid;">Demonstrates DIB Behaviors by…<br><i>(Should not be considered an exhaustive list)</i></th>
     <th class="tg-0lax" style="border:gray; border-width:0.5px; border-style:solid;">Knowledge Assessment<br></th>
@@ -777,7 +777,7 @@ If you would like to improve your skills or expand your knowledge on topics rela
   <tr>
     <td class="tg-0lax" style="border:gray; border-width:0.5px; border-style:solid;">5</td>
     <td class="tg-0lax" style="border:gray; border-width:0.5px; border-style:solid;">Develops an understanding of the impact of biases; seeks to learn more about their own biases. Is accountable for their actions, apologizes and learns from their mistakes.</td>
-    <td class="tg-0lax" rowspan="3" style="border:gray; border-width:0.5px; border-style:solid;"><ul style="list-style-type:disc><li>Complete Neurodiversity and other <a href="https://about.gitlab.com/company/culture/inclusion/">DIB</a> training and/or other company wide training to further education on DIB</li><li>Attend DIB Initiatives Calls to stay informed and connected with ongoing efforts and discussions</li><li>Participate in a DIB Initiative: join <a href="https://about.gitlab.com/company/culture/inclusion/erg-guide/">TMRGs</a> you identify with, support other groups as an Ally, attend events, "like" slack posts and spread the word<br><li>Participate in a TMRG initiative</li><li>Member of a working group related to a DIB initiative, e.g. participate in a <a href="https://handbook.gitlab.com/handbook/people-group/learning-and-development/mentor/">Mentorship</a> program</li></ul></td>
+    <td class="tg-0lax" rowspan="3" style="border:gray; border-width:0.5px; border-style:solid;"><ul style="list-style-type:disc><li>Complete Neurodiversity and other <a href="https://about.gitlab.com/company/culture/inclusion/">DIB</a> training and/or other company wide training to further education on DIB</li><li>Attend DIB Initiatives Calls to stay informed and connected with ongoing efforts and discussions</li><li>Participate in a DIB Initiative: join <a href="https://about.gitlab.com/company/culture/inclusion/erg-guide/">TMRGs</a> you identify with, support other groups as an Ally, attend events, "like" slack posts and spread the word<br><li>Participate in a TMRG initiative</li><li>Member of a working group related to a DIB initiative, e.g. participate in a <a href="/handbook/people-group/learning-and-development/mentor/">Mentorship</a> program</li></ul></td>
     <td class="tg-0lax" rowspan="3" style="border:gray; border-width:0.5px; border-style:solid;"><a href="https://docs.google.com/forms/d/e/1FAIpQLScwmN71M4BR3wHgHP7niVllo70BY2HT1nM2uxsxHc4Mz7cRcA/viewform">Knowledge Assessment for Individual Contributors</a></td>
   </tr>
   <tr>
@@ -791,7 +791,7 @@ If you would like to improve your skills or expand your knowledge on topics rela
   <tr>
     <td class="tg-0lax" style="border:gray; border-width:0.5px; border-style:solid;">8</td>
     <td class="tg-0lax" style="border:gray; border-width:0.5px; border-style:solid;">Implements best practices to limit bias on their team. They ensure blameless accountability is practiced throughout their team. Creates an environment where team members feel safe to share ideas and welcomes individual differences.</td>
-    <td class="tg-0lax" rowspan="2" style="border:gray; border-width:0.5px; border-style:solid;"><ul style="list-style-type:disc><li>Complete Neurodiversity and other <a href="https://about.gitlab.com/company/culture/inclusion/#diversity-inclusion--belonging-mission-at-gitlab">DIB</a> training and/or other company wide training to further education on DIB</li><li>Attend DIB Initiatives Calls to stay informed and connected with ongoing efforts and discussions</li><li>Participate in a DIB Initiative: join <a href="https://about.gitlab.com/company/culture/inclusion/erg-guide/">TMRGs</a> you identify with, support other groups as an Ally, attend events, like posts and spread the word<br><li>Participate in a TMRG initiative</li><li>Member of a working group related to a DIB initiative, e.g. participate in a <a href="https://handbook.gitlab.com/handbook/people-group/learning-and-development/mentor/">Mentorship</a> program</li><li>Hiring Manager ensure a diverse candidate slate and interview panel</li><li>Active participant and advocate for department DIB goals</li></ul></td>
+    <td class="tg-0lax" rowspan="2" style="border:gray; border-width:0.5px; border-style:solid;"><ul style="list-style-type:disc><li>Complete Neurodiversity and other <a href="https://about.gitlab.com/company/culture/inclusion/#diversity-inclusion--belonging-mission-at-gitlab">DIB</a> training and/or other company wide training to further education on DIB</li><li>Attend DIB Initiatives Calls to stay informed and connected with ongoing efforts and discussions</li><li>Participate in a DIB Initiative: join <a href="https://about.gitlab.com/company/culture/inclusion/erg-guide/">TMRGs</a> you identify with, support other groups as an Ally, attend events, like posts and spread the word<br><li>Participate in a TMRG initiative</li><li>Member of a working group related to a DIB initiative, e.g. participate in a <a href="/handbook/people-group/learning-and-development/mentor/">Mentorship</a> program</li><li>Hiring Manager ensure a diverse candidate slate and interview panel</li><li>Active participant and advocate for department DIB goals</li></ul></td>
     <td class="tg-0lax" rowspan="6" style="border:gray; border-width:0.5px; border-style:solid;"><a href="https://docs.google.com/forms/d/e/1FAIpQLSel_U-audrhPvDlHFAbxF7Jvn5prDns2p8iGzWOTbL1oGraxg/viewform">Knowledge Assessment for People Leaders</a></td>
   </tr>
   <tr>
@@ -827,15 +827,29 @@ If you would like to improve your skills or expand your knowledge on topics rela
 
 ## 👣 Iteration {#iteration}
 
-[Merriam-Webster](https://www.merriam-webster.com/dictionary/iteration#:~:text=%3A%20the%20action%20or%20a%20process,closer%20to%20a%20desired%20result) defines iteration as the "the action or a process of iterating or repeating: such as a procedure in which repetition of a sequence of operations yields results successively closer to a desired result." At GitLab, we iterate to do the [smallest viable and valuable thing, and get it out quickly for feedback](https://about.gitlab.com/blog/2017/01/04/behind-the-scenes-how-we-built-review-apps/). This thing may be additive (adding something) or subtractive (removing something). If you make suggestions that can be excluded from the first iteration, turn them into a separate issue that you link. While you should have a clear vision of the desired outcome, don't write a large plan; only write the first step. Trust that you'll know better how to proceed after something is released. You're doing it right if you're slightly embarrassed by the minimal feature set shipped in the first iteration. This value is the one people most underestimate when they join GitLab. The impact both on your work process and on how much you achieve is greater than anticipated. In the beginning, it hurts to make decisions fast and to see that things are changed with less consultation. But frequently, the simplest version turns out to be the best one.
+[Merriam-Webster](https://www.merriam-webster.com/dictionary/iteration#:~:text=%3A%20the%20action%20or%20a%20process,closer%20to%20a%20desired%20result) defines iteration as the "the action or a process of iterating or repeating: such as a procedure in which repetition of a sequence of operations yields results successively closer to a desired result." At GitLab, we iterate to do the [smallest valuable thing to get fast feedback and efficiently reach a desired end goal](https://lowrysolutions.com/blog/how-to-be-iterative-in-your-thinking/#_edn1). Feedback can be from internal users (dogfooding), a limited number of external users (through our [early access program](https://about.gitlab.com/community/early-access/)), or through feedback from our broader user community. We validate each iteration and adjust, but not at the expense of the user experience that we deliver to our customers.
 
-People that join GitLab all say they already practice iteration. But this is the value that is the hardest to understand and adopt. People are trained that if you don't deliver a perfect or polished thing, there will be a problem. If you do just one piece of something, you have to come back to it. Doing the whole thing seems more efficient, even though it isn't. If the complete picture is not clear, your work might not be perceived as you want it to be perceived. It seems better to make a comprehensive product. They see other GitLab team members being really effective with iteration but don't know how to make the transition, and it's hard to shake the fear that constant iteration can lead to shipping lower-quality work or a worse product. It is possible to ship a minimally viable product while continuing to adhere to the documented quality standards.
+When we iterate at GitLab, we break up the work that we know we need to do into smaller chunks to iterate toward a targeted end state:
+
+1. Merge in codebase
+1. [Dogfood](/handbook/product/product-processes/dogfooding-for-r-d/)
+1. Have some external users (early access program)
+1. Ensure global optimization (use standardized systems)
+1. Plan beyond the iteration
+
+Iteration does not require us to ship features that are open to all users from day one. Feedback can come from internal users or a limited number of external users (early access program). Moving through the [release process is not iteration](#the-release-process-is-not-iteration) though. Iteration is also not a [replacement for having a plan](#iteration-is-no-substitute-for-planning). We expect you to know where you are going, but you can iterate to get there.
+
+An iteration might be additive (adding something) or subtractive (removing something). If you make suggestions that can be excluded from the first iteration, turn them into a separate issue that you link.
+
+While you should have a clear vision of the desired outcome and how it addresses a customer pain point or improves the user experience, be efficient in your planning. Unless you identify important cross-functional interdependencies, focus detailed planning on the first step. It might feel you are moving too slowly; however, planning is critical in order to ensure you can move fast when implementing. You're doing it right if you feel that you have shipped the minimal feature set in the first iteration. This value is the one people most underestimate when they join GitLab. The impact, both on your work process and on how much you achieve, is greater than anticipated. Frequently, the simplest version that provides value turns out to be the best one.
+
+Many people who join GitLab say they already practice iteration. But this is the value that is the hardest to understand and adopt. People are trained that if you don't deliver a perfect or polished thing, there will be a problem. If you do just one piece of something, you have to come back to it. Doing the whole thing seems more efficient, even though it isn't. If the complete picture is not clear, your work might not be perceived as you want it to be perceived. It seems better to make a comprehensive product. They see other GitLab team members being really effective with iteration but don't know how to make the transition, and it's hard to shake the fear that constant iteration can lead to shipping lower-quality work or a worse product. In reality, it is possible to ship a minimally valuable product while continuing to adhere to the documented quality standards.
 
 The way to resolve this is to write down only what value you can add with the time you have for this project right now. That might be 5 minutes or 2 hours. Think of what you can complete in that time that would improve the current situation. Iteration can be uncomfortable, even painful. If you're doing iteration correctly, it should be. Reverting work back to a previous state is positive, not negative. We're quickly getting feedback and learning from it. Making a small change prevented a bigger revert and made it easier to revert.
 
 However, if we take smaller steps and ship smaller, simpler features, we get feedback sooner. Instead of spending time working on the wrong feature or going in the wrong direction, we can ship the smallest product, receive fast feedback, and course correct. People might ask why something was not perfect. In that case, mention that it was an iteration, you spent only "x" amount of time on it, and that the next iteration will contain "y" and be ready on "z".
 
-Iteration enables [results](#results) and [efficiency](#efficiency)
+Iteration enables [results](#results) and [efficiency](#efficiency).
 
 {{< youtube id="2r0UeZ5p57Y" >}}
 
@@ -845,13 +859,42 @@ Iteration enables [results](#results) and [efficiency](#efficiency)
 
 Iteration involves driving results in pursuit of a long-term vision. While the intermediate goals may change as we iterate, we are unlikely to be successful if we don't start with a vision of what we are working toward. Shipping that vision in iterations allows us to learn from customers using it and adjust the vision if needed. Iteration for the sake of iteration can lead to inefficiencies and not deliver desired results.
 
-##### Don't wait
+##### Iteration is no substitute for planning
 
-Don't wait. When you have something of value like a potential blog post or a small fix, implement it straight away. Right now, everything is fresh in your head and you have the motivation. Inspiration is perishable. Don't wait until you have a better version. Don't wait until you record a better video. Don't wait for an event (like Contribute). Inventory that isn't released is a liability since it has to be managed, becomes outdated, and you miss out on the feedback you would have received had you implemented it straight away. When we don't wait we signal intent to others that we have a purpose to resolve something.
+Iteration without a plan can lead to inefficiencies and a subpar customer experience. Before iterating we need to plan. A plan should include:
+
+1. Time-bound objective: Where we want to be in a year
+1. UX: User experience we are working toward
+1. Quality: What quality is sufficient quality, inclusive of security
+1. Success metric: Usage we want at a specific time
+1. Data schema: The data schema we need to measure progress towards project goals
+1. GTM plan: How we want to go to market
+1. Enablement: When we'd plan to train and enable the support and field teams
+1. Marketing: When we'd launch marketing (doesn't have to be at release)
+1. Secure by design: default to the most secure configuration
+
+##### The release process is not iteration
+
+Moving through the release process is not iteration.
+
+The release process can include:
+
+- [Dogfooding](#dogfooding)
+- [Early access](https://docs.gitlab.com/ee/policy/early_access_program/)
+- Incremental release using [a feature flag](https://docs.gitlab.com/ee/development/feature_flags/)
+- [Development stage progression](https://docs.gitlab.com/ee/policy/experiment-beta-support.html) (such as experiment to beta)
+- Release
+- Announcement
+
+While [development stages](https://docs.gitlab.com/ee/policy/experiment-beta-support.html) can be used to indicate release progress, is not itself iteration.
 
 ##### Iterate toward global maximum
 
-If we are not aware of interdependencies beyond our team and collaborating with others across the organization, we risk deliverables that settle into a "local maxima" of quality, richness, and efficiencies. This localization is largely defined by team structure and organizational boundaries. While an iteration can take place within a single team, that team is responsible for identifying inter-dependencies and proactively communicating and aligning with other teams working on related projects. This helps ensure that iterations are not "half-baked" and align with work being done across the broader organization.
+If we are not aware of interdependencies beyond our team, and we are not collaborating with others across the organization, we risk deliverables that settle into a "local maximum" of quality, richness, and efficiency. This localization is largely defined by team structure and organizational boundaries. While an iteration can take place within a single team, that team is responsible for identifying inter-dependencies and proactively communicating and aligning with other teams working on related projects. This helps ensure that iterations are not "half-baked" and align with work being done across the entire organization.
+
+##### Don't wait
+
+Don't wait on the small things. When you have something of value like a potential blog post or a small fix, implement it straight away. Right now, everything is fresh in your head and you have the motivation. Inspiration is perishable. Don't wait until you have a better version. Don't wait until you record a better video. Don't wait for an event (like Contribute). Inventory that isn't released is a liability since it has to be managed, becomes outdated, and you miss out on the feedback you would have received had you implemented it straight away. When we don't wait we signal intent to others that we have a purpose to resolve something.  **Note**: "Don't wait" should not be used as a justification for not iterating toward the global maximum or at expense of the plan. If there are interdependencies to be considered or the iteration is customer facing, slow down and ensure that we are considering what is best for GitLab and our customers.
 
 ##### Set a due date
 
@@ -862,15 +905,19 @@ But we set a due date because having something out there builds trust and gives 
 
 ##### Cleanup over sign-off
 
-As discussed in [Sid's interview on iteration](https://youtu.be/tPTweQlBS54?t=1030), waiting for approval can slow things down. We can prevent this with automation (e.g. tests of database migration performance) or clean-up after the fact (refactor a Pajamas if something was added that isn't coherent), but we try to ensure that people don't need to wait for sign-off.
+As discussed in [Sid's interview on iteration](https://youtu.be/tPTweQlBS54?t=1030), waiting for approval can slow things down. We can prevent this with automation (such as tests of database migration performance) or clean-up after the fact (refactor a Pajamas if something was added that isn't coherent), but we try to ensure that people don't need to wait for sign-off. As iteration does not require us to ship to all users on day one, we can clean up after an internal or beta release to mitigate the negative impact to all customers.
 
 ##### Start off by impacting the fewest users possible
 
-If you do a gradual rollout of your change prefer: few users over many users, internal users (dogfooding) over external ones,  environments you get faster feedback about (SaaS) over low feedback ones (self-managed), etc.
+Iteration does not mean being open to all users from day one. If you do a gradual rollout of your change, prefer:
+
+- Few users over many users
+- Internal users (dogfooding) over external users
+- Environments with fast feedback (SaaS) over slow feedback (self-managed)
 
 ##### Reduce cycle time
 
-Short iterations reduce [our cycle time](https://about.gitlab.com/stages-devops-lifecycle/value-stream-analytics/).
+Short iterations reduce [our cycle time](https://about.gitlab.com/stages-devops-lifecycle/value-stream-analytics/). Merging frequently also prevents merge conflicts.
 
 ##### Work as part of the community
 
@@ -894,7 +941,7 @@ At GitLab, we rarely mark any content or proposals as drafts. Everything is alwa
 
 ##### Under construction
 
-As we get more users, they will ask for stability, especially in our UX. We should always optimize for the long term. This means that users will be inconvenienced in the short term, but current and future users will enjoy a better product in the end.
+As we continue to expand the number of users we have, they will continue to expect stability and reliability. We must optimize for the long term without sacrificing stability along the way. This means that users may be inconvenienced in the short term, but current and future users will enjoy a better product in the end.
 
 Educating users on the longer-term plan helps create a shared understanding of how a small change will incrementally grow into something more. For example, we could share how a dropdown will evolve into a much more nuanced solution in the future. We can take the following steps to articulate our plan:
 
@@ -902,17 +949,13 @@ Educating users on the longer-term plan helps create a shared understanding of h
 1. Ensure the direction page articulates a long-term plan ([example](https://about.gitlab.com/direction/plan/#project-management))
 1. Announce the MVC in a release post, link to the feedback issue, and link to the direction page ([example](https://about.gitlab.com/releases/2020/07/22/gitlab-13-2-released/#assign-issues-to-iterations))
 
-##### Low level of shame
+##### Low level of shame when dogfooding
 
-When we talked to Nat Friedman, he said: "A low level of shame is intrinsic to your culture." This captures the pain we feel by shipping something that isn't where we want it to be yet.
+In many organizations, you take a risk when you put forth any work that's not perfect, work where you haven't spent endless cycles planning for contingencies or counterpoints. Because of this, you're incentivized to invest a lot of time and effort into preparing for 'What if?' scenarios before any work is presented, even if the release is not customer facing and there is a low level of risk in imperfection.
 
-GitLab Head of Remote Darren M. adds context on this operating principle.
+The downside to that is clear when we are dogfooding: If you do eventually put forth the work, but it needed to be course-corrected a long time ago, you've squandered time that you could have spent improving it through iteration.
 
-> In many organizations, you take a risk when you put forth any work that's not perfect — where you haven't spent endless cycles planning for contingencies or counterpoints. Because of this, you're incentivized to invest a lot of time and effort into preparing for 'What if?' scenarios before any work is presented.
->
-> The downside to that is clear. If you do eventually put forth the work, but it needed to be course corrected a long time ago, you've now squandered a lot of time that you could have spent improving it via iteration.
->
-> Having a low level of shame requires you to combat a natural inclination to conceal work until it's perfect, and instead celebrate the small changes.
+Having a low level of shame when dogfooding or working internally requires you to combat a natural inclination to conceal work until it's perfect, and instead celebrate the small changes.
 
 ##### Cultural lens
 
@@ -923,12 +966,12 @@ Cultural differences can bring unique challenges and expectations to iteration. 
 We believe great companies sound negative because they focus on what they can improve, not only on what is working well.
 In every conversation, inside and outside the company, we should ask a question: What do you think we can improve?
 This doesn't mean we don't recognize our successes; for example, see our [Say Thanks](#say-thanks) value.
-
+<!-- vale handbook.Spelling = NO -->
 We are positive about the future of the company. We are **S**hort **Te**rm **C**ritical **A**nd **L**ong **T**erm **O**ptimistic (`STeCALTO`, for short).
-
+<!-- vale handbook.Spelling = YES -->
 ##### Be deliberate about scale
 
-First, optimize for speed and results (and be deliberate about how your change affects other processes/functionality); when it is a success, figure out how to scale it. Great examples are in [this article by Paul Graham](http://paulgraham.com/ds.html).
+First, optimize for speed and results (and be deliberate about how your change affects other processes/functionality); when it is a success, figure out how to scale it. Great examples are in [this article by Paul Graham](https://paulgraham.com/ds.html).
 
 ##### Resist bundling
 
@@ -940,15 +983,11 @@ Most decisions are easy to reverse. In these cases, the [Directly Responsible In
 
 ##### Changing proposals isn't iteration
 
-Changing something without shipping it is a revision, not iteration. Only when the change is rolled out to users can you learn from feedback. When you're changing a proposal based on different opinions, you're frequently wasting time; it would be better to roll out a small change quickly and get real world feedback. Never call a revision an iteration because it is almost the opposite.
-
-A few challenges have arisen with how we approach iteration. The best example may be the proposal of a two-month release cycle. The argument was that a longer release cycle would buy us time for bug fixes and feature development, but we don't believe that is the case. As detailed above, we aim to make the absolute smallest viable and valuable thing possible, and that doing otherwise will only slow us down.
-
-That said, we would love to work on a two-week release cycle, but that should be another conversation.
+Changing something without shipping it is a revision, not iteration. Only when the change is rolled out to users, whether [internal users or a limited customer group](#start-off-by-impacting-the-fewest-users-possible), can you learn from feedback. When you're changing a proposal based on different opinions, you're frequently wasting time; it would be better to roll out a small change quickly and get real world feedback. Never call a revision an iteration because it is almost the opposite.
 
 ##### Embracing Iteration
 
-In order to embrace iteration, we should have the attitude that we are trying to achieve as much as possible in a small amount of time; it's where we are at the end state of an iteration, that counts. The benefit of iteration is to get feedback from the end-user. Focus on sharing context on the *end of the first iteration* rather than a *hypothetical future state* requiring multiple iterations. By embracing iteration we can increase creativity in incremental components.
+In order to embrace iteration, we should have the attitude that we are trying to achieve as much as possible in a small amount of time; it's where we land at the end state of an iteration that counts. The benefit of iteration is to get fast feedback from users. Focus on sharing context at the **end of the first iteration** rather than a **hypothetical future state** that requires multiple iterations. By embracing iteration we can increase creativity in incremental components.
 
 {{< youtube id="nXfKtnVUhvQ" >}}
 
@@ -966,37 +1005,20 @@ Rapid iteration can get in the way of [results](#results) if it's not thought ou
 we use the values to guide all GitLab team members). In those instances, we add additional review to the approval
 process; not to prohibit, but to be more deliberate in our iteration. The change process is documented in the [GitLab Handbook Usage](/handbook/about/handbook-usage/) page and takes place via merge request approvals.
 
-##### See it in action
-
-Iteration is so important to GitLab that the CEO hosted [Iteration Office Hours](/handbook/ceo/#iteration-office-hours) to provide guidance and assist in breaking large, complex topics into MVCs and smaller iterations of work.
-
-1. [2019-11-19](https://www.youtube.com/watch?v=zwoFDSb__yM)
-1. [2020-01-15](https://www.youtube.com/watch?v=FAuwri0vsts)
-1. [2020-01-17](https://www.youtube.com/watch?v=DoDGlRrDwJc)
-1. [2020-02-18](https://www.youtube.com/watch?v=liI2RKqh-KA)
-
-You can view these on our [GitLab Unfiltered YouTube channel](https://www.youtube.com/channel/UCMtZ0sc1HHNtGGWZFDRTh5A/search?query=%22Iteration+Office+Hours%22).
-
-##### Examples of iteration in other companies
-
-Iteration is a key value in many disruptive and successful organizations. Below are some examples:
-
-- [SpaceX](iteration-examples/spacex/)
-
 ##### 12 things that are not iteration
 
 Iteration is often counterintuitive and difficult to do. To clarify what an iteration is, it helps to see examples of what is not an iteration. Below are 12 examples of things we've seen mistaken as iteration, but don't meet our definition of iteration.
 
-1. Reducing quality
+1. Reducing quality, or lowering goal posts
 1. Avoiding or reducing documentation
 1. Compromising on security
 1. Delivering something that's not the recommended path or on by default
 1. Shipping something of no value
 1. An excuse to focus on unimportant items
-1. Changing or lowering goal posts
+1. [Moving through the release process](#the-release-process-is-not-iteration)
 1. Revisions you don't ship or publish
 1. An excuse to impose unrealistically tight timelines
-1. An excuse to avoid planning
+1. [An excuse to avoid planning](#iteration-is-no-substitute-for-planning)
 1. Imposing long hours
 1. Expecting others to fix your work
 
@@ -1009,7 +1031,7 @@ We demonstrate iteration when we do the smallest viable and valuable thing, get 
 
 <table class="tg">
   <tr>
-    <th class="tg-0lax"><a href="https://handbook.gitlab.com/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades">GitLab Job Grade</a></th>
+    <th class="tg-0lax"><a href="/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades">GitLab Job Grade</a></th>
     <th class="tg-0lax">Demonstrates Iteration Competency by…</th>
     <th class="tg-0lax">Knowledge Assessment<br></th>
   </tr>
@@ -1055,7 +1077,7 @@ We demonstrate iteration when we do the smallest viable and valuable thing, get 
 
 ## 👁️ Transparency {#transparency}
 
-Be open about as many things as possible. By making information public, we can reduce the threshold to contribution and make collaboration easier. Use public issue trackers, projects, and repositories when possible. Transparency is not communication. Just because something exists in the handbook or elsewhere doesn't mean it's been communicated to the people who should understand or acknowledge it. On a personal level, be direct when sharing information, and admit when you've made a mistake or were wrong. When something goes wrong, it is a great opportunity to say "What's the [kaizen](https://en.wikipedia.org/wiki/Kaizen) moment here?" and find a better way without hurt feelings.
+Be open about as many things as possible. By making information public, we can reduce the threshold to contribution and make collaboration easier. Use public issue trackers, projects, and repositories when possible. Transparency is not communication. Just because something exists in the handbook or elsewhere doesn't mean it can't be communicated again or in a more robust fashion to the people who need to understand or acknowledge it. On a personal level, be direct when sharing information, and admit when you've made a mistake or were wrong. When something goes wrong, it is a great opportunity to say "What's the [kaizen](https://en.wikipedia.org/wiki/Kaizen) moment here?" and find a better way without hurt feelings.
 
 Even as a [public company](https://about.gitlab.com/blog/2021/10/14/gitlab-inc-takes-the-devops-platform-public/), we know that our value of transparency will be key to our success. This value can be hard to follow at times. You might ask yourself: what should be shared, how much to share, whether or not to speak up but definitely take the time to always opt for maximum transparency by adhering to the operating principles below. Often, company values get diluted as they grow, most likely because they do not write anything down. But we will make sure our values scale with the company. As a [public company](/handbook/company/being-a-public-company/), we declare everyone in the company as an insider, which allows us to remain transparent internally about our numbers, etc. Everything else that can be transparent will continue to be so.
 
@@ -1078,7 +1100,7 @@ Because we are public by default and have the [SAFE framework](/handbook/legal/s
 
 We make information public by default because [transparency is one of our values](#transparency).
 However it is [most important to focus on results](#hierarchy).
-Therefore, a category of information is **public** unless there is a reason for it not to be. If something is not public, there should be a reference in the handbook that states a confidential decision was taken with a link to our Not Public guidelines, unless legal feels it carries undue risk. We document what is [not public by default](/handbook/communication/confidentiality-levels/#not-public) on our communication page.
+Therefore, a category of information is **public** unless there is a reason for it not to be. If something is not public, there should be a reference in the handbook that states a confidential decision was taken with a link to our Not Public guidelines, unless GitLab Legal and Corporate Affairs believes it carries undue risk. We document what is [not public by default](/handbook/communication/confidentiality-levels/#not-public) on our communication page.
 
 If you believe something shouldn't be public that currently is (or vice versa), then [make a merge request](/handbook/communication/#start-with-a-merge-request) to the relevant page(s) suggesting the change so that you can collaborate with others and discuss with the [DRI](/handbook/people-group/directly-responsible-individuals/). When content contains information which is [not public](/handbook/communication/confidentiality-levels/#not-public) it is recommended to remove the specific sections which are not public, put them on their own page in the internal handbook, and then link out to that with a "not public/internal only" note. Always share publicly what we can.
 
@@ -1095,7 +1117,7 @@ Because some information is [not public](/handbook/communication/confidentiality
 
 ##### Directness
 
-Being direct is about being transparent with each other. We try to channel our inner [Ben Horowitz](https://en.wikipedia.org/wiki/Ben_Horowitz) by being [both straightforward and kind](https://medium.com/@producthunt/ben-horowitz-s-best-startup-advice-7e8c09c8de1b).
+Being direct is about being transparent with each other. We try to channel our inner [Ben Horowitz](https://en.wikipedia.org/wiki/Ben_Horowitz) by being [both straightforward and kind](https://blog.producthunt.com/ben-horowitz-s-best-startup-advice-7e8c09c8de1b).
 Feedback is always about your work and not your person. That doesn't mean it will be easy to give or receive it.
 
 ##### Articulate when you change your mind
@@ -1108,7 +1130,7 @@ Be transparent to the right people (up) at the right time (when still actionable
 
 ##### Transparency is most valuable if you continue to do it when there are costs
 
-We practice transparency even when hiding the facts would be easier. For example, many companies do not give you the real reason why they declined your application because it increases the chance of legal action. We want to only reject people for the right reasons and we want to give them the opportunity to grow by getting this feedback. Therefore, we'll accept the increased risk of holding ourselves to a high standard of making decisions and do the right thing by telling them what we thought. Other examples are being transparent about [security incidents](http://disq.us/p/1r9gceh) and participating in and contributing to Live Broadcasts.
+We practice transparency even when hiding the facts would be easier. For example, many companies do not give you the real reason why they declined your application because it increases the chance of legal action. We want to only reject people for the right reasons and we want to give them the opportunity to grow by getting this feedback. Therefore, we'll accept the increased risk of holding ourselves to a high standard of making decisions and do the right thing by telling them what we thought. Other examples are being transparent about [security incidents](https://disq.us/p/1r9gceh) and participating in and contributing to Live Broadcasts.
 
 Transparency has costs (distraction, mis-interpretation, etc.) but also great benefits (productivity, hiring, retention, brand awareness, etc). Team members can view more details on these benefits by referencing the "Transparency Benefit Quantification" slides in Google Drive). We should carefully weigh the tradeoff between costs and benefits, to prevent a knee-jerk reaction to reduce transparency when it has costs.
 
@@ -1127,7 +1149,7 @@ Transparent changes have the reasons for the change laid out clearly along with 
 This also helps with institutional memory: a year from now when you want to know why a decision was made, or not, the issue or MR that has the decision also shares why the decision was made.
 This is related to [Chesterton's fence](https://en.wikipedia.org/wiki/Wikipedia:Chesterton%27s_fence) - it's much easier to suggest removing or changing something if you know why it exists in the first place.
 
-Avoid using terms such as "industry standard" or "best practices" as they are vague, opaque, and don't provide enough context as a reason for a change.
+If you use generalized terms such as "industry standard" or "best practices," be sure to give context, as without context they can be seen as potentially vague or opaque.
 
 Similarly, merely stating a single value isn't a great explanation for why we are making a particular decision. Many things could be considered "iteration" or "efficiency" that don't match our definition of those values. Try to link to an operating principle of the value or provide more context, instead of just saying a single value's name.
 
@@ -1152,7 +1174,7 @@ We demonstrate transparency when we are open with as many things as possible red
 
 <table class="tg">
   <tr>
-    <th class="tg-0lax"><a href="https://handbook.gitlab.com/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades">GitLab Job Grade</a></th>
+    <th class="tg-0lax"><a href="/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades">GitLab Job Grade</a></th>
     <th class="tg-0lax">Demonstrates Transparency Competency by…</th>
     <th class="tg-0lax">Knowledge Assessment<br></th>
   </tr>

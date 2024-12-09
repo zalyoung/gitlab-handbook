@@ -62,7 +62,7 @@ Ways to connect with me:
   - GitLab (internal)
   - [Support Driven](https://supportdriven.slack.com/)
   - [Write the Docs](https://www.writethedocs.org/slack/)
-- GitLab.com: [cynthia](http://gitlab.com/cynthia)
+- GitLab.com: [cynthia](https://gitlab.com/cynthia)
 - Personal Blog: [cynthiang.ca](https://cynthiang.ca)
 - Digital card (with links to social accounts): [About.Me](https://about.me/cynthiang)
 

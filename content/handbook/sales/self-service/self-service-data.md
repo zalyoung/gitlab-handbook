@@ -17,6 +17,7 @@ The Self-Service Data Team is responsible for leveraging data to optimize for th
 | :--------------- | :----------------- | :----------------- |
 | Max Fleisher | @mfleisher |  Mgr, Self-Service & Online Sales Data |
 | Sara Gladchun | @sglad | Sr. Analyst, Self-Service & Online Sales Data |
+| Ed Lu | @eclu94 | Sr. Analyst, Global Digital SMB Operations |
 
 ## Who We Work With
 
@@ -45,8 +46,8 @@ The Self-Service Data Team is responsible for leveraging data to optimize for th
 
 - [FY22-Q4](https://gitlab.com/gitlab-com/sales-team/self-service/-/issues/19)
 - [FY23-Q1](https://gitlab.com/gitlab-com/sales-team/self-service/-/issues/40)
-- [FY23-Q2](https://app.ally.io/users/181976/objectives?tab=0&chartView=false&time_period_id=155985&selected_dashboard_id=0&viewId=436425)
-- [FY23-Q3](https://app.ally.io/users/181976/objectives?tab=0&chartView=false&time_period_id=155985&selected_dashboard_id=0&viewId=436425)
+- FY23-Q2
+- FY23-Q3
 - [FY23-Q4](https://gitlab.com/groups/gitlab-com/sales-team/-/epics/61)
 - [FY24-Q1](https://gitlab.com/groups/gitlab-com/sales-team/-/epics/66)
 - [FY24-Q2](https://gitlab.com/groups/gitlab-com/sales-team/-/epics/77)

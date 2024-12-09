@@ -1,7 +1,6 @@
 ---
 title: SaaS, Self-Managed and Dedicated Troubleshooting tables
 category: Support Team
-subcategory: Uncategorized
 description: "Troubleshooting tips for various problems on each GitLab platform type"
 ---
 
@@ -23,7 +22,7 @@ SaaS, or Dedicated.
 
 |      |       |
 |:----:| ----- |
-|Self-managed| [GitlabSOS](https://gitlab.com/gitlab-com/support/toolbox/gitlabsos) is a great way to gather all logs from a customer instance in order to investigate further on potential issues.<br/>Similar to GitlabSOS, use [KubeSOS](https://gitlab.com/gitlab-com/support/toolbox/kubesos) if your customer uses Kubernetes instead of source or omnibus installations.<br/>[Fast-stats](https://gitlab.com/gitlab-com/support/toolbox/fast-stats) is a great way to compare performance analytics from and between GitLab Logs.<br/>[Green-hat](https://gitlab.com/gitlab-com/support/toolbox/greenhat)  is an experimental SOS and log parser.|
+|Self-managed| [GitlabSOS](https://gitlab.com/gitlab-com/support/toolbox/gitlabsos) is a great way to gather all logs from a customer instance in order to investigate further on potential issues.<br/>Similar to GitLabSOS, use [KubeSOS](https://gitlab.com/gitlab-com/support/toolbox/kubesos) if your customer uses Kubernetes instead of source or omnibus installations.<br/>[Fast-stats](https://gitlab.com/gitlab-com/support/toolbox/fast-stats) is a great way to compare performance analytics from and between GitLab Logs.<br/>[Green-hat](https://gitlab.com/gitlab-com/support/toolbox/greenhat)  is an experimental SOS and log parser. [GitLab Log Analysis](https://gitlab.com/gitlab-org/foundations/import-and-integrate/gitlab-logs-analysis): This experimental project sets up an environment for analyzing GitLab logs using Kibana, Filebeat, Elasticsearch, and Logstash. Upon startup, dashboards are automatically imported and ready for log analysis.|
 |DotCom|[Kibana](https://log.gprd.gitlab.net/) provides visualization capabilities on top of the content indexed on an Elasticsearch cluster to find Web based queries. Check the [tips and tricks](/handbook/support/workflows/kibana/#tips-and-tricks) to understand what kind of information you can pull using this tool.<br/>[Sentry](https://sentry.gitlab.net/gitlab/gitlabcom/) helps investigate errors across different applications or environments, for example Ruby code related errors. Search on Sentry usually is done using a Correlation ID.<br/>[Grafana](/handbook/engineering/monitoring/#main-monitoring-dashboards) is used for infrastructure metrics collection for GitLab.com |
 |Dedicated|The [GitLab Dedicated Logs](/handbook/support/workflows/dedicated_logs/) workflow has information about using Opensearch to view logs. The [Observability and Monitoring](/handbook/support/workflows/dedicated_instance_health/) workflow has information about using Grafana to diagnose performance problems.|
 
@@ -77,6 +76,16 @@ Use the [Admin Area docs](https://docs.gitlab.com/ee/administration/admin_area.h
 |DotCom| Gitaly is managed by the infrastructure team of GitLab, so customers do not have access to it.|
 |Dedicated| [Raise issue with Dedicated team](/handbook/support/workflows/dedicated/#filing-issues) |
 
+### Subscription
+
+|      |       |
+|:----:| ----- |
+|Dedicated|GitLab Dedicated customers [get **Ultimate**](https://docs.gitlab.com/ee/subscriptions/gitlab_dedicated/#application) but please note that [some features are not available in GitLab Dedicated](https://docs.gitlab.com/ee/subscriptions/gitlab_dedicated/#unavailable-features).|
+|DotCom| For folks who make use of GitLab.com, the [available plans](https://about.gitlab.com/pricing/) include **Free**, **Premium** and **Ultimate**.|
+|Self-managed| For self-managed instances, folks can use either GitLab CE (Community Edition) or GitLab EE (Enterprise Edition) without a license. GitLab EE can be [activated](https://docs.gitlab.com/ee/administration/license.html) with a **Premium** or an **Ultimate** license.|
+
+Note that [GitLab Duo add-ons](https://docs.gitlab.com/ee/subscriptions/subscription-add-ons.html) are handled separately from the subscription.
+
 ### Runners
 
 |      |       |
@@ -84,3 +93,19 @@ Use the [Admin Area docs](https://docs.gitlab.com/ee/administration/admin_area.h
 |Self-managed| Self-managed runners are [deployed](https://docs.gitlab.com/runner/install/index.html) to customer-owned infrastructure and [registered](https://docs.gitlab.com/runner/register/index.html) to the self-managed GitLab instance.|
 |DotCom| [GitLab-hosted runners](https://docs.gitlab.com/ee/ci/runners/index.html) are available to all projects stored on GitLab.com. Self-managed runners can also be registered to GitLab.com. |
 |Dedicated| [GitLab-hosted runners (beta)](https://docs.gitlab.com/ee/subscriptions/gitlab_dedicated/#hosted-by-gitlab) can be provisioned for Dedicated customers. Self-managed runners can also be registered to Dedicated environments. |
+
+### Rails console
+
+|      |       |
+|:----:| ----- |
+|Self-managed| Rails console commands can be run by [starting the rails console](https://docs.gitlab.com/ee/administration/operations/rails_console.html) on any of the rails nodes. |
+|DotCom| On GitLab.com, rails console can be accessed by creating an [internal request](/handbook/support/workflows/internal_requests/#gitlabcom-console-escalation). |
+|Dedicated| Rails console is not available for dedicated. In urgent matters please create a [request for help with dedicated team](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/team/-/issues/new). |
+
+### Feature flags
+
+|      |       |
+|:----:| ----- |
+|Self-managed| Instance adminsitrator can [enable feature flags through the rails console](https://docs.gitlab.com/ee/administration/feature_flags.html).|
+|DotCom| On GitLab.com some features flags [can be enabled through chatops](/handbook/support/workflows/saas_feature_flags/). |
+|Dedicated| Feature Flags are not available for GitLab Dedicated until the feature flag is enabled by default. Read more about how to [handle feature flag requests from GitLab Dedicated customers](/handbook/support/workflows/dedicated/#feature-flags-are-not-supported). |

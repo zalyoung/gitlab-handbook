@@ -226,4 +226,4 @@ searches (depending on which Zendesk instance you are looking in):
 
 ## Useful links
 
-- [Zendesk search reference](https://support.zendesk.com/hc/en-us/articles/203663226-Zendesk-Support-search-reference)
+- [Zendesk search reference](https://support.zendesk.com/hc/en-us/articles/4408886879258-Zendesk-Support-search-reference)

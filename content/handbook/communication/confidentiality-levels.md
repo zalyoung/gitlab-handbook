@@ -26,7 +26,7 @@ The following items are internal:
    - Spend of more than 10%
    - A department's cost
    - Team member retention (analysts may make business assumptions based on this)
-   - The Sales pipeline 
+   - The Sales pipeline
    - Net and gross retention KPIs. Only the actual numbers can't be public. Other details, such as the goal and their calculation, may be public.
 1. All external communications about any financial information should be in line with the company's [SAFE Guidelines](/handbook/legal/safe-framework/) and [Social Media Policy](/handbook/marketing/team-member-social-media-policy/). If you have any questions please reach out via the [#Safe](https://gitlab.slack.com/archives/C01UZQ63WFQ) Slack channel.
 1. Deals with external parties like contracts and [approving and paying invoices](/handbook/finance/accounting/#procure-to-pay).
@@ -67,7 +67,7 @@ Some projects require limited access internally due to the confidential or sensi
 
 Project code names can be overused. Code names should only be used for projects in which the leaking of a descriptive name (even without access to any related content) would be a problem. There are two cases where the project name should be used instead of a name that clearly describes the project.
 
-1. The existence of the project is [material non-public information (MNPI)](/handbook/product/product-safe-guidance/#materially-non-public-information). Example: "Gotham" was our project name for our IPO, because GitLab would have been penalized for pre-maturely signaling the imminence of its IPO.
+1. The existence of the project is [material non-public information (MNPI)](/handbook/product/product-processes/product-safe-guidance/#materially-non-public-information). Example: "Gotham" was our project name for our IPO, because GitLab would have been penalized for pre-maturely signaling the imminence of its IPO.
 1. Knowledge of the project or initiative is not MNPI but should remain [limited access](/handbook/communication/confidentiality-levels/#limited-access) to avoid prematurely sharing information with  team members, customers or the wider community. Examples include: "Tiering" was our project name for End of Availability, and "Hamster" was our project name for exploring how to enter China.
 
 In many cases, key project or initiative content will be MNPI or limited access, but we do not use a code name. In these cases, it is okay for folks to have a sense of what is being worked on, but the exact details are sensitive. For example:

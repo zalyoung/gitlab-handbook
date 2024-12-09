@@ -66,6 +66,13 @@ Monte Carlo will be running volume, freshness and schema change monitors by defa
 However, these checks are based on update patterns the tool learns from the data and if you need a specific custom check that runs on a certain schedule, you might want to add a custom monitor for that.
 
 The official Monte Carlo documentation on monitors can be found in the [Monitors Overview guide](https://docs.getmontecarlo.com/docs/monitors-overview).
+ 
+We have one Monte Carlo Snowflake Integration in place, which has two separate connections to Snowflake.     
+The first connection is called `snowflake` and it operates on `DATA_OBS_WH_1`, an `XS` Snowflake Warehouse.    
+The second connection called `snowflake large` and it operates on `DATA_OBS_WH_L`, a `L` Snowflake Warehouse.    
+
+Please make sure to mindfully choose the connection that makes most sense for your new custom monitor when adding a new one.    
+Only choose to run the monitor on the large warehouse if this is really necessary for your custom SQL query to run in a reasonable amount of time and to prevent it from timing out.    
 
 ## Fine-Tuning an Existing Monitor
 
@@ -101,9 +108,13 @@ The same script has to be run as many times as we have databases to monitor (in 
 Please note this is an exception to our usual permission-handling procedure, where we rely on Permifrost, because observability permissions are an edge-case for Permifrost and not yet supported by the tool.
 There is an ongoing [feature request](https://gitlab.com/gitlab-data/permifrost/-/issues/120) on Permifrost for adding granularity to the way permissions are set, but no solution has been agreed on yet.
 
-### Muting Monte Carlo alerts for sandbox schema's
+## Monitoring strategy
 
-Sandbox environments are generally created for the purpose of testing. We normally don't take any actions on them even if any alerts come through in our triage slack channels. For this reason, with the confirmation from stakeholders we mute notifications from within monte carlo for sandbox schemas to avoid getting any alerts from them. To mute a schema, head over to [mute-datasets page](https://getmontecarlo.com/settings/muted-data/datasets).
+By default, we monitor all tables in the `RAW`, `PREP`, and `PROD` databases in Monte-Carlo, unless there is a specific reason not to, or if we reach the limits specified in our contract. Excluded tables or schemas from monitoring are documented below.
+
+### Exclude sandbox schemas
+
+Sandbox environments are generally created for the purpose of testing. We normally don't take any actions on them even if any alerts come through in our triage slack channels. For this reason we exclude monitoring schemas that contain `sandbox` to avoid getting any alerts from them. This has been set via an exclude rule in Monte Carlo. 
 
 ## Notification strategy
 

@@ -14,7 +14,7 @@ setting. Nothing detailed herein is an actual, legal service level agreement.
 ## What are Zendesk service level agreements?
 
 As per
-[Zendesk](https://support.zendesk.com/hc/en-us/articles/204770038-Defining-and-using-SLA-policies):
+[Zendesk](https://support.zendesk.com/hc/en-us/articles/4408829459866-Defining-SLA-policies):
 
 > A Service Level Agreement, or SLA, is an agreed upon measure of the response
 > and resolution times that your support team delivers to your customers.

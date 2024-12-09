@@ -27,7 +27,7 @@ Beyond being "handbook first," we are also "public handbook first." When informa
 </figure>
 
 <!-- blank line -->
-When asked during an [INSEAD](http://insead.edu/) case study interview (shown above) about challenges related to being all-remote, GitLab co-founder and CEO Sid Sijbrandij provided the following reply.
+When asked during an [INSEAD](https://www.insead.edu/) case study interview (shown above) about challenges related to being all-remote, GitLab co-founder and CEO Sid Sijbrandij provided the following reply.
 
 > The biggest problem is GitLab not working handbook first. We have an amazing handbook that allows us to collaborate, onboard new people, and think collectively.
 >
@@ -68,7 +68,7 @@ Please follow these guidelines and remind others of them.
 
 #### Screenshot the handbook instead of creating a presentation
 
-Presentations are great for ephemeral content like [group conversations](/handbook/company/group-conversations/) and board presentations. [Evergreen content](https://www.thebalance.com/what-is-evergreen-content-definition-dos-and-don-ts-2316028) like a [leadership training](/handbook/leadership/#training) should be based on the handbook. This is an important element of [working handbook-first](/handbook/company/culture/all-remote/handbook-first/).
+Presentations are great for ephemeral content like [group conversations](/handbook/company/group-conversations/) and board presentations. [Evergreen content](https://web.archive.org/web/20170503174119/https://www.thebalance.com/what-is-evergreen-content-definition-dos-and-don-ts-2316028) like a [leadership training](/handbook/leadership/#training) should be based on the handbook. This is an important element of [working handbook-first](/handbook/company/culture/all-remote/handbook-first/).
 
 In the creation of presentations for evergreen content, please screenshot the handbook and provide links to displayed pages rather than copy and pasting content (or formatting a slide specifically to mirror handbook information). This approach shows a [bias towards asynchronous communication](/handbook/values/#bias-towards-asynchronous-communication), and rationale for this is below.
 
@@ -176,12 +176,12 @@ Utilizing multiple formats can be valuable, and different people may prefer cert
 #### Use headings liberally
 
 If a page includes more than two headings (especially if it's larger than a single "screen"), add an automatically generated Table of Contents (ToC) by copying [line 6 to 10 in this MR](https://gitlab.com/gitlab-com/www-gitlab-com/merge_requests/7141/diffs#f054d0f855ebef2a11559c362a356a2f9e010b99_6_6).
-Headings should have normal capitalization: don't use [ALL CAPS](https://en.wikipedia.org/wiki/All_caps) or [TitleCase](http://www.grammar-monster.com/glossary/title_case.htm).
-After a heading, leave one blank line; this is [not required in the standard](http://spec.commonmark.org/0.27/#example-46), but it is our convention.
+Headings should have normal capitalization: don't use [ALL CAPS](https://en.wikipedia.org/wiki/All_caps) or [TitleCase](https://www.grammar-monster.com/glossary/title_case.htm).
+After a heading, leave one blank line; this is [not required in the standard](https://spec.commonmark.org/0.27/#example-46), but it is our convention.
 
 #### Use contributable diagrams
 
-Preference contributable diagrams over uploading images or other less contributable diagrams. This makes it easier for other people to suggest changes and contribute. Diagram options in Markdown include [Mermaid](/docs/markdown-guide/#mermaid) and [PlantUML](/docs/markdown-guide/#plantuml).
+Preference contributable diagrams over uploading images or other less contributable diagrams. This makes it easier for other people to suggest changes and contribute. Diagram options in Markdown include [Mermaid](https://handbook.gitlab.com/docs/markdown-guide/#mermaid) and [PlantUML](https://handbook.gitlab.com/docs/markdown-guide/#plantuml).
 
 ## Handbook First Competency
 

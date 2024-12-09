@@ -137,9 +137,19 @@ If you mark a video private when it doesn't need to be, it is be easy to undo: s
 
 Secrets (e.g. access tokens, private keys, passwords, and credentials to systems running on GitLab infrastructure) and GitLab team member personal data (phone numbers, home address) should never be shared in public. Any video that exposes secrets or team member personal data should not be shared as a public YouTube recording.
 
-Similarly, internal-only documents and private or confidential issues should not be shared publicly in YouTube videos. If a video uploaded to the unfiltered channel exposes non-public information, [make it private quickly](#make-private-quickly).
+Similarly, internal-only documents and private or confidential issues should not be shared publicly in YouTube videos.
 
-Videos which expose secrets or internal information can be made public again after ensuring that all sensitive information has been redacted using the [Blur feature in YouTube Studio](https://support.google.com/youtube/answer/9057652?hl=en).
+If a video contains secrets or sensitive information:
+
+1. Do not publish the video on YouTube or any other public platform.
+2. Immediately revoke any secrets that were exposed in the video.
+3. For other sensitive information like personal data, redact the information using the [Blur feature in YouTube Studio](https://support.google.com/youtube/answer/9057652?hl=en).
+4. Only after all secrets have been revoked and sensitive information redacted, you may proceed with publishing the video.
+
+Remember that blurring is not a substitute for revoking exposed secrets. Always prioritize revoking secrets over relying solely on blurring.
+
+If a video containing secrets or non-public information is accidentally uploaded to the Unfiltered channel, [make it private quickly](#make-private-quickly) and use `/security` in Slack to [engage the security engineer on call](/handbook/security/security-operations/sirt/engaging-security-on-call/#engage-the-security-engineer-on-call) to follow up on the leak.
+Videos which initially exposed secrets or internal information can be made public again only after ensuring that all secrets have been revoked and sensitive information redacted.
 
 ## Why not Google Drive
 
@@ -166,7 +176,7 @@ Always use YouTube and never use Google Drive, even for [private videos](#visibi
 1. can be easily viewed on other devices, like TVs or streaming devices, with YouTube support.
 1. allow links to a [specific time in the video](https://www.h3xed.com/web-and-internet/link-to-a-specific-time-in-a-youtube-video).
 1. can have subtitles added automatically.
-1. are [zero rated by some mobile providers](https://www.t-mobile.com/offer/binge-on-streaming-video.html)
+1. are [zero rated by some mobile providers](https://www.t-mobile.com/tv-streaming/binge-on)
 1. will be served to people when it is relevant, automatically, since YouTube is a distribution channel.
 1. allows anyone to contribute by leaving comments.
 1. public videos show up in Google search.
@@ -340,9 +350,9 @@ Depending on your needs, you might want use software to provide overlays and/or 
 ### Audio Rerouting
 
 - [Soundflower Mac Open Source](https://github.com/mattingalls/Soundflower) or install with `brew install --cask soundflower`
-- [Loopback Mac Closed Source](http://www.rogueamoeba.com/loopback/) - Great closed source alternative
+- [Loopback Mac Closed Source](https://www.rogueamoeba.com/loopback/) - Great closed source alternative
 - [Windows alternatives](https://www.reddit.com/r/audioengineering/comments/3geqse/soundflower_alternative_on_windows/)
-- [Linux alternatives](http://askubuntu.com/questions/602593/whats-a-good-soundflower-replacement-for-ubuntu)
+- [Linux alternatives](https://askubuntu.com/questions/602593/whats-a-good-soundflower-replacement-for-ubuntu)
 
 ### Setup
 
@@ -355,7 +365,7 @@ Depending on your needs, you might want use software to provide overlays and/or 
 ![obs studio preferences](/handbook/marketing/marketing-operations/youtube/OBS_Studio_Stream.jpeg)
 
 - Configure your to-be-recorded software's audio to be rerouted to an alternative audio source/output.
-- Under "Audio" in OBS Studio preferences, select the alternative audio source/output under Mic/Auxiliary Device 2. See [this page](http://code-zest.blogspot.nl/2016/02/setting-up-obs-with-audio-output-in-mac.html) for more help
+- Under "Audio" in OBS Studio preferences, select the alternative audio source/output under Mic/Auxiliary Device 2. See [this page](https://code-zest.blogspot.nl/2016/02/setting-up-obs-with-audio-output-in-mac.html) for more help
 - Under "Video" select your preferred resolution and fps settings. Please take note that these should optimally reflect video aspect ratio such as `1920x1080`.
 - Optionally you can set up some output options under "Output"
 - In the normal window of OBS Studio you should now see 2 audio sliders, including "Mic/Aux 2". Configure these to your liking.

@@ -94,7 +94,7 @@ We've gathered extra ways to attract top talent to your organization (Note: this
 1. [No ask, must tell vacation policy]({{< ref "paid-time-off" >}}) which senior leaders visibly model
 1. The ability to [expense](/handbook/finance/spending-company-money/#coworking-or-external-office--space) a "third space" for working — an external office, coworking space, or residential community space through the likes of [Codi](https://www.codi.com)
 1. Caregiver leave (maternity, paternity, eldercare, etc.)
-1. [De-location stipend](https://zapier.com/blog/move-away-from-sf-get-remote-job) (supporting relocation away from a high cost-of-market location)
+1. [De-location stipend](https://web.archive.org/web/20220202064653/https://zapier.com/blog/move-away-from-sf-get-remote-job/) (supporting relocation away from a high cost-of-market location)
 1. 4-day workweek, Summer Fridays, no-meeting days, and other efforts that provide company-wide time off for employees to rest, recharge, and connect with community
 1. Supporting the purchase of a complete and ergonomic [remote workspace](workspace/) uniquely tailored to each team member
 1. Transparent policies for investing in and championing [diversity, inclusion & belonging](/handbook/values/#diversity-inclusion) (and published goals for improvement)
@@ -150,7 +150,7 @@ Other qualities unique to a remote workplace are:
 1. Proven ability to be a [manager of one](/handbook/values/#managers-of-one)
 1. Capable of (and enjoys) working [asynchronously](asynchronous/)
 
-When asked if anyone could learn to work well in an all-remote setting during an [INSEAD](http://insead.edu) case study [interview](https://youtu.be/EuGsen3FxXc), GitLab co-founder and CEO Sid Sijbrandij replied:
+When asked if anyone could learn to work well in an all-remote setting during an [INSEAD](https://www.insead.edu/) case study [interview](https://youtu.be/EuGsen3FxXc), GitLab co-founder and CEO Sid Sijbrandij replied:
 
 > "What's essential in all-remote is that you are a [manager of one](/handbook/values/#managers-of-one).
 >
@@ -209,20 +209,20 @@ Onboarding is a continuous process during a team member's first year. Investing 
 1. Increases productivity more quickly
 1. Better team member retention
 
-Companies that invest in onboarding report [54% more productivity](https://www.myshortlister.com/insights/employee-onboarding-statistics) from new hires. Studies show that [87% of team members are less likely to leave a company](http://www.totalteambuilding.com.au/the-positive-impact-of-team-building) when they feel engaged.
+Companies that invest in onboarding report [54% more productivity](https://www.myshortlister.com/insights/employee-onboarding-statistics) from new hires. Studies show that [87% of team members are less likely to leave a company](https://totalteambuilding.com.au/the-positive-impact-of-team-building/) when they feel engaged.
 
 1. Sets clear expectations
 1. Reduces new-hire anxiety
 1. Increases productivity more quickly
 1. Better team member retention
 
-Companies that invest in onboarding report [54% more productivity](https://www.myshortlister.com/insights/employee-onboarding-statistics) from new hires. Studies show that [87% of team members are less likely to leave a company](http://www.totalteambuilding.com.au/the-positive-impact-of-team-building) when they feel engaged.
+Companies that invest in onboarding report [54% more productivity](https://www.myshortlister.com/insights/employee-onboarding-statistics) from new hires. Studies show that [87% of team members are less likely to leave a company](https://totalteambuilding.com.au/the-positive-impact-of-team-building/) when they feel engaged.
 
 We are so convinced in the power of onboarding well that we've created a [Complete Guide to Remote Onboarding for New Hires](onboarding/). To help new hires focus on [three key onboarding dimensions](https://hbr.org/2018/12/to-retain-new-hires-spend-more-time-onboarding-them)--[organizational](onboarding/#organizational-onboarding), [technical](onboarding/#technical-requirements-for-all-remote-onboarding), and [social](onboarding/#social-requirements-for-all-remote-onboarding)--we assign a mentor or [onboarding buddy]({{< ref "onboarding-buddies" >}}).
 
 #### Assign a mentor or onboarding buddy
 
-To help prevent [New Job Anxiety](http://www.classycareergirl.com/2017/02/new-job-anxiety-conquer) and aid onboarding and the adjustment to an [all-remote]({{< ref "_index.md" >}}) culture, new team members are assigned an onboarding buddy.
+To help prevent [New Job Anxiety](https://www.classycareergirl.com/new-job-anxiety-conquer/) and aid onboarding and the adjustment to an [all-remote]({{< ref "_index.md" >}}) culture, new team members are assigned an onboarding buddy.
 
 A mentor or onboarding buddy is a friendly point of contact for a new team member. This individual sets the example for building relationships and models how to communicate in a variety of ways, such as video calls, check-ins on Slack, and [coffee chats](informal-communication/#coffee-chats).
 

@@ -377,7 +377,7 @@ There are four different ways that suppliers will be able to provide their payme
 - **Invoicing Section**: If for some reason, a supplier is submitting their first invoice and they have not provided their banking information before they are creating their first invoice, that will create a new supplier payment account in Coupa.
 
 {{% alert color="warning" %}}
-If you are a GitLab vendor and you want to know more about how to update your CSP profile, check Coupa's [Create or Update Your Profiles](https://success.coupa.com/Suppliers/For_Suppliers/Coupa_Supplier_Portal/Get_Started_with_the_CSP/Create_or_Update_Your_Profiles) documentation.
+If you are a GitLab vendor and you want to know more about how to update your CSP profile, check Coupa's [Create or Update Your Profiles](https://compass.coupa.com/en-us/products/product-documentation/supplier-resources/for-suppliers/Get_Started_with_the_CSP/Create_or_Update_Your_Profiles) documentation.
 {{% /alert %}}
 
 After the supplier submits their supplier payment account information, it will transfer into Coupa automatically and create a supplier payment account record.

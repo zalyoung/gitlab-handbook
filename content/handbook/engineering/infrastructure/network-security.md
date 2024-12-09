@@ -87,9 +87,9 @@ Cloudflare Web UI, that is not the preferred method to manage rules.
 The three zones that use Cloudflare each have a dedicated
 `cloudflare-pagerules.tf` file in its Terraform environment.
 
-- [gitlab.net](https://ops.gitlab.net/gitlab-com/gitlab-com-infrastructure/-/blob/master/environments/ops/cloudflare-pagerules.tf)
-- [gitlab.com](https://ops.gitlab.net/gitlab-com/gitlab-com-infrastructure/-/blob/master/environments/gprd/cloudflare-pagerules.tf)
-- [staging.gitlab.com](https://ops.gitlab.net/gitlab-com/gitlab-com-infrastructure/-/blob/master/environments/gstg/cloudflare-pagerules.tf)
+- [`gitlab.net`](https://ops.gitlab.net/gitlab-com/gl-infra/config-mgmt/-/blob/main/environments/ops/cloudflare-pagerules.tf)
+- [`gitlab.com`](https://ops.gitlab.net/gitlab-com/gl-infra/config-mgmt/-/blob/main/environments/gprd/cloudflare-pagerules.tf)
+- [`staging.gitlab.com`](https://ops.gitlab.net/gitlab-com/gl-infra/config-mgmt/-/blob/main/environments/gstg/cloudflare-pagerules.tf)
 
 #### How to make changes
 
@@ -174,4 +174,4 @@ Exceptions to this procedure will be tracked as per the [Information Security Po
 
 - Parent Policy: [Information Security Policy](/handbook/security/)
 - [Production Architecture](/handbook/engineering/infrastructure/production/architecture/)
-- [Encryption Policy](/handbook/security/product-security/vulnerability-management/encryption-policy.html#encryption-in-transit)
+- [Encryption Policy](/handbook/security/product-security/vulnerability-management/encryption-policy/#encryption-in-transit)

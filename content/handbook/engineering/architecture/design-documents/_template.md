@@ -65,7 +65,7 @@ Document statuses you can use:
 
 -->
 
-<!-- Design Doucments often contain forward-looking statements -->
+<!-- Design Documents often contain forward-looking statements -->
 <!-- vale gitlab.FutureTense = NO -->
 
 <!-- This renders the design document header on the detail page, so don't remove it-->
@@ -82,7 +82,7 @@ For long pages, consider creating a table of contents.
 <!--
 This section is very important, because very often it is the only section that
 will be read by team members. We sometimes call it an "Executive summary",
-because executives usually don't have time to read entire document like this.
+because executives usually don't have time to read entire documents like this.
 Focus on writing this section in a way that anyone can understand what it says,
 the audience here is everyone: executives, product managers, engineers, wider
 community members.
@@ -152,7 +152,7 @@ If you are not sure how many implementation details you should include in the
 document, the rule of thumb here is to provide enough context for people to
 understand the proposal. As you move forward with the implementation, you may
 need to add more implementation details to the document, as those may become
-an important context for important technical decisions made along the way. A
+valuable context for important technical decisions made along the way. A
 document is also a register of such technical decisions. If a technical
 decision requires additional context before it can be made, you probably should
 document this context in a document. If it is a small technical decision that

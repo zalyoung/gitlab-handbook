@@ -208,5 +208,5 @@ The content of this page is based on the following books and articles:
    Erder & Pureur - (ISBN-13: 978-0136523567)
 1. [Continuous Architecture in Practice](https://continuousarchitecture.com/) -
    Erder, Pureur, & Woods - (ISBN-13: 978-0136523567)
-1. [Architecture Tradeoff Analysis Method](https://resources.sei.cmu.edu/asset_files/TechnicalReport/2000_005_001_13706.pdf) -
+1. [Architecture Tradeoff Analysis Method](https://insights.sei.cmu.edu/documents/629/2000_005_001_13706.pdf) -
    Kazman, Klein, & Clements - (CMU/SEI-2000-TR-004)

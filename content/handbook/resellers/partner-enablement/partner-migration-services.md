@@ -17,8 +17,8 @@ _For the links in this section, login to our [GitLab Partner Portal](https://par
 
 GitLab Partners who are successful at performing customer-facing migrations often take this example path in client engagement:
 
-1. Scope/size of the migration: How many users? How many code repositories? Will the group structure remain intact, or is the migration an opportunity to 'clean up unused projects' within GitLab? Would a [GitLab Partner Led Optimization Service](https://partners.gitlab.com/prm/English/s/assets?collectionId=55025&id=459892&renderMode=Collection) be a better first step?
-1. Understand the customer's business: What artifacts are needed to be migrated? Is an audit-compliance history of users, issues, and merge requests important to the company? Or is migrating just the git code repository sufficient? What data is your customer sensitive to migrating?
+1. Scope/size of the migration: How many users? How many code repositories? Will the group structure remain intact, or is the migration an opportunity to 'clean up unused projects' within GitLab? Consider running [GitLab Evalulate](https://gitlab.com/gitlab-org/professional-services-automation/tools/utilities/evaluate), an open source a script that can be run to gather information about all projects of a GitLab Instance and/or Group (including sub-groups).
+1. Understand the customer's business: What artifacts are needed to be migrated? Is an audit-compliance history of users, issues, and merge requests important to the company? Or is migrating just the git code repository sufficient? What data is your customer sensitive to migrating? Would a [GitLab Partner Led Optimization Service](https://partners.gitlab.com/prm/English/s/assets?collectionId=55025&id=459892&renderMode=Collection) be a better first step?
 1. Health check: Is the import data source healthy, or would a [Readiness Assessment](/handbook/customer-success/professional-services-engineering/engagement-mgmt/scoping-information/readiness/) help provide the health of the GitLab source? Are some git repositories unable to be cloned, or require cleaning up? Are there any large code repositories with a long-lived history?
 1. Post-migration needs: Are there other consultative considerations like access control, and Single-Sign-On (SSO) that need to be configured as part of the migration and adoption towards GitLab or GitLab.com?
 
@@ -27,6 +27,8 @@ After having a technical scoping/sizing conversation with your customer, GitLab 
 The [Migration Readiness Checklist](https://gitlab.com/gitlab-org/professional-services-automation/tools/migration/congregate/-/blob/master/customer/migration-readiness-checklist.md), provided by GitLab Professional Services, provides a helpful example for you to use. It includes technical asks for Access, Communication, User migration planning, Migration Preparation, Wave Planning, Post Migration Checks, Post Migration Considerations, and Getting the most out of your investment. This document assumes the usage of [Congregate](https://gitlab-org.gitlab.io/professional-services-automation/tools/migration/congregate/), an open-source command line interface (CLI) migration tool from GitLab. Congregate is the preferred method used by GitLab Professional Services.
 
 Communicating clearly [What are a customer's obligations and responsibilities prior to, during, and after a migration?](https://gitlab.com/gitlab-org/professional-services-automation/tools/migration/congregate/-/blob/master/customer/famq.md#what-are-a-customers-obligations-and-responsibilities-prior-during-and-after-a-migration) and [What level of instance access and permission are needed for migrating?](https://gitlab.com/gitlab-org/professional-services-automation/tools/migration/congregate/-/blob/master/customer/famq.md#what-level-of-instance-access-and-permission-are-needed-for-migrating) with your customer will also ensure a smooth migration.
+
+Similarly, the [Migration group](https://gitlab.com/gitlab-org/professional-services-automation/delivery-kits/migration-delivery-kits) of our [GitLab Professional Services Delivery Kits](https://gitlab.com/gitlab-org/professional-services-automation/delivery-kits) can be very helpful, because these projects "provide step-by-step instructions on delivering everything from a single activity to an entire statement of work (SOW)"
 
 ## From other DevOps platforms to GitLab
 
@@ -76,6 +78,14 @@ This feature was recently released and is the direction our product team is movi
 
 - [Migrated project items (direct transfer)](https://docs.gitlab.com/ee/user/group/import/index.html#migrated-project-items-beta)
 
+#### GitLab Log Analysis Tool
+
+[This tool](https://gitlab.com/gitlab-org/foundations/import-and-integrate/gitlab-logs-analysis) could come in handy when one needs to debug a filed Direct Transfer migration.
+
+It spins up a complete ELK Stack (Elasticsearch, Logstash, Kibana) environment specifically tailored for GitLab logs.
+
+Clone the repo and then with just a single command, the environment is ready to go! Customer’s logs will automatically get indexed, and Kibana will launch with pre-configured dashboards, giving you an immediate visual analysis of GitLabSOS, KubeSOS, or GDK logs.
+
 ### 3. Congregate
 
 [Congregate](https://gitlab-org.gitlab.io/professional-services-automation/tools/migration/congregate/) - used by [GitLab Professional Services](https://about.gitlab.com/services/) - is GitLab's most mature migration solution and supports many options. **Note that migrations to SaaS require the involvement of GitLab PS due to restricted access to GitLab SaaS (multi-tenant) data.** More information about the latter can be found [here](/handbook/customer-success/professional-services-engineering/engagement-mgmt/scoping-information/migrations/SM-to-SaaS/#faq).
@@ -89,6 +99,12 @@ Important to note about Congregate:
 - [Customer's obligations and responsibilities - Congregate FAMQ](https://gitlab.com/gitlab-org/professional-services-automation/tools/migration/congregate/-/blob/master/customer/famq.md#what-are-a-customers-obligations-and-responsibilities-prior-during-and-after-a-migration)
 
 - [Limitations of Self-Managed to SaaS migrations via Congregate - Congregate FAMQ](https://gitlab.com/gitlab-org/professional-services-automation/tools/migration/congregate/-/blob/master/customer/famq.md#what-level-of-instance-access-and-permission-are-needed-for-migrating)
+
+## Migrating package/container registries
+
+[Recommendation](https://gitlab.com/gitlab-org/professional-services-automation/tools/migration/congregate/-/blob/master/customer/famq.md#does-congregate-migrate-data-from-packagecontainer-management-tools-like-artifactory-or-nexus) (regardless of the use of Congregate): "We typically suggest customers establish pipeline jobs in GitLab after source code migration to publish these containers/packages to the GitLab registry as desired. For customers who are interested in maintaining audit history, we suggest keeping the legacy package/container registry tool around with a reduced license spend until the audit window expires."
+
+In case the migration of history is also required, the [packages importer tool](https://gitlab.com/gitlab-org/ci-cd/package-stage/pkgs_importer) can be used. Documentation [here](https://docs.gitlab.com/ee/user/packages/package_registry/supported_functionality.html#importing-packages-from-other-repositories).
 
 ## GitLab Professional Migration Services
 

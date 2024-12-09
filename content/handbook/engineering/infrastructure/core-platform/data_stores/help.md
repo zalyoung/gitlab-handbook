@@ -39,7 +39,7 @@ If not, proceed to step [3. Application Errors](#3-application-errors)
 
 ### 2. Configuration or Operational Errors
 
-If the emergency is related to an ongoing incident on gitlab.com or Dedicated customer, Follow the [DBRE Escalation Process](/handbook/engineering/infrastructure/core-platform/data_stores/database-reliability/dbre-escalation-process/)
+If the emergency is related to an ongoing incident on gitlab.com or Dedicated customer, Follow the [DBRE Escalation Process](/handbook/engineering/infrastructure-platforms/data-access/database-framework-reliability/dbre-escalation-process/)
 
 If the emergency is related to a self-managed customer, reach out to the [Distribution Team](../systems/distribution/) in [#g_distribution](https://gitlab.enterprise.slack.com/archives/C1FCTU4BE) (internal) who manages self-managed configuration.
 
@@ -116,7 +116,7 @@ Always include:
 - Links to any applicable charts
 - Details about the query, migration, or issue
 
-#### For Ongoing Gitlab.com or Dedicated Incidents
+#### For Ongoing GitLab.com or Dedicated Incidents
 
 1. [Activate Development On-Call](/handbook/engineering/on-call/#development-team-on-call-rotation)
 1. If development on-call needs additional database expertise, reach out in [#database](https://gitlab.enterprise.slack.com/archives/C3NBYFJ6N)

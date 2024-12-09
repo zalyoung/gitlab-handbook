@@ -51,8 +51,8 @@ Please note: Invitation and follow-up emails will not be sent on Thursdays, due 
 
 **Assign issues to:** You must assign issues to the corresponding Lifecycle Marketing Manager for review before send.
 
-* `@aklatzkin`: Global, AMER, Corporate Events, Newsletters
-* `@dambrold`: APAC, EMEA, Intelligent Nurture
+* `@aklatzkin`: Global, EMEA, Public Sector, Localized emails, Corporate Events, Newsletters
+* `@alee`: AMER, EMEA, Customer emails
 
 **Add the issue to the Asana email calendar:** By default, issues will add the label for ~"email-calendar", you will need to add the label for your audience as well:
 
@@ -184,9 +184,8 @@ First step in requesting an email from lifecycle begins by creating an issue usi
 * Step 3: Build the program and email in Marketo by referring to our [email marketing best practices](https://docs.google.com/presentation/d/1j6F-3ZOFtFM9Tjz1srzbqLjSA56sK7lR2LPdKSl57Vo/edit?usp=sharing) and segment the email accordingly.
 * Step 4: Include a link to the Marketo program while submitting an [Email issue request](https://gitlab.com/gitlab-com/marketing/demand-generation/campaigns/-/issues/new?issuable_template=request-email).
 * Step 5: Send a sample for lifecycle to QA
-  * Global/AMER/Newsletters/Corporate/Intelligent Nurture = reviewed by [Allie](mailto:aklatzkin@gitlab.com)
-  * Customers/AMER = reviewed by [Alison](mailto:alee@gitlab.com)
-  * APAC/EMEA/PubSec and Localized Nurtures = reviewed by [Luis](mailto:ldambrosio@gitlab.com)
+  * Global/EMEA/Localized/PubSec/Newsletters/Corporate/Intelligent Nurture = reviewed by [Allie](mailto:aklatzkin@gitlab.com)
+  * Customers/AMER/APAC = reviewed by [Alison](mailto:alee@gitlab.com)
 * Step 6: Lifecycle will make revisions and send the email back to the campaign manager.
 * Step 7: Lifecycle will schedule the email to send at requested time slot
 
@@ -466,17 +465,17 @@ It's virtually impossible to support all the calendar applications available. To
 ### Steps to manually creating "add to calendar" links in our emails
 <!-- DO NOT CHANGE THIS ANCHOR -->
 * Create google calendar link for your events
-  * Use this tool to generate your event information: [http://kalinka.tardate.com/](http://kalinka.tardate.com/)
+  * Use this tool to generate your event information: [https://kalinka.tardate.com/](https://kalinka.tardate.com/)
   * You would have to copy and paste the information for the event from marketo to the tool above, this takes about 2 minutes
     * Location should be formatted as follows to show up as an address in the google calendar invite:
 
       **747 Howard St, San Francisco, CA 94103, USA**
     * Make sure time zone is correct
 
-  * Create link [Example Here](http://www.google.com/calendar/event?action=TEMPLATE&dates=20200406T150000Z%2F20200409T030000Z&text=Google%20Next%202020&location=747%20Howard%20St%2C%20San%20Francisco%2C%20CA%2094103%2C%20USA&details=https%3A%2F%2Fcloud.withgoogle.com%2Fnext%2Fsf%2F) and paste into correct template in Marketo as follows:
+  * Create link [Example Here](https://www.google.com/calendar/event?action=TEMPLATE&dates=20200406T150000Z%2F20200409T030000Z&text=Google%20Next%202020&location=747%20Howard%20St%2C%20San%20Francisco%2C%20CA%2094103%2C%20USA&details=https%3A%2F%2Fcloud.withgoogle.com%2Fnext%2Fsf%2F) and paste into correct template in Marketo as follows:
 
     ```html
-    <a href="http://www.google.com/calendar/event?action=TEMPLATE&dates=20200206T035000Z%2F20200206T065000Z&text=Nouts%20test%20event&location=5107%20Oakbrook%20Drive%2C%20Durham%2C%20NC&details=nout's%20test%20event%20">Add to Google calendar</a>
+    <a href="https://www.google.com/calendar/event?action=TEMPLATE&dates=20200206T035000Z%2F20200206T065000Z&text=Nouts%20test%20event&location=5107%20Oakbrook%20Drive%2C%20Durham%2C%20NC&details=nout's%20test%20event%20">Add to Google calendar</a>
     ```
 
 * Create ICS file for all other calendars (mostly Outlook and Apple)

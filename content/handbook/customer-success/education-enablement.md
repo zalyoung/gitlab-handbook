@@ -120,10 +120,9 @@ To align our education and enablement with our product, each of the topics below
   - [CI/CD Environments and Deployments Docs](https://docs.gitlab.com/ee/ci/environments/)
   - [CI/CD with Runners Docs](https://docs.gitlab.com/ee/ci/runners/)
   - [Auto DevOps Docs](https://docs.gitlab.com/ee/topics/autodevops/)
-  - [CI/CD configuration with `.gitlab-ci.yml` Docs](https://docs.gitlab.com/ee/ci/yaml/gitlab_ci_yaml.html)
+  - [CI/CD configuration with `.gitlab-ci.yml` Docs](https://docs.gitlab.com/ee/ci/yaml/)
   - [CI/CD authoring YAML reference for `.gitlab-ci.yml` Docs](https://docs.gitlab.com/ee/ci/yaml/)
   - [CI/CD Implementation Examples Docs](https://docs.gitlab.com/ee/ci/examples/)
-  - [CI/CD Troubleshooting Docs](https://docs.gitlab.com/ee/ci/troubleshooting.html)
   - [Migrate from CircleCI Docs](https://docs.gitlab.com/ee/ci/migration/circleci.html)
   - [Migrate from Jenkins Docs](https://docs.gitlab.com/ee/ci/migration/jenkins.html)
 - [Code Quality Feature Docs](https://docs.gitlab.com/ee/ci/testing/code_quality.html)
@@ -280,7 +279,7 @@ To align our education and enablement with our product, each of the topics below
 
 #### Intermediate Level
 
-- [Terraform Docs](https://www.terraform.io/docs/index.html)
+- [Terraform Docs](https://developer.hashicorp.com/terraform/docs)
 - [Terraform AWS Provider Docs](https://registry.terraform.io/providers/hashicorp/aws/latest/docs)
 - [Terraform GCP Provider Docs](https://registry.terraform.io/providers/hashicorp/google/latest/docs)
 - [Terraform GitLab Provider Docs](https://registry.terraform.io/providers/gitlabhq/gitlab/latest/docs)
@@ -361,6 +360,6 @@ If you want to share an answer in a direct message you'll need to create a group
 - [Field Enablement Handbook Page](/handbook/sales/field-operations/field-enablement/)
 - [Field Accreditation Handbook Page](/handbook/sales/training/field-certification/)
 - [Sales Training](/handbook/sales/training/)
-- [Communities of Practice](/handbook/customer-success/initiatives/communities-of-practice.html)
+- [Communities of Practice](/handbook/customer-success/initiatives/communities-of-practice/)
 - [Learn at GitLab](https://about.gitlab.com/learn/)
 - [GitLab Releases](https://about.gitlab.com/releases/)

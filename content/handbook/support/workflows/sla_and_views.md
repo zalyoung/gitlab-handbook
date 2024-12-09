@@ -5,12 +5,12 @@ category: Handling tickets
 subcategory: Triaging
 ---
 
-> ⚠️ **Warning**  
+> ⚠️ **Warning**
 > This page is outdated and should only be referenced for historical purposes. Please do not use any of the processes on this page.
 
 ## Purpose of this page
 
-> ⚠️ **Warning**  
+> ⚠️ **Warning**
 > This page is outdated and should only be referenced for historical purposes. Please do not use any of the processes on this page.
 
 Assuming a ticket has:
@@ -25,7 +25,7 @@ then we need to ensure the ticket:
 
 ## Appropriate SLA by plan
 
-> ⚠️ **Warning**  
+> ⚠️ **Warning**
 > This page is outdated and should only be referenced for historical purposes. Please do not use any of the processes on this page.
 
 Tickets should have the appropriate SLA according to the [support service levels](https://about.gitlab.com/support/#gitlab-support-service-levels).
@@ -42,7 +42,7 @@ Consider contacting the Account Owner (Manager) to clarify the customer's status
 
 ### Organization exists in SFDC but support level does not match Zendesk
 
-> ⚠️ **Warning**  
+> ⚠️ **Warning**
 > This page is outdated and should only be referenced for historical purposes. Please do not use any of the processes on this page.
 
 Note that we have [an ongoing issue](https://gitlab.com/gitlab-com/sales-team/field-operations/systems/-/issues/634)
@@ -58,7 +58,7 @@ Open an issue in the
 
 ### Handling customers with incorrect expired support
 
-> ⚠️ **Warning**  
+> ⚠️ **Warning**
 > This page is outdated and should only be referenced for historical purposes. Please do not use any of the processes on this page.
 
 If you believe a customer marked as `Expired` support and `Former Customer` is in fact a current paying customer,
@@ -145,7 +145,7 @@ and verify that it is associated with the appropriate organization and SLA.
 
 ## No SLA
 
-> ⚠️ **Warning**  
+> ⚠️ **Warning**
 > This page is outdated and should only be referenced for historical purposes. Please do not use any of the processes on this page.
 
 Check the [SLA by plan](#appropriate-sla-by-plan) for a list of types that do not receive SLA.
@@ -162,7 +162,7 @@ When a customer responds to a ticket from an email address that is not included 
 There is a [trigger](https://gitlab.zendesk.com/agent/admin/triggers/360019008340/revisions/3)
 which sends an internal note to remind people to add the user to CC and reply, see [this issue](https://gitlab.com/gitlab-com/support/support-team-meta/-/issues/1581) for more details.
 
-If the email is obviously the original requester, you can [merge the users](https://support.zendesk.com/hc/en-us/articles/203690896-Merging-a-user-s-duplicate-account).
+If the email is obviously the original requester, you can [merge the users](https://support.zendesk.com/hc/en-us/articles/4408887695898-Merging-a-user-s-duplicate-account).
 
 Alternatively, add the email of the customer to CC.
 
@@ -174,7 +174,7 @@ After that, the cc'ed user's next replies will not be marked as internal anymore
 
 ## Ticket views
 
-> ⚠️ **Warning**  
+> ⚠️ **Warning**
 > This page is outdated and should only be referenced for historical purposes. Please do not use any of the processes on this page.
 
 Tickets should show in the [appropriate view(s)](/handbook/support/readiness/operations/docs/zendesk/views/).

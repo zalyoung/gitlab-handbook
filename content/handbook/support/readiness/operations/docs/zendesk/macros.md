@@ -7,7 +7,7 @@ canonical_path: "/handbook/support/readiness/operations/docs/zendesk/macros"
 ## What are macros
 
 As per
-[Zendesk](https://support.zendesk.com/hc/en-us/articles/115001236988-Creating-macros-for-tickets):
+[Zendesk](https://support.zendesk.com/hc/en-us/articles/4408844187034-Creating-macros-for-repetitive-ticket-responses-and-actions):
 
 > A macro is a prepared response or action that an agent can manually apply
 > when they are creating or updating tickets. Macros contain actions that can
@@ -90,7 +90,7 @@ following:
   - `Brand` `GitLab`
 - If the macro has a managed content file:
   - Sets the `contains_managed_content: true` to `contains_managed_content: false`
-    
+
 *Note:* If the macro has a managed content file, make sure to also deactivate the corresponding managed content file in the [Support managed content project](https://gitlab.com/gitlab-com/support/zendesk-global/macros) by moving it from the `data/active` folder to the `data/inactive` folder.
 
 #### Deleting a deactivated macro

@@ -71,7 +71,7 @@ To choose the right ***descriptive and informative*** research method, ask yours
 
 Check out our guidance for [writing your discussion guide](/handbook/product/ux/ux-research/discussion-guide-user-interviews/) and [facilitating user sessions](/handbook/product/ux/ux-research/facilitating-user-interviews/) for In-depth interviews.
 
-You can also frame questions using the [Taxonomy of Cognitive Domain](http://www.nwlink.com/~donclark/hrd/bloom.html), which explains how certain verbs target particular thought processes. This is a great way to expand your questioning in order to help trigger specific responses from participants.
+You can also frame questions using the [Taxonomy of Cognitive Domain](https://knowledgejump.com/hrd/bloom.html), which explains how certain verbs target particular thought processes. This is a great way to expand your questioning in order to help trigger specific responses from participants.
 
 | Domain        | Critical Thinking Process            | Verbs to use                                  | Sample Questions                                                                                                                                                                                                                    |
 |---------------|--------------------------------------|-----------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|

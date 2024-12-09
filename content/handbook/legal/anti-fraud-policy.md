@@ -43,8 +43,8 @@ All Team Members and Directors, regardless of position or title, have a stewards
 - If the Team Member has reason to believe their direct supervisor may be involved in fraudulent activity, the Team Member is obligated to report the activity to the CLO.
 - The reporting Team Member shall refrain from discussing the matter with any Team Member unless directed to do so by the CLO.
 - You may report the matter confidentially by directly contacting your direct supervisor (who shall notify the CLO) or the CLO or confidentially and anonymously via EthicsPoint (as more fully described in the Code of Business Conduct and Ethics). EthicsPoint toll free numbers and other methods of reporting are available 24 hours a day, 7 days a week for use by Team Members:
-  - Website: [http://gitlab.ethicspoint.com/](http://gitlab.ethicspoint.com/)
-  - Mobile intake site: [http://m.gitlab.ethicspoint.com/](http://m.gitlab.ethicspoint.com/)
+  - Website: [https://gitlab.ethicspoint.com/](https://gitlab.ethicspoint.com/)
+  - Mobile intake site: [https://gitlab.navexone.com/](https://gitlab.navexone.com/)
   - USA Telephone: toll-free at 1-833-756-0853
   - All other countries: to view phone numbers, please see web intake site and select the country in which you are located from the drop-down menu. If your country is not listed, please select the "Make a Report" link at the top of the page to access the confidential reporting tool.
 - All Team Members shall cooperate fully with any investigation performed by GitLab (or its representatives including outside counsel) and/or law enforcement officials.

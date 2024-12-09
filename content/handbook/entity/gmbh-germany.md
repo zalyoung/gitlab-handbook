@@ -29,7 +29,7 @@ for more information on how the works council operates.
 
 ## Germany-Specific Team Member Benefits
 
-Currently, GitLab provides the below additional benefits, in addition to mandatory state requirements. [General GitLab benefits](/handbook/total-rewards/benefits/general-and-entity-benefits/) still apply. As part of the [guiding principles](/handbook/total-rewards/benefits/#guiding-principles), we will continously review our benefits design and offerings available through GitLab in Germany.
+Currently, GitLab provides the below additional benefits, in addition to mandatory state requirements. [General GitLab benefits](/handbook/total-rewards/benefits/general-and-entity-benefits/) still apply. As part of the [guiding principles](/handbook/total-rewards/benefits/#guiding-principles), we will continuously review our benefits design and offerings available through GitLab in Germany.
 
 Join the [#gitlab-germany channel](https://gitlab.slack.com/archives/CCLBN72TW) in Slack for questions.
 
@@ -39,7 +39,7 @@ Under The Occupational Health and Saftey Act, employers must provide computer gl
 
 The team member needs to provide documentation (a prescription) from the optician that confirms if the lenses are specifically required for reading a display screen only and not required for general day to day use.
 
-Please submit your prescription to Total Rewards for approval. Once approved, please send your receipts to expensify for reimbursement.
+Please submit your prescription to Total Rewards for approval. Once approved, please send your receipts to Navan for reimbursement.
 
 ### German Supplemental Pension Plans
 
@@ -107,7 +107,7 @@ There are two different options on how to handle existng direct insurance contra
 
 For the Direct Insurance plan, Team Members on Leave, including unpaid, maternity, and paternity and extended Long Term Sickness (42 continuous calendar days of sick leave- 6 weeks) are not eligible to contribute on the plans while on leave.
 
-For the Support Fund, during times the team members is not paid pensionable salary, support fund contribtuions will stop, with the exception of paid maternity and paternity leave.
+For the Support Fund, during times the team members is not paid pensionable salary, support fund contributions will stop, with the exception of paid maternity and paternity leave.
 
 Contributions will cease the month after the team member goes on leave.  – For example if the team member goes on leave on May 2nd (i.e. they are active on the 1st of the month) they can continue the contribution for that month, the next month (June 1st) we will stop contribution. Contributions will start again the following month after the team member returns from leave.
 
@@ -340,7 +340,7 @@ Beginning January 1, 2023 team members with statutory health insurance are not r
 
 #### Reporting Guidelines
 
-Team members are still required to report their absence(s) to GitLab, but AU certificates are not required until after the 3rd day of an absence.  Beginning the first day, team members should notify their Manager first, and then enter the time away into Workday by selecting the label `Out Sick` under the `Time Offs` dropdown menu.  After 3 days of continuous absences, team members should first notify the Absence Management team (leaves@domain) of their sick leave (including the start and anticipated end date) and then enter the time away into Workday using the label `Out Sick` under the `Leave Types` dropdown menu.  The Absence Management Team will then "call up" the AU certficiate on behalf of the team member.
+Team members are still required to report their absence(s) to GitLab, but AU certificates are not required until after the 3rd day of an absence.  Beginning the first day, team members should notify their Manager first, and then enter the time away into Workday by selecting the label `Out Sick` under the `Time Offs` dropdown menu.  After 3 days of continuous absences, team members should first notify the Absence Management team (leaves@domain) of their sick leave (including the start and anticipated end date) and then enter the time away into Workday using the label `Out Sick` under the `Leave Types` dropdown menu.  The Absence Management Team will then "call up" the AU certificate on behalf of the team member.
 
 - Team Members with private health insurance will still be required to email leaves@domain a hard copy of their certificate no later than the 4th day of illness.
 
@@ -350,7 +350,7 @@ We encourage all team members to meet with a *virtual doctor* for the certificat
 
 **Infection Protection Act**
 
-The [Infection Protection Act](http://www.gesetze-im-internet.de/ifsg/index.html) was recently updated with a few [amendments](https://www.bundesregierung.de/breg-de/themen/coronavirus/kinderkrankengeld-1836090) related to entitlement to expanded children's sickness benefits related to the Coronavirus. Please review the current law of the Infection Protection Act (IfSG)and contact your doctor to see how it applies to your situation and family.
+The [Infection Protection Act](https://www.gesetze-im-internet.de/ifsg/index.html) was recently updated with a few [amendments](https://www.bundesregierung.de/breg-de/themen/coronavirus/kinderkrankengeld-1836090) related to entitlement to expanded children's sickness benefits related to the Coronavirus. Please review the current law of the Infection Protection Act (IfSG)and contact your doctor to see how it applies to your situation and family.
 
 ## Administrative Details for Benefits Team
 

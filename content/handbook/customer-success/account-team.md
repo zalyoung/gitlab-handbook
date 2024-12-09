@@ -58,11 +58,11 @@ In Mid-Market, Solutions Architects are pooled so they are not aligned with spec
 - Maintains [Gainsight](/handbook/customer-success/csm/gainsight/) records of customer health and triaging as necessary
 - Account escalation point of contact for [High or Critical Escalations](/handbook/customer-success/csm/escalations/)
 
-The [DCI matrix](/handbook/people-group/directly-responsible-individuals/#dri-consulted-informed-dci) provided below is designed to serve as a guiding framework to improve collaboration across teams. Please note that this is applicable only to accounts managed by a CSM or CSA. For accounts managed by a CSE, refer to the [CSE's Handbook](/handbook/customer-success/csm/segment/cse/) on Rules of Engagement. Typically, an account will be overseen by either a CSM or a CSA, and the responsibilities outlined in the DCI matrix apply equally, unless otherwise specified in the 'Comments' section.
+The [Account Team Roles & Responsibilities Framework](/handbook/people-group/directly-responsible-individuals/#dri-consulted-informed-dci) provided below is designed to serve as a guiding framework to improve collaboration across teams. Please note that this is applicable only to accounts managed by a CSM or CSA. For accounts managed by a CSE, refer to the [CSE's Handbook](/handbook/customer-success/csm/segment/cse/) on Rules of Engagement. Typically, an account will be overseen by either a CSM or a CSA, and the responsibilities outlined in the Account Team Roles & Responsibilities Framework apply equally, unless otherwise specified in the 'Comments' section.
 
-The following DCI matrix is an outcome of the work of this [OKR](https://gitlab.com/gitlab-com/gitlab-OKRs/-/work_items/6329).
+The following Account Team Roles & Responsibilities Framework is an outcome of the work of this [OKR](https://gitlab.com/gitlab-com/gitlab-OKRs/-/work_items/6329) and utilizes the [DCI Matrix](/handbook/people-group/directly-responsible-individuals/#dri-consulted-informed-dci).
 
-#### DCI matrix - CSM
+#### Account Team Roles & Responsibilities Framework - CSM/A
 
 <table>
 <tr>
@@ -78,6 +78,9 @@ The following DCI matrix is an outcome of the work of this [OKR](https://gitlab.
 <td colspan="9" align="center">
 
 **Stakeholders**
+</td>
+<td>
+
 </td>
 <td>
 
@@ -98,7 +101,7 @@ The following DCI matrix is an outcome of the work of this [OKR](https://gitlab.
 </td>
 <td>
 
-**CSM**
+**CSMA**
 </td>
 <td>
 
@@ -564,10 +567,11 @@ GitLab's Business Value Services practice is supported by the Field CTO team, th
 
 </td>
 <td>DRI</td>
+<td>I</td>
+<td>C,I</td>
 <td>
 
 </td>
-<td>C,I</td>
 <td>
 
 </td>
@@ -589,18 +593,19 @@ GitLab's Business Value Services practice is supported by the Field CTO team, th
 
 </td>
 <td>Position Professional Services</td>
-<td>
-
 </td>
+<td>
 <td>C,I</td>
-<td>
 
-</td>
-<td>C,I</td>
-<td>
+<td></td>
 
-</td>
 <td>DRI</td>
+
+<td>I</td>
+
+<td>C,I</td>
+
+</td>
 <td>
 
 </td>
@@ -622,20 +627,19 @@ GitLab's Business Value Services practice is supported by the Field CTO team, th
 
 </td>
 <td>Position Success Plan Services</td>
-<td>
-
 </td>
 <td>
-
-</td>
-<td>
-
-</td>
 <td>C,I</td>
-<td>
+
+<td></td>
+
+<td>DRI</td>
+
+<td>I</td>
+
+<td>C,I</td>
 
 </td>
-<td>DRI</td>
 <td>
 
 </td>
@@ -938,9 +942,7 @@ GitLab's Business Value Services practice is supported by the Field CTO team, th
 
 </td>
 <td>I</td>
-<td>
-
-</td>
+<td>I</td>
 <td>I</td>
 <td>
 
@@ -969,9 +971,7 @@ GitLab's Business Value Services practice is supported by the Field CTO team, th
 
 </td>
 <td>I</td>
-<td>
-
-</td>
+<td> I </td>
 <td>I</td>
 <td>
 
@@ -1107,6 +1107,77 @@ GitLab's Business Value Services practice is supported by the Field CTO team, th
 <td>
 
 </td>
+<td>
+
+</td>
+</tr>
+<tr>
+<td>
+
+<td>Position co-create initiatives</td>
+<td>
+Introduce the customer to the initiative
+</td>
+<td>DRI</td>
+<td>
+
+</td>
+<td>I</td>
+<td>I</td>
+<td>C,I</td>
+<td>I</td>
+<td>
+
+</td>
+<td>I</td>
+<td>
+
+<td>
+</td>
+</tr>
+<tr>
+<td>
+
+<td>co-create Kickoff & Intro</td>
+<td>Introduce the customer to the co-create team</td>
+<td>DRI</td>
+<td>
+
+</td>
+<td>C</td>
+<td>I</td>
+<td>I</td>
+<td>I</td>
+<td>
+
+</td>
+<td>I</td>
+<td>
+
+<td>
+</td>
+
+</tr>
+<tr>
+<td>
+
+<td>Facilitating communication</td>
+<td>Supporting communication between co-create team and the customer</td>
+<td>DRI</td>
+<td>
+
+</td>
+<td>C</td>
+<td>I</td>
+<td>I</td>
+<td>I</td>
+<td>
+
+</td>
+<td>I</td>
+<td>
+
+<td>CSM here is DRI until kick-off and will only step in to help if the co-create team need additionnal support after kick-off (initiative is at risk)</td>
 </tr>
 <tr>
 <td>
@@ -1329,9 +1400,11 @@ GitLab's Business Value Services practice is supported by the Field CTO team, th
 <td>
 
 </td>
-<td>SPS Accelerator</td>
+<td>
+
+[SPS Accelerator]( handbook/customer-success/success-services/#accelerators ) </td>
 <td>Conduct regular health checks to identify areas for improvement. Provide access to GitLab's Accelerators, helping them optimize their use of GitLab's products for their specific needs, and assist in implementing them effectively</td>
-<td>C, I</td>
+<td>C,I</td>
 <td>DRI</td>
 <td>C</td>
 <td>I</td>

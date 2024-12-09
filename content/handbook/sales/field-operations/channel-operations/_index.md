@@ -28,10 +28,10 @@ Trusted subject matter experts for GitLab's internal and partner teams, providin
 
 ### How to Contact Us
 
-The **#partner-programs-ops** Slack channel can be leveraged for inquiries. Both the Ecosystem Operations Team and the Channel Programs Team monitor this slack channel.
-If you are reporting a problem or have suggestions, changes, or similar, please open an issue on the [Ecosystem Operations Issue Board](https://gitlab.com/groups/gitlab-com/-/boards/2552402?label_name[]=Partner%20Ops) for operational issues, or the [Channel Team's Issue Board](https://gitlab.com/groups/gitlab-com/-/boards/1508300?label_name[]=Channel) for program issues.
+The **#global-ecosystem-programs-ops** Slack channel can be leveraged for inquiries. Both the Ecosystem Operations Team and the Ecosystem Programs Team monitor this slack channel.
+If you are reporting a problem, have suggestions, or changes requests, please open an issue on the [Ecosystem Operations Issue Board](https://gitlab.com/groups/gitlab-com/-/boards/2552402?label_name[]=Partner%20Ops) for operational issues, or the [Channel Team's Issue Board](https://gitlab.com/groups/gitlab-com/-/boards/1508300?label_name[]=Channel) for program issues.
 
-### The Ecosystem Operations Issue Board
+#### The Ecosystem Operations Issue Board
 
 On the [Ecosystem Operations Issue Board](https://gitlab.com/groups/gitlab-com/-/boards/2552402?&label_name[]=Channel%20Ops), each column represents a type of request (feature request, alliances, data & reporting, etc.). When you submit a request to the Ecosystem Operations board, the team will assign the issue and add the corresponding tags. The Ecosystem Operations Board also uses progress tags on issues to show the status of open issues. Each issue is updated regularly with notes and progress tags and should be checked before reaching out to the team for status updates.
 
@@ -70,22 +70,60 @@ Please ensure you have followed the prompts to fill in the selected issue templa
 </figure>
 <!-- blank line -->
 
-## Communicating with the Partner Teams via Slack
+#### External Partner Support and Communication
+
+Email partnersupport@gitlab.com to include a partner or other external stakeholder for help with partner-related requests. Ecosystem Operations team members monitor the queue and email inbox throughout the day in all time zones.
+
+#### Reaching Out to Ecosystem Operations in Salesforce
+
+As of November 25, 2024 the chatter handle `@Partner Operations` has been deprecated. You can reach out to the Ecosystem Operations team by [Requesting Internal Support in Salesforce](/handbook/sales/field-operations/requesting-internal-support/). Please continue to refer to our respective handbooks for in-depth information before opening a new case.
+
+Here is a general list of items you can create a case for assistance within Salesforce:
+
+Deal Registration
+
+- General Questions
+- Unable to Approve/Error Message
+- Update Customer Account
+- Link Reg to a Closed Opportunity
+- Linked Customer Account Employee Count/Segment Update
+- Extension Requestion > 30 Days
+- Link Reg to a Different Open Opportunity
+
+Partner Account
+
+- Training and Certification
+- Partner Program Administration
+- Partner Payments
+- Post-Sale Support
+- Update Account Owner
+- Partner Account Merges, Name Changes, and Acquisitions
+
+Opportunities
+
+- Quote to Order/Discounts
+- SQS/Opp Splits Questions
+- CPPO
+- Link Reg to a Closed Opportunity
+
+Labra Referral
+
+- General Questions
+
+#### Communicating with the Partner Teams via Slack
 
 There are a number of different slack channels to serve the different needs of the organization. Below is a list of the most common channels, as well as their uses, intended audience, and posting permissions. Please refer to this list often to ensure you're posting information and asking questions to the appropriate channel.
 
 | Slack Channel | Description | Topic | Audience | Posting Permissions |
 | ------ | ------ | ------ | ------ | ------ |
-| ~~~partner-fyi~~~ | Updates to the Channel & Sales teams on Channel program, operations, enablement and marketing. Questions from team members should be posted on the #partner-programs-ops or #channel-sales | _blank_ | any | Channel Operations, Channel Programs, Nima Badiey |
-| partner-program-ops | Questions and comments about channel programs and operations | https://handbook.gitlab.com/handbook/resellers/ and https://handbook.gitlab.com/handbook/sales/field-operations/channel-operations/ | any | any |
-| channel-sales |  Questions and comments about opportunities, partner connections, field engagement, and other channel sales questions |  | any | any |
+| global-ecosystem-programs-ops | Questions and comments about ecosystem programs and operations | https://handbook.gitlab.com/handbook/resellers/ and https://handbook.gitlab.com/handbook/sales/field-operations/channel-operations/ | any | any |
+| global-ecosystem-sales |  Questions and comments about opportunities, partner connections, field engagement, and other ecosystem sales questions |  | any | any |
 | channels-emea | A channel for the EMEA channels team and stakeholders to collaborate |  | any | any |
 | channels-amer | A channel for the AMER channels team and stakeholders can collaborate |  | any | any |
 | pub-sec-channels | A channel for the Pubsec channels team and stakeholders to collaborate |  | any | any |
-| ~~~apac_partners~~~ | A channel for the APAC channels team and stakeholders can collaborate |  | any | any |
+| apac_partners | A channel for the APAC channels team and stakeholders can collaborate |  | any | any |
 | channel-services | Questions and comments about channel services program, enablement and field engagement |  | any | any |
 | #cloud-aws and #cloud-gcp| A channel for collaboration with the alliances Team | https://handbook.gitlab.com/handbook/alliances/ | any | any |
-| ~~~alliance_sales_ops~~~ | Questions and comments about alliance operations | https://handbook.gitlab.com/handbook/alliances/ and https://handbook.gitlab.com/handbook/sales/field-operations/channel-operations/ | any | any |
 
 ## Standard Channel Practices
 
@@ -191,7 +229,7 @@ GitLab is building out a global Authorized Distributor network similar to many o
 
 - In APAC (several countries):  Partners transact with [Tech Data/TD Synnex](https://www.techdata.com/apac/en/partner-with-us/become-a-partner.html) via `GitLab.APJ@techdata.com`
   - In India: Partners may also choose to transact with Redington via `gitlab@redington.co.in`
-  - In Japan: Partners may also choose to transact with [Networld](https://www.networld.co.jp/product/gitlab/) via `gitlab-info@networld.co.jp`
+  - In Japan: Partners may choose to transact with either [Networld](https://www.networld.co.jp/product/gitlab/) via `gitlab-info@networld.co.jp` or [SB C&S](https://cas.softbank.jp/) via `SBCASGRP-DevOps+gitlabdisti@g.softbank.co.jp`
   - In Thailand: Partners may also choose to transact with [Get On Technology](https://www.got.co.th/contact) via `gitlab@got.co.th`
 
 GitLab sellers can also refer to the [partner billing section](/handbook/sales/field-operations/channel-operations/#how-to-find-partner-billing-records-in-sfdc-and-use-for-quoting) of this handbook for a link to our distributor billing records and guidance on how these records are used in the quoting process.
@@ -663,7 +701,7 @@ Follow the steps below to process a Service Attached Registration for an applica
    - **If there is no matching opportunity**, and you plan to:
      - _**Approve**_ the registration, click the `Back` button and refer to Step 2 above for next steps.
      - _**Reject**_ the registration, click the `Back` button and proceed to the next step.
-   - **The opportunity must be less than 6 months old to qualify for the incentive**. If the opportunity is greater than 6 months old, the Ecosystem Sales Manager should reject the registration and work with the partner to see if there is an upcoming licensing opportunity that would qualify for partner services.
+   - **The opportunity must be less than 6 months old to qualify for the incentive. If the Opportunity has already Closed-Won, chatter `@Partner Operations` to link the Service Attached Registration to the Closed-won opportunity**. If the opportunity is greater than 6 months old, the Ecosystem Sales Manager should reject the registration and work with the partner to see if there is an upcoming licensing opportunity that would qualify for partner services.
      ![21-Svce_Att_Reg_LinkCreateOpp_Screen.png](/handbook/sales/field-operations/channel-operations/images/21-Svce_Att_Reg_LinkCreateOpp_Screen.png)
 
 1. Navigate to the Partner Manager Approvals section of the registration record. If you are going to:
@@ -773,34 +811,6 @@ If an approver will not be able to approve opportunities due to PTO or some othe
 When a partner needs a Letter of Authorization ("LOA"), they must log into the partner portal and request one from the "Letter of Authorization" button along the top of the page. If a partner does not log in to the portal, they will not be able to access this request. This helps ensure that only authorized partners can access the link and request a LOA.
 
 The partner will be prompted to input basic company information that will auto-fill the LOA. Upon submission, the LOA will automatically be sent to the Ecosystem Operations team for review and confirmation that the entity requesting the LOA is a valid and authorized partner. Once appproved by Ecosystem Operations, the LOA will automatically be sent to the legal team who will approve and initial the LOA before sending it to GitLab's PAO for signature. Once signed, the LOA will be sent directly to the partner via email. The letter is good for one calendar year from the date on the letter.
-
-## Partner Support and Communication
-
- Please see the [Partner Support](/handbook/resellers/partner-support/) page.
-
-**External Communication:** Email partnersupport@gitlab.com to include a partner or other external stakeholder for help with partner-related requests. PHD team members monitor the queue and email inbox throughout the day in all time zones.
-
-### Tagging Ecosystem Operations in Salesforce
-
-Here is a general list of items you can chatter `@Partner Operations` for assistance with in Salesforce. Please continue to refer to our respective handbooks for in-depth information before tagging.
-
-Most internal Salesforce (SFDC) and Vartopia system questions and changes, including:
-
-- Channel Compensation Questions
-- Ecosystem Manager Territory Mapping and Account Assignment
-- Deal Registration Record Updates
-- Specific Ecosystem Quoting Questions (Discounts, Approvals,etc.)
-- Distributor Quote Requests
-- SFDC Reporting Issues
-
-Most partner-facing questions and changes to the Impartner (Partner Portal) system, including:
-
-- General Channel Program Questions
-- Partner Portal Access Issues and Resources
-- Reseller Deal Registration Activation
-- Partner Training and Certifications
-- Partner Rebates and Payment Set-Up in Coupa
-- Partner Not-for-Resale (NFR) Licenses
 
 ## Program and Incentive Definitions
 

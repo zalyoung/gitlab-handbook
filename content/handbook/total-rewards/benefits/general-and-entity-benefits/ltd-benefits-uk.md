@@ -64,6 +64,7 @@ Please see the Annual 2024 Rates effective 2024-03-01:
 | Family                   | £2,441  | £1918.42 | £522.58 |
 
 Please see the Monthly 2024 Rates effective 2024-03-01:
+
 | Tier                     | Total| GitLab's Cover <br> Benefit in Kind Value  | Team Member Cost <br> 34% of Dependent Cost  |
 |--------------------------|:---:|:----:|:----:|
 | Team Member Only         | £75.34  | £75.34   | £0   |
@@ -121,7 +122,7 @@ Please reach out to Total Rewards for information on how to use your Income Prot
 
 ## Pension Introduction
 
-GitLab provides and contributes into an Auto-Enrollment personal pension scheme with [Scottish Widows](http://www.scottishwidows.co.uk/retirement/retirement-explained/basics/auto-enrolment/)
+GitLab provides and contributes into an Auto-Enrollment personal pension scheme with [Scottish Widows](https://www.scottishwidows.co.uk/retirement/retirement-explained/basics/auto-enrolment/)
 
 Willis Towers Watson act as employee benefit advisers to the GitLab GPPP and although cannot provide you with financial advice are available to explain the details of the GitLab GPPP and answer any questions you may have.
 
@@ -182,7 +183,7 @@ The following process is followed by GitLab People Operations to join the Scheme
 When an employee joins the scheme they will be sent a welcome pack in the post stating that they are now a scheme member, it will also have their login details. Employees can login to access their own personal fund and can make adjustments as they see fit.
 
 If the team member hasn't received their Scottish Widows package in the mail within their first 2 months of their joining date, they can log on to their
-[Scottish Widows Portal](http://www.scottishwidows.co.uk/personal). Select "Register Now', and fill out your details (no need to fill out the Policy Number, as you can use your National Insurance Number instead). Please do not try to log in via the portal before Papaya has uploaded your information in accordance to the schedule above, as you will be denied access.
+[Scottish Widows Portal](https://www.scottishwidows.co.uk/personal). Select "Register Now', and fill out your details (no need to fill out the Policy Number, as you can use your National Insurance Number instead). Please do not try to log in via the portal before Papaya has uploaded your information in accordance to the schedule above, as you will be denied access.
 
 </details>
 
@@ -210,7 +211,7 @@ The certification level that has been chosen is **basic salary** only and will n
 benefits from a Defined Contribution pension arrangement. Please see the [Annual Allowance Fact Sheet](https://drive.google.com/file/d/1MMA-0wfzUsO70pBsweDAHK-FVc-P_iR1/view?usp=sharing).
 - These percentages are gross percentages using the [relief at source](https://www.gov.uk/workplace-pensions/managing-your-pension) method. As basic rate tax relief is then added by the pension provider, the amount on your payslip will typically be the net amount, which is 80% of the employee's contribution.
 
-These contribution percentages are in line with [The Pension Regulator's Auto-enrollment legislation](http://www.thepensionsregulator.gov.uk/doc-library/automatic-enrolment-detailed-guidance.aspx).
+These contribution percentages are in line with [The Pension Regulator's Auto-enrollment legislation](https://www.thepensionsregulator.gov.uk/en/document-library/automatic-enrolment-detailed-guidance).
 Should the government's minimum contribution standards change further GitLab will contact you to advise the new levels to comply with legislation.
 
 </details>
@@ -247,7 +248,7 @@ Scottish Widows:
 - [www.scottishwidows.co.uk/gppae](https://www.scottishwidows.co.uk/gppae)
 - (t) 0345 755 6557
 
-You can also reach out to Willis Tower Watson to explain the details of the GitLab GPPP and answer any questions you may have.
+You can also reach out to Willis Towers Watson to explain the details of the GitLab GPPP and answer any questions you may have.
 
 3 Temple Quay, Temple Back East, Bristol, BS1 6DZ
 Nick Allen, Associate Director
@@ -402,7 +403,7 @@ Team members can receive Statutory Paternity Pay for up to 2 weeks or up to 37 w
 To apply for Paternity Leave:
 
 - Submit your time off by selecting the `Parental Leave` category in Workday at least 30 days before your leave starts.
-- Send the Absence Management team at `leaves@gitlab.com` a completed [SPP Form](https://public-online.hmrc.gov.uk/lc/content/xfaforms/profiles/forms.html?contentRoot=repository:///Applications/PersonalTax_iForms/1.0/SC3&template=SC3.xdp) if applying for Statutory Paternity Pay or one of the [SPL Forms](https://www.acas.org.uk/shared-parental-leave-form-templates) if applying for Shared Parental Leave pay.
+- Send the Absence Management team at `leaves@gitlab.com` a completed [SPP Form](https://www.tax.service.gov.uk/print-and-post/form/PersonalTax_iForms/1.0/SC3/sc3.xdp) if applying for Statutory Paternity Pay or one of the [SPL Forms](https://www.acas.org.uk/shared-parental-leave-form-templates) if applying for Shared Parental Leave pay.
 - The Absence Management team will notify payroll and email Vistra a copy of the form, dates of leave and outline what pay the team member is eligible for (statutory, supplemental, etc).
 
 #### Adoption Leave Payment

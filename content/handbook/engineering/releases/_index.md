@@ -115,7 +115,7 @@ If you're a GitLab engineer looking:
 
 Overview of the steps involved with creating a patch release:
 
-![Patch release overview](patch-releases/planned-patch-release-overview.jpg)
+![Patch release overview](patch-releases/patch-release-overview.jpg)
 
 - [Diagram source](https://docs.google.com/presentation/d/12JXlLnZ8lQp7ATdaSoL4x_oCUv04rmqzYp6dQb8AXHE/edit#slide=id.g2d0bc50ab08_0_5)
 
@@ -239,7 +239,7 @@ The different processes are documented here:
 - Self-managed releases:
   - [Monthly releases](https://gitlab.com/gitlab-org/release/docs/blob/master/general/monthly/process.md)
   - [Planned Patch releases](/handbook/engineering/releases/patch-releases/#planned-patch-release-process)
-  - [Unplanned critical Patch releases](/handbook/engineering/releases/patch-releases/#unplanned-critical-patch-release-process)
+  - [Unplanned Critical Patch releases](/handbook/engineering/releases/patch-releases/#unplanned-critical-patch-release-process)
 - GitLab.com releases:
   - [Auto-deploy releases](https://gitlab.com/gitlab-org/release/docs/blob/master/general/deploy/auto-deploy.md)
   - [Hot patch](https://gitlab.com/gitlab-org/release/docs/-/blob/master/general/deploy/post-deployment-patches.md)

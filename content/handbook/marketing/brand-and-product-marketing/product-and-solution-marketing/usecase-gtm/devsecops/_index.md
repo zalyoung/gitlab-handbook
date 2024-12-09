@@ -104,7 +104,7 @@ GitLab DevSecOps use case overview
 ## Top Differentiators
 
 | Differentiator | Value | Proof Point  | Demos |
-| ----------------- | ------------- | --------------- |
+| ------ | ------ | ------ | ------ |
 | **Detailed and Actionable Scan Results Displayed in MR created from Feature Branch** | GitLab performs security scans like SAST, license compliance, dependency scanning before the code is merged - giving Developers opportunity to identify and fix security vulnerabilities before they context switch to other activities. This improves cycle time and development costs as the time and cost to resolve defects and vulnerabilities exponentially increase the later it is detected in the development cycle | [Gartner - Integrating Security Into the DevSecOps Toolchain](https://www.gartner.com/doc/3975263) explains how Security should be included in the DevSecOps lifecycle in small actionable steps that developers can take action on quickly & integrating into defect tracking workflow to match the pace of security fixes to the pace of development. | [![Security Scans as Displayed in DevSecOps Overview](../../images/youtube_social_icon_red-32x23.png) Security Scans as Displayed in DevSecOps Overview](https://youtu.be/XnYstHObqlA?t=218) |
 | **Block MR based on Security Policy** | Bring Development and Security Teams closer by allowing security teams to apply organizational security policies before hand and review/approve security exceptions before the code is merged | **-**  | [![Merge-Request Approvals as Displayed in DevSecOps Overview](../../images/youtube_social_icon_red-32x23.png) Merge-Request Approvals as Displayed in DevSecOps Overview](https://youtu.be/XnYstHObqlA?t=174) |
 | **Compliance Management** | GitLab makes compliance easier by providing a single source of truth for Dev, Sec and Ops through a single data-store. Everything is audited and for every change, there is a single thread that contains the full audit log of every decision and action - making audit compliance a breeze | The auditor for [Glympse](https://about.gitlab.com/customers/glympse/) observed that the company had remediated security issues faster than any other company that he had worked with before in his 20-year career. Within one sprint, just 2 weeks, Glympse was able to implement security jobs across all of their repositories using GitLab's CI templates | [![Manage Compliance with GitLab](../../images/youtube_social_icon_red-32x23.png) Manage Compliance with GitLab](https://youtu.be/QV2dIocn-hk) |
@@ -200,7 +200,7 @@ We partner with key industry vendors to extend GitLab's ability to address custo
 One of the first partners to [integrate their scan results](https://docs.gitlab.com/ee/development/integrations/secure.html) into the GitLab Security Dashboard and the GitLab CI pipeline is [WhiteSource](https://www.mend.io/).
 
 - They extend scanning language support to [nearly 200 additional languages](https://www.mend.io/blog/is-one-programming-language-more-secure/) and provide deeper dependency insight.
-- Learn more about [how to use WhiteSource within GitLab](https://www.mend.io/gitlab/) and [more](https://about.gitlab.com/blog/2020/01/14/whitesource-gitlab-security-integration/);
+- Learn more about [how to use WhiteSource within GitLab](https://docs.mend.io/integrations/latest/mend-for-gitlab) and [more](https://about.gitlab.com/blog/2020/01/14/whitesource-gitlab-security-integration/);
 - Watch [![Dependency Scanning with GitLab and WhiteSource](../../images/youtube_social_icon_red-32x23.png) Dependency Scanning with GitLab and WhiteSource](https://www.youtube.com/watch?v=yJpE_ACt9og) to get started.
 
 A more complete list of technology partners can be found on our [security partners page](https://about.gitlab.com/partners/technology-partners/#security).
@@ -326,7 +326,7 @@ How predictable is the cost of other app sec tools? If you find more vulnerabili
 
 ### Quotes and reviews
 
-GitLab customer, HERE, [shares their experience](https://developer.here.com/blog/shifting-security-left-in-the-here-platform) with using GitLab to Shift Left and also spoke at [GitLab Commit 2021](https://learn.gitlab.com/commit-2021/teaching-old-cicd-ne?lx=UqDHIY).
+GitLab customer, HERE, [shares their experience](https://www.here.com/learn/blog/shifting-security-left-in-the-here-platform) with using GitLab to Shift Left and also spoke at [GitLab Commit 2021](https://learn.gitlab.com/commit-2021/teaching-old-cicd-ne?lx=UqDHIY).
 
 GitLab customer, Arctic Engine, [shares their experience](https://about.gitlab.com/blog/2020/08/19/arctic-engine-fuzz-testing-blog/) with using GitLab's fuzz testing to find unknown vulnerabilities.
 
@@ -425,7 +425,7 @@ The table includes free/community and paid tiers associated with GitLab's self-m
 ### Additional Documentation Links
 
 - [From SCM and CI to Security](https://docs.google.com/presentation/d/1Oq8znDkHrgGK5Xe5D23SdiRLt33OIJZ30OWCHNNDV14/edit?usp=sharing) *(GitLab internal only)*
-- [GitLab Security Compliance Controls](/handbook/security/security-assurance/security-compliance/sec-controls.html)
+- [GitLab Security Compliance Controls](/handbook/security/security-assurance/security-compliance/sec-controls/)
 - [GitLab Security Practices](/handbook/security/)
 - [Security Planning](/handbook/security/planning/)
 

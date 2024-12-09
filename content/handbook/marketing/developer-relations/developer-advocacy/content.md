@@ -80,6 +80,8 @@ Product tours are a self-guided journey emphasizing the 'What' of a feature, ski
 
 | Title | Area | Last updated | DRI |
 |-------|------|--------------|-----|
+| [Idea to MR](https://gitlab.navattic.com/duo-q) | Duo with Amazon Q | 2024-12-03 | @iganbaruch |
+| [Java modernization](https://gitlab.navattic.com/duo-q-transform) | Duo with Amazon Q | 2024-12-03 | @iganbaruch |
 | [Advanced SAST](https://gitlab.navattic.com/advanced-sast) | DevSecOps Platform | 2024-09-22 | @iganbaruch |
 | [AI Impact analytics](https://gitlab.navattic.com/ai-impact) | GitLab Duo | 2024-08-13 | @iganbaruch |
 | [Duo Enterprise](https://gitlab.navattic.com/duo-enterprise) | GitLab Duo | 2024-07-28 | @iganbaruch |
@@ -89,6 +91,18 @@ Product tours are a self-guided journey emphasizing the 'What' of a feature, ski
 | [CI/CD Catalog](https://gitlab.navattic.com/cicd-catalog) | CI/CD | 2024-01-24 | @iganbaruch |
 | [Integrating security to the pipeline](https://gitlab.navattic.com/gitlab-scans) | DevSecOps | 2024-01-24 | @iganbaruch |
 | [Code Suggestions](https://gitlab.navattic.com/code-suggestions) | GitLab Duo | 2024-01-24 | @iganbaruch |
+
+### Internal Product tours 
+
+While the [product tours](#product-tours) provide guided walkthroughs with navigation dialogs and explanations at each step and can serve as self-guided tours for customers, the internal product tours are designed to help GitLab team members demo features to customers and prospects. These tours omit the explanation dialogs, creating a seamless live demo experience. Refer to the navigation guides to learn how to navigate through the flows.
+
+| Title | Area | Last updated |DRI |
+|-------|------|--------------|-----|
+| [Advanced SAST](https://gitlab.navattic.com/advanced-sast-internal) | DevSecOps Platform | 2024-09-24 | @iganbaruch |
+| [AI Impact analytics](https://gitlab.navattic.com/ai-impact-internal) | GitLab Duo | 2024-10-30 | @iganbaruch |
+| [Duo Enterprise](https://gitlab.navattic.com/duo-enterprise-internal) | GitLab Duo | 2024-10-28 | @iganbaruch |
+
+Please search for the "[product name] tour - navigation guide" (ex: Advanced SAST tour - navigation guide) in Google Drive to find the step by step instructions to navigate through these tours.
 
 ### YouTube playlists
 
@@ -127,10 +141,11 @@ These golden talk slide decks provide storytelling for lightning talks at events
 
 These talks are maintained throughout FY25:
 
-| Title | Area | Last updated | DRI |
-|-------|------|--------------|-----|
-| [Efficient DevSecOps workflows with a little help from AI](https://gitlab.com/groups/gitlab-com/marketing/developer-relations/-/epics/402#resources) | GitLab Duo | 2024-01-31 | @dnsmichi |
-| [Efficient DevSecOps workflows with reusable CI/CD components](https://gitlab.com/groups/gitlab-com/marketing/developer-relations/-/epics/399#resources) | CI/CD | 2024-01-31 | @dnsmichi |
+| Title | Area | Focus | Last updated | DRI |
+|-------|------|-------|--------------|-----|
+| [Efficient DevSecOps workflows with a little help from AI](https://gitlab.com/groups/gitlab-com/marketing/developer-relations/-/epics/402#resources) | AI, GitLab Duo | Product use cases with Duo | 2024-09-24 | @dnsmichi |
+| [Efficient DevSecOps workflows with a little help from AI](https://gitlab.com/gitlab-da/use-cases/ai/ai-research/talk-efficient-devsecops-workflows-with-a-little-help-from-ai) | AI, GitLab Duo | Generic use cases talk for public events (no product pitches) | 2024-09-30 | @dnsmichi |
+| [Efficient DevSecOps workflows with reusable CI/CD components](https://gitlab.com/groups/gitlab-com/marketing/developer-relations/-/epics/399#resources) | CI/CD | Practical migration help | 2024-05-17 | @dnsmichi |
 
 ### Projects
 

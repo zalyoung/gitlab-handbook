@@ -13,7 +13,7 @@ The following incentives are available for GitLab team members. Also see our sep
 
 1. Every now and then, individual GitLab team members really shine as they live our values.  We especially like to celebrate the special moments that exemplify the behavior we want to see in all GitLab team members.
 1. We recognize this through the `#thanks` channel, and sometimes also through a discretionary bonus which is also celebrated in `#thanks`.
-1. [Any GitLab team member can recommend a discretionary bonus for another GitLab team member to the GitLab team member's manager using the Nominator Bot]({{< ref "incentives" >}}) for a $1,000 at [the exchange rate](/handbook/total-rewards/compensation/#exchange-rates). The exception is that direct reports cannot nominate their manager or anyone in their management chain for a discretionary bonus.
+1. Any GitLab team member can recommend a discretionary bonus for another GitLab team member to the GitLab team member's manager using the [Nominator Bot](#nominator-bot-process) for a $1,000 at [the exchange rate](/handbook/total-rewards/compensation/#exchange-rates). The exception is that direct reports cannot nominate their manager or anyone in their management chain for a discretionary bonus.
 1. Only [GitLab team members](/handbook/people-group/employment-solutions/#team-member-types-at-gitlab) are eligible to receive a discretionary bonus / working group bonus or nominate other GitLab team members. Hence, `Temporary Contractors` (Not included in GitLab Team Member Types) are not eligible to receive or nominate discretionary bonus / working group bonus. Any such nominations for the temporary contractors will not be approved by the People Connect team.
 1. We are fixing this amount at $1,000 thoughtfully and purposefully. We want the focus to be on the value and the behavior, not on the perceived monetary impact to GitLab. This is about recognition.
 1. A general guideline is that 1 in 10 team members might receive a discretionary bonus each month. This can vary greatly as we don't give out bonuses just to hit a quota, nor would we hold one back because a certain number had already been awarded.
@@ -113,6 +113,7 @@ If you received the same nomination twice (for the same person and the same reas
 1. The Nominator bot will send you a Slack DM asking to approve or reject the nomination.
 1. When you decide to approve, all you need to do is click the approve button. The bot will take care of the next steps (sending it to the second level manager and the People Connect team).
 1. When you decide to reject, click the reject button. The nomination will be updated as `rejected_by_manager`. The bot will ask you to reach out to the nominator as to make sure they understand why the nomination was not approved.
+1. If the next level approver is on an extended leave and unable to respond to the nomination in a reasonable timeframe (more than 2 weeks), please create a case for the People Connect team in [HelpLab](https://helplab.gitlab.systems/esc?id=sc_cat_item&sys_id=ff7a26094784069067429ee0026d4337) with who the nomination is for, so it can be manually moved to the next level manager to be processed.
 1. When everyone else has approved, the bot will reach out to you so you can share this with the team member, in the [#thanks](https://gitlab.slack.com/archives/C038E3Q6L) Slack channel, and make sure the team member's direct peers can easily see it:
      - For example, cross-post to the team member's group channel
      - For Support, add it to the [Support Week in Review](/handbook/support/#support-week-in-review) as a "Team Member Update" item
@@ -137,7 +138,7 @@ graph TD;
 
 1. Sometimes a [working group]({{< ref "structure#working-groups" >}}) strongly displays GitLab Values over a period, project or situation. For this case, use the  Working Group Bonus.
 1. As with individuals, we recognize those who make up that group through the `#thanks` channel and sometimes through a Working Group Bonus.
-1. [Anybody can recommend a Working Group Bonus through the managers of the individuals involved]({{< ref "incentives" >}}) for $100 per person at [the exchange rate](/handbook/total-rewards/compensation/#exchange-rates).
+1. Anybody can [recommend a Working Group Bonus](#process-for-recommending-working-group-bonus-in-workday) through the managers of the individuals involved for $100 per person at [the exchange rate](/handbook/total-rewards/compensation/#exchange-rates).
 
 ### Process for Recommending Working Group Bonus in Workday
 
@@ -328,7 +329,7 @@ For information regarding the program details and team member eligibility and un
 
 1. Talent Acquisition Manager will track all referrals set to hired in the time period of Add-on campaign.
 1. Talent Acquisition Manager will notify People Connect by Slack or email, the first of the month that aligns with the referred new hire's 3 month employment at GitLab.
-1. People Connect will follow [steps outlined above]({{< ref "incentives" >}})
+1. People Connect will follow the [steps outlined above](#referral-bonus-processing)
 
 ### GitLab Anniversaries
 

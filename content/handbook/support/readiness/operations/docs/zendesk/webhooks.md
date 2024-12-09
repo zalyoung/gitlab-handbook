@@ -7,7 +7,7 @@ canonical_path: "/handbook/support/readiness/operations/docs/zendesk/webhooks"
 ## What are Zendesk webhooks
 
 As per
-[Zendesk](https://support.zendesk.com/hc/en-us/articles/1260803996569-Creating-a-webhook):
+[Zendesk](https://support.zendesk.com/hc/en-us/articles/4408839108378-Creating-webhooks-to-interact-with-third-party-systems):
 
 > A webhook sends an HTTP request to a specified URL in response to an event ,
 > such as a trigger or automation firing in Zendesk Support. Web developers

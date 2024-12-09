@@ -26,7 +26,7 @@ This section is modeled after the engineering handbook version of [ownership of 
 ### Existing Cross-Stage Capabilities
 
 - [Merge Requests](https://docs.gitlab.com/ee/user/project/merge_requests/) - also see [collaboration process](/handbook/product/cross-stage-features/merge-requests)
-- [Define your CI/CD pipelines directly in your repository](https://docs.gitlab.com/ee/ci/yaml/gitlab_ci_yaml.html)
+- [Define your CI/CD pipelines directly in your repository](https://docs.gitlab.com/ee/ci/yaml/)
 - [Releases associated to milestones](https://docs.gitlab.com/ee/user/project/releases/#associate-milestones-with-a-release)
 - [Generate a Release from .gitlab-ci.yml](https://docs.gitlab.com/ee/ci/yaml/#release)
 - [Create a GitLab or Jira issue from a vulnerability](https://docs.gitlab.com/ee/user/application_security/vulnerabilities/#create-an-issue-for-a-vulnerability)

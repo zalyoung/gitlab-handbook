@@ -46,6 +46,7 @@ This section links all different technical proposals that are being evaluated.
 - [Cluster wide unique sequences](unique_sequences.md)
 - [Cells: Infrastructure](./infrastructure/_index.md)
 - [Organization migration](migration.md)
+- [Routable Tokens](routable_tokens.md)
 
 ## Impacted features
 
@@ -53,6 +54,7 @@ The Cells architecture will impact many features requiring some of them to be re
 Below is a list of known affected features with preliminary proposed solutions.
 
 - [Cells: Admin Area](impacted_features/admin-area.md)
+- [Cells: Advanced search](impacted_features/advanced-search.md)
 - [Cells: Backups](impacted_features/backups.md)
 - [Cells: CI/CD Catalog](impacted_features/ci-cd-catalog.md)
 - [Cells: CI Runners](impacted_features/ci-runners.md)
@@ -186,7 +188,7 @@ The Tenant Scale team sees an opportunity to use GitLab Dedicated as a base for 
 
 - [Internal Pods presentation](https://docs.google.com/presentation/d/1x1uIiN8FR9fhL7pzFh9juHOVcSxEY7d2_q4uiKKGD44/edit#slide=id.ge7acbdc97a_0_155)
 - [Cells Epic](https://gitlab.com/groups/gitlab-org/-/epics/7582)
-- [Database group investigation](../../../infrastructure/core-platform/data_stores/database/doc/root-namespace-sharding/)
+- [Database group investigation](../../../infrastructure-platforms/data-access/database-framework/doc/root-namespace-sharding/)
 - [Shopify Pods architecture](https://shopify.engineering/a-pods-architecture-to-allow-shopify-to-scale)
 - [Opstrace architecture](https://gitlab.com/gitlab-org/opstrace/opstrace/-/blob/main/docs/architecture/overview.md)
 - [Adding Diagrams to this blueprint](diagrams/index.md)

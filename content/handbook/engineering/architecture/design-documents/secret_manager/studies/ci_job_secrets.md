@@ -139,8 +139,8 @@ Here's a step-by-step guide on how to test this locally:
    bao server -dev -dev-root-token-id="dev-only-token"
    ```
 
-   - This makes OpenBao reachable at `http://127.0.0.1:8200`.
-   - You might need to run `export BAO_ADDR='http://127.0.0.1:8200'` for the `bao` CLI commands below to work.
+   - This makes OpenBao reachable at `https://127.0.0.1:8200`.
+   - You might need to run `export BAO_ADDR='https://127.0.0.1:8200'` for the `bao` CLI commands below to work.
 1. Enable kv-v2 secrets engine.
 
    ```shell
@@ -157,8 +157,8 @@ Here's a step-by-step guide on how to test this locally:
 
    ```shell
    bao write auth/jwt/config \
-     oidc_discovery_url="http://gdk.test:3000" \
-     bound_issuer="http://gdk.test:3000"
+     oidc_discovery_url="https://gdk.test:3000" \
+     bound_issuer="https://gdk.test:3000"
    ```
 
 1. To test the policy and role generated for a project owner with the GitLab user role `owner`, create the [templated policy](https://openbao.org/docs/concepts/policies/#templated-policies) and the JWT role for the specific `owner` role. The JWT role was based on the [GitLab Vault sample server role](https://docs.gitlab.com/ee/ci/secrets/index.html#configure-vault-server-roles).
@@ -216,7 +216,7 @@ Here's a step-by-step guide on how to test this locally:
    ```yaml
    test_openbao:
      variables:
-       VAULT_SERVER_URL: http://127.0.0.1:8200
+       VAULT_SERVER_URL: https://127.0.0.1:8200
        VAULT_AUTH_ROLE: project_owner
      id_tokens:
        VAULT_ID_TOKEN:

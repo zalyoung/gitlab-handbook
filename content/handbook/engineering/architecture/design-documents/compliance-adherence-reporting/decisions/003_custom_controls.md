@@ -270,17 +270,12 @@ class compliance_framework_security_policies {
 }
 
 compliance_management_frameworks --> compliance_requirements : has_many
-compliance_management_frameworks <-- compliance_requirements : belongs_to
 compliance_management_frameworks <--> projects : many_to_many
-compliance_requirements <--> compliance_framework_security_policies : has_and_belongs_to_many
+compliance_requirements <--> security_policy_requirements : has_and_belongs_to_many
 projects <-- namespaces : has_many
-projects --> namespaces : belongs_to
 namespaces --> compliance_management_frameworks : has_many
-namespaces <-- compliance_management_frameworks : belongs_to
 projects --> project_compliance_configuration_status : has_many
-projects <-- project_compliance_configuration_status : belongs_to
 compliance_requirements --> project_compliance_configuration_status : has_one
-compliance_requirements <-- project_compliance_configuration_status : belongs_to
 ```
 
 We would drop the existing table `compliance_checks` and update the existing table `compliance_requirements` with the
@@ -314,8 +309,10 @@ results on the compliance dashboard.
 
 ## Constraints
 
-1. We should limit the maximum number of compliance frameworks a project can have.
-1. We should limit the maximum number of compliance requirements a framework can have.
+1. We should limit the maximum number of compliance frameworks a project can have. In the beginning we can keep this limit as 20
+and increase later on if needed.
+1. We should limit the maximum number of compliance requirements a framework can have. In the beginning we can keep this limit as 50
+and increase later on if needed.
 1. We should limit the maximum number of fields an expression can have. In the beginning we can keep this limit as 5
 and increase later on if needed.
 1. We should create an allowlist of project settings and associations that could be used for creating expressions.
@@ -324,6 +321,6 @@ and poor user experience.
 
 ## Decision
 
-We decided to store the internal compliance requirement expressions as `jsonb` columns and remove the
+We decided to store the internal compliance requirement expressions as `text` columns and remove the
 `compliance_checks` table and only use `compliance_requirements` instead. This would help in reducing redundancy and
 we could easily display the rows present in `project_compliance_configuration_status` table on the adherence dashboard.

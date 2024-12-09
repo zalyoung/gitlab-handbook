@@ -121,7 +121,7 @@ Product Managers are all evaluated using the [CDF](/handbook/product/product-man
 
 ## Growth and Development processes
 
-The general [Growth and Development benefits](/handbook/total-rewards/benefits/general-and-entity-benefits/growth-and-development/) are maintained by the Total Rewards team. The following make it more specific for Product Managers.
+The general [Growth and Development benefits](/handbook/people-group/learning-and-development/growth-and-development/) are maintained by the Total Rewards team. The following make it more specific for Product Managers.
 
 The product team has specific processes for the trainings outlined below. To get support for a new training, please follow the general guidelines for Growth and Development.
 
@@ -213,9 +213,9 @@ This content is divided into five key competencies for Product Managers.
 
 #### Deeper dive
 
-- [GitLab Jobs to be Done (JTBD) Deep Dive](/handbook/product/ux/jobs-to-be-done/deep-dive/)
+- [GitLab Jobs to be Done (JTBD) Deep Dive](/handbook/product/ux/jobs-to-be-done/)
 - [Bob Moesta & Chris Spiek - Uncovering the Jobs to be Done](https://businessofsoftware.org/2014/06/bos-2013-bob-moesta-and-chris-spiek-uncovering-the-jobs-to-be-done/) (57 min video)
-- [Tony Ulwick - Customer Centered Innovation](https://businessofsoftware.org/2015/08/tony-ulwick/) (57 min video)
+- [Tony Ulwick - Customer Centered Innovation](https://businessofsoftware.org/talks/customer-centered-innovation/) (57 min video)
 - [Xavier Russo - A step-by-step guide to using Outcome Driven Innovataion](https://medium.com/envato/a-step-by-step-guide-to-using-outcome-driven-innovation-odi-for-a-new-product-ded320f49acb)
 
 #### Online courses
@@ -425,7 +425,7 @@ Please contribute your favorite resources here
 
 #### Deeper dive
 
-- [SaaSFest Keynote: Building a Saas Company Isn't What it Used to Be](https://www.priceintelligently.com/blog/saasfest-keynote-speaker-hiten-shah-building-a-saas-business)
+- [SaaSFest Keynote: Building a Saas Company Isn't What it Used to Be](https://www.slideshare.net/slideshow/your-competition-now-matters-building-a-saas-company-isnt-what-it-used-to-be-hiten-shah-at-saasfest-2016/70237407)
 
 #### Online courses
 
@@ -442,8 +442,6 @@ _Please contribute your favorite resources here_
 - [John Doerr: Why the secret to success is setting the right goals](https://www.youtube.com/watch?v=L4N1q4RNi9I) (5 min video)
 - [David Skok: SaaS Metrics 2.0 – A Guide to Measuring and Improving what Matters](https://www.forentrepreneurs.com/saas-metrics-2/)
 - [Benefits of OKRs](https://www.whatmatters.com/faqs/benefits-of-okrs/)
-- [Getting Started with OKRs](https://learn.ally.io/path/employee/getting-started-with-okrs)
-- [Writing Basic OKRs](https://learn.ally.io/writing-basic-okrs)
 - [GitLab - How to write OKRs](/handbook/product/product-okrs/#how-to-write-okrs)
 - [Ally for OKRs - Overview for Product](https://www.youtube.com/watch?v=hP9yk_PSj2k&feature=youtu.be) (10 min video)
 
@@ -486,13 +484,13 @@ _Please contribute your favorite resources here_
 
 #### Books
 
-- [Building a Story brand](https://www.amazon.com/Building-StoryBrand-Clarify-Message-Customers/dp/0718033329/ref=sr_1_11?)
+- [Building a Story brand](https://www.amazon.com/Building-StoryBrand-Clarify-Message-Customers/dp/0718033329/)
 
 ### 💬 Communicating to inspire, align, and activate
 
 #### Quick reads and videos
 
-- [Paul Graham: Write Simply](http://paulgraham.com/simply.html)
+- [Paul Graham: Write Simply](https://paulgraham.com/simply.html)
 - [Mastering communication: a product manager's superpower](https://miro.com/blog/communication-product-managers-product-school/)
 - [Connor Murphy on how his team uses a combination of GitLab, Loom, Notion, and Figma to collaborate async between PM, Design, and Engineering](https://www.loom.com/share/17677053ff7d4eeba643eaf194c0b700) (5 min video)
 
@@ -573,7 +571,7 @@ _Please contribute your favorite resources here_
 #### Books
 
 - [Dare to Lead](https://www.amazon.com/Dare-Lead-Brave-Conversations-Hearts/dp/0399592520)
-- [Radical Candor](https://www.amazon.com/dp/1529038340/ref=cm_sw_em_r_mt_dp_JW4418H1Q2BQ2MGV62WN)
+- [Radical Candor](https://www.amazon.com/dp/1529038340/)
 
 ### 🤝 Direct team management
 

@@ -39,13 +39,14 @@ description: "This page discusses the Internal Hiring Process"
 - Recruiter will then continue the process as described in the [Talent Acquisition Process Framework]({{< ref "talent-acquisition-framework" >}}) for all candidates. Recruiter will use identified templates in Greenhouse to communicate with candidates, current managers and hiring managers throughout the internal hiring process.
 - Once it is confirmed that the internal candidate is moving to the offer stage, the Recruiter will connect the team member's current manager and potential new manager via Slack to:
   - Give formal notice that an offer is being created for the team member.
+  - At the same time you should tag the relevant [People Business Partner](/handbook/people-group/people-business-partners/#people-business-partner-alignments) (both the departing and receiving PBP) in a note on Greenhouse so they are notified, can track the internal move and take any necessary action.
   - Facilitate a discussion around a transition date that works for both parties. Please note that TA's involvement is to facilitate this conversation and is not the decision maker. Ultimately, a transition date is something that should be agreed upon between a current manager and hiring manager. A finalized start date will be needed as TA submits an offer for approvals.
   - Some suggestions for transition timelines include:
     - Aiming for between 4-6 weeks for an official transition date to ensure the team with the backfill has lead time on filling the position
     - A one month 50/50 split between teams to ease into a full time transition. For any moves from Sales Development, please be aware the team requests a 45 day transition period from the date of a verbal offer
 - Please note the following about this process:
-  - TA will only start an official backfill process once the internal candidate signs their job change letter.
-  - Internal team members should be alerting and receiving support from their current managers prior to formally applying to open roles. Offers at the end of an internal interview process should not come as a surprise to current managers.
+  - TA will only start an official backfill once the role has been approved via the [Backfill Approval process](/handbook/hiring/talent-acquisition-framework/req-creation/#backfill-approvals)
+  - It is the [Team Member's responsibility](/handbook/hiring/talent-acquisition-framework/internal-hiring-process/#team-member-responsibilities) to meet with their current manager to discuss the internal opportunity they’d like to pursue prior to submitting their application. Offers at the end of an internal interview process should not come as a surprise to current managers.
   - TA will not discuss any compensation changes with the team member's current manager.
   - TA will not provide updates on interview feedback or progress to a team member's current manager. This should be discussed between managers and team members during 1:1s.
 
@@ -57,7 +58,7 @@ As you are both aware, XXX has been interviewing for the XXX role and the team i
 
 - What transition date works best for the both of you? The GitLab standard recommendation is between 4-6 weeks (OR 45 days for Sales Development). Please see our handbook page [here](/handbook/people-group/promotions-transfers/#internal-transfer-start-date) for some suggestions on transition timelines.
 - Please discuss any outstanding items that may require XX to stay in their current role longer than 6 weeks as we want to ensure they'll be able to have a smooth transition between roles.
-- I'd recommend connecting live if you can, but if not, async works and we can use this channel. If you do connect live, please  confirm with me once you've done so and agreed on a start date. Once I have that information, I will proceed with the formal offer approvals.  Once they accept the offer (and sign the Job Change Letter), we will be able to move forward with their backfill process. Thanks!
+- I'd recommend connecting live if you can, but if not, async works and we can use this channel. If you do connect live, please  confirm with me once you've done so and agreed on a start date. Once I have that information, I will proceed with the formal offer approvals.  Once they accept the offer (and sign the Job Change Letter), we will be able to move forward with the [Backfill Approval process](/handbook/hiring/talent-acquisition-framework/req-creation/#backfill-approvals). Thanks!
 
 - If the hiring team would like to move forward with an offer, the Recruiter will align with People Connect on the team member's current compensation. The Recruiter will
   - Reach out to People Connect by submitting a request through HelpLab using the [Internal Movement](https://helplab.gitlab.systems/esc?id=sc_cat_item&sys_id=7b2f4b8d4748069067429ee0026d435f) case template. In your request details please include that you the candidate has been selected to move forward and that you require their current compensation details. People Connect will only confirm the salary details and any confirmation on equity would need to be verified by the Total Rewards team separately.
@@ -96,8 +97,8 @@ As you are both aware, XXX has been interviewing for the XXX role and the team i
 
 - Once your team member has notified you that they have applied for an internal opportunity (this should happen at the application stage) make sure to check in with them during 1:1s to see how their interviews are progressing.
 - If your team member moves to the offer stage, the Recruiter will connect you with the hiring manager via Slack. Please follow the steps outlined by the Recruiter once you receive that confirmation. Until you receive that Slack from TA, the offer is not confirmed.
-- Once the transition date is agreed upon, the current manager is responsible for notifying their leadership so they can align with Finance and get started on the backfill request.
-If the team member is not selected for the new role, the current manager should meet with the team member to discuss ongoing career development in their current role.
+- Once the transition date is agreed upon, the current manager is responsible for notifying their leadership and to follow the steps outlined in the [Backfill Approval process](/handbook/hiring/talent-acquisition-framework/req-creation/#backfill-approvals) handbook page
+- If the team member is not selected for the new role, the current manager should meet with the team member to discuss ongoing career development in their current role.
 
 ## Hiring Manager Responsibilities
 

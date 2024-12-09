@@ -195,9 +195,9 @@ user experiences that help guide users through configuring their application and
 Build charts and dashboards to help users monitor metrics so that users know how changes in their code impacts their production environment.
 You should expect to become a leader in charting and data visualizations at GitLab and to become very familiar with our charting library, ECharts.
 
-### Govern
+### Software Supply Chain Security
 
-Secure helps to improve security during the development of an application, while Govern provides the overarching policy, dependency, vulnerability, and compliance management.
+Secure helps to improve security during the development of an application, while Software Supply Chain Security provides the overarching policy, dependency, vulnerability, and compliance management.
 You should expect that there are a lot of interfaces to be built from scratch in Vue and VueX, potentially with real time updates and charting capabilities.
 
 ### Geo

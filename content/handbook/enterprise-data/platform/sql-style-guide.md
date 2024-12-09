@@ -23,6 +23,12 @@ SQLFLuff is a SQL linter that works with templating tools like dbt. We use it to
 sqlfluff lint models/path/to/file/file-to-lint.sql
 ```
 
+If you are in the pytohn virtual environemtn for dbt then a `make` command with a dbt model name can be used:
+
+```console
+make lint-models MODEL="model_name"
+```
+
 A dbt command can also be used to get a list of files to lint:
 
 ```console
@@ -59,7 +65,7 @@ The configuration file that the Data Team uses can be found in the [GitLab Data 
 
 ### General Guidance
 
-- Do not optimize for fewer lines of code, new lines are cheap but [brain time is expensive](https://blog.getdbt.com/write-better-sql-a-defense-of-group-by-1/).
+- Do not optimize for fewer lines of code, new lines are cheap but [brain time is expensive](https://www.getdbt.com/blog/write-better-sql-a-defense-of-group-by-1).
 
 - Familiarize yourself with [the DRY Principal](https://docs.getdbt.com/terms/dry). Leverage CTEs, jinja and macros in dbt, and snippets in Sisense. If you type the same line twice, it needs to be maintained in two places.
 

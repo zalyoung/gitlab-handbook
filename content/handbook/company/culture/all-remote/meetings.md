@@ -21,7 +21,7 @@ We're thoughtful about how we run meetings, because, when done right, they are f
 1. **Provide slides and supporting videos in advance.** We [embrace Neurodiversity](/handbook/values/#embracing-neurodiversity) by adopting a variety of different work styles and communication styles. Providing multiple ways to consume information (written / video / audio) allows everyone to contribute independent of their preferred comprehension style.
 1. **Use "speedy meetings."** This [Google Calendar setting](https://calendar.google.com/calendar/r/settings) creates meetings of 25 / 50 minute duration, which leaves time to write notes, stretch, etc. in between meetings.
 1. **Use the Zoom scheduler plug-in to add video conferencing to your Google Calendar event.** Leveraging the Zoom plug-in automatically adds Zoom links to your event, and reduces the probability of user error in copying and pasting an incorrect video conferencing link.
-1. **Check your audio quality.** [Research shows](https://tips.ariyh.com/p/good-sound-quality-smarter) that when the audio quality is high, people judge the content as better and more important. We recommend you [invest in equipment](workspace/#what-technology-do-i-need-for-remote-working) to generate the highest-fidelity audio in your remote work setting, such as using a microphone.
+1. **Check your audio quality.** [Research shows](https://app.sciencesays.com/p/good-sound-quality-smarter) that when the audio quality is high, people judge the content as better and more important. We recommend you [invest in equipment](workspace/#what-technology-do-i-need-for-remote-working) to generate the highest-fidelity audio in your remote work setting, such as using a microphone.
 
 ### What to do during the meeting
 
@@ -270,7 +270,7 @@ Learn more on [how to run an all-remote board meeting](https://about.gitlab.com/
 
 {{< youtube "EuGsen3FxXc?start=788" >}}
 
-When asked during an [INSEAD](http://insead.edu) case study interview (shown above) about an all-remote company's ability to bring people together in the same physical space for a meeting, GitLab co-founder and CEO Sid Sijbrandij provided the following reply.
+When asked during an [INSEAD](https://www.insead.edu/) case study interview (shown above) about an all-remote company's ability to bring people together in the same physical space for a meeting, GitLab co-founder and CEO Sid Sijbrandij provided the following reply.
 
 For context, Sid joined the Zoom call from San Francisco, while the researchers joined from Singapore.
 

@@ -1,5 +1,6 @@
 ---
 title: "Kamil Trzciński's README"
+description: "Personal readme page for Kamil Trzciński, Senior Distinguished Engineer, Ops and Enablement, GitLab"
 job: "Senior Distinguished Engineer, Ops and Enablement"
 ---
 

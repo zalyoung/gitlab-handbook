@@ -113,15 +113,12 @@ To use the script:
 
 Press `Ctrl+C` if you need to cancel the alarm. You may keep the terminal window running indefinitely so that it is at your finger tips throughout your program duration.
 
-A handy App for time keeping is Senzillo's "Speech Timer for Talks".  It is available for [iOS](https://apps.apple.com/us/app/speech-timer-for-talks/id979433325). Compared to other apps, this timer is easy to setup for the meeting warning levels and to switch between meeting time lengths. It costs $1 to have 3 warning levels - purchasing the application is not required if you just wish to have one warning visualization and watch the timer for the others.
-
 ## Rotation Schedule
 
 Finance team members have a high workload and may not be able to complete a full 3-day rotation. If you are interested in shadowing for the full or part of the weeks listed below, open the MR to add your name to schedule per the instructions on [How to Apply](#how-to-apply), and message the slack channel `#cfo-shadow` with the exact dates you are requesting.
 
 | Start Date | End Date |Shadow Name |
 |----|---------|--------|
-| Tuesday 2024-10-15 | Thursday 2024-10-17 |Milidou Afroditi |
-| Tuesday 2024-10-29 | Thursday 2024-10-31 | |
-| Tuesday 2024-11-05 | Thursday 2024-11-07 | |
-| Tuesday 2024-11-12 | Thursday 2024-11-14 |@disla |
+| Tuesday 2025-01-07 | Thursday 2025-01-09 | Craig Patrick | 
+| Tuesday 2025-01-21 | Thursday 2025-01-23 | |
+| Tuesday 2025-02-18 | Thursday 2025-02-20 | |

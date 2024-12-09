@@ -23,9 +23,7 @@ And all the permissions, issues, MRs, and relevant stuff within GitLab are relat
 <!-- markdownlint-enable MD051 -->
 #### STEP 1: Request your new username
 
-- Access the username you want to request via `https://gitlab.com/mary`.
-- Check its activity and projects to see if they are an inactive user [according to the name squatting policy](/handbook/support/workflows/namesquatting_policy/).
-- There's no guarantee that the username will be available for you.
+- As of this [Merge Request](https://gitlab.com/gitlab-com/support/support-team-meta/-/issues/5170), it is no longer possible to request a username via the [Namesquatting process](/handbook/support/workflows/namesquatting_policy). If the username you wish to use is unavailable, you will have to pick a different one.
 
 #### STEP 2: Create a new account with your new username{#change-username-step-2}
 
@@ -198,6 +196,24 @@ If you need to convert multiple images, combine the `convert` command with `find
 find . -type f -name '*.jpg' -exec sh -c 'convert {} -resize 1920x1080 {}' \;
 ```
 
+### Convert HEIC to JPG
+
+> Tip: Modern macOS versions provide the Finder right-click menu `Quick Actions > Convert Image` which automatically converts an image to JPG. Use this method for quick UI conversions.
+
+[ImageMagick](#imagemagick) provides the `mogrify` CLI command which can be used to convert the `HEIC` image format to other formats like `JPG` which are accepted on all websites.
+
+```shell
+mogrify -format jpg icloudphoto.HEIC
+```
+
+If you need to convert multiple images, combine the `mogrify` command with `find`. Note that this creates new files and requires manual cleanup of `.heic|HEIC` files, `-iname` uses a case insensitive match.
+
+```shell
+find . -type f -iname '*.heic' -exec sh -c 'mogrify -format jpg \"{}\"' \;
+```
+
+An example shell alias can be found in [@dnsmichi's dotfiles project](https://gitlab.com/dnsmichi/dotfiles/-/blob/main/.oh-my-zsh/custom/aliases.zsh?ref_type=heads).
+
 ### Add drop shadow to images
 
 [Install ImageMagick](#imagemagick) and use the `convert` CLI command to add a drop shadow. The `-shadow` parameter may need adjustments on the dimension.
@@ -218,8 +234,8 @@ If this doesn't work, request that IT Ops reset your 2FA setting.
 Links for finding the settings:
 
 - iOS: [Get help with the date and time on your iPhone, iPad, and iPod touch - Apple Support](https://support.apple.com/en-us/HT203483)
-- macOS: [If the date or time is wrong on your Mac - Apple Support](https://support.apple.com/en-us/HT203413)
-- Linux (using systemd): [systemd-timesyncd - ArchWiki](https://wiki.archlinux.org/index.php/systemd-timesyncd)
+- macOS: [If the date or time is wrong on your Mac - Apple Support](https://support.apple.com/en-ca/guide/mac-help/mchlp2996/mac)
+- Linux (using systemd): [systemd-timesyncd - ArchWiki](https://wiki.archlinux.org/title/Systemd-timesyncd)
 
 For Android there's no definitive link, since most vendors have different UIs for their settings.
 But in the Settings-app, look for "Date & Time" and there should be a "Automatic Date & Time" toggle.
@@ -393,7 +409,7 @@ Double check before international travel, as it may be supported but have hidden
 
 When connecting to a network with a [captive portal](https://en.wikipedia.org/wiki/Captive_portal), most websites will not load as modern sites use HTTPS, and captive portals interrupt that process.
 Your device will try and compensate for this, but it can be tough to manage manually.
-If you have trouble, try connecting to [http://captive.apple.com/](http://captive.apple.com/) first, which is intentionally only HTTP and will load the captive portal.
+If you have trouble, try connecting to [https://captive.apple.com/](https://captive.apple.com/) first, which is intentionally only HTTP and will load the captive portal.
 
 ### FIDO2 / WebAuthn
 
@@ -414,7 +430,7 @@ YubiKey: The most popular FIDO2/WebAuthn device is Yubico's YubiKey. There are a
 YubiKey has been examined by the security industry at large, third party audits and by the Security Team. YubiKey's are more than suitable for use within GitLab and work fine with FIDO2/WebAuthn-compatible systems.
 
 YubiKey has had a number of [security issues](https://www.yubico.com/support/security-advisories/) which are typically resolved quickly. They have a dedicated page for security advisories.
-In rare cases, a security issue involving a hardware token arises that requires the hardware token to be replaced as a firmware update will not mitigate the issue. This happened with [Yubico in 2017](https://www.yubico.com/keycheck/).
+In rare cases, a security issue involving a hardware token arises that requires the hardware token to be replaced as a firmware update will not mitigate the issue. This happened with [Yubico in 2017](https://support.yubico.com/hc/en-us/articles/360021803580-Infineon-RSA-Key-Generation-Issue-Customer-Portal).
 
 Most of the attack models that impact the FIDO2/WebAuthn tokens require physical access to the token itself. That is, the security advisories involve coding issues that can only be exploited via access to the token or the computer that the token is plugged into. This in itself makes the devices more secure.
 
@@ -427,7 +443,7 @@ While there are other hardware tokens that are also decent and will function wit
 
 What GitLab team members need to keep in mind is that if you travel with your company laptop - either on a business trip, a trip to visit family and friends in another location but you intend to keep working, or just a trip to the local coffee shop - treat the token with the same level of care as a credit card. Do not leave it where it could be stolen.
 
-If you are concerned about potentially losing your hardware token, be sure to add [Touch ID](/handbook/business-technology/okta/#i-want-to-add-touch-id--face-id--face-authentication--yubikey-to-okta) and potentially a [mobile device](/handbook/business-technology/okta/#i-want-to-add-touch-id--face-id--face-authentication-to-okta-for-my-mobile-device-iphoneipad-or-android) as an accepted authentication token. Sites following the FIDO2/WebAuthn standard should support multiple tokens. That way if one is lost or stolen, you can still login use another method. Currently YubiKey's are limited to one per user, in the case of lost or damaged, please reach out in the #it_security_help Slack channel and we'll assist you with a replacement.
+If you are concerned about potentially losing your hardware token, be sure to add [Touch ID](/handbook/it/okta/#i-want-to-add-touch-id--face-id--face-authentication--yubikey-to-okta) and potentially a [mobile device](/handbook/it/okta/#i-want-to-add-touch-id--face-id--face-authentication-to-okta-for-my-mobile-device-iphoneipad-or-android) as an accepted authentication token. Sites following the FIDO2/WebAuthn standard should support multiple tokens. That way if one is lost or stolen, you can still login use another method. Currently YubiKey's are limited to one per user, in the case of lost or damaged, please reach out in the #it_security_help Slack channel and we'll assist you with a replacement.
 
 Usage of 2FA is mandatory for GitLab team members.
 
@@ -462,7 +478,7 @@ Due to the number of caveats, SMS is only recommended if there is no other 2FA o
 - SMS is subject to the same phish-style attack as TOTP. The main difference is that some SMS-based authentication schemes time out after 60 seconds instead of 30, making the phish-style attack slightly easier for the attacker.
 - The information regarding your phone number is stored on a SIM card in your phone. If an attacker with physical access to your phone were to steal the SIM, they could impersonate you from their own phone. Of course they could do the same thing with your hardware token, however they would still need your username and password to use the hardware token. Unfortunately, calling up the service and asking for your password to be reset is often confirmed using SMS messaging, so with the possession of the SIM card, the attacker could pose as you. Again, if you treat your phone the same way you treat your credit card or cash, then this type of attack is minimized.
 - An attacker could contact your phone carrier, impersonate you and state you lost your phone, and set up a new SIM card. Unfortunately many times your account is protected with a security question such as "mother's maiden name", "favorite restaurant", or some other simple question - all information that could be determined from a website that does family trees or via social media where you post pictures of your dinner.
-- An older attack known as "[SIMJacker](https://simjacker.com/)" allowed an attacker to send your phone an SMS message with a malicious payload that allows for direct manipulation of the SIM card itself. This attack still works on older SIM cards, although more modern SIMs are no longer vulnerable to this. Most of the known attacks using SIMJacker involved Latin and South America, the Middle East, Northern Africa, parts of Eastern Europe, and parts of Southeast Asia.
+- An older attack known as "[SIMJacker](https://www.enea.com/info/simjacker/)" allowed an attacker to send your phone an SMS message with a malicious payload that allows for direct manipulation of the SIM card itself. This attack still works on older SIM cards, although more modern SIMs are no longer vulnerable to this. Most of the known attacks using SIMJacker involved Latin and South America, the Middle East, Northern Africa, parts of Eastern Europe, and parts of Southeast Asia.
 
 #### If You Must Use SMS
 
@@ -492,7 +508,7 @@ The [Google Calendar](/handbook/tools-and-tips/#google-calendar) invite is the s
 
 ## Google
 
-Need a new document or new slide deck quickly? Use shortcuts like <http://doc.new> or <http://slide.new>. The full list (not even restricted to Google products) is available at <https://whats.new/shortcuts/>.
+Need a new document or new slide deck quickly? Use shortcuts like <https://doc.new> or <https://slide.new>. The full list (not even restricted to Google products) is available at <https://whats.new/shortcuts/>.
 
 ### Google Docs
 
@@ -718,7 +734,7 @@ Check `Display secondary time zone` and select `(GMT+00:00) Coordinated Universa
 
 ### Google Cloud Platform
 
-See the [Sandbox Cloud page](/handbook/infrastructure-standards/realms/sandbox) for a listing of cloud resources and how to gain access to them.
+See the [Sandbox Cloud page](/handbook/company/infrastructure-standards/realms/sandbox) for a listing of cloud resources and how to gain access to them.
 
 ### Google Drive
 

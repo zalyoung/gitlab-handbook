@@ -1,6 +1,6 @@
 ---
 title: "GitLab Iberia s.r.l. (Spain) Information and Benefits"
-description: "Entitity Information for GitLab Iberia s.r.l. Spain Team Members"
+description: "Entity Information for GitLab Iberia s.r.l. Spain Team Members"
 ---
 
 {{% panel header="**This is a Secure Document**" header-bg="orange" %}}
@@ -61,7 +61,7 @@ Trust-based working time generally refers to a GitLab's way of working, a flexib
 
 ### Timekeeping Record
 
-As of May 1, 2024 each team member employeed by GitLab Iberia will be required to log the start and end of their daily work time. We have provided a Google spreadsheet template, in English or Spanish. This record will be kept by Payroll and can be audited at any time.
+As of May 1, 2024 each team member employed by GitLab Iberia will be required to log the start and end of their daily work time. We have provided a Google spreadsheet template, in English or Spanish. This record will be kept by Payroll and can be audited at any time.
 
 ### Daily Work Time
 
@@ -164,7 +164,7 @@ The Team Member portion of the dependent cost will be deducted from their payche
 <details markdown="1">
 <summary>Offboarding GitLab</summary>
 
-Your benefits will cease on the date of termination. You may be able to transfer your coverage to a personal plan through our brokers Willis Tower Watson (WTW). Reach out to WTW to Soportehb@wtwco.com and cc Fernanda.Dallagnese@wtwco.com to receive the guidelines for the plan.
+Your benefits will cease on the date of termination. You may be able to transfer your coverage to a personal plan through our brokers Willis Towers Watson (WTW). Reach out to WTW to Soportehb@wtwco.com and cc Fernanda.Dallagnese@wtwco.com to receive the guidelines for the plan.
 
 </details>
 
@@ -199,7 +199,7 @@ Children of the insured in equal shares or their descendants in case of death
 Parents of the insured in equal shares
 Legal heirs of the Insured
 
-To Update your Beneficiary please fill out the [beneficiary designation form](https://drive.google.com/drive/folders/14KdAmwiUK9hwqRQsRA6RvG5D0I815ZhS) and send to Fernanda.dallagnese@wtwco.com and total-rewards@gitlab.com along with a copy of the National Identity Card of the employee.
+To Update your Beneficiary please fill out the [beneficiary designation form](https://drive.google.com/file/d/1g15Kj36z4y0iGxoeSPw8X-ihVnq-kI9w/view?usp=sharing) and send to Fernanda.dallagnese@wtwco.com and total-rewards@gitlab.com along with a copy of the National Identity Card of the employee.
 
 </details>
 

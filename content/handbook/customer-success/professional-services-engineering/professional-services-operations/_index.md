@@ -154,6 +154,7 @@ PSEs or Technical Instructors who deliver GitLab Education Services instructor-l
    - During the training planning meeting, the course outline and system requirements pages below are useful to use to review training logistics, topics, teleconferencing, and system requirements.
       - [GitLab with Git Fundamentals course outline](https://university.gitlab.com/pages/gitlab-fundamentals-training)
       - [GitLab CI/CD course outline](https://university.gitlab.com/pages/ci-cd-training)
+      - [GitLab Advanced CI/CD course outline](https://university.gitlab.com/pages/advanced-cicd)
       - [GitLab Agile Portfolio Management course outline](https://university.gitlab.com/pages/agile-training)
       - [GitLab Security Essentials course outline](https://university.gitlab.com/pages/security-training)
       - [GitLab System Administration course outline](https://university.gitlab.com/pages/system-admin-training)
@@ -180,7 +181,7 @@ PSEs or Technical Instructors who deliver GitLab Education Services instructor-l
 
 ##### Training lab pre-course instructor workflow
 
-PS uses the [GitLab Lab Environment](http://gitlabdemo.com/) as the standard environment for hands-on course lab activities and hands-on certification assessments. Follow these steps to set up your course attendees for lab access.
+PS uses the [GitLab Lab Environment](https://gitlabdemo.com/) as the standard environment for hands-on course lab activities and hands-on certification assessments. Follow these steps to set up your course attendees for lab access.
 
 **1. GitLab lab environment invitation codes**
 
@@ -285,7 +286,8 @@ Accurate time tracking records of hours is essential to ensure revenue can be re
 - Billable hours represent work hours that a staff member reports as being aligned to a specific SOW. The format for daily time tracking for each team member is shown below, and is reviewed weekly by PS Operations and Manager
 - Hours for PTO, Holidays and Family and Friends day are no longer required to be submitted in the weekly time sheet
 - If a team member did not work the time allocated for the week, then hours would be added to the PTO feature in Kantata
-- Notes are required for the PS Time Tracking Non Credit projects only, not on customer projects
+- Notes are not required for the PS Time Tracking - Non Creditable project
+- Notes may be required for customer projects, please confirm with your Project/Program Manager before submitting time
 
   - PTO should be submitted in the time off feature in Kantata, and also follow the company guidelines, [time off process](/handbook/people-group/paid-time-off/#a-gitlab-team-members-guide-to-time-off)
   - Holidays along with Family and Friends day are scheduled on the Kantata calendar
@@ -297,9 +299,9 @@ Accurate time tracking records of hours is essential to ensure revenue can be re
 
 ****Kantata Internal Projects****
 
-Internal projects are set up to track internal time that is not customer project related. Below is the project name along with tasks and examples.
+Internal projects are set up to track internal time that is not customer project related. Below is the project link along with tasks and examples.
 
-- [PS Time Tracking Non- Creditable](https://gitlab.mavenlink.com/workspaces/34595955/?tab=project-workspace)
+- [PS Time Tracking - Non Creditable](https://gitlab.mavenlink.com/workspaces/34595955/?tab=project-workspace)
 
 ****Customer consulting projects****
 

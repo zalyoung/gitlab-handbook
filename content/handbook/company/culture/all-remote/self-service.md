@@ -88,7 +88,7 @@ At GitLab, we flip that notion on its head. We [prefer public discourse over pri
 
 While making conversations [public](/handbook/values/#public-by-default) may feel inefficient in the moment, it is much more [efficient](/handbook/values/#efficiency) long-term. It leads to significantly fewer interruptions. Team members should **search for their own answers**, and, if an answer is not readily found or the answer is not clear, ask in public as we all should have a [low level of shame](/handbook/values/#low-level-of-shame). [Write down any new information discovered](values#write-things-down) and pay it forward so that those coming after will have better efficiency built on top of practicing collaboration, inclusion, and documenting the results.
 
-Minimizing interruptions creates a less chaotic workplace for all, and leads to something that is increasingly precious: [long, uninterrupted periods of time](https://www.ted.com/talks/jason_fried_why_work_doesn_t_happen_at_work?language=en) where you can get into a [state of flow](https://medium.com/steveglaveski/37-lessons-on-productivity-and-work-from-basecamps-jason-fried-4815bb87c52d).
+Minimizing interruptions creates a less chaotic workplace for all, and leads to something that is increasingly precious: [long, uninterrupted periods of time](https://www.ted.com/talks/jason_fried_why_work_doesn_t_happen_at_work?subtitle=en) where you can get into a [state of flow](https://medium.com/steveglaveski/37-lessons-on-productivity-and-work-from-basecamps-jason-fried-4815bb87c52d).
 
 By answering with a link, you're doing the following:
 

@@ -3,7 +3,7 @@ title: GitLab Onboarding Buddies
 description: Onboarding Responsibilities and Process
 ---
 
-Onboarding buddies are crucial to making the onboarding experience for a new GitLab team-member a positive one. [New Job Anxiety](http://www.classycareergirl.com/2017/02/new-job-anxiety-conquer/) is a reality for many people, and the adjustment to GitLab might be particularly challenging for new GitLab team-members who may not be used to our [all-remote](/handbook/company/culture/all-remote/) culture. That's why it's important that all new GitLab team-members be assigned a buddy who is ready, willing, and excited to assist with the onboarding process.
+Onboarding buddies are crucial to making the onboarding experience for a new GitLab team-member a positive one. [New Job Anxiety](https://www.classycareergirl.com/new-job-anxiety-conquer/) is a reality for many people, and the adjustment to GitLab might be particularly challenging for new GitLab team-members who may not be used to our [all-remote](/handbook/company/culture/all-remote/) culture. That's why it's important that all new GitLab team-members be assigned a buddy who is ready, willing, and excited to assist with the onboarding process.
 
 Not only are buddies helpful to someone that has just started with GitLab, but also to a team member transitioning to a new role within GitLab. When someone migrates to a new team / department, it is highly recommended that managers assign a Career Mobility buddy in the issue to help support the team members that are busy migrating.
 

@@ -22,6 +22,7 @@ allowlists
 allyship
 AlmaLinux
 AMAs
+AMAUs
 AMIs
 anonymization
 anonymized
@@ -107,11 +108,13 @@ Bitbucket
 Bitnami
 bitrate
 Bittrex
+Bizible
 Blackmagic
 blockquote
 blockquoted
 blockquotes
 blockquoting
+Bluesky
 boolean
 booleans
 Bootsnap
@@ -180,6 +183,7 @@ Cigna
 Citrix
 Citus
 Civo
+Clari
 Cleartext
 ClickHouse
 CLIs
@@ -277,6 +281,7 @@ datestamp
 datetime
 daycares
 DBeaver
+dbt
 Debian
 debloating
 decodable
@@ -323,7 +328,6 @@ desynchronized
 Dev
 devfile
 devfiles
-Devo
 DevOps
 Dhall
 dialogs
@@ -354,7 +358,6 @@ dogfoods
 DOMPurify
 donut
 dotenv
-dotfiles
 doublestar
 downvoted
 downvotes
@@ -365,6 +368,8 @@ DRIs
 DSLs
 DSN
 Dynatrace
+dyscalculia
+dyspraxia
 EBAs
 ebook
 ebooks
@@ -386,6 +391,7 @@ enrichers
 enum
 enums
 Enviroments
+ERDs
 ESLint
 ESXi
 ETag
@@ -420,6 +426,7 @@ Figma
 Filebeat
 Filestore
 financials
+findability
 Finicity
 Finnhub
 Fio
@@ -454,6 +461,8 @@ Fullstack
 fuzzer
 fuzzing
 Gainsight
+gameday
+gamedays
 Gantt
 Gartner
 Gbps
@@ -514,6 +523,8 @@ heatmap
 heatmaps
 Helm
 Helmfile
+Helpdesk
+HelpLab
 Heroku
 Herokuish
 heuristical
@@ -550,6 +561,8 @@ IIFEs
 Immer
 iMovie
 impactful
+incentivized
+incentivizes
 incentivizing
 inclusivity
 inflector
@@ -573,7 +586,9 @@ irker
 ISOs
 issuables
 Istio
+iTerm
 Jaeger
+Jamf
 Jamstack
 jasmine-jquery
 Javafuzz
@@ -596,6 +611,7 @@ Jupyter
 JupyterHub
 JWT
 JWTs
+kaizen
 Kaminari
 kanban
 kanbans
@@ -649,6 +665,7 @@ livestreaming
 livestreams
 LLM
 LLMs
+localizability
 lockfile
 lockfiles
 Lodash
@@ -686,6 +703,7 @@ Maniphest
 Markdown
 markdownlint
 Marketo
+Mastodon
 matcher
 matchers
 Matomo
@@ -758,18 +776,20 @@ negatable
 Neovim
 Netlify
 Netsuite
+neurodevelopment
+neurodevelopmental
 neurodivergent
 neurodiverse
 neurodiversity
 neurotypical
 NGINX
 ngrok
+Nira
 njsscan
 Nokogiri
 nosniff
 noteable
 noteables
-notetakers
 npm
 NSOs
 NuGet
@@ -829,7 +849,6 @@ passwordless
 Pathfactory
 Patroni
 PBPs
-PCLs
 PDFs
 PEOs
 performant
@@ -929,6 +948,7 @@ Rdoc
 reachability
 readme
 Realplayer
+rearchitecting
 reauthenticate
 reauthenticated
 reauthenticates
@@ -976,10 +996,14 @@ repmgrd
 repo
 repos
 reposts
+reprioritize
+reprioritized
+reprioritizing
 repurpose
 repurposes
 repurposing
 repurposing
+reputational
 requestee
 requesters
 requeue
@@ -1077,7 +1101,9 @@ shortcodename
 shortcodes
 Sidekiq
 Sigstore
+Sijbrandij
 Silverlight
+Siri
 Sisense
 Sitespeed
 skippable
@@ -1091,10 +1117,10 @@ Slony
 SLOs
 smartcard
 smartcards
+SMAUs
 SMEs
 snake_case
 snake_cased
-Snapcraft
 snapshotting
 Snowplow
 Snyk
@@ -1119,7 +1145,6 @@ SSGs
 Stackdriver
 Stackprof
 stacktrace
-stageless
 starrer
 starrers
 Stickermule
@@ -1201,6 +1226,7 @@ taskscaler
 tcpdump
 teardown
 templated
+Tesorio
 Thanos
 thoughtbot
 throughputs
@@ -1216,6 +1242,7 @@ timelogs
 timesheet
 timesheets
 Tiptap
+TMRGs
 ToDo
 todos
 tokenizer
@@ -1232,6 +1259,7 @@ tooltips
 touchpoint
 touchpoints
 transactionally
+transcreation
 transformative
 transpile
 transpiled
@@ -1271,6 +1299,7 @@ unassigning
 unassigns
 unban
 unbans
+unblocker
 uncached
 uncheck
 unchecked
@@ -1280,7 +1309,6 @@ uncomment
 uncommented
 uncommenting
 unconference
-unconfident
 uncordon
 underperform
 underperformance
@@ -1297,6 +1325,7 @@ unfollowed
 unfollows
 Unicorn
 unindexed
+unintuitive
 unlink
 unlinking
 unlinks
@@ -1309,7 +1338,6 @@ unmerges
 unmerging
 unmocked
 unmoderated
-unmute
 unoptimize
 unoptimized
 unoptimizes
@@ -1317,6 +1345,7 @@ unoptimizing
 unparsable
 unpatched
 unpause
+unpredictabilities
 unprioritized
 unprotect
 unprotected

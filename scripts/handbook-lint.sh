@@ -1,3 +1,5 @@
+#! /bin/bash
+
 # Define colors and styles
 normal="\033[0m"
 bold="\033[1m"
@@ -16,11 +18,12 @@ fi
 # diff differently depending on if CI environment, fork, or local
 if [ -n "$CI_PROJECT_ID" ]; then
     # if CI_PROJECT_ID exists, we're in a CI environment
-    if [ "CI_PROJECT_ID" == "42817607" ]; then
+    if [ "$CI_PROJECT_ID" == "42817607" ]; then
         # if CI_PROJECT_ID matches the current project, then it's not a fork
         BRANCH_POINT=$(git merge-base origin/$CI_MERGE_REQUEST_TARGET_BRANCH_NAME origin/$CI_MERGE_REQUEST_SOURCE_BRANCH_NAME)
         git diff --name-only --diff-filter=A $BRANCH_POINT origin/$CI_MERGE_REQUEST_SOURCE_BRANCH_NAME  | grep -E '\.(png|jpg|jpeg|gif|svg)$' | sort | uniq > /tmp/IMAGES-added
         git diff --name-only --diff-filter=d $BRANCH_POINT origin/$CI_MERGE_REQUEST_SOURCE_BRANCH_NAME | grep -E '\.(png|jpg|jpeg|gif|svg)$' | sort | uniq > /tmp/IMAGES
+        git diff --name-only --diff-filter=d $BRANCH_POINT origin/$CI_MERGE_REQUEST_SOURCE_BRANCH_NAME | grep -vE '\.(png|jpg|jpeg|gif|svg|md)$' | sort | uniq > /tmp/SIZE-check
         git diff --name-only --diff-filter=A $BRANCH_POINT origin/$CI_MERGE_REQUEST_SOURCE_BRANCH_NAME  | grep -E '\.(mov|mp4|m4v|avi|mkv|ogg|webm)$' | sort | uniq > /tmp/VIDEOS
     else
         # assume otherwise it's a fork
@@ -34,12 +37,14 @@ if [ -n "$CI_PROJECT_ID" ]; then
         printf "CI_MERGE_REQUEST_TARGET_BRANCH_NAME: $CI_MERGE_REQUEST_TARGET_BRANCH_NAME\nCI_MERGE_REQUEST_SOURCE_PROJECT_URL: $CI_MERGE_REQUEST_SOURCE_PROJECT_URL\nCI_MERGE_REQUEST_SOURCE_BRANCH_NAME: $CI_MERGE_REQUEST_SOURCE_BRANCH_NAME\nBRANCH_POINT: $BRANCH_POINT\n"
         git diff --name-only --diff-filter=A $BRANCH_POINT fork/$CI_MERGE_REQUEST_SOURCE_BRANCH_NAME  | grep -E '\.(png|jpg|jpeg|gif|svg)$' | sort | uniq > /tmp/IMAGES-added
         git diff --name-only --diff-filter=d $BRANCH_POINT fork/$CI_MERGE_REQUEST_SOURCE_BRANCH_NAME | grep -E '\.(png|jpg|jpeg|gif|svg)$' | sort | uniq > /tmp/IMAGES
+        git diff --name-only --diff-filter=d $BRANCH_POINT fork/$CI_MERGE_REQUEST_SOURCE_BRANCH_NAME | grep -vE '\.(png|jpg|jpeg|gif|svg|md)$' | sort | uniq > /tmp/SIZE-check
         git diff --name-only --diff-filter=A $BRANCH_POINT fork/$CI_MERGE_REQUEST_SOURCE_BRANCH_NAME  | grep -E '\.(mov|mp4|m4v|avi|mkv|ogg|webm)$' | sort | uniq > /tmp/VIDEOS
    fi
 elif [ -n "$1" ]; then
     # if $1 exists, locally specified a branch to check against
     git diff --name-only --diff-filter=A main...$1 | grep -E '\.(png|jpg|jpeg|gif|svg)$' | sort | uniq > /tmp/IMAGES-added
     git diff --name-only --diff-filter=d main...$1 | grep -E '\.(png|jpg|jpeg|gif|svg)$' | sort | uniq > /tmp/IMAGES
+    git diff --name-only --diff-filter=d main...$1 | grep -vE '\.(png|jpg|jpeg|gif|svg|md)$' | sort | uniq > /tmp/SIZE-check
     git diff --name-only --diff-filter=A main...$1 | grep -E '\.(mov|mp4|m4v|avi|mkv|ogg|webm)$' | sort | uniq > /tmp/VIDEOS
 else
     echo "No branch specified. If testing locally, specify source branch to check against main."
@@ -61,8 +66,8 @@ $markdownlinjson
 [
   {
     "type": "issue",
-    "check_name": "IMAGES/Incorrect Path",
-    "description": "The image \`$image\` is not in the /static/images directory. Please move it to the correct location.",
+    "check_name": "IMAGES Incorrect Path",
+    "description": "The image \`$image\` is not in the /static/images directory. Please check the rules link for more information.",
     "severity": "minor",
     "fingerprint": "$fingerprint",
     "location": {
@@ -70,7 +75,8 @@ $markdownlinjson
       "lines": {
         "begin": 0
       }
-    }
+    },
+    "link": "https://handbook.gitlab.com/docs/markdown-guide/#images"
   }
 ]
 EOF
@@ -97,22 +103,61 @@ $markdownlinjson
 [
   {
     "type": "issue",
-    "check_name": "IMAGES/Too Large",
+    "check_name": "IMAGES Too Large",
     "description": "The image \`$image\` is $IMAGE_SIZE KB, which is more than 500KB. Please make it smaller.",
-    "severity": "minor",
+    "severity": "major",
     "fingerprint": "$fingerprint",
     "location": {
       "path": "$image",
       "lines": {
         "begin": 0
       }
-    }
+    },
+    "link": "https://handbook.gitlab.com/docs/markdown-guide/#images"
   }
 ]
 EOF
   fi
 done < /tmp/IMAGES
 if [[ $LARGE_IMAGE_PATHS != "" ]]; then
+  printf "%b" " ${red}${bold}Failed.${normal}\n"
+else
+  printf "%b" " ${green}${bold}Success.${normal}\n"
+fi
+
+## Other files check
+# Check if non-image and MD files are under 15MB
+printf "%b" "${bold}Checking that non-image and markdown files are less than 15MB in size...${normal}"
+LARGE_FILE_PATHS=""
+while read -r file; do
+  FILE_SIZE=$(du -k "$file" | cut -f 1)
+  if [[ FILE_SIZE -ge 15000 ]]; then
+    ERROR_FOUND=true
+    LARGE_FILE_PATHS="$LARGE_FILE_PATHS- $file\n"
+    fingerprint=$(sha256sum "$file")
+    markdownlinjson=$(cat handbook-codequality.json)
+    cat << EOF | jq -s 'add' - > handbook-codequality.json
+$markdownlinjson
+[
+  {
+    "type": "issue",
+    "check_name": "FILES Too Large",
+    "description": "The file \`$file\` is $IMAGE_SIZE KB, which is more than 15MB. Please make it smaller.",
+    "severity": "major",
+    "fingerprint": "$fingerprint",
+    "location": {
+      "path": "$file",
+      "lines": {
+        "begin": 0
+      }
+    },
+    link: "https://handbook.gitlab.com/docs/markdown-guide/#videos"
+  }
+]
+EOF
+  fi
+done < /tmp/SIZE-check
+if [[ $LARGE_FILE_PATHS != "" ]]; then
   printf "%b" " ${red}${bold}Failed.${normal}\n"
 else
   printf "%b" " ${green}${bold}Success.${normal}\n"
@@ -133,7 +178,7 @@ $markdownlinjson
 [
   {
     "type": "issue",
-    "check_name": "VIDEOS/Incorrect Path",
+    "check_name": "VIDEOS Incorrect Path",
     "description": "The video \`$video\` is not in the /static/videos directory. Please move it to the correct location.",
     "severity": "minor",
     "fingerprint": "$fingerprint",
@@ -142,7 +187,8 @@ $markdownlinjson
       "lines": {
         "begin": 0
       }
-    }
+    },
+    link: "https://handbook.gitlab.com/docs/markdown-guide/#videos"
   }
 ]
 EOF
@@ -174,9 +220,9 @@ $markdownlinjson
 [
   {
     "type": "issue",
-    "check_name": "CODEOWNERS/Missing file",
+    "check_name": "CODEOWNERS.Missing file",
     "description": "The file \`$ENTRY\` is listed in CODEOWNERS but the file itself is missing.  Please remove this CODEOWNER entry",
-    "severity": "minor",
+    "severity": "major",
     "fingerprint": "$fingerprint",
     "location": {
       "path": ".gitlab/CODEOWNERS",
@@ -210,7 +256,7 @@ $markdownlinjson
 [
   {
     "type": "issue",
-    "check_name": "CODEOWNERS/Duplicate Entry",
+    "check_name": "CODEOWNERS.Duplicate Entry",
     "description": "\`$d\` is listed in CODEOWNERS more than once.  Please remove any duplicate CODEOWNER entries",
     "severity": "minor",
     "fingerprint": "$fingerprint",
@@ -247,7 +293,7 @@ $markdownlinjson
 [
   {
     "type": "issue",
-    "check_name": "CODEOWNERS/Bad ownership",
+    "check_name": "CODEOWNERS.Bad ownership",
     "description": "The entry for \`$FILE\` doesn't have the handbook and egroup groups attached to it.  Please add them.",
     "severity": "major",
     "fingerprint": "$fingerprint",
@@ -291,9 +337,9 @@ $markdownlinjson
 [
   {
     "type": "issue",
-    "check_name": "CODEOWNERS/Controlled Document Missing",
+    "check_name": "CODEOWNERS Controlled Document Missing",
     "description": "The file \`$f\` has identified itself as a controlled document in the front matter but is missing an entry in the CODEOWNERS file",
-    "severity": "minor",
+    "severity": "major",
     "fingerprint": "$fingerprint",
     "location": {
       "path": "$f",
@@ -328,7 +374,7 @@ $markdownlinjson
 [
   {
     "type": "issue",
-    "check_name": "CODEOWNERS/Missing front matter",
+    "check_name": "CODEOWNERS Missing front matter",
     "description": "The file \`$f\` is listed as a controlled document in CODEOWNERS but is missing the front matter to mark it as a controlled document",
     "severity": "minor",
     "fingerprint": "$fingerprint",
@@ -352,14 +398,19 @@ fi
 rm /tmp/CODEOWNERS
 
 if [[ $ERROR_FOUND == "true" ]]; then
-  printf "%b" "\n${bold}${red}Linting Failed!${normal}${bold} - There are a number of issues with CODEOWNERS and/on Controlled Documents.${normal}\n\n"
+  printf "%b" "\n${bold}${red}Linting Failed!${normal}${bold} - There are a number of issues with the proposed changes.${normal}\n\n"
   if [[ $INCORRECT_IMAGE_PATHS != "" ]]; then
-    printf "%b" "The following images are being added, but are not located in the static/images folder:\n\n"
+    printf "%b" "The following images are being added, but are not located in the static/images folder.\n\n"
     printf "%b" "$INCORRECT_IMAGE_PATHS\n"
+    printf "%b" "${yellow}See https://handbook.gitlab.com/docs/markdown-guide/#images for more information.${normal}\n"
   fi
   if [[ $LARGE_IMAGE_PATHS != "" ]]; then
     printf "%b" "The following images are being added, but are larger than 500KB each:\n\n"
     printf "%b" "$LARGE_IMAGE_PATHS\n"
+  fi
+  if [[ $LARGE_FILE_PATHS != "" ]]; then
+    printf "%b" "The following files are larger than 15MB each:\n\n"
+    printf "%b" "$LARGE_FILE_PATHS\n"
   fi
   if [[ $INCORRECT_VIDEO_PATHS != "" ]]; then
     printf "%b" "The following videos are being added, but are not located in the static/videos folder:\n\n"
@@ -387,5 +438,5 @@ if [[ $ERROR_FOUND == "true" ]]; then
   fi
   exit 1
 else
-    printf "%b" "\n${green}Success!${normal} - No issues found with CODEOWNERS or Controlled Documents\n"
+    printf "%b" "\n${green}Success!${normal} - No issues found\n"
 fi

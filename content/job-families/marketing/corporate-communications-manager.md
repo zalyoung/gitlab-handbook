@@ -338,8 +338,8 @@ The VP, Corporate Communications is a grade 12.
 - Outstanding written and verbal communications skills with the ability to explain and translate complex technology concepts into simple and intuitive communications.
 - Uses data to measure results and inform decision making and strategy development.
 - Comfortable with transparency in our communications, internally and externally
-- You share our values (<https://handbook.gitlab.com/handbook/values/>), and work in accordance with those values.
-Leadership (<https://about.gitlab.com/company/team/structure/#director-group>) at GitLab
+- You share [our values](/handbook/values/), and work in accordance with those values.
+[Leadership](/handbook/company/structure/#director-group) at GitLab
 Ability to use GitLab
 
 ## Career Ladder

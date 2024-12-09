@@ -35,7 +35,7 @@ This is why the program is worth the extra overhead for the CEO and [EBA team](/
 
 ### Naming of the program
 
-This role is called a [CEO Shadow](https://feld.com/archives/2015/03/ceo-shadowing.html) to make it clear to external people why a shadow is in a meeting.
+This role is called a [CEO Shadow](https://feld.com/archives/2015/03/ceo-shadowing/) to make it clear to external people why a shadow is in a meeting.
 
 ### About the CEO Shadow Program
 
@@ -131,27 +131,12 @@ For those with regular commitments, look for shorter weeks or timezone variation
 
 | Start date | End date | See one | Teach one | Schedule Notes |
 | ---------- | -------- | ---- | ----- | --------- |
-| 2024-09-16 | 2024-09-20 | [Kyle Yetter](https://gitlab.com/kyetter) - Senior Backend Engineer, Geo | [Hannah Sutor](https://gitlab.com/hsutor) - Principal Product Manager | REMOTE - PT |
-| 2024-09-23 | 2024-09-27 | VP DIRECTS ONLY | VP DIRECTS ONLY  | In person - San Francisco |
-| 2024-09-30 | 2024-10-04 | [Nupur Sharma](https://gitlab.com/nsharma2), Solutions Architect | [Kyle Yetter](https://gitlab.com/kyetter) - Senior Backend Engineer, Geo | REMOTE - PT |
-| 2024-10-07 | 2024-10-11 | OPEN | [Nupur Sharma](https://gitlab.com/nsharma2), Solutions Architect | REMOTE - PT |
-| 2024-10-14 | 2024-10-18 | OPEN| OPEN | REMOTE - PT - very limited week due to multiple conferences |
-| 2024-10-21 | 2024-10-25 | [Dan Rhodes](https://gitlab.com/dfrhodes) - Managing Legal Counsel | OPEN | REMOTE - PT |
-| 2024-10-28 | 2024-11-01 | [Naheil McAvinue](https://gitlab.com/nmcavinue) - Director, Data & Analytics | [Dan Rhodes](https://gitlab.com/dfrhodes) - Managing Legal Counsel | REMOTE - PT |
-| 2024-11-04 | 2024-11-08 | OPEN | [Naheil McAvinue](https://gitlab.com/nmcavinue) - Director, Data & Analytics | REMOTE - PT |
-| 2024-11-04 | 2024-11-08 | OPEN | OPEN | REMOTE - Possible APAC Rotation TBC |
-| 2024-11-11 | 2024-11-15 | OPEN | OPEN | REMOTE - Possible APAC Rotation TBC |
-| 2024-11-18 | 2024-11-22 | OPEN | OPEN | REMOTE - PT |
-| 2024-11-25 | 2024-11-29 | [Francesca Gianfiglio](https://gitlab.com/fgianfiglio) - Senior Business Development Representative EMEA | OPEN | REMOTE - PT |
-| 2024-12-02 | 2024-12-06 | OPEN |  [Francesca Gianfiglio](https://gitlab.com/fgianfiglio) - Senior Business Development Representative EMEA  | REMOTE - PT |
-| 2024-12-09 | 2024-12-13 | VP DIRECTS ONLY | VP DIRECTS ONLY | REMOTE - PT |
+| 2024-11-25 | 2024-11-29 | NO CEO SHADOW | NO CEO SHADOW | CEO TRAVELING |
+| 2024-12-02 | 2024-12-06 | NO CEO SHADOW | NO CEO SHADOW | CEO TRAVELING |
+| 2024-12-09 | 2024-12-13 | NO CEO SHADOW | NO CEO SHADOW | CEO TRAVELING |
 | 2024-12-16 | 2024-12-20 | NO CEO SHADOW | NO CEO SHADOW | CEO TRAVELING |
 | 2024-12-23 | 2024-12-27 | NO CEO SHADOW | NO CEO SHADOW | CEO TRAVELING |
 | 2024-12-30 | 2025-01-03 | NO CEO SHADOW | NO CEO SHADOW | CEO PTO |
-| 2025-01-06 | 2025-01-10 | OPEN | OPEN | REMOTE - PT |
-| 2025-01-13 | 2025-01-17 | OPEN | OPEN | REMOTE - PT |
-| 2025-01-20 | 2025-01-24 | OPEN | OPEN | REMOTE - PT |
-| 2025-01-27 | 2025-01-31 | OPEN | OPEN | REMOTE - PT |
 
 If you have questions regarding the planned rotation schedule, please ping the [EBA to the CEO](/handbook/eba/#executive-business-administrator-team) and [Chief of Staff to the CEO](/job-families/chief-executive-officer/chief-of-staff/) in the `#ceo-shadow` Slack channel. The CoS and EBA to the CEO manage the rotation schedule. Please do not add new dates to the schedule when adding in your rotation. The CEO's schedule is subject to constant change and your rotation may need to be rescheduled.
 
@@ -161,7 +146,7 @@ If you have questions regarding the planned rotation schedule, please ping the [
 
 1. This is not a performance evaluation.
 1. Plan to observe and ask questions.
-1. Don't plan to do any of your usual work. Prepare your team as if you were on vacation. In Slack, change your status noting who will be covering for you. 
+1. Don't plan to do any of your usual work. Prepare your team as if you were on vacation. In Slack, change your status noting who will be covering for you.
 1. Be ready to add a number of [handbook](/handbook/about/handbook-usage/) updates during your shadow period.
 1. Participating in the shadow program is a privilege where you will be exposed to confidential information, including having access to material non-public information (MNPI). Participation in the shadow program and access to such information is underpinned by trust in the shadows to honor the confidentiality of topics being discussed and information shared. The continuation of this program is entirely dependent on shadows past, present, and future honoring this trust placed in them. As stated in GitLab's [Insider Trading Policy](https://drive.google.com/file/d/184tkDZaPmZAxwQRQ5BwBv2JpfTWbWmBW/view), participants in the shadow program will be considered Designated Insiders because shadows have access to MNPI. Each participant of the CEO Shadow Program or other E-Group level shadow program will be added to the Designated Insider list for the quarter in which they are program participants. Each shadow will be removed from the Designated Insider list once the window has closed for the same quarter they participate as a shadow only if that is the sole reason the participant is on the Designated Insider list. For additional information, please see the [Designated Insider Pre-Clearance Process and FAQs](https://docs.google.com/document/d/1mcBtnfGbv4jSsJUklMQYyj2052MBHe4Lf9RkE-B9yvA/edit#).
 1. Give feedback to and receive feedback from the CEO. Participants in the shadow program are encouraged to deliver [candid feedback](/handbook/people-group/guidance-on-feedback/#giving-feedback). Examples of this are to the CEO and to the world about the company if they make a blog post or video. Shadows maintaining confidentiality during the program is separate from shadows being able to provide candid feedback.
@@ -349,7 +334,7 @@ To use the script:
 
 Press `Ctrl+C` if you need to cancel the alarm. You may keep the terminal window running indefinitely so that it is at your finger tips throughout your program duration.
 
-A handy App for time keeping is Senzillo's "Speech Timer for Talks".  It is available for [iOS](https://apps.apple.com/us/app/speech-timer-for-talks/id979433325) and [Android](https://play.google.com/store/apps/details?id=com.hg.SpeechTimer&hl=en&gl=US). Compared to other apps, this timer is easy to setup for the meeting warning levels and to switch between meeting time lengths. It costs $1 to have 3 warning levels - purchasing the application is not required if you just wish to have one warning visualization and watch the timer for the others.
+For a no-code solution, previous Shadows have used free online timers/alarms like https://vclock.com/. Shadows may choose to keep the timer visible in a separate window, placed alongside their Zoom window. Shadows can use tools like this to set an alarm for a 5-minute notification, prompting the Shadow to send a 5-minute message to the Zoom chat and reset the alarm for the final 1-minute notification.
 
 #### Promote Communication Best Practices
 
@@ -390,7 +375,7 @@ Immediately following meetings, score the CEO on overall positivity score from 1
 
 If your score for a meeting was below a 5, immediately following the meeting, send Sid a Slack DM with your score and the reasoning.
 
-At the end of the day, post the score for each meeting to the `#ceo-shadow-private` Slack channel and `@` mention the CEO.
+If you do not report a score for a meeting, it is assumed that your score is `5`.
 
 Score definitions:
 
@@ -800,7 +785,7 @@ CEO Shadow Program alumni are welcome to join the `#ceo-shadow-alumni` Slack cha
 | 2022-03-07 | 2022-03-18 | [Byron Boots](https://gitlab.com/byronboots) | Senior Security Asssurance Engineer | |
 | 2022-03-14 | 2022-03-25 | [Miles Russell](https://gitlab.com/mdrussell) | Sr. Analytics Engineer |  |
 | 2022-03-21 | 2022-04-01 | [Adam Vesey](https://gitlab.com/avesey) | Sr. Legal Counsel |  |
-| 2022-04-11 | 2022-04-22 | [Nikki Silverberg](https://gitlab.com/nikkiroth) | Sr. Marketing Operations Manager | [Interview with Sid: Meeting Preparation and Efficiency](http://www.youtube.com/watch?v=nn1Mjh7j-1I) |
+| 2022-04-11 | 2022-04-22 | [Nikki Silverberg](https://gitlab.com/nikkiroth) | Sr. Marketing Operations Manager | [Interview with Sid: Meeting Preparation and Efficiency](https://www.youtube.com/watch?v=nn1Mjh7j-1I) |
 | 2022-04-18 | 2022-04-29 | [David Egan](https://gitlab.com/degan) | Senior Data Analyst, Marketing | |
 | 2022-04-25 | 2022-04-29 | [Janis Altherr](https://gitlab.com/janis) | Fullstack Engineer, Incubation Engineering | |
 | 2022-05-30 | 2022-06-10 | [Victor Brew](https://gitlab.com/Vbrew) | Pub Sec ISR | |
@@ -844,3 +829,8 @@ CEO Shadow Program alumni are welcome to join the `#ceo-shadow-alumni` Slack cha
 | 2024-08-12 | 2024-08-21 | [Emily Plotkin](https://gitlab.com/emilyplotkin) | Sr Director, Legal - Employment | |
 | 2024-08-26 | 2024-09-06 | [Sam Wiskow](https://gitlab.com/swiskow) | Senior Product Manager, Delivery & Scalability | |
 | 2024-09-02 | 2024-09-13 | [Vladimir Dzalbo](https://gitlab.com/dzalbo) | Senior Manager, Solutions Architecture, EMEA | |
+| 2024-09-09 | 2024-09-20 | [Hannah Sutor](https://gitlab.com/hsutor) | Principal Product Manager | |
+| 2024-09-16 | 2024-10-04 | [Kyle Yetter](https://gitlab.com/kyetter) | Senior Backend Engineer, Geo | |
+| 2024-09-30 | 2024-10-11 | [Nupur Sharma](https://gitlab.com/nsharma2) | Solutions Architect | |
+| 2024-10-21 | 2024-11-01 | [Dan Rhodes](https://gitlab.com/dfrhodes) | Senior Managing Legal Counsel | |
+| 2024-10-28 | 2024-11-22 | [Naheil McAvinue](https://gitlab.com/nmcavinue) | Director, Data & Analytics | |

@@ -17,7 +17,7 @@ The password standard sets the requirements for constructing secure passwords an
 Ideally you memorize one strong password - hence the name - and let 1Password generate and manage strong, unique passwords
 for every site for which you have a login.
 
-GitLab requires all team members to use [Okta](/handbook/business-technology/okta/) as a primary entry and access point for SaaS and other company applications while utilizing 1Password for password management. GitLab utilizes Okta for SAML/SSO and passwordless authentication for many applications, so the need to store passwords in a password manager will diminish over time.
+GitLab requires all team members to use [Okta](/handbook/it/okta/) as a primary entry and access point for SaaS and other company applications while utilizing 1Password for password management. GitLab utilizes Okta for SAML/SSO and passwordless authentication for many applications, so the need to store passwords in a password manager will diminish over time.
 
 If you want to use 1Password for your private passwords not related to your work at GitLab, [there are a few options](#1password-for-your-private-passwords).
 
@@ -101,12 +101,12 @@ account up to one of the native apps.
 
 #### Adding the GitLab team to a 1Password app
 
-This guide will cover setting up the [macOS app](https://agilebits.com/downloads). It's their lead platform and is
+This guide will cover setting up the [macOS app](https://1password.com/downloads/mac). It's their lead platform and is
 the most up-to-date. These instructions may or may not work for the Windows
 version. If you use 1Password 6 without a 1Password.com account, make note of
 [this](#updating-1password-to-support-the-teams-feature).
 
-1. Download and install the 1Password [macOS app](https://agilebits.com/downloads).
+1. Download and install the 1Password [macOS app](https://1password.com/downloads/mac).
 1. Launch the app.
 1. Click "Sign in to your 1Password account" button. If there is no such button
 please follow the instructions for [updating 1Password](#updating-1password-to-support-the-teams-feature).
@@ -169,7 +169,7 @@ People may request access to other vaults such as shared vaults that their teams
 
 ### Browser extension
 
-Go to [Browser extensions](https://agilebits.com/onepassword/extensions) and
+Go to [Browser extensions](https://1password.com/downloads/mac#browsers) and
 install the extension for whatever browser you're using. You *should not* need a
 beta version here.
 
@@ -326,7 +326,7 @@ To enable TOTP for a saved account:
 
 Please refer to demo video [1password TOTP setup](https://support.1password.com/one-time-passwords/)
 
-Please refer to the [1Password blog](https://blog.agilebits.com/2015/01/26/totp-for-1password-users/) for more information on how TOTP works.
+Please refer to the [1Password blog](https://blog.1password.com/totp-for-1password-users/) for more information on how TOTP works.
 
 If scanning the QR code using the "transparent window" with the 1Password Mac
 app fails on a recent macOS, please consider using the 1Password iOS app instead.
@@ -340,7 +340,7 @@ There may be cases where TOTP might be used with a non-GitLab account. If you ha
 
 ### Passkeys
 
-1Password has implemented a feature supporting for Passkeys, which are the credentials used in FIDO2/WebAuthn on sites such as [Okta](https://adamhuss-master-patch-a4f4.about.gitlab-review.app/handbook/business-technology/okta/#adding-1password-passkey). This feature can allow passwordless sign in to sites that require username and password. Passkeys can also serve as a type of MFA. Passkeys store a public key in the app and a private key within the 1Password vault.
+1Password has implemented a feature supporting for Passkeys, which are the credentials used in FIDO2/WebAuthn on sites such as [Okta](/handbook/business-technology/okta/#adding-1password-passkey). This feature can allow passwordless sign in to sites that require username and password. Passkeys can also serve as a type of MFA. Passkeys store a public key in the app and a private key within the 1Password vault.
 
 Setting up Passkey is simple. Open a login page or select the sign in button on the website or app. You'll typically see a prompt to complete an authentication step, usually with Biometrics, or YubiKey. You may see something like the image below.
 
@@ -403,7 +403,7 @@ Once you have enabled Travel Mode open 1Password on each device you will be taki
 with you so that it can sync with 1Password.com and remove any vaults that cannot
 be used while traveling.
 
-For more information on Travel Mode and how it works, see the [AgileBits blog](https://blog.agilebits.com/2017/05/18/introducing-travel-mode-protect-your-data-when-crossing-borders/).
+For more information on Travel Mode and how it works, see the [AgileBits blog](https://blog.1password.com/introducing-travel-mode-protect-your-data-when-crossing-borders/).
 
 ### Securing Docker Registry User Credentials
 

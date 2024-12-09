@@ -278,14 +278,14 @@ Add Values emoji reactions to thank you messages in the [`#thanks` slack channel
 or feel free to use them in GitLab.com, other slack channels and
 social media, when you see alignment to our values: [GitLab's values](/handbook/values/).
 
-| Emoji                        | Custom tanuki emoji      | Meaning                           |
+| Emoji                        | Custom values emoji      | Meaning                           |
 | ---------------------------- | ------------------------ | --------------------------------- |
-| `:handshake:`                | `:collaboration-tanuki:` | Collaboration                     |
-| `:chart_with_upwards_trend:` | `:results-tanuki:`       | Results                           |
-| `:stopwatch:`                | `:efficiency-tanuki:`    | Efficiency                        |
-| `:globe_with_meridians:`     | `:diversity-tanuki:`     | Diversity Inclusion and Belonging |
-| `:footprints:`               | `:iteration-tanuki:`     | Iteration                         |
-| `:eye:`                     | `:transparency-tanuki:`  | Transparency                      |
+| `:handshake:`                | `:collaboration-value:`  | Collaboration                     |
+| `:chart_with_upwards_trend:` | `:results-value:`        | Results for Customers             |
+| `:stopwatch:`                | `:efficiency-value:`     | Efficiency                        |
+| `:globe_with_meridians:`     | `:diversity-value:`      | Diversity Inclusion and Belonging |
+| `:footprints:`               | `:iteration-value:`      | Iteration                         |
+| `:eye:`                      | `:transparency-value:`   | Transparency                      |
 
 ![Values emoji](/images/handbook/values-emoji.png)
 
@@ -745,7 +745,7 @@ For example:
    Interrupting can be done by clicking "Raise Hand" in Zoom, by physically raising your hand on video, or by interrupting verbally.
    As a speaker, allow yourself to be interrupted.
    As a listener, advocate (verbally if necessary) for those who have raised their hand.
-   Just like in-person meetings be cognizant of when, who, and how you interrupt, we don't want [manterrupting](http://time.com/3666135/sheryl-sandberg-talking-while-female-manterruptions/).
+   Just like in-person meetings be cognizant of when, who, and how you interrupt, we don't want [manterrupting](https://time.com/3666135/sheryl-sandberg-talking-while-female-manterruptions/).
 1. We end on the scheduled time. It might feel rude to end a meeting, but you're actually allowing all attendees to be on time for their next meeting.
 1. Do not use the chat of products like Zoom to communicate during the call, use the linked document instead. Zoom Chat has been configured for a 30 day retention. This allows everyone to contribute additional questions, answers, and links in the relevant place. It also makes it easier for people in conflicting timezones to contribute questions before the call and makes it easier to review questions and answers after the call, which can be before watching the recording.
 1. You do not need to remind other people to vocalize their questions. Just say their name and a keyword of the question, e.g. 'Jay about credit-cards'.
@@ -871,7 +871,7 @@ GitLab has a specific process to follow in crisis situations to ensure effective
 
 ## Presentations
 
-1. All presentations are made in Google Slides using [our templates](/handbook/tools-and-tips/#updating-your-existing-slide-deck-theme).
+1. All presentations are made in Google Slides using [our templates](/handbook/tools-and-tips/#google-slides).
 1. Please allow anyone at GitLab to edit the presentation (preferred) or at least comment on the presentation.
 1. If the content can be public use File > Publish to the web > Publish to get a URL and paste that in the speaker notes of the first slide (commonly the title slide).
 1. The title of every slide should be the message you want the audience to take away, not the subject matter. So use 'Our revenue more than doubled' instead of 'Revenue growth'.
@@ -905,8 +905,8 @@ As you're creating external or business content for GitLab, please refer to the 
 
 This list offers additional guidance for written communication at GitLab:
 
-1. Do not use rich text, it makes it hard to copy/paste. Use [Markdown](/docs/markdown-guide/) to format text that is stored in a Git repository. In Google Docs, use "Normal text" using the style/heading/formatting dropdown and paste without formatting.
-1. Read our [Markdown Style Guide](/docs/markdown-guide/) for more information when using Markdown.
+1. Do not use rich text, it makes it hard to copy/paste. Use [Markdown](https://handbook.gitlab.com/docs/markdown-guide/) to format text that is stored in a Git repository. In Google Docs, use "Normal text" using the style/heading/formatting dropdown and paste without formatting.
+1. Read our [Markdown Style Guide](https://handbook.gitlab.com/docs/markdown-guide/) for more information when using Markdown.
 1. Do not use ALL CAPS because it [feels like shouting](https://en.wikipedia.org/wiki/All_caps#Association_with_shouting). However, there is the [`#all-caps` Slack channel](https://gitlab.slack.com/archives/C01BC085AVB) for your good-natured shouting needs.
 1. We use Unix style (lf) line endings, not Windows style (crlf), please ensure `*.md text eol=lf` is set in the repository's `.gitattributes` and run `git config --global core.autocrlf input` on your client.
 1. When specifying measurements, please include both Metric and Imperial equivalents.
@@ -1156,7 +1156,7 @@ There is a lot of information pertaining to Slack, as it is a critical part of G
 
 **Note:** We don't use the term *private message*, because these *direct messages* are not inherently *private* like a phone call or private letter. The messages are potentially accessible by Workspace admins or via Backups. Slack refers to these types of messages as [direct messages themselves](https://slack.com/intl/en-de/help/articles/212281468-What-is-a-direct-message).
 
-When using Slack for work-related purposes, please avoid direct messages. [Direct messages discourage collaboration](https://web.archive.org/web/20140603034414/http://blog.flowdock.com/2014/04/30/beware-of-private-conversations/). You might actually be contacting the wrong person, and they cannot easily redirect you to the right person. If the person is unavailable at the moment, it is less efficient because other people cannot jump in and help. Use a public channel and mention the person or group you want to reach. This ensures it is easy for other people to chime in, involve other people if needed, and learn from whatever is discussed.
+When using Slack for work-related purposes, please avoid direct messages. [Direct messages discourage collaboration](https://web.archive.org/web/20140603034414/https://blog.flowdock.com/2014/04/30/beware-of-private-conversations/). You might actually be contacting the wrong person, and they cannot easily redirect you to the right person. If the person is unavailable at the moment, it is less efficient because other people cannot jump in and help. Use a public channel and mention the person or group you want to reach. This ensures it is easy for other people to chime in, involve other people if needed, and learn from whatever is discussed.
 
 If someone sends you a work-related direct message, it is okay to let them know you'd like to take the conversation to a public channel, linking to this section of the handbook. The process might look something like:
 

@@ -165,7 +165,7 @@ Make sure to join the [#macOS](https://gitlab.slack.com/archives/CDKA4RCE7) Slac
 | Date/Time | [Mini Calendar](https://apps.apple.com/us/app/mini-calendar/id1088779979) | Mini Calendar is a lightweight application, which helps to access monthly calendar quickly and easily. |
 | Date/Time | [Dato](https://apps.apple.com/us/app/dato/id1470584107) ~$3 USD | System menu bar date and time replacement with current time in various time zones and calendar events |
 | Date/Time | [Status Clock](https://itunes.apple.com/us/app/status-clock/id552792489) | Status Clock places a second clock on the menu bar for showing the UTC time. Perfect for anyone doing sysadmin work or tasks that require referencing UTC (or any secondary timezone). |
-| Desktop background | [Downlink](http://downlinkapp.com/) | Every 20 minutes (or every hour, you pick), Downlink updates your desktop background with the freshest images of Earth. |
+| Desktop background | [Downlink](https://downlinkapp.com/) | Every 20 minutes (or every hour, you pick), Downlink updates your desktop background with the freshest images of Earth. |
 | Media | [BeardedSpice](https://beardedspice.github.io/) | BeardedSpice is a menubar application for macOS that allows you to control web based media players and some native apps with the media keys found on macOS keyboards. |
 | Menubar | [Bartender](https://www.macbartender.com/) | Lets you organize your menu bar icons, by hiding them, rearranging them, show hidden items with a click or keyboard shortcut and have icons show when they update. |
 | Monitoring | [iStat Menus](https://bjango.com/mac/istatmenus/) | An advanced macOS system monitor for your menubar |
@@ -179,7 +179,7 @@ Make sure to join the [#macOS](https://gitlab.slack.com/archives/CDKA4RCE7) Slac
 | System control | [Macs Fan Control](https://crystalidea.com/macs-fan-control) | Control fans on macOS computers |
 | System control | [ToothFairy](https://apps.apple.com/us/app/toothfairy/id1191449274) | If clicking on 2 things to connect your AirPods is too much, this makes it a single click |
 | System control | [Muzzle](https://muzzleapp.com/) | A simple macOS app to silence embarrassing notifications while screen sharing |
-| System control | [Choosy](https://www.choosyosx.com/) | Granular browser selection. Use Chrome for Google apps, Firefox for YouTube, or Zoom links without a browser redirect|
+| System control | [Choosy](https://choosy.app/) | Granular browser selection. Use Chrome for Google apps, Firefox for YouTube, or Zoom links without a browser redirect|
 | Window manager | [Rectangle](https://rectangleapp.com/) | Move and resize windows in macOS using keyboard shortcuts or snap areas (based on the no longer supported Spectacle App |
 | Window manager | [Divvy](https://mizage.com/divvy/) | Allows you to quickly and efficiently "divvy up" your screen into exact portions and save arrangements to shortcuts and keybinds |
 | Window manager | [Magnet](https://magnet.crowdcafe.com/) | macOS doesn't tile windows aside from full-screen split, for more options, use Magnet |

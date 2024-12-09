@@ -27,7 +27,7 @@ Here's a look at what you can expect from our culture and [all-remote environmen
 
 ### Everyone can contribute
 
-Our size and [our mission]({{< ref "mission#mission" >}}) (that everyone can contribute) mean that our team members can — and are expected to — make an impact across the company.
+Our size and [our mission](/handbook/company/mission/#mission) (enable everyone to contribute to and co-create the software that powers our world.) mean that our team members can — and are expected to — make an impact across the company.
 
 Because we all use our product internally, you don't have to be a developer to learn to collaborate in the GitLab tool.
 From your very first week, no matter your role, you'll gain the technical skills needed to access, question, and contribute to projects far beyond your job description.
@@ -157,14 +157,14 @@ What better way to convey a sense of who we are and how we work together, than b
 
 <!-- HTML blocks below - applied to make the images and the video more harmonic than 1 single column with each on a different "row" -->
 
-{{% cardpane %}}
+{{< cardpane >}}
 {{% card footer="<a href=\"https://about.gitlab.com/blog/2016/01/06/our-y-combinator-experience/\">Back then</a>, the whole team used to fit in one car. And the car was called \"the Boat\"." %}}
 ![The Boat](/images/culture/boat.jpg)
 {{% /card %}}
-{{% card footer="We even took the Boat from San Francisco to Las Vegas to celebrate Job's bachelor party, but as you can see in this video, he thought we were going to visit a customer in Los Angeles!" %}}
-{{% youtube "JZG41C0aFfA" %}}
-{{% /card %}}
-{{% /cardpane %}}
+{{< card footer="We even took the Boat from San Francisco to Las Vegas to celebrate Job's bachelor party, but as you can see in this video, he thought we were going to visit a customer in Los Angeles!" >}}
+{{< youtube id="JZG41C0aFfA" >}}
+{{< /card >}}
+{{< /cardpane >}}
 
 ### The cattle
 
@@ -177,18 +177,18 @@ What better way to convey a sense of who we are and how we work together, than b
 
 ### IPO date comes in handy... 2 years out
 
-{{% cardpane %}}
-{{% card footer="After spending a couple of days in meetings with customers in New York City, USA, Sid and Kirsten had a few hours before their flight and wanted to visit the WTC Observatory deck. It didn't work out but our IPO date did work out in their favor. In the keynote at our Cape Town event, Sid explains what happened." %}}
-{{% youtube "4BIsON95fl8?start=1825" %}}
-{{% /card %}}
-{{% /cardpane %}}
+{{< cardpane >}}
+{{< card footer="After spending a couple of days in meetings with customers in New York City, USA, Sid and Kirsten had a few hours before their flight and wanted to visit the WTC Observatory deck. It didn't work out but our IPO date did work out in their favor. In the keynote at our Cape Town event, Sid explains what happened." >}}
+{{< youtube id="4BIsON95fl8" start="1825" >}}
+{{< /card >}}
+{{< /cardpane >}}
 
 ### So that's what it's like to work at GitLab
 
-{{% cardpane %}}
-{{% card footer="Being new to GitLab, our CRO, Michael McBride joined Sid in meeting with customers in New York City, USA where customers got a glimpse of what it's like to work at GitLab for him" %}}
-{{% youtube "4BIsON95fl8?start=1143" %}}
-{{% /card %}}
-{{% /cardpane %}}
+{{< cardpane >}}
+{{< card footer="Being new to GitLab, our CRO, Michael McBride joined Sid in meeting with customers in New York City, USA where customers got a glimpse of what it's like to work at GitLab for him" >}}
+{{< youtube id="4BIsON95fl8" start="1143" >}}
+{{< /card >}}
+{{< /cardpane >}}
 
 {{< include "includes/take-gitlab-for-a-spin.md" >}}
