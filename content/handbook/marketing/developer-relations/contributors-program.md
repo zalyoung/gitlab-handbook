@@ -5,7 +5,7 @@ description: "Learn about the GitLab Contributors Program from the Contributor S
 
 ## Summary
 
-The GitLab Contributors Program supports and recognizes both code and non-code contributors to GitLab. This program is owned by the [Contributor Success team](/handbook/marketing/developer-relations/contributor-success/) and guides the contributor journey start to finish. External outreach and growth strategies funnel new contributors into the program on the [Contributors platform](contributors.gitlab.com) where they are guided to onboard, contribute, and level up within our community.
+The GitLab Contributors Program supports and recognizes both code and non-code contributors to GitLab. This program is owned by the [Contributor Success team](/handbook/marketing/developer-relations/contributor-success/) and guides the contributor journey start to finish. External outreach and growth strategies funnel new contributors into the program on the [Contributors platform](https://contributors.gitlab.com/) where they are guided to onboard, contribute, and level up within our community.
 
 ## Objectives
 
@@ -61,37 +61,36 @@ The GitLab Contributors Program supports and recognizes both code and non-code c
 #### FY26Q1
 
 * Projects:
-    * Deliver user study of contributors
-    * Deliver feedback/quotes of Duo contributors
-    * Deliver quality metric on total features contributions
-    * Launch rebranding for GitLab Notable Contributors awards (formerly MVP/Heroes)
+  * Deliver user study of contributors
+  * Deliver feedback/quotes of Duo contributors
+  * Deliver quality metric on total features contributions
+  * Launch rebranding for GitLab Notable Contributors awards (formerly MVP/Heroes)
 * Events:
-    * GitLab Hackathon (UX Product Design collaboration)
-    * FOSDEM 2025
+  * GitLab Hackathon (UX Product Design collaboration)
+  * FOSDEM 2025
 
 #### FY26Q2
 
 * Projects:
-    * Deliver improvements identified from user study
-    * Complete tracking of translator contributors to GitLab
+  * Deliver improvements identified from user study
+  * Complete tracking of translator contributors to GitLab
 * Events:
-    * GitLab Hackathon
-    * Open Source Summit North America 2025
+  * GitLab Hackathon
+  * Open Source Summit North America 2025
 
 #### FY26Q3
 
 * Projects:
 * Events:
-    * GitLab Hackathon
-    * Open Source Summit Europe 2025
-    * All Things Open 2025
-    * Hacktoberfest 2025
+  * GitLab Hackathon
+  * Open Source Summit Europe 2025
+  * All Things Open 2025
+  * Hacktoberfest 2025
 
 #### FY26Q4
 
 * Projects:
-    * Launch Student Contributors Program
+  * Launch Student Contributors Program
 * Events:
-    * GitLab Hackathon
-    * RubyConf25
-
+  * GitLab Hackathon
+  * RubyConf25
