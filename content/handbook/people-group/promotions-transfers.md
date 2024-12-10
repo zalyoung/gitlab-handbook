@@ -593,15 +593,18 @@ Demotions are not always considered a step backwards.  It may be an opportunity 
 
 ## Job Title Specialty Changes
 
-Job title specialties are used to indicate a stage, group and/or a specific focus area of the team member within their responsibilities. These specialties are not part of the job title, but are used to feed into reporting around stage, group and/or focus area investments. It is also a resource for the People Group and leaders to leverage to review organizational health metrics and ratios.
+Job title specialties are used to indicate a stage, group and/or a specific focus area of the team member within their responsibilities. These specialties are not part of the job title, but are used to feed into reporting around stage, group and/or focus area investments. It is also a resource for leaders to leverage to review organizational health metrics and ratios. This field is limited to only those in Product, Sales, and Engineering divisions.
 
-**If any changes are required to a team members Job Title Speciality, the manager should create a [HelpLab](https://helplab.gitlab.systems/esc?id=emp_taxonomy_topic&topic_id=6de369b997804e50a326158de053af7b) case for the People Connect team with the new job title specialty information along with the effective date of the change. If a new Job Title Specialty that does not already exist needs to be created, please open an [issue](https://gitlab.com/gitlab-com/people-group/people-tools-technology/general/-/issues/new#) to get it created in Workday using the `Workday: Job Title Specialty Request` template. It is an important manager responsibility to ensure this field remains accurate in Workday.**
+Managers are responsible for maintaining job title specialties for their organizations, this can be managed via self-service in Workday. Instructions on how to update your team member's job title specialties can be found [here](https://docs.google.com/document/d/19o4Xe_Me4GZqxYsZaTjfgT19Qwb8E9BF7rzs0pCjxSU/edit?usp=sharing).
+
+ If a new Job Title Specialty that does not already exist in Workday needs to be created, please open an [issue](https://gitlab.com/gitlab-com/people-group/people-tools-technology/general/-/issues/new#) to get it created in Workday using the `Workday: Job Title Specialty Request` template. It is an important manager responsibility to ensure this field remains accurate in Workday.
 
 ### Job Title Specialty Guidance For Managers
 
 Different departments at GitLab manage job title specialties in different ways. Below, we have outlined guidance for certain departments to document how they think through job title specialties to ensure a consistent approach.
 
-To easily access a report for what current job title specialties are for your team, you can follow these steps:
+Managers within Product, Sales, and Engineering will receive a Workday delivered report monthly report to audit and ensure specialties are accurate.
+To run a report for what current job title specialties are for your team ad-hoc, you can follow these steps:
 
 - Log into Workday
 - Type "My Team Job Title Specialties" in the search bar
