@@ -44,7 +44,7 @@ The Senior Legal Operations Manager supports effective and efficient functioning
 
 #### Senior Legal Operations Manager Job Grade
 
-The Legal Operations Manager is a [grade 8](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades)
+The Senior Legal Operations Manager is a [grade 8](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades)
 
 #### Senior Legal Operations Manager Responsibilities
 
