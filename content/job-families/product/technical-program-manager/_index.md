@@ -190,7 +190,7 @@ The responsibilities and requirements for this speciality are largely the same a
 * Prior experience working across Product, Engineering, and Customer Success functions
 * Prior experience crafting and executing on cross functional process improvements, including capturing and redefining requirements into impactful work items.
 
-## Hiring Process
+##### Hiring Process
 
 Candidates for this position can expect the hiring process to follow the order below. Please keep in mind that candidates can be declined from the position at any stage of the process. To learn more about someone who may be conducting the interview, find their job title on our team page.
 
@@ -201,3 +201,45 @@ Candidates for this position can expect the hiring process to follow the order b
 * Candidates will be invited to schedule a final 30-minute interview with the CPO.
 
 Additional details about our process can be found on our hiring page.
+
+##### Escalation Specialist Framework
+
+The projects that the Escalation Specialist handles are called “Platform Escalations”. In short, **a Platform Escalation is a broadly impactful product issue or event that is time sensitive and involves several GitLab departments.** 
+
+**Criteria for becoming a Platform Escalation and getting TPM coverage:**
+
+1. First, the project must come from one of these three sources:
+   1. SIRT (Security Incident)
+   1. Outage or Production Incident
+   1. An unanticipated or unplanned breaking or impactful change
+1. Next, it can be evaluated against the Escalation calculator:
+   1. **Cross Functionality:** Does your project require work and coordination from 4+ teams or organizations across the business? (Projects contained to one section or individual team responsible for driving, with perhaps a dependency or two, are not considered highly cross-functional.)
+      1. If YES, then +2 points
+   1. **Complexity:** Does your project have a number of "unknown unknowns" or known complexities that will increase the risk factor for the project? (Examples: external partnerships, a history of similar projects failing, known complexities in implementation.)
+      1. If YES, then +2 points
+   1. **Financial Impact:** Does your project have a clear financial impact for GitLab? (direct correlation to growth, revenue, churn, etc)
+      1. If YES, then +1 point
+   1. **Operational Impact:** Does your project have the potential for operational impacts to GitLab? (impacts to systems, people, larger processes, etc).
+      1. If YES, then +1 point
+   1. **Customer Impact:** Does your project have the potential for a negative customer impact? (Breaking changes, deprecations, migrations, etc).
+      1. If YES, then +1 point
+1. **Scoring:**
+   1. If the project scores **5 or more points**, the Escalation Specialist will most likely manage the project as a Platform Escalation. In the scenario that they can’t either due to PTO or lack of bandwidth, another member of the Product TPM team may be able to step in. 
+   1. If the project scores **3-4 points**, the Escalation Specialist may be able to manage the project as a Platform Escalation depending on their current bandwidth.
+
+<br>
+
+**Disambiguation:**
+
+* All of the below are tied to a specific customer’s needs, and would not be a good candidate for a Platform Escalation:
+* An escalated product enhancement request from a client.
+* A support ticket that needs to be given special attention- [STAR Process](/handbook/support/internal-support/support-ticket-attention-requests/) should be followed.
+* An [Account Escalation](/handbook/customer-success/csm/escalations/) from the Customer Success team.
+* The support team has a request they need to escalate to the [product team](/handbook/support/workflows/how-to-get-help/) or another department.
+* Proactive planning for breaking or impactful changes. (May be in the future scope of work, but for now it is not part of this role.)
+
+<br>
+
+**Big-Picture Improvements**
+
+Ongoing Platform Escalation projects will take up the majority of their time, and their remaining bandwidth is spent improving our operational handling of escalations and incidents. The current Escalation Specialist has been conducting coffee chats with people all over the organization and will soon share their findings on the current state of escalations. They will also be leading a working group to consolidate GitLab's incident response processes.
