@@ -212,7 +212,7 @@ The projects that the Escalation Specialist handles are called “Platform Escal
    1. SIRT (Security Incident)
    1. Outage or Production Incident
    1. An unanticipated or unplanned breaking or impactful change
-1. Next, it can be evaluated against the Escalation calculator:
+1. Next, it can be evaluated against the [Escalation calculator](https://docs.google.com/spreadsheets/d/1Tv9WK9LIBJgLbEWWMEvXLtewDDv-luJWPjQDtkhWaJ0/edit?usp=sharing):
    1. **Cross Functionality:** Does your project require work and coordination from 4+ teams or organizations across the business? (Projects contained to one section or individual team responsible for driving, with perhaps a dependency or two, are not considered highly cross-functional.)
       1. If YES, then +2 points
    1. **Complexity:** Does your project have a number of "unknown unknowns" or known complexities that will increase the risk factor for the project? (Examples: external partnerships, a history of similar projects failing, known complexities in implementation.)
@@ -231,7 +231,8 @@ The projects that the Escalation Specialist handles are called “Platform Escal
 
 **Disambiguation:**
 
-* All of the below are tied to a specific customer’s needs, and would not be a good candidate for a Platform Escalation:
+All of the below are tied to a specific customer’s needs, and would not be a good candidate for a Platform Escalation:
+
 * An escalated product enhancement request from a client.
 * A support ticket that needs to be given special attention- [STAR Process](/handbook/support/internal-support/support-ticket-attention-requests/) should be followed.
 * An [Account Escalation](/handbook/customer-success/csm/escalations/) from the Customer Success team.
