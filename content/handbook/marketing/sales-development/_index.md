@@ -1122,9 +1122,12 @@ This is where you can find messaging related to GitLab vs some of our competiors
 #### 1. When a person that we are tracking leaves their current place of employment
 
 - UserGems will track that person to their new role and will automatically create a lead with their new details in our system.
-- These leads will be flagged on the Action Needed BDR dashboards for you and your manager's review, as well as on the [B8 and B9 views for BDRs.](/handbook/marketing/sales-development/#bdr-lead-views)
+- These leads will be flagged on the Action Needed BDR dashboards for you and your manager's review, as well as on the [B7 views for BDRs.](/handbook/marketing/sales-development/#bdr-lead-views)
+
 - We expect that our [standard RoE](/handbook/marketing/sales-development/#rules-of-engagement-roe) will be followed normally in actioning these leads.
+
 - These leads will also be automatically enrolled to a Grove flow either if the job change occured [more](https://groove.clari.com/flows/1124150) or [less](https://groove.clari.com/flows/1122335) than 90 days ago.
+
 - If you'd like to iterate on these flows please follow the content creation process outlined [here.](handbook/marketing/sales-development/#new-groove-flow-creation)
 - We'll also notify you via Slack and email about these Job Changes.
 
