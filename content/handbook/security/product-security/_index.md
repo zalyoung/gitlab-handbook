@@ -35,7 +35,8 @@ To create a new issue follow this [link](https://gitlab.com/gitlab-com/gl-securi
 - Only vulnerabilities (or a combination of weaknesses), inadequate design choices, or functional logic that exposes GitLab, the product, to compromises and leaks.
 #### Review
 
-Risks tracked in our risk register are reviewed on a quarterly basis.
+Risks tracked in our risk register are reviewed on a monthly basis by Product Security leadership.
+
 
 ## Collaboration is Key
 
