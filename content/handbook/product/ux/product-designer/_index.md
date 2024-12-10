@@ -58,8 +58,8 @@ For access instructions to Dovetail, Zendesk and Chorus.ai, refer to the relevan
 #### Understand the space
 
 - **Review existing research**: Investigate the [UX Research Archive](https://gitlab.com/gitlab-org/uxr_insights), [Dovetail](https://dovetailapp.com/), or other data sources to inform your decisions and measure results. If no relevant UX research exists, contact your [UX Researcher](/handbook/product/ux/ux-research/how-uxr-team-operates/) to conduct or guide you and your PM in conducting research.
-- **Conduct competitive analysis**: Analyze competitors to understand terminology, functionality, and UX conventions. Adhere to industry standards unless there is a strategic reason for deviation, such as leveraging [disruptive innovation](https://www.economist.com/the-economist-explains/2015/01/25/what-disruptive-innovation-means) opportunities. Familiar conventions can ease user migration from other tools to ours.
-- **Create user flows and journey maps**: Develop user flows or journey maps to ensure comprehensive understand of the workflow and to effectively communicate this to your team.
+- **Conduct competitive analysis**: Analyze competitors to understand terminology, functionality, and UX conventions. Adhere to industry standards unless there is a strategic reason for deviation, such as leveraging [disruptive innovation](https://hbr.org/2015/12/what-is-disruptive-innovation) opportunities. Familiar conventions can ease user migration from other tools to ours.
+- **Create user flows and journey maps**: Develop user flows or journey maps to ensure a comprehensive understanding of the workflow, and effectively communicate this to your team.
 
 #### Investigate possible dependencies
 
@@ -94,7 +94,7 @@ The visual design of GitLab has evolved from naive simplicity to sophisticated c
 1. **Discovery** - Ensure users can interact and explore in ways that promote learning and proficiency while minimizing mistakes.
 1. **Capability** - Provide features and functions that enable users to complete tasks and automate processes.
 
-[Three-part venn diagram with the terms structure, discovery, and capability overlapping to create sophisticated simplicity in the center.](sophisticated-simplicity-venn.svg)
+![Three-part venn diagram with the terms structure, discovery, and capability overlapping to create sophisticated simplicity in the center.](sophisticated-simplicity-venn.svg)
 
 Balancing these principles is crucial for an optimal user experience:
 
