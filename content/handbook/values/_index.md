@@ -422,7 +422,7 @@ We demonstrate results when we do what we promised to each other, customers, use
   </tr>
   <tr>
     <td class="tg-0lax">8</td>
-    <td class="tg-0lax">Coaches team members to collaborate and work iteratively towards results with the focus on the outcome and not hours worked.</td>
+    <td class="tg-0lax">Coaches team members to collaborate and work iteratively towards impact with the focus on the outcome and not activity worked.</td>
     <td class="tg-0lax" rowspan="6"><a href="https://docs.google.com/forms/d/e/1FAIpQLSf9ZFJb3Fx86rI_Fmk1X88jSuDDvz9p4WLTfBmkYCmgrFDOgw/viewform">Knowledge Assessment for People Leaders</a></td>
   </tr>
   <tr>
@@ -1274,7 +1274,7 @@ These perspectives may also uncover potential risks and problems in the project.
 
 There shouldn't be a ["Don't they have their job to do?"](https://www.youtube.com/watch?v=U9de50APPAg) type of response.
 Furthermore, we shouldn't judge team members who are perceived as being the "squeaky wheel."
-At GitLab, we [measure results, not hours](../../teamops/measurement-clarity.md#measure-results-not-hours).
+At GitLab, we [measure impact, not activity](../../teamops/measurement-clarity.md#measure-impact-not-activity).
 As long as a team member is producing required results, they are empowered to decide how to spend their time.
 
 On the other hand, as GitLab grows in size, we need to make decisions and the decisions may not be agreed to by everyone.

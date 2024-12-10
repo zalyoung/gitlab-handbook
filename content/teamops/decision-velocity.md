@@ -25,7 +25,7 @@ Action tenets of maximizing decision velocity, including real-world examples of 
 
 Building on the tenet of creating a [shared reality](/teamops/shared-reality/) with a [Single Source of Truth](/teamops/shared-reality/#single-source-of-truth-ssot), decision velocity is maximized when documentation is applied to operational processes and expectations. Establishing a common set of procedures and best practices for the workflows of your team ensures that each team member is equipped to fulfill the expectations of their assignments, while replacing the objectives of physical supervision – quality assurance and as-needed clarification of instructions.
 
-Having a shared guide in a team promotes [measurement clarity](/teamops/measurement-clarity/), [results standardization](/teamops/measurement-clarity/#measure-results-not-hours), [worker autonomy](/teamops/decision-velocity/#give-agency), efficient onboarding, continuous improvement, and operational scalability. By providing a common reference point, these documented workflows enhance efficiency and consistency, ultimately leading to improved team productivity and outcomes.
+Having a shared guide in a team promotes [measurement clarity](/teamops/measurement-clarity/), [results standardization](/teamops/measurement-clarity/#measure-impact-not-activity), [worker autonomy](/teamops/decision-velocity/#give-agency), efficient onboarding, continuous improvement, and operational scalability. By providing a common reference point, these documented workflows enhance efficiency and consistency, ultimately leading to improved team productivity and outcomes.
 
 {{% details summary="Examples and resources for documented workflows" %}}
 **Example:** [GitLab Support Workflow Library](/handbook/support/workflows/)

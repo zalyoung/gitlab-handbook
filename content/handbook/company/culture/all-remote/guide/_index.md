@@ -24,7 +24,7 @@ All-remote work promotes:
 1. Public sharing of information (over need-to-know access).
 1. Opening up documents for editing by anyone (over top-down control of documents).
 1. Asynchronous communication (over synchronous communication).
-1. The results of work (over the hours put in).
+1. The results of impact (over the activity put in).
 1. Formal communication channels (over informal communication channels).
 
 ## Why remote?
