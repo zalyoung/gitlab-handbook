@@ -356,7 +356,7 @@ We chose the all-remote structure so we can hire people irrespective of location
 
 **Managing your team**
 
-- Prioritize results over hours worked
+- Prioritize impact over activity
 - Don't require people to have consistent set working hours or say when they're working
 - Don't encourage or celebrate working long hours or on weekends
 - Encourage teamwork and saying thanks

@@ -276,7 +276,7 @@ On a weekly basis, we aim to triage as many issues as possible. We strive to per
 ### Working on unscheduled issues
 
 Everyone at GitLab has the freedom to manage their work as they see fit,
-because [we measure results, not hours](/handbook/values/#measure-results-not-hours). Part of this is the
+because [we measure impact, not activity](/handbook/values/#measure-impact-not-activity). Part of this is the
 opportunity to work on items that aren't scheduled as part of the
 regular monthly release. This is mostly a reiteration of items elsewhere
 in the handbook, and it is here to make those explicit:
