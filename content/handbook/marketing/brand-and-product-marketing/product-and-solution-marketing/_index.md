@@ -91,15 +91,15 @@ All Product and Solution Marketing work is aligned to the overall Marketing OKRs
 
 - @dsteer - VP of Brand and Product Marketing
 - @mklaus - Sr. Director, Product Marketing
-- @jhurwitz - Senior Manager, Product Marketing
+- @jhurwitz - Sr. Manager, Product Marketing
 - @anair - Product Marketing Manager
 - @dhom - Product Marketing Manager
 - @lalves - Principal Product Marketing Manager, AI
-- @jkempton - Senior Product Marketing Manager, Competitive Intelligence
+- @jkempton - Sr. Product Marketing Manager, Competitive Intelligence
 - @sladha - Principal Product Marketing Manager, Security
-- @aholland - Senior Product Marketing Manager, Financial Services
-- @lburrows - Senior Public Sector Product Marketing Manager
-- @mdelaney - Senior Product Marketing Manager, Embedded Systems/Automotove/Aerospace
+- @aholland - Sr. Product Marketing Manager, Financial Services
+- @lburrows - Sr. Public Sector Product Marketing Manager
+- @mdelaney - Sr. Product Marketing Manager, Embedded Systems/Automotive/Aerospace
 
 ## <i class="fas fa-star fa-fw color-orange font-awesome"></i>Marketing and Sales Enablement
 
