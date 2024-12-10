@@ -25,7 +25,7 @@ Objectives
 - Serves as a centralized tool for identifying, evaluating, mitigating, and monitoring systemic risks that can impact GitLab's operations and reputation, but that doesn't meet the criteria to be tracked by the Security Risk team. Specific vulnerabilities or components based vulnerabilities **should not** be part of the PSRR.
 - Identify clear DRIs to help in reducing and mitigating the risk. They will ensure that all stakeholders are aware of potential risks and are working collaboratively to manage them. The DRI is responsible for updating the risk register issues to reflect the progress made in reducing the risks.
 
-Our main responsibility involves providing consultancy help to Engineering teams applying the right priority as well as reviewing the solution(s) to reduce or mitigate the risk.
+Product Security teams are responsible for communicating the risk and coordinating mitigation with the risk's stakeholders, such as Engineering and Product. Due to their systemic impact, risks tracked in the PSRR are cross-functional and thus risk reduction will require cross-functional collaboration.
 
 You can find this list in the [StORM repository](https://gitlab.com/gitlab-com/gl-security/security-assurance/security-risk-team/storm-risk-register/-/issues/?sort=created_date&state=opened&label_name%5B%5D=Department%3A%3AProduct%20Security&first_page_size=20) (internal), or [consult the dashboard here](https://gitlab.com/gitlab-com/gl-security/security-assurance/security-risk-team/storm-risk-register/-/boards/7816349?label_name[]=Department%3A%3AProduct%20Security) (internal).
 
