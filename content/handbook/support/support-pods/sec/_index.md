@@ -10,11 +10,11 @@ focused on GitLab [Sec section](/handbook/product/categories/#sec-section) featu
 
 - Lead: {{< member-by-name "Katrin Leinweber" >}} (`@katrinleinweber-gtlb`)
 - Lead: {{< member-by-name "Brie Carranza" >}} (`@bcarranza`)
+- Lead: {{< member-by-name "Duncan Harris" >}} (`@duncan_harris`)
 - {{< member-by-name "Christopher Chewa Mutua" >}} (`@cmutua`)
 - {{< member-by-name "Mario Mora" >}} (`@mmora`)
 - {{< member-by-name "Caleb Williamson" >}} (`@calebw`)
 - {{< member-by-name "Kate Grechishkina" >}} (`@kategrechishkina`)
-- {{< member-by-name "Duncan Harris" >}} (`@duncan_harris`)
 - {{< member-by-name "Ronnie Alfaro" >}} (`@ralfaro`)
 - {{< member-by-name "Cleveland Bledsoe Jr" >}} (`@cleveland`)
 
