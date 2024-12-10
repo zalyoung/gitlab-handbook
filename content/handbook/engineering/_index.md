@@ -141,9 +141,9 @@ For customers using **CI/CD**, we're expanding the available types of Runners to
 This process is expected for PTO that is five consecutive days or more. For PTO that is fewer than five consecutive days you should not need a coverage issue but you can file one if you’d like.
 {{% /note %}}
 
-In order to ensure business continuity, and deliver on commitments; the Engineering Division is adopting a PTO Coverage Issue Process. Processes like this are already formalized in GitLab (e.g. [PM Coverage Issue](https://handbook.gitlab.com/handbook/product/product-management/product-manager-role/#creating-a-pm-coverage-issue)) and some team’s within Engineering have practiced this regularly at the Management+ level. This allows us to continue to support team member well-being through time away without negatively impacting the rest of the team.
+In order to ensure business continuity, and deliver on commitments; the Engineering Division is adopting a PTO Coverage Issue Process. Processes like this are already formalized in GitLab (e.g. [PM Coverage Issue](/handbook/product/product-management/product-manager-role/#creating-a-pm-coverage-issue)) and some team’s within Engineering have practiced this regularly at the Management+ level. This allows us to continue to support team member well-being through time away without negatively impacting the rest of the team.
 
-A PTO Coverage issue is required for [job grades 8 and up](https://handbook.gitlab.com/handbook/total-rewards/compensation/compensation-calculator/#job-grades). For job grades 7 and below a PTO Coverage issue is recommended as there is value in going through the process of creating the PTO Coverage issue even if there are minimal items to include (for all levels) in that it forces you to think about what you have on your plate and what impact your PTO will have on those items. So whether the result is that the work waits or there is someone designated as a replacement DRI, it makes the decision explicit and documented.
+A PTO Coverage issue is required for [job grades 8 and up](/handbook/total-rewards/compensation/compensation-calculator/#job-grades). For job grades 7 and below a PTO Coverage issue is recommended as there is value in going through the process of creating the PTO Coverage issue even if there are minimal items to include (for all levels) in that it forces you to think about what you have on your plate and what impact your PTO will have on those items. So whether the result is that the work waits or there is someone designated as a replacement DRI, it makes the decision explicit and documented.
 
 These issues will help inform teams as they plan their milestones to ensure the work teams are committed to can be achieved with the staff available, or if there will be a lack of staff to achieve those commitments, to work with team members to see what can be done to achieve the results for our customers.
 
@@ -173,7 +173,7 @@ The manager will make a decision on approval or discuss different arrangements o
 
 #### 4. Communicate your time off
 
-After team members' coverage issue is approved, team members will [communicate their time off](https://handbook.gitlab.com/handbook/people-group/paid-time-off/#communicating-your-time-off) and enter the PTO into Deel/Workday including a link to their coverage issue. Team members will share their coverage issue with their relevant colleagues via Slack channels, GitLab status, etc. ahead of the milestone planning.
+After team members' coverage issue is approved, team members will [communicate their time off](/handbook/people-group/paid-time-off/#communicating-your-time-off) and enter the PTO into Deel/Workday including a link to their coverage issue. Team members will share their coverage issue with their relevant colleagues via Slack channels, GitLab status, etc. ahead of the milestone planning.
 
 #### 5. Take your time off
 
