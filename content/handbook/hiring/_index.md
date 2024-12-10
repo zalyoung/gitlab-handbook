@@ -260,13 +260,16 @@ There are no perfect or required ways to set up your Greenhouse notifications, b
 - You can sync your emails between Greenhouse and Gmail. Greenhouse has a Gmail add-on that can help with syncing communications. You can learn more about it by [going here](https://support.greenhouse.io/hc/en-us/articles/360003111031-Greenhouse-Gmail-add-on).
 {{% /details %}}
 
-## Talent Acquisition Programs
+## Talent Acquisition Processes
 
 ### Referrals
 
 - [Referral Operations]({{< ref "referral-operations" >}})
 - [Referral Process]({{< ref "referral-process" >}})
 - [Details on who is eligible for referrals]({{< ref "incentives#referral-bonuses" >}})
+
+### Contractor Conversions
+- [Contractor conversion processes]({{< ref "contractor-conversions" >}})
 
 ### Acquisitions
 
