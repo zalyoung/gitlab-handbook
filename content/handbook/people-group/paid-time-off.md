@@ -12,7 +12,7 @@ Time away from work can be extremely helpful for maintaining a [healthy work/lif
 
 Taking time off is not a selfish behavior. Not only is time away from work aligned with GitLab's operating principle [Family and friends first, work second](/handbook/values/#family-and-friends-first-work-second), but it is vital to maintaining [mental health](/handbook/company/culture/all-remote/mental-health/). It is also a core part of the creative process.
 
-It is important to take time off to recharge batteries and refresh mind so you can come back to GitLab with renewed energy and be prepared to do your best work ever!
+It is important to take time off to recharge batteries and refresh your mind so you can come back to GitLab with renewed energy and be prepared to do your best work ever!
 
 This page is written with a focus on vacation. The below recommendations on communicating your time off apply to time off for all reasons where possible and avoid concerns of health, safety, or job abandonment. GitLab offers a Flexible PTO Policy, but team members are not allowed to substitute PTO for sick time. If taking time off for medical needs or sick time, whether physical or mental, please follow our [Sick Time Policy](/handbook/people-group/paid-time-off/#sick-time---taking-and-reporting).
 
