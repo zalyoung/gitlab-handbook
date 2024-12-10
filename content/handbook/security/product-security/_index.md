@@ -26,7 +26,7 @@ The PSRR will record and track risks that have important and cascading consequen
 
 Specific vulnerabilities or components based vulnerabilities should not be part of the PSRR.
 
-Objectives
+#### Objectives
 
 - Serves as a centralized tool for identifying, evaluating, mitigating, and monitoring systemic risks that can impact GitLab's operations and reputation, but that doesn't meet the criteria to be tracked by the Security Risk team. Specific vulnerabilities or components based vulnerabilities **should not** be part of the PSRR.
 - Identify clear DRIs to help in reducing and mitigating the risk. They will ensure that all stakeholders are aware of potential risks and are working collaboratively to manage them. The DRI is responsible for updating the risk register issues to reflect the progress made in reducing the risks.
