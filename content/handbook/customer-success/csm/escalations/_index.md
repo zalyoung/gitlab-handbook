@@ -61,7 +61,7 @@ At the beginning of the escalation, the DRI must be determined - the DRI owns th
   - Managing all assigned escalation tasks in Gainsight
   - Acting as an escalation point for customer-related issues (e.g., delayed response, open actions, non-compliance installation or product use, etc.)
   - Developing the business case justification and escalation to Product for escalations related to enhancement requests
-  - Posting updates to Gainsight timeline (automatically pushes update to Slack channel to ensure all parties are kept updated)
+  - Posting updates to Gainsight timeline & keeping the temporary Slack channel and the `#escalated_customers` slack channel updated.
 
 - Support Engineering is responsible for:
 
@@ -98,7 +98,7 @@ The following steps are to be taken by the escalation DRI:
 
 1. Create a [slack channel](#temporary-slack-channel) to facilitate communication internally at GitLab during the escalation.
 1. [Identify Escalation DRI and immediate asks](#identify-escalation-dri-and-immediate-asks)
-1. Ensure that the [escalation is declared](#declare-the-escalation) in `#escalated_customers`. This happens automatically once the escalation case is opened in Salesforce.
+1. Ensure that the [escalation is declared](#declare-the-escalation) in `#escalated_customers`. 
 
 *Critical and High Escalations only*
 
@@ -110,7 +110,7 @@ The following steps are to be taken by the escalation DRI:
 
 **Ongoing**
 
-1. Post updates in the Gainsight case CTA according to the cadence described in the [definitions of severity levels](#definitions-of-severity-levels).
+1. Post updates in the Gainsight case CTA & Slack channels according to the cadence described in the [definitions of severity levels](#definitions-of-severity-levels).
 1. Keep exit criteria and DRIs up to date in the [CS Help request](#cs-help-request)
 
 #### Temporary Slack Channel
@@ -169,12 +169,13 @@ For example:
 
 #### Declare the escalation
 
-When the escalation case is opened in Salesforce, the escalation details from the case will automatically send a new message to `#escalated_customers`. This message will look like this:
+After the escalation case is opened in Salesforce, you will need to post in the `#escalated_customers` channel to declare the escalation. Here's an example message: 
 
 - New Escalation
 - **Customer**: "<customer_name>"
 - **Slack Channel**: "#<esc_customername>"
-- **Meeting Notes**: "<LINK:customer meeting notes>"
+- **Meeting Notes**: "<LINK: customer meeting notes>"
+- **SFDC Escalation case URL**: "<LINK: escalation case>
 - **Severity**: High
 - **Status**: Opened
 - **Product DRI**: "[Assigned Product DRI](https://docs.google.com/spreadsheets/d/1x44kzJE4_Ixj20utn4g5Mggn1Jc3kKMWaY16F2WmLWg/edit#gid=242012002)"
@@ -183,22 +184,9 @@ When the escalation case is opened in Salesforce, the escalation details from th
 
 For high or critical escalations, and if the escalation is product related, a Product DRI is required. Please assign the applicable Product DRI from this [list](https://docs.google.com/spreadsheets/d/1x44kzJE4_Ixj20utn4g5Mggn1Jc3kKMWaY16F2WmLWg/edit#gid=242012002). The Product DRI should be added to the #esc_customername channel and will drive any product related items throughout the escalation.
 
-#### Escalation Updates
-
-Escalation updates are required according to the cadence described in the [definitions of severity levels](#definitions-of-severity-levels). Updates are made via the Gainsight case CTA and are automatically pushed to Slack (2 hour sync cadence). Steps for posting an update in Gainsight: 
-
-1. Navigate to the account page in Gainsight 
-1. Navigate to the "Cockpit" panel 
-1. Select the Escalation CTA (Escalation CTA will pop up in same window)
-1. Navigate to "Timeline" 
-1. Select "Add Activity" 
-1. Select "At-Risk/Escalation" under Activity Type
-1. Complete all required fields (Note: In the "Note" section, you can select Apply Template for Update or Closure of an escalation)
-1. Click "Log Activity"
-
 #### Posting in `escalated_customers`
 
-All updates should be made on the Gainsight CTA and then will automatically post in the `#escalated_customers` channel. To keep noise to a minimum, posting in `#escalated_customers` should happen only at key moments:
+To keep noise to a minimum, posting in `#escalated_customers` should happen only at key moments:
 
 - when the escalation is identified and created
 - when the escalation is closed or risk reduced to standard business process to manage (i.e., issue resolved and monitoring the solution)
@@ -210,7 +198,7 @@ The `#escalated_customers` channel is for awareness only and is not intended to 
 
 The DRI owns the functions as outlined here:
 
-- If an escalation status significantly changes, make an update in the Gainsight CTA which will alert in the `#escalated_customers` slack channel. Be sure to ping all DRIs involved in the escalation, as well as post in the temporary customer slack channel
+- If an escalation status significantly changes, make an update in the `#escalated_customers` slack channel. Be sure to ping all DRIs involved in the escalation, as well as post in the temporary customer slack channel
 - Update the temporary escalation slack channel daily, at minimum
 - The escalation progress should also be communicated to the customer on a regular basis - expectation is 3 or more times a week depending on the situation. 
 
@@ -228,7 +216,8 @@ Tips & Tricks:
 
 - When the issue(s) related to the escalation are resolved or move into a non-escalated state:
 
-  - Post an Escalation Closure [update](#escalation-updates) in the Gainsight CTA with the status and resolution. Be sure to use the "At-Risk/Escalation - Closure" template in the update. 
+  - Post an Escalation Closure in the Gainsight CTA with the status and resolution. Be sure to use the "At-Risk/Escalation - Closure" template in the update. 
+  - Copy that Escalation Closure update and post in the `#escalated_customers` slack channel.
   - Archive the temporary Slack channel
   - Update the customer's CSM Sentiment in Gainsight to reflect the new state of the account.
 
