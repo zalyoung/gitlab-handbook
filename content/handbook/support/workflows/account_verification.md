@@ -7,7 +7,7 @@ description: "Workflow detailing how and when to verify account ownership includ
 
 ## Overview
 
-This workflow covers how a user can provide account verification. It should be used for any [account changes](/content/handbook/support/workflows/account_changes.md).
+This workflow covers how a user can provide account verification. It should be used for any [account changes](/handbook/support/workflows/account_changes.md).
 
 Account actions can only be completed if the [workflow](#workflow) below is successful.
 
@@ -55,7 +55,7 @@ The table below provides a summary of the available verification options based o
 | Paid User | Other member of same paid group | Target user passes challenges on own account |  | Communication is direct from the target user who must be CC'd on ticket. |
 | Free User | Non-member of group with intent to be added | Not allowed - request must come from group owner | Owner vouch required |  |
 
-See the [Enterprise User section](/content/handbook/support/workflows/gitlab-com_overview.md#enterprise-users") on how to identify if a user is an Enterprise User.
+See the [Enterprise User section](/handbook/support/workflows/gitlab-com_overview.md#enterprise-users") on how to identify if a user is an Enterprise User.
 
 ### Step 1: Sending Challenges
 
@@ -77,8 +77,8 @@ If you need a basis for a response where you send the challenges, use the [`Supp
 This section is typically done by the peer reviewer. If needed, the peer reviewer (or approving manager) may leave an approval note, in which case the original reviewer will perform the actions.
 
 1. If you agree with the decision, sign into your admin account and locate the username in the users table or by going to `https://gitlab.com/admin/users/usernamegoeshere`
-      1. Please see [Account Changes workflow](/content/handbook/support/workflows/account_changes.md).
-      1. Under the account tab, click `Edit`, add an [Admin Note](/content/handbook/support/workflows/admin_note.md), and save.
+      1. Please see [Account Changes workflow](/handbook/support/workflows/account_changes.md).
+      1. Under the account tab, click `Edit`, add an [Admin Note](/handbook/support/workflows/admin_note.md), and save.
 
 ### Step 3b: User Fails to Prove Account Ownership
 
@@ -145,4 +145,4 @@ If a reply is received within 7 days, account for it in the Risk Factor Workshee
 
 ## Account Ownership Changes
 
-This section has been [moved to the Account Changes workflow](/content/handbook/support/workflows/account_changes.md#account-ownership-changes").
+This section has been [moved to the Account Changes workflow](/handbook/support/workflows/account_changes.md#account-ownership-changes").
