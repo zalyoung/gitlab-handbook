@@ -2,6 +2,8 @@
 title: "Data Analytics"
 ---
 
+The Data Analytics job family collaborates cross-functionally to understand business questions and support single-source-of-truth reporting for enterprise questions. The successful Data Analyst works closely with Analytics Engineering, Data Governance, and functional team data analysts to derive insights from data and help efficiently & effectively scale reporting capabilities across the organization.
+
 ## Responsibilities
 
 - Collaborate cross-functionally to deeply understand business questions, and design single-source-of-truth reports and dashboards to address them
