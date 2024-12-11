@@ -603,7 +603,15 @@ Managers are responsible for maintaining job title specialties for their organiz
 
 Different departments at GitLab manage job title specialties in different ways. Below, we have outlined guidance for certain departments to document how they think through job title specialties to ensure a consistent approach.
 
-Managers within Product, Sales, and Engineering will receive a Workday delivered report monthly report to audit and ensure specialties are accurate.
+Managers will receive a Workday delivered report monthly report to audit and ensure specialties are accurate, if the team member is in one the below departments: 
+CI/CD Core Platforms & SaaS Delivery
+Core Development
+Core Infrastructure
+Dev & Analytics
+Expansion
+Internal Infrastructure
+Monetization
+Sec & Data Science
 To run a report for what current job title specialties are for your team ad-hoc, you can follow these steps:
 
 - Log into Workday
