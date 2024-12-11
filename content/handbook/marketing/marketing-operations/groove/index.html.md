@@ -63,13 +63,11 @@ Flows must be named by the following [naming conventions](https://docs.google.co
 
 ### Flow Approval Process
 
-Individual flows can be created by any team member in Groove for personal use. XDRs and Renewals Managers will need to submit their individual flows for approvals, while Account Executives and SMB Advocates can create individual flows without the need for approvals.
-
-Should a team member want to turn their individual flow into a master flow for other team members to leverage, approvals by the appropiate Operations team or BDR Manager will be required. Please review the sections below for specific guidance depending on your team.
+Individual flows can be created by any team member in Groove for personal use except for XDRs. XDRs and Renewals Managers will need to submit their individual flows for approvals, while Account Executives and SMB Advocates can create individual flows without the need for approvals. All flows used by XDRs will be master flows 
 
 ### BDR Flow Creation Process 
 
-BDRs are able to create individual flows that must be approved by their managers. After approval, ownership of these flows will be switched from the BDR to their Manager by Ops.
+BDRs are able to create individual flows that must be approved by their managers. After approval, ownership of these flows will be switched from the BDR to their Manager by Ops. The BDR **should not** add anyone to the flow until it is in their manager's ownership. 
 
 **Checklist for BDRs when Creating Flows**
 
@@ -102,7 +100,7 @@ BDRs are able to create individual flows that must be approved by their managers
 
 **Look at the Settings:**
 
-- Should this be a Master Flow or Individual Flow? Groove Master Flows are designed for multiple people to use, while Individual Flows are intended for individual use (1 rep). By default flows made by reps will be individual flows which the managers can change in the settings. 
+- Make sure the flow is a master flow 
 - Is the Unsubscribe Footer on?
 - If you are sharing a flow with sales do not turn on edit permissions
 - Should there be an expiration date for this flow (use when only to be used for certain date range like an event)
@@ -115,6 +113,14 @@ BDRs are able to create individual flows that must be approved by their managers
 - Come up with an intake process otherwise you will have duplicate efforts from team members and you will spend a ton of time approving flows rather than analyzing results. 
 - Only approve LT flows for very specific reasons - include that in the description of the flow
 - Schedule recurring monthly checks of flow analytics to help with deprecation and promotion of flows
+
+**Flow Approval Full Process and Order of Events**
+
+1. BDR creates flow and submits for approval in Groove
+2. Manager checks and Approves flow (Directions above)
+3. Manager Sends flow to Operations (Panos for EMEA/APJ, Ed for AMER) 
+4. Operations Transfers Ownership from BDR to Manager within 24 hours
+5. BDR can now add prospects to the flow after ownership is transferred
 
 ### Sales: Flow Creation Requirements & Sharing with BDRs
 
