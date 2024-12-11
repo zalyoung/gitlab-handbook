@@ -13,7 +13,7 @@ a single place or few related places, you should open a replacement MR directly.
 If the package is used in a wide variety of different places across the codebase, it's better to follow a
 more solid review process to make sure the benefits of removing it outweigh the risk of breaking dependencies.
 
-1. Create a **confidential** issue in `gitlab-org/gitlab` with the title `Unmaintained dependency <dependency name> in <package.json/Gemfile>`
+1. Create a **confidential** issue in the project's issue tracker with the title `Unmaintained dependency <dependency name> in <package.json/Gemfile>`.
 1. Use the below template for the issue:
 
     ```md
