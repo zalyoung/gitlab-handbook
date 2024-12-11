@@ -47,8 +47,8 @@ workflow:
     - when: always
 
 stages:
-  - test
   - build
+  - test
   - run
   - release
 
