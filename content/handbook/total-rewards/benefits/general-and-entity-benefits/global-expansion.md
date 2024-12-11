@@ -218,7 +218,7 @@ All benefits listed below are administered and managed by [Global Expansion](htt
 (Health Care Allowance)
 
 - Healthcare Monthly Allowance will be paid by GX as an allowance to the team members for their own Medical Coverage.
-- The allowance will be up to 45,000 KES per month for team members and up to 75,000 KES per month for team members plus Dependents.
+- The allowance will be up to 40,000 KES per month for team members and up to 70,000 KES per month for team members plus Dependents.
 - This amount will be paid on a monthly basis with the regular payroll as a reimbursement.
 - Team Members are required to share proof of registration to the GX1 (Global Expansion) portal.
 - If a team member has a change in cost and coverage / renewal, please ensure to upload the new proof of cost and cover to the GX1 (Global Expansion) portal and send an email to `gx_employeeexperience@globalexpansion.com` cc'ing `total-rewards@gitlab.com` to advise the new proof has been uploaded so that this can be adjusted on the next available payroll.
