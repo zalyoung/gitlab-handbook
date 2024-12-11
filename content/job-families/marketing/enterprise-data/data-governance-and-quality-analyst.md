@@ -35,7 +35,7 @@ An intern must:
 
 ### Data Governance and Quality Analyst (Associate)
 
-The Data Governance and Quality Analyst (Associate) reports to the [Director, Data Governance and Data Quality](/job-families/finance/data-and-insights-executive/#director-data-governance-and-quality)
+The Data Governance and Quality Analyst (Associate) reports to the [Director, Data Governance and Data Quality](/job-families/marketing/enterprise-data/data-and-insights-executive/#director-data-governance-and-quality)
 
 #### Data Governance and Quality Analyst (Associate) Job Grade
 
@@ -65,7 +65,7 @@ The responsibilities of this role includes but are not limited to the below
 
 ### Data Governance and Quality Analyst (Intermediate)
 
-The Data Governance and Quality Analyst (Intermediate) reports to the [Director, Data Governance and Data Quality](/job-families/finance/data-and-insights-executive/#director-data-governance-and-quality)
+The Data Governance and Quality Analyst (Intermediate) reports to the [Director, Data Governance and Data Quality](/job-families/marketing/enterprise-data/data-and-insights-executive/#director-data-governance-and-quality)
 
 #### Data Governance and Quality Analyst (Intermediate) Job Grade
 
@@ -94,7 +94,7 @@ The requirements of the Data Governance and Quality Analyst (Intermediate) exten
 
 ### Senior Data Governance and Quality Analyst
 
-The Senior Data Governance and Quality Analyst reports to the [Director, Data Governance and Data Quality](/job-families/finance/data-and-insights-executive/#director-data-governance-and-quality)
+The Senior Data Governance and Quality Analyst reports to the [Director, Data Governance and Data Quality](/job-families/marketing/enterprise-data/data-and-insights-executive/#director-data-governance-and-quality)
 
 #### Senior Data Governance and Quality Analyst Job Grade
 
@@ -125,11 +125,11 @@ The requirements of the Senior Data Governance and Quality Analyst extend the Da
 
 ### Staff Data Governance and Quality Analyst
 
-The Staff Data Governance and Quality Analyst reports to the [Director, Data Governance and Data Quality](/job-families/finance/data-and-insights-executive/#director-data-governance-and-quality)
+The Staff Data Governance and Quality Analyst reports to the [Director, Data Governance and Data Quality](/job-families/marketing/enterprise-data/data-and-insights-executive/#director-data-governance-and-quality)
 
 #### Staff Data Governance and Quality Analyst Job Grade
 
-The Staff Data Governance and Quality Analyst is a [grade 8](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades) and is equivalent to the [Manager,Data (Intermediate)](/job-families/finance/manager-data/#manager-data-intermediate) job grade.
+The Staff Data Governance and Quality Analyst is a [grade 8](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades) and is equivalent to the [Manager,Data (Intermediate)](/job-families/marketing/enterprise-data/manager-data/#manager-data-intermediate) job grade.
 
 **Market Justification:**
 The business need for this role is to hire, retain, and develop technical talent by establishing Individual Contributor focused career paths for our team members who do not want to move into Data People Management. Staff Data Governance and Quality Analyst is a widely accepted role, as supported by survey data, and is common in many data-driven companies. In some companies this position is also called Lead Data Governance and Quality Analyst.

@@ -2,16 +2,12 @@
 title: "Data Analytics"
 ---
 
-## Data Analyst Roles at GitLab
-
-Read more about this role in the [Data Analytics Handbook Page](/enterprise-data/organization/analytics/).
-
 ## Responsibilities
 
 - Collaborate cross-functionally to deeply understand business questions, and design single-source-of-truth reports and dashboards to address them
 - Enable data-driven decision-making through the detection of trends, discovery of anomalies/nuances, and identification of potential opportunities for growth / improvement
 - Craft SQL code and dashboards that meet our internal standards for style, maintainability, and best practices for a high-scale analytics environment. Maintain and advocate for these standards through code review.
-- Partner with [Analytics Engineers](/job-families/finance/analytics-engineer/), [Data Engineers](/job-families/finance/data-engineer/), and [Governance/Quality Analysts](/job-families/finance/data-governance-and-quality-analyst/) to contribute to the enterprise data model and deliver trusted data sources and reports
+- Partner with [Analytics Engineers](/job-families/marketing/enterprise-data/analytics-engineer/), [Data Engineers](/job-families/marketing/enterprise-data/data-engineer/), and [Governance/Quality Analysts](/job-families/marketing/enterprise-data/data-governance-and-quality-analyst/) to contribute to the enterprise data model and deliver trusted data sources and reports
 - Understand and contribute to the full lifecycle of data in our [Data Catalog](/handbook/enterprise-data/data-catalog/), applying the DataOps philosophy (including an emphasis on automation and continuous iteration/deployment) across the development lifecycle
 - Deliver high-quality, actionable reports and data products to functional stakeholders and the enterprise at large
 - Conduct comprehensive data quality checks and validation against source systems to ensure data accuracy
@@ -61,7 +57,7 @@ An intern must:
 
 ### Junior Data Analyst
 
-The Junior Data Analyst reports to the [Manager, Data.](/job-families/finance/manager-data)
+The Junior Data Analyst reports to the [Manager, Data.](/job-families/marketing/enterprise-data/manager-data)
 
 #### Junior Data Analyst Job Grade
 
@@ -79,7 +75,7 @@ The Junior Data Analyst Requirements extend the Requirements section above and i
 
 ### Data Analyst (Intermediate)
 
-The Data Analyst (Intermediate) reports to the [Manager, Data.](/job-families/finance/manager-data)
+The Data Analyst (Intermediate) reports to the [Manager, Data.](/job-families/marketing/enterprise-data/manager-data)
 
 #### Data Analyst (Intermediate) Job Grade
 
@@ -104,7 +100,7 @@ The requirements of the Data Analyst extend the Junior Data Analyst role and inc
 
 ### Senior Data Analyst
 
-The Senior Data Analyst reports to the [Manager, Data.](/job-families/finance/manager-data)
+The Senior Data Analyst reports to the [Manager, Data.](/job-families/marketing/enterprise-data/manager-data)
 
 #### Senior Data Analyst Job Grade
 
@@ -132,11 +128,11 @@ The requirements of the Senior Data Analyst extend the Data Analyst (Intermediat
 
 ### Staff Data Analyst
 
-The Staff Data Analyst reports to the [Manager, Data.](/job-families/finance/manager-data)
+The Staff Data Analyst reports to the [Manager, Data.](/job-families/marketing/enterprise-data/manager-data)
 
 #### Staff Data Analyst Job Grade
 
-The Senior Data Analyst is a [grade 8](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades) and is equivalent to the [Manager,Data (Intermediate)](/job-families/finance/manager-data/#manager-data-intermediate) job grade.
+The Senior Data Analyst is a [grade 8](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades) and is equivalent to the [Manager,Data (Intermediate)](/job-families/marketing/enterprise-data/manager-data/#manager-data-intermediate) job grade.
 
 #### Staff Data Analyst Responsibilities
 
@@ -184,7 +180,7 @@ As with other job families in the Enterprise Data team, Data Analysts are evalua
 
 ### Career Ladder
 
-The next step in the Data Analyst job family is to move to the [Data Management](/job-families/finance/manager-data/) job family.
+The next step in the Data Analyst job family is to move to the [Data Management](/job-families/marketing/enterprise-data/manager-data/) job family.
 
 ## Hiring Process
 

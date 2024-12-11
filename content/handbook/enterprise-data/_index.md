@@ -85,12 +85,12 @@ The [Enterprise Insights & Data Science Team](/handbook/enterprise-data/organiza
 
 The job families are designed to support all of the routine activities expected of a Data Team. In FY22 we are introducing two new job families, Data Scientist and Analytics Engineer.
 
-* [Data Analyst](/job-families/finance/data-analyst/)
-* [Data Scientist](/job-families/finance/data-science)
-* [Analytics Engineer](/job-families/finance/analytics-engineer/)
-* [Data Engineer](/job-families/finance/data-engineer/)
-* [Manager, Data](/job-families/finance/manager-data/)
-* [Director, Data](/job-families/finance/data-and-insights-executive/)
+* [Data Analyst](/job-families/marketing/enterprise-data/data-analyst/)
+* [Data Scientist](/job-families/marketing/enterprise-data/data-science)
+* [Analytics Engineer](/job-families/marketing/enterprise-data/analytics-engineer/)
+* [Data Engineer](/job-families/marketing/enterprise-data/data-engineer/)
+* [Manager, Data](/job-families/marketing/enterprise-data/manager-data/)
+* [Director, Data](/job-families/marketing/enterprise-data/data-and-insights-executive/)
 
 ### How We Measure Impact
 

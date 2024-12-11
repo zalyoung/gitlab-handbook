@@ -2,15 +2,15 @@
 title: "Data Management"
 ---
 
-The Manager, Data is responsible for delivering trusted data and analytics results to help GitLab make better and faster decisions by creating, developing, and leading a [high-performance](/handbook/leadership/build-high-performing-teams/) Team and continually improving the Data Platform along the [Data Capability Model](/handbook/enterprise-data/direction/#data-capability-model).
+The Manager, Data is responsible for delivering trusted data and analytics results to help GitLab make better and faster decisions by creating, developing, and leading a [high-performance](/handbook/people-group/learning-and-development/manager-development/high-performing-teams/) Team and continually improving the Data Platform along the [Data Capability Model](/handbook/enterprise-data/direction/#data-capability-model).
 The Manager, Data possesses a broad range of people skills and technical skills across the Data domain, as well as business acumen required to establish trusted partnerships with people inside and outside of GitLab.
-The Manager, Data reports to the [Director/Senior Director, Data and Analytics](/job-families/finance/data-and-insights-executive/#director-data-and-analytics).
+The Manager, Data reports to the [Director/Senior Director, Data and Analytics](/job-families/marketing/enterprise-data/data-and-insights-executive/#director-data-and-insights).
 
 ## Levels
 
 ### Manager, Data (Intermediate)
 
-The Manager, Data may report to the [Senior Manager, Data](/job-families/finance/manager-data/#senior-manager-data) or to the [Director/Senior Director, Data and Analytics](/job-families/finance/data-and-insights-executive/#director-data-and-analytics).
+The Manager, Data may report to the [Senior Manager, Data](/job-families/marketing/enterprise-data/manager-data/#senior-manager-data) or to the [Director/Senior Director, Data and Analytics](/job-families/marketing/enterprise-data/data-and-insights-executive/#director-data-and-insights).
 
 #### Job Grade
 
@@ -19,9 +19,9 @@ The Manager, Data is a [grade 8](/handbook/total-rewards/compensation/compensati
 #### Responsibilities
 
 - Help create a leading Data Program to support GitLab's [vision](/handbook/company/vision/#vision)
-- Manage, lead, and develop a [High-Performance](/handbook/leadership/build-high-performing-teams/) Team, including day-to-day assignments, bi-weekly milestone planning, [1-1s](/handbook/leadership/1-1/), quarterly objectives, and annual reviews
-- Manage operational components of the [Data Platform](/handbook/enterprise-data/platform/infrastructure/) to ensure updated data are available per [established SLOs](/handbook/enterprise-data/platform/#extract-and-load)
-- Work with all divisions to continually grow the value of our Data Platform by [onobarding new data](/handbook/enterprise-data/platform/#adding-new-data-sources-and-fields) from our SaaS, Telemetry, Product, and Corporate systems
+- Manage, lead, and develop a [High-Performance](/handbook/people-group/learning-and-development/manager-development/high-performing-teams/) Team, including day-to-day assignments, bi-weekly milestone planning, [1-1s](/handbook/leadership/1-1/), quarterly objectives, and annual reviews
+- Manage operational components of the [Data Platform](/handbook/enterprise-data/platform/infrastructure/) to ensure updated data are available per [established SLOs](/handbook/enterprise-data/platform)
+- Work with all divisions to continually grow the value of our Data Platform by [onobarding new data](/handbook/enterprise-data/platform) from our SaaS, Telemetry, Product, and Corporate systems
 - Understand the big picture and demonstrate how your team supports it through prioritization, planning, and solutioning
 - Participate in [Monthly Key Reviews](/handbook/company/key-review/) to represent Data and stay up-to-date of company developments
 - Implement the [DataOps](https://en.wikipedia.org/wiki/DataOps) philosophy in everything you do
@@ -98,13 +98,13 @@ The Senior Manager, Data is a [grade 9](/handbook/total-rewards/compensation/com
 
 ## Career Ladder
 
-The next step in the Data Management job family is to move to the [Director of Data](/job-families/finance/data-and-insights-executive/) job family.
+The next step in the Data Management job family is to move to the [Director of Data](/job-families/marketing/enterprise-data/data-and-insights-executive/) job family.
 
 ## Hiring Process
 
 Candidates for this position can expect the hiring process to follow the order below. Please keep in mind that candidates can be declined from the position at any stage of the process. To learn more about someone who may be conducting the interview, find their job title on our [team page](/handbook/company/team/).
 
-- Selected candidates will be invited to schedule a [screening call](/handbook/hiring/#screening-call) with our Global Recruiters
+- Selected candidates will be invited to schedule a [screening call](/handbook/hiring/candidate-faq/#screening-call) with our Global Recruiters
 - Next, candidates will be invited to schedule a first interview with our Director of Data & Analytics
 - Next, candidates will be invited to schedule one or more interviews with members of the Data Team
 - Next, candidates will be invited to schedule one or more interviews with Business Partners
@@ -139,7 +139,7 @@ The job requirements of this specialization include all of the requirements for 
 
 #### Manager, Data Platform Description
 
-The [Data Platform Team](/handbook/enterprise-data/#the-data-platform-team) closely partners with various teams across GitLab to facilitate making better decisions faster by developing and maintaining a Big Data Platform.
+The [Data Platform Team](/handbook/enterprise-data/platform) closely partners with various teams across GitLab to facilitate making better decisions faster by developing and maintaining a Big Data Platform.
 
 The job description of this specialization include all of the responsibilities for the **Manager, Data** role. In addition, responsibilities for the specialization include:
 
