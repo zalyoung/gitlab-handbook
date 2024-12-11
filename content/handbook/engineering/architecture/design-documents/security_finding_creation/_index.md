@@ -5,8 +5,8 @@ creation-date: "2024-12-04"
 authors: [ "@hacks4oats" ]
 coaches: [ "@theoretick" ]
 dris: [ "@johncrowley", "@tkopel" ]
-owning-stage: "~devops::application security testing"
-participating-stages: ["~devops::security risk management"]
+owning-stage: "~devops::security risk management"
+participating-stages: ["~devops::application security testing"]
 # Hides this page in the left sidebar. Recommended so we don't pollute it.
 toc_hide: true
 ---
@@ -42,6 +42,7 @@ data.
 
 ### Goals
 
+* Decouple security report parsing and security finding sourcing.
 * Reduce complexity of creating security findings from CycloneDX SBoMs.
 * Improved performance when loading security findings from database.
 
@@ -62,6 +63,12 @@ Create an API that has methods to create the following finding types:
 
 These methods replace the generic report finding class with new classes
 whose constructors clearly define the data required for each finding type.
+Refactor our security ingestion entrypoint to use a new method called
+`#collect_security_findings` instead of `#collect_security_reports`. This method
+will be responsible for collecting security findings from eligible sources. For
+example, CycloneDX SBoMs would be scanned for advisories affecting the listed
+components, and security reports would be parsed for the included security
+findings.
 
 ## Design and implementation details
 
@@ -89,6 +96,36 @@ Diagrams authored in GitLab flavored markdown are preferred. In cases where
 that is not feasible, images should be placed under `images/` in the same
 directory as the `index.md` for the proposal.
 -->
+
+The security ingestion looks like the following:
+
+```mermaid
+---
+config:
+    theme: "base"
+---
+flowchart
+    subgraph "non-default branch"
+    Pipeline[Pipeline] -->|uploads security reports| Rails[Rails]
+    Rails -->|schedules| StoreScansWorker[Security::StoreScansWorker]
+    StoreScansWorker -->|executes| StoreScansService[Security::StoreScansService]
+    StoreScansService -->|passes security reports grouped by artifact type| StoreGroupedScansService[Security::StoreGroupedScansService]
+    StoreScansService -->|schedules| ScanSecurityReportSecretsWorker[Security::ScanSecurityReportSecretsWorker]
+    StoreGroupedScansService -->|executes| StoreScanService[Security::StoreScanService]
+    StoreScanService -->|idempotently creates| Security::Scan
+    StoreScanService -->|idempotently creates one or more| Security::Finding
+    ScanSecurityReportSecretsWorker -->|executes| TokenRevocationService[Security::TokenRevocationService]
+    TokenRevocationService -->|revokes| LeakedToken
+    end
+
+    subgraph "default branch"
+    StoreScanService --> StoreSecurityReportsByProjectWorker[Security::StoreSecurityReportsByProjectWorker]
+    StoreSecurityReportsByProjectWorker --> IngestReportsService[Security::Ingestion::IngestReportsService]
+    IngestReportsService --> IngestReportService
+    IngestReportsService --> MarkAsResolvedService
+    IngestReportsService --> IngestReportSliceService
+    end
+```
 
 ## Alternative Solutions
 
