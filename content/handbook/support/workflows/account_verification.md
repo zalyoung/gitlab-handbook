@@ -138,4 +138,4 @@ If a reply is received within 7 days, account for it in the Risk Factor Workshee
 
 ## Account Ownership Changes
 
-This section has been [moved to the Account Changes workflow](../workflows/account_changes.md#account-ownership-changes").
+This section has been [moved to the Account Changes workflow](../workflows/account_changes.md#account-ownership-changes).
