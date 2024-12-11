@@ -72,30 +72,7 @@ findings.
 
 ## Design and implementation details
 
-<!--
-This section should contain enough information that the specifics of your
-change are understandable. This may include API specs (though not always
-required) or even code snippets. If there's any ambiguity about HOW your
-proposal will be implemented, this is the place to discuss them.
-
-If you are not sure how many implementation details you should include in the
-document, the rule of thumb here is to provide enough context for people to
-understand the proposal. As you move forward with the implementation, you may
-need to add more implementation details to the document, as those may become
-valuable context for important technical decisions made along the way. A
-document is also a register of such technical decisions. If a technical
-decision requires additional context before it can be made, you probably should
-document this context in a document. If it is a small technical decision that
-can be made in a merge request by an author and a maintainer, you probably do
-not need to document it here. The impact a technical decision will have is
-another helpful information - if a technical decision is very impactful,
-documenting it, along with associated implementation details, is advisable.
-
-If it's helpful to include workflow diagrams or any other related images.
-Diagrams authored in GitLab flavored markdown are preferred. In cases where
-that is not feasible, images should be placed under `images/` in the same
-directory as the `index.md` for the proposal.
--->
+### Overview of security ingestion
 
 The security ingestion looks like the following:
 
@@ -126,6 +103,46 @@ flowchart
     IngestReportsService --> IngestReportSliceService
     end
 ```
+
+### Points of interest
+
+* After `StoreGroupedScansService` finishes it's execution, security report
+  artifacts are no longer referenced, so the names `IngestReportsService`,
+  `IngestReportService`, and `IngestReportSliceService` are in fact all misnomers.
+  We should change their names to reference _findings_ instead.
+* [CycloneDX reports are not considered security finding sources](https://gitlab.com/gitlab-org/gitlab/blob/313de920ee86ddf30d1fa6872b1d05ce3e277e02/ee/app/models/ee/ci/pipeline.rb#L60-L64), but this assumption no longer holds true.
+* Rename [can_store_security_reports?] to [can_store_security_scans?]
+
+
+### Process changes
+
+**Before**
+
+```mermaid
+flowchart TD
+    Security::StoreScansWorker --> |asks for security reports from| Ci::Pipeline
+    Ci::Pipeline --> |converts| Ci::Artifact --> |into| Security::Report
+    Security::Report --> |returned to| Security::StoreScansWorker
+    Security::StoreScansWorker --> |calls| Security::StoreGroupedScansService
+    Security::StoreGroupedScansService --> |calls| Security::StoreScansService
+
+```
+
+**After**
+
+```mermaid
+flowchart TD
+    Security::StoreScansWorker --> |invokes #self_and_descendant_security_scan_sources on| Ci::Pipeline
+    Ci::Pipeline --> |returns| A[Ci::Artifact]
+    A[Ci::Artifact] --> |returned to| Security::StoreScansWorker
+    Security::StoreScansService --> |finds converter for| B[Ci::Artifact]
+    B[Ci::Artifact] --> |converted to| Security::Report
+    Security::StoreScansWorker --> |calls| Security::StoreGroupedScansService
+    Security::StoreGroupedScansService --> |calls| Security::StoreScansService
+```
+
+In the above, we remove the burden of artifact parsing from the pipeline model,
+and move it closer to where it's utilized.
 
 ## Alternative Solutions
 
