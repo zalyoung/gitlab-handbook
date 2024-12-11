@@ -3,3 +3,4 @@
 
 # The team page uses the `{{< team >}}` shortcode, so most anchors cannot be found by hugolint.
 /handbook/company/team
+/handbook/marketing/developer-relations/performance-indicators
