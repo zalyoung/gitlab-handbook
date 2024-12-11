@@ -20,7 +20,7 @@ Example Data Science projects include:
 - customer churn and uplift prediction
 - hypothesis testing and forecasting
 
-Data Scientists are a part of the [Data Team](/handbook/enterprise-data/) and report to the [Director/ Sr. Director, Data & Analytics](/job-families/finance/data-and-insights-executive/).
+Data Scientists are a part of the [Data Team](/handbook/enterprise-data/) and report to the [Director/ Sr. Director, Data & Analytics](/job-families/marketing/enterprise-data/data-and-insights-executive/).
 
 ## Job Grades
 
@@ -178,7 +178,7 @@ The Principal Data Scientist meets all of the requirements of an Staff Data Scie
 Candidates for this position can expect the hiring process to follow the order below. Please keep in mind that candidates can be declined from the position at any stage of the process.
 
 - Selected candidates will be invited to fill out a short questionnaire.
-- Qualified candidates will be invited to schedule a 30 minute [screening call](/handbook/hiring/interviewing/#screening-call) with one of our Global Recruiters.
+- Qualified candidates will be invited to schedule a 30 minute [screening call](/handbook/hiring/candidate-faq/#screening-call) with one of our Global Recruiters.
 - Next, candidates will be invited to schedule an interview with a member from our Data Science team
 - Next, candidates will be invited to schedule an interview with a member from our Data team
 - Next, candidates will be invited to schedule an interview with the business division DRI
@@ -190,7 +190,7 @@ Candidates for this position can expect the hiring process to follow the order b
 
 #### Full Stack Data Scientist Description
 
-Full Stack Data Scientist is a hybrid position between [Data Scientist](/job-families/finance/data-science/) and [Analytics Engineer](/job-families/finance/analytics-engineer/)
+Full Stack Data Scientist is a hybrid position between [Data Scientist](/job-families/marketing/enterprise-data/data-science/) and [Analytics Engineer](/job-families/marketing/enterprise-data/analytics-engineer/)
 
 In order for the Data Science team to scale and be successful, we need to develop and promote skills of Analytics Engineers on the team to deliver predictive models faster and more accurately. Full Stack Data Scientist will perform duties of Data Scientist by building predictive models, but also be responsible for backend to ensure smooth delivery.
 

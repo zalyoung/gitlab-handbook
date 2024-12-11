@@ -5,7 +5,7 @@ The Data Governance and Quality Program Manager is an individual contributor rol
 
 ## Data Governance and Quality Program Manager
 
-The Data Governance and Quality Program Manager reports to the [Director, Data Governance and Data Quality](/job-families/finance/data-and-insights-executive/#director-data-governance-and-quality)
+The Data Governance and Quality Program Manager reports to the [Director, Data Governance and Data Quality](/job-families/marketing/enterprise-data/data-and-insights-executive/#director-data-governance-and-quality)
 
 ### Data Governance and Quality Program Manager Job Grade
 
@@ -33,7 +33,7 @@ The Data Governance and Quality Program Manager is a [grade 6](/handbook/total-r
 
 ## Senior Data Governance and Quality Program Manager
 
-The Senior Data Governance and Quality Program Manager reports to the [Director, Data Governance and Data Quality](/job-families/finance/data-and-insights-executive/#director-data-governance-and-quality)
+The Senior Data Governance and Quality Program Manager reports to the [Director, Data Governance and Data Quality](/job-families/marketing/enterprise-data/data-and-insights-executive/#director-data-governance-and-quality)
 
 ### Senior Data Governance and Quality Program Manager Job Grade
 
@@ -61,7 +61,7 @@ All requirements of previous role plus
 
 ### Staff Data Governance and Quality Program Manager
 
-The Senior Data Governance and Quality Program Manager reports to the [Director, Data Governance and Data Quality](/job-families/finance/data-and-insights-executive/#director-data-governance-and-quality)
+The Senior Data Governance and Quality Program Manager reports to the [Director, Data Governance and Data Quality](/job-families/marketing/enterprise-data/data-and-insights-executive/#director-data-governance-and-quality)
 
 ### Staff Data Governance and Quality Program Manager Job Grade
 

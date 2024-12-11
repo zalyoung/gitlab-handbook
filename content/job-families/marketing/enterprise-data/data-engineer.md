@@ -6,7 +6,7 @@ The Data Engineer job family is focused on an analytical and business-oriented m
 
 ## Data Engineer (Junior)
 
-The Data Engineer (Junior) reports to the [Manager, Data.](/job-families/finance/manager-data)
+The Data Engineer (Junior) reports to the [Manager, Data.](/job-families/marketing/enterprise-data/manager-data)
 
 ### Data Engineer Job Grade
 
@@ -33,13 +33,13 @@ The Data Engineer (Junior) is a [grade 5](/handbook/total-rewards/compensation/c
 - Write maintainable, performant code
 - Implement the [DataOps](https://en.wikipedia.org/wiki/DataOps) philosophy in everything you do
 - Plan and execute system expansion as needed to support the company's growth and analytic needs
-- Collaborate with [Analytics Engineers](/job-families/finance/analytics-engineer/) and [Data Analysts](/job-families/finance/data-analyst/) to drive efficiencies for their work
+- Collaborate with [Analytics Engineers](/job-families/marketing/enterprise-data/analytics-engineer/) and [Data Analysts](/job-families/marketing/enterprise-data/data-analyst/) to drive efficiencies for their work
 - Collaborate with other functions to ensure data needs are addressed
 - This position is always [central](/handbook/enterprise-data/organization/) and reports to the Manager, Data
 
 ## Data Engineer (Intermediate)
 
-The Data Engineer (Intermediate) reports to the [Manager, Data.](/job-families/finance/manager-data)
+The Data Engineer (Intermediate) reports to the [Manager, Data.](/job-families/marketing/enterprise-data/manager-data)
 
 ### Data Engineer Job Grade
 
@@ -76,7 +76,7 @@ The Data Engineer (Intermediate) is a [grade 6](/handbook/total-rewards/compensa
 
 ## Senior Data Engineer
 
-The Senior Data Engineer reports to the [Manager, Data.](/job-families/finance/manager-data)
+The Senior Data Engineer reports to the [Manager, Data.](/job-families/marketing/enterprise-data/manager-data)
 
 ### Senior Data Engineer Job Grade
 
@@ -182,13 +182,13 @@ Business Justification: The principle level is to ensure data is captured, colle
 
 ### Career Ladder
 
-The next step in the Data Engineer job family is to move to the [Data Management](/job-families/finance/manager-data/) job family.
+The next step in the Data Engineer job family is to move to the [Data Management](/job-families/marketing/enterprise-data/manager-data/) job family.
 
 ## Hiring Process
 
 Candidates for this position can expect the hiring process to follow the order below. Please keep in mind that candidates can be declined from the position at any stage of the process. To learn more about someone who may be conducting the interview, find their job title on our [team page](/handbook/company/team).
 
-- Selected candidates will be invited to schedule a [screening call](/handbook/hiring/#screening-call) with one of our Global Recruiters
+- Selected candidates will be invited to schedule a [screening call](/handbook/hiring/candidate-faq/#screening-call) with one of our Global Recruiters
 - Next candidates will be invited to complete an assessment
 - On successful completion of the assessment, candidates will then be invited to schedule a first interview with the Hiring Manager
 - Candidates will then be invited to schedule two separate interviews with two  Peers from the Data team
@@ -198,4 +198,4 @@ Additional details about our process can be found on our [hiring page](/handbook
 
 ### Career Ladder
 
-The next step in the Data Engineer job family is to move to a Principal Job Level (`WIP`) or into the [Data Management](/job-families/finance/manager-data/) job family.
+The next step in the Data Engineer job family is to move to a Principal Job Level (`WIP`) or into the [Data Management](/job-families/marketing/enterprise-data/manager-data/) job family.

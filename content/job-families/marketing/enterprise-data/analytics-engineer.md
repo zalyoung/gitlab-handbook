@@ -2,11 +2,11 @@
 title: Analytics Engineering
 ---
 
-**Analytics Engineers** sit at the [intersection](/handbook/enterprise-data/#data-job-families) of business teams, [Data Analytics](/job-families/finance/data-analyst) and [Data Engineering](/job-families/finance/data-engineer) and are responsible for bringing robust, efficient, and integrated data models and products to life. Analytics Engineers speak the language of business teams and technical teams, they are able to translate data insights and analysis needs into models powered by the [Enterprise Data Platform](/handbook/enterprise-data/platform). The successful Analytics Engineer is able to blend business acumen with technical expertise and transition between business strategy and data development.
+**Analytics Engineers** sit at the [intersection](/handbook/enterprise-data/#data-job-families) of business teams, [Data Analytics](/job-families/marketing/enterprise-data/data-analyst) and [Data Engineering](/job-families/marketing/enterprise-data/data-engineer) and are responsible for bringing robust, efficient, and integrated data models and products to life. Analytics Engineers speak the language of business teams and technical teams, they are able to translate data insights and analysis needs into models powered by the [Enterprise Data Platform](/handbook/enterprise-data/platform). The successful Analytics Engineer is able to blend business acumen with technical expertise and transition between business strategy and data development.
 
 ## Associate Analytics Engineer
 
-The Associate Analytics Engineer reports to the [Manager, Data.](/job-families/finance/manager-data)
+The Associate Analytics Engineer reports to the [Manager, Data.](/job-families/marketing/enterprise-data/manager-data)
 
 ### Associate Analytics Engineer Job Grade
 
@@ -44,7 +44,7 @@ As a team member responsible for helping to bridge the gap between business and 
 
 ## Analytics Engineer (Intermediate)
 
-The Analytics Engineer reports to the [Manager, Data.](/job-families/finance/manager-data)
+The Analytics Engineer reports to the [Manager, Data.](/job-families/marketing/enterprise-data/manager-data)
 
 ### Analytics Engineer Job Grade
 
@@ -71,7 +71,7 @@ Requirements for the Analytics Engineer (Intermediate) extend the Associate Anal
 
 ## Senior Analytics Engineer
 
-The Senior Analytics Engineer reports to the [Manager, Data.](/job-families/finance/manager-data)
+The Senior Analytics Engineer reports to the [Manager, Data.](/job-families/marketing/enterprise-data/manager-data)
 
 ### Senior Analytics Engineer Job Grade
 
@@ -83,8 +83,8 @@ Responsibilities for the Senior Analytics Engineer extend the Analytics Engineer
 
 - Own one or more stakeholder relationship in Go To Market, Research & Development, or General & Administrative business functions
 - Serve as Data Model subject matter expert and data model spokesperson, demonstrated by the ability to address questions quickly and accurately
-- Advocate for the [Data Quality Program](/handbook/enterprise-data/data-quality/) and [Trusted Data](/handbook/enterprise-data/platform/#tdf) to help ensure all data is profiled, reviewed, and accurate to support critical decisions
-- Guide [Work Breakdown](/handbook/enterprise-data/how-we-work/planning/#work-breakdown) Sessions
+- Advocate for the [Data Quality Program](/handbook/enterprise-data/data-quality/) and [Trusted Data](/handbook/enterprise-data/platform) to help ensure all data is profiled, reviewed, and accurate to support critical decisions
+- Guide [Work Breakdown](/handbook/enterprise-data/how-we-work/planning/#work-breakdowns) Sessions
 - Organize and Plan quarter-long development initiatives per the [Data Team Planning Drumbeat](/handbook/enterprise-data/how-we-work/planning/)
 
 ### Senior Analytics Engineer Requirements
@@ -100,13 +100,13 @@ Requirements for the Senior Analytics Engineer extend the Analytics Engineer (In
 
 ## Staff Analytics Engineer
 
-The Staff Analytics Engineer reports to the [Manager, Data.](/job-families/finance/manager-data)
+The Staff Analytics Engineer reports to the [Manager, Data.](/job-families/marketing/enterprise-data/manager-data)
 
 ### Staff Analytics Engineer Job Grade
 
 The Staff Analytics Engineer is a [grade 8](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
 
-**Market Justification:** From a survey data perspective 98 companies have this role with an average of 3 employee incumbents in all industries. In tech there are 33 companies reporting an average of 2 employee incumbents. The business justification for Analytics Engineer Staff and Principal job grades is to retain and develop deep technical talent by establishing Individual Contributor focused career paths for our team members who do not want to move into [Data People Management](/job-families/finance/manager-data/). Despite residing in the Finance Division, all Data job families are deeply technical in nature and require knowledge of databases, SQL, and modeling. Education in a technical field, typically Computer Science, Mathematics, Management Information Systems, or Data Analytics is typical for individuals in Data careers. At GitLab, the Analytics Engineer role is critical to support the growing Data Program because it helps glue together the business-facing Data Analyst roles with the technology-focused Data Engineering roles by creating data solutions for both roles. The Analytics Engineer is a specialized in dbt, which GitLab has chosen as the standard for developing Trusted Data Models.
+**Market Justification:** From a survey data perspective 98 companies have this role with an average of 3 employee incumbents in all industries. In tech there are 33 companies reporting an average of 2 employee incumbents. The business justification for Analytics Engineer Staff and Principal job grades is to retain and develop deep technical talent by establishing Individual Contributor focused career paths for our team members who do not want to move into [Data People Management](/job-families/marketing/enterprise-data/manager-data/). Despite residing in the Finance Division, all Data job families are deeply technical in nature and require knowledge of databases, SQL, and modeling. Education in a technical field, typically Computer Science, Mathematics, Management Information Systems, or Data Analytics is typical for individuals in Data careers. At GitLab, the Analytics Engineer role is critical to support the growing Data Program because it helps glue together the business-facing Data Analyst roles with the technology-focused Data Engineering roles by creating data solutions for both roles. The Analytics Engineer is a specialized in dbt, which GitLab has chosen as the standard for developing Trusted Data Models.
 
 ### Staff Analytics Engineer Responsibilities
 
@@ -147,7 +147,7 @@ Specializations within the Staff Analytics Engineer extend the Senior Analytics 
 
 ## Principal Analytics Engineer
 
-The Principal Analytics Engineer reports to the [Manager, Data](/job-families/finance/manager-data) or [Director, Data & Analytics](/job-families/finance/data-and-insights-executive/#director-data-and-analytics).
+The Principal Analytics Engineer reports to the [Manager, Data](/job-families/marketing/enterprise-data/manager-data) or [Director, Data & Analytics](/job-families/marketing/enterprise-data/data-and-insights-executive/#director-data-and-insights).
 
 ### Principal Analytics Engineer Job Grade
 
@@ -193,7 +193,7 @@ Analytics Engineers are evaluated on their contributions to the four [Data Team 
 
 Candidates for this position can expect the hiring process to follow the order below. Please keep in mind that candidates can be declined from the position at any stage of the process.
 
-- Qualified candidates will be invited to schedule a 30 minute [screening call](/handbook/hiring/interviewing/#screening-call) with one of our Global Recruiters.
+- Qualified candidates will be invited to schedule a 30 minute [screening call](/handbook/hiring/candidate-faq/#screening-call) with one of our Global Recruiters.
 - Next, candidates will be invited to schedule a first interview with a Data Director or Manager
 - Next, candidates will be asked to complete a 'take home assessment' that is completed in their own time.
 - Next, candidates will be invited to schedule one or more interviews with members of the Data Team
