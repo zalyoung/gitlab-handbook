@@ -129,6 +129,7 @@ broken pipelines, deployments, etc.
 | Apps                    | v2   | N/A | [zendesk-global/apps](https://gitlab.com/gitlab-support-readiness/zendesk-global/apps) |
 | Articles                | v2   | N/A | [zendesk-global/articles](https://gitlab.com/gitlab-support-readiness/zendesk-global/articles) |
 | Automations             | v2   | [zendesk-global/automations](https://gitlab.com/gitlab-com/support/zendesk-global/automations) | [zendesk-global/automations](https://gitlab.com/gitlab-support-readiness/zendesk-global/automations) |
+| Dynamic Content         | v2   | N/A | [zendesk-global/dynamic-content](https://gitlab.com/gitlab-support-readiness/zendesk-global/dynamic-content) |
 | Groups                  | v2   | N/A | [zendesk-global/groups](https://gitlab.com/gitlab-support-readiness/zendesk-global/groups) |
 | Macros                  | v2   | [zendesk-global/macros](https://gitlab.com/gitlab-com/support/zendesk-global/macros) | [zendesk-global/macros](https://gitlab.com/gitlab-support-readiness/zendesk-global/macros) |
 | Organization Fields     | v2   | N/A | [zendesk-global/organizations/fields](https://gitlab.com/gitlab-support-readiness/zendesk-global/organizations/fields) |
