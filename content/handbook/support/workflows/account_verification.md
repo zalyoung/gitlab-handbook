@@ -7,7 +7,7 @@ description: "Workflow detailing how and when to verify account ownership includ
 
 ## Overview
 
-This workflow covers how a user can provide account verification. It should be used for any [account changes](/handbook/support/workflows/account_changes.md).
+This workflow covers how a user can provide account verification. It should be used for any [account changes](.../workflows/account_changes.md).
 
 Account actions can only be completed if the [workflow](#workflow) below is successful.
 
@@ -17,7 +17,7 @@ Account actions can only be completed if the [workflow](#workflow) below is succ
 
 As of Aug 16, 2023, GitLab.com now requires that users without 2FA enabled verify their email address when a login attempt meets certain high-risk criteria. Review the [blog post](https://about.gitlab.com/blog/2023/08/08/gitlab-account-security/) announcing this change. If a user contacts support with questions, use the [`Support::SaaS::Gitlab.com::Abuse::Email Address Verification`](https://gitlab.com/gitlab-com/support/zendesk-global/macros/-/blob/master/active/Support/SaaS/GitLab.com/Abuse/Email%20Address%20Verification.md?ref_type=heads) macro.
 
-If the user has questions about the email, phone, or credit card verification GitLab is requiring, please refer to the [Internal Handbook for the workflow](https://internal.gitlab.com/handbook/support/workflows/phone-number-verification) to follow.
+If the user has questions about the email, phone, or credit card verification GitLab is requiring, please refer to the [Internal Handbook for the workflow](https://internal.gitlab.com.../workflows/phone-number-verification) to follow.
 
 ### GitLab Team Members
 
@@ -25,7 +25,7 @@ If the user is a GitLab team member, have them [contact IT Ops](/handbook/it/end
 
 ## 2FA removal within GitLab
 
-See the [2FA Removal workflow](content/handbook/support/workflows/2fa-removal.md) for instructions to process 2FA removal requests.
+See the [2FA Removal workflow](.../workflows/2fa-removal.md) for instructions to process 2FA removal requests.
 
 ## Workflow
 
@@ -40,7 +40,7 @@ Do not allow the customer to bring up unrelated topics.
 
 Ensure that the ticket form, category, subcategory, and topic are accurate.
 
-Most SaaS Account categories have [automations](/handbook/support/readiness/operations/docs/zendesk/automations.md) or [triggers](/handbook/support/readiness/operations/docs/zendesk/triggers.md).
+Most SaaS Account categories have [automations](../readiness/operations/docs/zendesk/automations.md) or [triggers](../readiness/operations/docs/zendesk/triggers.md).
 
 #### Account verification matrix
 
@@ -48,14 +48,14 @@ The table below provides a summary of the available verification options based o
 
 | Requester | Target | Challenges | Owner vouch | Notes |
 | --- | --- | --- | --- | --- |
-| Enterprise Owner | Own account | Owner passes challenges on own account | Owner vouch (if required) must be provided by a different owner | If no other owner is available for vouch, see [internal handbook](https://internal.gitlab.com/handbook/support) for other challenges. |
+| Enterprise Owner | Own account | Owner passes challenges on own account | Owner vouch (if required) must be provided by a different owner | If no other owner is available for vouch, see [internal handbook](https://internal.gitlab.com...) for other challenges. |
 | Enterprise Owner | Member of paid group or intent to be added | Owner or target user passes challenges on their own account | Owner vouch can be from requesting owner |  Multiple enterprise users may be handled per ticket. Target user does not have to be CC'd on ticket. |
 | Owner | Non-enterprise user | Target user passes challenges on own account | Owner can vouch | One user per ticket. Communication is direct from the target user who must be CC'd on ticket.  |
 | Paid User | Own account | User passes challenges on own account | Owner can vouch |  |
 | Paid User | Other member of same paid group | Target user passes challenges on own account |  | Communication is direct from the target user who must be CC'd on ticket. |
 | Free User | Non-member of group with intent to be added | Not allowed - request must come from group owner | Owner vouch required |  |
 
-See the [Enterprise User section](/handbook/support/workflows/gitlab-com_overview.md#enterprise-users") on how to identify if a user is an Enterprise User.
+See the [Enterprise User section](../workflows/gitlab-com_overview.md#enterprise-users") on how to identify if a user is an Enterprise User.
 
 ### Step 1: Sending Challenges
 
@@ -66,7 +66,7 @@ If you need a basis for a response where you send the challenges, use the [`Supp
 > **Note**: In case the user sends back very minimal information and it's clear it's not sufficient or the answers are vague, reply asking for more information immediately after their response. You can provide some additional guidance, such as "please provide the exact date and time of the commit, not just an approximate one".
 
 1. To verify the challenge answers, the Zendesk GitLab User Lookup App or, for those who have admin access, check at `https://gitlab.com/admin/users/USERNAME`.
-1. Use the ZenDesk GitLab Super App's 2FA Helper to determine the [risk factor](https://internal.gitlab.com/handbook/support/#risk-factors-for-account-ownership-verification) (GitLab internal) based on the user's answers. Data classification criteria and any notes are in the [Internal Handbook - Data Classification table](https://internal.gitlab.com/handbook/support/#data-classification) (GitLab internal), which is considered the source of truth. If you need to leave a comment manually (instead of through the app), use the [`Support::SaaS::Gitlab.com::2FA::2FA Internal Note` macro](https://gitlab.com/gitlab-com/support/zendesk-global/macros/-/blob/master/active/Support/SaaS/GitLab.com/2FA/2FA%20Internal%20Note.md?ref_type=heads) to put an internal note on the ticket.
+1. Use the ZenDesk GitLab Super App's 2FA Helper to determine the [risk factor](https://internal.gitlab.com.../#risk-factors-for-account-ownership-verification) (GitLab internal) based on the user's answers. Data classification criteria and any notes are in the [Internal Handbook - Data Classification table](https://internal.gitlab.com.../#data-classification) (GitLab internal), which is considered the source of truth. If you need to leave a comment manually (instead of through the app), use the [`Support::SaaS::Gitlab.com::2FA::2FA Internal Note` macro](https://gitlab.com/gitlab-com/support/zendesk-global/macros/-/blob/master/active/Support/SaaS/GitLab.com/2FA/2FA%20Internal%20Note.md?ref_type=heads) to put an internal note on the ticket.
    - Challenge answers must be evaluated against a paid namespace if the user is a member of any paid namespace. If the user is not a member of a paid namespace, refer to [Conditions for 2FA Reset Consideration](./2fa-removal.md#conditions-when-account-is-used-to-access-customers-portal) for further guidance.
 
 1. **If verification passed:** Request that your decision be peer-reviewed by another member of the team via Slack `#support_gitlab-com`. They will perform the steps in 3a
@@ -77,8 +77,8 @@ If you need a basis for a response where you send the challenges, use the [`Supp
 This section is typically done by the peer reviewer. If needed, the peer reviewer (or approving manager) may leave an approval note, in which case the original reviewer will perform the actions.
 
 1. If you agree with the decision, sign into your admin account and locate the username in the users table or by going to `https://gitlab.com/admin/users/usernamegoeshere`
-      1. Please see [Account Changes workflow](/handbook/support/workflows/account_changes.md).
-      1. Under the account tab, click `Edit`, add an [Admin Note](/handbook/support/workflows/admin_note.md), and save.
+      1. Please see [Account Changes workflow](.../workflows/account_changes.md).
+      1. Under the account tab, click `Edit`, add an [Admin Note](.../workflows/admin_note.md), and save.
 
 ### Step 3b: User Fails to Prove Account Ownership
 
@@ -138,4 +138,4 @@ If a reply is received within 7 days, account for it in the Risk Factor Workshee
 
 ## Account Ownership Changes
 
-This section has been [moved to the Account Changes workflow](/handbook/support/workflows/account_changes.md#account-ownership-changes").
+This section has been [moved to the Account Changes workflow](.../workflows/account_changes.md#account-ownership-changes").
