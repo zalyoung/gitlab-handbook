@@ -157,12 +157,12 @@ Infrastructure Department structure is documented [here](/handbook/engineering/i
 ```mermaid
 graph TD
     A[Test Platform sub-department]
-    A --> B(Self-Managed Platform team)
+    A --> B(Performance Enablement)
     A --> C(Test Engineering team)
     A --> D(Test and Tools Infrastructure team)
 
     click A "/handbook/engineering/infrastructure/test-platform"
-    click B "/handbook/engineering/infrastructure/test-platform/self-managed-platform-team"
+    click B "/handbook/engineering/infrastructure-platforms/developer-experience/performance-enablement"
     click C "/handbook/engineering/infrastructure/test-platform/test-engineering-team"
     click D "/handbook/engineering/infrastructure/test-platform/test-and-tools-infrastructure-team"
 ```
@@ -174,7 +174,7 @@ Feel free to reach out to us by opening an issue on the [Quality Team Tasks proj
 | Team                           | GitLab.com handle  | Slack channel | Slack handle |
 | ------------------------------ | ------------------ | ------------- | ------------ |
 | Test Platform            | [`@gl-quality/tp-sub-dept`](https://gitlab.com/gl-quality/tp-sub-dept) | [#test-platform](https://gitlab.slack.com/archives/C3JJET4Q6) | None |
-| [Self-Managed Platform team](self-managed-platform-team) | [`@gl-quality/tp-self-managed-platform`](https://gitlab.com/gl-quality/tp-self-managed-platform) | [#self-managed-platform-team](https://gitlab.slack.com/archives/CTP7N0PM4) | `@self-managed-platform` |
+| [Self-Managed Platform team](/handbook/engineering/infrastructure-platforms/developer-experience/performance-enablement) | [`@gl-quality/tp-self-managed-platform`](https://gitlab.com/gl-quality/tp-self-managed-platform) | [#self-managed-platform-team](https://gitlab.slack.com/archives/CTP7N0PM4) | `@self-managed-platform` |
 | [Test Engineering team](test-engineering-team) | [`@gl-quality/tp-test-engineering`](https://gitlab.com/gl-quality/tp-test-engineering) | [#test-engineering-team](https://gitlab.slack.com/archives/C064M4S0FU5) |`@test-engineering-team` |
 | [Test and Tools Infrastructure team](test-and-tools-infrastructure-team)     | [`@gl-quality/tp-test-tools-infrastructure`](https://gitlab.com/gl-quality/tp-test-tools-infrastructure)  |  [`#test-tools-infrastructure-team`](https://gitlab.slack.com/archives/C064M4D2V37)  | `@test-tools-infrastructure` |
 
@@ -186,7 +186,7 @@ Feel free to reach out to us by opening an issue on the [Quality Team Tasks proj
 
 ### Individual contributors
 
-The following people are members of the [Self-Managed Platform team](self-managed-platform-team):
+The following people are members of the [Self-Managed Platform team](/handbook/engineering/infrastructure-platforms/developer-experience/performance-enablement):
 
 {{< team-by-manager-slug "ksvoboda" >}}
 

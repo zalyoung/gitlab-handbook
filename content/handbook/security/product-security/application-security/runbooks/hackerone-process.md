@@ -112,6 +112,16 @@ the responsible engineering team:
   - If the report is for a bug that can be detected without authentication (in GitLab or anything else we host) consider reaching out to the Red Team or Vulnerability Management to help create a Nuclei template that we can include into our scanning
 - Remember to review the `Pending Disclosure` tab and follow [our disclosure process](#closing-out--disclosing-issues)
 
+#### Calculating CVSS for Vulnerability Chaining
+
+Typically, each HackerOne report discloses a single vulnerability. However, sometimes a single report uses two or more newly discovered vulnerabilities chained together for increased impact.
+
+When a single report discloses two or more new vulnerabilities being chained together for greater impact, calculate the CVSS for each individual vulnerability *and* an additional "vulnerability chaining" CVSS score for the combined impact. Share both the individual CVSS scores and the "vulnerability chaining" CVSS score in the corresponding bug bounty council issue.
+
+The CVSS of each individual vulnerability will be used for the CVEs issued for each vulnerability. The "vulnerability chaining" CVSS will be used to determine bounty award for the report.
+
+For future reports that involve "vulnerability chaining" with previously disclosed vulnerabilities, only calculate the CVSS for newly disclosed vulnerabilities. In such cases, only the new vulnerabilities in the chain will be eligible for a "vulnerability chaining" CVSS-based bounty.
+
 ## Triaging exposed secrets
 
 <details>

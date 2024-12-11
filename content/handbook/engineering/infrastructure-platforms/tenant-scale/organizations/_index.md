@@ -42,13 +42,13 @@ The executive summary goals for the Tenant Scale group include:
 
 The following people are permanent members of the Tenant Scale group:
 
-{{% team-by-manager-slug manager="sissiyao" %}}
+{{% team-by-manager-slug manager="nick-nguyen" team="Organizations" %}}
 
 ### Stable Counterparts
 
 The following members of other functional teams are our stable counterparts:
 
-{{% stable-counterparts manager="sissiyao" role="Tenant Scale|Principal Engineer, Data Stores|Senior Distinguished Engineer, Ops and Core Platform" %}}
+{{% stable-counterparts manager="glopezfernandez" role="Tenant Scale|Principal Engineer, Data Stores|Senior Distinguished Engineer, Ops and Core Platform" %}}
 
 ## Projects
 

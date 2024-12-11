@@ -168,15 +168,26 @@ Shifts are assigned based on the working hours that you selected during onboardi
 
 ### What if I work a shift on a weekend or holiday?
 
-There is time in-lieu in accordance with local laws when an Incident Manager's
-shift falls on a weekend or public holiday.
+When you are on-call, there is no expectation for you to be sitting at your laptop for the whole shift. You are required to be in a position to acknowledge a page and to join the Slack or Zoom call within 15 minutes. We still want to offer time-in-lieu for this distruption of making yourself available during the weekend and holidays. 
+Everyone is encouraged to explore options that work best for their personal
+situations in lieu of weekend shifts. When on-call you have the following
+possibilities:
 
-Example scenarios:
+1. Swap weekend days and weekdays.
+1. Swap hours between weekend days and weekdays.
+1. Take up to double the time off for any time worked during the weekend when the
+   above two options don’t work with your personal schedule.
+   1. When an Incident Manager is in standby mode (e.g. not paged) during the weekend shift,
+      they can take 1.25x time-off.
+   1. When an Incident Manager is in call-back mode (e.g. being paged) during the weekend
+      shift, they can take double the time-off.
+   1. For those who reside in Australia, please refer to these [guidelines of time in lieu](/handbook/total-rewards/benefits/general-and-entity-benefits/pty-benefits-australia/#on-call-engineering-only) in the handbook.
+1. Other alternatives that promote work-life balance and have the least impact to
+   your personal schedule.
 
-1. Tanuki is scheduled for the Thursday-Sunday IM shift.
-   - They do what they usually do on Monday during Saturday shift and take Monday off.
-   - During the Sunday shift they stay home to play with their daughters. They finished their days earlier this week to rest, but also considered taking half of Friday off that week.
-1. Tanuki is scheduled for the Friday-Monday Incident Manager shift. Knowing that the week after the shift will be very busy, they take Thursday before the shift off. They spend the weekend decluttering the basement where their phone is in ears reach.
+Please create an OOO event in Workday and choose **On-Call Time in Lieu**.
+
+It is important to abide by local labor laws and you are encouraged to understand if there are restrictions around your working time. The purpose of this information is to encourage you to take time off according to your schedule to account for the interruption to your weekend.
 
 If you still have more questions, feel free to ask for guidance in the
 `#im-general` slack channel.

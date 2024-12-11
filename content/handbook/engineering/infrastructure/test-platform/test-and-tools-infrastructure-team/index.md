@@ -3,6 +3,8 @@ title: "Test and Tools Infrastructure Team"
 description: "Test and Tools Infrastructure Team in Test Platform sub-department"
 ---
 
+> ℹ️ Note: This page is deprecated. The team has been restructured as Development Analytics under the Developer Experience Stage. Please visit the [Development Analytics handbook page](../../../infrastructure-platforms/developer-experience/development-analytics/) for current information.
+
 ## Common Links
 
 | **Category**            | **Handle** |

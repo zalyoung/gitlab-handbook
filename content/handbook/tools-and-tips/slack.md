@@ -215,4 +215,10 @@ As a GitLab Team Member, you can view the active slackbots that we use in Slack,
 
 ## Security
 
+### Sign-in requirements
+
 Every 90 days, all users will be logged out of Slack and will need to re-authenticate on each of their devices via Okta. This is to ensure that all BYOD devices are registered with a current Okta Verify client and are visible in the Okta Administration dashboard. It will also ensure that there are no indefinite sessions on devices temporarily exempted from [Okta Verify Device Trust](/handbook/security/corporate/systems/okta/verify/).
+
+### Profile deletion
+
+Beginning in December 2024, and going forward in June and December of each year, CorpSec will request from Slack support to delete profiles that have been deactivated for more than five years. For former team members who have left GitLab less than 5 years ago, we will use the API to remove all fields except for Name, GitLab Email, Title and GitLab.com username, which will remain for current team members to find historical context on earlier epics, merge requests and issues.

@@ -422,7 +422,7 @@ We demonstrate results when we do what we promised to each other, customers, use
   </tr>
   <tr>
     <td class="tg-0lax">8</td>
-    <td class="tg-0lax">Coaches team members to collaborate and work iteratively towards results with the focus on the outcome and not hours worked.</td>
+    <td class="tg-0lax">Coaches team members to collaborate and work iteratively towards impact with the focus on the outcome and not activity worked.</td>
     <td class="tg-0lax" rowspan="6"><a href="https://docs.google.com/forms/d/e/1FAIpQLSf9ZFJb3Fx86rI_Fmk1X88jSuDDvz9p4WLTfBmkYCmgrFDOgw/viewform">Knowledge Assessment for People Leaders</a></td>
   </tr>
   <tr>
@@ -837,7 +837,7 @@ When we iterate at GitLab, we break up the work that we know we need to do into 
 1. Ensure global optimization (use standardized systems)
 1. Plan beyond the iteration
 
-Iteration does not require us to ship features that are open to all users from day one. Feedback could come from internal users or a limited number of external users (early access program). It also is not a replacement for having a plan. We expect you to know where you are going, but you can iterate to get there.
+Iteration does not require us to ship features that are open to all users from day one. Feedback can come from internal users or a limited number of external users (early access program). Moving through the [release process is not iteration](#the-release-process-is-not-iteration) though. Iteration is also not a [replacement for having a plan](#iteration-is-no-substitute-for-planning). We expect you to know where you are going, but you can iterate to get there.
 
 An iteration might be additive (adding something) or subtractive (removing something). If you make suggestions that can be excluded from the first iteration, turn them into a separate issue that you link.
 
@@ -873,6 +873,21 @@ Iteration without a plan can lead to inefficiencies and a subpar customer experi
 1. Marketing: When we'd launch marketing (doesn't have to be at release)
 1. Secure by design: default to the most secure configuration
 
+##### The release process is not iteration
+
+Moving through the release process is not iteration.
+
+The release process can include:
+
+- [Dogfooding](#dogfooding)
+- [Early access](https://docs.gitlab.com/ee/policy/early_access_program/)
+- Incremental release using [a feature flag](https://docs.gitlab.com/ee/development/feature_flags/)
+- [Development stage progression](https://docs.gitlab.com/ee/policy/experiment-beta-support.html) (such as experiment to beta)
+- Release
+- Announcement
+
+While [development stages](https://docs.gitlab.com/ee/policy/experiment-beta-support.html) can be used to indicate release progress, is not itself iteration.
+
 ##### Iterate toward global maximum
 
 If we are not aware of interdependencies beyond our team, and we are not collaborating with others across the organization, we risk deliverables that settle into a "local maximum" of quality, richness, and efficiency. This localization is largely defined by team structure and organizational boundaries. While an iteration can take place within a single team, that team is responsible for identifying inter-dependencies and proactively communicating and aligning with other teams working on related projects. This helps ensure that iterations are not "half-baked" and align with work being done across the entire organization.
@@ -902,7 +917,7 @@ Iteration does not mean being open to all users from day one. If you do a gradua
 
 ##### Reduce cycle time
 
-Short iterations reduce [our cycle time](https://about.gitlab.com/stages-devops-lifecycle/value-stream-analytics/).
+Short iterations reduce [our cycle time](https://about.gitlab.com/stages-devops-lifecycle/value-stream-analytics/). Merging frequently also prevents merge conflicts.
 
 ##### Work as part of the community
 
@@ -994,16 +1009,16 @@ process; not to prohibit, but to be more deliberate in our iteration. The change
 
 Iteration is often counterintuitive and difficult to do. To clarify what an iteration is, it helps to see examples of what is not an iteration. Below are 12 examples of things we've seen mistaken as iteration, but don't meet our definition of iteration.
 
-1. Reducing quality
+1. Reducing quality, or lowering goal posts
 1. Avoiding or reducing documentation
 1. Compromising on security
 1. Delivering something that's not the recommended path or on by default
 1. Shipping something of no value
 1. An excuse to focus on unimportant items
-1. Changing or lowering goal posts
+1. [Moving through the release process](#the-release-process-is-not-iteration)
 1. Revisions you don't ship or publish
 1. An excuse to impose unrealistically tight timelines
-1. An excuse to avoid planning
+1. [An excuse to avoid planning](#iteration-is-no-substitute-for-planning)
 1. Imposing long hours
 1. Expecting others to fix your work
 
@@ -1259,7 +1274,7 @@ These perspectives may also uncover potential risks and problems in the project.
 
 There shouldn't be a ["Don't they have their job to do?"](https://www.youtube.com/watch?v=U9de50APPAg) type of response.
 Furthermore, we shouldn't judge team members who are perceived as being the "squeaky wheel."
-At GitLab, we [measure results, not hours](../../teamops/measurement-clarity.md#measure-results-not-hours).
+At GitLab, we [measure impact, not activity](../../teamops/measurement-clarity.md#measure-impact-not-activity).
 As long as a team member is producing required results, they are empowered to decide how to spend their time.
 
 On the other hand, as GitLab grows in size, we need to make decisions and the decisions may not be agreed to by everyone.

@@ -1794,24 +1794,38 @@ Announcement Channels
 
 ### Sales Dev Performance Management Process
 
-| Quota Component                         | Criteria                                                                                                                                                                  |
-|----------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| SAOs/Stage 1 ARR                       | - Informal performance management begins when a ramped XDR has two consecutive months below 80% attainment                                                                          |
-|                                        | - After two such months, the XDR is informed that they have to achieve the following or they will enter formal performance management:                                                                                                                    |
-|                                        | - Reach at least 80% to their quota **each of the next two months**                                                                                                                                           |
-|                                        | - Should they fall short of the above criteria in **either of the next two months**, they immediately move to a formal first email warning the following month                                                                                                                                                   |
-|                                        | - Should they fall short of the above criteria in **either of the next two months** after the first email warning, they immediately advance to a final email warning the following month                                                                                                                                                  |
-|                                        | - Should they fall short of the above criteria in **either of the next two months** after the final email warning, additional discipline will follow including possible termination                                                                                                                                              |
-|                                        | - After **two consecutive months** of meeting the above criteria in any phase of the process, the XDR will exit performance management  |
-| Stage 3 ARR                       | - Informal performance management begins when a ramped BDR has two consecutive months below 80% Stage 3 attainment                                                                          |
-|                                        | - After two such months, the BDR is informed that they have to achieve the following or they will enter formal performance management:                                                                                                                    |
-|                                        | - Reach at least 80% to their Stage 1 quota in **Actual Net ARR each of the next two months**                                                                                                                                         |
-|                                        | - Should they fall short of the above criteria in **either of the next two months**, they immediately move to a formal first email warning the following month                                                                                                                                                   |
-|                                        | - Should they fall short of the above criteria in **either of the next two months** after the first email warning, they immediately advance to a final email warning the following month                                                                                                                                                  |
-|                                        | - Should they fall short of the above criteria in **either of the next two months** after the final email warning, additional discipline will follow including possible termination                                                                                                                                              |
-|                                        | - After **two consecutive months** of meeting the above criteria in any phase of the process, the XDR will exit performance management  |
+The Sales Development organization believes in getting the job done (consistently delivering results) and doing it right (meeting KPI/SLAs, adhering to [Our Three Pillars](handbook/marketing/sales-development/#our-three-pillars), and being good partners both internally and externally). Our performance management process is deeply rooted in this philosophy. As we are building high-performing teams, it is important to understand that while we expect results, we also have expectations surrounding how we get to those results. Therefore, a performance management process will be initiated if a team member is not meeting their performance targets and/or is not adhering to their KPIs/SLAs. The idea behind our framework is to address issues promptly to ensure the long-lasting success of all team members.
 
-### Our three pillars
+The sections below will provide more details as to the performance management process on quota attainment as well as [Our Three Pillars](handbook/marketing/sales-development/#our-three-pillars) and KPIs/SLAs for inbound leads and outbound account management. While regular coaching is expected in weekly 1:1s, informal performance management will be initiated if a ramped team member has two consecutive months below 75-80%* attainment (SAOs, Stage 1 XDR Net ARR or Stage 3 Net ARR).
+
+_*Range due to varied quotas_
+
+#### SAOs and Stage 1 XDR Net ARR 
+
+Once the team member is informed, expectations will be:
+
+- Month 1: 75-80% attainment + adherence to [Our Three Pillars](handbook/marketing/sales-development/#our-three-pillars)
+- Month 2: 75-90% attainment + adherence to [Our Three Pillars](handbook/marketing/sales-development/#our-three-pillars)
+- Month 3 and beyond: 100% attainment + adherence to [Our Three Pillars](handbook/marketing/sales-development/#our-three-pillars)
+
+Should the team member fall short of the targets above, a formal warning will be issued. 
+After the formal warning is issued if the team member falls short of targets again, additional disciplinary action could be taken up to and including termination.
+
+#### Stage 3 Net ARR
+
+As a business we understand that Stage 3 Net ARR is a metric that can take time to influence. We are viewing Stage 3 Net ARR attainment as an indicator of healthy pipeline generation. Two consecutive months below monthly quota attainment suggests potential issues. Stage 3 Net ARR is a direct consequence of Stage 1 Net ARR. Therefore, performance management will focus on what can be immediately influenced by a team member: Stage 1 Net ARR (not Stage 1 XDR Net ARR stamped amounts, but real opportunity value: Stage 1 Net ARR).
+
+The process, however, will
+ stay the same: once the team member is informed, expectations will be:
+
+- Month 1: 80% attainment + adherence to [Our Three Pillars](handbook/marketing/sales-development/#our-three-pillars)
+- Month 2: 90% attainment + adherence to [Our Three Pillars](handbook/marketing/sales-development/#our-three-pillars)
+- Month 3 and beyond: 100% attainment + adherence to [Our Three Pillars](handbook/marketing/sales-development/#our-three-pillars)
+
+Should the team member fall short of the targets above, a formal warning will be issued. 
+After a  formal warning is issued if the team member falls short of targets again, additional disciplinary action could be taken up to and including termination.
+
+### Our Three Pillars
 
 | Task                               | Details                                                                                                                                                                                |
 |------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|

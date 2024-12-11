@@ -83,6 +83,55 @@ If you are helping a Recruiter source for an open REQ please verify the prospect
     - If the prospect does not respond before the REQ is filled, the Recruiter should reject all prospects in bulk and select the option to not send an email.
     - If the prospect responds with interest, the person who found them will select the option to "convert to candidate" in Greenhouse and will work to schedule a screen between the candidate and the Recruiter.
 
+#### **Assists**
+
+**What is an Assist?** 
+
+- An Assist is hiring credit given to a Recruiter who sourced or otherwise advanced a candidate through an interview process, and then handed off to another Recruiter resulting in a Hire. 
+
+**Characteristics of an Assist:**
+
+- You have sourced a passive candidate and/or completed a Recruiter Screen with a candidate
+- You have made an introduction between the candidate and the hiring Recruiter
+- Candidate is Hired to GitLab 
+
+**What is *not* an Assist?**
+
+- Applicants from other pipelines that have not yet been screened 
+
+**How to record:** 
+
+- Greenhouse: 
+  - Navigate to `Job Setup` -> `Hiring Team`
+  - Locate `Recruiter` field -> **add** the Recruiter receiving the Assist after your own name -> `save`
+    - Note: The person with `Recruiting Tasks` next to their name will be the Primary Recruiter.
+- Record the Assist in your team’s hiring tracker document (ie. PodSquad for Engineering)
+
+**FAQs:**  
+</details>
+<details><summary>Click to expand</summary>
+
+What is the purpose of an Assist? 
+
+- Assists are a great way to maintain activity during times of reduced hiring in your own business unit. They also provide an avenue to be rewarded for sourcing and interview activity if your own role fills or closes. 
+
+Who is responsible for documenting the Assist? 
+
+- The Closing Recruiter is expected to document the Assist when closing the role in Greenhouse, once the candidate has signed and all other candidates have been dispositioned. As a best practice, keep a record of candidates that have been handed off to you to maintain data integrity and proper credit. Assisting Recruiters may also [follow](https://support.greenhouse.io/hc/en-us/articles/203800369-Follow-Email-notifications-about-candidate-or-prospect) candidates in GH after the handoff to keep notified of their status.
+
+Will my hiring goals be affected as a result of this change? 
+
+- No, hiring goals will remain the same. Any Assists will contribute to your overall performance. 
+
+Will the Recruiter responsible for hiring the candidate also get credit? 
+
+- Yes, both the Recruiter who made the introduction and the Recruiter who closed the candidate will receive credit for this hire. This is similar to a Sourcer/Recruiter dynamic.</details>
+
+**Reporting:**
+
+- Run: Greenhouse -> Reports -> Essentials Library -> Reports -> All Jobs Summary -> customize filter fields as desired -> Apply
+- Result: Primary Recruiter = Closing Recruiter, Secondary Recruiter = Assist
+
 #### **Use Greenhouse to track prospects**
 
 - Use the [Follow](https://support.greenhouse.io/hc/en-us/articles/203800369-Follow-Email-Notifications-About-Candidate-or-Prospect) button to get timely updates on the candidate's status.

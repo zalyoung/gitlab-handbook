@@ -35,7 +35,7 @@ At GitLab, there are two types of patch releases processes:
    the [security remediation SLAs](/handbook/security/product-security/vulnerability-management/sla/). Patches that include
    [`critical` vulnerabilities](/handbook/security/product-security/vulnerability-management/sla/) will be considered critical patches.
 1. **Unplanned**: An immediate patch required outside of the planned patch release cadence to mitigate a high-severity (critical) vulnerability. These ad-hoc patches
-   are the result of an incident, they require an RCA done by the team that introduced the high-severity vulnerability and forced an unplanned release. The AppSec
+   are the result of an incident, they require a [security RCA](/handbook/security/root-cause-analysis/) done by the team that introduced the high-severity vulnerability and forced an unplanned release. The AppSec
    team is responsible for assessing the vulnerability, working with engineering to decide on the best approach to resolve it and coordinating with release managers
    on a timeline for the release.
 

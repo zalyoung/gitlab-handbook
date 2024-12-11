@@ -62,7 +62,7 @@ In support of the Data Pod, the Manager, Data fulfills the below responsibilitie
 
 ### Lead Analytics Engineer (Stable Counterparts for the Business)
 
-In support of the Data Pod and Stable Counterpart relationships, the Lead Analytics Engineer fulfills the below responsibilities from the [Senior Analytics Engineer](/job-families/finance/analytics-engineer/#senior-analytics-engineer-responsibilities) Job Responsibilites:
+In support of the Data Pod and Stable Counterpart relationships, the Lead Analytics Engineer fulfills the below responsibilities from the [Senior Analytics Engineer](/job-families/marketing/enterprise-data/analytics-engineer/#senior-analytics-engineer-responsibilities) Job Responsibilites:
 
 1. Own one or more stakeholder relationship in Go To Market, Research & Development, General & Administrative, Financial Analytics, or Engineering Analytics business functions.
 1. Co-DRI of Key Results along with the Manager, Data.
@@ -174,7 +174,7 @@ See [Data Team Internships](/handbook/enterprise-data/organization/internships/)
 
 ### Analytics Engineering Job Family
 
-[Analytics Engineering Job Family](/job-families/finance/analytics-engineer)
+[Analytics Engineering Job Family](/job-families/marketing/enterprise-data/analytics-engineer)
 
 ```mermaid
   graph LR;
@@ -184,10 +184,10 @@ See [Data Team Internships](/handbook/enterprise-data/organization/internships/)
     supe:fae(Staff Analytics Engineer)-->supe:pae(Principal Analytics Engineer);
   end
 
-  click supe:ae "https://handbook.gitlab.com/job-families/finance/analytics-engineer#analytics-engineer-intermediate";
-  click supe:sae "https://handbook.gitlab.com/job-families/finance/analytics-engineer#senior-analytics-engineer";
-  click supe:fae "https://handbook.gitlab.com/job-families/finance/analytics-engineer#staff-analytics-engineer";
-  click supe:pae "https://handbook.gitlab.com/job-families/finance/analytics-engineer#principal-analytics-engineer";
+  click supe:ae "https://handbook.gitlab.com/job-families/marketing/enterprise-data/analytics-engineer#analytics-engineer-intermediate";
+  click supe:sae "https://handbook.gitlab.com/job-families/marketing/enterprise-data/analytics-engineer#senior-analytics-engineer";
+  click supe:fae "https://handbook.gitlab.com/job-families/marketing/enterprise-data/analytics-engineer#staff-analytics-engineer";
+  click supe:pae "https://handbook.gitlab.com/job-families/marketing/enterprise-data/analytics-engineer#principal-analytics-engineer";
 ```
 
 ### Intermediate and Senior Analytics Engineer Onboarding Timeline

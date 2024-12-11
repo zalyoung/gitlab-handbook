@@ -23,10 +23,8 @@ To see what training is coming soon, view the [Field Enablement Spotlight issue 
 
 | DATE   | TOPIC | SPEAKERS |
 |--------|--------|--------|
-| Nov 28 |  **No Session**  |  |
-| Dec 4 |  Special Spotlight Session  |    |
-| Dec 5 |  Beyond the Title: GitLab Personas  | RSOE Team   |
 | Dec 12 |  Global Ecosystem Team Quarterly Update   | Ecosystem Team |
+| Dec 17 |  New Agile Role "Planner" AMA   | Product Marketing |
 | Dec 19 |  Analyst Relations Update  | Analyst Relations Team  |
 | Dec 26 |  **No Session**   |  |
 | Jan 2 |  TBD   |  TBD  |
@@ -42,6 +40,8 @@ To see what training is coming soon, view the [Field Enablement Spotlight issue 
 
 | **Date** | **Topic** | **Public or Private** |
 | ------ | ------ | ------ |
+| 2024-12-05 |  **[Beyond the Title: Developer Persona](https://drive.google.com/file/d/1-VxaQfxyAxvm2WS0ELqB9OCxLQ1z6sPI/view?usp=drive_link)**  | Private  |
+| 2024-12-4 |  **[GitLab Duo with Amazon Q](https://drive.google.com/file/d/1kiaXF45iXzpO7otHzQ8_m_k5_OHArTrT/view?usp=drive_link)**  |  Private  |
 | 2024-11-21 |  **[SFDC Case Revamp & New Quote Approval Process](https://drive.google.com/file/d/1aC8I25Luq-oIBaP4jpwG5eOL2bn20LNh/view?usp=drive_link)**   | Private  |
 | 2024-11-14 | **[New Forrester TEI Study](https://drive.google.com/file/d/1_KPp5AZfUlg446lcc-VwIPzM1Mpg98nd/view?usp=drive_link)**   | Private  |
 | 2024-11-07 |  **[GitHub Universe Competitive Update](https://drive.google.com/file/d/1TIT5CBhk0wBk8dhyviFJB7Md2PnxHEWh/view?usp=drive_link)**  | Private  |

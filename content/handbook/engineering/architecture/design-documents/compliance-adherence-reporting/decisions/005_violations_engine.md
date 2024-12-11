@@ -91,18 +91,12 @@ class project_compliance_violations {
 }
 
 compliance_management_frameworks --> compliance_requirements : has_many
-compliance_management_frameworks <-- compliance_requirements : belongs_to
 compliance_management_frameworks <--> projects : many_to_many
 compliance_requirements <--> security_policy_requirements : has_and_belongs_to_many
 compliance_requirements <--> project_compliance_violations : has_and_belongs_to_many
 projects <-- namespaces : has_many
-projects --> namespaces : belongs_to
 namespaces --> compliance_management_frameworks : has_many
-namespaces <-- compliance_management_frameworks : belongs_to
 projects --> project_requirement_compliance_status : has_many
-projects <-- project_requirement_compliance_status : belongs_to
 projects --> project_compliance_violations : has_many
-projects <-- project_compliance_violations : belongs_to
 compliance_requirements --> project_requirement_compliance_status : has_one
-compliance_requirements <-- project_requirement_compliance_status : belongs_to
 ```

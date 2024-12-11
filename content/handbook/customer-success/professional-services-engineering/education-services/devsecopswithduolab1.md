@@ -9,7 +9,7 @@ description: "This Hands-On Guide walks you through using GitLab Duo to answer t
 
 GitLab Duo allows you to use AI-assisted features across GitLab. To get started with GitLab Duo, you will need to first generate a lab environment to work in. This lab environment will provide you with all the GitLab Duo features demonstrated in this course.
 
-## Task A. Access your Training Group Create a project
+## Task A. Access your Training Group
 
 1. Navigate to [**https://gitlabdemo.com/invite**](https://gitlabdemo.com/invite) in a web browser.
 
@@ -32,6 +32,8 @@ GitLab Duo allows you to use AI-assisted features across GitLab. To get started 
 1. From your **My Test Group** training subgroup, navigate to the **GitLab Duo Principles** project.
 
     > This project has been pre-populated with a `go.mod` file that will be used in upcoming labs. It also contains an `examples` folder that holds additional examples and activities per lab.
+
+## Task B. Working with GitLab Duo Chat
 
 1. From your project, click the **GitLab Duo Chat** button in the top right corner.
 

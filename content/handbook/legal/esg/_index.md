@@ -41,6 +41,11 @@ Members of the ESG Advisory Committee:
 
 ## ESG Request Process
 
+### RFP Process for ESG Questions & Customer ESG Questionnaires
+
+- If a customer or potential customer has questions related to GitLab’s ESG practices **as part of an RFP**, please follow the [RFP process](/handbook/security/security-assurance/field-security/field-security-rfp/).
+- If a customer or potential customer requests information via an ESG questionnaire, please open an issue [here](https://gitlab.com/gitlab-com/www-gitlab-com/-/issues/new) and select the ‘ESG Questionnaire’ template.’
+
 ### Philanthropic Requests
 
 Information on how GitLab Inc. supports Registered Nonprofit Organizations can be found in the [Philanthropy Policy](/handbook/legal/philanthropy-policy/)
@@ -65,7 +70,9 @@ The team member submitting the issue is responsible for obtaining proper approva
 
 #### GiveLab
 
-GiveLab is GitLab's Team Member Volunteer Program. The GiveLab Program lives under the [ESG Team](/job-families/legal-and-corporate-affairs/environmental-social-governance/) and is a part of GitLab's overall [ESG strategy](/handbook/legal/esg/#esg-strategy) and program development. The term GiveLab encompasses all Team Member Volunteering initiatives at GitLab.
+At GitLab, all team members do work that supports the company, which supports the enhancement of an open source codebase. This codebase is freely available to everyone to make better software faster and drive progress through what they build. Between 2022 and 2024, team members made over 125,000 commits to the open source part of the GitLab codebase.
+
+But, there are also other ways to give back and many team members choose to contribute beyond GitLab. In addition to contributing to GitLab, GitLab offers additional optional pathways for team members to give back while leveraging their unique skills and passions through programs such as GiveLab, GitLab's Team Member Volunteer Program. The GiveLab Program lives under the [ESG Team](/job-families/legal-and-corporate-affairs/environmental-social-governance/) and is a part of GitLab's overall [ESG strategy](/handbook/legal/esg/#esg-strategy) and program development.
 
 GitLab encourages team members to take part in volunteer initiatives that support their local communities, participate in virtual volunteer activities, and organize volunteer activities as part of team events and get togethers.
 
@@ -109,6 +116,7 @@ Throughout the month, team members can volunteer as little as one hour of their 
 - Individual volunteer pursuits
 - Find and contribute to opportunities in the [GiveLab Volunteer Directory](https://docs.google.com/spreadsheets/d/1koFKQbKqm4jpKtZlteLDTPM3HYv20nffXaqRJ2C8YBA/edit?usp=sharing)
 - Include a volunteer activity at an all-hands or team builder
+- Contribute to [GitLab's codebase](/handbook/legal/esg/#contribute-to-gitlabs-oss-codebase) 
 
 ### Why GiveLab 30 Days of Impact Exists
 
@@ -124,6 +132,7 @@ Additionally, this program offers volunteering opportunities around a major holi
 
 ### Importance of Volunteerism at GitLab
 
+- Provide an additional option for team members to volunteer and make a positive impact beyond the impact team members make every day by contributing to GitLab - the platform and the company
 - Provide another way for team members to embody our CREDIT values through volunteerism and social impact
 - Expand GitLab’s positive impact across communities
 - Build trust amongst team members through social connections
@@ -250,7 +259,7 @@ Many of you already volunteer in your community and we want to capture how you m
 
 At GitLab, our mission is to enable everyone to contribute to and co-create the software that powers our world. This, together with our values, is at the core of how we manage our business, including our approach to Environmental, Social, and Governance and our ESG programs such as GiveLab.
 
-Contributors to GitLab — the platform and the company — make up the GitLab community and are fundamental to GitLab’s strategy and mission. Team members who wish to volunteer their time contributing to GitLab help live our mission and contribute to the open source community.
+Contributors to GitLab — the platform and the company — make up the GitLab community and are fundamental to GitLab’s strategy and mission. Team members who wish to volunteer their time [contributing to GitLab](https://about.gitlab.com/community/contribute/) help live our mission and contribute to the open source community.
 
 ### Acceptable Volunteer Activities
 
@@ -520,59 +529,3 @@ To learn more about ESG at GitLab, please take our ESG Training course available
 ## Measuring Results
 
 Disclosing our progress through data aligns with our [Transparency](/handbook/values/#transparency) and [Results](/handbook/values/#results) values. We have a section in our Handbook devoted to [Key Performance Indicators](/handbook/company/kpis/) (KPIs) where we update our progress regularly. Every part of GitLab has KPIs linked to the company Objectives and Key Results [(OKRs)](/handbook/company/okrs/). As we build our ESG strategy, we will continue to add and update relevant ESG KPIs to the handbook.
-
-## FAQ
-
-**Q: Who can I contact for ESG-related questions?**
-
-A:  Senior Director, ESG/DRI: Stacy Cline - @slcline on GitLab.
-Email: ESG@GitLab.com.
-
-**Q: Does GitLab calculate its carbon emissions?**
-
-A:  Yes, GitLab  measures and discloses its greenhouse gas (GHG) emissions in the annual [ESG report](/handbook/company/esg/). Please view the results of our FY24 GHG inventory [here](/handbook/company/esg/#climate-action-and-greenhouse-ghg-emissions) and our third-party assurance letter [here](https://about.gitlab.com/documents/GitLab_FY2024_General_Verification_Opinion.pdf).
-
-**Q: Does GitLab participate in CDP?**
-
-A: GitLab does not currently respond to the CDP questionnaire. However, we publicly disclose information that closely aligns with the information requested in the questionnaire. We disclose our GHG inventory results, third party assurance letter and our TCFD disclosures in our annual ESG report. We are actively working on setting a GHG reduction target. Please see our [FY24 ESG Report,](/handbook/company/esg/) [FY24 Performance Data Tables,](https://about.gitlab.com/documents/FY24_Performance_Data_Tables.pdf) and [TCFD Index](https://about.gitlab.com/documents/GitLab_FY24_TCFD_Index.pdf) for details.
-
-**Q: Has GitLab set a Science Based Target (SBT)?**
-
-A: Not yet. GitLab is currently working on setting a reduction target.
-
-**Q: Does GitLab track employment by gender and ethnicity?**
-
-A: Yes, [view the most recent identity data](/handbook/company/culture/inclusion/identity-data/).
-
-**Q: Does GitLab set goals to increase diversity?**
-
-A: Yes, GitLab publishes [people success KPIs](/handbook/people-group/people-success-performance-indicators/#executive-summary).
-
-**Q: How does GitLab define underrepresented groups?**
-
-A: An underrepresented group describes a subset of a population that holds a smaller percentage within a significant subgroup than the subset holds in the general population. View the full definition [here](/handbook/company/culture/inclusion/#examples-of-select-underrepresented-groups).
-
-**Q: Is GitLab certified as a diverse supplier?**
-
-A: GitLab is a publicly traded company (NASDAQ: GTLB) and is not defined as a diverse supplier and is unable to be certified as such, accordingly. Nevertheless, diversity, inclusion, and belonging (DIB) is a [core value](/handbook/values/) at GitLab. On a daily basis, we strive to keep our operations, employment practices, and supplier selection in line with [this value](/handbook/company/culture/inclusion/). GitLab's [DIB team](/job-families/people-group/diversity-inclusion-partner/) builds an environment where all team members feel a [sense of belonging](/job-families/people-group/diversity-inclusion-partner/), which results in a truly inclusive and welcoming work environment. Moreover, GitLab's Procurement team selects potential suppliers with [responsible sourcing and diversity](/handbook/finance/procurement/) in mind.
-
-**Q: I'm a GitLab team member and I received an ESG questionnaire through an RFP. What do I do?**
-
-A: Please follow the steps outlined in the [RFP process](/handbook/security/security-assurance/field-security/field-security-rfp/).
-
-**Q: Does GitLab sponsor/fund nonprofit organizations?**
-
-A: Through the corporate philanthropy program, GitLab supports registered 501c3 (or country equivalent) nonprofit organizations in good standing that align with our [Values](/handbook/values/). A “Registered Nonprofit Organization” is one that has been registered with the local government or authorized agency within its applicable local, state, provincial, federal, or national government.
-
-GitLab prioritizes financial contributions to organizations that align with our values, support our environmental and social goals, and help us advance our mission to make it so that everyone can contribute. We endeavor to build long-term partnerships with community organizations and avoid a transactional approach to our corporate giving. Our current social and environmental focus areas are:
-
-- Diversity, Inclusion, and Belonging
-- Talent Management
-- Climate Action
-
-Monetary contributions are initiated by the request of our team members and TMRGs, and the process can be reviewed [here](/handbook/legal/esg/#monetary-contributions).
-
-**Q: Does GitLab donate its product to nonprofits?**
-
-A: Through [GitLab for Nonprofits](https://about.gitlab.com/solutions/nonprofit/), GitLab donates up to 5,000 seats annually to Registered Nonprofit Organizations. Interested Registered Nonprofit Organizations are required to apply and will be vetted for registration and standing status. Licenses are donated on a first come first serve basis and the number of seats to be donated within a fiscal year is reviewed annually by the ESG Team, the FP&A Business Partner, and Chief Legal Officer. Please review our [Nonprofit program application](https://about.gitlab.com/solutions/nonprofit/join/#nonprofit-program-application) for further details.
-Please see GitLab’s [Trade Compliance Policy Handbook](/handbook/legal/trade-compliance/) for a list of embargoed countries. Registered Nonprofit Organizations in embargoed countries are not eligible for the in-kind donation program.

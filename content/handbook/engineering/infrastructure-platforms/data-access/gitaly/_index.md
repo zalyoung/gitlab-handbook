@@ -46,7 +46,7 @@ The following members of other functional teams are our stable counterparts:
 
 If you're not part of the Support organization, please consider seeking help from them first -- Support has better availability and can help in most common cases.
 
-If you still need help, please file an issue [here](https://gitlab.com/gitlab-org/gitaly/-/issues/new?issuable_template=Support%20Request). Post it on [#g_gitaly](https://gitlab.slack.com/archives/g_gitaly) for more immediate visibility and tag EM and PM, and the Support person you're working with.
+If you still need help, please file an issue [here](https://gitlab.com/gitlab-com/request-for-help/-/issues/new?issuable_template=SupportRequestTemplate-Gitaly). Post it on [#g_gitaly](https://gitlab.slack.com/archives/g_gitaly) for more immediate visibility and tag EM and PM, and the Support person you're working with.
 
 #### Future oncall rotation
 
@@ -62,7 +62,7 @@ For these cases, use `/pd trigger` on Slack, then select the Gitaly rotation. Fo
 
 ### Customer issues
 
-Please file an issue [here](https://gitlab.com/gitlab-org/gitaly/-/issues/new?issuable_template=Support%20Request). Post it on [#g_gitaly](https://gitlab.slack.com/archives/g_gitaly) for more immediate visibility.
+Please file an issue [here](https://gitlab.com/gitlab-com/request-for-help/-/issues/new?issuable_template=SupportRequestTemplate-Gitaly). Post it on [#g_gitaly](https://gitlab.slack.com/archives/g_gitaly) for more immediate visibility.
 
 **A note on customer escalations and engagements**
 
@@ -74,7 +74,7 @@ Our _engineers_ can help, preferably [async](/handbook/company/culture/all-remot
 - providing product-level fixes or improvements, work to be scheduled and results released as usual, under [direction of EM and PM](#working-with-product)
 - improving our documentation if something's unclear
 
-_Engineering Managers_ (`@jcaigitlab` & `@andrashorvath`) and _Product Managers_ (`@mjwood`) are also happy to engage with customers if you need assistance clarifying roadmaps, product features and timelines, or to ensure the correct prioritization.
+_Engineering Managers_ (`@jcaigitlab`) and _Product Managers_ (`@mjwood`) are also happy to engage with customers if you need assistance clarifying roadmaps, product features and timelines, or to ensure the correct prioritization.
 
 We are not a good fit however if you need:
 
@@ -227,17 +227,18 @@ The structure of having both DRIs and supporting contributors does not introduce
 any hard requirements for moving MRs forward, as reviews and approvals can be
 done by anyone on the team.
 
-##### Technical Roadmap & Customer Issues
+##### Technical Roadmap, Customer Issues, and Cross Functional Issues
 
-The [Gitaly technical roadmap](https://gitlab.com/groups/gitlab-org/data-access/gitaly/-/epics/3)
-and [Gitaly customer issues](https://gitlab.com/groups/gitlab-org/data-access/gitaly/-/epics/2)
-epics contain one-off issues that are not a part of any projects, but are important
-issues to address. These issues will be sorted by priority. Team members can
-pick up work from this board in addition to issues they are working on as part
-of project epics.
+The [Gitaly Technical Roadmap & Customer Issues](https://gitlab.com/groups/gitlab-org/-/boards/8913037?label_name[]=workflow%3A%3Aready%20for%20development&milestone_title=Upcoming)
+board contain one-off issues that are not a part of any projects, but are important
+issues to address. These include [technical roadmap](/handbook/engineering/#technical-roadmaps)
+issues, customer issues, and cross functional work in Gitaly that other teams
+rely on. These issues will be sorted by priority. Team members can pick up work
+from this board in addition to issues they are working on as part of project
+epics.
 
 As a rule of thumb, the ratio of [project](#project-work) work to technical
-roadmap and customer issues should be roughly 70/30.
+roadmap, customer issues should be roughly 70/30.
 
 ##### Urgent and high priority issues
 

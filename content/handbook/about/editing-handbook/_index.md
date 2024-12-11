@@ -52,8 +52,9 @@ A typical workflow to edit the handbook:
    ![Web IDE editor, Markdown preview](/images/handbook/about/editing-handbook/practical_handbook_edits_web_ide_vs_code_console_markdown.png)
 
 1. Upload new files by right-clicking and selecting `Upload...` for example images into `static/images/handbook/` and the corresponding file tree, following the handbook directories.
+   - Note the [images section](https://handbook.gitlab.com/docs/markdown-guide/#images) in the markdown guide.
 
-   ![Web IDE overview, upload files](images/practical_handbook_edits_web_ide_vs_code_file_upload_images.png)
+   ![Web IDE overview, upload files](/images/handbook/about/editing-handbook/practical_handbook_edits_web_ide_vs_code_file_upload_images.png)
 
 1. Open the `Source Control` icon on the left menu which has a colored marker for counting the file changes. Tip: Keyboard shortcut `Ctrl+Shift+G`.
 
@@ -369,6 +370,11 @@ The quick and easy fix is to add text to the empty `section:` line, merge it, an
 in the public handbook project.
 
 In this case, [the handbook code was made more robust](https://gitlab.com/gitlab-com/content-sites/handbook/-/merge_requests/2820/diffs).
+
+### Images not loading properly
+
+If you added new images and they are not loading properly in your review app, please review the
+[Images section](https://handbook.gitlab.com/docs/markdown-guide/#images) of the markdown guide.
 
 ## Additional tips
 

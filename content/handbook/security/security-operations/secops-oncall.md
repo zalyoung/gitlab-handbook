@@ -111,11 +111,12 @@ When scheduled for the Weekend On-Call Security shift, team members should:
 
 The SIRT On-Call paging workflow is currently designed to follow this escalation path:
 
-1. The first page goes to our incident slack channel.
-1. All Security Engineers in the sunny region are paged after 5 minutes of no response, with one designated On-Call Security Engineer per region during the week. During the weekend, one person will have volunteered for sole responsibility of weekend coverage. The on-call page will occur either all at once, or in a round-robin fashion. Team members not designated as the On-Call Security Engineer can and should provide assistance if the On-Call Security Engineer misses the page. When weekend assistance is provided, team members should request taking time off in lieu with their manager, and target 1:1 (hour for hour) time off, immediately following the weekend as long as proper coverage is available.
-1. The Security Operations manager in the sunny region is paged as a backup if the team members don't acknowledge the pages.
-1. Security Managers who volunteer as backups are paged if SIRT does not acknowledge the previous pages.
-1. The Security Operations Director is paged if Security Managers don't acknowledge the pages.
+1. The first notification goes to our incident slack channel.
+1. The designated Security Engineer On-Call in the sunny region is paged after 5 minutes of no response.
+1. All Security Engineers in the sunny region are paged after 10 minutes of no response. During the weekend, one person will have volunteered for sole responsibility of weekend coverage. Team members not designated as the Security Engineer On-Call can and should provide assistance if the Security Engineer On-Call misses the page. When weekend assistance is provided, team members should request taking time off in lieu with their manager, and target 1:1 (hour for hour) time off, immediately following the weekend as long as proper coverage is available.
+1. The Security Operations manager in the sunny region is paged as a backup after 15 minutes if the team members don't acknowledge the pages.
+1. Security Managers who volunteer as backups are paged if SIRT does not acknowledge the previous pages after 15 minutes.
+1. The VP of Security Operations is paged if Security Managers don't acknowledge the pages after 15 minutes.
 
 ### SIRT On-Call Paging Duties
 

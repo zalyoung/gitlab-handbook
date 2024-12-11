@@ -76,7 +76,7 @@ It can be hard to separate your personal and work life. It's important to encour
 **Solutions**
 
 - [Preventing a culture of burnout starts at the top](https://about.gitlab.com/blog/2018/03/08/preventing-burnout/). In all-remote companies, it's important to reinforce this from the [interview process](https://about.gitlab.com/blog/2019/03/28/what-its-like-to-interview-at-gitlab/), to [onboarding](learning-and-development/#how-do-you-onboard-new-team-members), to regular [1:1s]({{< ref "1-1" >}}).
-- All-remote companies should consider implementing a [Results value](/handbook/values/#results), where [results (as opposed to hours) are measured](/handbook/values/#measure-results-not-hours). Fundamentally, this requires organizational trust — believing that colleagues will do the right thing rather than implementing rigid rules.
+- All-remote companies should consider implementing a [Results value](/handbook/values/#results), where [impact (as opposed to activity) are measured](/handbook/values/#measure-impact-not-activity). Fundamentally, this requires organizational trust — believing that colleagues will do the right thing rather than implementing rigid rules.
 - At GitLab, we encourage team members to [communicate with their manager when they recognize burnout]({{< ref "paid-time-off#recognizing-burnout" >}}), and to be mindful of the last time a team member [took time off from work]({{< ref "paid-time-off#paid-time-off" >}}).
 
 ### Challenge: Time management
@@ -158,7 +158,7 @@ It's not easy to separate work and personal life when working remote. It's impor
 **Solutions**
 
 - [Preventing a culture of burnout starts at the top](https://about.gitlab.com/blog/2018/03/08/preventing-burnout/). In all-remote companies, it's important to reinforce this from the [interview process](https://about.gitlab.com/blog/2019/03/28/what-its-like-to-interview-at-gitlab/), to [onboarding](learning-and-development/#how-do-you-onboard-new-team-members), to regular [1:1s]({{< ref "1-1" >}}).
-- Focus on [results (as opposed to hours worked)](/handbook/values/#measure-results-not-hours).
+- Focus on [impact (as opposed to activity)](/handbook/values/#measure-impact-not-activity).
 - At GitLab, we encourage team members to [communicate with their manager when they recognize burnout]({{< ref "paid-time-off#recognizing-burnout" >}}), and to be mindful of the last time a team member [took time off from work]({{< ref "paid-time-off#paid-time-off" >}}).
 - Remote work requires you to [manage your own time](/handbook/values/#managers-of-one) and be self-motivated, disciplined, and [organized](https://about.gitlab.com/blog/2019/06/18/day-in-the-life-remote-worker/).
 

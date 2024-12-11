@@ -27,7 +27,7 @@ graph TD
     DE --> DA[Development Analytics]
     click DA "handbook/engineering/infrastructure-platforms/developer-experience"
     DE --> DT[Developer Tooling]
-    click DT "handbook/engineering/infrastructure-platforms/developer-experience"
+    click DT "/handbook/engineering/infrastructure-platforms/developer-experience/developer-tooling-team"
     DE --> FR[Feature Readiness]
     click FR "handbook/engineering/infrastructure-platforms/developer-experience"
     DE --> PE[Performance Enablement]
@@ -44,22 +44,22 @@ graph TD
 
 ### Individual contributors
 
-The following people are members of the [Development Analytics team](development-analytics-team):
+The following people are members of the [Development Analytics group](./development-analytics/):
 
 {{< team-by-manager-slug "ghosh-abhinaba" >}}
 
-The following people are members of the [Developer Tooling team](developer-tooling-team):
+The following people are members of the [Developer Tooling group](developer-tooling-team):
 
 {{< team-by-manager-slug "vincywilson" >}}
 
-The following people are members of the [Feature Readiness team](feature-readiness-team):
+The following people are members of the [Feature Readiness group](feature-readiness-team):
 
 {{< team-by-manager-slug "ksvoboda" >}}
 
-The following people are members of the [Performance Enablement team](performance-enablement-team):
+The following people are members of the [Performance Enablement group](performance-enablement-team):
 
 {{< team-by-manager-slug "ksvoboda" >}}
 
-The following people are members of the [Test Governance team](test-governance-team):
+The following people are members of the [Test Governance group](test-governance-team):
 
 {{< team-by-manager-slug "kkolpakova" >}}

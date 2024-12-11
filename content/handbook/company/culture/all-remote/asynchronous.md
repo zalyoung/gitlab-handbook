@@ -26,7 +26,7 @@ We love [Preston W.'s](https://twitter.com/PrestonWick) explanation from the [Re
 
 ### 1. Asynchronous work provides autonomy, empowerment, and agency
 
-In an asynchronous company, team members are given [agency](/handbook/values/#give-agency) to move projects forward on a schedule that suits them. At GitLab, we [measure results, not hours](/handbook/values/#measure-results-not-hours). This means that people are free to achieve results when it best suits them.
+In an asynchronous company, team members are given [agency](/handbook/values/#give-agency) to move projects forward on a schedule that suits them. At GitLab, we [measure impact not activity](/handbook/values/#measure-impact-not-activity). This means that people are free to achieve results when it best suits them.
 
 If someone is [traveling](people/#travelers) to a new time zone each month, or chooses to spend a beautiful afternoon [with family](people/#worklife-harmony), that's their [prerogative](https://about.gitlab.com/blog/2019/12/10/how-to-build-a-more-productive-remote-team/).
 

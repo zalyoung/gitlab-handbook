@@ -251,8 +251,8 @@ If you are not part of the Support organization, we recommend reaching out to th
 Before requesting help from the Engineering team, please first review the [GitLab documentation](https://docs.gitlab.com/) for the topic of your interest and the additional resources listed below:
 
 - [Importer Runbook](https://gitlab.com/gitlab-org/foundations/import-and-integrate/team/-/blob/main/importers/runbook.md?ref_type=heads)
-- [Knowledge Base articles](https://gitlab.com/gitlab-com/support/support-team-meta/-/issues/6127)
 - [GitLab Log Analysis Tool](https://gitlab.com/gitlab-org/foundations/import-and-integrate/gitlab-logs-analysis)
+- [Jira playlist](https://www.youtube.com/playlist?list=PL05JrBw4t0Koazgli_PmMQCER2pVH7vUT)
 
 If you cannot find the answer to your question in the resources listed above, please open a [Request for Help (RFH) issue](https://gitlab.com/gitlab-com/dev-sub-department/section-dev-request-for-help/-/issues/new?issuable_template=SupportRequestTemplate-Import-Integrate) and use the `SupportRequestTemplate-Import-Integrate` template. Please ensure that you provide all the required information before reaching out to the team; otherwise, we will be unable to proceed with your request. New issues will be prioritized according to our internal triage process. Please note that we can only support requests for issues affecting the current and the two most recent minor GitLab versions (N-2). We cannot offer a fix for older versions. This is aligned with our [maintenance policy for backports](https://docs.gitlab.com/ee/policy/maintenance.html#patch-releases).
 

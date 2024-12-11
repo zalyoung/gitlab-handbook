@@ -1,6 +1,6 @@
 ---
 title: "Feature Testing Working Group"
-description: "Establish the credibility of a permanent alternative to the combination of RSpec+Capybara for Feature Testing."
+description: "Establish the credibility of a permanent alternative to the usage of Capybara for Feature Testing."
 status: active
 ---
 
@@ -10,8 +10,8 @@ status: active
 | ----------------- | ------------------------------------------------------------------------------------------------------------------------------------ |
 | Date Created      | 2024-11-01                                                                                                                           |
 | Target End Date   | 2025-02-01                                                                                                                           |
-| Slack             |                                                                          |
-| Google Doc        |  |
+| Slack             | [#wg_feature-testing](https://gitlab.enterprise.slack.com/archives/C082VBQSFSQ)                                                      |
+| Google Doc        | https://docs.google.com/document/d/1ZS4L-vVVVqRAjdOmr4X8ENYD5YEyFxEV8wxuR1OtNvE/edit?tab=t.0                                         |
 | Epic              |                                                                 |
 | Overview & Status | See [Exit Criteria](#exit-criteria)               |
 
@@ -28,7 +28,7 @@ The current approach to feature testing, using RSpec and Capybara, has a number 
 
 This Working Group has the following goals:
 
-1. Establish the credibility of an alternative JavaScript-based testing system, [Playwright](https://playwright.dev/), as an alternative to Capybara (or potentially RSpec+Capybara).
+1. Establish the credibility of an alternative JavaScript-based testing system, [Playwright](https://playwright.dev/), as an alternative to Capybara.
 2. Create a proof of concept using Playwright with a part of the GitLab platform.
 3. Create an architecture blueprint with a strategy on how to migrate to Playwright.
 
@@ -56,7 +56,7 @@ We'll need to determine how to simulate user authentication.
 
 **CI/CD**
 
-Need to set up CI pipelines running Node.js. Look into how to parallelize the running of tests, with a goal of quicker pipelines than the current RSpec solution.
+Need to set up CI pipelines running Node.js. Look into how to parallelize the running of tests, with a goal of quicker pipelines than the current Capybara solution.
 
 **Environment Setup**
 

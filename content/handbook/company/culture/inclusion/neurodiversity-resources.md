@@ -22,6 +22,12 @@ canonical_path: "/company/culture/inclusion/neurodiversity-resources/"
 - Join the [#bodydouble_friends](https://gitlab.slack.com/archives/C03EX45QPGB) Slack Channel to find others to participate in a ["body-doubling"](https://healthyadhd.com/body-doubling-for-adhd/) virtual work session that can help you begin projects or tasks with the support of another person as a "virtual-anchor" and accountability buddy. Use this channel to request a body double session with another GitLab Team Member which aligns with our value of [collaboration](/handbook/values/#collaboration) and [diversity, inclusion, and belonging](/handbook/values/#diversity-inclusion).
 - Join the [#neurodiverse-coffee-chat](https://gitlab.slack.com/archives/C01LPT0LGVC) Slack Channel to get paired for a coffee chat with others in the neurodiverse GitLab community
 
+## Resources for managers
+
+All of the links in `Resources for those who identify as neurodivergent` are useful, and in addition there are these resources available to managers:
+
+- [DIB Masterclass: Equipping People Managers to better support Neurodiverse Team Members](https://www.youtube.com/watch?v=l72XBuuvxSY) with [Dr. Samantha Hiew](https://samanthahiew.com/)
+
 ## Do you want to disclose or not?
 
 ```mermaid
