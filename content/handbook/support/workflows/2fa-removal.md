@@ -205,15 +205,3 @@ GitLab Support</p>
 </details>
 
 If a reply is received within 7 days, account for it in the Risk Factor Worksheet and continue with the workflow. Otherwise, this can be counted as a failed challenge.
-
-## Large Customers
-
-For customers who are large enough to have an account management project, a different workflow can be configured for them that will allow Support to more easily disable 2FA for any of their users that require it. Before this process can be used, a GitLab team member from either Customer Success or Sales must perform a few setup steps (described below). If a customer requests this workflow, please refer them to either of those individuals.
-
-### Setup (for CS & Sales)
-
-The steps to follow depend on whether or not the customer has a shared Slack channel with us. Either the customer's Customer Success Manager (CS) or Account Manager (Sales) is responsible for performing this setup. Please proceed to [Shared Slack Channel](#method-1-shared-slack-channel) if they do or [No Shared Slack Channel](#method-2-no-shared-slack-channel) if they don't.
-
-#### Method 1: Shared Slack Channel
-
-1. Find out which users within the customer's organization are the ones that will be authorizing GitLab Support to disable 2FA on their users accounts. Obtain **both** the Slack handle and GitLab username of these users.
