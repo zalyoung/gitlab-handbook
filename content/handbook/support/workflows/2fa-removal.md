@@ -39,7 +39,7 @@ A top-level group owner can [disable 2FA for any enterprise user](https://docs.g
 A SaaS user must meet **one of** the following conditions to be eligible for a 2FA reset.
 
 1. The user occupies a seat in a paid group on GitLab.com, or a top-level group owner intends to add the user to the paid group.
-1. The user is an [Enterprise User](../gitlab-com_overview/#enterprise-users).
+1. The user is an [Enterprise User](../workflows/gitlab-com_overview/#enterprise-users).
 1. The user is the primary billing contact on a current invoice for a SaaS purchase.
 1. A GitLab team member (account managers, CSMs, or others) collaborates with the holder of this account in an account management project.
 1. The user account is required for SSO access to Customers Portal to manage a paid subscription - see: [Conditions for 2FA Reset when account is used to access Customers Portal](#conditions-when-account-is-used-to-access-customers-portal).
@@ -63,7 +63,7 @@ The table below provides a summary of the available verification options based o
 
 To summarize: If a user cannot make use of self-serve methods (lost their account recovery codes and has no SSH key registered) there are two potential ways to validate the request and recover the account: having the account holder open the request, or by having an enterprise owner create the request on their behalf.
 
-See the [Enterprise User section](../workflows/gitlab-com_overview.md#enterprise-users") on how to identify if a user is an Enterprise User.
+See the [Enterprise User section](../workflows/gitlab-com_overview.md#enterprise-users) on how to identify if a user is an Enterprise User.
 
 ### Conditions when account is used to access Customers Portal
 
