@@ -64,7 +64,7 @@ There are several use case available for Humantic. Humantic AI requires the emai
 
 ### Google Calendar
 
-When Google Calendar is [configured with Humantic AI](/handbook/marketing/marketing-operations/humantic-ai/#setup-google-calendar),you'll receive an email provide buyer and personality insights of all meeting attendees 1hr to 30 min prior to a scheduled meeting.
+When Google Calendar is [configured with Humantic AI](/handbook/marketing/marketing-operations/humantic-ai/#setup-google-calendar), you'll receive an email provide buyer and personality insights of all meeting attendees 1hr to 30 min prior to a scheduled meeting.
 
 ### Groove
 
@@ -72,7 +72,7 @@ When Google Calendar is [configured with Humantic AI](/handbook/marketing/market
 1. Pick a prospect with an email action.
 1. Click on the action icon and make sure the Groove omnibar is open.
 1. Check on the Humantic AI chrome browser for their personality details.
-1. When you are ready, select the personalize button on the bottom left of the email editor.
+1. When you are ready, select the `Personalize` button on the bottom left of the email editor.
 1. Click on the check mark to accept the personalize email copy.
 1. Edit the copy as needed.
 1. And send!
