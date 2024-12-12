@@ -854,13 +854,11 @@ The default setting of showing the previous (older) message is usually preferred
 
 #### Email signature if employed by our German entity
 
-If you are employed by our German entity you may have been asked during onboarding to set up your GitLab Gmail and your email signature signature to include certain company details. If you are employed by our German entity and have not already done so, you will need to add these company related details to the end of your email signature as set out [here](https://handbook.gitlab.com/handbook/tools-and-tips/#email-signature-if-employed-by-our-german-entity) *(accessible internally to GitLab only)*.
+If you are employed by our German entity, please see the [German entity handbook page](/handbook/entity/gmbh-germany/#email-signature) for details.
 
 #### Add company details/signature on company communications
 
-These company related details are also required to be added as a signature to certain additional forms of communication, where that communication is going from a team member employed by our German entity GitLab GmbH to *outside of the company, **and** relates to GitLab’s business activities*. There are further details listed [here](https://handbook.gitlab.com/handbook/tools-and-tips/#add-company-details-to-certain-company-communications-if-employed-by-our-german-entity) *(accessible internally to GitLab only)*.
-
-If you are sending such a communication, externally, please look at the setting of the relevant application and add the required company details to the end of the communication. If you are in doubt, please do add the details. If you are unable to add this information for any reason, please alert legal-employment@gitlab.com.
+If you are employed by our Germany entity, please see the [German entity handbook page](https://handbook.gitlab.com/handbook/entity/gmbh-germany/#company-detailssignature-on-company-communications) for details.
 
 #### Filters
 
