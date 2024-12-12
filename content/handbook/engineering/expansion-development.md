@@ -459,7 +459,7 @@ These are the stakeholders:
 
 ## ClickHouse Datastore usage
 
-[ClickHouse usage by Monitor:Observability group](/handbook/engineering/development/ops/monitor/observability/#clickhouse-datastore)
+[ClickHouse usage by Monitor:Platform Insights group](/handbook/engineering/development/analytics/monitor/platform-insights/#clickhouse-datastore)
 
 ## Customer Account Escalation coordination
 

@@ -69,7 +69,7 @@ Additionally to bigger features and initiatives we're trying to always include a
 
 #### Former Respond group categories
 
-The Service Desk SEG is also the DRI for the [former Respond group](/handbook/engineering/development/ops/monitor/respond/) categories
+The Service Desk SEG is also the DRI for the former Respond group categories
 [Service Desk](https://about.gitlab.com/direction/service_management/service_desk/),
 [incident management](https://about.gitlab.com/direction/service_management/incident_management/) and
 [on-call schedule management](https://about.gitlab.com/direction/service_management/on-call_schedule_management/).
