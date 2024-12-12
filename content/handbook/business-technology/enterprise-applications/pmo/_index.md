@@ -12,7 +12,7 @@ The  Enterprise Applications PMO oversees portfolio and program management withi
 
 For detailed insights into our roles and responsibilities, visit the [Program Management Job Family](https://handbook.gitlab.com/job-families/finance/program-management-bt/) page.
 
-## <i class="fas fa-users" id="biz-tech-icons"></i> Our Team (Org Chart)
+## <i class="fas fa-users" id="biz-tech-icons"></i> Our Team
 
 Explore our team’s structure in the [organization chart](https://internal.gitlab.com/handbook/it-enterprise-applications/about-us/pmo/).
 
@@ -54,7 +54,7 @@ Involves identifying the project's:
 Achieved by:
 
 - Identifying all resource within the team
-- Estimating the capacity requirements for activities such as ‘Keeping the Lights On" (KTLO), administrative tasks, management, and project work.
+- Estimating the capacity requirements for activities such as "Keeping the Lights On" (KTLO), administrative tasks, management, and project work.
 
 ### Project Commits
 
@@ -76,10 +76,10 @@ Projects added to the [IT Portfolio: Quarter Commits](https://docs.google.com/sp
 
 The release management plan helps the IT EntApps team to:
 
-- Establish a standardized process. 
-- Implement the release management strategy. 
-- Maintain consistency and predictability in releases. 
-- Communicate changes regularly and transparently. 
+- Establish a standardized process.
+- Implement the release management strategy.
+- Maintain consistency and predictability in releases.
+- Communicate changes regularly and transparently.
 
 ### Release Calendar
 
