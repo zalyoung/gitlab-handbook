@@ -177,7 +177,7 @@ The Senior Director of Product Design is a [grade 11](/handbook/total-rewards/co
 - **Design advocacy:** Champion Product Design across the organization, ensuring its seamless integration into the Product Development lifecycle and other key workflows. Foster strong cross-functional collaboration to enhance efficiency and drive impactful outcomes.
 - **Design system:** Guide the evolution and advancement of the design system to ensure it scales and supports new and existing product needs.
 - **Goal setting:** Manage the creation and execution of product design OKRs with feedback from the Product Management, Engineering, and UX leadership.
-- **Coach leaders:** Help Product Design leaders grow their skills and leadership experience.
+- **Coach leadership:** Foster leadership skills and behaviors across all levels, providing guidance and support to inspire and empower individuals at every stage of their growth.
 - **Skip levels:** Conduct regular skip levels with all members of Product Design.
 - **Team building:** Hire and retain a world-class team of Product Designers and their managers.
 
@@ -185,9 +185,9 @@ The Senior Director of Product Design is a [grade 11](/handbook/total-rewards/co
 
 - 15+ years in product design, with at least 7 years in leadership roles managing people and teams at scale.
 - Relevant, progressive experience managing product design managers and leading product design for a company that focuses on enterprise, developer, and/or business tools.
-- A strong philosophy about how to create an environment that empowers remote design teams and encourages them to deliver high-impact work.
+- Proven ability to lead and create an environment that empowers remote design teams, driving the changes needed to enable them to deliver high-impact work.
 - Solid visual awareness with understanding of basic design principles like typography, layout, composition, and color theory.
-- Experience defining the high-level strategy (the why) and creating design deliverables (the how) based on research.
+- Demonstrated ability to drive impactful outcomes by translating high-level strategy (the why) into actionable design deliverables (the how) informed by research.
 - Passion for creating visually pleasing and intuitive user experiences.
 - Collaborative team spirit with great communication skills.
 - You share our [values](/handbook/values/), and work in accordance with those values.
