@@ -110,7 +110,7 @@ Each program should have an operating rhythm including when the core team meets 
 
 #### Rolly - Weekly Roll Up Reporting
 
-The IT Program Manager updates the [Rolly](/handbook.gitlab.com/handbook/business-technology/how-we-work/rolly/) section in the project Epic every week to provide regular updates about the on going program.
+The IT Program Manager updates the [Rolly](https://handbook.gitlab.com/handbook/business-technology/how-we-work/rolly/) section in the project Epic every week to provide regular updates about the on going program.
 
 #### Status Report
 
