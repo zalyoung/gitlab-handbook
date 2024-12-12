@@ -119,10 +119,10 @@ Please find our SSoT in terms of reporting below, for each dashboard you can als
 | Name/Link                                                            | Description                                            |
 |-----------------------------------------------------------------------|--------------------------------------------------------|
 | [Action Needed: SDR Global](https://gitlab.my.salesforce.com/01ZPL000000ULrp) | Dashboard outlining items where immediate action is needed in the SDR team.   |
-| [Action Needed: PubSec Global](https://gitlab.my.salesforce.com/01ZPL000000UN7F) | Dashboard outlining items where immediate action is needed in the PubSec team. |
-| [Action Needed: APJ BDR](https://gitlab.my.salesforce.com/01ZPL000000bkbl) | Dashboard outlining items where immediate action is needed for APJ BDR.          |
-| [Action Needed: EMEA BDR](https://gitlab.my.salesforce.com/01Z4M000000soBO) | Dashboard outlining items where immediate action is needed for EMEA BDR.          |
-| [Action Needed: AMER BDR](https://gitlab.my.salesforce.com/01ZPL00000069v3) | Dashboard outlining items where immediate action is needed for AMER BDR.        |
+| [Action Needed: PubSec Global](https://gitlab.lightning.force.com/lightning/r/Dashboard/01ZPL000001nyKD2AY/view) | Dashboard outlining items where immediate action is needed in the PubSec team. |
+| [Action Needed: APJ BDR](https://gitlab.lightning.force.com/lightning/r/Dashboard/01ZPL000001nyIb2AI/view) | Dashboard outlining items where immediate action is needed for APJ BDR.          |
+| [Action Needed: EMEA BDR](https://gitlab.lightning.force.com/lightning/r/Dashboard/01ZPL000001nyFN2AY/view) | Dashboard outlining items where immediate action is needed for EMEA BDR.          |
+| [Action Needed: AMER BDR](https://gitlab.lightning.force.com/lightning/r/Dashboard/01ZPL000001nyGz2AI/view) | Dashboard outlining items where immediate action is needed for AMER BDR.        |
 | [Action Needed: SDR Global](https://gitlab.my.salesforce.com/01ZPL000000ULrp) | Dashboard outlining items where immediate action is needed for SDR Global.        |
 | [High Level Results Dashboard](https://gitlab.my.salesforce.com/01ZPL000000eQob) | The dashboard we use to glance at our bottom-line results. |
 | [Pipeline Progression Dashboard](https://gitlab.my.salesforce.com/01Z8X000000u6mP) | The dashboard we use to measure the progress, or lack of thereof, of opportunities sourced by our org. |
