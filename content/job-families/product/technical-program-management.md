@@ -82,7 +82,7 @@ The Senior Manager, Technical Program Management is a [grade 9](/handbook/total-
 #### Senior Manager, Technical Program Management - Responsibilities
 
 - Perform all non-IC responsibilities of a Manager, Program Management
-- Member of the Product Leadership Team, with associated responsibilities to the larger Product Organization
+- Product Leadership Team observer, with associated responsibilities to the larger Product Organization
 - Create and maintain a long-term strategy and vision for the Program Management function, in alignment with broader company goals
 - Partner with PLT and ELT groups to proactively plan and identify programs that will need TPM support
 - Develop and expand upon the job family, CDF, and long-term hiring and growth objectives for the Technical Program Management function
