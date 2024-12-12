@@ -31,8 +31,7 @@ Our teams are data-driven, support [dogfooding](https://about.gitlab.com/directi
 | [Vulnerability resolution](https://docs.gitlab.com/ee/user/application_security/vulnerabilities#vulnerability-resolution) | [Software Supply Chain Security, Threat Insights](/handbook/engineering/development/sec/software-supply-chain-security/threat-insights/) | [GitLab](https://gitlab.com/gitlab-org/gitlab) | Standalone |
 | [Code explanation](https://docs.gitlab.com/ee/user/gitlab_duo_chat/examples.html#explain-code-in-the-ide) | [Create:Source Code](/handbook/engineering/development/dev/create/source-code-be/) | [GitLab](https://gitlab.com/gitlab-org/gitlab) | Chat Framework |
 | [Root cause analysis](https://docs.gitlab.com/ee/user/gitlab_duo/index.html#root-cause-analysis) | [Verify:Pipeline Execution Group](/handbook/engineering/development/ops/verify/pipeline-execution/) | [GitLab](https://gitlab.com/gitlab-org/gitlab) | Standalone |
-| [Value stream forecasting](https://docs.gitlab.com/ee/user/gitlab_duo/experiments.html#forecast-deployment-frequency-with-value-stream-forecasting) | [Optimize Group](/handbook/engineering/development/dev/plan/optimize/) | [GitLab](https://gitlab.com/gitlab-org/gitlab) | Standalone |
-| [Product Analytics](https://docs.gitlab.com/ee/user/product_analytics/index.html) | [Product Analytics Group](/handbook/engineering/development/analytics/product-analytics/) | [GitLab](https://gitlab.com/gitlab-org/gitlab) | Standalone |
+| [Value stream forecasting](https://docs.gitlab.com/ee/user/gitlab_duo/experiments.html#forecast-deployment-frequency-with-value-stream-forecasting) | [Optimize Group](/handbook/engineering/development/analytics/monitor/optimize/) | [GitLab](https://gitlab.com/gitlab-org/gitlab) | Standalone |
 
 ### AI Powered Operational Agreements
 

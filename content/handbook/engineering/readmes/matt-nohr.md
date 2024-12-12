@@ -13,7 +13,7 @@ I've previously worked on these teams at GitLab:
 - Ecosystem
 - Create:Editor
 - Create:Knowledge
-- [Monitor:APM](/handbook/engineering/development/ops/monitor/respond/) and Monitor:Health
+- Monitor:APM and Monitor:Health
 
 My Links:
 

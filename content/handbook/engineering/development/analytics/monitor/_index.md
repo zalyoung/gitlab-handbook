@@ -7,12 +7,13 @@ description: "The Monitor Stage is responsible providing observability and respo
 
 This stage consists of the following group:
 
-- [Respond](respond/)
-- [Observability](observability/)
+- [Analytics Instrymentation](analytics-instrumentation/)
+- [Optimize](optimize/)
+- [Platform Insights](platform-insights/)
 
 ## Product Categories
 
-These groups map to the [Monitor Stage product category](/handbook/product/categories/#monitor-stage).
+These groups map to the [Monitor Stage product category](/handbook/product/categories/).
 
 ## Demo Environments
 

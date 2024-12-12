@@ -19,7 +19,7 @@ title: "Optimize Group"
 
 #### Prioritization
 
-Our priorities should follow [overall guidance for Product](/handbook/product/product-processes/#how-we-prioritize-work). This should be reflected in the priority label for scheduled issues:
+Our priorities should follow [overall guidance for Product](/handbook/product/product-processes/). This should be reflected in the priority label for scheduled issues:
 
 | Priority | Description | Probability of shipping in milestone |
 | ------ | ------ | ------ |
@@ -195,7 +195,7 @@ We plan in monthly cycles in accordance with our [Product Development Timeline](
   - To assist with capacity planning, we start with a capacity of 10 weight per engineer and deduct based on time off, team days, on-call schedules, or other activities. The EM captures the execpted capacity in the planning issue.
   - Issues that we know will slip from the previous release should be reweighted for the remaining effort left and rescheduled to the next release.
 - By the 15th, Product and Engineering will have ordered the list of issues in the `Next 1 - 3 releases` board.
-  - Depending on availibility, either Product or Engineering will take capacity into consdieration and assign the top issues in each [type category](/handbook/engineering/development/dev/plan/optimize/#merged-merge-request-types) to the next release.
+  - Depending on availibility, either Product or Engineering will take capacity into consideration and assign the top issues in each type category to the next release.
   - The engineering manager will assign the ~Deliverable label to any committed work.
   - The entire planning process is asynchronous, however a synchronous meeting to review the final release scope is optional if Product and Engineering require additional collaboration.
 
@@ -276,7 +276,7 @@ On a weekly basis, we aim to triage as many issues as possible. We strive to per
 ### Working on unscheduled issues
 
 Everyone at GitLab has the freedom to manage their work as they see fit,
-because [we measure impact, not activity](/handbook/values/#measure-impact-not-activity). Part of this is the
+because we measure results, not hours. Part of this is the
 opportunity to work on items that aren't scheduled as part of the
 regular monthly release. This is mostly a reiteration of items elsewhere
 in the handbook, and it is here to make those explicit:
@@ -320,7 +320,7 @@ Although we have a bias for asynchronous communication, synchronous meetings are
 | Frequency | Meeting                              | DRI         | Possible topics                                                                                        |
 |-----------|--------------------------------------|-------------|--------------------------------------------------------------------------------------------------------|
 | Weekly    | Group-level meeting                  | Engineering Managers | Ensure current release is on track by walking the board, unblock specific issues                       |
-| Monthly   | Planning meetings                    | Product Managers         | See [Planning](/handbook/engineering/development/dev/plan/#planning) section |
+| Monthly   | Planning meetings                    | Product Managers         | See [Planning](/handbook/engineering/development/dev/plan/) section |
 
 For one-off, topic specific meetings, please always consider recording these calls and sharing them (or taking notes in a [publicly available document](https://docs.google.com/document/d/1kE8udlwjAiMjZW4p1yARUPNmBgHYReK4Ks5xOJW6Tdw/edit)).
 
@@ -344,4 +344,4 @@ The following people are permanent members of the group:
   - Daily standups [#g-optimize-engineers-standup](https://gitlab.enterprise.slack.com/archives/C07QLHAS02Z)
 - Issue boards
   - Optimize [build board](https://gitlab.com/groups/gitlab-org/-/boards/1401511) and [refinement board](https://gitlab.com/groups/gitlab-org/-/boards/1874426)ֿ
-- For more information about the optimize group's plans and vision visit the [Groups page](/handbook/product/categories/#optimize-group)
+- For more information about the optimize group's plans and vision visit the [Groups page](/handbook/product/categories/)

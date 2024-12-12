@@ -29,7 +29,7 @@ The first exception is in the collection of hostname and IP address for Self-Man
 
 *Cadence*: Service Ping collected via Self-Managed instances, Dedicated and GitLab.com namespaces are automatically generated on a weekly basis.  The data will appear in our data warehouse within one-day after generation. Only the metrics that were instrumented through the version the Self-Managed instance is running on are available.  For example, if a metric is instrumented during the development of version 16.9, it will be available on instances running versions equal to or greater than 16.9. 
 
-*Ownership*: Service Ping is owned by the [GitLab Analytics Instrumentation Group](/handbook/engineering/development/analytics/analytics-instrumentation/).
+*Ownership*: Service Ping is owned by the [GitLab Analytics Instrumentation Group](/handbook/engineering//development/analytics/monitor/analytics-instrumentation/).
 
 *Types of Data*: Service Ping Metrics have been broken down into the four categories of Metrics listed below:
 
@@ -81,7 +81,7 @@ The first exception is in the collection of hostname and IP address for Self-Man
 
 *Cadence*: Snowplow Metrics are collected from GitLab.com and sent to the data warehouse contemporaneously.
 
-*Ownership*: Snowplow is owned by the [GitLab Analytics Instrumentation Group](/handbook/engineering/development/analytics/analytics-instrumentation/).
+*Ownership*: Snowplow is owned by the [GitLab Analytics Instrumentation Group](/handbook/engineering//development/analytics/monitor/analytics-instrumentation/).
 
 *Types of Metrics*: Snowplow Metrics are composed of all the pseudonymized user interaction Metrics found [here](https://metrics.gitlab.com/events), as well as Project_ID, Namespace_ID, and the country and region of the user's location.
 
