@@ -858,7 +858,7 @@ If you are employed by our German entity, please see the [German entity handbook
 
 #### Add company details/signature on company communications
 
-If you are employed by our Germany entity, please see the [German entity handbook page](https://handbook.gitlab.com/handbook/entity/gmbh-germany/#company-detailssignature-on-company-communications) for details.
+If you are employed by our German entity, please see the [German entity handbook page](https://handbook.gitlab.com/handbook/entity/gmbh-germany/#company-detailssignature-on-company-communications) for details.
 
 #### Filters
 
