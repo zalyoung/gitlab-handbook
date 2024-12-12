@@ -62,7 +62,7 @@ The following teams are available to handle internal support requests:
 - [GitLab Customer Support](/handbook/support/internal-support/)
 - Enterprise Applications
   - [Enterprise Applications - CRM Team](/handbook/business-technology/enterprise-applications/entapps-crm/#steps-to-getting-help-from-sales-systems)
-  - [Enterprise Applications - PMO](/handbook/business-technology/enterprise-applications/pmo/#i-classfas-fa-headset-idbiz-tech-iconsi-how-to-connect-with-us)
+  - [Enterprise Applications - PMO](/handbook/business-technology/enterprise-applications/pmo/_index.md)
 - [Revenue](https://internal.gitlab.com/handbook/finance/accounting/finance-ops/revenue-accounting/#communicating-with-revenue-accounting)
   - Chatter @revenue
 - [HelpLab](https://helplab.gitlab.systems/esc) (in your Okta)
