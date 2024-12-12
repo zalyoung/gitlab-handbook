@@ -1,10 +1,10 @@
 ---
-title: Software Delivery:Framework
+title: GitLab Delivery:Framework
 ---
 
 ## Summary
 
-Framework is a team within the [Software Delivery Stage](/handbook/engineering/infrastructure/team/delivery/). This team takes ownership of the GitLab Environment Toolkit (GET) as instance lifecycle tool, Reference Architectures, tooling and frameworks related to upgrade path testing, and will ensure installation and upgrade paths are fully tested and reliable. We follow the same processes as listed on the [Software Delivery Stage](/handbook/engineering/infrastructure/team/delivery/), unless otherwise stated on this page.
+Framework is a team within the [GitLab Delivery Stage](/handbook/engineering/infrastructure/team/delivery/). This team takes ownership of the GitLab Environment Toolkit (GET) as instance lifecycle tool, Reference Architectures, tooling and frameworks related to upgrade path testing, and will ensure installation and upgrade paths are fully tested and reliable. We follow the same processes as listed on the [GitLab Delivery Stage](/handbook/engineering/infrastructure/team/delivery/), unless otherwise stated on this page.
 
 ## Mission
 
@@ -18,7 +18,7 @@ Product Manager: [Dilan Orrino](/handbook/company/team/#dorrino)
 
 ## Roadmap
 
-The team's primary roadmap is tracked within [the Roadmap epic](https://gitlab.com/groups/gitlab-com/gl-infra/-/epics/1454). Our roadmap is aligned with Software Delivery's overall strategic objectives and is reviewed and updated as needed.
+The team's primary roadmap is tracked within [the Roadmap epic](https://gitlab.com/groups/gitlab-com/gl-infra/-/epics/1454). Our roadmap is aligned with GitLab Delivery's overall strategic objectives and is reviewed and updated as needed.
 
 ## Working with Us
 
@@ -28,7 +28,7 @@ To engage with the Framework team, please refer to the following.
 
 The following list includes Slack channels relevant to projects within the team's scope:
 
-* [#g_software_delivery-framework](https://gitlab.enterprise.slack.com/archives/C080V5MNVMY) - This is the primary Slack channel for discussions related to the Software Delivery Framework team.
+* [#g_software_delivery-framework](https://gitlab.enterprise.slack.com/archives/C080V5MNVMY) - This is the primary Slack channel for discussions related to the GitLab Delivery Framework team.
 * [#gitlab_environment_toolkit](https://gitlab.enterprise.slack.com/archives/C01DE8TA545) - For discussions, questions, and requests specific to the GitLab Environment Toolkit (GET).
 * [#reference-architectures](https://gitlab.enterprise.slack.com/archives/C015V8PDUSW) - For discussions, questions, and requests related to Reference Architectures.
 * Our slack group handle is `@software-delivery-framework-team`.
@@ -80,7 +80,7 @@ We follow Platforms Project Management practices as outlined [here](/handbook/en
 ### Labels
 
 <!-- Labels explanations -->
-The primary team label is `team::Software Delivery Framework`. This label should be applied to issues and epics throughout the organization that require the team's attention.
+The primary team label is `team::GitLab Delivery Framework`. This label should be applied to issues and epics throughout the organization that require the team's attention.
 
 #### Epic Template
 
@@ -109,7 +109,7 @@ The primary team label is `team::Software Delivery Framework`. This label should
 
 <!-- STATUS NOTE END -->
 
-/label ~"team::Software Delivery Framework" ~"workflow-infra::Triage"
+/label ~"team::GitLab Delivery Framework" ~"workflow-infra::Triage"
 
 ```
 
