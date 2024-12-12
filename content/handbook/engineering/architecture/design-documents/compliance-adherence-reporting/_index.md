@@ -153,7 +153,7 @@ similar to [setting the status of external status checks](https://docs.gitlab.co
 #### Database Schema
 
 It was [decided](decisions/006_storing_controls_in_a_separate_table.md#decision) to store control expressions in a
-separate database table `compliance_requirements_control`.
+separate database table `compliance_requirements_controls`.
 
 The compliance requirements would be stored in a separate table with the following schema:
 
@@ -189,7 +189,7 @@ The compliance requirements would be stored in a separate table with the followi
         description: text
     }
 
-    class compliance_requirements_control {
+    class compliance_requirements_controls {
         id: bigint
         created_at: timestamp
         updated_at: timestamp
@@ -201,7 +201,7 @@ The compliance requirements would be stored in a separate table with the followi
         expression: text
     }
 
-    class project_control_compliance_status {
+    class project_control_compliance_statuses {
         id: bigint
         created_at: timestamp
         updated_at: timestamp
@@ -235,27 +235,27 @@ The compliance requirements would be stored in a separate table with the followi
     compliance_management_frameworks --> compliance_requirements : has_many
     compliance_management_frameworks <--> projects : many_to_many
     compliance_requirements <--> security_policy_requirements : has_and_belongs_to_many
-    compliance_requirements --> compliance_requirements_control : has_many
+    compliance_requirements --> compliance_requirements_controls : has_many
     projects <-- namespaces : has_many
     namespaces --> compliance_management_frameworks : has_many
-    projects --> project_control_compliance_status : has_many
+    projects --> project_control_compliance_statuses : has_many
     projects --> project_compliance_violations : has_many
-    compliance_requirements_control --> project_control_compliance_status : has_many
+    compliance_requirements_controls --> project_control_compliance_statuses : has_many
     compliance_requirements <--> project_compliance_violations : has_and_belongs_to_many
 ```
 
-We created a new table `project_control_compliance_status` for storing the results of compliance requirements and
+We created a new table `project_control_compliance_statuses` for storing the results of compliance requirements and
 plan on dropping the existing `project_compliance_standards_adherence` table. We no longer have a `standard` column
 as we don't want to associate requirements directly with a standard, allowing the users to customise
 and group requirements as per their need.
 
 Unlike the current implementation we would only store results for the projects that have compliance requirements
 configured. Instead of an enum we would store the `compliance_requirement_id` in the
-`project_control_compliance_status` table and would display these results at the compliance dashboard.
+`project_control_compliance_statuses` table and would display these results at the compliance dashboard.
 
 In the next iteration we would also allow importing and exporting the compliance requirement configurations.
 
-Violations records are stored in the new table `project_compliance_violations`. These violation records are immutable and only new records inserted, unlike the `project_control_compliance_status` table which is updated on status changes. This creates an immutable history of violations against a requirement for a project.
+Violations records are stored in the new table `project_compliance_violations`. These violation records are immutable and only new records inserted, unlike the `project_control_compliance_statuses` table which is updated on status changes. This creates an immutable history of violations against a requirement for a project.
 
 ### Constraints
 
@@ -304,7 +304,7 @@ flowchart TD
 
     M --> O[Result: Pass/Fail]
     N --> O
-    O --> Q[Upsert result in DB: project_control_compliance_status]@{ shape: cyl }
+    O --> Q[Upsert result in DB: project_control_compliance_statuses]@{ shape: cyl }
     L --> Q
     N -- Fail --> S[Insert violation in DB: project_compliance_violations]@{ shape: cyl }
 
