@@ -10,7 +10,7 @@ status: not started
 | Property         | Value           |
 |------------------|-----------------|
 | Date Created     | 2024-11-01 |
-| Target End Date  | 2025-02-01 |
+| Target End Date  | 2025-03-01 |
 | Epic             | https://gitlab.com/groups/gitlab-org/-/epics/15580 |
 | Slack            | #wg_python-stewardship (only accessible from within the company) |
 | Google Doc       | Agenda (https://docs.google.com/document/d/1gs-OrjjyfxQ3BDaKxOXcrMuUl3z1jmsxGmbdmEgIBF8/edit?tab=t.dma9z3zh8fwb) (only accessible from within the company) |
