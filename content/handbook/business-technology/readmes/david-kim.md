@@ -1,5 +1,6 @@
 ---
 title: "David Kim README"
+description: "Personal README for David Kim"
 job: "Program Mananger"
 ---
 
