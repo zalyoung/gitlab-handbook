@@ -38,7 +38,7 @@ We strive to be thought leaders in each respective community.
 
 ## What are we working on? 
 
-For visiblity to the the on going work in community programs please refer to the [Community Programs issue board](https://gitlab.com/groups/gitlab-com/-/boards/8983654). 
+For visiblity into the on going work in community programs please refer to the [Community Programs issue board](https://gitlab.com/groups/gitlab-com/-/boards/8983654). 
 
 ## Meet the programs
 
