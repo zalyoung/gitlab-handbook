@@ -348,10 +348,6 @@ Both Fivetran and Stitch, being managed services, provide their own data quality
 
 We have Monte Carlo as our Data Observability tool.
 
-##### BambooHR
-
-We [extract BambooHR data](https://gitlab.com/gitlab-data/analytics/tree/master/extract/bamboohr) via custom code. Our data quality checks include verifying a 200 response from the API and the existence of a minimum number of records in the JSON data.
-
 ##### Postgres Pipeline
 
 Our own [Postgres_Pipeline](https://gitlab.com/gitlab-data/analytics/tree/master/extract/postgres_pipeline) (which handles data from gitlab.com, customers.gitlab.com, version.gitlab.com) checks for agreement of row counts between the source and destination databases.

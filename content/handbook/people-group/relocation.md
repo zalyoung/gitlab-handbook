@@ -282,7 +282,6 @@ Once the contract or Mutual Termination Agreement (MTA) has been created by the 
     - Start Date: *add effective date of relocation*
     - Add this line underneath the start date at the top: "Continuous Service Date: *add original hire date*"
     - Add this sentence to the section above 1. Position: "Your continuity of service for all employment purposes begins on the *add original hire date: YYYY-MM-DD*"
-1. The People Connect Team member sets a reminder to update the PTO policy in BambooHR on the effective date of the relocation. The new PTO policy should start without a previous balance, adjust the balance if required. Click on +/- by hovering over the 'Employee Accruals' in the top left. Add or subtract the amount of days to 0 it out. Add a note: "Adjustment due to Relocation from COUNTRY to COUNTRY"
 
 #### South Korea, France or Singapore
 

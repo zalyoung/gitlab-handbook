@@ -458,7 +458,7 @@ Key points to remember:
 - These models should be organized by source - this will usually map to a schema in the raw database
 - The name of source models should end with `_source`
 - Only source models should select from source/raw tables
-- Source models should not select from the `raw` database directly. Instead, they should reference sources with jinja, e.g. `FROM {{ source('bamboohr', 'job_info') }}`
+- Source models should not select from the `raw` database directly. Instead, they should reference sources with jinja, e.g. `FROM {{ source('workday', 'job_info') }}`
 - Only a single source model should be able to select from a given source table
 - Source models should be placed in the `/models/sources/<data_source/` directory
 - Source models should perform all necessary data type casting, using the `::` syntax when casting (You accomplish the same thing with fewer characters, and it presents as cleaner).
