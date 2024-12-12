@@ -78,11 +78,13 @@ To authenticate with the dependency proxy in a Cells environment, users will nee
 docker login gitlab.example.com
 ```
 
-Currently, [using your GitLab username and password is supported](https://docs.gitlab.com/ee/user/packages/dependency_proxy/#authenticate-with-the-dependency-proxy) by this flow. In a Cells architecture, this will not be supported.
+Currently, [using your GitLab username and password is supported](https://docs.gitlab.com/ee/user/packages/dependency_proxy/#authenticate-with-the-dependency-proxy) by this flow. In a Cells architecture, this will only work for the main organization and cell, since the username / password combination is not routeable.
 
 The username can be anything; it is not used by dependency proxy. The "password" must be a Personal Access Token from a user, service account, or CI job token. The docker client will then submit this username and password combination to the `/jwt/auth` endpoint in GitLab Rails using HTTP Basic Auth.
 
 The Cells http router will be able to determine the correct Cell to route this request to by supporting HTTP Basic Auth requests using access tokens as the password. Support for this is [currently being built](https://gitlab.com/gitlab-org/cells/http-router/-/issues/138).
+
+For the first iteration, only routing to the main organization and cell will be supported.
 
 ## 4.1. Pros
 
