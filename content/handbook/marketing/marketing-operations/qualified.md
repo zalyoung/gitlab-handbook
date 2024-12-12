@@ -98,7 +98,15 @@ We have set certain rules of engagement for the AI Rep to follow which include:
 
 The "Scorecard" and "Inbox" sections of the AI Studio is where we have control over how the GitLab AI Rep will answer specific questions. Here is where we can insert our own commonly asked questions and see how AI will respond. We can accept AI's response, tweak it, or tell it exactly what we want to certain questions. As visitors ask question they will appear in the "Inbox" we can move the most common ones to the "Scorecard" to rate. 
 
-Have questions about the GitLab AI Rep on the website? Please reach out to us in the #mktgops Slack channel.
+#### AI Rep Rollback Plan
+
+If there is a need to turn off the GitLab AI Rep, we have build the experiences in a way to easily switch off AI and switch on a traditional experience. 
+
+In the Qualified admin settings, navigate to `Experiences` and select `Automatic`. Beginning at experiences 48 and 49 you will start to see duplicate experience titles with one having `AI` added to the end. For example `[EN] Page - Solutions - Moble` and `[EN] Page - Solutions - Mobile - AI`. If the  GitLab AI Rep needs to be turned off you will need to go down the experience list, switch off each experience that ends in `AI` and switch on the corresponding expereince without `AI`. 
+
+#### AI Rep Support
+
+Have questions about the GitLab AI Rep on the website? Please reach out to us in the #mktgops Slack channel. We also have an external Slack channel with our Qualified support team. If you are not already in that channel, please ask a Marketing Ops team member to be added if you need access to our Qualified team.
 
 To request a new feature or change please use [this issue template](https://gitlab.com/gitlab-com/marketing/marketing-operations/-/issues/new#) in the Marketing Operations project.
 
