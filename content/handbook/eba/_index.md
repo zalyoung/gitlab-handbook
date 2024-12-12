@@ -10,10 +10,10 @@ This page details processes and general guidelines specific to the Executive Bus
 
 | ORG |  EBA / SR EBA  | EXECUTIVE  |
 | --- | --- | --- |
-| [CEO](/job-families/chief-executive-officer/) | **Jeanne Rotenberry**<br>Staff EBA<br>**Carla Sylva**<br>Sr EBA  | Sid Sijbrandij (CEO) |
+| [CEO](/job-families/chief-executive-officer/) | **Jeanne Rotenberry**<br>Staff EBA  | Bill Staples (CEO) |
 | [Chief of Staff](/job-families/chief-executive-officer/chief-of-staff/) | **Carla Sylva**<br>Sr EBA  | Stella Treas (Chief of Staff) |
-| [Engineering](/handbook/engineering/) | **Vange Ingan**<br>Sr EBA  | Sabrina Farmer (CTO) |
-| [Engineering](/handbook/engineering/) | **Liki Simonot**<br>Sr EBA | Mek Stittri (VP of Infrastructure & Quality)<br>Tim Zallmann (Sr. Director of Engineering, Core Development) |
+| [Engineering](/handbook/engineering/) | **Vange Ingan**<br>Sr EBA  | Sabrina Farmer (CTO)<br>Johnny Scarborough (VP of Support) |
+| [Engineering](/handbook/engineering/) | **Liki Simonot**<br>Sr EBA | Tim Zallmann (VP of Engineering, Core Development)<br>Michael Wildpaner (VP of Engineering)<br>Marin Jankovski (Sr Director of Infrastructure, SaaS Platforms)  |
 | [Finance](/handbook/finance/) | **Darci Tadich**<br>Staff EBA |  Brian Robins (CFO) |
 | [Finance](/handbook/finance/) | **Sarah Hobbs**<br>EBA | Simon Mundy (VP Controller)<br>Julie Malloy (VP Accounting Operations)<br>Jim Gladen (VP of Tax)<br>Brijen Joshi (VP of Internal Audit) |
 | [Finance](/handbook/finance/) | **Anita Mall**<br>Sr EBA | James Shen (VP of Finance )<br>Nabitha Rao (VP of IT/EntApps)<br>Kelsey Turcotte (VP of Investor Relations)<br>Wendy Barnes (CPO) - interim support |
@@ -22,7 +22,7 @@ This page details processes and general guidelines specific to the Executive Bus
 | [Marketing](/handbook/marketing/)| **Kato Faylor**<br> Staff EBA | Ashley Kramer (CMSO) |
 | [Marketing](/handbook/marketing/)| **Linsea O'Shea**<br>Sr EBA | Dave Steer (VP of Brand & Product Marketing)<br>Billy Stallings (Sr. Director Digital Marketing)<br> Jean-Baptiste Larramendy (VP of Sales Development)<br>Laura Fagan (Sr. Chief of Staff, CMSO) |
 | [Marketing](/handbook/marketing/)| **Erin Talanda**<br>EBA | Emilio Salvador (VP of Developer Relations & Growth)<br>Lisa Boughner (VP of Corporate Communications)<br>Christine Lee (VP of Marketing Ops & Analytics)<br> Amie Bright (VP of Data & Insights) |
-| [People](/handbook/people-group/) | **OPEN**<br>EBA  | Wendy Barnes (CPO)<br>Pattie Egan (VP of People Operations, Technology and Analytics)<br> Rob Allen (VP of Talent Acquisition)<br>Sherida McMullan (VP of Diversity, Inclusion and Belonging) |
+| [People](/handbook/people-group/) | **Annette Ramirez**<br>Sr EBA  | Wendy Barnes (CPO)<br>Pattie Egan (VP of People Operations, Technology and Analytics)<br> Rob Allen (VP of Talent Acquisition)<br>Sherida McMullan (VP of Diversity, Inclusion and Belonging) |
 | [Product](/handbook/product/) | **Gena Schwam**<br>Sr EBA|  David DeSanto (CProdO) |
 | [Product](/handbook/product/) | **Jennifer Garcia**<br>EBA | Justin Farris (VP of Product Management)<br>Angela Pesta (VP UX)|
 | [Product](/handbook/product/) | **Lindsey Beyl**<br>EBA | Mike Flouton (VP of Product Management)<br>Hillary Benson (VP of Product Management)<br>Steve Evangelista (Sr. Dir of Product, Dev & Analytics) |
