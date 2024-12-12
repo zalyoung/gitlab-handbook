@@ -151,7 +151,7 @@ The process below helps to clarify and expand upon the [Flexible PTO Policy](/ha
 
 #### 1. Creating an Engineering coverage issue
 
-PTO longer than 5 consecutive days during a milestone should not be planned once that milestone planning is complete and the milestone begins. There may be exceptions due to urgent scenarios or other reasons that should be discussed with your manager (e.g. team / individual hit their targets earlier in that milestone [because we measure impact, not activity](/handbook/values/#measure-impact-not-activity) or if there is a strong need of the team member to take that PTO).
+PTO longer than 5 consecutive days during a given milestone should not be requested after planning for that milestone has been completed to prevent disrupting the plans for that milestone. There may be exceptions due to urgent scenarios or other reasons that should be discussed with your manager (e.g. team / individual hit their targets earlier in that milestone [because we measure impact, not activity](/handbook/values/#measure-impact-not-activity) or if there is a strong need of the team member to take that PTO).
 
 You can use [this issue template](https://gitlab.com/gitlab-com/engineering-division/pto-coverage/-/issues/new) to define handshake responsibilities. For extended leave, it is important to find one or more Directly Responsible Individuals (DRIs) that will be able to make decisions while you are away. This may be your manager, another engineer, or maybe the Product Manager for your team. The coverage issue should contain all the necessary information for the DRIs to make good decisions in your absence, so please make sure to include as much detail as needed. The coverage issue should highlight work impact estimates, mitigations identified, and coverage alternatives.
 
@@ -161,9 +161,9 @@ It is recommended to work with your manager and other stakeholders when consider
 
 #### 2. Sharing your Engineering coverage issue with your manager
 
-Once you’ve filed your engineering coverage issue, share this with your manager so they can review and approve. Check the latest guidance in our [PTO policy](/handbook/people-group/paid-time-off/) to ensure timely review.
+Once you’ve filed your engineering coverage issue, share this with your manager prior to milestone planning so they can review and approve. Check the [latest guidance in our PTO policy](/handbook/people-group/paid-time-off/#a-gitlab-team-members-guide-to-time-off) on how much notice is required.
 
-If the coverage issue is for PTO which is months+ out, please don't take on commitments that can not be met due to the time off. If a team member falls behind on something, they will need to make sure they have a coverage plan in place to ensure success of their commitments.
+Consider whether any new commitments would be affected by your planned PTO. If a team member falls behind on something, they will need to make sure they have a coverage plan in place to ensure success of their commitments.
 
 #### 3. Manager reviews coverage issue
 
