@@ -102,6 +102,8 @@ A good summary is probably at least a paragraph in length.
 - Provide a more solid foundation for Dedicated and Cells, which leverage our existing IaC tooling (GET)
 - Provide a better experience for all GitLab operators.
 - Reduce support cases related to deployment and upgrade frustration
+
+(Add some of the motivating Issues here)
 <!--
 This section is for explicitly listing the motivation, goals and non-goals of
 this document. Describe why the change is important, all the opportunities,
@@ -124,6 +126,8 @@ problem is not well-defined or design details not yet established.
 - Define and develop an IaC/Config Management strategy, and tooling where appropriate, particularly for self-managed customers.
 - Provide tooling that can be extended to enable efficient fleet management of multiple GitLab instances.
 - Is not a competitor and does not supersede GitLab Operator (of the Kubernetes variety). It should be a support/value add to, and possibly additional enabler of, its functionality.
+- Find a way to distill GitLab's extensive experience at running GitLab into tools, components, and documentation which can be adopted into the workflows of other organizations, and promote/enhance the offerings like this that we already have.
+
 <!--
 List the specific goals / opportunities of the document.
 
@@ -140,6 +144,10 @@ List the specific goals / opportunities of the document.
 
 ## Proposal
 
+- Continue to use and build on GET.
+- Increase our internal usage of GET's existing customization points like Custom Config/Files/Tasks to better dogfood those paths and increase their visibility with implementation examples.
+- Define a framework to engage engineering teams in the building and maintenance of Reference Architectures, have the subject matter experts of the code and components of GitLab involved in describing and optimizing what it takes to run those components elastically.
+- Define and build components to reduce the operational burden/"Day 2 Operations" task burden of a GitLab instance.
 
 <!--
 This is where we get down to the specifics of what the proposal actually is,
