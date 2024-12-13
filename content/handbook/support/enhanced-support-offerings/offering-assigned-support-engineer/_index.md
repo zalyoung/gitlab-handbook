@@ -1,5 +1,5 @@
 ---
-title: Enhanced Support Offering - Assigned Support Engineer (ASE)
+title: Offering - Assigned Support Engineer (ASE)
 description: Information about the ASE offering, being an ASE, and working with ASEs
 canonical_path: "/handbook/support/enhanced-support-offerings/offering-assigned-support-engineer"
 ---
