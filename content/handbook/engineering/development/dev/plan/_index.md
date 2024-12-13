@@ -80,6 +80,33 @@ Examples of successful themes:
 1. **Requirements Management** ([#f_requirements-management](https://app.slack.com/client/T02592416/CUEQBQ7K8), [Epic](https://gitlab.com/groups/gitlab-org/-/epics/2703))
 1. **Jira Importer** ([#f_jira-importer](https://app.slack.com/client/T02592416/CUS6GB2JH), [Epic](https://gitlab.com/groups/gitlab-org/-/epics/2738))
 
+### Roadmap
+
+In product development at GitLab, Product is responsible for the **what** and **why**, Engineering is responsible for the **how** and **when** [[1](https://docs.google.com/presentation/d/1xd2-G8i68dNOd-dsa78xzYectz68T2EETQz2wJye6EA/edit#slide=id.g30963720e56_3_516)]. Maintaining a credible roadmap is therefore a collaborative process, requiring input from both.
+
+The Product Roadmap outlines what the team aims to accomplish over a 4-6 quarter timeline. It is shared across the organization to ensure alignment with the go-to-market strategy and enable reliable commitments to customers.
+
+Changes to the Plan Product Roadmap, made by the Product Manager, are reviewed and accepted by the Engineering Manager of the affected group. This happens at least once a month and is captured in a [Wiki Page](https://gitlab.com/gitlab-org/plan-stage/plan-engineering/-/wikis/Plan-Roadmap-Signoffs). 
+
+Most items being reviewed during roadmap planning have not yet had detailed technical investigation from engineering. Planning at this resolution is intended to be thoughtful but not perfect. Velocity [remains our priority](/handbook/engineering/development/principles/#velocity).
+
+#### Reviewing the Roadmap
+
+By performing a review, Engineering Managers play a key role by ensuring the roadmap is achievable and effectively sequenced to maximize velocity. Below are some best practices to guide a thoughtful review:
+
+- Assess Achievability: Is the timeline realistic given the team's current capacity, skills, and dependencies?
+- Account for Technical Preparation: Does the roadmap allocate time for necessary technical preparation, such as technical spikes or investigations?
+- Optimize Team Utilization: Does the sequence of work align with the team’s skill profile, avoiding periods of underutilization or skill mismatches?
+- Evaluate Redundancy: How robust is the rest of the roadmap if one item takes longer than anticipated?
+- Clarify Requirements: Do you sufficiently understand each proposed change or do you need additional information?
+- Ensure Shared Understanding: Do you and your Product and UX counterparts have a shared understanding of all terminology used?
+- Seek Opportunities to Optimize: Have you identified opportunities to iterate or increase velocity by adjusting the order of work?
+- Reduce Friction: Is the sequence of work likely to cause avoidable conflicts, such as multiple engineers committing to the same codebase areas simultaneously?
+- Identify Process-Driven Delays: Are there items expected to take longer due to process requirements (e.g., multi-version compatibility) rather than capacity constraints?
+- Account for Cross-Team Dependencies: Are there cross-team dependencies that could put parts of the timeline at risk?
+- Incorporate a Buffer: Is a proportion of capacity allowed for exogenous shocks; such as unexpected PTO, or a high-severity incident?
+- Lean on Your Experience: When you look at the roadmap as a whole and think about recent quarters, does it look achievable?
+
 #### Roadmap Organization
 
 ``` mermaid
