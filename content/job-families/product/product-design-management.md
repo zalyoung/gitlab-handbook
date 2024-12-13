@@ -172,13 +172,13 @@ The Senior Director of Product Design is a [grade 11](/handbook/total-rewards/co
 
 - **Design strategy:** Define and drive the Product Design strategy that aligns with overall company objectives. Utilize user research, analytics, and feedback to inform and prioritize initiatives.
 - **Design operations:** Manage the Product Design budget, including compensation planning, non-headcount budget allocation, and tradeoff decisions.
-- **Leadership collaboration:** Advocate for design-led thinking and champion the user experience with Product Leadership and Engineering leaders.
+- **Leadership collaboration:** Partner with the VP of UX, UX peers, and product leaders to define and advance the UX vision. Build cross-functional partnerships to advocate for design-led thinking and drive action on initiatives beyond the design team's scope.
 - **Design quality:** Lead initiatives to measure and improve design quality, including the use of UX (K)PIs and evaluations such as UX Scorecards, to track and improve user satisfaction and experience.
 - **Design advocacy:** Champion Product Design across the organization, ensuring its seamless integration into the Product Development lifecycle and other key workflows. Foster strong cross-functional collaboration to enhance efficiency and drive impactful outcomes.
 - **Design system:** Guide the evolution and advancement of the design system to ensure it scales and supports new and existing product needs.
 - **Goal setting:** Manage the creation and execution of product design OKRs with feedback from the Product Management, Engineering, and UX leadership.
 - **Coach leadership:** Foster leadership skills and behaviors across all levels, providing guidance and support to inspire and empower individuals at every stage of their growth.
-- **Skip levels:** Conduct regular skip levels with all members of Product Design.
+- **Skip levels:** Conduct regular skip levels with all members of Product Design to gain visibility into ongoing work, help resolve escalations, and support career growth.
 - **Team building:** Hire and retain a world-class team of Product Designers and their managers.
 
 ### Requirements
