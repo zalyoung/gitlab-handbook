@@ -42,7 +42,7 @@ This section links all different technical proposals that are being evaluated.
   - [SSH Routing Service](ssh_routing_service.md)
   - [Topology Service](topology_service.md)
   - Planned: Indexing Service
-- [Feature Flags](feature_flags.md)
+- [Feature Flags](./infrastructure/feature_flags.md) - ([Previous iteration](feature_flags.md))
 - [Cluster wide unique sequences](unique_sequences.md)
 - [Cells: Infrastructure](./infrastructure/_index.md)
 - [Organization migration](migration.md)
