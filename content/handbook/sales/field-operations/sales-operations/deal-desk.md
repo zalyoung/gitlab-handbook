@@ -100,11 +100,11 @@ As of 2022-02-01, the Deal Desk team is structured as follows:
 
 #### Salesforce Case Communication
 
-Deal Desk's primary communication channel is cases within Salesforce . Create a case from the Account or Opportunity level by choosing "Request Support" and fill in Request Type.
+Deal Desk's primary communication channel is cases within Salesforce . Create a case from the Opportunity level by choosing "Request Support" and fill in Request Type.
 
-- Always request support using the Request Support button on the Account or Opp level. 
+- Always request support from Deal Desk using the Request Support button on the Opportunity level. 
   - Please do not tag Deal Desk team members directly in chatter or make a request through Slack direct message. This ensures our team is working as efficiently as possible and that you are covered in case the DD team member who replied first is unavailable.
-  - Direct chatters to team members will not create a case in the Sales Support case queue, and therefore will not be prioritized. You may experience a significant delay in response, or no response at all. 
+  - Direct chatters to team members will not create a case in the Deal Desk case queue, and therefore will not be prioritized. You may experience a significant delay in response, or no response at all. 
 - If someone is working on a case, they will continue to support until the case is closed.
 
 For cases related to Account Segmentation (ROE, Territory), account data, or account merges, Deal desk will reassign these cases to our Sales Operations team to review and resolve.
