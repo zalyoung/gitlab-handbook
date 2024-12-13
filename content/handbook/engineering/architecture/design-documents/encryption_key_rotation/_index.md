@@ -32,8 +32,9 @@ is <https://gitlab.com/gitlab-org/gitlab/-/issues/25332>. In this issue
 Provide GitLab administrators with a way to:
 
 - Introduce a new encryption key so that new or updated records are encrypted with it
-- Not have to worry about running automation or scripts to re-encrypt data with the new key
-- Monitor the progress for the re-encryption of data encrypted with legacy keys
+- Introduce scripts to re-encrypt all the data while GitLab is offline
+- Introduce an automated background process to take care of progressive re-encryption while GitLab is online
+- Monitor the progress for the re-encryption of data encrypted with legacy keys, and overall usage of each key
 
 #### Use cases
 
@@ -46,8 +47,8 @@ Provide GitLab administrators with a way to:
 
 This blueprint does not cover the following:
 
-- Other secrets such as `secret_key_base`, `otp_key_base`, `openid_connect_signing_key`, and `encrypted_settings_key_base`.
-- Possibility to rotate the secret from the Admin UI.
+- Other secrets such as `secret_key_base`, `otp_key_base`, `openid_connect_signing_key`, and `encrypted_settings_key_base`
+- Possibility to rotate the secret from the Admin UI
 
 ## Decisions
 
@@ -71,6 +72,10 @@ The high-level proposal is as follows:
    - How many records are still encrypted with a legacy key?
    - What's the expected ETA for everything to be re-encrypted with the current key?
    - What keys can be deleted (i.e. no data is encrypted with this key)?
+
+### New "Encryption keys" admin page
+
+!["Encryption keys" admin page](img/encryption-keys-admin-page.png)
 
 ### Pseudo code
 
