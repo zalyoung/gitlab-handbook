@@ -1,17 +1,17 @@
 ---
-title: "Software Delivery"
-description: "The Software Delivery Department focuses on enhancing the reliability, efficiency, and speed of GitLab’s end-to-end software delivery across all platforms and offerings."
+title: "GitLab Delivery"
+description: "The GitLab Delivery Stage focuses on enhancing the reliability, efficiency, and speed of GitLab’s end-to-end software delivery across all platforms and offerings."
 ---
 
 ## Mission
 
-The Software Delivery mission is to streamline and optimize the delivery, release, and deployment of GitLab across all platforms—SaaS, Self-Managed, and Dedicated. We aim to enhance the reliability, scalability, and efficiency of our processes, enabling customers to seamlessly adopt, deploy, and scale GitLab solutions. By evolving our tools, automation, and architectural practices, we are committed to delivering a consistent, secure, and high-quality experience that empowers both internal teams and customers to achieve more, faster.
+The GitLab Delivery mission is to streamline and optimize the delivery, release, and deployment of GitLab across all platforms—SaaS, Self-Managed, and Dedicated. We aim to enhance the reliability, scalability, and efficiency of our processes, enabling customers to seamlessly adopt, deploy, and scale GitLab solutions. By evolving our tools, automation, and architectural practices, we are committed to delivering a consistent, secure, and high-quality experience that empowers both internal teams and customers to achieve more, faster.
 
-The Software Delivery Stage Vision is defined in the [Infrastructure Platforms direction pages](https://about.gitlab.com/direction/saas-platforms/software-delivery/)
+The GitLab Delivery Stage Vision is defined in the [Infrastructure Platforms direction pages](https://about.gitlab.com/direction/saas-platforms/gitlab-delivery/)
 
 ## Vision and Direction
 
-Our vision and direction are located with other product direction pages [here](https://about.gitlab.com/direction/saas-platforms/software-delivery/).
+Our vision and direction are located with other product direction pages [here](https://about.gitlab.com/direction/saas-platforms/gitlab-delivery/).
 
 ## Roadmap
 
@@ -21,13 +21,13 @@ Our vision and direction are located with other product direction pages [here](h
 
 ## Teams
 
-The SoftwareDelivery Stage is composed by the following teams:
+The GitLab Delivery Stage is composed by the following teams:
 
-- Build
+- GitLab Build
 - Self-Managed (subject to change)
 - Framework
-- Release
-- Deploy
+- GitLab Release
+- GitLab Deploy
 
 <!-- to add links to single teams pages -->
 
@@ -43,7 +43,7 @@ The SoftwareDelivery Stage is composed by the following teams:
 
 ## Project Management
 
-Software Delivery Stage has an [entry level Epic](https://gitlab.com/groups/gitlab-com/gl-infra/-/epics/1451) that collects all the groups roadmaps and projects in progress as a single view. This epic is also used for the weekly [Grand Review](../../platforms/#grand-review) 
+GitLab Delivery Stage has an [entry level Epic](https://gitlab.com/groups/gitlab-com/gl-infra/-/epics/1451) that collects all the groups roadmaps and projects in progress as a single view. This epic is also used for the weekly [Grand Review](../../platforms/#grand-review) 
 
 ### Epics
 
@@ -65,7 +65,7 @@ Each working epic should be accompanied by an issue board. Issue boards should b
 
 #### Other Labels
 
-## Software Delivery AMA and Demo
+## GitLab Delivery AMA and Demo
 
 ## History
 
