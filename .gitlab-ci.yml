@@ -243,7 +243,6 @@ markdownlint:
     - sh ./scripts/markdownlint.sh
   rules:
     - <<: *merge-request-or-tag
-    - <<: *build-and-test-only
     - <<: *is-fork
   artifacts:
     when: always
@@ -266,7 +265,6 @@ vale:
     - sh ./scripts/vale.sh
   rules:
     - <<: *merge-request-or-tag
-    - <<: *build-and-test-only
     - <<: *is-fork
   artifacts:
     when: always
@@ -290,7 +288,6 @@ handbooklint:
     - bash ./scripts/handbook-lint.sh
   rules:
     - <<: *merge-request-or-tag
-    - <<: *build-and-test-only
     - <<: *is-fork
   artifacts:
     when: always
