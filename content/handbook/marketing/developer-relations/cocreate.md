@@ -53,6 +53,7 @@ Identify areas that are of high priority to the customer together with the Solut
 - [Our stewardship of open source](/handbook/company/stewardship/#promises) - this webpage discusses GitLab's open-core business model and promises related to open-source stewardship.
 - [Frequently asked questions](https://about.gitlab.com/community/contribute/dco-cla/#frequently-asked-questions) - this webpage answers FAQs about contributing to GitLab.
 - [GitLab's Corporate Contributor Agreement](https://docs.google.com/document/d/1JZ495wMxsnUPIzZoBvAVtvnfbWiMNS4VYC_S2Er4K0s/edit) - this Agreement covers all contributions made on behalf of a corporate contributor by the corporation's authorized contributors. Please email [cla_managers@gitlab.com](mailto:cla_managers@gitlab.com) to start the process of signing this agreement.
+- [Enterprise Contribution Guide](/handbook/marketing/developer-relations/gitlab-enterprise-contribution-guide.md) - a comprehensive guide tailored for enterprise developers to contribute effectively while gaining professional recognition and influencing GitLab's roadmap through the CoCreate program.
 
 ## Internal Slack Channel
 
