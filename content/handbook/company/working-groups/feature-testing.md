@@ -34,33 +34,26 @@ This Working Group has the following goals:
 
 #### Exit Criteria
 
-| Criteria          | Start Date | Completion Date | Progress | DRI |
-| ----------------- | ---------- | --------------- | -------- | --- |
-| Data Management   |            |                 |          |     |
-| Authentication    |            |                 |          |     |
-| CI/CD             |            |                 |          |     |
-| Environment Setup |            |                 |          |     |
-| Migration Plan    |            |                 |          |     |
+| Criteria                      | Start Date | Completion Date | Progress | DRI                 |
+| ----------------------------- | ---------- | --------------- | -------- | ------------------- |
+| CI/CD and environment setup   | 2024-12-11 |                 |          | Javiera Tapia       |
+| 3 converted spec examples     | 2024-12-11 |                 |          | Natalia Tepluhina   |
+| Migration Plan                |            |                 |          |                     |
 
 #### Details
 
-**Data Management**
+**CI/CD and environment setup**
 
-RSpec includes numerous tools to create objects in Rails with database access.
-We need to determine a solution for this in Playwright.
-This will include ways to set up/tear down test data, database seeding, and managing of fixtures and factories.
+Need to determine how to spin up a Playwright server within the GitLab build
+process.
 
-**Authentication**
+**3 converted spec examples**
 
-We'll need to determine how to simulate user authentication.
+Full examples for an apples-to-apples comparison with currently flaky tests:
 
-**CI/CD**
-
-Need to set up CI pipelines running Node.js. Look into how to parallelize the running of tests, with a goal of quicker pipelines than the current Capybara solution.
-
-**Environment Setup**
-
-Ensure system can be installed with the GDK, and the test suite can be run with minimal setup.
+* https://gitlab.com/gitlab-org/gitlab/-/blob/wild-standalone-test/spec/features/boards/boards_spec.rb
+* https://gitlab.com/gitlab-org/gitlab/-/blob/wild-standalone-test/ee/spec/features/epic_boards/epic_boards_sidebar_spec.rb
+* https://gitlab.com/gitlab-org/gitlab/-/blob/wild-standalone-test/spec/requests/api/commits_spec.rb
 
 **Migration Plan**
 
