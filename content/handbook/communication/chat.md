@@ -69,11 +69,8 @@ To get in touch with the [e-group](/handbook/company/team/?department=executive)
 
 To raise an issue with a specific team, please use below most commonly used channels;
 
-- **`#people-connect`**: For general People Operations tasks such us onboarding, offboarding, letter of employment, Team calender events management etc
 - **`#it_help`**: For IT related queries, Okta, issues with hardware, software, system access requests and user permissions etc
-- **`#payroll`**: For Navan Expense issues, delayed reimbursements and salaries, payslips, etc
 - **`#talent-acquisition`**: For referrals based questions, candidate alignments, general talent acquisition etc
-- **`#total-rewards`**: For general questions on [Total Rewards](/handbook/total-rewards/) including compensation, benefits, and equity
 
 ### Channel Categories
 
