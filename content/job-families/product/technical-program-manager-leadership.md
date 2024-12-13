@@ -3,11 +3,7 @@ title: "Technical Program Management - Leadership"
 description: "This job family represents all Managers in the Technical Program Management sub-department."
 ---
 
-This job family represents all Managers in the Technical Program Management sub-department within the Product Leadership department. They are responsible for managing,
-directly or indirectly, GitLab team members performing in the role of [Technical Program Manager](/job-families/product/technical-program-manager/). The R&D Technical
-Program Management teams support cross-division initiatives and projects across PM, UX, Engineering and other functions within R&D along with functions across GTM. These
-roles are responsible for building and managing a world-class team and putting them in the best position to succeed. They own the delivery of technical programs, are
-always looking to improve productivity, and are responsible for meeting and exceeding deliverable timeline expectations.
+This job family represents all Managers in the Technical Program Management sub-department within the Product Leadership department. They are responsible for managing, directly or indirectly, GitLab team members performing in the role of Technical Program Manager. More info about the Product Technical Program Management team can be found in the TPM Job Family and the Team Page.
 
 ## Levels
 
