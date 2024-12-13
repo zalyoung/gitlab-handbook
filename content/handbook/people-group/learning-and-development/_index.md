@@ -170,7 +170,7 @@ The L&D team freqently uses the following tools for creating and communicating l
 
 ### Learning Content Accessibility Guidelines
 
-In July 2024, GitLab published the first iteration of our [Learning Content Accessibility Guidelines](handbook/legal/ethics-compliance-program/learning-content-accessibility-guidelines/).
+In July 2024, GitLab published the first iteration of our [Learning Content Accessibility Guidelines](/handbook/legal/ethics-compliance-program/learning-content-accessibility-guidelines/).
 
 We ask that team members who create both internal and external learning content:
 

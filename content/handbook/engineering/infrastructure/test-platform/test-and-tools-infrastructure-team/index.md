@@ -103,7 +103,7 @@ We estimate ~20% of weekly time for support tasks, and balancing our roadmap wor
 
 - For individual questions please reach out to the team via our slack channels: `#test-platform`, `#test-tools-infrastructure-team`.
 - Raise support requests as [issues in the team-tasks project](https://gitlab.com/gitlab-org/quality/quality-engineering/team-tasks/-/issues). Add `~"team::Test and Tools Infrastructure"` and `~"tti::support-request"` labels.
-- Ensure each issue is tagged with one of `~"type::feature"`, `~"type::bug`, `~"type::maintenance` following [workflow classification guidelines](handbook/engineering/metrics/#work-type-classification).
+- Ensure each issue is tagged with one of `~"type::feature"`, `~"type::bug`, `~"type::maintenance` following [workflow classification guidelines](/handbook/product/groups/product-analysis/engineering/metrics/#work-type-classification).
 - Team members analyze the issue and add a priority based on the [Reliability Department's prioritization framework](/handbook/engineering/infrastructure/team/reliability/issues/#priority). P1 issues will be taken up on an urgent basis the same week based on the availability of the relevant team members. Lower-priority issues are scheduled for review and discussion in our next bi-weekly meeting for capacity planning.
 - The issues should be following the [workflow label guidelines](../project-management/index.md#workflow-labels).
 

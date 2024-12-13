@@ -284,13 +284,13 @@ To gain access to Snowflake:
 
 #### Snowflake Analyst
 
-Snowflake can be used to perform analyses on the data that is available by writing SQL-code. Anything created and any outcome of the analyses is considered as an [ad-hoc analyses](handbook/it/data-team/data-development/#data-development-at-gitlab). It is important to know that anything that is created (i.e. worksheets and dashboards) is not version controlled and not supported or managed by the Central Data Team. I.e. When a team member off-boards from GitLab, the worksheets and dashboards are not accessible anymore. In order to persist analyses, team members can build Tableau workbooks, store code snippets in a GitLab project, or commit code to the Data Team's [dbt project](https://gitlab.com/gitlab-data/analytics/-/tree/master/transform/snowflake-dbt).
+Snowflake can be used to perform analyses on the data that is available by writing SQL-code. Anything created and any outcome of the analyses is considered as an [ad-hoc analyses](/handbook/enterprise-data/data-development/#data-development-at-gitlab). It is important to know that anything that is created (i.e. worksheets and dashboards) is not version controlled and not supported or managed by the Central Data Team. I.e. When a team member off-boards from GitLab, the worksheets and dashboards are not accessible anymore. In order to persist analyses, team members can build Tableau workbooks, store code snippets in a GitLab project, or commit code to the Data Team's [dbt project](https://gitlab.com/gitlab-data/analytics/-/tree/master/transform/snowflake-dbt).
 
 In order to be granted access to Snowflake, an AR must be opened as [described](/handbook/enterprise-data/platform/#warehouse-access). A new user will be created with access to query the `PROD` database.
 There are 2 levels of data access:
 
 - General data --> Adding the Snowflake `snowflake_analyst` role to their account.
-- SAFE data (you must be or will become a designated insider) --> Adding the Snowflake `snowflake_analyst_safe` to their account. See the [SAFE Guide](handbook/it/data-team/platform/safe-data/#snowflake) for the needed approvals.
+- SAFE data (you must be or will become a designated insider) --> Adding the Snowflake `snowflake_analyst_safe` to their account. See the [SAFE Guide](/handbook/enterprise-data/platform/safe-data/#snowflake) for the needed approvals.
 
 All users will have access to `dev_xs` and `reporting` -(size M) warehouse. When creating the user, the `dev_xs` warehouse as default warehouse.
 
@@ -673,7 +673,7 @@ We use three primary databases: `raw`, `prep`, and `prod`.
 The `raw` database is where data is first loaded into Snowflake; the other databases are for data that is ready for analysis (or getting there).
 
 {{% alert  color="warning" %}}
-All tables and views in `prep` and `prod` are controlled (created, updated) via dbt. [Every Quarter](handbook/it/data-team/data-management/#quarterly-data-health-and-security-audit) the Data Platform Team runs a check for tables and views that are not related to a dbt model and will be removed.
+All tables and views in `prep` and `prod` are controlled (created, updated) via dbt. [Every Quarter](/handbook/enterprise-data/data-management/#quarterly-data-health-and-security-audit) the Data Platform Team runs a check for tables and views that are not related to a dbt model and will be removed.
 {{% /alert %}}
 
 The following list of schema are exceptions and not checked:

@@ -4,7 +4,7 @@ title: Plan:Knowledge Engineering Team
 
 ## Plan:Knowledge team
 
-The Plan:Knowledge team develops [Knowledge Management categories](handbook/product/categories/#knowledge-group):
+The Plan:Knowledge team develops [Knowledge Management categories](/handbook/product/categories/#knowledge-group):
 
 - Wiki
 - GitLab Pages

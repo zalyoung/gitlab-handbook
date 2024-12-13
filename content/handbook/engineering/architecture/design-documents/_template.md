@@ -52,7 +52,8 @@ If there are new details that belong in the document, edit the document. Once
 a feature has become "implemented", major changes should get new blueprints.
 
 The canonical place for the latest set of instructions (and the likely source
-of this file) is [here](/content/handbook/engineering/architecture/design-documents/_template.md).
+of this file) is
+[content/handbook/engineering/architecture/design-documents/_template.md](https://gitlab.com/gitlab-com/content-sites/handbook/-/blob/main/content/handbook/engineering/architecture/design-documents/_template.md).
 
 Document statuses you can use:
 

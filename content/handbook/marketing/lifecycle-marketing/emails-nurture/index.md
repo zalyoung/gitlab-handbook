@@ -23,7 +23,7 @@ Please visit our other pages for more information on [email best practices](/han
   * [see this documentation for Marketo segmentations](/handbook/marketing/marketing-operations/marketo/#segmentations)
 * A prescriptive persona-based buyer's journey (Persona nurture)
   * this is an ongoing effort led by Lifecycle in collaboration with Campaigns, Content Marketing, and Product Marketing
-  * [see this section of the handbook page for more info](handbook/marketing/lifecycle-marketing/emails-nurture/#persona-email-nurture)
+  * [see this section of the handbook page for more info](/handbook/marketing/lifecycle-marketing/emails-nurture/#persona-email-nurture)
   * [see the epic for more information](https://gitlab.com/groups/gitlab-com/marketing/-/epics/1530)
 * User nurtures and programs
   * this is an ongoing effort led by Lifecycle, and specifically spearheaded by our Manager, Lifecycle Marketing  [@Aklatzkin](https://gitlab.com/Aklatzkin).

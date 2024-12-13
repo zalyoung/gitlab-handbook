@@ -1115,7 +1115,7 @@ This is where you can find messaging related to GitLab vs some of our competiors
 
 ### UserGems
 
-[UserGems](handbook/marketing/marketing-operations/usergems) is a tool that tracks specific cohorts of people that we provide in terms of them changing jobs. This automated tracking provides valuable insights, surfacing warm leads that can drive faster, larger wins. This tool helps mitigate deal risks when key individuals leave accounts, and accelerates deal progress when influential contacts join new organizations.
+[UserGems](/handbook/marketing/marketing-operations/usergems) is a tool that tracks specific cohorts of people that we provide in terms of them changing jobs. This automated tracking provides valuable insights, surfacing warm leads that can drive faster, larger wins. This tool helps mitigate deal risks when key individuals leave accounts, and accelerates deal progress when influential contacts join new organizations.
 
 **We have two main cohorts we're tracking:**
 
@@ -1125,7 +1125,7 @@ This is where you can find messaging related to GitLab vs some of our competiors
 - These leads will be flagged on the Action Needed BDR dashboards for you and your manager's review, as well as on the [B8 and B9 views for BDRs.](/handbook/marketing/sales-development/#bdr-lead-views)
 - We expect that our [standard RoE](/handbook/marketing/sales-development/#rules-of-engagement-roe) will be followed normally in actioning these leads.
 - These leads will also be automatically enrolled to a Grove flow either if the job change occured [more](https://groove.clari.com/flows/1124150) or [less](https://groove.clari.com/flows/1122335) than 90 days ago.
-- If you'd like to iterate on these flows please follow the content creation process outlined [here.](handbook/marketing/sales-development/#new-groove-flow-creation)
+- If you'd like to iterate on these flows please follow the content creation process outlined [here.](/handbook/marketing/sales-development/#new-groove-flow-creation)
 - We'll also notify you via Slack and email about these Job Changes.
 
 #### 2. When a company that we are tracking gets a new hire or promotion
@@ -1404,7 +1404,7 @@ The full process for offboarding at GitLab differs based on whether it is volunt
 
 ### Flow Creation
 
-- We follow the process outlined [here](handbook/marketing/sales-development/#new-groove-flow-creation) for creating new content, when it comes to reviewing this content, the Sales Dev Ops team will follow a quarterly cadence of reviewing the Flows/campaigns that are on the In-flight column on the board [here](https://gitlab.com/gitlab-com/marketing/sales-development/-/boards/5540104). We use the criteria below:
+- We follow the process outlined [here](/handbook/marketing/sales-development/#new-groove-flow-creation) for creating new content, when it comes to reviewing this content, the Sales Dev Ops team will follow a quarterly cadence of reviewing the Flows/campaigns that are on the In-flight column on the board [here](https://gitlab.com/gitlab-com/marketing/sales-development/-/boards/5540104). We use the criteria below:
 
 **1. Flow needs to be a globally applicable**
 
@@ -1792,9 +1792,9 @@ Announcement Channels
 
 ### Sales Dev Performance Management Process
 
-The Sales Development organization believes in getting the job done (consistently delivering results) and doing it right (meeting KPI/SLAs, adhering to [Our Three Pillars](handbook/marketing/sales-development/#our-three-pillars), and being good partners both internally and externally). Our performance management process is deeply rooted in this philosophy. As we are building high-performing teams, it is important to understand that while we expect results, we also have expectations surrounding how we get to those results. Therefore, a performance management process will be initiated if a team member is not meeting their performance targets and/or is not adhering to their KPIs/SLAs. The idea behind our framework is to address issues promptly to ensure the long-lasting success of all team members.
+The Sales Development organization believes in getting the job done (consistently delivering results) and doing it right (meeting KPI/SLAs, adhering to [Our Three Pillars](/handbook/marketing/sales-development/#our-three-pillars), and being good partners both internally and externally). Our performance management process is deeply rooted in this philosophy. As we are building high-performing teams, it is important to understand that while we expect results, we also have expectations surrounding how we get to those results. Therefore, a performance management process will be initiated if a team member is not meeting their performance targets and/or is not adhering to their KPIs/SLAs. The idea behind our framework is to address issues promptly to ensure the long-lasting success of all team members.
 
-The sections below will provide more details as to the performance management process on quota attainment as well as [Our Three Pillars](handbook/marketing/sales-development/#our-three-pillars) and KPIs/SLAs for inbound leads and outbound account management. While regular coaching is expected in weekly 1:1s, informal performance management will be initiated if a ramped team member has two consecutive months below 75-80%* attainment (SAOs, Stage 1 XDR Net ARR or Stage 3 Net ARR).
+The sections below will provide more details as to the performance management process on quota attainment as well as [Our Three Pillars](/handbook/marketing/sales-development/#our-three-pillars) and KPIs/SLAs for inbound leads and outbound account management. While regular coaching is expected in weekly 1:1s, informal performance management will be initiated if a ramped team member has two consecutive months below 75-80%* attainment (SAOs, Stage 1 XDR Net ARR or Stage 3 Net ARR).
 
 _*Range due to varied quotas_
 
@@ -1802,9 +1802,9 @@ _*Range due to varied quotas_
 
 Once the team member is informed, expectations will be:
 
-- Month 1: 75-80% attainment + adherence to [Our Three Pillars](handbook/marketing/sales-development/#our-three-pillars)
-- Month 2: 75-90% attainment + adherence to [Our Three Pillars](handbook/marketing/sales-development/#our-three-pillars)
-- Month 3 and beyond: 100% attainment + adherence to [Our Three Pillars](handbook/marketing/sales-development/#our-three-pillars)
+- Month 1: 75-80% attainment + adherence to [Our Three Pillars](/handbook/marketing/sales-development/#our-three-pillars)
+- Month 2: 75-90% attainment + adherence to [Our Three Pillars](/handbook/marketing/sales-development/#our-three-pillars)
+- Month 3 and beyond: 100% attainment + adherence to [Our Three Pillars](/handbook/marketing/sales-development/#our-three-pillars)
 
 Should the team member fall short of the targets above, a formal warning will be issued. 
 After the formal warning is issued if the team member falls short of targets again, additional disciplinary action could be taken up to and including termination.
@@ -1816,9 +1816,9 @@ As a business we understand that Stage 3 Net ARR is a metric that can take time 
 The process, however, will
  stay the same: once the team member is informed, expectations will be:
 
-- Month 1: 80% attainment + adherence to [Our Three Pillars](handbook/marketing/sales-development/#our-three-pillars)
-- Month 2: 90% attainment + adherence to [Our Three Pillars](handbook/marketing/sales-development/#our-three-pillars)
-- Month 3 and beyond: 100% attainment + adherence to [Our Three Pillars](handbook/marketing/sales-development/#our-three-pillars)
+- Month 1: 80% attainment + adherence to [Our Three Pillars](/handbook/marketing/sales-development/#our-three-pillars)
+- Month 2: 90% attainment + adherence to [Our Three Pillars](/handbook/marketing/sales-development/#our-three-pillars)
+- Month 3 and beyond: 100% attainment + adherence to [Our Three Pillars](/handbook/marketing/sales-development/#our-three-pillars)
 
 Should the team member fall short of the targets above, a formal warning will be issued. 
 After a  formal warning is issued if the team member falls short of targets again, additional disciplinary action could be taken up to and including termination.
