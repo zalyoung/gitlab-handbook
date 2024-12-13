@@ -151,7 +151,7 @@ Candidates for this position can expect the hiring process to follow the order b
 >
 > - Unsure on where to get started? Check out our [handbook page on recording a presentation in Zoom](/handbook/tools-and-tips/zoom/#how-to-share-a-presentation-in-zoom). A free Zoom account is all you’d need to complete this presentation.
 > - Interested in the type of work our UX team does? Check out our [UX Forum on GitLab Unfiltered](https://www.youtube.com/playlist?list=PL05JrBw4t0Kq89nFXtkVviaIfYQPptwJz), review our [UX Research handbook](/handbook/product/ux/ux-research/), and our [UX Department's handbook](/handbook/product/ux/).
-> - We work with a [low level of shame](handbook/values/#self-service-and-self-learning) at GitLab. In this context, this means we don't expect your presentation to be highly polished.
+> - We work with a [low level of shame](/handbook/values/#self-service-and-self-learning) at GitLab. In this context, this means we don't expect your presentation to be highly polished.
 > - Other questions? Want the Recruiter to review your presentation before the review from the Hiring Manager? Don't hesitate to get in touch with the Recruiter who conducted your screening call.
 
 **(4)** You will then meet with a Peer UX Research Ops Coordinator to learn more about your experience and operational expertise. This is a good opportunity for you to ask specific question about the day-to-day of the role too.

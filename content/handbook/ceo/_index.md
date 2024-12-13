@@ -92,4 +92,4 @@ What I need from you. What you will get from me.
 
 ## CEO Scam
 
-See [CEO and executive fraud](handbook/security/security-assurance/governance/phishing/#ceo--executive-fraud) in the security practices section of the handbook.
+See [CEO and executive fraud](/handbook/security/security-assurance/governance/phishing/#ceo--executive-fraud) in the security practices section of the handbook.

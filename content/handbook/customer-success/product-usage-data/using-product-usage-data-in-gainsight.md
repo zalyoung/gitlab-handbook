@@ -207,7 +207,7 @@ The instance types are synced from Gainsight to Snowflake weekly and updated Sun
 
 When an account has multiple GitLab instances identified as Production (Instructions on how to [Update Self-Managed Instance Type](#self-managed)).
 
-Health Scores are now calculated by aggregating usage data at the Account level combining all the instances across the organization as well as in Gainsight health scoring. The values are provided to Gainsight and the proper Red/Yellow/Green values are displayed based on the following [thresholds](handbook/customer-success/product-usage-data/use-case-adoption/).
+Health Scores are now calculated by aggregating usage data at the Account level combining all the instances across the organization as well as in Gainsight health scoring. The values are provided to Gainsight and the proper Red/Yellow/Green values are displayed based on the following [thresholds](/handbook/customer-success/product-usage-data/use-case-adoption/).
 
 Users will still need to verify and assign which instance is the primary one if there are any issues observed.
 

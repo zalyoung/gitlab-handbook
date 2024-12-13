@@ -196,7 +196,7 @@ Please use the [Other G&D Types](https://gitlab.com/gitlab-com/people-group/lear
 
 ### Coaching
 
-Please note, using G&D for coaching is only available for managers and leaders grade 8+. Team members job grade 4-7 can receive external coaching from [Modern Health](handbook/total-rewards/benefits/modern-health/#how-can-modern-health-support-my-career-goals).
+Please note, using G&D for coaching is only available for managers and leaders grade 8+. Team members job grade 4-7 can receive external coaching from [Modern Health](/handbook/total-rewards/benefits/modern-health/#how-can-modern-health-support-my-career-goals).
 
 #### Coaching Right Now
 

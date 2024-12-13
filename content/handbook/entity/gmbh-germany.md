@@ -271,11 +271,11 @@ In case a birthing parent takes Parental Leave subsequently to the child's birth
 
 **Parental Leave and GitLab's Global Parental Leave Policy**
 
-GitLab GmbH employees in Germany are entitled to both the statutory German parental and Maternity Leave as well as [GitLab's global 16-week paid Parental Leave policy](handbook/total-rewards/benefits/general-and-entity-benefits/#parental-leave). Here's how these policies interact:
+GitLab GmbH employees in Germany are entitled to both the statutory German parental and Maternity Leave as well as [GitLab's global 16-week paid Parental Leave policy](/handbook/total-rewards/benefits/general-and-entity-benefits/#parental-leave). Here's how these policies interact:
 
 - Maternity Leave: The statutory Maternity Leave period (minimum 14 weeks for single births) is separate from and precedes both statutory German Parental Leave and GitLab's paid Parental Leave.
 - Parental Leave: When overlapping with statutory paternity leave, GitLab's paid Parental Leave will substitute for the gaps in payment.
-- No statutory paternity/Maternity Leave: If the GitLab team member does not apply for any statutory leave regarding the birth of their offspring, they are still eligible for [GitLab's global 16-week paid Parental Leave policy](handbook/total-rewards/benefits/general-and-entity-benefits/#parental-leave).
+- No statutory paternity/Maternity Leave: If the GitLab team member does not apply for any statutory leave regarding the birth of their offspring, they are still eligible for [GitLab's global 16-week paid Parental Leave policy](/handbook/total-rewards/benefits/general-and-entity-benefits/#parental-leave).
 
 **Applying for Parental Leave in Germany**
 

@@ -14,7 +14,7 @@ Remember that some of the links below require you to login to [GitLab's Partner 
 
 ## Foundational Knowledge
 
-[GitLab Quick Start for New GitLab.com Customers](handbook/customer-success/customer-onboarding/)
+[GitLab Quick Start for New GitLab.com Customers](/handbook/customer-success/customer-onboarding/)
 
 - Provides a great primer on the basics of GitLab.com, Namespaces, Groups, Projects, Members, and the GitLab Customer Portal.
 

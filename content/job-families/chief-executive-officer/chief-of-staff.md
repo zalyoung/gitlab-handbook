@@ -27,7 +27,7 @@ The responsibilities include both directed work that will mostly be triggered by
 1. Moderate the [E-Group](/handbook/company/structure/#e-group) meetings.
 1. Ensure action points coming out of meetings (i.e. executive, OKR, key, or incident meetings) are implemented.
 1. Reinforce [communication guidelines](/handbook/communication/).
-1. Prep for the CEO [Quarterly Kick-offs](handbook/company/gitlab-all-company-meetings/#quarterly-kickoff).
+1. Prep for the CEO [Quarterly Kick-offs](/handbook/company/gitlab-all-company-meetings/#quarterly-kickoff).
 1. Draft blog posts and articles about areas of interest to the CEO.
 
 ### Leadership Work
