@@ -30,9 +30,9 @@ Our mission is to empower GitLab’s business processes by delivering an integra
 - **Focus on core competencies:** Adopt and extend third-party solutions where appropriate, allowing GitLab’s engineering resources to focus on core product innovations.
 - **Maintain audit and compliance standards:** Safeguard customer and business data to meet key audit requirements, including SOX and SOC compliance.
 
-## <i class="fas fa-users" id="biz-tech-icons"></i> Our Team (Org Chart)
+## <i class="fas fa-users" id="biz-tech-icons"></i> Our Team
 
-[Our Team (Org Chart)](https://internal.gitlab.com/handbook/it-enterprise-applications/about-us/finance-ops/)
+[Our Team](https://internal.gitlab.com/handbook/it-enterprise-applications/about-us/finance-ops/)
 
 ## <i class="fas fa-bullhorn" id="biz-tech-icons"></i> Our Services
 
@@ -59,6 +59,13 @@ We prioritize and address smaller-scale, non-project tasks to enhance system fun
 - Policy updates for expenses and other configurations
 
 ## <i class="fas fa-bullhorn" id="biz-tech-icons"></i> How We Operate
+
+### [Contacting Us](https://internal.gitlab.com/handbook/it-enterprise-applications/documentation/procedures/how-tos/getting-help/)
+
+- HelpLab:  [IT Break/Fix Request](https://helplab.gitlab.systems/esc?id=sc_cat_item&sys_id=07b1f158979c4610a326158de053affb)
+- Slack: `#enterpise-apps`
+
+
 
 ### Request Submission Process
 
