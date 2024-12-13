@@ -315,8 +315,10 @@ The list of semi-standard rate limiting response headers can be found [here](htt
 
 - `Cloudflare` does not return rate limit response headers on any request.
 - `RackAttack` returns rate limit response headers on throttled requests only.
-- `ApplicationRateLimiter` will return rate limit response headers once [this issue](https://gitlab.com/gitlab-com/gl-infra/production-engineering/-/issues/25372) is implemented.
+- `ApplicationRateLimiter` does not return rate limit response headers.
 - `GraphQL` endpoints currently do not return rate limit response headers.
+
+See [this issue](https://gitlab.com/gitlab-com/gl-infra/production-engineering/-/issues/25372) for improvements to returning rate limiting response headers.
 
 ## Troubleshooting
 
