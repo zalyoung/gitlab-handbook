@@ -10,7 +10,7 @@ Groove is a Salesforce native sales engagement platform which helps Sales and Sa
 
 Groove is a tool co-owned by the Marketing Operations and Sales Operations teams.
 
-If you require further assistance outside of the contents of this handbook page and [highspot page](https://gitlab.highspot.com/items/666cbedd1865f2652ce2da4d?lfrm=shp.0), please reach out in the appropriate Slack channels based on your role:
+If you require further assistance outside of the contents of this handbook page and [Highspot page](https://gitlab.highspot.com/items/666cbedd1865f2652ce2da4d?lfrm=shp.0), please reach out in the appropriate Slack channels based on your role:
 
 - Marketing or Sales Development requests, please contact #mktgops on Slack.
 - Sales requests, please contact #sales-tools-support on Slack.
@@ -392,7 +392,7 @@ Dashboards
 ### Highspot
 
 - [Clari Knowledge Base Article - Groove Highspot Integration](https://clari.my.site.com/customer/s/article/Highspot-Integration)
-- When to use Highspot Pitches vs Groove templates [explainer viedo](https://gitlab.highspot.com/items/64b1c228139060dabfd1e504)
+- When to use Highspot Pitches vs Groove templates [explainer video](https://gitlab.highspot.com/items/64b1c228139060dabfd1e504)
 
 ### LinkedIn Sales Navigator
 
@@ -401,7 +401,7 @@ Dashboards
 
 ### ZoomInfo
 
-Can view the demo in [highspot](https://gitlab.highspot.com/items/66db275add81ed254da5b6ee). With this integration, there are three ways to export records to Groove as a lead and select your flow 
+Can view the demo in [highspot](https://gitlab.highspot.com/items/66db275add81ed254da5b6ee). With this integration, there are three ways to export records to Groove as a lead and select your flow:
 
 1. ZI Chrome Extension (Expand only);
 2. Advanced Search

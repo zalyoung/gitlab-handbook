@@ -5,7 +5,7 @@ description: "Asana is a collaborative work management platform that will suppor
 
 ## About Asana
 
-[Asana]](https://app.asana.com/) is a collaborative work management platform that will support GitLab's mission to enable everyone to contribute to and co-create the software that powers our world. GitLab's Marketing team is planning to use Asana to track projects (e.g., Product Launches), connect work to goals, and coordinate work across the team.
+[Asana](https://app.asana.com/) is a collaborative work management platform that will support GitLab's mission to enable everyone to contribute to and co-create the software that powers our world. GitLab's Marketing team is planning to use Asana to track projects (e.g., Product Launches), connect work to goals, and coordinate work across the team.
 
 ## Why?
 
@@ -56,7 +56,7 @@ The DRI should be:
 - Someone with the authority to make decisions about the task
 - Available during the task's timeline
 
-###### Collaboration Structure
+##### Collaboration Structure
 
 Task collaborators (followers) should include:
 
@@ -71,7 +71,7 @@ To add collaborators:
 1. Search for and select team members
 1. Or use @mentions in comments to automatically add collaborators
 
-###### When to Use Subtasks for Team Collaboration
+##### When to Use Subtasks for Team Collaboration
 
 When you assign a subtask, be sure the assignee has enough context from the parent task or within the subtask description. Avoid burying subtasks under too many layers. You can always convert subtasks to tasks.
 
@@ -92,15 +92,15 @@ Main Task: Q4 Blog Post Launch [DRI: Content Manager]
 #### Task Best Practices
 
 - Provide clear context in the task name and description
-- Provide a realistic and reasonable due date. As a team, you can decide how due dates are changed. Communicate in the comments of a task to indicate if a due date is flexible, or to re-negotiate a due date if needed. 
-- Hypertext relevant tasks or projects by @mentioning a person, project, task, or team
-- Add task collaborators to keep your team informed 
+- Provide a realistic and reasonable due date. As a team, you can decide how due dates are changed. Communicate in the comments of a task to indicate if a due date is flexible, or to re-negotiate a due date if needed.
+- Hypertext relevant tasks or projects by @mentioning a person, project, task, or team.
+- Add task collaborators to keep your team informed.
 
 ### Projects
 
-Projects are used to organize and track all of the steps that must completed for a process or initiative. A project helps you map out the work needed to complete an initiative, maintain a process, or hit a goal. Projects are most similar to GitLab Epics. 
+Projects are used to organize and track all of the steps that must completed for a process or initiative. A project helps you map out the work needed to complete an initiative, maintain a process, or hit a goal. Projects are most similar to GitLab Epics.
 
-Create a project if you have a large effort (10+ tasks) that involve a subset of an existing Team or the whole Team. 
+Create a project if you have a large effort (10+ tasks) that involve a subset of an existing Team or the whole Team.
 
 #### Creating and naming new projects
 
@@ -161,7 +161,7 @@ Before starting your work, ask yourself:
 
 - Handbook updates
 - Code changes / merge requests
-- Opening issues to request support from teams outside of Marketing 
+- Opening issues to request support from teams outside of Marketing
 
 ### Cross-Tool Workflows
 
@@ -235,4 +235,4 @@ If you have questions, first self-service by reviewing this Handbook page, [Asan
 
 ## Self-Paced Learning
 
-The [Asana Academy](https://academy.asana.com/) is a great resource with live and on-demand webinars and workshops. 
+The [Asana Academy](https://academy.asana.com/) is a great resource with live and on-demand webinars and workshops.

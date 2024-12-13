@@ -533,7 +533,7 @@ Documentation describing this segment can be found [here](https://docs.google.co
 
 ### Snippets
 
-[Localized email footer](https://engage-ab.marketo.com/?munchkinId=194-VVC-221#/ds/snippet/15/overview/details) - This snippet can be applied to localized emails to automatically include the translated unsusbcribe language. The unsubscribe language will be localized if the recipient has a known `Preferred Language`. If they do not have a preferred language on file, the footer will be in English.
+[Localized email footer](https://engage-ab.marketo.com/?munchkinId=194-VVC-221#/ds/snippet/15/overview/details) - This snippet can be applied to localized emails to automatically include the translated unsubcribe language. The unsubscribe language will be localized if the recipient has a known `Preferred Language`. If they do not have a preferred language on file, the footer will be in English.
 
 {{% details summary="How to use the localized email footer snippet" %}}
 To use the Localized email footer snippet in an email:

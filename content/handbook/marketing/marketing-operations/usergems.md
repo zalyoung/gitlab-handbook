@@ -65,22 +65,22 @@ Either through reporting or on the lead/contact/UserGems objects, you'll be able
 - *UG - Past Contact*; - This field will be updated on the net new leads created by UG and will link to the previous contact for which the job change was identified;
 - *UG - Past Title*; - This field will be updated on the net new leads created by UG with the title the contact had prior to the job change;
 
-### UserGems Meeting Assistant 
+### UserGems Meeting Assistant
 
-UserGems Meeting Assistant is a separate stand alone feature of UG that syncs to SDRs/BDRs Google Calendars and captures & enriches the third party contact data present in their meetings. If this contact data meets all necessary criteria, it is added as a contact in our SFDC instance. 
+UserGems Meeting Assistant is a separate stand alone feature of UG that syncs to SDRs/BDRs Google Calendars and captures & enriches the third party contact data present in their meetings. If this contact data meets all necessary criteria, it is added as a contact in our SFDC instance.
 
-The necessary criteria that needs to be met for a contact to be created in SFDC is the following: 
+The necessary criteria that needs to be met for a contact to be created in SFDC is the following:
 
-- associated account/company exists in our SFDC environment; 
-- associated account/company matches our set personna; 
-- contact has a linkedin profile; 
+- associated account/company exists in our SFDC environment;
+- associated account/company matches our set personna;
+- contact has a linkedin profile;
 - contact's email domain does not match the "free email providers";
 
-Separetely, if an open opportunity also exists for the contact's company, the contact will also be added as a contact role to that open opportunity. 
+Separetely, if an open opportunity also exists for the contact's company, the contact will also be added as a contact role to that open opportunity.
 
-We're starting to leverage Meeting Assistant as a pilot for a group of 6 reps on the 12th of December. With the plan to do a full roll-out to the whole Sales Development org in mid to late January 2025. 
+We're starting to leverage Meeting Assistant as a pilot for a group of 6 reps on the 12th of December. With the plan to do a full roll-out to the whole Sales Development org in mid to late January 2025.
 
-The tool is only processing the data of third-parties and data subject rights do not impute from that third-party contact to the Team Member. Even in the case where a team member uses a work calendar to schedule a meeting with friends, that contact will be omitted due to a personal domain exclusion. 
+The tool is only processing the data of third-parties and data subject rights do not impute from that third-party contact to the Team Member. Even in the case where a team member uses a work calendar to schedule a meeting with friends, that contact will be omitted due to a personal domain exclusion.
 
 ### Lead Routing & Notifications
 
