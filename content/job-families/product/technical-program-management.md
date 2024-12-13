@@ -102,7 +102,7 @@ The Senior Manager, Technical Program Management is a [grade 9](/handbook/total-
 - Experience developing and executing on strategic team development plans
 - Ability to coach others on driving cross functional product-driven initiatives, without direct control of the programs
 - Ability to delegate and prioritize work across multiple team members
-- Proven track record of successful collaboration with internal and external stakeholders, across multiple levels of leadership 
+- Proven track record of successful collaboration with internal and external stakeholders, across multiple levels of leadership
 - Proven ability to position oneself and the team as trusted partners and thought leaders
 
 #### Senior Manager, Technical Program Management - Performance Indicators
