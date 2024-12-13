@@ -28,4 +28,3 @@ To create a new issue follow this [link](https://gitlab.com/gitlab-com/gl-securi
 #### Review
 
 Risks tracked in our risk register are reviewed on a monthly basis by Product Security leadership.
-
