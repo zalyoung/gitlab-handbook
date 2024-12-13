@@ -7,6 +7,8 @@ description: Overview of our pipeline triage processes
 
 These guidelines gives team members on pipeline triage an idea on the priorities and processes that come with this responsibility. This builds from the information provided in [On-Call Rotation](../oncall-rotation.md).
 
+This guide is an extension of the [Broken `master`](../../../workflow/_index.md#broken-master) engineering workflow and is intended to provide a more specific guide on how to triage end-to-end test pipeline failures.
+
 The Pipeline triage [DRI](/handbook/people-group/directly-responsible-individuals/) is responsible for analyzing and debugging test pipeline failures. Please refer to the [DRI weekly rotation schedule](https://gitlab.com/gitlab-org/quality/pipeline-triage#dri-weekly-rotation-schedule) to know who the current DRIs are.
 
 NOTE:
@@ -238,7 +240,7 @@ The failure was caused by a change in the application code and the test needs to
 - Apply the `~"failure::stale-test"` label.
 - If possible, mention the merge request which caused the test to break, to keep the corresponding engineer informed.
 
-See [Quarantining Tests]
+See [Quarantining Tests](#quarantining-tests)
 
 #### Bug in the test
 
@@ -247,7 +249,7 @@ The failure was caused by a bug in the test code itself, not in the application 
 - Include your findings in a note in the issue about the failure.
 - Apply the `~"failure::broken-test"` label.
 
-See [Quarantining Tests]
+See [Quarantining Tests](#quarantining-tests)
 
 #### Bug in the application
 
@@ -270,15 +272,20 @@ The failure was caused by a bug in the application code.
 
 To find the appropriate team member to cc, please refer to the [Organizational Chart](https://comp-calculator.gitlab.net/org_chart). The [Quality Engineering team list](/handbook/engineering/quality/#department-members) and [DevOps stage group list](/handbook/product/categories/#devops-stages) might also be helpful.
 
-See [Quarantining Tests]
+See [Quarantining Tests](#quarantining-tests)
 
 #### Flaky Test
 
-The failure is due to flakiness in the test itself.
+**Read more**:
 
-- Include your findings in a note in the issue about the failure.
-- Apply the `~"failure::flaky-test"` label.
-- Add the test to our [Test Reliability: Improve test design](https://gitlab.com/gitlab-org/quality/team-tasks/-/issues/1330) tracking issue to identify areas of improvement that can help prevent future flakiness.
+- [What is a flaky test?](https://docs.gitlab.com/ee/development/testing_guide/unhealthy_tests.html#whats-a-flaky-test)
+- [What are the potential causes for a test to be flaky?](https://docs.gitlab.com/ee/development/testing_guide/unhealthy_tests.html#what-are-the-potential-cause-for-a-test-to-be-flaky)
+
+**Process**
+
+- Include your findings in a note in the failure issue.
+- Apply the `~"failure::flaky-test"` label to the failure issue.
+- Apply a `~"flaky-test::*"` [scoped label](https://gitlab.com/groups/gitlab-org/-/labels?subscribed=&sort=relevance&search=flaky-test::) to the failure issue.
 
 Flakiness can be caused by a myriad of problems. Examples of underlying problems
 that have caused us flakiness include:
@@ -289,9 +296,9 @@ that have caused us flakiness include:
 - Actions not completing successfully (e.g. logging out).
 
 For more details, see the list with example issues in our
-[Testing standards and style guidelines section on Flaky tests](https://docs.gitlab.com/ee/development/testing_guide/flaky_tests.html).
+[unhealthy tests](https://docs.gitlab.com/ee/development/testing_guide/unhealthy_tests.html) documentation.
 
-See [Quarantining Tests]
+See [Quarantining Tests](#quarantining-tests)
 
 #### Failure due to test environment
 
