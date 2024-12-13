@@ -8,7 +8,7 @@ any currenly unwritten rules on how to address situations that may reoccur perio
 ## Handling unmaintained dependencies
 
 You've found a package or gem we depend on has not been maintained in a while. If this is a package that is only used in
-a single place or few related places, you should open a replacement MR directly.
+a single place or few related places, you should open a replacement MR directly. This also applies to transient dependencies.
 
 If the package is used in a wide variety of different places across the codebase, it's better to follow a
 more solid review process to make sure the benefits of removing it outweigh the risk of breaking dependencies.
