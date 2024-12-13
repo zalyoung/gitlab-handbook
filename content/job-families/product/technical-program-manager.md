@@ -3,22 +3,23 @@ title: "Technical Program Manager"
 description: "This role supports cross-division initaitives across PM, UX, Engineering and other functions within R&D along with functions across GTM"
 ---
 
-## Technical Program Management Context and Mission
-
-### Context
-
-As we incorporate more program management functions at GitLab, we want to ensure our role, vision, and responsibilities are clear. There are currently Program Managers in Product, IT, Infrastructure within the R&D, along with other areas of the business. We want to ensure there are clear boundaries for each of these program managers and work cross-functionally to align on best practices, process, and overall efficiency across the various programs.
+## Technical Program Management Mission and Vision
 
 ### Mission
 
-Our mission as program managers is to own the execution of cross-functional initiatives that are critical to the business. We lead programs from start to finish to help GitLab meet our organizational goals.
-Program managers develop strategies, evaluate the performance of projects, keep teams organized, and allocate budgets and resources across projects. Program managers may oversee several different teams, all working toward different goals and separate work schedules. We take the lead on tracking project progress, aligning team members, and strategizing program outcomes.
+Our mission as Technical Program Managers is to own the execution of complex, cross-functional initiatives that better enable GitLab to meet company objectives. We aim to make complex programs simpler with proactive, transparent, and efficient practices, while adapting our methodologies to the scenario at hand. We aspire to be trusted partners to stakeholders across the company, in order to accelerate and improve upon program outcomes over time.
+
+### Long-Term Vision
+
+* Define and consistently deliver against a standard of excellence for Program Management at GitLab.
+* Have a team reputation as a fundamental and necessary resource when R&D needs to deliver against complex business objectives and ultimately results for customers.
+* TPMs are seen across our company-wide stakeholders as a key element to accelerate GitLab's strategic business objectives.
 
 ## Core Competencies
 
 Technical Program Managers drive complex and cross-functional technical initiatives by leveraging domain expertise, building a holistic execution strategy and harnessing human leadership qualities to deliver strategic business outcomes that have wide-reaching impact.
 
-The role of TPM can mean different things at different organizations. At GitLab, TPMs should be proficient in 5 core competencies:
+The role of TPM can mean different things at different organizations. At GitLab, Technical Program Managers should be proficient in 5 core competencies:
 
 ### Communication
 
@@ -65,17 +66,7 @@ The role of TPM can mean different things at different organizations. At GitLab,
 
 ### Technical Program Management Performance Indicators
 
-Division Wide Operational Efficency of programs within the Product Division
-
-## Division Structure
-
-|Product|Infrastructure|Security|
-|:-----------------|:-------------|:---------------|
-|**The R&D Technical Program Manager role supports cross-division initiatives across PM, UX, Engineering and other functions within R&D along with functions across GTM**| **Infrastructure Technical Program Management Team drives the planning, execution, and delivery of complex infrastructure projects across Engineering and Product.**|**The Security Program Manager will be responsible for complete overview and driving security initiatives across product, engineering and business enablement.**|
-|Manage and collaborate on key initiatives with stakeholders and leadership across R&D. Drive accountability ensuring all program objectives are met.|Establish a reliable and visible cadence for initiative reviews, decision making, prioritization, and staffing management.|Communicate successfully with partners and drive accountability across teams to ensure program objectives are met |
-|Refine and optimize division processes improving overall efficiency and execution of the division.|Lead and drive Infrastructure projects such as: Availability, Disaster Recovery, Releases, CI/CD Pipeline Efficiency, and Engineering Productivity|Gather and examine customer and internal security team needs and opportunities for new information security programs, products and projects |
-|Gather inputs and feedback and suggest improvements to our Product Process, and operational model within the Product division.|Provide technical project management, coordination, and inter/intra team communications to deliver outstanding program outcomes.|Drive organizational needs cross-functionally with product, engineering and finance including tracking and reporting of progress and metrics |
-| [Product Technical Program Management](/job-families/product/program-manager/) | [Infrastructure Program Management](/job-families/engineering/technical-program-management/technical-program-management-ic/) | [Security Program Management](/job-families/security/security-program-manager/) |
+Division Wide Operational Efficiency of programs within the Product Division
 
 ## Responsibilities
 
@@ -95,7 +86,7 @@ Division Wide Operational Efficency of programs within the Product Division
 
 ### Technical Program Manager
 
-This position reports to the VP of Product Management.
+This position reports to the Manager of Technical Program Management.
 
 #### Technical Program Manager Job Grade
 
@@ -103,7 +94,7 @@ The role is a grade 6.
 
 #### Technical Program Manager Responsibilities
 
-All responsibilities listed below (applicable to all roles) plus:
+All responsibilities listed above (applicable to all roles) plus:
 
 * Identify and coordinate the interdependencies among programs, products and other critical initiatives for a single sub-department
 * Provide insight and suggestions to improving product process and operations
@@ -120,7 +111,7 @@ All requirements listed above (applicable to all roles)
 
 ### Senior Technical Program Manager
 
-This position reports to the VP of Product Management.
+This position reports to the Manager of Technical Program Management.
 
 #### Senior Technical Program Manager Job Grade
 
@@ -147,7 +138,7 @@ All requirements of previous roles plus:
 
 ### Staff Technical Program Manager
 
-This position reports to the VP of Product Management.
+This position reports to the Manager of Technical Program Management.
 
 #### Staff Technical Program Manager Job Grade
 
@@ -170,35 +161,34 @@ All requirements of previous roles plus:
 
 * Proven track record of complex, cross divisional program management.
 * Understanding of our product, and market with a willingness to dive deep
-* Strong anaytical skills for assessing and recommending solutions based on data and research
+* Strong analytical skills for assessing and recommending solutions based on data and research
 
-### Technical Program Management Specialities
+## Technical Program Management Specialities
 
-#### Escalation Specialist
+### Escalation Specialist
 
-This role has commonalities with the standard TPM (Technical Program Management) role above and can vary by level accordingly. This speciality is primarily focused on issue management; both in defining a process for long-term success and leading our teams through coordination and resolution of large scale customer issues or escalations, when needed. While collaborating on processes is a major area of focus for this role, we don’t expect that to represent 100% of the time. Any remaining bandwidth will be spent on supporting cross-functional projects that span the Product, Engineering, Support, and Customer Success teams.
+This role has commonalities with the standard TPM (Technical Program Management) role above and can vary by level accordingly. This specialty is primarily focused on issue management; both in defining a process for long-term success and leading our teams through coordination and resolution of large scale customer issues or escalations, when needed. While collaborating on processes is a major area of focus for this role, we don't expect that to represent 100% of the time. Any remaining bandwidth will be spent on supporting cross-functional projects that span the Product, Engineering, Support, and Customer Success teams.
 
-The responsibilities and requirements for this speciality are largely the same as a standard TPM role. Here are a couple of key differences to be aware of:
+The responsibilities and requirements for this specialty are largely the same as a standard TPM role. Here are a couple of key differences to be aware of:
 
-##### Responsibilities
+#### Responsibilities
 
 * Collaborate with cross-functional stakeholders and internal customers to determine improvements to the existing escalation process. Continue to iterate as our product space broadens and complexity increases.
 * Guide teams through escalation processes as needed. Act as the calm center of focus for the team; help teams through challenging moments while ensuring that we are reaching the right outcomes for our customers.
 
-##### Requirements
+#### Requirements
 
 * Prior experience working across Product, Engineering, and Customer Success functions
 * Prior experience crafting and executing on cross functional process improvements, including capturing and redefining requirements into impactful work items.
 
 ##### Hiring Process
 
-Candidates for this position can expect the hiring process to follow the order below. Please keep in mind that candidates can be declined from the position at any stage of the process. To learn more about someone who may be conducting the interview, find their job title on our team page.
+Candidates for TPM positions can expect the hiring process to follow the order below. Please keep in mind that candidates can be declined from the position at any stage of the process. To learn more about someone who may be conducting the interview, find their job title on our team page.
 
 * Qualified candidates will be invited to schedule a 30 minute screening call with one of our Global Recruiters.
-* Candidates will be invited to schedule a 50-minute interview directly with the Sr Director of Product Management.
-* Candidates will be invited to schedule 2-3 separate 50-minute interviews with Directors in the Product Division.
-* Candidates will be invited to schedule a 30-minute interview with a cross division stable counterpart.
-* Candidates will be invited to schedule a final 30-minute interview with the CPO.
+* Candidates will be invited to schedule a 50-minute interview directly with the Manager of Technical Program Management
+* Candidates will be invited to schedule 2-3 separate 50-minute interviews with stakeholders across the Product and Engineering division
+* Candidates will be invited to schedule a final 30-minute interview with a member of the Product Leadership Team
 
 Additional details about our process can be found on our hiring page.
 
