@@ -1,3 +1,8 @@
+---
+title: "GitLab Enterprise Contribution Guide"
+description: "Guide for enterprise developers to contribute and co-create with GitLab"
+---
+
 # Contributing to GitLab: Where DevOps Meets Open Source 🚀
 
 ## Welcome! 👋
