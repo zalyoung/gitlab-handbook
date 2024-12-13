@@ -60,12 +60,12 @@ We prioritize and address smaller-scale, non-project tasks to enhance system fun
 
 ## <i class="fas fa-bullhorn" id="biz-tech-icons"></i> How We Operate
 
-### [Contacting Us](https://internal.gitlab.com/handbook/it-enterprise-applications/documentation/procedures/how-tos/getting-help/)
+### Contacting Us
+
+For any issues or inquiries, submit a support request via HelpLab or visit the [**Getting Help**](https://internal.gitlab.com/handbook/it-enterprise-applications/documentation/procedures/how-tos/getting-help/) page for more details.
 
 - HelpLab:  [IT Break/Fix Request](https://helplab.gitlab.systems/esc?id=sc_cat_item&sys_id=07b1f158979c4610a326158de053affb)
 - Slack: `#enterpise-apps`
-
-
 
 ### Request Submission Process
 
