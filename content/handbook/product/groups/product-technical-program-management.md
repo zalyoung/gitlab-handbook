@@ -21,7 +21,7 @@ Our mission as Technical Program Managers is to own the execution of complex, cr
 
 ### Core Responsibilities
 
-More information can be found in the Product TPM Job Family and the Product TPM Leadership Job Family
+More information can be found in the [Product TPM Job Family](/job-families/product/technical-program-manager)and the [Product TPM Leadership Job Family](/job-families/product/technical-program-manager-leadership)
 
 ### How We Work
 
@@ -56,7 +56,7 @@ As Technical Program Management is a relatively new function at GitLab, we're co
 |Manage and collaborate on key initiatives with stakeholders and leadership across R&D. Drive accountability ensuring all program objectives are met.|Establish a reliable and visible cadence for initiative reviews, decision making, prioritization, and staffing management.|Communicate successfully with partners and drive accountability across teams to ensure program objectives are met |
 |Refine and optimize division processes improving overall efficiency and execution of the division.|Lead and drive Infrastructure projects such as: Availability, Disaster Recovery, Releases, CI/CD Pipeline Efficiency, and Engineering Productivity|Gather and examine customer and internal security team needs and opportunities for new information security programs, products and projects |
 |Gather inputs and feedback and suggest improvements to our Product Process, and operational model within the Product division.|Provide technical project management, coordination, and inter/intra team communications to deliver outstanding program outcomes.|Drive organizational needs cross-functionally with product, engineering and finance including tracking and reporting of progress and metrics |
-| Product Technical Program Management | [Infrastructure Program Management](/job-families/engineering/technical-program-management/technical-program-management-ic/) | [Security Program Management](/job-families/security/security-program-manager/) |
+| [Product Technical Program Management](/job-families/product/technical-program-manager) | [Infrastructure Program Management](/job-families/engineering/technical-program-management/technical-program-management-ic/) | [Security Program Management](/job-families/security/security-program-manager/) |
 
 ### Contacting The Team
 

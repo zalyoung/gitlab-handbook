@@ -7,7 +7,7 @@ description: "This role supports cross-division initaitives across PM, UX, Engin
 
 ### Mission
 
-Our mission as Technical Program Managers is to own the execution of complex, cross-functional initiatives that better enable GitLab to meet company objectives. We aim to make complex programs simpler with proactive, transparent, and efficient practices, while adapting our methodologies to the scenario at hand. We aspire to be trusted partners to stakeholders across the company, in order to accelerate and improve upon program outcomes over time.
+Our mission as [Technical Program Managers](/handbook/product/groups/product-technical-program-management) is to own the execution of complex, cross-functional initiatives that better enable GitLab to meet company objectives. We aim to make complex programs simpler with proactive, transparent, and efficient practices, while adapting our methodologies to the scenario at hand. We aspire to be trusted partners to stakeholders across the company, in order to accelerate and improve upon program outcomes over time.
 
 ### Long-Term Vision
 
