@@ -34,16 +34,34 @@ Documenting a Section, Stage, Group and Category direction is critical to commun
 
 ## Communication
 
+### Product Org Communication Touchpoints
+
+In November 2024 we adjusted our communicated touch points based on feedback from our [FY25-Q2 Engagement Survey](https://gitlab.com/groups/gitlab-com/-/epics/2402), AMAs, skip levels, and 1:1s. The two key areas we are prioritizing:
+
+- Embedding more asynchronous touchpoints to reach team members across time zones
+- Implementing additional opportunities to cascade information from E-Group and PLT
+
+#### Synchronous Product Org Communication Touch Points
+
+- Product All-Team Meeting: We have a quarterly synchronous meeting for the Product Org. As of Nov 2024, we are expanding on the existing content and structure to ensure key strategic updates from each PLT department head are effectively cascading through the organization regularly.
+- Product Key Review: We follow the company wide key-review format which covers key updates to the product division and is shared with cross-functional stakeholders.
+
+#### Asynchronous Product Org Communication Touch Points
+
+- CPO Fortnightly Update: David posts a slack message in #product-private every two weeks. This is a way for him to share what is top of mind for E-group and across the product team.
+- New Hire Intros: New hires to the product org are encouraged to post their introduction in the #new-team-members slack channel. Once per month, a member of our Product Leadership Team will post a consolidated list of new hires and their intros into the #product-private slack channel.
+- Monthly Showcase: On a 4-week cadence we have an async monthly showcase, facilitated in the #product-private channel, where people can share what they're working on with the rest of the Product Org. This is a low-key competition with prizes to incentivize folks to contribute videos. Team members can add videos throughout the month, then the entire Product Org can vote on their favorite video via google form. At the end of the 4-week period, there will be a prize for the winner, announced in David's fortnightly update. In the case of a tie in number of views, David will make the final call on who wins. We hope that this encourages team members to share their wins and exciting developments in their feature areas! Note: We’re doing this on a 4-week cadence (rather than calendar month) so that it aligns with David’s fortnightly updates, which are posted every other week. This should still be roughly aligned to the calendar month.
+
+### Other Communication Channels
+
 - [**Product Function Issue Tracker**](https://gitlab.com/gitlab-com/Product/issues) - please use
 confidential issues for topics that should only be visible to team members at GitLab.
 - [**Product Function GitLab Group - @gl-product**](https://gitlab.com/groups/gl-product/-/group_members)
 - [**Product Management GitLab Group - @gl-product-pm**](https://gitlab.com/groups/gl-product/-/group_members)
-- **Bi-Weekly Meeting**
-- [**Chat channel - #product**](https://gitlab.slack.com/archives/product)
+- [**Chat channel - #product-private**]. This is a private slack channel for members of the product-org; new team members are automatically added to this channel as part of onboarding.
+- [**Chat channel - #product**](https://gitlab.slack.com/archives/product). All GitLab internal team members can use the `#product` channel for any product-related questions but you'll also find more direct assistance in the various [Product Group](/handbook/product/categories/) channels.
 
-For internal team members please feel free to use the `#product` channel for any product-related questions but you'll also find more direct assistance in the various [Product Group](/handbook/product/categories/) channels.
-
-### Communicating with the Entire Product Management Function
+### Communicating with the Entire Product Management Function At Once
 
 When communicating change or a request for action to the entire product function, utilize the following levels and corresponding activities.
 
