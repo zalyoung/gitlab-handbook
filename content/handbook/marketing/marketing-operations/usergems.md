@@ -65,24 +65,21 @@ Either through reporting or on the lead/contact/UserGems objects, you'll be able
 - *UG - Past Contact*; - This field will be updated on the net new leads created by UG and will link to the previous contact for which the job change was identified;
 - *UG - Past Title*; - This field will be updated on the net new leads created by UG with the title the contact had prior to the job change;
 
-### UserGems <> GitLab Launch Timeline
+### UserGems Meeting Assistant 
 
-The timeline for launching UserGems within GitLab is as follows:
+UserGems Meeting Assistant is a separate feature of UG that syncs to the Google Calendar of SDRs and BDRs and syncs, captures and enriches the third party contact data present in their meetings and if they meet all necessary criteria, they are added as a contact in our SFDC instance. 
 
-- Sales Enablement Training - 09/19/2024 - (Training dedicated to BDRs/SDRs minus the ones for the APJ region. The SDRs/BDRs for APJ region, along with AEs globally will review the recording async);
-- Retro-Active Leads Push #1 - 09/22/2024 (These are leads that are going to be created initially for both motions, job changes tracking along with new hire & promotions, based on the contacts/accounts that are being tracked);
-- Go Live Date - 09/23/2024;
-- Retro-Active Leads Push #2 - 09/29/2024 (These are New Hires & Promotion leads that are going to be created, based on the target accounts that are being tracked);
-- Retro-Active Leads Push #3 - 10/06/2024 (These are New Hires & Promotion leads that are going to be created, based on the target accounts that are being tracked).
+The necessary criteria that needs to be met for a contact to be created is the following: 
+- associated account/company exists in our SFDC environment; 
+- associated account/company matches our set personna; 
+- contact has a linkedin profile; 
+- contact's email domain does not match the "free email providers";
 
-### Retro-Active Leads
+Separetely, if an open opportunity also exists for the contact's company, the contact will also be added as a contact role to that open opportunity. 
 
-Based on the initial batch of contacts & accounts tracked, UserGems already identified a list of approximately 2K job changes & 27K New Hires & Promotions, which are all going to be pushed to SFDC as follows:
+We're starting to leverage Meeting Assistant as a pilot for a group of 6 reps on the 12th of December. If all goes according to plan, we're are going to do a full roll-out to the whole Sales Development org sometime in mid to late January 2025. 
 
-- 2K job changes leads will be created in SFDC on Sunday, 22nd of September, ahead of launch;
-- 9K New Hires & Promotions will be created in SFDC on Sunday, 22nd of September, ahead of launch;
-- 9K New Hires & Promotions will be created in SFDC, the following Sunday on the 29th of September;
-- 9K New Hires & Promotions will be created in SFDC, the following Sunday after that, on the 6th of October;
+The tool is only processing the data of third-parties and data subject rights do not impute from that third-party contact to the Team Member. Even in the case where a team member uses a work calendar to schedule a meeting with friends, that contact will be omitted due to a personal domain exclusion. 
 
 ### Lead Routing & Notifications
 
