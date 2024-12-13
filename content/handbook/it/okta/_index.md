@@ -54,7 +54,7 @@ GitLab requires all team members to use either Biometrics or YubiKey as your [Ok
 
 <img src="/handbook/it/okta/images/1password-passkey.png" alt="1Password USB Key" width="300">
 
-1. By default, you will be prompted to save it in your iCloud KeyChain. 
+1. By default, you will be prompted to save it in your iCloud KeyChain.
 
     <img src="/images/security/corporate/Okta-Apple-Touch-ID-Popup.png" alt="Okta Apple Touch ID" width="300"/>
 
@@ -91,7 +91,7 @@ We have also prepared Introductory Videos on [Configuring Applications](https://
 
 ### Add biometric authentication to Okta for mobile devices (accessing Okta apps on your phone)
 
-These steps are for an iPhone, and may be slightly different for Android.  If you are using an iPhone, you are required to have the "Passwords" app installed. We recommend enrolling a phone even if you don't plan to use it often, in case you need a way to [add a new computer or your credential gets accidentally removed on the computer](#i-want-to-login-or-add-a-new-computer-to-okta-and-i-have-a-mobile-device-enrolled). 
+These steps are for an iPhone, and may be slightly different for Android.  If you are using an iPhone, you are required to have the "Passwords" app installed. We recommend enrolling a phone even if you don't plan to use it often, in case you need a way to [add a new computer or your credential gets accidentally removed on the computer](#i-want-to-login-or-add-a-new-computer-to-okta-and-i-have-a-mobile-device-enrolled).
 
 1. On the computer, if using Chrome, please check that it is on the latest version by visiting the URL `chrome://settings/help` - if a new version is available, please use the `Relaunch` button to restart the browser.
 1. On your Mac, please check under "System Settings"->"Privacy & Security"->"Bluetooth" and make sure that Google Chrome has Bluetooth access enabled.
@@ -118,9 +118,9 @@ These steps are for an iPhone, and may be slightly different for Android.  If yo
 
     1. In Safari, click "Other options", then choose "iPhone, iPad or Android device - save a passkey on a device with a camera", then "Continue".
 
-1. On the mobile device, open your camera app and scan. (It may take a few seconds for it to connect). This requires Bluetooth to be enabled on both devices, but does not require pairing. 
+1. On the mobile device, open your camera app and scan. (It may take a few seconds for it to connect). This requires Bluetooth to be enabled on both devices, but does not require pairing.
 1. On the mobile device, a popup should show up to allow the credential to be saved.
-    1. On a iPhone or iPad, it will prompt to create a passkey. Choose the Passwords app. 
+    1. On a iPhone or iPad, it will prompt to create a passkey. Choose the Passwords app.
     1. If saving the credential fails, go to Settings->`your name`->iCloud and make sure that Passwords and Keychain is set to "On" and the "Passwords" app is installed.
     1. If it still fails, you can also try [force restart](https://support.apple.com/guide/iphone/force-restart-iphone-iph8903c3ee6/ios) and then trying to sign out of iCloud on your mobile device, and then sign back in to iCloud.
     1. On Android, this may appear "Use this device with screen lock". Choose this.

@@ -322,9 +322,9 @@ Currentness of knowledge of existing and pending legislation and regulations
 - Local international tax compliance supervision
 - International funding, contributions and distributions
 - Identification of issues and project management (knowledge of GitLab merge requests is a plus)
-- Initiating and settling intercompany transactions 
-- Maintaining capital preservation, minimizing any excess cash held by international subsidiaries 
-- Supervising managers and creating leaders 
+- Initiating and settling intercompany transactions
+- Maintaining capital preservation, minimizing any excess cash held by international subsidiaries
+- Supervising managers and creating leaders
 - The Senior Director of International Tax will be a JD or CPA and will have a BS/BA in Accounting or Finance with an MST, MBT, or LLM in taxation.
 
 ## Specialties

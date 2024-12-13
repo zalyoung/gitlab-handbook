@@ -133,7 +133,7 @@ Manager, Revenue Systems is a [grade 8](/handbook/total-rewards/compensation/com
 
 ### Responsibilities
 
-- Business Acumen: Understanding of core finance business processes of quote to cash, record to report, and procure to pay. Understanding of accounting principles and GitLab finance related policies. 
+- Business Acumen: Understanding of core finance business processes of quote to cash, record to report, and procure to pay. Understanding of accounting principles and GitLab finance related policies.
 - Business Engagement: Engage with your team and stakeholders regarding their business strategy and objectives for automating and optimizing financial processes. Meet regularly with business partners to ensure that the financial applications are functioning as designed and supporting their needs.
 - Technical & Functional Guidance: Work Closely with Business stakeholders, understand requirements and translate them to actionable solutions. Offer counsel and mentorship to team members on technical and functional delivery.
 - Team Leadership: Can manage a global team to deliver results by dividing and balancing work between employees ensuring that results meet Enterprise Applications standard.

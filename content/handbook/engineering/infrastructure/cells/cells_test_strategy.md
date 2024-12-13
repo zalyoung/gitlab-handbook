@@ -10,7 +10,7 @@ This approach has the following requirements:
 - It must provide good coverage so we have confidence to release
 - It must be easy to add/enhance/change tests
 - It works with our current process
- 
+
 ## Strategy
 
 The testing strategy for Cells follows our practice of testing at the correct level. The testing will be focused on a couple of efforts:
@@ -24,7 +24,7 @@ The testing strategy for Cells follows our practice of testing at the correct le
   - Ensuring we're building with Observability in mind and include the hooks to integrate to our Observability tools
   - [Migration testing](https://docs.gitlab.com/ee/development/testing_guide/testing_migrations_guide.html), ensuring that the migrations are performant and handle .com scale
   - Performance testing
-    - We will the the Observability tools to do performance analysis on the live environments 
+    - We will the the Observability tools to do performance analysis on the live environments
     - [GPT](https://gitlab.com/gitlab-org/quality/performance#gitlab-performance-tool) based tests to check against our reference architectures
     - Enhancing our existing pipelines to capture performance metrics to Shift Left performance testing and enable devs to have better visibility into performance concerns
 
@@ -55,7 +55,7 @@ A majority of the testing we will need to do will exist at the `Single Cell` lev
 
 #### Feature
 
-This testing is done as part of the day to day work of development, the unit/integration tests added as part of developing the features. The SET can help advise on edge cases / scenarios that should be considered for testing. We currently have two E2E test suites defined: `smoke` and `blocking` ([the test suite definitions](../test-platform/blocking-tests.md#overview)). 
+This testing is done as part of the day to day work of development, the unit/integration tests added as part of developing the features. The SET can help advise on edge cases / scenarios that should be considered for testing. We currently have two E2E test suites defined: `smoke` and `blocking` ([the test suite definitions](../test-platform/blocking-tests.md#overview)).
 
 #### Single Cell
 
@@ -81,7 +81,7 @@ The [HTTP Router definition](../../architecture/design-documents/cells/topology_
 
 ### Topology Service
 
-The [Topology Service Blueprint definition](../../architecture/design-documents/cells/topology_service.md). It will gain coverage by the [Single Cell](#single-cell) testing, since logging in from the outside will exercise the Topology Service. If we need further E2E tests specifically on the Topology Service (via API?) needs to be determined. 
+The [Topology Service Blueprint definition](../../architecture/design-documents/cells/topology_service.md). It will gain coverage by the [Single Cell](#single-cell) testing, since logging in from the outside will exercise the Topology Service. If we need further E2E tests specifically on the Topology Service (via API?) needs to be determined.
 
 ### Pre-QA Cell
 

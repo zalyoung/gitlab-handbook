@@ -204,7 +204,7 @@ Additional details about our process can be found on our hiring page.
 
 ##### Escalation Specialist Framework
 
-The projects that the Escalation Specialist handles are called “Platform Escalations”. In short, **a Platform Escalation is a broadly impactful product issue or event that is time sensitive and involves several GitLab departments.** 
+The projects that the Escalation Specialist handles are called “Platform Escalations”. In short, **a Platform Escalation is a broadly impactful product issue or event that is time sensitive and involves several GitLab departments.**
 
 **Criteria for becoming a Platform Escalation and getting TPM coverage:**
 
@@ -224,7 +224,7 @@ The projects that the Escalation Specialist handles are called “Platform Escal
    1. **Customer Impact:** Does your project have the potential for a negative customer impact? (Breaking changes, deprecations, migrations, etc).
       1. If YES, then +1 point
 1. **Scoring:**
-   1. If the project scores **5 or more points**, the Escalation Specialist will most likely manage the project as a Platform Escalation. In the scenario that they can’t either due to PTO or lack of bandwidth, another member of the Product TPM team may be able to step in. 
+   1. If the project scores **5 or more points**, the Escalation Specialist will most likely manage the project as a Platform Escalation. In the scenario that they can’t either due to PTO or lack of bandwidth, another member of the Product TPM team may be able to step in.
    1. If the project scores **3-4 points**, the Escalation Specialist may be able to manage the project as a Platform Escalation depending on their current bandwidth.
 
 <br>

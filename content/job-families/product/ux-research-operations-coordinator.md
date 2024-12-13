@@ -112,7 +112,7 @@ Candidates for this position can expect the hiring process to follow the order b
 >
 > 1. It helps us understand your hands-on experience with research operations or coordination.
 > 1. It demonstrates how you approach and solve complex challenges.
-> 1. It gives insight into your communication and storytelling skills when presenting your work. 
+> 1. It gives insight into your communication and storytelling skills when presenting your work.
 >
 > ### What topics it could be about
 >
@@ -142,7 +142,7 @@ Candidates for this position can expect the hiring process to follow the order b
 > - **Overly technical details:** We don't need an in-depth walkthrough of technical tools or systems unless it's directly relevant to the case study.
 > - **Off-topic projects:** Avoid examples unrelated to research operations or coordination, such as projects in unrelated fields or roles.
 >
-> ### Submitting your case study 
+> ### Submitting your case study
 >
 > - Please share your recording within 10 days of the case study being requested.
 > - You can share the recording using either a [private Youtube Link](https://support.google.com/youtube/answer/157177?co=GENIE.Platform%3DDesktop&hl=en), [Google Drive link](https://support.google.com/drive/answer/2494822?co=GENIE.Platform%3DDesktop&hl=en), or a [Loom link](https://www.loom.com/).

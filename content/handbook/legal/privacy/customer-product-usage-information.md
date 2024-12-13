@@ -27,7 +27,7 @@ The first exception is in the collection of hostname and IP address for Self-Man
 
 *Data Sharing*: Service Ping Metrics are not shared with independent third-parties.  The data is sent from Self-Managed instances, Dedicated or GitLab.com namespaces to the [Versions App](https://version.gitlab.com/) and our data warehouse for processing.  These are GitLab-controlled systems.
 
-*Cadence*: Service Ping collected via Self-Managed instances, Dedicated and GitLab.com namespaces are automatically generated on a weekly basis.  The data will appear in our data warehouse within one-day after generation. Only the metrics that were instrumented through the version the Self-Managed instance is running on are available.  For example, if a metric is instrumented during the development of version 16.9, it will be available on instances running versions equal to or greater than 16.9. 
+*Cadence*: Service Ping collected via Self-Managed instances, Dedicated and GitLab.com namespaces are automatically generated on a weekly basis.  The data will appear in our data warehouse within one-day after generation. Only the metrics that were instrumented through the version the Self-Managed instance is running on are available.  For example, if a metric is instrumented during the development of version 16.9, it will be available on instances running versions equal to or greater than 16.9.
 
 *Ownership*: Service Ping is owned by the [GitLab Analytics Instrumentation Group](/handbook/engineering//development/analytics/monitor/analytics-instrumentation/).
 

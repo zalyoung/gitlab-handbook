@@ -173,7 +173,7 @@ This section is a high-level summary (3-5 sentences) of achievements that demons
 
 As our most important [value](/handbook/values/#hierarchy), results are at the core of everything we do.
 
-Please list the 3 most impactful results (accomplishments, initiatives, or projects) that demonstrate the team member's performance at the next level aligned with our values and expectations in the [job framework](https://docs.google.com/spreadsheets/d/1A46wqVK0ZdhmN7HT7G3QrBbExJw6vZJrSCFIiFd9T7U/edit?gid=0#gid=0). 
+Please list the 3 most impactful results (accomplishments, initiatives, or projects) that demonstrate the team member's performance at the next level aligned with our values and expectations in the [job framework](https://docs.google.com/spreadsheets/d/1A46wqVK0ZdhmN7HT7G3QrBbExJw6vZJrSCFIiFd9T7U/edit?gid=0#gid=0).
 
 **Project impact on GitLab / Business Result**
 
@@ -255,18 +255,18 @@ Promotions to Senior Director+ level ([job grade 11]({{< ref "compensation-calcu
 
 1. **Planning**: Senior Director+ promotions need to be added to E-group's promotion project sheet at least two quarters ahead of the desired promotion quarter for visibility. For example, if I want to promote an individual effective in Q1 (February), then I need to have this team member added to E-group's projection sheet within Q3 (latest October). Please work with your aligned People Business Partner, who will ensure the promotion projection is added.
 1. **Level Scoping**: We want to ensure rigor and consistency in our organization design principles and expectations for senior leadership roles. For Senior Director+ promotions, we utilize a scoping tool to evaluate the role (not the team member) for business need and alignment to the Job Frameworks.
-1. **Cross Functional Feedback**: We require at least 3 examples of cross functional feedback when reviewing Senior Director+ promotions. This feedback will not be made public and will only be reviewed by the calibration committee, PBP, direct manager and team member. 
+1. **Cross Functional Feedback**: We require at least 3 examples of cross functional feedback when reviewing Senior Director+ promotions. This feedback will not be made public and will only be reviewed by the calibration committee, PBP, direct manager and team member.
 
-- All three of the business results highlighted in the promotion document should have feedback provided from at least one cross functional team member. 
+- All three of the business results highlighted in the promotion document should have feedback provided from at least one cross functional team member.
 - Feedback providers should have direct experience working with the team member on one or more of the business results highlighted in their promotion document as a project team member, DRI, or stakeholder.
 - Feedback provider is not in the same reporting line as the manager (I.E. not team member’s manager, skip level, etc.)
 - Feedback providers must be cross-functional. When determining the most appropriate team members to provide feedback, the core focus should be on who worked most closely with the promotion candidate on the business results highlighted in the promotion document.
 - Feedback providers should be at or above the target promotion level. Feedback providers can be individual contributors or people managers at or above the target promotion level. The reason we require feedback providers to be at or above the target promotion level is to ensure they are able to speak to business results and collaboration in the context of next level expectations as team members who are already operating at the next level.
 - Feedback will be captured in [this template](https://docs.google.com/document/d/12WRYWICcxwvyVP4L052v9ciSNIhUlRUKGkr1AKq89zY/edit?usp=sharing), separate from the Promotion Document and will be reviewed as part of the calibration discussion. Feedback will be summarized, and it is not required to provide specific names of the feedback providers.
 
-**Feedback question guidance**: 
+**Feedback question guidance**:
 
-1. Please provide feedback on X delivery of Y business results, and collaboration with you and/or your team. 
+1. Please provide feedback on X delivery of Y business results, and collaboration with you and/or your team.
 1. Specifically highlight performance against the Job Frameworks, CREDIT Values and HPT Pillars
 
 1. **Calibration**: All Senior Director level promotions are calibrated at the Divisional VP+ leadership level, as opposed to at the Department level. Vice President level promotions are calibrated at E-group. The calibration timeline will align to the timing of the [E-group offsite]({{< ref "offsite#schedule" >}}) or extended monthly meeting, and will thus differ from the Calibration timeline of the rest of the organization. All promotion documents, feedback summaries and scoping tools need to be completed and shared with the E-group for visibility and preparation at least *2 weeks before the off-site date*.

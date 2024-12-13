@@ -274,7 +274,7 @@ Steps:
 
 While changes we make are rigorously tested and carefully deployed, it is a good practice to temporarily halt production changes during certain events such as GitLab Summit, major global holidays, and other times where GitLab Team Member availability is substantially reduced.
 
-Risks of making a production environment change during these periods includes immediate customer impact and/or reduced engineering team availability in case an incident occurs. Therefore, we have introduced a mechanism called **Production Change Lock (PCL)**. During a PCL, automated deployments are paused. A deployment may be manually executed at the discretion of the EOC. For example, the EOC may choose to deploy changes because they are necessary to ensure the stability of GitLab.com, or in order to ensure that deployments continue running smoothly when the PCL is lifted. 
+Risks of making a production environment change during these periods includes immediate customer impact and/or reduced engineering team availability in case an incident occurs. Therefore, we have introduced a mechanism called **Production Change Lock (PCL)**. During a PCL, automated deployments are paused. A deployment may be manually executed at the discretion of the EOC. For example, the EOC may choose to deploy changes because they are necessary to ensure the stability of GitLab.com, or in order to ensure that deployments continue running smoothly when the PCL is lifted.
 
 There are 2 types of PCLs: soft and hard.
 
@@ -308,14 +308,14 @@ Roles in declaring a Production Change Lock:
 - Engineering:
   - Informed: Keeps track of change locks for development and planning purposes
 - Product:
-  - Informed: Keeps track of change locks for planning purposes 
+  - Informed: Keeps track of change locks for planning purposes
 - Security:
   - Informed: Keeps track of change locks for security purposes
 
 Steps to declare a new Production Change Lock (PCL):
 
 1. Create a Change Issue and Change Lock entry
-   - Production Engineering creates a [C1 Change issues](https://gitlab.com/gitlab-com/gl-infra/production/-/issues/new?issuable_template=change_pcl&issue[title]=Production+Change+Lock) that will block deployments and feature flags. Remember to mark this as `~change::in-progress` at the start of the PCL. 
+   - Production Engineering creates a [C1 Change issues](https://gitlab.com/gitlab-com/gl-infra/production/-/issues/new?issuable_template=change_pcl&issue[title]=Production+Change+Lock) that will block deployments and feature flags. Remember to mark this as `~change::in-progress` at the start of the PCL.
    - Production Engineering creates a corresponding entry in [gl-infra/change-lock](https://gitlab.com/gitlab-com/gl-infra/change-lock)
 2. Review and Approval
    - Software Delivery Engineering Managers (EMs) are added as reviewers

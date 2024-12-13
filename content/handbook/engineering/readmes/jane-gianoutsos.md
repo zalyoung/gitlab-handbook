@@ -70,7 +70,7 @@ Recent hobbies have included:
 - Star Trek
 - Reading - fairly eclectic taste, but for escapism: sci-fi and a bit of fantasy
 
-Further back hobbies included [crochet](https://www.flickr.com/photos/unplain-jane/albums/72157608410004917), [sewing](https://www.flickr.com/photos/unplain-jane/albums/72157622880198139), [New Zealand Sign Language](https://www.nzsl.nz/) (sadly I've forgotten most of what I learnt),  [photography](https://www.flickr.com/photos/unplain-jane/albums/72157616370056642), fermented foods ([sauerkraut](https://www.instagram.com/p/B4EjBRdhSFc/), [sourdough](https://www.instagram.com/p/B8ahzBZpihR/) bread, kombucha, kefir water, [pickles](https://www.instagram.com/p/B4JopFphgmm/)), [water color painting](https://www.instagram.com/p/BkZySmClad2/), acrylic painting, 
+Further back hobbies included [crochet](https://www.flickr.com/photos/unplain-jane/albums/72157608410004917), [sewing](https://www.flickr.com/photos/unplain-jane/albums/72157622880198139), [New Zealand Sign Language](https://www.nzsl.nz/) (sadly I've forgotten most of what I learnt),  [photography](https://www.flickr.com/photos/unplain-jane/albums/72157616370056642), fermented foods ([sauerkraut](https://www.instagram.com/p/B4EjBRdhSFc/), [sourdough](https://www.instagram.com/p/B8ahzBZpihR/) bread, kombucha, kefir water, [pickles](https://www.instagram.com/p/B4JopFphgmm/)), [water color painting](https://www.instagram.com/p/BkZySmClad2/), acrylic painting,
 
 A long while ago I did a [series of blog posts](https://nztebs.blogspot.com/search/label/Open%20Office%20Writer) on getting comfortable with using Open Office Write and a bit of OO Calc.
 

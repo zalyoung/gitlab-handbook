@@ -7,8 +7,8 @@ Though the UX Researchers are not the only ones who conduct user research in Git
 
 - Assure org-wide assessment and prioritisation of topmost research initiatives
 - Create programs that break down silos and standardise data triangulation
-- Reduce the risk of duplicating efforts (current and past work) 
-- Facilitate learning and collaboration among researchers 
+- Reduce the risk of duplicating efforts (current and past work)
+- Facilitate learning and collaboration among researchers
 
 ## Who is responsible for research project prioritization?
 
@@ -18,7 +18,7 @@ UX Researchers at Gitlab work on multiple stage groups and often across stages. 
 
 The UX Research team go through the process at the beginning of every quarter in a syncronised manner, aligning with the company's OKR planning timeline. This is when the majority of research requests are raised, either by stakeholders or by UX Researchers themselves. These requests are then discussed, assessed and prioritized.
 
-However, a good number of research requests are raised during the quarter. This is because things change, and priorities shift, especially in the fast moving tech industry. Ad-hoc research requests are discussed, assessed and prioritized using the same framework as the ones raised when the quarter starts. 
+However, a good number of research requests are raised during the quarter. This is because things change, and priorities shift, especially in the fast moving tech industry. Ad-hoc research requests are discussed, assessed and prioritized using the same framework as the ones raised when the quarter starts.
 
 When the team is at capacity, taking on new prjects requries stopping something else. New projects with higher priority bump lowest priority current work.
 
@@ -42,7 +42,7 @@ Every requests should have one main intended impact type clearly identified.
 
 Some requests may be dropped at this phase as a result of people making connections and identifying existing insights, more efficient alternatives, or coming to the agreement that there is no clear case for business impact.
 
-Some requests may be folded into other requests or existing projects due to overlapping goals, research questions and scope. 
+Some requests may be folded into other requests or existing projects due to overlapping goals, research questions and scope.
 
 **Step 3. Assessing Priority and Support Levels**
 
@@ -73,7 +73,7 @@ The priority calculator asks 6 questions and for each quetion gives a score from
 </details>
 <br>
 
-We then use the support level calculator ([demo](https://docs.google.com/spreadsheets/d/1Pl50jZsyH61JoFme_vgwv-OpWey3Wo6s_wLlNSSOgKQ/edit?gid=876356301#gid=876356301) - internal access only) to decide how UX Researcher should best support the effort. 
+We then use the support level calculator ([demo](https://docs.google.com/spreadsheets/d/1Pl50jZsyH61JoFme_vgwv-OpWey3Wo6s_wLlNSSOgKQ/edit?gid=876356301#gid=876356301) - internal access only) to decide how UX Researcher should best support the effort.
 
 <details>
 <summary>Click to see more details</summary>
@@ -90,7 +90,7 @@ The calculator takes into account the following areas. Each criteria receives a 
 | Skill Development | Will this support skill development for the team or refine a process if a UX Researcher is involved?   | Yes = 3<br> Somewhat = 2 <br> No = 1|
 | Confidence | What level of confidence or knowledge do you have in the proposed solution or area of focus?  | High = 3 <br> Medium = 2<br> Low = 1|
 
-UXR Support Level is defined as the level of support the UX Researcher can commit to a given research project. 
+UXR Support Level is defined as the level of support the UX Researcher can commit to a given research project.
 
 | UXR Support Level| Percentage |
 | ------ | ------ |
@@ -124,7 +124,7 @@ Once everyone is on the same page, the team communicate the projects picked up t
 **Note** that the current works are monitored and adjusted through out the quarter, in the following ways:
 
 - Midway check-ins - a mini version of the global prioritisation process.
-- Monthly backlog trimming 
+- Monthly backlog trimming
 - Re-adjustment after receiving an ad-hoc request that needs to be picked up
 
 ## How to handle ad-hoc requests
@@ -136,7 +136,7 @@ It's normal to identify brand new research projects in an ad-hoc manner after pr
 1. The stakeholders and the UX Researcher go though Step 2 - 4 as described above.
 1. If they decide to pick up the project, and the UX Researcher is at capacity, then they need to drop or off-load some current lower priority works, and communicate that with relevant stakeholders.
 
-**Note** UXR leadership can be brought in to assist with the reprioritization. 
+**Note** UXR leadership can be brought in to assist with the reprioritization.
 
 ## Maintaining the research priorities list
 

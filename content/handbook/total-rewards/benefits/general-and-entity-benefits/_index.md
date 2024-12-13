@@ -103,7 +103,7 @@ GitLab offers Mental Health Support through therapy and coaching sessions to all
 
 GitLab recognizes the challenges that balancing caregiving responsibilities at home can bring, and we strive to support our team members with comprehensive benefits. GitLab team members are eligible to access **Backup Care & Tutoring Benefits** through Vivvi.
 
-GitLab team members receive credits to use for backup care and learning benefits through Vivvi. [Click here](https://share.hsforms.com/1gj0LdnKCQ1-GXyLsGmFDjg47d19) to sign up and activate your benefits. 
+GitLab team members receive credits to use for backup care and learning benefits through Vivvi. [Click here](https://share.hsforms.com/1gj0LdnKCQ1-GXyLsGmFDjg47d19) to sign up and activate your benefits.
 
 ### Benefit Options & Taxability
 
@@ -113,9 +113,9 @@ GitLab team members receive credits to use for backup care and learning benefits
 - **In-Home Backup Child Care** For children ages 0–12 in the US, Canada, and UK.
 - **In-Home Backup Adult & Elder Care** For adults of all ages in the US, Canada, and UK.
 
-More information on the program can be found on the [Vivvi FAQ.](https://drive.google.com/file/d/1_AcfteDGUB9L6ZocdUsG3PuNaTGKbD-Y/view) 
+More information on the program can be found on the [Vivvi FAQ.](https://drive.google.com/file/d/1_AcfteDGUB9L6ZocdUsG3PuNaTGKbD-Y/view)
 
-Please note that this benefit is considered **taxable income**. To ensure compliance, any usage of the benefit will be reported, and applicable taxes will be deducted through payroll. 
+Please note that this benefit is considered **taxable income**. To ensure compliance, any usage of the benefit will be reported, and applicable taxes will be deducted through payroll.
 
 ## GitLab Summit
 

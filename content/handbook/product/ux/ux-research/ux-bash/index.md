@@ -23,7 +23,7 @@ Note that UX Bashes are not meant to replace the team's process to test features
 
 ### When to iterate and run another Bash
 
-UX bashes are most effective when used to uncover actionable insights and measure progress on identified issues. However, it is important to consider the timing of subsequent bashes. 
+UX bashes are most effective when used to uncover actionable insights and measure progress on identified issues. However, it is important to consider the timing of subsequent bashes.
 
 During early bashes for Duo Chat, substantial feedback indicating that the speed of response was too slow. In such scenarios, it's more effective to focus on addressing core issues before running another bash. Before scheduling a new bash, ensure that meaningful steps have been taken to address major feedback points from prior sessions.
 

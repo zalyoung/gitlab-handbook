@@ -1798,7 +1798,7 @@ The sections below will provide more details as to the performance management pr
 
 _*Range due to varied quotas_
 
-#### SAOs and Stage 1 XDR Net ARR 
+#### SAOs and Stage 1 XDR Net ARR
 
 Once the team member is informed, expectations will be:
 
@@ -1806,7 +1806,7 @@ Once the team member is informed, expectations will be:
 - Month 2: 75-90% attainment + adherence to [Our Three Pillars](/handbook/marketing/sales-development/#our-three-pillars)
 - Month 3 and beyond: 100% attainment + adherence to [Our Three Pillars](/handbook/marketing/sales-development/#our-three-pillars)
 
-Should the team member fall short of the targets above, a formal warning will be issued. 
+Should the team member fall short of the targets above, a formal warning will be issued.
 After the formal warning is issued if the team member falls short of targets again, additional disciplinary action could be taken up to and including termination.
 
 #### Stage 3 Net ARR
@@ -1820,7 +1820,7 @@ The process, however, will
 - Month 2: 90% attainment + adherence to [Our Three Pillars](/handbook/marketing/sales-development/#our-three-pillars)
 - Month 3 and beyond: 100% attainment + adherence to [Our Three Pillars](/handbook/marketing/sales-development/#our-three-pillars)
 
-Should the team member fall short of the targets above, a formal warning will be issued. 
+Should the team member fall short of the targets above, a formal warning will be issued.
 After a  formal warning is issued if the team member falls short of targets again, additional disciplinary action could be taken up to and including termination.
 
 ### Our Three Pillars

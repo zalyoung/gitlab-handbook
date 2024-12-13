@@ -73,7 +73,7 @@ All team members in Israel are enrolled in the Pension Arrangement. In general t
 - You can elect and personalize your plan via Shaldan or your private insurance agency.
 - Employer contributions are based on your eligible earnings, the definition of eligible earning is Base salary and overtime.
 
-Pension contributions continue while on leave, with the exception of unpaid leave. 
+Pension contributions continue while on leave, with the exception of unpaid leave.
 
 #### Enrollment & Administration of the Pension Plan
 
@@ -94,7 +94,7 @@ Study Fund contributions continue while on leave, with the exception of unpaid l
 
 Israel Team Members are granted a meal allowance of up to NIS 900 per month. Vouchers are managed through Cibus. Team members will receive a debit card to use the benefit.
 
-Team Members do not recieve the meal allowance while on unpaid leave. 
+Team Members do not recieve the meal allowance while on unpaid leave.
 
 ### Transportation Allowance
 

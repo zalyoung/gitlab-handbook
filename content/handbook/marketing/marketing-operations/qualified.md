@@ -19,7 +19,7 @@ BDRs (outbound reps) will be routed conversations from visitors associated with 
 
 Experiences are what the site visitor sees when they are browsing the site. It appears as a chat box in the bottom right corner of the web page. Visitors can choose to engage with the experience to help them navigate the site, book a meeting with a sales development rep or choose "Just Browsing" and close the experience.
 
-We now offer experiences in English, French, German, and Japanese. Experiences in these languages match the language of the site being viewed. For example, the French epxeriences show on pages that contain /fr-fr. 
+We now offer experiences in English, French, German, and Japanese. Experiences in these languages match the language of the site being viewed. For example, the French epxeriences show on pages that contain /fr-fr.
 
 Have questions about the experiences on the website? Please reach out to us in the #mktgops Slack channel.
 
@@ -83,11 +83,11 @@ The Rep Performance Dashboard helps you understand the metrics that mean the mos
 
 ### Qualified AI SDR
 
-Qualified has an AI offering that they call "Piper". We have chosen to name our AI SDR "GitLab AI Rep". The GitLab AI Rep has the ability to have conversations with website visitors when human reps are not available. This gives us the ability to provide a better visitor experience on the website by easily answering visitor questions, qualifiying visitors and booking meetings with human reps 24/7. 
+Qualified has an AI offering that they call "Piper". We have chosen to name our AI SDR "GitLab AI Rep". The GitLab AI Rep has the ability to have conversations with website visitors when human reps are not available. This gives us the ability to provide a better visitor experience on the website by easily answering visitor questions, qualifiying visitors and booking meetings with human reps 24/7.
 
-In the first iteration of leveraging the GitLab AI Rep on English experiences. We will only connect a visitor the the AI Rep when the routed human rep is either unavailable on Qualified or does not respond to a live chat within 30 seconds. 
+In the first iteration of leveraging the GitLab AI Rep on English experiences. We will only connect a visitor the the AI Rep when the routed human rep is either unavailable on Qualified or does not respond to a live chat within 30 seconds.
 
-All aspects of how the GitLab AI Rep behaves is controlled in the "AI Studio" on the admin side of Qualified. The "Content" section is where the GitLab AI Rep has indexed the GitLab marketing site, GitLab documentation, and other GitLab resources to be able to converse with and answer visitor questions live. The goals of the AI Rep are to either connect the visitor to a human rep (if one becomes available) or to book a meeting with a human rep. 
+All aspects of how the GitLab AI Rep behaves is controlled in the "AI Studio" on the admin side of Qualified. The "Content" section is where the GitLab AI Rep has indexed the GitLab marketing site, GitLab documentation, and other GitLab resources to be able to converse with and answer visitor questions live. The goals of the AI Rep are to either connect the visitor to a human rep (if one becomes available) or to book a meeting with a human rep.
 
 We have set certain rules of engagement for the AI Rep to follow which include:
 
@@ -96,7 +96,7 @@ We have set certain rules of engagement for the AI Rep to follow which include:
 3. Never direct visitors to the demo or contact us page (we want these visitors to meet with a human)
 4. Always make GitLab the better choice when making comparisons
 
-The "Scorecard" and "Inbox" sections of the AI Studio is where we have control over how the GitLab AI Rep will answer specific questions. Here is where we can insert our own commonly asked questions and see how AI will respond. We can accept AI's response, tweak it, or tell it exactly what we want to certain questions. As visitors ask question they will appear in the "Inbox" we can move the most common ones to the "Scorecard" to rate. 
+The "Scorecard" and "Inbox" sections of the AI Studio is where we have control over how the GitLab AI Rep will answer specific questions. Here is where we can insert our own commonly asked questions and see how AI will respond. We can accept AI's response, tweak it, or tell it exactly what we want to certain questions. As visitors ask question they will appear in the "Inbox" we can move the most common ones to the "Scorecard" to rate.
 
 Have questions about the GitLab AI Rep on the website? Please reach out to us in the #mktgops Slack channel.
 

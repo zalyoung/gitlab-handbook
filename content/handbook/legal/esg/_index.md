@@ -116,7 +116,7 @@ Throughout the month, team members can volunteer as little as one hour of their 
 - Individual volunteer pursuits
 - Find and contribute to opportunities in the [GiveLab Volunteer Directory](https://docs.google.com/spreadsheets/d/1koFKQbKqm4jpKtZlteLDTPM3HYv20nffXaqRJ2C8YBA/edit?usp=sharing)
 - Include a volunteer activity at an all-hands or team builder
-- Contribute to [GitLab's codebase](/handbook/legal/esg/#contribute-to-gitlabs-oss-codebase) 
+- Contribute to [GitLab's codebase](/handbook/legal/esg/#contribute-to-gitlabs-oss-codebase)
 
 ### Why GiveLab 30 Days of Impact Exists
 

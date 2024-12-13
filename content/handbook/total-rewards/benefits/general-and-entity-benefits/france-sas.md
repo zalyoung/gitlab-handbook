@@ -26,7 +26,7 @@ GitLab does not plan to offer pension benefit at this time as team members regis
 
 GitLab offers company paid [Group Life and Disability Plans](https://docs.google.com/document/d/1MBz0k5KkXC2GeITvh2uXNXjMJE07TU3_9MTp8N9MlwM/edit?tab=t.0#heading=h.uewazgm9e8qx) through Generali effective 1 January 2025. This covers Life Insurance, Accidental Death & Accidental Dismemberment, Short Term Disability and Long Term Disability.
 
-Team Members can designate their beneficiaries in the case of death with [Generali here](https://designation-beneficiaires.generali.fr/). You’ll find step-by-step instructions in both [French](https://drive.google.com/file/d/11iFBV6PkA7phsXXgtIyHa79DlKwrY0Oh/view?usp=sharing) and [English](https://docs.google.com/presentation/d/1VzjaQYxnDrAQ8Ax5I6Z4y0XytxjPHNKi/edit?usp=sharing&ouid=115600862362829120699&rtpof=true&sd=true). You will need the scheme/contract number to update your beneficiaries, which can be found [here](https://docs.google.com/document/d/12muwdp-9XvQGO8B2cCGoEfZ7-dU2BeMY8GivNcbJCDM/edit?tab=t.0). 
+Team Members can designate their beneficiaries in the case of death with [Generali here](https://designation-beneficiaires.generali.fr/). You’ll find step-by-step instructions in both [French](https://drive.google.com/file/d/11iFBV6PkA7phsXXgtIyHa79DlKwrY0Oh/view?usp=sharing) and [English](https://docs.google.com/presentation/d/1VzjaQYxnDrAQ8Ax5I6Z4y0XytxjPHNKi/edit?usp=sharing&ouid=115600862362829120699&rtpof=true&sd=true). You will need the scheme/contract number to update your beneficiaries, which can be found [here](https://docs.google.com/document/d/12muwdp-9XvQGO8B2cCGoEfZ7-dU2BeMY8GivNcbJCDM/edit?tab=t.0).
 
 ## France Holiday Bonus
 
