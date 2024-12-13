@@ -58,7 +58,7 @@ Then the SA ensures that the releavnt fields in the Customer Success Plan sectio
 
 1. Customer Success Plan: field for the URL to the plan
 1. CSM Ready: Check if the plan is/can be handed over to the CSM
-1. Customer Accepted: Check if the customer accepted the plan
+1. Customer Accepted: Check if the the CSP has been reviewed with the customer.  The customer doesn't need to formally "accept" the CSP for this to be checked.
 
 See how to [initiate a Customer Success Plan from a Technical Close Plan below](/handbook/solutions-architects/sa-practices/customer-success-plan/#how-to-build-a-technical-close-plan-and-transition-to-a-customer-success-plan).
 
