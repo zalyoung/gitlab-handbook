@@ -11,8 +11,8 @@ and when there was a violation of the requirement/control.
 
 ## Approach
 
-The violation engine is similar to the configuration checks engine, at certain trigger points the system will audit that 
-the event does not violate any configured compliance controls. 
+The violation engine is similar to the configuration checks engine, at certain trigger points the system will audit that
+the event does not violate any configured compliance controls.
 
 For certain controls defined in GitLab there will be a event trigger point. When this event is triggered for a project the violation engine will check whether the project has a compliance framework configured with that requirement controls. If the project does have this configured then the event will be logged as a violation.
 

@@ -13,7 +13,7 @@ When logging in, CSMs will begin on their dashboard. Gainsight's homepage will s
 
 This view is likely to be a CSM's most-frequented page, as it shows a summary of their entire book of business, including last activity dates, health scores, at-risk customers, [upcoming renewals](/handbook/customer-success/csm/renewals/), stage adoption statistics, and more.
 
-There are also other dashboards available to CSMs to look at, including the CS Leadership Dashboard which reviews aspects of all CSM-supported accounts. 
+There are also other dashboards available to CSMs to look at, including the CS Leadership Dashboard which reviews aspects of all CSM-supported accounts.
 
 When hovering on the far left of the screen, a sidebar will pop up that has a few options:
 

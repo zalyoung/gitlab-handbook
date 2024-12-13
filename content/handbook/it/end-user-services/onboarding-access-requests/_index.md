@@ -314,7 +314,7 @@ To read more about Okta, please visit the [Okta](/handbook/it/okta/) page of the
 
 To provide proof of Full Disk Encryption, please do the following depending on the system you are running.
 
-- Apple : Evidence is automatically gathered in Jamf. No user action necessary. 
+- Apple : Evidence is automatically gathered in Jamf. No user action necessary.
 - Linux : Take a screenshot showing the output of `sudo dmsetup ls && sudo dmidecode -s system-serial-number && cat /etc/fstab`
 
 ### Fleet Intelligence & Remote Lock/Wipe

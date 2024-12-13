@@ -44,7 +44,7 @@ Please visit our other pages for more information on [email best practices](/han
 
 *The [Persona Nurture](/handbook/marketing/lifecycle-marketing/emails-nurture/#persona-email-nurture) (formerly the Intelligent Nurture after relaunch on 2023-11-06) aims at progressing leads from RAW > INQ > MQL > SAO, and leverages segment/region data to provide the *right offer* to the *right person* at the *right time* - based on their region and persona.*
 
-We shifted to the persona model in November of 2023 to scale our programs more easily and enable team members to optimize the programs more regularly. The next iteration for FY25 Q4 will be to launch action streams, which are personalized interest based email streams based on the content the lead came in on. 
+We shifted to the persona model in November of 2023 to scale our programs more easily and enable team members to optimize the programs more regularly. The next iteration for FY25 Q4 will be to launch action streams, which are personalized interest based email streams based on the content the lead came in on.
 
 #### Quick Links
 

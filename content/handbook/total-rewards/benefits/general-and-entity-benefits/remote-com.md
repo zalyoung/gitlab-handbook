@@ -35,7 +35,7 @@ Team Members hired prior to April 2022 are legacied in to the medical allowance 
 
 ### Life Insurance
 
-Remote provides Life Insurance through Prudential. Coverage amount is 24x your monthly salary. Gitlab covers 100% of the premiums. Team Members can assign their Beneficiaries in the Remote portal. 
+Remote provides Life Insurance through Prudential. Coverage amount is 24x your monthly salary. Gitlab covers 100% of the premiums. Team Members can assign their Beneficiaries in the Remote portal.
 
 ### Remote - Brazil  Statutory Leave policies
 

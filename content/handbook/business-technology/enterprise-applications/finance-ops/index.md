@@ -10,7 +10,7 @@ Our primary focus is on enabling efficiency and scalability across the procure-t
 
 The **Enterprise Applications, G&A Team** is responsible for administering and expanding GitLab's financial systems to meet the demands of scalability, automation, and regulatory compliance. Through proactive monitoring, alerting, and continuous iteration, we ensure the stability and reliability of GitLab’s internal applications ecosystem.
 
-Our suite of financial tools includes: 
+Our suite of financial tools includes:
 
 - **NetSuite** (ERP)
 - **Coupa** (Procurement)

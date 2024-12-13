@@ -117,12 +117,12 @@ This process not only applies to executive requisitions, but any reqs or intervi
 
 #### Candidate accessibility and accommodation request process
 
-At GitLab, we are committed to fostering an inclusive environment where everyone has the opportunity to contribute. 
+At GitLab, we are committed to fostering an inclusive environment where everyone has the opportunity to contribute.
 The following steps outline the workflow for the Candidate Experience team to process any accessibility and accommodation requests submitted by candidates. The accommodation request form is included in the candidate availability email, which recruiters send when transitioning candidates from the screening stage to the initial interview stage.
 
 If the candidate submits the form, all the CES team members will receive an email stating that a response has been received via the Google form.
 
-1. Forward the form to CES desk (ces@gitlab.com). 
+1. Forward the form to CES desk (ces@gitlab.com).
 2. Label the ticket as “accommodation request” and assign to the respective CES. Type in “accesschecktodo” in the comments section of the issue so the next steps are listed.
 3. The CES assigned to the requisition will process the request by reviewing the response and determining the accommodation need. Candidates can submit three types of accommodation requests: Closed captioning for video interviews, Additional time for technical interviews, and Multi-Day interviews.
 4. Schedule the interview based on the recruiter’s scheduling request.

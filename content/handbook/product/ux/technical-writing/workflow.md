@@ -534,11 +534,11 @@ When working with issues or merge requests, the Technical Writing team uses
 issues' and merge requests' attributes (including the types of work being done).
 
 This information about labels supplements the [Issues workflow](https://gitlab.com/gitlab-org/gitlab/blob/master/doc/development/contributing/issue_workflow.md)
-page and the steps for [documentation feedback and improvements](#documentation-feedback-and-improvements). 
+page and the steps for [documentation feedback and improvements](#documentation-feedback-and-improvements).
 
 ### Usage
 
-Any issue or merge request for which a Technical Writer provides a measurable amount of work on (including content creation and reviews) *must* include the `Technical Writing` label. 
+Any issue or merge request for which a Technical Writer provides a measurable amount of work on (including content creation and reviews) *must* include the `Technical Writing` label.
 
 To further classify the type of effort, include one or more of the following labels:
 

@@ -86,7 +86,7 @@ In product development at GitLab, Product is responsible for the **what** and **
 
 The Product Roadmap outlines what the team aims to accomplish over a 4-6 quarter timeline. It is shared across the organization to ensure alignment with the go-to-market strategy and enable reliable commitments to customers.
 
-Changes to the Plan Product Roadmap, made by the Product Manager, are reviewed and accepted by the Engineering Manager of the affected group. This happens at least once a month and is captured in a [Wiki Page](https://gitlab.com/gitlab-org/plan-stage/plan-engineering/-/wikis/Plan-Roadmap-Signoffs). 
+Changes to the Plan Product Roadmap, made by the Product Manager, are reviewed and accepted by the Engineering Manager of the affected group. This happens at least once a month and is captured in a [Wiki Page](https://gitlab.com/gitlab-org/plan-stage/plan-engineering/-/wikis/Plan-Roadmap-Signoffs).
 
 Most items being reviewed during roadmap planning have not yet had detailed technical investigation from engineering. Planning at this resolution is intended to be thoughtful but not perfect. Velocity [remains our priority](/handbook/engineering/development/principles/#velocity).
 

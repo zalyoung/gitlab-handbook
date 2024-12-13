@@ -49,7 +49,7 @@ The following people of other functional teams are our stable counterparts:
 
 ## Common Links
 
-- GitLab Team Handle: `@gitlab-com/create-team/source-code/backend` 
+- GitLab Team Handle: `@gitlab-com/create-team/source-code/backend`
 - Slack Channel: `#g_create_source-code-be`
 
 ## Sisense and KPIs

@@ -26,7 +26,7 @@ References:
 
 The standards themselves are important to be familiar with, but for Support generally:
 
-- Be aware of the data classification standard for any data you're working with 
+- Be aware of the data classification standard for any data you're working with
 - NEVER move data to a system with a lower classification
 - Think through confidentiality levels and the SAFE framework when working in public.  For example, GitLab.com may be cleared for RED data, but you might still expose that data by posting it in a public project, or forgetting that an issue is public
 

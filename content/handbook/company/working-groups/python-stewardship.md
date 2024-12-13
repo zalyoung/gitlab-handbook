@@ -43,10 +43,10 @@ Examples of existing Python codebases:
 ## Exit Criteria
 
 | Criteria |  DRI |
-| :---- | :---- | :---- | 
+| :---- | :---- | :---- |
 | A non-Python developer has guidance on how to understand and contribute to Python codebase | @mhamda |  
-| Guidelines and templates for Python codebase creation (as described in outcomes) have been merged | @tle_gitlab | 
-| Code review and maintainership guidelines for Python codebase have been merged | @brytania | 
+| Guidelines and templates for Python codebase creation (as described in outcomes) have been merged | @tle_gitlab |
+| Code review and maintainership guidelines for Python codebase have been merged | @brytania |
 | Guidelines for deployment of each of the three application types | @eduardobonet |
 
 ## Outcomes

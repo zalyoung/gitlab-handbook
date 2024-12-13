@@ -13,15 +13,15 @@ The Director, Developer Relations is a [grade 10](/handbook/total-rewards/compen
 
 ### Responsibilities
 
-1. Increase awareness and adoption of GitLab through curated technical content including blog posts, videos, demo, and presentations. 
+1. Increase awareness and adoption of GitLab through curated technical content including blog posts, videos, demo, and presentations.
 1. Increase the number of code contributors to GitLab and the number of contributions per monthly release.
 1. Grow the number of community members that regularly contribute on our forum or Discord server, give talks, write blog posts, organize meetups, or otherwise advocate for GitLab.
-1. Grow the number of students, open source projects, and startups using GitLab. 
-1. Engage directly with customers to help them grow in their use of GitLab. This will engage coaching them on contributions, helping them to adopt new stages of the product, and working alongside them to identify any challenges and bringing that feedback to the GitLab team. 
+1. Grow the number of students, open source projects, and startups using GitLab.
+1. Engage directly with customers to help them grow in their use of GitLab. This will engage coaching them on contributions, helping them to adopt new stages of the product, and working alongside them to identify any challenges and bringing that feedback to the GitLab team.
 1. Build and develop great team by hiring, training, and continually inspiring an outstanding global team to grow the GitLab community. With your input, expertise and professional network, your team will consist of (some of) these roles:
-    - Contributor Success Engineers 
-    - Developer Advocates 
-    - Developer Relations Program Managers 
+    - Contributor Success Engineers
+    - Developer Advocates
+    - Developer Relations Program Managers
 
 ### Requirements
 

@@ -6,11 +6,11 @@ title: "FY25 CS Retrospective Program"
 
 ## Program Objective
 
-The objective of this retrospective program is to facilitate a structured and collaborative process for reflecting on accounts where significant churn or risk is present, identify areas for improvement, implementing actionable changes to enhance future performance and share learnings across the organization. 
+The objective of this retrospective program is to facilitate a structured and collaborative process for reflecting on accounts where significant churn or risk is present, identify areas for improvement, implementing actionable changes to enhance future performance and share learnings across the organization.
 
 ## Scope
 
-As a part of our retrospective process, when there is significant churn or risk to a customer account, the Customer Success Manager should own the retrospective process and align with their sales (AE/ASM), Solutions Architect (SA), Professional Services (PS) or Renewals Manager (RM) partners throughout. The goal of the retrospective is to talk through what went well, what didn’t go well, and what can be improved for next time. 
+As a part of our retrospective process, when there is significant churn or risk to a customer account, the Customer Success Manager should own the retrospective process and align with their sales (AE/ASM), Solutions Architect (SA), Professional Services (PS) or Renewals Manager (RM) partners throughout. The goal of the retrospective is to talk through what went well, what didn’t go well, and what can be improved for next time.
 
 **Deals to Consider:**
 
@@ -45,7 +45,7 @@ Retrospectives are inherently conversations about what went well and what didn�
 
 4. **Use an issue to collect feedback asynchronously.** Consider using the retro template to collect feedback asynchronously. This allows everyone involved to think about and record their feedback on their own time. Please tag the appropriate team members within the template to add their comments prior to the sync meeting.
 
-5. **Schedule Sync meeting.** After a particularly difficult churn or risk situation, or when there’s a strong risk that emotions will be running high, it’s almost always worth the cost to have everyone in a video meeting to talk through the retrospective in real-time. The CSM should schedule the retro with their manager included as well as sales, PS, SA, RM, etc involved with the customer. 
+5. **Schedule Sync meeting.** After a particularly difficult churn or risk situation, or when there’s a strong risk that emotions will be running high, it’s almost always worth the cost to have everyone in a video meeting to talk through the retrospective in real-time. The CSM should schedule the retro with their manager included as well as sales, PS, SA, RM, etc involved with the customer.
 
 ## Having a Plan
 
@@ -53,7 +53,7 @@ It’s easy for retrospectives to go off the rails if there isn’t a good plan 
 
 1. **Introduction** - Remind people of the purpose of the retrospective, and that the conversation should be scoped to the churn/risk situation under review. Ensure everyone understands the rest of the agenda.
 
-2. **Gather data** - Don’t try to draw any conclusions up front, simply collect facts. This can be done via the [Restrospective Template](https://docs.google.com/presentation/d/1LWt6W3DeLHpyreP6BkZQDlh8VB0yim7Zz090V3mM1i0/edit#slide=id.g12b319f6181_0_0) by soliciting themes and adding context. 
+2. **Gather data** - Don’t try to draw any conclusions up front, simply collect facts. This can be done via the [Restrospective Template](https://docs.google.com/presentation/d/1LWt6W3DeLHpyreP6BkZQDlh8VB0yim7Zz090V3mM1i0/edit#slide=id.g12b319f6181_0_0) by soliciting themes and adding context.
 
 3. **Generate insights** - Now that you have all of the facts, try to work together to identify patterns or causal relationships (because we did x, y happened).
 

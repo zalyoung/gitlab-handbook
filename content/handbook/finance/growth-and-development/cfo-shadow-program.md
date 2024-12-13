@@ -119,6 +119,6 @@ Finance team members have a high workload and may not be able to complete a full
 
 | Start Date | End Date |Shadow Name |
 |----|---------|--------|
-| Tuesday 2025-01-07 | Thursday 2025-01-09 | Craig Patrick | 
+| Tuesday 2025-01-07 | Thursday 2025-01-09 | Craig Patrick |
 | Tuesday 2025-01-21 | Thursday 2025-01-23 | Stacy Cline |
 | Tuesday 2025-02-18 | Thursday 2025-02-20 | |

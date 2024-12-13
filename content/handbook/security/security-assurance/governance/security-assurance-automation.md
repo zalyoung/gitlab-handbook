@@ -72,7 +72,7 @@ graph TD;
 
 #### Type
 
-We use Type labels to determine what the work is about. Categories are as distinctive as possible to allow team members to quickly understand the nature of the work being done. 
+We use Type labels to determine what the work is about. Categories are as distinctive as possible to allow team members to quickly understand the nature of the work being done.
 
 These categories can be changed or expanded upon depending on work items, the goal always being of accurately capturing what the SAA team member is working on.
 
@@ -149,11 +149,11 @@ As a result of the planning stage, we determine the feasibility of a particular 
 
 During the analysis stage, we continue to gather details to support accepted projects. Projects are broken down into individual components to support an agile approach to development. Those individual components are represented as child issues under the project Epic or associated tasks/issues for smaller bodies of work.
 
-The agreed upon scale is one weight equals one business day. This means for each iteration, team members can't have assigned more than 10 points of work. 
+The agreed upon scale is one weight equals one business day. This means for each iteration, team members can't have assigned more than 10 points of work.
 
 This allows us to track unplanned work and rolled over issues for effectively and account for opportunities to better split big chunks of work into smaller manageable issues.
 
-This approach is flexible enough to ensure the team doesn't spend valuable engineering time gauging the relevant weight to assign an issue. 
+This approach is flexible enough to ensure the team doesn't spend valuable engineering time gauging the relevant weight to assign an issue.
 
 If work takes less than a full business day, weight of 1 will still be used for simplicity purposes.
 

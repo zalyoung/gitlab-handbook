@@ -16,7 +16,7 @@ description: "Development Analytics Group under Developer Experience Stage"
 
 ## Mission
 
-Our mission is to enhance developer efficiency by delivering actionable insights, optimizing pipeline performance, and building scalable productivity tools that measurably improve the software development lifecycle. 
+Our mission is to enhance developer efficiency by delivering actionable insights, optimizing pipeline performance, and building scalable productivity tools that measurably improve the software development lifecycle.
 
 ## Vision
 

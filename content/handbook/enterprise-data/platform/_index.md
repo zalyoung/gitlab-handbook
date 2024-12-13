@@ -1126,7 +1126,7 @@ Data deduplication is essential for ensuring data quality and reducing storage a
 
 Additionally, all data sourced from another application, CustomersDot, is extracted in full twice a day, as each extract plays a role in building the SCD downstream.
 
-To address our need for reduced Service Level Objectives (SLO) and Service Level Agreements (SLA), we have shifted towards more frequent extracts for both CustomersDot and GitLab.com. This adjustment has resulted in an increase in duplicate records and higher storage requirements in Snowflake for tables associated with both full and incremental extracts. The growing number of duplicates has adversely affected the results of the dbt model and dbt tests on these data sources over time. 
+To address our need for reduced Service Level Objectives (SLO) and Service Level Agreements (SLA), we have shifted towards more frequent extracts for both CustomersDot and GitLab.com. This adjustment has resulted in an increase in duplicate records and higher storage requirements in Snowflake for tables associated with both full and incremental extracts. The growing number of duplicates has adversely affected the results of the dbt model and dbt tests on these data sources over time.
 
 To decrease dbt runtime and enhance the efficiency of Snowflake's computing and storage, we developed a deduplication framework specifically targeting these data sources. This framework can be easily extended to other data sources in Snowflake where duplicate records may accumulate.
 
@@ -1144,9 +1144,9 @@ The deduplication framework consists of two main components:
 2. **Snowflake**: In Snowflake, the following activities are carried out:  
  i. Backup tables are created using Snowflake `clone` command with timestamp suffixes in the `TAP_POSTGRES_BKP` schema inside of the RAW database.
  ii. A `temporary` table is created with a deduplicated dataset using a `GROUP BY` clause to eliminate duplicates while retaining the most recent records and managing special columns like `_uploaded_at` and `_task_instance`. The deduplication logic selects all unique rows from the table.
- iii. The temporary tables are swapped with the original tables, while maintaining current grants and permissions.   
+ iii. The temporary tables are swapped with the original tables, while maintaining current grants and permissions.
  iv. Temporary tables are dropped after a successful swap.
- v. Delete the backup table older than 7 days. 
+ v. Delete the backup table older than 7 days.
 
 ## <i class="fas fa-chart-bar fa-fw -text-orange"></i>Visualization
 

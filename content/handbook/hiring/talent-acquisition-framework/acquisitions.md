@@ -15,13 +15,13 @@ An acquisition hire (or acquihire) is any hire which was made as a direct result
 1. Notify the Talent Acquisition Manager of the need to process candidates as part of the acquisition at least 2 weeks before (where there are 2+ candidates) the final decision on the candidates needs to be made.
 1. Provide the details of the team they will be potentially joining, the interview process if different from our [Standard Interview process]({{< ref "interviewing" >}}), the Hiring Manager, Director and VP responsible for the process. For engineering candidates, the process is an abbreviated one to our standard process as described in our [acquisition process](/handbook/acquisitions/acquisition-process#early-diligence)
 1. Talent Acquisition Manager to be provided a dummy [GHP ID] by FP&A Business Partner (/handbook/finance/financial-planning-and-analysis/#headcount-and-the-talent-acquisition-single-source-of-truth)
-1. Talent Acquisition Manager will open a confidential requisition in Greenhouse (sometimes individually for the Founders) that will house all the acquisition candidates. Ensure the Corporate Development team is added to Greenhouse so they can review all scorecards. 
-1. Talent Acquisiiton Manager to ensure the [Interview Preparation Direction](https://docs.google.com/document/d/1k4sW4HgkRd2tN4TgWYITKqymACF2LCks32bVP_GgHs8/edit?tab=t.0#heading=h.97p1j2m533l5) doc is completed and all interviewers are aligned before organising the next steps. 
+1. Talent Acquisition Manager will open a confidential requisition in Greenhouse (sometimes individually for the Founders) that will house all the acquisition candidates. Ensure the Corporate Development team is added to Greenhouse so they can review all scorecards.
+1. Talent Acquisiiton Manager to ensure the [Interview Preparation Direction](https://docs.google.com/document/d/1k4sW4HgkRd2tN4TgWYITKqymACF2LCks32bVP_GgHs8/edit?tab=t.0#heading=h.97p1j2m533l5) doc is completed and all interviewers are aligned before organising the next steps.
 1. Talent Acquisiton Manager to then reach out to the Founders and/or team to introduce themselves, set expectations for the next stage, ask for their availability and offer to answer any questions.  
-1. Talent Acquisition Manager will manage the end to end interview process inlcuding scheduling initial Founders interviews before a team member from CES is read-in. 
+1. Talent Acquisition Manager will manage the end to end interview process inlcuding scheduling initial Founders interviews before a team member from CES is read-in.
     1. [Select a private room in Zoom](https://docs.google.com/spreadsheets/d/1G7NipqzvUfr4TlI9Xp3yrRcq_ssUnhT7DITOXaE6TIY/edit?gid=452589702#gid=452589702) and add to the invite.
     1. For Senior Director/VP level leaders, we can engage with their EBA to organise interviews.
-    1. Assign scorecards to the interviewer 
+    1. Assign scorecards to the interviewer
 1. Ensure all Resumes or LinkedIn Profiles are downloaded so they can be processed in Greenhouse.
 1. Talent Acquisition Manager will gather details specific to the offer letter for each candidate from the Dir. Corp Dev as per our [acquisition handbook](/handbook/acquisitions#what-we-offer)
 1. When an acquisition candidate has completed their interview/s, the Talent Acquisition Manager responsible will update the Slack Channel with a summary and highlight any action items.
