@@ -15,7 +15,7 @@ Our mission is to set the standard for product security by fostering a culture o
 ### Multi-Year Product Security Mission
 
 Our comprehensive, [multi-year product security mission](https://internal.gitlab.com/handbook/security/product_security/product_security_strategy/) can be found in our internal handbook.
-
+  
 ### Product Security Risk Register
 
 The Product Security Risk Register (PSRR) is driven by and follows the [StORM process](/handbook/security/security-assurance/security-risk/storm-program/) from our [Security Risk Team](/handbook/security/security-assurance/security-risk/).
