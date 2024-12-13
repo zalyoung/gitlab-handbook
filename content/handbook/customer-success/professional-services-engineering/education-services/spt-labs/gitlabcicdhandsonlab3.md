@@ -41,7 +41,7 @@ The `.gitlab-ci.yml` file allows you to define the stages and jobs for your CI/C
 
 ## Lab Guide Complete
 
-You have completed this lab exercise. You can view the other [lab guides for this course](/handbook/customer-success/professional-services-engineering/education-services/gitlabcicdhandson).
+You have completed this lab exercise. You can view the other [lab guides for this course](/handbook/customer-success/professional-services-engineering/education-services/spt-labs/gitlabcicdhandson).
 
 ## Suggestions?
 

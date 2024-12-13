@@ -182,7 +182,7 @@ Variables in GitLab CI/CD have a precedence, which means variables at a higher '
 
 ## Lab Guide Complete
 
-You have completed this lab exercise. You can view the other [lab guides for this course](/handbook/customer-success/professional-services-engineering/education-services/gitlabcicdhandson).
+You have completed this lab exercise. You can view the other [lab guides for this course](/handbook/customer-success/professional-services-engineering/education-services/spt-labs/gitlabcicdhandson).
 
 ## Suggestions?
 

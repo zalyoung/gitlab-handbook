@@ -7,11 +7,11 @@ description: "This Hands-On Guide walks you through the lab exercises in the Git
 
 | Lab Name | Lab Link |
 |-----------|------------|
-| Getting Started with GitLab Duo | [Lab Guide](/handbook/customer-success/professional-services-engineering/education-services/devsecopswithduolab1) |
-| Code Generation with GitLab Duo | [Lab Guide](/handbook/customer-success/professional-services-engineering/education-services/devsecopswithduolab2) |
-| Working with Issues and Merge Requests | [Lab Guide](/handbook/customer-success/professional-services-engineering/education-services/devsecopswithduolab3) |
-| Using GitLab Duo to Write New Code | [Lab Guide](/handbook/customer-success/professional-services-engineering/education-services/devsecopswithduolab4) |
-| Working with Security Vulnerabilities | [Lab Guide](/handbook/customer-success/professional-services-engineering/education-services/devsecopswithduolab5) |
+| Getting Started with GitLab Duo | [Lab Guide](/handbook/customer-success/professional-services-engineering/education-services/spt-labs/devsecopswithduolab1) |
+| Code Generation with GitLab Duo | [Lab Guide](/handbook/customer-success/professional-services-engineering/education-services/spt-labs/devsecopswithduolab2) |
+| Working with Issues and Merge Requests | [Lab Guide](/handbook/customer-success/professional-services-engineering/education-services/spt-labs/devsecopswithduolab3) |
+| Using GitLab Duo to Write New Code | [Lab Guide](/handbook/customer-success/professional-services-engineering/education-services/spt-labs/devsecopswithduolab4) |
+| Working with Security Vulnerabilities | [Lab Guide](/handbook/customer-success/professional-services-engineering/education-services/spt-labs/devsecopswithduolab5) |
 
 ## Quick links
 

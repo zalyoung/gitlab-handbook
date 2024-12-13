@@ -146,7 +146,7 @@ Your access to this group and project are ephemeral and will expire soon.
 
 Want to keep a copy of your project to practice with later? You can [export](https://docs.gitlab.com/ee/user/project/settings/import_export.html#export-a-project-and-its-data) it to a ZIP file or [transfer](https://docs.gitlab.com/ee/user/project/settings/migrate_projects.html#transfer-a-project-to-another-namespace) it to your personal namespace.
 
-You can bookmark the [lab guides for this course](/handbook/customer-success/professional-services-engineering/education-services/secessentialshandson) to review the steps in the future.
+You can bookmark the [lab guides for this course](/handbook/customer-success/professional-services-engineering/education-services/spt-labs/secessentialshandson) to review the steps in the future.
 
 ## Suggestions?
 

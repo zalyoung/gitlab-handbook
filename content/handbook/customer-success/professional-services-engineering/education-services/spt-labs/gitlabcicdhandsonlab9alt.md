@@ -124,7 +124,7 @@ Code quality scans allow you to analyze your source code for quality and complex
 
 ## Lab Guide Complete
 
-You have completed this lab exercise. You can view the other [lab guides for this course](/handbook/customer-success/professional-services-engineering/education-services/gitlabcicdhandson).
+You have completed this lab exercise. You can view the other [lab guides for this course](/handbook/customer-success/professional-services-engineering/education-services/spt-labs/gitlabcicdhandson).
 
 ## Suggestions?
 

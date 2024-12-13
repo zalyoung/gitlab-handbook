@@ -294,7 +294,7 @@ The log should no longer be updating since no clients can make HTTP/HTTPS reques
 
 ## Lab Guide Complete
 
-You have completed this lab exercise. You can view the other [lab guides for this course](/handbook/customer-success/professional-services-engineering/education-services/sysadminhandson).
+You have completed this lab exercise. You can view the other [lab guides for this course](/handbook/customer-success/professional-services-engineering/education-services/spt-labs/sysadminhandson).
 
 ### Suggestions?
 

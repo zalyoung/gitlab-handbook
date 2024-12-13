@@ -477,7 +477,7 @@ Please take time to understand any code that you are asked to copy and paste in 
 
 ## Lab Guide Complete
 
-You have completed this lab exercise. You can view the other [lab guides for this course](/handbook/customer-success/professional-services-engineering/education-services/secessentialshandson).
+You have completed this lab exercise. You can view the other [lab guides for this course](/handbook/customer-success/professional-services-engineering/education-services/spt-labs/secessentialshandson).
 
 ## Suggestions?
 

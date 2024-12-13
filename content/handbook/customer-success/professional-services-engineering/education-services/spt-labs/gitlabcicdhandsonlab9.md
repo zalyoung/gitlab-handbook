@@ -95,7 +95,7 @@ SAST, an optional feature on CI/CD pipelines, analyzes your source code for know
 
 ## Lab Guide Complete
 
-You have completed this lab exercise. You can view the other [lab guides for this course](/handbook/customer-success/professional-services-engineering/education-services/gitlabcicdhandson).
+You have completed this lab exercise. You can view the other [lab guides for this course](/handbook/customer-success/professional-services-engineering/education-services/spt-labs/gitlabcicdhandson).
 
 ## Suggestions?
 

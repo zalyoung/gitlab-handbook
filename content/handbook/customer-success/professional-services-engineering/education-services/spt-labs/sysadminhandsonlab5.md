@@ -27,7 +27,7 @@ This lab will help you improve your instance's security by enabling the option t
 
 ## Lab Guide Complete
 
-You have completed this lab exercise. You can view the other [lab guides for this course](/handbook/customer-success/professional-services-engineering/education-services/sysadminhandson).
+You have completed this lab exercise. You can view the other [lab guides for this course](/handbook/customer-success/professional-services-engineering/education-services/spt-labs/sysadminhandson).
 
 ### Suggestions?
 

@@ -47,7 +47,7 @@ CI/CD is a continuous method of software development, where you continuously bui
 
 ## Lab Guide Complete
 
-You have completed this lab exercise. You can view the other [lab guides for this course](/handbook/customer-success/professional-services-engineering/education-services/gitlabcicdhandson).
+You have completed this lab exercise. You can view the other [lab guides for this course](/handbook/customer-success/professional-services-engineering/education-services/spt-labs/gitlabcicdhandson).
 
 ## Suggestions?
 
