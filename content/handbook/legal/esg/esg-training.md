@@ -20,25 +20,20 @@ Examples of ESG Issues:
 By ensuring that good ESG practices are embedded into the organization, it will help us advance our mission to make it so that everyone can contribute. ESG allows us to understand what our stakeholders care about, meet their expectations and to make progress to advance social and environmental goals while minimizing risk and creating value for the organization.
 
 - Meet and Exceed Customer Expectations & Remain Easy to Transact With
-
    - GitLab’s customers have ESG commitments and policies that extend to the companies they do business with, like GitLab.
    - Many of our customers are under pressure to comply with new regulation and meet their own ESG goals. By having a strong ESG program, GitLab is helping its customers achieve their goals and comply with new regulations.
  
 - Comply with New Regulation
-
    - Starting in 2026, GitLab is required to comply with two new ESG regulations in the US and the EU. These regulations require comprehensive and detailed disclosure covering a wide range of ESG topics (e.g., climate change, working conditions, human rights, business ethics).
 
 - Gain a Competitive Advantage
-
    - As sustainability, particularly climate action, becomes a growing concern for businesses globally, companies with strong ESG practices are better positioned to differentiate themselves and gain a competitive advantage.
 
 - Attract Investors
-
    - [Over 60% of U.S. investors](https://www.statista.com/statistics/1480884/share-of-investors-willing-to-pay-an-esg-premium-us/?utm_source=chatgpt.com) surveyed were willing to pay a premium when investing in companies aligned with ESG priorities. Approximately 40% of these investors were willing to pay a premium ranging from 1% to 5%, while nearly 20% were willing to pay between 6% and 10%.
    - [93% of U.S. investors](https://www.edelman.com/sites/g/files/aatuss191/files/2020-11/Edelman%202020%20Institutional%20Investor%20Trust_0.pdf?utm_campaign=Friends%20of%20Dave&utm_medium=email&utm_source=Revue%20newsletter) expect the companies they invest in to increase their prioritization of ESG initiatives.
 
 - Recruit & Retain Team Members
-
    - [42% of employees](https://cdn.sanity.io/files/umko2xz8/production/37643e7e8b837c22e1337badb8c79541f1807e5a.pdf) would leave their current employer for one that is making a greater impact on the world.
    - [69% of employees](https://www2.deloitte.com/us/en/insights/environmental-social-governance/importance-of-sustainability-to-employees.html?utm_source=chatgpt.com) want their employers to take action on climate by reducing emissions and sourcing renewable energy. The sentiment is higher amongst employees ages 18-34.
 
@@ -46,24 +41,20 @@ By ensuring that good ESG practices are embedded into the organization, it will 
 
 ### ESG Team
 
-- The [ESG Team](https://handbook.gitlab.com/job-families/legal-and-corporate-affairs/environmental-social-governance/) is part of Legal and Corporate Affairs. The ESG Team creates and maintains GitLab’s Corporate Sustainability strategy and programs. This includes ESG disclosures and public ESG reporting, identifying and prioritizing key issues to advance GitLab’s social and environmental goals, and creating partnerships with nonprofit organizations that support GitLab’s values and mission.
+- The [ESG Team](/handbook.gitlab.com/job-families/legal-and-corporate-affairs/environmental-social-governance/) is part of Legal and Corporate Affairs. The ESG Team creates and maintains GitLab’s Corporate Sustainability strategy and programs. This includes ESG disclosures and public ESG reporting, identifying and prioritizing key issues to advance GitLab’s social and environmental goals, and creating partnerships with nonprofit organizations that support GitLab’s values and mission.
 
 ### ESG Programs
 
 - Compliance & Reporting
-
    - GitLab is subject to new regulations in the EU and US that will require us to disclose a wide range of quantitative and qualitative ESG information in 2026. To date, GitLab has published two voluntary annual ESG reports, providing a strong foundation for complying with the new ESG reporting regulations.
 
 - Climate Action
-
    - Climate is quickly becoming a key component of corporate responsibility, and with it comes new expectations from customers, investors, regulators and team members. 85% of our top 20 customers have greenhouse gas reduction targets. To remain easy to transact with, GitLab will need to meet the expectations of our customers by taking action on climate change.
 
 - GitLab for Non-Profits
-
    - GitLab launched GitLab for Nonprofits, an in-kind donation program in 2023. Through this program, GitLab supports Registered 501c3 (or jurisdictional equivalent) Nonprofit Organizations in good standing that align with our values by offering free licenses and seats.
 
 - GiveLab
-
    - GiveLab is GitLab’s team member volunteer program. Volunteerism is an effective way to build trust through social connections - this leads to higher individual and team motivation, greater cross-functional collaboration.
 
 ### GitLab's ESG Materiality Assessment
@@ -115,7 +106,6 @@ By ensuring that good ESG practices are embedded into the organization, it will 
 
 - GitLab’s second materiality assessment will be completed in Q1 2025 and will be in alignment with the requirements of CSRD.
 
-
 ### GitLab's ESG Disclosures
 
 - Every year, GitLab publishes an ESG report in the Handbook, which will describe key accomplishments for the year, include descriptions of how we manage relevant ESG risks and opportunities, highlight new programs and policies and report metrics across our material ESG topics to hold ourselves accountable year over year for improving our performance.
@@ -130,7 +120,6 @@ By ensuring that good ESG practices are embedded into the organization, it will 
 - If a customer or potential customer requests information via an ESG questionnaire, please [open an issue here](https://gitlab.com/gitlab-com/www-gitlab-com/-/issues/new) and select the ‘ESG Questionnaire’ template.’
 - GitLab participates in EcoVadis and customers can request our scorecard via the EcoVadis platform
 - GitLab also participates in Integrity Next. If you receive a request from a customer to complete an Integrity Next questionnaire, please do not create a new profile. Instead, please forward the request to the ESG team, so we can complete the questions. This avoids having multiple profiles under GitLab Inc.
-
 
 ## Responding to Investor Questions about ESG
 
