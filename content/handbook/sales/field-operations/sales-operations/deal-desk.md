@@ -120,7 +120,7 @@ Use our Slack channel in case of general, non-record related requests and/or urg
 
 **Please avoid contacting the DD team members directly via Slack.** Utlizing the `#sales-support` channel is best to ensure timely coverage, helps others who may have similar questions, and aligns with our **Transparency** value.
 
-In case of a specific opportunity or quote related question please create a case by using the Request Support button on the Opportunity Level. (see section [Salesforce Case Communication](#salesforce-case-communication))
+In case of a specific opportunity or quote related question please create a case by using the Request Support button on the Opportunity Level.
 
 ##### Slack Announcements
 
