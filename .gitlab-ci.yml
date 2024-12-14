@@ -297,6 +297,20 @@ handbooklint:
     reports:
       codequality: handbook-codequality.json
 
+check_path_change:
+  stage: build
+  image:
+    name: gitlab/glab
+    entrypoint: [""]
+  before_script:
+    - apk add git bash jq
+  script:
+    - bash ./scripts/check-path-change.sh
+  rules:
+    - if: $CI_MERGE_REQUEST_LABELS =~ /skip-path-check/
+      when: never
+    - <<: *merge-request-or-tag
+
 hugolint:
   stage: build
   needs: []
