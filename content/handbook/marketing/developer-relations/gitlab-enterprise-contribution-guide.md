@@ -72,11 +72,13 @@ We offer several ways to identify meaningful contributions:
 
 #### CoCreate with GitLab 🤝
 
-Want to influence GitLab's roadmap? Through our CoCreate program:
+Want to make a bigger change? Through our CoCreate program
 
-1. Propose features your team needs
-2. Work directly with GitLab product teams
+1. Work directly with GitLab product teams to gain additional support for your contribution
+2. Work directly with a GitLab engineer to quick-start your contribution
 3. Shape the future of your daily tools
+
+The program sets you and the your company up for continued contribution to GitLab.
 
 [Start CoCreating →](https://cocreate-issues-page-c6a9e4.gitlab.io/?label=co-create)
 
@@ -109,7 +111,7 @@ Use these metrics in your:
 
 - Comment on the issue you're working on
 - Ask in the `#contribute` channel on Discord
-- Email the Contributor Success team at `contributor-success@gitlab.com`
+- Email the Contributor Success team at `contributors@gitlab.com.`
 - Check the [GitLab Forum](https://forum.gitlab.com/) for community support
 
 Remember: Your contributions help shape GitLab's future and improve your team's daily development experience!
