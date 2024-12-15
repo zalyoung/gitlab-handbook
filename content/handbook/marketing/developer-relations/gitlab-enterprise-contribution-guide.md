@@ -25,9 +25,7 @@ Before you begin:
 2. Update your Profile Settings:
    - Set your Organization to your company name
    - Add your professional details
-3. Request community fork access (takes ~2-4 hours)
-   - Use [this template](https://gitlab.com/gitlab-org/gitlab/-/issues/new?issuable_template=Community_Fork_Access)
-   - This enables GitLab Duo AI features for your contributions
+3. [Request community fork access (takes ~2-4 hours)](https://gitlab.com/groups/gitlab-community/community-members/-/group_members/request_access)
 4. Join our [Discord community](https://discord.gg/gitlab) (#contribute channel)
 
 ### Getting Started 🛠️
@@ -112,6 +110,6 @@ Use these metrics in your:
 - Comment on the issue you're working on
 - Ask in the `#contribute` channel on Discord
 - Email the Contributor Success team at `contributors@gitlab.com.`
-- Check the [GitLab Forum](https://forum.gitlab.com/) for community support
+- Check the [GitLab Forum](https://forum.gitlab.com/) for community interactions
 
 Remember: Your contributions help shape GitLab's future and improve your team's daily development experience!
