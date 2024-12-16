@@ -151,7 +151,7 @@ Performance against these competencies should be weighted at 40%.
 - [Values Competencies](/handbook/people-group/competencies/#values-competencies)
 - [Remote Working Competencies](/handbook/people-group/competencies/#remote-work-competencies)
 - [Job Frameworks](/handbook/company/structure/#job-frameworks)
-- *(If appplicable)* [Manager and Leadership Competencies](/handbook/people-group/competencies/#manager-and-leadership-competencies)
+- *(If applicable)* [Manager and Leadership Competencies](/handbook/people-group/competencies/#manager-and-leadership-competencies)
 
 When completing the talent assessment form, team members and managers should reflect on the applicable competencies and job frameworks when filling out the achievements, strengths, and opportunities section.  Given GitLab's [CREDIT values](/handbook/values/#credit) should be lived, with each day representing a new opportunity to refamiliarize oneself with said values and strive to implement them in every professional interaction, there is an opportunity for team members and managers to rate how a team member demonstrates each of the CREDIT values.  The following rating scale is used for each value:
 
