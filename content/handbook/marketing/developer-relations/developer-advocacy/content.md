@@ -124,6 +124,17 @@ GitLab Unfiltered YouTube channel:
 
 - [Developer Relations](https://vimeo.com/user/115027220/folder/17153021?isPrivate=false)
 
+### Workshops
+
+The Developer Advoacy team maintains workshops in different product and focus areas. A workshop can be of different types: Hands-on with audience participating live in the exercises (training course), or showcase live demo/programming sessions where the audience engages with questions.
+
+> Note: Specific customer focussed workshops can be requested following the [customer consultancy handbook](/handbook/marketing/developer-relations/developer-advocacy/consultancy/).
+
+| Title | Area | Type | Focus | DRI | Resources |
+|-------|------|------|-------|-----|-----------|
+| GitLab Duo best practices - Build a Python shop app | GitLab Duo | Showcase, audience watching/engaging, Sales Proof-of-value workshops (60min + async content) | Python, shop app | @dnsmichi | [2024-05-07 livestream with Eddie Jaoude](https://gitlab.com/gitlab-da/use-cases/ai/ai-workshops/gitlab-duo-ai-eddie-jaoude/getting-started-exercises), [2024-07-01](https://gitlab.com/gitlab-da/use-cases/ai/ai-workshops/gitlab-duo-use-case-python-2024-07-10), [2024-08-21, Python app](https://gitlab.com/gitlab-da/use-cases/ai/ai-workshops/gitlab-duo-use-case-python-2024-08-21), [2024-10-01, best practices](https://gitlab.com/gitlab-da/use-cases/ai/ai-workshops/gitlab-duo-workshop-best-practices-advanced-use-cases-2024-10-01) |
+| Build your own adventure with GitLab Duo - C++ observability tool and hardware sensors | GitLab Duo | Showcase, audience watching/engaging, Sales Proof-of-value workshops (60min + async content) | C++, observability, embedded, sensors, metrics | @dnsmichi | [2024-12-05 Build your own adventure - C++](https://gitlab.com/gitlab-da/use-cases/ai/ai-workshops/gitlab-duo-workshop-build-your-own-adventure-cpp-2024-12-05) |
+
 ### Maintained documentation
 
 Developer advocates authored and maintain the following documentation pages, with practical and technical examples aiding adoption and efficiency use cases.
