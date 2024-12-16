@@ -16,13 +16,12 @@ toc_hide: true
 <!-- This renders the design document header on the detail page, so don't remove it-->
 {{< design-document-header >}}
 
-
 ## Summary
 
 Currently, notifications are managed in two distinct ways:
 
 - [To-Dos](https://gitlab.com/dashboard/todos) are defined and raised from the `TodoService`.
--  Email notifications are defined and raised from `Notify` via `NotificationService`.
+- Email notifications are defined and raised from `Notify` via `NotificationService`.
 
 Since these two services are not connected in any way, they must call both the `NotificationService` and the `TodoService` to raise notifications in both channels.
 As we seek to create parity between these two channels, this disconnect is going to become increasingly costly to maintain.
