@@ -5,7 +5,7 @@ description: "Information regarding the Legal & Corporate Affairs Team"
 
 Welcome to the Legal and Corporate Affairs Handbook! Use this page to learn more about our team, GitLab policies, and shared processes. Visit the sub-team pages linked below for more detailed information and procedures.
 
-## How to Reach Us
+**How to Reach Us**
 
 For quick questions that ***do not*** require legal advice, deliverables, or any discussion of confidential information, you can reach out to the GitLab Legal and Corporate Affairs Team in Slack at [#legal](https://gitlab.slack.com/archives/legal). We find this channel best for questions regarding process, who handles what, or how to find certain things if the handbook has not yielded the right result for you after searching. #legal is not a private channel, so your inquiry will be visible to the entire company. One of our Team Members will do their best to answer your question in a timely fashion.
 
@@ -13,7 +13,7 @@ To open a general Legal Issue for questions related to deliverables and non-sens
 
 For sensitive, private, or confidential requests, email [legal_internal@gitlab.com](mailto:legal_internal@gitlab.com).
 
-## Anonymous Internal Ethics and Compliance Reporting
+**Anonymous Internal Ethics and Compliance Reporting**
 
 We take employee concerns very seriously and encourage all GitLab Team Members to report any ethics and/or compliance violations by using [EthicsPoint](https://secure.ethicspoint.com/domain/media/en/gui/74686/index.html). Further details can be found in the [People Group Handbook](/handbook/people-group/) under [How to Report Violations](/handbook/people-group/#how-to-report-violations) and in our [Code of Business Conduct and Ethics](/handbook/legal/gitlab-code-of-business-conduct-and-ethics/).
 
