@@ -187,7 +187,7 @@ The following is a non exhaustive list of daily duties for engineering directors
     1. Growth
     1. Ops
     1. Secure
-    1. Govern
+    1. Software Supply Chain Security
 1. Review hiring dashboards
 1. Personal todo list
 1. Personal GitLab board(s) if any

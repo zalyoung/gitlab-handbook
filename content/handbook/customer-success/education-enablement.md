@@ -239,8 +239,8 @@ To align our education and enablement with our product, each of the topics below
 
 #### Foundations Level
 
-- [Govern Stage Overview](https://about.gitlab.com/stages-devops-lifecycle/govern/)
-- [Govern Stage Direction and Roadmap](https://about.gitlab.com/direction/govern/)
+- [Software Supply Chain Security Stage Overview](https://about.gitlab.com/stages-devops-lifecycle/govern/)
+- [Software Supply Chain Security Stage Direction and Roadmap](https://about.gitlab.com/direction/software_supply_chain_security/)
 
 #### Intermediate Level
 

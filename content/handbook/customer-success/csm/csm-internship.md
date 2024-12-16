@@ -156,8 +156,8 @@ In order to make the most of the internship, it's expected for the intern to do 
 #### Week 8
 
 1. Shadow other CSMs on customer calls, team calls, & account team calls,  helping with follow ups and questions as needed
-1. Review one stage of the DevSecOps lifecycle in depth every week: Secure & Govern
-   1. Read through the [Govern Product Categories](https://about.gitlab.com/stages-devops-lifecycle/govern/)
+1. Review one stage of the DevSecOps lifecycle in depth every week: Secure & Software Supply Chain Security
+   1. Read through the [Software Supply Chain Security Product Categories](https://about.gitlab.com/stages-devops-lifecycle/govern/)
    1. Continue working on the [GitLab Certified Security Specialist Learning Path](https://levelup.gitlab.com/learning-paths/certified-security-specialist-learning-path) (lessons 6-10 in GitLab Security Essentials)
    1. Be prepared to discuss with your mentor:
       1. Any modules/topics you struggled with understanding in the learning path
