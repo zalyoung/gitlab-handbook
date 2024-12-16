@@ -62,7 +62,7 @@
 /content/handbook/company/history.md @sytses
 /content/handbook/company/okrs/ @streas
 /content/handbook/company/only-healthy-constraints.md @sytses
-/content/handbook/company/quote-to-cash.md @justinfarris @ofernandez2 @tgolubeva @courtmeddaugh @alex_martin @vincywilson @jackib @chloeliu @jeromezng @jameslopez @rhardarson @shreyasagarwal @jrabbits @NabithaRao @sbaranidharan @iweeks @s_mccauley @annapiaseczna @simon-mundy @msubramanian
+/content/handbook/company/quote-to-cash.md @justinfarris @tgolubeva @courtmeddaugh @alex_martin @vincywilson @jackib @chloeliu @jeromezng @jameslopez @rhardarson @shreyasagarwal @jrabbits @NabithaRao @sbaranidharan @iweeks @s_mccauley @annapiaseczna @simon-mundy @msubramanian
 /content/handbook/company/stewardship.md @sytses
 /content/handbook/company/strategy.md @sytses
 /content/handbook/company/group-conversations.md @streas
@@ -141,8 +141,8 @@
 /content/handbook/engineering/development/dev/plan/product-planning.md @kushalpandya
 /content/handbook/engineering/development/dev/plan/project-management.md @donaldcook
 /content/handbook/engineering/development/dev/training/ic-to-manager.md @dsatcher
-/content/handbook/engineering/development/fulfillment/ @jeromezng @jameslopez @rhardarson @shreyasagarwal @tgolubeva @courtmeddaugh @ofernandez2 @alex_martin @ppalanikumar
-/content/handbook/engineering/development/fulfillment/fulfillment-platform.md @jameslopez @ofernandez2
+/content/handbook/engineering/development/fulfillment/ @jeromezng @jameslopez @rhardarson @shreyasagarwal @tgolubeva @courtmeddaugh @alex_martin @ppalanikumar
+/content/handbook/engineering/development/fulfillment/fulfillment-platform.md @jameslopez
 /content/handbook/engineering/development/fulfillment/provision.md @courtmeddaugh
 /content/handbook/engineering/development/fulfillment/utilization/ @jeromezng @alex_martin
 /content/handbook/engineering/development/growth/ @kniechajewicz
@@ -475,7 +475,7 @@
 
 ^[product]
 /content/handbook/product/ @david
-/content/handbook/product/groups/fulfillment-guide.md @ofernandez2
+/content/handbook/product/groups/fulfillment-guide.md @courtmeddaugh
 /content/handbook/product/groups/product-analysis/ @cbraza @justinfarris
 /content/handbook/product/groups/product-analysis/engineering/ @ddeng1 @lmai1 @cbraza
 /content/job-families/product/ @david @vkarnes @mflouton @justinfarris @hbenson @cbednarz @anjali_kaufmann @dparsonage @glucchesi @carlierussell @mwilkins
@@ -484,7 +484,7 @@
 /content/job-families/product/product-design-management.md @vkarnes @cbednarz @anjali_kaufmann @glucchesi @carlierussell @mwilkins @bmcdonald5 @kbullock1 @JennyBurns @jessdurbin @ltepper
 /content/job-families/product/product-designer.md @vkarnes @cbednarz @anjali_kaufmann @glucchesi @carlierussell @mwilkins @bmcdonald5 @kbullock1 @JennyBurns @jessdurbin @ltepper
 /content/job-families/product/product-management-leadership.md @david @hbenson @mflouton @justinfarris @cbednarz @anjali_kaufmann @glucchesi @carlierussell @mwilkins @bmcdonald5 @kbullock1 @JennyBurns @jessdurbin @ltepper
-/content/job-families/product/product-manager.md @david @justinfarris @hbenson @mflouton @fzimmer @jreporter @ofernandez2 @cbednarz @anjali_kaufmann @glucchesi @carlierussell @mwilkins @bmcdonald5 @kbullock1 @JennyBurns @jessdurbin @ltepper
+/content/job-families/product/product-manager.md @david @justinfarris @hbenson @mflouton @fzimmer @jreporter @cbednarz @anjali_kaufmann @glucchesi @carlierussell @mwilkins @bmcdonald5 @kbullock1 @JennyBurns @jessdurbin @ltepper
 /content/job-families/product/technical-writer.md @susantacker @dianalogan @cbednarz @anjali_kaufmann @glucchesi @carlierussell @mwilkins @bmcdonald5 @kbullock1 @JennyBurns @jessdurbin @ltepper
 /content/job-families/product/technical-writing-manager.md @susantacker @dianalogan @cbednarz @anjali_kaufmann @glucchesi @carlierussell @mwilkins @bmcdonald5 @kbullock1 @JennyBurns @jessdurbin @ltepper
 /content/job-families/product/ux-fullstack-engineer.md @susantacker @cbednarz @anjali_kaufmann @glucchesi @carlierussell @mwilkins @bmcdonald5 @kbullock1 @JennyBurns @jessdurbin @ltepper
