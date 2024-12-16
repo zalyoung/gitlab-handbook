@@ -67,19 +67,16 @@ With these duplications and test gaps out of the way, it will be much easier to 
 
 ### Preparation phase
 
-With the rewrite of the To-Dos dashboard into a Vue app, we discovered (and tbh, also created) some duplications and limitations in how the To-Dos dashboard works.
-Let's clean that up!
+With the rewrite of the To-Dos dashboard into a Vue app, we discovered (and created) some duplication:
 
-#### Remove all code related to the Haml version
+- The Haml version of the To-Dos dashboard is still in the codebase. It has its own implementation of filter logic, todo body text, etc.
+- The new Vue version shares some backend code with the Haml version, but not all. It is currently hard to tell where to make a change and what its effect would be. This makes it harder to maintain.
+- The new Vue version currently has all todo action and target types hardcoded in the frontend code, multiple times. We should refactor that to a minimum to improve code quality.
 
-With the Vue version released to all users, we first have to delete all code of the Haml implementation. This will drop lots of duplicated helpers etc.
-With all that out of the way, it will be much easier to make refactorings within the Vue implementation. Currently, they also share some helpers, which makes refactorings harder and more risky.
+Let's iterate and clean this up!
 
-#### Remove all hardcoding of todo targets and types from the frontend code
-
-Currently the Vue components duplicate the list of possible todo targets and types.
-This was the most pragmatic way to get the new implementation of the ground, but we have to eventually remove all this hardcoding of things that should have only a SSOT on the backend.
-Otherwise, adding new targets and types means lots of duplication.
+1. https://gitlab.com/gitlab-org/gitlab/-/issues/509080+
+2. https://gitlab.com/gitlab-org/gitlab/-/issues/509083+
 
 #### Add another new todo type
 
