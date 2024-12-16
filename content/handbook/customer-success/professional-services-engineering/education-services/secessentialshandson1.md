@@ -65,7 +65,7 @@ Please take time to understand any code that you are asked to copy and paste in 
 
 1. From the **My Test Group** training subgroup, click the **New project** button.
 
-### Task B. Create a Project
+## Task B. Create a Project
 
 1. Click the **Create blank project** tile.
 
