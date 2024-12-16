@@ -82,17 +82,7 @@ Adding a new todo target or action type will be much simpler after this.
 
 🏁 **Adding a new type now should only require adding it to a single place in the backend.** (likely in `TodoPresenter`).
 
-#### Add another new todo type
-
-At this point, I would do another "reality check", similar to how we added the SSH key expiry todos to pinpoint all the duplications.
-
-By adding a new todo type, we can verify that no duplication on the frontend is required.
-
-We could add the "comment in thread I participate in" notifications as todos, for example. This would already be a helpful new feature for our users. And it is one of the most common emails, so it would also be a good test for database growth.
-
-It might also require some thought on the frontend how to best display such a "thread of todos".
-
-Also, it will make us look into todos respecting **notification settings**.
+We should verify reaching this goal, by adding a new todo to the system, possibly https://gitlab.com/gitlab-org/gitlab/-/issues/507338.
 
 ### Make todos respect notification settings
 
