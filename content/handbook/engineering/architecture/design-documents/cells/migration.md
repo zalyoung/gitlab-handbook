@@ -137,3 +137,47 @@ We could move organizations using [Direct transfer](https://docs.gitlab.com/ee/u
 - Add PostgreSQL Logical Replication as an option to minimize cutover downtime.
 - Provide an API interface to make integration with infrastructure tools easier.
 - Provide intuitive configuration and management UI interfaces.
+
+
+## Migration approaches at different stages of Cells
+
+We will need to adopt different approaches for each [major stage](_index.md#cells-iterations) of the the Cells evolution based on which technologies are available at each stage.
+
+Top-level groups retain their access URL as they move between Organizations. For example, when a customer's top-level groups are moved from the [Default Organization](../organization/_index.md#default-organization) to and Organization of thier own they methods of access are unchanged. This means bookmarks, git remote URLs, etc .. for projects in these top-level groups remain unchanged and require no action from users or updates to automation after a migration.
+
+
+### Cells 1.0
+Cells 1.0 will use [Direct Transfer (DT)](https://docs.gitlab.com/ee/user/group/import/) to move internal top-level groups to a separate organization. 
+
+We still need to evaluate and address any gaps but this is the only option available in this timeframe.
+DT will generate new IDs when the data is imported into a new organization. This is because DT is a copy instead of a move operation. It does not make sense to evolve DT to work as a move operation as it deviates from it's core purpose for importing and exporting data.
+It makes sense for DT to evolve to work with organizations in time for Cells 1.0. This is not throw away work since it is a feature that will need to be supported when we have Cells and Organizations.
+
+Limitations:
+
+- Only top-level groups can be moved between organizations.
+- New IDs will be generated which will break automation and integrations - This is acceptable since we will only be moving a limited set of internal top-level groups.
+
+
+### Cells 1.5
+
+Establish a process for moving top-level groups between organizations on the same cells. This functionality is net new and will need to be developed in time for Cells 1.5.
+
+A solution will be needed to re-write the org IDs when a top-level group is moved to a new organization. This is preferable to using DT since DT does much more than re-writing IDs and will be a more complex operation. This also ensures project ids, etc .. do not change when the top-level groups is moved into a new organization.
+Org mover will be responsible for moving an entire org from [Cell 1 (the legacy Cell)](decisions/012_cell_unique_identifier.md) to a secondary Cell.
+
+
+Limitations:
+
+- Only top-level groups can be moved between Organizations.
+- It will only be possible to move top-level groups between organizations in the same Cell - This is acceptable because our primary use case involves creating a new Organization for a customer in Cell 1 and moving their top-level groups into this Organization. Groups will not need to be moved across Cells at this stage.
+
+### Cells 2.0
+
+At this stage it is anticipated that we will have a fleet of Cells. Load across these Cells will need to be rebalanced as Organizations grow requiring a mechanism for moving Organizations between seconary Cells. Org mover will be evolved to move Organizations between secondary Cells.
+
+There is also a need to move top-level groups between Organizations that are on different Cells. The primary use case is to support mergers between two customer Orgazations. We do not currently have solution for this. We will in due course evaluate where the Org mover should be evolved move top-levels groups between secondary Cells and other approaches.
+
+Limitations:
+
+Only top-level groups can be moved between organizations.
