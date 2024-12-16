@@ -532,11 +532,11 @@ To remove yourself as a delegate for another team member, select the `X` next to
 
 #### Designating Delegate Access to Another Team Member
 
-If you would like to designate book or manage travel to another team member, follow the below steps:
+If you would like to designate a delegate to approve transacations on your behalf, book or manage travel to another team member, follow the below steps:
 
 1. From your Navan homepage, navigate to your profile icon and click on `Profile`.
 1. In the `Contact info` tab, locate `Delegate info`, and then `These users can book travel on my behalf`. Enter the names of the users you would like to grant permission to.
-1. Users added to your list will receive an email notifying them that they now have permission to book or manage travel on your behalf.
+1. Users added to your list will receive an email notifying them that they now have permission to approve on your behalf for your direct reports, book or manage travel on your behalf.
 
 #### Revoking Delegate Permissions
 
