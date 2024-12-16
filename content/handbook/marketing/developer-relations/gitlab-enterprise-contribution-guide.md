@@ -34,13 +34,13 @@ Before contributing, it's important to understand GitLab's licensing structure a
 
 ### Getting Started with Open Source Contributions
 
-- **MIT-Licensed Code**: Start here! Most of GitLab's codebase is MIT-licensed and requires only accepting the [Developer Certificate of Origin (DCO)](https://docs.gitlab.com/ee/legal/developer_certificate_of_origin.html)
-- **Community Edition**: Most features are available under the MIT Expat license
-- **Documentation**: Changes to documentation follow the same licensing requirements
+- **MIT-Licensed Code**: Start here! Most of GitLab's codebase is MIT-licensed and requires only accepting the [Developer Certificate of Origin (DCO)](https://docs.gitlab.com/ee/legal/developer_certificate_of_origin.html).
+- **Community Edition**: is the [FOSS version of GitLab](https://gitlab.com/gitlab-org/gitlab-foss) with all commercially licensed features removed.
+- **Documentation**: GitLab's documentaiton falls under the [CC BY-SA 4.0.](https://creativecommons.org/licenses/by-sa/4.0/) license.
 
 ### Contributing to Enterprise Features
 
-For Premium/Ultimate features in the Enterprise Edition living in [the EE folder of GitLab](https://gitlab.com/gitlab-community/gitlab/-/tree/master/ee?ref_type=heads):
+For Premium/Ultimate features in the Enterprise Edition living in [the EE folder of GitLab](https://gitlab.com/gitlab-org/gitlab/-/tree/master/ee?ref_type=heads):
 
 1. **First Steps**
    - Check with your manager if your company already has a [Corporate contributor license agreement (CLA)](https://docs.gitlab.com/ee/legal/corporate_contributor_license_agreement.html) in place
