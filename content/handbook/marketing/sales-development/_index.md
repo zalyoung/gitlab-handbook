@@ -1122,10 +1122,13 @@ This is where you can find messaging related to GitLab vs some of our competiors
 #### 1. When a person that we are tracking leaves their current place of employment
 
 - UserGems will track that person to their new role and will automatically create a lead with their new details in our system.
-- These leads will be flagged on the Action Needed BDR dashboards for you and your manager's review, as well as on the [B8 and B9 views for BDRs.](/handbook/marketing/sales-development/#bdr-lead-views)
-- We expect that our [standard RoE](/handbook/marketing/sales-development/#rules-of-engagement-roe) will be followed normally in actioning these leads.
-- These leads will also be automatically enrolled to a Grove flow either if the job change occured [more](https://groove.clari.com/flows/1124150) or [less](https://groove.clari.com/flows/1122335) than 90 days ago.
-- If you'd like to iterate on these flows please follow the content creation process outlined [here.](/handbook/marketing/sales-development/#new-groove-flow-creation)
+- These leads will be flagged on the **Action Needed BDR dashboards** for you and your manager's review, as well as on the [B2 views](/handbook/marketing/sales-development/#bdr-lead-views)
+- We expect that our [standard RoE](/handbook/marketing/sales-development/#rules-of-engagement-roe) will be followed normally in actioning these leads. 
+- These leads should also be considered as intent data for prospecting an outbound account. 
+  - Take the time to research accounts for the propensity to purchase and intent signals. Could the tracked contact's hire into that account be a compelling event for you to use?
+  - This data can be found either on our [1:1 Dashboards](https://handbook.gitlab.com/handbook/marketing/sales-development/#dashboards-for-team-members) on report 6 that's dedicated to UserGems, or through this [lead-level SFDC template that you can clone and use.](https://gitlab.my.salesforce.com/00OPL00000BOYrq)
+  - Analyze the hiring and promotion patterns as business signals - a surge in technical hires (e.g., developers, engineers) may indicate growth initiatives, product development, or a focus on scaling infrastructure. Sales or customer success hires could suggest plans to expand revenue or enhance customer retention strategies. Use these hiring signals to identify potential challenges or priorities, such as team collaboration, scaling efficiently, or driving revenue growth. Based on these, target decision-makers who are likely overseeing these initiatives, like directors or VPs.
+- If you'd like to iterate on any UserGems flows please follow the content creation process outlined [here.](/handbook/marketing/sales-development/#flow-creation)
 - We'll also notify you via Slack and email about these Job Changes.
 
 #### 2. When a company that we are tracking gets a new hire or promotion
