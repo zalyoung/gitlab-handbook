@@ -247,7 +247,7 @@ offering flexibility while maintaining security.
 
 ### Permissions
 
-The following permissions were compiled based on the findings from [this investigation](https://gitlab.com/gitlab-org/govern/authorization/team-tasks/-/issues/55).
+The following permissions were compiled based on the findings from [this investigation](https://gitlab.com/gitlab-org/software-supply-chain-security/authorization/team-tasks/-/issues/55).
 Further research is required to document the permissions needed to support the built-in [CI/CD components](https://gitlab.com/components).
 
 The exact list of permissions and the keyword used to described them might

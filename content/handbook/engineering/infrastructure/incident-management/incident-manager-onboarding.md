@@ -168,7 +168,7 @@ Shifts are assigned based on the working hours that you selected during onboardi
 
 ### What if I work a shift on a weekend or holiday?
 
-When you are on-call, there is no expectation for you to be sitting at your laptop for the whole shift. You are required to be in a position to acknowledge a page and to join the Slack or Zoom call within 15 minutes. We still want to offer time-in-lieu for this distruption of making yourself available during the weekend and holidays. 
+When you are on-call, there is no expectation for you to be sitting at your laptop for the whole shift. You are required to be in a position to acknowledge a page and to join the Slack or Zoom call within 15 minutes. We still want to offer time-in-lieu for this distruption of making yourself available during the weekend and holidays.
 Everyone is encouraged to explore options that work best for their personal
 situations in lieu of weekend shifts. When on-call you have the following
 possibilities:

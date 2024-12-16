@@ -42,7 +42,7 @@ This section links all different technical proposals that are being evaluated.
   - [SSH Routing Service](ssh_routing_service.md)
   - [Topology Service](topology_service.md)
   - Planned: Indexing Service
-- [Feature Flags](feature_flags.md)
+- [Feature Flags](./infrastructure/feature_flags.md) - ([Previous iteration](feature_flags.md))
 - [Cluster wide unique sequences](unique_sequences.md)
 - [Cells: Infrastructure](./infrastructure/_index.md)
 - [Organization migration](migration.md)
@@ -183,6 +183,7 @@ The Tenant Scale team sees an opportunity to use GitLab Dedicated as a base for 
 - [ADR-009: Initial Cell Sizes](decisions/009_cell_initial_sizing.md)
 - [ADR-010: HTTP Router uses static rules and HTTP-based caching mechanism](decisions/010_http_router_rules_and_cache.md)
 - [ADR-011: Cell Specific Configuration](decisions/011_cell_specific_configuration.md)
+- [ADR-012: Cell Unique Identifier](decisions/012_cell_unique_identifier.md)
 
 ## Links
 

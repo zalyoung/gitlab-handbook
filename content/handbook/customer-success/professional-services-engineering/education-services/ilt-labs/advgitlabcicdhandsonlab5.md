@@ -139,7 +139,7 @@ For the second merge request:
 
 Now that both merge requests have been created:
 
-1. Set them both to auto-merge. You will see a message stating `Set by your user to start a merge train when all merge checks pass`. 
+1. Set them both to auto-merge. You will see a message stating `Set by your user to start a merge train when all merge checks pass`.
 
 1. Await the completion of your merge requests and verify that they merge successfully.
 

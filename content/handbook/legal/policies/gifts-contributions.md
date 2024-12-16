@@ -15,9 +15,9 @@ In the ordinary course of business, team members may offer and receive customary
 
 In general, team members shall not seek or accept for themselves (or any member of their family), or provide or offer to any company or individual external to GitLab Inc. (i.e., a "third party"), any gifts, entertainment, or other favors of a character that go beyond common courtesies consistent with ethical and accepted business practices.
 
-**What is a "gift"? What is "entertainment"**
+**What is a "gift"? What is "entertainment"?**
 
-Anything of value that is accepted from or provided to another individual or organization outside of GitLab Inc. This can include merchandise or promotional logo items, gift baskets, discounts on services, loans, cash, gift certificates, gift cards or any form of compensation. Tickets to cultural events or sporting events, the use of another's  plane or accommodations, and personal use of a condominium or vacation home****when the recipient is not accompanied by the third party are also considered "gifts." One example of a gift would be where a vendor sends a team member two tickets to a cultural event for the team to use with the guest of their choice. In this instance, the vendor is not hosting the event or in attendance.
+Anything of value that is accepted from or provided to another individual or organization outside of GitLab Inc. This can include merchandise or promotional logo items, gift baskets, discounts on services, loans, cash, gift certificates, gift cards or any form of compensation. Tickets to cultural events or sporting events, the use of another's  plane or accommodations, and personal use of a condominium or vacation home when the recipient is not accompanied by the third party are also considered "gifts." One example of a gift would be where a vendor sends a team member two tickets to a cultural event for the team to use with the guest of their choice. In this instance, the vendor is not hosting the event or in attendance.
 
 "Entertainment" is any meal, refreshment, paid attendance to events (ex. cultural or sporting events) or other type of business courtesy that team members attend with the third party who is providing the entertainment. One example of this is attending a sporting event with a vendor who is also in attendance and hosting the event.
 
@@ -57,7 +57,7 @@ In the event that a team member receives a gift that is inappropriate or "unacce
 
 Any conduct that could appear improper should be avoided when dealing with government officials and employees or contractors. Payments, gifts, or other favors given to a government official or employee are strictly prohibited as it may appear to be a means of influence or a bribe. Failure to avoid these activities may lead to violations of the Foreign Corrupt Practices Act (among other anti-bribery laws and regulations) and expose the government agency, the government employee, our company, and our  team members to substantial fines and penalties.  For additional information on dealing with government officials please see GitLab Inc.'s [Anti-Corruption Policy](/handbook/legal/anti-corruption-policy/).
 
-Team members should review the [Public Sector Rules of Engagement](/handbook/sales/public-sector/#federal-government-rules-of-engagement://handbook.gitlab.com/handbook/sales/public-sector/#federal-government-rules-of-engagement) government-rules-of-engagement) section of the handbook for additional information on dealing with U.S. State and local government, as well as Federal Government Rules of Engagement.
+Team members should review the [Public Sector Rules of Engagement](/handbook/sales/public-sector/#federal-government-rules-of-engagement://handbook.gitlab.com/handbook/sales/public-sector/#federal-government-rules-of-engagement) section of the handbook for additional information on dealing with U.S. State and local government, as well as Federal Government Rules of Engagement.
 
 ## Political Activities and Contributions
 

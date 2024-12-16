@@ -21,8 +21,6 @@ The following teams comprise the Ops sub-department:
   - Package Registry - [handbook](/handbook/engineering/development/ops/package/package-registry/)
 - Deploy stage
   - Environments - [handbook](/handbook/engineering/development/ops/deploy/environments/), jtbd
-- Monitor stage
-  - Monitor:Observability - [handbook](/handbook/engineering/development/ops/monitor/observability/), jtbd
 
 ## Product Direction
 

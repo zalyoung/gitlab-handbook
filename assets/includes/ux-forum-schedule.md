@@ -3,16 +3,11 @@
 
 | Date       | Host                 | Speaker 1              | Speaker 2              | Speaker 3              |
 |------------|----------------------|------------------------|------------------------|------------------------|
-<<<<<<< assets/includes/ux-forum-schedule.md
-| 2024-12-11 | Emily Sybrant        | Nick Brandt            | Ian Gloude             |                        |
-=======
-| 2024-12-11 | Emily Sybrant        | Nick Brandt            | Ian Gloude             | Ilonah Pelaez          |
->>>>>>> assets/includes/ux-forum-schedule.md
 | 2024-12-18 | Jacki Bauer          | Graham Bachelder       | Libor Vanc             | Annabel Gray           |
 | 2025-01-08 | Rayana Verissimo     | Nicolle Merrill        | Emily Bauman           |                        |
 | 2025-01-22 | Andy Volpe           | Chad Lavimoniere       | Amelia Bauerly         |                        |
 | 2025-02-05 | Chris Micek          | Taylor Vanderhelm      | Sunjung Park           |                        |
-| 2025-02-19 | Justin Mandell       | Katie Macoy            |  Ilonah Pelaez     |            |
+| 2025-02-19 | Justin Mandell       | Katie Macoy            | Ilonah Pelaez          |                        |
 | 2025-03-05 | Marcel van Remmerden | Jeremy Elder           | Pedro Moreira da Silva | Becka Lippert          |
 | 2025-03-19 | Jacki Bauer          | Austin Regnery         | Julia Miocene          |                        |
 | 2025-04-02 | Taurie Davis         | Gina Doyle             | Nick Leonard           |                        |

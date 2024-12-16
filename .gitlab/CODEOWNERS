@@ -51,8 +51,8 @@
 /content/handbook/ceo/office-of-the-ceo/readmes/yyugitlab.md @yyugitlab
 
 ^[ceo-and-company]
-/content/handbook/board-meetings/ @sytses @streas
-/content/handbook/ceo/ @sytses
+/content/handbook/board-meetings/ @robin @streas
+/content/handbook/ceo/ @bill_staples
 /content/handbook/ceo/shadow.md @jrotenberry @gitlab-com/office-of-the-ceo
 /content/handbook/company/ @sytses @streas @gitlab-com/egroup
 /content/handbook/company/amas.md @sytses @streas
@@ -114,8 +114,9 @@
 ^[Eng-Development-department]
 /content/handbook/engineering/core-development.md @timzallmann @sgoldstein @m_gill @dsatcher
 /content/handbook/engineering/development/ @timzallmann @jeromezng @sgoldstein @dsatcher @m_gill @jeromezng
-/content/handbook/engineering/development/analytics/product-analytics.md @timzallmann @dennis @rob.hunt @mwoolf
-/content/handbook/engineering/development/analytics/analytics-instrumentation/ @bastirehm @timzallmann
+/content/handbook/engineering/development/analytics/monitor/analytics-instrumentation/ @dennis @timzallmann
+/content/handbook/engineering/development/analytics/monitor/platform-insights.md @dennis @nicholasklick @mappelman
+/content/handbook/engineering/development/analytics/monitor/optimize.md @dennis @blabuschagne
 /content/handbook/engineering/development/data-science/ @timzallmann @jeromezng @dsatcher @m_gill
 /content/handbook/engineering/development/data-science/ai-powered/ai-framework @oregand @m_gill @timzallmann
 /content/handbook/engineering/development/data-science/ai-powered/custom-models @oregand @m_gill @timzallmann @sean_carroll
@@ -137,7 +138,6 @@
 /content/handbook/engineering/development/dev/foundations/search/ @changzhengliu
 /content/handbook/engineering/development/dev/plan/ @donaldcook @timzallmann @johnhope @kushalpandya @blabuschagne @vshushlin
 /content/handbook/engineering/development/dev/plan/knowledge.md @vshushlin
-/content/handbook/engineering/development/dev/plan/optimize.md @blabuschagne
 /content/handbook/engineering/development/dev/plan/product-planning.md @kushalpandya
 /content/handbook/engineering/development/dev/plan/project-management.md @donaldcook
 /content/handbook/engineering/development/dev/training/ic-to-manager.md @dsatcher
@@ -148,8 +148,6 @@
 /content/handbook/engineering/development/growth/ @kniechajewicz
 /content/handbook/engineering/development/ops/ @sgoldstein @cheryl.li @nicolewilliams @crystalpoole
 /content/handbook/engineering/development/ops/deploy/ @nmezzopera
-/content/handbook/engineering/development/ops/monitor/observability.md @nicholasklick @mappelman
-/content/handbook/engineering/development/ops/monitor/respond/ @hbenson @francoisrose
 /content/handbook/engineering/development/ops/package/ @crystalpoole
 /content/handbook/engineering/development/ops/verify/ @cheryl.li @carolinesimpson @nicolewilliams @nmezzopera
 /content/handbook/engineering/development/ops/verify/pipeline-authoring/ @nmezzopera
@@ -466,7 +464,7 @@
 
 ## Approval required pages. See also "Controlled Documents" for more from this section.
 [People Group required approvals]
-/content/handbook/labor-and-employment-notices/ @pegan @wendybarnes @cgudgenov @streas @sytses @gitlab-com/content-sites @gitlab-com/egroup
+/content/handbook/labor-and-employment-notices/ @pegan @wendybarnes @cgudgenov @gitlab-com/content-sites @gitlab-com/egroup
 /content/handbook/people-group/anti-harassment.md @anjali_kaufmann @wendybarnes @emilyplotkin @pegan @gitlab-com/content-sites @gitlab-com/egroup
 /content/handbook/people-group/relocation.md @wendybarnes @pegan @mpatel8 @gitlab-com/content-sites @gitlab-com/egroup
 
@@ -697,7 +695,7 @@
 [Job Families]
 /content/job-families/legal-and-corporate-affairs/ @robin @cbednarz @anjali_kaufmann @glucchesi @carlierussell @mwilkins @bmcdonald5 @kbullock1 @JennyBurns @jessdurbin @ltepper @gitlab-com/egroup @gitlab-com/content-sites
 /content/job-families/people-group/ @wendybarnes @pegan @cbednarz @anjali_kaufmann @glucchesi @carlierussell @mwilkins @bmcdonald5 @kbullock1 @JennyBurns @jessdurbin @ltepper @gitlab-com/content-sites @gitlab-com/egroup
-/content/job-families/people-group/candidate-experience.md @sytses @streas @wendybarnes @rallen3 @cbednarz @anjali_kaufmann @glucchesi @carlierussell @mwilkins @bmcdonald5 @kbullock1 @JennyBurns @jessdurbin @ltepper @gitlab-com/content-sites @gitlab-com/egroup
+/content/job-families/people-group/candidate-experience.md @wendybarnes @rallen3 @cbednarz @anjali_kaufmann @glucchesi @carlierussell @mwilkins @bmcdonald5 @kbullock1 @JennyBurns @jessdurbin @ltepper @gitlab-com/content-sites @gitlab-com/egroup
 
 ## This section is for policies that Security Governance manages and aren't Controlled Documents. This should remain near the Controlled Documents section.
 [Security and Technology Policies]

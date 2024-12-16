@@ -14,11 +14,11 @@ To following along on the project, follow to epic: https://gitlab.com/groups/git
 
 ## Access
 
-Humantic AI will be made available to AMER BDRs and a couple SDRs. The platform is limited to English speakers as personalization in other languages is not currently offered. 
+Humantic AI will be made available to AMER BDRs and a couple SDRs. The platform is limited to English speakers as personalization in other languages is not currently offered.
 
 ## Integrations
 
-1. [Groove](/handbook/marketing/marketing-operations/groove/index.html/) - personalization email copy 
+1. [Groove](/handbook/marketing/marketing-operations/groove/index.html/) - personalization email copy
 2. Google Calendar - personality insights on meeting attendees
 
 ## Support
@@ -28,8 +28,8 @@ You can drop any of your questions or concerns related to Humantic AI to the #mk
 ## Setup Chrome Extension
 
 1. Download the Humantic AI [chrome extension](https://chromewebstore.google.com/detail/humantic-ai/iklikkgplppchknjhfkmkjnnopomaifc?hl=en)
-1. Go to a website that is compatible with Humantic AI, this includes LinkedIn, Google Calendar and Groove. 
-1. Sign in via Google, and allow Humantic to access your Google Account. 
+1. Go to a website that is compatible with Humantic AI, this includes LinkedIn, Google Calendar and Groove.
+1. Sign in via Google, and allow Humantic to access your Google Account.
 
 ## Setup Google Calendar
 

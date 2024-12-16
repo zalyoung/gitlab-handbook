@@ -65,7 +65,7 @@ Work on open source software so you can interact with a large community and can 
 Work on a product you use every day: we drink our own wine.
 Work on a product used by lots of people that care about what you do.
 As a company we contribute more than we take, most of our work is released as the open source GitLab CE.
-Focused on results, not on long hours, so that you can have a life and don't burn out.
+Focused on impact, not on activity, so that you can have a life and don't burn out.
 Open internal processes: know what you're getting into and be assured we're thoughtful and effective.
 
 See [our culture page](/handbook/company/culture/) for more!

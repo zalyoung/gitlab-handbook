@@ -491,5 +491,5 @@ index 669565880e93..393563dead8a 100644
 
 ## References
 
-- https://gitlab.com/gitlab-org/govern/compliance/general/-/issues/233+
+- https://gitlab.com/gitlab-org/software-supply-chain-security/compliance/general/-/issues/233
 - https://handbook.gitlab.com/handbook/engineering/architecture/design-documents/compliance-adherence-reporting/

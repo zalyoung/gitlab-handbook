@@ -96,7 +96,6 @@ The following table indexes all of the RAW data sources we are loading into the 
 | [Adobe / Bizible](https://experienceleague.adobe.com/docs/bizible/using/home.html) | Airflow | `bizible` | `sensitive` | Marketing | 24h / 36h | No | Tier 2 |
 | [Airflow](https://airflow.apache.org/) | Stitch | `airflow_stitch` | `airflow` | Data Team | 24h / 24h | No | Tier 3 |
 | [AWS Billing](https://docs.aws.amazon.com/awsaccountbilling/latest/aboutv2/billing-what-is.html) | Snowflake external tables | `aws_billing` | `aws_billing` | Engineering | 24h / 24h | No | Tier 2 |
-| [BambooHR](https://www.bamboohr.com/) | Airflow | `bamboohr` | `sensitive` | People | 12h / 24h | No | Tier 2 |
 | [Clari](https://www.clari.com/) | Airflow | `clari` | `clari` | Sales | 24h / 24h | Yes | Tier 2 |
 | [Clearbit](https://clearbit.com/) | x | x | x | x / x |  | No | Tier 3 |
 | [Common Room](https://www.commonroom.io/) | Snowflake task | `commonroom` | `commonroom` | `DevRels`/`Developer Advocates` |  | No | Tier 3 |
@@ -285,13 +284,13 @@ To gain access to Snowflake:
 
 #### Snowflake Analyst
 
-Snowflake can be used to perform analyses on the data that is available by writing SQL-code. Anything created and any outcome of the analyses is considered as an [ad-hoc analyses](handbook/it/data-team/data-development/#data-development-at-gitlab). It is important to know that anything that is created (i.e. worksheets and dashboards) is not version controlled and not supported or managed by the Central Data Team. I.e. When a team member off-boards from GitLab, the worksheets and dashboards are not accessible anymore. In order to persist analyses, team members can build Tableau workbooks, store code snippets in a GitLab project, or commit code to the Data Team's [dbt project](https://gitlab.com/gitlab-data/analytics/-/tree/master/transform/snowflake-dbt).
+Snowflake can be used to perform analyses on the data that is available by writing SQL-code. Anything created and any outcome of the analyses is considered as an [ad-hoc analyses](/handbook/enterprise-data/data-development/#data-development-at-gitlab). It is important to know that anything that is created (i.e. worksheets and dashboards) is not version controlled and not supported or managed by the Central Data Team. I.e. When a team member off-boards from GitLab, the worksheets and dashboards are not accessible anymore. In order to persist analyses, team members can build Tableau workbooks, store code snippets in a GitLab project, or commit code to the Data Team's [dbt project](https://gitlab.com/gitlab-data/analytics/-/tree/master/transform/snowflake-dbt).
 
 In order to be granted access to Snowflake, an AR must be opened as [described](/handbook/enterprise-data/platform/#warehouse-access). A new user will be created with access to query the `PROD` database.
 There are 2 levels of data access:
 
 - General data --> Adding the Snowflake `snowflake_analyst` role to their account.
-- SAFE data (you must be or will become a designated insider) --> Adding the Snowflake `snowflake_analyst_safe` to their account. See the [SAFE Guide](handbook/it/data-team/platform/safe-data/#snowflake) for the needed approvals.
+- SAFE data (you must be or will become a designated insider) --> Adding the Snowflake `snowflake_analyst_safe` to their account. See the [SAFE Guide](/handbook/enterprise-data/platform/safe-data/#snowflake) for the needed approvals.
 
 All users will have access to `dev_xs` and `reporting` -(size M) warehouse. When creating the user, the `dev_xs` warehouse as default warehouse.
 
@@ -674,7 +673,7 @@ We use three primary databases: `raw`, `prep`, and `prod`.
 The `raw` database is where data is first loaded into Snowflake; the other databases are for data that is ready for analysis (or getting there).
 
 {{% alert  color="warning" %}}
-All tables and views in `prep` and `prod` are controlled (created, updated) via dbt. [Every Quarter](handbook/it/data-team/data-management/#quarterly-data-health-and-security-audit) the Data Platform Team runs a check for tables and views that are not related to a dbt model and will be removed.
+All tables and views in `prep` and `prod` are controlled (created, updated) via dbt. [Every Quarter](/handbook/enterprise-data/data-management/#quarterly-data-health-and-security-audit) the Data Platform Team runs a check for tables and views that are not related to a dbt model and will be removed.
 {{% /alert %}}
 
 The following list of schema are exceptions and not checked:
@@ -1127,7 +1126,7 @@ Data deduplication is essential for ensuring data quality and reducing storage a
 
 Additionally, all data sourced from another application, CustomersDot, is extracted in full twice a day, as each extract plays a role in building the SCD downstream.
 
-To address our need for reduced Service Level Objectives (SLO) and Service Level Agreements (SLA), we have shifted towards more frequent extracts for both CustomersDot and GitLab.com. This adjustment has resulted in an increase in duplicate records and higher storage requirements in Snowflake for tables associated with both full and incremental extracts. The growing number of duplicates has adversely affected the results of the dbt model and dbt tests on these data sources over time. 
+To address our need for reduced Service Level Objectives (SLO) and Service Level Agreements (SLA), we have shifted towards more frequent extracts for both CustomersDot and GitLab.com. This adjustment has resulted in an increase in duplicate records and higher storage requirements in Snowflake for tables associated with both full and incremental extracts. The growing number of duplicates has adversely affected the results of the dbt model and dbt tests on these data sources over time.
 
 To decrease dbt runtime and enhance the efficiency of Snowflake's computing and storage, we developed a deduplication framework specifically targeting these data sources. This framework can be easily extended to other data sources in Snowflake where duplicate records may accumulate.
 
@@ -1145,9 +1144,9 @@ The deduplication framework consists of two main components:
 2. **Snowflake**: In Snowflake, the following activities are carried out:  
  i. Backup tables are created using Snowflake `clone` command with timestamp suffixes in the `TAP_POSTGRES_BKP` schema inside of the RAW database.
  ii. A `temporary` table is created with a deduplicated dataset using a `GROUP BY` clause to eliminate duplicates while retaining the most recent records and managing special columns like `_uploaded_at` and `_task_instance`. The deduplication logic selects all unique rows from the table.
- iii. The temporary tables are swapped with the original tables, while maintaining current grants and permissions.   
+ iii. The temporary tables are swapped with the original tables, while maintaining current grants and permissions.
  iv. Temporary tables are dropped after a successful swap.
- v. Delete the backup table older than 7 days. 
+ v. Delete the backup table older than 7 days.
 
 ## <i class="fas fa-chart-bar fa-fw -text-orange"></i>Visualization
 

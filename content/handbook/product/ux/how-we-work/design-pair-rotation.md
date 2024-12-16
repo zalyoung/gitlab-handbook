@@ -47,3 +47,4 @@ This is the rotation schedule for FY25-Q3 and Q4 (2024-08-01 until 2025-01-31).
 | Camellia Yang     | Sascha Eggenberger     |
 | Sunjung Park      | Alex Fracazo           |
 | Bonnie Tsang      | Michael Le             |
+| Jesse Hoek        | Mark Unthank           |

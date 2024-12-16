@@ -40,10 +40,6 @@ Ideally, we would like to be able to:
 - Retain existing behavior including:
   - TODO: list all current behavior that we wish to retain.
 
-### Secondary Goals
-
-- Evaluate the performance enhancements resulting from the new architecture implementation and determine whether these improvements are sufficient to enable synchronous updating of CODEOWNERS. For more details, see https://gitlab.com/gitlab-org/gitlab/-/issues/501768.
-
 ### Non-Goals
 
 TBD

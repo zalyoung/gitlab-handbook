@@ -117,8 +117,6 @@ Please find our SSoT in terms of reporting below, for each dashboard you can als
 ### Dashboards For Leaders
 
 | Name/Link                                                            | Description                                            |
-|-----------------------------------------------------------------------|--------------------------------------------------------|
-| [Action Needed: SDR Global](https://gitlab.my.salesforce.com/01ZPL000000ULrp) | Dashboard outlining items where immediate action is needed in the SDR team.   |
 | [Action Needed: PubSec Global](https://gitlab.my.salesforce.com/01ZPL000000UN7F) | Dashboard outlining items where immediate action is needed in the PubSec team. |
 | [Action Needed: APJ BDR](https://gitlab.my.salesforce.com/01ZPL000000bkbl) | Dashboard outlining items where immediate action is needed for APJ BDR.          |
 | [Action Needed: EMEA BDR](https://gitlab.my.salesforce.com/01Z4M000000soBO) | Dashboard outlining items where immediate action is needed for EMEA BDR.          |
@@ -1117,17 +1115,20 @@ This is where you can find messaging related to GitLab vs some of our competiors
 
 ### UserGems
 
-[UserGems](handbook/marketing/marketing-operations/usergems) is a tool that tracks specific cohorts of people that we provide in terms of them changing jobs. This automated tracking provides valuable insights, surfacing warm leads that can drive faster, larger wins. This tool helps mitigate deal risks when key individuals leave accounts, and accelerates deal progress when influential contacts join new organizations.
+[UserGems](/handbook/marketing/marketing-operations/usergems) is a tool that tracks specific cohorts of people that we provide in terms of them changing jobs. This automated tracking provides valuable insights, surfacing warm leads that can drive faster, larger wins. This tool helps mitigate deal risks when key individuals leave accounts, and accelerates deal progress when influential contacts join new organizations.
 
 **We have two main cohorts we're tracking:**
 
 #### 1. When a person that we are tracking leaves their current place of employment
 
 - UserGems will track that person to their new role and will automatically create a lead with their new details in our system.
-- These leads will be flagged on the Action Needed BDR dashboards for you and your manager's review, as well as on the [B8 and B9 views for BDRs.](/handbook/marketing/sales-development/#bdr-lead-views)
-- We expect that our [standard RoE](/handbook/marketing/sales-development/#rules-of-engagement-roe) will be followed normally in actioning these leads.
-- These leads will also be automatically enrolled to a Grove flow either if the job change occured [more](https://groove.clari.com/flows/1124150) or [less](https://groove.clari.com/flows/1122335) than 90 days ago.
-- If you'd like to iterate on these flows please follow the content creation process outlined [here.](handbook/marketing/sales-development/#new-groove-flow-creation)
+- These leads will be flagged on the **Action Needed BDR dashboards** for you and your manager's review, as well as on the [B2 views](/handbook/marketing/sales-development/#bdr-lead-views)
+- We expect that our [standard RoE](/handbook/marketing/sales-development/#rules-of-engagement-roe) will be followed normally in actioning these leads. 
+- These leads should also be considered as intent data for prospecting an outbound account. 
+  - Take the time to research accounts for the propensity to purchase and intent signals. Could the tracked contact's hire into that account be a compelling event for you to use?
+  - This data can be found either on our [1:1 Dashboards](https://handbook.gitlab.com/handbook/marketing/sales-development/#dashboards-for-team-members) on report 6 that's dedicated to UserGems, or through this [lead-level SFDC template that you can clone and use.](https://gitlab.my.salesforce.com/00OPL00000BOYrq)
+  - Analyze the hiring and promotion patterns as business signals - a surge in technical hires (e.g., developers, engineers) may indicate growth initiatives, product development, or a focus on scaling infrastructure. Sales or customer success hires could suggest plans to expand revenue or enhance customer retention strategies. Use these hiring signals to identify potential challenges or priorities, such as team collaboration, scaling efficiently, or driving revenue growth. Based on these, target decision-makers who are likely overseeing these initiatives, like directors or VPs.
+- If you'd like to iterate on any UserGems flows please follow the content creation process outlined [here.](/handbook/marketing/sales-development/#flow-creation)
 - We'll also notify you via Slack and email about these Job Changes.
 
 #### 2. When a company that we are tracking gets a new hire or promotion
@@ -1406,7 +1407,7 @@ The full process for offboarding at GitLab differs based on whether it is volunt
 
 ### Flow Creation
 
-- We follow the process outlined [here](handbook/marketing/sales-development/#new-groove-flow-creation) for creating new content, when it comes to reviewing this content, the Sales Dev Ops team will follow a quarterly cadence of reviewing the Flows/campaigns that are on the In-flight column on the board [here](https://gitlab.com/gitlab-com/marketing/sales-development/-/boards/5540104). We use the criteria below:
+- We follow the process outlined [here](/handbook/marketing/sales-development/#new-groove-flow-creation) for creating new content, when it comes to reviewing this content, the Sales Dev Ops team will follow a quarterly cadence of reviewing the Flows/campaigns that are on the In-flight column on the board [here](https://gitlab.com/gitlab-com/marketing/sales-development/-/boards/5540104). We use the criteria below:
 
 **1. Flow needs to be a globally applicable**
 
@@ -1794,21 +1795,21 @@ Announcement Channels
 
 ### Sales Dev Performance Management Process
 
-The Sales Development organization believes in getting the job done (consistently delivering results) and doing it right (meeting KPI/SLAs, adhering to [Our Three Pillars](handbook/marketing/sales-development/#our-three-pillars), and being good partners both internally and externally). Our performance management process is deeply rooted in this philosophy. As we are building high-performing teams, it is important to understand that while we expect results, we also have expectations surrounding how we get to those results. Therefore, a performance management process will be initiated if a team member is not meeting their performance targets and/or is not adhering to their KPIs/SLAs. The idea behind our framework is to address issues promptly to ensure the long-lasting success of all team members.
+The Sales Development organization believes in getting the job done (consistently delivering results) and doing it right (meeting KPI/SLAs, adhering to [Our Three Pillars](/handbook/marketing/sales-development/#our-three-pillars), and being good partners both internally and externally). Our performance management process is deeply rooted in this philosophy. As we are building high-performing teams, it is important to understand that while we expect results, we also have expectations surrounding how we get to those results. Therefore, a performance management process will be initiated if a team member is not meeting their performance targets and/or is not adhering to their KPIs/SLAs. The idea behind our framework is to address issues promptly to ensure the long-lasting success of all team members.
 
-The sections below will provide more details as to the performance management process on quota attainment as well as [Our Three Pillars](handbook/marketing/sales-development/#our-three-pillars) and KPIs/SLAs for inbound leads and outbound account management. While regular coaching is expected in weekly 1:1s, informal performance management will be initiated if a ramped team member has two consecutive months below 75-80%* attainment (SAOs, Stage 1 XDR Net ARR or Stage 3 Net ARR).
+The sections below will provide more details as to the performance management process on quota attainment as well as [Our Three Pillars](/handbook/marketing/sales-development/#our-three-pillars) and KPIs/SLAs for inbound leads and outbound account management. While regular coaching is expected in weekly 1:1s, informal performance management will be initiated if a ramped team member has two consecutive months below 75-80%* attainment (SAOs, Stage 1 XDR Net ARR or Stage 3 Net ARR).
 
 _*Range due to varied quotas_
 
-#### SAOs and Stage 1 XDR Net ARR 
+#### SAOs and Stage 1 XDR Net ARR
 
 Once the team member is informed, expectations will be:
 
-- Month 1: 75-80% attainment + adherence to [Our Three Pillars](handbook/marketing/sales-development/#our-three-pillars)
-- Month 2: 75-90% attainment + adherence to [Our Three Pillars](handbook/marketing/sales-development/#our-three-pillars)
-- Month 3 and beyond: 100% attainment + adherence to [Our Three Pillars](handbook/marketing/sales-development/#our-three-pillars)
+- Month 1: 75-80% attainment + adherence to [Our Three Pillars](/handbook/marketing/sales-development/#our-three-pillars)
+- Month 2: 75-90% attainment + adherence to [Our Three Pillars](/handbook/marketing/sales-development/#our-three-pillars)
+- Month 3 and beyond: 100% attainment + adherence to [Our Three Pillars](/handbook/marketing/sales-development/#our-three-pillars)
 
-Should the team member fall short of the targets above, a formal warning will be issued. 
+Should the team member fall short of the targets above, a formal warning will be issued.
 After the formal warning is issued if the team member falls short of targets again, additional disciplinary action could be taken up to and including termination.
 
 #### Stage 3 Net ARR
@@ -1818,11 +1819,11 @@ As a business we understand that Stage 3 Net ARR is a metric that can take time 
 The process, however, will
  stay the same: once the team member is informed, expectations will be:
 
-- Month 1: 80% attainment + adherence to [Our Three Pillars](handbook/marketing/sales-development/#our-three-pillars)
-- Month 2: 90% attainment + adherence to [Our Three Pillars](handbook/marketing/sales-development/#our-three-pillars)
-- Month 3 and beyond: 100% attainment + adherence to [Our Three Pillars](handbook/marketing/sales-development/#our-three-pillars)
+- Month 1: 80% attainment + adherence to [Our Three Pillars](/handbook/marketing/sales-development/#our-three-pillars)
+- Month 2: 90% attainment + adherence to [Our Three Pillars](/handbook/marketing/sales-development/#our-three-pillars)
+- Month 3 and beyond: 100% attainment + adherence to [Our Three Pillars](/handbook/marketing/sales-development/#our-three-pillars)
 
-Should the team member fall short of the targets above, a formal warning will be issued. 
+Should the team member fall short of the targets above, a formal warning will be issued.
 After a  formal warning is issued if the team member falls short of targets again, additional disciplinary action could be taken up to and including termination.
 
 ### Our Three Pillars

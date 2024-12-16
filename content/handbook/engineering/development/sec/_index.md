@@ -2,7 +2,7 @@
 title: Sec Section
 description: >-
   The Sec Section is composed of development teams working on Secure
-  and Govern features of the GitLab DevOps Platform.
+  and Software Supply Chain Security features of the GitLab DevOps Platform.
 ---
 
 <div class="diagramwrapper">
@@ -404,7 +404,7 @@ The members of each google group consists of stable counterparts and the correct
 ## Staying Informed and Informing Team Members
 
 - [Sec Week In Review Google Document](https://drive.google.com/drive/search?q=%22Sec%20Section%20Week%20In%20Review%22) - is an asynchronous weekly document of notables things happening in Sec. The document is inspired by the [Engineering Week In Review](/handbook/engineering/#communication).
-- Slack channels #s_secure and #s_govern are informative since they are all part of Sec Section.
+- Slack channels #s_secure and #s_software-supply-chain-security are informative since they are all part of Sec Section.
 
 ## Planning in the Section
 

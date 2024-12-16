@@ -72,15 +72,18 @@ To reflect this, we have structured the Security Division around four key tenets
             <li><a href="product-security/product-security-engineering/">Product Security Engineering</a></li>
             <li><a href="product-security/architecture/">Security Architecture</a></li>
             <li><a href="product-security/security-research/">Security Research</a></li>
-            <li><a href="product-security/vulnerability-management/">Security Threat & Vulnerability Management</a></li>
+            <li><a href="product-security/vulnerability-management/">Vulnerability Management</a></li>
+            <li><a href="product-security/data-security/">Data Security</a></li>
+            <li><a href="security-operations/security-logging/">Security Logging</a></li>
         </ul>
       </td>
       <td>
         <ul>
             <li><a href="security-operations/sirt/">Security Incident Response Team (SIRT)</a></li>
             <li><a href="security-operations/trustandsafety/">Trust and Safety</a></li>
-            <li><a href="security-operations/security-logging/">Security Logging</a></li>
             <li><a href="security-operations/red-team/">Red Team</a></li>
+            <li><a href="security-operations/threat-intelligence/">Threat Intelligence</a></li>
+            <li><a href="security-operations/signals-engineering/">Signals Engineering</a></li>
         </ul>
       </td>
       <td>

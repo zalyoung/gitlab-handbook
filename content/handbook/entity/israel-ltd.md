@@ -73,7 +73,7 @@ All team members in Israel are enrolled in the Pension Arrangement. In general t
 - You can elect and personalize your plan via Shaldan or your private insurance agency.
 - Employer contributions are based on your eligible earnings, the definition of eligible earning is Base salary and overtime.
 
-Pension contributions continue while on leave, with the exception of unpaid leave. 
+Pension contributions continue while on leave, with the exception of unpaid leave.
 
 #### Enrollment & Administration of the Pension Plan
 
@@ -94,11 +94,11 @@ Study Fund contributions continue while on leave, with the exception of unpaid l
 
 Israel Team Members are granted a meal allowance of up to NIS 900 per month. Vouchers are managed through Cibus. Team members will receive a debit card to use the benefit.
 
-Team Members do not recieve the meal allowance while on unpaid leave. 
+Team Members do not recieve the meal allowance while on unpaid leave.
 
 ### Transportation Allowance
 
-This policy applies to all Israel-based GitLab team members who choose to work from a co-working space regularly and meet the requirements outlined in the [Global Expense Co-Working Space Policy](handbook/finance/expenses/#co-working-space)
+This policy applies to all Israel-based GitLab team members who choose to work from a co-working space regularly and meet the requirements outlined in the [Global Expense Co-Working Space Policy](/handbook/finance/expenses/#co-working-space)
  This allowance is intended to cover travel expenses from the team member's residence to the co-working space.
 
 Note: This allowance will be paid through payroll rather than reimbursed through Navan. While the Global Expense Policy generally excludes transportation to and from co-working spaces from reimbursement, the Israel transportation allowance will still be processed as outlined here. If a team member works from a co-working space on a one-off basis while traveling for business, travel expenses should be reimbursed via Navan in line with the Global Expense Policy.
@@ -107,7 +107,7 @@ Note: This allowance will be paid through payroll rather than reimbursed through
 
 <summary>Eligibility Criteria</summary>
 
-- The co-working space must  in line with the [Global Expense Co-Working Space Policy](handbook/finance/expenses/#co-working-space)
+- The co-working space must  in line with the [Global Expense Co-Working Space Policy](/handbook/finance/expenses/#co-working-space)
 - The co-working space must be used regularly (i.e., on a monthly basis).
 - Team members must submit required documentation as outlined below.
 

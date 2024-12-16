@@ -25,7 +25,7 @@ The Engineering Divison has a Google Group, [`engineering@gitlab.com`](https://g
 
 ### Synchronous meetings
 
-- [**Engineering All-Hands**](/handbook/cto-staff/#engineering-all-hands).
+- [**Engineering All-Hands**](/handbook/engineering/cto-leadership-team/#engineering-all-hands).
 - **CTO Office Hours**: Each week the CTO holds open office hours on Zoom for questions, feedback, and handbook changes. Check the CTO's calendar and look for EMEA and APAC-friendly time slots.
 
 ### Asynchronous updates

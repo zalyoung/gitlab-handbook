@@ -152,7 +152,7 @@ Much of the [how to be a great remote manager](being-a-great-remote-manager/) ap
 
 Some best practices for motivating remote employees balancing caregiving include:
 
-- Prioritize [results over hours worked](/handbook/values/#measure-results-not-hours)
+- Prioritize [impact over activity](/handbook/values/#measure-impact-not-activity)
 - Don't require people to have consistent set working hours or say when they're working
 - Don't encourage or celebrate working long hours or on weekends
 - Encourage teamwork

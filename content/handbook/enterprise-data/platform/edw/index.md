@@ -16,11 +16,11 @@ The Production Database in the EDW is used for reporting and analysis by Data Co
 
 1. `LEGACY_`: This schema is where data from our old modeling paradigm lives. The [Legacy Structure](/handbook/enterprise-data/platform/dbt-guide/#model-structure) is defined in the dbt guide. Legacy deprecation was a strategic priority for FY24 and FY25 with a focus on deprecating:
     - Zuora
-    - Salesforce 
-    - CustomerDot 
+    - Salesforce
+    - CustomerDot
     - Snowplow
-    - GitLab.com 
-legacy folders. As of 2024-10-23, we have made significant progress on the goal, with all critical analyses that use these 5 data sources running off the EDM. We still have 75+ non-critical gitlab.com legacy tables to migrate. Going forward, with the exception of the gitlab.com legacy tables, deprecation of legacy models will no longer be a strategic priority. Instead, we will use P3-Other bandwidth to create new EDM replacements and deprecate legacy models. We accept that for the foreseeable future, there will be a long tail of legacy models where the costs to deprecate are not justified by the benefits of deprecation, that will persist in the legacy folder. 
+    - GitLab.com
+legacy folders. As of 2024-10-23, we have made significant progress on the goal, with all critical analyses that use these 5 data sources running off the EDM. We still have 75+ non-critical gitlab.com legacy tables to migrate. Going forward, with the exception of the gitlab.com legacy tables, deprecation of legacy models will no longer be a strategic priority. Instead, we will use P3-Other bandwidth to create new EDM replacements and deprecate legacy models. We accept that for the foreseeable future, there will be a long tail of legacy models where the costs to deprecate are not justified by the benefits of deprecation, that will persist in the legacy folder.
 
 ## Enterprise Dimensional Model (COMMON Schema)
 

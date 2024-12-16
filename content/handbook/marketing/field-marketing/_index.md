@@ -200,16 +200,16 @@ Field Marketing utilizes the below issue templates and epic codes for virtual ev
 - [Issue Template](https://gitlab.com/gitlab-com/marketing/field-marketing/-/issues/new?issuable_template=Workshop_Template)
 - [Epic Code](/handbook/marketing/field-marketing/field-marketing-epics/#workshops)
 
-## Event Lead Collection Should-Knows 
+## Event Lead Collection Should-Knows
 
 Not every field event or lead are the same. There will be times when meeting/scanning leads and notetaking for the interaction will require a tweaked processing procedure. A few examples are below:
 
 `High Priority` leads: There are situations where GitLab leadership wants extra attention placed toward a prospective lead/account, assuming the right criteria is met for that lead/account. These leads are referred to as `High Priority` and utilize the `high priority` process. This label not only means its namesake, but it also means the lead will circumvent our normal lead routing and MQL processes to be sent immediately to SDR/BDR for strategic outreach. There are a few reasons why a lead would be marked as `High Priority`, but for this particular handbook page there are two primary definitions to focus on:
 
 - **High Priority Campaign**: This lead was acquired during a `high priority` event. While strategizing for the quarter and year, Sales and Marketing leadership discuss what upcoming field events will be important based on GitLab's current and future goals. If a field event is determined to fit the criteria, all leads collected from this event will be marked as `high priority` and quickly routed for follow up. Leadership will communicate what campaigns qualify
-- **White Glove**: A white glove lead needs strategic outreach and will involve the [SDR, Account Executive and maybe more](/handbook/marketing/sales-development/#white-glove-event-follow-up-flows). Generally, these leads were highly engaged in conversation about GitLab, have detailed event notes about the engagement and or were engaged with specific GitLab team members during the event. White glove leads can exist within a high priority campaign, so use best judgement on which label is most appropriate between the two 
+- **White Glove**: A white glove lead needs strategic outreach and will involve the [SDR, Account Executive and maybe more](/handbook/marketing/sales-development/#white-glove-event-follow-up-flows). Generally, these leads were highly engaged in conversation about GitLab, have detailed event notes about the engagement and or were engaged with specific GitLab team members during the event. White glove leads can exist within a high priority campaign, so use best judgement on which label is most appropriate between the two
   
- Recording `high priority` status for either of these types is simple and included in the spreadsheet used for [self-service list uploads](/handbook/marketing/marketing-operations/automated-list-import/#data-cleaning-instructions) under the `High Priority Reasons?` column - as a dropdown option. The reason feeds into Marketo's `High Priority Reason temp` field, which [then processes](https://engage-ab.marketo.com/?munchkinId=194-VVC-221#/classic/SC56504A1ZN19) the lead for early lead routing. 
+ Recording `high priority` status for either of these types is simple and included in the spreadsheet used for [self-service list uploads](/handbook/marketing/marketing-operations/automated-list-import/#data-cleaning-instructions) under the `High Priority Reasons?` column - as a dropdown option. The reason feeds into Marketo's `High Priority Reason temp` field, which [then processes](https://engage-ab.marketo.com/?munchkinId=194-VVC-221#/classic/SC56504A1ZN19) the lead for early lead routing.
 
 ## Post event lead flow for each campaign
 
@@ -551,7 +551,7 @@ For Brilliant support, please see email addresses below. For any questions or co
 - Once the order is approved in the store portal, Brilliant will submit the order to the vendor.
 - All new swag artwork (inlcuding logo placement) will be reviewed and approved by the Brand team.
   - If the swag item chosen only requires a GitLab logo to be added, Brilliant will provide a proof to the FMM through the store portal (FMM will receive an email notification) and then once approved in the portaly by the FMM, the proof will be sent to the Brand team for final approval (within the Brilliant store portal as well).
-  - If the swag item chosen requires a full design, please follow the instructions to submit a design request [here](/handbook/marketing/brand-and-product-marketing/brand/merchandise-handling/#swag-program-owners). 
+  - If the swag item chosen requires a full design, please follow the instructions to submit a design request [here](/handbook/marketing/brand-and-product-marketing/brand/merchandise-handling/#swag-program-owners).
 - Once the order has been shipped, Brilliant will submit the invoice through Coupa directly.
 
 ### Store Portal Orders and Shipping Charges
@@ -1545,13 +1545,13 @@ Please also note, we can only use Coupa cards for POs up to $25,000. Anything ov
 
 #### Various Charges on Coupa Card
 
-If you are submitting various charges for approval on a Coupa virtual card, please make sure you either provide the PDF contract/order/quote or, if ordering through an online portal, please include a screenshot of the items you need to order. Each separate order requires a supporting PDF or screenshot that shows the vendor name, items being ordered, and total cost. These requests will be reviewed during the procurement process and if approved, the Coupa card issued will cover all costs submitted. Only one Allocadia line item is required per Coupa card approved. For example, if you submit a contract request for booth, AV, and IT charges for a show that equal $3,000, you only need one Allocadia line item ID for all three charges and your plan/forecast number would equal $3,000. 
+If you are submitting various charges for approval on a Coupa virtual card, please make sure you either provide the PDF contract/order/quote or, if ordering through an online portal, please include a screenshot of the items you need to order. Each separate order requires a supporting PDF or screenshot that shows the vendor name, items being ordered, and total cost. These requests will be reviewed during the procurement process and if approved, the Coupa card issued will cover all costs submitted. Only one Allocadia line item is required per Coupa card approved. For example, if you submit a contract request for booth, AV, and IT charges for a show that equal $3,000, you only need one Allocadia line item ID for all three charges and your plan/forecast number would equal $3,000.
 
 PLEASE NOTE: These charges follow the [prepaid policy](/handbook/finance/accounting/#prepaid-expense-policy) and you will always reference the total cost of the charges/PO amount for determining the prepaid threshold. For example, if you submit a $3,000 AV order and a $3,000 booth items order together on one PO, the total PO amount is $6,000. Even though each charge is under the $5k prepaid threshold, the total amount of the PO is $6,000, so you would forecast the charges under the month the event occurs.
 
 #### Multi-Event Contracts
 
-We often receive a discount for multiple events and the vendor includes all events under one contract. When this occurs, the FMM will need to create an Allocadia sub-issue and line item for each event and provide all of the Allocadia IDs in the contract request for the FMC. The FMC will submit the contract in ZIP and add separate lines for each event with that specific event's information and Allocadia ID. 
+We often receive a discount for multiple events and the vendor includes all events under one contract. When this occurs, the FMM will need to create an Allocadia sub-issue and line item for each event and provide all of the Allocadia IDs in the contract request for the FMC. The FMC will submit the contract in ZIP and add separate lines for each event with that specific event's information and Allocadia ID.
 
 PLEASE NOTE: These charges follow the [prepaid policy](/handbook/finance/accounting/#prepaid-expense-policy) and you will always reference the total cost of the charges/PO amount for determining the prepaid threshold. For example, if you submit a contract for 3 events and each event costs $3,000, the total PO amount is $9,000. Even though each event is under the $5k prepaid threshold, the total amount of the PO is $9,000, so you would forecast each event charge under the month the event occurs.
 
@@ -1673,11 +1673,11 @@ We follow the processes documented in the [Communicating your time off section](
 Specifically:
 
 1. Add your OOO to [Workday](/handbook/people-group/paid-time-off/#workday)
-1. Notify both your manager and the person covering for you that you will be out of the office. Make sure the person covering for you has details for items to watch or take care of for you while you are OOO. 
+1. Notify both your manager and the person covering for you that you will be out of the office. Make sure the person covering for you has details for items to watch or take care of for you while you are OOO.
 1. Add an OOO message for your email. Please ensure you are including a DRI in your OOO email response for people outside the company to contact.
 1. Turn on [Google Calendar's "out of office" setting](https://support.google.com/calendar/answer/7638168?hl=en) (scroll down to "Show when you're out of office") to create an out of office event that will automatically decline new and existing meetings for you. Or, please ensure to manually cancel/decline/reschedule any meetings if you will not be in attendance.
-1. Add an OOO to your Slack profile (this will occur automatically when you submit your OOO to Workday). If you're traveling for an event and not necessarily on PTO/vacation, please ensure you are manually updating your Slack status accordingly. 
-1. If your time off was added in Workday, Time off by Deel in Slack will prompt you to add a delegate who will be covering for you. Please fill in this information so it's clear in Slack who people can contact in your absense. 
+1. Add an OOO to your Slack profile (this will occur automatically when you submit your OOO to Workday). If you're traveling for an event and not necessarily on PTO/vacation, please ensure you are manually updating your Slack status accordingly.
+1. If your time off was added in Workday, Time off by Deel in Slack will prompt you to add a delegate who will be covering for you. Please fill in this information so it's clear in Slack who people can contact in your absense.
 1. Add an OOO to your GitLab profile and mark yourself as `busy`
 1. If you work in ZIP, please assign assign a delegate by going to ZIP - Settings - Personal Settings - Out of Office.
 1. If you work in Coupa, please [assign a delegate in Coupa](/handbook/business-technology/enterprise-applications/guides/coupa-guide/#how-to-add-a-delegate-in-coupa) so you will not hold approvals while you're enjoying your time off.

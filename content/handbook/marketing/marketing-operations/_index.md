@@ -33,7 +33,7 @@ Marketing Operations (MktgOps) supports the marketing organization to streamline
 | [Evan Mathis](https://gitlab.com/emathis) | [Marketing Operations Manager](/job-families/marketing/marketing-operations-manager/#marketing-operations-manager-intermediate) |
 | [Bryce Weatherford](https://gitlab.com/bweatherford) | [Marketing Operations Manager](/job-families/marketing/marketing-operations-manager/#marketing-operations-manager-intermediate) |
 
-## <i class="far fa-life-ring" id="biz-tech-icons"></i> How to Get Help
+## <i class="far fa-life-ring" id="biz-tech-icons"></i> How to Get Help {#how-to-get-help}
 
 **Important**: Before submitting an issue that may contain [Personally Identifable Information (PII) data](/handbook/support/workflows/pii_removal_requests/#overview) (including screenshots), please ensure the issue is marked confidential. You can use [quick actions](https://docs.gitlab.com/ee/user/project/quick_actions.html#issues-merge-requests-and-epics) to accomplish this in the issue description priort to submitting.
 
@@ -415,14 +415,14 @@ Below are tools in the Marketing Technology stack, organized by tier.
 #### Functional Technology - Tier 4
 
 - [Bitergia](/handbook/marketing/developer-relations/workflows-tools/#tool-stack-overview) (Developer Relations)
-- [Canva](handbook/marketing/brand-and-product-marketing/design/#canva-best-practices) (Brand)
+- [Canva](/handbook/marketing/brand-and-product-marketing/design/#canva-best-practices) (Brand)
 - Cision
 - [Common Room](/handbook/marketing/developer-relations/workflows-tools/#tool-stack-overview) (Devoper Relations)
 - ContentKing
 - Frame.io (Brand)
 - Figma (UX)
 - Humantec.ai (Sales Dev)
-- [Launch Darkly](handbook/marketing/digital-experience/engineering-ab-tests/)
+- [Launch Darkly](/handbook/marketing/digital-experience/engineering/engineering-ab-tests/)
 - [MeetUp](/handbook/marketing/developer-relations/workflows-tools/#tool-stack-overview)
 - [Quantum Metric](/handbook/business-technology/tech-stack/#quantum-metric) (DEX)
 - [SEMRush](/handbook/marketing/inbound-marketing/search-marketing/seo-strategy/) (Search Marketing)
@@ -544,7 +544,7 @@ A Marketing Qualified Lead (MQL) is a lead that has reached a certain threshold,
 
 ### What are MQL SLAs?
 
-SLA (or Service Level Agreement) is the agreed upon amount of time that a lead which has MQL’d and routed to a Sales Development Representative will be actioned. Right now, the SLA time has been set to 2 business hours. More information on how the SLA reporting functionality works can be found [here](/content/handbook/marketing/marketing-operations/mql-sla.md).
+SLA (or Service Level Agreement) is the agreed upon amount of time that a lead which has MQL’d and routed to a Sales Development Representative will be actioned. Right now, the SLA time has been set to 2 business hours. More information on how the SLA reporting functionality works can be found [here](/handbook/marketing/marketing-operations/mql-sla.md).
 
 ## Campaigns and Programs
 

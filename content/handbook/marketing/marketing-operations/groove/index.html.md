@@ -63,13 +63,11 @@ Flows must be named by the following [naming conventions](https://docs.google.co
 
 ### Flow Approval Process
 
-Individual flows can be created by any team member in Groove for personal use. XDRs and Renewals Managers will need to submit their individual flows for approvals, while Account Executives and SMB Advocates can create individual flows without the need for approvals.
+Individual flows can be created by any team member in Groove for personal use except for XDRs. XDRs and Renewals Managers will need to submit their individual flows for approvals, while Account Executives and SMB Advocates can create individual flows without the need for approvals. All flows used by XDRs will be master flows
 
-Should a team member want to turn their individual flow into a master flow for other team members to leverage, approvals by the appropiate Operations team or BDR Manager will be required. Please review the sections below for specific guidance depending on your team.
+### BDR Flow Creation Process
 
-### BDR Flow Creation Process 
-
-BDRs are able to create individual flows that must be approved by their managers. After approval, ownership of these flows will be switched from the BDR to their Manager by Ops.
+BDRs are able to create individual flows that must be approved by their managers. After approval, ownership of these flows will be switched from the BDR to their Manager by Ops. The BDR **should not** add anyone to the flow until it is in their manager's ownership.
 
 **Checklist for BDRs when Creating Flows**
 
@@ -77,11 +75,11 @@ BDRs are able to create individual flows that must be approved by their managers
   - Department, Inbound/Outbound, High Touch/Low Touch, Region, Description, Language
   - Example: SD IB LT EMEA CONTENT GER
   - All Sales Dev flows begin with “SD”
-- Have you added labels that align to our naming convention? 
+- Have you added labels that align to our naming convention?
 - Is email tracking on/off for each email step?
 - Have you previewed each step of the flow?
-- Are the steps inline with HT/LT principles? HT should always have Phone calls and LI steps 
-- Have you notified your manager with the reason why you are planning to create this flow? 
+- Are the steps inline with HT/LT principles? HT should always have Phone calls and LI steps
+- Have you notified your manager with the reason why you are planning to create this flow?
 
 ### New Sales Dev Manager Flow Approval Process (Nov 2024)
 
@@ -91,7 +89,7 @@ BDRs are able to create individual flows that must be approved by their managers
   - Department, Inbound/Outbound, High Touch/Low Touch, Region, Description, Language
   - Example: SD IB LT EMEA CONTENT GER
   - All Sales Dev flows begin with “SD”
-- Have you added the flow to your team collection? 
+- Have you added the flow to your team collection?
 - Are there labels used that align to our naming convention? (Do not create new labels)
 - Is email tracking on/off for each email step?
 - Consider toggling manual steps to allow them to include their own template
@@ -102,19 +100,27 @@ BDRs are able to create individual flows that must be approved by their managers
 
 **Look at the Settings:**
 
-- Should this be a Master Flow or Individual Flow? Groove Master Flows are designed for multiple people to use, while Individual Flows are intended for individual use (1 rep). By default flows made by reps will be individual flows which the managers can change in the settings. 
+- Make sure the flow is a master flow
 - Is the Unsubscribe Footer on?
 - If you are sharing a flow with sales do not turn on edit permissions
 - Should there be an expiration date for this flow (use when only to be used for certain date range like an event)
 - Global Block Rules should be toggled on (should be automatic)
-- Make sure the flow is shared with each team you would like to have access to the flow. 
-- Do not grant edit permissions on master flows. 
+- Make sure the flow is shared with each team you would like to have access to the flow.
+- Do not grant edit permissions on master flows.
 
 **Manager Recommendations:**
 
-- Come up with an intake process otherwise you will have duplicate efforts from team members and you will spend a ton of time approving flows rather than analyzing results. 
+- Come up with an intake process otherwise you will have duplicate efforts from team members and you will spend a ton of time approving flows rather than analyzing results.
 - Only approve LT flows for very specific reasons - include that in the description of the flow
 - Schedule recurring monthly checks of flow analytics to help with deprecation and promotion of flows
+
+**Flow Approval Full Process and Order of Events**
+
+1. BDR creates flow and submits for approval in Groove
+2. Manager checks and Approves flow (Directions above)
+3. Manager Sends flow to Operations (Panos for EMEA/APJ, Ed for AMER)
+4. Operations Transfers Ownership from BDR to Manager within 24 hours
+5. BDR can now add prospects to the flow after ownership is transferred
 
 ### Sales: Flow Creation Requirements & Sharing with BDRs
 
@@ -169,7 +175,7 @@ In the email body of some emails of flows, there are references to a meeting lin
 
 ### Labels and Searching for Flows
 
-Labels are how Flows and Templates are organized in Groove. 
+Labels are how Flows and Templates are organized in Groove.
 
 **Label Categories:**
 
@@ -201,7 +207,7 @@ Groove Variables are formatted different than Outreach. You can find some common
 
 - Inbound collections: are required for all MQLs. Ops would own editing etc. To have these changed, approval would require ops.
 
-- SD Good outbound collection: owned by Ops and will only include highest performing flows. These flows will be added over the next 90 days as data from Groove comes in 
+- SD Good outbound collection: owned by Ops and will only include highest performing flows. These flows will be added over the next 90 days as data from Groove comes in
 
 - SD Assist: Flow to be used for special circumstances (Action Qualifying, Move High Priority Leads, Web Directs ect.)
 

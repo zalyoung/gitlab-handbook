@@ -33,14 +33,14 @@ Please feel free to contribute to this page by opening a merge request.
 1. **Ownership.** I own my work. This means delivering on my commitments and against my goals. When it looks like I can't for some reason, I quickly escalate, so I am aligned with others on the new timing or direction. I expect this ownership from others. I don't like to micromanage and find that it is less necessary when folks are owning their work.
 1. **Community.** I like to invest in communities and community creation, both at work and in my personal life. I believe that positive professional and social connections make work and life more enjoyable.
 
-## My superpowers 
+## My superpowers
 
 1. **Bias for action.** If I believe that something needs to be owned and I don't see anyone owning it, I'll try to step in to make sure that it gets done.
 1. **Problem solving.** I am a problem solver. I enjoy tackling tough challenges and connecting dots. I am good at seeing trends across a company and can think both at a high level and in the details.
 1. **Keeping balls in the air.** I rarely drop balls. If I ever do, you can be assured that my disappointment in myself is far greater than any disappointment that you have in me.
 1. **Collaboration.** I enjoy working with others and collaborating to get to a good outcome. In my role, this is something that I need to do well.
 
-## My weaknesses 
+## My weaknesses
 
 1. **Always on problem solving.** Depending on the situation, this can be a blessing or a curse. If you have a problem and you want a listener or aren't looking for new ideas, proactively let me know, so I can engage you with you in the right way.
 1. **Aversion to politics.** I get demotivated when I suspect that folks are prioritizing themselves or their teams over the greater interests of a company.
@@ -56,9 +56,9 @@ Please feel free to contribute to this page by opening a merge request.
 
 ## My role
 
-I am the Chief of Staff to the CEO at GitLab. Here is what I do in 12 words or less that is unique to my role: 
+I am the Chief of Staff to the CEO at GitLab. Here is what I do in 12 words or less that is unique to my role:
 
-Enable the CEO to achieve even greater results for GitLab. 
+Enable the CEO to achieve even greater results for GitLab.
 
 ## Communication preferences
 

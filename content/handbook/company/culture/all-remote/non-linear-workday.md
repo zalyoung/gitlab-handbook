@@ -44,7 +44,7 @@ Perhaps the most useful approach to describing a non-linear workday is to share 
 
 - By 3:00 PM, Darren and his family ski back to the car, refreshed after an exhilarating day. Given that they're departing the mountain before rush hour has any impact on traffic, they're back to their rental apartment by 3:30 PM.
 
-- After a shower and an early dinner, Darren logs back on to work at 4:30 PM, enthused to tackle ongoing projects and help move issues forward. But first, he shares a few photos he grabbed while skiing — something that is encouraged when you operate in a [non-judgemental culture](mental-health/#create-a-non-judgemental-culture) and measure people on [results, not hours]({{< ref "remote-values#results" >}}). Though working remotely with hundreds of colleagues across six continents, this deliberate approach to [informal communication](informal-communication/) creates personal bonds that are, in many ways, deeper than those formed in-office.
+- After a shower and an early dinner, Darren logs back on to work at 4:30 PM, enthused to tackle ongoing projects and help move issues forward. But first, he shares a few photos he grabbed while skiing — something that is encouraged when you operate in a [non-judgemental culture](mental-health/#create-a-non-judgemental-culture) and measure people on [impact, not activity]({{< ref "remote-values#results" >}}). Though working remotely with hundreds of colleagues across six continents, this deliberate approach to [informal communication](informal-communication/) creates personal bonds that are, in many ways, deeper than those formed in-office.
 
 - Because it's winter in Montana, it's fairly dark outside by 5:00 PM. Darren has maximized his daylight hours, and has time-shifted his working day to primarily occur during darkness. Given that he would likely be indoors during this time anyway, it's more conducive to work. There is no pull to leave and explore the outdoors when it is dark. Instead, it is an ideal time to work, despite the fact that resuming your work day while most others are ending theirs is incongruent with the conventional definition of routine.
 
@@ -74,7 +74,7 @@ A non-linear workday empowers team members to live and work both when and where 
 
 ### Autonomy
 
-Team members are given [agency](/handbook/values/#give-agency) to move projects forward on a schedule that suits them. Because GitLab [measures results, not hours](/handbook/values/#measure-results-not-hours), people are free to achieve results when it best suits them.
+Team members are given [agency](/handbook/values/#give-agency) to move projects forward on a schedule that suits them. Because GitLab [measures impact, not activity](/handbook/values/#measure-impact-not-activity), people are free to achieve results when it best suits them.
 
 ### Efficiency
 
@@ -168,7 +168,7 @@ The example detailed here would not have been possible without a few realities a
 
 - The company must work [handbook-first](/handbook/about/handbook-usage/#why-handbook-first), such that all meaningful takeaways from conversations are documented in their proper place, around the clock.
 - The company must embrace [asynchronous workflows](asynchronous/) (including [tools like GitLab](https://about.gitlab.com/stages-devops-lifecycle) as well as processes) in a deliberate, intentional, and thorough way.
-- The company must support a [non-judgemental culture](mental-health/#create-a-non-judgemental-culture), which measures team members on [results rather than hours]({{< ref "remote-values#results" >}}). This enables people to enter and exit work as they so choose, with no fear of retribution for doing something as unorthodox as skiing while everyone else works, and working while everyone else wishes they would've gone skiing.
+- The company must support a [non-judgemental culture](mental-health/#create-a-non-judgemental-culture), which measures team members on [impact rather than activity]({{< ref "remote-values#results" >}}). This enables people to enter and exit work as they so choose, with no fear of retribution for doing something as unorthodox as skiing while everyone else works, and working while everyone else wishes they would've gone skiing.
 - A personal dedication to being a [manager of one](/handbook/values/#managers-of-one), able to focus on the right tasks while working from a foreign environment.
 - An understanding that not every single day will look like this. Even masters of non-linear workdays recognize that some days are less amenable to midday excursions than others. Rather than being sour about that, embrace the thrill of it being possible at all, and put effort into structuring your upcoming schedule in a way that allows for such days. As a manager of one, you have to take control over (and be accountable for) your schedule. Otherwise, other forces of the world and work will control it for you.
 

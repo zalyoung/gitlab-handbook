@@ -100,7 +100,7 @@ We've gathered extra ways to attract top talent to your organization (Note: this
 1. Transparent policies for investing in and championing [diversity, inclusion & belonging](/handbook/values/#diversity-inclusion) (and published goals for improvement)
 1. Restricted stock units (RSU) or stock options
 1. Enhanced hiring bonuses and higher salaries
-1. Large annual bonuses based on performance (*remote work [measures results](/handbook/values/#measure-results-not-hours), not hours spent, input, or time-in-seat*)
+1. Large annual bonuses based on performance (*remote work [measures impact](/handbook/values/#measure-impact-not-activity), not activity, input, or time-in-seat*)
 1. Well-trained remote managers that default to [asynchronous workflows](asynchronous/) (*Confidently assuring prospective talent that they will endure fewer meetings and micromanagement is a solid way to differentiate from other employers.*)
 1. Publishing supportive policies which explicitly allow employees to create better [work/life harmony](people/#worklife-harmony) and put [family and friends before work](/handbook/values/#family-and-friends-first-work-second)
 1. Supporting (via time and money) learning for self-development

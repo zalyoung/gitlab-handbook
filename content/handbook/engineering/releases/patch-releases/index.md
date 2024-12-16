@@ -28,7 +28,7 @@ bug and vulnerability fixes.
 
 At GitLab, there are two types of patch releases processes:
 
-1. **Planned (default)**: An SLO-driven patch to publish all available bug and vulnerability fixes per 
+1. **Planned (default)**: An SLO-driven patch to publish all available bug and vulnerability fixes per
    the [GitLab maintenance policy](https://docs.gitlab.com/ee/policy/maintenance.html). Scheduled twice a month on
    the Wednesday before and after the [monthly release week](https://about.gitlab.com/releases/), planned patches comply
    with the [bug SLO](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#severity-slos) and

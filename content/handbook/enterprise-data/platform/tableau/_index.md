@@ -491,7 +491,7 @@ The Data Team will regularly review users' Tableau activity to determine if user
   - Have accessed a View within the past 90 days
   - Have accessed a Datasource within the past 90 days
 
-In addition to the guidelines above, we typically reserve Creator licenses for team members whose role is primarily Analytics-based (i.e. analysts within functional teams, and/or team members whose core responsibilities include developing reports for their team). 
+In addition to the guidelines above, we typically reserve Creator licenses for team members whose role is primarily Analytics-based (i.e. analysts within functional teams, and/or team members whose core responsibilities include developing reports for their team).
 
 Inactive licenses will be reclaimed quarterly following our [Data Health and Security practices](/handbook/enterprise-data/data-management/#tableau).
 
@@ -704,24 +704,24 @@ By following these steps, you’ll ensure that your Snowflake OAuth tokens are u
 
 GitLab team members who realize the full potential of analytical insights can do powerful things with data. But having a platform like Tableau and access to data isn't enough; we need to assure that our users are prepared to use Tableau effectively.
 
-<details markdown=1>
+### Official Training Resources
 
-<summary><b>Official Training Resources</b></summary>
+- [Free Tableau Training](https://www.tableau.com/learn/training)
+- [Tableau eLearning - Training Portal](https://elearning.tableau.com/): eLearning from Tableau is available for users with the Creator or Explorer license type
+  - Tableau eLearning access steps
+    1. Go to [explorer-elearning.tableau.com](https://explorer-elearning.tableau.com)
+    1. Create (or login to) your TableauID account
+    1. Confirm your email address via the TableauID confirmation email
+    1. Go to https://explorer-elearning.tableau.com and log on using your TableauID
+    1. Register at the Tableau Learning Center with the Access Code available [here](https://docs.google.com/document/d/1UPvTXZD3wgRpt7m_Hz9D53ZIt2hF7suHi6oggjbQa2I/edit?tab=t.0).
+    1. Start using eLearning by clicking on a Course or Learning Path.
+    1. Return to https://explorer-elearning.tableau.com to continue using Tableau eLearning.
 
-- [Free Training](https://www.tableau.com/learn/training)
-- [Training Portal](https://elearning.tableau.com/)
-  - eLearning from Tableau is available for users with the Creator or Explorer license type
-  - Request Access Code from Data Team. The BI Platform team will share the Access Code via email.
-  - New Creators without prior Tableau experience should complete the Tableau Fundamentals training course at the minimum. Tableau Intermediate is also recommended as a follow up course.
   - If you experience any issues accessing the training content, check [this page](https://support.skilljar.com/hc/en-us/articles/360033553054) for solutions to the most common problems.
 - [Tableau Community](https://community.tableau.com/s/)
 - [Tableau Support](https://www.tableau.com/support)
 - [Tableau Classroom training](https://trailheadacademy.salesforce.com/products/tableau#f-products=Tableau) & [Training Pass](https://www.tableau.com/tableau-training-pass)
   - These could be options for you to use as part of your [growth and development benefit](/handbook/people-group/learning-and-development/growth-and-development/). Bring this up with your manager during your [career development conversations](/handbook/people-group/learning-and-development/career-development/#what-is-career-development).
-
-</details>
-
-<details markdown=1>
 
 <summary><b>Third Party Training Resources</b></summary>
 
@@ -735,9 +735,9 @@ Note: training videos listed above are provided for free by third parties and th
 
 <details markdown=1>
 
-<summary><b>Minimum Training</b></summary>
+<summary><b>Recommended Training</b></summary>
 
-Below is the *minimum* recommended training course(s) and required time estimation for the following roles based on their responsibilities and required skill sets. For the full list of courses and learning paths please see our handbook section under Training by Roles:
+Below is the recommended training course(s) and required time estimation for the following roles based on their responsibilities and required skill sets. For the full list of courses and learning paths please see our handbook section under Training by Roles:
 
 Site Administrator
 
@@ -820,32 +820,6 @@ Tableau offers several [certifications](https://www.tableau.com/learn/certificat
 - [Creating a Tableau Data Source: Full Walkthrough](https://youtu.be/3EDvGoMn4sw)
 
 </details>
-
-### E-learning Access Instructions
-
-#### Explorer
-
-Explorer: Below are your instructions on how to access eLearning for Explorer.
-
-1. Go to [explorer-elearning.tableau.com](https://explorer-elearning.tableau.com)
-2. Create (or login to) your TableauID account
-3. Confirm your email address via the TableauID confirmation email
-4. Go to https://explorer-elearning.tableau.com and log on using your TableauID
-5. Register at the Tableau Learning Center with Access Code: This should have been DM'd to you by your Tableau provisioner, if not please Slack the provisioner directly
-6. Start using eLearning by clicking on a Course or Learning Path.
-7. Return to https://explorer-elearning.tableau.com to continue using Tableau eLearning.
-
-#### Creator
-
-Creator: Below are your instructions on how to access eLearning for Creator.
-
-1. Go to https://elearning.tableau.com
-2. Create (or login to) your TableauID account
-3. Confirm your email address via the TableauID confirmation email
-4. Go to https://elearning.tableau.com and log on using your TableauID
-5. Register at the Tableau Learning Center with this Access Code: This should have been DM'd to you by your Tableau provisioner, if not please Slack the provisioner directly
-6. Start using eLearning by clicking on a Course or Learning Path.
-7. Return to https://elearning.tableau.com to continue using Tableau eLearning.
 
 ## Support
 

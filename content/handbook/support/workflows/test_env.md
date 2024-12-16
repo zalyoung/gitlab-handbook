@@ -36,6 +36,21 @@ Please keep in mind *you can't generate licenses for customers*, only for your o
 
 Note that when using some AWS Marketplace resources, free trials (including GitLab Ultimate) may automatically renew. You should always prefer using test licenses, but ensure that you [cancel any AWS Marketplace subscriptions](https://aws.amazon.com/premiumsupport/knowledge-center/cancel-marketplace-subscription/) if you trial anything for testing purposes.
 
+## Testing on GitLab.com
+
+As noted in [Testing Environment License](#testing-environment-license), you will have received licensed namespaces for testing on GitLab.com as part of your onboarding.
+
+You will be added as `Owner` in these groups and can make changes at-will, including inviting customers to specific projects as you collaborate with them.
+
+- **Avoid** making the namespace public.
+  - *Instead* create a subgroup or project within your test namespace or a namespace unique to the customer case and assign them sufficient permissions to invite collaboration.
+
+- **Avoid** granting a customer permanent access.
+  - *Instead* set an access expiration date when you invite a customer.
+
+- **Avoid** using access tokens for your main GitLab account: a leak in a test project may not be automatically detected and can be used to traverse sensitive company namespaces.
+  - *Instead* try to use [Project Access Tokens](https://docs.gitlab.com/ee/user/project/settings/project_access_tokens.html) or [Group Access tokens](https://docs.gitlab.com/ee/user/group/settings/group_access_tokens.html). Otherwise, create a test account and use personal access tokens for it (If you do this, make sure the token is set to a expire within a maximum of 2 days).
+
 ## Cloud Testing Environments
 
 You can create (ephemeral) testing environments. We recommend using the support-resources project for doing so.

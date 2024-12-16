@@ -76,6 +76,7 @@ We operate using async communication by default. There are times when a sync dis
 ## 🔗 Useful Links
 
 * [Monthly Retros](https://gitlab.com/gl-retrospectives/data-science/ai-powered/duo-workflow)
+* [Duo Workflow troubleshooting](troubleshooting.md)
 
 ### 📝 Dashboards (internal only)
 

@@ -62,7 +62,7 @@ Please note that all Webcasts are considered webcasts with new content, which me
 
 ## Additional Virtual Event Details
 
-For more information on Virtual Event type comparisons, promotion, Zoom capabilities, participant engagement, etc., please visit the [Virtual Events page](/handbook/marketing/virtual-events/). For best practices and instructions on how to set up and run your event using Zoom, please visit the [Self-Service Virtual Events page](handbook/marketing/virtual-events/self-service-virtual-events/).
+For more information on Virtual Event type comparisons, promotion, Zoom capabilities, participant engagement, etc., please visit the [Virtual Events page](/handbook/marketing/virtual-events/). For best practices and instructions on how to set up and run your event using Zoom, please visit the [Self-Service Virtual Events page](/handbook/marketing/virtual-events/self-service-virtual-events/).
 
 ## Closed Captioning
 

@@ -721,7 +721,7 @@ If an opportunity meets the criteria listed above, but does not meet the Minimum
 
 #### EM Approval on Consulting Block quotes
 
-For quotes that contain the Professional Services SKU [consulting block](https://about.gitlab.com/services/skus/consulting-block/), the quote will require an approval from an Engagement Manager on the Professional Services team. If you are unsure of who your assigned engagement manager is, check out [the PS to Sales Mapping doc](https://docs.google.com/document/d/1sdehii3Eqp_CiYsGT3dDb0nKbbtwpxKQlni7t3ZgfCs/edit?tab=t.0#heading=h.1er41qhhpoj5) (Internal Team Mmembers only). 
+For quotes that contain the Professional Services SKU [consulting block](https://about.gitlab.com/services/skus/consulting-block/), the quote will require an approval from an Engagement Manager on the Professional Services team. If you are unsure of who your assigned engagement manager is, check out [the PS to Sales Mapping doc](https://docs.google.com/document/d/1sdehii3Eqp_CiYsGT3dDb0nKbbtwpxKQlni7t3ZgfCs/edit?tab=t.0#heading=h.1er41qhhpoj5) (Internal Team Mmembers only).
 
 ### Waived True-Ups: Policy and Approval Requirements
 
@@ -821,14 +821,15 @@ Once a user submits a quote for approval, it will follow the order of approvers 
   - `REJECT`
   - `REJECTED`
   - `NO`
-- Please note, shortly after the launch of Slack Approvals in May 2024, email approval alerts will be deprecated. An announcement will be sent to Field Managers upon removal of this feature.
 
-##### NEW IN FY25: Approve via Slack
+##### Approve via Slack
 
 ###### How It Works
 
 - Slack Approvals sends quote approval requests from Salesforce right to your Slack via the "Quote Approval Bot." As soon as a submitter clicks "Submit for Approval" on the quote object, the first approver will receive the request. After an approver actions their step, any subsequent approver(s) will receive their request in sequence until the quote is fully approved, or until a user rejects the quote. When it's your turn to approve, you'll be able to approve, reject, add comments, and monitor progression - all right in Slack. Each action writes back to Salesforce and leaves a timestamp - just like we're used to.
 - The Quote Approval Bot's Approval Dashboard conveniently lists all pending approval requests in one location. No more worrying you missed one!
+  - On the dashboard, click "Slack Approval Request Link" to navigate to the original approval request (where you can approve or reject within Slack), or click on the Quote URL to open Salesforce and review the quote there.
+  - This dashboard updates every 15 minutes.
 
 ###### Alert Types
 
@@ -836,21 +837,21 @@ Both submitters and approvers will receive alerts via the Quote Approval Bot as 
 
 **Approvers** will receive an Approval Request with key information about the opp and quote, links to Salesforce, and Approve/Reject buttons with comment functionality that writes back to Salesforce. Approvers will also receive Approval Alerts confirming they've approved, Rejection Alerts confirming they've rejected and Recall alerts notifying them when a quote pending their approval has been recalled in Salesforce.
 
-**Submitters** will receive Approval Alerts notifying them when each Approver has approved, Rejection Alerts notifying them that a quote has been rejected, and Final Approvla Alerts notifying them when a quote has been *fully approved* and an Order Form can be generated.
+**Submitters** will receive Approval Alerts notifying them when each Approver has approved, Rejection Alerts notifying them that a quote has been rejected, and Final Approval Alerts notifying them when a quote has been *fully approved* and an Order Form can be generated.
 
 ###### FAQ
 
 1. Will I still receive email notifications for quote approvals?
 
-   Yes, you will still receive email notifications initially. Eventually, email notifications will be turned off once all grown accustomed to Slack Approvals.
+   Yes, you will still receive email notifications. You may use either email or Slack.
 
 2. Does this work for chatter approval requests?
 
-   No, chatter approval requests will not be routed through Slack. In FY25 Q2/Q3 we will build all deal approvals into the quote approval tool, which will bring all approval requests into Slack and get us out of chatter. Stay tuned!
+   No, chatter approval requests will not be routed through Slack. As of FY25 Q4, all quote-level approvals should be routed through the quote approval tool.
 
 3. Can I still approve quotes directly in Salesforce?
 
-   Yes! If you approve directly in Salesforce, you will still receive a Slack alert confirming your approval.
+   Yes! If you approve directly in Salesforce, or if another user approves on your behalf, the original Slack approval request will update to reflect the "approved" status so that it is clear you don't need to action anything.
 
 4. Does this require any change in rep behavior?
 

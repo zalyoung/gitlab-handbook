@@ -458,7 +458,7 @@ Key points to remember:
 - These models should be organized by source - this will usually map to a schema in the raw database
 - The name of source models should end with `_source`
 - Only source models should select from source/raw tables
-- Source models should not select from the `raw` database directly. Instead, they should reference sources with jinja, e.g. `FROM {{ source('bamboohr', 'job_info') }}`
+- Source models should not select from the `raw` database directly. Instead, they should reference sources with jinja, e.g. `FROM {{ source('workday', 'job_info') }}`
 - Only a single source model should be able to select from a given source table
 - Source models should be placed in the `/models/sources/<data_source/` directory
 - Source models should perform all necessary data type casting, using the `::` syntax when casting (You accomplish the same thing with fewer characters, and it presents as cleaner).
@@ -1465,7 +1465,7 @@ For each model the queries executed are first filtered and aggregated. Only the 
 
 #### Local Storage Efficiency
 
-\\[E_l = min\{\frac{s-S_l}s,0\}\\]
+`\\[E_l = min\{\frac{s-S_l}s,0\}\\]`
 
 - Where \\(S_l\\) is the model Bytes Spilled to Local Storage
 - Where \\(E_l\\) is the model Local Storage Efficiency
@@ -1475,35 +1475,35 @@ The metric is calculated as the model bytes scanned less the model bytes spilled
 
 #### Remote Storage Efficiency
 
-\\[E_r = min\{\frac{s-S_r}s,0\}\\]
+`\\[E_r = min\{\frac{s-S_r}s,0\}\\]`
 
-- Where \\(S_r\\) is the model Bytes Spilled to Remote Storage
-- Where \\(E_r\\) is the model Remote Storage Efficiency
-- Where \\(s\\) is the model Bytes Scanned
+- Where `\\(S_r\\)` is the model Bytes Spilled to Remote Storage
+- Where `\\(E_r\\)` is the model Remote Storage Efficiency
+- Where `\\(s\\)` is the model Bytes Scanned
 
 The metric is calculated as the model bytes scanned less the model bytes spilled to remote storage divided by the model bytes scanned and limited to values between 0 and 1. This calculation allows for a number that is independent of other models but still comparable to other models.
 
 #### Partition Scan Efficiency
 
-\\[E_p = if\ p\ >\ 1\ then\ min\{\frac{p-S_p}p,0\}\ else\ 1\\]
+`\\[E_p = if\ p\ >\ 1\ then\ min\{\frac{p-S_p}p,0\}\ else\ 1\\]`
 
-- Where \\(S_p\\) is the model Partitions Scanned
-- Where \\(E_p\\) is the model Partition Scan Efficiency
-- Where \\(p\\) is the model Total Partitions
+- Where `\\(S_p\\)` is the model Partitions Scanned
+- Where `\\(E_p\\)` is the model Partition Scan Efficiency
+- Where `\\(p\\)` is the model Total Partitions
 
 If there is more than one model partition then the metric is calculated as the model total partitions less the model partitions scanned divided by the model total partitions and limited to values between zero and one, otherwise the metric value is set to one.  This calculation allows for a number that is independent of other models but still comparable to other models.  It is expected that most models will not be able to achieve a partitions scan efficiency value of one as some number of partitions will always need to be scanned, but efforts should be made to improve the metric as much as possible.
 
 #### Efficiency Score
 
-\\[E = [(E_l * w_l) + (E_r * w_r) + (E_p * w_p)]*100\\]
+`\\[E = [(E_l * w_l) + (E_r * w_r) + (E_p * w_p)]*100\\]`
 
-- Where \\(E\\) is the model Efficiency Score
-- Where \\(E_p\\) is the model Partition Scan Efficiency
-- Where \\(E_r\\) is the model Remote Storage Efficiency
-- Where \\(E_l\\) is the model Local Storage Efficiency
-- Where \\(w_p\\) is the model Partition Scan Efficiency weight
-- Where \\(w_r\\) is the model Remote Storage Efficiency weight
-- Where \\(w_l\\) is the model Local Storage Efficiency weight
+- Where `\\(E\\)` is the model Efficiency Score
+- Where `\\(E_p\\)` is the model Partition Scan Efficiency
+- Where `\\(E_r\\)` is the model Remote Storage Efficiency
+- Where `\\(E_l\\)` is the model Local Storage Efficiency
+- Where `\\(w_p\\)` is the model Partition Scan Efficiency weight
+- Where `\\(w_r\\)` is the model Remote Storage Efficiency weight
+- Where `\\(w_l\\)` is the model Local Storage Efficiency weight
 
 The compound score is calculated as the weighted average of the `Local Storage Efficiency`, `Remote Storage Efficiency`, and `Partition Scan Efficiency` metrics. The metric weights are determined arbitrarily by the needs and focus of the business.
 

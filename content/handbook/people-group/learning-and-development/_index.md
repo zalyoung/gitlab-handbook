@@ -43,8 +43,7 @@ title: Learning & Development
 We are a small team, but we've got a big role to play at GitLab!
 
 - [Learning and Development Director](/job-families/people-group/learning-development#learning--development-manager): [Tre Ely]({{/handbook/company/team/#tely2}})
-- [Senior Learning and Development Program Manager](/job-families/people-group/learning-development#intermediate-learning--development-program-manager): [Samantha Lee](/handbook/company/team/#slee24)
-- [Learning and Development Program Manager](/job-families/people-group/learning-development#intermediate-learning--development-program-manager): [Jamie Allen](/handbook/company/team/#jallen16)
+- [Senior Learning and Development Program Manager](/job-families/people-group/learning-development#intermediate-learning--development-program-manager): [Jamie Allen](/handbook/company/team/#jallen16)
 
 ## Team Member Resources
 
@@ -69,7 +68,6 @@ The Learning & Development team has a number of resources to help team members l
 <div class="flex-row" markdown="0">
   <div>
     <a href="{{< ref "level-up" >}}" class="btn btn-primary" style="width:200px;margin:5px;">Level Up</a>
-    <a href="{{< ref "compliance-courses" >}}" class="btn btn-primary" style="width:200px;margin:5px;">Compliance Courses</a>
   </div>
 </div>
 
@@ -172,7 +170,7 @@ The L&D team freqently uses the following tools for creating and communicating l
 
 ### Learning Content Accessibility Guidelines
 
-In July 2024, GitLab published the first iteration of our [Learning Content Accessibility Guidelines](handbook/legal/ethics-compliance-program/learning-content-accessibility-guidelines/).
+In July 2024, GitLab published the first iteration of our [Learning Content Accessibility Guidelines](/handbook/legal/ethics-compliance-program/learning-content-accessibility-guidelines/).
 
 We ask that team members who create both internal and external learning content:
 
