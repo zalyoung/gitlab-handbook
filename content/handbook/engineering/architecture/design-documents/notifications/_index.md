@@ -85,6 +85,8 @@ We should verify reaching this goal, by adding a new todo to the system, possibl
 
 ### Make todos respect notification settings
 
+This is tracked in https://gitlab.com/gitlab-org/gitlab/-/issues/320912.
+
 ```
 TODO: Add more detail to this section:
 
