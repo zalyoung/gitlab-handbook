@@ -63,7 +63,15 @@ Use this coffee chat to express to them your interest in people leadership as we
 
 During the program, you will:
 
-1. Experience a "day in the life" of an SA people leader to better gauge interest in pursuing a leadership role in the future
+1. Experience a "day in the life" of an SA people leader to better gauge interest in pursuing a leadership role in the future. These are some of the things you will see during your shadowing. Disclaimer: some of these activities may not always be doable for many reasons. 
+    Learn to make data driven decisions by:
+    a. Participate to 1 deal review session with the Geo SA leaders 
+    b. Participate to a 1-2-1 (if we can find SAs who are comfortable about having someone to shadow), 
+    c. Run a data analysis review of the region to highlight patterns in the execution of the team
+    Learn to hire a high performing team
+    d. Participate to a hiring manager interview/panel
+    Learn how to provide actionable feedback
+    e. Providing actionable feedback to the SA leader of your observations
 2. Gain greater exposure to GitLab's SA people leaders and their decision-making processes
 3. Work on developing the [skills required](/job-families/sales/solutions-architect/#manager-solutions-architects-responsibilities) to become an SA people leader
 
@@ -78,6 +86,22 @@ During the program, you will:
 | Sales Strategy | Attend at least 3 sales forecasting calls |
 | Mentorship | Assign yourself as a mentor |
 | Personal Development | Identify key areas of growth and work with a mentor on growing areas in monthly cadenced meetings |
+
+## Suggested reading
+
+[Leaders eact last](https://simonsinek.com/books/leaders-eat-last/)
+[Tribes](https://www.amazon.it/Tribes-We-Need-You-Lead/dp/1591842336)
+[Empathy: Why it matters](https://www.amazon.com/Empathy-Why-Matters-How-Get/dp/0399171401)
+[The Speed of Trust](https://speedoftrust.com/)
+[The Culture Map](https://www.amazon.co.uk/Culture-Map-Decoding-People-Cultures/dp/1610392760?pd_rd_w=P7BoC&content-id=amzn1.sym.ec8f623a-d4f7-4017-b387-58abf6ea18ca&pf_rd_p=ec8f623a-d4f7-4017-b387-58abf6ea18ca&pf_rd_r=59XH7ARR3R406KVPJ79G&pd_rd_wg=DCguM&pd_rd_r=753167c2-5900-4c19-b32f-537fbbf73058&pd_rd_i=1610392760)
+[The Chimp Paradox](https://www.amazon.com/Chimp-Paradox-Impulses-Determine-Happiness/dp/009193558X)
+[The Sales Engineer Manager's Handbook](https://www.amazon.co.uk/gp/product/B087GKLVBZ/ref=kinw_myk_ro_title)
+[Multipliers](https://www.amazon.co.uk/gp/product/B01KT18416/ref=kinw_myk_ro_title)
+[The Making of a Manager](https://www.amazon.co.uk/gp/product/B07DXGGDCQ/ref=kinw_myk_ro_title)
+[Team Topologies](https://www.amazon.co.uk/gp/product/B09JWT9S4D/ref=kinw_myk_ro_title)
+[How To Win Friends and Influence People](https://www.amazon.co.uk/gp/product/B07FY2WWZG/ref=kinw_myk_ro_title)
+[The Challenger Sale](https://www.amazon.com/Challenger-Sale-Control-Customer-Conversation/dp/1591844355/ref=sr_1_1?crid=1R47T9R3OXW2O&dib=eyJ2IjoiMSJ9.b2GpG6Bth1nvC0dnBNNhs-NlvKFJFO_IX9eN7bYqcw-2zWIHZveWBb_gdF_xxEY7g6FqlwMgljuwZMmkHjrKBb_c3lMVWuXoOTnM0539Loquzuny_t6zSUQ4fh-hv8LYEH2kPFQbEJvTyEe00SttSFaRw-YjznMCVkndai4sG1cqnAoBU8tJVKUpHMnl1eH4bl2YCcIg4jRmjjPMGzbf-8pxhJh1L4KJuVnnBhQxt-o.ON7BWwuTILo5LUwZ7F7hoUn_up45l5mrzS3UXCAnaAQ&dib_tag=se&keywords=the+challenger+sales&qid=1732094566&s=books&sprefix=the+challenger+sales%2Cstripbooks-intl-ship%2C198&sr=1-1)
+[The Qualified Sales Leader](https://www.amazon.co.uk/dp/B09236J2XX/ref=pe_33573471_635671331_TE_M1DP)
 
 ## Other shadow programs
 
