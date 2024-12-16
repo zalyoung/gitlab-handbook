@@ -1,6 +1,5 @@
 ---
 title: Legal & Corporate Affairs ("LACA")
-description: Information regarding the Legal & Corporate Affairs Team
 ---
 
 ## Our Mission
