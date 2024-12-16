@@ -145,6 +145,7 @@ We will need to adopt different approaches for each [major stage](_index.md#cell
 As we discuss forming and migrating Organizations it's important to call out that top-level groups will retain their access URL as they move between Organizations. For example, when a customer's top-level groups are moved from the [Default Organization](../organization/_index.md#default-organization) to and Organization of thier own they methods of access are unchanged. This means bookmarks, git remote URLs, etc .. for projects in these top-level groups remain unchanged and require no action from users or updates to automation after a migration.
 
 ### Cells 1.0
+
 Cells 1.0 will use [Direct Transfer (DT)](https://docs.gitlab.com/ee/user/group/import/) to move internal top-level groups to a separate Organization. 
 
 We still need to evaluate and address any gaps but this is the only option available in this timeframe.
@@ -157,7 +158,6 @@ Limitations:
 
 - Only top-level groups can be moved between organizations.
 - New IDs will be generated which will break automation and integrations - This is acceptable since we will only be moving a limited set of internal top-level groups.
-
 
 ### Cells 1.5
 
