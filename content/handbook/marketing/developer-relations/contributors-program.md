@@ -159,3 +159,18 @@ By forming partnerships across the industry we build a pipeline of potential use
 * Events:
   * GitLab Hackathon
   * RubyConf25
+
+### Resource needs
+
+* Merge Request Coaches
+  * Review merge requests
+  * Support contributors to complete merge requets
+  * Triage and find reviewers
+  * Mentor contributors and help level them up
+* Community forks maintainers
+  * Managing access requests
+  * Onboarding new contributors
+  * Guiding towards first issues
+* Discord
+  * Support for contributors
+  * Moderators
