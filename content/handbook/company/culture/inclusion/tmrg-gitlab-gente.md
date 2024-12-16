@@ -97,15 +97,11 @@ Learn more about the Gente community
 3. [Mentoring at GitLab](/handbook/people-group/learning-and-development/mentor/) - Mentorship is an opportunity to learn from personal experience, background, and perspective. Mentorship builds trust, provides a safe space to make mistakes, and encourages growth for both the mentor and mentee. Reach out in the `#mentoring` Slack channel with questions or feedback.
 4. [GitLab Company-Wide Mentorship Program](/handbook/people-group/learning-and-development/mentor/company-program/) - Applications are currently closed. Fill out [this](https://docs.google.com/forms/d/e/1FAIpQLSf5yUA-H0RSeQSA8gj3_2mcdzZJkKLCsU-be-Ygdw5KfCSVLw/viewform) Google form to be notified of mentorship programs happening in FY24!
 
-
 ## Organizing a Cafecito 
 
-* Make a calendar event. We need to define the process regarding making sure we have the budget to start the event. Usually, this involves reaching out to Liam on the DIB Team and asking if we have enough budget for this. For now, we use Pilar Mejia as a proxy for that, but we should improve this process to be Pilar Mejia independent. 
-TMRG Budget Forecast
-* We recommend 2 time zones to cover different folks around the world - We don’t have specific guidelines on picking. Gente team members tend to be located in AMER and EMEA, so prioritize those times. If possible, try to accommodate time zones that may not be as friendly for that. Logistically speaking, however, that may not be possible.  You may check people’s calendars to see if folks are generally free across different countries and time zones. 
-* Make an event with the following description: 
-  * For members attending our Cafecito...
-  * You are welcome to expense a drink and snack of your choice up to $25 USD in Navan. We encourage supporting your local Latine-owned business!
-  * You can search for Latine-owned businesses via Yelp for example
-  * Please ensure your receipt reflects the date of the event (Date: December TBD). The expensive type is “Work from home”. Add the classification “TMRG”  and add "TMRG Cafecito" in the notes section
-* Make sure to post in #gente to make sure that people are aware that this is happening! Try to give ideally at least a week time in advance so that people are aware that this is going on.
+- Make a calendar event. We need to define the process regarding making sure we have the budget to start the event. Usually, this involves reaching out to Liam on the DIB Team and asking if we have enough budget for this. For now, we use Pilar Mejia as a proxy for that, but we should improve this process to be Pilar independent. 
+  - When creating the invigation, invite `latinxtmrg@gitlab.com` which is an alias for the folks registered into the Google Group. Depending on the visibility of the event, you can add `GitLab Team Meetings` if we want to silently add to the company-wide calendar without pinging folks. For our cases, this has only been relevant for Hispanic Heritage Month.  
+- Update [TMRG Budget Forecast](https://docs.google.com/spreadsheets/d/1-BZrH1KsRBYl9r0EYEy6VXlKyvGGf585mwoj9Vz5rgA/edit?gid=1940877369#gid=1940877369)
+- We recommend 2 time zones to cover different folks around the world - We don’t have specific guidelines on picking. Gente team members tend to be located in AMER and EMEA, so prioritize those times. If possible, try to accommodate time zones that may not be as friendly for that. Logistically speaking, however, that may not be possible.  You may check people’s calendars to see if folks are generally free across different countries and time zones. 
+- Make an event with the following issue template: Link TBD MR pending
+- Make sure to post in #gente to make sure that people are aware that this is happening! Try to give ideally at least a week time in advance so that people are aware that this is going on.
