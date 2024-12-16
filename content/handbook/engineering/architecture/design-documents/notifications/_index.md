@@ -102,7 +102,11 @@ Either, by moving the todo service invocation into an existing email notificatio
 
 ### Shared base service
 
-Either way, at this stage we can develop a shared base service class that all our "email+todo" services can inherit from.
+```
+TODO: Add more detail to this section.
+```
+
+Develop a shared base service class that all our "email+todo" services can inherit from.
 
 This base service class should handle things like notification preferences etc.
 
@@ -112,6 +116,8 @@ Making sure all notification services have the same interface is also a prereque
 
 ### Event system
 
-Eventually we want to integrate into a global [Product event platform](https://gitlab.com/groups/gitlab-org/-/epics/14860).
+```
+TODO: Add more requirements and details.
+```
 
-Details TBD as it develops.
+Eventually we want to integrate into a global [Product event platform](https://gitlab.com/groups/gitlab-org/-/epics/14860).
