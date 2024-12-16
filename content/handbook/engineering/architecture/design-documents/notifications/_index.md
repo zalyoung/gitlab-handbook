@@ -75,8 +75,12 @@ With the rewrite of the To-Dos dashboard into a Vue app, we discovered (and crea
 
 Let's iterate and clean this up!
 
-1. https://gitlab.com/gitlab-org/gitlab/-/issues/509080+
-2. https://gitlab.com/gitlab-org/gitlab/-/issues/509083+
+1. https://gitlab.com/gitlab-org/gitlab/-/issues/509080
+2. https://gitlab.com/gitlab-org/gitlab/-/issues/509083
+
+Adding a new todo target or action type will be much simpler after this.
+
+🏁 **Adding a new type now should only require adding it to a single place in the backend.** (likely in `TodoPresenter`).
 
 #### Add another new todo type
 
