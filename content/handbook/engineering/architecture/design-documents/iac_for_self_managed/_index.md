@@ -14,118 +14,36 @@ participating-stages: []
 toc_hide: true
 ---
 
-<!--
-Before you start:
-
-- Copy this file to a sub-directory and call it `_index.md` for it to appear in
-  the design documents list.
-- Remove comment blocks for sections you've filled in.
-  When your document ready for review, all of these comment blocks should be
-  removed.
-
-To get started with a document you can use this template to inform you about
-what you may want to document in it at the beginning. This content will change
-/ evolve as you move forward with the proposal.  You are not constrained by the
-content in this template. If you have a good idea about what should be in your
-document, you can ignore the template, but if you don't know yet what should
-be in it, this template might be handy.
-
-- **Fill out this file as best you can.** At minimum, you should fill in the
-  "Summary", and "Motivation" sections.  These can be brief and may be a copy
-  of issue or epic descriptions if the initiative is already on Product's
-  roadmap.
-- **Create a MR for this document.** Assign it to an Architecture Evolutio
-  Coach (i.e. a Principal+ engineer).
-- **Merge early and iterate.** Avoid getting hung up on specific details and
-  instead aim to get the goals of the document clarified and merged quickly.
-  The best way to do this is to just start with the high-level sections and fill
-  out details incrementally in subsequent MRs.
-
-Just because a document is merged does not mean it is complete or approved.
-Any document is a working document and subject to change at any time.
-
-When editing documents, aim for tightly-scoped, single-topic MRs to keep
-discussions focused. If you disagree with what is already in a document, open a
-new MR with suggested changes.
-
-If there are new details that belong in the document, edit the document. Once
-a feature has become "implemented", major changes should get new blueprints.
-
-The canonical place for the latest set of instructions (and the likely source
-of this file) is [here](/content/handbook/engineering/architecture/design-documents/_template.md).
-
-Document statuses you can use:
-
-- "proposed"
-- "accepted"
-- "ongoing"
-- "implemented"
-- "postponed"
-- "rejected"
-
--->
-
 <!-- Design Documents often contain forward-looking statements -->
 <!-- vale gitlab.FutureTense = NO -->
 
 <!-- This renders the design document header on the detail page, so don't remove it-->
 {{< design-document-header >}}
 
-<!--
-Don't add a h1 headline. It'll be added automatically from the title front matter attribute.
-
-For long pages, consider creating a table of contents.
--->
-
 ## Summary
 
-There is a demonstrated appetite for automating the deployment and management of a GitLab instance, using industry-standard Infrastructure-as-Code (IaC) and Configuration Management (CM) tools. GitLab Environment Toolkit (GET) has filled this role so far, and has become a critical enablement tool in the success of self-managed customers as well as GitLab's own Dedicated and Cells initiatives. 
+There is a demonstrated appetite for automating the deployment and management of a GitLab instance, using industry-standard Infrastructure-as-Code (IaC) and Configuration Management (CM) tools. Our solution, GitLab Environment Toolkit (GET), is currently a critical enablement tool in the success of self-managed customers, as well as GitLab's own Dedicated and Cells initiatives.
 
-Improvements in this space will reduce operational burden and cost-of-ownership of GitLab.
+The next step in this journey is to continue building upon GET, and to enhance the operator experience by complimenting it with additional tools that reduce operational burden and lower the cost-of-ownership of GitLab.
 
-<!--
-This section is very important, because very often it is the only section that
-will be read by team members. We sometimes call it an "Executive summary",
-because executives usually don't have time to read entire documents like this.
-Focus on writing this section in a way that anyone can understand what it says,
-the audience here is everyone: executives, product managers, engineers, wider
-community members.
-
-A good summary is probably at least a paragraph in length.
--->
-
-
+To accomplish this, we need to develop a cohesive user journey around the "operator experience", and then the tools and resources required to incorporate it into the foundations of what we do.
 
 ## Motivation
 
-- Pool our existing efforts and tooling into a cohesive strategy.
-- Provide a more solid foundation for Dedicated and Cells, which leverage our existing IaC tooling (GET)
-- Provide a better experience for all GitLab operators.
-- Reduce support cases related to deployment and upgrade frustration
+GET and Reference Architectures (RAs) are frequently used tools for enabling customer success, as well as being leveraged internally by major cornerstone projects like GitLab Dedicated and the Cells initiative. They are also the downstream sum of GitLab's performance, and GitLab's operational expertise. They cannot be developed or improved in a vacuum.
+
+In order to make meaningful improvements into the future, we have to build a vision, a strategy, and enable everyone to contribute.
+
+Top-to-bottom incorporation of operational excellence will reduce cost-of-ownership, by better facilitating Day 2 operations, and potential cost-savings through championing elasticity of the product.
 
 (Add some of the motivating Issues here)
-<!--
-This section is for explicitly listing the motivation, goals and non-goals of
-this document. Describe why the change is important, all the opportunities,
-and the benefits to users.
-
-The motivation section can optionally provide links to issues that demonstrate
-interest in a document within the wider GitLab community. Links to
-documentation for competing products and services is also encouraged in cases
-where they demonstrate clear gaps in the functionality GitLab provides.
-
-For concrete proposals we recommend laying out goals and non-goals explicitly,
-but this section may be framed in terms of problem statements, challenges, or
-opportunities. The latter may be a more suitable framework in cases where the
-problem is not well-defined or design details not yet established.
--->
 
 ### Goals
 
 - Improve the elasticity of GitLab by driving awareness and accountability of GitLab at scale -- large AND small.
 - Define and develop an IaC/Config Management strategy, and tooling where appropriate, particularly for self-managed customers.
 - Provide tooling that can be extended to enable efficient fleet management of multiple GitLab instances.
-- Is not a competitor and does not supersede GitLab Operator (of the Kubernetes variety). It should be a support/value add to, and possibly additional enabler of, its functionality.
+- This concept is not a competitor to, and does not supersede, the GitLab Operator (of the Kubernetes variety). It should be a support/value add to, and possibly additional enabler of, its functionality.
 - Find a way to distill GitLab's extensive experience at running GitLab into tools, components, and documentation which can be adopted into the workflows of other organizations, and promote/enhance the offerings like this that we already have.
 
 <!--
