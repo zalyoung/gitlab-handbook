@@ -106,12 +106,10 @@ flowchart
 
 ### Points of interest
 
-* After `StoreGroupedScansService` finishes it's execution, security report
-  artifacts are no longer referenced, so the names `IngestReportsService`,
-  `IngestReportService`, and `IngestReportSliceService` are in fact all misnomers.
-  We should change their names to reference _findings_ instead.
+* Rename `IngestReportsService`, `IngestReportService`, and `IngestReportSliceService` to avoid usage of the term `reports`.
 * [CycloneDX reports are not considered security finding sources](https://gitlab.com/gitlab-org/gitlab/blob/313de920ee86ddf30d1fa6872b1d05ce3e277e02/ee/app/models/ee/ci/pipeline.rb#L60-L64), but this assumption no longer holds true.
 * Rename [can_store_security_reports?] to [can_store_security_scans?]
+* `Security::Scan` depends on security reports to find the [primary scanner](https://gitlab.com/gitlab-org/gitlab/blob/5a6f937be735771e8f235e02956977ae7a15e8f7/ee/app/models/security/scan.rb#L126).
 
 
 ### Process changes
