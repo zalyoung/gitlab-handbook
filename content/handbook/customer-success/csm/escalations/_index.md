@@ -13,7 +13,7 @@ Escalations can take at least two different forms:
 1. Account Escalation.  This occurs when the customer expresses or a GitLab team member identifies that a customer is facing a challenging situation that may or may not relate to a specific support ticket. Anyone in GitLab can [open an account escalation](#opening-the-escalation) and [circulate it to the leadership of the appropriate group to find a DRI](#escalation-dri).
 1. Support Ticket Attention Requests (STAR).  This occurs when an open support ticket is deemed moving too slowly.
 
-The purpose of this handbook entry is to describe the process for account escalations.  Please see the [Support Ticket Attention Requests](/handbook/support/internal-support/support-ticket-attention-requests/) for details on how to request a support ticket escalation.
+The purpose of this handbook entry is to describe the process for account escalations.  Please see the [Support Ticket Attention Requests](/handbook/support/internal-support/support-ticket-attention-requests/) for details on how to request a support ticket escalation. For a detailed walkthrough of the process, please login to GitLab Unfiltered and view this [video](https://youtu.be/-nDaRndgy4Y).
 
 ## Objective
 
@@ -220,6 +220,14 @@ Tips & Tricks:
   - Copy that Escalation Closure update and post in the `#escalated_customers` slack channel.
   - Archive the temporary Slack channel
   - Update the customer's CSM Sentiment in Gainsight to reflect the new state of the account.
+
+- Gainsight Escalation Closure question template: 
+
+Please provide a closure update answering the following questions:
+
+1. Did the at-risk situation end with a positive outcome, negative outcome, or no outcome?
+1. Were the defined exit criteria met?
+1. Give a brief summary of the actions of the team that helped close out this at-risk ticket
 
 ## CSM Manager's role in Escalations
 
