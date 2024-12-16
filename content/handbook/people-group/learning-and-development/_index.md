@@ -43,6 +43,7 @@ title: Learning & Development
 We are a small team, but we've got a big role to play at GitLab!
 
 - [Learning and Development Director](/job-families/people-group/learning-development#learning--development-manager): [Tre Ely]({{/handbook/company/team/#tely2}})
+- [Senior Learning and Development Program Manager](/job-families/people-group/learning-development#intermediate-learning--development-program-manager): `vacant`
 - [Senior Learning and Development Program Manager](/job-families/people-group/learning-development#intermediate-learning--development-program-manager): [Jamie Allen](/handbook/company/team/#jallen16)
 
 ## Team Member Resources
@@ -59,31 +60,18 @@ The Learning & Development team has a number of resources to help team members l
 
 <div class="flex-row" markdown="0">
   <div>
-    <a href="{{< ref "leadership-chats" >}}" class="btn btn-primary" style="width:200px;margin:5px;">Leadership Chats</a>
     <a href="{{< ref "learning-initiatives" >}}" class="btn btn-primary" style="width:200px;margin:5px;">Learning Initiatives</a>
     <a href="{{< ref "self-paced-learning" >}}" class="btn btn-primary" style="width:200px;margin:5px;">Self Paced Learning</a>
-  </div>
-</div>
-
-<div class="flex-row" markdown="0">
-  <div>
     <a href="{{< ref "level-up" >}}" class="btn btn-primary" style="width:200px;margin:5px;">Level Up</a>
+
   </div>
 </div>
 
 <div class="flex-row" markdown="0">
   <div>
+    <a href="{{< ref "elevate-programs" >}}" class="btn btn-primary" style="width:200px;margin:5px;">Elevate Manager Training</a>
     <a href="{{< ref "mentor" >}}" class="btn btn-primary" style="width:200px;margin:5px;">Mentorship</a>
     <a href="{{< ref "coaching" >}}" class="btn btn-primary" style="width:200px;margin:5px;">Coaching</a>
-    <a href="{{< ref "slack-training" >}}" class="btn btn-primary" style="width:200px;margin:5px;">Slack Training</a>
-  </div>
-</div>
-
-<div class="flex-row" markdown="0">
-  <div>
-    <a href="/handbook/sales/field-manager-development" class="btn btn-primary" style="width:200px;margin:5px;">Field Manager Development</a>
-    <a href="{{< ref "speakers" >}}" class="btn btn-primary" style="width:200px;margin:5px;">Learning Speaker Series</a>
-    <a href="{{< ref "elevate-programs" >}}" class="btn btn-primary" style="width:200px;margin:5px;">Elevate Manager Training</a>
   </div>
 </div>
 
