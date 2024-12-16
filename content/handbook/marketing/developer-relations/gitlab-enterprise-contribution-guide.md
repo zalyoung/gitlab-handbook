@@ -48,7 +48,7 @@ For Premium/Ultimate features in the Enterprise Edition living in [the EE folder
 
 2. **If No Corporate CLA Exists**
    - Discuss with your manager if contributing to EE features aligns with company goals
-   - Connect with GitLab's Contributor Success team in Discord (#contribute channel) or vial email `contributors@gitlab.com.`
+   - Connect with GitLab's Contributor Success team in Discord (#contribute channel) or via email `contributors@gitlab.com.`
    - The Team will guide you through the Corporate CLA process
 
 Remember: You can always start contributing to MIT-licensed code while the Corporate CLA process is in progress!
@@ -109,7 +109,7 @@ The program sets you and the your company up for continued contribution to GitLa
 
 ### Events and Community Engagement 🎯
 
-- **Hackathons**: Join our [GitLab Hackathons](https://about.gitlab.com/community/hackathon/) to work on larger features
+- **Hackathons**: Join our [Quarterly GitLab Hackathons](https://about.gitlab.com/community/hackathon/)
 - **Community Events**: Attend [virtual meetups and office hours](https://www.meetup.com/gitlab-virtual-meetups/)
 - **Stay Updated**: Subscribe to our [Community Newsletter](https://about.gitlab.com/community/newsletter/)
 
