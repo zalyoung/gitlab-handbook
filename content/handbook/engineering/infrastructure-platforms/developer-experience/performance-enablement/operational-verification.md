@@ -1,5 +1,5 @@
 ---
-title: Deployment Verification
+title: Operational Verification
 ---
 
 ## Overview
