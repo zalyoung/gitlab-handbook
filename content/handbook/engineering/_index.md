@@ -151,7 +151,11 @@ The process below helps to clarify and expand upon the [Flexible PTO Policy](/ha
 
 #### 1. Creating an Engineering coverage issue
 
-PTO longer than 5 consecutive days during a given milestone should not be requested after planning for that milestone has been completed to prevent disrupting the plans for that milestone. There may be exceptions due to urgent scenarios or other reasons that should be discussed with your manager (e.g. team / individual hit their targets earlier in that milestone [because we measure impact, not activity](/handbook/values/#measure-impact-not-activity) or if there is a strong need of the team member to take that PTO).
+Once planning for a milestone has been completed, PTO for periods longer than 5 consecutive days cannot be requested. This is to prevent disrupting plans for that milestone. There are exceptions to this, but all need to be discussed with your manager. Examples include:
+
+- urgent scenarios
+- a team/individual hits targets earlier in the milestone ([we measure impact, not activity](/handbook/values/#measure-impact-not-activity))
+- a strong need for a team member to take PTO of this length
 
 You can use [this issue template](https://gitlab.com/gitlab-com/engineering-division/pto-coverage/-/issues/new) to define handshake responsibilities. For extended leave, it is important to find one or more Directly Responsible Individuals (DRIs) that will be able to make decisions while you are away. This may be your manager, another engineer, or maybe the Product Manager for your team. The coverage issue should contain all the necessary information for the DRIs to make good decisions in your absence, so please make sure to include as much detail as needed. The coverage issue should highlight work impact estimates, mitigations identified, and coverage alternatives.
 
@@ -169,7 +173,7 @@ Consider whether any new commitments would be affected by your planned PTO. If a
 
 Once the team member has shared their coverage issue with their manager, the manager will review the coverage issue and validate assumptions with stakeholders or impacted project DRIs as needed.
 
-The manager will make a decision on approval or discuss different arrangements or other contingency plans. Once the team members manager is comfortable with the coverage issue and time off, they will add a comment to the coverage issue indicating so.
+The manager will make a decision on approval or discuss different arrangements or other contingency plans. Once the manager leaves a comment on the coverage issue approving the leave, enter the time off into Workday.
 
 #### 4. Communicate your time off
 
