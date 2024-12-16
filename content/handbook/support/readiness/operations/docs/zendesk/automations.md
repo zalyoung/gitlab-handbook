@@ -38,30 +38,9 @@ exactly.
 
 #### Creating a new automation without managed content
 
-This is a bit simpler than creating one with managed content. You will start by
-creating a placeholder automation within Zendesk itself (as you will need the ID
-for the sync repo). To do this, open up the admin page of your corresponding
-Zendesk instance ([Global](https://gitlab.zendesk.com/admin) or
-[US Government](https://gitlab-federal-support.zendesk.com/admin)), click
-`Objects and rules` on the left-hand side, and then click `Automations`. On this
-page, you will want to click `Add automation`. This will bring up the new
-automation page.
-
-On this page, you will do the following:
-
-- Set the title to "Placeholder for ISSUE_LINK" (replacing `ISSUE_LINK` with the
-  link to the issue you are working out of).
-- Set `all` conditions of:
-  - `Ticket: Type` `is not` `Incident`
-  - `Ticket: Status category` `less than` `Solved`
-- Set an action of:
-  - `Ticket: Type` `Incident`
-
-After doing so, click the black `Create automation` button. You will then locate
-the placeholder automation you just created and get the ID value from it (if you
-click it, you can see it in the URL).
-
-From here, create the merge request in the sync repo project.
+As we manage our automations via sync repos, you simply need to create the
+automation file within the sync repo project. From there, the sync will create
+the automation itself within Zendesk.
 
 #### Updating an existing automation
 
