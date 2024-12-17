@@ -108,9 +108,9 @@ Below is the timeline for FY26:
 
 - Planning: 2024-11-01 to 2024-12-01
 - Calibrations: 2024-12-02 to 2025-01-03
-- Workday input by Director+: 2025-01-09 to 2025-01-17
-- PBP + E-Group Leader approvals: 2025-01-20 to 2025-01-21
-- Workday Approvals: 2025-01-22 to 2025-01-24
+- Workday input by Director+: 2025-01-09 to 2025-01-16
+- PBP + E-Group Leader approvals: 2025-01-17 to 2025-01-20
+- Workday Approvals: 2025-01-21 to 2025-01-24
 - Team member individual communication: 2025-01-27 to 2025-01-31 (after fully approved in Workday)
 - Effective date for promotions: 2025-02-01
 - After communicating 1:1 with individuals on or after 2025-02-01, updates can be posted publicly in #team-member-updates. **Managers should not communicate until Total Rewards communicates that the promotions are fully approved.**
