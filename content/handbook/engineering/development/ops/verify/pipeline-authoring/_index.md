@@ -118,6 +118,28 @@ We highly value user feedback! Please use the issue below to capture feedback an
 
 - [CI/CD Catalog Feedback](https://gitlab.com/gitlab-org/gitlab/-/issues/407556)
 
+## Community Contributions
+
+Pipeline authoring at GitLab involves a deep understanding of our CI/CD system and its intricate interactions with various components. This complexity can present challenges for those unfamiliar with the codebase and underlying architecture.
+
+We encourage community contributors to work on issues with the ~"seeking community contribution" label. These issues are specifically selected to provide a clear and manageable path for external contributions.
+
+Due to the inherent complexity of pipeline authoring, contributions to issues not marked for community contribution may require significant domain knowledge and familiarity with GitLab's internals. While we appreciate all contributions, Merge Requests for these issues may require more extensive review and may not be merged if they don't align with our architectural vision or best practices.
+
+### Guidance for Reviewers
+
+When reviewing Merge Requests from community contributors, please consider the following:
+
+- Issue Selection: Verify if the contribution addresses an issue labeled ~"seeking community contribution". If not, assess the complexity and required domain knowledge.
+- Mentorship: If the contribution shows promise but needs guidance, provide constructive feedback and consider offering mentorship to help the contributor succeed.
+- Clear Communication: Explain the rationale behind any required changes or decisions clearly and respectfully, ensuring the contributor understands the context and reasoning.
+
+If the issue picked up by the community does not have the ~'seeking community contribution' label and/or is too complex please consider using the following template:
+
+```markdown
+"Thank you for your interest in contributing to GitLab! We appreciate you taking the initiative to work on this. This particular area involves complexities that may require deeper domain knowledge of GitLab's CI/CD system. To ensure a smoother review process and increase the likelihood of your contribution being merged, we recommend focusing on issues with the ~'seeking community contribution' label. These are specifically curated for external contributors. A curated list of issues is available here: https://gitlab.com/gitlab-org/gitlab/-/issues/?sort=popularity&state=opened&label_name%5B%5D=group%3A%3Apipeline%20authoring&label_name%5B%5D=Seeking%20community%20contributions&first_page_size=100"
+```
+
 ## Group Meetings
 
 For every meeting, it is expected that it contains a list of agenda items to discuss along with the meeting notes when the meeting takes place. This will make it easier for people to catch up if they are unable to attend.
