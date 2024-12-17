@@ -59,7 +59,7 @@ The environment quickly highlights what custom configs, installation types, or v
   - 17.1 and later
   - 17.x
 
-### Solution OR Workaround
+### Solution and/or Workaround
 
 The solution section clearly lists the steps the user must follow to resolve the issue. You can preface the steps with a high-level summary. If there is a solution and a workaround, add the workaround as a level 3 (###) sub-heading.
 
