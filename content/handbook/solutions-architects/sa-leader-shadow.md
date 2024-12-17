@@ -89,7 +89,7 @@ During the program, you will:
 
 ## Suggested reading
 
-[Leaders eact last](https://simonsinek.com/books/leaders-eat-last/)
+[Leaders Eat last](https://simonsinek.com/books/leaders-eat-last/)
 [Tribes](https://www.amazon.it/Tribes-We-Need-You-Lead/dp/1591842336)
 [Empathy: Why it matters](https://www.amazon.com/Empathy-Why-Matters-How-Get/dp/0399171401)
 [The Speed of Trust](https://speedoftrust.com/)
