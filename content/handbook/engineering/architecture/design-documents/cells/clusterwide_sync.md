@@ -40,7 +40,7 @@ All other cells will be followers:
 
 Central service:
 
-1. The Central service recieves rows from the leader cell.
+1. The Central service receives rows from the leader cell.
 1. The Central service publishes rows to follower cells.
 
 Syncing process:
