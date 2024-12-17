@@ -6,8 +6,9 @@ authors: [ "@nrosandich" ]
 coach: "@darbyfrey"
 approvers: [  ]
 owning-stage: "~devops::software supply chain security"
-participating-stages: ["~group::runner", "~devops::verify]
+participating-stages: ["~group::runner", "~devops::verify"]
 toc_hide: true
+no_list: true
 ---
 
 {{< design-document-header >}}
