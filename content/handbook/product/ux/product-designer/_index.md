@@ -69,23 +69,6 @@ Product Designers need to assess how their work impacts other parts of the produ
 - **Identify and involve the DRI**: Determine the [Directly Responsible Individual (DRI)](/handbook/people-group/directly-responsible-individuals/) for the product area you are working on and involve them from the start. If unsure, consult the [Product Categories Handbook page](/handbook/product/categories/).
 - **Review product kickoff**: Check the [Product Kickoff Review](https://about.gitlab.com/direction/kickoff/) to see the list of issues planned for next release in other stages.
 
-### Designing with AI
-
-When designing AI solutions, Product Designers need to approach the process thoughtfully to ensure that the technology enhances the user experience and meets strategic objectives.
-
-Here are some resources to help you contribute to the design of AI-assisted features across the platform:
-
-- [AI-human interaction in Pajamas](https://design.gitlab.com/usability/ai-human-interaction): Documentation on best practices for AI-human interaction.
-- [AI Integration Effort FAQ](https://internal.gitlab.com/handbook/product/ai-strategy/ai-integration-effort/faq/): Internal handbook with frequently asked questions about AI integration efforts. **Internal handbook 🔒**
-- [UX maturity requirements](/handbook/product/ai/ux-maturity/): Documentation on the UX maturity requirements to move AI features from Experiment to Beta to Generally Available (GA).
-- [Experiment, Beta, and Generally Available features](https://docs.gitlab.com/ee/policy/development_stages_support.html): Guidelines on the different stages of feature availability.
-- [UX research in the AI space](/handbook/product/ux/ux-research/research-in-the-AI-space/): Documentation on conducting UX research in the AI domain.
-- [Epic: UX of AI Integration](https://gitlab.com/groups/gitlab-org/-/epics/10269): A GitLab epic tracking the UX of AI integration.
-- [AI prototypes in Figma](https://www.figma.com/file/s4TP1i2Akd1VTh4jhbg234/AI-prioritized-prototypes?type=design&node-id=1%3A79&t=SNUCGun6HHxi9LaY-1): Access AI prototypes in Figma.
-- [AI Project Proposal issue template](https://gitlab.com/gitlab-org/gitlab/-/issues/new?issuable_template=AI%20Project%20Proposal): Use this template to propose new AI projects.
-
-These resources will guide you through the process and best practices for designing and integrating AI features within the platform.
-
 ### Aiming towards "sophisticated simplicity"
 
 The visual design of GitLab has evolved from naive simplicity to sophisticated complexity. However, the ultimate goal is to achieve sophisticated simplicity ([Sophisticated Simplicity,  Marcel Weiher](https://blog.metaobject.com/2014/04/sophisticated-simplicity.html)). When designing, keep these three principles in mind:
@@ -335,3 +318,4 @@ For changes that affect Pajamas (GitLab's design system):
   - Create an issue to track and address the feedback.
 
 By following these steps, you ensure effective communication, collaboration, and continuous improvement in the design and development process.
+
