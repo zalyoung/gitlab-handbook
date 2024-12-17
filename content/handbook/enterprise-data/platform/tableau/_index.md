@@ -296,8 +296,6 @@ Each section below corresponds to a limited access user group and the designated
 
 - **People Restricted Access:** Please work with the People Analytics team and/or Adrian Perez @aperez349 for access approval.
 
-- \***RSA SAFE Access:** This group is for the Revenue Strategy and Analytics team and is restricted because analysis performed are confidential planning efforts that may impact people roles. Please work with the Sales Strategy team and/or Olga Falkenhof @ofalken for access approval.
-
 - \***Sales Development SAFE Access:** Please work with Keith Gliksman @keith.gliksman for access approval.
 
 - \***Self-Service SAFE Access:** - Please work with the Self-Service team and/or Max Fleisher @mfleisher for access approval.
