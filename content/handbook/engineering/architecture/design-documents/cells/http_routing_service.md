@@ -471,15 +471,15 @@ timeline.
 #### Rollout steps
 
 1. Open MR to change `ROLLOUT_PERCENTAGES` environment variable in
-   [deploy-worker.sh](https://gitlab.com/gitlab-com/gl-infra/cells/http-router-deployer/-/blob/main/scripts/deploy-worker.sh?ref_type=heads#L42) script. Set the value to `5`. Eg: `ROLLOUT_PERCENTAGES="5"`
+   [deploy-worker.sh](https://gitlab.com/gitlab-com/gl-infra/cells/http-router-deployer/-/blob/main/scripts/deploy-worker.sh?ref_type=heads#L42) script. Set the value to `5`. Example: `ROLLOUT_PERCENTAGES="5"`
 1. Merge MR.
 1. MR pipeline will fail due on `change-lock` job
 1. Run the [pipeline manually](https://gitlab.com/gitlab-com/gl-infra/cells/http-router-deployer/-/pipelines/new), set `CHANGE_LOCK_OVERRIDE` to `true` and `OVERRIDE_LAST_PERCENTAGE` to `true` as input variables.
 1. Observe any anomalies in [Platform Triage](https://dashboards.gitlab.net/goto/LBj4r5IHR?orgId=1) and [General SLA](https://dashboards.gitlab.net/goto/X6PdrcSNR?orgId=1) dashboards.
 1. Wait for 30 min for `GSTG` and 24 hours for `GPRD`
 1. If no anomalies found and there is not impact on SLO's repeat step 1 for
-   `25`, `50`, `75`, `100` pecrents.
-1. Once 100% of traffic is rollout out, open MR on [deploy-worker.sh](https://gitlab.com/gitlab-com/gl-infra/cells/http-router-deployer/-/blob/main/scripts/deploy-worker.sh?ref_type=heads#L42) script to set the value back to the full sequence `"5 25 50 75 100"`. Eg: `ROLLOUT_PERCENTAGES="5 25 50 75 100"`
+   `25`, `50`, `75`, `100` percents.
+1. Once 100% of traffic is rollout out, open MR on [deploy-worker.sh](https://gitlab.com/gitlab-com/gl-infra/cells/http-router-deployer/-/blob/main/scripts/deploy-worker.sh?ref_type=heads#L42) script to set the value back to the full sequence `"5 25 50 75 100"`. Example: `ROLLOUT_PERCENTAGES="5 25 50 75 100"`
 
 ## Request flows
 
