@@ -1,5 +1,5 @@
 ---
-title: Security Finding Creation API
+title: Decouple security ingestion from security reports
 status: proposed
 creation-date: "2024-12-04"
 authors: [ "@hacks4oats" ]
@@ -19,10 +19,25 @@ toc_hide: true
 
 ## Summary
 
-The security finding creation API is an _internal_ API that facilitates
-the creation of security findings without the need for CI/CD job
-artifacts. This API establishes a clear contract on what's needed to create
-the various types of security findings we store in the database.
+The security ingestion pipeline serves a critical role in persisting the
+findings reported by our security analyzers. Historically, JSON security reports
+have been used to transmit the findings from the analyzer to the Rails
+monolith, a method that has served our use cases well for some time. However,
+recent shifts in the security landscape now require us to restructure where we
+execute our security analysis, which therefore requires us to also change _how_
+we transmit the findings from analyzer to the Rails monolith.
+
+At a high level, we'll need to do the following:
+
+1. The ingestion lifecycle should use well defined terms that
+   differentiate the different stages traveled by analyzer results.
+1. Establish a documented security finding API that facilitates the creation of
+   security findings. Much like our security schemas, the API methods establish
+   a clear contract on what specific data is needed for the various types of
+   security findings we support.
+1. Workers should no longer be called imperatively. Instead,
+   [events](https://docs.gitlab.com/ee/development/event_store.html) should be
+   used to clearly define domain boundaries.
 
 ## Motivation
 
@@ -42,15 +57,79 @@ data.
 
 ### Goals
 
-* Decouple security report parsing and security finding sourcing.
-* Reduce complexity of creating security findings from CycloneDX SBoMs.
-* Improved performance when loading security findings from database.
+* Minimize JSON artifact parsing. Loading from the database is much faster and a
+  lot lighter in resources when compared to JSON artifact parsing.
+* Reduced complexity of creating security findings from sources that are not
+  security reports. This simplifies use cases like SBoM based dependency scanning
+  and container scanning.
 
 ### Non-Goals
 
 * Exposing security findings as CI/CD job artifacts.
+* Changing database schemas.
+* Completely removing support for security reports.
 
 ## Proposal
+
+As detailed above, three changes are required to better adapt the security ingestion
+process.
+
+### Security ingestion definitions
+
+The security ingestion process references analysis results using three types.
+
+1. `Gitlab::Ci::Security::Reports::Finding` - used for results packaged in a security report.
+1. `Security::Finding` - results **temporarily** stored in database for **non-default** branches.
+1. `Vulnerabilitities::Finding` - findings stored in database for **default** branches.
+
+```mermaid
+flowchart TD
+    A[Gitlab::Ci::Security::Reports::Finding]
+    B[Security::Finding]
+    C[Vulnerabilitities::Finding]
+    A -->|becomes| B -->|becomes| C
+```
+
+Unfortunately, these names aren't very descriptive, and while manageable,
+understanding and holding their concepts for development adds overhead that can
+be avoided. This will be improved by using a set of well defined terms used by
+other projects and tools. The `staged`, `staged`, and `committed` set of terms
+are one such set used in high adoption pieces of software like `git`.
+Conceptually, the security ingestion process operates _very_ similar to `git`,
+and the set of terms used to describe the various states of a file also work
+quite well for the various states of findings.
+
+1. `Gitlab::Ci::Security::Report::Finding` results can be thought of as _unstaged_
+   since they only exist within memory and hence not yet _staged_ in
+   `security_findings`.
+1. `Security::Finding` results can be thought of as _staged_ since they are
+   stored in the temporary `security_findings` table.
+1. `Vulnerabilitities::Finding` results can be thought of as
+   _commits_. At this point, they're no longer in a temporary table, and are
+   considered stored.
+
+Given how well the terms work for findings, we can apply them to other security
+ingestion concepts as well. The following are examples of areas where we can
+apply this and gain clarity from the names of services and workers.
+
+* `Security::StoreScansService` can be renamed to `Security::StageScansService`.
+    * Both default and non-default branches have their findings saved in the
+    database. This better differentiates the two by making it clear that one is
+    staged, but not yet committed to.
+* `Security::IngestReportService` can be renamed to `Security::CommitScansService`.
+    * This makes it clear that the findings are going to a table that doesn't
+    drop partitions.
+    * This also works in our favor because the name no longer ties itself to
+    security reports which may only be one source of unstaged findings.
+
+### Events
+
+An event driven system decouples two or more systems by delegating all
+communication to events.
+
+TODO: provide examples of events that can be used for DS, CS, and more.
+
+### API
 
 Create an API that has methods to create the following finding types:
 
@@ -64,7 +143,7 @@ Create an API that has methods to create the following finding types:
 These methods replace the generic report finding class with new classes
 whose constructors clearly define the data required for each finding type.
 Refactor our security ingestion entrypoint to use a new method called
-`#collect_security_findings` instead of `#collect_security_reports`. This method
+`#collect_unstaged_security_findings` instead of `#collect_security_reports`. This method
 will be responsible for collecting security findings from eligible sources. For
 example, CycloneDX SBoMs would be scanned for advisories affecting the listed
 components, and security reports would be parsed for the included security
