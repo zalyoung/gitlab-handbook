@@ -117,6 +117,7 @@ Please find our SSoT in terms of reporting below, for each dashboard you can als
 ### Dashboards For Leaders
 
 | Name/Link                                                            | Description                                            |
+|-----------------------------------------------------------------------|--------------------------------------------------------|
 | [Action Needed: PubSec Global](https://gitlab.my.salesforce.com/01ZPL000000UN7F) | Dashboard outlining items where immediate action is needed in the PubSec team. |
 | [Action Needed: APJ BDR](https://gitlab.my.salesforce.com/01ZPL000000bkbl) | Dashboard outlining items where immediate action is needed for APJ BDR.          |
 | [Action Needed: EMEA BDR](https://gitlab.my.salesforce.com/01Z4M000000soBO) | Dashboard outlining items where immediate action is needed for EMEA BDR.          |
