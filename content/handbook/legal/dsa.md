@@ -67,6 +67,9 @@ description: "Use this form to report content that you believe is illegal in the
                     supporting documentation, please send them to
                     abuse@gitlab.com</strong>
                 </div>
+                <div id="thankyou" class="text-center align-items-center">
+                    <p class="h2 mb-4">Thank you for your submission!</p>
+                </div>
                 <div class="mb-3">
                     <button type="submit" class="btn btn-lg btn-light">Submit</button>
                 </div>
