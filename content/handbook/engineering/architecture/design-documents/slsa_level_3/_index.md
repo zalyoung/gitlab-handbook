@@ -84,7 +84,7 @@ This phased approach ensures an MVP can be delivered early, with incremental sec
 ### Phase 3: Platform Indication of Provenance Data
 
 1. Enrich provenance with GitLab-specific metadata, such as:
-   1. ource repository URL
+   1. Source repository URL
    1. Pipeline ID and job ID
    1. Commit hash and branch name
 1. Ensure metadata collection is seamless and integrated into the GitLab CI component.
