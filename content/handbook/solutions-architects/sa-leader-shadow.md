@@ -65,11 +65,11 @@ During the program, you will:
 
 1. Experience a "day in the life" of an SA people leader to better gauge interest in pursuing a leadership role in the future. These are some of the things you will see during your shadowing. Disclaimer: some of these activities may not always be doable for many reasons. 
     Learn to make data driven decisions by:
-    a. Participate to 1 deal review session with the Geo SA leaders 
-    b. Participate to a 1-2-1 (if we can find SAs who are comfortable about having someone to shadow), 
+    a. Participating in 1 deal review session with the Geo SA leaders 
+    b. Participating in a 1-2-1 (if we can find SAs who are comfortable about having someone to shadow)
     c. Run a data analysis review of the region to highlight patterns in the execution of the team
     Learn to hire a high performing team
-    d. Participate to a hiring manager interview/panel
+    d. Participating in a hiring manager interview/panel
     Learn how to provide actionable feedback
     e. Providing actionable feedback to the SA leader of your observations
 2. Gain greater exposure to GitLab's SA people leaders and their decision-making processes
