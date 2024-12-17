@@ -481,7 +481,6 @@ timeline.
    `25`, `50`, `75`, `100` pecrents.
 1. Once 100% of traffic is rollout out, open MR on [deploy-worker.sh](https://gitlab.com/gitlab-com/gl-infra/cells/http-router-deployer/-/blob/main/scripts/deploy-worker.sh?ref_type=heads#L42) script to set the value back to the full sequence `"5 25 50 75 100"`. Eg: `ROLLOUT_PERCENTAGES="5 25 50 75 100"`
 
-
 ## Request flows
 
 1. There are two Cells.
