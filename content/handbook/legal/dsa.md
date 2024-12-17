@@ -63,9 +63,9 @@ description: "Use this form to report content that you believe is illegal in the
                     </select>
                 </div>
                 <div class="mb-3">
-                    <p class="form-label">If you have any additional attachments or
+                    <strong class="form-label">If you have any additional attachments or
                     supporting documentation, please send them to
-                    abuse@gitlab.com</p>
+                    abuse@gitlab.com</strong>
                 </div>
                 <div class="mb-3">
                     <button type="submit" class="btn btn-lg btn-light">Submit</button>
