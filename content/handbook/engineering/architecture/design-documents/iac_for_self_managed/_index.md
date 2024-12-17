@@ -5,10 +5,10 @@
 title: Mature Automated Deployment and Management of Self-Managed GitLab
 status: proposed
 creation-date: "2024-12-12"
-authors: [ "@bwilkerson13", "@gyoung" ]
+authors: [ "@bwilkerson13", "@grantyoung" ]
 coaches: [ "@username" ]
 dris: [ "@product-manager", "@engineering-manager" ]
-owning-stage: "~devops::"
+owning-stage: "~devops::platforms"
 participating-stages: []
 # Hides this page in the left sidebar. Recommended so we don't pollute it.
 toc_hide: true
