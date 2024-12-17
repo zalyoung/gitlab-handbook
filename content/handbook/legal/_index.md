@@ -4,7 +4,7 @@ title: Legal & Corporate Affairs ("LACA")
 
 ## Our Mission
 
-LACA team members leverage our versatile skill sets to drive positive outcomes for GitLab and our customers, enabling everyone to contribute. Approachable and collaborative, we are trusted thought partners to our colleagues across GitLab, and facilitate efficient and informed decision making in all areas of the business.
+LACA team members leverage our versatile skill sets to drive positive outcomes for GitLab and our customers. Approachable and collaborative, we are trusted thought partners to our colleagues across GitLab, and facilitate efficient and informed decision making in all areas of the business.
 
 **In short: LACA – We’re your one phone call.**
 
