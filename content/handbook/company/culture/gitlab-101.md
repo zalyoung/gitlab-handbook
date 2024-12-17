@@ -1,6 +1,6 @@
 ---
 title: "GitLab CEO 101"
-description: "There is a monthly GitLab CEO 101 call with new hires and the CEO. This is a zoom call that will be a public stream to YouTube."
+description: "There is a monthly GitLab CEO 101 call with new hires and the CEO."
 ---
 
 ## GitLab 101s
@@ -23,12 +23,6 @@ Note that, when thinking about what questions you'd like to ask, it's hard to be
 All questions and answers during the call should be added to this page or to the relevant pages of [the handbook](/handbook). This is done during the call to immediately make any changes; for example we created [this commit](https://gitlab.com/gitlab-com/www-gitlab-com/commit/8cf1b0117dce5439f61e207315f75db96c917056) together on the call.
 
 The calendar invite will include an agenda google doc where those participating in the meeting can add their questions and a link to this handbook page. If you have any questions please contact the CEO's [Executive Business Administrator](/handbook/eba/#executive-business-administrator-team) in #eba-team on slack.
-
-Below a few examples of the GitLab 101 calls
-
-{{< youtube "YovTmwsMrQo" >}}
-
-{{< youtube "FALTpdV6dsw" >}}
 
 ### Frequently Asked Questions about the GitLab Culture
 
