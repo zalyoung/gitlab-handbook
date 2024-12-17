@@ -50,7 +50,7 @@ The SA people leader shadow program is open to all team members who complete the
 
 ### Confidentiality
 
-Participating in the shadow program is a privilege where you will be exposed to confidential information. This is underpinned by trust in the shadows to honor the confidentiality of topics being discussed and information shared. The continuation of this program is entirely dependent on shadows past, present, and future honoring this trust placed in them. Since you might be lopt in to shadow calls where forecasted deal outside your region will be discussed, we ask you to comply with the {Designated Insiders process](https://docs.google.com/document/d/1mcBtnfGbv4jSsJUklMQYyj2052MBHe4Lf9RkE-B9yvA/edit?tab=t.0#heading=h.b3pm8ljoip1y) for the quarter.
+Participating in the shadow program is a privilege where you will be exposed to confidential information. This is underpinned by trust in the shadows to honor the confidentiality of topics being discussed and information shared. The continuation of this program is entirely dependent on shadows past, present, and future honoring this trust placed in them. Since you might be lopt in to shadow calls where forecasted deal outside your region will be discussed, we ask you to comply with the [Designated Insiders process](https://docs.google.com/document/d/1mcBtnfGbv4jSsJUklMQYyj2052MBHe4Lf9RkE-B9yvA/edit?tab=t.0#heading=h.b3pm8ljoip1y) for the quarter.
 
 ### Consider adding goals
 
@@ -66,16 +66,20 @@ Use this coffee chat to express to them your interest in people leadership as we
 
 During the program, you will:
 
-1. Experience a "day in the life" of an SA people leader to better gauge interest in pursuing a leadership role in the future. These are some of the things you will see during your shadowing. 
-Please note that some of these activities may not always be doable for many reasons. 
-    Learn to make data driven decisions by:
-    a. Participating in 1 deal review session with the Geo SA leaders 
-    b. Participating in a 1-2-1 (if we can find SAs who are comfortable about having someone to shadow)
-    c. Run a data analysis review of the region to highlight patterns in the execution of the team
-    Learn to hire a high performing team
-    d. Participating in a hiring manager interview/panel
-    Learn how to provide actionable feedback
-    e. Providing actionable feedback to the SA leader of your observations
+1. Experience a "day in the life" of an SA people leader to better gauge interest in pursuing a leadership role in the future. When becoming an SA Leader, you will want to think of three pilars of execution: Run the Business, Run the Team, Run yourself. Below some of the things you will see during your shadowing. Some of these activities may not always be doable and they are at discretion of the SA Leader. 
+Run the business:
+    a. Participate in 1 Geo SA deal review session with the Geo SA leaders (subject to [Designated Insiders process](https://docs.google.com/document/d/1mcBtnfGbv4jSsJUklMQYyj2052MBHe4Lf9RkE-B9yvA/edit?tab=t.0#heading=h.b3pm8ljoip1y)) 
+    b. Run a data analysis review of the region to highlight patterns in the execution of the team (subject to [Designated Insiders process](https://docs.google.com/document/d/1mcBtnfGbv4jSsJUklMQYyj2052MBHe4Lf9RkE-B9yvA/edit?tab=t.0#heading=h.b3pm8ljoip1y)) 
+    c. Help Prepare SA Leaders QBR Memo (subject to [Designated Insiders process](https://docs.google.com/document/d/1mcBtnfGbv4jSsJUklMQYyj2052MBHe4Lf9RkE-B9yvA/edit?tab=t.0#heading=h.b3pm8ljoip1y)) 
+    c. Brainstorm and provide actionable feedback to the SA leader of your observations
+Run the team:
+    a. Participate in a 1-2-1 (if we can find SAs who are comfortable about having someone to shadow)
+    b. Participate in a Hiring Manager and/or Panel interview
+    c. Brainstorm and provide actionable feedback to the SA leader of your observations
+Run Yourself
+    a. As part of your IGP discussion with your manager, you might want to consider to invest in some Leadership training internal and external to Gitlab
+    b. Read some of the [Suggested Reading](/job-families/sales/solutions-architect/#sa-leader-shadow)
+    c. Build a 30-60-90 days plan for a potential manager role
 2. Gain greater exposure to GitLab's SA people leaders and their decision-making processes
 3. Work on developing the [skills required](/job-families/sales/solutions-architect/#manager-solutions-architects-responsibilities) to become an SA people leader
 
