@@ -1,35 +1,28 @@
-### Designing with AI: A Guide for Product Designers
+# Designing with AI: A Guide for Product Designers
 
-The main difference between designing for AI features and every other feature is mainly one thing: uncertainty. Especially when working with LLMs, there is usually uncertainty as to what users will do, or write, and there is always uncertainty over how an LLM will respond. As designers, we’re here to shape the experience, but we have far less control over what the user can do and the results they get, than most of us are used to.
-
-This guide is intended to provide tools and methods to supplement a product designer’s existing toolkit. 
+The main difference between designing for AI features and every other feature is mainly one thing: uncertainty. Especially when working with LLMs, there is usually uncertainty as to what users will do, or write, and there is always uncertainty over how an LLM will respond. As designers, we’re here to shape the experience, but we have far less control over what the user can do and the results they get, than most of us are used to. This guide is intended to provide tools and methods that work well in this environment of uncertaintly. They are meant to supplement, not replace, a product designer’s existing toolkit. 
 
 
-We hope it will help answer questions like:
-- How do we map a user's happy path when both user input and system output are unpredictable?
+We hope this guide will help answer questions like:
+- How do we map a user's happy path when the user's input and system's output are unpredictable?
 - Does a usability test with 5 users still work if each session is completely different from the next?
 - How can we measure task success when there is so much subjectivity as to whether or not an LLM answer was useful to an individual?
 - How can we intentionally design for an experience that relies on the unpredictable flow of a conversation?
 
-###Other Resources
-{add a link here to pajamas principles?}
+##Through the lens of the Product Designer Workflow
+To start with, we've noted aspects of the [Product Designer Workflow](/handbook/product/ux/product-designer/#product-design-process) that you might want to adjust.
 
 
+### [Define the opportunity](/handbook/product/ux/product-designer/#define-the-opportunity) 
+During [problem validation](/handbook/product-development-flow/#validation-goals--outcomes), you should work closely with Product Managers as usual to understand" who you’re designing for, what you’re designing, and why you’re designing it.
 
-
-
-##Through the lens of the Product Designer Workflow {link}
-
-### Define the opportunity 
-During problem validation, designers should work closely with Product Managers as usual to understand who you’re designing for, what you’re designing, and why you’re designing it.
-
-For gen AI, the problem and solution space may be wider than usual. For example, when working on something like Duo Workflow or Duo Chat, the team may be tempted to say that “the feature can assist with anything”. This should be avoided, because it will be very hard to set a definition of done or success metrics. You also run a great risk of building a solution that does many things poorly, and nothing really well. 
+For gen AI, the problem and solution space may be broader than usual. For example, when working on something like Duo Workflow or Duo Chat, the team may be tempted to say something vague, like “the feature can assist with anything the user asks”. This should be avoided, because it will be very hard to set a definition of done or success metrics. You also run a risk of building a solution that does many things poorly, and nothing really well. 
 
 The team should scope the problem space enough to be able to quickly explain to a stranger what types of problems their solution will and won’t solve. Along with your PM, you should then be able to define measurable success criteria.
 
 
-###Before you design
-We recommend that designers create an interaction design policy before moving into the design phase. This is a framework proposed by the people at People + AI Research at Google that we propose to use here. We think this will provide the team with a good foundation for their AI related design and technical requirements. We have adapted the framework into our own Figjam template {link}. 
+### [Before you design](/handbook/product/ux/product-designer/#before-you-design)
+We recommend that designers create an *interaction design policy* before moving into the design phase. This is a framework proposed by the people at [People + AI Research](https://pair.withgoogle.com/) at Google that we propose to use here. We think this will provide the team with a good foundation for their AI related design and technical requirements. We have adapted the framework into our own Figjam template {link}. 
 
 Before using the framework for the first time, read this article. 
 
@@ -111,29 +104,10 @@ Create a diverse set of prompts that users might use for the scenario you plan t
    - Consider levels of trust and familiarity with AI
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-When designing AI solutions, Product Designers need to approach the process thoughtfully to ensure that the technology enhances the user experience and meets strategic objectives.
-
-Here are some resources to help you contribute to the design of AI-assisted features across the platform:
+### Links and Resources
 
 - [AI-human interaction in Pajamas](https://design.gitlab.com/usability/ai-human-interaction): Documentation on best practices for AI-human interaction.
 - [AI Integration Effort FAQ](https://internal.gitlab.com/handbook/product/ai-strategy/ai-integration-effort/faq/): Internal handbook with frequently asked questions about AI integration efforts. **Internal handbook 🔒**
 - [UX maturity requirements](/handbook/product/ai/ux-maturity/): Documentation on the UX maturity requirements to move AI features from Experiment to Beta to Generally Available (GA).
 - [Experiment, Beta, and Generally Available features](https://docs.gitlab.com/ee/policy/development_stages_support.html): Guidelines on the different stages of feature availability.
 - [UX research in the AI space](/handbook/product/ux/ux-research/research-in-the-AI-space/): Documentation on conducting UX research in the AI domain.
-- [Epic: UX of AI Integration](https://gitlab.com/groups/gitlab-org/-/epics/10269): A GitLab epic tracking the UX of AI integration.
-- [AI prototypes in Figma](https://www.figma.com/file/s4TP1i2Akd1VTh4jhbg234/AI-prioritized-prototypes?type=design&node-id=1%3A79&t=SNUCGun6HHxi9LaY-1): Access AI prototypes in Figma.
-- [AI Project Proposal issue template](https://gitlab.com/gitlab-org/gitlab/-/issues/new?issuable_template=AI%20Project%20Proposal): Use this template to propose new AI projects.
-
-These resources will guide you through the process and best practices for designing and integrating AI features within the platform.
