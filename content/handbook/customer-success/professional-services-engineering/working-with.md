@@ -61,9 +61,8 @@ Often we are asked "what is your lead time for getting started with a project" o
 As there may be many projects and proposals in flight at any time, there are a few rules we use when prioritizing and scheduling engagements:
 
 - No engagement schedule can be committed to until the PS Opportunity is closed/ won and the PS Operations team has scheduled the project. While we can make a good faith effort to try and match a schedule ahead of that time, to be fair to customers who have committed to a services engagement we must prioritize those first.
-- Please, check with the PS Operations Team by tagging the group `@ps-scheduling` for the latest lead time details in the [professional services slack channel](#slack) if you need a more accurate estimate.
+- Please, check with the PS Operations Team by tagging the group `@ps-scheduling` for the latest lead time details in the [professional services slack channel](https://gitlab.enterprise.slack.com/archives/CFRLYG77X) if you need a more accurate estimate.
 - The PS Operations team does review projects that are SFDC Stage 5.  As we strive to start the projects within days of the SFDC Stage of closed/won.
-
 
 ##### SOW Proposal Approval Board
 
@@ -85,7 +84,7 @@ The labels are (from left to right):
 
 ### Scheduling Professional Services
 
-Currently, customer projects are scheduled in order as the opportunity is Closed-Won.  Please discuss any concern about scheduling the project during the Discovery phase of the scoping process. As part of the Discovery phase, please update the Project Scheduling Intake issue. The Project Coordinator will use this information to review staffing. If there are lead time or availability questions, please ask the Enagagement Manager or Project Coordinator by tagging the group @ps-scheduling in the [professional services slack channel](#slack).
+Currently, customer projects are scheduled in order as the opportunity is Closed-Won.  Please discuss any concern about scheduling the project during the Discovery phase of the scoping process. As part of the Discovery phase, please update the Project Scheduling Intake issue. The Project Coordinator will use this information to review staffing. If there are lead time or availability questions, please ask the Enagagement Manager or Project Coordinator by tagging the group @ps-scheduling in the [professional services slack channel](https://gitlab.enterprise.slack.com/archives/CFRLYG77X).
 Please do not commit any project start dates prior to the SOW/contracts being signed without confirming with the PS Project Coordinator.
 
 Once the opportunity is updated to Close/ Won, here are the next steps:
