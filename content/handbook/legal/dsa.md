@@ -6,7 +6,7 @@ description: "Use this form to report content that you believe is illegal in the
 <div class="row my-5 5align-items-start">
     <div class="col d-flex align-items-center rounded-3 p-4 shadow" style="background-color: #6e49cb; color: #ffffff;">
         <div id="dsaFormDiv">
-            <p class="h4">DSA Reporting Form:</p>
+            <p class="h4">DSA Reporting Form</p>
             <form action="https://us-central1-glsec-trust-safety-dev.cloudfunctions.net/dsa-webhook" method="post" id="dsaForm" target="hidden-form">
                 <div class="mb-3">
                     <label for="email" class="form-label">Your email address</label>
@@ -63,7 +63,7 @@ description: "Use this form to report content that you believe is illegal in the
                     </select>
                 </div>
                 <div class="mb-3">
-                    <strong class="form-label">If you have any additional attachments or
+                    <strong class="form-label">If you have any attachments or
                     supporting documentation, please send them to
                     abuse@gitlab.com</strong>
                 </div>
