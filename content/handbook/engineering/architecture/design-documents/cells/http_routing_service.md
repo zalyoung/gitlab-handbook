@@ -459,7 +459,28 @@ In order to rollout HTTP Router configuration with minimal user impact and zero
 downtime, we will
 use [Gradual deployments](https://developers.cloudflare.com/workers/configuration/versions-and-deployments/gradual-deployments/) functionality from Cloudflare.
 
-1.
+#### Prerequisites
+
+* It is important for this rollout strategy to follow the timeline. You would need
+to merge MR's with a certain interval. Therefore, work in pair.
+* Before processing with rollout steps, make sure you clearly defined the
+timeline.
+* [Schedule the change](https://handbook.gitlab.com/handbook/support/readiness/operations/docs/pagerduty/change_management/#schedule-changes)
+* Add Change Lock schedule to the [change lock config](https://gitlab.com/gitlab-com/gl-infra/change-lock/-/blob/f1c2a4e197fc5c0c1ca4aae18e7480a904212f80/config/changelock.yml). Please use `http-router` changelock tag.
+
+#### Rollout steps
+
+1. Open MR to change `ROLLOUT_PERCENTAGES` environment variable in
+   [deploy-worker.sh](https://gitlab.com/gitlab-com/gl-infra/cells/http-router-deployer/-/blob/main/scripts/deploy-worker.sh?ref_type=heads#L42) script. Set the value to `5`. Eg: `ROLLOUT_PERCENTAGES="5"`
+1. Merge MR.
+1. MR pipeline will fail due on `change-lock` job
+1. Run the [pipeline manually](https://gitlab.com/gitlab-com/gl-infra/cells/http-router-deployer/-/pipelines/new), set `CHANGE_LOCK_OVERRIDE` to `true` and `OVERRIDE_LAST_PERCENTAGE` to `true` as input variables.
+1. Observe any anomalies in [Platform Triage](https://dashboards.gitlab.net/goto/LBj4r5IHR?orgId=1) and [General SLA](https://dashboards.gitlab.net/goto/X6PdrcSNR?orgId=1) dashboards.
+1. Wait for 30 min for `GSTG` and 24 hours for `GPRD`
+1. If no anomalies found and there is not impact on SLO's repeat step 1 for
+   `25`, `50`, `75`, `100` pecrents.
+1. Once 100% of traffic is rollout out, open MR on [deploy-worker.sh](https://gitlab.com/gitlab-com/gl-infra/cells/http-router-deployer/-/blob/main/scripts/deploy-worker.sh?ref_type=heads#L42) script to set the value back to the full sequence `"5 25 50 75 100"`. Eg: `ROLLOUT_PERCENTAGES="5 25 50 75 100"`
+
 
 ## Request flows
 
