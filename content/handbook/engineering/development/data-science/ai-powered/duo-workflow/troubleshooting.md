@@ -23,13 +23,17 @@ Following projects hold loggs for different pieces of Runway deployments:
 1. `gitlab-runway-staging` - holds logs for staging runway deployments
 
 When browsing Runway logs you can narrow scope to piece of infrastructure that is of interest to you using following filters:
+
 1. To filter only load balancer logs use:
-   ```
+
+   ```plain
    resource.type="http_load_balancer"
    resource.labels.forwarding_rule_name="duo-workflow-https"
    ```
+
 1. To filter only Duo Workflow Service deployment logs use:
-   ```
+
+   ```plain
    resource.labels.service_name="duo-workflow
    ``` 
 
@@ -40,13 +44,15 @@ The [grpcurl](https://github.com/fullstorydev/grpcurl) is a cli tool that enable
 An example usage of `grcurl` for Duo Workflow is shown in the example below:
 
 1. Duo Workflow credentails can be obtained via `curl` 
-```
-$ curl -X POST -H "Authorization: Bearer $GITLAB_API_PRIVATE_TOKEN" https://gitlab.com/api/v4/ai/duo_workflows/direct_access
+
+```bash
+curl -X POST -H "Authorization: Bearer $GITLAB_API_PRIVATE_TOKEN" https://gitlab.com/api/v4/ai/duo_workflows/direct_access
 ```
 
-2. With credentails assigned to environment viariables `grpcurl` can be used to start bidirectional channel to Duo Workflow Service
+1. With credentails assigned to environment viariables `grpcurl` can be used to start bidirectional channel to Duo Workflow Service
+
 ```bash
-$ grpcurl -keepalive-time 20 -H "x-gitlab-global-user-id":"$GLOBAL_USER_ID" \
+grpcurl -keepalive-time 20 -H "x-gitlab-global-user-id":"$GLOBAL_USER_ID" \
    -H "x-gitlab-instance-id":"ea8bf81......." -H "x-gitlab-realm":"saas" \
    -H "x-gitlab-authentication-type":"oidc" \
    -H authorization:"bearer $GRPC_TOKEN" -d @ -vv -proto ../duo-workflow-service/contract/contract.proto 
@@ -64,8 +70,9 @@ x-gitlab-instance-id: ea8bf810-..........
 x-gitlab-realm: saas
 ```
 
-3. With channel being established messages can be sent via stdin
-```
+1. With channel being established messages can be sent via stdin
+
+```json
 {
   "startRequest": {
     "workflowID": "12344",
@@ -91,3 +98,7 @@ Based on a Sentry issue:
 2. Use the `correlation_id` from previous step to filter down logs in gcp logs explorer, example filter: `jsonPayload.correlation_id="e7171f28-706d-4a47-be25-29d9b3751c0e"`
 
 In addition one can use a workflow's `workflow_id` that is being recorded either in sentry or in log explorer to filter down LangSmith logs using `thread_id` filter in _metadata_ and comparing it against `workflow_id`.
+
+## Past in depth investigations 
+
+1. Faulty network proxy via Cloudflare [investigation issue](https://gitlab.com/gitlab-org/gitlab/-/issues/501170)
