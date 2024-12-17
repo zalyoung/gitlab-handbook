@@ -6,11 +6,7 @@ description: "Discover how to work with the GitLab Professional Services Team."
 
 ### How to Contact Professional Services
 
-At GitLab, Professional Services (PS) is part of the [Customer Success department](/handbook/customer-success/). As such, you can engage with PS by following the guidelines for engaging with any [Solutions Architect (SA)](/handbook/customer-success/solutions-architects#when-and-how-to-engage-a-solutions-architect). This process ensures that the Customer Success department as a whole can understand the inbound needs of the account executive and our customers.
-
-#### Slack
-
-PS uses the [#professional-services](https://gitlab.slack.com/archives/CFRLYG77X) slack channel to answer generic questions about services and to signal delivery of PS scoping work items like PS Engagement Estimates and SOWs.  The private [#professional-services-us-pubsec](https://gitlab.slack.com/archives/C025UHLTR50/p1625778195002900) slack channel is used for US Public Sector services.  Please request access to [#professional-services-us-pubsec](https://gitlab.slack.com/archives/C025UHLTR50/p1625778195002900) in [#professional-services](https://gitlab.slack.com/archives/CFRLYG77X).
+Questions that the field (AE, SA, CSM or other support roles) have for specific customers or engagements should be routed to the GitLab Professional Services (PS) Engagement Manager supporting that account. You can find the [EM to account team mapping here](https://docs.google.com/document/d/1sdehii3Eqp_CiYsGT3dDb0nKbbtwpxKQlni7t3ZgfCs/edit?tab=t.0#heading=h.1er41qhhpoj5) (internal team members only). You can collaborate with your EM in the [workflow listed below](For-Sales-Reps-How-to-request-support-from-Professional-Services-on-an-Account)  For general questions outside specific opportunity cycles, please  uses the [#professional-services](https://gitlab.slack.com/archives/CFRLYG77X) slack channel. The private [#professional-services-us-pubsec](https://gitlab.slack.com/archives/C025UHLTR50/p1625778195002900) slack channel is used for US Public Sector services.  Please request access to [#professional-services-us-pubsec](https://gitlab.slack.com/archives/C025UHLTR50/p1625778195002900) in [#professional-services](https://gitlab.slack.com/archives/CFRLYG77X).
 
 #### Requesting training for GitLab team members
 
@@ -30,31 +26,34 @@ Individual GitLab team members can request to audit a customer-facing training s
 1. Complete the Requestor Tasks in the issue description.
 1. The PS Project Coordinator will confirm the date(s) with you and provide you with a registration link.
 
-### For Sales Reps and SAs: How to order Professional Services
+### For Sales Reps: How to request support from Professional Services on an Account
 
-1. To order Professional Services, the SAE or ISR [creates an Opportunity in SFDC](/handbook/sales/field-operations/gtm-resources/) using the record type "Professional Services Only."
-
-1. The next steps depend on whether the services needed are standard or custom.
-
-- **Standard Services (non-customized)**: Sold using Professional Services SKUs with pre-defined statement of work (SOW) documents. These offerings do not require custom scoping and are ordered directly from Zuora in SFDC. Checkout our [full catalog](https://about.gitlab.com/services/catalog/) for a list of standard services currently offered.
-
-- **Custom Services**: Sold if standard services do not meet the needs of the customer, via a custom SOW using the [Services Calculator](https://services-calculator.gitlab.io/).
+1. To work with Professional Services, Account Executives should create a `Professional Services Only` Opportunity in SFDC from the parent subscription opportunity. This triggers automation to create a [scoping issue](https://gitlab.com/gitlab-com/customer-success/professional-services-group/ww-consulting/ps-plan/-/boards/5968112?label_name[]=Services%20Calculator) (internal team members only), from which wider collaboration will take place. 
+2. Depending on the complexity of the customer situation, we can offer standard packaged services (e.g. SKU) or a custom tailored approach. Regardless of this approach, Account Teams should incorporate PS Engagement Managers to help determine best path forward. Below is a quick diagram that
 
 **Process for Sales Reps and SAs**
 
 ```mermaid
 graph LR;
-  a["Standard services?"]-- Yes ---b["Add SKU to quote"];
-  a-- No ---c["SA starts SOW w/Calculator"];
-  c-->d["SA works w/PS to finalize SOW"];
-  z["Send customer proposal"];
-  d-->z;
+  s-->a["AE talks with EM about PS"]
+  a["Only SKU Services?"]-- Yes ---b["Add SKU to Order Form"];
+  a-- No ---c["AE Creates PS Only Opportunity in SFDC"];
+  c-->d["EM runs discovery with Customer"];
+  d-->e["EM build estimate and proposal"]
+  e-->f["EM reviews feedback, iterates, then moves to SOW]
+  z["Send customer OF/SOW"];
+  f-->z;
   b-->z;
 ```
 
 For more details on selling professional services, see [Selling Professional Services](/handbook/customer-success/professional-services-engineering/selling).
 
 For information on how to position Professional Services to your customer, see [Positioning Professional Services](/handbook/customer-success/professional-services-engineering/positioning).
+
+#### SLAs during presales
+
+1. Once the E has discussed with account team and has held the discovery call (or set of calls) with the Customer, EM will strive to turn around an estimate and proposal within 3 business days. Often times this can be shorter and in rare (very complex cases) it will be longer. On cases where we're expecting to break through the 3 day SLA, EMs will notify account team and customer to set expectations appropriately. 
+1. Once the customer agrees to price and scope (note these are hard prerequisites to move to SOW), the EM will strive to have SOW drafted and approved to be sent to customer withing 3 business days. Keep in mind, this requires revenue and PS leadership approval. The larger the engagement, the longer this process will take. Again, if EM thinks it will take longer than 3 days, we will set expectations approirately with Account team and Customer.  
 
 #### Lead time for starting a Professional Services Engagement
 
@@ -65,18 +64,6 @@ As there may be many projects and proposals in flight at any time, there are a f
 - Please, check with the PS Operations Team by tagging the group `@ps-scheduling` for the latest lead time details in the [professional services slack channel](#slack) if you need a more accurate estimate.
 - The PS Operations team does review projects that are SFDC Stage 5.  As we strive to start the projects within days of the SFDC Stage of closed/won.
 
-#### Custom services SOW creation and approval
-
-When scoping custom SOWs, the Professional Services Engagement Manager partners with the SA/CSM/SAE to create a custom engagement that will help meet the customer's needs, and push the SOW through the appropriate approval process. All Custom SOW's will require approval from PS Leadership.
-
-##### Estimate creation
-
-- The account team (SAE/ISR/SA/CSM) can initiate the process by creating a new scoping issue via the [Services Calculator](https://services-calculator.gitlab.io/). Through this process they will be asked some high-level questions, and a SSOT table will arrive in the issue to drive the scoping process. The SA/CSM should work with the Customer initially to complete this as well as they can. The Professional Services Engagement Manager will then create an Estimate based upon the inputs provided, and provide a link for review.
-
-##### SOW creation
-
-- Once the Estimate has been reviewed by the account team and Customer, any feedback received, and refinement made, we can then move to generating the SOW. As part of the scoping issue, the Engagement Manager will need to understand whether there is an MSA in place, or standard terms are to be used.
-- We prefer customers to mark up our agreement and SOW document if they request changes. If they require the use of their own services terms or SOW, please contact the PS team.
 
 ##### SOW Proposal Approval Board
 
