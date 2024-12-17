@@ -2,7 +2,7 @@
 # This is the title of your design document. Keep it short, simple, and descriptive. A
 # good title can help communicate what the design document is and should be considered
 # as part of any review.
-title: Mature Automated Deployment and Management of Self-Managed GitLab
+title: Advance Automated Deployment and Management Capabilities of Self-Managed GitLab
 status: proposed
 creation-date: "2024-12-12"
 authors: [ "@bwilkerson13", "@grantyoung" ]
