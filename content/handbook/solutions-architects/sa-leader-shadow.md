@@ -31,11 +31,11 @@ The SA people leader shadow program is open to all team members who complete the
 
 ### Rotation Schedule
 
-| Start Date| Shadow Name |
+| Start Date| Shadow Name | Geo Preference (can be multiple)
 |-----------|-------------|
-| FY25 Q3 | [arun_kg](https://gitlab.com/arun_kg) |
-| FY26 Q1 | [Chloé Cartron](https://gitlab.com/ChloeCartron), [Regnard Raquedan](https://gitlab.com/rraquedan), [Paul Dumaitre](https://gitlab.com/pdumaitre), Nupur Sharma](https://gitlab.com/nsharma2) |
-| FY26 Q2 | [Julia Gätjens](https://gitlab.com/jgaetjens) |
+| FY25 Q3 | [arun_kg](https://gitlab.com/arun_kg) | |
+| FY26 Q1 | [Chloé Cartron](https://gitlab.com/ChloeCartron), [Regnard Raquedan](https://gitlab.com/rraquedan), [Paul Dumaitre](https://gitlab.com/pdumaitre), Nupur Sharma](https://gitlab.com/nsharma2) | |
+| FY26 Q2 | [Julia Gätjens](https://gitlab.com/jgaetjens) | |
 | FY26 Q3 | |
 | FY26 Q4 | |
 | FY27 Q1 | |
@@ -47,7 +47,7 @@ The SA people leader shadow program is open to all team members who complete the
 
 ### Confidentiality
 
-Participating in the shadow program is a privilege where you will be exposed to confidential information. This is underpinned by trust in the shadows to honor the confidentiality of topics being discussed and information shared. The continuation of this program is entirely dependent on shadows past, present, and future honoring this trust placed in them.
+Participating in the shadow program is a privilege where you will be exposed to confidential information. This is underpinned by trust in the shadows to honor the confidentiality of topics being discussed and information shared. The continuation of this program is entirely dependent on shadows past, present, and future honoring this trust placed in them. Since you might be lopt in to shadow calls where forecasted deal outside your region will be discussed, we ask you to comply with the {Designated Insiders process](https://docs.google.com/document/d/1mcBtnfGbv4jSsJUklMQYyj2052MBHe4Lf9RkE-B9yvA/edit?tab=t.0#heading=h.b3pm8ljoip1y) for the quarter.
 
 ### Consider adding goals
 
