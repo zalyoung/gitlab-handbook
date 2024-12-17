@@ -30,6 +30,39 @@ description: "Use this form to report content that you believe is illegal in the
                     <textarea name="description" type="text" required class="form-control"></textarea>
                 </div>
                 <div class="mb-3">
+                    <label for="country" class="form-label">EU member state you are
+                    located in?</label>
+                    <select name="country" required class="form-control" id="lang">
+                        <option value="austria">Austria</option>
+                        <option value="belgium">Belgium</option>
+                        <option value="bulgaria">Bulgaria</option>
+                        <option value="croatia">Croatia</option>
+                        <option value="cyprus">Cyprus</option>
+                        <option value="czech">Czech Republic</option>
+                        <option value="denmark">Denmark</option>
+                        <option value="estonia">Estonia</option>
+                        <option value="finland">Finland</option>
+                        <option value="france">France</option>
+                        <option value="germany">Germany</option>
+                        <option value="greece">Greece</option>
+                        <option value="hungary">Hungary</option>
+                        <option value="ireland">Ireland</option>
+                        <option value="italy">Italy</option>
+                        <option value="latvia">Latvia</option>
+                        <option value="lithuania">Lithuania</option>
+                        <option value="luxembourg">Luxembourg</option>
+                        <option value="malta">Malta</option>
+                        <option value="netherlands">Netherlands</option>
+                        <option value="poland">Poland</option>
+                        <option value="portugal">Portugal</option>
+                        <option value="romania">Romania</option>
+                        <option value="slovakia">Slovakia</option>
+                        <option value="slovenia">Slovenia</option>
+                        <option value="spain">Spain</option>
+                        <option value="sweden">Sweden</option>
+                    </select>
+                </div>
+                <div class="mb-3">
                     <button type="submit" class="btn btn-lg btn-light">Submit</button>
                 </div>
             </form>
