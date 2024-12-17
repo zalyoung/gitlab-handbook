@@ -1134,18 +1134,17 @@ To decrease dbt runtime and enhance the efficiency of Snowflake's computing and 
 
 The deduplication framework consists of two main components:
 
-1. **Airflow**: Airflow consists of 3 deduplication DAG's:
+1. **Airflow**: Airflow consists of 3 deduplication DAG's:  
  i. Deduplication DAG for gitlab.com incremental extract `t_deduplication_gitlab_com_incremental`  
  ii. Deduplication Staging DAG for gitlab.com scd (full) extract `t_deduplication_gitlab_db_scd`  
- iii. Deduplication SCD DAG for CusotmerDot SCD extract.`t_gitlab_customers_db_dbt`
- Since we maintain the list of the tables, we extract data in the manifest file as part of gitab_data_extract pipeline. Airflow relies on the exact source of truth to get the list of the tables for which it has to run the deduplication logic.
- The DAG is scheduled to run weekly.
+ iii. Deduplication SCD DAG for CusotmerDot SCD extract.`t_gitlab_customers_db_dbt`  
+ Since we maintain the list of the tables, we extract data in the manifest file as part of gitab_data_extract pipeline. Airflow relies on the exact source of truth to get the list of the tables for which it has to run the deduplication logic.The DAG is scheduled to run weekly.
 
 2. **Snowflake**: In Snowflake, the following activities are carried out:  
- i. Backup tables are created using Snowflake `clone` command with timestamp suffixes in the `TAP_POSTGRES_BKP` schema inside of the RAW database.
- ii. A `temporary` table is created with a deduplicated dataset using a `GROUP BY` clause to eliminate duplicates while retaining the most recent records and managing special columns like `_uploaded_at` and `_task_instance`. The deduplication logic selects all unique rows from the table.
- iii. The temporary tables are swapped with the original tables, while maintaining current grants and permissions.
- iv. Temporary tables are dropped after a successful swap.
+ i. Backup tables are created using Snowflake `clone` command with timestamp suffixes in the `TAP_POSTGRES_BKP` schema inside of the RAW database.  
+ ii. A `temporary` table is created with a deduplicated dataset using a `GROUP BY` clause to eliminate duplicates while retaining the most recent records and managing special columns like `_uploaded_at` and `_task_instance`. The deduplication logic selects all unique rows from the table.  
+ iii. The temporary tables are swapped with the original tables, while maintaining current grants and permissions.  
+ iv. Temporary tables are dropped after a successful swap.  
  v. Delete the backup table older than 7 days.
 
 ## <i class="fas fa-chart-bar fa-fw -text-orange"></i>Visualization
