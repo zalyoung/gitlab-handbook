@@ -208,7 +208,6 @@ The Principal People Operations Program Manager is a [grade 9]({{< ref "compensa
 - Partner with leadership in managing competing priorities in a dynamic, fast-paced environment.
 - Deliver executive-level presentations, articulating program objectives, progress, and outcomes with clarity and impact.
 
-
 #### Principal People Operations Program Manager Requirements
 
 - 7+ years of directly related experience required
@@ -238,13 +237,11 @@ The Principal People Operations Program Manager is a [grade 9]({{< ref "compensa
 - Proven ability to deliver cross-functional programs with measurable business outcomes and global impact
 - Strong track record of leading large-scale transformations, balancing strategic vision with execution
 
-
 ## Performance Indicators
 
 - Number of programs/projects launched quarterly
 - Number of business processes streamlined
 - Number of PM templated tools created
-
 
 ## Hiring Process
 
