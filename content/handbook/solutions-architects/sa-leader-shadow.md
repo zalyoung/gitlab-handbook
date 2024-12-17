@@ -31,10 +31,13 @@ The SA people leader shadow program is open to all team members who complete the
 
 ### Rotation Schedule
 
-| Start Date| Shadow Name | Geo Preference (can be multiple)
+| Start Date| Shadow Name | Geo Preference (can be multiple) |
 |-----------|-------------|
-| FY25 Q3 | [arun_kg](https://gitlab.com/arun_kg) | |
-| FY26 Q1 | [Chloé Cartron](https://gitlab.com/ChloeCartron), [Regnard Raquedan](https://gitlab.com/rraquedan), [Paul Dumaitre](https://gitlab.com/pdumaitre), Nupur Sharma](https://gitlab.com/nsharma2) | |
+| FY25 Q3 | [arun_kg](https://gitlab.com/arun_kg) | NEUR |
+| FY26 Q1 | [Chloé Cartron](https://gitlab.com/ChloeCartron) | |
+| FY26 Q1 | [Regnard Raquedan](https://gitlab.com/rraquedan) | |
+| FY26 Q1 | [Paul Dumaitre](https://gitlab.com/pdumaitre) | |
+| FY26 Q1 | [Nupur Sharma](https://gitlab.com/nsharma2) | |
 | FY26 Q2 | [Julia Gätjens](https://gitlab.com/jgaetjens) | |
 | FY26 Q3 | |
 | FY26 Q4 | |
@@ -63,7 +66,8 @@ Use this coffee chat to express to them your interest in people leadership as we
 
 During the program, you will:
 
-1. Experience a "day in the life" of an SA people leader to better gauge interest in pursuing a leadership role in the future. These are some of the things you will see during your shadowing. Disclaimer: some of these activities may not always be doable for many reasons. 
+1. Experience a "day in the life" of an SA people leader to better gauge interest in pursuing a leadership role in the future. These are some of the things you will see during your shadowing. 
+Please note that some of these activities may not always be doable for many reasons. 
     Learn to make data driven decisions by:
     a. Participating in 1 deal review session with the Geo SA leaders 
     b. Participating in a 1-2-1 (if we can find SAs who are comfortable about having someone to shadow)
