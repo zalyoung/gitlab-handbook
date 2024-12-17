@@ -168,7 +168,6 @@ The Staff People Operations Program Manager is a [grade 8]({{< ref "compensation
 - Ability to use GitLab
 - Aligns with GitLab values
 
-
 ### Principal People Operations Program Manager
 
 The Principal People Operations Program Manager reports to the Director, People Tools & Technology.
