@@ -222,12 +222,6 @@ There are two options for editing or updating content which is in Production:
 1. **Update and Overwrite Original:** This is required for any major changes to a workbook or data source. Changes include replacing or editing a data source, altering or adding logic, custom sql, or calculated fields. This is the preferred option where the developer edits the workbook or data source and save it to the Development folder. It is then reviewed and inspected. After approval it the Project Leader will overwrite it to Production.
 1. **Allow Developer to Edit in Production:** Allow me 48 hours to edit/update access to alter in Production content myself. This is only allowed for small changes such as cosmetic improvements, spelling corrections, small filter changes or urgent issues.
 
-### Tableau Trusted Data Certification
-
-Tableau Workbooks that meet all requirements for [Trusted Data Development](/handbook/enterprise-data/data-development/#trusted-data-development) will receive a `Trusted Data` Certification. The certification is applied by placing a `TD` in the workbook title.
-
-Tableau Data Sources that meet all requirements for [Trusted Data Development](/handbook/enterprise-data/data-development/#trusted-data-development) will receive a `Trusted Data` Certification. The certification is applied using native [Tableau functionality](https://help.tableau.com/current/server/en-us/datasource_certified.htm) and a certified stamp is applied to the data source.
-
 ### Tableau Style Guide
 
 For more guidance on design best practices and resources, please refer to our [Tableau Style Guide](/handbook/enterprise-data/platform/tableau-style-guide/) handbook page.
@@ -700,6 +694,37 @@ By following these steps, you’ll ensure that your Snowflake OAuth tokens are u
 
 </details>
 
+### Tableau Certified Data Sources
+
+Certified data sources ensure trusted, high-quality, and efficient data for the organization. Approved by a Tableau Admin through an [issue submission](https://gitlab.com/gitlab-data/tableau/-/issues/new?issuable_template=Certify%2Tableau%20Data%20Source), these sources receive a Certified badge and an appended " - Certified" name for visibility and searchability. The certification signals that the data source has been rigorously reviewed for accuracy and compliance, providing users confidence to build reliable reports.
+
+Certified data sources are designed to be the most commonly used single sources of truth, aligned with the [GitLab Data Development](/handbook/enterprise-data/data-development/) lifecycle. They are broad, reusable, and versatile, capable of addressing a wide range of analytical needs. A typical department may maintain 2–12 certified data sources, serving as the primary resources for high-quality and efficient development. Departments retain ownership of these sources, with Project Leaders actively overseeing their maintenance to ensure they remain reliable, foundational tools for the organization.  To avoid overly complex, multifunctional data sources, multiple Certified, fit-for-purpose data sources are invited.
+
+As the primary resource for analysts, certified data sources streamline onboarding, training, and updates while reducing duplication and promoting consistency. By focusing on quality and reliability, they simplify decision-making and solidify their role as essential components of the organization’s data ecosystem.
+
+Recommend we allow best in class BI standards, plus modeling standards, fit for purpose approaches to use cases, and usability for the end users driving the build.
+
+#### Tableau Certified Data Source Policy
+
+All certified data sources must meet the following criteria:
+
+1. **Data Accuracy and Quality**: Data must be validated against source systems to ensure accuracy while leveraging and inheriting the quality standards established by the Enterprise Data Model (EDM). Additionally, Tableau relationships and joins, filters, and calculated fields should be reviewed for correctness and consistency. Key metrics and calculations must be verified not only for consistency with source systems but also for alignment with the EDM’s defined structures and principles.
+1. **Documentation**: Tableau Data Source should contain the following where it can be picked up by the Data Dictionary:
+   - **Descriptive Name**: Clear and user-friendly
+   - **Description**: Include purpose, data grain, and DRI ownership
+1. **Performance**: Data should load in a reasonable amount of time. Queries should be efficient and optimized for extracts or live connections.
+1. **Data Security and Compliance**: Data should adhere to data security, privacy, and governance policies including [SAFE](/handbook/enterprise-data/platform/safe-data/) access. Ensure restricted content is published to the appropriate project folder with row-level security applied where necessary to safeguard sensitive data.
+1. **Custom SQL in Data Sources**: Data sources that use custom SQL may be certified if the custom SQL is being used for specific use cases, including: Row-level security, custom parameters such as query size limit filtering, and complex joins. Including custom SQL to apply business logic (i.e. alter calculations or conditions) will block a Tableau data source from being certified. This is because we aim to keep business logic within the transformation/data warehouse layer so that it is under source control, can be easily contributed to via an MR, and produces the same results across both the data warehouse & the BI layer.
+1. **Field Naming and Formatting**:
+   - Use intuitive names (e.g., “Transaction Date” instead of “txn_dt”)
+   - Avoid Redundancy: Eliminate prefixes/suffixes that repeat context already provided (e.g., “Region” instead of “Sales_Region_Region”).
+   - Hierarchical Data: Use Tableau levels for hierarchies (e.g., Country → State → City) to enable drill-down functionality.
+   - Consistent Case and Spacing: Use proper case and spaces instead of underscores (e.g., “Customer Name” instead of “customer_name”).
+   - Ensure correct data types and formatting:
+       - Dates: Convert dates to ISO:`yyyy/mm/dd` or change datetime to date when time precision isn’t required.
+       - Numbers: Format as currency or decimal where needed.
+       - Percentages: Apply proper '%' formatting at desired decimal level.
+  
 ## Education
 
 GitLab team members who realize the full potential of analytical insights can do powerful things with data. But having a platform like Tableau and access to data isn't enough; we need to assure that our users are prepared to use Tableau effectively.
