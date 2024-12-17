@@ -453,7 +453,7 @@ There are several phases to fully deploy the HTTP Routing service to GitLab.com.
          accessible via the HTTP Router.
       1. A secure, encrypted connection between the HTTP Router and the cell.
 
-### Rollout strategy
+### Rolling Out Rule Sets
 
 In order to rollout HTTP Router configuration with minimal user impact and zero
 downtime, we will
@@ -475,8 +475,8 @@ timeline.
 1. Merge MR.
 1. MR pipeline will fail due on `change-lock` job
 1. Run the [pipeline manually](https://gitlab.com/gitlab-com/gl-infra/cells/http-router-deployer/-/pipelines/new), set `CHANGE_LOCK_OVERRIDE` to `true` and `OVERRIDE_LAST_PERCENTAGE` to `true` as input variables.
-1. Observe any anomalies in [Platform Triage](https://dashboards.gitlab.net/goto/LBj4r5IHR?orgId=1) and [General SLA](https://dashboards.gitlab.net/goto/X6PdrcSNR?orgId=1) dashboards.
-1. Wait for 30 min for `GSTG` and 24 hours for `GPRD`
+1. Do any validation for the new rule set and validate that no SLO was effected
+1. Before increasing the `ROLLOUT_PERCENTAGES` have some baking time, which can change depending on the environment.
 1. If no anomalies found and there is not impact on SLO's repeat step 1 for
    `25`, `50`, `75`, `100` percents.
 1. Once 100% of traffic is rollout out, open MR on [deploy-worker.sh](https://gitlab.com/gitlab-com/gl-infra/cells/http-router-deployer/-/blob/main/scripts/deploy-worker.sh?ref_type=heads#L42) script to set the value back to the full sequence `"5 25 50 75 100"`. Example: `ROLLOUT_PERCENTAGES="5 25 50 75 100"`
