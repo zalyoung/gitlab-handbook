@@ -1,7 +1,7 @@
 ---
 stage: core platform
 group: Tenant Scale
-title: "Cells: HTTP Routing Service"
+title: 'Cells: HTTP Routing Service'
 status: accepted
 toc_hide: true
 ---
@@ -188,27 +188,27 @@ Not yet defined.
 The Routing Service implements the following design guidelines:
 
 1. Simple:
-    - Routing service does not buffer requests.
-    - Routing service can only proxy to a single Cell based on request headers.
+   - Routing service does not buffer requests.
+   - Routing service can only proxy to a single Cell based on request headers.
 1. Stateless:
-    - Routing service does not have permanent storage.
-    - Routing service uses multi-level cache: in-memory, external shared cache.
+   - Routing service does not have permanent storage.
+   - Routing service uses multi-level cache: in-memory, external shared cache.
 1. Zero-trust:
-    - Routing service signs each request that is being proxied.
-    - The trust is established by using JWT token, or mutual authentication scheme.
-    - Cells can be available over public internet, as long as they follow the zero-trust model.
+   - Routing service signs each request that is being proxied.
+   - The trust is established by using JWT token, or mutual authentication scheme.
+   - Cells can be available over public internet, as long as they follow the zero-trust model.
 1. Configuration-based:
-    - Routing service is configured with a static list of Cells.
-    - Routing service configuration is applied as part of service deployment.
+   - Routing service is configured with a static list of Cells.
+   - Routing service configuration is applied as part of service deployment.
 1. Rule-based:
-    - Routing rules are a static JSON file that is part of routing service.
-    - Configured rules needs to be made compatible with all versions of GitLab running in a cluster.
-    - Rules allows to match by any criteria: header, content of the header, or route path.
+   - Routing rules are a static JSON file that is part of routing service.
+   - Configured rules needs to be made compatible with all versions of GitLab running in a cluster.
+   - Rules allows to match by any criteria: header, content of the header, or route path.
 1. Agnostic:
-    - Routing service is not aware of high-level concepts like organizations.
-    - The classification is done per-specification provided in a rules, to find the classification key.
-    - The classification key result is cached.
-    - The single classification key cached is used to handle many similar requests.
+   - Routing service is not aware of high-level concepts like organizations.
+   - The classification is done per-specification provided in a rules, to find the classification key.
+   - The classification key result is cached.
+   - The single classification key cached is used to handle many similar requests.
 
 The following diagram shows how a user request routes through DNS to the Routing Service deployed
 as Cloudflare Worker and the router chooses a cell to send the request to.
@@ -269,7 +269,7 @@ The routing rules JSON structure describes all matchers:
                 },
                 "<header_name2>": {
                     "match_regex": "<regex_match>"
-                }
+                },
             },
             "path": {
                 "match_regex": "<regex_match>"
@@ -426,32 +426,32 @@ All configuration will be provided via environment variables:
 There are several phases to fully deploy the HTTP Routing service to GitLab.com.
 
 1. The first phase is to deploy a simple pass-through proxy in front of the webservice (`gitlab.com`).
-    1. First, we will utilize [Cloudflare Routes](https://developers.cloudflare.com/workers/configuration/routing/routes/)
-       to rollout the worker gradually, without the need to change DNS.
-    1. (Maybe optional) The next step is to provision an internal-only DNS for
-       the legacy cell (e.g. `cell-1.gprd.int.gitlab.com`).
-       We then proxy the HTTP router to this new DNS, and secure this connection
-       with a solution like `mTLS`, or Cloudflare Tunnel.
-       In order to do this, the HTTP Router will need to be assigned the
-       `gitlab.com` DNS record, likely with
-       [custom domains](https://developers.cloudflare.com/workers/configuration/routing/custom-domains/).
+   1. First, we will utilize [Cloudflare Routes](https://developers.cloudflare.com/workers/configuration/routing/routes/)
+      to rollout the worker gradually, without the need to change DNS.
+   1. (Maybe optional) The next step is to provision an internal-only DNS for
+      the legacy cell (e.g. `cell-1.gprd.int.gitlab.com`).
+      We then proxy the HTTP router to this new DNS, and secure this connection
+      with a solution like `mTLS`, or Cloudflare Tunnel.
+      In order to do this, the HTTP Router will need to be assigned the
+      `gitlab.com` DNS record, likely with
+      [custom domains](https://developers.cloudflare.com/workers/configuration/routing/custom-domains/).
 1. The second phase is to deploy a simple pass-through proxy in front of
    the container registry (`registry.gitlab.com`).
    This will use the same deployment of the HTTP Router for `gitlab.com`.
-    1. First, we will utilize [Cloudflare Routes](https://developers.cloudflare.com/workers/configuration/routing/routes/)
-       to rollout the worker gradually, without the need to change DNS.
-    1. (Maybe optional) The next step is to provision an internal-only DNS for
-       the legacy cell (e.g. `cell-1-registry.gprd.int.gitlab.com`).
-       We then proxy the HTTP router to this DNS, and secure this connection with
-       a solution like `mTLS`, or Cloudflare Tunnel.
-       In order to do this, the HTTP Router will need to be assigned the
-       `registry.gitlab.com` DNS record, likely with
-       [custom domains](https://developers.cloudflare.com/workers/configuration/routing/custom-domains/).
+   1. First, we will utilize [Cloudflare Routes](https://developers.cloudflare.com/workers/configuration/routing/routes/)
+      to rollout the worker gradually, without the need to change DNS.
+   1. (Maybe optional) The next step is to provision an internal-only DNS for
+      the legacy cell (e.g. `cell-1-registry.gprd.int.gitlab.com`).
+      We then proxy the HTTP router to this DNS, and secure this connection with
+      a solution like `mTLS`, or Cloudflare Tunnel.
+      In order to do this, the HTTP Router will need to be assigned the
+      `registry.gitlab.com` DNS record, likely with
+      [custom domains](https://developers.cloudflare.com/workers/configuration/routing/custom-domains/).
 1. The third phase involves multiple cells.
-    1. For any new cell the HTTP Router routes to, the cell will have:
-        1. An internal-only DNS, like `cell-2.gdrd.int.gitlab.com` that is only
-           accessible via the HTTP Router.
-        1. A secure, encrypted connection between the HTTP Router and the cell.
+   1. For any new cell the HTTP Router routes to, the cell will have:
+      1. An internal-only DNS, like `cell-2.gdrd.int.gitlab.com` that is only
+         accessible via the HTTP Router.
+      1. A secure, encrypted connection between the HTTP Router and the cell.
 
 ### Rollout strategy
 
@@ -492,10 +492,10 @@ timeline.
 
 1. The Cell US0 supports all other public-facing projects.
 1. The Cell EU0 configured to generate all secrets and session cookies with a prefix like `cell_eu0_`.
-    1. The Personal Access Token is scoped to Organization, and because the Organization is part only of a single Cell,
-       the PATs generated are prefixed with Cell identifier.
-    1. The Session Cookie encodes Organization in-use, and because the Organization is part only of a single Cell,
-       the session cookie generated is prefixed with Cell identifier.
+   1. The Personal Access Token is scoped to Organization, and because the Organization is part only of a single Cell,
+      the PATs generated are prefixed with Cell identifier.
+   1. The Session Cookie encodes Organization in-use, and because the Organization is part only of a single Cell,
+      the session cookie generated is prefixed with Cell identifier.
 1. The Cell EU0 allows only private organizations, groups, and projects.
 1. The Cell US0 is a target Cell for all requests unless explicitly prefixed.
 
@@ -531,7 +531,7 @@ Router rules:
         {
             "action": "classify",
             "classify": {
-                "type": "first_cell"
+                "type": "first_cell",
             }
         }
     ]
