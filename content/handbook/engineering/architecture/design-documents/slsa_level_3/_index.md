@@ -20,6 +20,7 @@ This document outlines the technical vision, principles, and key architectural d
 ## Proposal
 
 We propose a phased implementation of SLSA Level 3 compliance across GitLab CI/CD pipelines using modular and reusable components. Each phase addresses a critical step:
+
 1. In-Pipeline Sigstore Attestation Generation (Phase 1): Build and sign provenance within the pipeline.
 1. In-Pipeline Data Collection (Phase 2): Collect granular build metadata for enriched provenance.
 1. Platform Indication of Provenance Data (Phase 3): Integrate GitLab platform-specific metadata into provenance.
@@ -142,7 +143,7 @@ This phased approach ensures an MVP can be delivered early, with incremental sec
 
 The reusable component will abstract away the complexity of provenance generation and signing. It will be implemented as a GitLab CI Component using a template YAML file.
 
-#### Component Overview:
+#### Component Overview
 
 1. Input Variables:
    1. SIGNING_TOOL: Default to cosign.
@@ -154,7 +155,7 @@ The reusable component will abstract away the complexity of provenance generatio
 
 #### Example reusable Component YAML
 
-```
+```yaml
 # .gitlab/components/provenance-signer.yml
 component:
   inputs:
@@ -184,7 +185,7 @@ Here’s how a project would integrate the reusable component into their .gitlab
 
 Pipeline YAML Example
 
-```
+```yaml
 stages:
   - build
   - provenance
