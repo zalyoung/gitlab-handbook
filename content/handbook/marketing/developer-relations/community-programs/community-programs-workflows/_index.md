@@ -145,7 +145,7 @@ To do this, they use the same application forms they used when initially enrolli
 
 The success email will contain a direct link to a program-specific page for each program (Education/Open Source) in the GitLab Customers Portal.
 The program-specific pages are not available directly in the GitLab Customers Portal without the direct link.
-See [Community Programs' internal handbook](https://internal.gitlab.com/handbook/marketing/developer-relations-and-community/community-programs/) for direct links to these portals.
+See [Community Programs' internal handbook](https://internal.gitlab.com/handbook/marketing/developer-relations/community-programs/) for direct links to these portals.
 
 As they did when initially applying for the program, applicants enter their unique coupon codes during the checkout process.
 
