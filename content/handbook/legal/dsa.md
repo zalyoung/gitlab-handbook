@@ -43,7 +43,7 @@ description: "Use this form to report content that you believe is illegal in the
                         <option value="estonia">Estonia</option>
                         <option value="finland">Finland</option>
                         <option value="france">France</option>
-                        <option value="germany">Germany</option>
+                        <option value="Germany">Germany</option>
                         <option value="greece">Greece</option>
                         <option value="hungary">Hungary</option>
                         <option value="ireland">Ireland</option>
@@ -95,7 +95,7 @@ description: "Use this form to report content that you believe is illegal in the
         console.log("Triggering submit");
         $("#thankyou").show();
         $("#dsaFormDiv").hide();
-    }
+    });
 </script>
 
 <style>
