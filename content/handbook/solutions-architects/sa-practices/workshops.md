@@ -14,11 +14,14 @@ These sessions accelerate customer comfort and awareness while helping to refine
 
 ## Technical Requirements
 
-- Each workshop requires:
+Each workshop requires:
+
 - A dedicated GitLab instance for attendees to use during exercises
 - Pre-configured class projects
 - Setup of issue tracking workflows
 - Additional environment preparation specific to the workshop topic
+
+For more information, review the [Hands-On Workshop Tools and Resources](/handbook/solutions-architects/tools-and-resources/workshop) handbook page.
 
 ## Capacity and Format
 
