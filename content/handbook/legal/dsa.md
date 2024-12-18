@@ -83,6 +83,7 @@ description: "Use this form to report content that you believe is illegal in the
         console.log("Triggering submit");
         $("#thankyou").show();
         $("#dsaFormDiv").hide();
+        return false;
 </script>
 
 <style>
