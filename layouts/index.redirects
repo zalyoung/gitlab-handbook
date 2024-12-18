@@ -177,6 +177,13 @@
 /handbook/resellers/reseller-agreement/ /handbook/legal/reseller-agreement/ 301
 /teamops/everyone-contributes/ /teamops/equal-contributions/ 301
 
+# Analytics pages moved - remove 2025-03-15
+/handbook/engineering/development/ops/monitor/ /handbook/engineering/development/analytics/monitor/ 301
+/handbook/engineering/development/analytics/analytics-instrumentation/ handbook/engineering/development/analytics/monitor/analytics-instrumentation/ 301
+/handbook/engineering/development/ops/monitor/observability/ /handbook/engineering/development/analytics/monitor/platform-insights/ 301
+/handbook/engineering/development/analytics/product-analytics/ /handbook/engineering/development/analytics/monitor/platform-insights/ 301
+/handbook/engineering/development/dev/plan/optimize/ /handbook/engineering/development/analytics/monitor/optimize/ 301
+
 # Sec realignment - remove 2025-04-02
 /handbook/engineering/development/sec/govern/ /handbook/engineering/development/sec/software-supply-chain-security/ 301
 /handbook/engineering/development/sec/govern/authentication/ /handbook/engineering/development/sec/software-supply-chain-security/authentication/ 301
