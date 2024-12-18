@@ -585,7 +585,7 @@ Prior to generating a standard (non-draft) quote to deliver to a client or prosp
 1. Include the `Submitter Comments` on the quote before you submit for discount and terms approval. Please provide as much detail as to why you are requesting discounts or other terms that require approval.
 
    - **CRO Deal Approvals:**
-     - When requesting CRO approval for any discount or other non-standard deal element, please fill out the [CRO Deal Approval Template](https://docs.google.com/document/d/1thffIdwcjutUIhLW4tYlc_28O8ylPLB1WiFH98f20ac/edit) and provide a link to your copy within the request.
+     - When requesting CRO approval for any discount or other non-standard deal element, please fill out the [CRO Deal Approval Template](https://docs.google.com/document/d/1sBDE26cGC4-BXfFjicNNn7OVYhJ8jnRRpfTLpM6O6hE/edit?tab=t.0) and provide a link to your copy within the request.
      - When requesting approval via the SFDC Quote Object (i.e. clicking Submit for Approval), please link your copy of the CRO Deal Approval Template in the "Submitter Comments" field on the quote.
      - When requesting approval via SFDC Chatter, please link your copy of the CRO Deal Approval Template in the original chatter request when tagging Jake Bielecki.
      - *In all scenarios, please ensure Jake Bielecki has permission to access the form prior to submitting the quote for approval.*
