@@ -18,6 +18,7 @@ The SA leadership shadow program is a 2-week immersion to experience the [skills
 ## Participating in the Program
 
 ### Eligibility
+
 Candidates must:
 
 1. Complete their [Individual Growth Plan (IGP)](/handbook/people-group/learning-and-development/career-development/igp-guide)
@@ -53,6 +54,7 @@ Candidates must:
 As a shadow, you'll have access to confidential information requiring compliance with the [Designated Insiders process](https://docs.google.com/document/d/1mcBtnfGbv4jSsJUklMQYyj2052MBHe4Lf9RkE-B9yvA/edit?tab=t.0#heading=h.b3pm8ljoip1y) for the entire quarter. Even after the quarter is complete, the program's success depends on continually maintaining this trust beyond the duration of the shadow.
 
 ### Program Focus
+
 The shadow experience leading up to, during, and after the 2-week shadow is organized around the 3+1 rules framework:
 
 #### Rule 0: Manage Yourself
@@ -90,6 +92,7 @@ The shadow experience leading up to, during, and after the 2-week shadow is orga
 - Study customer satisfaction initiatives
 
 ### Skills Development
+
 | Skill | Development Activity |
 |-------|---------|
 | Lead by Example | Maintain account responsibilities, demonstrate proactive customer engagement |
