@@ -869,4 +869,15 @@ When a new team member moves to your team, in addition to the items above in "Tr
 - Include in this handover the information you need for talent assessment planning that was confidential and not discussed in the 1-1-1.
 - If your new direct report is potentially up for promotion in the next 6 months, be sure to transition the information that supports from the previous manager and be the DRI to drive this forward, including both information discussed in the 1-1-1 and any confidential information discussed in the `confidential handover`.
 
+## For Team Members: Updating Your Title After A Role Change
+
+Your profile will need to be updated in a few places to reflect your new title change. Including, but not limited to:
+
+- [GitLab profile](https://gitlab.com/-/user_settings/profile)
+- [GitLab Team Page](https://gitlab.com/gitlab-com/www-gitlab-com/-/tree/master/data/team_members/person)
+- [Zoom profile](https://zoom.us/profile)
+- Slack profile (updated within Slack)
+- Gmail signature (updated within Gmail), see [guidelines](https://handbook.gitlab.com/handbook/tools-and-tips/#email-signature)
+- [Guide profile](https://app.guide.co/account/profile), if you take part in hiring
+
 ## Footnotes
