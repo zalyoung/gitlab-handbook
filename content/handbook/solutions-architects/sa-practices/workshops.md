@@ -1,15 +1,38 @@
 ---
 title: Workshops
-description: A hands-on session where customers can explore functionality of GitLab and how it solves their business problems. 
+description: Workshops are interactive events designed to provide GitLab prospects and customers with hands-on experience in a live GitLab environment. Led by GitLab Solution Architects, these half-day pre-sales enablement sessions cover essential use cases and serve as an efficient alternative to extensive proofs of value (POVs).
 ---
 
 # Workshops
 
 ## Overview
 
-Workshops represent a strategic pre-sales enablement initiative designed to accelerate customer adoption and understanding of GitLab's comprehensive DevOps platform. These intensive, half-day sessions serve as a powerful alternative to traditional proofs of value (POVs), offering customers an immersive, hands-on experience with GitLab's diverse capabilities and use cases. By providing this interactive learning environment, workshops effectively bridge the gap between theoretical understanding and practical application, often eliminating or significantly reducing the need for extensive technical evaluations.
+Workshops are interactive events designed to provide GitLab prospects and customers with hands-on experience in a live GitLab environment. Led by GitLab Solution Architects, these half-day pre-sales enablement sessions cover essential use cases and serve as an efficient alternative to extensive proofs of value (POVs).
 
-The workshop format has proven particularly effective in building customer confidence and technical acceptance, frequently leading to accelerated buying decisions and reduced sales cycles. Through careful orchestration of demonstration, guided practice, and independent exploration, workshops create an environment where technical teams can experience firsthand how GitLab addresses their specific use cases and challenges.
+Common workshop topics include:
+- DevOps Automation
+- Portfolio and Project Management
+- Security
+- Advanced CI/CD
+
+These sessions accelerate customer comfort and awareness while helping to refine and reduce technical evaluation requirements. Workshops often minimize or eliminate the need for extensive POVs and can lead directly to technical wins.
+
+## Technical Requirements
+- Each workshop requires:
+- A dedicated GitLab instance for attendees to use during exercises
+- Pre-configured class projects
+- Setup of issue tracking workflows
+- Additional environment preparation specific to the workshop topic
+
+## Capacity and Format
+
+To ensure optimal experience:
+
+- Attendance is limited to 200 or fewer participants
+- This limit enables:
+    - Stable working environments for all attendees
+    - Timely responses to questions and issues
+    - Effective hands-on guidance
 
 ### Key Benefits
 
