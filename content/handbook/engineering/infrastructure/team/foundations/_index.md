@@ -21,16 +21,16 @@ The Foundations team's flagship focus is our networking infrastructure, which we
 
 #### Networking Infrastructure
 
-   - [Edge](https://www.cloudflare.com/learning/serverless/glossary/what-is-edge-computing/) and [ingress](https://kubernetes.io/docs/concepts/services-networking/ingress/#what-is-ingress) services
-   - Load balancing ([HAProxy](https://gitlab.com/gitlab-com/runbooks/-/blob/master/docs/frontend/haproxy.md), Ingress)
-   - Web Application Firewall (WAF)
-   - DNS ([AWS Route 53](https://gitlab.com/gitlab-com/runbooks/-/blob/master/docs/uncategorized/manage-dns-entries.md), [Cloudflare](https://gitlab.com/gitlab-com/runbooks/-/tree/master/docs/cloudflare))
-   - [VPC management](https://gitlab.com/gitlab-com/runbooks/-/blob/master/docs/uncategorized/subnet-allocations.md)
-   - CDN ([Cloudflare](https://gitlab.com/gitlab-com/runbooks/-/tree/master/docs/cloudflare))
-   - Network security and access controls
-   - Service discovery ([Consul](https://gitlab.com/gitlab-com/runbooks/-/tree/master/docs/consul))
-   - [Rate limiting](https://gitlab.com/gitlab-com/runbooks/-/tree/master/docs/rate-limiting)
-      - Design and implementation of rate limiting services
+- [Edge](https://www.cloudflare.com/learning/serverless/glossary/what-is-edge-computing/) and [ingress](https://kubernetes.io/docs/concepts/services-networking/ingress/#what-is-ingress) services
+- Load balancing ([HAProxy](https://gitlab.com/gitlab-com/runbooks/-/blob/master/docs/frontend/haproxy.md), Ingress)
+- Web Application Firewall (WAF)
+- DNS ([AWS Route 53](https://gitlab.com/gitlab-com/runbooks/-/blob/master/docs/uncategorized/manage-dns-entries.md), [Cloudflare](https://gitlab.com/gitlab-com/runbooks/-/tree/master/docs/cloudflare))
+- [VPC management](https://gitlab.com/gitlab-com/runbooks/-/blob/master/docs/uncategorized/subnet-allocations.md)
+- CDN ([Cloudflare](https://gitlab.com/gitlab-com/runbooks/-/tree/master/docs/cloudflare))
+- Network security and access controls
+- Service discovery ([Consul](https://gitlab.com/gitlab-com/runbooks/-/tree/master/docs/consul))
+- [Rate limiting](https://gitlab.com/gitlab-com/runbooks/-/tree/master/docs/rate-limiting)
+   - Design and implementation of rate limiting services
 
 ### Maintained Services
 
