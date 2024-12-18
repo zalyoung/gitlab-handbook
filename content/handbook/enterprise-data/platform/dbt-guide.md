@@ -1672,6 +1672,8 @@ Increasing the warehouse size will not always mean an increase in performance an
 - If refactoring has not improved the Model Efficiency, an increase to the Warehouse Size may be warranted.
 - If Model Efficiency is Good but the model is reaching the timeout limit for the warehouse then an increase to the Warehouse Size may be warranted.
 
+The [Snowflake warehouse sizing](/handbook/enterprise-data/platform/pipelines/snowflake-warehouse-optimization/) handbook page has guidelines on properly sizing dbt models.
+
 ## Upgrading dbt
 
 See the [runbook](https://gitlab.com/gitlab-data/runbooks/-/blob/main/infrastructure/upgrading_dbt_version.md) for instructions on how to independently and asyncronously upgrade dbt.
@@ -1686,6 +1688,20 @@ When a major release happens, we should upgrade to the new major version before 
 
 dbt upgrades should take place on a Tuesday of a week in which there are no major worldwide holidays or [Family and Friends days](/handbook/company/family-and-friends-day/). This is to enable enough time for team members to correct any breaking changes that weren't caught in testing without having to work through the weekend. In a worst case scenario, the upgrade can be rolled back on Wednesday so that normal operations can resume for the remainder of the week.
 
-## Snowflake Warehouse Sizing
+## Specifying warehouse size on dbt model level
 
-The [Snowflake warehouse sizing](/handbook/enterprise-data/platform/pipelines/snowflake-warehouse-optimization/) handbook page has guidelines on properly sizing dbt models.
+New `product` and `non-product` models will use a default 'L' warehouse size going forward.
+
+Context: In order to decrease the runtime of the production dbt DAG, the `product` and `non-product` models have been consolidated into one Airflow task, [MR](https://gitlab.com/gitlab-data/analytics/-/merge_requests/11305). This means that the new default warehouse size will be 'L', and that if an 'XL' needs to be used, it needs to be specified on the dbt model level.
+
+To specify the warehouse on the dbt model level (thus overriding the default warehouse), you need to add a config block to the model:
+
+```sql
+{{ config(
+    snowflake_warehouse=generate_warehouse_name('XL')
+) }}
+```
+
+[dim_note.sql](https://gitlab.com/gitlab-data/analytics/-/blob/master/transform/snowflake-dbt/models/common/dimensions_local/product_and_engineering/dim_note.sql) is an example model you can refer to.
+
+For more info on choosing the correct warehouse, please see the 'Check Warehouse Size viability' section of this page.
