@@ -45,7 +45,7 @@ The Product Security sub-department includes the following teams. Learn more abo
 
 ### PTO Framework
 
-Product Security is a key actor in ensuring our product's security.
+Product Security ensures that GitLab meets the stringent operational and security requirements that software factories depend on to empower their own businesses.
 
 With some projects having visibility up to the E-Group and our rotations being a critical part of our operational work, before you book your hotel, flight and submit your PTO ensure that:
 
