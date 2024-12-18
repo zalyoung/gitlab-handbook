@@ -109,7 +109,7 @@ Although we place special emphasis on Referrals, we treat Referral interviews th
   
 #### Referral Bonus Eligibility
 
-All GitLab team members are eligible for the [Referral Bonus]({{< ref "incentives#referral-bonuses" >}}), except in [certain circumstances]({{< ref "incentives#exceptions" >}}).
+All GitLab team members are eligible for the [Referral Bonus](https://handbook.gitlab.com/handbook/total-rewards/incentives/#referral-bonuses), except in [certain circumstances](https://handbook.gitlab.com/handbook/total-rewards/incentives/#exceptions).
 
 #### Referral Bonus Payout and Processing
 
