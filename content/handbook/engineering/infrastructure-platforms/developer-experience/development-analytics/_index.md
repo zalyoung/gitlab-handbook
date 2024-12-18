@@ -12,7 +12,7 @@ description: "Development Analytics Group under Developer Experience Stage"
 | **Slack Handle**               | `@dx-development-analytics` |
 | **Team Boards**         | [`Team Work Board`](https://gitlab.com/groups/gitlab-org/-/boards/8966549?label_name%5B%5D=group::development%20analytics)  |
 | **Issue Tracker**       | [`tracker`](https://gitlab.com/groups/gitlab-org/quality/dx/analytics/-/issues) |
-| **GitLab Repositories**| [development-analytics](https://gitlab.com/gitlab-org/quality/dx/analytics)|
+| **GitLab Repositories**| [development-analytics](https://gitlab.com/gitlab-org/quality/analytics)|
 
 ## Mission
 
