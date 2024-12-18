@@ -269,12 +269,10 @@ Once the KPI has been added to our enterprise BI platform, the Data Team will pr
 
 ### SLO for Issues and Merge Requests
 
-- First-Response SLO for a new Issue or MR: 36 hours from the time of creation
-- Issue Close SLO for a new Issue or MR is based on the [Issue Weight](/handbook/enterprise-data/how-we-work/#issue-pointing) assigned by the Data Team.
-  - Issue weight of 1-5 points: 4 weeks (2 iterations)
-  - Issue weight > 5 points: No SLO
-- MR Review SLO
-  - 4 weeks (2 iterations)
+- First-Response SLO for a new Issue: 2 business days from the time of issue creation
+- First-Response SLO for a new MR: 2 business days from the time of submission to the codeowner
+
+When opening an issue or submitting a MR for review, it is good to add a comment bringing the issue or MR to the attention of a DRI or codeowner. Please allow the SLO time period to expire before requesting additional updates or first responses on an Issue or MR. Issues and MRs within the SLO time period are not considered blocked. If the issue or MR is urgent or a break-fix scenario, it is good to follow-up with the team member in the Issue or MR within the SLO period as determined by the required urgency and importance.
 
 ### Removal and deletion process
 <!-- @dennis is there an iteration on this one, get @chris and @peter to contribute here -->
