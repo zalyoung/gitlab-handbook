@@ -3,8 +3,6 @@ title: Workshops
 description: Workshops are interactive events designed to provide GitLab prospects and customers with hands-on experience in a live GitLab environment. Led by GitLab Solution Architects, these half-day pre-sales enablement sessions cover essential use cases and serve as an efficient alternative to extensive proofs of value (POVs).
 ---
 
-Workshops are interactive events designed to provide GitLab prospects and customers with hands-on experience in a live GitLab environment. Led by GitLab Solution Architects, these half-day pre-sales enablement sessions cover essential use cases and serve as an efficient alternative to extensive proofs of value (POVs).
-
 Common workshop topics include:
 
 - DevOps Automation
