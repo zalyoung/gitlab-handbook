@@ -28,6 +28,7 @@ The Foundations team's flagship focus is our networking infrastructure, which we
    - [VPC management](https://gitlab.com/gitlab-com/runbooks/-/blob/master/docs/uncategorized/subnet-allocations.md)
    - CDN ([Cloudflare](https://gitlab.com/gitlab-com/runbooks/-/tree/master/docs/cloudflare))
    - Network security and access controls
+   - Service discovery ([Consul](https://gitlab.com/gitlab-com/runbooks/-/tree/master/docs/consul))
    - [Rate limiting](https://gitlab.com/gitlab-com/runbooks/-/tree/master/docs/rate-limiting)
       - Design and implementation of rate limiting services
 
@@ -43,7 +44,6 @@ Services that are within GitLab.com's ecosystem, generally not talking directly 
 | ------- | ----------- | --------- |
 | SaaS K8s workloads | [K8S workloads deployments](https://gitlab.com/gitlab-com/runbooks/-/blob/master/docs/onboarding/gitlab.com_on_k8s.md), Cluster addons | Autodeploy is owned by Delivery, Tanka and Helmfiles are often shared by other teams |
 | Config | [Terraform](https://gitlab.com/gitlab-com/runbooks/-/blob/master/docs/uncategorized/terraform-broken-master.md), [Chef](https://gitlab.com/gitlab-com/runbooks/-/tree/master/docs/config_management), Image Builds | The core TF repos are maintained by Foundations, while specific modules may be maintained by the teams that use them |
-| Service discovery | [Consul](https://gitlab.com/gitlab-com/runbooks/-/tree/master/docs/consul) | |
 | Secrets Management | [Vault](https://gitlab.com/gitlab-com/runbooks/-/tree/master/docs/vault) | |
 | Ops | [Ops.gitlab.net](https://gitlab.com/gitlab-com/runbooks/-/tree/master/docs/ops), [Ops Runners](https://gitlab.com/gitlab-com/runbooks/-/blob/master/docs/uncategorized/subnet-allocations.md) | |
 
