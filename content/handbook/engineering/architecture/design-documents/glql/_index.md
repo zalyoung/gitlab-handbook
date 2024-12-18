@@ -1,6 +1,6 @@
 ---
 title: GitLab Query Language (GLQL)
-status: proposed
+status: ongoing
 creation-date: "2024-09-25"
 authors: ["@himkp"]
 coaches: ["@ntepluhina"]
