@@ -3,13 +3,10 @@ title: Workshops
 description: Workshops are interactive events designed to provide GitLab prospects and customers with hands-on experience in a live GitLab environment. Led by GitLab Solution Architects, these half-day pre-sales enablement sessions cover essential use cases and serve as an efficient alternative to extensive proofs of value (POVs).
 ---
 
-# Workshops
-
-## Overview
-
 Workshops are interactive events designed to provide GitLab prospects and customers with hands-on experience in a live GitLab environment. Led by GitLab Solution Architects, these half-day pre-sales enablement sessions cover essential use cases and serve as an efficient alternative to extensive proofs of value (POVs).
 
 Common workshop topics include:
+
 - DevOps Automation
 - Portfolio and Project Management
 - Security
@@ -18,6 +15,7 @@ Common workshop topics include:
 These sessions accelerate customer comfort and awareness while helping to refine and reduce technical evaluation requirements. Workshops often minimize or eliminate the need for extensive POVs and can lead directly to technical wins.
 
 ## Technical Requirements
+
 - Each workshop requires:
 - A dedicated GitLab instance for attendees to use during exercises
 - Pre-configured class projects
@@ -30,13 +28,14 @@ To ensure optimal experience:
 
 - Attendance is limited to 200 or fewer participants
 - This limit enables:
-    - Stable working environments for all attendees
-    - Timely responses to questions and issues
-    - Effective hands-on guidance
+  - Stable working environments for all attendees
+  - Timely responses to questions and issues
+  - Effective hands-on guidance
 
 ### Key Benefits
 
 The workshop approach delivers multiple strategic advantages in the pre-sales process:
+
 - Dramatically accelerates customer comfort and awareness with GitLab's extensive feature set through direct, hands-on experience
 - Substantially reduces or completely eliminates the requirement for time-consuming and resource-intensive POVs
 - Provides technical teams with immediate, practical experience in applying GitLab to their specific use cases
@@ -47,6 +46,7 @@ The workshop approach delivers multiple strategic advantages in the pre-sales pr
 ## Audience
 
 Workshops are strategically designed to engage a diverse technical audience, typically including:
+
 - Software Developers and Engineering Teams: Those directly responsible for code development and deployment
 - DevOps Practitioners: Professionals focused on streamlining development and operational processes
 - Security Professionals: Team members responsible for application and infrastructure security
@@ -60,6 +60,7 @@ Workshops are strategically designed to engage a diverse technical audience, typ
 ### Structure
 
 1. Customer Background Discussion and Context Setting
+
    - In-depth exploration of the customer's current technical landscape
    - Detailed discussion of challenges and pain points driving GitLab evaluation
    - Establishment of specific workshop objectives and success criteria
@@ -67,6 +68,7 @@ Workshops are strategically designed to engage a diverse technical audience, typ
    - Review of current development processes and desired improvements
 
 2. Comprehensive Demonstration Phase
+
    - Strategic showcase of GitLab capabilities aligned with customer needs
    - Live demonstration of relevant workflows and integrations
    - Real-world examples of how GitLab addresses specific customer challenges
@@ -74,6 +76,7 @@ Workshops are strategically designed to engage a diverse technical audience, typ
    - Interactive Q&A to address specific technical questions
 
 3. Guided Hands-on Portion
+
    - Step-by-step walkthrough of key GitLab features and functionality
    - Practical exercises designed to reinforce learning objectives
    - Direct assistance with configuration and setup
@@ -81,6 +84,7 @@ Workshops are strategically designed to engage a diverse technical audience, typ
    - Real-time feedback and guidance from GitLab experts
 
 4. Independent Hands-on Labs
+
    - Self-directed exploration of GitLab features
    - Application of learned concepts to customer-specific scenarios
    - Opportunity for deep-dive into areas of particular interest
@@ -92,6 +96,7 @@ Workshops are strategically designed to engage a diverse technical audience, typ
 The workshop format offers flexible delivery options to accommodate various customer needs:
 
 In-Person Sessions:
+
 - Direct, face-to-face interaction with GitLab experts
 - Immediate assistance with technical questions
 - Enhanced collaboration opportunities
@@ -99,6 +104,7 @@ In-Person Sessions:
 - Easier handling of complex technical discussions
 
 Remote Delivery via Zoom:
+
 - Broader accessibility for geographically dispersed teams
 - Recording capabilities for future reference
 - Screen sharing for detailed technical demonstrations
@@ -106,6 +112,7 @@ Remote Delivery via Zoom:
 - Chat functionality for resource sharing and quick questions
 
 Duration and Timing:
+
 - Typical length: 2-4 hours, allowing for comprehensive coverage
 - Strategic breaks to maintain engagement
 - Flexible scheduling to accommodate different time zones
@@ -132,6 +139,7 @@ Understanding the distinct characteristics of workshops and demonstrations is cr
 ### Essential Preparation Steps
 
 1. **Comprehensive Dry Runs**
+
    - Execute multiple complete rehearsals of the workshop content
    - Practice handling various technical scenarios and potential issues
    - Prepare detailed verbal explanations for complex concepts
@@ -142,6 +150,7 @@ Understanding the distinct characteristics of workshops and demonstrations is cr
    - Practice recovery procedures for potential technical issues
 
 2. **Interactive Engagement Strategies**
+
    - Implement regular checkpoints for participant questions
    - Create natural breaks in content for discussion
    - Prepare discovery questions to gather valuable customer insight
@@ -151,6 +160,7 @@ Understanding the distinct characteristics of workshops and demonstrations is cr
    - Develop contingency plans for low participation
 
 3. **Resource Management and Organization**
+
    - Prepare comprehensive resource documentation
    - Create easily accessible link repositories
    - Organize session registration processes
@@ -160,6 +170,7 @@ Understanding the distinct characteristics of workshops and demonstrations is cr
    - Maintain updated reference materials
 
 4. **Structured Delivery Framework**
+
    - Develop clear, step-by-step instruction sets
    - Create visual aids for complex concepts
    - Implement consistent progress tracking methods
@@ -173,6 +184,7 @@ Understanding the distinct characteristics of workshops and demonstrations is cr
 A dedicated workshop companion serves as a crucial support resource, responsible for:
 
 Technical Support:
+
 - Maintaining comprehensive knowledge of workshop content
 - Managing Learn Labs session access and technical issues
 - Providing real-time troubleshooting assistance
@@ -180,6 +192,7 @@ Technical Support:
 - Managing technical infrastructure during the session
 
 Communication Support:
+
 - Managing question queues and discussion threads
 - Sharing resources and links in chat
 - Documenting key discussion points
@@ -187,6 +200,7 @@ Communication Support:
 - Facilitating breakout sessions when needed
 
 Documentation:
+
 - Maintaining detailed session notes
 - Recording key technical questions and answers
 - Documenting customer-specific requirements
@@ -194,6 +208,7 @@ Documentation:
 - Creating summary reports post-workshop
 
 Backup Coverage:
+
 - Being prepared to take over presentation if needed
 - Managing technical difficulties
 - Handling unexpected situations
@@ -205,6 +220,7 @@ Backup Coverage:
 Workshops can be evaluated based on several key success indicators:
 
 Immediate Outcomes:
+
 - Reduction or elimination of POV requirements
 - Achievement of technical acceptance
 - Positive participant feedback
@@ -212,6 +228,7 @@ Immediate Outcomes:
 - Clarification of technical requirements
 
 Long-term Impact:
+
 - Acceleration of sales cycle
 - Increased GitLab adoption rates
 - Improved customer satisfaction
@@ -219,6 +236,7 @@ Long-term Impact:
 - Enhanced customer relationship development
 
 Measurement Methods:
+
 - Participant surveys and feedback forms
 - Technical requirement resolution tracking
 - Sales cycle duration analysis
