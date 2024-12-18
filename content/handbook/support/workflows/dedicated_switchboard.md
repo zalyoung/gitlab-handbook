@@ -25,7 +25,7 @@ During [onboarding](https://docs.gitlab.com/ee/administration/dedicated/#onboard
 ### Password reset
 
 There is currently no self-serve option for switchboard users to reset their passwords. This feature is being worked on in [issue 3982](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/team/-/issues/3982) (internal).
-Until this feature is implemeted, please raise a [Request for help issue for the Switchcboard team](https://gitlab.com/gitlab-com/request-for-help/-/issues/new?issuable_template=SupportRequestTemplate-Switchboard.md).
+Until this feature is implemeted, please raise a [Request for help issue for the Switchcboard team](https://gitlab.com/gitlab-com/request-for-help/-/issues/new?issuable_template=SupportRequestTemplate-Switchboard).
 
 ## Accessing customer configuration
 
