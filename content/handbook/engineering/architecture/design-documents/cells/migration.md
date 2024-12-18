@@ -161,7 +161,7 @@ Limitations:
 
 We will migrate a few small GitLab internal top-level groups to a secondary cell. There will be no customer org migrations in Cells 1.0. The specific top-level groups to be migrated will be identified in due course.
 
-![org-migrations-cells-1-0]diagrams/org_migrations_cells_1_0.png)
+![org-migrations-cells-1-0](/images/design-documents/cells/org_migrations_cells_1_0.png)
 
 All existing top-level Groups on GitLab.com are part of the `default Organization`. A list of all GitLab top-level groups can be found [here(internal link)](https://docs.google.com/spreadsheets/d/18JSGNWYXhAofSqPPLCh_wb0dc9wTT9HuOucHegmsYhA/edit#gid=0).
 
@@ -189,7 +189,8 @@ Limitations:
 
 At Cells 1.5, we will consolidate the GitLab Organization by merging the top-levels groups that are part of the GitLab Inc Organization with the main GitLab Organization - the long term home for all GitLab top-level groups.
 
-![org-migrations-cells-1-5](diagrams/org_migrations_cells_1_5.png)
+![org-migrations-cells-1-5](/images/design-documents/cells/org_migrations_cells_1_5.png)
+
 
 All remaining top-level GitLab groups on the legacy Cell will be moved to the GitLab Organization. The entire GitLab Organization will be moved to a secondary cell using org mover. Following this, Organizations will be consolidated by moving the top-level groups in the temporary GitLab Inc Organization into the GitLab Organization. The GitLab Inc org will then be deleted.
 
