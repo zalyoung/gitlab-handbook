@@ -65,6 +65,98 @@ Conflicts:
 1. Mising rows will be synchronized from the leader cell.
 1. Rows with conflicting data will be replaced by data from the leader cell.
 
+### Analysis of clusterwide tables
+
+Below is an analysis of clusterwide tables, which can be categorized into 4
+different types:
+
+1. Reference table. Tables which are constant / exactly the same for all cells.
+1. Instance Setting table. Tables which host settings which needs to affect all
+   cells.
+1. Organization / Cell table. Tables which may be better categorized as
+   `gitlab_main_cell`.
+1. User table. Tables related to users, and can be synchronized later in Cells 1.5+
+   (not Cells 1.0).
+
+| Table                                                     | Reference table | Instance Setting table | Organization / Cell table | User table |
+|-----------------------------------------------------------|-----------------|------------------|------------------------|------|
+| abuse_events                                              |                 |                  |                        | Y    |
+| abuse_report_assignees                                    |                 |                  |                        | Y    |
+| abuse_report_events                                       |                 |                  |                        | Y    |
+| abuse_report_label_links                                  |                 |                  |                        | Y    |
+| abuse_report_labels                                       |                 |                  |                        | Y    |
+| abuse_report_notes                                        |                 |                  |                        | Y    |
+| abuse_report_user_mentions                                |                 |                  |                        | Y    |
+| abuse_reports                                             |                 |                  |                        | Y    |
+| abuse_trust_scores                                        |                 |                  |                        | Y    |
+| ai_feature_settings                                       |                 | Y                |                        |      |
+| ai_self_hosted_models                                     | Y               |                  |                        |      |
+| ai_settings                                               |                 | Y                |                        |      |
+| ai_testing_terms_acceptances                              |                 |                  | Maybe                  |      |
+| appearances                                               |                 | Y                |                        |      |
+| application_setting_terms                                 | Y               |                  |                        |      |
+| application_settings                                      |                 | Y                |                        |      |
+| atlassian_identities                                      |                 |                  |                        | Y    |
+| audit_events_instance_amazon_s3_configurations            |                 |                  | Maybe                  |      |
+| audit_events_instance_external_audit_event_destinations   |                 |                  | Maybe                  |      |
+| audit_events_instance_external_streaming_destinations     |                 |                  | Maybe                  |      |
+| audit_events_instance_google_cloud_logging_configurations |                 |                  | Maybe                  |      |
+| audit_events_instance_streaming_event_type_filters        |                 |                  | Maybe                  |      |
+| audit_events_streaming_instance_event_type_filters        |                 |                  | Maybe                  |      |
+| authentication_events                                     |                 |                  |                        | Y    |
+| aws_roles                                                 |                 |                  |                        | Y    |
+| banned_users                                              |                 |                  |                        | Y    |
+| broadcast_messages                                        | Y               |                  | Maybe ?                |      |
+| cloud_connector_access                                    |                 | Y                |                        |      |
+| deploy_tokens                                             |                 |                  |                        | Y    |
+| early_access_program_tracking_events                      |                 |                  |                        | Y    |
+| emails                                                    |                 |                  |                        | Y    |
+| ghost_user_migrations                                     |                 |                  |                        | Y    |
+| gpg_key_subkeys                                           |                 |                  |                        | Y    |
+| gpg_keys                                                  |                 |                  |                        | Y    |
+| identities                                                |                 |                  |                        | Y    |
+| instance_audit_events                                     |                 |                  | Maybe                  |      |
+| instance_audit_events_streaming_headers                   |                 |                  | Maybe                  |      |
+| instance_integrations                                     |                 |                  | Maybe                  |      |
+| keys                                                      |                 |                  |                        | Y    |
+| licenses                                                  | Y               |                  |                        |      |
+| oauth_applications                                        |                 |                  | Maybe                  |      |
+| plan_limits                                               |                 | Y                |                        |      |
+| plans                                                     | Y               |                  |                        |      |
+| programming_languages                                     |                 |                  | Maybe                  |      |
+| redirect_routes                                           |                 |                  | Y                      |      |
+| routes                                                    |                 |                  | Y                      |      |
+| saved_replies                                             |                 |                  |                        | Y    |
+| security_training_providers                               |                 |                  | Maybe                  |      |
+| service_access_tokens                                     |                 | Y                |                        |      |
+| smartcard_identities                                      |                 |                  |                        | Y    |
+| spam_logs                                                 |                 |                  |                        | Y    |
+| subscription_add_ons                                      | Y               |                  |                        |      |
+| term_agreements                                           |                 |                  |                        | Y    |
+| user_agent_details                                        |                 |                  |                        | Y    |
+| user_audit_events                                         |                 |                  |                        | Y    |
+| user_broadcast_message_dismissals                         |                 |                  |                        | Y    |
+| user_callouts                                             |                 |                  |                        | Y    |
+| user_credit_card_validations                              |                 |                  |                        | Y    |
+| user_custom_attributes                                    |                 |                  |                        | Y    |
+| user_details                                              |                 |                  |                        | Y    |
+| user_follow_users                                         |                 |                  |                        | Y    |
+| user_highest_roles                                        |                 |                  |                        | Y    |
+| user_member_roles                                         |                 |                  |                        | Y    |
+| user_permission_export_uploads                            |                 |                  |                        | Y    |
+| user_phone_number_validations                             |                 |                  |                        | Y    |
+| user_preferences                                          |                 |                  |                        | Y    |
+| user_statuses                                             |                 |                  |                        | Y    |
+| user_synced_attributes_metadata                           |                 |                  |                        | Y    |
+| users                                                     |                 |                  |                        | Y    |
+| users_statistics                                          |                 |                  |                        | Y    |
+| vs_code_settings                                          |                 |                  |                        | Y    |
+| webauthn_registrations                                    |                 |                  |                        | Y    |
+| work_item_hierarchy_restrictions                          | Y               |                  |                        |      |
+| work_item_related_link_restrictions                       | Y               |                  |                        |      |
+| work_item_types                                           | Y               |                  |                        |      |
+| work_item_widget_definitions                              | Y               |                  |                        |      |
+
 ### Post Cells 1.0
 
 It is anticipated that other clusterwide tables like `users` will need to be
