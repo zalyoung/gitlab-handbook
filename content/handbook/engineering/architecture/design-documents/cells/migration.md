@@ -191,7 +191,6 @@ At Cells 1.5, we will consolidate the GitLab Organization by merging the top-lev
 
 ![org-migrations-cells-1-5](/images/design-documents/cells/org_migrations_cells_1_5.png)
 
-
 All remaining top-level GitLab groups on the legacy Cell will be moved to the GitLab Organization. The entire GitLab Organization will be moved to a secondary cell using org mover. Following this, Organizations will be consolidated by moving the top-level groups in the temporary GitLab Inc Organization into the GitLab Organization. The GitLab Inc org will then be deleted.
 
 ### Cells 2.0
