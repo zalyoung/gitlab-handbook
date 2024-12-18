@@ -8,7 +8,7 @@ description: "Information about monitoring and logging tools of Duo Workflow."
 Duo Workflow uses the following logging and monitoring tools:
 
 1. [LangSmith](https://smith.langchain.com/o/477de7ad-583e-47b6-a1c4-c4a0300e7aca/projects/p/5409132b-2cf3-4df8-9f14-70204f90ed9b?timeModel=%7B%22duration%22%3A%227d%22%7D) - collects logs scoped to underlaying graph execution, including inforamtion like: LLM completions or tool calls
-2. [gcp logs explorer](https://console.cloud.google.com/logs/query;query=resource.labels.service_name%3D%22duo-workflow%22%0AjsonPayload.workflow_id%3D%2212312415%22%0AjsonPayload.gitlab_global_user_id%3D%22evhd9EY......%22%0AjsonPayload.correlation_id%3D%2268bd87b3-fb70-4093-afb7-21f30ab6021d%22%0A--%20jsonPayload.level%3D%22error%22%0A;cursorTimestamp=2024-12-17T13:17:58.986139Z;duration=P1D?hl=en&invt=AbkXXw&project=gitlab-runway-production&inv=1) - Runway logs
+2. [GCP logs explorer](https://console.cloud.google.com/logs/query;query=resource.labels.service_name%3D%22duo-workflow%22%0AjsonPayload.workflow_id%3D%2212312415%22%0AjsonPayload.gitlab_global_user_id%3D%22evhd9EY......%22%0AjsonPayload.correlation_id%3D%2268bd87b3-fb70-4093-afb7-21f30ab6021d%22%0A--%20jsonPayload.level%3D%22error%22%0A;cursorTimestamp=2024-12-17T13:17:58.986139Z;duration=P1D?hl=en&invt=AbkXXw&project=gitlab-runway-production&inv=1) - Runway logs
 3. Sentry error tracking collects error traces for:
     1. [Duo Workflow Service](https://new-sentry.gitlab.net/organizations/gitlab/issues/?limit=5&project=36&query=&sort=freq&statsPeriod=14d)
     2. [Duow Workflow Executor](https://new-sentry.gitlab.net/organizations/gitlab/issues/?limit=5&project=40&query=&sort=freq&statsPeriod=14d)
@@ -35,27 +35,27 @@ When browsing Runway logs you can narrow scope to piece of infrastructure that i
 
    ```plain
    resource.labels.service_name="duo-workflow
-   ``` 
+   ```
 
-### gRPCulr
+### gRPCurl
 
-The [grpcurl](https://github.com/fullstorydev/grpcurl) is a cli tool that enabled one to interacti with gRPC servers just like `curl` does for http ones.
+The [grpcurl](https://github.com/fullstorydev/grpcurl) is a cli tool that enables you to interact with gRPC servers just like `curl` does for http ones.
 
-An example usage of `grcurl` for Duo Workflow is shown in the example below:
+An example usage of `grpcurl` for Duo Workflow is shown in the example below:
 
-1. Duo Workflow credentails can be obtained via `curl` 
+1. Duo Workflow credentails can be obtained via `curl`
 
 ```bash
 curl -X POST -H "Authorization: Bearer $GITLAB_API_PRIVATE_TOKEN" https://gitlab.com/api/v4/ai/duo_workflows/direct_access
 ```
 
-1. With credentails assigned to environment viariables `grpcurl` can be used to start bidirectional channel to Duo Workflow Service
+1. With credentials assigned to environment variables `grpcurl` can be used to start bidirectional channel to Duo Workflow Service
 
 ```bash
 grpcurl -keepalive-time 20 -H "x-gitlab-global-user-id":"$GLOBAL_USER_ID" \
    -H "x-gitlab-instance-id":"ea8bf81......." -H "x-gitlab-realm":"saas" \
    -H "x-gitlab-authentication-type":"oidc" \
-   -H authorization:"bearer $GRPC_TOKEN" -d @ -vv -proto ../duo-workflow-service/contract/contract.proto 
+   -H authorization:"bearer $GRPC_TOKEN" -d @ -vv -proto ../duo-workflow-service/contract/contract.proto
    -import-path ../duo-workflow-service/contract cloud.gitlab.com:443 DuoWorkflow/ExecuteWorkflow
 
 
