@@ -89,6 +89,7 @@ BDRs are able to create individual flows that must be approved by their managers
   - Department, Inbound/Outbound, High Touch/Low Touch, Region, Description, Language
   - Example: SD IB LT EMEA CONTENT GER
   - All Sales Dev flows begin with “SD”
+- Is the flow in your (the managers) ownership?
 - Have you added the flow to your team collection?
 - Are there labels used that align to our naming convention? (Do not create new labels)
 - Is email tracking on/off for each email step?
@@ -117,9 +118,9 @@ BDRs are able to create individual flows that must be approved by their managers
 **Flow Approval Full Process and Order of Events**
 
 1. BDR creates flow and submits for approval in Groove
-2. Manager checks and Approves flow (Directions above)
-3. Manager Sends flow to Operations (Panos for EMEA/APJ, Ed for AMER)
-4. Operations Transfers Ownership from BDR to Manager within 24 hours
+2. Manager Sends flow to Operations (Panos for EMEA/APJ, Ed for AMER)
+3. Operations Transfers Ownership from BDR to Manager within 24 hours
+4. Manager checks and Approves flow (Directions above)
 5. BDR can now add prospects to the flow after ownership is transferred
 
 ### Sales: Flow Creation Requirements & Sharing with BDRs
