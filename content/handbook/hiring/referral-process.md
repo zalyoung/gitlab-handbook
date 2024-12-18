@@ -10,6 +10,7 @@ description: "While GitLab’s Referral program is fairly straight-forward, ther
 **Referral** - Someone you have worked with in the past, or have developed a close personal relationship with. This person should align with our values and the requirements of the role, and be someone you would choose to work with based on what you know about their skills and values alignment. 
 
 **Endorsement** - Endorsements are not referrals, but a recommendation you can make on behalf of a candidate who has shown interest in an open role at GitLab. Examples of an Endorsement include:
+
 - Someone you’ve previously worked with reaches out about another person they know who has applied, and they recommend them. 
 - An acquaintance or friend of a friend reaches out to you about an open position here and you can’t speak to their character or skillset. 
 
@@ -29,6 +30,7 @@ A Referral is **not**:
   - However, if the Intern is converted to a Team Member for the same/similar role, then the referring Team Member will receive a referral bonus per the [referral bonus guidelines](https://handbook.gitlab.com/handbook/total-rewards/incentives/#referral-bonuses) upon transitioning to the new employment status.
 
 #### Expectations of Referrer
+
 1. Check alignment with the role and its requirements
     - While they don’t need to meet all requirements, alignment with the majority is essential.
 2. Confirm a candidate lives in a location we can hire in by checking the [Country Hiring Status page](https://comp-calculator.gitlab.net/hiring_status/index) in the Compensation Calculator. 
@@ -50,6 +52,7 @@ A Referral is **not**:
 3. Click `Add this referral` and you’ll see the referral in the `My Referrals` section of your dashboard. 
 
 ##### Things to Note:
+
 - A referral must be submitted to a specific requisition - general referrals are not accepted.
 - If you see CURRENT TEAM MEMBERS ONLY - before a requisition, please note that the requisition is for Internal Team Members only; please do not submit a referral.
 - Please keep in mind that it is ultimately at the discretion of the Recruiter and/or Hiring Manager to proceed with your referral once submitted, depending on the candidate’s skills, experience and alignment with the role. 
@@ -114,8 +117,9 @@ For details regarding the Referral Bonus Payout, please visit [this page](https:
 
 For process instructions on how to process referrals, please visit [the Referral Operations page](https://handbook.gitlab.com/handbook/hiring/referral-operations/).
 
-For any additional questions, please post in the #talent-acquisition Slack channel.
+For any additional questions, please post in the talent-acquisition Slack channel.
 
 #### Cold LinkedIn Outreach 
+
 - If someone you have not worked with reaches out requesting to be referred for an open role, you can respond with the message below. Please adjust the order and content to reflect your own style and tone as needed:
   - _“Thank you for your interest in GitLab. Unfortunately, I cannot refer you for the position as we have not had a chance to work together. To ensure we maintain an inclusive (https://about.gitlab.com/company/culture/inclusion/) recruiting process, I cannot influence your application. We would prefer you apply for the position you have in mind directly via our Jobs page (https://about.gitlab.com/jobs/). This will ensure the right GitLab team member reviews your profile!"_
