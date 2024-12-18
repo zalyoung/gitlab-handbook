@@ -1118,28 +1118,33 @@ This is where you can find messaging related to GitLab vs some of our competiors
 
 [UserGems](/handbook/marketing/marketing-operations/usergems) is a tool that tracks specific cohorts of people that we provide in terms of them changing jobs. This automated tracking provides valuable insights, surfacing warm leads that can drive faster, larger wins. This tool helps mitigate deal risks when key individuals leave accounts, and accelerates deal progress when influential contacts join new organizations.
 
-**We have two main cohorts we're tracking:**
-
 #### 1. When a person that we are tracking leaves their current place of employment
 
+- These people are identified by the lead initial source being `UserGems Contact Tracking`
 - UserGems will track that person to their new role and will automatically create a lead with their new details in our system.
 - These leads will be flagged on the **Action Needed BDR dashboards** for you and your manager's review, as well as on the [B2 views](/handbook/marketing/sales-development/#bdr-lead-views)
-- We expect that our [standard RoE](/handbook/marketing/sales-development/#rules-of-engagement-roe) will be followed normally in actioning these leads. 
+- We expect that our [standard RoE](/handbook/marketing/sales-development/#rules-of-engagement-roe) will be followed normally in actioning these leads, similar to MQLs.
 - These leads should also be considered as intent data for prospecting an outbound account. 
   - Take the time to research accounts for the propensity to purchase and intent signals. Could the tracked contact's hire into that account be a compelling event for you to use?
   - This data can be found either on our [1:1 Dashboards](https://handbook.gitlab.com/handbook/marketing/sales-development/#dashboards-for-team-members) on report 6 that's dedicated to UserGems, or through this [lead-level SFDC template that you can clone and use.](https://gitlab.my.salesforce.com/00OPL00000BOYrq)
-  - Analyze the hiring and promotion patterns as business signals - a surge in technical hires (e.g., developers, engineers) may indicate growth initiatives, product development, or a focus on scaling infrastructure. Sales or customer success hires could suggest plans to expand revenue or enhance customer retention strategies. Use these hiring signals to identify potential challenges or priorities, such as team collaboration, scaling efficiently, or driving revenue growth. Based on these, target decision-makers who are likely overseeing these initiatives, like directors or VPs.
+  - Analyze the hiring and promotion patterns as business signals. 
+    - A surge in technical hires (e.g., developers, engineers) may indicate growth initiatives, product development, or a focus on scaling infrastructure.
+    - Sales or customer success hires could suggest plans to expand revenue through growth or enhance customer retention strategies. 
+    - Senior Leadership hires may indicate an internal restructuring of a department or a new business initiative. 
+      - Use these hiring signals to identify potential challenges or priorities, such as team collaboration, scaling efficiently, or driving revenue growth. Based on these, target decision-makers who are likely overseeing these initiatives, like directors or VPs.
 - If you'd like to iterate on any UserGems flows please follow the content creation process outlined [here.](/handbook/marketing/sales-development/#flow-creation)
 - We'll also notify you via Slack and email about these Job Changes.
 
 #### 2. When a company that we are tracking gets a new hire or promotion
 
+- These people are identified by the lead initial source being `UserGems - New Hires and Promotions`
 - These people will be automatically be enrolled to a [fully automated sequence](https://groove.clari.com/flows/1124157).
-  - We expect that our [standard RoE](/handbook/marketing/sales-development/#rules-of-engagement-roe) will be followed normally.
+- Similar to above, the same people will be flagged on dashboards and reporting for you to consider as intent signals to add their respective accounts to your pipeline.
+- We expect that our [standard RoE](/handbook/marketing/sales-development/#rules-of-engagement-roe) will be followed normally.`
 
 #### 3. When people leave or join accounts where we have open oppourtunities
 
-- While we are actively working to improve our back-end so that this cohort can be visible on our dashboards, like the use-cases above, we are relying on sending notifications only for these people. In the meantime, you can use the report here to gauge what prospects we have on [this list.](https://gitlab.my.salesforce.com/00OPL000007z6XV). We are currently notifying:
+- While we are actively working to improve our back-end so that this cohort can be visible on our dashboards, like the use-cases above, we are relying on sending notifications only for these people. In the meantime, you can use the report here to gauge what prospects we have on [this list](https://gitlab.my.salesforce.com/00OPL000007z6XV). We are currently notifying:
   - The Sales team for people that joined or left a stage 3 or beyond opportunity.
   - The Sales and Sales Development teams for people that joined or left a stage 0, 1 or 2 opportunity.
 - These people are not enrolled to a specific flow, since there multiple scenarios on how to best address them, please search Groove for templated messages [like this one](https://groove.clari.com/templates?fId=280305&tId=3285044) that you can use.
