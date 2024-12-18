@@ -75,7 +75,7 @@ The high-level proposal is as follows:
 
 ### New "Encryption keys" admin page
 
-!["Encryption keys" admin page](img/encryption-keys-admin-page.png)
+!["Encryption keys" admin page](/images/handbook/engineering/architecture/design-documents/encryption_key_rotation/encryption-keys-admin-page.png)
 
 ### Pseudo code
 
