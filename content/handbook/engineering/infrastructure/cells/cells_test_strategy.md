@@ -55,7 +55,7 @@ A majority of the testing we will need to do will exist at the `Single Cell` lev
 
 #### Feature
 
-This testing is done as part of the day to day work of development, the unit/integration tests added as part of developing the features. The SET can help advise on edge cases / scenarios that should be considered for testing. We currently have two E2E test suites defined: `smoke` and `blocking` ([the test suite definitions](../test-platform/blocking-tests.md#overview)).
+This testing is done as part of the day to day work of development, the unit/integration tests added as part of developing the features. The SET can help advise on edge cases / scenarios that should be considered for testing. We currently have one E2E test suite defined: `smoke`.
 
 #### Single Cell
 

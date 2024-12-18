@@ -320,12 +320,6 @@ Please note that the borrow request might not guarantee 100% allocation to the r
 
 The list of all SET borrow requests can be seen [here](https://gitlab.com/gitlab-com/Product/-/issues/?label_name%5B%5D=SET%20Borrow).
 
-### Blocking tests
-
-Blocking tests have met stricter reliability criteria than other tests in our test suite. When a failure is seen in a blocking test, it's less likely to be flakiness and more likely to be a true issue.
-
-For more information, please visit our [blocking tests page](blocking-tests).
-
 ### Risk mapping
 
 The Test Platform Sub-Department helps facilitate the risk mapping process. This requires the participation of Product Management, Development, UX, and the Quality team to develop a strategic approach to risk and mitigation planning.
