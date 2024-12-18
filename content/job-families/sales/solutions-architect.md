@@ -250,13 +250,14 @@ The Director, Solutions Architects is a [grade 10](/handbook/total-rewards/compe
 - Partner with sales leadership to align with and deliver to regional and account plans, strategies and quarterly goals.
 - Collaborate with Sales and Customer Success to improve engagement models and ensure the appropriate coverage of prospects and customers.
 - Partner with Product, Engineering, Marketing and Services teams to provide feedback to improve products, services and value messaging based on field experiences and feedback.
-- Partner with Sales Operations to ensure efficient and ongoing enablement and development of the team.
+- Partner with Field Enablement to ensure efficient and ongoing enablement and development of the team.
+- Leverage data to drive execution and improvement across the team.
 - Be a role model for GitLab's values and culture.
 
 #### Director, Solutions Architects Requirements
 
 - Demonstrated progressive experience leading technical sales teams (i.e., Solutions Architect and or Sales Engineering teams)
-- Demonstrated progressive experience building and leading global teams of managers with team sizes of 30+ team members
+- Demonstrated progressive experience building and leading teams of multiple managers
 - Demonstrated proficiency building and improving strategies and operations to technical assessment processes and team enablement
 - Experience with software development lifecycle processes and tools as well as agile and or DevOps practices
 - Knowledgeable with cloud technologies (e.g., Kubernetes, Docker), application security (SAST, DAST) and or cloud deployment models (AWS, GCP, Azure)
@@ -280,7 +281,7 @@ The Senior Director, Solutions Architects is a [grade 11](/handbook/total-reward
 
 - Extends the Director, Solutions Architect requirements
 - Demonstrated progressive experience leading technical sales teams (i.e., Solutions Architect and or Sales Engineering teams)
-- Demonstrated progressive experience building and leading global teams of managers and directors with team sizes of 50+ team members
+- Demonstrated progressive experience leading multiple cross-functional initiatives
 
 ### Vice President of Solution Architecture (SA) Job Grade
 
