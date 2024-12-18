@@ -1,18 +1,14 @@
 ---
 title: Jobs to be Done at GitLab
 description: >-
-  JTBD is a framework for viewing products and solutions in terms of jobs
-  customers want to achieve. It's about understanding the goals that people want
-  to accomplish. Places a focus on the problem the user is trying to solve, not the solution. It tells you very clearly and specifically; **What problem are you trying to solve?**
+  Jobs to be Done (JTBD) is a framework for viewing products and solutions from the user's perspective, focusing on the problems they want to solve rather than specific solutions. It helps GitLab team members uncover user needs, identify strategic opportunities, validate plans, and drive innovation.
 ---
 
-Jobs to be Done (JTBD) is a framework for viewing products and solutions from the user's perspective. It's about understanding what people want to achieve so we can build a better solution that reflects those desires. The purpose of these materials is to empower GitLab team members to uncover user needs, identify strategic opportunities, validate existing plans, and open the door to innovation.
+The material in this page and related pages ([Playbook](/handbook/product/ux/jobs-to-be-done/jtbd-playbook/), [Beyond the Playbook](/handbook/product/ux/jobs-to-be-done/jtbd-beyond-the-playbook/)) draws from [Jim Kalbach](https://www.jtbdtoolkit.com/) and his book, "[The Jobs to be Done Playbook](https://www.amazon.com/Jobs-Be-Done-Playbook-Organization/dp/1933820683)".
 
-Much of what follows on this page and our other JTBD pages ([Playbook](/handbook/product/ux/jobs-to-be-done/jtbd-playbook/), [Beyond the Playbook](/handbook/product/ux/jobs-to-be-done/jtbd-beyond-the-playbook/)) borrows heavily from [Jim Kalbach](https://www.jtbdtoolkit.com/) and his book, “[The Jobs to be Done Playbook](https://www.amazon.com/Jobs-Be-Done-Playbook-Organization/dp/1933820683)”.
+For practical JTBD research guidance, see the [playbook](/handbook/product/ux/jobs-to-be-done/jtbd-playbook).
 
-This page covers the 'what' of Jobs to be Done. To skip to the 'how', or the _practice_ of doing Jobs to be Done research, head over to the [playbook](/handbook/product/ux/jobs-to-be-done/jtbd-playbook).
-
-**Note:** The previous single source of truth for all the JTBD at GitLab ([a yml file](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/data/jobs_to_be_done.yml?_gl=1%2a1hjur0y%2a_ga%2aNDkwNzM2Mzg5LjE2MzUxODMzMTE.%2a_ga_ENFH3X7M5Y%2aMTY2ODAxOTA2Mi42Ni4xLjE2NjgwMTk2MjUuMC4wLjA.), internal only) is in the process of being replaced. In the meantime, GitLab teams performing JTBD should keep track of their [playbook](/handbook/product/ux/jobs-to-be-done/jtbd-playbook) work in FigJam. A handbook page containing all the JTBD will be created shortly.
+**Note:** The previous JTBD source ([yml file](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/data/jobs_to_be_done.yml?_gl=1%2a1hjur0y%2a_ga%2aNDkwNzM2Mzg5LjE2MzUxODMzMTE.%2a_ga_ENFH3X7M5Y%2aMTY2ODAxOTA2Mi42Ni4xLjE2NjgwMTk2MjUuMC4wLjA.), internal only) is being replaced. Teams should track JTBD work in FigJam until a new handbook page is created.
 
 ## Anatomy of a JTBD Canvas
 
