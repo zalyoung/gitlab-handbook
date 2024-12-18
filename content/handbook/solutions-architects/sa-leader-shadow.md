@@ -65,7 +65,6 @@ Use this coffee chat to express to them your interest in people leadership as we
 
 ## During the program
 
-
 During the program, you will:
 
 1. Experience a "day in the life" of an SA people leader to better gauge interest in pursuing a leadership role in the future.  
