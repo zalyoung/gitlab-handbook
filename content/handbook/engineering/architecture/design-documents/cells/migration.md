@@ -168,7 +168,7 @@ All existing top-level Groups on GitLab.com are part of the `default Organizatio
 
 We will create a new temporary organization (GitLab inc) on the secondary cell.
 
-We will use [direct transfer](../../../../user/group/import/index.md) 
+We will use [direct transfer](https://docs.gitlab.com/ee/user/group/import/)
 or [congregate](https://gitlab.com/gitlab-org/professional-services-automation/tools/migration/congregate) to migrate select top-level GitLab groups from the `default Organization` on the primary cells to GitLab Inc organization on the secondary cell. If [org mover](https://gitlab.com/groups/gitlab-org/-/epics/12859) is ready in time we will use this instead.
 
 The top-level groups being migrated will be read-only for the duration of the migration. Once the migration is complete the organization will become read/write and fully operational on the secondary cell.
