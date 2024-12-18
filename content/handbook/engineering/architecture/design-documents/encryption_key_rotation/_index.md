@@ -84,8 +84,10 @@ current_key_id = ActiveRecord::Encryption::DerivedSecretKeyProvider.new(ActiveRe
 
 # ActiveRecord::Encryption
 ApplicationRecord.descendants.select { |d| d.encrypted_attributes.present? }.each do |model|
-  model.where("NOT (#{attr}->'h'->'i') ? :value", value: ::Base64.strict_encode64(current_key_id)).find_in_batches do |record|
-    record.encrypt # this forces the re-encryption of all encrypted attribute
+  model.where("NOT (#{attr}->'h'->'i') ? :value", value: ::Base64.strict_encode64(current_key_id)).find_in_batches do |batch|
+    batch.each do |record|
+      record.encrypt # this forces the re-encryption of all encrypted attribute
+    end
   end
 end
 
@@ -93,11 +95,13 @@ end
 ApplicationRecord.descendants.select { |d| d.include?(TokenAuthenticatable) && d.encrypted_token_authenticatable_fields.present? }.each do |model|
   encrypted_fields = model.encrypted_token_authenticatable_fields
 
-  model.where.not(encryption_key_id: ::Base64.strict_encode64(current_key_id)).find_in_batches do |record|
-    encrypted_fields.each do |field|
-      record.public_send(:"#{field}=", record.public_send(field))
+  model.where.not(encryption_key_id: ::Base64.strict_encode64(current_key_id)).find_in_batches do |batch|
+    batch.each do |record|
+      encrypted_fields.each do |field|
+        record.public_send(:"#{field}=", record.public_send(field))
+      end
+      record.save!
     end
-    record.save!
   end
 end
 
@@ -105,11 +109,13 @@ end
 ApplicationRecord.descendants.select { |d| d.attr_encrypted_attributes.present? }.each do |model|
   encrypted_fields = model.attr_encrypted_attributes
 
-  model.where.not(encryption_key_id: ::Base64.strict_encode64(current_key_id)).find_in_batches do |record|
-    encrypted_fields.each do |field|
-      record.public_send(:"#{field}=", record.public_send(field))
+  model.where.not(encryption_key_id: ::Base64.strict_encode64(current_key_id)).find_in_batches do |batch|
+    batch.each do |record|
+      encrypted_fields.each do |field|
+        record.public_send(:"#{field}=", record.public_send(field))
+      end
+      record.save!
     end
-    record.save!
   end
 end
 ```
