@@ -6,7 +6,7 @@ Learn how to use [Anthropic Claude](https://claude.ai/) to infuse AI into your w
 
 ## Access
 
-Open [claude.ai](https://claude.ai/) and use your team member email address for SSO login. You can also use the Claude tile in [Okta](/handbook/it/okta/).
+Open [claude.ai](https://claude.ai/) and use your team member email address for SSO login. You can also use the Claude tile in [Okta](/handbook/it/okta/). Review the [usage guidelines and FAQs](https://internal.gitlab.com/handbook/company/ai-at-gitlab/#usage-guidelines-and-faqs) (internal).
 
 ## Resources
 
@@ -14,6 +14,8 @@ Open [claude.ai](https://claude.ai/) and use your team member email address for 
 - [Claude.ai support articles collection](https://support.anthropic.com/en/collections/4078531-claude-ai)
 
 ## Tips
+
+> **Note** Only document public use cases and tips with Claude.ai, and keep everything else SAFE in the [internal handbook](https://internal.gitlab.com/handbook/company/ai-at-gitlab/).
 
 Claude.ai can answer many different questions and topics. Be creative, curious, and explore, and iterate on the best chat prompts. Since [GitLab Duo Chat](gitlab-duo.md) also uses [Anthropic Claude as one of the LLMs](https://docs.gitlab.com/ee/user/gitlab_duo_chat/), you can test and repurpose similar chat prompts.
 
@@ -25,8 +27,6 @@ Claude.ai can answer many different questions and topics. Be creative, curious, 
 1. [How up-to-date is Claude's training data?](https://support.anthropic.com/en/articles/8114494-how-up-to-date-is-claude-s-training-data)
 
 ## Use cases
-
-> **Note** Only document public use cases with Claude.ai, and keep everything else SAFE in the [internal handbook](https://internal.gitlab.com/handbook/company/ai-at-gitlab/).
 
 ### Analyze data
 
