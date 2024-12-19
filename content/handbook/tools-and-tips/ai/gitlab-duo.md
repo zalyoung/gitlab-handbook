@@ -38,6 +38,10 @@ GitLab Duo Chat can answer many questions about GitLab, programming languages, t
 
 Explore the use cases in this handbook page for GitLab team members and co-creators. More use cases and workflows are documented in the [GitLab Duo documentation](https://docs.gitlab.com/ee/user/gitlab_duo/).
 
+Open feature requests:
+
+1. [Ask GitLab handbook questions in GitLab Duo Chat](https://gitlab.com/gitlab-com/content-sites/handbook/-/issues/212)
+
 ## Handbook use cases
 
 ### Preparation steps for handbook edits
