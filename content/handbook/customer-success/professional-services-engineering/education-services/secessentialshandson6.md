@@ -17,7 +17,7 @@ Compliance scans allow you to control merge requests and security scans in your 
 
 1. Select **New policy**.
 
-1. Under **Security execution policy**, select **Select policy**.
+1. Under **Scan execution policy**, select **Select policy**.
 
 1. For the **Name**, enter `Group security policy`.
 
