@@ -84,8 +84,8 @@ The username can be anything; it is not used by dependency proxy. The "password"
 
 The Cells http router will be able to determine the correct Cell to route this request to by supporting HTTP Basic Auth requests using access tokens as the password. Support for this is [currently being built](https://gitlab.com/gitlab-org/cells/http-router/-/issues/138).
 
-For the first iteration, only routing to the legacy cell and default organization will be supported.
 
+The returned JWT token will contain enough information (something like `scope: cell-1`) for the Cells Registry Router to route the authenticated requests to the correct container registry / cell.
 ## 4.1. Pros
 
 ## 4.2. Cons
