@@ -15,7 +15,7 @@ Access Sub-department:
 
 ### Database Framework
 
-The [Database Framework]((/handbook/engineering/infrastructure-platforms/data-access/database-framework/)
+The [Database Framework](/handbook/engineering/infrastructure-platforms/data-access/database-framework/)
 team develops solutions for scalability, application performance, data growth and
 developer enablement especially where it concerns interactions with the
 database.
