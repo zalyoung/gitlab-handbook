@@ -132,7 +132,8 @@ The docker client will then submit this username and password combination to the
 
 The Cells http router will be able to determine the correct Cell to route this request to by supporting HTTP Basic Auth requests using access tokens as the password. Support for this is [currently being built](https://gitlab.com/gitlab-org/cells/http-router/-/issues/138).
 
-The returned JWT token will contain enough information (something like `scope: cell-1`) for the Cells Registry Router to route the authenticated requests to the correct container registry / cell.
+The returned JWT will contain enough information (something like `scope: cell-1`) for the Cells Registry Router to route the authenticated requests to the correct container registry / cell.
+
 ## 4.1. Pros
 
 ## 4.2. Cons
