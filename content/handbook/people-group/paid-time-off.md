@@ -64,11 +64,9 @@ Entering time off in Workday is not necessary if working but working asynchronou
     1. Select your country of residence
     1. Change the dropdown from 'All holidays and national observances' to 'Public Holidays'
 
-We recognize this list may not encompass all state or local public holidays, but please follow the guidance above--if public schools or government offices in your location are closed--then please enter your time off as a public holiday in Workday.  For any questions related to holidays or how to categorize time off please reach out to `leaves@gitlab.com`.
+We recognize this list may not encompass all state or local public holidays, but please follow the guidance above--if public schools or government offices in your location are closed--then please enter your time off as a public holiday in Workday.  For any questions related to holidays or how to categorize time off please reach using [HelpLab](https://helplab.gitlab.systems/esc?id=emp_taxonomy_topic&topic_id=3df7f70d474c069067429ee0026d434c).
 
 1. If you decide to work on a holiday and then take another day off in lieu of the actual holiday date, we ask that you choose Public Holiday as a PTO category, and in the section `What is this OOO for?` please clarify that this day is taken in lieu of the actual holiday date.
-
-   ![picture-of-pto-ninja-OOO-request](/handbook/people-group/paid-time-off/pto_ninja_OOO.png)
 
 1. Please note that Public Holidays will be listed in Workday with a Length of 0 days (0 hours).
 
@@ -128,12 +126,6 @@ Returning from PTO of any length can feel overwhelming. Consider implementing th
 1. Honor a window of transition when returning from PTO and recognize that [rest and time off is productive](/handbook/company/culture/all-remote/mental-health/#rest-and-time-off-are-productive). Big, reflective moments may happen when you take a step back and reflect. Before catching up on all missed emails and Slack messages, consider first revisiting priority projects to take action on these reflections. In our [interview about managing burnout](/handbook/company/culture/all-remote/mental-health/#rest-and-time-off-are-productive), John Fitch described this approach as spending time working *on* your projects, rather than *in* your projects. This could look like blocking off a few days with no meetings to complete deep work on an OKR or hosting a collaborative session with your team to brainstorm.
 
 1. When returning from paid time off, it can be helpful to schedule a [coffee chat](/handbook/company/culture/all-remote/informal-communication/#coffee-chats) or two on the day of your return to get caught up, share stories from your time off, and simply reconnect with your team members. It also provides a nice break from to-dos and unread emails. This type of conversation may occur organically in a colocated office but needs to be managed with intent in an all-remote company.
-
-#### Adjust/Remove PTO from past events
-
-The People Operations team is able to adjust active PTO events and past PTO events. If you need the team to adjust an event, please submit a HelpLab - Paid Time Off request with the details e.g. 'please remove two hours of PTO from October 31st'.
-
-We encourage everyone to fully step away from work on their days off but understand that unforseen events can arise.
 
 ### Sick Time - Taking and Reporting
 
@@ -275,7 +267,7 @@ You can request a new Workday feature by using the aforementioned `/time-off-dee
 
 ### Instructions for Team Members to update past events
 
-Team members can [correct or edit](https://docs.google.com/document/d/1c0Qp738HXEeIb_SxUeKZYlG3su086CO5Dxa618Rvffk/edit) past-dated time off entries up to 30 days in the past.  All other entries will need to be submitted to the People Connect team for review.  Not all requests will be approved as it is the team member's responsibility to assure all time away requests are accurate.
+Team members can [correct or edit](https://docs.google.com/document/d/1c0Qp738HXEeIb_SxUeKZYlG3su086CO5Dxa618Rvffk/edit) future and, past-dated time off entries up to 30 days in the past.  All other entries will need to be submitted to the People Connect team for review using [HelpLab](https://helplab.gitlab.systems/esc?id=emp_taxonomy_topic&topic_id=3df7f70d474c069067429ee0026d434c). Not all requests will be approved as it is the team member's responsibility to assure all time away requests are accurate.
 
 ## Management's Role in Paid Time Off
 
