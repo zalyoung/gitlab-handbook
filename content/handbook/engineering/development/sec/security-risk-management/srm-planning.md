@@ -1,5 +1,5 @@
 ---
-title: Security Policies and Threat Insights planning
+title: Security Risk Management Planning
 ---
 
 ## How we do planning
@@ -36,19 +36,18 @@ fulfill the original issue's requirements.
 
 ### Refinement
 
-Issues in the `workflow::refinement` state are either assigned by EMs to individuals engineers for refinement, or are assigned randomly by the triage bot based on the [assign-refinement policy](https://gitlab.com/gitlab-org/quality/triage-ops/-/blob/master/policies/groups/gitlab-org/security-policies/assign-refinement.yml) ([Threat Insights policy](https://gitlab.com/gitlab-org/quality/triage-ops/-/blob/master/policies/groups/gitlab-org/threat-insights/assign-refinement.yml)). Note that [Epics are slightly different](#epic-engineering-dri).
-
+Issues in the `workflow::refinement` state are either assigned by EMs to individuals engineers for refinement.
 Engineers assigned to refine issues are encouraged to ask questions and push back on PM if issues lack the information and/or designs required for successful refinement and execution.
 
 We assign issues for refinement to ensure we have focus on the highest-priority items, as determined by Product Management.  This is **not** an assignment to work on the issue.
 
-* Engineering output: Move issue into the `workflow::ready for dev` state and unassign themselves if they have completed refinement. Leave issue in `workflow::refinement` and assign the issue to their EM if for any reason refinement could not be completed. Confirm the issue has the appropriate [work type classification](/handbook/product/groups/product-analysis/engineering/dashboards/#work-type-classification).
+* Engineering output: Move issue into the `workflow::ready for dev` state and unassign themselves if they have completed refinement. Leave issue in `workflow::refinement` and assign the issue to their EM if for any reason refinement could not be completed. Confirm the issue has the appropriate [work type classification](/handbook/product/groups/product-analysis/engineering/dashboards/).
 
 ### Release Scope final & kickoff
 
 By the week prior to the completion of the current milestone, the scope of the next release is finalized by EMs and PMs.
 
-* EM output: `Deliverable` labels are applied to issues we are committing to deliver. It's up to the EM's discretion what issues receive this label which is used in the calculation of our [Say Do Ratio](/handbook/engineering/development/performance-indicators/#say-do-ratios). Factors include: confidence that the issue will be completed in the milestone, completion of issues rolled over from the previous milestones, commitments with other groups or stakeholders.
+* EM output: `Deliverable` labels are applied to issues we are committing to deliver. It's up to the EM's discretion what issues receive this label which is used in the calculation of our [Say Do Ratio](/handbook/engineering/development/performance-indicators/). Factors include: confidence that the issue will be completed in the milestone, completion of issues rolled over from the previous milestones, commitments with other groups or stakeholders.
 * EM output: Move issues that we are unlikely to deliver to the next iteration.
 * PM output: Issues with `Deliverable` labels in the `workflow::ready for dev` state have been confirmed to be in the correct priority order.
 
@@ -105,7 +104,7 @@ The goal of the refinement process is to ensure an issue is ready to be worked o
    * If the scope of the issue is well defined and there are no dependencies, consider adding
      [contribution Labels](/handbook/marketing/developer-relations/contributor-success/community-contributors-workflows/#labels).
    * The `~"quick win"` label is particularly helpful but note that you would
-     be [volunteering to mentor new contributors](/handbook/marketing/developer-relations/contributor-success/community-contributors-workflows/#issues-for-new-contributors).
+     be [volunteering to mentor new contributors](/handbook/marketing/developer-relations/contributor-success/community-contributors-workflows).
 1. Refinement Review.
    * If the weight you've assigned to the issue is 3 or less, move the issue directly to `~"workflow::ready for development"`.
    * If the weight of the issue is greater than 3, unassign the issue from yourself and request a review from another engineer.
@@ -160,8 +159,7 @@ work is involved.  Weights should be considered an artifact of the refinement pr
 purpose of the refinement process.
 
 It is perfectly acceptable if items take longer than the initial weight. We do not want to inflate
-weights, as [velocity is more important than predictability](/handbook/engineering/development/principles/#velocity-over-predictability)
-and weight inflation over-emphasizes predictability.
+weights, velocity is more important than predictabilityand weight inflation over-emphasizes predictability.
 
 We do not add weights to bugs as this would be double-counting points. When our delivery contains
 bugs, the velocity *should* go down so we have time to address any systemic quality problems.
@@ -211,7 +209,7 @@ The issue verification should be done by someone else other than the MR author[^
 
 ## Planning for PTO
 
-We follow the [Software Supply Chain Security stage PTO process](/handbook/engineering/sec/software-supply-chain-security/#pto) and [GitLab team members Guide to Time Off](/handbook/people-group/paid-time-off/#a-gitlab-team-members-guide-to-time-off).
+We follow the [GitLab team members Guide to Time Off](/handbook/people-group/paid-time-off/#a-gitlab-team-members-guide-to-time-off).
 
 ## Epic Engineering DRI
 

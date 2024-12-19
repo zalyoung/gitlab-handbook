@@ -1,6 +1,6 @@
 ---
-title: Software Supply Chain Security, Threat Insights
-description: "The Threat Insights group at GitLab is charged with developing solutions to enable customers to manage their security risks effectively and efficiently."
+title: Security Risk Management, Security Insights
+description: "The Security Insights group at GitLab is charged with developing solutions to enable customers to manage their security risks effectively and efficiently."
 layout: single
 ---
 
@@ -23,50 +23,23 @@ to be addressed quickly.
 
 **Offer guidance for users to get started with vulnerability remediation** - leverage the power of AI and security training to help developers understand and remediate vulnerabilities.
 
-**Threat Insights features are reliable and perform at scale** - As we add more group and organization level features, we will be optimizing query performance and move forward with confidence that our database will scale and perform as we grow.
+**Security Insights features are reliable and perform at scale** - As we add more group and organization level features, we will be optimizing query performance and move forward with confidence that our database will scale and perform as we grow.
 
 ## Threat Insights Team Structure
 
-The Threat Insights group is structured into three focused swimlanes that each approach work in [vertical slices](https://www.visual-paradigm.com/scrum/user-story-splitting-vertical-slice-vs-horizontal-slice/): Performance and Optimization, Projects, and AI. This subdivision is to provided bounded focus to each area: enabling us to progress on multiple fronts and reduce planning overhead.
+The Security Insights group is structured into three focused swimlanes that each approach work in [vertical slices](https://www.visual-paradigm.com/scrum/user-story-splitting-vertical-slice-vs-horizontal-slice/): Performance and Optimization, Projects, and AI. This subdivision is to provided bounded focus to each area: enabling us to progress on multiple fronts and reduce planning overhead.
 
 ### Stable Counterparts
 
 The following members of other functional teams are our stable counterparts, and work across all swimlanes:
 
-{{% stable-counterparts role="Threat Insights" other-manager-roles="Engineering Manager(.*)Govern:(.*)|Director of Engineering(.*)Govern" %}}
+{{% stable-counterparts role="Security Insights" other-manager-roles="Engineering Manager(.*)Security Risk Management:(.*)|Director of Engineering(.*)Security Risk Management" %}}
 
-### Performance and Optimization
+### Team Structure
 
-[Performance and Optimization](https://about.gitlab.com/direction/security_risk_management/threat_insights/17_threat_insights_priorities.html#technical-debt-and-deprecations)
+EM: {{< member-by-gitlab "nmccorrison" >}}
 
-DRI: {{< member-by-gitlab "nmccorrison" >}}
-
-{{< member-and-role-by-gitlab "bwill" "ghavenga" "minac" "wandering_person" "subashis">}}
-
-### Projects
-
-[Projects](https://about.gitlab.com/direction/security_risk_management/threat_insights/17_threat_insights_priorities.html#vulnerability-management)
-
-DRI: {{< member-by-gitlab "ryaanwells" >}}
-
-{{< member-and-role-by-gitlab "bala.kumar" "lorenzvanherwaarden" "Quintasan" "svedova" "srushik" "anarinesingh" >}}
-
-### AI
-
-[AI](https://about.gitlab.com/direction/security_risk_management/threat_insights/17_threat_insights_priorities.html#ai)
-
-DRI: {{< member-by-gitlab "nmccorrison" >}}
-
-{{< member-and-role-by-gitlab "sming-gitlab" "dpisek" "subashis" "darbyfrey"  >}}
-
-### Reporting Structure
-
-Threat Insights was previously sub-divided into Navy and Tangerine, following the reporting lines below.
-Navy engineers report to {{< member-by-gitlab "nmccorrison" >}} and Tangerine engineers report to {{< member-by-gitlab "ryaanwells" >}}.
-
-{{% team-by-manager-slug manager="nmccorrison" team="Engineer(.*)Govern:Threat Insights" %}}
-
-{{% team-by-manager-slug manager="ryaanwells" team="end Engineer(.*)Govern:Threat Insights" %}}
+{{% team-by-manager-slug manager="nmccorrison" team="Engineer(.*)Security Risk Management:Security Insights" %}}
 
 ## Common Links
 
@@ -83,39 +56,36 @@ Navy engineers report to {{< member-by-gitlab "nmccorrison" >}} and Tangerine en
 
 ### Prioritization
 
-We use our Threat Insights Priorities page for [17.x](https://about.gitlab.com/direction/govern/threat_insights/17_threat_insights_priorities.html) to track what we are doing, and what order to do it in.
+We use our  Security Insights Priorities page for [17.x](https://about.gitlab.com/direction/govern/threat_insights/17_threat_insights_priorities.html) to track what we are doing, and what order to do it in.
 
 ### Metrics
 
 {{< tableau height="600px" toolbar="hidden" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/TopEngineeringMetrics/TopEngineeringMetricsDashboard" >}}
-  {{< tableau/filters "GROUP_LABEL"="threat insights" >}}
+  {{< tableau/filters "GROUP_LABEL"="security insights" >}}
 {{< /tableau >}}
 
 {{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/MergeRequestMetrics/OverallMRsbyType_1" >}}
-  {{< tableau/filters "GROUP_LABEL"="threat insights" >}}
+  {{< tableau/filters "GROUP_LABEL"="security insights" >}}
 {{< /tableau >}}
 
 {{< tableau height="600px" toolbar="hidden" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/Flakytestissues/FlakyTestIssuesDetails" >}}
-  {{< tableau/filters "GROUP_NAME"="threat insights" >}}
+  {{< tableau/filters "GROUP_NAME"="security insights" >}}
 {{< /tableau >}}
 
 {{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/SlowRSpecTestsIssues/SlowRSpecTestsIssuesDashboard" >}}
-  {{< tableau/filters "GROUP_LABEL"="threat insights" >}}
+  {{< tableau/filters "GROUP_LABEL"="security insights" >}}
 {{< /tableau >}}
 
 ### Workflow
 
-The Threat Insights group largely follows GitLab's [Product Development Flow](/handbook/product-development-flow/).
+The Security Insights group largely follows GitLab's [Product Development Flow](/handbook/product-development-flow/).
 
-Additional information can be found on the [Planning page](/handbook/engineering/development/sec/software-supply-chain-security/sp-ti-planning/).
+Additional information can be found on the [Planning page](/handbook/engineering/development/sec/security-risk-management/srm-planning/).
 
 ### Milestone Planning
 
 * On the second Tuesday of the month the Product Manager kicks off the planning issue. They identify priorities for the milestone and tag engineering managers, and stable counterparts (UX, QA) to review.
 * By the third Tuesday of the month the Engineering Managers have reviewed the planning issue and agreed on the scope for the milestone.
-  * All epics scheduled for this milestone should have the `~auto-report` label and **one** of these labels:
-    * `~Threat Insights::Performance`
-    * `~Threat Insights::Projects`
   * All issues scheduled for the milestone should have the `~Deliverable` label as well as `Health Status: On Track` at the beginning of the milestone. The milestone field should also be set correctly.
 * The planning issue is created in this [epic](https://gitlab.com/groups/gitlab-org/-/epics/12683) for 17.0-17.11.
 
@@ -189,7 +159,7 @@ These items must be triaged continuously which means they must be checked multip
 
 ### MR Reviews
 
-We follow these guidelines when submitting MRs for review when the change is within the Threat Insights domain:
+We follow these guidelines when submitting MRs for review when the change is within the Security Insights domain:
 
 1. Aim to request at least one of the reviews from someone outside our group. This helps avoid a code knowledge silo.
 1. For time-critical reviews, consider using internal reviewers and maintainers.
@@ -203,13 +173,13 @@ We follow these guidelines when submitting MRs for review when the change is wit
 
 ### Issue Boards
 
-* [Threat Insights Delivery Board](https://gitlab.com/groups/gitlab-org/-/boards/1754666?scope=all&utf8=%E2%9C%93&milestone_title=%23started&label_name[]=group%3A%3Athreat%20insights)
+* [Security Insights Delivery Board](https://gitlab.com/groups/gitlab-org/-/boards/1754666?scope=all&utf8=%E2%9C%93&milestone_title=%23started&label_name[]=group%3A%3Asecurity%20insights)
   * Primary board for engineers from which engineers can work. It's stripped down to only include the workflow labels we use when delivering software.
 
-* [Threat Insights Planning Board](https://gitlab.com/groups/gitlab-org/-/boards/1420734?scope=all&utf8=%E2%9C%93&state=opened&label_name[]=group%3A%3Athreat%20insights)
+* [Security Insights Planning Board](https://gitlab.com/groups/gitlab-org/-/boards/1420734?scope=all&utf8=%E2%9C%93&state=opened&label_name[]=group%3A%3Asecurity%20insights)
   * Milestone-centric board primarily used by product management to gauge work in current and upcoming milestones.
 
-* [Threat Insights "Ready to Pull" Board](https://gitlab.com/groups/gitlab-org/-/boards/4643978?label_name[]=group%3A%3Athreat%20insights&label_name[]=ready%20to%20pull)
+* [Security Insights "Ready to Pull" Board](https://gitlab.com/groups/gitlab-org/-/boards/4643978?label_name[]=group%3A%3Asecurity%20insights&label_name[]=ready%20to%20pull)
   * Secondary board for unassigned issues that are separate from a larger effort. Ideal candidates are small features, bugs, and follow-up items.
 
 These boards show current status of issues.
@@ -274,17 +244,17 @@ See the [related handbook entry](https://docs.gitlab.com/ee/development/ee_featu
 We encourage frontend engineers to contribute to the backend and vice versa. In such cases we should work closely with a domain expert from within our group
 and also keep the initial review internal.
 
-This will help ensure that the changes follow best practice, are well tested, have no unintended side effects, and help the team be across any changes that go into the Threat Insights codebase.
+This will help ensure that the changes follow best practice, are well tested, have no unintended side effects, and help the team be across any changes that go into the Security Insights codebase.
 
 ### Community Contributions
 
-The Threat Insights group welcomes community contributions. Any community contribution should get prompt feedback from one of the Threat Insights engineers. All engineers on the team are responsible for working with community contributions. If a team member does not have time to review a community contribution, please tag the Engineering Manager, so that they can assign the community contribution to another team member.
+The Security Insights group welcomes community contributions. Any community contribution should get prompt feedback from one of the Security Insights engineers. All engineers on the team are responsible for working with community contributions. If a team member does not have time to review a community contribution, please tag the Engineering Manager, so that they can assign the community contribution to another team member.
 
 If a team member creates an issue or finds an issue where we would be open to a community contribution, it should be labeled with ~"Seeking community contributions". If the contributor needs an EE license, we can point towards the [Contributing to the GitLab Enterprise Edition (EE)](/handbook/marketing/developer-relations/contributor-success/community-contributors-workflows/#contributing-to-the-gitlab-enterprise-edition-ee) section on the Community contributors workflows page.
 
 ### Group discussion
 
-We hold weekly group discussions alternating on APAC/AMER, and EMEA/AMER time zones. Everyone is invited to attend, and it's a great forum to ask questions about Vulnerability Management, customer queries, our road map, and what the Threat Insights team might be thinking about. You can find the meetings on the [Threat Insights calendar](#common-links); take a look at [the agenda](https://docs.google.com/document/d/1mbXHw6EYT-IqlEFguYRyLrm35f_DGA7EzGPGBCOc9ao/edit#heading=h.pt5d0o3avmun) (internal link). We hope to see you there!
+We hold weekly group discussions alternating on APAC/AMER, and EMEA/AMER time zones. Everyone is invited to attend, and it's a great forum to ask questions about Vulnerability Management, customer queries, our road map, and what the Security Insights team might be thinking about. You can find the meetings on the [Threat Insights calendar](#common-links); take a look at [the agenda](https://docs.google.com/document/d/1mbXHw6EYT-IqlEFguYRyLrm35f_DGA7EzGPGBCOc9ao/edit#heading=h.pt5d0o3avmun) (internal link). We hope to see you there!
 
 ## Footnotes
 
