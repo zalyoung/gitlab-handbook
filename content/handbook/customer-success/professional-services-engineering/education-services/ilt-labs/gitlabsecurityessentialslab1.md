@@ -3,6 +3,8 @@ title: "GitLab Security Essentials - Hands-On Lab: SAST and Secret Detection"
 description: "This Hands-On Guide walks you through the process of enabling and using SAST and secret detection in your projects"
 ---
 
+> Estimated time to complete: 15 to 20 minutes
+
 ### Task A. Create a Project
 
 For this section of the course, we will use a template with prepopulated code to allow us to test out our security scanners. 

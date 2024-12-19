@@ -3,6 +3,8 @@ title: "GitLab Security Essentials - Hands-On Lab: Addressing Vulnerabilities"
 description: "This Hands-On Guide walks you through how to triage and respond vulnerabilities in your application"
 ---
 
+> Estimated time to complete: 15 minutes
+
 In the last lab, you introduced the SAST and Secret Detection scanners into your project. In this lab, we will explore methods to triage and resolve vulnerabilities.
 
 ## Task A. Vulnerability Triage Process
