@@ -101,26 +101,22 @@ Aspirations represent the "be" goals of the Job Performer, signifying their desi
 
 ### **Job Steps:** How does the Job Performer get the job done?
 
-Job Steps are the sequential series of objectives a Job Performer must complete to accomplish their Main Job. These objectives form a Job Map. Each Job Step is high-level and can be broken out into it's own workflow if you were to zoom-in on it; they are not individual tasks. Avoid being too granular when writing Job Steps in order to keep the steps relevant to all performers executing the job.
+Job Steps are the sequential objectives a Job Performer must complete to accomplish their Main Job. They form a Job Map, with each step being high-level rather than individual tasks. Keep steps broad enough to apply to all performers of the job.
 
-What goes into a Job Step:
+Key characteristics:
 
-- Begins with an action verb, in the first person
-- Avoids using "ANDs" or "ORs"
-- Are solution or product agnostic
-- Are broken into top-level stages the Job Performer needs to accomplish, moving left to right as they are done.
-  - Each stage comprises vertical stacks which are sub-steps the Job Performer needs to accomplish, moving top to bottom before moving to the next stage.
+- Begins with an action verb in first person
+- Avoids compound descriptions (no AND/OR)
+- Remains solution agnostic
+- Flows left to right through stages
+  - Sub-steps stack vertically within each stage
 
-Good examples:
-
-- Decide where to look for a new home
-- Determine selection criteria
-- Seek new homes
-- Transfer home ownership
-
-Bad example:
-
-- Ask Richard what neighborhoods are popular to live in (Who’s Richard? Does everyone who does this job have a Richard? Too specific.)
+| Good Examples | Bad Examples |
+|--------------|--------------|
+| Decide where to look for a new home | Ask Richard what neighborhoods are popular (Too specific to one scenario) |
+| Determine selection criteria |  |
+| Seek new homes |  |
+| Transfer home ownership |  |
 
 ### **Outcomes:** How does the Job Performer measure the success of getting the job done?
 
