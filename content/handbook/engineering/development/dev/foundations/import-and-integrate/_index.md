@@ -114,7 +114,7 @@ All issues should have:
   - `~"Category:Integrations"`
   - `~"Category:Internationalization"`
   - `~"Category:Webhooks"`
-- A [type label](/handbook/product/groups/product-analysis/engineering/dashboards/#work-type-classification)
+- A [type label](/handbook/product/groups/product-analysis/engineering/metrics/#work-type-classification)
 - A [workflow label](/handbook/engineering/workflow/#updating-workflow-labels-throughout-development)
 - `~"backend"` or `~"frontend"` if appropriate
 
