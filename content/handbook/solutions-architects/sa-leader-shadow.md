@@ -61,7 +61,7 @@ Take time to review your calendar and confirm you can fully commit to this devel
 
 To provide you with diverse leadership exposure, you'll be matched with a leader outside your direct reporting line. This intentional pairing allows you to observe and learn from different management approaches and leadership styles.
 
-The SA leader you will shadow will maximise your exposure to a diverse set of activities, however some of them may not be avaiable while you are shadowing and this is up to the SA leader discretion.
+The SA leader you will shadow will maximise your exposure to a diverse set of activities, however some of them may not be available during your shadowing and this is up to the shadowing SA leader discretion.
 
 ### Program Focus
 
