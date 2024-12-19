@@ -26,6 +26,7 @@ For IDE integration through GitLab Duo extensions, follow the [editor extensions
   - [Duo Code Suggestions](https://docs.gitlab.com/ee/user/project/repository/code_suggestions/)
   - [Duo Chat](https://docs.gitlab.com/ee/user/gitlab_duo_chat/)
 - [GitLab University](https://university.gitlab.com)
+  - [AI and GitLab Duo courses](https://university.gitlab.com/learn/dashboard?labels=%5B%22Topic%22%5D&values=%5B%22AI%22%5D)
   - [GitLab Duo Enterprise learning path](https://university.gitlab.com/learn/learning-path/gitlab-duo-enterprise-learning-path)
 - [Developer Advocacy resources](/handbook/marketing/developer-relations/developer-advocacy/)
   - [Content library](/handbook/marketing/developer-relations/developer-advocacy/content/) with GitLab Duo demos, use cases, product tours, talks, workshops, recordings, etc.
