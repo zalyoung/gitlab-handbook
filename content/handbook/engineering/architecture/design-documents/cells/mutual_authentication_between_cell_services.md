@@ -1,27 +1,25 @@
 ---
-title: "Workload mutual authentication"
+title: "Mutual authentication between Cell services"
 status: proposed
 creation-date: "2024-07-01"
 authors: [ "@daveyleach" ]
 coach: "@sxuereb"
 approvers: [ "@andrewn", "@glopezfernandez" ]
-owning-stage: "~devops::<stage>"
+owning-stage: "~devops::tenant scale"
 participating-stages: []
 toc_hide: true
 ---
 
-We require that all communication between services and both parties are identified
-and verified as identified in threat modelling exercises.
+## Summary
 
-Mutual TLS fits this requorement this document is a work in progess and represents
-a early discussions of exploring mTLS as an option for authentication between services
+We require that all communication between Cell services is secure and both parties identities are verified.
 
 ## Goals
 
 The purpose of implementing mutual TLS (mTLS) is to ensure all communication
-between services is secure and both parties identities are verified. This
+between Cell services is secure and both parties identities are verified. This
 enhances overall system security by mitigating risks associated with
-unauthorized access and data interception. All services that communicate with
+unauthorized access and data interception. All Cell services that communicate with
 each other should use mTLS where it's feasible to do so as a secure
 authentication mechanism
 
@@ -38,16 +36,16 @@ authentication mechanism
     The certificate authority should be able to be integrated with a CDN provider,
     Kubernetes, Runway and cloud managed load balancers/services that support mTLS.
     Recommending using a Docker sidecar where feasible. Existing open source
-    software or cloud provided mechanisms should be used for managing certificates
+    software or cloud provided mechanisms should be used for managing certificates.
 
-1. **Ease of use.**
+1. **Ease of use**
 
-    The management of mTLS should be able to be handled transparently to developers
+    The management of mTLS should be able to be handled transparently to developers.
 
 1. **Authorization**
 
     Using mTLS headers as an option for authorization as well as authentication should
-    be considered
+    be considered.
 
 ## Requirements
 
@@ -83,3 +81,10 @@ sequenceDiagram
     client->>server: Communicates over encrypted TLS connection
     server->>client: Communicates over encrypted TLS connection
 ```
+
+## Supported clients & servers
+
+| Client | Server |
+| ------ | ------ |
+|HTTP Router|Topology Service|
+|GitLab|Topology Service|
