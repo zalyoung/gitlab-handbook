@@ -33,7 +33,7 @@ Compliance scans allow you to control merge requests and security scans in your 
 
 1. Select **Merge** to complete your configuration.
 
-## Task B. Scan Execuction Policies in Action
+## Task B. Scan Execution Policies in Action
 
 1. Navigate to your group.
 
@@ -61,7 +61,7 @@ Compliance scans allow you to control merge requests and security scans in your 
 
 1. Select the pipeline that was created from your commit.
 
-1. Review the jobs in the pipeline. Notice how a `SAST` scan is run on this commit even though no `.gitlab-ci.yml` configuraiton exists.
+1. Review the jobs in the pipeline. Notice how a `SAST` scan is run on this commit even though no `.gitlab-ci.yml` configuration exists.
 
 Now, the projects in your group will always have security scans, even if they aren't defined in the `.gitlab-ci.yml` file yet.
 
@@ -89,7 +89,7 @@ With security scans in place, it would be ideal to be able to block merge reques
 
 1. Run the scan against **all default branches**.
 
-1. Specify that the scan has **No exceptions** and finds **Any** vulnerabilites.
+1. Specify that the scan has **No exceptions** and finds **Any** vulnerabilities.
 
 1. Set the severity level to **All severity levels**.
 
@@ -138,7 +138,7 @@ With security scans in place, it would be ideal to be able to block merge reques
 
 1. Return to your MR.
 
-1. Allow you pipeline to complete. Once it completes, take note of the comment stating `This merge request has policy violations and errors`.
+1. Allow your pipeline to complete. Once it completes, take note of the comment stating `This merge request has policy violations and errors`.
 
 1. To resolve these issues, select **Code > Open in Web IDE**.
 

@@ -39,7 +39,7 @@ To start your triage process, it is recommended to sort your vulnerabilities by 
 
 1. Review the issue and select **Create issue**.
 
-At this point, we've create two issues to address as security issues in our application. Let's review the process for fixing these vulnerabilities. 
+At this point, we've created two issues to address as security issues in our application. Let's review the process for fixing these vulnerabilities. 
 
 ## Task B. Fixing Vulnerabilities
 

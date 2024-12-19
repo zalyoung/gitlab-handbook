@@ -19,7 +19,7 @@ Before this lab, you can use any project that contains a security report, for in
 
 1. To start, create a new project using the **Security Essentials Labs** template.
 
-1. In the project, crete a new `.gitlab-ci.yml` file.
+1. In the project, create a new `.gitlab-ci.yml` file.
 
 1. In the file, add your secret detection and SAST scanners. Commit these changes to your `main` branch.
 
@@ -112,14 +112,14 @@ For this demo, you can show and discuss the vulnerability management lifecycle.
         - docker push $IMAGE
     ```
 
-1. Add a new reference to your CI/CD component for container scanner.
+1. Add a new reference to your CI/CD component for the container scanner.
 
     ```yml
     include:
         - component: ilt.gitlabtraining.cloud/components/container-scanning/container-scanning@main
     ```
 
-1. After completing this, commit you changes to main.
+1. After completing this, commit your changes to main.
 
 1. After the scan completes, review the changes and discuss them in further details. Be sure to focus on the types of vulnerabilities, focusing on how these differ from SAST and code scanning results. 
 
