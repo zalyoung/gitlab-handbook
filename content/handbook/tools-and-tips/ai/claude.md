@@ -26,6 +26,8 @@ Claude.ai can answer many different questions and topics. Be creative, curious, 
 
 ## Use cases
 
+> **Note** Only document public use cases with Claude.ai, and keep everything else SAFE in the [internal handbook](https://internal.gitlab.com/handbook/company/ai-at-gitlab/).
+
 ### Analyze data
 
 Download data from the internet or other sources, and analyze it with Claude.
