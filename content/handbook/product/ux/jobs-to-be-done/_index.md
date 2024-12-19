@@ -23,33 +23,24 @@ To innovate effectively, start by ensuring you're working in the right area of y
 
 ### **Job Performer:** Who do you want to innovate for?
 
-Once it's clear what domain you want to work in you'll need to identify and understand the specific Job Performer for the task, emphasizing that it refers to the person executing the job. Focus your research on one Job Performer at a time and align it with the Main Job, ensuring a clear and straightforward approach. A Job Performer is rarely the same as someone’s job title.
+A Job Performer is the person executing a specific job, distinct from their job title. After identifying your domain, focus on one Job Performer aligned with the Main Job.
 
-What goes into a Job Performer:
+Key characteristics:
 
-- Describe an individual, not a job title
-- Don’t use AND or OR
-- Keep it high-level/generic, not a persona or market segment
-- Who is performing the job we want to go after?
-- Keep it simple and straightforward, moving back and forth between the Job Performer and the target job to define each, as needed.
+- Describes an individual role, not a job title
+- Avoids compound descriptions (no AND/OR)
+- Remains high-level, not a detailed persona
+- Simple and directly connected to the target job
 
-Good exmaples:
+| Good Examples | Bad Examples |
+|--------------|--------------|
+| New home buyer | Millionaire real estate investor (describes circumstances, not the job) |
+| Author | Steven King (too specific) |
+| Code reviewer | Software Engineer (job title) |
 
-- New home buyer
-- Author
-- Code reviewer
+#### Job Performers vs. Personas
 
-Bad examples:
-
-- Millionaire real estate investor (being a millionaire real estate investor is a relevant circumstance to how the job gets done, and what kind of homes they would be looking for, but this doesn’t describe the Main Job that’s getting done – this person could be buying, selling, renovating, etc.)
-- Steven King (Job Performers are not a specific person)
-- Software Engineer (job title, not a Job Performer)
-
-### Note: Job Performers vs. Personas
-
-A common area of confusion is the difference between a Job Performer and a [user persona](/handbook/product/personas/#user-personas). In short, a persona is more or less at the level of a job title, a Software Developer, for instance. However, a software developer may take on a number of different Main Jobs as part of their role (writing code, reviewing code, maintaining infrastructure, and so on). Similarly, other job titles or personas may also do the Main Jobs we look at in JTBD (an engineering manager may also review code, for example).
-
-Both personas and Job Performers are useful constructs in helping to understand and improve your product, but it is important not to conflate the two. Job Performers in the JTBD framework don’t correspond to job titles (some exceptions may apply) - they tend to live ‘closer’ to the Main Job we’re investigating. For instance, we might have a dozen personas that each ‘review code’ as part of their jobs - but if the experience of reviewing code is the one we’re focused on we only need to have one Job Performer - a ‘Code Reviewer’ - that encapsulates what all of these different personas have to go through in order to do that part of their jobs.
+While [user personas](/handbook/product/personas/#user-personas) represent job titles (like "Software Developer"), Job Performers focus on specific tasks within roles. One persona may handle multiple Main Jobs (coding, reviewing, maintaining infrastructure), and different personas may share the same Job Performer role. For example, various roles might review code, but we'd use a single "Code Reviewer" Job Performer to understand that specific task.
 
 ### **Related Job Performers (optional):** Who affects our Job Performer when doing their job?
 
