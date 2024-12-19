@@ -113,30 +113,23 @@ Bad example:
 
 - Ask Richard what neighborhoods are popular to live in (Who’s Richard? Does everyone who does this job have a Richard? Too specific.)
 
-### **Outcomes:** How does the Job Performer measure the success of getting the job done?
+### **Outcomes:** How does the Job Performer measure success?
 
-Outcomes represent how the Job Performer gauges the success of completing the Main Job and are often subjective. You can have between 50 to 100 Outcome statements for any given Main Job.
+Outcomes are the subjective criteria Job Performers use to gauge success. A Main Job typically has 50-100 Outcome statements.
 
-What goes into an Outcome statement:
+Key characteristics:
 
-1. They begin with a verb indicating a **direction** of change (e.g., minimize, reduce, decrease, maximize, increase).
-2. Contains something the Job Performer wants to change as a unit of **measure** (e.g., time, effort, or likelihood).
-3. They end with qualifiers/clarifiers that make the outcome statement **specific** and **relevant** to the Main Job.
+- Begins with a directional verb (minimize, increase, etc.)
+- Includes a measurable unit (time, effort, likelihood)
+- Ends with job-specific qualifiers
+- Avoids compound statements (no AND/OR)
+- Remains solution agnostic
 
-- Avoid ANDs or ORs (they need to be singular), and remain technology/solution agnostic
-
-Good examples:
-
-- **Minimize** (_direction_) the **time** it takes (_measure_) to identify a potential new home (_qualifiers_)
-- **Reduce** the **number of compromises** made when deciding on a new home
-- **Minimize** the **distance** to the place of employment
-
-These outcome statements provide insights into the Job Performer's criteria for success in accomplishing the Main Job.
-
-Bad examples:
-
-- Find the best home quickly (Why? No verb indicating direction, ‘best’ is not specific enough to be useful.)
-- Have the most attractive house on the street (Why? No direction, ‘most attractive’ is not a good unit of measure.)
+| Good Examples | Bad Examples |
+|--------------|--------------|
+| Minimize the time it takes to identify a potential new home | Find the best home quickly (No direction, "best" isn't specific) |
+| Reduce the number of compromises made when deciding on a new home | Have the most attractive house on the street (No direction, subjective measure) |
+| Minimize the distance to the place of employment |  |
 
 ### **Emotional/Social Aspects:** How does the Job Performer feel and want to be perceived?
 
