@@ -178,6 +178,14 @@ what key was used to encrypt an attribute. This shouldn't be hard to add support
 ## References
 
 - <https://gitlab.com/gitlab-org/gitlab/-/issues/25332>
+- <https://gitlab.com/gitlab-org/gitlab/-/issues/26243>
+- <https://gitlab.com/groups/gitlab-org/-/epics/10193>
+- <https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/team/-/issues/594> (confidential)
+- <https://gitlab.com/gitlab-org/gitlab/-/issues/228663> (confidential)
+- <https://gitlab.com/gitlab-com/gl-security/security-department-meta/-/issues/756> (confidential)
+- <https://gitlab.com/gitlab-com/gl-infra/production-engineering/-/issues/12927> (confidential)
+- <https://gitlab.com/gitlab-org/gitlab/-/issues/244855> (confidential)
+- <https://gitlab.com/groups/gitlab-com/gl-infra/-/epics/443> (confidential)
 
 ## Who
 
