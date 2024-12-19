@@ -54,10 +54,10 @@ The environment quickly highlights what custom configs, installation types, or v
 - Impacted offerings - aligns with the Offering section of Docs pages
 - Impacted versions - highlights affected versions. Use [earlier](https://docs.gitlab.com/ee/development/documentation/styleguide/word_list.html#earlier) and [later](https://docs.gitlab.com/ee/development/documentation/styleguide/word_list.html#later) when talking about version numbers. This can be excluded if all known / supported versions are affected; be as specific as possible:
 
-  - 16.1 to 16.3
-  - 16.5 and earlier
-  - 17.1 and later
-  - 17.x
+- 16.1 to 16.3
+- 16.5 and earlier
+- 17.1 and later
+- 17.x
 
 ### Solution and/or Workaround
 
@@ -66,21 +66,21 @@ The solution section clearly lists the steps the user must follow to resolve the
 1. Change the title of this section to best fit its content: Solution or Workaround
 2. Describe steps needed to resolve or work around the issue.
 
-  - Steps should be as concise as possible:
-    1. Connect to database: `sudo gitlab-psql connect`
-    2. Run:
-
-      ```sql
+- Steps should be as concise as possible:
+  1. Connect to database: `sudo gitlab-psql connect`
+  2. Run:
+  
+  ```sql
       --- comment: fixes complicated thing
       <complicated command>
-      ```
+  ```
 
-  - For different environments, list commands as sub-bullets
-    - Linux: `<command>`
-    - macOS: `<command>`
-  - Use numbered lists for tasks that must be completed in order.
-  - Use bullet points for unordered steps.
-  - Link to pre-existing documentation when possible.
+- For different environments, list commands as sub-bullets
+  - Linux: `<command>`
+  - macOS: `<command>`
+- Use numbered lists for tasks that must be completed in order.
+- Use bullet points for unordered steps.
+- Link to pre-existing documentation when possible.
 
 ### Cause
 
