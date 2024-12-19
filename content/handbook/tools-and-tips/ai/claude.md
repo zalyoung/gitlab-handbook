@@ -72,18 +72,18 @@ Requires two steps:
 
 1. Download the raw Hacker News thread data. Ask Claude how to achieve that, it may come up with a Python script that downloads a JSON data file.
 
-    ```markdown
-    How can I download the raw content of a Hacker News thread, for example https://news.ycombinator.com/item?id=42453341
-    ```
+   ```markdown
+   How can I download the raw content of a Hacker News thread, for example https://news.ycombinator.com/item?id=42453341
+   ```
 
 2. Upload the data file into the Claude Chat prompt, and ask Claude to analyze the sentiments.
 
-    ```markdown
-    Please summarize the attached Hacker News discussion, and provide insights into
+   ```markdown
+   Please summarize the attached Hacker News discussion, and provide insights into
 
-    1. Competitors and how they are received
-    2. General sentiment analysis
-    ```
+   1. Competitors and how they are received
+   2. General sentiment analysis
+   ```
 
 ### Editing and writing
 

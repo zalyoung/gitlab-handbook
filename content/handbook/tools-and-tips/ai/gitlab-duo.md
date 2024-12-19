@@ -90,15 +90,15 @@ Sometimes, Markdown tables need to be split into multiple tables, or merged into
 1. Open the IDE and select the table that should be updated or refactored.
 1. Ask GitLab Duo Chat the following prompt:
 
-    ```markdown
-    /refactor the table for better readability. Split it by the first column into separate tables.
-    ```
+   ```markdown
+   /refactor the table for better readability. Split it by the first column into separate tables.
+   ```
 
 1. When Duo Chat visualizes the table in the response, use that to verify that the table is correctly divided. You can follow up with a prompt to ask for a raw output:
 
-    ```markdown
-    Only show the refactored table as raw Markdown code blocks
-    ```
+   ```markdown
+   Only show the refactored table as raw Markdown code blocks
+   ```
 
 ## Development use cases
 
@@ -118,7 +118,7 @@ Read the blog post [Developing GitLab Duo: How we are dogfooding our AI features
 
 You can explore the use cases in:
 
-1. [Duo Enterprise product tours](https://handbook.gitlab.com/handbook/marketing/developer-relations/developer-advocacy/content/#product-tours) and [Root Cause Analsysis challenges](https://gitlab.com/gitlab-da/use-cases/ai/ai-workflows/gitlab-duo-challenges/root-cause-analysis) maintained by the [Developer Advocacy team](/handbook/marketing/developer-relations/developer-advocacy/projects/#organisation-structure)
+1. [Duo Enterprise product tours](/handbook/marketing/developer-relations/developer-advocacy/content/#product-tours) and [Root Cause Analysis challenges](https://gitlab.com/gitlab-da/use-cases/ai/ai-workflows/gitlab-duo-challenges/root-cause-analysis) maintained by the [Developer Advocacy team](/handbook/marketing/developer-relations/developer-advocacy/projects/#organisation-structure)
 1. [GitLab University: GitLab Duo Enterprise course](https://university.gitlab.com/courses/gitlab-duo-enterprise)
 
 ### Onboarding and contributions
