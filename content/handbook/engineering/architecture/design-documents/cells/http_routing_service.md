@@ -461,12 +461,12 @@ use [Gradual deployments](https://developers.cloudflare.com/workers/configuratio
 
 #### Prerequisites
 
-- It is important for this rollout strategy to follow the timeline. You would need
-to merge MR's with a certain interval. Therefore, work in pair.
 - Before processing with rollout steps, make sure you clearly defined the
 timeline.
 - [Schedule the change](../../../../support/readiness/operations/docs/pagerduty/change_management.md)
 - Add a new Change Lock entry to the [configuration]((https://gitlab.com/gitlab-com/gl-infra/change-lock/-/blob/f1c2a4e197fc5c0c1ca4aae18e7480a904212f80/config/changelock.yml) file. Use the `http-router` Change Lock tag for this entry.
+
+Note: It is important for this rollout strategy to follow the timeline. You will need to merge MRs with a certain interval. Therefore, it's recommended to work in pairs.
 
 #### Rollout steps
 
