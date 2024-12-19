@@ -34,7 +34,9 @@ For IDE integration through GitLab Duo extensions, follow the [editor extensions
 
 ## Tips
 
-GitLab Duo Chat can answer many questions about GitLab, programming languages, technology and more. Use it for your advantage, and practice how to ask questions and create follow-up conversations, instead of opening multiple browser search tabs. Learn more in the blog post [10 best practices for AI-powered GitLab Duo Chat](https://about.gitlab.com/blog/2024/04/02/10-best-practices-for-using-ai-powered-gitlab-duo-chat/). If you are using GitLab Duo to write code, dive into the blog post [Top tips for efficient AI-powered Code Suggestions with GitLab Duo](https://about.gitlab.com/blog/2024/06/11/top-tips-for-efficient-ai-powered-code-suggestions-with-gitlab-duo/).
+GitLab Duo Chat can answer many questions about GitLab, programming languages, technology and more. Use it for your advantage, and practice how to ask questions and create follow-up conversations, instead of opening multiple browser search tabs. Explore, experiment, and iterate on chat prompts and responses. Learn more in the blog post [10 best practices for AI-powered GitLab Duo Chat](https://about.gitlab.com/blog/2024/04/02/10-best-practices-for-using-ai-powered-gitlab-duo-chat/).
+
+If you are using GitLab Duo to write code, dive into the blog post [Top tips for efficient AI-powered Code Suggestions with GitLab Duo](https://about.gitlab.com/blog/2024/06/11/top-tips-for-efficient-ai-powered-code-suggestions-with-gitlab-duo/).
 
 Explore the use cases in this handbook page for GitLab team members and co-creators. More use cases and workflows are documented in the [GitLab Duo documentation](https://docs.gitlab.com/ee/user/gitlab_duo/).
 

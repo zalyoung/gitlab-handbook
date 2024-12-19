@@ -12,14 +12,18 @@ Open [claude.ai](https://claude.ai/) and use your team member email address for 
 
 - [Tech Stack: Anthropic](/handbook/business-technology/tech-stack/#anthropic)
 - [AI at GitLab initiative](https://internal.gitlab.com/handbook/company/ai-at-gitlab/) (internal)
+- [Claude.ai support articles collection](https://support.anthropic.com/en/collections/4078531-claude-ai)
 
 ## Tips
+
+Claude.ai can answer many different questions and topics. Be creative, curious, and explore, and iterate on the best chat prompts. Since [GitLab Duo Chat](gitlab-duo.md) also uses [Anthropic Claude as one of the LLMs](https://docs.gitlab.com/ee/user/gitlab_duo_chat/), you can test and repurpose similar chat prompts.
 
 1. Join the [#ai-at-gitlab Slack channel](https://gitlab.enterprise.slack.com/archives/C085M5071LG)
 1. Download [Claude for Desktop](https://claude.ai/download)
 1. CLI and API access
    - An Anthropic API key is required. Create an [Access Request](/handbook/it/end-user-services/onboarding-access-requests/access-requests/) for [Anthropic Console - Corp](/handbook/business-technology/tech-stack/#anthropic-console---corp-internal-use)
    - Learn about the [Anthropic SDK](https://docs.anthropic.com/en/docs/initial-setup#install-the-sdk) and community projects for CLIs: [anthropic-cli](https://github.com/dvcrn/anthropic-cli)
+1. [How up-to-date is Claude's training data?](https://support.anthropic.com/en/articles/8114494-how-up-to-date-is-claude-s-training-data)
 
 ## Use cases
 
