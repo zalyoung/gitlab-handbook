@@ -178,7 +178,7 @@ In this lab, you will learn how to scan for vulnerabilities in your containers.
 
 ## Lab Guide Complete
 
-You have completed this lab exercise. You can view the other [lab guides for this course](/handbook/customer-success/professional-services-engineering/education-services/ilt-labs/secessentialshandson).
+You have completed this lab exercise. You can view the other [lab guides for this course](/handbook/customer-success/professional-services-engineering/education-services/ilt-labs/gitlabsecurityessentials).
 
 ## Suggestions?
 

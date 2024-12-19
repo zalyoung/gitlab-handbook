@@ -165,7 +165,7 @@ The Secret Detection job belongs to the **test** stage by default. Since your `.
 
     > To configure Secret Detection to use non-default behavior, you can override the **secret_detection** job definition and add variables inside it.
     >
-    > A full list of Secret Detection variables can be found in the [https://docs.gitlab.com/ee/user/application_security/secret_detection/#available-cicd-variables"](documentation).
+    > A full list of Secret Detection variables can be found in the [documentation](https://docs.gitlab.com/ee/user/application_security/secret_detection/#available-cicd-variables).
 
 1. Your `.gitlab-ci.yml` file will now look like this:
 
@@ -203,7 +203,7 @@ The Secret Detection job belongs to the **test** stage by default. Since your `.
 
 ## Lab Guide Complete
 
-You have completed this lab exercise. You can view the other [lab guides for this course](/handbook/customer-success/professional-services-engineering/education-services/ilt-labs/secessentialshandson).
+You have completed this lab exercise. You can view the other [lab guides for this course](/handbook/customer-success/professional-services-engineering/education-services/ilt-labs/gitlabsecurityessentials).
 
 ## Suggestions?
 
