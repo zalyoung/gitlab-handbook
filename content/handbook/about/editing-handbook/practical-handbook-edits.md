@@ -8,6 +8,8 @@ This page contains instructions, tips, and historical recordings for non-technic
 Content on this page is to provide additional tips as a supplement to the [editing handbook page](_index.md).
 Please keep the basics of how to edit the handbook, including how to get help on the [editing handbook page](_index.md).
 
+> **Tip** Use AI to edit the handbook faster, and learn about [Anthropic Claude](/handbook/tools-and-tips/ai/claude/) and [GitLab Duo](/handbook/tools-and-tips/ai/gitlab-duo/).
+
 ## Before you begin in command line
 
 Some tips may require terminal shell access on macOS/Linux. Ensure that your environment is working and that you have cloned the [public handbook](https://gitlab.com/gitlab-com/content-sites/handbook) repository for example.
