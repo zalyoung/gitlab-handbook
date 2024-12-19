@@ -219,6 +219,7 @@ This job can be configured in the following ways:
 
 - `WAREHOUSE`: No default, a value of `DEV_XL`, `DEV_L`, or `DEV_XS` must be provided.
 - `STATEMENT`: No default, a complete `dbt` statement must be provided. e.g. `run --select +dim_date`.
+- `RAW_DB`: Defaults to `Live` but will accept `Dev`.  Selecting `Dev` will have the job use the branch specific version of the live `RAW` database, only the data that is explicitly loaded will be present.  This is needed when testing models build on extracts that are new in the same branch.
 
 #### `📚📝generate_dbt_docs`
 
