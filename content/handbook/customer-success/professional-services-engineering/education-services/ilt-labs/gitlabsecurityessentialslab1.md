@@ -96,7 +96,7 @@ For this section of the course, we will use a template with prepopulated code to
 
 1. Review the vulnerabilities shown in the MR.
 
-1. For now, we will merge these vulnerabilities so we can demonstrate other security features. In most cases however, you would aim to resolve the issues here
+1. For now, we will merge these vulnerabilities so we can demonstrate other security features. In most cases however, you would aim to resolve the issues here.
 
 1. Return to your merge request.
 
@@ -104,9 +104,9 @@ For this section of the course, we will use a template with prepopulated code to
 
 ## Task D. Enable Advanced SAST
 
-To provide more thorough scanning and vulnerability detection, we will opt to enable advanced SAST in our project. To do this, we need to add another input to our SAST scan component.
+To provide more thorough scanning and vulnerability detection, we will opt to enable Advanced SAST in our project. To do this, we need to add another input to our SAST scan component.
 
-1. Return to your project code.
+1. In the Left sidebar, navigate to **Code > Repository**.
 
 1. Select your `.gitlab-ci.yml` file
 
@@ -131,7 +131,7 @@ To provide more thorough scanning and vulnerability detection, we will opt to en
 
 1. Select your currently running pipeline. Note that there is now a job titled `gitlab-advanced-sast`. 
 
-The GitLab advanced SAST scanner will provide us more utility from our SAST scanner. We will see how the results look when we investigate our vulnerability report later in the lab.
+The GitLab Advanced SAST scanner will provide us more utility from our SAST scanner. We will see how the results look when we investigate our vulnerability report later in the lab.
 
 ## Task E. Enable and Configure Secret Detection
 
@@ -141,7 +141,7 @@ The Secret Detection job belongs to the **test** stage by default. Since your `.
 
 1. In the Left sidebar, navigate to **Code > Repository**.
 
-1. Click the `.gitlab-ci.yml` file. In the top right above the code, navigate to **Edit > Edit single file**.
+1. Click the `.gitlab-ci.yml` file. In the top right above the code, navigate to **Edit > Edit in pipeline editor**.
 
 1. Enable Secret Detection by adding the component at the end of the existing `include:` section in `.gitlab-ci.yml`, below the component for SAST. This indent should be at the same level as the previous template.
 
@@ -165,9 +165,9 @@ The Secret Detection job belongs to the **test** stage by default. Since your `.
 
     > To configure Secret Detection to use non-default behavior, you can override the **secret_detection** job definition and add variables inside it.
     >
-    > A full list of Secret Detection variables can be found in the <a target="_blank" href="https://docs.gitlab.com/ee/user/application_security/secret_detection/#available-cicd-variables">documentation</a>.
+    > A full list of Secret Detection variables can be found in the [https://docs.gitlab.com/ee/user/application_security/secret_detection/#available-cicd-variables"](documentation).
 
-1. Your `.gitlab-ci.yml` file will now look like this.
+1. Your `.gitlab-ci.yml` file will now look like this:
 
     ```yml
     stages:
@@ -191,17 +191,13 @@ The Secret Detection job belongs to the **test** stage by default. Since your `.
 
 ## Task G. View the Project Level Vulnerability Report
 
-> Every time you merge code into the main branch, the security pipeline will run and generate a project level vulnerability report that shows all vulnerabilities in *the latest commit to the default branch.* Think of this as the baseline set of vulnerabilities that you'll compare to vulnerabilities on other branches.
+> Every time you merge code into the main branch, the security pipeline will run and generate a project level vulnerability report that shows all vulnerabilities in *the latest commit to the default branch*. Think of this as the baseline set of vulnerabilities that you'll compare to vulnerabilities on other branches.
 
 1. Navigate to **Secure > Vulnerability Report**.
 
 1. Looking at the **Tool** column in the **Development vulnerabilities table**, you'll see a variety of vulnerability detections for each tool we enabled.
 
-1. Select the **Improper neutralization of special elements used in an SQL command** vulnerability. 
-
-1. You will see two tabs here, **Details** and **Code flow**. The **Details** tab shows general details about the vulnerability. 
-
-1. The **Code flow** tab is a special feature provided by the advanced SAST scanner. This shows how your vulnerability is reached in your code.
+1. Select the **Improper neutralization of special elements used in an SQL command** vulnerability. You will see two tabs here, **Details** and **Code flow**. The **Details** tab shows general details about the vulnerability. The **Code flow** tab is a special feature provided by the advanced SAST scanner. This shows how your vulnerability is reached in your code.
 
 1. Review these different results. In the next lab, we will discuss how to triage and resolve these vulnerabilities. 
 

@@ -3,9 +3,9 @@ title: "GitLab Security Essentials - Hands-On Lab: Addressing Vulnerabilities"
 description: "This Hands-On Guide walks you through how to triage and respond vulnerabilities in your application"
 ---
 
-## Task A. Vulnerability Triage Process
+In the last lab, you introduced the SAST and Secret Detection scanners into your project. In this lab, we will explore methods to triage and resolve vulnerabilities.
 
-In the last lab, you introduced the SAST and secret detection scanners into your project. In this lab, we will explore methods to triage and resolve vulnerabilities. To start:
+## Task A. Vulnerability Triage Process
 
 1. Navigate to your Security Labs project. 
 
@@ -43,15 +43,15 @@ At this point, we've create two issues to address as security issues in our appl
 
 ## Task B. Fixing Vulnerabilities
 
-1. To start, navigate to **Plan > Issues**.
+1. Navigate to **Plan > Issues**.
 
 1. Select the issue titled **GitLab Personal Access Token**.
 
-1. Select the code location: `app.py:5`.
+1. Select the code location: `main.py:5`.
 
 1. Select **Edit > Open in Web IDE**.
 
-1. Select the `app.py` file.
+1. Select the `main.py` file.
 
 1. Delete the line of code:
 
@@ -67,13 +67,13 @@ At this point, we've create two issues to address as security issues in our appl
 
 1. Press **Enter** to take the default branch name.
 
-1. Select **Create MR** in the bottom left of the screen.
+1. Select **Create MR** in the bottom right of the screen.
 
 1. Select **Create merge request**.
 
 1. Wait for the pipeline in the merge request to complete. Refresh the page once completed to view the **Security Report**.
 
-1. Review the findings. You should no longer see the **GitLab Personal Token** issue in the security list.
+1. Review the findings. You should no longer see the **GitLab Personal Token** issue in the security list. 
 
 1. Select **Merge** to merge the security updates.
 

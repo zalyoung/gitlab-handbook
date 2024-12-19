@@ -17,7 +17,7 @@ In this lab, you will learn how to scan for vulnerabilities in your containers.
 
 1. Navigate to **Code > Repository** and edit `.gitlab-ci.yml`.
 
-1. Define a `build` stage by pasting this in your `.gitlab-ci.yml`, at the top of the stages list, before the `-test` stage. Make sure it has the same indentation as the existing `- test` entry beneath it:
+1. Define a `build` stage by pasting this in your `.gitlab-ci.yml`, at the top of the stages list, before the `test` stage. Make sure it has the same indentation as the existing `test` stage beneath it:
 
     ```yml
     stages:
@@ -157,7 +157,6 @@ In this lab, you will learn how to scan for vulnerabilities in your containers.
 1. Add the Container Scanning template to the existing `include:` section of `.gitlab-ci.yml`:
 
     ```yml
-    include:
     - component: ilt.gitlabtraining.cloud/components/container-scanning/container-scanning@main
     ```
 

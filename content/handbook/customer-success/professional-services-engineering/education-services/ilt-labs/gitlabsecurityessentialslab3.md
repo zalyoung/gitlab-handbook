@@ -23,7 +23,7 @@ Our initial project has been built and we want to start on the deployment proces
 
     > Note that for `pip`, you are required to provide the `pip-compile` header.
 
-For infrastructure as code, you will start by deploying an S3 bucket to your environment. To do this, you can set up some terraform files with infrastructure definitions. To do this:
+For Infrastructure as Code, you will start by deploying an S3 bucket to your environment. To do this, you can set up Terraform files with infrastructure definitions. To do this:
 
 1. Navigate to your project.
 
@@ -62,7 +62,7 @@ This project will also use Docker for deployments. To enable this, we will creat
 
 ### Task B. Add dependency scanning
 
-Now that you have dependencies added to your project, you want to ensure that the dependencies do not contain any security vulnerabilities. To validate this, you can add security scanning to your project.
+Now that you have dependencies added to your project, you want to ensure that the dependencies do not contain any security vulnerabilities. To validate this, you can add Dependency Scanning to your project.
 
 1. Open your `.gitlab-ci.yml` file.
 
@@ -78,17 +78,15 @@ Now that you have dependencies added to your project, you want to ensure that th
 
 To view the progress of your new pipeline:
 
-1. In the left sidebar, select **Build > Pipelines.**
+1. In the left sidebar, select **Build > Pipelines**.
 
-1. Select your most recent pipeline
-
-1. You should now see a job titled `dependency-scanning`. 
+1. Select your most recent pipeline. You should now see a job titled `dependency-scanning`. 
 
 Once this pipeline completes, you will be able to view the results of the security scan:
 
 1. In the left sidebar, select **Secure > Vulnerability report**. 
 
-1. In the **Vulnerability report**, filter for the `gemnasium-python` tool. 
+1. In the **Vulnerability report**, filter for the Dependency Scanning tool by clicking on the search bar, clicking **Tool** and then clicking **GitLab SBoM Vulnerability Scanner**. 
 
 1. Click on each vulnerability to review the findings.
 

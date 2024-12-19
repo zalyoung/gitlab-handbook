@@ -15,9 +15,9 @@ In this lab, you will learn how to implement both scanners for your projects.
 
 To test out DAST scans, we are going to setup an instance of a vulnerability web application called [OWASP Juice Shop](https://owasp.org/www-project-juice-shop/). Scanning this application will show you the full range of DAST scan results you can expect to see.  
 
-1. Create a new project. Name the project `DAST`.
+1. Create a new blank project. Name the project `DAST`.
 
-1. In the empty project, create a `.gitlab-ci.yml` file.
+1. In the DAST project, create a `.gitlab-ci.yml` file.
 
 1. To start, add the DAST stage to your configuration:
 

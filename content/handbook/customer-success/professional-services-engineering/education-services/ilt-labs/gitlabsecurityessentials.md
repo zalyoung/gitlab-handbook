@@ -23,4 +23,4 @@ Here are some quick links that may be useful when reviewing this Hands-On Guide.
 
 ## Suggestions?
 
-If you wish to make a change to the *Hands-On Guide for GitLab CI/CD*, please submit your changes via Merge Request!
+If you wish to make a change to the *GitLab Security Essentials Hands-On Guide*, please submit your changes via Merge Request!
