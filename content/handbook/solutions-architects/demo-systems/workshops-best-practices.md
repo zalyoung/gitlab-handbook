@@ -1,10 +1,15 @@
 ---
 title: Workshops
-description: Workshops are interactive events designed to provide GitLab prospects and customers with hands-on experience in a live GitLab environment. Led by GitLab Solution Architects, these half-day pre-sales enablement sessions cover essential use cases and serve as an efficient alternative to extensive proofs of value (POVs).
+description: Workshops are interactive events designed to provide GitLab prospects and customers with hands-on experience in a live GitLab environment. These sales enablement/adoption sessions cover essential use cases and serve as an efficient alternative to extensive proofs of value (POVs), product demos, etc.
 ---
 
 Common workshop topics include:
 
+- Duo Enterprise 
+- ModelOps
+- Monorepos
+- Platform Engineering
+- GitOps
 - DevOps Automation
 - Portfolio and Project Management
 - Security
@@ -21,13 +26,15 @@ Each workshop requires:
 - Setup of issue tracking workflows
 - Additional environment preparation specific to the workshop topic
 
-For more information, review the [Hands-On Workshop Tools and Resources](/handbook/solutions-architects/tools-and-resources/workshop) handbook page.
+All of which can be prepaired by Demo Architecture
+
+For more information, review the [Workshops section](/handbook/solutions-architects/demo-systems/demo-architect) here.
 
 ## Capacity and Format
 
 To ensure optimal experience:
 
-- Attendance is limited to 200 or fewer participants
+- Attendance is limited to 50 participants per GitLab team member (presenter or QA)
 - This limit enables:
   - Stable working environments for all attendees
   - Timely responses to questions and issues
@@ -35,7 +42,7 @@ To ensure optimal experience:
 
 ### Key Benefits
 
-The workshop approach delivers multiple strategic advantages in the pre-sales process:
+The workshop approach delivers multiple strategic advantages in the sales process:
 
 - Dramatically accelerates customer comfort and awareness with GitLab's extensive feature set through direct, hands-on experience
 - Substantially reduces or completely eliminates the requirement for time-consuming and resource-intensive POVs
@@ -58,39 +65,11 @@ Workshops are strategically designed to engage a diverse technical audience, typ
 
 ## Workshop Format
 
-### Structure
+Workshop formats are extremely flexible ranging from set up Hackathons to one hour hands on deep dives. Please identify what would fit your customers needs best before reaching out to the Demo Archticture team to pair on content creation/delivery. As a standard (but not required) workshops include:
 
-1. Customer Background Discussion and Context Setting
-
-   - In-depth exploration of the customer's current technical landscape
-   - Detailed discussion of challenges and pain points driving GitLab evaluation
-   - Establishment of specific workshop objectives and success criteria
-   - Understanding of customer's existing toolchain and integration requirements
-   - Review of current development processes and desired improvements
-
-2. Comprehensive Demonstration Phase
-
-   - Strategic showcase of GitLab capabilities aligned with customer needs
-   - Live demonstration of relevant workflows and integrations
-   - Real-world examples of how GitLab addresses specific customer challenges
-   - Illustration of best practices and recommended approaches
-   - Interactive Q&A to address specific technical questions
-
-3. Guided Hands-on Portion
-
-   - Step-by-step walkthrough of key GitLab features and functionality
-   - Practical exercises designed to reinforce learning objectives
-   - Direct assistance with configuration and setup
-   - Collaborative problem-solving sessions
-   - Real-time feedback and guidance from GitLab experts
-
-4. Independent Hands-on Labs
-
-   - Self-directed exploration of GitLab features
-   - Application of learned concepts to customer-specific scenarios
-   - Opportunity for deep-dive into areas of particular interest
-   - Practice with advanced features and integrations
-   - Freedom to experiment with different configurations and approaches
+- Target 3 hour session
+- Informative intro + closing, usually done through slides
+- Mulitple hands on activitiies
 
 ### Delivery Options
 
@@ -114,7 +93,7 @@ Remote Delivery via Zoom:
 
 Duration and Timing:
 
-- Typical length: 2-4 hours, allowing for comprehensive coverage
+- Typical length: 1-4 hours, allowing for comprehensive coverage
 - Strategic breaks to maintain engagement
 - Flexible scheduling to accommodate different time zones
 - Optional follow-up sessions for advanced topics
@@ -126,7 +105,7 @@ Understanding the distinct characteristics of workshops and demonstrations is cr
 
 | Aspect | Workshop | Demonstration |
 |--------|----------|---------------|
-| Duration | Extended engagement (2-4 hours) | Focused presentation (30-60 minutes) |
+| Duration | Extended engagement (1-4 hours) | Focused presentation (30-60 minutes) |
 | Scope | Comprehensive coverage of multiple use cases and features | Targeted exploration of specific functionality |
 | Interaction Level | High engagement with hands-on activities, exercises, and practical application | Primarily observational with Q&A opportunities |
 | Problem Focus | Broad exploration of use cases with deep-dive capabilities | Specific solution demonstration for identified challenges |
@@ -180,17 +159,18 @@ Understanding the distinct characteristics of workshops and demonstrations is cr
    - Create detailed session timelines
    - Prepare transition strategies between sections
 
-### Companion Role and Responsibilities
+### Question & Answer Role and Responsibilities
 
-A dedicated workshop companion serves as a crucial support resource, responsible for:
+A dedicated workshop Question & Answer(QA) serves as a crucial support resource, responsible for:
 
 Technical Support:
 
 - Maintaining comprehensive knowledge of workshop content
-- Managing Learn Labs session access and technical issues
+- Assist with Learn Labs session access and technical issues
 - Providing real-time troubleshooting assistance
 - Monitoring participant progress and identifying struggles
 - Managing technical infrastructure during the session
+- MC'ing live questions
 
 Communication Support:
 
