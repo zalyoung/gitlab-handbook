@@ -22,13 +22,13 @@ The SA leadership shadow program is a 2-week immersion to experience the [skills
 Candidates must:
 
 1. Complete their [Individual Growth Plan (IGP)](/handbook/people-group/learning-and-development/career-development/igp-guide)
-1. Review their IGP with their manager and discuss leadership aspirations
+2. Review their IGP with their manager and discuss leadership aspirations
 
 ### How to Apply
 
 1. Create a merge request to add yourself to the [rotation schedule](#rotation-schedule)
-1. Assign your manager and ask them to approve and merge the merge request
-1. Coordinate shadowing arrangements through your manager
+2. Assign your manager and ask them to approve and merge the merge request
+3. Coordinate shadowing arrangements through your manager
 
 ### Rotation Schedule
 
