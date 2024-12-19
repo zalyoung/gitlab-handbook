@@ -140,6 +140,6 @@ SMEs will be regularly evaluated based on their contributions and impact on the 
 | **US East** | Sam Morris,<br>Manjeet Singh | Bernard Park,<br>James Nyika,<br>Manjeet Singh | Dan Rabinovitz | Adam Zwickey | Jason Morgan,<br>Bradley Lee | Rob Jackson |
 | **US West** | Karen Kwentus | Yu-Chen Hsueh,<br>Anthony Baer,<br>Taylor Carr,<br>John Bush | Steve Grossman | Ryan Taylor | Ken McKnight | Siddharth Mathur |
 | **High Velocity - AMER** | | | Sophia Manicor | | Noah Ing | |
-| **High Velocity - EMEA** | | Claire Marie Champernowne<br>Nupur Sharma | Jan Kunzmann | Corina Patachia | Sarah Matthies | Breno Gomes |
-| **Pub Sec** | Kevin Chasse,<br>Josh Swann | Sameer Kamani,<br>Zachary Yates | Joseph Valeriano,<br>Linc Williams | Daniel Marquard,<br>Michael Bradley | Rachel Fuerst | |
+| **High Velocity - EMEA** | | Claire Marie Champernowne<br>Nupur Sharma | Jan Kunzmann | | Sarah Matthies | Breno Gomes |
+| **Pub Sec** | Kevin Chasse,<br>Josh Swann | Sameer Kamani,<br>Zachary Yates | Joseph Valeriano,<br>Linc Williams | Michael Bradley | Rachel Fuerst | |
 | **Partner** | | | | | | |
