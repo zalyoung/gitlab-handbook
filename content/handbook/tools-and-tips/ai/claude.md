@@ -1,8 +1,8 @@
 ---
-title: "Anthropic Claude Tips"
+title: "Claude.ai Tips"
 ---
 
-Learn how to use [Anthropic Claude](https://claude.ai/) to infuse AI into your workflows, tools, and processes to greater efficiencies. You can use Claude to write content, create outlines and documents, summarize content, generate database migrations and SQL statements, recommend refactorings, and more.
+Learn how to use [Claude.ai](https://claude.ai/) to infuse AI into your workflows, tools, and processes to greater efficiencies. You can use Claude to write content, create outlines and documents, summarize content, generate database migrations and SQL statements, recommend refactorings, and more.
 
 ## Access
 
