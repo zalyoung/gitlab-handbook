@@ -12,7 +12,7 @@ Most of the details discussed below are also available as individual issues whic
 
 - [GitLab Dedicated Issue Tracker Board](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/team/-/boards)
 - [Customer Onboarding Process](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/team/-/blob/main/README.md#customer-onboarding-process)
-- Slack Channel Dedciated Engineering: [#f_gitlab_dedicated](https://gitlab.enterprise.slack.com/archives/C01S0QNSYJ2)
+- Slack Channel Dedicated Engineering: [#f_gitlab_dedicated](https://gitlab.enterprise.slack.com/archives/C01S0QNSYJ2)
 - Slack Channel Dedicated SMEs: [#sme-dedicated](https://gitlab.enterprise.slack.com/archives/C07K39TGATB)
 - [Category Direction Page](https://about.gitlab.com/direction/saas-platforms/dedicated/)
 
