@@ -47,6 +47,59 @@ The following gives an overview of our scope and ownership.
 1. [Service Maturity model](/handbook/engineering/infrastructure/service-maturity-model/) which covers GitLab.com's production services.
 1. [GitLab.com availability reporting](/handbook/engineering/monitoring/): Provide underlying data and aggregate numbers
 
+### Documentation
+
+We recognize the need to provide technical documentation for teams using our observability services and platforms, as well as for our team's internal use.
+
+Historically, we've provided reference documentation within the projects we own or contribute to.
+As these projects are scattered around, it is rather difficult to discover the various pieces of relevant documentation for our users.
+
+As we reshape our documentation in 2025, we follow along with the following idea and principles:
+
+1. The [Infrastructure Observability Documentation Hub](https://gitlab-com.gitlab.io/gl-infra/observability/docs-hub/) is the entrypoint for any observability related documentation we provide.
+1. Carefully crafted documentation is a core product for the observability platform, not an afterthought.
+1. We think of the documentation hub as a way to communicate about observability interfaces we offer as a platform with everyone in Engineering.
+1. We strive to provide documentation like guides and tutorials targeted for specific audiences - in addition to reference documentation.
+1. We use the documentation hub also to explain concepts and architecture for our team internal use to create a common understanding and empower everyone to contribute in all areas.
+
+#### Where do we keep different types of documentation?
+
+There are different types of documentation, which belong in different places.
+
+| What?                                                        | Where?                      |
+|--------------------------------------------------------------|-----------------------------|
+| Team organisation, processes and other team level agreements | GitLab Handbook (this page) |
+| Technical reference documentation for standalone projects    | On the project itself       |
+| How do we at GitLab make use of the projects we maintain     | Documentation Hub           |
+| How does our GitLab specific architecture look like          | Documentation Hub           |
+| Tutorials, guides, FAQs and conceptual explanations          | Documentation Hub           |
+
+Documentation outside the Documentation Hub should be linked from it (that's why we call it a *hub*), to help increase discoverability.
+
+This recognizes the need to ship reference documentation with the respective project, as we would expect to see for any project (whether open source or not).
+The benefit here is that a change in functionality can also update reference documentation in the same merge request.
+
+On the other hand, how we make particular use of these projects in our stack is too specific to ship with the project itself.
+Often, we want to understand the bigger picture and how projects play together.
+This is out of scope for technical documentation that ships with a certain project itself and hence we put this information on the documentation hub instead.
+
+For our internal use, we use the documentation hub to help us reason about the services we own and hope we operate them.
+We expect this helps everyone on the team and helps us gather a common understanding as we have different roles and perspectives on the team.
+
+A recommended read on different types of documentation and how to organize it is the [Divio Documentation System](https://docs.divio.com/documentation-system/).
+
+#### How do we create documentation?
+
+As we reshape and build documentation, the documentation hub benefits from each and all contributions:
+
+1. Explain existing concepts
+1. Link together existing documentation
+1. Consolidate existing documentation and move in the right places
+1. Writing and graphics on system architecture and operational principles
+
+We aspire to establish a [Handbook First](https://handbook.gitlab.com/handbook/company/culture/all-remote/handbook-first/) mindset for our documentation.
+For example, instead of answering specific questions from team members individually (e.g. on Slack), we can take this as an opportunity to write a piece of documentation and ask them to review and work with that.
+
 ### Indicators
 
 The group is an owner of several performance indicators that roll up to the Infrastructure department indicators:
