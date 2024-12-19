@@ -60,7 +60,7 @@ As we reshape our documentation in 2025, we follow along with the following idea
 1. Carefully crafted documentation is a core product for the observability platform, not an afterthought.
 1. We think of the documentation hub as a way to communicate about observability interfaces we offer as a platform with everyone in Engineering.
 1. We strive to provide documentation like guides and tutorials targeted for specific audiences - in addition to reference documentation.
-1. We use the documentation hub also to explain concepts and architecture for our team internal use to create a common understanding and empower everyone to contribute in all areas.
+1. We use the documentation hub also to explain concepts and architecture for our team's internal use to create a common understanding and empower everyone to contribute in all areas.
 
 #### Where do we keep different types of documentation?
 
@@ -97,8 +97,8 @@ As we reshape and build documentation, the documentation hub benefits from each 
 1. Consolidate existing documentation and move in the right places
 1. Writing and graphics on system architecture and operational principles
 
-We aspire to establish a [Handbook First](https://handbook.gitlab.com/handbook/company/culture/all-remote/handbook-first/) mindset for our documentation.
-For example, instead of answering specific questions from team members individually (e.g. on Slack), we can take this as an opportunity to write a piece of documentation and ask them to review and work with that.
+We aspire to establish a [Handbook First](/handbook/company/culture/all-remote/handbook-first/) mindset for our documentation.
+For example, instead of answering specific questions from team members individually (for example on Slack), we can take this as an opportunity to write a piece of documentation and ask them to review and work with that.
 
 ### Indicators
 
