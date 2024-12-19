@@ -56,7 +56,7 @@ This phased approach ensures an MVP can be delivered early, with incremental sec
 1. KMS: Key Management Service, an external system to securely manage cryptographic keys.
 1. HSM: Hardware Security Module, hardware-based systems for secure key storage and signing.
 
-## Decisions
+## Assumptions
 
 1. Provenance Generation: Use Sigstore tools (cosign) to generate and sign provenance files.
 1. Reusable Components: Build modular GitLab CI components for easy adoption across projects.
@@ -66,6 +66,8 @@ This phased approach ensures an MVP can be delivered early, with incremental sec
    1. Out-of-pipeline signing via KMS for long-term secure artifact signing.
 1. Runner Hardening: Explore options for strong runner identity using hardware-based solutions (e.g., TPM, secure enclaves).
 1. Focus Ecosystems: Prioritize containers, Go, and Maven ecosystems in early phases.
+
+## Decisions
 
 ## Design Details
 
