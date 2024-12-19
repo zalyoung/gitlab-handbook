@@ -131,12 +131,12 @@ This phased approach ensures an MVP can be delivered early, with incremental sec
    1. cosign can utilize GitLab CI’s OIDC integration to securely authenticate the job and issue short-lived credentials. These credentials will sign the provenance file.
    1. The OIDC token provided by GitLab is scoped to the running pipeline job, making it ephemeral and secure.
 1. GitLab OIDC Integration Workflow:
-   1. GitLab generates an OIDC token for the job and exposes it in the environment variable CI_JOB_JWT.
+   1. GitLab generates an OIDC token in the CI component and exposes it as an environment variable.
    1. Sigstore’s cosign uses the OIDC token to authenticate the GitLab CI job with Sigstore’s transparency log (Rekor).
    1. Sigstore validates the identity and grants signing capability for the duration of the job.
    1. cosign generates a signed provenance file (JSON format) and uploads it to GitLab’s artifacts store.
 1. OIDC Configuration in GitLab:
-   1. Enable GitLab OIDC support by setting up the pipeline with CI_JOB_JWT.
+   1. Enable GitLab OIDC support by using the existing ID Token feature.
    1. Use GitLab CI/CD’s environment variables to expose tokens and necessary metadata.
 
 ### Reusable GitLab CI Component
@@ -165,6 +165,9 @@ component:
       PROVENANCE_FILE: "provenance.json" # Output provenance file
       COSIGN_VERSION: "v2.1.0"
 
+  id_tokens:
+    GITLAB_OIDC_TOKEN:
+      aud: sigstore
   script:
     - echo "Installing Sigstore cosign..."
     - wget -O /usr/local/bin/cosign https://github.com/sigstore/cosign/releases/download/${COSIGN_VERSION}/cosign-linux-amd64
@@ -172,7 +175,7 @@ component:
     - echo "Generating provenance for ${TARGET_ARTIFACT}..."
     - cosign generate-provenance ${TARGET_ARTIFACT} > ${PROVENANCE_FILE}
     - echo "Signing provenance using GitLab OIDC token..."
-    - cosign attest --type slsaprovenance --predicate ${PROVENANCE_FILE} --oidc-issuer "https://gitlab.com" --oidc-token ${CI_JOB_JWT}
+    - cosign attest --type slsaprovenance --predicate ${PROVENANCE_FILE} --oidc-issuer "https://gitlab.com" --oidc-token ${GITLAB_OIDC_TOKEN}
   artifacts:
     paths:
       - ${PROVENANCE_FILE}
@@ -229,7 +232,7 @@ verify_provenance:
    1. Uses the reusable component to:
       1. Generate the provenance file (provenance.json) for the artifact.
       1. Sign the provenance file using Sigstore's cosign with GitLab's OIDC token (CI_JOB_JWT).
-   1. Uploads the signed provenance as a pipeline artifact.
+   1. Uploads the signed provenance as a job artifact.
 1. Provenance Verification Stage (verify_provenance):
    1. Validates the signed provenance to ensure authenticity.
    1. Uses cosign verify-attestation to confirm the provenance signature and verify the artifact.
@@ -237,7 +240,7 @@ verify_provenance:
 ### Security Considerations
 
 1. Ephemeral OIDC Tokens:
-   1. The CI_JOB_JWT token is short-lived and scoped to the current job.
+   1. The ID token is short-lived and scoped to the current job.
    1. This ensures it cannot be reused outside the pipeline execution context.
 1. Artifact and Provenance Storage:
    1. Use GitLab’s artifact storage to securely store both the build artifact and the signed provenance file.
