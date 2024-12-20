@@ -71,7 +71,7 @@ Product Designers need to assess how their work impacts other parts of the produ
 
 ### Aiming towards "sophisticated simplicity"
 
-The visual design of GitLab has evolved from naive simplicity to sophisticated complexity. However, the ultimate goal is to achieve sophisticated simplicity ([Sophisticated Simplicity,  Marcel Weiher](https://blog.metaobject.com/2014/04/sophisticated-simplicity.html)). When designing, keep these three principles in mind:
+The visual design of GitLab has evolved from naive simplicity to sophisticated complexity. However, the ultimate goal is to achieve sophisticated simplicity ([Sophisticated Simplicity, Marcel Weiher](https://blog.metaobject.com/2014/04/sophisticated-simplicity.html)). When designing, keep these three principles in mind:
 
 1. **Structure** - Organize and arrange content and concepts into meaningful groups and patterns.
 1. **Discovery** - Ensure users can interact and explore in ways that promote learning and proficiency while minimizing mistakes.
