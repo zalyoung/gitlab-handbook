@@ -62,6 +62,7 @@ Any issue being worked on by an Application Security team member must include:
 - The `Application Security Team` label
 - The appropriate `AppSecWorkflow::` label
 - The appropriate Milestone
+- The appropriate Priority labels
 
 ### Updating issues health
 
@@ -83,6 +84,18 @@ Updating the issue milestone is required:
 | `AppSecWorkflow::planned` | Indicates that work has been triaged, scoped, and is ready to be worked on in the assigned milestone |
 | `AppSecWorkflow::in-progress` | Indicates the issue is actively being worked on, or the rotation is in progress |
 | `AppSecWorkflow::complete` | Indicates the work is done, or the rotation has finished |
+
+## Priority Labels
+
+The priority classification labels helps ICs understand what is the priority for leadership.
+
+The label assignment can be done by leadership (AppSec or at higher levels), or by the team members themselves. When team members are not sure on a particular priority, they can consult leadership for confirmation.
+
+| Label | Description |
+| ----- | ----------- |
+| AppSecPriority::1 | Top priority work that must be completed for the end of the planned milestone. |
+| AppSecPriority::2 | Work priority that is important and is prioritized as soon as all `AppSecPriority::1` work is completed. `AppSecPriority::2` work will become `AppSecPriority::1` on the next milestone. |
+| AppSecPriority::3 | Work priority that is less important and is prioritized as soon as all `AppSecPriority::2` work is completed. `AppSecPriority::3` will be evaluated during Milestones Planning Sessions and may become `AppSecPriority::2` for the next milestone. |
 
 ### Rotations
 
