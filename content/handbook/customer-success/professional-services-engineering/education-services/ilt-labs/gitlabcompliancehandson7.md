@@ -7,6 +7,7 @@ description: "This Hands-On Guide walks you through viewing project and group le
 
 ## Objectives
 
+This lab will demonstrate how to view project and group level audit events.
 
 ## Task A. Viewing Project Level Audit Events
 

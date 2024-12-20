@@ -36,7 +36,6 @@ As a part of our compliance labs, we have been running a dependency scanner. Thi
 
 1. Review the reports shown here. You can download these reports to view them in more detail.
 
-
 ## Lab Guide Complete
 
 You have completed this lab exercise. You can view the other [lab guides for this course](/handbook/customer-success/professional-services-engineering/education-services/ilt-labs/gitlabcompliancehandson).
