@@ -133,33 +133,30 @@ Key characteristics:
 
 ### **Emotional/Social Aspects:** How does the Job Performer feel and want to be perceived?
 
-When considering the emotional and social aspects of the job, explore how the Job Performer feels and how they want to be perceived while doing the Main Job . These are sort of the ‘experiential’ side of the job, as opposed to the functional aspect of the job.
+Emotional and social aspects represent the experiential side of the job, helping shape how solutions should be delivered to meet Job Performers' personal needs.
 
-Understanding the emotional and social aspects of the job helps to determine how potential solutions could be delivered, and how to ensure the Job Performer’s needs are met.
+Key characteristics of Emotional aspects:
 
-What goes into an Emotional aspect:
+- Begins with "feel" or "avoid feeling"
+- Indicates a specific emotion
+- Avoids compound statements (no AND/OR)
+- Remains solution agnostic
 
-- Begin with words "feel" or "avoid feeling"
-- Indicate an emotion
-- Avoid ANDs or ORs (they need to be singular), and be technology/solution agnostic.
+Key characteristics of Social aspects:
 
-Good Emotional Aspect examples:
+- Begins with "appear as" or "avoid appearing as"
+- Indicates social perceptions
+- Avoids compound statements (no AND/OR)
+- Remains solution agnostic
 
-- Feel in control of the home acquisition process
-- Avoid feeling uncertain about new home selection
+| Aspect Type | Examples |
+|-------------|----------|
+| Emotional | Feel in control of the home acquisition process |
+|           | Avoid feeling uncertain about new home selection |
+| Social    | Appear as a good future neighbor |
+|           | Avoid appearing unknowledgeable about the new home acquisition process |
 
-What goes into an Social aspect:
-
-- Begin with words "appear as" (looks like) or "avoid appearing as." (avoid looking like)
-- Indicate a social implications or perceptions of what others think of them
-- Avoid ANDs or ORs (they need to be singular), and be technology/solution agnostic.
-
-Good Social Aspect examples:
-
-- Appear as a good future neighbor
-- Avoid appearing unknowledgeable about the new home acquisition process
-
-These aspects can vary widely and provide insights into the Job Performer's emotional and social motivations and challenges, which can be crucial in determining how potential solutions ought to be delivered. For example, if a programmer is worried about appearing fast to his coworkers, we can design a solution that includes lots of time-saving features (code completion, AI summarization, other automatic actions, and so on).
+Understanding these aspects helps design solutions that address both functional and personal needs - like adding time-saving features for programmers concerned about appearing efficient.
 
 ### **Job Differentiators:** What factors influence how the job gets done?
 
