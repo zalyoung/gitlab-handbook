@@ -35,7 +35,7 @@ RAG, or Retrieval Augmented Generation, involves several key process blocks:
 - **Generation**: This phase involves crafting a prompt with the retrieved data
   and submitting it to an LLM, which then generates an AI-powered response.
 
-![Current page](img/blog_figure-1.jpg)
+![Current page](/images/engineering/architecture/design-documents/gitlab_rag/blog_figure-1.jpg)
 
 (Image from [Deconstructing RAG](https://blog.langchain.dev/deconstructing-rag/))
 

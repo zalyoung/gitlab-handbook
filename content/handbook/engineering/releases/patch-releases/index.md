@@ -46,7 +46,7 @@ of the patch release preparation, while unplanned patches will likely only inclu
 
 The end-to-end patch release process consists of the following stages:
 
-![patch release overview](patch-release-overview.jpg)
+![patch release overview](/images/engineering/releases/patch-releases/patch-release-overview.jpg)
 
 * [Diagram source - internal](https://docs.google.com/presentation/d/12JXlLnZ8lQp7ATdaSoL4x_oCUv04rmqzYp6dQb8AXHE/edit#slide=id.g2d0bc50ab08_0_5)
 

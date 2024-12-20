@@ -18,7 +18,7 @@ Elasticsearch employs a distributed architecture, where data is stored across mu
 
 Elasticsearch can be used to store embedding vectors up to 4096 dimensions and find the closest neighbours for a given embedding.
 
-![Elasticsearch as vector store](../img/elasticsearch_vector_store.png)
+![Elasticsearch as vector store](/images/engineering/architecture/design-documents/elasticsearch_vector_store.png)
 
 ### Licensing
 
@@ -46,7 +46,7 @@ The N most relevant documents are added to a prompt which is sent to an LLM to g
 
 Similar to the above but the question's embeddings are generated from within Elasticsearch.
 
-![RAG overview](../img/elasticsearch_rag_hosted_models.png)
+![RAG overview](/images/engineering/architecture/design-documents/elasticsearch_rag_hosted_models.png)
 
 ### Licensing
 
@@ -66,7 +66,7 @@ Elasticsearch supports the following models:
 
 Hybrid search combines text and semantic search to return the most revelant sources. A reranker could be used to combine the results from both methods.
 
-![Hybdid search](../img/elasticsearch_hybrid_search.png)
+![Hybdid search](/images/engineering/architecture/design-documents/elasticsearch_hybrid_search.png)
 
 ### Advanced text search features of Elasticsearch
 

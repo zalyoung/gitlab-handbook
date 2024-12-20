@@ -148,7 +148,7 @@ The report itself is divided into 4 main parts.
 
 The bug sections also contains a heatmap.
 
-![heatmap.png](heatmap.png)
+![heatmap.png](/images/engineering/infrastructure/engineering-productivity/triage-operations/heatmap.png)
 
 An example: [https://gitlab.com/gitlab-org/quality/triage-ops/issues/118](https://gitlab.com/gitlab-org/quality/triage-ops/issues/118)
 

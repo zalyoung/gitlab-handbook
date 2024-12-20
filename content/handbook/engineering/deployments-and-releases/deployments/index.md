@@ -14,7 +14,7 @@ This page describes the individual steps involved in deploying application chang
 
 GitLab.com receives updates multiple times a day with new deployment branches currently created at **02:00, 04:00, 06:00, 8:00, 10:00, 12:00, 14:00, 16:00, 18:00, 20:OO, and 22:00 UTC** from Monday through Friday.
 
-![GitLab.com deployment process](gitlab-com-deployment-pipeline.png)
+![GitLab.com deployment process](/images/engineering/deployments-and-releases/deployments/gitlab-com-deployment-pipeline.png)
 
 - [Source](https://docs.google.com/presentation/d/1YRjA1dYCXNXp06VltDYlik1MdFyzUvaeXKk69mMPcA4/edit?usp=sharing)
 
@@ -53,7 +53,7 @@ To make GitLab.com packages rollbackable, the [post-deploy migrations](https://d
 are run in staging and production environments through the post-deploy migration pipeline that is triggered on a daily basis at the discretion of
 the release managers.
 
-![Post deploy migration pipeline](post-deploy-migration-pipeline.png)
+![Post deploy migration pipeline](/images/engineering/deployments-and-releases/deployments/post-deploy-migration-pipeline.png)
 
 - [Source](https://docs.google.com/presentation/d/1YRjA1dYCXNXp06VltDYlik1MdFyzUvaeXKk69mMPcA4/edit?usp=sharing)
 
@@ -90,7 +90,7 @@ Gitaly and Praefect have a dependency on the GitLab Rails version which means we
 
 Example of the Staging environment rollback pipeline:
 
-![Example of the Staging environment rollback pipeline](rollback-pipeline.png)
+![Example of the Staging environment rollback pipeline](/images/engineering/deployments-and-releases/deployments/rollback-pipeline.png)
 
 ### Deployment blockers
 

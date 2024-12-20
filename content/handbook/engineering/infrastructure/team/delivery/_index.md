@@ -141,7 +141,7 @@ MTTP is further broken down into charts and tables at the Delivery Team Performa
 
 The Delivery Group owns the tools and capabilities needed for GitLab deployments and releases. The diagram below shows the split of domain ownership between the two teams and the current release managers. Where the domain overlaps with teams outside of the Delivery Group, we focus primarily on the deployments and releases capabilities and needs.
 
-![Delivery Group domain](img/Delivery-domain.png)
+![Delivery Group domain](/images/engineering/infrastructure/team/delivery/Delivery-domain.png)
 
 - [Diagram source](https://docs.google.com/presentation/d/1KdrrdYpjdHinYyUa2V3nUCWico74twXWfCCJg-m0ODI/edit?usp=sharing)
 
@@ -212,9 +212,9 @@ During weekday working hours you can reach the current Release Manager via the `
 For release management support outside of working hours, or if you need to escalate to Delivery Leadership please follow the steps below to page using PagerDuty.
 
 1. Open the PagerDuty app in Slack and use the `/pd trigger` slack command to trigger a new incident
-![Trigger a new incident](img/trigger-a-new-incident.png)
+![Trigger a new incident](/images/engineering/infrastructure/team/delivery/trigger-a-new-incident.png)
 2. Select the `Release Management Escalation` service and provide request details in the `Title` field. You can leave all other fields empty
-![Create an incident](img/create-an-incident.png)
+![Create an incident](/images/engineering/infrastructure/team/delivery/create-an-incident.png)
 3. Click `Create` and one of the Delivery leaders will respond
 
 ### Project Management
@@ -244,7 +244,7 @@ Working epic should always have:
 1. Status YYYY-MM-DD to indicate what is being worked on, why, and planned next steps. The DRI is responsible for updating the epic status every Wednesday. Note, this must be the last heading in the epic to support automated epic summary updates
 1. Start date and estimated due date
 1. Labels:
-    - ![Delivery Group label](img/group-delivery-label.png)
+    - ![Delivery Group label](/images/engineering/infrastructure/team/delivery/group-delivery-label.png)
     - Label used as part of the project scope (eg. `kubernetes`, `security-release`). The DRI should create a suitable project scope label and add it to the [Delivery-triage rules](https://gitlab.com/gitlab-com/gl-infra/triage-ops) if needed.
     - Epic status label using the 'workflow-infra::triage', 'workflow-infra::proposal', 'workflow-infra::in-progress', 'workflow-infra::done'
 

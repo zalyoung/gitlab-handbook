@@ -24,7 +24,7 @@ The goal of this page is to document resources needed for day-to-day work within
   - [Runner Service Overview](https://dashboards.gitlab.net/d/ci-runners-main/ci-runners-overview?orgId=1)
   - Additional dashboards can be found in the dropdowns along the top bar:
 
-![runner-dashboards](runner-dashboards.png)
+![runner-dashboards](/images/engineering/development/ops/verify/runner/team-resources/runner-dashboards.png)
 
 - Metrics
   - [Runner Metrics](https://docs.gitlab.com/runner/monitoring/index.html)
@@ -32,7 +32,7 @@ The goal of this page is to document resources needed for day-to-day work within
   - [Runner Logs](https://log.gprd.gitlab.net/goto/3d8891e0-2035-11ee-8afc-c9851e4645c0) (filter by shard)
   - You can find a list of shards in the dropdown along the top baf of any service dashboard:
 
-![runner-shards](runner-shards.png)
+![runner-shards](/images/engineering/development/ops/verify/runner/team-resources/runner-shards.png)
 
 ## Internal tools
 

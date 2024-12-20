@@ -89,13 +89,13 @@ We haven't found a tool that supports gradual rollout by adding tables one at a 
 
 This diagram shows a deployment for GitLab.com, where we have one consumer application ingesting data into ClickHouse. The MVP will also include another consumer application for ingesting data into Snowflake.
 
-![High-level overview](images/handbook/engineering/architecture/design-documents/siphon/siphon_infra_diagram.png)
+![High-level overview](/images/engineering/architecture/design-documents/siphon/handbook/engineering/architecture/design-documents/siphon/siphon_infra_diagram.png)
 
 [Source](https://lucid.app/lucidchart/c1445432-711a-442a-b32c-8304e6e40b68/edit?viewport_loc=-91%2C10%2C3227%2C1577%2C0_0&invitationId=inv_5cea9043-2a96-43c6-9add-6a094d59ec6e)
 
 #### Future state: multiple cells
 
-![Supporting multiple cells](images/handbook/engineering/architecture/design-documents/siphon/siphon_infra_cells.png)
+![Supporting multiple cells](/images/engineering/architecture/design-documents/siphon/handbook/engineering/architecture/design-documents/siphon/siphon_infra_cells.png)
 
 [Source](https://lucid.app/lucidchart/c1445432-711a-442a-b32c-8304e6e40b68/edit?viewport_loc=-235%2C79%2C2300%2C1124%2CCoEv~.MhAAkB&invitationId=inv_5cea9043-2a96-43c6-9add-6a094d59ec6e)
 

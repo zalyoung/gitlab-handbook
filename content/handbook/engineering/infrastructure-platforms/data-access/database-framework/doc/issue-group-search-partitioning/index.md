@@ -77,17 +77,17 @@ The second case obviously doesn't benefit from partitioning during execution as 
 
 Starting with the simple query, this shows a rather expected result. As we can see the planning time depends on the number of attached partitions and increases slightly the more partitions we attach. The first attempt shows elevated planning times due to a cold cache (table metadata, statistics).
 
-![simple-query-stats1000](simple-query-stats1000.png)
+![simple-query-stats1000](/images/engineering/infrastructure-platforms/data-access/database-framework/doc/issue-group-search-partitioning/simple-query-stats1000.png)
 
 In the second example, we employ the same analysis but look at the complex issue group search example. This yielded quite unexpected planning times for the case without a partitioning key. This would drastically harm queries that don't have a partitioning key as a filter.
 
-![simple-query-stats1000](complex-query-stats1000.png)
+![simple-query-stats1000](/images/engineering/infrastructure-platforms/data-access/database-framework/doc/issue-group-search-partitioning/complex-query-stats1000.png)
 
 We suspected this might be due to gathering rather large statistics. On GitLab.com, we currently have `default_statistics_target = 1000` which is 10x the default postgres setting. It directly controls the amount of detail the table histograms are going to have and therefore has a direct impact on the data that is relevant for query planning.
 
 After dialing this down to `default_statistics_target = 100` (the default setting), we arrive at more reasonable query timings. Luckily, this setting can be controlled on a per-table basis as well.
 
-![simple-query-stats1000](complex-query-stats100.png)
+![simple-query-stats1000](/images/engineering/infrastructure-platforms/data-access/database-framework/doc/issue-group-search-partitioning/complex-query-stats100.png)
 
 All data for these graphs can be found in a [public sheet](https://docs.google.com/spreadsheets/d/1MUc-Ogkal5XI2KKSeyn8m3nbdXuzNZ_h1-AHK0Ql3JE/edit?usp=sharing).
 

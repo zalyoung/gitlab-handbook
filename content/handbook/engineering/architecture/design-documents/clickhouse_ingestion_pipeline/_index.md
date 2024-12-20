@@ -187,7 +187,7 @@ Therefore, we intend to develop an abstraction that can enable an application to
 
 ### Architecture
 
-![Architecture](clickhouse_dbwriter.png)
+![Architecture](/images/engineering/architecture/design-documents/clickhouse_ingestion_pipeline/clickhouse_dbwriter.png)
 
 Having an abstraction around writing data help client-side instrumentation to stay backend-agnostic allowing them to switch code paths depending on where it runs.
 

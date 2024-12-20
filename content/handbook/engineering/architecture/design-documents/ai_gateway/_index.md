@@ -34,7 +34,7 @@ AI-providers and their models. This north/south traffic pattern allows us to
 control what requests go where and to translate the content of the redirected
 request where needed.
 
-![architecture diagram](img/architecture.png)
+![architecture diagram](/images/engineering/architecture/design-documents/ai_gateway/architecture.png)
 
 **Currently, multi-region deployment is not supported; it's a feature under consideration. The existing diagram illustrates a potential architecture for deploying across multiple regions.**
 

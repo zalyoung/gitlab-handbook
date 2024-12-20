@@ -110,7 +110,7 @@ Dedicated environments are fully isolated and run their own Prometheus instance 
 Tamland will run from each individual Dedicated tenant environment, consume metrics from Prometheus and store the resulting data in S3.
 From there, we consume forecast data and act on it.
 
-![dedicated-capacity-planning-forecasting](images/dedicated-capacity-planning-forecasting.png)
+![dedicated-capacity-planning-forecasting](/images/engineering/architecture/design-documents/capacity_planning/dedicated-capacity-planning-forecasting.png)
 
 ### Generating forecasts
 
@@ -150,7 +150,7 @@ On the Dedicated tenants, we download the latest version of the committed JSON m
 
 Based on Tamland's forecasting data, we generate reports to display forecasting information and enable teams to act on capacity warnings by creating capacity warnings in a GitLab issue tracker.
 
-![dedicated-capacity-planning-reporting](images/dedicated-capacity-planning-reporting.png)
+![dedicated-capacity-planning-reporting](/images/engineering/architecture/design-documents/capacity_planning/dedicated-capacity-planning-reporting.png)
 
 The Scalability::Observability team maintains an [internal GitLab project called `gitlab-dedicated`](https://gitlab.com/gitlab-com/gl-infra/capacity-planning-trackers/gitlab-dedicated).
 This project contains a scheduled CI pipeline to regularly produce a [static site deployed to GitLab Pages (only available internally)](https://gitlab-com.gitlab.io/gl-infra/capacity-planning-trackers/gitlab-dedicated/).
@@ -180,7 +180,7 @@ For additional visibility, we may want to consider enabling getting Slack update
 
 An alternative design, we don't consider an option at this point, is to set up Tamland as a Service and run it fully **outside** of tenant environments.
 
-![dedicated-capacity-planning-as-a-service](images/dedicated-capacity-planning-as-a-service.png)
+![dedicated-capacity-planning-as-a-service](/images/engineering/architecture/design-documents/capacity_planning/dedicated-capacity-planning-as-a-service.png)
 
 In this design, a central Prometheus/Thanos instance is needed to provide the metrics data for Tamland.
 Dedicated tenants use remote-write to push their Prometheus data to the central Thanos instance.

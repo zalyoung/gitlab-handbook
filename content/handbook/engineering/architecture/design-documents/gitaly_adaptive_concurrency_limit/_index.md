@@ -140,7 +140,7 @@ soon, it is referred to as a back-off event. Ideally, we would love to see the
 efficient state as long as possible. It's the state where Gitaly is at its
 maximum capacity.
 
-![Adaptive Concurrency Limit Flow](adaptive_concurrency_limit_flow.png)
+![Adaptive Concurrency Limit Flow](/images/engineering/architecture/design-documents/gitaly_adaptive_concurrency_limit/adaptive_concurrency_limit_flow.png)
 
 Ideally, min/max values are safeguards that aren't ever meant to be hit during
 operation, even overload. In fact, hitting either probably means that something

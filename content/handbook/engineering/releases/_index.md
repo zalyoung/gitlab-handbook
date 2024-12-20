@@ -24,7 +24,7 @@ The `monthly self-managed release` timelines are concentrated around the [releas
 
 Overview of the steps involved on the self-managed release process:
 
-![Self-managed release overview](self_managed_release_overview.png)
+![Self-managed release overview](/images/engineering/releases/self_managed_release_overview.png)
 
 - [Diagram source](https://docs.google.com/presentation/d/1YRjA1dYCXNXp06VltDYlik1MdFyzUvaeXKk69mMPcA4/edit#slide=id.g2951f7d5d31_1_0)
 
@@ -115,7 +115,7 @@ If you're a GitLab engineer looking:
 
 Overview of the steps involved with creating a patch release:
 
-![Patch release overview](patch-releases/patch-release-overview.jpg)
+![Patch release overview](/images/engineering/releases/patch-releases/patch-release-overview.jpg)
 
 - [Diagram source](https://docs.google.com/presentation/d/12JXlLnZ8lQp7ATdaSoL4x_oCUv04rmqzYp6dQb8AXHE/edit#slide=id.g2d0bc50ab08_0_5)
 

@@ -70,7 +70,7 @@ that are scarce in the primary database.
 To improve performance and make it easier to scale CI/CD data storage
 we might want to follow these three tracks described below.
 
-![pipeline data time decay](pipeline_data_time_decay.png)
+![pipeline data time decay](/images/engineering/architecture/design-documents/ci_data_decay/pipeline_data_time_decay.png)
 
 <!-- markdownlint-disable MD029 -->
 

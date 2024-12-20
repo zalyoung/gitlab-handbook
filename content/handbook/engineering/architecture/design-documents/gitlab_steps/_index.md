@@ -200,12 +200,12 @@ Referenced steps are loaded and compiled to produce an `exec` command,
 or to produce an additional list of GitLab CI steps which are compiled recursively.
 Each steps is executed immediately after compilation so its output will be available for subsequent compilations.
 
-![diagram of data during compilation](data.drawio.png)
+![diagram of data during compilation](/images/engineering/architecture/design-documents/gitlab_steps/data.drawio.png)
 
 Steps return outputs and exports via files which are collected by Step Runner after each step.
 Finally all the compiled inputs and outputs for each step are collected in a step trace.
 
-![sequenced diagram of step runner compilation and execution](step-runner-sequence.drawio.png)
+![sequenced diagram of step runner compilation and execution](/images/engineering/architecture/design-documents/gitlab_steps/step-runner-sequence.drawio.png)
 
 ### GitLab Steps definition and syntax
 

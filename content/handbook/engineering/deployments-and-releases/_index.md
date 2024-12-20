@@ -23,7 +23,7 @@ For testing purposes, all changes are deployed to GitLab.com before being consid
 
 This overview shows how the two processes are connected:
 
-![Deployment and Release process overview](deployment-and-release-process-overview.png)
+![Deployment and Release process overview](/images/engineering/deployments-and-releases/deployment-and-release-process-overview.png)
 
 - [Diagram source](https://docs.google.com/presentation/d/1YRjA1dYCXNXp06VltDYlik1MdFyzUvaeXKk69mMPcA4/edit?usp=sharing)
 

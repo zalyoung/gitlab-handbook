@@ -57,7 +57,7 @@ Without logging support, it would be very hard if not impossible to fully unders
 
 The architecture of logs ingestion follows the patterns outlined in the [tracing](../observability_tracing/index.md) and [metrics](../observability_metrics/) proposals:
 
-![System Overview](system_overview.png)
+![System Overview](/images/engineering/architecture/design-documents/observability_logging/system_overview.png)
 
 We re-use the components that were introduced by these proposals, so there are not going to be any new services added.
 Each top-level GitLab namespace has its own OTEL collector to which ingestion requests are directed by the cluster-wide Ingress.

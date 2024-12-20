@@ -56,7 +56,7 @@ Groups within Plan use the same numerical scale when estimating upcoming work.
 
 Issues have the following lifecycle. The colored circles above each workflow stage represents the emphasis we place on collaborating across the entire lifecycle of an issue; and that disciplines will naturally have differing levels of effort required dependent upon where the issue is in the process. If you have suggestions for improving this illustration, you can leave comments directly on the [whimsical diagram](https://whimsical.com/2KEwLADzCJdDfPAb2CULk4).
 
-![plan-workflow-example.png](plan-workflow-example.png)
+![plan-workflow-example.png](/images/engineering/development/dev/plan/plan-workflow-example.png)
 
 Everyone is encouraged to move issues to different workflows if they feel they belong somewhere else. In order to keep issues constantly refined, when moving an issue to a different workflow stage, please review any open discussions within the issue and update the description with any decisions that have been made. This ensures that descriptions are [laid out clearly](/handbook/values/#say-why-not-just-what), keeping with our value of Transparency.
 

@@ -35,7 +35,7 @@ provides from their local environment to extend the default _AI Context_.
 - **Project Administrator**. In the context of this blueprint, "Project Administrator" means any individual with the
 "Edit project settings" permission ("Maintainer" or "Owner" roles, as defined in [Project members permissions](https://docs.gitlab.com/ee/user/permissions.html#project-members-permissions)).
 
-![Illustration of the AI Context architecture](img/architecture.jpg)
+![Illustration of the AI Context architecture](/images/engineering/architecture/design-documents/ai_context_management/architecture.jpg)
 
 ## Summary
 

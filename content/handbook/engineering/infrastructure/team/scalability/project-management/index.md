@@ -36,7 +36,7 @@ In this stage, projects are rough ideas on the Opportunity Backlog, that are for
 
 #### Opportunity Backlog
 
-- ![Triage](img/label-triage.png)
+- ![Triage](/images/engineering/infrastructure/team/scalability/project-management/label-triage.png)
 
 When we have ideas for projects but we aren't certain that they are the right thing to do, we use the Opportunity Backlog.
 
@@ -52,9 +52,9 @@ The Product Manager and Engineering Managers regularly review the Opportunity Ba
 
 #### Roadmaps
 
-- ![Proposals](img/label-proposal.png)
-- ![Ready](img/label-ready.png)
-- ![In Progress](img/label-in_progress.png)
+- ![Proposals](/images/engineering/infrastructure/team/scalability/project-management/label-proposal.png)
+- ![Ready](/images/engineering/infrastructure/team/scalability/project-management/label-ready.png)
+- ![In Progress](/images/engineering/infrastructure/team/scalability/project-management/label-in_progress.png)
 
 The EM and PM manage these roadmaps together. The PM ensures that the Roadmap reflects the priority of work required from this team. The EM ensures that there is a backlog of work ready for their team to pick up (See Ready For Development below).
 
@@ -69,7 +69,7 @@ A Roadmap epic has three sections: Now, Next and Later. These list, in priority 
 
 **Now**
 
-- ![In Progress](img/label-in_progress.png)
+- ![In Progress](/images/engineering/infrastructure/team/scalability/project-management/label-in_progress.png)
 
 For the 'Now' section, the common pattern is to link to our [Scalability top-level epic](https://gitlab.com/groups/gitlab-com/gl-infra/-/epics/148) so we have a consistent SSoT for the work in progress.
 
@@ -77,7 +77,7 @@ Projects in this section are in progress.
 
 **Next**
 
-- ![Ready](img/label-ready.png)
+- ![Ready](/images/engineering/infrastructure/team/scalability/project-management/label-ready.png)
 
 The 'Next' section contains projects that are the highest priority projects on the roadmap and are ready for development.
 
@@ -85,8 +85,8 @@ During review, the Engineering Manager or Product Manager select the highest pri
 
 **Later**
 
-- ![Proposals](img/label-proposal.png)
-- ![Ready](img/label-ready.png)
+- ![Proposals](/images/engineering/infrastructure/team/scalability/project-management/label-proposal.png)
+- ![Ready](/images/engineering/infrastructure/team/scalability/project-management/label-ready.png)
 
 This section contains projects that are either ready for development or still proposals.
 
@@ -197,7 +197,7 @@ planning board will move to the build board immediately.
 |--------------|-------------|
 | [Planning Board](https://gitlab.com/gitlab-com/gl-infra/scalability/-/boards/1697168) | [Build Board](https://gitlab.com/gitlab-com/gl-infra/scalability/-/boards/1697160) |
 | Issues where we are investigating the work to be done. | Issues that will be built next, or are actively in development. |
-| ![Triage](img/label-triage.png)    <br/>![Proposal](img/label-proposal.png) <br/>![Ready](img/label-ready.png) | ![Ready](img/label-ready.png) <br/>![In Progress](img/label-in_progress.png) <br/>![Under Review](img/label-under_review.png) <br/>![Verify](img/label-verify.png) <br/>![Done](img/label-done.png)|
+| ![Triage](/images/engineering/infrastructure/team/scalability/project-management/label-triage.png)    <br/>![Proposal](/images/engineering/infrastructure/team/scalability/project-management/label-proposal.png) <br/>![Ready](/images/engineering/infrastructure/team/scalability/project-management/label-ready.png) | ![Ready](/images/engineering/infrastructure/team/scalability/project-management/label-ready.png) <br/>![In Progress](/images/engineering/infrastructure/team/scalability/project-management/label-in_progress.png) <br/>![Under Review](/images/engineering/infrastructure/team/scalability/project-management/label-under_review.png) <br/>![Verify](/images/engineering/infrastructure/team/scalability/project-management/label-verify.png) <br/>![Done](/images/engineering/infrastructure/team/scalability/project-management/label-done.png)|
 
 ## Labels
 

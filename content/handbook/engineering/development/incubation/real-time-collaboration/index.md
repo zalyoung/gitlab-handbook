@@ -165,7 +165,7 @@ The GitLab UI does not rely on a uniform text editor but instead offeres a mix o
   This could be accomplished by first translating markdown into an intermediate AST that could act as a universal
   interchange format between different editors:
 
-  ![editor bindings](editor_bindings.png)
+  ![editor bindings](/images/engineering/development/incubation/real-time-collaboration/editor_bindings.png)
 
 ## Updates
 
