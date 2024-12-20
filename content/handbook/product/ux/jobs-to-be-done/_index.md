@@ -47,34 +47,28 @@ While [user personas](/handbook/product/personas/#user-personas) represent job t
 
 ### **Main Job:** What is the Job Performer trying to get done?
 
-The Main Job serves as the central focus for innovation efforts. It represents a goal and has specific criteria. What is the Job Performer trying to get done in the selected Domain? Main Jobs should be timeless and as unchanging as possible. It should be expressed in functional terms, like a utilitarian goal. It’s an act that should be performed and have a clear end state… the “done” part of JTBD. It is not what your company needs to do to deliver a service. Always think in terms of the Job Performer’s perspective. The level of granularity for the Main Job can vary, depending on the innovation's purpose and feasibility.
+A Main Job is a timeless, functional goal that serves as the focus for innovation, representing what the Job Performer wants to accomplish independent of any specific solution.
 
-What goes into a Main Job:
+Key characteristics:
 
-- Discrete functional, utilitarian goals independent of a solution
-- Begin with a Verb so it’s action-oriented
-- Should have a clear end state (done part of JTBD)
-- Are singular (avoid ANDs or ORs)
-- Are technology or solution agnostic
-- Specific but broad enough to allow for innovative solutions
-- Do NOT include adjectives (those are more Outcomes)
-- Ask, "How would people have gotten this done 30 years ago?"
-- Format: [verb] + [object] + [(optional) qualifiers/clarifier] (try putting an “I want to…” to get the ball rolling, then remove the “I want to”)
-  - **Verb**: Action that describes what the Job Performer is trying to accomplish. Verb choice is crucial as it sets the stage for the activity or outcome the Job Performer seeks.
-  - **Object**: The target of the Verb Action. Clarifies what the verb is acting upon and provides a focus for the job.
-  - **Clarifier/Qualifier**: This adds specificity, context, conditions, or purpose that helps refine the job. It can be critical for distinguishing between similar jobs or highlighting unique aspects of the job that are particularly relevant to the Job Performer's situation or needs.
+- Begins with an action verb
+- Has a clear end state
+- Avoids compound descriptions (no AND/OR)
+- Remains solution and technology agnostic
+- Excludes adjectives (which belong in Outcomes)
+- Stays broad enough to allow innovation
 
-Good examples:
+Structure: [verb] + [object] + [optional clarifier]
 
-- Buy (verb) a new home (object) within 10 minutes of my work (clarifier)
-- Write (verb) a book (object)
-- Ensure (verb) code changes (object) meet organizational standards (clarifier)
+- Verb: Action to accomplish
+- Object: Target of the action
+- Clarifier: Additional context or conditions
 
-Bad examples:
-
-- Purchase the house at 123 Main Street for less than asking. (Too specific)
-- Be a best selling author (Aspirational goal, but not a Main Job)
-- Review Merge Requests efficiently (references a specific technology [merge request], uses an adjective [efficiently])
+| Good Examples | Bad Examples |
+|--------------|--------------|
+| Buy a new home within 10 minutes of my work | Purchase the house at 123 Main Street for less than asking (Too specific) |
+| Write a book | Be a best selling author (Aspirational, not a job) |
+| Ensure code changes meet organizational standards | Review Merge Requests efficiently (Technology-specific, uses adjective) |
 
 ### **Related Jobs:** What else is the Job Performer trying to get done?
 
