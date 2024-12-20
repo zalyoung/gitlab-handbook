@@ -196,61 +196,37 @@ It’s important to be able to identify and correctly place jobs at the right al
 
 ## Job Stories
 
-([reference article](https://jtbdtoolkit.medium.com/job-stories-revisited-13ad0b54eb3c) by JTBD Toolkit)
+Job Stories synthesize data from your Job Canvas to encapsulate customer pain points without prescribing solutions. They help align development with company vision and strategy. Each domain typically has 3-5 Job Stories.
 
-Job Stories should be created to synthesize and summarize your data from your Job Canvas to help bring it all together. The goal is to avoid leading designers with a preconceived solution to better align development with the company’s vision and strategy by encapsulating the customer pain point to address in a Job Story that will aid in innovative solution creation.
+Key characteristics:
 
-Job Stories emphasize the situation and context over the individual. Ultimately, Job Stories combine your top insights to one place and summarize them. Good Job Stories describe the pain points that you’re going after and help you empathize with the Job Performer.
+- Evidence-based from Job Canvas data
+- Specific about the pain point
+- Builds empathy through context
+- Aspirational but achievable
+- Self-evident and well-researched
 
-**Paint points must:**
+Pain points must:
 
-- Express a need, not a solution
+- Express needs, not solutions
 - Be concrete, not abstract
-- Be measured quantitatively, not anecdotal
-
-The story part of Job Stories implies its connection to narrative storytelling. While this is a more creative aspect of the JTBD framework, it should still align coherently with each of the elements selected from your JTBD Canvas to build your Job Stories. This means the Job Story you build should still make logical sense when pieced together from the most important aspects of your JTBD Canvas.
-
-For any domain, you might end up with 3 to 5 Job Stories covering the data and insights you've gathered.
+- Be measurable, not anecdotal
 
 ### Job Story Format
 
-1. **When I** ___________ [am at this Job Step] + [under these conditions-Job Differentiators],
-2. **I want** ____________ [this New Ability, customer imperative or demand the Job Performer has on the solution],
-3. **So I can** __________ [reach these Outcomes] + [and have these Emotional/Social Aspects].
+1. **When I** [at this Job Step] + [under the conditions of these Job Differentiators]
+2. **I want** [this New Ability/customer imperative]
+3. **So I can** [reach these Outcomes] + [and have these Emotional/Social Aspects]
 
-#### Line 1
+### Ways to use Job Stories
 
-- Job Step: During your Job Mapping workshop, you voted on the most important Job Steps on the map. Typically, 1 or 2 of them came out of that voting session as important to focus on. You will use those to create your Job Stories.
-- Job Differentiators: During your Job Differentiator workshop, you voted on the most important Job Differentiators to come out of your research and moved them to your canvas. Use the Job Differentiators to create your Job Stories.
-
-#### Line 3
-
-- Outcomes: While reviewing your research data, you performed quantitative research to learn how your Job Performers prioritize the outcomes you’ve found. Use these prioritized Outcomes to create your Job Stories.
-- Emotional/Social Aspects: During your Emotional and Social Aspects workshop, you voted on the most important Emotional and Social Aspects to come out of your research and moved them to your canvas. Use the Job Differentiators to create your Job Stories.
-
-#### Line 2
-
-- This doesn’t come directly from your Job Canvas but is still derived from your knowledge of your Job Performers and their Main Jobs, which are derived from your research data.
-- You’ll need to get creative by considering what you’ve learned about your Job Performer and this Main Job; consider what “superpower” an ideal solution might grant your Job Performer.
-- This is a specific, aspirational, even a little ambitious statement of what the Job Performer wants to achieve from completing this Main Job. What capabilities are missing from the Job Performer's current tools?
-
-### Qualities of a Job Story
-
-- **Evidence-based**: Job Stories are derived from data and Job Canvases; they aren’t created off the cuff when you first hear about a new potential pain point from a customer.
-- **Specific about the pain point**: Job Stories aren’t vague; they are specific in their narrative about the pain point they’re addressing.
-- **Empathy-building**: The first line of a Job story should contextualize the scenario to foster empathy.
-- **Aspirational**: Line 2 of a Job Story is the literal central element. It’s the customer imperative, the goal that drives the solution forward. Ambitious but achievable.
-- **Self-evident**: A good Job Story should be able to stand on its own, representing and summarizing a solidly researched Job Canvas.
-
-### How to use Job Stories
-
-- **To generate HMW statements**: Use the Job Story as a springboard by turning them into How Might We (HMW) statements to guide explorations.
-- **To define a Design Sprint challenge**: Use the Job Story to articulate the focus or challenge statement of the Design Sprint.
-- **To create a testable hypothesis for an MVP**: Lean’s MVP model requires creating a hypothesis statement that will be validated against the proposed solution. Here’s a framework that can be formatted:
+- Generate How Might We (HMW) statements
+- Define Design Sprint challenges
+- Create testable MVP hypotheses:
   - We believe that [job performers]
   - Will achieve [desired outcome]
   - While performing [job step]
   - Using [proposed solution].
-  - Success will be evidenced by [specific measure].
-- **Incorporate them into issues**: Add them into the description of an issue as a heuristic to measure the solution against and to aid in making design decisions.
-- **Usability testing success criteria**: Validate whether the solution successfully achieves the Job Story.
+  - Success will be evidenced by [specific measure]
+- Ensure issues are solving validated problems
+- Define usability testing criteria
