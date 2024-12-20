@@ -3,16 +3,39 @@ title: "Customer Success Engineer"
 description: "The Customer Success Engineering (CSE) team focuses on the themes of align, enable, and expand."
 ---
 
-### Customer Success Engineer (CSE)
+### Customer Success Engineer (CSE) (Associate) 
 
-The Customer Success Engineer (CSE) role provides deep subject matter expertise on GitLab technical and product solutions and best practices. CSEs work alongside CSMs to provide customers with technical guidance, go in-depth on use case implementation, and demonstrate the value of GitLab product capabilities.
+The Customer Success Engineer (CSE) (Associate) role helps generate technical interaction between CSE level accounts and CSE's.
 
-The Senior CSE reports to the Manager/Senior Manager, CSE.
+The CSE (Associate) is a job grade level 5.
+The  CSE (Associate) reports to the Manager/Senior Manager, CSE.
 
-#### Customer Success Engineer Responsibilities
+### Customer Success Engineer (Associate) Responsibilities
+- Schedule and onboard new CSE level customers into the CSE program
+- Track and manage resulting onboarding follow up such as license installation, support contact set up, security announcement subscriptions, etc
+- Provide adoption-oriented content to renewal managers in support of the renewal manager outreach process.
+- Engage AE’s to review CSE program capabilities and advantages
+- Define and manage campaigns to contact cohorts of customers within the CSE’s book of business to generate customer interaction on technical topics.  Effectively leverage the digital team’s capabilities to avoid duplicative activity. 
+- Manage the default schedule for CSE level customer interaction options (eg Calendly).
+- Track CSE help requests to ensure team compliance with Service Level Agreements.
+- Continuously improve professional skills with a focus on personal mastery and team learning through activities such as training, reading and seeking mentorship from others
+
+
+### Customer Success Engineer (Associate) Requirements
+- Demonstrated experience in a related function with direct customer advocacy and engagement in post-sales or professional services functions.
+
+
+### Customer Success Engineer (Intermediate) (CSE)
+
+The Customer Success Engineer (Intermediate) (CSE) role provides deep subject matter expertise on GitLab technical and product solutions and best practices. CSEs work alongside CSMs to provide customers with technical guidance, go in-depth on use case implementation, and demonstrate the value of GitLab product capabilities.
+
+The Intermediate CSE reports to the Manager/Senior Manager, CSE.
+The Intermdiate CSE is a job grade [level 6](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
+
+#### Customer Success Engineer (Intermediate) Responsibilities
 
 - Engage with customers, via Zoom calls and emails, in a technical consultancy and advisor role during the post-sales process while providing technical and solution guidance
-- Providing technical, architectural and best practice guidance
+- Provide technical, architectural and best practice guidance
 - Drive the achievement of measurable value (business outcomes), leading to product adoption, renewal, and expansion
 - Align with Account Executives and Renewals Managers to provide customer-facing subject matter expertise based on the customer's business objectives
 - Focus on solution-based programs that are customized to fit an individual customer's needs
@@ -21,7 +44,7 @@ The Senior CSE reports to the Manager/Senior Manager, CSE.
 - Continuously improve professional skills with a focus on personal mastery and team learning through activities such as training, reading and seeking mentorship from others
 - Contributes to our docs, YouTube channel, and other enablement programs such as the Digital Journey
 
-#### Customer Success Engineer Requirements
+#### Customer Success Engineer (Intermediate) Requirements
 
 - Experience with a GitLab use case (SCM, CI, CD, DevSecOps, Agile Planning) to provide in-depth customer guidance and enablement
 - Proficiency using DevSecOps tools or highly technical tooling in adjacent fields
