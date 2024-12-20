@@ -331,6 +331,19 @@ _One-line description of the regression in behavior._
 
 Please reassure the participants that the purpose is not to apportion blame but to gather data, identify causal factors and implement corrective actions - but ask for a swift and brief response while the information is still fresh.
 
+### Technical Debt
+
+The ~"technical debt" label, used in combination with ~"devops::plan," helps track opportunities for improving the codebase. These labels should be applied to issues that highlight:
+
+- improvements to existing code or architecture;
+- shortcuts taken during development;
+- features requiring additional refinement;
+- any other items deferred due to the high pace of development.
+
+For example, a [follow-up issue](https://docs.gitlab.com/ee/development/contributing/issue_workflow.html#technical-debt-in-follow-up-issues) to resolve non-UX feedback during code review should have the ~"technical debt" label.
+
+Issues marked with this label are prioritized alongside those proposing new features and will be scheduled during milestone planning.
+
 ### UX
 
 The Plan UX team supports [Product Planning](/handbook/product/categories/#product-planning-group), [Project Management](/handbook/product/categories/#project-management-group) and [Optimize](/handbook/product/categories/#optimize-group). Product Planning and Project Management are focused on the work items architecture effort. This page focuses mainly on the specifics of how we support this, since it requires alignment and cross-group collaboration.
