@@ -1,6 +1,6 @@
 ---
 title: Knowledge Base Style Guide
-description: 
+description: Guidelines for writing Support knowledge base articles
 ---
 
 This document outlines the standards for GitLab Support's Knowledge Base documentation. These articles help address a specific customer issue in the moment and allow them to self-solve or receive quicker solutions when Support is required.
@@ -53,32 +53,29 @@ The environment quickly highlights what custom configs, installation types, or v
 - Use bullet points when possible
 - Impacted offerings - aligns with the Offering section of Docs pages
 - Impacted versions - highlights affected versions. Use [earlier](https://docs.gitlab.com/ee/development/documentation/styleguide/word_list.html#earlier) and [later](https://docs.gitlab.com/ee/development/documentation/styleguide/word_list.html#later) when talking about version numbers. This can be excluded if all known / supported versions are affected; be as specific as possible:
-
-- 16.1 to 16.3
-- 16.5 and earlier
-- 17.1 and later
-- 17.x
+  - 16.1 to 16.3
+  - 16.5 and earlier
+  - 17.1 and later
+  - 17.x
 
 ### Solution and/or Workaround
 
-The solution section clearly lists the steps the user must follow to resolve the issue. You can preface the steps with a high-level summary. If there is a solution and a workaround, add the workaround as a level 3 (###) sub-heading.
+The solution section clearly lists the steps a user must follow to resolve the issue. You can preface the steps with a high-level summary. If there is a solution and a workaround, add the workaround as a level 3 (###) sub-heading.
 
 1. Change the title of this section to best fit its content: Solution or Workaround
-2. Describe steps needed to resolve or work around the issue.
-
-- Steps should be as concise as possible:
+1. Describe steps needed to resolve or work around the issue. Steps should be as concise as possible:
   1. Connect to database: `sudo gitlab-psql connect`
-  2. Run:
+  1. Run:
   
-  ```sql
+    ```sql
       --- comment: fixes complicated thing
       <complicated command>
-  ```
+    ```
 
 - For different environments, list commands as sub-bullets
   - Linux: `<command>`
   - macOS: `<command>`
-- Use numbered lists for tasks that must be completed in order.
+- Use ordered lists for tasks that must be completed sequentally. Use "1" for all items to allow for steps to be added or removed in the future.
 - Use bullet points for unordered steps.
 - Link to pre-existing documentation when possible.
 
