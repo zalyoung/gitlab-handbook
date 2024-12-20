@@ -3,9 +3,11 @@ title: "GitLab Compliance - Compliance Center and Frameworks"
 description: "This Hands-On Guide demonstrates how to create and view compliance center events."
 ---
 
+> Estimated time to complete: 15 minutes
+
 ## Objectives
 
-Learners will run a few actions in GitLab that show up in the compliance center and view how you could see a framework in action
+Learners will run a few actions in GitLab that show up in the compliance center and view how you could see a framework in action.
 
 ## Task A. Creating Compliance Center Events
 
@@ -37,7 +39,7 @@ In this task, we will complete some actions in our project that will result in c
 
 1. Select **+ > New file**.
 
-1. For the filename, enter `main.py`
+1. For the filename, enter `main.py`.
 
 1. Add the following content to the file:
 

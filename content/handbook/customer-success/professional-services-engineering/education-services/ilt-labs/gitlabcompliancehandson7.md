@@ -23,7 +23,7 @@ This lab will demonstrate how to view project and group level audit events.
 
 ## Task B. Viewing Group Level Audit Events
 
-1. Navigate to your ILT group (titled `My Test Group - random string of characters`)
+1. Navigate to your ILT group (titled `My Test Group - random string of characters`).
 
 1. In the left sidebar, select **Secure > Audit events**.
 
@@ -39,4 +39,4 @@ You have completed this lab exercise. You can view the other [lab guides for thi
 
 ## Suggestions?
 
-If you'd like to suggest changes to the *GitLab Security Essentials Hands-on Guide*, please submit them via merge request.
+If you'd like to suggest changes to the *Hands-On Guide for GitLab Compliance*, please submit them via merge request.

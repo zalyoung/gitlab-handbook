@@ -3,13 +3,15 @@ title: "GitLab Compliance - Separation of Privileges"
 description: "This Hands-On Guide demonstrates how to create and view compliance center events."
 ---
 
+> Estimated time to complete: 10 minutes
+
 ## Objectives
 
 Learners will review the different roles and user permissions in their GitLab project and group.
 
 ## Task A. Overview of separation of privileges
 
-1. Navigate to your ILT instance group
+1. Navigate to your ILT instance group.
 
 1. In the left sidebar select **Manage > Members**.
 

@@ -3,6 +3,8 @@ title: "GitLab Compliance - Repository Control"
 description: "This Hands-On Guide demonstrates how to control repository access and modification."
 ---
 
+> Estimated time to complete: 15 minutes
+
 ## Objectives
 
 Learners will implement various repository controls to help manage repository access and modification.
@@ -18,6 +20,15 @@ In this task, you will enable push rules in your repository to ensure that pushe
 For this example, we want to ensure that every commit is targeted towards an issue in the project. Having the issue ID present in the commit message ensures that all activity related to the issue is logged in the issue. To do this, we can enforce an expression to ensure every commit message contains either an epic or an issue ID.
 
 1. In the **Require expression in commit messages**, add the regular expression: `^.*(#\d+|&\d+).*`.
+
+    > This regular expression works as follows: 
+    > ^ Matches the start of the string.
+    > .* - Matches any character (except newline) zero or more times
+    > (#\d+|&\d+) - This is a capturing group that matches either:
+    >    #\d+: A hash symbol followed by one or more digits
+    >    &\d+: An ampersand symbol followed by one or more digits
+    > .* - Matches any character (except newline) zero or more times
+    > $ - Matches the end of the string (implicit in this case)
 
 1. Select **Save push rules**.
 
