@@ -11,7 +11,7 @@ Learners will run a few actions in GitLab that show up in the compliance center 
 
 ## Task A. Creating Compliance Center Events
 
-1. Select **Create a project**.
+1. In your Group, `My Test Group - (username)`, select **Create a project**.
 
 1. Select **Create blank project**.
 
