@@ -15,11 +15,11 @@ Owned by the [Contributor Success team](/handbook/marketing/developer-relations/
 ## Objectives
 
 1. Reach 200 unique wider community contributors a month by end of FY26
-  * Scale and advance our contributor community through structured support programs and clear progression paths
-  * Build an inclusive, globally diverse contributor community that maximizes innovation through varied perspectives
+    1. Scale and advance our contributor community through structured support programs and clear progression paths
+    1. Build an inclusive, globally diverse contributor community that maximizes innovation through varied perspectives
 1. Deliver a public portfolio highlighting 10 high-impact contributions each quarter by end of FY26
-  * Drive high-impact product improvements through quality-focused external contributions that address strategic priorities
-  * Accelerate customer value delivery by channeling external contributions toward validated feature requests and bug fixes
+    1. Drive high-impact product improvements through quality-focused external contributions that address strategic priorities
+    1. Accelerate customer value delivery by channeling external contributions toward validated feature requests and bug fixes
 
 ## KPIs
 
@@ -46,7 +46,7 @@ In FY26, we will adjust our existing strategies, adopt new perspectives, and foc
 
 #### Marketing Mindset and Strategy
 
-The GitLab Contributors Program operates as an integral part of GitLab's Marketing & Strategy operations, applying proven marketing principles to strategically grow our contributor community while delivering measurable value. In FY26 we adopt the existing [Marketing Alignment](https://handbook.gitlab.com/handbook/marketing/#marketing-purpose) stages into our contributor strategy: Awareness => Consideration => Conversion => Expansion => Evangelism.
+The GitLab Contributors Program operates as an integral part of GitLab's Marketing & Strategy operations, applying proven marketing principles to strategically grow our contributor community while delivering measurable value. In FY26 we adopt the existing [Marketing Alignment](/handbook/marketing/#marketing-purpose) stages into our contributor strategy: Awareness => Consideration => Conversion => Expansion => Evangelism.
 
 * **Contributor Journey Focus**
   * Guide users through a clear progression from awareness of contribution opportunities to converting active contributors who advocate for contributing to GitLab
@@ -87,7 +87,7 @@ With outreach efforts to existing GitLab users we showcase the value of contribu
 
 * Co-Create Program
   * [Co-Create success stories & benefits](https://about.gitlab.com/community/co-create/)
-  * [Co-Create handbook overview](https://handbook.gitlab.com/handbook/marketing/developer-relations/cocreate/)
+  * [Co-Create handbook overview](/handbook/marketing/developer-relations/cocreate/)
 * Customer outreach campaigns: not every customer is ready for the full Co-Create Program experience, yet all customers and existing GitLab users can benefit by learning about contributing opportunities and how we can support them
 
 #### Partner outreach
