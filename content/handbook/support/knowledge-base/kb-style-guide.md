@@ -64,13 +64,13 @@ The solution section clearly lists the steps a user must follow to resolve the i
 
 1. Change the title of this section to best fit its content: Solution or Workaround
 1. Describe steps needed to resolve or work around the issue. Steps should be as concise as possible:
+
   1. Connect to database: `sudo gitlab-psql connect`
   1. Run:
-  
-    ```sql
-      --- comment: fixes complicated thing
-      <complicated command>
-    ```
+  ```sql
+    --- comment: fixes complicated thing
+    <complicated command>
+  ```
 
 - For different environments, list commands as sub-bullets
   - Linux: `<command>`
