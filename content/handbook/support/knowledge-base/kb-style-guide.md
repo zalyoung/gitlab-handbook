@@ -17,7 +17,7 @@ Follow the [Documentation Style Guide](https://docs.gitlab.com/ee/development/do
 
 This is the title once added to Zendesk. This heading must be changed to properly integrate with the deployment.
 
-The title should clearly summarize the customer / reader issue. 
+The title should clearly summarize the customer / reader issue.
 
 Only capitalize the first word and proper nouns.
 
