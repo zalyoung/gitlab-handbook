@@ -13,7 +13,7 @@ See related [repository](https://gitlab.com/gitlab-data/data-science)
 - Natively connected to Snowflake using your dbt credentials. No login required!
 - Git functionality: push and pull to Git repos natively within JupyterLab ([requires ssh credentials](https://docs.gitlab.com/ee/user/ssh.html))
 - Run any python file or notebook on your computer or in a GitLab repo
-- Support to run Jupyter in VS Code
+- Support for running Jupyter in VS Code
 - Need a feature you use but don't see? Let us know on [#bt-data-science](https://gitlab.slack.com/archives/C027285JQ4E)
 
 ## Getting Started
@@ -22,7 +22,7 @@ JupyterLab is configured to run in a [virtual environment](https://docs.python.o
 
 When setting up JupyterLab, the following will happen:
 - [uv](https://astral.sh/blog/uv) will be downloaded to your local machine and used to set up a virtual environment (venv). UV is extremely fast and a great replacement tool for many common python tools (pipenv, pip-compile, install, etc.)
-- venv will be creating using the python version and packages (and their dependecies) as defined in the [pyproject.toml](https://gitlab.com/gitlab-data/data-science/-/blob/main/pyproject.toml) 
+- venv will be created using the python version and packages (and their dependecies) as defined in [pyproject.toml](https://gitlab.com/gitlab-data/data-science/-/blob/main/pyproject.toml) 
 - JupyterLab will be built withint the venv
 
 ## Installation Instructions
@@ -30,7 +30,7 @@ When setting up JupyterLab, the following will happen:
 1. Prerequisites - before installing please make sure your system is setup with the following:
    - [Python3](https://www.python.org/)
    - [Pip3](https://pypi.org/project/pip/) (usually aliased as `pip`).
-   - Certain versions of MacOS, it may be required to install Xcode Command Line Tools. From the command line, `xcode-select --install`
+   - Certain versions of MacOS may require Xcode Command Line Tools to be installed. From the command line, `xcode-select --install`
 1. Clone the repo to your local machine `git clone git@gitlab.com:gitlab-data/data-science.git`
 1. Navigate to the directory: `cd data-science`
 1. Execute the following command: `make setup-jupyter-local`
