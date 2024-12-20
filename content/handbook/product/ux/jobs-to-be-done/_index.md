@@ -157,21 +157,22 @@ Understanding these aspects helps design solutions that address both functional 
 
 ### **Job Differentiators:** What factors influence how the job gets done?
 
-Job Differentiators are the factors or circumstances that influence how the job gets done. They often encompass time, manner, or place, among other characteristics. Job Differentiators are introduced with the word "if", indicate a range of options, and use "versus/vs." when applicable to show a comparison.
+Job Differentiators are circumstances that affect how the job is performed, typically involving time, manner, or place.
 
-What goes into a Job Differentiators:
+Key characteristics:
 
-- Begins with words like _if_
-- Should show a range of options with Versus/Vs
-- Avoid ANDs or ORs (they need to be singular), and be technology/solution agnostic.
+- Begins with "if"
+- Shows range of options using "versus/vs"
+- Avoids compound statements (no AND/OR)
+- Remains solution agnostic
 
-Good Job Differentiators examples:
+| Good Examples |
+|--------------|
+| If the Job Performer is single vs. married |
+| If the Job Performer has young children vs. children out of the house |
+| If the potential new home is local vs. far away |
 
-- If the Job Performer is single vs. married
-- If the Job Performer has young children or not
-- If the potential new home is local (within driving distance) vs. far away from the current location
-
-Additionally, you can qualify the Main Job in order to narrow its scope, such as "get energy **in the morning**" or "get energy **in the afternoon at work.**" These are often called _job differentiators_, and provide a more focused perspective on the target job.
+These differentiators can help narrow the Main Job's scope (e.g., "get energy in the morning" vs. "get energy in the afternoon at work").
 
 ## Main Jobs to micro jobs
 
