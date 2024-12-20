@@ -38,13 +38,13 @@ Once the SSAT automation runs on the solved ticket, the user will receive the
 SSAT survey email where they can rate their support experience directly from the
 email message. A sample of this would look like:
 
-![SSAT Survey Email](/handbook/support/readiness/operations/images/ssat_survey_sample.png)
+![SSAT Survey Email](/images/support/readiness/operations/ssat_survey_sample.png)
 
 Once the user clicks either of the two satisfaction links in the email message,
 the rating will be submitted and they'll be redirected to another page where
 they can add a comment about the rating if they'd like.
 
-![Good rated SSAT](/handbook/support/readiness/operations/images/good_rated_ssat_sample.png)
+![Good rated SSAT](/images/support/readiness/operations/good_rated_ssat_sample.png)
 
 In the event the user selects the `Bad, I'm unsatisfied` link, we ask them to
 specify a reason for the dissatisfaction.
@@ -56,4 +56,4 @@ The options available are:
 - The answer wasn't delivered in a timely manner
 - The answer wasn't helpful
 
-![Bad rated SSAT](/handbook/support/readiness/operations/images/bad_rated_ssat_sample.png)
+![Bad rated SSAT](/images/support/readiness/operations/bad_rated_ssat_sample.png)
