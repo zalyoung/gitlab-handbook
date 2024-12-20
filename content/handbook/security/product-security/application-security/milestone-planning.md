@@ -41,7 +41,6 @@ This issue is the single source of truth for all planning related discussions an
 Application Security team members are responsible for:
 
 - Evaluating and communicating their capacity for the Milestone (based on PTO, rotation assignments, and other factors)
-- Adding work that is being carried over into the Milestone Work table
 - Adding potential work items to the Parking Lot and being involved in discussions around what work we should pull into the Milestone
 - Verifying upcoming rotations they are assigned to have an issue in the Milestone
 - Collaborating with Application Security managers to finalize the set of work being committed to for the Milestone
@@ -99,24 +98,7 @@ The label assignment can be done by leadership (AppSec or at higher levels), or 
 
 ### Rotations
 
-Issues must be created for each rotation during the Milestone and assigned to the relevant team member.
-
-#### Issue Process
-
-1. Rotation issues are created ahead of time for the entire duration of the Milestone, initially with the `workflow::ready for development` label
-1. At the beginning of a rotation time period, the team member on rotation will update the workflow label to `workflow::in dev`
-1. At the end of the rotation time period, the team member on rotation will update the workflow label to `workflow::complete` and close the issue
-
-#### Rotation Issue Labels
-
-These issues must be labeled with the appropriate AppSecRotation label:
-
-| Rotation | Label |
-| --- | --- |
-| HackerOne | `AppSecWorkType::HackerOneRotation` |
-| Triage | `AppSecWorkType::TriageRotation` |
-| Security Release | `AppSecWorkType::ReleaseRotation` |
-| Federal AppSec VAT | `AppSecWorkType::VATRotation` |
+[HackerOne](/handbook/security/product-security/application-security/runbooks/hackerone-process/) and [Triage](/handbook/security/product-security/application-security/runbooks/triage-rotation/) rotation issues are created through the [rotation management tool](https://gitlab.com/gitlab-com/gl-security/product-security/appsec/tooling/rotation-management/) 
 
 ## Milestone Planning Refinement Guidelines
 
