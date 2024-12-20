@@ -1,6 +1,6 @@
 ---
 title: "GitLab Compliance - Separation of Privileges"
-description: "This Hands-On Guide demonstrates how to create and view compliance center events."
+description: "This Hands-On Guide demonstrates separation of privileges"
 ---
 
 > Estimated time to complete: 10 minutes
