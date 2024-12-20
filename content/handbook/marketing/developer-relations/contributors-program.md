@@ -5,14 +5,13 @@ description: "Learn about the GitLab Contributors Program from the Contributor S
 
 ## Summary
 
-The GitLab Contributors Program drives strategic growth of our open source community contributors, delivering measurable product improvements while building a sustainable pipeline of contributing end users.
-By converting GitLab users into active contributors, we create a scalable model where community members can solve both their own challenges and issues requested from customers.
-We guide and support our contributors to develop their knowledge of GitLab in order to tackle larger initiatives that impact millions of GitLab users.
+The GitLab Contributors Program drives strategic growth of our open source contributor community, delivering measurable product improvements while building a sustainable pipeline of contributing end users.
+By converting users into active contributors, we create a scalable model where community members solve real challenges, deepen their knowledge of GitLab, and tackle larger intiatives that impact millions of users.
 This strategy reduces pressure on internal teams and product roadmaps, while accelerating feature development, maintenance and bug fixes through external contributions.
-The program's dual focus on code and non-code contributions ensures comprehensive platform enhancement, from technical improvements to documentation, translation, design and user experience. 
-Owned by the [Contributor Success team](/handbook/marketing/developer-relations/contributor-success/), the program implements targeted outreach strategies to existing GitLab users, customers, learners, and partners to funnel top contributors into the program on the [Contributors platform](https://contributors.gitlab.com/).
 
-## Objectives
+The [Contributor Success team](/handbook/marketing/developer-relations/contributor-success/) implements targeted outreach strategies to existing GitLab users, customers, learners, and partners to funnel top contributors into the program on the [Contributors platform](https://contributors.gitlab.com/). The program's dual focus on code and non-code contributions ensures comprehensive platform enhancement, from technical improvements to documentation, translation, design and user experience. 
+
+## Key Objectives
 
 1. Reach 200 unique wider community contributors a month by end of FY26
     1. Scale and advance our contributor community through structured support programs and clear progression paths
@@ -25,22 +24,77 @@ Owned by the [Contributor Success team](/handbook/marketing/developer-relations/
 
 * [Unique Wider Community Contributors per Month](/handbook/marketing/developer-relations/performance-indicators/#unique-wider-community-contributors-per-month)
 
-## FY26 strategy
+## Target Audience Segmentation
 
-In FY26, we will adjust our existing strategies, adopt new perspectives, and focus our outreach target audience where we have the most impact.
+Our primary focus is engaging GitLab's existing users and customers, who consistently deliver the highest-impact contributions.
+We supplement this with targeted outreach to learners and hackathon participants to build a diverse contributor pipeline that drives growth of the community.
 
-* Contributor growth
-  * Connect with and grow our contributor base through existing GitLab users and customers who are already familiar with the product and have itches to scratch or knowledge of what they are working on
-  * Partner with organizations that have existing GitLab users or learners we can support in becoming GitLab contributors
-  * Spend less time targeting developers who are not already using GitLab or learning about GitLab as they are less likely to be retained as return contributors
-  * Delegate outside support and Developer Relations work that does not lead to increasing wider community contributors to GitLab
-* Contribution value
-  * Focus on quality contributions that improve GitLab and the GitLab product as we work towards an additional KPI to track quality and impact of our contributors
-  * Showcase the value of community contributions to both internal stakeholders across GitLab and to our customers
-* Contributor journey
-  * Collaborate with Product and Engineering teams to generate quality issues for contributors
-  * Streamline the contributor process on the Contributors platform from start to finish: onboarding, contributing, rewards and leveling up
-  * Increase contributor support through MR coaching overhaul
+### 1. Primary Focus: GitLab Users and Customers
+
+* Highest potential for meaningful contributions due to platform experience and issues to scratch
+* Direct connection between their needs and contribution impact
+* Training customer contributors through Co-Create
+  * [Co-Create success stories & benefits](https://about.gitlab.com/community/co-create/)
+  * [Co-Create handbook overview](/handbook/marketing/developer-relations/cocreate/)
+  * Targeted outreach of contribution opportunities for all GitLab end users
+* AI-powered development and Duo Chat support to succeed in the contribution journey
+* Utilize ecosystem partners and hyperscalers to accelerate innovative changes
+
+### 2. Supporting Pools:
+
+* **Learners and Educational Communities**
+  * Driving community growth through educational partnerships to bring a diverse group of top performing contributors and GitLab users
+  * Focus on practical platform experience
+  * GitLab Duo and AI features to help support learning by completing real world challenges
+  * Certifications and/or recognition for contributions with AI tools to boost credentials and portfolios
+  * Utilize existing educational program partnerships as well as explore ecosystem partners with educational communities to drive learners to GitLab contributions
+
+* **Hackathon Participants**
+  * Build upon our existing success with hackathon participation driving contributor quantity metrics 
+  * Prioritize partnerships that funnel existing GitLab users and experienced open source contributors
+  * Key partnerships (Hacktoberfest, Digital Ocean, MLH)
+  * Run partnered hackathon contests with ecosystem partners
+  * Rapid onboarding with AI-assisted development tools
+
+## FY26 Core Activities and Initiatives
+
+### Start - New initiatives to implement in FY26
+
+* **Enhanced Customer and End User Focus**
+  * Quality issue generation partnerships with Product and Engineering teams to understand value impact
+  * Deepen AI-powered contribution support through GitLab Duo integration and offer recognition for AI contributions
+  * Impact measurement framework for quality contributions and public portfolio of high-impact contributions
+
+* **Targeted partnerships and outreach**
+  * Collaborations with ecosystem partners and hyperscalers
+  * Educational partnership development
+
+### Continue
+
+* **Strategic hackathon collaborations**
+  * Funnel experienced open source contributors and existing GitLab users
+  * Maintain strong contributor quantity metrics and retain a portion of high impact contributors
+  * Expanded Hacktoberfest participations and explore ecosystem partner collaborations
+  * Collaborate with Gitlab groups to run hackathons
+
+* **Platform Improvements**
+  * Study and deepen the usage of the Contributors platform to enhance the contributor journey
+  * Automated leveling and rewards processes to retain and grow contributors
+  
+* **Contributor Support**
+  * Issue curration and labeling from GitLab teams
+  * Enhanced MR coaching system and opportunities to support more contributors  
+
+### Stop
+
+* **Unfocused Outreach**
+  * General developer community targeting without GitLab or target audience connection
+  * Non-strategic event participation
+  * Developer Relations activities not tied to contribution growth
+
+* **Low impact process improvements**
+  * Processes that don't scale with community growth
+  * Incremental process improvements when we are already at 80% effectiveness
 
 ### Mindset
 
@@ -76,95 +130,33 @@ This approach ensures we maintain program momentum while maximizing our impact o
   * Advance projects when they reach 80% effectiveness, allowing us to tackle more initiatives
   * Reserve deep iteration for areas directly impacting KPIs or program scalability
 
-### Outreach target audience
-
-To date we have seen a higher impact on contributor growth by connecting with existing GitLab users and customers, as well as experienced open source contributors. We have seen less growth when focusing on developer communities that are not using or learning GitLab and do not have experience with open source contributing.
-
-#### Customer outreach
-
-GitLab customers can co-create the software they use everyday.
-With outreach efforts to existing GitLab users we showcase the value of contributing for the customer and give full support to customer contributors.
-
-* Co-Create Program
-  * [Co-Create success stories & benefits](https://about.gitlab.com/community/co-create/)
-  * [Co-Create handbook overview](/handbook/marketing/developer-relations/cocreate/)
-* Customer outreach campaigns: not every customer is ready for the full Co-Create Program experience, yet all customers and existing GitLab users can benefit by learning about contributing opportunities and how we can support them
-
-#### Partner outreach
-
-By forming partnerships across the industry we build a pipeline of potential users and contributors to GitLab. In order for the contributor community to grow, the user base must grow.
-
-* Learners / educational partners
-  * The next generation of developers benefit from learning GitLab and building experience contributing to the GitLab codebase while working alongside other developers.
-  * Our existing educational partners and new learner communities are opportunities to showcase the value for individual contributors and how they can get started.
-* Hackathon partnerships
-  * Hackathons have given us our highest quantity of contributors.
-  * Partnerships with organizations like Digital Ocean and Major League Hacking for Hacktoberfest as well as with DevPost and others offer us opportunities to connect with more developers to join GitLab hacking events.
-  * Whenever possible, our target focus for hackathon participants should be on existing GitLab users or experienced open source contributors.
-* Ecosystem partners
-  * By building stronger connections with our larger ecosystem partners we can offer opportunities to developers to contribute to GitLab and make innovative feature improvements that will enhance their use of the platform.
-* Open source partners
-  * GitLab's open source partners and projects include many GitLab users experienced in working within open source communities.
-
-### FY26 timeline
+### Events
 
 #### FY26Q1
 
-* Projects:
-  * Product team partnerships for issue curation and contributor bonuses
-  * Customer outreach
-  * Hackathon partnerships initiative
-  * User study of customer contributors & improvement deliverables
-  * Deliver quality metric on total features contributions
-  * Launch rebranding for GitLab Notable Contributors awards (formerly MVP/Heroes)
-* Events:
-  * GitLab Hackathon (UX Product Design collaboration)
-  * FOSDEM 2025
+* GitLab Hackathon (UX Product Design collaboration)
+* FOSDEM 2025
 
 #### FY26Q2
 
-* Projects:
-  * Ecosystem partnerships initiative
-  * Complete tracking of translator contributors to GitLab
-  * Outreach to GitLab community programs (education, open source)
-* Events:
-  * Partnership hackathon event
-  * GitLab Hackathon
-  * Open Source Summit North America 2025
+* GitLab Hackathon
+* Open Source Summit North America 2025
 
 #### FY26Q3
 
-* Projects:
-  * Hackathon partnerships initiative
-  * Learners / educational partnership program initiative
-  * Develop public portfolio of high-impact contributions
-* Events:
-  * Ecosystem partners event/contest
-  * GitLab Hackathon
-  * Open Source Summit Europe 2025
-  * All Things Open 2025
-  * Hacktoberfest 2025
+* GitLab Hackathon
+* Open Source Summit Europe 2025
+* All Things Open 2025
+* Hacktoberfest 2025
 
 #### FY26Q4
 
-* Projects:
-  * Launch Next Generation Contributors Program
-  * Deliver public portfolio of high-impact contributions
-* Events:
-  * GitLab Hackathon
-  * RubyConf25
+* GitLab Hackathon
+* RubyConf25
 
 ### Resource needs
 
 * Merge Request Coaches
-  * Review merge requests
-  * Support contributors to complete merge requets
-  * Triage and find reviewers
-  * Mentor contributors and help level them up
 * Community forks maintainers
-  * Managing access requests
-  * Onboarding new contributors
-  * Guiding towards first issues
-* Discord
-  * Support for contributors
-  * Moderators
+* Discord support
+* Developers for contributors platform
