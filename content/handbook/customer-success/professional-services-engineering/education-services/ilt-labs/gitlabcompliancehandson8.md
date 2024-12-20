@@ -7,6 +7,7 @@ description: "This Hands-On Guide walks you through viewing various compliance r
 
 ## Objectives
 
+This lab will outline how to access the various compliance reports, including audit reports and SBOM reports.
 
 ## Task A. Viewing Compliance Reports and Permissions
 
