@@ -15,7 +15,7 @@ Follow the [Documentation Style Guide](https://docs.gitlab.com/ee/development/do
 
 ### Title
 
-This is the title once added to Zendesk. This heading must be changed to properly integrate with the deployment. 
+This is the title once added to Zendesk. This heading must be changed to properly integrate with the deployment.
 
 The title should clearly summarize the customer / reader issue. 
 
