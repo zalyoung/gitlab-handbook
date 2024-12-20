@@ -12,14 +12,13 @@ For practical JTBD research guidance, see the [playbook](/handbook/product/ux/jo
 
 ## Anatomy of a JTBD Canvas
 
-A Job to be Done Canvas is a way to arrange all of the elements of a [Job Performer's](/handbook/product/ux/jobs-to-be-done/#job-performer-who-do-you-want-to-innovate-for) [Main Job](#main-jobs) in an easy to read format, well-suited for iteration, sharing, and documentation. We use canvases throughout our [JTBD playbook](/handbook/product/ux/jobs-to-be-done/jtbd-playbook), as part of our [FigJam template](https://www.figma.com/file/Z4lsAOLH1ANN3pstQFYgSk/Jobs-to-be-done----Playbook-Template?type=whiteboard&node-id=0%3A1&t=7nzgsnW0igvXKwjr-1).
-Each canvas has a number of different sections which combine to provide a **holistic picture of a Job Performer's Main Job**. It can be a bit daunting, so here’s an explanation of each section:
+A Job to be Done Canvas organizes the elements of a [Job Performer's](/handbook/product/ux/jobs-to-be-done/#job-performer-who-do-you-want-to-innovate-for) [Main Job](#main-jobs) for easy iteration, sharing, and documentation. We use canvases in our [JTBD playbook](/handbook/product/ux/jobs-to-be-done/jtbd-playbook) within our [FigJam template](https://www.figma.com/file/Z4lsAOLH1ANN3pstQFYgSk/Jobs-to-be-done----Playbook-Template?type=whiteboard&node-id=0%3A1&t=7nzgsnW0igvXKwjr-1).
 
 ![JTBD canvas](JTBD_Canvas.png)
 
 ### **The Domain:** Where do you want to innovate?
 
-To innovate effectively, start by ensuring you're working in the right area of your Stage Group. Deciding this up front will help determine Who you're going to innovate for and then what they're trying to get done.
+Start by identifying the relevant area within your Stage Group to help determine who you're innovating for and what they need to accomplish.
 
 ### **Job Performer:** Who do you want to innovate for?
 
