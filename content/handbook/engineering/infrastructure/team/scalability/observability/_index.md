@@ -74,7 +74,7 @@ There are different types of documentation, which belong in different places.
 | How does our GitLab specific architecture look like?         | Documentation Hub           |
 | Tutorials, guides, FAQs and conceptual explanations          | Documentation Hub           |
 
-Documentation outside the Documentation Hub should be linked from it (that's why we call it a *hub*), to help increase discoverability.
+Documentation outside the Documentation Hub should be linked from it (that's why we call it a *hub*) and vice versa, to help increase discoverability.
 
 This recognizes the need to ship reference documentation with the respective project, as we would expect to see for any project (whether open source or not).
 The benefit here is that a change in functionality can also update reference documentation in the same merge request.
