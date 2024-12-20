@@ -249,7 +249,6 @@ Current caveats with the job are:
 - It will not tell indirectly connected downstream dependencies. This feature will be a part of upcoming iteration to this job.
 - It does not find dependencies for tables that use a dbt alias. [We discourage the use of aliases](https://handbook.gitlab.com/handbook/enterprise-data/platform/dbt-guide/#general) in models, but there are legacy tables that use aliases, so caution should be exercised when working with aliased tables. Downstream dependencies can be checked manually in MonteCarlo using the alias.
 
-
 ##### Explanation
 
 This section explains how the `tableau_direct_dependencies_query` works.
