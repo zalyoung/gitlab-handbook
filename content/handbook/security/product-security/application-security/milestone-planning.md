@@ -59,7 +59,7 @@ Application Security team members are responsible for keeping issues and labels 
 
 Any issue being worked on by an Application Security team member must include:
 
-- The `team::Application Security` label
+- The `Application Security Team` label
 - The appropriate `AppSecWorkflow::` label
 - The appropriate Milestone
 
@@ -113,9 +113,9 @@ These issues must be labeled with the appropriate AppSecRotation label:
 - Does it have at least one DRI assigned and are they aware?
 - Are there dependencies? If so, document them.
 - Are there other stakeholders and are they looped in and aware?
-- Is the correct `AppSecWorkType::` label set?
-- Is the `AppSecWeight::` label set?
-- Does it have the `team::Application Security` label?
+- Is the correct [`AppSecWorkType::` label](/handbook/security/product-security/application-security/metrics/capacity/#type-of-work-classification) set?
+- Is the [`AppSecWeight::` label](/handbook/security/product-security/application-security/metrics/capacity/#effort-classification) set?
+- Does it have the `Application Security Team` label?
 - Across the whole milestone, is the total operational + project weight achievable?
 
 When issue is fully refined, please set the `AppSecWorkflow:planned` label, indicating it's ready to be worked on in the assigned milestone.
