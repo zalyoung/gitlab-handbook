@@ -101,6 +101,8 @@ Some initial validation steps will occur automatically:
 
 If any of these are inaccurate, the ticket will be closed.
 
+If a user submits a 2FA reset request ticket using the `2FA Assistance` category but does not use the `2FA removal` ticket subcategory, set the form subcategory to `2FA removal`. If the user is not eligible for support, the ticket will automatically close.
+
 ##### Step 1: Checking challenge answers
 
 > **Note**: In case the user sends back very minimal information and it's clear it's not sufficient or the answers are vague, reply asking for more information immediately after their response. You can provide some additional guidance, such as "please provide the exact date and time of the commit, not just an approximate one".
