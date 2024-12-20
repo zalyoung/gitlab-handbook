@@ -47,7 +47,7 @@ In this task, we will complete some actions in our project that will result in c
 print("Start compliance project")
 ```
 
-1. In the **Target Branch** field, enter `new-main`.
+1. Underneath the **Commit Message** in the **Target Branch** field, enter `new-main`.
 
 1. Ensure that **Start a new merge request with these changes** is selected. 
 
