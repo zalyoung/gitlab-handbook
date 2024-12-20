@@ -3,7 +3,7 @@ title: "TMRG - Black@GitLab"
 description: "An overview of our remote TMRG Black@GitLab"
 ---
 
-![Black@GitLab Welcome](Black-GitLab-SKO23.jpg)
+![Black@GitLab Welcome](/images/company/culture/inclusion/tmrg-gitlab-black/Black-GitLab-SKO23.jpg)
 {style="max-width: 50%"}
 
 ## Introduction
@@ -18,7 +18,7 @@ Promote personal and professional development. The overall goal is to position o
 
 This group is open to all members of the GitLab community.
 
-![Black@GitLab Values](black-gitlab-values.png)
+![Black@GitLab Values](/images/company/culture/inclusion/tmrg-gitlab-black/black-gitlab-values.png)
 {style="max-width: 50%"}
 
 ## Leads
@@ -80,7 +80,7 @@ We use our [GitLab issue board](https://gitlab.com/gitlab-com/black-tmrg/-/board
 2023 Black History Month Conversation with Christopher Bouzy, Founder and CEO of [BotSentinel](https://botsentinel.com/) ([watch the video](https://drive.google.com/file/d/1jIwAdJCYxsUJlmEo1otGG5pE6VGC7geM/view))
 {.h4}
 
-![Conversation with Christopher Bouzy](conversation_with_Christopher_Bouzy.png)
+![Conversation with Christopher Bouzy](/images/company/culture/inclusion/tmrg-gitlab-black/conversation_with_Christopher_Bouzy.png)
 
 #### History
 

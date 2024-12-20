@@ -66,7 +66,7 @@ The Q2C systems consists of several systems including Salesforce, Zuora (CPQ, 36
 
 ## Architecture
 
-![ltc-landscape](/handbook/company/ltc-landscape.png)
+![ltc-landscape](/images/company/ltc-landscape.png)
 
 ## Data Objects
 
@@ -275,7 +275,7 @@ erDiagram
 
 Zuora provides a diagram of the relationships of [Zuora's Billing Object Model](https://knowledgecenter.zuora.com/BB_Introducing_Z_Business/A_Zuora_Billing_business_object_model)
 
-![Zuora Billing Object Model](/handbook/company/zuora_billing_object_model.png)
+![Zuora Billing Object Model](/images/company/zuora_billing_object_model.png)
 
 To reduce the amount of data issues across our systems, our goal is to try to ensure we have a 1:1 mapping between Zuora Billing Object Model and CustomersDot.
 
@@ -283,7 +283,7 @@ To reduce the amount of data issues across our systems, our goal is to try to en
 
 [Zuora CPQ](https://knowledgecenter.zuora.com/CPQ/A_Zuora_CPQ/A2_Zuora4Salesforce_Object_Model) is used to connect Zuora with Salesforce.
 
-![Zuora Salesforce ERD](/handbook/company/zuora_salesforce_erd.jpeg)
+![Zuora Salesforce ERD](/images/company/zuora_salesforce_erd.jpeg)
 
 ### Billing Account Master Data Object
 

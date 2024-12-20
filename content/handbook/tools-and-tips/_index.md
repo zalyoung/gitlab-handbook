@@ -541,22 +541,22 @@ To see the data for a specific page:
 - Click **Site content > All pages**
 - On the top-right, adjust the period of time you'd like to analyze
 - On the middle of the page, look for a search bar and paste the URL you'd like to analyze (without `https://`) and click on the magnifier button to search:
-![Google Analytics - find pageviews](/handbook/tools-and-tips/images/google-analytics-find-pageviews.png)
+![Google Analytics - find pageviews](/images/tools-and-tips/google-analytics-find-pageviews.png)
 Note that you can use the search tool with:
   - A full URL, which will return results for that specific URL
   - Part of an URL, e.g., `/2017/`, which will return the results for all the blog posts published on 2017
   - The higher directory on the file tree, which will return the results for a range of URLs in that tree.
     E.g., `docs.gitlab.com/ee/ci/` will return the results for all the range of pages contained in the `/ci/` directory
 - GA will output the data about the page (or range of pages) you searched for, including pageviews, unique pageviews, and other data:
-![Google Analytics - see pageviews](/handbook/tools-and-tips/images/google-analytics-pageviews.png)
+![Google Analytics - see pageviews](/images/tools-and-tips/google-analytics-pageviews.png)
 
 To find the referrals for a certain page, continue from the steps above.
 
 - Click on one of the website links to look at the data for a page of your choice
-![Google Analytics - find referrals](/handbook/tools-and-tips/images/google-analytics-find-referrals.png)
+![Google Analytics - find referrals](/images/tools-and-tips/google-analytics-find-referrals.png)
 - Just above the graph, click **Navigation summary**
 - GA will output the referrals, including **Previous Page Path** and **Next Page Path**:
-![Google Analytics - see referrals](/handbook/tools-and-tips/images/google-analytics-referrals.png)
+![Google Analytics - see referrals](/images/tools-and-tips/google-analytics-referrals.png)
 
 ### Set your picture in Google
 
@@ -577,7 +577,7 @@ Consider adding a phonetic pronunciation of your name and/or a pronunciation rec
 
 Please make use of the Find a Time tab in Google Calendar, especially when scheduling events with teammates in other parts of the world:
 
-![Google Calendar - Find a Time](/handbook/tools-and-tips/images/google-calendar-find-a-time.png)
+![Google Calendar - Find a Time](/images/tools-and-tips/google-calendar-find-a-time.png)
 
 Find a Time presents a new or existing event's time for all participants, adjusting for time zones as appropriate.
 To use Find a Time:
@@ -634,7 +634,7 @@ Please reach out to the People Connect Team in the `#people-connect` Slack chann
    This will appear like adding a room, which is expected
    {{% /note %}}
 
-   ![Adding GitLab Team Meetings](/handbook/tools-and-tips/images/adding-gitlab-team-meetings.png)
+   ![Adding GitLab Team Meetings](/images/tools-and-tips/adding-gitlab-team-meetings.png)
 
 #### Managing invite responses
 
@@ -657,7 +657,7 @@ Then click Create filter:
 Please click 'Guests can modify event' so people can update the time in the calendar instead of having to reach out via other channels.
 You can configure this to be checked by default under [Event Settings](https://calendar.google.com/calendar/r/settings).
 
-![Google Calendar - Guests can modify events setting](/handbook/tools-and-tips/images/google-calendar-guestsmodifyevent.png)
+![Google Calendar - Guests can modify events setting](/images/tools-and-tips/google-calendar-guestsmodifyevent.png)
 
 #### Notifications
 
@@ -683,7 +683,7 @@ We recommend enabling the 'Show declined events' setting if you are unable to at
 - Navigate to [Event settings](https://calendar.google.com/calendar/u/0/r/settings)
 - Check the box for 'Show declined events' under 'View options'
 
-![Google Calendar - Show declined events](/handbook/tools-and-tips/images/showdeclinedevents.png)
+![Google Calendar - Show declined events](/images/tools-and-tips/showdeclinedevents.png)
 
 #### Sharing
 
@@ -703,26 +703,26 @@ There are several benefits and reasons to sharing your calendar with everyone at
 If other members need to schedule a new meeting, seeing the details of recurring meetings (such as 1-1s) will allow for more flexibility in scheduling without needing to wait for a confirmation from the team member.
 This speaks to our value to be more efficient.
 
-![Google Calendar - make calendar available setting](/handbook/tools-and-tips/images/google-calendar-share.png)
+![Google Calendar - make calendar available setting](/images/tools-and-tips/google-calendar-share.png)
 
 When setting up your Google Calendar be sure to [set your working hours](https://support.google.com/calendar/answer/7638168?hl=en).
 
 If you'd like to share your calendar with e.g. your partner you can use the 'Share with specific people' feature and set the permissions to 'See only free/busy (hide details)':
 
-![Share with specific people](/handbook/tools-and-tips/images/share-with-specific-people.png)
+![Share with specific people](/images/tools-and-tips/share-with-specific-people.png)
 
 #### Speedy meetings
 
 Enable speedy meetings to automatically provide a buffer at the end of events you schedule.
 This thoughtfully allows participants with back-to-back events the opportunity to use the restroom or grab a cup of coffee without being late to their next function.
 
-![Google Calendar - Enable speedy meetings](/handbook/tools-and-tips/images/google-calendar-speedy-meetings.png)
+![Google Calendar - Enable speedy meetings](/images/tools-and-tips/google-calendar-speedy-meetings.png)
 
 #### World clock
 
 Add as many time zone world clocks as you wish by, in Google Calendar, going to `Settings -> World Clock` in order to see team members' local times.
 
-![Google Calendar - World Clock](/handbook/tools-and-tips/images/world-clock.png)
+![Google Calendar - World Clock](/images/tools-and-tips/world-clock.png)
 
 You can also use sites like [TimeAndDate](https://www.timeanddate.com/worldclock/converter.html) to convert times to/from UTC for example.
 
@@ -730,7 +730,7 @@ You can also use sites like [TimeAndDate](https://www.timeanddate.com/worldclock
 
 Check `Display secondary time zone` and select `(GMT+00:00) Coordinated Universal Time` (UTC). This enables team members to standardize on a single time zone in communicating when meetings take place.
 
-![Google Calendar - Time Zone](/handbook/tools-and-tips/images/google-calendar-timezone.png)
+![Google Calendar - Time Zone](/images/tools-and-tips/google-calendar-timezone.png)
 
 ### Google Cloud Platform
 
@@ -788,7 +788,7 @@ The best practice is for sub-organizations to have their own directory inside th
 How do you use these? You don't have to remember these URL's.
 To add these links to your Google Drive My Drive directory, do the following:
 
-![Add to Drive Animation](/handbook/tools-and-tips/images/add2drive.gif)
+![Add to Drive Animation](/images/tools-and-tips/add2drive.gif)
 
 1. Make sure you are logged into your GitLab account in Google Drive in your browser
 1. Open the link of interest (from above) to go to that directory
@@ -805,7 +805,7 @@ With this it is easier to store and view files such as videos, analyst reports (
 
 Here's how to do this:
 
-![Download Drive for Desktop](/handbook/tools-and-tips/images/drive-for-desktop.png)
+![Download Drive for Desktop](/images/tools-and-tips/drive-for-desktop.png)
 
 1. Make sure you are logged into your GitLab account in Google Drive in your browser
 1. Go to your Google Drive (<https://drive.google.com>)
