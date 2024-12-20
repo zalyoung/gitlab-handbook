@@ -11,6 +11,7 @@ The CSE (Associate) is a job grade level 5.
 The  CSE (Associate) reports to the Manager/Senior Manager, CSE.
 
 ### Customer Success Engineer (Associate) Responsibilities
+
 - Schedule and onboard new CSE level customers into the CSE program
 - Track and manage resulting onboarding follow up such as license installation, support contact set up, security announcement subscriptions, etc
 - Provide adoption-oriented content to renewal managers in support of the renewal manager outreach process.
@@ -20,10 +21,9 @@ The  CSE (Associate) reports to the Manager/Senior Manager, CSE.
 - Track CSE help requests to ensure team compliance with Service Level Agreements.
 - Continuously improve professional skills with a focus on personal mastery and team learning through activities such as training, reading and seeking mentorship from others
 
-
 ### Customer Success Engineer (Associate) Requirements
-- Demonstrated experience in a related function with direct customer advocacy and engagement in post-sales or professional services functions.
 
+- Demonstrated experience in a related function with direct customer advocacy and engagement in post-sales or professional services functions.
 
 ### Customer Success Engineer (Intermediate) (CSE)
 
