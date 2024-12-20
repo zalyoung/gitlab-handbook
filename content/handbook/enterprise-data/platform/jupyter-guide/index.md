@@ -21,6 +21,7 @@ See related [repository](https://gitlab.com/gitlab-data/data-science)
 JupyterLab is configured to run in a [virtual environment](https://docs.python.org/3/library/venv.html) on your local machine. If you prefer not to setup a virtual environment, you can instead use the [data science docker image](https://gitlab.com/gitlab-data/data-science/container_registry/6712928) with CUDA support.
 
 When setting up JupyterLab, the following will happen:
+
 - [uv](https://astral.sh/blog/uv) will be downloaded to your local machine and used to set up a virtual environment (venv). UV is extremely fast and a great replacement tool for many common python tools (pipenv, pip-compile, install, etc.)
 - venv will be created using the python version and packages (and their dependecies) as defined in [pyproject.toml](https://gitlab.com/gitlab-data/data-science/-/blob/main/pyproject.toml) 
 - JupyterLab will be built withint the venv
@@ -123,7 +124,6 @@ c.JupyterLabTemplates.include_default = False
 - [Feast](https://feast.dev/): Open-source feature store
 - [Papermill](https://papermill.readthedocs.io/en/latest/): Parameterizing, executing, and analyzing Jupyter Notebooks
 - [interpret](https://pypi.org/project/interpret/): Interpretable model development
-
 
 ### Visualisation tools
 
