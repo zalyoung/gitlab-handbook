@@ -69,7 +69,7 @@ There are different types of documentation, which belong in different places.
 | What?                                                        | Where?                      |
 |--------------------------------------------------------------|-----------------------------|
 | Team organisation, processes and other team level agreements | GitLab Handbook (this page) |
-| Technical reference documentation for standalone projects    | On the project itself       |
+| Technical reference documentation for standalone projects    | On the project itself, and linked to the Documentation Hub      |
 | How do we at GitLab make use of the projects we maintain?    | Documentation Hub           |
 | How does our GitLab specific architecture look like?         | Documentation Hub           |
 | Tutorials, guides, FAQs and conceptual explanations          | Documentation Hub           |
