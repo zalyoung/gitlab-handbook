@@ -35,7 +35,7 @@ the [#support_leadership](https://gitlab.slack.com/archives/C01F9S37AKT) channel
 #### Requests from sales during procurement delays
 
 - In the event that a customer is in the procurement process to purchase additional minutes, but are currently out of usable quota and blocked from working, their sales account manager may file an internal request for support team to add minutes
-- the request should be for a reasonable amount to unblock the customer
+- the request should be for a reasonable amount to unblock the customer. Reasonable in this case will vary in amount based on customer usage. Reviewing their usage page and checking historic usage is a good way to gauge their needs.
 - there must be an in-progress opportunity in SFDC
 
 #### Customer impacted by product bug or unplanned downtime
