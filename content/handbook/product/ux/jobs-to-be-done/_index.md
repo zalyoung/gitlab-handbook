@@ -79,16 +79,18 @@ Bad examples:
 
 ### **Related Jobs:** What else is the Job Performer trying to get done?
 
-When considering which job to innovate on, it may help to think about the other goals the selected Job Performer may have within the Domain – known as Related Jobs. These Related Jobs are distinct objectives, each with its own unique phases, and should be formulated at a similar level of detail for comparison, typically numbering between 3 to 6 per Job Performer. Once you've selected the primary Main Job you want to innovate for, move the remaining Jobs to the Related Jobs section; if you deem it necessary, you can build canvases around them at a later date.
+Consider 3-6 other goals the Job Performer has within the Domain. They should be distinct objectives and forumlated at a similar level of detail. These Related Jobs can be explored with their own canvases later if needed.
 
-### **Aspirations:** What does the Job Performer aspire to become by achieving the Main Job?
+### **Aspirations:** What does the Job Performer aspire to become?
 
-Aspirations represent the "be" goals of the Job Performer, signifying their desire for personal growth or transformation while completing the job. These aspirations should be derived from conversations with Job Performers and are placed at the top of the canvas as they hold a hierarchical position above the Main Job. Typically, there are 1 to 3 Aspirations associated with any Main Job. For instance, in the context of a real estate organization, potential top-down elements for innovation related to "home ownership" could include:
+Aspirations are typically 1-3 "be" goals representing the Job Performer's desired personal growth from completing the Main Job. They sit at the top of the canvas, hierarchically above the Main Job.
+
+Example hierarchy for home ownership:
 
 - Job Performer: New homeowner
-- Target job: Acquire a new home
-- Related jobs: Finance a new home, Move homes, Sell old home
 - Aspirations: Be happy with home life, Be part of a local community
+- Main Job: Acquire a new home
+- Related Jobs: Finance a new home, Move homes, Sell old home
 
 ### **Job Steps:** How does the Job Performer get the job done?
 
