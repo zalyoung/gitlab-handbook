@@ -66,7 +66,7 @@ We also want [everyone to contribute](/teamops/equal-contributions/) — a notio
 
 {{< youtube "AtfE4rB0kis?start=157" >}}
 
-In the [Bloomberg Technology interview](https://youtu.be/AtfE4rB0kis) above, GitLab co-founder and CEO Sid Sijbrandij describes how all-remote helps the company practice its values.
+In the [Bloomberg Technology interview](https://youtu.be/AtfE4rB0kis) above, GitLab co-founder Sid Sijbrandij describes how all-remote helps the company practice its values.
 
 Valuing [results](/handbook/values/#results) enables a healthier all-remote atmosphere. By placing a genuine focus on rewarding outputs rather than inputs, all-remote teams have a shared desire to be excellent at their work, generate meaningful outcomes that move a business forward, and disengage with work as early as practical. All-remote teams are not incentivized to stay late for the sake of being seen.
 
@@ -96,13 +96,13 @@ It also enables those who must relocate frequently for family and personal reaso
 
 {{< youtube "jYYxi_bs1Qg" >}}
 
-In the [GitLab Unfiltered](https://www.youtube.com/channel/UCMtZ0sc1HHNtGGWZFDRTh5A) video above, GitLab co-founder and CEO Sid Sijbrandij verbalizes how he discovered the value of iteration.
+In the [GitLab Unfiltered](https://www.youtube.com/channel/UCMtZ0sc1HHNtGGWZFDRTh5A) video above, GitLab co-founder Sid Sijbrandij verbalizes how he discovered the value of iteration.
 
 Referencing [GitLab's time at Y Combinator]({{< ref "history" >}}), Sid shares that by iterating quickly, you're able to achieve more without working longer hours, thereby creating a more sustainable approach to work.
 
 > There were people in the company, even at the time, who suggested that we should slow down. The response from GitLab has always been, "No, we'll get the most we can get done. The smaller we split things up, the smaller the steps we take, the faster we can go."
 >
-> We still believe that's true today. We want everyone comfortable with taking small steps without a lot of coordination, without a lot of predicting, and without a lot of explaining. — *GitLab co-founder and CEO Sid Sijbrandij*
+> We still believe that's true today. We want everyone comfortable with taking small steps without a lot of coordination, without a lot of predicting, and without a lot of explaining. — *GitLab co-founder, Sid Sijbrandij*
 
 An embraced spirit of [iteration](/handbook/values/#iteration) helps maintain an all-remote culture. By encouraging small steps and empowering individuals to propose minimal valuable change, all-remote teams are less burdened by the need for coordination.
 
@@ -114,7 +114,7 @@ Valuing iteration creates a climate where there is a [low level of shame](/handb
 
 {{< youtube "EuGsen3FxXc?start=2209" >}}
 
-In the [GitLab Unfiltered](https://www.youtube.com/channel/UCMtZ0sc1HHNtGGWZFDRTh5A) video above, GitLab co-founder and CEO Sid Sijbrandij verbalizes how iteration applies to non-reversible decisions.
+In the [GitLab Unfiltered](https://www.youtube.com/channel/UCMtZ0sc1HHNtGGWZFDRTh5A) video above, GitLab co-founder Sid Sijbrandij verbalizes how iteration applies to non-reversible decisions.
 
 > This idea of iterating works very well when the initiative can be reverted in case it doesn't work.
 >
@@ -124,7 +124,7 @@ In the [GitLab Unfiltered](https://www.youtube.com/channel/UCMtZ0sc1HHNtGGWZFDRT
 >
 > In that case, you try to do more homework, collect more data, get more opinions, and debate it longer. The trick with iteration is to split it up, and very often you can split things up more than you'd initially think.
 >
-> Challenging people on their thinking [as it relates to iteration] is one of the main things that we can do as management of GitLab. — *GitLab co-founder and CEO Sid Sijbrandij*
+> Challenging people on their thinking [as it relates to iteration] is one of the main things that we can do as management of GitLab. — *GitLab co-founder Sid Sijbrandij*
 
 ## Transparency
 

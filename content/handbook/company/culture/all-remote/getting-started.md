@@ -46,7 +46,7 @@ If you're interested in finding remote communities to learn from, try one of the
 
 {{< youtube "7kMQj4O4ZGU" >}}
 
-*In the [GitLab Unfiltered](https://www.youtube.com/channel/UCMtZ0sc1HHNtGGWZFDRTh5A) video above, Sid (co-founder and CEO) and Darren (Head of Remote) discuss the importance of values at GitLab.*
+*In the [GitLab Unfiltered](https://www.youtube.com/channel/UCMtZ0sc1HHNtGGWZFDRTh5A) video above, Sid (co-founder) and Darren (Head of Remote) discuss the importance of values at GitLab.*
 
 Absorbing a company culture in a colocated setting occurs over time, as one witnesses behaviors that are supported, praised, and discouraged. A benefit to working in an all-remote setting is that culture is (ideally) documented.
 

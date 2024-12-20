@@ -26,7 +26,7 @@ Remote interviews are similar to in-person interviews in many ways: You're still
 1. **Make eye contact.** Look into the camera as much as possible, not the screen.
 1. **Have a practice meeting.** If it will help you feel more comfortable, try to download any software for a video call far enough in advance to test your audio and video settings.
 1. **Don't browse on your computer or phone during an interview.** Only have what you need for the interview, and don't get distracted.
-1. **Use headphones with a microphone.** Not only will this make you sound better, it will reduce listening fatigue for the other person as well so that you can have a better conversation. One of the more common phrases you'll hear from GitLab CEO Sid Sijbrandij is, "[Can you put your headphones on?](https://about.gitlab.com/blog/2019/06/28/five-things-you-hear-from-gitlab-ceo)"
+1. **Use headphones with a microphone.** Not only will this make you sound better, it will reduce listening fatigue for the other person as well so that you can have a better conversation.
 
 ## What technology do you need to participate in and manage a remote interview?
 
@@ -191,18 +191,18 @@ An archive of Pick Your Brain interviews are below. We've also created a [Pick Y
 
 Learn more about scheduling a GitLab [Pick Your Brain series](/handbook/eba/#pick-your-brain-meetings).
 
-1. [GitLab CEO Sid Sijbrandij and InVision Chief People Officer Mark Frein](https://about.gitlab.com/blog/2019/07/31/pyb-all-remote-mark-frein)
-1. [GitLab CEO Sid Sijbrandij and FormAssembly CEO Cedric Savarese](https://about.gitlab.com/blog/2017/08/11/pick-your-brain-interview-cedric-savarese)
-1. [GitLab CEO Sid Sijbrandij and Polymail Co-founder and CEO Brandon Foo](https://about.gitlab.com/blog/2017/06/02/pick-your-brain-interview-brandon-foo)
-1. [GitLab CEO Sid Sijbrandij and Stitch Co-founder and CEO Jake Stein](https://about.gitlab.com/blog/2017/08/18/pick-your-brain-interview-jake-stein)
-1. [GitLab CEO Sid Sijbrandij and SaaS.CEO Founder Vincent Jong](https://about.gitlab.com/blog/2018/01/26/pick-your-brain-interview-vincent-jong)
-1. [GitLab CEO Sid Sijbrandij and Crazy Wisdom Podcast host Stewart Alsop III](https://www.youtube.com/watch?v=23XIx6n9SsQ)
-1. [GitLab CEO Sid Sijbrandij and Outklip Founder Sunil Kowlgi](https://about.gitlab.com/blog/2019/04/18/lessons-on-building-a-distributed-company)
-1. [GitLab CEO Sid Sijbrandij and Zapier's Mike Knoop and Noah Manger](https://about.gitlab.com/blog/2018/01/08/zapier-pick-your-brain-interview)
-1. [GitLab CEO Sid Sijbrandij and FineTune CTO Kwan Lee](https://about.gitlab.com/blog/2017/09/15/pick-your-brain-interview-kwan-lee)
-1. [GitLab CEO Sid Sijbrandij and Buffer CEO Joel Gascoigne](https://about.gitlab.com/blog/2017/03/14/buffer-and-gitlab-ceos-talk-transparency)
-1. [GitLab CEO Sid Sijbrandij and leadership psychologist Banu Hantal](https://about.gitlab.com/blog/2019/06/21/cofounder-relations)
-1. [GitLab CEO Sid Sijbrandij and Slab co-founder Jason Chen](https://about.gitlab.com/blog/2016/07/14/building-an-open-source-company-interview-with-gitlabs-ceo)
+1. [GitLab co-founder Sid Sijbrandij and InVision Chief People Officer Mark Frein](https://about.gitlab.com/blog/2019/07/31/pyb-all-remote-mark-frein)
+1. [GitLab co-founder Sid Sijbrandij and FormAssembly CEO Cedric Savarese](https://about.gitlab.com/blog/2017/08/11/pick-your-brain-interview-cedric-savarese)
+1. [GitLab co-founder Sid Sijbrandij and Polymail Co-founder and CEO Brandon Foo](https://about.gitlab.com/blog/2017/06/02/pick-your-brain-interview-brandon-foo)
+1. [GitLab co-founder Sid Sijbrandij and Stitch Co-founder and CEO Jake Stein](https://about.gitlab.com/blog/2017/08/18/pick-your-brain-interview-jake-stein)
+1. [GitLab co-founder Sid Sijbrandij and SaaS.CEO Founder Vincent Jong](https://about.gitlab.com/blog/2018/01/26/pick-your-brain-interview-vincent-jong)
+1. [GitLab co-founder Sid Sijbrandij and Crazy Wisdom Podcast host Stewart Alsop III](https://www.youtube.com/watch?v=23XIx6n9SsQ)
+1. [GitLab co-founder Sid Sijbrandij and Outklip Founder Sunil Kowlgi](https://about.gitlab.com/blog/2019/04/18/lessons-on-building-a-distributed-company)
+1. [GitLab co-founder Sid Sijbrandij and Zapier's Mike Knoop and Noah Manger](https://about.gitlab.com/blog/2018/01/08/zapier-pick-your-brain-interview)
+1. [GitLab co-founder Sid Sijbrandij and FineTune CTO Kwan Lee](https://about.gitlab.com/blog/2017/09/15/pick-your-brain-interview-kwan-lee)
+1. [GitLab co-founder Sid Sijbrandij and Buffer CEO Joel Gascoigne](https://about.gitlab.com/blog/2017/03/14/buffer-and-gitlab-ceos-talk-transparency)
+1. [GitLab co-founder Sid Sijbrandij and leadership psychologist Banu Hantal](https://about.gitlab.com/blog/2019/06/21/cofounder-relations)
+1. [GitLab co-founder Sid Sijbrandij and Slab co-founder Jason Chen](https://about.gitlab.com/blog/2016/07/14/building-an-open-source-company-interview-with-gitlabs-ceo)
 
 ## GitLab All-Remote Snapshot interviews
 

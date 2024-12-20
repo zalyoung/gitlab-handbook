@@ -161,8 +161,6 @@ Prior to the COVID-19 pandemic, there was low supply and low demand for dedicate
 
 By 2022, most of the world's organizations will reckon with their new reality: at least a portion of their workforce will insist on more flexibility, and a refusal to adapt will lead to their best talent fleeing to organizations which are actively empowering people to work more flexibly.
 
-<!-- TODO: Replace with screenshots. -->
-
 > Sid Sijbrandij on [Twitter/X](https://twitter.com/sytses/status/1264341436138270720)
 >
 > Below is a thread about the future of remote work after the COVID-19 pandemic is over. I predict that remote will go through a trough of sorrow due to hybrid not working out, and most companies will return to being office based. But many all remote companies will see success.

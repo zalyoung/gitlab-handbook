@@ -323,7 +323,7 @@ In FY24, GitLab provided virtual volunteer opportunities for team members throug
 
 GitLab is dedicated to supporting charitable organizations with missions that align with our company’s values through the GitLab Foundation. Established in 2022, the GitLab Foundation focuses on supporting people to grow their lifetime earnings through education, training, access to opportunities, and systems change on a global scale. Its vision is a world in which one million more people can afford a better life.
 
-The GitLab Foundation is funded by GitLab and its CEO, Sid Sijbrandij. When GitLab went public in 2021, the Board approved a 1% share donation to capitalize the GitLab Foundation. In FY24, 1,635,545 shares of Class A common stock were registered to be issued to the GitLab Foundation.
+The GitLab Foundation is funded by GitLab and its co-founder, Sid Sijbrandij. When GitLab went public in 2021, the Board approved a 1% share donation to capitalize the GitLab Foundation. In FY24, 1,635,545 shares of Class A common stock were registered to be issued to the GitLab Foundation.
 
 The GitLab Foundation is an independent nonprofit entity and its operations are autonomous from GitLab. To learn more, please visit the [GitLab Foundation](https://gitlabfoundation.org/).
 

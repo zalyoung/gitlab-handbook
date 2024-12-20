@@ -15,7 +15,7 @@ The pillars of [managing an all-remote company]({{< ref "being-a-great-remote-ma
 
 ## How do you manage a 100% remote team?
 
-In [this video](https://youtu.be/IFBj9KQSQXA), GitLab co-founder and CEO Sid Sijbrandij and InVision Chief People Officer Mark Frein discuss the future of remote work, including managing all-remote teams at scale.
+In [this video](https://youtu.be/IFBj9KQSQXA), GitLab co-founder Sid Sijbrandij and InVision Chief People Officer Mark Frein discuss the future of remote work, including managing all-remote teams at scale.
 
 "How do you manage when everyone is remote?" is a common question for those leading or managing within an all-remote company.
 
@@ -48,10 +48,7 @@ We have a channel on Slack called `#office-today` where our team members can sha
 
 It's important to clarify that being able to work from anywhere does **not** replace the need to take time off of work.
 
-We recognize how crucial it is to build in time where you can mentally take a break from your work, and as a company, we encourage our team members to do that. Learn more about [how time off works at GitLab.]({{< ref "paid-time-off" >}})
-
-> **"I work closely with our executive team here, and they have been so supportive and encouraging when family-related conflicts arise. They are constantly reminding me that "family first" is our mantra, and give me ease of mind to take time away when needed. Sid, our co-founder and CEO, told me if it's a beautiful day out and I just want to go enjoy it, I should do that. Moments like these make me so proud to be a part of the GitLab team."**
-> [*- Cheri, Chief of Staff*](/handbook/company/team#cheriholmes)
+We recognize how crucial it is to build in time where you can mentally take a break from your work, and as a company, we encourage our team members to do that. Learn more about [how time off works at GitLab]({{< ref "paid-time-off" >}}).
 
 ### Dedicate time for health and fitness
 
@@ -152,7 +149,7 @@ The GitLab way of working is more [inclusive]({{< ref "inclusion#fully-distribut
 
 {{< youtube "2g-XmZeB2qk?start=853" >}}
 
-*In the [interview](https://youtu.be/2g-XmZeB2qk) above between GitLab co-founder and CEO Sid Sijbrandij and [The New Stack](https://thenewstack.io)'s Alex Williams, Sid explains the importance of "handbook first" when it comes to maintaining velocity and [efficiency](/handbook/values/#efficiency) in scaling a team.*
+*In the [interview](https://youtu.be/2g-XmZeB2qk) above between GitLab co-founder Sid Sijbrandij and [The New Stack](https://thenewstack.io)'s Alex Williams, Sid explains the importance of "handbook first" when it comes to maintaining velocity and [efficiency](/handbook/values/#efficiency) in scaling a team.*
 
 > Because we're all-remote, we've been forced to adopt a lot of best practices early on. It scales a lot better. If you're colocated and on the same floor, that works well. If you're on multiple floors in the same building, that starts to deteriorate a bit. If you're in multiple buildings in the same city, that gets worse. If you're in multiple cities, it's harder, and if you're in multiple countries, it starts to break down. It's how most companies work, and that's one of the reasons why companies are really hard to scale.
 >
@@ -160,7 +157,7 @@ The GitLab way of working is more [inclusive]({{< ref "inclusion#fully-distribut
 >
 > At GitLab, we have a rule that says [handbook first]({{< ref "handbook-usage#why-handbook-first" >}}). If you're going to communicate a change to people, first put it in the handbook and then communicate that change to people.
 >
-> Our handbook has [grown to over 3,000 pages](/handbook/about#count-handbook-pages) — it's impossible to read all of it — but you're going to read the sections that are relevant to the job that you have to do. We encourage people to record things and share things. We're continuously trying to move conversations out of Slack and into [GitLab Issues](https://docs.gitlab.com/ee/user/project/issues) where everyone can see them. We encourage people to stream to YouTube on [GitLab Unfiltered](https://www.youtube.com/channel/UCMtZ0sc1HHNtGGWZFDRTh5A). - *GitLab co-founder and CEO Sid Sijbrandij*
+> Our handbook has [grown to over 3,000 pages](/handbook/about#count-handbook-pages) — it's impossible to read all of it — but you're going to read the sections that are relevant to the job that you have to do. We encourage people to record things and share things. We're continuously trying to move conversations out of Slack and into [GitLab Issues](https://docs.gitlab.com/ee/user/project/issues) where everyone can see them. We encourage people to stream to YouTube on [GitLab Unfiltered](https://www.youtube.com/channel/UCMtZ0sc1HHNtGGWZFDRTh5A). - *GitLab co-founder, Sid Sijbrandij*
 
 This is one of the harder things to apply on a daily basis. Taking the time to document a solution isn't very satisfying in the moment, and is easy to deprioritize when other seemingly urgent tasks are vying for your attention.
 
@@ -232,10 +229,6 @@ It is vital for all-remote companies to foster an atmosphere of [trust and learn
 
 ## Applying iteration to everything
 
-{{< youtube "T4fQp9jtKWU" >}}
-
-*In the [video](https://www.youtube.com/watch?v=T4fQp9jtKWU) above, published on the [GitLab Unfiltered YouTube channel](https://www.youtube.com/channel/UCMtZ0sc1HHNtGGWZFDRTh5A), Emilie Schario, Data Analyst, and Sid Sijbrandij, co-founder and CEO, discuss the best way to organize the Metrics pages in the company Handbook.*
-
 Iteration is oft applied to engineering, but asking only part of the company to iterate can create [discord](/handbook/values/#five-dysfunctions). All-remote companies must empower every member of the team, across every function and job level, to approach their work with an [iterative mindset](/handbook/values/#iteration).
 
 By applying [iteration](/handbook/values/#iteration) to everything, it removes the barrier of fear and judgement. It also enables faster cycles, and it makes miscues far less damaging.
@@ -262,7 +255,7 @@ We invite other all-remote companies to mirror GitLab's approach to publishing i
 
 {{< youtube "tSp5se9BudA" >}}
 
-*In the [video](https://www.youtube.com/watch?v=tSp5se9BudA) above, published on [GitLab's YouTube channel](https://www.youtube.com/channel/UCnMGQ8QHMAnVIsI3xJrihhg), GitLab co-founder and CEO Sid Sijbrandij and [Arch Systems](https://archsystemsinc.com) CEO Andrew Scheuermann discuss structure within distributed companies.*
+*In the [video](https://www.youtube.com/watch?v=tSp5se9BudA) above, published on [GitLab's YouTube channel](https://www.youtube.com/channel/UCnMGQ8QHMAnVIsI3xJrihhg), GitLab co-founder Sid Sijbrandij and [Arch Systems](https://archsystemsinc.com) CEO Andrew Scheuermann discuss structure within distributed companies.*
 
 In all-remote companies, it is easy to fall into a situation where you work with a day-to-day lead but report to someone else. There are no physical office structures to reinforce reporting structures.
 

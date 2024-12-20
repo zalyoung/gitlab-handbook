@@ -35,7 +35,7 @@ In Phase 1, a remote organization will look to imitate the design, structure, no
 
 For example, a typical hallway conversation will become a one-on-one direct message, and a pre-planned meeting at the office will be replaced by a video call with the same participants and preexisting meeting hygiene.
 
-Organizations in Phase 1 will attempt to copy the in-office environment and paste it into a digital, remote environment. [Replicating the in-office experience](what-not-to-do/), remotely, is a telltale sign that an entity is in Phase 1 of remote adaptation. Here's how Sid Sijbrandij, GitLab CEO and co-founder, explains it:
+Organizations in Phase 1 will attempt to copy the in-office environment and paste it into a digital, remote environment. [Replicating the in-office experience](what-not-to-do/), remotely, is a telltale sign that an entity is in Phase 1 of remote adaptation. Here's how Sid Sijbrandij, GitLab co-founder, explains it:
 
 > The first phase is this: instead of having your meeting in a conference room, you have it on Zoom. Your hallway chatter — instead of having it in a hallway, you have it on Slack. That's the first phase of remote. You're not taking advantage of what remote provides.
 >

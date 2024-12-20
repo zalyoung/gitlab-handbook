@@ -69,14 +69,6 @@ In practice, a TeamOps organization uses a knowledge management system that allo
 
 This type of system scales with much less effort, and scalable leadership is effective leadership. By writing guidance down transparently — in a way that others can modify, validate, or contribute to — leadership scales beyond an individual or team, and even beyond the organization.
 
-{{% details summary="Examples and resources for public by default" %}}
-**Example:** [Livestreaming company meetings on a branded YouTube channel](https://youtu.be/XcqloQezOUg)
-
-Shortly after GitLab Chief Revenue Officer Michael McBride joined the company in 2018, he [livestreamed a 1-to-1 meeting](https://youtu.be/XcqloQezOUg) with GitLab co-founder and CEO Sid Sijbrandij. As part of McBride's onboarding, Sid was asked to provide an impromptu pitch of GitLab.
-
-In a conventional organization, this interaction would likely be private and not recorded. By recording it and streaming it to the public on a branded YouTube channel, everyone is more informed — the two individuals on the call; GitLab team members past, present, and future; the wider community; customers and partners; candidates; et al.
-{{% /details %}}
-
 {{% details summary="Change management support for public by default" %}}
 **Quick Start Tips:**
 

@@ -557,7 +557,7 @@ If you have any questions about what may or may not be a sensitive topic, please
 
 [Presenting](/handbook/communication/#common-meeting-problems) during meetings requires valuable synchronous time. Instead, recorded presentations make content accessible, prevent confusion, and increase participation for team members that prefer consuming content [asynchronously](/handbook/values/#bias-towards-asynchronous-communication). Remember it is not required to have a presentation or have a pre-recorded presentation.
 
-In the video below, GitLab CEO Sid Sijbrandij explains why there are no presentations in most meetings.
+In the video below, GitLab co-founder, Sid Sijbrandij, explains why there are no presentations in most meetings.
 
 {{< youtube "32GJ2ehUBhs" >}}
 

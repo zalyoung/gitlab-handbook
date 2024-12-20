@@ -144,7 +144,7 @@ There should be no unwritten rules in remote culture. Intentional documentation 
 
 A team member's first experience with company culture is unavoidable. The [onboarding experience](learning-and-development/#how-do-you-onboard-new-team-members) serves as the first post-interview encounter with culture, and it is essential to infuse the [importance of values]({{< ref "remote-values" >}}) into that experience.
 
-Remote onboarding should set aside time for a new team member to read and digest a company's values, which serve as a company roadmap to culture. Consider having a mentor or [onboarding buddy]({{< ref "onboarding-buddies" >}}) specifically ask questions related to values, providing opportunity for the new team member to dive deeper into how they are lived day-to-day.
+Remote onboarding should set aside time for a new team member to read and digest a company's values, which serve as a company roadmap to culture. Consider having a mentor or [onboarding buddy](/handbook/people-group/general-onboarding/onboarding-buddies.md) specifically ask questions related to values, providing opportunity for the new team member to dive deeper into how they are lived day-to-day.
 
 ### Using GitLab for remote onboarding
 

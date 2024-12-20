@@ -193,9 +193,9 @@ Async works well when managing multiple projects, although it does require disci
 
 {{< youtube "_okcPC9YucA" >}}
 
-*GitLab CEO Sid and the [Learning and Development](/handbook/people-group/learning-and-development) team provide more context on our bias towards asynchronous communication and the importance of our iteration value.*
+*GitLab co-founder Sid and the [Learning and Development](/handbook/people-group/learning-and-development) team provide more context on our bias towards asynchronous communication and the importance of our iteration value.*
 
-> There is a reason we are really good at async, and that is because we make things [smaller](/handbook/values/#move-fast-by-shipping-the-minimal-valuable-change). Through iteration, you don't have to coordinate with a ton of people. By taking smaller steps through iteration, we can ship faster. The only way this is possible is through asynchronous communication. — *Sid Sijbrandij, GitLab CEO and co-founder*
+> There is a reason we are really good at async, and that is because we make things [smaller](/handbook/values/#move-fast-by-shipping-the-minimal-valuable-change). Through iteration, you don't have to coordinate with a ton of people. By taking smaller steps through iteration, we can ship faster. The only way this is possible is through asynchronous communication. — *Sid Sijbrandij, GitLab co-founder*
 
 ### Aim for progress, not perfection
 
