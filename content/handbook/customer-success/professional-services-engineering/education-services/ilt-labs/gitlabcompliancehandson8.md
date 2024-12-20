@@ -29,7 +29,7 @@ As a part of our compliance labs, we have been running a dependency scanner. Thi
 
 1. In the left sidebar, select **Build > Pipelines**.
 
-1. Select the most recent passed pipeline.
+1. Select the most recently passed pipeline.
 
 1. Select the `dependency-scanning` job.
 

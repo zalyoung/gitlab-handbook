@@ -19,7 +19,7 @@ To start, we will create a standard pipeline to use in our compliance projects.
 
 1. Select **Create blank project**.
 
-1. In the project name, enter `cicd template`.
+1. In the project name, enter `CICD Template`.
 
 1. Leave all other options as default and select **Create project**.
 
@@ -81,7 +81,7 @@ h.md5('1')
 
 1. Select **Create merge request**.
 
-1. Review the pipeline created from the merge request. Notice that it has a `semgrep-sast` job even though its not defined in `Compliance Project`. This job comes from our pipeline execution policy.
+1. Review the pipeline created from the merge request. Notice that it has a `semgrep-sast` job even though it's not defined in `Compliance Project`. This job comes from our pipeline execution policy.
 
 1. Return to your merge request. You will see that there are 1 new vulnerability, detected by the SAST scanner. 
 
