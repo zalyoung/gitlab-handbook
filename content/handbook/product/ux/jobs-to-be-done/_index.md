@@ -38,13 +38,13 @@ Key characteristics:
 | Author | Steven King (too specific) |
 | Code reviewer | Software Engineer (job title) |
 
+#### [Optional] Related Job Performers: Who affects our Job Performer?
+
+Identifying other actors who relate for your Domain can provide valuable context and aide in selecting a primary Job Performer. Once a Job Performer is selected, these related Job Performers can be documented and explored with their own canvases later if needed.
+
 #### Job Performers vs. Personas
 
 While [user personas](/handbook/product/personas/#user-personas) represent job titles (like "Software Developer"), Job Performers focus on specific tasks within roles. One persona may handle multiple Main Jobs (coding, reviewing, maintaining infrastructure), and different personas may share the same Job Performer role. For example, various roles might review code, but we'd use a single "Code Reviewer" Job Performer to understand that specific task.
-
-### **Related Job Performers (optional):** Who affects our Job Performer when doing their job?
-
-It may help to think about the other actors or Job Performers that relate to your Domain in order to help in selecting a Job Performer to build your canvas around. Consider, who are all of the potential Job Performers within your Domain performing tasks? Once you've select the primary Job Performer you want to innovate for, move the remaining Job Performers to the Related Job Performers section, if you deem it necesary, you can build canvases around them at a later date.
 
 ### **Main Job:** What is the Job Performer trying to get done?
 
