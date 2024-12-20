@@ -143,7 +143,7 @@ between Speed and Velocity. Direction matters for Velocity, therefore we need
 to [iterate efficiently](#efficiency) on the right things at the right time.
 
 For some tips on how to iterate you can check
-[Sid's a blog post about 12 shortcuts that are not iteration](https://about.gitlab.com/blog/2021/12/01/dont-confuse-these-twelve-shortcuts-with-iteration/).
+[the blog post about 12 shortcuts that are not iteration](https://about.gitlab.com/blog/2021/12/01/dont-confuse-these-twelve-shortcuts-with-iteration/).
 
 ### Reduce review time
 

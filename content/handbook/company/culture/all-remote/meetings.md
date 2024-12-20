@@ -166,11 +166,11 @@ If a hybrid call must happen, however, everyone should use their own equipment (
 </figure>
 
 <!-- blank line -->
-In the above [video interview](https://youtu.be/EeUhxQn_ct4) between GitLab co-founder and CEO [Sid Sijbrandij](https://twitter.com/sytses) and [NoHQ](https://nohq.co)'s [Dominic Monn](https://twitter.com/dqmonn), the two discuss common challenges and solutions to building, sustaining, and scaling a thriving remote workplace.
+In the above [video interview](https://youtu.be/EeUhxQn_ct4) between GitLab co-founder [Sid Sijbrandij](https://twitter.com/sytses) and [NoHQ](https://nohq.co)'s [Dominic Monn](https://twitter.com/dqmonn), the two discuss common challenges and solutions to building, sustaining, and scaling a thriving remote workplace.
 
 They speak at length about meetings within a remote environment. In particular, Sid shares that remote workers should embrace the benefit of being free to take meetings with loved ones nearby.
 
-> **Enjoy the benefits of your kids barging in on a meeting. That's the best distraction in the world.** - *GitLab co-founder and CEO [Sid Sijbrandij](https://twitter.com/sytses)*
+> **Enjoy the benefits of your kids barging in on a meeting. That's the best distraction in the world.** - *GitLab co-founder [Sid Sijbrandij](https://twitter.com/sytses)*
 
 Your appearance, surroundings, and background can be the source of great stress and anxiety when preparing for a video call. At GitLab, we encourage team members to bring their whole selves to work.
 
@@ -268,9 +268,7 @@ Learn more on [how to run an all-remote board meeting](https://about.gitlab.com/
 
 ### What is the difference between remote and in-person meetings?
 
-{{< youtube "EuGsen3FxXc?start=788" >}}
-
-When asked during an [INSEAD](https://www.insead.edu/) case study interview (shown above) about an all-remote company's ability to bring people together in the same physical space for a meeting, GitLab co-founder and CEO Sid Sijbrandij provided the following reply.
+When asked during an [INSEAD](https://www.insead.edu/) [case study interview](https://www.youtube.com/watch?v=EuGsen3FxXc&t=790s) about an all-remote company's ability to bring people together in the same physical space for a meeting, GitLab co-founder Sid Sijbrandij provided the following reply.
 
 For context, Sid joined the Zoom call from San Francisco, while the researchers joined from Singapore.
 
@@ -292,7 +290,7 @@ For context, Sid joined the Zoom call from San Francisco, while the researchers 
 >
 > There are benefits, but they aren't as big as people make them out to be.
 >
-> The biggest thing is [taking the initiative to interrupt each other](https://about.gitlab.com/blog/2019/08/05/tips-for-mastering-video-calls), as that's harder in a remote setting. At GitLab, we solve that by making sure that questions are in a Google Doc in advance so it's clear who has a question and who to hand the conversation off to. — *GitLab co-founder and CEO Sid Sijbrandij*
+> The biggest thing is [taking the initiative to interrupt each other](https://about.gitlab.com/blog/2019/08/05/tips-for-mastering-video-calls), as that's harder in a remote setting. At GitLab, we solve that by making sure that questions are in a Google Doc in advance so it's clear who has a question and who to hand the conversation off to. — *GitLab co-founder Sid Sijbrandij*
 
 ### Who should be invited to meetings?
 
@@ -320,17 +318,11 @@ For more tips, visit the [GitLab video call communication guide](/handbook/commu
 
 ### What are the best alternatives to Zoom for remote meetings?
 
-While GitLab uses Zoom as the primary video platform for communications,  others may prefer different tools. Some popular Zoom alternatives are:
+While GitLab uses Zoom as the primary video platform for communications, others may prefer different tools. Some popular Zoom alternatives are:
 
 - WebEx
 - MS Teams
 - Skype
-
-## A Conversation with Sid on Meeting preparation and efficiency
-
-{{< youtube "nn1Mjh7j-1I" >}}
-
-In the above [video interview](https://www.youtube.com/watch?v=nn1Mjh7j-1I) between GitLab co-founder and CEO [Sid Sijbrandij](https://twitter.com/sytses) and [CEO Shadow Nikki Silverberg](https://gitlab.com/nikkiroth), the two talk through how Sid prepares for and operates in a full day of meetings. Sid also talks through how he uses the points above to make meetings at GitLab and his day efficient.
 
 ## GitLab Knowledge Assessment: All-Remote Meetings
 

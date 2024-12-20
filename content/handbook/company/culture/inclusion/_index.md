@@ -187,7 +187,7 @@ In order to more efficiently scale this initiative at GitLab, we would *love* to
 
 ### Stay Interviews or Team Member Experience Interviews
 
-The stay interview with Black Team Members pilot program was developed as part of feedback from the Reverse AMA discussions with Sid. It was mentioned that "stay" interviews might be helpful in determining retention indicators for underrepresented groups.
+The stay interview with Black Team Members pilot program was developed as part of feedback from the Reverse AMA discussions with the CEO. It was mentioned that "stay" interviews might be helpful in determining retention indicators for underrepresented groups.
 
 ### Inclusive benefits
 

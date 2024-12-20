@@ -106,13 +106,13 @@ Remote is fundamentally about *freedom* and *individual choice*. At GitLab, we [
 
 {{< youtube "jdN5mj5ieLk?start=2115" >}}
 
-As part of a Harvard Business School case study [interview](https://youtu.be/jdN5mj5ieLk) (shown above), GitLab co-founder and CEO Sid Sijbrandij spoke with Professor Prithwiraj Choudhury on the various [stages of remote work](stages/).
+As part of a Harvard Business School case study [interview](https://youtu.be/jdN5mj5ieLk) (shown above), GitLab co-founder Sid Sijbrandij spoke with Professor Prithwiraj Choudhury on the various [stages of remote work](stages/).
 
 > We think this model will be called all-remote.
 >
 > We think it's time for clear differentiation between companies which *allow* remote, and companies that will not allow you to come into an office.
 >
-> People will start understanding the difference. If there is no headquarters, you're not at a satellite office. You're not a second-class team member. — *GitLab co-founder and CEO Sid Sijbrandij*
+> People will start understanding the difference. If there is no headquarters, you're not at a satellite office. You're not a second-class team member. — *GitLab co-founder Sid Sijbrandij*
 
 ### Distributed
 

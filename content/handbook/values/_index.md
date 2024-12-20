@@ -28,14 +28,14 @@ and they are made actionable below.
 <a href="#collaboration"><img style="height: 78px; padding-right: 20px; padding-bottom: 20px" src="/images/all-remote/gitlab-value-tanukis_collaberation.svg" alt="Collaboration" title="Collaboration" height="78"></a>  <a href="#results"><img style="height: 78px; padding-right: 20px; padding-bottom: 20px" src="/images/all-remote/gitlab-value-tanukis_results.svg" alt="Results" title="Results" height="78"></a>  <a href="#efficiency"><img style="height: 78px; padding-right: 20px; padding-bottom: 20px" src="/images/all-remote/gitlab-value-tanukis_efficiency.svg" alt="Efficiency" title="Efficiency" height="78"></a>  <a href="#diversity-inclusion"><img style="height: 78px; padding-right: 20px; padding-bottom: 20px" src="/images/all-remote/gitlab-value-tanukis_diversity.svg" alt="Diversity, Inclusion &amp; Belonging" title="Diversity, Inclusion &amp; Belonging" height="78"></a>  <a href="#iteration"><img style="height: 78px; padding-right: 20px; padding-bottom: 20px" src="/images/all-remote/gitlab-value-tanukis_iteration.svg" alt="Iteration" title="Iteration" height="78"></a>  <a href="#transparency"><img style="height: 78px; padding-bottom: 20px" src="/images/all-remote/gitlab-value-tanukis_transparency.svg" alt="Transparency" title="Transparency" height="78"></a>
 </p>
 
-We take inspiration from other companies, and we always go for the [boring solutions](#boring-solutions). Our CEO, Sid Sijbrandij, has [shared the origin](/handbook/company/history/#value-origin-stories) of each of the CREDIT values, but
+We take inspiration from other companies, and we always go for the [boring solutions](#boring-solutions). Our co-founder, Sid Sijbrandij, has [shared the origin](/handbook/company/history/#value-origin-stories) of each of the CREDIT values, but
 just like the rest of our work, we continually adjust our values and strive to make them better.
 GitLab values are a living document.
 In many instances, they have been documented, refined, and revised based on lessons learned (and scars earned) in the course of doing business.
 
 We used to have more values, but it was difficult to remember them all. In response, we condensed them, created an acronym (CREDIT), and listed operating principles to guide behavior.
 
-Everyone is welcome to suggest improvements. Please assign MRs to update these values to our CEO Sid and @mention him in Slack if you work at GitLab Inc. or [on Twitter](https://twitter.com/sytses) if you don't.
+Everyone is welcome to suggest improvements. Please assign MRs to update these values to our [Chief People Officer](https://about.gitlab.com/company/team/?department=people-group) and if you work at GitLab, also @mention them in the [`#values` Slack channel](https://gitlab.enterprise.slack.com/archives/C9VJYTVDE).
 
 <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/899882089?h=fceb9c5e64" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
 <p><a href="https://vimeo.com/899882089">Driving Results with CREDIT</a> from <a href="https://vimeo.com/gitlab">GitLab</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
@@ -74,13 +74,13 @@ One-on-one video calls are preferred.
 
 Negative *feedback* is distinct from negativity and disagreement. If there is no direct feedback involved, strive to discuss disagreement [in a public channel](/handbook/communication/#use-public-channels), respectfully and [transparently](#transparency).
 
-In a [GitLab Unfiltered interview on values](https://youtu.be/7kMQj4O4ZGU), GitLab co-founder and CEO Sid Sijbrandij offers the following context.
+In a [GitLab Unfiltered interview on values](https://youtu.be/7kMQj4O4ZGU), GitLab co-founder Sid Sijbrandij offers the following context.
 
 > We deal with negative all the time at GitLab. If it's not a problem, then why are we discussing it? We deal with negativity a lot, and that's also part of our ambition.
 >
 > If you want to get better, you talk about what you can improve. We're allowed to publicly discuss negative things; we're not allowed to give negative feedback in a large setting if it could be feasibly administered in a smaller setting.
 
-Negative feedback can be given in a group setting if it's to someone higher in the management chain. This shows that no one is above feedback. GitLab co-founder and CEO Sid Sijbrandij and former CTO Eric Johnson discuss this in this [GitLab Unfiltered video](https://www.youtube.com/watch?v=BCpmFWL5Us8).
+Negative feedback can be given in a group setting if it's to someone higher in the management chain. This shows that no one is above feedback.
 
 ##### Provide feedback in a timely manner
 
@@ -853,7 +853,7 @@ Iteration enables [results](#results) and [efficiency](#efficiency).
 
 {{< youtube id="2r0UeZ5p57Y" >}}
 
-*In the [GitLab Unfiltered video](https://youtu.be/2r0UeZ5p57Y) embedded above, GitLab CEO and co-founder Sid Sijbrandij shares key operating principles to reinforce iteration in an organization.*
+*In the [GitLab Unfiltered video](https://youtu.be/2r0UeZ5p57Y) embedded above, GitLab co-founder Sid Sijbrandij shares key operating principles to reinforce iteration in an organization.*
 
 ##### Start with a long-term vision
 
@@ -933,7 +933,7 @@ If you need to decide something as a team, make a concrete proposal instead of c
 
 By making a proposal you also provide better visibility into the work and the context surrounding it.
 
-In this [GitLab Unfiltered video](https://youtu.be/tPTweQlBS54), GitLab CEO and co-founder Sid Sijbrandij converses about iteration in engineering, leveraging proposals to break work into smaller components.
+In this [GitLab Unfiltered video](https://youtu.be/tPTweQlBS54), GitLab co-founder Sid Sijbrandij converses about iteration in engineering, leveraging proposals to break work into smaller components.
 
 ##### Everything is in draft
 
@@ -1022,7 +1022,7 @@ Iteration is often counterintuitive and difficult to do. To clarify what an iter
 1. Imposing long hours
 1. Expecting others to fix your work
 
-In this [GitLab Unfiltered video](https://www.youtube.com/watch?v=BW6TWwNZzIQ), GitLab co-founder and CEO Sid Sijbrandij elaborates on each of these 12 things that are not iteration.
+In this [GitLab Unfiltered video](https://www.youtube.com/watch?v=BW6TWwNZzIQ), GitLab co-founder Sid Sijbrandij elaborates on each of these 12 things that are not iteration.
 
 ##### Iteration Competency
 
@@ -1301,7 +1301,7 @@ We make our values public for the same [reasons](/handbook/company/culture/all-r
 
 Not everyone will see our values and feel aligned with them, and that's OK. By making values public, it shows respect for the time of job seekers who conduct due diligence on prospective employers. When people who *are* aligned with GitLab's values apply for an [open vacancy](https://about.gitlab.com/jobs/), this allows our hiring teams to more efficiently move candidates through the [interview process](/handbook/hiring/interviewing/).
 
-In a [GitLab Unfiltered interview on values](https://youtu.be/7kMQj4O4ZGU), GitLab co-founder and CEO Sid Sijbrandij offers the following context.
+In a [GitLab Unfiltered interview on values](https://youtu.be/7kMQj4O4ZGU), GitLab co-founder Sid Sijbrandij offers the following context.
 
 > Companies may ask you to write a blank check. They'll say, 'Come join our organization, and when you're here, you need to subscribe to our values, our way of working, and our strategy. It's very essential, and it's part of our identity!'
 >
@@ -1318,7 +1318,7 @@ Think of the hierarchy as a weighting system. Values higher in the hierarchy do 
 
 ![Values](images/values.svg)
 
-In a [GitLab Unfiltered interview on values](https://youtu.be/7kMQj4O4ZGU), GitLab co-founder and CEO Sid Sijbrandij offers the following context.
+In a [GitLab Unfiltered interview on values](https://youtu.be/7kMQj4O4ZGU), GitLab co-founder Sid Sijbrandij offers the following context.
 
 > It's an attempt to relieve at least some of the tension. It's not absolute. If you think of values as binary, that's not going to work. There will always be interpretation, and there's always magnitude to consider.
 >
@@ -1364,7 +1364,7 @@ In negative feedback, we should be specific about what the problem is. For examp
 
 > Your values are what you hire for, what you praise people for, and what you promote them for. By definition, what you do in those instances *are* your values. It's not what you say they are. Values should be explicitly part of our [hiring](/handbook/hiring/) process, our job profiles, and our [review process](/handbook/people-group/360-feedback/).
 >
-> When we give [bonuses](/handbook/total-rewards/incentives/#discretionary-bonuses) and [promotions](/handbook/people-group/promotions-transfers/), they are always linked to values. That's the crucial thing. If you reinforce them there, that's the most powerful thing you can do. — *Sid Sijbrandij, GitLab co-founder and CEO*
+> When we give [bonuses](/handbook/total-rewards/incentives/#discretionary-bonuses) and [promotions](/handbook/people-group/promotions-transfers/), they are always linked to values. That's the crucial thing. If you reinforce them there, that's the most powerful thing you can do. — *Sid Sijbrandij, GitLab co-founder*
 
 ## What to do if values aren't being lived out
 
@@ -1372,7 +1372,7 @@ Value erosion can occur when indifference and apathy are tolerated. It can also 
 
 If you feel that values are not being lived out in a given scenario, speak up and ask for context in a respectful manner. Navigating value conflicts starts with [assuming positive intent](#assume-positive-intent) from other team members. Offer links to relevant values and/or operating principles when discussing the issue. If there is confusion or disagreement about the interpretation of a value, please surface the discussion in GitLab's `#values` Slack channel (for GitLab team members) or @-mentioning  [@gitlab](https://twitter.com/gitlab) on Twitter (for those who do not work at GitLab).
 
-In a [GitLab Unfiltered interview on values](https://youtu.be/7kMQj4O4ZGU), GitLab co-founder and CEO Sid Sijbrandij offers the following context.
+In a [GitLab Unfiltered interview on values](https://youtu.be/7kMQj4O4ZGU), GitLab co-founder Sid Sijbrandij offers the following context.
 
 > Almost every time we face a hard decision at GitLab, it's because values are in conflict. It's not binary logic. It requires conversation, and sometimes there is no obvious answer. We can only achieve resolution by respectfully talking with each other and trusting the DRI to make the ultimate decision.
 

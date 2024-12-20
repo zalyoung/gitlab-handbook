@@ -126,7 +126,7 @@ Informal communication is important, as it enables friendships to form at work r
 
 For all-remote companies, leaders should not expect informal communication to happen naturally. There are no hallways for team members to cross paths in, no carpools to the office, etc.
 
-> If you do all-remote, do it early, do it completely, and change your work methods to accommodate it. Be intentional about informal communication. All-remote forces you to do the things you should be doing anyway, earlier. - GitLab co-founder and CEO Sid Sijbrandij
+> If you do all-remote, do it early, do it completely, and change your work methods to accommodate it. Be intentional about informal communication. All-remote forces you to do the things you should be doing anyway, earlier. - GitLab co-founder Sid Sijbrandij
 
 In an all-remote environment, informal communication should be formally addressed. Leaders should organize informal communication, and to whatever degree possible, design an atmosphere where team members all over the globe feel comfortable reaching out to anyone to converse about topics unrelated to work.
 
@@ -222,10 +222,6 @@ One, new hires recognize that they are [empowered to search for answers](self-se
 Two, managers carve out more bandwidth in their day to focus, rather than re-answering questions.
 
 ## Document solutions
-
-{{< youtube "u0dRWDmYSvg" >}}
-
-*In the [LinkedIn Talent on Tap video](https://youtu.be/u0dRWDmYSvg) above, GitLab co-founder and CEO Sid Sijbrandij shares advice on managing within a remote workplace. Discover more in GitLab's [Remote Work playlist](https://www.youtube.com/playlist?list=PL05JrBw4t0Kq7QUX-Ux5fOunQotqJbECc).*
 
 It is the job of a manager to ensure a direct report has what they need to be successful on an ongoing basis. By [documenting](management/#scaling-by-documenting) processes, guides, solutions, how-tos, and policies, a manager is practicing [servant leadership](https://www.shrm.org/resourcesandtools/hr-topics/organizational-and-employee-development/pages/the-art-of-servant-leadership.aspx) in a powerful way.
 

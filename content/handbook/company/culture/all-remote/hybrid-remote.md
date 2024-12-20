@@ -23,7 +23,7 @@ These institutions are primarily colocated, but allow remote work. The day-to-da
 
 {{< youtube "QFbrPR0jAYs?start=3" >}}
 
-*In the [GitLab Unfiltered](https://www.youtube.com/channel/UCMtZ0sc1HHNtGGWZFDRTh5A) video above, GitLab co-founder and CEO Sid Sijbrandij chats with Maren Kate, founder at AVRA Talent Partners.*
+*In the [GitLab Unfiltered](https://www.youtube.com/channel/UCMtZ0sc1HHNtGGWZFDRTh5A) video above, GitLab co-founder, Sid Sijbrandij, chats with Maren Kate, founder at AVRA Talent Partners.*
 
 In discussing the decision to go all-remote at GitLab, Sid shares the following.
 
@@ -35,7 +35,7 @@ In discussing the decision to go all-remote at GitLab, Sid shares the following.
 >
 > [Coming to the office] wasn't needed. They weren't getting any extra information. They were on Slack, on Zoom, in Google Docs, in GitLab pages, in GitLab Issues, in GitLab merge requests — they didn't need to be there.
 >
-> **It's not that people like their commute; it's just that people don't want to miss out.** If you make sure that people don't miss out, you can be remote, too. It takes a lot of effort and focus to make sure all conversations are captured appropriately and that everything is documented. - *GitLab co-founder and CEO Sid Sijbrandij*
+> **It's not that people like their commute; it's just that people don't want to miss out.** If you make sure that people don't miss out, you can be remote, too. It takes a lot of effort and focus to make sure all conversations are captured appropriately and that everything is documented. - *GitLab co-founder, Sid Sijbrandij*
 
 ## Why do employees want hybrid-remote work?
 

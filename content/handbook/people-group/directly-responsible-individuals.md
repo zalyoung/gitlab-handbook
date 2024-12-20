@@ -26,7 +26,7 @@ We would much rather foster a culture where DRIs are willing to put their ideas 
 
 {{< youtube "jdN5mj5ieLk?start=1775" >}}
 
-As part of a Harvard Business School case study [interview](https://youtu.be/jdN5mj5ieLk) (shown above), GitLab co-founder and CEO Sid Sijbrandij spoke with Professor Prithwiraj Choudhury on various elements of GitLab's all-remote structure, including a question on DRIs.
+As part of a Harvard Business School case study [interview](https://youtu.be/jdN5mj5ieLk) (shown above), GitLab co-founder Sid Sijbrandij spoke with Professor Prithwiraj Choudhury on various elements of GitLab's all-remote structure, including a question on DRIs.
 
 > How do we get the best of consensus organizations? When we're about to make a decision, we [tell everyone]({{< ref "communication" >}}). Everyone can give input.
 >

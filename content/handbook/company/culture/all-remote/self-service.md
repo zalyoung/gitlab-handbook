@@ -44,7 +44,7 @@ Whenever a new hire brings up a valid process point that leads to a previously u
 
 ### Documentation in action
 
-GitLab's use of [onboarding buddies is well documented]({{< ref "onboarding-buddies" >}}). To provide context on how new team members can shape the future for colleagues to come by [focusing on improvement](values#focus-on-improvement), an example is showcased below.
+GitLab's use of [onboarding buddies is well documented](/handbook/people-group/general-onboarding/onboarding-buddies.md). To provide context on how new team members can shape the future for colleagues to come by [focusing on improvement](values#focus-on-improvement), an example is showcased below.
 
 1. An onboarding buddy asked a new hire what [feedback](effective-communication/#feedback-is-a-gift) she had after two weeks of onboarding.
 1. She responded with feedback that the process felt siloed, and lacked the sense of community she had experienced prior. She referenced onboarding in a colocated space, where all new hires in a given week were forced to be in the same physical setting regardless of what department they would go on to serve in. This created a sense of belonging — that they were all in this thing together.

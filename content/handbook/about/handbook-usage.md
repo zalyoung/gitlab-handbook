@@ -27,7 +27,7 @@ Beyond being "handbook first," we are also "public handbook first." When informa
 </figure>
 
 <!-- blank line -->
-When asked during an [INSEAD](https://www.insead.edu/) case study interview (shown above) about challenges related to being all-remote, GitLab co-founder and CEO Sid Sijbrandij provided the following reply.
+When asked during an [INSEAD](https://www.insead.edu/) case study interview (shown above) about challenges related to being all-remote, GitLab co-founder Sid Sijbrandij provided the following reply.
 
 > The biggest problem is GitLab not working handbook first. We have an amazing handbook that allows us to collaborate, onboard new people, and think collectively.
 >
@@ -41,7 +41,7 @@ When asked during an [INSEAD](https://www.insead.edu/) case study interview (sho
 >
 > In every other company, they send the brick into the hands of people. Everyone is receiving bricks daily that they have to add to the house they're building internally. They forget things and things are unclear. A lot of context has to be created because there is no context around where to place the bricks.
 >
-> So, you can end up with a thousand houses that look quite different, that are all hanging a bit, and each time you add a brick to the top one pops out at the bottom. — *GitLab co-founder and CEO Sid Sijbrandij*
+> So, you can end up with a thousand houses that look quite different, that are all hanging a bit, and each time you add a brick to the top one pops out at the bottom. — *GitLab co-founder Sid Sijbrandij*
 
 ## Scope of this handbook
 

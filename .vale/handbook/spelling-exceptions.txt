@@ -117,6 +117,7 @@ blockquoting
 Bluesky
 boolean
 booleans
+bootcamp
 Bootsnap
 bot
 bot's
@@ -790,6 +791,7 @@ Nokogiri
 nosniff
 noteable
 noteables
+notetakers
 npm
 NSOs
 NuGet
@@ -1310,6 +1312,7 @@ uncomment
 uncommented
 uncommenting
 unconference
+unconfident
 uncordon
 underperform
 underperformance
@@ -1339,6 +1342,7 @@ unmerges
 unmerging
 unmocked
 unmoderated
+unmute
 unoptimize
 unoptimized
 unoptimizes

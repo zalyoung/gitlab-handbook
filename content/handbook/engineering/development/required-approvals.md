@@ -11,7 +11,7 @@ There are specific scenarios we are identifying that will require additional app
 Each section requiring approvals will have a considerations section. If you answered yes to all of the questions in the considerations section, then you will need to get approval for your proposal before proceeding with implementation. Steps for the approval process:
 
 * Submit an issue with your design proposals
-* Make the issue visible to the CEO - [Sid Sijbrandij](/handbook/company/team/#sytses) and all Fellow Engineers: [Stan Hu](/handbook/company/team/#stanhu), [Dmitriy 'DZ' Zaporozhets](/handbook/company/team/#dzaporozhets) and [Gerir Lopez Fernandez](/handbook/company/team/#glopezfernandez).
+* Make the issue visible to the CEO and all Fellow Engineers.
   * Label with ~"CEO Interest"
 * You will need to gain approval from the CEO and one Fellow Engineer
 * Use the issue created in the first step to coordinate how to gain approval

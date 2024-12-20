@@ -118,9 +118,9 @@ Looking for GitLab's library of guides to working remotely? Those are [**here**]
 - [YouTube: Sid presents Remote Work Best Practices at Mesosphere](https://www.youtube.com/watch?v=UFhHetf7kHM)
 - [Remote Without Warning Webinar: How to adapt and thrive as a suddenly-remote company](https://youtu.be/n4ZZaE-XCVs?t=5)
 - [Preparing Your Team for Remote Work Webinar](https://youtu.be/9tYEKAFgQQw?t=5)
-- [The End of the Office and Scaling Remote Teams with Savannah Peterson & GitLab CEO Sijbrandij](https://youtu.be/GD9M33_z-dM)
+- [The End of the Office and Scaling Remote Teams with Savannah Peterson & GitLab Sid Sijbrandij](https://youtu.be/GD9M33_z-dM)
 - [Top tips for employees and companies forced into work from home and remote work](https://youtu.be/R0AB8ZvnEIU)
-- [theCUBE: How GitLab has scaled as an all-remote company with Sid Sijbrandij, CEO and co-founder](https://youtu.be/eIs71f5IEUU)
+- [theCUBE: How GitLab has scaled as an all-remote company with Sid Sijbrandij](https://youtu.be/eIs71f5IEUU)
 - [Modern Work: Finding Structure in an Officeless World](https://youtu.be/aqCFTpvE4Q0?t=151)
 
 #### Podcasts
@@ -146,7 +146,7 @@ Looking for GitLab's library of guides to working remotely? Those are [**here**]
 - [Outside The Valley — Darren Murph of GitLab: Why Companies Should Go All-Remote](https://arc.dev/blog/podcast-ep23-gitlab-darren-murph-96ggw37q6t)
 - [Accelerating Support Podcast: Darren Murph, Head of Remote at GitLab](https://soundcloud.com/acceleratingsupport/accelerating-support-export-v1/s-JylGQhxc7il)
 - [The Changelog: GitLab's Master Plan](https://changelog.com/podcast/220)
-- [The Twenty Minute VC: A podcast interview with GitLab founder Sid Sijbrandij](https://www.thetwentyminutevc.com/sidsijbrandij)
+- [The Twenty Minute VC: A podcast interview with GitLab co-founder Sid Sijbrandij](https://www.thetwentyminutevc.com/sidsijbrandij)
 - [Coder Radio interview with Sid on 100% remote work and the GitLab model](https://coder.show/313?t=1099)
 
 #### Articles

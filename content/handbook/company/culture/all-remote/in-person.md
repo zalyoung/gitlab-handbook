@@ -88,8 +88,8 @@ Learn more about how GitLab organizes community events in the [GitLab Meetup Gui
 ## Conferences
 
 {{% cardpane %}}
-{{% card footer="GitLab CEO Sid Sijbrandij and General Catalyst Managing Director Kyle Doherty kick off Making Remote Work. Photo by Slava Blazer Photography" %}}
-![GitLab CEO Sid Sijbrandij and General Catalyst Managing Director Kyle Doherty kick off Making Remote Work. Photo by Slava Blazer Photography](/images/all-remote/making-remote-work-gitlab-gc-2019.jpg)
+{{% card footer="GitLab co-founder Sid Sijbrandij and General Catalyst Managing Director Kyle Doherty kick off Making Remote Work. Photo by Slava Blazer Photography" %}}
+![GitLab co-founder Sid Sijbrandij and General Catalyst Managing Director Kyle Doherty kick off Making Remote Work. Photo by Slava Blazer Photography](/images/all-remote/making-remote-work-gitlab-gc-2019.jpg)
 {{% /card %}}
 {{% /cardpane %}}
 

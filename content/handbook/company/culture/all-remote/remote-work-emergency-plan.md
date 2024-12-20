@@ -49,10 +49,6 @@ One of the most sizable challenges when going remote is keeping everyone informe
 
 ## Establish a communications plan
 
-{{< youtube "gOp4lKSCulI" >}}
-
-*In the GitLab Unfiltered video above, Adrian Larssen sits down with GitLab CEO and co-founder Sid Sijbrandij, as well as GitLab Head of Remote Darren Murph, to discuss business and societal changes related to remote work in the wake of COVID-19 and the great remote work migration. Discover more in GitLab's [Remote Work playlist](https://www.youtube.com/playlist?list=PL05JrBw4t0Kq7QUX-Ux5fOunQotqJbECc).*
-
 Depending on team size, consider an always-on video conference room per team, where team members can linger, or come and go as they please. This simulation helps acclimation, enabling team members to embrace the shift to remote in a [less jarring way](https://about.gitlab.com/blog/2019/08/05/tips-for-mastering-video-calls). It also shows intentionality around [informal communication](informal-communication/) — an important element that occurs spontaneously in an office, and needs an immediate replacement in a remote setting.
 
 Whatever your current view on transparency, leaders should not hold back during this time. It's vital to maintain perspective through this shift. Everyone reacts to remote work differently, and not all homes are ideal [workspaces](workspace/). This can (and likely will) feel jarring, and team members will expect frequent updates as leaders iterate on their communication plan in real-time.

@@ -25,11 +25,11 @@ It can be more difficult to notice burnout on a distributed team. Managers and i
 
 {{< youtube "fH8nmtEoBh4?start=1579" >}}
 
-In the [People Group Conversation](https://youtu.be/fH8nmtEoBh4) above, GitLab CEO Sid Sijbrandij responds to a discussion on the topic of burnout and overwork.
+In the [People Group Conversation](https://youtu.be/fH8nmtEoBh4) above, GitLab's Sid Sijbrandij responds to a discussion on the topic of burnout and overwork.
 
 > There's individual freedom, and there's peer pressure. As a company, we should take a lot of care that there's no peer pressure to work long hours.
 >
-> Everyone is used to that [being pressured]. At every company I've been at, that was a celebrated thing. We have to be super, super careful that we do not celebrate that at GitLab. — *Sid Sijbrandij, GitLab co-founder and CEO*
+> Everyone is used to that [being pressured]. At every company I've been at, that was a celebrated thing. We have to be super, super careful that we do not celebrate that at GitLab. — *Sid Sijbrandij, GitLab co-founder*
 
 There's a fine line between [thanking someone publicly](/handbook/communication/#say-thanks) for going above and beyond to help out in a situation, and sending a message that work should always trump life.
 Burnout rarely happens all at once. Rather, it typically takes one by surprise, eventually coming to a head after days, weeks, or months of overwork creep.

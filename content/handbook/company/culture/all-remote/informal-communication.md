@@ -37,8 +37,6 @@ It's helpful to be transparent about your communication preferences so managers 
 
 ## Formally design informal communications
 
-<!-- TODO: Replace with screenshots. -->
-
 > Sid Sijbrandij on [Twitter/X](https://twitter.com/sytses/status/1270721630537277442)
 >
 > When working remote it is important to formalize informal communication. Explicitly plan time to create, build, and maintain social connections and trust. In our handbook we list 15 methods https://about.gitlab.com/company/culture/all-remote/informal-communication/ which I'll summarize in this thread.
@@ -49,7 +47,7 @@ Informal team member communications, such as a chat about life outside of work, 
 
 > During the pandemic, many businesses that were forced to work remotely discovered that productivity [increased](https://bfi.uchicago.edu/working-paper/why-working-from-home-will-stick). Many of these same businesses are now making plans to return to the office. One reason given is that not everyone can work from home. GitLab solves this by allowing people to [rent and expense work space](/handbook/finance/expenses#-coworking-or-external-office--space). Another reason given is that people miss working from a central office with co-workers. I don't think that people miss the commute or the office furniture. They miss informal communication. Central offices are an expensive, inconvenient, and indirect way to facilitate informal communication. It is more efficient to directly organize informal communication.
 >
-> For example, every person who joins GitLab has to schedule at least 5 coffee chats during their onboarding. We also have Ask Me Anything meetings with senior leaders, Group calls organized by different groups/departments, and over 15 other explicit ways to encourage employee connections and relationship building. Intentionally organizing informal communication enables the trust-building conversations that are essential for collaboration. This can be more effective than relying on chance encounters in a physical office. You can connect with team members throughout the world and across departments through a coffee chat. You may not meet people outside of your own floor in an office setting. - *GitLab co-founder and CEO Sid Sijbrandij*
+> For example, every person who joins GitLab has to schedule at least 5 coffee chats during their onboarding. We also have Ask Me Anything meetings with senior leaders, Group calls organized by different groups/departments, and over 15 other explicit ways to encourage employee connections and relationship building. Intentionally organizing informal communication enables the trust-building conversations that are essential for collaboration. This can be more effective than relying on chance encounters in a physical office. You can connect with team members throughout the world and across departments through a coffee chat. You may not meet people outside of your own floor in an office setting. - *GitLab co-founder, Sid Sijbrandij*
 
 {{% cardpane %}}
 {{% card footer="Group social calls are a great way for remote teams to connect and bond" %}}
@@ -63,7 +61,7 @@ Informal communication is important, as it enables friendships to form at work r
 
 For all-remote companies, leaders should not expect informal communication to happen naturally. There are no hallways for team members to cross paths in, no carpools to the office, etc.
 
-> If you do all-remote, do it early, do it completely, and change your work methods to accommodate it. Be intentional about informal communication. All-remote forces you to do the things you should be doing anyway, earlier. - *GitLab co-founder and CEO Sid Sijbrandij*
+> If you do all-remote, do it early, do it completely, and change your work methods to accommodate it. Be intentional about informal communication. All-remote forces you to do the things you should be doing anyway, earlier. - *GitLab co-founder, Sid Sijbrandij*
 
 In an all-remote environment, informal communication should be formally addressed. Leaders should organize informal communication, and to whatever degree possible, design an atmosphere where team members all over the globe feel comfortable reaching out to anyone to converse about topics unrelated to work.
 
@@ -207,7 +205,7 @@ Examples:
 
 {{< youtube "CH-NHoBOeho?start=496" >}}
 
-In the Traction Conference [video](https://youtu.be/CH-NHoBOeho) above, GitLab co-founder and CEO Sid Sijbrandij shares how remote teams can stay connected with Frederic Lardinois of [TechCrunch](https://techcrunch.com).
+In the Traction Conference [video](https://youtu.be/CH-NHoBOeho) above, GitLab co-founder, Sid Sijbrandij shares how remote teams can stay connected with Frederic Lardinois of [TechCrunch](https://techcrunch.com).
 
 We understand that working remotely leads to mostly work-related conversations with fellow team members, so everyone at GitLab is encouraged to dedicate **a few hours a week** to having social calls/coffee chats with anyone in the company.
 

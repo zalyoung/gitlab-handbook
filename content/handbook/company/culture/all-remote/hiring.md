@@ -74,7 +74,7 @@ In this [GitLab Unfiltered](https://www.youtube.com/channel/UCMtZ0sc1HHNtGGWZFDR
 >
 > It's silly to think that a company would withhold its strategy, culture, or workflows until *after* someone gets hired. These elements determine whether a team member will thrive. Why would you hold that back? — *Darren Murph, Head of Remote at GitLab*
 
-In this [GitLab Unfiltered](https://www.youtube.com/channel/UCMtZ0sc1HHNtGGWZFDRTh5A) video, GitLab co-founder / CEO Sid Sijbrandij discusses hiring (amongst other topics) with researchers from [INSEAD](https://www.insead.edu).
+In this [GitLab Unfiltered](https://www.youtube.com/channel/UCMtZ0sc1HHNtGGWZFDRTh5A) video, GitLab co-founder Sid Sijbrandij discusses hiring (amongst other topics) with researchers from [INSEAD](https://www.insead.edu).
 
 {{< youtube "EuGsen3FxXc?start=2493" >}}
 
@@ -82,7 +82,7 @@ In this [GitLab Unfiltered](https://www.youtube.com/channel/UCMtZ0sc1HHNtGGWZFDR
 >
 > I think that's bananas. That's what every company in the world does. If your strategy is really important, make sure people buy in *before* they join. And make sure that people who don't buy in don't join the company.
 >
-> Execution depends on people; [being public about what we do](/handbook/company/strategy). allows us to attract the best people to best execute our strategy." — *GitLab co-founder and CEO Sid Sijbrandij*
+> Execution depends on people; [being public about what we do](/handbook/company/strategy). allows us to attract the best people to best execute our strategy." — *GitLab co-founder Sid Sijbrandij*
 
 ### Make yourself attractive to top talent
 
@@ -150,13 +150,13 @@ Other qualities unique to a remote workplace are:
 1. Proven ability to be a [manager of one](/handbook/values/#managers-of-one)
 1. Capable of (and enjoys) working [asynchronously](asynchronous/)
 
-When asked if anyone could learn to work well in an all-remote setting during an [INSEAD](https://www.insead.edu/) case study [interview](https://youtu.be/EuGsen3FxXc), GitLab co-founder and CEO Sid Sijbrandij replied:
+When asked if anyone could learn to work well in an all-remote setting during an [INSEAD](https://www.insead.edu/) case study [interview](https://youtu.be/EuGsen3FxXc), GitLab co-founder Sid Sijbrandij replied:
 
 > "What's essential in all-remote is that you are a [manager of one](/handbook/values/#managers-of-one).
 >
 > You're not going to have someone expecting you at the office and hold your hand, so you have to be able to manage yourself and work independently.
 >
-> It is critical that you can write well — be concise and precise in your written communication- to bridge time zones and leverage [asynchronous communication](asynchronous/)".— *GitLab co-founder & CEO Sid Sijbrandij*
+> It is critical that you can write well — be concise and precise in your written communication- to bridge time zones and leverage [asynchronous communication](asynchronous/)".— *GitLab co-founder Sid Sijbrandij*
 
 ### Tips for interviewing all-remote candidates
 
@@ -218,7 +218,7 @@ Companies that invest in onboarding report [54% more productivity](https://www.m
 
 Companies that invest in onboarding report [54% more productivity](https://www.myshortlister.com/insights/employee-onboarding-statistics) from new hires. Studies show that [87% of team members are less likely to leave a company](https://totalteambuilding.com.au/the-positive-impact-of-team-building/) when they feel engaged.
 
-We are so convinced in the power of onboarding well that we've created a [Complete Guide to Remote Onboarding for New Hires](onboarding/). To help new hires focus on [three key onboarding dimensions](https://hbr.org/2018/12/to-retain-new-hires-spend-more-time-onboarding-them)--[organizational](onboarding/#organizational-onboarding), [technical](onboarding/#technical-requirements-for-all-remote-onboarding), and [social](onboarding/#social-requirements-for-all-remote-onboarding)--we assign a mentor or [onboarding buddy]({{< ref "onboarding-buddies" >}}).
+We are so convinced in the power of onboarding well that we've created a [Complete Guide to Remote Onboarding for New Hires](onboarding/). To help new hires focus on [three key onboarding dimensions](https://hbr.org/2018/12/to-retain-new-hires-spend-more-time-onboarding-them)--[organizational](onboarding/#organizational-onboarding), [technical](onboarding/#technical-requirements-for-all-remote-onboarding), and [social](onboarding/#social-requirements-for-all-remote-onboarding)--we assign a mentor or [onboarding buddy](/handbook/people-group/general-onboarding/onboarding-buddies.md).
 
 #### Assign a mentor or onboarding buddy
 

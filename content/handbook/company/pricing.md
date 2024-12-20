@@ -3,7 +3,7 @@ title: Pricing model
 description: "Most GitLab functionality is and will be available for free in our Free tier. Paid tiers include features targeted for managers, directors, and executives."
 ---
 
-GitLab's pricing strategy is set by the CEO, Sid Sibrandij. Everyone can contribute, and the best way to communicate is on the #pricing Slack channel.
+GitLab's pricing strategy is set by the CEO. Everyone can contribute, and the best way to communicate is on the #pricing Slack channel.
 
 Contributions are part of the day-to-day jobs of the following people:
 

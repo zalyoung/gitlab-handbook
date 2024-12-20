@@ -113,16 +113,6 @@ If you'd like a portable monitor and you primarily use a MacBook laptop, conside
 
 If you present content regularly, consider adding a teleprompter that enables you to read a pre-written script while looking directly into a lens. This straight-on profile creates a more authentic connection with the audience, akin to a newscaster on television, especially when creating training modules or asynchronous video overviews.
 
-For a basic solution, consider the [Padcaster Parrot Smartphone Teleprompter](https://padcaster.com/pages/parrot). If you have a smartphone and mirrorless/DSLR camera already, this $99 kit provides everything else you need.
-
-Matt Mullenweg (CEO, Automattic) published an exhaustive overview of his [streaming setup at home](https://ma.tt/2020/05/ceo-video-streaming), including an [Ikan Elite](https://www.amazon.com/dp/B019H3B2DE) teleprompter rig.
-
-Sid Sijbrandij (CEO and co-founder, GitLab) shared a video overview of his [streaming and teleprompter setup on GitLab Unfiltered](https://youtu.be/or86AXuXgYI).
-
-{{< youtube "or86AXuXgYI" >}}
-
-*GitLab CEO Teleprompter Setup; captured during [GitLab Commit Virtual 2020](https://about.gitlab.com/events/commit)*
-
 #### Why teleprompters aren't ideal for everyday video calls
 
 Teleprompters enable eye contact similar to meeting someone in-person and can make meetings more engaging. However, there are currently challenges with using a teleprompter setup as your everyday video conferencing setup. Once these are overcome, we may recommend it.

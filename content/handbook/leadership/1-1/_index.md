@@ -221,7 +221,7 @@ We understand that this meeting format may feel a bit awkward as we will openly 
 
 ## Shadowed 1-1
 
-Shadowing a 1-1 is a scenario in which a GitLab team member attends the 1-1 of their manager and their manager's manager. The intent of this model to provide trust through transparency, build connections between team members and leaders who they may not otherwise interact with regularly, and open opportunities for collaboration be providing a broader knowledge to team members. The shadowed 1-1 is exemplified by Sid by having the CEO Shadows attend 1-1s with his direct reports.
+Shadowing a 1-1 is a scenario in which a GitLab team member attends the 1-1 of their manager and their manager's manager. The intent of this model to provide trust through transparency, build connections between team members and leaders who they may not otherwise interact with regularly, and open opportunities for collaboration be providing a broader knowledge to team members. The shadowed 1-1 is exemplified by the CEO having the CEO Shadows attend 1-1s with his direct reports.
 
 ### Agenda
 

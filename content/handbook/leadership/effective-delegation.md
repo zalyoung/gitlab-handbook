@@ -17,7 +17,7 @@ Delegation is the assignment of responsibilities to another person for the purpo
 
 ### Considerations when delegating
 
-Before further diving into delegation, it's important for you as a leader to consider whether delegation is the right thing to do. In this [Situational Leadership Strategy](https://about.gitlab.com/blog/2021/11/19/situational-leadership-strategy/) article, GitLab's co-founder and CEO Sid Sijbrandij gives an overview of 4 leadership styles discussed in Situational Leadership Theory and the factors he considers when determining whether to delegate.
+Before further diving into delegation, it's important for you as a leader to consider whether delegation is the right thing to do. In this [Situational Leadership Strategy](https://about.gitlab.com/blog/2021/11/19/situational-leadership-strategy/) article, GitLab's co-founder Sid Sijbrandij gives an overview of 4 leadership styles discussed in Situational Leadership Theory and the factors he considers when determining whether to delegate.
 
 ### Benefits of Delegation
 

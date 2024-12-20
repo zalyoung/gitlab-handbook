@@ -174,7 +174,7 @@ description: "Core curriculum for GitLab's Sales & Customer Success onboarding"
 ### 7. Our Competition
 
 - **The Industry In Which GitLab Competes (Material - Video - 11 Minutes)**
-  - Sid Sijbrandij, CEO of GitLab, discusses the overall industry where GitLab competes.
+  - Sid Sijbrandij, co-founder of GitLab, discusses the overall industry where GitLab competes.
   - [You Tube - The Industry GitLab Competes In](https://www.youtube.com/watch?v=qQ0CL3J08lI)
 - **ACTIVITY: Review & Subscribe: Industry Insights (Assignment - 1 Point - Pre Work)**
   - Review and subscribe to the following blogs recommended by Sid to get the latest industry insights.

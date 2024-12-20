@@ -126,7 +126,7 @@ Proper learning and development requires more than a curriculum. It requires an 
 
 {{< youtube "CH-NHoBOeho?start=609" >}}
 
-*In the Traction Conference [video](https://youtu.be/CH-NHoBOeho) above, GitLab co-founder and CEO Sid Sijbrandij shares how onboarding works within an all-remote setting with Frederic Lardinois of [TechCrunch](https://techcrunch.com).*
+*In the Traction Conference [video](https://youtu.be/CH-NHoBOeho) above, GitLab co-founder Sid Sijbrandij shares how onboarding works within an all-remote setting with Frederic Lardinois of [TechCrunch](https://techcrunch.com).*
 
 At a high level, this is how new team members are onboarded at GitLab.
 
@@ -135,7 +135,7 @@ At a high level, this is how new team members are onboarded at GitLab.
     - Onboarding items are extremely prescriptive
     - Rather than bundling a complex series of asks into one "task," as is common elsewhere, GitLab strives to remove ambiguity
 1. Each new hire is assigned an Onboarding Buddy as an added resource beyond the individual's manager
-    - The Onboarding Buddy is a serious role, replete with [its own Handbook page]({{< ref "onboarding-buddies" >}})
+    - The Onboarding Buddy is a serious role, replete with [its own Handbook page](/handbook/people-group/general-onboarding/onboarding-buddies.md)
     - The Onboarding Buddy provides assistance in any way, where no question is silly or too minute, to ensure the new hire has all questions addressed
     - If a concern or obstacle is surfaced to the Onboarding Buddy, and there is no solution in the Handbook, the Onboarding Buddy works with the new hire to create a merge request for the enlightenment of all future new hires
 1. The onboarding process is self-directed and self-guided, with new hires encouraged to lean on [documentation](handbook-first/) in the [Handbook](/handbook) — as well as conversing with any GitLab team member — to get up to speed.
@@ -206,7 +206,7 @@ Reinforcing GitLab's [Transparency value](/handbook/values/#transparency), we ro
 
 {{< youtube "u1jv1HOc8fw" >}}
 
-*In the [video](https://youtu.be/u1jv1HOc8fw)) above, published on the [GitLab Unfiltered YouTube channel](https://www.youtube.com/channel/UCMtZ0sc1HHNtGGWZFDRTh5A), GitLab CEO Sid Sijbrandij conducts an AMA.*
+*In the [video](https://youtu.be/u1jv1HOc8fw) above, published on the [GitLab Unfiltered YouTube channel](https://www.youtube.com/channel/UCMtZ0sc1HHNtGGWZFDRTh5A), GitLab co-founder Sid Sijbrandij conducts an AMA.*
 
 Here are a few other examples of AMAs:
 
@@ -222,7 +222,7 @@ Learn more about [Group Conversations in GitLab's Handbook](/handbook/company/gr
 
 {{< youtube "MN3mzvbgwuc" >}}
 
-*In the [video](https://www.youtube.com/watch?v=MN3mzvbgwuc) above, published on the [GitLab YouTube channel](https://www.youtube.com/channel/UCnMGQ8QHMAnVIsI3xJrihhg), GitLab co-founder and CEO Sid Sijbrandij leads a Functional Group Update Training.*
+*In the [video](https://www.youtube.com/watch?v=MN3mzvbgwuc) above, published on the [GitLab YouTube channel](https://www.youtube.com/channel/UCnMGQ8QHMAnVIsI3xJrihhg), GitLab co-founder Sid Sijbrandij leads a Functional Group Update Training.*
 
 More Group Conversations are listed below.
 

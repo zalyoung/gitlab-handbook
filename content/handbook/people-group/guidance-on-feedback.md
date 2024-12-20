@@ -38,7 +38,7 @@ Feedback conversations are core to personal and professional growth. According t
 
 ## Guidance on Giving and Receiving Feedback
 
-Sid (GitLab CEO and Co-founder) and the Learning & Development team discussed guidance on giving and reciving feedback during a [CEO Handbook Learning Session](https://docs.google.com/presentation/d/1u6k4ILLBjLOaGk1ZyuNa2U2qr-XiGZL0AhUjOQRtvVI/edit#slide=id.p1). The covered topics like:
+Sid (GitLab co-founder) and the Learning & Development team [discussed guidance on giving and receiving feedback](https://docs.google.com/presentation/d/1u6k4ILLBjLOaGk1ZyuNa2U2qr-XiGZL0AhUjOQRtvVI/edit#slide=id.p1). The covered topics like:
 
 1. How do you create an environment where team members can approach each other with feedback?
 1. Why it is important to give regular feedback?
