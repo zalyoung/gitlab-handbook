@@ -33,7 +33,7 @@ To select controls for risk-based control testing, we consider the following att
 - Data Classification per the [tech stack](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/data/tech_stack.yml)
 - Risk associated with SaaS/Vendors (for example, a recent breach)
 - Coverage of identified risks (such as risks identified by the [Security Risk Team](../security-risk/_index.md), [CIS Top 18 Critical Security Controls](https://www.cisecurity.org/controls/cis-controls-list), known gaps)
-- Controls applicable for the "high" baseline in NIST 800-53
+- Baseline Level of control per NIST 800-53B
 - Time since control was last tested
 - Historical Observations
 - Nature of the control (e.g. manual, semi-automated, automated)
