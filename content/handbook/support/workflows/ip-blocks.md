@@ -178,7 +178,7 @@ NOTE: Cloudflare workflows may change in the future. Please see [this issue](htt
 
 There may be cases where a user is being blocked by Cloudflare and they are not being blocked in the application. In cases where rate limiting is apparent but there are no logs in Kibana, it is likely that requests are not reaching the application and being rate limited or blocked at Cloudflare. You can typically request a screenshot of the Cloudflare "Access Denied" page or have the customer perform a `curl` with the `-i` flag to retrieve the relevant headers:
 
-![Access Denied](/handbook/support/workflows/assets/AccessDenied.png)
+![Access Denied](/images/support/workflows/assets/AccessDenied.png)
 
 ```text
 curl -i --header "PRIVATE-TOKEN: *****" https://gitlab.com

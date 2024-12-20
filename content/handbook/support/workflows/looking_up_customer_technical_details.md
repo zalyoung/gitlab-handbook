@@ -56,11 +56,11 @@ To access the app:
 
 1. Click on "Apps" in the top right of the Zendesk UI
 
-   ![Zendesk Apps button](/handbook/support/workflows/assets/zendesk-apps-button.png)
+   ![Zendesk Apps button](/images/support/workflows/assets/zendesk-apps-button.png)
 
 1. Look for the Architecture Diagrams app and expand it if closed
 
-   ![Zendesk Apps button](/handbook/support/workflows/assets/zendesk-apps-arch-diagram.png)
+   ![Zendesk Apps button](/images/support/workflows/assets/zendesk-apps-arch-diagram.png)
 
 ### Within GitLab.com
 
