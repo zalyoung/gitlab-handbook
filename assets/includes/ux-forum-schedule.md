@@ -3,7 +3,6 @@
 
 | Date       | Host                 | Speaker 1              | Speaker 2              | Speaker 3              |
 |------------|----------------------|------------------------|------------------------|------------------------|
-| 2024-12-18 | Jacki Bauer          | Graham Bachelder       | Libor Vanc             | Annabel Gray           |
 | 2025-01-08 | Rayana Verissimo     | Nicolle Merrill        | Emily Bauman           |                        |
 | 2025-01-22 | Andy Volpe           | Chad Lavimoniere       | Amelia Bauerly         |                        |
 | 2025-02-05 | Chris Micek          | Taylor Vanderhelm      | Sunjung Park           |                        |
