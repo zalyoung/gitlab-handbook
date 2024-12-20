@@ -22,13 +22,16 @@ For this example, we want to ensure that every commit is targeted towards an iss
 1. In the **Require expression in commit messages**, add the regular expression: `^.*(#\d+|&\d+).*`.
 
     > This regular expression works as follows: 
-    > ^ Matches the start of the string.
-    > .* - Matches any character (except newline) zero or more times
-    > (#\d+|&\d+) - This is a capturing group that matches either:
-    >    #\d+: A hash symbol followed by one or more digits
-    >    &\d+: An ampersand symbol followed by one or more digits
-    > .* - Matches any character (except newline) zero or more times
-    > $ - Matches the end of the string (implicit in this case)
+
+    ```
+    ^ Matches the start of the string.
+    .* - Matches any character (except newline) zero or more times
+    (#\d+|&\d+) - This is a capturing group that matches either:
+    #\d+: A hash symbol followed by one or more digits
+    &\d+: An ampersand symbol followed by one or more digits
+    .* - Matches any character (except newline) zero or more times
+    $ - Matches the end of the string (implicit in this case)
+    ```
 
 1. Select **Save push rules**.
 
