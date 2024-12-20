@@ -12,18 +12,24 @@ The  CSE (Associate) reports to the Manager/Senior Manager, CSE.
 
 ### Customer Success Engineer (Associate) Responsibilities
 
-- Schedule and onboard new CSE level customers into the CSE program
-- Track and manage resulting onboarding follow up such as license installation, support contact set up, security announcement subscriptions, etc
-- Provide adoption-oriented content to renewal managers in support of the renewal manager outreach process.
-- Engage AE’s to review CSE program capabilities and advantages
-- Define and manage campaigns to contact cohorts of customers within the CSE’s book of business to generate customer interaction on technical topics.  Effectively leverage the digital team’s capabilities to avoid duplicative activity. 
-- Manage the default schedule for CSE level customer interaction options (eg Calendly).
-- Track CSE help requests to ensure team compliance with Service Level Agreements.
-- Continuously improve professional skills with a focus on personal mastery and team learning through activities such as training, reading and seeking mentorship from others
+- Schedule and onboard new CSE level customers into the CSE program.
+- Track and manage onboarding follow-ups, such as license installation, support contact setup, and security subscriptions.
+- Provide adoption-oriented content to renewal managers for outreach support.
+- Collaborate with AEs and other team members to communicate CSE program benefits.
+- Assist in developing and executing campaigns targeting cohorts of customers for technical engagement.
+- Manage default scheduling tools (e.g., Calendly) and ensure ease of interaction for customers.
+- Track help requests to ensure compliance with Service Level Agreements.
+- Support senior team members in creating and delivering enablement content like workshops or demos.
+- Continuously improve professional skills through training, reading, and seeking mentorship.
+- Track and report basic customer success metrics and help monitor outcomes.
 
 ### Customer Success Engineer (Associate) Requirements
 
-- Demonstrated experience in a related function with direct customer advocacy and engagement in post-sales or professional services functions.
+- Demonstrated experience in a related function with customer advocacy and engagement in post-sales or professional services roles.
+- Familiarity with GitLab use cases (SCM, CI, CD, DevSecOps, Agile Planning) or the ability to quickly learn technical concepts.
+- Strong verbal and written communication skills to engage with customers and internal stakeholders effectively.
+- Basic understanding of metrics and success measurement in customer engagement.
+- Willingness to collaborate with cross-functional teams to support customer goals.
 
 ### Customer Success Engineer (Intermediate) (CSE)
 
