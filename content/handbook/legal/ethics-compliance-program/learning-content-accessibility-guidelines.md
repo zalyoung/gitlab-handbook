@@ -128,7 +128,7 @@ Text should have sufficient contrast against the background. If it’s meaningfu
 
 Charts in videos should utilize patterns and textures ( such as lines, dots, or crosshatching) instead of relying solely on color. Here, as an example, is a chart that uses patterns and textures:
 
-![Data-Visualization-Example](/handbook/legal/ethics-compliance-program/data-visualization-example.png)
+![Data-Visualization-Example](/images/legal/ethics-compliance-program/data-visualization-example.png)
 
 This helps viewers distinguish different segments or lines in a chart, even if they cannot differentiate the colors. During the video, consider highlighting or enlarging specific areas of the chart when discussing them to focus attention and help all viewers, particularly those who might struggle with smaller, detailed graphics. Provide a verbal description of the key elements of the chart as they appear in the video. This description should accompany the visual display, explaining what is being shown, including any patterns or textures used.
 
