@@ -16,7 +16,7 @@ We are a global team, focused on building and managing world-class information t
 
 ## IT Enterprise Applications Portfolio Planning & Prioritization
 
-![it-pmo](/handbook/business-technology/enterprise-applications/pmo/it-pmo-planning.png)
+![it-pmo](/images/business-technology/enterprise-applications/pmo/it-pmo-planning.png)
 
 The IT portfolio planning & prioritization process has 6 steps:
 
@@ -35,7 +35,7 @@ The inventory of all committed and planned projects for the quarter in IT Operat
 
 The [IT Project Prioritization tracker](https://docs.google.com/spreadsheets/d/1fnV3nWI0sNdbakHUys78d-lpbpKexFD_1kdO8JoVySY/edit#gid=745075679) is used to log new projects / initiatives with the IT team. The IT PMO team will review it as part of the IT Quarterly Portfolio Planning:
 
-![it-pmo](/handbook/business-technology/enterprise-applications/pmo/quarterly-planning.png)
+![it-pmo](/images/business-technology/enterprise-applications/pmo/quarterly-planning.png)
 
 ### Resources & Capacity Planning
 
@@ -81,7 +81,7 @@ The release management plan helps the IT team:
 
 ### Release Calendar
 
-![it-pmo](/handbook/business-technology/enterprise-applications/pmo/calendar2024.png)
+![it-pmo](/images/business-technology/enterprise-applications/pmo/calendar2024.png)
 
 ## <i class="fas fa-bullhorn" id="biz-tech-icons"></i> How We Work
 
@@ -113,7 +113,7 @@ To maintain uniformity across all PMO-led projects, the team follows the same [E
 
 The System Development Lifecycle outlines a structured set of activities conducted at each project stage.
 
-![it-pmo](/handbook/business-technology/enterprise-applications/pmo/sdlc.png)
+![it-pmo](/images/business-technology/enterprise-applications/pmo/sdlc.png)
 
 #### Intake
 
@@ -203,19 +203,19 @@ There are several activities that take place to prepare for new OKRs / commits a
 
 ### FY25 Q1 Calendar
 
-![it-pmo](/handbook/business-technology/enterprise-applications/pmo/it-pmo-fy25-q1.png)
+![it-pmo](/images/business-technology/enterprise-applications/pmo/it-pmo-fy25-q1.png)
 
 ### FY25 Q2 Calendar
 
-![it-pmo](/handbook/business-technology/enterprise-applications/pmo/it-pmo-fy25-q2.png)
+![it-pmo](/images/business-technology/enterprise-applications/pmo/it-pmo-fy25-q2.png)
 
 ### FY25 Q3 Calendar
 
-![it-pmo](/handbook/business-technology/enterprise-applications/pmo/it-pmo-fy25-q3.png)
+![it-pmo](/images/business-technology/enterprise-applications/pmo/it-pmo-fy25-q3.png)
 
 ### FY25 Q4 Calendar
 
-![it-pmo](/handbook/business-technology/enterprise-applications/pmo/it-pmo-fy25-q4.png)
+![it-pmo](/images/business-technology/enterprise-applications/pmo/it-pmo-fy25-q4.png)
 
 ## Weekly Roll Up Reporting
 
