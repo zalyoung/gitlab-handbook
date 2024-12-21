@@ -10,7 +10,7 @@ This page details processes and general guidelines specific to the Executive Bus
 
 | ORG |  EBA / SR EBA  | EXECUTIVE  |
 | --- | --- | --- |
-| [CEO](/job-families/chief-executive-officer/) | **Jeanne Rotenberry**<br>Staff EBA<br>**Carla Sylva**<br>Sr EBA  | Bill Staples (CEO) |
+| [CEO](/job-families/chief-executive-officer/) | **Jeanne Rotenberry**<br>Staff EBA | Bill Staples (CEO) |
 | [Chief of Staff](/job-families/chief-executive-officer/chief-of-staff/) | **Carla Sylva**<br>Sr EBA  | Stella Treas (Chief of Staff) |
 | [Engineering](/handbook/engineering/) | **Vange Ingan**<br>Sr EBA  | Sabrina Farmer (CTO) |
 | [Engineering](/handbook/engineering/) | **Liki Simonot**<br>Sr EBA | Mek Stittri (VP of Infrastructure & Quality)<br>Tim Zallmann (Sr. Director of Engineering, Core Development) |
