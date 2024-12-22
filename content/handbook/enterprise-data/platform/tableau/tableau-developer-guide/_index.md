@@ -43,17 +43,17 @@ If you are publishing a data source from Desktop to the Cloud/Online to be a Tab
 
 Select the "Edit" button it/data-team/ "Authentication". It will bring you to the following pop-up. Choose your <rolename> to embed.
 
-![authentication](images/authentication.png)
+![authentication](/images/enterprise-data/platform/tableau/tableau-developer-guide/authentication.png)
 
 **Publishing a Workbook With a Local Connection**
 
 A workbook with a local connection is one whose data source is living inside of the workbook, and is not a separately published Tableau Data Source which you can search Tableau Online for. When you try to publish a workbook with a local connection, you will see the following window:
 
-![local window](images/window-local.png)
+![local window](/images/enterprise-data/platform/tableau/tableau-developer-guide/window-local.png)
 
 Select "Edit" it/data-team/ "Data Sources" and find "Authentication". Choose to embed your <rolename>.
 
-![local authentication](images/auth-local.png)
+![local authentication](/images/enterprise-data/platform/tableau/tableau-developer-guide/auth-local.png)
 
 </details>
 
@@ -65,11 +65,11 @@ Select "Edit" it/data-team/ "Data Sources" and find "Authentication". Choose to 
 
 If you are editing a data source in Cloud/ Tableau Online/ your web browser (all the same thing), in order to make sure your credentials are embedded, find "Publish As":
 
-![''](images/publish-as.png)
+![''](/images/enterprise-data/platform/tableau/tableau-developer-guide/publish-as.png)
 
 In the following window, be sure to check the box for 'Embed Credentials'.
 
-![''](images/cloud-embed.png)
+![''](/images/enterprise-data/platform/tableau/tableau-developer-guide/cloud-embed.png)
 
 </details>
 
@@ -82,7 +82,7 @@ This is the process for ensuring that your rolename is properly embedded into yo
 
 The first place that you get the option to embed your rolename is when you first form a connection to your datasource. It looks like this:
 
-![Connection](images/initial_connection_rolename.png)
+![Connection](/images/enterprise-data/platform/tableau/tableau-developer-guide/initial_connection_rolename.png)
 
 If you want other people to be able to access your data source, you need to leave it blank. There is no reason to enter your rolename at this step, you will do it at a later step, so the proper workflow is to leave it blank at this step.
 
@@ -96,7 +96,7 @@ Using a published connection, or a local extracted connection in your workbook w
 
 In the niche use-case that you want an Explorer without Snowflake access to be able to make small edits to your workbook, ensure you use only pulished, live connections, or extract the data.
 
- ![sign in screen](images/singin.png)
+ ![sign in screen](/images/enterprise-data/platform/tableau/tableau-developer-guide/singin.png)
 
 ## Common Connection Errors and How to Solve Them
 
@@ -158,7 +158,7 @@ If you are not using an extract, like when your extract is going to be over 10 m
 
 Be mindful when you are embedding your credentials in the data source while publishing either internal or external views. Using an extract with your role embedded will be the clearest way to make sure that users can always view the data and will not experience an authorization expiration error.
 
-Make sure that if you do use the Data Team's credentials to publish the workbook, when you make any changes to the workbook it retains those credentials. You will need to embed passwords in the data source for the views to show correctly. This box may come unchecked when you are making changes. ![The box that needs checking](box-checking.png)
+Make sure that if you do use the Data Team's credentials to publish the workbook, when you make any changes to the workbook it retains those credentials. You will need to embed passwords in the data source for the views to show correctly. This box may come unchecked when you are making changes. ![The box that needs checking](/images/enterprise-data/platform/tableau/tableau-developer-guide/box-checking.png)
 
 #### Public Tag
 
@@ -174,23 +174,23 @@ Each workbook with views that are meant to be embedded in the public handbook mu
 
 When publishing workbooks to our Tableau Cloud site for the first time please name the workbook with their intended / official title, so that the resulting URL will capture just this title (this will allow us to keep the same URL when the workbook is published to the Production spaces):
 
-![''](images/naming_tableau_workbook.png)
+![''](/images/enterprise-data/platform/tableau/tableau-developer-guide/naming_tableau_workbook.png)
 
-![''](images/workbook_url.png)
+![''](/images/enterprise-data/platform/tableau/tableau-developer-guide/workbook_url.png)
 
 Publishing to the [Development](https://10az.online.tableau.com/#/site/gitlab/projects/300844) project:
 
 All workbooks published to the Development project will be attached the *Draft* and their department tags to indicate that they are in development mode and not a workbook that has been peer reviewed and intended to serve as the single source of truth (SSOT) for a use case. The BI team will leverage the Tags functionality available in Tableau Cloud to better organize workbooks by department and publishing status. For example, this workbook below is assigned the *Draft* and *Data Team* tags:
 
-![''](images/tags.png)
+![''](/images/enterprise-data/platform/tableau/tableau-developer-guide/tags.png)
 
 To add tags to the workbook select on the ellipse symbol to the right of that workbook and click on *Tag...*:
 
-![''](images/to_tag.png)
+![''](/images/enterprise-data/platform/tableau/tableau-developer-guide/to_tag.png)
 
 Once in the Tag window, add in the *Draft* and department tags for the workbook:
 
-![''](images/add_tags.png)
+![''](/images/enterprise-data/platform/tableau/tableau-developer-guide/add_tags.png)
 
 ## Publishing to Tableau Cloud
 
@@ -227,11 +227,11 @@ There are two environments for publishing: Development and Production.
 
 Applying tags allows us to provide more information on the workbook, so that we can easily discern them by their business function / department and distinguish draft content that is still in development. To filter workbooks by their tags, please click on the search box in the upper right-hand corner of the project. it/data-team/ **Content types** select **Workbooks**:
 
-![''](images/search_tags.png)
+![''](/images/enterprise-data/platform/tableau/tableau-developer-guide/search_tags.png)
 
 Once in the Workbooks section, click on the **Tags** dropdown to filter content by tags:
 
-![''](images/filter_tags.png)
+![''](/images/enterprise-data/platform/tableau/tableau-developer-guide/filter_tags.png)
 
 ## Workbook and Data Source Descriptions
 
@@ -244,7 +244,7 @@ How to add a description:
 1. In the Edit Details page, find the Description field. Enter the description you want to associate with the workbook or data source.
 1. Once you've added the description, click Save to apply the changes.
 
-![''](images/edit_content_description.png)
+![''](/images/enterprise-data/platform/tableau/tableau-developer-guide/edit_content_description.png)
 
 ## Performance Indicators
 
@@ -314,21 +314,21 @@ To use Row Level Security within Tableau the developer will need to use an entit
 
 Find the correct entitlement table for the table you are using.  The entitlement table should be named similar to the table you wish to join it to.
 
-![''](images/find_entitlemnet.png)
+![''](/images/enterprise-data/platform/tableau/tableau-developer-guide/find_entitlemnet.png)
 
 Perform a direct inner join, not a relationship, between the source table and the entitlement table.
 
-![''](images/open_table_for_join.png)
+![''](/images/enterprise-data/platform/tableau/tableau-developer-guide/open_table_for_join.png)
 
-![''](images/join_entitlement_table.png)
+![''](/images/enterprise-data/platform/tableau/tableau-developer-guide/join_entitlement_table.png)
 
 Create a Data Source filter using the `USERNAME()` function and the `tableau_user` field in the entitlement table.  This is the step that will ensure that only rows visible to the current user will be retrieved.
 
-![''](images/create_filter_filed.png)
+![''](/images/enterprise-data/platform/tableau/tableau-developer-guide/create_filter_filed.png)
 
-![''](images/create_filter_calc.png)
+![''](/images/enterprise-data/platform/tableau/tableau-developer-guide/create_filter_calc.png)
 
-![''](images/data_source_filter.png)
+![''](/images/enterprise-data/platform/tableau/tableau-developer-guide/data_source_filter.png)
 
 ### Geo-Based Row-Level Security
 
@@ -387,7 +387,7 @@ driver to keep their session alive.
 To do this the developer needs to edit the `odbc.ini` file
 and set the `CLIENT_SESSION_KEEP_ALIVE` flag to `True`. Typical locations for the file can be found in the [Snowflake documentation](https://docs.snowflake.com/en/developer-guide/odbc/odbc-mac#step-2-configure-the-odbc-driver)
 
-![''](images/snowflake-odbc-ini.png)
+![''](/images/enterprise-data/platform/tableau/tableau-developer-guide/snowflake-odbc-ini.png)
 
 ## Replacing Datasources in Tableau Desktop
 
@@ -425,13 +425,13 @@ There are some key lessons that the Data Team learned about testing our MR datab
 
 Once you have a local development copy of the data source, open up the data source connection pane where you would normally edit a data source.
 
-![''](images/connection_pane.png)
+![''](/images/enterprise-data/platform/tableau/tableau-developer-guide/connection_pane.png)
 
 On the left side is where you add new connections, and in the middle is where the tables that make up the workbook are visualized.
 
 If you have been granted access to query the MR database which is attached to the merge request you are looking for, then you will be able to see it as an option it/data-team/ the dropdown for "**Database**".
 
-![''](images/dropdown_database.png)
+![''](/images/enterprise-data/platform/tableau/tableau-developer-guide/dropdown_database.png)
 
 Search this MR database for your desired tables. Create your data source as you normally would - either replacing exiting tables with a test version, or bringing out new tables into the model and creating a join or relationship.
 
@@ -453,11 +453,11 @@ This is why it is recommended to work on a development copy of the data source o
 
 *Even if you are 'searching for' the MR database (pictured below) but not using this connection for any of the tables in the workbook, you will encounter errors.*
 
-![''](images/searching.png)
+![''](/images/enterprise-data/platform/tableau/tableau-developer-guide/searching.png)
 
 Below is the error you will get if any leftover connections to the dropped database still exist in your data source. There is no workaround for this, you will need to replace the data source with an identical data source or, if you do not have an identical version, you will need to rebuild it and then 'Replace References' on most of the fields.
 
-![''](images/error_message.png)
+![''](/images/enterprise-data/platform/tableau/tableau-developer-guide/error_message.png)
 
 ### Final Testing Notes
 

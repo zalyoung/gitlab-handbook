@@ -58,7 +58,7 @@ Trusted data development uses the following schemas:
 
 ## Trusted Data Development Steps
 
-![data team development_process](data_team_development_process.png)
+![data team development_process](/images/enterprise-data/data-development/data_team_development_process.png)
 
 ## Trusted Data Solution Criteria
 

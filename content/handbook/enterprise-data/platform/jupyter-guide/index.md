@@ -88,7 +88,7 @@ c.JupyterLabTemplates.include_default = False
 ```
 
 - Launch JupyterLab and you should see a new *Template* icon. Click the icon and select which template you would like to use.
-![alt text](jupyter-screen-shot.png)
+![alt text](/images/enterprise-data/platform/jupyter-guide/jupyter-screen-shot.png)
 
 ### Setting Up Jupyter Extensions
 

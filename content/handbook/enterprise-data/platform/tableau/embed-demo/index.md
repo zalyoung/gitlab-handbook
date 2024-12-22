@@ -28,9 +28,9 @@ This chart should be visible to anyone who loads the page.
 
 The source url for a view from the internal Tableau site can be found by navigating to the view and selecting the `Share` option at the top of the screen and then selecting the `Copy Link` option.
 
-![tableau share](images/tableau_view_share.png)
+![tableau share](/images/enterprise-data/platform/tableau/embed-demo/tableau_view_share.png)
 
-![tableau link](images/tableau_view_link.png)
+![tableau link](/images/enterprise-data/platform/tableau/embed-demo/tableau_view_link.png)
 
 This chart should only require a log in to the Tableau site and only be visible to those that have a Tableau license. GitLab team members should login via OKTA SSO.
 
@@ -57,7 +57,7 @@ There are a few extra steps to embed any views using a yml file, because you do 
 
     1. To do this, go to the workbook, select the "..." for more settings, and select "Tag". Then add "Public". Here is an example of a workbook that has the Public tag and is available for embedding.
     1. You will need to make the data source an "extract" instead of "live" connection for the process to work correctly. If your extract is over 10 million rows or does not follow [the guidelines for extracts](/handbook/enterprise-data/platform/tableau/tableau-developer-guide/#guidelines-for-publishing-extracts-to-production-and-ad-hoc-projects), reach out to the data team to use the service account's credentials to on the workbook so that you can use a live connection.
-    1. It will show up in [this list](/handbook/enterprise-data/platform/tableau/embed-demo/#views-availble-for-public-embedding) once it is migrated and ready. Use the share URL from here in your embedding information. [Here](/handbook/enterprise-data/platform/tableau/embed-demo/#views-availble-for-public-embedding) is where to find the URL's that are available to embed from the public site. ![image of embedding list](images/embedding-list.png)
+    1. It will show up in [this list](/handbook/enterprise-data/platform/tableau/embed-demo/#views-availble-for-public-embedding) once it is migrated and ready. Use the share URL from here in your embedding information. [Here](/handbook/enterprise-data/platform/tableau/embed-demo/#views-availble-for-public-embedding) is where to find the URL's that are available to embed from the public site. ![image of embedding list](/images/enterprise-data/platform/tableau/embed-demo/embedding-list.png)
 
 2. If you the view is Internal (requires sign-on), you can use the normal URL of the view in Tableau. Make sure that you get the URL by navigating to the specific view you want to embed and clicking "share" and copying that URL - the URL from the top of the page in the normal URL bar may not work.
 

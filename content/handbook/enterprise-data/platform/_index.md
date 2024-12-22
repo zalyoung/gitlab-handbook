@@ -42,7 +42,7 @@ This document is limited to describe the Data Platform conceptually. There are o
 
 ## <i class="fas fa-cubes fa-fw -text-orange"></i>Our Data Stack
 
-![Enterprise Data Platform](/handbook/enterprise-data/platform/enterprise_data_platform.png)
+![Enterprise Data Platform](/images/enterprise-data/platform/enterprise_data_platform.png)
 
 We use GitLab to operate and manage the analytics function.
 Everything starts with an issue.
@@ -612,12 +612,12 @@ When you apply for a Snowflake account via an AR and get access provisioned it t
 
 When you don't select the right role in Snowflake, you only see the following Snowflake objects:
 
-![object_list](/handbook/enterprise-data/platform/object_list_snowsight.png)
+![object_list](/images/enterprise-data/platform/object_list_snowsight.png)
 
 Selecting the right role can be done via the GUI.
 When in Snowsight home screen, in the up left corner.
 
-![select_role](/handbook/enterprise-data/platform/select_role1.png)
+![select_role](/images/enterprise-data/platform/select_role1.png)
 
 1. Click on the arrow near your name
 2. Select Switch Role
@@ -625,7 +625,7 @@ When in Snowsight home screen, in the up left corner.
 
 When in Snowsight in a worksheet, in the up right corner.
 
-![select_role](/handbook/enterprise-data/platform/select_role2.png)
+![select_role](/images/enterprise-data/platform/select_role2.png)
 
 1. Click on `public`
 2. Select your role
