@@ -474,6 +474,28 @@ Many people have discovered a dual axis chart already for two measures, but did 
 For example, if you have a stacked bar chart on screen (just one measure), and you want to add a label, Tableau will label each segment of the bar. But let’s say you want to label the whole bar, not each segment! You can use a dual axis chart & remove the color from the back of the two bars to get your desired label!
 ![dual axis with color on one bar and the label on the other](/images/handbook/enterprise-data/platform/tableau/dual_axis_label.png)
 
+### Dashboard Actions for an Upgraded User Experience
+
+[Dashboard actions](https://help.tableau.com/current/pro/desktop/en-us/actions_dashboards.htm) can add functionality, smooth out the user experience, and make your dashboards seem "more advanced". The different options are as follows.
+
+![actions](/static/images/handbook/enterprise-data/platform/tableau/actions.png)
+
+If you ever see a dashboard do something neat and unexpected, it is likely a creative use of a dashboard action.
+
+Some things to know:
+
+- You can link a dashboard item to go to a URL. A common use is to link Opportunities on a dashboard table right to their actual Salesforce URL.
+
+- The Filter action is the most used action, in my experience. Being able to have one part of the dashboard dynamically respond to a user’s click to filter to a subset of the data is very common and useful. [Here is a helpful YouTube video](https://www.youtube.com/watch?v=c1CYxo9xkQc&t=299s) on filter actions.
+
+- “Go to Sheet” is a handy way to create a more intuitive user experience for navigating between dashboard tabs in your workbook. For example if your user is on an “executive summary”, you could set up a “Go to Sheet” action that when they click on a bar chart of “Users per Product” it brings them to a deep dive dashboard about Users and Products. [Here is a helpful video](https://www.youtube.com/watch?v=u9OUyZy_d8M) on Go to Sheet actions.
+
+- The “highlight” action is not often used, but can be powerful. You can set it so that when a user hovers over/ clicks on the “Product = Ultimate” bar of a bar chart, every other spot that “Product = Ultimate” on the dashboard highlights itself. This is especially handy when you have a table in your dashboard. [YouTube video](https://youtu.be/oMnuXhvb5ag?si=BSlwOFBavCirA_eK&t=189) on highlight actions.
+
+- The “Change Parameter” action is commonly used on Tableau Public to let a user click on a button or image & have a resulting dashboard change. This is prettier than having the user choose from a parameter dropdown. It’s also usually more work than it is worth for a normal business dashboard. [Here](https://www.youtube.com/watch?v=Psz7hoK7lu0) is an advanced video on using a parameter to intuitively filter your dashboard, and [here](https://www.thedataschool.co.uk/chris-meardon/button-based-parameter-actions/) is a blog post about creating clickable buttons using this action.
+
+    An example of using a parameter action to create a button can be founr in [this dashboard](https://public.tableau.com/app/profile/p.padham/viz/SuperstoreDashboard_16709573699130/SuperstoreDashboard) where you can click on (“Sales”,”Profit”,”Orders”), and it will change the dashboard to that KPI. This avoids using a standard parameter drop-down.
+
 ## Developer Tips and Tricks
 
 A collection of tips and tricks to make the Tableau development experience faster and easier. These will also frequently be featured in `#`TableauTipTuesday in the `#`data-tableau Slack channel.
