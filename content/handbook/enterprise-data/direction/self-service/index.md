@@ -62,7 +62,7 @@ graph LR
 | Write SQL to Explore Data                                                                |                                                     No                                                     |                                                        No                                                        |                                                  Yes                                                 |
 | Requires [Certification](https://about.gitlab.com/learn/certifications/public/) |                                                     No                                                     |                                                        Yes                                                       |                                                  Yes                                                 |
 
-![Self-Service-Data](/handbook/enterprise-data/direction/self-service/self_service_data.png)
+![Self-Service-Data](/images/enterprise-data/direction/self-service/self_service_data.png)
 
 ### Data Catalog
 

@@ -13,7 +13,7 @@ In `June of 2019`, we switched sending Snowplow events from a third party to sen
 
 When new application should be tracked by `Snowplow` here is the few things should be considered.
 
-![how to add app ID](images/new_app_id.png)
+![how to add app ID](/images/enterprise-data/platform/snowplow/new_app_id.png)
 
 The right `app_id`, and collector URL should be done in coordination with the data team.
 URL wil stay the same `snowplow.trx.gitlab.net`. Any `app_id` is fine if there are no other concerns around enabling tracking on `CustomersPortal` staging as well.

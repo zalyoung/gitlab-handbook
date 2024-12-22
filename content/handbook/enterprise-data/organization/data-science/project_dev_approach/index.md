@@ -106,7 +106,7 @@ _**Iterative with 3b & 3c***
 
 **Purpose:** Review available relevant data and conduct analysis around the outcome/target and potential predictors (features). This will allow you to narrow in on the necessarily data sources to be used in the *Train MVP Model* phase. It is important to it/data-team/stand how your outcome/target relates to your potential predictor data and to set up the prediction timeframe appropriately.
 
-![prediction window](prediction_window.png)
+![prediction window](/images/enterprise-data/organization/data-science/project_dev_approach/prediction_window.png)
 
 **Tasks:**
 

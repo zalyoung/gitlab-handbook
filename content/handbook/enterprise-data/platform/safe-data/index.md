@@ -77,4 +77,4 @@ This [video](https://www.youtube.com/watch?v=ICOuerPeAUU) provides an overview o
 
 The following diagram describes the process in detail when handling or referencing SAFE Data.
 
-![MR Process](mnpi_dbt_models.png)
+![MR Process](/images/enterprise-data/platform/safe-data/mnpi_dbt_models.png)
