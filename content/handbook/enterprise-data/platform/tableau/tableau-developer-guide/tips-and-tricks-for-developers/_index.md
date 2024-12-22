@@ -474,6 +474,20 @@ Many people have discovered a dual axis chart already for two measures, but did 
 For example, if you have a stacked bar chart on screen (just one measure), and you want to add a label, Tableau will label each segment of the bar. But let’s say you want to label the whole bar, not each segment! You can use a dual axis chart & remove the color from the back of the two bars to get your desired label!
 ![dual axis with color on one bar and the label on the other](/images/handbook/enterprise-data/platform/tableau/dual_axis_label.png)
 
+## Extensions
+
+Tableau has extensions which are avaible to enhance the process of developing in Tableau and make it easier. For example, you can now make a Sankey Chart in a few clicks, when this used to take a tremendous amount of complex logic.
+
+### Tableau Tables
+
+A very helpful extension for building simple tables is the Tableau Tables extension, which was released in autumn of 2024. It makes the creation, maintenance, and sorting of tables easier than the standard table option. It even supports easily adding bar charts or conditional formatting right into a text table.
+
+![tableau table](/images/handbook/enterprise-data/platform/tableau/table-screenshot.png)
+
+This extension does have limitations for more advanced and customized tables- for example the conditional formatting of the tables is limited in function for now, and may not be able to meet the customization needs that can currently be accomplished with more complex "hacks". However, for the relatively simple table with straightforward needs for tet, bars, and heat-map style cells in columns, this extension supports those needs.
+
+Here is a video showing you how to set-up and use a Tableau Table using the extension. It walks through adding bars, heatmap-style cells, conditional formatting, renaming columns, sorting columns, adding filters, and displaying a "download cross-tab" button.
+
 ## Developer Tips and Tricks
 
 A collection of tips and tricks to make the Tableau development experience faster and easier. These will also frequently be featured in `#`TableauTipTuesday in the `#`data-tableau Slack channel.
