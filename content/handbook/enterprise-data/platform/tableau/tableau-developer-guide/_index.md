@@ -15,7 +15,7 @@ There are a few different options for what kind of data source you can use in Ta
 
 - Local, Embedded, and Published: In the context of this tip, a ‘local’ and ‘embedded’ data source are the same thing. These are connections where the data source lives “inside of” or “with” the workbook. The only way to view or edit this data source is to open the workbook. This connection type can only connect to / live inside of one workbook at a time.
 
--   Published: A published data source is published separately from the workbook. So in Tableau Cloud, you could navigate to a link for the data source, and separately a link for the workbook. You can connect one published data source to as many workbooks as you want, as it exists independently from the workbook.
+- Published: A published data source is published separately from the workbook. So in Tableau Cloud, you could navigate to a link for the data source, and separately a link for the workbook. You can connect one published data source to as many workbooks as you want, as it exists independently from the workbook.
 
 A workbook’s data source can be Local + Live, Local + Extracted, Published + Live, or Published + Extracted.
 
@@ -36,7 +36,7 @@ Be mindful that you do not publish over someone else's existing data source, wit
 If you are developing in a workbook (in Tableau Cloud or Desktop) which is connected to a Published Data Source, you cannot make any changes to the published data source. This means:
 
 1. If you want to make any edits to a calculated field, you will not be able to. You will have to create a copy of the calculated field.
-1.  If you use the "[replace references](https://www.thedataschool.co.uk/gregg-rimmer/tableaus-replace-references-feature/)" function it will only replace the instances where the field is on a worksheet independently. It will not replace any instances of that field that are contained within another calculated field (see point number 1, you cannot edit a calculated field in a published data source)
+1. If you use the "[replace references](https://www.thedataschool.co.uk/gregg-rimmer/tableaus-replace-references-feature/)" function it will only replace the instances where the field is on a worksheet independently. It will not replace any instances of that field that are contained within another calculated field (see point number 1, you cannot edit a calculated field in a published data source)
 1. If you change any of the parameters in the workbook, Tableau will create a duplicate copy of your parameter and replace your parameter with the copy in the published version. If a stakeholder comes to you and says "this dashboard is broken! The dropdown does not work!", it is probable that there are two versions of the 'broken' parameter.
 1. You cannot add a Table Calculation onto a pre-existing calculated field. You have to make a copy of the calculated field, and then you can use a table calculation with the copy.
 
