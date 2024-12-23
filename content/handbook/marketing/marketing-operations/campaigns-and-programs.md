@@ -863,8 +863,7 @@ This is the recommended template. Note that this program has the asset titles an
 
 - Use format `ContentSynd_Region_Vendor`
 - Save the program to the folder for the appropriate FY under Content.
-- **For new EMEA programs only**: After the program is created, go to the program and select New > New Local Asset. Then select `List`. Name the list `German Leads` and click Create. After the list is created, drag and drop it into the `Assets` folder.
-- **For new EMEA programs only**: Have a member of the MOps team make the following updates. You can put a note in the `#mktgops` Slack channel and provide the new program Marketo link and a link to these instructions, OR you can add the `MktgOps:: 00: Triage` label to your set-up issue with this information in a comment. **MOPS**: Go to [this program](https://engage-ab.marketo.com/?munchkinId=194-VVC-221#/classic/SC42027A1ZN19) (opt-in value change).Add the `German Leads` list that was just created to the `Member of List` exclusion list. Add the Marketo program name to the `Member of program` exclusion list. This makes sure that the compliance fields for Germany are not overwritten by our system processes.
+- **For new EMEA programs only**: Have a member of the MOps team make the following updates. You can put a note in the `#mktgops` Slack channel and provide the new program Marketo link and a link to these instructions, OR you can add the `MktgOps:: 00: Triage` label to your set-up issue with this information in a comment. **MOPS**: Go to [this program](https://engage-ab.marketo.com/?munchkinId=194-VVC-221#/classic/SC42027A1ZN19) (opt-in value change). Add the Marketo program name to the `Member of program` exclusion list. This makes sure that the compliance fields for Germany are not overwritten by our system processes.
 
 ### Step 3: Update Marketo tokens
 
@@ -932,7 +931,7 @@ There are a few common errors we see with Content Syndication leads. You can add
 
 If your content syndication program is not running through DAP, please use the instructions [above](/handbook/marketing/marketing-operations/campaigns-and-programs/#steps-to-setup-content-syndication-in-marketo-and-sfdc).
 
-The SFDC campaigns for these are set-up by Region/Vendor/Asset combination. The Marketo programs are created by Region/Vendor pair. If your region/vendor already exists in Marketo, you only need to add the new asset to the tokens and automation. These instructions are to add a new asset to an existing region/vendor program in Marketo. You can also use these instructions to add additional assets (beyond the 15 already determined) to a new Region/Vendor Marketo program.
+The SFDC campaigns for these are set-up by Region/Vendor/Asset combination. The Marketo programs are created by Region/Vendor pair. If your region/vendor already exists in Marketo, you only need to add the new asset to the tokens and automation. These instructions are to add a new asset to an existing region/vendor program in Marketo. You can also use these instructions to add additional assets (beyond the 50 already determined) to a new Region/Vendor Marketo program.
 
 ### Step 1: Add new assets to the SSOT spreadsheet
 
