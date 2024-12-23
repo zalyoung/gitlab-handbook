@@ -22,6 +22,86 @@ As per
 > measured and predictable service. It also provides greater visibility when
 > problems arise.
 
+## Understanding SLA
+
+When it comes to understanding SLA, there are two areas to understand:
+
+### How Zendesk defined SLA works
+
+Zendesk SLA is strictly using FRT (first reply time) and NRT (next reply time)
+by their own defintions:
+
+- A ticket is using the FRT metrics if it has no public agent replies
+- A ticket is using the NRT metrics if it has at least one public agent reply
+
+The SLA timer (and thus the determination if a ticket is breached or not) stems
+from looking up the metric definition on the SLA Policy in use (ticket events
+can show this) and the ticket's _Priority_ field (not to be confused with
+_Customer Severity_ or _Customer Priority_).
+
+So as an example, if a ticket starting in the Billing team's queue, got a few
+back and forth replies, and then go moved to the L&R team, Zendesk would
+classify the ticket as using the NRT definition at that time.
+
+### How GitLab defined SLA works
+
+We work a bit differently than how Zendesk defines SLA, so we utilize the
+_Ticket Stage_ field to determine the SLA timer. As such, our SLA Policies are
+built with this in mind. We define FRT (first reply time) and NRT (next reply
+time) by our own defintions:
+
+- A ticket is using the FRT metric if work has not begun on the ticket by the
+  relevant team
+- A ticket is using the NRT metric if work has begun on the ticket by the
+  relevant team
+
+The SLA timer (and thus the determination if a ticket is breached or not) stems
+from looking up the metric definition on the SLA Policy in use (ticket events
+can show this) and the ticket's _Priority_ field (not to be confused with
+_Customer Severity_ or _Customer Priority_).
+
+So as an example, if a ticket starting in the Billing team's queue, got a few
+back and forth replies, and then go moved to the L&R team, we would classify
+the ticket as using the FRT definition at that time.
+
+## How the SLA Policy is set by GitLab
+
+For most tickets, the SLA is set depending on the following factors:
+
+- The requester's support entitlement, except for the following forms:
+  - Support Ops
+  - Billing
+  - L&R
+- The form the ticket was filed with
+- The _Ticket Stage_ ticket field
+
+When a ticket is created, the _Customer Severity_ ticket field is translated
+into a _Priority_ ticket field value:
+
+- `Severity 1` becomes `Urgent` (unless the ticket is not an Emergency ticket,
+  at which point it becomes `High`)
+- `Severity 2` becomes `High`
+- `Severity 3` becomes `Normal`
+- `Severity 4` becomes `Low`
+
+After that point, the _Priority_ ticket field is used in the SLA metrics (just
+like Zendesk defines it).
+
+As a ticket is updated, its SLA Policy might change depending on the form being
+used, the _Ticket Stage_ ticket field, and any changes to the requester's
+support entitlement (except for the above specified forms). The ticket's events
+are the best source to determine the SLA Policy currently in place for a ticket
+at any given state.
+
+## When does an SLA timer ticket
+
+An SLA timer for ticket after a customer replies, when the ticket status is New,
+Open, On-hold, or Pending, up to the point _before_ an agent makes a public reply
+during the business hours defined for said ticket.
+
+Keeping this in mind, this means setting a ticket to pending or on-hold without
+making a public agent reply does _not stop_ the SLA timer.
+
 ### Change management
 
 Keep in mind, all change management should be stemming from an issue, first and
