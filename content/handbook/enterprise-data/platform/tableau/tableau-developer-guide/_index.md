@@ -118,7 +118,9 @@ This error message can be challenging to diagnose, as it can be the result of nu
 ### 2. Issue: Insufficent Data Access
 
 **Error**:
-> `"Upon trying to sign in to view a dashboard, you recieve the error message "invalid consent request".`
+> `Upon trying to sign in to view a dashboard, you receive the error message "invalid consent request".`
+
+![invalid consent embedded from other location](/static/images/handbook/enterprise-data/platform/tableau/invalidconsent.png)
 
 This generally occurs because you do not have access to something you are trying to view. This can be:
  
