@@ -21,20 +21,30 @@ Configuring and deploying the Workspace proxy with a valid SSL certificate and
 domain name record is a very complicated process and is a requirement for using
 Workspaces today.
 
+This design document explains how we can re-use our
+[GitLab Agent (KAS)](https://gitlab.com/gitlab-org/cluster-integration/gitlab-agent)
+architecture to avoid all of this setup and tunnel in via KAS.
+
+This document also describes how this could be used to get a Web IDE connected
+to a running CI Job as an additional benefit.
+
+## Proposal
+
 This proposal is based on experimental proof of concept work done as part of
 https://gitlab.com/gitlab-org/gitlab/-/issues/505764 to explore ways to minimise
 the amount of effort to get started with Workspaces. The work work complements
-another proposal for how we might also run workspaces without Kubernetes at all,
-but this proposal focuses solely on the network tunneling behaviour that will be
-used for both of these.
+[another proposal](TODO Add link)
+for how we might also run workspaces without Kubernetes at all, but this
+proposal focuses solely on the network tunneling behaviour that will be used for
+both of these.
 
 In addition we found that it was easy to extend this tunnel to be useful for
 debugging CI jobs using the Web IDE so that is also included in this proposal.
-Additionally this idea of tunneling may provide an alternative network transport
-to support [Interactive Web
-Terminals](https://docs.gitlab.com/ee/ci/interactive_web_terminal/) which
-currently relies on direct network access to the Runner Manager and is likely a
-blocker for adoption.
+This idea of tunneling may provide an alternative network transport
+to support
+[Interactive Web Terminals](https://docs.gitlab.com/ee/ci/interactive_web_terminal/)
+which currently relies on direct network access to the Runner Manager and is likely a
+considerable barrier for adoption.
 
 During the investigation we found that
 [KAS](https://gitlab.com/gitlab-org/cluster-integration/gitlab-agent) already
@@ -44,8 +54,78 @@ as a way to tunnel into customer's K8s clusters, and this is reflected in the
 name, but the same techniques can easily be applied to tunneling into any
 customer workloads so it seems like a natural extension of this service.
 
-## Proposal
+## Technical details
+
+The main idea of this proposal is to make use of the
+[`agentk` -> `KAS`](https://gitlab.com/gitlab-org/cluster-integration/gitlab-agent/-/blob/master/doc/kas_to_agentk_connectivity.md)
+`gRPC` connection to tunnel HTTP requests to a Web IDE running on the same
+container as the agent. Since `agentk` was built with a different purpose in
+mind (communicating with the K8s API) we are likely to build a different agent
+binary while trying to re-use as much of the server-side components as
+possible.
+
+The HTTP tunnel has already been demonstrated in
+https://gitlab.com/gitlab-org/cluster-integration/gitlab-agent/-/merge_requests/2084
+and was a simple extension of existing HTTP tunnel behaviour in KAS. We still
+need to build a new SSH tunnel in KAS to allow for SSH connectivity to the
+Workspace, but we do not anticipate there should be any technical limits
+preventing us from doing this. The largest architectural part of this work would
+be building an SSH server into KAS which authenticates users based on our
+preferred SSH authentication mechanisms.
 
 ![reverse gRPC tunnel into Workspaces](img/workspace-grpc-tunnel.png)
 
+This idea was demonstrated in this
+[video demo](TODO: Make demo for workspaces) which is composed of
+POC changes in the following merge requests:
+
+1. https://gitlab.com/gitlab-org/cluster-integration/gitlab-agent/-/merge_requests/2084
+1. https://gitlab.com/gitlab-org/workspaces/gitlab-workspaces-tools/-/merge_requests/19
+1. TODO: MR for GitLab workspace tunnel agent injection
+
 ![reverse gRPC tunnel into CI](img/workspace-tunnel-and-ci.png)
+
+This idea was demonstrated in this
+[video demo](https://www.youtube.com/watch?v=m4VaLLg_Ipk) which is composed of
+POC changes in the following merge requests:
+
+1. https://gitlab.com/gitlab-org/cluster-integration/gitlab-agent/-/merge_requests/2084
+1. https://gitlab.com/gitlab-org/workspaces/gitlab-workspaces-tools/-/merge_requests/19
+
+## Alternatives considered
+
+### Build a whole new service instead of KAS
+
+Since KAS was not built specifically for this purpose it is tempting to build a
+new service with this single responsibility. We may still decide to do that if
+we find that we just can't make that fit. But it is not our first choice as
+there are many technical complexities in building a service that meets these
+requirements. Here are some of the not-so-obvious tricky details that KAS has
+already solved:
+
+1. Clustering: Many to many relationships between agents and servers means that
+   the user's HTTP request may not reach the same server which has a connection
+   to the agent they are trying to reach. KAS solves this by clustering (via
+   Redis) to locate the correct server with the client connection and forwarding
+   the request to that server.
+2. Connection pooling: Since the gRPC streams can only be opened by the client
+   (in this case the agent) it is not possible to just open a new stream (or
+   send a new gRPC message) for every HTTP request which comes into the server.
+   KAS solves this by keeping open a buffer of idle gRPC streams to the agent
+   and it opens additional streams when all streams are in use for HTTP
+   requests.
+3. Authorization: KAS already integrates with GitLab to authenticate and
+   authorize access to specific resources and agents.
+
+### Deploying load balancers/Ingress for the customer
+
+Since the original motivation for this work was to find alternatives to
+Kubernetes which are simpler for customers to set up it was also considered that
+we might build tooling to provision the load balancers and Ingress for the
+customer. This would simplify the setup but it does come with tradeoffs. It
+still requires the customer to register a domain name and there are still
+complexities with generating SSL certificates. One of the biggest challenges
+with using Let's Encrypt to generate SSL certificates is that there are limits
+on the number of certificates you can generate within a period of time. Using
+our KAS ingress avoids any such limits as we can use a single wildcard
+certificate for all workspaces which will be a subdomain of `gitlab.com`.
