@@ -76,7 +76,7 @@ For most tickets, the SLA is set depending on the following factors:
   - Support Ops
   - Billing
   - L&R
-- The form the ticket was filed with
+- The form the ticket is currently using
 - The _Ticket Stage_ ticket field
 
 When a ticket is created, the _Customer Severity_ ticket field is translated
@@ -109,7 +109,7 @@ making a public agent reply does _not stop_ the SLA timer.
 ## Do all XXX timers use the same timeframe?
 
 No, this is not correct. Every policy uses its own definitions for the timers.
-While there is some overlap, we do not have a consistenly used value for any
+While there is some overlap, we do not have a consistently used value for any
 specific SLA timer. As an example, NRT is not "24 hours" across the board. It
 can vary from SLA Policy to SLA Policy.
 
