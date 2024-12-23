@@ -33,12 +33,12 @@ Employ the following workflows for:
 - Take and keep assignment of tickets that have your region as the preferred one.
   For tickets with other preferred regions, work them by putting out a quality
   first response. Then follow the guidelines for
-  [rehoming tickets](../ticket-transfers/#ticket-rehome-transfer-to-the-preferred-region) to transfer
+  [rehoming tickets](/handbook/support/workflows/ticket-transfers/#ticket-rehome-transfer-to-the-preferred-region) to transfer
   them to the customers' stated preferred region. (NOTE: APAC may also maintain
   assignment of low priority tickets with a preferred region of AMER.)
 - Both FRT and NRT tickets that do not have an assignee are presented in this view.
   Consider assigning tickets that have a status of `open` or `pending` and that
-  have your region as the preferred one. These all need owners within the preferred region on the same day they are rehomed from other regions. Refer to the [receiving a ticket rehome](../ticket-transfers/#receiving-a-ticket-rehome) section of this page for guidelines on working these tickets.
+  have your region as the preferred one. These all need owners within the preferred region on the same day they are rehomed from other regions. Refer to the [receiving a ticket rehome](/handbook/support/workflows/ticket-transfers/#receiving-a-ticket-rehome) section of this page for guidelines on working these tickets.
 
  Assigning Tickets:
 
