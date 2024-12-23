@@ -92,11 +92,23 @@ POC changes in the following merge requests:
 1. https://gitlab.com/gitlab-org/cluster-integration/gitlab-agent/-/merge_requests/2084
 1. https://gitlab.com/gitlab-org/workspaces/gitlab-workspaces-tools/-/merge_requests/19
 
+## Iteration plan
+
+1. New KAS tunnel
+   1. GitLab tunnel agents model
+   2. New endpoint in KAS server
+   3. New agent binary
+1. Workspace integration
+   1. Workspace creation optionally creates the tunnel agent
+   1. Workspace creation optionally installs the tunnel agent
+   1. Workspace init optionally starts the tunnel agent (using injected env var
+      for short lived token)
+
 ## Alternatives considered
 
 ### Build a whole new service instead of KAS
 
-Since KAS was not built specifically for this purpose it is tempting to build a
+Since KAS was not built specifically for this purpose, it is tempting to build a
 new service with this single responsibility. We may still decide to do that if
 we find that we just can't make that fit. But it is not our first choice as
 there are many technical complexities in building a service that meets these
