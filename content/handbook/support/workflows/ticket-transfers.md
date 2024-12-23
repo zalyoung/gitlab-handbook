@@ -14,7 +14,6 @@ GitLab Support has two different types of ticket transfers - rehomes and handove
 
 1. **Handover** 🤝: When a ticket is transferred from one engineer to another due to factors such as paid time off, expertise, or workload management. Handovers are usually in-region, but can also happen cross-region.
 
-
 2. **Rehome** 🏠: A `rehome` is a transfer of a ticket from the region of the SE who delivered the first response to the customer's specified preferred region. At the end of the assigned SE's shift, they will forward the ticket to the appropriate (home) region for completion. These are quick, easy, and should be low effort.
 
    - **Satellite** 🛰️: A rehomed ticket that remains unassigned during the upcoming shift in the designated "home region" and subsequently circulates globally at least once. These are unintended and we should be working to minimize satellites.
