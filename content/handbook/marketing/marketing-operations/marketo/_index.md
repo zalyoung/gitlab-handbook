@@ -520,9 +520,26 @@ Complete list of priority countries as found [here](https://gitlab.com/gitlab-co
 
 </details>
 
+<details><summary>[Education Sector](https://engage-ab.marketo.com/?munchkinId=194-VVC-221#/classic/SG1033A1)</summary>
+Documentation describing this segment can be found [here](https://docs.google.com/spreadsheets/d/1Q_TwMimeBOR3rJ8CK4EM6DJ9YWYO56bTLNYevCS8UA0/edit?gid=0#gid=0)
+
+- Students
+- Teachers
+- Faculty
+- Unrelated Faculty
+- Edu Domain
+
+</details>
+
 ### Snippets
 
-[Localized email footer](https://engage-ab.marketo.com/?munchkinId=194-VVC-221#/ds/snippet/15/overview/details) - This snippet can be applied to localized emails to automatically include the translated unsusbcribe language. The unsubscribe language will be localized if the recipient has a known `Preferred Language`. If they do not have a preferred language on file, the footer will be in English.
+[Localized email footer (unsubscribe language only)](https://engage-ab.marketo.com/?munchkinId=194-VVC-221#/ds/snippet/15/overview/details) - This snippet can be applied to localized emails to automatically include the translated unsubcribe language. The unsubscribe language will be localized if the recipient has a known `Preferred Language`. If they do not have a preferred language on file, the footer will be in English.
+
+[Localized footer, gray full footer - LOC-Full footer(gray)](https://engage-ab.marketo.com/?munchkinId=194-VVC-221#/ds/snippet/138/overview/details) - This is the full footer including the `View in Web Browser` and direct link to localized blogs. Use this on emails that have a gray footer.
+
+[Localized footer, charcoal full footer - Footer - LOC - Charcoal](https://engage-ab.marketo.com/?munchkinId=194-VVC-221#/ds/snippet/143/overview/details) - This is the full footer including the `View in Web Browser` and direct link to localized blogs. Use this on emails that have a charcoal footer.
+
+[Localized footer, blue full footer - Footer - LOC - Blue](https://engage-ab.marketo.com/?munchkinId=194-VVC-221#/ds/snippet/145/overview/details) - This is the full footer including the `View in Web Browser` and direct link to localized blogs. Use this on emails that have a blue footer.
 
 {{% details summary="How to use the localized email footer snippet" %}}
 To use the Localized email footer snippet in an email:
@@ -530,7 +547,7 @@ To use the Localized email footer snippet in an email:
 1. select the "Body Text 1 Column" module from the email modules template in the right sidebar. Drag this section below the existing unsubscribe language.
 1. Click on the generic copy, then click on the gear that appears. Note that there are two things you can select here - the copy and the module itself. Be sure to select the gear for the copy.
 1. Select `Replace with Snippet`, then select `Localized email footer` and click Save.
-1. You can then select the module with the existing unsubscribe language, click the gear, and click, `Delete`. You should only see the unsubscribe language once now.
+1. You can then select the module with the existing unsubscribe language, click the gear, and click, `Delete`. You should only see the unsubscribe language/footer once now.
 
 To test the snippet, click `Preview`, then select `View by: Segmentation`. Select "Language Preference", then the language you would like to preview. You will see that the unsubscribe language changes based on the language you select.
 {{% /details %}}
