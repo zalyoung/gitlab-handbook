@@ -10,15 +10,16 @@ This page helps guide Support Engineers (SEs) when they need to transfer a ticke
 
 ## Ticket transfers
 
-GitLab Support has 2 different types of ticket transfers - rehomes and handovers.  The following sections describe these, and the supporting concepts of satellite tickets and hot rehomes.
+GitLab Support has two different types of ticket transfers - rehomes and handovers.  The following sections describe these, and the supporting concepts of satellite tickets and hot rehomes.
 
-**ReHome** 🏠: A `reHome` is a transfer of a ticket from the region of the SE who delivered the first response to the customer's specified preferred region. At the end of the assigned SE's shift, they will forward the ticket to the appropriate (home) region for completion. These are quick, easy, and should be low effort.
+1. **Handover** 🤝: When a ticket is transferred from one engineer to another due to factors such as paid time off, expertise, or workload management. Handovers are usually in-region, but can also happen cross-region.
 
-**Satellite** 🛰️: A ReHomed ticket that remains unassigned during the upcoming shift in the designated "home region" and subsequently circulates globally at least once. These are unintended and we should be working to minimize satellites.
 
-**Handover** 🤝: When a ticket is transferred from one engineer to another due to factors such as paid time off, expertise, or workload management.
+2. **ReHome** 🏠: A `reHome` is a transfer of a ticket from the region of the SE who delivered the first response to the customer's specified preferred region. At the end of the assigned SE's shift, they will forward the ticket to the appropriate (home) region for completion. These are quick, easy, and should be low effort.
 
-**Hot ReHome** 🔥:  A ticket currently being addressed in a different region than the customer’s preferred one.  The ticket then requires a rehome because the customer’s temperature is increasing, which raises the urgency. The sending region makes commitments to the customer with the best intentions, but there is no time for alignment and agreement for the receiving region.
+   - **Satellite** 🛰️: A ReHomed ticket that remains unassigned during the upcoming shift in the designated "home region" and subsequently circulates globally at least once. These are unintended and we should be working to minimize satellites.
+
+   - **Hot ReHome** 🔥:  A ticket currently being addressed in a different region than the customer’s preferred one.  The ticket then requires a rehome because the customer’s temperature is increasing, which raises the urgency. The sending region makes commitments to the customer with the best intentions, but there is no time for alignment and agreement for the receiving region.
 
 Examples of these tickets include:
 
