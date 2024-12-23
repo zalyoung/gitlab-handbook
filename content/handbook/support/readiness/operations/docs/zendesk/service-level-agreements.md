@@ -24,12 +24,12 @@ As per
 
 ## Understanding SLA
 
-When it comes to understanding SLA, there are two areas to understand:
+When it comes to understanding SLA, there are two key concepts:
 
 ### How Zendesk defined SLA works
 
 Zendesk SLA is strictly using FRT (first reply time) and NRT (next reply time)
-by their own defintions:
+by their own definitions:
 
 - A ticket is using the FRT metrics if it has no public agent replies
 - A ticket is using the NRT metrics if it has at least one public agent reply
@@ -45,10 +45,13 @@ classify the ticket as using the NRT definition at that time.
 
 ### How GitLab defined SLA works
 
+NOTE: Zendesk US Government _solely_ uses the Zendesk definition. None of the
+following applies to Zendesk US Government
+
 We work a bit differently than how Zendesk defines SLA, so we utilize the
 _Ticket Stage_ field to determine the SLA timer. As such, our SLA Policies are
 built with this in mind. We define FRT (first reply time) and NRT (next reply
-time) by our own defintions:
+time) by our own definitions:
 
 - A ticket is using the FRT metric if work has not begun on the ticket by the
   relevant team
@@ -62,7 +65,8 @@ _Customer Severity_ or _Customer Priority_).
 
 So as an example, if a ticket starting in the Billing team's queue, got a few
 back and forth replies, and then go moved to the L&R team, we would classify
-the ticket as using the FRT definition at that time.
+the ticket as using the FRT definition at that time (largely due to Support
+Readiness manually changing the _Ticket Stage_ value during the transition).
 
 ## How the SLA Policy is set by GitLab
 
@@ -93,14 +97,21 @@ support entitlement (except for the above specified forms). The ticket's events
 are the best source to determine the SLA Policy currently in place for a ticket
 at any given state.
 
-## When does an SLA timer ticket
+## When does an SLA timer tick
 
-An SLA timer for ticket after a customer replies, when the ticket status is New,
+An SLA timer ticks after a customer replies, while the ticket status is New,
 Open, On-hold, or Pending, up to the point _before_ an agent makes a public reply
 during the business hours defined for said ticket.
 
 Keeping this in mind, this means setting a ticket to pending or on-hold without
 making a public agent reply does _not stop_ the SLA timer.
+
+## Do all XXX timers use the same timeframe?
+
+No, this is not correct. Every policy uses its own definitions for the timers.
+While there is some overlap, we do not have a consistenly used value for any
+specific SLA timer. As an example, NRT is not "24 hours" across the board. It
+can vary from SLA Policy to SLA Policy.
 
 ### Change management
 
@@ -197,5 +208,5 @@ Generally speaking, we aim to make SLA policy conditions as simple as possible.
 When possible, you should use condition sets that are very specific and
 succinct. As an example, if you wanted a SLA policy to only run when the form is
 `Support Ops`, it is better to simply put a condition of "Form is Support Ops"
-than adding exclusions for *every* other form. This can take time and practice
+than adding exclusions for _every_ other form. This can take time and practice
 to learn, so when in doubt, pair with the rest of the Support Ops team!
