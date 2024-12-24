@@ -32,7 +32,7 @@ using the existing CI Runners they have configured for their projects.
 ## Proposal
 
 This design document is related to
-https://gitlab.com/gitlab-org/gitlab/-/merge_requests/176478 except this
+https://gitlab.com/gitlab-com/content-sites/handbook/-/merge_requests/10804 except this
 document focuses on deploying workspaces as opposed to how to get network access
 to the Web IDE running inside the container.
 
