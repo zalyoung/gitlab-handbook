@@ -139,7 +139,6 @@ In order to deal with RFHs as efficiently as possible we have a number of issue 
 1. For a Switchboard Request for Help raise an issue in the Request For Help Tracker using the standard [Dedicated Request template](https://gitlab.com/gitlab-com/request-for-help/-/issues/new?issuable_template=SupportRequestTemplate-GitLabDedicatedRequest)
 1. For a standard request for help raise an issue in the Request For Help Tracker using the [Switchboard Request template](https://gitlab.com/gitlab-com/request-for-help/-/issues/new?issuable_template=SupportRequestTemplate-Switchboard)
 
-
 We can help with:
 
 1. Questions and support for GitLab Dedicated
