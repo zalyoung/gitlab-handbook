@@ -663,7 +663,7 @@ In the above Chrome support thread, the following macOS solution is listed:
 If you have a loud keyboard or a fan in your office, Zoom may try to automatically reduce your microphone input volume. This can be frustrating because then other participants have trouble hearing you speak later in the call.
 If you are experiencing this issue, go into your Zoom client settings and uncheck "Automatically adjust microphone volume".
 
-![Zoom mic settings](/handbook/tools-and-tips/images/zoom-mic-volume.png)
+![Zoom mic settings](/images/tools-and-tips/zoom-mic-volume.png)
 
 ### Google Calendar Add-on for Zoom
 
