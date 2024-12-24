@@ -1,9 +1,9 @@
 ---
 title: "Reverse gRPC tunnel for Web IDE in Workspaces and CI"
 status: ongoing
-creation-date: "2024-09-11"
+creation-date: "2024-12-24"
 authors: [ "@DylanGriffith" ]
-coaches: [ "" ]
+coaches: [ ]
 dris: []
 owning-stage: "devops::create"
 participating-stages: []
@@ -33,7 +33,7 @@ to a running CI Job as an additional benefit.
 This proposal is based on experimental proof of concept work done as part of
 https://gitlab.com/gitlab-org/gitlab/-/issues/505764 to explore ways to minimise
 the amount of effort to get started with Workspaces. The work work complements
-[another proposal](TODO Add link)
+[another proposal](https://gitlab.com/gitlab-com/content-sites/handbook/-/merge_requests/10811)
 for how we might also run workspaces without Kubernetes at all, but this
 proposal focuses solely on the network tunneling behaviour that will be used for
 both of these.
