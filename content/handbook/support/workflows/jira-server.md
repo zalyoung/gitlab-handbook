@@ -12,7 +12,7 @@ For more information about various uses of Jira Please check out the [Get starte
 
 ### How to Set Up Jira Server
 
-1. You need to create an instance from the [Support-resources](https://gitlab.com/gitlab-com/support/support-resources/). Ensure nothing is using port 443. We will set up Jira to use HTTPS for GitLab integration.
+1. You need to create a host with [GitLab Sandbox Cloud](https://gitlabsandbox.cloud). Ensure no services (including GitLab) are using port 443 on this new host. We will set up Jira to use HTTPS for GitLab integration.
 
 #### Prerequisite software
 
@@ -71,7 +71,7 @@ For more information about various uses of Jira Please check out the [Get starte
 
 1. Run Jira setup. You will activate a 30 day trial period. Select set up Jira manually.
 1. You now have Jira setup and accessible in your localhost:8080.
-1. You will have to set up Jira before using it. After you access from the browser, Select `I'II set it up myself`.
+1. You will have to set up Jira before using it. After you access from the browser, Select `I'll set it up myself`.
 
    ![Jira Set It Up Myself Screenshot](/images/support/assets/JIRA_Setupmyself.png)
 
