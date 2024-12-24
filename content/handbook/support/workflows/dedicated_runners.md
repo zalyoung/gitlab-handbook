@@ -19,7 +19,7 @@ To identify if a customer is using Hosted Runners, use Switchboard.
 
 ## Viewing Logs
 
-Runners logs are available through the tenant OpenSearch login. See [GitLab Dedicated Logs](dedicated_logs.html) to learn more.
+Logs from a hosted runner for GitLab Dedicated are available via Opensearch, along with the logs from the GitLab application. See [GitLab Dedicated Logs](dedicated_logs.html) to learn more.
 
 To view only runner logs use the filter: `fluentd_tag: -fleeting-logs`. The full value is `cloudwatch.<name>-fleeting-logs`, where `<name>` is the value of the name attribute in the [Runner Model](https://gitlab-com.gitlab.io/gl-infra/gitlab-dedicated/runner-model-schema/). (Click **CommonProperties**.)
 
