@@ -144,6 +144,22 @@ Primarily we should aim to at least provide similar persistence in our CI based
 workspaces as compared to our existing Kubernetes based workspaces but we don't
 need to aim to improve on this as part of this architecture.
 
+### Devfile vs. Development Container vs. something else
+
+Right now our workspace functionality uses the [devfile](https://devfile.io/)
+format. Since this tool only really supports Kubernetes it may be a good time to
+move away from Devfile and try a different configuration file. We could consider
+moving to supporting [Development Containers](https://containers.dev/) but that
+might lead to us needing to build a lot more functionality into GitLab.
+
+For now we should attempt to start by just translating the minimum amount of
+details we need from the Devfile syntax to create a comparable workspace inside
+of CI. We should probably investigate the move to Development Containers or
+another format independently of this work.
+
+If we find that extensive effort is needed to translate the Devfile to something
+that can run in a CI job then we might be forced to tackle this problem sooner.
+
 ## Iteration plan
 
 1. Introduce `CI::Workload` concept which allows creating a workload without
