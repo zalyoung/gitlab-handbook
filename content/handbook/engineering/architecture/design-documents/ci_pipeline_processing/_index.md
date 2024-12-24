@@ -289,8 +289,10 @@ Let's assume that we solved the problem 3 and the "skipped" and "ignored" states
 How should they behave in general? Are they successful or not? Should "skipped" and "ignored" be different?
 
 - Skipped jobs are those that don't meet the conditions to run (`when: on_success` or `when: on_failure`).
+These are skipped based on the status of the previous jobs.
 - Ignored jobs typically refer to manual jobs that are not blocking the pipeline (`allow_failure: true`),
 which are treated as if they didn't exist in the pipeline.
+These are skipped based on the user preference.
 
 Let's examine some examples;
 
