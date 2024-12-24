@@ -134,7 +134,10 @@ environments is that they are easy to recreate from scratch and this optimizes
 onboarding for new developers as well as provides consistent development
 environments across a team. While there may be a desire for developers to
 completely make a workspace their own, after they boot it up, it may also be an
-anti-pattern with regards to cloud development environments. Instead it may be
+anti-pattern with regards to cloud development environments. Having long running
+workspaces has tradeoffs for keeping up with changes to the base image,
+contributing back workspace improvements to the team and accidentally creating a
+snowflake VM that other team members cannot recreate. Instead it may be
 preferable for GitLab to improve the tooling for developers to create persistent
 customizations for their workspace (e.g. separate git-managed config files that
 apply on startup). This is a side note due to the emphasis I've heard placed on
