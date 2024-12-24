@@ -8,7 +8,7 @@ description: "GitLab Dedicated Support - Hosted Runners"
 [Hosted Runners for GitLab Dedicated](https://docs.gitlab.com/ee/administration/dedicated/hosted_runners.html) is a new product offered to our Dedicated Customers.
 Currently in beta, with general availability targeted for Q2 2026.
 
-## Who is using Hosted runners
+## Who is using Hosted Runners
 
 To identify if a customer is using Hosted Runners, use the Switchboard app. More information can be found in the [Switchboard workflow](dedicated_switchboard.md).
 
