@@ -20,11 +20,11 @@ Here are some non-exhaustive guidelines:
 - If the application requires credentials (password, access token, etc.) to any of your work accounts (GitLab, Google, Okta, etc.) please do not enter the credentials and remove the application
 - If the application uses OAuth, make sure to only allow access to your account if the permissions required by the application are very minimal (such as accessing your public profile)
 
-    ![OAuth authorization screen with profile scope](/handbook/tools-and-tips/images/oauth1.png)
+    ![OAuth authorization screen with profile scope](/images/tools-and-tips/oauth1.png)
 
     If the application requires anything such as read-only access to the API or anything that could grant access to confidential data please do not continue the authentication process and remove the application
 
-    ![OAuth authorization screen with profile and read_api scope](/handbook/tools-and-tips/images/oauth2.png)
+    ![OAuth authorization screen with profile and read_api scope](/images/tools-and-tips/oauth2.png)
 - When installing something from an "app store" of some sort, look for the reviews, the number of downloads and especially for "badges" that show that the application was reviewed by the app store. For example the Chrome Web Store has a [featured badge](https://support.google.com/chrome_webstore/answer/1050673?visit_id=638011195121439702-999154480&p=cws_badges&rd=1#cws_badges&zippy=%2Cunderstand-chrome-web-store-badges) for popular trustworthy applications
 - When in doubt, do not install the application
 

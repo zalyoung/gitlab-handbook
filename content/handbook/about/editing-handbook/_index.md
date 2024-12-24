@@ -299,7 +299,7 @@ Additionally, consider using the [Glob Pattern](https://code.visualstudio.com/ap
 
 There is a special linter that validates links and anchors across the handbook. If your change accidentally breaks a link, then the pipeline job will fail with a similar error message.
 
-![Link linter error](/handbook/about/images/link-linter-error.png)
+![Link linter error](/images/about/link-linter-error.png)
 
 1. It is a path to the file where the broken link was detected.
     (file path - `sites/handbook/source/handbook/total-rewards/benefits/general-and-entity-benefits/pty-benefits-australia/index.html.md`, line number: 87)

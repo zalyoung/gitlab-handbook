@@ -143,11 +143,11 @@ Java Hotspot(TM) 64-Bit Server VM (build 16.0.1+9-24, mixed mode, sharing)
 
 Most systems will be running either the OpenJDK version or Java will not be installed. If Java is not installed and you wish to install OpenJDK, open the **Self Service** app located in your Applications folder and double-click on the app called Java 18 - Open Source.
 
-![Self Service entry for Java 18](/handbook/tools-and-tips/images/java_app_in_self_service.png)
+![Self Service entry for Java 18](/images/tools-and-tips/java_app_in_self_service.png)
 
 If you are running the Oracle Java version, you will be automatically notified by the IT Deptartment with a pop-up that looks like this
 
-![Jamf Warning about out of data Java](/handbook/tools-and-tips/images/java_it_removal_notification.png)
+![Jamf Warning about out of data Java](/images/tools-and-tips/java_it_removal_notification.png)
 
 and it will be removed from your machine.
 
