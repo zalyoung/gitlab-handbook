@@ -37,7 +37,6 @@ To enable all GitLab team members to confidently and comfortably share GitLab re
 
 EveryoneSocial is an employee advocacy platform for you to share content across LinkedIn, Twitter/X, Instagram or Facebook. EveryoneSocial enables you to quickly and easily share content onsocial media platforms to amplify our brand reach and help establish your personal brand on social media. The goal of this tool is to centralize content that is valuable to our audience.
 
-
 <details><summary>How do I get started?</summary>
 
 <p>
@@ -130,7 +129,7 @@ Join the #social-advocacy-curators Slack channel to stay in touch with the curat
 All team members can access the Stories feed, share to their social networks and leverage the Suggestions feature to submit links to a Manager or Admin for complete Story curation.
 </p>
 <p>
-Access to EveryoneSocial is provided via an Okta tile - please log in to Okta and find the Bambu logo tile to Log on.
+Access to EveryoneSocial is provided via an Okta tile - please log in to Okta and find the EveryoneSocial logo tile to Log on.
 </p>
 <p>
 Join the #social-advocacy Slack channel to stay in touch with the program and the latest news.
@@ -138,9 +137,10 @@ Join the #social-advocacy Slack channel to stay in touch with the program and th
 
 </details>
 
-### Suggesting content for team members to share on Bambu
+### Suggesting content for team members to share on EveryoneSocial
 
-While we have a team of content curators working to add relevant and fresh content for the whole team to share on a regular basis, you may come across content that you'd like us to consider adding to Bambu, mainly content from 3rd party sources: your own blogs or a partner website link. Here's how to suggest content to an admin to add to Bambu.
+**TO BE UPDATED**
+While we have a team of content curators working to add relevant and fresh content for the whole team to share on a regular basis, you may come across content that you'd like us to consider adding to EveryoneSocial, mainly content from 3rd party sources: your own blogs or a partner website link. Here's how to suggest content to an admin to add to EveryoneSocial.
 
 - Click the +Suggest Story button in the upper right hand corner
 - Paste the story URL and click Suggest Story
@@ -154,13 +154,11 @@ Elevate the way they use EveryoneSocial, and in turn produce more content shares
 
 #### Schedule a post at least every other day
 
-We certainly don't want you to share just for the sake of sharing, but with Bambu, you'll have relevant content curated for you almost daily. By sharing more often, it signals to your social audience that you are a go-to source of information and expertise.
+We certainly don't want you to share just for the sake of sharing, but with EveryoneSocial, you'll have relevant content curated for you almost daily. By sharing more often, it signals to your social audience that you are a go-to source of information and expertise.
 
-Schedule content in advance using the content scheduler function in EveryoneSocial. Consider scheduling posts during your timezones regular business hours --- at the start of the work day (7am - 10am) around lunch time (11am - 1pm) and just after the end of the day (5pm - 7 pm). What works for your followers may also be different - it's important to check out post performance and to try out different times to see which would work best. Sorry, Bambu doesn't provide "best time of day" for scheduling posts.
+Schedule content in advance using the content scheduler function in EveryoneSocial. Consider scheduling posts during your timezones regular business hours --- at the start of the work day (7am - 10am) around lunch time (11am - 1pm) and just after the end of the day (5pm - 7 pm). What works for your followers may also be different - it's important to check out post performance and to try out different times to see which would work best.
 
 Scheduling stories on your social media channels is the best way to automate some of the manual work behind promoting content on social media. While it still requires you to check out Bambu and to edit the copy suggestions, you can "set it and forget it" and bulk a week or two worth of social posts in one short period of time. This is how the scheduling feature looks in Bambu.
-
-<img src="/images/handbook/marketing/integrated-marketing/social-marketing/bambu-scheduling-screenshot.png" alt="Sreenshot of Bambu scheduling feature">
 
 #### Customize the post copy with your point of view
 
@@ -176,13 +174,12 @@ Pro tip: Aim to reply to comments within 1-2 days to keep the conversation timel
 
 ### Integrations
 
-- We are actively working to integrate into Salesforce.
+- We are actively working to integrate into Salesforce and Slack.
 
-#### Slack and Bambu
+#### Slack and EveryoneSocial (TBC)
 
-The Slack integration (WIP) will allow us to broadcast an EveryoneSocial story link to Slack, giving our team the headsup on big news items that we'd like to share. This will allow GitLab to continue operating like GitLab. You can also check out the latest stories on Bambu inside of any Slack channel by using `/bambu` for a private message showing you our top stories.
-
-<img src="/images/handbook/marketing/integrated-marketing/social-marketing/bambu-slack-stories-screenshot.png" alt="Sreenshot of Bambu stories in Slack">
+The Slack integration (WIP) will allow us to broadcast an EveryoneSocial story link to Slack, giving our team the headsup on big news items that we'd like to share. 
+You can also check out the latest stories on EveryOne Social inside of any Slack channel by using `TBD` for a private message showing you our top stories.
 
 #### Okta
 
@@ -190,9 +187,6 @@ Onboarding: Access to EveryoneSocial is provisioned via Okta. Team members are a
 
 Offboarding: When a team member loses access to Okta, they will also lose access to EveryoneSocial. This provides an automatic way to revoke access to former team members.
 
-### Contests
-
-We'll run contests for team members from time to time to enable more sharing across particular topics or campaigns. You'll find out about these contests in the #whats-happening-at-gitlab Slack channel in the coming months.
 
 ### Reporting and Metrics
 
@@ -221,7 +215,7 @@ GitLab is not given any personal information about your social media profiles, a
 
 The data that GitLab receives shows your posts published through EveryoneSocial:
 
-- Reach - or how many people saw the posts you published through BEveryoneSocial
+- Reach - or how many people saw the posts you published through EveryoneSocial
 - Engagements - or how many actions people took on the posts you published through EveryoneSocial; comments, likes, shares, etc.
 - Clicks - or how many times people clicked on the link you published in your post through EveryoneSocial
 
