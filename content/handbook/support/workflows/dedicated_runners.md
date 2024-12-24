@@ -26,7 +26,7 @@ Only `gitlab-runner` and `systemd` are sent to OpenSearch. For job logs reach ou
 
 Monitoring Hosted Runners is done in Grafana. Details on how to access Grafana are available in [GitLab Dedicated Observability and Monitoring (Grafana)](dedicated_instance_health).
 
-Once in Grafana, go to **Dashboards** and search the **Hosted Runner(s) Overview** dashboard. This dashboard has pots on different runner metrics.
+Once in Grafana, go to **Dashboards** and search the **Hosted Runner(s) Overview** dashboard. This dashboard has plots on different runner metrics.
 The dashboard is available for all customers but is only populated if Hosted Runners are being used by the customer.
 
 ## Architecture
