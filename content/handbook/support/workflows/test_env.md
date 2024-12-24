@@ -82,9 +82,7 @@ Check out a [this demo video](https://www.youtube.com/watch?v=aBF-AyQiFfA) for d
 
 #### Other GCP Projects
 
-You can use the `support-resources` project to manually create resources in a GCP testing environment alongside the resources created by our [automation tools](https://gitlab.com/gitlab-com/support/support-resources/-/blob/master/README.md). As with the [GitLab Sandbox Cloud](/handbook/company/infrastructure-standards/realms/sandbox/#how-to-get-started) for GCP - you can manage these manually created resources using the [GCP console](https://console.cloud.google.com/home/dashboard?project=support-resources-c801eb), or [gcloud command line tool](https://cloud.google.com/sdk/gcloud).
-
-**Warning:** You may also have access to the `gitlab-internal` and `gitlab-support` GCP projects. It's strongly recommended that you make use of the `support-resources` project or the GitLab Sandbox Cloud, instead of creating new resources in these projects.
+**Warning:** You may also have access to the `gitlab-internal` and `gitlab-support` GCP projects. You should use GitLab Sandbox Cloud instead of creating new resources in these projects like `gitlab-internal` or `gitlab-support`.
 
 We also have a `support-openshift` project created for the purpose of creating OpenShift clusters for testing the [GitLab Operator](https://gitlab.com/gitlab-org/cloud-native/gitlab-operator) and [GitLab Runner Operator](https://gitlab.com/gitlab-org/gl-openshift/gitlab-runner-operator). Reach out to your Support Team colleagues in the [#support-testing Slack Channel](https://gitlab.slack.com/archives/C0167JB9E02) for more details on using this project for shared OpenShift testing.
 
