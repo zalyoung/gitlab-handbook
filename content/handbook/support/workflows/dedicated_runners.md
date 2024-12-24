@@ -6,7 +6,7 @@ description: "GitLab Dedicated Support - Hosted Runners"
 ## Hosted runners
 
 [Hosted Runners for GitLab Dedicated](https://docs.gitlab.com/ee/administration/dedicated/hosted_runners.html) is a new product offered to our Dedicated Customers.
-Currently in beta, but will be generally available Q2-2026
+Currently in beta, with general availability targeted for Q2 2026.
 
 ## Who is using Hosted runners
 
@@ -20,14 +20,14 @@ Runners logs are available through the tenant OpenSearch login. See [GitLab Dedi
 
 To view only runner logs use the filter: `fluentd_tag: -fleeting-logs`. The full value is `cloudwatch.<name>-fleeting-logs`, where `<name>` is the value of the name attribute in the [Runner Model](https://gitlab-com.gitlab.io/gl-infra/gitlab-dedicated/runner-model-schema/).
 
-Only `gitlab-runner` and `systemd` are send to OpenSearch. For job logs reach out to the customer.
+Only `gitlab-runner` and `systemd` are sent to OpenSearch. For job logs reach out to the customer.
 
 ## Monitoring
 
-Hosted Runners monitoring can be done through Grafana. Details on how to access Grafana can be seen in [GitLab Dedicated Observability and Monitoring (Grafana)](dedicated_instance_health).
+Monitoring Hosted Runners is done in Grafana. Details on how to access Grafana is found in [GitLab Dedicated Observability and Monitoring (Grafana)](dedicated_instance_health).
 
-Once in Grafana go to **Dashboards** and search the **Hosted Runner(s) Overview** dashboard. This dashboard has pots on different runner metrics.
-The dashboard is available for all customers but isonly populated if Hosted Runners are being used by the customer.
+Once in Grafana, go to **Dashboards** and search the **Hosted Runner(s) Overview** dashboard. This dashboard has pots on different runner metrics.
+The dashboard is available for all customers but is only populated if Hosted Runners are being used by the customer.
 
 ## Architecture
 
