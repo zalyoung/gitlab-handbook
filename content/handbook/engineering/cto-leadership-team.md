@@ -16,6 +16,11 @@ The purpose is to share company updates, stay connected, and receive feedback.
 
 The entire Engineering group is invited, though anyone at GitLab is welcome to attend and contribute to [the All-Hands agenda](https://drive.google.com/drive/search?q=engineering%20all%20hands%20agenda) (internal). As with all general meetings at GitLab, attendance is optional though encouraged, and will be recorded.
 
+Two Weeks Before the All Hands:
+
+1. CTO EBA will add a topic to the leadership weekly meeting to solicit discussion topics and assign DRIs.
+2. CTO EBA will prepare a slide deck template and script doc for use by all presenters.
+
 ## CTO Leadership Offsite
 
 The quarterly CTO Leadership Offsite provides a forum for longer-form discussion among the CTO's Leadership Team. This offsite is planned by the OCTO Team and rotates between in-person and virtual.
