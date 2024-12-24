@@ -116,7 +116,7 @@ There are times when you need to find every instance of a word, phrase or link a
 1. You will get a pop-up asking you to confirm that you indeed with to `Replace X occurence(s) accross X files with X ?`. If correct, press `Replace`.
 *Please note that it is possible to click on a search result to see individual changes and replace only a subset of all occurrences by clicking the replace button next to a given search result only.*
 
-    ![picture-of-vscode-replace](/handbook/about/images/vscode_employee.png)
+    ![picture-of-vscode-replace](/images/about/vscode_employee.png)
 1. Return to your Terminal.
 
 **Terminal**
