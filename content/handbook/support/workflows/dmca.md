@@ -5,6 +5,8 @@ subcategory: Legal
 description: "Support Engineering workflow for DMCA requests"
 ---
 
+[The Digital Millennium Copyright Act (DMCA)](https://en.wikipedia.org/wiki/Digital_Millennium_Copyright_Act) is a 1998 United States' federal law that is designed to protect copyright holders from online theft such as from the unlawful reproduction or distribution of their works.
+
 ## Workflow change March 2019
 
 As of March 2019, the Trust and safety Team has taken ownership of DMCA Requests.
