@@ -187,12 +187,15 @@ Persuant with GitLab's [best practices for password security](/handbook/security
 | Setup new DKIM key and add to gitlab.com DNS|Sales Systems|Sales Systems|Test1| Setup a new DKIM key following the [instructions here](https://help.salesforce.com/s/articleView?id=sf.emailadmin_setup_dkim_key.htm&type=5).  Once the key has been published, provide the CNAME and Alternate CNAME values to the GitLab IT team to add to the DNS for gitlab.com.  Once this is done, confirm an email can be sent to an external email address from a Case using the 'Send an Email' feature, and the email is delivered without issue.|
 
 #### How to access a Sandbox after a Refresh
+
 When a lower-level environment (Sandbox) has been refreshed, depending on your level of access to Production, you may or may not have access.
 
 ##### Active Production License
-If you have an active license to Production, and you were found to have been logged into a lower-level environment prior to refresh, you will have been included in the `Sandbox Access - Business Users` Public Group. This Salesforce feature allows us to grant easy access to users after a refresh without having to update their email. To regain access, the Salesforce User Management team will provide Password Resets to anyone who requests. In case you have forgotten your username/password, please see the [Refresh Cadence](https://handbook.gitlab.com/handbook/sales/field-operations/sales-systems/#refresh-cadence) table for standard username stylization.
+
+If you have an active license to Production, and you were found to have been logged into a lower-level environment prior to refresh, you will have been included in the `Sandbox Access - Business Users` Public Group. This Salesforce feature allows us to grant easy access to users after a refresh without having to update their email. To regain access, the Salesforce User Management team will provide Password Resets to anyone who requests. In case you have forgotten your username/password, please see the [Refresh Cadence](/handbook/sales/field-operations/sales-systems/#refresh-cadence) table for standard username stylization.
 
 ##### Inactive Production License (Previous Access)
+
 If you do not currently have access to Production, but previously had access, it is possible that your user was included in the `Sandbox Access - Business Users` Public Group. Please contact the Salesforce User Management team for renewed access by creating an [Access Request issue](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/new) and adding label `entapps access requests`.
 
 #### Refresh cadence
