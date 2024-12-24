@@ -473,15 +473,16 @@ Note: It is important for this rollout strategy to follow the timeline. You will
 
 #### Rollout steps
 
-1. Create MR to modify CI configuration of HTTP Router Deployer [`.gitlab-ci.yml`](https://gitlab.com/gitlab-com/gl-infra/cells/http-router-deployer/-/blob/main/.gitlab-ci.yml?ref_type=heads#L12). In the global variables section, set both `CHANGE_LOCK_OVERRIDE` and `OVERRIDE_LAST_PERCENTAGE` environment variables to `true`
+1. Create MR to modify CI configuration of HTTP Router Deployer [`.gitlab-ci.yml`](https://gitlab.com/gitlab-com/gl-infra/cells/http-router-deployer/-/blob/main/.gitlab-ci.yml). In the global variables section, set both `CHANGE_LOCK_OVERRIDE` and `OVERRIDE_LAST_PERCENTAGE` environment variables to `true` linking to a change management issue.
 1. In the same MR, change `ROLLOUT_PERCENTAGES` environment variable in
-   [deploy-worker.sh](https://gitlab.com/gitlab-com/gl-infra/cells/http-router-deployer/-/blob/main/scripts/deploy-worker.sh?ref_type=heads#L42) script. Set the value to `5`. Example: `ROLLOUT_PERCENTAGES="5"`
+   [deploy-worker.sh](https://gitlab.com/gitlab-com/gl-infra/cells/http-router-deployer/-/blob/main/scripts/deploy-worker.sh) script. Set the value to `5`. Example: `ROLLOUT_PERCENTAGES="5"`
 1. Merge MR.
-1. Do any validation for the new rule set and validate that no SLO was effected
+1. Create and merge MR to update the `GITLAB_RULES_CONFIG` setting inside of [`wrangler.toml`](https://gitlab.com/gitlab-org/cells/http-router/-/blob/main/wrangler.toml) to the new rule set.
+1. Do any validation for the new rule set and validate that no SLO was effected.
 1. Before increasing the `ROLLOUT_PERCENTAGES` have some baking time, which can change depending on the environment.
 1. If no anomalies found and there is not impact on SLO's repeat step 1 for
    `25`, `50`, `75`, `100` percents. Keep `CHANGE_LOCK_OVERRIDE` and `OVERRIDE_LAST_PERCENTAGE` set to `true` through entire rollout cycle.
-1. Once 100% of traffic is rollout out, open MR on [deploy-worker.sh](https://gitlab.com/gitlab-com/gl-infra/cells/http-router-deployer/-/blob/main/scripts/deploy-worker.sh?ref_type=heads#L42) script to set the value back to the full sequence `"5 25 50 75 100"`. Example: `ROLLOUT_PERCENTAGES="5 25 50 75 100"`. Set `OVERRIDE_LAST_PERCENTAGE` and `CHANGE_LOCK_OVERRIDE` environment variables in [`.gitlab-ci.yml`](https://gitlab.com/gitlab-com/gl-infra/cells/http-router-deployer/-/blob/main/.gitlab-ci.yml?ref_type=heads#L12) to `false`
+1. Once 100% of traffic is rollout out, open MR on [deploy-worker.sh](https://gitlab.com/gitlab-com/gl-infra/cells/http-router-deployer/-/blob/main/scripts/deploy-worker.sh) script to set the value back to the full sequence `"5 25 50 75 100"`. Example: `ROLLOUT_PERCENTAGES="5 25 50 75 100"`. Remove the `OVERRIDE_LAST_PERCENTAGE` and `CHANGE_LOCK_OVERRIDE` environment variables in [`.gitlab-ci.yml`](https://gitlab.com/gitlab-com/gl-infra/cells/http-router-deployer/-/blob/main/.gitlab-ci.yml).
 
 ## Request flows
 
