@@ -587,7 +587,7 @@ All proposals or future decisions must follow these goals;
     - The "skipped" status should not be considered a success. Jobs with `when: on_success` should **not** run after it.
     - The "ignored" status (for non-blocking manual jobs) should also not be considered a success. However,
       it is also **not** a failure. Jobs with `when: on_success` should run after it.
-1. A new keyword structure must be introduced to specify if a job is an "automatic", "manual", or "delayed" job.
+1. A new keyword structure must be introduced to specify if a job is an "auto", "manual", or "delayed" job.
     - Why: It is not the responsibility of the `when` keyword.
     - How: A new keyword will be introduced to control the behavior of a job.
 1. The `needs` keyword must only control the order of the jobs. It must not be used to control the behavior of the jobs
@@ -602,18 +602,18 @@ All proposals or future decisions must follow these goals;
 
 **Introduce new keyword structures for job execution types**
 
-- A new keyword, `execution`, will be introduced to specify whether a job is `automatic`, `manual`, or `delayed`.
-  - `automatic`: Runs immediately without user intervention.
+- A new keyword, `mode`, will be introduced to specify whether a job is `auto`, `manual`, or `delayed`.
+  - `auto`: Runs immediately without user intervention.
   - `manual`: Requires manual triggering.
   - `delayed`: Runs after a specified delay without user intervention.
-- This separates job behavior from the `when` keyword, allowing `execution` to clearly define how the job is triggered.
+- This separates job behavior from the `when` keyword, allowing `mode` to clearly define how the job is triggered.
 
 **Introduce a new keyword to control manual job blocking behavior**
 
 - A keyword (`blocker`) will be added to define whether a manual job blocks the pipeline from proceeding.
 - This will remove the dependency on `allow_failure` for controlling blocking behavior.
-- For example, a job with `execution: manual` and `blocker: false` will not block the pipeline.
-- This can also be used with the `execution: delayed` jobs. Currently, `delayed` jobs are always blocking the pipeline.
+- For example, a job with `mode: manual` and `blocker: false` will not block the pipeline.
+- This can also be used with the `mode: delayed` jobs. Currently, `delayed` jobs are always blocking the pipeline.
   With this keyword, we can define whether a `delayed` job is blocking or not.
 
 **Clarify the behavior of the `when` keyword**
@@ -621,7 +621,7 @@ All proposals or future decisions must follow these goals;
 - The `when` keyword will continue to decide and answer only the question of **under what conditions a job should run**.
   It will not control job types or pipeline inclusion.
   - For example: `when: on_success`, `when: on_failure`, `when: always`.
-- The `when` keyword will not work with `manual` and `delayed` when `execution` is used.
+- The `when` keyword will not work with `manual` and `delayed` when `mode` is used.
 
 **New way to control pipeline inclusion**
 
@@ -676,7 +676,7 @@ All proposals or future decisions must follow these goals;
 
 ```yaml
 job1:
-  execution: automatic # default, options: automatic, manual, delayed
+  mode: auto # default, options: auto, manual, delayed
   when: on_success # default, options: on_success, on_failure, always
   script: exit 0 # success
   rules:
@@ -684,17 +684,17 @@ job1:
       included: true # default, options: true, false (replaces `when: never`)
 
 job2:
-  execution: manual
+  mode: manual
   blocker: false # default, options: true, false
   script: exit 0 # success
 
 job3:
-  execution: delayed
+  mode: delayed
   delay: 1h
   script: exit 0 # success
 
 job4:
-  execution: manual
+  mode: manual
   blocker: true
   script: exit 0 # success
 
