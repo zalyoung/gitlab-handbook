@@ -76,12 +76,12 @@ preferred SSH authentication mechanisms.
 ![reverse gRPC tunnel into Workspaces](img/workspace-grpc-tunnel.png)
 
 This idea was demonstrated in this
-[video demo](TODO: Make demo for workspaces) which is composed of
+[video demo](https://youtu.be/hw5gExP_gvA) which is composed of
 POC changes in the following merge requests:
 
+1. https://gitlab.com/gitlab-org/gitlab/-/merge_requests/176478
 1. https://gitlab.com/gitlab-org/cluster-integration/gitlab-agent/-/merge_requests/2084
 1. https://gitlab.com/gitlab-org/workspaces/gitlab-workspaces-tools/-/merge_requests/19
-1. TODO: MR for GitLab workspace tunnel agent injection
 
 ![reverse gRPC tunnel into CI](img/workspace-tunnel-and-ci.png)
 
@@ -91,6 +91,21 @@ POC changes in the following merge requests:
 
 1. https://gitlab.com/gitlab-org/cluster-integration/gitlab-agent/-/merge_requests/2084
 1. https://gitlab.com/gitlab-org/workspaces/gitlab-workspaces-tools/-/merge_requests/19
+
+### Agent lifecycle
+
+In this proposal we will be introducing a new type of agent. We'll call it a
+"tunneling agent" for now but we may come up with a different name once we start
+developing it.
+
+These tunneling agents will be short lived ephemeral agents that only exist for
+the lifecycle of a single workload that needs to be tunnelled into. In the case
+of Workspaces we will create these agents when we create a workspace and we will
+expire/destroy them after the workspace is terminated. They will have a short
+lived agent token that is injected into the workspace via environment variables.
+
+These agents will not be shown in other parts of the GitLab application and do
+not require agent config files like normal agentk agents.
 
 ## Iteration plan
 
