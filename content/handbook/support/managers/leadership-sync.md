@@ -116,8 +116,6 @@ When adding the event to the calendar, ensure:
 1. You put it on the GitLab Support calendar (option is right below the `Add notification` option)
 1. You set the availability to `Free` (option is right below which calendar to put it on). This is **vital** to ensure it does not block customer calls.
 1. Invite the correct list of people
-   - <jmichniewicz@gitlab.com>
-   - <rtakken@gitlab.com>
    - <support-managers@gitlab.com>
 1. Under `Guest permissions`, have the following boxes checked:
    - Invite others
