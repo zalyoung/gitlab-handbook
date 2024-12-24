@@ -10,12 +10,11 @@ for beta testing in Q4 FY25, with a general availability target of Q2 FY26.
 
 ## Who is using Hosted Runners?
 
-To identify if a customer is using Hosted Runners, use Switchboard. 
+To identify if a customer is using Hosted Runners, use Switchboard.
 
 1. Log in to Switchboard -- all Support Engineers can [access Switchboard](dedicated_switchboard.md#accessing-switchboard)
 1. Click **Manage** next to the tenant that you're interested in
-3. Look for **Hosted runners** at the top (If you do not see **Hosted runners**, that tenant isn't using Hosted runners for GitLab Dedicated)
-
+1. Look for **Hosted runners** at the top (If you do not see **Hosted runners**, that tenant isn't using Hosted runners for GitLab Dedicated)
 
 ## Viewing Logs
 
