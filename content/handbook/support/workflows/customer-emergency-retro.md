@@ -4,7 +4,19 @@ category:
 description: ""
 ---
 
-The GitLab Support team puts a lot of effort into solving problems during customer emergencies. During emergencies, we sometimes identify challenges that are not limited to the specific customer we’re helping. Conducting retrospectives on these situations can help us to ensure we retain the insights we gain during these emergencies. The questions raised during retrospectives help us to improve our product and processes to the benefit of all.
+The GitLab Support team puts a lot of effort into solving problems during customer emergencies. During emergencies, we sometimes identify challenges that are not limited to the specific customer we’re helping. Conducting retrospectives (or "retros") on these situations can help us to ensure we retain the insights we gain during these emergencies. The questions raised during retrospectives help us to improve our product and processes to the benefit of all.
+
+
+
+## :feather: Retro Principles
+
+A few key principles to keep in mind:
+
+- It is not necessary to conduct a retro on every emergency.
+  - If during an emergency you think "we really need a better way to deal with _that_ in the future", you should probably conduct a retro on that emergency.
+- A retro is a [blameless opportunity](https://docs.gitlab.com/ee/tutorials/scrum_events/standups_retrospectives_velocity.html#sprint-retrospectives) for the team to identify process improvements.
+- :feather: Retros should be as lightweight as possible.
+- :reminder_ribbon: [Not every problem should lead to a new process to prevent them.](https://handbook.gitlab.com/handbook/values/#accept-mistakes).
 
 ## :robot:  Automation
 
