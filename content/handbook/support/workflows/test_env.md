@@ -82,7 +82,7 @@ Check out a [this demo video](https://www.youtube.com/watch?v=aBF-AyQiFfA) for d
 
 #### Other GCP Projects
 
-**Warning:** You may also have access to the `gitlab-internal` and `gitlab-support` GCP projects. You should use GitLab Sandbox Cloud instead of creating new resources in these projects like `gitlab-internal` or `gitlab-support`.
+**Warning:** You may also have access to the `gitlab-internal` and `gitlab-support` GCP projects. You should use [GitLab Sandbox Cloud](#cloud-testing-environments) instead of creating resources in these projects.
 
 
 **Note:** Please remember to shut down or delete any resources that you are no longer using.
