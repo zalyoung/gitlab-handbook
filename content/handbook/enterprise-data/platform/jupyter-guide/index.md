@@ -23,7 +23,7 @@ JupyterLab is configured to run in a [virtual environment](https://docs.python.o
 When setting up JupyterLab, the following will happen:
 
 - [uv](https://astral.sh/blog/uv) will be downloaded to your local machine and used to set up a virtual environment (venv). UV is extremely fast and a great replacement tool for many common python tools (pipenv, pip-compile, install, etc.)
-- venv will be created using the python version and packages (and their dependecies) as defined in [pyproject.toml](https://gitlab.com/gitlab-data/data-science/-/blob/main/pyproject.toml) 
+- venv will be created using the python version and packages (and their dependecies) as defined in [pyproject.toml](https://gitlab.com/gitlab-data/data-science/-/blob/main/pyproject.toml)
 - JupyterLab will be built withint the venv
 
 ## Installation Instructions
@@ -106,14 +106,14 @@ c.JupyterLabTemplates.include_default = False
 1. Ensure that **Model experiments** is toggled on under **Settings -> General -> Visibility, project features, permissions** for your project in GitLab
 1. Locate the project id for your project under **Settings -> General**
 1. On your local machine, you will need to create two new environment variables `MLFLOW_TRACKING_TOKEN` and `MLFLOW_TRACKING_URI`
-    1. Open up your shell resource file (`.zshrc`, for example) in your local machine home directory.
-    1. Add the following line `export MLFLOW_TRACKING_TOKEN="your-access-token"`
-    1. Add the following line `export MLFLOW_TRACKING_URI="https://gitlab.com/api/v4/projects/{your-project-id}/ml/mlflow"`, but with your project id. Alternatively, you can also place this directly in your notebook.
-    1. Save the file
-    1. Source the file (i.e. `source ./zshrc`) or exit terminal and restart
+   1. Open up your shell resource file (`.zshrc`, for example) in your local machine home directory.
+   1. Add the following line `export MLFLOW_TRACKING_TOKEN="your-access-token"`
+   1. Add the following line `export MLFLOW_TRACKING_URI="https://gitlab.com/api/v4/projects/{your-project-id}/ml/mlflow"`, but with your project id. Alternatively, you can also place this directly in your notebook.
+   1. Save the file
+   1. Source the file (i.e. `source ./zshrc`) or exit terminal and restart
 1. Launch JupyterLab. You should now be able to initialize the experiment tracker with the `mlflow.set_tracking_uri(os.getenv('MLFLOW_TRACKING_URI'))`command in JupyterLab
 
-**Note:* If looking to connect to the Model Experiments when using CI, refer to [Model Training Step-by-Step Instructions](/handbook/enterprise-data/platform/ci-for-ds-pipelines#model-training-step-by-step-instructions)**
+**Note:** If looking to connect to the Model Experiments when using CI, refer to [Model Training Step-by-Step Instructions](/handbook/enterprise-data/platform/ci-for-ds-pipelines#model-training-step-by-step-instructions)
 
 ## Some interesting libraries included
 
