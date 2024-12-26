@@ -1,0 +1,139 @@
+---
+title: "Compliance Frameworks ADR 007: External Custom Requriements"
+toc_hide: true
+---
+
+## Context
+
+Users need to be able to create controls on their own as their requirements might not match what GitLab offers by default. 
+
+## External requirements
+
+We would store the external HTTP/HTTPS URLs for the user's external services in the compliance_requirements table with
+'external' as the `requirement_type`.
+
+We would POST the latest project settings to these external services and expect a boolean status as the response.
+We could also create a POST API that can be used to update the status of an external requirement, this would be a
+similar to [setting the status of external status checks](https://docs.gitlab.com/ee/api/status_checks.html#set-status-of-an-external-status-check).
+
+## Workflow
+
+```mermaid
+flowchart TD
+    A[Requirement has external_url set & type is external] -->|post message to external service| B(set control to pending state)
+    B --> C{wait max 6 hours}
+    C -->|external service didn't reply| D[default to failed]
+    C -->|External service replied| E[use reply status]
+```
+
+When evaluating requirements we trigger a message to the external service if it has an `external_url` defined and is of `control_type` `external`.
+After posting we set the corresponding `project_compliance_configuration_status` entry to state `pending` and allow for a timeout of `6 hours`. 
+There will be a separate, worker, preiodically run, checking for status entries that are older than the timeout and still in state `pending`, these entries will be defaulted to a `fail` state.
+(This adds an additionals state to what's been mentioned in [ADR001](https://handbook.gitlab.com/handbook/engineering/architecture/design-documents/compliance-adherence-reporting/decisions/001_triggering_checks/#decision))
+
+When the external service reports back inside the timout we set the status in table `project_compliance_configuration_status` to store the results of the requirements as the external service indicated. 
+
+### Application Programmer Interfaces (APIs)
+
+For the external service to be able to post the requirement control results they have we need to provide APIs to do so.
+This allows external systems to report and query the compliance status of specific project requirements.
+
+#### REST
+
+##### Query
+
+`GET https://gitlab.com/api/v4/projects/control_statuses/:id/`
+
+```
+curl -X GET \
+  'https://gitlab.com/api/v4/projects/control_statuses/123/' \
+  -H 'Authorization: Bearer glpat-XXXXXXXXXXXXXXXXX' \
+  -H 'Content-Type: application/json'
+```
+
+##### Update
+
+`PUT https://gitlab.com/api/v4/projects/control_statuses/:id/?status=[fail|success]`
+
+```
+curl -X PUT \
+  'https://gitlab.com/api/v4/projects/control_statuses/123/?status=success' \
+  -H 'Authorization: Bearer glpat-XXXXXXXXXXXXXXXXX' \
+  -H 'Content-Type: application/json'
+```
+
+#### GraphQl
+
+##### Types
+
+```graphql
+type ProjectsComplianceControlStatus {
+  id: ID!
+  status: ComplianceControlState!
+  projectId: ID!
+  namespaceId: ID!
+  complianceRequirementId: ID!
+  createdAt: DateTime!
+  updatedAt: DateTime!
+}
+
+enum ComplianceControlState {
+  FAIL
+  SUCCESS
+  PENDING
+}
+```
+
+##### Query
+
+```grqphql
+query GetProjectsComplianceControlStatus($id: ID!) {
+  complianceStatus(id: $id) {
+    id
+    status
+    projectId
+    updatedAt
+  }
+}
+```
+
+##### Mutation
+
+```graphql
+mutation UpdateProjectsComplianceControlStatus(
+  $id: ID!
+  $status: ComplianceState!
+) {
+  updateComplianceStatus(
+    input: {
+      id: $id
+      status: $status
+    }
+  ) {
+    complianceStatus {
+      id
+      status
+      updatedAt
+    }
+    errors
+  }
+}
+```
+
+### Auditing
+
+Audit events need to be created for the following events in this workflow:
+
+1. Triggering of message to external service.
+1. Network timeouts encountered when attempting to message external service.
+1. Storing reply form external service.
+1. Defaulting to failed state when timeout is reached.
+
+
+## Constraints
+
+1. We should limit the amount of pending status checks a requirement can have in pending state to keep execution of the worker that checks for timeouts lean. 
+
+## Decision
+
+We decied to let external services post the status of their controls back to us in an async manner allowing for more time to let them perform more complex checks.
