@@ -86,7 +86,7 @@ We also include in this report other topics relevant to our business and stakeho
 
 The [United Nations Sustainable Development Goals (“UN SDGs”)](https://sdgs.un.org/goals) provide a shared blueprint for peace and prosperity for people and the planet, now and into the future. Our ESG efforts currently align with five of the 17 UN SDGs, and we seek to drive progress on the goals within our operations. We will continue to revisit and deepen our alignment as we make progress on our ESG strategy.
 
-![5_SDGs](/handbook/esg/All_5_Icons.png)
+![5_SDGs](/images/esg/All_5_Icons.png)
 
 ### Social
 
@@ -339,7 +339,7 @@ As a fully remote company, GitLab has no Scope 1 (direct) emissions or Scope 2 e
 
 Our emissions increased in FY24 partially due to improvements in our methodology. For FY24, we estimated emissions using the Comprehensive Environmental Data Archive (CEDA), a multi-regional economic and environmental database, as it better reflects the global nature of supply chains, helping capture differences in emissions profiles that vary significantly from one country to another. We also expanded our measurement to include emissions from investments (as defined under Category 15 of the GHG Protocol).
 
-![GHG_Inventory](/handbook/legal/esg/FY24_GHG_Inventory.png)
+![GHG_Inventory](/images/legal/esg/FY24_GHG_Inventory.png)
 
 More detailed results of our inventory are available in the [Performance Data Table](https://about.gitlab.com/documents/FY24_Performance_Data_Tables.pdf). Our third-party assurance letter of our FY24 GHG inventory is available [here](https://about.gitlab.com/documents/GitLab_FY2024_General_Verification_Opinion.pdf).
 

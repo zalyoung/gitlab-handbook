@@ -1316,7 +1316,7 @@ Think of the hierarchy as a weighting system. Values higher in the hierarchy do 
 - If a change impacts Transparency positively but impacts Efficiency negatively in roughly the same amount, we would move ahead since Transparency is higher in the hierarchy than Efficiency.
 - If a change has a massive positive impact on Diversity but negatively impacts Iteration, we would move ahead even though Diversity is lower in the hierarchy than Iteration because the overall impact is more positive than negative.
 
-![Values](images/values.svg)
+![Values](/images/values/values.svg)
 
 In a [GitLab Unfiltered interview on values](https://youtu.be/7kMQj4O4ZGU), GitLab co-founder Sid Sijbrandij offers the following context.
 

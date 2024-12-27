@@ -163,7 +163,7 @@ This will post a preview of the link alongside the message.
 You can remove the unfurled preview of the link by hitting the "x" in the top-left of the preview.
 This will then prompt you to confirm removing the attachment, which you can hit "Yes, remove".
 
-![Unfurl attachment removal](/handbook/tools-and-tips/images/unfurl-remove.png)
+![Unfurl attachment removal](/images/tools-and-tips/unfurl-remove.png)
 
 In the confirmation prompt you may also see a checkbox to *"Disable future attachments from this website"*.
 As a workspace admin if you select the disable option **this will denylist the link/domain across the workspace and will impact every user**.

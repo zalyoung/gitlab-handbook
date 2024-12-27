@@ -3,7 +3,7 @@ title: "Activate your Agile Career"
 description: "An overview of our remote TMRG GitLab Women"
 ---
 
-![text image announcing activate your agile career program.](program-header.png)
+![text image announcing activate your agile career program.](/images/company/culture/inclusion/tmrg-gitlab-women/program-header.png)
 {style="max-width: 50%;"}
 
 **Calling all Women TMRG Members!**
@@ -30,7 +30,7 @@ As a participant in this program, GitLab team members will:
 1. Contribute to, and benefit from, a support and accountability network.
 1. Gain clarity on how resources at GitLab can support their career goal achievement in the next 6-12 months.
 
-![text image outlining 5 benefits for participants.](program-benefits.png)
+![text image outlining 5 benefits for participants.](/images/company/culture/inclusion/tmrg-gitlab-women/program-benefits.png)
 {style="max-width: 50%;"}
 
 ## Eligibility
@@ -78,7 +78,7 @@ Yes! All 3 live sessions will be recorded. Cohorts will be organized across time
 
 Below, use the infographic and list to understand what resources are available to you as a GitLab team member and how they fit into the Agile Career Framework.
 
-![infographic connecting career agility framework with GitLab resources.](agility-at-gitlab.jpg)
+![infographic connecting career agility framework with GitLab resources.](/images/company/culture/inclusion/tmrg-gitlab-women/agility-at-gitlab.jpg)
 {style="max-width: 50%;"}
 
 | Resource | Details | Integrate It |

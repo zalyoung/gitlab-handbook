@@ -10,7 +10,7 @@ One of the most important factors in people's decisions to stay or leave a job i
 
 ## What is emotional intelligence?
 
-![ven diagram explanining elements of emotional intelligence.](eq-diagram.jpg)
+![ven diagram explanining elements of emotional intelligence.](/images/leadership/emotional-intelligence/eq-diagram.jpg)
 {.shadow.medium.center}
 
 EQ is defined as the ability to understand and manage your own emotions, as well as recognize and influence the emotions of those around you, according to [Harvard Business review](https://online.hbs.edu/blog/post/emotional-intelligence-in-leadership). At GitLab, we operate in an [all-remote environment](/handbook/company/culture/all-remote/guide/) where [team members communicate](/handbook/communication/) virtually across the globe. By fostering EQ, we can establish a level of connection in an all-remote environment.
