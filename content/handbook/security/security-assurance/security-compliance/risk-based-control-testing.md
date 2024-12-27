@@ -56,14 +56,13 @@ While the Security-Compliance will perform risk-based control testing on a quart
 
 If you have a process or control that you think should be tested based on the criteria above that we might not be covering already, please follow these steps. Note: to have an entire system (new or changing) assessed, please see the [Security System Intake](./sec-controls.md) process.
 
-### 1. Confirm that the controls are not already tested
-
-(to be updated - https://gitlab.com/gitlab-com/gl-security/security-assurance/security-compliance/team/-/issues/267) 
-
-### 2. Create a Security Compliance Intake Issue
+### 1. Create a Testing Request Issue.
 
 (to be updated - https://gitlab.com/gitlab-com/gl-security/security-assurance/security-compliance/team/-/issues/267)
 
-### 3. Security Compliance workflow
+### 2. Security Compliance completes the following workflow
 
-(to be updated - https://gitlab.com/gitlab-com/gl-security/security-assurance/security-compliance/team/-/issues/267)
+- Confirms current state of testing via Hyperproof
+- Reviews the control based on the criteria above and feedback provided in issue
+- Provides feedback to requestor in issue
+- Updates the quarterly testing plan as needed
