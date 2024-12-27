@@ -12,7 +12,7 @@ An **Executive ROI Progress and Impact Review (EPR)** is a strategic meeting wit
 
 The EPR is interactive, with discussions on the customer’s desired business outcomes, ROI metrics, progress against these metrics, and alignment on strategic next steps. The key element of an EPR is providing customer stakeholders the opportunity to speak on what matters to them and creating a success plan to achieve their business goals.
 
-## Alignment with External and Internal Stakeholders: The Importance of the Executive ROI Progress and Impact Review (EPR)
+## Alignment with Stakeholders: The Importance of the EPR
 
 The Executive ROI Progress and Impact Review (EPR) is an essential opportunity to align on strategic goals, assess progress, and plan for future success. It typically brings together both GitLab and customer leadership to ensure mutual understanding and continued collaboration. During regular meetings, introduce the EPR to key customer stakeholders, highlighting its value in driving business outcomes and fostering stronger partnerships.
 
@@ -32,7 +32,6 @@ GitLab encourages participation from decision-makers and influential stakeholder
 | Chief Product Officer                               |                                        |
 | DevOps Leadership (for example, SVP, VP, Director)         |                                        |
 | Product Leadership (for example, SVP, VP, Director)        |                                        |
-
 
 ## Executive ROI Progress and Impact Review (EPR) Process and Overview
 
@@ -57,6 +56,7 @@ Throughout the EPR’s development, the CSM & account team collaborate with thei
 The EPR session focuses on evaluating the customer’s GitLab adoption ROI, its impact on their business, and alignment on future goals. It provides an opportunity to review progress, address challenges, and plan next steps to ensure ongoing value and strategic alignment.
 
 **Sample Agenda:**
+
 1. **Welcome and Introductions** – Overview of key attendees and meeting objectives.
 2. **Customer Journey** – Overview of the reason for purchase and GitLab enablement/ROI journey.
 3. **ROI & Value Review** – Assess the measurable impact of GitLab solutions on business outcomes.
