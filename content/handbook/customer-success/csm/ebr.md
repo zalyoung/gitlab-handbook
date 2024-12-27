@@ -99,25 +99,24 @@ Action items and next steps, captured in the EPR deck and discussion, must be pr
 
 ### Success Planning
 
-No EPR is complete without updating the success plan. Within a few days of the EPR, while information is fresh, the CSM updates the customer’s success plan with the confirmed objectives and action items. All sections of the success plan should be updated based on the EPR discussion & takeaways. 
+No EPR is complete without updating the success plan. Within a few days of the EPR, while information is fresh, the CSM updates the customer’s success plan with the confirmed objectives and action items. All sections of the success plan should be updated based on the EPR discussion & takeaways.
 
 ## FAQ
 
-**Q: Is this EPR just another sales pitch for renewal?**  
+**Q: Is this EPR just another sales pitch for renewal?**
 A: No, it is not. The EPR is a strategic touchpoint focused on aligning GitLab with the customer’s organizational objectives, not a renewal conversation. Renewal discussions are separate and follow a different process.
 
-**Q: Who should attend the EPR from the customer side?**  
+**Q: Who should attend the EPR from the customer side?**
 A: Key stakeholders who influence or oversee strategic initiatives should attend, ensuring the session aligns GitLab solutions with long-term objectives.
 
-**Q: How is an EPR different from regular cadence calls?**  
+**Q: How is an EPR different from regular cadence calls?**
 A: Cadence calls are often project-focused, whereas an EPR provides a strategic review of long-term goals, current successes, and future roadmaps, involving leadership from both sides.
 
-**Q: How are feature requests handled during the EPR?**  
+**Q: How are feature requests handled during the EPR?**
 A: The EPR focuses on strategic goals, but notable feature requests aligning with objectives may be acknowledged. In-depth feature discussions are usually handled separately.
 
-**Q: What kind of preparation should a customer do before the EPR?**  
+**Q: What kind of preparation should a customer do before the EPR?**
 A: Reviewing GitLab usage and identifying upcoming initiatives or goals helps ensure a productive discussion on how GitLab can best support objectives.
 
 ---
-*For further details, visit:* [GitLab Success Plans Documentation](/content/handbook/customer-success/csm/success-plans/)
-
+*For further details, visit:* [GitLab Success Plans Documentation](/handbook/customer-success/csm/success-plans/)
