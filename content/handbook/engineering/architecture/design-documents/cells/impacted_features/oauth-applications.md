@@ -39,16 +39,16 @@ OAuth and OIDC have multiple endpoints, with variations in how these requests ar
 1. **Endpoints with `client_id` and `client_secret`:**
    Requests like `/oauth/authorize`, `/oauth/token`, and `/oauth/revoke` include these values either in the request body or URI.
 
-2. **User session-based endpoints:**
+1. **User session-based endpoints:**
    Endpoints like `/oauth/applications`, `/oauth/applications/new`, `/oauth/applications/:id`, and `/oauth/authorized_applications` are processed after the user session is established.
 
-3. **Token-authenticated endpoints:**
+1. **Token-authenticated endpoints:**
    `/oauth/token/info` is authenticated using an OAuth token.
 
-4. **Configuration endpoints:**
+1. **Configuration endpoints:**
    Requests such as `.well-known/openid-configuration`, `.well-known/webfinger`, and `/oauth/discovery/keys` return configurations relevant across all Cells.
 
-5. **User info endpoints:**
+1. **User info endpoints:**
    `/userinfo` is authenticated via the access token sent in the `Authorization` header.
 
 ## 3. Implementation Status for Cells 1.0
@@ -61,8 +61,8 @@ OAuth applications are partially available in Cells 1.0 using a best-effort appr
 Organization handling in Cells 1.0 works as follows:
 
 1. The system attempts to determine the `organization_id` from the current_organization data fetched from the OAuth grant page
-2. When current_organization data is not available, the system falls back to using the default organization
-3. For the OAuth resource owner password flow, special handling is required:
+1. When current_organization data is not available, the system falls back to using the default organization
+1. For the OAuth resource owner password flow, special handling is required:
    - The `organization_id` must be specified manually
    - If not specified, the system will fall back to a default `organization_id`
 
