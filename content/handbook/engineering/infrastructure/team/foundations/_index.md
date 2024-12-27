@@ -137,13 +137,11 @@ The Foundations Team must maintain a broad and diverse set of technical skills w
 We have Geekbot automated checkins on Mondays and Fridays in the [#g_foundations](https://gitlab.enterprise.slack.com/archives/C0313V3L5T6) channel.
 
 - Monday questions include:
-  - What are your top priorities this week?
-  - What did you accomplish last week?
-  - What else is on your todo list for the week?
-  - Any blockers or requests for pairing?
+  - What are you working on this week?
+  - Do you have any blockers?
 - Friday questions include:
-  - How did your week go?
-  - What were your wins this week?
+  - What did you do this week?
+  - Anything else you'd like to share?
 
 ### Retros
 
