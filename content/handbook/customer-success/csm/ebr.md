@@ -1,5 +1,5 @@
 ---
-title: "Executive Business Reviews (EBRs)" - 
+title: "Executive Business Reviews (EBRs)"
 ---
 
 View the [CSM Handbook homepage](/handbook/customer-success/csm/) for additional CSM-related handbook pages.
@@ -23,14 +23,14 @@ GitLab encourages participation from decision-makers and influential stakeholder
 
 | Customer Stakeholder Recommendations                | GitLab Potential Attendance            |
 |-----------------------------------------------------|----------------------------------------|
-| Application Security (e.g., SVP, VP, Director)      | Customer Success & Leadership          |
-| Engineering Leadership (e.g., SVP, VP, Director)    | Sales & Leadership                     |
-| Site Reliability Engineering Leadership (e.g., SVP, VP, Director) | Engineering & Leadership |
+| Application Security (for example, SVP, VP, Director)      | Customer Success & Leadership          |
+| Engineering Leadership (for example, SVP, VP, Director)    | Sales & Leadership                     |
+| Site Reliability Engineering Leadership (for example, SVP, VP, Director) | Engineering & Leadership |
 | Chief Technology Officer                            | Product Management & Leadership        |
 | Chief Information Security Officer                  | Solution Architects & Leadership       |
 | Chief Product Officer                               |                                        |
-| DevOps Leadership (e.g., SVP, VP, Director)         |                                        |
-| Product Leadership (e.g., SVP, VP, Director)        |                                        |
+| DevOps Leadership (for example, SVP, VP, Director)         |                                        |
+| Product Leadership (for example, SVP, VP, Director)        |                                        |
 
 
 ## Executive ROI Progress and Impact Review (EPR) Process and Overview
@@ -119,5 +119,5 @@ A: The EPR focuses on strategic goals, but notable feature requests aligning wit
 A: Reviewing GitLab usage and identifying upcoming initiatives or goals helps ensure a productive discussion on how GitLab can best support objectives.
 
 ---
-*For further details, visit:* [GitLab Success Plans Documentation](https://handbook.gitlab.com/handbook/customer-success/csm/success-plans/)
+*For further details, visit:* [GitLab Success Plans Documentation](/content/handbook/customer-success/csm/success-plans/)
 
