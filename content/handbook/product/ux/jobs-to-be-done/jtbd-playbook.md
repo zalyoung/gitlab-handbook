@@ -46,8 +46,8 @@ When considering the Job Performer, ask yourself: Who are you innovating for? Wh
 
 1. Brainstorm (5 min): List actors/stakeholders who relate to the selected domain.
 1. Vote (5 min): Each workshop participate votes
-  - <3 participants: 2 votes each, you can vote on the same item
-  - >3 participants: 1 vote each
+   - <3 participants: 2 votes each, you can vote on the same item
+   - >3 participants: 1 vote each
 1. Move winner to canvas
 
 #### Exercise 3: Main Job Selection (15 min)
@@ -56,8 +56,8 @@ When considering the Main Job, ask yourself: What has strategic value? What are 
 
 1. Brainstorm (10 min): List all jobs your selected Job Performer tries to accomplish
 1. Vote (5 min): Each workshop participate votes
-  - <3 participants: 2 votes each, you can vote on the same item
-  - >3 participants: 1 vote each
+   - <3 participants: 2 votes each, you can vote on the same item
+   - >3 participants: 1 vote each
 1. Move winner to Main Job section
 1. Move others to Related Jobs section
 
@@ -67,8 +67,8 @@ When considering aspirations, ask yourself: What does our Job Performer aspire t
 
 1. Brainstorm (10 min): List what Job Performer wants to become after completing Main Job
 1. Vote (5 min):
-  - <3 participants: 6 votes each, you can vote on the same item
-  - >3 participants: 3 votes each
+   - <3 participants: 6 votes each, you can vote on the same item
+   - >3 participants: 3 votes each
 1. Move top 3 to Aspirations section
 
 ### Conduct Investigation Interviews
@@ -97,12 +97,12 @@ After interviews, synthesize the collected information into your JTBD Canvas, fo
 #### Exercise 1: Complete Job Map
 
 1. If per-interview Job Maps were not created during interviews, create them now:
-  - Capture steps chronologically by reviewing interview notes/videos
-  - Rewrite steps following the [Job Step guidelines](/handbook/product/ux/jobs-to-be-done/#job-steps-how-does-the-job-performer-get-the-job-done)
+   - Capture steps chronologically by reviewing interview notes/videos
+   - Rewrite steps following the [Job Step guidelines](/handbook/product/ux/jobs-to-be-done/#job-steps-how-does-the-job-performer-get-the-job-done)
 1. Create unified Job Map:
-  - Group steps into Beginning, Middle, and End categories
-  - Organize related steps into vertical stacks
-  - Label stacks with a high-level, single-word verb descriptor
+   - Group steps into Beginning, Middle, and End categories
+   - Organize related steps into vertical stacks
+   - Label stacks with a high-level, single-word verb descriptor
 
 #### Exercise 2: Construct Outcome Statements
 
@@ -113,12 +113,12 @@ After interviews, synthesize the collected information into your JTBD Canvas, fo
 #### Exercise 3: Synthesize Emotional and Social Aspects
 
 1. Emotional Aspects:
-  - Extract references to how the Job Performer feels when performing the Main Job
-  - Format per [guidelines](/handbook/product/ux/jobs-to-be-done/#Emotional-and-Social-aspects-how-does-the-job-performer-feel-while-doing-the-job-how-do-they-want-to-be-perceived-while-doing-the-job)
+   - Extract references to how the Job Performer feels when performing the Main Job
+   - Format per [guidelines](/handbook/product/ux/jobs-to-be-done/#Emotional-and-Social-aspects-how-does-the-job-performer-feel-while-doing-the-job-how-do-they-want-to-be-perceived-while-doing-the-job)
 
 2. Social Aspects:
-  - Extract references to how the Job Performer wants to be perceptived when performing the Main Job
-  - Format per [guidelines](/handbook/product/ux/jobs-to-be-done/#Emotional-and-Social-aspects-how-does-the-job-performer-feel-while-doing-the-job-how-do-they-want-to-be-perceived-while-doing-the-job)
+   - Extract references to how the Job Performer wants to be perceptived when performing the Main Job
+   - Format per [guidelines](/handbook/product/ux/jobs-to-be-done/#Emotional-and-Social-aspects-how-does-the-job-performer-feel-while-doing-the-job-how-do-they-want-to-be-perceived-while-doing-the-job)
 
 #### Exercise 4: Gather Job Differentiators
 
@@ -134,11 +134,11 @@ Using your Job Canvas, you will select your Job Steps, Emotional & Social Aspect
 When considering the most important job steps, ask yourself: Which steps are most challenging yet crucial to success?
 
 1. Review Job Map (5 min)
-  - Verify accuracy against interview data
-  - Make necessary adjustments
+   - Verify accuracy against interview data
+   - Make necessary adjustments
 1. Vote on Critical Steps (10 min)
-  - <3 participants: 2 votes each, you can vote on the same item
-  - >3 participants: 1 vote each
+   - <3 participants: 2 votes each, you can vote on the same item
+   - >3 participants: 1 vote each
 1. Discuss votes to align on priorities
 1. Identify top voted steps
 1. Copy final Job Map to canvas, marking selected steps
@@ -148,11 +148,11 @@ When considering the most important job steps, ask yourself: Which steps are mos
 When considering emotional aspects, ask yourself: Who are you innovating for? Where is there a need in our market? Who are we passionate about serving? What's relevant or core to our business strategy?
 
 1. Review (5 min)
-  - Share emotional aspects with team
-  - Ensure understanding
+   - Share emotional aspects with team
+   - Ensure understanding
 1. Vote (5 min)
-  - <3 participants: 6 votes each, you can vote on the same item
-  - >3 participants: 3 votes each
+   - <3 participants: 6 votes each, you can vote on the same item
+   - >3 participants: 3 votes each
 1. Arrange votes in priority pyramid
 1. Confirm team alignment on top choices
 1. Move top emotional aspects to canvas
@@ -172,16 +172,19 @@ Repeat Exercise 2 to select Job Differentiator Statements.
 Run this survey using the [qualtrics template](https://gitlab.eu.qualtrics.com/survey-builder/LS_2l5ektxWK1wFRuC/edit?ContextLibraryID=GR_6ziMa2ooJx4Y6SF) to prioritize your Outcome Statements. It is recommended to work with your UX Researcher to craft and delivery this survey.
 
 For each Outcome Statement, ask:
+
 1. How _important_ is this (Outcome) to you?
 2. How well is this (Outcome) currently being _satisfied_?
 
 Requirements:
+
 - Screen for participants who perform the Main Job
 - Target ~50 qualified responses
 - Include both GitLab and non-GitLab users
 - Use 10-point scale (1='very low', 10='very high')
 
 Resources:
+
 - [Analysis spreadsheet](https://docs.google.com/spreadsheets/d/109GZqTYPpOLpHLj-gwV_ldMFwIKa9MaaLPyLJ4kdoQs/edit?usp=sharing)
 
 #### Calculating Scores:
