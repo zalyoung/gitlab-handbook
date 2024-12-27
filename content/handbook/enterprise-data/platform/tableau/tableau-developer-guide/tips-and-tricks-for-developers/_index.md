@@ -457,6 +457,28 @@ The output of this tooltip would look like this: ![tooltip](images/image-13.png)
 
 Some additional design tips that may help your workbook creation efficency.
 
+### Using Containers for Developing Dashboards
+
+When you are building dashboards in Tableau, you can add sheets to the dashboard using two options - a "floating" sheet, or a "tiled" container. A floating sheet can be dropped anywhere on the dashboard and the size can be adjusted by using the sides, a tiled container needs to "snap" onto the background and needs to fit to the size of the larger container it is contained within.
+
+Beginners in Tableau tend to go straight to using floating containers for everything, but you will find if you talk with people who are very experienced in Tableau, they will recommend *always* using containers.
+
+There are many benefits to using containers, and it is in your best interest to get used to developing dashboards using containers, and never floating worksheets. The only situation that an item may benefit from "floating" on the dashboard is when it is a color legend or a dropdown item, that you want to put on top of a chart or a title.
+
+[Here](https://www.youtube.com/watch?v=96371LvULXM&t=80s) is a helpful short video with more information about containers.
+
+Here are some reasons to use containers:
+
+1. If you use a "floating" style for every worksheet, when you publish the workbook to the Cloud/ Server, some of your items may move a few inches in any direction for your end-user, depending on the size of their monitor/display.
+
+1. If you can learn to use a parameter to "turn off" and "turn on" a few related sheets, based on what is selected (so that only one worksheet is shown at a time), then containers are essential. 
+
+    Let's say you want to show table that either has information on 'Sales', 'Revenue', or 'Profit', and you create a parameter that has those three options as selections. You can create one worksheet for each of those three KPI's, and put a filter onto each worksheet so only one is "turned on" (showing) at a time, based on the parameter selection.
+
+    You would then take all three worksheets and put them into the same container (horizontal container or vertical container), and hide the "title" on each of the worksheets. This way, all three worksheets will always show up in the exact same location on the dashboard, and you do not have to mess around with trying to line them up perfectly as floating containers. When each of them "turn on", they will slide "open" to fill the entire Parent container that has all three worksheets in it. Your container will always be in the same spot, and so the worksheet within it will always be in the same spot.
+
+1. Many people use containers to group information. For example, you may have a bar chart with a legend, and a related table all tiled into one parent container. You might decide to move this. group of items from the left side of the dashboard, to the right. You can select the parent container and slide all three items over together, if you are using a container.
+
 ### Add GitLab Colors
 
 You can add a color palette to Tableau Desktop so that any time you need to choose colors for your visualizations, you have access to GitLab's colors in the color menu. Find more instructions [here](/handbook/enterprise-data/platform/tableau-style-guide/#standard-color-palette)
