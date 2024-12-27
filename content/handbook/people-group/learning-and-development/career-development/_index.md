@@ -232,7 +232,6 @@ Managers should support their direct reports with their professional development
 1. Recommend (and model) blocking [time to learn during the work week]({{< ref "learning-initiatives#take-time-out-to-learn-campaign" >}}).
 1. Organize team specific and cross-functional learning communities to practice [social learning]({{< ref "learning-initiatives#social-learning-through-live-learning" >}}).
 1. Model and share your own career and professional development pursuits.
-1. Create a [Learning Hub]({{< ref "work-with-us#creating-a-learning-hub-for-your-team" >}}) in Level Up with curated learning material for your team from an external provider, the Handbook, and other external resources.
 
 **Sample questions to ask your team:**
 
@@ -332,7 +331,6 @@ The bi-annual cadence is not required, but recommended. Some team members may pr
 
 - This is not mandatory, however we highly encourage all team members to discuss their career goals with their manager.
 - There is not one right way to document a career development conversation. Some team members may use their 1:1 document to capture the conversation and actions, others may use the [tools provided above]({{< ref "career-development#career-mapping-and-development" >}}) to help guide the conversation, or a team member may use their own personal template or process to have a career development conversation.
-- There is no timeline or deadline on this process, however, the goal is for all team members to acknowledge at least one career development conversation in FY'22.
 - If you have not had a career conversation yet it is up to you to schedule a time to review and discuss with your manager.
 - If you are new to GitLab the recommendation is that you start career conversations after your first 90 days.
 - Career conversations should not be confused with promotion conversations. Team members who do not want to increase their scope of work or be promoted, but are performing, should not feel pressured to move up or out. Career conversations can also focus on helping team members identify projects or other activities that keep the team member engaged and learning new skills. *Please note that development can also include lateral moves, or moving to another specialty within the same job family and job level.*
