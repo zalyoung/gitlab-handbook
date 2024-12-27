@@ -7,6 +7,7 @@ View the [CSM Handbook homepage](/handbook/customer-success/csm/) for additional
 ---
 
 ## Overview
+
 An **Executive ROI Progress and Impact Review (EPR)** is a strategic meeting with stakeholders from both GitLab and the customer. It is an extension of the account planning process and part of the CSM’s regular business rhythm. The Executive ROI Progress and Impact Review aims to demonstrate to the customer leadership and stakeholders the value they are receiving in their partnership with GitLab.
 
 The EPR is interactive, with discussions on the customer’s desired business outcomes, ROI metrics, progress against these metrics, and alignment on strategic next steps. The key element of an EPR is providing customer stakeholders the opportunity to speak on what matters to them and creating a success plan to achieve their business goals.
@@ -95,6 +96,7 @@ EPRs can be flexible to online or onsite. An in-person EPR is ideal to maximize 
 Within 1 business day, the CSM sends a follow-up email thanking participants, summarizing key takeaways, action items, and next steps, with assigned responsibilities and deadlines. The email will also include the slide deck and any agreed-upon materials.
 
 ### Action Items
+
 Action items and next steps, captured in the EPR deck and discussion, must be promptly addressed. The CSM ensures follow-ups are completed by the responsible parties to maintain momentum.
 
 ### Success Planning
