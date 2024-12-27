@@ -72,7 +72,6 @@ Order Management is focused on Opportunity Approvals, License Fulfillment and Su
 - Discount / Payment Term Approval Guidance
 - Opportunities below Stage-5
 
-
 Please review our [Job Family](/job-families/sales/order-management/) for more information regarding the scope of this team.
 
 ### Who and Where We Are
@@ -99,11 +98,11 @@ As noted above, the GitLab **Order Management** team is supported by several key
 
 ### Communicating with the Order Management Team
 
-- If support for an Opportunity or a Quote is required _prior_ to submitting for Approval, always use the “Request Support” workflow on the Opportunity Object to create a Case for the team you require support from (e.g. Deal Desk, Billing Ops, etc.) For general questions, please use the `#sales-support` Slack channel.
-- Please note that Cases are _not_ required when submitting an Opportunity or a Quote for Approval. Once an Opportunity or Quote is submitted for Approval, the approving team is notified and an Approval Queue is managed by the team to support processing the Approval. 
+- If support for an Opportunity or a Quote is required *prior* to submitting for Approval, always use the “Request Support” workflow on the Opportunity Object to create a Case for the team you require support from (e.g. Deal Desk, Billing Ops, etc.) For general questions, please use the `#sales-support` Slack channel.
+- Please note that Cases are *not* required when submitting an Opportunity or a Quote for Approval. Once an Opportunity or Quote is submitted for Approval, the approving team is notified and an Approval Queue is managed by the team to support processing the Approval. 
 - If a Quote or an Opportunity is submitted for approval and additional information or action is required by the Order Management team, the supporting team will Chatter the rep on the Opportunity and leave any necessary notes in the Approval Comment.
 
-If support for an Opportunity or a Quote is required _prior_ to submitting for Approval, this can be requested on the Opportunity Object in SFDC, by clicking on the “Request Support” button in the top right hand side of the page layout. Please reference the [Requesting Internal Support](https:/handbook.gitlab.com/handbook/sales/field-operations/requesting-internal-support) section in the Handbook for detailed instructions.
+If support for an Opportunity or a Quote is required *prior* to submitting for Approval, this can be requested on the Opportunity Object in SFDC, by clicking on the “Request Support” button in the top right hand side of the page layout. Please reference the [Requesting Internal Support](https:/handbook.gitlab.com/handbook/sales/field-operations/requesting-internal-support) section in the Handbook for detailed instructions.
 
 For enablement on how to request support by creating a SFDC Case for Deal Desk or Billing, please reference the [New Internal Support Request + Quote Approval Processes - 2024-11-21](https://gitlab.highspot.com/items/673f8c8deaa0ddae6c0b99f8) in HighSpot.
 
