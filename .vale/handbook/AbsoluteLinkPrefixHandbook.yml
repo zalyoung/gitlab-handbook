@@ -1,0 +1,20 @@
+---
+# Error: handbook.AbsoluteLinkPrefixHandbook
+#
+# Checks for links that start with "handbook/" instead of "/handbook/".
+#
+# For a list of all options, see https://vale.sh/docs/topics/styles/
+extends: existence
+message: "This link is missing a leading slash, it must start with '/handbook/'."
+link: https://handbook.gitlab.com/docs/markdown-guide/#links
+level: error
+scope: raw
+raw:
+  - '\[[^\]]+\]\(handbook/.*?\)'
+action:
+  name: edit
+  params:
+    - regex
+    - '\]\(handbook/'  # pattern
+    - '](/handbook/'  # replacement
+

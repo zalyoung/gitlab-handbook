@@ -1,12 +1,9 @@
-baseURL: https://handbook.gitlab.com
 languageCode: en-US
 locale: en-US
 title: The GitLab Handbook
 
 enableRobotsTXT: true
 enableGitInfo: true
-
-googleAnalytics: G-41B5X0RBD8
 
 sitemap:
   changefreq: monthly
@@ -40,7 +37,7 @@ params:
     sidebar_menu_compact: false
     sidebar_menu_foldable: true
     sidebar_cache_limit: 1000
-    sidebar_menu_truncate: 100
+    sidebar_menu_truncate: 120
     navbar_logo: true
     footer_about_disable: true
   copyright: "GitLab"
@@ -60,6 +57,11 @@ params:
         icon: "fa-solid fa-edit"
         desc: "Contribute to the handbook"
     developer: []
+
+caches:
+  getresource:
+    dir: :cacheDir/:project
+    maxAge: 24h
 
 staticDir:
         - data
@@ -91,6 +93,9 @@ outputformats:
 
 markup:
   goldmark:
+    renderHooks:
+      link:
+        enableDefault: true
     parser:
       attribute:
         block: true
@@ -98,7 +103,6 @@ markup:
       unsafe: true
   highlight:
     style: tango
-    lineNos: true
     tabWidth: 2
   tableOfContents:
     startLevel: 2
@@ -107,7 +111,7 @@ markup:
 
 security:
   funcs:
-    getenv: [ "^HUGO_", "PERISCOPE_EMBED_API_KEY", "PRODUCT_ANALYTICS_APP_KEY", "PRODUCT_ANALYTICS_HOST" ]
+    getenv: [ "^HUGO_", "PERISCOPE_EMBED_API_KEY", "PRODUCT_ANALYTICS_APP_KEY", "PRODUCT_ANALYTICS_HOST", "PUBLIC_HANDBOOK_REF" ]
 
 canonifyURLs: true
 pluralizeListTitles: false

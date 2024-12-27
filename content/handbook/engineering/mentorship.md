@@ -6,7 +6,7 @@ title: Engineering Mentorship
 
 ### Line Managers and Senior Individual Contributors
 
-The [PlatoHQ Program](/handbook/engineering/plato/index.html) has a total of 10 Engineering Managers/Senior IC's participating. The program exists of both self-learning via an online portal and 1-1 sessions with a mentor.
+The [PlatoHQ Program](/handbook/engineering/plato/) has a total of 10 Engineering Managers/Senior IC's participating. The program exists of both self-learning via an online portal and 1-1 sessions with a mentor.
 
 ### Senior Leaders in Engineering
 
@@ -35,10 +35,6 @@ To request to be a shadow: Post a message in the #cto Slack channel, indicate yo
 ### How to find a mentor or become a mentor at GitLab
 
 There is a program to find a mentor or to become a mentor at GitLab described on [this handbook page](/handbook/people-group/learning-and-development/mentor/).
-
-### Engineering director shadow program
-
-You can find more information on this experimental program on the [Development Director Shadow Program](/handbook/engineering/development/shadow/director-shadow-program.html) handbook page.
 
 ### Learning the customer experience
 

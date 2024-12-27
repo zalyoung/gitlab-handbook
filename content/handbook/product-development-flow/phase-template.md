@@ -1,3 +1,7 @@
+---
+title: "Phase template"
+---
+
 ### Track Phase X: Phase Name
 
 Label: `~label`
@@ -37,4 +41,3 @@ DRI = who is responsible for ensuring this outcome is completed (Product Manager
 
 <kbd class="required">Required 🔎</kbd>
 **Outcome #** - Description of required outcome providing a better understanding of the outcome and any required outputs
-

@@ -1,102 +1,86 @@
 ---
-
-title: "Customer NPS/CSAT surveys"
-description: "A deep dive into the NPS/CSAT scores, how they are defined and calculated."
+title: "Customer Satisfaction Surveys"
+description: "A deep dive into these surveys, how they are defined, and actioned."
 ---
 
+## **What are customer satisfaction surveys?**
 
+Customer Satisfaction surveys are a qualitative metric to gain a deeper understanding of the customer sentiment along the customer lifecycle. **Customer Satisfaction score**, or **CSAT,** is a transactional attribute to understand how a specific action, product, or experience in the customer lifecycle has gone.
 
+**Note**: Any type of question or questions can be a customer satisfaction survey. There are **no standards for questions or metrics**. It is entirely based on what the company is trying to learn about the customer from a question.
 
+**Examples of customer satisfaction surveys in GitLab:**
 
+* [**User Satisfaction (USAT)**](/handbook/product/ux/performance-indicators/usat/)**:** Administered by the UX Research team via Rally UXR & Qualtrics to a representative sample of paid end users of GitLab, these surveys focus on measuring satisfaction with GitLab the product on a quarterly basis.
+* **Customer Satisfaction CSAT**: This biannual survey, owned by Customer Success, measures the satisfaction level in both the product and engagement with our teams.
+* **Service CSAT:** Administered by the Customer Success team via Gainsight to a larger audience, these surveys assess customer satisfaction with GitLab's overall support, service levels, and customer experience. These tend to be transactional, focused on the most immediate interaction with our team.
 
+All teams are working collaboratively to streamline the survey process, improve data collection efficiency, and ensure that we have a comprehensive understanding of customer feedback. [OKR](https://gitlab.com/gitlab-com/gitlab-OKRs/-/work_items/9025).
 
-For an overview of how CSMs use Customer360 (or C360), please refer to the [Gainsight CSM C360 Overview Page](/handbook/customer-success/csm/gainsight/c360-overview)
+## **What are the outcomes of these surveys?**
 
-## Customer NPS/CSAT surveys
+**For our customers** \- These surveys provide a direct channel to voice their feedback on their needs and expectations of GitLab, and how we can improve their overall customer experience expectations.
 
-Customers at GitLab periodically receive surveys sent via Gainsight by the Digital CS Team to gauge customer sentiment. The Net Promoter Score, or NPS, are surveys sent directly to customers to measure customer loyalty, satisfaction, and enthusiasm with GitLab at different points in the customer lifecycle.
+**For GitLab** \- These surveys provide insights into the opportunities to improve on our product and service delivery experiences, deepen customer relationships, and reduce churn and boost brand loyalty.
 
-Customer Satisfaction score, or CSAT, are surveys sent directly to customers to measure satisfaction of a service, product, interaction or experience with GitLab. A customer may receive a CSAT survey at any point in their life cycle depending on the survey’s configuration.
+**Note**: GitLab is establishing a cross-functional initiative to enhance customer experience by integrating efforts across product development, marketing, sales, customer success, and support teams. This comprehensive program will provide transparency into strategic initiatives and key milestones, enabling customers to benefit from an optimized experience throughout their journey with GitLab.
 
-In order for customers to receive these surveys, a [`GitLab admin` role needs to be assigned](/handbook/sales/field-operations/customer-success-operations/cs-ops-programs/#gitlab-admin-contacts) in Gainsight to the appropriate contacts.
+## **Active GitLab Customer Satisfaction Surveys**
 
-It is the CSM/CSE’s responsibility to ensure the role assignment is completed. This process is a task in the Customer Onboarding playbook, and also in the Customer Renewal playbook. If an account doesn’t have a CSM or CSE, the AE must configure the role.
+* [All-Customer CSAT Survey (Customer Success)](/handbook/sales/field-operations/customer-success-operations/cs-ops-programs/all-customer-csat-cs/)
+* Post-Scale Engagement CSAT Survey
+* Digital SMB [Case Closure Survey](/handbook/sales/commercial/global_digital_smb/#email-to-case) CSAT Survey
+* [USAT Survey (UX Research)](/handbook/product/ux/performance-indicators/usat/)
 
-### What is NPS?
+### **What are the differences between the All-Customer CSAT and USAT surveys?**
 
-- Net Promoter Score is a [standardized](https://en.wikipedia.org/wiki/Net_promoter_score) numerical value from 1 to 10.
-- It is always one question - "How likely are you to recommend (company) to a friend or colleague?"
-- A **Promoter** responds with a score of 9 or 10 and can signify a loyal and enthusiastic customer.
-- A **Passive** responds with 7 or 8. They are satisfied, but not happy enough to be a promoter. It is a great target area for improving and learning from these customers.
-- A **Detractor** responds anywhere from 0 to 6, are unlikely to buy again, and may also discourage others from buying
-- It is an attribute that can give a view into how a portion of the customer lifecycle has gone or may go, such as onboarding (early enablement), preparation to renew, and the renewal process.
-- The rolled-up score can give insight into trends, such as onboarding or enablement being bumpy.
-- In companies that have more complex/longer onboarding processes, the NPS typically starts lower and rises as the customer begins to feel more return on investment later in the life cycle.
-- A trackable aggregate metric for all customers at GitLab.
+| Question | All-Customer CSAT | USAT |
+| :---- | :---- | :---- |
+| What are the objectives? | Obtain a CSAT score, with data available and accessible to all of GitLab, that represents a customer sentiment at GitLab. | Track scores for the USAT by comparing them over time and identify themes within the open ended questions. |
+| Who are the target sample? | Paid GitLab.com and Self-Managed customers with Admin or Owner roles. | Paid GitLab.com and Self-Managed end users and have been using GitLab for at least 60 days. |
+| What roles do we contact? |  |  |
+| How often are individuals in the target sample contacted? | Surveys are sent 2 times a year (in Q2 and Q4). Customers are contacted for both surveys via a survey email. | Surveys are sent 4 times a year. End users who have been contacted within the past 12 months do not receive a survey email. |
+| How many and what kinds of questions are included? | 6 questions (See [internal slide deck](https://docs.google.com/presentation/d/12cHM8t7LAo2uXm0VIeFm6tZWK04ENBHykJHcNbesj58/edit#slide=id.g29649bd3f05_0_44)) for list of questions. | 4 questions (See [internal slide deck](https://docs.google.com/presentation/d/1zLtH5lc3GNx8dtzn8Q4y-fwXWyrccbdd0J263BEKkAE/edit#slide=id.g29649bd3f05_0_44)) for list of questions. |
 
-##### What is NPS not?
+## **Customer Engagement**
 
-- A determination of customer health. It is simply another attribute.
-- A method of pinpointing specific product issues.
+### **Who do we contact?**
 
-#### What is CSAT?
+Surveys sent directly to primary users on paid Premium and Ultimate accounts to measure satisfaction of a service, product, interaction or experience with GitLab. Each account will receive a CSAT survey no more than twice in a year. We hope to receive from as many accounts at GitLab as possible, rather than a representative sample of accounts. This enables us to inform all account teams of their portfolio’s customer satisfaction.
 
-- Customer Satisfaction is a qualitative metric to ascertain a deeper understanding of the customer sentiment at a point in the life cycle.
-- It is a transactional attribute to understand how a specific action, product, or experience in the customer lifecycle has gone.
-- Any type of question or questions can be a CSAT survey. There are no standards for questions or metrics. It is entirely based on what GitLab is trying to learn about the customer from a question.
+In order to target leaders and decision-makers on accounts, three types of users will receive an invitation to a survey:
 
-##### What is CSAT not?
+* [GitLab admin contacts](/handbook/sales/field-operations/customer-success-operations/cs-ops-programs/#gitlab-admin-contacts)
+* Sold-To Billing Contact (if no GitLab Admin exists)
+* [GitLab.com Owner](https://docs.gitlab.com/ee/user/permissions.html) role
 
-- A standardized quantitative metric for Customer Satisfaction.
+### **Who is not contacted?**
 
+* Identified Billing or Procurement personas configured as Owners or GitLab Admins on accounts
+* Guest, Reporter, Developer or Maintainer roles on accounts
+* Users that have been contacted by other related surveys within the past eight weeks, such as the [USAT](/handbook/product/ux/performance-indicators/#regular-performance-indicators) survey administered by the UX Research Team.
 
-### NPS Surveys
+## **Viewing CSAT Survey Results**
 
-Customers receive NPS surveys at multiple points in their customer lifecycle and may include additional CSAT surveys. They are as follows:
+Each satisfaction survey is owned by different teams. Please see the linked pages above for links to dashboards.
 
-- **Post-Onboarding**  
-   - NPS: Considering your experience with us so far, how likely are you to recommend GitLab to a friend or colleague?
-   - CSAT: Overall, how satisfied are you with your onboarding experience?
-   - CSAT: How can we improve your readiness to adopt the product?
-   - Sent to net-new customers one day after [Time to First Value (TTFV)](/handbook/customer-success/csm/onboarding/#time-to-first-value) has been identified by using product data, or on day 90, whichever comes first.
-      - Provides an early warning system for the customer beyond what CSM/CSE or AE sentiment or product usage data can tell us.
+## **Deprecated Surveys**
 
-- **Pre-Renewal**
-   - NPS: How likely are you to recommend GitLab to a friend or colleague?
-   - CSAT: How satisfied are you with GitLab?
-   - Sent 120 days before renewal.
-      - An additional attribute to our knowledge of the health of the renewal and enables an additional lens of focus for prioritization.
+### **Net Promoter Score Survey (NPS)**
 
-- **Post-Renewal**
-   - NPS: Considering your experience with us so far, how likely are you to recommend GitLab to a friend or colleague?
-   - Sent 60 days after contract renewal.
-      - Provides an attribute of sentiment into the success of the renewal and insight for continued prioritization.
+Net Promoter Score is a [standardized](https://en.wikipedia.org/wiki/Net_promoter_score) numerical value from 1 to 10\. It is NOT a determination of customer health. It is NOT a method of pinpointing specific product issues.
 
+Customers received NPS surveys at multiple points in their lifecycle from 2021 to 2024\. These are stopped as of May 1, 2024\. Their results and data can be accessed [by request](https://gitlab.com/gitlab-com/sales-team/field-operations/customer-success-operations/-/issues/new) to the CSSO team. Additionally, you may request historical data for the following NPS surveys:
 
-#### Dedicated CSAT Surveys
+* Post-Onboarding NPS/CSAT
+* Pre-Renewal NPS
+* Post-Renewal NPS/CSAT
 
-- **Post-Churn Survey**
-   - What is the primary reason for canceling your subscription?
-   - What could we do better to improve?
-- **Post-Scale CSE Engagement**
-   - Please take a few seconds to select the answer that best aligns with your experience
+---
 
-
-#### Other NPS Surveys at GitLab
-
-Other teams within GitLab also conduct NPS surveys that differ from those sent by the Digital CS Team. The UX Research team conducts a quarterly Paid NPS (PNPS) which surveys a random sampling of GitLab users associated with paid accounts. For more information about UXR PNPS, please go to the [Product Operations Survey Workflows handbook page](/handbook/product/product-operations/surveys/workflows/#paid-nps-survey-pnps).
-
-### How to View NPS and CSAT Surveys
-
-#### If you have Gainsight access
-
-- For CSMs/CSEs: NPS and CSAT scores are written to a scorecard in the Customer 360 and trigger Calls to Action (CTA’s) based on the feedback
-   - Negative NPS Scores (0-6 OR Very Dissatisfied, Dissatisfied, Neutral) will create a CTA for the CSM Manager to follow-up with the contact.
-   - Positive NPS Scores (7-10 OR Satisfied, Very Satisfied) will create a CTA for the CSM to follow-up with the contact.
-- Survey responses can also be found in the embedded Gainsight widget on any account page in Salesforce.
-- Individual survey responses, questions, and company-wide NPS trends can be viewed in the <b>Surveys</b> portion of Gainsight.
-
-#### If you *don't* have Gainsight access
-
-- All scores are posted to the [#cs_programs_nps_results](https://gitlab.slack.com/archives/C022XR11MJA) channel in Slack. Members of each account team are @-mentioned in the survey results message facilitated by Troops. You must be a member of this channel to receive notifications. *Note: Given GitLab’s Slack data retention policy, results will only be available for 90 days after each response.*
-   - PubSec customers are sent to a private channel. Ask your manager to learn how to access these results.
+| Page Metadata |  |
+| :---- | :---- |
+| Last Updated | Oct 29, 2024 |
+| Next Update | May 1, 2025 |
+| Owner | Sarah Schuster |
+| Sponsor | Brittney Sinq |

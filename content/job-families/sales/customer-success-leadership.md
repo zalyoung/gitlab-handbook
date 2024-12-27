@@ -13,10 +13,9 @@ The Customer Success Leadership team is responsible for leading a cross-cuntiona
 | [Senior Director of Customer Success](#senior-director-of-customer-success) | [Grade 11](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades) |
 | [Vice President of Customer Success](#vice-president-of-customer-success) | [Grade 12](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades) |
 
-
 ### Director of Customer Success
 
-The Director of Customer Success reports to the [VP of Customer Success](/job-families/sales/vp-of-customer-success/).
+The Director of Customer Success reports to the [VP of Customer Success](/job-families/sales/customer-success-leadership/#vice-president-of-customer-success).
 
 #### Director of Customer Success Job Grade
 
@@ -56,7 +55,7 @@ The Director of Customer Success is a job grade [level 10](/handbook/total-rewar
 
 ### Senior Director of Customer Success
 
-The Senior Director of Customer Success reports to the [VP of Customer Success](/job-families/sales/vp-of-customer-success/)
+The Senior Director of Customer Success reports to the [VP of Customer Success](/job-families/sales/customer-success-leadership/#vice-president-of-customer-success)
 
 #### Senior Director of Customer Success Job Grade
 
@@ -101,7 +100,7 @@ The Vice President of Customer Success is a job grade [level 12](/handbook/total
 
 ##### Vice President of Customer Success Performance Indicators
 
-- Extends the Customer Success KPIs articulated [here](https://handbook.gitlab.com/job-families/sales/customer-success-management/#performance-indicators)
+- Extends the Customer Success KPIs articulated [here](/job-families/sales/customer-success-management/#performance-indicators)
 - Gross and net retention
 - Customer metrics (onboarding, time-to-first value, use case and platform adoption, use case expansion, sentiment measured by NPS, CSAT, or surveys)
 
@@ -116,6 +115,7 @@ The Vice President of Customer Success is a job grade [level 12](/handbook/total
 #### Public Sector Customer Success Leader Requirements
 
 In addition to the corresponding Customer Success Leadership level requirements:
+
 - TS/SCI Security Clearance if applicable
 - Knowledge of and demonstrated progressive experience with Public Sector customers
 
@@ -126,7 +126,7 @@ In addition to the corresponding Customer Success Leadership level requirements:
 
 ## Career Ladder
 
-Team members in the Customer Success Leadership job family may progress through the career ladder; in some instances team members may move to other roles in the Sales organization such as Professional Services or Solutions Architect.  
+Team members in the Customer Success Leadership job family may progress through the career ladder; in some instances team members may move to other roles in the Sales organization such as Professional Services or Solutions Architect.
 
 ## Hiring Process
 

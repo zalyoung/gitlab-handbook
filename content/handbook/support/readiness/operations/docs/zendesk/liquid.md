@@ -4,7 +4,6 @@ description: Support Operations documentation page for the Zendesk liquid langua
 canonical_path: "/handbook/support/readiness/operations/docs/zendesk/liquid"
 ---
 
-
 ## What is the liquid language
 
 Liquid is an [open-source](https://github.com/Shopify/liquid) template language
@@ -97,7 +96,7 @@ something like `{% for comment in ticket.comments %}`.
 | Satisfaction | `current_comment`                         | The current satisfaction comment of a ticket |
 
 There are
-[many more](https://support.zendesk.com/hc/en-us/articles/203662156-Zendesk-Support-placeholders-reference)
+[many more](https://support.zendesk.com/hc/en-us/articles/4408886858138-Zendesk-Support-placeholders-reference)
 that can be used, these are by far just the most common used at GitLab.
 
 ## Common functions
@@ -149,7 +148,7 @@ that can be used, these are by far just the most common used at GitLab.
 | for | `for x in y`, `for x in y limit:5`, `for x in y offset:3`, `for x in y reversed` |
 | cycle | `cycle "apple", "banana", "cherry"` |
 
-## Examples
+### Examples
 
 #### Create documentation issue trigger
 
@@ -280,4 +279,4 @@ Line by line breakdown:
 
 - [Liquid GitHub repo](https://github.com/Shopify/liquid)
 - [Liquid documentation](https://github.com/Shopify/liquid/wiki/Liquid-for-Designers)
-- [Zendesk placeholders reference](https://support.zendesk.com/hc/en-us/articles/203662156-Zendesk-Support-placeholders-reference)
+- [Zendesk placeholders reference](https://support.zendesk.com/hc/en-us/articles/4408886858138-Zendesk-Support-placeholders-reference)

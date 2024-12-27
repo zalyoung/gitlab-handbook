@@ -135,7 +135,7 @@ expiration date to remind them to delete the token. Should an extension be
 needed, a new access request issue will be required. The original token will
 still be deleted and a new one re-issued.
 
-## How to authenticate to the Zendesk API
+### How to authenticate to the Zendesk API
 
 #### Basic authentication
 
@@ -196,7 +196,7 @@ curl -u $ZD_USERNAME/token:$ZD_TOKEN "$ZD_URL/users.json"
 
 To use an Oauth access token, you'd first need to create an Oauth app in
 Zendesk (see
-[Zendesk docs](https://support.zendesk.com/hc/en-us/articles/203663836-Using-OAuth-authentication-with-your-application)
+[Zendesk docs](https://support.zendesk.com/hc/en-us/articles/4408845965210-Using-OAuth-authentication-with-your-application)
 for more information). With the access token in hand, you would pass this into
 the headers.
 
@@ -214,7 +214,7 @@ The most common library we use for the Zendesk Support API is the
 This ruby gem is quite powerful and acts as a nice HTTP library for interacting
 with the Zendesk Support API.
 
-#### Authenitcation with the ruby gem
+### Authenitcation with the ruby gem
 
 To authenticate with the ruby gem, you will need to setup the client itself so
 you can call upon it.
@@ -332,7 +332,7 @@ curl https://gitlab.zendesk.com/api/v2/automations/12345 \
   -X DELETE
 ```
 
-## Common use cases
+### Common use cases
 
 For all examples:
 
@@ -501,7 +501,7 @@ curl https://gitlab.zendesk.com/api/v2/views/12345/count \
 ## Useful links
 
 - [Zendesk API Docs](https://developer.zendesk.com/api-reference/ticketing/introduction/)
-- [Zendesk Oauth docs](https://support.zendesk.com/hc/en-us/articles/203663836-Using-OAuth-authentication-with-your-application)
+- [Zendesk Oauth docs](https://support.zendesk.com/hc/en-us/articles/4408845965210-Using-OAuth-authentication-with-your-application)
 - [zendesk_api_client gem](https://github.com/zendesk/zendesk_api_client_rb)
 - [Zendesk Support API Tickets endpoints](https://developer.zendesk.com/api-reference/ticketing/tickets/tickets/)
 - [Zendesk Support API Users endpoints](https://developer.zendesk.com/api-reference/ticketing/users/users/)

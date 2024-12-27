@@ -1,14 +1,14 @@
 ---
-title: "Vice President, Cash Management"
+title: "VP, Cash Management"
 ---
 
 The Cash Management job family will focus on leading and enhancing day-to-day cash management and treasury operations for the organization, including potential hedging of intercompany and foreign currency expense and stock administration. The VP, Cash Management will work closely with finance management to ensure appropriate financial systems and processes have been put in place to effectively manage corporate treasury risks. This job family will oversee all aspects of the cash management function worldwide.
 
 ## Responsibilities
 
-- Direct Responsible Individual and owner of and will lead the monthly close process for our GitLab’s equity and treasury management and is responsible for achieving our target for days to close.
+- Direct Responsible Individual and owner of and will lead the monthly close process for our GitLab's equity and treasury management and is responsible for achieving our target for days to close.
 - Handle Project Management as directed by the PAO.  This will include projects on close to report efficiency, cash management and other projects as needed.
-- Will develop and ensure compliance of GitLab’s cash management and stock administration  policies and procedures in full compliance with US GAAP and SEC reporting standards.
+- Will develop and ensure compliance of GitLab's cash management and stock administration  policies and procedures in full compliance with US GAAP and SEC reporting standards.
 - Will direct compliance for Treasury management which includes investment of cash, hedging activity of expenses and intercompany activity and overall banking arrangements.  This may include revolving line of credit management and debt covenant reporting.
 - If the company does common stock issuances, preferred stock offerings or debt financing, this role will handle the accounting and management of these items.
 - Drive processes  to optimize and automate accounting cash, treasury and stock operations to drive efficient monthly/quarterly close cycles and improve accuracy and efficiency.
@@ -24,7 +24,7 @@ The Cash Management job family will focus on leading and enhancing day-to-day ca
 - Proven experience developing and leading a high-performing cash management group.
 - Leadership experience at the Vice-President level in a software or global technology company.  Will have both Public and Private Company experience.
 - Detailed experience with specific knowledge of strategic and tactical vision and understands and drives best-practices to guide a high-performing cash management team.
-- The Vice President has demonstrated strong business judgment applied to routine and complex financial issues.
+- The VP has demonstrated strong business judgment applied to routine and complex financial issues.
 - Professional acumen and demonstrated ability in addressing business issues and ability to explain to all levels of management.
 - Demonstrated ability to work with investor facing teams to showcase the company's cash and stock strategies.
 - Has driven international teams working with overseas cash and stock operations.
@@ -41,9 +41,9 @@ The Cash Management job family will focus on leading and enhancing day-to-day ca
 - Ability to both grow in the role and grow with the company, demonstrating leadership capabilities and upward progression.  Viewed as the DRI on all cash/stock/debt issues and processes.
 - Ability to use GitLab
 
-#### Job Grade
+## Job Grade
 
-The Vice President, Cash Management is a [grade 12](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
+The VP, Cash Management is a [grade 12](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
 
 ## Performance Indicators
 

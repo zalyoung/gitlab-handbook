@@ -31,7 +31,7 @@ This Working Group has the following goals:
 
 As per Wikipedia, **MLOps** or **ML Ops** is a set of practices that aims to deploy and maintain machine learning models in production reliably and efficiently.
 
-![MLOps Vendiagram](../mlops.png)
+![MLOps Vendiagram](/images/company/mlops.png)
 
 Read more about the topic area from the links below:
 
@@ -53,10 +53,10 @@ Read more about the topic area from the links below:
 ### Related GitLab projects
 
 - [Spamcheck](https://gitlab.com/gitlab-org/spamcheck)
-    - [Architecture Diagram](https://gitlab.com/gitlab-org/spamcheck#architecture-diagram)
+  - [Architecture Diagram](https://gitlab.com/gitlab-org/spamcheck#architecture-diagram)
 - [Tanuki-Stan](https://gitlab.com/gitlab-org/ml-ops/tanuki-stan)
 - [UnReview](/handbook/engineering/development/data-science/ai-assisted/projects/unreview/)
-    - [Architecture Diagram](/handbook/engineering/development/data-science/appliedml/projects/unreview/#architecture)
+  - [Architecture Diagram](/handbook/engineering/development/data-science/appliedml/projects/unreview/#architecture)
 
 ### Related ML Slack channels
 

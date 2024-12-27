@@ -64,13 +64,13 @@ information on these, see the documentation page of the item itself.
 | Calendly Events to gCal Events       | Ad hoc |
 | CMP Scripts                          | Ad hoc |
 | Customer Feedback Processor          | Ad hoc |
+| Dev Pulse                            | Ad hoc |
 | DEWR                                 | Ad hoc |
 | Enable US Gov Support scripts        | Ad hoc |
 | GDPR Request Processor               | Ad hoc |
 | Light agent provisioning (Global)    | Ad hoc |
 | Pagerduty                            | [Special](../pagerduty/change_management/) |
 | Salesforce Cases scripts             | Ad hoc |
-| SGG Slackbot                         | Ad hoc |
 | Support Super Form                   | Ad hoc |
 | Support Super Form Processor         | Ad hoc |
 | SWIR Form Processor                  | Ad hoc |
@@ -83,6 +83,7 @@ information on these, see the documentation page of the item itself.
 | Zendesk Apps                         | Standard |
 | Zendesk Articles                     | Ad hoc |
 | Zendesk Automations                  | Standard |
+| Zendesk Dynamic Content              | Standard |
 | Zendesk Groups                       | Standard |
 | Zendesk Macros                       | Ad hoc |
 | Zendesk Organization Fields          | Standard |
@@ -95,3 +96,9 @@ information on these, see the documentation page of the item itself.
 | Zendesk Triggers                     | Standard |
 | Zendesk User Fields                  | Standard |
 | Zendesk Views                        | Standard |
+
+## What runs where?
+
+You can find a comprehensive list of where various things Support Readiness
+maintains runs its CI/CD processes via
+[this gSheet](https://docs.google.com/spreadsheets/d/1nilaJ4Ey7Rf-6rC9jROcOMqYExb29zjAbEeN3LMl_qk/edit?usp=sharing).

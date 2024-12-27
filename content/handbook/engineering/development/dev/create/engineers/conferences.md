@@ -1,15 +1,7 @@
 ---
-
 title: Conferences
 description: This page will highlight the benefits of attending conferences
 ---
-
-
-
-
-
-
-
 
 ## Why is it important to attend conferences?
 
@@ -49,13 +41,12 @@ Conferences are a great place to learn about the latest innovations. Attending t
 
 **Conferences for Backend Engineers**
 
-* [RedisConf](https://redislabs.com/redisconf/)
+* [RedisConf](https://redis.io/events/?et=event)
 * [Gophercon](https://gophercon.eu)
 
 **GraphQL**
 
 * [GraphQL Summit](https://summit.graphql.com/)
-
 
 ## What are some benefits to presenting at conferences?
 
@@ -66,6 +57,7 @@ On top of all benefits of attending the conference mentioned above, when speakin
 * Improve your public speaking and communication skills
 
 For more information on speaking at conferences, check out the [Speaking Resources](/handbook/marketing/corporate-communications/speaking-resources/) and [Speakers Bureau](/handbook/marketing/developer-relations/developer-advocacy/speakers-bureau/) handbook pages.
+
 ## How do I go about requesting permission to attend a conference?
 
 Contact your manager and inform them of your interest.  Conference attendance will require manager approval. Once approved an issue such as this [one](https://gitlab.com/gitlab-org/frontend/general/-/issues/44) should be created to determine if there is additional interest by other GitLab team members.

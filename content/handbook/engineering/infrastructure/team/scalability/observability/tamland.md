@@ -1,13 +1,10 @@
 ---
-aliases: /handbook/engineering/infrastructure/team/scalability/observability/tamland.html
-
 title: "Tamland: Development"
 ---
 
-
 ## Tamland: Saturation forecasting
 
-[Tamland](https://gitlab.com/gitlab-com/gl-infra/tamland) is a saturation forecasting tool we use for capacity planning purposes. The Scalability:Observability team develops and releases Tamland.
+[Tamland](https://gitlab.com/gitlab-com/gl-infra/tamland) is a saturation forecasting tool we use for capacity planning purposes. The Observability team develops and releases Tamland.
 
 This page details how we organize development efforts around Tamland.
 

@@ -19,5 +19,5 @@ and verify the issue you're about to submit isn't a duplicate.
 
 <!-- If you can, propose one or more possible solutions. -->
 
-<!-- Please read the priority guidelines before updating the labels: https://handbook.gitlab.com/handbook/content-websites/#priority -->
+<!-- Please read the priority guidelines before updating the labels: https://handbook.gitlab.com/handbook/about/maintenance/#priority -->
 /label ~"Handbook::Operations" ~"hb-priority::4"

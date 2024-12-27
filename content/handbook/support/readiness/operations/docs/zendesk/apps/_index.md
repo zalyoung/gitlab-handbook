@@ -11,14 +11,14 @@ of Zendesk. What it does and how it does it varies greatly from application to
 application. Applications can be run in a great many places, but the traditional
 locations are:
 
-- [Ticket sidebar](https://developer.zendesk.com/apps/docs/support-api/ticket_sidebar)
-- [User sidebar](https://developer.zendesk.com/apps/docs/support-api/user_sidebar)
-- [Organization sidebar](https://developer.zendesk.com/apps/docs/support-api/organization_sidebar)
-- [Navbar](https://developer.zendesk.com/apps/docs/support-api/nav_bar)
-- [Background](https://developer.zendesk.com/apps/docs/support-api/background)
+- [Ticket sidebar](https://developer.zendesk.com/api-reference/apps/apps-support-api/ticket_sidebar/)
+- [User sidebar](https://developer.zendesk.com/api-reference/apps/apps-support-api/user_sidebar/)
+- [Organization sidebar](https://developer.zendesk.com/api-reference/apps/apps-support-api/organization_sidebar/)
+- [Navbar](https://developer.zendesk.com/api-reference/apps/apps-support-api/nav_bar/)
+- [Background](https://developer.zendesk.com/api-reference/apps/apps-support-api/background/)
 
 You can see more resources on application locations via the
-[Zendesk Developer Manifest Reference](https://developer.zendesk.com/apps/docs/developer-guide/manifest#location)
+[Zendesk Developer Manifest Reference](https://developer.zendesk.com/documentation/apps/app-developer-guide/manifest/#location)
 documentation.
 
 Zendesk applications tend to come from one of two areas:

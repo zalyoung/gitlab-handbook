@@ -14,7 +14,7 @@ setting. Nothing detailed herein is an actual, legal service level agreement.
 ## What are Zendesk service level agreements?
 
 As per
-[Zendesk](https://support.zendesk.com/hc/en-us/articles/204770038-Defining-and-using-SLA-policies):
+[Zendesk](https://support.zendesk.com/hc/en-us/articles/4408829459866-Defining-SLA-policies):
 
 > A Service Level Agreement, or SLA, is an agreed upon measure of the response
 > and resolution times that your support team delivers to your customers.
@@ -22,7 +22,7 @@ As per
 > measured and predictable service. It also provides greater visibility when
 > problems arise.
 
-## Change management
+### Change management
 
 Keep in mind, all change management should be stemming from an issue, first and
 foremost.
@@ -36,38 +36,14 @@ Fullstack Engineer.
 
 #### Creating a new SLA
 
-You will start by creating a placeholder role within Zendesk itself (as you will
-need the ID for the sync repo). To do this, open up the admin page of your
-corresponding Zendesk instance ([Global](https://gitlab.zendesk.com/admin)
-or [US Government](https://gitlab-federal-support.zendesk.com/admin)), click
-`Objects and rules` on the left-hand side, and then click
-`Service level agreements`. On this page page, you will want to click
-`Add policy`. This will bring add a new SLA policy box and bring your browser's
-focus to it.
-
-On this page, you will do the following:
-
-- Set the Policy Name to "Placeholder for ISSUE_LINK" (replacing `ISSUE_LINK`
-  with the link to the issue you are working out of).
-- Enter a description of "ISSUE_LINK" (replacing `ISSUE_LINK` with the link to
-  the issue you are working out of).
-- Sets `all` conditions of:
-  - `Requester` `is` `YOUR_NAME` (replacing `YOUR_NAME` with your name in
-    Zendesk)
-- Sets the Reply targets to your desired end result.
-
-After doing so, click the black `Save` button. You will then need to get the SLA
-ID from Zendesk using the API. You will do this using the
-[List SLA Policies](https://developer.zendesk.com/api-reference/ticketing/business-rules/sla_policies/#list-sla-policies)
-endpoint. You will need to query that, locate your new SLA policy, and make note
-of the ID.
-
-From here, create the merge request in the sync repo project.
+As we manage SLA policies via our sync repos, you simply need to create the
+file within the sync repo itself. The sync process will handle creating the
+SLA policy within Zendesk itself.
 
 #### Updating an existing SLA
 
 Updating an existing SLA is considerably easier than creating a new one. Simply
-change change the code in the source project and it will occur via the sync
+change the code in the source project and it will occur via the sync
 repo.
 
 #### Deleting a SLA
@@ -94,7 +70,7 @@ click the gear icon to the right of it, and then click `Delete`.
 This will cause a pop-up modal to appear asking you to confirm the action. Click
 the blue `Delete policy` button to do so.
 
-## Troubleshooting
+### Troubleshooting
 
 #### Pipeline error "Blank ID"
 

@@ -5,7 +5,7 @@ description: "Kano model provides a simple and powerful way how to think about t
 
 ## Kano model
 
-The [Kano model](https://www.qualtrics.com/au/experience-management/research/kano-analysis/) is a theory that ties perceived product functionality with user satisfaction. It was developed in Japan in the 1980s by Professor Noriaki Kano.
+The [Kano model](https://www.qualtrics.com/en-au/experience-management/research/kano-analysis/) is a theory that ties perceived product functionality with user satisfaction. It was developed in Japan in the 1980s by Professor Noriaki Kano.
 
 The Kano model classifies product features into five categories based on how developing them impacts user satisfaction:
 
@@ -68,7 +68,7 @@ When creating feature descriptions, follow these guidelines:
    - Less than 1 normal paragraph might be not enough. On the other hand, if the text is too long, participants will more likely skim through the content and not develop a full grasp of the feature.
 1. Include only new features
    - Including features that are already developed can set a benchmark; however, it is mostly not actionable and therefore useless in this context.
-1. Enrich the descriptions with images or gifs
+1. Enrich the descriptions with images or GIFs
    - Having a visual aid can help participants understand the concept being described in the feature description.
 
 In general, feature descriptions should follow this basic structure:

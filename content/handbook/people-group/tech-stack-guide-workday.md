@@ -24,9 +24,11 @@ Modules/functionality being implemented:
 - Core Compensation
 - Integrations with other applications across GitLab
 
-| Workday will replace | Workday will enhance |Workday will integrate with |What remains the same in this phase|
+| Workday will replace | Workday will enhance | Workday will integrate with |What remains the same in this phase|
 | ------ | ------ |------ |------ |
-| BambooHR (with a few exceptions to certain business processes) | Reporting, Auditing, Organization hierarchy, Management hierarchy, Business process workflows |Greenhouse, Culture Amp, Navan Expense, LawLogix, Modern Health, Navex, Netsuite, E-trade, ADP, Okta, Nominator bot, People Connect bot, Employment Automations | Time Off by Deel, BambooHR Documents, BambooHR Contractor Invoices |
+| BambooHR* (with a few exceptions to certain business processes) | Reporting, Auditing, Organization hierarchy, Management hierarchy, Business process workflows |Greenhouse, Culture Amp, Navan Expense, LawLogix, Modern Health, Navex, Netsuite, E-trade, ADP, Okta, Nominator bot, People Connect bot, Employment Automations | Time Off by Deel, Documents, Contractor Invoices |
+
+- _BambooHR is no longer in use at GitLab as of 2024-12-15._
 
 > Details of each integration including frequency can be found in the [Workday Guide]({{< ref "workday-guide#phase-1-integrations" >}})
 
@@ -50,7 +52,6 @@ Modules/functionality being implemented:
 | Workday will replace |
 | ------ |
 | Talent Assessment Tool, Compaas (Compensation planning tool), PlanSource, Internal Employment Automations |
-
 
 #### Phase 3
 
@@ -92,4 +93,4 @@ graph LR
 
 ### Key Reports / Dashboards
 
-[People Analytics Tableau Dashboards](https://handbook.gitlab.com/handbook/people-group/people-ops-tech-analytics/people-analytics/people-tableau/) - This is a location on the handbook that lists key dashboards that exist around People Data.
+[People Analytics Tableau Dashboards](/handbook/people-group/people-ops-tech-analytics/people-analytics/people-tableau/) - This is a location on the handbook that lists key dashboards that exist around People Data.

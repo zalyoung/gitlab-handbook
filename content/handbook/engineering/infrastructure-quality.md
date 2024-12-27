@@ -3,9 +3,9 @@ title: "Infrastructure and Quality department"
 description: ""
 ---
 
-# Vision
+## Vision
 
-Our vision is to be a world-class Infrastructure & Tools department that enables GitLab to meet & exceed our customers’ needs.
+Our vision is to be a world-class Infrastructure & Tools department that enables GitLab to meet & exceed our customers' needs.
 
 We:
 
@@ -14,11 +14,11 @@ We:
 1. Provide and maintain best practice tools and methodologies that create a platform for engineering teams to do their work productively.
 1. Enable GitLab Engineering & Product teams to run services effectively using our tools, to meet business needs & SLOs.
 
-# Direction
+## Direction
 
 Direction is set within the [Infrastructure](/handbook/engineering/infrastructure/#direction), and the [Quality](/handbook/engineering/quality/#fy23-direction) direction pages. With the ongoing consolidation of the departments, separate direction pages will become obsolete.
 
-# Working with us
+## Working with us
 
 With the consolidation of previously separate departments (Infrastructure, Quality), we are in the process of also consolidating previously separate handbook pages:
 
@@ -32,16 +32,15 @@ We welcome contributions, and if you find an opportunity to consolidate informat
 Two distinct groups are responsible for infrastructure at GitLab:
 
 - [**Platforms**](/handbook/engineering/infrastructure/platforms/), responsible for software delivery, scaling and operations of single and multi tenant GitLab SaaS
-- [**Reliability**](/handbook/engineering/infrastructure/team/reliability/), which operate all user-facing GitLab.com services.
+- [**Reliability**](/handbook/engineering/infrastructure/team/), which operate all user-facing GitLab.com services.
 
 To create an issue, or find how to engage with the related teams you can use the links below:
 
 - [Delivery](https://gitlab.com/gitlab-com/gl-infra/delivery/-/issues/new) - Follow [directions how to reach us urgently](/handbook/engineering/infrastructure/team/delivery/#reaching-our-team)
 - [Reliability](https://gitlab.com/gitlab-com/gl-infra/reliability/-/issues/new?issuable_template=default)
-  - You can [read more about how reliability triages issues here.](/handbook/engineering/infrastructure/team/reliability/issues.html#issue-board)
+  - You can [read more about how reliability triages issues here.](/handbook/engineering/infrastructure/team/reliability/issues/#issue-board)
 - [Scalability](/handbook/engineering/infrastructure/team/scalability/#working-with-us)
 - [GitLab Dedicated](/handbook/engineering/infrastructure/team/gitlab-dedicated/#working-with-us)
-
 
 ## Engaging with the Quality teams
 
@@ -58,7 +57,7 @@ graph TD
     click E "/handbook/engineering/infrastructure/engineering-productivity"
 ```
 
-# Communication
+## Communication
 
 In addition to GitLab's [communication guidelines](/handbook/communication) and [engineering communication](/handbook/engineering/#communication), we communicate and collaborate actively across GitLab in the following venues:
 
@@ -100,7 +99,7 @@ Department level view of [OKR](/handbook/company/okrs/) and scoring is on our [I
 
 Each sub-department has different guidance on OKR:
 
-- [Reliability](/handbook/engineering/infrastructure/team/reliability/#okrs)
+- [Reliability](/handbook/engineering/infrastructure/team/)
 - [Platforms](/handbook/engineering/infrastructure/platforms/#okr)
 - [Test Platform](/handbook/engineering/infrastructure/test-platform/#okrs)
 - [Engineering Productivity](/handbook/engineering/infrastructure/engineering-productivity/#okrs)
@@ -108,24 +107,24 @@ Each sub-department has different guidance on OKR:
 
 ## Key Review
 
-[Key Review meetings](/handbook/key-review/) provide the department leadership an opportunity to inform the executive team of our [performance indicator](#performance-indicators/) progress, results on OKRs, and updates on any [Cross-functional Key Initiatives](/handbook/company/working-groups/#top-cross-functional-initiatives) which we are leading.
+[Key Review meetings](/handbook/company/key-review/) provide the department leadership an opportunity to inform the executive team of our [performance indicator](#performance-indicators) progress, results on OKRs, and updates on any [Cross-functional Key Initiatives](/handbook/company/working-groups/#top-cross-functional-initiatives) which we are leading.
 
 Key Review meetings are facilitated and led by the currently responsible VP, with Directors being the backup DRIs.
 
 ## Group Conversations
 
-[Group Conversation meetings](/handbook/group-conversations/) take the information from the Key Review (plus any additional topics) and present this to an audience that is all of GitLab, and for Infrastructure, is a Public livestream.
+[Group Conversation meetings](/handbook/company/group-conversations/) take the information from the Key Review (plus any additional topics) and present this to an audience that is all of GitLab, and for Infrastructure, is a Public livestream.
 
 Coordination of Infrastructure-Quality Group Conversation materials and facilitation of the discussion is a rotating role among the managers within the department.
 
-Group Conversation DRI [Schedule](/handbook/group-conversations/#current-schedule)
+Group Conversation DRI [Schedule](/handbook/company/group-conversations/#current-schedule)
 
 Quick checklist for the host (time order):
 
 1. Make the GC slides (copy from a prior presentation) ~ 10 days before the GC
 1. [Watch how to stream on youtube](/handbook/marketing/marketing-operations/youtube/#livestream-with-zoom)
 1. Do a test stream on youtube.
-1. Review the [handbook instructions for Group Conversation Meeting Leaders](/handbook/group-conversations/#for-meeting-leaders) and follow the required process.
+1. Review the [handbook instructions for Group Conversation Meeting Leaders](/handbook/company/group-conversations/#for-meeting-leaders) and follow the required process.
 1. 20 minutes before - open up Zoom and check for any updates.
 
 |**GC Date**|**DRI**|
@@ -140,12 +139,10 @@ Quick checklist for the host (time order):
 |TBD| Engineering Productivity EM |
 |TBD| Engineering Analytics EM |
 
-
 Historical preparation for Quality sub-department is in [the issue tracker](https://gitlab.com/gitlab-org/quality/team-tasks/-/issues?label_name%5B%5D=group-conversation) with a `group-conversation` label.
 
+## Performance Indicators
 
-# Performance Indicators
+- [Performance Indicators](/handbook/engineering/infrastructure-quality/performance-indicators/)
 
-* [Performance Indicators](/handbook/engineering/infrastructure-quality/performance-indicators/)
-
-# Common Links
+## Common Links

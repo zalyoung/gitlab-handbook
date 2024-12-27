@@ -4,13 +4,12 @@ description: "The Okta repository is used for managing configuration-as-code for
 ---
 
 {{% alert title="Not Live Yet" color="warning" %}}
-You are viewing a preview of documentation for the future state of GitLab Identity v3 (mid 2024). See the <a href="https://handbook.gitlab.com/handbook/security/access-management-policy">Access Management Policy</a> for the GitLab Identity v2 current state with baseline entitlements and access requests. See the roadmap in the <a href="https://gitlab.com/groups/gitlab-com/gl-security/identity/eng/-/roadmap?state=all&sort=start_date_asc&layout=QUARTERS&timeframe_range_type=THREE_YEARS&group_path=gitlab-com/gl-security/identity/eng&progress=WEIGHT&show_progress=true&show_milestones=false&milestones_type=ALL&show_labels=true">epics gantt chart</a>.
+You are viewing a preview of documentation for the future state of GitLab Identity v3 (mid 2024). See the <a href="/handbook/security/security-and-technology-policies/access-management-policy/">Access Management Policy</a> for the GitLab Identity v2 current state with baseline entitlements and access requests. See the roadmap in the <a href="https://gitlab.com/groups/gitlab-com/gl-security/identity/eng/-/roadmap?state=all&sort=start_date_asc&layout=QUARTERS&timeframe_range_type=THREE_YEARS&group_path=gitlab-com/gl-security/identity/eng&progress=WEIGHT&show_progress=true&show_milestones=false&milestones_type=ALL&show_labels=true">epics gantt chart</a>.
 {{% /alert %}}
 
 {{% alert title="GitOps Architecture and Approval Rules" color="info" %}}
 This page is specific to the Okta backend configuration. You may also be interested in the <a href="/handbook/security/identity/platform/provisioning/okta">Okta group and user provisioning</a> documentation, <a href="/handbook/security/identity/guide/app">Tech Stack application user guide</a> and <a href="/handbook/security/identity/approvals">merge request approvals</a> documentation.
 {{% /alert %}}
-
 
 ## Terraform Architecture
 
@@ -51,7 +50,6 @@ end
 IDENTITY_REPO_TF_CI --> IDENTITY_VENDOR_OKTA_API_ENDPOINT
 end
 ```
-
 
 ## Okta Policies and Settings Configuration
 
@@ -96,7 +94,7 @@ We do not attach individually named users to applications. All users are assigne
 
 You can attach three different categories of groups to applications:
 
-1. **Type (`rbac_type_*` Group)** This lets you attach a category of users (ex. employees, contractors, etc). At GitLab, we use the [access level wristband color](/handbook/it/policies/access-level-wristbands) so access can be mass assigned to all `blue`, `purple`, `brown`, and `black` users.
+1. **Type (`rbac_type_*` Group)** This lets you attach a category of users (ex. employees, contractors, etc). At GitLab, we use the [access level wristband color](https://internal.gitlab.com/handbook/it/it-self-service/access-level-wristband-colors/) so access can be mass assigned to all `blue`, `purple`, `brown`, and `black` users.
 
 1. **Identity Role (`rbac_role_*` Group):** This lets you attach users based on the functional team that they are on, usually specific to a job title and/or manager.
 
@@ -155,6 +153,7 @@ Our Identity Engineering and Operations Okta system administrators and designate
 We have two super administrator user accounts that are an additional separate user account that is not managed in the centralized control plane that provides back door administrative access. These credentials are secured out-of-band in a vault that requires declaring an incident and requires Identity team two person rule approval to get access to ensure compliance.
 
 We have additional security measures in place for these accounts:
+
 - IP Address access control list (ACL) restricted to VPN known gateway addresses
 - All audit logs for the super administrator event log actions (similar to key logger) are exported by default to our centralized logging system. We also programmatically parse all logs and add them the incident issue comment for transparency.
 - After each break glass incident, the password is rotated automatically to ensure that credentials on the user's machine are no longer usable.

@@ -41,6 +41,7 @@ SELECT
   Latest_Sold_To_Contact__r.Name,
   Partner_Track__c,
   Partners_Partner_Type__c,
+  Support_Hold__c,
   (
     SELECT
       Id,
@@ -53,15 +54,28 @@ SELECT
     FROM Zuora__R00N40000001lGjTEAU__r
     WHERE
       Zuora__EffectiveEndDate__c != NULL
+  ),
+  (
+    SELECT
+      Name,
+      Zuora__SoldToWorkEmail__c
+    FROM Zuora__R00N40000001kyLcEAI__r
+    WHERE
+      IsDeleted = false
+    ORDER BY CreatedDate ASC
+    LIMIT 1
   )
 FROM Account
 WHERE
-  Type IN ('Customer', 'Former Customer') OR
+  Type != 'Prospect' AND
   (
-    Type = 'Partner' AND
-    Partners_Partner_Status__c IN ('Authorized', 'Former') AND
-    Partners_Partner_Type__c IN ('Alliance', 'Channel') AND
-    Partner_Track__c IN ('Open', 'Select', 'Technology')
+    Type IN ('Customer', 'Former Customer') OR
+    (
+      Type = 'Partner' AND
+      Partners_Partner_Status__c IN ('Authorized', 'Former') AND
+      Partners_Partner_Type__c IN ('Alliance', 'Channel') AND
+      Partner_Track__c IN ('Open', 'Select', 'Technology')
+    )
   )
 ```
 
@@ -92,10 +106,10 @@ for them based off the information of the subscriptions (gathered earlier).
 Once that is done, the scripts then remove all "greatly expired" organizations
 from Zendesk Global in accordance with our data retention policy.
 
-## Zendesk US Federal organizations sync
+## Zendesk US Government organizations sync
 
 **Note** This set of scripts also handles the
-[Zendesk US Federal users sync](#zendesk-us-federal-users-sync). We have
+[Zendesk US Government users sync](#zendesk-us-government-users-sync). We have
 separated it into its own section for ease of readability.
 
 This first gathers the data from Salesforce. This is done via the following SOQL
@@ -114,6 +128,7 @@ SELECT
   GS_Health_Score_Color__c,
   Restricted_Account__c,
   Solutions_Architect_Lookup__r.Name,
+  Support_Hold__c,
   (
     SELECT
       Id,
@@ -127,14 +142,17 @@ SELECT
   )
 FROM Account
 WHERE
+  Type IN ('Customer', 'Former Customer') AND
   (
-    Account_Demographics_Territory__c LIKE 'PUBSEC%' AND
-    Account_Demographics_Territory__c != 'PUBSEC_' AND
     (
-      NOT Account_Demographics_Territory__c LIKE '%SLED%'
-    )
-  ) OR
-  Support_Instance__c = 'federal-support'
+      Account_Demographics_Territory__c LIKE 'PUBSEC%' AND
+      Account_Demographics_Territory__c != 'PUBSEC_' AND
+      (
+        NOT Account_Demographics_Territory__c LIKE '%SLED%'
+      )
+    ) OR
+    Support_Instance__c = 'federal-support'
+  )
 ```
 
 </details>
@@ -142,22 +160,20 @@ WHERE
 This data is then processed by the script to verify the account's subscriptions
 (both Customer and Zuora).
 
-From here, it then gathers all the organization data from Zendesk US Federal.
-This does very little actual processing of the data, short of ignoring tags that
-aren't related to the sync itself.
+From here, it then gathers all the organization data from Zendesk US Government.
 
 The scripts then compares the data from Salesforce and the data from Zendesk
-US Federal. From this comparison, it locates Zendesk US Federal organizations
-that need to be updated and ones that need to be created.
+US Government. From this comparison, it locates Zendesk US Government
+organizations that need to be updated and ones that need to be created.
 
-The scripts will then begin syncing this information to Zendesk US Federal,
+The scripts will then begin syncing this information to Zendesk US Government,
 updating organizations that need updating and creating the ones that need
 creation.
 
-## Zendesk US Federal users sync
+## Zendesk US Government users sync
 
 **Note** This set of scripts also handles the
-[Zendesk US Federal organizations sync](#zendesk-us-federal-organizations-sync).
+[Zendesk US Government organizations sync](#zendesk-us-government-organizations-sync).
 We have separated it into its own section for ease of readability.
 
 This first gathers the data from Salesforce. This is done via the following SOQL
@@ -171,15 +187,19 @@ SELECT
   Name,
   Email,
   Account.Account_ID_18__c,
-  Account.Name
+  Account.Type,
+  Account.Name,
+  Role__c
 FROM Contact
 WHERE
   Inactive_Contact__c = false AND
   Name != '' AND
   Email != '' AND
+  Role__c INCLUDES ('Gitlab Admin') AND
   (
     NOT Email LIKE '%gitlab.com'
   ) AND
+  Account.Type IN ('Customer', 'Former Customer') AND
   (
     (
       Account.Account_Demographics_Territory__c LIKE 'PUBSEC%' AND
@@ -197,18 +217,16 @@ WHERE
 This data is then processed to remove any contacts with duplicate emails or
 missing data.
 
-From here, it then gathers all the user data from Zendesk US Federal. This does
-very little actual processing of the data, short of ignoring tags that aren't
-related to the sync itself.
+From here, it then gathers all the user data from Zendesk US Government.
 
 The scripts then compare the data from Salesforce and the data from Zendesk US
-Federal. From this comparison, it locates Zendesk US Federal users that need to
-be updated and ones that need to be created. It will use the organization data
-from the
-[Zendesk US Federal organizations sync](#zendesk-us-federal-organizations-sync)
+Government. From this comparison, it locates Zendesk US Government users that
+need to be updated and ones that need to be created. It will use the
+organization data from the
+[Zendesk US Government organizations sync](#zendesk-us-government-organizations-sync)
 to determine the organization ID.
 
-The scripts will then begin syncing this information to Zendesk US Federal,
+The scripts will then begin syncing this information to Zendesk US Government,
 updating users that need updating and creating the ones that need creation.
 
 ## Zendesk Salesforce cases sync
@@ -224,7 +242,7 @@ Zendesk Global ticket data.
 For when a ticket is closed, it will update the corresponding case to indicate
 it has been closed.
 
-#### Pipeline error '1: No case ID to update'
+### Pipeline error '1: No case ID to update'
 
 This is a silent error, meaning that while it did occur, the code exits with a
 code of 0 (and thus, the pipeline does not actually fail).
@@ -235,7 +253,7 @@ field on the Zendesk ticket was blank.
 As there was no actual case to update, no action is needed here and this can be
 safely ignored.
 
-#### Pipeline error '2: Restforce::ErrorCode::InsufficientAccessOnCrossReferenceEntity'
+### Pipeline error '2: Restforce::ErrorCode::InsufficientAccessOnCrossReferenceEntity'
 
 This is a silent error, meaning that while it did occur, the code exits with a
 code of 0 (and thus, the pipeline does not actually fail).
@@ -249,12 +267,12 @@ did not exist.
 As the actual SFDC account does not exist, no action is needed here and this can
 be safely ignored.
 
-#### Pipeline error '3: Restforce::ErrorCode::UnableToLockRow'
+### Pipeline error '3: Restforce::ErrorCode::UnableToLockRow'
 
 This will cause an actual pipeline failure.
 
 This error indicates that when trying to do a create/update, which requires
-locking a row in SFDC, it was was unable to do so. This usually means something
+locking a row in SFDC, it was unable to do so. This usually means something
 in either the specific reference (i.e. the case) or the parent reference (i.e
 the SFDC account) already had a lock in place that conflicts with the newly
 needed lock.
@@ -271,7 +289,7 @@ it is best to create an issue in our
 to have this investigated further by the team. Make sure to link to the failed
 pipeline!
 
-#### Pipeline error '4: Faraday::ConnectionFailed'
+### Pipeline error '4: Faraday::ConnectionFailed'
 
 This will cause an actual pipeline failure.
 
@@ -290,7 +308,7 @@ it is best to create an issue in our
 to have this investigated further by the team. Make sure to link to the failed
 pipeline!
 
-#### Pipeline error '5: Net::OpenTimeout'
+### Pipeline error '5: Net::OpenTimeout'
 
 This will cause an actual pipeline failure.
 
@@ -317,7 +335,7 @@ process applies to all Zendesk-Salesforce Sync. See
 [standard change management](/handbook/support/readiness/operations/docs/change_management#standard-change-management)
 for more information.
 
-#### Change criticality
+### Change criticality
 
 Due to the nature and impact adding/editing/deleting the Zendesk-Salesforce Sync
 imposes, all issues/MRs related to the Zendesk-Salesforce Sync will be

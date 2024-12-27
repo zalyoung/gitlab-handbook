@@ -7,7 +7,7 @@ This page contains information on secure training initiatives sponsored by the G
 ## Security Development Process
 
 For information on developing security fixes in GitLab, please see the
-[Security Release Documentation](https://gitlab.com/gitlab-org/release/docs/-/blob/master/general/security/developer.md). (Required)
+[Patch Release runbook for preparing security fixes](https://gitlab.com/gitlab-org/release/docs/-/blob/master/general/security/engineer.md). (Required)
 
 ## Secure Coding Guidelines
 
@@ -180,7 +180,7 @@ These videos are private by default. To view them, you will need to [switch to t
 
 - Watch the video or [read the slides](#additional-resources) for each topic that is relevant to you.
 - The videos were recorded over two full days.  It is suggested that you split up viewing them over multiple days by topic and/or by the hour.
-- Consider watching the videos at [1.25X speed](http://osxdaily.com/2017/04/14/adjust-youtube-video-playback-speed/)
+- Consider watching the videos at [1.25X speed](https://osxdaily.com/2017/04/14/adjust-youtube-video-playback-speed/)
 
 ### Schedule and Topics
 
@@ -319,5 +319,5 @@ Also covers:
 - [PowerPoint presentations](https://drive.google.com/drive/folders/1NRrlnqwkhsS-UmuagwoD8GB4APXsfJxb?usp=sharing)
 - [Questions Doc](https://docs.google.com/document/d/1KsK5DBDgiF8k0N3cs89o1VsMYsUWUPH9fIQb_smFEac/edit)
 - [Ruby on Rails security best practices](https://guides.rubyonrails.org/security.html)
-- [Online Labs](https://manicode.us/shepherd/)
+- [Online Labs](https://manicode.us/)
 - [Burp Proxy](https://portswigger.net/burp/communitydownload)

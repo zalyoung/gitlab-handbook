@@ -6,26 +6,30 @@ title: Engineers
 
 ### Create
 
-#### Create:Source Code
+#### Create:Code Creation
 
-{{< team-by-manager-role "Backend Engineering Manager(.*)Create:Source Code" >}}
+{{< team-by-manager-slug "mnohr" >}}
 
-#### Create:Code Review
+#### Create:Code Review Backend
 
-{{< team-by-manager-role "Backend Engineering Manager(.*)Create:Code Review" >}}
-
-#### Create:IDE
-
-{{< team-by-manager-role role="Engineering Manager(.*)Create:Knowledge & Create:IDE" team="Create:IDE" >}}
-
-#### Create:Source Code Frontend
-
-{{< team-by-manager-role role="Frontend Engineering Manager(.*)Create:Source Code" team="Create:Source Code" >}}
+{{< team-by-manager-slug "francoisrose" >}}
 
 #### Create:Code Review Frontend
 
-{{< team-by-manager-role role="Frontend Engineering Manager(.*)Create:Code Review" team="Create:Code Review" >}}
+{{< team-by-manager-role role="Senior Engineering Manager(.*)Create:Source Code" team=".*(Frontend|Fullstack).*Create:Source Code" >}}
 
-#### Gitaly
+#### Create:Editor Extensions
 
-{{< team-by-manager-slug manager="tim-z" team="Gitaly" >}}
+{{< team-by-manager-slug "kisha.mavryck" >}}
+
+#### Create:Remote Development
+
+{{< team-by-manager-slug "adebayo_a" >}}
+
+#### Create:Source Code Backend
+
+{{< team-by-manager-slug "dpoosarla" >}}
+
+#### Create:Source Code Frontend
+
+{{< team-by-manager-role role="Senior Engineering Manager(.*)Create:Code Review" team=".*(Frontend|Fullstack).*Create:Code Review" >}}

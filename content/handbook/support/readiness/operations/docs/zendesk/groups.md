@@ -17,7 +17,7 @@ As per
 > default group for each team member. All new team members you create will be
 > added to the default group.
 
-## Change management
+### Change management
 
 Keep in mind, all change management should be stemming from an issue, first and
 foremost.
@@ -27,21 +27,9 @@ management of groups itself comes down to creation and deletion.
 
 #### Creating a group
 
-You will start by creating the group itself in Zendesk. To do this, open up the
-admin page of your corresponding Zendesk instance
-([Global](https://gitlab.zendesk.com/admin) or
-[US Government](https://gitlab-federal-support.zendesk.com/admin)) clicking
-`People` on the left-hand side, and then click `Groups`. On this page, click the
-blue `Add group` button at the top-right of the page.
-
-You will then enter the group's name and description. Do not fill out anything
-else (including members). After doing so, click the blue `Save` button at the
-bottom-right of the page.
-
-After doing so, you will need to get the ID value for it (if you click it, you
-can see it in the URL).
-
-From here, create the merge request in the sync repo project.
+As we manage groups via our sync repos, you simply need to create the file
+within the sync repo. The sync processes will handle the creation of the group
+within Zendesk itself.
 
 #### Deleting a group
 
@@ -59,7 +47,7 @@ group in question, click the three vertical dots at the right-hand side of the
 group, and click `Delete`. This will cause a pop-up modal to appear asking you
 to confirm the action. Click red `Delete` button to do so.
 
-## Troubleshooting
+### Troubleshooting
 
 #### Pipeline error "Blank ID"
 
@@ -83,7 +71,7 @@ need to review the error and determine the next steps from there.
 If you are unsure how to proceed, it is best to seek assistance from the wider
 team.
 
-## Source Projects
+### Source Projects
 
 #### Zendesk Global
 

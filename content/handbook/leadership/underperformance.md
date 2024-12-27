@@ -11,11 +11,7 @@ In all cases, we want a manager who asks the question "Is this the best person I
 
 ## Managing Underperformance Handbook Learning Session
 
-Managing and identifying underperformance can be one of the most difficult responsibilities of a manager, but it's also one of the most important. As a people leader, fairness and transparency is essential with all team members, as is addressing performance or conduct concerns  in a timely and structured way. During a [CEO Handbook Learning Session](/handbook/people-group/learning-and-development/learning-initiatives/#ceo-handbook-learning-sessions), GitLab CEO, Sid, and the Learning and Development team discuss what underperformance is, how managing it aligns to our values, and the impact it can have on teams. You will be introduced to the signs to look for to identify underperformance, and we cover tips team members and managers can implement along the way.
-
-<figure class="video_container"><iframe src="https://www.youtube.com/embed/-mLpytnQtlY"></iframe></figure>
-
-> If someone is still not performing at an adequate level after going through the underperformance process, recognize that it's not only better for the company for the team member to move on, it's frequently also better for the team member. Making a decision to move the team member out of the role allows them to find a role where they can be successful, whether in or outside of GitLab. The longer you wait, the harder it will be to make a change. If it's not going to work out, take action as soon as possible. - GitLab co-founder and CEO [Sid Sijbrandij](/handbook/ceo)
+Managing and identifying underperformance can be one of the most difficult responsibilities of a manager, but it's also one of the most important. As a people leader, fairness and transparency is essential with all team members, as is addressing performance or conduct concerns  in a timely and structured way. You will be introduced to the signs to look for to identify underperformance, and we cover tips team members and managers can implement along the way.
 
 ### Managing Performance at GitLab
 
@@ -75,11 +71,11 @@ Tell your manager immediately if there are circumstances in your life that cause
 The important thing to remember as a manager is to immediately address signs of underperformance. Taking action sooner allows more time for coaching to be effective and successful.  In the early stage of the process it is important to identify the reasons why team members might not be meeting expectations for their role. We do this by reviewing previous performance history, ensuring the team member has been taking sufficient PTO (Paid Time Off) and also checking in to ensure all is well in their personal life and providing appropriate support when needed.
 
 As you begin to coach, refer to resources in the handbook and from Elevate for support.
-1. [The GROW coaching model](As managers begin to coach, refer to important coaching resources in the handbook, also taught in Elevate:
-)
-2. [Managing your Inner Fixer](https://handbook.gitlab.com/handbook/leadership/coaching/#managing-your-inner-fixer)
-3. [The Trust Equation](https://handbook.gitlab.com/handbook/leadership/coaching/#the-trust-equation)
-4. [Essential Coaching Skills](https://handbook.gitlab.com/handbook/leadership/coaching/#essential-coaching-skills)
+
+1. [The GROW coaching model](/handbook/leadership/coaching/#grow-model) (As managers begin to coach, refer to important coaching resources in the handbook, also taught in Elevate:)
+2. [Managing your Inner Fixer](/handbook/leadership/coaching/#managing-your-inner-fixer)
+3. [The Trust Equation](/handbook/leadership/coaching/#the-trust-equation)
+4. [Essential Coaching Skills](/handbook/leadership/coaching/#essential-coaching-skills)
 
 ### Immediately Discuss With The Manager's Manager
 
@@ -87,7 +83,7 @@ Taking early action to address underperformance is an essential manager skill an
 
 ## Frequency and Metrics
 
-We expect at least 5% of our team members to experience explicit performance management on an annual basis, and we expect more than 50% to be successful. We track this in meetings like the People Group Key Review and [People Group Metrics](/handbook/people-group/people-group-metrics/#performance-management) to make sure we're managing performance consistently and fairly across all divisions, and in all circumstances. However, we don't enforce any hard thresholds.
+We expect at least 5% of our team members to experience explicit performance management on an annual basis, and we expect more than 50% to be successful. We track this in meetings like the People Group Key Review and [People Group Metrics](/handbook/people-group/people-success-performance-indicators/#performance-management) to make sure we're managing performance consistently and fairly across all divisions, and in all circumstances. However, we don't enforce any hard thresholds.
 
 This results in a lower rate of involuntary attrition than comparable companies, which range from 5 to 15% annually. We justify this based on the up-front effort we put into the hiring process. Divisions have various quantitative and qualitative processes for ensuring new hires can be successful at GitLab. This includes, but is not limited to:
 
@@ -108,7 +104,7 @@ The expectation is that all team members are provided coaching and feedback prio
 
 Managers are expected to address performance concerns (skill-based or will-based) in a timely manner. Managers should address concerns verbally during one-on-one meetings or in impromptu private coaching sessions with their team members. These conversations must be documented by the manager and shared with the team member so that both have access  to the record of the discussion and are in alignment on where improvements need to be made and within a specified timeframe. Documentation should be brief (a few key bullet points or a paragraph), and will normally be sent via email to the team member following the verbal discussion. See the example coaching email below:
 
-----
+---
 
 Dear (Team member name)
 
@@ -119,9 +115,9 @@ Please know that I am fully committed to working with you in addressing these is
 Thanks,
 (Manager name)
 
-----
+---
 
-Underperformance feedback should be included on your [1-1 agenda]({{< ref "suggested-agenda-format" >}}). Helping GitLab team members understand clearly how their performance is below the expected standard expected quickly is very important to foster immediate improvement and continued success.  Managers should be as specific as possible and provide clear examples of where the team member is falling short. Make sure the team member has the opportunity to respond to your concerns  and give them the time to explain their performance.  Keep an open mind, listen actively, and ask open questions when you want to find out more.  When discussing performance, it’s important that the manager and team member are aligned on the expectations moving forward.  It is best practice for the manager to meet with their team member at least once a week to monitor and discuss their performance.be critical.
+Underperformance feedback should be included on your [1-1 agenda]({{< ref "suggested-agenda-format" >}}). Helping GitLab team members understand clearly how their performance is below the expected standard expected quickly is very important to foster immediate improvement and continued success.  Managers should be as specific as possible and provide clear examples of where the team member is falling short. Make sure the team member has the opportunity to respond to your concerns  and give them the time to explain their performance.  Keep an open mind, listen actively, and ask open questions when you want to find out more.  When discussing performance, it's important that the manager and team member are aligned on the expectations moving forward.  It is best practice for the manager to meet with their team member at least once a week to monitor and discuss their performance.be critical.
 
 There may be extenuating circumstances that need to be taken into consideration during the performance management process.  This is an area where the Team Member Relations Team can provide a sounding board or a needed perspective.
 
@@ -131,7 +127,7 @@ In some cases, a Written Performance Letter or Performance Improvement Plan may 
 
 ### Compensation Impact
 
-It is important to note that the team member may not be eligible for compensation increases from the [annual compensation review](/handbook/total-rewards/compensation/compensation-review-cycle/) or the [annual refresh grant program](/handbook/stock-options/#refresh-grants) if they are being actively performance managed.
+It is important to note that the team member may not be eligible for compensation increases from the [annual compensation review](/handbook/total-rewards/compensation/compensation-review-cycle/) or the [annual refresh grant program](/handbook/total-rewards/stock-options/#refresh-grants) if they are being actively performance managed.
 
 ### Internal Applications and Transfers during underperformance remediation
 

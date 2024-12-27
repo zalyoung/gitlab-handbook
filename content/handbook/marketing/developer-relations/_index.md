@@ -19,9 +19,10 @@ In Developer Relations, we align our mission and vision with the company's [thre
 
 ## <i class="fas fa-map-marked-alt fa-fw color-orange font-awesome"></i> Our Strategy
 
-Our operational strategy is [documented in our internal handbook](https://internal-handbook.gitlab.io/handbook/marketing/developer-relations-and-community/) but is classified as confidential due to business sensitivity, customer impact, and to foster a psychological safe environment for our team members. Below you can find our strategic plans that are open to the wider community and where the Developer Relations team welcomes collaboration.
+Our operational strategy is [documented in our internal handbook](https://internal.gitlab.com/handbook/marketing/developer-relations/) but is classified as confidential due to business sensitivity, customer impact, and to foster a psychological safe environment for our team members. Below you can find our strategic plans that are open to the wider community and where the Developer Relations team welcomes collaboration.
 
 - [Contributor Program Unification & Growth Plan](/handbook/marketing/developer-relations/strategic-plans/contributor-program-unification/)
+- [Co-Creation Initiative](/handbook/marketing/developer-relations/cocreation/)
 
 ## <i class="fas fa-users fa-fw color-orange font-awesome"></i> Meet the Team
 
@@ -70,9 +71,9 @@ Teams within Developer Relations are reachable in these Slack channels:
 - [Contributor Success](/handbook/marketing/developer-relations/contributor-success/)
 - [Developer Advocacy](/handbook/marketing/developer-relations/developer-advocacy/)
 - [Community Programs](/handbook/marketing/developer-relations/community-programs/)
-    - [Open Source Program](/handbook/marketing/developer-relations/community-programs/opensource-program/)
-    - [Education Program](/handbook/marketing/developer-relations/community-programs/education-program/)
-    - [Startups Program](/handbook/marketing/developer-relations/community-programs/startups-program/)
+  - [Open Source Program](/handbook/marketing/developer-relations/community-programs/open-source-program/)
+  - [Education Program](/handbook/marketing/developer-relations/community-programs/education-program/)
+  - [Startups Program](/handbook/marketing/developer-relations/community-programs/startups-program/)
 - [Evangelist Program](/handbook/marketing/developer-relations/evangelist-program/)
 - [Leading Organizations](/handbook/marketing/developer-relations/leading-organizations/)
 
@@ -104,7 +105,7 @@ Organization:
 
 - [<i class="fas fa-credit-card"></i> Team Budgets](/handbook/marketing/developer-relations/workflows-tools/team-budgets)
 - [<i class="fas fa-shopping-cart"></i> Swag operations](/handbook/marketing/developer-relations/workflows-tools/swag/)
-- [<i class="fas fa-magic"></i> Automated Community Programs](/handbook/marketing/developer-relations/community-programs/automated-community-programs/)
+- [<i class="fas fa-magic"></i> Automated Community Programs](/handbook/marketing/developer-relations/community-programs/community-programs-workflows/#automated-applications-workflow-overview)
 - [<i class="fas fa-robot"></i> Zapier](/handbook/marketing/developer-relations/workflows-tools/zapier/)
 - [<i class="fas fa-inbox"></i> Zendesk](/handbook/marketing/developer-relations/workflows-tools/zendesk/)
 - [<i class="fas fa-envelope"></i> Email](/handbook/marketing/developer-relations/workflows-tools/e-mail/)
@@ -149,20 +150,19 @@ OKRs we seek to align with:
 
 For each quarterly objective and key results, the Developer Relations team will assign a [DRI](/handbook/people-group/directly-responsible-individuals/). For our team, we have responsibilities that build upon the GitLab guidance on [achieving](/handbook/company/okrs/#documenting-how-to-achieve) and [updating](/handbook/company/okrs/#maintaining-the-status-of-okrs). Typically, People managers are the DRIs for objectives while ICs are the DRIs for key results.
 
-* Objective DRI Responsibilities
-    * Own strategy for achieving objectives including supporting the DRIs for key results that will help to achieve our objectives.
-    * Collaborate with the owners of the key results that contribte to your objective to set a plan to deliver on the KRs and objective.
-    * Maintain communication with KR owners - synchronous or asynchronous - throughout the quarter as needed.
-    * Provide bi-weekly updates in the epic and in the Developer Relations bi-weekly team meeting agenda on the objective including completion percentage and status. We recognize that there will be no change from the previous report at times.
-    * Present overview and status updates in team business reviews.
-    * Escalate any urgent needs to your manager.
+- Objective DRI Responsibilities
+  - Own strategy for achieving objectives including supporting the DRIs for key results that will help to achieve our objectives.
+  - Collaborate with the owners of the key results that contribte to your objective to set a plan to deliver on the KRs and objective.
+  - Maintain communication with KR owners - synchronous or asynchronous - throughout the quarter as needed.
+  - Provide bi-weekly updates in the epic and in the Developer Relations bi-weekly team meeting agenda on the objective including completion percentage and status. We recognize that there will be no change from the previous report at times.
+  - Present overview and status updates in team business reviews.
+  - Escalate any urgent needs to your manager.
 
-* Key Results DRI Responsibilities
-    * Create and manage strategy for achieving the key results. Manage dependencies, set actions, and define how your items will be scored.
-    * Provide bi-weekly updates in the issues in the [GitLab OKRs project](https://gitlab.com/gitlab-com/gitlab-OKRs/) including completion percentage and status. The issues are the single source of truth for your KR. We recognize that there will be no change from the previous report at times.
-    * Ensure key result information is up-to-date for team business reviews.
-    * Escalate any urgent needs to your manager.
-
+- Key Results DRI Responsibilities
+  - Create and manage strategy for achieving the key results. Manage dependencies, set actions, and define how your items will be scored.
+  - Provide bi-weekly updates in the issues in the [GitLab OKRs project](https://gitlab.com/gitlab-com/gitlab-OKRs/) including completion percentage and status. The issues are the single source of truth for your KR. We recognize that there will be no change from the previous report at times.
+  - Ensure key result information is up-to-date for team business reviews.
+  - Escalate any urgent needs to your manager.
 
 #### How we update our OKRs
 
@@ -255,12 +255,12 @@ We take inspiration from the great work being done by other communities. Some of
 - [Google Summer of Code](https://summerofcode.withgoogle.com/) - This community inspires us through their work to make the tech community more diverse and inclusive and create new opportunities for people new to tech.
 - [Outreachy](https://www.outreachy.org/) - This community inspires us through their work to make the tech community more diverse and inclusive and create new opportunities for people new to tech.
 - [Grace Hopper Community / Systers](https://anitab.org/our-communities/systers/) - This community inspires us through their work to make the tech community more diverse and inclusive.
-- [Lesbians Who Tech](https://lesbianswhotech.org/debugsummit2021/) - This community inspires us through their work to make the tech community more diverse and inclusive.
+- [Lesbians Who Tech](https://lesbianswhotech.org/) - This community inspires us through their work to make the tech community more diverse and inclusive.
 - [Techqueria](https://techqueria.org/) - This community inspires us through their work to make the tech community more diverse and inclusive.
 - [Latinas in Tech](https://latinasintech.org/) - This community inspires us through their work to make the tech community more diverse and inclusive.
 - [Women in Tech](https://women-in-tech.org/) - This community inspires us through their work to make the tech community more diverse and inclusive.
 - [Women Who Code](https://www.womenwhocode.com/) - This community inspires us through their work to make the tech community more diverse and inclusive.
-- [Rails Girls](http://railsgirls.com/) - This community inspires us through their work to make the tech community more diverse and inclusive.
+- [Rails Girls](https://railsgirls.com/) - This community inspires us through their work to make the tech community more diverse and inclusive.
 
 ## <i class="fas fa-book" fa-fw color-orange font-awesome></i> Community Learning Pathway
 

@@ -7,7 +7,7 @@ canonical_path: "/handbook/support/readiness/operations/docs/zendesk/macros"
 ## What are macros
 
 As per
-[Zendesk](https://support.zendesk.com/hc/en-us/articles/115001236988-Creating-macros-for-tickets):
+[Zendesk](https://support.zendesk.com/hc/en-us/articles/4408844187034-Creating-macros-for-repetitive-ticket-responses-and-actions):
 
 > A macro is a prepared response or action that an agent can manually apply
 > when they are creating or updating tickets. Macros contain actions that can
@@ -18,7 +18,7 @@ As per
 > determine if a macro should be applied. Agents evaluate tickets and apply
 > macros manually as needed.
 
-## Change management
+### Change management
 
 Keep in mind, all change management should be stemming from an issue, first and
 foremost.
@@ -28,7 +28,7 @@ foremost.
 When your new macro is going to be using managed content, you will first
 need to get the managed content file in the Support managed content project.
 Remember to use the correct filenames for all of this to prevent
-[Pipeline error “No managed content file”](#pipeline-error-no-managed-content-file)
+[Pipeline error "No managed content file"](#pipeline-error-no-managed-content-file)
 in the sync repo project later on.
 
 Only after that has been done should you proceed to the next steps, which will
@@ -38,31 +38,14 @@ exactly.
 
 #### Creating a new macro without managed content
 
-This is a bit simpler than creating one with managed content. You will start by
-creating a placeholder macro within Zendesk itself (as you will need the ID for
-the sync repo). To do this, open up the admin page of your corresponding Zendesk
-instance ([Global](https://gitlab.zendesk.com/admin) or
-[US Government](https://gitlab-federal-support.zendesk.com/admin)), click
-`Workspaces` on the left-hand side, and then click `Macros`. On this page, you
-will want to click `Add macro`. This will bring up the new macro page.
-
-On this page, you will do the following:
-
-- Set the name to "Placeholder for ISSUE_LINK" (replacing `ISSUE_LINK` with the
-  link to the issue you are working out of).
-- Set an action of:
-  - `Brand` `GitLab`
-
-After doing so, click the blue `Create` button. You will then locate the
-placeholder macro you just created and get the ID value from it (if you click
-it, you can see it in the URL).
-
-From here, create the merge request in the sync repo project.
+This is a bit simpler than creating one with managed content. You simply need to
+create the file within the sync repo itself. The sync processes will handle
+creating it within Zendesk itself.
 
 #### Updating an existing macro
 
 Updating an existing macro is considerably easier than creating a new one.
-Simply change change the code in the source project and it will occur via the
+Simply change the code in the source project and it will occur via the
 sync repo.
 
 The one caveat you need to consider is when you are changing a macro to allow
@@ -88,6 +71,10 @@ following:
 - Sets `active: true` to `active: false` in the file.
 - Set an action of:
   - `Brand` `GitLab`
+- If the macro has a managed content file:
+  - Sets the `contains_managed_content: true` to `contains_managed_content: false`
+
+*Note:* If the macro has a managed content file, make sure to also deactivate the corresponding managed content file in the [Support managed content project](https://gitlab.com/gitlab-com/support/zendesk-global/macros) by moving it from the `data/active` folder to the `data/inactive` folder.
 
 #### Deleting a deactivated macro
 
@@ -110,7 +97,7 @@ three vertical dots at right-hand side of the macro, and click `Delete`. This
 will cause a pop-up modal to appear asking you to confirm the action. Click blue
 `Delete macro` button to do so.
 
-## Troubleshotting
+### Troubleshotting
 
 #### Pipeline error "No managed content file"
 
@@ -168,7 +155,7 @@ need to review the error and determine the next steps from there.
 If you are unsure how to proceed, it is best to seek assistance from the wider
 team.
 
-## Source Projects
+### Source Projects
 
 #### Zendesk Global
 

@@ -1,8 +1,6 @@
 ---
-
 title: Solution Architecture Retrospective Feedback
 ---
-
 
 The worldwide Solution Architecture team, as a learning organization believes that we can be more successful by receiving feedback. Feedback is a two-way street. It is important that SA management takes the time to provide feedback on a regular basis to their individual team members, but simoultanously GitLab team members should share their feedback with management and peers. During this two-way feedback exchange, it provides SAs insights into their activities working with customers and internal processes as well as the SA management insights into their leadership skills.
 
@@ -20,7 +18,6 @@ The following diagram shows the Solution Architecture Retrospective Overview.
 
 Solution Architecture Retrospective feedback critically impacts customers and other cross-functional teams, including Product, Sales and Marketing. Based on the retrospection insights, Solution Architects can improve product alignment and prioritisation. Apart from the Solution Architecture team, many other cross-functional teams will benefit from Solution Architecture Retrospection Feedback and use it to improve internal alignment and enhance the customer-centric approach.
 
-
 ### What is an agile retrospective feedback session?
 
 Agile feedback retrospective sessions can end up in pointing out the flaws and challenges which teams encounter. However, it is important that team members also equally consider to bring up positive experiences and iterate on improvements which can increase productivity and efficiency in their roles.
@@ -35,11 +32,12 @@ Retrospective feedback sessions should ideally consider 3 areas:
 
 The Solution Architecture team utilizes Postfacto as the main technology for agile retrospective feedback sessions. This is a digital whiteboard tool. The GitLab SA team has configured and implemented it internally. We run private retros which generally are password protected for teams. This Postfacto internal session is hosted within our internal environment and are not publically accessable. Since it is an internally hosted solution, it is available to all internal GitLab teams and not only restricted to the SA team.
 
-### Access instructions for our internal Postfacto instance:
+### Access instructions for our internal Postfacto instance
 
-#### How can I host a retrospective feedback session with Postfacto:
+#### How can I host a retrospective feedback session with Postfacto
 
 The summary steps are as follows:
+
 1. Use the Postfacto account to log in to the Postfacto panel.
 1. Create a retro for the retrospective feedback session you plan to host.
 1. Share the retro URL and the password with the participants before the retrospective feedback session.
@@ -49,7 +47,6 @@ For details, please refer to [this document](https://docs.google.com/document/d/
 A walk-through of setting up a new restrospective can be found in the video below.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/NhZRkpmGVsk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
 
 ### What are the roles during an agile retrospective feedback session?
 
@@ -71,7 +68,6 @@ The host of the restrospective feedback session is encouraged to share the scree
 
 - A retro session does not need to run for more than 60 mins
 
-
 ### How do I participate in an agile retrospective feedback session?
 
 We encourage that SA Leaders execute retros on a regular basis proactively. However, it is also encourages that individual team members help monitor the frequency of retros and also proactively engage by requesting sessions. As the team leader, we are responsible to be inclusive to invite the entire team making everyone a participant. Optionally the team leader can include relevant team members from immediate teams/groups to participate.
@@ -92,7 +88,7 @@ Given the nature of retros are considering opportunities to celebrate improvemen
 
 The guide for the retro item discussion also requires to add actions to improve teamwork. The team needs to nominate a team member to capture actions in either the Postfacto retro tool (at the bottom of the UI) or in a seperate team meeting notes document.
 
-The community around the open-source Postfacto technology and its partners/collaborators have also built this blog [**"How to Run a Really Good Retrospective"**](https://tanzu.vmware.com/content/built-to-adapt/how-to-run-a-really-good-retrospective) for further guidance.
+The community around the open-source Postfacto technology and its partners/collaborators have also built this blog [**"How to Run a Really Good Retrospective"**](https://blogs.vmware.com/tanzu/how-to-run-a-really-good-retrospective/) for further guidance.
 
 **Important note:** The retro time-frame should not be more than 5-minutes per item, as a result of that and for an effective discussion, the participants do not need to go into extensive descriptions "why" that particular item is critical nor into "trying to identify" a solution. The idea for the discussion is to quickly reflect and suggest a best next step or an action. The action then will become a means to identify a solution.
 
@@ -105,9 +101,3 @@ There are a few ways to take the action items from the retro and integrate them 
 For small items changes can be made immediately, updating documents and handbook pages.
 
 When looking at larger changes to processes the best course of action is to integrate these action items into cross-functional OKRs. Especially in these cases with cross-functional process changes it is important to socialise these changes in the appropriate slack channels as well.
-
-
-
-
-
-

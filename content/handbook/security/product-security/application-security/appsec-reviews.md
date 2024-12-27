@@ -27,7 +27,7 @@ This means that the team owning the feature should continue with their developme
 and the expected time investment should be limited to the time necessary to answer
 questions asynchronously.
 
-Security issues found, if any, will be triaged following [the standard process][4].
+Security issues found, if any, will be triaged following [the standard process](/handbook/security#issue-triage).
 Application security reviews allow us to discover vulnerabilities that exist in GitLab
 before they're discovered by a third party and, if the review is done for new features,
 we might catch the vulnerabilities even before they make it into a release. It reduces
@@ -47,7 +47,7 @@ security-sensitive changes from being overlooked.
 
 ### Stable Counterparts
 
-One of the goals of the [stable counterpart][3] is to help identify features that
+One of the goals of the [stable counterpart](_index.md#stable-counterparts) is to help identify features that
 need security review in the area to which they are assigned. Each week Stable Counterparts should
  review Issue boards and recorded weekly team meetings as part of this.
 
@@ -60,10 +60,11 @@ features for security review. The priority can range from `priority::1` (Critica
 to `priority::4` (Low/Backlog).
 
 Some guidelines for which features should be added to the queue are:
+
 - All new major features
 - Features that have had repeat vulnerabilities
 - Features related to authorization or authentication
-- Features that handle [Red or Orange data][1]
+- Features that handle [Red or Orange data](https://docs.google.com/document/d/15eNKGA3zyZazsJMldqTBFbYMnVUSQSpU14lo22JMZQY/edit)
 - Features that work with cryptography or other data protection solutions
 - Features which touch on topics mentioned in the [secure coding guidelines](https://docs.gitlab.com/ee/development/secure_coding_guidelines.html)
 
@@ -89,7 +90,7 @@ process could outlive the original issue/merge request.
 The process is the same for appsec engineers adding something to the backlog
 or for team members requesting a review for a GitLab feature:
 
-1. Create an issue in the [Appsec Reviews issue tracker][2] using the [Appsec Review template](https://gitlab.com/gitlab-com/gl-security/product-security/appsec/appsec-reviews/-/issues/new?issueable_tempalte=AppSec%20Review)
+1. Create an issue in the [Appsec Reviews issue tracker](https://gitlab.com/gitlab-com/gl-security/product-security/appsec/appsec-reviews/issues) using the [Appsec Review template](https://gitlab.com/gitlab-com/gl-security/product-security/appsec/appsec-reviews/-/issues/new?issueable_tempalte=AppSec%20Review)
     1. Set the title to a unique name for the feature
 1. Follow the description in the template
 
@@ -112,12 +113,12 @@ Guidelines for Priority (Not comprehensive, please build upon)
 
 ### Including Threat Modeling in the review
 
-When [threat modeling]({{< ref "./threat-modeling" >}}) should be done
+When [threat modeling](threat-modeling) should be done
 during the review add the `threat model::needed` label to the original issue or epic and the
 appsec review issue. That way we can track the adoption of threat modeling throughout GitLab. When
 the threat modeling step is done the
 `threat model::done` label should be added to all involved issues and epics. The process for
-threat modeling is further defined in its [own handbook page]({{< ref "./runbooks/threat-modeling" >}}).
+threat modeling is further defined in its [own handbook page](runbooks/threat-modeling).
 
 ### Quantifying interactions
 
@@ -130,11 +131,6 @@ following the conditions below:
 - `~sec-planning::pending-followup`: Stable counterpart expects to follow up on the review.
 - `~sec-planning::complete`: Review finished with comments.
 - `~sec-planning::no-action`: Review completed and no action required.
-
-[1]: https://docs.google.com/document/d/15eNKGA3zyZazsJMldqTBFbYMnVUSQSpU14lo22JMZQY/edit
-[2]: https://gitlab.com/gitlab-com/gl-security/product-security/appsec/appsec-reviews/issues
-[3]: {{< ref "./_index.md#stable-counterparts" >}}
-[4]: /handbook/security#issue-triage
 
 ## Internal Application Security Reviews
 
@@ -160,8 +156,10 @@ If the change is doing one or more of the following:
 1. Exposing a new API endpoint, or modifying an existing one
 1. Introducing new database queries
 1. Using regex to :
-  - validate user supplied data
-  - make decisions related to authorisation and authentication
+
+   - validate user supplied data
+   - make decisions related to authorisation and authentication
+
 1. A new feature that can manipulate or display sensitive data (i.e PII), see our [Data Classification Standard]({{< ref "data-classification-standard" >}}) for more details
 1. Persisting sensitive data such as tokens, crypto keys, credentials, PII in temp storages/files/DB, manipulating or displaying sensitive data (i.e PII), see our [Data Classification Standard]({{< ref "data-classification-standard" >}}) for more details
 
@@ -179,13 +177,13 @@ These reviews are intended to be faster, more lightweight, and have a lower barr
 
 #### Larger scale initiatives
 
-To get started, create an issue in the [internal application security reviews repository](https://gitlab.com/gitlab-com/gl-security/product-security/appsec/appsec-reviews/issues) using the [Appsec Review template](https://gitlab.com/gitlab-com/gl-security/product-security/appsec/appsec-reviews/-/issues/new?issueable_tempalte=AppSec%20Review). The complete process can be found at [here](/handbook/security/product-security/application-security/appsec-reviews.html).
+To get started, create an issue in the [internal application security reviews repository](https://gitlab.com/gitlab-com/gl-security/product-security/appsec/appsec-reviews/issues) using the [Appsec Review template](https://gitlab.com/gitlab-com/gl-security/product-security/appsec/appsec-reviews/-/issues/new?issueable_tempalte=AppSec%20Review). The complete process can be found at [here](/handbook/security/product-security/application-security/appsec-reviews/).
 
 Some use cases of this are for epics, milestones, reviewing for a common security weakness in the entire codebase, or larger features.
 
 ### Is security approval required to progress?
 
-No, code changes do *not* require security approval to progress. Non-blocking reviews enables the freedom for our code to [keep shipping]({{< ref "ceo#how-do-we-keep-shipping" >}}) fast, and it closer aligns with our values of [iteration and efficiency]({{< ref "values#iteration" >}}). They operate more as guardrails instead of a gate.
+No, code changes do *not* require security approval to progress. Non-blocking reviews enables the freedom for our code to [keep shipping](/handbook/ceo/#how-do-we-keep-shipping) fast, and it closer aligns with our values of [iteration and efficiency](/handbook/values/#iteration). They operate more as guardrails instead of a gate.
 
 ### What should I provide when requesting a security review?
 
@@ -215,3 +213,42 @@ If you are using third party libraries make sure that:
 1. You use the latest stable and available version
 1. Your team has the ability to support and upgrade this library as security patches are published
 1. The maintainer has a security policy
+
+### MR Review guidelines
+
+When concluding a review of a Merge Request make sure you document what you covered,
+and what your conclusions on the reviewed items were.
+
+Having a summary of your steps taken, concerns and coverage helps collaboration with
+other reviewers.
+
+1. **Coverage**: Clearly outline what aspects of the code you have reviewed. This may include:
+   - Specific files or modules examined
+   - Functionality changes assessed
+   - Security implications considered
+
+2. **Steps Taken**: Provide a brief overview of your review process, such as:
+   - Code reading and analysis
+   - Local testing or code execution
+   - Use of any automated tools or linters
+   - Cross-referencing with related issues or documentation
+
+3. **Concerns and Observations**: Document any issues, potential problems, or areas for improvement you've identified during the review. This could include:
+   - Security vulnerabilities
+   - Code quality issues
+   - Potential bugs or edge cases
+   - Suggestions for optimization
+
+4. **Conclusions**: Summarize your overall assessment of the reviewed items, including:
+   - Whether the changes meet the intended requirements
+   - Any blockers or critical issues that need addressing
+   - Recommendations for further actions or improvements
+
+By providing a comprehensive summary of your review process, concerns, and coverage, you facilitate:
+
+- Improved collaboration with other reviewers
+- Easier follow-up on identified issues
+- A clear record of the review process for future reference
+- More efficient resolution of any concerns or questions raised during the review
+
+A well-documented MR review not only helps in the immediate code review process but also contributes to the overall quality and maintainability of the project in the long run.

@@ -41,7 +41,6 @@ This issue is the single source of truth for all planning related discussions an
 Application Security team members are responsible for:
 
 - Evaluating and communicating their capacity for the Milestone (based on PTO, rotation assignments, and other factors)
-- Adding work that is being carried over into the Milestone Work table
 - Adding potential work items to the Parking Lot and being involved in discussions around what work we should pull into the Milestone
 - Verifying upcoming rotations they are assigned to have an issue in the Milestone
 - Collaborating with Application Security managers to finalize the set of work being committed to for the Milestone
@@ -59,36 +58,81 @@ Application Security team members are responsible for keeping issues and labels 
 
 Any issue being worked on by an Application Security team member must include:
 
-- The `team::Application Security` label
-- The appropriate `workflow::` label
+- The `Application Security Team` label
+- The appropriate `AppSecWorkflow::` label
 - The appropriate Milestone
+- The appropriate Priority labels
+
+### Updating issues health
+
+DRIs are responsible for updating [the health of issues](https://docs.gitlab.com/ee/user/project/issues/managing_issues.html#health-status) they are working on:
+
+- `On track`: well, pretty easy to understand.
+- `Needs attention`: not yet at risk of missing the milestone, but requires attention. DRI should reach out to AppSec Managers to evaluate what can be adjusted to put it back `On track`.
+- `At risk`: will likely not be completed by the end of the milestone, and we will schedule it for the next milestone too.
+
+Updating the issue milestone is required:
+
+- At the middle of the milestone
+- Whenever the DRI knows he won't be able to finish it for the end of the milestone
 
 ### Workflow Labels
 
 | Label | Purpose |
 | --- | --- |
-| `workflow::ready for development` | Indicates that work has not begun, or the rotation has not yet started |
-| `workflow::in dev` | Indicates the issue is actively being worked on, or the rotation is in progress |
-| `workflow::complete` | Indicates the work is done, or the rotation has finished |
+| `AppSecWorkflow::planned` | Indicates that work has been triaged, scoped, and is ready to be worked on in the assigned milestone |
+| `AppSecWorkflow::in-progress` | Indicates the issue is actively being worked on, or the rotation is in progress |
+| `AppSecWorkflow::complete` | Indicates the work is done, or the rotation has finished |
+
+## Priority Labels
+
+The priority classification labels helps ICs understand what is the priority for leadership.
+
+The label assignment can be done by leadership (AppSec or at higher levels), or by the team members themselves. When team members are not sure on a particular priority, they can consult leadership for confirmation.
+
+| Label | Description |
+| ----- | ----------- |
+| AppSecPriority::1 | Top priority work that must be completed for the end of the planned milestone. |
+| AppSecPriority::2 | Work priority that is important and is prioritized as soon as all `AppSecPriority::1` work is completed. `AppSecPriority::2` work will become `AppSecPriority::1` on the next milestone. |
+| AppSecPriority::3 | Work priority that is less important and is prioritized as soon as all `AppSecPriority::2` work is completed. `AppSecPriority::3` will be evaluated during Milestones Planning Sessions and may become `AppSecPriority::2` for the next milestone. |
 
 ### Rotations
 
-Issues must be created for each rotation during the Milestone and assigned to the relevant team member.
+[HackerOne](/handbook/security/product-security/application-security/runbooks/hackerone-process/) and [Triage](/handbook/security/product-security/application-security/runbooks/triage-rotation/) rotation issues are created through the [rotation management tool](https://gitlab.com/gitlab-com/gl-security/product-security/appsec/tooling/rotation-management/) 
 
-#### Issue Process
+## Milestone Planning Refinement Guidelines
 
-1. Rotation issues are created ahead of time for the entire duration of the Milestone, initially with the `workflow::ready for development` label
-1. At the beginning of a rotation time period, the team member on rotation will update the workflow label to `workflow::in dev`
-1. At the end of the rotation time period, the team member on rotation will update the workflow label to `workflow::complete` and close the issue
+- Is the problem clearly defined or is more followup/data needed?
+- Is the scope too large to be completed within the milestone? Does the issue need to be broken down into smaller ones or promoted to an epic instead?
+- For projects and net-new intiatives, is the scope and Definition of Done clear and measurable? Is it clear what's expected?
+- Does it have at least one DRI assigned and are they aware?
+- Are there dependencies? If so, document them.
+- Are there other stakeholders and are they looped in and aware?
+- Is the correct [`AppSecWorkType::` label](/handbook/security/product-security/application-security/metrics/capacity/#type-of-work-classification) set?
+- Is the [`AppSecWeight::` label](/handbook/security/product-security/application-security/metrics/capacity/#effort-classification) set?
+- Does it have the `Application Security Team` label?
+- Across the whole milestone, is the total operational + project weight achievable?
 
-#### Rotation Issue Labels
+When issue is fully refined, please set the `AppSecWorkflow:planned` label, indicating it's ready to be worked on in the assigned milestone.
 
-These issues must be labeled with the appropriate AppSecRotation label:
+### Unplanned work
 
-| Rotation | Label |
-| --- | --- |
-| HackerOne | `AppSecWorkType::HackerOneRotation` |
-| Triage | `AppSecWorkType::TriageRotation` |
-| Security Release | `AppSecWorkType::ReleaseRotation` |
-| Federal AppSec VAT | `AppSecWorkType::VATRotation` |
+Sometimes high-priority and/or urgent work comes up after a milestone starts. When an unplanned issue is added after the milestone began:
 
+- Document why the work needs to be prioritized in the issue
+- Apply the `Unplanned` label
+- If the unplanned work is large enough to displace other planned issues, inform the applicable stakeholders so they are aware that their issue is being delayed
+
+### Missed milestones
+
+Work planned for a milestone may not be fully finished due to time constraints or planned work being too ambitious. When this happens, attach the `missed::X.Y` label.
+
+### Backlog
+
+Isses that:
+
+- Have unfinished work
+- Are ideas from team members but not yet prioritized
+- Are not planned in any milestone
+
+Should have the milestone set to `AppSec Backlog`.

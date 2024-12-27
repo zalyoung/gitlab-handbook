@@ -32,11 +32,11 @@ Haydn Mackay delivered a [wonderful keynote](https://www.youtube.com/watch?v=kDf
 
 ### *2017: GitLab Storytime*
 
-A team member at GitLab interviewed the first five team members from GitLab to hear stories from the first years. In [Storytime Part 1](https://www.youtube.com/watch?v=DSmqOQ6eLB4) the team talks about hiring its first team member, learning to iterate, thoughts of shutting down, Y Combinator, and how the values were created. In [Storytime Part 2](https://www.youtube.com/watch?v=4pe6_d9ZTC4), we hear some hilarious stories of a surprise bachelor party, a competitor’s offer to talk, a presentation that involved a lab coat and safety goggles, the first GitLab summit, and experiences at the Mountain View House.
+A team member at GitLab interviewed the first five team members from GitLab to hear stories from the first years. In [Storytime Part 1](https://www.youtube.com/watch?v=DSmqOQ6eLB4) the team talks about hiring its first team member, learning to iterate, thoughts of shutting down, Y Combinator, and how the values were created. In [Storytime Part 2](https://www.youtube.com/watch?v=4pe6_d9ZTC4), we hear some hilarious stories of a surprise bachelor party, a competitor's offer to talk, a presentation that involved a lab coat and safety goggles, the first GitLab summit, and experiences at the Mountain View House.
 
 ### *2016: Growth*
 
-In 2016 the number of [people that contributed to GitLab](http://contributors.gitlab.com/) grew to more than 1000.
+In 2016 the number of [people that contributed to GitLab](https://about.gitlab.com/community/contribute/) grew to more than 1000.
 More than 100,000 organizations and millions of users are using GitLab.
 Our team grew with 100 people to more than 140.
 In September we announce [our master plan](https://about.gitlab.com/blog/2016/09/13/gitlab-master-plan/) and raising $20m in our B round of financing.
@@ -82,13 +82,13 @@ The GitLab name was inspired by [GitWeb](https://git-scm.com/book/en/v2/Git-on-t
 
 ## When did we know that GitLab would work?
 
-As GitLab's co-founder and CEO, Sid, puts it: [it was iterative](https://youtu.be/jYYxi_bs1Qg). The first time was when he saw GitLab and how easy it made collaboration. The second time was when he first made a post about it on Hacker News, and it didn't trend at first, so he left his computer to go make pancakes. But he had his phone with him, and his post started to get tons of comments and was featured on the home page. He asked his wife to take over making the pancakes for a few minutes, but he never came back because he spent the rest of the day answering questions about GitLab. Another time was when GitLab got into Y Combinator.
+As GitLab's co-founder, Sid, puts it: [it was iterative](https://youtu.be/jYYxi_bs1Qg). The first time was when he saw GitLab and how easy it made collaboration. The second time was when he first made a post about it on Hacker News, and it didn't trend at first, so he left his computer to go make pancakes. But he had his phone with him, and his post started to get tons of comments and was featured on the home page. He asked his wife to take over making the pancakes for a few minutes, but he never came back because he spent the rest of the day answering questions about GitLab. Another time was when GitLab got into Y Combinator.
 
 ## How did GitLab become an all-remote company?
 
 {{< youtube "jdN5mj5ieLk?start=14" >}}
 
-As part of a Harvard Business School case study [interview](https://youtu.be/jdN5mj5ieLk), GitLab co-founder and CEO Sid Sijbrandij spoke with Professor Prithwiraj Choudhury regarding the company's early days and how he thought about all-remote.
+As part of a Harvard Business School case study [interview](https://youtu.be/jdN5mj5ieLk), GitLab co-founder Sid Sijbrandij spoke with Professor Prithwiraj Choudhury regarding the company's early days and how he thought about all-remote.
 
 > The first employee of the company was based in Serbia. It wasn't practical to bring him to The Netherlands, and it wasn't practical for me to go to Serbia, so that was remote.
 >
@@ -132,7 +132,7 @@ Moving to the topic of investors and their perception of remote companies, Sid a
 
 ## Value Origin stories
 
-GitLab's [six core values](/handbook/values/) are 🤝 Collaboration, 📈 Results , ⏱️ Efficiency, 🌐 Diversity, Inclusion & Belonging, 👣 Iteration, and 👁️ Transparency, and together they spell the CREDIT we give each other by assuming good intent. In the following recordings, GitLab's CEO and Founder, Sid Sijbrandij, shares stories around each values origination and importance to GitLab.
+GitLab's [six core values](/handbook/values/) are 🤝 Collaboration, 📈 Results , ⏱️ Efficiency, 🌐 Diversity, Inclusion & Belonging, 👣 Iteration, and 👁️ Transparency, and together they spell the CREDIT we give each other by assuming good intent. In the following recordings, GitLab's co-founder, Sid Sijbrandij, shares stories around each values origination and importance to GitLab.
 
 ### Collaboration
 

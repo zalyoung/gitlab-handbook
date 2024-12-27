@@ -1,18 +1,11 @@
 ---
-
 title: Real-time Editing of Issue Descriptions (REID) Single-Engineer Group
 ---
-
-
-
-
-
-
 
 ## The Real-time Editing of Issue Descriptions (REID) Single-Engineer Group
 
 Real-time Editing of Issue Descriptions (REID) was a [Single-Engineer Group (SEG)](/handbook/company/structure/#single-engineer-groups)
-investment within GitLab’s [Incubation Engineering Department](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/handbook/engineering/development/incubation).
+investment within GitLab's [Incubation Engineering Department](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/handbook/engineering/development/incubation).
 This SEG effort has ended due to a team member departure, effective March 16, 2023.
 
 ### Vision
@@ -55,7 +48,7 @@ and considered ready for production.
 
 ### Foundational libraries
 
-GitLab's software stack enables real-time collaboration via [Websockets](https://developer.mozilla.org/en-US/docs/Web/API/WebSocket), in particular [GraphQL subscriptions](https://graphql.org/blog/subscriptions-in-graphql-and-relay/). Real-time comes with certain complexities when users want to collaboratively edit text, in particular rich text. In order to allow multiple parties to edit the same *text* concurrently, we must ensure a conflict-free replication mode between all participating clients. There are several ways to achieve this, but we utilize [CRDTs](https://en.wikipedia.org/wiki/Conflict-free_replicated_data_type). CRDTs allow us to concurrently edit state from `1, 2, … n` clients and eventually end up with a consistent representation of the document on all clients.
+GitLab's software stack enables real-time collaboration via [Websockets](https://developer.mozilla.org/en-US/docs/Web/API/WebSocket), in particular [GraphQL subscriptions](https://graphql.org/blog/2015-10-16-subscriptions/). Real-time comes with certain complexities when users want to collaboratively edit text, in particular rich text. In order to allow multiple parties to edit the same *text* concurrently, we must ensure a conflict-free replication mode between all participating clients. There are several ways to achieve this, but we utilize [CRDTs](https://en.wikipedia.org/wiki/Conflict-free_replicated_data_type). CRDTs allow us to concurrently edit state from `1, 2, … n` clients and eventually end up with a consistent representation of the document on all clients.
 
 Every participant in the editing process is a client (in comparison to [Operational Transformation](https://en.wikipedia.org/wiki/Operational_transformation)). The CRDT we picked ([YATA](https://www.researchgate.net/publication/310212186_Near_Real-Time_Peer-to-Peer_Shared_Editing_on_Extensible_Data_Types)) has a popular frontend implementation [Y.js](https://github.com/yjs/yjs) and we have created bindings for its [Rust](https://www.rust-lang.org/) port [`y-crdt`](https://github.com/y-crdt/y-crdt). This allows our Ruby on Rails backend to just act as one more client.
 
@@ -147,6 +140,7 @@ server. Upon reconnection, a client is now able to sync its state with the serve
 Starting a collaborative editing session should be exactly the same as opening and editing an issue today. In case a second user starts to work on an issue, the backend will create a *collaborative editing session* users automatically and makes sure that all changes (deltas) are synced between all participating parties.
 
 Awareness helps us to see who we are collaborating with and how. It helps us answering the following questions:
+
 - Who is online and collaborating with me?
 - Who is actively participating?
 
@@ -212,4 +206,4 @@ The GitLab UI does not rely on a uniform text editor but instead offeres a mix o
 
 ### Reading List
 
-* [Hybrid Anxiety and Hybrid Optimism: The Near Future of Work](https://future.a16z.com/hybrid-anxiety-optimism-future-of-work/)
+- [Hybrid Anxiety and Hybrid Optimism: The Near Future of Work](https://future.a16z.com/hybrid-anxiety-optimism-future-of-work/)

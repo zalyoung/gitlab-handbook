@@ -1,5 +1,4 @@
 ---
-
 title: "Cadence"
 description: "Everything in a company happens in a certain cadence. The period of each cadence differs. Learn about the cadences we have at GitLab."
 ---
@@ -35,7 +34,7 @@ How elements of our cadence fit together over time:
 
 How other elements relate to our cadence:
 
-1. [Top Cross-Functional Initiatives](/handbook/company/top-cross-functional-initiatives/) typically last a year and should be closely aligned to the yearlies.
+1. Top Cross-Functional Initiatives typically last a year and should be closely aligned to the yearlies.
 1. [Key Performance Indicators (KPIs)](/handbook/company/kpis/) are measures of performance for important things we do as a company all the time. If you want to change a KPI in a quarter this typically will be an OKR.
 1. [Our Values](/handbook/values/) are the principles we follow in pursuing the items on this Cadence page but are not part of any cadence.
 
@@ -83,9 +82,8 @@ These reviews ensure that elements reflect current priorities and do not get sta
 1. [Strategy](/handbook/company/strategy/)
 1. [3-year product direction strategy](https://about.gitlab.com/direction/#3-year-strategy)
 1. [Long range outlook](/handbook/finance/financial-planning-and-analysis/#long-range-outlook-lro)
-1. [Restricted stock unit vesting](/handbook/stock-options/#vesting) after cliff of six months is passed
+1. [Restricted stock unit vesting](/handbook/total-rewards/stock-options/#vesting) after cliff of six months is passed
 1. Average retention of team members is around 3 years
-
 
 ## Year
 
@@ -104,20 +102,19 @@ These reviews ensure that elements reflect current priorities and do not get sta
 1. [GitLab Assembly](/handbook/company/gitlab-all-company-meetings/)
 1. [Quarterly Kickoff](/handbook/ceo/office-of-the-ceo/#quarterly-kickoff)
 1. [Earnings activities](/handbook/finance/investor-relations/)
-1. [Key Reviews](/handbook/key-review/)
-1. [Group Conversations](/handbook/group-conversations/)
+1. [Key Reviews](/handbook/company/key-review/)
+1. [Group Conversations](/handbook/company/group-conversations/)
 
 ## Month
 
 1. [Release](https://about.gitlab.com/releases/)
 1. [Retrospective](/handbook/communication/#kickoffs)
 1. [Most KPIs](/handbook/company/kpis/)
-1. [Monthly touchpoint meetings](/handbook/company/offsite/#monthly-touch-point-meetings)
 
 ## Week
 
 1. [1-1 cadence with reports](/handbook/leadership/1-1/)
-1. [E-Group Weekly](/handbook/e-group-weekly/)
+1. [E-Group Weekly](/handbook/company/e-group-weekly/)
 
 ## Gantt Chart
 
@@ -153,20 +150,20 @@ gantt
     Start Q3 Earnings Prep      :10-25, 1d
 
     section E Group Offsite
-    January                     :01-05, 4d
-    April                       :04-04, 4d
-    June                        :06-04, 4d
-    October                     :10-04, 4d
+    March                       :03-20, 4d
+    June                        :06-20, 4d
+    September                   :09-20, 4d
+    December                    :12-05, 4d
 
     section Board Meeting
-    Prep led by CFO             :02-14, 21d
-    March                       :03-18, 1d
-    Prep led by CFO             :05-14, 21d
-    June                        :06-17, 1d
-    Prep led by CFO             :08-14, 21d
-    September                   :09-15, 1d
-    Prep led by CFO             :11-14, 21d
-    December                    :12-14, 1d
+    Prep led by CFO             :03-10, 21d
+    March                       :03-24, 1d
+    Prep led by CFO             :06-05, 21d
+    June                        :06-24, 1d
+    Prep led by CFO             :09-10, 21d
+    September                   :09-25, 1d
+    Prep led by CFO             :11-24, 21d
+    December                    :12-11, 1d
 
     section Monthly Releases
     Release                     :milestone, m12,01-22, 1d

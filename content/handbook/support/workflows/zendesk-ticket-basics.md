@@ -1,15 +1,12 @@
 ---
-
 title: Zendesk Ticket Basics
 category: Handling tickets
 description: Information about various Zendesk ticket fields, behaviors and procedures
 ---
 
-
-
 ## Ticket status
 
-Each ticket in Zendesk has a [status](https://support.zendesk.com/hc/en-us/articles/212530318-Updating-and-solving-tickets)
+Each ticket in Zendesk has a [status](https://support.zendesk.com/hc/en-us/articles/4408832151834-Updating-and-solving-tickets)
 that indicates its current state.
 
 ### Ticket statuses and their descriptions
@@ -95,9 +92,17 @@ our workflows, it is important to begin your work on a ticket by setting
 appropriate values in all of the required (*) fields and relevant non-required
 fields.
 
+## Adding CCs to a ticket
+
+Do not try to add external contacts to the CCs of a ticket, even if the customer asks you to.
+As a matter of security policy, customers have to add CCs themselves. Direct the customer to the
+[corresponding instructions](https://about.gitlab.com/support/portal/#adding-additional-participants-ccs-to-your-ticket) on how to do so.
+
+You can still add internal contacts (like other SEs, the customer's CSM, …) yourself.
+
 ## Handling Large Files
 
-Zendesk has a [fixed maximum attachment size](https://support.zendesk.com/hc/en-us/articles/235860287-What-is-the-maximum-attachment-size-I-can-include-in-ticket-comments-) of 50MB per file. If you need a user to share a larger file than this, then see [Provide Large Files to GitLab Support](https://about.gitlab.com/support/providing-large-files/) for information on how to do so.
+Zendesk has a [fixed maximum attachment size](https://support.zendesk.com/hc/en-us/articles/4408882848538-Can-I-change-the-attachment-size-limit-in-ticket-comments) of 50MB per file. If you need a user to share a larger file than this, then see [Provide Large Files to GitLab Support](https://about.gitlab.com/support/providing-large-files/) for information on how to do so.
 
 ## Merging tickets
 
@@ -105,7 +110,7 @@ Zendesk has a [fixed maximum attachment size](https://support.zendesk.com/hc/en-
 across the tickets. Everyone in CC on both of these tickets will receive the
 files.
 
-When [Merging Tickets](https://support.zendesk.com/hc/en-us/articles/203690916-Merging-tickets),
+When [Merging Tickets](https://support.zendesk.com/hc/en-us/articles/4408882445594-Merging-tickets),
 leave `Requester can see this comment` **unchecked** in the ticket that's being
 merged into (the second ticket from the top) in order to maintain the SLA. If
 the merge comment is made public, Zendesk considers it a response and removes

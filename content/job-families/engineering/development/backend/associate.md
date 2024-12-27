@@ -51,7 +51,7 @@ Backend Engineers at GitLab work on our product. This includes both the open sou
 - Computer science education or equivalent experience
 - Passionate about/experienced with open source and developer tools
 
-#### Professional Experience
+### Professional Experience
 
 At GitLab, due to the pace we're moving, people joining our team will be expected to have **significant** professional experience in the
 [primary programming language](#primary-programming-language) of the specialty that they'll be joining.
@@ -59,9 +59,9 @@ Because the majority of our codebase is written in Ruby, even in specialized rol
 
 For context, see this merge request with some [history on this policy](https://gitlab.com/gitlab-com/www-gitlab-com/merge_requests/2695).
 
-----
+---
 
-#### Primary programming language
+### Primary programming language
 
 Some specialties within GitLab are using primary programming languages other than Ruby.
 These programming languages are defined as being primary in terms of an engineer's experience and what they'll be writing day to day.
@@ -74,7 +74,6 @@ as well as some level of understanding of Ruby and Ruby on Rails.
 - [Intermediate](/job-families/engineering/backend-engineer/#intermediate-backend-engineer)
 - [Senior](/job-families/engineering/backend-engineer/#senior-backend-engineer)
 - [Staff](/job-families/engineering/backend-engineer/#staff-backend-engineer)
-- [Backend Engineering Manager](/job-families/engineering/backend-engineer/#backend-engineering-manager)
 
 ## Job Grade
 

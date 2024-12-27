@@ -17,7 +17,7 @@ Delegation is the assignment of responsibilities to another person for the purpo
 
 ### Considerations when delegating
 
-Before further diving into delegation, it's important for you as a leader to consider whether delegation is the right thing to do. In this [Situational Leadership Strategy](https://about.gitlab.com/blog/2021/11/19/situational-leadership-strategy/) article, GitLab's co-founder and CEO Sid Sijbrandij gives an overview of 4 leadership styles discussed in Situational Leadership Theory and the factors he considers when determining whether to delegate.
+Before further diving into delegation, it's important for you as a leader to consider whether delegation is the right thing to do. In this [Situational Leadership Strategy](https://about.gitlab.com/blog/2021/11/19/situational-leadership-strategy/) article, GitLab's co-founder Sid Sijbrandij gives an overview of 4 leadership styles discussed in Situational Leadership Theory and the factors he considers when determining whether to delegate.
 
 ### Benefits of Delegation
 
@@ -177,5 +177,5 @@ Practice makes perfect.  It gets easier the more you do it!  Below are a few use
 
 - [If You Want It Done Right, You Don't Have to Do It Yourself! The Power of Effective Delegation](https://www.amazon.com/Want-Done-Right-Dont-Yourself/dp/1884956327)
 - [The Busy Manager's Guide to Delegation](https://www.amazon.com/Busy-Managers-Guide-Delegation-Worksmart/dp/0814414745)
-- [The Art of Delegation: Maximize Your Time, Leverage Others, and Instantly Increase Profits](https://www.amazon.com/Art-Delegation-Maximize-Leverage-Instantly/dp/1508606463/ref=pd_lpo_14_t_0/131-6062910-8368813?_encoding=UTF8&pd_rd_i=1508606463&pd_rd_r=02942d4a-2f8f-4d1c-8e8d-f2620279a532&pd_rd_w=7cbKC&pd_rd_wg=sn5aY&pf_rd_p=7b36d496-f366-4631-94d3-61b87b52511b&pf_rd_r=B2SGADF8ZVFWGQ0SDMW7&psc=1&refRID=B2SGADF8ZVFWGQ0SDMW7)
-- [How to Delegate - Essential Managers series](https://www.amazon.com/Delegate-Essential-Managers-Robert-Heller/dp/0789428903/ref=pd_lpo_14_t_2/131-6062910-8368813?_encoding=UTF8&pd_rd_i=0789428903&pd_rd_r=02942d4a-2f8f-4d1c-8e8d-f2620279a532&pd_rd_w=7cbKC&pd_rd_wg=sn5aY&pf_rd_p=7b36d496-f366-4631-94d3-61b87b52511b&pf_rd_r=B2SGADF8ZVFWGQ0SDMW7&psc=1&refRID=B2SGADF8ZVFWGQ0SDMW7)
+- [The Art of Delegation: Maximize Your Time, Leverage Others, and Instantly Increase Profits](https://www.amazon.com/Art-Delegation-Maximize-Leverage-Instantly/dp/1508606463/)
+- [How to Delegate - Essential Managers series](https://www.amazon.com/Delegate-Essential-Managers-Robert-Heller/dp/0789428903/)

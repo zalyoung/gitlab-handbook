@@ -12,14 +12,14 @@ synced directly to the Zendesk instance it is for. Due to the sensitive and
 potentially destructive nature of the "backend" code, this requires Support
 Readiness review for any and all changes.
 
-#### How v1 works
+### How v1 works
 
 **NOTE** This details how it works at the root level. Please see
 [Change Management](../) for more information on how this is actually deployed.
 
 - The repository is scanned for YAML files, containing all needed aspects of the
   item
-- The source (often Zendesk) is scanned for for all items relating to the area
+- The source (often Zendesk) is scanned for all items relating to the area
 - These are compared to determine the creations and updates required for the
   source to align with the repository
 - All creations and updates are made to the source
@@ -40,7 +40,7 @@ maintained separately from the much safer "frontend" code. When using this
 method, Support Readiness review is not required for any changes to the
 "frontend" code.
 
-#### How v2 works
+### How v2 works
 
 **NOTE** This details how it works at the root level. Please see
 [Change Management](../) for more information on how this is actually deployed.
@@ -51,7 +51,7 @@ method, Support Readiness review is not required for any changes to the
     content managed by another team
   - In cases where this occurs, it checks the git submodule to locate the file
     which contains the managed content, putting it into place.
-- The source (often Zendesk) is scanned for for all items relating to the area
+- The source (often Zendesk) is scanned for all items relating to the area
 - These are compared to determine the creations and updates required for the
   source to align with the repository
 - All creations and updates are made to the source
@@ -124,11 +124,12 @@ broken pipelines, deployments, etc.
 
 | Category                | Type | Support Project | Sync Project |
 |-------------------------|:----:|-----------------|--------------|
-| Account Settings        | v2   | N/A | [zendesk-global/account-settings](https://gitlab.com/gitlab-support-readiness/zendesk-global/account-settings)
+| Account Settings        | v2   | N/A | [zendesk-global/account-settings](https://gitlab.com/gitlab-support-readiness/zendesk-global/account-settings) |
 | Agents                  | v2   | N/A | [zendesk-global/users/agents](https://gitlab.com/gitlab-support-readiness/zendesk-global/users/agents) |
 | Apps                    | v2   | N/A | [zendesk-global/apps](https://gitlab.com/gitlab-support-readiness/zendesk-global/apps) |
 | Articles                | v2   | N/A | [zendesk-global/articles](https://gitlab.com/gitlab-support-readiness/zendesk-global/articles) |
 | Automations             | v2   | [zendesk-global/automations](https://gitlab.com/gitlab-com/support/zendesk-global/automations) | [zendesk-global/automations](https://gitlab.com/gitlab-support-readiness/zendesk-global/automations) |
+| Dynamic Content         | v2   | N/A | [zendesk-global/dynamic-content](https://gitlab.com/gitlab-support-readiness/zendesk-global/dynamic-content) |
 | Groups                  | v2   | N/A | [zendesk-global/groups](https://gitlab.com/gitlab-support-readiness/zendesk-global/groups) |
 | Macros                  | v2   | [zendesk-global/macros](https://gitlab.com/gitlab-com/support/zendesk-global/macros) | [zendesk-global/macros](https://gitlab.com/gitlab-support-readiness/zendesk-global/macros) |
 | Organization Fields     | v2   | N/A | [zendesk-global/organizations/fields](https://gitlab.com/gitlab-support-readiness/zendesk-global/organizations/fields) |

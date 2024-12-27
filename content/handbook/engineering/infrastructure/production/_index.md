@@ -8,7 +8,7 @@ If you're a GitLab team member and are looking to alert Reliability Engineering 
 {{% /alert %}}
 
 {{% alert color="warning" %}}
-If you're a GitLab team member looking for help with a security problem, please see the [Engaging the Security On-Call](/handbook/security/security-operations/sirt/engaging-security-on-call.html) section.
+If you're a GitLab team member looking for help with a security problem, please see the [Engaging the Security On-Call](/handbook/security/security-operations/sirt/engaging-security-on-call/) section.
 {{% /alert %}}
 
 ## The Production Environment
@@ -18,7 +18,7 @@ For a complete list of production services see the [service catalog](https://git
 
 ## How to Get Help
 
-See [how to get assistance](/handbook/engineering/infrastructure/team/reliability/#getting-assistance).
+See [how to get assistance](/handbook/engineering/infrastructure/team/).
 
 ## Why `infrastructure` and `production` queues?
 
@@ -52,7 +52,7 @@ Additionally, we need to keep track of error budgets, which should also be deriv
 
 We will also be collapsing the `database` queue into the `infrastructure` queue. The database is a special piece of the infrastructure for sure, but so are the storage nodes, for example.
 
-For the on-call SRE, every event that pages (where an event may be a group of related pages) *should* have an issue created for it in the `production` queue.  Per the [severity](#severity) definitions, if there is at least *visible* impact (functional inconvenience to users), then it is by definition an incident, and the Incident template should be used for the issue.  This is likely to be the majority of pager events; exceptions are typically obvious, i.e. they impact only us and customers won't even be aware, or they're alerts that are pre-incident level which by acting on we avoid incidents.
+For the on-call SRE, every event that pages (where an event may be a group of related pages) *should* have an issue created for it in the `production` queue.  Per the severity definitions, if there is at least *visible* impact (functional inconvenience to users), then it is by definition an incident, and the Incident template should be used for the issue.  This is likely to be the majority of pager events; exceptions are typically obvious, i.e. they impact only us and customers won't even be aware, or they're alerts that are pre-incident level which by acting on we avoid incidents.
 
 ### Security Related Changes
 
@@ -92,7 +92,6 @@ Type labels are very important. They define what kind of issue this is. Every is
 |     `~Database`    | Label for problems related to database                                                                                  |
 |     `~Security`    | Label for problems related to security                                                                                  |
 
-
 #### Services
 
 The services list is mentioned here : https://gitlab.com/gitlab-com/runbooks/blob/master/services/service-catalog.yml
@@ -105,7 +104,7 @@ If this issue is urgent for whatever reason, we should label them following the 
 
 ## On-Call Support
 
-For details about managing schedules, workflows, and documentation, see the [on-call documentation](/handbook/on-call/).
+For details about managing schedules, workflows, and documentation, see the [on-call documentation](/handbook/engineering/on-call/).
 
 ### On-Call escalation
 
@@ -128,13 +127,13 @@ Events are recorded separately for the staging and production environment.
 For some incidents, we may figure out that the usage patterns that led to the issues were abuse.  There is a process for how we define and handle abuse.
 
 1. The definition of abuse can be found on the [security abuse operations section of the handbook](/handbook/security/)
-1. In the event of an incident affecting GitLab.com availability, the SRE team may take actions immediately to keep the system available.  However, the team must also immediately involve our security abuse team.  A new [security on call rotation](/handbook/security/security-operations/sirt/engaging-security-on-call.html) has been established in PagerDuty - There is a Security Responder rotation which can be alerted along with a Security Manager rotation.
+1. In the event of an incident affecting GitLab.com availability, the SRE team may take actions immediately to keep the system available.  However, the team must also immediately involve our security abuse team.  A new [security on call rotation](/handbook/security/security-operations/sirt/engaging-security-on-call/) has been established in PagerDuty - There is a Security Responder rotation which can be alerted along with a Security Manager rotation.
 
 ## Backups
 
 ### Purpose
 
-This section is part of [controlled document](/handbook/security/controlled-document-procedure.html) covering our controls for backups.  It covers BCD-11 in [the controls](/handbook/security/security-assurance/security-compliance/guidance/business-continuity-and-disaster-recovery.html).
+This section is part of [controlled document](/handbook/security/controlled-document-procedure/) covering our controls for backups.  It covers BCD-11 in [the controls](/handbook/security/security-assurance/security-compliance/guidance/business-continuity-and-disaster-recovery/).
 
 ### Scope
 
@@ -147,15 +146,13 @@ Production database backups
 | Infrastructure Team | Responsible for configuration and management |
 | Infrastructure Management (Code Owners) | Responsible for approving significant changes and exceptions to this procedure |
 
-
 ### Procedure
 
 Backups of our production databases are taken every 24 hours with continuous incremental data (at 60 sec intervals), streamed into [GCS](https://cloud.google.com/storage). These backups are encrypted, and follow the lifecycle:
 
-- Initial 14 days in [Multi-regional](https://cloud.google.com/storage/docs/storage-classes#standard) storage class.
-- After 14 days migrated to [Nearline](https://cloud.google.com/storage/docs/storage-classes#nearline) storage class.
-- After 40 days migrated to [Coldline](https://cloud.google.com/storage/docs/storage-classes#coldline) storage class.
-- After 120 days, backups are deleted.
+- Initial 7 days in [Multi-regional](https://cloud.google.com/storage/docs/storage-classes#standard) storage class.
+- After 7 days migrated to [Coldline](https://cloud.google.com/storage/docs/storage-classes#coldline) storage class.
+- After 90 days, backups are deleted.
 - Snapshots of non Patroni-managed database (e.g. PostgreSQL DR replicas) and non-database (e.g. Gitaly, Redis, Prometheus) data filesystems are taken every hour and kept for at least 7 days.
 - Snapshots of Patroni-managed databases (a designated replica, in fact) are taken every 6 hours and kept for 7 days.
 
@@ -190,8 +187,9 @@ The critical change process is described in the [emergency change process](/hand
 ### Patching Validation
 
 Patch validation can be performed in 3 ways.
+
 - Manually by cross examining the logs of the host with the vulnerability finding in [wiz.io](https://wiz.io).
-- Reviewing vulnerability & tracking issue raised into Gitlab by [Vulnerability Management teams automation] (https://handbook.gitlab.com/handbook/security/threat-management/vulnerability-management/#automation)
+- Reviewing vulnerability & tracking issue raised into GitLab by [Vulnerability Management teams automation] (/handbook/security/product-security/vulnerability-management/automation/)
 - Reach out to Vulnerability Management in slack `#g_vulnerability_management`
 
 ### General OS (Ubuntu or other Linux) Version updates

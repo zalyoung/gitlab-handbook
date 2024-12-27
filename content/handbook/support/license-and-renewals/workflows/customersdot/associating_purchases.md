@@ -4,7 +4,7 @@ category: CustomersDot
 description: Associating subscription with other CustomersDot users and changing subscription owner.
 ---
 
-----
+---
 Sometimes a subscription owner (`Sold To:` contact) may want to associate the billing account (and related subscriptions) with more CustomersDot users, or transfer the billing account / subscription ownership.
 
 This process would also apply for requests to send a license to a different email other than the `Sold To:` contact.
@@ -51,7 +51,7 @@ If the requester is an existing subscription contact and has access to the Custo
 
 #### Error "Email has already been taken" reported
 
-If the requestor follow the [self-service option](#self-service-option) and get the error "Email has already been taken", this means the new account owner is an existing CustomersDot user. Assist them by following the [the Support-assisted option for existing CustomersDot user](#process-for-existing-customersdot-user).
+If the requestor follow the [self-service option](#self-service-option) and get the error "Email has already been taken", this means the new account owner is an existing CustomersDot user. Assist them by following the [Support-assisted option for existing CustomersDot user](#process-for-existing-customersdot-user).
 
 ### Support-assisted option
 
@@ -99,7 +99,7 @@ We need **one** of the following in order to verify eligibility for the subscrip
    - The `Bill To:` contact must provide a recent GitLab invoice.
 1. Prior subscription contract
 1. Recent GitLab invoice (last 12 months)
-   - This option is not available for customers who purchased through a reseller. If the license key is unactivated at the time of the request, see Option 5. below, if the license has already been activated, the reseller can either open a ticket with this request or the customer can CC the reseller and also confirm that they would like to authorize the reseller to participate in the ticket. The reseller can then provide the invoice as proof of identity.
+   - This option is not available for customers who purchased through a reseller. If the license key is unactivated at the time of the request, see Option 6. below, if the license has already been activated, the reseller can either open a ticket with this request or the customer can CC the reseller and also confirm that they would like to authorize the reseller to participate in the ticket. The reseller can then provide the invoice as proof of identity.
 1. Copy of last loaded license (Self-Managed only) in text format only.
    - Screenshots are not valid
    - To obtain the license code:
@@ -120,14 +120,13 @@ We need **one** of the following in order to verify eligibility for the subscrip
    1. [Confirm that the subscription was purchased through a reseller](/handbook/support/license-and-renewals/workflows/working_with_reseller_related_requests#identifying-whether-a-customer-purchased-through-reseller)
    1. Verify that the email address domain used by the ticket requester matches the `Sold To` email domain of the `Invoice Owner` account in Zuora as detailed in the related [legal compliance issue](https://gitlab.com/gitlab-com/legal-and-compliance/-/issues/1564#note_1451657920). In cases where a customer has made a purchase through a series of resellers, the reseller matching the email domain identified in Zuora as the `Invoice owner` of the subscription should be used for verification confirmation.
 
-
 ### Fixing typos
 
 Support may receive an [Internal Request](/handbook/support/license-and-renewals/workflows/working_internal_requests/) to correct a typo in a customer's email address and resend the license or activation code to a valid address. Use the following workflow to validate such requests before making any changes:
 
 1. (Cloud license only, proceed to step 2 for Offline/Legacy) In CustomersDot, find the subscription name on the [Cloud Activation](https://customers.gitlab.com/admin/cloud_activation) page. Ensure the activation code has not been used; if it has not been activated yet, there will be no "Self Managed Instance Activations" tab for this cloud activation.
 1. [Check the Mailgun logs](/handbook/support/license-and-renewals/workflows/customersdot/troubleshoot_errors_while_making_purchases/#troubleshooting-email-delivery-from-customerdot) to verify that the license email was sent but failed to reach the intended customer. If the email with the typo does not exist, the Mailgun log entry will display a failed mail delivery attempt (commonly shown as a **550 error code**).
-1. Log the error by taking a screenshot of the error message and attach it to the ticket.
+1. Log the error by attaching a Mailgun log in text form to the ticket.
 1. Validate the correct email address with the Account Manager who submitted the request in writing before correcting the typo.
 1. Update the Sold to contact email address on the Billing Account and the related Customers Portal account.
 1. Resend the license or activation code to the corrected email address.
@@ -138,7 +137,7 @@ Support may receive an [Internal Request](/handbook/support/license-and-renewals
 1. Navigate to the `Billing account contacts` section of the `CustomersDot Admin` page.
 1. From there you can search for the account to be updated in Zuora by searching for the existing email address for either the `Bill To:` or the `Sold To:` on record.
 1. Once the account has been located it may be edited by selecting the small pencil icon located at the right side of the page.
-1. On the edit page you will see a highlighted warning banner near the top of the page indicating whether you will be editing the the `sold to contact`, the `bill to contact`, or the `sold to and bill to contact`.
+1. On the edit page you will see a highlighted warning banner near the top of the page indicating whether you will be editing the `sold to contact`, the `bill to contact`, or the `sold to and bill to contact`.
 1. Once you have confirmed the correct account in the `Billing account contacts` section of the `CustomerDot Admin` page, you may update the relevant fields.  Normally this is the `First name`, `Last name`, and `Email address`.  The physical address may be updated here as well, if desired.
 1. Upon completion of the changes, click the `Save` button near the bottom of the page.
 1. To confirm the changes propogated properly this can be done by verifying in Zuora that the `Sold To:` and/or the `Bill To:` contacts have been updated.

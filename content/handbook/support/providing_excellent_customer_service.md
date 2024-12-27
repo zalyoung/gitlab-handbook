@@ -47,7 +47,7 @@ apps to help you to meet commitments you make.
 ### Avoiding giving concrete answers to "when can I expect feature / fix X?"
 
 During the course of your ticket work you may link back to feature requests and bugs. While an issue with an assigned milestone *may* ship in the release indicated,
-do not promise that it will be. See more in our [documentation style-guide](https://docs.gitlab.com/ee/development/documentation/versions#promising-features-in-future-versions).
+do not promise that it will be. See more in our [documentation style-guide](https://docs.gitlab.com/ee/development/documentation/styleguide/availability_details.html).
 
 ## Emotionally-charged tickets
 
@@ -175,7 +175,7 @@ Some caveats to bear in mind:
 1. You should add a closure summary if the ticket is a long ongoing ticket where
    multiple suggestions have been provided to the customer throughout the ticket
    lifecycle.
-1. The macro template ‘Closure Summary’ is available in Zendesk to help guide
+1. The macro template 'Closure Summary' is available in Zendesk to help guide
    you with formatting a closure summary, you can modify or remove template
    content as deemed necessary.
 1. You should not feel the need to add a closure summary if the customer has not

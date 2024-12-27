@@ -13,7 +13,7 @@ These fall into one of two types:
 - Public - meaning both agents and end-users can see these
 - Internal - meaning only agents can see these
 
-## Change management
+### Change management
 
 Keep in mind, all change management should be stemming from an issue, first and
 foremost.
@@ -44,7 +44,7 @@ On this page, you will do the following:
 
 After doing so, click the blue `Save` button. You will then locate the
 placeholder ticket form you just created (should be at the bottom), hover over
-it, click the three vertical dots at at the right-hand side of the ticket form,
+it, click the three vertical dots at the right-hand side of the ticket form,
 and click `Deactivate`. After doing so, you will need to get the ID value for it
 (if you click it, you can see it in the URL).
 
@@ -54,7 +54,7 @@ are likely to need to adjust **many** ticket form files due to positioning.
 #### Updating an existing ticket form
 
 Updating an existing ticket form is considerably easier than creating a new one.
-Simply change change the code in the source project and it will occur via the
+Simply change the code in the source project and it will occur via the
 sync repo.
 
 #### Deactivating a ticket form
@@ -97,7 +97,7 @@ click on it. After doing so, click the three vertical dots at top-right of the
 page and click `Delete`. This will cause a pop-up modal to appear asking you to
 confirm the action. Click red `Delete` button to do so.
 
-## Troubleshooting
+### Troubleshooting
 
 #### Pipeline error "Blank ID"
 
@@ -139,44 +139,45 @@ need to review the error and determine the next steps from there.
 If you are unsure how to proceed, it is best to seek assistance from the wider
 team.
 
-## Source Projects
+### Source Projects
 
 #### Zendesk Global
 
-- [Support managed content project](https://gitlab.com/gitlab-com/support/zendesk-global/tickets/forms-and-fields)
+- [Sync repo](https://gitlab.com/gitlab-support-readiness/zendesk-global/tickets/forms-and-fields)
 
 #### Zendesk US Government
 
-- [Support managed content project](https://gitlab.com/gitlab-com/support/zendesk-us-government/tickets/forms-and-fields)
+- [Sync repo](https://gitlab.com/gitlab-support-readiness/zendesk-us-government/tickets/forms-and-fields)
 
-## Current Zendesk Global forms
+### Current Zendesk Global forms
 
-| Name                     | ID             | Visibility | Category    |
-|--------------------------|:--------------:|------------|-------------|
-| SaaS                     | 334447         | Public     | Support     |
-| SaaS Account             | 360000803379   | Public     | Support     |
-| Self-Managed             | 426148         | Public     | Support     |
-| GitLab Dedicated         | 4414917877650  | Public     | Support     |
-| L&R                      | 360000071293   | Public     | Support     |
-| Billing                  | 360000258393   | Public     | Billing     |
-| Alliance Partners        | 360001172559   | Public     | Support     |
-| Support Ops              | 360001801419   | Public     | Support Ops |
-| Emergencies              | 360001264259   | Public     | Support     |
-| GitLab Incidents         | 360001629679   | Internal   | Support     |
-| Support Internal Request | 12829030177948 | Internal   | Support     |
+| Internal Name            | Public name                                        | Visibility | Category    | Support Entitlement required? |
+|--------------------------|----------------------------------------------------|------------|-------------|:-----------------------------:|
+| SaaS                     | Support for GitLab.com                             | Public     | Support     | Y |
+| SaaS Account             | GitLab.com user accounts and login issues          | Public     | Support     | N |
+| Self-Managed             | Support for a self-managed GitLab instance         | Public     | Support     | Y |
+| GitLab Dedicated         | Support for GitLab Dedicated instances             | Public     | Support     | Y |
+| L&R                      | Subscription, License or Customers Portal Problems | Public     | Support     | N |
+| Billing                  | Billing inquiries/refunds                          | Public     | Billing/AR  | N |
+| Alliance Partners        | Support for alliance partners                      | Public     | Support     | Y |
+| Support Ops              | Support portal related matters                     | Public     | Support Ops | N |
+| Emergencies              | File an emergency request                          | Public     | Support     | N |
+| GitLab Incidents         | N/A                                                | Internal   | Support     | N/A |
+| Support Internal Request | N/A                                                | Internal   | Support     | N/A |
 
-## Current Zendesk US Federal forms
+### Current Zendesk US Federal forms
 
-| Name               | ID           | Visibility | Category |
-|--------------------|:------------:|------------|----------|
-| Support            | 360000446511 | Public     | Support  |
-| Upgrade Assistance | 360001434131 | Public     | Support  |
-| Support Ops        | 360001421052 | Public     | Support  |
-| L&R                | 360001421072 | Public     | Support  |
-| Emergency          | 360001421112 | Public     | Support  |
-| License Issue      | 360001803151 | Internal   | Support  |
+| Internal Name      | Public name                                   | Visibility | Category    | Support Entitlement required? |
+|--------------------|-----------------------------------------------|------------|-------------|:-----------------------------:|
+| Support            | Technical Support Requests                    | Public     | Support     | Y |
+| GitLab Dedicated   | GitLab Dedicated Technical Support Requests   | Public     | Support     | Y |
+| Upgrade Assistance | Upgrade Planning Assistance Request           | Public     | Support     | Y |
+| Support Ops        | Support portal related matters                | Public     | Support Ops | Y |
+| L&R                | License, Subscription, and Renewals Request   | Public     | Support     | Y |
+| Emergency          | Emergency Support Request                     | Public     | Support     | Y |
+| License Issue      | N/A                                           | Internal   | Support     | N/A |
 
-## Positioning
+### Positioning
 
 By default, new forms gain a position of `N+1`, where `N` is the highest
 position value of all forms currently in Zendesk (both active and inactive).
@@ -189,7 +190,7 @@ Clicking that will then allow you to drag and drop the list of forms into the
 order you desire. After making the changes, click the blue `Save` button at the
 top right of the page.
 
-## Ticket form standards
+### Ticket form standards
 
 To ensure all ticket forms we utilize are both consistent in nature and
 transparent in their actions, we strive to meet some standards on all
