@@ -157,7 +157,7 @@ This error message can be challenging to diagnose, as it can be the result of nu
 **Error**:
 > `Upon trying to sign in to view a dashboard, you receive the error message "invalid consent request".`
 
-![invalid consent embedded from other location](/static/images/handbook/enterprise-data/platform/tableau/invalidconsent.png)
+![invalid consent embedded from other location](/images/handbook/enterprise-data/platform/tableau/invalidconsent.png)
 
 This generally occurs because you do not have access to something you are trying to view. This can be:
  
