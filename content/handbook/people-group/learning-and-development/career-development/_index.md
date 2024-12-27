@@ -17,11 +17,10 @@ Navigate to career development resources located throughout the GitLab handbook:
 
 <div class="flex-row" markdown="0">
   <div>
-    <a href="{{< ref "general-and-entity-benefits#growth-and-development-benefit" >}}" class="btn btn-primary" style="margin:5px;"> Growth and Development Benefit </a>
-    <a href="{{< ref "career-development#tracking-your-career-development" >}}" class="btn btn-primary" style="margin:5px;">Goal Tracking Resources</a>
-    <a href="{{< ref "career-development#having-career-development-conversations" >}}" class="btn btn-primary" style="margin:5px;">Career Development Conversations </a>
+    <a href="{{< ref "general-and-entity-benefits#growth-and-development-benefit" >}}" class="btn btn-primary" style="margin:5px;"> Growth and Development Fund</a>
+    <a href="{{< ref "career-development#tracking-your-progress" >}}" class="btn btn-primary" style="margin:5px;">Goal Tracking Resources</a>
+    <a href="{{< ref "career-development#having-career-conversations" >}}" class="btn btn-primary" style="margin:5px;">Career Development Conversations </a>
     <a href="{{< ref "structure#job-frameworks" >}}" class="btn btn-primary" style="margin:5px;">Job Frameworks</a>
-    <a href="https://docs.google.com/document/d/1O45gRkQqUa3dEgjJXGwdBE7iZbBI22EPC7zrkS3T4dM/edit" class="btn btn-primary" style="margin:5px;">Tips for Creating Effective Growth Plans</a>
     <a href="https://levelup.gitlab.com/access/saml/login/internal-team-members?returnTo=https://levelup.gitlab.com/learn/course/igp" class="btn btn-primary" style="margin:5px;">How to use the IGP</a>
   </div>
 </div>
@@ -33,19 +32,16 @@ Navigate to career development resources located throughout the GitLab handbook:
     <a href="{{< ref "mentor" >}}" class="btn btn-primary" style="margin:5px;">Mentorship</a>
     <a href="{{< ref "internship-for-learning" >}}" class="btn btn-primary" style="margin:5px;">Internship for Learning</a>
     <a href="https://docs.google.com/presentation/d/1yY0ofMGgzN07ylTAnRP5geFnWcgUYkiVlcIyR54tpD0/edit#slide=id.g29a70c6c35_0_68" class="btn btn-primary" style="margin:5px;">Career Development Workshop</a>
-    <a href="{{< ref "career-development#skill-of-the-month" >}}" class="btn btn-primary" style="margin:5px;">Skill of the Month</a>
     <a href="{{< ref "coaching" >}}" class="btn btn-primary" style="margin:5px;">Work with a Coach</a>
     <a href="{{< ref "elevate-programs" >}}" class="btn btn-primary" style="margin:5px;">Elevate Manager Training</a>
     <a href="{{< ref "self-paced-learning#linux-foundation-courses" >}}" class="btn btn-primary" style="margin:5px;">Linux Foundation Courses</a>
     <a href="{{< ref "self-paced-learning#oreilly-learning" >}}" class="btn btn-primary" style="margin:5px;">O'Reilly Learning</a>
     <a href="{{< ref "self-paced-learning#gcp-learning" >}}" class="btn btn-primary" style="margin:5px;">GCP Learning</a>
-    <a href="/handbook/people-group/learning-and-development/growth-and-development/#professional-developmentcertificationslicenses" class="btn btn-primary" style="margin:5px;">Professional Certifications</a>
-    <a href="/handbook/people-group/learning-and-development/growth-and-development/#workshops-and-conferences" class="btn btn-primary" style="margin:5px;">Attend a Workshop/Conference</a>
-    <a href="/handbook/people-group/learning-and-development/growth-and-development/#crucial-conversations-training" class="btn btn-primary" style="margin:5px;">Crucial Conversations</a>
+    <a href="/handbook/people-group/learning-and-development/growth-and-development/#professional-developmentcertificationscourses" class="btn btn-primary" style="margin:5px;">Professional Certifications</a>
+    <a href="/handbook/people-group/learning-and-development/growth-and-development/#conferences-and-live-workshops" class="btn btn-primary" style="margin:5px;">Attend a Workshop/Conference</a>
     <a href="/handbook/people-group/learning-and-development/growth-and-development/#academic-study" class="btn btn-primary" style="margin:5px;">Academic Study</a>
     <a href="/job-families/expert/merge-request-coach" class="btn btn-primary" style="margin:5px;">MR Coaching</a>
     <a href="https://levelup.gitlab.com/access/saml/login/internal-team-members?returnTo=https://levelup.gitlab.com/learn/course/teamops" class="btn btn-primary" style="margin:5px;">TeamOps Certification</a>
-    <a href="https://about.gitlab.com/company/culture/inclusion/tmrg-gitlab-women/" class="btn btn-primary" style="margin:5px;">#IamRemarkable Workshop</a>
     <a href="https://levelup.gitlab.com/access/saml/login/internal-team-members?returnTo=https://levelup.gitlab.com/learn/course/igp" class="btn btn-primary" style="margin:5px;">Individual Growth Plan Course</a>
   </div>
 </div>
@@ -101,7 +97,7 @@ A live speaker series hosted in March 2022 with [Lavinia Mehedintu](https://www.
 
 1. 70% of your development should come from on-the-job and action learning.  This can include development experiences like managing a project, serving on a cross-functional team, taking on a new task, job shadowing, job rotation, etc.
 1. 20% of your development should come from interactions with others.  This includes having a mentor, being a mentor, coaching, participating in communities of practice, providing and receiving feedback, serving as a leader in your organization, etc.
-1. 10% of your development should come from training, including classes, seminars, webinars, podcasts, reading, conferences, etc. GitLab offers a [growth and development benefit](/handbook/people-group/learning-and-development/growth-and-development/) to help with this.
+1. 10% of your development should come from training, including classes, seminars, webinars, podcasts, reading, conferences, etc. GitLab offers a [growth and development fund](/handbook/people-group/learning-and-development/growth-and-development/) to help with this.
 
 ### Career Development versus Career Mobility
 
