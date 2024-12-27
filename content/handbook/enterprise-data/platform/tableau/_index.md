@@ -909,3 +909,18 @@ Because Tableau is integrated with our enterprise architecture, including hardwa
 ### Tableau Cloud Status
 
 To check the current status of Tableau Cloud and if there are any reported outages, visit the [Tableau Status Page](https://trust.tableau.com). On that page you can also sign up for notifications in the event of an outage. For reference, GitLab's Tableau Cloud instance is located in `United States - West - (10AZ)`.
+
+## View Performance
+
+Apdex is a standard measure of load performance. It is calculated by classifying each load event into one of three categories: Satisfied, Tolerating, Frustrated. It is based on two duration parameters: Target Time and Tolerable Time. 
+
+We use a target time of 5 seconds and follow the recommendation that the Tolerable time be four times that, 20 seconds.  
+
+The index itself is a weighted average, values range between 0 and 1, of the count of loads in each category which is then classified into five ratings: Excellent, Good, Fair, Poor, Unacceptable.
+
+| Apdex Value Range | Rating |
+| 0.94 to 1.00 | Excellent |
+| 0.85 to 0.93 | Good |
+| 0.70 to 0.84 | Fair |
+| 0.50 to 0.69 | Poor |
+| 0.00 to 0.49 | Unacceptable |
