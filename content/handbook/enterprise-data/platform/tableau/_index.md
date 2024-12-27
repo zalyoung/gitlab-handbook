@@ -916,7 +916,6 @@ Apdex is a standard measure of load performance. It is calculated by classifying
 
 We use a target time of 5 seconds and follow the recommendation that the Tolerable time be four times that, 20 seconds.  
 
-
 The index itself is a weighted average, values range between 0 and 1, of the count of loads in each category which is then classified into five ratings: Excellent, Good, Fair, Poor, Unacceptable.
 
 | Apdex Value Range | Rating |
