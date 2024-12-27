@@ -5,7 +5,6 @@ description: 'Cells: OAuth applications'
 ---
 
 <!-- vale gitlab.FutureTense = NO -->
-
 {{% alert %}}
 This document is a work-in-progress and represents a very early state of the
 Cells design. Significant aspects are not documented, though we expect to add
@@ -40,63 +39,83 @@ OAuth and OIDC have multiple endpoints, with variations in how these requests ar
 1. **Endpoints with `client_id` and `client_secret`:**
    Requests like `/oauth/authorize`, `/oauth/token`, and `/oauth/revoke` include these values either in the request body or URI.
 
-1. **User session-based endpoints:**
+2. **User session-based endpoints:**
    Endpoints like `/oauth/applications`, `/oauth/applications/new`, `/oauth/applications/:id`, and `/oauth/authorized_applications` are processed after the user session is established.
 
-1. **Token-authenticated endpoints:**
+3. **Token-authenticated endpoints:**
    `/oauth/token/info` is authenticated using an OAuth token.
 
-1. **Configuration endpoints:**
+4. **Configuration endpoints:**
    Requests such as `.well-known/openid-configuration`, `.well-known/webfinger`, and `/oauth/discovery/keys` return configurations relevant across all Cells.
 
-1. **User info endpoints:**
+5. **User info endpoints:**
    `/userinfo` is authenticated via the access token sent in the `Authorization` header.
 
-## 3. Proposal
+## 3. Implementation Status for Cells 1.0
 
-### 3.1. Cluster-wide OAuth applications
+OAuth applications are partially available in Cells 1.0 using a best-effort approach, despite two key limitations:
 
-OAuth applications are cluster-wide and synchronized across Cells, regardless of whether they exists at the instance, user, project or group owned.
-OAuth access grants, OAuth access tokens, OAuth refresh tokens are scoped to an Organization.
+1. Path-based routing is not yet available
+2. The OAuth applications table cannot be made cluster-wide at this time
 
-Pros:
+Organization handling in Cells 1.0 works as follows:
 
-- Enables third-party applications to register a single OAuth application per GitLab cluster.
-- Does not require admins of third-party applications to have visibility into GitLab infrastructure.
-- Preserves existing workflows. As an example, VS Code Extension ships with the OAuth App ID hardcoded, simplifying the configuration of the extension for the end user.
+1. The system attempts to determine the `organization_id` from the current_organization data fetched from the OAuth grant page
+2. When current_organization data is not available, the system falls back to using the default organization
+3. For the OAuth resource owner password flow, special handling is required:
+   - The `organization_id` must be specified manually
+   - If not specified, the system will fall back to a default `organization_id`
 
-Cons:
+This implementation provides basic OAuth functionality while working within current technical constraints.
 
-- More complex as OAuth applications need to be synced across Cells.
-- Each organization requires different token. As an example VS code extension need to store tokens per organization,
-  and special case need to be made for git and docker access
+## 4. Future Proposal
 
-## 4. Alternative approaches considered
+### 4.1. Cluster-wide OAuth Applications
 
-### 4.1. OAuth applications scoped to Cells / Organizations
-
-OAuth applications, OAuth access grants, OAuth access tokens, OAuth refresh tokens are scoped to an Organization.
+Once technical limitations are addressed in future versions, OAuth applications should be cluster-wide and synchronized across Cells, regardless of whether they are instance, user, project, or group owned. OAuth access grants, OAuth access tokens, and OAuth refresh tokens will be scoped to an Organization.
 
 Pros:
 
-- Less complex as OAuth applications do not need to be synced across Cells.
+- Enables third-party applications to register a single OAuth application per GitLab cluster
+- Does not require admins of third-party applications to have visibility into GitLab infrastructure
+- Preserves existing workflows (e.g., VS Code Extension ships with hardcoded OAuth App ID)
 
 Cons:
 
-- Third-party applications need to install multiple OAuth applications: one per each Cell.
-- Users of third-party applications need to understand which OAuth application is associated with a specific Cell to grant access.
-- Admins of third party applications need to have visibility into GitLab infrastructure, and create OAuth applications as new Cells are created.
+- More complex as OAuth applications need to be synced across Cells
+- Each organization requires a different token, requiring special handling for:
+  - VS Code extension (needs to store tokens per organization)
+  - Git access
+  - Docker access
 
-### 4.2. All OAuth entities are cluster-wide
+## 5. Alternative Approaches Considered
 
-OAuth applications, OAuth access grants, OAuth access tokens, OAuth refresh tokens are cluster-wide.
+### 5.1. OAuth Applications Scoped to Cells / Organizations
+
+OAuth applications, OAuth access grants, OAuth access tokens, and OAuth refresh tokens would be scoped to an Organization.
 
 Pros:
 
-- Similar to `Cluster-wide OAuth applications` approach, it enables third-party applications to register a single OAuth application per GitLab cluster.
-- No special handling required for Git, Docker, and API access credentials.
+- Less complex as OAuth applications do not need to be synced across Cells
 
 Cons:
 
-- Routing will not work as OAuth access tokens do not have a clear owning Cell.
-- Since OAuth access tokens are short-lived, a significant amount of data needs to be synchronized across Cells.
+- Third-party applications need to install multiple OAuth applications: one per Cell
+- Users need to understand which OAuth application is associated with a specific Cell
+- Third-party application admins need visibility into GitLab infrastructure
+- Need to create new OAuth applications as new Cells are created
+
+### 5.2. All OAuth Entities are Cluster-wide
+
+OAuth applications, OAuth access grants, OAuth access tokens, and OAuth refresh tokens would be cluster-wide.
+
+Pros:
+
+- Similar to Cluster-wide OAuth applications approach
+- Enables single OAuth application registration per GitLab cluster
+- No special handling required for Git, Docker, and API access credentials
+
+Cons:
+
+- Routing will not work as OAuth access tokens do not have a clear owning Cell
+- Significant synchronization overhead for short-lived OAuth access tokens across Cells
