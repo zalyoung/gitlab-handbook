@@ -47,11 +47,11 @@ TBD
 
 ## Project Management
 
-GitLab Delivery Stage has an [entry level Epic](https://gitlab.com/groups/gitlab-com/gl-infra/-/epics/1451) that collects all the groups roadmaps and projects in progress as a single view. This epic is also used for the weekly [Grand Review](../../platforms/#grand-review) 
+GitLab Delivery Stage has an [entry level Epic](https://gitlab.com/groups/gitlab-com/gl-infra/-/epics/1451) that collects all the groups roadmaps and projects in progress as a single view. This epic is also used for the weekly Grand Review 
 
 ### Issue Boards
 
-Each working epic should be accompanied by an issue board. Issue boards should be tailored to the specific project needs, but at minimum it should contain the [workflow labels](#workflow) shown on the workflow diagram.
+Each working epic should be accompanied by an issue board. Issue boards should be tailored to the specific project needs, but at minimum it should contain the workflow labels shown on the workflow diagram.
 
 <!-- ### Labels -->
 
