@@ -1,5 +1,6 @@
 ---
 title: GitLab Diversity, Inclusion, and Belonging 2023
+type: report
 date: 2023-07-26
 hide_readingtime: false
 pdf: 12170_GitLab_DIB_Presentation_07.25.23.pdf
@@ -225,9 +226,9 @@ Within these groups, members can experience:
 
 - Reverse AMAs: Ask Me Anything Q&A with our Executive Group and team members.
 - Stay interviews: Small cohort conversations with Executive Group leaders and our underrepresented groups with the goal of gaining valuable insights to ensure we are fostering an inclusive culture where all team members can thrive.
-- Sales sponsorship pilot: A [nine-month program](/handbook/company/culture/inclusion/DIB-Sponsorship/) that paired our senior CRO leaders with underrepresented team members to help create pathways, visibility, and advocacy to assist with progression within Sales.
+- Sales sponsorship pilot: A [nine-month program](/handbook/company/culture/inclusion/dib-sponsorship/) that paired our senior CRO leaders with underrepresented team members to help create pathways, visibility, and advocacy to assist with progression within Sales.
 - [TMRG Leadership Recognition Program](/handbook/company/culture/inclusion/erg-guide/#roles-within-the-group): A bonus provided to team members leading our TMRGs or DIB-focused groups to recognize great work being done to support the DIB strategy and DIB Team and embedding the DIB value at GitLab
-- [DIB Speaker Series](/handbook/company/culture/inclusion/DIB-Speaker-Series/): These are speakers, panels, or workshops with leaders internally and externally from a variety of communities. These events provide educational opportunities and inspire allyship with underrepresented groups.
+- [DIB Speaker Series](/handbook/company/culture/inclusion/dib-speaker-series/): These are speakers, panels, or workshops with leaders internally and externally from a variety of communities. These events provide educational opportunities and inspire allyship with underrepresented groups.
 - [Executive (VP+) sponsorship](/handbook/company/culture/inclusion/erg-guide/#executive-sponsorship): The role is to support the development of the TMRG, provide advocacy at the leadership level, connect the TMRG to GitLab's mission and goals, and provide advocacy to TMRG leaders.
 - TMRG community Slack spaces: TMRGs create safe spaces to connect.
 
