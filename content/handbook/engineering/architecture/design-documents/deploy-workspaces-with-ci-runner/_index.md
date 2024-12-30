@@ -43,6 +43,14 @@ Pipeline. The CI pipeline will use the same docker image specified in their
 Devfile and will inject the Web IDE into that docker image in a similar way to
 how it is injected into our Kubernetes Workspaces.
 
+This idea was demonstrated in this
+[video demo](https://youtu.be/TVGkBn726Bk) which is composed of
+POC changes in the following merge requests:
+
+1. https://gitlab.com/gitlab-org/gitlab/-/merge_requests/176479
+1. https://gitlab.com/gitlab-org/cluster-integration/gitlab-agent/-/merge_requests/2084
+1. https://gitlab.com/gitlab-org/workspaces/gitlab-workspaces-tools/-/merge_requests/19
+
 ## Key benefits of CI Runners
 
 It is clear that CI Runners and CI (in general) is quite different to the way
