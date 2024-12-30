@@ -54,9 +54,13 @@ pages under the "Categories" header) is the single source of truth on where we'r
 
 Although we have a bias for asynchronous communication, synchronous meetings are necessary and should adhere to our [communication guidelines](/handbook/communication/#video-calls). Some regular meetings that take place in Manage are:
 
-| Frequency | Meeting                              | DRI         | Possible topics                                                                                        |
-|-----------|--------------------------------------|-------------|--------------------------------------------------------------------------------------------------------|
-| Every other Thursday | Engineering managers discussion | @m_gill | Ideas, help or resources needed from others, concerns, questions, etc.                               |
+| **Meeting (Internal Only, limited access)** | **Frequency** | **DRI**         | **Topics**                                                                                                                                                                                                           |
+|---------------------------------------------|---------------|------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------|
+| SaaS Availability                           | Weekly        | Infrastructure  | Incident corrective actions, Feature Change Lock status, Past Due Infradev, Error Budget, or Security updates                                                                                                        |
+| Engineering Stage Review                    | Monthly       | Michelle Gill   | Productivity metrics, Technical Roadmap updates                                                                                                                                                                      |
+| Foundations and Data Science EM Meeting     | Biweekly      | Michelle Gill   | Standards discussions, questions, help needed, FYIs, process improvements, collaborating on engineering stage direction, team event planning, leadership communication dissemination, wider initiative brainstorming |                                                                                                                             |
+| Core Development Staff Meeting              | Biweekly      | Tim Zallmann    | Recurring staff meeting for updates across engineering management within Tim's organization                                                                                                                          |
+
 
 For one-off, topic specific meetings, please always consider recording these calls and sharing them (or taking notes in an internally available document.
 

@@ -69,6 +69,7 @@ Some regular meetings that take place for all AI teams on the shared AI-Powered 
 
 | Frequency | Meeting               | DRI         | Possible topics                 |
 |-----------|-----------------------|-------------|---------------------------------|
-| Monthly   | AI Monthly            | Michelle Gill & Taylor McCaslin     | Roadmap review, leadership feedback, stage-wide direction & strategy |
+| Monthly   | AI Powered Monthly            | Michelle Gill & Roger Woo     | Roadmap review, leadership feedback, stage-wide direction & strategy |
+| Weekly    | AI Management Strategy and Alignment    | Michelle Gill, Jacki Bauer, Roger Woo   | AI Powered stage-wide / Duo strategy, execution, collaboration and decision making |
 
 ## Stage Groups
