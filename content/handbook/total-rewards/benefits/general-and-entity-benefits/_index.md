@@ -108,7 +108,7 @@ GitLab team members receive credits to use for backup care and learning benefits
 ### Benefit Options & Taxability
 
 - **Care Cash:** Use your preferred backup care provider and get reimbursed up to 100 USD per day for the cost.
-- **Virtual Tutoring:** Weekly, 1-hour sessions for students (grades K–12) in subjects like math, SAT prep, or executive functioning skills.
+- **Virtual Tutoring:** Weekly, 1-hour sessions for students (ages 5-18) in subjects like math, SAT prep, or executive functioning skills.
 - **Center-Based Backup Child Care:** Available at Vivvi’s NY campuses or network daycare centers in the US and UK.
 - **In-Home Backup Child Care** For children ages 0–12 in the US, Canada, and UK.
 - **In-Home Backup Adult & Elder Care** For adults of all ages in the US, Canada, and UK.
