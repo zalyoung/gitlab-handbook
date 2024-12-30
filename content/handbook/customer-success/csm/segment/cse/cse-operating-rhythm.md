@@ -115,9 +115,11 @@ When reporting a problem, use the `Bug` template in the [Content project](https:
 
 Account owners (AEs, SAEs, Renewals Managers) working with customers that [qualify](https://gitlab.com/gitlab-com/customer-success/csm/-/wikis/CSM-Segments) for CSE may find that their customer would benefit from a CSE engagement outside of the [normal operating rhythm during the customer lifecycle](/handbook/customer-success/csm/segment/cse/#customer-lifecycle) (programmatic call invitations from Gainsight, manual outreach by CSE in Outreach, Office Hours and Webinars). In these cases, it is best to submit ad-hoc engagement requests through Salesforce. You can submit a case for a CSE to engage with you on an account by clicking on "CSE Help" at the top of the Salesforce account page chatter (click "Show Feed" to open it first ). This will help to qualify the engagement and help the CSE prepare for a productive conversation with the customer.
 
-This brief screencast demonstrates how to reveal the CSE Help button when on an account page in Salesforce:
+This brief screenshot demonstrates how to reveal the CSE Help button when on an account page in Salesforce (both Classic and Lightning)
 
 ![example-clip-demonstrating-cse-request-sfdc](/handbook/customer-success/csm/segment/cse/CSE-new-workflow.png)
+
+For a screencast demo opening a CSE Help Request in SFDC Lightning, please look at our [Highspot page](https://gitlab.highspot.com/items/662a8dc9f635929082a95ca8?lfrm=isd.8#ayeinnmw25) (Search for "How to Request a CSE in SFDC").
 
 #### Requesting CSE Engagement (Account Owners only - AEs, SAEs)
 
