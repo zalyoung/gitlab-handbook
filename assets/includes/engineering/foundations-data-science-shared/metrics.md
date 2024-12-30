@@ -107,7 +107,8 @@
 </td>
 <td>[Deliverables](https://gitlab.com/groups/gitlab-org/-/boards/7704400?label_name\[\]=Deliverable)
 </td>
-<td>[Engineering stage review](#meetings)
+<td>
+[Engineering stage review](#meetings)
 </td>
 </tr>
 </table>
