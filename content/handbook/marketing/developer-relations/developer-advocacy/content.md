@@ -185,7 +185,7 @@ The DA team creates product tours to showcase key workflows and highlight new fe
 1. Use the [product tour submission template](https://gitlab.com/gitlab-com/marketing/developer-relations/developer-advocacy/developer-advocacy-meta/-/issues/new?issuable_template=product-tour-submission-template) to propose your idea. 
 1. Answer all the questions in the template. This ensures the DA team can evaluate your idea effectively.
 1. The DA team will review the pitch and either a) greenlight the tour and suggest timeline for creation based on other priorities the team has, b) offer suggestions for improvements, or c) explain why the idea might not be a fit for the tour and offer other ideas for getting the message out.
-1. Once a tour is approved, the author will use the **product tour template** to draft the script. Link to the template exists in the [product tour submission templat](https://gitlab.com/gitlab-com/marketing/developer-relations/developer-advocacy/developer-advocacy-meta/-/issues/new?issuable_template=product-tour-submission-template).
+1. Once a tour is approved, the author will use the **product tour template** (google doc) to draft the script. Link to the template exists in the [product tour submission template](https://gitlab.com/gitlab-com/marketing/developer-relations/developer-advocacy/developer-advocacy-meta/-/issues/new?issuable_template=product-tour-submission-template).
 1. Add a link to the template in a comment in the submisson template issue. 
 1. The DA team will collaborate with the author on the script, and use Navattic to create the tour, and publish it in thr official targets when applicable (e.g., website, docs, HighSpot, DA handbook).
 
