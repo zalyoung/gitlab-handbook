@@ -45,7 +45,6 @@ Please see additional information on the 2025 US Benefit Plans
 
 Team Members can find Archived benefit plans, details, and open enrollment for prior years listed below:
 
-
 - [**2024 Calendar Year**](https://gitlab.com/gitlab-com/content-sites/handbook/-/blob/76bffb195bf7cc1623710c167e3e165ffb2adb9c/content/handbook/total-rewards/benefits/general-and-entity-benefits/inc-benefits-us/_index.md)
 - [**2023 Calendar Year**](https://gitlab.com/gitlab-com/content-sites/handbook/-/blob/5b8646cc905cb0aad9890c38ab4636f17ff3d5ef/content/handbook/total-rewards/benefits/general-and-entity-benefits/inc-benefits-us/_index.md)
 
