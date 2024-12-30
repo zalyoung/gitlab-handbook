@@ -190,7 +190,7 @@ See the [Application Security Testing sub-department vulnerability management pr
 
 #### Security Policy
 
-We prioritize findings by their CVSS severities and [SLAs](/handbook/security/product-security/vulnerability-management/sla/).
+We prioritize findings by their CVSS severities and [SLAs](/handbook/security/product-security/vulnerability-management/sla/). Start with `Critical` and `High` but also look for issues that are connected to vulnerabilities and have an `SLA::Near Breach` label. These vulnerabilities might have a lower CVSS score leading though to a high severity issue.
 
 Please utilize all the time you have set aside. If you complete all the ones at Critical and High, please continue to triage - we want to address all findings but we are working in a risk based order.
 
