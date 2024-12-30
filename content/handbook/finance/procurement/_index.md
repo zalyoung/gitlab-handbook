@@ -50,11 +50,11 @@ Before sharing details and/or confidential information regarding GitLab business
 
 All vendors must adhere to the [GitLab Partner Code of Ethics](/handbook/legal/partner-code-of-ethics/). It is mandatory all vendors contractually adhere to this if they would like to do business with us. (Note these are typically not required in event related agreements unless the vendor is providing services).
 
-#### 2. Negotiation, Privacy and Security Review
+#### 2. Negotiation, Privacy, Security, and Compliance Review
 
 Depending on the amount of spend, Procurement will assist or lead in negotiating the pricing and commercial terms of the contract.
 
-Depending on the types of data shared with the vendor, Privacy and Security will need to complete a review of the vendor
+Depending on the types of data shared with the vendor, Privacy and Security will need to complete a review of the vendor. Depending on nature of vendor's services and/or whether the vendor has been recommended to us, the Ethics and Compliance team will need to complete an anticorruption/antibribery review and, potentially, recommend additional measures to mitigate that risk. 
 
 For more information on these requirements and steps, see the [Review Steps, Timeline, and Considerations section](#review-steps-timeline-and-considerations)
 
@@ -87,6 +87,8 @@ If holding a business review with a vendor, the following topics should be discu
 On a quarterly basis, the Procurement team will meet with business stakeholders in each department to review a rolling 12 month list of renewals, focusing on the upcoming 2 quarters. This list is pulled from Zip and Coupa. The list should be reviewed and prioritized with the business owners. The renewal process should start at least 90 days ahead of the renewal date providing ample time to review the terms and decide:
 
 - Are there any additional security requirements for the vendor?
+- Has our sanctions screening tool, Risk Rate, detected any potential matches since the vendor was originally onboarded?
+- Has the anticorruption risk profile changed?
 - Has the vendor had an RFP for pricing in last 3 years?
 - Do we want to terminate or reduce spend and need to proactively notify per the contract?
 - Do we want to change any terms of our contract?
@@ -155,10 +157,16 @@ Each review's targeted approval time is outlined below, but as mentioned above, 
 
 #### 1.A. Buyer Review (Procurement): 2 days
 
-- Ensure you have the approprate contract documents uploaded when you submit your request
+- Ensure you have the appropriate contract documents uploaded when you submit your request
 - The $ amount of the req matches the contract value and the correct billing codes are selected
 
-#### 1.B. New Supplier Onboarding: 2-3+ Days, if required
+#### 1.B. Sanctions Screening (Ethics & Compliance): 30 minutes - 3+ Days, if required
+- Use the vendor’s complete name in your Zip request, as this will be the basis for sanctions screening which automatically happens in our sanctions screening tool, Risk Rate. Incomplete names (e.g., "EY Germany" rather than "Ernst and Young GmbH") may result in false positives and unnecessary delay. 
+- If Risk Rate detects no matches between the vendor and applicable sanctions lists AND the vendor is not located in a high-risk country, the vendor will be auto-approved. If Risk Rate detects a potential match or is located in a high risk country, the vendor may require escalation to and manual review by GitLab's Trade Compliance Counsel. 
+- Include the vendor’s website or LinkedIn page in the relevant Zip field, in advance, to help counsel evaluate the match more quickly.
+
+
+#### 1.C. New Supplier Onboarding: 2-3+ Days, if required
 
 - This is entirely dependent upon the suppliers response time.
 - Once supplier information has been submitted in Zip and the Procurement team sets the vendor up in Coupa, the supplier receives an email from Coupa requesting banking and tax information to facilitate payment.
@@ -214,7 +222,13 @@ Each review's targeted approval time is outlined below, but as mentioned above, 
 - **TIP:** To increase speed of approval, upload any security compliance documentation (SOC-2 Report, ISO27001 Certificate) to the ZipHQ Request and notify your supplier contact they will be receiving a request from GitLab's Security Risk Team for completion ASAP.
 - For any inquiries and questions, please tag @securityrisk in the #procurement slack channel.
 
-#### 3.D. PeopleOps Review: 1-4 Days
+#### 3.D. Compliance Review: 4-14 Days
+- The first page of the Zip request includes anticorruption gating question (e.g., will the vendor interact with government agencies on our behalf, was this vendor recommended by a government official, etc.). If the answer to any of these questions is “yes,” the Ethics & Compliance team must consider whether the vendor presents unacceptably high compliance risk. 
+- To do this, the Ethics & Compliance team will conduct additional due diligence, which may, in part, consist of sending a questionnaire directly to the vendor. This questionnaire asks about the vendor’s ownership and history with applicable regulatory agencies, to better understand the risk, and asks whether the vendor has an anticorruption program in place, to understand whether the vendor has already taken measures to mitigate that risk. Turnaround time largely depends on the vendor's responsiveness. 
+- When risk is present, the Ethics & Compliance team will consider whether anything can be done to mitigate that risk. Risk mitigation could, for example, consist of additional provisions in the vendor agreement. 
+
+
+#### 3.E. PeopleOps Review: 1-4 Days
 
 - PeopleOps serve as reviewers on all professional services requisitions to determine if a background screening is necessary.
 - Per GitLab's [People Policies](/handbook/people-policies/#background-screenings) contractors are subject to complete a background screening. GitLab will accept a completed background screening from a contractor's employer. However, if a background screening was never conducted GitLab will either complete one or ask that one be completed.
@@ -223,7 +237,7 @@ Each review's targeted approval time is outlined below, but as mentioned above, 
 - The Sr. Background Check Specialist will only follow up if a result of concern returns on the background screening.
 - Questions and/or proof regarding background screenings on professional service requisitions in Zip can be sent to [backgroundchecks@gitlab.com](mailto:backgroundchecks@gitlab.com).
 
-#### 3.E. Privacy Review: 4-14 Days
+#### 3.F. Privacy Review: 4-14 Days
 
 - A Privacy Review is required for all SaaS purchases and other purchase types where the supplier will receive from GitLab or collect on GitLab's behalf red/orange data. For existing vendors, a full privacy review is required every 24 months, provided the vendor completed a full and satisfactory privacy review during the prior procurement cycle
 - This activity begins **after** the supplier completes a Privacy and Trade Compliance Assessment form and a Transfer Impact Assessment Form (where personal data is transferred from the EU to the U.S.) Oftentimes, it can take a week for the supplier to respond and complete the requested forms. The SLA begins once that is completed.
