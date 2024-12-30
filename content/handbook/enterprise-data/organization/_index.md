@@ -227,7 +227,7 @@ See [Data Team Internships](/handbook/enterprise-data/organization/internships/)
 | ------ | ------ |------ |------ |
 | Complete People and Data Onboarding | Take up tasks related to assigned program | Own epic / KR from planning to execution | Own specific data domain for data governance and data quality improvement |
 | Fully understand the data governance and data quality program, priorities and its strategy | Investigate incidents and issues | Work on [OKR assignments](/handbook/enterprise-data/direction/#quarterly-objectives) | Collaborate cross functionally and identify areas for improvement |
-| Create a MR to contribute to handbook or templates |
+| Create a MR to contribute to handbook or templates |  |  |  |
 
 ### Data Governance and Quality Program Manager Job Family
 
