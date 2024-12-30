@@ -3,7 +3,7 @@ title: "GitLab Delivery"
 description: "The GitLab Delivery Stage focuses on enhancing the reliability, efficiency, and speed of GitLab’s end-to-end software delivery across all platforms and offerings."
 ---
 
-** This is a draft page and it is currently a work in progress **
+**This is a draft page and it is currently a work in progress**
 
 ## Mission
 
