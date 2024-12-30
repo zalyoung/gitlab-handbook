@@ -180,7 +180,7 @@ Source code, demo projects, workshops, tutorials, research, etc. are documented 
 
 ## Contribute to product tours - NEW PROCESS
 
-The DA team creates product tours to showcase key workflows and highlight new features, such as **Advanced SAST**, **GitLab Duo**, **Duo with Amazon Q**. The DA team is committed to building, reviewing, and publishing product tours to ensure a consistent and high-quality experience for our users. You can also contribute by proposing additional tours and provide the content, script, and environment. Here’s how you can collaborate with the DA team to create new product tours:
+The DA team creates product tours to showcase key workflows and highlight new features, such as **Advanced SAST**, **GitLab Duo**, **Duo with Amazon Q**, [and more](#product-tours). The DA team is committed to building, reviewing, and publishing product tours to ensure a consistent and high-quality experience for our users and potential customers. You can also contribute by proposing additional tours and provide the content, script, and environment. Here’s how you can collaborate with the DA team to create new product tours:
 
 1. Use the [product tour submission template](https://gitlab.com/gitlab-com/marketing/developer-relations/developer-advocacy/developer-advocacy-meta/-/issues/new?issuable_template=product-tour-submission-template) to propose your idea. 
 1. Answer all the questions in the template. This ensures the DA team can evaluate your idea effectively.
