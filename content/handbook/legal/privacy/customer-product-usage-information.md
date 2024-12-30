@@ -107,6 +107,26 @@ The first exception is in the collection of hostname and IP address for Self-Man
 
 *Opting-Out*:  By default, all paid GitLab.com subscriptions on 14.1 or higher with an internet connection will have Subscription Data collected via License Sync.  If a Self-Managed or Dedicated customer wishes to opt-out of License Sync, they should consult with GitLab Sales to obtain a Legacy or Offline License. For paid GitLab.com subscriptions, you cannot opt-out of Subscription Data collected via Service Ping.
 
+## Switchboard
+
+*Purpose*: GitLab customers using the Dedicated single tenant SaaS offering have access to a customer console called [Switchboard](https://about.gitlab.com/direction/saas-platforms/switchboard/).  Switchboard is used by customer teams to maintain and configure their own Dedicated tenant.  Frontend Metrics from the Switchboard application are collected to better understand how Dedicated customers are using Switchboard.  In turn, these Metrics will help drive further development efforts of the Switchboard application.   
+
+*Applicable Software*: Switchboard Metrics are collected only from Dedicated users with access to the Swithboard application.
+
+*Configuration*: Switchboard Metrics are only collected from the Switchboard application itself and not from the Dedicated tenant.  Therefore, user interactions in the Dedicated tenant do not result in any data collected under this section.  Please view this [high-level diagram](https://docs.gitlab.com/ee/administration/dedicated/#architecture) that demonsrtates the flow of Metrics collected from the Switchboard application and sent to our data warehouse for processing.
+
+*Personal Data Collected*: Switchboard Metrics are initially tied to an individual user in a raw format.  However, these Metrics are sent through a de-identification process and subsequently purged, meaning only pseudonymized Metrics or Metrics aggregated across an entire Switchboard customer console are delivered to our data warehouse.  Pseudonymized Metrics are still considered personal data under applicable data protection laws since these Metrics are capable of re-identification. GitLab, however, does not undertake any processes to re-identify or relate the Metrics back to individual users.  
+
+*Data Sharing*: Switchboard Metrics are not shared with independent third-parties.  The Switchboard application and data warehouse are GitLab-controlled systems.
+
+*Cadence*: Switchboard Metrics are collected [   ].
+
+*Ownership*: Switchboard Metrics are owend by the [GitLab Dedicated Group](https://handbook.gitlab.com/handbook/engineering/infrastructure/team/gitlab-dedicated/) and the [Analytics Instrumentation Group](https://handbook.gitlab.com/handbook/engineering/development/analytics/monitor/analytics-instrumentation/).  
+
+*Types of Data*: A full list of the Switchboard Mertics collected can be viewed [here](https://metrics.gitlab.com/events/?serviceName=Switchboard).
+
+*Opting-Out*:  Currently, there is no mechanism for opting out of Switchboard Metrics. 
+
 ## Usage Data for AI-Powered Features
 
 AI-powered features, such as Code Suggestions, are not encompassed by the descriptions on this page.  Those features are subject to their own collection configuration.  Usage data and telemetry collected for AI-powered features will be detailed on the GitLab Duo Docs page [here](https://docs.gitlab.com/ee/user/gitlab_duo/data_usage.html#telemetry).
