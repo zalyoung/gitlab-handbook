@@ -21,7 +21,7 @@ At a high level, the Release post schedule is:
 
 ### Monday, 3 weeks before release
 
-- T Release Post Manager manually triggers the following [scheduled pipelines in the www-gitlab-com project](https://gitlab.com/gitlab-com/www-gitlab-com/-/pipeline_schedules): 
+- Release Post Manager manually triggers the following [scheduled pipelines in the www-gitlab-com project](https://gitlab.com/gitlab-com/www-gitlab-com/-/pipeline_schedules): 
   - `Release Post Process Kickoff Tasks`
   - `Add deprecations and removals to current release post branch` 
 - These invoke the `bin/rake release_post:start` rake task. ([pipeline configuration](https://gitlab.com/gitlab-com/www-gitlab-com/blob/master/.gitlab-ci.yml#L280-288); [rake task](https://gitlab.com/gitlab-com/www-gitlab-com/blob/master/lib/tasks/release_post.rake#L9))
