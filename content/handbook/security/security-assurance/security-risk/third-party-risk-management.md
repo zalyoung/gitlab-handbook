@@ -33,6 +33,9 @@ GitLab's Security TPRM program involves three components which are integrated in
 | Business or System Owner |  [Describe the nature of the Third Party Relationship](/handbook/finance/procurement/#step-2-submit-your-zip-request) <br> Work with the Security Risk team to facilitate the TPRM review, to include remediation activities <br>* Ensure the responsiveness of the third party as part of the security review requirements |
 | Security Assurance Management (Code Owners) | Responsible for approving significant changes and exceptions to this procedure |
 
+### On-Call Rotation
+TPRM engineers are assigned on-call duties on a weekly basis to manage vendor intake and TPRM inquiries. Team members are encouraged to tag the on-call engineer via Slack or within GitLab issues for urgent inquiries. The on-call calendar can be found [here](https://calendar.google.com/calendar/u/0/embed?height=600&wkst=1&ctz=America/Chicago&title=TPRM+On-Call+Calendar&showPrint=0&showTabs=0&showCalendars=0&showTz=0&src=Y181ZGE3cHNtZXNycGxnYzFxZWkxbzh2aWE0MEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&color=%23039BE5).
+
 ### After-Hours Support
 
 The Security Risk team's core working hours are 8:00AM to 4:00PM CST. For urgent requisitions or TPRM concerns requiring immediate attention outside of these hours, please reach out to Ty Dilbeck via the phone number listed in Slack.
