@@ -46,7 +46,13 @@ pages under the "Categories" header) is the single source of truth on where we'r
 
 {{% include "includes/engineering/foundations-data-science-shared/holiday-exchange.md" %}}
 
-## Say/Do Ratio
+## Metrics
+
+{{% include "includes/engineering/foundations-data-science-shared/metrics.md" %}}
+
+### Say/Do Ratio
+
+{{% include "includes/engineering/foundations-data-science-shared/say-do-ratio.md" %}}
 
 {{% include "includes/engineering/foundations-data-science-shared/say-do-ratio.md" %}}
 
