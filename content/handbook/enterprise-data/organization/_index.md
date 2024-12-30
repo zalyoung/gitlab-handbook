@@ -231,7 +231,7 @@ See [Data Team Internships](/handbook/enterprise-data/organization/internships/)
 
 ### Data Governance and Quality Program Manager Job Family
 
-[Data Governance and Quality Analyst Job Family](job-families/marketing/enterprise-data/data-governance-and-quality-program-manager)
+[Data Governance and Quality Analyst Job Family](/job-families/marketing/enterprise-data/data-governance-and-quality-program-manager)
 
 ```mermaid
   graph LR;
