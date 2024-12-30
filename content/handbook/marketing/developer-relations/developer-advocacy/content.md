@@ -178,7 +178,7 @@ Source code, demo projects, workshops, tutorials, research, etc. are documented 
 1. Navattic supports two types of screen captures: Web and Screenshots. It's recommended to use web captures for an 'in-product' feel, but in some cases, due to Navattic product limitations, you may find that web capture doesn't work well for some pages. In such cases, use screenshots instead. Here are some guidelines for screenhots capturing:
 1. Open your browser at 1680x1050 resolution (Full HD). You can use [Window Resizer](https://chromewebstore.google.com/detail/window-resizer/kkelicaakdanhinjdeammmilcgefonfh) to set the resolution.
 
-## Contribute to product tours - NEW PROCESS
+## Contribute to product tours
 
 The DA team creates product tours to showcase key workflows and highlight new features, such as **Advanced SAST**, **GitLab Duo**, **Duo with Amazon Q**, [and more](#product-tours). The DA team is committed to building, reviewing, and publishing product tours to ensure a consistent and high-quality experience for our users and potential customers. You can also contribute by proposing additional tours and provide the content, script, and environment. Here’s how you can collaborate with the DA team to create new product tours:
 
@@ -187,7 +187,7 @@ The DA team creates product tours to showcase key workflows and highlight new fe
 1. The DA team will review the pitch and either a) greenlight the tour and suggest timeline for creation based on other priorities the team has, b) offer suggestions for improvements, or c) explain why the idea might not be a fit for the tour and offer other ideas for getting the message out.
 1. Once a tour is approved, the author will use the **product tour template** (google doc) to draft the script. Link to the template exists in the [product tour submission template](https://gitlab.com/gitlab-com/marketing/developer-relations/developer-advocacy/developer-advocacy-meta/-/issues/new?issuable_template=product-tour-submission-template).
 1. Add a link to the template in a comment in the submisson template issue. 
-1. The DA team will collaborate with the author on the script, and use Navattic to create the tour, and publish it in the official targets when applicable (e.g., website, docs, HighSpot, DA handbook).
+1. The DA team will collaborate with the author on the script, use Navattic to create the tour, and publish it in the official targets when applicable (e.g., website, docs, HighSpot, DA handbook).
 
 ## Content Distribution
 
