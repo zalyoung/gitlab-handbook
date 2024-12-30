@@ -288,8 +288,8 @@ Issues scheduled for the release are then marked ~"workflow::ready for developme
 
 #### Issue assignments
 
-Issue assignments are done collaboratively during the monthly refinement meeting
-or assigned directly by the EM before the milestone starts.
+Issue assignments are done collaboratively during the monthly Backlog Refinement meeting and Milestone Planning meetings.
+If any priority issues emerge after these meetings, or if assignments can't be done during these meetings, the EM will assign the issues directly, before the milestone starts.
 
 #### Follow up issues
 
