@@ -58,9 +58,8 @@ Although we have a bias for asynchronous communication, synchronous meetings are
 |---------------------------------------------|---------------|------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------|
 | SaaS Availability                           | Weekly        | Infrastructure  | Incident corrective actions, Feature Change Lock status, Past Due Infradev, Error Budget, or Security updates                                                                                                        |
 | Engineering Stage Review                    | Monthly       | Michelle Gill   | Productivity metrics, Technical Roadmap updates                                                                                                                                                                      |
-| Foundations and Data Science EM Meeting     | Biweekly      | Michelle Gill   | Standards discussions, questions, help needed, FYIs, process improvements, collaborating on engineering stage direction, team event planning, leadership communication dissemination, wider initiative brainstorming |                                                                                                                             |
-| Core Development Staff Meeting              | Biweekly      | Tim Zallmann    | Recurring staff meeting for updates across engineering management within Tim's organization                                                                                                                          |
-
+| Foundations and Data Science EM Meeting     | Biweekly      | Michelle Gill   | Standards discussions, questions, help needed, FYIs, process improvements, collaborating on engineering stage direction, team event planning, leadership communication dissemination, wider initiative brainstorming, OKRs |
+| Core Development Staff Meeting              | Biweekly      | Tim Zallmann    | Recurring staff meeting for updates across engineering management within Tim's organization |
 
 For one-off, topic specific meetings, please always consider recording these calls and sharing them (or taking notes in an internally available document.
 
