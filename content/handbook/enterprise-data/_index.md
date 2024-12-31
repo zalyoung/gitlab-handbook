@@ -25,7 +25,7 @@ description: "The GitLab Enterprise Data Team is responsible for empowering ever
 
 The collective set of people, projects, and initiatives focused on advancing the state of data at GitLab is called the **GitLab Data Program**. GitLab has two primary distinct groups within the Data Program who use data to drive insights and business decisions. These groups are complementary to one another and are focused on specific areas to drive a deeper understanding of trends in the business. The two teams are the (central) Enterprise Data Team and, separately, Function Analytics Teams located in Sales, Marketing, Product, Engineering or Finance. Watch the [Data Recruiting Video](https://youtu.be/4DlwsBIPxUw) to hear from some of the teams involved and what they are working on.
 
-* The **Data Team** reports into Business Technology and is the Center of Excellence for enterprise insights & analytics (not operational), data science, data platform & infrastructure, BI technologies, master data, data governance and data quality. The Data Team is also responsible for the enterprise data strategy, building [enterprise-wide data models](/handbook/enterprise-data/platform/edw/), providing [Self-Service Data](/handbook/enterprise-data/direction/self-service/) capabilities, maintaining the [data platform](/handbook/enterprise-data/platform/#our-data-stack), developing [Data Pumps](/handbook/enterprise-data/platform/#data-pump), and monitoring and measuring [Data Quality](/handbook/enterprise-data/data-quality/). The Data Team is responsible for data that is defined and accessed on a regular basis by GitLab team members from the [Snowflake Enterprise Data Warehouse](/handbook/enterprise-data/platform/#data-warehouse). The Data Team builds data infrastructure to power approximately 80% of the data that is accessed on a regular basis. The Data Team also provides a Data Science center of excellence to launch new advanced analytics initiatives and provide guidance to other GitLab team members.
+* The **Data Team** reports into Marketing office and is the Center of Excellence for enterprise insights & analytics (not operational), data science, data platform & infrastructure, BI technologies, master data, data governance and data quality. The Data Team is also responsible for the enterprise data strategy, building [enterprise-wide data models](/handbook/enterprise-data/platform/edw/), providing [Self-Service Data](/handbook/enterprise-data/direction/self-service/) capabilities, maintaining the [data platform](/handbook/enterprise-data/platform/#our-data-stack), developing [Data Pumps](/handbook/enterprise-data/platform/#data-pump), and monitoring and measuring [Data Quality](/handbook/enterprise-data/data-quality/). The Data Team is responsible for data that is defined and accessed on a regular basis by GitLab team members from the [Snowflake Enterprise Data Warehouse](/handbook/enterprise-data/platform/#data-warehouse). The Data Team builds data infrastructure to power approximately 80% of the data that is accessed on a regular basis. The Data Team also provides a Data Science center of excellence to launch new advanced analytics initiatives and provide guidance to other GitLab team members.
 
 * **Function Analytics Teams** reside and report into their respective divisions and departments. These teams perform specific analysis for business activities and workflows that take place within the function. These teams perform ad-hoc analysis and develop dashboards based on the urgency and importance of the analysis required, following the [Data Development](/handbook/enterprise-data/data-development/) approach. The most important and repeatable analysis will be powered by the centralized [Trusted Data Model](/handbook/enterprise-data/data-development/#trusted-data-development) managed by the central Data Team. Function Analytics Teams also build function-specific/ad-hoc data models and business insights models to solve for urgent and operational needs, not requiring trusted data features. Function Analytics Teams work closely with the Data Team in a variety of ways: expand GitLab's overall analytics capabilities, extend the [Data Catalog](/handbook/enterprise-data/data-catalog/), provide requirements for new Trusted Data models and dashboards, validate metrics, and help drive prioritization of work asked of the Data Team. When data gaps are found in our business processes and source systems, the team members will provide requirements to product management, sales ops, marketing ops, and others to ensure the source systems capture correct data.
 
@@ -75,11 +75,15 @@ The **[Data Platform Team & Architecture Team](/handbook/enterprise-data/organiz
 
 ### Analytics Engineering Team
 
-The [Analytics Engineering Team](/handbook/enterprise-data/organization/)** transforms raw data into clean, structure and usable formats for data decision-making. The Analytics Engineering team also drives Enterprise Data Program and supports the wider data community. The team focuses on inventorying, integrating, maintaining, and governing the data at an Enterprise level. This includes collaborating with the business units and data teams in establishing and facilitating commonly accepted guidelines around Enterprise data along with building [enterprise-wide data models](/handbook/enterprise-data/platform/edw/), supporting [Self-Service BI](/handbook/enterprise-data/direction/self-service/) and Analytical capabilities by providing Data Enablement and required training to the Users on Enterprise Data Models.
+The **[Analytics Engineering Team](/handbook/enterprise-data/organization/)** transforms raw data into clean, structure and usable formats for data decision-making. The Analytics Engineering team also drives Enterprise Data Program and supports the wider data community. The team focuses on inventorying, integrating, maintaining, and governing the data at an Enterprise level. This includes collaborating with the business units and data teams in establishing and facilitating commonly accepted guidelines around Enterprise data along with building [enterprise-wide data models](/handbook/enterprise-data/platform/edw/), supporting [Self-Service BI](/handbook/enterprise-data/direction/self-service/) and Analytical capabilities by providing Data Enablement and required training to the Users on Enterprise Data Models.
 
 ### The Enterprise Insights & Data Science Team
 
-The [Enterprise Insights & Data Science Team](/handbook/enterprise-data/organization/data-science/) utilize analytics and Machine Learning (ML) for insights into customer behavior and company performance. The Enterprise Insights & Data Science team focuses on delivering a complete view of the customer (Customer 360), predict customers that are likely to buy, expand or churn, develop models to predit the long-term value of customers, create detailed customer profiles, and deliver insights on company performance.  The Team acts as a Center of Excellence for predictive analytics and supports other teams in their data science endeavours by developing tooling, processes, and best practices for data science and machine learning. List of the current projects can be found in the [Data Science handbook page](/handbook/enterprise-data/organization/data-science/).
+The **[Enterprise Insights & Data Science Team](/handbook/enterprise-data/organization/data-science/)** utilize analytics and Machine Learning (ML) for insights into customer behavior and company performance. The Enterprise Insights & Data Science team focuses on delivering a complete view of the customer (Customer 360), predict customers that are likely to buy, expand or churn, develop models to predit the long-term value of customers, create detailed customer profiles, and deliver insights on company performance.  The Team acts as a Center of Excellence for predictive analytics and supports other teams in their data science endeavours by developing tooling, processes, and best practices for data science and machine learning. List of the current projects can be found in the [Data Science handbook page](/handbook/enterprise-data/organization/data-science/).
+
+### Data Governance and Data Quality Team
+
+The **[Data Governance and Data Quality Team](/handbook/enterprise-data/organization/)** focuses on building a data governance and data quality program that ensures our organization leverages data as a strategic asset with the highest standards of **integrity, reliability, and secure accessibility** which are enabled through robust policies, advanced technologies and a culture of collaboration. The team partners with cross functional teams including Enterprise Apps, Security and Legal to establish data policies, quality controls, metadata management and compliance with regulatory requirements.
 
 ### Data Job Families
 
@@ -89,6 +93,8 @@ The job families are designed to support all of the routine activities expected 
 * [Data Scientist](/job-families/marketing/enterprise-data/data-science)
 * [Analytics Engineer](/job-families/marketing/enterprise-data/analytics-engineer/)
 * [Data Engineer](/job-families/marketing/enterprise-data/data-engineer/)
+* [Data Governance and Quality Analyst](/job-families/marketing/enterprise-data/data-governance-and-quality-analyst/)
+* [Data Governance and Quality Program Manager](/job-families/marketing/enterprise-data/data-governance-and-quality-program-manager/)
 * [Manager, Data](/job-families/marketing/enterprise-data/manager-data/)
 * [Director, Data](/job-families/marketing/enterprise-data/data-and-insights-executive/)
 
@@ -101,10 +107,11 @@ Our impact will be measured against 4 dimensions (these metrics will adjust as o
 * Infrastructure Cost vs Plan: This performance indicator tracks the financial position of the actual cost vs the planned costs for the data infrastructure (warehouse, ETL pipelines, etc.).
 * Data Uptime: This performance indicator measures the % of time a data pipeline was providing data without reported incidents. This indicator is currently measured based on Monte-Carlo data, according to the configured (automatic) monitors on any given table in the `raw` data layer.
 
-#### Data Quality & Governance
+#### Data Governance and Data Quality
 
-* % completion of the data validation and data cleansing roadmap
-* Governance & Quality data assessment scores
+* % improvement in data quality metrics
+* % data assets enriched with metadata
+* % reduction in time to discover data
 
 #### Data Adoption
 
@@ -160,6 +167,7 @@ You can also tag subsets of the Data Team using:
 * @data-engineers - this notifies just the Data Engineers
 * @data-analysts - this notifies just the Data Analysts
 * @analytics-engineers - this notifies just the Analytics Engineers
+* @data-governance - this notifies just the data governance and quality team members
 
 Except for rare cases, conversations with folks from other teams should take place in #data, and possibly the fusion team channels when appropriate.  Posts to other channels that go against this guidance should be responded to with a redirection to the #data channel, and a link to this handbook section to make it clear what the different channels are for.
 
