@@ -189,6 +189,16 @@
 /content/handbook/engineering/infrastructure-quality.md @marin @sabrinafarmer @vincywilson
 
 ^[Eng-Infrastructure-department]
+/content/handbook/engineering/infrastructure-platforms/ @marin @sabrinafarmer
+/content/handbook/engineering/infrastructure-platforms/tenant-scale/geo/ @luciezhao
+/content/handbook/engineering/infrastructure-platforms/data-access/ @andrashorvath
+/content/handbook/engineering/infrastructure-platforms/data-access/database-framework/ @alexives
+/content/handbook/engineering/infrastructure-platforms/data-access/database-operations/ @rmar1
+/content/handbook/engineering/infrastructure-platforms/data-access/durability/ @jarv
+/content/handbook/engineering/infrastructure-platforms/data-access/gitaly/ @jcaigitlab
+/content/handbook/engineering/infrastructure-platforms/data-access/git/ @pks-gitlab
+/content/handbook/engineering/infrastructure-platforms/tenant-scale/ @glopezfernandez @nhxnguyen
+/content/handbook/engineering/infrastructure-platforms/developer-experience/ @ghosh-abhinaba @kkolpakova @ksvoboda @marin @vincywilson
 /content/handbook/engineering/careers/matrix/infrastructure @marin @sabrinafarmer @dawsmith @amyphillips @rnienaber @mbursi
 /content/handbook/engineering/deployments-and-releases/ @marin @mbursi @dawsmith @gitlab-org/delivery
 /content/handbook/engineering/error-budgets/ @marin @rnienaber
@@ -198,14 +208,6 @@
 /content/handbook/engineering/infrastructure/core-platform/data_stores/help.md @alexives @rmar1 @nhxnguyen
 /content/handbook/engineering/infrastructure/core-platform/data_stores/cloud-connector/ @pjphillips
 /content/handbook/engineering/infrastructure/core-platform/systems/distribution/ @marin @plu8
-/content/handbook/engineering/infrastructure-platforms/tenant-scale/geo/ @luciezhao
-/content/handbook/engineering/infrastructure-platforms/data-access/ @andrashorvath
-/content/handbook/engineering/infrastructure-platforms/data-access/database-framework/ @alexives
-/content/handbook/engineering/infrastructure-platforms/data-access/database-operations/ @rmar1
-/content/handbook/engineering/infrastructure-platforms/data-access/durability/ @jarv
-/content/handbook/engineering/infrastructure-platforms/data-access/gitaly/ @jcaigitlab
-/content/handbook/engineering/infrastructure-platforms/data-access/git/ @pks-gitlab
-/content/handbook/engineering/infrastructure-platforms/tenant-scale/ @glopezfernandez @nhxnguyen
 /content/handbook/engineering/infrastructure/emergency-change-processes.md @marin @sabrinafarmer
 /content/handbook/engineering/infrastructure/incident-management/ @dawsmith @rnienaber @marin
 /content/handbook/engineering/infrastructure/performance-indicators.md @marin @sabrinafarmer @vincywilson @rymai
@@ -224,7 +226,6 @@
 /content/handbook/engineering/releases/ @marin @mbursi @dawsmith @gitlab-org/delivery
 /content/handbook/engineering/gitlab-com/ @marin @sabrinafarmer
 /content/handbook/engineering/gitlab-com/policies/ @marin @sabrinafarmer
-/content/handbook/engineering/infrastructure-platforms/developer-experience/ @ghosh-abhinaba @kkolpakova @ksvoboda @marin @vincywilson
 
 ^[Eng-Quality-department]
 /content/handbook/engineering/automation.md @sabrinafarmer @rymai
