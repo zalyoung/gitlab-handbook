@@ -334,7 +334,7 @@ Some examples of external dependency failures could include:
 
 #### Failure needs escalation
 
-If the failure is in a `smoke` test, it will block deployments ([except for Staging Ref failures](/handbook/engineering/infrastructure/test-platform/debugging-qa-test-failures/#staging-ref)). Please inform the release managers of the root cause and if a fix is in progress by Quality. On GitLab.com, you can use `@gitlab-org/release/managers`. In Slack, you can use `@release-managers`.
+If the failure is in a `smoke` test, it will block deployments. Please inform the release managers of the root cause and if a fix is in progress by Quality. On GitLab.com, you can use `@gitlab-org/release/managers`. In Slack, you can use `@release-managers`.
 
 If the failure could affect the performance of `GitLab.com` production, or make it unavailable to a specific group of users, you can [declare an incident](/handbook/engineering/infrastructure/incident-management/#reporting-an-incident) with `/incident declare` in the `#production` Slack channel, this will automatically prevent deployments (if the incident is at least an S2).
 
