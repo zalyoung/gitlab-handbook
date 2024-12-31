@@ -318,9 +318,9 @@ All team members are encouraged to schedule time for personal development. The f
 - [Production Architecture](/handbook/engineering/infrastructure/production/architecture/)
 - [Operational Runbooks](https://gitlab.com/gitlab-com/runbooks)
 - [Environments](/handbook/engineering/infrastructure/environments/)
-- [Monitoring](/handbook/engineering/infrastructure/monitoring/_index.md)
+- [Monitoring](/handbook/engineering/monitoring/)
 - [Readiness Reviews](/handbook/engineering/infrastructure/production/readiness/)
-- [Infrastructure Platforms Standards](/handbook/engineering/infrastructure/infrastructure-standards/)
+- [Infrastructure Platforms Standards](/handbook/company/infrastructure-standards/)
 
 ## Other Pages
 
