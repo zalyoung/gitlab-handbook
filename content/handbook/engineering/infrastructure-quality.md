@@ -82,6 +82,7 @@ A well prepared meeting:
 The following cross-functional meetings are regularly scheduled:
 
 |**Topics**|**Meeting**|**Participants**|**Cadence**|
+| --- | --- | --- | --- |
 |Incident Review and followup|[Incident Review](https://docs.google.com/document/d/1jrX-Z2NJrNjBBcywY7emQKwaKRqVAlDRdGG0Krk76ys/) (internal only)|All Engineering|Tues|
 |SaaS Availability & Reliability work prioritization| [SaaS Availaiblity weekly standup](https://docs.google.com/document/d/1j_9P8QlvaFO-XFoZTKZQsLUpm1wA2Vyf_Y83-9lX9tg/edit#) (internal only)|All Engineering|Tues|
 |Performance Indicator Review|[Infrastructure Key Meeting](https://docs.google.com/document/d/1YYWwdu2dw-ooXXQGW3PddA0TOvwoSvVHmNN3BNoLE2U/edit) (internal only)|Eng VP Staff, Finance & Exec leadership|Monthly|
