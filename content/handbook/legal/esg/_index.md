@@ -459,7 +459,7 @@ NOTE: For any request(s) that require payment, please be certain to follow appli
 
 Six key topics were identified in GitLab's materiality assessment. These key topics will drive GitLab's ESG strategy and program development. This page will continue to be updated as we make progress towards developing plans and programs to advance our ESG goals.
 
-![2023 Materiality Matrix](/handbook/legal/esg/2022-materiality-matrix-062123.png)
+![2023 Materiality Matrix](/images/legal/esg/2022-materiality-matrix-062123.png)
 
 Here are GitLab's current key topics with their drivers:
 
