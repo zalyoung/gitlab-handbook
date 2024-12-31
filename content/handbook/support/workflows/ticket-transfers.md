@@ -32,9 +32,9 @@ Examples of these tickets include:
 
 Before placing any ticket in a region other than the customer's preferred one, please ensure the following steps are completed:
 
-**Agreement:** The customer must acknowledge that their initial request for a specific region will not be fulfilled and must provide their consent. Additionally, they should understand the added value associated with the ticket in the current region.
+**Agreement:** The customer must acknowledge that their initial request for a specific region will not be fulfilled and must provide their consent. Additionally, they should understand the added value associated with keeping the ticket in the current region.
 
-**Understanding:** The customer should be made aware that there may be delays in responses. If it becomes necessary to transfer the ticket back to the originally requested region, a transition period will be implemented to ensure the receiving engineer is adequately prepared.
+**Understanding:** The customer should be made aware that there may be delays in responses. If it becomes necessary to transfer the ticket to the originally requested region, a transition period will be implemented to ensure the receiving engineer is adequately prepared.
 
 As you work on the ticket, refrain from making promises on behalf of others. Instead, leave a detailed note in the ticket that outlines the customer's situation and emphasizes the intention to achieve a favorable outcome for them. If necessary, contact a manager in the receiving region for assistance. Furthermore, be considerate of the time of the receiving support engineer.
 
@@ -42,7 +42,7 @@ As you work on the ticket, refrain from making promises on behalf of others. Ins
 
 GitLab Support uses a single view for all unassigned
 tickets, regardless of region. The tickets in the view are sorted by
-`Ticket Weight` to highlight the highest-priority issues first, and support
+`Ticket Weight` to highlight the highest-priority issues first. Support
 engineers are expected to work from the top of the view down. Given this
 process, support engineers will frequently be taking tickets on which the
 customer has specified a `Preferred region` different from their own.
@@ -109,13 +109,13 @@ When an engineer is required to hand over a ticket, either to another region or 
 <details>
   <summary markdown="span">Preparing a ticket for handover</summary>
 
-1. Set the proper expectations to the customer.
+1. Set the proper expectations with the customer.
    1. It is important to be transparent and communicate that certain requirements, such as phone calls and immediate responses, will necessitate coordination with the receiving person or region.
    1. Please ensure that the receiving team is properly informed and aligned on any tasks and timelines before finalizing them with the customer.
-1. Use the Zendesk [Zendesk `Handover Ticket Summary` macro](https://gitlab.com/gitlab-com/support/zendesk-global/macros/-/blob/master/active/Support/Out%20of%20Region/Handover%20Ticket%20Summary.md)
+1. Use the [Zendesk `Handover Ticket Summary` macro](https://gitlab.com/gitlab-com/support/zendesk-global/macros/-/blob/master/active/Support/Out%20of%20Region/Handover%20Ticket%20Summary.md)
    to ensure all necessary information is included and the ticket is unassigned.
 1. Set the Zendesk Form Field `Handover Status` to `Need Handover`.
-1. CC yourself on the ticket and save the ticket to the `Open State`.
+1. CC yourself on the ticket and save the ticket to the `Open` State.
 
 </details>
 
