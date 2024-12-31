@@ -262,7 +262,7 @@
 /content/handbook/engineering/readmes/juan-silva.md @juan-silva
 /content/handbook/engineering/readmes/kamil-trzcinski.md @ayufan
 /content/handbook/engineering/readmes/katrin-leinweber.md @katrinleinweber-gtlb
-/content/handbook/engineering/readmes/lee-matos.md @leeeee-gtlb 
+/content/handbook/engineering/readmes/lee-matos.md @leeeee-gtlb
 /content/handbook/engineering/readmes/lyle-kozloff.md @lyle
 /content/handbook/engineering/readmes/marin-jankovski.md @marin
 /content/handbook/engineering/readmes/matt-nohr.md @mnohr
@@ -716,6 +716,7 @@
 [Controlled-Documents]
 /content/handbook/business-technology/entapps-documentation/policies/gitlab-business-continuity-plan.md @brobins @james.shen @NabithaRao @gitlab-com/egroup @gitlab-com/content-sites
 /content/handbook/engineering/gitlab-com/policies/monitoring/ @marin @sabrinafarmer @gitlab-com/egroup @gitlab-com/content-sites
+/content/handbook/engineering/gitlab-com/policies/backup/ @marin @andrashorvath @gitlab-com/egroup @gitlab-com/content-sites
 /content/handbook/engineering/infrastructure/database/_index.md @marin @sabrinafarmer @vincywilson @gitlab-com/egroup @gitlab-com/content-sites
 /content/handbook/engineering/infrastructure/database/disaster-recovery.md @marin @andrashorvath @gitlab-com/egroup @gitlab-com/content-sites
 /content/handbook/engineering/infrastructure/production/_index.md @marin @sabrinafarmer @gitlab-com/egroup @gitlab-com/content-sites
