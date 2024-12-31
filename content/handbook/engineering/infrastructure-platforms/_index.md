@@ -15,7 +15,7 @@ Deliver the industry leading SaaS solutions, empowering organizations worldwide 
 
 If you're a GitLab team member and are looking to alert the Infrastructure Platforms teams about an availability issue with GitLab.com, please find quick instructions to report an incident here: [Reporting an Incident](/handbook/engineering/infrastructure/incident-management/#reporting-an-incident).
 
-For all other queries, please see the [getting assistance](/getting-assistance) page.
+For all other queries, please see the [getting assistance][getting-assistance] page.
 
 ## Direction
 
@@ -33,7 +33,7 @@ flowchart LR
     click I "/handbook/engineering/infrastructure-platforms/"
 
     I --> DA[Data Access]
-    click DA "/handbook/engineering/infrastructure/data-access/"
+    click DA "/handbook/engineering/infrastructure-platforms/data-access/"
     I --> DE[Developer Experience]
     click DE "handbook/engineering/infrastructure-platforms/developer-experience"
     I --> SP[SaaS Platforms]
@@ -115,14 +115,6 @@ In addition to tracking the backlog, Infrastructure Platforms department project
 
 We have a model that we use to help us support product features. [This model](/handbook/engineering/infrastructure/feature-support/) provides details on how we collaborate to ship new features to Production.
 
-## Ownership
-
-The Infrastructure Platforms team maintains responsibility for the underlying infrastructure on which customer-facing services run.  Specific ownership details are in the [GitLab Service Ownership Policy](service-ownership/index.html)
-
-## Interviewing
-
-The Infrastructure Platforms department hires for a number of different technical specialisms and positions across its teams. This [Infrastructure Platforms Interviewing Guide](/handbook/hiring/interviewing/infrastructure-interview/) offers more detail on some of our regular openings, interview process and other useful information related to applying to jobs with us. More information on our current openings can be found on the [careers page](https://about.gitlab.com/jobs/).
-
 ## How we work
 
 ### Communication
@@ -131,7 +123,7 @@ The Infrastructure Platforms department hires for a number of different technica
 
 Our main method of communication is Slack.
 
-If you need assistance with a production issue or incident, please see the section on [getting assistance](/handbook/engineering/infrastructure/#getting-assistance).
+If you need assistance with a production issue or incident, please see the section on [getting assistance][getting-assistance].
 
 **SaaS Platforms**
 
@@ -192,9 +184,9 @@ If you need assistance with a production issue or incident, please see the secti
 
 The SaaS Platforms group is gradually directing requests for help to the [#saas-platforms-help](https://gitlab.enterprise.slack.com/archives/C07DU5Z7V6V) Slack channel.
 This channel can be used if it is unclear which Infrastructure team the question should be directed to.
-For more information, refer to the [landing page for getting assistance](../getting-assistance).
+For more information, refer to the [landing page for getting assistance][getting-assistance].
 
-The [#saas-platforms-help](https://gitlab.enterprise.slack.com/archives/C07DU5Z7V6V) channel is monitored by SaaS Platforms Engineering Managers and Staff+ engineers who triage any inbound requests. When triaging this channel, one should locate the team who can best answer this question and instruct the requestor to contact that team using the team's preferred contact method. When the requestor is connected to the right team, add a green check emoji to the message. Finally, if needed, update the [getting assistance](./getting-assistance)] page with any changes.
+The [#saas-platforms-help](https://gitlab.enterprise.slack.com/archives/C07DU5Z7V6V) channel is monitored by SaaS Platforms Engineering Managers and Staff+ engineers who triage any inbound requests. When triaging this channel, one should locate the team who can best answer this question and instruct the requestor to contact that team using the team's preferred contact method. When the requestor is connected to the right team, add a green check emoji to the message. Finally, if needed, update the [getting assistance][getting-assistance] page with any changes.
 
 #### Meetings
 
@@ -238,7 +230,7 @@ At the end of the call, a quick vote is held between the attendees and if all ag
 
 ### Requests for Help
 
-On the [landing page for getting assistance](../getting-assistance), we ask team-members who need assistance to raise Requests for Help using standard templates.
+On the [landing page for getting assistance][getting-assistance], we ask team-members who need assistance to raise Requests for Help using standard templates.
 
 These issues are raised in the [request for help issue tracker](https://gitlab.com/gitlab-com/saas-platforms/saas-platforms-request-for-help/-/issues) and are automatically assigned to the Engineering Manager of the relevant SaaS Platforms team.
 
@@ -278,9 +270,11 @@ The Platforms section builds and maintains various tools to help deploy, operate
 We use objective and key results to set goals in alignment with [OKRs at GitLab](/handbook/company/okrs/).
 [Our OKR process](/handbook/engineering/infrastructure/platforms/okrs/) is shared between all teams in Saas Platforms.
 
-### Hiring
+### Hiring and Interviewing
 
-[Our hiring process](/handbook/engineering/infrastructure/platforms/hiring/) is shared between all teams in SaaS Plaforms.
+[Our hiring process](/handbook/engineering/infrastructure/platforms/hiring/) is shared between all teams in Infrastructure Plaforms.
+
+This [Infrastructure Platforms Interviewing Guide](/handbook/hiring/interviewing/infrastructure-interview/) offers more detail on some of our regular openings, interview process and other useful information related to applying to jobs with us. More information on our current openings can be found on the [careers page](https://about.gitlab.com/jobs/).
 
 ## Platforms Learning Path
 
@@ -298,11 +292,11 @@ All team members are encouraged to schedule time for personal development. The f
 ### Learn about tools and technologies used within Platforms
 
 1. [Jsonnet tutorial](https://jsonnet.org/learning/tutorial.html)
-2. [GitLab.com running on the Kubernetes platform](/handbook/engineering/infrastructure/production/kubernetes/gitlab-com/)
+
 
 ## Common Links
 
-- [How we do Incident Management for GitLab.com](incident-management/)
+- [How we do Incident Management for GitLab.com](/handbook/engineering/infrastructure/incident-management/)
 - [GitLab.com status information](https://status.gitlab.com)
 
 ### Other Slack Channels
@@ -322,17 +316,19 @@ All team members are encouraged to schedule time for personal development. The f
 
 ### Resources
 
-- [Production Architecture](production/architecture/)
+- [Production Architecture](/handbook/engineering/infrastructure/production/architecture/)
 - [Operational Runbooks](https://gitlab.com/gitlab-com/runbooks)
-- [Environments](environments/)
-- [Monitoring](../monitoring/_index.md)
-- [Readiness Reviews](production/readiness/)
-- [Infrastructure Platforms Standards](infrastructure-standards/)
+- [Environments](/handbook/engineering/infrastructure/environments/)
+- [Monitoring](/handbook/engineering/infrastructure/monitoring/_index.md)
+- [Readiness Reviews](/handbook/engineering/infrastructure/production/readiness/)
+- [Infrastructure Platforms Standards](/handbook/engineering/infrastructure/infrastructure-standards/)
 
 ## Other Pages
 
 - [On-call Handover](/handbook/engineering/infrastructure/team/ops/on-call-handover/)
 - [SRE Onboarding](/handbook/engineering/infrastructure/team/ops/sre-onboarding/)
 - [GitLab.com data breach notification policy](/security/#data-breach-notification-policy)
-- [Infrastructure Platforms careers and internships](career/)
+- [Infrastructure Platforms careers and internships](/handbook/engineering/infrastructure/career/)
 - [Coding at scale](/handbook/engineering/infrastructure/team/scalability/#regarding-coding-at-scale)
+
+[getting-assistance]: /handbook/engineering/infrastructure/getting-assistance/
