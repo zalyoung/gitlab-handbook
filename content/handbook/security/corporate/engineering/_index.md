@@ -45,7 +45,6 @@ Service Accounts<br>
 <code>Staff</code> Mark Loveless
 </td>
 <td>
-Adam Huss<br>
 Clayton Shank<br>
 Erik Lentz<br>
 Jacob Waters<br>
@@ -72,7 +71,6 @@ Zack Hardie<br>
 <code>Staff</code> Mark Loveless
 </td>
 <td>
-Adam Huss<br>
 Clayton Shank<br>
 Justin Bisutti<br>
 Zack Hardie<br>
