@@ -179,7 +179,8 @@
 
 # Analytics pages moved - remove 2025-03-15
 /handbook/engineering/development/ops/monitor/ /handbook/engineering/development/analytics/monitor/ 301
-/handbook/engineering/development/analytics/analytics-instrumentation/ handbook/engineering/development/analytics/monitor/analytics-instrumentation/ 301
+/handbook/engineering/development/analytics/analytics-instrumentation/ /handbook/engineering/development/analytics/monitor/analytics-instrumentation/ 301
+/handbook/engineering/development/ops/monitor/analytics-instrumentation/ /handbook/engineering/development/analytics/monitor/analytics-instrumentation/ 301
 /handbook/engineering/development/ops/monitor/observability/ /handbook/engineering/development/analytics/monitor/platform-insights/ 301
 /handbook/engineering/development/analytics/product-analytics/ /handbook/engineering/development/analytics/monitor/platform-insights/ 301
 /handbook/engineering/development/dev/plan/optimize/ /handbook/engineering/development/analytics/monitor/optimize/ 301
