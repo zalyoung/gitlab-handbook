@@ -15,7 +15,7 @@ Deliver the industry leading SaaS solutions, empowering organizations worldwide 
 
 If you're a GitLab team member and are looking to alert the Infrastructure Platforms teams about an availability issue with GitLab.com, please find quick instructions to report an incident here: [Reporting an Incident](/handbook/engineering/infrastructure/incident-management/#reporting-an-incident).
 
-For all other queries, please see the [getting assistance][getting-assistance] page.
+For all other queries, please see the [getting assistance](/handbook/engineering/infrastructure/getting-assistance/) page.
 
 ## Direction
 
@@ -123,7 +123,7 @@ We have a model that we use to help us support product features. [This model](/h
 
 Our main method of communication is Slack.
 
-If you need assistance with a production issue or incident, please see the section on [getting assistance][getting-assistance].
+If you need assistance with a production issue or incident, please see the section on [getting assistance](/handbook/engineering/infrastructure/getting-assistance/).
 
 **SaaS Platforms**
 
@@ -184,9 +184,9 @@ If you need assistance with a production issue or incident, please see the secti
 
 The SaaS Platforms group is gradually directing requests for help to the [#saas-platforms-help](https://gitlab.enterprise.slack.com/archives/C07DU5Z7V6V) Slack channel.
 This channel can be used if it is unclear which Infrastructure team the question should be directed to.
-For more information, refer to the [landing page for getting assistance][getting-assistance].
+For more information, refer to the [landing page for getting assistance](/handbook/engineering/infrastructure/getting-assistance/).
 
-The [#saas-platforms-help](https://gitlab.enterprise.slack.com/archives/C07DU5Z7V6V) channel is monitored by SaaS Platforms Engineering Managers and Staff+ engineers who triage any inbound requests. When triaging this channel, one should locate the team who can best answer this question and instruct the requestor to contact that team using the team's preferred contact method. When the requestor is connected to the right team, add a green check emoji to the message. Finally, if needed, update the [getting assistance][getting-assistance] page with any changes.
+The [#saas-platforms-help](https://gitlab.enterprise.slack.com/archives/C07DU5Z7V6V) channel is monitored by SaaS Platforms Engineering Managers and Staff+ engineers who triage any inbound requests. When triaging this channel, one should locate the team who can best answer this question and instruct the requestor to contact that team using the team's preferred contact method. When the requestor is connected to the right team, add a green check emoji to the message. Finally, if needed, update the [getting assistance](/handbook/engineering/infrastructure/getting-assistance/) page with any changes.
 
 #### Meetings
 
@@ -230,7 +230,7 @@ At the end of the call, a quick vote is held between the attendees and if all ag
 
 ### Requests for Help
 
-On the [landing page for getting assistance][getting-assistance], we ask team-members who need assistance to raise Requests for Help using standard templates.
+On the [landing page for getting assistance](/handbook/engineering/infrastructure/getting-assistance/), we ask team-members who need assistance to raise Requests for Help using standard templates.
 
 These issues are raised in the [request for help issue tracker](https://gitlab.com/gitlab-com/saas-platforms/saas-platforms-request-for-help/-/issues) and are automatically assigned to the Engineering Manager of the relevant SaaS Platforms team.
 
@@ -285,14 +285,13 @@ All team members are encouraged to schedule time for personal development. The f
 | Group | Topic |
 |-------|-------|
 | SaaS Platforms | [Product direction](https://about.gitlab.com/direction/saas-platforms/) |
-| [Delivery Group](/handbook/engineering/infrastructure/team/delivery) | [Mission](/handbook/engineering/infrastructure/team/delivery/#mission), [Strategy](/handbook/engineering/infrastructure/team/delivery/#strategy), [Team history](/handbook/engineering/infrastructure/team/delivery/#history) |
-| [Scalability Group](/handbook/engineering/infrastructure/team/scalability/) | [Mission](/handbook/engineering/infrastructure/team/scalability/#mission), [Strategy](/handbook/engineering/infrastructure/team/scalability/#strategy), [Team history](/handbook/engineering/infrastructure/team/scalability/#history) |
-| [Dedicated Group](/handbook/engineering/infrastructure/team/gitlab-dedicated/) | [Mission](/handbook/engineering/infrastructure/team/gitlab-dedicated/#mission) |
+| Delivery Group | [Delivery Group](/handbook/engineering/infrastructure/team/delivery) |
+| Scalability Group| [Scalability Group](/handbook/engineering/infrastructure/team/scalability/) |
+| Dedicated Group | [Dedicated Group](/handbook/engineering/infrastructure/team/gitlab-dedicated/) |
 
 ### Learn about tools and technologies used within Platforms
 
 1. [Jsonnet tutorial](https://jsonnet.org/learning/tutorial.html)
-
 
 ## Common Links
 
@@ -330,5 +329,3 @@ All team members are encouraged to schedule time for personal development. The f
 - [GitLab.com data breach notification policy](/security/#data-breach-notification-policy)
 - [Infrastructure Platforms careers and internships](/handbook/engineering/infrastructure/career/)
 - [Coding at scale](/handbook/engineering/infrastructure/team/scalability/#regarding-coding-at-scale)
-
-[getting-assistance]: /handbook/engineering/infrastructure/getting-assistance/
