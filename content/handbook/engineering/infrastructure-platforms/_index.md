@@ -17,7 +17,6 @@ If you're a GitLab team member and are looking to alert the Infrastructure Platf
 
 For all other queries, please see the [getting assistance](/getting-assistance) page.
 
-
 ## Direction
 
 Initiatives driven within the Platforms section, often spanning multiple quarters, are represented on the [SaaS Platforms section epic](https://gitlab.com/groups/gitlab-com/-/epics/2115) (GitLab team member).
@@ -119,7 +118,6 @@ We have a model that we use to help us support product features. [This model](/h
 ## Ownership
 
 The Infrastructure Platforms team maintains responsibility for the underlying infrastructure on which customer-facing services run.  Specific ownership details are in the [GitLab Service Ownership Policy](service-ownership/index.html)
-
 
 ## Interviewing
 
