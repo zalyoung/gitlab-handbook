@@ -500,7 +500,7 @@ For example, if you have a stacked bar chart on screen (just one measure), and y
 
 [Dashboard actions](https://help.tableau.com/current/pro/desktop/en-us/actions_dashboards.htm) can add functionality, smooth out the user experience, and make your dashboards seem "more advanced". The different options are as follows.
 
-![actions](/static/images/handbook/enterprise-data/platform/tableau/actions.png)
+![actions](/images/handbook/enterprise-data/platform/tableau/actions.png)
 
 If you ever see a dashboard do something neat and unexpected, it is likely a creative use of a dashboard action.
 
