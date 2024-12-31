@@ -56,7 +56,7 @@ Support should not use the [NFR workflow](#how-to-extend-an-nfr-not-for-resale-s
 
 ## Extending trials
 
-Sales will often request through a Zendesk Ticket that we extend the duration of GitLab.com trials on behalf of their prospects. These tickets will always be raised from the GitLab Support End User <gitlab_support@example.com>, with the submitter cc'd on the ticket. If a customer or sales representative raise an extend trial request on a *customer ticket*, we should respond that an internal request **must** be created by the sales representative to request the trial extension.
+Sales will often request through a Zendesk Ticket that we extend the duration of GitLab.com trials on behalf of their prospects. These tickets will always be raised from the GitLab Support End User <gitlab_support@example.com>, with the submitter cc'd on the ticket. If a customer or sales representative raise an extend trial request on a *customer ticket*, we should respond that an [internal request](https://handbook.gitlab.com/handbook/support/internal-support/#internal-requests) **must** be created by the sales representative to request the trial extension. The `Gratis Support` request does not qualify. A proper internal request needs to be filed.
 
 If any fields when opening the ticket were filled out incorrectly,  send a public reply in the ticket asking the submitter to supply the missing information.
 
