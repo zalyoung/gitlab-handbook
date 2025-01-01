@@ -303,7 +303,7 @@ sequenceDiagram
 
 We don't want users to have to configure a specific `.gitlab-ci.yml` in order
 to support Duo Workflow. In order to avoid this we'll introduce an abstraction
-called a `Ci::CreateWorkloadService` as demonstrated in [this POC](TODO: Add link)
+called a `Ci::CreateWorkloadService` as demonstrated in [this draft MR](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/176742)
 which dynamically constructs a pipeline configuration in GitLab and triggers
 the pipeline without using any `.gitlab-ci.yml`. In the future we may be able to
 remove the intermediate `.gitlab-ci.yml` file but the key step here is to
@@ -330,7 +330,7 @@ Duo Workflow where there is no appropriate project in which to run the pipeline
    1. Reverts https://gitlab.com/gitlab-org/gitlab/-/merge_requests/169404
    1. Adds a feature flag `duo_workflows_in_ci` which will not be enabled
       for any customers yet
-   1. Use the `Ci::CreateWorkloadService` abstraction as demonstrated in [this POC](TODO: Add link). The reason we want to build on this is to avoid coupling to internal Ci::Pipeline implementation details and to start building out this generic abstraction for use in other areas like [Workspaces](TODO: Add link to design doc) and [more](TODO: Add link to generic workload issue). Longer term this provides us with the flexibility to build out an alternative runtime that is not based on Ci::Pipeline if we find that is not a good fit for the more generic workloads.
+   1. Use the `Ci::CreateWorkloadService` abstraction. The reason we want to build on this is to avoid coupling to internal Ci::Pipeline implementation details and to start building out this generic abstraction for use in other areas like [Workspaces](https://gitlab.com/gitlab-com/content-sites/handbook/-/merge_requests/10811) and [more](https://gitlab.com/gitlab-org/gitlab/-/issues/328489). Longer term this provides us with the flexibility to build out an alternative runtime that is not based on Ci::Pipeline if we find that is not a good fit for the more generic workloads.
    1. A new `create_branch` argument is provided to `Ci::CreateWorkloadService` when
       `true` it will create a branch called `duo-workflow/<workflow-id>` and run
       the pipeline in the context of that branch. This ensures we never run in
