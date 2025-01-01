@@ -302,10 +302,12 @@ sequenceDiagram
 ### CI Pipeline architecture
 
 We don't want users to have to configure a specific `.gitlab-ci.yml` in order
-to support Duo Workflow. In order to avoid this we'll use the same approach as
-[that used by DAST site validations](https://gitlab.com/gitlab-org/gitlab/-/blob/19e0669446f55bd29a8df29174d3b0379b8e22c2/ee/app/services/app_sec/dast/site_validations/runner_service.rb#L11)
+to support Duo Workflow. In order to avoid this we'll introduce an abstraction
+called a `Ci::CreateWorkloadService` as demonstrated in [this POC](TODO: Add link)
 which dynamically constructs a pipeline configuration in GitLab and triggers
-the pipeline without using any `.gitlab-ci.yml`.
+the pipeline without using any `.gitlab-ci.yml`. In the future we may be able to
+remove the intermediate `.gitlab-ci.yml` file but the key step here is to
+abstract Duo Workflow away from `.gitlab-ci.yml` syntax.
 
 CI Pipelines also must be run inside a project. There will be some usecases of
 Duo Workflow where there is no appropriate project in which to run the pipeline
@@ -319,12 +321,45 @@ Duo Workflow where there is no appropriate project in which to run the pipeline
    existence of the Project altogether and make this an implementation detail.
    This will be considered a last resort because it could be quite a wide
    impacting change to GitLab as projects are a central part of GitLab.
+1. Using CI Pipelines also introduces some security challenges we will iterate
+   on before releasing to users.
+
+#### Duo Workflow in CI Iteration Plan
+
+1. Add back the ability to start a workflow in CI behind a feature flag
+   1. Reverts https://gitlab.com/gitlab-org/gitlab/-/merge_requests/169404
+   1. Adds a feature flag `duo_workflows_in_ci` which will not be enabled
+      for any customers yet
+   1. Use the `Ci::CreateWorkloadService` abstraction as demonstrated in [this POC](TODO: Add link). The reason we want to build on this is to avoid coupling to internal Ci::Pipeline implementation details and to start building out this generic abstraction for use in other areas like [Workspaces](TODO: Add link to design doc) and [more](TODO: Add link to generic workload issue). Longer term this provides us with the flexibility to build out an alternative runtime that is not based on Ci::Pipeline if we find that is not a good fit for the more generic workloads.
+   1. A new `create_branch` argument is provided to `Ci::CreateWorkloadService` when
+      `true` it will create a branch called `duo-workflow/<workflow-id>` and run
+      the pipeline in the context of that branch. This ensures we never run in
+      the default branch
+   1. We will always pass `create_branch: true` for Duo Workflow
+1. Introduce a UI in GitLab for starting a workflow in a project
+1. Lock Duo Workflow down to specific secure runners
+   1. As Duo Workflows might have additional privileges not normally available
+      in the `CI_JOB_TOKEN` we will want to target specific runners to run the
+      workflow jobs to be extra secure. We might base this on runner/job tags or
+      some other implementation.
+1. Introduce Global user for Duo Workflow composite identity
+1. Change Duo Workflow to using [Composite identity](https://docs.google.com/document/d/1JHqEThXqeOXkXunPUuiV1zoDoS5R-UPFZaoyiZ2EGLE/edit?tab=t.0#heading=h.e2f5pz5y6q4x)
+   1. By default these new tokens should only have access to the project where the workspace is running in
+   1. Introduce this as part of `Ci::CreateWorkloadService` so it is re-usable for other workloads in future. Can take `composite_identity_user_id` and `allowed_projects` as arguments.
+   1. The `$CI_JOB_TOKEN` should be used for the Duo Workflow auth token at this point since there is no reason to distinguish them.
+1. Add ability to further limit composite identity in GitLab UI with dynamic
+   scopes
+   1. We should be allow the agent to only push code or only post comments and
+      we want this to be enforced in the auth token, not in Duo Workflow Service
+1. Introduce a UI in GitLab for HiTL interactions
+1. Roll out to beta customers
 
 #### Considerations for CI Runners and Infrastructure
 
 1. Our Duo Workflow rollout may involve substantial increases to our CI runner
    usage
 1. Duo Workflow will likely involve running long running CI pipelines that use
+
    very little CPU. Mostly what they will be doing is communicating back
    and forth with the LLMs and users in a long running gRPC connection.
 1. Users will expect very low latency for CI Runner startup
