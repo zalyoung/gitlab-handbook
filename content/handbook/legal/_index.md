@@ -4,7 +4,7 @@ title: Legal & Corporate Affairs ("LACA")
 
 ## Our Mission
 
-LACA team members leverage our versatile skill sets to drive positive outcomes for GitLab and our customers. Approachable and collaborative, we are trusted thought partners to our colleagues across GitLab, and facilitate efficient and informed decision making in all areas of the business.
+We leverage our versatile skill sets to drive positive outcomes for GitLab and our customers. Approachable and collaborative, LACA team members are trusted thought partners to our colleagues across GitLab, and facilitate efficient and informed decision making in all areas of the business.
 
 **In short: LACA – We’re your one phone call.**
 
@@ -40,7 +40,7 @@ The [Risk Management and Dispute Resolution](/handbook/legal/risk-management-dis
 
 ### Strategy and Legal Operations
 
-The [Strategy and Legal Operations](/handbook/legal/legalops/) group works cross-functionally to integrate ESG considerations, ESG regulatory compliance, and responsible business practices as part of GitLab’s overarching mission to make our customers successful.
+The [Strategy and Legal Operations](/handbook/legal/legalops/) group promotes continued process improvement such that LACA may be efficient and effective in its performance, including procurement of the most suitable tools and technology.
 
 ## How to Reach Us
 
