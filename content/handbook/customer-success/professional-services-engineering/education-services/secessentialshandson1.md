@@ -87,7 +87,7 @@ Please take time to understand any code that you are asked to copy and paste in 
 
 1. Click **Create project**.
 
-## Task B. Turn Off Auto DevOps
+## Task C. Turn Off Auto DevOps
 
 > By default, projects in some GitLab environments will enable Auto DevOps when no CI configuration file is found in a project. To avoid any conflicts between our CI/CD configuration and Auto DevOps, you should confirm that Auto DevOps is disabled in your project.
 
@@ -101,7 +101,7 @@ Please take time to understand any code that you are asked to copy and paste in 
 
 1. In the left sidebar, navigate to **Code > Repository** to return to your code.
 
-## Task C. Enable and Configure SAST
+## Task D. Enable and Configure SAST
 
 > Static Application Security Testing, or SAST, is the process of examining source code for vulnerabilities. You can use a SAST scan to automatically scan a code repository for known vulnerabilities. You can also use a SAST scan to check merge requests for vulnerabilities before merging the request. This process helps ensure that your code stays vulnerability free.
 
@@ -155,7 +155,7 @@ Please take time to understand any code that you are asked to copy and paste in 
       SAST_EXCLUDED_PATHS: venv/
     ```
 
-## Task D. Add a Vulnerability to the Application
+## Task E. Add a Vulnerability to the Application
 
 > With SAST scanning in place, you are now able to see security vulnerabilities inside of merge requests. To demonstrate how this SAST scan works, let's create a branch with some vulnerable code.
 
@@ -206,7 +206,7 @@ Please take time to understand any code that you are asked to copy and paste in 
 
 1. In this example, the security scan will show 1 new high vulnerability. To view the details of the vulnerability report, click the **View all pipeline findings** button.
 
-## Task E. Merge Request Vulnerability Report
+## Task F. Merge Request Vulnerability Report
 
 > One of the main goals of security scanning is to prevent insecure code from making it into a repository. You can use the merge request vulnerability report to see all of the vulnerabilities that were detected in a single merge request. Note that this report will only show vulnerabilities that are newly introduced in the current merge request. If a vulnerability already exists in the repository, it will not show here, but will show in the project level vulnerability report.
 
@@ -255,7 +255,7 @@ Please take time to understand any code that you are asked to copy and paste in 
 
 1. Leave `Delete source branch` checked and click **Merge**.
 
-## Task F. Enable and Configure Secret Detection
+## Task G. Enable and Configure Secret Detection
 
 > In the last section, you applied SAST to detect vulnerabilities in your source code. In addition to scanning code for vulnerabilities, GitLab can also scan your code for secrets like keys and API tokens. Adding secret detection to your code will prevent leaking sensitive data in your repositories.
 >
@@ -311,7 +311,7 @@ Please take time to understand any code that you are asked to copy and paste in 
 
 1. Click the `Merge` button on your merge request after the pipeline passes.
 
-## Task G. View the Project Level Vulnerability Report
+## Task H. View the Project Level Vulnerability Report
 
 > Every time you merge code into the main branch, the security pipeline will run and generate a project level vulnerability report that shows all vulnerabilities in *the latest commit to the default branch.* Think of this as the baseline set of vulnerabilities that you'll compare to vulnerabilities on other branches.
 
@@ -323,7 +323,7 @@ Please take time to understand any code that you are asked to copy and paste in 
 
 1. Experiment with the **Status**, **Severity**, and **Tool** filters.
 
-## Task H. Confirm the Vulnerability
+## Task I. Confirm the Vulnerability
 
 > When the security scanners find vulnerabilities, you need to keep track of whether they should be fixed or ignored. You do this by setting a vulnerability's **status**. There are several ways to do so, but in this lab you'll set status inside the Vulnerability Report.
 
@@ -333,7 +333,7 @@ Please take time to understand any code that you are asked to copy and paste in 
 
 1. Since the vulnerabilities do exist in the code, click the checkbox next to each vulnerability. In the **Set status** dropdown, click **Confirm**. Click **Change status**.
 
-## Task I. Create a Branch and Merge Request
+## Task J. Create a Branch and Merge Request
 
 > You'll need a branch and an MR to fix the RSA private key vulnerability.
 
@@ -393,7 +393,7 @@ Please take time to understand any code that you are asked to copy and paste in 
 
     > Although we have removed the keys in this merge request, they may still exist in the repository history. It is always advised to rotate keys if they are ever detected in a repository.
 
-## Task J. Merge your branch and resolve the fixed vulnerability
+## Task K. Merge your branch and resolve the fixed vulnerability
 
 1. In the merge request, click the **Merge** button.
 
@@ -405,7 +405,7 @@ Please take time to understand any code that you are asked to copy and paste in 
 
 1. Click the checkbox next to the **RSA private key** and **GitLab Personal Access Token** vulnerability. In the **Set status** dropdown, click **Resolve**. Click **Change status**.
 
-## Task K. Enable and Configure DAST
+## Task L. Enable and Configure DAST
 
 > Dynamic Application Security Testing, or DAST, is the process of scanning a running application for vulnerabilities using simulated attacks. DAST allows you to see how your application actually runs, catching vulnerabilities that may not be present in static testing. In this section, you will learn how to configure DAST scanning in your project.
 
