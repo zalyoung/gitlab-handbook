@@ -186,15 +186,27 @@ Persuant with GitLab's [best practices for password security](/handbook/security
 |Re-authenticate Marketo Sync (Mops Tasks)|Marketing Operations|Marketing Operations|Marketo Sandbox| Create support ticket to re-map. Once re-map is completed, connect by updating [OAuth information](https://experienceleague.adobe.com/docs/marketo/using/product-docs/crm-sync/salesforce-sync/log-in-using-oauth-2-0.html?lang=en). Then, click `Login with salesforce` > use custom domain > `gitlab--staging` and login with Marketo Integration details in 1pw vault. Systems may need to provide verification code sent to admin email. Confirm mappings and sync.|
 | Setup new DKIM key and add to gitlab.com DNS|Sales Systems|Sales Systems|Test1| Setup a new DKIM key following the [instructions here](https://help.salesforce.com/s/articleView?id=sf.emailadmin_setup_dkim_key.htm&type=5).  Once the key has been published, provide the CNAME and Alternate CNAME values to the GitLab IT team to add to the DNS for gitlab.com.  Once this is done, confirm an email can be sent to an external email address from a Case using the 'Send an Email' feature, and the email is delivered without issue.|
 
+#### How to access a Sandbox after a Refresh
+
+When a lower-level environment (Sandbox) has been refreshed, depending on your level of access to Production, you may or may not have access.
+
+##### Active Production License
+
+If you have an active license to Production, and you were found to have been logged into a lower-level environment prior to refresh, you will have been included in the `Sandbox Access - Business Users` Public Group. This Salesforce feature allows us to grant easy access to users after a refresh without having to update their email. To regain access, the Salesforce User Management team will provide Password Resets to anyone who requests. In case you have forgotten your username/password, please see the [Refresh Cadence](/handbook/sales/field-operations/sales-systems/#refresh-cadence) table for standard username stylization.
+
+##### Inactive Production License (Previous Access)
+
+If you do not currently have access to Production, but previously had access, it is possible that your user was included in the `Sandbox Access - Business Users` Public Group. Please contact the Salesforce User Management team for renewed access by creating an [Access Request issue](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/new) and adding label `entapps access requests`.
+
 #### Refresh cadence
 
 Sandboxes which are managed as part of our team's SDLC process will follow a regular refresh schedule, as detailed below.
 
-|Sandbox name|URL|Sandbox type|Used for|Refresh cadence|Last refresh date|Next refresh issue|Zuora Billing Sandbox|Zuora Billing Sandbox Tenant ID|Critical Connected Integrations|
+|Sandbox name|URL|Sandbox type|Standard Username|Used for|Refresh cadence|Last refresh date|Next refresh issue|Zuora Billing Sandbox|Zuora Billing Sandbox Tenant ID|Critical Connected Integrations|
 |-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
-|[Developer](https://gitlab--developer.sandbox.my.salesforce.com)|https://gitlab--developer.sandbox.my.salesforce.com|Partial|Developer integration and testing org. |As needed, up to once per month, minimum once per quarter|2/14/2024|[TBD](https://gitlab.com/gitlab-com/sales-team/field-operations/systems/-/issues/6403)|Developer Sandbox (i.e. "Dev Sandbox")|10002574||
-|[Test1](https://gitlab--test1.sandbox.my.salesforce.com)|https://gitlab--lightning.sandbox.my.salesforce.com|Full|Pre-production org. Used for UAT of Systems issues prior to release to production. Also used for troubleshooting.|As needed, up to once per month, minimum once per quarter|[06/10/24](https://gitlab.com/gitlab-com/sales-team/field-operations/systems/-/issues/5698)|[TBD](https://gitlab.com/gitlab-com/sales-team/field-operations/systems/-/issues/6663#note_2171037981)|Central Sandbox 2|10000796|CustomerDot<br>Marketo<br>Vartopia<br>RingLead<br>Traction<br>PSQuote|
-|[Test2](https://gitlab--test2.sandbox.my.salesforce.com)|https://gitlab--test2.sandbox.my.salesforce.com|Full|Used for UAT of Systems . Also used for troubleshooting.|As needed, up to once per month, minimum once per quarter|[08/15/24](https://gitlab.com/gitlab-com/sales-team/field-operations/systems/-/issues/5155) |TBD|Central Sandbox 1 (i.e. "Staging Sandbox")|10000719|CustomerDot|
+|[Developer](https://gitlab--developer.sandbox.my.salesforce.com)|https://gitlab--developer.sandbox.my.salesforce.com|Partial|<email>.developer|Developer integration and testing org. |As needed, up to once per month, minimum once per quarter|2/14/2024|[#6403](https://gitlab.com/gitlab-com/sales-team/field-operations/systems/-/issues/6403)|Developer Sandbox (i.e. "Dev Sandbox")|10002574||
+|[Test1](https://gitlab--test1.sandbox.my.salesforce.com)|https://gitlab--test1.sandbox.my.salesforce.com|Full|<email>.test1|Pre-production org. Used for UAT of Systems issues prior to release to production. Also used for troubleshooting.|As needed, up to once per month, minimum once per quarter|[06/10/24](https://gitlab.com/gitlab-com/sales-team/field-operations/systems/-/issues/5698)|[TBD](https://gitlab.com/gitlab-com/sales-team/field-operations/systems/-/issues/6663#note_2171037981)|Central Sandbox 2|10000796|CustomerDot<br>Marketo<br>Vartopia<br>RingLead<br>Traction<br>PSQuote|
+|[Test2](https://gitlab--test2.sandbox.my.salesforce.com)|https://gitlab--test2.sandbox.my.salesforce.com|Full|<email>.test2|Used for UAT of Systems . Also used for troubleshooting.|As needed, up to once per month, minimum once per quarter|[08/15/24](https://gitlab.com/gitlab-com/sales-team/field-operations/systems/-/issues/5155) |TBD|Central Sandbox 1 (i.e. "Staging Sandbox")|10000719|CustomerDot|
 
 ## <i class="fas fa-users" id="biz-tech-icons"></i> How we Operate
 
