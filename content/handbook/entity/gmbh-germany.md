@@ -289,9 +289,10 @@ GitLab GmbH employees in Germany are entitled to both the statutory German paren
 
 During Parental Leave, employees are statutorily entitled to part-time work (15 to 30 hours per week) if:
 
-- The employer usually employs more than 15 employees, the employment relationship exists for at least six months,
-- The reduction is not opposed by urgent operational reasons, and
-- The employee has submitted the request in writing (wet signature, see above) seven weeks for the period up to the child's third birthday and 13 weeks for the period between the child's third birthday and the completion of his or her eighth year of life before the start of the part-time work.
+- The employer usually employs more than 15 employees,
+- the employment relationship exists for at least six months,
+- the reduction is not opposed by urgent operational reasons, and
+- the employee has submitted the request in writing (wet signature, see above) seven weeks for the period up to the child's third birthday and 13 weeks for the period between the child's third birthday and the completion of his or her eighth year of life before the start of the part-time work.
 
 The request must include the start and scope of the reduced working hours.
 
