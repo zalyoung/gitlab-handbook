@@ -37,5 +37,5 @@ GitLab Hosted Runners are created on `ec2` AWS instances.
 
 ## Useful References
 
-[Dedicated team Hosted Runner Model](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/runner-model-schema/-/blob/main/docs/model-examples.md)
-[Dedicated team Hosted Runner technical document](https://gitlab-com.gitlab.io/gl-infra/gitlab-dedicated/team/engineering/projects/dedicated_hosted_runners/index.html)
+- [Dedicated team Hosted Runner Model](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/runner-model-schema/-/blob/main/docs/model-examples.md)
+- [Dedicated team Hosted Runner technical document](https://gitlab-com.gitlab.io/gl-infra/gitlab-dedicated/team/engineering/projects/dedicated_hosted_runners/index.html)
