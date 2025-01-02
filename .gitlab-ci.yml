@@ -386,6 +386,8 @@ notify_slack_on_build_failures:
 
 update_counts:
   stage: maintenance
+  before_script:
+    - apk add git
   script: ./scripts/update-counts.sh
   rules:
   - <<: *scheduled-update
