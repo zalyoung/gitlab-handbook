@@ -58,8 +58,6 @@ All-remote is not partial to where you work, nor how frequently you relocate. Al
 
 Because there is no central office, all-remote enables team members to live and work in underserved and rural locales. This [bolsters economies in small communities](people/#reversing-rural-depopulation) and simultaneously reduces infrastructure strain on dense cities.
 
-All-remote doesn't mandate that you ask permission before [changing locations](https://youtu.be/tTQAU78QSt8). You are free to work in a different place each day should you choose. This enables [digital nomads](people/#nomads) to coexist with those who must remain in one place due to mobility challenges or family [commitments](people/#caretakers), treating each person as equals regardless of their lifestyle.
-
 ## What "all-remote" does not mean
 
 Let's address some of the common misconceptions about all-remote work.

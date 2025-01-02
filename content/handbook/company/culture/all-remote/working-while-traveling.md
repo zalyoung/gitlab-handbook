@@ -26,7 +26,7 @@ Additionally, GitLab team members should be wary of connecting to unsecured netw
 {{% /card %}}
 {{% /cardpane %}}
 
-For remote workers, a robust connection to the internet is [vital](https://about.gitlab.com/blog/2016/03/23/remote-communication). This is easier to control at [home](https://about.gitlab.com/blog/2019/09/12/not-everyone-has-a-home-office) or in a [coworking venue](https://about.gitlab.com/blog/2019/09/04/not-all-remote-is-created-equal), and it requires special consideration when on the road. [Avid travelers](https://about.gitlab.com/blog/2019/06/25/how-remote-work-at-gitlab-enables-location-independence) and dedicated [nomads](people/#nomads) should maintain at least two connectivity sources — ideally, two sources that connect to different mobile networks.
+For remote workers, a robust connection to the internet is [vital](https://about.gitlab.com/blog/2016/03/23/remote-communication). This is easier to control at [home](https://about.gitlab.com/blog/2019/09/12/not-everyone-has-a-home-office) or in a [coworking venue](https://about.gitlab.com/blog/2019/09/04/not-all-remote-is-created-equal), and it requires special consideration when on the road. [Avid travelers](https://about.gitlab.com/blog/2019/06/25/how-remote-work-at-gitlab-enables-location-independence) should maintain at least two connectivity sources — ideally, two sources that connect to different mobile networks.
 
 A simple way to achieve this redundancy is to lean on one mobile network operator for your smartphone (and enable tethering if it is not on by default with your current plan), while procuring a mobile hotspot through a different operator.
 
