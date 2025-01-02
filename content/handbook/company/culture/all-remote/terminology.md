@@ -58,8 +58,6 @@ All-remote is not partial to where you work, nor how frequently you relocate. Al
 
 Because there is no central office, all-remote enables team members to live and work in underserved and rural locales. This [bolsters economies in small communities](people/#reversing-rural-depopulation) and simultaneously reduces infrastructure strain on dense cities.
 
-All-remote doesn't mandate that you ask permission before [changing locations](https://youtu.be/tTQAU78QSt8). You are free to work in a different place each day should you choose. This enables [digital nomads](people/#nomads) to coexist with those who must remain in one place due to mobility challenges or family [commitments](people/#caretakers), treating each person as equals regardless of their lifestyle.
-
 ## What "all-remote" does not mean
 
 Let's address some of the common misconceptions about all-remote work.
@@ -72,7 +70,7 @@ For employees, being part of an all-remote company does not mean working indepen
 
 Technology allows us to [stay closely in touch](informal-communication/) with our teams, whether asynchronously in text or in real time with high-fidelity conversations through video. Teams should collaborate closely, [communicate](informal-communication/) often, [build relationships virtually](https://about.gitlab.com/blog/2019/07/31/pyb-all-remote-mark-frein), and feel like valuable members of a larger team.
 
-Working remotely also doesn't mean you're physically constrained to home. You're free to work [wherever you want](people/#travelers). That could be at home with family, a coffee shop, a co-working space, or your local library while your little one is enjoying story-time. It could mean that you're [location independent](people/#nomads), traveling around and working in a new place each week. You can have frequent video chats or virtual pairing sessions with coworkers throughout the day, and you can even meet up with other coworkers to work together in person if you're located near each other.
+Working remotely also doesn't mean you're physically constrained to home. You're free to work [wherever you want](people/#travelers). That could be at home with family, a coffee shop, a co-working space, or your local library while your little one is enjoying story-time. You can have frequent video chats or virtual pairing sessions with coworkers throughout the day, and you can even meet up with other coworkers to work together in person if you're located near each other.
 
 At the organizational level, "all-remote" does not mean simply offshoring work. Instead, it means you're able to [hire the best talent from all around the world](hiring/). It's also not a management paradigm. You still have a hierarchical organization, but with a [focus on output instead of input](management/).
 
