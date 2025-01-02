@@ -40,7 +40,7 @@ The [Risk Management and Dispute Resolution](/handbook/legal/risk-management-dis
 
 ### Strategy and Legal Operations
 
-The [Strategy and Legal Operations](/handbook/legal/legalops/) group works cross-functionally to integrate ESG considerations, ESG regulatory compliance, and responsible business practices as part of GitLab’s overarching mission to make our customers successful.
+The [Strategy and Legal Operations](/handbook/legal/legalops/) group promotes continued process improvement such that LACA may be efficient and effective in its performance, including procurement of the most suitable tools and technology.
 
 ## How to Reach Us
 
