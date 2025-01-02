@@ -279,7 +279,9 @@ GitLab GmbH employees in Germany are entitled to both the statutory German paren
 
 **Applying for Parental Leave in Germany**
 
-- Team members must register their Parental Leave, in writing (wet signature), 7 weeks before the desired start date if your child is under 3 years old, and 13 weeks prior to the desired start date if your child is between 3 and 8 years old. At the same time it must be declared for which periods within two years Parental Leave is to be taken.
+- Team members must register their Parental Leave in writing (wet signature) sent via mail to the [German entity's address](#scope).
+- Parental leave must be registered 7 weeks before the desired start date if your child is under 3 years old, and 13 weeks prior to the desired start date if your child is between 3 and 8 years old.
+- If your child is under 3 years old, you must declare for which periods within the next two years you want to take Parental Leave for.
 - A request for Parental Leave by facsimile or email does not comply with the written form requirement and is therefore void.
 - Please register your leave, in addition to the written application, by emailing leaves@domain.
 - Submit your Parental Leave in Workday by selecting the `Parental Leave` option.
