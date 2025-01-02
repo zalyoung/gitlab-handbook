@@ -245,7 +245,8 @@ To the top of that amount, 24,26% taxes should be added.
 
 ### Life Insurance
 
-Mandatory TGL life insurance is provided via Bliwa Livförsäkring. Lump sum benefit: the basic amount is SEK 285,600 (6 x Price Base Amount – PBA*) upon death before age 55, or after age 55 if there are children under age 17. It decreases for death above age 55, to 1 times PBA between age 64 and age 65.
+All Sweden-based team members will be automatically covered by group life insurance.
+Lump sum benefit: 352,800 SEK for deaths before age 55 (or later if there are children under 17). This benefit decreases with age and is tax-free.
 
 ### Remote - Sweden Statutory Leave Policies
 
