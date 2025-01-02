@@ -353,6 +353,11 @@ Duo Workflow where there is no appropriate project in which to run the pipeline
       we want this to be enforced in the auth token, not in Duo Workflow Service
 1. Introduce a UI in GitLab for HiTL interactions
 1. Roll out to beta customers
+1. Work on Runner/Pipeline improvements for appropriately billing CI Runner time
+   for Duo Workflow. Figure out if workflows should have the same or different
+   per minute compute cost and make changes neccessary to accomadate it.
+1. Focus on any scaling challenges or user feedback that comes from the beta
+   rollout
 
 #### Considerations for CI Runners and Infrastructure
 
