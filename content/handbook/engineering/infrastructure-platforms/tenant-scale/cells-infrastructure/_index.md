@@ -24,6 +24,12 @@ Sometimes we'll need to track issues contained in the `gitlab-org` top-level gro
 
 Having two issue boards is not ideal and is a result of our recent reorganization into the Infrastructure Platforms department. Our long-term goal is to minimize the amount of issues that we need to track in the `gitlab-org` group and to primarily use the team's issues tracker. 
 
+#### Blocked Issues
+
+We use the following guidelines for denoting when an issue is blocked:
+- If an issue depends on the completion of another issue, we use the `blocked by` feature to denote the dependency. 
+- If an issue was started but requires further input, completion of another issue, etc before progressing, we use `workflow::blocked`.
+
 ## Resources
 
 * Slack (internal): [#g_cells_infrastructure](https://gitlab.enterprise.slack.com/archives/C07URAK4J59), [#g_cells_infrastructure_standup](https://gitlab.enterprise.slack.com/archives/C07UWPM2Y0P)
