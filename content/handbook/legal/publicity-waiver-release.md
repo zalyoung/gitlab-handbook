@@ -36,7 +36,7 @@ click D "/handbook/legal/publicity-waiver-release/#team-member-general-publicity
 
 ## Team Member General Publicity Waiver and Release
 
-Use the Team Member General Publicity Waiver and Release template when the individuals featured in the materials are GitLab team members, and the materials will **not** be used for paid outbound advertising. For materials featuring individuals other than team members, and materials that will be used in paid outbound advertising, use the [Material- and Purpose-specific Publicity Waiver and Release](./#material--and-purpose-specific-publicity-waiver-and-release) instead.
+Use the Team Member General Publicity Waiver and Release template when the individuals featured in the materials are GitLab team members, and the materials will **not** be used for paid outbound advertising. For materials featuring individuals other than team members, and materials that will be used in paid outbound advertising, use the [Material- and Purpose-specific Publicity Waiver and Release](./#material-and-purpose-specific-publicity-waiver-and-release) instead.
 
 Each team member need only sign the Team Member General Publicity Waiver and Release once.
 
