@@ -337,7 +337,7 @@ Duo Workflow where there is no appropriate project in which to run the pipeline
       the default branch
    1. We will always pass `create_branch: true` for Duo Workflow
 1. Introduce a UI in GitLab for starting a workflow in a project
-1. Lock Duo Workflow down to specific secure runners
+1. Lock Duo Workflow down to [specific purpose built runners](https://gitlab.com/gitlab-org/gitlab/-/issues/511293)
    1. As Duo Workflows might have additional privileges not normally available
       in the `CI_JOB_TOKEN` we will want to target specific runners to run the
       workflow jobs to be extra secure. We might base this on runner/job tags or
