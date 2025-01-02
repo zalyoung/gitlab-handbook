@@ -99,6 +99,11 @@ Please find our SSoT in terms of reporting below, for each dashboard you can als
 
 | Name/Link                                                            | Description                                            |
 |-----------------------------------------------------------------------|--------------------------------------------------------|
+| [Action Needed: PubSec Global](https://gitlab.my.salesforce.com/01ZPL000000UN7F) | Dashboard outlining items where immediate action is needed in the PubSec team. |
+| [Action Needed: APJ BDR](https://gitlab.my.salesforce.com/01ZPL000000bkbl) | Dashboard outlining items where immediate action is needed for APJ BDR.          |
+| [Action Needed: EMEA BDR](https://gitlab.my.salesforce.com/01Z4M000000soBO) | Dashboard outlining items where immediate action is needed for EMEA BDR.          |
+| [Action Needed: AMER BDR](https://gitlab.my.salesforce.com/01ZPL00000069v3) | Dashboard outlining items where immediate action is needed for AMER BDR.        |
+| [Action Needed: SDR Global](https://gitlab.my.salesforce.com/01ZPL000000ULrp) | Dashboard outlining items where immediate action is needed for SDR Global.   
 | [1:1 Dashboards - Accounts: EMEA COMM](https://gitlab.my.salesforce.com/01Z8X000000u7O4) | 1:1 dashboard for accounts in the EMEA COMM segment.    |
 | [1:1 Dashboards - Accounts: AMER COMM](https://gitlab.my.salesforce.com/01ZPL000001I5n3) | 1:1 dashboard for accounts in the AMER COMM segment.    |
 | [1:1 Dashboards - Accounts: ENTG AMER/LATAM](https://gitlab.my.salesforce.com/01ZPL000001I6Ub) | 1:1 dashboard for accounts in the ENG AMER/LATAM segment. |
@@ -118,11 +123,11 @@ Please find our SSoT in terms of reporting below, for each dashboard you can als
 
 | Name/Link                                                            | Description                                            |
 |-----------------------------------------------------------------------|--------------------------------------------------------|
-| [Action Needed: PubSec Global](https://gitlab.my.salesforce.com/01ZPL000000UN7F) | Dashboard outlining items where immediate action is needed in the PubSec team. |
-| [Action Needed: APJ BDR](https://gitlab.my.salesforce.com/01ZPL000000bkbl) | Dashboard outlining items where immediate action is needed for APJ BDR.          |
-| [Action Needed: EMEA BDR](https://gitlab.my.salesforce.com/01Z4M000000soBO) | Dashboard outlining items where immediate action is needed for EMEA BDR.          |
-| [Action Needed: AMER BDR](https://gitlab.my.salesforce.com/01ZPL00000069v3) | Dashboard outlining items where immediate action is needed for AMER BDR.        |
-| [Action Needed: SDR Global](https://gitlab.my.salesforce.com/01ZPL000000ULrp) | Dashboard outlining items where immediate action is needed for SDR Global.        |
+| [Attention Needed: PubSec Managers](https://gitlab.my.salesforce.com/01ZPL000000V0zp) | Dashboard outlining items where immediate action is needed for PubSec Managers.  |
+| [Attention Needed: APJ BDR Managers](https://gitlab.my.salesforce.com/01ZPL000000cUJd) | Dashboard outlining items where immediate action is needed for APJ BDR Managers.          |
+| [Attention Needed: EMEA BDR Managers](https://gitlab.my.salesforce.com/01ZPL0000006ABB) | Dashboard outlining items where immediate action is needed for EMEA BDR Managers.          |
+| [Attention Needed: AMER BDR Managers](https://gitlab.my.salesforce.com/01ZPL00000069VF) | Dashboard outlining items where immediate action is needed for AMER BDR Managers.        |
+| [Attention Needed: SDR Global Managers](https://gitlab.my.salesforce.com/01ZPL000000pryL) | Dashboard outlining items where immediate action is needed for SDR Global Managers.        |
 | [High Level Results Dashboard](https://gitlab.my.salesforce.com/01ZPL000000eQob) | The dashboard we use to glance at our bottom-line results. |
 | [Pipeline Progression Dashboard](https://gitlab.my.salesforce.com/01Z8X000000u6mP) | The dashboard we use to measure the progress, or lack of thereof, of opportunities sourced by our org. |
 | [Global/Regional Sales Dev Results Dashboard](https://10az.online.tableau.com/#/site/gitlab/views/DraftSalesDevAnalyticsHub/Overview?:iid=2) | A Tableau dashboard that breaks down attainment in regions or teams, and current/previous Quarters. |
