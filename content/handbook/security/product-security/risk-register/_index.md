@@ -23,7 +23,7 @@ To create a new issue follow this [link](https://gitlab.com/gitlab-com/gl-securi
 
 #### What risks should be in the PSRR?
 
-- Only vulnerabilities (or a combination of weaknesses), inadequate design choices, or functional logic that exposes GitLab, the product, to compromises and leaks.
+- Only vulnerabilities (or a combination of weaknesses), inadequate design choices, or functional logic that exposes GitLab-produced technologies to cyber risks.
 
 #### Review
 
