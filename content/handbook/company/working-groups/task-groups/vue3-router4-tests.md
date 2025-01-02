@@ -9,6 +9,7 @@ description: "Learn more about the Vue 3 Router 4 Test Compatibility Task Group'
 | -------- | ----- |
 | Date Created | 2025-01-02 |
 | Target End Date | 2025-03-31 |
+| Slack | [#tg_vue3_router4_tests](https://gitlab.enterprise.slack.com/archives/C086YM54QQM) |
 
 ## Context
 
