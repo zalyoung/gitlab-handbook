@@ -24,24 +24,6 @@ All-remote and remote-first [organizations](jobs/) tend to attract people who pl
 
 Below, we're detailing examples of people who have adopted a [remote lifestyle](https://about.gitlab.com/blog/2018/03/15/working-at-gitlab-affects-my-life). If these resonate with you, chances are high that you would receive a great deal of fulfillment in an [all-remote or remote-first company](jobs/). Similarly, if you're an employer yearning to hire sharp, driven, passionate people like the below, consider [going all-remote]({{< ref "_index.md" >}}) in your own company.
 
-## Nomads
-
-{{< youtube "amiDcpIXIQ8" >}}
-
-*In the [GitLab Unfiltered](https://www.youtube.com/channel/UCMtZ0sc1HHNtGGWZFDRTh5A) video above, Darren and Dylan (GitLab team members) discuss several remote work topics: tips and lessons learned from being a digital nomad, managing a team with asynchronous communication, getting promoted while traveling the world, creating an ideal schedule for country-hopping, not getting caught up in what the world expects of your nomadic life, and finding the comforts of home while abroad*
-
-The thought of having no permanent residence while maintaining the same career would conjure laughter and confusion a few decades ago. Thanks to rapid advancement in internet infrastructure, technology, software, tools, and cultural appreciation for [asynchronous communication](informal-communication/), it's now quite [feasible](jobs/).
-
-[JT Genter](https://thepointsguy.com/author/jtgenter) and [Katie Genter](https://thepointsguy.com/author/katiegenter) aspire to explore the world, embrace their passion for writing, and fly on as many airlines as possible. As members of [The Points Guy](https://thepointsguy.com)'s editorial staff, they're able to contribute asynchronously and maintain connections with team members through tools like Slack and Zoom. They've built their careers while crisscrossing the globe, embracing the digital nomad lifestyle while informing others on how to do similar. See [this tweet from JT Genter on his travel statistics](https://twitter.com/JTGenter/status/1051185813344669696).
-
-Those looking to connect professionally with other digital nomads should consider joining [LinkedIn's Digital Nomads Group](https://www.linkedin.com/groups/13657237).
-
-{{< youtube "gyDGeibTfdk" >}}
-
-*In the [GitLab Unfiltered](https://www.youtube.com/channel/UCMtZ0sc1HHNtGGWZFDRTh5A) video above, two GitLab colleagues discuss the benefits of all-remote. In particular, the ability to travel on a continual basis while working and visiting colleagues, friends, and family.*
-
-To see how two GitLab team members utilized the company's [Visiting Grant incentive]({{< ref "incentives#visiting-grant" >}}) to work with 49 different colleagues across 5 continents, have a look at "[Around the world in 6 releases](https://about.gitlab.com/blog/2017/01/31/around-the-world-in-6-releases)."
-
 ## Travelers
 
 Individuals with an [innate sense of wanderlust](https://about.gitlab.com/blog/2019/09/12/not-everyone-has-a-home-office) are apt to gain fulfillment in an [all-remote or remote-first role](jobs/). Having the freedom and flexibility to travel at will and [work from anywhere in the world](https://about.gitlab.com/blog/2019/06/25/how-remote-work-at-gitlab-enables-location-independence) with a solid internet connection is a tremendous perk for those who don't want to sit still, yearn to explore new cultures, and collect new passport stamps.
