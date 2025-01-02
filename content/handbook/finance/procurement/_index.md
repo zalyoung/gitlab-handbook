@@ -156,6 +156,7 @@ Requests can take 5 days to 3+ weeks for processing depending on a number of fac
 Each review's targeted approval time is outlined below, but as mentioned above, this is dependent on many factors and the accuracy and completeness of information provided by the requester. If your request meets any of the additional approval criterias outlined below, please plan accordingly and submit your Zip request allowing each cross-functional team enough time to complete their review. Please follow the [steps outlined for urgent requests](#what-if-i-have-an-urgent-request) that cannot meet the below timeline and have specific and quantifiable impact to the business.
 
 #### 1. Sanctions Screening (Ethics & Compliance): 30 minutes - 3+ Days, if required
+
 - Use the vendor’s complete name in your Zip request, as this will be the basis for sanctions screening which automatically happens in our sanctions screening tool, Risk Rate. Incomplete names (e.g., "EY Germany" rather than "Ernst and Young GmbH") may result in false positives and unnecessary delay. 
 - If Risk Rate detects no matches between the vendor and applicable sanctions lists AND the vendor is not located in a high-risk country, the vendor will be auto-approved. If Risk Rate detects a potential match or is located in a high risk country, the vendor may require escalation to and manual review by GitLab's Trade Compliance Counsel. 
 - Include the vendor’s website or LinkedIn page in the relevant Zip field, in advance, to help counsel evaluate the match more quickly.
@@ -164,9 +165,6 @@ Each review's targeted approval time is outlined below, but as mentioned above, 
 
 - Ensure you have the appropriate contract documents uploaded when you submit your request
 - The $ amount of the req matches the contract value and the correct billing codes are selected
-
-
-
 
 #### 2.B. New Supplier Onboarding: 2-3+ Days, if required
 
@@ -225,10 +223,10 @@ Each review's targeted approval time is outlined below, but as mentioned above, 
 - For any inquiries and questions, please tag @securityrisk in the #procurement slack channel.
 
 #### 4.D. Compliance Review: 4-14 Days
+
 - The first page of the Zip request includes anticorruption gating question (e.g., will the vendor interact with government agencies on our behalf, was this vendor recommended by a government official, etc.). If the answer to any of these questions is “yes,” the Ethics & Compliance team must consider whether the vendor presents unacceptably high compliance risk. 
 - To do this, the Ethics & Compliance team will conduct additional due diligence, which may, in part, consist of sending a questionnaire directly to the vendor. This questionnaire asks about the vendor’s ownership and history with applicable regulatory agencies, to better understand the risk, and asks whether the vendor has an anticorruption program in place, to understand whether the vendor has already taken measures to mitigate that risk. Turnaround time largely depends on the vendor's responsiveness. 
 - When risk is present, the Ethics & Compliance team will consider whether anything can be done to mitigate that risk. Risk mitigation could, for example, consist of additional provisions in the vendor agreement. 
-
 
 #### 4.E. PeopleOps Review: 1-4 Days
 
