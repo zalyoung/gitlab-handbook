@@ -24,14 +24,6 @@ Making async communication work requires good processes. Read how we do it [here
 
 In contrast to remote work, a colocated work environment is one where people inhabit the same space. A traditional office is a colocated environment. "Co-located" literally means "shared location."
 
-## Digital nomad/road warrior
-
-Though they're similar, these two terms denote two different remote-oriented lifestyles. A [digital nomad](people/#nomads) is a person who travels continually, sometimes without a "home base" and often internationally, while still working remotely to maintain an income.
-
-A road warrior is someone who [travels](people/#travelers) often, but may do so specifically as a function of their job. Road warriors may spend the majority of their time away, but usually maintain a home location to return to.
-
-Read more about creative, passionate people who have [adopted a remote lifestyle](people/).
-
 ## Forcing function
 
 A forcing function is any task, activity, or event that forces you to take action and produce a result. This term comes from interaction design, where it refers to a constraint that shapes behavior. At GitLab, we use [forcing functions](how-to-work-remote-first/) to empower and encourage team members to use best practices and to reinforce our [values](/handbook/values/).
