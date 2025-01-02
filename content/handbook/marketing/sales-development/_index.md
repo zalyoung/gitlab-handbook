@@ -103,7 +103,7 @@ Please find our SSoT in terms of reporting below, for each dashboard you can als
 | [Action Needed: APJ BDR](https://gitlab.my.salesforce.com/01ZPL000000bkbl) | Dashboard outlining items where immediate action is needed for APJ BDR.          |
 | [Action Needed: EMEA BDR](https://gitlab.my.salesforce.com/01Z4M000000soBO) | Dashboard outlining items where immediate action is needed for EMEA BDR.          |
 | [Action Needed: AMER BDR](https://gitlab.my.salesforce.com/01ZPL00000069v3) | Dashboard outlining items where immediate action is needed for AMER BDR.        |
-| [Action Needed: SDR Global](https://gitlab.my.salesforce.com/01ZPL000000ULrp) | Dashboard outlining items where immediate action is needed for SDR Global.   
+| [Action Needed: SDR Global](https://gitlab.my.salesforce.com/01ZPL000000ULrp) | Dashboard outlining items where immediate action is needed for SDR Global.  | 
 | [1:1 Dashboards - Accounts: EMEA COMM](https://gitlab.my.salesforce.com/01Z8X000000u7O4) | 1:1 dashboard for accounts in the EMEA COMM segment.    |
 | [1:1 Dashboards - Accounts: AMER COMM](https://gitlab.my.salesforce.com/01ZPL000001I5n3) | 1:1 dashboard for accounts in the AMER COMM segment.    |
 | [1:1 Dashboards - Accounts: ENTG AMER/LATAM](https://gitlab.my.salesforce.com/01ZPL000001I6Ub) | 1:1 dashboard for accounts in the ENG AMER/LATAM segment. |
