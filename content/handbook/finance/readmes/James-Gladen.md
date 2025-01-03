@@ -47,7 +47,7 @@ Every company is now a software company. GitLab is in a unique space to accelera
 ## FAQs
 
 1. **Foreign withholding taxes**
-    - What is the withholding rate from a given country - see [this resource](/https://taxsummaries.pwc.com/)
+    - What is the withholding rate from a given country - see [PwC Tax Summaries](https://taxsummaries.pwc.com/)
     - Can my customer have an exemption from the gross-up requirement to withhold taxes? Please note that GitLab’s pricing currently contemplates the customer’s absorption of the withholding taxes, so a reasonable response to the question would be to raise the price of the GitLab subscription if GitLab is asked to absorb the withholding tax.
 1. **When can we open an entity in Country X for employment purposes?**
     - Please note that there are many factors which enter into a decision to open an entity, including the number of team members in-country and the regulatory environment there.
