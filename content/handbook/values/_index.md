@@ -125,7 +125,7 @@ While it's wise to seek advice from experts within your function, we encourage G
 If you have to remind someone of the position you have in the company, you're doing something wrong.
 People already know [our decision-making process](/handbook/leadership/#making-decisions).
 Explain why you're making the decision, and respect everyone irrespective of their function.
-This includes using the rank of another person - [including the CEO](https://twitter.com/EmiliejayG/status/1198731054162432000) - to sell an idea or decision.
+This includes using the rank of another person - [including the CEO](https://x.com/EmiliejayG/status/1198731054162432000) - to sell an idea or decision.
 
 ##### Assume positive intent
 
@@ -303,7 +303,7 @@ We create together with our customers. There is an open dialogue between GitLab 
 
 ##### Keep end users in sight
 
-Our focus is to increase customer results. At GitLab, one way to drive customer results is through platform enhancements that drive the most value for direct users. This requires being aware of [the Concur effect](https://twitter.com/ryanfalor/status/1182647229414166528?s=12).
+Our focus is to increase customer results. At GitLab, one way to drive customer results is through platform enhancements that drive the most value for direct users. This requires being aware of [the Concur effect](https://x.com/ryanfalor/status/1182647229414166528?s=12).
 
 [Arvind Narayanan](https://www.cs.princeton.edu/~arvindn/), a Princeton Professor, described his frustration with Blackboard in a viral Tweet:
 
@@ -311,7 +311,7 @@ Our focus is to increase customer results. At GitLab, one way to drive customer 
 >
 >Software companies can be breathtakingly clueless when there's a layer of indirection between them and their users. Everyone who's suffered through Blackboard will have the same reaction to this: try having less functionality!
 
-[Ryan Falor](https://twitter.com/ryanfalor) followed up on Narayanan's tweet with his definition of the Concur Effect:
+[Ryan Falor](https://x.com/ryanfalor) followed up on Narayanan's tweet with his definition of the Concur Effect:
 
 >1. decision makers are not direct users
 >1. features are overwhelming and disjointed
@@ -627,7 +627,7 @@ People feel more included when they're supported. To encourage this, and to supp
 ##### Culture fit is a bad excuse
 
 We don't hire based on culture or select candidates because we'd like to have a drink with them. We hire and reward team members based on our shared values as detailed on this page. We want a **values fit**, not a culture fit.
-We want cultural diversity instead of cultural conformity. Said differently: ["culture add" > "culture fit"](https://twitter.com/Una/status/846808949672366080) or "hire for culture contribution" since our [mission is that everyone can contribute](/handbook/company/mission/#mission).
+We want cultural diversity instead of cultural conformity. Said differently: ["culture add" > "culture fit"](https://x.com/Una/status/846808949672366080) or "hire for culture contribution" since our [mission is that everyone can contribute](/handbook/company/mission/#mission).
 
 ##### Religion and politics at work
 
@@ -1328,7 +1328,7 @@ In a [GitLab Unfiltered interview on values](https://youtu.be/7kMQj4O4ZGU), GitL
 
 ## Updating our values
 
-Our values are updated frequently and as needed. Everyone is welcome to make a suggestion to improve them. To update: make a merge request and assign it to the CEO. If you're a [team member](/handbook/company/team/) or in the [core team](https://about.gitlab.com/community/core-team/) please post a link to the MR in the `#values` Slack channel. If you're not part of those groups, please send a direct Twitter message to [@sytses](https://twitter.com/sytses).
+Our values are updated frequently and as needed. Everyone is welcome to make a suggestion to improve them. To update: make a merge request and assign it to the CEO. If you're a [team member](/handbook/company/team/) or in the [core team](https://about.gitlab.com/community/core-team/) please post a link to the MR in the `#values` Slack channel. If you're not part of those groups, please send a direct X/Twitter message to [@sytses](https://x.com/sytses).
 
 ## How do we reinforce our values
 
@@ -1370,7 +1370,7 @@ In negative feedback, we should be specific about what the problem is. For examp
 
 Value erosion can occur when indifference and apathy are tolerated. It can also occur when individuals justify undesired behaviors by interpreting values as "me values" rather than "company values." For example, a team member may speak to the importance of personal efficiency in order to justify not collaborating professionally with peers. This is not what we expect from team members in terms of efficiency and collaboration.
 
-If you feel that values are not being lived out in a given scenario, speak up and ask for context in a respectful manner. Navigating value conflicts starts with [assuming positive intent](#assume-positive-intent) from other team members. Offer links to relevant values and/or operating principles when discussing the issue. If there is confusion or disagreement about the interpretation of a value, please surface the discussion in GitLab's `#values` Slack channel (for GitLab team members) or @-mentioning  [@gitlab](https://twitter.com/gitlab) on Twitter (for those who do not work at GitLab).
+If you feel that values are not being lived out in a given scenario, speak up and ask for context in a respectful manner. Navigating value conflicts starts with [assuming positive intent](#assume-positive-intent) from other team members. Offer links to relevant values and/or operating principles when discussing the issue. If there is confusion or disagreement about the interpretation of a value, please surface the discussion in GitLab's `#values` Slack channel (for GitLab team members) or @-mentioning  [@gitlab](https://x.com/gitlab) on X/Twitter (for those who do not work at GitLab).
 
 In a [GitLab Unfiltered interview on values](https://youtu.be/7kMQj4O4ZGU), GitLab co-founder Sid Sijbrandij offers the following context.
 
@@ -1395,7 +1395,7 @@ From our values we excluded some behaviors that are obvious; we call them our *p
 We don't want people to play politics at GitLab.
 
 An example of politics is people discussing a proposal and being overly focused on whose proposal it is.
-This is a manifestation of the [Belief Bias](https://twitter.com/g_s_bhogal/status/1225561210139049984?), where we judge an argument's strength not by how strongly it supports the conclusion but by how strongly *we* support the conclusion.
+This is a manifestation of the [Belief Bias](https://x.com/g_s_bhogal/status/1225561210139049984?), where we judge an argument's strength not by how strongly it supports the conclusion but by how strongly *we* support the conclusion.
 Proposals should be weighed on their merits and not on who proposed them.
 Another example is people being promoted based on others liking them or having a lot of alliances. We want people to be promoted based on their results. We value collaboration, but that's different from being promoted just because people like you.
 
