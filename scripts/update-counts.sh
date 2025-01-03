@@ -31,8 +31,6 @@ push_to_main () {
     cd /tmp/handbook
     git config --global user.email "$GITLAB_USER_EMAIL"
     git config --global user.name "$GITLAB_USER_NAME"
-    output=$(git config --list)
-    echo $output
     branch_name="update-counts-${TODAY}"
     git checkout -b "$branch_name"
     git add assets/csv/about-count.csv
