@@ -21,6 +21,12 @@ stages:
   - notify
   - maintenance
 
+include:
+  - component: gitlab.com/components/secret-detection/secret-detection@~latest
+  - component: gitlab.com/gitlab-org/components/danger-review/danger-review@1.4.1
+    inputs:
+      job_stage: build
+
 default:
   image: alpine:latest
   interruptible: true # All jobs are interruptible by default
@@ -120,6 +126,257 @@ variables:
 .scheduled-update: &scheduled-update
   if: '$CI_PIPELINE_SOURCE == "schedule" && $RUN_TYPE == "count-update"'
 
+###################################
+#
+# INTERRUPTION PROTECTION
+#
+###################################
+
+dont-interrupt-me:
+  stage: sync
+  interruptible: false
+  script:
+    - echo "This jobs makes sure this pipeline won't be interrupted! See https://docs.gitlab.com/ee/ci/yaml/#interruptible."
+  variables:
+    GIT_STRATEGY: none
+  rules:
+    - if: $CI_PIPELINE_SOURCE == "pipeline"
+
+###################################
+#
+# BUILD STAGE
+#
+###################################
+
+build:
+  image: $HUGO_IMAGE
+  stage: build
+  script:
+    - echo -e "\e[0Ksection_start:`date +%s`:group1\r\e[0KGroup 1"
+    - apk update
+    - echo -e "\e[0Ksection_end:`date +%s`:group1\r\e[0K"
+    - echo -e "\e[0Ksection_start:`date +%s`:group2\r\e[0KGroup 2"
+    - apk upgrade
+    - echo -e "\e[0Ksection_end:`date +%s`:group2\r\e[0K"
+    - echo -e "\e[0Ksection_start:`date +%s`:group3\r\e[0KGroup 3"
+    - apk add go npm yq curl coreutils sed
+    - echo -e "\e[0Ksection_end:`date +%s`:group3\r\e[0K"
+    - echo -e "\e[0Ksection_start:`date +%s`:group4\r\e[0KGroup 4"
+    - ./scripts/sync-data.sh
+    - echo -e "\e[0Ksection_end:`date +%s`:group4\r\e[0K"
+    - echo -e "\e[0Ksection_start:`date +%s`:group5\r\e[0KGroup 5"
+    - npm ci --cache $NPM_CACHE
+    - echo -e "\e[0Ksection_end:`date +%s`:group5\r\e[0K"
+    - echo -e "\e[0Ksection_start:`date +%s`:group6\r\e[0KGroup 6"
+    - hugo --enableGitInfo
+    - echo -e "\e[0Ksection_end:`date +%s`:group6\r\e[0K"
+    - echo -e "\e[0Ksection_start:`date +%s`:group7\r\e[0KGroup 7"
+    - find "public" -type f -name '*.html' -exec sed -i -e "s/content-sites\/handbook\/${PAGES_PREFIX}\/content-sites\/handbook\/${PAGES_PREFIX}/content-sites\/handbook\/${PAGES_PREFIX}/g" {} +
+    - echo -e "\e[0Ksection_end:`date +%s`:group7\r\e[0K"
+  artifacts:
+    paths:
+      - public
+  rules:
+  - <<: *default-branch
+  - <<: *build-and-test-only
+  - <<: *merge-request-only
+    variables:
+      PAGES_PREFIX: 'mr$CI_MERGE_REQUEST_IID'
+      HUGO_BASEURL: "${CI_PAGES_URL}/${PAGES_PREFIX}"
+
+###################################
+#
+# DEPLOY STAGE
+#
+###################################
+pages:
+  stage: deploy
+  dependencies: [build]
+  environment:
+    name: $ENVIRONMENT
+    url: $HUGO_BASEURL
+  variables:
+    GIT_STRATEGY: none
+  pages:
+    path_prefix: "$PAGES_PREFIX"
+  artifacts:
+    paths:
+      - public
+  script:
+    - echo "Pages accessible through ${CI_PAGES_URL}/${PAGES_PREFIX}"
+  rules:
+    - <<: *default-branch
+    - <<: *scheduled-pipeline
+    - if: '$CI_MERGE_REQUEST_LABELS =~ /deploy-review-app-always/'
+      variables:
+        PAGES_PREFIX: 'mr$CI_MERGE_REQUEST_IID'
+        ENVIRONMENT: 'review/mr$CI_MERGE_REQUEST_IID'
+        HUGO_BASEURL: "${CI_PAGES_URL}/${PAGES_PREFIX}/"
+    - <<: *merge-request-only
+      variables:
+        PAGES_PREFIX: 'mr$CI_MERGE_REQUEST_IID'
+        ENVIRONMENT: 'review/mr$CI_MERGE_REQUEST_IID'
+        HUGO_BASEURL: "${CI_PAGES_URL}/${PAGES_PREFIX}/"
+      when: manual
+      allow_failure: true
+
+####################################
+##
+## TEST STAGE
+##
+####################################
+
+markdownlint:
+  image:
+    name: davidanson/markdownlint-cli2:v${MARKDOWNLINT_VERSION}
+    entrypoint: [""]
+    docker:
+      user: root
+  stage: build
+  needs: []
+  variables:
+    FORCE_COLOR: 1
+  before_script:
+    - npm install chalk terminal-link
+  script:
+    - apk add git
+    - sh ./scripts/markdownlint.sh
+  rules:
+    - <<: *merge-request-or-tag
+    - <<: *is-fork
+  artifacts:
+    when: always
+    expire_in: 1 month
+    paths:
+      - markdownlint-cli2-codequality.json
+    reports:
+      codequality: markdownlint-cli2-codequality.json
+
+vale:
+  image:
+    name: jdkato/vale:v${VALE_VERSION}
+    entrypoint: [""]
+    docker:
+      user: root
+  stage: build
+  needs: []
+  script:
+    - apk add git
+    - sh ./scripts/vale.sh
+  rules:
+    - <<: *merge-request-or-tag
+    - <<: *is-fork
+  artifacts:
+    when: always
+    expire_in: 1 month
+    paths:
+      - vale-codequality.json
+    reports:
+      codequality: vale-codequality.json
+
+handbooklint:
+  image:
+    name: gitlab/glab
+    entrypoint: [""]
+  stage: build
+  needs: []
+  before_script:
+    - apk update
+    - apk upgrade
+    - apk add jq sed bash
+  script:
+    - bash ./scripts/handbook-lint.sh
+  rules:
+    - <<: *merge-request-or-tag
+    - <<: *is-fork
+  artifacts:
+    when: always
+    expire_in: 1 month
+    paths:
+      - handbook-codequality.json
+    reports:
+      codequality: handbook-codequality.json
+
+check_path_change:
+  stage: build
+  image:
+    name: gitlab/glab
+    entrypoint: [""]
+  before_script:
+    - apk add git bash jq
+  script:
+    - bash ./scripts/check-path-change.sh
+  rules:
+    - if: $CI_MERGE_REQUEST_LABELS =~ /skip-path-check/
+      when: never
+    - <<: *merge-request-or-tag
+
+hugolint:
+  stage: build
+  needs: []
+  rules:
+    - <<: *build-and-test-only
+    - <<: *is-fork
+    - <<: *default-branch
+    - <<: *merge-request-or-tag
+  image:
+    name: registry.gitlab.com/gitlab-com/content-sites/handbook-tools/hugolint:v${HUGOLINT_VERSION}
+  script:
+    - hugolint linkcheck --exclude .hugolint.exclude --format=json $(find content -type f -name '*.md' | grep -v ' ') >linkcheck.json
+    - hugolint missinglinks --num 30 $(find content -name '*.md' | grep -v ' ') 2>/dev/null | tee missinglinks.txt
+    - |
+      # Compare with target branch when running as a merge request pipeline.
+      if [ "${CI_PIPELINE_SOURCE}" == "merge_request_event" ]; then
+        hugolint codequality latest --artifact 'linkcheck.json' >'latest.json'
+        hugolint codequality diff --exit-code 'latest.json' 'linkcheck.json'
+      fi
+  artifacts:
+    when: always
+    expire_in: 1 month
+    paths:
+      - linkcheck.json
+      - missinglinks.txt
+    reports:
+      codequality: linkcheck.json
+
+secret_detection:
+  stage: build
+  needs: []
+  dependencies: [] # Don't download artifacts, especially `./public/`
+  rules:
+    - <<: *build-and-test-only
+    - <<: *merge-request-or-tag
+    - <<: *is-fork
+
+####################################
+##
+## NOTIFY STAGE
+##
+####################################
+
+post_comment_on_failure:
+  needs: ["markdownlint", "handbooklint", "vale", "hugolint"]
+  when: on_failure
+  stage: notify
+  image:
+    name: gitlab/glab
+    entrypoint: [""]
+  before_script:
+    - apk add jq sed bash
+  script:
+    - bash ./scripts/parse-codequality-report.sh -r ./codequality.json > msg.txt
+    - bash ./scripts/post-comment.sh "$(cat msg.txt)"
+  rules:
+  - <<: *merge-request-or-tag
+
+notify_slack_on_build_failures:
+  when: on_failure
+  stage: notify
+  script: ./scripts/send-failure-notification-to-slack.sh
+  rules:
+  - <<: *is-fork
+    when: never
+  - <<: *default-branch
 
 ####################################
 ##
@@ -132,3 +389,5 @@ update_counts:
   before_script:
     - apk add git
   script: ./scripts/update-counts.sh
+  rules:
+  - <<: *scheduled-update

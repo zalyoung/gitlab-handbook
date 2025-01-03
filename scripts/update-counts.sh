@@ -41,10 +41,10 @@ push_to_main () {
     git push origin "$branch_name" -o merge_request.create -o merge_request.title="$TODAY Update handbook word and page counts" -o merge_request.description="Performs the quarterly handbook word and page counts" -o merge_request.label="Handbook::Operations" -o merge_request.label="type::maintenance" -o merge_request.assign="$GITLAB_USER_LOGIN"
 }
 
-#if [ "$RUN_TYPE" = "count-update" ]; then
-clone_repo
-quarterly_count
-push_to_main
-#else
-#    mr_count
-#fi
+if [ "$RUN_TYPE" = "count-update" ]; then
+    clone_repo
+    quarterly_count
+    push_to_main
+else
+    mr_count
+fi
