@@ -4,13 +4,13 @@ title: "Production Engineering Foundations Team"
 
 ## Mission
 
-The mission of the Production Engineering Foundations team at GitLab is to build and evolve the networking infrastructure that powers GitLab SaaS while maintaining the stability of core platform services. We focus on developing innovative networking solutions that scale with GitLab's growth, while ensuring our maintained services remain reliable and efficient.
+The mission of the Production Engineering Foundations team at GitLab is to build and evolve the networking infrastructure that powers GitLab SaaS while maintaining the stability of select core platform services. We focus on developing innovative networking solutions that scale with GitLab's growth, while ensuring our maintained services remain reliable and efficient.
 
 ## Vision
 
 The Foundations team's North Star consists of two pieces:
 
-1. **Excellence in networking infrastructure.** We will drive GitLab's networking capabilities forward by building scalable, secure, and efficient solutions. This includes evolving our edge services, load balancing, rate limiting, and network security to meet the growing demands of GitLab's platform. Through centralized networking tooling and infrastructure, we create a foundation that supports GitLab's continued growth and innovation.
+1. **Excellence in networking infrastructure.** We will drive GitLab's networking capabilities forward by building scalable, secure, and efficient solutions. This includes evolving our edge services, load balancing, rate limiting, and network security to meet the growing demands of all GitLab platforms. Through centralized networking tooling and infrastructure, we create a foundation that supports GitLab's continued growth and innovation.
 1. **Sustainable toil and service maintenance.** While toil is inherent in SRE work, we will adopt processes and policies that create an effective balance between automation and manual work. This approach ensures we can maintain our core infrastructure services reliably while keeping operational overhead minimal as GitLab grows. We strive for efficiency in both our day-to-day operations and our maintenance of essential platform services.
 
 ## Responsibilities
@@ -36,16 +36,10 @@ The Foundations team's flagship focus is our networking infrastructure, which we
 
 While these services are essential to GitLab's infrastructure, we focus on maintaining their stability and reliability rather than actively expanding their capabilities:
 
-#### Core services
-
-Services that are within GitLab.com's ecosystem, generally not talking directly to incoming traffic.
-
-| Service | Description | Notes |
-| ------- | ----------- | --------- |
-| SaaS K8s workloads | [K8S workloads deployments](https://gitlab.com/gitlab-com/runbooks/-/blob/master/docs/onboarding/gitlab.com_on_k8s.md), Cluster addons | Autodeploy is owned by Delivery, Tanka and Helmfiles are often shared by other teams |
-| Config | [Terraform](https://gitlab.com/gitlab-com/runbooks/-/blob/master/docs/uncategorized/terraform-broken-master.md), [Chef](https://gitlab.com/gitlab-com/runbooks/-/tree/master/docs/config_management), Image Builds | The core TF repos are maintained by Foundations, while specific modules may be maintained by the teams that use them |
-| Secrets Management | [Vault](https://gitlab.com/gitlab-com/runbooks/-/tree/master/docs/vault) | |
-| Ops | [Ops.gitlab.net](https://gitlab.com/gitlab-com/runbooks/-/tree/master/docs/ops), [Ops Runners](https://gitlab.com/gitlab-com/runbooks/-/blob/master/docs/uncategorized/subnet-allocations.md) | |
+- [SaaS K8s workloads](https://gitlab.com/gitlab-com/runbooks/-/blob/master/docs/onboarding/gitlab.com_on_k8s.md), Cluster addons | Autodeploy is owned by Delivery, Tanka and Helmfiles are often shared by other teams |
+- Config ([Terraform](https://gitlab.com/gitlab-com/runbooks/-/blob/master/docs/uncategorized/terraform-broken-master.md), [Chef](https://gitlab.com/gitlab-com/runbooks/-/tree/master/docs/config_management), Image Builds)
+- Secrets Management ([Vault](https://gitlab.com/gitlab-com/runbooks/-/tree/master/docs/vault))
+- [Ops.gitlab.net](https://gitlab.com/gitlab-com/runbooks/-/tree/master/docs/ops) and [Ops Runners](https://gitlab.com/gitlab-com/runbooks/-/blob/master/docs/uncategorized/subnet-allocations.md)
 
 ## Getting Assistance
 
