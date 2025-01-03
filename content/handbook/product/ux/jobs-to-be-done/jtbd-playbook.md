@@ -1,12 +1,12 @@
 ---
 title: JTBD Research Playbook
 description: >-
-  GitLab follows a process based on [Jim Kalbach's JTBD Playbook](https://www.amazon.com/Jobs-Be-Done-Playbook-Organization/dp/1933820683) to develop job canvases and identify ranked customer outcomes.
+  GitLab follows a process based on [Jim Kalbach's JTBD Playbook](https://www.amazon.com/Jobs-Be-Done-Playbook-Organization/dp/1933820683) to develop [job canvases](/handbook/product/ux/jobs-to-be-done/jtbd-canvas-anatomy) and identify ranked customer outcomes.
 ---
 
-This playbook enables all GitLab team members to conduct JTBD research. Reach out to a UX Researcher or JTBD expert if you have any questions.
+This playbook enables all GitLab team members to conduct JTBD research. For a deep dive into each aspect of a job canvas, review the [Anatomy of a JTBD canvas](/handbook/product/ux/jobs-to-be-done/jtbd-canvas-anatomy). Reach out to a UX Researcher or JTBD expert if you have any questions.
 
-**A Note on Time, Confidence, and Validation**
+### A Note on Time, Confidence, and Validation
 
 Running through the playbook process typically requires at least one quarter. Timelines vary based on job complexity and team JTBD experience.
 
@@ -20,8 +20,8 @@ Confidence Levels:
 
 ### References
 
-- [Anatomy of a JTBD canvas](/handbook/product/ux/jobs-to-be-done/#anatomy-of-a-jtbd-canvas)
 - [JTBD overview](/handbook/product/ux/jobs-to-be-done/)
+- [Anatomy of a JTBD canvas](/handbook/product/ux/jobs-to-be-done/jtbd-canvas-anatomy)
 
 ## Playbook Process
 
