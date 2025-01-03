@@ -1,7 +1,7 @@
 ---
 title: Anatomy of a JTBD Canvas
 description: >-
-  A Job to be Done Canvas organizes the elements of a [Job Performer's](/handbook/product/ux/jobs-to-be-done/#job-performer-who-do-you-want-to-innovate-for) [Main Job](#main-jobs) for easy iteration, sharing, and documentation. We use canvases in our [JTBD playbook](/handbook/product/ux/jobs-to-be-done/jtbd-playbook) within our [FigJam template](https://www.figma.com/file/Z4lsAOLH1ANN3pstQFYgSk/Jobs-to-be-done----Playbook-Template?type=whiteboard&node-id=0%3A1&t=7nzgsnW0igvXKwjr-1).
+  A Job to be Done Canvas organizes the elements of a [Job Performer's](#job-performer-who-do-you-want-to-innovate-for) [Main Job](/handbook/product/ux/jobs-to-be-done/#main-jobs) for easy iteration, sharing, and documentation. We use canvases in our [JTBD playbook](/handbook/product/ux/jobs-to-be-done/jtbd-playbook) within our [FigJam template](https://www.figma.com/file/Z4lsAOLH1ANN3pstQFYgSk/Jobs-to-be-done----Playbook-Template?type=whiteboard&node-id=0%3A1&t=7nzgsnW0igvXKwjr-1).
 ---
 
 ![JTBD canvas](JTBD_Canvas.png)

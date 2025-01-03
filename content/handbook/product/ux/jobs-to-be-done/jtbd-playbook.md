@@ -83,9 +83,9 @@ Structure:
 
 Interview Goals:
 
-- Map [Job Steps](/handbook/product/ux/jobs-to-be-done/#job-steps-how-does-the-job-performer-get-the-job-done)
+- Map [Job Steps](/handbook/product/ux/jobs-to-be-done/jtbd-canvas-anatomy#job-steps-how-does-the-job-performer-get-the-job-done)
 - Identify [desired Outcomes](/handbook/product/ux/jobs-to-be-done/#Outcomes-how-does-the-job-performer-measure-the-success-of-getting-the-job-done)
-- Discover [Related Jobs](/handbook/product/ux/jobs-to-be-done/#related-jobs-what-else-is-the-job-performer-trying-to-get-done)
+- Discover [Related Jobs](/handbook/product/ux/jobs-to-be-done/jtbd-canvas-anatomy#related-jobs-what-else-is-the-job-performer-trying-to-get-done)
 - Understand [Job Differentiators](/handbook/product/ux/jobs-to-be-done/#circumstances-what-are-the-factors-or-condictions-that-make-a-difference-in-how-the-job-gets-done)
 
 See the Figjam template [interview guide](https://www.figma.com/file/Z4lsAOLH1ANN3pstQFYgSk/Jobs-to-be-done----Playbook-Template?type=whiteboard&node-id=78-2318&t=oMR9VPNke7aIfCoU-4) for helpful prompts.
@@ -98,7 +98,7 @@ After interviews, synthesize the collected information into your JTBD Canvas, fo
 
 1. If per-interview Job Maps were not created during interviews, create them now:
    - Capture steps chronologically by reviewing interview notes/videos
-   - Rewrite steps following the [Job Step guidelines](/handbook/product/ux/jobs-to-be-done/#job-steps-how-does-the-job-performer-get-the-job-done)
+   - Rewrite steps following the [Job Step guidelines](/handbook/product/ux/jobs-to-be-done/jtbd-canvas-anatomy#job-steps-how-does-the-job-performer-get-the-job-done)
 1. Create unified Job Map:
    - Group steps into Beginning, Middle, and End categories
    - Organize related steps into vertical stacks
