@@ -287,7 +287,7 @@ GitLab GmbH employees in Germany are entitled to both the statutory German paren
 
 **Part-time work during Parental Leave**
 
-During Parental Leave, employees are statutorily entitled to part-time work (15 to 30 hours per week) if:
+During Parental Leave, employees are [statutorily entitled to part-time work](https://familienportal.de/familienportal/familienleistungen/elternzeit/faq/kann-ich-waehrend-der-elternzeit-teilzeit-arbeiten--124794) (15 to 32 hours per week) if:
 
 - The employer usually employs more than 15 employees, the employment relationship exists for at least six months,
 - The reduction is not opposed by urgent operational reasons, and
