@@ -2,7 +2,6 @@
 title: "James Shen's README"
 description: "Learn more about working with James Shen, VP FP&A"
 ---
-
 ## Why I'm at GitLab
 
 I'm energized by the opportunity to be part of building something transformative. Our work has a meaningful impact for our customers, helping them accelerate their own innovation. We're not just building software - we're enabling organizations to transform how they work.
@@ -19,7 +18,6 @@ For me, a strong business model alone isn't enough - the people and environment 
 1. **Execution** -  I excel at turning plans into reality and delivering results. I break down complex initiatives into actionable steps, establish clear metrics for success, and drive accountability in follow-through. Execution isn't about just getting things done – it's about getting the right things done in the right way, with a focus on delivering business impact.
 1. **Examination** - As an INTJ, I naturally gravitate toward dissecting complex problems and uncovering root causes. This manifests in developing frameworks for analysis and testing assumptions from multiple angles. My approach focuses on finding data-driven insights rather than relying on intuition alone.
 1. **Decision Making** - This combines both my execution and examination strengths. The focus is on balancing thorough analysis with pragmatic action, particularly in ambiguous situations. This means weighing multiple factors, considering downstream effects/risks, and knowing when to gather more data versus when to move forward with the information at hand.
-
 
 ## My Weaknesses
 
