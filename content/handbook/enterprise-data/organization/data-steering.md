@@ -22,7 +22,7 @@ The enterprise data initiatives / projects should broadly be under the scope of 
 1. Data Architecture and Modeling
 1. Data Discovery/Metadata Management
 1. Data Mastery and Reference Data
-1. Data Adoption \ Data Literacy
+1. Data Adoption/Data Literacy
 1. Data as value driver and outcome oriented
 
 ### Responsibilities
