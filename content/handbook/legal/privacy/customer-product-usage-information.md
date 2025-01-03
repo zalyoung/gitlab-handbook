@@ -109,7 +109,7 @@ The first exception is in the collection of hostname and IP address for Self-Man
 
 ## Switchboard
 
-*Purpose*: GitLab customers using the Dedicated single tenant SaaS offering have access to a customer console called [Switchboard](https://about.gitlab.com/direction/saas-platforms/switchboard/).  Switchboard is used by customer teams to maintain and configure their own Dedicated tenant.  Frontend Metrics from the Switchboard application are collected to help GitLab better understand how Dedicated customers are using Switchboard.  In turn, these Metrics will assist in driving further development of the Switchboard application.   
+*Purpose*: GitLab customers using the Dedicated single tenant SaaS offering have access to a customer console called [Switchboard](https://about.gitlab.com/direction/saas-platforms/switchboard/).  Switchboard is used by customer teams to maintain and configure their own Dedicated tenant.  Metrics from the Switchboard application are collected to help GitLab better understand how Dedicated customers are using Switchboard.  In turn, these Metrics will assist in driving further development of the Switchboard application.   
 
 *Applicable Software*: Switchboard Metrics are collected only from Dedicated users with access to the Swithboard application.
 
@@ -119,7 +119,7 @@ The first exception is in the collection of hostname and IP address for Self-Man
 
 *Data Sharing*: Switchboard Metrics are not shared with independent third-parties.  The Switchboard application and data warehouse are GitLab-controlled systems.
 
-*Cadence*: Switchboard Metrics are collected [   ].
+*Cadence*: Switchboard Metrics are collected from GitLab.com and sent to the data warehouse contemporaneously.
 
 *Ownership*: Switchboard Metrics are owend by the [GitLab Dedicated Group](https://handbook.gitlab.com/handbook/engineering/infrastructure/team/gitlab-dedicated/) and the [Analytics Instrumentation Group](https://handbook.gitlab.com/handbook/engineering/development/analytics/monitor/analytics-instrumentation/).  
 
