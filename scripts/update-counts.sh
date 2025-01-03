@@ -13,7 +13,7 @@ mr_count () {
 }
 
 clone_repo () {
-    git clone https://gitlab.com/gitlab-com/content-sites/handbook.git /tmp/handbook
+    git clone https://bot:$GITLAB_TOKEN@gitlab.com/gitlab-com/content-sites/handbook.git /tmp/handbook
     cd /tmp/handbook
 }
 
@@ -31,7 +31,7 @@ push_to_main () {
     cd /tmp/handbook
     git config --global user.email "$GITLAB_USER_EMAIL"
     git config --global user.name "$GITLAB_USER_NAME"
-    git remote add origin https://bot:$GITLAB_TOKEN@gitlab.com/gitlab-com/content-sites/handbook.git
+    echo $GITLAB_USER_NAME
     branch_name="update-counts-${TODAY}"
     git checkout -b "$branch_name"
     git add assets/csv/about-count.csv
@@ -40,6 +40,10 @@ push_to_main () {
     git push origin "$branch_name" -o merge_request.create -o merge_request.title="$TODAY Update handbook word and page counts" -o merge_request.description="Performs the quarterly handbook word and page counts" -o merge_request.label="Handbook::Operations" -o merge_request.label="type::maintenance" -o merge_request.assign="$GITLAB_USER_LOGIN"
 }
 
+#if [ "$RUN_TYPE" = "count-update" ]; then
     clone_repo
     quarterly_count
     push_to_main
+#else
+#    mr_count
+#fi
