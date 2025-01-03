@@ -21,12 +21,6 @@ stages:
   - notify
   - maintenance
 
-include:
-  - component: gitlab.com/components/secret-detection/secret-detection@~latest
-  - component: gitlab.com/gitlab-org/components/danger-review/danger-review@1.4.1
-    inputs:
-      job_stage: build
-
 default:
   image: alpine:latest
   interruptible: true # All jobs are interruptible by default
