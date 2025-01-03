@@ -14,8 +14,6 @@
 #
 ###################################
 
-s
-
 include:
   - component: gitlab.com/components/secret-detection/secret-detection@~latest
   - component: gitlab.com/gitlab-org/components/danger-review/danger-review@1.4.1
