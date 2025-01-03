@@ -14,6 +14,13 @@
 #
 ###################################
 
+stages:
+  - sync
+  - build
+  - deploy
+  - notify
+  - maintenance
+
 include:
   - component: gitlab.com/components/secret-detection/secret-detection@~latest
   - component: gitlab.com/gitlab-org/components/danger-review/danger-review@1.4.1
@@ -131,3 +138,5 @@ update_counts:
   before_script:
     - apk add git
   script: ./scripts/update-counts.sh
+  rules:
+  - <<: *scheduled-update
