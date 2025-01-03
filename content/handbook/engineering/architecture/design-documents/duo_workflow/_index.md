@@ -363,6 +363,11 @@ the steps we need to do in order to ship this to customers.
    1. Link to the branch from the workflow page
    1. Maybe open an MR automatically, but this depends on the desired UX and
       what the user asked the agent to do
+   1. We may also want to tie this into the internal checkpointing mechanism of
+      workflows. It might be nice to have a unique SHA (commit) associated with
+      every checkpoint. Longer term this would make it easier to replay a
+      workflow from a specific point in time by simply checking out the commit
+      associated with the checkpoint.
 1. Work on Runner/Pipeline improvements for appropriately billing CI Runner time
    for Duo Workflow. Figure out if workflows should have the same or different
    per minute compute cost and make changes neccessary to accomadate it.
