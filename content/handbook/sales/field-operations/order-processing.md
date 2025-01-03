@@ -603,7 +603,7 @@ Note: If any changes are made to the quote after approval, you will need to resu
 
 **Contractual Discounts**
 
-If a discount has been applied to a quote pursuant to a signed agreement between GitLab and the customer, additional approvals are not required. Tag Sales-Support in chatter with a link to the signed agreement to request that the quote approvals be overridden.
+If a discount has been applied to a quote pursuant to a signed agreement between GitLab and the customer, additional approvals are not required. Create a case for Deal Desk following [this process](https://handbook.gitlab.com/handbook/sales/field-operations/requesting-internal-support/#salesforce-workflow), and provide a link to the signed agreement to request that the quote approvals be overridden.
 
 #### Channel Quote Approval
 
