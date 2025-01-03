@@ -7,7 +7,7 @@ This page focuses on how to edit the handbook.
 Please see the [handbook usage page](../handbook-usage.md) for how and why we use the handbook, and other [docs pages](https://handbook.gitlab.com/docs/) for further reference.
 
 This page is intended to be complementary to [Using GitLab at GitLab](/handbook/people-group/using-gitlab-at-gitlab/#using-gitlab-competency).
-We suggest you complete the [GitLab 101 Tool Certification](/handbook/people-group/learning-and-development/gitlab-101/) if you haven't already.
+Reviewing the [GitLab 101](/handbook/people-group/learning-and-development/gitlab-101/) page may also be useful.
 
 **Have your own practical Handbook editing tips? Drop a video below!**
 
