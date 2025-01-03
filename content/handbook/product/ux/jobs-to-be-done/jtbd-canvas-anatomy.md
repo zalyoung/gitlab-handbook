@@ -62,7 +62,7 @@ Structure: [verb] + [object] + [optional clarifier]
 
 ## **Related Jobs:** What else is the Job Performer trying to get done?
 
-Consider 3-6 other goals the Job Performer has within the Domain. They should be distinct objectives and forumlated at a similar level of detail. These Related Jobs can be explored with their own canvases later if needed.
+Consider 3-6 other goals the Job Performer has within the Domain. They should be distinct objectives and formulated at a similar level of detail. These Related Jobs can be explored with their own canvases later if needed.
 
 ## **Aspirations:** What does the Job Performer aspire to become?
 
