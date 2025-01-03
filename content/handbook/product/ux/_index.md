@@ -118,7 +118,7 @@ The [UX Calendar](https://calendar.google.com/calendar/embed?src=gitlab.com_9psh
 
 ### UX All Hands
 
-The UX All Hands meeting takes place during the first week of each quarter, with two sessions to accommodate both EMEA/AMER and APAC/AMER-friendly time zones.
+The UX All Hands meeting takes place every six weeks, with two sessions to accommodate both EMEA/AMER and APAC/AMER-friendly time zones.
 
 The purpose is to share company updates, stay connected, and receive feedback.
 
