@@ -13,7 +13,7 @@ The Data Steering Committee Charter sets out the broad expectations on the respo
 
 ### Scope
 
-The enterprise data initiatives / projects should broadly be under the scope of following categories:
+The enterprise data initiatives/projects should broadly be under the scope of following categories:
 
 1. Data Strategy
 1. Data Quality Management
