@@ -284,7 +284,7 @@ Options for groups to get help when an assigned Technical Writer is on PTO are:
 - For help with a specific, time-sensitive, in-progress piece of work, a pre-arranged Technical Writer. The Technical
   Writer can be pinged on issues or merge requests and begin participating.
 
-If taking extended PTO (more than one week), Technical Writer should consider using the Technical Writer
+If taking extended PTO (one week or more), Technical Writers and Managers should use the Technical Writer
 [coverage issue](https://gitlab.com/gitlab-org/technical-writing/-/blob/main/.gitlab/issue_templates/TW_Coverage.md).
 This issue can describe exactly who is providing coverage, for what, and by what means.
 
