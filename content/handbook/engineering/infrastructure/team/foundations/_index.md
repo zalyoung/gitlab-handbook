@@ -30,7 +30,7 @@ The Foundations team's flagship focus is our networking infrastructure, which we
 - Network security and access controls
 - Service discovery ([Consul](https://gitlab.com/gitlab-com/runbooks/-/tree/master/docs/consul))
 - [Rate limiting](https://gitlab.com/gitlab-com/runbooks/-/tree/master/docs/rate-limiting)
-   - Design and implementation of rate limiting services
+  - Design and implementation of rate limiting services
 
 ### Maintained Services
 
