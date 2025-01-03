@@ -584,16 +584,18 @@ Prior to generating a standard (non-draft) quote to deliver to a client or prosp
 1. Navigate to the quote that you would like to submit for approval. Ensure that all of the relevant information is filled out on the quote.
 1. Populate `Submitter Comments` on the quote before submission. This field must be populated on any quote that requires approval. Please provide detail as to why you are requesting discounts or other terms that require approval, following the below format:
 
-- Executive Summary
-- Deal Summary (including compelling event to transact) (1-2 bullets)
-- Previous discount (if renewal/add-on)
-- Ramp details (if applicable)
-- Rationale for Discount Request (1-2 bullets) (ex. Services included)
-- Strategy to increase price over time 
-- What are we getting in return? 
-- Is this deal competitive? (Y/N)
-  - If Yes, against whom?
-- Logo Rights? (Y/N)
+```text
+Executive Summary
+Deal Summary (including compelling event to transact) (1-2 bullets)
+Previous discount (if renewal/add-on)
+Ramp details (if applicable)
+Rationale for Discount Request (1-2 bullets) (ex. Services included)
+Strategy to increase price over time 
+What are we getting in return? 
+Is this deal competitive? (Y/N)
+  If Yes, against whom?
+Logo Rights? (Y/N)
+```
 
 1. **CRO/Finance Deal Approval:** If you are applying discounts that require CRO and/or Finance approval per the current [Deal Approval Matrix](https://docs.google.com/document/d/1-CH-uH_zr0qaVaV1QbmVZ1rF669DsaUeq9w-q1QiKPE/edit?tab=t.0#bookmark=kix.h86b3ktlqijh) and the deal is >= $500k Booked ARR (Net ARR + ARR Basis), you must fill out the **[CRO/CFO Deal Approval Template](https://docs.google.com/document/d/1sBDE26cGC4-BXfFjicNNn7OVYhJ8jnRRpfTLpM6O6hE/edit?tab=t.0)** and provide a link in the `Submitter Comments` quote field prior to approval submission. Please ensure Ashley Kramer and Brian Robins have permission to access your document prior to submitting the quote for approval.
 1. Click "Submit for Approval" to initiate the approval process. The quote will be routed to the appropriate approvers based on the approval matrix. You can track the status of your approval request in the "Approval History" related list on the quote.
