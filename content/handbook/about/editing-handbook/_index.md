@@ -11,6 +11,8 @@ We suggest you complete the [GitLab 101 Tool Certification](/handbook/people-gro
 
 **Have your own practical Handbook editing tips? Drop a video below!**
 
+> **Tip** Use AI to edit the handbook faster, and learn about [Anthropic Claude](/handbook/tools-and-tips/ai/claude/) and [GitLab Duo](/handbook/tools-and-tips/ai/gitlab-duo/).
+
 ## Add yourself to the team page
 
 For how to add yourself to the team page, see the [add yourself to team guide](edit-team-page.md).
