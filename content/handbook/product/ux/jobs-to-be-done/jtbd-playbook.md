@@ -1,12 +1,12 @@
 ---
 title: JTBD Research Playbook
 description: >-
-  GitLab follows a process based on [Jim Kalbach's JTBD Playbook](https://www.amazon.com/Jobs-Be-Done-Playbook-Organization/dp/1933820683) to develop job canvases and identify ranked customer outcomes.
+  GitLab follows a process based on [Jim Kalbach's JTBD Playbook](https://www.amazon.com/Jobs-Be-Done-Playbook-Organization/dp/1933820683) to develop [job canvases](/handbook/product/ux/jobs-to-be-done/jtbd-canvas-anatomy) and identify ranked customer outcomes.
 ---
 
-This playbook enables all GitLab team members to conduct JTBD research. Reach out to a UX Researcher or JTBD expert if you have any questions.
+This playbook enables all GitLab team members to conduct JTBD research. For a deep dive into each aspect of a job canvas, review the [Anatomy of a JTBD canvas](/handbook/product/ux/jobs-to-be-done/jtbd-canvas-anatomy). Reach out to a UX Researcher or JTBD expert if you have any questions.
 
-**A Note on Time, Confidence, and Validation**
+### A Note on Time, Confidence, and Validation
 
 Running through the playbook process typically requires at least one quarter. Timelines vary based on job complexity and team JTBD experience.
 
@@ -20,8 +20,8 @@ Confidence Levels:
 
 ### References
 
-- [Anatomy of a JTBD canvas](/handbook/product/ux/jobs-to-be-done/#anatomy-of-a-jtbd-canvas)
 - [JTBD overview](/handbook/product/ux/jobs-to-be-done/)
+- [Anatomy of a JTBD canvas](/handbook/product/ux/jobs-to-be-done/jtbd-canvas-anatomy)
 
 ## Playbook Process
 
@@ -83,9 +83,9 @@ Structure:
 
 Interview Goals:
 
-- Map [Job Steps](/handbook/product/ux/jobs-to-be-done/#job-steps-how-does-the-job-performer-get-the-job-done)
+- Map [Job Steps](/handbook/product/ux/jobs-to-be-done/jtbd-canvas-anatomy#job-steps-how-does-the-job-performer-get-the-job-done)
 - Identify [desired Outcomes](/handbook/product/ux/jobs-to-be-done/#Outcomes-how-does-the-job-performer-measure-the-success-of-getting-the-job-done)
-- Discover [Related Jobs](/handbook/product/ux/jobs-to-be-done/#related-jobs-what-else-is-the-job-performer-trying-to-get-done)
+- Discover [Related Jobs](/handbook/product/ux/jobs-to-be-done/jtbd-canvas-anatomy#related-jobs-what-else-is-the-job-performer-trying-to-get-done)
 - Understand [Job Differentiators](/handbook/product/ux/jobs-to-be-done/#circumstances-what-are-the-factors-or-condictions-that-make-a-difference-in-how-the-job-gets-done)
 
 See the Figjam template [interview guide](https://www.figma.com/file/Z4lsAOLH1ANN3pstQFYgSk/Jobs-to-be-done----Playbook-Template?type=whiteboard&node-id=78-2318&t=oMR9VPNke7aIfCoU-4) for helpful prompts.
@@ -98,7 +98,7 @@ After interviews, synthesize the collected information into your JTBD Canvas, fo
 
 1. If per-interview Job Maps were not created during interviews, create them now:
    - Capture steps chronologically by reviewing interview notes/videos
-   - Rewrite steps following the [Job Step guidelines](/handbook/product/ux/jobs-to-be-done/#job-steps-how-does-the-job-performer-get-the-job-done)
+   - Rewrite steps following the [Job Step guidelines](/handbook/product/ux/jobs-to-be-done/jtbd-canvas-anatomy#job-steps-how-does-the-job-performer-get-the-job-done)
 1. Create unified Job Map:
    - Group steps into Beginning, Middle, and End categories
    - Organize related steps into vertical stacks
