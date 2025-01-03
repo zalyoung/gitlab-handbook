@@ -326,6 +326,10 @@ Duo Workflow where there is no appropriate project in which to run the pipeline
 
 #### Duo Workflow in CI Iteration Plan
 
+The overall epic for this work can be found at
+https://gitlab.com/groups/gitlab-org/-/epics/16050 . Below is an overview of
+the steps we need to do in order to ship this to customers.
+
 1. Add back the ability to start a workflow in CI behind a feature flag
    1. Reverts https://gitlab.com/gitlab-org/gitlab/-/merge_requests/169404
    1. Adds a feature flag `duo_workflows_in_ci` which will not be enabled
@@ -336,23 +340,29 @@ Duo Workflow where there is no appropriate project in which to run the pipeline
       the pipeline in the context of that branch. This ensures we never run in
       the default branch
    1. We will always pass `create_branch: true` for Duo Workflow
+1. Change Duo Workflow to using [Composite identity](https://docs.google.com/document/d/1JHqEThXqeOXkXunPUuiV1zoDoS5R-UPFZaoyiZ2EGLE/edit?tab=t.0#heading=h.e2f5pz5y6q4x)
+   1. Introduce Global user for Duo Workflow composite identity
+   1. By default these new tokens should only have access to the project where the workspace is running in
+   1. Introduce this as part of `Ci::CreateWorkloadService` so it is re-usable for other workloads in future. Can take `composite_identity_user_id` and `allowed_projects` as arguments.
+   1. The `$CI_JOB_TOKEN` should be used for the Duo Workflow auth token at this point since there is no reason to distinguish them.
 1. Introduce a UI in GitLab for starting a workflow in a project
 1. Lock Duo Workflow down to [specific purpose built runners](https://gitlab.com/gitlab-org/gitlab/-/issues/511293)
    1. As Duo Workflows might have additional privileges not normally available
       in the `CI_JOB_TOKEN` we will want to target specific runners to run the
       workflow jobs to be extra secure. We might base this on runner/job tags or
       some other implementation.
-1. Introduce Global user for Duo Workflow composite identity
-1. Change Duo Workflow to using [Composite identity](https://docs.google.com/document/d/1JHqEThXqeOXkXunPUuiV1zoDoS5R-UPFZaoyiZ2EGLE/edit?tab=t.0#heading=h.e2f5pz5y6q4x)
-   1. By default these new tokens should only have access to the project where the workspace is running in
-   1. Introduce this as part of `Ci::CreateWorkloadService` so it is re-usable for other workloads in future. Can take `composite_identity_user_id` and `allowed_projects` as arguments.
-   1. The `$CI_JOB_TOKEN` should be used for the Duo Workflow auth token at this point since there is no reason to distinguish them.
 1. Add ability to further limit composite identity in GitLab UI with dynamic
    scopes
    1. We should be allow the agent to only push code or only post comments and
       we want this to be enforced in the auth token, not in Duo Workflow Service
 1. Introduce a UI in GitLab for HiTL interactions
 1. Roll out to beta customers
+1. Work in improving the user experience for making code changes:
+   1. Automatically commit and push at the end of the workflow (in case the
+      agent forgets or isn't told to do this)
+   1. Link to the branch from the workflow page
+   1. Maybe open an MR automatically, but this depends on the desired UX and
+      what the user asked the agent to do
 1. Work on Runner/Pipeline improvements for appropriately billing CI Runner time
    for Duo Workflow. Figure out if workflows should have the same or different
    per minute compute cost and make changes neccessary to accomadate it.
