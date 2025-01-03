@@ -21,4 +21,10 @@ Any exception approval must:
 
 Once an exception request is submitted, the following general flow will commence:
 
-
+- Requestor will receive approval from their Department head or the policy, standard, or procedure maintainers, depending on the type of exception request.
+- Once approved, Security Risk, Security Compliance, and any other relevant SMEs will review the exception request.
+    - Security Compliance will determine whether the exception request has any current or planned compliance implications.
+    - Security Risk will review the request to ensure appropriate compensating controls have been documented and will consider inputs from Security Compliance and other SMEs when determining the overall level of risk associated with the request.
+- Security Risk will document a final decision, and if appropriate, a recommended action plan to mitigate risk from the exception request.
+- The exception will be logged in the central exception management space.
+- The exception will be reviewed as its expiration date approaches, and any extension of the exception will require a new and approved extension request. 
