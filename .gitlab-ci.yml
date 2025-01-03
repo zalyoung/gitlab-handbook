@@ -132,5 +132,3 @@ update_counts:
   before_script:
     - apk add git
   script: ./scripts/update-counts.sh
-  rules:
-  - <<: *scheduled-update
