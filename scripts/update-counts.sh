@@ -13,9 +13,7 @@ mr_count () {
 }
 
 clone_repo () {
-    git config --global user.email "${GIT_USER_EMAIL:-$CI_EMAIL}"
-    git config --global user.name "${GIT_USER_NAME:-$CI_USERNAME}"
-    git clone https://$PROJECT_USERNAME:$PROJECT_TOKEN@gitlab.com/gitlab-com/content-sites/handbook.git /tmp/handbook
+    git clone https://gitlab.com/gitlab-com/content-sites/handbook.git /tmp/handbook
     cd /tmp/handbook
 }
 
@@ -31,6 +29,8 @@ quarterly_count () {
 
 push_to_main () {
     cd /tmp/handbook
+    git config --global user.email "$GITLAB_USER_EMAIL"
+    git config --global user.name "$GITLAB_USER_NAME"
     branch_name="update-counts-${TODAY}"
     git checkout -b "$branch_name"
     git add assets/csv/about-count.csv
