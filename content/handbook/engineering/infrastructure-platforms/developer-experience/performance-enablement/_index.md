@@ -3,6 +3,72 @@ title: "Performance Enablement"
 description: "Performance Enablement team within Developer Experience sub-department"
 ---
 
+![Emerald City](./images/DALL·E%20Emerald%20City.webp)
+
+Performance Enablement strives to transform GitLab's performance testing from reactive to proactive by creating a comprehensive developer portal (our Emerald City) that empowers teams to detect and prevent performance issues early in the development lifecycle. Our first four key pillars ( Deployment Verification, Self-Service Feature Performance, Observability, and Realistic Data Store) will enable teams to make data-driven decisions, reduce deployment complexity, and foster a culture of performance awareness, ultimately leading to better engineering efficiency and customer satisfaction.
+
+```mermaid
+flowchart TD
+    Dev[Developer] --> Code[Writes New Code]
+    Code --> Unit[Unit Tests]
+    Unit --> Perf[Performance Tests]
+    Unit --> PerfRes
+    Perf --> Deploy[Deployment]
+    Perf --> PerfRes
+    Deploy --> Prod[Production]
+    Deploy --> Staging[Staging]
+    Deploy --> PerfRes
+    CM --> PerfRes
+    
+    PerfIn --> Dev
+    subgraph CM[Continuous Monitoring]
+        Obs[Observability]
+        Metrics[Metrics]
+        Alerts[Alerts]
+        
+        Obs --- Metrics
+        Metrics --- Alerts
+    end
+    
+    subgraph PA[Performance Analysis]
+        PerfRes[Performance Result gathering] --> PerfIn[Interpret Results]
+    end
+    
+    Prod --> Obs
+    Staging --> Obs
+    
+    style Dev fill:#adf,stroke:#333
+    style Prod fill:#afa,stroke:#333
+    style Staging fill:#afa,stroke:#333
+    style Obs fill:#fda,stroke:#333
+```
+
+```mermaid
+flowchart TD
+    subgraph "Developer Portal"
+        DP[Developer Portal]
+        DV[Deployment Verification]
+        SF[Self-Service Feature Performance]
+        OB[Observability]
+        DS[Data Store]
+        
+        DP --- DV
+        DP --- SF
+        DP --- OB
+        DP --- DS
+    end
+    
+    Dev[Developer] -->|Access| DP
+    DV -->|Verify| Deploy[Deployment]
+    SF -->|Test| Perf[Performance Tests]
+    OB -->|Monitor| Metrics[Metrics & Alerts]
+    DS -->|Provide| Data[Realistic Data]
+    
+    style DP fill:#9cf,stroke:#333
+    style Dev fill:#adf,stroke:#333
+    style Deploy fill:#afa,stroke:#333
+```
+
 ## Common Links
 
 | S.No     | Section                   |
