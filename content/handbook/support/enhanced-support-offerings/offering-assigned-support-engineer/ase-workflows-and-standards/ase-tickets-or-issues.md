@@ -39,21 +39,23 @@ done there, and which should be done in support tickets?
   - Discussion of best practices and how to structure workflows is best managed
     via issues (and epics)
 
-### Proactive Work
+### Proactive work
 
 If one of your accounts wants to work with you via their collaboration project:
 
-1. in the [account-management group](https://gitlab.com/gitlab-com/account-management),
+1. In the [account-management group](https://gitlab.com/gitlab-com/account-management),
    create a scoped label for that account named `ASE Work::ACCOUNT`
-1. subscribe to the label
-1. notify your customer contacts and your account team to apply that label to
+1. Subscribe to the label
+1. Notify your customer contacts and your account team to apply that label to
    any issue or epic in which they want you to contribute
-1. consider creating an issue board in the `account-management` group using the
+1. Consider creating an issue board in the `account-management` group using the
    `ASE Work::` scoped labels to display one list of active items for each
    account; you can even prioritize the items by dragging them up or down
    within each list
 
-## Interactive Work: Slack
+## Interactive work
+
+### Slack
 
 Many ASE accounts share an external Slack channel with GitLab, allowing GitLab
 team members to communicate with them in Slack. Because communicating in Slack
@@ -70,3 +72,42 @@ How should you use your account's external Slack channel?
   - Reprioritization of ASE work items
   - Notifications to or from customers that something is urgent and important
   - Sending a Zoom link for an unplanned meeting
+
+### Calls
+
+#### Ticket-related calls
+
+When you host a call with an assigned account in order to work on one or more
+of their support tickets, plan to create a
+[call summary](https://handbook.gitlab.com/handbook/support/workflows/customer_calls/#call-summary)
+in each of the tickets just as you would with any account.
+
+#### All other calls
+
+When you host or otherwise participate in a call with an assigned account for
+reasons other than working on support tickets, it is still important to document
+that call:
+
+- Who was present?
+- What was the purpose of, or reason for the call?
+- What topics were discussed?
+- What decisions were made?
+- What action items were generated, who is the DRI for each, and what is the
+  schedule for each?
+
+If work prioritization is discussed, be sure to include clear notes about what
+priorities were changed and what the new prioritized list is.
+
+##### Where should this be documented?
+
+In order to make the record of your work with each account readily available
+to the customers and the account team, use the account's
+[collaboration project](/handbook/customer-success/csm/customer-collaboration-project/):
+
+1. Create a subproject called `Assigned Support Engineer`
+1. Create a subproject under that called `Calls`
+1. In the `Calls` project, create an issue for the call:
+   1. Name it \<YYYY-MM-DD> Call: \<Purpose>
+   1. Use the issue description to capture the notes
+   1. Consider using tasks to capture action items
+   1. Apply the scoped label described under [proactive work](#proactive-work)
