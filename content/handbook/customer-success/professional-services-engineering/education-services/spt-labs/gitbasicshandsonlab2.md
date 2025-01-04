@@ -409,7 +409,7 @@ You will see that your branch is one commit behind in the `git status` output.
 
 ## Lab Guide Complete
 
-You have completed this lab exercise. You can view the other [lab guides for this course](/handbook/customer-success/professional-services-engineering/education-services/ilt-labs/gitbasicshandson).
+You have completed this lab exercise. You can view the other [lab guides for this course](/handbook/customer-success/professional-services-engineering/education-services/spt-labs/gitbasicshandson).
 
 ## Suggestions?
 

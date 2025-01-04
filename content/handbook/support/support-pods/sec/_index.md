@@ -169,5 +169,5 @@ Technically owned by Secret Detection, but _not_ related to security vulnerabili
 
 - [GitLab Certified Security Specialist](https://gitlab.edcast.com/pathways/gitlab-certified-security-specialist-pathway)
 - [GitLab Security Essentials](https://about.gitlab.com/services/education/security-essentials/)
-- [Security Essentials Hands-on](/handbook/customer-success/professional-services-engineering/education-services/secessentialshandson/)
+- [Security Essentials Hands-on](/handbook/customer-success/professional-services-engineering/education-services/spt-labs/secessentialshandson/)
 - [Support DAST Deep Dive](https://youtu.be/-WeA12bl-Iw)

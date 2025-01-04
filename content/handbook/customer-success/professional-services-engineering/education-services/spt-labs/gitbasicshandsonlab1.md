@@ -19,19 +19,27 @@ GitLab provides various tools for tracking and managing projects. In this lab, y
 
 1. Select **Provision Training Environment**.
 
-1. On the confirmation page, locate the `Your GitLab Credentials` section. Read this section carefully, noting the credential information provided and the expiration date. Your access to this group and all of the projects that you create is ephemeral and will be deleted after the expiration date.
+1. You will need your **GitLab.com** username. To find your username, navigate to [Gitlab](https://gitlab.com).
 
-1. Click the **Download Credentials** button to download your temporary GitLab credentials.
+1. In the left sidebar, select your profile image.
 
-1. Click on **My Group**.
+1. In the resulting dropdown, you will see a value starting with `@`. This is your GitLab username.
 
-1. Login with your temporary GitLab Credentials.
+1. After inputting your invitation code, the portal prompts you for your **GitLab.com** username. Enter your GitLab.com user (excluding the leading `@` sign) in the field provided.
 
-   > This group your temporary account has been created in has a GitLab Ultimate license to see all of the features available.
+1. Select **Provision Training Environment**.
 
-1. Click on the '**Create a project tile**.
+1. Select **My Group** at the bottom of the page.
 
-   > From this point forward, both the self-paced training and the instructor-led training can follow the same instructions.
+1. Sign in with your GitLab.com credentials.
+
+1. You will be redirected to a **My Test Group** group that provides a sandbox for you to perform training lab steps in.
+
+   > This group has a GitLab Ultimate license to see all of the features while your personal username namespace requires a paid subscription or a free trial to access all of the features.
+   >
+   > If you receive a 404 error when accessing your group, it is likely due to the username input during the lab provisioning. Double check your GitLab username to make sure it is entered correctly.
+
+1. From your **My Test Group** training subgroup, click the **New project** button.
 
 ## Task B. Create a project
 
@@ -137,7 +145,7 @@ GitLab provides various tools for tracking and managing projects. In this lab, y
 
 ## Lab Guide Complete
 
-You have completed this lab exercise. You can view the other [lab guides for this course](/handbook/customer-success/professional-services-engineering/education-services/ilt-labs/gitbasicshandson).
+You have completed this lab exercise. You can view the other [lab guides for this course](/handbook/customer-success/professional-services-engineering/education-services/spt-labs/gitbasicshandson).
 
 ## Suggestions?
 
