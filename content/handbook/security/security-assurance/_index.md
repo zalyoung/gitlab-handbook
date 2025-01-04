@@ -116,6 +116,6 @@ All other actions are the responsibility of the assigned DRI.
 
 Check out these great security resources built with our customers in mind:
 
-- GitLab's [Customer Assurance Package](https://about.gitlab.com/security/cap/)
+- GitLab's [Customer Assurance Package](https://trust.gitlab.com/)
 - GitLab's [Security - Trust Center](https://about.gitlab.com/security/)
 - GitLab's [Security Team Page]({{< ref "../_index.md" >}})

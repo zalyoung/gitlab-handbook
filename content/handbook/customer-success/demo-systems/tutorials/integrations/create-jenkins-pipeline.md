@@ -76,7 +76,7 @@ pipeline {
 
 There are additional examples provided in the Jenkins docs based on the language of your application.
 
-[Jenkinsfile Examples](https://jenkins.io/doc/pipeline/tour/hello-world/#examples)
+[Jenkinsfile Examples](https://www.jenkins.io/doc/pipeline/tour/hello-world/#examples)
 
 You can reference the Jenkins docs for more detailed pipeline configurations, however that is outside the scope of this tutorial.
 
@@ -311,4 +311,4 @@ To learn more about the Jenkins integration, please see the [official GitLab doc
 
 You can also learn more in the `jenkinsci/gitlab-plugin` open source integration's [README documentation on GitHub](https://github.com/jenkinsci/gitlab-plugin/blob/master/README.md).
 
-To learn more about using Jenkins with stages and multiple steps beyond our basic example, please see the [Jenkins documentation](https://jenkins.io/doc/pipeline/tour/running-multiple-steps/).
+To learn more about using Jenkins with stages and multiple steps beyond our basic example, please see the [Jenkins documentation](https://www.jenkins.io/doc/pipeline/tour/running-multiple-steps/).

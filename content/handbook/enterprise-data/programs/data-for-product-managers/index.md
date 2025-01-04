@@ -206,7 +206,7 @@ Snowplow Analytics is an open-source enterprise event-level analytics platform t
 #### Key Concepts
 
 - Because Snowplow does not rely on Service Ping, we do not need to wait for a version of GitLab to be adopted to start receiving data. We can collect and visualize data as soon as the instrumentation is deployed.
-- Even though the pseudonymization of `user_id` of Snowplow events is a limitation, with the fast feedback, Snowplow is an effective source of data to measure feature adoption and usage. 
+- Even though the pseudonymization of `user_id` of Snowplow events is a limitation, with the fast feedback, Snowplow is an effective source of data to measure feature adoption and usage.
   - Note: We are still able to count the number of users who engage with a feature, which is sufficient for most use cases. We just do not know who those users are.
 - Snowplow events can be blocked by the user.
 
@@ -281,7 +281,7 @@ LIMIT 100
 
 ## Analytics Instrumentation
 
-[Analytics Instrumentation](https://about.gitlab.com/direction/analytics/analytics-instrumentation/) is part of the product org and is completely separate from the Data and Product Data Insights teams. However, these teams collaborate closely as the Customer Product Adoption pod.
+[Analytics Instrumentation](https://about.gitlab.com/direction/monitor/analytics-instrumentation/) is part of the product org and is completely separate from the Data and Product Data Insights teams. However, these teams collaborate closely as the Customer Product Adoption pod.
 
 - The Analytics Instrumentation team members are the [DRI](/handbook/people-group/directly-responsible-individuals/)s for data collection across both GitLab.com and Self-Managed. They own Service Ping and Snowplow. They are the ones to go to for questions like:
   - How do I instrument a new metric for Self-Managed?

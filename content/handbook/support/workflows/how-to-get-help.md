@@ -160,5 +160,5 @@ If you encounter any problems, such as obtaining a timely response from Developm
 Every problem is a little bit different. Sometimes it makes sense to try a different troubleshooting technique. These resources talk about general purpose approaches to troubleshooting:
 
 - Julia Evans' [comics](https://wizardzines.com/comics/), especially the ones about debugging
-- [The Pocket Guide to Debugging (PDF)](https://store.wizardzines.com/products/the-pocket-guide-to-debugging-pdf)
+- [The Pocket Guide to Debugging (PDF)](https://store.wizardzines.com/products/the-pocket-guide-to-debugging)
 - [General Purpose Troubleshooting Principles](https://brie.dev/troubleshooting/)

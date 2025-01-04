@@ -9,7 +9,7 @@ Image by Randall Munroe, [xkcd.com](https://xkcd.com/670/)
 
 ## About me
 
-I'm Andrew Newdigate. I'm from Cape Town in South Africa. I have a degree in computer science from the [University of Cape Town](https://www.cs.uct.ac.za/), and I've worked as
+I'm Andrew Newdigate. I'm from Cape Town in South Africa. I have a degree in computer science from the [University of Cape Town](https://sit.uct.ac.za/), and I've worked as
 a software engineer in the healthcare, finance, telecoms, and tech sectors.
 
 I've founded several companies, but the only one you may have heard of is called [Gitter](https://gitter.im/), which was acquired by GitLab in 2017. This is how I joined the company.

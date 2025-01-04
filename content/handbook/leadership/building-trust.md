@@ -195,7 +195,7 @@ Below are potential team day activities:
 
 #### More Ideas for Activities
 
-- [Among Us](https://innersloth.com/gameAmongUs.php) - Free on mobile, multiple platforms.
+- [Among Us](https://www.innersloth.com/games/among-us/) - Free on mobile, multiple platforms.
 - [Card & board game "table"](https://playingcards.io/) - Free!
 - [City Guesser](https://virtualvacation.us/guess) - Free!
 - [Drawasaurus](https://www.drawasaurus.org/) - Free!

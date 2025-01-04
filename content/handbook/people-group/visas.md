@@ -98,17 +98,17 @@ Always **check the website of the Embassy of the Country you want to visit** loc
 
 - **6 months beforehand**: make appointment at embassy, and start gathering all necessary paperwork, forms, certificates, pictures, etc.
   - Sometimes you might call the embassy, and be told that you do not need to schedule an interview so far ahead of your trip. Don't take their word for it, since that advice is typically made with the "typical, best case"  process in mind and for example in the case of the USA does not account for the possibility of a black hole "administrative processing" period. In other words, make sure you get an appointment as early as possible.
-  - If the country where the embassy/consulate is located where you are going for your application is listed as anything other than "High Income" by the [World Bank's "Little Data Book"](https://openknowledge.worldbank.org/bitstream/handle/10986/23968/9781464808340.pdf?sequence=4&isAllowed=y) then it is likely that the embassy/consulate there has a [high tendency to say "no" to visa applications](https://www.alllaw.com/articles/nolo/us-immigration/harder-get-visa-from-certain-countries.html). We recommend to engage the services of a local lawyer who is familiar with the embassy process to help check that your paperwork is in order, and to practice interview questions. You're also welcome to ask for support when you are in a "High Income" country. People Ops can help you with this.
+  - If the country where the embassy/consulate is located where you are going for your application is listed as anything other than "High Income" by the [World Bank's "Little Data Book"](https://openknowledge.worldbank.org/server/api/core/bitstreams/d95b0ca6-2626-5c2c-a6b6-b86acaa86789/content) then it is likely that the embassy/consulate there has a [high tendency to say "no" to visa applications](https://www.alllaw.com/articles/nolo/us-immigration/harder-get-visa-from-certain-countries.html). We recommend to engage the services of a local lawyer who is familiar with the embassy process to help check that your paperwork is in order, and to practice interview questions. You're also welcome to ask for support when you are in a "High Income" country. People Ops can help you with this.
 - **3 months beforehand** (or earlier if indicated by the embassy you are applying to): go to embassy for interview.
 - **2 months beforehand**: if you have not received your visa by now, contact your local lawyer again to see if anything can be done to expedite the process.
 
 ## Dutch Work Permits
 
-Some of our GitLab team-members in the Netherlands have a "werkvergunning" or work permit under the [highly skilled migrants](https://ind.nl/en/work/working_in_the_Netherlands/Pages/Highly-skilled-migrant.aspx) category of the Immigration and Naturalization Service (IND).
+Some of our GitLab team-members in the Netherlands have a "werkvergunning" or work permit under the [highly skilled migrants](https://ind.nl/en/residence-permits/work/highly-skilled-migrant) category of the Immigration and Naturalization Service (IND).
 
 - GitLab is a recognized organization ("erkend referent") with the IND, and Savvy provides support with respect to applying for new visas / permits or extending existing ones.
 - Work permits must be renewed at the end of each contract period, but at minimum once every 5 years.
-- At the time of applying for permit renewal, the application must satisfy various criteria including an age-dependent [minimum salary requirement](https://ind.nl/en/Pages/required-amounts-income-requirement.aspx) (with a step at age 30, also see this [handy table](https://ind.nl/en/required-amounts-income-requirements#application-to-work-as-a-highly-skilled-migrant-and-for-the-european-blue-card)). This requirement should be taken into consideration when issuing a new contract, since the contract can be made valid for just a year or for an indefinite period; thus triggering more or less frequent re-applications for work permit extensions. Permit extensions cannot be applied for when the current permit is still valid for more than 6 months.
+- At the time of applying for permit renewal, the application must satisfy various criteria including an age-dependent [minimum salary requirement](https://ind.nl/en/required-amounts-income-requirements) (with a step at age 30, also see this [handy table](https://ind.nl/en/required-amounts-income-requirements#application-to-work-as-a-highly-skilled-migrant-and-for-the-european-blue-card)). This requirement should be taken into consideration when issuing a new contract, since the contract can be made valid for just a year or for an indefinite period; thus triggering more or less frequent re-applications for work permit extensions. Permit extensions cannot be applied for when the current permit is still valid for more than 6 months.
 
 Here is a [generally but not authoritative helpful guide](https://www.expatica.com/nl/moving/relocation/leaving-the-netherlands-108416/) on considerations around permit extensions.
 
@@ -130,7 +130,7 @@ The 30% ruling is a mutual application filed by the employee and GitLab BV as th
 1. The employee must have specific experience or expertise that is not or rarely available in the Netherlands.
 1. The gross annual salary has to surpass a minimum (adjusted annually).
 
-**The decision from the Dutch Tax Authorities can take up to four months.** Once your 30% ruling is granted, the application will be made retroactively in the payroll administration to your starting date. Read more from the Dutch tax authorities by clicking this [link](https://www.belastingdienst.nl/wps/wcm/connect/bldcontenten/belastingdienst/individuals/living_and_working/working_in_another_country_temporarily/you_are_coming_to_work_in_the_netherlands/30_facility_for_incoming_employees/).
+**The decision from the Dutch Tax Authorities can take up to four months.** Once your 30% ruling is granted, the application will be made retroactively in the payroll administration to your starting date. Read more from the Dutch tax authorities by clicking this [link](https://www.belastingdienst.nl/wps/wcm/connect/en/individuals/content/coming-to-work-in-the-netherlands-30-percent-facility).
 
 Here is [an approximate net-salary calculator in The Netherlands](https://relocate.me/net-pay-calculators/) (choose The Netherlands button) to reckon additional salary payment with 30% ruling.
 
@@ -140,7 +140,7 @@ The 30% ruling is a tax advantage granted for five years, which means that you c
 
 ### BSN Number
 
-A [BSN number](https://www.iamsterdam.com/en/living/take-care-of-official-matters/registration/citizen-service-number) is like a citizen number. It is required so new team members can be added to the B.V. Netherlands payroll. It's also required for things like health insurance and opening a bank account.
+A [BSN number](https://www.iamsterdam.com/en/live-work-study/living/official-procedures/registration) is like a citizen number. It is required so new team members can be added to the B.V. Netherlands payroll. It's also required for things like health insurance and opening a bank account.
 
 There are two options to get a BSN number in the Netherlands:
 
@@ -154,7 +154,7 @@ It is possible to make an appointment within 2 weeks.
 
 If a team member wishes to immigrate and relocate to the Netherlands, they will need to first follow the [relocation process](/handbook/people-group/relocation/) and requirements and obtain approval to relocate.  Once approved, team members will also need to pass the formal visa application process to qualify. The requirements are:
 
-1. When using the [compensation calculator]({{< ref "calculator" >}}) you must meet the Dutch salary requirement for [highly skilled migrants for 3 more years](https://ind.nl/en/Pages/required-amounts-income-requirement.aspx#Application_for_residence_permit_highly_skilled_migrant_and_European_Blue_Card)
+1. When using the [compensation calculator]({{< ref "calculator" >}}) you must meet the Dutch salary requirement for [highly skilled migrants for 3 more years](https://ind.nl/en/required-amounts-income-requirements#Application_for_residence_permit_highly_skilled_migrant_and_European_Blue_Card)
     - Note, that the Dutch government has a higher requirement for team members aged 30 and above. The age related wage requirement does not increase when reaching 30 if you already have an approved migrant visa (with the same employer).
     - The following pay elements are not included in the salary criterion and can't be used to meet the mimimum salary requirement: Vacation allowance; the value of payment made in kind; Uncertain, non-regular pay elements (for example overtime allowances, variable boni and payments from funds).
     - *Note: This calculation should be based on what GitLab **would** pay the team member in the Netherlands in accordance with the compensation calculator, **not** based on the team member's current salary.*
@@ -196,14 +196,14 @@ Sid and Marin discuss the history of GitLab's right to immigrate to the Netherla
 
 ### Critical Skills Employment Permit Ireland
 
-GitLab may be able to offer employment agreements to highly skilled candidates seeking employment already in Ireland, who apply for, or already hold, a [Critical Skills Employment Permit](https://enterprise.gov.ie/en/What-We-Do/Workplace-and-Skills/Employment-Permits/Permit-Types/Critical-Skills-Employment-Permit/), where the relevant role falls into a category listed on the [Critical Skills Occupations List](https://enterprise.gov.ie/en/What-We-Do/Workplace-and-Skills/Employment-Permits/Employment-Permit-Eligibility/Highly-Skilled-Eligible-Occupations-List/) or a salary threshold is exceeded.
+GitLab may be able to offer employment agreements to highly skilled candidates seeking employment already in Ireland, who apply for, or already hold, a [Critical Skills Employment Permit](https://enterprise.gov.ie/en/what-we-do/workplace-and-skills/employment-permits/permit-types/critical-skills-employment-permit/), where the relevant role falls into a category listed on the [Critical Skills Occupations List](https://enterprise.gov.ie/en/what-we-do/workplace-and-skills/employment-permits/employment-permit-eligibility/highly-skilled-eligible-occupations-list/) or a salary threshold is exceeded.
 
 Please note: GitLab does not cover any costs for the application nor does it guarantee the issuance of the Critical Skills Employment Permit.  The employment agreement offered will include the condition that the candidate will hold the sufficient right to work and if a permit is required that they will be able to obtain the permit.  If the critical skills employment permit application is refused, the employment agreement would be rescinded. Permit holders may apply to the Irish Naturalisation and Immigration Service for permission to reside and work without the requirement for an employment permit upon completion of the Critical Skills Employment Permit's duration.
 
 #### The eligibility criteria
 
 Occupations with a minimum annual remuneration of €32,000 for a restricted number of strategically important occupations contained in the Critical Skills Occupations List a relevant degree qualification or higher is required.
-All occupations with a minimum annual remuneration of over €64,000, other than those on the [Ineligible List of Occupations for Employment Permits](https://enterprise.gov.ie/en/What-We-Do/Workplace-and-Skills/Employment-Permits/Employment-Permit-Eligibility/Ineligible-Categories-of-Employment/) or which are contrary to the public interest. A non-EEA national who does not have a degree qualification or higher, must have the necessary level of experience.
+All occupations with a minimum annual remuneration of over €64,000, other than those on the [Ineligible List of Occupations for Employment Permits](https://enterprise.gov.ie/en/what-we-do/workplace-and-skills/employment-permits/employment-permit-eligibility/ineligible-categories-of-employment/) or which are contrary to the public interest. A non-EEA national who does not have a degree qualification or higher, must have the necessary level of experience.
 The prospective employee concerned must have secured a 2-year job offer in respect of the eligible occupation from the prospective employer.
 
 #### Further criteria include
@@ -222,11 +222,11 @@ The details of what is required are set out on the application form and include:
 
 An application for a Critical Skills Employment Permit can be made online on the [Employment Permits Online System (EPOS)](https://epos.enterprise.gov.ie/). There is a [User Guide (PDF document)](https://epos.djei.ie/EPOSOnlinePortal/UserGuide.pdf) available on the online system which guides the applicant through the process and details the documentary requirements for each employment permit type.
 
-Before you start an application please see the [Critical Skills Employment Permit Checklist (PDF document)](https://enterprise.gov.ie/en/Publications/Publication-files/Critical-Skills-Employment-Permits-Checklist.pdf) which will assist the process.
+Before you start an application please see the [Critical Skills Employment Permit Checklist (PDF document)](https://enterprise.gov.ie/en/publications/publication-files/critical-skills-employment-permits-checklist.pdf) which will assist the process.
 
 There are up to three stages in the passage of an employment permit application:
 
-Application received (awaiting processing): Once an application is submitted and the associated fees, if appropriate, are recorded the application is then placed in the relevant processing queue. Please note that applications are processed strictly in date order by Employer Type and applicants can keep track of the [current processing dates](https://enterprise.gov.ie/en/What-We-Do/Workplace-and-Skills/Employment-Permits/Current-Application-Processing-Dates/). They can also check the progress of their specific application online on the [Online Status Update Enquiry facility](https://enterprise.gov.ie/en/What-We-Do/Workplace-and-Skills/Employment-Permits/Current-Application-Processing-Dates/).
+Application received (awaiting processing): Once an application is submitted and the associated fees, if appropriate, are recorded the application is then placed in the relevant processing queue. Please note that applications are processed strictly in date order by Employer Type and applicants can keep track of the [current processing dates](https://enterprise.gov.ie/en/what-we-do/workplace-and-skills/employment-permits/current-application-processing-dates/). They can also check the progress of their specific application online on the [Online Status Update Enquiry facility](https://enterprise.gov.ie/en/what-we-do/workplace-and-skills/employment-permits/current-application-processing-dates/).
 
 Processing stage: This stage is where the application is considered by a decision maker, an official with decision making authority. The processor may request additional information, if required, which should be returned within 28 days. The processor will then either grant an application or refuse it for specific reasons.
 
@@ -255,7 +255,7 @@ If a candidate is interested in employment at GitLab in a country where they req
 
 More detailed links on the process:
 
-- [Schengenvisainfo.com/EU-Blue-Card](https://www.schengenvisainfo.com/eu-blue-card/)
+- [Schengenvisainfo.com/EU-Blue-Card](https://visaguide.world/europe/eu-blue-card/)
 - [EU Immigration portal](https://immigration-portal.ec.europa.eu/eu-blue-card/essential-information_en)
 
 ### Other visas GitLab may be able to accept

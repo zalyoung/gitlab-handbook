@@ -123,7 +123,7 @@ We took multiple steps to holistically address this vulnerability:
 
 - GitLab Issue: <https://gitlab.com/gitlab-org/gitlab/-/issues/363293>
 - Patch: <https://gitlab.com/gitlab-org/gitlab/-/commit/e61e9b9434e2198c4c1d5cf6b4531eb4323c3575>
-- Release Post: <https://about.gitlab.com/releases/2022/06/01/critical-security-release-gitlab-15-0-1-released>
+- Release Post: <https://about.gitlab.com/releases/2022/06/01/critical-security-release-gitlab-15-0-1-released/>
 - CVSS and Bounty: [CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:H/I:H/A:N](https://gitlab-com.gitlab.io/gl-security/product-security/appsec/cvss-calculator/#vector=CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:H/I:H/A:N&range=new) (8.7 High / $13,950.00)
 - CVE: <https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-1948>
 - Learn more about XSS:
@@ -165,7 +165,7 @@ This DoS involved user content, for example issue descriptions or comments. Thes
 {{% /details %}}
 
 {{% details summary="Hint 2" %}}
-This researcher found a [regex-based DoS](https://owasp.org/www-community/attacks/Regular_expression_Denial_of_Service_-_ReDoS) by reading the code GitLab used to parse front-matter. <https://gitlab.com/gitlab-org/gitlab/-/blob/6f10f768c9cc2d131c056289f58519cf9cae79fa/lib/gitlab/front_matter.rb>
+This researcher found a [regex-based DoS](https://owasp.org/www-community/attacks/Regular_expression_Denial_of_Service_-_ReDoS/) by reading the code GitLab used to parse front-matter. <https://gitlab.com/gitlab-org/gitlab/-/blob/6f10f768c9cc2d131c056289f58519cf9cae79fa/lib/gitlab/front_matter.rb>
 {{% /details %}}
 
 {{% details summary="Hint 3" %}}

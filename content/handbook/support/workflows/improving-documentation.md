@@ -39,7 +39,7 @@ environment, please complete the
   used from the command line.
   - Set up [markdownlint](https://docs.gitlab.com/ee/development/documentation/testing/markdownlint.html).
   - Set up [Vale](https://docs.gitlab.com/ee/development/documentation/testing/vale.html).
-  - [Set up a vertical ruler](https://stackoverflow.com/questions/29968499/vertical-rulers-in-visual-studio-code) to help you [split long lines](https://docs.gitlab.com/ee/development/documentation/styleguide/index.html#text).
+  - [Set up a vertical ruler](https://stackoverflow.com/questions/29968499/how-can-i-have-multiple-vertical-rulers-in-vs-code) to help you [split long lines](https://docs.gitlab.com/ee/development/documentation/styleguide/index.html#text).
 
 #### Documentation Merge Requests
 

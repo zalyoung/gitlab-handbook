@@ -189,7 +189,7 @@ We conduct semi-annual reviews of the current GitLab Heroes members to ensure th
 
 ### Adding yourself to the Heroes page
 
-Upon acceptance, Heroes are asked to submit a Merge Request to add themselves to the [GitLab Heroes members page](https://about.gitlab.com/community/heroes/members).
+Upon acceptance, Heroes are asked to submit a Merge Request to add themselves to the [GitLab Heroes members page](https://about.gitlab.com/community/heroes/members/).
 
 To add yourself to the Heroes page, you will need:
 

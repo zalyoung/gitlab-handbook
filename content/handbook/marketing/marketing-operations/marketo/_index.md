@@ -185,7 +185,7 @@ The process runs through [this smart campaign](https://engage-ab.marketo.com/?mu
 
 Starting in November 2022, teams within Marketo will transition to utilizing the [asset expiration feature](https://experienceleague.adobe.com/docs/marketo/using/product-docs/core-marketo-concepts/programs/working-with-programs/local-asset-expiration.html?lang=en#:~:text=Right%2Dclick%20on%20your%20desired,Choose%20an%20expiration%20date) added to the product in early 2022 as a way to declutter our expired landing pages and no longer relevant smart campaigns. Detailed instructions on this process can be found in our handbook on the [Campaigns and Programs](/handbook/marketing/marketing-operations/campaigns-and-programs/) page.
 
-Beginning in July of 2024, Marketo will now link to our Events Page (https://about.gitlab.com/events) for asset expirations. This will be the new Redirect instead of homepage. By utilizing asset expiration this allows us to avoid having to manually go in and update each LP no longer in use and have the page redirect to /events rather than the home page. Note: The fallback page is only used for unrecognized landing pages and whenever a landing page is unavailable. If you choose to not setup asset expiration and want a page available for longer you can do so and manually close with a redirect at a later time.
+Beginning in July of 2024, Marketo will now link to our Events Page (https://about.gitlab.com/events/) for asset expirations. This will be the new Redirect instead of homepage. By utilizing asset expiration this allows us to avoid having to manually go in and update each LP no longer in use and have the page redirect to /events rather than the home page. Note: The fallback page is only used for unrecognized landing pages and whenever a landing page is unavailable. If you choose to not setup asset expiration and want a page available for longer you can do so and manually close with a redirect at a later time.
 
 ### Product data in Marketo
 
@@ -565,7 +565,7 @@ The instructions below are for MOps Admin users.
 1. Click on "HTML" to make your edits. Copy this code:
 `<a href="INSERT LINK TO CUSTOMER CASE STUDY" target="_blank"> <img src="INSERT LINK FROM DESIGN STUDIO" alt="ENTER NAME OF COMPANY logo" /></a>`
 1. Place it just before the `</div>` at the bottom of the html and replace the text in caps as instructed. The alt text should not be all caps. This will add the new logo to the end of the list. If you would like it in another location, place the code where you would like the logo to appear.
-1. After you have updated the code, click Apply. Once auto-save completes, you can close the snippet. Then, Approve the draft and select "Update all". "Update All" will add the snippet to all approved assets and all draft assets. It will not auto-approve draft assets. Details about the [No-Draft Snippet updates](https://nation.marketo.com/t5/knowledgebase/no-draft-snippet-limitations-and-troubleshooting/ta-p/253609) can be found in the Marketo documentation.
+1. After you have updated the code, click Apply. Once auto-save completes, you can close the snippet. Then, Approve the draft and select "Update all". "Update All" will add the snippet to all approved assets and all draft assets. It will not auto-approve draft assets. Details about the [No-Draft Snippet updates](https://nation.marketo.com/t5/knowledgebase/no-draft-snippet-limitations-and-troubleshooting/ta-p/300799) can be found in the Marketo documentation.
 {{% /details %}}
 
 ### Other Field Documentation and Definitions

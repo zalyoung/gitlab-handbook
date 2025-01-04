@@ -37,7 +37,7 @@ Sometimes we can see things that make us diverse and sometimes we can't. We beli
 
 The context is "at GitLab" or "in a specific department or team at GitLab."
 This term is generally used in the context of reporting on how GitLab is working on understanding and improving the sourcing, interviewing, hiring, and retention of those who either want to work or currently work at GitLab.
-Institutes like the [National Science Foundation](https://www.nsf.gov/mps/dmr/diversity.jsp) use the word "underrepresented" when discussing research around diversity so we have chosen to use it as well in order to be able to set goals around the data we have and understand where we need to work harder.
+Institutes like the [National Science Foundation](https://new.nsf.gov/mps/dmr/workforce-development) use the word "underrepresented" when discussing research around diversity so we have chosen to use it as well in order to be able to set goals around the data we have and understand where we need to work harder.
 
 - A single person **should not** be referred to as a "diverse person" or a "diversity hire" which would imply they are not included in the current community or that they are only employed because of a factor that is not directly related to their skills and their ability to do their job.
 - People should not be singled out or "othered" by labels with cold terminology in personal interactions.
@@ -195,7 +195,7 @@ We list our [Pregnancy & Maternity Care]({{< ref "inc-benefits-us#pregnancy--mat
 
 ### Inclusive language
 
-In our [GitLab Values](/handbook/values/#inclusive-language--pronouns) we list: 'Use inclusive language. For example, prefer "Hi everybody" or "Hi people" to "Hi guys". And speak about courage instead of [aggression](https://www.huffingtonpost.com/2015/06/02/textio-unitive-bias-software_n_7493624.html). Another example is to avoid terms like "gossip" that have [negative gender connotations](https://inthesetimes.com/article/the-subversive-feminist-power-of-gossip). Also see the note in the [management section of the leadership page]({{< ref "structure#management-group" >}}) to avoid military analogies.
+In our [GitLab Values](/handbook/values/#inclusive-language--pronouns) we list: 'Use inclusive language. For example, prefer "Hi everybody" or "Hi people" to "Hi guys". And speak about courage instead of [aggression](https://www.huffpost.com/entry/textio-unitive-bias-software_n_7493624). Another example is to avoid terms like "gossip" that have [negative gender connotations](https://inthesetimes.com/article/the-subversive-feminist-power-of-gossip). Also see the note in the [management section of the leadership page]({{< ref "structure#management-group" >}}) to avoid military analogies.
 
 - For an additional resource, we also have a presentation on [Inclusive Language](https://docs.google.com/presentation/d/186RK9QqOYxF8BmVS15AOKvwFpt4WglKKDR7cUCeDGkE/edit?usp=sharing)
 
@@ -251,7 +251,7 @@ The options of this field are:
 
 Above this field, we have a section titled `Veteran Status` that we ask our US-based team members to review and also complete during the onboarding process, if it applies to them and if they so wish. The reason we ask is because it is a legal requirement in the United States for us to request and document this information. We encourage our US-based GitLab team members to self-disclose their Veteran Status in our HRIS without any fear of judgment or negative consequences, but it is always optional. Again, all veteran status data is completely confidential, and only requested for mandatory reporting purposes.
 
-If you are a team member on a GitLab Inc or Federal contract and a disabled veteran you may request a "reasonable accommodation." A reasonable accommodation is one that allows you to perform your job, and must be provided by GitLab unless doing so would cause GitLab significant difficulty or expense. A reasonable accommodation does not change essential job functions. GitLab can choose the type of reasonable accommodation that will be made available; however, the accommodation must be effective. More information on how to request a reasonable accommodation is available [here](https://www.dol.gov/ofccp/posters/ReasonableAccommodationPocketCard/index.htm). Please review the [reasonable accommodation](/handbook/people-policies/inc-usa#reasonable-accommodation) handbook section if you would like an accommodation due to your veteran status.
+If you are a team member on a GitLab Inc or Federal contract and a disabled veteran you may request a "reasonable accommodation." A reasonable accommodation is one that allows you to perform your job, and must be provided by GitLab unless doing so would cause GitLab significant difficulty or expense. A reasonable accommodation does not change essential job functions. GitLab can choose the type of reasonable accommodation that will be made available; however, the accommodation must be effective. More information on how to request a reasonable accommodation is available [here](https://www.dol.gov/agencies/ofccp/compliance-assistance/outreach/reasonable-accomodation-pocket-card). Please review the [reasonable accommodation](/handbook/people-policies/inc-usa#reasonable-accommodation) handbook section if you would like an accommodation due to your veteran status.
 
 ### Diversity, Inclusion & Belonging Learning & Development
 
@@ -262,7 +262,7 @@ If you are a team member on a GitLab Inc or Federal contract and a disabled vete
   - With many others to increase your knowledge on DIB Subjects
 - [Live Inclusion training](https://www.youtube.com/watch?v=gsQ2OsmgqVM&feature=youtu.be)
 - [Live Ally training](https://www.youtube.com/watch?v=wwZeFjDc4zE&feature=youtu.be)
-- [Delivering Through Diversity](https://www.mckinsey.com/business-functions/people-and-organizational-performance/our-insights/delivering-through-diversity) McKinsey and Company research on Diversity and its value.
+- [Delivering Through Diversity](https://www.mckinsey.com/capabilities/people-and-organizational-performance/our-insights/delivering-through-diversity) McKinsey and Company research on Diversity and its value.
  To earn badges and save your responses, you'll need to sign up! Use your GitLab address to sign in using Google+.
 - To be truly inclusive is to be aware of your biases as well as strategies for stopping the effects of those biases. As part of our efforts, we recommend everyone to partake in [the Harvard project Implicit test](https://implicit.harvard.edu/implicit/takeatest.html) which focuses on the hidden causes of everyday discrimination.
 

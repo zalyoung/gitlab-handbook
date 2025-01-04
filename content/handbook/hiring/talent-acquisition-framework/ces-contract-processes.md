@@ -575,7 +575,7 @@ GitLab is working in partnership with Global Expansion to employ GitLab team-mem
 
 ## Preparing Employment Agreements for GitLab team members employed via Global Upside
 
-GitLab is working in partnership with [Global Upside](https://globalupside.com) for employing GitLab team-members located in:
+GitLab is working in partnership with [Global Upside](https://www.safeguardglobal.com/) for employing GitLab team-members located in:
 
 - India
 

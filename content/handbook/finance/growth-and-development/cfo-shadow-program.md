@@ -38,7 +38,7 @@ Participating in the shadow program is a privilege where you will be exposed to 
 
 ### Consider adding goals
 
-Develop goals for your time as a CFO Shadow and add them to your onboarding issue. To make your goals more actionable, you may want to use the [SMART goals framework](https://www.mindtools.com/pages/article/smart-goals.htm).
+Develop goals for your time as a CFO Shadow and add them to your onboarding issue. To make your goals more actionable, you may want to use the [SMART goals framework](https://www.mindtools.com/a4wo118/smart-goals).
 
 ### Practice your introduction
 

@@ -6,7 +6,7 @@ layout: single
 
 ## Secret Detection
 
-The Secret Detection group maintains the [Secret Detection](https://about.gitlab.com/direction/secure/secret-detection/secret-detection/) feature category for customer software repositories.
+The Secret Detection group maintains the [Secret Detection](https://about.gitlab.com/direction/application_security_testing/secret-detection/secret-detection/) feature category for customer software repositories.
 
 ### Common Links
 

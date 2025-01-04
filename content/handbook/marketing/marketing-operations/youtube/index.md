@@ -38,7 +38,7 @@ In that case, you can [upload it to YouTube](#uploading-conversations-to-youtube
     - Select 'More'
     - Click 'Make Host' and select 'Yes'
     - The new host will now have the ability to livestream the call from Zoom
-1. Generally, for a livestream, it's helpful to have a separate person handling [promoting people to panelist](https://support.zoom.us/hc/en-us/articles/115004834466-Managing-Participants-in-Webinar).
+1. Generally, for a livestream, it's helpful to have a separate person handling [promoting people to panelist](https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0063276).
 1. To improve accessibility, [enable live transcription](/handbook/tools-and-tips/zoom/#enable-captions-and-live-transcription).
 1. **Please don't include any confidential information in the description of your YouTube video since there is a bug that can cause [private video descriptions to propagate over to public ones](https://gitlab.com/gitlab-com/business-ops/team-member-enablement/issue-tracker/-/issues/809)**
 
@@ -365,7 +365,7 @@ Depending on your needs, you might want use software to provide overlays and/or 
 ![obs studio preferences](/handbook/marketing/marketing-operations/youtube/OBS_Studio_Stream.jpeg)
 
 - Configure your to-be-recorded software's audio to be rerouted to an alternative audio source/output.
-- Under "Audio" in OBS Studio preferences, select the alternative audio source/output under Mic/Auxiliary Device 2. See [this page](https://code-zest.blogspot.nl/2016/02/setting-up-obs-with-audio-output-in-mac.html) for more help
+- Under "Audio" in OBS Studio preferences, select the alternative audio source/output under Mic/Auxiliary Device 2. See [this page](https://code-zest.blogspot.com/2016/02/setting-up-obs-with-audio-output-in-mac.html) for more help
 - Under "Video" select your preferred resolution and fps settings. Please take note that these should optimally reflect video aspect ratio such as `1920x1080`.
 - Optionally you can set up some output options under "Output"
 - In the normal window of OBS Studio you should now see 2 audio sliders, including "Mic/Aux 2". Configure these to your liking.

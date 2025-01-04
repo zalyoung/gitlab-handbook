@@ -128,4 +128,4 @@ Below is a list of projects and initiatives that we are currently working on, al
 
 ## Documentation
 
-Package Registry documentation is available [here](https://docs.gitlab.com/ee/user/packages/package_registry).
+Package Registry documentation is available [here](https://docs.gitlab.com/ee/user/packages/package_registry/).

@@ -39,7 +39,7 @@ The *quickest* way to send the *clearest* signal that remote is the future is to
 
 > If you want remote to work, start by cutting off the head. When the chief is remote, all of a sudden everybody is remote and everybody starts writing down everything. What used to be ephemeral and on a whiteboard became written down and stored. — *Julien Dollon, Director of Engineering at Oracle*
 
-Cédric Fabianski, co-founder and CTO at Bearer, [reiterated](https://www.bearer.sh/blog/how-to-make-remote-a-success) that he saw this work well at FreeAgent, too. He notes that by moving the executive suite out of the office, it removes any doubt about leadership's intentions to complete the transition.
+Cédric Fabianski, co-founder and CTO at Bearer, [reiterated](https://cycode.com/blog/how-to-make-remote-a-success/) that he saw this work well at FreeAgent, too. He notes that by moving the executive suite out of the office, it removes any doubt about leadership's intentions to complete the transition.
 
 ### Establish a remote infrastructure
 
@@ -113,7 +113,7 @@ Expect bumps along the road. As with any significant business transformation, it
 
 Leadership should be completely [transparent](/handbook/values/#transparency) with team members as the transition unfolds. Share headaches and roadblocks as well as successes. This should occur in an agreed channel so that discussion and feedback is centralized, and action items can be clearly disseminated.
 
-[Iteration](/handbook/values/#iteration) is a core value at GitLab, and we strive to [apply iteration to everything](management/#applying-iteration-to-everything) — from [building a product](https://about.gitlab.com/blog/2019/04/26/agile-iteration-unique-onboarding-experience) to shaping our [workspaces](workspace/). This applies to business transformation as well. Implement the [smallest valuable change](/handbook/values/#minimal-valuable-change-mvc), solicit feedback, and tweak or revert if needed. By taking this approach to transforming your business, you're setting the example for how day-to-day tasks should be managed in a fully remote setting.
+[Iteration](/handbook/values/#iteration) is a core value at GitLab, and we strive to [apply iteration to everything](management/#applying-iteration-to-everything) — from [building a product](https://about.gitlab.com/blog/2019/04/26/agile-iteration-unique-onboarding-experience/) to shaping our [workspaces](workspace/). This applies to business transformation as well. Implement the [smallest valuable change](/handbook/values/#minimal-valuable-change-mvc), solicit feedback, and tweak or revert if needed. By taking this approach to transforming your business, you're setting the example for how day-to-day tasks should be managed in a fully remote setting.
 
 ### Iteration requires empowered teams and workers
 
@@ -189,12 +189,12 @@ This requires tremendous effort, day after day, from every member of the company
 
 ## GitLab Knowledge Assessment: Transitioning a Company to Remote
 
-Anyone can test their knowledge on Transitioning a Company to Remote by completing the [knowledge assessment](https://docs.google.com/forms/d/e/1FAIpQLSc4bQbcRMBtcj_ZFCZ2VIr6tUyasr9N6L2vQnwnpDd4yHQ4Xg/viewform). Earn at least an 80% or higher on the assessment to receive a passing score. Once the quiz has been passed, you will receive an email acknowledging the completion from GitLab. We are in the process of designing a GitLab Remote Certification and completion of the assessment will be one requirement in obtaining the [certification](https://about.gitlab.com/learn/certifications/public). If you have questions, please reach out to our [Learning & Development](/handbook/people-group/learning-and-development) team at `learning@gitlab.com`.
+Anyone can test their knowledge on Transitioning a Company to Remote by completing the [knowledge assessment](https://docs.google.com/forms/d/e/1FAIpQLSc4bQbcRMBtcj_ZFCZ2VIr6tUyasr9N6L2vQnwnpDd4yHQ4Xg/viewform). Earn at least an 80% or higher on the assessment to receive a passing score. Once the quiz has been passed, you will receive an email acknowledging the completion from GitLab. We are in the process of designing a GitLab Remote Certification and completion of the assessment will be one requirement in obtaining the [certification](https://university.gitlab.com/certifications/public). If you have questions, please reach out to our [Learning & Development](/handbook/people-group/learning-and-development) team at `learning@gitlab.com`.
 
 {{% include "includes/is_this_advice_any_good_remote.md" %}}
 
 ## Contribute your lessons
 
-Making remote work well, particularly in companies with colocated roots, is a shared challenge. If you or your company has an experience that would benefit the greater world, consider creating a [merge request](https://docs.gitlab.com/ee/user/project/merge_requests) and adding a contribution to this page.
+Making remote work well, particularly in companies with colocated roots, is a shared challenge. If you or your company has an experience that would benefit the greater world, consider creating a [merge request](https://docs.gitlab.com/ee/user/project/merge_requests/) and adding a contribution to this page.
 
 Return to the main [all-remote page]({{< ref "_index.md" >}}).

@@ -67,7 +67,7 @@ The configuration file that the Data Team uses can be found in the [GitLab Data 
 
 - Do not optimize for fewer lines of code, new lines are cheap but [brain time is expensive](https://www.getdbt.com/blog/write-better-sql-a-defense-of-group-by-1).
 
-- Familiarize yourself with [the DRY Principal](https://docs.getdbt.com/terms/dry). Leverage CTEs, jinja and macros in dbt, and snippets in Sisense. If you type the same line twice, it needs to be maintained in two places.
+- Familiarize yourself with [the DRY Principal](https://www.getdbt.com/blog/guide-to-dry). Leverage CTEs, jinja and macros in dbt, and snippets in Sisense. If you type the same line twice, it needs to be maintained in two places.
 
 - Be consistent. Even if you are not sure of the best way to do something do it the same way throughout your code, it will be easier to read and make changes if they are needed.
 
@@ -239,7 +239,7 @@ The configuration file that the Data Team uses can be found in the [GitLab Data 
 
     ```
 
-- Prefer accessing JSON using the [bracket syntax](https://docs.snowflake.com/en/user-guide/querying-semistructured.html#bracket-notation).
+- Prefer accessing JSON using the [bracket syntax](https://docs.snowflake.com/en/user-guide/querying-semistructured#bracket-notation).
 
     ```sql
         -- Preferred
@@ -341,7 +341,7 @@ The configuration file that the Data Team uses can be found in the [GitLab Data 
 
 ### Data Types
 
-- Use default data types and not aliases. Review the [Snowflake summary of data types](https://docs.snowflake.com/en/sql-reference/intro-summary-data-types.html) for more details. The defaults are:
+- Use default data types and not aliases. Review the [Snowflake summary of data types](https://docs.snowflake.com/en/sql-reference/intro-summary-data-types) for more details. The defaults are:
   - `NUMBER` instead of `DECIMAL`, `NUMERIC`, `INTEGER`, `BIGINT`, etc.
   - `FLOAT` instead of `DOUBLE`, `REAL`, etc.
   - `VARCHAR` instead of `STRING`, `TEXT`, etc.

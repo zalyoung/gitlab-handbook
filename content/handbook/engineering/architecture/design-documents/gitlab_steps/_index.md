@@ -18,7 +18,7 @@ This document describes architecture of a new component called Step Runner, the 
 and how the GitHub Actions support will be achieved.
 
 The competitive CI products [drone.io](https://www.drone.io/),
-[GitHub Actions](https://docs.github.com/en/actions/creating-actions)
+[GitHub Actions](https://docs.github.com/en/actions/sharing-automations)
 have a composable CI jobs execution in form of steps, or actions.
 
 Their usage and our prior evaluation of [GitLab Runner Plugins](https://gitlab.com/gitlab-org/gitlab/-/issues/15067)

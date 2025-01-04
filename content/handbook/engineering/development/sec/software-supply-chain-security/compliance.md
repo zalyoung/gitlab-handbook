@@ -279,7 +279,7 @@ The following is an example of an implementation approach from [https://gitlab.c
 
 ~documentation
 
-1. Update docs page eg https://docs.gitlab.com/ee/administration/audit_events.html
+1. Update docs page eg https://docs.gitlab.com/ee/administration/audit_event_reports.html
 1. Update the GraphQL examples <https://gitlab.com/gitlab-org/software-supply-chain-security/compliance/engineering/graphql-example-requests>
 
 ~quality

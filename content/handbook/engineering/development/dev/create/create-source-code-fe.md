@@ -55,7 +55,7 @@ The following members of other functional teams are our stable counterparts:
 
 | Start Date | Project  | Description | Tech Lead |
 | ------ | ------ | ------ |  ------ |
-| 2023-09 | [New Diffs](https://docs.gitlab.com/ee/architecture/blueprints/new_diffs/index.html) ([Epic](https://gitlab.com/groups/gitlab-org/-/epics/11559)) | A project to deliver a reusable and performant way of rendering diffs across GitLab | — |
+| 2023-09 | [New Diffs](/handbook/engineering/architecture/design-documents/rapid_diffs/) ([Epic](https://gitlab.com/groups/gitlab-org/-/epics/11559)) | A project to deliver a reusable and performant way of rendering diffs across GitLab | — |
 | 2023 | [Blame info in Blob page](https://gitlab.com/groups/gitlab-org/-/epics/11471) | Improve usability of repository by rendering blame information in blob page | — |
 | 2023 | [Branch Rules - Edit](https://gitlab.com/groups/gitlab-org/-/epics/8075) | Allow editing the branch rule details in one place | — |
 

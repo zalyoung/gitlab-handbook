@@ -202,7 +202,7 @@ Watch the short videos below to learn more about the importance of seeking to un
 Sales multi-threading refers to the concept of engaging and developing relationships with multiple stakeholders who are involved in your customer's decision-making process. According to CEB Global, the average B2B deal has 5.8 decision-makers, and that number typically increases along with the size and complexity of the contract. Even if your primary contact has significant authority in the organization, that may be insufficient if the rest of the buying group is not on board with the decision. Therefore, the more connections you have from the buying side, the better your chances of getting a deal closed. To learn more, check out the below articles/blogs and podcast.
 
 - [What is Multi-threading Sales and Why Do You Need to Start Doing It?](https://web.archive.org/web/20221204062800/https://www.dealsinsight.com/what-is-multi-threading-sales-and-why-do-you-need-to-start-doing-it/)
-- [The Tactical Guide to Multi-Threading Sales](https://www.saleshacker.com/multi-threading-sales/)
+- [The Tactical Guide to Multi-Threading Sales](https://gtmnow.com/multi-threading-sales/)
 
 <!-- blank line -->
 <figure class="video_container">
