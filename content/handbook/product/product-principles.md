@@ -66,7 +66,7 @@ Our approach requires four pillars:
 - Product functionality that adheres to GA criteria listed in [the levels of support](https://docs.gitlab.com/ee/policy/development_stages_support.html)
 - Future vision to expand the MVC beyond the initial release
 
-When considering how to scope a feature for a release, remember that it is not ok to ship an "incomplete" feature to customers (see the [definition of done](https://docs.gitlab.com/ee/development/contributing/merge_request_workflow.html#definition-of-done)). Consider the use of Pajamas components for UI in your MVCs. When introducing a new component or pattern not found within Pajamas, it is the responsibility of that team to follow our [component lifecycle guidelines](https://design.gitlab.com/get-started/lifecycle/) to [determine whether it should be added](https://design.gitlab.com/get-started/lifecycle#determining-whether-a-component-should-be-included-in-pajamas) and, if so, contribute the addition/update back to Pajamas.
+When considering how to scope a feature for a release, remember that it is not ok to ship an "incomplete" feature to customers (see the [definition of done](https://docs.gitlab.com/ee/development/contributing/merge_request_workflow.html#definition-of-done)). Consider the use of Pajamas components for UI in your MVCs. When introducing a new component or pattern not found within Pajamas, it is the responsibility of that team to follow our [component lifecycle guidelines](https://design.gitlab.com/get-started/lifecycle/) to [determine whether it should be added](https://design.gitlab.com/get-started/lifecycle/#determining-whether-a-component-should-be-included-in-pajamas) and, if so, contribute the addition/update back to Pajamas.
 
 MVC means reducing the scope so we can ship quickly. It doesn't mean shipping something that hurts the usability of GitLab. First impressions are important. A feature that does not offer enough value or hinders the user experience may have a negative effect that discourages users from trying that feature again in the future. If there are obvious gaps in your MVC or you can anticipate follow-up requests, consider whether your feature is complete enough to be released to users. If you are unsure whether your feature is complete enough to be an MVC (or if you know your feature is not complete enough to be an MVC and you want to gather additional feedback), you can use approaches such as dogfooding, [beta programs](https://docs.gitlab.com/ee/policy/development_stages_support.html), feature flags, and/or user research to help build confidence in your decision. In terms of talking about your feature, it's ok to add a release post item that announces your incomplete feature (making clear that it is an early iteration, and points to the direction for the feature) and follow up in a later release post with a new item when you've completed more of the functionality. As long as you call it cookie dough, not a cookie, it manages user expectations.
 
@@ -294,7 +294,7 @@ Keep in mind these general user experience principles.
 - **Better than before:** Our [MVC principle](/handbook/product/product-principles/#the-minimal-valuable-change-mvc) pushes back against the notion that something must be better than nothing. Instead, we assess if the user experience is better than before by considering its value. Work with a Product Designer to evaluate tradeoffs and minimize [deferred UX](/handbook/engineering/workflow/#deferred-ux).
 - **Timeless design:** The user experience should be relevant both today and years from now, so each release should encapsulate the best experience possible. Ask yourself, "How would we build something if we knew this was the last time a team could touch it?"
 
-Additionally, you can familiarize yourself with the [UX team mission](/handbook/product/ux/how-we-work/#ux-team-mission) and [GitLab's Pajamas design system principles](https://design.gitlab.com/get-started/principles).
+Additionally, you can familiarize yourself with the [UX team mission](/handbook/product/ux/how-we-work/#ux-team-mission) and [GitLab's Pajamas design system principles](https://design.gitlab.com/get-started/principles/).
 
 ### Be Ambitious
 
@@ -328,7 +328,7 @@ Discovering new features can enhance the experience and unlock significant value
 
 However, excessive feature discovery efforts can become irritating for users. This erodes trust and reduces engagement with other UI elements in the future. Even worse, they might leave GitLab due to this deteriorating experience. Context plays a significant role in how users engage with new functionality. By presenting features in a way that resonates with a user's current situation and needs you increase the liklihood of them using this new functionality.
 
-Work with your product designer to improve the discoverability of your features. The Pajamas Design System has best practices and examples to support [feature discoverability](https://design.gitlab.com/usability/feature-discovery). We can also design new patterns. The Growth team can also help you with this, as they think about things like onboarding new users and promoting feature use within the app while supporting, not annoying, the user.
+Work with your product designer to improve the discoverability of your features. The Pajamas Design System has best practices and examples to support [feature discoverability](https://design.gitlab.com/usability/feature-discovery/). We can also design new patterns. The Growth team can also help you with this, as they think about things like onboarding new users and promoting feature use within the app while supporting, not annoying, the user.
 
 ### Product Qualified Leads (PQLs)
 
@@ -360,7 +360,7 @@ There are two frameworks we use to think about driving GitLab's product usage: w
 
 #### Single Feature usage: AARRR framework
 
-AARRR stands for _Acquisition_, _Activation_, _Retention_, _Revenue_, and _Referral_ which is often referred to as ["Pirate Metrics"](https://amplitude.com/blog/2016/02/25/actionable-pirate-metrics). These five words represent the customer journey and the various means a product manager may apply Product Performance Indicators to drive a desired behavior in the funnel.
+AARRR stands for _Acquisition_, _Activation_, _Retention_, _Revenue_, and _Referral_ which is often referred to as ["Pirate Metrics"](https://amplitude.com/blog/actionable-pirate-metrics). These five words represent the customer journey and the various means a product manager may apply Product Performance Indicators to drive a desired behavior in the funnel.
 
 While the AARRR framework is commonly used to drive overall active users, it is also a great way for PMs to think about how to drive feature usage.
 

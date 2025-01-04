@@ -36,7 +36,7 @@ Particularly for interns who are in university, or recently graduated, they may 
 
 Remote internships are more common than ever, though finding them can be challenging. Below, we're highlighting destinations that feature remote internships, where employers can post and job seekers can apply.
 
-- [Covintern](https://covintern.com/jobs)
+- [Covintern](https://covintern.com/jobs/)
 - [RemoteOK](https://remoteok.io/remote-internships)
 
 ## What makes a remote internship different?
@@ -59,7 +59,7 @@ Like any remote-working situation, remote internships have multiple [advantages]
 
 It is unlikely that an intern will be equipped to be a [manager of one](/handbook/values/#managers-of-one), and companies should expect interns to require a great deal of hand-holding.
 
-Learn more about the importance of clear [communication]({{< ref "communication" >}}), intentional [onboarding](learning-and-development/#how-do-you-onboard-new-team-members), and utilizing [asynchronous workflows](asynchronous/) in a Harvard Business School article entitled "[Best practices for creating a successful virtual internship](https://www.hbs.edu/recruiting/blog/post/best-practices-for-creating-a-successful-virtual-internship)."
+Learn more about the importance of clear [communication]({{< ref "communication" >}}), intentional [onboarding](learning-and-development/#how-do-you-onboard-new-team-members), and utilizing [asynchronous workflows](asynchronous/) in a Harvard Business School article entitled "[Best practices for creating a successful virtual internship](https://www.hbs.edu/recruiting/insights-and-advice/blog/post/best-practices-for-creating-a-successful-virtual-internship)."
 
 ## What are the best practices for managing a remote internship?
 

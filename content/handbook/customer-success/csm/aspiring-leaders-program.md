@@ -55,7 +55,7 @@ Once you feel confident you're interested in exploring management, it's time to 
 1. Take the [Elevate](/handbook/people-group/learning-and-development/elevate-programs/) course provided by the L&D team (formerly known as the [Manager Challenge](/handbook/people-group/learning-and-development/manager-challenge/)) if available.
 1. Take the [Crucial Conversations](/handbook/people-group/learning-and-development/learning-initiatives/#crucial-conversations) course.
 1. Review to see if there is a new [LifeLabs cohort](https://gitlab.com/gitlab-com/people-group/learning-development/training-curriculum/-/issues/29) coming soon.
-1. Take the [New Manager Foundations](https://www.linkedin.com/learning/new-manager-foundations-2/) LinkedIn Learning course.
+1. Take the [New Manager Foundations](https://www.linkedin.com/learning/new-manager-foundations-21965262) LinkedIn Learning course.
 1. Take the [Being a Good Mentor](https://www.linkedin.com/learning/being-a-good-mentor) LinkedIn Learning course.
 1. Watch free webinars and training resources through [Sounding Board](https://www.soundingboardinc.com/request-demo/).
 1. Review the [CEO Shadow Program](/handbook/ceo/shadow/) and potentially sign up for it (benefits include seeing firsthand how other leaders work and the types of discussions they have, among many others).

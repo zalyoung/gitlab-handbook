@@ -518,7 +518,7 @@ _Please contribute your favorite resources here_
 
 #### Online courses
 
-- [LinkedIn Learning: Communicating for Product Managers](https://www.linkedin.com/learning/communication-for-product-managersyour-role-as-diplomat-of-the-product-team?u=2255073)
+- [LinkedIn Learning: Communicating for Product Managers](https://www.linkedin.com/learning/communication-for-product-managersyour-role-as-diplomat-of-the-product-team)
 
 #### Books
 
@@ -547,7 +547,7 @@ _Please contribute your favorite resources here_
 
 #### Online courses
 
-- [Managing Project Stakeholders](https://www.linkedin.com/learning/managing-project-stakeholders-2?u=2255073) (LinkedIn Learning course)
+- [Managing Project Stakeholders](https://www.linkedin.com/learning/managing-project-stakeholders-2) (LinkedIn Learning course)
 
 #### Books
 

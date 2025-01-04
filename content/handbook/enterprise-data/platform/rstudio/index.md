@@ -17,7 +17,7 @@ You'll want to download the file similar to `R-4.2.2.pkg`. Once you've downloade
 
 RStudio is an integrated development environment (IDE) for R that is available in both open source and commercial editions. RStudio is developed by [Posit](https://posit.co/), a company that creates open source software for data science, scientific research, and technical communication. They are also responsible for many R resources and package development. Take a look at the resources page on the Posit website for more information, but below are just a couple of useful resources from RStudio.
 
-- [Books](https://www.rstudio.com/resources/books/)
+- [Books](https://resources.rstudio.com/resources/books/)
 - [Tidyverse Blog](https://www.tidyverse.org/blog/)
 - [Posit Blog](https://posit.co/blog/)
 - [RMarkdown Documents](https://rmarkdown.rstudio.com/)
@@ -170,7 +170,7 @@ This documentation was creating using RStudio version 2022.07.1.
 ### Part 1: Installation and Setup
 
 - Download and install [R](https://cloud.r-project.org/) (if not already installed).
-- Download and install [RStudio Desktop](https://www.rstudio.com/products/rstudio/#Desktop) (if not already installed).
+- Download and install [RStudio Desktop](https://posit.co/products/open-source/rstudio/) (if not already installed).
 - Install [Homebrew](https://brew.sh/) (if not already installed).
 - Install Git
   - Once Homebrew is installed, open your terminal (Command+Space Bar on Mac to open search bar, and search "Terminal")
@@ -209,7 +209,7 @@ This documentation was creating using RStudio version 2022.07.1.
     - Paste this link into the **Repository URL** section in RStudio
     - Select **Create New Project**
 - The GitLab Project should now be visible in R Studio
-- [Source](https://www.geo.uzh.ch/microsite/reproducible_research/post/rr-rstudio-git/) for Walkthrough Instructions
+- [Source](https://microsite.geo.uzh.ch/reproducible_research/post/rr-rstudio-git/) for Walkthrough Instructions
 
 ### Part 4: Troubleshooting
 
@@ -223,7 +223,7 @@ This documentation was creating using RStudio version 2022.07.1.
   Please make sure you have the correct access rights and repository exists.
   ```
 
-  - Solution: This is a known issue in certain versions of RStudio that is working to be resolved. Reinstalling an [older version](https://dailies.rstudio.com/version/2022.02.4+500.pro1/) should resolve the issue ([Source](https://community.rstudio.com/t/git-authentication-error-in-rstudio/145686/2)).
+  - Solution: This is a known issue in certain versions of RStudio that is working to be resolved. Reinstalling an [older version](https://dailies.rstudio.com/version/2022.02.4+500.pro1/) should resolve the issue ([Source](https://forum.posit.co/t/git-authentication-error-in-rstudio/145686/2)).
 
 ## How to Update a GitLab Project with Updates from R Studio
 

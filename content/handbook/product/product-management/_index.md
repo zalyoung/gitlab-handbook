@@ -348,7 +348,7 @@ It's important to keep [`features.yml`](https://gitlab.com/gitlab-com/www-gitlab
 - [Pricing](https://about.gitlab.com/pricing/)
 - [Features](https://about.gitlab.com/features/)
 - [Why GitLab Premium?](https://about.gitlab.com/pricing/premium/)
-- [Why GitLab Ultimate?](https://about.gitlab.com/pricing/ultimate)
+- [Why GitLab Ultimate?](https://about.gitlab.com/pricing/ultimate/)
 - [Feature Comparison](https://about.gitlab.com/pricing/feature-comparison/)
 - [DevOps Lifecycle](https://about.gitlab.com/stages-devops-lifecycle/)
 - [DevOps Tools Landscape](https://about.gitlab.com/why-gitlab/)

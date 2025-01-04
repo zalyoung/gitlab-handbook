@@ -165,7 +165,7 @@ This DoS involved user content, for example issue descriptions or comments. Thes
 {{% /details %}}
 
 {{% details summary="Hint 2" %}}
-This researcher found a [regex-based DoS](https://owasp.org/www-community/attacks/Regular_expression_Denial_of_Service_-_ReDoS) by reading the code GitLab used to parse front-matter. <https://gitlab.com/gitlab-org/gitlab/-/blob/6f10f768c9cc2d131c056289f58519cf9cae79fa/lib/gitlab/front_matter.rb>
+This researcher found a [regex-based DoS](https://owasp.org/www-community/attacks/Regular_expression_Denial_of_Service_-_ReDoS/) by reading the code GitLab used to parse front-matter. <https://gitlab.com/gitlab-org/gitlab/-/blob/6f10f768c9cc2d131c056289f58519cf9cae79fa/lib/gitlab/front_matter.rb>
 {{% /details %}}
 
 {{% details summary="Hint 3" %}}

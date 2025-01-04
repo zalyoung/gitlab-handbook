@@ -12,7 +12,7 @@ toc_hide: true
 
 ## Summary
 
-The [Container Scanning for Registry](https://docs.gitlab.com/ee/user/application_security/container_scanning/#container-scanning-for-registry) feature enables the automatic execution of a container scanning job whenever a new image is pushed to the [GitLab container registry](https://docs.gitlab.com/ee/user/packages/container_registry). This feature helps in identifying vulnerabilities in container images early in the development process.
+The [Container Scanning for Registry](https://docs.gitlab.com/ee/user/application_security/container_scanning/#container-scanning-for-registry) feature enables the automatic execution of a container scanning job whenever a new image is pushed to the [GitLab container registry](https://docs.gitlab.com/ee/user/packages/container_registry/). This feature helps in identifying vulnerabilities in container images early in the development process.
 
 ## Motivation
 

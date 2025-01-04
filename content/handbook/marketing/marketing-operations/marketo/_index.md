@@ -565,7 +565,7 @@ The instructions below are for MOps Admin users.
 1. Click on "HTML" to make your edits. Copy this code:
 `<a href="INSERT LINK TO CUSTOMER CASE STUDY" target="_blank"> <img src="INSERT LINK FROM DESIGN STUDIO" alt="ENTER NAME OF COMPANY logo" /></a>`
 1. Place it just before the `</div>` at the bottom of the html and replace the text in caps as instructed. The alt text should not be all caps. This will add the new logo to the end of the list. If you would like it in another location, place the code where you would like the logo to appear.
-1. After you have updated the code, click Apply. Once auto-save completes, you can close the snippet. Then, Approve the draft and select "Update all". "Update All" will add the snippet to all approved assets and all draft assets. It will not auto-approve draft assets. Details about the [No-Draft Snippet updates](https://nation.marketo.com/t5/knowledgebase/no-draft-snippet-limitations-and-troubleshooting/ta-p/253609) can be found in the Marketo documentation.
+1. After you have updated the code, click Apply. Once auto-save completes, you can close the snippet. Then, Approve the draft and select "Update all". "Update All" will add the snippet to all approved assets and all draft assets. It will not auto-approve draft assets. Details about the [No-Draft Snippet updates](https://nation.marketo.com/t5/knowledgebase/no-draft-snippet-limitations-and-troubleshooting/ta-p/300799) can be found in the Marketo documentation.
 {{% /details %}}
 
 ### Other Field Documentation and Definitions

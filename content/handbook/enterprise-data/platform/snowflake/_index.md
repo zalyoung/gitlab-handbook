@@ -7,7 +7,7 @@ description: "Snowflake Data Warehouse Guide"
 
 ## What and why
 
-[Snowflake](https://www.snowflake.com/) is our Enterprise Data Warehouse (EDW) and is the core technology in our [Enterprise Data Platform](/handbook/enterprise-data/platform/#i-classfas-fa-cubes-fa-fw--text-orangeiour-data-stack).
+[Snowflake](https://www.snowflake.com/en/) is our Enterprise Data Warehouse (EDW) and is the core technology in our [Enterprise Data Platform](/handbook/enterprise-data/platform/#i-classfas-fa-cubes-fa-fw--text-orangeiour-data-stack).
 
 ## What does Snowflake Contain?
 

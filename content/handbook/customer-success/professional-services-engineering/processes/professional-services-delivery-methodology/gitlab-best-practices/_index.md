@@ -232,7 +232,7 @@ A compliance officer will be responsible for creating and enforcing the usage of
 
 GitLab provides Security Policies, which enable security teams to require security scans to run according to a configuration. This provides the security teams with confidence that the configured scans have not been changed or disabled.
 
-There are two types of policies, [Scan Execution Policies](https://docs.gitlab.com/ee/user/application_security/policies/scan-execution-policies.html) and [Merge Request Approval Policies](https://docs.gitlab.com/ee/user/application_security/policies/scan-result-policies.html).
+There are two types of policies, [Scan Execution Policies](https://docs.gitlab.com/ee/user/application_security/policies/scan_execution_policies.html) and [Merge Request Approval Policies](https://docs.gitlab.com/ee/user/application_security/policies/merge_request_approval_policies.html).
 
 ## 20. Audit Management and Compliance Dashboard
 

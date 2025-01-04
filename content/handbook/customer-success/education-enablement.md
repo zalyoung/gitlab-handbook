@@ -170,7 +170,7 @@ To align our education and enablement with our product, each of the topics below
 - [Pages Feature Overview](https://docs.gitlab.com/ee/user/project/pages/)
   - [Pages Feature Direction and Roadmap](https://about.gitlab.com/direction/plan/knowledge/pages/)
   - [Pages Feature Docs](https://docs.gitlab.com/ee/user/project/pages/)
-- [Review Apps Feature Overview](https://about.gitlab.com/stages-devops-lifecycle/review-apps/)
+- [Review Apps Feature Overview](https://docs.gitlab.com/ee/ci/review_apps/)
   - [YouTube Webcast Feature Overview](https://www.youtube.com/watch?v=CteZol_7pxo&feature=youtu.be)
   - [Review Apps Direction and Roadmap](https://gitlab.com/groups/gitlab-org/-/epics/495)
   - [Review Apps Feature Docs](https://docs.gitlab.com/ee/ci/review_apps/)

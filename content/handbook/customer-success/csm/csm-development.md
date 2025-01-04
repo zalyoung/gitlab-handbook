@@ -90,11 +90,11 @@ As CSMs have positioned themselves to be more strategic and reach Director, VP, 
 - [Kind Engineering: How to Engineer Kindness](https://www.youtube.com/watch?v=OGFsM2lcF60) (YouTube)
 - [Secrets to Optimal Client Service](https://www.youtube.com/watch?v=hJbwyN4ZoCg) (YouTube)
 - [Selling Solutions vs Solving Problems](https://www.youtube.com/watch?v=9ZuWLs7ZNpY) (YouTube)
-- [Psychological Safety: Clear Blocks to Innovation, Collaboration, and Risk-Taking](https://www.linkedin.com/learning/psychological-safety-clear-blocks-to-innovation-collaboration-and-risk-taking/psychological-safety-clear-blocks-to-problem-solving-and-innovation?u=2255073) (LinkedIn Learning)
+- [Psychological Safety: Clear Blocks to Innovation, Collaboration, and Risk-Taking](https://www.linkedin.com/learning/psychological-safety-clear-blocks-to-innovation-collaboration-and-risk-taking/psychological-safety-clear-blocks-to-problem-solving-and-innovation) (LinkedIn Learning)
 - [Improving Your Listening Skills](https://www.linkedin.com/learning/improving-your-listening-skills-19238090) (LinkedIn Learning)
-- [The Six Morning Habits of High Performers](https://www.linkedin.com/learning/the-six-morning-habits-of-high-performers/six-practices-to-get-back-on-track-16454204?u=2255073) (LinkedIn Learning)
+- [The Six Morning Habits of High Performers](https://www.linkedin.com/learning/the-six-morning-habits-of-high-performers/six-practices-to-get-back-on-track-16454204) (LinkedIn Learning)
 - [Unconscious Bias](https://www.linkedin.com/learning/unconscious-bias/) (LinkedIn Learning)
-- [How to Make Strategic Thinking a Habit](https://www.linkedin.com/learning/how-to-make-strategic-thinking-a-habit/why-make-strategic-thinking-a-habit?u=2255073)  (LinkedIn Learning)
+- [How to Make Strategic Thinking a Habit](https://www.linkedin.com/learning/how-to-make-strategic-thinking-a-habit/why-make-strategic-thinking-a-habit)  (LinkedIn Learning)
 - [Leading with Emotional Intelligence](https://www.linkedin.com/learning/leading-with-emotional-intelligence-19884915) (LinkedIn Learning)
 
 <a name="tech-domain"></a>

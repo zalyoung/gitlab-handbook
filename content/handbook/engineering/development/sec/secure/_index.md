@@ -286,7 +286,7 @@ To update the documentation, the following process should be followed:
 
 Since we are a [remote](/handbook/company/culture/all-remote/) company, having daily standup meetings would not make any sense, since we're not all in the same timezone.
 That's why we have async daily standups, where everyone can give some insights into what they did yesterday, what they plan to do today, etc.
-For that, we rely on the [geekbot](https://geekbot.io/) slack plugin to automate the process.
+For that, we rely on the [geekbot](https://geekbot.com/) slack plugin to automate the process.
 
 ##### Standup messages format
 

@@ -7,7 +7,7 @@ twitter_site: "@gitlab"
 twitter_creator: "@gitlab"
 ---
 
-A brief [history](https://wrkfrce.com/a-brief-history-of-remote-work) of remote work
+A brief [history](https://wrkfrce.com/a-brief-history-of-remote-work/) of remote work
 {.h2}
 
 - 1973: Jack Nilles creates the terms "telecommuting" and "teleworking"
@@ -39,7 +39,7 @@ Reimagining how one's day can be structured, and how that can easily vary from o
 
 Rather than forcing one to build their life about a predefined daily schedule that involves an unavoidable commute, all-remote shifts that responsibility back to the individual.
 
-A number of studies from the likes of [Google](https://www.forbes.com/sites/abdullahimuhammed/2019/05/18/5-important-takeaways-from-googles-two-year-study-of-remote-work#1a536957439a), [Buffer](https://buffer.com/state-of-remote-work-2019), [FlexJobs](https://www.techrepublic.com/article/why-remote-work-has-grown-by-159-since-2005), and [IWG](https://assets.regus.com/pdfs/iwg-workplace-survey/iwg-workplace-survey-2019.pdf) show that driven individuals who place a high degree of value on autonomy and flexibility can experience new levels of joy and productivity in an all-remote environment.
+A number of studies from the likes of [Google](https://web.archive.org/web/20191123234200/https://www.forbes.com/sites/abdullahimuhammed/2019/05/18/5-important-takeaways-from-googles-two-year-study-of-remote-work/), [Buffer](https://buffer.com/state-of-remote-work-2019), [FlexJobs](https://www.prweb.com/releases/global-workplace-analytics-amp-flexjobs-report-159-percent-increase-in-remote-work-since-2005-863776940.html), and [IWG](https://assets.regus.com/pdfs/iwg-workplace-survey/iwg-workplace-survey-2019.pdf) show that driven individuals who place a high degree of value on autonomy and flexibility can experience new levels of joy and productivity in an all-remote environment.
 
 {{< youtube "tTQAU78QSt8" >}}
 
@@ -101,7 +101,7 @@ Not only does this create a less [inclusive](/handbook/company/culture/inclusion
 1. All-remote naturally attracts [self-motivated people](https://about.gitlab.com/blog/2019/03/28/what-its-like-to-interview-at-gitlab/).
 1. It's easier to quickly grow and scale your company.
    - GitLab **does not own/lease office space**. As colocated companies scale in size, their spend related to real estate will swell. This not only encompasses office space, but related activities such as security, cleaning, remodeling, etc. It also hampers [growth](scaling/). Hiring too many people in too short a time span will force you to move offices in quick succession, creating massive cost and inefficiency.
-1. Employees are [increasingly](https://www.iofficecorp.com/blog/workplace-design-statistics) expecting remote work options from their employers.
+1. Employees are [increasingly](https://web.archive.org/web/20240523000654/https://www.iofficecorp.com/blog/workplace-design-statistics) expecting remote work options from their employers.
    - GitLab sees **over 3,000 applicants per week** for open [vacancies](https://about.gitlab.com/jobs/). Each applicant is given access to our [strategy](/handbook/company/strategy) and an overview of [what it's like to work at GitLab](/handbook/company/culture#so-thats-what-its-like-to-work-at-gitlab) *before* they are asked to invest time and energy in applying. We get more qualified applicants due to our [transparency](/handbook/values/#transparency), showcased through examples like [role description videos](https://youtu.be/BOeXgGu1Vco) hosted on the [GitLab Unfiltered YouTube channel](https://www.youtube.com/channel/UCMtZ0sc1HHNtGGWZFDRTh5A).
 1. Companies often experience [lower employee turnover](https://resources.owllabs.com/blog/remote-work-statistics) and higher morale with remote work.
    - GitLab enjoys a **[strong year-over-year voluntary retention rate](/handbook/people-group/people-success-performance-indicators/#executive-summary)**.  All-remote contributes to our high retention of people, as they're able to [take their career with them](people/) through life's changes.
@@ -120,14 +120,14 @@ Not only does this create a less [inclusive](/handbook/company/culture/inclusion
 
 *In the [GitLab Unfiltered](https://www.youtube.com/channel/UCMtZ0sc1HHNtGGWZFDRTh5A) video above, two GitLab colleagues discuss the benefits of living in a lower cost-of-living environment near friends, family, and community.*
 
-[Research from the University of New Hampshire](https://carsey.unh.edu/publication/rural-depopulation) has found that "35% of rural counties in the United States are experiencing protracted and significant population loss." Speaking to shrinking towns across Europe, [a 2016 report from the European Parliamentary Research Service](https://www.europarl.europa.eu/thinktank/en/document/EPRS_BRI(2016)586632) notes that "younger members of society prefer to migrate to more economically vibrant regions and cities in search of better job prospects as, in most of these territories, professional opportunities remain limited and confined to specific fields (e.g. agriculture and tourism)."
+[Research from the University of New Hampshire](https://carsey.unh.edu/publication/rural-depopulation-rapidly-urbanizing-america) has found that "35% of rural counties in the United States are experiencing protracted and significant population loss." Speaking to shrinking towns across Europe, [a 2016 report from the European Parliamentary Research Service](https://www.europarl.europa.eu/thinktank/en/document/EPRS_BRI(2016)586632) notes that "younger members of society prefer to migrate to more economically vibrant regions and cities in search of better job prospects as, in most of these territories, professional opportunities remain limited and confined to specific fields (e.g. agriculture and tourism)."
 
 We believe all-remote has the power to pause, and perhaps even reverse, these trends of depopulation.
 
 Working remotely gives each person the autonomy to serve in a place that matters to them – a place that has shaped them – contributing significantly to the well-being of a population that may be at risk of losing its foundation, should talent continue to flee to the usual job centers.
 
 1. There's evidence that [remote work can reduce the effects of urban crowding](https://qz.com/work/1641664/remote-workers-are-the-solution-to-urban-crowding) for many cities around the world. Some states and countries are even [offering incentives](https://fortune.com/2019/06/22/google-housing-plan-bay-area) to encourage remote work. Here are [13 examples](https://web.archive.org/web/20210122035410/https://www.bankrate.com/personal-finance/smart-money/places-that-will-pay-you-to-move/) around the world.
-1. For global companies, bringing better-paying jobs to low-cost regions has positive economic impacts and works to reverse the [trends](https://www.europarl.europa.eu/thinktank/en/document/EPRS_BRI(2016)586632) of [depopulation in rural regions](https://carsey.unh.edu/publication/rural-depopulation).
+1. For global companies, bringing better-paying jobs to low-cost regions has positive economic impacts and works to reverse the [trends](https://www.europarl.europa.eu/thinktank/en/document/EPRS_BRI(2016)586632) of [depopulation in rural regions](https://carsey.unh.edu/publication/rural-depopulation-rapidly-urbanizing-america).
 
 ## The competitive advantage for companies that embrace remote work
 

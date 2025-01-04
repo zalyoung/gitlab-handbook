@@ -17,7 +17,7 @@ The detail below is a guide to defining what it takes to say a customer has adop
 
 Using 2 of the following:
 
-- Using [Code Analytics](https://about.gitlab.com/direction/foundations/) and [Insights](https://docs.gitlab.com/ee/user/group/insights/) within GitLab.
+- Using [Code Analytics](https://about.gitlab.com/direction/foundations/) and [Insights](https://docs.gitlab.com/ee/user/project/insights/index.html) within GitLab.
 - Using [Value Stream Management](https://about.gitlab.com/solutions/value-stream-management/) within GitLab.
 
 Usage Discovery Questions:
@@ -110,7 +110,7 @@ Usage Discovery Questions:
 - Using GitLab CI/CD to deploy their product (either the customer tells us this or we can see a high number of `deployments` and/or `environments` in the Usage Ping data).
 - From a feature standpoint, if they are using 2 of the following features...
   - [Pages](https://docs.gitlab.com/ee/user/project/pages/)
-  - [Review Apps](https://about.gitlab.com/stages-devops-lifecycle/review-apps/)
+  - [Review Apps](https://docs.gitlab.com/ee/ci/review_apps/)
   - [Feature Flags](https://docs.gitlab.com/ee/operations/feature_flags.html)
   - [Release Orchestration](https://docs.gitlab.com/ee/user/project/releases/)
 

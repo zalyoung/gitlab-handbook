@@ -6,7 +6,7 @@ title: "DevSecOps Solution Resource: Automated Software Delivery"
 
 ## Looking for a customer-facing overview of GitLab's Automated Software Delivery Capabilities?
 
-See [Automated Software Delivery](https://about.gitlab.com/solutions/delivery-automation)
+See [Automated Software Delivery](https://about.gitlab.com/solutions/delivery-automation/)
 
 The page below is intended to align GitLab sales and marketing efforts with a single source of truth for our go-to-market efforts around Automated Software Delivery.
 
@@ -186,8 +186,8 @@ From a competitive comparison for Automated Software Delivery, the following are
 
 - [GitHub](https://web.archive.org/web/20240331181506/https://about.gitlab.com/competition/github/) - Strong on SCM, GitHub Actions for CI/CD is still not ready for primetime. GitLab can integrate and migrate customers using GitHub for SCM easily with GitLab.
 - Jenkins - Complex to manage, many fragile integrations, not suitable for cloud native transformation
-- [JFrog](https://about.gitlab.com/competition/jfrog/) - Strong on CI, but requires integrations or has limited capabilities for rest of the areas.
-- [Circle CI](https://about.gitlab.com/competition/circleci/)
+- [JFrog](https://about.gitlab.com/why-gitlab/) - Strong on CI, but requires integrations or has limited capabilities for rest of the areas.
+- [Circle CI](https://about.gitlab.com/why-gitlab/)
 - [Weaveworks Flux CD](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/usecase-gtm/gitops/#weaveworks---using-flux-oss-operator) - Main solution only for the GitOps operator, requires multiple integrations to achieve end to end GitOps flow.
 
 ### Handling Objections
@@ -245,7 +245,7 @@ For up-to-date list of value at Ultimate, visit [Why Premium](https://about.gitl
 | Company | Problem | Solution | Result |
 | [Goldman Sachs](https://about.gitlab.com/customers/goldman-sachs/) | Needed to increase developer efficiency & software quality | GitLab Premium (CI/CD, SCM) | Improved 2 builds/day to 1000+/day; simplified workflow & administration |
 | [Sopra Steria](https://about.gitlab.com/customers/sopra_steria/) | Needed to standardize a tool for DevOps with single authorization | GitLab Premium (CI/CD, SCM) | Less than 6 minute builds, deploying to AWS, GCP, Azure  |
-| [Wag!](https://about.gitlab.com/2019/01/16/wag-labs-blog-post/) | Slow release process taking over 40 minutes | GitLab Ultimate (CI, CD) | Release process reduced to 6 minutes; 8 releases per day with built-in security; a full deployment pipeline to Amazon Elastic Container Service (ECS)  |
+| [Wag!](https://about.gitlab.com/blog/2019/01/16/wag-labs-blog-post/) | Slow release process taking over 40 minutes | GitLab Ultimate (CI, CD) | Release process reduced to 6 minutes; 8 releases per day with built-in security; a full deployment pipeline to Amazon Elastic Container Service (ECS)  |
 | [ANWB](https://about.gitlab.com/customers/anwb/) | Prolonged outages, long time to debug toolset integrations | GitLab Premium (CI, CD) |  Setup for cloud transformation - Google Cloud on K8S |
 | [Ticketmaster](https://about.gitlab.com/blog/2017/06/07/continuous-integration-ticketmaster/) | Slow build process prevented innovation | GitLab Premium (CI) | 15x faster - from over 2 hours to 8 minute builds; faster releases and better customer experiences (5 star app reviews)  |
 | [Hotjar](https://about.gitlab.com/customers/hotjar/) | Legacy systems, maintenance of tool integration, slow adoption of cloud technologies | GitLab Premium (Ci, CD) |  50% faster deployments, 30% faster build times, 2-15 deploys per day |

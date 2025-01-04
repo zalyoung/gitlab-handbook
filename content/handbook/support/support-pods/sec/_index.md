@@ -85,7 +85,7 @@ How can I get involved in Sec Pod?
 - CI/CD template: https://gitlab.com/gitlab-org/gitlab/-/blob/master/lib/gitlab/ci/templates/Jobs/Secret-Detection.gitlab-ci.yml
 - Secret scanner codebase: https://gitlab.com/gitlab-org/security-products/analyzers/secrets
 - Secret detection rules: https://gitlab.com/gitlab-org/security-products/analyzers/secrets/-/blob/master/gitleaks.toml
-- Upstream project: https://github.com/zricethezav/gitleaks
+- Upstream project: https://github.com/gitleaks/gitleaks
 - Test/demo projects: https://gitlab.com/gitlab-com/support/test-projects/ci-examples/secret-detection/
 
 ### Dependency Scanning
@@ -105,7 +105,7 @@ How can I get involved in Sec Pod?
 - DAST CI/CD template: https://gitlab.com/gitlab-org/gitlab/blob/master/lib/gitlab/ci/templates/Security/DAST.gitlab-ci.yml
 - DAST API scanning: https://docs.gitlab.com/ee/user/application_security/dast_api
 - DAST API scanning CI/CD template: https://gitlab.com/gitlab-org/gitlab/-/blob/master/lib/gitlab/ci/templates/Security/DAST-API.gitlab-ci.yml
-- DAST API test/demo projects: https://docs.gitlab.com/ee/user/application_security/dast_api/#example-dast-api-scanning-configurations
+- DAST API test/demo projects: https://docs.gitlab.com/ee/user/application_security/api_security_testing/index.html#example-dast-api-scanning-configurations
 - DAST test/demo projects: https://gitlab.com/gitlab-org/security-products/demos/dast
 
 ### IaC (Infrastructure as Code) Scanning
@@ -129,8 +129,8 @@ How can I get involved in Sec Pod?
 - Slack: `#g_protect_container_security`
 - GitLab.com label: ~"devops::protect", ~"Category:Container Scanning", ~"group::container security",
 - Scan policies overview: https://docs.gitlab.com/ee/user/application_security/policies/
-- Scan Results Policies Docs: https://docs.gitlab.com/ee/user/application_security/policies/scan-result-policies.html
-- Scan execution policy docs: https://docs.gitlab.com/ee/user/application_security/policies/scan-execution-policies.html
+- Scan Results Policies Docs: https://docs.gitlab.com/ee/user/application_security/policies/merge_request_approval_policies.html
+- Scan execution policy docs: https://docs.gitlab.com/ee/user/application_security/policies/scan_execution_policies.html
 
 ### Code Quality
 

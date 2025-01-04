@@ -45,7 +45,7 @@ GitLab's current implementation of Error Budgets is only using some of the above
 
 Web requests that result in a `500` status code error are counted. In Sidekiq, jobs that fail due to an unhandled exception are counted.
 
-If a group has [custom SLIs](https://docs.gitlab.com/ee/development/application_slis), or there's an SLI with a fixed feature category configured in our [metrics catalog](https://gitlab.com/gitlab-com/runbooks/-/tree/master/metrics-catalog), then those errors will also be counted.
+If a group has [custom SLIs](https://docs.gitlab.com/ee/development/application_slis/), or there's an SLI with a fixed feature category configured in our [metrics catalog](https://gitlab.com/gitlab-com/runbooks/-/tree/master/metrics-catalog), then those errors will also be counted.
 
 Engineers can use `Gitlab::ErrorTracking.track_exception`, or other logging, freely without affecting the error budget.
 

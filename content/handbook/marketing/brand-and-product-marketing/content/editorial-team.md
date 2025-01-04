@@ -66,7 +66,7 @@ defined first (but use sparingly, see [Tone of Voice](https://design.gitlab.com/
 
 ## American English vs. British English
 
-We use American English by default. Please consult [this list of](https://en.oxforddictionaries.com/spelling/british-and-spelling)
+We use American English by default. Please consult [this list of](https://www.dictionary.com/e/british-english-vs-american-english/)
 spelling differences.
 
 ## Ampersands

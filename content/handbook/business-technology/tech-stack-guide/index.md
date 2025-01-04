@@ -140,7 +140,7 @@ We also have a collection of Tableau dashboards that include Zuora Data. These d
 
 ### Data Model
 
-The [Zuora Billing business object model](https://knowledgecenter.zuora.com/BB_Introducing_Z_Business/A_Zuora_Billing_business_object_model) presents how Zuora is organized internally.
+The [Zuora Billing business object model](https://knowledgecenter.zuora.com/Get_Started/Zuora_business_object_model) presents how Zuora is organized internally.
 
 ![Zuora Billing Data Model](/handbook/business-technology/tech-stack-guide/2020_08_01_Zuora_Billing_object_model.png)
 

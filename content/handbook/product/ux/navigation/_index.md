@@ -39,7 +39,7 @@ We only make new additions to the GitLab navigation structure through a delibera
 
 Therefore, we **do not add new items** to:
 
-* Improve discoverability of new features. Instead, look for other opportunities to [highlight the functionality](https://design.gitlab.com/usability/feature-discovery) throughout the product.
+* Improve discoverability of new features. Instead, look for other opportunities to [highlight the functionality](https://design.gitlab.com/usability/feature-discovery/) throughout the product.
 * Optimize for the potential future. We should be forward thinking without over optimizing. As features are developed and added, we can look into what changes may need to occur to support a growing feature.
 
 ## How do I evaluate navigation changes?
@@ -69,7 +69,7 @@ After there is insight into a problem with the navigation, the Product team DRI 
 
 ## How to propose a navigation change
 
-> If your primary goal is to improve discoverability of your feature, please start by looking for other opportunities to [highlight the functionality](https://design.gitlab.com/usability/feature-discovery) throughout the product.
+> If your primary goal is to improve discoverability of your feature, please start by looking for other opportunities to [highlight the functionality](https://design.gitlab.com/usability/feature-discovery/) throughout the product.
 
 1. Before opening an issue, review the [elements and patterns for navigation in Pajamas](https://design.gitlab.com/usability/navigation-sidebar/). It is worth checking the [direction page](https://about.gitlab.com/direction/foundations/personal_productivity/) to see how your proposal aligns or conflicts with upcoming changes.
 1. Review the [list of navigation changes](/handbook/product/ux/navigation/#what-are-navigation-changes) and what they are to make sure your change qualifies.

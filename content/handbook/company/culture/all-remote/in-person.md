@@ -75,7 +75,7 @@ Here, we value informal communication as a complement to [in-person interactions
 
 *GitLab Commit Brooklyn 2019 recap reel.*
 
-Organizing customer and/or community [meetups](https://about.gitlab.com/community/meetups) around the globe is a great way to ensure team members meet each other in person, while also providing business and branding benefits. Meetups serve as incubators for [what could come next](https://about.gitlab.com/blog/2016/11/23/how-to-build-a-strong-dev-community/), and provide a safe space for feedback to flow. Not only do they allow customers to put a face to a company they are engaging with, but it creates opportunity for team members to travel and meet each other while supporting a company initiative.
+Organizing customer and/or community [meetups](https://about.gitlab.com/community/meetups/) around the globe is a great way to ensure team members meet each other in person, while also providing business and branding benefits. Meetups serve as incubators for [what could come next](https://about.gitlab.com/blog/2016/11/23/how-to-build-a-strong-dev-community/), and provide a safe space for feedback to flow. Not only do they allow customers to put a face to a company they are engaging with, but it creates opportunity for team members to travel and meet each other while supporting a company initiative.
 
 In an all-remote setting, meetups have psychological benefits as well. While colocated companies may struggle to garner deep support from team members who must plan, execute, and attend a meetup, all-remote team members tend to view meetups as special opportunities to do something they aren't able to do on a daily basis: interact with colleagues in the same physical space.
 
@@ -83,7 +83,7 @@ Perception plays a major role in quality of execution. In colocated settings, te
 
 Conversely, team members in an all-remote setting have precious few opportunities to see one another face-to-face. In turn, may be easier to rally support for meetups given the underlying perk of in-person bonding and networking.
 
-Learn more about how GitLab organizes community events in the [GitLab Meetup Guide](https://about.gitlab.com/community/meetups).
+Learn more about how GitLab organizes community events in the [GitLab Meetup Guide](https://about.gitlab.com/community/meetups/).
 
 ## Conferences
 
@@ -105,7 +105,7 @@ In remote-first and all-remote settings, the value proposition is drastically di
 
 Consider supporting team members who wish to arrive early or stay late in order to spend time getting to know colleagues on a face-to-face basis, but be mindful not to judge or penalize those who opt out. Family commitments and personal preference should be honored. Choosing not to arrive early or stay late at a conference for bonding should not be viewed as indifference towards the company.
 
-As an example, [GitLab Commit](https://about.gitlab.com/events/commit) — a series of user conferences — doubles as an excellent mechanism to bring colleagues together for a purpose, while also serving the greater community.
+As an example, [GitLab Commit](https://about.gitlab.com/events/commit/) — a series of user conferences — doubles as an excellent mechanism to bring colleagues together for a purpose, while also serving the greater community.
 
 ## Annual (or regular) summits
 

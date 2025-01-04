@@ -12,7 +12,7 @@ and complete the issue.
 ## General team resources
 
 * GitLab QA
-  * [Testing Guide / E2E Tests](https://docs.gitlab.com/ee/development/testing_guide/end_to_end)
+  * [Testing Guide / E2E Tests](https://docs.gitlab.com/ee/development/testing_guide/end_to_end/)
   * [GitLab QA Orchestrator Documentation](https://gitlab.com/gitlab-org/gitlab-qa/blob/master/README.md)
   * [GitLab QA Testing Documentation](https://gitlab.com/gitlab-org/gitlab-qa/blob/master/README.md#documentation)
 * General testing guidelines

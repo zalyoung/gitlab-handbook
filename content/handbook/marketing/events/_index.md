@@ -771,7 +771,7 @@ For video instructions, [please see here](https://youtu.be/e4X9Dg_1rmA).
     - Click `Next` at the bottom of the page
     - Fill out QR Code Title & Description
 1. Create your QR code with the following design specs:
-    - **Frame:** If adding a frame, enter `#171321` ([Charcoal](https://design.gitlab.com/brand-design/color#primary-color-palette)) for the frame color.
+    - **Frame:** If adding a frame, enter `#171321` ([Charcoal](https://design.gitlab.com/brand-design/color/#primary-color-palette)) for the frame color.
       - This color ensures proper contrast (other brand approved colors can be used, but no need to get fancy with gradients or anything)
     - **QR code:** Select `More Options`.
       - `Code color:` Enter `#171321` for the code color and `#FFFFFF` for the background color.

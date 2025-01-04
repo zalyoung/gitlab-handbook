@@ -9,7 +9,7 @@ twitter_creator: "@gitlab"
 
 ## Remote hiring, explained
 
-The [pandemic](https://www.cdc.gov/coronavirus/2019-ncov/index.html) forced many organizations to transition to be [all-remote companies](guide/). Many realized the [benefits]({{< ref "remote-benefits#benefits-of-remote-work" >}}) and decided to keep the remote structure. This shift necessitates implementing a remote hiring process to grow a remote workforce.
+The [pandemic](https://www.cdc.gov/covid/index.html) forced many organizations to transition to be [all-remote companies](guide/). Many realized the [benefits]({{< ref "remote-benefits#benefits-of-remote-work" >}}) and decided to keep the remote structure. This shift necessitates implementing a remote hiring process to grow a remote workforce.
 
 As one of the world's largest [all-remote companies](guide/), GitLab has been hiring and onboarding remote workers, remotely for over a decade. We've detailed what we learned in the [Principles of Hiring section of our Handbook](/handbook/hiring). On this page, we're sharing best practices for a streamlined remote hiring process anyone can implement.
 

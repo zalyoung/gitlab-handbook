@@ -34,7 +34,7 @@ Over the past few years GitLab has made commitments to our community around the 
 Analytics Data can be too generic of a term. The list below are the specific types of Product data that is in scope:
 
 - [Service Ping](/handbook/product/product-processes/analytics-instrumentation-guide/#service-ping) - aggregate counts of product usage from a GitLab instance
-- [Snowplow](https://snowplowanalytics.com/) Events - dynamic events collected from either a client or server.
+- [Snowplow](https://snowplow.io/) Events - dynamic events collected from either a client or server.
 - [Database events](/handbook/product/product-processes/analytics-instrumentation-guide/#database-import) - using Database records from gitlab.com to measure and understand usage
 
 ## Data Pseudonymization

@@ -402,8 +402,8 @@ This enables us to differentiate these by persona and workflow. While they may s
 
 - The DRI for the user experience is the Product Designer assigned to the group that is using the work item architecture for their object(s).
 - We work in a user-first mindset, rather then technology-first. To support this, we have created a [research plan](/handbook/product/ux/stage-group-ux-strategy/plan/plan/#ux-research-for-work-items) for supporting work item initiatives.
-- [Pajamas](https://design.gitlab.com/) is our design system and new patterns introduced via work item efforts need to solve a real problem that users have, be validated by user research, and follow the [Pajamas contribution process](https://design.gitlab.com/get-started/contributing).
-- We follow [Pajamas principles](https://design.gitlab.com/get-started/principles) for the user experience.
+- [Pajamas](https://design.gitlab.com/) is our design system and new patterns introduced via work item efforts need to solve a real problem that users have, be validated by user research, and follow the [Pajamas contribution process](https://design.gitlab.com/get-started/contributing/).
+- We follow [Pajamas principles](https://design.gitlab.com/get-started/principles/) for the user experience.
 - MVCs provide value to users, are bug-free and a highly usable experience, as described in [Product Principles](/handbook/product/product-principles/#the-minimal-valuable-change-mvc).
 
 #### How the architecture is intended to work
@@ -615,7 +615,7 @@ The DRI for organizing Team Day may pursue a budget for expenses under existing 
 
 #### Tips for a Successful Team Day
 
-- Watch out for [Daylight Savings Time](https://www.timeanddate.com/time/dst/) when organizing for Q1 and Q3. When the date is set, check that the timeszones in the planning issue still match the timezones in use on the day (for example, AEST vs. AEDT).
+- Watch out for [Daylight Savings Time](https://www.timeanddate.com/time/dst/about.html) when organizing for Q1 and Q3. When the date is set, check that the timeszones in the planning issue still match the timezones in use on the day (for example, AEST vs. AEDT).
 - Secure expense budget and communicate at least a week in advance of the Team Day.
 - Ensure Google Calendar events are transferred from the planning issue to the Plan [Shared Calendar](#shared-calendar) a week in advance of the event date.
 - Ensure everyone has access to the calendar, and have easy step-by-step directions for creating a new event on the calendar (Adding events to a shared calendar can be slightly confusing).

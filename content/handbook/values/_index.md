@@ -195,7 +195,7 @@ No need to brainstorm, wait for consensus, or [do with two what you can do yours
 ##### Blameless problem solving
 
 Investigate mistakes in a way that focuses on the situational aspects of a failure's mechanism and the decision-making process that led to the failure, rather than cast blame on a person or team.
-We hold blameless [root cause analyses](https://codeascraft.com/2012/05/22/blameless-postmortems/) and [retrospectives](/handbook/engineering/management/group-retrospectives/) for stakeholders to speak up without fear of punishment or retribution.
+We hold blameless [root cause analyses](https://www.etsy.com/codeascraft/blameless-postmortems/) and [retrospectives](/handbook/engineering/management/group-retrospectives/) for stakeholders to speak up without fear of punishment or retribution.
 
 ##### Short toes
 
@@ -379,7 +379,7 @@ It's important that we keep our focus on action, and don't fall into the trap of
 
 ##### Disagree, commit, and advocate {#disagree-and-commit}
 
-When a decision is in place, we expect people to commit to executing it. Any past decisions and guidelines are open to questioning as long as you act in accordance with them until they are changed. This is [a common principle](https://ryanestis.com/leadership/disagree-and-commit-to-get-things-done/).
+When a decision is in place, we expect people to commit to executing it. Any past decisions and guidelines are open to questioning as long as you act in accordance with them until they are changed. This is [a common principle](https://ryanestis.com/disagree-and-commit-to-get-things-done/).
 Every decision can be changed;
 our [best decision was one that changed an earlier one](https://youtu.be/4BIsON95fl8?t=2034).
 In a manager-report relationship, usually the report is the [Directly Responsible Individuals](/handbook/people-group/directly-responsible-individuals/) (DRI).
@@ -665,7 +665,7 @@ We list our [Parental Leave](/handbook/total-rewards/benefits/general-and-entity
 ##### Inclusive language & pronouns
 
 Use **inclusive** language.
-For example, prefer "Hi everybody" or "Hi people" to "Hi guys", and "they" instead of "he/she". While there are several good guides from folks like [18f](https://content-guide.18f.gov/inclusive-language/), [University of Calgary](https://www.ucalgary.ca/news/ucalgary-guidelines-updated-communicating-about-gender-and-sexual-diversity), and [Buffer](https://open.buffer.com/inclusive-language-tech/) on using inclusive language, we don't keep an exhaustive list.
+For example, prefer "Hi everybody" or "Hi people" to "Hi guys", and "they" instead of "he/she". While there are several good guides from folks like [18f](https://guides.18f.gov/content-guide/our-style/inclusive-language/), [University of Calgary](https://www.ucalgary.ca/news/ucalgary-guidelines-updated-communicating-about-gender-and-sexual-diversity), and [Buffer](https://buffer.com/resources/inclusive-language-tech/) on using inclusive language, we don't keep an exhaustive list.
 When new possibly non-inclusive words arise, we prefer to be proactive and look for an alternative.
 If your goal is to be inclusive, it is more effective to make a small adjustment in the vocabulary when some people have a problem with it, rather than making a decision to not change it because some people don't think it is a problem.
 And if you make a mistake (e.g. accidentally using the wrong pronoun or an outdated phrase), acknowledge it, **apologize gracefully and move on**; there is no need to dwell on it, and you can work to avoid making that mistake in the future.
@@ -728,7 +728,7 @@ As a globally-dispersed company, we have team members from many different backgr
 
 ##### Embracing Neurodiversity
 
-[Neurodiversity](https://www.neurodiversityhub.org/what-is-neurodiversity) refers to variations in the human brain regarding learning, attention, sociability, mood, and other mental functions. There are various neurodevelopmental conditions, like autism, ADHD, dyslexia, dyscalculia, dyspraxia, cognitive impairment, schizophrenia, bipolarity, and other styles of neurodivergent functioning. While neurodivergent individuals often bring [unique skills and abilities](https://adhdatwork.add.org/potential-benefits-of-having-an-adhd-employee/) which can be harnessed for a [competitive advantage](https://hbr.org/2017/05/neurodiversity-as-a-competitive-advantage) in many fields (for example, [cybersecurity](https://www.forbes.com/sites/samcurry/2019/05/13/neurodiversity-a-competitive-advantage-in-cybersecurity/)), neurodivergent individuals are often discriminated against. Due to non-inclusive hiring practices, they sometimes have trouble making it through traditional hiring processes. Neurodiversity inclusion best practices benefit everyone, and at GitLab, everyone can contribute. The handbook, values, strategy, and interviewing processes must support the ability for everyone to thrive.
+[Neurodiversity](https://www.neurodiversityhub.org/what-is-neurodiversity) refers to variations in the human brain regarding learning, attention, sociability, mood, and other mental functions. There are various neurodevelopmental conditions, like autism, ADHD, dyslexia, dyscalculia, dyspraxia, cognitive impairment, schizophrenia, bipolarity, and other styles of neurodivergent functioning. While neurodivergent individuals often bring [unique skills and abilities](https://add.org/benefits-of-adhd-employees/) which can be harnessed for a [competitive advantage](https://hbr.org/2017/05/neurodiversity-as-a-competitive-advantage) in many fields (for example, [cybersecurity](https://www.forbes.com/sites/samcurry/2019/05/13/neurodiversity-a-competitive-advantage-in-cybersecurity/)), neurodivergent individuals are often discriminated against. Due to non-inclusive hiring practices, they sometimes have trouble making it through traditional hiring processes. Neurodiversity inclusion best practices benefit everyone, and at GitLab, everyone can contribute. The handbook, values, strategy, and interviewing processes must support the ability for everyone to thrive.
 
 At GitLab we embrace Neurodiversity through adopting a variety of different work styles and communication styles, and we lean into [transparency](#transparency), asynchronous as a default working style, and pre-filled meeting agendas. These best practices become even more important when embracing neurodiversity. Providing multiple ways to consume information (written / video / audio) allows everyone to contribute independent of their preferred comprehension style. It is important to ask team members specifically what their preferred communication method is in order to provide them information in a format that is easily consumable for them.
 

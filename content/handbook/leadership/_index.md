@@ -324,7 +324,7 @@ When you give leadership training please [screen share the handbook instead of c
 1. Sign up for [Crucial Conversations training](/handbook/people-group/learning-and-development/learning-initiatives/#crucial-conversations)
 1. Explore opportunities to join the [CEO Shadow program](/handbook/ceo/shadow) or other division specific shadow programs with the [Chief of Staff]({{< ref "office-of-the-ceo#chief-of-staff-shadow" >}}), and [Security]({{< ref "security-shadow" >}}).
 1. Explore the skills needed to successfully transistion from IC to Manager in [GitLab Learn](https://gitlab.edcast.com/channel/coming-soon-transitioning-from-ic-to-manager).
-1. Explore leadership and management courses on [LinkedIn Learning](https://www.linkedin.com/learning/topics/leadership-and-management?u=2255073)
+1. Explore leadership and management courses on [LinkedIn Learning](https://www.linkedin.com/learning/topics/leadership-and-management)
 1. Join a monthly [Leadership Chats](/handbook/people-group/learning-and-development/manager-challenge/leadership-chats/) talk to learn from people leaders across the organization.
 1. [Learning and Development](/handbook/people-group/learning-and-development/) is developing several programs in FY23 to include a [Managing at GitLab Course](https://gitlab.com/groups/gitlab-com/people-group/learning-development/-/epics/78), [New Manager Bootcamp](https://gitlab.com/gitlab-com/people-group/learning-development/training-curriculum/-/issues/33), [LifeLabs Learning Pilot and Launch](https://gitlab.com/gitlab-com/people-group/learning-development/training-curriculum/-/issues/29), [coaching program](https://gitlab.com/gitlab-com/people-group/learning-development/general/-/issues/342), and much more!
 

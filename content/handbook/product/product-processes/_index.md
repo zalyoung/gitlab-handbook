@@ -850,7 +850,7 @@ Often, the criteria for features are built on is implicit. It can help to use a 
 
 #### Exception & error cases
 
-Software often fails and can fail in different ways depending upon how it is architected. It is always best to provide the user with as much information as possible as to why something did not behave as expected. Creating and building different states to handle all possible errors and exceptions can easily be broken down into individual issues. Start by creating a generic error state to display when anything goes wrong, and then add on to handle different cases one by one. Remember to always make error messages [useful](https://design.gitlab.com/content/ui-text#clear-error-messages), and add additional error messages as you identify new error states.
+Software often fails and can fail in different ways depending upon how it is architected. It is always best to provide the user with as much information as possible as to why something did not behave as expected. Creating and building different states to handle all possible errors and exceptions can easily be broken down into individual issues. Start by creating a generic error state to display when anything goes wrong, and then add on to handle different cases one by one. Remember to always make error messages [useful](https://design.gitlab.com/content/ui-text/#clear-error-messages), and add additional error messages as you identify new error states.
 
 #### Breaking down the UI
 
@@ -1475,7 +1475,7 @@ Increase product instrumentation across our offerings to deliver greater product
 
 In order to better understand the perceived performance of GitLab, there is a synthetic page load performance testing framework available based on [sitespeed.io](https://www.sitespeed.io).
 
-A [Grafana dashboard](https://dashboards.gitlab.net/d/product-create/product-performance-create?orgId=1) is available for each stage, tracking the [Largest Contentful Paint](https://web.dev/lcp/) and first/last visual change times. These metrics together provide high-level insight into the experience our users have when interacting with these pages.
+A [Grafana dashboard](https://dashboards.gitlab.net/d/product-create/product-performance-create?orgId=1) is available for each stage, tracking the [Largest Contentful Paint](https://web.dev/articles/lcp) and first/last visual change times. These metrics together provide high-level insight into the experience our users have when interacting with these pages.
 
 ### Adding additional pages to performance testing
 

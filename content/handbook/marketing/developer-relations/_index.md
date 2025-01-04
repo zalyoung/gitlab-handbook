@@ -246,7 +246,7 @@ We take inspiration from the great work being done by other communities. Some of
 - [Debian](https://www.debian.org/) - A large, engaged community that act as custodians for important open source technology.
 - [GNOME](https://www.gnome.org/) - A large, engaged community that act as custodians for important open source technology.
 - [KDE](https://kde.org/) - A large, engaged community that act as custodians for important open source technology.
-- [Fedora](https://getfedora.org/) - A large, engaged community that act as custodians for important open source technology.
+- [Fedora](https://fedoraproject.org/) - A large, engaged community that act as custodians for important open source technology.
 - [Drupal](https://www.drupal.org/) - A large, engaged community that act as custodians for important open source technology.
 - [Wikimedia Foundation](https://wikimediafoundation.org/) - This community is a champion for free information with a large, engaged community.
 - [Kubernetes](https://kubernetes.io/) - This community consists of a large network of user groups and champions that serve to help each other grow and better utilize Kubernetes.

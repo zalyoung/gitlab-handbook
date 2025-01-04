@@ -52,10 +52,10 @@ All approached prospects should be added in Greenhouse as prospects.**Greenhouse
 
 There are multiple ways to add the candidates, as follows:
 
-- [LinkedIn](https://support.greenhouse.io/hc/en-us/articles/204110135-Add-Prospects-to-Greenhouse-via-LinkedIn-RSC-Integration)
+- [LinkedIn](https://support.greenhouse.io/hc/en-us/articles/204110135-Add-prospects-to-Greenhouse-Recruiting-with-LinkedIn-RSC)
 - [Greenhouse plugin](https://support.greenhouse.io/hc/en-us/articles/4947637389083-Greenhouse-Recruiting-Chrome-extension-overview)
-- [Maildrop](https://support.greenhouse.io/hc/en-us/articles/201990630)
-- [Enable LinkedIn Recruiter System Connect (RSC)](https://support.greenhouse.io/hc/en-us/articles/115005678103-Enable-LinkedIn-Recruiter-System-Connect-RSC-) so you can export candidates in one click as prospects
+- [Maildrop](https://support.greenhouse.io/hc/en-us/articles/201990630-Maildrop)
+- [Enable LinkedIn Recruiter System Connect (RSC)](https://support.greenhouse.io/hc/en-us/articles/115005678103-LinkedIn-Recruiter-System-Connect-RSC-integration) so you can export candidates in one click as prospects
 
 Keep in mind, a candidate could have the source, `Applied through your website's jobs page` or `Jobs page on your website`, if they signed-up to the **Talent Community** prior to the correct tracking link being associated with the in-take form. In that situation, please change their source to `Talent Community`.
 
@@ -107,7 +107,7 @@ If you are helping a Recruiter source for an open REQ please verify the prospect
     - Note: The person with `Recruiting Tasks` next to their name will be the Primary Recruiter.
 - Record the Assist in your team’s hiring tracker document (ie. PodSquad for Engineering)
 
-**FAQs:**  
+**FAQs:**
 </details>
 <details><summary>Click to expand</summary>
 

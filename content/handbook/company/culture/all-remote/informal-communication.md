@@ -87,7 +87,7 @@ In colocated settings, unplanned encounters can lead to interesting ideas or hyp
 
 ### Remote retrospectives
 
-Intentionally-organized [remote retrospectives](https://about.gitlab.com/blog/2019/12/19/how-gitlab-handles-retrospectives/) create an atmosphere of chance discussions, as you're specifically there to riff on something. Zoom supports [Breakout Rooms](https://support.zoom.us/hc/en-us/articles/206476093-Enabling-breakout-rooms), which may be useful in catalyzing such conversation.
+Intentionally-organized [remote retrospectives](https://about.gitlab.com/blog/2019/12/19/how-gitlab-handles-retrospectives/) create an atmosphere of chance discussions, as you're specifically there to riff on something. Zoom supports [Breakout Rooms](https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0061583), which may be useful in catalyzing such conversation.
 
 ### Innovation communities
 
@@ -370,7 +370,7 @@ Teams can also arrange shared meals around the world. [Global pizza parties](htt
 ![GitLab team in Luna Park live game show](/images/all-remote/luna_park_game_show_gitlab.jpg)
 {style="max-width: 50%;"}
 
-You can now bring peers or colleagues into online game shows through platforms like [Luna Park](https://golunapark.com). Some social games are built for synchronous experiences like [Collab](https://collab.getchinwag.com), while on-demand games are more amenable to asynchronous engagement across time zones.
+You can now bring peers or colleagues into online game shows through platforms like [Luna Park](https://lunapark.com/). Some social games are built for synchronous experiences like [Collab](https://collab.getchinwag.com), while on-demand games are more amenable to asynchronous engagement across time zones.
 
 ## Virtual lunch table
 
@@ -421,7 +421,7 @@ In this section, we'll spotlight tips and advice from other experts and companie
 [Bretton Putter](https://twitter.com/BrettonPutter), founder at [CultureGene](https://twitter.com/culturegenehq), shares the below [examples](https://twitter.com/BrettonPutter/status/1263834004341563393/photo/1).
 
 1. Book, TV, and movie clubs
-1. Movie nights leveraging [Netflix Party](https://www.netflixparty.com)
+1. Movie nights leveraging [Netflix Party](https://www.teleparty.com/)
 1. Group game/dance/music nights via a streaming service like [Twitch](https://www.twitch.tv)
 1. Lunch and Learn webinars (ideally learning about something not directly work related, such as playing an instrument)
 1. Group fitness, yoga, and meditation sessions

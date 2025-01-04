@@ -72,8 +72,8 @@ Note that many of these steps are done in the [onboarding script](https://gitlab
 
 #### Choosing the right Snowflake warehouse when running dbt
 
-Our Snowflake instance contains [warehouses of multiple sizes](https://docs.snowflake.com/en/user-guide/warehouses-overview.html), which allow for dbt developers to allocate
-differing levels of compute resources to the queries they run. The larger a warehouse is and the longer it runs, the more the query costs. For example, it costs [8 times](https://docs.snowflake.com/en/user-guide/warehouses-overview.html#warehouse-size) more to run a Large warehouse for an hour than it costs to run an X-Small warehouse for an hour.
+Our Snowflake instance contains [warehouses of multiple sizes](https://docs.snowflake.com/en/user-guide/warehouses-overview), which allow for dbt developers to allocate
+differing levels of compute resources to the queries they run. The larger a warehouse is and the longer it runs, the more the query costs. For example, it costs [8 times](https://docs.snowflake.com/en/user-guide/warehouses-overview#warehouse-size) more to run a Large warehouse for an hour than it costs to run an X-Small warehouse for an hour.
 
 If you have access to multiple warehouses, you can
 create an entry for each warehouse in your `profiles.yml` file. Having done this, you will be able to specify which warehouse should run when you call `dbt run`. This should be done
@@ -561,7 +561,7 @@ In the sensitive model, the dbt macro [`nohash_sensitive_columns`](https://dbt.g
 
 All hashing includes a [salt](https://en.wikipedia.org/wiki/Salt_(cryptography)) as well. These are specified via environment variables. There are different salts depending on the type of data. These are defined in the [`get_salt` macro](https://dbt.gitlabdata.com/#!/macro/macro.gitlab_snowflake.get_salt) and are also set when using the dbt container for local development.
 
-In general, team members should not be permitted to see the salt used in the query string within the Snowflake UI.  In table models this goal is met by using the [Snowflake built-in `ENCRYPT` function](https://docs.snowflake.com/en/sql-reference/functions/encrypt.html). For models materialized into views, the `ENCRYPT` function seems to not work. Instead, a workaround using secure views is utilized.  A secure view limits DDL viewing to the owner only, thus limiting visibility of the hash.  To create a secure view, set `secure` equal to true in the [model configuration](/handbook/enterprise-data/platform/dbt-guide/#model-configuration). A view that utilizes the hashing functionality as described, but is not configured as a secure view, will likely not be queryable.
+In general, team members should not be permitted to see the salt used in the query string within the Snowflake UI.  In table models this goal is met by using the [Snowflake built-in `ENCRYPT` function](https://docs.snowflake.com/en/sql-reference/functions/encrypt). For models materialized into views, the `ENCRYPT` function seems to not work. Instead, a workaround using secure views is utilized.  A secure view limits DDL viewing to the owner only, thus limiting visibility of the hash.  To create a secure view, set `secure` equal to true in the [model configuration](/handbook/enterprise-data/platform/dbt-guide/#model-configuration). A view that utilizes the hashing functionality as described, but is not configured as a secure view, will likely not be queryable.
 
 ##### Dynamic Masking
 
@@ -587,7 +587,7 @@ Sensitive columns to be masked dynamically are documented in the `schema.yml` fi
 
 A `post-hook` running the macro `mask_model` will need to be configured for any model that will need dynamic masking applied.
 
-The `mask_model` macro will first retrieve all of the columns of the given model that have a `masking_policy` identified. That information is passed to an other macro, `apply_masking_policy`, witch orchestrates the creation and application of Snowflake [masking policies](https://docs.snowflake.com/en/sql-reference/sql/create-masking-policy.html#create-masking-policy) for the given columns.
+The `mask_model` macro will first retrieve all of the columns of the given model that have a `masking_policy` identified. That information is passed to an other macro, `apply_masking_policy`, witch orchestrates the creation and application of Snowflake [masking policies](https://docs.snowflake.com/en/sql-reference/sql/create-masking-policy#create-masking-policy) for the given columns.
 
 The first step of the `apply_masking_policy` is to get the data type of the columns to be masked as the polices are data type dependant.  This is done with a query to the data base `information_schema` table with the following query:
 
@@ -1320,14 +1320,14 @@ The following is an example of how we implement a snapshot:
 #### Snapshot best practices
 
 - **Database and Schema Configuration**: Configure the database and schema in `dbt_project.yml`. Use an environmental variable for the database and set the schema to `snapshots`. This ensures consistency and simplifies deployment across environments.
-- **Follow Naming Conventions**: The table name in the data warehouse should follow the `{source_table_name}_snapshots` naming convention. 
+- **Follow Naming Conventions**: The table name in the data warehouse should follow the `{source_table_name}_snapshots` naming convention.
 - **Avoid Transformations**: Perform minimal transformations in snapshot models aside from deduplication. Cleaning and transformation logic should be handled downstream to maintain snapshot simplicity.
 - **Prefer Timestamp Strategy**: Unless a reliable `updated_at` field is unavailable, prefer the `timestamp` strategy over `check`. However, note that in Salesforce, the `SystemModstamp` field does not capture changes to formula fields. For SFDC snapshots, it’s better to use the `check` strategy and validate all columns to ensure no updates are missed. Refer to the dbt documentation for more details on [snapshot strategies](https://docs.getdbt.com/reference/resource-configs/strategy).
 - **Enable `invalidate_hard_deletes`**: Use the `invalidate_hard_deletes` option for snapshots where it’s critical to track and exclude deleted records. With this setting enabled, records deleted from the source are assigned a valid end timestamp (`dbt_valid_to`) instead of leaving it NULL.
 
 #### Snapshot Model Types
 
-A dbt Snapshot model is designed to capture changes to records for a single table over time, providing a historical view of the data. The table being snapshotted can originate from a source table or an existing table already used for analysis. Snapshots are defined using the {% snapshot table_name %} configuration in a snapshot file, which specifies how changes are tracked and stored. 
+A dbt Snapshot model is designed to capture changes to records for a single table over time, providing a historical view of the data. The table being snapshotted can originate from a source table or an existing table already used for analysis. Snapshots are defined using the {% snapshot table_name %} configuration in a snapshot file, which specifies how changes are tracked and stored.
 
 **dbt Snapshot Model Strategy**
 
@@ -1399,11 +1399,11 @@ To manually review the downstream impacts a change to a model may have use the a
 
 ### Dropping dbt Models
 
-To drop dbt models, remove the relevant files in your local IDE, commit the changes, and push them as part of a merge request to run in the CI pipelines. 
+To drop dbt models, remove the relevant files in your local IDE, commit the changes, and push them as part of a merge request to run in the CI pipelines.
 
-Note that Snowflake tables in Production are not automatically removed and must be handled separately by the Data Platform team. 
+Note that Snowflake tables in Production are not automatically removed and must be handled separately by the Data Platform team.
 
-The MR author should create a follow-up issue and assign it to the Data Platform team to complete the table removal. 
+The MR author should create a follow-up issue and assign it to the Data Platform team to complete the table removal.
 
 In some cases, tables may need to be retained for historical purposes even after the dbt models are removed, which means they will no longer be updated but remain in place for reference.
 

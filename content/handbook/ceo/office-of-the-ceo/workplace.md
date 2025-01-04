@@ -223,7 +223,7 @@ More examples of how to talk about remote work
 <li>Skills for Mars — <a href="https://youtu.be/g78mzVYjDY0">Darren Murph On Transparency, Values & Leadership when All-Remote</a></li>
 <li>Bright & Early Podcast — <a href="https://www.youtube.com/watch?v=Vg0R9r4DcXw">Darren Murph: Remote Work at GitLab</a></li>
 <li>Working Without Borders: The Get on Board Podcast — <a href="https://medium.com/getonbrd/working-without-borders-s01e02-darren-murph-head-of-remote-at-gitlab-5567d7c634fd">Darren Murph on leading a remote culture at GitLab</a></li>
-<li>Outside The Valley: <a href="https://arc.dev/blog/podcast-ep23-gitlab-darren-murph-96ggw37q6t">Darren Murph of GitLab - Why Companies Should Go All-Remote</a></li>
+<li>Outside The Valley: <a href="https://arc.dev/employer-blog/companies-should-go-remote-darren-murph/">Darren Murph of GitLab - Why Companies Should Go All-Remote</a></li>
 <li>Accelerating Support Podcast: <a href="https://soundcloud.com/acceleratingsupport/accelerating-support-export-v1/s-JylGQhxc7il">Darren Murph, Head of Remote at GitLab</a></li>
 </ul>
 </details>

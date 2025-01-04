@@ -359,9 +359,9 @@ The following tools and strategies are used by the GitLab team to manage burnout
 
 ### LinkedIn Learning Courses
 
-1. [Mindful Stress Management](https://www.linkedin.com/learning/mindful-stress-management/introduction-to-stress-management?u=2255073)
-1. [Winding Down: Get a Better Nights Sleep](https://www.linkedin.com/learning/winding-down-get-a-better-night-s-sleep/introduction-the-importance-of-sleep?u=2255073)
-1. [How to Create a Life of Meaning and Purpose](https://www.linkedin.com/learning/how-to-create-a-life-of-meaning-and-purpose/creating-a-meaningful-life-is-easier-than-you-think?u=2255073)
+1. [Mindful Stress Management](https://www.linkedin.com/learning/mindful-stress-management/introduction-to-stress-management)
+1. [Winding Down: Get a Better Nights Sleep](https://www.linkedin.com/learning/winding-down-get-a-better-night-s-sleep/introduction-the-importance-of-sleep)
+1. [How to Create a Life of Meaning and Purpose](https://www.linkedin.com/learning/how-to-create-a-life-of-meaning-and-purpose/creating-a-meaningful-life-is-easier-than-you-think)
 
 ## How can remote workers connect with mental health professionals?
 

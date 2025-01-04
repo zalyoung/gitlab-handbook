@@ -67,8 +67,8 @@ Managers should add approved growth and development programs to the [department 
 ### LinkedIn Learning
 
 - [UX Research: Lean Experimentation](https://www.linkedin.com/learning/ux-research-lean-experimentationwriting-an-effective-hypothesis) - This is a great overview of Lean UX and discusses business impact, iteration, hypothesis writing, experiment design, lean interviewing and more.
-- [Surveys and Questionnaires for UX Projects](https://www.linkedin.com/learning/surveys-and-questionnaires-for-ux-projects/getting-good-feedback?u=2255073) - This one might be a review for some of you but it's a good overview of what to know about surveys.
-- [UX Deep Dive: Analyzing Data](https://www.linkedin.com/learning/ux-deep-dive-analyzing-data/setting-your-objectives?u=2255073) - This one isn't about quantitative research, but it is about how to properly analyze your qualitative data to get to good insights.
+- [Surveys and Questionnaires for UX Projects](https://www.linkedin.com/learning/surveys-and-questionnaires-for-ux-projects/getting-good-feedback) - This one might be a review for some of you but it's a good overview of what to know about surveys.
+- [UX Deep Dive: Analyzing Data](https://www.linkedin.com/learning/ux-deep-dive-analyzing-data/setting-your-objectives) - This one isn't about quantitative research, but it is about how to properly analyze your qualitative data to get to good insights.
 
 ### Other Resources
 
@@ -119,12 +119,12 @@ Managers should add approved growth and development programs to the [department 
 
 ### Other Resources
 
-- [Growth Design](https://lexroman.com/growthdesign)
+- [Growth Design](https://lexroman.com/guides/growth-design)
 - [Practicing Growth Design](https://lexroman.com/blog/2019/9/30/practicing-growth-design)
 - [What is a Growth Designer?](https://blog.alexaroman.com/what-is-a-growth-designer-1b342d55a358)
 - [Growth Designers Resources](https://www.growthdesigners.co/tools)
-- [Growth Design Case Studies](https://growth.design/case-studies/)
-- [The Psychology of Design](https://growth.design/psychology/)
+- [Growth Design Case Studies](https://growth.design/case-studies)
+- [The Psychology of Design](https://growth.design/psychology)
 - [10 insights into user-centered growth design](https://medium.com/dropbox-design/user-centered-growth-design-97a53d829807)
 - [A/B Testing: Concept != Execution](https://booking.design/a-b-testing-concept-execution-b37bf4d744d)
 - [Design Like a Scientist](https://youtu.be/XRd6Ddn4ZSY)
@@ -159,7 +159,7 @@ Managers should add approved growth and development programs to the [department 
 
 ### LinkedIn Learning
 
-- [Leading with Intelligent Disobediance](https://www.linkedin.com/learning/leading-with-intelligent-disobedience/what-is-intelligent-disobedience?u=2255073)
+- [Leading with Intelligent Disobediance](https://www.linkedin.com/learning/strategic-leadership-deploying-intelligent-disobedience/what-is-intelligent-disobedience)
 
 ## Time management and productivity
 
@@ -184,7 +184,7 @@ Managers should add approved growth and development programs to the [department 
 
 ### Books
 
-- [Refactoring UI](https://www.refactoringui.com/book) by Adam Wathan and Steve Schoger
+- [Refactoring UI](https://www.refactoringui.com/) by Adam Wathan and Steve Schoger
 - [About Face 3: The Essentials of Interaction Design](https://www.goodreads.com/book/show/289062.About_Face_3) by Alan Cooper, Robert Reimann, David Cronin
 
 ## Other GitLab resources

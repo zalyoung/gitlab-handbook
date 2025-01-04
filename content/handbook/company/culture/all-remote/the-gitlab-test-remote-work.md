@@ -19,7 +19,7 @@ For some, there's still a looming question: *How do I know if we're running a gr
 ![GitLab remote work checklist illustration](/images/all-remote/remote_checklist_illustration.jpg)
 {style="max-width: 50%;"}
 
-Enter **The GitLab Test: 12 Steps to Better Remote**. Kudos to [The Joel Test](https://www.joelonsoftware.com/2000/08/09/the-joel-test-12-steps-to-better-code) for the nomenclature inspiration.
+Enter **The GitLab Test: 12 Steps to Better Remote**. Kudos to [The Joel Test](https://www.joelonsoftware.com/2000/08/09/the-joel-test-12-steps-to-better-code/) for the nomenclature inspiration.
 
 The great part about this test is it takes around 10 minutes (or less, if you read quickly). Each question is a quick yes or no. A score of 12 is perfect and 11 is tolerable. 10 or lower indicates that there are significant [office-first strongholds](what-not-to-do/) which are preventing your organization from reaching the goal of Phase 4 of Remote Adaption— **[Intentionality](phases-of-remote-adaptation/#phase-4-intentionality)**.
 

@@ -73,7 +73,7 @@ Most phones and laptops come with passable webcams direct from the manufacturer.
 
 If you take frequent video calls in your home workspace, a dedicated webcam like the [Logitech Brio Ultra HD Pro](https://www.logitech.com/en-us/products/webcams/brio-4k-hdr-webcam.960-001105.html) offers a higher resolution camera compared to built-in cameras, and is better able to handle low-light scenarios. Many dedicated webcams also include a software suite for touching up one's appearance, tweaking white balance, and applying background themes when paired with a green screen. These are also less complicated to install and maintain compared with mirrorless/DSLR rigs.
 
-Consider [selecting a webcam](https://www.nytimes.com/wirecutter/reviews/the-best-webcams/) with a versatile mount, enabling it to be set atop a desktop monitor as well as a laptop. You can greatly improve the output from a dedicated webcam by focusing on [good lighting](https://www.nytimes.com/wirecutter/blog/video-call-lighting-tips).
+Consider [selecting a webcam](https://www.nytimes.com/wirecutter/reviews/the-best-webcams/) with a versatile mount, enabling it to be set atop a desktop monitor as well as a laptop. You can greatly improve the output from a dedicated webcam by focusing on [good lighting](https://www.nytimes.com/wirecutter/blog/video-call-lighting-tips/).
 
 Whether you're working with a webcam or the built-in device camera, you can optimize your space for better results. By utilizing a ring light or [Elgato Key Light](https://www.elgato.com/ww/en/p/key-light), and ensuring that there are no windows to your side or rear, you'll create a more even picture with fewer shadows. For more, read [5 tips for mastering video calls](https://about.gitlab.com/blog/2019/08/05/tips-for-mastering-video-calls/) on the GitLab blog.
 
@@ -93,7 +93,7 @@ What constitutes "good headphones" varies significantly depending on preference.
 
 Almost any phone or laptop comes with a built-in microphone that should be adequate for your needs. A pair of Bluetooth or wired earbuds with an in-line microphone can help reduce background noise, if you work in a noisy space. These are commonly included with most smartphones.
 
-However, if you frequently speak in front of audiences, record talks or podcasts, or simply wish to have excellent audio quality, invest in a [dedicated USB microphone](https://www.nytimes.com/wirecutter/reviews/the-best-usb-microphone) (and, if desired, a desk mount for added ergonomic positioning). For example, [Blue Microphones](https://www.logitechg.com/en-us/products/microphones.html) offers a variety of options that are crafted with creators, streamers, and podcasters in mind, and all provide exceptional clarity and noise reduction on [video calls](/handbook/communication/#video-calls).
+However, if you frequently speak in front of audiences, record talks or podcasts, or simply wish to have excellent audio quality, invest in a [dedicated USB microphone](https://www.nytimes.com/wirecutter/reviews/the-best-usb-microphone/) (and, if desired, a desk mount for added ergonomic positioning). For example, [Blue Microphones](https://www.logitechg.com/en-us/products/microphones.html) offers a variety of options that are crafted with creators, streamers, and podcasters in mind, and all provide exceptional clarity and noise reduction on [video calls](/handbook/communication/#video-calls).
 
 Several GitLab team members have positive experiences with the [M-Audio UberMic](https://www.amazon.com/M-Audio-Uber-Mic-Professional-Microphone/dp/B0767N58ZY).
 
@@ -101,13 +101,13 @@ Several GitLab team members have positive experiences with the [M-Audio UberMic]
 
 ### Monitor
 
-If you feel that your digital workspace is too cramped when relying solely on a laptop, consider using at least one [external monitor](https://www.nytimes.com/wirecutter/reviews/best-monitors). External monitors offer flexible positioning, which allows your neck to be situated in a more natural and ergonomically correct position.
+If you feel that your digital workspace is too cramped when relying solely on a laptop, consider using at least one [external monitor](https://www.nytimes.com/wirecutter/reviews/best-monitors/). External monitors offer flexible positioning, which allows your neck to be situated in a more natural and ergonomically correct position.
 
 If you do video calls often, an external display will enable you to use one screen for video chatting and another for documentation, referencing pages, etc.
 
-If you feel overwhelmed by too much information spread across multiple monitors, consider [window management software solutions](https://thesweetsetup.com/window-management-macos-2018) such as [Rectangle](https://github.com/rxhanson/Rectangle) and [Magnet](https://apps.apple.com/us/app/magnet/id441258766?ign-mpt=uo%3D4&mt=12).
+If you feel overwhelmed by too much information spread across multiple monitors, consider [window management software solutions](https://thesweetsetup.com/window-management-macos-2018/) such as [Rectangle](https://github.com/rxhanson/Rectangle) and [Magnet](https://apps.apple.com/us/app/magnet/id441258766?ign-mpt=uo%3D4&mt=12).
 
-If you'd like a portable monitor and you primarily use a MacBook laptop, consider expanding your visual workspace with [Sidecar](https://www.apple.com/newsroom/2019/06/apple-previews-macos-catalina) (available in macOS Catalina). This allows an iPad to double as a secondary display for your Mac.
+If you'd like a portable monitor and you primarily use a MacBook laptop, consider expanding your visual workspace with [Sidecar](https://www.apple.com/newsroom/2019/06/apple-previews-macos-catalina/) (available in macOS Catalina). This allows an iPad to double as a secondary display for your Mac.
 
 ### Teleprompter
 
@@ -120,7 +120,7 @@ Teleprompters enable eye contact similar to meeting someone in-person and can ma
 1. **Problem (Major):** When Zoom is on the teleprompter, the chat, controls, and screen sharing are extremely small and unusable. They have a "dual monitor" mode that is meant for screen sharing and it behaves as expected for n=3+ calls. But for 1:1 calls it unexpectedly puts yourself on the video window in the teleprompter.
     - *Mitigation:* We may need to wait for Zoom to roll out a new mode that is teleprompter-specific
 1. **Problem (Major):** The mouse, Zoom controls, and screen shared content are horizontally flipped on the teleprompter making it very difficult to work
-    - *Mitigation:* Buy [a device](https://telepromptermirror.com/hdmi-mirrorbox) that horizontally flips the HDMI output to the monitor mounted in the teleprompter
+    - *Mitigation:* Buy a device that horizontally flips the HDMI output to the monitor mounted in the teleprompter
 1. **Problem (Minor):** It's disconcerting that the audio of the person you're looking at is coming from your computer which is sitting to the side. This is especially true when you have a video monitor window on that computer that pulls your attention away from the teleprompter because it's brighter, larger, and syncs to the audio
     - *Mitigation:* External stereo speakers that mount to teleprompter
 1. **Problem (Minor):** It's harder to know when your camera is off when it's mounted in a teleprompter. And that's a problem if your office is a guest bedroom (or something)
@@ -137,7 +137,7 @@ Teleprompters enable eye contact similar to meeting someone in-person and can ma
 
 Laptop keyboards are engineered to *fit the laptop*, not to be ergonomic. Whenever possible, consider working in a space where there's room to utilize an external keyboard. This allows you to adjust the keyboard so that you're typing in a natural way, reducing strain on your wrists and fingers.
 
-There are a wide variety of ergonomic keyboards, and it's worth trying out a few in a retail location if possible. If this is not practical, Wirecutter has assembled [a well-researched guide on the best ergonomic keyboards](https://www.nytimes.com/wirecutter/reviews/comfortable-ergo-keyboard).
+There are a wide variety of ergonomic keyboards, and it's worth trying out a few in a retail location if possible. If this is not practical, Wirecutter has assembled [a well-researched guide on the best ergonomic keyboards](https://www.nytimes.com/wirecutter/reviews/comfortable-ergo-keyboard/).
 
 A traditional mouse can put strain on the wrist by creating movements in an unnatural position. Fortunately there are plenty of other options available such as vertical mice, trackpads, trackballs and pen tablets. Each has their own advantages. Find one that is comfortable for you and minimizes wrist movement as much as possible (vertical mice, for example, engage your shoulder and arm more than your wrist and trackballs rely on moving your fingers). You can also consider a left-handed mouse. Wirecutter and CNN Underscored both recommend the [Logitech MX Master 3](https://www.nytimes.com/wirecutter/reviews/logitech-mx-master-3-mouse-review/) mouse. See CNN Underscored for a list of other recomended ergonomic mice [here](https://www.cnn.com/cnn-underscored/reviews/best-ergonomic-mouse).
 
@@ -155,13 +155,13 @@ Keep in mind that work often happens [in multiple spaces](https://youtu.be/l9jmb
 
 Seating should be not viewed as an expense, but as an *investment* in your health, comfort, and productivity.
 
-Unless you plan to utilize a standing desk, which is covered below, your chair is likely to be the single most important element of your home office. Not all ergonomic chairs are created equal, and a chair that works well for one person may not be ideal for another. It's important to [consider your posture](https://my.clevelandclinic.org/health/articles/4485-back-health-and-posture), and make adjustments to habits if needed, to make the most of an ergonomic chair.
+Unless you plan to utilize a standing desk, which is covered below, your chair is likely to be the single most important element of your home office. Not all ergonomic chairs are created equal, and a chair that works well for one person may not be ideal for another. It's important to [consider your posture](https://health.clevelandclinic.org/health-effects-of-poor-posture), and make adjustments to habits if needed, to make the most of an ergonomic chair.
 
 **Many remote workers spend a significant portion of their day seated.** While [resources exist](https://www.steelcase.com/research/articles/topics/learning/an-arizona-state-study-movement-in-the-workplace/) to explain how frequently you should take a break, stand up, stretch, and engage in activity during the workday, you should be careful not to skimp on seating.
 
 If possible, visit a physical store to try out a variety of ergonomic seating options, or purchase online from a retailer that offers a generous return policy.
 
-[Steelcase](https://www.steelcase.com/products/office-chairs) and [MillerKnoll](https://www.hermanmiller.com/products/seating) both offer solid options. While retail pricing on chairs from these firms is very high, you can often find them used for less. To assist in your research, consider [Wirecutter's exhaustive (and continually updated) guide to office chairs](https://www.nytimes.com/wirecutter/reviews/best-office-chair/).
+[Steelcase](https://www.steelcase.com/products/office-chairs/) and [MillerKnoll](https://www.hermanmiller.com/products/seating/) both offer solid options. While retail pricing on chairs from these firms is very high, you can often find them used for less. To assist in your research, consider [Wirecutter's exhaustive (and continually updated) guide to office chairs](https://www.nytimes.com/wirecutter/reviews/best-office-chair/).
 
 **Employers:** Consider offering an [allowance](/handbook/finance/spending-company-money/) for employees to invest in a high-quality ergonomic chair.
 
@@ -177,17 +177,17 @@ Generally, a larger desk is preferred, as it reduces crowding. A clean, uncrowde
 
 #### Standing desks
 
-An adjustable standing desk is a great, ergonomic option. You can find standing desks at a variety of price points, heights, adjustability levels, and more. An adjustable desk allows you to easily move your desk higher in order to stand while working, and then adjust it back down to sit for a time. This is a good article on [The Best Standing Desks](https://www.nytimes.com/wirecutter/reviews/best-standing-desk) in higher price ranges.
+An adjustable standing desk is a great, ergonomic option. You can find standing desks at a variety of price points, heights, adjustability levels, and more. An adjustable desk allows you to easily move your desk higher in order to stand while working, and then adjust it back down to sit for a time. This is a good article on [The Best Standing Desks](https://www.nytimes.com/wirecutter/reviews/best-standing-desk/) in higher price ranges.
 
-GitLab team members have been satisfied with the value and quality of standing desks from [Autonomous](https://www.autonomous.ai), [IKEA](https://www.ikea.com/us/en/p/trotten-desk-sit-stand-white-s99429578/), [Fully](https://www.fully.com/standing-desks.html) and [WorkTrainer for small spaces](https://www.worktrainer.de/Kleiner-Wand-Sitz-Steh-Tisch-Walldesk-elektrisch).
+GitLab team members have been satisfied with the value and quality of standing desks from [Autonomous](https://www.autonomous.ai), [IKEA](https://www.ikea.com/us/en/p/trotten-desk-sit-stand-white-s99429578/), [Fully](https://store.hermanmiller.com/brands-fully) and [WorkTrainer for small spaces](https://www.worktrainer.de/Kleiner-Wand-Sitz-Steh-Tisch-Walldesk-elektrisch).
 
 Research is ongoing as to the [ideal ratio of sitting to standing](https://uwaterloo.ca/kinesiology-health-sciences/news/innovation-measuring-fatty-acids-saves-labs-time-and-money) during a workday.
 
-> Using advanced ergonomic and health risk calculations, [Jack Callaghan](https://uwaterloo.ca/kinesiology/people-profiles/jack-callaghan), a professor in Waterloo's Department of Kinesiology, has found that the ideal sit-stand ratio lies somewhere between 1:1 and 1:3  – a vast departure from traditional wisdom.
+> Using advanced ergonomic and health risk calculations, [Jack Callaghan](https://uwaterloo.ca/kinesiology-health-sciences/people-profiles/jack-callaghan), a professor in Waterloo's Department of Kinesiology, has found that the ideal sit-stand ratio lies somewhere between 1:1 and 1:3  – a vast departure from traditional wisdom.
 
 #### Standing mats
 
-If you plan to stand for an extended portion of your working day, consider investing in a [standing desk mat](https://www.nytimes.com/wirecutter/reviews/best-standing-desk-mat). Also called anti-fatigue mats, these cushion one's feet and allow natural weight shifting while working.
+If you plan to stand for an extended portion of your working day, consider investing in a [standing desk mat](https://www.nytimes.com/wirecutter/reviews/best-standing-desk-mat/). Also called anti-fatigue mats, these cushion one's feet and allow natural weight shifting while working.
 
 ### Office supplies
 
@@ -208,7 +208,7 @@ Meetings are about the work, [not the background](meetings/#meetings-are-about-t
 
 While studio lighting is ideal, not everyone will be inclined to install large, heat-generating light boxes in their home office. As remote work and live-streaming become more popular, companies are devising smaller solutions. Elgato's [Key Light](https://www.youtube.com/watch?v=d2qR-wMPoTE) is a great example. By placing one Key Light at the edge of a desk and facing its LEDs directly into the wall, a soft, refreshing light is [bounced back onto the participant](https://www.youtube.com/watch?v=RckLFNRKPfU).
 
-[DIY solutions](https://www.diyphotography.net/look-good-webcam-vlog) are relatively easy to create with a mount and a light ring.
+[DIY solutions](https://www.diyphotography.net/look-good-webcam-vlog/) are relatively easy to create with a mount and a light ring.
 
 Aside from your video setup, lighting is also an important factor in your overall comfort and productivity in your office space. Natural light is best, particularly when your desk is facing the light source to help avoid glare. If you don't have access to natural light, consider using adjustable bulbs to mimic natural lighting.
 
@@ -238,7 +238,7 @@ Research has [found](https://www.bbc.com/worklife/article/20160617-the-never-end
 
 - GitLab Head of Remote, Darren M., shares details on his work-from-home arrangement, which includes a mirrorless camera as a webcam for optimal video quality.
 - Job van der Voort, CEO at Remote, provides [a breakdown of his top-notch home office setup](https://remote.com/blog/maximum-productivity-home-office).
-- GitLab Developer Advocate Michael F. [details his current setup](https://dnsmichi.at/all-remote-workspace) with helpful tips on lighting, apps and settings, and how to personalize your workspace.
+- GitLab Developer Advocate Michael F. [details his current setup](https://dnsmichi.at/all-remote-workspace/) with helpful tips on lighting, apps and settings, and how to personalize your workspace.
 - Emma Bostian, Software Engineer at Spotify, [writes about her home-office tech setup for recording courses and podcasts](https://dev.to/emmabostian/lights-camera-action-my-tech-setup-for-recording-courses-podcasts-2p6j)
 - Andreas Klinger, founder at [Remote First Capital](https://www.remotefirstcapital.com), maintains an [ongoing Twitter thread](https://twitter.com/andreasklinger/status/1238325463300202497) of exceptional at-home workspaces.
 

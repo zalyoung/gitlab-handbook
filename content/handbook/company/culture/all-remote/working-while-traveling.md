@@ -36,7 +36,7 @@ If you plan to travel through [various countries and continents](https://about.g
 
 ### Buy local data with an eSIM, without changing your SIM card
 
-If your phone supports [eSIMs](https://www.digitaltrends.com/mobile/esim-explainer) you may also be able to use services like
+If your phone supports [eSIMs](https://www.digitaltrends.com/mobile/esim-explainer/) you may also be able to use services like
 [GigSky](https://www.gigsky.com) or [Airalo](https://www.airalo.com/) which allow you to purchase affordable local data plans
 on demand without needing to change SIM cards. Even if you don't purchase the plan
 you can use such a service as a redundant option if your local or roaming SIM
@@ -55,7 +55,7 @@ Some tips for using Airalo:
 
 Working while traveling requires a delicate balance. It's wise to have a minimalist mindset when it comes to equipment, as each additional item creates additional burden in transit.
 
-However, long-term travelers should consider health, ergonomics, and comfort, and invest in the appropriate equipment. Examples include laptop risers, global power adapters, external peripherals (keyboard, mouse, etc.), a backup battery, comfortable headphones, and a rugged backpack with support straps. [Secondary displays](https://support.apple.com/en-us/HT210380) add weight but may be worthwhile for the productivity gains.
+However, long-term travelers should consider health, ergonomics, and comfort, and invest in the appropriate equipment. Examples include laptop risers, global power adapters, external peripherals (keyboard, mouse, etc.), a backup battery, comfortable headphones, and a rugged backpack with support straps. [Secondary displays](https://support.apple.com/en-us/102597) add weight but may be worthwhile for the productivity gains.
 
 Consider where you plan to work on the road, and what elements of your [home workspace](workspace/) you may miss. This will help you plan your purchases, should any be necessary.
 
@@ -73,7 +73,7 @@ Being able to work from anywhere enables new lifestyle possibilities, including 
 
 Call campgrounds in advance and ask for speed test details on their WiFi, and use online coverage maps to determine what will be available from a mobile operator. Consider weather and facilities as well.
 
-For those looking for a somewhat more stable version of the continual road trip, consider long-term rentals or [couchsurfing](https://www.couchsurfing.com). Many rental properties on [VRBO](https://www.vrbo.com), [Airbnb](https://www.airbnb.com), etc. offer significant discounts for those willing to rent for one or more months. If you suspect you'll need a vehicle to properly explore the area, inquire with the host. It's possible that they have a personal vehicle to include for the length of your stay for a nominal fee. Be sure to ask for a speed test before booking to ensure that you will have a satisfactory internet connection upon arrival, and take at least one additional internet source (smartphone or mobile hotspot) as a backup.
+For those looking for a somewhat more stable version of the continual road trip, consider long-term rentals or [couchsurfing](https://www.couchsurfing.com/welcome). Many rental properties on [VRBO](https://www.vrbo.com), [Airbnb](https://www.airbnb.com), etc. offer significant discounts for those willing to rent for one or more months. If you suspect you'll need a vehicle to properly explore the area, inquire with the host. It's possible that they have a personal vehicle to include for the length of your stay for a nominal fee. Be sure to ask for a speed test before booking to ensure that you will have a satisfactory internet connection upon arrival, and take at least one additional internet source (smartphone or mobile hotspot) as a backup.
 
 ## Communicate your status and location
 

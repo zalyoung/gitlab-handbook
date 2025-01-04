@@ -79,7 +79,7 @@ Do I need GitLab too?  Am I missing anything by not working directly with GitLab
 
 1. GitSwarm is built on GitLab CE or EE.
 1. GitSwarm combines Perforce and GitLab to give developers a Git-based workflow they prefer while also providing an organization with enterprise-class scalability, security, and file management performance from Perforce.
-1. We're happy that Perforce chose GitLab to help their customers create, code, and deploy together. To learn more, have a look at the GitSwarm overview, https://www.perforce.com/gitswarm.
+1. We're happy that Perforce chose GitLab to help their customers create, code, and deploy together. To learn more, have a look at the GitSwarm overview, https://www.perforce.com/products/helix4git.
 1. How should GitLab account executives engage prospects that are currently using or evaluating GitSwarm?
     - If the prospect is already using GitSwarm CE, the GitLab channel representative should work with the Perforce account executive to focus on the benefits of upgrading the customer to GitSwarm EE.
     - Perforce customers can pay via a perpetual license fee up-front with an annual Support and Maintenance fee or they can purchase via an annual subscription fee.

@@ -42,7 +42,7 @@ In conventional organizations, multiple departments may maintain their own versi
 
 **Resource:** [The importance of a handbook-first approach to documentation](/handbook/company/culture/all-remote/handbook-first/) (article)
 
-**Resource:** [How Strong Documentation Powers Async Work](https://www.workplaceless.com/blog/how-strong-documentation-powers-async-work) (article)
+**Resource:** [How Strong Documentation Powers Async Work](https://www.workplaceless.com/blog/documentation-strong-async-work) (article)
 {{% /details %}}
 
 {{% details summary="Change management support for Single Source of Truth" %}}

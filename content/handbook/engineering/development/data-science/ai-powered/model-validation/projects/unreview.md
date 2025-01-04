@@ -39,9 +39,9 @@ UnReview consists of multiple components used for a variety of purposes, from da
 
 * [Apache Kafka](https://kafka.apache.org/): distributed event streaming and processing;
 * [Apache Hive](https://hive.apache.org/): data preprocessing including building train/test datasets;
-* [Azure Data Factory](https://azure.microsoft.com/en-us/services/data-factory/): orchestrating the preprocessing pipelines, managing the Hive cluster, and moving the processed data to MongoDB
+* [Azure Data Factory](https://azure.microsoft.com/en-us/products/data-factory/): orchestrating the preprocessing pipelines, managing the Hive cluster, and moving the processed data to MongoDB
 * [MongoDB](https://www.mongodb.com/): document-based database for storing the processed data
-* [Azure Blob Storage](https://azure.microsoft.com/en-us/services/storage/blobs/): temporary storage for the trained ML models and raw data
+* [Azure Blob Storage](https://azure.microsoft.com/en-us/products/storage/blobs/): temporary storage for the trained ML models and raw data
 
 The following chart provides more details on how the UnReview components relate to each other:
 

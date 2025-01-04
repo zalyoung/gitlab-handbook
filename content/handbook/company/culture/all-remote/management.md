@@ -21,7 +21,7 @@ In [this video](https://youtu.be/IFBj9KQSQXA), GitLab co-founder Sid Sijbrandij 
 
 In truth, managing an all-remote company is much like managing any other company. **It comes down to trust, communication, and company-wide support of shared goals**, all of which aid in [avoiding dysfunction](/handbook/values/#five-dysfunctions).
 
-Remote forces you to do the things you should be doing [way earlier and better](https://nohq.co/blog/sid-sijbrandij-people-dont-want-to-commute-they-ju). It forces discipline that sustains culture and efficiency [at scale](scaling/), particularly in areas which are easily deprioritized in small colocated companies.
+Remote forces you to do the things you should be doing [way earlier and better](https://nohq.co/blog/sid-sijbrandij-people-dont-want-to-commute-they-ju/). It forces discipline that sustains culture and efficiency [at scale](scaling/), particularly in areas which are easily deprioritized in small colocated companies.
 
 It's important to not assume that team members understand good remote work practices. GitLab managers are [expected]({{< ref "structure#management-group" >}}) to coach their reports to utilize [asynchronous communication](management/#asynchronous), be [handbook-first](/handbook/about/handbook-usage/#why-handbook-first), design an [optimal workspace](workspace/), and understand the importance of [self-learning/self-service](self-service/).
 
@@ -180,7 +180,7 @@ The first step in creating an atmosphere where colleagues are comfortable workin
 
 This mentality must be actively reinforced. For example, in [team social calls](informal-communication/#team-social-calls) where dozens of people join a video chat to bond as a team, an agenda allows those who cannot make it to add [shout-outs](/handbook/values/#say-thanks) or discussion points that a fellow colleague can verbalize. This is an intentional approach to not only working asynchronously, but socializing asynchronously.
 
-[Leonardo Federico](https://twitter.com/leonardofed), co-founder at [Sametab](https://www.sametab.com), offers an interesting perspective on asynchronous communication, noting that it [provides more optionality](https://www.sametab.com/blog/frameworks-for-remote-working).
+[Leonardo Federico](https://twitter.com/leonardofed), co-founder at [Sametab](https://www.sametab.com), offers an interesting perspective on asynchronous communication, noting that it [provides more optionality](https://web.archive.org/web/20200220025111/https://www.sametab.com/blog/frameworks-for-remote-working).
 
 > [Asynchronous] allows you to reorganize the company in a divisional organization more easily and embrace remote working even if you're colocated. Everything that works in an async fashion can also work sync but not vice-versa.
 

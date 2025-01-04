@@ -97,5 +97,5 @@ _Team members should familiarize themselves with personal brand tips and the Git
 _Here are additional resources on how to build your personal brand on social media._
 
 - [10 Golden Rules of Personal Branding](https://www.forbes.com/sites/goldiechan/2018/11/08/10-golden-rules-personal-branding/#4fd8637358a7)
-- [Personal Branding Trends to Tap Into](https://sproutsocial.com/insights/personal-branding-trends-social-media/)
+- [Personal Branding Trends to Tap Into](https://sproutsocial.com/insights/personal-branding/)
 - [The Ultimate Guide to Personal Branding](https://sproutsocial.com/insights/personal-branding/)

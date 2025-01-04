@@ -113,12 +113,12 @@ Please use [this issue when requesting an update to an existing video or edits t
 
 #### **Not sure if you need a brand refresh?** Here's what has changed with our branding
 
-1. [Logomark](https://design.gitlab.com/brand-logo/logomark) and [Core Logo](https://design.gitlab.com/brand-logo/core-logo) the rules around how to use it properly
-1. [Font and typography guidelines](https://design.gitlab.com/brand-design/typography)
-1. [Colors and color usage](https://design.gitlab.com/brand-design/color)
-1. [Marketing icons and illustration style](https://design.gitlab.com/brand-design/marketing-illustrations)
-1. Added [photography guidelines](https://design.gitlab.com/brand-design/photography) for our brand
-1. Small adjustments to [Tone of voice](https://design.gitlab.com/brand/overview/) and [co-branding guidelines](https://design.gitlab.com/brand-logo/branded-lockups)
+1. [Logomark](https://design.gitlab.com/brand-logo/logomark/) and [Core Logo](https://design.gitlab.com/brand-logo/core-logo/) the rules around how to use it properly
+1. [Font and typography guidelines](https://design.gitlab.com/brand-design/typography/)
+1. [Colors and color usage](https://design.gitlab.com/brand-design/color/)
+1. [Marketing icons and illustration style](https://design.gitlab.com/brand-design/marketing-illustrations/)
+1. Added [photography guidelines](https://design.gitlab.com/brand-design/photography/) for our brand
+1. Small adjustments to [Tone of voice](https://design.gitlab.com/brand/overview/) and [co-branding guidelines](https://design.gitlab.com/brand-logo/branded-lockups/)
 
 #### **Request Instructions and Tips:**
 
@@ -140,11 +140,11 @@ The best way to get in contact with the Brand design team is to fill out one of 
 
 ### Working with the brand
 
-To learn more about our [Brand Guidelines](https://design.gitlab.com/brand/overview?_gl=1%2a19y18w7%2a_ga%2aNzk5NDI4OTg0LjE2ODA4MDA5Nzk.%2a_ga_ENFH3X7M5Y%2aMTY4MjAyMjM3Ni4xMS4xLjE2ODIwMjI5MDUuMC4wLjA.), self-service resources and assets, and training materials, check out the [Brand Resources](https://design.gitlab.com/brand-overview/resources/) handbook. Below you will find more details about working with our brand and creative materials.
+To learn more about our [Brand Guidelines](https://design.gitlab.com/brand-overview/introduction), self-service resources and assets, and training materials, check out the [Brand Resources](https://design.gitlab.com/brand-overview/resources/) handbook. Below you will find more details about working with our brand and creative materials.
 
 #### Providing feedback
 
-The Brand Creative team is comprised of team members who all bring a variety of visual skills, knowledge, and brand expertise to each project. **Brand awareness**, **visual consistency**, and **business value** are the key factors we use to make creative decisions - all while we adhere to and build upon the systems outlined in our [brand guidelines](https://design.gitlab.com/brand-overview/introduction). When working with our team, it is important to provide [constructive feedback](/handbook/people-group/guidance-on-feedback/) by keeping these same factors in mind.
+The Brand Creative team is comprised of team members who all bring a variety of visual skills, knowledge, and brand expertise to each project. **Brand awareness**, **visual consistency**, and **business value** are the key factors we use to make creative decisions - all while we adhere to and build upon the systems outlined in our [brand guidelines](https://design.gitlab.com/brand-overview/introduction/). When working with our team, it is important to provide [constructive feedback](/handbook/people-group/guidance-on-feedback/) by keeping these same factors in mind.
 
 Constructive feedback takes into consideration our [values](/handbook/values/) of collaboration, efficiency, and results. The following tools can help keep feedback focused, all while allowing a project to move along in a timely manner:
 
@@ -162,7 +162,7 @@ Constructive feedback takes into consideration our [values](/handbook/values/) o
 
 When it comes to our brand, photography is a powerful medium that can better contextualize and humanize the complex stories we tell. Our team has gathered approved images in our [photo library](https://drive.google.com/drive/folders/1VHErs-KSNX1FIIVgXJR3OmIzwU7M4E1M?usp=sharing) that are ready-to-use. If you need images beyond what are in that library (this will be common until the library becomes larger over time), the Brand Design team has a license to download unlimited images from [Adobe Stock](https://stock.adobe.com/) (Note: Premium images are not included in our license).
 
-Review our [photography guidelines](https://design.gitlab.com/brand-design/photography) before searching for new images. For approval, download, and questions, [contact our team](/handbook/marketing/brand-and-product-marketing/design/#contacting-the-team) in Slack or the relevant issue.
+Review our [photography guidelines](https://design.gitlab.com/brand-design/photography/) before searching for new images. For approval, download, and questions, [contact our team](/handbook/marketing/brand-and-product-marketing/design/#contacting-the-team) in Slack or the relevant issue.
 
 #### Partnership with third parties
 
@@ -175,7 +175,7 @@ Whenever a third party is brought in to support design, the work must be shared 
 
 #### Fanart
 
-The GitLab brand has been a source of creative inspiration for team members and the wider community since its inception. In many cases, team members may find themselves creating spinoff art inspired by our [values](/handbook/values/), [software](https://about.gitlab.com/stages-devops-lifecycle/), and [tanuki](https://design.gitlab.com/brand-logo/logomark) logo.
+The GitLab brand has been a source of creative inspiration for team members and the wider community since its inception. In many cases, team members may find themselves creating spinoff art inspired by our [values](/handbook/values/), [software](https://about.gitlab.com/stages-devops-lifecycle/), and [tanuki](https://design.gitlab.com/brand-logo/logomark/) logo.
 
 Artwork that draws inspiration from or is based on GitLab's intellectual property ("Fanart") is not always an accurate representation of our brand, product, and company, and may dilute our brand or infringe on our intellectual property rights. To protect our brand, GitLab team members must adhere to the following guidelines:
 
@@ -271,25 +271,25 @@ Folders can contain Canva design files, sub-folders, and assets you upload from 
 
 **Typography**
 
-- Add text from either the `Text` or `Styles` tab; this will automatically populate text boxes for you with Inter and the appropriate font weight. These text boxes will still need to be formatted according to our [typography guidelines](https://design.gitlab.com/brand-design/typography), though:
+- Add text from either the `Text` or `Styles` tab; this will automatically populate text boxes for you with Inter and the appropriate font weight. These text boxes will still need to be formatted according to our [typography guidelines](https://design.gitlab.com/brand-design/typography/), though:
   - Left-align all text.
   - Use GitLab Sans Bold for headlines and calls-to-action and use Regular for subheads and body copy.
   - Set the line spacing to 1.1 for headlines and 1.2 for all other text; keep the letter spacing at 0 for all copy.
   - For call-to-action styling, copy from an existing [templates](https://www.canva.com/design/DAEn7PYZ4qk/sPB7Q15nJttFdb3UVPnW1Q/view?utm_content=DAEn7PYZ4qk&utm_campaign=designshare&utm_medium=link&utm_source=sharebutton&mode=preview) or reference the guidelines.
   - Make sure the background behind the text provides sufficient contrast for readability.
-  - Use either White or Charcoal text for [accessibility](https://design.gitlab.com/brand-design/color#contrast-and-accessibility) purposes.
+  - Use either White or Charcoal text for [accessibility](https://design.gitlab.com/brand-design/color/#contrast-and-accessibility) purposes.
 
 **Graphics**
 
 - You can search and add graphics from the `Elements` tab, but please use with discretion. This tab is great for finding basic shapes, lines, and image frames; beyond that, use graphics from the GitLab [icon library](https://gitlab.com/gitlab-com/marketing/corporate_marketing/corporate-marketing/-/tree/master/design/_resources/_designer-resources/assets/icon-library/marketing-icons) to keep your design on-brand.
 - All elements can be dragged and dropped into your design. Upload branded assets in the `Uploads` tab. The .png file format with a transparent background works best.
-- For most Canva elements, you can adjust the color of the graphic to make sure you're using GitLab's color palette. Refer to the [color guidelines](https://design.gitlab.com/brand-design/color) and use the accent colors sparingly.
-- You can also change the line weight of some Canva elements. To keep consistent with our [illustration guidelines](https://design.gitlab.com/brand-design/marketing-illustrations), a line weight of 1-2 works best.
+- For most Canva elements, you can adjust the color of the graphic to make sure you're using GitLab's color palette. Refer to the [color guidelines](https://design.gitlab.com/brand-design/color/) and use the accent colors sparingly.
+- You can also change the line weight of some Canva elements. To keep consistent with our [illustration guidelines](https://design.gitlab.com/brand-design/marketing-illustrations/), a line weight of 1-2 works best.
 
 **Photography**
 
 - If you need to add photos into your design, it is best to use our approved images from our [photo library](https://drive.google.com/drive/folders/1VHErs-KSNX1FIIVgXJR3OmIzwU7M4E1M?usp=sharing) instead of Canva's photography shown in the Elements tab.
-- Reference our [photography guidelines](https://design.gitlab.com/brand-design/photography) when selecting and placing imagery.
+- Reference our [photography guidelines](https://design.gitlab.com/brand-design/photography/) when selecting and placing imagery.
   - You can request for the Brand Design team to source images from [Adobe Stock](https://stock.adobe.com/) for you, if you need additional options.
 
 **Layout and alignment**

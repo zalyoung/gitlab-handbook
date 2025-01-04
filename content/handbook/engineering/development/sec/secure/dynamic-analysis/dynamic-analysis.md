@@ -317,7 +317,7 @@ When there are too few or no work items in the `workflow::refinement` or the `wo
 /label `~workflow::planning breakdown`
 ```
 
-If a bluepriting effort is beyond the scope of the Dyanmic Analysis group, affecting multiple teams, consider adding it as a design document using [this process](/handbook/engineering/architecture/workflow/#design-documents). A list of all architecture design documents at GitLab can be found [here](https://docs.gitlab.com/ee/architecture).
+If a bluepriting effort is beyond the scope of the Dyanmic Analysis group, affecting multiple teams, consider adding it as a design document using [this process](/handbook/engineering/architecture/workflow/#design-documents). A list of all architecture design documents at GitLab can be found [here](https://docs.gitlab.com/ee/architecture/).
 
 #### Issue breakdown
 

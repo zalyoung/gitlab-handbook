@@ -57,7 +57,7 @@ Various verticals and industries face specific challenges as they address their 
 - [3 challenges for healthcare IT](https://www.healthdatamanagement.com/opinion/how-3-major-challenges-will-shape-healthcare-it-in-2018)
 - [Four IT Challenges for healthcare in 2018](https://thedoctorweighsin.com/four-it-challenges-facing-healthcare-organizations-in-2018/)
 - [Top IT issues in 2018](https://web.archive.org/web/20200606205436/https://www.advisory.com/research/health-care-it-advisor/it-forefront/2018/01/top-it-2018)
-- [How GitLab can help HIPAA compliance](https://about.gitlab.com/solutions/hipaa-compliance/)
+- [How GitLab can help HIPAA compliance](https://docs.gitlab.com/ee/administration/compliance.html)
 
 ### Oil & gas/energy
 

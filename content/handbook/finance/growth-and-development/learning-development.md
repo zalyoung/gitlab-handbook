@@ -36,7 +36,7 @@ GitLab is [committed to providing the time]({{< ref "learning-initiatives#take-t
 ##### Online courses
 
 - [Rosemary King: Stakeholders, let 'em in](https://www.mindtheproduct.com/stakeholders-building-an-open-door-culture/) (20 min video)
-- [Managing Project Stakeholders](https://www.linkedin.com/learning/managing-project-stakeholders-2?u=2255073) (LinkedIn Learning course)
+- [Managing Project Stakeholders](https://www.linkedin.com/learning/managing-project-stakeholders-2) (LinkedIn Learning course)
 
 ### Cross-functional team management
 

@@ -7,7 +7,7 @@ twitter_site: "@gitlab"
 twitter_creator: "@gitlab"
 ---
 
-Due to global issues concerning [COVID-19 (Coronavirus)](https://www.cdc.gov/coronavirus/2019-ncov/index.html), many employees and employers are facing a new reality: they're remote, and they're unsure of when they'll be able to return to the office.
+Due to global issues concerning [COVID-19 (Coronavirus)](https://www.cdc.gov/covid/index.html), many employees and employers are facing a new reality: they're remote, and they're unsure of when they'll be able to return to the office.
 
 For **leaders** who are suddenly managing work-from-home teams, there are five things you can focus on right now to maximize stability.
 

@@ -33,7 +33,7 @@ For more information about various uses of Jira Please check out the [Get starte
    mkdir  jira && cd jira
    ```
 
-1. Choose the version of Jira that you want to download from [Atlassian Jira Website](https://www.atlassian.com/software/jira/update).
+1. Choose the version of Jira that you want to download from [Atlassian Jira Website](https://www.atlassian.com/software/jira/download-archives).
 
    We will be using the  Jira 8.13 version so that we can test all supported GitLab integrations. However, this will not work for OAuth2.0  integration so we will later upgrade Jira to test the connection.
 
