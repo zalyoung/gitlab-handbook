@@ -49,7 +49,7 @@ Pricing plans: https://about.gitlab.com/pricing/
 Pricing strategy: /company/pricing/
 History: https://about.gitlab.com/company/history/
 About: https://about.gitlab.com/company/
-All Remote: https://handbook.gitlab.com/handbook//company/culture/all-remote/
+All Remote: https://handbook.gitlab.com/handbook/company/culture/all-remote/
 GitLab Unfiltered on YouTube https://www.youtube.com/channel/UCMtZ0sc1HHNtGGWZFDRTh5A/videos
 ```
 

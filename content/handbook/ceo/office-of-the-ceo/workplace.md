@@ -151,16 +151,16 @@ Top questions from suddenly or newly-remote companies
 <p>Below are the most common questions asked by suddenly or newly-remote companies, linked to relevant handbook pages that you can study prior to presenting. These shed light on their challenges, and will help you proactively speak to common needs, misconceptions, and struggles.</p>
 
 <ol>
-   <li>How do you <a href="/handbook//company/culture/all-remote/building-culture/">maintain and build company culture</a> in a remote work environment?</li>
-   <li>How do we <a href="/handbook//company/culture/all-remote/informal-communication/">maintain and build new work relationships</a> without seeing each other in-person on a regular basis?</li>
-   <li>How do we <a href="/handbook//company/culture/all-remote/mental-health/">prevent burnout, isolation, and mental health crises</a>?</li>
+   <li>How do you <a href="/handbook/company/culture/all-remote/building-culture/">maintain and build company culture</a> in a remote work environment?</li>
+   <li>How do we <a href="/handbook/company/culture/all-remote/informal-communication/">maintain and build new work relationships</a> without seeing each other in-person on a regular basis?</li>
+   <li>How do we <a href="/handbook/company/culture/all-remote/mental-health/">prevent burnout, isolation, and mental health crises</a>?</li>
    <li>How do we <a href="/handbook/company/culture/all-remote/meetings/">combat Zoom fatigue</a> (e.g. exhaustion associated with nonstop video calls)?</li>
    <li>How we do handle <a href="/handbook/total-rewards/compensation/">compensation changes</a> if people permanently relocate to work remotely?</li>
    <li>How do we ensure that <a href="/handbook/leadership/">employees are productive</a> when we cannot physically see them?</li>
-   <li>How does one <a href="/handbook//company/culture/all-remote/being-a-great-remote-manager/">become a great remote manager</a>?</li>
+   <li>How does one <a href="/handbook/company/culture/all-remote/being-a-great-remote-manager/">become a great remote manager</a>?</li>
    <li>How do you <a href="https://www.coursera.org/learn/remote-team-management">effectively lead remote teams</a>?</li>
-   <li>How do you <a href="/handbook//company/culture/all-remote/onboarding/">onboard</a> and <a href="/handbook//company/culture/all-remote/learning-and-development/">train/educate</a> remotely?</li>
-   <li>How do you <a href="/handbook//company/culture/all-remote/collaboration-and-whiteboarding/">collaborate and whiteboard</a> remotely?</li>
+   <li>How do you <a href="/handbook/company/culture/all-remote/onboarding/">onboard</a> and <a href="/handbook/company/culture/all-remote/learning-and-development/">train/educate</a> remotely?</li>
+   <li>How do you <a href="/handbook/company/culture/all-remote/collaboration-and-whiteboarding/">collaborate and whiteboard</a> remotely?</li>
    </ol>
 </details>
 

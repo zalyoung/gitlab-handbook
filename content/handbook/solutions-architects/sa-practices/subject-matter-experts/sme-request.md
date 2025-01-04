@@ -13,7 +13,7 @@ To request a Subject Matter Expert (SME) for an opportunity, follow these steps:
   * To submit a request for help from a SME, select the **SME Request** workflow in the Slack channel from the "_Workflows_" tab below the channel name.
 
   ![SME Request Workflow](/images/solution-architects/initiate_sme_request.png)
-  
+
   * Alternatively, you can type "_/sme_" in the Slack message field and hit Enter to open the request form after you have previously opened the workflow at least once.
 
   ![Slash SME Request Alternative](/images/solution-architects/slash_sme.png)
@@ -143,9 +143,9 @@ This is the list of Content, SMEs are responsible for creating or gathering:
 -Frequently asked questions\
 -List of any Recorded enablement sessions\
 -Work with PMs for Golden demos\
--[Hands-on workshops](/handbook.gitlab.com/handbook//solutions-architects/tools-and-resources/workshop/)\
+-[Hands-on workshops](/handbook.gitlab.com/handbook/solutions-architects/tools-and-resources/workshop/)\
 -Technical evaluation guidelines\
--[POV](/handbook.gitlab.com/handbook//solutions-architects/tools-and-resources/pov/) templates\
+-[POV](/handbook.gitlab.com/handbook/solutions-architects/tools-and-resources/pov/) templates\
 -Competitive intelligence
 
 #### **Request for Best Practices** {#sme-best-practice}
