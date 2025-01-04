@@ -125,11 +125,11 @@ Please use your [GitLab Sandbox Cloud](/handbook/company/infrastructure-standard
 1. Ensure you have selected your own project at the top of [GCC](https://console.cloud.google.com).
 1. Open the navigation menu at the top of [GCP](https://console.cloud.google.com)
 1. Select **Kubernetes Engine > Create Cluster** from the dashboard.
-1. Enter a name, select a zone, and choose the default static master version unless you have a specific reason to use an alternative version.  It's important to use a server version that will [match your kubectl client version](https://kubernetes.io/docs/tasks/tools/install-kubectl/#before-you-begin).
+1. Enter a name, select a zone, and choose the default static master version unless you have a specific reason to use an alternative version.  It's important to use a server version that will [match your kubectl client version](https://kubernetes.io/docs/tasks/tools/#before-you-begin).
 
 All of the remaining options can be left as their default settings unless you have a need to add customization to your cluster.  Of note, the Maximum Pods per Node option [directly correlates with the CIDR assignment](https://cloud.google.com/kubernetes-engine/docs/how-to/flexible-pod-cidr?_ga=2.246280516.-1734733517.1581009580) of your node(s).
 
-Connecting to, and configuring, your cluster can be done locally using [gcloud](https://cloud.google.com/sdk/docs#install_the_latest_cloud_tools_version_cloudsdk_current_version) and [kubectl](https://kubernetes.io/docs/tasks/tools/install-kubectl/#download-as-part-of-the-google-cloud-sdk). Or you can use the Google Cloud Shell.  Clicking Connect in GCP will provide the command to run locally for you to copy and paste, or let you open Cloud Shell immediately. Using [docker images](https://hub.docker.com/r/kiwigrid/gcloud-kubectl-helm) is also an option for a quick deployment of all tools locally.
+Connecting to, and configuring, your cluster can be done locally using [gcloud](https://cloud.google.com/sdk/docs#install_the_latest_cloud_tools_version_cloudsdk_current_version) and [kubectl](https://kubernetes.io/docs/tasks/tools/#download-as-part-of-the-google-cloud-sdk). Or you can use the Google Cloud Shell.  Clicking Connect in GCP will provide the command to run locally for you to copy and paste, or let you open Cloud Shell immediately. Using [docker images](https://hub.docker.com/r/kiwigrid/gcloud-kubectl-helm) is also an option for a quick deployment of all tools locally.
 </div>
 </details>
 
@@ -340,7 +340,7 @@ For GitLab instances specifically, it's recommended that [LetsEncrypt is manuall
 
  Implementing TLS on any test instance that includes a login page can be done with a self-signed certificate if desired.  Self-signed certificates are free, suitable for testing environments, and encrypt ingress and egress traffic with the same ciphers as paid certificates.  The down-side is that self-signed certificates are not trusted by any browser or operating system and will therefore warn users of the risks when accessing a site that utilizes a self-signed (untrusted) certificate.  If external parties will be accessing your instance that should rely on your TLS implementation, it's best to include a signed certificate from a legitimate certificate authority.
 
-Self-signed certificates can be generated with a tool like [`mkcert`](https://mkcert.dev). Once `mkcert` has been installed, you can this command to generate a certificate file and a key file for `gitlab.example.com`:
+Self-signed certificates can be generated with a tool like [`mkcert`](https://github.com/FiloSottile/mkcert). Once `mkcert` has been installed, you can this command to generate a certificate file and a key file for `gitlab.example.com`:
 
 ```sh
 mkcert gitlab.example.om
@@ -386,7 +386,7 @@ sudo chmod a+x /opt/gitlab/embedded/bin/exiftool
 
 ### Docker
 
-If you'd like to use [Docker Desktop for Mac](https://www.docker.com/get-started) a subscription is required for business use. Please review the [Docker Desktop handbook page](/handbook/tools-and-tips/mac/#docker-desktop) to find more information on how to obtain a license as well as a list of recommended alternatives.
+If you'd like to use [Docker Desktop for Mac](https://www.docker.com/get-started/) a subscription is required for business use. Please review the [Docker Desktop handbook page](/handbook/tools-and-tips/mac/#docker-desktop) to find more information on how to obtain a license as well as a list of recommended alternatives.
 
 In the mean time, consider using a Cloud or local VM with [Linux Engine](https://hub.docker.com/search?q=&type=edition&offering=community&operating_system=linux) for testing Docker environments.
 
@@ -449,7 +449,7 @@ From [Introduction to Vagrant](https://developer.hashicorp.com/vagrant/intro)
 
 Vagrant encapsulates the local VM apps VMWare and Virtual along with [libvirt](https://libvirt.org/).
 
-To install Vagrant, go to [tutorials/vagrant/getting-started-install](https://learn.hashicorp.com/tutorials/vagrant/getting-started-install?in=vagrant/getting-started)
+To install Vagrant, go to [tutorials/vagrant/getting-started-install](https://developer.hashicorp.com/vagrant/tutorials/getting-started/getting-started-install)
 
 Once installed, [support/toolbox](https://gitlab.com/gitlab-com/support/toolbox) has two projects which you can explore for local GitLab and tools setup.
 
@@ -467,7 +467,7 @@ Once installed, [support/toolbox](https://gitlab.com/gitlab-com/support/toolbox)
 
 Multipass is a tool to generate cloud-style Ubuntu VMs quickly on Linux, macOS, and Windows. This method is similar to Vagrant.
 
-It can be [installed using brew](https://multipass.run/docs/installing-on-macos#heading--use-brew) or the [package installer](https://multipass.run/docs/installing-on-macos#heading--use-the-installer-package).
+It can be [installed using brew](https://canonical.com/multipass/docs/install-multipass) or the [package installer](https://canonical.com/multipass/docs/install-multipass).
 
 NOTE: Some Mac users may experience a [long standing bug](https://github.com/canonical/multipass/issues/2387) where the MacOS firewall prevents Multipass from functioning consistently. Use macOS 13.3.1 or above to avoid this issue.
 
@@ -507,7 +507,7 @@ Once installed, use `multipass help` to get an idea of what it can do. The gener
     - `multipass list` or `multipass ls` to see all instances
     - `multipass stop gitlab-omnibus` to stop the instance
     - `multipass delete gitlab-omnibus` to delete the instance
-    - Change the default `open shell` menu item by [using duti](https://multipass.run/docs/changing-terminal#heading--using-duti)
+    - Change the default `open shell` menu item by [using duti](https://canonical.com/multipass/docs/changing-terminal)
 
 ##### GitLab Runner
 
@@ -703,7 +703,7 @@ docker exec -it gitlab-ee gitlab-ctl reconfigure
 ## Windows
 
 It may come to pass that you require a Windows environment to test a [Windows Runner](https://docs.gitlab.com/runner/install/windows.html) or
-even the [Kubernetes Executor in a Mixed Cluster](https://docs.gitlab.com/runner/executors/kubernetes.html#example-for-windowsamd64).
+even the [Kubernetes Executor in a Mixed Cluster](https://docs.gitlab.com/runner/executors/kubernetes/index.html#example-for-windowsamd64).
 
 The options are the same as above:
 

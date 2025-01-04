@@ -15,7 +15,7 @@ status: active
 | Slack | `#g_ai_framework` - Channel for the AI Framework Team which is building the base for all features (experimentation API, Abstraction Layer, Embeddings, etc.) |
 | Slack | `#ai_strategy` - Discussion on strategic and business initiatives surrounding AI/ML at GitLab. |
 | Slack | `#ai-infrastructure` - Infrastructure/Platform support for AI integration. See also [&969](https://gitlab.com/groups/gitlab-com/gl-infra/-/epics/969). |
-| AI Architecture Documentation | [Doc](https://docs.gitlab.com/ee/development/ai_architecture) |
+| AI Architecture Documentation | [Doc](https://docs.gitlab.com/ee/development/ai_architecture/) |
 | Google Doc      | [Working Group Agenda](https://docs.google.com/document/d/19jVbWVYUPW3m7d2SzsXa2zXIAW7pSb2tdQ-AXWzT_DE/edit) |
 | Feature Tracking | [Sheet](https://docs.google.com/spreadsheets/d/1rDEQjJ6NYRdXL9GT6xCSgrRdA-VU3gSnIh-JrjxByA8/edit#gid=0) |
 | YouTube playlist | [Playlist on GitLab Unfiltered](https://www.youtube.com/playlist?list=PL05JrBw4t0KqFfwW4qBmATBftnvEwxXpg) |
@@ -142,7 +142,7 @@ You can contact this group via Slack in [#g_ai_model_validation](https://gitlab.
 
 AI Framework exposes AI services and the underlying models (third party or native GitLab models) to all product groups.
 
-- The AI Framework group enables the rest of the development department to build AI features through the [abstraction layer](https://docs.gitlab.com/ee/development/ai_features).
+- The AI Framework group enables the rest of the development department to build AI features through the [abstraction layer](https://docs.gitlab.com/ee/development/ai_features/).
 - The abstraction layer supports OpenAI and is being extended to support equivalent Google AI functionality. Other commercial, open-source, and GitLab custom-built models are also being considered.
 - This group empowers other groups to evaluate models via *manual human testing*, through the [Experimentation API](https://docs.gitlab.com/ee/development/ai_features/).
 - This group works with Ruby on Rails as they make it easy for the GitLab product to add AI functionality through the `gitlab/gitlab-org` repo.

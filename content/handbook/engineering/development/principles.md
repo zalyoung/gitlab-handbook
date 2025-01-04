@@ -310,7 +310,7 @@ Follow the [dogfooding process described in the Product Handbook](/handbook/prod
 
 We need to maintain code quality and standards. It's very important that you are familiar with the [Development Guides](https://docs.gitlab.com/ee/development/) in general, and the ones that relates to your group in particular:
 
-- [UX Guides](https://docs.gitlab.com/ee/development/ux)
+- [UX Guides](https://docs.gitlab.com/ee/development/ux/)
 - [Backend Guides](https://docs.gitlab.com/ee/development/#backend-guides)
 - [Frontend Guides](https://docs.gitlab.com/ee/development/fe_guide/index.html)
 - [Database Guides](https://docs.gitlab.com/ee/development/#database-guides)

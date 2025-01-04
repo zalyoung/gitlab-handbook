@@ -58,7 +58,7 @@ Confidentiality is of extreme importance when administering surveys. We keep all
 
 ### Demographics
 
-Demographics are used to filter reports for surveys or to build the criteria for who should receive a survey response request. These demographics (`Division, Department, etc.`) are sent over from Workday as part of the integration with Culture Amp and if the requestor knows they will want to filter reporting by certain demographics they can specify this in the request. If there are demographics that they would like to filter by that are not present in the Workday integration then they can work with the People Analytics team to gather this information using the survey itself. Culture Amp allows for requesting ["self-reported"](https://support.cultureamp.com/en/articles/7048570-include-additional-self-report-demographics-in-a-survey) demographics in the survey.
+Demographics are used to filter reports for surveys or to build the criteria for who should receive a survey response request. These demographics (`Division, Department, etc.`) are sent over from Workday as part of the integration with Culture Amp and if the requestor knows they will want to filter reporting by certain demographics they can specify this in the request. If there are demographics that they would like to filter by that are not present in the Workday integration then they can work with the People Analytics team to gather this information using the survey itself. Culture Amp allows for requesting ["self-reported"](https://support.cultureamp.com/en/articles/7048570-including-self-reporting-demographics-in-a-survey) demographics in the survey.
 
 ### Launch Plan
 

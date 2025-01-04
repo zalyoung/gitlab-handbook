@@ -98,7 +98,7 @@ You can determine the revision SHA deployed on a GitLab instance by either navig
 by calling the `https://www.example.com/api/v4/version` API or by running `/chatops run auto_deploy status` in a Slack
 channel such as #chat-ops-test.
 
-You can also determine if your commit has been deployed on a GitLab environment using [ChatOps](https://docs.gitlab.com/ee/ci/chatops).
+You can also determine if your commit has been deployed on a GitLab environment using [ChatOps](https://docs.gitlab.com/ee/ci/chatops/).
 For example, if your commit ref is `347e530c5b3dec60c0ce2870bc79ca4c8273604d` you can run this command in a Slack
 channel such as #chat-ops-test:
 

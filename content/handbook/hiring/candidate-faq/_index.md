@@ -34,7 +34,7 @@ If you are a [current team member and are interested in applying]({{< ref "promo
 
 1. Log in to your [Greenhouse account](https://gitlab.greenhouse.io/dashboard)
 1. If you are a GitLab team member who signed in to Greenhouse you can access the [Internal Job Board](https://gitlab.greenhouse.io/internal_job_board). If you do not yet have a Greenhouse account, you can activate yours by clicking the Greenhouse tile in Okta.
-1. You can also access the internal job board under the "Helpful Links" section. For more information (and screenshots!), feel free to read the [Greenhouse help article](https://support.greenhouse.io/hc/en-us/articles/200913945-Employee-Access-to-Internal-Job-Board).
+1. You can also access the internal job board under the "Helpful Links" section. For more information (and screenshots!), feel free to read the [Greenhouse help article](https://support.greenhouse.io/hc/en-us/articles/200913945-Access-your-internal-job-board).
 1. Click on the position title that interests you.
 1. You will be redirected to the vacancy description and application form, where you will be asked to fill out basic personal information, provide your resume, LinkedIn, GitLab username, and/or cover letter, and answer any vacancy-specific application questions, as well as answer a voluntary Equal Employment Opportunity questionnaire if the position is open to US applicants.
 1. Once you have finished, click "Submit Application" at the bottom.
@@ -238,7 +238,7 @@ Our [mission]({{< ref "mission" >}}) makes it clear that we believe in a world w
 {{% details summary="Explore the resources below for a deeper understanding of working at GitLab — one of the world's largest all-remote companies" %}}
 
 - [Life at GitLab](https://about.gitlab.com/jobs/)
-- [How We're Changing the Look of DevOps and Remote Work, One Iteration at a Time](https://builtin.com/brand-studio/gitlab-changing-look-devops-remote-work?utm_source=linkedin&utm_medium=social_media&utm_campaign=gitlab)
+- [How We're Changing the Look of DevOps and Remote Work, One Iteration at a Time](https://builtin.com/articles/gitlab-changing-look-devops-remote-work)
 - [GitLab's guide to starting a new remote role](/handbook/company/culture/all-remote/getting-started/)
 - [Life at GitLab Content Library](/handbook/people-group/employment-branding/content-library)
 {{% /details %}}

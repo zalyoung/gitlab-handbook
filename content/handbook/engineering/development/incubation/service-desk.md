@@ -130,7 +130,7 @@ If you want to get more into the details, [check out the merge request which als
 
 ### Background
 
-We have a [Service Desk offering](https://about.gitlab.com/direction/service_management/service_desk) in GitLab that we'd like
+We have a [Service Desk offering](https://about.gitlab.com/direction/service_management/service_desk/) in GitLab that we'd like
 to make an integral part of the GitLab support workflow. We have early usage, a community of prolific contributors and
 a new team ([Respond group in Monitor stage](/handbook/product/categories/#respond-group)) onboarding to
 the new domain.

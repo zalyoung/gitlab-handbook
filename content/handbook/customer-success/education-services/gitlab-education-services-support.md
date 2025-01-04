@@ -15,7 +15,7 @@ This handbook will detail how to handle support inquiries for the Education Serv
 - [LevelUp Google Group](https://groups.google.com/a/gitlab.com/g/levelup) (Inbox for <levelup@gitlab.com>)
 - [Certification Grading Wiki](https://gitlab.com/gitlab-com/customer-success/professional-services-group/education-services/-/wikis/home)
 - [Zapier](https://zapier.com/app/zaps/folder/840205)
-- [Credly](https://www.credly.com/organizations/gitlab/badges)
+- [Credly](https://www.credly.com/organizations/gitlab/badges/badges)
 
 If you do not have access to these systems, please complete an [Access Request](/handbook/it/end-user-services/onboarding-access-requests/access-requests/). To see who owns these systems or who is able to provision these accounts, see the [GitLab Tech Stack](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/data/tech_stack.yml).
 
@@ -65,9 +65,9 @@ Please see the following handbook page for [Zapier Training](/handbook/support/r
 
 ---
 
-In order to access Credly, login to the site [here](https://www.credly.com/). If you do not have access, please complete an [Access Request](/handbook/it/end-user-services/onboarding-access-requests/access-requests/).
+In order to access Credly, login to the site [here](https://info.credly.com/). If you do not have access, please complete an [Access Request](/handbook/it/end-user-services/onboarding-access-requests/access-requests/).
 
-[GitLab Organization Profile](https://www.credly.com/organizations/gitlab)
+[GitLab Organization Profile](https://www.credly.com/organizations/gitlab/badges)
 
 [Credly Issuer Support Center](https://credlyissuer.zendesk.com/hc/en-us)
 

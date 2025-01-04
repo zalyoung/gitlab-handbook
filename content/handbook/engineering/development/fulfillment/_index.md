@@ -3,7 +3,7 @@ title: Fulfillment Sub-department
 description: "The Fulfillment Sub-department is composed of the Billing and Subscription Management, Fulfillment Platform, Provision, Purchase, and Utilization development teams working on the infrastructure between the systems which affect the user purchasing process that support the GitLab DevOps Platform."
 ---
 
-- [Direction](https://about.gitlab.com/direction/fulfillment)
+- [Direction](https://about.gitlab.com/direction/fulfillment/)
 - [Groups](https://about.gitlab.com/direction/fulfillment/#groups)
 - [Team](/handbook/engineering/development/fulfillment/#team-members)
 
@@ -18,7 +18,7 @@ Fulfillment focuses on improving our capabilities and metrics in the following a
 - [Platform](/handbook/product/categories/#fulfillment-platform-group): [Team](/handbook/engineering/development/fulfillment/fulfillment-platform/#team-members)
 - [Provision](/handbook/product/categories/#provision-group): [Team](/handbook/engineering/development/fulfillment/provision/#team-members)
 - Purchase
-- [Subscription Management](/handbook/product/categories/#subscription-management-group): [Features](https://about.gitlab.com/direction/fulfillment/subscription-management#feature-overview-and-maturity)
+- [Subscription Management](/handbook/product/categories/#subscription-management-group): [Features](https://about.gitlab.com/direction/fulfillment/subscription-management/#feature-overview-and-maturity)
 - [Utilization](/handbook/engineering/development/fulfillment/utilization/): [Team](/handbook/engineering/development/fulfillment/utilization/#team-members)
 
 ## Direction
@@ -77,7 +77,7 @@ On occasion, it may be prudent to include language like the following to the des
 
 Similarly, not all information should be included in the public handbook. Instead, use the [private internal handbook](https://internal.gitlab.com/) for this SAFE information.
 
-Please reference this documentation about [promising features in future versions](https://docs.gitlab.com/ee/development/documentation/versions.html#promising-features-in-future-versions) for more information.
+Please reference this documentation about [promising features in future versions](https://docs.gitlab.com/ee/development/documentation/styleguide/availability_details.html#promising-features-in-future-versions) for more information.
 
 ### Planning
 
@@ -505,7 +505,7 @@ Planned/automated test cases in the CustomersDot project can be found [here](htt
 
 The CustomersDot has different types of tests running:
 
-1. Linting and [rubocop](https://github.com/rubocop-hq/rubocop) jobs
+1. Linting and [rubocop](https://github.com/rubocop/rubocop) jobs
 1. Unit tests (specs, these could be of many types, such as controller specs)
 1. Integration tests (specs, mocking external calls)
 1. Frontend tests

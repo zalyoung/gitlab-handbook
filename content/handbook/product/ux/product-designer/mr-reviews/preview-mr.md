@@ -57,7 +57,7 @@ Additionally, building these skills has the added benefit of empowering designer
 To use Gitpod you must create a Gitpod account (free) and connect it to your GitLab
 account. If you launch Gitpod from any project on GitLab.com your accounts are
 automatically connected (see links below). If for some reason that doesn't work,
-see [how to manually connect your GitLab.com account](https://www.gitpod.io/docs/gitlab-integration#connecting-your-gitlab.com-account).
+see [how to manually connect your GitLab.com account](https://www.gitpod.io/docs/configure/authentication/gitlab#connecting-your-gitlab.com-account).
 
 - [Use Gitpod for any project](https://docs.gitlab.com/ee/integration/gitpod.html#launch-gitpod-in-gitlab)
 - [Use Gitpod for the GitLab project](https://gitlab.com/gitlab-org/gitlab-development-kit/-/blob/main/doc/howto/gitpod.md) (i.e. cloud GDK)

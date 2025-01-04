@@ -36,7 +36,7 @@ Particularly for interns who are in university, or recently graduated, they may 
 
 Remote internships are more common than ever, though finding them can be challenging. Below, we're highlighting destinations that feature remote internships, where employers can post and job seekers can apply.
 
-- [Covintern](https://covintern.com/jobs)
+- [Covintern](https://covintern.com/jobs/)
 - [RemoteOK](https://remoteok.io/remote-internships)
 
 ## What makes a remote internship different?
@@ -59,7 +59,7 @@ Like any remote-working situation, remote internships have multiple [advantages]
 
 It is unlikely that an intern will be equipped to be a [manager of one](/handbook/values/#managers-of-one), and companies should expect interns to require a great deal of hand-holding.
 
-Learn more about the importance of clear [communication]({{< ref "communication" >}}), intentional [onboarding](learning-and-development/#how-do-you-onboard-new-team-members), and utilizing [asynchronous workflows](asynchronous/) in a Harvard Business School article entitled "[Best practices for creating a successful virtual internship](https://www.hbs.edu/recruiting/blog/post/best-practices-for-creating-a-successful-virtual-internship)."
+Learn more about the importance of clear [communication]({{< ref "communication" >}}), intentional [onboarding](learning-and-development/#how-do-you-onboard-new-team-members), and utilizing [asynchronous workflows](asynchronous/) in a Harvard Business School article entitled "[Best practices for creating a successful virtual internship](https://www.hbs.edu/recruiting/insights-and-advice/blog/post/best-practices-for-creating-a-successful-virtual-internship)."
 
 ## What are the best practices for managing a remote internship?
 
@@ -184,10 +184,10 @@ If you don't hire your remote intern/s at the end of their internship experience
 1. Acknowledge intern contributions in team meetings, issues, company calls, 1-1 meetings.
 1. Send a gift or a swag bag to commemorate their contributions.
 
-Don't forget to gather information they are willing to share such as their email address, LinkedIn profile, or handles for other social channels so you can stay in touch. Who knows...maybe a [position at GitLab](https://about.gitlab.com/jobs) will come available that you can hire them for!
+Don't forget to gather information they are willing to share such as their email address, LinkedIn profile, or handles for other social channels so you can stay in touch. Who knows...maybe a [position at GitLab](https://about.gitlab.com/jobs/) will come available that you can hire them for!
 
 ## Contribute your lessons
 
-GitLab is currently piloting an [engineering internship program](/handbook/engineering/internships). We expect to learn a great deal from the experience, while documenting challenges and solutions. If you or your organization has experience offering remote internships which would benefit the greater world, consider creating a [merge request](https://docs.gitlab.com/ee/user/project/merge_requests) and adding a contribution to this page.
+GitLab is currently piloting an [engineering internship program](/handbook/engineering/internships). We expect to learn a great deal from the experience, while documenting challenges and solutions. If you or your organization has experience offering remote internships which would benefit the greater world, consider creating a [merge request](https://docs.gitlab.com/ee/user/project/merge_requests/) and adding a contribution to this page.
 
 Return to the main [all-remote page]({{< ref "_index.md" >}}).

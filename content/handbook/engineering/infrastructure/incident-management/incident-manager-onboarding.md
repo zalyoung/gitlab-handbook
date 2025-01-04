@@ -160,7 +160,7 @@ Example 2, Covering for someone.  Go to the [schedule in PagerDuty](https://gitl
 ### What role of Pagerduty shall I request?
 
 A **Professional Plus - Responder Role** is sufficient to be an Incident Manager.
-[PagerDuty Roles reference](https://support.pagerduty.com/docs/advanced-permissions#base-roles)
+[PagerDuty Roles reference](https://support.pagerduty.com/main/docs/advanced-permissions#base-roles)
 
 ### What if I am not available for my assigned shift?
 
@@ -218,7 +218,7 @@ Benefits of adding the PagerDuty IMOC schedule into Google Calendar:
 
 New schedules are [announced](#how-are-incident-managers-scheduled) in the [#im-general](https://gitlab.slack.com/archives/C01NY82EJF6) channel every month.
 
-If you want to get notified when you are added to or removed from a schedule, or changes are made to your shifts, make sure to turn on the [On-Call Boosters](https://support.pagerduty.com/docs/mobile-app-settings#on-call-boosters) setting in the [PagerDuty App on your phone](https://support.pagerduty.com/docs/mobile-app).
+If you want to get notified when you are added to or removed from a schedule, or changes are made to your shifts, make sure to turn on the [On-Call Boosters](https://support.pagerduty.com/main/docs/mobile-app-settings#on-call-boosters) setting in the [PagerDuty App on your phone](https://support.pagerduty.com/main/docs/mobile-app).
 
 ## Learning about Incident Management
 

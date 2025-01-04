@@ -138,7 +138,7 @@ Exceptions to this policy will be tracked as per the [Information Security Polic
 
 - [Controlled Document Procedure]({{< ref "controlled-document-procedure" >}})
 
-`*` The references (e.g. "AC-2(a)") are detailed in [NIST SP 800-53 Rev. 5](https://csrc.nist.gov/publications/detail/sp/800-53/rev-5/final).
+`*` The references (e.g. "AC-2(a)") are detailed in [NIST SP 800-53 Rev. 5](https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final).
 
 `**` The role of "administrator" or "site administrator" implies the main responsible overseer of the GitLab instance. Within GitLab SaaS this is known as the Owner. In a self-managed instance and Dedicated this is the Admin.
 

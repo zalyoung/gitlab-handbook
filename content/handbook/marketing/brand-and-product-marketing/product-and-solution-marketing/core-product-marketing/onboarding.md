@@ -110,7 +110,7 @@ Pay special attention to the [**coffee chats**](/handbook/company/culture/all-re
 
 | **Get to know the competition:**  | Recordings  |
 | ------ | ------ |
-|   1. [Walkthrough of DevOps tools landscape page](https://about.gitlab.com/competition/)  | [Recording](https://drive.google.com/open?id=1G95CzcxvxmWHU-PRJ8BjoC9h3ZGmzJfM) |
+|   1. [Walkthrough of DevOps tools landscape page](https://about.gitlab.com/why-gitlab/)  | [Recording](https://drive.google.com/open?id=1G95CzcxvxmWHU-PRJ8BjoC9h3ZGmzJfM) |
 
 ### **Analyst Relations**
 

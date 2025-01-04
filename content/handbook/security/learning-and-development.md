@@ -23,7 +23,7 @@ The ability to pursue professional trainings is of critical importance to securi
 Some great security trainings are available at the following providers:
 
 - [SANS](https://www.sans.org/cyber-security-courses/)
-- [Offensive Security](https://www.offensive-security.com/courses-and-certifications/)
+- [Offensive Security](https://www.offsec.com/courses-and-certifications/)
 - [PluralSight](https://www.pluralsight.com/browse/information-cyber-security)
 - [Udemy](https://www.udemy.com/courses/it-and-software/network-and-security/)
 

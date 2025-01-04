@@ -452,15 +452,15 @@ Team members are encouraged to review additional information on [working time in
 
 GitLab's [PTO policy](paid-time-off) overrides over GitLab Canada Corp in the sense that the policies listed here are stating the statutory minimum that each GitLab Canada Corp team member must take to be compliant with relevant provincial laws. For more information, refer to the applicable employment standards legislation of the Province in which you reside.
 
-- [Alberta Employment Standards](https://www.alberta.ca/employment-standards.aspx)
+- [Alberta Employment Standards](https://www.alberta.ca/employment-standards)
 - [British Columbia Employment Standards](https://www2.gov.bc.ca/gov/content/employment-business/employment-standards-advice/employment-standards)
 - [Manitoba Employment Standards](https://www.gov.mb.ca/labour/standards/doc,quick_guide,factsheet.html)
 - [New Brunswick Employment Standards](https://laws.gnb.ca/en/showfulldoc/cs/E-7.2//20220106)
 - [Newfoundland and Labrador Labor Standards](https://www.gov.nl.ca/ecc/labour/lsaissues/)
 - [Northwest Territories Employment Standards](https://www.ece.gov.nt.ca/en/services/employment-standards)
 - [Nova Scotia Labor Standards](https://novascotia.ca/lae/employmentrights/docs/LabourStandardsCodeGuide.pdf)
-- [Nunavut Labor Standards](https://www.nu-nlsb.ca/)
-- [Ontario Employment Standards](https://www.labour.gov.on.ca/english/es/)
+- [Nunavut Labor Standards](https://nu-nlsb.ca/)
+- [Ontario Employment Standards](https://www.ontario.ca/document/your-guide-employment-standards-act-0)
 - [Prince Edward Island Employment Standards](https://www.princeedwardisland.ca/en/information/workforce-advanced-learning-and-population/employment-standards-in-pei)
 - [Quebec Labor Standards](https://www.cnesst.gouv.qc.ca/sites/default/files/documents/labour-standards-quebec.pdf)
 - [Saskatchewan Employment Standards](https://www.saskatchewan.ca/business/employment-standards)

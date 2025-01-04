@@ -74,16 +74,16 @@ If you're an organization that invests in local entrepreneurs, innovation projec
 
 This is also a community-focused option for real estate owners who no longer have corporate tenants occupying spaces that were previously outfitted for offices.
 
-Co-working and networking spaces can become hubs for entrepreneurs and startups looking to connect with their community without an expensive investment in office space. Some co-working spaces even specialize in supporting specific audiences. For example, [these co-working spaces](https://www.nexudus.com/blog/1414921425/10-co-working-spaces-around-the-world-offering-childcare) around the world provide on-site childcare for working parents.
+Co-working and networking spaces can become hubs for entrepreneurs and startups looking to connect with their community without an expensive investment in office space. Some co-working spaces even specialize in supporting specific audiences. For example, [these co-working spaces](https://www.nexudus.com/blog/1414921425/10-co-working-spaces-around-the-world-offering-childcare/) around the world provide on-site childcare for working parents.
 
 ## Examples of companies repurposing office space
 
 These companies have already taken innovative approaches to how they've reduced or reinvented their office space to support their team's needs for the future. This is not an exhaustive list, and we encourage contributions to it.
 
-- [Cimpress/Vista](https://cimpress.com/accelerating-with-remote-first): Shifted to a remote-first model and reduced their overall office footprint. They're turning remaining offices into collaboration centers for team members to gather.
-- [Atlassian](https://thinkremote.com/atlassian-office-redesign): Transitioned a ["TEAM Anywhere"](https://www.atlassian.com/practices/use-cases/team-anywhere) distributed model. The company redesigned its Austin office to be more equipped to support both remote and in-office employees.
+- [Cimpress/Vista](https://cimpress.com/accelerating-with-remote-first/): Shifted to a remote-first model and reduced their overall office footprint. They're turning remaining offices into collaboration centers for team members to gather.
+- [Atlassian](https://thinkremote.com/atlassian-office-redesign/): Transitioned a ["TEAM Anywhere"](https://www.atlassian.com/practices/use-cases/team-anywhere) distributed model. The company redesigned its Austin office to be more equipped to support both remote and in-office employees.
 - [Hubspot](https://www.hubspot.com/hybrid): Shifted to a hybrid model that allows team members to choose from three primary work environments: home, flex, or office. They redesigned their offices to better serve "flex" and "office" employees, while working to make their perks and benefits location agnostic.
-- [Amazon](https://deadline.com/2020/05/amazon-turns-office-building-homeless-shelter-seattle-1202942304): Partnered with a non-profit organization to turn one of its headquarters buildings in Seattle into a homeless shelter and community support center.
+- [Amazon](https://deadline.com/2020/05/amazon-turns-office-building-homeless-shelter-seattle-1202942304/): Partnered with a non-profit organization to turn one of its headquarters buildings in Seattle into a homeless shelter and community support center.
 
 ## Alternative uses for office space
 
@@ -91,11 +91,11 @@ Here are other examples that owners of commercial office space could consider in
 
 - [Residential space](https://www.npr.org/2022/03/23/1088272830/how-an-empty-office-becomes-a-home)
 - [Affordable housing](https://www.nytimes.com/2021/03/29/nyregion/remote-work-coronavirus-pandemic.html)
-- [Gyms](https://news.crunchbase.com/news/vacant-office-space-proptech-startups-repurpose)
+- [Gyms](https://news.crunchbase.com/startups/vacant-office-space-proptech-startups-repurpose/)
 - Classrooms and learning centers
-- [Vertical and container farms](https://gardenculturemagazine.com/repurposing-empty-skyscrapers-into-urban-farms)
+- [Vertical and container farms](https://gardenculturemagazine.com/repurposing-empty-skyscrapers-into-urban-farms/)
 - Warehouses and distribution centers
-- [Mixed-use buildings that meet both living and working needs](https://www.workdesign.com/2020/10/how-do-cre-organizations-think-workspace-will-be-repurposed-post-covid-19)
+- [Mixed-use buildings that meet both living and working needs](https://www.workdesign.com/2020/10/how-do-cre-organizations-think-workspace-will-be-repurposed-post-covid-19/)
 - Co-working spaces
 
 ## Invest in your team's **remote** workspaces
@@ -111,7 +111,7 @@ You can find more guidance on how to invest in your team's workspace in [this gu
 
 ## Contribute your lessons
 
-GitLab believes that all-remote is the [future of work]({{< ref "remote-vision" >}}), and remote companies have a shared responsibility to show the way for other organizations who are embracing it. If you or your company has an experience that would benefit the greater world, consider creating a [merge request](https://docs.gitlab.com/ee/user/project/merge_requests) and adding a contribution to this page.
+GitLab believes that all-remote is the [future of work]({{< ref "remote-vision" >}}), and remote companies have a shared responsibility to show the way for other organizations who are embracing it. If you or your company has an experience that would benefit the greater world, consider creating a [merge request](https://docs.gitlab.com/ee/user/project/merge_requests/) and adding a contribution to this page.
 
 ---
 

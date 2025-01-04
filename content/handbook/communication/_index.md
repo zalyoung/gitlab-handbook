@@ -625,7 +625,7 @@ Make sure you're never screen sharing when people are introducing themselves.
 1. When scheduling a meeting we value people's time and prefer the "speedy meetings" [setting in our Google Calendar](https://calendar.google.com/calendar/r/settings). This gives us meetings of, for example, 25 or 50 minutes leaving some time to:
    - Write notes and reflect
    - Respond to urgent messages
-   - Take a [bio break](https://www.merriam-webster.com/words-at-play/bio-break-meaning-and-origin)
+   - Take a [bio break](https://www.merriam-webster.com/wordplay/bio-break-meaning-and-origin)
    - Stretch your legs
    - Grab a snack
 1. When scheduling a meeting, please try to have it start at :00 (hour) or :30 (mid-hour) to leave common start times available for other meetings on your attendees' calendars. Meetings should be for the time needed, so if you need 15 minutes just book that.
@@ -1033,7 +1033,7 @@ Simple Language is important both when we're speaking to other team members and 
 
 Be sure to use Simple Language in written communications as well.
 Our handbook, website, docs, marketing materials, and candidate or customer emails should be clear, concise, and effective.
-Corporate marketing maintains guidelines on [GitLab's tone of voice](https://design.gitlab.com/brand/overview#tone-of-voice).
+Corporate marketing maintains guidelines on [GitLab's tone of voice](https://design.gitlab.com/brand/overview/#tone-of-voice).
 
 | Instead of...                       | Try...                                        |
 | ----------------------------------- | --------------------------------------------- |
@@ -1110,7 +1110,7 @@ We have a low internal email culture, as we see greater efficiency in other form
 1. Where appropriate, consider using professional salutations including Hi or Hello and avoid colloquial expressions such as Hey, Oh, or Sup. Sometimes only the person's name is suitable. The level of formality should often mirror the formality from previous messages when communicating with internal team members as well as external persons.
 1. Try to always use a person's name when starting or responding to a message, especially if there are multiple persons cc'd, so that the addressee knows you are addressing them.
 1. Make sure all relevant letters and words that need capitalization are capitalized, such as the start of sentences or the word "I".
-1. Proofread your messages so that sentences are punctuated correctly, typos are fixed, and grammar is corrected. Consider using the really helpful [Grammarly](https://app.grammarly.com/) tool - this tool is great for both native English speakers and for those who use English as an additional language.
+1. Proofread your messages so that sentences are punctuated correctly, typos are fixed, and grammar is corrected. Consider using the really helpful [Grammarly](https://www.grammarly.com/) tool - this tool is great for both native English speakers and for those who use English as an additional language.
 1. All messages and replies are signed with a professional send-off (ex. Best regards), your name, and your signature block.
 
 ## Slack
@@ -1359,7 +1359,7 @@ Pages like this are part of the [handbook](/handbook/). The GitLab handbook is t
 
 ### GitLab repositories
 
-`repository`/`repositories` are where files are kept under [source code management](https://about.gitlab.com/stages-devops-lifecycle/source-code-management/). In most cases, requires MRs to merge. The Handbooks are in a repository, our code is in a repository, etc.
+`repository`/`repositories` are where files are kept under [source code management](https://about.gitlab.com/solutions/source-code-management/). In most cases, requires MRs to merge. The Handbooks are in a repository, our code is in a repository, etc.
 
 ### READMEs
 

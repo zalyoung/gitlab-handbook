@@ -38,15 +38,15 @@ For example, we should have one SSoT for how to articulate the value of GitLab.
 1. [Sales training](/handbook/sales/training/)
 1. [Sales enablement sessions](/handbook/sales/training/sales-enablement-sessions/)
 1. [Field enablement](/handbook/sales/field-operations/field-enablement/)
-1. [GitLab Training tracks](https://about.gitlab.com/learn/)
+1. [GitLab Training tracks](https://university.gitlab.com/)
 1. [GitLab University](https://university.gitlab.com/)
 1. [Customer Success Skills Exchange Sessions](/handbook/sales/training/customer-success-skills-exchange/)
 1. [Professional services offerings](/handbook/customer-success/professional-services-engineering/framework/#service-offering-framework/)
 1. [Onboarding]({{< ref "general-onboarding" >}}) both general and department specific
-1. [Learn@GitLab](https://about.gitlab.com/learn/)
+1. [Learn@GitLab](https://university.gitlab.com/)
 1. [Customer Success GitLab Demos platform & catalog](https://gitlabdemo.com/)
 1. [Customer Services Guided Explorations](https://gitlab.com/guided-explorations) ([How Guided Explorations are engineered for compounded reuse for competency development](https://gitlab.com/guided-explorations/guided-exploration-concept/-/blob/master/README.md))
-1. [Udemy course](https://www.udemy.com/gitlab-for-beginners/)
+1. [Udemy course](https://www.udemy.com/course/gitlab-for-beginners/)
 1. [Education service offering](https://about.gitlab.com/services/education/)
 
 ## Content

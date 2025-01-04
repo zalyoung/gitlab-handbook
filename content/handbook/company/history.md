@@ -24,7 +24,7 @@ On October 14, 2021, GitLab Inc. [became a publicly traded company](https://abou
 
 ### *2020: The world's largest all-remote company*
 
-With over 1,200 team members in more than 65 countries, we believe we were the world's largest all-remote company prior to the COVID-19 pandemic. Every single team member is remote, with no central headquarters and no company-owned offices anywhere in the world. GitLab has [raised $426M to date](https://about.gitlab.com/press/releases/2019-09-17-gitlab-raises-268m-to-expanding-leading-devops-platform.html).
+With over 1,200 team members in more than 65 countries, we believe we were the world's largest all-remote company prior to the COVID-19 pandemic. Every single team member is remote, with no central headquarters and no company-owned offices anywhere in the world. GitLab has [raised $426M to date](https://about.gitlab.com/press/releases/2019-09-17-gitlab-raises-268m-to-expanding-leading-devops-platform/).
 
 ### *2019: Contribute*
 
@@ -63,7 +63,7 @@ In the end of that year we submitted [our application to Y Combinator](https://a
 
 Large organizations running GitLab asked Sid to add features that they needed.
 At the same time Dmitriy tweeted out to the world that he wanted to work on GitLab full time.
-Sid and Dmitriy teamed up and introduced [GitLab Enterprise Edition](https://about.gitlab.com/releases/2013/07/22/announcing-gitlab-enterprise-edition) with the features asked for by larger organizations. Sid authored the [initial commit](https://gitlab.com/gitlab-com/www-gitlab-com/-/commit/d69bc4c1acb61666e20ec62a2a0907d535176753) on GitLab's website repository.
+Sid and Dmitriy teamed up and introduced [GitLab Enterprise Edition](https://about.gitlab.com/releases/2013/07/22/announcing-gitlab-enterprise-edition/) with the features asked for by larger organizations. Sid authored the [initial commit](https://gitlab.com/gitlab-com/www-gitlab-com/-/commit/d69bc4c1acb61666e20ec62a2a0907d535176753) on GitLab's website repository.
 
 ### *2012: GitLab.com*
 
