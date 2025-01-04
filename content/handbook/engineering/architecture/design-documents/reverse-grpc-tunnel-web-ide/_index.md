@@ -71,7 +71,10 @@ need to build a new SSH tunnel in KAS to allow for SSH connectivity to the
 Workspace, but we do not anticipate there should be any technical limits
 preventing us from doing this. The largest architectural part of this work would
 be building an SSH server into KAS which authenticates users based on our
-preferred SSH authentication mechanisms.
+preferred SSH authentication mechanisms. This work is not mutually
+exclusive with
+[ongoing work to change the way our SSH proxy works](https://gitlab.com/groups/gitlab-org/-/epics/13984)
+as this network tunnel could be used for websocket-based SSH tunneling.
 
 ![reverse gRPC tunnel into Workspaces](/images/handbook/engineering/architecture/design-documents/reverse-grpc-tunnel-web-ide/workspace-grpc-tunnel.png)
 
