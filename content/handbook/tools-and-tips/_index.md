@@ -233,7 +233,7 @@ If this doesn't work, request that IT Ops reset your 2FA setting.
 
 Links for finding the settings:
 
-- iOS: [Get help with the date and time on your iPhone, iPad, and iPod touch - Apple Support](https://support.apple.com/en-us/HT203483)
+- iOS: [Get help with the date and time on your iPhone, iPad, and iPod touch - Apple Support](https://support.apple.com/en-us/101619)
 - macOS: [If the date or time is wrong on your Mac - Apple Support](https://support.apple.com/en-ca/guide/mac-help/mchlp2996/mac)
 - Linux (using systemd): [systemd-timesyncd - ArchWiki](https://wiki.archlinux.org/title/Systemd-timesyncd)
 
@@ -311,7 +311,7 @@ source ~/.bashrc
 
 **For Zsh:**
 
-On macOS Catalina, ZSH is the [default shell](https://support.apple.com/en-us/HT208050).
+On macOS Catalina, ZSH is the [default shell](https://support.apple.com/en-us/102360).
 By installing [Oh My ZSH!](https://ohmyz.sh/), the git plugin is automatically loaded and shows the current git branch.
 
 Another option would be:
@@ -404,7 +404,7 @@ We [don't have a corporate VPN](/handbook/security#why-we-dont-have-a-corporate-
 Remember that if your job has restrictions based upon geolocation (for example supporting customers with specific data restrictions and country-based access), a personal VPN may not be the best choice as often the VPN vendor routes traffic through other countries.
 If this restriction applies to you, consider tethering.
 [Tethering](https://en.wikipedia.org/wiki/Tethering) is when you set up your mobile phone as a hotspot and connect your laptop up to it via Wi-Fi, avoiding the unsecured Wi-Fi network.
-There is more information [here](https://www.computerworld.com/article/2499772/how-to-use-a-smartphone-as-a-mobile-hotspot.html) on the subject, and as long as your data plan supports it, you should be good to go.
+There is more information [here](https://www.computerworld.com/article/1536443/how-to-use-a-smartphone-as-a-mobile-hotspot.html) on the subject, and as long as your data plan supports it, you should be good to go.
 Double check before international travel, as it may be supported but have hidden costs.
 
 When connecting to a network with a [captive portal](https://en.wikipedia.org/wiki/Captive_portal), most websites will not load as modern sites use HTTPS, and captive portals interrupt that process.
@@ -486,7 +486,7 @@ There may be services that only offer SMS as their 2FA solution, so in those cas
 
 - If you have an old phone (5+ years old) you might want to consider upgrading the SIM to a recent one, as these are not susceptible to the SIMJacker issues.
 - Contact your phone carrier and ask if there are additional security measures to protect your account besides security questions, such as a PIN. In lieu of that, you could also try setting your mother's maiden name or family pet security questions to something more, shall we say, unique (e.g. `Hdyla86kajDF64asdlui`).
-- Set a SIM PIN. For iOS devices, follow these [instructions from Apple](https://support.apple.com/en-us/HT201529). For Android devices, start with [these instructions](https://www.digitalcitizen.life/how-change-or-remove-sim-pin-android-2-steps/) but contact your phone's manufacturer website if the instructions do not fit your particular model.
+- Set a SIM PIN. For iOS devices, follow these [instructions from Apple](https://support.apple.com/en-us/118228). For Android devices, start with [these instructions](https://www.digitalcitizen.life/how-change-or-remove-sim-pin-android-2-steps/) but contact your phone's manufacturer website if the instructions do not fit your particular model.
 - Complain to the service to offer more than just SMS for 2FA! The more complaints they get, the more likely they might be to offer more secure options.
 
 ### Additional 2FA Concerns

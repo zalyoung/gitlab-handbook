@@ -309,7 +309,7 @@ To return your laptop to GitLab, please contact `itops@gitlab.com` immediately u
 
 This section of the Accounting Department.
 
-To remove someone from Navan Expense Log in to [Navan Expense](https://www.expensify.com/signin) and go to "Settings" in the left sidebar.
+To remove someone from Navan Expense Log in to [Navan Expense](https://app.navan.com/app/liquid/) and go to "Settings" in the left sidebar.
 Select the right policy based upon the entity that employs the team member. Select "People" in the left menu.
 Select the individual's name and click "Remove".
 If the person has a Corporate Credit Card assigned to them, please notify Accounts Payable before un-assigning it.

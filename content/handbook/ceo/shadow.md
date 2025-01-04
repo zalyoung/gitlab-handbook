@@ -169,7 +169,7 @@ Outgoing shadows are responsible for training incoming shadows. We currently tra
 
 #### Consider creating goals
 
-Consider adding goals for your time as a CEO Shadow, and adding them to your onboarding issue. To make your goals more actionable, you may want to use the [SMART goals framework](https://www.mindtools.com/pages/article/smart-goals.htm).
+Consider adding goals for your time as a CEO Shadow, and adding them to your onboarding issue. To make your goals more actionable, you may want to use the [SMART goals framework](https://www.mindtools.com/a4wo118/smart-goals).
 
 Making goals will help you reflect upon your overall CEO Shadow experience more easily, and it may help you write a better video or blog post after you complete the program.
 
@@ -532,7 +532,7 @@ CEO Shadows should join earnings calls via the registration [link open to the pu
 
 #### Earnings Callbacks
 
-CEO Shadows are allowed to join earnings callbacks unless otherwise noted as *no shadows*. CEO Shadows should set their Zoom settings to have **[mute mic when joining](https://support.zoom.us/hc/en-us/articles/203024649-Muting-your-microphone-when-joining-a-meeting)** and **[stop my video when joining a meeting](https://support.zoom.us/hc/en-us/articles/4404456197133-Turning-video-off-when-joining-a-meeting)** for **all callbacks** prior to joining the first callback session.
+CEO Shadows are allowed to join earnings callbacks unless otherwise noted as *no shadows*. CEO Shadows should set their Zoom settings to have **[mute mic when joining](https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0062614)** and **[stop my video when joining a meeting](https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0062043)** for **all callbacks** prior to joining the first callback session.
 
 ### Removing yourself from personal CEO documents
 
@@ -774,7 +774,7 @@ CEO Shadow Program alumni are welcome to join the `#ceo-shadow-alumni` Slack cha
 | 2021-11-15 | 2021-12-03 | [Sincheol (David) Kim](https://gitlab.com/dskim_gitlab) | Sr. Backend Engineer | |
 | 2021-11-30 | 2021-12-10 | [Amy Qualls](https://gitlab.com/aqualls) | Sr. Technical Writer | |
 | 2021-12-06 | 2021-12-17 | [James Heimbuck](https://gitlab.com/jheimbuck_gl) | Sr. Product Manager | |
-| 2021-12-13<br>2022-01-03 | 2021-12-17<br>2022-01-07 | [Cynthia Ng](https://gitlab.com/cynthia) | Sr. Support Engineer | [CEO Shadow Reflection](https://wp.me/pHQ83-1Id) |
+| 2021-12-13<br>2022-01-03 | 2021-12-17<br>2022-01-07 | [Cynthia Ng](https://gitlab.com/cynthia) | Sr. Support Engineer | [CEO Shadow Reflection](https://cynthiang.ca/2022/01/07/reflection-on-my-ceo-shadow-rotation-at-gitlab/) |
 | 2022-01-10 | 2022-01-21 | [Marshall Cottrell](https://gitlab.com/marshall007) | Strategy and Operations (Technical) | |
 | 2022-01-04 | 2022-01-14 | [Josh Zimmerman](https://gitlab.com/Josh_Zimmerman) | Learning & Development Manager | [What I Learned From Shadowing the CEO of GitLab](https://www.linkedin.com/pulse/what-i-learned-from-shadowing-ceo-gitlab-josh-zimmerman/?trackingId=fNh8oCxzT9uxnuQffP%2Fd1A%3D%3D) |
 | 2022-01-18 | 2022-01-28 | [Cesar Saavedra](https://gitlab.com/csaavedra1) | Sr. Technical Marketing Manager | [Being a GitLab CEO Shadow](https://www.linkedin.com/pulse/being-gitlab-ceo-shadow-cesar-saavedra/?trackingId=y6tHk3NjTLyW1yPhu%2Bm7Zw%3D%3D) |

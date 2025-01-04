@@ -96,6 +96,6 @@ sequenceDiagram
 
 ## Reference Links
 
-- [Runway Docs](https://runway.gitlab.com/)
+- [Runway Docs](https://docs.runway.gitlab.com/)
 - [Epic: Runway - Platform tooling to support AI Innovation](https://gitlab.com/groups/gitlab-com/gl-infra/-/epics/969)
 - [Blueprint: GitLab Service-Integration: AI and Beyond](https://docs.gitlab.com/ee/architecture/blueprints/gitlab_ml_experiments/index.html)

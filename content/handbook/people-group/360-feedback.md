@@ -128,7 +128,7 @@ Direct reports of managers that participate in the 360 feedback process will be 
 ### Culture Amp Resources For Coaches
 
 1. [360 feedback overview for coaches](https://support.cultureamp.com/en/articles/7048473-guide-to-managing-the-360-review-process-as-a-coach)
-1. [Coach's guide to taking action on Effectiveness 360 feedback](https://support.cultureamp.com/hc/en-us/articles/208687485-Coach-s-guide-to-taking-action-on-Effectiveness-360-surveys)
+1. [Coach's guide to taking action on Effectiveness 360 feedback](https://support.cultureamp.com/en/articles/7048680-coach-s-guide-to-taking-action-on-effectiveness-360-surveys)
 
 #### Checklist For Coaches
 
@@ -273,7 +273,7 @@ Once feedback has been delivered, we recommend the manager and team member agree
 
 If a team member becomes a manager to direct reports after the 360 Feedback cycle has completed, and would like to see their new direct reports' 360 Feedback reports, the new manager must reach out to the direct reports directly to ask permission for either the previous manager to download and send the reports, or for the direct reports to download their own reports and send them directly to the new manager. Any approval should be in writing by email, not Slack.
 
-Detailed instructions for sharing this report can be found [here](https://support.cultureamp.com/hc/en-us/articles/115005797129-Share-feedback-report-in-Individual-effectiveness-360-).
+Detailed instructions for sharing this report can be found [here](https://support.cultureamp.com/en/articles/7048594-share-feedback-report-in-individual-effectiveness-360).
 
 ## Common Questions
 

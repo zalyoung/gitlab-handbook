@@ -5,8 +5,8 @@ description: "The Composition Analysis group at GitLab is charged with developin
 
 ## Composition Analysis
 
-The Composition Analysis group at GitLab is charged with developing solutions which perform [Container Scanning](https://about.gitlab.com/direction/secure/composition-analysis/container-scanning/),
-and [Software Composition Analysis](https://about.gitlab.com/direction/secure/composition-analysis/software-composition-analysis/).
+The Composition Analysis group at GitLab is charged with developing solutions which perform [Container Scanning](https://about.gitlab.com/direction/application_security_testing/composition-analysis/container-scanning/),
+and [Software Composition Analysis](https://about.gitlab.com/direction/application_security_testing/composition-analysis/software-composition-analysis/).
 See [the exhaustive list of projects](#projects) the group maintains.
 
 ## Common Links

@@ -131,7 +131,7 @@ Using the matrix below, fill in each empty space based on the descriptions above
 | ---------- | ------- | -------- | -------- | ---------- | -------- |
 | | | | | | |
 
-*This structure is adapted from [Burnout: the secret to unlocking the stress cycle](https://www.burnoutbook.net/) and the [SMART goal framework](https://support.peoplegrove.com/hc/en-us/articles/360001265792-Structure-Goals-and-Agendas). Learn more about goal setting by taking the [Setting Team and Employee Goals using SMART Methodology LinkedIn Learning course](https://www.linkedin.com/learning/setting-team-and-employee-goals-using-smart-methodology/how-to-use-smart-goals-2?u=2255073)*
+*This structure is adapted from [Burnout: the secret to unlocking the stress cycle](https://www.burnoutbook.net/) and the [SMART goal framework](https://support.peoplegrove.com/hc/en-us/articles/360001265792-Structure-Goals-and-Agendas). Learn more about goal setting by taking the [Setting Team and Employee Goals using SMART Methodology LinkedIn Learning course](https://www.linkedin.com/learning/setting-team-and-employee-goals-using-smart-methodology/how-to-use-smart-goals-2)*
 
 #### Setting tool-specific goals
 

@@ -23,7 +23,7 @@ Navan Expense is available via Okta. To access the platform:
 
 **MOBILE APP**
 
-- Download the app from your preferred [mobile app store](https://app.tripactions.com/app/liquid/user/redirect).
+- Download the app from your preferred [mobile app store](https://app.navan.com/app/liquid/user/redirect).
   - Navan mobile app is compatible with iOS 15 or later.
 - Open the app and select `Sign in with Email`.
 
@@ -41,7 +41,7 @@ Navan Expense is available via Okta. To access the platform:
 If you have the *TripActions Liquid* app, you can delete it from your device.
 {{% /alert %}}
 
-> For more information on how to use the mobile app, check the *[Getting started with Navan expense on mobile](https://app.tripactions.com/app/helpcenter/articles/expense/myself/getting-started-for-expense-users/navan-expense-on-mobile)* article.
+> For more information on how to use the mobile app, check the *[Getting started with Navan expense on mobile](https://app.navan.com/app/helpcenter/articles/expense/myself/getting-started-for-expense-users/navan-expense-on-mobile)* article.
 
 ## Navan Expense - Getting Started
 
@@ -91,7 +91,7 @@ Access your profile by tapping the `Profile` icon located in the top-right corne
 - **Personal bank account**: Link your personal bank account to receive reimbursement for approved manual transactions (out-of-pocket expenses) .
 - **Call or Email support**: Quickly connect with a support agent over the phone or by email.
 
-> Check the *[Getting started with Navan expense on mobile](https://app.tripactions.com/app/helpcenter/articles/expense/myself/getting-started-for-expense-users/navan-expense-on-mobile)* article to learn how to use the mobile app.
+> Check the *[Getting started with Navan expense on mobile](https://app.navan.com/app/helpcenter/articles/expense/myself/getting-started-for-expense-users/navan-expense-on-mobile)* article to learn how to use the mobile app.
 
 ### Navan Expense on the web
 
@@ -150,7 +150,7 @@ Use the settings tab to connect your work calendar using the Calendar integratio
 
 If you have questions or need assistance with your Navan account, cards, or transactions, click support from any page of the web app to get in touch with our team.
 
-> Check the *[How do I use Navan Expense on the web?](https://app.tripactions.com/app/helpcenter/articles/expense/myself/getting-started-for-expense-users/navan-expense-on-the-web)* article to learn how to use Navan on the web.
+> Check the *[How do I use Navan Expense on the web?](https://app.navan.com/app/helpcenter/articles/expense/myself/getting-started-for-expense-users/navan-expense-on-the-web)* article to learn how to use Navan on the web.
 
 ### How to connect my personal banking details to Navan Expense
 
@@ -211,7 +211,7 @@ Please note that you can link only one account at a time. To add a different acc
 
 ![liquid-image-31](/handbook/business-technology/enterprise-applications/guides/navan-expense-guide/web-bank-account.png)
 
-> Check the *[How do I connect my personal banking information to Navan Expense?](https://app.tripactions.com/app/helpcenter/articles/expense/myself/getting-started-for-expense-users/connect-personal-banking)* article to learn how to connect your card or account.
+> Check the *[How do I connect my personal banking information to Navan Expense?](https://app.navan.com/app/helpcenter/articles/expense/myself/getting-started-for-expense-users/connect-personal-banking)* article to learn how to connect your card or account.
 
 ### How to get reimbursed for out-of-pocket spend
 
@@ -268,7 +268,7 @@ If you have not linked your personal cards to your profile or if a receipt was m
 
 Forward receipts to match receipts with an existing transaction and simplify the manual expense submission process by automatically filling in transaction details. Receipts sent to Navan will be imported and analyzed, allowing you to simply review the transaction details and submit.
 
-> Check the *[How can I get reimbursed for out-of-pocket spend?](https://app.tripactions.com/app/helpcenter/articles/expense/myself/submitting-expenses/submitting-manual-transaction)* article for more details on the ways to submit a manual transaction.
+> Check the *[How can I get reimbursed for out-of-pocket spend?](https://app.navan.com/app/helpcenter/articles/expense/myself/submitting-expenses/submitting-manual-transaction)* article for more details on the ways to submit a manual transaction.
 
 #### Reimbursement Process
 
@@ -351,7 +351,7 @@ Once a transaction has been withdrawn, it will no longer appear on the admin's d
 
 ![liquid-image-5](/handbook/business-technology/enterprise-applications/guides/navan-expense-guide/withdraw.png)
 
-> Check the *[How can I modify or add transaction details?](https://app.tripactions.com/app/helpcenter/articles/expense/myself/managing-my-expenses/modify-transaction-details)* article for more details on how to modify a manual transaction.
+> Check the *[How can I modify or add transaction details?](https://app.navan.com/app/helpcenter/articles/expense/myself/managing-my-expenses/modify-transaction-details)* article for more details on how to modify a manual transaction.
 
 ### How to attach multiple receipts to the same transaction
 
@@ -379,7 +379,7 @@ To attach multiple receipts to transactions that have already been submitted, fo
 
 ![liquid-image-7](/handbook/business-technology/enterprise-applications/guides/navan-expense-guide/submitted-transactions.png)
 
-> Check the *[How do I attach multiple receipts to the same transaction?](https://app.tripactions.com/app/helpcenter/articles/expense/myself/submitting-expenses/multiple-receipts)* article for more details.
+> Check the *[How do I attach multiple receipts to the same transaction?](https://app.navan.com/app/helpcenter/articles/expense/myself/submitting-expenses/multiple-receipts)* article for more details.
 
 ### How to itemize a transaction in Navan Expense
 
@@ -416,7 +416,7 @@ Manual transactions are automatically approved when submitted if they fall withi
 2. Select a transaction.
 3. Tap `Itemize` and follow the steps outlined in the [Itemizing a manual transaction](/handbook/business-technology/enterprise-applications/guides/navan-expense-guide/#itemizing-a-manual-transaction) section. You can edit the itemization until it is approved or rejected by your company admin
 
-> Check the *[How do I itemize a transaction?](https://app.tripactions.com/app/helpcenter/articles/expense/myself/submitting-expenses/itemize-a-transaction)* article for more details.
+> Check the *[How do I itemize a transaction?](https://app.navan.com/app/helpcenter/articles/expense/myself/submitting-expenses/itemize-a-transaction)* article for more details.
 
 ### How to automatically add a receipt to a Navan Expense transaction
 
@@ -479,7 +479,7 @@ Move the receipt to another transaction or replace it from a receipt's ellipsis 
 
 ![liquid-image-9](/handbook/business-technology/enterprise-applications/guides/navan-expense-guide/replace_receipt.png)
 
-> Check the *[How can I automatically add receipts to my transactions?](https://app.tripactions.com/app/helpcenter/articles/expense/myself/submitting-expenses/automatic-receipts)* article for more details.
+> Check the *[How can I automatically add receipts to my transactions?](https://app.navan.com/app/helpcenter/articles/expense/myself/submitting-expenses/automatic-receipts)* article for more details.
 
 ### How to connect Google Calendar to Navan Expense
 
@@ -492,7 +492,7 @@ To connect your calendar, access your profile by tapping the `Profile` icon loca
 Navan Expense provides you with a quick and simple way to get reimbursed for mileage driven for business in your personal vehicle. The expense policy assigned to you for on-the-job expenses by GitLab's Navan Expense admin will determine your mileage reimbursement eligibility.
 
 {{% alert color="warning" %}}
-Mileage is only available in the Navan Expense Mobile App. Download the app from your preferred [mobile app store](https://app.tripactions.com/app/liquid/user/redirect).
+Mileage is only available in the Navan Expense Mobile App. Download the app from your preferred [mobile app store](https://app.navan.com/app/liquid/user/redirect).
 {{% /alert %}}
 
 #### Submitting a Mileage Expense (Available on the mobile app only)
@@ -508,13 +508,13 @@ To submit a request for mileage reimbursement, tap `+New transaction`, then `Log
 - If you do not see the option to `Log distance driven`, this indicates that your company has not assigned you to an expense policy that allows for mileage reimbursement. Contact the Accounts Payable team for more information.
 {{% /panel %}}
 
-> Check the *[How do I submit a mileage reimbursement request?](https://app.tripactions.com/app/helpcenter/articles/expense/myself/submitting-expenses/mileage-reimbursement)* article for more details.
+> Check the *[How do I submit a mileage reimbursement request?](https://app.navan.com/app/helpcenter/articles/expense/myself/submitting-expenses/mileage-reimbursement)* article for more details.
 
 ### Repayments for Out-of-policy Expenses
 
 Transactions charged to a physical Navan Expense card that violate the expense policy assigned to you by GitLab will be reviewed by the Accounts Payable team. Once reviewed, the approver may choose to reject the expense and request that you repay the company for the full transaction amount or a partial amount. Alternatively, if you are aware that a transaction will require repayment, you can make a payment before your approver reviews the transaction. Repayments can be processed directly through the Navan mobile app.
 
-> Check the *[How can I repay my company for out-of-policy spend?](https://app.tripactions.com/app/helpcenter/articles/expense/myself/managing-my-expenses/repaying-company)* article for more details.
+> Check the *[How can I repay my company for out-of-policy spend?](https://app.navan.com/app/helpcenter/articles/expense/myself/managing-my-expenses/repaying-company)* article for more details.
 
 ### How to submit or manage an expense for someone else
 
@@ -575,7 +575,7 @@ If you cannot remove a user from your list of delegates, this indicates that a N
 - Manual transactions: Manual transactions submitted for reimbursement will fall under one of four review categories (accessed under `Transactions`). If a transaction requires further action, such as requests for more information, a missing receipt, or repayment to the company for partially or fully rejected submissions, you can take action by logging in as the user as outlined in the above section.
 - Navan card transactions: Transactions charged on a user's physical Navan card will be auto-approved if they are compliant with that user's assigned expense policy. Transactions that are not auto-approved may require additional action, such as providing more information, attaching a missing receipt, or repaying the company if the transaction has been partially or fully rejected. If a transaction requires further action, you can complete any required information by logging in as the user as outlined in the above section.
 
-> Check the *[How do I submit or manage an expense for someone else](https://app.tripactions.com/app/helpcenter/articles/expense/myself/managing-my-expenses/expenses-for-other-users)* article for more details.
+> Check the *[How do I submit or manage an expense for someone else](https://app.navan.com/app/helpcenter/articles/expense/myself/managing-my-expenses/expenses-for-other-users)* article for more details.
 
 ### How to see how much budget is left
 
@@ -619,7 +619,7 @@ The Users tab allow managers to view their direct reports' employee data such as
 Users designated as a manager on the Navan user list will have access to the Manager Dashboard. If you do not see a Manager Dashboard option available, either you do not have any assigned direct reports or your direct reports do not have any spend activity.
 {{% /alert %}}
 
-> Check the *[Leveraging the Navan Expense manager dashboard](https://app.tripactions.com/app/helpcenter/articles/expense/myself/expense-approvals/expense-manager-dashboard)* article for more details.
+> Check the *[Leveraging the Navan Expense manager dashboard](https://app.navan.com/app/helpcenter/articles/expense/myself/expense-approvals/expense-manager-dashboard)* article for more details.
 
 ## Navan Expense Frequently Asked Questions (FAQ)
 
@@ -667,13 +667,13 @@ Yes, as long as your assigned expense policy allows for mileage reimbursement.
 
 Navan offers connections with Lyft, Uber, and Grab so you can automatically share your location and destination information to access a ride while traveling.
 
-> Check the *[What rideshare applications can Navan connect to?](https://app.tripactions.com/app/helpcenter/articles/travel/myself/getting-started-for-travelers/rideshare-applications)* article for more details.
+> Check the *[What rideshare applications can Navan connect to?](https://app.navan.com/app/helpcenter/articles/travel/myself/getting-started-for-travelers/rideshare-applications)* article for more details.
 
 ### Can I automatically submit Lyft expenses?
 
 Navan Expense users can connect their Lyft account to Navan Expense to automatically send receipts and submit expenses for business travel-related Lyft rides. To leverage this option, you will first need to create a Lyft business profile with the same email address you use in Navan.
 
-> Check the *[How can I automatically submit Lyft expenses?](https://app.tripactions.com/app/helpcenter/articles/expense/myself/submitting-expenses/lyft-expenses)* article for more details.
+> Check the *[How can I automatically submit Lyft expenses?](https://app.navan.com/app/helpcenter/articles/expense/myself/submitting-expenses/lyft-expenses)* article for more details.
 
 ### Is there anything I can't do in the web app that I can do in the mobile app?
 
@@ -683,7 +683,7 @@ To view your assigned expense policies or log miles driven for reimbursement, pl
 
 Team members are not required to add tax details to any expense transactions.
 
-> Check the *[How do I add tax information to my transactions?](https://app.tripactions.com/app/helpcenter/articles/expense/myself/submitting-expenses/tax-details)* article for more details.
+> Check the *[How do I add tax information to my transactions?](https://app.navan.com/app/helpcenter/articles/expense/myself/submitting-expenses/tax-details)* article for more details.
 
 ### Are multiple receipts auto-approved paid in one lump sum or as separate reimbursements?
 
@@ -695,7 +695,7 @@ Expenses will need to be fully resubmitted if rejected.
 
 ### Where can I see Navan Expense product releases?
 
-Navan Expense product releases are shared in the following blog: [Navan Expense product release announcements](https://app.tripactions.com/app/helpcenter/articles/expense/admin/general-settings/navan-expense-product-release-announcements)
+Navan Expense product releases are shared in the following blog: [Navan Expense product release announcements](https://app.navan.com/app/helpcenter/articles/expense/admin/general-settings/navan-expense-product-release-announcements)
 
 ## Navan Expense Training
 

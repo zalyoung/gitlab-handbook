@@ -61,7 +61,7 @@ In-person meeting prep is similar to getting ready for a [video call](/handbook/
 
 ## The importance of social interaction
 
-We believe that [in-person interactions](in-person/) are extremely important, especially in an all-remote [culture]({{< ref "culture#culture-at-gitlab" >}}). Remote workers have increased risk of experiencing [loneliness](https://about.gitlab.com/blog/2018/04/27/remote-future-how-remote-companies-stay-connected) or [burnout](mental-health/).
+We believe that [in-person interactions](in-person/) are extremely important, especially in an all-remote [culture]({{< ref "culture#culture-at-gitlab" >}}). Remote workers have increased risk of experiencing [loneliness](https://about.gitlab.com/blog/2018/04/27/remote-future-how-remote-companies-stay-connected/) or [burnout](mental-health/).
 
 One way to prevent loneliness and burnout are through relationship-building by prioritizing regular social interactions via informal communication throughout the workday, week, and month.
 
@@ -75,7 +75,7 @@ Here, we value informal communication as a complement to [in-person interactions
 
 *GitLab Commit Brooklyn 2019 recap reel.*
 
-Organizing customer and/or community [meetups](https://about.gitlab.com/community/meetups) around the globe is a great way to ensure team members meet each other in person, while also providing business and branding benefits. Meetups serve as incubators for [what could come next](https://about.gitlab.com/blog/2016/11/23/how-to-build-a-strong-dev-community), and provide a safe space for feedback to flow. Not only do they allow customers to put a face to a company they are engaging with, but it creates opportunity for team members to travel and meet each other while supporting a company initiative.
+Organizing customer and/or community [meetups](https://about.gitlab.com/community/meetups/) around the globe is a great way to ensure team members meet each other in person, while also providing business and branding benefits. Meetups serve as incubators for [what could come next](https://about.gitlab.com/blog/2016/11/23/how-to-build-a-strong-dev-community/), and provide a safe space for feedback to flow. Not only do they allow customers to put a face to a company they are engaging with, but it creates opportunity for team members to travel and meet each other while supporting a company initiative.
 
 In an all-remote setting, meetups have psychological benefits as well. While colocated companies may struggle to garner deep support from team members who must plan, execute, and attend a meetup, all-remote team members tend to view meetups as special opportunities to do something they aren't able to do on a daily basis: interact with colleagues in the same physical space.
 
@@ -83,7 +83,7 @@ Perception plays a major role in quality of execution. In colocated settings, te
 
 Conversely, team members in an all-remote setting have precious few opportunities to see one another face-to-face. In turn, may be easier to rally support for meetups given the underlying perk of in-person bonding and networking.
 
-Learn more about how GitLab organizes community events in the [GitLab Meetup Guide](https://about.gitlab.com/community/meetups).
+Learn more about how GitLab organizes community events in the [GitLab Meetup Guide](https://about.gitlab.com/community/meetups/).
 
 ## Conferences
 
@@ -105,7 +105,7 @@ In remote-first and all-remote settings, the value proposition is drastically di
 
 Consider supporting team members who wish to arrive early or stay late in order to spend time getting to know colleagues on a face-to-face basis, but be mindful not to judge or penalize those who opt out. Family commitments and personal preference should be honored. Choosing not to arrive early or stay late at a conference for bonding should not be viewed as indifference towards the company.
 
-As an example, [GitLab Commit](https://about.gitlab.com/events/commit) — a series of user conferences — doubles as an excellent mechanism to bring colleagues together for a purpose, while also serving the greater community.
+As an example, [GitLab Commit](https://about.gitlab.com/events/commit/) — a series of user conferences — doubles as an excellent mechanism to bring colleagues together for a purpose, while also serving the greater community.
 
 ## Annual (or regular) summits
 
@@ -119,7 +119,7 @@ These gatherings should be optional, though encouraged, and should focus primari
 
 With no central office, these are remarkably flexible. Your company may choose a different location for each occurrence, or perhaps support a voting system where colleagues can offer up suggestions for ideal locations.
 
-In all-remote settings, these known touch points are critical for morale. Team members can plan their year around these seminal moments, with a period of in-person experiences giving them fresh perspective when engaging in the future through [Zoom](https://about.gitlab.com/blog/2019/08/05/tips-for-mastering-video-calls) or phone.
+In all-remote settings, these known touch points are critical for morale. Team members can plan their year around these seminal moments, with a period of in-person experiences giving them fresh perspective when engaging in the future through [Zoom](https://about.gitlab.com/blog/2019/08/05/tips-for-mastering-video-calls/) or phone.
 
 ## Holidays, celebrations, and local coworking days
 
@@ -141,11 +141,11 @@ GitLab recognizes that not everyone can or will prefer to work from their home. 
 
 {{< youtube "KXHwEGlql-Y" >}}
 
-*In the [GitLab Unfiltered](https://www.youtube.com/channel/UCMtZ0sc1HHNtGGWZFDRTh5A) video above, Darren (GitLab) and Elisa ([The Cowork Experience](https://thecoworkexperience.com)) discuss the merits of a company subsidizing and encouraging travel to visit other colleagues.*
+*In the [GitLab Unfiltered](https://www.youtube.com/channel/UCMtZ0sc1HHNtGGWZFDRTh5A) video above, Darren (GitLab) and Elisa (The Cowork Experience) discuss the merits of a company subsidizing and encouraging travel to visit other colleagues.*
 
-Savings on real estate — and the litany of associated costs with operating one or more offices — is a key financial reason for a company to organize itself as completely remote. Consider returning some of those savings to employees by [subsidizing travel costs](https://about.gitlab.com/blog/2017/06/30/there-and-back-again-in-one-release) associated with [visiting colleagues around the globe](https://about.gitlab.com/blog/2017/01/31/around-the-world-in-6-releases).
+Savings on real estate — and the litany of associated costs with operating one or more offices — is a key financial reason for a company to organize itself as completely remote. Consider returning some of those savings to employees by [subsidizing travel costs](https://about.gitlab.com/blog/2017/06/30/there-and-back-again-in-one-release/) associated with [visiting colleagues around the globe](https://about.gitlab.com/blog/2017/01/31/around-the-world-in-6-releases/).
 
-GitLab's [Visiting Grant incentive]({{< ref "incentives#visiting-grant" >}}) is one such example. While some colleagues may prefer to stay put, there is value in transparently encouraging colleagues to [spend time](https://about.gitlab.com/blog/2019/09/12/not-everyone-has-a-home-office) with one another in a physical space. When a colleague travels to visit someone else, they are [immersed](people/#travelers) in a new place and new culture, which leads to greater empathy and understanding.
+GitLab's [Visiting Grant incentive]({{< ref "incentives#visiting-grant" >}}) is one such example. While some colleagues may prefer to stay put, there is value in transparently encouraging colleagues to [spend time](https://about.gitlab.com/blog/2019/09/12/not-everyone-has-a-home-office/) with one another in a physical space. When a colleague travels to visit someone else, they are [immersed](people/#travelers) in a new place and new culture, which leads to greater empathy and understanding.
 
 This also reinforces a company's ability to create a more [geographically diverse and inclusive work environment](/handbook/company/culture/inclusion/).
 
@@ -157,13 +157,13 @@ This also reinforces a company's ability to create a more [geographically divers
 
 As an all-remote company [scales](scaling/), it becomes more challenging to get the entire company in one place during the same window of time. As the once-a-year company annual becomes a standard offering (and less a differentiator) for remote companies, there is opportunity to host smaller, more frequent excursions and retreats.
 
-[The Cowork Experience](https://thecoworkexperience.com), for instance, develops bespoke programs with more intimate engagements at the team or regional level to foster deeper trust amongst colleagues. These usually include team-building activities as well as non-work excursions. They present an opportunity to bring colleagues together in a unique, refreshing locale, catalyzing things like planning while enabling personal bonds to be built.
+The Cowork Experience, for instance, develops bespoke programs with more intimate engagements at the team or regional level to foster deeper trust amongst colleagues. These usually include team-building activities as well as non-work excursions. They present an opportunity to bring colleagues together in a unique, refreshing locale, catalyzing things like planning while enabling personal bonds to be built.
 
 Leadership should be mindful of personal strain placed on team members when they are asked to leave their home for extended periods of time, with covered childcare or similar assistance ensuring that undue burdens are not placed on caregivers.
 
 ## GitLab Knowledge Assessment: Considerations for in-person interactions in a remote company
 
-Anyone can test their knowledge on considerations for in-person interactions in a remote company by completing the [knowledge assessment](https://docs.google.com/forms/d/e/1FAIpQLSdJF6Gdal_o6g4a3qAwwas9glPMOQAiPDvPNbz3GQI5E5cvaw/viewform). Earn at least an 80% or higher on the assessment to receive a passing score. Once the quiz has been passed, you will receive an email acknowledging the completion from GitLab. We are in the process of designing a GitLab Remote Certification and completion of the assessment will be one requirement in obtaining the [certification](https://about.gitlab.com/learn/certifications/public). If you have questions, please reach out to our [Learning & Development team](/handbook/people-group/learning-and-development) at `learning@gitlab.com`.
+Anyone can test their knowledge on considerations for in-person interactions in a remote company by completing the [knowledge assessment](https://docs.google.com/forms/d/e/1FAIpQLSdJF6Gdal_o6g4a3qAwwas9glPMOQAiPDvPNbz3GQI5E5cvaw/viewform). Earn at least an 80% or higher on the assessment to receive a passing score. Once the quiz has been passed, you will receive an email acknowledging the completion from GitLab. We are in the process of designing a GitLab Remote Certification and completion of the assessment will be one requirement in obtaining the [certification](https://university.gitlab.com/certifications/public). If you have questions, please reach out to our [Learning & Development team](/handbook/people-group/learning-and-development) at `learning@gitlab.com`.
 
 ---
 

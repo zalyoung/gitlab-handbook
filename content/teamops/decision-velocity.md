@@ -32,7 +32,7 @@ Having a shared guide in a team promotes [measurement clarity](/teamops/measurem
 
 To keep their globally-distributed team equipped with instructions for a variety of unexpected customer services scenarios, the GitLab Support team built a [workflow library](/handbook/support/workflows/). This always-accessible archive guides team members through the triaging process and subsequent protocols, and also helps them navigate to relevant policies, advice, and tools.
 
-**Resource:** [Documenting workflows to streamline business processes from Notion](https://www.notion.so/blog/documenting-workflows) (article)
+**Resource:** [Documenting workflows to streamline business processes from Notion](https://www.notion.com/blog/documenting-workflows) (article)
 {{% /details %}}
 
 {{% details summary="Change management support for documented workflows" %}}
@@ -45,7 +45,7 @@ To keep their globally-distributed team equipped with instructions for a variety
 **Recommended TeamOps Partners:**
 
 - [Modern Leaders](https://www.modernleaders.co/) (consultant)
-- [Code Traveller HR](https://codetravellerhr.com) (consultant)
+- [Code Traveller HR](https://www.codetravellerhr.com/) (consultant)
 {{% /details %}}
 
 ## Give agency
@@ -113,7 +113,7 @@ When facing decisions that may involve imperfect information or failures, having
 
 To minimize miscommunications that can stem from cultural diversity, contextual interpretations, or various levels of software experience, GitLab maintains a handbook page about [internal communication guidelines](/handbook/communication/). These rules, instructions, and demonstrations ensure that our internationally distributed workforce is using the same tools in the same way, and handing off results to one another without the risk of important information getting "lost in translation."
 
-**Resource:** [What is a bias for action, and how do you build it?](https://www.fingerprintforsuccess.com/blog/bias-for-action) (article)
+**Resource:** [What is a bias for action, and how do you build it?](https://getmarlee.com/blog/bias-for-action) (article)
 {{% /details %}}
 
 {{% details summary="Change management support for bias for action" %}}

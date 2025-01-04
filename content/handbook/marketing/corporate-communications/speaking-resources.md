@@ -13,7 +13,7 @@ So you're interested in becoming a public speaker? That's great!
 1. Complete the [GitLab external speaker training](/handbook/marketing/corporate-communications/resources-trainings/#external-speaking-trainings).
 1. Join the [GitLab Speakers Bureau](https://about.gitlab.com/speakers/), see the [Developer Advocacy page on the Speakers Bureau](/handbook/marketing/developer-relations/developer-advocacy/speakers-bureau/).
 1. If you're looking to learn how to be a more effective and confident public speaker, you can check out:
-    - [LinkedIn Learning courses](https://www.linkedin.com/learning/public-speaking-foundations-2018/)
+    - [LinkedIn Learning courses](https://www.linkedin.com/learning/public-speaking-foundations-2018)
     - Books like _The Art of Public Speaking_ by Dale Carnegie
     - Blog post: [What makes a great tech talk](https://about.gitlab.com/blog/2022/10/04/what-makes-a-great-tech-talk/)
     - Or join your local [Toastmasters](https://www.toastmasters.org/Resources/Public-Speaking-Tips).
@@ -109,7 +109,7 @@ If there is an event you would like to attend, are attending, speaking, or have 
 
 For presentation assets like templates and slides, use the [GitLab branded Google slides](/handbook/tools-and-tips/#google-slides) and learn more about assets in the [Brand Design handbook](/handbook/marketing/brand-and-product-marketing/design/#working-with-the-brand).
 
-Please review and follow the [brand guidelines](https://design.gitlab.com/brand/overview).
+Please review and follow the [brand guidelines](https://design.gitlab.com/brand/overview/).
 
 Consider using a [GitLab branded Zoom background](/press/press-kit/#green-screens) during your virtual presentation to show your GitLab pride!
 

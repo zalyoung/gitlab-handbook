@@ -20,7 +20,7 @@ To support GitLab's product vision through alignment with the [Software Supply C
 
 Group priorities are reviewed collaboratively with product counterparts and published on the Software Supply Chain Security direction pages
 
-- [Anti-abuse](https://about.gitlab.com/direction/software_supply_chain_security/anti-abuse/#priorities)
+- [Anti-abuse](https://about.gitlab.com/direction/software_supply_chain_security/#priorities)
 - [Authentication](https://about.gitlab.com/direction/software_supply_chain_security/authentication/#priorities)
 - [Authorization](https://about.gitlab.com/direction/software_supply_chain_security/authorization/#priorities)
 - [Compliance](https://about.gitlab.com/direction/software_supply_chain_security/compliance/tactical-priorities.html#priorities)

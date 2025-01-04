@@ -11,7 +11,7 @@ Despite all of its [advantages]({{< ref "remote-benefits" >}}), all-remote work 
 
 {{< youtube "CwOLAKSdlfs" >}}
 
-In the [video](https://youtu.be/CwOLAKSdlfs) above, GitLab Director of Technical Evangelism [Priyanka Sharma](https://gitlab.com/pritianka) discusses pros and cons of remote working with a panel of experts from [TFiR](https://www.tfir.io/), [Arm](https://www.arm.com/) and [ISG Research](https://isg-one.com/research).
+In the [video](https://youtu.be/CwOLAKSdlfs) above, GitLab Director of Technical Evangelism [Priyanka Sharma](https://gitlab.com/pritianka) discusses pros and cons of remote working with a panel of experts from [TFiR](https://tfir.io/), [Arm](https://www.arm.com/) and [ISG Research](https://isg-one.com/research).
 
 ## The difference between all-remote and remote-first
 
@@ -113,7 +113,7 @@ Because it's non-traditional, all-remote work sometimes [concerns](https://about
 
 ### Challenge: Compliance
 
-Differences in currency as well as tax, immigration, and labor laws around the world can create [compliance challenges](https://www.forbes.com/sites/forbeshumanresourcescouncil/2019/07/12/remote-work-is-here-to-stay-heres-how-to-avoid-three-common-compliance-issues/) for the organization.
+Differences in currency as well as tax, immigration, and labor laws around the world can create [compliance challenges](https://www.forbes.com/councils/forbeshumanresourcescouncil/2019/07/12/remote-work-is-here-to-stay-heres-how-to-avoid-three-common-compliance-issues/) for the organization.
 
 **Solution**
 

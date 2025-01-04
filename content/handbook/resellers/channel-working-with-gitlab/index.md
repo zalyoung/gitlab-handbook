@@ -368,7 +368,7 @@ To be eligible for the NFR Program, Partners must:
 
 ##### NFR Support
 
-[Support](https://about.gitlab.com/support) will be provided by the GitLab Support team. GitLab Solution Architects may also be available to help Partners build out training, testing, and lab environments.
+[Support](https://about.gitlab.com/support/) will be provided by the GitLab Support team. GitLab Solution Architects may also be available to help Partners build out training, testing, and lab environments.
 
 ##### Add-ons to NFR Subscriptions
 
@@ -377,7 +377,7 @@ To be eligible for the NFR Program, Partners must:
 
 #### Technical Support
 
-While not required, we expect customers will, for the most part, contact you if they need help. It is in both of our best interests that they do so, as the more touch points you have with them, the more likely you are to further develop business with them. We do not expect you to be as knowledgeable about our products as our own support staff, and do expect that you may need to escalate some issues to our support staff. For more information, visit the GitLab [Support](https://about.gitlab.com/support) page.
+While not required, we expect customers will, for the most part, contact you if they need help. It is in both of our best interests that they do so, as the more touch points you have with them, the more likely you are to further develop business with them. We do not expect you to be as knowledgeable about our products as our own support staff, and do expect that you may need to escalate some issues to our support staff. For more information, visit the GitLab [Support](https://about.gitlab.com/support/) page.
 
 For pre-sales technical issues, please contact your local GitLab Sales Team.
 

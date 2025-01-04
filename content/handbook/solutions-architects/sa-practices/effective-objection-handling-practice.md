@@ -35,7 +35,7 @@ The techniques listed below are commonly used in the field to handle objections 
 
 [LAIR](https://changingminds.org/disciplines/sales/objection/lair.htm): This technique is 4 step process as well where you listen, acknowledge, identify the objection. Then trying to reverse the objection by stating the truth.
 
-[Feel, felt, found](https://changingminds.org/disciplines/sales/objection/feel_felt_found.htm_): This technique is based on empathizing with the customer's objection.
+[Feel, felt, found](https://changingminds.org/disciplines/sales/objection/feel_felt_found.htm): This technique is based on empathizing with the customer's objection.
 
 [Fear, Uncertainty and Doubt (FUD)](https://changingminds.org/disciplines/sales/articles/fud.htm): FUD stands for fear, uncertainty and doubt, and is a method used in sales and marketing to dissuade customers from buying competing products and solutions by providing information that triggers fear and uncertainty, or sows seeds of doubt, about current customer thinking/products. Some of our competitors like to use this technique but we highly recommend leading with facts & not using this technique.
 
@@ -51,7 +51,7 @@ The techniques listed below are commonly used in the field to handle objections 
 
 [Objection Chunking](https://changingminds.org/disciplines/sales/objection/objection_chunking.htm): Taking a higher or lower viewpoint on the stated objection.
 
-[Conditional Close](https://changingminds.org/disciplines/sales/closing/conditional_close.htm_): Make closure a condition for resolving their objection.
+[Conditional Close](https://changingminds.org/disciplines/sales/closing/conditional_close.htm): Make closure a condition for resolving their objection.
 
 [Curiosity](https://changingminds.org/disciplines/sales/objection/objection_curiosity.htm): Ask more questions to clarify the objection.
 
@@ -114,7 +114,7 @@ Please note it's suggested to have these meetings weekly, biweekly so handling o
 ### More resources
 
 - <span class="colour" style="color:rgb(0, 0, 0)">SA handbook </span>[<span class="colour" style="color:rgb(0, 0, 255)"><u>resource</u></span>](/handbook/solutions-architects/sa-practices/effective-objection-handling-practice/)<span class="colour" style="color:rgb(0, 0, 0)"> for objection handling & "how to" facilitate additional exercises</span>
-- <span class="colour" style="color:rgb(0, 0, 0)">LinkedIn Learning </span>[<span class="colour" style="color:rgb(0, 0, 255)"><u>course</u></span>](https://www.linkedin.com/learning/sales-handling-objections/the-buyer-and-seller-relationship?u=2255073)
+- <span class="colour" style="color:rgb(0, 0, 0)">LinkedIn Learning </span>[<span class="colour" style="color:rgb(0, 0, 255)"><u>course</u></span>](https://www.linkedin.com/learning/sales-handling-objections/the-buyer-and-seller-relationship)
 - <span class="colour" style="color:rgb(0, 0, 0)">Potential Objections to </span>[<span class="colour" style="color:rgb(0, 0, 255)"><u>Ultimate sales plays</u></span>](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/usecase-gtm/devsecops/#potential-objections)
 - <span class="colour" style="color:rgb(0, 0, 0)">Additional Objection handling </span>[<span class="colour" style="color:rgb(0, 0, 255)"><u>techniques</u></span>](https://docs.google.com/presentation/d/1mLnmgQ5hqTzcwk3Vjh0BEIdx9SYgORV-2g7zPKmFKFc/edit#slide=id.g9e2080204d_0_0)<span class="colour" style="color:rgb(0, 0, 255)"> </span><span class="colour" style="color:rgb(0, 0, 0)">for secure & protect customer (SKO 2021) </span>
 - <span class="colour" style="color:rgb(0, 0, 0)">7 Steps to Handling Objections: </span>[<span class="colour" style="color:rgb(95, 95, 95)"><u>https://www.youtube.com/watch?v=DBpLFAS2s3w</u></span>](https://www.youtube.com/watch?v=DBpLFAS2s3w)

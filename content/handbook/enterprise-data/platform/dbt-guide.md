@@ -72,8 +72,8 @@ Note that many of these steps are done in the [onboarding script](https://gitlab
 
 #### Choosing the right Snowflake warehouse when running dbt
 
-Our Snowflake instance contains [warehouses of multiple sizes](https://docs.snowflake.com/en/user-guide/warehouses-overview.html), which allow for dbt developers to allocate
-differing levels of compute resources to the queries they run. The larger a warehouse is and the longer it runs, the more the query costs. For example, it costs [8 times](https://docs.snowflake.com/en/user-guide/warehouses-overview.html#warehouse-size) more to run a Large warehouse for an hour than it costs to run an X-Small warehouse for an hour.
+Our Snowflake instance contains [warehouses of multiple sizes](https://docs.snowflake.com/en/user-guide/warehouses-overview), which allow for dbt developers to allocate
+differing levels of compute resources to the queries they run. The larger a warehouse is and the longer it runs, the more the query costs. For example, it costs [8 times](https://docs.snowflake.com/en/user-guide/warehouses-overview#warehouse-size) more to run a Large warehouse for an hour than it costs to run an X-Small warehouse for an hour.
 
 If you have access to multiple warehouses, you can
 create an entry for each warehouse in your `profiles.yml` file. Having done this, you will be able to specify which warehouse should run when you call `dbt run`. This should be done
@@ -258,13 +258,13 @@ These commands will ensure you get the newest versions of the containers and gen
 
 #### Command line cheat sheet
 
-This is a simplified version of the [primary command reference](https://docs.getdbt.com/reference/dbt-commands/).
+This is a simplified version of the [primary command reference](https://docs.getdbt.com/reference/dbt-commands).
 
 dbt specific:
 
 - [`dbt clean`](https://docs.getdbt.com/reference/commands/clean) - this will remove the `/dbt_modules` (populated when you run deps) and `/target` folder (populated when models are run)
 - [`dbt run`](https://docs.getdbt.com/reference/commands/run) - regular run
-- Model selection syntax ([source](https://docs.getdbt.com/docs/model-selection-syntax)). Specifying models can save you a lot of time by only running/testing the models that you think are relevant. However, there is a risk that you'll forget to specify an important upstream dependency so it's a good idea to understand the syntax thoroughly:
+- Model selection syntax ([source](https://docs.getdbt.com/reference/node-selection/syntax)). Specifying models can save you a lot of time by only running/testing the models that you think are relevant. However, there is a risk that you'll forget to specify an important upstream dependency so it's a good idea to understand the syntax thoroughly:
   - `dbt run --models modelname` - will only run `modelname`
   - `dbt run --models +modelname` - will run `modelname` and all parents
   - `dbt run --models modelname+` - will run `modelname` and all children
@@ -414,7 +414,7 @@ They are typically stored in a schema that indicates its original data source, e
 Sources are defined in dbt using a `sources.yml` file.
 
 - We use a variable to reference the database in dbt sources, so that if we're testing changes in a Snowflake clone, the reference can be programmatically set
-- When working with source tables with names that don't meet our usual convention or have unclear meanings, use identifiers to override source table names when the original is messy or confusing. ([Docs on using identifiers](https://docs.getdbt.com/reference/resource-properties/identifier/))
+- When working with source tables with names that don't meet our usual convention or have unclear meanings, use identifiers to override source table names when the original is messy or confusing. ([Docs on using identifiers](https://docs.getdbt.com/reference/resource-properties/identifier))
 
   ```yaml
   # Good
@@ -561,7 +561,7 @@ In the sensitive model, the dbt macro [`nohash_sensitive_columns`](https://dbt.g
 
 All hashing includes a [salt](https://en.wikipedia.org/wiki/Salt_(cryptography)) as well. These are specified via environment variables. There are different salts depending on the type of data. These are defined in the [`get_salt` macro](https://dbt.gitlabdata.com/#!/macro/macro.gitlab_snowflake.get_salt) and are also set when using the dbt container for local development.
 
-In general, team members should not be permitted to see the salt used in the query string within the Snowflake UI.  In table models this goal is met by using the [Snowflake built-in `ENCRYPT` function](https://docs.snowflake.com/en/sql-reference/functions/encrypt.html). For models materialized into views, the `ENCRYPT` function seems to not work. Instead, a workaround using secure views is utilized.  A secure view limits DDL viewing to the owner only, thus limiting visibility of the hash.  To create a secure view, set `secure` equal to true in the [model configuration](/handbook/enterprise-data/platform/dbt-guide/#model-configuration). A view that utilizes the hashing functionality as described, but is not configured as a secure view, will likely not be queryable.
+In general, team members should not be permitted to see the salt used in the query string within the Snowflake UI.  In table models this goal is met by using the [Snowflake built-in `ENCRYPT` function](https://docs.snowflake.com/en/sql-reference/functions/encrypt). For models materialized into views, the `ENCRYPT` function seems to not work. Instead, a workaround using secure views is utilized.  A secure view limits DDL viewing to the owner only, thus limiting visibility of the hash.  To create a secure view, set `secure` equal to true in the [model configuration](/handbook/enterprise-data/platform/dbt-guide/#model-configuration). A view that utilizes the hashing functionality as described, but is not configured as a secure view, will likely not be queryable.
 
 ##### Dynamic Masking
 
@@ -587,7 +587,7 @@ Sensitive columns to be masked dynamically are documented in the `schema.yml` fi
 
 A `post-hook` running the macro `mask_model` will need to be configured for any model that will need dynamic masking applied.
 
-The `mask_model` macro will first retrieve all of the columns of the given model that have a `masking_policy` identified. That information is passed to an other macro, `apply_masking_policy`, witch orchestrates the creation and application of Snowflake [masking policies](https://docs.snowflake.com/en/sql-reference/sql/create-masking-policy.html#create-masking-policy) for the given columns.
+The `mask_model` macro will first retrieve all of the columns of the given model that have a `masking_policy` identified. That information is passed to an other macro, `apply_masking_policy`, witch orchestrates the creation and application of Snowflake [masking policies](https://docs.snowflake.com/en/sql-reference/sql/create-masking-policy#create-masking-policy) for the given columns.
 
 The first step of the `apply_masking_policy` is to get the data type of the columns to be masked as the polices are data type dependant.  This is done with a query to the data base `information_schema` table with the following query:
 
@@ -699,7 +699,7 @@ The Data Team reservers the right to reject code that will dramatically slow the
 #### Model Configuration
 
 There are multiple ways to provide configuration definitions for models.
-The [dbt docs for configuring models](https://docs.getdbt.com/reference/model-configs/) provide a concise explanation of the ways to configure models.
+The [dbt docs for configuring models](https://docs.getdbt.com/reference/model-configs) provide a concise explanation of the ways to configure models.
 
 Our guidelines for configuring models:
 
@@ -793,7 +793,7 @@ This switch is controlled by the target name defined in the `profiles.yml` file.
 ##### Structure
 
 - Macros should be documented in either the `macros.yml` file or in a macros.md file in descriptions are long
-- Use the [arguments property](https://docs.getdbt.com/reference/macro-properties/) in `macros.yml` to describe the input variables
+- Use the [arguments property](https://docs.getdbt.com/reference/macro-properties) in `macros.yml` to describe the input variables
 
 ##### dbt-utils
 
@@ -896,7 +896,7 @@ An exception to the grouping recommendation is when we control the extraction vi
 
 ### Tags
 
-[Tags in dbt](https://docs.getdbt.com/reference/resource-configs/tags/) are a way to label different parts of a project. These tags can then be utilized when selecting sets of models, snapshots, or seeds to run.
+[Tags in dbt](https://docs.getdbt.com/reference/resource-configs/tags) are a way to label different parts of a project. These tags can then be utilized when selecting sets of models, snapshots, or seeds to run.
 
 Tags can be added in YAML files or in the config settings of any model. Review the [`dbt_project.yml`](https://gitlab.com/gitlab-data/analytics/-/blob/master/transform/snowflake-dbt/dbt_project.yml) file for several examples of how tags are used. Specific examples of adding tags for the [Trusted Data Framework](/handbook/enterprise-data/platform/dbt-guide/#tagging) are shown below.
 
@@ -1049,7 +1049,7 @@ Rowcount, and any other custom SQL tests will always be in the [Data Tests](http
 
 ##### Tagging
 
-Tagging the tests is an important step in adding new tests. Labeling the test with a [dbt tag](https://docs.getdbt.com/reference/resource-configs/tags/) is how we parse and identify tests when building trusted data dashboards. There are 2 ways to tag tests depending on their type.
+Tagging the tests is an important step in adding new tests. Labeling the test with a [dbt tag](https://docs.getdbt.com/reference/resource-configs/tags) is how we parse and identify tests when building trusted data dashboards. There are 2 ways to tag tests depending on their type.
 
 The first is by adding tags in the YAML definition. This can be done at the highest level of the YAML definition for source tests, or on the column level for model tests.
 
@@ -1288,7 +1288,7 @@ dbt snapshots are [SCD Type 2](https://en.wikipedia.org/wiki/Slowly_changing_dim
 
 This single snapshot table, due to its SCD Type 2 nature, captures the entire history of changes in the source table.
 
-For more on snapshots, including examples, go to [dbt docs](https://docs.getdbt.com/docs/building-a-dbt-project/snapshots).
+For more on snapshots, including examples, go to [dbt docs](https://docs.getdbt.com/docs/build/snapshots).
 
 Take note of how we [talk about and define snapshots](/handbook/enterprise-data/platform/#snapshots-definition).
 
@@ -1320,14 +1320,14 @@ The following is an example of how we implement a snapshot:
 #### Snapshot best practices
 
 - **Database and Schema Configuration**: Configure the database and schema in `dbt_project.yml`. Use an environmental variable for the database and set the schema to `snapshots`. This ensures consistency and simplifies deployment across environments.
-- **Follow Naming Conventions**: The table name in the data warehouse should follow the `{source_table_name}_snapshots` naming convention. 
+- **Follow Naming Conventions**: The table name in the data warehouse should follow the `{source_table_name}_snapshots` naming convention.
 - **Avoid Transformations**: Perform minimal transformations in snapshot models aside from deduplication. Cleaning and transformation logic should be handled downstream to maintain snapshot simplicity.
 - **Prefer Timestamp Strategy**: Unless a reliable `updated_at` field is unavailable, prefer the `timestamp` strategy over `check`. However, note that in Salesforce, the `SystemModstamp` field does not capture changes to formula fields. For SFDC snapshots, it’s better to use the `check` strategy and validate all columns to ensure no updates are missed. Refer to the dbt documentation for more details on [snapshot strategies](https://docs.getdbt.com/reference/resource-configs/strategy).
 - **Enable `invalidate_hard_deletes`**: Use the `invalidate_hard_deletes` option for snapshots where it’s critical to track and exclude deleted records. With this setting enabled, records deleted from the source are assigned a valid end timestamp (`dbt_valid_to`) instead of leaving it NULL.
 
 #### Snapshot Model Types
 
-A dbt Snapshot model is designed to capture changes to records for a single table over time, providing a historical view of the data. The table being snapshotted can originate from a source table or an existing table already used for analysis. Snapshots are defined using the {% snapshot table_name %} configuration in a snapshot file, which specifies how changes are tracked and stored. 
+A dbt Snapshot model is designed to capture changes to records for a single table over time, providing a historical view of the data. The table being snapshotted can originate from a source table or an existing table already used for analysis. Snapshots are defined using the {% snapshot table_name %} configuration in a snapshot file, which specifies how changes are tracked and stored.
 
 **dbt Snapshot Model Strategy**
 
@@ -1399,11 +1399,11 @@ To manually review the downstream impacts a change to a model may have use the a
 
 ### Dropping dbt Models
 
-To drop dbt models, remove the relevant files in your local IDE, commit the changes, and push them as part of a merge request to run in the CI pipelines. 
+To drop dbt models, remove the relevant files in your local IDE, commit the changes, and push them as part of a merge request to run in the CI pipelines.
 
-Note that Snowflake tables in Production are not automatically removed and must be handled separately by the Data Platform team. 
+Note that Snowflake tables in Production are not automatically removed and must be handled separately by the Data Platform team.
 
-The MR author should create a follow-up issue and assign it to the Data Platform team to complete the table removal. 
+The MR author should create a follow-up issue and assign it to the Data Platform team to complete the table removal.
 
 In some cases, tables may need to be retained for historical purposes even after the dbt models are removed, which means they will no longer be updated but remain in place for reference.
 
@@ -1634,7 +1634,7 @@ See the [runbook](https://gitlab.com/gitlab-data/runbooks/-/blob/main/infrastruc
 
 ### Staying up to date
 
-Our policy is that we should always be on a version of [`dbt-core`](https://docs.getdbt.com/docs/core-versions) that does have critical support. Check the linked schedule to see planned releases and support windows. For minor releases that are released while we are still on a version with critical support, we will evaluate on a quarterly basis to determine whether the minor release warrants an update.
+Our policy is that we should always be on a version of [`dbt-core`](https://docs.getdbt.com/docs/dbt-versions/core) that does have critical support. Check the linked schedule to see planned releases and support windows. For minor releases that are released while we are still on a version with critical support, we will evaluate on a quarterly basis to determine whether the minor release warrants an update.
 
 When a major release happens, we should upgrade to the new major version before the second minor release on the new major version. So for example, we should be on v2.0.0 *before* v.2.2.0 is released. The extra time allowance is in place to account for breaking changes between major versions.
 

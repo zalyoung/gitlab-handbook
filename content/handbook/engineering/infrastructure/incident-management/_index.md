@@ -770,7 +770,7 @@ of close calls since 1976. Due to near miss observations and other technological
 the rate of fatal accidents has dropped about 65 percent.
 [source](https://en.wikipedia.org/wiki/Near_miss_(safety))
 
-As [John Allspaw states](https://qz.com/504661/why-etsy-engineers-send-company-wide-emails-confessing-mistakes-they-made/):
+As [John Allspaw states](https://qz.com/504661/why-etsy-engineers-send-company-wide-emails-confessing-mistakes-they-made):
 
 > Near misses are like a vaccine. They help the company better defend against
 > more serious errors in the future, without harming anyone or anything in the process.

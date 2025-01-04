@@ -20,7 +20,7 @@ The reasons for creating a Gender and Sexual Orientation Identity page in the Gi
   - [HRC Transgender FAQ](https://www.hrc.org/resources/transgender-and-non-binary-faq)
 - [The Genderbread Person](https://www.itspronouncedmetrosexual.com/2018/10/the-genderbread-person-v4/)
 - [A comprehensive list of LGBTQ+ term definitions](https://www.itspronouncedmetrosexual.com/2013/01/a-comprehensive-list-of-lgbtq-term-definitions/)
-- [We Are Family Lesbian, Gay and Bisexual Glossary of Terms](https://www.wearefamilycharleston.org/lgbt-glossary-az)
+- [We Are Family Lesbian, Gay and Bisexual Glossary of Terms](https://waf.org/lgbt-glossary-az)
 - [UC Davis LGBTQIA Resource Center Glossary](https://lgbtqia.ucdavis.edu/educated/glossary)
 - [Things not to say to a trans person](https://www.youtube.com/watch?v=pvBwWeG4Rpc)
 
@@ -160,7 +160,7 @@ QUILTBAG is a comprehensive, newer term that stands for queer and questioning, u
 
 ### What's the difference between sex and gender?
 
-Sex and gender are often seen as the same thing but in reality, [sex and gender are distinct](https://www.medicalnewstoday.com/articles/232363.php).
+Sex and gender are often seen as the same thing but in reality, [sex and gender are distinct](https://www.medicalnewstoday.com/articles/232363).
 
 Sex can refer to a person's anatomy and physiology, which can include phenotype, internal and external genitalia, gonads, hormone levels, chromosomes, epigenetics, etc... Maybe people believe sex is binary (either male or female) but in reality, sex is a non-binary construct where [1 in 1500 people are born intersex](https://isna.org/faq/frequency/).
 

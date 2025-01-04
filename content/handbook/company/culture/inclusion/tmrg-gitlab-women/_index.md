@@ -90,11 +90,11 @@ If you have a resource you'd like to include, please open a merge request and co
 | Resource | Description |
 | ----- | ----- |
 | [Women at GitLab Mentorship Program](mentorship-program/) | FY22 Q2-Q3 program opportunity for mentorship at GitLab |
-| [WISE: Women in Sales Everywhere Memberships](https://womeninsaleseverywhere.com/) | In calendar year 2022, GitLab has allocated 15 licenses for women in the Sales organization to acceses memberships with [WISE](https://womeninsaleseverywhere.com/) including mentorship, events, and training. Reach out to TMRG leads if you are interested in a membership |
+| [WISE: Women in Sales Everywhere Memberships](https://www.womeninsaleseverywhere.com/) | In calendar year 2022, GitLab has allocated 15 licenses for women in the Sales organization to acceses memberships with [WISE](https://www.womeninsaleseverywhere.com/) including mentorship, events, and training. Reach out to TMRG leads if you are interested in a membership |
 | [GitLab Internship for Learning]({{< ref "internship-for-learning" >}}) | If your manager has coverage, you can spend a percentage of your time working (through an 'internship') with another team |
 | [Growth and Development benefit]({{< ref "general-and-entity-benefits#growth-and-development-benefit" >}}) | This benefit is available for GitLab team members and can be used to cover professional development costs associated with external resources |
 | [CEO Shadow Program](/handbook/ceo/shadow)| The goal of the CEO Shadow Program is to give current and future directors and senior leaders at GitLab an overview of all aspects of the company |
-| [Women in the Workplace Study Webinar](https://www.hracuity.com/webinar/leaninstudy-2020?utm_campaign=Content%20%7C%20Webinar%20%7C%20LeanIn&utm_medium=email&_hsmi=98577248&_hsenc=p2ANqtz-8kbiJWLM1fyvHgX1E15FQtDxjVDla2B4C3p2G7wSvpUQMJizBBdpFhEpmhEdG7PeYR-ekzWWPWhWK9EfpXoZwk5m6dWQ&utm_content=98577248&utm_source=hs_email) | A webinar from Lean In discussing the unique impact that COVID-19 has had on women of different races and ethnicities, working mothers, women in senior leadership and women with disabilities |
+| [Women in the Workplace Study Webinar](https://web.archive.org/web/20220704095935/https://www.hracuity.com/webinar/leaninstudy-2020) | A webinar from Lean In discussing the unique impact that COVID-19 has had on women of different races and ethnicities, working mothers, women in senior leadership and women with disabilities |
 | [The Harvard Gazette - Women less inclined to self-promote than men, even for a job](https://news.harvard.edu/gazette/story/2020/02/men-better-than-women-at-self-promotion-on-job-leading-to-inequities/) | Study finds female workers' deep discomfort over touting skills, experience adds to gender gap in promotions, pay |
 | [Stanford Continuing Studies Department](https://continuingstudies.stanford.edu/) | Standford offers many continuing education programs in multiple diciplines including leadership, writing, and professional/personal development |
 
@@ -107,7 +107,7 @@ The following are books suggested by GitLab team members in the [#women Slack ch
 | [WolfPack by Abby Wambach](https://abbywambach.com/books/wolfpack/) | |
 | [Radical Candor by Kim Scott](https://www.radicalcandor.com/the-book/) | |
 | [Lean In by Sheryl Sandberg](https://leanin.org/book) | |
-| [The Memo by Minda Harts](https://www.mindaharts.com/book/) | |
+| [The Memo by Minda Harts](https://www.mindaharts.com/thememo) | |
 | [Burnout - The Secret to Unlocking the Stress Cycle by Amelia Nagoski and Emily Nagoski](https://bookshop.org/books/burnout-the-secret-to-unlocking-the-stress-cycle/9781984818324) | |
 | [Invisible Women - Data Bias in a World Designed for Men](https://www.goodreads.com/book/show/41104077-invisible-women) | |
 
