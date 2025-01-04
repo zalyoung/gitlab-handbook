@@ -19,7 +19,7 @@ The in-depth branding guidelines at GitLab provides instructions on leveraging c
 
 The company branding resource site also provides excellent guidance around [data visualization](https://design.gitlab.com/data-visualization/overview). For example, the color palettes are useful in creating accurate coloring to charts via hex codes:
 
-- [Color](https://design.gitlab.com/data-visualization/color)
+- [Color](https://design.gitlab.com/data-visualization/color/)
 - [Charts](https://design.gitlab.com/data-visualization/charts)
 
 Please also refer to our Tableau Design folder (TBD) for files that can be used in adding branding elements to your Tableau dashboards. For [example](https://drive.google.com/file/d/1N-6fCA8WTOmNLv3D2hr_zA4fhl4zBS8p/view?usp=sharing), our logo can be added to the upper left-hand corner of our dashboard, above the filter section that is using our GitLab color scheme.

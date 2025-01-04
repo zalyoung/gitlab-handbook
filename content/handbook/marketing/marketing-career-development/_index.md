@@ -23,7 +23,7 @@ Todd provides an overview of the purpose and goals of the Marketing Career Devel
 
 Know how to read and interpret the marketing analytics GitLab's marketing team uses to inform business decisions and strategy
 
-- [Business Analytics: Marketing Data](https://www.linkedin.com/learning/business-analytics-marketing-data/what-is-the-value-of-marketing-data?u=2255073)  - LI provides a nice overview of why and how people analyze marketing data.
+- [Business Analytics: Marketing Data](https://www.linkedin.com/learning/business-analytics-marketing-data/what-is-the-value-of-marketing-data)  - LI provides a nice overview of why and how people analyze marketing data.
 - For SFDC users:
 - [Trailhead Reports and Dashboards for SFDC Classic](https://trailhead.salesforce.com/content/learn/modules/reports-dashboards-quick-look/learn-about-reports-and-dashboards)
 - [DataStudio training on GitLab about.com](https://www.youtube.com/watch?v=7IFDCl_6SsM) - Empirical Path and Shane Rice sharing how to use DataStudio
@@ -66,7 +66,7 @@ Know how to read and interpret the marketing analytics GitLab's marketing team u
 - [Email marketing from Tanuki Tech](https://gitlab.com/gitlab-com/marketing/sdr/-/issues/628)
 - [Demand Generation metrics](https://app.periscopedata.com/app/gitlab/793304/Demand-Gen-Dashboard) [and how to understand the data](/handbook/marketing/demand-generation/#dashboard-metrics)
 - [Mastering Digital Marketing](https://www.linkedin.com/learning/paths/master-digital-marketing?u=2255073)
-- [Connecting with Customers Online](https://www.linkedin.com/learning/digital-marketing-foundations/connecting-with-customers-online?u=2255073)
+- [Connecting with Customers Online](https://www.linkedin.com/learning/digital-marketing-foundations/connecting-with-customers-online)
 - [Building an Integrated Online Marketing Plan](https://www.linkedin.com/learning/building-an-integrated-online-marketing-plan/welcome?u=2255073)
 - [Understanding eCommerce](https://www.linkedin.com/learning/marketing-foundations-ecommerce-14401600)
 - [Creating a channel marketing structure](https://www.linkedin.com/learning/sales-channel-management/creating-a-channel-marketing-structure?u=2255073)

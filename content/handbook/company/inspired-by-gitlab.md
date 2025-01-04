@@ -30,7 +30,7 @@ In this section we list the companies that have been inspired by GitLab with the
    - "What GitLab-proven techniques can you apply to your own organizational transformation? We refined them into a 1-2-3 set of high-level practices applicable to both all-remote and (more likely) hybrid companies who seek to succeed in a work-from-home world."
 1. [City of Boston](https://twitter.com/TheJPHaus/status/1384540010775519232)
    - "Just watched your [live stream about All-Remote](https://youtu.be/q4h75yx_i4o?t=27) and wanted to chime in. I've been stealing pages out of the GitLab handbook heavily for [@CityOfBoston](https://twitter.com/CityOfBoston). Especially the pages on [communication](/handbook/company/culture/all-remote/effective-communication/), [meetings](/handbook/company/culture/all-remote/meetings/), and [roles](/handbook/company/culture/all-remote/hiring/) which are infinitely important in a remote setting."
-1. [Remote](https://www.notion.so/Handbook-a3439c6ccaac4d5f8c7515c357345c11)
+1. [Remote](https://www.notion.com/Handbook-a3439c6ccaac4d5f8c7515c357345c11)
    - Remote handles international payroll, benefits, taxes, and compliance for businesses big and small. It was founded by a [former GitLab team member](https://www.linkedin.com/in/jobvo/) and uses a public handbook.
 1. [BNP Paribas](https://www.linkedin.com/feed/update/urn:li:activity:6787407510333722624?commentUrn=urn%3Ali%3Acomment%3A%28activity%3A6787407510333722624%2C6787420841140457472%29)
    - "Thanks Flexjob and GitLab for your time! Learning how to work efficiently on [all-remote] was really inspiring. We've learned a lot from your daily practices."

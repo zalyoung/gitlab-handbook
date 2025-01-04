@@ -18,7 +18,7 @@ GitLab's Data Seeder hinges in the following pieces of software currently in use
 
 By providing a seed file which contains the representation of data to be created in GitLab, one can run Rake to generate the data in the GitLab UI.
 
-[Documentation](https://docs.gitlab.com/ee/topics/data_seeder.html)
+[Documentation](https://docs.gitlab.com/ee/development/data_seeder.html)
 
 ## How can it be used?
 
@@ -60,7 +60,7 @@ of generating data to be used with testing or demoing.
 
 ### Links
 
-- [Technical Documentation](https://docs.gitlab.com/ee/topics/data_seeder.html)
+- [Technical Documentation](https://docs.gitlab.com/ee/development/data_seeder.html)
 - [Data Seeder Issue Tracker](https://gitlab.com/gitlab-org/gitlab/-/boards/3766722?label_name[]=data%20seeder)
 - [Working Group page](/handbook/company/team/structure/working-groups/demo-test-data/)
 - [`#data-seeder`](https://gitlab.slack.com/archives/C055Y333MM1) Slack Channel (internal)

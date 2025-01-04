@@ -179,7 +179,7 @@ When scheduling an event, this table can help guide you towards the right event 
 
 #### Chat {#zoom-chat}
 
-* [In-meeting chat](https://support.zoom.us/hc/en-us/articles/203650445-In-Meeting-Chat) / [Save in-meeting chat](https://support.zoom.us/hc/en-us/articles/115004792763-Saving-In-Meeting-Chat)
+* [In-meeting chat](https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0064400) / [Save in-meeting chat](https://support.zoom.us/hc/en-us/articles/115004792763-Saving-In-Meeting-Chat)
 * [Webcast chat](https://support.zoom.us/hc/en-us/articles/205761999-Webinar-Chat)
 
 **Chat announcements**
@@ -192,7 +192,7 @@ Chat announcements allow specific users to send one-way announcements to everyon
 
 The question & answer (Q&A) feature for webcasts allows attendees to ask questions during the webcast and for the panelists, co-hosts and host to answer their questions. With the public Q&A feature, attendees can answer each other's questions and if enabled, they may also upvote each others questions.
 
-* [Getting started with question & answer](https://support.zoom.us/hc/en-us/articles/203686015-Getting-Started-with-Question-Answer)
+* [Getting started with question & answer](https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0064380)
 
 #### Polling {#zoom-polling}
 
@@ -349,7 +349,7 @@ You may also want to review the [GitLab Video Playbook](/handbook/communication/
 * Add "- GitLab" and the end of your name or "- your title" to your event profile depending on what is displayed in the event when in chat rooms or other interactive areas. If the event platform accepts emoji (often possible if there is a mobile app) feel free to use the fox emoji or something else that shows your personality.
 * Add a profile picture to your virtual profile if you have the option. It adds a more humanistic touch. If you do not feel comfortable using your image, please use one of the company logos instead.
 
-### Attendee/Staff Best Practices (Virtual sponsored conferences){#best-practices-attendees-staff}  
+### Attendee/Staff Best Practices (Virtual sponsored conferences){#best-practices-attendees-staff}
 
 * One of the biggest advantages of virtual conferences is that you can often search the attendee list by company and title. Sales should especially take advantage of this as an easy way to find and connect with other attendees from your account. Be mindful to use a custom outreach that is relevant to that contact, as sending a generic message to thousands of attendees does not yield a positive image or create meaningful connections.
 * Attend and participate in discussions at sessions, in chat rooms, and other areas the event platform provides in topics that are relevant to you. This helps show us as thought leaders beyond just our own speaking slots and helps gain connections across the event.

@@ -10,10 +10,10 @@ In our case, Zero Trust means that all devices trying to access an endpoint or a
 
 To learn more about the concept of Zero Trust and our roadmap for implementation, see this GitLab presentation from GoogleNext19: <https://www.youtube.com/watch?v=DrPiCBtaydM>
 
-You can also check out our [Zero Trust Networking (ZTN) blog series](https://about.gitlab.com/blog/tags.html#zero-trust) where we detail the ZTN implementation challenges we foresee ahead, some we've already managed to work through, and where we'll go from here:
+You can also check out our [Zero Trust Networking (ZTN) blog series](https://about.gitlab.com/blog/tags/zero-trust/) where we detail the ZTN implementation challenges we foresee ahead, some we've already managed to work through, and where we'll go from here:
 
 - Part one: [The evolution of Zero Trust](https://about.gitlab.com/blog/2019/04/01/evolution-of-zero-trust/)
-- Part two: [Zero Trust at GitLab: Problems, goals, and coming challenges](https://about.gitlab.com/blog/2019/08/09/zero-trust-at-gitlab-problems-goals-challenges)
+- Part two: [Zero Trust at GitLab: Problems, goals, and coming challenges](https://about.gitlab.com/blog/2019/08/09/zero-trust-at-gitlab-problems-goals-challenges/)
 - Part three: [Zero Trust at GitLab: The data classification and infrastructure challenge](https://about.gitlab.com/blog/2019/08/21/zero-trust-at-gitlab-the-data-classification-and-infrastructure-challenge/)
 - Part four: [Zero Trust at GitLab: Mitigating challenges with data zones and authentication scoring](https://about.gitlab.com/blog/2019/09/06/zero-trust-at-gitlab-data-zones-and-authentication-scoring/)
 - Part five: [Zero Trust at GitLab: Implementation challenges](https://about.gitlab.com/blog/2019/10/02/zero-trust-at-gitlab-implementation-challenges/)

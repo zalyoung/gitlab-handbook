@@ -26,7 +26,7 @@ When you work synchronously, tools like Slack or Microsoft Teams enable conversa
 
 Letting Slack pings dictate your working life is a recipe for burnout. It's also a terrible way to work. Messages are [siloed](/handbook/communication/#avoid-direct-messages) outside of public channels, so it's impossible for others to transparently see what others are working on.
 
-To solve for this, only pay for a chat plan that retains messages for 90 days or less. If your team knows that they'll never be able to query a message thread for context on a project, they will not use the tool for work. Instead, they'll be forced to start, discuss, and complete work in the place where it should end up. At GitLab (the company), this is GitLab ([the product](https://about.gitlab.com/stages-devops-lifecycle)).
+To solve for this, only pay for a chat plan that retains messages for 90 days or less. If your team knows that they'll never be able to query a message thread for context on a project, they will not use the tool for work. Instead, they'll be forced to start, discuss, and complete work in the place where it should end up. At GitLab (the company), this is GitLab ([the product](https://about.gitlab.com/stages-devops-lifecycle/)).
 
 This not only forces work to happen [in the open](/handbook/values/#transparency), where more people can provide feedback as they work to [see each other succeed](/handbook/values/#see-others-succeed), but it's also a far more inclusive way to work.
 
@@ -152,7 +152,7 @@ So long as your company adheres — even if unofficially — to set working hour
 
 The only way to remove that bias and open your company to a [truly global and diverse workforce](hiring/) is to destroy the epicenter of power as it relates to working hours.
 
-This also enables your workforce to design their work around their life, empowering them to be [managers of one](/handbook/values/#managers-of-one). This is a more [inclusive](https://about.gitlab.com/blog/2019/12/06/how-all-remote-supports-inclusion-and-bolsters-communities) and [healthier](mental-health/) way of working.
+This also enables your workforce to design their work around their life, empowering them to be [managers of one](/handbook/values/#managers-of-one). This is a more [inclusive](https://about.gitlab.com/blog/2019/12/06/how-all-remote-supports-inclusion-and-bolsters-communities/) and [healthier](mental-health/) way of working.
 
 ### If it's not in the handbook, it doesn't exist
 
@@ -200,13 +200,13 @@ You can do a [deep dive on remote-work challenges and solutions](drawbacks/#remo
 
 ## GitLab Knowledge Assessment: How to use Forcing Functions to Work Remote-First
 
-Anyone can test their knowledge on How to use forcing functions to work remote-first by completing the [knowledge assessment](https://docs.google.com/forms/d/e/1FAIpQLSePE1Aii5nQ_Xvz_hInlb2FZsvFkyQduUeMmeJ-vu6CNBqSzg/viewform). Earn at least an 80% or higher on the assessment to receive a passing score. Once the quiz has been passed, you will receive an email acknowledging the completion from GitLab. We are in the process of designing a GitLab Remote Certification and completion of the assessment will be one requirement in obtaining the [certification](https://about.gitlab.com/learn/certifications/public). If you have questions, please reach out to our [Learning & Development team](/handbook/people-group/learning-and-development) at `learning@gitlab.com`.
+Anyone can test their knowledge on How to use forcing functions to work remote-first by completing the [knowledge assessment](https://docs.google.com/forms/d/e/1FAIpQLSePE1Aii5nQ_Xvz_hInlb2FZsvFkyQduUeMmeJ-vu6CNBqSzg/viewform). Earn at least an 80% or higher on the assessment to receive a passing score. Once the quiz has been passed, you will receive an email acknowledging the completion from GitLab. We are in the process of designing a GitLab Remote Certification and completion of the assessment will be one requirement in obtaining the [certification](https://university.gitlab.com/certifications/public). If you have questions, please reach out to our [Learning & Development team](/handbook/people-group/learning-and-development) at `learning@gitlab.com`.
 
 {{% include "includes/is_this_advice_any_good_remote.md" %}}
 
 ## Contribute your lessons
 
-GitLab believes that all-remote is the [future of work]({{< ref "remote-vision" >}}), and remote companies have a shared responsibility to show the way for other organizations who are embracing it. If you or your company has an experience that would benefit the greater world, consider creating a [merge request](https://docs.gitlab.com/ee/user/project/merge_requests) and adding a contribution to this page.
+GitLab believes that all-remote is the [future of work]({{< ref "remote-vision" >}}), and remote companies have a shared responsibility to show the way for other organizations who are embracing it. If you or your company has an experience that would benefit the greater world, consider creating a [merge request](https://docs.gitlab.com/ee/user/project/merge_requests/) and adding a contribution to this page.
 
 ---
 

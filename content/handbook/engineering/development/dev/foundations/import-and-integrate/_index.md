@@ -11,7 +11,7 @@ The group supports the product
 - by migrating between GitLab instances and from other providers
 - with 3rd party integrations, REST APIs and GraphQL foundational code, and Webhooks.
 
-This page covers processes and information specific to the Import and Integrate group. See also the [group direction page](https://about.gitlab.com/direction/manage/import_and_integrate/) and the [features we support per category](/handbook/product/categories/features/#manageimport-and-integrate-group).
+This page covers processes and information specific to the Import and Integrate group. See also the [group direction page](https://about.gitlab.com/direction/foundations/) and the [features we support per category](/handbook/product/categories/features/#manageimport-and-integrate-group).
 
 ## How to reach us
 
@@ -289,7 +289,7 @@ An [Application Security Review](/handbook/security/product-security/application
 
 ### Longer lived feature flags
 
-This is a supplement to GitLab's common [development guidance](https://docs.gitlab.com/ee/development/feature_flags)
+This is a supplement to GitLab's common [development guidance](https://docs.gitlab.com/ee/development/feature_flags/)
 for use of feature flags. It applies to all flag types besides the [`ops` type](https://docs.gitlab.com/ee/development/feature_flags/#ops-type).
 
 Changes to Import and Integrate features often happen in high-traffic code paths and have
@@ -548,7 +548,7 @@ Learn more about error budgets with these resources:
 - [Error budgets and how they are calculated](/handbook/engineering/error-budgets/)
 - [What Apdex is and how it works](https://docs.gitlab.com/ee/development/application_slis/rails_request.html)
 - [Error budget in Grafana dashboards](https://docs.gitlab.com/ee/development/stage_group_observability/index.html#error-budget)
-- [Feature categorization](https://docs.gitlab.com/ee/development/feature_categorization): our code is attributed to us by `feature_category: :api`, `feature_category: :integrations`, `feature_category: :internationalization`, `feature_category: :importers`, and `feature_category: :webhooks`
+- [Feature categorization](https://docs.gitlab.com/ee/development/feature_categorization/): our code is attributed to us by `feature_category: :api`, `feature_category: :integrations`, `feature_category: :internationalization`, `feature_category: :importers`, and `feature_category: :webhooks`
 
 ## Links and resources {#links}
 

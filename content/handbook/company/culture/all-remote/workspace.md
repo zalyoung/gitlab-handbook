@@ -16,7 +16,7 @@ twitter_creator: "@gitlab"
 
 ## What is the best way to design a work from home setup?
 
-[Setting up a home office](https://about.gitlab.com/blog/2019/09/12/not-everyone-has-a-home-office) can be difficult. Many office spaces hire design professionals to create the workspace, but that burden shifts to employees in a remote environment.
+[Setting up a home office](https://about.gitlab.com/blog/2019/09/12/not-everyone-has-a-home-office/) can be difficult. Many office spaces hire design professionals to create the workspace, but that burden shifts to employees in a remote environment.
 
 While there are [benefits]({{< ref "remote-benefits" >}}) to ditching the cubicle, it can feel overwhelming to design a new workspace. It's not as hard as you think to create a space where you can be comfortable, focused, and productive.
 
@@ -42,7 +42,7 @@ While we can't answer every equipment question for you, here's an in-depth guide
 
 Since remote workers are responsible for internet connectivity, invest in a substantial home internet connection. You may also want to have a backup in case your connection fails - for example, you could upgrade your smartphone/plan to support tethering or invest in a dedicated mobile hotspot or MiFi.
 
-Assuming you're lucky enough to have excellent access, you may also want to set up a secondary connection so there's enough bandwidth for everyone working from your location. One person uploading a large file could impact the audio or visual quality of another person's [video call](https://about.gitlab.com/blog/2019/08/05/tips-for-mastering-video-calls) if they are trying to share a single connection.
+Assuming you're lucky enough to have excellent access, you may also want to set up a secondary connection so there's enough bandwidth for everyone working from your location. One person uploading a large file could impact the audio or visual quality of another person's [video call](https://about.gitlab.com/blog/2019/08/05/tips-for-mastering-video-calls/) if they are trying to share a single connection.
 
 ### PC
 
@@ -75,15 +75,15 @@ If you take frequent video calls in your home workspace, a dedicated webcam like
 
 Consider [selecting a webcam](https://www.nytimes.com/wirecutter/reviews/the-best-webcams/) with a versatile mount, enabling it to be set atop a desktop monitor as well as a laptop. You can greatly improve the output from a dedicated webcam by focusing on [good lighting](https://www.nytimes.com/wirecutter/blog/video-call-lighting-tips).
 
-Whether you're working with a webcam or the built-in device camera, you can optimize your space for better results. By utilizing a ring light or [Elgato Key Light](https://www.elgato.com/ww/en/p/key-light), and ensuring that there are no windows to your side or rear, you'll create a more even picture with fewer shadows. For more, read [5 tips for mastering video calls](https://about.gitlab.com/blog/2019/08/05/tips-for-mastering-video-calls) on the GitLab blog.
+Whether you're working with a webcam or the built-in device camera, you can optimize your space for better results. By utilizing a ring light or [Elgato Key Light](https://www.elgato.com/ww/en/p/key-light), and ensuring that there are no windows to your side or rear, you'll create a more even picture with fewer shadows. For more, read [5 tips for mastering video calls](https://about.gitlab.com/blog/2019/08/05/tips-for-mastering-video-calls/) on the GitLab blog.
 
 ### Headphones
 
-Wearing headphones, particularly in noisy environments, creates [a more positive audio experience for all](https://about.gitlab.com/blog/2019/06/28/five-things-you-hear-from-gitlab-ceo). Your choice of headphone will vary depending on your workspace. For example, if you're using a dedicated microphone, you may prefer comfortable studio-style headphones without an in-line mic. If you want to reduce the amount of hardware you're using, headphones with an in-line mic will be more appropriate.
+Wearing headphones, particularly in noisy environments, creates [a more positive audio experience for all](https://about.gitlab.com/blog/2019/06/28/five-things-you-hear-from-gitlab-ceo/). Your choice of headphone will vary depending on your workspace. For example, if you're using a dedicated microphone, you may prefer comfortable studio-style headphones without an in-line mic. If you want to reduce the amount of hardware you're using, headphones with an in-line mic will be more appropriate.
 
 GitLab recommends trying out various headphone styles in advance if possible. Open-ear vs. closed-ear, for example, provides a very different listening experience. Noise-cancelling headphones are great for crowded coworking spaces, but may blot out too much sound for [work-from-home caregivers](people/#parents) who need to be aware of what's happening inside the home.
 
-It's important to consider long-term comfort for those who may find themselves in [video calls](https://about.gitlab.com/blog/2019/08/05/tips-for-mastering-video-calls) for multiple hours per day. For example, some people prefer in-ear headphones rather than over-the-head headphones.
+It's important to consider long-term comfort for those who may find themselves in [video calls](https://about.gitlab.com/blog/2019/08/05/tips-for-mastering-video-calls/) for multiple hours per day. For example, some people prefer in-ear headphones rather than over-the-head headphones.
 
 Bluetooth headphones can be problematic for roles requiring a significant amount of calls, due to limitations of microphone quality, latency, and battery life. If you opt for Bluetooth headphones, you may want to also use a separate wired microphone. Bluetooth headphones, if  paired with multiple devices (e.g. one pair of headphones with a pairing history involving a laptop as well as a phone), may jump between devices.  We recommend pairing one set of Bluetooth headphones per device to avoid unexpected disconnects during video calls.
 
@@ -167,7 +167,7 @@ If possible, visit a physical store to try out a variety of ergonomic seating op
 
 ### Desk
 
-While some remote workers prefer to [bounce around](https://about.gitlab.com/blog/2019/09/23/how-to-push-code-from-a-hammock) during the day, those looking to [invest in a desk](https://www.nationalbusinessfurniture.com/blog/complete-guide-to-office-desks) for a dedicated workspace should consider a few elements.
+While some remote workers prefer to [bounce around](https://about.gitlab.com/blog/2019/09/23/how-to-push-code-from-a-hammock/) during the day, those looking to [invest in a desk](https://www.nationalbusinessfurniture.com/blog/complete-guide-to-office-desks) for a dedicated workspace should consider a few elements.
 
 - Plan your desk purchase to fit your equipment, rather than the other way around.
 - If you plan to use one or more desktop monitors (which is recommended), measure the physical dimensions and ensure that your desk has room to hold them.
@@ -199,11 +199,11 @@ If you're transitioning from an office environment where supplies magically appe
 
 When [communicating](informal-communication/) via webcam, you need to be aware of your lighting scheme.
 
-Meetings are about the work, [not the background](meetings/#meetings-are-about-the-work-not-the-background), but those who are [designing their home office](https://about.gitlab.com/blog/2019/09/12/not-everyone-has-a-home-office) may want to consider lighting before too many absolutes are put in place. Here are a few lighting tips to be mindful of.
+Meetings are about the work, [not the background](meetings/#meetings-are-about-the-work-not-the-background), but those who are [designing their home office](https://about.gitlab.com/blog/2019/09/12/not-everyone-has-a-home-office/) may want to consider lighting before too many absolutes are put in place. Here are a few lighting tips to be mindful of.
 
 1. Avoid backlighting or sidelighting when possible (e.g. design your office so that outside light shines onto your face, not your back or side).
 1. Consider smart bulbs (e.g. [Philips Hue](https://www.philips-hue.com/en-us/products/smart-light-bulbs)) to light your office, which can be tweaked to create a soft, pleasing light regardless of your wall color.
-1. While [enclosed rooms](https://about.gitlab.com/blog/2019/09/12/not-everyone-has-a-home-office) are ideal for controlling light, they may feel inhibiting to work from.
+1. While [enclosed rooms](https://about.gitlab.com/blog/2019/09/12/not-everyone-has-a-home-office/) are ideal for controlling light, they may feel inhibiting to work from.
 1. Try to avoid shadows and changing light conditions.
 
 While studio lighting is ideal, not everyone will be inclined to install large, heat-generating light boxes in their home office. As remote work and live-streaming become more popular, companies are devising smaller solutions. Elgato's [Key Light](https://www.youtube.com/watch?v=d2qR-wMPoTE) is a great example. By placing one Key Light at the edge of a desk and facing its LEDs directly into the wall, a soft, refreshing light is [bounced back onto the participant](https://www.youtube.com/watch?v=RckLFNRKPfU).
@@ -214,9 +214,9 @@ Aside from your video setup, lighting is also an important factor in your overal
 
 ### Atmosphere
 
-If you've learned to be productive in a conventional [open office floor plan](https://royalsocietypublishing.org/doi/full/10.1098/rstb.2017.0239), you'll likely be able to increase your productivity level [as a remote team member](https://about.gitlab.com/blog/2019/08/15/all-remote-is-for-everyone).
+If you've learned to be productive in a conventional [open office floor plan](https://royalsocietypublishing.org/doi/full/10.1098/rstb.2017.0239), you'll likely be able to increase your productivity level [as a remote team member](https://about.gitlab.com/blog/2019/08/15/all-remote-is-for-everyone/).
 
-Consider [where you prefer to work on a daily basis](https://about.gitlab.com/blog/2019/09/12/not-everyone-has-a-home-office) and optimize this space for focus. Try to remove visual, sound, and motion distractions to maximize your focus on work while in the space and [healthily disconnect](https://about.gitlab.com/blog/2019/07/09/tips-for-working-from-home-remote-work) when you exit.
+Consider [where you prefer to work on a daily basis](https://about.gitlab.com/blog/2019/09/12/not-everyone-has-a-home-office/) and optimize this space for focus. Try to remove visual, sound, and motion distractions to maximize your focus on work while in the space and [healthily disconnect](https://about.gitlab.com/blog/2019/07/09/tips-for-working-from-home-remote-work/) when you exit.
 
 ### Busy/available indicators
 
@@ -250,7 +250,7 @@ Plan your work time and [time off]({{< ref "paid-time-off" >}}) in advance. When
 
 Have an open, honest conversation with co-dwellers about your working hours. Explain that while you are home, you should be considered unreachable unless there's a significant level of need.
 
-Be sure to have the ["I'm home but working" conversation with children](https://about.gitlab.com/blog/2019/08/01/working-remotely-with-children-at-home), who may struggle to understand why [a working parent](https://about.gitlab.com/blog/2019/07/25/balancing-career-and-baby) is in the home but unable or unwilling to engage with them for certain parts of the day.
+Be sure to have the ["I'm home but working" conversation with children](https://about.gitlab.com/blog/2019/08/01/working-remotely-with-children-at-home/), who may struggle to understand why [a working parent](https://about.gitlab.com/blog/2019/07/25/balancing-career-and-baby/) is in the home but unable or unwilling to engage with them for certain parts of the day.
 
 ### How can I decorate my home office?
 
@@ -274,13 +274,13 @@ Keep in mind that there's no "one size fits all" for a home office setup, becaus
 
 ## GitLab Knowledge Assessment: Considerations for a productive home office or remote workspace
 
-Anyone can test their knowledge on how to set up a productive home office or remote workspace by completing the [knowledge assessment](https://docs.google.com/forms/d/e/1FAIpQLSeuswfs_t1Dl2vbmapTLNRHa2rfi5zwUg2IQ7ZQI7hxc1gB5g/viewform). Earn at least an 80% or higher on the assessment to receive a passing score. Once the quiz has been passed, you will receive an email acknowledging the completion from GitLab. We are in the process of designing a GitLab Remote Certification and completion of the assessment will be one requirement in obtaining the [certification](https://about.gitlab.com/learn/certifications/public). If you have questions, reach out to our [Learning & Development team](/handbook/people-group/learning-and-development) at `learning@gitlab.com`.
+Anyone can test their knowledge on how to set up a productive home office or remote workspace by completing the [knowledge assessment](https://docs.google.com/forms/d/e/1FAIpQLSeuswfs_t1Dl2vbmapTLNRHa2rfi5zwUg2IQ7ZQI7hxc1gB5g/viewform). Earn at least an 80% or higher on the assessment to receive a passing score. Once the quiz has been passed, you will receive an email acknowledging the completion from GitLab. We are in the process of designing a GitLab Remote Certification and completion of the assessment will be one requirement in obtaining the [certification](https://university.gitlab.com/certifications/public). If you have questions, reach out to our [Learning & Development team](/handbook/people-group/learning-and-development) at `learning@gitlab.com`.
 
 {{% include "includes/is_this_advice_any_good_remote.md" %}}
 
 ## Contribute your lessons
 
-GitLab believes that all-remote is the [future of work]({{< ref "remote-vision" >}}), and remote companies have a shared responsibility to show the way for other organizations who are embracing it. If you or your company has an experience that would benefit the greater world, consider creating a [merge request](https://docs.gitlab.com/ee/user/project/merge_requests) and adding a contribution to this page.
+GitLab believes that all-remote is the [future of work]({{< ref "remote-vision" >}}), and remote companies have a shared responsibility to show the way for other organizations who are embracing it. If you or your company has an experience that would benefit the greater world, consider creating a [merge request](https://docs.gitlab.com/ee/user/project/merge_requests/) and adding a contribution to this page.
 
 ---
 

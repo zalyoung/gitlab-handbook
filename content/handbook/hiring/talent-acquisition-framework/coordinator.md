@@ -3,7 +3,7 @@ title: "Candidate Experience Specialist Responsibilities"
 description: "This page is an overview of the processes, and systems that the Candidate Experience Team is responsible for."
 ---
 
-The CES team utilizes [GitLab Service Desk](https://about.gitlab.com/stages-devops-lifecycle/service-desk/) to track all incoming requests to the CES team. If you are a GitLab team member and you have a request or question for the Candidate Experience team, email `ces@gitlab.com` and a ticket will automatically be created within the CES Service Desk. Please see the [alignment page]({{< ref "recruiting-alignment#recruiter-coordinator-and-sourcer-alignment-by-department" >}}) to learn more about which CES team member will be working on your requests.
+The CES team utilizes [GitLab Service Desk](https://docs.gitlab.com/ee/user/project/service_desk/) to track all incoming requests to the CES team. If you are a GitLab team member and you have a request or question for the Candidate Experience team, email `ces@gitlab.com` and a ticket will automatically be created within the CES Service Desk. Please see the [alignment page]({{< ref "recruiting-alignment#recruiter-coordinator-and-sourcer-alignment-by-department" >}}) to learn more about which CES team member will be working on your requests.
 
 ### Best Practices
 

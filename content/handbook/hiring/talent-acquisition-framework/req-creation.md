@@ -266,7 +266,7 @@ On occasion, there may be additional or fewer stages than represented here, but 
 
 ### Publish the Job: Careers Page & LinkedIn
 
-Once a job has been setup in Greenhouse and posted to the GitLab public job board it will be automatically posted to the [Careers Page](https://about.gitlab.com/jobs).
+Once a job has been setup in Greenhouse and posted to the GitLab public job board it will be automatically posted to the [Careers Page](https://about.gitlab.com/jobs/).
 
 #### Choosing the correct location for your published job
 

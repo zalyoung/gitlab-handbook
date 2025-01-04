@@ -20,13 +20,13 @@ All-remote and remote-first organizations [enable lifestyles]({{< ref "remote-be
 
 When you're free to choose when and where you live and work, [your work can revolve around your life](stories/) as opposed to the other way around.
 
-All-remote and remote-first [organizations](jobs/) tend to attract people who place a high degree of value on [autonomy](https://about.gitlab.com/blog/2018/10/18/the-case-for-all-remote-companies), [flexibility](https://about.gitlab.com/blog/2019/06/25/how-remote-work-at-gitlab-enables-location-independence), [empathy](https://about.gitlab.com/blog/2019/07/09/tips-for-working-from-home-remote-work), and [mobility]({{< ref "inclusion#fully-distributed-and-completely-connected" >}}). It also presents [outsized opportunity for people who must live or prefer to live in rural areas](https://about.gitlab.com/blog/2019/08/15/all-remote-is-for-everyone), where well-paying careers in technical industries are few and far between.
+All-remote and remote-first [organizations](jobs/) tend to attract people who place a high degree of value on [autonomy](https://about.gitlab.com/blog/2018/10/18/the-case-for-all-remote-companies/), [flexibility](https://about.gitlab.com/blog/2019/06/25/how-remote-work-at-gitlab-enables-location-independence/), [empathy](https://about.gitlab.com/blog/2019/07/09/tips-for-working-from-home-remote-work/), and [mobility]({{< ref "inclusion#fully-distributed-and-completely-connected" >}}). It also presents [outsized opportunity for people who must live or prefer to live in rural areas](https://about.gitlab.com/blog/2019/08/15/all-remote-is-for-everyone/), where well-paying careers in technical industries are few and far between.
 
-Below, we're detailing examples of people who have adopted a [remote lifestyle](https://about.gitlab.com/blog/2018/03/15/working-at-gitlab-affects-my-life). If these resonate with you, chances are high that you would receive a great deal of fulfillment in an [all-remote or remote-first company](jobs/). Similarly, if you're an employer yearning to hire sharp, driven, passionate people like the below, consider [going all-remote]({{< ref "_index.md" >}}) in your own company.
+Below, we're detailing examples of people who have adopted a [remote lifestyle](https://about.gitlab.com/blog/2018/03/15/working-at-gitlab-affects-my-life/). If these resonate with you, chances are high that you would receive a great deal of fulfillment in an [all-remote or remote-first company](jobs/). Similarly, if you're an employer yearning to hire sharp, driven, passionate people like the below, consider [going all-remote]({{< ref "_index.md" >}}) in your own company.
 
 ## Travelers
 
-Individuals with an [innate sense of wanderlust](https://about.gitlab.com/blog/2019/09/12/not-everyone-has-a-home-office) are apt to gain fulfillment in an [all-remote or remote-first role](jobs/). Having the freedom and flexibility to travel at will and [work from anywhere in the world](https://about.gitlab.com/blog/2019/06/25/how-remote-work-at-gitlab-enables-location-independence) with a solid internet connection is a tremendous perk for those who don't want to sit still, yearn to explore new cultures, and collect new passport stamps.
+Individuals with an [innate sense of wanderlust](https://about.gitlab.com/blog/2019/09/12/not-everyone-has-a-home-office/) are apt to gain fulfillment in an [all-remote or remote-first role](jobs/). Having the freedom and flexibility to travel at will and [work from anywhere in the world](https://about.gitlab.com/blog/2019/06/25/how-remote-work-at-gitlab-enables-location-independence/) with a solid internet connection is a tremendous perk for those who don't want to sit still, yearn to explore new cultures, and collect new passport stamps.
 
 It's important to note that you aren't required to have audacious travel goals to appreciate an all-remote setting. Those who simply appreciate the ability to visit friends and family on occasion — or jump on [excellent flight deals](https://scottscheapflights.com) to new locales — without lobbying for additional vacation may be suited for all-remote.
 
@@ -50,7 +50,7 @@ This affords him multiple home bases around the world for less than the cost of 
 
 > I'm definitely spending more time with my children, which they appreciate and I really enjoy. I've always wanted flexibility, but [GitLab] is a place where it's not just lip service. You can live it. - *Melody M., Accounting and External Reporting Manager at GitLab*
 
-Building a career while raising one or more children has its [challenges](https://about.gitlab.com/blog/2019/08/08/remote-kids-part-four). However, all-remote and remote-first organizations provide an [atmopshere]({{< ref "remote-benefits" >}}{{< ref "" >}}) where those who yearn to continue working may do so without the usual family sacrifices linked to daily commutes in colocated environments.
+Building a career while raising one or more children has its [challenges](https://about.gitlab.com/blog/2019/08/08/remote-kids-part-four/). However, all-remote and remote-first organizations provide an [atmopshere]({{< ref "remote-benefits" >}}{{< ref "" >}}) where those who yearn to continue working may do so without the usual family sacrifices linked to daily commutes in colocated environments.
 
 Research has shown that parental presence for [infants, toddlers, and older children](https://www.gsb.stanford.edu/insights/eric-bettinger-why-stay-home-parents-are-good-older-children) has a marked impact on a child's adaptability and aptitude. In high-income families, it's easier for one parent to voluntarily step away from work to care for a child, with another parent supporting the group financially. This creates an outsized negative impact on lower-income families, including those residing in rural areas where well-paying colocated career opportunities are limited.
 
@@ -58,7 +58,7 @@ Research has shown that parental presence for [infants, toddlers, and older chil
 
 Historically, this has also [disproportionality impacted females](https://www.pewresearch.org/social-trends/2014/04/08/after-decades-of-decline-a-rise-in-stay-at-home-mothers/), though [The Pew Research Center](https://www.pewresearch.org/social-trends/2014/06/05/growing-number-of-dads-home-with-the-kids/) has seen a recent rise in stay-at-home fathers citing "caring for home/family" as their reason.
 
-All-remote solves these quandaries in multiple ways. In families where both parents wish to continue building their career, but desire to parent their child or children at home, [an all-remote work environment affords them that luxury](https://about.gitlab.com/blog/2016/04/08/remote-working-parents). Extrapolated, this contributes to a future generation of adults that have collectively reaped the benefits of increased parental presence, building a better tomorrow for all.
+All-remote solves these quandaries in multiple ways. In families where both parents wish to continue building their career, but desire to parent their child or children at home, [an all-remote work environment affords them that luxury](https://about.gitlab.com/blog/2016/04/08/remote-working-parents/). Extrapolated, this contributes to a future generation of adults that have collectively reaped the benefits of increased parental presence, building a better tomorrow for all.
 
 ### Improving quality of life
 
@@ -74,10 +74,10 @@ All-remote can significantly impact the fabric of a family in the process of ado
 
 For more, consider reading GitLab's four-part blog series on working remotely with children of all ages.
 
-1. [Parental/maternity leave around the world – how does your country stack up?](https://about.gitlab.com/blog/2019/07/18/how-is-it-being-a-new-mom-working-for-gitlab)
-1. [How I balance a baby, a career at GitLab, and cultural expectations of motherhood](https://about.gitlab.com/blog/2019/07/25/balancing-career-and-baby)
-1. [How to make your home a space that works with kids](https://about.gitlab.com/blog/2019/08/01/working-remotely-with-children-at-home)
-1. [5 Things to keep in mind while working remotely with kids](https://about.gitlab.com/blog/2019/08/08/remote-kids-part-four)
+1. [Parental/maternity leave around the world – how does your country stack up?](https://about.gitlab.com/blog/2019/07/18/how-is-it-being-a-new-mom-working-for-gitlab/)
+1. [How I balance a baby, a career at GitLab, and cultural expectations of motherhood](https://about.gitlab.com/blog/2019/07/25/balancing-career-and-baby/)
+1. [How to make your home a space that works with kids](https://about.gitlab.com/blog/2019/08/01/working-remotely-with-children-at-home/)
+1. [5 Things to keep in mind while working remotely with kids](https://about.gitlab.com/blog/2019/08/08/remote-kids-part-four/)
 
 ## Community advocates
 
@@ -115,7 +115,7 @@ Emilie S., a data engineer, provides tips for those embracing all-remote roles i
 
 > Getting promoted while working remotely really depends on how remote your company is. GitLab is a fully remote organization with over 700 folks around the world, so getting promoted wasn't difficult at all. In previous roles, I was the only person who worked remotely. In those cases, I felt very forgotten by my employer. - *[Emilie S., data engineer at GitLab](https://gitlab.com/emilie)*
 
-Brittany R., Compensation & Benefits Manager, shares [advice for working parents in an all-remote setting](https://about.gitlab.com/blog/2019/08/08/remote-kids-part-four).
+Brittany R., Compensation & Benefits Manager, shares [advice for working parents in an all-remote setting](https://about.gitlab.com/blog/2019/08/08/remote-kids-part-four/).
 
 > My daughter is my best friend, and I am so blessed to be able to see her grow into her own little person while still accomplishing my professional goals. Seeing her interact ("Hi!" for everyone) with all of my GitLab teammates at Contribute was also very special. – [*Brittany R., Compensation & Benefits Manager*](/handbook/company/team#brittanyr)
 
@@ -129,21 +129,21 @@ Those who are drawn to outdoor hobbies, such as canyoneering, photography, rafti
 
 When considering employment of any kind, it's important to evaluate the offer in totality. Elements such as compensation, safety/security, management style, day-to-day tasks, and benefits are important. For some, the elements of flexibility, autonomy, and ability to live in a place of their choosing takes precedence.
 
-It's wise to rank all of the above in order of importance for you. If you find that being able to live wherever you wish is as important, if not more important, than extracting a certain salary from a role, [all-remote will likely suit you well](https://about.gitlab.com/blog/2015/06/17/highlights-to-my-first-remote-job).
+It's wise to rank all of the above in order of importance for you. If you find that being able to live wherever you wish is as important, if not more important, than extracting a certain salary from a role, [all-remote will likely suit you well](https://about.gitlab.com/blog/2015/06/17/highlights-to-my-first-remote-job/).
 
 [Eldridge H.](https://gitlab.com/ehenley), a support engineer at GitLab, articulates this below.
 
 > It dawned on me just how liberating remote work with GitLab is. It's a bit difficult to fully explain, but having my [own personal space](workspace/) to work from is amazing.
 >
-> Having my own personal environment to work in, and being able [to make this space my own](https://about.gitlab.com/blog/2019/09/12/not-everyone-has-a-home-office), really motivates me to do well. The freedom I have to make choices on how I approach things and at the same time, being empowered to communicate with others and adapt their approaches is insanely thought provoking.
+> Having my own personal environment to work in, and being able [to make this space my own](https://about.gitlab.com/blog/2019/09/12/not-everyone-has-a-home-office/), really motivates me to do well. The freedom I have to make choices on how I approach things and at the same time, being empowered to communicate with others and adapt their approaches is insanely thought provoking.
 >
-> Even though [everyone is remote](https://about.gitlab.com/blog/2019/08/15/all-remote-is-for-everyone), it's just like being in an office with everyone. It's so reassuring how motivated, caring, and diligent everyone is. It's insane how there are so many of us, but the whole process from ticket first response to resolution makes it seem like we are all in the same location.
+> Even though [everyone is remote](https://about.gitlab.com/blog/2019/08/15/all-remote-is-for-everyone/), it's just like being in an office with everyone. It's so reassuring how motivated, caring, and diligent everyone is. It's insane how there are so many of us, but the whole process from ticket first response to resolution makes it seem like we are all in the same location.
 >
-> It's so cool to be surrounded by extremely smart and motivated people. To be able to troubleshoot and talk about nerdy things without fear. It's reassuring to know that we all have the same goal in mind. The autonomy to [communicate](https://about.gitlab.com/blog/2019/12/23/six-key-practices-that-improve-communication) with who we need to, in our own personal space, really shows me how valuable we are as a team.
+> It's so cool to be surrounded by extremely smart and motivated people. To be able to troubleshoot and talk about nerdy things without fear. It's reassuring to know that we all have the same goal in mind. The autonomy to [communicate](https://about.gitlab.com/blog/2019/12/23/six-key-practices-that-improve-communication/) with who we need to, in our own personal space, really shows me how valuable we are as a team.
 >
 > GitLab Support is *hard*. It's challenging and immensely rewarding. It's confusing and scary. However, it is comforting to know that everyone feels this way.
 >
-> I expected remote work to be [a hurdle to overcome](https://about.gitlab.com/blog/2019/12/30/mastering-the-all-remote-environment) upon joining GitLab. I wondered how having the filter of a webcam would impact people and how they reacted or interacted. These questions were [squashed](https://about.gitlab.com/blog/2019/08/05/tips-for-mastering-video-calls) after my first day. I am extremely happy to have been given this insane opportunity. To make things better for others and at the same time, make things better for myself. We are like an open source community *within* an open source community.
+> I expected remote work to be [a hurdle to overcome](https://about.gitlab.com/blog/2019/12/30/mastering-the-all-remote-environment/) upon joining GitLab. I wondered how having the filter of a webcam would impact people and how they reacted or interacted. These questions were [squashed](https://about.gitlab.com/blog/2019/08/05/tips-for-mastering-video-calls/) after my first day. I am extremely happy to have been given this insane opportunity. To make things better for others and at the same time, make things better for myself. We are like an open source community *within* an open source community.
 
 ### Employer benefits
 
@@ -157,11 +157,11 @@ It's wise to rank all of the above in order of importance for you. If you find t
 
 The traditional view of work/life balance insinuates that work and life are on opposite ends of a scale, with an individual responsible for ensuring that neither side teeters too far in one direction. This creates a climate where work and life are naturally at odds with one another, ever at war for the hours in your day.
 
-A healthier approach, enabled by all-remote, is work/life *harmony*. When your work and your life are in harmony, there's less friction. You're free to approach your day not as a competition between two factions, but as [one experience with two forces that more naturally give and take as needed](https://about.gitlab.com/blog/2019/06/18/day-in-the-life-remote-worker).
+A healthier approach, enabled by all-remote, is work/life *harmony*. When your work and your life are in harmony, there's less friction. You're free to approach your day not as a competition between two factions, but as [one experience with two forces that more naturally give and take as needed](https://about.gitlab.com/blog/2019/06/18/day-in-the-life-remote-worker/).
 
 ### Added adaptability
 
-All-remote enables greater harmony by being more [forgiving of the unknown](https://about.gitlab.com/blog/2018/05/11/day-in-life-of-remote-sdr), and more accepting of the unexpected. When you're able to live and work in a place of your choosing, there's one less barrier in the way when you need to quickly pivot away from work in order to address a situation at home, with family, etc.
+All-remote enables greater harmony by being more [forgiving of the unknown](https://about.gitlab.com/blog/2018/05/11/day-in-life-of-remote-sdr/), and more accepting of the unexpected. When you're able to live and work in a place of your choosing, there's one less barrier in the way when you need to quickly pivot away from work in order to address a situation at home, with family, etc.
 
 ### Creating a more efficient day
 
@@ -203,7 +203,7 @@ Beyond the personal, communal, and societal benefits from empowering people to p
 
 ## Contribute your lessons
 
-GitLab believes that all-remote is the [future of work]({{< ref "remote-vision" >}}), and remote companies have a shared responsibility to show the way for other organizations who are embracing it. If you or your company has an experience that would benefit the greater world, consider creating a [merge request](https://docs.gitlab.com/ee/user/project/merge_requests) and adding a contribution to this page.
+GitLab believes that all-remote is the [future of work]({{< ref "remote-vision" >}}), and remote companies have a shared responsibility to show the way for other organizations who are embracing it. If you or your company has an experience that would benefit the greater world, consider creating a [merge request](https://docs.gitlab.com/ee/user/project/merge_requests/) and adding a contribution to this page.
 
 ---
 

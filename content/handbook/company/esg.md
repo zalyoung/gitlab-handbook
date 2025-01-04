@@ -325,7 +325,7 @@ GitLab is dedicated to supporting charitable organizations with missions that al
 
 The GitLab Foundation is funded by GitLab and its co-founder, Sid Sijbrandij. When GitLab went public in 2021, the Board approved a 1% share donation to capitalize the GitLab Foundation. In FY24, 1,635,545 shares of Class A common stock were registered to be issued to the GitLab Foundation.
 
-The GitLab Foundation is an independent nonprofit entity and its operations are autonomous from GitLab. To learn more, please visit the [GitLab Foundation](https://gitlabfoundation.org/).
+The GitLab Foundation is an independent nonprofit entity and its operations are autonomous from GitLab. To learn more, please visit the [GitLab Foundation](https://www.gitlabfoundation.org/).
 
 ### Environment
 
@@ -420,7 +420,7 @@ We strive to set an example by empowering our wider GitLab community to build an
 
 GitLab is dedicated to responsibly building artificial intelligence (AI) into and throughout our comprehensive DevSecOps platform. We offer GitLab Duo, a [full suite of AI capabilities](https://about.gitlab.com/gitlab-duo/) across the GitLab platform so that our customers can ship better, more secure software faster. GitLab Duo follows a privacy- and transparency-first approach to help customers confidently adopt AI while keeping their valuable assets protected.
 
-As we work to integrate new AI-powered features into the platform, we do not simply adopt the latest advancements for their own sake. Instead, we take a strategic, [intentional approach](https://design.gitlab.com/usability/ai-human-interaction), ensuring that the features we add have a clear purpose, appropriate controls, and safeguards to protect users’ data. This includes a [policy](https://about.gitlab.com/privacy/#information-processed-by-ai-powered-features) not to use customers’ or users’ AI inputs to train any language models without their instruction or prior consent.
+As we work to integrate new AI-powered features into the platform, we do not simply adopt the latest advancements for their own sake. Instead, we take a strategic, [intentional approach](https://design.gitlab.com/usability/ai-human-interaction/), ensuring that the features we add have a clear purpose, appropriate controls, and safeguards to protect users’ data. This includes a [policy](https://about.gitlab.com/privacy/#information-processed-by-ai-powered-features) not to use customers’ or users’ AI inputs to train any language models without their instruction or prior consent.
 
 In early 2024, we launched the GitLab [AI Transparency Center](https://about.gitlab.com/ai-transparency-center/) to enable our customers to confidently unlock the enormous potential of AI and emphasize our customer-centric approach to responsible AI development and deployment. The AI Transparency Center currently includes GitLab’s [AI Ethics Principles for Product Development](/handbook/legal/ethics-compliance-program/ai-ethics-principles/), [AI Continuity Plan](/handbook/product/ai/continuity-plan/), and [AI features documentation](https://docs.gitlab.com/ee/user/ai_features.html). The principles and policies in our AI Transparency Center govern how we responsibly select AI models to use based on an extensive model evaluation process. The launch of the center was a cross-functional effort led by the Legal and Corporate Affairs (LACA) team in partnership with the Product, Security, and Marketing teams.
 

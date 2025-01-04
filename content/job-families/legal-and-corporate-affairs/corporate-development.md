@@ -224,7 +224,7 @@ The VP of Corporate Development is a [grade 12](/handbook/total-rewards/compensa
 
 - Build and lead a high-performing Corporate Development team and mentor team members through the entire deal process
 - Develop GitLab's corporate development strategy, for acquisitions and key initiatives, and establish executive alignment
-- Determine Corporate Development's scope and priority focus areas through collaboration with executive and senior leadership, driving impact to [GitLab's vision](https://about.gitlab.com/company/vision/)
+- Determine Corporate Development's scope and priority focus areas through collaboration with executive and senior leadership, driving impact to [GitLab's vision](/handbook/company/vision/)
 - Oversee deal flow management end-to-end from sourcing to deal execution
 - Provide leadership and guidance in developing the business case, integration strategy planning and due diligence stages of the acquisition process with cross-functional teams
 - Lead deal terms negotiations on behalf of the company, guiding deal structure creation and negotiation strategy

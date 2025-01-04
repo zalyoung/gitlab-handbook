@@ -93,7 +93,7 @@ The goal of this process is to make it easy to: submit new designs (including
 documentation), propose changes to existing designs, and translate component
 designs into built components.
 
-To learn more about the stages of the component lifecycle, read our [component lifecycle documentation](https://design.gitlab.com/get-started/lifecycle).
+To learn more about the stages of the component lifecycle, read our [component lifecycle documentation](https://design.gitlab.com/get-started/lifecycle/).
 
 ## Beautifying the GitLab UI
 

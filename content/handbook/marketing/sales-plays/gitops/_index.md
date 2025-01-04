@@ -8,7 +8,7 @@ title: "Sales Play: Infrastructure Automation with GitOps"
 
 - The [GitOps Marketing campaign](https://gitlab.com/gitlab-com/marketing/demand-generation/campaigns/-/issues/1183) has produced the highest amount of linear SAOs across all segments since launch in April 2020
 - Over 45% of our [survey respondents at Kubecon EU](https://gitlab.com/gitlab-com/marketing/corporate_marketing/corporate-marketing/-/issues/4792) highlighted that GitOps is a priority for their organization in the short term.
-- The interest in GitOps topics was so HIGH that CD Conference (by CNCF) had to spin up a separate [GitOps Conference](https://hopin.com/events/gitops-con)
+- The interest in GitOps topics was so HIGH that CD Conference (by CNCF) had to spin up a separate [GitOps Conference](https://events.ringcentral.com/events/gitops-con)
 - GitOps helps you target a completely new persona and usecase - opening up [new land and expand opportunities](https://gitlab.com/gitlab-com/marketing/demand-generation/campaigns/-/issues/1183#sample-deals-from-fy21) for you
 
 ### What is GitOps?
@@ -293,7 +293,7 @@ Here are a few recommended email templates you can use based on the stage of the
 
 GitLab Professional Services help customers become efficient in GitLab quickly. GitLab (or a GitLab partner) offers a number of service offerings to support customers.
 
-For the GitOps sales play, consider asking your customer about their workforce's proficiency with git, GitLab, and GitLab CI as they are foundational elements to GitOps. If they are not strong in all of these topics, consider positioning [GitLab with git Basics training](https://university.gitlab.com/pages/gitlab-fundamentals-training) and/or [GitLab CI/CD training](https://about.gitlab.com/services/education/gitlab-ci/).
+For the GitOps sales play, consider asking your customer about their workforce's proficiency with git, GitLab, and GitLab CI as they are foundational elements to GitOps. If they are not strong in all of these topics, consider positioning [GitLab with git Basics training](https://university.gitlab.com/pages/gitlab-fundamentals-training) and/or [GitLab CI/CD training](https://university.gitlab.com/pages/ci-cd-training/).
 
 Advisory/Consulting services to help with GitOps rollout are planned to be rolled out later this year. Please register your interest for a GitOps Advisory offering [here](https://gitlab.com/gitlab-com/customer-success/professional-services-group/ps-leadership-team/ps-practice-management/-/issues/74) to help PS effectively prioritize!
 

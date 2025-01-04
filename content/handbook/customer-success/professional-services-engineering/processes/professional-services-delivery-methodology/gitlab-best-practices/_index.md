@@ -11,7 +11,7 @@ This [article](https://www.cisa.gov/news-events/alerts/2023/06/28/cisa-and-nsa-r
 
 ## 1. Use feature branches rather than direct commits on the main branch
 
-Using feature branches is a simple way to develop and keep the [source code](https://about.gitlab.com/stages-devops-lifecycle/source-code-management/) clean. If a team has recently transitioned to Git from SVN, for example, they'll be used to a trunk-based workflow. When using Git, developers should create a branch for anything they're working on so that contributors can easily start the [code review process](https://about.gitlab.com/topics/version-control/what-is-code-review/) before merging.
+Using feature branches is a simple way to develop and keep the [source code](https://about.gitlab.com/solutions/source-code-management/) clean. If a team has recently transitioned to Git from SVN, for example, they'll be used to a trunk-based workflow. When using Git, developers should create a branch for anything they're working on so that contributors can easily start the [code review process](https://about.gitlab.com/topics/version-control/what-is-code-review/) before merging.
 
 ## 2. Test all commits, not only ones on the main branch
 
@@ -242,7 +242,7 @@ Audit Events allows GitLab owners and administrators to track important events s
 
 ![Audit events](audit-events.png){width="496" height="322"}
 
-Audit Events records different events per group and per project, which can be seen in the [audit events](https://docs.gitlab.com/ee/administration/audit_events.html) documentation. Audit Events can be accessed by going to Security & Compliance \> Audit Events Some examples include:
+Audit Events records different events per group and per project, which can be seen in the [audit events](https://docs.gitlab.com/ee/administration/audit_event_reports.html) documentation. Audit Events can be accessed by going to Security & Compliance \> Audit Events Some examples include:
 
 * user was added to project and their permissions
 * permission changes of a user assigned to a project

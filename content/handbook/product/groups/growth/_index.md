@@ -9,7 +9,7 @@ a customer to the flow across multiple GitLab features - and even reactivation o
 
 - Activation, Conversion, Expansion, and Adoption connect users to the existing value that GitLab already delivers by
 rapid experimentation.
-- [Analytics Instrumentation](https://about.gitlab.com/direction/analytics/analytics-instrumentation/) builds the backbone of data that other groups need to be successful, enabling a data-informed product
+- [Analytics Instrumentation](https://about.gitlab.com/direction/monitor/analytics-instrumentation/) builds the backbone of data that other groups need to be successful, enabling a data-informed product
 culture at GitLab.
 
 Growth's ultimate goal is to connect GitLab's value as a Single DevOps Platform with our customers. In order to do that, we take a zoom in and zoom out approach. We break down the entire GitLab growth model, and identify the highest ROI lever at this moment to focus on. In the [Growth direction page](/handbook/marketing/growth/) we outline the Growth section's long term direction and near term focus areas.

@@ -109,7 +109,7 @@ If there is an event you would like to attend, are attending, speaking, or have 
 
 For presentation assets like templates and slides, use the [GitLab branded Google slides](/handbook/tools-and-tips/#google-slides) and learn more about assets in the [Brand Design handbook](/handbook/marketing/brand-and-product-marketing/design/#working-with-the-brand).
 
-Please review and follow the [brand guidelines](https://design.gitlab.com/brand/overview).
+Please review and follow the [brand guidelines](https://design.gitlab.com/brand/overview/).
 
 Consider using a [GitLab branded Zoom background](/press/press-kit/#green-screens) during your virtual presentation to show your GitLab pride!
 

@@ -159,6 +159,7 @@ cardpane
 Casdoor
 CDFs
 CDNs
+CDot
 CE
 CentOS
 Ceph
@@ -507,6 +508,7 @@ GPUs
 Gradle
 Grafana
 Grafonnet
+Grammarly
 gravatar
 Grubhub
 Grype
@@ -549,6 +551,7 @@ HTMLHint
 http
 https
 Hugomods
+hypercare
 hypergrowth
 hyperparameter
 hyperparameters
@@ -567,8 +570,10 @@ incentivized
 incentivizes
 incentivizing
 inclusivity
+inexhaustive
 inflector
 inflectors
+influencer
 infradev
 Ingress
 initializer
@@ -780,6 +785,7 @@ Netlify
 Netsuite
 neurodevelopment
 neurodevelopmental
+neurodivergence
 neurodivergent
 neurodiverse
 neurodiversity
@@ -874,6 +880,8 @@ Pipfiles
 Piwik
 Pizzatime
 plaintext
+podcaster
+podcasters
 podman
 Poedit
 polyfill
@@ -1037,6 +1045,7 @@ roadmaps
 rock
 rollout
 rollouts
+Rolly
 routable
 RPCs
 RSpec
@@ -1076,6 +1085,7 @@ Schemastore
 screenshare
 scriptable
 scrollable
+SDGs
 SDKs
 SDRs
 sed
@@ -1083,6 +1093,7 @@ segmentations
 SEGs
 SELinux
 Semgrep
+Semver
 Sendbird
 Sendinblue
 Sendmail
@@ -1107,6 +1118,7 @@ shortcodes
 Sidekiq
 Sigstore
 Sijbrandij
+siloed
 Silverlight
 Siri
 Sisense
@@ -1249,6 +1261,7 @@ timelogs
 timesheet
 timesheets
 Tiptap
+TMAGs
 TMRGs
 ToDo
 todos
@@ -1323,6 +1336,7 @@ underperform
 underperformance
 underperformed
 underperforming
+underserved
 unencode
 unencoded
 unencoder
@@ -1408,6 +1422,7 @@ unverify
 unverifying
 uploader
 uploaders
+upskilling
 upstreams
 upvote
 upvoted
@@ -1438,6 +1453,7 @@ VPs
 VSCodium
 Vue
 Vuex
+Vulnmapper
 waitlist
 walkthrough
 walkthroughs

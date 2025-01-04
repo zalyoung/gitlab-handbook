@@ -109,9 +109,9 @@ GitLab hosted John Fitch for 2 Live [Speaker Series]({{< ref "learning-initiativ
 
 There are [many mental health benefits]({{< ref "remote-benefits#benefits-for-all-remote-employees" >}}) to remote work, but some that top the list are:
 
-1. Increased [flexibility](https://web.archive.org/web/20200606214525/https://shedoesdatathings.com/post/1-year-at-gitlab/) in your [daily life](people/#those-who-value-flexibility-and-autonomy) (for [kids](https://about.gitlab.com/blog/2019/07/25/balancing-career-and-baby), parents, friends, groceries, sports, deliveries).
-1. Less time and [stress](https://www.forbes.com/sites/markeghrari/2016/01/21/a-long-commute-could-be-the-last-thing-your-marriage-needs#5baf10f04245), and money wasted on a [commute](https://www.inc.com/business-insider/study-reveals-commute-time-impacts-job-satisfaction.html) (subway and bus fees, gas, car maintenance, tolls, etc.).
-1. Reduced [interruption stress](https://about.gitlab.com/blog/2018/05/17/eliminating-distractions-and-getting-things-done) and increased [productivity](https://www.inc.com/brian-de-haaff/3-ways-remote-workers-outperform-office-workers.html).
+1. Increased [flexibility](https://web.archive.org/web/20200606214525/https://shedoesdatathings.com/post/1-year-at-gitlab/) in your [daily life](people/#those-who-value-flexibility-and-autonomy) (for [kids](https://about.gitlab.com/blog/2019/07/25/balancing-career-and-baby/), parents, friends, groceries, sports, deliveries).
+1. Less time and [stress](https://www.forbes.com/sites/markeghrari/2016/01/21/a-long-commute-could-be-the-last-thing-your-marriage-needs/), and money wasted on a [commute](https://www.inc.com/business-insider/study-reveals-commute-time-impacts-job-satisfaction.html) (subway and bus fees, gas, car maintenance, tolls, etc.).
+1. Reduced [interruption stress](https://about.gitlab.com/blog/2018/05/17/eliminating-distractions-and-getting-things-done/) and increased [productivity](https://www.inc.com/brian-de-haaff/3-ways-remote-workers-outperform-office-workers.html).
 1. Less exposure to germs from sick coworkers.
 1. You can [choose your working hours](people/#worklife-harmony) based on when you're [most productive](asynchronous/).
 
@@ -127,7 +127,7 @@ Remote work is not for everyone. We have done a deep dive on specific [remote-wo
 
 ## What are some tips for managing mental health when working remotely?
 
-A remote role can feel [lonely](https://about.gitlab.com/blog/2018/04/27/remote-future-how-remote-companies-stay-connected), especially if you're [transitioning from a traditional office setting](https://about.gitlab.com/blog/2018/03/15/working-at-gitlab-affects-my-life). It's important to take inventory of your mental health and take action as needed.
+A remote role can feel [lonely](https://about.gitlab.com/blog/2018/04/27/remote-future-how-remote-companies-stay-connected/), especially if you're [transitioning from a traditional office setting](https://about.gitlab.com/blog/2018/03/15/working-at-gitlab-affects-my-life/). It's important to take inventory of your mental health and take action as needed.
 
 ### Document processes around mental health
 
@@ -208,7 +208,7 @@ A regular cycle of these workshops creates moments for reevaluation. A rest and 
 
 ## What are some warning signs that indicate someone is struggling with their mental health while working remotely?
 
-Oftentimes, if you are feeling burned out, you aren't the only one feeling that way. GitLab team members have compiled a list of symptoms related to burnout, isolation, and anxiety [in a blog post](https://about.gitlab.com/blog/2018/03/08/preventing-burnout). A few are highlighted below.
+Oftentimes, if you are feeling burned out, you aren't the only one feeling that way. GitLab team members have compiled a list of symptoms related to burnout, isolation, and anxiety [in a blog post](https://about.gitlab.com/blog/2018/03/08/preventing-burnout/). A few are highlighted below.
 
 1. You're constantly tired
 1. You no longer enjoy things
@@ -227,7 +227,7 @@ Oftentimes, if you are feeling burned out, you aren't the only one feeling that 
 
 *In the video above, Darren (Head of Remote, GitLab) and Sara (Senior Partner Marketing Manager, GitLab) discuss tips, tricks, and insights on preventing burnout and achieving balance.*
 
-Prevention is a [team sport](https://www.cncf.io/blog/2020/04/03/were-all-in-this-together-a-wellness-guide-from-the-cncf-well-being-working-group). Leaders must work to establish a workplace culture that empowers rather than restricts, managers must be proactive in sensing the signs of mental strain, and team members must feel comfortable surfacing issues while they are still manageable. Below are several [recommendations](https://about.gitlab.com/blog/2018/03/08/preventing-burnout) for avoiding and preventing burnout, according to GitLab team members.
+Prevention is a [team sport](https://www.cncf.io/blog/2020/04/03/were-all-in-this-together-a-wellness-guide-from-the-cncf-well-being-working-group). Leaders must work to establish a workplace culture that empowers rather than restricts, managers must be proactive in sensing the signs of mental strain, and team members must feel comfortable surfacing issues while they are still manageable. Below are several [recommendations](https://about.gitlab.com/blog/2018/03/08/preventing-burnout/) for avoiding and preventing burnout, according to GitLab team members.
 
 1. Set clear boundaries between work and home
 1. Take vacation
@@ -295,7 +295,7 @@ It's also important to understand that not every team members prefers to discuss
 
 Particularly in remote companies, leadership should consider implementing processes around internal feedback. Companies will often wait to gather [internal feedback]({{< ref "internal-feedback" >}}) until an exit interview after someone's resigned, or they'll organize an occasional survey to take a pulse on the company's engagement. GitLab prefers shorter, but more frequent, check-ins, aligned to our values of [collaboration](/handbook/values/#collaboration) and [iteration](/handbook/values/#iteration).
 
-Ask questions that shed light on whether or not a team member is thriving or struggling, and pay close attention to any adjustable workplace factors that are [contributing](https://about.gitlab.com/blog/2018/06/26/iterating-improving-frontend-culture) either positively or negatively.
+Ask questions that shed light on whether or not a team member is thriving or struggling, and pay close attention to any adjustable workplace factors that are [contributing](https://about.gitlab.com/blog/2018/06/26/iterating-improving-frontend-culture/) either positively or negatively.
 
 Learn more about [GitLab's approach and guidance on feedback]({{< ref "guidance-on-feedback" >}}).
 
@@ -321,7 +321,7 @@ In a remote setting, it's important to let others know you need uninterrupted fo
 
 ### Time tracking
 
-Be aware of how much time you spend working versus distractions. You can use [time tracking tools](https://about.gitlab.com/blog/2019/11/26/e-factor-productivity) to get a baseline, then set goals for increasing productivity as you learn to reduce distractions.
+Be aware of how much time you spend working versus distractions. You can use [time tracking tools](https://about.gitlab.com/blog/2019/11/26/e-factor-productivity/) to get a baseline, then set goals for increasing productivity as you learn to reduce distractions.
 
 This [Forbes article on remote-work time management tips](https://www.forbes.com/sites/carolinecastrillon/2020/12/06/5-time-management-tips-when-working-from-home/?sh=7b60c0164874) also recommends
 
@@ -333,7 +333,7 @@ This [Forbes article on remote-work time management tips](https://www.forbes.com
 
 ## What are some tips for avoiding distractions when working remotely?
 
-GitLab employee Matej L. outlines [9 tips for eliminating remote work distractions and being more productive](https://about.gitlab.com/blog/2018/05/17/eliminating-distractions-and-getting-things-done) here.
+GitLab employee Matej L. outlines [9 tips for eliminating remote work distractions and being more productive](https://about.gitlab.com/blog/2018/05/17/eliminating-distractions-and-getting-things-done/) here.
 
 **Pro tip:** experiment with removing Slack from your phone. A [litany](https://sitn.hms.harvard.edu/flash/2018/dopamine-smartphones-battle-time) of [studies](https://pmc.ncbi.nlm.nih.gov/articles/PMC6449671/) have covered the addictive nature of smartphones. Even if you aren't sure if this approach will benefit you, give it a try. It's what we call a [two-way door](/handbook/values/#make-two-way-door-decisions).
 
@@ -375,7 +375,7 @@ Complete all knowledge assessments in the [Remote Work Foundation certification]
 
 ## Contribute your lessons
 
-Creating a healthy remote workplace is essential to business success. If you or your company has an experience that would benefit the greater world, consider creating a [merge request](https://docs.gitlab.com/ee/user/project/merge_requests) and adding a contribution to this page.
+Creating a healthy remote workplace is essential to business success. If you or your company has an experience that would benefit the greater world, consider creating a [merge request](https://docs.gitlab.com/ee/user/project/merge_requests/) and adding a contribution to this page.
 
 ---
 

@@ -27,7 +27,7 @@ We are big on relationship-buiding. We highly value intentionally creating time 
 
 Informal communication builds an [informal substructure of trust]({{< ref "building-trust" >}}). This trust helps people accept decisions. That acceptance makes successful execution of decision more likely.
 
-All-remote workers who are all-work all the time risk [loneliness](https://about.gitlab.com/blog/2018/04/27/remote-future-how-remote-companies-stay-connected) or [burnout](mental-health/). One of the best ways to combat loneliness and burnout are through relationship-building by prioritizing regular social interactions via informal communication throughout the workday, week, and month.
+All-remote workers who are all-work all the time risk [loneliness](https://about.gitlab.com/blog/2018/04/27/remote-future-how-remote-companies-stay-connected/) or [burnout](mental-health/). One of the best ways to combat loneliness and burnout are through relationship-building by prioritizing regular social interactions via informal communication throughout the workday, week, and month.
 
 ## Informal communication advantages and disadvantages
 
@@ -39,7 +39,7 @@ It's helpful to be transparent about your communication preferences so managers 
 
 > Sid Sijbrandij on [Twitter/X](https://twitter.com/sytses/status/1270721630537277442)
 >
-> When working remote it is important to formalize informal communication. Explicitly plan time to create, build, and maintain social connections and trust. In our handbook we list 15 methods https://about.gitlab.com/company/culture/all-remote/informal-communication/ which I'll summarize in this thread.
+> When working remote it is important to formalize informal communication. Explicitly plan time to create, build, and maintain social connections and trust. In our handbook we list 15 methods https://handbook.gitlab.com/handbook//company/culture/all-remote/informal-communication/ which I'll summarize in this thread.
 
 ### Organize informal communication
 
@@ -87,7 +87,7 @@ In colocated settings, unplanned encounters can lead to interesting ideas or hyp
 
 ### Remote retrospectives
 
-Intentionally-organized [remote retrospectives](https://about.gitlab.com/blog/2019/12/19/how-gitlab-handles-retrospectives) create an atmosphere of chance discussions, as you're specifically there to riff on something. Zoom supports [Breakout Rooms](https://support.zoom.us/hc/en-us/articles/206476093-Enabling-breakout-rooms), which may be useful in catalyzing such conversation.
+Intentionally-organized [remote retrospectives](https://about.gitlab.com/blog/2019/12/19/how-gitlab-handles-retrospectives/) create an atmosphere of chance discussions, as you're specifically there to riff on something. Zoom supports [Breakout Rooms](https://support.zoom.us/hc/en-us/articles/206476093-Enabling-breakout-rooms), which may be useful in catalyzing such conversation.
 
 ### Innovation communities
 
@@ -363,7 +363,7 @@ A team that is distributed across the globe creates opportunity for many celebra
 
 ### Global pizza parties/meals
 
-Teams can also arrange shared meals around the world. [Global pizza parties](https://about.gitlab.com/blog/2019/10/02/support-virtual-pizza-party), for example, are possible to document and enjoy in a shared setting (Zoom or Slack), though one may wish to consider a breakfast pizza depending on time zone.
+Teams can also arrange shared meals around the world. [Global pizza parties](https://about.gitlab.com/blog/2019/10/02/support-virtual-pizza-party/), for example, are possible to document and enjoy in a shared setting (Zoom or Slack), though one may wish to consider a breakfast pizza depending on time zone.
 
 ## Social games
 
@@ -394,7 +394,7 @@ Sharing a meal is a powerful way to connect as humans, particularly when you ope
 {{% /card %}}
 {{% /cardpane %}}
 
-GitLab's Customer Success team ideated and executed a [worldwide scavenger hunt](https://gitlab.com/gitlab-com/customer-success/tam/issues/212) using GitLab (the product), which is [detailed on the GitLab Unfiltered blog](https://about.gitlab.com/blog/2020/04/06/cs-scavenger-hunt) and is easily replicated.
+GitLab's Customer Success team ideated and executed a [worldwide scavenger hunt](https://gitlab.com/gitlab-com/customer-success/tam/issues/212) using GitLab (the product), which is [detailed on the GitLab Unfiltered blog](https://about.gitlab.com/blog/2020/04/06/cs-scavenger-hunt/) and is easily replicated.
 
 ## Virtual trivia
 

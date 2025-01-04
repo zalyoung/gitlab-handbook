@@ -60,7 +60,7 @@ graph LR
 | Access Pre-Built Sisense Dashboards                                                      |                                                     Yes                                                    |                                                        Yes                                                       |                                                  Yes                                                 |
 | Build New Sisense Dashboards                                                             |                                                     No                                                     |                                                        Yes                                                       |                                                  No                                                  |
 | Write SQL to Explore Data                                                                |                                                     No                                                     |                                                        No                                                        |                                                  Yes                                                 |
-| Requires [Certification](https://about.gitlab.com/learn/certifications/public/) |                                                     No                                                     |                                                        Yes                                                       |                                                  Yes                                                 |
+| Requires [Certification](https://university.gitlab.com/certifications/public/) |                                                     No                                                     |                                                        Yes                                                       |                                                  Yes                                                 |
 
 ![Self-Service-Data](/images/enterprise-data/direction/self-service/self_service_data.png)
 
@@ -110,7 +110,7 @@ Prerequisites:
 - [ ] Ability to read [data models](https://www.lucidchart.com/pages/er-diagrams)
 - [ ] Prior experience developing reports and chart [data visualizations](https://datavizcatalogue.com/index.html)
 - [ ] [Review Tableau Handbook Page](/handbook/enterprise-data/platform/tableau/)
-- [ ] Pass a [Self-Service Dashboard Developer Knowledge Assessment](https://about.gitlab.com/learn/certifications/public/) from one of the Self-Service-ready Data Subject Areas published in the handbook
+- [ ] Pass a [Self-Service Dashboard Developer Knowledge Assessment](https://university.gitlab.com/certifications/public/) from one of the Self-Service-ready Data Subject Areas published in the handbook
 
 Access Requests:
 
@@ -128,7 +128,7 @@ Prerequisites:
 - [ ] Ability to navigate a [data dictionary](https://docs.snowflake.com/en/sql-reference/info-schema.html)
 - [ ] Ability to read [data models](https://www.lucidchart.com/pages/er-diagrams) to write SQL
 - [ ] Adhere to the [Data Team SQL Style Guide](/handbook/enterprise-data/platform/sql-style-guide/)
-- [ ] Pass a [Self-Service SQL Developer Knowledge Assessment](https://about.gitlab.com/learn/certifications/public/) from one of the Self-Service-ready Data Subject Areas published in the handbook
+- [ ] Pass a [Self-Service SQL Developer Knowledge Assessment](https://university.gitlab.com/certifications/public/) from one of the Self-Service-ready Data Subject Areas published in the handbook
 
 Access Requests:
 

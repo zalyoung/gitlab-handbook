@@ -20,7 +20,7 @@ Initially, a Head of Remote sets the tone for behavioral and cultural shifts req
 
 ## Why companies hire a Head of Remote
 
-As more organizations embrace [remote-work variations](terminology/), they are realizing that remote and remote-hybrid workforces run the risk of [creating two opposing cultures and workflow defaults](https://www.wired.com/story/hybrid-remote-work-offers-the-worst-of-both-worlds). For the organization to thrive, charting a harmonious path forward *must be someone's job*. Not just a part of their job, but the *whole job*.
+As more organizations embrace [remote-work variations](terminology/), they are realizing that remote and remote-hybrid workforces run the risk of [creating two opposing cultures and workflow defaults](https://www.wired.com/story/hybrid-remote-work-offers-the-worst-of-both-worlds/). For the organization to thrive, charting a harmonious path forward *must be someone's job*. Not just a part of their job, but the *whole job*.
 
 Distributed work unlocks talent and productivity, but not without intentional effort. The underlying infrastructure of how a team works will change without an office as a crutch, and it requires a leader to steer teams through the shift, coordinate upskilling, and enlist new tools where appropriate.
 
@@ -165,7 +165,7 @@ By 2022, most of the world's organizations will reckon with their new reality: a
 >
 > Below is a thread about the future of remote work after the COVID-19 pandemic is over. I predict that remote will go through a trough of sorrow due to hybrid not working out, and most companies will return to being office based. But many all remote companies will see success.
 
-As this occurs, many organizations will ignore our [warnings](https://www.wired.com/story/hybrid-remote-work-offers-the-worst-of-both-worlds) on the pitfalls and nuanced difficulties in creating a thriving [hybrid-remote organization](hybrid-remote/), triggering an acute spike in demand for senior leadership who understand the mind of a remote worker and the [organizational design principles](https://link.springer.com/article/10.1186/s41469-020-00087-8) to convert remote work from a challenge to a strategic advantage. **In a high demand/low supply environment, remote work mastery will become a highly marketable skill**.
+As this occurs, many organizations will ignore our [warnings](https://www.wired.com/story/hybrid-remote-work-offers-the-worst-of-both-worlds/) on the pitfalls and nuanced difficulties in creating a thriving [hybrid-remote organization](hybrid-remote/), triggering an acute spike in demand for senior leadership who understand the mind of a remote worker and the [organizational design principles](https://link.springer.com/article/10.1186/s41469-020-00087-8) to convert remote work from a challenge to a strategic advantage. **In a high demand/low supply environment, remote work mastery will become a highly marketable skill**.
 
 Much like someone who is multilingual, an individual who has completed GitLab's [Remote Work Foundations certification](remote-certification/) and [Remote Team Management](https://www.coursera.org/learn/remote-team-management) course on Coursera will have an advantage when vying for new roles centered on remote work leadership. You will effectively speak a new and evolving business language which is critical to acquiring/retaining talent, creating workflows which are location agnostic, and building a culture which does not rely on a physical building to function.
 
@@ -287,7 +287,7 @@ The below is an inexhaustive list of news articles covering the growing movement
 
 ## Contribute your lessons
 
-Making remote work well, particularly in companies with colocated roots, is a shared challenge. If you or your company has an experience that would benefit the greater world, consider creating a [merge request](https://docs.gitlab.com/ee/user/project/merge_requests) and adding a contribution to this page.
+Making remote work well, particularly in companies with colocated roots, is a shared challenge. If you or your company has an experience that would benefit the greater world, consider creating a [merge request](https://docs.gitlab.com/ee/user/project/merge_requests/) and adding a contribution to this page.
 
 ---
 

@@ -401,7 +401,7 @@ Project: [DevRel Bot](https://gitlab.com/gitlab-da/projects/devrel-bot)
 
 Maintainer: [Abubakar Siddiq Ango](/handbook/company/team/#abuango)
 
-This [custom dashboard](https://gitlab-com.gitlab.io/marketing/developer-relations/developer-advocacy/code/de-dashboard/) is built using [GitLab Pages](https://about.gitlab.com/stages-devops-lifecycle/pages/) and presents an overview of Developer Advocate issues. The requests are synced in a specified interval.
+This [custom dashboard](https://gitlab-com.gitlab.io/marketing/developer-relations/developer-advocacy/code/de-dashboard/) is built using [GitLab Pages](https://docs.gitlab.com/ee/user/project/pages/) and presents an overview of Developer Advocate issues. The requests are synced in a specified interval.
 
 Project: [DE Dashboard](https://gitlab.com/gitlab-com/marketing/developer-relations/developer-advocacy/code/de-dashboard)
 
@@ -441,7 +441,7 @@ The website's [About page](https://everyonecancontribute.com//page/about/) cover
 
 Insights:
 
-- The website is built using [GitLab Pages](https://about.gitlab.com/stages-devops-lifecycle/pages/).
+- The website is built using [GitLab Pages](https://docs.gitlab.com/ee/user/project/pages/).
 - Organization happens in the GitLab group [everyonecancontribute](https://gitlab.com/groups/everyonecancontribute/-/issues). This group has applied for an Ultimate license for OSS projects.
 - [#everyonecancontribute cafe (English)](https://www.youtube.com/playlist?list=PL05JrBw4t0Kp1Gni9SyudMmXmBJIp7rIc) YouTube playlist.
 - [#everyonecancontribute Kaeffchen (German)](https://www.youtube.com/playlist?list=PL05JrBw4t0Ko8J8V5V794CXZUZ-DLxccI)YouTube playlist.

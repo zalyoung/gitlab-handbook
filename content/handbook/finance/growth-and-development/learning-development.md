@@ -80,11 +80,11 @@ GitLab is [committed to providing the time]({{< ref "learning-initiatives#take-t
 #### Quick reads and videos
 
 - [Start with why -- how great leaders inspire action](https://www.youtube.com/watch?v=u4ZoJKF_VuA) (18 min video)
-- [Leadership Biz Cafe Podcast](https://www.tanveernaseer.com/lbc/)
+- [Leadership Biz Cafe Podcast](https://tanveernaseer.com/lbc/)
 
 #### Online courses
 
-- [LinkedIn Learning: Executive Leadership](https://www.linkedin.com/learning/executive-leadership/take-action-to-lead) (1h 19m total)
+- [LinkedIn Learning: Executive Leadership](https://www.linkedin.com/learning/executive-leadership-24384695/take-action-to-lead) (1h 19m total)
 - [Develop Your Strategic Planning Skills](https://www.linkedin.com/learning/paths/develop-your-strategic-planning-skills)
 - [Mastering Self-Leadership](https://www.linkedin.com/learning/mastering-self-leadership/step-up-to-self-leadership)
 - [Leadership: Practical Skills](https://www.linkedin.com/learning/leadership-practical-skills/welcome)

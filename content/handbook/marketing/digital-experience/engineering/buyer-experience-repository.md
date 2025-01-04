@@ -8,7 +8,7 @@ description: >-
 
 ### Technical Architecture
 
-1. **[Nuxt.js](https://nuxtjs.org/):** A vue.js static site generator
+1. **[Nuxt.js](https://nuxt.com/):** A vue.js static site generator
 2. **[Slippers Design System](https://gitlab.com/gitlab-com/marketing/digital-experience/slippers-ui):** SSoT for the marketing site's design system
 3. **Focus Resources:** Devoted to two repositories
     - Digital Experience focused resources on the [Buyer Experience](https://gitlab.com/gitlab-com/marketing/digital-experience/buyer-experience) and [Slippers repositories](https://gitlab.com/gitlab-com/marketing/digital-experience/slippers-ui).

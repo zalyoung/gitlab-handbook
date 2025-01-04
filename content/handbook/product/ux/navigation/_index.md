@@ -9,7 +9,7 @@ The [`group::foundations` team](/handbook/product/categories/#foundations-group)
 
 ## What is navigation?
 
-Navigation refers to elements that aid users in moving around GitLab, which includes their organization and wayfinding clues. The navigation experience directly impacts the usability and discoverability of our features. This document describes how we can collectively evolve the navigation while still [meeting our goals](https://about.gitlab.com/direction/manage/foundations/navigation_settings/#navigation).
+Navigation refers to elements that aid users in moving around GitLab, which includes their organization and wayfinding clues. The navigation experience directly impacts the usability and discoverability of our features. This document describes how we can collectively evolve the navigation while still [meeting our goals](https://about.gitlab.com/direction/foundations/personal_productivity/#navigation).
 
 ## Why do we need to be careful when changing the navigation?
 
@@ -71,7 +71,7 @@ After there is insight into a problem with the navigation, the Product team DRI 
 
 > If your primary goal is to improve discoverability of your feature, please start by looking for other opportunities to [highlight the functionality](https://design.gitlab.com/usability/feature-discovery) throughout the product.
 
-1. Before opening an issue, review the [elements and patterns for navigation in Pajamas](https://design.gitlab.com/usability/navigation-sidebar/). It is worth checking the [direction page](https://about.gitlab.com/direction/manage/foundations/navigation_settings/) to see how your proposal aligns or conflicts with upcoming changes.
+1. Before opening an issue, review the [elements and patterns for navigation in Pajamas](https://design.gitlab.com/usability/navigation-sidebar/). It is worth checking the [direction page](https://about.gitlab.com/direction/foundations/personal_productivity/) to see how your proposal aligns or conflicts with upcoming changes.
 1. Review the [list of navigation changes](/handbook/product/ux/navigation/#what-are-navigation-changes) and what they are to make sure your change qualifies.
 1. The [Product Manager for Foundations](/handbook/product/categories/#foundations-group) is the [DRI](/handbook/people-group/directly-responsible-individuals/#what-is-a-directly-responsible-individual) for navigation changes. Reach out to them to determine whether your proposal needs [full validation](#full-validation-path) or [limited validation](#limited-validation-path).
 1. You can initiate the review for this process by using the [Navigation Proposal](https://gitlab.com/gitlab-org/gitlab/-/issues/new?issuable_template=Navigation%20Proposals) issue template.

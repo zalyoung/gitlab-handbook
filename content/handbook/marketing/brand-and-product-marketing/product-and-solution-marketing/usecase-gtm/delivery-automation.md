@@ -182,9 +182,9 @@ Apart from the single application, DevOps Platform narrative, there are a number
 
 ### Competitors
 
-From a competitive comparison for Automated Software Delivery, the following are the key competitors and what they are lacking at a high level. Review the detailed comparison in the [devops-tools](https://about.gitlab.com/competition/) comparison pages
+From a competitive comparison for Automated Software Delivery, the following are the key competitors and what they are lacking at a high level. Review the detailed comparison in the [devops-tools](https://about.gitlab.com/why-gitlab/) comparison pages
 
-- [GitHub](https://about.gitlab.com/competition/github/) - Strong on SCM, GitHub Actions for CI/CD is still not ready for primetime. GitLab can integrate and migrate customers using GitHub for SCM easily with GitLab.
+- [GitHub](https://web.archive.org/web/20240331181506/https://about.gitlab.com/competition/github/) - Strong on SCM, GitHub Actions for CI/CD is still not ready for primetime. GitLab can integrate and migrate customers using GitHub for SCM easily with GitLab.
 - Jenkins - Complex to manage, many fragile integrations, not suitable for cloud native transformation
 - [JFrog](https://about.gitlab.com/competition/jfrog/) - Strong on CI, but requires integrations or has limited capabilities for rest of the areas.
 - [Circle CI](https://about.gitlab.com/competition/circleci/)
@@ -235,9 +235,9 @@ For up-to-date list of value at Ultimate, visit [Why Premium](https://about.gitl
 
 ### Related Pages  {#resource-page}
 
-- Continuous integration ([Sales Resource Page](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/usecase-gtm/ci/), [Customer Solution Page](https://about.gitlab.com/features/continuous-integration/))
+- Continuous integration ([Sales Resource Page](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/usecase-gtm/ci/), [Customer Solution Page](https://about.gitlab.com/solutions/continuous-integration/))
 - Continuous Delivery ([Sales Resource Page](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/usecase-gtm/cd/), [Customer Solution Page](https://about.gitlab.com/stages-devops-lifecycle/continuous-delivery/))
-- Source Code Management ([Sales Resource Page](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/usecase-gtm/version-control-collaboration/), [Customer Solution Page](https://about.gitlab.com/stages-devops-lifecycle/source-code-management/))
+- Source Code Management ([Sales Resource Page](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/usecase-gtm/version-control-collaboration/), [Customer Solution Page](https://about.gitlab.com/solutions/source-code-management/))
 - GitOps ([Sales Resource Page](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/usecase-gtm/gitops/), [Customer Solution Page](https://about.gitlab.com/solutions/gitops/))
 
 ### Customer Stories  {#customer-stories}
@@ -327,10 +327,10 @@ GitLab Professional Services help customers become efficient in GitLab quickly. 
 
 Here are some service offerings you can position with the customer:
 
-1. [GitLab CI/CD Training](https://about.gitlab.com/services/education/gitlab-ci/)
+1. [GitLab CI/CD Training](https://university.gitlab.com/pages/ci-cd-training/)
 1. [GitLab with Git Basics Training](https://university.gitlab.com/pages/gitlab-fundamentals-training)
-1. [Data Migration Services](https://about.gitlab.com/services/migration/)
-1. [Dedicated Engineering](https://about.gitlab.com/services/dedicated-engineering/)
+1. [Data Migration Services](https://about.gitlab.com/services/catalog/)
+1. [Dedicated Engineering](https://about.gitlab.com/services/catalog/)
 
 Advisory/Consulting services to help with GitOps rollout are planned to be rolled out later this year. Please register your interest for a GitOps Advisory offering [here](https://gitlab.com/gitlab-com/customer-success/professional-services-group/ps-leadership-team/ps-practice-management/-/issues/74) to help PS effectively prioritize!
 

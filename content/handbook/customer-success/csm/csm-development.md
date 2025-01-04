@@ -119,7 +119,7 @@ As CSMs have positioned themselves to be more strategic and reach Director, VP, 
 
 #### DevOps
 
-- [DevOps Foundations](https://www.linkedin.com/learning/devops-foundations/) (LinkedIn Learning)
+- [DevOps Foundations](https://www.linkedin.com/learning/devops-foundations-23454205/) (LinkedIn Learning)
 
 #### Software Development
 

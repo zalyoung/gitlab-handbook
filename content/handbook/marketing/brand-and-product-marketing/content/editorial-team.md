@@ -6,7 +6,7 @@ description: "This handbook page describes the styling, punctuation, spelling, a
 ## Related pages
 
 - [Blog handbook](/handbook/marketing/blog/)
-- [Brand guidelines](https://design.gitlab.com/brand-overview/resources)
+- [Brand guidelines](https://design.gitlab.com/brand-overview/resources/)
 
 ## Why use the blog style guide?
 

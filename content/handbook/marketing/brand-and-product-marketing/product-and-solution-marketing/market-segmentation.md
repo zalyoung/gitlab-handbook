@@ -29,7 +29,7 @@ Various verticals and industries face specific challenges as they address their 
 - [Top Finanical Svcs Issues (PWC)](https://www.pwc.com/us/en/industries/financial-services/research-institute/top-issues.html)
 - [FSI Top Issues 2018 (PWC PDF)](https://www.pwc.com/us/en/financial-services/research-institute/assets/pwc-fsi-top-issues-2018.pdf)
 - [Fin Svcs Insights - Protiviti](https://web.archive.org/web/20201128023006/https://www.protiviti.com/sites/default/files/united_states/insights/fs-insights-v4-i3-protiviti.pdf)
-- [Financial Services Regulatory Compliance](https://about.gitlab.com/solutions/financial-services-regulatory-compliance/)
+- [Financial Services Regulatory Compliance](https://about.gitlab.com/solutions/finance/)
 - [PCI Compliance](https://about.gitlab.com/compliance/pci-compliance/)
 
 ### Automotive

@@ -17,7 +17,7 @@ UnReview focuses on achieving the following goals:
 * Making optimum recommendations that consider the reviewers' experience and optimize the review load across the team, which additionally facilitates knowledge sharing.
 * Providing analytics on the state of code review in the project, explaining why a particular code reviewer is recommended.
 
-Today, UnReview is an early-stage technology.  However, significant testing and validation has been done on production data. After the [acquisition](https://about.gitlab.com/press/releases/2021-06-02-gitlab-acquires-unreview-machine-learning-capabilities.html) is complete, we continue to work on the approach, integrating UnReview into GitLab via iteration.
+Today, UnReview is an early-stage technology.  However, significant testing and validation has been done on production data. After the [acquisition](https://about.gitlab.com/press/releases/2021-06-02-gitlab-acquires-unreview-machine-learning-capabilities/) is complete, we continue to work on the approach, integrating UnReview into GitLab via iteration.
 
 ### How UnReview works
 

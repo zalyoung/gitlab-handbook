@@ -1359,7 +1359,7 @@ Pages like this are part of the [handbook](/handbook/). The GitLab handbook is t
 
 ### GitLab repositories
 
-`repository`/`repositories` are where files are kept under [source code management](https://about.gitlab.com/stages-devops-lifecycle/source-code-management/). In most cases, requires MRs to merge. The Handbooks are in a repository, our code is in a repository, etc.
+`repository`/`repositories` are where files are kept under [source code management](https://about.gitlab.com/solutions/source-code-management/). In most cases, requires MRs to merge. The Handbooks are in a repository, our code is in a repository, etc.
 
 ### READMEs
 

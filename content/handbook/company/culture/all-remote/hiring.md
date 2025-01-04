@@ -20,7 +20,7 @@ As one of the world's largest [all-remote companies](guide/), GitLab has been hi
 
 One advantage of being an all-remote company is the ability to [hire talent from a global pool](/handbook/hiring), giving access to a tremendous amount of talent that many other companies overlook.
 
-It can be a struggle for organizations to find, recruit, retain, and compensate employees in competitive markets, including most major cities. Imagine the influx of highly qualified applicants if the location requirement were removed from all job descriptions. For a glimpse at what this looks like, please visit [GitLab's Jobs page](https://about.gitlab.com/jobs).
+It can be a struggle for organizations to find, recruit, retain, and compensate employees in competitive markets, including most major cities. Imagine the influx of highly qualified applicants if the location requirement were removed from all job descriptions. For a glimpse at what this looks like, please visit [GitLab's Jobs page](https://about.gitlab.com/jobs/).
 
 In addition to giving your organization a competitive edge, here are some other advantages:
 
@@ -38,7 +38,7 @@ Because you don't have to organize travel or schedule around multiple calendars,
 
 Cutting travel cuts considerable costs, making remote testing and interviewing highly cost-effective. I can also be less disruptive to end the process with candidates who are not a good fit at any point, without the guilt of wasting the candidate's or the company's time or money.
 
-Hiring an all-remote team from across the globe allows GitLab to pay local rates, which you can learn more about [on the company blog](https://about.gitlab.com/blog/2019/02/28/why-we-pay-local-rates). By hiring brilliant minds in locations with lower costs of living, GitLab is able to save money to hire even more people as we scale our business.
+Hiring an all-remote team from across the globe allows GitLab to pay local rates, which you can learn more about [on the company blog](https://about.gitlab.com/blog/2019/02/28/why-we-pay-local-rates/). By hiring brilliant minds in locations with lower costs of living, GitLab is able to save money to hire even more people as we scale our business.
 
 - ### Remote hiring gives you an authentic virtual engagement experience
 
@@ -228,7 +228,7 @@ A mentor or onboarding buddy is a friendly point of contact for a new team membe
 
 ### Practice informal communication
 
-Knowing that remote workers can experience [loneliness](https://about.gitlab.com/blog/2018/04/27/remote-future-how-remote-companies-stay-connected) or [burnout](mental-health/), it's important to prioritize relationship-building through regular social interactions. Remote workers can socialize using [informal communication](informal-communication/).
+Knowing that remote workers can experience [loneliness](https://about.gitlab.com/blog/2018/04/27/remote-future-how-remote-companies-stay-connected/) or [burnout](mental-health/), it's important to prioritize relationship-building through regular social interactions. Remote workers can socialize using [informal communication](informal-communication/).
 
 ### Perform regular check-ins
 
@@ -314,7 +314,7 @@ Driven by our [Collaboration value](/handbook/values/#collaboration), we organiz
 
 ## Contribute your lessons
 
-GitLab believes that all-remote is the [future of work]({{< ref "remote-vision" >}}), and remote companies have a shared responsibility to show the way for other organizations who are embracing it. If you or your company has an experience that would benefit the greater world, consider creating a [merge request](https://docs.gitlab.com/ee/user/project/merge_requests) and adding a contribution to this page.
+GitLab believes that all-remote is the [future of work]({{< ref "remote-vision" >}}), and remote companies have a shared responsibility to show the way for other organizations who are embracing it. If you or your company has an experience that would benefit the greater world, consider creating a [merge request](https://docs.gitlab.com/ee/user/project/merge_requests/) and adding a contribution to this page.
 
 ---
 

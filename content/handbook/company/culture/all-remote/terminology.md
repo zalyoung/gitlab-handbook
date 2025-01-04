@@ -46,7 +46,7 @@ The company [does not have an office occupied by their employees]({{< ref "remot
 
 ### A more inclusive work environment
 
-Such a structure ensures that each team member is given autonomy to create the [workspace](workspace/) that works best for them, in a place that suits them, creating an environment that is naturally more [inclusive](https://about.gitlab.com/blog/2019/12/06/how-all-remote-supports-inclusion-and-bolsters-communities).
+Such a structure ensures that each team member is given autonomy to create the [workspace](workspace/) that works best for them, in a place that suits them, creating an environment that is naturally more [inclusive](https://about.gitlab.com/blog/2019/12/06/how-all-remote-supports-inclusion-and-bolsters-communities/).
 
 ### No location hierarchy
 
@@ -68,7 +68,7 @@ The terms "remote" and "distributed" are often used interchangeably, but they're
 
 For employees, being part of an all-remote company does not mean working independently or being [isolated](mental-health/#working-to-prevent-burnout-isolation-and-anxiety), because it's not a substitute for human interaction.
 
-Technology allows us to [stay closely in touch](informal-communication/) with our teams, whether asynchronously in text or in real time with high-fidelity conversations through video. Teams should collaborate closely, [communicate](informal-communication/) often, [build relationships virtually](https://about.gitlab.com/blog/2019/07/31/pyb-all-remote-mark-frein), and feel like valuable members of a larger team.
+Technology allows us to [stay closely in touch](informal-communication/) with our teams, whether asynchronously in text or in real time with high-fidelity conversations through video. Teams should collaborate closely, [communicate](informal-communication/) often, [build relationships virtually](https://about.gitlab.com/blog/2019/07/31/pyb-all-remote-mark-frein/), and feel like valuable members of a larger team.
 
 Working remotely also doesn't mean you're physically constrained to home. You're free to work [wherever you want](people/#travelers). That could be at home with family, a coffee shop, a co-working space, or your local library while your little one is enjoying story-time. You can have frequent video chats or virtual pairing sessions with coworkers throughout the day, and you can even meet up with other coworkers to work together in person if you're located near each other.
 
@@ -140,7 +140,7 @@ For added context, consider reading GitLab's guide on the [various stages of rem
 
 ## Contribute your lessons
 
-GitLab believes that all-remote is the [future of work]({{< ref "remote-vision" >}}), and remote companies have a shared responsibility to show the way for other organizations who are embracing it. If you or your company has an experience that would benefit the greater world, consider creating a [merge request](https://docs.gitlab.com/ee/user/project/merge_requests) and adding a contribution to this page.
+GitLab believes that all-remote is the [future of work]({{< ref "remote-vision" >}}), and remote companies have a shared responsibility to show the way for other organizations who are embracing it. If you or your company has an experience that would benefit the greater world, consider creating a [merge request](https://docs.gitlab.com/ee/user/project/merge_requests/) and adding a contribution to this page.
 
 ---
 

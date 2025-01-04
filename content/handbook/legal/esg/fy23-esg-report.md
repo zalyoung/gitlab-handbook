@@ -219,7 +219,7 @@ In September 2022, the GitLab Foundation (the "Foundation") launched with a miss
 
 The Foundation is funded by GitLab and its CEO, Sytse 'Sid' Sijbrandij. The Foundation is an independent nonprofit entity, and its operations are autonomous from GitLab.
 
-To learn more, please visit the [GitLab Foundation](https://gitlabfoundation.org/).
+To learn more, please visit the [GitLab Foundation](https://www.gitlabfoundation.org/).
 
 ## Environment
 
@@ -298,13 +298,13 @@ We believe we are best in class and the leading example in information security,
 
 Our FY23 priorities in this area included:
 
-- **Improving the developer experience with AI**, by investing in AI through the [UnReview acquisition](https://about.gitlab.com/press/releases/2021-06-02-gitlab-acquires-unreview-machine-learning-capabilities.html), and by launching [Suggested Reviewers, and AI Assisted Code Suggestions](https://about.gitlab.com/releases/2023/04/22/gitlab-15-11-released/#code-suggestions-for-ultimate--premium-users), which is GitLab's first AI powered features which help improve developer productivity and efficiency all within a single application
+- **Improving the developer experience with AI**, by investing in AI through the [UnReview acquisition](https://about.gitlab.com/press/releases/2021-06-02-gitlab-acquires-unreview-machine-learning-capabilities/), and by launching [Suggested Reviewers, and AI Assisted Code Suggestions](https://about.gitlab.com/releases/2023/04/22/gitlab-15-11-released/#code-suggestions-for-ultimate--premium-users), which is GitLab's first AI powered features which help improve developer productivity and efficiency all within a single application
 
 - **Extending our lead in GitLab continuous integration (CI)**, enabling testing, building, and publishing of software with no third-party application or integration needed
 
-- **Investing in an anti-abuse stage** aimed at [protecting](https://about.gitlab.com/direction/anti-abuse/) GitLab infrastructure and, by extension, our customers' sensitive source code from abuse and malicious behavior
+- **Investing in an anti-abuse stage** aimed at [protecting](https://about.gitlab.com/direction/software_supply_chain_security/) GitLab infrastructure and, by extension, our customers' sensitive source code from abuse and malicious behavior
 
-- **Enhancing platform security**, including improvements in [many industry certifications](https://about.gitlab.com/security/cap/).
+- **Enhancing platform security**, including improvements in [many industry certifications](https://trust.gitlab.com/).
 
 - **Investing heavily in our federal offering**, including [Federal Information Processing Standard](https://docs.gitlab.com/ee/development/fips_compliance.html) (FIPs) compliance
 

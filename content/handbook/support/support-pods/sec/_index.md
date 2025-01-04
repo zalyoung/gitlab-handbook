@@ -168,6 +168,6 @@ Technically owned by Secret Detection, but _not_ related to security vulnerabili
 ### Learning Resources
 
 - [GitLab Certified Security Specialist](https://gitlab.edcast.com/pathways/gitlab-certified-security-specialist-pathway)
-- [GitLab Security Essentials](https://about.gitlab.com/services/education/security-essentials/)
+- [GitLab Security Essentials](https://university.gitlab.com/pages/security-training/)
 - [Security Essentials Hands-on](/handbook/customer-success/professional-services-engineering/education-services/secessentialshandson/)
 - [Support DAST Deep Dive](https://youtu.be/-WeA12bl-Iw)

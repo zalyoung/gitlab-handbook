@@ -49,7 +49,7 @@ The principles of remote work are different. The approach to conducting work is 
 ![GitLab customer path](/images/all-remote/gitlab-customer-path.jpg)
 {style="max-width: 50%;"}
 
-Remote work isn't something you do as a reaction to an event — it is an *intentional* approach to work that creates greater [efficiency](/handbook/values/#efficiency), more [geographically and culturally diverse teams](https://about.gitlab.com/blog/2019/12/06/how-all-remote-supports-inclusion-and-bolsters-communities), and heightened [transparency](/handbook/values/#transparency).
+Remote work isn't something you do as a reaction to an event — it is an *intentional* approach to work that creates greater [efficiency](/handbook/values/#efficiency), more [geographically and culturally diverse teams](https://about.gitlab.com/blog/2019/12/06/how-all-remote-supports-inclusion-and-bolsters-communities/), and heightened [transparency](/handbook/values/#transparency).
 
 What is happening en masse related to Coronavirus (COVID-19) is largely a temporary work-from-home phenomenon, where organizations are not putting remote work ideals into place, as they expect to eventually require their team members to resume commuting into an office.
 
@@ -60,7 +60,7 @@ Merely [transferring planned office meetings to virtual meetings](https://www.ab
 ![GitLab all-remote team](/images/all-remote/gitlab-com-all-remote-v3-dark-1280x270.png)
 {style="max-width: 50%;"}
 
-While long-term remote workers have had years to tweak and iterate on their [home office](workspace/), those who are thrust into working from anywhere may be ill-prepared. Organizations should not expect team members to be masters in office design and ergonomics. Too, what works best for one person [will look different](https://about.gitlab.com/blog/2019/09/12/not-everyone-has-a-home-office) than another person.
+While long-term remote workers have had years to tweak and iterate on their [home office](workspace/), those who are thrust into working from anywhere may be ill-prepared. Organizations should not expect team members to be masters in office design and ergonomics. Too, what works best for one person [will look different](https://about.gitlab.com/blog/2019/09/12/not-everyone-has-a-home-office/) than another person.
 
 If [transitioning to remote](transition/), organizations should empower team members to [spend company money as if it is their own](/handbook/finance/spending-company-money/) when constructing a home office. Consider [reimbursing](/handbook/finance/spending-company-money/#coworking-or-external-office--space) expenses related to coworking spaces and external offices, as some team members will prefer to work outside of their homes.
 
@@ -117,7 +117,7 @@ Don't be quick to brush values off as understood, either. For example, collabora
 
 ## Contribute your lessons
 
-GitLab believes that all-remote is the [future of work]({{< ref "remote-vision" >}}), and remote companies have a shared responsibility to show the way for other organizations who are embracing it. If you or your company has an experience that would benefit the greater world, consider creating a [merge request](https://docs.gitlab.com/ee/user/project/merge_requests) and adding a contribution to this page.
+GitLab believes that all-remote is the [future of work]({{< ref "remote-vision" >}}), and remote companies have a shared responsibility to show the way for other organizations who are embracing it. If you or your company has an experience that would benefit the greater world, consider creating a [merge request](https://docs.gitlab.com/ee/user/project/merge_requests/) and adding a contribution to this page.
 
 ---
 
