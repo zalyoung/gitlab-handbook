@@ -39,7 +39,7 @@ The *quickest* way to send the *clearest* signal that remote is the future is to
 
 > If you want remote to work, start by cutting off the head. When the chief is remote, all of a sudden everybody is remote and everybody starts writing down everything. What used to be ephemeral and on a whiteboard became written down and stored. — *Julien Dollon, Director of Engineering at Oracle*
 
-Cédric Fabianski, co-founder and CTO at Bearer, [reiterated](https://www.bearer.sh/blog/how-to-make-remote-a-success) that he saw this work well at FreeAgent, too. He notes that by moving the executive suite out of the office, it removes any doubt about leadership's intentions to complete the transition.
+Cédric Fabianski, co-founder and CTO at Bearer, [reiterated](https://cycode.com/blog/how-to-make-remote-a-success/) that he saw this work well at FreeAgent, too. He notes that by moving the executive suite out of the office, it removes any doubt about leadership's intentions to complete the transition.
 
 ### Establish a remote infrastructure
 

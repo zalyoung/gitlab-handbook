@@ -475,7 +475,7 @@ The [SaaS-First product investment theme](https://about.gitlab.com/direction/#sa
 
 #### Availability
 
-Downtime of GitLab.com has a material impact on our customers. From a 2014 report [Gartner estimates](https://blogs.gartner.com/andrew-lerner/2014/07/16/the-cost-of-downtime/) that downtime costs companies on average "$5,600 per minute, which extrapolates to well over $300K per hour." Furthermore, SaaS downtime can severely disrupt the productivity of GitLab Inc since we rely heavily on GitLab.com to run our business. Finally, downtime can also lead to customer churn and damage to our reputation. Thus, it is crucial as a company we collectively work towards consistently maintaining our [99.95% SLA on GitLab.com](https://dashboards.gitlab.net/d/general-slas/general-slas?orgId=1&from=1614038400000&to=1616630399000). There are a few things that PMs can do in partnership with their engineering team to help ensure overall Availability for GitLab.com.
+Downtime of GitLab.com has a material impact on our customers. From a 2014 report [Gartner estimates](https://web.archive.org/web/20230709185836/https://blogs.gartner.com/andrew-lerner/2014/07/16/the-cost-of-downtime/) that downtime costs companies on average "$5,600 per minute, which extrapolates to well over $300K per hour." Furthermore, SaaS downtime can severely disrupt the productivity of GitLab Inc since we rely heavily on GitLab.com to run our business. Finally, downtime can also lead to customer churn and damage to our reputation. Thus, it is crucial as a company we collectively work towards consistently maintaining our [99.95% SLA on GitLab.com](https://dashboards.gitlab.net/d/general-slas/general-slas?orgId=1&from=1614038400000&to=1616630399000). There are a few things that PMs can do in partnership with their engineering team to help ensure overall Availability for GitLab.com.
 
 - Make sure each new feature that gets built has full end to end [test coverage](/handbook/engineering/quality/#test-coverage-and-tooling).
 - Before rolling out a new service to support a major new feature launch, ensure that your team has gone through the [readiness review process](/handbook/engineering/infrastructure/production/readiness/#starting-a-proposal). The effort and timing for a readiness review will vary depending on the complexity of the feature. It is recommended to start this process as early as practical when a significant number of the questions can be answered but not too late to further develop the feature based on learnings from the review.
@@ -947,10 +947,10 @@ There are a few notable conferences that we would typically always send PMs to:
 - [KubeCon](https://events.linuxfoundation.org/)
 - [Atlassian Summit](https://events.atlassian.com/team22/)
 - [GitHub Universe](https://githubuniverse.com/)
-- [DevOps Enterprise Summit](https://events.itrevolution.com/)
+- [DevOps Enterprise Summit](https://itrevolution.com/events/)
 - [Google Next](https://cloud.withgoogle.com/next)
 - [AWS Reinvent](https://reinvent.awsevents.com/)
-- [Velocity](https://conferences.oreilly.com/velocity)
+- [Velocity](https://www.oreilly.com/conferences/velocity-software-architecture/)
 
 If you're interested in attending, check out the issue in the corporate marketing
 site and volunteer there, or reach out to your manager if you don't see it listed

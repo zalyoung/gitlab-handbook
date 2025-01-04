@@ -277,6 +277,6 @@ Below are additional resources on social styles for review
 
 - [TRACOM SOCIAL STYLE Model](https://tracom.com/social-style-training/model)
 - [Managerial Success Stories](https://tracom.com/wp-content/uploads/2019/01/Managerial-Success-Story-TRACOM_ss2018.pdf)
-- [Communicating with Style](https://www.wilsonlearning.com/wlw/articles/w/hidden-cost-comm/en-gb)
+- [Communicating with Style](https://global.wilsonlearning.com/resources/hidden-cost-comm/)
 
 The SSOT for the slides on this page can be found in [this folder](https://drive.google.com/drive/search?q=title:%22social%20styles%20page%22%20parent:1XoBBNYQ810mWXi-fCg_6BTxh3yFJaUjZ).

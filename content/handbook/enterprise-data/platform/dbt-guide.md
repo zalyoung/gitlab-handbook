@@ -258,13 +258,13 @@ These commands will ensure you get the newest versions of the containers and gen
 
 #### Command line cheat sheet
 
-This is a simplified version of the [primary command reference](https://docs.getdbt.com/reference/dbt-commands/).
+This is a simplified version of the [primary command reference](https://docs.getdbt.com/reference/dbt-commands).
 
 dbt specific:
 
 - [`dbt clean`](https://docs.getdbt.com/reference/commands/clean) - this will remove the `/dbt_modules` (populated when you run deps) and `/target` folder (populated when models are run)
 - [`dbt run`](https://docs.getdbt.com/reference/commands/run) - regular run
-- Model selection syntax ([source](https://docs.getdbt.com/docs/model-selection-syntax)). Specifying models can save you a lot of time by only running/testing the models that you think are relevant. However, there is a risk that you'll forget to specify an important upstream dependency so it's a good idea to understand the syntax thoroughly:
+- Model selection syntax ([source](https://docs.getdbt.com/reference/node-selection/syntax)). Specifying models can save you a lot of time by only running/testing the models that you think are relevant. However, there is a risk that you'll forget to specify an important upstream dependency so it's a good idea to understand the syntax thoroughly:
   - `dbt run --models modelname` - will only run `modelname`
   - `dbt run --models +modelname` - will run `modelname` and all parents
   - `dbt run --models modelname+` - will run `modelname` and all children
@@ -414,7 +414,7 @@ They are typically stored in a schema that indicates its original data source, e
 Sources are defined in dbt using a `sources.yml` file.
 
 - We use a variable to reference the database in dbt sources, so that if we're testing changes in a Snowflake clone, the reference can be programmatically set
-- When working with source tables with names that don't meet our usual convention or have unclear meanings, use identifiers to override source table names when the original is messy or confusing. ([Docs on using identifiers](https://docs.getdbt.com/reference/resource-properties/identifier/))
+- When working with source tables with names that don't meet our usual convention or have unclear meanings, use identifiers to override source table names when the original is messy or confusing. ([Docs on using identifiers](https://docs.getdbt.com/reference/resource-properties/identifier))
 
   ```yaml
   # Good
@@ -699,7 +699,7 @@ The Data Team reservers the right to reject code that will dramatically slow the
 #### Model Configuration
 
 There are multiple ways to provide configuration definitions for models.
-The [dbt docs for configuring models](https://docs.getdbt.com/reference/model-configs/) provide a concise explanation of the ways to configure models.
+The [dbt docs for configuring models](https://docs.getdbt.com/reference/model-configs) provide a concise explanation of the ways to configure models.
 
 Our guidelines for configuring models:
 
@@ -793,7 +793,7 @@ This switch is controlled by the target name defined in the `profiles.yml` file.
 ##### Structure
 
 - Macros should be documented in either the `macros.yml` file or in a macros.md file in descriptions are long
-- Use the [arguments property](https://docs.getdbt.com/reference/macro-properties/) in `macros.yml` to describe the input variables
+- Use the [arguments property](https://docs.getdbt.com/reference/macro-properties) in `macros.yml` to describe the input variables
 
 ##### dbt-utils
 
@@ -896,7 +896,7 @@ An exception to the grouping recommendation is when we control the extraction vi
 
 ### Tags
 
-[Tags in dbt](https://docs.getdbt.com/reference/resource-configs/tags/) are a way to label different parts of a project. These tags can then be utilized when selecting sets of models, snapshots, or seeds to run.
+[Tags in dbt](https://docs.getdbt.com/reference/resource-configs/tags) are a way to label different parts of a project. These tags can then be utilized when selecting sets of models, snapshots, or seeds to run.
 
 Tags can be added in YAML files or in the config settings of any model. Review the [`dbt_project.yml`](https://gitlab.com/gitlab-data/analytics/-/blob/master/transform/snowflake-dbt/dbt_project.yml) file for several examples of how tags are used. Specific examples of adding tags for the [Trusted Data Framework](/handbook/enterprise-data/platform/dbt-guide/#tagging) are shown below.
 
@@ -1049,7 +1049,7 @@ Rowcount, and any other custom SQL tests will always be in the [Data Tests](http
 
 ##### Tagging
 
-Tagging the tests is an important step in adding new tests. Labeling the test with a [dbt tag](https://docs.getdbt.com/reference/resource-configs/tags/) is how we parse and identify tests when building trusted data dashboards. There are 2 ways to tag tests depending on their type.
+Tagging the tests is an important step in adding new tests. Labeling the test with a [dbt tag](https://docs.getdbt.com/reference/resource-configs/tags) is how we parse and identify tests when building trusted data dashboards. There are 2 ways to tag tests depending on their type.
 
 The first is by adding tags in the YAML definition. This can be done at the highest level of the YAML definition for source tests, or on the column level for model tests.
 
@@ -1288,7 +1288,7 @@ dbt snapshots are [SCD Type 2](https://en.wikipedia.org/wiki/Slowly_changing_dim
 
 This single snapshot table, due to its SCD Type 2 nature, captures the entire history of changes in the source table.
 
-For more on snapshots, including examples, go to [dbt docs](https://docs.getdbt.com/docs/building-a-dbt-project/snapshots).
+For more on snapshots, including examples, go to [dbt docs](https://docs.getdbt.com/docs/build/snapshots).
 
 Take note of how we [talk about and define snapshots](/handbook/enterprise-data/platform/#snapshots-definition).
 
@@ -1634,7 +1634,7 @@ See the [runbook](https://gitlab.com/gitlab-data/runbooks/-/blob/main/infrastruc
 
 ### Staying up to date
 
-Our policy is that we should always be on a version of [`dbt-core`](https://docs.getdbt.com/docs/core-versions) that does have critical support. Check the linked schedule to see planned releases and support windows. For minor releases that are released while we are still on a version with critical support, we will evaluate on a quarterly basis to determine whether the minor release warrants an update.
+Our policy is that we should always be on a version of [`dbt-core`](https://docs.getdbt.com/docs/dbt-versions/core) that does have critical support. Check the linked schedule to see planned releases and support windows. For minor releases that are released while we are still on a version with critical support, we will evaluate on a quarterly basis to determine whether the minor release warrants an update.
 
 When a major release happens, we should upgrade to the new major version before the second minor release on the new major version. So for example, we should be on v2.0.0 *before* v.2.2.0 is released. The extra time allowance is in place to account for breaking changes between major versions.
 

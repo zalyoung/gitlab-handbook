@@ -95,11 +95,11 @@ When starting something new, the goal is to discover unknowns and learn them qui
 
 [Organizational psychology](https://en.wikipedia.org/wiki/Industrial_and_organizational_psychology) is the study of human behavior and motivations as it relates to work.
 
-* [WorkLife podcast by Adam Grant](https://podcasts.apple.com/us/podcast/worklife-with-adam-grant/id1346314086?mt=2)
-* [Heartbeat podcast by Claire Lew](https://knowyourteam.com/blog/podcast/)
+* [WorkLife podcast by Adam Grant](https://podcasts.apple.com/us/podcast/worklife-with-adam-grant/id1346314086)
+* [Heartbeat podcast by Claire Lew](https://canopy.is/blog/podcast/)
 * [HBR IdeaCast podcast](https://hbr.org/2018/01/podcast-ideacast)
 * [Dear HBR podcast](https://hbr.org/2018/01/podcast-dear-hbr)
-* [Know Your Team blog](https://knowyourteam.com/blog/) - [most popular articles](https://knowyourteam.com/blog/our-most-popular-articles/)
+* [Know Your Team blog](https://canopy.is/blog/) - [most popular articles](https://canopy.is/blog/our-most-popular-articles/)
 
 #### People to follow on social media
 

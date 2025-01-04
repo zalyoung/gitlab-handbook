@@ -505,7 +505,7 @@ Planned/automated test cases in the CustomersDot project can be found [here](htt
 
 The CustomersDot has different types of tests running:
 
-1. Linting and [rubocop](https://github.com/rubocop-hq/rubocop) jobs
+1. Linting and [rubocop](https://github.com/rubocop/rubocop) jobs
 1. Unit tests (specs, these could be of many types, such as controller specs)
 1. Integration tests (specs, mocking external calls)
 1. Frontend tests

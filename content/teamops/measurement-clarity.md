@@ -42,7 +42,7 @@ In Q3-FY23 at GitLab, a company OKR was [Improve user and wider-community engage
 
 These are documented in a tool that's accessible to the entire organization. Any team member can see any function's OKRs and KPIs for the quarter, reinforcing the [value of transparency](/handbook/values/#transparency).
 
-**Resource:** [Performance Management on Remote and Hybrid Teams](https://www.workplaceless.com/blog/remote-performance-management) (article)
+**Resource:** [Performance Management on Remote and Hybrid Teams](https://www.workplaceless.com/blog/performance-management-remote-hybrid-teams) (article)
 {{% /details %}}
 
 {{% details summary="Change management support for transparent measurements" %}}
@@ -157,7 +157,7 @@ To optimize the efficacy of delivered feedback, consider how other TeamOps tenet
 
 At GitLab, our mission that [everyone can contribute](/handbook/company/mission/) even influences our feedback guidelines—suggesting that any team member, at any level, can give feedback to any other team member, at any level.
 
-**Resource:** [Guide to Giving Remote Feedback](https://www.workplaceless.com/blog/guide-to-remote-feedback) (playbook)
+**Resource:** [Guide to Giving Remote Feedback](https://www.workplaceless.com/blog/giving-remote-feedback-guide) (playbook)
 {{% /details %}}
 
 {{% details summary="Change management support for transparent feedback" %}}

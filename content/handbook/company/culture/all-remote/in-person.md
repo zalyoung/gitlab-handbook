@@ -141,7 +141,7 @@ GitLab recognizes that not everyone can or will prefer to work from their home. 
 
 {{< youtube "KXHwEGlql-Y" >}}
 
-*In the [GitLab Unfiltered](https://www.youtube.com/channel/UCMtZ0sc1HHNtGGWZFDRTh5A) video above, Darren (GitLab) and Elisa ([The Cowork Experience](https://thecoworkexperience.com)) discuss the merits of a company subsidizing and encouraging travel to visit other colleagues.*
+*In the [GitLab Unfiltered](https://www.youtube.com/channel/UCMtZ0sc1HHNtGGWZFDRTh5A) video above, Darren (GitLab) and Elisa (The Cowork Experience) discuss the merits of a company subsidizing and encouraging travel to visit other colleagues.*
 
 Savings on real estate — and the litany of associated costs with operating one or more offices — is a key financial reason for a company to organize itself as completely remote. Consider returning some of those savings to employees by [subsidizing travel costs](https://about.gitlab.com/blog/2017/06/30/there-and-back-again-in-one-release/) associated with [visiting colleagues around the globe](https://about.gitlab.com/blog/2017/01/31/around-the-world-in-6-releases/).
 
@@ -157,7 +157,7 @@ This also reinforces a company's ability to create a more [geographically divers
 
 As an all-remote company [scales](scaling/), it becomes more challenging to get the entire company in one place during the same window of time. As the once-a-year company annual becomes a standard offering (and less a differentiator) for remote companies, there is opportunity to host smaller, more frequent excursions and retreats.
 
-[The Cowork Experience](https://thecoworkexperience.com), for instance, develops bespoke programs with more intimate engagements at the team or regional level to foster deeper trust amongst colleagues. These usually include team-building activities as well as non-work excursions. They present an opportunity to bring colleagues together in a unique, refreshing locale, catalyzing things like planning while enabling personal bonds to be built.
+The Cowork Experience, for instance, develops bespoke programs with more intimate engagements at the team or regional level to foster deeper trust amongst colleagues. These usually include team-building activities as well as non-work excursions. They present an opportunity to bring colleagues together in a unique, refreshing locale, catalyzing things like planning while enabling personal bonds to be built.
 
 Leadership should be mindful of personal strain placed on team members when they are asked to leave their home for extended periods of time, with covered childcare or similar assistance ensuring that undue burdens are not placed on caregivers.
 

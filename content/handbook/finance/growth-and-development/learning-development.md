@@ -84,11 +84,11 @@ GitLab is [committed to providing the time]({{< ref "learning-initiatives#take-t
 
 #### Online courses
 
-- [LinkedIn Learning: Executive Leadership](https://www.linkedin.com/learning/executive-leadership-24384695/take-action-to-lead) (1h 19m total)
+- [LinkedIn Learning: Executive Leadership](https://www.linkedin.com/learning/executive-leadership-24384695-24384695/take-action-to-lead) (1h 19m total)
 - [Develop Your Strategic Planning Skills](https://www.linkedin.com/learning/paths/develop-your-strategic-planning-skills)
 - [Mastering Self-Leadership](https://www.linkedin.com/learning/mastering-self-leadership/step-up-to-self-leadership)
 - [Leadership: Practical Skills](https://www.linkedin.com/learning/leadership-practical-skills/welcome)
-- [Executive Leadership - LinkedIn](https://www.linkedin.com/learning/executive-leadership)
+- [Executive Leadership - LinkedIn](https://www.linkedin.com/learning/executive-leadership-24384695)
 
 #### Books
 

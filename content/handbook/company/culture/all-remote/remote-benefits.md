@@ -39,7 +39,7 @@ Reimagining how one's day can be structured, and how that can easily vary from o
 
 Rather than forcing one to build their life about a predefined daily schedule that involves an unavoidable commute, all-remote shifts that responsibility back to the individual.
 
-A number of studies from the likes of [Google](https://web.archive.org/web/20191123234200/https://www.forbes.com/sites/abdullahimuhammed/2019/05/18/5-important-takeaways-from-googles-two-year-study-of-remote-work/), [Buffer](https://buffer.com/state-of-remote-work-2019), [FlexJobs](https://www.prweb.com/releases/global-workplace-analytics-amp-flexjobs-report-159-percent-increase-in-remote-work-since-2005-863776940.html), and [IWG](https://assets.regus.com/pdfs/iwg-workplace-survey/iwg-workplace-survey-2019.pdf) show that driven individuals who place a high degree of value on autonomy and flexibility can experience new levels of joy and productivity in an all-remote environment.
+A number of studies from the likes of [Google](https://web.archive.org/web/20191123234200/https://www.forbes.com/sites/abdullahimuhammed/2019/05/18/5-important-takeaways-from-googles-two-year-study-of-remote-work/), [Buffer](https://buffer.com/state-of-remote-work/2019), [FlexJobs](https://www.prweb.com/releases/global-workplace-analytics-amp-flexjobs-report-159-percent-increase-in-remote-work-since-2005-863776940.html), and [IWG](https://assets.regus.com/pdfs/iwg-workplace-survey/iwg-workplace-survey-2019.pdf) show that driven individuals who place a high degree of value on autonomy and flexibility can experience new levels of joy and productivity in an all-remote environment.
 
 {{< youtube "tTQAU78QSt8" >}}
 

@@ -190,7 +190,7 @@ Ontario - Team members who have been employed by GitLab for at least two consecu
 
 Quebec - The Act Respecting Labour Standards (ALS) provides for two days of paid absence per calendar year (January 1 to December 31). This leave runs concurrently with GitLab Sick Time. Employees must designate any time off for illness as `Out Sick` in Workday to ensure that annual sick leave entitlement is properly tracked.
 
-Québec - [La Loi sur les normes du travail (N-1.1)](https://www.legisquebec.gouv.qc.ca/fr/showdoc/cs/N-1.1) prévoit deux jours d'absence rémunérée par année civile (du 1er janvier au 31 décembre). Ce congé s'exécute simultanément avec les règles de congé de GitLab. Les employés doivent désigner tout congé de maladie par la catégorie «Out Sick» dans PTO par Roots, pour s'assurer que le droit aux congés de maladie annuels est correctement suivi.
+Québec - [La Loi sur les normes du travail (N-1.1)](https://www.legisquebec.gouv.qc.ca/fr/document/lc/N-1.1) prévoit deux jours d'absence rémunérée par année civile (du 1er janvier au 31 décembre). Ce congé s'exécute simultanément avec les règles de congé de GitLab. Les employés doivent désigner tout congé de maladie par la catégorie «Out Sick» dans PTO par Roots, pour s'assurer que le droit aux congés de maladie annuels est correctement suivi.
 
 ## GitLab Canada Corp Parental leave
 
@@ -513,7 +513,7 @@ More information about these leave types can be found on the [Government of Albe
 
 **Bereavement Leave** *Team members who have been employed with GitLab for at least 90 days*
 
-- 3 days of unpaid leave per year for the death of a [family member](https://www.alberta.ca/bereavement-leave.aspx)
+- 3 days of unpaid leave per year for the death of a [family member](https://www.alberta.ca/bereavement-leave)
 - Team Members should select `Bereavement` in Workday.
 
 **Citizenship Ceremony Leave** *Team members who have been employed with GitLab for at least 90 days*
@@ -559,13 +559,13 @@ More information about these leave types can be found on the [Government of Albe
 
 **Personal and family responsibility leave** *Team members who have been employed with GitLab for 90 days*
 
-- Up to 5 days each calendar year to care for their own health or to meet family responsibilities in relation to a [family member](https://www.alberta.ca/personal-family-responsibility-leave.aspx#jumplinks-2). This does not carry over to the following year if unused.
+- Up to 5 days each calendar year to care for their own health or to meet family responsibilities in relation to a [family member](https://www.alberta.ca/personal-family-responsibility-leave#jumplinks-2). This does not carry over to the following year if unused.
 - Team Members should select `Out Sick` in Workday.
 
 **Reservist Leave** *Team members who have been employed with GitLab for at least 26 consecutive weeks*
 
 - Up to 20 days each calendar year for annual training
-- As long as necessary to accommodate the period of service required for [international or domestic deployment](https://www.alberta.ca/reservist-leave.aspx#jumplinks-2).
+- As long as necessary to accommodate the period of service required for [international or domestic deployment](https://www.alberta.ca/reservist-leave#jumplinks-2).
 - Team Members should select `Military Service` in Workday.
 
 </details>

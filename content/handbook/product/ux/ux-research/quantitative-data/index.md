@@ -66,7 +66,7 @@ You can use these two data sources to build a comprehensive understanding of you
 
 One way to look at data is with data visualizations. Data visualizations are graphical representations of data, commonly seen as charts or tables. Data visualizations are used to represent a trend in your data, or display a summary of your data.
 
-There are many types of visualizations, and each one may suit a particular situation better than another. Below is an overview of common visualizations using example charts driven by SUS data, but you may also want to visit [this helpful blog post](https://monkeylearn.com/blog/data-visualization-types/) for additional examples.
+There are many types of visualizations, and each one may suit a particular situation better than another. Below is an overview of common visualizations using example charts driven by SUS data, but you may also want to visit [this helpful blog post](https://web.archive.org/web/20240422022437/https://monkeylearn.com/blog/data-visualization-types/) for additional examples.
 
 - Tables are good to use when you want to summarize a portion of your data or display aggregations.
   ![Table Example](table.png)

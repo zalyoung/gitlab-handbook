@@ -80,11 +80,11 @@ The Tech Stack single source of truth is the [Tech Stack YAML](https://gitlab.co
 
 ### Implementation
 
-Zuora consists of several app modules built on the [Zuora Central Platform](https://www.zuora.com/products/zuora-central-platform/). [Zuora Billing](https://www.zuora.com/products/billing-software/) is one of these modules.
+Zuora consists of several app modules built on the [Zuora Central Platform](https://www.zuora.com/products/zuora-platform/). [Zuora Billing](https://www.zuora.com/products/billing-software/) is one of these modules.
 
 ### System Diagrams
 
-[Zuora Billing](https://www.zuora.com/products/billing-software/) is one of several modules within the larger [Zuora Central Platform](https://www.zuora.com/products/zuora-central-platform/).
+[Zuora Billing](https://www.zuora.com/products/billing-software/) is one of several modules within the larger [Zuora Central Platform](https://www.zuora.com/products/zuora-platform/).
 
 ```mermaid
 graph TD
@@ -130,7 +130,7 @@ Zuora Billing is a key module within the **[Lead to Cash workflow](/handbook/bus
 
 ### Key Reports / Dashboards
 
-For Zuora Billing, the team uses [Zuora Standard Reports](https://knowledgecenter.zuora.com/Billing/Reporting/AB_Reporting_Quick_Reference/C_Standard_Reports) and the most important reports are:
+For Zuora Billing, the team uses [Zuora Standard Reports](https://knowledgecenter.zuora.com/Zuora_Platform/Data/Reporting/AB_Reporting_Quick_Reference/C_Standard_Reports) and the most important reports are:
 
 - ELP Changes
 - Accounts with subscriptions to be canceled in the next 30 days

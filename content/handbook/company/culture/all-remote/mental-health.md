@@ -82,7 +82,7 @@ Watch the short interview below.
 
 ### Your rest ethic is as important as your work ethic
 
-Traditionally, we've emphasized the importance of having a strong work ethic. Finding a balance with your work ethic and your rest ethic is essential for avoiding burnout. Building and nurturing your rest ethic creates the energy needed to enable your work ethic. Dr. Saundra Dalton Smith talks about the importance of rest and the types of rest we need in her TedTalk, [The 7 Types of Rest that Every Person Needs](https://ideas.ted.com/the-7-types-of-rest-that-every-person-needs).
+Traditionally, we've emphasized the importance of having a strong work ethic. Finding a balance with your work ethic and your rest ethic is essential for avoiding burnout. Building and nurturing your rest ethic creates the energy needed to enable your work ethic. Dr. Saundra Dalton Smith talks about the importance of rest and the types of rest we need in her TedTalk, [The 7 Types of Rest that Every Person Needs](https://ideas.ted.com/the-7-types-of-rest-that-every-person-needs/).
 
 Examples of how you might define your rest ethic:
 
@@ -227,7 +227,7 @@ Oftentimes, if you are feeling burned out, you aren't the only one feeling that 
 
 *In the video above, Darren (Head of Remote, GitLab) and Sara (Senior Partner Marketing Manager, GitLab) discuss tips, tricks, and insights on preventing burnout and achieving balance.*
 
-Prevention is a [team sport](https://www.cncf.io/blog/2020/04/03/were-all-in-this-together-a-wellness-guide-from-the-cncf-well-being-working-group). Leaders must work to establish a workplace culture that empowers rather than restricts, managers must be proactive in sensing the signs of mental strain, and team members must feel comfortable surfacing issues while they are still manageable. Below are several [recommendations](https://about.gitlab.com/blog/2018/03/08/preventing-burnout/) for avoiding and preventing burnout, according to GitLab team members.
+Prevention is a [team sport](https://www.cncf.io/blog/2020/04/03/were-all-in-this-together-a-wellness-guide-from-the-cncf-well-being-working-group/). Leaders must work to establish a workplace culture that empowers rather than restricts, managers must be proactive in sensing the signs of mental strain, and team members must feel comfortable surfacing issues while they are still manageable. Below are several [recommendations](https://about.gitlab.com/blog/2018/03/08/preventing-burnout/) for avoiding and preventing burnout, according to GitLab team members.
 
 1. Set clear boundaries between work and home
 1. Take vacation
@@ -335,7 +335,7 @@ This [Forbes article on remote-work time management tips](https://www.forbes.com
 
 GitLab employee Matej L. outlines [9 tips for eliminating remote work distractions and being more productive](https://about.gitlab.com/blog/2018/05/17/eliminating-distractions-and-getting-things-done/) here.
 
-**Pro tip:** experiment with removing Slack from your phone. A [litany](https://sitn.hms.harvard.edu/flash/2018/dopamine-smartphones-battle-time) of [studies](https://pmc.ncbi.nlm.nih.gov/articles/PMC6449671/) have covered the addictive nature of smartphones. Even if you aren't sure if this approach will benefit you, give it a try. It's what we call a [two-way door](/handbook/values/#make-two-way-door-decisions).
+**Pro tip:** experiment with removing Slack from your phone. A [litany](https://sites.harvard.edu/sitn/2018/05/01/dopamine-smartphones-battle-time/) of [studies](https://pmc.ncbi.nlm.nih.gov/articles/PMC6449671/) have covered the addictive nature of smartphones. Even if you aren't sure if this approach will benefit you, give it a try. It's what we call a [two-way door](/handbook/values/#make-two-way-door-decisions).
 
 ## What are some resources for remote workers struggling with their mental health?
 
@@ -365,7 +365,7 @@ The following tools and strategies are used by the GitLab team to manage burnout
 
 ## How can remote workers connect with mental health professionals?
 
-1. [UCSF Department of Psychiatry and Behavioral Sciences: Resources to support your mental health during the COVID-19 outbreak and climate crises](https://psych.ucsf.edu/copingresources)
+1. [UCSF Department of Psychiatry and Behavioral Sciences: Resources to support your mental health during the COVID-19 outbreak and climate crises](https://hr.ucsf.edu/wellbeing/coping-and-resiliency-program)
 
 ## GitLab Knowledge Assessment: Combating burnout, isolation, and anxiety in the remote workplace
 

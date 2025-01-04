@@ -117,7 +117,7 @@ Below is the timeline for FY26:
 
 ### FY26-Q4 (Nov 1)
 
-Status: Pending  
+Status: Pending
 
 - Planning:
 - Calibrations & Workday input by Director+:
@@ -129,7 +129,7 @@ Status: Pending
 
 ### FY27-Q2 (May 1)
 
-Status: Pending  
+Status: Pending
 
 - Planning:
 - Calibrations & Workday input by Director+:
@@ -141,7 +141,7 @@ Status: Pending
 
 ### FY27-Q4 (Nov 1)
 
-Status: Pending  
+Status: Pending
 
 - Planning:
 - Calibrations & Workday input by Director+:
@@ -664,7 +664,7 @@ Note for Sales Managers: If team members are not moved under the correct sales m
 
 ## Department Transfers
 
-If you are interested in applying for an open role, please do so  through [Greenhouse](https://boards.greenhouse.io/gitlab) or the internal job board, link found on the `#new-vacancies` Slack channel.
+If you are interested in applying for an open role, please do so  through [Greenhouse](https://job-boards.greenhouse.io/gitlab) or the internal job board, link found on the `#new-vacancies` Slack channel.
 
 Please understand the following eligibility guidelines that need to be met to be able to proceed with your application:
 

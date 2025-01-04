@@ -216,7 +216,7 @@ Episodes generally run for 30 minutes and feature 4-5 panelists and a moderator 
 
 | Episode Title                                                                 | Views   | Month   |
 |-------------------------------------------------------------------------------|---------|---------|
-| [GitLab 16.11](https://www.linkedin.com/events/7191139444916146176/comments/) | 5.6K    | 2024/04 |
+| [GitLab 16.11](https://www.linkedin.com/events/7191139444916146176/) | 5.6K    | 2024/04 |
 | [GitLab 17.0](https://www.linkedin.com/feed/update/urn:li:activity:7198692684436250626) | 6.8K    | 2024/05 |
 | [GitLab 17 Release event recap](https://www.linkedin.com/video/live/urn:li:ugcPost:7212131667262492673/) | 7.3K    | 2024/06 |
 | [Harnessing AI: GitLab’s Insights & Innovations](https://www.linkedin.com/events/7219699059933020163) | 6.3K    | 2024/07 |
@@ -435,9 +435,9 @@ The coffee chats are organized as [meetup.com group events](https://www.meetup.c
 
 The sessions are hosted by Michael Friedrich. Developer Advocate team members are assigned as alternative hosts in Zoom. The meetups are hosted in Zoom with a waiting room as default, the Zoom URL is hidden in the meetup group event. team members can access the URL in the [Developer Advocate team calendar](/handbook/marketing/developer-relations/developer-advocacy/). For joining the group, users need a profile picture and provide their name for joining an event. This is to protect against Zoom bombing and otherwise harmful intentions.
 
-Next to Zoom, everyone can hangout with text or audio in [Discord](https://everyonecancontribute.com/page/handbook/#discord).
+Next to Zoom, everyone can hangout with text or audio in [Discord](https://everyonecancontribute.cafe/page/handbook/#discord).
 
-The website's [About page](https://everyonecancontribute.com//page/about/) covers more details including the exact date and time.
+The website's [About page](https://everyonecancontribute.cafe/page/about/) covers more details including the exact date and time.
 
 Insights:
 

@@ -7,7 +7,7 @@ This page lists various tips and tools for macOS.
 ## macOS tips
 
 Here are some useful tips if you are new to macOS.
-Even if you are not new, these [keyboard shortcuts](https://support.apple.com/en-us/HT201236) may come in handy.
+Even if you are not new, these [keyboard shortcuts](https://support.apple.com/en-us/102650) may come in handy.
 
 If you are switching from Windows to macOS, these [tips](https://support.apple.com/en-us/102323) may be useful.
 
@@ -111,7 +111,7 @@ To request access, please follow these steps:
 1. Log an [Access Request](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/new?issue%5Bmilestone_id%5D=) with the Access_Change_Request template, detailing why alternatives are not an option (as noted above).
 1. Once your manager approves the request, assign to the System Provisioner listed in the [Tech Stack] for this system.
 
-Once your access has been provisioned, you will receive an email notification that you have been added to a specific `dockerdesktop` team. Following that, you can [install Docker desktop](https://www.docker.com/products/docker-desktop), and login with the registered account.
+Once your access has been provisioned, you will receive an email notification that you have been added to a specific `dockerdesktop` team. Following that, you can [install Docker desktop](https://www.docker.com/products/docker-desktop/), and login with the registered account.
 
 The number of licenses is limited, so provisioning might take time, or might not be temporarily possible to gain access to the team.
 
@@ -164,7 +164,7 @@ Make sure to join the [#macOS](https://gitlab.slack.com/archives/CDKA4RCE7) Slac
 | Date/Time | [Itsycal](https://www.mowglii.com/itsycal/) | Itsycal is a tiny menu bar calendar. If you want, it will display your events as a companion to the macOS Calendar app. |
 | Date/Time | [Mini Calendar](https://apps.apple.com/us/app/mini-calendar/id1088779979) | Mini Calendar is a lightweight application, which helps to access monthly calendar quickly and easily. |
 | Date/Time | [Dato](https://apps.apple.com/us/app/dato/id1470584107) ~$3 USD | System menu bar date and time replacement with current time in various time zones and calendar events |
-| Date/Time | [Status Clock](https://itunes.apple.com/us/app/status-clock/id552792489) | Status Clock places a second clock on the menu bar for showing the UTC time. Perfect for anyone doing sysadmin work or tasks that require referencing UTC (or any secondary timezone). |
+| Date/Time | [Status Clock](https://apps.apple.com/us/app/status-clock/id552792489) | Status Clock places a second clock on the menu bar for showing the UTC time. Perfect for anyone doing sysadmin work or tasks that require referencing UTC (or any secondary timezone). |
 | Desktop background | [Downlink](https://downlinkapp.com/) | Every 20 minutes (or every hour, you pick), Downlink updates your desktop background with the freshest images of Earth. |
 | Media | [BeardedSpice](https://beardedspice.github.io/) | BeardedSpice is a menubar application for macOS that allows you to control web based media players and some native apps with the media keys found on macOS keyboards. |
 | Menubar | [Bartender](https://www.macbartender.com/) | Lets you organize your menu bar icons, by hiding them, rearranging them, show hidden items with a click or keyboard shortcut and have icons show when they update. |
@@ -172,7 +172,6 @@ Make sure to join the [#macOS](https://gitlab.slack.com/archives/CDKA4RCE7) Slac
 | Notes | [Tyke](https://tyke.app/) | A little bit of scratch paper that lives on your macOS menu bar. |
 | Productivity | [HazeOver](https://hazeover.com/) | This app automatically highlights the front window by fading out all the background windows. |
 | Productivity | [Maccy](https://maccy.app/) | Clipboard manager - keeps a history of your clipboard. |
-| Productivity | [Skitch](https://evernote.com/products/skitch) | A simple tool to snap a part of your screen and point out details with annotations, shapes, and highlights. **IMPORTANT:** Do not save screenshots to Evernote as it violates the [Acceptable Use Policy](/handbook/people-group/acceptable-use-policy/#unacceptable-system-and-network-activities). |
 | System control | [Lungo](https://apps.apple.com/us/app/lungo/id1263070803) | Lungo prevents macOS from falling asleep and your screen from dimming. |
 | System control | [Amphetamine](https://apps.apple.com/us/app/amphetamine/id937984704) | Amphetamine can keep your macOS, and optionally its display(s), awake through a super simple on/off switch, or automatically through easy-to-configure Triggers |
 | System control | [Keeping You Awake (Free & Open Source)](https://github.com/newmarcel/KeepingYouAwake) | Prevents your macOS from entering sleep mode for a predefined duration or as long as it is activated |

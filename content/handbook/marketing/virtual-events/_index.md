@@ -174,19 +174,19 @@ When scheduling an event, this table can help guide you towards the right event 
 
 #### Resources {#zoom-resources}
 
-* [Managing participants in webcast](https://support.zoom.us/hc/en-us/articles/115004834466-Managing-Participants-in-Webinar)
-* [Managing participants in a meeting](https://support.zoom.us/hc/en-us/articles/115005759423-Managing-participants-in-a-meeting)
+* [Managing participants in webcast](https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0063276)
+* [Managing participants in a meeting](https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0065566)
 
 #### Chat {#zoom-chat}
 
-* [In-meeting chat](https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0064400) / [Save in-meeting chat](https://support.zoom.us/hc/en-us/articles/115004792763-Saving-In-Meeting-Chat)
-* [Webcast chat](https://support.zoom.us/hc/en-us/articles/205761999-Webinar-Chat)
+* [In-meeting chat](https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0064400) / [Save in-meeting chat](https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0067312)
+* [Webcast chat](https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0067761)
 
 **Chat announcements**
 
 Chat announcements allow specific users to send one-way announcements to everyone in the same account. Account owners and admin can add up to 50 users who can send announcements.
 
-[Using chat announcements](https://support.zoom.us/hc/en-us/articles/360037120072-Using-Chat-Announcements)
+[Using chat announcements](https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0062229)
 
 #### Q&A {#zoom-questions}
 
@@ -201,7 +201,7 @@ You can enable polling in your meeting or virtual event to survey your attendees
 You can also download the results of your poll - see [reporting](/handbook/marketing/virtual-events/#reporting).
 
 * [Polling for webcasts](https://support.zoom.us/hc/en-us/articles/203749865-Polling-for-Webinars)
-* [Polling for meetings](https://support.zoom.us/hc/en-us/articles/213756303-Polling-for-Meetings)
+* [Polling for meetings](https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0066150)
 
 #### Networking {#zoom-networking}
 
@@ -236,7 +236,7 @@ If you are creating a self-service partner virtual event, please add the followi
 
 #### Resources {#reporting-resources}
 
-* [Getting started with reporting](https://support.zoom.us/hc/en-us/articles/201363213-Getting-started-with-reports)
+* [Getting started with reporting](https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0060623)
 
 There are two types of reports you can export for virtual events from Zoom:
 
@@ -269,7 +269,7 @@ If you have a **minimum of 20 leads** to upload from a virtual event, you can ut
 
 When driving webcast registration to a Zoom landing page, Zoom registration source tracking can be useful for tracking where the registrants are coming from.
 
-[Registration source tracking on zoom landing page](https://support.zoom.us/hc/en-us/articles/360000315683-Webinar-registration-source-tracking) is only available for MPM run `Webcast` type and not the self-service virtual events `Meeting` type set up.
+[Registration source tracking on zoom landing page](https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0065543) is only available for MPM run `Webcast` type and not the self-service virtual events `Meeting` type set up.
 
 Currently, we do not use Zoom's landing page for webcast registration as MPMs manage the webcast registration process by creating an about.gitlab landing page and integrating form fills to Zoom via Marketo. The Zoom integration tracks sources that drove the registration using UTM parameters. See [full documentation on when and how to use utms](/handbook/marketing/integrated-marketing/digital-strategy/digital-strategy-management/#utms-for-url-tagging-and-tracking).
 

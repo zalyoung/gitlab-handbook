@@ -377,7 +377,7 @@ _[The original and internal-to-GitLab proof points Google Doc is online, here](h
 
 ---
 
-<big>[Axo Soft - Top 20 Dev Tools for 2019](https://blog.axosoft.com/top-developer-tools-2019/)</big><br>
+<big>[Axo Soft - Top 20 Dev Tools for 2019](https://www.gitkraken.com/reports/top-developer-tools-2019)</big><br>
 *GitLab is one of the most popular developer tools.*<br>
 **Differentiators:** Open Source<br>
 **Use case** VC&C, Agile

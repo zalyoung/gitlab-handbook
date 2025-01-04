@@ -135,7 +135,7 @@ This added burden forces team members to consider approaching work [asynchronous
 
 {{< youtube "SP7u0gYCHiY?start=608" >}}
 
-*In the [video](https://youtu.be/SP7u0gYCHiY) above, Darren Murph, Head of Remote at GitLab sits down with Jeff Frick for a [Digital CUBE Conversation](https://siliconangle.com/2020/05/01/all-remote-gitlab-offers-advice-and-resources-as-companies-adjust-to-life-away-from-offices-cubeconversations) about the way the global Covid-19 crisis is affecting the way people work, and work from home. Discover more in GitLab's [Remote Work playlist](https://www.youtube.com/playlist?list=PL05JrBw4t0Kq7QUX-Ux5fOunQotqJbECc).*
+*In the [video](https://youtu.be/SP7u0gYCHiY) above, Darren Murph, Head of Remote at GitLab sits down with Jeff Frick for a [Digital CUBE Conversation](https://siliconangle.com/2020/05/01/all-remote-gitlab-offers-advice-and-resources-as-companies-adjust-to-life-away-from-offices-cubeconversations/) about the way the global Covid-19 crisis is affecting the way people work, and work from home. Discover more in GitLab's [Remote Work playlist](https://www.youtube.com/playlist?list=PL05JrBw4t0Kq7QUX-Ux5fOunQotqJbECc).*
 
 The *quickest* way to send the *clearest* signal that remote is the future is to start at the top of the organizational chart. Remove execs from the office, and you'll quickly figure out what gaps you need to fill with tools and process.
 
@@ -162,7 +162,7 @@ Read more about this forcing function in GitLab's guide to [adopting a self-serv
 
 {{< youtube "I-XQfP-NfpU?start=376" >}}
 
-*In the [GitLab Unfiltered](https://www.youtube.com/channel/UCMtZ0sc1HHNtGGWZFDRTh5A) video above, Darren (Head of Remote, GitLab) and two co-founders at [Yac](https://www.yac.chat) discuss the significance of relying on a company handbook as the [single source of truth](handbook-first#creating-a-home-for-a-single-source-of-truth-ssot).*
+*In the [GitLab Unfiltered](https://www.youtube.com/channel/UCMtZ0sc1HHNtGGWZFDRTh5A) video above, Darren (Head of Remote, GitLab) and two co-founders at [Yac](https://yac.com/) discuss the significance of relying on a company handbook as the [single source of truth](handbook-first#creating-a-home-for-a-single-source-of-truth-ssot).*
 
 > "GitLab's founders made a fundamental decision early on to work handbook-first to document everything about the company. Everyone who has joined since benefits from that initial step.
 >
