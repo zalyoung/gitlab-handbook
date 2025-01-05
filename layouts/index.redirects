@@ -86,6 +86,34 @@
 /handbook/engineering/development/analytics/product-analytics/ /handbook/engineering/development/analytics/monitor/platform-insights/ 301
 /handbook/engineering/development/dev/plan/optimize/ /handbook/engineering/development/analytics/monitor/optimize/ 301
 
+# Moves Handling Tickets support workflows to handling-tickets - remove 2025-03-23
+/handbook/support/workflows/working-with-issues/ /handbook/support/workflows/handling-tickets/working-with-issues/ 301
+/handbook/support/workflows/ooo-ticket-management/ /handbook/support/workflows/handling-tickets/ooo-ticket-management/ 301
+/handbook/support/workflows/ticketing_style_guide/ /handbook/support/workflows/handling-tickets/ticketing_style_guide/ 301
+/handbook/support/workflows/handling_sales_info_requests/ /handbook/support/workflows/handling-tickets/handling_sales_info_requests/ 301
+/handbook/support/workflows/looking_up_customer_technical_details/ /handbook/support/workflows/handling-tickets/looking_up_customer_technical_details/ 301
+/handbook/support/workflows/usgovernment_tickets/ /handbook/support/workflows/handling-tickets/usgovernment_tickets/ 301
+/handbook/support/workflows/how-to-respond-to-tickets/ /handbook/support/workflows/handling-tickets/how-to-respond-to-tickets/ 301
+/handbook/support/workflows/how-to-get-help/ /handbook/support/workflows/handling-tickets/how-to-get-help/ 301
+/handbook/support/workflows/zendesk-ticket-basics/ /handbook/support/workflows/handling-tickets/zendesk-ticket-basics/ 301
+/handbook/support/workflows/customer_calls/ /handbook/support/workflows/handling-tickets/customer_calls/ 301
+/handbook/support/workflows/removing-sensitive-information/ /handbook/support/workflows/handling-tickets/removing-sensitive-information/ 301
+/handbook/support/workflows/sla_and_views/ /handbook/support/workflows/handling-tickets/sla_and_views/ 301
+/handbook/support/workflows/working-with-pods/ /handbook/support/workflows/handling-tickets/working-with-pods/ 301
+/handbook/support/workflows/support-sales-escalations/ /handbook/support/workflows/handling-tickets/support-sales-escalations/ 301
+/handbook/support/workflows/ticket_triage/ /handbook/support/workflows/handling-tickets/ticket_triage/ 301
+/handbook/support/workflows/how-to-respond-to-feedback/ /handbook/support/workflows/handling-tickets/how-to-respond-to-feedback/ 301
+/handbook/support/workflows/fieldnote_issues/ /handbook/support/workflows/handling-tickets/fieldnote_issues/ 301
+/handbook/support/workflows/handling_offer_migration_tickets/ /handbook/support/workflows/handling-tickets/handling_offer_migration_tickets/ 301
+/handbook/support/workflows/improving-documentation/ /handbook/support/workflows/handling-tickets/improving-documentation/ 301
+/handbook/support/workflows/emotionally-charged-tickets/ /handbook/support/workflows/handling-tickets/emotionally-charged-tickets/ 301
+/handbook/support/workflows/residency_doc_request/ /handbook/support/workflows/handling-tickets/residency_doc_request/ 301
+/handbook/support/workflows/looking_up_customer_account_details/ /handbook/support/workflows/handling-tickets/looking_up_customer_account_details/ 301
+/handbook/support/workflows/working-on-tickets/ /handbook/support/workflows/handling-tickets/working-on-tickets/ 301
+/handbook/support/workflows/dev_pulse/ /handbook/support/workflows/handling-tickets/dev_pulse/ 301
+/handbook/support/workflows/high-priority-all-regions-tickets-workflow/ /handbook/support/workflows/handling-tickets/high-priority-all-regions-tickets-workflow/ 301
+/handbook/support/workflows/feedbacks_and_complaints/ /handbook/support/workflows/handling-tickets/feedbacks_and_complaints/ 301
+
 # Sec realignment - remove 2025-04-02
 /handbook/engineering/development/sec/govern/ /handbook/engineering/development/sec/software-supply-chain-security/ 301
 /handbook/engineering/development/sec/govern/authentication/ /handbook/engineering/development/sec/software-supply-chain-security/authentication/ 301
