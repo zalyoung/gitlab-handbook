@@ -104,6 +104,7 @@ While the [product tours](#product-tours) provide guided walkthroughs with navig
 
 | Title | Area | Last updated |DRI |
 |-------|------|--------------|-----|
+| [Idea to MR](https://gitlab.navattic.com/advanced-sast-internal) | Duo with Amazon Q | 2025-01-05 | @iganbaruch |
 | [Advanced SAST](https://gitlab.navattic.com/advanced-sast-internal) | DevSecOps Platform | 2024-09-24 | @iganbaruch |
 | [AI Impact analytics](https://gitlab.navattic.com/ai-impact-internal) | GitLab Duo | 2024-10-30 | @iganbaruch |
 | [Duo Enterprise](https://gitlab.navattic.com/duo-enterprise-internal) | GitLab Duo | 2024-10-28 | @iganbaruch |
