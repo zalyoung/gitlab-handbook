@@ -1,5 +1,5 @@
 ---
-title: "Compliance Frameworks ADR 007: External Custom Requriements"
+title: "Compliance Frameworks ADR 007: External Custom Requirements"
 toc_hide: true
 ---
 
@@ -9,7 +9,7 @@ Users need to be able to create controls on their own as their requirements migh
 
 ## External requirements
 
-We would store the external HTTP/HTTPS URLs for the user's external services in the compliance_requirements table with
+We would store the external HTTP/HTTPS URLs for the user's external services in the `compliance_requirements` table with
 'external' as the `requirement_type`.
 
 We would POST the latest project settings to these external services and expect a boolean status as the response.
@@ -29,9 +29,9 @@ flowchart TD
 When evaluating requirements we trigger a message to the external service if it has an `external_url` defined and is of `control_type` `external`.
 After posting we set the corresponding `project_compliance_configuration_status` entry to state `pending` and allow for a timeout of `6 hours`. 
 There will be a separate, worker, preiodically run, checking for status entries that are older than the timeout and still in state `pending`, these entries will be defaulted to a `fail` state.
-(This adds an additionals state to what's been mentioned in [ADR001](https://handbook.gitlab.com/handbook/engineering/architecture/design-documents/compliance-adherence-reporting/decisions/001_triggering_checks/#decision))
+(This adds an additional state to what's been mentioned in [ADR001](001_triggering_checks/#decision))
 
-When the external service reports back inside the timout we set the status in table `project_compliance_configuration_status` to store the results of the requirements as the external service indicated. 
+When the external service reports back inside the timeout we set the status in table `project_compliance_configuration_status` to store the results of the requirements as the external service indicated. 
 
 ### Application Programmer Interfaces (APIs)
 
@@ -44,7 +44,7 @@ This allows external systems to report and query the compliance status of specif
 
 `GET https://gitlab.com/api/v4/projects/control_statuses/:id/`
 
-```
+```plaintext
 curl -X GET \
   'https://gitlab.com/api/v4/projects/control_statuses/123/' \
   -H 'Authorization: Bearer glpat-XXXXXXXXXXXXXXXXX' \
@@ -55,7 +55,7 @@ curl -X GET \
 
 `PUT https://gitlab.com/api/v4/projects/control_statuses/:id/?status=[fail|success]`
 
-```
+```plaintext
 curl -X PUT \
   'https://gitlab.com/api/v4/projects/control_statuses/123/?status=success' \
   -H 'Authorization: Bearer glpat-XXXXXXXXXXXXXXXXX' \
@@ -124,11 +124,10 @@ mutation UpdateProjectsComplianceControlStatus(
 
 Audit events need to be created for the following events in this workflow:
 
-1. Triggering of message to external service.
+1. Triggering of messages to external service.
 1. Network timeouts encountered when attempting to message external service.
-1. Storing reply form external service.
-1. Defaulting to failed state when timeout is reached.
-
+1. Storing replies from external service.
+1. Defaulting to a failed state when timeout is reached.
 
 ## Constraints
 
@@ -136,4 +135,4 @@ Audit events need to be created for the following events in this workflow:
 
 ## Decision
 
-We decied to let external services post the status of their controls back to us in an async manner allowing for more time to let them perform more complex checks.
+We decided to let external services post the status of their controls back to us in an async manner allowing for more time to let them perform more complex checks.
