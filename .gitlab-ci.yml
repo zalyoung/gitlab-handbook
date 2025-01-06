@@ -321,6 +321,8 @@ hugolint:
     - <<: *merge-request-or-tag
   image:
     name: registry.gitlab.com/gitlab-com/content-sites/handbook-tools/hugolint:v${HUGOLINT_VERSION}
+  before_script:
+    - apk add jq
   script:
     - hugolint linkcheck --exclude .hugolint.exclude --format=json $(find content -type f -name '*.md' | grep -v ' ') >linkcheck.json
     - hugolint missinglinks --num 30 $(find content -name '*.md' | grep -v ' ') 2>/dev/null | tee missinglinks.txt
