@@ -94,7 +94,7 @@ The visual design of GitLab has evolved from naive simplicity to sophisticated c
 1. **Discovery** - Ensure users can interact and explore in ways that promote learning and proficiency while minimizing mistakes.
 1. **Capability** - Provide features and functions that enable users to complete tasks and automate processes.
 
-![Three-part venn diagram with the terms structure, discovery, and capability overlapping to create sophisticated simplicity in the center.](sophisticated-simplicity-venn.svg)
+![Three-part venn diagram with the terms structure, discovery, and capability overlapping to create sophisticated simplicity in the center.](/images/product/ux/product-designer/sophisticated-simplicity-venn.svg)
 
 Balancing these principles is crucial for an optimal user experience:
 

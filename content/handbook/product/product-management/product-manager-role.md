@@ -84,7 +84,7 @@ As product managers progress in their product career, we encourage our product m
 The progression of responsibilities allocation between tactical, operational and strategic in product roles
 is well illustrated by this chart.
 
-![GitLab PM Responsibility Allocation Chart](/handbook/product/pm-allocation.png)
+![GitLab PM Responsibility Allocation Chart](/images/product/pm-allocation.png)
 
 _[Source File](https://docs.google.com/spreadsheets/d/19gAgPJVdXfBpXiFOlT1WqZLJB_eFU7W7slmAzodEuDM/edit#gid=1012729771). Note - Thanks to [Melissa Perri](https://twitter.com/lissijean/) for the inspiration_
 

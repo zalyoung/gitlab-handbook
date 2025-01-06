@@ -49,7 +49,7 @@ You may refer to our [sample screener](https://docs.google.com/document/d/1sxhg6
 
 Questions are structured in the survey following a precise method to reduce survey fatigue (see the example below). It is critical that you do not deviate from this or you may risk a low completion rate.
 
-![Outcome Question structure](./JTBD_OutcomeSurvey_Question.png)
+![Outcome Question structure](/images/product/ux/jobs-to-be-done/outcome-driven-innovation-pilot/JTBD_OutcomeSurvey_Question.png)
 
 ##### Scoring
 
@@ -57,11 +57,11 @@ You will find everything you need to score your results with this [Outcome scori
 
 The results of the Outcome survey are scored using the top-two box method, which is intended for use in surveys where participants are asked to rate their level of importance and satisfaction across a scale. This is the same method we use for [CSAT](/handbook/sales/field-operations/user-success-operations/cs-ops-programs/nps-csat-scores/#scoring-methodology). Refer to the example below for more details.
 
-![Top-Two-Example](/Top_Two_Box.png)
+![Top-Two-Example](/images/Top_Two_Box.png)
 
 Looking at the example data above, we see that (40) or 80% of the total (50) participants find the [Job step] important, and 30% of participants are satisfied with the current [Solution]. We can plot these scores as data points to understand further how this correlates to Needs. To achieve this, we move the decimal (0.8 is now 8, and 0.3 is now 3). Looking at the diagram below, we find that this Outcome is an Underserved need.
 
-![Needs_Plotting](./Needs_Plot.png)
+![Needs_Plotting](/images/product/ux/jobs-to-be-done/outcome-driven-innovation-pilot/Needs_Plot.png)
 
 ### Design evaluation
 

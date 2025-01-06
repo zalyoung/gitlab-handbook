@@ -159,7 +159,7 @@ When we drive our own research projects, it means we're also responsible for soc
 
 Below is an example of the formatting:
 
-![Slack snippet](posting.png)
+![Slack snippet](/images/product/ux/ux-research/how-uxr-team-operates/posting.png)
 
 ## How the UX Research team handles scheduling Paid Time Off (PTO)
 

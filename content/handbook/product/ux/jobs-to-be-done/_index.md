@@ -14,7 +14,7 @@ For practical JTBD research guidance, see the [playbook](/handbook/product/ux/jo
 
 When talking about Jobs to be Done, we’re often talking about different levels of jobs. It’s important to note the differences in terminology between these levels so that you and your stakeholders can communicate effectively.
 
-![JTBD hierarchy diagram](JTBD_Diagram.png)
+![JTBD hierarchy diagram](/images/product/ux/jobs-to-be-done/JTBD_Diagram.png)
 
 ### Main Jobs
 

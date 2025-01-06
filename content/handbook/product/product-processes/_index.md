@@ -1121,7 +1121,7 @@ in #support_escalations to receive some help in setting this up.
 
 **Social Media** can also be effective. If your personal account has a reasonable number of connections/followers, you can post your desire to connect with users on a specific question directly. When posting, remember to include the subject you want to discuss as well as how people can reach out. You can also reach out to the `#social-media` channel to have your tweet retweeted by the @gitlab account.
 
-![twitter-contactpng](/handbook/product/twitter-contact.png)
+![twitter-contactpng](/images/product/twitter-contact.png)
 
 If you want to reach a wider audience, consider asking a community advocate to re-post using the official GitLab account for the relevant platform.
 You can reach advocates on the `#community-advocates` Slack channel.
