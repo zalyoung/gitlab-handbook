@@ -1,5 +1,5 @@
 ---
-title: "Compliance Adherence Reporting"
+title: "Compliance Frameworks"
 status: ongoing
 creation-date: "2024-07-08"
 authors: [ "@nrosandich", "@huzaifaiftikhar1" ]
@@ -15,7 +15,7 @@ no_list: true
 
 ## Summary
 
-This blueprint serves as living documentation of the technical considerations in the implementation of Compliance Adherence Reporting. This includes functionality in [Compliance Frameworks](https://docs.gitlab.com/ee/user/group/compliance_frameworks.html), the [Compliance Center](https://docs.gitlab.com/ee/user/compliance/compliance_center/) and the relationship with [Security Policies](https://docs.gitlab.com/ee/user/application_security/policies/).
+This blueprint serves as living documentation of the technical considerations in the implementation of Compliance Frameworks. This includes functionality in [Compliance Frameworks](https://docs.gitlab.com/ee/user/group/compliance_frameworks.html), the [Compliance Center](https://docs.gitlab.com/ee/user/compliance/compliance_center/) and the relationship with [Security Policies](https://docs.gitlab.com/ee/user/application_security/policies/).
 
 ### Proposal
 
