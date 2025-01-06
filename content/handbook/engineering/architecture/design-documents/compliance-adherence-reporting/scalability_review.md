@@ -1,5 +1,5 @@
 ---
-title: "Compliance Standards Adherence Scalability Review"
+title: "Compliance Frameworks Scalability Review"
 toc_hide: true
 ---
 
