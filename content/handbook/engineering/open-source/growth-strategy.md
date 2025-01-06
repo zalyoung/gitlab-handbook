@@ -47,8 +47,8 @@ We're prioritizing these 5 key items to maximize our impact within our current c
 
 * [Reduce Open Community MR Age](/handbook/engineering/open-source/growth-strategy/#reduce-open-community-mr-age)
 * [Create a compelling contributor value proposition](/handbook/engineering/open-source/growth-strategy/#create-a-compelling-contributor-value-proposition)
-* [Contributor advancement system](/handbook/engineering/open-source/growth-strategy/#contributor-advancement-system)
-* [Returning & Frequent Contributors](/handbook/engineering/open-source/growth-strategy/#returning-frequent-contributors)
+* [Contributor advancement system](/handbook/engineering/open-source/growth-strategy/#contributor-recognition--advancement-system)
+* [Returning & Frequent Contributors](/handbook/engineering/open-source/growth-strategy/#returning--frequent-contributors)
 * [Non-code contributions](/handbook/engineering/open-source/growth-strategy/#non-code-contributions)
 
 ### Improve Contributor Journey
