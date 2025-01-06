@@ -318,19 +318,19 @@ Anything that would be assigned a weight of 8 or larger should be broken down.
 
 #### Status Updates
 
-* By 20:00 UTC / 03:00 PM ET on Fridays DRIs of OKRs to provide a status update in the comment section of the OKR
-  * Format for weekly update:
-    * Date of Update (YYYY-MM-DD)
-    * Brief update (~sentence or couple bullets) for each of these four bullets:
-      * Status update - Progress has been updated to X %.
-      * What was done :white_check_mark: - Unblocked blockers, any other progress achieved
-      * Next steps :construction_worker:
-      * Blockers :octagonal_sign: - Issues or unexpected work that blocked/affected progress. For example, customer escalations/on-call DRI
-* ASYNC weekly epic status updates
+- By 20:00 UTC / 03:00 PM ET on Fridays DRIs of OKRs to provide a status update in the comment section of the OKR
+  - Format for weekly update:
+    - Date of Update (YYYY-MM-DD)
+    - Brief update (~sentence or couple bullets) for each of these four bullets:
+      - Status update - Progress has been updated to X %.
+      - What was done :white_check_mark: - Unblocked blockers, any other progress achieved
+      - Next steps :construction_worker:
+      - Blockers :octagonal_sign: - Issues or unexpected work that blocked/affected progress. For example, customer escalations/on-call DRI
+- ASYNC weekly epic status updates
 
 ## Test Platform process across product sections
 
 Overall we follow the same process as [defined](/handbook/engineering/infrastructure/test-platform/#how-we-work) in our Test Platform handbook across all groups in Core Platform and SaaS Platform
 except for a few exceptions curated to fit the needs of specific groups.
 
-* [Test Platform in Distribution group](/handbook/engineering/infrastructure-platforms/developer-experience/performance-enablement/distribution/)
+- [Test Platform in Distribution group](/handbook/engineering/infrastructure-platforms/developer-experience/performance-enablement/distribution/)
