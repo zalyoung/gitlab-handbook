@@ -71,9 +71,9 @@ The following Account Team Roles & Responsibilities Framework is an outcome of t
 | Qualification | Leverage MEDDPPICC to ensure opportunity is qualified. |I|DRI|C,I|||||||
 | Technical Discovery | Continue the qualification of an opportunity coming from BDR/AE to understand whether there is a technical fit. |I|C,I|DRI|||||||
 | [Conduct a Day-in-the-Life of a Developer Session](/handbook/customer-success/pre-sales-post-sales-transition/#transition-quick-summary) | Quick discovery to build recommendations for a developer's workflow. |I|C,I|DRI|||||||
-| Conduct a Reverse Demo Session | Quick customer-led demonstration of their development process or tools. |C,I - when there is already an engagement following an existing closed deal|C,I|DRI||||||||
+| Conduct a Reverse Demo Session | Quick customer-led demonstration of their development process or tools. |C,I - when there is already an engagement following an existing closed deal|C,I|DRI|||||||
 | Run Custom Demo(s) | Series of tailored deep-dive demonstrations showcasing solutions to critical problems. ||||DRI||||||
-| Deliver Hands-On Workshop/Labs | During the Tech Evaluation phase, we offer half-day pre-sales enablement workshops focused on GitLab use cases. These workshops are designed to accelerate user comfort and awareness for functionalities that have not yet been purchased, serving as an alternative to extensive Proof of Value (POV) exercises. ||||DRI|||||||
+| Deliver Hands-On Workshop/Labs | During the Tech Evaluation phase, we offer half-day pre-sales enablement workshops focused on GitLab use cases. These workshops are designed to accelerate user comfort and awareness for functionalities that have not yet been purchased, serving as an alternative to extensive Proof of Value (POV) exercises. ||||DRI||||||
 | Conduct a Value Stream Workshop | Deep discovery to understand an organization's software delivery process and performance build current-state and recommended future-state for a specific application's value stream. |C,I - when there is already an engagement following an existing closed deal||C|I|DRI|I||||
 | Run a Lunch and Learn Session | A short hands-on session showcasing areas of interest, performed in conjunction with the field marketing team. |C,I||||DRI|||||
 | Oversee a Guided Trial | Customer-led trial that covers tactical features and implementation alongside guidance on how it aligns to assumed or known goals. |I -  if the opportunity is for an existing customer|C,I -  if the opportunity is for an existing customer|C,I||DRI|||||
@@ -81,11 +81,11 @@ The following Account Team Roles & Responsibilities Framework is an outcome of t
 | Conduct a Technical Deep Dive Session | This is a deeper dive session on a custom use case important to the prospect or customer.|||||DRI|||||
 | Create Technical Close Plan | A Technical Close Plan is an internal strategy that Solutions Architects can use to secure a technical win for a given opportunity. It is built off the information in the Command Plan and expands on it by including the customer's desired business outcomes, notional architectures of the current and proposed states, key stakeholders, and known risks. This strategy can also be a subset of the Opportunity Plan created by AEs or live on its own.|I|C,I|C,I||DRI|C,I||||
 | Create ROI / Business Justification Plan | GitLab's Business Value Services practice is supported by the Field CTO team, the SA org, and Field Enablement to support deal and account teams (Account Executives and Solutions Architect) in incorporating business value consulting into the customer engagement.<br><br>This includes documenting and training on positioning and tooling to map GitLab value drivers to customer outcomes using a Return on Investment (ROI) and Total Cost of Ownership (TCO) analysis.|I||DRI|I|C,I|||||
-| Position Professional Services ||C,I||DRI|I|C,I||||
-| Position Success Plan Services ||C,I||DRI|I|C,I||||
-| Identify Tech Champion (s) |Define and engage key user personas for solution tailoring.|C,I - when there is already an engagement following an existing closed deal||C,I||DRI||||
-| Sales to Customer Success (CS) Handoff |Ensure detailed information transfer from sales to CS for seamless transition. |C,I||C,I||DRI||||
-| Create Mutual Success Plan |Create joint success plan with the customer in order to document customer goals and primary use cases. |C,I||C,I||DRI||||
+| Position Professional Services ||C,I||DRI|I|C,I|||||
+| Position Success Plan Services ||C,I||DRI|I|C,I|||||
+| Identify Tech Champion (s) |Define and engage key user personas for solution tailoring.|C,I - when there is already an engagement following an existing closed deal||C,I||DRI|||||
+| Sales to Customer Success (CS) Handoff |Ensure detailed information transfer from sales to CS for seamless transition. |C,I||C,I||DRI|||||
+| Create Mutual Success Plan |Create joint success plan with the customer in order to document customer goals and primary use cases. |C,I||C,I||DRI|||||
 
 ##### **Journey Stage: Onboard**
 
