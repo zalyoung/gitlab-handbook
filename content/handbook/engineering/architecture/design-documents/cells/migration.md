@@ -150,7 +150,7 @@ Cells 1.0 will use [Direct Transfer (DT)](https://docs.gitlab.com/ee/user/group/
 
 We still need to evaluate and address any gaps but this is the only option available in this timeframe.
 
-DT will generate new IDs when the data is imported into a new organization. This is because DT is a copy instead of a move operation. It does not make sense to evolve DT to work as a move operation as it deviates from it's core purpose for importing and exporting data.
+DT will generate new IDs when the data is imported into a new organization. This is because DT is a copy instead of a move operation. It does not make sense to evolve DT to work as a move operation as it deviates from its core purpose for importing and exporting data.
 
 It makes sense for DT to evolve to work with organizations in time for Cells 1.0. This is not throw away work since it is a feature that will need to be supported when we have Cells and Organizations.
 
