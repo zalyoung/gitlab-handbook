@@ -83,7 +83,7 @@ h.md5('1')
 
 1. Review the pipeline created from the merge request. Notice that it has a `semgrep-sast` job even though it's not defined in `Compliance Project`. This job comes from our pipeline execution policy.
 
-1. Return to your merge request. You will see that there are 1 new vulnerability, detected by the SAST scanner. 
+1. Return to your merge request. You will see that there is one new vulnerability, detected by the SAST scanner. 
 
 1. Select **Merge** to complete your merge request. 
 
