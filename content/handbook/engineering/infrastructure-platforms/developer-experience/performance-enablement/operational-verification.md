@@ -58,6 +58,7 @@ flowchart TB
     P3 --> P2
     P3 --> P1
 ```
+
 ### Approach
 
 Deploy verification checks can be divided into three approaches:
