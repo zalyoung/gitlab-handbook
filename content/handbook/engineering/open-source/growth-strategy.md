@@ -83,7 +83,7 @@ Incentivize, attract and retain contributors by providing a compelling value and
 
 #### Create a compelling contributor value proposition
 
-* **Why:** We need a clear definition of what drives people to contribute to GitLab and to present a compelling value proposition for increasing code contribution. One of the programs to drive this challenge is our [co-create program](https://about.gitlab.com/community/co-create/) for customers.
+* **Why:** We need a clear definition of what drives people to contribute to GitLab and to present a compelling value proposition for increasing code contribution. One of the programs to drive this challenge is our [Co-Create program](https://about.gitlab.com/community/co-create/) for customers.
 * **DRI:** [Developer Relations team](/handbook/marketing/developer-relations/)
 
 #### Contributor recognition & advancement system
