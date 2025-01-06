@@ -22,18 +22,28 @@ For issues tracked in the team's issue tracker or other `gitlab-com/gl-infra` pr
 
 Sometimes we'll need to track issues contained in the `gitlab-org` top-level group, which does not contain `workflow-infra::*` labels. For these issues, please use the `workflow::*` labels. We track these issues using a [workflow issue board for gitlab-org](https://gitlab.com/groups/gitlab-org/-/boards/7739216).
 
-Having two issue boards is not ideal and is a result of our recent reorganization into the Infrastructure Platforms department. Our long-term goal is to minimize the amount of issues that we need to track in the `gitlab-org` group and to primarily use the team's issues tracker. 
+Having two issue boards is not ideal and is a result of our recent reorganization into the Infrastructure Platforms department. Our long-term goal is to minimize the amount of issues that we need to track in the `gitlab-org` group and to primarily use the team's issue tracker in `gitlab-com/gl-infra/tenant-scale/cells-infrastructure/team`. 
 
 #### Blocked Issues
 
 We use the following guidelines for denoting when an issue is blocked:
+
 - If an issue depends on the completion of another issue, we use the `blocked by` feature to denote the dependency. 
 - If an issue was started but requires further input, completion of another issue, etc before progressing, we use `workflow::blocked`.
 
+#### Weekly Review
+
+Each week the EM will schedule time to review the issue boards and team members can optionally attend. The intent of the review is to:
+
+- Ensure that issues have the appropriate workflow labels.
+- Check on the status of in progress, blocked, and in review issues.
+- Ensure that there are refined issues ready to be worked on.
+- Check that issues are aligned to our roadmap and status updates on relevant epics.
+
 ## Resources
 
-* Slack (internal): [#g_cells_infrastructure](https://gitlab.enterprise.slack.com/archives/C07URAK4J59), [#g_cells_infrastructure_standup](https://gitlab.enterprise.slack.com/archives/C07UWPM2Y0P)
-* [Cells Infrastructure Team Issue Tracker](https://gitlab.com/gitlab-com/gl-infra/tenant-scale/cells-infrastructure/team/-/issues)
-* [Team Member Assigned Issues Board](https://gitlab.com/groups/gitlab-com/-/boards/8981056)
-* [Issue Board gl-infra](https://gitlab.com/groups/gitlab-com/gl-infra/-/boards/9026689)
-* [Issue Board gitlab-org](https://gitlab.com/groups/gitlab-org/-/boards/7739216)
+- Slack (internal): [#g_cells_infrastructure](https://gitlab.enterprise.slack.com/archives/C07URAK4J59), [#g_cells_infrastructure_standup](https://gitlab.enterprise.slack.com/archives/C07UWPM2Y0P)
+- [Cells Infrastructure Team Issue Tracker](https://gitlab.com/gitlab-com/gl-infra/tenant-scale/cells-infrastructure/team/-/issues)
+- [Team Member Assigned Issues Board](https://gitlab.com/groups/gitlab-com/-/boards/8981056)
+- [Issue Board gl-infra](https://gitlab.com/groups/gitlab-com/gl-infra/-/boards/9026689)
+- [Issue Board gitlab-org](https://gitlab.com/groups/gitlab-org/-/boards/7739216)
