@@ -200,3 +200,13 @@ The Senior Director of Product Design is a [grade 11](/handbook/total-rewards/co
 - Interview with a Senior Director or VP of Product Management. In this interview, the interviewer will seek to learn how you and your design teams have interacted and collaborated with product management team members. Be prepared to talk through examples about situations you have led or how you've assisted your team.
 - Interview with the VP of UX.
 - Interview with the Chief Product Officer.
+
+## Performance Indicators
+
+- [System Usability Scale (SUS) score](https://handbook.gitlab.com/handbook/product/ux/performance-indicators/#system-usability-scale-sus-score)
+- [User Satisfaction (USAT) score](https://handbook.gitlab.com/handbook/product/ux/performance-indicators/#user-satisfaction-usat-score)
+- [Total open UX bug issues by severity](https://handbook.gitlab.com/handbook/product/ux/performance-indicators/#total-open-ux-bug-issues-by-severity)
+- [Experience baselines](https://handbook.gitlab.com/handbook/product/ux/performance-indicators/#experience-baselines)
+- [Pajamas component migrations](https://handbook.gitlab.com/handbook/product/ux/performance-indicators/#pajamas-component-migrations)
+- [Deferred UX](https://handbook.gitlab.com/handbook/product/ux/performance-indicators/#deferred-ux)
+
