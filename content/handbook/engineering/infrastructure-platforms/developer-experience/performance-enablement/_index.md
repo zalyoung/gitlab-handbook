@@ -13,10 +13,10 @@ flowchart TD
     subgraph EC[The Emerald City - Developer Portal]
         Portal[Central Portal]
         subgraph Buildings[Four Pillars]
-            DV[Deployment Verification Castle]
-            SF[Self-Service Performance Palace]
-            OB[Observability Observatory]
-            DS[Data Store Treasury]
+            DV[Operational Verification]
+            SF[Self-Service Performance]
+            OB[Observability Performance]
+            DS[Data Store]
         end
         Portal --- DV
         Portal --- SF
