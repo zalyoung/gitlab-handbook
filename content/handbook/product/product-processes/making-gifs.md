@@ -85,7 +85,7 @@ the entire screen or a portion of the screen.
 
 On every Mac, QuickTime has already been installed. It features a nice screen record option and even has basic trim and splitting functions in the *edit* menu! Perfect for creating those [video files](#step-1).
 
-![quicktime gif](/handbook/product/making-gifs/quicktime.gif)
+![quicktime gif](/images/product/making-gifs/quicktime.gif)
 
 Worthy of mentioning:
 

@@ -66,7 +66,7 @@ To document actionable insights:
   - **Actionable Insight - Exploration needed** -  This is an actionable research insight derived from a UX research study. To address this insight, further exploration is required. That might be in the form of follow-up research, design explorations, etc. This issue template includes the `~"Actionable Insight::Exploration needed"` scoped label.
   - **Actionable Insight - Product change** -  This is an actionable research insight derived from a UX research study. To address this insight, a change to the product experience is required. This issue template includes the `~"Actionable Insight::Product change"` scoped label.  *Note that the `~"SUS::Impacting"` label and a [severity label](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#severity) are both required for actionable insights that require product changes.*
 
-    ![New issue screenshot with issue template](actionable_insight_template_location.png)
+    ![New issue screenshot with issue template](/images/product/ux/ux-research/research-insights/actionable_insight_template_location.png)
 
    Both templates use a corresponding scoped label (above) to keep track of the progress being made regarding next step(s). To streamline this process, add a link to the Dovetail insight in the GitLab issue, rather than typing out all the details again. (If you want to include details, you certainly can.)
 - **Step 3:** Add the appropriate `Group` (such as `~"group::source code"`) label to the issue.  This is done to identify and track actionable insights at the group level.

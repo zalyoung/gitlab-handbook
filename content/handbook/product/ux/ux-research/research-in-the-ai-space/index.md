@@ -23,7 +23,7 @@ The guidelines on this page aim to provide direction on how to include the user'
 
 AI solutions themselves won't reveal the user problem they are meant to solve. To identify and understand user needs (and to determine if the AI solution is addressing a real user problem), there are different approaches you can take:
 
-![Overview of approaches to identify and understand user needs](overview-of-approaches.png)
+![Overview of approaches to identify and understand user needs](/images/product/ux/ux-research/research-in-the-ai-space/overview-of-approaches.png)
 
 **Review existing research**
 
@@ -155,7 +155,7 @@ Follow the [steps for running a Category Maturity Scorecard study](/handbook/pro
 
 Similar to the Category Maturity Scorecard scoring (Figure 1), the calculated AI Usability score will be a number between 1.00 - 5.00. This is intended to give some granularity to the scores as regression/progression occurs. If need be, the score is translatable to an A-F grade scale.
 
-| ![Scoring rubric from our Category Maturity Scorecard process](AI_usability_metric_chart.png)  |
+| ![Scoring rubric from our Category Maturity Scorecard process](/images/product/ux/ux-research/research-in-the-ai-space/AI_usability_metric_chart.png)  |
 |------------------------------------------------------------------------------------------------|
 | **Figure 1: Borrowing the existing scoring rubric from our Category Maturity Scorecard process** |
 
