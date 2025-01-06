@@ -138,6 +138,7 @@ We can run load tests on specific sub components. This can be a subsystem (like 
 | [3 Challenges to Effective Performance Testing in Continuous Integration](https://abstracta.us/blog/performance-testing/3-challenges-effective-performance-testing-continuous-integration/) | Blog post on challenges on implementing performance testing in CI |
 | [When is the Best Time to Start Performance Testing?](https://abstracta.us/blog/performance-testing/best-time-start-performance-testing/) | Blog post on when to do performance testing |
 | [The Performance Driven Development manifesto](https://github.com/srperf/PDD) | An approach to shifting left performance testing  |
+| [Catch issues before your customers do: Shift left with k6 and Grafana](https://grafana.com/events/observabilitycon/2022/catch-issues-before-your-customers-do-shift-left-with-k6-and-grafana/) | Demostration of using K6 and Grafana to shift left performance testing |
 
 ### Internal References
 

@@ -10,7 +10,7 @@ Our mission is to empower GitLab system administrators with the toolkit they nee
 
 #### Top Priorities for FY25
 
-Our detailed priority list can be found at the [direction page](https://about.gitlab.com/direction/govern/authentication/#priorities) however on a higher level the focus would be on:
+Our detailed priority list can be found at the [direction page](https://about.gitlab.com/direction/software_supply_chain_security/authentication/#priorities) however on a higher level the focus would be on:
 
 1. GCP integration
 2. Cells readiness

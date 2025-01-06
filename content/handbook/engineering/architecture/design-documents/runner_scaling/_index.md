@@ -44,7 +44,7 @@ was no development made since that time (except for some highly important
 security fixes). In 2018, after Docker Machine entered the "maintenance mode",
 we decided to create [our own fork](https://gitlab.com/gitlab-org/ci-cd/docker-machine)
 to be able to keep using this and ship fixes and updates needed for our use case.
-[On September 26th, 2021 the project got archived](https://github.com/docker/docker.github.io/commit/2dc8b49dcbe85686cc7230e17aff8e9944cb47a5)
+[On September 26th, 2021 the project got archived](https://github.com/docker/docs/commit/2dc8b49dcbe85686cc7230e17aff8e9944cb47a5)
 and the documentation for it has been removed from the official page. This
 means that the original reason to use Docker Machine is no longer valid too.
 

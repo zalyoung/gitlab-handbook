@@ -45,7 +45,7 @@ We recorded a training about 1-1s which you can find here:
    - Anything non-work related worth mentioning?
    - When x happened, what will you do differently next time?
    - Have you identified any career development opportunities that I can help you with? For example: [Internship for Learning](/handbook/people-group/learning-and-development/internship-for-learning/)
-   - Other great questions to consider can be found in the [Culture Amp Blog: 24 great one-on-one meeting questions](https://www.cultureamp.com/blog/one-on-one-meeting-questions) or in 15Five's [The Great eBook of Employee Questions](https://www.15five.com/ebook/employee-questions/).
+   - Other great questions to consider can be found in the [Culture Amp Blog: 24 great one-on-one meeting questions](https://www.cultureamp.com/blog/one-on-one-meeting-questions) or in 15Five's [The Great eBook of Employee Questions](https://www.15five.com/ebook/employee-questions-2/).
 
 1. Consider encouraging direct reports to keep their 1:1 document open in their browser throughout the week. As items come up, they can add them in real time instead of waiting until 30 minutes before the meeting to scramble to fill in the [agenda](/handbook/leadership/1-1/suggested-agenda-format/).
 1. Asking open ended questions is important. "You doing alright?" is a yes/no question. There is no room for an answer unless you dig and prod to get more. Instead asking things like "Tell me how you've been doing since we last talked" leave more room for discussion and result in something both more actionable and results driven. Your goal is not just to know how they are doing, but why they feel that way.
@@ -221,7 +221,7 @@ We understand that this meeting format may feel a bit awkward as we will openly 
 
 ## Shadowed 1-1
 
-Shadowing a 1-1 is a scenario in which a GitLab team member attends the 1-1 of their manager and their manager's manager. The intent of this model to provide trust through transparency, build connections between team members and leaders who they may not otherwise interact with regularly, and open opportunities for collaboration be providing a broader knowledge to team members. The shadowed 1-1 is exemplified by Sid by having the CEO Shadows attend 1-1s with his direct reports.
+Shadowing a 1-1 is a scenario in which a GitLab team member attends the 1-1 of their manager and their manager's manager. The intent of this model to provide trust through transparency, build connections between team members and leaders who they may not otherwise interact with regularly, and open opportunities for collaboration be providing a broader knowledge to team members. The shadowed 1-1 is exemplified by the CEO having the CEO Shadows attend 1-1s with his direct reports.
 
 ### Agenda
 

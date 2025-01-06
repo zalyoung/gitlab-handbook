@@ -42,7 +42,7 @@ For a greater understanding of the importance of empathy in a manager, read [Git
 
 ### Servant-leader
 
-Working to have [no ego](/handbook/values/#no-ego), recognizing that [people are not their work](/handbook/values/#people-are-not-their-work), and having [short toes](/handbook/values/#short-toes) will go a long way to building trust as a manager. The humility required to be a [servant-leader](https://www.shrm.org/resourcesandtools/hr-topics/organizational-and-employee-development/pages/the-art-of-servant-leadership.aspx) is rare, and is of great importance in a remote setting. Particularly for reports who are [acclimating to their first remote role](getting-started/), managers may need to go above and beyond to lead by example.
+Working to have [no ego](/handbook/values/#no-ego), recognizing that [people are not their work](/handbook/values/#people-are-not-their-work), and having [short toes](/handbook/values/#short-toes) will go a long way to building trust as a manager. The humility required to be a [servant-leader](https://www.shrm.org/topics-tools/news/organizational-employee-development/art-servant-leadership) is rare, and is of great importance in a remote setting. Particularly for reports who are [acclimating to their first remote role](getting-started/), managers may need to go above and beyond to lead by example.
 
 In many cases, reports will be discovering in real-time how they prefer to be managed remotely. Maintaining the perspective that managers excel by serving is critical to building confidence in a direct report.
 
@@ -126,7 +126,7 @@ Informal communication is important, as it enables friendships to form at work r
 
 For all-remote companies, leaders should not expect informal communication to happen naturally. There are no hallways for team members to cross paths in, no carpools to the office, etc.
 
-> If you do all-remote, do it early, do it completely, and change your work methods to accommodate it. Be intentional about informal communication. All-remote forces you to do the things you should be doing anyway, earlier. - GitLab co-founder and CEO Sid Sijbrandij
+> If you do all-remote, do it early, do it completely, and change your work methods to accommodate it. Be intentional about informal communication. All-remote forces you to do the things you should be doing anyway, earlier. - GitLab co-founder Sid Sijbrandij
 
 In an all-remote environment, informal communication should be formally addressed. Leaders should organize informal communication, and to whatever degree possible, design an atmosphere where team members all over the globe feel comfortable reaching out to anyone to converse about topics unrelated to work.
 
@@ -145,7 +145,7 @@ Onboarding is critical in equipping a new report with the tools and understandin
 
 There is always work to be done, and a manager must make a conscious decision to allow a new hire to focus on onboarding instead of work during the critical early weeks, believing that in doing so, they are enabling long-term efficiencies and prioritizing that over short-term task elimination.
 
-Numerous [studies](https://www.talentlms.com/blog/new-employee-onboarding-study/) have [shown](https://www.shrm.org/resourcesandtools/hr-topics/talent-acquisition/pages/onboarding-key-retaining-engaging-talent.aspx) that most employers rank poorly in onboarding quality, despite realities that losing an employee to poor onboarding is not cheap and a strong onboarding process boosts new hire retention and productivity.
+Numerous [studies](https://www.talentlms.com/blog/new-employee-onboarding-study/) have [shown](https://www.shrm.org/topics-tools/news/talent-acquisition/onboarding-key-to-retaining-engaging-talent) that most employers rank poorly in onboarding quality, despite realities that losing an employee to poor onboarding is not cheap and a strong onboarding process boosts new hire retention and productivity.
 
 ### Select the right Onboarding Buddy
 
@@ -223,11 +223,7 @@ Two, managers carve out more bandwidth in their day to focus, rather than re-ans
 
 ## Document solutions
 
-{{< youtube "u0dRWDmYSvg" >}}
-
-*In the [LinkedIn Talent on Tap video](https://youtu.be/u0dRWDmYSvg) above, GitLab co-founder and CEO Sid Sijbrandij shares advice on managing within a remote workplace. Discover more in GitLab's [Remote Work playlist](https://www.youtube.com/playlist?list=PL05JrBw4t0Kq7QUX-Ux5fOunQotqJbECc).*
-
-It is the job of a manager to ensure a direct report has what they need to be successful on an ongoing basis. By [documenting](management/#scaling-by-documenting) processes, guides, solutions, how-tos, and policies, a manager is practicing [servant leadership](https://www.shrm.org/resourcesandtools/hr-topics/organizational-and-employee-development/pages/the-art-of-servant-leadership.aspx) in a powerful way.
+It is the job of a manager to ensure a direct report has what they need to be successful on an ongoing basis. By [documenting](management/#scaling-by-documenting) processes, guides, solutions, how-tos, and policies, a manager is practicing [servant leadership](https://www.shrm.org/topics-tools/news/organizational-employee-development/art-servant-leadership) in a powerful way.
 
 If your company has yet to implement their own handbook, start now and start small. Don't be overwhelmed with the notion of building a complete handbook from the get-go; simply start with one process, then document the next, and so on. This is the power of [iteration](/handbook/values/#iteration). GitLab (the company) uses GitLab ([the product](https://about.gitlab.com/stages-devops-lifecycle/)) to build and maintain our public-facing [handbook](/handbook), and options from [Almanac](https://almanac.io/) and [Trainual](https://trainual.com/) are available as well.
 
@@ -248,7 +244,7 @@ Even for those who have managed colocated teams for decades, the thought of mana
 
 For those new to managing remotely, consider shadowing someone with experience and establishing a mentor-mentee relationship.
 
-If you feel comfortable with the softer skills, pay close attention to the processes used by remote managers. For example, you can't walk by a report's desk and get a feel for how things are going, so many remote managers utilize an ongoing [Google Doc agenda]({{< ref "suggested-agenda-format" >}}) (or a dedicated tool, such as Soapbox or [Fellow](https://www.fellow.app/)) where notes, blockers, etc. can be chronicled. Checking a living, evolving document as a mechanism for engagement may require building a new habit.
+If you feel comfortable with the softer skills, pay close attention to the processes used by remote managers. For example, you can't walk by a report's desk and get a feel for how things are going, so many remote managers utilize an ongoing [Google Doc agenda]({{< ref "suggested-agenda-format" >}}) (or a dedicated tool, such as Soapbox or [Fellow](https://fellow.app/)) where notes, blockers, etc. can be chronicled. Checking a living, evolving document as a mechanism for engagement may require building a new habit.
 
 ## Discuss learning preferences
 
@@ -340,7 +336,7 @@ Here's what they had to say:
 
 ## GitLab Knowledge Assessment: Being a great remote manager
 
-Anyone can test their knowledge on Being a great remote manager by completing the [knowledge assessment](https://docs.google.com/forms/d/e/1FAIpQLSfx9CcEag4ZxiNtYAkUJJ9fzKYg51qEYkcpHRVZNaNxjOJVRA/viewform). Earn at least an 80% or higher on the assessment to receive a passing score. Once the quiz has been passed, you will receive an email acknowledging the completion from GitLab. We are in the process of designing a GitLab Remote Certification and completion of the assessment will be one requirement in obtaining the [certification](https://about.gitlab.com/learn/certifications/public/). If you have questions, please reach out to our [Learning & Development team](/handbook/people-group/learning-and-development) at `learning@gitlab.com`.
+Anyone can test their knowledge on Being a great remote manager by completing the [knowledge assessment](https://docs.google.com/forms/d/e/1FAIpQLSfx9CcEag4ZxiNtYAkUJJ9fzKYg51qEYkcpHRVZNaNxjOJVRA/viewform). Earn at least an 80% or higher on the assessment to receive a passing score. Once the quiz has been passed, you will receive an email acknowledging the completion from GitLab. We are in the process of designing a GitLab Remote Certification and completion of the assessment will be one requirement in obtaining the [certification](https://university.gitlab.com/certifications/public/). If you have questions, please reach out to our [Learning & Development team](/handbook/people-group/learning-and-development) at `learning@gitlab.com`.
 
 {{% include "includes/is_this_advice_any_good_remote.md" %}}
 

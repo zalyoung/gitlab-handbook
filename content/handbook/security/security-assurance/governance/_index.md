@@ -8,7 +8,7 @@ description: "Security Governance Program"
 
 ## <i class="fas fa-bullseye" style="color:rgb(110,73,203)" aria-hidden="true"></i> Mission
 
-The 'G' in [GRC](https://www.oceg.org/about/what-is-grc/), GitLab's security governance discipline helps to define, train and measure security strategies and progress towards security objectives by creating a set of processes and practices that run across departments and functions. By following a Governance framework, GitLab ensures accountability, fairness and transparency in how the company runs and how it communicates with its stakeholders.
+The 'G' in [GRC](https://www.oceg.org/ideas/what-is-grc/), GitLab's security governance discipline helps to define, train and measure security strategies and progress towards security objectives by creating a set of processes and practices that run across departments and functions. By following a Governance framework, GitLab ensures accountability, fairness and transparency in how the company runs and how it communicates with its stakeholders.
 
 ## <i class="far fa-lightbulb" style="color:rgb(110,73,203)" aria-hidden="true"></i> Core Competencies
 

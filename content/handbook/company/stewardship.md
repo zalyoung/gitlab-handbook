@@ -60,7 +60,7 @@ If the wider community contributes a feature that is currently source-available 
 ## Why Release Simultaneously In Both
 
 Sometimes people suggest having features in EE for a limited time.
-An example of a limited time release strategy is the [Business Source License](https://mariadb.com/bsl) that keeps features proprietary for 3 years.
+An example of a limited time release strategy is the [Business Source License](https://mariadb.com/bsl11/) that keeps features proprietary for 3 years.
 
 At GitLab we want to give everyone access to most of the features (and all the essential ones) at the date they are announced.
 We want to give people the option to both run and contribute to an open source edition that is maintained and that includes the most recent security fixes.

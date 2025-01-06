@@ -13,6 +13,8 @@ toc_hide: true
 This document is a work-in-progress and proposes architecture changes for the GitLab.com SaaS.
 The goal of these changes are to maintain GitLab.com service continuity in the case a regional or zonal outage.
 
+For the current state see [Disaster Recovery Policies for GitLab Backups](/handbook/engineering/gitlab-com/policies/backup/#disaster-recovery).
+
 - A **zonal recovery** is required when all resources are unavailable in one of the three availability zones in `us-east1` or `us-central1`.
 - A **regional recovery** is required when all resources become unavailable in one of the regions critical to operation of GitLab.com, either `us-east1` or `us-central1`.
 

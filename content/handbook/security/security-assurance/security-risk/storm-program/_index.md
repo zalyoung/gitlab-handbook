@@ -9,7 +9,7 @@ We receive [feedback](/handbook/people-group/guidance-on-feedback/#feedback-at-g
 
 ## Purpose
 
-The purpose of the Security Operational Risk Management ("StORM") program at GitLab is to enable better [decision-making](/handbook/leadership/making-decisions/) by identifying, monitoring, treating, and reporting on security operational risks in support of GitLab's [strategy](/handbook/company/strategy). The Security Risk Team utilizes the procedures below (formed through consideration of guidance set forth in [NIST's SP 800-39](https://csrc.nist.gov/pubs/sp/800/39/final), [SP 800-30 Rev. 1](https://csrc.nist.gov/pubs/sp/800/30/r1/final), and [ISO 31000 Risk Management Methodology](https://www.iso.org/iso-31000-risk-management.html)) to ensure that security risks that may impact GitLab are effectively managed.
+The purpose of the Security Operational Risk Management ("StORM") program at GitLab is to enable better [decision-making](/handbook/leadership/making-decisions/) by identifying, monitoring, treating, and reporting on security operational risks in support of GitLab's [strategy](/handbook/company/strategy). The Security Risk Team utilizes the procedures below (formed through consideration of guidance set forth in [NIST's SP 800-39](https://csrc.nist.gov/pubs/sp/800/39/final), [SP 800-30 Rev. 1](https://csrc.nist.gov/pubs/sp/800/30/r1/final), and [ISO 31000 Risk Management Methodology](https://www.iso.org/standard/65694.html)) to ensure that security risks that may impact GitLab are effectively managed.
 
 ## Scope
 
@@ -36,7 +36,7 @@ A risk governance structure has been put in place to outline the overall roles a
 
 ### Establishing Risk Appetite and Tolerance
 
-**Tone at the Top**: GitLab's StORM methodology uses a defined Risk Appetite and Risk Tolerance as primary drivers to determine which risks GitLab are willing to accept/take versus which risks we will need to mitigate. These thresholds are defined by Senior Leadership across the organization to ensure the Tone at the Top is aligned with the StORM program. Risk Appetite and Tolerance are reassessed year-to-year. This is done through an annual Risk Appetite Survey based on the [ISO 31000 Risk Management Methodology](https://www.iso.org/iso-31000-risk-management.html). The survey is distributed to individuals operating in a Senior Leadership capacity with direct relations to Security Operations. The responses are averaged to arrive at an overall risk appetite and tolerance.
+**Tone at the Top**: GitLab's StORM methodology uses a defined Risk Appetite and Risk Tolerance as primary drivers to determine which risks GitLab are willing to accept/take versus which risks we will need to mitigate. These thresholds are defined by Senior Leadership across the organization to ensure the Tone at the Top is aligned with the StORM program. Risk Appetite and Tolerance are reassessed year-to-year. This is done through an annual Risk Appetite Survey based on the [ISO 31000 Risk Management Methodology](https://www.iso.org/standard/65694.html). The survey is distributed to individuals operating in a Senior Leadership capacity with direct relations to Security Operations. The responses are averaged to arrive at an overall risk appetite and tolerance.
 
 #### How GitLab Determines Risk Appetite
 
@@ -56,7 +56,7 @@ Each risk strategy statement is ranked in order of priority from Highest priorit
 | **RISK RESPONSE**<br>**APPROACH** | All risks are acceptable as long<br>as they do not impact our legal<br>and regulatory obligations | Determine risk response options to<br>help accept or reduce risk levels<br>through internal initiatives | Risk remediation is favored over<br>risk acceptance | Risks that cannot be effectively<br>treated or transferred are avoided |
 | **RISK RESPONSE**<br>**DRIVERS** | No response action required for risks<br>unless they may represent a<br>contract or regulatory violation | Risk response actions take into<br>consideration cost effectiveness,<br>management priorities, and return<br>on investment | Risk response actions emphasize the<br>impact to security over the impact<br>to strategic objectives | Risk response actions are always taken,<br>regardless of cost effectiveness,<br>management priorities, return on investment,<br>and overall organizational objectives |
 
-*GitLab's Risk Appetite Matrix was formed through consideration of guidance set forth in NIST's [SP 800-39](https://csrc.nist.gov/publications/detail/sp/800-39/final) and [SP 800-30 Rev. 1](https://csrc.nist.gov/publications/detail/sp/800-30/rev-1/final).*
+*GitLab's Risk Appetite Matrix was formed through consideration of guidance set forth in NIST's [SP 800-39](https://csrc.nist.gov/pubs/sp/800/39/final) and [SP 800-30 Rev. 1](https://csrc.nist.gov/pubs/sp/800/30/r1/final).*
 
 Scoring is performed by individuals operating in at least Senior Leadership capacity within GitLab and spans across multiple departments.
 
@@ -246,5 +246,5 @@ The only exceptions to this procedure are those risks that are out of scope (as 
 - GitLab Handbook References:
   - [GitLab's Communication Page, Not Public Section]({{< ref "confidentiality-levels#not-public" >}})
 - External References
-  - [NIST SP 800-30 Rev. 1](https://csrc.nist.gov/publications/detail/sp/800-30/rev-1/final)
-  - [ISO 31000 Risk Management Methodology](https://www.iso.org/iso-31000-risk-management.html)
+  - [NIST SP 800-30 Rev. 1](https://csrc.nist.gov/pubs/sp/800/30/r1/final)
+  - [ISO 31000 Risk Management Methodology](https://www.iso.org/standard/65694.html)

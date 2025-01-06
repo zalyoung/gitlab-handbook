@@ -208,7 +208,7 @@ Not every field event or lead are the same. There will be times when meeting/sca
 
 - **High Priority Campaign**: This lead was acquired during a `high priority` event. While strategizing for the quarter and year, Sales and Marketing leadership discuss what upcoming field events will be important based on GitLab's current and future goals. If a field event is determined to fit the criteria, all leads collected from this event will be marked as `high priority` and quickly routed for follow up. Leadership will communicate what campaigns qualify
 - **White Glove**: A white glove lead needs strategic outreach and will involve the [SDR, Account Executive and maybe more](/handbook/marketing/sales-development/#white-glove-event-follow-up-flows). Generally, these leads were highly engaged in conversation about GitLab, have detailed event notes about the engagement and or were engaged with specific GitLab team members during the event. White glove leads can exist within a high priority campaign, so use best judgement on which label is most appropriate between the two
-  
+
  Recording `high priority` status for either of these types is simple and included in the spreadsheet used for [self-service list uploads](/handbook/marketing/marketing-operations/automated-list-import/#data-cleaning-instructions) under the `High Priority Reasons?` column - as a dropdown option. The reason feeds into Marketo's `High Priority Reason temp` field, which [then processes](https://engage-ab.marketo.com/?munchkinId=194-VVC-221#/classic/SC56504A1ZN19) the lead for early lead routing.
 
 ## Post event lead flow for each campaign
@@ -596,7 +596,7 @@ In order to stay environmentally-friendly, we generally do not provide large qua
 
 ## EMEA Field Marketing Swag
 
-The EMEA Field Marketing team utilises [Reachdesk](/handbook/marketing/marketing-operations/#project-management) to source, fulfill, ship and store (European and UK warehouses) swag branded swag items.  We also utilise vendor [Ten&One](https://www.tenandone.com) who can source swag items and who also currently store all EMEA event material. The FMC is responsible for ensuring adequate stock levels and coordinating field event swag logistics. Additional event assets utilized for shows (including backwalls, tablecloths, popup banners, etc.) are stocked at the Ten&One warehouse and can be shipped
+The EMEA Field Marketing team utilises [Reachdesk](/handbook/marketing/marketing-operations/#project-management) to source, fulfill, ship and store (European and UK warehouses) swag branded swag items.  We also utilise vendor [Ten&One](https://tenandone.com/) who can source swag items and who also currently store all EMEA event material. The FMC is responsible for ensuring adequate stock levels and coordinating field event swag logistics. Additional event assets utilized for shows (including backwalls, tablecloths, popup banners, etc.) are stocked at the Ten&One warehouse and can be shipped
 
 - **Budget Allocation:**
   - If there is an individual order dedicated to support one specific event (e.g Cloud Expo) an Allocadia line item should be created by the FMM in their regional activity plan under this specific event.
@@ -701,7 +701,7 @@ The Admin Portal is where you manage all aspects of your Corporate Account from 
 
 **Grubhub Corporate Support**
 
-- [Grubhub Corporate Learning Center](https://corporate.grubhub.com/learning-center)
+- [Grubhub Corporate Learning Center](https://corporate.grubhub.com/learning-center/)
 - Grubhub Corporate Support Email: clients@grubhub.com
 - Grubhub Corporate Support Number: (844)-478-2249
   - Press 1 for order status
@@ -907,12 +907,12 @@ The below epic is for tracking venues we would like to utilize for future events
 
 ## Corporate Memberships Owned by GitLab Field Marketing
 
-- [AFCEA](https://www.afcea.org/site/) - Membership is handled by the Public Sector Field Marketing Manager. Account information is stored in the marketing 1Pass vault. Please ping Kira Aubrey for assistance.
+- [AFCEA](https://www.afcea.org/) - Membership is handled by the Public Sector Field Marketing Manager. Account information is stored in the marketing 1Pass vault. Please ping Kira Aubrey for assistance.
 - [ACT-IAC](https://www.actiac.org) - Membership is handled by the Public Sector Field Marketing Manager. Please ping Kira Aubrey for details if you'd like to join.
 - [Charleston DCA](https://www.charlestondca.org/) - Membership is handled by the Public Sector Field Marketing Manager. Please ping Kira Aubrey for details if you'd like to join.
 - [G2xExchange](https://g2xchange.com/) - Membership is handled by the Public Sector Field Marketing Manager. Please ping Kira Aubrey for details if you'd like to join.
 - [NASCIO](https://www.nascio.org/) - Membership is handled by the Public Sector Field Marketing Manager. Please ping Kira Aubrey for details.
-- [GBEF](https://gbef.tech/) - Membership is handled by the Public Sector Field Marketing Manager. Please ping Kira Aubrey for details.
+- [GBEF](https://gbeftech.com) - Membership is handled by the Public Sector Field Marketing Manager. Please ping Kira Aubrey for details.
 - [INSA](https://www.insaonline.org/) - Membership is handled by the Public Sector Field Marketing Manager. Please ping Kira Aubrey for details.
 - [USGIF](https://usgif.org/) - Membership is handled by the Public Sector Field Marketing Manager. Please ping Kira Aubrey for details.
 - [NASTD](https://www.nastd.org/home) - Membership is handled by the Public Sector Field Marketing Manager. Please ping Kira Aubrey for details.
@@ -1350,7 +1350,7 @@ We are committed to providing opportunities for discussion, education and commun
 
 ### Purchasing Details
 
-[iPad Pro 12.9 inch/256GB/wifi](https://www.apple.com/shop/buy-ipad/ipad-pro/12.9-inch-display-256gb-space-gray-wifi)
+[iPad Pro 12.9 inch/256GB/wifi](https://www.apple.com/shop/buy-ipad/ipad-pro)
 [iPad Pro 12.9 inch Smart Keyboard Folio](https://www.apple.com/ca/shop/product/MXNL2LL/A/smart-keyboard-folio-for-ipad-pro-129-inch-6th-generation-us-english)
 
 - When purchasing, please utilize the GitLab Business Account for corporate discounts. The Apple store/online representative will look up the GitLab Business Account associated with GitLab's 268 Bush St., San Francisco, CA 94104 address.
@@ -1648,7 +1648,7 @@ Field Marketing utilizes regional email aliases for pre and post tactic outreach
 
 ## Async Status Updates
 
-Since we are a [remote](/handbook/company/culture/all-remote/) company, we utilize a Slack plugin called [Geekbot](https://geekbot.io/) to coordinate status updates. Field Marketing world wide currently conducts 1 weekly standup. Geekbot shares this update in the public #im-hangout slack room.
+Since we are a [remote](/handbook/company/culture/all-remote/) company, we utilize a Slack plugin called [Geekbot](https://geekbot.com/) to coordinate status updates. Field Marketing world wide currently conducts 1 weekly standup. Geekbot shares this update in the public #im-hangout slack room.
 
 ## Weekly Status Update
 

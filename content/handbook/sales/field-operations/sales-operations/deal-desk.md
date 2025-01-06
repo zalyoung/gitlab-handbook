@@ -854,7 +854,7 @@ To learn more about the SuperSonics Billing and Subscription Management experien
 - Standard services are those for which a SKU exists in Zuora CPQ.
 - Standard services can be added to any New Business, Add-On, or Renewal quote alongside subscription product SKUs. (i.e. If you are selling a 12 month SaaS Ultimate deal, you can add a separate SKU on the same quote to sell instructor led training offering(s).)
 - For Standard Services, a signed Order Form is sufficient to book the deal. (Note, some customers may also require issuance of a PO)
-- More information on [Professional Services SKUs](https://about.gitlab.com/services/catalog)
+- More information on [Professional Services SKUs](https://about.gitlab.com/services/catalog/)
 
 ##### Before submitting a Scoped/Custom Professional Services Opportunity for Closure
 

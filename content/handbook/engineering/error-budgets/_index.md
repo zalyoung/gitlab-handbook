@@ -3,7 +3,7 @@ title: "Engineering Error Budgets"
 description: "The error budget provides a clear, objective metric that determines how unreliable the service is allowed to be within a single quarter."
 ---
 
-As part of [our strategy](https://about.gitlab.com/direction/#3-year-strategy) to [reinforce GitLab SaaS](https://about.gitlab.com/direction/enablement/dotcom/) as an enterprise grade platform ready for business critical workloads, GitLab.com has specific [Availability](/handbook/engineering/infrastructure/performance-indicators/#gitlabcom-availability) and [Performance](/handbook/engineering/infrastructure/performance-indicators/#gitlabcom-performance) targets.
+As part of [our strategy](https://about.gitlab.com/direction/#3-year-strategy) to [reinforce GitLab SaaS](https://about.gitlab.com/direction/core_platform/dotcom/) as an enterprise grade platform ready for business critical workloads, GitLab.com has specific [Availability](/handbook/engineering/infrastructure/performance-indicators/#gitlabcom-availability) and [Performance](/handbook/engineering/infrastructure/performance-indicators/#gitlabcom-performance) targets.
 
 These targets give our users indication of the platform reliability.
 
@@ -45,7 +45,7 @@ GitLab's current implementation of Error Budgets is only using some of the above
 
 Web requests that result in a `500` status code error are counted. In Sidekiq, jobs that fail due to an unhandled exception are counted.
 
-If a group has [custom SLIs](https://docs.gitlab.com/ee/development/application_slis), or there's an SLI with a fixed feature category configured in our [metrics catalog](https://gitlab.com/gitlab-com/runbooks/-/tree/master/metrics-catalog), then those errors will also be counted.
+If a group has [custom SLIs](https://docs.gitlab.com/ee/development/application_slis/), or there's an SLI with a fixed feature category configured in our [metrics catalog](https://gitlab.com/gitlab-com/runbooks/-/tree/master/metrics-catalog), then those errors will also be counted.
 
 Engineers can use `Gitlab::ErrorTracking.track_exception`, or other logging, freely without affecting the error budget.
 

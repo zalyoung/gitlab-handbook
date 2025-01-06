@@ -143,7 +143,7 @@ between Speed and Velocity. Direction matters for Velocity, therefore we need
 to [iterate efficiently](#efficiency) on the right things at the right time.
 
 For some tips on how to iterate you can check
-[Sid's a blog post about 12 shortcuts that are not iteration](https://about.gitlab.com/blog/2021/12/01/dont-confuse-these-twelve-shortcuts-with-iteration/).
+[the blog post about 12 shortcuts that are not iteration](https://about.gitlab.com/blog/2021/12/01/dont-confuse-these-twelve-shortcuts-with-iteration/).
 
 ### Reduce review time
 
@@ -310,7 +310,7 @@ Follow the [dogfooding process described in the Product Handbook](/handbook/prod
 
 We need to maintain code quality and standards. It's very important that you are familiar with the [Development Guides](https://docs.gitlab.com/ee/development/) in general, and the ones that relates to your group in particular:
 
-- [UX Guides](https://docs.gitlab.com/ee/development/ux)
+- [UX Guides](https://docs.gitlab.com/ee/development/ux/)
 - [Backend Guides](https://docs.gitlab.com/ee/development/#backend-guides)
 - [Frontend Guides](https://docs.gitlab.com/ee/development/fe_guide/index.html)
 - [Database Guides](https://docs.gitlab.com/ee/development/#database-guides)

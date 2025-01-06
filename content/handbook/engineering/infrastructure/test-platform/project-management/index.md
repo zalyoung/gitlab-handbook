@@ -90,7 +90,7 @@ Upon joining the Test Platform sub-department, team members are granted either d
     - Authored and reviewed 10 MRs related to adding new end-to-end tests or making substantial improvements to existing ones.
 - [GitLab Environment Toolkit (GET)](https://gitlab.com/gitlab-org/gitlab-environment-toolkit)
   - Select Self-Managed Platform team members are code owners for this directory. If you are tagged by a developer and don't yet feel comfortable approving a merge request, please reach out to the Self-Managed Platform team to help review.
-  - In general, team members looking to become maintainers of this project are recommended to have a good working knowledge of [Terraform](https://www.terraform.io/), [Ansible](https://www.ansible.com/) and the GitLab application itself first before applying. We expect that team members will generally feel comfortable and will be granted maintainer access once they have:
+  - In general, team members looking to become maintainers of this project are recommended to have a good working knowledge of [Terraform](https://www.terraform.io/), [Ansible](https://www.redhat.com/en/ansible-collaborative) and the GitLab application itself first before applying. We expect that team members will generally feel comfortable and will be granted maintainer access once they have:
     - Authored and reviewed 10 MRs related to improvements to the toolkit.
     - Authored and reviewed 5 MRs related to adding making substantial improvements or additions.
   - After completing the above requirement, the maintainer should be vetted by an existing maintainer for the Toolkit. An issue should be created in the project outlining the reasons why this person should be a maintainer. List all 15 MRs in the issue to help aid with review.

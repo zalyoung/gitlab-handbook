@@ -72,7 +72,7 @@ Note: this doesn't mean you can't get travel approval without booking meetings. 
 
 #### Trip Notes
 
-The ultimate purpose of attending any GitLab field event is to gain insight and add value. Sid Sijbrandij, our CEO, talks about the importance of conferences and events [here](https://www.youtube.com/watch?v=qQ0CL3J08lI). He believes the main goal of GitLab team participation should always be to connect with our customers and prospects and not to solely attend presentations. Trip notes are our internal process for tracking and capturing this data.
+The ultimate purpose of attending any GitLab field event is to gain insight and add value. Sid Sijbrandij, our co-founder, talks about the importance of conferences and events [here](https://www.youtube.com/watch?v=qQ0CL3J08lI). He believes the main goal of GitLab team participation should always be to connect with our customers and prospects and not to solely attend presentations. Trip notes are our internal process for tracking and capturing this data.
 
 #### Why and When?
 

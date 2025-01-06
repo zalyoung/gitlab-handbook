@@ -30,7 +30,7 @@ This workshop is *not* intended to provide a "hands-on-keyboard" demo experience
 
 1. Create an Issue in the customer's Collaboration Project using the [CI Sell Sheet issue template](https://gitlab.com/gitlab-com/customer-success/tam/-/blob/master/.gitlab/issue_templates/CICDv2WorshopTopics.md) and discuss with your customer whether the Basic or Advanced workshop is appropriate.
 1. Agree on an appropriate amount of time for your session with your customer (90-120 minutes recommended)
-1. [Create a signup page via Zoom](https://support.zoom.us/hc/en-us/articles/211579443-Setting-up-registration-for-a-meeting) for the workshop for your customer to share internally. The benefit of a signup page is that:
+1. [Create a signup page via Zoom](https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0065026) for the workshop for your customer to share internally. The benefit of a signup page is that:
     1. You can understand in advance the number of expected attendees, and prepare accordingly (ie. by engaging volunteer resources to handle async Q&A).
     1. You will know who is coming and can tailor content to specific levels/titles of attendees (Don't forget to add a `title` question to your signup page!).
     1. You will have a list of attendees to follow up with.  This part is incredibly significant as this workshop becomes a means to engage with dev leads and end users, that we often do not have otherwise.

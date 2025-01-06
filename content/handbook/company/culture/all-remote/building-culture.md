@@ -144,7 +144,7 @@ There should be no unwritten rules in remote culture. Intentional documentation 
 
 A team member's first experience with company culture is unavoidable. The [onboarding experience](learning-and-development/#how-do-you-onboard-new-team-members) serves as the first post-interview encounter with culture, and it is essential to infuse the [importance of values]({{< ref "remote-values" >}}) into that experience.
 
-Remote onboarding should set aside time for a new team member to read and digest a company's values, which serve as a company roadmap to culture. Consider having a mentor or [onboarding buddy]({{< ref "onboarding-buddies" >}}) specifically ask questions related to values, providing opportunity for the new team member to dive deeper into how they are lived day-to-day.
+Remote onboarding should set aside time for a new team member to read and digest a company's values, which serve as a company roadmap to culture. Consider having a mentor or [onboarding buddy](/handbook/people-group/general-onboarding/onboarding-buddies.md) specifically ask questions related to values, providing opportunity for the new team member to dive deeper into how they are lived day-to-day.
 
 ### Using GitLab for remote onboarding
 
@@ -198,7 +198,7 @@ The freedom and flexibility that comes with all-remote enables employees to view
 
 Rather than forcing a predefined daily schedule replete with a commute, all-remote shifts allows an individual to define their schedule.
 
-A number of studies by organizations such as [Google](https://www.forbes.com/sites/abdullahimuhammed/2019/05/18/5-important-takeaways-from-googles-two-year-study-of-remote-work/#1a536957439a), [Buffer](https://buffer.com/state-of-remote-work-2019), [FlexJobs](https://www.techrepublic.com/article/why-remote-work-has-grown-by-159-since-2005/), and [IWG](https://assets.regus.com/pdfs/iwg-workplace-survey/iwg-workplace-survey-2019.pdf) show that driven individuals who place a high degree of value on autonomy and flexibility can experience new levels of joy and productivity in an all-remote environment.
+A number of studies by organizations such as [Google](https://www.forbes.com/sites/abdullahimuhammed/2019/05/18/5-important-takeaways-from-googles-two-year-study-of-remote-work/#1a536957439a), [Buffer](https://buffer.com/state-of-remote-work/2019), [FlexJobs](https://www.prweb.com/releases/global-workplace-analytics-amp-flexjobs-report-159-percent-increase-in-remote-work-since-2005-863776940.html/), and [IWG](https://assets.regus.com/pdfs/iwg-workplace-survey/iwg-workplace-survey-2019.pdf) show that driven individuals who place a high degree of value on autonomy and flexibility can experience new levels of joy and productivity in an all-remote environment.
 
 ### Address employee well-being and mental health issues
 

@@ -27,7 +27,7 @@ In cases where our counterparts have differing opinions, we consider their persp
 
 ### Design Principles and Tools
 
-Our [design principles](https://design.gitlab.com/get-started/principles) are outlined in the Pajamas Design System.
+Our [design principles](https://design.gitlab.com/get-started/principles/) are outlined in the Pajamas Design System.
 
 Product Designer Tools
 

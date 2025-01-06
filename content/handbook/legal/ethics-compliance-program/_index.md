@@ -28,7 +28,7 @@ Listed below are GitLab's policies and procedures, as well as guidance and other
 - [Data Privacy Impact Assessment (DPIA) Policy](/handbook/legal/privacy/dpia-policy)
 - [Employee Privacy Policy](/handbook/legal/privacy/employee-privacy-policy/)
 - [Entity-Specific Employment Policies](/handbook/people-policies/#entity-specific-employment-policies)
-- [Events Code of Conduct](https://about.gitlab.com/company/culture/ecoc/)
+- [Events Code of Conduct](/handbook/company/culture/ecoc/)
 - [Gifts & Entertainment, Political Activities & Contributions, and Charitable Contributions](/handbook/legal/policies/gifts-contributions/#)
 - [GitLab Federal Code of Ethics](https://drive.google.com/file/d/1whEuxvIwy3M33N3vbUUkGrOKvkow5LAw/view)
 - [Insider Trading Policy](https://drive.google.com/file/d/184tkDZaPmZAxwQRQ5BwBv2JpfTWbWmBW/view)

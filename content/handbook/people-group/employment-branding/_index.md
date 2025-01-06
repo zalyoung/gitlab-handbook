@@ -204,7 +204,7 @@ Our goal on the site is to maintain our profile and keep the feedback up to date
 
 - [Builtin](https://builtin.com/company/gitlab)
 - [Indeed](https://www.indeed.com/cmp/Gitlab-Inc/about)
-- [AngelList](https://angel.co/company/gitlab/)
+- [AngelList](https://wellfound.com/company/gitlab/)
 
 ### GitLab blog
 
@@ -232,7 +232,7 @@ We're hiring across the company. Check out our opportunities: https://about.gitl
 
 **HackerNews Notes:**
 
-- Sid's HackerNews credentials should not to be used for the "Who's Hiring" post. The team member posting the comment should use their own account.
+- The team member posting the comment should use their own account.
 - When posting on HackerNews, remember that it is our most important social channel. Please follow the [best practices](/handbook/marketing/developer-relations/developer-advocacy/hacker-news/#best-practices-when-responding-on-hacker-news) and [social media guidelines](/handbook/marketing/developer-relations/developer-advocacy/hacker-news/#social-media-guidelines).
 
 ## Employer awards and recognition
@@ -276,7 +276,7 @@ For further detail from each sub-group please refer to the links below.
 1. [Talent Acquisition](https://docs.google.com/document/d/1Q9ui_BZLRPBAYpRtdtpHVSvGzW3g7JtVYkGj_KqwZBA/edit#heading=h.riu5wc8sjmum)
 1. [DIB](/handbook/people-group/people-success-performance-indicators/#key-performance-indicators)
 
-Together, we partner to define and select organizations to partner with that allow us to engage with a target audience that includes members from underrepresented groups as defined [here](https://about.gitlab.com/company/culture/inclusion/#examples-of-select-underrepresented-groups).
+Together, we partner to define and select organizations to partner with that allow us to engage with a target audience that includes members from underrepresented groups as defined [here](/handbook/company/culture/inclusion/#examples-of-select-underrepresented-groups).
 
 ### How We Make Decisions
 
@@ -287,7 +287,7 @@ Our decision-making process involves a comprehensive assessment of potential par
 **DIB Alignment**
 
 - Does this align with our stated DIB [KPIs](/handbook/people-group/people-success-performance-indicators/#executive-summary)?
-- Does this align with GitLab's [definition](https://about.gitlab.com/company/culture/inclusion/#definitions) of an underrepresented group?
+- Does this align with GitLab's [definition](/handbook/company/culture/inclusion/#definitions) of an underrepresented group?
 - Does this support talent globally?
 
 **Relevancy**
@@ -354,7 +354,7 @@ Collaboration from all teams and departments is welcome. To effectively manage r
 - [Black Tech Fest](https://gitlab.com/gitlab-com/people-group/dib-diversity-inclusion-and-belonging/diversity-and-inclusion/-/issues/826) - Event Sponsorship
 - [Unicorns in Tech](https://www.unicornsintech.com) - Event Sponsorship
 - [Grace Hopper Conference](https://gitlab.com/gitlab-com/people-group/dib-diversity-inclusion-and-belonging/diversity-and-inclusion/-/issues/829) - Event Sponsorship
-- [GitLab Hosted Experience](https://www.eventbrite.com/e/diverse-minds-unified-ai-solutions-gitlab-hosted-happy-hour-and-panel-tickets-728537293657?aff=oddtdtcreator) - during [Afrotech 2023](https://experience.afrotech.com)
+- [GitLab Hosted Experience](https://www.eventbrite.com/e/diverse-minds-unified-ai-solutions-gitlab-hosted-happy-hour-and-panel-tickets-728537293657?aff=oddtdtcreator) - during [Afrotech 2023](https://afrotechconference.com/)
 - [Out in Tech](https://outintech.com) - Partnership
 - [Blacks In Technology Calgary](https://foundation.blacksintechnology.net/chapters/) - Sponsorship
 

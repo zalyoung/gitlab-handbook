@@ -300,7 +300,7 @@ GitLab's open source program team also oversees GitLab's representation and part
 #### What is a consortium?
 
 We define "consortium" as a group created to further some technological cause.
-In the context of open source software, a prototypical consortium would be the [Linux Foundation (LF)](https://en.wikipedia.org/wiki/Linux_Foundation), a non-profit organization founded in 2000 as a merger between Open Source Development Labs and the Free Standards Group, which [hosts and promotes](https://www.linuxfoundation.org/about/) collaborative development of open source software projects.
+In the context of open source software, a prototypical consortium would be the [Linux Foundation (LF)](https://en.wikipedia.org/wiki/Linux_Foundation), a non-profit organization founded in 2000 as a merger between Open Source Development Labs and the Free Standards Group, which [hosts and promotes](https://www.linuxfoundation.org/about) collaborative development of open source software projects.
 
 #### Why is consortium marketing important?
 

@@ -53,7 +53,7 @@ using throughout.
 ### 1Password guidelines
 
 1. If you install the macOS application, install 1Password via this link
-[1Password](https://1password.com/downloads/mac/)
+[1Password](https://1password.com/downloads/mac)
 1. If you have a YubiKey, it can be added as a 2-factor
 method to your 1Password account for convenience.
 1. When traveling, consider using 1Password in "Travel Mode", see more on that [below](#travel-mode).
@@ -212,9 +212,9 @@ Even though these secrets have a limited scope of access, it's still best practi
 Manually loading them into environment variables or using them for CLI commands directly also risks them being written to disk as part of your shell history.
 For a more secure approach, use 1Password's CLI utility which can help manage local secrets securely.
 
-[1Password CLI integration](https://developer.1password.com/docs/cli) supports secure
+[1Password CLI integration](https://developer.1password.com/docs/cli/) supports secure
 handling of secrets used in command line tools, config files, and scripts executed on your laptop.
-To setup the CLI integration, follow the [getting started guide](https://developer.1password.com/docs/cli/get-started/).
+To setup the CLI integration, follow the [getting started guide](https://developer.1password.com/docs/cli//get-started/).
 
 It is recommended to store secrets such as [personal access tokens](https://docs.gitlab.com/ee/user/profile/personal_access_tokens.html)
 in 1Password. Avoid storing secrets in unencrypted files or using them directly
@@ -407,7 +407,7 @@ For more information on Travel Mode and how it works, see the [AgileBits blog](h
 
 ### Securing Docker Registry User Credentials
 
-Docker can store user credentials in an [external credential store](https://docs.docker.com/engine/reference/commandline/login/#credential-stores) as a more secure alternative to storing credentials in the Docker configuration file.
+Docker can store user credentials in an [external credential store](https://docs.docker.com/reference/cli/docker/login/#credential-stores) as a more secure alternative to storing credentials in the Docker configuration file.
 
 #### Using `osxkeychain` (macOS)
 
@@ -419,7 +419,7 @@ To configure Docker to use `osxkeychain` for secure credential storage, follow t
     brew install docker-credential-helper
     ```
 
-1. Configure `~/.docker/config.json` to [use `osxkeychain` as your Docker credstore](https://docs.docker.com/engine/reference/commandline/login/#credential-stores):
+1. Configure `~/.docker/config.json` to [use `osxkeychain` as your Docker credstore](https://docs.docker.com/reference/cli/docker/login/#credential-stores):
 
     ```json
     {
@@ -444,7 +444,7 @@ To configure Docker to use `pass` for secure credential storage, follow these st
 1. Move the `docker-credential-pass` binary to your `$PATH` (e.g., `sudo mv docker-credential-pass-v0.8.0.linux-amd64 /usr/local/bin/docker-credential-pass`).
 1. Obtain and copy the GPG key ID that `pass` will use for encryption via `gpg --list-secret-keys --keyid-format LONG`.
 1. Initialize `pass` with `pass init <gpg-key-id>`.
-1. Configure `~/.docker/config.json` to [use `pass` as a credstore](https://docs.docker.com/engine/reference/commandline/login/#credential-stores):
+1. Configure `~/.docker/config.json` to [use `pass` as a credstore](https://docs.docker.com/reference/cli/docker/login/#credential-stores):
 
     ```json
     {

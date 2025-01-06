@@ -52,10 +52,10 @@ All approached prospects should be added in Greenhouse as prospects.**Greenhouse
 
 There are multiple ways to add the candidates, as follows:
 
-- [LinkedIn](https://support.greenhouse.io/hc/en-us/articles/204110135-Add-Prospects-to-Greenhouse-via-LinkedIn-RSC-Integration)
+- [LinkedIn](https://support.greenhouse.io/hc/en-us/articles/204110135-Add-prospects-to-Greenhouse-Recruiting-with-LinkedIn-RSC)
 - [Greenhouse plugin](https://support.greenhouse.io/hc/en-us/articles/4947637389083-Greenhouse-Recruiting-Chrome-extension-overview)
-- [Maildrop](https://support.greenhouse.io/hc/en-us/articles/201990630)
-- [Enable LinkedIn Recruiter System Connect (RSC)](https://support.greenhouse.io/hc/en-us/articles/115005678103-Enable-LinkedIn-Recruiter-System-Connect-RSC-) so you can export candidates in one click as prospects
+- [Maildrop](https://support.greenhouse.io/hc/en-us/articles/201990630-Maildrop)
+- [Enable LinkedIn Recruiter System Connect (RSC)](https://support.greenhouse.io/hc/en-us/articles/115005678103-LinkedIn-Recruiter-System-Connect-RSC-integration) so you can export candidates in one click as prospects
 
 Keep in mind, a candidate could have the source, `Applied through your website's jobs page` or `Jobs page on your website`, if they signed-up to the **Talent Community** prior to the correct tracking link being associated with the in-take form. In that situation, please change their source to `Talent Community`.
 
@@ -107,7 +107,7 @@ If you are helping a Recruiter source for an open REQ please verify the prospect
     - Note: The person with `Recruiting Tasks` next to their name will be the Primary Recruiter.
 - Record the Assist in your team’s hiring tracker document (ie. PodSquad for Engineering)
 
-**FAQs:**  
+**FAQs:**
 </details>
 <details><summary>Click to expand</summary>
 
@@ -134,10 +134,10 @@ Will the Recruiter responsible for hiring the candidate also get credit?
 
 #### **Use Greenhouse to track prospects**
 
-- Use the [Follow](https://support.greenhouse.io/hc/en-us/articles/203800369-Follow-Email-Notifications-About-Candidate-or-Prospect) button to get timely updates on the candidate's status.
-- [Follow-up Reminders](https://support.greenhouse.io/hc/en-us/articles/360017456592-Follow-up-Reminders) to resend the assessment, availability or for any other important updates.
-- [Tags](https://support.greenhouse.io/hc/en-us/articles/360027904392-Assign-Candidate-Tag-): The most common tags used are "Location sourcing" and "diversity sourcing". You can also create your [auto tags](https://support.greenhouse.io/hc/en-us/articles/360000060551)
-- [Greenhouse Candidates Filter](https://support.greenhouse.io/hc/en-us/articles/360004175751-Best-Practices-Sourcing-Strategies): Similar to LinkedIn, Greenhouse has filters to track your pipeline. Under the candidates section, you can check any team members and your candidates tagged under a specific job, interview stage, location and so on. The most commonly used are Source, Profile details, Jobs and Location. Example - [Filter Candidates by Custom Job Fields](https://support.greenhouse.io/hc/en-us/articles/360003493951-Filter-Candidates-by-Custom-Job-Fields)
+- Use the [Follow](https://support.greenhouse.io/hc/en-us/articles/203800369-Follow-Email-notifications-about-candidate-or-prospect) button to get timely updates on the candidate's status.
+- [Follow-up Reminders](https://support.greenhouse.io/hc/en-us/articles/360017456592-Follow-up-reminders) to resend the assessment, availability or for any other important updates.
+- [Tags](https://support.greenhouse.io/hc/en-us/articles/360027904392-Assign-candidate-tag-to-candidate-profile): The most common tags used are "Location sourcing" and "diversity sourcing". You can also create your [auto tags](https://support.greenhouse.io/hc/en-us/articles/360000060551-Assign-candidate-tags-automatically-auto-tag)
+- [Greenhouse Candidates Filter](https://support.greenhouse.io/hc/en-us/articles/360004175751-Best-Practices-Sourcing-Strategies): Similar to LinkedIn, Greenhouse has filters to track your pipeline. Under the candidates section, you can check any team members and your candidates tagged under a specific job, interview stage, location and so on. The most commonly used are Source, Profile details, Jobs and Location. Example - [Filter Candidates by Custom Job Fields](https://support.greenhouse.io/hc/en-us/articles/360003493951-Filter-candidates-by-custom-job-fields)
 
 For more information about Greenhouse and it's tips & tricks, please refer to this [document](https://docs.google.com/document/d/1BbO5v_IJEq4QR9KpI7T3fSCwdCapVOZCyNgEk6MYO0s/edit)
 

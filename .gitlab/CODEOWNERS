@@ -62,7 +62,7 @@
 /content/handbook/company/history.md @sytses
 /content/handbook/company/okrs/ @streas
 /content/handbook/company/only-healthy-constraints.md @sytses
-/content/handbook/company/quote-to-cash.md @justinfarris @tgolubeva @courtmeddaugh @alex_martin @vincywilson @jackib @chloeliu @jeromezng @jameslopez @rhardarson @shreyasagarwal @jrabbits @NabithaRao @sbaranidharan @iweeks @s_mccauley @annapiaseczna @simon-mundy @msubramanian
+/content/handbook/company/quote-to-cash.md @justinfarris @tgolubeva @courtmeddaugh @alex_martin @vincywilson @jackib @chloeliu @jeromezng @jameslopez @rhardarson @shreyasagarwal @jrabbits @NabithaRao @sbaranidharan @iweeks @juliemalloy @annapiaseczna @simon-mundy @msubramanian
 /content/handbook/company/stewardship.md @sytses
 /content/handbook/company/strategy.md @sytses
 /content/handbook/company/group-conversations.md @streas
@@ -189,6 +189,16 @@
 /content/handbook/engineering/infrastructure-quality.md @marin @sabrinafarmer @vincywilson
 
 ^[Eng-Infrastructure-department]
+/content/handbook/engineering/infrastructure-platforms/ @marin @sabrinafarmer
+/content/handbook/engineering/infrastructure-platforms/tenant-scale/geo/ @luciezhao
+/content/handbook/engineering/infrastructure-platforms/data-access/ @andrashorvath
+/content/handbook/engineering/infrastructure-platforms/data-access/database-framework/ @alexives
+/content/handbook/engineering/infrastructure-platforms/data-access/database-operations/ @rmar1
+/content/handbook/engineering/infrastructure-platforms/data-access/durability/ @jarv
+/content/handbook/engineering/infrastructure-platforms/data-access/gitaly/ @jcaigitlab
+/content/handbook/engineering/infrastructure-platforms/data-access/git/ @pks-gitlab
+/content/handbook/engineering/infrastructure-platforms/tenant-scale/ @glopezfernandez @nhxnguyen
+/content/handbook/engineering/infrastructure-platforms/developer-experience/ @ghosh-abhinaba @kkolpakova @ksvoboda @marin @vincywilson
 /content/handbook/engineering/careers/matrix/infrastructure @marin @sabrinafarmer @dawsmith @amyphillips @rnienaber @mbursi
 /content/handbook/engineering/deployments-and-releases/ @marin @mbursi @dawsmith @gitlab-org/delivery
 /content/handbook/engineering/error-budgets/ @marin @rnienaber
@@ -198,14 +208,6 @@
 /content/handbook/engineering/infrastructure/core-platform/data_stores/help.md @alexives @rmar1 @nhxnguyen
 /content/handbook/engineering/infrastructure/core-platform/data_stores/cloud-connector/ @pjphillips
 /content/handbook/engineering/infrastructure/core-platform/systems/distribution/ @marin @plu8
-/content/handbook/engineering/infrastructure-platforms/tenant-scale/geo/ @luciezhao
-/content/handbook/engineering/infrastructure-platforms/data-access/ @andrashorvath
-/content/handbook/engineering/infrastructure-platforms/data-access/database-framework/ @alexives
-/content/handbook/engineering/infrastructure-platforms/data-access/database-operations/ @rmar1
-/content/handbook/engineering/infrastructure-platforms/data-access/durability/ @jarv
-/content/handbook/engineering/infrastructure-platforms/data-access/gitaly/ @jcaigitlab
-/content/handbook/engineering/infrastructure-platforms/data-access/git/ @pks-gitlab
-/content/handbook/engineering/infrastructure-platforms/tenant-scale/ @glopezfernandez @nhxnguyen
 /content/handbook/engineering/infrastructure/emergency-change-processes.md @marin @sabrinafarmer
 /content/handbook/engineering/infrastructure/incident-management/ @dawsmith @rnienaber @marin
 /content/handbook/engineering/infrastructure/performance-indicators.md @marin @sabrinafarmer @vincywilson @rymai
@@ -224,7 +226,6 @@
 /content/handbook/engineering/releases/ @marin @mbursi @dawsmith @gitlab-org/delivery
 /content/handbook/engineering/gitlab-com/ @marin @sabrinafarmer
 /content/handbook/engineering/gitlab-com/policies/ @marin @sabrinafarmer
-/content/handbook/engineering/infrastructure-platforms/developer-experience/ @ghosh-abhinaba @kkolpakova @ksvoboda @marin @vincywilson
 
 ^[Eng-Quality-department]
 /content/handbook/engineering/automation.md @sabrinafarmer @rymai
@@ -259,7 +260,7 @@
 /content/handbook/engineering/readmes/juan-silva.md @juan-silva
 /content/handbook/engineering/readmes/kamil-trzcinski.md @ayufan
 /content/handbook/engineering/readmes/katrin-leinweber.md @katrinleinweber-gtlb
-/content/handbook/engineering/readmes/lee-matos.md @leeeee-gtlb 
+/content/handbook/engineering/readmes/lee-matos.md @leeeee-gtlb
 /content/handbook/engineering/readmes/lyle-kozloff.md @lyle
 /content/handbook/engineering/readmes/marin-jankovski.md @marin
 /content/handbook/engineering/readmes/matt-nohr.md @mnohr
@@ -343,13 +344,13 @@
 /content/handbook/marketing/account-based-marketing/ @megan_odowd @marcigee
 /content/handbook/marketing/blog/ @dsteer @Sgittlen
 /content/handbook/marketing/blog/release-posts/  @justinfarris @dsteer @Sgittlen
-/content/handbook/marketing/campaigns/ @aoetama @eirinipan @ikryzeviciene @srances @meilynda @ttran5
+/content/handbook/marketing/campaigns/ @aoetama @eirinipan @ikryzeviciene @srances @meilynda @ttran5 @kparisi
 /content/handbook/marketing/channel-marketing/ @laurafagan
 /content/handbook/marketing/corporate-communications/ @akramer @cweaver1
 /content/handbook/marketing/corporate-communications/incident-communications-plan.md @robin @johncoghlan @award4
 /content/handbook/marketing/corporate-communications/resources-trainings.md @cweaver1 @award4
 /content/handbook/marketing/demand-generation/ @akramer
-/content/handbook/marketing/demand-generation/campaigns/ @aoetama @eirinipan @ikryzeviciene @srances @meilynda @ttran5
+/content/handbook/marketing/demand-generation/campaigns/ @aoetama @eirinipan @ikryzeviciene @srances @meilynda @ttran5 @kparisi
 /content/handbook/marketing/developer-relations/ @esalvadorp @akramer
 /content/handbook/marketing/developer-relations/cocreate.md @esalvadorp @nick_vh @stingrayza
 /content/handbook/marketing/developer-relations/community-programs/ @esalvadorp @janasenap
@@ -432,7 +433,7 @@
 ^[People]
 /content/handbook/company/family-and-friends-day.md @pegan
 /content/handbook/company/structure.md @wendybarnes @cbednarz @anjali_kaufmann @dparsonage @glucchesi @carlierussell
-/content/handbook/hiring/ @rallen3 @jdallmar @jakefoster1 @r_kahn @jconnors3
+/content/handbook/hiring/ @rallen3 @jdallmar @jakefoster1 @jconnors3
 /content/handbook/leadership/underperformance.md @wendybarnes @pegan @cbednarz @glucchesi
 /content/handbook/people-group/ @wendybarnes @pegan @cbednarz @rallen3 @mpatel8 @cgudgenov
 /content/handbook/people-group/celebrations.md @wendybarnes @mpatel8
@@ -516,7 +517,7 @@
 /content/handbook/sales/field-operations/ @akramer  @jakebielecki
 /content/handbook/sales/field-operations/channel-operations/ @nscala
 /content/handbook/sales/field-operations/customer-success-operations/ @jakebielecki
-/content/handbook/sales/field-operations/field-enablement/ @ashahrazad1 @kshirazi @monicaj
+/content/handbook/sales/field-operations/field-enablement/ @aileenlu @monicaj
 /content/handbook/sales/field-operations/gtm-resources/ @jakebielecki
 /content/handbook/sales/field-operations/order-processing.md @jrabbits
 /content/handbook/sales/field-operations/release-schedule.md @monicaj
@@ -713,6 +714,7 @@
 [Controlled-Documents]
 /content/handbook/business-technology/entapps-documentation/policies/gitlab-business-continuity-plan.md @brobins @james.shen @NabithaRao @gitlab-com/egroup @gitlab-com/content-sites
 /content/handbook/engineering/gitlab-com/policies/monitoring/ @marin @sabrinafarmer @gitlab-com/egroup @gitlab-com/content-sites
+/content/handbook/engineering/gitlab-com/policies/backup/ @marin @andrashorvath @gitlab-com/egroup @gitlab-com/content-sites
 /content/handbook/engineering/infrastructure/database/_index.md @marin @sabrinafarmer @vincywilson @gitlab-com/egroup @gitlab-com/content-sites
 /content/handbook/engineering/infrastructure/database/disaster-recovery.md @marin @andrashorvath @gitlab-com/egroup @gitlab-com/content-sites
 /content/handbook/engineering/infrastructure/production/_index.md @marin @sabrinafarmer @gitlab-com/egroup @gitlab-com/content-sites

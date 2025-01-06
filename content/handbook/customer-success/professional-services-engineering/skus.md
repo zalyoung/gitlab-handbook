@@ -19,7 +19,7 @@ Currently, the following Education Services course SKUs are available within Zuo
 
 #### Update: Per-Seat Training SKU
 
-**Now Available: Training seat add-ons!** Customers who want to add on to the 12-person limit for training sessions can now do so by ordering the new **[ProServ Training Per-Seat Add-on](https://about.gitlab.com/services/education/ILT-Seat-Add-On/)** SKU. Priced at $500 per added seat, this is an easy way to accommodate additional attendees and avoid the need to order a full additional training delivery for customers with more than 12 trainees.
+**Now Available: Training seat add-ons!** Customers who want to add on to the 12-person limit for training sessions can now do so by ordering the new **[ProServ Training Per-Seat Add-on](https://university.gitlab.com/pages/training-seataddon/)** SKU. Priced at $500 per added seat, this is an easy way to accommodate additional attendees and avoid the need to order a full additional training delivery for customers with more than 12 trainees.
 
 Here are answers to anticipated frequently-asked questions.
 

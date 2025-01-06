@@ -94,7 +94,7 @@ The [Deloitte 2021 Global Human Capital Trends: Special report](https://www2.del
 
 In the [2021 Edelman Trust research](https://www.edelman.com/sites/g/files/aatuss191/files/2021-03/2021%20Edelman%20Trust%20Barometer.pdf) it shows that it may be very important to customers and investors to know where an organization stands on societal issues. 86% percent of global respondents expect CEOs to publicly speak out about societal challenges, which of course can extend to the wider E-Group.
 
-[2021 Axios-Harris Poll 100](https://theharrispoll.com/partners/media/axios-harrispoll-100/), which ranks US organizations for their reputation in the marketplace, noted that organizations "with a clear point of view and that deliver not only great products but also an impact on society" ranked at the top of the list.
+[2021 Axios-Harris Poll 100](https://www.axios.com/2021/05/13/the-2021-axios-harris-poll-100-reputation-rankings), which ranks US organizations for their reputation in the marketplace, noted that organizations "with a clear point of view and that deliver not only great products but also an impact on society" ranked at the top of the list.
 
 **This shows that the impact on being an awesome Executive Sponsor can and will drive business outcomes!**
 
@@ -509,7 +509,7 @@ Having short terms and long term goals for the TMRG is extremely important in de
 
 - Work with the wider TMRG on the TMRGs priorities
   - Leadership should distill these down into a manageable number of goals
-- Utilize a goal setting methodology such as [OKRs](/handbook/company/okrs) or [SMART](https://www.mindtools.com/pages/article/smart-goals.htm) to set the goals in a practical way
+- Utilize a goal setting methodology such as [OKRs](/handbook/company/okrs) or [SMART](https://www.mindtools.com/a4wo118/smart-goals) to set the goals in a practical way
 - Add these goals to your quarterly strategy issue for the TMRG
 - Assign a working group or DRI/s to the goal
 - Share the goals with your executive sponsor and the wider GitLab team through the Monthly Initiatives Call

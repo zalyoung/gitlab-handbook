@@ -15,7 +15,7 @@ Solutions Architects record all customer and prospect activity to promote **tran
 
 ## Recording Activity with Rattle
 
-SA prospect/customer activity is recorded into `Task` objects within Salesforce based on the `Log a Call` action on an `Opportunity`. However, [Rattle](https://gorattle.com) is leveraged to simplify the capture of required and optional fields via Slack to alleviate the SA from navigating through Salesforce.
+SA prospect/customer activity is recorded into `Task` objects within Salesforce based on the `Log a Call` action on an `Opportunity`. However, [Rattle](https://www.gorattle.com/) is leveraged to simplify the capture of required and optional fields via Slack to alleviate the SA from navigating through Salesforce.
 
 ### Rattle Setup
 

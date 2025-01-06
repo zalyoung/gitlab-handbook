@@ -25,5 +25,5 @@ Please refer to this list and keep it updated as Widgets evolve.
 
 ## Related links
 
-* [Merge Request Extensions technical documentation](https://docs.gitlab.com/ee/development/fe_guide/merge_request_widget_extensions.html)
+* [Merge Request Extensions technical documentation](https://docs.gitlab.com/ee/development/fe_guide/merge_request_widgets.html)
 * [Merge Request Report Widget Working Group page](/handbook/company/working-groups/merge-request-report-widgets/)

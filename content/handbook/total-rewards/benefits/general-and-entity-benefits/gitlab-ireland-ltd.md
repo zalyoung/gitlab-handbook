@@ -129,7 +129,7 @@ Once the total rewards team has approved the bike or ticket application, an invo
 
 ### Statutory Sick Leave
 
-From 1 January 2023, team members in Ireland are entitled to 3 days of paid sick leave per year (increasing in subsequent years) under the [relevant legislation](https://www.irishstatutebook.ie/eli/2022/en/act/pub/0024/index.html). The new entitlement will be phased in as part of a 4-year plan, starting with 3 days Statutory Sick Pay (SSP) per year in 2023, increasing to a maximum of 10 days paid SSP over 4 years, as follows:
+From 1 January 2023, team members in Ireland are entitled to 3 days of paid sick leave per year (increasing in subsequent years) under the [relevant legislation](https://www.irishstatutebook.ie/eli/2022/act/24/enacted/en/html). The new entitlement will be phased in as part of a 4-year plan, starting with 3 days Statutory Sick Pay (SSP) per year in 2023, increasing to a maximum of 10 days paid SSP over 4 years, as follows:
 
 - 2023: 3 days
 - 2024: 5 days
@@ -156,7 +156,7 @@ GitLab will be required to pay a minimum of 70% of an team member's gross wage, 
 
 #### Illness Benefit
 
-Team members may also be eligible for Ireland's [Illness Benefit](https://www.citizensinformation.ie/en/social_welfare/social_welfare_payments/disability_and_illness/disability_benefit.html). Please contact `leaves@gitlab.com` for more information.
+Team members may also be eligible for Ireland's [Illness Benefit](https://www.citizensinformation.ie/en/social-welfare/disability-and-illness/illness-benefit/). Please contact `leaves@gitlab.com` for more information.
 
 ### Statutory Domestic Violence Leave
 
@@ -174,7 +174,7 @@ If a team member in Ireland has experienced, or is currently experiencing, domes
 
 **Adoptive Leave:** All team members who qualify as ["qualifying adopters"](https://www.citizensinformation.ie/en/employment/employment_rights_and_conditions/leave_and_holidays/adoptive_leave.html) are entitled to a minimum of 24 consecutive weeks of ordinary Adoptive Leave beginning on the first day of the placement of the child, and up to 16 weeks of additional unpaid Adoptive Leave, beginning immediately after the end of the 24 weeks of ordinary Adoptive Leave. If you wish to take additional unpaid Adoptive Leave, please notify the Absence Management team at `leaves@gitlab.com` at least 4 weeks before the ordinary Adoptive Leave is due to end.
 
-**Paternity Leave:** All team members who qualify as ["relevant parents"](https://www.citizensinformation.ie/en/employment/employment_rights_and_conditions/leave_and_holidays/paternity_leave.html) can take up to 2 consecutive weeks of Paternity Leave, taken within the first 6 months following the birth/adoption.
+**Paternity Leave:** All team members who qualify as ["relevant parents"](https://www.citizensinformation.ie/en/employment/employment-rights-and-conditions/leave-and-holidays/paternity-leave/) can take up to 2 consecutive weeks of Paternity Leave, taken within the first 6 months following the birth/adoption.
 
 Relevant parents can take paternity leave. These are:
 
@@ -184,7 +184,7 @@ Relevant parents can take paternity leave. These are:
 
 **Parent's Leave:** All team members who qualify as ["relevant parents"](https://www.citizensinformation.ie/en/employment/employment_rights_and_conditions/leave_and_holidays/parents_leave.html) can take up to 7 weeks of Parent's Leave during the first 2 years of their child's life, or within 2 years of the adoption event. Leave may be taken in one continuous period, or in several periods of not less than one week.
 
-**Parental Leave:** All team members who qualify as ["relevant parents"](https://www.citizensinformation.ie/en/employment/employment_rights_and_conditions/leave_and_holidays/parental_leave.html) can take up to 26 weeks of unpaid Parental Leave.
+**Parental Leave:** All team members who qualify as ["relevant parents"](https://www.citizensinformation.ie/en/employment/employment-rights-and-conditions/leave-and-holidays/parental-leave/) can take up to 26 weeks of unpaid Parental Leave.
 
 #### GitLab Parental Leave Payment
 
@@ -201,14 +201,14 @@ Relevant parents can take paternity leave. These are:
 
 #### State Adoptive Leave Payment
 
-- You may be eligible to receive State [Adoptive Benefit](https://www.citizensinformation.ie/en/social_welfare/social_welfare_payments/social_welfare_payments_to_families_and_children/adoptive_benefit.html) at €250 per week for up to 24 weeks subject to your PRSI contributions.
+- You may be eligible to receive State [Adoptive Benefit](https://www.citizensinformation.ie/en/social-welfare/families-and-children/adoptive-benefit/) at €250 per week for up to 24 weeks subject to your PRSI contributions.
   - Effective 2023 the PRSI contributions will increase to €262/week.
 - To apply for State Adoptive Benefit, please notify leaves@gitlab.com of the start and end date of your leave.
 - Submit your application via the [Adoptive Benefit gov.ie website](https://www.gov.ie/en/service/295b84-adoptive-benefit/) at least 6 weeks before you intend to start your leave.
 
 #### State Paternity Leave Payment
 
-- You may be eligible to receive State [Paternity Benefit](https://www.citizensinformation.ie/en/social_welfare/social_welfare_payments/social_welfare_payments_to_families_and_children/paternity_benefit.html#:~:text=Paternity%20Benefit%20is%20a%20payment,or%20after%201%20September%202016) at 250 EUR per week for up to 2 weeks subject to your PRSI contributions.
+- You may be eligible to receive State [Paternity Benefit](https://www.citizensinformation.ie/en/social-welfare/families-and-children/paternity-benefit/#:~:text=Paternity%20Benefit%20is%20a%20payment,or%20after%201%20September%202016) at 250 EUR per week for up to 2 weeks subject to your PRSI contributions.
   - Effective 2023 the PRSI contributions will increase to €262/week.
 - To apply for State Paternity Benefit, please notify leaves@gitlab.com of your child's due date.
   - The Absence Management team will then send you a completed [PB2 form](https://assets.gov.ie/10312/a293b948613c41edaeb84ae4396725e3.pdf).

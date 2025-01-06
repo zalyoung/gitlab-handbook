@@ -52,7 +52,7 @@ Please see slide 49 of teh [IHP Portal and Mobile Guide](https://drive.google.co
 
 ### Willis Towers Watson Claims Assistance
 
-[Willis Towers Watson](https://www.wtwco.com/en-SG/Solutions/health-and-benefits) (WTW) is the broker for GitLab's group benefit plans and can assist members with any benefit questions or claims issues.
+[Willis Towers Watson](https://www.wtwco.com/en-sg/solutions/health-and-benefits) (WTW) is the broker for GitLab's group benefit plans and can assist members with any benefit questions or claims issues.
 
 For any claims issues or benefits queries, please reach out to the WTW team at `claims.sg@willistowerswatson.com` .
 

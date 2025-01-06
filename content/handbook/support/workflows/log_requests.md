@@ -35,7 +35,7 @@ Free users should reference [GitLab.com rate limits documentation](https://docs.
 
 We can provide the following information:
 
-- Information found in the [Audit Events Features](https://docs.gitlab.com/ee/administration/audit_events.html)
+- Information found in the [Audit Events Features](https://docs.gitlab.com/ee/administration/audit_event_reports.html)
 - Information about who has accessed the account/projects that the customers owns.  This can include:
   - number of users
   - number of times accessed

@@ -700,7 +700,7 @@ Duo Workflow **agents** are, in a simplified view, a pair of: **prompt** and **L
 By this definition, agents on their own are not able to interact with the outside world,
 which significantly limits the scope of work that can be automated. To overcome this limitation, agents are being equipped with **tools**.
 
-Tools are functions that agents can invoke using the [function calling](https://docs.anthropic.com/en/docs/tool-use) LLM feature.
+Tools are functions that agents can invoke using the [function calling](https://docs.anthropic.com/en/docs/build-with-claude/tool-use) LLM feature.
 These functions perform different actions on behalf of the agent. For example, an agent might be equipped with a tool (function)
 that executes bash commands like `ls` or `cat` and returns the result of those bash commands back to the agent.
 

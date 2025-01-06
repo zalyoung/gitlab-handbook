@@ -138,7 +138,7 @@ The below channels are owned by teams outside of the field organization but migh
 | #company-fyi | public (read-only) | Official company announcements channel |
 | #company-fyi-private | private (read-only) | Official & confidential company announcements channel |
 | #whats-happening-at-gitlab | public | Team-wide communication and announcements (reminders, events, project updates, etc.) |
-| #ceo | public | Questions and requests for Sid |
+| #ceo | public | Questions and requests for the CEO |
 | #competition | public | Used to share competitive insight/information from the market in real time and to ask the competitive intelligence team questions about how they might handle certain situations |
 | #support_ops-announcements | public (read-only) | Sharing updates on Support-related changes  |
 | #legal | public | General legal questions that are not confidential or seeking legal advice |

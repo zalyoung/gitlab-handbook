@@ -471,20 +471,6 @@ documentation for their assigned stage.
 For [documentation improvements](#documentation-feedback-and-improvements), stage leads are responsible for creating an
 issue board to track ongoing and planned documentation enhancements and additions.
 
-## Topic types and team progress
-
-The Technical Writing team is always working to improve the quality of the documentation.
-Specifically, we are working to implement [topic types](https://docs.gitlab.com/ee/development/documentation/topic_types/).
-
-We are currently tracking updates to the [**Use GitLab**](https://docs.gitlab.com/ee/user/)
-section of the global navigation.
-
-| Date           | # of pages done | # of pages total | Percent complete |
-|----------------|-----------------|------------------|------------------|
-| September 2023 | 259             | 658              | 39 %             |
-| October 2022   | 245             | 468              | 52 %             |
-| April 2022     | 161             | 420              | 38 %             |
-
 ## Hackathons
 
 The Technical Writing team takes part in the [GitLab Hackathon](https://about.gitlab.com/community/hackathon/)
