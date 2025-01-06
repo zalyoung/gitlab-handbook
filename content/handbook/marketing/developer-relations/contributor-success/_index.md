@@ -46,7 +46,7 @@ In FY26 we will be continue our focus on the following key initiatives
 - Reducing [Open Community MR Age (OCMA)](#open-community-mr-age-ocma). Aligned with our [open source growth strategy](/handbook/engineering/open-source/growth-strategy/)
 - Shifting the focus towards higher valued contributions aligned with our product roadmap. Aligned with our [open source growth strategy](/handbook/engineering/open-source/growth-strategy/)
   
-As an internal we'll focus on improving project & issue scoping and prioritization per the [FY25Q3 retrospective](https://gitlab.com/gitlab-org/developer-relations/contributor-success/team-task/-/issues/665#note_2248454288).
+As an internal priority we'll focus on improving project & issue scoping and prioritization per the [FY25Q3 retrospective](https://gitlab.com/gitlab-org/developer-relations/contributor-success/team-task/-/issues/665#note_2248454288).
 
 Any engineering work required to reach these goals is within limits. For example, GDK work, POC's of Duo, Triage-ops refactors with AI assisted classifications and more.
 
