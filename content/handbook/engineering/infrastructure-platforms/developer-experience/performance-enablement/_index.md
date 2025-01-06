@@ -33,7 +33,7 @@ flowchart TD
     subgraph PA[Performance Analysis]
         PerfRes[Performance Result gathering] --> PerfIn[Interpret Results]
     end
-    
+
     Prod --> Obs
     Staging --> Obs
     
@@ -41,6 +41,67 @@ flowchart TD
     style Prod fill:#afa,stroke:#333
     style Staging fill:#afa,stroke:#333
     style Obs fill:#fda,stroke:#333
+```
+
+
+```mermaid
+flowchart TD
+    subgraph DW[Developer Workflow]
+        Dev[Developer] --> Code[1. Write New Code]
+        Code --> Unit[2. Local Tests & Performance]
+        Unit --> Perf[3. Pipeline Performance Tests]
+        Perf --> Review[4. Review Results]
+    end
+
+    subgraph Tools[Developer Tools]
+        Portal[Developer Portal]
+        Docs[Documentation]
+        Data[Test Data]
+        
+        Portal --- Docs
+        Portal --- Data
+    end
+
+    subgraph Auto[Deployment Flow]
+        Deploy[Deployment Pipeline]
+        Staging[Staging]
+        Prod[Production]
+    end
+    
+    subgraph Insights[Performance Insights]
+        Dash[Dashboards]
+        Alerts[Alerts]
+        Reports[Reports]
+    end
+
+    Dev --> Portal
+    Portal --> Dev
+    Data --> Unit
+    
+    Review --> Deploy
+    Deploy --> Staging
+    Staging --> Prod
+
+    Insights --> Dev
+    Prod --> Insights
+    Staging --> Insights
+
+    style Dev fill:#70a9e6,stroke:#333,stroke-width:3px
+    style Code fill:#adf,stroke:#333
+    style Unit fill:#adf,stroke:#333
+    style Perf fill:#adf,stroke:#333
+    style Review fill:#adf,stroke:#333
+    style Portal fill:#98fb98,stroke:#333
+    style DW fill:#e6f3ff,stroke:#666,stroke-width:2px
+    style Tools fill:#f0fff0,stroke:#666
+    style Auto fill:#fff5ee,stroke:#666
+    style Insights fill:#fff0f5,stroke:#666
+    style Deploy fill:#ffd700,stroke:#333
+    style Staging fill:#ffd700,stroke:#333
+    style Prod fill:#ffd700,stroke:#333
+    style Dash fill:#ffb6c1,stroke:#333
+    style Alerts fill:#ffb6c1,stroke:#333
+    style Reports fill:#ffb6c1,stroke:#333
 ```
 
 ```mermaid
