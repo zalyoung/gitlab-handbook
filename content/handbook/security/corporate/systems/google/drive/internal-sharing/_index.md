@@ -32,21 +32,21 @@ As part of our transparency value, most Google Docs should be transparent to all
 
 1. Select `Share`.
 
-    <img src="/handbook/security/corporate/systems/google-drive/guides/internal-sharing/images/google-drive-sharing/google_drive_file_share.png" alt="Google Drive File Share" width="800"/>
+    <img src="/images/security/corporate/systems/google-drive/guides/internal-sharing/google-drive-sharing/google_drive_file_share.png" alt="Google Drive File Share" width="800"/>
 
 1. Add the email address of the individual(s) you wish to share the file or folder with.
 
-    <img src="/handbook/security/corporate/systems/google-drive/guides/internal-sharing/images/google-drive-sharing/google_drive_file_assign_email.png" alt="Google Drive File Assign Email" width="500"/>
+    <img src="/images/security/corporate/systems/google-drive/guides/internal-sharing/google-drive-sharing/google_drive_file_assign_email.png" alt="Google Drive File Assign Email" width="500"/>
 
 1. Utilize the dropdown menu to the right of the email address to select the [permission level](#google-drive-permission-levels) to grant the individual(s).
 
-    <img src="/handbook/security/corporate/systems/google-drive/guides/internal-sharing/images/google-drive-sharing/google_drive_file_assign_permission.png" alt="Google Drive File Assign Permission" width="500"/><br>
+    <img src="/images/security/corporate/systems/google-drive/guides/internal-sharing/google-drive-sharing/google_drive_file_assign_permission.png" alt="Google Drive File Assign Permission" width="500"/><br>
 
 1. Select the `Notify people` checkbox if you wish for the individual(s) to receive an email informing them of their new access to the file or folder.
 
 1. Select the `Send` Button.
 
-1. You will now see the ![Google Drive File Shared Icon](/handbook/security/corporate/systems/google-drive/guides/internal-sharing/images/google-drive-sharing/google_drive_file_shared_icon.png) next to the shared file or folder
+1. You will now see the ![Google Drive File Shared Icon](/images/security/corporate/systems/google-drive/guides/internal-sharing/google-drive-sharing/google_drive_file_shared_icon.png) next to the shared file or folder
 
 ## Access a Shared Drive File
 
@@ -58,23 +58,23 @@ As part of our transparency value, most Google Docs should be transparent to all
 
     > This will show you all documents that are shared with you including documents from `Shared Drives`. By default, the documents are listed in descending order of when the document was shared with you.
 
-    <img src="/handbook/security/corporate/systems/google-drive/guides/internal-sharing/images/google-drive-sharing/google_share_drive_access_menu.png" alt="Google Shared Drive Access Menu" width="300"/>
+    <img src="/images/security/corporate/systems/google-drive/guides/internal-sharing/google-drive-sharing/google_share_drive_access_menu.png" alt="Google Shared Drive Access Menu" width="300"/>
 
 1. Use the `Search in Drive` search bar at the top center of the page to search for the team member whose files you wish to find that are shared with you.
 
     > When you click in the search bar it will populate a list of users who have recently shared documents with you. If the team member appears in this list you can select them here or continue to type in their email in the search bar
 
-    <img src="/handbook/security/corporate/systems/google-drive/guides/internal-sharing/images/google-drive-sharing/google_shared_drive_access_auto_population.png" alt="Google Shared Drive Access Auto Population" width="600"/>
+    <img src="/images/security/corporate/systems/google-drive/guides/internal-sharing/google-drive-sharing/google_shared_drive_access_auto_population.png" alt="Google Shared Drive Access Auto Population" width="600"/>
 
 1. Type in the email address of the team member whose files you wish to find.
 
-    <img src="/handbook/security/corporate/systems/google-drive/guides/internal-sharing/images/google-drive-sharing/google_shared_drive_access_email.png" alt="Google Shared Drive Access Email" width="600"/>
+    <img src="/images/security/corporate/systems/google-drive/guides/internal-sharing/google-drive-sharing/google_shared_drive_access_email.png" alt="Google Shared Drive Access Email" width="600"/>
 
 1. Select the team member when it populates.
 
     > This will prepend `owner:` to the search result. If the email address does not show you will have to manually add `owner:` in the search bar. i.e. `owner:alibby@example.com`
 
-    <img src="/handbook/security/corporate/systems/google-drive/guides/internal-sharing/images/google-drive-sharing/google_shared_drive_access_final.png" alt="Google Shared Drive Access Final" width="500"/>
+    <img src="/images/security/corporate/systems/google-drive/guides/internal-sharing/google-drive-sharing/google_shared_drive_access_final.png" alt="Google Shared Drive Access Final" width="500"/>
 
 1. All documents that are shared with you by the team member will now populate in the `Search results`
 

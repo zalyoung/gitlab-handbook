@@ -16,7 +16,7 @@ You can allow other team members to access and manage the emails in your inbox. 
 
 1. In the top right corner of `mail.google.com` click on your Gmail Profile.
 
-    <img src="/handbook/security/corporate/systems/google-mail/guides/delegation/images/google_delegation_example.png" alt="Google Delegate Example" width="400"/>
+    <img src="/images/security/corporate/systems/google-mail/guides/delegation/google_delegation_example.png" alt="Google Delegate Example" width="400"/>
 
 1. If you have delegation access you will see the team members account under your `Gmail` Account.
 
