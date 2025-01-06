@@ -34,9 +34,15 @@ flowchart TD
 
     subgraph YBR[Yellow Brick Road - Development Journey]
         Dev[Developer] --> Code[Code Creation]
-        Code --> Local[Local Testing]
-        Local --> Pipeline[Pipeline Test - E2E & Performance]
-        Pipeline --> Review[Review & Deploy]
+        Code --> Unit[Local Testing - Unit Tests]
+        Unit --> Integration[Integration Tests]
+        Integration --> Feature[Feature Tests]
+        Feature --> E2E[End to End Tests]
+        E2E --> Review[Review & Deploy]
+        Unit --> Perf[Performance Tests]
+        Integration --> Perf
+        Feature --> Perf
+        E2E --> Perf
     end
 
     subgraph Guide[Journey Companions]
@@ -46,6 +52,7 @@ flowchart TD
         Insights[Performance Insights]
     end
 
+    Perf --> Guide
     Dev --> Portal
     Dev --> Guide
     Portal --> Guide
