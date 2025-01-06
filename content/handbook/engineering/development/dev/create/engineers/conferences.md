@@ -37,16 +37,16 @@ Conferences are a great place to learn about the latest innovations. Attending t
 
 **Conferences for Frontend Engineers**
 
-* [Web Directions Topic](https://www.webdirections.org/)
+* [Web Directions Topic](https://webdirections.org/)
 
 **Conferences for Backend Engineers**
 
-* [RedisConf](https://redislabs.com/redisconf/)
+* [RedisConf](https://redis.io/events/?et=event)
 * [Gophercon](https://gophercon.eu)
 
 **GraphQL**
 
-* [GraphQL Summit](https://summit.graphql.com/)
+* [GraphQL Summit](https://www.apollographql.com/events/series/graphql-summit-2024)
 
 ## What are some benefits to presenting at conferences?
 

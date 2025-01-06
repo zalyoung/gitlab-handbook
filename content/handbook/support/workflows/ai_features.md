@@ -1,7 +1,6 @@
 ---
 title: AI Workflow
-category: GitLab.com, Self-Managed
-subcategory: AI
+category: AI
 description: "Workflow for ticket related to our AI Features"
 ---
 
@@ -85,6 +84,5 @@ While we have customer facing [troubleshooting documentation](https://docs.gitla
 - `json.jsonPayload.url`, `https://codesuggestions.gitlab.com/` for GitLab Code Suggestion and `https://cloud.gitlab.com/v1/chat/agent` for GitLab Duo chat.
 
 When troubleshooting make sure to get debug logs for [the relevant extension](https://gitlab.com/gitlab-org/editor-extensions).
-You can [get help from Dev section](how-to-get-help.md#list-of-development-sections-and-corresponding-links-to-the-projects-for-requesting-help) using the [Editor Extensions](https://gitlab.com/gitlab-com/dev-sub-department/section-dev-request-for-help/-/blob/main/.gitlab/issue_templates/SupportRequestTemplate-EditorExtensions.md) or [AI Framework](https://gitlab.com/gitlab-com/dev-sub-department/section-dev-request-for-help/-/blob/main/.gitlab/issue_templates/SupportRequestTemplate-aiframework.md?ref_type=heads).
 
 Feel free to open issues for how AI team can collaborate with support team in the editor extensions Team issue tracker https://gitlab.com/gitlab-org/editor-extensions/meta/-/issues.

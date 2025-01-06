@@ -63,7 +63,7 @@ All parents who have custody of their child have an equal right to parental leav
 
 #### *Before 31 July/4 September 2022*
 
-Where a child is adopted by their parents (and placed into their care) before 31 July 2022 or a [maternity allowance period is due to start before 4 September 2022](https://www.kela.fi/families-quick-guide), the preceding system of maternity/paternity/adoptive/parental leave allowances, as set out below, will apply.
+Where a child is adopted by their parents (and placed into their care) before 31 July 2022 or a [maternity allowance period is due to start before 4 September 2022](https://www.kela.fi/families), the preceding system of maternity/paternity/adoptive/parental leave allowances, as set out below, will apply.
 
 ##### Maternity Leave
 

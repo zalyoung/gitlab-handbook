@@ -136,36 +136,48 @@ Topology Service will make sure that the given range is not overlapping with oth
 ```mermaid
 graph TD
   A[64 bits] --> |1 bit - MSB| B[Sign]
-  A -->|6 bits| C[Intentionally reserved]
-  A -->|16 bits| D[Cell's Leased ID]
+  A -->|6 bits| C[Reserved]
+  A -->|16 bits| D[CellID]
   A -->|41 bits| E[Sequence]
 ```
 
-The provisioning service (it's not yet decided where/how this service will be), will assign unique auto-incrementing
-lease ID for each cell, starting with `zero` for the Legacy Cell. It will use the above bit allocation to compute
-sequence's `minval` and `maxval` for each cell and this data will be captured in TS's `config.toml`.
+- **Sign**: Always 0 for positive numbers.
+- **Reserved**: Currently always `0`, reserved for 2 purposes.
+  1. To increase the number of cells, if needed.
+  1. To allow us to switch to a variant of ULID ID allocation in future without interfering with the existing IDs. Since
+   ULID based ID allocator will have the `timestamp` value in the  most significant bits,
+   reserving only one bit would have been sufficient but
+   more bits are reserved to have the sequence bits at minimum.
+- **CellID**: A unique auto-incrementing [unique identifier for a Cell](decisions/012_cell_unique_identifier.md) starting with `1`, can support up to 65,535 Cell IDs.
+- **Sequence**: The sequence that will be used for each table in the database.
+  41 bits can support ~2 trillion IDs (2199,023,255,551) per cell (per sequence).
+  At the time of writing, the largest ID is 11,098,430,930 (primary key of `security_findings` table), so it's 200 times the current largest ID, which is sufficient.
+
+Example `config.toml` of Topology Service:
 
 ```toml
 [[cells]]
-id = 0
-address = "cell-us-1.gitlab.com"
-sequence_range = [0, 4398046511103]
+id = 1
+address = "legacy.gitlab.com"
+sequence_range = [0, 2199023255551]
 
 [[cells]]
-id = 1
-address = "cell-us-2.gitlab.com"
-sequence_range = [4398046511104, 8796093022207]
+id = 2
+address = "cell-2-example.gitlab.com"
+sequence_range = [2199023255552, 4398046511103]
 ```
 
-41 bits can support ~2 trillion IDs (2199,023,255,551) per cell (per sequence). At the time of writing, the largest ID is
-11,098,430,930 (primary key of _security_findings_ table), so it's 200 times the current largest ID, which should be (more than) sufficient.
+Calculation for `id = 1`:
 
-6 MSBs are intentionally `reserved` for 2 purposes
+- Sequences per cell: `2^41 -> 2199023255552`
+- Sequence `min`: `(CellId - 1) * SequencesPerCell` -> `(1 - 1) * 2199023255552` -> `0`
+- Sequence `max`: `(CellId * SequencesPerCell) - 1` -> `(1 * 2199023255552) - 1` -> `2199023255551`
 
-1. To increase the number of cells, if needed.
-1. To allow us to switch to a variant of ULID ID allocation in future without interfering with the existing IDs. Since
-   ULID based ID allocator will have the `timestamp` value in the MSBs, reserving only one bit would have been sufficient but
-   more bits are reserved to have the sequence bits at minimum.
+Calculation for `id = 2`:
+
+- Sequences per cell: `2^41 -> 2199023255552`
+- Sequence `min`: `(CellId - 1) * SequencesPerCell` -> `(2 - 1) * 2199023255552` -> `2199023255552`
+- Sequence `max`: `(CellId * SequencesPerCell) - 1` -> `(2 * 2199023255552) - 1` -> `4398046511103`
 
 More details on the decision taken and other solutions evaluated can be found [here](decisions/008_database_sequences.md)
 and the reasoning behind choosing the logic to generate sequence ranges can be found [here](https://gitlab.com/gitlab-org/gitlab/-/issues/465809).
@@ -174,7 +186,7 @@ and the reasoning behind choosing the logic to generate sequence ranges can be f
 // sequence_request.proto
 
 message GetCellSequenceInfoRequest {
-  optional string cell_name = 1; // if missing, it is deduced from the current context
+  optional string cell_id = 1; // if missing, it is deduced from the current context
 }
 
 message SequenceRange {
@@ -638,18 +650,22 @@ Citations:
 
 #### Architecture of multi-regional deployment of Topology Service
 
+The Topology Service and its storage (Cloud Spanner) are deployed in two regions, providing resilience in case of a regional outage and reducing latency for users in those areas. The HTTP Router Service connects to the Topology Service through a public load balancer, while internal cells use Private Service Connect for communication. This setup helps minimize ingress and egress costs.
+
 ```mermaid
 graph TD;
-    user_eu((User in EU));
-    user_us((User in US));
+    user_us_central((User in US Central));
+    user_us_east((User in US East));
     gitlab_com_gcp_load_balancer[GitLab.com GCP Load Balancer];
-    topology_service_gcp_load_balancer[Topology Service GCP Load Balancer];
+    topology_service_gcp_load_balancer[Topology Service Public GCP Load Balancer];
     http_router[HTTP Routing Service];
-    topology_service_eu[Topology Service in EU];
-    topology_service_us[Topology Service in US];
-    cell_us{Cell US};
-    cell_eu{Cell EU};
-    spanner[Google Cloud Spanner];
+    topology_service_us_central[Topology Service in US Central];
+    topology_service_us_east[Topology Service in US East];
+    cell_us_east{Cell US East};
+    cell_us_central{Cell US Central};
+    spanner_us_central[Google Cloud Spanner US Central];
+    spanner_us_east[Google Cloud Spanner US East];
+
     subgraph Cloudflare
         http_router;
     end
@@ -658,32 +674,44 @@ graph TD;
         gitlab_com_gcp_load_balancer;
         topology_service_gcp_load_balancer;
       end
-      subgraph Europe
-        topology_service_eu;
-        cell_eu;
+      subgraph US Central
+        subgraph Cloud Run US Central
+            topology_service_us_central;
+        end
+        cell_us_central;
       end
-      subgraph US
-        topology_service_us;
-        cell_us;
+      subgraph US East
+        subgraph Cloud Run US East
+            topology_service_us_east;
+        end
+        cell_us_east;
       end
-      subgraph Multi-regional Cloud Spanner
-        spanner;
+      subgraph Multi-regional Cloud Spanner Cluster
+        spanner_us_central;
+        spanner_us_east;
       end
     end
 
-    user_eu--HTTPS-->http_router;
-    user_us--HTTPS-->http_router;
+    user_us_central--HTTPS-->http_router;
+    user_us_east--HTTPS-->http_router;
     http_router--REST/mTLS-->topology_service_gcp_load_balancer;
     http_router--HTTPS-->gitlab_com_gcp_load_balancer;
-    gitlab_com_gcp_load_balancer--HTTPS-->cell_eu;
-    gitlab_com_gcp_load_balancer--HTTPS-->cell_us;
-    topology_service_gcp_load_balancer--HTTPS-->topology_service_eu;
-    topology_service_gcp_load_balancer--HTTPS-->topology_service_us;
-    cell_eu--gRPC/mTLS-->topology_service_eu;
-    cell_us--gRPC/mTLS-->topology_service_us;
-    topology_service_eu--gRPC-->spanner;
-    topology_service_us--gRPC-->spanner;
+    gitlab_com_gcp_load_balancer--HTTPS-->cell_us_central;
+    gitlab_com_gcp_load_balancer--HTTPS-->cell_us_east;
+    topology_service_gcp_load_balancer--HTTPS-->topology_service_us_central;
+    topology_service_gcp_load_balancer--HTTPS-->topology_service_us_east;
+    cell_us_central--gRPC/mTLS via Private Service Connect-->topology_service_us_central;
+    cell_us_east--gRPC/mTLS via Private Service Connect-->topology_service_us_east;
+    topology_service_us_central--gRPC-->spanner_us_central;
+    topology_service_us_east--gRPC-->spanner_us_east;
+    spanner_us_east<--Replication-->spanner_us_central;
 ```
+
+Citations:
+
+1. Google (n.d.). Using private service connect with cloudrun services. Google Cloud. Retrieved Nov 11, 2024, from <https://cloud.google.com/vpc/docs/private-service-connect>
+1. Google (n.d.). How multi-region with cloud spanner works. Google Cloud. Retrieved Nov 11, 2024,<https://cloud.google.com/blog/topics/developers-practitioners/demystifying-cloud-spanner-multi-region-configurations>
+1. [ADR for private service connect](..q/decisions/004_vpc_subnet_design/)
 
 ### Performance
 

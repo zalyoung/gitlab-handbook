@@ -1,5 +1,6 @@
 ---
 title: "Xander Liwanag's README"
+description: "Personal README page for Xander Liwanag"
 job: "Systems Analyst - Enterprise Applications"
 ---
 

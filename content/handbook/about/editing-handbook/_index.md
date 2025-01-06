@@ -7,13 +7,15 @@ This page focuses on how to edit the handbook.
 Please see the [handbook usage page](../handbook-usage.md) for how and why we use the handbook, and other [docs pages](https://handbook.gitlab.com/docs/) for further reference.
 
 This page is intended to be complementary to [Using GitLab at GitLab](/handbook/people-group/using-gitlab-at-gitlab/#using-gitlab-competency).
-We suggest you complete the [GitLab 101 Tool Certification](/handbook/people-group/learning-and-development/gitlab-101/) if you haven't already.
+Reviewing the [GitLab 101](/handbook/people-group/learning-and-development/gitlab-101/) page may also be useful.
 
 **Have your own practical Handbook editing tips? Drop a video below!**
 
+> **Tip** Use AI to edit the handbook faster, and learn about [Anthropic Claude](/handbook/tools-and-tips/ai/claude/) and [GitLab Duo](/handbook/tools-and-tips/ai/gitlab-duo/).
+
 ## Add yourself to the team page
 
-For how to add yourself to the team page, see the [add yourself to team guide](/handbook/edit-team-page).
+For how to add yourself to the team page, see the [add yourself to team guide](edit-team-page.md).
 
 ## Markdown formatting
 
@@ -52,8 +54,9 @@ A typical workflow to edit the handbook:
    ![Web IDE editor, Markdown preview](/images/handbook/about/editing-handbook/practical_handbook_edits_web_ide_vs_code_console_markdown.png)
 
 1. Upload new files by right-clicking and selecting `Upload...` for example images into `static/images/handbook/` and the corresponding file tree, following the handbook directories.
+   - Note the [images section](https://handbook.gitlab.com/docs/markdown-guide/#images) in the markdown guide.
 
-   ![Web IDE overview, upload files](images/practical_handbook_edits_web_ide_vs_code_file_upload_images.png)
+   ![Web IDE overview, upload files](/images/handbook/about/editing-handbook/practical_handbook_edits_web_ide_vs_code_file_upload_images.png)
 
 1. Open the `Source Control` icon on the left menu which has a colored marker for counting the file changes. Tip: Keyboard shortcut `Ctrl+Shift+G`.
 
@@ -244,6 +247,16 @@ Alternatively, navigate into our GitLab.com profile into [your To-Do list](https
 
 It can also be browser related: Try clearing the cache, open an incognito window (on macOS: `cmd shift n`), or use a different browser to test.
 
+### 404 on new page
+
+If a new page is created as part of a merge request, but the page is not showing up on the site,
+check the file name.
+
+The most common issue is using `index.md` instead of `_index.md` in a folder that has other pages.
+The other pages will not display.
+
+See [pages and folder structure](#naming-pages-and-folder-structure) for more information.
+
 ### Failing pipelines
 
 To see why your pipeline is failing, there are two main places to look:
@@ -288,7 +301,7 @@ Additionally, consider using the [Glob Pattern](https://code.visualstudio.com/ap
 
 There is a special linter that validates links and anchors across the handbook. If your change accidentally breaks a link, then the pipeline job will fail with a similar error message.
 
-![Link linter error](/handbook/about/images/link-linter-error.png)
+![Link linter error](/images/about/link-linter-error.png)
 
 1. It is a path to the file where the broken link was detected.
     (file path - `sites/handbook/source/handbook/total-rewards/benefits/general-and-entity-benefits/pty-benefits-australia/index.html.md`, line number: 87)
@@ -359,6 +372,11 @@ The quick and easy fix is to add text to the empty `section:` line, merge it, an
 in the public handbook project.
 
 In this case, [the handbook code was made more robust](https://gitlab.com/gitlab-com/content-sites/handbook/-/merge_requests/2820/diffs).
+
+### Images not loading properly
+
+If you added new images and they are not loading properly in your review app, please review the
+[Images section](https://handbook.gitlab.com/docs/markdown-guide/#images) of the markdown guide.
 
 ## Additional tips
 

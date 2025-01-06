@@ -24,9 +24,6 @@ The following rotations are defined:
     the either queue spikes.
   - Responsible for reviewing [security dashboards]({{< ref "security-dashboard-review" >}}) on a best-effort level
 - (Weekly Assignment) Triage Rotation (mentions and issues), by order of priority:
-  - Daily triage of [FedRAMP vulnerabilities reported by our scanners](https://internal.gitlab.com/handbook/security/product_security/application_security/runbooks/fedramp-scanner-triage-process/)
-    - This is a mandatory daily check to make sure we do triage of vulnerabilities.
-    - If it is not possible to do a daily check and triage of reported vulnerabilities, ask on for help in the `#sec-appsec` channel.
   - First responder to [JiHu Contribution pings]({{< ref "jihu-security-review-process" >}}) that come into the `#sec-appsec` Slack channel
   - First responder to automated messages posted in the `#public_merge_requests_referencing_confidential_issues` Slack channel
     - Add a check mark emoji if the merge request can be public

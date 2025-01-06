@@ -151,7 +151,7 @@ Performance against these competencies should be weighted at 40%.
 - [Values Competencies](/handbook/people-group/competencies/#values-competencies)
 - [Remote Working Competencies](/handbook/people-group/competencies/#remote-work-competencies)
 - [Job Frameworks](/handbook/company/structure/#job-frameworks)
-- *(If appplicable)* [Manager and Leadership Competencies](/handbook/people-group/competencies/#manager-and-leadership-competencies)
+- *(If applicable)* [Manager and Leadership Competencies](/handbook/people-group/competencies/#manager-and-leadership-competencies)
 
 When completing the talent assessment form, team members and managers should reflect on the applicable competencies and job frameworks when filling out the achievements, strengths, and opportunities section.  Given GitLab's [CREDIT values](/handbook/values/#credit) should be lived, with each day representing a new opportunity to refamiliarize oneself with said values and strive to implement them in every professional interaction, there is an opportunity for team members and managers to rate how a team member demonstrates each of the CREDIT values.  The following rating scale is used for each value:
 
@@ -292,7 +292,7 @@ The calibration session is one of the most important pieces of the Performance/G
 - Leaders should feel comfortable providing feedback on team members in other functions that they have direct experience working with.
 - Focus on discussing artifacts that are relevant to the performance factor and refrain from discussing artifacts that are not relevant to performance being developing, performing or exceeding. Examples of artifacts which are not relevant: upcoming maternity/parental leave, personal information/home situation or things that were confidentially shared and do not relate to performance.
 - Refer to the competencies, job family, job frameworks and values when deciding what is relevant.
-- Utilize the SBI model for [feedback](/handbook.gitlab.com/handbook/people-group/guidance-on-feedback/#s-b-i-model). Focus on facts and avoid blanket statements as opposed to (i.e. [team member] has poor communication), "[team member] struggled with collaboration during the roll-out of x project and could have improved communciation by ensuring they aligned with x stakeholders more regularly during the process. The impact of this was x."
+- Utilize the SBI model for [feedback](/handbook/people-group/guidance-on-feedback/#s-b-i-model). Focus on facts and avoid blanket statements as opposed to (i.e. [team member] has poor communication), "[team member] struggled with collaboration during the roll-out of x project and could have improved communciation by ensuring they aligned with x stakeholders more regularly during the process. The impact of this was x."
 - Calibration is not a stack ranking of team members. While some inter-person comparison may happen, it should only be to ensure that evaluations are being applied fairly across different raters.
 - **Ask questions and provide feedback!** This may seem obvious, but it is an important aspect to help identify any potential bias
 
@@ -320,7 +320,7 @@ It is **absolutely essential** that managers complete the required pre-work to e
 - Review the Job Family/Families that will be calibrated in detail
 - Review our competencies
   - [Talent Assessment Training in LevelUp](https://levelup.gitlab.com/access/saml/login/internal-team-members?returnTo=https://levelup.gitlab.com/learn/course/talent-assessment)
-  - [Job frameworks](/handbook.gitlab.com/handbook/company/structure/#job-frameworks)
+  - [Job frameworks](/handbook/company/structure/#job-frameworks)
   - [High Performing Team Indicators](/https://internal.gitlab.com/handbook/company/high-performing-teams/?search=values#high-performing-teams-indicators)
   - [Values competencies](/handbook/people-group/competencies/#values-competencies)
   - [Remote work competencies](/handbook/people-group/competencies/#remote-work-competencies)
@@ -361,9 +361,9 @@ Below is the high level timeline for the formal assessment beginning in Q4 FY25 
 
 - **2025-01-27:** Kick off Optional Self-Evaluation cycle for all Team Members
 - **2025-02-06 (5:00pm PST):** Due date for all Self-Evaluations
-- **2025-02-27:** Workday Calibration open and calibration discussions occur
+- **2025-02-07:** Managers begin to review thier team members self evaluations and gather feedback. Workday Calibration cycle opens and Calibration discussions occur
 - **2025-02-28:** 5:00pm PST Workday Calibration will be locked
-- **2025-03-03**: Kick off Manager Evaluation cycle
+- **2025-03-03**: Kick off the Manager Evaluation cycle in Workday
 - **2025-03-07:** Annual Compensation Review Kicks off for Managers
 - **2025-03-15:** Due date for all Manager evaluations. 5:00pm PST Talent Assessment in Workday is locked.
 - **2025-03-31 to 2025-04-02:** Total Rewards and final E-Group review and approval
@@ -373,7 +373,7 @@ Below is the high level timeline for the formal assessment beginning in Q4 FY25 
 
 *Team members who are on Leave of Absence (LOA) on TBD are excluded from the auto advancement of their talent assessment until they return to work.
 
-Note: For full details on our Annual Compensation Review (ACR) timeline and cycle, pelase refer to our ACR [handbook page](/handbook.gitlab.com/handbook/total-rewards/compensation/compensation-review-cycle/).
+Note: For full details on our Annual Compensation Review (ACR) timeline and cycle, pelase refer to our ACR [handbook page](/handbook/total-rewards/compensation/compensation-review-cycle/).
 
 ### Cadence
 
@@ -719,7 +719,7 @@ The succession planning process might vary slightly for different areas of the b
 | [Talent Assessment Calibration Agenda Doc](https://docs.google.com/document/d/1zrlZSfdNXpSZ09uvDM71KxH42RWBJxa6U1QTCTw05iI/edit#heading=h.q1ptlqi506at) | This template can be used by managers to ensure similar pre-work, structure, and context to generate alignment ahead of live calibration sessions. The agenda is also recommend to ensure rationale behind potential assessment changes during calibration are recorded. |
 | [Values competencies](/handbook/people-group/competencies/#values-competencies) | Values competencies form an important part of the Performance Factor evaluation and are important to review prior to beginning the assessment period. |
 |[High Performing Team Indicators](/https://internal.gitlab.com/handbook/company/high-performing-teams/?search=values#high-performing-teams-indicators) | We’ve broken down each characteristic of high performance to help you recognize and measure success.|
-|[Remote work competencies](/handbook.gitlab.com/handbook/people-group/competencies/#remote-work-competencies) | Remote work competencies form an important part of the Performance Factor evaluation and are important to review prior to beginning the assessment period. |
+|[Remote work competencies](/handbook/people-group/competencies/#remote-work-competencies) | Remote work competencies form an important part of the Performance Factor evaluation and are important to review prior to beginning the assessment period. |
 | [Functional competencies](/handbook/people-group/competencies/#functional-competencies) | Functional competencies (for groups that have them developed) can also influence the Performance Factor and should be reviewed prior to the assessment period. |
 | [Unconscious Bias](/handbook/company/culture/inclusion/unconscious-bias/) handbook page and [Recognizing Bias Training](/handbook/company/culture/inclusion/unconscious-bias/#recognizing-bias-training) | It is important to me mindful of unconscious bias always, and especially during talent reviews and assessments. It is highly recommended that you review the handbook page and watch the training. |
 | [Performance Factor](/handbook/total-rewards/compensation/compensation-review-cycle/#performance-factor) handbook page | This page is the SSOT to review the Performance Factor's impact on compensation. |

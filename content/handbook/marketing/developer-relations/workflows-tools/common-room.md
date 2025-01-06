@@ -32,7 +32,7 @@ which runs via a scheduled pipeline to injest data.
 
 ## Resources
 
-* Common Room's [getting started documentation](https://www.commonroom.io/docs/get-started/get-started).
+* Common Room's [getting started documentation](https://www.commonroom.io/docs/get-started/).
 * Common Room's [playbooks for nurturing community](https://www.commonroom.io/resources/).
 
 ## Business Cases for Developer Relations

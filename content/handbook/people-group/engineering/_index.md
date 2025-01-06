@@ -23,7 +23,6 @@ Quick navigation to some of our other pages.
 |---|---|
 | [Career Mobility](/handbook/people-group/engineering/career-mobility) | Our automation flow on how we streamile on processes. |
 | [Employment Issues](/handbook/people-group/engineering/employment-issues) | Information regarding our onboarding and offboarding issue automations. |
-| [GH <=> BHR Sync](/handbook/people-group/engineering/gh-bhr-sync) | Our automation for syncing Greenhouse candidates to our HRIS system. |
 | [Nominator Bot](/handbook/people-group/engineering/nominatorbot) | Information regarding our custom Slack app, how to use it, FAQ's, and engineer guides. |
 | [Offboarding](/handbook/people-group/engineering/offboarding) | Our `offboarding` automation flow and everything you may need to know regarding this. |
 | [Onboarding](/handbook/people-group/engineering/onboarding) | Our `onboarding` automation flow and everything you may need to know regarding this. |
@@ -47,7 +46,6 @@ If you are looking to bring the People Group Engineering team into a discussion/
 If you want to report bugs about existing integrations, you can use any of the following templates:
 
 - [Bug with a /pops command](https://gitlab.com/gitlab-com/people-group/peopleops-eng/employment-automation/-/issues/new?issuable_template=bug_pops_command)
-- [Bug with the Greenhouse <> BambooHR sync](https://gitlab.com/gitlab-com/people-group/peopleops-eng/conservatory/-/issues/new?issuable_template=bug_with_sync)
 - [Bug with Nominations](https://gitlab.com/gitlab-com/people-group/peopleops-eng/nominatorbot/-/issues/new?issuable_template=general_bug)
 
 #### Urgent attention
@@ -147,7 +145,6 @@ We've build several automations and tools to support our People Group. In the fo
 
 ### Team member's employment
 
-- [Greenhouse <> BambooHR Sync]({{< ref "gh-bhr-sync" >}})
 - [Onboarding Automations](/handbook/people-group/engineering/onboarding)
 - [Career Mobility Automations](/handbook/people-group/engineering/career-mobility)
 - [Offboarding Automations](/handbook/people-group/engineering/offboarding)

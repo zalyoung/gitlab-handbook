@@ -1,5 +1,6 @@
 ---
 title: "Michael Lunøe's README"
+description: "Personal readme page for Michael Lunøe, Staff Frontend Engineer, Fulfillment:Billing and Subscription Management, GitLab"
 job: "Staff Frontend Engineer, Fulfillment:Billing and Subscription Management"
 ---
 
@@ -15,7 +16,7 @@ Please feel free to contribute to this page by opening a merge request.
 
 Here are some pages where you can read and learn about who I am and connect, if you like :)
 
-- https://m.lunoe.dk/
+- http://m.lunoe.dk/#/
 - https://www.linkedin.com/in/mlunoe/
 - https://stackoverflow.com/users/1008519/mlunoe
 

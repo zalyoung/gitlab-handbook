@@ -44,7 +44,7 @@ Exceptions during the active campaign will be made for GitLab team members on ex
 
 The GitLab [Phishing Training Program]({{< ref "phishing" >}}) is designed to educate and evaluate GitLab's ability to detect and prevent phishing attempts.  Ongoing [phishing simulations and trainings]({{< ref "security-training" >}}) are conducted once per quarter via [ProofPoint](https://gitlab.ws01-securityeducation.com/), GitLab's third-party provider, and requires participation and completion by all assigned GitLab Team Members and contractors/TSPs.
 
-Remember: If you see something, say something, and always report suspicious emails via [PhishAlarm]({{< ref "handbook/security#option-1-preferred" >}}).
+Remember: If you see something, say something, and always report suspicious emails via [PhishArm]({{< ref "handbook/security/security-assurance/governance/phishing/#what-to-do-if-you-suspect-an-email-is-a-phishing-attack" >}}).
 
 ### Data Classification Training
 

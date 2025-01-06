@@ -26,7 +26,7 @@ When you work synchronously, tools like Slack or Microsoft Teams enable conversa
 
 Letting Slack pings dictate your working life is a recipe for burnout. It's also a terrible way to work. Messages are [siloed](/handbook/communication/#avoid-direct-messages) outside of public channels, so it's impossible for others to transparently see what others are working on.
 
-To solve for this, only pay for a chat plan that retains messages for 90 days or less. If your team knows that they'll never be able to query a message thread for context on a project, they will not use the tool for work. Instead, they'll be forced to start, discuss, and complete work in the place where it should end up. At GitLab (the company), this is GitLab ([the product](https://about.gitlab.com/stages-devops-lifecycle)).
+To solve for this, only pay for a chat plan that retains messages for 90 days or less. If your team knows that they'll never be able to query a message thread for context on a project, they will not use the tool for work. Instead, they'll be forced to start, discuss, and complete work in the place where it should end up. At GitLab (the company), this is GitLab ([the product](https://about.gitlab.com/stages-devops-lifecycle/)).
 
 This not only forces work to happen [in the open](/handbook/values/#transparency), where more people can provide feedback as they work to [see each other succeed](/handbook/values/#see-others-succeed), but it's also a far more inclusive way to work.
 
@@ -80,7 +80,7 @@ When you give the bonus and celebrate the bonus in Slack, it also serves as a re
 
 ### Use technology to remind people to take time off
 
-Remote teams have an easier time speaking freely about travel. Because they're remote, they're autonomous by default, and location is [decoupled from output](/handbook/values/#measure-results-not-hours). In-office teams face stigmas related to conversing about vacations in the office.
+Remote teams have an easier time speaking freely about travel. Because they're remote, they're autonomous by default, and location is [decoupled from output](/handbook/values/#measure-impact-not-activity). In-office teams face stigmas related to conversing about vacations in the office.
 
 An easy way to force this toxic cloud of taboo out of your team is to use a digital program to remind team members to take time off. At GitLab, we work with [Time Off by Deel](https://www.deel.com/plugins/pto/) in conjunction with Workday to create an [opt-in program]({{< ref "paid-time-off#monthly-reminder-to-consider-taking-pto" >}}) which sends a direct message on the first working day of each month asking the individual to consider what time they plan on taking this month to rest and recharge. It also gives permission to the team member to directly confront their manager if they feel as if they cannot possibly take time off.
 
@@ -135,7 +135,7 @@ This added burden forces team members to consider approaching work [asynchronous
 
 {{< youtube "SP7u0gYCHiY?start=608" >}}
 
-*In the [video](https://youtu.be/SP7u0gYCHiY) above, Darren Murph, Head of Remote at GitLab sits down with Jeff Frick for a [Digital CUBE Conversation](https://siliconangle.com/2020/05/01/all-remote-gitlab-offers-advice-and-resources-as-companies-adjust-to-life-away-from-offices-cubeconversations) about the way the global Covid-19 crisis is affecting the way people work, and work from home. Discover more in GitLab's [Remote Work playlist](https://www.youtube.com/playlist?list=PL05JrBw4t0Kq7QUX-Ux5fOunQotqJbECc).*
+*In the [video](https://youtu.be/SP7u0gYCHiY) above, Darren Murph, Head of Remote at GitLab sits down with Jeff Frick for a [Digital CUBE Conversation](https://siliconangle.com/2020/05/01/all-remote-gitlab-offers-advice-and-resources-as-companies-adjust-to-life-away-from-offices-cubeconversations/) about the way the global Covid-19 crisis is affecting the way people work, and work from home. Discover more in GitLab's [Remote Work playlist](https://www.youtube.com/playlist?list=PL05JrBw4t0Kq7QUX-Ux5fOunQotqJbECc).*
 
 The *quickest* way to send the *clearest* signal that remote is the future is to start at the top of the organizational chart. Remove execs from the office, and you'll quickly figure out what gaps you need to fill with tools and process.
 
@@ -152,7 +152,7 @@ So long as your company adheres — even if unofficially — to set working hour
 
 The only way to remove that bias and open your company to a [truly global and diverse workforce](hiring/) is to destroy the epicenter of power as it relates to working hours.
 
-This also enables your workforce to design their work around their life, empowering them to be [managers of one](/handbook/values/#managers-of-one). This is a more [inclusive](https://about.gitlab.com/blog/2019/12/06/how-all-remote-supports-inclusion-and-bolsters-communities) and [healthier](mental-health/) way of working.
+This also enables your workforce to design their work around their life, empowering them to be [managers of one](/handbook/values/#managers-of-one). This is a more [inclusive](https://about.gitlab.com/blog/2019/12/06/how-all-remote-supports-inclusion-and-bolsters-communities/) and [healthier](mental-health/) way of working.
 
 ### If it's not in the handbook, it doesn't exist
 
@@ -162,7 +162,7 @@ Read more about this forcing function in GitLab's guide to [adopting a self-serv
 
 {{< youtube "I-XQfP-NfpU?start=376" >}}
 
-*In the [GitLab Unfiltered](https://www.youtube.com/channel/UCMtZ0sc1HHNtGGWZFDRTh5A) video above, Darren (Head of Remote, GitLab) and two co-founders at [Yac](https://www.yac.chat) discuss the significance of relying on a company handbook as the [single source of truth](handbook-first#creating-a-home-for-a-single-source-of-truth-ssot).*
+*In the [GitLab Unfiltered](https://www.youtube.com/channel/UCMtZ0sc1HHNtGGWZFDRTh5A) video above, Darren (Head of Remote, GitLab) and two co-founders at [Yac](https://yac.com/) discuss the significance of relying on a company handbook as the [single source of truth](handbook-first#creating-a-home-for-a-single-source-of-truth-ssot).*
 
 > "GitLab's founders made a fundamental decision early on to work handbook-first to document everything about the company. Everyone who has joined since benefits from that initial step.
 >
@@ -200,13 +200,13 @@ You can do a [deep dive on remote-work challenges and solutions](drawbacks/#remo
 
 ## GitLab Knowledge Assessment: How to use Forcing Functions to Work Remote-First
 
-Anyone can test their knowledge on How to use forcing functions to work remote-first by completing the [knowledge assessment](https://docs.google.com/forms/d/e/1FAIpQLSePE1Aii5nQ_Xvz_hInlb2FZsvFkyQduUeMmeJ-vu6CNBqSzg/viewform). Earn at least an 80% or higher on the assessment to receive a passing score. Once the quiz has been passed, you will receive an email acknowledging the completion from GitLab. We are in the process of designing a GitLab Remote Certification and completion of the assessment will be one requirement in obtaining the [certification](https://about.gitlab.com/learn/certifications/public). If you have questions, please reach out to our [Learning & Development team](/handbook/people-group/learning-and-development) at `learning@gitlab.com`.
+Anyone can test their knowledge on How to use forcing functions to work remote-first by completing the [knowledge assessment](https://docs.google.com/forms/d/e/1FAIpQLSePE1Aii5nQ_Xvz_hInlb2FZsvFkyQduUeMmeJ-vu6CNBqSzg/viewform). Earn at least an 80% or higher on the assessment to receive a passing score. Once the quiz has been passed, you will receive an email acknowledging the completion from GitLab. We are in the process of designing a GitLab Remote Certification and completion of the assessment will be one requirement in obtaining the [certification](https://university.gitlab.com/certifications/public). If you have questions, please reach out to our [Learning & Development team](/handbook/people-group/learning-and-development) at `learning@gitlab.com`.
 
 {{% include "includes/is_this_advice_any_good_remote.md" %}}
 
 ## Contribute your lessons
 
-GitLab believes that all-remote is the [future of work]({{< ref "remote-vision" >}}), and remote companies have a shared responsibility to show the way for other organizations who are embracing it. If you or your company has an experience that would benefit the greater world, consider creating a [merge request](https://docs.gitlab.com/ee/user/project/merge_requests) and adding a contribution to this page.
+GitLab believes that all-remote is the [future of work]({{< ref "remote-vision" >}}), and remote companies have a shared responsibility to show the way for other organizations who are embracing it. If you or your company has an experience that would benefit the greater world, consider creating a [merge request](https://docs.gitlab.com/ee/user/project/merge_requests/) and adding a contribution to this page.
 
 ---
 

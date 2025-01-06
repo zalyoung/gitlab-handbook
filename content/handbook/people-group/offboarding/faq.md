@@ -9,11 +9,11 @@ description: "Common Questions about the Offboarding Process"
 
 Offboarding issues are used for de-provisioning purposes so you, as the team member, do not need to do anything to get it opened or will have any action items within the issue.
 
-The People Connect Team member assigned to your offboarding will create it after you are done working on your last day. The latest it will be is 4pm (local time) on Monday-Thursday or 12pm (local time) on Fridays.
+The People Connect Team member assigned to your offboarding will ensure the automation triggers to create the offboarding issue on the last working day by 4pm (local time) Monday-Friday.
 
 ### When will my access be deactivated?
 
-Your access will be deactivated on your last day at 4pm (local time) on Monday-Thursday or 12pm (local time) on Fridays.
+Your access will be deactivated on your last day at 4pm (local time) on Monday-Friday
 
 ### Can I provide my own update in the Team Member Updates Slack Channel?
 

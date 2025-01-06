@@ -7,7 +7,7 @@ canonical_path: "/handbook/support/readiness/operations/docs/zendesk/tags"
 ## What are Zendesk tags?
 
 As per
-[Zendesk](https://support.zendesk.com/hc/en-us/articles/203662096-About-tags):
+[Zendesk](https://support.zendesk.com/hc/en-us/articles/4408888664474-About-tags):
 
 > Tags are words, or combinations of words, you can use to add more context to
 > tickets and topics. You can apply tags to tickets, users, and organizations.
@@ -43,6 +43,8 @@ important to those working within Zendesk:
 | `sub_sm_starter`               | Standard    | The organization has a Self-managed Starter subscription |
 | `sub_sm_ultimate`              | Priority    | The organization has a Self-managed Ultimate subscription |
 | `sub_ss_ase`                   | General     | The organization has purchased an Assigned Support Engineer addon |
+| `sub_ss_growth`                | General     | The organization has purchased a Success Growth addon |
+| `sub_ss_enterprise`            | Special     | The organization has purchased a Success Enterprise addon |
 | `sub_usgov_12x5`               | Priority    | The organization has a US Government purchase granting 12x5 support |
 | `sub_usgov_24x7`               | Priority    | The organization has a US Government purchase granting 24x7 support |
 

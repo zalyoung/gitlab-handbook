@@ -44,7 +44,7 @@ Currently, we plan on making the new unified backup tool also uphold this restri
 
 Currently GitLab provides recommendations for [how to create application backups](https://docs.gitlab.com/ee/administration/backup_restore/backup_gitlab.html) across different installation types and different hosting architectures. We provide a fairly rudimentary set of tools to create a point-in-time application backup, as well as specialized documentation for how to handle more complex cloud backup situations. You can read more on [how GitLab backups work here](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/158058).
 
-These are based on [Rake tasks](https://docs.gitlab.com/ee/raketasks) in the GitLab repository.
+These are based on [Rake tasks](https://docs.gitlab.com/ee/raketasks/) in the GitLab repository.
 
 #### Drawbacks of the current approach
 

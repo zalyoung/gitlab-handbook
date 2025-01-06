@@ -182,7 +182,7 @@ If at any point you would like advice or help finding additional support, [conta
     - After another 15 minutes without response the bridge will be closed and the ticket will be assigned a `HIGH` priority.
     - Feel free to open a new emergency request if the need arises.
 
-**NOTE:** If you need to reach the current on-call engineer and they're not accessible on Slack (e.g., it's a weekend, or the end of a shift), you can [manually trigger a PagerDuty incident](https://support.pagerduty.com/docs/incidents#section-manually-trigger-an-incident) to get their attention, selecting **Customer Support** as the Impacted Service and assigning it to the relevant Support Engineer.
+**NOTE:** If you need to reach the current on-call engineer and they're not accessible on Slack (e.g., it's a weekend, or the end of a shift), you can [manually trigger a PagerDuty incident](https://support.pagerduty.com/main/docs/incidents#section-manually-trigger-an-incident) to get their attention, selecting **Customer Support** as the Impacted Service and assigning it to the relevant Support Engineer.
 
 #### PagerDuty Status
 
@@ -519,7 +519,7 @@ During an incident:
 
 #### Using Zendesk Bulk Update
 
-[Zendesk Bulk Update](https://support.zendesk.com/hc/en-us/articles/203690866-Managing-tickets-in-bulk#topic_oth_lkp_gk) is a way to mass edit and respond to tickets. During an incident, you can use it to:
+[Zendesk Bulk Update](https://support.zendesk.com/hc/en-us/articles/4408886890906-Managing-tickets-in-bulk#topic_oth_lkp_gk) is a way to mass edit and respond to tickets. During an incident, you can use it to:
 
 - automatically tag tickets
 - send a bulk response

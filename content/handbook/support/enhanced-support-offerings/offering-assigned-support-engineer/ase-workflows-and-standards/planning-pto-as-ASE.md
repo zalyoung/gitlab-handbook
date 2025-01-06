@@ -30,10 +30,11 @@ will be out.
 - Review the accounts and open tickets with your backups
 - Inform the customers and account teams of your upcoming absence and your
   coverage plan
-
-Help the SEs who will be monitoring your accounts to setup a notifications in
-Zendesk using the [notifications app](/handbook/support/readiness/operations/docs/zendesk/apps/global-apps/#notifications-app)
-so that they will be notified of new tickets.
+- Help the SEs who will be monitoring your accounts to configure the
+  [Zendesk notifications app](/handbook/support/readiness/operations/docs/zendesk/apps/global-apps/#notifications-app)
+  to notify them upon the arrival of new tickets.
+- Use the [Delegate Tasks feature of `Time Off by Deel` in Slack](https://help.letsdeel.com/hc/en-gb/articles/11901927070737-How-To-Request-Time-Off-With-Deel-Plugin#h_01GNY1Q325CCDEMASHZCMMY4RS)
+  to indicate who is covering for each of your accounts
 
 ### Returning from PTO
 

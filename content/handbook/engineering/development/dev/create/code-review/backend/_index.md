@@ -5,7 +5,7 @@ description: The Create:Code Review BE team is responsible for all backend aspec
 
 ## Team Vision & Mission
 
-Please refer to the category directions for [Code Review Workflow](https://about.gitlab.com/direction/create/code_review_workflow) and [GitLab CLI](https://about.gitlab.com/direction/create/gitlab_cli) for the current strategy and 1 year plan for these products.
+Please refer to the category directions for [Code Review Workflow](https://about.gitlab.com/direction/create/code_review_workflow/) and [GitLab CLI](https://about.gitlab.com/direction/create/gitlab_cli/) for the current strategy and 1 year plan for these products.
 
 ## Core Responsibilities
 
@@ -108,32 +108,32 @@ Many issues require work on both the backend and frontend, but the weight of tha
 
 ### What to work on
 
-The primary source for things to work on is the [Code Review backend issue board](https://gitlab.com/groups/gitlab-org/-/boards/412126?label_name[]=group::code%20review&label_name[]=backend)
-for the current iteration cycle (don't forget to filter by milestone!), which
-lists all of the Deliverable and Stretch issues scheduled for this cycle in
-priority order.
+The primary source for things to work on is the [Code Review Release board](https://gitlab.com/groups/gitlab-org/-/boards/2159734?milestone_title=Upcoming)
+for the current iteration cycle, which
+lists all of the Deliverable and Stretch issues scheduled for this cycle.
 
-The lists are compiled by the Product Manager following the [product prioritization
-process], with input from the team, engineering managers, and other stakeholders.
-The iteration cycle lasts from the 18th of one month until the 17th of the next,
+The lists are compiled by the Product Manager and Engineering Managers following the
+[milestone planning process](/handbook/engineering/development/dev/create/code-review/backend/manager),
+with input from the team and other stakeholders.
+The iteration cycle start on the Monday before the 3rd Thursday of the month,
 and is identified by the GitLab version set to be released.
 
-There is also the [Code Review backend _assignment_ issue board](https://gitlab.com/groups/gitlab-org/-/boards/2142016)
-(again, don't forget to filter by milestone!), which shows the same Deliverable
+There is also the [Code Review backend _assignment_ issue board](https://gitlab.com/groups/gitlab-org/-/boards/2142016?milestone_title=Upcoming),
+which shows the same Deliverable
 and Stretch issues, now grouped by assignee, with the left-most list listing
-issues not currently assigned to any backend engineer. On each list, the issues
-are again ordered by priority.
+issues not currently assigned to any backend engineer.
 
 #### What to work on first
 
 Deliverables are considered top priority and are expected to be done by the end
-of the iteration cycle on the 17th, in time for the [monthly release](/handbook/engineering/releases/).
+of the iteration cycle on the Friday before the 3rd Thursday of the month,
+in time for the [monthly release](/handbook/engineering/releases/).
 
-These top priority issues are assigned to engineers on or ahead of the 18th of
-the month, when the iteration cycle is kicked off, and it is their responsibility
+These top priority issues are assigned to engineers on or ahead of the start of the
+milestone, and it is their responsibility
 to make a best effort to get them done during that cycle, and to inform their
 engineering manager if anything is standing in the way of their success.
-You can find the issues assigned to you on the [Code Review backend assignment issue board](https://gitlab.com/groups/gitlab-org/-/boards/2142016) (again, don't forget to filter by milestone!).
+You can find the issues assigned to you on the [Code Review backend assignment issue board](https://gitlab.com/groups/gitlab-org/-/boards/2142016?milestone_title=Upcoming).
 
 Many things can happen during a month that can result in a deliverable
 not actually being completed by the end of a cycle, and while this usually
@@ -161,9 +161,7 @@ working on them immediately (regressions, security issues, customer issues, etc)
 
 If you have time to spare after finishing your deliverables and other
 activities, you can spend the remaining time working on Stretch issues, which
-can also be found on the [Code Review backend issue board](https://gitlab.com/groups/gitlab-org/-/boards/412126?label_name[]=group::code%20review&label_name[]=backend) and [Code Review backend assignment issue board](https://gitlab.com/groups/gitlab-org/-/boards/2142016)
-(again, don't forget to filter by
-milestone!).
+can be found on the same issue boards.
 
 These lower priority issues are _not_ expected to be done by the end of the
 iteration cycle, but are to be Deliverables in the _next_ cycle, so any progress
@@ -175,17 +173,11 @@ case of technical debt, bugs related to work someone did recently, or issues
 someone started on before but hasn't had a chance to finish yet.
 
 If no Stretch issues are assigned to you yet, you can find new ones to pick up
-in the left-most list of the [Code Review backend assignment issue board](https://gitlab.com/groups/gitlab-org/-/boards/2142016)
-(again, don't forget to filter by milestone!), which lists all issues
-not currently assigned to any backend engineer. As the issues are ordered by
-priority, they should be picked up starting at the top. When you assign
-an issue to yourself to indicate you're working on it, it will move to your list
-and out of the left-most unassigned list, and the second issue will rise to the
-top for other engineers to pick up.
+by [filtering the Code Review Release board](https://gitlab.com/groups/gitlab-org/-/boards/2159734?&assignee_id=None&milestone_title=Upcoming)
 
-If anything is blocking you from getting started with the top issue immediately,
+If anything is blocking you from getting started on an issue immediately,
 like unanswered questions or unclear requirements, you can skip it and consider
-a lower priority issue, as long as you put your findings and questions in the
+another issue, as long as you put your findings and questions in the
 issue, so that the next engineer who comes around may find it in a better state.
 
 Instead of picking up Stretch issues, you may also choose to spend any

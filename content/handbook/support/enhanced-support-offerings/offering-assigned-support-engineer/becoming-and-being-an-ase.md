@@ -49,7 +49,7 @@ You might also find it helpful to review the
 1. Change your job title in Zoom
 1. Update your signature in Zendesk to indicate that you are an ASE
 
-### 
+###
 
 **<<<< COMING SOON >>>>**
 

@@ -56,7 +56,7 @@ A good organization note will answer the following questions:
 - What to do in case the customer submits an emergency ticket?
 
 This information will come from the contract and from the discussion with the
-customer in the [introductory meeting](#customer-communication).
+customer in the [introductory meeting](./introductory-meeting.html).
 
 Create a merge request for the org note
 [in the Organizations project](https://gitlab.com/gitlab-com/support/zendesk-global/organizations)

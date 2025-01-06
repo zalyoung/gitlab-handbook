@@ -41,7 +41,6 @@ This issue is the single source of truth for all planning related discussions an
 Application Security team members are responsible for:
 
 - Evaluating and communicating their capacity for the Milestone (based on PTO, rotation assignments, and other factors)
-- Adding work that is being carried over into the Milestone Work table
 - Adding potential work items to the Parking Lot and being involved in discussions around what work we should pull into the Milestone
 - Verifying upcoming rotations they are assigned to have an issue in the Milestone
 - Collaborating with Application Security managers to finalize the set of work being committed to for the Milestone
@@ -59,9 +58,10 @@ Application Security team members are responsible for keeping issues and labels 
 
 Any issue being worked on by an Application Security team member must include:
 
-- The `team::Application Security` label
+- The `Application Security Team` label
 - The appropriate `AppSecWorkflow::` label
 - The appropriate Milestone
+- The appropriate Priority labels
 
 ### Updating issues health
 
@@ -84,26 +84,21 @@ Updating the issue milestone is required:
 | `AppSecWorkflow::in-progress` | Indicates the issue is actively being worked on, or the rotation is in progress |
 | `AppSecWorkflow::complete` | Indicates the work is done, or the rotation has finished |
 
+## Priority Labels
+
+The priority classification labels helps ICs understand what is the priority for leadership.
+
+The label assignment can be done by leadership (AppSec or at higher levels), or by the team members themselves. When team members are not sure on a particular priority, they can consult leadership for confirmation.
+
+| Label | Description |
+| ----- | ----------- |
+| AppSecPriority::1 | Top priority work that must be completed for the end of the planned milestone. |
+| AppSecPriority::2 | Work priority that is important and is prioritized as soon as all `AppSecPriority::1` work is completed. `AppSecPriority::2` work will become `AppSecPriority::1` on the next milestone. |
+| AppSecPriority::3 | Work priority that is less important and is prioritized as soon as all `AppSecPriority::2` work is completed. `AppSecPriority::3` will be evaluated during Milestones Planning Sessions and may become `AppSecPriority::2` for the next milestone. |
+
 ### Rotations
 
-Issues must be created for each rotation during the Milestone and assigned to the relevant team member.
-
-#### Issue Process
-
-1. Rotation issues are created ahead of time for the entire duration of the Milestone, initially with the `workflow::ready for development` label
-1. At the beginning of a rotation time period, the team member on rotation will update the workflow label to `workflow::in dev`
-1. At the end of the rotation time period, the team member on rotation will update the workflow label to `workflow::complete` and close the issue
-
-#### Rotation Issue Labels
-
-These issues must be labeled with the appropriate AppSecRotation label:
-
-| Rotation | Label |
-| --- | --- |
-| HackerOne | `AppSecWorkType::HackerOneRotation` |
-| Triage | `AppSecWorkType::TriageRotation` |
-| Security Release | `AppSecWorkType::ReleaseRotation` |
-| Federal AppSec VAT | `AppSecWorkType::VATRotation` |
+[HackerOne](/handbook/security/product-security/application-security/runbooks/hackerone-process/) and [Triage](/handbook/security/product-security/application-security/runbooks/triage-rotation/) rotation issues are created through the [rotation management tool](https://gitlab.com/gitlab-com/gl-security/product-security/appsec/tooling/rotation-management/) 
 
 ## Milestone Planning Refinement Guidelines
 
@@ -113,9 +108,9 @@ These issues must be labeled with the appropriate AppSecRotation label:
 - Does it have at least one DRI assigned and are they aware?
 - Are there dependencies? If so, document them.
 - Are there other stakeholders and are they looped in and aware?
-- Is the correct `AppSecWorkType::` label set?
-- Is the `AppSecWeight::` label set?
-- Does it have the `team::Application Security` label?
+- Is the correct [`AppSecWorkType::` label](/handbook/security/product-security/application-security/metrics/capacity/#type-of-work-classification) set?
+- Is the [`AppSecWeight::` label](/handbook/security/product-security/application-security/metrics/capacity/#effort-classification) set?
+- Does it have the `Application Security Team` label?
 - Across the whole milestone, is the total operational + project weight achievable?
 
 When issue is fully refined, please set the `AppSecWorkflow:planned` label, indicating it's ready to be worked on in the assigned milestone.

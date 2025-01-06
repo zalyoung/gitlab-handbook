@@ -1,5 +1,5 @@
 ---
-title: "Scalability:Observability Team"
+title: "Observability Team"
 ---
 
 Observability encompasses the technical elements responsible for metrics, logging, and tracing, along with the tools and processes that leverage these components.
@@ -10,18 +10,18 @@ Our mission is to deliver and maintain a world-class observability offering and 
 
 ## Common Links
 
-|                                |                                                                                                                                                                                                                                                                                                                                                                                                                                |
-|--------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Workflow**                   | [Team workflow](/handbook/engineering/infrastructure/team/scalability/#how-we-work)                                                                                                                                                                                                                                                                                                                                            |
-| **GitLab.com**                 | `@gitlab-org/scalability/observability`                                                                                                                                                                                                                                                                                                                                                                                        |
-| **Issue Trackers**             | [Scalability](https://gitlab.com/gitlab-com/gl-infra/scalability) <br/> [Tamland](https://gitlab.com/gitlab-com/gl-infra/tamland/-/issues)                                                                                                                                                                                                                                                                                        |
-| **Team Slack Channels**        | [#g_scalability-observability](https://gitlab.slack.com/archives/g_scalability-observability) - Team channel<br/> [#scalability_social](https://gitlab.slack.com/archives/g_scalability_social) - Group social channel                                                                                                                                                                                                         |
-| **Project Slack Channels**     | [#scalability-tamland](https://gitlab.enterprise.slack.com/archives/C05JU82BJQH) Tamland development <br/> |
+|                                |                                                                                                                                                                                                                                                                                                                                                                                                                                 |
+|--------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Workflow**                   | [Team workflow](/handbook/engineering/infrastructure/team/scalability/#how-we-work)                                                                                                                                                                                                                                                                                                                                             |
+| **GitLab.com**                 | `@gitlab-org/scalability/observability`                                                                                                                                                                                                                                                                                                                                                                                         |
+| **Issue Trackers**             | [Scalability](https://gitlab.com/gitlab-com/gl-infra/scalability) <br/> [Tamland](https://gitlab.com/gitlab-com/gl-infra/tamland/-/issues)                                                                                                                                                                                                                                                                                      |
+| **Team Slack Channels**        | [#g_observability](https://gitlab.slack.com/archives/g_observability) - Team channel<br/> [#infrastructure_platforms_social](https://gitlab.enterprise.slack.com/archives/C062T669RFD) - Social channel                                                                                                                                                                                                                         |
+| **Project Slack Channels**     | [#observability-tamland](https://gitlab.enterprise.slack.com/archives/C05JU82BJQH) Tamland development <br/>                                                                                                                                                                                                                                                                                                                    |
 | **Information Slack Channels** | [#infrastructure-lounge](https://gitlab.slack.com/archives/infrastructure-lounge) (Infrastructure Group Channel), <br/>[#incident-management](https://gitlab.slack.com/archives/incident-management) (Incident Management),  <br/>[#alerts-general](https://gitlab.slack.com/archives/alerts-general) (SLO alerting), <br/>[#mech_symp_alerts](https://gitlab.slack.com/archives/mech_symp_alerts) (Mechanical Sympathy Alerts) |
 
 ## Team Members
 
-The following people are members of the Scalability:Observability team:
+The following people are members of the Observability team:
 
 {{< team-by-manager-slug "liam-m" >}}
 
@@ -85,7 +85,7 @@ Hence we strive to use group-level labels and boards to get the entire picture.
 
 #### Labels
 
-All issues pertaining to our team have the `~"team::Scalability-Observability"` label.
+All issues pertaining to our team have the `~"team::Observability"` label.
 
 All issues that are within scope of current work have a `~board::build` or `~board::planning` label.
 This is a measure to cut through noise on the tracker and allows us to get a view on what's currently important to us.

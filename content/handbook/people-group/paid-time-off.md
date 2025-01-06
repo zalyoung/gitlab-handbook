@@ -12,7 +12,7 @@ Time away from work can be extremely helpful for maintaining a [healthy work/lif
 
 Taking time off is not a selfish behavior. Not only is time away from work aligned with GitLab's operating principle [Family and friends first, work second](/handbook/values/#family-and-friends-first-work-second), but it is vital to maintaining [mental health](/handbook/company/culture/all-remote/mental-health/). It is also a core part of the creative process.
 
-It is important to take time off to recharge batteries and refresh mind so you can come back to GitLab with renewed energy and be prepared to do your best work ever!
+It is important to take time off to recharge batteries and refresh your mind so you can come back to GitLab with renewed energy and be prepared to do your best work ever!
 
 This page is written with a focus on vacation. The below recommendations on communicating your time off apply to time off for all reasons where possible and avoid concerns of health, safety, or job abandonment. GitLab offers a Flexible PTO Policy, but team members are not allowed to substitute PTO for sick time. If taking time off for medical needs or sick time, whether physical or mental, please follow our [Sick Time Policy](/handbook/people-group/paid-time-off/#sick-time---taking-and-reporting).
 
@@ -64,11 +64,9 @@ Entering time off in Workday is not necessary if working but working asynchronou
     1. Select your country of residence
     1. Change the dropdown from 'All holidays and national observances' to 'Public Holidays'
 
-We recognize this list may not encompass all state or local public holidays, but please follow the guidance above--if public schools or government offices in your location are closed--then please enter your time off as a public holiday in Workday.  For any questions related to holidays or how to categorize time off please reach out to `leaves@gitlab.com`.
+We recognize this list may not encompass all state or local public holidays, but please follow the guidance above--if public schools or government offices in your location are closed--then please enter your time off as a public holiday in Workday.  For any questions related to holidays or how to categorize time off please reach using [HelpLab](https://helplab.gitlab.systems/esc?id=emp_taxonomy_topic&topic_id=3df7f70d474c069067429ee0026d434c).
 
 1. If you decide to work on a holiday and then take another day off in lieu of the actual holiday date, we ask that you choose Public Holiday as a PTO category, and in the section `What is this OOO for?` please clarify that this day is taken in lieu of the actual holiday date.
-
-   ![picture-of-pto-ninja-OOO-request](/handbook/people-group/paid-time-off/pto_ninja_OOO.png)
 
 1. Please note that Public Holidays will be listed in Workday with a Length of 0 days (0 hours).
 
@@ -128,12 +126,6 @@ Returning from PTO of any length can feel overwhelming. Consider implementing th
 1. Honor a window of transition when returning from PTO and recognize that [rest and time off is productive](/handbook/company/culture/all-remote/mental-health/#rest-and-time-off-are-productive). Big, reflective moments may happen when you take a step back and reflect. Before catching up on all missed emails and Slack messages, consider first revisiting priority projects to take action on these reflections. In our [interview about managing burnout](/handbook/company/culture/all-remote/mental-health/#rest-and-time-off-are-productive), John Fitch described this approach as spending time working *on* your projects, rather than *in* your projects. This could look like blocking off a few days with no meetings to complete deep work on an OKR or hosting a collaborative session with your team to brainstorm.
 
 1. When returning from paid time off, it can be helpful to schedule a [coffee chat](/handbook/company/culture/all-remote/informal-communication/#coffee-chats) or two on the day of your return to get caught up, share stories from your time off, and simply reconnect with your team members. It also provides a nice break from to-dos and unread emails. This type of conversation may occur organically in a colocated office but needs to be managed with intent in an all-remote company.
-
-#### Adjust/Remove PTO from past events
-
-The People Operations team is able to adjust active PTO events and past PTO events. If you need the team to adjust an event, please submit a HelpLab - Paid Time Off request with the details e.g. 'please remove two hours of PTO from October 31st'.
-
-We encourage everyone to fully step away from work on their days off but understand that unforseen events can arise.
 
 ### Sick Time - Taking and Reporting
 
@@ -275,7 +267,7 @@ You can request a new Workday feature by using the aforementioned `/time-off-dee
 
 ### Instructions for Team Members to update past events
 
-Team members can [correct or edit](https://docs.google.com/document/d/1c0Qp738HXEeIb_SxUeKZYlG3su086CO5Dxa618Rvffk/edit) past-dated time off entries up to 30 days in the past.  All other entries will need to be submitted to the People Connect team for review.  Not all requests will be approved as it is the team member's responsibility to assure all time away requests are accurate.
+Team members can [correct or edit](https://docs.google.com/document/d/1c0Qp738HXEeIb_SxUeKZYlG3su086CO5Dxa618Rvffk/edit) future and, past-dated time off entries up to 30 days in the past.  All other entries will need to be submitted to the People Connect team for review using [HelpLab](https://helplab.gitlab.systems/esc?id=emp_taxonomy_topic&topic_id=3df7f70d474c069067429ee0026d434c). Not all requests will be approved as it is the team member's responsibility to assure all time away requests are accurate.
 
 ## Management's Role in Paid Time Off
 
@@ -460,15 +452,15 @@ Team members are encouraged to review additional information on [working time in
 
 GitLab's [PTO policy](paid-time-off) overrides over GitLab Canada Corp in the sense that the policies listed here are stating the statutory minimum that each GitLab Canada Corp team member must take to be compliant with relevant provincial laws. For more information, refer to the applicable employment standards legislation of the Province in which you reside.
 
-- [Alberta Employment Standards](https://www.alberta.ca/employment-standards.aspx)
+- [Alberta Employment Standards](https://www.alberta.ca/employment-standards)
 - [British Columbia Employment Standards](https://www2.gov.bc.ca/gov/content/employment-business/employment-standards-advice/employment-standards)
 - [Manitoba Employment Standards](https://www.gov.mb.ca/labour/standards/doc,quick_guide,factsheet.html)
 - [New Brunswick Employment Standards](https://laws.gnb.ca/en/showfulldoc/cs/E-7.2//20220106)
 - [Newfoundland and Labrador Labor Standards](https://www.gov.nl.ca/ecc/labour/lsaissues/)
 - [Northwest Territories Employment Standards](https://www.ece.gov.nt.ca/en/services/employment-standards)
 - [Nova Scotia Labor Standards](https://novascotia.ca/lae/employmentrights/docs/LabourStandardsCodeGuide.pdf)
-- [Nunavut Labor Standards](https://www.nu-nlsb.ca/)
-- [Ontario Employment Standards](https://www.labour.gov.on.ca/english/es/)
+- [Nunavut Labor Standards](https://nu-nlsb.ca/)
+- [Ontario Employment Standards](https://www.ontario.ca/document/your-guide-employment-standards-act-0)
 - [Prince Edward Island Employment Standards](https://www.princeedwardisland.ca/en/information/workforce-advanced-learning-and-population/employment-standards-in-pei)
 - [Quebec Labor Standards](https://www.cnesst.gouv.qc.ca/sites/default/files/documents/labour-standards-quebec.pdf)
 - [Saskatchewan Employment Standards](https://www.saskatchewan.ca/business/employment-standards)

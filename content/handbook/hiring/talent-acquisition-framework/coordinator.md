@@ -3,7 +3,7 @@ title: "Candidate Experience Specialist Responsibilities"
 description: "This page is an overview of the processes, and systems that the Candidate Experience Team is responsible for."
 ---
 
-The CES team utilizes [GitLab Service Desk](https://about.gitlab.com/stages-devops-lifecycle/service-desk/) to track all incoming requests to the CES team. If you are a GitLab team member and you have a request or question for the Candidate Experience team, email `ces@gitlab.com` and a ticket will automatically be created within the CES Service Desk. Please see the [alignment page]({{< ref "recruiting-alignment#recruiter-coordinator-and-sourcer-alignment-by-department" >}}) to learn more about which CES team member will be working on your requests.
+The CES team utilizes [GitLab Service Desk](https://docs.gitlab.com/ee/user/project/service_desk/) to track all incoming requests to the CES team. If you are a GitLab team member and you have a request or question for the Candidate Experience team, email `ces@gitlab.com` and a ticket will automatically be created within the CES Service Desk. Please see the [alignment page]({{< ref "recruiting-alignment#recruiter-coordinator-and-sourcer-alignment-by-department" >}}) to learn more about which CES team member will be working on your requests.
 
 ### Best Practices
 
@@ -115,26 +115,20 @@ This process not only applies to executive requisitions, but any reqs or intervi
 - If the candidate needs to reschedule, notify the appropriate EBA in the slack channel and share the candidate's updated availability and greenhouse profile.
 - The EBA and CES team will communicate any interview changes or concerns in the slack channel. Other requests such as flagging an offer, completing an interview scorecard, or regarding the executive's schedule may be communicated in this channel as well.
 
-#### Candidate Reimbursement Process
+#### Candidate accessibility and accommodation request process
 
-On occasion, candidates may need to interview in person with a team member at GitLab or they may require a reasonable accommodation to be successful in their interview process. In these cases, candidates are eligible for reimbursement from GitLab to cover any expenses incurred during this process. Please see process below on to handle candidate reimbursement in these cases. DRI - Senior CES, CES Manager
+At GitLab, we are committed to fostering an inclusive environment where everyone has the opportunity to contribute.
+The following steps outline the workflow for the Candidate Experience team to process any accessibility and accommodation requests submitted by candidates. The accommodation request form is included in the candidate availability email, which recruiters send when transitioning candidates from the screening stage to the initial interview stage.
 
-**Important to note:** The department the candidate is interviewing for will be responsible to reimburse from their budget IF they are requiring these expenses to be incurred (i.e. face to face interview costs). Any candidate requesting a reasonable accommodation throughout their interview process will have their request reviewed and approved by TALT. These reimbursements will be paid from the TA budget (i.e interpreter services)
+If the candidate submits the form, all the CES team members will receive an email stating that a response has been received via the Google form.
 
-1. Recruiter/Candidate reaches out to CES for candidate reimbursement.
-1. There are two types of reimbursement:
-   - Candidate incurred costs during their interview process due to the department they are interviewing for having specific demands. These will be reimbursed out of the department specific budget.
-   Items approved for reimbursement are:
-      - All modes of transportation
-      - Meals
-      - Accommodations if they are necessary
-   - If a candidate has a reasonable accommodation request to assist them throughout their interview process, they can email CES and CES will work with TALT to assess and accommodate. These will come out of the TA budget if costs are incurred. This can include but is not limited to the following:
-      - Translation Services
-      - Use of additional services or assistive technologies
-      - Assistance in setting up Closed Captioning for interviews (may not require reimbursement)
-1. CES will send "Candidate Reimbursement" email template from Greenhouse from their own GitLab email address, not ces@gitlab.com. **Note:** these emails will need to stay out of the CES service desk, hence the reason the CES responsible for this process will send from their personal GitLab email.
-1. Once the candidate submits the form attached to the email, both CES and AP will be alerted via spreadsheet.
-1. Accounts Payable will then process the candidates reimbursement request and respond to all that it has been completed. Candidates can expect to receive their reimbursement within 1-2 weeks of submission.
+1. Forward the form to CES desk (ces@gitlab.com).
+2. Label the ticket as “accommodation request” and assign to the respective CES. Type in “accesschecktodo” in the comments section of the issue so the next steps are listed.
+3. The CES assigned to the requisition will process the request by reviewing the response and determining the accommodation need. Candidates can submit three types of accommodation requests: Closed captioning for video interviews, Additional time for technical interviews, and Multi-Day interviews.
+4. Schedule the interview based on the recruiter’s scheduling request.
+5. In the interviewer invite, next to “accommodation requested:” use TE snippets "zoomclose" for zoom closed captioning or "adtime" for an additional interview time. If the candidate has requested a multi-day interview, please schedule the interviews accordingly.
+6. Please leave a tag—“Project Equispace”—in the candidate's GH profile for easy reference so we can adequately track and address accommodation needs as the candidate progresses through the hiring process.
+7. Close the issue once the scheduling is completed.
 
 #### Prelude
 

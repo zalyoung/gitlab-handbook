@@ -7,7 +7,7 @@ Any synchronous or asynchronous engagement with team members may turn into a cru
 
 Team members can take a [crucial conversations training](/handbook/people-group/learning-and-development/learning-initiatives/crucial-conversations/) led by the Learning and Development team.
 
-What is a Crucial Conversation: According to the [book](https://www.amazon.com/Crucial-Conversations-Talking-Stakes-Second/dp/0071771328/ref=sr_1_1?dchild=1&keywords=crucial+conversation&qid=1605712836&sr=8-1), a conversation to be crucial is that the results of it could have a huge impact on the quality of your life. A conversation involving a promotion, performance, debate between coworkers, etc. In short crucial conversations are discussions between two or more people where:
+What is a Crucial Conversation: According to the [book](https://www.amazon.com/Crucial-Conversations-Talking-Stakes-Second/dp/0071771328/), a conversation to be crucial is that the results of it could have a huge impact on the quality of your life. A conversation involving a promotion, performance, debate between coworkers, etc. In short crucial conversations are discussions between two or more people where:
 
 1. Stakes are high
 1. Opinion vary
@@ -143,7 +143,7 @@ Below are additional resources on influencing and leadership for you to review.
 - [What Great Leaders Know about Influence](https://www.forbes.com/sites/rebeccanewton/2016/07/27/six-steps-to-increase-your-influence/#5609705a1edd)
 - [Influencing Skills: A Key to Leadership Success!](https://www.linkedin.com/pulse/influencing-skills-key-leadership-success-marcia-zidle-ms-bcc/)
 - [Influencing Others: A Key Leadership Skill](https://www.ginaabudi.com/influencing-others-a-key-leadership-skill/)
-- [The 5 Key Skills of Influential Leaders Within Every Organization](https://www.inspirationaldevelopment.com/5-key-skills-influential-leaders-every-organisation/)
+- [The 5 Key Skills of Influential Leaders Within Every Organization](https://beinspirational.com/insight-hub/5-key-skills-influential-leaders-every-organisation/)
 - [Influence and Leadership](https://www.deeelliottconsulting.com/leadership-and-influencing/)
 - [5 Leadership Strategies Proven to Improve Performance on Your Team](https://crestcom.com/blog/2016/12/01/5-leadership-strategies-to-improve-performance-in-your-company/)
 - [The 7 Best Books to Improve Influencing Skills](https://www.roffeypark.com/articles/the-7-best-books-to-improve-influencing-skills/)

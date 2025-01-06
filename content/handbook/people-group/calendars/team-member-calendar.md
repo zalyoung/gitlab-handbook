@@ -4,7 +4,7 @@ description: >-
   A calendar of important events to help plan for the year at GitLab.
 ---
 
-This page provides an overview of many key company events, programs and timelines for the team members. 
+This page provides an overview of many key company events, programs and timelines for the team members.
 
 ## Communication
 

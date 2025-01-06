@@ -334,7 +334,7 @@ Nothing in this policy precludes any person from filing a formal grievance in ac
 
 ### Rhode Island Law Requirements
 
-Team members who reside in Rhode Island have the right to file a complaint with the [Rhode Island Commission for Human Rights](https://www.richr.ri.gov/) located at 180 Westminster St., 3rd Floor, Providence, RI 02903. Phone: (401) 222-2661, Voice Relay: 7-1-1.
+Team members who reside in Rhode Island have the right to file a complaint with the [Rhode Island Commission for Human Rights](http://www.richr.ri.gov/) located at 180 Westminster St., 3rd Floor, Providence, RI 02903. Phone: (401) 222-2661, Voice Relay: 7-1-1.
 
 ### Vermont Law Requirements
 
@@ -345,7 +345,7 @@ If the a team member who resides in Vermont is dissatisfied with this employer's
 We are continuously gathering country specific references to review regulation and obtain guidance on the management of harassment or misconduct at work. Here are a few authorities we referred to in the creation of this policy:
 
 - [Equal Employer Opportunity Commission (EEOC)](https://www.eeoc.gov/eeoc-guidance)
-  - Contact [EEOC](https://www.eeoc.gov/employees/charge.cfm): John F. Kennedy Federal Building, 475 Government Center, Boston, MA 02203, , tel:1-800-669-4000 (voice), 1-800-669-6820 (TDD). Complaints must be filed within 300 days of the adverse action.
+  - Contact [EEOC](https://www.eeoc.gov/filing-charge-discrimination): John F. Kennedy Federal Building, 475 Government Center, Boston, MA 02203, , tel:1-800-669-4000 (voice), 1-800-669-6820 (TDD). Complaints must be filed within 300 days of the adverse action.
 - [Society of Human Resource Management (SHRM)](https://www.shrm.org/topics-tools#verticalTabs-39c94d1460-item-e2208bcacd-tab)
 
 ## Further Guidance (Country-Specific)

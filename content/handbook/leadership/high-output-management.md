@@ -5,7 +5,7 @@ decsription: "On this page, we will cover some of the key topics covered in the 
 
 ## Introduction
 
-At GitLab, one of our favorite books is, "[High Output Management]({{< ref "book-clubs#high-output-management" >}})" by Andrew Grove. The book provides a comprehensive overview of a manager's role and purpose. Our CEO, Sid, applied many of the concepts covered when partnering with the People team to design management and people practices for GitLab. On this page, we will cover some of the key topics covered in the book and what they mean for people leaders.
+At GitLab, one of our favorite books is, "[High Output Management]({{< ref "book-clubs#high-output-management" >}})" by Andrew Grove. The book provides a comprehensive overview of a manager's role and purpose. Our co-founder, Sid, applied many of the concepts covered when partnering with the People team to design management and people practices for GitLab. On this page, we will cover some of the key topics covered in the book and what they mean for people leaders.
 
 ## Applying High Output Management
 
@@ -24,7 +24,7 @@ Topics covered include:
 
 > If there is one management book you should read, it is High Output Management. A lot of GitLab policies are directly from the book. Managers can learn that the most challenging aspect of management, is managing their time to make decisions and achieve results. This book will teach you how.
 
-Team members can [expense](/handbook/finance/expenses/) the book if they choose to [purchase](https://www.amazon.com/High-Output-Management-Andrew-Grove/dp/0679762884/ref=sr_1_1?dchild=1&keywords=High+Output+Management&qid=1612303222&sr=8-1).
+Team members can [expense](/handbook/finance/expenses/) the book if they choose to [purchase](https://www.amazon.com/High-Output-Management-Andrew-Grove/dp/0679762884/).
 
 ### High Output Management
 

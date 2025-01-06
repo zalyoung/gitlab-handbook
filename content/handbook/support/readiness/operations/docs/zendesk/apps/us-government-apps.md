@@ -16,7 +16,7 @@ App information:
 - This application was developed by
   [Zendesk](https://www.zendesk.com/marketplace/partners/zendesk/) and is
   available in the
-  [Zendesk Marketplace](https://www.zendesk.com/apps/support/advanced-search/).
+  [Zendesk Marketplace](https://www.zendesk.com/marketplace/apps/support/198393/advanced-search/).
 
 ## Architecture Diagrams
 
@@ -110,7 +110,7 @@ App information:
 - This application was developed by
   [Zendesk](https://www.zendesk.com/marketplace/partners/zendesk/) and is
   available in the
-  [Zendesk Marketplace](https://www.zendesk.com/apps/support/show-related-tickets/).
+  [Zendesk Marketplace](https://www.zendesk.com/marketplace/apps/support/5131/show-related-tickets/).
 
 ## Zendesk Super App
 

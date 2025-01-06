@@ -11,11 +11,7 @@ In all cases, we want a manager who asks the question "Is this the best person I
 
 ## Managing Underperformance Handbook Learning Session
 
-Managing and identifying underperformance can be one of the most difficult responsibilities of a manager, but it's also one of the most important. As a people leader, fairness and transparency is essential with all team members, as is addressing performance or conduct concerns  in a timely and structured way. During a [CEO Handbook Learning Session](/handbook/people-group/learning-and-development/learning-initiatives/#ceo-handbook-learning-sessions), GitLab CEO, Sid, and the Learning and Development team discuss what underperformance is, how managing it aligns to our values, and the impact it can have on teams. You will be introduced to the signs to look for to identify underperformance, and we cover tips team members and managers can implement along the way.
-
-<figure class="video_container"><iframe src="https://www.youtube.com/embed/-mLpytnQtlY"></iframe></figure>
-
-> If someone is still not performing at an adequate level after going through the underperformance process, recognize that it's not only better for the company for the team member to move on, it's frequently also better for the team member. Making a decision to move the team member out of the role allows them to find a role where they can be successful, whether in or outside of GitLab. The longer you wait, the harder it will be to make a change. If it's not going to work out, take action as soon as possible. - GitLab co-founder and CEO [Sid Sijbrandij](/handbook/ceo)
+Managing and identifying underperformance can be one of the most difficult responsibilities of a manager, but it's also one of the most important. As a people leader, fairness and transparency is essential with all team members, as is addressing performance or conduct concerns  in a timely and structured way. You will be introduced to the signs to look for to identify underperformance, and we cover tips team members and managers can implement along the way.
 
 ### Managing Performance at GitLab
 

@@ -138,12 +138,12 @@ By versioning our prompts, we allow feature developers to pin the prompt they ar
 ##### Why Semantic Versioning
 
  We use semantic versioning for versioning our prompts, where each version is a file within the target prompt. Using semantic version enables us to communicate expectations about compatibility:
- 
+
 - A bump to the patch means a fix to the prompt that is backwards compatible.
   - Example: [removing a rogue `\n`](https://gitlab.com/gitlab-org/modelops/applied-ml/code-suggestions/ai-assist/-/merge_requests/1589)
-- A bump to the minor means a feature addition that doesn't require any changes to the api 
+- A bump to the minor means a feature addition that doesn't require any changes to the api
   - Example: a new parameter is added to the template but a default is provided
-- A bump to the major means a non-backwards compatible change: 
+- A bump to the major means a non-backwards compatible change:
   - Example: the template prompt new parameters but providing a default is not possible.
 
 Since this versions are pinned on consumers of the prompts, new iterations will not affect existing released features.
@@ -203,7 +203,7 @@ Migration work is highlighted in [this epic](https://gitlab.com/groups/gitlab-or
 
 - We do not have diffing between consecutive versions in GitLab. We can still diff between files using command line.
 
-- The immutability of a prompt file might not fit our workflow, and require too many new files to be created. As alternative, we can relax the requirement for patches, and just create new files at the minor updates. 
+- The immutability of a prompt file might not fit our workflow, and require too many new files to be created. As alternative, we can relax the requirement for patches, and just create new files at the minor updates.
 
 Both downsides can be tackled by moving prompts to it's own repository, so that version updates become new commits instead of new files.
 

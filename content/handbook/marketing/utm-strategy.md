@@ -143,6 +143,7 @@ Note on `Agency`: Sometimes 3rd party agencies are used to drive registrations t
 
 #### Current GTM UTMs
 
+* speedsecurity = Trading off Speed for Security
 * devsecopsplat = DevSecOps Platform GTM
 * autosd = Automated Software Delivery GTM
 
@@ -164,6 +165,8 @@ Note on `Agency`: Sometimes 3rd party agencies are used to drive registrations t
 | Content offer | Optional (if not applicable, use x) | devguideappsec |
 | Asset type | Optional (if not applicable, use x) | ebook |
 | Industry (vertical) | Optional (if not applicable, use x) | telco |
+
+Example: utm_content=seccspackage_ebook_fs
 
 **Asset Type** values (available as picklist in the UTM builder googlesheet):
 

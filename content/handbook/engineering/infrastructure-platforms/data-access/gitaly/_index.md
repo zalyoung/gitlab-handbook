@@ -46,7 +46,7 @@ The following members of other functional teams are our stable counterparts:
 
 If you're not part of the Support organization, please consider seeking help from them first -- Support has better availability and can help in most common cases.
 
-If you still need help, please file an issue [here](https://gitlab.com/gitlab-org/gitaly/-/issues/new?issuable_template=Support%20Request). Post it on [#g_gitaly](https://gitlab.slack.com/archives/g_gitaly) for more immediate visibility and tag EM and PM, and the Support person you're working with.
+If you still need help, please file an issue [here](https://gitlab.com/gitlab-com/request-for-help/-/issues/new?issuable_template=SupportRequestTemplate-Gitaly). Post it on [#g_gitaly](https://gitlab.slack.com/archives/g_gitaly) for more immediate visibility and tag EM and PM, and the Support person you're working with.
 
 #### Future oncall rotation
 
@@ -62,7 +62,7 @@ For these cases, use `/pd trigger` on Slack, then select the Gitaly rotation. Fo
 
 ### Customer issues
 
-Please file an issue [here](https://gitlab.com/gitlab-org/gitaly/-/issues/new?issuable_template=Support%20Request). Post it on [#g_gitaly](https://gitlab.slack.com/archives/g_gitaly) for more immediate visibility.
+Please file an issue [here](https://gitlab.com/gitlab-com/request-for-help/-/issues/new?issuable_template=SupportRequestTemplate-Gitaly). Post it on [#g_gitaly](https://gitlab.slack.com/archives/g_gitaly) for more immediate visibility.
 
 **A note on customer escalations and engagements**
 
@@ -74,7 +74,7 @@ Our _engineers_ can help, preferably [async](/handbook/company/culture/all-remot
 - providing product-level fixes or improvements, work to be scheduled and results released as usual, under [direction of EM and PM](#working-with-product)
 - improving our documentation if something's unclear
 
-_Engineering Managers_ (`@jcaigitlab` & `@andrashorvath`) and _Product Managers_ (`@mjwood`) are also happy to engage with customers if you need assistance clarifying roadmaps, product features and timelines, or to ensure the correct prioritization.
+_Engineering Managers_ (`@jcaigitlab`) and _Product Managers_ (`@mjwood`) are also happy to engage with customers if you need assistance clarifying roadmaps, product features and timelines, or to ensure the correct prioritization.
 
 We are not a good fit however if you need:
 
@@ -101,7 +101,12 @@ and/or PM polling [these dashboards](#useful-links).
 
 ### Gitaly oncall rotation
 
-Gitaly team is in the process of establishing an oncall rotation to provide focused expertise to production SaaS systems. This is currently in [pilot](https://gitlab.com/groups/gitlab-org/core-platform-section/-/epics/4), and replaces the **Incident Manager On-Call (IMOC)** and **Engineer On-Call (EOC)** responsibilities for Gitaly team members. **The tentative start date is 2025-01-01.**
+Gitaly team is in the process of establishing an oncall rotation to provide
+focused expertise to production SaaS systems. This is currently in
+[pilot](https://gitlab.com/groups/gitlab-org/core-platform-section/-/epics/4),
+and replaces the **Incident Manager On-Call (IMOC)** and **Engineer On-Call
+(EOC)** responsibilities for Gitaly team members. **The tentative start date is
+2025-01-01.**
 
 - Rotation is staffed during working hours of team members (no weekends). This still covers 24h of workdays, given the distribution of Gitaly team members, but without guarantees (see [Who is oncall](#who-is-oncall) below)
   - Weekends are explicitly out of scope (not staffed), and escalation must fall back to the current EOC rotation.
@@ -133,14 +138,9 @@ The source of truth is the [PagerDuty rotation](https://gitlab.pagerduty.com/sch
 
 Please refer to https://handbook.gitlab.com/handbook/engineering/on-call/#pagerduty for the mechanics (swapping oncall, adding new team members to the rotation).
 
-## Cluster team
+## Team Members
 
-**Mission**: Provide a durable, performant, and reliable Git storage layer for GitLab.
-
-[Responsibilities](/job-families/engineering/backend-engineer/#cluster) |
-[In the product hierarchy](/handbook/product/categories/#gitalycluster-group)
-
-{{< team-by-departments "Gitaly Cluster Team" >}}
+{{< team-by-departments "Gitaly Team" >}}
 
 ## Working with product
 
@@ -175,28 +175,100 @@ We use the following workflow labels on the issues:
 Issues that we definitely want to prioritize for a release receive a `Deliverable` label and are moved to the top of the list.
 These `Deliverable` issues help show our commitment to GitLab and our customers around working on these issues.
 
-#### Picking up new work
+#### Workflow
 
-We work off the [Gitaly ongoing work issue board](https://gitlab.com/groups/gitlab-org/-/boards/1140874?label_name%5B%5D=group%3A%3Agitaly&milestone_title=Upcoming), where the `workflow::ready for development` column is loosely sorted with higher priority items on top. Engineers ready to pick up more work do not necessarily need to assign the topmost item, but rather make an informed choice with affinity (area of expertise, relative urgency, interest etc). However, please take care not to work "siloed" for long periods, but rather use the opportunity of picking up new work to address infrastructure issues (eg flaky tests) or to help out and learn in another area.
+##### Project Work
 
-Assign yourself to the item of choice and move it to `workflow::in dev` (and later as appropriate).
+The top level [Gitaly epic](https://gitlab.com/groups/gitlab-org/data-access/gitaly/-/epics/1)
+contains linked epics representing projects the team is working on. Team members
+will either be the [primary owner](#dri--supporting-contributors) of an epic, or
+a [supporting contributor](#dri--supporting-contributors). This way knowledge gets
+shared across the team.
 
-Note that P1/S1 work should be the only one to preempt this default flow. Do involve PM and EM if urgent work needs to be prioritized, but for P1/S1 burning fires a [bias for action](/handbook/values/#bias-for-action) is of course preferred, just keep everyone informed.
+###### DRI & Supporting contributors
 
-#### Blocked issues
+The [DRI](/handbook/people-group/directly-responsible-individuals/) of an epic
+will be responsible for [making decisions](/handbook/leadership/making-decisions/#making-decisions)
+regarding technical direction of a project. Making a decision will involve
+creating proposals and gathering feedback from peers and the Engineering
+Manager. It also involves reaching out and collaborating with stakeholders
+external to the team when applicable.
 
-If your work is blocked, use `workflow::blocked` and set a blocking issue for clarity. Then consider asking for help and/or helping to unblock another team member's blocked work before picking up something else.
+The DRI is also responsible for project management, which means
+keeping the epic up to date with relevant issues, removing issues that are no
+longer relevant, and writing weekly updates the automatically generated comment
+in the epic with the following format:
+
+```markdown
+HIGH_LEVEL_SUMMARY
+
+:tada: **achievements**:
+-
+
+:issue-blocked: **blockers**:
+-
+
+:arrow_forward: **next**:
+-
+```
+
+The supporting contributor(s) of an epic will be responsible for supporting the
+DRI in working on issues, reviewing MRs, and participating in technical
+discussions. The secondary owner can also act as the primary owner when the
+DRI is OOO, depending on their bandwidth.
+
+Supporting contributors are highly recommended but optional. There can also be
+multiple seconary owners for a project.
+
+Not everyone needs to be a DRI, but everyone should be a supporting contributor
+on at least one project.
+
+The structure of having both DRIs and supporting contributors does not introduce
+any hard requirements for moving MRs forward, as reviews and approvals can be
+done by anyone on the team.
+
+##### Technical Roadmap, Customer Issues, and Cross Functional Issues
+
+The [Gitaly Technical Roadmap & Customer Issues](https://gitlab.com/groups/gitlab-org/-/boards/8913037?label_name[]=workflow%3A%3Aready%20for%20development&milestone_title=Upcoming)
+board contain one-off issues that are not a part of any projects, but are important
+issues to address. These include [technical roadmap](/handbook/engineering/#technical-roadmaps)
+issues, customer issues, and cross functional work in Gitaly that other teams
+rely on. These issues will be sorted by priority. Team members can pick up work
+from this board in addition to issues they are working on as part of project
+epics.
+
+As a rule of thumb, the ratio of [project](#project-work) work to technical
+roadmap, customer issues should be roughly 70/30.
+
+##### Urgent and high priority issues
+
+P1/S1 issues should be treated with urgency. If such issues have not been
+scheduled, [bias for action](/handbook/values/#bias-for-action) is encouraged.
+Go ahead and pull them into the current milestone, but do notify the EM and PM.
+
+##### Blocked issues
+
+If your work is blocked, use `workflow::blocked` and set a blocking issue for
+clarity. Then consider asking for help and/or helping to unblock another team
+member's blocked work before picking up something else.
 
 Issues blocked for a long time should be removed from this process by removing the milestone and unassigning.
 
 #### Adding more work for the team
 
-Everyone can file new issues as more work is discovered, and feed them into this process. To do so, file an issue, tag EM and PM, and assign `workflow::planning breakdown` without a milestone. Please explain both _what_ needs to be done and _why_ (ie the impact and urgency), and make it clear whether the work is ready to be picked up. (This is also how project DRIs add the next steps in their projects to the workflow.)
+Everyone can file new issues as more work is discovered, and feed them into this
+process. To do so, file an issue, tag EM and PM, and assign `workflow::planning
+breakdown` without a milestone. Please explain both _what_ needs to be done and
+_why_ (ie the impact and urgency), and make it clear whether the work is ready
+to be picked up. (This is also how project DRIs add the next steps in their
+projects to the workflow.)
 
 #### Meta
 
-A weekly call is held between the product manager and engineering managers (of both Cluster and Git teams).
-Everyone is welcome to join and these calls are used to discuss any roadblocks, concerns, status updates, deliverables, or other thoughts that impact the group.
+A weekly call is held between the product manager and engineering managers (of
+both Gitaly and Git teams). Everyone is welcome to join and these calls are
+used to discuss any roadblocks, concerns, status updates, deliverables, or other
+thoughts that impact the group.
 
 ### Roadmap planning
 
@@ -209,21 +281,32 @@ The current roadmap is [this epic board](https://gitlab.com/groups/gitlab-org/-/
   - we review roadmap items (using arguments from the [vision and principles](https://internal.gitlab.com/handbook/engineering/infrastructure-platforms/data-access/gitaly/roadmap/), current business priorities etc)
   - and then take on OKRs that push those goals forward.
 
-### Quarterly OKR planning
+### Quarterly Planning
 
-OKR planning is done before every quarter for the next 3 milestones, with input from everyone. At that time, we must already have a good idea of the work that needs to be done.
+Quarterly planning is done before every quarter for the next 3 milestones, with
+input from everyone. At that time, we must already have a good idea of the work
+that needs to be done.
 
 The process is as follows:
 
-1. EM+PM (with input from engineers and stakeholders): decide the scope we'll be working on. Update roadmap items.
+1. EM+PM (with input from engineers and stakeholders): decide the scope we'll be
+   working on, which will align with department level OKRs.
 
-1. EM+PM+Engineers: Based on roadmap items, file smaller epics/issues if needed that can be completed in 3 milestones (ie one quarter). Tie them to the overall project epics. This is where we'll track the actual work.
+1. EM+PM+Engineers: Based on roadmap items, file smaller epics/issues if needed
+   that can be completed in 3 milestones (ie one quarter). Tie them to the
+   overall project epics. This is where we'll track the actual work.
 
-1. EM: File Objectives and Key Results [here](https://gitlab.com/gitlab-com/gitlab-OKRs/-/issues/?sort=created_date&state=opened&label_name%5B%5D=group%3A%3Agitaly&first_page_size=20) and tie them to the actual work. We use these for reporting/communication of what we want to work on, project goals for the quarter, and its progress. Where possible, align with the larger organization's objectives. If possible, add a preliminary scoring table ("what does it mean to reach 20% of this OKR?").
+1. EM: Modify the [top level Gitaly epic](https://gitlab.com/groups/gl-gitaly/-/epics/1)
+   to reflect the work.
 
-1. PM: Once the scope of the quarter is clear, take the list of issues and assign one of the three milestones, along with `workflow::planning breakdown` (for large issues in need of breakdown) or `workflow::ready for development`.
+1. PM: Once the scope of the quarter is clear, take the list of issues and
+   assign one of the three milestones, along        with `workflow::planning
+   breakdown` (for large issues in need of breakdown) or `workflow::ready for
+   development`.
 
-1. Engineers: help break down `workflow::planning breakdown` items and file smaller issues if needed, adding them to the same 3 milestones as reasonable. Raise exceptions as needed.
+1. Engineers: help break down `workflow::planning breakdown` items and file
+   smaller issues if needed, adding them to the same 3 milestones as reasonable.
+   Raise exceptions as needed.
 
 ### Handling issues with strict SLO
 
@@ -263,12 +346,6 @@ The Gitaly consumers are:
 Gitaly offers many customer facing features. As such, all deprecations to customer facing features will follow the standard [GitLab feature deprecations guidance](/handbook/marketing/blog/release-posts/#deprecations-removals-and-breaking-changes) and announced within the [deprecations documentation page](https://docs.gitlab.com/ee/update/deprecations.html).
 
 Gitaly also offers many non-customer facing features, which are used by GitLab and other customers who directly interface with Gitaly. These Gitaly level deprecations will not be announced using the above methods as they are not designed for GitLab end users to interface with directly. Some examples of these non-customer facing features are storage level APIs, which should never be called by GitLab users.
-
-## Retrospectives
-
-At the beginning of each release, the Gitaly EM will create a retrospective issue
-to collect discussion items during the release. The first weekly Gitaly meeting
-after the 18th that issue will be used to discuss what was brought up.
 
 ## Metrics
 

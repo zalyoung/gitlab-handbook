@@ -1,5 +1,5 @@
 ---
-tile: 'Cells: Organization migration'
+title: 'Cells: Organization migration'
 status: proposed
 creation-date: "2024-05-01"
 authors: [ "@dbalexandre", "@mkozono" ]
@@ -10,8 +10,6 @@ owning-stage: "~devops::systems"
 participating-stages: ["~devops::data stores", "~devops::systems"]
 toc_hide: true
 ---
-
-# Cells: Organization migration
 
 ## Summary
 

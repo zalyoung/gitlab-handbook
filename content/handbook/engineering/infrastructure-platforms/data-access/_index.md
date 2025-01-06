@@ -15,7 +15,7 @@ Access Sub-department:
 
 ### Database Framework
 
-The [Database Framework]((/handbook/engineering/infrastructure-platforms/data-access/database-framework/)
+The [Database Framework](/handbook/engineering/infrastructure-platforms/data-access/database-framework/)
 team develops solutions for scalability, application performance, data growth and
 developer enablement especially where it concerns interactions with the
 database.
@@ -54,4 +54,4 @@ The [Git](/handbook/engineering/infrastructure-platforms/data-access/git/) team
 develops Git in accordance with the goals of the community and GitLab, and
 integrate it into our products.
 
-{{< team-by-manager-slug manager="pks-gitlab" >}}
+{{< team-by-departments "Git Team" >}}

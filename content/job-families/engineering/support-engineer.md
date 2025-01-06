@@ -70,7 +70,7 @@ When you're not tackling difficult customer challenges, you'll have a lot of fre
 
 ## Requirements
 
-You should [apply](https://boards.greenhouse.io/gitlab) if:
+You should [apply](https://job-boards.greenhouse.io/gitlab) if:
 
 ### You've got the personality
 

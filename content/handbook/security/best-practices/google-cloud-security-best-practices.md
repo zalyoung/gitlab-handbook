@@ -18,7 +18,7 @@ This default account should not be used. Instead, you should choose one of the f
 
 - If your instance does not need authenticated access to Google Cloud APIs, you should choose not to bind any service account at all. This can be done by appending the `--no-service-account --no-scopes` flags if using the `gcloud` command, or by selecting the following option in the web interface:
 
-![No Service Account](gcp-no-service-account.jpg)
+![No Service Account](content/handbook/security/gcp-no-service-account.jpg)
 
 - If your instance does need to authenticate to certain Google Cloud APIs, you should use a specific service account that has been granted only the [minimum IAM roles required](https://cloud.google.com/compute/docs/access/service-accounts#service_account_permissions) for your application to function. Access Scopes are not a replacement for properly configured IAM permissions and in general [should not be relied upon](https://cloud.google.com/compute/docs/access/service-accounts#accesscopesiam) as a security mechanism.
 
@@ -42,7 +42,7 @@ Whether deploying a GKE cluster manually or automatically via Terraform, you can
 
 In addition, you should enable [Workload Identity](https://cloud.google.com/kubernetes-engine/docs/how-to/workload-identity#enable_on_cluster) and [Shielded Nodes](https://cloud.google.com/kubernetes-engine/docs/how-to/shielded-gke-nodes#enabling_in_a_new_cluster) on all new clusters. This can be done by appending the `--workload-pool=[PROJECT-ID].svc.id.goog --enable-shielded-nodes` flags if using the gcloud command, or by selecting the following options in the web interface (located under the "Security" menu):
 
-![GKE Settings](gcp-gke-settings.jpg)
+![GKE Settings](content/handbook/security/gcp-gke-settings.jpg)
 
 ### Google Cloud Functions
 
@@ -84,7 +84,7 @@ If you don't know your current IP address to use for source IP filtering, you ca
 In addition, you can find official, platform-specific documentation of features involved in implementing IP filtering:
 
 - [Google Cloud](https://cloud.google.com/vpc/docs/using-firewalls#creating_firewall_rules#console)
-- [Amazon Web Services (AWS)](https://docs.aws.amazon.com/vpc/latest/userguide/VPC_SecurityGroups.html)
+- [Amazon Web Services (AWS)](https://docs.aws.amazon.com/vpc/latest/userguide/vpc-security-groups.html)
 - [Azure](https://learn.microsoft.com/en-us/training/modules/introduction-azure-web-application-firewall/)
 
 IP filtering should be set up and used when hosting any version of GitLab affected by known and disclosed vulnerabilities.

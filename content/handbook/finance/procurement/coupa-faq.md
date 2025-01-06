@@ -61,14 +61,14 @@ title: Coupa FAQ
 ### Where can I find more information on the Coupa Supplier Portal?
 
 - Here are some useful links with information on the Coupa Supplier Portal:
-  - [https://success.coupa.com/Suppliers/For_Suppliers/Coupa_Supplier_Portal](https://success.coupa.com/Suppliers/For_Suppliers/Coupa_Supplier_Portal)
-  - [https://www.supplier.coupa.com/help](https://supplier.coupa.com/help/)
-  - [https://www.supplier.coupa.com/help/creating-an-account-with-coupa](https://supplier.coupa.com/help/creating-an-account-with-coupa/)
+  - <https://compass.coupa.com/en-us/products/product-documentation/supplier-resources/for-suppliers>
+  - <https://supplier.coupa.com/help/>
+  - <https://supplier.coupa.com/help/creating-an-account-with-coupa/>
 - Chat with Coupa Support
   - You can chat with Coupa Support to get a quick response or resolution to your question/issue. Click on the "Chat with Coupa Support" button located in the lower right corner of any screen (see below screenshot).
   - If there's no Support Agent available, you can submit a case by providing the subject of your question/issue and a detailed description. You will receive confirmation that your case was submitted and logged. A Support Agent will respond when available.
 
-   ![coupa-image-1](../CoupaSupportChat.png)
+   ![coupa-image-1](/images/finance/CoupaSupportChat.png)
 - Suppliers can also email Coupa Support Team (supplier@coupa.com).
 
 ### Do suppliers need to set-up a CSP account, or will this be done for them?
@@ -97,7 +97,7 @@ title: Coupa FAQ
 
 - Suppliers will need to set up their Remit-To account in Coupa. It can be done during the initial onboarding process or via the Coupa Supplier Portal (CSP).
 - Below are some useful Coupa links providing more information regarding setting up Remit-To accounts:
-  - [https://success.coupa.com/Suppliers/For_Suppliers/Coupa_Supplier_Portal/Administer_the_CSP/06_View_and_Manage_Remit-to_Information](https://success.coupa.com/Suppliers/For_Suppliers/Coupa_Supplier_Portal/Administer_the_CSP/06_View_and_Manage_Remit-to_Information)
+  - [https://compass.coupa.com/en-us/products/product-documentation/supplier-resources/for-suppliers/Administer_the_CSP/06_View_and_Manage_Remit-to_Information](https://compass.coupa.com/en-us/products/product-documentation/supplier-resources/for-suppliers/Administer_the_CSP/06_View_and_Manage_Remit-to_Information)
   - [https://supplier.coupa.com/coupa-pay-help/getting-set-up-for-online-payments](https://supplier.coupa.com/coupa-pay-help/getting-set-up-for-online-payments)
   - [https://supplier.coupa.com/help/remit-to-improvements](https://supplier.coupa.com/help/remit-to-improvements)
 

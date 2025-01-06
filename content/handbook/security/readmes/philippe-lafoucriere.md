@@ -20,17 +20,17 @@ I have worked in various industries, ranging from telecoms to online betting.
 A few facts about me:
 
 - I live in Quebec City, Quebec, Canada.
-- I have dual citizenships: French & Canadian
-- I have 2 mostly wonderful kids and a fantastic wife
-- I have lived, studied and worked in France and other European countries, but also in South East Asia
-- I spent some of my childhood in Pacific Islands near Australia
-- I love all things outdoors
+- I have dual citizenships: French & Canadian.
+- I have 2 teenagers.
+- I have lived, studied and worked in France and other European countries, but also in South East Asia.
+- I spent some of my childhood in South Pacific Islands near Australia.
+- I love all things outdoors.
 
 ### Background story at GitLab
 
-I joined GitLab with the [acquisition of Gemnasium](https://about.gitlab.com/press/releases/2018-01-30-gemnasium-acquisition.html)
+I joined GitLab with the [acquisition of Gemnasium](https://about.gitlab.com/press/releases/2018-01-30-gemnasium-acquisition/)
 in 2018, when I become the first
-manager of the [Secure Stage](https://about.gitlab.com/direction/secure/). After having designed and developed security
+manager of the [Secure Stage](https://about.gitlab.com/direction/application_security_testing/). After having designed and developed security
 products, I decided to switch to the other side of the mirror and joined the [Security Department](/handbook/security) in 2020.
 
 ![timeline](../timeline.png)

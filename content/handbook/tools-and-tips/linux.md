@@ -187,8 +187,8 @@ This has reported to work with latest versions of the Nvidia drivers (as of Dec 
 
 - As a Production Engineer, we'll need some common tooling
   - [AWS CLI](https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-getting-started.html)
-  - [Azure CLI](https://docs.microsoft.com/en-us/cli/azure/install-azure-cli)
-  - [Docker](https://docs.docker.com/get-docker/)
+  - [Azure CLI](https://learn.microsoft.com/en-us/cli/azure/install-azure-cli)
+  - [Docker](https://docs.docker.com/get-started/get-docker/)
   - [Vagrant](https://developer.hashicorp.com/vagrant/install)
   - [VirtualBox](https://www.virtualbox.org/wiki/Linux_Downloads)
   - [gcloud CLI](https://cloud.google.com/sdk/docs/#install_the_latest_cloud_tools_version_cloudsdk_current_version)

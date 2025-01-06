@@ -8,11 +8,6 @@ maintained by support engineers. In the KB, we turn the knowledge created when w
 one customer into a public resource that helps others self-serve &ndash; leveraging one-time effort
 into an article that can be used multiple times independently from the ticket assignee.
 
-The KB complements our product docs. Where the docs provides an overview of our _current_ product
-offerings and helps users learn to use and operate them, the KB provides solutions to problems users
-encounter in current and _past_ versions of our product offerings. This narrow focus makes knowledge
-more accessible to customers who may not always be on the latest version of our products.
-
 ## Principles
 
 - **Turn it into a habit.** Write it down into the KB every time we solve a problem for customers,
@@ -21,6 +16,32 @@ more accessible to customers who may not always be on the latest version of our 
   knowledge to the KB, prioritizing capturing the right knowledge instead of capturing knowledge right.
 - **Dogfood and update as we reuse.** The KB is as much for us as for our users. We review and
   update knowledge as we use and reuse it. If it isn't used, don't worry about it.
+
+## How KB differs from the docs
+
+The knowledge base and our product documentation are both key elements of GitLab's digital support
+experience that serve different needs:
+
+{{< cardpane >}}
+{{% card header="**Docs**" %}}
+
+- Learn about product features and how to use them.
+- Provides an overview of the current version of our products.
+- Used "ahead of time".
+
+{{% /card %}}
+
+{{% card header="**KB**" %}}
+
+- Solve problems encountered while using our products.
+- Includes solutions to problems in past versions of our products.
+- Used "just in time".
+
+{{% /card %}}
+{{< /cardpane >}}
+
+You can use this as a guide when deciding if you should contribute something to the KB or if you
+should make it a docs update.
 
 ## Implementation
 
@@ -62,8 +83,7 @@ knowledge base content. This has the following benefits:
 1. Create the merge request using the `Knowledge Base Article` template.
 1. Assign reviewers:
    - If timeliness is important, assign a Staff Support Engineer or Support Manager for review.
-   - Otherwise, assign a KB editor: currently @irisb or @weimeng-gtlb.
-1. Create an entry in the [CODEOWNERS](https://gitlab.com/gitlab-com/support/support-pages/-/blob/master/.gitlab/CODEOWNERS) file that includes you as a maintainer.
+   - Otherwise, assign a KB editor: currently `@irisb` or `@weimeng-gtlb`.
 
 ### Reviewing a KB article
 
@@ -72,11 +92,26 @@ knowledge base content. This has the following benefits:
 
 ### Publishing a KB article
 
-After the KB article is merged, send a request using the
-[Support Super Form](https://support-super-form-gitlab-com-support-support-op-651f22e90ce6d7.gitlab.io/):
+After the KB article is merged:
 
-- What is this request concerning?: `Create a Zendesk article`
-- Which Zendesk instance?: Select according to the directory the article is located in.
+1. Create a merge request adding the KB article to the [`CODEOWNERS`](https://gitlab.com/gitlab-com/support/support-pages/-/blob/master/.gitlab/CODEOWNERS)
+   file.
+   1. Use `@weimeng-gtlb @irisb @gitlab-com/support/staff @gitlab-com/support/managers` as the code owners for your KB article.
+   1. Set the MR to auto-merge.
+   1. Ask in [`#support_operations`](https://gitlab.enterprise.slack.com/archives/C018ZGZAMPD) for approval.
+   - This step is necessary as the Support Super Form rejects publishing requests for KB articles
+     without a specific `CODEOWNERS` entry.
+   - We add the CODEOWNERS file at the publishing stage and not at the article submission stage to
+     avoid `CODEOWNERS` file merge conflicts blocking content merges.
+
+2. Submit a request using the [Support Super Form](https://support-super-form-gitlab-com-support-support-op-651f22e90ce6d7.gitlab.io/).
+   1. Fill in the fields as follows:
+      - What is this request concerning?: `Create a Zendesk article`
+      - What is the comma-separated list of maintainers for the article?: `@weimeng-gtlb @irisb @gitlab-com/support/staff @gitlab-com/support/managers`
+        - The Support Super Form will reject the publishing request if this does not match the
+          `CODEOWNERS` entry for the KB article.
+   1. After successful submission, the Support Super Form will create an issue and post URLs to
+      the published KB article. The sync may take 5 to 10 minutes to complete.
 
 ## Roles
 

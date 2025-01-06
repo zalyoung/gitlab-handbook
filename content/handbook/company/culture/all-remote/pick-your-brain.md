@@ -71,7 +71,7 @@ GitLab is a very [transparent](/handbook/values/#transparency) company and many 
     1. [What not to do when implementing remote](what-not-to-do/)
     1. [How it works at GitLab](tips/)
 1. [History]({{< ref "history" >}})
-1. [About](https://about.gitlab.com/company)
+1. [About](https://about.gitlab.com/company/)
 
 Before an interview is scheduled, guests will be asked to send over an agenda with proposed questions and topics.
 

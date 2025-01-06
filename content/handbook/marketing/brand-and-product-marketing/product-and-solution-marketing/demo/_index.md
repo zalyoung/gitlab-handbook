@@ -8,7 +8,7 @@ title: "DEPRECATED-Demos"
 THIS PAGE HAS BEEN DEPRECATED. IT IS STILL HERE DURING A TRANSITION PERIOD WHILE WE MAKE SURE ALL THE CONTENT IS AVAILABLE ELSEWHERE
 {{% /alert %}}
 
-## The new version of this page is at https://about.gitlab.com/learn
+## The new version of this page is at https://university.gitlab.com/
 
 There are 3 basic demos types:
 

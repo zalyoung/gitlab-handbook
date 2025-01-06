@@ -37,7 +37,7 @@ From a young age we are often trained to jump to solutions as quickly as possibl
 
 ### Ladder of abstraction
 
-We can't design in isolation. All the decisions we make are in the context of a broader system. We must zoom in and out between the system and its component parts to do our best work. Unfortunately, humans can only hold 5 (plus/minus 2) pieces of information in working memory at any one time (see [cognitive load](https://www.mindtools.com/pages/article/cognitive-load-theory.htm), [Miller's Law](https://lawsofux.com/millers-law)). Therefore, we need to think at different levels of abstraction to manage this limitation. The ladder of abstraction is a useful mental model to recognise what level of abstraction you are currently working in. You can move up the ladder (more abstract) by asking "why?" or "what does that mean?". You can move down the ladder by asking "how does that work?" or "can you give me an example?".
+We can't design in isolation. All the decisions we make are in the context of a broader system. We must zoom in and out between the system and its component parts to do our best work. Unfortunately, humans can only hold 5 (plus/minus 2) pieces of information in working memory at any one time (see [cognitive load](https://www.mindtools.com/aqxwcpa/cognitive-load-theory), [Miller's Law](https://lawsofux.com/millers-law/)). Therefore, we need to think at different levels of abstraction to manage this limitation. The ladder of abstraction is a useful mental model to recognise what level of abstraction you are currently working in. You can move up the ladder (more abstract) by asking "why?" or "what does that mean?". You can move down the ladder by asking "how does that work?" or "can you give me an example?".
 
 **Example:**
 
@@ -56,7 +56,7 @@ We can't design in isolation. All the decisions we make are in the context of a 
 ## Resources
 
 - [Salesforce Workdifferently](https://www.salesforce.com/workdifferently/)
-- [Salesforce Workdifferently: An Introduction To The 6 Principles To Work Differently (video)](https://www.salesforce.com/video/3642076/)
+- [Salesforce Workdifferently: Method cards](https://www.salesforce.com/content/dam/web/en_us/workdifferently/documents/resources-methodcards-all.pdf)
 - [IBM enterprise design thinking](https://www.ibm.com/design/thinking/)
 
 ## Collaborative exercises

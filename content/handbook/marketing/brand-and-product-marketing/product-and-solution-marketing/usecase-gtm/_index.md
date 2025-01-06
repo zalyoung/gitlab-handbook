@@ -63,7 +63,7 @@ Understanding which solution to apply where requires consideration of the person
 | **TMM** | Itzik | Fern | Fern |  William Arias |
 | **PM** | Jackie Porter | Hillary Benson | Hillary Benson | Mike Flouton / Justin Farris |
 | **Resource page** | [Automated Software Delivery](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/usecase-gtm/delivery-automation/) | [DevSecOps page](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/usecase-gtm/devsecops/) | [Compliance](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/usecase-gtm/compliance/) | [Platform](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/usecase-gtm/devops-platform/) |
-| **Solution page** | [Automated Software Delivery solution](https://about.gitlab.com/solutions/delivery-automation/) | [DevSecOps solution](https://about.gitlab.com/solutions/dev-sec-ops/) | [Compliance solution](https://about.gitlab.com/solutions/compliance)  | [GitLab home page](https://about.gitlab.com/platform) |
+| **Solution page** | [Automated Software Delivery solution](https://about.gitlab.com/solutions/delivery-automation/) | [DevSecOps solution](https://about.gitlab.com/solutions/security-compliance/) | [Compliance solution](https://about.gitlab.com/solutions/compliance/)  | [GitLab home page](https://about.gitlab.com/platform/) |
 | **Highspot page** | Automated Software Delivery | Software Security | Software Compliance | DevSecOps Platform |
 
 ## Use cases
@@ -73,7 +73,7 @@ Within the core DevOps solutions, are use cases. These topics may be hot in the 
 Examples include:
 
 - **[Source Code Management](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/usecase-gtm/version-control-collaboration/) (SCM)**.
-- **[Continuous integration](https://about.gitlab.com/features/continuous-integration/)**
+- **[Continuous integration](https://about.gitlab.com/solutions/continuous-integration/)**
 - **[GitOps](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/usecase-gtm/gitops/)**
 
 The Customer Success Managers (CSMs) are goaled on expanding an existing customer's adoption of GitLab use cases, as measured by use case adoption. Mapping use cases to stages helps the CSMs know which use case material to apply.

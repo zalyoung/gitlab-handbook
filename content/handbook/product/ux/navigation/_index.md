@@ -9,7 +9,7 @@ The [`group::foundations` team](/handbook/product/categories/#foundations-group)
 
 ## What is navigation?
 
-Navigation refers to elements that aid users in moving around GitLab, which includes their organization and wayfinding clues. The navigation experience directly impacts the usability and discoverability of our features. This document describes how we can collectively evolve the navigation while still [meeting our goals](https://about.gitlab.com/direction/manage/foundations/navigation_settings/#navigation).
+Navigation refers to elements that aid users in moving around GitLab, which includes their organization and wayfinding clues. The navigation experience directly impacts the usability and discoverability of our features. This document describes how we can collectively evolve the navigation while still [meeting our goals](https://about.gitlab.com/direction/foundations/personal_productivity/#navigation).
 
 ## Why do we need to be careful when changing the navigation?
 
@@ -30,7 +30,7 @@ To help maintain this balance, we ask for everyone to use this process when prop
 * Removing a navigation item
 * Changing the sort order of navigation items
 * Changing navigation functionality or features
-* Launching an [Experiment](https://docs.gitlab.com/ee/policy/experiment-beta-support.html#experiment) or [Beta](https://docs.gitlab.com/ee/policy/experiment-beta-support.html) feature
+* Launching an [Experiment](https://docs.gitlab.com/ee/policy/development_stages_support.html#experiment) or [Beta](https://docs.gitlab.com/ee/policy/development_stages_support.html) feature
 * Changing the viewership of a navigation item (e.g. moving from disabled by default to enabled by default)
 
 ## When to change the navigation
@@ -39,7 +39,7 @@ We only make new additions to the GitLab navigation structure through a delibera
 
 Therefore, we **do not add new items** to:
 
-* Improve discoverability of new features. Instead, look for other opportunities to [highlight the functionality](https://design.gitlab.com/usability/feature-discovery) throughout the product.
+* Improve discoverability of new features. Instead, look for other opportunities to [highlight the functionality](https://design.gitlab.com/usability/feature-discovery/) throughout the product.
 * Optimize for the potential future. We should be forward thinking without over optimizing. As features are developed and added, we can look into what changes may need to occur to support a growing feature.
 
 ## How do I evaluate navigation changes?
@@ -69,9 +69,9 @@ After there is insight into a problem with the navigation, the Product team DRI 
 
 ## How to propose a navigation change
 
-> If your primary goal is to improve discoverability of your feature, please start by looking for other opportunities to [highlight the functionality](https://design.gitlab.com/usability/feature-discovery) throughout the product.
+> If your primary goal is to improve discoverability of your feature, please start by looking for other opportunities to [highlight the functionality](https://design.gitlab.com/usability/feature-discovery/) throughout the product.
 
-1. Before opening an issue, review the [elements and patterns for navigation in Pajamas](https://design.gitlab.com/usability/navigation-sidebar/). It is worth checking the [direction page](https://about.gitlab.com/direction/manage/foundations/navigation_settings/) to see how your proposal aligns or conflicts with upcoming changes.
+1. Before opening an issue, review the [elements and patterns for navigation in Pajamas](https://design.gitlab.com/usability/navigation-sidebar/). It is worth checking the [direction page](https://about.gitlab.com/direction/foundations/personal_productivity/) to see how your proposal aligns or conflicts with upcoming changes.
 1. Review the [list of navigation changes](/handbook/product/ux/navigation/#what-are-navigation-changes) and what they are to make sure your change qualifies.
 1. The [Product Manager for Foundations](/handbook/product/categories/#foundations-group) is the [DRI](/handbook/people-group/directly-responsible-individuals/#what-is-a-directly-responsible-individual) for navigation changes. Reach out to them to determine whether your proposal needs [full validation](#full-validation-path) or [limited validation](#limited-validation-path).
 1. You can initiate the review for this process by using the [Navigation Proposal](https://gitlab.com/gitlab-org/gitlab/-/issues/new?issuable_template=Navigation%20Proposals) issue template.

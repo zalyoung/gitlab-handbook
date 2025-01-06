@@ -9,7 +9,7 @@ twitter_creator: "@gitlab"
 
 ## Remote hiring, explained
 
-The [pandemic](https://www.cdc.gov/coronavirus/2019-ncov/index.html) forced many organizations to transition to be [all-remote companies](guide/). Many realized the [benefits]({{< ref "remote-benefits#benefits-of-remote-work" >}}) and decided to keep the remote structure. This shift necessitates implementing a remote hiring process to grow a remote workforce.
+The [pandemic](https://www.cdc.gov/covid/index.html) forced many organizations to transition to be [all-remote companies](guide/). Many realized the [benefits]({{< ref "remote-benefits#benefits-of-remote-work" >}}) and decided to keep the remote structure. This shift necessitates implementing a remote hiring process to grow a remote workforce.
 
 As one of the world's largest [all-remote companies](guide/), GitLab has been hiring and onboarding remote workers, remotely for over a decade. We've detailed what we learned in the [Principles of Hiring section of our Handbook](/handbook/hiring). On this page, we're sharing best practices for a streamlined remote hiring process anyone can implement.
 
@@ -20,7 +20,7 @@ As one of the world's largest [all-remote companies](guide/), GitLab has been hi
 
 One advantage of being an all-remote company is the ability to [hire talent from a global pool](/handbook/hiring), giving access to a tremendous amount of talent that many other companies overlook.
 
-It can be a struggle for organizations to find, recruit, retain, and compensate employees in competitive markets, including most major cities. Imagine the influx of highly qualified applicants if the location requirement were removed from all job descriptions. For a glimpse at what this looks like, please visit [GitLab's Jobs page](https://about.gitlab.com/jobs).
+It can be a struggle for organizations to find, recruit, retain, and compensate employees in competitive markets, including most major cities. Imagine the influx of highly qualified applicants if the location requirement were removed from all job descriptions. For a glimpse at what this looks like, please visit [GitLab's Jobs page](https://about.gitlab.com/jobs/).
 
 In addition to giving your organization a competitive edge, here are some other advantages:
 
@@ -38,7 +38,7 @@ Because you don't have to organize travel or schedule around multiple calendars,
 
 Cutting travel cuts considerable costs, making remote testing and interviewing highly cost-effective. I can also be less disruptive to end the process with candidates who are not a good fit at any point, without the guilt of wasting the candidate's or the company's time or money.
 
-Hiring an all-remote team from across the globe allows GitLab to pay local rates, which you can learn more about [on the company blog](https://about.gitlab.com/blog/2019/02/28/why-we-pay-local-rates). By hiring brilliant minds in locations with lower costs of living, GitLab is able to save money to hire even more people as we scale our business.
+Hiring an all-remote team from across the globe allows GitLab to pay local rates, which you can learn more about [on the company blog](https://about.gitlab.com/blog/2019/02/28/why-we-pay-local-rates/). By hiring brilliant minds in locations with lower costs of living, GitLab is able to save money to hire even more people as we scale our business.
 
 - ### Remote hiring gives you an authentic virtual engagement experience
 
@@ -74,7 +74,7 @@ In this [GitLab Unfiltered](https://www.youtube.com/channel/UCMtZ0sc1HHNtGGWZFDR
 >
 > It's silly to think that a company would withhold its strategy, culture, or workflows until *after* someone gets hired. These elements determine whether a team member will thrive. Why would you hold that back? — *Darren Murph, Head of Remote at GitLab*
 
-In this [GitLab Unfiltered](https://www.youtube.com/channel/UCMtZ0sc1HHNtGGWZFDRTh5A) video, GitLab co-founder / CEO Sid Sijbrandij discusses hiring (amongst other topics) with researchers from [INSEAD](https://www.insead.edu).
+In this [GitLab Unfiltered](https://www.youtube.com/channel/UCMtZ0sc1HHNtGGWZFDRTh5A) video, GitLab co-founder Sid Sijbrandij discusses hiring (amongst other topics) with researchers from [INSEAD](https://www.insead.edu).
 
 {{< youtube "EuGsen3FxXc?start=2493" >}}
 
@@ -82,7 +82,7 @@ In this [GitLab Unfiltered](https://www.youtube.com/channel/UCMtZ0sc1HHNtGGWZFDR
 >
 > I think that's bananas. That's what every company in the world does. If your strategy is really important, make sure people buy in *before* they join. And make sure that people who don't buy in don't join the company.
 >
-> Execution depends on people; [being public about what we do](/handbook/company/strategy). allows us to attract the best people to best execute our strategy." — *GitLab co-founder and CEO Sid Sijbrandij*
+> Execution depends on people; [being public about what we do](/handbook/company/strategy). allows us to attract the best people to best execute our strategy." — *GitLab co-founder Sid Sijbrandij*
 
 ### Make yourself attractive to top talent
 
@@ -94,13 +94,13 @@ We've gathered extra ways to attract top talent to your organization (Note: this
 1. [No ask, must tell vacation policy]({{< ref "paid-time-off" >}}) which senior leaders visibly model
 1. The ability to [expense](/handbook/finance/spending-company-money/#coworking-or-external-office--space) a "third space" for working — an external office, coworking space, or residential community space through the likes of [Codi](https://www.codi.com)
 1. Caregiver leave (maternity, paternity, eldercare, etc.)
-1. [De-location stipend](https://zapier.com/blog/move-away-from-sf-get-remote-job) (supporting relocation away from a high cost-of-market location)
+1. [De-location stipend](https://web.archive.org/web/20220202064653/https://zapier.com/blog/move-away-from-sf-get-remote-job/) (supporting relocation away from a high cost-of-market location)
 1. 4-day workweek, Summer Fridays, no-meeting days, and other efforts that provide company-wide time off for employees to rest, recharge, and connect with community
 1. Supporting the purchase of a complete and ergonomic [remote workspace](workspace/) uniquely tailored to each team member
 1. Transparent policies for investing in and championing [diversity, inclusion & belonging](/handbook/values/#diversity-inclusion) (and published goals for improvement)
 1. Restricted stock units (RSU) or stock options
 1. Enhanced hiring bonuses and higher salaries
-1. Large annual bonuses based on performance (*remote work [measures results](/handbook/values/#measure-results-not-hours), not hours spent, input, or time-in-seat*)
+1. Large annual bonuses based on performance (*remote work [measures impact](/handbook/values/#measure-impact-not-activity), not activity, input, or time-in-seat*)
 1. Well-trained remote managers that default to [asynchronous workflows](asynchronous/) (*Confidently assuring prospective talent that they will endure fewer meetings and micromanagement is a solid way to differentiate from other employers.*)
 1. Publishing supportive policies which explicitly allow employees to create better [work/life harmony](people/#worklife-harmony) and put [family and friends before work](/handbook/values/#family-and-friends-first-work-second)
 1. Supporting (via time and money) learning for self-development
@@ -150,13 +150,13 @@ Other qualities unique to a remote workplace are:
 1. Proven ability to be a [manager of one](/handbook/values/#managers-of-one)
 1. Capable of (and enjoys) working [asynchronously](asynchronous/)
 
-When asked if anyone could learn to work well in an all-remote setting during an [INSEAD](https://www.insead.edu/) case study [interview](https://youtu.be/EuGsen3FxXc), GitLab co-founder and CEO Sid Sijbrandij replied:
+When asked if anyone could learn to work well in an all-remote setting during an [INSEAD](https://www.insead.edu/) case study [interview](https://youtu.be/EuGsen3FxXc), GitLab co-founder Sid Sijbrandij replied:
 
 > "What's essential in all-remote is that you are a [manager of one](/handbook/values/#managers-of-one).
 >
 > You're not going to have someone expecting you at the office and hold your hand, so you have to be able to manage yourself and work independently.
 >
-> It is critical that you can write well — be concise and precise in your written communication- to bridge time zones and leverage [asynchronous communication](asynchronous/)".— *GitLab co-founder & CEO Sid Sijbrandij*
+> It is critical that you can write well — be concise and precise in your written communication- to bridge time zones and leverage [asynchronous communication](asynchronous/)".— *GitLab co-founder Sid Sijbrandij*
 
 ### Tips for interviewing all-remote candidates
 
@@ -209,16 +209,16 @@ Onboarding is a continuous process during a team member's first year. Investing 
 1. Increases productivity more quickly
 1. Better team member retention
 
-Companies that invest in onboarding report [54% more productivity](https://www.myshortlister.com/insights/employee-onboarding-statistics) from new hires. Studies show that [87% of team members are less likely to leave a company](https://www.totalteambuilding.com.au/the-positive-impact-of-team-building) when they feel engaged.
+Companies that invest in onboarding report [54% more productivity](https://www.myshortlister.com/insights/employee-onboarding-statistics) from new hires. Studies show that [87% of team members are less likely to leave a company](https://totalteambuilding.com.au/the-positive-impact-of-team-building/) when they feel engaged.
 
 1. Sets clear expectations
 1. Reduces new-hire anxiety
 1. Increases productivity more quickly
 1. Better team member retention
 
-Companies that invest in onboarding report [54% more productivity](https://www.myshortlister.com/insights/employee-onboarding-statistics) from new hires. Studies show that [87% of team members are less likely to leave a company](https://www.totalteambuilding.com.au/the-positive-impact-of-team-building) when they feel engaged.
+Companies that invest in onboarding report [54% more productivity](https://www.myshortlister.com/insights/employee-onboarding-statistics) from new hires. Studies show that [87% of team members are less likely to leave a company](https://totalteambuilding.com.au/the-positive-impact-of-team-building/) when they feel engaged.
 
-We are so convinced in the power of onboarding well that we've created a [Complete Guide to Remote Onboarding for New Hires](onboarding/). To help new hires focus on [three key onboarding dimensions](https://hbr.org/2018/12/to-retain-new-hires-spend-more-time-onboarding-them)--[organizational](onboarding/#organizational-onboarding), [technical](onboarding/#technical-requirements-for-all-remote-onboarding), and [social](onboarding/#social-requirements-for-all-remote-onboarding)--we assign a mentor or [onboarding buddy]({{< ref "onboarding-buddies" >}}).
+We are so convinced in the power of onboarding well that we've created a [Complete Guide to Remote Onboarding for New Hires](onboarding/). To help new hires focus on [three key onboarding dimensions](https://hbr.org/2018/12/to-retain-new-hires-spend-more-time-onboarding-them)--[organizational](onboarding/#organizational-onboarding), [technical](onboarding/#technical-requirements-for-all-remote-onboarding), and [social](onboarding/#social-requirements-for-all-remote-onboarding)--we assign a mentor or [onboarding buddy](/handbook/people-group/general-onboarding/onboarding-buddies.md).
 
 #### Assign a mentor or onboarding buddy
 
@@ -228,7 +228,7 @@ A mentor or onboarding buddy is a friendly point of contact for a new team membe
 
 ### Practice informal communication
 
-Knowing that remote workers can experience [loneliness](https://about.gitlab.com/blog/2018/04/27/remote-future-how-remote-companies-stay-connected) or [burnout](mental-health/), it's important to prioritize relationship-building through regular social interactions. Remote workers can socialize using [informal communication](informal-communication/).
+Knowing that remote workers can experience [loneliness](https://about.gitlab.com/blog/2018/04/27/remote-future-how-remote-companies-stay-connected/) or [burnout](mental-health/), it's important to prioritize relationship-building through regular social interactions. Remote workers can socialize using [informal communication](informal-communication/).
 
 ### Perform regular check-ins
 
@@ -314,7 +314,7 @@ Driven by our [Collaboration value](/handbook/values/#collaboration), we organiz
 
 ## Contribute your lessons
 
-GitLab believes that all-remote is the [future of work]({{< ref "remote-vision" >}}), and remote companies have a shared responsibility to show the way for other organizations who are embracing it. If you or your company has an experience that would benefit the greater world, consider creating a [merge request](https://docs.gitlab.com/ee/user/project/merge_requests) and adding a contribution to this page.
+GitLab believes that all-remote is the [future of work]({{< ref "remote-vision" >}}), and remote companies have a shared responsibility to show the way for other organizations who are embracing it. If you or your company has an experience that would benefit the greater world, consider creating a [merge request](https://docs.gitlab.com/ee/user/project/merge_requests/) and adding a contribution to this page.
 
 ---
 

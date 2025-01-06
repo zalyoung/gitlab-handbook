@@ -33,6 +33,10 @@ GitLab's Security TPRM program involves three components which are integrated in
 | Business or System Owner |  [Describe the nature of the Third Party Relationship](/handbook/finance/procurement/#step-2-submit-your-zip-request) <br> Work with the Security Risk team to facilitate the TPRM review, to include remediation activities <br>* Ensure the responsiveness of the third party as part of the security review requirements |
 | Security Assurance Management (Code Owners) | Responsible for approving significant changes and exceptions to this procedure |
 
+### On-Call Rotation
+
+TPRM engineers are assigned on-call duties on a weekly basis to manage vendor intake and TPRM inquiries. Team members are encouraged to tag the on-call engineer via Slack or within GitLab issues for urgent inquiries. The on-call calendar can be found [here](https://calendar.google.com/calendar/u/0/embed?height=600&wkst=1&ctz=America/Chicago&title=TPRM+On-Call+Calendar&showPrint=0&showTabs=0&showCalendars=0&showTz=0&src=Y181ZGE3cHNtZXNycGxnYzFxZWkxbzh2aWE0MEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&color=%23039BE5).
+
 ### After-Hours Support
 
 The Security Risk team's core working hours are 8:00AM to 4:00PM CST. For urgent requisitions or TPRM concerns requiring immediate attention outside of these hours, please reach out to Ty Dilbeck via the phone number listed in Slack.
@@ -177,20 +181,15 @@ TPRM procedures are guided by the vendor's Inherent and Residual Risk levels, wh
 
 |Inherent Risk Level|Data Classification|
 |:---------:|:--------------:|
-|Very High|Red|
+|Critical|Red|
 |High|Orange SaaS<sup>1</sup>|
-|Moderate|Orange<sup>2</sup>|
-|Low|Yellow|
-|Very Low|Green|
+|Medium|Orange<sup>2</sup>|
+|Low|Yellow / Green|
 
-<html>
-<small>
-  <ol>
-    <li> <i> Due to increased risk with vendor engagements providing cloud services (such as SaaS offerings), the inherent risk level has been elevated to account for emerging threats and vulnerabilities associated with these types of services. </i> </li>
-    <li><i>Orange Individual-Use Software is assessed as moderate inherent risk under a reduced scope due to the decreased risk associated with these types of requests. See <a href="https://handbook.gitlab.com/handbook/security/security-assurance/security-risk/third-party-risk-management/#individual-use-software-requests">here</a> for further guidance.</i></li>
-  </ol>
-</small>
-</html>
+<ol>
+  <li> <i> Due to increased risk with vendor engagements providing cloud services (such as SaaS offerings), the inherent risk level has been elevated to account for emerging threats and vulnerabilities associated with these types of services. </i> </li>
+  <li><i>Orange Individual-Use Software is assessed as moderate inherent risk under a reduced scope due to the decreased risk associated with these types of requests. See <a href="/handbook/security/security-assurance/security-risk/third-party-risk-management/#individual-use-software-requests">here</a> for further guidance.</i></li>
+</ol>
 
 **Residual Risk** is the level of risk that remains after accounting for mitigating controls required by GitLab's Third Party Risk Management Program. Effectively managing vendor residual risk requires a balanced approach that considers the criticality of the vendor's services or products, the sensitivity of the data involved, and GitLab's risk tolerance.
 
@@ -198,11 +197,10 @@ Vendors that meet GitLab's security requirements will have residual risks levels
 
 |Inherent Risk Level| Residual Risk Level|
 |:---------:|:--------------:|
-|Very High|High|
+|Critical|High|
 |High|Moderate|
-|Moderate|Low|
-|Low|Very Low|
-|Very Low|Very Low|
+|Medium|Low|
+|Low|Low|
 
 Vendors that fail to meet GitLab's Third Party Risk Assessment requirements will have a residual risk score equivalent to the inherent risk score and may require a [Security Notice.](#tprm-security-notice-process)
 
@@ -230,7 +228,7 @@ Deficiencies identified are reviewed in the context of the vendor's greater Secu
 
 GitLab obtains and reviews third-party attestations to provide assurance over the design and operating effectiveness of a service provider's internal control environment. These attestations commonly include, but are not limited to, an ISO 27001 certificate or a Service Organization Control (SOC) 2 Type 2 report. Alternate forms of attestations can be leveraged in the absence of these more common documents, though diligence should be performed by the assessor in determining whether the attestation provides sufficient coverage over the control environment and aligns with our assessment criteria.
 
-**ISO 27001:** An ISO 27001 certificate can be leveraged as evidence of compliance with industry-standard security best practices. Though review of the certificate itself is not revelatory to the specific controls in place at the organization, the presence of a valid ISO 27001 certificate providing coverage over applicable services indicates that an external certifying body has performed testing to validate the design and operating effectiveness of controls related to the management team's continued performance of the following:
+**ISO 27001:** An ISO 27001 certificate with the accompanying [Information Security Management System (ISMS)](/handbook/security/isms/) scope and [Statement of Applicability (SoA)](https://www.isms.online/iso-27001/iso27001-statement-applicability-simplified/) can be leveraged as evidence of compliance with industry-standard security best practices. The ISMS scope helps ensure that the services provided by the vendor to GitLab are covered by the ISO audit. The SoA provides visibility into the policies and controls that are applied by the organization. A valid ISO 27001 certificate providing coverage over applicable services indicates that an external certifying body has performed testing to validate the design and operating effectiveness of controls related to the management team's continued performance of the following:
 
 - Systematic examination of the organization's information security risks, taking account of the threats, vulnerabilities, and impacts;
 - Design and implementation of a coherent and comprehensive suite of information security controls and/or other forms of risk treatment (such as risk avoidance or risk transfer) to address those risks that are deemed unacceptable; and
@@ -443,7 +441,7 @@ Engineers are advised to use professional judgment in determining the scope of c
 
 #### Third Party Application Integrations
 
-Integrations between systems within GitLab's environment are subject to the above-defined TPRM assessment procedures to obtain assurance over the security of data transmitted between each system. The Security Risk team will review the request to obtain an understanding of the data being shared. Application Integration Requests can be opened using the 'app_integrations' template located [here](https://gitlab.com/gitlab-com/Finance-Division/procurement-team/procurement/-/issues/new?issuable_template=app_integrations).
+Integrations between systems within GitLab's environment are subject to the above-defined TPRM assessment procedures to obtain assurance over the security of data transmitted between each system. The Security Risk team will review the request to obtain an understanding of the data being shared. Application Integration Requests can be opened using the 'app_integrations' template located [here](https://gitlab.com/gitlab-com/gl-security/security-assurance/security-risk-team/third-party-vendor-security-management/-/issues/new).
 
 The Application Integration Request process functions to allow visibility and oversite of systems interacting with each other in support of GitLab. This process also functions as a "soft gate" for the Security Risk team to identify and assess existing systems that have aged out of their approval window. Each system within the integration request is reviewed to determine whether an assessment has previously been completed to address the sensitivity of data being transmitted as a result of the proposed integration. New systems, or integrations resulting in increased sensitivity of data being transmitted to a system, will require a TPRM review be completed prior to approval of the request. If each system listed within the request has been previously assessed at any point in alignment with the data shared in the new integration, the request can be approved prior to additional review.
 
@@ -485,6 +483,6 @@ In specific instances, requirements for the performance or contents of TPRM revi
 - [Data Classification Standard]({{< ref "data-classification-standard" >}})
 - [Current listing of controlled documents](https://gitlab.com/gitlab-com/gl-security/security-assurance/governance/security-governance/-/issues/42)
 - [App Integrations (Team Member Enablement)](https://internal.gitlab.com/handbook/it/end-user-services/app-integrations/)
-- [Observation Management Procedure]({{< ref "observation-remediation-procedure" >}})
+- [Observation Management Procedure]({{< ref "observation-management-procedure" >}})
 - [STORM]({{< ref "storm-program" >}})
 - [Professional Services](/handbook/finance/procurement/#-how-do-i-create-a-purchase-request-in-zip)

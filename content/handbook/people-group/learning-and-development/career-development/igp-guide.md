@@ -77,7 +77,7 @@ When setting your development goals, try to make your goals specific.  Think abo
 
 Think creatively about your development goals, focusing on the [70-20-10 rule for development]({{< ref "career-development#70-20-10-rule-for-development" >}}).
 
-<div style="width: 100%;"><div style="position: relative; padding-bottom: 75.93%; padding-top: 0; height: 0;"><iframe frameborder="0" width="300" height="250" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" src="https://view.genial.ly/62fd2aa9021efd0018b7c8eb" type="text/html" allowscriptaccess="always" allowfullscreen="true" scrolling="yes" allownetworking="all"></iframe> </div> </div>
+<div style="width: 100%;"><div style="position: relative; padding-bottom: 75.93%; padding-top: 0; height: 0;"><iframe frameborder="0" width="300" height="250" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" src="https://view.genially.com/62fd2aa9021efd0018b7c8eb" type="text/html" allowscriptaccess="always" allowfullscreen="true" scrolling="yes" allownetworking="all"></iframe> </div> </div>
 
 If you need ideas or help finding development opportunities, [access this repository]({{< ref "career-development#directory" >}}) of resources, programs, and learning platforms. Explore the directory of handbook links to guide you. Bookmark learning programs that are most relevant to the direction you'd like to grow.
 

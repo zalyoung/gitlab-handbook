@@ -1,3 +1,5 @@
+#! /bin/bash
+
 # Define colors and styles
 normal="\033[0m"
 bold="\033[1m"
@@ -15,9 +17,9 @@ fi
 # Pull image and video lists
 # diff differently depending on if CI environment, fork, or local
 if [ -n "$CI_PROJECT_ID" ]; then
-    # if CI_PROJECT_ID exists, we're in a CI environment
-    if [ "$CI_PROJECT_ID" == "42817607" ]; then
-        # if CI_PROJECT_ID matches the current project, then it's not a fork
+    # if CI_MERGE_REQUEST_SOURCE_PROJECT_PATH matches the current project, then it's not a fork
+    # if CI_PROJECT_ID matches the current project and CI_PIPELINE_SOURCE is not from a merge request, then it is not a fork
+    if [ "${CI_MERGE_REQUEST_SOURCE_PROJECT_PATH:-}" = "gitlab-com/content-sites/handbook" ] || ([ "${CI_PROJECT_ID:-}" = "42817607" ] && [ "${CI_PIPELINE_SOURCE:-}" != "merge_request_event" ]); then
         BRANCH_POINT=$(git merge-base origin/$CI_MERGE_REQUEST_TARGET_BRANCH_NAME origin/$CI_MERGE_REQUEST_SOURCE_BRANCH_NAME)
         git diff --name-only --diff-filter=A $BRANCH_POINT origin/$CI_MERGE_REQUEST_SOURCE_BRANCH_NAME  | grep -E '\.(png|jpg|jpeg|gif|svg)$' | sort | uniq > /tmp/IMAGES-added
         git diff --name-only --diff-filter=d $BRANCH_POINT origin/$CI_MERGE_REQUEST_SOURCE_BRANCH_NAME | grep -E '\.(png|jpg|jpeg|gif|svg)$' | sort | uniq > /tmp/IMAGES
@@ -64,8 +66,8 @@ $markdownlinjson
 [
   {
     "type": "issue",
-    "check_name": "IMAGES/Incorrect Path",
-    "description": "The image \`$image\` is not in the /static/images directory. Please move it to the correct location.",
+    "check_name": "IMAGES Incorrect Path",
+    "description": "The image \`$image\` is not in the /static/images directory. Please check the rules link for more information.",
     "severity": "minor",
     "fingerprint": "$fingerprint",
     "location": {
@@ -73,7 +75,8 @@ $markdownlinjson
       "lines": {
         "begin": 0
       }
-    }
+    },
+    "link": "https://handbook.gitlab.com/docs/markdown-guide/#images"
   }
 ]
 EOF
@@ -100,7 +103,7 @@ $markdownlinjson
 [
   {
     "type": "issue",
-    "check_name": "IMAGES/Too Large",
+    "check_name": "IMAGES Too Large",
     "description": "The image \`$image\` is $IMAGE_SIZE KB, which is more than 500KB. Please make it smaller.",
     "severity": "major",
     "fingerprint": "$fingerprint",
@@ -109,7 +112,8 @@ $markdownlinjson
       "lines": {
         "begin": 0
       }
-    }
+    },
+    "link": "https://handbook.gitlab.com/docs/markdown-guide/#images"
   }
 ]
 EOF
@@ -137,7 +141,7 @@ $markdownlinjson
 [
   {
     "type": "issue",
-    "check_name": "FILES/Too Large",
+    "check_name": "FILES Too Large",
     "description": "The file \`$file\` is $IMAGE_SIZE KB, which is more than 15MB. Please make it smaller.",
     "severity": "major",
     "fingerprint": "$fingerprint",
@@ -146,7 +150,8 @@ $markdownlinjson
       "lines": {
         "begin": 0
       }
-    }
+    },
+    link: "https://handbook.gitlab.com/docs/markdown-guide/#videos"
   }
 ]
 EOF
@@ -173,7 +178,7 @@ $markdownlinjson
 [
   {
     "type": "issue",
-    "check_name": "VIDEOS/Incorrect Path",
+    "check_name": "VIDEOS Incorrect Path",
     "description": "The video \`$video\` is not in the /static/videos directory. Please move it to the correct location.",
     "severity": "minor",
     "fingerprint": "$fingerprint",
@@ -182,7 +187,8 @@ $markdownlinjson
       "lines": {
         "begin": 0
       }
-    }
+    },
+    link: "https://handbook.gitlab.com/docs/markdown-guide/#videos"
   }
 ]
 EOF
@@ -214,7 +220,7 @@ $markdownlinjson
 [
   {
     "type": "issue",
-    "check_name": "CODEOWNERS/Missing file",
+    "check_name": "CODEOWNERS.Missing file",
     "description": "The file \`$ENTRY\` is listed in CODEOWNERS but the file itself is missing.  Please remove this CODEOWNER entry",
     "severity": "major",
     "fingerprint": "$fingerprint",
@@ -250,7 +256,7 @@ $markdownlinjson
 [
   {
     "type": "issue",
-    "check_name": "CODEOWNERS/Duplicate Entry",
+    "check_name": "CODEOWNERS.Duplicate Entry",
     "description": "\`$d\` is listed in CODEOWNERS more than once.  Please remove any duplicate CODEOWNER entries",
     "severity": "minor",
     "fingerprint": "$fingerprint",
@@ -287,7 +293,7 @@ $markdownlinjson
 [
   {
     "type": "issue",
-    "check_name": "CODEOWNERS/Bad ownership",
+    "check_name": "CODEOWNERS.Bad ownership",
     "description": "The entry for \`$FILE\` doesn't have the handbook and egroup groups attached to it.  Please add them.",
     "severity": "major",
     "fingerprint": "$fingerprint",
@@ -331,7 +337,7 @@ $markdownlinjson
 [
   {
     "type": "issue",
-    "check_name": "CODEOWNERS/Controlled Document Missing",
+    "check_name": "CODEOWNERS Controlled Document Missing",
     "description": "The file \`$f\` has identified itself as a controlled document in the front matter but is missing an entry in the CODEOWNERS file",
     "severity": "major",
     "fingerprint": "$fingerprint",
@@ -368,7 +374,7 @@ $markdownlinjson
 [
   {
     "type": "issue",
-    "check_name": "CODEOWNERS/Missing front matter",
+    "check_name": "CODEOWNERS Missing front matter",
     "description": "The file \`$f\` is listed as a controlled document in CODEOWNERS but is missing the front matter to mark it as a controlled document",
     "severity": "minor",
     "fingerprint": "$fingerprint",
@@ -392,10 +398,11 @@ fi
 rm /tmp/CODEOWNERS
 
 if [[ $ERROR_FOUND == "true" ]]; then
-  printf "%b" "\n${bold}${red}Linting Failed!${normal}${bold} - There are a number of issues with CODEOWNERS and/on Controlled Documents.${normal}\n\n"
+  printf "%b" "\n${bold}${red}Linting Failed!${normal}${bold} - There are a number of issues with the proposed changes.${normal}\n\n"
   if [[ $INCORRECT_IMAGE_PATHS != "" ]]; then
-    printf "%b" "The following images are being added, but are not located in the static/images folder:\n\n"
+    printf "%b" "The following images are being added, but are not located in the static/images folder.\n\n"
     printf "%b" "$INCORRECT_IMAGE_PATHS\n"
+    printf "%b" "${yellow}See https://handbook.gitlab.com/docs/markdown-guide/#images for more information.${normal}\n"
   fi
   if [[ $LARGE_IMAGE_PATHS != "" ]]; then
     printf "%b" "The following images are being added, but are larger than 500KB each:\n\n"

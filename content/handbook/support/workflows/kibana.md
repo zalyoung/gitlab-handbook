@@ -140,7 +140,7 @@ To see a list of projects deleted as part of a (sub)group deletion, in sidekiq:
 
 ### Viewed CI/CD Variables
 
-While we do not specifically log *changes* made to CI/CD variables in our [audit logs for group events](https://docs.gitlab.com/ee/administration/audit_events.html#group-events), there is a way to use Kibana to see who may have viewed the variables page. Viewing the variables page is required to change the variables in question. While this does *not* necessarily indicate someone who has viewed the page in question has made changes to the variables, it should help to narrow down the list of potential users who could have done so. (If you'd like us to log these changes, we have [an issue open here to collect your comments](https://gitlab.com/gitlab-org/gitlab/-/issues/8070).)
+While we do not specifically log *changes* made to CI/CD variables in our [audit logs for group events](https://docs.gitlab.com/ee/administration/audit_event_reports.html#group-events), there is a way to use Kibana to see who may have viewed the variables page. Viewing the variables page is required to change the variables in question. While this does *not* necessarily indicate someone who has viewed the page in question has made changes to the variables, it should help to narrow down the list of potential users who could have done so. (If you'd like us to log these changes, we have [an issue open here to collect your comments](https://gitlab.com/gitlab-org/gitlab/-/issues/8070).)
 
 1. Set a filter for `json.path` `is` and then enter the full path of the associated project in question, followed by `/-/variables`. For example, if I had a project named `tanuki-rules`, I would enter `tanuki-rules/-/variables`.
 1. Set the date in Kibana to the range in which you believe a change was made.
@@ -442,4 +442,3 @@ Here are some suggestions:
 #### Searching for Service Desk emails
 
   When searching through Kibana for the `json.to_address`, make sure this is the address that appears on the `to:` line in the email, even if this is aliased to the GitLab project email address. If you search for the project email address and the Service Desk mail was sent to an alias of that (`support@domain.ext` for example), it won't show up in the searches.
-  

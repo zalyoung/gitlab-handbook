@@ -72,7 +72,7 @@ Since GitLab is an [all remote](/handbook/company/culture/all-remote/) company w
   - [Minimum Wage and Paid Sick Leave](https://www.ci.emeryville.ca.us/DocumentCenter/View/15057/2023-Business-Official-Notice-Englishfinal?bidId=)
   - [COVID-19 Paid Sick Leave](https://www.ci.emeryville.ca.us/DocumentCenter/View/13695/2021-COVID-19-Supplemental-Paid-Sick-Leave)
 - **City of Los Angeles**
-  - [Fair Chance Initiative for Hiring Ordinance to Applicants and Employees](https://bca.lacity.org/Uploads/fciho/Ban%20the%20Box%20Poster%20-%20Private%20Employers%2C%20as%20of%208.23.18.pdf)
+  - [Fair Chance Initiative for Hiring Ordinance to Applicants and Employees](https://bca.lacity.gov/Uploads/fciho/Ban%20the%20Box%20Poster%20-%20Private%20Employers%2C%20as%20of%208.23.18.pdf)
   - [Minimum Wage and Paid Sick Leave](https://wagesla.lacity.org/sites/g/files/wph1941/files/2023-02/2023-MWO-Poster-EN-11_0.pdf)
 - **Los Angeles County**
   - [Fair Chance Notice for Employers](https://dcba.lacounty.gov/wp-content/uploads/2024/08/FCOE-Official-Notice-Eng-Final-8.30.2024.pdf)
@@ -87,17 +87,17 @@ Since GitLab is an [all remote](/handbook/company/culture/all-remote/) company w
   - [Minimum Wage Bulletin](https://www.sanjoseca.gov/home/showpublisheddocument/80936/637768050476030000)
   - [Opportunity to Work Notice](https://www.sanjoseca.gov/home/showdocument?id=20073)
 - **City of San Francisco**
-  - [Minimum Wage Poster](https://sfgov.org/olse/sites/default/files/minimum%20wage%20poster%202022_2.pdf)
-  - [Paid Sick Leave](https://sf.gov/sites/default/files/2022-09/Paid%20Sick%20Leave%20Poster.pdf)
-  - [Fair Chance Ordinance](https://sfgov.org/olse/sites/default/files/FCO%20poster2020_0.pdf)
-  - [Health Care Security Ordinance](https://sfgov.org/olse/sites/default/files/Document/HCSO%20Files/2022%20HCSO%20poster.pdf)
-  - [Family Friendly Workplace Ordinance](https://sfgov.org/olse/sites/default/files/FileCenter/Documents/11256-FFWO%20Official%20Notice.pdf)
-  - [Paid Parental Leave Ordinance](https://sf.gov/sites/default/files/2022-11/Parental%20Leave%20Poster%202022.pdf)
-  - [Salary History Ordinance](https://sfgov.org/olse/sites/default/files/Document/Consideration%20of%20Salary%20History%20Poster%20upload.pdf)
-  - [COVID-Related Employment Protections](https://sfgov.org/olse/sites/default/files/CEPO%20Poster%20-%20March%202021.pdf)
-  - [Public Health Emergency Leave](https://sfgov.org/olse/sites/default/files/Public%20Health%20Emergency%20Leave%20Poster%207.2022.pdf)
+  - [Minimum Wage Poster](https://www.sfgov.org/olse/sites/default/files/minimum%20wage%20poster%202022_2.pdf)
+  - [Paid Sick Leave](https://www.sf.gov/sites/default/files/2022-09/Paid%20Sick%20Leave%20Poster.pdf)
+  - [Fair Chance Ordinance](https://www.sfgov.org/olse/sites/default/files/FCO%20poster2020_0.pdf)
+  - [Health Care Security Ordinance](https://www.sfgov.org/olse/sites/default/files/Document/HCSO%20Files/2022%20HCSO%20poster.pdf)
+  - [Family Friendly Workplace Ordinance](https://www.sfgov.org/olse/sites/default/files/FileCenter/Documents/11256-FFWO%20Official%20Notice.pdf)
+  - [Paid Parental Leave Ordinance](https://www.sf.gov/sites/default/files/2022-11/Parental%20Leave%20Poster%202022.pdf)
+  - [Salary History Ordinance](https://www.sfgov.org/olse/sites/default/files/Document/Consideration%20of%20Salary%20History%20Poster%20upload.pdf)
+  - [COVID-Related Employment Protections](https://www.sfgov.org/olse/sites/default/files/CEPO%20Poster%20-%20March%202021.pdf)
+  - [Public Health Emergency Leave](https://www.sfgov.org/olse/sites/default/files/Public%20Health%20Emergency%20Leave%20Poster%207.2022.pdf)
 - **City of Santa Monica**
-  - [Minimum Wage, Paid Sick Leave and Service Charge Law](https://santamonica.gov/media/Minimum_Wage/Notifications/23-24%20Notices/2023-24_Notification_English.pdf)
+  - [Minimum Wage, Paid Sick Leave and Service Charge Law](https://www.santamonica.gov/media/Minimum_Wage/Notifications/23-24%20Notices/2023-24_Notification_English.pdf)
 - **City of West Hollywood**
   - [Minimum Wage - English](hhttps://www.weho.org/home/showpublisheddocument/56165/638488638315030000)
   - [Minimum Wage - Spanish](https://www.weho.org/home/showpublisheddocument/56213/638488634394800000)
@@ -117,14 +117,14 @@ Since GitLab is an [all remote](/handbook/company/culture/all-remote/) company w
 
 ### Connecticut
 
-- [Sexual Harassment is Illegal](https://portal.ct.gov/-/media/CHRO/SexualHarassmentPreventionPosterpdf.pdf)
+- [Sexual Harassment is Illegal](https://portal.ct.gov/-/media/chro/sexualharassmentpreventionposterpdf.pdf)
 - [Paid Sick Leave](https://portal.ct.gov/dol/-/media/dol/2022-new-design-system/divisions/wage-and-workplace-standards/noticesickleaveposter2023.pdf)
 - [Paid Leave poster](https://portal.ct.gov/-/media/dolui/new-53122-prototype-of-employers-written-notice-to-employees-of-rights-under-ctfmla-and-ctpl.pdf)
-- [Discrimination is Illegal](https://portal.ct.gov/-/media/CHRO/DiscriminationFlyerpdf.pdf)
+- [Discrimination is Illegal](https://portal.ct.gov/-/media/chro/discriminationflyerpdf.pdf)
 - [Minimum Wage](https://www1.ctdol.state.ct.us/lmi/ctminimumwage.asp)
 - [Worker's Compensation Notice](https://drive.google.com/file/d/1QudFkpV7haIaUzUpIYccD9slAiDrAnHd/view?usp=sharing)
 - [Electronic Monitoring Notice](https://portal.ct.gov/-/media/das/statewide-hr/a---z-listing-task-pdfs/electronic-monitoring-of-state-employees-policy.pdf)
-- [Office of the Healthcare Advocate](https://portal.ct.gov/-/media/OHA/OHA-Poster---English.pdf)
+- [Office of the Healthcare Advocate](https://portal.ct.gov/-/media/oha/oha-poster---english.pdf)
 - [Pregnancy Discrimination and Accommodation in the Workplace](https://www.ctdol.state.ct.us/gendocs/SS46a%20Pregnancy%20Disability%20Poster.pdf)
 
 ### Delaware
@@ -135,7 +135,7 @@ Since GitLab is an [all remote](/handbook/company/culture/all-remote/) company w
 
 ### District of Columbia
 
-- [Paid Family Leave Employee Notice](https://dcpaidfamilyleave.dc.gov/employer-forms/)
+- [Paid Family Leave Employee Notice](https://dcpaidfamilyleave.dc.gov/employers/employer-forms/)
 - [COVID-19 Leave Notice](https://ohr.dc.gov/sites/default/files/dc/sites/ohr/publication/attachments/COVID-19%20Leave_EmployerPoster_011422.pdf)
 - [Equal Employment Opportunity](https://ohr.dc.gov/sites/default/files/dc/sites/ohr/publication/attachments/EEO_Poster_2015.pdf)
 - [DC Family and Medical Leave Act](https://ohr.dc.gov/sites/default/files/dc/sites/ohr/publication/attachments/DCFMLA%20updated%20poster%20-%20Oct2022.pdf)
@@ -217,14 +217,14 @@ Since GitLab is an [all remote](/handbook/company/culture/all-remote/) company w
 ### Kansas
 
 - [Unemployment Insurance](https://www.dol.ks.gov/home/showpublisheddocument/100/638363383565870000)
-- [Kansas Law Provides Equal Opportunity](https://www.khrc.net/pdf/ksemployposter.pdf)
+- [Kansas Law Provides Equal Opportunity](https://web.archive.org/web/20240730082943/https://www.khrc.net/pdf/ksemployposter.pdf)
 - [Workers' Compensation Notice - Inc.](https://drive.google.com/file/d/1wfEtSjJ7O_MDx4eIg9-5rebCLkDyrkgL/view?usp=sharing)
 
 ### Kentucky
 
-- [Safety and Health on the Job](https://labor.ky.gov/Documents/KY%20OSH%20Poster%20English.pdf)
-- [Wage and Hour Laws](https://labor.ky.gov/Documents/KY%20Wage%20and%20Hour%20Poster%20English.pdf)
-- [Wage Discrimination Because of Sex](https://labor.ky.gov/Documents/KY%20Wage%20Discrimination%20Poster%20English.pdf)
+- [Safety and Health on the Job](https://elc.ky.gov/workplace-standards/Documents/KY%20OSH%20Poster%20English.pdf)
+- [Wage and Hour Laws](https://elc.ky.gov/workplace-standards/Pages/Wages-and-Hours.aspx)
+- [Wage Discrimination Because of Sex](https://elc.ky.gov/workplace-standards/Documents/KY%20Wage%20Discrimination%20Poster%20English.pdf)
 - [Equal Employment Opportunity](https://kchr.ky.gov/Resources/Brochures%20and%20Posters/FINALEqualEmploymentOpportunityPoster2024.pdf)
 - [Unemployment Compensation Benefits](https://kcc.ky.gov/Documents/Forms%20and%20Posters/ui_ben5_1_0108.pdf)
 - [Workers' Compensation Notice - Inc.](https://drive.google.com/file/d/1VB2kPE0C8uzf8sNwZf-Kf2dE1AxpLHmD/view?usp=sharing)
@@ -294,7 +294,7 @@ Since GitLab is an [all remote](/handbook/company/culture/all-remote/) company w
 ### Minnesota
 
 - [Age Discrimination](https://www.dli.mn.gov/sites/default/files/pdf/agediscr_poster.pdf)
-- [Minimum Wage](https://www.dli.mn.gov/sites/default/files/pdf/minwage_poster_2024.pdf)
+- [Minimum Wage](https://www.dli.mn.gov/minwage)
 - [Safety and Health Protection on the Job](https://www.dli.mn.gov/sites/default/files/pdf/mnosha_poster.pdf)
 - [Unemployment Insurance](https://www.uimn.org/assets/109_tcm1068-192562.pdf)
 - [Workers' Compensation Notice - Inc.](https://drive.google.com/file/d/1TiucUJJeuRL_P9KRhGMVEvyXe12Qik5w/view?usp=sharing)
@@ -317,9 +317,9 @@ Since GitLab is an [all remote](/handbook/company/culture/all-remote/) company w
 
 ### Missouri
 
-- [Discrimination in Employment](https://labor.mo.gov/sites/labor/files/pubs_forms/MCHR-9-AI.pdf)
+- [Discrimination in Employment](https://labor.mo.gov/media/pdf/mchr-9-ai)
 - [Notice to Victims of Domestic and Sexual Violence - Leave Time Allowed](https://labor.mo.gov/media/pdf/ls-112-ai)
-- [Missouri Minimum Wage Law](https://labor.mo.gov/sites/labor/files/pubs_forms/LS-52-AI.pdf)
+- [Missouri Minimum Wage Law](https://labor.mo.gov/media/pdf/ls-52-ai)
 - [Workers' Compensation Notice - Inc.](https://drive.google.com/file/d/1uROeLu4pwe3DmwEEVJRJ_a8rySgucy-b/view?usp=sharing)
 
 ### Montana
@@ -339,7 +339,7 @@ Since GitLab is an [all remote](/handbook/company/culture/all-remote/) company w
 ### Nevada
 
 - [Rules to be Observed by Employers - English](https://labor.nv.gov/uploadedFiles/labornvgov/content/Employer/Rules%20to%20be%20Observed%20by%20Employers%2007.18.2024.pdf)
-- [Reglas para ser Observadas por Los Empleadores](https://labor.nv.gov/uploadedFiles/labornvgov/content/Employer/Rules%20to%20be%20Observed%20by%20Employers%2007.18.2024_SPANISH.pdff)
+- [Reglas para ser Observadas por Los Empleadores](https://labor.nv.gov/uploadedFiles/labornvgov/content/Employer/Rules%20to%20be%20Observed%20by%20Employers%2007.18.2024_SPANISH.pdf)
 - [AB 190 - English](https://labor.nv.gov/uploadedFiles/labornvgov/content/Employer/AB%20190%20Required%20Posting.pdf)
 - [AB 190 - Spanish](https://labor.nv.gov/uploadedFiles/labornvgov/content/Employer/Spanish%20Version-%20AB%20190%20Required%20Posting.pdf)
 - [AB 307 - English](https://labor.nv.gov/uploadedFiles/labornvgov/content/Employer/AB%20307%20Required%20Posting.pdf)
@@ -404,7 +404,7 @@ Since GitLab is an [all remote](/handbook/company/culture/all-remote/) company w
 
 - [Minimum Wage](https://www.dws.state.nm.us/Portals/0/DM/LaborRelations/MWA_Summary_ENGL_2023.pdf)
 - [Human Rights Act](https://www.dws.state.nm.us/Portals/0/DM/LaborRelations/Human_Rights_poster-letter_size_7.12.2023_UPDATE.pdf?ver=KdwYlrNqS_o_fuGp-q5ygg%3d%3d)
-- [Human Trafficking Poster](https://www.dws.state.nm.us/Portals/0/DM/Business/Human_Trafficking_Poster.pdf)
+- [Human Trafficking Poster](https://web.archive.org/web/20240907064307/https://www.dws.state.nm.us/Portals/0/DM/Business/Human_Trafficking_Poster.pdf)
 - [Job Safety and Health Poster](https://www.env.nm.gov/occupational_health_safety/wp-content/uploads/sites/12/2021/10/OSHA_Poster.pdf)
 - Notice of Accident or Occupational Disease Disablement
 - [Paid Sick Leave](https://www.dws.state.nm.us/Portals/0/DM/LaborRelations/Paid_Sick_Leave_poster_letter_size.pdf?ver=2022-03-29-000528-147)
@@ -567,7 +567,7 @@ Since GitLab is an [all remote](/handbook/company/culture/all-remote/) company w
 
 ### Virginia
 
-- [Virginia Unemployment Compensation Act](https://www.vec.virginia.gov/pdf/vecb29eng.pdf)
+- [Virginia Unemployment Compensation Act](https://web.archive.org/web/20240724090602/https://www.vec.virginia.gov/pdf/vecb29eng.pdf)
 - [Virginia Occupational Safety and Health Act](https://www.doli.virginia.gov/wp-content/uploads/2021/10/Job-Safety-Posters-English-August-2021.pdf)
 - [Earned Income Tax Credit](https://www.irs.gov/pub/irs-pdf/p962esp.pdf)
 - [Virginia CLI](https://www.dss.virginia.gov/files/division/cvs/pi/eitc/employer_info/cli_flyer2021.pdf)

@@ -32,7 +32,7 @@ Use the [Rotation Management](https://gitlab.com/gitlab-com/gl-security/product-
 
 AppSec's [Triage Rotation](/handbook/security/product-security/application-security/runbooks/triage-rotation/) handbook page has information on the rotations and who is assigned.
 
-The AppSec team will post a Slack message in `#sec-appsec` with information on who is available, when they are available, and how to get in contact if AppSec assistance is urgently needed. This should be cross-posted to te `#security` and `#security-department` channels for extra visibility.
+The AppSec team will post a Slack message in `#sec-appsec` with information on who is available, when they are available, and how to get in contact if AppSec assistance is urgently needed. This should be cross-posted to te `#security` and `#security-division` channels for extra visibility.
 
 Each AppSec team member providing coverage will have their mobile phone number available in their Slack profile.
 

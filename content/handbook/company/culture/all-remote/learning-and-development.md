@@ -75,7 +75,7 @@ From a learning and development standpoint, this approach ensures that all team 
 ![GitLab remote collaboration illustration](/images/all-remote/gitlab-collaboration-illustration.jpg)
 {style="max-width: 50%;"}
 
-We encourage companies to consider [GitLab (the product)]({{< ref "gitlab-for-remote" >}}) to manage L&D within their own handbook. With a [merge request](https://docs.gitlab.com/ee/user/project/merge_requests), for instance, *any* team member can suggest new learnings to the appropriate places. Colleagues and those managing learning and development can comment, add feedback, and shape what is eventually added.
+We encourage companies to consider [GitLab (the product)]({{< ref "gitlab-for-remote" >}}) to manage L&D within their own handbook. With a [merge request](https://docs.gitlab.com/ee/user/project/merge_requests/), for instance, *any* team member can suggest new learnings to the appropriate places. Colleagues and those managing learning and development can comment, add feedback, and shape what is eventually added.
 
 This is powerful in that it encourages team members to continually be mindful of new learnings, and to not keep those learnings to themselves. Said another way, all-remote teams are ideally positioned to *contribute* to learning and development, rather than simply waiting for the L&D team to generate new material to ingest.
 
@@ -87,7 +87,7 @@ GitLab's [100% remote culture](/handbook/company/culture/) and our workplace met
 
 So differently, in fact, that many of GitLab's most effective [processes](management/) would be discouraged or forbidden in conventional corporations.
 
-Hence, GitLab managers are [expected]({{< ref "structure#management-group" >}}) to coach their reports to utilize [asyncronous communication](asynchronous/), be [handbook-first]({{< ref "handbook-usage#why-handbook-first" >}}), design an [optimal workspace](workspace/), and understand the importance of [self-learning/self-service](self-service/).
+Hence, GitLab managers are [expected]({{< ref "structure#management-group" >}}) to coach their reports to utilize [asynchronous communication](asynchronous/), be [handbook-first]({{< ref "handbook-usage#why-handbook-first" >}}), design an [optimal workspace](workspace/), and understand the importance of [self-learning/self-service](self-service/).
 
 ## What are some best practices for remote team management of L&D initiatives?
 
@@ -126,7 +126,7 @@ Proper learning and development requires more than a curriculum. It requires an 
 
 {{< youtube "CH-NHoBOeho?start=609" >}}
 
-*In the Traction Conference [video](https://youtu.be/CH-NHoBOeho) above, GitLab co-founder and CEO Sid Sijbrandij shares how onboarding works within an all-remote setting with Frederic Lardinois of [TechCrunch](https://techcrunch.com).*
+*In the Traction Conference [video](https://youtu.be/CH-NHoBOeho) above, GitLab co-founder Sid Sijbrandij shares how onboarding works within an all-remote setting with Frederic Lardinois of [TechCrunch](https://techcrunch.com).*
 
 At a high level, this is how new team members are onboarded at GitLab.
 
@@ -135,7 +135,7 @@ At a high level, this is how new team members are onboarded at GitLab.
     - Onboarding items are extremely prescriptive
     - Rather than bundling a complex series of asks into one "task," as is common elsewhere, GitLab strives to remove ambiguity
 1. Each new hire is assigned an Onboarding Buddy as an added resource beyond the individual's manager
-    - The Onboarding Buddy is a serious role, replete with [its own Handbook page]({{< ref "onboarding-buddies" >}})
+    - The Onboarding Buddy is a serious role, replete with [its own Handbook page](/handbook/people-group/general-onboarding/onboarding-buddies.md)
     - The Onboarding Buddy provides assistance in any way, where no question is silly or too minute, to ensure the new hire has all questions addressed
     - If a concern or obstacle is surfaced to the Onboarding Buddy, and there is no solution in the Handbook, the Onboarding Buddy works with the new hire to create a merge request for the enlightenment of all future new hires
 1. The onboarding process is self-directed and self-guided, with new hires encouraged to lean on [documentation](handbook-first/) in the [Handbook](/handbook) — as well as conversing with any GitLab team member — to get up to speed.
@@ -152,7 +152,7 @@ That flexibility is unique to the all-remote environment, as those who prefer a 
 
 GitLab's onboarding process is **empowering**. If a new hire gets stuck during onboarding, they are encouraged to update the Handbook, record a video to help others who may encounter the same obstacle, and contribute to learning and development from day one.
 
-At GitLab, new hires are onboarded using [GitLab (the product)]({{< ref "gitlab-for-remote" >}}). We believe in using the tools we create. This allows new hires to become [familiar with GitLab](https://about.gitlab.com/features) in a way that feels meaningful (e.g. in learning GitLab, they are also accomplishing necessary onboarding tasks). This also provides a continual set of new users to test GitLab with fresh eyes. These individuals are ideally positioned to point out missing features or areas for improvement as we [iterate](/handbook/values/#iteration) on the product.
+At GitLab, new hires are onboarded using [GitLab (the product)]({{< ref "gitlab-for-remote" >}}). We believe in using the tools we create. This allows new hires to become [familiar with GitLab](https://about.gitlab.com/features/) in a way that feels meaningful (e.g. in learning GitLab, they are also accomplishing necessary onboarding tasks). This also provides a continual set of new users to test GitLab with fresh eyes. These individuals are ideally positioned to point out missing features or areas for improvement as we [iterate](/handbook/values/#iteration) on the product.
 
 Learn more about [GitLab Onboarding in our Handbook]({{< ref "general-onboarding" >}}).
 
@@ -163,7 +163,7 @@ Learn more about [GitLab Onboarding in our Handbook]({{< ref "general-onboarding
 ![GitLab commit illustration](/images/all-remote/gitlab-commit-illustration.jpg)
 {style="max-width: 50%;"}
 
-All-remote companies should strive for a [single source of truth](https://docs.gitlab.com/ee/development/documentation/styleguide#documentation-is-the-single-source-of-truth-ssot) in all facets of running the business, including job families. Job families and their descriptions should be accessible to all from day one. GitLab makes these descriptions available even to prospective team members in the [Job Families section of our Handbook](/handbook/hiring/job-families), reinforcing our [Transparency value](/handbook/values/#transparency).
+All-remote companies should strive for a [single source of truth](https://docs.gitlab.com/ee/development/documentation/styleguide/#documentation-is-the-single-source-of-truth-ssot) in all facets of running the business, including job families. Job families and their descriptions should be accessible to all from day one. GitLab makes these descriptions available even to prospective team members in the [Job Families section of our Handbook](/handbook/hiring/job-families), reinforcing our [Transparency value](/handbook/values/#transparency).
 
 This removes ambiguity about how the company functions, [how it is organized](https://gitlab.com/gitlab-com/www-gitlab-com/tree/master/source/job-families), and what each position is responsible for.
 
@@ -206,7 +206,7 @@ Reinforcing GitLab's [Transparency value](/handbook/values/#transparency), we ro
 
 {{< youtube "u1jv1HOc8fw" >}}
 
-*In the [video](https://youtu.be/u1jv1HOc8fw)) above, published on the [GitLab Unfiltered YouTube channel](https://www.youtube.com/channel/UCMtZ0sc1HHNtGGWZFDRTh5A), GitLab CEO Sid Sijbrandij conducts an AMA.*
+*In the [video](https://youtu.be/u1jv1HOc8fw) above, published on the [GitLab Unfiltered YouTube channel](https://www.youtube.com/channel/UCMtZ0sc1HHNtGGWZFDRTh5A), GitLab co-founder Sid Sijbrandij conducts an AMA.*
 
 Here are a few other examples of AMAs:
 
@@ -222,7 +222,7 @@ Learn more about [Group Conversations in GitLab's Handbook](/handbook/company/gr
 
 {{< youtube "MN3mzvbgwuc" >}}
 
-*In the [video](https://www.youtube.com/watch?v=MN3mzvbgwuc) above, published on the [GitLab YouTube channel](https://www.youtube.com/channel/UCnMGQ8QHMAnVIsI3xJrihhg), GitLab co-founder and CEO Sid Sijbrandij leads a Functional Group Update Training.*
+*In the [video](https://www.youtube.com/watch?v=MN3mzvbgwuc) above, published on the [GitLab YouTube channel](https://www.youtube.com/channel/UCnMGQ8QHMAnVIsI3xJrihhg), GitLab co-founder Sid Sijbrandij leads a Functional Group Update Training.*
 
 More Group Conversations are listed below.
 
@@ -251,7 +251,7 @@ Learn more about [GitLab's Key Reviews](/handbook/company/key-review/).
 
 ## Contribute your lessons
 
-GitLab believes that all-remote is the [future of work]({{< ref "remote-vision" >}}), and remote companies have a shared responsibility to show the way for other organizations who are embracing it. If you or your company has an experience that would benefit the greater world, consider creating a [merge request](https://docs.gitlab.com/ee/user/project/merge_requests) and adding a contribution to this page.
+GitLab believes that all-remote is the [future of work]({{< ref "remote-vision" >}}), and remote companies have a shared responsibility to show the way for other organizations who are embracing it. If you or your company has an experience that would benefit the greater world, consider creating a [merge request](https://docs.gitlab.com/ee/user/project/merge_requests/) and adding a contribution to this page.
 
 ---
 

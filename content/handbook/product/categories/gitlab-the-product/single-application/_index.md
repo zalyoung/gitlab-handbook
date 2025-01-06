@@ -1,5 +1,6 @@
 ---
 title: Advantages of a single application
+description: "Discussing the advantages of having a single application"
 ---
 
 ## Single application
@@ -20,7 +21,7 @@ For example, the experience of one enterprise customer that converted from multi
 - Four-times fewer hours of hands-on keyboard time and four-times fewer tasks for people to do, allowing them to be more productive
 - Five-times fewer different teams requiring to be involved and four-times fewer handoffs between teams, allowing them to be more productive and making the time to value more predictable
 
-[![DevOps GitLab compared with multiple DevOps tools](devops_single_multiple_tool_comparison.png)](dataflow.html)
+[![DevOps GitLab compared with multiple DevOps tools](/images/product/categories/gitlab-the-product/single-application/devops_single_multiple_tool_comparison.png)](dataflow.html)
 
 ### How does having one application vs many applications impact the workflow?
 
@@ -119,7 +120,7 @@ everything you need available at all times makes for more efficient work.
 blocked no longer requires detective work. It's available everywhere and
 accessible to everyone.
 
-This is highlighted by analyst specified benefits of [Value Stream Delivery Platforms](https://about.gitlab.com/analysts/gartner-vsdp21/), of which GitLab is considered a representative vendor.
+This is highlighted by analyst specified benefits of [Value Stream Delivery Platforms](https://about.gitlab.com/press/releases/2021-11-03-gitlab-inc-named-a-representative-vendor-in-new-gartner-market-guide/), of which GitLab is considered a representative vendor.
 
 Some additional example benefits include:
 
@@ -180,7 +181,7 @@ flowchart LR
   A(Plan)
   B(Create)
   C(Release)
-  D(Govern)
+  D(Software Supply Chain Security)
   E(Configure)
   F(Monitor)
   G(Verify)
@@ -238,7 +239,7 @@ hidden costs.
 
 #### Overt cost
 
-The overt cost of paying for [licensing and support of multiple tools](https://about.gitlab.com/calculator/roi/) is
+The overt cost of paying for [licensing and support of multiple tools](https://about.gitlab.com/calculator/) is
 higher than a single application. A single application can charge less because its fixed costs are distributed
 across the functionality, whereas separate vendors each need to pay those costs themselves for each of their solutions.
 

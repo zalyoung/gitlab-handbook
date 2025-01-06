@@ -22,15 +22,15 @@ Looking for GitLab's library of guides to working remotely? Those are [**here**]
 - [Protocol: Do you need to hire a 'head of remote?'](https://web.archive.org/web/20230921150229/https://www.protocol.com/workplace/head-of-remote-darren-murph)
 - [Washington Post: Hot new job title in a pandemic: 'Head of remote work'](https://www.washingtonpost.com/business/2020/09/09/head-of-remote-work-jobs/)
 - [CNBC: Embracing Remote Work: Meet the Oracles](https://www.cnbc.com/video/2020/11/13/embracing-remote-work-meet-the-oracles.html)
-- [Harvard Business Review: Remote Work Doesn't Have to Mean All-Day Video Calls](https://hbr.org/2020/09/remote-work-doesnt-have-to-mean-all-day-video-calls/)
+- [Harvard Business Review: Remote Work Doesn't Have to Mean All-Day Video Calls](https://hbr.org/2020/09/remote-work-doesnt-have-to-mean-all-day-video-calls)
 - [Crowe Global: Exclusive Q&A With GitLab's Head Of Remote](https://www.crowe.com/global/insights/art-of-smart/exclusive-q-a-with-gitlab-head-of-remote)
 - [San Francisco Chronicle: Tech's hottest job title in 2021? 'Head of remote work'](https://www.sfchronicle.com/local/article/Meet-the-people-making-your-work-from-home-16044685.php)
 - [Digiday: 'Change without story is a mandate, change with story is purpose': Why marketing and comms execs are being tapped for chief-of-remote roles](https://digiday.com/marketing/change-without-story-is-a-mandate-change-with-story-is-purpose-why-marketing-and-comms-execs-are-being-tapped-for-chief-of-remote-roles/)
 - [NPR Marketplace: Why more companies are hiring heads of remote work](https://www.marketplace.org/2021/10/26/why-more-companies-are-hiring-heads-of-remote-work/)
 - [Ladders: The dawn of the age of Chief Remote Work Officers](https://www.theladders.com/career-advice/the-dawn-of-the-age-of-chief-remote-work-officers)
-- [The Org: The Hottest New Title in Tech: Head of Remote Work](https://theorg.com/insights/the-hottest-new-title-in-tech-head-of-remote-work)
+- [The Org: The Hottest New Title in Tech: Head of Remote Work](https://theorg.com/iterate/the-hottest-new-title-in-tech-head-of-remote-work)
 - [Silicon Foundry: Remote Work, Resilient Organizations, and Better Lives](https://sifoundry.medium.com/remote-work-resilient-organizations-and-better-lives-81218b4a4d15)
-- [SHRM: Why You Need a Remote-Work Leader](https://www.shrm.org/hr-today/news/hr-news/pages/why-you-need-remote-work-leader.aspx)
+- [SHRM: Why You Need a Remote-Work Leader](https://www.shrm.org/topics-tools/news/need-remote-work-leader)
 - [AdvisorTV: How an abundance mindset leads to thriving remote teams](https://web.archive.org/web/20231003233213/https://advisor.tv/how-an-abundance-mindset-leads-to-thriving-remote-teams/)
 - [Fortune: Want to know how to WFH better? There's a class for that](https://fortune.com/2020/09/22/work-from-home-class-coursera-gitlab/)
 - [GitLab proves operating an all-remote workforce is possible with thousands of employees](https://siliconangle.com/2020/01/15/are-the-days-of-brick-and-mortar-offices-numbered-gitlab-proves-operating-an-all-remote-workforce-is-possible-with-thousands-of-employees-gitlabcommit/)
@@ -40,22 +40,22 @@ Looking for GitLab's library of guides to working remotely? Those are [**here**]
 - [Intentionally remote: Why this isn't just a big experiment](https://web.archive.org/web/20231209204928/https://www.ceridian.com/blog/intentionally-remote-why-this-isn-t-just-a-big-experiment-according-to-gitlab)
 - [Remote Work Tips From GitLab's Head of Remote And Guinness World Record Top Publisher](https://www.linkedin.com/pulse/remote-work-tips-from-gitlabs-head-guinness-world-record-mandy-fransz/)
 - [San Francisco Chronicle: Remote-work pioneer GitLab has this warning for companies plotting a return to the office](https://www.sfchronicle.com/business/article/GitLab-S-F-s-remote-work-pioneer-has-advice-16044687.php#photo-20764806)
-- [How GitLab Cracked The Code Of Remote Working](https://www.tfir.io/how-gitlab-cracked-the-code-of-remote-working-gitlab-contribute-report/)
+- [How GitLab Cracked The Code Of Remote Working](https://tfir.io/how-gitlab-cracked-the-code-of-remote-working-gitlab-contribute-report/)
 - [Going Distributed: Choosing the Right Remote-Friendly Team Model](https://medium.com/@gcvp/going-distributed-choosing-the-right-remote-friendly-team-model-6a04f833267c)
 - [GitLab's Darren Murph on Building Remote Company Culture](https://unito.io/blog/remote-company-culture-darren-murph-gitlab/)
 - [A guide to remote working for startups](https://davidmytton.blog/a-guide-to-remote-working-for-startups/)
 - [The office of the future is no office at all, says startup - Wall Street Journal](https://www.wsj.com/articles/the-office-of-the-future-is-no-office-at-all-says-startup-11557912601)
 - [All-remote GitLab offers advice and resources for life away from offices](https://siliconangle.com/2020/05/01/all-remote-gitlab-offers-advice-and-resources-as-companies-adjust-to-life-away-from-offices-cubeconversations/)
 - [5 Questions with GitLab's Head of Remote on Business Travel](https://web.archive.org/web/20221024063722/https://tripactions.com/blog/q-and-a-darren-murph-head-of-remote-at-gitlab)
-- [8 secrets of GitLab's remote work culture](https://www.tfir.io/8-secrets-of-gitlabs-remote-work-success/)
+- [8 secrets of GitLab's remote work culture](https://tfir.io/8-secrets-of-gitlabs-remote-work-success/)
 - [How to keep healthy communication habits in remote teams](https://medium.com/gitlab-magazine/how-to-keep-healthy-communication-habits-in-remote-teams-a19eca371952)
 - [Remote work demands a supportive company culture](https://www.dice.com/career-advice/remote-work-demands-supportive-company-culture)
-- [5 fun strategies companies are using to make remote workers feel included](https://business.linkedin.com/talent-solutions/blog/employee-engagement/2019/strategies-companies-use-to-keep-remote-workers-feeling-included)
-- [Tech's newest unicorn has employees in 45 countries and zero offices](https://qz.com/work/1394496/gitlab-techs-newest-unicorn-has-no-offices/)
+- [5 fun strategies companies are using to make remote workers feel included](https://www.linkedin.com/business/talent/blog/talent-engagement/ways-you-can-make-remote-workers-feel-included)
+- [Tech's newest unicorn has employees in 45 countries and zero offices](https://qz.com/work/1394496/gitlab-techs-newest-unicorn-has-no-offices)
 - [No need to come to the office: Making remote work at GitLab](https://hackernoon.com/no-need-to-come-to-the-office-making-remote-work-at-gitlab-737c42865210)
 - [GitLab and Buffer CEOs talk transparency at scale](https://about.gitlab.com/blog/2017/03/14/buffer-and-gitlab-ceos-talk-transparency/)
 - [Why GitLab is remote only](https://web.archive.org/web/20221205115935/https://tapes.scalevp.com/remote-only-gitlab-sytse-sid-sijbrandij/)
-- [Tips for Managing a Remote Workforce During Coronavirus — and Beyond](https://business.linkedin.com/talent-solutions/blog/work-flexibility/2020/tips-for-managing-remote-workforce-during-coronavirus)
+- [Tips for Managing a Remote Workforce During Coronavirus — and Beyond](https://www.linkedin.com/business/talent/blog/talent-engagement/tips-for-managing-remote-workforce-during-coronavirus)
 - [GitLab 2020 Remote Work Report Highlights Key Motivators for Remote Work](https://www.infoq.com/news/2020/03/gitlab-2020-remote-work-report/)
 - [More than 4h of video calls each day? Work doesn't have to be this way.](https://medium.com/@sense_change/more-than-4h-of-video-calls-each-day-work-doesnt-have-to-be-this-way-4683be8911e6)
 
@@ -118,15 +118,15 @@ Looking for GitLab's library of guides to working remotely? Those are [**here**]
 - [YouTube: Sid presents Remote Work Best Practices at Mesosphere](https://www.youtube.com/watch?v=UFhHetf7kHM)
 - [Remote Without Warning Webinar: How to adapt and thrive as a suddenly-remote company](https://youtu.be/n4ZZaE-XCVs?t=5)
 - [Preparing Your Team for Remote Work Webinar](https://youtu.be/9tYEKAFgQQw?t=5)
-- [The End of the Office and Scaling Remote Teams with Savannah Peterson & GitLab CEO Sijbrandij](https://youtu.be/GD9M33_z-dM)
+- [The End of the Office and Scaling Remote Teams with Savannah Peterson & GitLab Sid Sijbrandij](https://youtu.be/GD9M33_z-dM)
 - [Top tips for employees and companies forced into work from home and remote work](https://youtu.be/R0AB8ZvnEIU)
-- [theCUBE: How GitLab has scaled as an all-remote company with Sid Sijbrandij, CEO and co-founder](https://youtu.be/eIs71f5IEUU)
+- [theCUBE: How GitLab has scaled as an all-remote company with Sid Sijbrandij](https://youtu.be/eIs71f5IEUU)
 - [Modern Work: Finding Structure in an Officeless World](https://youtu.be/aqCFTpvE4Q0?t=151)
 
 #### Podcasts
 
-- [A Whole New Level — Building & Scaling Remote Teams with Sam Corcos and Darren Murph](https://www.levelshealth.com/podcasts/building-scaling-remote-teams-sam-corcos-darren-murph)
-- [The Future of Work Project — Darren Murph // Unlocking the Super Powers of Remote, and its Positive Effects on Families](https://anchor.fm/fowproject/episodes/23-Darren-Murph---Unlocking-the-Super-Powers-of-Remote--and-its-Positive-Effects-on-Families-e115ni7)
+- [A Whole New Level — Building & Scaling Remote Teams with Sam Corcos and Darren Murph](https://www.levels.com/podcasts/building-scaling-remote-teams-sam-corcos-darren-murph)
+- [The Future of Work Project — Darren Murph // Unlocking the Super Powers of Remote, and its Positive Effects on Families](https://creators.spotify.com/pod/show/fowproject/episodes/23-Darren-Murph---Unlocking-the-Super-Powers-of-Remote--and-its-Positive-Effects-on-Families-e115ni7)
 - [Workology - Building the Future of Work Remotely With Darren Murph](https://workology.com/episode-348-building-the-future-of-work-remotely-with-darren-murph-head-of-remote-at-gitlab/)
 - [HR Leaders Podcast — How GitLab Creates and Sustains Scalable Remote Practices](https://hrleaders.co/podcast/darren-murph-how-gitlab-creates-and-sustains-scalable-remote-practices)
 - [Grafana Labs - Remote work done right: How remote-first companies put people first](https://grafana.com/blog/2022/06/29/remote-work-done-right-how-remote-first-companies-put-people-first/)
@@ -143,10 +143,10 @@ Looking for GitLab's library of guides to working remotely? Those are [**here**]
 - [Customer Centric Podcast — Darren Murph: home is where the office is](https://open.spotify.com/episode/1puxe8INM5o9YwUOYNXYTn?si=6S9kDMPXTrafLbVtk6XSew)
 - [OpenFin MVP Podcast — All-remote before it was mandatory with GitLab's Brendan O'Leary](https://openfin-mvp.simplecast.com/episodes/all-remote-before-it-was-mandatory-with-gitlabs-brendan-oleary)
 - [Bright & Early Podcast — Darren Murph: Remote Work at GitLab](https://www.youtube.com/watch?v=Vg0R9r4DcXw)
-- [Outside The Valley — Darren Murph of GitLab: Why Companies Should Go All-Remote](https://arc.dev/blog/podcast-ep23-gitlab-darren-murph-96ggw37q6t)
+- [Outside The Valley — Darren Murph of GitLab: Why Companies Should Go All-Remote](https://arc.dev/employer-blog/companies-should-go-remote-darren-murph/)
 - [Accelerating Support Podcast: Darren Murph, Head of Remote at GitLab](https://soundcloud.com/acceleratingsupport/accelerating-support-export-v1/s-JylGQhxc7il)
 - [The Changelog: GitLab's Master Plan](https://changelog.com/podcast/220)
-- [The Twenty Minute VC: A podcast interview with GitLab founder Sid Sijbrandij](https://www.thetwentyminutevc.com/sidsijbrandij)
+- [The Twenty Minute VC: A podcast interview with GitLab co-founder Sid Sijbrandij](https://www.thetwentyminutevc.com/sidsijbrandij)
 - [Coder Radio interview with Sid on 100% remote work and the GitLab model](https://coder.show/313?t=1099)
 
 #### Articles
@@ -157,7 +157,7 @@ Looking for GitLab's library of guides to working remotely? Those are [**here**]
 - [GitLab's remote-only presentation, 2017](https://docs.google.com/presentation/d/1JHHYQvAhsudGz8QB8nqp5ScJjqyhPD3ehCoKOlZb7VE/edit#slide=id.g1d6fee80ee_0_348)
 - [Software Engineering Daily: GitLab with Sid Sijbrandij](https://softwareengineeringdaily.com/2019/03/15/gitlab-with-sid-sijbrandij/)
 - [Outklip Blog: Using Video for Remote Work: Q&A with GitLab CEO](https://web.archive.org/web/20230929141545/https://outklip.com/blog/using-video-for-remote-work/)
-- [Arc Blog: Work Like Automattic, Buffer & GitLab - Remote Operations at Top Distributed Companies](https://arc.dev/blog/remote-operations-automattic-buffer-gitlab-9rihtsu120)
+- [Arc Blog: Work Like Automattic, Buffer & GitLab - Remote Operations at Top Distributed Companies](https://arc.dev/employer-blog/remote-operations-automattic-buffer-gitlab/)
 
 ### Threads and conversations
 
@@ -171,10 +171,9 @@ Looking for GitLab's library of guides to working remotely? Those are [**here**]
 
 ### Articles
 
-- [How to transition to remote work](https://askalmanac.com/articles/12774/how-to-transition-to-remote-work)
 - [Amplify Accelerator Open Source Learning Lab](https://amplifytalent.com/amplify-academy-learning-library)
 - [Why remote work leads to a stronger company culture](https://www.inc.com/brian-de-haaff/why-remote-work-leads-to-a-stronger-company-culture.html)
-- [How companies benefit when employees work remotely](https://hbswk.hbs.edu/item/how-companies-benefit-when-employees-work-remotely)
+- [How companies benefit when employees work remotely](https://www.library.hbs.edu/working-knowledge/how-companies-benefit-when-employees-work-remotely)
 - [Why working from home is a "future-looking technology"](https://www.gsb.stanford.edu/insights/why-working-home-future-looking-technology)
 - [Why does writing matter in remote work?](https://www.timcasasola.com/blog/writing)
 - [Krisp — Working From Home: A Beginner's Guide](https://krisp.ai/blog/work-from-home-guide/)
@@ -182,12 +181,12 @@ Looking for GitLab's library of guides to working remotely? Those are [**here**]
 - [The firm with 900 staff and no office](https://www.bbc.com/news/business-48879976)
 - [The distributed workplace](https://medium.com/@markfrein70/the-distributed-workplace-15ef447fa926)
 - [Why office hours are obsolete](https://www.forbes.com/sites/soulaimagourani/2019/06/25/why-office-hours-are-obsolete/#715b7e007585)
-- [It's time to factor remote work into our urban planning](https://qz.com/work/1641664/remote-workers-are-the-solution-to-urban-crowding/)
+- [It's time to factor remote work into our urban planning](https://qz.com/work/1641664/remote-workers-are-the-solution-to-urban-crowding)
 - [23 key remote work and telecommuting statistics for 2019](https://resources.owllabs.com/blog/remote-work-statistics)
-- [How remote work can reduce stress and revitalize your mindset](https://community.thriveglobal.com/how-remote-work-can-reduce-stress-and-revitalize-your-mindset//)
+- [How remote work can reduce stress and revitalize your mindset](https://community.thriveglobal.com/how-remote-work-can-reduce-stress-and-revitalize-your-mindset/)
 - [The 1 trait all remote workers need -- here is how to cultivate it](https://www.inc.com/brian-de-haaff/the-one-trait-all-remote-workers-need-here-is-how-to-cultivate-it.html)
 - [The Financial Benefits of Working Remotely (for Companies and Employees)](https://www.creativelive.com/blog/financial-benefits-of-working-remotely/)
-- [6 ways in which offering flexible working makes you a great employer](https://www.business2community.com/human-resources/6-ways-in-which-offering-flexible-working-makes-you-a-great-employer-02209279)
+- [6 ways in which offering flexible working makes you a great employer](https://web.archive.org/web/20240615183258/https://www.business2community.com/human-resources/6-ways-in-which-offering-flexible-working-makes-you-a-great-employer-02209279)
 - [5 reasons remote teams are more engaged than office workers](https://www.business.com/articles/remote-workers-more-engaged/)
 - [Remote work becoming "new normal"](https://finance.yahoo.com/news/remote-working-becoming-normal-190509351.html)
 - [Here's why remote workers are more productive than in-house teams](https://www.forbes.com/sites/abdullahimuhammed/2019/05/21/heres-why-remote-workers-are-more-productive-than-in-house-teams/)
@@ -200,7 +199,7 @@ Looking for GitLab's library of guides to working remotely? Those are [**here**]
 - [Case Closed: Work-From-Home is the World's Smartest Management Strategy](https://www.inc.com/geoffrey-james/case-closed-work-from-home-is-worlds-smartest-management-strategy.html)
 - [A Long Commute Could Be the Last Thing Your Marriage Needs](https://www.forbes.com/sites/markeghrari/2016/01/21/a-long-commute-could-be-the-last-thing-your-marriage-needs/#5baf10f04245)
 - [6 People Who Prove You Don't Have to Sacrifice Your Career to Work Remotely](https://blog.doist.com/remote-career-advice/)
-- [After Growing to 50 People, We're Ditching the Office Completely](https://open.buffer.com/no-office/)
+- [After Growing to 50 People, We're Ditching the Office Completely](https://buffer.com/resources/no-office/)
 - [On-Premise Tribes in Shiny Caves](https://medium.com/understanding-as-a-service-uaas/on-premise-people-and-shiny-caves-remote-as-a-service-97cff86382b6)
 - [The benefits - and pitfalls - of working in isolation](https://theconversation.com/the-benefits-and-pitfalls-of-working-in-isolation-105350)
 - [It's not just the isolation. Working from home has surprising downsides](https://theconversation.com/its-not-just-the-isolation-working-from-home-has-surprising-downsides-107140)
@@ -214,26 +213,26 @@ Looking for GitLab's library of guides to working remotely? Those are [**here**]
 
 ### Best practices
 
-- [Communication Debt - How and Why to Keep Your Team Out of It](https://statushero.com/blog/team-communication-debt/)
-- [Hiring top talent from generation Z: 14 essential recruitment tips](https://www.forbes.com/sites/forbeshumanresourcescouncil/2019/08/05/hiring-top-talent-from-generation-z-14-essential-recruitment-tips/)
+- [Communication Debt - How and Why to Keep Your Team Out of It](https://steady.space/blog/team-communication-debt/)
+- [Hiring top talent from generation Z: 14 essential recruitment tips](https://www.forbes.com/councils/forbeshumanresourcescouncil/2019/08/05/hiring-top-talent-from-generation-z-14-essential-recruitment-tips/)
 - [Remote Ideation: Synchronous vs. Asynchronous](https://www.nngroup.com/articles/synchronous-asynchronous-ideation/)
 - [How to create genuine camaraderie among remote workers](https://community.thriveglobal.com/how-to-create-genuine-camaraderie-among-remote-workers/)
-- [How remote businesses can attract high-quality job candidates](https://www.business.com/articles/remote-business-quality-hires/)
-- [Six lessons we learned while scaling a distributed startup](https://www.forbes.com/sites/forbestechcouncil/2019/07/30/six-lessons-we-learned-while-scaling-a-distributed-startup/)
+- [How remote businesses can attract high-quality job candidates](https://www.business.com/articles/remote-work-good-for-business/)
+- [Six lessons we learned while scaling a distributed startup](https://www.forbes.com/councils/forbestechcouncil/2019/07/30/six-lessons-we-learned-while-scaling-a-distributed-startup/)
 - [How to inspire and motivate your team that works from home](https://www.forbes.com/sites/dedehenley/2019/07/27/how-to-inspire-and-motivate-your-team-that-works-from-home/)
 - [How to separate home-life from working-from-home life](https://www.searchenginejournal.com/home-life-working-from-home/317995/#close)
 - [How these 5 secrets help remote workers thrive](https://community.thriveglobal.com/how-these-5-secrets-help-remote-workers-thrive/)
 - [5 ways to cultivate a healthy mindset in a remote team](https://community.thriveglobal.com/5-ways-to-cultivate-a-healthy-mindset-in-a-remote-team/)
-- [Remote work is here to stay: Here's how to avoid three common compliance issues](https://www.forbes.com/sites/forbeshumanresourcescouncil/2019/07/12/remote-work-is-here-to-stay-heres-how-to-avoid-three-common-compliance-issues/)
+- [Remote work is here to stay: Here's how to avoid three common compliance issues](https://www.forbes.com/councils/forbeshumanresourcescouncil/2019/07/12/remote-work-is-here-to-stay-heres-how-to-avoid-three-common-compliance-issues/)
 - [How to lead those working remotely](https://community.thriveglobal.com/how-to-lead-those-working-remotely/)
 - [How to build a successful remote business](https://www.forbes.com/councils/forbesbusinessdevelopmentcouncil/2019/07/11/how-to-build-a-successful-remote-business/)
 - [How to stay productive when you're working remotely](https://community.thriveglobal.com/working-remotely-from-home-stay-productive-tips/)
 - [10 tips for improving your remote conversations](https://www.smartbrief.com/original/2019/07/10-tips-improving-your-remote-conversations)
 - [450 remote workers reveal how to boost productivity when working from home](https://community.thriveglobal.com/450-remote-workers-reveal-how-to-boost-productivity-when-working-from-home/)
 - [Managing Remote Employees: Best Practices from Doist's Head of Marketing](https://blog.doist.com/best-practices-managing-remote-employees/)
-- [The future of work is distributed. Here's how your company can strategize.](https://www.forbes.com/sites/falonfatemi/2019/06/28/the-future-of-work-is-distributed-heres-how-your-company-can-strategize)
+- [The future of work is distributed. Here's how your company can strategize.](https://www.forbes.com/sites/falonfatemi/2019/06/28/the-future-of-work-is-distributed-heres-how-your-company-can-strategize/)
 - [Leading remotely - What every manager should know](https://community.thriveglobal.com/leading-remotely-what-every-manager-should-know/)
-- [Why engaging remote workers is good people business and how to do it](https://www.forbes.com/sites/forbeshumanresourcescouncil/2019/06/17/why-engaging-remote-workers-is-good-people-business-and-how-to-do-it/)
+- [Why engaging remote workers is good people business and how to do it](https://www.forbes.com/councils/forbeshumanresourcescouncil/2019/06/17/why-engaging-remote-workers-is-good-people-business-and-how-to-do-it/)
 - [How to Pitch Your Boss on a Remote Working Arrangement](https://www.creativelive.com/blog/how-to-pitch-boss-on-remote-working/)
 - [4 golden rules for living the laptop lifestyle](https://www.forbes.com/sites/stephanieburns/2019/06/14/4-golden-rules-for-living-the-laptop-lifestyle/)
 - [5 ways to make your remote team more effective](https://www.forbes.com/sites/serenitygibbons/2019/06/13/5-ways-to-make-your-remote-team-more-effective/)
@@ -241,16 +240,16 @@ Looking for GitLab's library of guides to working remotely? Those are [**here**]
 - [5 ways to stay motivated when you work remote](https://www.forbes.com/sites/stephanieburns/2019/05/30/5-ways-to-stay-motivated-when-you-work-remote/)
 - [Five mistakes that destroy the efficiency of your remote workers](https://www.forbes.com/councils/forbescoachescouncil/2019/05/29/five-mistakes-that-destroy-the-efficiency-of-your-remote-workers/)
 - [These Are the 8 Best macOS Apps for Working Remotely](https://www.inc.com/jason-aten/these-are-8-best-macos-apps-for-working-remotely.html)
-- [Remote working tips by Groove](https://www.groovehq.com/blog/remote-work-tips)
-- [Guidelines for Effective Collaboration](https://github.com/ride/collaboration-guides)
+- [Remote working tips by Groove](https://blog.groovehq.com/remote-work-tips)
+- [Guidelines for Effective Collaboration](https://github.com/buritica/collaboration-guides)
 - [The Ultimate Guide to Remote Standups](https://blog.idonethis.com/ultimate-guide-remote-standups/)
 - [How Do You Manage Global Virtual Teams?](https://en.wikibooks.org/wiki/Managing_Groups_and_Teams/How_Do_You_Manage_Global_Virtual_Teams%3F)
 - [Guide to leading and managing distributed teams](https://schoolofherring.com/2015/09/02/guide-to-leading-and-managing-distributed-teams/)
 - [Getting Virtual Teams Right](https://hbr.org/2014/12/getting-virtual-teams-right)
 - [Introverts at Work: Designing Spaces for People Who Hate Open-Plan Offices](https://www.bloomberg.com/news/articles/2014-06-16/open-plan-offices-for-people-who-hate-open-plan-offices)
-- [How to get the most out of employees who work from home](https://www.entrepreneur.com/article/228752)
-- [How to manage employees who work from home](https://money.cnn.com/2013/08/27/smallbusiness/employees-work-from-home/index.html)
-- [How to manage a distributed development team](https://www.cio.com/article/2399319/how-to-manage-a-distributed-development-team.html)
+- [How to get the most out of employees who work from home](https://www.entrepreneur.com/leadership/how-to-get-the-most-out-of-employees-who-work-from-home/228752)
+- [How to manage employees who work from home](https://web.archive.org/web/20220129000237/https://money.cnn.com/2013/08/27/smallbusiness/employees-work-from-home/index.html)
+- [How to manage a distributed development team](https://www.cio.com/article/284503/developer-how-to-manage-a-distributed-development-team.html)
 - [Managing Remote Developer Teams: How Buffer Set the Gold Standard - Interview with Katie Womersley](https://codingsans.com/blog/managing-remote-developer-teams)
 - [What Is the Best Compensation Model?](https://web.archive.org/web/20200918143849/https://www.remoter.com/what-is-the-best-compensation-model)
 
@@ -262,21 +261,21 @@ Looking for GitLab's library of guides to working remotely? Those are [**here**]
 - [Gartner CFO Survey Reveals 74% Intend to Shift Some Employees to Remote Work Permanently](https://www.gartner.com/en/newsroom/press-releases/2020-04-03-gartner-cfo-surey-reveals-74-percent-of-organizations-to-shift-some-employees-to-remote-work-permanently2)
 - [Headlamp — The Manager's Guide to Engaging Remote Workers](https://web.archive.org/web/20220629215522/https://headlamp.team/engaging-remote-employees-managers-guide/)
 - [IBM Study: COVID-19 Is Significantly Altering U.S. Consumer Behavior and Plans Post-Crisis](https://newsroom.ibm.com/2020-05-01-IBM-Study-COVID-19-Is-Significantly-Altering-U-S-Consumer-Behavior-and-Plans-Post-Crisis)
-- [Why remote work has grown by 159% since 2005](https://www.techrepublic.com/article/why-remote-work-has-grown-by-159-since-2005/)
-- [Greenhouse: Distributed hiring and remote working – The essential guide](https://www.greenhouse.io/guidance/distributed-hiring-and-remote-working)
+- [Why remote work has grown by 159% since 2005](https://www.prweb.com/releases/global-workplace-analytics-amp-flexjobs-report-159-percent-increase-in-remote-work-since-2005-863776940.html/)
+- [Greenhouse: Distributed hiring and remote working – The essential guide](https://www.greenhouse.com/guidance/distributed-hiring-and-remote-working)
 - [Google spent 2 years researching what makes a great remote team](https://www.inc.com/justin-bariso/google-spent-2-years-researching-what-makes-a-great-remote-team-it-came-up-with-these-3-things.html)
-- [State of Remote Work 2021 by Buffer](https://buffer.com/2021-state-of-remote-work)
+- [State of Remote Work 2021 by Buffer](https://buffer.com/state-of-remote-work/2021)
 - [The IWG Global Workspace Survey - Welcome to Generation Flex](https://assets.regus.com/pdfs/iwg-workplace-survey/iwg-workplace-survey-2019.pdf)
 - [5 Important Takeaways From Google's Two-Year Study Of Remote Work](https://www.forbes.com/sites/abdullahimuhammed/2019/05/18/5-important-takeaways-from-googles-two-year-study-of-remote-work/#56e705797439)
 - [Study: Adding 20 Minutes to Your Commute Makes You as Miserable as Getting a 19 Percent Pay Cut](https://www.inc.com/business-insider/study-reveals-commute-time-impacts-job-satisfaction.html)
 - [Remote Work 2020 Survey by Remote.Tools](https://remotework2020.remote.tools/)
-- [Is Working Remotely Effective? Gallup Research Says Yes](https://www.gallup.com/workplace/283985/working-remotely-effective-gallup-research-says-yes.aspx)
+- [Is Working Remotely Effective? Gallup Research Says Yes](https://www.gallup.com/workplace/648500/employee-wellbeing-hinges-management-not-work-mode.aspx)
 
 ### Videos, interviews, presentations
 
 - [LinkedIn's 2019 Global Talent Trends report](https://business.linkedin.com/content/dam/me/business/en-us/talent-solutions/resources/pdfs/global-talent-trends-2019.pdf)
 - [Things I Wish I Knew Before Going Remote by Marla Brizel Zeschin](https://www.youtube.com/watch?v=nUQ41-vBtdg)
-- [Bond Internet Trends 2019: Remote work = creating internet-enabled work opportunities + efficiencies](https://www.bondcap.com/report/itr19/#view/228)
+- [Bond Internet Trends 2019: Remote work = creating internet-enabled work opportunities + efficiencies](https://www.bondcap.com/report/it19/#view/228)
 - [Work Remotely: Thrive in a Job From Home](https://www.creativelive.com/class/work-remotely-thrive-in-a-job-from-home-with-darren-murph)
 - [TechSAV's Brown Bag Series: Working & Managing Remote](https://www.youtube.com/watch?v=IORw1YvSkmw)
 
@@ -296,7 +295,7 @@ Here's [a list](/handbook/tools-and-tips) of the tools we use internally at GitL
 #### Communication
 
 - [Slack](https://slack.com) - chat
-- [Zoom](https://zoom.com) - video calls
+- [Zoom](https://www.zoom.com/) - video calls
 - [Google Workspace](https://workspace.google.com/)
 - [Yac](https://www.yac.com/) - asynchronous voice collaboration for remote team
 - [8x8](https://www.8x8.com/) - unified communications (video, VoIP, etc.)
@@ -318,7 +317,7 @@ Here's [a list](/handbook/tools-and-tips) of the tools we use internally at GitL
 #### Management
 
 - [GitLab Issues](https://docs.gitlab.com/ee/user/project/issues/)
-- [GitLab Pages](https://about.gitlab.com/stages-devops-lifecycle/pages/)
+- [GitLab Pages](https://docs.gitlab.com/ee/user/project/pages/)
 - [Qatalog](https://qatalog.com/) - work hub syncing multiple tools and services
 - [Range](https://www.range.co/) - team collaboration and management
 - [There](https://there.pm/) - quick time zone reference for your global team
@@ -327,7 +326,7 @@ Here's [a list](/handbook/tools-and-tips) of the tools we use internally at GitL
 #### Meetings
 
 - [Remeet](https://www.remeet.com/)
-- [Friday](https://www.friday.app/)
+- [Friday](https://friday.app/)
 
 #### Events, meetups, gatherings
 
@@ -350,17 +349,17 @@ Some organizations (like GitLab) provide stipends or [reimbursement](/handbook/f
 - [Hacker Paradise](https://www.hackerparadise.org/)
 - [Co-work Paradise](https://www.coworkparadise.com/)
 - [Project Getaway](https://www.projectgetaway.com/)
-- [B-Digital Nomad](https://www.b-digitalnomad.com/)
+- [B-Digital Nomad](https://b-digitalnomad.com/)
 
 ### Guides for remote work
 
-- [The Holloway Guide to Remote Work](https://www.holloway.com/g/remote-work)
+- [The Holloway Guide to Remote Work](https://www.holloway.com/g/remote-work/preview)
 - [Google's Distributed Work Playbook](https://services.google.com/fh/files/blogs/distributedworkplaybooks.pdf)
 - [The Art of Working Remotely](https://artofworkingremotely.com)
 - [Twist's Remote Work Guides](https://twist.com/remote-work-guides)
 - [Remote Habits](https://remotehabits.com/)
-- [35 of the best Slack communities for remote workers](https://www.owllabs.com/blog/remote-work-slack-communities?hs_amp=true)
-- [Toggl's Guide to Working With Clients You've Never Met Face-to-Face](https://toggl.com/work-with-online-clients/)
+- [35 of the best Slack communities for remote workers](https://resources.owllabs.com/blog/remote-work-slack-communities)
+- [Toggl's Guide to Working With Clients You've Never Met Face-to-Face](https://public-assets.toggl.com/b/static/5ec883d908db3b4e68fdc7156c7d3c43/ebook-long-distance-relationship.pdf)
 
 ## Contribute to this page
 

@@ -65,7 +65,7 @@ Below are best practices when running a roundtable:
 - Ensure questions are prepared between host and GitLab presenter beforehand to lead the conversations within the session
 - Assign notes of each delegate to list leads for upload onto SFDC
 - Pre-analysis of delegates - check to see if their organization is currently a user of GitLab, whether they're CE or EE customers. This could be a great way to start or dig into deeper conversations with the delegate.
-- Ensure you have familiarised yourself with the [White Glove Event Follow Up process](/handbook/marketing/sales-development/#white-glove-event-follow-up-sequence-saes-included) for this type of event.
+- Ensure you have familiarised yourself with the [White Glove Event Follow Up process](/handbook/marketing/sales-development/#white-glove-event-follow-up-flows) for this type of event.
 
 ## 3rd Party Events
 
@@ -200,6 +200,17 @@ Field Marketing utilizes the below issue templates and epic codes for virtual ev
 - [Issue Template](https://gitlab.com/gitlab-com/marketing/field-marketing/-/issues/new?issuable_template=Workshop_Template)
 - [Epic Code](/handbook/marketing/field-marketing/field-marketing-epics/#workshops)
 
+## Event Lead Collection Should-Knows
+
+Not every field event or lead are the same. There will be times when meeting/scanning leads and notetaking for the interaction will require a tweaked processing procedure. A few examples are below:
+
+`High Priority` leads: There are situations where GitLab leadership wants extra attention placed toward a prospective lead/account, assuming the right criteria is met for that lead/account. These leads are referred to as `High Priority` and utilize the `high priority` process. This label not only means its namesake, but it also means the lead will circumvent our normal lead routing and MQL processes to be sent immediately to SDR/BDR for strategic outreach. There are a few reasons why a lead would be marked as `High Priority`, but for this particular handbook page there are two primary definitions to focus on:
+
+- **High Priority Campaign**: This lead was acquired during a `high priority` event. While strategizing for the quarter and year, Sales and Marketing leadership discuss what upcoming field events will be important based on GitLab's current and future goals. If a field event is determined to fit the criteria, all leads collected from this event will be marked as `high priority` and quickly routed for follow up. Leadership will communicate what campaigns qualify
+- **White Glove**: A white glove lead needs strategic outreach and will involve the [SDR, Account Executive and maybe more](/handbook/marketing/sales-development/#white-glove-event-follow-up-flows). Generally, these leads were highly engaged in conversation about GitLab, have detailed event notes about the engagement and or were engaged with specific GitLab team members during the event. White glove leads can exist within a high priority campaign, so use best judgement on which label is most appropriate between the two
+
+ Recording `high priority` status for either of these types is simple and included in the spreadsheet used for [self-service list uploads](/handbook/marketing/marketing-operations/automated-list-import/#data-cleaning-instructions) under the `High Priority Reasons?` column - as a dropdown option. The reason feeds into Marketo's `High Priority Reason temp` field, which [then processes](https://engage-ab.marketo.com/?munchkinId=194-VVC-221#/classic/SC56504A1ZN19) the lead for early lead routing.
+
 ## Post event lead flow for each campaign
 
 After Field Marketing has executed a campaign, the Field Marketing Manager is responsible for ensuring that the campaign has been fully operational to include the following:
@@ -284,7 +295,7 @@ Once the FMM has submitted the Contract Request to their FMC and the remaining a
 - FMC reviews the Allocadia sub-category and line item panel details, as well as checks that the forecasted cost is in the correct month (according to the [prepaid policy](/handbook/finance/accounting/#prepaid-expense-policy)) for the tactic and makes any changes necessary
 - FMC creates the epic and sub-issues utilizing [this list of epics](/handbook/marketing/field-marketing/#field-marketing-campaign-issue-templates-epic-codes-and-progression-status)
 - FMC creates the [Marketo program and SFDC campaign](/handbook/marketing/marketing-operations/campaigns-and-programs/#campaign-type--progression-status) utilizing the [Program Tracking](https://gitlab.com/gitlab-com/marketing/field-marketing/-/blob/master/.gitlab/issue_templates/program-tracking.md) sub-issue previously created
-  - FMC pings the FMM in the Program Tracking issue that the Marketo program and SFDC campaign have been created and closes issue
+  - AMER ONLY - Once SFDC campaign is created, FMC to add to [this spreadsheet](https://docs.google.com/spreadsheets/d/1Tss2_8rz9vZdDE68T11dOMlCZPRowhANKLHgAazmSJA/edit?gid=222941017#gid=222941017)
 - FMC adds the event to the appropriate events calendar. All events should be added to the appropriate calendar from the list below.
   - [In-Person Events and Sponsorship](https://calendar.google.com/calendar/u/0?cid=Z2l0bGFiLmNvbV9laWN2b3VkcHBjdTQ3bG5xdTFwOTlvNjU2Z0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t)
   - [External Virtual Events](https://calendar.google.com/calendar/u/0?cid=Z2l0bGFiLmNvbV8xOGVqOHN0NmlxajZpYXB1NTNrajUzNHBsa0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t)
@@ -506,11 +517,11 @@ For information regarding Brand support, please visit the [Brand Creative Handbo
 
 The AMER Field Marketing team utilizes GitLab's swag and fulfillment vendor [Brilliant](https://www.brilliantmade.com/) for all of our swag and event asset requirements. Brilliant is available to produce, ship, and store swag and event assets.
 
-### Brilliant Portal
+### Brilliant Store Portal
 
 Field Marketers are responsible for accessing the [Brilliant store portal](https://app.brilliantmade.com/users/sign_in) utilizing their individual logins to order all swag and assets for their events.
 
-#### Brilliant Portal Training
+#### Brilliant Store Portal Training
 
 [**Watch Training Video Here**](https://youtu.be/YRqPeom_H-Q)  *(Note: You must be logged in to GitLab Unfiltered to view)*
 
@@ -522,7 +533,7 @@ For Brilliant support, please see email addresses below. For any questions or co
 - `support@brilliantmade.com` for order/shipping support in North America
 - `international.support@brilliantmade.com` for order/shipping support in EMEA, UK and APJ
 
-### Specialty swag orders for a specific event
+### Specialty Swag Orders, Invoicing, and Brand Approval
 
 - If you would like to order specialty swag for a specific event, please reach out to `gitlab@brilliantmade.com` and provide the following details:
   - Item you are looking to source
@@ -530,11 +541,20 @@ For Brilliant support, please see email addresses below. For any questions or co
   - Budget
   - In-hand ETA
   - Where swag will be shipped (if swag is to be stored in the warehouse, please include `@krogel` on correspondence)
-- All new swag artwork (inlcuding logo placement) will be reviewed and approved by the Brand team.
-  - If the swag item chosen only requires a GitLab logo to be added, Brilliant will provide a proof to the POC and then once approved, proof will be sent to the Brand team for final approval (within the Brilliant portal).
-  - If the swag item chosen requires a full design, please follow the instructions [here](/handbook/marketing/brand-and-product-marketing/brand/merchandise-handling/#swag-program-owners). Please include your FMC in the process to handle the financial requirements.
+- PLEASE NOTE: Every new swag order requires a PO number before Brilliant will submit the order to production. Please make sure to build this approval time into your overall timeline!
 
-### Orders and Shipping Charges
+#### Approval Process through the Brilliant Store Portal
+
+- Brilliant will send the FMM an order estimate through the [Brilliant store portal](/handbook/marketing/field-marketing/#brilliant-portal) (FMM will receive an email notification). FMM to go to the order estimate and save the order to PDF and submit a [contract request](/handbook/marketing/field-marketing/#field-marketing-contract-requests) to the FMC.
+- FMC to route the order through the procurement process.
+- Once the PO number is obtained, the FMM will log back into the Brilliant store portal, go to the order estimate, and click `approve`. An additional screen will pop up where the FMM will include the PO number and then submit.
+- Once the order is approved in the store portal, Brilliant will submit the order to the vendor.
+- All new swag artwork (inlcuding logo placement) will be reviewed and approved by the Brand team.
+  - If the swag item chosen only requires a GitLab logo to be added, Brilliant will provide a proof to the FMM through the store portal (FMM will receive an email notification) and then once approved in the portaly by the FMM, the proof will be sent to the Brand team for final approval (within the Brilliant store portal as well).
+  - If the swag item chosen requires a full design, please follow the instructions to submit a design request [here](/handbook/marketing/brand-and-product-marketing/brand/merchandise-handling/#swag-program-owners).
+- Once the order has been shipped, Brilliant will submit the invoice through Coupa directly.
+
+### Store Portal Orders and Shipping Charges
 
 - Please see the homepage of the [Brilliant store portal](https://app.brilliantmade.com/users/sign_in) for specific ordering instructions and helpful details.
 - General swag items in the store have previously been ordered and paid for in bulk. You are not required to pay for these swag items from your individual budgets. The cost of the swag items are shown to help indicate the level of swag and how much should be utilized.
@@ -543,7 +563,7 @@ For Brilliant support, please see email addresses below. For any questions or co
 - Item quantities are listed in the portal. Please select from the current items in stock for your event. If you need a larger quantity of an item over what is available, you intend to utilize the remaining stock for an item, or you are ordering over 500 pieces of an item, please reach out to `@krogel` for reordering.
 - Please be aware that ordering newly designed swag or placing reorders for existing items requires adequate lead time. Time frames vary greatly based on the items selected, design approval, and availability. General Lead Times: 6-8 weeks to produce a new item and 2-3 weeks to reorder current designs
 
-### New Swag ideas
+### New swag ideas for bulk orders
 
 If you would like to source a new swag item for the team's inventory, please reach out to `@krogel` directly. All new swag items must be approved by the Brand team for brand consistency.
 
@@ -576,7 +596,7 @@ In order to stay environmentally-friendly, we generally do not provide large qua
 
 ## EMEA Field Marketing Swag
 
-The EMEA Field Marketing team utilises [Reachdesk](/handbook/marketing/marketing-operations/#project-management) to source, fulfill, ship and store (European and UK warehouses) swag branded swag items.  We also utilise vendor [Ten&One](https://www.tenandone.com) who can source swag items and who also currently store all EMEA event material. The FMC is responsible for ensuring adequate stock levels and coordinating field event swag logistics. Additional event assets utilized for shows (including backwalls, tablecloths, popup banners, etc.) are stocked at the Ten&One warehouse and can be shipped
+The EMEA Field Marketing team utilises [Reachdesk](/handbook/marketing/marketing-operations/#project-management) to source, fulfill, ship and store (European and UK warehouses) swag branded swag items.  We also utilise vendor [Ten&One](https://tenandone.com/) who can source swag items and who also currently store all EMEA event material. The FMC is responsible for ensuring adequate stock levels and coordinating field event swag logistics. Additional event assets utilized for shows (including backwalls, tablecloths, popup banners, etc.) are stocked at the Ten&One warehouse and can be shipped
 
 - **Budget Allocation:**
   - If there is an individual order dedicated to support one specific event (e.g Cloud Expo) an Allocadia line item should be created by the FMM in their regional activity plan under this specific event.
@@ -681,7 +701,7 @@ The Admin Portal is where you manage all aspects of your Corporate Account from 
 
 **Grubhub Corporate Support**
 
-- [Grubhub Corporate Learning Center](https://corporate.grubhub.com/learning-center)
+- [Grubhub Corporate Learning Center](https://corporate.grubhub.com/learning-center/)
 - Grubhub Corporate Support Email: clients@grubhub.com
 - Grubhub Corporate Support Number: (844)-478-2249
   - Press 1 for order status
@@ -887,12 +907,12 @@ The below epic is for tracking venues we would like to utilize for future events
 
 ## Corporate Memberships Owned by GitLab Field Marketing
 
-- [AFCEA](https://www.afcea.org/site/) - Membership is handled by the Public Sector Field Marketing Manager. Account information is stored in the marketing 1Pass vault. Please ping Kira Aubrey for assistance.
+- [AFCEA](https://www.afcea.org/) - Membership is handled by the Public Sector Field Marketing Manager. Account information is stored in the marketing 1Pass vault. Please ping Kira Aubrey for assistance.
 - [ACT-IAC](https://www.actiac.org) - Membership is handled by the Public Sector Field Marketing Manager. Please ping Kira Aubrey for details if you'd like to join.
 - [Charleston DCA](https://www.charlestondca.org/) - Membership is handled by the Public Sector Field Marketing Manager. Please ping Kira Aubrey for details if you'd like to join.
 - [G2xExchange](https://g2xchange.com/) - Membership is handled by the Public Sector Field Marketing Manager. Please ping Kira Aubrey for details if you'd like to join.
 - [NASCIO](https://www.nascio.org/) - Membership is handled by the Public Sector Field Marketing Manager. Please ping Kira Aubrey for details.
-- [GBEF](https://gbef.tech/) - Membership is handled by the Public Sector Field Marketing Manager. Please ping Kira Aubrey for details.
+- [GBEF](https://gbeftech.com) - Membership is handled by the Public Sector Field Marketing Manager. Please ping Kira Aubrey for details.
 - [INSA](https://www.insaonline.org/) - Membership is handled by the Public Sector Field Marketing Manager. Please ping Kira Aubrey for details.
 - [USGIF](https://usgif.org/) - Membership is handled by the Public Sector Field Marketing Manager. Please ping Kira Aubrey for details.
 - [NASTD](https://www.nastd.org/home) - Membership is handled by the Public Sector Field Marketing Manager. Please ping Kira Aubrey for details.
@@ -1330,7 +1350,7 @@ We are committed to providing opportunities for discussion, education and commun
 
 ### Purchasing Details
 
-[iPad Pro 12.9 inch/256GB/wifi](https://www.apple.com/shop/buy-ipad/ipad-pro/12.9-inch-display-256gb-space-gray-wifi)
+[iPad Pro 12.9 inch/256GB/wifi](https://www.apple.com/shop/buy-ipad/ipad-pro)
 [iPad Pro 12.9 inch Smart Keyboard Folio](https://www.apple.com/ca/shop/product/MXNL2LL/A/smart-keyboard-folio-for-ipad-pro-129-inch-6th-generation-us-english)
 
 - When purchasing, please utilize the GitLab Business Account for corporate discounts. The Apple store/online representative will look up the GitLab Business Account associated with GitLab's 268 Bush St., San Francisco, CA 94104 address.
@@ -1527,13 +1547,17 @@ Please also note, we can only use Coupa cards for POs up to $25,000. Anything ov
 
 If you are submitting various charges for approval on a Coupa virtual card, please make sure you either provide the PDF contract/order/quote or, if ordering through an online portal, please include a screenshot of the items you need to order. Each separate order requires a supporting PDF or screenshot that shows the vendor name, items being ordered, and total cost. These requests will be reviewed during the procurement process and if approved, the Coupa card issued will cover all costs submitted. Only one Allocadia line item is required per Coupa card approved. For example, if you submit a contract request for booth, AV, and IT charges for a show that equal $3,000, you only need one Allocadia line item ID for all three charges and your plan/forecast number would equal $3,000.
 
+PLEASE NOTE: These charges follow the [prepaid policy](/handbook/finance/accounting/#prepaid-expense-policy) and you will always reference the total cost of the charges/PO amount for determining the prepaid threshold. For example, if you submit a $3,000 AV order and a $3,000 booth items order together on one PO, the total PO amount is $6,000. Even though each charge is under the $5k prepaid threshold, the total amount of the PO is $6,000, so you would forecast the charges under the month the event occurs.
+
+#### Multi-Event Contracts
+
+We often receive a discount for multiple events and the vendor includes all events under one contract. When this occurs, the FMM will need to create an Allocadia sub-issue and line item for each event and provide all of the Allocadia IDs in the contract request for the FMC. The FMC will submit the contract in ZIP and add separate lines for each event with that specific event's information and Allocadia ID.
+
+PLEASE NOTE: These charges follow the [prepaid policy](/handbook/finance/accounting/#prepaid-expense-policy) and you will always reference the total cost of the charges/PO amount for determining the prepaid threshold. For example, if you submit a contract for 3 events and each event costs $3,000, the total PO amount is $9,000. Even though each event is under the $5k prepaid threshold, the total amount of the PO is $9,000, so you would forecast each event charge under the month the event occurs.
+
 #### F&B/AV/Additional Event Charges
 
 Since we often don't have the exact headcount for an event in advance, additional costs (such as AV, F&B, etc.) can be estimated for initial procurement approval. If your additional costs are included in the initial venue contract, please ask the venue to provide pricing for your estimated headcount in the contract (especially for F&B costs, so that you are not only submitting your F&B minimum). This will give us a baseline cost estimate for approval and your FMC will adjust the PO amount as needed, based on final cost (a PO change request will be issued for charges above 10% over the original PO amount). If your additional costs (catering, AV, etc.) are being provided by different vendors from the venue, please make sure you have separate Allocadia line items for those charges and also submit separate contract requests (if a contract is required by the vendors). If the vendor does not require a contract and charges are under $5,000, you can pay with your Navan card.
-
-#### Contract Request Issue Re-use
-
-If you have an event that requires multiple contract requests, feel free to re-use your original contract request issue! Simply re-open the original request, copy the appropriate section that is needed for your new request, and add those fields with new details in a comment to your FMC. Please do not erase the original details from the request, though, as those details are often referenced.
 
 ## Sourcing New Field Marketing Vendors
 
@@ -1624,7 +1648,7 @@ Field Marketing utilizes regional email aliases for pre and post tactic outreach
 
 ## Async Status Updates
 
-Since we are a [remote](/handbook/company/culture/all-remote/) company, we utilize a Slack plugin called [Geekbot](https://geekbot.io/) to coordinate status updates. Field Marketing world wide currently conducts 1 weekly standup. Geekbot shares this update in the public #im-hangout slack room.
+Since we are a [remote](/handbook/company/culture/all-remote/) company, we utilize a Slack plugin called [Geekbot](https://geekbot.com/) to coordinate status updates. Field Marketing world wide currently conducts 1 weekly standup. Geekbot shares this update in the public #im-hangout slack room.
 
 ## Weekly Status Update
 
@@ -1642,20 +1666,21 @@ Of those 1-3 items listed, do you need any roadblocks removed in order to accomp
 
 You will be notified via the Geekbot plug in on slack at 9 AM your local time on Mondays, as stated above. It is important to note, that unless you answer all questions in the Geekbot plug in, your answers will NOT be shared with your colleagues, so please be sure to complete all questions!
 
-## Out of Office Processes
+## Out of Office Process
 
 We follow the processes documented in the [Communicating your time off section](/handbook/people-group/paid-time-off/#communicating-your-time-off) of our handbook page.
 
 Specifically:
 
 1. Add your OOO to [Workday](/handbook/people-group/paid-time-off/#workday)
-1. Notify both your manager and the person covering for you that you will be out of the office. Make sure the person covering for you has details for items to watch or take care of for you while you are OOO. 
+1. Notify both your manager and the person covering for you that you will be out of the office. Make sure the person covering for you has details for items to watch or take care of for you while you are OOO.
 1. Add an OOO message for your email. Please ensure you are including a DRI in your OOO email response for people outside the company to contact.
 1. Turn on [Google Calendar's "out of office" setting](https://support.google.com/calendar/answer/7638168?hl=en) (scroll down to "Show when you're out of office") to create an out of office event that will automatically decline new and existing meetings for you. Or, please ensure to manually cancel/decline/reschedule any meetings if you will not be in attendance.
-1. Add an OOO to your Slack profile (this will occur automatically when you submit your OOO to Workday). If you're traveling for an event and not necessarily on PTO/vacation, please ensure you are manually updating your Slack status accordingly. 
-1. If your time off was added in Workday, Time off by Deel in Slack will prompt you to add a delegate who will be covering for you. Please fill in this information so it's clear in Slack who people can contact in your absense. 
+1. Add an OOO to your Slack profile (this will occur automatically when you submit your OOO to Workday). If you're traveling for an event and not necessarily on PTO/vacation, please ensure you are manually updating your Slack status accordingly.
+1. If your time off was added in Workday, Time off by Deel in Slack will prompt you to add a delegate who will be covering for you. Please fill in this information so it's clear in Slack who people can contact in your absense.
 1. Add an OOO to your GitLab profile and mark yourself as `busy`
-1. If you are a manager of people, please [assign a delegate in Coupa](/handbook/business-technology/enterprise-applications/guides/coupa-guide/#how-to-add-a-delegate-in-coupa) so you will not hold approvals while you're enjoying your time off.
+1. If you work in ZIP, please assign assign a delegate by going to ZIP - Settings - Personal Settings - Out of Office.
+1. If you work in Coupa, please [assign a delegate in Coupa](/handbook/business-technology/enterprise-applications/guides/coupa-guide/#how-to-add-a-delegate-in-coupa) so you will not hold approvals while you're enjoying your time off.
 
 ## Field Marketing MR process
 

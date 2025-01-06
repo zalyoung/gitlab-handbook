@@ -40,7 +40,7 @@ Before beginning this lab and all later labs, you should disable any scanners th
         SECRET_DETECTION_EXCLUDED_PATHS: tests/
     ```
 
-    > It is also possible to disable these features by setting CI variables on the project, such as `DAST_DISABLE=true` and `SECRET_DETECTION_DISABLE=true`. Learn more in the <a target="_blank" href="https://docs.gitlab.com/ee/topics/autodevops/cicd_variables.html#job-disabling-variables">documentation</a>.
+    > It is also possible to disable these features by setting CI variables on the project, such as `DAST_DISABLED=true` and `SECRET_DETECTION_DISABLED=true`. Learn more in the <a target="_blank" href="https://docs.gitlab.com/ee/topics/autodevops/cicd_variables.html#job-disabling-variables">documentation</a>.
     >
     > It is important to leave at least one job active in your `.gitlab-ci.yml` file. If there are no jobs defined in the pipeline, it will fail to run.
 
@@ -129,9 +129,9 @@ Before beginning this lab and all later labs, you should disable any scanners th
 
 1. Navigate to **Secure > Vulnerability Report**.
 
-1. In the **Tool** filter, click **Dependency Scanning**. Notice any security vulnerabilities Dependency Scanning found in the requirements file.
+1. In the **Activity** filter, change the option to **Tool**, then select the option under **Dependency Scanning**. Notice any security vulnerabilities Dependency Scanning found in the requirements file.
 
-1. There is a single vulnerability in the project dependencies, with a description of **Unintended leak of Proxy-Authorization header in requests**. Click the description.
+1. View the vulnerability with a description of **Unintended leak of Proxy-Authorization header in requests**. Click the description.
 
 1. On the description page, you will see a description of the vulnerability, including the impact of the vulnerability. You will additionally see information about the patch and workaround for the vulnerability.
 

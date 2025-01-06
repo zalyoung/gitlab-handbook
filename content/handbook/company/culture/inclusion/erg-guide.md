@@ -30,21 +30,21 @@ There are many types of groups and not all of them meet the criteria of being a 
 
 ## How to Join Current TMRGs and TMAGs Slack Channels
 
-The following groups have completed the process to be an TMRG and received formal support as part of the [DIB framework]({{< ref "inclusion#tmrgs---team-member-resource-groups" >}}). Click the signup link (GitLab team members only) to join:
+The following groups have completed the process to be an TMRG or TMAG and received formal support as part of the [DIB framework]({{< ref "inclusion#tmrgs---team-member-resource-groups" >}}). Click the signup link (GitLab team members only) to join:
 
-Ordered alphabetically to avoid the perception that any TMRG is more important than any other TMRG.
+Ordered alphabetically to avoid the perception that any TMRG or TMAG is more important than any other.
 
-| **TMRG** | **Team Leaders** | **Slack Channel** | **Sign Up** | **Ongoing TMRG Agenda** | Executive Sponsor |
+| **TMRG or TMAG** | **Team Leaders** | **Slack Channel** | **Sign Up** | **Ongoing TMRG or TMAG Agenda** | Executive Sponsor |
 | ------ | ------ | ------ | ------ | ------ |------ |
-| [GitLab API - Asia Pacific Islander]({{< ref "tmrg-gitlab-api" >}}) | [Christopher Wang](https://gitlab.com/cs.wang), [Steve Xu](https://gitlab.com/steve_xu), [Sheela Viswanathan](https://gitlab.com/sheelaviswanathan) | #api-tmrg | [Sign up for future meetings (Google group)](https://groups.google.com/a/gitlab.com/g/api-tmrg) | [API Agenda](https://docs.google.com/document/d/17zJuZlWVg40mPjcybnGlj_mK2f4SEpRdrjq3s3Cseow/edit?usp=sharing) | David Sakamoto |
-| [GitLab Disability and Neurodivergence]({{< ref "erg-gitlab-diversability" >}}) | [Kaitlyn Chappell](https://gitlab.com/kchappell), [James Hebden](https://gitlab.com/jhebden), [Dominique Top](https://gitlab.com.dlectronique) | #disability-and-neurodivergence-tmrg | [Sign up for future meetings (google form)](https://forms.gle/5g2wVB577Lr7M3CH7) | [DiversABILITY Agenda](https://docs.google.com/document/d/130LH9QPewms025z4OFxNNUYnjcQ53D1049EZOL2WdWc/edit?usp=sharing) | Rob Allen |
-| [Career Enablement](https://groups.google.com/a/gitlab.com/g/careerenablementtmag) | [Kristi Piechnik](https://gitlab.com/kpdoespr) and [Amruta Kulkarni](https://gitlab.com/akulks) | #career-enablement-tmag | [Sign up for future meetings with Google Group](https://groups.google.com/a/gitlab.com/g/careerenablementtmag) | TBD | Craig Mestel |
+| [GitLab API - Asia Pacific Islander]({{< ref "tmrg-gitlab-api" >}}) | [Christopher Wang](https://gitlab.com/cs.wang), [Steve Xu](https://gitlab.com/steve_xu), [Sheela Viswanathan](https://gitlab.com/sheelaviswanathan) | #api-tmrg | [Sign up for future meetings (Google group)](https://groups.google.com/a/gitlab.com/g/api-tmrg) | [API Agenda](https://docs.google.com/document/d/17zJuZlWVg40mPjcybnGlj_mK2f4SEpRdrjq3s3Cseow/edit?usp=sharing) | Nabitha Rao |
+| [GitLab Disability and Neurodivergence]({{< ref "erg-gitlab-diversability" >}}) | [James Hebden](https://gitlab.com/jhebden), [Dominique Top](https://gitlab.com.dlectronique), [James Moverley](https://gitlab.com/jmoverley) , [Flavia Costa](https://gitlab.com/fccosta) | #disability-and-neurodivergence-tmrg | [Sign up for future meetings (google form)](https://forms.gle/5g2wVB577Lr7M3CH7) | [DiversABILITY Agenda](https://docs.google.com/document/d/130LH9QPewms025z4OFxNNUYnjcQ53D1049EZOL2WdWc/edit?usp=sharing) | Rob Allen |
 | [GitLab Generational Understanding]({{< ref "tmag-gitlab-generational-understanding" >}}) | Miles Russell, Terri Chu | #generational_understanding | [Sign up for future meetings (Google group)](https://groups.google.com/a/gitlab.com/g/Generational_Differences_ERG) | [Generational Understanding Agenda](https://docs.google.com/document/d/1h81q60KnCJFsATKjZKOFglBmgkv8TlGrKY8punX2SEg/edit?usp=sharing) | TBC |
+| GitLab Mental Health TMAG | [Yin Yu](https://gitlab.com/yyugitlab), [Matthew Macfarlane](https://gitlab.com/mmacfarlane) | #mental-health-tmag | [Sign up for future meetings (Google group)](https://groups.google.com/a/gitlab.com/g/wellness-mental-health) | [Mental Health Agenda](https://docs.google.com/document/d/16YrJ1X5JTsJileqiZc2rmGEwSoxAf0xOmLDOpFuwu_0/edit) | [Lisa Boughner](https://gitlab.com/lboughner) |
 | [Global Voices]({{< ref "tmrg-global-voices" >}}) | [Eliran Mesika](https://gitlab.com/eliran.mesika), [Charlie Ablett](https://gitlab.com/cablet) | #global-voices-tmrg | [Sign up for future meetings (Google group)](https://groups.google.com/a/gitlab.com/g/globalvoices/) | TBD | [Sabrina Farmer](https://gitlab.com/sabrinafarmer) |
-| [GitLab Gente]({{< ref "tmrg-gitlab-gente" >}}) | [Pilar Mejia](https://gitlab.com/pmejia), [Romer Gonzalez](https://gitlab.com/romerg), [Samara Souza](https://gitlab.com/samarasouza), [Giuliana Lucchesi](https://gitlab.com/glucchesi)  | #gente | [Sign up for future meetings (Google group)](https://groups.google.com/a/gitlab.com/g/latinxtmrg) | [Gente Agenda](https://docs.google.com/document/d/12dYSDjiVvFt-c6UO9y350pFbrrK5Iq2o/edit) | [Josh Lemos](https://gitlab.com/joshlemos) |
+| [GitLab Gente]({{< ref "tmrg-gitlab-gente" >}}) | [Pilar Mejia](https://gitlab.com/pmejia), [Romer Gonzalez](https://gitlab.com/romerg), [Giuliana Lucchesi](https://gitlab.com/glucchesi)  | #gente | [Sign up for future meetings (Google group)](https://groups.google.com/a/gitlab.com/g/latinxtmrg) | [Gente Agenda](https://docs.google.com/document/d/12dYSDjiVvFt-c6UO9y350pFbrrK5Iq2o/edit) | [Josh Lemos](https://gitlab.com/joshlemos) |
 | [Black @ GitLab]({{< ref "tmrg-gitlab-black" >}}) | [Darren Eastman](https://gitlab.com/DarrenEastman), [Erran Carey](https://gitlab.com/erran), [Madou Coulibaly](https://gitlab.com/madou) | #black-at-gitlab |  [Sign up for future meetings (Google group)](https://groups.google.com/a/gitlab.com/g/black-tmrg) | [Black @ GitLab Agenda](https://docs.google.com/document/d/1G9Be3e3hjj3gexLmrmR1bqzaEErP-4BfDgJR4q_jUTw/edit#heading=h.vf9sdppkn4e0) | [David DeSanto](https://gitlab.com/david) |
 | [GitLab Pride]({{< ref "tmrg-gitlab-pride" >}}) | [Alex Hanselka](https://gitlab.com/ahanselka) and [Andrew Chapman](https://gitlab.com/AndrwChapman) | #lgbtq | [Sign up for future meetings (Google group)](https://groups.google.com/a/gitlab.com/g/pride-tmrg) | [Pride Agenda](https://docs.google.com/document/d/11D-Izm5mbopEUCY036Qr0bHx6UePMyfkzhUfNDE-mnk/edit?usp=sharing) | Robin Schulman |
-| [GitLab Women]({{< ref "tmrg-gitlab-women" >}}) | [Kyla Gradin Dahl](https://gitlab.com/kyla), [Winnie Chan](https://gitlab.com/wyychan), [Gosia Ksionek](/handbook/company/team/#mksionek) | #women | [Sign up for future meetings (google group)](https://groups.google.com/a/gitlab.com/g/womenstmrg) | [Women Agenda](https://docs.google.com/document/d/1bJ3Y8IVjnssPpRa3IUafdzC0wsJUU6rYCGf-YEiDHeg/edit) | Robin Schulman |
+| [GitLab Women]({{< ref "tmrg-gitlab-women" >}}) | [Winnie Chan](https://gitlab.com/wyychan), [Gosia Ksionek](/handbook/company/team/#mksionek) , [Sara Cuesta](https://gitlab.com/sglad) | #women | [Sign up for future meetings (google group)](https://groups.google.com/a/gitlab.com/g/womenstmrg) | [Women Agenda](https://docs.google.com/document/d/1bJ3Y8IVjnssPpRa3IUafdzC0wsJUU6rYCGf-YEiDHeg/edit) | Robin Schulman |
 | [GitLab Caregivers](tmrg-caregivers.md) | Jackie Porter, Gena Schwam | #caregivers-tmrg | TBA | [Caregivers Agenda](https://docs.google.com/document/d/1taPLNLkVvTayEzySFUU5XKZeSK9tmsK-WELu_Pp14m8/edit?usp=sharing)| Wendy Barnes|
 
 ## Executive Sponsorship
@@ -94,7 +94,7 @@ The [Deloitte 2021 Global Human Capital Trends: Special report](https://www2.del
 
 In the [2021 Edelman Trust research](https://www.edelman.com/sites/g/files/aatuss191/files/2021-03/2021%20Edelman%20Trust%20Barometer.pdf) it shows that it may be very important to customers and investors to know where an organization stands on societal issues. 86% percent of global respondents expect CEOs to publicly speak out about societal challenges, which of course can extend to the wider E-Group.
 
-[2021 Axios-Harris Poll 100](https://theharrispoll.com/partners/media/axios-harrispoll-100/), which ranks US organizations for their reputation in the marketplace, noted that organizations "with a clear point of view and that deliver not only great products but also an impact on society" ranked at the top of the list.
+[2021 Axios-Harris Poll 100](https://www.axios.com/2021/05/13/the-2021-axios-harris-poll-100-reputation-rankings), which ranks US organizations for their reputation in the marketplace, noted that organizations "with a clear point of view and that deliver not only great products but also an impact on society" ranked at the top of the list.
 
 **This shows that the impact on being an awesome Executive Sponsor can and will drive business outcomes!**
 
@@ -267,7 +267,7 @@ Additional resources on how to be an ally:
 - [Allyship at GitLab]({{< ref "ally-resources" >}})
 - [Live Learning Ally Training at GitLab](https://ctb.ku.edu/en/table-of-contents/culture/cultural-competence/be-an-ally/main)
 - [Chapter 27. Cultural Competence in a Multicultural World | Section 5. Learning to be an Ally for People from Diverse Gro…Straight for Equality](https://ctb.ku.edu/en/table-of-contents/culture/cultural-competence/be-an-ally/main)
-- [Guide to Allyship](https://www.guidetoallyship.com/#the-work-of-allyship)
+- [Guide to Allyship](https://guidetoallyship.com/#the-work-of-allyship)
 
 ## TMRG or TMAG Leads
 
@@ -490,7 +490,7 @@ Members of the TMRGs are encouraged to identify multiple ways the success will b
 
 We have provided a number of optional resources for TMRGs to use that assist in setting the strategy, roadmap, financial planning etc.
 
-- [TMRG Strategy Template](https://docs.google.com/presentation/d/1Zpz6z_0x3rbjYzUd6fSAojg8ME3FKfWPrI7cD4HmV48/edit?usp=sharing): This can be used to set a 6-12 month strategy for your TMRG, to create an action plan, execute and measure.
+- [TMRG ACTION PLAN Template](https://docs.google.com/document/d/1VdH0S-pHMfy_XbltY9wYghSY9h04U-gcNwR3miZwkX0/edit?tab=t.0): This can be used to create an action plan, execute and measure.
 - [New TMRG Roadmap Template](https://docs.google.com/spreadsheets/d/19Qa6xLIaoxOBbPIoMjYTcL87lx1y1exGGB6z4iD64tY/edit?usp=sharing): This template gives some examples of a Roadmap for new or developing TMRGs
 - [Estabished TMRG Roadmap Template](https://docs.google.com/spreadsheets/d/19Qa6xLIaoxOBbPIoMjYTcL87lx1y1exGGB6z4iD64tY/edit?usp=sharing): This template gives some examples of a yearly roadmap for established or mature stage TMRGs
 - [Budget Tracker](https://docs.google.com/spreadsheets/d/1-BZrH1KsRBYl9r0EYEy6VXlKyvGGf585mwoj9Vz5rgA/edit?usp=sharing): This is a simple budget tracker for Lead or a treasurer of a TMRG to plan and keep a track of the annual budget given to TMRGs.
@@ -509,7 +509,7 @@ Having short terms and long term goals for the TMRG is extremely important in de
 
 - Work with the wider TMRG on the TMRGs priorities
   - Leadership should distill these down into a manageable number of goals
-- Utilize a goal setting methodology such as [OKRs](/handbook/company/okrs) or [SMART](https://www.mindtools.com/pages/article/smart-goals.htm) to set the goals in a practical way
+- Utilize a goal setting methodology such as [OKRs](/handbook/company/okrs) or [SMART](https://www.mindtools.com/a4wo118/smart-goals) to set the goals in a practical way
 - Add these goals to your quarterly strategy issue for the TMRG
 - Assign a working group or DRI/s to the goal
 - Share the goals with your executive sponsor and the wider GitLab team through the Monthly Initiatives Call

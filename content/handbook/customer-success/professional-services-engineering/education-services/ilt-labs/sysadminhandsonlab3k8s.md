@@ -35,8 +35,8 @@ The objective of this lab is to demonstrate how to back up a GitLab instance on 
         uploads:
         bucket: gitlab-scosentino-3k-backups
     ```
-    
-    > These configurations set the name of the remote storage bucket for each backup type. 
+
+    > These configurations set the name of the remote storage bucket for each backup type.
 
 1. Kubernetes backups are made through the `toolbox` pod. To enable this pod to run backups, it needs to be able to connect to the backup provider. The following configuration can be added to the `gitlab` block to achieve this:
 
@@ -50,9 +50,9 @@ The objective of this lab is to demonstrate how to back up a GitLab instance on 
             secret: my-s3cfg
     ```
 
-1. To be able to access these buckets, you need to provide credentials for an AWS service account. To do this, run the command `kubectl create secret generic my-s3cfg --from-file=config=my-s3cfg`. 
+1. To be able to access these buckets, you need to provide credentials for an AWS service account. To do this, run the command `kubectl create secret generic my-s3cfg --from-file=config=my-s3cfg`.
 
-1. After adding this configuration, run the command `helm upgrade --install gitlab gitlab/gitlab --timeout 100s -f values.yml`. 
+1. After adding this configuration, run the command `helm upgrade --install gitlab gitlab/gitlab --timeout 100s -f values.yml`.
 
 ### Task B. Backup the GitLab instance
 

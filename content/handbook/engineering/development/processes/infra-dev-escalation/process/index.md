@@ -338,7 +338,7 @@ For those eligible engineers, everyone is encouraged to explore options that wor
    1. Please create an OOO event in Workday and choose **On-Call Time in Lieu**.
 1. Other alternatives that promote work-life balance and have the least impact to your personal schedule.
 
-With the above alternatives we want to make sure we comply with local labor laws and not surpass the restricted weekly working hours (ranging from 38 to 60 hours) and offer enough rest time for the engineers who sign up on weekend on-call shifts.
+It is important to abide by local labor laws and you are encouraged to understand if there are restrictions around your working time. The purpose of this information is to encourage you to take time off according to your schedule to account for the interruption to your weekend.
 
 If you prefer to work on a preferred weekend day please proactively sign up for shifts to avoid auto-assignment. Team members who have signed up for the fewest shifts are auto-assigned open shifts first.
 

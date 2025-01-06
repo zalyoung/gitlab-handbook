@@ -146,18 +146,6 @@ To do this, follow the steps below:
 - Create Lead List Views & Contact List Views and filter using the operational field;
 - Create & Schedule Zoominfo enrichment jobs for both leads & contacts and select enrichment via the list views created at the previous step.
 
-### Outreach Integration (Will be Deprecated Soon & Replaced with the Groove Integration)
-
-The ZoomInfo Outreach integration is now live and you may export contacts directly to Outreach. Any contacts you do export, will also be exported in SFDC. They will be initially missing some ZI information in SFDC but there will be an append job that will run automatically to update any missing information.
-
- There are some limitations in place:
-
-- There is a 100 contact export limit in place.
-- We do not allow for new accounts/account updates from ZoomInfo into Outreach.
-- Please do not upload any contact without an email address into Outreach- if you do, the prospect will not sync into SFDC and any activities you do on the prospect will not be recorded in SFDC.
-
-Any prospects created without email address will be found and deleted in the Outreach database management we will run monthly. To avoid uploading contacts with no email addresses, please use the ZoomInfo filtering available.
-
 ### Groove Integration
 
 The Zoominfo Groove Integration is live and you may export leads directly using it. The records, once exported as leads, will be created in SFDC and added to the selected Groove flows.

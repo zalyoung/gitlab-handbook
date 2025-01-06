@@ -15,7 +15,7 @@ Develop cutting-edge AI-powered tools that enhance the efficiency and creativity
 
 One of the main features we work on in the Create:Code Creation group is Code Suggestions. Here is some quick information to get you started with Code Suggestions.
 
-- [Code Suggestions Quick Start](https://docs.gitlab.com/ee/user/gitlab_duo/quick_start) - GitLab Documentation
+- [Code Suggestions Quick Start](https://docs.gitlab.com/ee/user/gitlab_duo/quick_start/) - GitLab Documentation
 - [Difference betwen Code Completion and Code Generation](https://youtu.be/9dsyqMt9yg4) - YouTube
 - [Code Suggestion Documentation](https://docs.gitlab.com/ee/user/project/repository/code_suggestions/) - GitLab Documentation
 
@@ -47,11 +47,13 @@ stateDiagram
 
 ## Team Handles
 
-| Category                 | Handle              |
-|--------------------------|---------------------|
-| GitLab Team Handle       | @code-creation-team |
-| Slack Channel            | #g_code_creation    |
-| Slack Handle (Engineers) | @code-creation-engs |
+Use this information to connect with the Code Creation group:
+
+| Category                 | Handle                                |
+|--------------------------|---------------------------------------|
+| GitLab Team Handle       | @gitlab-com/create-team/code-creation |
+| Slack Channel            | #g_code_creation                      |
+| Slack Handle (Engineers) | @code-creation-engs                   |
 
 ## Commonly Monitored Issue Lists
 
@@ -144,7 +146,7 @@ This is the template to use for the updates
 
 _Remember to update the workflow label!_
 
-/cc @mnohr @jordanjanes 
+/cc @mnohr @jordanjanes
 ```
 
 Be sure to tag the engineering manager, product manager, and any team members you are collaborating with.
@@ -164,7 +166,7 @@ Be sure to tag the engineering manager, product manager, and any team members yo
 
 ## Code Suggestion Dashboards
 
-1. [Usage and Acceptance Rate](https://10az.online.tableau.com/#/site/gitlab/views/PDCodeSuggestions/ExecutiveSummary) (Tableau)
+1. [Code Suggestions Metrics](https://10az.online.tableau.com/#/site/gitlab/views/PDCodeSuggestions/ExecutiveSummary) ([README](https://10az.online.tableau.com/#/site/gitlab/views/PDCodeSuggestions/README?:iid=1)) - usage, acceptance rate, latency, error rates, etc (Tableau)
 1. [General Metric Reporting](https://10az.online.tableau.com/#/site/gitlab/views/DRAFTCentralizedGMAUDashboard/MetricReporting?:iid=1) - can find code suggestions rate limiting, X-Ray usage, etc (Tableau)
 1. [Log Visualization Dashboard](https://log.gprd.gitlab.net/app/dashboards#/view/6c947f80-7c07-11ed-9f43-e3784d7fe3ca?_g=(refreshInterval:(pause:!t,value:0),time:(from:now-6h,to:now))) - another view of latency, response codes, number of requests, etc (Kibana)
 1. [Code suggestions latency](https://log.gprd.gitlab.net/app/r/s/mMaY3): Breakdown of server-side latency for code suggestions (Kibana)

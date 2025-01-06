@@ -406,9 +406,9 @@ or dedicated installations could then start getting better
 AI-supported features without having to upgrade their GitLab instance.
 
 Features that are currently
-[experimental](https://docs.gitlab.com/ee/policy/experiment-beta-support.html#experiment)
+[experimental](https://docs.gitlab.com/ee/policy/development_stages_support.html#experiment)
 can use these generic APIs, but we should aim to convert to a single
-purpose API endpoint before we make the feature [generally available](https://docs.gitlab.com/ee/policy/experiment-beta-support.html#generally-available-ga)
+purpose API endpoint before we make the feature [generally available](https://docs.gitlab.com/ee/policy/development_stages_support.html#generally-available-ga)
 for self-managed installations. This makes it easier for us to support
 features long-term even if the landscape of AI providers change.
 

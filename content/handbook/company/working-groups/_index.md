@@ -10,21 +10,6 @@ Like all groups at GitLab, a [working group](https://en.wikipedia.org/wiki/Worki
 
 Working groups are for important work that needs to be done quickly, when asynchronous work would be too slow.
 
-### CEO Handbook Learning Discussion on Working Groups
-
-GitLab's CEO, Sid, and Chief of Staff to the CEO, Stella, and the Learning & Development team discuss Working Groups in detail during a [CEO handbook learning session](/handbook/people-group/learning-and-development/learning-initiatives/#ceo-handbook-learning-sessions).
-
-Topics covered include:
-
-1. What is a working group
-1. When to start a working group
-1. Difference between project managers and working groups.
-    - Note: GitLab does not internally have project managers. Individual team members should have agency and accountability. We don't want someone who just tracks the status of work and makes updates. We want people to do this directly, and we want the [DRI](/handbook/people-group/directly-responsible-individuals/) to own the process and outcome. This supports accountability. We sometimes have project managers when interacting with external organizations, because accountability is harder when working with external parties.
-1. Lessons learned from previous working groups
-1. Why and how working groups support cross-functional projects
-
-{{< youtube "tE3d8WUSL30" >}}
-
 ## Roles and Responsibilities
 
 ### Required Roles
@@ -202,6 +187,7 @@ If you are unable to attend the existing working group meeting due to time diffe
 
 1. [Automotive Development]({{< ref "automotive-development" >}})
 1. [Customer Use Case Adoption]({{< ref "customer-use-case-adoption" >}})
+1. [Feature Testing]({{< ref "feature-testing" >}})
 1. [FedRAMP Execution]({{< ref "fedramp-execution" >}})
 1. [GCP Partnership]({{< ref "gcp-partnership" >}})
 1. [GitLab.com Disaster Recovery]({{< ref "disaster-recovery" >}})

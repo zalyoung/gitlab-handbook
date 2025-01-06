@@ -7,7 +7,7 @@ canonical_path: "/handbook/support/readiness/operations/docs/zendesk/emails"
 ## What are Zendesk emails
 
 As per
-[Zendesk](https://support.zendesk.com/hc/en-us/articles/203663256-Getting-started-with-email-in-Zendesk-Support):
+[Zendesk](https://support.zendesk.com/hc/en-us/articles/4408888639258-A-complete-guide-to-understanding-email-in-Zendesk-Part-1-How-the-email-channel-works):
 
 > Email is one way that end-users can submit tickets to Zendesk Support and have
 > conversations with agents to resolve their issues.

@@ -39,9 +39,9 @@ The phishing simulation email from ProofPoint will appear as though it is origin
 
 #### How should I respond to the phishing simulation?
 
-Just like with any suspected phishing or malicious email, follow the [handbook process](#what-to-do-if-you-suspect-an-email-is-a-phishing-attack) for reporting suspected phishing emails.  The preference for reporting phishing emails is Option 1 via PhishAlarm.
+Just like with any suspected phishing or malicious email, follow the [handbook process](#what-to-do-if-you-suspect-an-email-is-a-phishing-attack) for reporting suspected phishing emails.  The preference for reporting phishing emails is Option 1 via PhishArm.
 
-![PhishAlarm icon](/handbook/security/security-assurance/images/PhishAlarm.png)
+![PhishArm icon](/images/PhishArm.png)
 
 #### What happens if I click the link?
 
@@ -59,7 +59,7 @@ If the training is not completed within 1 week, a reminder will be sent from Pro
 
 | Action                                 | Outcome |
 | -------------------------------------- | ------- |
-| Submitted email via PhishAlarm or directly to phishing@gitlab.com | No further action. |
+| Submitted email via PhishArm or directly to phishing@gitlab.com | No further action. |
 | Did nothing with the email             | No further action.   |
 | Clicked on the link                    | Training will be assigned  |
 
@@ -75,7 +75,7 @@ The Security Governance team will initiate and track the quarterly phishing simu
 
 *I didn't click the link in the email, what do I do?*
 
-- Please forward the email via the <img alt="PhishAlarm button" src="/handbook/security/security-assurance/images/PhishAlarm.png" height="32" width=32> or as an attachment to phishing@gitlab.com using these [instructions](#what-to-do-if-you-suspect-an-email-is-a-phishing-attack). Knowing this is a phishing simulation, please avoid discussing with anyone else or feel compelled to post a screenshot of the email received in Slack as it may skew the results of the phishing exercise.
+- Please forward the email via the <img alt="PhishArm button" src="/handbook/security/security-assurance/images/PhishArm.png" height="32" width=32> or as an attachment to phishing@gitlab.com using these [instructions](#what-to-do-if-you-suspect-an-email-is-a-phishing-attack). Knowing this is a phishing simulation, please avoid discussing with anyone else or feel compelled to post a screenshot of the email received in Slack as it may skew the results of the phishing exercise.
 
 *I got assigned training without clicking the link in the email, what do I do?*
 
@@ -180,11 +180,11 @@ should never enter sensitive data into that website.
 
 ### What to do if you suspect an email is a phishing attack
 
-If you think an email is suspicious, it may be a phishing attempt targeted at you or GitLab, or it may be a security test. Please report the email to Security by using the ***PhishAlarm*** button in Gmail. It is located in the right hand sidebar of your Gmail workspace. If you don't see the button, the right hand sidebar may be collapsed and you'll need to click the arrows at the bottom right hand corner of the window to expand the sidebar.
+If you think an email is suspicious, it may be a phishing attempt targeted at you or GitLab, or it may be a security test. Please report the email to Security by using the ***PhishArm*** button in Gmail. It is located in the right hand sidebar of your Gmail workspace. If you don't see the button, the right hand sidebar may be collapsed and you'll need to click the arrows at the bottom right hand corner of the window to expand the sidebar.
 
-If you are on a mobile device and using the Gmail app, the PhishAlarm button is toward the bottom of your Gmail app, in the available add-ons section.
+If you are on a mobile device and using the Gmail app, the PhishArm button is toward the bottom of your Gmail app, in the available add-ons section.
 
-If you are using another email client, you may not be able to submit the email using the PhishAlarm button. In this case, you may manually submit the phishing email by forwarding it to `phishing@gitlab.com`.
+If you are using another email client, you may not be able to submit the email using the PhishArm button. In this case, you may manually submit the phishing email by forwarding it to `phishing@gitlab.com`.
 
 {{% note %}}
 Forwarding phishing emails to `phishing@gitlab.com` requires additional steps by following the [manual submission instructions](#manual-submission-of-phishing-email-to-phishinggitlabcom) below.
@@ -192,18 +192,18 @@ Forwarding phishing emails to `phishing@gitlab.com` requires additional steps by
 
 If you use the `Report Phishing` button at the top right of the Gmail client, this will also require you to follow the [manual submission instructions](#manual-submission-of-phishing-email-to-phishinggitlabcom) below. This is because the `Report Phishing` button by Gmail does not provide our security team with the email itself, and only provides us with a notification.
 
-#### Submission of phishing email via PhishAlarm
+#### Submission of phishing email via PhishArm
 
-PhishAlarm is found on the right side panel in Gmail. You can hide or show this panel by clicking on the > or < symbol on the bottom right corner of your web browser window
+PhishArm is found on the right side panel in Gmail. You can hide or show this panel by clicking on the > or < symbol on the bottom right corner of your web browser window
 
-To submit an email via PhishAlarm to GitLab's Security Team using Gmail:
+To submit an email via PhishArm to GitLab's Security Team using Gmail:
 
-1. Select the PhishAlarm icon on the right-hand side toolbar in Gmail
+1. Select the PhishArm icon on the right-hand side toolbar in Gmail
 1. Follow the instructions to report the Phish
 1. Confirm you are ready to report the Phishing email
 1. Receive a confirmation that the email has been forwarded to GitLab Security Team for further investigation.
 
-![PhishAlarm](/handbook/security/PhishAlarm-icon.png)
+![PhishArm](/images/PhishArm-Use.png)
 
 #### Manual submission of phishing email to `phishing@gitlab.com`
 

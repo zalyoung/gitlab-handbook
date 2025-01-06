@@ -58,57 +58,27 @@ See the [Plan stage page](/handbook/product/categories/#plan-stage) and the [Pla
 The week after a release of current milestone, planning issue for next milestone is created by automation and is available [here](https://gitlab.com/gitlab-org/plan-stage/product/-/issues/?sort=title_asc&state=opened&label_name%5B%5D=group%3A%3Aproduct%20planning&first_page_size=100).
 Once the issue is created, Product Manager fills out initial information (i.e. broader theme for the milestone, product priorities, deliverable areas, etc.) within the issue description and refines the [Milestone Planning board](https://gitlab.com/gitlab-org/gitlab/-/boards/7695201?not[label_name][]=product%20work&label_name[]=group%3A%3Aproduct%20planning&milestone_title=Started).
 
-Once the milestone candidates are available, Engineering Kick Off Call is scheduled. This call happens once a month on the day after the release is cut for current milestone (i.e. every second Friday of the month). In this call, team members review the proposed list of candidates and slippage from previous milestone that they're already assigned to, and the Milestone Planning board for issues labelled `workflow::planning breakdown` to identify any missing information, blocking dependencies, and ensuring if issues are indeed ready for development. If an issue in the list already has expert/DRI available, then they are required to update the issue to include additional information
-about what needs to be done, and possible hints around approach that an engineer can take while working on the issue. At the end of the meeting, following outcome is expected;
+Beginning with [17.8](https://gitlab.com/groups/gitlab-org/-/milestones/107#tab-issues), we have altered the way issues are scheduled for milestones. Refer to following steps on how it is done;
 
-- List of issues we want to work on in the milestone
-- DRIs for those issues who can update it with implementation details
-  - Once issue is updated, workflow label is updated to `workflow::ready for development`
-- Team member bandwidth and availability for the milestone
-
-**Estimation Template**
-
-The following is a guiding mental framework for engineers to consider when contributing to estimates on issues.
-
-```markdown
-### Refinement / Weighting
-
-<!--
-Ready for development means replying yes to the following questions:
-
-- Is this issue sufficiently small enough? If not, break it into smaller issues
-- Is it assigned to the correct domain (e.g. frontend, backend)? If not, break it into two issues for the respective domains
-– Is the issue clear and easy to understand? If not, try asking further clarification questions and update the description once they are received
-
-If more than 2 MRs are needed, consider adding a table like the following to the description (e.g. under `Implementation plan`).
-
-| Description | MR |
-|-|-|
-|||
-
-It will help track the status.
--->
-
-- [ ] Ready for development
-- [ ] Weight is assigned
-- [ ] Number of MRs listed
-- [ ] Needs testing considerations
-- [ ] Needs documentation updates
-
-**Reasoning:**
-
-<!--
-Add some initial thoughts on how you might break down this issue. A bulleted list is fine.
-
-This will likely require the code changes similar to the following:
-
-- replace the hex driver with a sonic screwdriver
-- rewrite backups to magnetic tape
-- send up semaphore flags to warn others
-
-Links to previous examples. Discussions on prior art. Notice examples of the simplicity/complexity in the proposed designs.
--->
-```
+1. Product Manager, in collaboration with Engineering Manager and Product Designer, identifies list of issues that are candidates for upcoming milestone.
+    - Number of issues, along with weight and effort is determined based on rolling capacity (i.e. work carried over from previous milestones), available capacity from the team in upcoming milestone, as well as potential time-off and holidays.
+    - These issues have `~workflow::planning breakdown` label present along with the assigned milestone, implying that they're ready to be triaged by engineering.
+2. Identified candidate issues list is posted in the Milestone Planning issue by PM by last week of the calendar month.
+3. Engineering Manager then assigns these issues to all the team members **two weeks before** the start of upcoming milestone.
+    - Assignees of issues are picked based on team member availability as well as expressed interest by a team member to work on a specific product area.
+    - Additionally, if the assignee is known to be not familiar with the product area of an issue, SME can be optionally included in the triage notification to encourage collaboration during triage.
+4. Along with assignment of issues, EM also includes a comment to notify assignees (and SMEs, if included) that they allocate some time during the week to triage the issues by following [Definition of Ready](#definition-of-ready), and wrap it up before the last week of current milestone.
+    - The goal of this triage exercise is to ensure that assignees know what they'll be working on in the next milestone, ensuring they have all the information needed to begin implementation, and eventually move the issue to `~workflow::ready for development` state.
+    - There can be multiple outcomes during triaging of the issue as follows;
+         - Issue is too big as a single issue (eg; Weight 4 or higher), in this case, we break down that issue into either sub-tasks (if shipping in the same milestone) or multiple issues (if shipping in multiple milestones).
+         - Issue has a blocking dependency that either doesn't have a tracking issue or the issue is present in the backlog or future milestone. In this case, we ensure that the relevant issue is brought up in the upcoming milestone to unblock the dependency and is triaged similarly and the original issue is moved out of the milestone in coordination with the Product Manager as per the schedule of blocking issue.
+         - Issue is not feasible to be implemented at this point, in this case, raise it mentioning PM and EM in the issue so that appropriate steps can be taken.
+5. At the end of triaging an issue, if it was determined that issue is ready to be worked on, ensure that issue has following attributes present;
+    - Workflow label changed to `~workflow::ready for development`.
+    - An implementation plan present within the issue description (this may include technical details too).
+    - Child tasks or related issues in case original issue was broken down.
+    - Appropriate weight representing approximate effort.
+6. In a week prior to the start of the upcoming milestone, EM's responsibility is to ensure that all candidate issues have either moved to `~workflow::ready for development` as per guidance in point 5, or an appropriate triage action is taken as outlined in point 4.
 
 ### Capacity Planning
 
@@ -273,7 +243,7 @@ This avoids the rush to provide documentation that often accompanies the release
 
 Detailed metrics are available on the [Engineering Metrics page](/handbook/product/groups/product-analysis/engineering/dashboards/dashboards/).
 
-Product Planning is part of a test of new MR sub-type labels which are designed to make it easier to understand which top-level type should be applied. You can read more about them in the [Work Type Classification](/handbook/product/groups/product-analysis/engineering/dashboards/#work-type-classification) section of the metrics page.
+Product Planning is part of a test of new MR sub-type labels which are designed to make it easier to understand which top-level type should be applied. You can read more about them in the [Work Type Classification](/handbook/product/groups/product-analysis/engineering/metrics/#work-type-classification) section of the metrics page.
 
 Note: MR Type may differ from issue type. For example, a ~"maintenance::dependency" change that supports a new ~"feature::enhancement".
 
@@ -298,7 +268,7 @@ Items that are customer-facing deliverables and high impact are labeled with ~"d
 ### Working on unscheduled issues
 
 Everyone at GitLab has the freedom to manage their work as they see fit,
-because [we measure results, not hours](/handbook/values/#results). Part of this is the
+because [we measure impact, not activity](/handbook/values/#results). Part of this is the
 opportunity to work on items that aren't scheduled as part of the
 regular monthly release. This is mostly a reiteration of items elsewhere
 in the handbook, and it is here to make those explicit:

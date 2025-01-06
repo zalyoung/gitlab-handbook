@@ -42,7 +42,7 @@ Empirical Path helps us execute advanced Google Tag Manager and Google Analytics
 We also use supplmental tools to improve our understanding of how people interact with about.gitlab.com. These tools are used most heavily by our Search Marketing team:
 
 * [Google Search Console](https://search.google.com/search-console) (click data from Google Search)
-* [SEMRush](https://www.semrush.com/dashboard/) (keyword research and coverage)
+* [SEMRush](https://www.semrush.com/) (keyword research and coverage)
 * [Sitebulb](https://sitebulb.com/) (site health and crawl)
 
 ## Google Marketing Platform

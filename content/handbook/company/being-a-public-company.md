@@ -74,19 +74,3 @@ In situations where we are using the standard communications channels that other
 ## Disclaimer
 
 Statements on this page are being made pursuant to, and in accordance with, Rule 135 under the Securities Act of 1933, as amended (the "Securities Act") and shall not constitute an offer to sell, or the solicitation of an offer to buy, any securities. Any offers, solicitations or offers to buy, or any sales of securities will be made in accordance with the registration requirements of the Securities Act.
-
-## Remaining an Independent Company
-
-{{< youtube id="LIXLGyZK72c" title="Will GitLab be acquired? Kristof Eger & Sid Sijbrandij" >}}
-
-*In the [GitLab Unfiltered](https://www.youtube.com/channel/UCMtZ0sc1HHNtGGWZFDRTh5A) video above, GitLab co-founder and CEO [Sid Sijbrandij](https://gitlab.com/sytses) discusses the topic of remaining independent as a company with Kristóf Éger. The [coffee chat](/handbook/company/culture/all-remote/informal-communication/#coffee-chats) is transcribed, in part, below.*
-
-> Our intention, from the moment we took external funding, was to stay independent.
->
-> The reason we want to stay independent is we think it will better allow us to preserve our culture — we have our [six values](/handbook/values/) that are important to us — and also to be a good steward of open source.
->
-> Now, we're not totally in control of that. The majority of GitLab is owned by venture capitalists. But, we do have some sway. If, as an executive team, you're not interested in being acquired, it's harder to acquire a company.
->
-> We're always more [optimistic](/handbook/values/#focus-on-improvement) about the future than anybody outside of the company. That means that we have to keep growing. We have to keep growing [IACV](/handbook/sales/sales-term-glossary/arr-in-practice/), and keep growing our revenue.
->
-> We keep investing in the future in order to not get bought. We've been very clear with our investors what our intentions were from the start. We're doing everything we can to stay independent. - *GitLab co-founder and CEO Sid Sijbrandij*

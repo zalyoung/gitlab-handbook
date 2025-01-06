@@ -153,7 +153,7 @@ After doing this, all of your code will be available on the runner. One importan
 Want to see this in action? Add the `ls` command to your job scripts. This will list the current directory, showing you all the files that were cloned to the runner.
 
 ```yaml
-defaults:
+default:
   image: golang
 
 stages:

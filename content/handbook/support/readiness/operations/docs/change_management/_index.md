@@ -64,6 +64,7 @@ information on these, see the documentation page of the item itself.
 | Calendly Events to gCal Events       | Ad hoc |
 | CMP Scripts                          | Ad hoc |
 | Customer Feedback Processor          | Ad hoc |
+| Dev Pulse                            | Ad hoc |
 | DEWR                                 | Ad hoc |
 | Enable US Gov Support scripts        | Ad hoc |
 | GDPR Request Processor               | Ad hoc |
@@ -82,6 +83,7 @@ information on these, see the documentation page of the item itself.
 | Zendesk Apps                         | Standard |
 | Zendesk Articles                     | Ad hoc |
 | Zendesk Automations                  | Standard |
+| Zendesk Dynamic Content              | Standard |
 | Zendesk Groups                       | Standard |
 | Zendesk Macros                       | Ad hoc |
 | Zendesk Organization Fields          | Standard |

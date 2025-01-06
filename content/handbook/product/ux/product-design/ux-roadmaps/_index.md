@@ -28,7 +28,7 @@ UX Themes influence strategy through collaboration with Product Managers to defi
 UX Themes organized by priority become a UX Roadmap. This roadmap complements the product roadmap and does not replace or supersede them. Therefore, it's helpful to think of a UX Roadmap as a view of the Product roadmap through the filter of Product Design and UX Research.
 
 <!-- Roadmap graphic to illustrate how a UXrm fits into the overall Product roadmap -->
-![Roadmap graphic to illustrate how a UX Roadmaps fit into the overall Product roadmap](Roadmap_Visual2.png)
+![Roadmap graphic to illustrate how a UX Roadmaps fit into the overall Product roadmap](/images/product/ux/product-design/ux-roadmaps/Roadmap_Visual2.png)
 
 ## Components of a UX Theme
 
@@ -43,7 +43,7 @@ Using JTBD to define and drive your work through their incorporation of UX Theme
 *JTBD and UX Themes:*
 
 <!-- Job map and UX Theme scope examples -->
-![UX Theme scope example using the job map](UX_Theme_JTBD_Scope.png)
+![UX Theme scope example using the job map](/images/product/ux/product-design/ux-roadmaps/UX_Theme_JTBD_Scope.png)
 
 The work done on a theme should keep the scope of the deliverables in mind. If the design cannot be implemented within a reasonable timeframe, then the scope of the theme is likely too large and should be reduced. A good guideline is three milestones to implement a UX Theme; One MVC: (feature: addition) followed by two (feature:enhancements) iterations to successfully implement the designs consecutively. There may be instances where a theme will take fewer iterations or even more if it is a more significant back-end change. It is also recommended to complete the entire UX Theme in consecutive milestones. Skipping theme completion or putting future iterations in a backlog should be avoided and should only be done when there is no other option to do so. In all cases, it is recommended to collaborate with your team's stable counterparts to reach a viable solution that continues to deliver value.
 

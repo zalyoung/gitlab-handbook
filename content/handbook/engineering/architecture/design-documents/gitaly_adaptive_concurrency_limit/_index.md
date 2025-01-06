@@ -304,8 +304,8 @@ up-to-date value.
 Fortunately, there are some famous algorithms for this line of problems, mainly
 applied in the world of TCP Congestion Control:
 
-- Vegas Algorithm ([CN: ASA - Chapter 6.4](https://book.systemsapproach.org/congestion/avoidance.html), [Reference implementation](https://Github.com/Netflix/concurrency-limits/blob/master/concurrency-limits-core/src/main/java/com/netflix/concurrency/limits/limit/VegasLimit.java))
-- Gradient Algorithm ([Paper](https://link.springer.com/chapter/10.1007/978-3-642-20798-3_25), [Reference implementation](https://Github.com/Netflix/concurrency-limits/blob/master/concurrency-limits-core/src/main/java/com/netflix/concurrency/limits/limit/Gradient2Limit.java))
+- Vegas Algorithm ([CN: ASA - Chapter 6.4](https://book.systemsapproach.org/congestion/avoidance.html), [Reference implementation](https://github.com/Netflix/concurrency-limits/blob/main/concurrency-limits-core/src/main/java/com/netflix/concurrency/limits/limit/VegasLimit.java))
+- Gradient Algorithm ([Paper](https://link.springer.com/chapter/10.1007/978-3-642-20798-3_25), [Reference implementation](https://github.com/Netflix/concurrency-limits/blob/main/concurrency-limits-core/src/main/java/com/netflix/concurrency/limits/limit/Gradient2Limit.java))
 
 The two algorithms are capable of automatically determining the latency
 threshold without any pre-defined configuration. They are highly efficient and

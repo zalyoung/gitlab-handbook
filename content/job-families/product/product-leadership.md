@@ -155,7 +155,7 @@ The next step in the Product Management Leadership job family is to move to the 
 
 The Senior Director of Product Management - Sec & Data Science is the PM DRI for the Sec and Data Science Sections which include:
 
-- [Sec Section](/handbook/product/categories/#sec-section) - Secure & Govern Stages
+- [Sec Section](/handbook/product/categories/#sec-section) - Secure & Software Supply Chain Security Stages
 - [Data Science Section](/handbook/product/categories/#data-science) - ModelOps & Anti-Abuse Stages
 
 ##### Dev & Analytics

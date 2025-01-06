@@ -27,8 +27,8 @@ The testing strategy for [this level of the pyramid](https://docs.gitlab.com/ee/
 **Merge Request** - The whole QA End-to-End test suite can be run on your MR by triggering manually the `package-and-qa` job.
 
 **Scheduled Pipelines** - [Schedule](/handbook/engineering/infrastructure/test-platform/debugging-qa-test-failures/#qa-test-pipelines).
-Package tests run in various pipelines and we have a few tests tagged as `:blocking`. `:blocking` tests block merge requests on failure and `:smoke` tests block deployments from going further in case of failure.
-Other Package related tests that are not tagged as `:blocking` run when the full suite of tests runs.
+Package tests run in various pipelines and we have a few tests tagged as `:smoke`. `:smoke` tests block deployments from going further in case of failure.
+Other Package related tests that are not tagged as `:smoke` run when the full suite of tests runs.
 
 ### Where are they
 

@@ -5,10 +5,10 @@ description: "Tableau at GitLab"
 
 | Quick Links | Developer Resources  | Communications |
 | ---         | ---        | ---            |
-| [Tableau Cloud - GitLab](https://10az.online.tableau.com/#/site/gitlab/home) | [GitLab Tableau Developer Guide](/handbook/enterprise-data/platform/tableau/tableau-developer-guide/) | [Internal Slack channel](https://app.slack.com/client/T02592416/C03RMCEHVCP)  | 
-| [Tableau eLearning Portal](https://elearning.tableau.com) |  [Tableau Style Guide](/handbook.gitlab.com/handbook/enterprise-data/platform/tableau/tableau-developer-guide/tableau-style-guide/)  | [External Slack channel](https://app.slack.com/client/T02592416/C031QE95QJU)   |
-| [Tableau Customer Portal](https://customer-portal.tableau.com/s/) | [Developer Tips and Tricks](/handbook.gitlab.com/handbook/enterprise-data/platform/tableau/tableau-developer-guide/tips-and-tricks-for-developers/) | |
-| [Tableau Status Page](https://trust.tableau.com) | [Tableau Embedding to Handbook](/handbook/enterprise-data/platform/tableau/embed-demo/) | |
+| [Tableau Cloud - GitLab](https://10az.online.tableau.com/#/site/gitlab/home) | [GitLab Tableau Developer Guide](/handbook/enterprise-data/platform/tableau/tableau-developer-guide/) | [Internal Slack channel](https://app.slack.com/client/T02592416/C03RMCEHVCP)  |
+| [Tableau eLearning Portal](https://elearning.tableau.com) |  [Tableau Style Guide](/handbook/enterprise-data/platform/tableau/tableau-developer-guide/tableau-style-guide/)  | [External Slack channel](https://app.slack.com/client/T02592416/C031QE95QJU)   |
+| [Tableau Customer Portal](https://customer-portal.tableau.com/s/) | [Developer Tips and Tricks](/handbook/enterprise-data/platform/tableau/tableau-developer-guide/tips-and-tricks-for-developers/) | |
+| [Tableau Status Page](https://trust.salesforce.com/) | [Tableau Embedding to Handbook](/handbook/enterprise-data/platform/tableau/embed-demo/) | |
 
 ## Tableau
 
@@ -222,12 +222,6 @@ There are two options for editing or updating content which is in Production:
 1. **Update and Overwrite Original:** This is required for any major changes to a workbook or data source. Changes include replacing or editing a data source, altering or adding logic, custom sql, or calculated fields. This is the preferred option where the developer edits the workbook or data source and save it to the Development folder. It is then reviewed and inspected. After approval it the Project Leader will overwrite it to Production.
 1. **Allow Developer to Edit in Production:** Allow me 48 hours to edit/update access to alter in Production content myself. This is only allowed for small changes such as cosmetic improvements, spelling corrections, small filter changes or urgent issues.
 
-### Tableau Trusted Data Certification
-
-Tableau Workbooks that meet all requirements for [Trusted Data Development](/handbook/enterprise-data/data-development/#trusted-data-development) will receive a `Trusted Data` Certification. The certification is applied by placing a `TD` in the workbook title.
-
-Tableau Data Sources that meet all requirements for [Trusted Data Development](/handbook/enterprise-data/data-development/#trusted-data-development) will receive a `Trusted Data` Certification. The certification is applied using native [Tableau functionality](https://help.tableau.com/current/server/en-us/datasource_certified.htm) and a certified stamp is applied to the data source.
-
 ### Tableau Style Guide
 
 For more guidance on design best practices and resources, please refer to our [Tableau Style Guide](/handbook/enterprise-data/platform/tableau-style-guide/) handbook page.
@@ -296,8 +290,6 @@ Each section below corresponds to a limited access user group and the designated
 
 - **People Restricted Access:** Please work with the People Analytics team and/or Adrian Perez @aperez349 for access approval.
 
-- \***RSA SAFE Access:** This group is for the Revenue Strategy and Analytics team and is restricted because analysis performed are confidential planning efforts that may impact people roles. Please work with the Sales Strategy team and/or Olga Falkenhof @ofalken for access approval.
-
 - \***Sales Development SAFE Access:** Please work with Keith Gliksman @keith.gliksman for access approval.
 
 - \***Self-Service SAFE Access:** - Please work with the Self-Service team and/or Max Fleisher @mfleisher for access approval.
@@ -339,7 +331,7 @@ User Groups are applied at the Project and Sub-Project levels. We have two types
 
 The Administrator User Group and the Access Control User Group can be customized to meet the unique needs and requirements of each Project and Sub-Project on the Tableau site. This allows for flexibility to add or customize security controls on an as-needed basis. The assignment of a User Groups permission rule set for a Project or Sub-Project will be documented and controlled from YAML files maintained in the Tableau Project in the Data Group.
 
-No content is published in the top level Production, and Development Projects. Content is only published in the Sub-Projects under the Top level projects which is a best practice for content, access, and security control. Top level Project (Production and Development) Leaders will always be a member of the Central Data Team's BI Platform team and will need a site role of Creator to function as Project Administrators for publishing content. [Data Champions](/handbook/enterprise-data/direction/data-champion/) will serve as Project Leaders for the Sub-Projects for their respective functional areas. The Sub-Project Leaders will be added to the applicable Administrator and Access Control Groups in order to have the right permissions to lead the Sub-Project.
+No content is published in the top level Production, and Development Projects. Content is only published in the Sub-Projects under the Top level projects which is a best practice for content, access, and security control. Top level Project (Production and Development) Leaders will always be a member of the Central Data Team's BI Platform team and will need a site role of Creator to function as Project Administrators for publishing content. Project Leaders own the Sub-Projects for their respective functional areas. The Project Leaders will be added to the applicable Administrator and Access Control Groups in order to have the right permissions to lead the Sub-Project.
 
 The standard permission rules for top level Projects are noted below:
 
@@ -491,6 +483,8 @@ The Data Team will regularly review users' Tableau activity to determine if user
   - Have accessed a View within the past 90 days
   - Have accessed a Datasource within the past 90 days
 
+In addition to the guidelines above, we typically reserve Creator licenses for team members whose role is primarily Analytics-based (i.e. analysts within functional teams, and/or team members whose core responsibilities include developing reports for their team).
+
 Inactive licenses will be reclaimed quarterly following our [Data Health and Security practices](/handbook/enterprise-data/data-management/#tableau).
 
 **Tracking License Usage**
@@ -501,19 +495,17 @@ Inactive licenses will be reclaimed quarterly following our [Data Health and Sec
 - [Actions by Users](https://10az.online.tableau.com/#/site/gitlab/analysis/ActionsbyAllUsers)
 - [eLearning Usage](https://dashboard.skilljar.com/analytics/) (Admins only)
 
-### Access
+## Access
 
-#### Tableau Cloud Access
+### Tableau Cloud Access
 
 Users can request access by creating an issue in the access requests project using the [Tableau_Request issue template](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/new?issuable_template=Tableau_Request). Follow the instructions in the template to ensure it will be picked up by the Central Data Team for provisioning.
 
 All users will be given access to their Division's sub-project by default. For access to another team's space please submit your request in a [Tableau Project issue](https://gitlab.com/gitlab-data/tableau/-/issues) via the **All Requests** template and tag the designated Lead Approver(s) for that team from the [BIOps Roles and Responsibilities](/handbook/enterprise-data/platform/tableau/#biops-roles-and-responsibilities) section for approval in your issue.
 
-Tableau Creators who use Tableau Desktop will need a [Yubikey](/handbook.gitlab.com/handbook/security/corporate/systems/yubikey/purchasing/#yubikey-5c-nano-fips) set up in Okta to access content published in Tableau Cloud. If you're unsure which one to get, the recommended device is the [YubiKey 5C Nano FIPS](https://www.yubico.com/product/yubikey-5c-nano-fips/). Currently biometrics are not yet supported in Tableau Desktop.
+Tableau Creators who use Tableau Desktop will need a [Yubikey](/handbook/security/corporate/systems/yubikey/purchasing/#yubikey-5c-nano-fips) set up in Okta to access content published in Tableau Cloud. If you're unsure which one to get, the recommended device is the [YubiKey 5C Nano FIPS](https://www.yubico.com/product/yubikey-5c-nano-fips/). Currently biometrics are not yet supported in Tableau Desktop.
 
-Once approved, the BI Platform team will then add the user to the `okta-tableau-users` [Google Group](https://groups.google.com/a/gitlab.com/g/okta-tableau-users), add the user in [Tableau Cloud](https://10az.online.tableau.com/#/site/gitlab/users) and assign the correct license, then add the user to the right [Tableau Group](https://10az.online.tableau.com/#/site/gitlab/groups).
-
-#### Tableau Desktop Access
+### Tableau Desktop Access
 
 Creators with an active license to Tableau Cloud are encouraged to use Tableau Desktop for development. Locally developed Data Sources or Workbooks can later be published to Tableau Cloud. All Creators will be assigned access to Tableau Cloud and Desktop. Tableau Desktop keys are automatically assigned by Tableau Cloud when first connecting.
 
@@ -534,7 +526,7 @@ To update Tableau Desktop to the latest release, follow these steps:
 
 1. **Install the Latest Version:** Run the downloaded installer and follow the on-screen instructions to complete the installation of the latest version of Tableau Desktop.
 
-1. **Uninstall Previous Versions:** To maintain a clean environment and reduce any version conflicts, uninstall any previous versions of Tableau Cloud applications that may still be on your device. This can be done by closing all Tableau Desktop instances, open applications folder, locate previous versions of Tableau Desktop, and then moving them to trash. 
+1. **Uninstall Previous Versions:** To maintain a clean environment and reduce any version conflicts, uninstall any previous versions of Tableau Cloud applications that may still be on your device. This can be done by closing all Tableau Desktop instances, open applications folder, locate previous versions of Tableau Desktop, and then moving them to trash.
 
 </details>
 
@@ -552,7 +544,35 @@ Tableau Cloud allows users to interact with content (that you've created and pub
 
 Fore more details on features offered by each version please see this Tableau article on [Web Authoring and Tableau Desktop Feature Comparison](https://help.tableau.com/current/pro/desktop/en-us/server_desktop_web_edit_differences.htm)
 
-#### Data Source Access: Tableau Cloud
+## Tableau Data Sources
+
+### Tableau Data Source Connection Policy
+
+This policy provides guidance on approved data source connections in Tableau to ensure data consistency, security, and support across all dashboards.
+
+1. **Primary Data Source:** Snowflake
+
+    - **Role:** Snowflake is the main data source, housing core business logic and transformed data. All data requiring transformations or business rules must originate from Snowflake.
+    - **Support:** The Tableau Admin team fully supports Snowflake connections in Tableau.
+
+2. **Additional Approved Data Sources**
+
+    - **Permitted Sources:** Google Sheets, Google Drive, Excel are permitted for external data that doesn’t duplicate Snowflake data.
+    - **Support:** The Tableau Admin team will provide support for the listed permitted connections in Tableau.
+    - **Policy Compliance:** The connection must meet policy guidelines, avoiding duplication of Snowflake data and excluding additional business logic or transformations that belong in the warehouse pipeline.
+
+3. **Additional Data Connections and Available Connectors**
+
+    Tableau provides a wide range of [Supported Connectors](https://help.tableau.com/current/pro/desktop/en-us/exampleconnections_overview.htm) and [Tableau Exchange Connectors](https://exchange.tableau.com/connectors). Generally, all data should be routed through the approved data pipeline. However, direct connections to alternate data sources are permitted in specific cases, such as when data does not require merging with business logic, and a direct connection provides efficiency and quicker time implementation.
+
+    These direct connections may only be used under the following policy:
+
+   - **Approvals:** The connection must be approved by the Data Team and source system business and technical owner. Start a new request [here](https://gitlab.com/gitlab-data/tableau/-/issues/new?issuable_template=Standard%20Data%20Team%20Issue).
+   - **Security:** The connection must be secure. A security audit may be required.
+   - **Policy Compliance:** The connection must meet policy guidelines, avoiding duplication of Snowflake data and excluding additional business logic or transformations that belong in the warehouse pipeline.
+   - **Data Privacy and Governance:** Data access should be restricted as necessary to protect sensitive information, such as PII and MNPI. Coordinate with the Tableau Admin Team to ensure proper data security and privacy measures are in place.
+
+### Data Source Access: **Tableau Cloud**
 
 Please refer to this [Connecting to Data in Tableau Guide](https://docs.google.com/document/d/17DdnVs_KrCw7ic5eJRj7D0i5x5WjfNtYRLGAozdjzSo/edit) for more details.
 
@@ -593,7 +613,7 @@ In order to use the Snowflake connector, you must have a Snowflake account assig
 
 </details>
 
-#### Data Source Access: Tableau Desktop or Tableau Prep Builder
+### Data Source Access: **Tableau Desktop or Tableau Prep Builder**
 
 *Important:* In order to connect Tableau Desktop to Tableau Cloud, you need to set up a Yubikey in Okta. Fingerprints will not work. Please see the [Tableau Cloud Access](/handbook/enterprise-data/platform/tableau/#tableau-online-access) section above for more details on how to order a Yubikey.
 
@@ -630,28 +650,101 @@ In order to use the Snowflake connector, you must have a Snowflake account assig
 
 </details>
 
+### Snowflake OAuth Data Source Connection Expiration Period
+
+Snowflake credentials in Tableau data sources are valid for 90 days. They reset automatically whenever new content is published to Snowflake-connected workbooks or data sources. However, if no publishing occurs within 90 days, the credentials will expire, requiring manual reauthentication. Click the below drop down for the process to update the OAuth Credentials:
+
+<details markdown=1>
+
+<summary><b>Updating Your Snowflake Credentials in Tableau
+</b></summary>
+
+1. Access Account Settings:
+   - Log in to Tableau.
+   - Click your profile icon in the top-right corner of the screen.
+   - Select Account Settings from the dropdown menu.
+
+1. Locate Snowflake Credentials:
+   - Scroll down to the Snowflake section to view your current credentials.
+
+1. Test Each Entry:
+   - For each Snowflake entry listed, click Test.
+   - If the test fails, proceed to the next step.
+
+1. Remove and Re-add Credentials:
+   - Delete the failed Snowflake entry by clicking Delete.
+   - Click Add to re-add your credentials.
+
+1. Re-add Credentials:
+   - Select OAuth Credential as the authentication method.
+   - Enter the Snowflake Server under OAuth instance.
+   - Leave the Role field blank.
+
+1. Complete Authorization:
+   - A new window will pop up.
+   - Click Single Sign-On (SSO)
+   - Click Authorize to complete the process.
+
+1. Repeat for All Accounts:
+   - Perform these steps for each Snowflake account you have set up.
+
+By following these steps, you’ll ensure that your Snowflake OAuth tokens are updated and prevent credential expiration from impacting your Tableau workflows.
+
+</details>
+
+### Tableau Certified Data Sources
+
+Certified data sources ensure trusted, high-quality, and efficient data for the organization. Approved by a Tableau Admin through an [issue submission](https://gitlab.com/gitlab-data/tableau/-/issues/new?issuable_template=Certify%2Tableau%20Data%20Source), these sources receive a Certified badge and an appended " - Certified" name for visibility and searchability. The certification signals that the data source has been rigorously reviewed for accuracy and compliance, providing users confidence to build reliable reports.
+
+Certified data sources are designed to be the most commonly used single sources of truth, aligned with the [GitLab Data Development](/handbook/enterprise-data/data-development/) lifecycle. They are broad, reusable, and versatile, capable of addressing a wide range of analytical needs. A typical department may maintain 2–12 certified data sources, serving as the primary resources for high-quality and efficient development. Departments retain ownership of these sources, with Project Leaders actively overseeing their maintenance to ensure they remain reliable, foundational tools for the organization.  To avoid overly complex, multifunctional data sources, multiple Certified, fit-for-purpose data sources are invited.
+
+As the primary resource for analysts, certified data sources streamline onboarding, training, and updates while reducing duplication and promoting consistency. By focusing on quality and reliability, they simplify decision-making and solidify their role as essential components of the organization’s data ecosystem.
+
+Recommend we allow best in class BI standards, plus modeling standards, fit for purpose approaches to use cases, and usability for the end users driving the build.
+
+#### Tableau Certified Data Source Policy
+
+All certified data sources must meet the following criteria:
+
+1. **Data Accuracy and Quality**: Data must be validated against source systems to ensure accuracy while leveraging and inheriting the quality standards established by the Enterprise Data Model (EDM). Additionally, Tableau relationships and joins, filters, and calculated fields should be reviewed for correctness and consistency. Key metrics and calculations must be verified not only for consistency with source systems but also for alignment with the EDM’s defined structures and principles.
+1. **Documentation**: Tableau Data Source should contain the following where it can be picked up by the Data Dictionary:
+   - **Descriptive Name**: Clear and user-friendly
+   - **Description**: Include purpose, data grain, and DRI ownership
+1. **Performance**: Data should load in a reasonable amount of time. Queries should be efficient and optimized for extracts or live connections.
+1. **Data Security and Compliance**: Data should adhere to data security, privacy, and governance policies including [SAFE](/handbook/enterprise-data/platform/safe-data/) access. Ensure restricted content is published to the appropriate project folder with row-level security applied where necessary to safeguard sensitive data.
+1. **Custom SQL in Data Sources**: Data sources that use custom SQL may be certified if the custom SQL is being used for specific use cases, including: Row-level security, custom parameters such as query size limit filtering, and complex joins. Including custom SQL to apply business logic (i.e. alter calculations or conditions) will block a Tableau data source from being certified. This is because we aim to keep business logic within the transformation/data warehouse layer so that it is under source control, can be easily contributed to via an MR, and produces the same results across both the data warehouse & the BI layer.
+1. **Field Naming and Formatting**:
+   - Use intuitive names (e.g., “Transaction Date” instead of “txn_dt”)
+   - Avoid Redundancy: Eliminate prefixes/suffixes that repeat context already provided (e.g., “Region” instead of “Sales_Region_Region”).
+   - Hierarchical Data: Use Tableau levels for hierarchies (e.g., Country → State → City) to enable drill-down functionality.
+   - Consistent Case and Spacing: Use proper case and spaces instead of underscores (e.g., “Customer Name” instead of “customer_name”).
+   - Ensure correct data types and formatting:
+       - Dates: Convert dates to ISO:`yyyy/mm/dd` or change datetime to date when time precision isn’t required.
+       - Numbers: Format as currency or decimal where needed.
+       - Percentages: Apply proper '%' formatting at desired decimal level.
+
 ## Education
 
 GitLab team members who realize the full potential of analytical insights can do powerful things with data. But having a platform like Tableau and access to data isn't enough; we need to assure that our users are prepared to use Tableau effectively.
 
-<details markdown=1>
+### Official Training Resources
 
-<summary><b>Official Training Resources</b></summary>
+- [Free Tableau Training](https://www.tableau.com/learn/training)
+- [Tableau eLearning - Training Portal](https://elearning.tableau.com/): eLearning from Tableau is available for users with the Creator or Explorer license type
+  - Tableau eLearning access steps
+    1. Go to [explorer-elearning.tableau.com](https://explorer-elearning.tableau.com)
+    1. Create (or login to) your TableauID account
+    1. Confirm your email address via the TableauID confirmation email
+    1. Go to https://explorer-elearning.tableau.com and log on using your TableauID
+    1. Register at the Tableau Learning Center with the Access Code available [here](https://docs.google.com/document/d/1UPvTXZD3wgRpt7m_Hz9D53ZIt2hF7suHi6oggjbQa2I/edit?tab=t.0).
+    1. Start using eLearning by clicking on a Course or Learning Path.
+    1. Return to https://explorer-elearning.tableau.com to continue using Tableau eLearning.
 
-- [Free Training](https://www.tableau.com/learn/training)
-- [Training Portal](https://elearning.tableau.com/)
-  - eLearning from Tableau is available for users with the Creator or Explorer license type
-  - Request Access Code from Data Team. The BI Platform team will share the Access Code via email.
-  - New Creators without prior Tableau experience should complete the Tableau Fundamentals training course at the minimum. Tableau Intermediate is also recommended as a follow up course.
   - If you experience any issues accessing the training content, check [this page](https://support.skilljar.com/hc/en-us/articles/360033553054) for solutions to the most common problems.
 - [Tableau Community](https://community.tableau.com/s/)
 - [Tableau Support](https://www.tableau.com/support)
-- [Tableau Classroom training](https://www.tableau.com/learn/classroom/course-catalog) & [Training Pass](https://www.tableau.com/tableau-training-pass)
+- [Tableau Classroom training](https://trailheadacademy.salesforce.com/products/tableau#f-products=Tableau) & [Training Pass](https://www.tableau.com/learn/training/elearning)
   - These could be options for you to use as part of your [growth and development benefit](/handbook/people-group/learning-and-development/growth-and-development/). Bring this up with your manager during your [career development conversations](/handbook/people-group/learning-and-development/career-development/#what-is-career-development).
-
-</details>
-
-<details markdown=1>
 
 <summary><b>Third Party Training Resources</b></summary>
 
@@ -665,9 +758,9 @@ Note: training videos listed above are provided for free by third parties and th
 
 <details markdown=1>
 
-<summary><b>Minimum Training</b></summary>
+<summary><b>Recommended Training</b></summary>
 
-Below is the *minimum* recommended training course(s) and required time estimation for the following roles based on their responsibilities and required skill sets. For the full list of courses and learning paths please see our handbook section under Training by Roles:
+Below is the recommended training course(s) and required time estimation for the following roles based on their responsibilities and required skill sets. For the full list of courses and learning paths please see our handbook section under Training by Roles:
 
 Site Administrator
 
@@ -751,32 +844,6 @@ Tableau offers several [certifications](https://www.tableau.com/learn/certificat
 
 </details>
 
-### E-learning Access Instructions
-
-#### Explorer
-
-Explorer: Below are your instructions on how to access eLearning for Explorer.
-
-1. Go to [explorer-elearning.tableau.com](https://explorer-elearning.tableau.com)
-2. Create (or login to) your TableauID account
-3. Confirm your email address via the TableauID confirmation email
-4. Go to https://explorer-elearning.tableau.com and log on using your TableauID
-5. Register at the Tableau Learning Center with Access Code: This should have been DM'd to you by your Tableau provisioner, if not please Slack the provisioner directly
-6. Start using eLearning by clicking on a Course or Learning Path.
-7. Return to https://explorer-elearning.tableau.com to continue using Tableau eLearning.
-
-#### Creator
-
-Creator: Below are your instructions on how to access eLearning for Creator.
-
-1. Go to https://elearning.tableau.com
-2. Create (or login to) your TableauID account
-3. Confirm your email address via the TableauID confirmation email
-4. Go to https://elearning.tableau.com and log on using your TableauID
-5. Register at the Tableau Learning Center with this Access Code: This should have been DM'd to you by your Tableau provisioner, if not please Slack the provisioner directly
-6. Start using eLearning by clicking on a Course or Learning Path.
-7. Return to https://elearning.tableau.com to continue using Tableau eLearning.
-
 ## Support
 
 In addition to the proactive steps we've taken with self-service help resources and education initiatives, we want to provide our user community with the support they need in case these two approaches do not answer their question or resolve the issue.
@@ -841,4 +908,19 @@ Because Tableau is integrated with our enterprise architecture, including hardwa
 
 ### Tableau Cloud Status
 
-To check the current status of Tableau Cloud and if there are any reported outages, visit the [Tableau Status Page](https://trust.tableau.com). On that page you can also sign up for notifications in the event of an outage. For reference, GitLab's Tableau Cloud instance is located in `United States - West - (10AZ)`.
+To check the current status of Tableau Cloud and if there are any reported outages, visit the [Tableau Status Page](https://trust.salesforce.com/). On that page you can also sign up for notifications in the event of an outage. For reference, GitLab's Tableau Cloud instance is located in `United States - West - (10AZ)`.
+
+## View Performance
+
+Apdex is a standard measure of load performance. It is calculated by classifying each load event into one of three categories: Satisfied, Tolerating, Frustrated. It is based on two duration parameters: Target Time and Tolerable Time.
+
+We use a target time of 5 seconds and follow the recommendation that the Tolerable time be four times that, 20 seconds.
+
+The index itself is a weighted average, values range between 0 and 1, of the count of loads in each category which is then classified into five ratings: Excellent, Good, Fair, Poor, Unacceptable.
+
+| Apdex Value Range | Rating |
+| 0.94 to 1.00 | Excellent |
+| 0.85 to 0.93 | Good |
+| 0.70 to 0.84 | Fair |
+| 0.50 to 0.69 | Poor |
+| 0.00 to 0.49 | Unacceptable |

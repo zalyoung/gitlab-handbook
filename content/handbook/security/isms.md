@@ -130,7 +130,7 @@ GitLab monitors, measures, and improves security controls through various contin
 
 GitLab is committed to continually improving the suitability, adequacy and effectiveness of the ISMS.
 
-As part of GitLab's tier 2 security operational risk program, each risk identified and triaged through the StORM program is required to undergo a [risk response decision]({{< ref "storm-program#risk-response" >}}). This is an activity that will be discussed with each individual risk owner for the risks that they own. Additionally, GitLab identifies and monitors tier 3 risks, also referred to as observations, as per the [Observation Management Procedure]({{< ref "observation-remediation-procedure" >}}).
+As part of GitLab's tier 2 security operational risk program, each risk identified and triaged through the StORM program is required to undergo a [risk response decision]({{< ref "storm-program#risk-response" >}}). This is an activity that will be discussed with each individual risk owner for the risks that they own. Additionally, GitLab identifies and monitors tier 3 risks, also referred to as observations, as per the [Observation Management Procedure]({{< ref "observation-management-procedure" >}}).
 
 ## Exceptions
 

@@ -20,7 +20,7 @@
 
 {{ range $k, $v :=  .groups }}
 
-#### {{ $stage_name }}: {{ .name }} Group
+#### {{ $stage_name }}: {{ .name }} Group {#{{ .name | urlize }}}
 
 {{ partial "categories/section-heading" . }}
 

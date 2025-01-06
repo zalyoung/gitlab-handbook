@@ -58,7 +58,7 @@ In order to make the most of the internship, it's expected for the intern to do 
    1. [Git-ing started with Git](https://www.youtube.com/watch?v=Ce5nz5n41z4)
    1. [Start using Git on the command line](https://docs.gitlab.com/ee/gitlab-basics/start-using-git.html)
    1. [Learn Git Branching](https://learngitbranching.js.org/)
-   1. GitLab Flow ([video](https://www.youtube.com/watch?v=InKNIvky2KE) and [documentation](https://about.gitlab.com/blog/2023/07/27/gitlab-flow-duo/))
+   1. GitLab Flow ([video](https://www.youtube.com/watch?v=InKNIvky2KE) and [documentation](https://about.gitlab.com/blog/2023/07/27/gitlab-flow-duo/)/)
 
 #### Week 2
 
@@ -156,8 +156,8 @@ In order to make the most of the internship, it's expected for the intern to do 
 #### Week 8
 
 1. Shadow other CSMs on customer calls, team calls, & account team calls,  helping with follow ups and questions as needed
-1. Review one stage of the DevSecOps lifecycle in depth every week: Secure & Govern
-   1. Read through the [Govern Product Categories](https://about.gitlab.com/stages-devops-lifecycle/govern/)
+1. Review one stage of the DevSecOps lifecycle in depth every week: Secure & Software Supply Chain Security
+   1. Read through the [Software Supply Chain Security Product Categories](https://about.gitlab.com/stages-devops-lifecycle/govern/)
    1. Continue working on the [GitLab Certified Security Specialist Learning Path](https://levelup.gitlab.com/learning-paths/certified-security-specialist-learning-path) (lessons 6-10 in GitLab Security Essentials)
    1. Be prepared to discuss with your mentor:
       1. Any modules/topics you struggled with understanding in the learning path

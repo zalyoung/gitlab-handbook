@@ -204,6 +204,7 @@ If you are relocating away from a location with PEO Employment, you must give no
 
 1. Run the [Add Employee integration](https://internal.gitlab.com/handbook/people-group/people-operations/people-connect/onboarding_process/#steps-to-run-the-lawlogix-integration-in-workday) from Workday to LawLogix in order to intiate the I-9 process for the team member moving at least 5 days before the relocation.
 1. [Place team member in the appropriate benefit group](https://docs.google.com/document/d/1MuRjPnvK9PZI2kk58jHnMgC3iUQCzp7xdjsfQpJT37k/edit) in Workday on the effective date
+1. While creating the contract, please remove the summary page as it is not needed for relocating team members. 
 
 ##### Relocating **From** The United States
 
@@ -282,7 +283,6 @@ Once the contract or Mutual Termination Agreement (MTA) has been created by the 
     - Start Date: *add effective date of relocation*
     - Add this line underneath the start date at the top: "Continuous Service Date: *add original hire date*"
     - Add this sentence to the section above 1. Position: "Your continuity of service for all employment purposes begins on the *add original hire date: YYYY-MM-DD*"
-1. The People Connect Team member sets a reminder to update the PTO policy in BambooHR on the effective date of the relocation. The new PTO policy should start without a previous balance, adjust the balance if required. Click on +/- by hovering over the 'Employee Accruals' in the top left. Add or subtract the amount of days to 0 it out. Add a note: "Adjustment due to Relocation from COUNTRY to COUNTRY"
 
 #### South Korea, France or Singapore
 
@@ -290,6 +290,13 @@ Once the contract or Mutual Termination Agreement (MTA) has been created by the 
 
 1. The People Connect Lead shares the relocation contract with gitlabHRSS@globalupside.com. Global Upside then sends an Egnyte (payroll platform) login invitation email to the relocating team member. If they are relocating to France an invite to Mihi will also be sent.
 1. [France requires contracts to be individually drafted by the Legal team.](/handbook/hiring/talent-acquisition-framework/ces-contract-processes/#process-for-gitlab-team-members-in-singapore-south-korea-or-france)
+
+1. If a team member relocating to France is an expatriate who has not been a French tax resident for the 5 calendar years before the calendar year during which they relocate, and they wish to assess their eligibility for the impatriate tax regime, they must let People Connect know three months in advance that they will be undertaking the assessment. The People Connect team can reach out to legal-employment@gitlab.com for support with appropriate contract language once the relocating team member confirms their eligibility. *Note that eligibility is a complex tax matter and the relocating team member should check with their personal tax advisor.*
+
+##### Relocating **from** France
+
+1. The relocating team member needs to resign from GitLab France S.A.S. with a notice date effective one day before the start date of their new contract. Please email the resignation letter to legal-employment@gitlab.com and also [upload the resignation letter to your Workday profile](https://docs.google.com/document/d/19B0lsMu7dMhof1ghPuBxHP23DuDqi2qpWF8pCWyEUN4/edit?tab=t.0). This is required to process your exit in France while you are simultaneously onboarded in the new country.
+1. Once the resignation letter has been emailed to legal-employment@gitlab.com and uploaded to Workday, the People Connect team member will share [this letter](https://docs.google.com/document/d/1wgbt9vK4w-aQEgjDzdOs94t9XOZuiJmPWj6BvlSl7rY/edit?usp=sharing) with the team member relocating away from France for e-signature via DocuSign as soon as possible (and at least within 7 days) in order to waive the balance of the notice period and address any additional matters. Once signed, the People Connect team member will uplaod the letter to the team member's 'Contracts & Changes' Workday folder.
 
 ## Reporting for Relocations
 

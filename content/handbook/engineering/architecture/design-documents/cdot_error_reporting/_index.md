@@ -94,12 +94,11 @@ The status column stores the state of the error encountered.
 
 ```mermaid
 flowchart TD
-    A[Error encounterd] -->|Save it in database| B(State - open)
-    B --> |Nothing needs to be done| D[Resolved]
-    B --> E[State - Needs attention]
-    E --> |Needs to look into the error| C[Create/Link GitLab Issue, optional]
-    C --> |Issue being worked on| F[State - In Progress]
-    F --> |Issue Closed| D
+    A[Error encounterd] -->|Save it in database| B(State - Needs Attention)
+    B --> |Nothing needs to be done| D[Ignored]
+    B --> |Error being looked into| F[State - In Progress]
+    F --> C[Create/Link GitLab Issue, optional]
+    F --> |Issue Closed| G[State - Resolved]
 ```
 
 ### Workflow

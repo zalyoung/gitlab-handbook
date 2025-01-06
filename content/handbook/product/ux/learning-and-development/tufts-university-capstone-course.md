@@ -34,7 +34,7 @@ Following the end of the semester, the project lead solicits feedback from volun
 
 ## How to volunteer
 
-If you're interested in volunteering for the Spring 2025 semester, you should complete the following **by Monday, November 18th, 2024**:
+If you're interested in volunteering for the Spring 2025 semester:
 
 1. Reach out to your manager for awareness and to discuss how participation might impact your capacity.
 1. Add yourself to the [list of volunteers](https://gitlab.com/gitlab-com/Product/-/issues/13669#raised_back_of_hand-volunteers).

@@ -146,7 +146,7 @@ This is to check the content of an email sent:
 1. Follow the steps from the section [Checking Mailgun logs](#checking-mailgun-logs) to locate an email in Mailgun - The email subject must be "Verify your identity".
 1. Access the log details by clicking on the dented wheel icon at the right end of the log entry.
 1. In the log details, go to the third tab named "quick view" to display the full email.
-![Mailgun_email_body](../assets/Mailgun_email_body.png)
+![Mailgun_email_body](/images/support/assets/Mailgun_email_body.png)
 
 To resend an email:
 
@@ -154,7 +154,7 @@ To resend an email:
 
 1. On the dented wheel icon at the right end of the log entry, click on the "Resend message" button.
 1. From there you can enter an email address and press "Send".
-![Mailgun_resend_email](../assets/Mailgun_resend_email.png)
+![Mailgun_resend_email](/images/support/assets/Mailgun_resend_email.png)
 
 ### Identifying Multiple Suppressions on a Single Domain
 
@@ -168,3 +168,15 @@ Mailgun does not allow us to check for multiple suppressions on the same domain 
 1. Add a filter for `Event is Permanent Fail`.
 1. Scan the results, any email address listed with a `Delivery Status Message` of  `Not delivering to previously bounced address` has been suppressed at one point in time.
 1. Navigate to the `Suppressions` tab and enter in an email address from your previous search to confirm whether or not it's currently suppressed.
+
+### Password reset on behalf of a user
+
+When a user (free or paid) forgot the primary email of their account we are not able to disclose this information but we can send a password reset email on their behalf:
+
+1. Take note of the primary email address of the account.
+1. Open an incognito window.
+1. Go to https://gitlab.com/users/password/new
+1. Trigger the password reset with the user primary email address.
+1. Optional - Go to Mailgun and check the email is delivered before going back to the user with the following:
+
+> Due to our privacy policies I am unable to reveal what the primary email address is. That being said we have triggered a password reset for the account <username> just now, if you have access to the primary email address for this account you should see an email and be able to perform the password reset steps.

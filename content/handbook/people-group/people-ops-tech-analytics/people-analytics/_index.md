@@ -76,7 +76,7 @@ It is not necessary to have a large suite of tools in order to be an effective P
 
 ## General People Analytics Resources
 
-- [Wharton People Analytics](https://analytics.wharton.upenn.edu/programs/wharton-people-analytics/) - Wharton hosts an annual People Analytics Conference and dedicates a lot of effort to research in this space.
+- [Wharton People Analytics](https://wpa.wharton.upenn.edu/) - Wharton hosts an annual People Analytics Conference and dedicates a lot of effort to research in this space.
 - [AIHR](https://www.aihr.com/blog/people-analytics-resource-library/) - AIHR is generally a good resource for HR and they have resources specific to People Analytics as well.
-- [HR Predictive Analytics](https://www.koganpage.com/product/predictive-hr-analytics-9780749484446) - A textbook that walks through People Analytics concepts and specific examples (with code!).
+- [HR Predictive Analytics](https://www.koganpage.com/hr-learning-development/predictive-hr-analytics-9781398615656) - A textbook that walks through People Analytics concepts and specific examples (with code!).
 - [re:Work](https://rework.withgoogle.com/en/subjects/people-analytics) - While not updated in some time, this is a great introductory resource created by Google to help teams get started with People Analytics.

@@ -36,15 +36,92 @@ More information about can be found in the [Security Products test projects repo
 
 ### Testing on OpenShift
 
-We currently do not have automated tests for OpenShift. If you want to see how a change affects the analyzer behavior on OpenShift,
-you can test it by setting up an OpenShift environment by following the [steps listed here](https://gitlab.com/gitlab-org/quality/quality-engineering/team-tasks/-/issues/745#note_468404882).
+We currently do not have automated tests for OpenShift. If you want to see how a change affects the analyzer behavior on OpenShift, you can test it by setting up an OpenShift environment. You can setup an OpenShift cluster following the steps below assuming that you already have access to the [GitLab Sandbox Cloud](https://gitlabsandbox.cloud/).
 
-If there is not an existing test project for the feature which you would like to test, then it is recommended
-to mirror an existing test repository on GitLab.com. To do this, go to **New Project** -> **Import Project** -> **Repo by URL**
-and paste the Git repository URL of the repository that you would like to mirror. Enable the **Mirror repository**
-checkbox so that updates to the test respository on GitLab.com will be automatically synced to the OpenShift instance.
-Set the project visibility to **public** so that any links that you leave to these projects on your merge requests
-are visible to others.
+1. Login to https://gitlabsandbox.cloud/.
+1. Create an AWS sandbox account and login to the AWS console by following steps `1` to `3` from [Static Analysis Group EC2 development machine setup guide](/handbook/engineering/development/sec/secure/static-analysis/ec2_dev_environment_setup/#static-analysis-group-ec2-development-machine-setup-guide).
+1. Once you are logged into the AWS console, you can search for "OpenShift" in the search field in the upper left corner, which should show `Red Hat OpenShift Service on AWS` under the Services category. ROSA provides an integrated OpenShift experience with AWS. Click on this search result to proceed.
 
-Once you have finished creating the project, go to **CI/CD** -> **Pipelines** and click the **Run Pipeline** button
-in order to start a new pipeline. The job will be picked up by OpenShift runners installed on the instance. Optionally, you can set an env var for the analyzer image (e.g. `SAST_ANALYER_IMAGE`) set to a tmp image built on a branch on gitlab.com to pull in changes and iterations.
+   ![openshift-service-on-aws-search-results](/images/handbook/engineering/development/sec/secure/openshift/openshift-service-on-aws-search-results.png)
+
+1. You are redirected to the `Red Hat OpenShift Service on AWS (ROSA)` landing page. Click on the `Get started` link in the left sidebar, or the `Get started` orange button.
+
+   ![openshift-service-on-aws-landing-page](/images/handbook/engineering/development/sec/secure/openshift/openshift-service-on-aws-landing-page.png)
+
+1. You will then be redirected to the `Verify ROSA prerequisites` page:
+
+   ![verify-rosa-prerequisites](/images/handbook/engineering/development/sec/secure/openshift/verify-rosa-prerequisites.png)
+
+   Click on the `Enable ROSA HCP and ROSA classic` button in the `ROSA enablement` section, and keep the box `I agree to share my AWS account number...` checked. The `ROSA enablement` section will then explain `Your request to enable ROSA is pending and may take several minutes to resolve. We recommend keeping this page open so that you can review any errors.`
+
+1. After a few minutes, the `ROSA enablement` section will be updated and display the following messages:
+
+   * `You have agreed to share your AWS account number and email address with red hat.`
+   * `You have enabled ROSA and HCP and ROSA classic.`
+
+   ![rosa-enabled](/images/handbook/engineering/development/sec/secure/openshift/rosa-enabled.png)
+
+1. Click on the `Continue to Red Hat` orange button in the bottom right corner. This will redirect you to https://sso.redhat.com and request you to `Log in to your Red Hat account`:
+
+   ![login-to-your-redhat-account](/images/handbook/engineering/development/sec/secure/openshift/login-to-your-redhat-account.png)
+
+1. Click on `Log in with Google` and use your `gitlab.com` gmail account. You will be redirected to the `Register for a Red Hat account` page:
+
+   ![register-for-red-hat-account](/images/handbook/engineering/development/sec/secure/openshift/register-for-red-hat-account.png)
+
+   Complete the required fields, using your `gitlab.com` gmail account for the `Email address`, then click on `Create my account`.
+
+1. You should now be redirected to a page to `Complete your account connection`. Check the `I have read and agreed to the terms and conditions` checkbox, then click on the `Connect accounts` button:
+
+   ![complete-your-account-connection](/images/handbook/engineering/development/sec/secure/openshift/complete-your-account-connection.png)
+
+1. You'll then be redirected to another page explaining `We need a little more information`. Complete the required fields, using your `gitlab.com` gmail account for the `Email address`, and select `Personal` for `Account type`:
+
+   ![we-need-a-little-more-information](/images/handbook/engineering/development/sec/secure/openshift/we-need-a-little-more-information.png)
+
+1. The `Terms and conditions` box will now be displayed, click on `View Terms and Conditions` and accept them:
+
+   ![terms-and-conditions](/images/handbook/engineering/development/sec/secure/openshift/terms-and-conditions.png)
+
+1. You'll now be redirected to the [Red Hat Hybrid Cloud Console Overview](https://console.redhat.com/openshift/overview) screen, and can set up an OpenShift cluster by clicking the `Create cluster` in the `Red Hat OpenShift Service on AWS (ROSA)` dialog box:
+
+   ![redhat-overview](/images/handbook/engineering/development/sec/secure/openshift/redhat-overview.png)
+
+    If you are only planning to use the cluster for testing, it is recommended to select the `OSD Trial` with a free trial period of 2 months. After this period, the cluster will be deleted. The free trial enables you to upgrade to a paid tier within time frame of two months.
+
+1. Once the cluster is set up, we have to create a user to login to the OpenShift cluster; you can select `Cluster List > <your cluster>` and select `htpasswd` for `Identity Provider`. Under `Cluster Roles and Access` you can create the user for accessing the OpenShift cluster. Make sure that this user belongs to the groups `dedicated-admin` and `cluster-admins`.
+1. Afterwards you can click on the `Open console` button and login with the cluster admin user you created in the previous step.
+1. Once you are logged into the OpenShift cluster, you can now install the GitLab Runner Operator by selecting `Operators > Operator Hub`. You can search GitLab Runner, click on the search result and then click on the `Install` button as explained [here](https://docs.gitlab.com/runner/install/operator.html).
+1. In order to set up the runner in the OpenShift cluster, you can follow the instructions that are included in the [README of the operator](https://gitlab.com/gitlab-org/gl-openshift/gitlab-runner-operator/-/blob/5f1134143f1b73171a7bb90d48b1fec948360db8/operator.yaml#L380).
+
+   Note that the [runner token](https://gitlab.com/gitlab-org/gl-openshift/gitlab-runner-operator/-/blob/master/README.md?plain=1#L43) referenced in the `gitlab-runner-operator README.md` can be obtained by selecting `CI/CD Settings > Runners > New Runner` from a GitLab project.
+
+   The runner setup requires the command line tool [`oc` (OpenShift client) to be installed](https://docs.redhat.com/en/documentation/red_hat_build_of_microshift/4.12/html/cli_tools/microshift-oc-cli-install#cli-installing-cli_cli-oc-installing). Before using `oc` you have to authenticate against your cluster. You can find the authentication credentials by clicking on your OpenShift cluster admin user name and then selecting `Copy login comand`. Note, that the default runner setup allows containers to be executed with root privileges. In order to restrict access to non root users, you can provide the configuration below:
+
+    ```toml
+    [[runners]]
+    name = "gitlab-runner"
+    url = "https://gitlab.com"
+    executor = "kubernetes"
+    [runners.kubernetes]
+        [runners.kubernetes.pod_security_context]
+        run_as_non_root = true
+        run_as_user = 1000
+    ```
+
+   After applying this configuration with `oc create configmap my-runner-config --from-file=config.toml`, you can update the runner config as illustrated below and apply it with `oc appy -f gitlab-runner.yml`.
+
+    ```yaml
+    apiVersion: apps.gitlab.com/v1beta2
+    kind: Runner
+    metadata:
+      name: gitlab-runner
+    spec:
+      gitlabUrl: https://gitlab.com
+      buildImage: alpine
+      token: gitlab-runner-secret
+      tags: openshift
+      config: my-runner-config
+    ```
+
+1. The OpenShift runner should now appear green in your GitLab project settings `CI/CD Settings > Runners`.

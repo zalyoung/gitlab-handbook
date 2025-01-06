@@ -195,6 +195,10 @@ The tests will now look like this:
         - npm install -g jest
       script:
         - jest --ci --testResultsProcessor=jest-junit binarysearch.test.js
+      artifacts:
+        when: always
+        reports:
+          junit: junit.xml
       cache:
         key: $CI_COMMIT_REF_SLUG
         paths:
@@ -231,4 +235,4 @@ You have completed this lab exercise. You can view the other [lab guides for thi
 
 ## Suggestions?
 
-If you wish to make a change to the *Hands-On Guide for GitLab CI/CD*, please submit your changes via Merge Request!
+If you wish to make a change to the *Hands-On Guide for GitLab Advanced CI/CD*, please submit your changes via Merge Request!

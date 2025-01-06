@@ -7,7 +7,7 @@ Business Value Services is a practice and approach that allows the GitLab deal t
 - Focus on customer challenges and required GitLab DevSecOps capabilities to address these challenges
 - Quantify value of the GitLab solution with performance improvements and measurable business outcomes
 
-The practice starts from the first conversation at the discovery and scoping stages. The output of the business value discussion can be a Return on Investment (ROI) and Total Cost of Ownership (TCO) document, also known as a **Business Value Assessment**. This allows the team to:
+The practice starts from the first conversation at the discovery and scoping stages. The output of the business value discussion can consist of the Return on Invesment (ROI), Total Cost of Ownership (TCO), Cost of Inaction, and other quantified & qualified benefits and outcomes, all of which constitutes the **Business Case**. This allows the team to:
 
 - Drive value discussion to address challenges, support organizational goals and vision
 - Expand the customer reach and engage right stakeholders
@@ -18,18 +18,17 @@ The practice starts from the first conversation at the discovery and scoping sta
 
 ## Why Business Value Discussion
 
-Derisking a customer's buying decision by incorporating the business value discussion and exercise into the customer engagement is important. GitLab provides a comprehensive AI-powered DevSecOps platform that provides the software delivery solution with high impacts on business, technology and teams across the organization.
-Organizations need to make their strategic investment in DevSecOps with demonstrable ROI and path to value realization.
+Derisking a customer's buying decision by incorporating the business value discussion and exercise into the customer engagement is important. GitLab provides a comprehensive AI-powered DevSecOps platform that provides the software delivery solution with high impacts on business, technology and teams across the organization. Organizations need to make their strategic investment in DevSecOps with demonstrable ROI and path to value realization.
 
 Often times, the business value conversation started with the customers wanting to understand more value proposition and business outcomes. GitLab as the industry leader in DevSecOps can provide referencable customer journey and quantitiative measures. SAs can provide the consultative advices to identify transformational drivers for the organizations and help measure the results of DevSecOps transformation as the performance improvement.
 
-## Utilizing the Business Value Services tool to create Business Value Assessments (BVAs)
+## Utilizing the Business Value Platform to create Business Cases
 
-GitLab's Business Value Services tool is a platform integrated into Salesforce that takes GitLab’s proprietary ROI modeling and provides a scalable, consistent way for AEs to build business cases and demonstrate ROI in customer conversations. It also allows them to tailor these generated business cases and proposals to their customers as well as to GitLab’s value framework and Command of Message methodology. The sales field starts from several ROI model templates and co-builds a strong business case with their customer that allows them to engage around the right value drivers, and communicate the value of GitLab that targets meaningful customer outcomes.
+GitLab's Business Value Platform is a tool integrated into Salesforce that takes GitLab’s proprietary ROI modeling and provides a scalable, consistent way for AEs to build business cases and demonstrate ROI in customer conversations. It also allows them to tailor these generated business cases and proposals to their customers as well as to GitLab’s value framework and Command of Message methodology. The sales field starts from several ROI model templates and co-builds a strong business case with their customer that allows them to engage around the right value drivers, and communicate the value of GitLab that targets meaningful customer outcomes.
 
 This tool allows us to democratize value-based conversations by creating a self-serve model that balances business value positioning with quantitative analysis. Instead of a centralized team that holds onto this, we are enabling everyone to create, customize, and communicate value to customer organizations in partnership with their customer.
 
-Benefits of the Business Value Services tool:
+Benefits of the Business Value Platform:
 
 - Create a consistent and scalable way to show ROI & quantifiable value as to why a customer should partner with GitLab on their desired business outcomes
 - Derisk the buyers decision with credible, quantifiable justification
@@ -63,7 +62,7 @@ The account team can incorporate the value consulting into early sales stages wh
   - Top value drivers: Tool consolidation, often this value driver can be mapped to a set of hardcost on tooling license, hosting, infrastracture incurred
 - Deliver Better Products Faster - Accelerate the software delivery process to meet business objectives
   - Top value drivers: Automation and performance improvement for software delivery, with quantifiable benefits in either dollar amount and business hours reclaimed for teams focusing on software innovation. Forrester's GitLab Total Economic Impact Reports outlined many measurable benefits with customer case studies to support these soft cost areas.
-- Reduce Security and Compliance Risk - Simplify processes to comply with internal processes, controls and industry regulations without compromising speed
-  - Top value drivers: Secure the software supply chain, bring application security to developer's hand and mature organizational DevSecOps practice. Both individual tool cost can be calculated to consolidated into a DevSecOps platform along with associated cost on developer velocity when addressing security concerns early in the SDLC.
+  - Reduce Security and Compliance Risk - Simplify processes to comply with internal processes, controls and industry regulations without compromising speed
+- Top value drivers: Secure the software supply chain, bring application security to developer's hand and mature organizational DevSecOps practice. Both individual tool cost can be calculated to consolidated into a DevSecOps platform along with associated cost on developer velocity when addressing security concerns early in the SDLC.
 - Accelerate Cloud Adoption & Transformation - Standardize cloud processes to accelerate business outcomes
   - Top value drivers: Streamline and standardize cloud first practice for DevSecOps and applications to bring products and services to the market faster, safer and more accessible. The benefits of eliminating high on premise infrastracture cost with associated SREs can be realized with managed services by GitLab in the cloud. App development teams, infrastracture teams and security teams can deliver software faster and more securely.

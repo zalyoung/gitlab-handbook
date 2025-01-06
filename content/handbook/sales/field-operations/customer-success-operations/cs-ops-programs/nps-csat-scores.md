@@ -11,11 +11,11 @@ Customer Satisfaction surveys are a qualitative metric to gain a deeper understa
 
 **Examples of customer satisfaction surveys in GitLab:**
 
-* [**User Satisfaction (USAT)**](/handbook.gitlab.com/handbook/product/ux/performance-indicators/usat/)**:** Administered by the UX Research team via Rally UXR & Qualtrics to a representative sample of paid end users of GitLab, these surveys focus on measuring satisfaction with GitLab the product on a quarterly basis.  
-* **Customer Satisfaction CSAT**: This biannual survey, owned by Customer Success, measures the satisfaction level in both the product and engagement with our teams.   
+* [**User Satisfaction (USAT)**](/handbook/product/ux/performance-indicators/usat/)**:** Administered by the UX Research team via Rally UXR & Qualtrics to a representative sample of paid end users of GitLab, these surveys focus on measuring satisfaction with GitLab the product on a quarterly basis.
+* **Customer Satisfaction CSAT**: This biannual survey, owned by Customer Success, measures the satisfaction level in both the product and engagement with our teams.
 * **Service CSAT:** Administered by the Customer Success team via Gainsight to a larger audience, these surveys assess customer satisfaction with GitLab's overall support, service levels, and customer experience. These tend to be transactional, focused on the most immediate interaction with our team.
 
-All teams are working collaboratively to streamline the survey process, improve data collection efficiency, and ensure that we have a comprehensive understanding of customer feedback. [OKR](https://gitlab.com/gitlab-com/gitlab-OKRs/-/work_items/9025). 
+All teams are working collaboratively to streamline the survey process, improve data collection efficiency, and ensure that we have a comprehensive understanding of customer feedback. [OKR](https://gitlab.com/gitlab-com/gitlab-OKRs/-/work_items/9025).
 
 ## **What are the outcomes of these surveys?**
 
@@ -27,9 +27,9 @@ All teams are working collaboratively to streamline the survey process, improve 
 
 ## **Active GitLab Customer Satisfaction Surveys**
 
-* [All-Customer CSAT Survey (Customer Success)](/handbook/sales/field-operations/customer-success-operations/cs-ops-programs/all-customer-csat-cs/)  
-* Post-Scale Engagement CSAT Survey  
-* Digital SMB [Case Closure Survey](/handbook/sales/commercial/global_digital_smb/#email-to-case) CSAT Survey  
+* [All-Customer CSAT Survey (Customer Success)](/handbook/sales/field-operations/customer-success-operations/cs-ops-programs/all-customer-csat-cs/)
+* Post-Scale Engagement CSAT Survey
+* Digital SMB [Case Closure Survey](/handbook/sales/commercial/global_digital_smb/#email-to-case) CSAT Survey
 * [USAT Survey (UX Research)](/handbook/product/ux/performance-indicators/usat/)
 
 ### **What are the differences between the All-Customer CSAT and USAT surveys?**
@@ -50,14 +50,14 @@ Surveys sent directly to primary users on paid Premium and Ultimate accounts to 
 
 In order to target leaders and decision-makers on accounts, three types of users will receive an invitation to a survey:
 
-* [GitLab admin contacts](/handbook.gitlab.com/handbook/sales/field-operations/customer-success-operations/cs-ops-programs/#gitlab-admin-contacts)  
-* Sold-To Billing Contact (if no GitLab Admin exists)  
+* [GitLab admin contacts](/handbook/sales/field-operations/customer-success-operations/cs-ops-programs/#gitlab-admin-contacts)
+* Sold-To Billing Contact (if no GitLab Admin exists)
 * [GitLab.com Owner](https://docs.gitlab.com/ee/user/permissions.html) role
 
 ### **Who is not contacted?**
 
-* Identified Billing or Procurement personas configured as Owners or GitLab Admins on accounts  
-* Guest, Reporter, Developer or Maintainer roles on accounts  
+* Identified Billing or Procurement personas configured as Owners or GitLab Admins on accounts
+* Guest, Reporter, Developer or Maintainer roles on accounts
 * Users that have been contacted by other related surveys within the past eight weeks, such as the [USAT](/handbook/product/ux/performance-indicators/#regular-performance-indicators) survey administered by the UX Research Team.
 
 ## **Viewing CSAT Survey Results**
@@ -72,8 +72,8 @@ Net Promoter Score is a [standardized](https://en.wikipedia.org/wiki/Net_promote
 
 Customers received NPS surveys at multiple points in their lifecycle from 2021 to 2024\. These are stopped as of May 1, 2024\. Their results and data can be accessed [by request](https://gitlab.com/gitlab-com/sales-team/field-operations/customer-success-operations/-/issues/new) to the CSSO team. Additionally, you may request historical data for the following NPS surveys:
 
-* Post-Onboarding NPS/CSAT  
-* Pre-Renewal NPS  
+* Post-Onboarding NPS/CSAT
+* Pre-Renewal NPS
 * Post-Renewal NPS/CSAT
 
 ---

@@ -16,7 +16,7 @@ App information:
 - This application was developed by
   [Zendesk](https://www.zendesk.com/marketplace/partners/zendesk/) and is
   available in the
-  [Zendesk Marketplace](https://www.zendesk.com/apps/support/advanced-search/).
+  [Zendesk Marketplace](https://www.zendesk.com/marketplace/apps/support/198393/advanced-search/).
 
 ## GitLab Duo
 
@@ -84,6 +84,8 @@ The current plugins are:
   > It also gives the option of removing the suppression (if one if found). Doing so deletes it from mailgun and adds an intenral comment on the ticket with the results of the suppression deletion.
 - **Fieldnotes**
   > This app checks the [Fieldnotes project](https://gitlab.com/gitlab-com/support/fieldnotes/-/issues) for any existing Issues which reference the current Zendesk ticket ID. If no existing Issues are found, then agents are able to create a new Fieldnotes Issue from directly within the Zendesk ticket.
+- **Two Factor Auth Validator**
+  > This app checks values entered by a support engineer and does a validation check. This effectively acts as the second layer of validation
 
 App information:
 
@@ -259,6 +261,8 @@ The current plugins are:
   > On tickets where the product type is `GitLab.com`, clicking the button on the plugin will attempt to auto-associate the requester to an organizaiton. If that is not possible, it will detail why it was not possible.
 - **Associate User**
   > On a Support Ops ticket, it will ask you for an email address. It will then use the organization on the current ticket to associate said email address to that organization.
+- **CMP Developers**
+  > Outputs a list of CMP developers (by email) for an organization (if it has a CMP)
 
 App information:
 
@@ -285,7 +289,7 @@ App information:
   - Support APAC
   - Support EMEA
 - This application was developed by Unbabel and is available in the
-  [Zendesk Marketplace](https://www.zendesk.com/apps/support/unbabel-for-zendesk-support/).
+  [Zendesk Marketplace](https://www.zendesk.com/marketplace/apps/support/43875/unbabel-for-zendesk-support/).
 
 ### Configuring Unbabel in Zendesk
 

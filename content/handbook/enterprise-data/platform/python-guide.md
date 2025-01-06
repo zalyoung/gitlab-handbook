@@ -534,7 +534,7 @@ from some.deep.module.inside.a.module import (
 
 ##### Spacing
 
-Following [PEP8](https://www.python.org/dev/peps/pep-0008/#blank-lines) we recommend you put blank lines around logical sections of code.
+Following [PEP8](https://peps.python.org/pep-0008/#blank-lines) we recommend you put blank lines around logical sections of code.
 When starting a `for` loop or `if/else` block, add a new line above the section to give the code some breathing room. Newlines are cheap - [brain time is expensive](https://www.getdbt.com/blog/write-better-sql-a-defense-of-group-by-1).
 
 ```python
@@ -597,7 +597,7 @@ def bar(some_str: str) -> None:
 
 ##### Import Order
 
-Imports should follow the [PEP8](https://www.python.org/dev/peps/pep-0008/#imports) rules and furthermore should be ordered with any `import ...` statements coming before `from .... import ...`
+Imports should follow the [PEP8](https://peps.python.org/pep-0008/#imports) rules and furthermore should be ordered with any `import ...` statements coming before `from .... import ...`
 
 ```python
 ## Bad

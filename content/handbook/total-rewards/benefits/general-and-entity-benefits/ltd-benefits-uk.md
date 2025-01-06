@@ -137,7 +137,7 @@ Please refer to the [Company Pension Plan FAQ](https://drive.google.com/file/d/1
 
 ### Salary Sacrifice
 
-Team Members who have signed a UK Employment contract after 13 December 2022 will be automatically enrolled in to Company Pension Scheme via Salary Exchange. Please note that if you signed your contract prior to 13 December 2022 will have to request to opt in to the Salary Sacrifice Scheme. You can do so by emailing total-rewards@gitlab.com and nonuspayroll@gitlab.com. As part of this Salary Exchange offering GitLab will be passing on their employer NI saving to you as an employee in the form of an increased pension contribution. You can find more information in the following [document](https://drive.google.com/file/d/1L-YfEulL4SlJ22dVRrMqi9Yq82ircl-f/view?usp=sharing) detailing the benefits and potential disadvantages of changing to a Salary Exchange arrangement.
+Team Members who have signed a UK Employment contract after 13 December 2022 will be automatically enrolled in to Company Pension Scheme via Salary Exchange. Please note that if you signed your contract prior to 13 December 2022 will have to request to opt in to the Salary Sacrifice Scheme. You can do so via [HelpLab](https://helplab.gitlab.systems/esc?id=emp_taxonomy_topic&topic_id=b7d7b30d474c069067429ee0026d4382). As part of this Salary Exchange offering GitLab will be passing on their employer NI saving to you as an employee in the form of an increased pension contribution. You can find more information in the following [document](https://drive.google.com/file/d/1L-YfEulL4SlJ22dVRrMqi9Yq82ircl-f/view?usp=sharing) detailing the benefits and potential disadvantages of changing to a Salary Exchange arrangement.
 
 **Salary Sacrifice FAQ**
 
@@ -248,7 +248,7 @@ Scottish Widows:
 - [www.scottishwidows.co.uk/gppae](https://www.scottishwidows.co.uk/gppae)
 - (t) 0345 755 6557
 
-You can also reach out to Willis Tower Watson to explain the details of the GitLab GPPP and answer any questions you may have.
+You can also reach out to Willis Towers Watson to explain the details of the GitLab GPPP and answer any questions you may have.
 
 3 Temple Quay, Temple Back East, Bristol, BS1 6DZ
 Nick Allen, Associate Director
@@ -403,7 +403,7 @@ Team members can receive Statutory Paternity Pay for up to 2 weeks or up to 37 w
 To apply for Paternity Leave:
 
 - Submit your time off by selecting the `Parental Leave` category in Workday at least 30 days before your leave starts.
-- Send the Absence Management team at `leaves@gitlab.com` a completed [SPP Form](https://public-online.hmrc.gov.uk/lc/content/xfaforms/profiles/forms.html?contentRoot=repository:///Applications/PersonalTax_iForms/1.0/SC3&template=SC3.xdp) if applying for Statutory Paternity Pay or one of the [SPL Forms](https://www.acas.org.uk/shared-parental-leave-form-templates) if applying for Shared Parental Leave pay.
+- Send the Absence Management team at `leaves@gitlab.com` a completed [SPP Form](https://www.tax.service.gov.uk/print-and-post/form/PersonalTax_iForms/1.0/SC3/sc3.xdp) if applying for Statutory Paternity Pay or one of the [SPL Forms](https://www.acas.org.uk/shared-parental-leave-form-templates) if applying for Shared Parental Leave pay.
 - The Absence Management team will notify payroll and email Vistra a copy of the form, dates of leave and outline what pay the team member is eligible for (statutory, supplemental, etc).
 
 #### Adoption Leave Payment

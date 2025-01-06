@@ -94,6 +94,8 @@ Without one, your request will be declined.
 
 Allows Solution Architects to request assistance from the Support team.
 
+This request is internal. The work is between the Solution Achitect and the Support Engineer. Customers are not able to contribute.
+
 Keep in mind you _must_ have a Light Agent account on the Zendesk instance.
 Without one, your request will be declined.
 

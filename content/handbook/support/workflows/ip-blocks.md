@@ -5,9 +5,7 @@ category: GitLab.com
 subcategory: Troubleshooting
 ---
 
-At times, users of GitLab.com can find that their IP address has been blocked due to rate limiting. Currently, rate limit parameters on GitLab.com are best described on the [GitLab.com settings docs page](https://docs.gitlab.com/ee/user/gitlab_com/#gitlabcom-specific-rate-limits). When this happens we *may* be able to determine what caused a block and relay that information back to the user.
-
-See also [opstrace#1949](https://gitlab.com/gitlab-org/opstrace/opstrace/-/issues/1949) for possible future improvements.
+Users of GitLab.com can find that their IP address has been blocked due to rate limiting. Currently, rate limit parameters on GitLab.com are best described on the [GitLab.com settings docs page](https://docs.gitlab.com/ee/user/gitlab_com/#gitlabcom-specific-rate-limits). The single source of truth for rate limiting on GitLab.com exists in our [infrastructure rate limiting documentation](../../../engineering/infrastructure/rate-limiting/). This page is intended to help Support Engineers troubleshoot issues related to rate limits and IP blocks.
 
 ## Responding
 
@@ -19,7 +17,7 @@ Please also see [the log requests workflow](/handbook/support/workflows/log_requ
 
 ### Search Condition
 
-Start by adding a positive filter on `json.remote_ip` for the IP address provided by the user:
+Start by adding a positive filter on `json.meta.remote_ip` for the IP address provided by the user:
 
 ![Add remote_ip filter](/images/support/ipblocks_add_remoteip_filter.png)
 
@@ -27,7 +25,7 @@ You can then drill down from there with positive and negative filters on [fields
 
 ### Checking for Rack Attack Blocks
 
-It can sometimes be unclear if a user has actually been blocked by our end or not. If they've been blocked by [Rack Attack](https://docs.gitlab.com/ee/development/application_limits.html#implement-rate-limits-using-rackattack), we should be able to locate requests in Kibana that were blocked because of it.
+If a user has been blocked by [Rack Attack](https://docs.gitlab.com/ee/development/application_limits.html#implement-rate-limits-using-rackattack), we should be able to locate requests in Kibana that were blocked because of it.
 
 To do so, enter the IP address into the main search field and set a positive filter on `json.message` for `Rack_Attack`.
 
@@ -41,7 +39,13 @@ The existence of these results tells us that this user was blocked by Rack Attac
 
 It's common to see multiple failed authentication requests (401) trigger a Rack Attack block which causes a 403 Forbidden message. We block IP addresses if we receive [300 failed requests from a single IP in a one minute period](https://docs.gitlab.com/ee/user/gitlab_com/index.html#git-and-container-registry-failed-authentication-ban). It's worth noting that by default, Git operations are first tried unauthenticated so it's expected to see two 401 responses for every Git operation.
 
-Rack Attack can also *throttle* traffic. If that is the case, this is recognizable by the HTTP 429 response code. The preferred solution to this is to have the user make fewer requests. If that is not possible you can create an infrastructure issue with [this template](https://gitlab.com/gitlab-com/gl-infra/infrastructure/-/issues/new?issuable_template=request-rate-limiting).
+Rack Attack can also *throttle* traffic. If that is the case, this is recognizable by the HTTP 429 response code. The preferred solution to this is to have the user make fewer requests. Please refer to our [Bypass Policy](ip-blocks.md#bypass-policy) for more information.
+
+### Checking the Application Rate Limiter
+
+If you can't find a block in Rack Attack, try checking the application rate limits. It's possible to search this in Kibana where `json.message.keyword` is `Application_Rate_limiter_Request`. You'll be able to identify the different limits with `json.env` and still be able to filter by `json.meta.user` and `json.meta.remote_ip`.
+
+![Checking Application Rate Limiter](/images/support/application_rate_limit.png)
 
 ### Fields
 
@@ -168,11 +172,13 @@ In certain cases, when the customer is using a shared user account to run pipeli
 - `json.custom_message`: `User access locked - sign in from untrusted IP address`
 - `json.entity_path` - The user name of the account
 
-### Handling GitLab.com "Access Denied" errors (CloudFlare Block)
+### Cloudflare troubleshooting
 
-There may be cases where a user is being blocked by CloudFlare and they are not being blocked due to rate limiting. You can typically request a screenshot of the CloudFlare "Access Denied" page or have the customer perform a `curl` with the `-i` flag to retrieve the relevant headers:
+NOTE: Cloudflare workflows may change in the future. Please see [this issue](https://gitlab.com/gitlab-com/gl-infra/production-engineering/-/issues/24686) for more details.
 
-![Access Denied](/handbook/support/workflows/assets/AccessDenied.png)
+There may be cases where a user is being blocked by Cloudflare and they are not being blocked in the application. In cases where rate limiting is apparent but there are no logs in Kibana, it is likely that requests are not reaching the application and being rate limited or blocked at Cloudflare. You can typically request a screenshot of the Cloudflare "Access Denied" page or have the customer perform a `curl` with the `-i` flag to retrieve the relevant headers:
+
+![Access Denied](/images/support/workflows/assets/AccessDenied.png)
 
 ```text
 curl -i --header "PRIVATE-TOKEN: *****" https://gitlab.com
@@ -199,10 +205,10 @@ Note the `HTTP 403` response and `error code 1020`.
 
 Once you obtain this information you should open an issue in our [Reliability tracker](https://gitlab.com/gitlab-com/gl-infra/reliability/-/issues) providing the `cf-ray` ID and the timestamp (date) to request that the IP address block be removed. You can also consult the #infrastructure-lounge Slack channel with the open issue for further assistance. Some blocks may happen as a result of a mitigation effort, so you may want to verify that a [contact request](https://gitlab.com/gitlab-com/support/internal-requests/-/issues) is not open on the internal board.
 
-Note that IP addresses may be blocked if they are identified as being from a [current US embargoed country](https://home.treasury.gov/policy-issues/financial-sanctions/sanctions-programs-and-country-information) as per [our Terms of Use](/handbook/legal/subscription-agreement/). Blocks are done automatically through CloudFlare's GeoLocation block methods and cannot be changed. You can [enter an IP address](https://www.maxmind.com/en/geoip2-precision-demo) to determine how it is classified and verify against [the list of countries](/handbook/legal/trade-compliance/). A user can consider [requesting a data correction](https://www.maxmind.com/en/geoip-data-correction-request) of their IP address but it is not guaranteed and GitLab has no control over this process.
+Note that IP addresses may be blocked if they are identified as being from a [current US embargoed country](https://ofac.treasury.gov/sanctions-programs-and-country-information) as per [our Terms of Use](/handbook/legal/subscription-agreement/). Blocks are done automatically through CloudFlare's GeoLocation block methods and cannot be changed. You can [enter an IP address](https://www.maxmind.com/en/geoip2-precision-demo) to determine how it is classified and verify against [the list of countries](/handbook/legal/trade-compliance/). A user can consider [requesting a data correction](https://www.maxmind.com/en/geoip-data-correction-request) of their IP address but it is not guaranteed and GitLab has no control over this process.
 
-## Applying for an exception (Deprecated)
+## Bypass Policy
 
 If a customer has concerns about being rate limited, work with them as much as possible to lower their traffic from a single IP address.
 
-Foundations team is no longer accepting new IP allowlist requests. Please add requests to [this issue](https://gitlab.com/gitlab-com/support/support-team-meta/-/issues/6033).
+Please refer to our [Bypass Policy](../../../engineering/infrastructure/rate-limiting/bypass-policy) for more information.

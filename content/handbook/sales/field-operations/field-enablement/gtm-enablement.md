@@ -15,19 +15,19 @@ This framework standardizes the approach to GTM enablement across different prod
 
 ## Roles & responsibilities across GTM motion
 
-[**The New Product Introduction (NPI) SteerCo**](/handbook/product/product-processes/product-launch/#step-2-meet-with-the-npi-steerco-and-get-alignment-on-the-launch-plan)**:** Assesses and approves the launch of the NPI process based on business cases presented by DRIs. These business cases must address product functionality, target market, value proposition, and financial opportunity. Once the SteerCo decides to proceed, they commit to a scope & launch timeframe (Step 4 in NPI Process: Planning Phase). 
+[**The New Product Introduction (NPI) SteerCo**](/handbook/product/product-processes/product-launch/#step-2-meet-with-the-npi-steerco-and-get-alignment-on-the-launch-plan)**:** Assesses and approves the launch of the NPI process based on business cases presented by DRIs. These business cases must address product functionality, target market, value proposition, and financial opportunity. Once the SteerCo decides to proceed, they commit to a scope & launch timeframe (Step 4 in NPI Process: Planning Phase).
 
 * **The NPI DRI** drives the feature or service strategy and is the primary business owner. This is the person requesting a new product, service, or SKU. The person is responsible for delivering the initial business plan, and ensuring that the launch meets business goals.
 * **The NPI Program Manager** coordinates and directs the multiple parallel work streams required by the NPI process. In some cases, the DRI and the Program Manager may be the same person.
 
 **GTM Enablement:** Generally, GTM Enablement leads the land and adopt strategy for net-new product and initiative launches at GitLab. This function works closely with the [Field Communications](/handbook/sales/field-communications/#field-communications-playbook) team to land initiatives in the field. This team is responsible for creating effective, timely, and easily consumable communications with the Field team (Sales, Customer Success, Channel, Alliances, Revenue Strategy, Operations & Enablement).
 
-**Key initiative areas are limited to:** 
+**Key initiative areas are limited to:**
 
 * New product introductions
-* New major SKU launches 
+* New major SKU launches
 * GTM Revenue Plays & Sprints
-* Sales Offers 
+* Sales Offers
 * Major Feature GAs & Product Updates
 * CRO Annual Fiscal Year Launch
 
@@ -70,7 +70,7 @@ To launch the GTM Enablement process, a requester should fill out the [intake fo
 4. **When** we need to launch: any internal (e.g. [Field blackout periods](/handbook/sales/field-communications/), month/quarter/year end financial close, quiet periods, etc.) or external factors that create timing requirements
 5. **That we’re able to launch:** product development is sufficiently far along that it makes sense to start the process, and GTM teams have sufficient bandwidth to do the work in the required timeframe
 
-## GTM Enablement Operating Rhythm Overview 
+## GTM Enablement Operating Rhythm Overview
 
 * Phase 1: Briefing & planning
 * Phase 2: Project execution & launch
@@ -95,13 +95,13 @@ To launch the GTM Enablement process, a requester should fill out the [intake fo
 
 1. GTM DRI delivers wrap-up & final results reporting
 2. GTM DRI creates retro with FE teams. Participates in retros upstream & raises feedback from downstream
-3. FE DRIs reinforce & sustain motions begin 
+3. FE DRIs reinforce & sustain motions begin
 
-## **Integration with the NPI & Field Enablement teams, activities, and processes** 
+## **Integration with the NPI & Field Enablement teams, activities, and processes**
 
 In this process, GTM Enablement is integrated as main liaison to field enablement for land & adopt motion.
 
-## **NPI Planning:** 
+## **NPI Planning:**
 
 1. Based on the process within the [New Product Introduction (NPI) Handbook page](/handbook/product/product-processes/product-launch/). The NPI Program Manager communicates the plan & organizes logistics with the wider working group. This includes two key meetings:
    * Stakeholder kickoff (process-focused): Meeting with all NPI stakeholders to launch the process: share overview of timeline, milestones, what success looks like, expected challenges.
@@ -121,15 +121,15 @@ In this process, GTM Enablement is integrated as main liaison to field enablemen
    2. FE leads and the GTM FE DRI check-in async or in established team cadences to ensure that work is on track against the defined timeline. The GTM FE DRI should partner with teams to facilitate decision making and problem solving where needed. NPI projects can be highly complex and the teams will need to discuss challenges regularly.
 5. The GTM FE DRI will surface challenges covered with FE leads to the NPI team for consideration, action, or as part of the retrospective process.
 
-### **GTM Execution and Launch:** 
+### **GTM Execution and Launch:**
 
-1. GTM FE DRI orchestrates the launch and drives process, using packaged enablement templates defined by cross-functional teams and collaborating closely with Field Enablement to ensure a seamless transition. 
+1. GTM FE DRI orchestrates the launch and drives process, using packaged enablement templates defined by cross-functional teams and collaborating closely with Field Enablement to ensure a seamless transition.
 2. Similar to NPI process: Both workstreams maintain close coordination on decisions & steps that affect others
 3. GTM FE DRI Delivers updates on progress & results to stakeholder groups upstream and downstream
 4. FE DRIs collaborate on reinforcement & cascades. Raise concerns and create open feedback loop with downstream teams.
 
-### **Post-Launch Evaluation:** 
+### **Post-Launch Evaluation:**
 
-1. GTM Enablement delivers closed-loop reporting on all enablement activities and engagement aligned to the GTM Enablement Framework. 
+1. GTM Enablement delivers closed-loop reporting on all enablement activities and engagement aligned to the GTM Enablement Framework.
 2. GTM Enablement participates in [retrospectives](/handbook/engineering/management/group-retrospectives/) upstream and downstream (merging where possible) with various working groups and engages in feedback loops to assess the launch's success and identify areas for improvement, ensuring continuous enhancement of the NPI and enablement processes.  
 3. Field Enablement reinforce & sustain motions begin.

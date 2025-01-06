@@ -17,7 +17,7 @@ The Data Team Organization model is guided by three primary business needs:
 Based on these needs, the Data Team is organized in the following way:
 
 1. **Data Pods:** Pods are assembled to provide concentrated focus on delivering & maintaining **data products** for **strategic company initiatives**. Pods are staffed with multiple data personas including Data Analyst, Data Scientist, Analytics Engineer, and supported by Data Engineer as stable counterpart.
-1. **[Analytics Engineering](handbook/it/data-team/#analytics-engineering-team):** Transform raw data into clean, structured, and usable formats for data decision-making. The Lead Analytics Engineer serves as a stable counterpart for business departments and functional analytics teams.
+1. **[Analytics Engineering](/handbook/enterprise-data/#analytics-engineering-team):** Transform raw data into clean, structured, and usable formats for data decision-making. The Lead Analytics Engineer serves as a stable counterpart for business departments and functional analytics teams.
 1. **[Data Platform & Engineering Team](/handbook/enterprise-data/#the-data-platform--engineering-team):** **Center of Excellence** for data technologies, including owning and operating the Data Stack
 1. **[Data Science Team](/handbook/enterprise-data/#the-data-science-team):** **Center of Excellence** for advanced analytics, including delivery of data science projects to the business
 
@@ -25,23 +25,24 @@ Based on these needs, the Data Team is organized in the following way:
 
 | POD                       | Data Product Manager | Analytics Engineer                     | Data Analyst    | Data Scientist |
 | ------------------------- | -------------------- | -------------------------------------- | --------------- | -------------- |
-| Enterprise Metrics        |  @nmcavinue          | @lisvinueza @chrissharp                | @annie-analyst  |                |
-| Customer Intelligence     |  @nmcavinue          | @snalamaru                             | @jonglee1218      |                |
+| Company KPIs              |  @iweeks          | @lisvinueza @chrissharp @annapiaseczna     | @annie-analyst  |                |
+| Customer Intelligence     |  @nmcavinue          |                                | @jonglee1218      |                |
 | Customer Product Adoption |  @mdrussell             | @michellecooper @utkarsh060 |                 |                |
 
-## Analytics Engineering - Business Stable Counterpart Assignments
+## Analytics Engineering - Stable Counterpart Assignments
 
-| Department       | Functional Analytics Team         | Analytics Engineer      |
+| Department / Division | Functional Analytics Team / Steering Committee | Analytics Engineer      |
 | ---------------- | --------------------------------- | ----------------------- |
-| Sales            |  Revenue Strategy and Analytics   |  @snalamaru             |
-| Marketing        |  Marketing Strategy and Analytics |  @snalamaru             |
+| Sales            |  Revenue Strategy and Analytics   |  @lisvinueza             |
+| Marketing        |  Marketing Strategy and Analytics |  @chrissharp             |
 | Finance          |  FP&A Analytics                   |  @chrissharp            |
 | Customer Success |  CS Strategy and Analytics        |  @mdrussell             |
 | Product          |  Product Data Insights            |  @michellecooper             |
 | Engineering      |  Engineering Analytics            |  @michellecooper        |
 | Security         |  Engineering Analytics            |  @michellecooper        |
 | Support          |  N/A                              |  @michellecooper        |
-| People           |  People Analytics                 |  @rakhireddy (ramping)  |
+| People           |  People Analytics                 |  @rakhireddy            |
+| R&D              |  Product Usage Data Architecture Steering Committee | @pempey |
 
 ## Data Platform Team Stable Counterpart Assignments
 
@@ -62,7 +63,7 @@ In support of the Data Pod, the Manager, Data fulfills the below responsibilitie
 
 ### Lead Analytics Engineer (Stable Counterparts for the Business)
 
-In support of the Data Pod and Stable Counterpart relationships, the Lead Analytics Engineer fulfills the below responsibilities from the [Senior Analytics Engineer](/job-families/finance/analytics-engineer/#senior-analytics-engineer-responsibilities) Job Responsibilites:
+In support of the Data Pod and Stable Counterpart relationships, the Lead Analytics Engineer fulfills the below responsibilities from the [Senior Analytics Engineer](/job-families/marketing/enterprise-data/analytics-engineer/#senior-analytics-engineer-responsibilities) Job Responsibilites:
 
 1. Own one or more stakeholder relationship in Go To Market, Research & Development, General & Administrative, Financial Analytics, or Engineering Analytics business functions.
 1. Co-DRI of Key Results along with the Manager, Data.
@@ -174,7 +175,7 @@ See [Data Team Internships](/handbook/enterprise-data/organization/internships/)
 
 ### Analytics Engineering Job Family
 
-[Analytics Engineering Job Family](/job-families/finance/analytics-engineer)
+[Analytics Engineering Job Family](/job-families/marketing/enterprise-data/analytics-engineer)
 
 ```mermaid
   graph LR;
@@ -184,10 +185,10 @@ See [Data Team Internships](/handbook/enterprise-data/organization/internships/)
     supe:fae(Staff Analytics Engineer)-->supe:pae(Principal Analytics Engineer);
   end
 
-  click supe:ae "https://handbook.gitlab.com/job-families/finance/analytics-engineer#analytics-engineer-intermediate";
-  click supe:sae "https://handbook.gitlab.com/job-families/finance/analytics-engineer#senior-analytics-engineer";
-  click supe:fae "https://handbook.gitlab.com/job-families/finance/analytics-engineer#staff-analytics-engineer";
-  click supe:pae "https://handbook.gitlab.com/job-families/finance/analytics-engineer#principal-analytics-engineer";
+  click supe:ae "https://handbook.gitlab.com/job-families/marketing/enterprise-data/analytics-engineer#analytics-engineer-intermediate";
+  click supe:sae "https://handbook.gitlab.com/job-families/marketing/enterprise-data/analytics-engineer#senior-analytics-engineer";
+  click supe:fae "https://handbook.gitlab.com/job-families/marketing/enterprise-data/analytics-engineer#staff-analytics-engineer";
+  click supe:pae "https://handbook.gitlab.com/job-families/marketing/enterprise-data/analytics-engineer#principal-analytics-engineer";
 ```
 
 ### Intermediate and Senior Analytics Engineer Onboarding Timeline

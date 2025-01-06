@@ -31,10 +31,7 @@ The categories form a hierarchy:
 
 1. **Sections**: Are a collection of stages. We attempt to align these logically along common workflows like Dev, Sec and Ops.
 Sections are maintained in [`data/sections.yml`](https://gitlab.com/gitlab-com/www-gitlab-com/blob/master/data/sections.yml).
-1. **Stages**: are aligned logically starting with the 7 **loop stages** of Plan, Create, Verify, Secure, Package, Deploy, and Monitor.
-We then add the **value stages** that we talk about in marketing. These include Manage and Govern. Lastly, we add the **team stages**: Growth, Systems and Data Stores.
-These stages have groups that rally around the same users, GitLab integrators, GitLab itself, and GitLab administrators, respectively.
-Stages are maintained in [`data/stages.yml`](https://gitlab.com/gitlab-com/www-gitlab-com/blob/master/data/stages.yml).
+1. **Stages**: are maintained in [`data/stages.yml`](https://gitlab.com/gitlab-com/www-gitlab-com/blob/master/data/stages.yml).
 Each stage has a corresponding [`devops::<stage>` label](https://docs.gitlab.com/ee/development/labels/index.html#stage-labels) under the `gitlab-org` group.
 1. **Group**: A stage has one or more [groups](/handbook/company/structure/#product-groups).
 Groups are maintained in [`data/stages.yml`](https://gitlab.com/gitlab-com/www-gitlab-com/blob/master/data/stages.yml).
@@ -257,7 +254,7 @@ When downgrading product maturity, we adjust our customer's current expectations
 
 ## DevOps Stages
 
-![Dev Ops Diagram](devops-diagram.svg)
+![Dev Ops Diagram](/images/product/categories/devops-diagram.svg)
 
 {{% categories %}}
 
@@ -342,10 +339,6 @@ Maybe we should make our features easier to search to replace the section below.
 
 [Monitor stage](/handbook/product/categories/#monitor-stage)
 
-### Other functionality in Manage stage
-
-[Manage](/handbook/product/categories/#manage-stage) stage
-
 ### Other functionality in Engineering Productivity
 
 [Engineering Productivity](/handbook/engineering/infrastructure/engineering-productivity/)
@@ -410,5 +403,7 @@ It does not mean, however, that a single group should necessarily be solely resp
 For more information please review [this section in the quality department handbook](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#shared-responsibility-issues) to learn more about a decentralized approach to triaging these types of issues.
 
 ### Categories A-Z
+
+<!-- To edit the content of the Categories index, see: https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/data/stages.yml -->
 
 {{< categories-index >}}

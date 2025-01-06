@@ -53,7 +53,7 @@ using throughout.
 ### 1Password guidelines
 
 1. If you install the macOS application, install 1Password via this link
-[1Password](https://1password.com/downloads/mac/)
+[1Password](https://1password.com/downloads/mac)
 1. If you have a YubiKey, it can be added as a 2-factor
 method to your 1Password account for convenience.
 1. When traveling, consider using 1Password in "Travel Mode", see more on that [below](#travel-mode).
@@ -101,12 +101,12 @@ account up to one of the native apps.
 
 #### Adding the GitLab team to a 1Password app
 
-This guide will cover setting up the [macOS app](https://agilebits.com/downloads). It's their lead platform and is
+This guide will cover setting up the [macOS app](https://1password.com/downloads/mac). It's their lead platform and is
 the most up-to-date. These instructions may or may not work for the Windows
 version. If you use 1Password 6 without a 1Password.com account, make note of
 [this](#updating-1password-to-support-the-teams-feature).
 
-1. Download and install the 1Password [macOS app](https://agilebits.com/downloads).
+1. Download and install the 1Password [macOS app](https://1password.com/downloads/mac).
 1. Launch the app.
 1. Click "Sign in to your 1Password account" button. If there is no such button
 please follow the instructions for [updating 1Password](#updating-1password-to-support-the-teams-feature).
@@ -212,9 +212,9 @@ Even though these secrets have a limited scope of access, it's still best practi
 Manually loading them into environment variables or using them for CLI commands directly also risks them being written to disk as part of your shell history.
 For a more secure approach, use 1Password's CLI utility which can help manage local secrets securely.
 
-[1Password CLI integration](https://developer.1password.com/docs/cli) supports secure
+[1Password CLI integration](https://developer.1password.com/docs/cli/) supports secure
 handling of secrets used in command line tools, config files, and scripts executed on your laptop.
-To setup the CLI integration, follow the [getting started guide](https://developer.1password.com/docs/cli/get-started/).
+To setup the CLI integration, follow the [getting started guide](https://developer.1password.com/docs/cli//get-started/).
 
 It is recommended to store secrets such as [personal access tokens](https://docs.gitlab.com/ee/user/profile/personal_access_tokens.html)
 in 1Password. Avoid storing secrets in unencrypted files or using them directly
@@ -326,7 +326,7 @@ To enable TOTP for a saved account:
 
 Please refer to demo video [1password TOTP setup](https://support.1password.com/one-time-passwords/)
 
-Please refer to the [1Password blog](https://blog.agilebits.com/2015/01/26/totp-for-1password-users/) for more information on how TOTP works.
+Please refer to the [1Password blog](https://blog.1password.com/totp-for-1password-users/) for more information on how TOTP works.
 
 If scanning the QR code using the "transparent window" with the 1Password Mac
 app fails on a recent macOS, please consider using the 1Password iOS app instead.
@@ -340,7 +340,7 @@ There may be cases where TOTP might be used with a non-GitLab account. If you ha
 
 ### Passkeys
 
-1Password has implemented a feature supporting for Passkeys, which are the credentials used in FIDO2/WebAuthn on sites such as [Okta](https://adamhuss-master-patch-a4f4.about.gitlab-review.app/handbook/business-technology/okta/#adding-1password-passkey). This feature can allow passwordless sign in to sites that require username and password. Passkeys can also serve as a type of MFA. Passkeys store a public key in the app and a private key within the 1Password vault.
+1Password has implemented a feature supporting for Passkeys, which are the credentials used in FIDO2/WebAuthn on sites such as [Okta](/handbook/business-technology/okta/#adding-1password-passkey). This feature can allow passwordless sign in to sites that require username and password. Passkeys can also serve as a type of MFA. Passkeys store a public key in the app and a private key within the 1Password vault.
 
 Setting up Passkey is simple. Open a login page or select the sign in button on the website or app. You'll typically see a prompt to complete an authentication step, usually with Biometrics, or YubiKey. You may see something like the image below.
 
@@ -403,11 +403,11 @@ Once you have enabled Travel Mode open 1Password on each device you will be taki
 with you so that it can sync with 1Password.com and remove any vaults that cannot
 be used while traveling.
 
-For more information on Travel Mode and how it works, see the [AgileBits blog](https://blog.agilebits.com/2017/05/18/introducing-travel-mode-protect-your-data-when-crossing-borders/).
+For more information on Travel Mode and how it works, see the [AgileBits blog](https://blog.1password.com/introducing-travel-mode-protect-your-data-when-crossing-borders/).
 
 ### Securing Docker Registry User Credentials
 
-Docker can store user credentials in an [external credential store](https://docs.docker.com/engine/reference/commandline/login/#credential-stores) as a more secure alternative to storing credentials in the Docker configuration file.
+Docker can store user credentials in an [external credential store](https://docs.docker.com/reference/cli/docker/login/#credential-stores) as a more secure alternative to storing credentials in the Docker configuration file.
 
 #### Using `osxkeychain` (macOS)
 
@@ -419,7 +419,7 @@ To configure Docker to use `osxkeychain` for secure credential storage, follow t
     brew install docker-credential-helper
     ```
 
-1. Configure `~/.docker/config.json` to [use `osxkeychain` as your Docker credstore](https://docs.docker.com/engine/reference/commandline/login/#credential-stores):
+1. Configure `~/.docker/config.json` to [use `osxkeychain` as your Docker credstore](https://docs.docker.com/reference/cli/docker/login/#credential-stores):
 
     ```json
     {
@@ -444,7 +444,7 @@ To configure Docker to use `pass` for secure credential storage, follow these st
 1. Move the `docker-credential-pass` binary to your `$PATH` (e.g., `sudo mv docker-credential-pass-v0.8.0.linux-amd64 /usr/local/bin/docker-credential-pass`).
 1. Obtain and copy the GPG key ID that `pass` will use for encryption via `gpg --list-secret-keys --keyid-format LONG`.
 1. Initialize `pass` with `pass init <gpg-key-id>`.
-1. Configure `~/.docker/config.json` to [use `pass` as a credstore](https://docs.docker.com/engine/reference/commandline/login/#credential-stores):
+1. Configure `~/.docker/config.json` to [use `pass` as a credstore](https://docs.docker.com/reference/cli/docker/login/#credential-stores):
 
     ```json
     {

@@ -58,7 +58,7 @@ The Security Logging Team is not responsible for the logging, monitoring, and al
 
 ### How to contact us
 
-The Security Logging Team can be contacted in Slack using the `#security-logging` channel, the `#security` channel, or the `#security-department` channel. You can also contribute, comment, view, or interact with us in our [team repo](https://gitlab.com/gitlab-com/gl-security/engineering-and-research/security-logging/security-logging).
+The Security Logging Team can be contacted in Slack using the `#security-logging` channel, the `#security` channel, or the `#security-division` channel. You can also contribute, comment, view, or interact with us in our [team repo](https://gitlab.com/gitlab-com/gl-security/engineering-and-research/security-logging/security-logging).
 
 ## How We Work
 

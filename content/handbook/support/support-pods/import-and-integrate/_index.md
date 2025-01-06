@@ -13,7 +13,7 @@ This will allow everyone to gain more knowledge regarding the various GitLab int
 
 - Collaborate on tickets related to:
   - Import/Export of projects
-  - The various GitLab Integrations we have (as owned by the [Manage::Integrations group](https://about.gitlab.com/direction/manage/integrations/#integration-ownership))
+  - The various GitLab Integrations we have (as owned by the [Manage::Integrations group](https://about.gitlab.com/direction/foundations/#integrations))
 - Gain and share knowledge
 - Documentation updates
 
