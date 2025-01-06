@@ -331,7 +331,22 @@ hugolint:
       if [ "${CI_PIPELINE_SOURCE}" == "merge_request_event" ]; then
         hugolint codequality latest --artifact 'linkcheck.json' >'latest.json'
         hugolint codequality diff --exit-code 'latest.json' 'linkcheck.json'
-        jq -s '.[1] - .[0]' latest.json linkcheck.json > new_broken_links.json
+        if [ -s "latest.json" ] && [ -s "linkcheck.json" ]; then
+          echo "Both latest.json and linkcheck.json exist and are not empty"
+          jq -s '.[1] - .[0]' latest.json linkcheck.json > new_broken_links.json
+          # Generate JSON file with only newly broken links
+          if jq -s '.[1] - .[0]' latest.json linkcheck.json > new_broken_links.json; then
+            echo "new_broken_links.json generated successfully"
+            
+            # Output the new broken links
+            echo "Newly broken links:"
+            jq -C '.' new_broken_links.json
+          else
+            echo "Error generating new_broken_links.json"
+          fi
+        else
+          echo "Error: latest.json or linkcheck.json is missing or empty"
+        fi
       fi
   artifacts:
     when: always
