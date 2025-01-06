@@ -93,7 +93,7 @@ flowchart TD
 Unfortunately, these names aren't very descriptive, and while manageable,
 understanding and holding their concepts for development adds overhead that can
 be avoided. This will be improved by using a set of well defined terms used by
-other projects and tools. The `staged`, `staged`, and `committed` set of terms
+other projects and tools. The `unstaged`, `staged`, and `committed` set of terms
 are one such set used in high adoption pieces of software like `git`.
 Conceptually, the security ingestion process operates _very_ similar to `git`,
 and the set of terms used to describe the various states of a file also work
@@ -113,14 +113,14 @@ ingestion concepts as well. The following are examples of areas where we can
 apply this and gain clarity from the names of services and workers.
 
 * `Security::StoreScansService` can be renamed to `Security::StageScansService`.
-    * Both default and non-default branches have their findings saved in the
-    database. This better differentiates the two by making it clear that one is
-    staged, but not yet committed to.
+  * Both default and non-default branches have their findings saved in the
+  database. This better differentiates the two by making it clear that one is
+  staged, but not yet committed to.
 * `Security::IngestReportService` can be renamed to `Security::CommitScansService`.
-    * This makes it clear that the findings are going to a table that doesn't
-    drop partitions.
-    * This also works in our favor because the name no longer ties itself to
-    security reports which may only be one source of unstaged findings.
+  * This makes it clear that the findings are going to a table that doesn't
+  drop partitions.
+  * This also works in our favor because the name no longer ties itself to
+  security reports which may only be one source of unstaged findings.
 
 ### Events
 
@@ -189,7 +189,6 @@ flowchart
 * [CycloneDX reports are not considered security finding sources](https://gitlab.com/gitlab-org/gitlab/blob/313de920ee86ddf30d1fa6872b1d05ce3e277e02/ee/app/models/ee/ci/pipeline.rb#L60-L64), but this assumption no longer holds true.
 * Rename [can_store_security_reports?] to [can_store_security_scans?]
 * `Security::Scan` depends on security reports to find the [primary scanner](https://gitlab.com/gitlab-org/gitlab/blob/5a6f937be735771e8f235e02956977ae7a15e8f7/ee/app/models/security/scan.rb#L126).
-
 
 ### Process changes
 
