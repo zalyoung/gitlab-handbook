@@ -30,6 +30,11 @@ flowchart TD
         Portal --- SF
         Portal --- OB
         Portal --- DS
+
+        DV -->|Verify| Deploy[Deployment]
+        SF -->|Test| Perf1[Performance Tests]
+        OB -->|Monitor| Metrics[Metrics & Alerts]
+        DS -->|Provide| Data[Realistic Data]
     end
 
     subgraph YBR[Yellow Brick Road - Development Journey]
