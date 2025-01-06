@@ -76,7 +76,7 @@ Worthy of mentioning:
 
 ### Screen Recording
 
-#### Shift-Command-5 (macOS Mojave)
+#### Shift-Command-5 (macOS)
 
 On macOS Mojave and up, press [Shift-Command (⌘)-5](https://support.apple.com/en-us/102618) to bring up controls to record
 the entire screen or a portion of the screen.
@@ -84,8 +84,6 @@ the entire screen or a portion of the screen.
 #### QuickTime (macOS)
 
 On every Mac, QuickTime has already been installed. It features a nice screen record option and even has basic trim and splitting functions in the *edit* menu! Perfect for creating those [video files](#step-1).
-
-![quicktime gif](/handbook/product/making-gifs/quicktime.gif)
 
 Worthy of mentioning:
 

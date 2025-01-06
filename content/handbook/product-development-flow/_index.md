@@ -61,7 +61,7 @@ For situations [when the customer problem isn't well understood](/handbook/produ
 
 The types of activities and depth of research required in the validation track will depend on how well we understand the customer problem and solution.
 
-<img src="/handbook/product-development-flow/validation-spectrum.png" alt="Validation Spectrum">
+<img src="/images/product-development-flow/validation-spectrum.png" alt="Validation Spectrum">
 
 ### Validation Goals & Outcomes
 

@@ -41,7 +41,7 @@ The above examples use self-reported measures, but it's certainly possible to le
 
 A sample output could look something like the following chart, which demonstrates how the measure changes over the designated period of time for a single participant:
 
-![Example output of a key measure over time](longitudinal_sample_output.png)
+![Example output of a key measure over time](/images/product/ux/ux-research/longitudinal-studies/longitudinal_sample_output.png)
 
 ### Steps to conduct a longitudinal study
 

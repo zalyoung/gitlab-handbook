@@ -15,7 +15,7 @@ The Kano model classifies product features into five categories based on how dev
 - **Indifferent**: Investing in these features will not increase or decrease user satisfaction.
 - **Reverse**: Not having these features is actually better than having them.
 
-![KanoImage](KanoImage.png)
+![KanoImage](/images/product/ux/ux-research/kano-model/KanoImage.png)
 
 Once you know which categories your features fall into, you can prioritize the most important ones for development. In theory, features from the Must-be category should be prioritized first, followed by Performance and then Attractive. Depending upon the number of features that fall into each category, you may need to work with your product team to determine how to prioritize them.
 

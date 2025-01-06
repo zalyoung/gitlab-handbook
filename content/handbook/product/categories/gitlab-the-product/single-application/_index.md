@@ -21,7 +21,7 @@ For example, the experience of one enterprise customer that converted from multi
 - Four-times fewer hours of hands-on keyboard time and four-times fewer tasks for people to do, allowing them to be more productive
 - Five-times fewer different teams requiring to be involved and four-times fewer handoffs between teams, allowing them to be more productive and making the time to value more predictable
 
-[![DevOps GitLab compared with multiple DevOps tools](devops_single_multiple_tool_comparison.png)](dataflow.html)
+[![DevOps GitLab compared with multiple DevOps tools](/images/product/categories/gitlab-the-product/single-application/devops_single_multiple_tool_comparison.png)](dataflow.html)
 
 ### How does having one application vs many applications impact the workflow?
 
