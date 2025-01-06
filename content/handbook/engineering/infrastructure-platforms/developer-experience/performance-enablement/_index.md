@@ -159,11 +159,11 @@ and continue to improve.
 
 To weigh an issue, consider the following important factors:
 
-* Volume of work: expected size of the change to the code base or validation testing required.
-* Amount of investigation or research expected.
-* Complexity:
-  * Problem understanding: how well the problem is understood.
-  * Problem-solving difficulty: the level of difficulty we expect to encounter.
+- Volume of work: expected size of the change to the code base or validation testing required.
+- Amount of investigation or research expected.
+- Complexity:
+  - Problem understanding: how well the problem is understood.
+  - Problem-solving difficulty: the level of difficulty we expect to encounter.
 
 The following weights are available based on the Fibonacci Series with 8 being the highest assignable number. The definitions are as below:
 
