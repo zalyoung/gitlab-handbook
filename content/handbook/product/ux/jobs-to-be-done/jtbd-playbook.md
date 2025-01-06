@@ -193,7 +193,7 @@ Resources:
 
 [Opportunity scores](https://medium.com/uxr-microsoft/what-is-the-opportunity-score-and-how-to-obtain-it-bb81fcbf79b7) run from 0-20. Even scores below 10 indicate room for improvement - prioritize highest scores within your range.
 
-![JTBD Opportunity Score](/handbook/product/ux/jobs-to-be-done/JTBD_OpportunityScore.png)
+![JTBD Opportunity Score](/images/product/ux/jobs-to-be-done/JTBD_OpportunityScore.png)
 
 1. Satisfaction gap: Importance - Satisfaction
 1. Opportunity score: Importance + Satisfaction gap

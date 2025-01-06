@@ -91,7 +91,7 @@ Related Jobs are often within the same or adjacent Domain. For example, A Relate
 
 ## Main Job Hierarchy
 
-![Job Map](JTBD_MainJob_Hierarchy.png)
+![Job Map](/images/product/ux/jobs-to-be-done/outcome-driven-innovation-pilot/JTBD_MainJob_Hierarchy.png)
 
 ### Job Statements
 
@@ -190,7 +190,7 @@ An Outcome statement is the benchmark by which Job Performers gauge success in a
 
 💡 Every Job Step and Consumption Job will have three outcome statements, one for each dimension.
 
-![Outcome Mapping](./Concepts_Outcome_mapping.png)
+![Outcome Mapping](/images/product/ux/jobs-to-be-done/outcome-driven-innovation-pilot/Concepts_Outcome_mapping.png)
 
 ### Measuring Outcome statements
 
