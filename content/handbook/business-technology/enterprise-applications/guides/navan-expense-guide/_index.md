@@ -27,15 +27,15 @@ Navan Expense is available via Okta. To access the platform:
   - Navan mobile app is compatible with iOS 15 or later.
 - Open the app and select `Sign in with Email`.
 
-![navan-image-20](/handbook/business-technology/enterprise-applications/guides/navan-expense-guide/signin.jpg)
+![navan-image-20](/images/business-technology/enterprise-applications/guides/navan-expense-guide/signin.jpg)
 
 - Add your GitLab email and click `Continue`.
 
-![navan-image-21](/handbook/business-technology/enterprise-applications/guides/navan-expense-guide/work-email.png)
+![navan-image-21](/images/business-technology/enterprise-applications/guides/navan-expense-guide/work-email.png)
 
 - Select `Sign in with Okta SSO`.
 
-![navan-image-22](/handbook/business-technology/enterprise-applications/guides/navan-expense-guide/okta.jpg)
+![navan-image-22](/images/business-technology/enterprise-applications/guides/navan-expense-guide/okta.jpg)
 
 {{% alert title="Note" color="info" %}}
 If you have the *TripActions Liquid* app, you can delete it from your device.
@@ -58,19 +58,19 @@ Import business transactions paid for in cash or charged on a personal card for 
 - **Deposited**: Transactions that have been deposited and the deposit date.
 - **Rejected**: Transactions that were rejected by the approver.
 
-![liquid-image-14](/handbook/business-technology/enterprise-applications/guides/navan-expense-guide/reimbursement-process.png)
+![liquid-image-14](/images/business-technology/enterprise-applications/guides/navan-expense-guide/reimbursement-process.png)
 
 #### My policies
 
 The policy tab provides an overview of your assigned policies by expense type. Please note that this section is customized to your specific policy, as assigned by the Finance team. Users will have different policies assigned depending on their anticipated expenditures and role.
 
-![liquid-image-23](/handbook/business-technology/enterprise-applications/guides/navan-expense-guide/policies.png)
+![liquid-image-23](/images/business-technology/enterprise-applications/guides/navan-expense-guide/policies.png)
 
 #### My transactions
 
 The four types of transactions in Navan Expense are organized into folders in the My transactions section: `Drafts`, `Navan card`(if applicable), `Purchase cards`(if applicable), and `Manual`. Depending on your settings, you may see some or all of these types of transactions under the tab.
 
-![liquid-image-24](/handbook/business-technology/enterprise-applications/guides/navan-expense-guide/transactions.png)
+![liquid-image-24](/images/business-technology/enterprise-applications/guides/navan-expense-guide/transactions.png)
 
 #### To dos
 
@@ -97,7 +97,7 @@ Access your profile by tapping the `Profile` icon located in the top-right corne
 
 Sign in to your Navan account from a web browser, click the `Navan Expense` tab on the left, then select `Expense` under the Expense section. The Navan Expense web app has three main components: `Transactions` (All, To-do, My money, Drafts), `Cards`, and `Settings`.
 
-![liquid-image-25](/handbook/business-technology/enterprise-applications/guides/navan-expense-guide/components.png)
+![liquid-image-25](/images/business-technology/enterprise-applications/guides/navan-expense-guide/components.png)
 
 #### Transactions (All)
 
@@ -209,7 +209,7 @@ Please note that you can link only one account at a time. To add a different acc
 3. Expand the `Bank Account` section.
 4. Click on `Link bank account manually`.
 
-![liquid-image-31](/handbook/business-technology/enterprise-applications/guides/navan-expense-guide/web-bank-account.png)
+![liquid-image-31](/images/business-technology/enterprise-applications/guides/navan-expense-guide/web-bank-account.png)
 
 > Check the *[How do I connect my personal banking information to Navan Expense?](https://app.navan.com/app/helpcenter/articles/expense/myself/getting-started-for-expense-users/connect-personal-banking)* article to learn how to connect your card or account.
 
@@ -242,7 +242,7 @@ To upload a receipt, tap `+New transaction`, then `Scan a receipt`. Upload or ta
 
 When uploading a receipt image, most of the required transaction information will auto-populate. It is recommended that you review the final numbers and transaction details before submitting your expense to ensure accuracy.
 
-![liquid-image-11](/handbook/business-technology/enterprise-applications/guides/navan-expense-guide/receipt-scanner.png)
+![liquid-image-11](/images/business-technology/enterprise-applications/guides/navan-expense-guide/receipt-scanner.png)
 
 {{% alert title="Note" color="warning" %}}
 You will need to grant the Navan Expense app access to your phone's camera or camera roll in order to take or access a saved picture of your receipts.
@@ -252,7 +252,7 @@ You will need to grant the Navan Expense app access to your phone's camera or ca
 
 To receive reimbursement for a business transaction charged to a personal card, tap `+New transaction` and select `Import from personal card`. If you have not previously linked your personal card(s) check the *[How to connect my personal banking details to Navan Expense](/handbook/business-technology/enterprise-applications/guides/navan-expense-guide/#how-to-connect-my-personal-banking-details-to-navan-expense)* section for detailed instructions. Once your card is linked, select from the transactions shown on the `Import and submit` screen and submit for reimbursement.
 
-![liquid-image-12](/handbook/business-technology/enterprise-applications/guides/navan-expense-guide/import.png)
+![liquid-image-12](/images/business-technology/enterprise-applications/guides/navan-expense-guide/import.png)
 
 {{% alert title="Tip" color="info" %}}
 If you have recently been on a trip booked through Navan and would like to be reimbursed for a trip-related expense, toggle `View by trips` on to view only transactions that occurred on the date(s) of your trip(s).
@@ -262,7 +262,7 @@ If you have recently been on a trip booked through Navan and would like to be re
 
 If you have not linked your personal cards to your profile or if a receipt was misplaced or not provided, tap `+New transaction`, select `Type in details` and input your expense details. Please note that a receipt must be submitted as expenses may not be approved for reimbursement when a receipt is not included.
 
-![liquid-image-13](/handbook/business-technology/enterprise-applications/guides/navan-expense-guide/manually-type.png)
+![liquid-image-13](/images/business-technology/enterprise-applications/guides/navan-expense-guide/manually-type.png)
 
 #### Receipt Import
 
@@ -309,7 +309,7 @@ Participants can be added to certain transaction types to provide your company a
   - To add participants outside of your company, such as customers or guests, use the `+` icon to enter the new participant's information (first name, last name, and email address).
 - Tap `Save` to save your changes.
 
-![liquid-image-1](/handbook/business-technology/enterprise-applications/guides/navan-expense-guide/add-participants.png)
+![liquid-image-1](/images/business-technology/enterprise-applications/guides/navan-expense-guide/add-participants.png)
 
 #### Change expense type
 
@@ -328,7 +328,7 @@ GitLab uses GL codes to map and track spend for specific types of expenses. If t
 - Select a GL code and click `Save`.
 - Tap `Save` on the transaction detail page.
 
-![liquid-image-3](/handbook/business-technology/enterprise-applications/guides/navan-expense-guide/change-gl.png)
+![liquid-image-3](/images/business-technology/enterprise-applications/guides/navan-expense-guide/change-gl.png)
 
 #### Link a Related Trip
 
@@ -338,7 +338,7 @@ Transactions made with a Navan card during a business trip will automatically be
 - Navan Expense will provide a list of suggested trips booked in Navan for you to select from.
 - Once a trip has been selected, tap `Save` to save your changes.
 
-![liquid-image-4](/handbook/business-technology/enterprise-applications/guides/navan-expense-guide/related-trip.png)
+![liquid-image-4](/images/business-technology/enterprise-applications/guides/navan-expense-guide/related-trip.png)
 
 #### Withdraw a Transaction
 
@@ -349,7 +349,7 @@ If you submit a manual transaction for an out-of-pocket expense that is not comp
 
 Once a transaction has been withdrawn, it will no longer appear on the admin's dashboard or under your transaction history.
 
-![liquid-image-5](/handbook/business-technology/enterprise-applications/guides/navan-expense-guide/withdraw.png)
+![liquid-image-5](/images/business-technology/enterprise-applications/guides/navan-expense-guide/withdraw.png)
 
 > Check the *[How can I modify or add transaction details?](https://app.navan.com/app/helpcenter/articles/expense/myself/managing-my-expenses/modify-transaction-details)* article for more details on how to modify a manual transaction.
 
@@ -366,7 +366,7 @@ To submit a manual expense with multiple receipts, open the Navan Expense mobile
 3. Use the `crop icon` if edits are needed. Use the trash can icon to remove unneeded images.
 4. Tap `Use photos`. After the receipt information is scanned, you will be directed back to the expense screen, where you can review the information retrieved from the receipt and finish inputting the transaction details.
 
-![liquid-image-6](/handbook/business-technology/enterprise-applications/guides/navan-expense-guide/new-transactions.png)
+![liquid-image-6](/images/business-technology/enterprise-applications/guides/navan-expense-guide/new-transactions.png)
 
 #### Submitted Transactions
 
@@ -377,7 +377,7 @@ To attach multiple receipts to transactions that have already been submitted, fo
    - If you have not uploaded any receipts, tap `Add receipt`  then select the method you would like to upload (`Add photos`, `Add PDF`, or `Replace receipt`).
    - If you need to add more receipts to a transaction that already has a receipt(s) attached, tap `View`, then select the method you would like to upload (`Add photos`, `Add PDF`, or `Replace receipt`).
 
-![liquid-image-7](/handbook/business-technology/enterprise-applications/guides/navan-expense-guide/submitted-transactions.png)
+![liquid-image-7](/images/business-technology/enterprise-applications/guides/navan-expense-guide/submitted-transactions.png)
 
 > Check the *[How do I attach multiple receipts to the same transaction?](https://app.navan.com/app/helpcenter/articles/expense/myself/submitting-expenses/multiple-receipts)* article for more details.
 
@@ -406,7 +406,7 @@ Users can itemize their own manual transactions at any time **before they have b
 7. Review the items captured from the receipt. Change the expense type, delete an item, or mark an item as a personal expense to remove it from the portion that will be submitted for reimbursement. Tap `Add new item` if you need to another item to the transaction.
 8. Tap `Save` to finish and submit your transaction.
 
-![liquid-image-8](/handbook/business-technology/enterprise-applications/guides/navan-expense-guide/itemize.png)
+![liquid-image-8](/images/business-technology/enterprise-applications/guides/navan-expense-guide/itemize.png)
 
 #### Itemizing a manual transaction after expense submission
 
@@ -436,7 +436,7 @@ Once received, a push notification (if enabled on your device) will confirm that
 - **Successful receipt/transaction match:** Shortly after emailing your receipt, you will receive a push notification that your receipt has been matched with an existing Navan Expense transaction. Tap the notification to be directed to the transaction in the mobile app, or navigate to the `My Transactions` section to view the transaction to which the receipt was added. Review the transaction to confirm that all of the information is correct.
 - **Draft created:** Shortly after emailing your receipt, you will receive a push notification that your receipt has been imported and that a transaction draft has been created and saved in the `Drafts` folder. Open the transaction to review, fill in all required fields, then submit.
 
-![liquid-image-26](/handbook/business-technology/enterprise-applications/guides/navan-expense-guide/emailing-receipts.png)
+![liquid-image-26](/images/business-technology/enterprise-applications/guides/navan-expense-guide/emailing-receipts.png)
 
 {{% alert color="warning" %}}
 If the receipt import is attached to the wrong transaction or if it needs to be replaced, see the next section, [Managing Imported Receipts](/handbook/business-technology/enterprise-applications/guides/navan-expense-guide/#managing-imported-receipts), for instructions.
@@ -477,7 +477,7 @@ Move the receipt to another transaction or replace it from a receipt's ellipsis 
 - Your device's camera will open and allow you to take a picture of a new receipt. Tap `Use photo` to import the new receipt into the transaction.
 - Review the transaction details and choose `Delete, Save & close`, or `Submit`.
 
-![liquid-image-9](/handbook/business-technology/enterprise-applications/guides/navan-expense-guide/replace_receipt.png)
+![liquid-image-9](/images/business-technology/enterprise-applications/guides/navan-expense-guide/replace_receipt.png)
 
 > Check the *[How can I automatically add receipts to my transactions?](https://app.navan.com/app/helpcenter/articles/expense/myself/submitting-expenses/automatic-receipts)* article for more details.
 
