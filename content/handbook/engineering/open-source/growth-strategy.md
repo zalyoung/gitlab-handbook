@@ -88,7 +88,7 @@ Incentivize, attract and retain contributors by providing a compelling value and
 
 #### Contributor recognition & advancement system
 
-* **Why:** In Open Source Projects, one of the contributors' motivation in addition to solving a bug or adding a missing feature is to get experience and build their online presence. This can be solved through levelling-up, badging or other incentivizing systems. In addition, providing sustained and impactful recognition to recognize & retain our contributors. Increase frequency and targeted recognition to types and persona of contributors
+* **Why:** In open source projects, contributors are motivated not only by solving bugs or adding features but also by gaining experience and building their online presence. This can be solved through levelling-up, badging or other incentivizing systems. In addition, providing sustained and impactful recognition to recognize & retain our contributors. Increase frequency and targeted recognition to types and persona of contributors
 * **DRI:** [Contributor Success team](/handbook/marketing/developer-relations/contributor-success/)
 
 ### Foster Diversity, Equity, and Inclusion
