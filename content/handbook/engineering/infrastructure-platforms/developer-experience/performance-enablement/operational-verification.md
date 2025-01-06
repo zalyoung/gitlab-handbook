@@ -10,6 +10,54 @@ Many of the checks that we need to do would be painful or difficult to test and 
 
 A better approach would be to enhance GitLab's endpoints / health checks to allow the instance to tell us that it is configured correctly and getting responses, that way we are getting direct information on the check.
 
+```mermaid
+flowchart TB
+    subgraph Goal["Performance Testing Enablement"]
+        Portal["Developer Portal (Self-Service)"]
+    end
+
+    subgraph P1["Pillar 1: Deployment Verification"]
+        DV1["Instance Stability"]
+        DV2["Reliability Checks"]
+    end
+
+    subgraph P2["Pillar 2: Feature Performance"]
+        subgraph Load["Load Testing"]
+            L1["GPT Tests"]
+            L2["Reference Architecture"]
+        end
+        subgraph Dev["Developer Focus"]
+            D1["Instrumented Testing"]
+            D2["Contract Testing"]
+            D3["Profiling"]
+        end
+        subgraph Exp["Exploratory"]
+            E1["Chaos Testing"]
+            E2["What-if Scenarios"]
+        end
+    end
+
+    subgraph P3["Pillar 3: Observability"]
+        O1["Test Environment Monitoring"]
+        O2["Production Monitoring"]
+        O3["Performance Prediction"]
+    end
+
+    subgraph P4["Pillar 4: Data Store"]
+        DS1["Realistic Customer Model"]
+        DS2["Data Generation Tools"]
+        DS3["Performance Baselines"]
+    end
+
+    Portal --> P1
+    Portal --> P2
+    Portal --> P3
+    Portal --> P4
+    
+    P4 --> P2
+    P3 --> P2
+    P3 --> P1
+```
 ### Approach
 
 Deploy verification checks can be divided into three approaches:
