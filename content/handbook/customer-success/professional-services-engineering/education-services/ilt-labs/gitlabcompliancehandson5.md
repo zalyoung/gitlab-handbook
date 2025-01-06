@@ -81,7 +81,7 @@ h.md5('1')
 
 1. Select **Create merge request**.
 
-1. Review the pipeline created from the merge request. Notice that it has a `semgrep-sast` job even though it's not defined in `Compliance Project`. This job comes from our pipeline execution policy.
+1. Review the pipeline created from the merge request. Notice that it has a `semgrep-sast` job even though it's not defined in `Compliance Project`. This job comes from our pipeline execution policy. Note that we were able to *add* a job into the pipeline because we used the 'inject' keyword when setting up our policy. If we instead used the 'override' keyword, it would run this job *instead of* the jobs in your pipeline.
 
 1. Return to your merge request. You will see that there is one new vulnerability, detected by the SAST scanner. 
 
