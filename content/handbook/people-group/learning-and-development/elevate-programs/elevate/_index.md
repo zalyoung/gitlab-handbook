@@ -2,9 +2,9 @@
 title: Elevate
 ---
 
-**Note**: We're making some changes to the Elevate program currently, so this page is under construction as we roll out the new iteration of the program, to view information about the previous version of Elevate (if you enrolled before October 2024), please visit the [Elevate - Previous Iterations](./elevatev1.md) page.
-
 Elevate is a live virtual leadership development program for GitLab managers, focused on understanding leadership competencies, building emotional intelligence, giving and recieving great feedback, coaching, and recognizing unconscious bias.
+
+**Note**: We're making some changes to the Elevate program currently, so this page is under construction as we roll out the new iteration of the program, to view information about the previous version of Elevate (if you enrolled before October 2024), please visit the [Elevate - Previous Iterations](./elevatev1.md) page.
 
 Managers at GitLab enable our mission that [everyone can contribute]({{< ref "mission" >}}). We need to equip our people leaders with the skills to lead globally dispersed, all-remote teams to support our business growth at scale.
 
