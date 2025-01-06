@@ -2,7 +2,7 @@
 MREPORT=markdownlint-cli2-codequality.json
 VREPORT=vale-codequality.json
 HREPORT=handbook-codequality.json
-LREPORT=linkcheck.json
+LREPORT=latest.json
 ERRORS=()
 MSG=""
 REPO_URL="https://gitlab.com/gitlab-com/content-sites/handbook"
@@ -74,6 +74,20 @@ generate_table() {
           fi
       fi
     done
+
+    # Process linkcheck report
+    LENGTH=$(jq '. | length' $LREPORT)
+    for i in $(seq 0 $((LENGTH-1))); do
+      FILE=$(jq -r ".[$i].location.path" $LREPORT)
+      LINE=$(jq -r ".[$i].location.lines.begin" $LREPORT)
+      LOC="$REPO_URL/-/blob/$CI_COMMIT_SHA/$FILE#L$LINE"
+      DESCRIPTION=$(jq -r ".[$i].description" $LREPORT | cut -d ':' -f 2-)
+      ERRORS+=( $ERROR )
+      if [[ "$ERROR" ]]; then
+        MSG+="| Broken link | [$FILE]($LOC) | [$LINE]($LOC) | $DESCRIPTION |\n"
+      fi
+    done
+
     MSG+="\n"
 }
 
@@ -86,9 +100,6 @@ generate_addition_messages() {
             CODEOWNER)      MSG+="> 🛑 You have marked a handbook page as a controlled document without adding an entry to the controlled-documents section of CODEOWNERS.\n\n"
         esac
     done
-    if [ -f "$LREPORT" ] && [ "$(jq 'length > 0' "$LREPORT")" = "true" ]; then
-        MSG+="> ⚠️ If you are **renaming, moving, or deleting pages**, please check the Code Quality report, or the hugolint job's artifact files, to see if there are any related broken links.\n\n"
-    fi
 }
 
 # Create an array of the report variables

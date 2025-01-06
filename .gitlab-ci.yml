@@ -336,8 +336,9 @@ hugolint:
     paths:
       - linkcheck.json
       - missinglinks.txt
+      - latest.json
     reports:
-      codequality: linkcheck.json
+      codequality: latest.json
 
 secret_detection:
   stage: build
