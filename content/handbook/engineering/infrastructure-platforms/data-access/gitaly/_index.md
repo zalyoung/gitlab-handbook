@@ -50,7 +50,7 @@ If you still need help, please file an issue [here](https://gitlab.com/gitlab-co
 
 #### Future oncall rotation
 
-NOTE: Gitaly is working on second-tier [on-call coverage](#gitaly-oncall-rotation) for well-defined emergencies only. This is not enabled yet; the tentative start date is 2025-01-01.
+NOTE: Gitaly is working on second-tier [on-call coverage](#gitaly-oncall-rotation) for well-defined emergencies only. This is not enabled yet; the start date is 2025-02-03.
 
 Please do not page oncall outside of these cases; contact Support instead!
 
@@ -105,8 +105,8 @@ Gitaly team is in the process of establishing an oncall rotation to provide
 focused expertise to production SaaS systems. This is currently in
 [pilot](https://gitlab.com/groups/gitlab-org/core-platform-section/-/epics/4),
 and replaces the **Incident Manager On-Call (IMOC)** and **Engineer On-Call
-(EOC)** responsibilities for Gitaly team members. **The tentative start date is
-2025-01-01.**
+(EOC)** responsibilities for Gitaly team members. **The start date is
+2025-02-03.**
 
 - Rotation is staffed during working hours of team members (no weekends). This still covers 24h of workdays, given the distribution of Gitaly team members, but without guarantees (see [Who is oncall](#who-is-oncall) below)
   - Weekends are explicitly out of scope (not staffed), and escalation must fall back to the current EOC rotation.
