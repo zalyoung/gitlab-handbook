@@ -2,7 +2,7 @@
 MREPORT=markdownlint-cli2-codequality.json
 VREPORT=vale-codequality.json
 HREPORT=handbook-codequality.json
-LREPORT=latest.json
+LREPORT=new_broken_links.json
 ERRORS=()
 MSG=""
 REPO_URL="https://gitlab.com/gitlab-com/content-sites/handbook"

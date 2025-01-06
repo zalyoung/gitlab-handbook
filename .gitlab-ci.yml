@@ -329,6 +329,7 @@ hugolint:
       if [ "${CI_PIPELINE_SOURCE}" == "merge_request_event" ]; then
         hugolint codequality latest --artifact 'linkcheck.json' >'latest.json'
         hugolint codequality diff --exit-code 'latest.json' 'linkcheck.json'
+        jq -s '.[1] - .[0]' latest.json linkcheck.json > new_broken_links.json
       fi
   artifacts:
     when: always
@@ -336,9 +337,9 @@ hugolint:
     paths:
       - linkcheck.json
       - missinglinks.txt
-      - latest.json
+      - new_broken_links.json
     reports:
-      codequality: latest.json
+      codequality: new_broken_links.json
 
 secret_detection:
   stage: build
