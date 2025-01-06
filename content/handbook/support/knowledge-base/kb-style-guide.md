@@ -48,7 +48,7 @@ This section describes the symptoms, task or situation that would need a solutio
 
 ### Environment
 
-The environment quickly highlights what custom configs, installation types, or versions are relevant to the KB. 
+The environment quickly highlights what custom configs, installation types, or versions are relevant to the KB.
 
 - Use bullet points when possible
 - Impacted offerings - aligns with the Offering section of Docs pages
@@ -65,17 +65,17 @@ The solution section clearly lists the steps a user must follow to resolve the i
 1. Change the title of this section to best fit its content: Solution or Workaround
 1. Describe steps needed to resolve or work around the issue. Steps should be as concise as possible:
 
-  1. Connect to database: `sudo gitlab-psql connect`
-  1. Run:
-  ```sql
-    --- comment: fixes complicated thing
-    <complicated command>
-  ```
+   1. Connect to database: `sudo gitlab-psql connect`
+   1. Run:
+   ```sql
+  --- comment: explain what complicated command does if not obvious
+  <complicated command>
+   ```
 
 - For different environments, list commands as sub-bullets
   - Linux: `<command>`
   - macOS: `<command>`
-- Use ordered lists for tasks that must be completed sequentally. Use "1" for all items to allow for steps to be added or removed in the future.
+- Use ordered lists for tasks that must be completed sequentially. Use "1" for all items to allow for steps to be added or removed in the future.
 - Use bullet points for unordered steps.
 - Link to pre-existing documentation when possible.
 
