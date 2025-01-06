@@ -132,13 +132,7 @@ Our Slack channel is: [#g_durability](https://gitlab.enterprise.slack.com/archiv
 
 ## Dedicated
 
-In order to deal with RFHs as efficiently as possible we have a number of issue templates. Please use the appropriate issue template for your request.
-
-1. For a Private Link Config Request raise an issue in the Request For Help Tracker using the [Private Link Request template](https://gitlab.com/gitlab-com/request-for-help/-/issues/new?issuable_template=SupportRequestTemplate-GitLabDedicatedPrivateLinkRequest)
-1. For a SAML Config Request raise an issue in the Request For Help Tracker using the [SAML Config Request template](https://gitlab.com/gitlab-com/request-for-help/-/issues/new?issuable_template=SupportRequestTemplate-GitLabDedicatedSAMLConfigRequest)
-1. For a Switchboard Request for Help raise an issue in the Request For Help Tracker using the standard [Dedicated Request template](https://gitlab.com/gitlab-com/request-for-help/-/issues/new?issuable_template=SupportRequestTemplate-GitLabDedicatedRequest)
-1. For a standard request for help raise an issue in the Request For Help Tracker using the [Switchboard Request template](https://gitlab.com/gitlab-com/request-for-help/-/issues/new?issuable_template=SupportRequestTemplate-Switchboard)
-
+Raise an issue in the [GitLab Dedicated issue tracker](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/team) using the `Request for Help` template which will add the ~"Dedicated::Request for Help" label. For Switchboard requests use the `Request for Switchboard Help` template which will divert your request to the Switchboard team.
 
 We can help with:
 
