@@ -53,11 +53,10 @@ flowchart TD
     end
 
     Perf --> Guide
-    Dev --> Portal
-    Dev --> Guide
+    Dev <--> Portal
+    Dev <--> Guide
     Portal --> Guide
-    Guide --> Dev
-
+    
     style EC fill:#98FB98,stroke:#333,stroke-width:2px
     style YBR fill:#FFD700,stroke:#333,stroke-width:2px
     style Guide fill:#87CEEB,stroke:#333
