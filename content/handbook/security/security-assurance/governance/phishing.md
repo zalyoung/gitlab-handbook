@@ -41,7 +41,7 @@ The phishing simulation email from ProofPoint will appear as though it is origin
 
 Just like with any suspected phishing or malicious email, follow the [handbook process](#what-to-do-if-you-suspect-an-email-is-a-phishing-attack) for reporting suspected phishing emails.  The preference for reporting phishing emails is Option 1 via PhishArm.
 
-![PhishArm icon](/images/PhishArm.png)
+![PhishArm icon](/images/security/security-assurance/governance/PhishArm.png)
 
 #### What happens if I click the link?
 
@@ -75,7 +75,7 @@ The Security Governance team will initiate and track the quarterly phishing simu
 
 *I didn't click the link in the email, what do I do?*
 
-- Please forward the email via the <img alt="PhishArm button" src="/images/security/security-assurance/PhishArm.png" height="32" width=32> or as an attachment to phishing@gitlab.com using these [instructions](#what-to-do-if-you-suspect-an-email-is-a-phishing-attack). Knowing this is a phishing simulation, please avoid discussing with anyone else or feel compelled to post a screenshot of the email received in Slack as it may skew the results of the phishing exercise.
+- Please forward the email via the <img alt="PhishArm button" src="/images/security/security-assurance/governance/PhishArm.png" height="32" width=32> or as an attachment to phishing@gitlab.com using these [instructions](#what-to-do-if-you-suspect-an-email-is-a-phishing-attack). Knowing this is a phishing simulation, please avoid discussing with anyone else or feel compelled to post a screenshot of the email received in Slack as it may skew the results of the phishing exercise.
 
 *I got assigned training without clicking the link in the email, what do I do?*
 
@@ -203,7 +203,7 @@ To submit an email via PhishArm to GitLab's Security Team using Gmail:
 1. Confirm you are ready to report the Phishing email
 1. Receive a confirmation that the email has been forwarded to GitLab Security Team for further investigation.
 
-![PhishArm](/images/PhishArm-Use.png)
+![PhishArm](/images/security/security-assurance/governance/PhishArm-Use.png)
 
 #### Manual submission of phishing email to `phishing@gitlab.com`
 
