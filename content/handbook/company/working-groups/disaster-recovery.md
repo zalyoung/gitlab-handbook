@@ -51,3 +51,4 @@ The exit criteria and target goals for the working group are defined [here](http
 - [Backup and recovery of gitlab.com](https://handbook.gitlab.com/handbook/engineering/gitlab-com/policies/backup/)
 - (internal handbook) [gitlab.com Disaster Recovery](https://internal.gitlab.com/handbook/engineering/disaster-recovery/) including RTO/RPO targets
 - [GitLab Dedicated Disaster Recovery Plan](https://handbook.gitlab.com/handbook/engineering/infrastructure/team/gitlab-dedicated/slas/#disaster-recovery-plan)
+- Followup: [Align on the Performance Indicator for Disaster Recovery capabilities for GitLab.com and GitLab Dedicated](https://gitlab.com/gitlab-com/gl-infra/mstaff/-/issues/397)
