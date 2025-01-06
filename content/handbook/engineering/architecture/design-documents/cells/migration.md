@@ -195,7 +195,7 @@ All remaining top-level GitLab groups on the legacy Cell will be moved to the Gi
 
 ### Cells 2.0
 
-At this stage it is anticipated that we will have a fleet of Cells. Load across these Cells will need to be rebalanced as Organizations grow requiring a mechanism for moving Organizations between seconary Cells. Org mover will be evolved to move Organizations between secondary Cells.
+At this stage it is anticipated that we will have a fleet of Cells. Load across these Cells will need to be rebalanced as Organizations grow requiring a mechanism for moving Organizations between secondary Cells. Org mover will be evolved to move Organizations between secondary Cells.
 
 There is also a need to move top-level groups between Organizations that are on different Cells. The primary use case is to support mergers between two customer Orgazations. We do not currently have solution for this. We will in due course evaluate where the Org mover should be evolved move top-levels groups between secondary Cells and other approaches.
 
