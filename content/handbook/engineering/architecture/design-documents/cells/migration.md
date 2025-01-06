@@ -163,7 +163,7 @@ We will migrate a few small GitLab internal top-level groups to a secondary cell
 
 ![org-migrations-cells-1-0](/images/design-documents/cells/org_migrations_cells_1_0.png)
 
-All existing top-level Groups on GitLab.com are part of the `default Organization`. A list of all GitLab top-level groups can be found [here(internal link)](https://docs.google.com/spreadsheets/d/18JSGNWYXhAofSqPPLCh_wb0dc9wTT9HuOucHegmsYhA/edit#gid=0).
+All existing top-level Groups on GitLab.com are part of the `default Organization`. A list of all GitLab top-level groups can be found [here (internal link)](https://docs.google.com/spreadsheets/d/18JSGNWYXhAofSqPPLCh_wb0dc9wTT9HuOucHegmsYhA/edit#gid=0).
 
 We will create a new temporary organization (GitLab inc) on the secondary cell.
 
