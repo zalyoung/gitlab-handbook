@@ -209,4 +209,3 @@ The Senior Director of Product Design is a [grade 11](/handbook/total-rewards/co
 - [Experience baselines](handbook.gitlab.com/handbook/product/ux/performance-indicators/#experience-baselines)
 - [Pajamas component migrations](handbook.gitlab.com/handbook/product/ux/performance-indicators/#pajamas-component-migrations)
 - [Deferred UX](handbook.gitlab.com/handbook/product/ux/performance-indicators/#deferred-ux)
-
