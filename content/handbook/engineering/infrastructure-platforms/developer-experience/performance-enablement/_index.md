@@ -24,7 +24,7 @@ flowchart TD
             DV[Operational Verification]
             SF[Self-Service Performance]
             OB[Observability Performance]
-            DS[Data Store]
+            DS[Realistic Data Store]
         end
         Portal --- DV
         Portal --- SF
