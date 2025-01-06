@@ -142,7 +142,7 @@ We could move organizations using [Direct transfer](https://docs.gitlab.com/ee/u
 
 We will need to adopt different approaches for each [major stage](_index.md#cells-iterations) of the Cells evolution based on which technologies are available at each stage.
 
-As we discuss forming and migrating Organizations it's important to call out that top-level groups will retain their access URL as they move between Organizations. For example, when a customer's top-level groups are moved from the [Default Organization](../organization/_index.md#default-organization) to and Organization of thier own they methods of access are unchanged. This means bookmarks, git remote URLs, etc .. for projects in these top-level groups remain unchanged and require no action from users or updates to automation after a migration.
+As we discuss forming and migrating Organizations it's important to call out that top-level groups will retain their access URL as they move between Organizations. For example, when a customer's top-level groups are moved from the [Default Organization](../organization/_index.md#default-organization) to an Organization of their own, their methods of access are unchanged. This means bookmarks, git remote URLs, etc .. for projects in these top-level groups remain unchanged and require no action from users or updates to automation after a migration.
 
 ### Cells 1.0
 
