@@ -126,7 +126,7 @@ graph TD
 
 Zuora Billing is a key module within the **[Lead to Cash workflow](/handbook/business-technology/enterprise-applications/entapps-crm/quote-to-cash/#lead-to-cash-flow)**.
 
-![Lead to Cash Workflow](/handbook/business-technology/tech-stack-guide/2022-06-03_lead_to_cash_flow.png)
+![Lead to Cash Workflow](/images/business-technology/tech-stack-guide/2022-06-03_lead_to_cash_flow.png)
 
 ### Key Reports / Dashboards
 
@@ -142,7 +142,7 @@ We also have a collection of Tableau dashboards that include Zuora Data. These d
 
 The [Zuora Billing business object model](https://knowledgecenter.zuora.com/Get_Started/Zuora_business_object_model) presents how Zuora is organized internally.
 
-![Zuora Billing Data Model](/handbook/business-technology/tech-stack-guide/2020_08_01_Zuora_Billing_object_model.png)
+![Zuora Billing Data Model](/images/business-technology/tech-stack-guide/2020_08_01_Zuora_Billing_object_model.png)
 
 ### Key Data Objects
 
