@@ -68,7 +68,7 @@ The solution section clearly lists the steps a user must follow to resolve the i
    1. Connect to database: `sudo gitlab-psql connect`
    1. Run:
 
-   ```sql
+   ```pgsql
 
   --- comment: explain what complicated command does if not obvious
   <complicated command>
