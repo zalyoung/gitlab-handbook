@@ -5,7 +5,14 @@ description: "Performance Enablement team within Developer Experience sub-depart
 
 ![Emerald City](./images/DALL·E%20Emerald%20City.webp)
 
-Performance Enablement strives to transform GitLab's performance testing from reactive to proactive by creating a comprehensive developer portal (our Emerald City) that empowers teams to detect and prevent performance issues early in the development lifecycle. Our first four key pillars ( Deployment Verification, Self-Service Feature Performance, Observability, and Realistic Data Store) will enable teams to make data-driven decisions, reduce deployment complexity, and foster a culture of performance awareness, ultimately leading to better engineering efficiency and customer satisfaction.
+Performance Enablement enables internal teams to build reliable systems and deliver seamless customer experiences through our comprehensive developer portal (our Emerald City). We transform GitLab's performance testing from reactive to proactive by providing tooling, frameworks, best practices, and solutions that foster a culture of performance awareness. Working closely with product groups, we develop application standardization and production readiness quality gates to ensure consistent performance and reliability outcomes, empowering teams to detect and prevent performance issues early in the development lifecycle.
+
+The first four pillars in the Emerald City will be:
+
+- Operational Verification
+- Self-Service Feature Performance
+- Observability Performance
+- Realistic Data Store
 
 Journey Diagram
 
