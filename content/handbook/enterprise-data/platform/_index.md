@@ -716,6 +716,12 @@ No dbt models exist for this data and so it may be the case that the data needs 
 - Data is stored in different schemas based on the source
 - User access can be controlled by schema and tables
 
+##### Snowflake Data Share
+
+Snowflake data share enables sharing of snowflake database tables from one account and also allows access to data shared from external accounts. This involves creating an outbound share of a database in their account and grant access to the snowflake table that needs to be shared to an external account using either web interface/SQL.
+
+Snowflake Data Shares can be seen as an extension of the `raw` layer, but sharded (and) in different accounts. We don't see Snowflake Data Shares as a source from which data needs to be copied, but rather we connect directly to Snowflake Data Shares as we do to the `raw` layer (i.e., with dbt). This approach helps avoid creating extra processes and makes the pipeline more efficient.
+
 #### Prep
 
 This is the first layer of verification and transformation in the warehouse, but is not yet ready for general business use. This database should not be used in Tableau.
