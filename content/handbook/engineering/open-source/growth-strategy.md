@@ -45,7 +45,7 @@ flowchart LR
 
 We're prioritizing these 5 key items to maximize our impact within our current capacity. While all initiatives are valuable, this focused approach allows us to drive meaningful change more effectively.
 
-* [Reduce Open Community MR Age](handbook/engineering/open-source/growth-strategy/#reduce-open-community-mr-age)
+* [Reduce Open Community MR Age](/handbook/engineering/open-source/growth-strategy/#reduce-open-community-mr-age)
 * [Create a compelling contributor value proposition](/handbook/engineering/open-source/growth-strategy/#create-a-compelling-contributor-value-proposition)
 * [Contributor advancement system](/handbook/engineering/open-source/growth-strategy/#contributor-advancement-system)
 * [Returning & Frequent Contributors](/handbook/engineering/open-source/growth-strategy/#returning-frequent-contributors)
