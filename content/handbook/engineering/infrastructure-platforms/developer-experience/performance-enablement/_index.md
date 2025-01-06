@@ -39,7 +39,7 @@ flowchart TD
         Integration --> Feature[Feature Tests]
         Feature --> E2E[End to End Tests]
         E2E --> Review[Review & Deploy]
-        Unit --> Perf[Performance Tests]
+        Unit --> Perf[Performance Results]
         Integration --> Perf
         Feature --> Perf
         E2E --> Perf
