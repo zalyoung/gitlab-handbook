@@ -61,19 +61,19 @@ Team meetings, AMAs, etc. for the Manage:Organization Group
 
 **Product direction**
 
-[Problems to Solve from Product Direction Page](https://about.gitlab.com/direction/manage/#problems-to-solve)
+[Problems to Solve from Product Direction Page](https://about.gitlab.com/direction/foundations/#problems-to-solve)
 
 The Problems to Solve section of Manage's Product Direction Page is the most condensed documentation to understand Manage's big picture focus quickly.
 
 **Performance indicators**
 
-[Metrics from Product Direction Page](https://about.gitlab.com/direction/manage/#metrics)
+[Metrics from Product Direction Page](https://about.gitlab.com/direction/foundations/#metrics)
 
 This link breaks down the performance indicators for each Manage Group clearly and links out to the Internal Handbook PI page.
 
 **Key handbook pages**
 
-[Manage Direction Page](https://about.gitlab.com/direction/manage/)
+[Manage Direction Page](https://about.gitlab.com/direction/foundations/)
 
 [Main Manage Stage Page](/handbook/engineering/development/dev/manage/)
 
@@ -390,7 +390,7 @@ Some seemingly duplicate charts in Dynamic Analysis Metrics are used by the team
 
 **Product direction link**
 
-[Secure product direction page - 1 year plan](https://about.gitlab.com/direction/secure/#1-year-plan)
+[Secure product direction page - 1 year plan](https://about.gitlab.com/direction/application_security_testing/#1-year-plan)
 
 **Performance indicators**
 
@@ -492,7 +492,7 @@ Enablement::Systems is a relatively new Stage. PDI will add helpful video overvi
 
 **Product roadmap link**
 
-[Enablement Product Direction](https://about.gitlab.com/direction/enablement/)
+[Enablement Product Direction](https://about.gitlab.com/direction/core_platform/)
 Includes Stage and Group level details
 
 **Performance indicators**
@@ -557,7 +557,7 @@ Enablement::Data Stores is a relatively new Stage. PDI will add helpful video ov
 
 **Product roadmap link**
 
-[Enablement Product Direction](https://about.gitlab.com/direction/enablement/)
+[Enablement Product Direction](https://about.gitlab.com/direction/core_platform/)
 Includes Stage and Group level details
 
 **Performance indicators**

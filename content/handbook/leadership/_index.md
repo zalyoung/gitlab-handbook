@@ -18,7 +18,7 @@ In an all-remote organization, we want each team member to be a [manager of one]
 1. In tough times people will put in their best effort when they are doing it for each other.
 1. We work [asynchronously](/handbook/company/culture/all-remote/management/#asynchronous). Lead by example and make sure people understand that [things need to be written down in issues as they happen](/handbook/company/culture/all-remote/self-service/#paying-it-forward). Hold your team accountable with documentation.
 1. We are not a democratic or consensus driven company. People are encouraged to give their comments and opinions, but in the end [one person decides](/handbook/people-group/directly-responsible-individuals/) the matter after they have listened to all the feedback.
-1. It is encouraged to disagree and have constructive debates but please [argue intelligently](https://www.brainpickings.org/2014/03/28/daniel-dennett-rapoport-rules-criticism/).
+1. It is encouraged to disagree and have constructive debates but please [argue intelligently](https://www.themarginalian.org/2014/03/28/daniel-dennett-rapoport-rules-criticism/).
 1. We value truth seeking over cohesion.
 1. We avoid [meetings](/handbook/company/culture/all-remote/meetings/), when possible, because they don't support the asynchronous work flow and are hard to conduct due to timezone differences.
 1. Start meetings on time, be on time yourself, don't ask if everyone is there, and don't punish people that have shown up on time by waiting for people or repeating things for those that come late. When a meeting unblocks a process or decision, don't celebrate that but instead address the question: How can we unblock in the future without needing a meeting?
@@ -81,7 +81,7 @@ Giving regular [feedback](/handbook/company/culture/all-remote/effective-communi
 
 ### Identifying root causes
 
-Sometimes when performance dips, the best way to tackle it is to try to determine the root cause. This is easier said than done. There is a great tool that [CEB (now Gartner)](https://www.cebglobal.com/) created to help with this called [performance issue root cause diagnostic](https://offices.depaul.edu/human-resources/employee-relations/Documents/Performance%20Issue%20Root%20Cause%20Diagnostic.pdf). It may not always be possible or appropriate to determine the root cause, so the [underperformance process]({{< ref "underperformance" >}}) should be followed.
+Sometimes when performance dips, the best way to tackle it is to try to determine the root cause. This is easier said than done. There is a great tool that [CEB (now Gartner)](https://www.gartner.com/en) created to help with this called [performance issue root cause diagnostic](https://offices.depaul.edu/human-resources/employee-relations/Documents/Performance%20Issue%20Root%20Cause%20Diagnostic.pdf). It may not always be possible or appropriate to determine the root cause, so the [underperformance process]({{< ref "underperformance" >}}) should be followed.
 
 ## Responding to Negative Feedback
 
@@ -274,11 +274,11 @@ If you're interested in starting or joining an m-team meeting, reach out to othe
 1. [Mental Models I Find Repeatedly Useful](https://medium.com/@yegg/mental-models-i-find-repeatedly-useful-936f1cc405d)
 1. [This Is The Most Difficult Skill For CEOs To Learn](https://www.businessinsider.com/whats-the-most-difficult-ceo-skill-managing-your-own-psychology-2011-4)
 1. Great article about [how to think about PIPs](https://mfbt.ca/how-i-talk-to-leaders-about-firing-people-8149dfcb035b), although our time scales are shorter.
-1. [Impraise Blog: 1-on-1s for Engaged Employees](https://www.impraise.com/blog/how-to-support-effective-remote-performance-management-with-11s)
-1. [Mind Tools: Giving Feedback: Keeping Team Member Performance High, and Well Integrated](https://www.mindtools.com/pages/article/newTMM_98.htm)
+1. [Impraise Blog: 1-on-1s for Engaged Employees](https://web.archive.org/web/20220704002203/https://www.impraise.com/blog/how-to-support-effective-remote-performance-management-with-11s)
+1. [Mind Tools: Giving Feedback: Keeping Team Member Performance High, and Well Integrated](https://www.mindtools.com/a18a0wu/giving-feedback)
 1. [Remote.Co: 5 Tips for Providing Feedback to Remote Workers](https://remote.co/5-tips-for-providing-feedback-to-remote-workers/)
-1. [Really interesting blog post from Hanno on remote team feedback](https://hanno.co/blog/remote-team-feedback/)
-1. [51 questions to ask in one-on-ones with a manager](https://getlighthouse.com/blog/questions-ask-one-on-ones-manager/)
+1. [Really interesting blog post from Hanno on remote team feedback](https://web.archive.org/web/20220810051106/https://hanno.co/journal/remote-team-feedback/)
+1. [51 questions to ask in one-on-ones with a manager](https://getlighthouse.com/blog/74-questions-to-ask-your-manager/)
 1. [HBR: The rise of data driven decision making is real but uneven](https://hbr.org/2016/02/the-rise-of-data-driven-decision-making-is-real-but-uneven)
 1. [Forbes: 6 Tips for Making Better Decisions](https://www.forbes.com/sites/mikemyatt/2012/03/28/6-tips-for-making-better-decisions/#966eb3b34dca)
 
@@ -324,7 +324,7 @@ When you give leadership training please [screen share the handbook instead of c
 1. Sign up for [Crucial Conversations training](/handbook/people-group/learning-and-development/learning-initiatives/#crucial-conversations)
 1. Explore opportunities to join the [CEO Shadow program](/handbook/ceo/shadow) or other division specific shadow programs with the [Chief of Staff]({{< ref "office-of-the-ceo#chief-of-staff-shadow" >}}), and [Security]({{< ref "security-shadow" >}}).
 1. Explore the skills needed to successfully transistion from IC to Manager in [GitLab Learn](https://gitlab.edcast.com/channel/coming-soon-transitioning-from-ic-to-manager).
-1. Explore leadership and management courses on [LinkedIn Learning](https://www.linkedin.com/learning/topics/leadership-and-management?u=2255073)
+1. Explore leadership and management courses on [LinkedIn Learning](https://www.linkedin.com/learning/topics/leadership-and-management)
 1. Join a monthly [Leadership Chats](/handbook/people-group/learning-and-development/manager-challenge/leadership-chats/) talk to learn from people leaders across the organization.
 1. [Learning and Development](/handbook/people-group/learning-and-development/) is developing several programs in FY23 to include a [Managing at GitLab Course](https://gitlab.com/groups/gitlab-com/people-group/learning-development/-/epics/78), [New Manager Bootcamp](https://gitlab.com/gitlab-com/people-group/learning-development/training-curriculum/-/issues/33), [LifeLabs Learning Pilot and Launch](https://gitlab.com/gitlab-com/people-group/learning-development/training-curriculum/-/issues/29), [coaching program](https://gitlab.com/gitlab-com/people-group/learning-development/general/-/issues/342), and much more!
 

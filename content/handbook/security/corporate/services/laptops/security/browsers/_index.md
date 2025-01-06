@@ -29,7 +29,7 @@ Changes are managed using standard [Change Management](https://gitlab.com/gitlab
 
 Do not allow the Chrome, Safari, or Firefox web browser to save your passwords. Do not use a personal password manager (Bitwarden, LastPass, etc.) or personal 1Password account to store your work credentials. This presents an unnecessary risk.
 
-We use [1Password Business](https://1password.com/business) and the [1Password Chrome Extension](https://chromewebstore.google.com/detail/1password-%E2%80%93-password-mana/aeblfdkhhhdcdjpifhhbdiojplfjncoa?hl=en&pli=1) for storing and autofilling all passwords, passkeys, and 2FA One Time Password (OTP) codes.
+We use [1Password Business](https://1password.com/business-security) and the [1Password Chrome Extension](https://chromewebstore.google.com/detail/1password-%E2%80%93-password-mana/aeblfdkhhhdcdjpifhhbdiojplfjncoa?hl=en&pli=1) for storing and autofilling all passwords, passkeys, and 2FA One Time Password (OTP) codes.
 
 - [1Password Setup Guide](/handbook/security/corporate/systems/1password/setup)
 

@@ -26,20 +26,20 @@ All new Learning and Development (L&D) team members complete our [team onboardin
 ## Podcasts
 
 - [The Future of Learning and Development](https://podcasts.apple.com/us/podcast/the-future-of-learning-and-development-podcast/id1505100929)
-- [The Business of Learning](https://podcasts.apple.com/us/podcast/the-business-of-learning/id1372123987?mt=2)
+- [The Business of Learning](https://podcasts.apple.com/us/podcast/the-business-of-learning/id1372123987)
 - [Chief Learning Officer Podcast](https://www.chieflearningofficer.com/podcasts/)
 
 ## Newsletters
 
 - [Workplaceless](https://www.workplaceless.com/)
-- [Quantum Workplace](https://www.quantumworkplace.com/future-of-work-subscribe)
+- [Quantum Workplace](https://www.quantumworkplace.com/blog-subscribe)
 
 ## Courses & Certifications
 
 - [Crucial Conversations](https://cruciallearning.com/courses/crucial-conversations-for-dialogue/)
 - [Crucial Conversations Instructor Certification](https://cruciallearning.com/courses/crucial-conversations-for-dialogue/)
 - [Association for Talent Development Certifications](https://www.td.org/education-courses/certificate-programs)
-- [Senior Professional in Human Resources](https://www.hrci.org/our-programs/our-certifications/sphr)
+- [Senior Professional in Human Resources](https://www.hrci.org/certifications/individual-certifications/sphr)
 
 ## Resources
 
@@ -55,12 +55,12 @@ All new Learning and Development (L&D) team members complete our [team onboardin
 
 ## LinkedIn Learning Courses
 
-- [Become an L&D Professional](https://www.linkedin.com/learning/paths/become-an-l-d-professional-4?)
+- [Become an L&D Professional](https://www.linkedin.com/learning/paths/advancing-your-skills-as-an-l-d-professional)
 - [Organizational Learning & Development](https://www.linkedin.com/learning/organizational-learning-and-development-2024)
-- [Developing a Learning Mindset](https://www.linkedin.com/learning/developing-a-learning-mindset/welcome?)
+- [Developing a Learning Mindset](https://www.linkedin.com/learning/developing-a-learning-mindset/understanding-how-you-learn)
 - [The Future of Workplace Learning](https://www.linkedin.com/learning/the-future-of-workplace-learning-2023)
 - [Build a Company Learning & Development Program](https://www.linkedin.com/learning/paths/build-a-company-learning-and-development-program)
-- [Tips for Learner Engagement](https://www.linkedin.com/learning/tips-for-learner-engagement/)
+- [Tips for Learner Engagement](https://www.linkedin.com/learning/tips-for-learner-engagement-2023)
 
 ## Conferences and Events
 

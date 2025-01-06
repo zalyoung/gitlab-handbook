@@ -198,7 +198,7 @@ The freedom and flexibility that comes with all-remote enables employees to view
 
 Rather than forcing a predefined daily schedule replete with a commute, all-remote shifts allows an individual to define their schedule.
 
-A number of studies by organizations such as [Google](https://www.forbes.com/sites/abdullahimuhammed/2019/05/18/5-important-takeaways-from-googles-two-year-study-of-remote-work/#1a536957439a), [Buffer](https://buffer.com/state-of-remote-work-2019), [FlexJobs](https://www.techrepublic.com/article/why-remote-work-has-grown-by-159-since-2005/), and [IWG](https://assets.regus.com/pdfs/iwg-workplace-survey/iwg-workplace-survey-2019.pdf) show that driven individuals who place a high degree of value on autonomy and flexibility can experience new levels of joy and productivity in an all-remote environment.
+A number of studies by organizations such as [Google](https://www.forbes.com/sites/abdullahimuhammed/2019/05/18/5-important-takeaways-from-googles-two-year-study-of-remote-work/#1a536957439a), [Buffer](https://buffer.com/state-of-remote-work/2019), [FlexJobs](https://www.prweb.com/releases/global-workplace-analytics-amp-flexjobs-report-159-percent-increase-in-remote-work-since-2005-863776940.html/), and [IWG](https://assets.regus.com/pdfs/iwg-workplace-survey/iwg-workplace-survey-2019.pdf) show that driven individuals who place a high degree of value on autonomy and flexibility can experience new levels of joy and productivity in an all-remote environment.
 
 ### Address employee well-being and mental health issues
 

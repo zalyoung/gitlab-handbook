@@ -66,7 +66,7 @@ The group level issue board makes it possible for oversight and governance of th
 
 ## Scaled Agile Framework
 
-The [scaled agile framework](https://v46.scaledagileframework.com/#) is used by many large enterprises to define, organize, and synchronize the work of multiple agile teams.  Designed to help enable coordination, collaboration, governance and oversight of multiple agile teams in complex environments.
+The [scaled agile framework](https://v5.scaledagileframework.com/) is used by many large enterprises to define, organize, and synchronize the work of multiple agile teams.  Designed to help enable coordination, collaboration, governance and oversight of multiple agile teams in complex environments.
 
 ![SAFe Model Board](https://about.gitlab.com/images/solutions/scaled-agile/safe_model.png)
 
@@ -100,7 +100,7 @@ The [Program layer](https://v5.scaledagileframework.com/program-and-solution-kan
 
 #### Agile Release Trains
 
-[Agile Release Trains](https://v46.scaledagileframework.com/agile-release-train) enable cross project collaboration and coordination of work to meet specific release targets.   In GitLab, the **Group Level boards and labels** are used to define specific stages in the release train and to track how project level issues and merge requests are progressing toward being ready to release.
+[Agile Release Trains](https://v46.scaledagileframework.com/agile-release-train/) enable cross project collaboration and coordination of work to meet specific release targets.   In GitLab, the **Group Level boards and labels** are used to define specific stages in the release train and to track how project level issues and merge requests are progressing toward being ready to release.
 
 #### Program increment
 

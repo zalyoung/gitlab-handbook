@@ -16,6 +16,7 @@ is a temporary measure to workaround the lack of until workflow categories are r
 - [GitLab Dedicated Logs]({{< ref "dedicated_logs" >}})
 - [GitLab Dedicated Observability and Monitoring (Grafana)]({{< ref "dedicated_instance_health" >}})
 - [GitLab Dedicated Switchboard Troubleshooting]({{< ref "dedicated_switchboard" >}})
+- [Hosted runners for GitLab Dedicated](dedicated_runners.md)
 
 Here are links to other pages about GitLab Dedicated around GitLab:
 

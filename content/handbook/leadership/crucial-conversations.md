@@ -143,7 +143,7 @@ Below are additional resources on influencing and leadership for you to review.
 - [What Great Leaders Know about Influence](https://www.forbes.com/sites/rebeccanewton/2016/07/27/six-steps-to-increase-your-influence/#5609705a1edd)
 - [Influencing Skills: A Key to Leadership Success!](https://www.linkedin.com/pulse/influencing-skills-key-leadership-success-marcia-zidle-ms-bcc/)
 - [Influencing Others: A Key Leadership Skill](https://www.ginaabudi.com/influencing-others-a-key-leadership-skill/)
-- [The 5 Key Skills of Influential Leaders Within Every Organization](https://www.inspirationaldevelopment.com/5-key-skills-influential-leaders-every-organisation/)
+- [The 5 Key Skills of Influential Leaders Within Every Organization](https://beinspirational.com/insight-hub/5-key-skills-influential-leaders-every-organisation/)
 - [Influence and Leadership](https://www.deeelliottconsulting.com/leadership-and-influencing/)
 - [5 Leadership Strategies Proven to Improve Performance on Your Team](https://crestcom.com/blog/2016/12/01/5-leadership-strategies-to-improve-performance-in-your-company/)
 - [The 7 Best Books to Improve Influencing Skills](https://www.roffeypark.com/articles/the-7-best-books-to-improve-influencing-skills/)

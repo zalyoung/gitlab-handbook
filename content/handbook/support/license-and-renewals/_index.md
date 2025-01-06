@@ -158,7 +158,7 @@ storage [can be purchased at any time](https://docs.gitlab.com/ee/subscriptions/
 Changes to how storage and transfer limits are considered at a
 [namespace level](https://docs.gitlab.com/ee/user/usage_quotas.html#namespace-storage-limit) are
 planned, but not currently enforced. See [the storage management improvements issue](https://gitlab.com/gitlab-org/gitlab/-/issues/375296)
-and [Pricing FAQ](https://about.gitlab.com/pricing/faq-paid-storage-transfer/#q-what-is-changing-with-storage-and-transfer-limits)
+and [Pricing FAQ](https://docs.gitlab.com/ee/user/storage_usage_quotas.html)
 for further information.
 
 ### What you'll be working on

@@ -21,7 +21,7 @@ In [this video](https://youtu.be/IFBj9KQSQXA), GitLab co-founder Sid Sijbrandij 
 
 In truth, managing an all-remote company is much like managing any other company. **It comes down to trust, communication, and company-wide support of shared goals**, all of which aid in [avoiding dysfunction](/handbook/values/#five-dysfunctions).
 
-Remote forces you to do the things you should be doing [way earlier and better](https://nohq.co/blog/sid-sijbrandij-people-dont-want-to-commute-they-ju). It forces discipline that sustains culture and efficiency [at scale](scaling/), particularly in areas which are easily deprioritized in small colocated companies.
+Remote forces you to do the things you should be doing [way earlier and better](https://nohq.co/blog/sid-sijbrandij-people-dont-want-to-commute-they-ju/). It forces discipline that sustains culture and efficiency [at scale](scaling/), particularly in areas which are easily deprioritized in small colocated companies.
 
 It's important to not assume that team members understand good remote work practices. GitLab managers are [expected]({{< ref "structure#management-group" >}}) to coach their reports to utilize [asynchronous communication](management/#asynchronous), be [handbook-first](/handbook/about/handbook-usage/#why-handbook-first), design an [optimal workspace](workspace/), and understand the importance of [self-learning/self-service](self-service/).
 
@@ -35,7 +35,7 @@ GitLab has partnered with Coursera to produce a ten-hour course, **[How to Manag
 
 At GitLab, when we say our people can work from [anywhere](people/#travelers), we really mean it. We care about the [results](/handbook/values/#results) of their work, not where it's getting done.
 
-This flexibility often means something different for [each person at GitLab](people/). We have team members who are completely [location independent](people/#nomads) and [travel full time](https://about.gitlab.com/blog/2019/06/25/how-remote-work-at-gitlab-enables-location-independence).
+This flexibility often means something different for [each person at GitLab](people/).
 
 There are others who join and travel the world with remote co-working and co-living [organizations](resources/#organizations-for-traveling-remote-work).
 Many of our team members appreciate the ability to still be able to work while visiting friends or family away from home.
@@ -157,7 +157,7 @@ The GitLab way of working is more [inclusive]({{< ref "inclusion#fully-distribut
 >
 > At GitLab, we have a rule that says [handbook first]({{< ref "handbook-usage#why-handbook-first" >}}). If you're going to communicate a change to people, first put it in the handbook and then communicate that change to people.
 >
-> Our handbook has [grown to over 3,000 pages](/handbook/about#count-handbook-pages) — it's impossible to read all of it — but you're going to read the sections that are relevant to the job that you have to do. We encourage people to record things and share things. We're continuously trying to move conversations out of Slack and into [GitLab Issues](https://docs.gitlab.com/ee/user/project/issues) where everyone can see them. We encourage people to stream to YouTube on [GitLab Unfiltered](https://www.youtube.com/channel/UCMtZ0sc1HHNtGGWZFDRTh5A). - *GitLab co-founder, Sid Sijbrandij*
+> Our handbook has [grown to over 3,000 pages](/handbook/about#count-handbook-pages) — it's impossible to read all of it — but you're going to read the sections that are relevant to the job that you have to do. We encourage people to record things and share things. We're continuously trying to move conversations out of Slack and into [GitLab Issues](https://docs.gitlab.com/ee/user/project/issues/) where everyone can see them. We encourage people to stream to YouTube on [GitLab Unfiltered](https://www.youtube.com/channel/UCMtZ0sc1HHNtGGWZFDRTh5A). - *GitLab co-founder, Sid Sijbrandij*
 
 This is one of the harder things to apply on a daily basis. Taking the time to document a solution isn't very satisfying in the moment, and is easy to deprioritize when other seemingly urgent tasks are vying for your attention.
 
@@ -176,11 +176,11 @@ When you [open your talent acquisition pipeline to the world](hiring/), you crea
 
 ### Active reinforcement
 
-The first step in creating an atmosphere where colleagues are comfortable working [asynchronously](asynchronous/) is to avoid the default mentality as it applies to [meetings](meetings/). By making meetings [optional](meetings/#make-meetings-optional), recording and [documenting everything](meetings/#document-everything-live-yes-everything), being diligent to follow an [agenda](meetings/#have-an-agenda), and leveraging tools like [GitLab Issues](https://docs.gitlab.com/ee/user/project/issues) and Slack, all-remote companies are less reliant on colleagues being online at the same time.
+The first step in creating an atmosphere where colleagues are comfortable working [asynchronously](asynchronous/) is to avoid the default mentality as it applies to [meetings](meetings/). By making meetings [optional](meetings/#make-meetings-optional), recording and [documenting everything](meetings/#document-everything-live-yes-everything), being diligent to follow an [agenda](meetings/#have-an-agenda), and leveraging tools like [GitLab Issues](https://docs.gitlab.com/ee/user/project/issues/) and Slack, all-remote companies are less reliant on colleagues being online at the same time.
 
 This mentality must be actively reinforced. For example, in [team social calls](informal-communication/#team-social-calls) where dozens of people join a video chat to bond as a team, an agenda allows those who cannot make it to add [shout-outs](/handbook/values/#say-thanks) or discussion points that a fellow colleague can verbalize. This is an intentional approach to not only working asynchronously, but socializing asynchronously.
 
-[Leonardo Federico](https://twitter.com/leonardofed), co-founder at [Sametab](https://www.sametab.com), offers an interesting perspective on asynchronous communication, noting that it [provides more optionality](https://www.sametab.com/blog/frameworks-for-remote-working).
+[Leonardo Federico](https://twitter.com/leonardofed), co-founder at [Sametab](https://www.sametab.com), offers an interesting perspective on asynchronous communication, noting that it [provides more optionality](https://web.archive.org/web/20200220025111/https://www.sametab.com/blog/frameworks-for-remote-working).
 
 > [Asynchronous] allows you to reorganize the company in a divisional organization more easily and embrace remote working even if you're colocated. Everything that works in an async fashion can also work sync but not vice-versa.
 
@@ -204,7 +204,7 @@ There are considerations that go beyond productivity metrics. Companies should a
 >
 > We cannot sustain, as a humanity, this way of life. We cannot keep up with it. — *Emna G., founder and CEO at Veamly*
 
-Asynchronous communication alone will not solve [challenges associated with remote work](drawbacks/#for-employees), but it is a useful tool in a wider arsenal of tactics to avoid issues such as [burnout](https://about.gitlab.com/blog/2018/03/08/preventing-burnout).
+Asynchronous communication alone will not solve [challenges associated with remote work](drawbacks/#for-employees), but it is a useful tool in a wider arsenal of tactics to avoid issues such as [burnout](https://about.gitlab.com/blog/2018/03/08/preventing-burnout/).
 
 ### Time and productivity
 
@@ -239,7 +239,7 @@ Instilling this in an all-remote team is difficult. Most people are naturally in
 
 Leaders should work diligently to ensure that teams have a low level of shame and believe that everything is in draft and subject to change.
 
-Learn more about [GitLab's value of iteration in our Handbook](/handbook/values/#iteration), and read how [one team used survey results to iterate on culture](https://about.gitlab.com/blog/2018/06/26/iterating-improving-frontend-culture).
+Learn more about [GitLab's value of iteration in our Handbook](/handbook/values/#iteration), and read how [one team used survey results to iterate on culture](https://about.gitlab.com/blog/2018/06/26/iterating-improving-frontend-culture/).
 
 ## Company-wide organizational chart
 
@@ -271,7 +271,7 @@ Learn more about GitLab's approach in the [Leadership section of our Handbook]({
 
 *In the [video](https://www.youtube.com/watch?v=6QC1OwoddD8) above, published to [GitLab's YouTube channel](https://www.youtube.com/channel/UCnMGQ8QHMAnVIsI3xJrihhg), members of the engineering team demonstrate a focus on metrics.*
 
-Perhaps the easiest way to avoid overanalyzing management in an all-remote company is to focus on [results](/handbook/values/#results). Focusing on results over hours worked creates an atmosphere where colleagues direct effort on the [right things](https://about.gitlab.com/blog/2018/09/07/mvcs-with-big-results) — shipping [great code](https://about.gitlab.com/blog/2019/03/20/enabling-global-search-elasticsearch-gitlab-com), making a client happy, solving a teammate's problem, etc.
+Perhaps the easiest way to avoid overanalyzing management in an all-remote company is to focus on [results](/handbook/values/#results). Focusing on results over hours worked creates an atmosphere where colleagues direct effort on the [right things](https://about.gitlab.com/blog/2018/09/07/mvcs-with-big-results/) — shipping [great code](https://about.gitlab.com/blog/2019/03/20/enabling-global-search-elasticsearch-gitlab-com/), making a client happy, solving a teammate's problem, etc.
 
 This enables team members to complete their work and turn their attention to non-work activities (family, exercise, reading, caregiving, philanthropy, etc.) as quickly as possible.
 
@@ -328,13 +328,13 @@ Tomasz Tunguz describes it as such in an article entitled "[The early discipline
 
 ## GitLab Knowledge Assessment: All-remote management
 
-Anyone can test their knowledge on all-remote management by completing the [knowledge assessment](https://docs.google.com/forms/d/e/1FAIpQLSfJEDRSuyVQxRU-vnpTXpRHjCzd_jtqNcGElJ2KHalJgy7jHQ/viewform). Earn at least an 80% or higher on the assessment to receive a passing score. Once the quiz has been passed, you will receive an email acknowledging the completion from GitLab. We are in the process of designing a GitLab Remote Certification and completion of the assessment will be one requirement in obtaining the [certification](https://about.gitlab.com/learn/certifications/public). If you have questions, please reach out to our [Learning & Development team](/handbook/people-group/learning-and-development) at `learning@gitlab.com`.
+Anyone can test their knowledge on all-remote management by completing the [knowledge assessment](https://docs.google.com/forms/d/e/1FAIpQLSfJEDRSuyVQxRU-vnpTXpRHjCzd_jtqNcGElJ2KHalJgy7jHQ/viewform). Earn at least an 80% or higher on the assessment to receive a passing score. Once the quiz has been passed, you will receive an email acknowledging the completion from GitLab. We are in the process of designing a GitLab Remote Certification and completion of the assessment will be one requirement in obtaining the [certification](https://university.gitlab.com/certifications/public). If you have questions, please reach out to our [Learning & Development team](/handbook/people-group/learning-and-development) at `learning@gitlab.com`.
 
 {{% include "includes/is_this_advice_any_good_remote.md" %}}
 
 ## Contribute your lessons
 
-GitLab believes that all-remote is the [future of work]({{< ref "remote-vision" >}}), and remote companies have a shared responsibility to show the way for other organizations who are embracing it. If you or your company has an experience that would benefit the greater world, consider creating a [merge request](https://docs.gitlab.com/ee/user/project/merge_requests) and adding a contribution to this page.
+GitLab believes that all-remote is the [future of work]({{< ref "remote-vision" >}}), and remote companies have a shared responsibility to show the way for other organizations who are embracing it. If you or your company has an experience that would benefit the greater world, consider creating a [merge request](https://docs.gitlab.com/ee/user/project/merge_requests/) and adding a contribution to this page.
 
 ---
 

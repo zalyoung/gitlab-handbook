@@ -136,36 +136,48 @@ Topology Service will make sure that the given range is not overlapping with oth
 ```mermaid
 graph TD
   A[64 bits] --> |1 bit - MSB| B[Sign]
-  A -->|6 bits| C[Intentionally reserved]
-  A -->|16 bits| D[Cell's Leased ID]
+  A -->|6 bits| C[Reserved]
+  A -->|16 bits| D[CellID]
   A -->|41 bits| E[Sequence]
 ```
 
-The provisioning service (it's not yet decided where/how this service will be), will assign unique auto-incrementing
-lease ID for each cell, starting with `zero` for the Legacy Cell. It will use the above bit allocation to compute
-sequence's `minval` and `maxval` for each cell and this data will be captured in TS's `config.toml`.
+- **Sign**: Always 0 for positive numbers.
+- **Reserved**: Currently always `0`, reserved for 2 purposes.
+  1. To increase the number of cells, if needed.
+  1. To allow us to switch to a variant of ULID ID allocation in future without interfering with the existing IDs. Since
+   ULID based ID allocator will have the `timestamp` value in the  most significant bits,
+   reserving only one bit would have been sufficient but
+   more bits are reserved to have the sequence bits at minimum.
+- **CellID**: A unique auto-incrementing [unique identifier for a Cell](decisions/012_cell_unique_identifier.md) starting with `1`, can support up to 65,535 Cell IDs.
+- **Sequence**: The sequence that will be used for each table in the database.
+  41 bits can support ~2 trillion IDs (2199,023,255,551) per cell (per sequence).
+  At the time of writing, the largest ID is 11,098,430,930 (primary key of `security_findings` table), so it's 200 times the current largest ID, which is sufficient.
+
+Example `config.toml` of Topology Service:
 
 ```toml
 [[cells]]
-id = 0
-address = "cell-us-1.gitlab.com"
-sequence_range = [0, 4398046511103]
+id = 1
+address = "legacy.gitlab.com"
+sequence_range = [0, 2199023255551]
 
 [[cells]]
-id = 1
-address = "cell-us-2.gitlab.com"
-sequence_range = [4398046511104, 8796093022207]
+id = 2
+address = "cell-2-example.gitlab.com"
+sequence_range = [2199023255552, 4398046511103]
 ```
 
-41 bits can support ~2 trillion IDs (2199,023,255,551) per cell (per sequence). At the time of writing, the largest ID is
-11,098,430,930 (primary key of _security_findings_ table), so it's 200 times the current largest ID, which should be (more than) sufficient.
+Calculation for `id = 1`:
 
-6 MSBs are intentionally `reserved` for 2 purposes
+- Sequences per cell: `2^41 -> 2199023255552`
+- Sequence `min`: `(CellId - 1) * SequencesPerCell` -> `(1 - 1) * 2199023255552` -> `0`
+- Sequence `max`: `(CellId * SequencesPerCell) - 1` -> `(1 * 2199023255552) - 1` -> `2199023255551`
 
-1. To increase the number of cells, if needed.
-1. To allow us to switch to a variant of ULID ID allocation in future without interfering with the existing IDs. Since
-   ULID based ID allocator will have the `timestamp` value in the MSBs, reserving only one bit would have been sufficient but
-   more bits are reserved to have the sequence bits at minimum.
+Calculation for `id = 2`:
+
+- Sequences per cell: `2^41 -> 2199023255552`
+- Sequence `min`: `(CellId - 1) * SequencesPerCell` -> `(2 - 1) * 2199023255552` -> `2199023255552`
+- Sequence `max`: `(CellId * SequencesPerCell) - 1` -> `(2 * 2199023255552) - 1` -> `4398046511103`
 
 More details on the decision taken and other solutions evaluated can be found [here](decisions/008_database_sequences.md)
 and the reasoning behind choosing the logic to generate sequence ranges can be found [here](https://gitlab.com/gitlab-org/gitlab/-/issues/465809).
@@ -174,7 +186,7 @@ and the reasoning behind choosing the logic to generate sequence ranges can be f
 // sequence_request.proto
 
 message GetCellSequenceInfoRequest {
-  optional string cell_name = 1; // if missing, it is deduced from the current context
+  optional string cell_id = 1; // if missing, it is deduced from the current context
 }
 
 message SequenceRange {
@@ -674,7 +686,7 @@ graph TD;
         end
         cell_us_east;
       end
-      subgraph Multi-regional Cloud Spanner Cluster 
+      subgraph Multi-regional Cloud Spanner Cluster
         spanner_us_central;
         spanner_us_east;
       end

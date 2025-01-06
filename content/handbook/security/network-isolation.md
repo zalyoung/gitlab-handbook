@@ -39,7 +39,7 @@ Similar to the guest network scenario above, when using a personal VPN you will 
 
 The instructions are specific to DDWRT, which is a popular custom router firmware. If you don't use DDWRT, you can use the provided steps as a template and consult your router's manual to obtain a similar configuration. However, if your home router does not support setting up an isolated network, consider buying a router that is [compatible with DDWRT](https://dd-wrt.com/support/router-database/)(ToDo: check which ones support Net Isolation) or a similar custom firmware. If you need recommendations for DDWRT routers, you can find many buyer guides online:
 
-- [ProPrivacy guide](https://proprivacy.com/vpn/comparison/5-best-dd-wrt-routers)
+- [ProPrivacy guide](https://proprivacy.com/vpn/comparison/best-ddwrt-vpn-services)
 - [List of supported DDWRT devices](https://wiki.dd-wrt.com/wiki/index.php/Supported_Devices)
 
 1. *Backup config*. Before you start setting up your new work WiFi, you should save your current configuration so that you can restore it if necessary. To do this, go to tab *Administration* -> *Backup*.

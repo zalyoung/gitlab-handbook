@@ -7,6 +7,43 @@ description: "GitLab's Tableau Developer guide"
 - [Tips and Tricks](/handbook/enterprise-data/platform/tableau/tableau-developer-guide/tips-and-tricks-for-developers/)
 - [Tableau Style Guide](handbook.gitlab.com/handbook/enterprise-data/platform/tableau/tableau-developer-guide/tableau-style-guide/)
 
+## Data Source Types in Tableau
+
+There are a few different options for what kind of data source you can use in Tableau, and which option you pick could impact the performance & end-user experience of your dashboard. Let’s get some terms defined:
+
+- Extract vs. Live: An extracted data source has an extract of the data set that lives in Tableau. A live data source will query the underlying data source (Snowflake, Google Sheets) every time you change a filter or navigate to a new dashboard tab. Extracts will almost always perform faster.
+
+- Local, Embedded, and Published: In the context of this tip, a ‘local’ and ‘embedded’ data source are the same thing. These are connections where the data source lives “inside of” or “with” the workbook. The only way to view or edit this data source is to open the workbook. This connection type can only connect to / live inside of one workbook at a time.
+
+- Published: A published data source is published separately from the workbook. So in Tableau Cloud, you could navigate to a link for the data source, and separately a link for the workbook. You can connect one published data source to as many workbooks as you want, as it exists independently from the workbook.
+
+A workbook’s data source can be Local + Live, Local + Extracted, Published + Live, or Published + Extracted.
+
+### Tips Regarding Connection Types
+
+You may find that developing a workbook in Tableau Desktop that uses a Published Data Source can be a slow and clunky experience. For whatever reason, a published data source connection can work slowly. To get around this problem while still using a published data source, you can work on a local copy.
+
+[This video](https://www.youtube.com/watch?v=KcxtXmzS4mk) described the process. It is an old video, so the user interface is a little outdated, but the process of creating a local copy is the same.
+
+The written instructions are as follows: Open the workbook in Desktop and navigate to any worksheet. Then right click on the data source and select "create local copy". Next, right click on the original published data source, and select "Replace data source" from the dropdown. In the pop-up, replace your original data source (published) with the new one (local copy).
+
+Then you can develop as you normally would. When you are finished, you can publish the data source back to Tableau Cloud, and it will turn the local copy back into a published data source connection. Finally, publish the workbook.
+
+Be mindful that you do not publish over someone else's existing data source, with changes that may disrupt the workings of their workbook.
+
+#### Editing Fields In A Published Data Source
+
+If you are developing in a workbook (in Tableau Cloud or Desktop) which is connected to a Published Data Source, you cannot make any changes to the published data source. This means:
+
+1. If you want to make any edits to a calculated field, you will not be able to. You will have to create a copy of the calculated field.
+1. If you use the "[replace references](https://www.thedataschool.co.uk/gregg-rimmer/tableaus-replace-references-feature/)" function it will only replace the instances where the field is on a worksheet independently. It will not replace any instances of that field that are contained within another calculated field (see point number 1, you cannot edit a calculated field in a published data source)
+1. If you change any of the parameters in the workbook, Tableau will create a duplicate copy of your parameter and replace your parameter with the copy in the published version. If a stakeholder comes to you and says "this dashboard is broken! The dropdown does not work!", it is probable that there are two versions of the 'broken' parameter.
+1. You cannot add a Table Calculation onto a pre-existing calculated field. You have to make a copy of the calculated field, and then you can use a table calculation with the copy.
+
+If you find yourself in the scenario where you do need to do any of the above, it is possible. There are two options - you can either follow the instructions in the section above to create a local copy of the data source, make your adjustments, and then republish the data source.
+
+Or, you can navigate to the published data source in Tableau Cloud, open it in "edit" mode, make your changes, and republish the data source.
+
 ## Data Source Approach
 
 In general, our recommended approach to creating data sources in Tableau is to create all joins in dbt/Snowflake to materialize a final mart and/or rpt table that can be directly consumed by Tableau for the dashboard with no further joins, relationships, or calculations required in the BI layer.
@@ -120,7 +157,7 @@ This error message can be challenging to diagnose, as it can be the result of nu
 **Error**:
 > `Upon trying to sign in to view a dashboard, you receive the error message "invalid consent request".`
 
-![invalid consent embedded from other location](/static/images/handbook/enterprise-data/platform/tableau/invalidconsent.png)
+![invalid consent embedded from other location](/images/handbook/enterprise-data/platform/tableau/invalidconsent.png)
 
 This generally occurs because you do not have access to something you are trying to view. This can be:
  

@@ -125,7 +125,7 @@ While it's wise to seek advice from experts within your function, we encourage G
 If you have to remind someone of the position you have in the company, you're doing something wrong.
 People already know [our decision-making process](/handbook/leadership/#making-decisions).
 Explain why you're making the decision, and respect everyone irrespective of their function.
-This includes using the rank of another person - [including the CEO](https://twitter.com/EmiliejayG/status/1198731054162432000) - to sell an idea or decision.
+This includes using the rank of another person - [including the CEO](https://x.com/EmiliejayG/status/1198731054162432000) - to sell an idea or decision.
 
 ##### Assume positive intent
 
@@ -195,7 +195,7 @@ No need to brainstorm, wait for consensus, or [do with two what you can do yours
 ##### Blameless problem solving
 
 Investigate mistakes in a way that focuses on the situational aspects of a failure's mechanism and the decision-making process that led to the failure, rather than cast blame on a person or team.
-We hold blameless [root cause analyses](https://codeascraft.com/2012/05/22/blameless-postmortems/) and [retrospectives](/handbook/engineering/management/group-retrospectives/) for stakeholders to speak up without fear of punishment or retribution.
+We hold blameless [root cause analyses](https://www.etsy.com/codeascraft/blameless-postmortems/) and [retrospectives](/handbook/engineering/management/group-retrospectives/) for stakeholders to speak up without fear of punishment or retribution.
 
 ##### Short toes
 
@@ -303,7 +303,7 @@ We create together with our customers. There is an open dialogue between GitLab 
 
 ##### Keep end users in sight
 
-Our focus is to increase customer results. At GitLab, one way to drive customer results is through platform enhancements that drive the most value for direct users. This requires being aware of [the Concur effect](https://twitter.com/ryanfalor/status/1182647229414166528?s=12).
+Our focus is to increase customer results. At GitLab, one way to drive customer results is through platform enhancements that drive the most value for direct users. This requires being aware of [the Concur effect](https://x.com/ryanfalor/status/1182647229414166528?s=12).
 
 [Arvind Narayanan](https://www.cs.princeton.edu/~arvindn/), a Princeton Professor, described his frustration with Blackboard in a viral Tweet:
 
@@ -311,7 +311,7 @@ Our focus is to increase customer results. At GitLab, one way to drive customer 
 >
 >Software companies can be breathtakingly clueless when there's a layer of indirection between them and their users. Everyone who's suffered through Blackboard will have the same reaction to this: try having less functionality!
 
-[Ryan Falor](https://twitter.com/ryanfalor) followed up on Narayanan's tweet with his definition of the Concur Effect:
+[Ryan Falor](https://x.com/ryanfalor) followed up on Narayanan's tweet with his definition of the Concur Effect:
 
 >1. decision makers are not direct users
 >1. features are overwhelming and disjointed
@@ -379,7 +379,7 @@ It's important that we keep our focus on action, and don't fall into the trap of
 
 ##### Disagree, commit, and advocate {#disagree-and-commit}
 
-When a decision is in place, we expect people to commit to executing it. Any past decisions and guidelines are open to questioning as long as you act in accordance with them until they are changed. This is [a common principle](https://ryanestis.com/leadership/disagree-and-commit-to-get-things-done/).
+When a decision is in place, we expect people to commit to executing it. Any past decisions and guidelines are open to questioning as long as you act in accordance with them until they are changed. This is [a common principle](https://ryanestis.com/disagree-and-commit-to-get-things-done/).
 Every decision can be changed;
 our [best decision was one that changed an earlier one](https://youtu.be/4BIsON95fl8?t=2034).
 In a manager-report relationship, usually the report is the [Directly Responsible Individuals](/handbook/people-group/directly-responsible-individuals/) (DRI).
@@ -627,7 +627,7 @@ People feel more included when they're supported. To encourage this, and to supp
 ##### Culture fit is a bad excuse
 
 We don't hire based on culture or select candidates because we'd like to have a drink with them. We hire and reward team members based on our shared values as detailed on this page. We want a **values fit**, not a culture fit.
-We want cultural diversity instead of cultural conformity. Said differently: ["culture add" > "culture fit"](https://twitter.com/Una/status/846808949672366080) or "hire for culture contribution" since our [mission is that everyone can contribute](/handbook/company/mission/#mission).
+We want cultural diversity instead of cultural conformity. Said differently: ["culture add" > "culture fit"](https://x.com/Una/status/846808949672366080) or "hire for culture contribution" since our [mission is that everyone can contribute](/handbook/company/mission/#mission).
 
 ##### Religion and politics at work
 
@@ -665,7 +665,7 @@ We list our [Parental Leave](/handbook/total-rewards/benefits/general-and-entity
 ##### Inclusive language & pronouns
 
 Use **inclusive** language.
-For example, prefer "Hi everybody" or "Hi people" to "Hi guys", and "they" instead of "he/she". While there are several good guides from folks like [18f](https://content-guide.18f.gov/inclusive-language/), [University of Calgary](https://www.ucalgary.ca/news/ucalgary-guidelines-updated-communicating-about-gender-and-sexual-diversity), and [Buffer](https://open.buffer.com/inclusive-language-tech/) on using inclusive language, we don't keep an exhaustive list.
+For example, prefer "Hi everybody" or "Hi people" to "Hi guys", and "they" instead of "he/she". While there are several good guides from folks like [18f](https://guides.18f.gov/content-guide/our-style/inclusive-language/), [University of Calgary](https://www.ucalgary.ca/news/ucalgary-guidelines-updated-communicating-about-gender-and-sexual-diversity), and [Buffer](https://buffer.com/resources/inclusive-language-tech/) on using inclusive language, we don't keep an exhaustive list.
 When new possibly non-inclusive words arise, we prefer to be proactive and look for an alternative.
 If your goal is to be inclusive, it is more effective to make a small adjustment in the vocabulary when some people have a problem with it, rather than making a decision to not change it because some people don't think it is a problem.
 And if you make a mistake (e.g. accidentally using the wrong pronoun or an outdated phrase), acknowledge it, **apologize gracefully and move on**; there is no need to dwell on it, and you can work to avoid making that mistake in the future.
@@ -728,7 +728,7 @@ As a globally-dispersed company, we have team members from many different backgr
 
 ##### Embracing Neurodiversity
 
-[Neurodiversity](https://www.neurodiversityhub.org/what-is-neurodiversity) refers to variations in the human brain regarding learning, attention, sociability, mood, and other mental functions. There are various neurodevelopmental conditions, like autism, ADHD, dyslexia, dyscalculia, dyspraxia, cognitive impairment, schizophrenia, bipolarity, and other styles of neurodivergent functioning. While neurodivergent individuals often bring [unique skills and abilities](https://adhdatwork.add.org/potential-benefits-of-having-an-adhd-employee/) which can be harnessed for a [competitive advantage](https://hbr.org/2017/05/neurodiversity-as-a-competitive-advantage) in many fields (for example, [cybersecurity](https://www.forbes.com/sites/samcurry/2019/05/13/neurodiversity-a-competitive-advantage-in-cybersecurity/)), neurodivergent individuals are often discriminated against. Due to non-inclusive hiring practices, they sometimes have trouble making it through traditional hiring processes. Neurodiversity inclusion best practices benefit everyone, and at GitLab, everyone can contribute. The handbook, values, strategy, and interviewing processes must support the ability for everyone to thrive.
+[Neurodiversity](https://www.neurodiversityhub.org/what-is-neurodiversity) refers to variations in the human brain regarding learning, attention, sociability, mood, and other mental functions. There are various neurodevelopmental conditions, like autism, ADHD, dyslexia, dyscalculia, dyspraxia, cognitive impairment, schizophrenia, bipolarity, and other styles of neurodivergent functioning. While neurodivergent individuals often bring [unique skills and abilities](https://add.org/benefits-of-adhd-employees/) which can be harnessed for a [competitive advantage](https://hbr.org/2017/05/neurodiversity-as-a-competitive-advantage) in many fields (for example, [cybersecurity](https://www.forbes.com/sites/samcurry/2019/05/13/neurodiversity-a-competitive-advantage-in-cybersecurity/)), neurodivergent individuals are often discriminated against. Due to non-inclusive hiring practices, they sometimes have trouble making it through traditional hiring processes. Neurodiversity inclusion best practices benefit everyone, and at GitLab, everyone can contribute. The handbook, values, strategy, and interviewing processes must support the ability for everyone to thrive.
 
 At GitLab we embrace Neurodiversity through adopting a variety of different work styles and communication styles, and we lean into [transparency](#transparency), asynchronous as a default working style, and pre-filled meeting agendas. These best practices become even more important when embracing neurodiversity. Providing multiple ways to consume information (written / video / audio) allows everyone to contribute independent of their preferred comprehension style. It is important to ask team members specifically what their preferred communication method is in order to provide them information in a format that is easily consumable for them.
 
@@ -777,7 +777,7 @@ If you would like to improve your skills or expand your knowledge on topics rela
   <tr>
     <td class="tg-0lax" style="border:gray; border-width:0.5px; border-style:solid;">5</td>
     <td class="tg-0lax" style="border:gray; border-width:0.5px; border-style:solid;">Develops an understanding of the impact of biases; seeks to learn more about their own biases. Is accountable for their actions, apologizes and learns from their mistakes.</td>
-    <td class="tg-0lax" rowspan="3" style="border:gray; border-width:0.5px; border-style:solid;"><ul style="list-style-type:disc><li>Complete Neurodiversity and other <a href="https://about.gitlab.com/company/culture/inclusion/">DIB</a> training and/or other company wide training to further education on DIB</li><li>Attend DIB Initiatives Calls to stay informed and connected with ongoing efforts and discussions</li><li>Participate in a DIB Initiative: join <a href="https://about.gitlab.com/company/culture/inclusion/erg-guide/">TMRGs</a> you identify with, support other groups as an Ally, attend events, "like" slack posts and spread the word<br><li>Participate in a TMRG initiative</li><li>Member of a working group related to a DIB initiative, e.g. participate in a <a href="/handbook/people-group/learning-and-development/mentor/">Mentorship</a> program</li></ul></td>
+    <td class="tg-0lax" rowspan="3" style="border:gray; border-width:0.5px; border-style:solid;"><ul style="list-style-type:disc><li>Complete Neurodiversity and other <a href="/handbook/company/culture/inclusion/">DIB</a> training and/or other company wide training to further education on DIB</li><li>Attend DIB Initiatives Calls to stay informed and connected with ongoing efforts and discussions</li><li>Participate in a DIB Initiative: join <a href="/handbook/company/culture/inclusion/erg-guide/">TMRGs</a> you identify with, support other groups as an Ally, attend events, "like" slack posts and spread the word<br><li>Participate in a TMRG initiative</li><li>Member of a working group related to a DIB initiative, e.g. participate in a <a href="/handbook/people-group/learning-and-development/mentor/">Mentorship</a> program</li></ul></td>
     <td class="tg-0lax" rowspan="3" style="border:gray; border-width:0.5px; border-style:solid;"><a href="https://docs.google.com/forms/d/e/1FAIpQLScwmN71M4BR3wHgHP7niVllo70BY2HT1nM2uxsxHc4Mz7cRcA/viewform">Knowledge Assessment for Individual Contributors</a></td>
   </tr>
   <tr>
@@ -791,7 +791,7 @@ If you would like to improve your skills or expand your knowledge on topics rela
   <tr>
     <td class="tg-0lax" style="border:gray; border-width:0.5px; border-style:solid;">8</td>
     <td class="tg-0lax" style="border:gray; border-width:0.5px; border-style:solid;">Implements best practices to limit bias on their team. They ensure blameless accountability is practiced throughout their team. Creates an environment where team members feel safe to share ideas and welcomes individual differences.</td>
-    <td class="tg-0lax" rowspan="2" style="border:gray; border-width:0.5px; border-style:solid;"><ul style="list-style-type:disc><li>Complete Neurodiversity and other <a href="https://about.gitlab.com/company/culture/inclusion/#diversity-inclusion--belonging-mission-at-gitlab">DIB</a> training and/or other company wide training to further education on DIB</li><li>Attend DIB Initiatives Calls to stay informed and connected with ongoing efforts and discussions</li><li>Participate in a DIB Initiative: join <a href="https://about.gitlab.com/company/culture/inclusion/erg-guide/">TMRGs</a> you identify with, support other groups as an Ally, attend events, like posts and spread the word<br><li>Participate in a TMRG initiative</li><li>Member of a working group related to a DIB initiative, e.g. participate in a <a href="/handbook/people-group/learning-and-development/mentor/">Mentorship</a> program</li><li>Hiring Manager ensure a diverse candidate slate and interview panel</li><li>Active participant and advocate for department DIB goals</li></ul></td>
+    <td class="tg-0lax" rowspan="2" style="border:gray; border-width:0.5px; border-style:solid;"><ul style="list-style-type:disc><li>Complete Neurodiversity and other <a href="/handbook/company/culture/inclusion/#diversity-inclusion--belonging-mission-at-gitlab">DIB</a> training and/or other company wide training to further education on DIB</li><li>Attend DIB Initiatives Calls to stay informed and connected with ongoing efforts and discussions</li><li>Participate in a DIB Initiative: join <a href="/handbook/company/culture/inclusion/erg-guide/">TMRGs</a> you identify with, support other groups as an Ally, attend events, like posts and spread the word<br><li>Participate in a TMRG initiative</li><li>Member of a working group related to a DIB initiative, e.g. participate in a <a href="/handbook/people-group/learning-and-development/mentor/">Mentorship</a> program</li><li>Hiring Manager ensure a diverse candidate slate and interview panel</li><li>Active participant and advocate for department DIB goals</li></ul></td>
     <td class="tg-0lax" rowspan="6" style="border:gray; border-width:0.5px; border-style:solid;"><a href="https://docs.google.com/forms/d/e/1FAIpQLSel_U-audrhPvDlHFAbxF7Jvn5prDns2p8iGzWOTbL1oGraxg/viewform">Knowledge Assessment for People Leaders</a></td>
   </tr>
   <tr>
@@ -810,16 +810,16 @@ If you would like to improve your skills or expand your knowledge on topics rela
   <tr>
     <td class="tg-0lax" style="border:gray; border-width:0.5px; border-style:solid;">12</td>
     <td class="tg-0lax" style="border:gray; border-width:0.5px; border-style:solid;">Leads with the value of Diversity &amp; Inclusion across the company and finds opportunities to limit the impact of bias on decision making processes. They sponsor internal initiatives to increase trust, psychological safety and inclusion. They hold their senior management and the e group accountable for upholding this value.</td>
-    <td class="tg-0lax" style="border:gray; border-width:0.5px; border-style:solid;"><ul style="list-style-type:disc><li>Advocate and Integrate DIB into your organizational KPIs/OKRs, e.g.OKR: continue to build and grow a diverse workforce/organization</li><li>Partner with the <a href="https://about.gitlab.com/company/culture/inclusion/">DIB Team</a> & <a href="https://about.gitlab.com/company/culture/inclusion/leadership-dib-council/">Leadership DIB Council</a> to establish an action plan for your departments & division</li><li>Serve as an <a href="https://about.gitlab.com/company/culture/inclusion/erg-guide/">TMRG</a> executive sponsor</li><li>Embed DIB into All hands or in person events e.g.review organizations OKR as it relates to DIB progress, champion trainings related to further DIB knowledge, invite guest speakers to advocate</li></ul></td>
+    <td class="tg-0lax" style="border:gray; border-width:0.5px; border-style:solid;"><ul style="list-style-type:disc><li>Advocate and Integrate DIB into your organizational KPIs/OKRs, e.g.OKR: continue to build and grow a diverse workforce/organization</li><li>Partner with the <a href="/handbook/company/culture/inclusion/">DIB Team</a> & <a href="/handbook/company/culture/inclusion/leadership-dib-council/">Leadership DIB Council</a> to establish an action plan for your departments & division</li><li>Serve as an <a href="/handbook/company/culture/inclusion/erg-guide/">TMRG</a> executive sponsor</li><li>Embed DIB into All hands or in person events e.g.review organizations OKR as it relates to DIB progress, champion trainings related to further DIB knowledge, invite guest speakers to advocate</li></ul></td>
   </tr>
   <tr>
     <td class="tg-0lax" style="border:gray; border-width:0.5px; border-style:solid;">EVP/CXO</td>
     <td class="tg-0lax" style="border:gray; border-width:0.5px; border-style:solid;">Champions the value of Diversity, Inclusion and Belonging into the company's strategy. They champion and sponsor internal and external D&amp;I initiatives. They speak to the importance of this value in company-wide meetings. They hold their leaders and other e group members accountable for upholding this value. They continuously seek ways to increase trust, psychological safety and inclusion across the broader company.</td>
     <td class="tg-0lax"  style="border:gray; border-width:0.5px; border-style:solid;"><ul style="list-style-type:disc>
-<li>Support current cross-functional <a href="https://about.gitlab.com/company/yearlies/#fy24-yearlies">Yearlies</a> initiative focused on continuing to build a diverse team of top talent that we retain and grow</li>
+<li>Support current cross-functional <a href="/handbook/company/yearlies/#fy24-yearlies">Yearlies</a> initiative focused on continuing to build a diverse team of top talent that we retain and grow</li>
 <li>Advocate and Integrate DIB into your organizational KPIs/OKRs, e.g.OKR: continue to build and grow a diverse workforce/organization</li>
-<li>Partner with the <a href="https://about.gitlab.com/company/culture/inclusion/">DIB Team</a> & <a href="https://about.gitlab.com/company/culture/inclusion/leadership-dib-council/">Leadership DIB Council</a> to establish an action plan for your departments & division</li>
-<li>Serve as a <a href="https://about.gitlab.com/company/culture/inclusion/erg-guide/">TMRG</a> executive sponsor</li>
+<li>Partner with the <a href="/handbook/company/culture/inclusion/">DIB Team</a> & <a href="/handbook/company/culture/inclusion/leadership-dib-council/">Leadership DIB Council</a> to establish an action plan for your departments & division</li>
+<li>Serve as a <a href="/handbook/company/culture/inclusion/erg-guide/">TMRG</a> executive sponsor</li>
 <li>Embed DIB into All hands or in person events e.g.review organizations OKR as it relates to DIB progress, champion trainings related to further DIB knowledge, invite guest speakers to advocate</li>
 </ul></td>
   </tr>
@@ -917,7 +917,7 @@ Iteration does not mean being open to all users from day one. If you do a gradua
 
 ##### Reduce cycle time
 
-Short iterations reduce [our cycle time](https://about.gitlab.com/stages-devops-lifecycle/value-stream-analytics/). Merging frequently also prevents merge conflicts.
+Short iterations reduce [our cycle time](https://about.gitlab.com/solutions/value-stream-management/). Merging frequently also prevents merge conflicts.
 
 ##### Work as part of the community
 
@@ -1316,7 +1316,7 @@ Think of the hierarchy as a weighting system. Values higher in the hierarchy do 
 - If a change impacts Transparency positively but impacts Efficiency negatively in roughly the same amount, we would move ahead since Transparency is higher in the hierarchy than Efficiency.
 - If a change has a massive positive impact on Diversity but negatively impacts Iteration, we would move ahead even though Diversity is lower in the hierarchy than Iteration because the overall impact is more positive than negative.
 
-![Values](images/values.svg)
+![Values](/images/values/values.svg)
 
 In a [GitLab Unfiltered interview on values](https://youtu.be/7kMQj4O4ZGU), GitLab co-founder Sid Sijbrandij offers the following context.
 
@@ -1328,7 +1328,7 @@ In a [GitLab Unfiltered interview on values](https://youtu.be/7kMQj4O4ZGU), GitL
 
 ## Updating our values
 
-Our values are updated frequently and as needed. Everyone is welcome to make a suggestion to improve them. To update: make a merge request and assign it to the CEO. If you're a [team member](/handbook/company/team/) or in the [core team](https://about.gitlab.com/community/core-team/) please post a link to the MR in the `#values` Slack channel. If you're not part of those groups, please send a direct Twitter message to [@sytses](https://twitter.com/sytses).
+Our values are updated frequently and as needed. Everyone is welcome to make a suggestion to improve them. To update: make a merge request and assign it to the CEO. If you're a [team member](/handbook/company/team/) or in the [core team](https://about.gitlab.com/community/core-team/) please post a link to the MR in the `#values` Slack channel. If you're not part of those groups, please send a direct X/Twitter message to [@sytses](https://x.com/sytses).
 
 ## How do we reinforce our values
 
@@ -1370,7 +1370,7 @@ In negative feedback, we should be specific about what the problem is. For examp
 
 Value erosion can occur when indifference and apathy are tolerated. It can also occur when individuals justify undesired behaviors by interpreting values as "me values" rather than "company values." For example, a team member may speak to the importance of personal efficiency in order to justify not collaborating professionally with peers. This is not what we expect from team members in terms of efficiency and collaboration.
 
-If you feel that values are not being lived out in a given scenario, speak up and ask for context in a respectful manner. Navigating value conflicts starts with [assuming positive intent](#assume-positive-intent) from other team members. Offer links to relevant values and/or operating principles when discussing the issue. If there is confusion or disagreement about the interpretation of a value, please surface the discussion in GitLab's `#values` Slack channel (for GitLab team members) or @-mentioning  [@gitlab](https://twitter.com/gitlab) on Twitter (for those who do not work at GitLab).
+If you feel that values are not being lived out in a given scenario, speak up and ask for context in a respectful manner. Navigating value conflicts starts with [assuming positive intent](#assume-positive-intent) from other team members. Offer links to relevant values and/or operating principles when discussing the issue. If there is confusion or disagreement about the interpretation of a value, please surface the discussion in GitLab's `#values` Slack channel (for GitLab team members) or @-mentioning  [@gitlab](https://x.com/gitlab) on X/Twitter (for those who do not work at GitLab).
 
 In a [GitLab Unfiltered interview on values](https://youtu.be/7kMQj4O4ZGU), GitLab co-founder Sid Sijbrandij offers the following context.
 
@@ -1395,7 +1395,7 @@ From our values we excluded some behaviors that are obvious; we call them our *p
 We don't want people to play politics at GitLab.
 
 An example of politics is people discussing a proposal and being overly focused on whose proposal it is.
-This is a manifestation of the [Belief Bias](https://twitter.com/g_s_bhogal/status/1225561210139049984?), where we judge an argument's strength not by how strongly it supports the conclusion but by how strongly *we* support the conclusion.
+This is a manifestation of the [Belief Bias](https://x.com/g_s_bhogal/status/1225561210139049984?), where we judge an argument's strength not by how strongly it supports the conclusion but by how strongly *we* support the conclusion.
 Proposals should be weighed on their merits and not on who proposed them.
 Another example is people being promoted based on others liking them or having a lot of alliances. We want people to be promoted based on their results. We value collaboration, but that's different from being promoted just because people like you.
 

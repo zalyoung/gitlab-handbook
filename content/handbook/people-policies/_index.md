@@ -112,8 +112,8 @@ While GitLab is 100% remote, there may be times when team members travel for wor
 In general, please consider the following recommendations to ensure safety when traveling or coworking:
 
 1. Do the research. Have some familiarity with the destination before you arrive. Check with your country's government department that provides advice for traveling overseas:
-    - United States: check the State Department's website for country updates and enroll in a Traveler Program such as [Smart Traveler Enrollment Program (STEP)](https://step.state.gov/step/).
-    - New Zealand: [Safe Travel](https://safetravel.govt.nz/).
+    - United States: check the State Department's website for country updates and enroll in a Traveler Program such as [Smart Traveler Enrollment Program (STEP)](https://mytravel.state.gov/s/step).
+    - New Zealand: [Safe Travel](https://www.safetravel.govt.nz/).
 1. Try not to draw attention. People who appear to be from out of town are more vulnerable to crimes. Try to respect the culture you are visiting by blending in. Consider protective clothing to avoid pickpockets or other theft. Do not flash money or credit cards unnecessarily.
 1. Make copies of important documents. Consider carrying hard copies of important documents (passport, driver's license) in a separate location in the event your documents are misplaced or stolen.
 1. Keep friends and family updated. No matter whether you're going on an overnight jaunt or a week-long international journey, it's always a good idea to let friends or family know your plans. Before you leave, send a copy of your itinerary to a few trusted people who can keep tabs on your whereabouts. Check in regularly with your contacts so they know you're where you're supposed to be.

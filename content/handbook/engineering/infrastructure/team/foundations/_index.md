@@ -94,16 +94,7 @@ We endeavor to triage incoming requests twice per week. If you have an issue tha
 
 ## Key Performance Indicators
 
-KPIs for the team are currently under development in https://gitlab.com/gitlab-com/gl-infra/production-engineering/-/issues/24928.
-
-We also internally track team and internal customer satisfaction with regular surveys.
-
-### Internal survey results
-
-- Team Satisfaction - current status: green
-- Customer Satisfaction - current status: green (4.25/5.00)
-
-For more context, see the related [discussion issue](https://gitlab.com/gitlab-com/gl-infra/production-engineering/-/issues/19167).
+KPIs for the team are under development in https://gitlab.com/gitlab-com/gl-infra/production-engineering/-/issues/24928.
 
 ## Team Members
 
@@ -162,7 +153,7 @@ We have a quarterly async retro that aligns with the company fiscal quarters and
 
 We have three buckets of work:
 
-1. OKRs (project work)
+1. Project work
 1. External requests
 1. General operations, also known as Keep the lights on (KTLO)
 
@@ -176,13 +167,13 @@ We want the build board to be relatively small in size so it is easy to traverse
 
 Different people are responsible for adding the `Foundations Build` label to issues for each bucket of work:
 
-- OKRs - DRIs of each OKR uses the `Foundations Build` label to communicate what the next issues needed to be picked up are.
+- Project Work - DRIs of each project (epic) uses the `Foundations Build` label to communicate what the next issues needed to be picked up are.
 - External requests - the Engineering manager or person on the [interrupt rotation](#interrupt-rotation) will add `Foundations Build` to issues that need attention. These will also include the `unblocks others` label to make it clear to people on the interrupt rotation which issues are external requests. The person on interrupt rotation can also actively triage incoming issues, adding the `Foundations Build` label when new issues are opened.
 - KTLO - These issues will generally be added according to a general combination of due date/priority/severity/weight. Any team member should feel empowered to add KTLO issues to the board when they fit the criteria (prioritization makes sense based on the due date/priority/severity/weight).
 
 From here, people have options when looking for what's next:
 
-1. Pick up issues related to the OKR they are involved with
+1. Pick up issues related to the project they are involved with
 1. Pick up KTLO work they are interested in or to create a break between other project work
 1. Help out with external requests if the interrupt rotation has higher volume on a given week
 
@@ -190,7 +181,7 @@ We trust everyone to be a [Manager of One](../../../../leadership/_index.md#mana
 
 ### Prioritization of work
 
-We use priority labels to prioritize our work. OKR work is updated to `Production Engineering::2` when it is ready to be worked on. As such it is given higher priority than most other work. This means that external requests will be worked in based on their own priority and impact, where only P1 and P2 issues will regularly interrupt OKR work.
+We use priority labels to prioritize our work. project work is automatically set considered `Production Engineering::2` when it is ready to be worked on. As such it is given higher priority than most other work. This means that external requests will be worked in based on their own priority and impact, where only P1 and P2 issues will regularly interrupt project work.
 
 ### Interrupt Rotation
 
@@ -226,9 +217,9 @@ Below builds on top of those guidelines.
 
 - For Objectives and Key Results, we align with [Platforms guidance](/handbook/engineering/infrastructure/platforms/#okr) for creation and structure.
 
-#### Epics
+#### Epics / Projects
 
-In addition to the format described in the [platforms project management page](/handbook/engineering/infrastructure/platforms/project-management/#epics), these sections may be helpful
+In addition to the format described in the [platforms project management page](/handbook/engineering/infrastructure/platforms/project-management/#epics), these optional sections may be helpful
 
 ```markdown
 

@@ -457,6 +457,28 @@ The output of this tooltip would look like this: ![tooltip](/images/enterprise-d
 
 Some additional design tips that may help your workbook creation efficency.
 
+### Using Containers for Developing Dashboards
+
+When you are building dashboards in Tableau, you can add sheets to the dashboard using two options - a "floating" sheet, or a "tiled" container. A floating sheet can be dropped anywhere on the dashboard and the size can be adjusted by using the sides, a tiled container needs to "snap" onto the background and needs to fit to the size of the larger container it is contained within.
+
+Beginners in Tableau tend to go straight to using floating containers for everything, but you will find if you talk with people who are very experienced in Tableau, they will recommend *always* using containers.
+
+There are many benefits to using containers, and it is in your best interest to get used to developing dashboards using containers, and never floating worksheets. The only situation that an item may benefit from "floating" on the dashboard is when it is a color legend or a dropdown item, that you want to put on top of a chart or a title.
+
+[Here](https://www.youtube.com/watch?v=96371LvULXM&t=80s) is a helpful short video with more information about containers.
+
+Here are some reasons to use containers:
+
+1. If you use a "floating" style for every worksheet, when you publish the workbook to the Cloud/ Server, some of your items may move a few inches in any direction for your end-user, depending on the size of their monitor/display.
+
+1. If you can learn to use a parameter to "turn off" and "turn on" a few related sheets, based on what is selected (so that only one worksheet is shown at a time), then containers are essential. 
+
+    Let's say you want to show table that either has information on 'Sales', 'Revenue', or 'Profit', and you create a parameter that has those three options as selections. You can create one worksheet for each of those three KPI's, and put a filter onto each worksheet so only one is "turned on" (showing) at a time, based on the parameter selection.
+
+    You would then take all three worksheets and put them into the same container (horizontal container or vertical container), and hide the "title" on each of the worksheets. This way, all three worksheets will always show up in the exact same location on the dashboard, and you do not have to mess around with trying to line them up perfectly as floating containers. When each of them "turn on", they will slide "open" to fill the entire Parent container that has all three worksheets in it. Your container will always be in the same spot, and so the worksheet within it will always be in the same spot.
+
+1. Many people use containers to group information. For example, you may have a bar chart with a legend, and a related table all tiled into one parent container. You might decide to move this. group of items from the left side of the dashboard, to the right. You can select the parent container and slide all three items over together, if you are using a container.
+
 ### Add GitLab Colors
 
 You can add a color palette to Tableau Desktop so that any time you need to choose colors for your visualizations, you have access to GitLab's colors in the color menu. Find more instructions [here](/handbook/enterprise-data/platform/tableau-style-guide/#standard-color-palette)
@@ -473,6 +495,28 @@ Many people have discovered a dual axis chart already for two measures, but did 
 
 For example, if you have a stacked bar chart on screen (just one measure), and you want to add a label, Tableau will label each segment of the bar. But let’s say you want to label the whole bar, not each segment! You can use a dual axis chart & remove the color from the back of the two bars to get your desired label!
 ![dual axis with color on one bar and the label on the other](/images/handbook/enterprise-data/platform/tableau/dual_axis_label.png)
+
+### Dashboard Actions for an Upgraded User Experience
+
+[Dashboard actions](https://help.tableau.com/current/pro/desktop/en-us/actions_dashboards.htm) can add functionality, smooth out the user experience, and make your dashboards seem "more advanced". The different options are as follows.
+
+![actions](/images/handbook/enterprise-data/platform/tableau/actions.png)
+
+If you ever see a dashboard do something neat and unexpected, it is likely a creative use of a dashboard action.
+
+Some things to know:
+
+- You can link a dashboard item to go to a URL. A common use is to link Opportunities on a dashboard table right to their actual Salesforce URL.
+
+- The Filter action is the most used action, in my experience. Being able to have one part of the dashboard dynamically respond to a user’s click to filter to a subset of the data is very common and useful. [Here is a helpful YouTube video](https://www.youtube.com/watch?v=c1CYxo9xkQc&t=299s) on filter actions.
+
+- “Go to Sheet” is a handy way to create a more intuitive user experience for navigating between dashboard tabs in your workbook. For example if your user is on an “executive summary”, you could set up a “Go to Sheet” action that when they click on a bar chart of “Users per Product” it brings them to a deep dive dashboard about Users and Products. [Here is a helpful video](https://www.youtube.com/watch?v=u9OUyZy_d8M) on Go to Sheet actions.
+
+- The “highlight” action is not often used, but can be powerful. You can set it so that when a user hovers over/ clicks on the “Product = Ultimate” bar of a bar chart, every other spot that “Product = Ultimate” on the dashboard highlights itself. This is especially handy when you have a table in your dashboard. [YouTube video](https://youtu.be/oMnuXhvb5ag?si=BSlwOFBavCirA_eK&t=189) on highlight actions.
+
+- The “Change Parameter” action is commonly used on Tableau Public to let a user click on a button or image & have a resulting dashboard change. This is prettier than having the user choose from a parameter dropdown. It’s also usually more work than it is worth for a normal business dashboard. [Here](https://www.youtube.com/watch?v=Psz7hoK7lu0) is an advanced video on using a parameter to intuitively filter your dashboard, and [here](https://www.thedataschool.co.uk/chris-meardon/button-based-parameter-actions/) is a blog post about creating clickable buttons using this action.
+
+    An example of using a parameter action to create a button can be founr in [this dashboard](https://public.tableau.com/app/profile/p.padham/viz/SuperstoreDashboard_16709573699130/SuperstoreDashboard) where you can click on (“Sales”,”Profit”,”Orders”), and it will change the dashboard to that KPI. This avoids using a standard parameter drop-down.
 
 ## Extensions
 

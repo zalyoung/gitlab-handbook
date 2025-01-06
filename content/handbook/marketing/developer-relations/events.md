@@ -299,4 +299,4 @@ and GitLab teams should keep in mind as they plan events and activities.
 ## Additional Resources
 
  Additional information about events can be found on the [Events](/handbook/marketing/events) page of the
- GitLab Handbook. For a list of upcoming GitLab events see the [Events](https://about.gitlab.com/events) page of our website.
+ GitLab Handbook. For a list of upcoming GitLab events see the [Events](https://about.gitlab.com/events/) page of our website.

@@ -8,7 +8,7 @@ description: "The Analytics Instrumentation group work on feature enhancements a
 The Analytics Instrumentation Group is part of the Analytics section. Our group focuses on providing GitLab's team with data-driven product insights to build a better GitLab.
 To do this, we build data collection and analytics tools within the GitLab product in a privacy-focused manner.
 Insights generated from Analytics Instrumentation enable us to identify the best places to invest people and resources, what product categories mature faster, where our user experience can be improved, and how product changes impact the business.
-You can learn more about what we're building next on the [Analytics Instrumentation Direction page](https://about.gitlab.com/direction/analytics/analytics-instrumentation/).
+You can learn more about what we're building next on the [Analytics Instrumentation Direction page](https://about.gitlab.com/direction/monitor/analytics-instrumentation/).
 
 ## How we work
 
@@ -500,4 +500,4 @@ All new team members to the Analytics Instrumentation teams are provided an onbo
 | [Analytics Instrumentation Infrastructure](infrastructure.html) | Information about the infrastructure we run |
 | [Service Ping Guide](https://docs.gitlab.com/ee/development/internal_analytics/service_ping/)     | An implementation guide for Service Ping      |
 | [Privacy Policy](https://about.gitlab.com/privacy/)        | Our privacy policy outlining what data we collect and how we handle it     |
-| [Analytics Instrumentation Direction](https://about.gitlab.com/direction/analytics/analytics-instrumentation/)  | The roadmap for Analytics Instrumentation at GitLab  |
+| [Analytics Instrumentation Direction](https://about.gitlab.com/direction/monitor/analytics-instrumentation/)  | The roadmap for Analytics Instrumentation at GitLab  |

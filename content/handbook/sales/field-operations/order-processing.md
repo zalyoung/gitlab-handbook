@@ -343,7 +343,7 @@ The signatory Authorization Matrix can be found here: /handbook/finance/authoriz
 Once negotiations are completed, and the digital stamp has been affixed to the final version of the contract / Agreement:
 
 1. Change the status of the contract, in SFDC, to 'Approved to Sign'; and
-1. [stage the contract](https://support.docusign.com/guides/ndse-user-guide-send-a-document) in DocuSign for signatures;
+1. [stage the contract](https://support.docusign.com/s/document-item?language=en_US&rsc_301=&bundleId=ulp1643236876813&topicId=lak1578456412477.html&_LANG=enus) in DocuSign for signatures;
 1. Send to the Customer and cc' our CFO (Brian Robins).
 
 </details>
@@ -579,24 +579,33 @@ The following is intended as a guide for Opportunity Owners who need to submit a
 
 #### Standard Quote Approval
 
-Prior to generating a standard (non-draft) quote to deliver to a client or prospect in PDF format, any non-standard elements (discounts, unique payment terms, and other items found in the matrix) must be approved. The following steps outline the process for how to correctly submit a quote for approval. This approval flow follows the criteria in [our approval matrix](https://docs.google.com/document/d/1-CH-uH_zr0qaVaV1QbmVZ1rF669DsaUeq9w-q1QiKPE/edit#heading=h.ag75fqu12pf0) for approvers.
+Prior to generating a standard (non-draft) quote to deliver to a client or prospect in PDF format, any non-standard deal elements (discounts, unique payment terms, and other items found in the matrix) must be approved. The following steps outline the process for how to correctly submit a quote for approval. This approval flow follows the criteria in [our approval matrix](https://docs.google.com/document/d/1-CH-uH_zr0qaVaV1QbmVZ1rF669DsaUeq9w-q1QiKPE/edit#heading=h.ag75fqu12pf0) for approvers.
 
 1. Navigate to the quote that you would like to submit for approval. Ensure that all of the relevant information is filled out on the quote.
-1. Include the `Submitter Comments` on the quote before you submit for discount and terms approval. Please provide as much detail as to why you are requesting discounts or other terms that require approval.
+1. Populate `Submitter Comments` on the quote before submission. This field must be populated on any quote that requires approval. Please provide detail as to why you are requesting discounts or other terms that require approval, following the below format:
 
-   - **CRO Deal Approvals:**
-     - When requesting CRO approval for any discount or other non-standard deal element, please fill out the [CRO Deal Approval Template](https://docs.google.com/document/d/1sBDE26cGC4-BXfFjicNNn7OVYhJ8jnRRpfTLpM6O6hE/edit?tab=t.0) and provide a link to your copy within the request.
-     - When requesting approval via the SFDC Quote Object (i.e. clicking Submit for Approval), please link your copy of the CRO Deal Approval Template in the "Submitter Comments" field on the quote.
-     - When requesting approval via SFDC Chatter, please link your copy of the CRO Deal Approval Template in the original chatter request when tagging Jake Bielecki.
-     - *In all scenarios, please ensure Jake Bielecki has permission to access the form prior to submitting the quote for approval.*
+```text
+Executive Summary
+Deal Summary (including compelling event to transact) (1-2 bullets)
+Previous discount (if renewal/add-on)
+Ramp details (if applicable)
+Rationale for Discount Request (1-2 bullets) (ex. Services included)
+Strategy to increase price over time 
+What are we getting in return? 
+Is this deal competitive? (Y/N)
+  If Yes, against whom?
+Logo Rights? (Y/N)
+```
 
-1. You will be able to see who the required approvers are on the quote prior to submitting the quote and why they are required.
-1. Click the `Submit for Approval` button on the quote screen.
-1. Your quote has now been submitted for approval. You can monitor who needs to approve it on the quote in the section `Required Quote Approvals`.
+1. **CRO/Finance Deal Approval:** If you are applying discounts that require CRO and/or Finance approval per the current [Deal Approval Matrix](https://docs.google.com/document/d/1-CH-uH_zr0qaVaV1QbmVZ1rF669DsaUeq9w-q1QiKPE/edit?tab=t.0#bookmark=kix.h86b3ktlqijh) and the deal is >= $500k Booked ARR (Net ARR + ARR Basis), you must fill out the **[CRO/CFO Deal Approval Template](https://docs.google.com/document/d/1sBDE26cGC4-BXfFjicNNn7OVYhJ8jnRRpfTLpM6O6hE/edit?tab=t.0)** and provide a link in the `Submitter Comments` quote field prior to approval submission. Please ensure Ashley Kramer and Brian Robins have permission to access your document prior to submitting the quote for approval.
+1. Click "Submit for Approval" to initiate the approval process. The quote will be routed to the appropriate approvers based on the approval matrix. You can track the status of your approval request in the "Approval History" related list on the quote.
+1. Once all required approvals have been obtained, you will receive a notification and the quote status will change to "Approved". You can now generate the PDF and send the approved quote to the customer.
+
+Note: If any changes are made to the quote after approval, you will need to resubmit it for approval before generating a new PDF.
 
 **Contractual Discounts**
 
-If a discount has been applied to a quote pursuant to a signed agreement between GitLab and the customer, additional approvals are not required. Tag Sales-Support in chatter with a link to the signed agreement to request that the quote approvals be overridden.
+If a discount has been applied to a quote pursuant to a signed agreement between GitLab and the customer, additional approvals are not required. Create a case for Deal Desk following [this process](https://handbook.gitlab.com/handbook/sales/field-operations/requesting-internal-support/#salesforce-workflow), and provide a link to the signed agreement to request that the quote approvals be overridden.
 
 #### Channel Quote Approval
 
