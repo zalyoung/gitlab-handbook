@@ -203,10 +203,10 @@ The Senior Director of Product Design is a [grade 11](/handbook/total-rewards/co
 
 ## Performance Indicators
 
-- [System Usability Scale (SUS) score](https://handbook.gitlab.com/handbook/product/ux/performance-indicators/#system-usability-scale-sus-score)
-- [User Satisfaction (USAT) score](https://handbook.gitlab.com/handbook/product/ux/performance-indicators/#user-satisfaction-usat-score)
-- [Total open UX bug issues by severity](https://handbook.gitlab.com/handbook/product/ux/performance-indicators/#total-open-ux-bug-issues-by-severity)
-- [Experience baselines](https://handbook.gitlab.com/handbook/product/ux/performance-indicators/#experience-baselines)
-- [Pajamas component migrations](https://handbook.gitlab.com/handbook/product/ux/performance-indicators/#pajamas-component-migrations)
-- [Deferred UX](https://handbook.gitlab.com/handbook/product/ux/performance-indicators/#deferred-ux)
+- [System Usability Scale (SUS) score](handbook.gitlab.com/handbook/product/ux/performance-indicators/#system-usability-scale-sus-score)
+- [User Satisfaction (USAT) score](handbook.gitlab.com/handbook/product/ux/performance-indicators/#user-satisfaction-usat-score)
+- [Total open UX bug issues by severity](handbook.gitlab.com/handbook/product/ux/performance-indicators/#total-open-ux-bug-issues-by-severity)
+- [Experience baselines](handbook.gitlab.com/handbook/product/ux/performance-indicators/#experience-baselines)
+- [Pajamas component migrations](handbook.gitlab.com/handbook/product/ux/performance-indicators/#pajamas-component-migrations)
+- [Deferred UX](handbook.gitlab.com/handbook/product/ux/performance-indicators/#deferred-ux)
 
