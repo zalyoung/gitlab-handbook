@@ -33,10 +33,10 @@ flowchart TD
     end
 
     subgraph YBR[Yellow Brick Road - Development Journey]
-        Dev[Developer] --> Code[1. Code Creation]
-        Code --> Local[2. Local Testing]
-        Local --> Pipeline[3. Performance Pipeline]
-        Pipeline --> Review[4. Review & Deploy]
+        Dev[Developer] --> Code[Code Creation]
+        Code --> Local[Local Testing]
+        Local --> Pipeline[Pipeline Test - E2E & Performance]
+        Pipeline --> Review[Review & Deploy]
     end
 
     subgraph Guide[Journey Companions]
@@ -47,10 +47,10 @@ flowchart TD
     end
 
     Dev --> Portal
+    Dev --> Guide
     Portal --> Guide
     Review --> EC
-    EC --> Insights
-    Insights --> Dev
+    Guide --> Dev
 
     style EC fill:#98FB98,stroke:#333,stroke-width:2px
     style YBR fill:#FFD700,stroke:#333,stroke-width:2px
