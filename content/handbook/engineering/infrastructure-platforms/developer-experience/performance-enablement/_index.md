@@ -130,8 +130,8 @@ Our preference is to work asynchronously, within our projects issues trackers.
 
 The team does have a set of regular synchronous calls:
 
-* Performance Enablement Team meeting
-* 1-1s between the Individual Contributors and Engineering Manager
+- Performance Enablement Team meeting
+- 1-1s between the Individual Contributors and Engineering Manager
 
 ### Project Management
 
@@ -139,7 +139,7 @@ The team does have a set of regular synchronous calls:
 
 We track our work on the following issue boards:
 
-* [Developer Experience: Performance Enablement](https://gitlab.com/groups/gitlab-org/-/boards/8955771?label_name[]=team%3A%3Aperformance%20enablement)
+- [Developer Experience: Performance Enablement](https://gitlab.com/groups/gitlab-org/-/boards/8955771?label_name[]=team%3A%3Aperformance%20enablement)
 
 #### Capacity Planning
 
