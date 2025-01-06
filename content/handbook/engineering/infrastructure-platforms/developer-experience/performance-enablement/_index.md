@@ -8,6 +8,7 @@ description: "Performance Enablement team within Developer Experience sub-depart
 Performance Enablement strives to transform GitLab's performance testing from reactive to proactive by creating a comprehensive developer portal (our Emerald City) that empowers teams to detect and prevent performance issues early in the development lifecycle. Our first four key pillars ( Deployment Verification, Self-Service Feature Performance, Observability, and Realistic Data Store) will enable teams to make data-driven decisions, reduce deployment complexity, and foster a culture of performance awareness, ultimately leading to better engineering efficiency and customer satisfaction.
 
 Journey Diagram
+
 ```mermaid
 flowchart TD
     subgraph EC[The Emerald City - Developer Portal]
@@ -51,7 +52,9 @@ flowchart TD
     style Dev fill:#70a9e6,stroke:#333,stroke-width:3px
     style Buildings fill:#90EE90,stroke:#333
 ```
+
 Initial flow
+
 ```mermaid
 flowchart TD
     Dev[Developer] --> Code[Writes New Code]
@@ -89,6 +92,7 @@ flowchart TD
 ```
 
 Developer flow
+
 ```mermaid
 flowchart TD
     subgraph DW[Developer Workflow]
@@ -164,7 +168,9 @@ flowchart TD
     style Alerts fill:#ffb6c1,stroke:#333
     style Reports fill:#ffb6c1,stroke:#333
 ```
+
 Portal breakdown
+
 ```mermaid
 flowchart TD
     subgraph "Developer Portal"
