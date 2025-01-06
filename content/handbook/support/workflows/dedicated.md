@@ -141,7 +141,7 @@ When any changes are required besides those listed below, raise an issue in the 
 
 Outbound PriveLink allows any traffic from the GitLab Dedicated instance, or hosted runners for GitLab Dedicated to not be exposed to the public internet. While we advise for the onboarding to be completed, the customer can start these steps before.
 
-1. Open a new [PrivateLink Request issue](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/team/-/issues/new?issuable_template=private_link_request) and confirm that the `support::request-for-help` label is added.
+1. Open a new [PrivateLink Request issue](https://gitlab.com/gitlab-com/request-for-help/-/issues/new?issuable_template=SupportRequestTemplate-GitLabDedicatedPrivateLinkRequest) and confirm that the `support::request-for-help` label is added.
 
    - As a comment in the issue, request two **Availability Zone IDs (AZ IDs)** that can be used by the customer. For hosted runners, we only need a primary **Availability Zone ID (AZ IDs)**.
 
@@ -161,18 +161,18 @@ Outbound PriveLink allows any traffic from the GitLab Dedicated instance, or hos
 In most cases, customers should use **Switchboard** to update the IP allowlist for their GitLab Dedicated instance. If this is not possible:
 
 1. Ask the customer to provided the [required information](https://docs.gitlab.com/ee/administration/dedicated/#ip-allowlist) in the ticket. In this case, it's a comma-separated list of IP addresses.
-1. Open a [Request for Help issue](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/team/-/issues/new?issuable_template=request_for_help) and confirm that the `support::request-for-help`) in the GitLab Dedicated issue tracker.
+1. Open a [Request for Help issue](https://gitlab.com/gitlab-com/request-for-help/-/issues/new?issuable_template=SupportRequestTemplate-GitLabDedicated) and confirm that the `support::request-for-help`) in the GitLab Dedicated issue tracker.
 
 ##### SCIM / OIDC with IP Allowlist request
 
 Customers who use the IP allowlist may request to enable the SCIM or OIDC endpoints to the internet. This is a simple on/off toggle but must be performed by the Environment Automation team:
 
-1. Open a [Request for Help issue](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/team/-/issues/new?issuable_template=request_for_help) in the GitLab Dedicated issue tracker. (Confirm that the `support::request-for-help` label has been applied)
+1. Open a [Request for Help issue](https://gitlab.com/gitlab-com/request-for-help/-/issues/new?issuable_template=SupportRequestTemplate-GitLabDedicated) in the GitLab Dedicated issue tracker. (Confirm that the `support::request-for-help` label has been applied)
 
 #### SAML Request
 
 1. Ask the customer to provided the [required information](https://docs.gitlab.com/ee/administration/dedicated/#saml) in the ticket. In this case, it's a SAML configuration block or can be a list of information provided by a customer.
-1. Open a new [SAML Config Request issue](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/team/-/issues/new?issuable_template=saml_config_request) and confirm that the `support::request-for-help` label is added.
+1. Open a new [SAML Config Request issue](https://gitlab.com/gitlab-com/request-for-help/-/issues/new?issuable_template=SupportRequestTemplate-GitLabDedicatedSAMLConfigRequest) and confirm that the `support::request-for-help` label is added.
 1. Add the customer provided information and match it with the required formatting.
 
 #### Application Logs Request
@@ -181,13 +181,13 @@ Customers who use the IP allowlist may request to enable the SCIM or OIDC endpoi
 
    - The IAM principal must be an [IAM role principal](https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_elements_principal.html#principal-roles) or [IAM user principal](https://docs.aws.amazon.com/IAM/latest/UserGuide/).
 
-1. Open a [Request for Help issue](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/team/-/issues/new?issuable_template=request_for_help) in the GitLab Dedicated issue tracker.
+1. Open a [Request for Help issue](https://gitlab.com/gitlab-com/request-for-help/-/issues/new?issuable_template=SupportRequestTemplate-GitLabDedicated) in the GitLab Dedicated issue tracker.
 1. Provide the IAM principal to the Environment Automation team.
 1. Provide the name of the S3 bucket to the customer.
 
 ### Filing issues
 
-In cases where Customer Support needs to interact with GitLab Dedicated engineers to gather information or similarly debug a problem at tenant's request (when Grafana or OpenSearch does not suffice), raise an issue in the [GitLab Dedicated issue tracker](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/team/-/issues) using [the `Request for Help` template](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/team/-/issues/new?issuable_template=request_for_help).
+In cases where Customer Support needs to interact with GitLab Dedicated engineers to gather information or similarly debug a problem at tenant's request (when Grafana or OpenSearch does not suffice), raise an issue in the [Request for Help issue tracker](https://gitlab.com/gitlab-com/request-for-help/-/issues/) using [the `Request for Help` template](https://gitlab.com/gitlab-com/request-for-help/-/issues/new?issuable_template=SupportRequestTemplate-GitLabDedicated).
 
 During the course of the investigation, you may realize that you need to escalate a Request for Help (RFH) issue to another team. You should follow the existing process to [formally request help from another group in the GitLab Development Team](/handbook/support/workflows/how-to-get-help/#how-to-formally-request-help-from-the-gitlab-development-team). When doing this:
 
