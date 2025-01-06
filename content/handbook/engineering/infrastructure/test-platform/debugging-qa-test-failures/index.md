@@ -19,7 +19,7 @@ Note when viewing a deployment failure from the `#announcements` Slack channel, 
 
 Click on the diagram below to visit the announcement issue for more context and view an uncompressed image:
 
-[[![Pipeline Reorder](/handbook/engineering/infrastructure/test-platform/debugging-qa-test-failures/deployment-pipeline-and-e2e-tests.png "pipeline diagram")](https://gitlab.com/gitlab-com/gl-infra/delivery/-/issues/2280)
+[![Pipeline Reorder](/handbook/engineering/infrastructure/test-platform/debugging-qa-test-failures/deployment-pipeline-and-e2e-tests.png "pipeline diagram")](https://gitlab.com/gitlab-com/gl-infra/delivery/-/issues/2280)
 
 Note the diagram has been updated as part of increasing rollback availability by removing the [blocking nature of post-deployment migrations](https://gitlab.com/groups/gitlab-com/gl-infra/-/epics/585).
 
@@ -28,12 +28,10 @@ Note the diagram has been updated as part of increasing rollback availability by
 [Staging Ref](/handbook/engineering/infrastructure/environments/staging-ref/) is a Sandbox environment used for pre-production testing of the latest Staging Canary code. It is a shared
 environment with wide access permissions and as a result of engineers testing their code, the environment may become unstable and may need to be rebuilt.
 
-As such failures in any QA pipelines on Staging Ref are *not blocking* the deployment. QA suites are triggered when a new GitLab version
-is deployed to the environment. They are used to check that the environment is healthy and functionality is working as expected.
-Quality team maintains the environment and has full access to its resources for in-depth debugging.
+The full or smoke E2E test suite can be triggered on an as-needed basis from the `staging-ref` project's [pipeline schedules](https://ops.gitlab.net/gitlab-org/quality/staging-ref/-/pipeline_schedules).
 
 Staging Ref deployment runs parallel to Staging Canary deployment. These two environments share the same GitLab version, if a failure happens
-on Staging Ref but not on Staging Canary, it may indicate that the failure is environment specific. See [QA pipeline debugging guide](https://gitlab.com/gitlab-org/quality/gitlab-environment-toolkit-configs/staging-ref/-/blob/main/doc/qa_failure_debug.md) for more information on how to investigate QA failures in E2E tests triggered after Staging Ref deployment.
+on Staging Ref but not on Staging Canary, it may indicate that the failure is environment specific. See [QA pipeline debugging guide](https://gitlab.com/gitlab-org/quality/gitlab-environment-toolkit-configs/staging-ref/-/blob/main/doc/qa_failure_debug.md) for more information on how to investigate E2E test failures.
 
 ### Preprod
 
@@ -100,7 +98,7 @@ You can determine the revision SHA deployed on a GitLab instance by either navig
 by calling the `https://www.example.com/api/v4/version` API or by running `/chatops run auto_deploy status` in a Slack
 channel such as #chat-ops-test.
 
-You can also determine if your commit has been deployed on a GitLab environment using [ChatOps](https://docs.gitlab.com/ee/ci/chatops).
+You can also determine if your commit has been deployed on a GitLab environment using [ChatOps](https://docs.gitlab.com/ee/ci/chatops/).
 For example, if your commit ref is `347e530c5b3dec60c0ce2870bc79ca4c8273604d` you can run this command in a Slack
 channel such as #chat-ops-test:
 

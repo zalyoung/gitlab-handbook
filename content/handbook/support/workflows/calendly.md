@@ -169,7 +169,7 @@ https://calendly.com/d/m6we-x8r7/support-call-with-me
 
 ### using `httpie`
 
-The following uses the same setup, patterns, and output as above with [`httpie`](https://github.com/httpie/httpie).
+The following uses the same setup, patterns, and output as above with [`httpie`](https://github.com/httpie/cli).
 
 Get your personal URI:
 

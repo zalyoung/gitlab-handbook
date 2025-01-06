@@ -2,9 +2,9 @@
 title: Elevate
 ---
 
-**Note**: We're making some changes to the Elevate program currently, so this page is under construction as we roll out the new iteration of the program, to view information about the previous version of Elevate (if you enrolled before October 2024), please visit the [Elevate - Previous Iterations](./elevatev1.md) page.
-
 Elevate is a live virtual leadership development program for GitLab managers, focused on understanding leadership competencies, building emotional intelligence, giving and recieving great feedback, coaching, and recognizing unconscious bias.
+
+**Note**: We're making some changes to the Elevate program currently, so this page is under construction as we roll out the new iteration of the program, to view information about the previous version of Elevate (if you enrolled before October 2024), please visit the [Elevate - Previous Iterations](./elevatev1.md) page.
 
 Managers at GitLab enable our mission that [everyone can contribute]({{< ref "mission" >}}). We need to equip our people leaders with the skills to lead globally dispersed, all-remote teams to support our business growth at scale.
 
@@ -35,8 +35,7 @@ In Elevate, participants will:
 
 Elevate is organized into 6 learning modules, including 2 practice labs. Practice Labs are primarily an interactive session in which you'll practice the concepts taught in the previous module, however, every module will include elements of interactivity. Each module is 60 minutes long, and they take place at 2 week intervals. View the infographic below for more details on what's covered in each module.
 
-![visual displaying the content in each elevate module](/static/images/handbook/people-group/elevatemoduleoverviews.png)
-g)
+![visual displaying the content in each elevate module](/images/handbook/people-group/elevatemoduleoverviews.png)
 
 ## Making up missed sessions
 

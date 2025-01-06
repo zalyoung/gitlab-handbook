@@ -27,7 +27,7 @@ We are big on relationship-buiding. We highly value intentionally creating time 
 
 Informal communication builds an [informal substructure of trust]({{< ref "building-trust" >}}). This trust helps people accept decisions. That acceptance makes successful execution of decision more likely.
 
-All-remote workers who are all-work all the time risk [loneliness](https://about.gitlab.com/blog/2018/04/27/remote-future-how-remote-companies-stay-connected) or [burnout](mental-health/). One of the best ways to combat loneliness and burnout are through relationship-building by prioritizing regular social interactions via informal communication throughout the workday, week, and month.
+All-remote workers who are all-work all the time risk [loneliness](https://about.gitlab.com/blog/2018/04/27/remote-future-how-remote-companies-stay-connected/) or [burnout](mental-health/). One of the best ways to combat loneliness and burnout are through relationship-building by prioritizing regular social interactions via informal communication throughout the workday, week, and month.
 
 ## Informal communication advantages and disadvantages
 
@@ -39,7 +39,7 @@ It's helpful to be transparent about your communication preferences so managers 
 
 > Sid Sijbrandij on [Twitter/X](https://twitter.com/sytses/status/1270721630537277442)
 >
-> When working remote it is important to formalize informal communication. Explicitly plan time to create, build, and maintain social connections and trust. In our handbook we list 15 methods https://about.gitlab.com/company/culture/all-remote/informal-communication/ which I'll summarize in this thread.
+> When working remote it is important to formalize informal communication. Explicitly plan time to create, build, and maintain social connections and trust. In our handbook we list 15 methods https://handbook.gitlab.com/handbook/company/culture/all-remote/informal-communication/ which I'll summarize in this thread.
 
 ### Organize informal communication
 
@@ -87,7 +87,7 @@ In colocated settings, unplanned encounters can lead to interesting ideas or hyp
 
 ### Remote retrospectives
 
-Intentionally-organized [remote retrospectives](https://about.gitlab.com/blog/2019/12/19/how-gitlab-handles-retrospectives) create an atmosphere of chance discussions, as you're specifically there to riff on something. Zoom supports [Breakout Rooms](https://support.zoom.us/hc/en-us/articles/206476093-Enabling-breakout-rooms), which may be useful in catalyzing such conversation.
+Intentionally-organized [remote retrospectives](https://about.gitlab.com/blog/2019/12/19/how-gitlab-handles-retrospectives/) create an atmosphere of chance discussions, as you're specifically there to riff on something. Zoom supports [Breakout Rooms](https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0061583), which may be useful in catalyzing such conversation.
 
 ### Innovation communities
 
@@ -363,14 +363,14 @@ A team that is distributed across the globe creates opportunity for many celebra
 
 ### Global pizza parties/meals
 
-Teams can also arrange shared meals around the world. [Global pizza parties](https://about.gitlab.com/blog/2019/10/02/support-virtual-pizza-party), for example, are possible to document and enjoy in a shared setting (Zoom or Slack), though one may wish to consider a breakfast pizza depending on time zone.
+Teams can also arrange shared meals around the world. [Global pizza parties](https://about.gitlab.com/blog/2019/10/02/support-virtual-pizza-party/), for example, are possible to document and enjoy in a shared setting (Zoom or Slack), though one may wish to consider a breakfast pizza depending on time zone.
 
 ## Social games
 
 ![GitLab team in Luna Park live game show](/images/all-remote/luna_park_game_show_gitlab.jpg)
 {style="max-width: 50%;"}
 
-You can now bring peers or colleagues into online game shows through platforms like [Luna Park](https://golunapark.com). Some social games are built for synchronous experiences like [Collab](https://collab.getchinwag.com), while on-demand games are more amenable to asynchronous engagement across time zones.
+You can now bring peers or colleagues into online game shows through platforms like [Luna Park](https://lunapark.com/). Some social games are built for synchronous experiences like [Collab](https://collab.getchinwag.com), while on-demand games are more amenable to asynchronous engagement across time zones.
 
 ## Virtual lunch table
 
@@ -394,7 +394,7 @@ Sharing a meal is a powerful way to connect as humans, particularly when you ope
 {{% /card %}}
 {{% /cardpane %}}
 
-GitLab's Customer Success team ideated and executed a [worldwide scavenger hunt](https://gitlab.com/gitlab-com/customer-success/tam/issues/212) using GitLab (the product), which is [detailed on the GitLab Unfiltered blog](https://about.gitlab.com/blog/2020/04/06/cs-scavenger-hunt) and is easily replicated.
+GitLab's Customer Success team ideated and executed a [worldwide scavenger hunt](https://gitlab.com/gitlab-com/customer-success/tam/issues/212) using GitLab (the product), which is [detailed on the GitLab Unfiltered blog](https://about.gitlab.com/blog/2020/04/06/cs-scavenger-hunt/) and is easily replicated.
 
 ## Virtual trivia
 
@@ -421,7 +421,7 @@ In this section, we'll spotlight tips and advice from other experts and companie
 [Bretton Putter](https://twitter.com/BrettonPutter), founder at [CultureGene](https://twitter.com/culturegenehq), shares the below [examples](https://twitter.com/BrettonPutter/status/1263834004341563393/photo/1).
 
 1. Book, TV, and movie clubs
-1. Movie nights leveraging [Netflix Party](https://www.netflixparty.com)
+1. Movie nights leveraging [Netflix Party](https://www.teleparty.com/)
 1. Group game/dance/music nights via a streaming service like [Twitch](https://www.twitch.tv)
 1. Lunch and Learn webinars (ideally learning about something not directly work related, such as playing an instrument)
 1. Group fitness, yoga, and meditation sessions

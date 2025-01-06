@@ -304,7 +304,7 @@ responsibility, willingness of GitLab team-members to teach new GitLab team-memb
 1. Have more employee agreements instead of contractor agreements.
     - People Ops will be working to establish new entities/payrolls in more countries as we grow. Once this is completed we can transfer contractors to employees.
 1. Hire in departments that need more GitLab team-members.
-    - We understand that there is always a lot to do at GitLab and for some departments this means that we might need to hire more GitLab team-members. If this is the case please communicate this to your manager and/or People Ops. If appropriate People Ops will [open the role](/handbook/hiring#vacancy-creation-process), and add it to the [jobs page](https://about.gitlab.com/jobs).
+    - We understand that there is always a lot to do at GitLab and for some departments this means that we might need to hire more GitLab team-members. If this is the case please communicate this to your manager and/or People Ops. If appropriate People Ops will [open the role](/handbook/hiring#vacancy-creation-process), and add it to the [jobs page](https://about.gitlab.com/jobs/).
 1. Refine onboarding to be less intense/intimidating.
     - Onboarding can be overwhelming and sometimes confusing. To alleviate confusion about what you are doing and why, we created an [Onboarding]({{< ref "general-onboarding" >}}) guide to explain each step. Update: This page has been moved to [Onboarding]({{< ref "general-onboarding" >}}).
 1. Move unlimited vacation to a set amount so GitLab team-members take their full vacation.

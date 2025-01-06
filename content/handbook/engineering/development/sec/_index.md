@@ -193,7 +193,7 @@ There may be projects that should belong in `secure` or `software-supply-chain-s
 
 When creating a new project, all settings should be left to the default options, except for the following which are specific to the secure stage:
 
-1. Add a [CODEOWNERS](https://docs.gitlab.com/ee/user/project/codeowners) file to the project, for example:
+1. Add a [CODEOWNERS](https://docs.gitlab.com/ee/user/project/codeowners/) file to the project, for example:
 
    ```shell
    [Maintainers]

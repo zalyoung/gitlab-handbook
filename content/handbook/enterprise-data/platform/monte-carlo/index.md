@@ -37,7 +37,7 @@ Login to Monte Carlo is done via Okta. Go to https://getmontecarlo.com/signin.
 The following screen appears upon login and after providing your email and clicking "Sign in with SSO", you should be redirected to your Okta login.
 Please note, you need to login via SSO and not via username/password.
 
-![image](/handbook/content/handbook/enterprise-data/platform/monte-carlo/screenshot-1.png)
+![image](/images/content/handbook/enterprise-data/platform/monte-carlo/screenshot-1.png)
 
 A runbook of how everything is technically set up can be found in the [Monte Carlo Runbook](https://gitlab.com/gitlab-com/business-technology/team-member-enablement/runbooks/-/wikis/IT-Runbooks/App-Setup/Monte-Carlo:-How-It's-Built).
 
@@ -49,7 +49,7 @@ For that you should submit an AR (similar ARs: [Example AR 1](https://gitlab.com
 
 Once logged in, you should be able to see the Monte Carlo Monitors dashboard with details on the objects being monitored and several custom monitors that have already been set up.
 
-![image](/handbook/content/handbook/enterprise-data/platform/monte-carlo/screenshot-2.png)
+![image](/images/content/handbook/enterprise-data/platform/monte-carlo/screenshot-2.png)
 
 You can create a new monitor or view existing monitor details, such as definition and schedule and any anomalies related to it.
 Alternatively, you can also list all the incidents by clicking on the Incidents menu item on the top menu bar, you can search for a specific model by querying the Catalog view or check Pipelines for a detailed lineage information on how the data flows from the source to the production model.
@@ -158,7 +158,7 @@ We have the availability to use [domains](https://vimeo.com/646676972) in our Mo
 
 In Monte Carlo UI in the top right corner there is a dropdown box available which you can select a particular domain or all domains.
 
-![image](/handbook/content/handbook/enterprise-data/platform/monte-carlo/Screenshot_MC_domain.png)
+![image](/images/content/handbook/enterprise-data/platform/monte-carlo/Screenshot_MC_domain.png)
 
 ## BI Integrations
 

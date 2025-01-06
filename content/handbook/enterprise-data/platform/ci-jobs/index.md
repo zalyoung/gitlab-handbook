@@ -10,7 +10,7 @@ This page documents the CI jobs used by the data team in Merge Requests in both 
 ## What to do if a pipeline fails
 
 - If a weekend has passed re-run any CLONE steps which were performed prior, every Sunday (5:00AMUTC) all old pipeline databases are [dropped](https://gitlab.com/gitlab-data/analytics/-/blob/master/orchestration/drop_snowflake_objects.py) from SnowFlake older than 14 days.
-![ci-db-deletion-schema.png](ci-db-deletion-schema.png)
+![ci-db-deletion-schema.png](/images/enterprise-data/platform/ci-jobs/ci-db-deletion-schema.png)
 - Merge master branch. Due to how dbt handles packages pipelines can fail due to package failures which should always be handled in the latest branch.
 - Confirm [model selection syntax](https://docs.getdbt.com/reference/node-selection/syntax). In general, it is easiest to simply use the file names of the models you are changing.
 - If still uncertain or facing any issues, request assistance in the #data Slack channel
@@ -144,7 +144,7 @@ These jobs run against the primary `RAW` database.
 
 Most dbt run jobs can be parameterized with a variable specifying dbt model that requires testing.
 
-The variable `SELECTION` is a stand-in for any of the examples in [the dbt documentation on model selection syntax](https://docs.getdbt.com/docs/model-selection-syntax#section-specifying-models-to-run).
+The variable `SELECTION` is a stand-in for any of the examples in [the dbt documentation on model selection syntax](https://docs.getdbt.com/reference/node-selection/syntax#section-specifying-models-to-run).
 
 If you are testing changes to tests in the `data-tests` project, you can pass in `DATA_TEST_BRANCH` to the manual jobs along with the branch name. This will update the branch in the `packages.yml` for the data-tests package. This works for any job running `dbt test`.
 
@@ -247,6 +247,7 @@ Current caveats with the job are:
 
 - It will not tell you which tableau workbook to check
 - It will not tell indirectly connected downstream dependencies. This feature will be a part of upcoming iteration to this job.
+- It does not find dependencies for tables that use a dbt alias. [We discourage the use of aliases](/handbook/enterprise-data/platform/dbt-guide/#general) in models, but there are legacy tables that use aliases, so caution should be exercised when working with aliased tables. Downstream dependencies can be checked manually in MonteCarlo using the alias.
 
 ##### Explanation
 
@@ -404,7 +405,7 @@ This job adds/removes specified users and roles directly in Snowflake based on c
 
 #### 📈namespace_metrics_check
 
-The pipeline runs only when the file [usage_ping_namespace_queries.json](https://gitlab.com/gitlab-data/analytics/-/blob/master/extract/saas_usage_ping/usage_ping_namespace_queries.json) is changed to ensure all rules are satisfied. The pipeline runs automatically. 
+The pipeline runs only when the file [usage_ping_namespace_queries.json](https://gitlab.com/gitlab-data/analytics/-/blob/master/extract/saas_usage_ping/usage_ping_namespace_queries.json) is changed to ensure all rules are satisfied. The pipeline runs automatically.
 
 ##### Quick Summary
 

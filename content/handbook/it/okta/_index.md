@@ -180,7 +180,7 @@ Okta Device Trust ensures that team members are acccessing Okta applications fro
 1. After doing so, you will see the `Your Identity is Verified` message and you can close the browser
 ![Identity Success](/images/it/okta/identity-success.png)
 
-1. The Okta Verify application will refresh. Press `Next` if you are using Touch ID on your Mac (most common), or `Skip` if you are not. Okta Verify uses macOS's Touch ID capability, and the [mathematical calculation](https://support.apple.com/en-us/HT204587) is stored locally within Apple's Secure Enclave and not available to Okta or GitLab.
+1. The Okta Verify application will refresh. Press `Next` if you are using Touch ID on your Mac (most common), or `Skip` if you are not. Okta Verify uses macOS's Touch ID capability, and the [mathematical calculation](https://support.apple.com/en-us/105095) is stored locally within Apple's Secure Enclave and not available to Okta or GitLab.
 ![Touch ID Prompt](/images/it/okta/touch-id-or-skip.png)
 
 1. If you pressed `Next`, then click `Enable Touch ID`

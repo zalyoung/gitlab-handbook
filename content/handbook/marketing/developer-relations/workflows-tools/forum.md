@@ -12,7 +12,7 @@ For GitLab team members it is recommended to use the `with GitLab` oauth method.
 
 ### Code of Conduct and FAQ
 
-Our [Community Code of Conduct](https://about.gitlab.com/community/contribute/code-of-conduct/) applies to the forum platform. When in doubt, [flag posts](https://meta.discourse.org/t/what-are-flags-and-how-do-they-work/32783) which violate the Code of Conduct or are inappropriate in other ways (spam, advertising, etc.). Moderators can review the posts and take action while the posts are hidden from public viewing.
+Our [Community Code of Conduct](https://about.gitlab.com/community/contribute/code-of-conduct/) applies to the forum platform. When in doubt, [flag posts](https://meta.discourse.org/t/flagging-a-post-for-moderator-attention/32783) which violate the Code of Conduct or are inappropriate in other ways (spam, advertising, etc.). Moderators can review the posts and take action while the posts are hidden from public viewing.
 
 Discourse provides a general [FAQ](https://forum.gitlab.com/faq) for users.
 
@@ -290,7 +290,7 @@ In October 2021, the Discourse forum exceeded 1 million monthly page views. More
 
 #### User Trust Levels
 
-Discourse uses [trust levels](https://meta.discourse.org/t/trust-level-permissions-table-inc-moderator-roles/224824) to grant more trust permissions to users as they evolve on using and engaging on the forum platform. This trust system also helps to keep spam users away, ensuring a safe place to discuss and help each other.
+Discourse uses [trust levels](https://meta.discourse.org/t/trust-level-permissions-reference/224824) to grant more trust permissions to users as they evolve on using and engaging on the forum platform. This trust system also helps to keep spam users away, ensuring a safe place to discuss and help each other.
 
 - New users start at level 0, and can only post a few topics and replies, and need to engage by reading topics to earn trust level 1.
 - Trust level 1 grants the permission to send DMs, upload images, flag posts, etc. as basic user.
@@ -327,7 +327,7 @@ For requesting a new category, please review the following steps:
 
 ##### Category Topic Templates
 
-Discourse supports [category topic templates](https://meta.discourse.org/t/topic-templates-for-categories-and-other-alternatives/38295), similar to GitLab description templates in issues/epics/MRs. Templates are used to guide users in providing all details for  questions (configuration, steps to reproduce, versions, etc.) which enables forum contributors to help more efficiently. The categories focus on support ("How to use GitLab", etc.), community engagement and programs, GitLab University. A general catch-all category guides users to select specific categories as default template.
+Discourse supports [category topic templates](https://meta.discourse.org/t/using-topic-templates-for-categories/38295), similar to GitLab description templates in issues/epics/MRs. Templates are used to guide users in providing all details for  questions (configuration, steps to reproduce, versions, etc.) which enables forum contributors to help more efficiently. The categories focus on support ("How to use GitLab", etc.), community engagement and programs, GitLab University. A general catch-all category guides users to select specific categories as default template.
 
 Administrators can edit each category, and navigate into `Templates` to modify the templates. Sub categories require a copy of the top-level templates, ensuring that all categories use templates by default. In the past, we had users specifically selecting categories without templates, creating new topics in the wrong place.
 
@@ -358,7 +358,7 @@ The `Only show overridden` checkbox can be helpful to see modified settings. The
 - Required: Title, site description, contact email, company name
 - Branding: logo, favicon, etc.
 - Basic setup: allow user locale, ga universal tracking code, top menu, category colors, fixed category positions, enable whispers, short title
-- Login: GH login, oauth2 enabled (GitLab oauth via [discourse-oauth2-basic](https://meta.discourse.org/t/discourse-oauth2-basic-support/33879))
+- Login: GH login, oauth2 enabled (GitLab oauth via [discourse-oauth2-basic](https://meta.discourse.org/t/discourse-oauth2-basic/33879))
 - Users: reversed usernames, hide suspension reasons, use email for username and name suggestions
 - Posting: min post/topic title length, do not allow uncategorized topics, post edit time limit, do not show edit history to public, max reply history, newuser max replies/mentions per topic, newuser max links/embedded media/max attachments
 - Email: alternative reply by email addresses

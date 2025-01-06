@@ -104,6 +104,8 @@ While the [product tours](#product-tours) provide guided walkthroughs with navig
 
 | Title | Area | Last updated |DRI |
 |-------|------|--------------|-----|
+| [Idea to MR](https://gitlab.navattic.com/duo-q-internal) | Duo with Amazon Q | 2025-01-05 | @iganbaruch |
+| [Java modernization](https://gitlab.navattic.com/duo-q-transform-internal) | Duo with Amazon Q | 2025-01-05 | @iganbaruch |
 | [Advanced SAST](https://gitlab.navattic.com/advanced-sast-internal) | DevSecOps Platform | 2024-09-24 | @iganbaruch |
 | [AI Impact analytics](https://gitlab.navattic.com/ai-impact-internal) | GitLab Duo | 2024-10-30 | @iganbaruch |
 | [Duo Enterprise](https://gitlab.navattic.com/duo-enterprise-internal) | GitLab Duo | 2024-10-28 | @iganbaruch |
@@ -176,10 +178,18 @@ Source code, demo projects, workshops, tutorials, research, etc. are documented 
 1. Consider adding links to relevant blog posts or documentation within tooltips or modals to provide users with further context or resources.
 1. In the demo settings, under 'theme' select 'GitLab Branding [Navattic Team]'.
 1. Navattic supports two types of screen captures: Web and Screenshots. It's recommended to use web captures for an 'in-product' feel, but in some cases, due to Navattic product limitations, you may find that web capture doesn't work well for some pages. In such cases, use screenshots instead. Here are some guidelines for screenhots capturing:
+1. Open your browser at 1680x1050 resolution (Full HD). You can use [Window Resizer](https://chromewebstore.google.com/detail/window-resizer/kkelicaakdanhinjdeammmilcgefonfh) to set the resolution.
 
-- Open your browser at 1920x1080 resolution (Full HD). You can use [Window Resizer](https://chromewebstore.google.com/detail/window-resizer/kkelicaakdanhinjdeammmilcgefonfh) to set the resolution.
-- Open GitLab UI in full screen and capture only the GitLab UI (avoid including the Chrome toolbar or the MAC menu).
-- Use the keyboard shortcut Shift+Command+4 to Capture selected portion of the screen.
+## Contribute to product tours
+
+The Developer Advocacy team creates product tours to showcase key workflows and highlight new features, such as **Advanced SAST**, **GitLab Duo**, **Duo with Amazon Q**, [and more](#product-tours). The team is committed to building, reviewing, and publishing product tours to ensure a consistent and high-quality experience for our users and potential customers. You can also contribute by proposing additional tours and provide the content, script, and environment. Here is how you can collaborate with the Developer Advocacy team to create new product tours:
+
+1. Use the [product tour submission template](https://gitlab.com/gitlab-com/marketing/developer-relations/developer-advocacy/developer-advocacy-meta/-/issues/new?issuable_template=product-tour-submission-template) to propose your idea.
+1. Answer all the questions in the template. This ensures the Developer Advocacy team can evaluate your idea effectively.
+1. The Developer Advocacy team will review the pitch and either a) greenlight the tour and suggest timeline for creation based on other priorities the team has, b) offer suggestions for improvements, or c) explain why the idea might not be a fit for the tour and offer other ideas for getting the message out.
+1. Once a tour is approved, the author will use the **product tour template** (google doc) to draft the script. Link to the template exists in the [product tour submission template](https://gitlab.com/gitlab-com/marketing/developer-relations/developer-advocacy/developer-advocacy-meta/-/issues/new?issuable_template=product-tour-submission-template).
+1. Add a link to the template in a comment in the submisson template issue.
+1. The Developer Advocacy team will collaborate with the author on the script, use Navattic to create the tour, and publish it in the official targets when applicable (for example, website, docs, HighSpot, Developer Advocacy handbook).
 
 ## Content Distribution
 

@@ -73,7 +73,7 @@ Any questions should be directed to Senior Director of Legal, Corporate via the 
 
 ## **SAFE Flowchart**
 
-![SAFE Flow Chart](SafeFlowChart.png)
+![SAFE Flow Chart](/images/legal/safe-framework/SafeFlowChart.png)
 
 ## **What if unSAFE information is shared?**
 

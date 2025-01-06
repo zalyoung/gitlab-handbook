@@ -40,7 +40,7 @@ The main target of the working group is not to implement everything themselves b
 
 - Each piece of software that presents summarized information for analysis performed.
 
-**Merge Request Widget Extension Component (<a href="https://docs.gitlab.com/ee/development/fe_guide/merge_request_widget_extensions.html">docs</a>)**
+**Merge Request Widget Extension Component (<a href="https://docs.gitlab.com/ee/development/fe_guide/merge_request_widgets.html">docs</a>)**
 
 - Reusable component to allow each extension to customize the presentation of the information while still ensuring a consistent user and developer experience for all extensions attached to the merge request.
 
@@ -56,7 +56,7 @@ The main target of the working group is not to implement everything themselves b
 #### Documentation outcomes
 
 - [DRI List (Eng. and UX)](/handbook/engineering/development/dev/create/code-review/report-widgets-dri-list/)
-- [Component technical documentation](https://docs.gitlab.com/ee/development/fe_guide/merge_request_widget_extensions.html)
+- [Component technical documentation](https://docs.gitlab.com/ee/development/fe_guide/merge_request_widgets.html)
 - [Contributing further and extending](/handbook/product/cross-stage-features/merge-requests/)
 
 #### Product outcomes
@@ -65,10 +65,10 @@ The screenshots below illustrate the Merge Request Report Widgets before and aft
 
 {{< cardpane >}}
 {{% card header="**Before**" %}}
-![MR Widgets Before](MR_Widgets_Before.png)
+![MR Widgets Before](/images/company/working-groups/MR_Widgets_Before.png)
 {{% /card %}}
 {{% card header="**After**" %}}
-![MR Widgets After](MR_Widgets_After.png)
+![MR Widgets After](/images/company/working-groups/MR_Widgets_After.png)
 {{% /card %}}
 {{< /cardpane >}}
 

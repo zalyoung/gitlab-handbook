@@ -40,6 +40,8 @@ You can drop any of your questions or concerns related to Humantic AI to the #mk
 
 ## Use Cases by Platform
 
+There are several use case available for Humantic. Humantic AI requires the email address and an active LinkedIn profile to predict the personality type of the prospect.
+
 ### LinkedIn
 
 #### Research Personality via LinkedIn
@@ -62,14 +64,18 @@ You can drop any of your questions or concerns related to Humantic AI to the #mk
 
 ### Google Calendar
 
-When Google Calendar is [configured with Humantic AI](/handbook/marketing/marketing-operations/humantic-ai/#setup-google-calendar),you'll receive an email provide buyer and personality insights of all meeting attendees 1hr to 30 min prior to a scheduled meeting.
+When Google Calendar is [configured with Humantic AI](/handbook/marketing/marketing-operations/humantic-ai/#setup-google-calendar), you'll receive an email provide buyer and personality insights of all meeting attendees 1hr to 30 min prior to a scheduled meeting.
 
 ### Groove
 
 1. Go to the Action page.
 1. Pick a prospect with an email action.
-1. Click on the arrow on icon.
-1. When the email editor will pop up, click on the yellow button: `Personalize` to customize your email copy based on the prospect's personality type, then send.
+1. Click on the action icon and make sure the Groove omnibar is open.
+1. Check on the Humantic AI chrome browser for their personality details.
+1. When you are ready, select the `Personalize` button on the bottom left of the email editor.
+1. Click on the check mark to accept the personalize email copy.
+1. Edit the copy as needed.
+1. And send!
 
 ## DISC Selling
 

@@ -59,7 +59,7 @@ When there is no office to spark spontaneous [informal communication](informal-c
 
 ### 4. Respect the routine, but try new things (find structure)
 
-One of the [benefits of remote]({{< ref "remote-benefits" >}}) is the ability to experiment with unconventional working days. Not everyone shares the same [peak hours of energy and focus](https://www.jonobacon.com/2019/01/14/remote-working-survival). For example, if you work best in late evenings, let your team know you are going to try some [non-linear workdays](non-linear-workday/#q-what-is-a-non-linear-workday-routine).
+One of the [benefits of remote]({{< ref "remote-benefits" >}}) is the ability to experiment with unconventional working days. Not everyone shares the same [peak hours of energy and focus](https://www.jonobacon.com/2019/01/14/remote-working-survival/). For example, if you work best in late evenings, let your team know you are going to try some [non-linear workdays](non-linear-workday/#q-what-is-a-non-linear-workday-routine).
 
 You can maximize the benefits of [asynchronous workflows](asynchronous/) in an [all-remote](terminology/) situation if you fill your former commute space with things that make you [healthier](mental-health/) like exercising, resting, bonding with family, cooking, reading, studying, etc.
 
@@ -83,14 +83,14 @@ It's important to [overcommunicate with your team](getting-started/#begin-to-cre
 
 For a deep dive, consider studying and implementing suggestions from GitLab's [comprehensive guide to remote work](https://allremote.info).
 
-- [How to live your best remote life](https://about.gitlab.com/blog/2019/07/09/tips-for-working-from-home-remote-work)
+- [How to live your best remote life](https://about.gitlab.com/blog/2019/07/09/tips-for-working-from-home-remote-work/)
 - [GitLab's guide for starting a remote job](getting-started/)
 - [Pitfalls to watch out for when embracing remote](what-not-to-do/)
-- [Mastering the all-remote environment: My top 5 challenges and solutions](https://about.gitlab.com/blog/2019/12/30/mastering-the-all-remote-environment)
-- [5 Tips for mastering video calls](https://about.gitlab.com/blog/2019/08/05/tips-for-mastering-video-calls)
-- [Mastering the at-home office environment](https://about.gitlab.com/blog/2019/09/12/not-everyone-has-a-home-office)
-- [How to make your home a space that works with kids](https://about.gitlab.com/blog/2019/08/01/working-remotely-with-children-at-home)
-- [5 Things to keep in mind while working remotely with kids](https://about.gitlab.com/blog/2019/08/08/remote-kids-part-four)
+- [Mastering the all-remote environment: My top 5 challenges and solutions](https://about.gitlab.com/blog/2019/12/30/mastering-the-all-remote-environment/)
+- [5 Tips for mastering video calls](https://about.gitlab.com/blog/2019/08/05/tips-for-mastering-video-calls/)
+- [Mastering the at-home office environment](https://about.gitlab.com/blog/2019/09/12/not-everyone-has-a-home-office/)
+- [How to make your home a space that works with kids](https://about.gitlab.com/blog/2019/08/01/working-remotely-with-children-at-home/)
+- [5 Things to keep in mind while working remotely with kids](https://about.gitlab.com/blog/2019/08/08/remote-kids-part-four/)
 - [Combating burnout, isolation, and anxiety](mental-health/)
 - [Adopting a self-service mindset](self-service/)
 - [Remote Without Warning Webinar: How to adapt and thrive as a suddenly-remote company](https://youtu.be/n4ZZaE-XCVs?t=5)
@@ -102,7 +102,7 @@ For a deep dive, consider studying and implementing suggestions from GitLab's [c
 
 ## Contribute your lessons
 
-GitLab believes that all-remote is the [future of work]({{< ref "remote-vision" >}}), and remote companies have a shared responsibility to show the way for other organizations who are embracing it. If you or your company has an experience that would benefit the greater world, consider creating a [merge request](https://docs.gitlab.com/ee/user/project/merge_requests) and adding a contribution to this page.
+GitLab believes that all-remote is the [future of work]({{< ref "remote-vision" >}}), and remote companies have a shared responsibility to show the way for other organizations who are embracing it. If you or your company has an experience that would benefit the greater world, consider creating a [merge request](https://docs.gitlab.com/ee/user/project/merge_requests/) and adding a contribution to this page.
 
 ---
 

@@ -7,7 +7,7 @@ description: Allocadia is Marketing Performance Management Software.
 
 Say good-bye to multiple spreadsheets, disparate data sets and misaligned marketing plans. The recognized leader in Marketing Performance Management (MPM), Allocadia's budget management and strategic planning platform is the foundation for operational excellence for marketing leaders and their teams. Powered with data-driven insights, marketing leaders can visualize what's working to enable greater planning agility. Learn how to run marketing like a business at Allocadia.com.
 
-💰 Version purchased: [Allocadia Optimize](https://allocadia.com/pricing/)
+💰 Version purchased: [Allocadia Optimize](https://www.uptempo.io/)
 
 🔑 Logins are available for Marketing budget holders
 

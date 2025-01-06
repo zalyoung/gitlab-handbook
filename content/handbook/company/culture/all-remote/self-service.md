@@ -94,7 +94,7 @@ By answering with a link, you're doing the following:
 
 1. Making your day more efficient, enabling you to disengage with work earlier and [enjoy your surroundings](people/), family, and community.
 1. Allowing the recipient to ingest the answer [on their own time](management/#asynchronous).
-1. Removing bias from the answer, which empowers the recipient to [iterate further](management/#applying-iteration-to-everything) on what is documented by starting a [merge request](https://about.gitlab.com/blog/2019/08/02/gitlab-for-the-non-technical).
+1. Removing bias from the answer, which empowers the recipient to [iterate further](management/#applying-iteration-to-everything) on what is documented by starting a [merge request](https://about.gitlab.com/blog/2019/08/02/gitlab-for-the-non-technical/).
 1. Leading by example, showing new team members that they too should strive to answer via documentation.
 
 ### Say thanks
@@ -128,6 +128,6 @@ Complete all knowledge assessments in the [Remote Work Foundation](remote-certif
 
 ## Contribute your lessons
 
-Effective onboarding and positively influencing workflow habits is a challenge for all companies. If you or your organization has an experience that would benefit the greater world, consider creating a [merge request](https://docs.gitlab.com/ee/user/project/merge_requests) and adding a contribution to this page.
+Effective onboarding and positively influencing workflow habits is a challenge for all companies. If you or your organization has an experience that would benefit the greater world, consider creating a [merge request](https://docs.gitlab.com/ee/user/project/merge_requests/) and adding a contribution to this page.
 
 Return to the main [all-remote page]({{< ref "_index.md" >}}).

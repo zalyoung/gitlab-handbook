@@ -92,8 +92,8 @@ Once you've selected a template to copy, the first screen will ask for **Basic J
 1. Click `Generate IDs` to create a requisition ID. You'll need this again when you set up your opening(s).
 1. Under `Job Family URL`, ensure you are linking to the correct job family page. It is the Recruiter's responsibility to ensure that the job family has the specific job listed before submitting the requisition for approval. If the job family is currently in approvals, please contact Total Rewards to ensure you are clear before moving forward. If you skip this step and the job makes it to the offer stage, the process will stall during Total Rewards approval and will take significantly longer to get approved. It is OK if the job title in Greenhouse is not identical to the job family for posting purposes.
 1. Under `Employment Type`, select your opening type - which unless there is an explicit exception, should be Full-Time. *Contract* refers to a true consultant, who works on short-term projects, and not someone in a country like the Netherlands who requires a one-year contract before indefinite. Talent Acquisition only supports Full Time Employee hiring at this time.
-1. Most positions will not be marked confidential. If you have prior approval from Jess Dallmar, Rich Kahn, and Enablement, you can select `Yes` under `Confidential?`. Selecting `Yes` will ensure that the Enablement team specifically excludes any jobs with this selected from reports. It does *not* change access or permissions, so you will still need to evaluate those to remove anyone who should not see your job.
-1. `CA/CO/HI/NY/NJ/WA/DC Salary` should be filled in if you believe you may list your position in the United States. If not, Recruiters can list 1-1 as the salary range as it's a required field. To find the salary range, utilize the comp calculator and search for Colorado (metro area = not applicable) for the minimum and California (metro area = San Francisco) for the maximum. This field is tied to your job post, so it's important that it's filled in correctly.
+1. Most positions will not be marked confidential. If you have prior approval from Jess Dallmar, and Enablement, you can select `Yes` under `Confidential?`. Selecting `Yes` will ensure that the Enablement team specifically excludes any jobs with this selected from reports. It does *not* change access or permissions, so you will still need to evaluate those to remove anyone who should not see your job.
+1. `CA/CO/HI/NY/NJ/WA/DC/IL/MN Salary` should be filled in if you believe you may list your position in the United States. If not, Recruiters can list 1-1 as the salary range as it's a required field. To find the salary range, utilize the comp calculator and search for Colorado (metro area = not applicable) for the minimum and California (metro area = San Francisco) for the maximum. This field is tied to your job post, so it's important that it's filled in correctly.
 1. Fill in the `Openings Section`. Your opening ID is your req ID with -1, -2, etc following it. It is **not** the GHPID.
 1. Enter the `Target Start Date` as listed on the GitLab Hiring Plan
 1. Under `Type` choose if this is a *Annual Plan*, *Backfill*, *Incremental* or *Intern*. If you select *Backfill*, please enter the name of the teammate you are backfilling on the line below.
@@ -266,7 +266,7 @@ On occasion, there may be additional or fewer stages than represented here, but 
 
 ### Publish the Job: Careers Page & LinkedIn
 
-Once a job has been setup in Greenhouse and posted to the GitLab public job board it will be automatically posted to the [Careers Page](https://about.gitlab.com/jobs).
+Once a job has been setup in Greenhouse and posted to the GitLab public job board it will be automatically posted to the [Careers Page](https://about.gitlab.com/jobs/).
 
 #### Choosing the correct location for your published job
 

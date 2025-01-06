@@ -48,7 +48,7 @@ Since most of the E-Group is in the San Francisco Bay Area, we most often go to 
 The E-Group offsite can also be hosted at the house of the CEO.
 The EBA to the CEO is responsible for booking the hotel and meeting rooms for the people attending in person.
 The EBA to the CEO is responsible for sending out the calendar invites associated to each meeting in the agenda, one calendar entry per meeting, with unique Zoom links for the meeting when the attendees change.
-If the CEO is traveling, the CoS to the CEO (preferred) or the EBA to the CEO should work with the CEO to bring [the Owl](https://www.owllabs.com).
+If the CEO is traveling, the CoS to the CEO (preferred) or the EBA to the CEO should work with the CEO to bring [the Owl](https://owllabs.com/).
 
 [Hybrid calls are hard](/handbook/communication/#hybrid-calls-are-horrible), but occasionally the Offsite will need to take a hybrid meeting form.
 When this is the case, the EBA to the CEO will ensure that the calendar invites for the offsite sessions include Zoom links.

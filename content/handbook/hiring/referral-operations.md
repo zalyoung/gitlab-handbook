@@ -15,7 +15,7 @@ People Connect will review the following guidelines to ensure the correct amount
     - Our current referral bonus amount as of **2023-11-20** is listed [here](/handbook/total-rewards/incentives/#referral-bonuses).
     - If the referral was submitted between **2022-06-01** and **2023-11-19**, then the following referral amounts apply:
         - $1,500 base referral bonus for a new hire.
-        - $1,500 supplemental referral bonus for a hire from a ["select underrepresented group"](https://about.gitlab.com/culture/inclusion/#examples-of-select-underrepresented-groups).
+        - $1,500 supplemental referral bonus for a hire from a ["select underrepresented group"](/handbook/company/culture/inclusion/#examples-of-select-underrepresented-groups).
     - For candidates referred multiple times, the referral date is determined by the date the referral was submitted for the position the candidate ends up accepting.
 
 #### Transferring Referral Submissions to Greenhouse
@@ -27,7 +27,7 @@ Per the current [Referral Submission Process]({{< ref "referral-process#submitti
         - The appropriate *Sourcer(s)* is determined by referencing the **Hiring Team** page of the requisition.
 1. Check to make sure the Issue is marked as `Confidential`.
     - *Reruiting Operations & Insights* will ensure this setting is enabled.
-1. Check to see if the vacancy is posted on the external [Job Board](https://boards.greenhouse.io/gitlab/) and if it is, **tag** the *Referrer*, **comment** that they'll need to submit their referral directly in Greenhouse per [these instructions](/handbook/hiring/referral-process/#submitting-a-referral-in-greenhouse), and **close** the Issue.
+1. Check to see if the vacancy is posted on the external [Job Board](https://job-boards.greenhouse.io/gitlab) and if it is, **tag** the *Referrer*, **comment** that they'll need to submit their referral directly in Greenhouse per [these instructions](/handbook/hiring/referral-process/#submitting-a-referral-in-greenhouse), and **close** the Issue.
     - *Reruiting Operations & Insights* will check to make sure the vacancy is only posted internally.
 1. If the vacancy is **only** open internally, go to your Greenhouse dashboard and click `+` > `Add a Referral`.
 1. Reference the Issue to see what should be entered in the following fields:

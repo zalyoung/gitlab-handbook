@@ -5,7 +5,7 @@ description: "Discover how GitLab uses Adaptive Insights to plan, budget, and fo
 
 ## General Information
 
-[Adaptive Insights](https://www.adaptiveplanning.com/), a Workday company, is a cloud-based corporate performance management platform. The GitLab FP&A team utilizes Adaptive Inisghts to plan, budget, and forecast GitLab's planning cycles.
+[Adaptive Insights](https://www.workday.com/en-us/products/adaptive-planning/overview.html), a Workday company, is a cloud-based corporate performance management platform. The GitLab FP&A team utilizes Adaptive Inisghts to plan, budget, and forecast GitLab's planning cycles.
 
 ## Administration
 

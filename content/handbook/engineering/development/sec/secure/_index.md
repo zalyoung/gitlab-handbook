@@ -69,7 +69,7 @@ The following members of other functional teams are our stable counterparts:
 ## Secure Team
 
 The Secure Team (previously known as the *Security Products Team*) is responsible for the security checks features in the GitLab platform, and maps to the [secure](/handbook/product/categories/#secure) transversal stage.
-You can learn more about our approach on the [Secure Vision](https://about.gitlab.com/direction/secure/) page.
+You can learn more about our approach on the [Secure Vision](https://about.gitlab.com/direction/application_security_testing/) page.
 
 The features provided by the Secure Team are mostly present at the pipeline level, and mostly available as [Docker](https://www.docker.com/) images.
 This particularity shapes our processes and QA, which differs a bit from the other backend teams.
@@ -286,7 +286,7 @@ To update the documentation, the following process should be followed:
 
 Since we are a [remote](/handbook/company/culture/all-remote/) company, having daily standup meetings would not make any sense, since we're not all in the same timezone.
 That's why we have async daily standups, where everyone can give some insights into what they did yesterday, what they plan to do today, etc.
-For that, we rely on the [geekbot](https://geekbot.io/) slack plugin to automate the process.
+For that, we rely on the [geekbot](https://geekbot.com/) slack plugin to automate the process.
 
 ##### Standup messages format
 

@@ -73,7 +73,7 @@ for each of GitLab's services.
 
 ## Direction for FY24
 
-We've moved the direction to the direction section [here](https://about.gitlab.com/direction/saas-platforms/scalability/) so that it's in the same place as the rest of our product direction.
+We've moved the direction to the direction section [here](https://about.gitlab.com/direction/saas-platforms/production-engineering/) so that it's in the same place as the rest of our product direction.
 
 ## Indicators
 

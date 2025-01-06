@@ -24,7 +24,7 @@ We anticipate the remote onboarding process to take at least two full weeks, wit
 
 ## What is an onboarding session?
 
-At GitLab, we like to do what we call ["dogfooding"](/handbook/values/#dogfooding) our own product. Hence onboarding tasks are completed in a [GitLab issue](https://docs.gitlab.com/ee/user/project/issues).
+At GitLab, we like to do what we call ["dogfooding"](/handbook/values/#dogfooding) our own product. Hence onboarding tasks are completed in a [GitLab issue](https://docs.gitlab.com/ee/user/project/issues/).
 
 All onboarding steps are found in an [onboarding issue template](https://gitlab.com/gitlab-com/people-group/people-operations/employment-templates/-/blob/main/.gitlab/issue_templates/onboarding.md), which contains a standardized set of tasks and steps that each new team member will complete. The onboarding process for the new team member is [self-driven and self-learning](/handbook/values/#self-service-and-self-learning)and as [asynchronous](/handbook/values/#bias-towards-asynchronous-communication) as possible. This is intentional, in order to aid acclimation into the remote life at GitLab.
 
@@ -49,7 +49,7 @@ A large part of onboarding is providing answers to logistical questions:
 
 Traditional in-person companies usually rely on trainers or more hands-on approaches to help new hires navigate their surroundings. All-remote companies have to be more efficient and make information easily accessible, so documentation will be essential for a smooth onboarding process. At GitLab, we provide a detailed [handbook](/handbook) that is always evolving.
 
-The GitLab team handbook is the central repository for how we run the company. It consists of over [2,000 web pages of text](/handbook/about#count-handbook-pages), all searchable of course. Our handbook serves as a [single source of truth](https://docs.gitlab.com/ee/development/documentation/styleguide#documentation-is-the-single-source-of-truth-ssot) that all team members can reference and depend on for answers about GitLab.
+The GitLab team handbook is the central repository for how we run the company. It consists of over [2,000 web pages of text](/handbook/about#count-handbook-pages), all searchable of course. Our handbook serves as a [single source of truth](https://docs.gitlab.com/ee/development/documentation/styleguide/#documentation-is-the-single-source-of-truth-ssot) that all team members can reference and depend on for answers about GitLab.
 
 For onboarding, we're able to direct new hires to a huge repository of information and also teaching them to be self-sufficient and proactive when looking for answers. Because we've implemented a [handbook-first approach](handbook-first/#make-handbook-first-a-value), the GitLab handbook is always changing and growing as we learn new things.
 
@@ -81,7 +81,7 @@ Crucially, when there are issues with onboarding, new team members may not feel 
 
 1. [All-remote management](management/)
 1. [Tools that enable remote teams](resources/#tools-that-enable-remote-teams)
-1. [3 things I learned in my first month at GitLab](https://about.gitlab.com/blog/2016/11/02/three-things-i-learned-in-my-first-month-at-gitlab)
+1. [3 things I learned in my first month at GitLab](https://about.gitlab.com/blog/2016/11/02/three-things-i-learned-in-my-first-month-at-gitlab/)
 
 ### Social requirements for all-remote onboarding
 
@@ -164,7 +164,7 @@ Because remote onboarding is mostly self-guided, the real-time face-to-face abil
 1. **Introduce them to any tools for connecting with colleagues.** Chat tools such as Slack may seem ubiquitous, but not everyone has used them before - and even if they have, they may not know how your network is organized.
 1. **Ask where they need help and connect them with the experts**. Connect new team members with subject matter experts if your assigned team member requests additional help in a given area.
 1. **Keep checking in regularly.** Checking in regularly will help them feel welcome and supported.
-1. **Provide backup if needed**. If you plan to be out (e.g. [vacation]({{< ref "paid-time-off" >}}), [company business](/handbook/travel), [events](https://about.gitlab.com/events), etc.) during a new team member's first few weeks, make sure that a backup person is available to offer support.
+1. **Provide backup if needed**. If you plan to be out (e.g. [vacation]({{< ref "paid-time-off" >}}), [company business](/handbook/travel), [events](https://about.gitlab.com/events/), etc.) during a new team member's first few weeks, make sure that a backup person is available to offer support.
 
 ### What are some tips to plan an effective employee onboarding training?
 

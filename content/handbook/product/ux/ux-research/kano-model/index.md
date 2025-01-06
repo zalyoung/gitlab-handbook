@@ -152,7 +152,7 @@ Example [Dovetail project](https://dovetailapp.com/projects/5sVL84ZlY492J2jOt5W7
 
 ##### The quantitative approach
 
-We recommend collecting responses from 50 to 80 users in your target audience and analyze them using discrete analysis described in [The Complete Guide to Kano Model](https://foldingburritos.com/kano-model/). This approach will provide you with "the numbers" that can back up your prioritization decisions, but you will still lack the understanding behind the prioritization.
+We recommend collecting responses from 50 to 80 users in your target audience and analyze them using discrete analysis described in [The Complete Guide to Kano Model](https://foldingburritos.com/blog/kano-model/). This approach will provide you with "the numbers" that can back up your prioritization decisions, but you will still lack the understanding behind the prioritization.
 
 For the analysis use this [spreadsheet template](https://docs.google.com/spreadsheets/d/14D-ayhw15J9o7ixzFh7pda_SZQkhZTRsyJvHi_5JXbk/edit?usp=sharing) (GitLab internal link).
 
@@ -162,7 +162,7 @@ Taking the quantitative and qualitative approach will result in a more complete 
 
 ## Additional resources
 
-- Article: [The Complete Guide to Kano Model](https://foldingburritos.com/kano-model/)
+- Article: [The Complete Guide to Kano Model](https://foldingburritos.com/blog/kano-model/)
 - Article: [Kano Model — Ways to use it and NOT use it](https://medium.com/design-ibm/kano-model-ways-to-use-it-and-not-use-it-1d205a9cf808)
 - Video: [Building a Winning UX Strategy Using the Kano Model](https://www.youtube.com/watch?v=Hr1rN3jibIk&feature=youtu.be)
 

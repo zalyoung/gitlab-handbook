@@ -84,4 +84,4 @@ There is a set of Official Rules which applies for every Promotional Game offere
 
 Abbreviated Rules will generate upon submission of the Google Form and will look similar to this:
 
-![GitLab Promotion Rules](q4-fy22-sus-sweepstakes.png)
+![GitLab Promotion Rules](/images/legal/ux-research-pilot/q4-fy22-sus-sweepstakes.png)

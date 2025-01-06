@@ -442,7 +442,7 @@ Please take time to understand any code that you are asked to copy and paste in 
 
     > Normally you would run DAST against your project's code running in either a review environment or a production environment. Since the code in this project is just a single Python file instead of a deployable web app, you'll configure DAST to scan an outside web app *that has nothing to do with the code in this project.*
     >
-    > A full list of DAST variables can be found in the <a target="_blank" href="https://docs.gitlab.com/ee/user/application_security/dast/browser_based.html#available-cicd-variables">documentation</a>.
+    > A full list of DAST variables can be found in the <a target="_blank" href="https://docs.gitlab.com/ee/user/application_security/dast/browser/index.html#available-cicd-variables">documentation</a>.
 
 1. After these changes, your `.gitlab-ci.yml` file should look like this.
 

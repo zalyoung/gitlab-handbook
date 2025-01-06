@@ -10,7 +10,7 @@ status: active
 | -------------- | ------------------------------------------------------------ |
 | Date Restarted | August 1, 2022                                               |
 | Date Created   | November 11, 2020                                            |
-| End Date       | TBD                                                          |
+| End Date       | TBD |
 | Slack          | [#wg_disaster-recovery](https://gitlab.slack.com/archives/C01D6Q0DHAL) (only accessible from within the company) |
 | Google Doc     | [Working Group Agenda](https://docs.google.com/document/d/1dLgmLlvET5WyWF0CpX5JUxiyQKyDzctocs7unwLueY8) (only accessible from within the company) |
 | Overview & Status | [Internal Handbook](https://internal.gitlab.com/handbook/engineering/disaster-recovery/) |

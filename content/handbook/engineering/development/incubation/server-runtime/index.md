@@ -146,7 +146,7 @@ Coming soon!
 ## Product Development Group Affinity
 
 - [Editor](/handbook/product/categories/#editor-group)
-- [Workspaces](https://about.gitlab.com/direction/create/remote_development/workspaces)
+- [Workspaces](https://about.gitlab.com/direction/create/remote_development/workspaces/)
 
 ## Getting started with Server Runtime
 

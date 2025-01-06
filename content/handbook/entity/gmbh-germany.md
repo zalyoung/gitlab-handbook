@@ -119,7 +119,7 @@ When a team member leaves the company, Total-Rewards will notify Allianz of the 
 
 GitLab and team members contributions to pension, health insurance, care in old age insurance and unemployment insurance are mandatory, as required by the state system. The payments are calculated each month by payroll and are shown on the employee pay-slips.
 
-Further information can also be found on the [Germany Trade & Invest Website](https://www.gtai.de/en/invest/investment-guide/employees-social-security-659058).
+Further information can also be found on the [Germany Trade & Invest Website](https://www.gtai.de/en/invest/investment-guide/employment-social-insurance-germany-659058).
 
 ## Personal Accident Insurance
 
@@ -154,7 +154,7 @@ To initiate your Parental Leave, submit the dates in Workday by selecting `Paren
 
 **Maternity Leave**
 
-Regardless of the length of service, under the Maternity Protection Act, pregnant team members are entitled to 6 weeks of leave prior to their estimated due date with full pay ([Maternity pay](https://www.tk.de/en/service-faqs/life-change/maternity-pay-2079400)). If a birthing parent does not give birth on the expected day, the period of protection before childbirth is shortened or extended accordingly. Team members may choose to opt-out of the six-week maternity protection period before their due date. This declaration can be revoked at any time with effect for the future.
+Regardless of the length of service, under the Maternity Protection Act, pregnant team members are entitled to 6 weeks of leave prior to their estimated due date with full pay ([Maternity pay](https://www.tk.de/en/health-insurance-in-germany/basic-informations/life-change/maternity-pay-2079400)). If a birthing parent does not give birth on the expected day, the period of protection before childbirth is shortened or extended accordingly. Team members may choose to opt-out of the six-week maternity protection period before their due date. This declaration can be revoked at any time with effect for the future.
 
 The Maternity Protection period after the delivery is 8 weeks following the birth (or 12 weeks in case of multiple or premature birth and if the child is medically diagnosed with a disability within the meaning of sec. 2 para. 1 sentence 1 of Book 9 of the Social Code (Neuntes Buch Sozialgesetzbuch) before the end of eight weeks after delivery). Team members may not opt-out of the maternity protection period following childbirth. In case of premature delivery, the period of protection after delivery is extended by the period of reduction of the period of protection before delivery; if the child has been diagnosed with a disability in the sense described above, the period of protection after delivery is extended only if the birthing parent applies for it. The team member will receive full payment during this period. GitLab may receive reimbursement of these payments from the team member's health insurance carrier. Please notify the Absence Management team at `leaves@domain` of your health insurance carrier name and your insurance number.
 
@@ -287,7 +287,7 @@ GitLab GmbH employees in Germany are entitled to both the statutory German paren
 
 **Part-time work during Parental Leave**
 
-During Parental Leave, employees are statutorily entitled to part-time work (15 to 30 hours per week) if:
+During Parental Leave, employees are [statutorily entitled to part-time work](https://familienportal.de/familienportal/familienleistungen/elternzeit/faq/kann-ich-waehrend-der-elternzeit-teilzeit-arbeiten--124794) (15 to 32 hours per week) if:
 
 - The employer usually employs more than 15 employees, the employment relationship exists for at least six months,
 - The reduction is not opposed by urgent operational reasons, and
@@ -350,7 +350,7 @@ We encourage all team members to meet with a *virtual doctor* for the certificat
 
 **Infection Protection Act**
 
-The [Infection Protection Act](https://www.gesetze-im-internet.de/ifsg/index.html) was recently updated with a few [amendments](https://www.bundesregierung.de/breg-de/themen/coronavirus/kinderkrankengeld-1836090) related to entitlement to expanded children's sickness benefits related to the Coronavirus. Please review the current law of the Infection Protection Act (IfSG)and contact your doctor to see how it applies to your situation and family.
+The [Infection Protection Act](https://www.gesetze-im-internet.de/ifsg/index.html) was recently updated with a few [amendments](https://www.bundesregierung.de/breg-de/service/archiv/kinderkrankengeld-1836090) related to entitlement to expanded children's sickness benefits related to the Coronavirus. Please review the current law of the Infection Protection Act (IfSG)and contact your doctor to see how it applies to your situation and family.
 
 ## Administrative Details for Benefits Team
 

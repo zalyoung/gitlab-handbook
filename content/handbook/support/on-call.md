@@ -306,7 +306,7 @@ We understand you may have plans outside of your normal workspace while you're o
 
 ## Keeping the PagerDuty contact up to date
 
-PagerDuty phone and SMS notifications can come from a variety of different phone numbers and as such, it is important to stay up to date with this to avoid missed pages. You should use [this PagerDuty documentation page](https://support.pagerduty.com/docs/notification-phone-numbers) to download the most recent vCard or setup an automatically updated PagerDuty contact on your device.
+PagerDuty phone and SMS notifications can come from a variety of different phone numbers and as such, it is important to stay up to date with this to avoid missed pages. You should use [this PagerDuty documentation page](https://support.pagerduty.com/main/docs/notification-phone-numbers) to download the most recent vCard or setup an automatically updated PagerDuty contact on your device.
 
 If you use a "do not disturb" mode on your device, you should also allow the PagerDuty contact to bypass this.
 

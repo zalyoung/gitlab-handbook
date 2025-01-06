@@ -64,7 +64,7 @@ Consists in identifying the project's:
 
 ### Alignment & OKRs
 
-All projects added to the [IT Portfolio: Quarterly Commits](https://docs.google.com/spreadsheets/d/1ojnTFGB2iYJz9kNPYdoLc4PeyDqAN60gu9cQBrKpHJQ/edit?pli=1#gid=955721517) are part of the Business Technology [OKRs](https://about.gitlab.com/company/okrs/) for:
+All projects added to the [IT Portfolio: Quarterly Commits](https://docs.google.com/spreadsheets/d/1ojnTFGB2iYJz9kNPYdoLc4PeyDqAN60gu9cQBrKpHJQ/edit?pli=1#gid=955721517) are part of the Business Technology [OKRs](/handbook/company/okrs/) for:
 
 - Awareness
 - Accountability
@@ -245,7 +245,7 @@ The main difference between a project and a change request in ITIL lies in their
 
 ## Meetings Protocol
 
-The team follows [GitLab meeting practices and standards](https://about.gitlab.com/company/culture/all-remote/meetings/).
+The team follows [GitLab meeting practices and standards](/handbook/company/culture/all-remote/meetings/).
 
 - Every meeting has an agenda.
 - All agendas are stored in the PMO Team Meetings [shared drive](https://drive.google.com/drive/folders/1nKgH2Q9PztXE388dbhUHxSh1Vy2V_vLz).

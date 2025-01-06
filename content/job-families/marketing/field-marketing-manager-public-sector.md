@@ -54,6 +54,6 @@ Candidates for this position can expect the hiring process to follow the order b
 - Next, candidates will be invited to schedule a series of 45 minute interviews with the CMO, Director of Field Marketing, regional sales leader, and a seller who they would be paired with.
 - Based on location, candidates may meet in person with any of the above.
 - Finally, our CEO may choose to conduct a final interview.
-- Successful candidates will subsequently be made an offer via email. The total compensation for this role listed in <https://about.gitlab.com/job-families/marketing/field-marketing-manager/> is 100% base salary.
+- Successful candidates will subsequently be made an offer via email. The total compensation for this role listed in <https://handbook.gitlab.com/job-families/marketing/field-marketing-manager/> is 100% base salary.
 
 Additional details about our process can be found on our [hiring page](/handbook/hiring/).

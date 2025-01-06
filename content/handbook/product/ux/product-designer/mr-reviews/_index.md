@@ -153,7 +153,7 @@ Some MRs require additional set up:
     - Try the [Chrome/Firefox add-on](https://gitlab.com/conventionalcomments/conventional-comments-button) to apply [Conventional Comment](https://conventionalcomments.org/) prefixes.
 - **Visual feedback**:
   - Share annotated screenshots or screen recordings in your comments. This makes issues clear and communication more efficient.
-  - Use free apps like [CloudApp](https://zight.com/), [Monosnap](https://monosnap.com/), or Mac's Screenshot (see how to [capture](https://support.apple.com/guide/mac-help/take-a-screenshot-or-screen-recording-mh26782/mac) and [annotate](https://support.apple.com/guide/mac-help/mark-up-files-mchl1fd88863/mac)).
+  - Use free apps like [CloudApp](https://zight.com/), [Monosnap](https://monosnap.com/), or Mac's Screenshot (see how to [capture](https://support.apple.com/en-ca/guide/mac-help/mh26782/mac) and [annotate](https://support.apple.com/guide/mac-help/mark-up-files-mchl1fd88863/mac)).
   - Highlight differences between the implementation and the expected result using a [Markdown table](https://docs.gitlab.com/ee/user/markdown.html#tables). Use the template below:
       <details>
       <summary>Differences table template</summary>
