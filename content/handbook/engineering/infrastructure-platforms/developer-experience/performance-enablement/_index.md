@@ -56,7 +56,6 @@ flowchart TD
     Dev --> Portal
     Dev --> Guide
     Portal --> Guide
-    Review --> EC
     Guide --> Dev
 
     style EC fill:#98FB98,stroke:#333,stroke-width:2px
