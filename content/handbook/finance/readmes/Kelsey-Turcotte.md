@@ -43,7 +43,7 @@ Fundamental to long-term shareholder value creation is company culture. In my ex
 1. I like collaborating with Google docs. That being said, if an earnings announcement is impending the number of comments and alerts get overwhelming.  Please don’t be shy about pointing out something if I have missed it.
 1. Please acknowledge me if I have reached out. That way I know that things are in progress.
 
-## Expectations for leadership. What I need from you. What you will get from me:
+## Expectations for leadership. What I need from you. What you will get from me.
 
 1. Communication. Working in a virtual environment eliminates the casual conversations in the hall. To balance this, please communicate frequently and intentionally.
 1. Responsiveness. This will help us all keep on track.
