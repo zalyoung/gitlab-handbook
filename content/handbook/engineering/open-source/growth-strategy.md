@@ -51,7 +51,6 @@ We're prioritizing these 5 key items to maximize our impact within our current c
 * [Returning & Frequent Contributors](/handbook/engineering/open-source/growth-strategy/#returning-frequent-contributors)
 * [Non-code contributions](/handbook/engineering/open-source/growth-strategy/#non-code-contributions)
 
-
 ### Improve Contributor Journey
 
 Provide an outstanding, highly efficient and fast contributor experience, from onboarding to getting a change merged. One of the tactics is to reduce contribution stumbling blocks to make the contributor journey more efficient. These stumbling blocks will be identified through gathering feedback from wider community contributors, product teams and GitLab Team Members on contribution friction.
