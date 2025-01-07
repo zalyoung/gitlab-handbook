@@ -10,7 +10,7 @@ We are a global team dedicated to developing and managing cutting edge IT system
 
 The  Enterprise Applications PMO oversees portfolio and program management within the EntApps organization. We collaborate with business teams during annual and quarterly planning to align with top priorities. Our services include portfolio, program and resource management, along with project tracking and reporting.
 
-For detailed insights into our roles and responsibilities, visit the [Program Management Job Family](/handbook.gitlab.com/job-families/finance/information-technology/program-management-bt) page.
+For detailed insights into our roles and responsibilities, visit the [Program Management Job Family](https://handbook.gitlab.com/job-families/finance/information-technology/program-management-bt/) page.
 
 ## <i class="fas fa-users" id="biz-tech-icons"></i> Our Team
 
