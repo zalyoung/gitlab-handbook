@@ -284,6 +284,12 @@ Once the contract or Mutual Termination Agreement (MTA) has been created by the 
     - Add this line underneath the start date at the top: "Continuous Service Date: *add original hire date*"
     - Add this sentence to the section above 1. Position: "Your continuity of service for all employment purposes begins on the *add original hire date: YYYY-MM-DD*"
 
+#### Spain
+
+##### Relocating **to** Spain
+
+1. *Before* choosing a template or creating a contract, the People Connect Lead should reach out to legal-employment@gitlab.com with the details of the role the relocating team member has for support with classification of the role under the applicable CBA. The clasification will impact the choice of template used for creating a contract.
+
 #### South Korea, France or Singapore
 
 ##### Relocating **to** South Korea, France or Singapore
