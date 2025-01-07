@@ -121,5 +121,4 @@ For any additional questions, please post in the talent-acquisition Slack channe
 
 #### Cold LinkedIn Outreach 
 
-- If someone you have not worked with reaches out requesting to be referred for an open role, you can respond with the message below. Please adjust the order and content to reflect your own style and tone as needed:
-  - “Thank you for your interest in GitLab. Unfortunately, I cannot refer you for the position as we have not had a chance to work together. To ensure we maintain an [inclusive](/company/culture/inclusion/) recruiting process, I cannot influence your application. We would prefer you apply for the position you have in mind directly via our [Jobs page](/jobs/). This will ensure the right GitLab team member reviews your profile!"
+- If someone you do not know and/or you have not worked with reaches out requesting to be referred for an open role, please let them know you are unable to refer them due to our referral policy, but encourage them to apply directly to any open roles via the [Jobs page](/jobs/). The appropriate recruiter will then review their application as soon as they can!
