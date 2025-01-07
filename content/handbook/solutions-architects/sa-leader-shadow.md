@@ -33,19 +33,16 @@ Candidates must:
 ### Rotation Schedule
 
 | Start Date | Shadow Name | Geo Preference (can be multiple) |
-|------------|-------------|----------------------------------|
+|-------|---------|---------|
 | FY25 Q3 | [arun_kg](https://gitlab.com/arun_kg) | NEUR |
-| FY26 Q1 | [Chloé Cartron](https://gitlab.com/ChloeCartron) | |
-| FY26 Q1 | [Regnard Raquedan](https://gitlab.com/rraquedan) | |
-| FY26 Q1 | [Paul Dumaitre](https://gitlab.com/pdumaitre) | |
-| FY26 Q1 | [Nupur Sharma](https://gitlab.com/nsharma2) | |
-| FY26 Q2 | [Julia Gätjens](https://gitlab.com/jgaetjens) | |
-| FY26 Q3 | | |
-| FY26 Q4 | | |
-| FY27 Q1 | | |
-| FY27 Q2 | | |
-| FY27 Q3 | | |
-| FY27 Q4 | | |
+| FY26 Q1 | [Regnard Raquedan](https://gitlab.com/rraquedan) |  |
+| FY26 Q1 | [Paul Dumaitre](https://gitlab.com/pdumaitre) |  |
+| FY26 Q1 | [Nupur Sharma](https://gitlab.com/nsharma2) |  |
+| FY26 Q2 | [Julia Gätjens](https://gitlab.com/jgaetjens) |  |
+| FY26 Q3 |  |  |
+| FY26 Q4 |  |  |
+| FY27 Q1 |  |  |
+| FY27 Q2 |  |  |
 
 ## Program Preparation
 
@@ -117,19 +114,19 @@ The shadow experience leading up to, during, and after the 2-week shadow is orga
 
 ## Suggested Reading
 
-- [Leaders Eat last](https://simonsinek.com/books/leaders-eat-last/)
-- [Tribes](https://www.amazon.it/Tribes-We-Need-You-Lead/dp/1591842336)
-- [Empathy: Why it matters](https://www.amazon.com/Empathy-Why-Matters-How-Get/dp/0399171401)
-- [The Speed of Trust](https://speedoftrust.com/)
-- [The Culture Map](https://www.amazon.co.uk/Culture-Map-Decoding-People-Cultures/dp/1610392760?pd_rd_w=P7BoC&content-id=amzn1.sym.ec8f623a-d4f7-4017-b387-58abf6ea18ca&pf_rd_p=ec8f623a-d4f7-4017-b387-58abf6ea18ca&pf_rd_r=59XH7ARR3R406KVPJ79G&pd_rd_wg=DCguM&pd_rd_r=753167c2-5900-4c19-b32f-537fbbf73058&pd_rd_i=1610392760)
-- [The Chimp Paradox](https://www.amazon.com/Chimp-Paradox-Impulses-Determine-Happiness/dp/009193558X)
-- [The Sales Engineer Manager's Handbook](https://www.amazon.co.uk/gp/product/B087GKLVBZ/ref=kinw_myk_ro_title)
-- [Multipliers](https://www.amazon.co.uk/gp/product/B01KT18416/ref=kinw_myk_ro_title)
-- [The Making of a Manager](https://www.amazon.co.uk/gp/product/B07DXGGDCQ/ref=kinw_myk_ro_title)
-- [Team Topologies](https://www.amazon.co.uk/gp/product/B09JWT9S4D/ref=kinw_myk_ro_title)
-- [How To Win Friends and Influence People](https://www.amazon.co.uk/gp/product/B07FY2WWZG/ref=kinw_myk_ro_title)
-- [The Challenger Sale](https://www.amazon.com/Challenger-Sale-Control-Customer-Conversation/dp/1591844355/ref=sr_1_1?crid=1R47T9R3OXW2O&dib=eyJ2IjoiMSJ9.b2GpG6Bth1nvC0dnBNNhs-NlvKFJFO_IX9eN7bYqcw-2zWIHZveWBb_gdF_xxEY7g6FqlwMgljuwZMmkHjrKBb_c3lMVWuXoOTnM0539Loquzuny_t6zSUQ4fh-hv8LYEH2kPFQbEJvTyEe00SttSFaRw-YjznMCVkndai4sG1cqnAoBU8tJVKUpHMnl1eH4bl2YCcIg4jRmjjPMGzbf-8pxhJh1L4KJuVnnBhQxt-o.ON7BWwuTILo5LUwZ7F7hoUn_up45l5mrzS3UXCAnaAQ&dib_tag=se&keywords=the+challenger+sales&qid=1732094566&s=books&sprefix=the+challenger+sales%2Cstripbooks-intl-ship%2C198&sr=1-1)
-- [The Qualified Sales Leader](https://www.amazon.co.uk/dp/B09236J2XX/ref=pe_33573471_635671331_TE_M1DP)
+* [Leaders Eat last](https://simonsinek.com/books/leaders-eat-last/)
+* [Tribes](https://www.amazon.it/Tribes-We-Need-You-Lead/dp/1591842336)
+* [Empathy: Why it matters](https://www.amazon.com/Empathy-Why-Matters-How-Get/dp/0399171401)
+* [The Speed of Trust](https://speedoftrust.com/)
+* [The Culture Map](https://www.amazon.co.uk/Culture-Map-Decoding-People-Cultures/dp/1610392760?pd_rd_w=P7BoC&content-id=amzn1.sym.ec8f623a-d4f7-4017-b387-58abf6ea18ca&pf_rd_p=ec8f623a-d4f7-4017-b387-58abf6ea18ca&pf_rd_r=59XH7ARR3R406KVPJ79G&pd_rd_wg=DCguM&pd_rd_r=753167c2-5900-4c19-b32f-537fbbf73058&pd_rd_i=1610392760)
+* [The Chimp Paradox](https://www.amazon.com/Chimp-Paradox-Impulses-Determine-Happiness/dp/009193558X)
+* [The Sales Engineer Manager's Handbook](https://www.amazon.co.uk/gp/product/B087GKLVBZ/ref=kinw_myk_ro_title)
+* [Multipliers](https://www.amazon.co.uk/gp/product/B01KT18416/ref=kinw_myk_ro_title)
+* [The Making of a Manager](https://www.amazon.co.uk/gp/product/B07DXGGDCQ/ref=kinw_myk_ro_title)
+* [Team Topologies](https://www.amazon.co.uk/gp/product/B09JWT9S4D/ref=kinw_myk_ro_title)
+* [How To Win Friends and Influence People](https://www.amazon.co.uk/gp/product/B07FY2WWZG/ref=kinw_myk_ro_title)
+* [The Challenger Sale](https://www.amazon.com/Challenger-Sale-Control-Customer-Conversation/dp/1591844355/ref=sr_1_1?crid=1R47T9R3OXW2O&dib=eyJ2IjoiMSJ9.b2GpG6Bth1nvC0dnBNNhs-NlvKFJFO_IX9eN7bYqcw-2zWIHZveWBb_gdF_xxEY7g6FqlwMgljuwZMmkHjrKBb_c3lMVWuXoOTnM0539Loquzuny_t6zSUQ4fh-hv8LYEH2kPFQbEJvTyEe00SttSFaRw-YjznMCVkndai4sG1cqnAoBU8tJVKUpHMnl1eH4bl2YCcIg4jRmjjPMGzbf-8pxhJh1L4KJuVnnBhQxt-o.ON7BWwuTILo5LUwZ7F7hoUn_up45l5mrzS3UXCAnaAQ&dib_tag=se&keywords=the+challenger+sales&qid=1732094566&s=books&sprefix=the+challenger+sales%2Cstripbooks-intl-ship%2C198&sr=1-1)
+* [The Qualified Sales Leader](https://www.amazon.co.uk/dp/B09236J2XX/ref=pe_33573471_635671331_TE_M1DP)
 
 **Share Your Leadership Journey:** Have you read a book, article, or resource that significantly influenced your development as a leader? We welcome your contributions - please submit an MR to add your transformative reading recommendations to this page.
 
