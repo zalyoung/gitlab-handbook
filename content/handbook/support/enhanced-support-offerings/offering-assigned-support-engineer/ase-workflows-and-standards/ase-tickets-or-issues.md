@@ -70,7 +70,7 @@ How should you use your account's external Slack channel?
 
 - **Interactive Work**:
   - Simple questions that can be answered quickly
-  - Reprioritization of ASE work items
+  - Adjusting the prioritization of ASE work items
   - Notifications to or from customers that something is urgent and important
   - Sending a Zoom link for an unplanned meeting
 
