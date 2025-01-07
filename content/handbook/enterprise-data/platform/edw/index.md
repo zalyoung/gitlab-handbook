@@ -195,17 +195,6 @@ It is critical to be intentional when organizing a self-service data environment
 
 - Models are tested and documented in a schema.yml file in the same directory as the models
 
-##### Table Audit Columns
-
-- **All fact and dimension tables should have the following audit columns:**
-  - revision_number - this is a manually incremented number representing a logical change in the model
-  - created_by - this is a GitLab user id
-  - updated_by - this is a GitLab user id
-  - model_created_at timestamp - this is a static value for when the model was created
-  - model_updated_at timestamp - this is the last time the model was updated by someone
-  - dbt_created_at timestamp - this is populated by dbt when the table is created
-  - dbt_updated_at timestamp - this is the date the data was last loaded. For most models, this will be the same as dbt_created_at with the exception of incremental models.
-
 ##### ERD Requirements
 
 - Generated in Lucidchart
