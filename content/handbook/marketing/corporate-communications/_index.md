@@ -15,8 +15,6 @@ We serve as strategic advisors to GitLab executives and cross-functional teams o
 
 We exist to positively influence the perception of GitLab by reaching economic buyers, technical champions, community contributors, advocates, investors, and industry analysts. We do this by developing and implementing strategic external communications plans that protect the brand, and generate awareness and preference for GitLab. 
 
-This team is responsible for global public relations (PR), social media, and executive communications (speaking). Corporate Communications Job families can be found [here](/job-families/marketing/corporate-communications-manager/).
-
 *This page is the single source of truth for corporate communications objectives/goals, contact information, messaging, PR/social media guidelines, approval processes, strategy and more.*
 
 ## What We Do
@@ -92,7 +90,7 @@ If you are staffing the GitLab booth at an in-person or virtual event, you are r
 
 #### Analysts
 
-For analyst research-oriented requests, please consult the [Analyst Relations](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/analyst-relations/) handbook section and direct questions to the #analyst-relations Slack channel.
+For analyst research-oriented requests, please consult the [Analyst Relations](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/analyst-relations/) handbook section and direct questions to the #analyst-relations Slack channel. 
 
 #### Media
 
@@ -135,4 +133,4 @@ Any use of GitLab’s name, brand, or logo requires prior email approval by GitL
 
 ### GitLab Vendor Reference Requests
 
-If you receive a vendor request for GitLab to act as a reference (case study, blog post, GitLab logo on their website, press release, etc.) for the product, service, and/or technology that your GitLab team is using, please refer to the [process](/handbook/marketing/brand-and-product-marketing/brand/brand-strategy/#vendor-reference-requests) outlined on the Brand Strategy team’s handbook. For partner-led blogs or press releases, please refer to the [partner PR request section](/handbook/marketing/corporate-communications/#partner-requests-for-press-release-support) of the handbook. Note that due to the volume of requests, GitLab rarely writes joint press releases.
+If you receive a vendor request for GitLab to act as a reference (case study, blog post, GitLab logo on their website, press release, etc.) for the product, service, and/or technology that your GitLab team is using, please refer to the [process](/handbook/marketing/brand-and-product-marketing/brand/brand-strategy/#vendor-reference-requests) outlined on the Brand Strategy team’s handbook. For partner-led blogs or press releases, please refer to the [partner PR request section](/handbook/marketing/corporate-communications/#partner-requests-for-external-communications-support) of the handbook. Note that due to the volume of requests, GitLab rarely writes joint press releases.
