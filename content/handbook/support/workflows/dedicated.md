@@ -126,6 +126,10 @@ If it's an emergency, [escalate the emergency](#escalating-an-emergency-issue) a
 
 When any changes are required besides those listed below, raise an issue in the [GitLab Dedicated issue tracker](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/team/-/issues) using a [Request for Help template](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/team/-/issues/new?issuable_template=request_for_help). Be sure that the `support::request-for-help` label is added.
 
+### Feature proposals
+
+GitLab Dedicated feature proposal issues should be opened in the **Public** [`gitlab-org/gitlab` issue tracker](https://gitlab.com/gitlab-org/gitlab/-/issues/?sort=created_date&state=opened&first_page_size=100).
+
 #### Inbound (Forward) PrivateLink Request
 
 1. In the ticket, ask the customer to provide the [required information](https://docs.gitlab.com/ee/administration/dedicated/#inbound-private-link). In this case, it's an **IAM principal**.
