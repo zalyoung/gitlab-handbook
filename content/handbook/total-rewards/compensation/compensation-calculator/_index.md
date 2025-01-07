@@ -249,7 +249,7 @@ To determine your area:
 
     The commute time of one hour and forty-five minutes is calculated using standard transportation methods such as car or public transit (e.g., train, bus). We use Google Maps to estimate the travel time from the city center to your address, specifically during normal business commuting hours to account for typical traffic patterns (i.e. arriving to the city by 8 AM and departing to your address at 5 PM). If the estimated travel time falls within one hour and forty-five minutes radius during these peak commuting hours, you are considered within the commutable range for that Metro Area.
 
-    If you are within a commutable one hour and forty-five minutes of more than one city, use the city with the shortest commute as your location. If not, select "Not Applicable." **Note, in some unique cases the Metro Area within a one hour and forty-five minute radius may be in a different state."**
+    If you are within a commutable one hour and forty-five minutes of more than one city, use the city with the shortest commute as your location. If not, select "Not Applicable." **Note, in some unique cases the Metro Area within a one hour and forty-five minute radius may be in a different state.**
 
     If there are no additional boxes for State/Province and/or Metro Area for the country you select, this country has the same location factor regardless of the city you live in. Similarly, if there is no additional box for Metro Area after selecting a State/Province, this state or province has the same location factor regardless of the city you live in.
 1. If your country is not listed, reach out to total-rewards@domain to gather relevant data.
