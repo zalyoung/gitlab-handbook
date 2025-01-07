@@ -53,7 +53,7 @@ At a high level, we propose this design for multi-database background migrations
 
 The following diagram describes the high-level architecture of this approach:
 
-![multidb-bg-migrations](multidb-bg-migrations.png)
+![multidb-bg-migrations](/images/engineering/infrastructure-platforms/data-access/database-framework/doc/multidb-bg-migrations/multidb-bg-migrations.png)
 
 We describe each of these points in more detail below.
 
