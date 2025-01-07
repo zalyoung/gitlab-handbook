@@ -42,6 +42,12 @@ The current headcount number will be updated each quarter following our quarterl
 
 These awards and lists recognize GitLab's unique culture and help us spread the word about why this is such a great place to work. Here are the latest:
 
+<details><summary>2025</summary>
+
+- [Best Remote Places to Work, Builtin, 2025](https://builtin.com/awards/remote/2025/best-large-places-to-work)
+
+</details>
+
 <details><summary>2024</summary>
 
 - [Best Workplaces in Technology, Large, Fortune, 2024](https://www.greatplacetowork.com/best-workplaces/technology/2024?category=large)
