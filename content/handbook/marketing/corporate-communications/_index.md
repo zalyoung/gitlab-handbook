@@ -1,7 +1,6 @@
 ---
 title: Corporate Communications Handbook
-description: Objectives and Goals, Responsibilities, Contact Info and Resources for
-  Corporate Communications at GitLab
+description: Objectives and Goals, Responsibilities, Contact Info and Resources for Corporate Communications at GitLab
 twitter_image: null
 twitter_image_alt: null
 twitter_site: '@gitlab'
@@ -11,6 +10,7 @@ twitter_creator: '@gitlab'
 # Welcome to the Corporate Communications Handbook
 
 ## Mission Statement
+
 We serve as strategic advisors to GitLab executives and cross-functional teams on issues that impact team members, customers, partners, and other business-critical parties. 
 
 We exist to positively influence the perception of GitLab by reaching economic buyers, technical champions, community contributors, advocates, investors, and industry analysts. We do this by developing and implementing strategic external communications plans that protect the brand, and generate awareness and preference for GitLab. 
@@ -20,6 +20,7 @@ This team is responsible for global public relations (PR), social media, and exe
 *This page is the single source of truth for corporate communications objectives/goals, contact information, messaging, PR/social media guidelines, approval processes, strategy and more.*
 
 ## What We Do
+
 The GitLab Corporate Communications team is responsible for the following activities and communications channels:
 * Media relations (print/broadcast/podcasts)
 * Media sponsorships
@@ -37,12 +38,15 @@ The GitLab Corporate Communications team is responsible for the following activi
 * We strive for excellence
 
 ## Contacting GitLab’s Corporate Communications team
+
 Please use the `#external-comms` Slack channel. 
 
 ## Speaking on behalf of GitLab
+
 Speaking on behalf of GitLab via a public channel such as a media interview (in-person or via phone), on a podcast, in a public issue on GitLab.com, on a forum, at a conference/event (live or virtual), in a blog or an external platform requires prior approval by the Comms team and must follow GitLab’s [SAFE framework](https://handbook.gitlab.com/handbook/legal/safe-framework/). To make a request, please use the `#external-comms` Slack channel.
 
 ### Spokesperson Criteria
+
 Being a designated company spokesperson is a responsibility that should be taken with the utmost seriousness. 
 
 **Spokesperson Criteria:**
@@ -56,6 +60,7 @@ Being a designated company spokesperson is a responsibility that should be taken
 If you are new to being a spokesperson for GitLab, the Corporate Communications team may ask you for video examples of past speaking engagements (events, webinars, tutorials, etc.) for assessment. 
 
 ### Media mentions, incoming media requests and interviews (including podcasts)
+
 Team members may be approached by reporters, podcasts hosts, etc. to comment on the company and/or conduct interviews. If you are asked to be quoted or to provide commentary on any matter as a spokesperson of GitLab, please provide detail of the opportunity to the Corporate Communications team in the `#external-comms` Slack channel before engaging. 
 
 While team members may have established relationships with reporters, podcast hosts, etc., engagement on any matter related to GitLab should go through the Corporate Communications team. You can reach the team in the `#external-comms` Slack channel before engaging.
@@ -84,25 +89,32 @@ If you are staffing the GitLab booth at an in-person or virtual event, you are r
 ### Research-oriented requests
 
 #### Analysts
+
 For analyst research-oriented requests, please consult the [Analyst Relations](https://handbook.gitlab.com/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/analyst-relations/) handbook section and direct questions to the #analyst-relations Slack channel.
 
 #### Media
+
 All media inquiries and requests must go through the corporate communications team via the `#external-comms` Slack channel.
 
 #### Honorariums
+
 If you are approached by external parties seeking to provide payment for a GitLab team member’s time, please contact the corporate communications team via the  `#external-comms` Slack channel to discuss the opportunity and approval process. 
 
 ### Social Media
+
 Please consult the Social Media team (@social on Slack)  for guidelines on representing GitLab on your personal social media platforms. If you are contacted on a social media platform and asked to share/retweet or provide commentary as a spokesperson of GitLab, please reach out to the social media team to provide details about the opportunity in the #social_media_action Slack channel.
 
 ### Writing about GitLab on your personal blog or for external platforms
+
  It is necessary to keep your role at GitLab and your affiliation with the company separate from your personal blog or other external platforms. Additionally, you should not use GitLab branding, resources, or time allocated to your work at GitLab to prepare materials for personal projects. If you would like someone to check the draft of your personal work that could be perceived as being associated with GitLab even if it is not, please share it with your manager and the Corporate Communications team who will be happy to review it for potential conflicts before it is published. Please post it in the `#external-comms` Slack channel with a short summary and allow 5 business days for review.
 
 ### Public GitLab Issues
+
 Posting in and discussions occurring within a public GitLab issue should follow the same guidelines as if you were posting about GitLab on social media, engaging with community members in a forum or conducting an interview with a media outlet. You are externally representing and communicating on behalf of GitLab.
 When representing and/or communicating externally on behalf of GitLab, please follow the [SAFE framework](https://handbook.gitlab.com/handbook/legal/safe-framework/). Being mindful of how you say things within open issues will help keep the company SAFE. We all represent the company.
 
 ### Partner Requests for External Communications Support
+
 Any use of GitLab’s name, brand, or logo requires prior email approval by GitLab according to the process outlined below.
 
 **Partner-led Blog Posts:** GitLab is proud of its collaborative partner program, and we encourage partners to showcase their solutions, capabilities, and customer success stories through partner-led blogs. Please send all blog posts, including GitLab, to the GitLab Corporate Communications team at press@gitlab.com or #external-comms in Slack for review and approval.
@@ -118,4 +130,5 @@ Any use of GitLab’s name, brand, or logo requires prior email approval by GitL
 * GitLab account representatives: Any requests for public relations support requires approval from your executive sponsor, Nick Cayou. Please reach out via `#external-comms` in Slack if you have questions about this.
 
 ### GitLab Vendor Reference Requests
+
 If you receive a vendor request for GitLab to act as a reference (case study, blog post, GitLab logo on their website, press release, etc.) for the product, service, and/or technology that your GitLab team is using, please refer to the [process](https://handbook.gitlab.com/handbook/marketing/brand-and-product-marketing/brand/brand-strategy/#vendor-reference-requests) outlined on the Brand Strategy team’s handbook. For partner-led blogs or press releases, please refer to the [partner PR request section](https://handbook.gitlab.com/handbook/marketing/corporate-communications/#partner-requests-for-press-release-support) of the handbook. Note that due to the volume of requests, GitLab rarely writes joint press releases.
