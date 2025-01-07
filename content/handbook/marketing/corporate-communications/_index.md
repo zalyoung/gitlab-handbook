@@ -1,6 +1,6 @@
 ---
 title: Corporate Communications Handbook
-description: Objectives and Goals, Responsibilities, Contact Info and Resources for Corporate Communications at GitLab
+description: Mission Statement, What We do, Team Norms, Contact Info and Resources for Corporate Communications at GitLab
 twitter_image: null
 twitter_image_alt: null
 twitter_site: '@gitlab'
@@ -11,7 +11,7 @@ twitter_creator: '@gitlab'
 
 ## Mission Statement
 
-We serve as strategic advisors to GitLab executives and cross-functional teams on issues that impact team members, customers, partners, and other business-critical parties. 
+We serve as strategic advisors to GitLab executives and cross-functional teams on issues that impact team members, customers, partners, and other business-critical parties.
 
 We exist to positively influence the perception of GitLab by reaching economic buyers, technical champions, community contributors, advocates, investors, and industry analysts. We do this by developing and implementing strategic external communications plans that protect the brand, and generate awareness and preference for GitLab. 
 
