@@ -3,14 +3,29 @@ title: "Customer Success Engineer"
 description: "The Customer Success Engineering (CSE) team focuses on the themes of align, enable, and expand."
 ---
 
-### Customer Success Engineer (CSE) (Associate) 
+| Role | Grade |
+| -- | - |
+| [Associate Customer Success Engineer](#customer-success-engineer-associate) | [Grade 5](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades) |
+| [Customer Success Engineer](#customer-success-engineer-intermeidate) | [Grade 6](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades) |
+| [Senior Customer Success Engineer](#senior-customer-success-engineer) | [Grade 7](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades) |
+| [Staff Customer Success Engineer](#staff-customer-success-engineer) | [Grade 9](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades) |
+| [Manager, Customer Success Engineers](#manager-customer-success-engineers) | [Grade 9](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades) |
+| [Senior Manager, Customer Success Engineers](#senior-manager-customer-success-engineers) | [Grade 9](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades) |
 
-The Customer Success Engineer (CSE) (Associate) role helps generate technical interaction between CSE level accounts and CSE's.
 
-The CSE (Associate) is a job grade level 5.
+## Job Levels
+
+### Customer Success Engineer (Associate) 
+
+The Customer Success Engineer (CSE) (Associate) role helps generate technical interaction between CSE assigned accounts and CSE's.
+
 The  CSE (Associate) reports to the Manager/Senior Manager, CSE.
 
-### Customer Success Engineer (Associate) Responsibilities
+#### Customer Success Engineer (Associate) Job Grade
+
+The Intermdiate CSE is a job grade [level 5](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
+
+#### Customer Success Engineer (Associate) Responsibilities
 
 - Schedule and onboard new CSE level customers into the CSE program.
 - Track and manage onboarding follow-ups, such as license installation, support contact setup, and security subscriptions.
@@ -23,7 +38,7 @@ The  CSE (Associate) reports to the Manager/Senior Manager, CSE.
 - Continuously improve professional skills through training, reading, and seeking mentorship.
 - Track and report basic customer success metrics and help monitor outcomes.
 
-### Customer Success Engineer (Associate) Requirements
+#### Customer Success Engineer (Associate) Requirements
 
 - Demonstrated experience in a related function with customer advocacy and engagement in post-sales or professional services roles.
 - Familiarity with GitLab use cases (SCM, CI, CD, DevSecOps, Agile Planning) or the ability to quickly learn technical concepts.
@@ -31,11 +46,14 @@ The  CSE (Associate) reports to the Manager/Senior Manager, CSE.
 - Basic understanding of metrics and success measurement in customer engagement.
 - Willingness to collaborate with cross-functional teams to support customer goals.
 
-### Customer Success Engineer (Intermediate) (CSE)
+### Customer Success Engineer (Intermediate)
 
-The Customer Success Engineer (Intermediate) (CSE) role provides deep subject matter expertise on GitLab technical and product solutions and best practices. CSEs work alongside CSMs to provide customers with technical guidance, go in-depth on use case implementation, and demonstrate the value of GitLab product capabilities.
+The Customer Success Engineer (Intermediate) (CSE) role provides subject matter expertise on GitLab technical and product solutions and best practices. CSEs work alongside CSMs to provide customers with technical guidance, go in-depth on use case implementation, and demonstrate the value of GitLab product capabilities.
 
 The Intermediate CSE reports to the Manager/Senior Manager, CSE.
+
+#### Customer Success Engineer (Intermediate) Job Grade
+
 The Intermdiate CSE is a job grade [level 6](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
 
 #### Customer Success Engineer (Intermediate) Responsibilities
@@ -65,11 +83,11 @@ The Intermdiate CSE is a job grade [level 6](/handbook/total-rewards/compensatio
 
 The Senior CSE reports to the Manager/Senior Manager, CSE.
 
-### Senior Customer Success Engineer Job Grade
+#### Senior Customer Success Engineer Job Grade
 
 The Senior CSE is a job grade [level 7](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
 
-### Senior Customer Success Engineer Responsibilities
+#### Senior Customer Success Engineer Responsibilities
 
 - Extends the Customer Success Engineer responsibilities
 - Strategize on the overall objectives and long-range goals of the team
@@ -79,7 +97,7 @@ The Senior CSE is a job grade [level 7](/handbook/total-rewards/compensation/com
 - Help drive team expertise and technical thought leadership
 - Maintain deep knowledge of the GitLab platform
 
-### Senior Customer Success Engineer Requirements
+#### Senior Customer Success Engineer Requirements
 
 - Extends the Customer Success Engineer requirements
 - Ability to translate business requirements into business value, and work with sales and marketing to promote value-driven solutions
@@ -119,36 +137,36 @@ The Staff CSE is a job grade [level 9](/handbook/total-rewards/compensation/comp
 - Excellent moderation and communication skills
 - Extensive experience within a technical or account management area
 
-## Manager, CSE
+### Manager, Customer Success Engineers
 
 The Manager, CSE, reports to the [Director of Customer Success Managers](/job-families/sales/customer-success-management/#director-of-customer-success-managers).
 
-### Manager, CSE Job Grade
+#### Manager, CSE Job Grade
 
 The Manager, CSE is a [grade 9](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
 
-### Manager, CSE Responsibilities
+#### Manager, CSE Responsibilities
 
 - Extends the responsibilities of [Manager, CSM](/job-families/sales/customer-success-management/#manager-csm) by:
   - Working with a variety of customers in countries across a whole super-region (Americas, EMEA, APAC)
   - Foster relationship and collaboration of the whole CSE community on a global level
   - Oversee the creation and delivery of workshops, webinars and other content scaled for a larger target group
 
-### Manager, CSE Requirements
+#### Manager, CSE Requirements
 
 - Extends the responsibilities of [Manager, CSM](/job-families/sales/customer-success-management/#manager-csm) by:
   - Deeper technical understanding in DevSecOps and ability to coach and mentor team members on that topic
   - Experience with content creation and delivery at scale
 
-## Senior Manager, CSE
+### Senior Manager, Customer Success Engineers
 
 The Senior Manager, CSE reports to the [Director of Customer Success Managers](/job-families/sales/customer-success-management/#director-of-customer-success-managers).
 
-### Senior Manager, CSE Job Grade
+#### Senior Manager, CSE Job Grade
 
 The Senior Manager, CSE is a [grade 9](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
 
-### Senior Manager, CSE Responsibilities
+#### Senior Manager, CSE Responsibilities
 
 - Extends the Manager, CSE responsibilities
 - DRI for one or more initiatives beyond the CSE manager role that includes: customer growth, expansion programs, and processes
@@ -159,7 +177,7 @@ The Senior Manager, CSE is a [grade 9](/handbook/total-rewards/compensation/comp
 - Aligned with the objectives of GitLab and is responsible for ensuring that the CSE team as a whole is contributing to our company objectives
 - Strategic in thinking to solve challenges for the entire CSE team and make improvements that will positively impact all customers
 
-### Senior Manager, CSE Requirements
+#### Senior Manager, CSE Requirements
 
 - Extends the Manager, CSE requirements
 - Demonstrated progressive management experience leading teams in a software company
