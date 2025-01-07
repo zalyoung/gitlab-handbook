@@ -31,7 +31,7 @@ The IT EntApps Portfolio planning & prioritization process has 6 steps:
 
 ### Portfolio of Projects
 
-This section provides a quarterly inventory of all the committed and planned projects for IT Enterprise Applications. Internal team members can use the [IT EntApps Portfolio: Quarter Commits](https://docs.google.com/spreadsheets/d/1ojnTFGB2iYJz9kNPYdoLc4PeyDqAN60gu9cQBrKpHJQ/edit?pli=1#gid=1316376797) to track initiatives. Each project is ranked using a Corporate Stack Rank to ensure alignment with [global optimization](/handbook/values/#global-optimization) goals.
+This section provides a quarterly inventory of all the committed and planned projects for IT Enterprise Applications. Internal team members can use the [IT EntApps Portfolio: Quarter Commits](https://docs.google.com/spreadsheets/d/1ojnTFGB2iYJz9kNPYdoLc4PeyDqAN60gu9cQBrKpHJQ/edit?pli=1#gid=1316376797) to track initiatives. Each project is ranked using a Corporate Stack Rank to ensure alignment with global optimization goals.
 
 ### Project Prioritization
 
@@ -144,7 +144,7 @@ To efficiently track program progress, each Epic is assigned a start and end dat
 
 ### Issue Boards
 
-IT EntApps teams use GitLab [issue boards](https://docs.gitlab.com/ee/user/project/issue_board.html) to strategically plan, organize, and visualize their work. To learn more about how IT teams manage issue boards, refer to [each team’s respective page](/handbook/business-technology/#i-classfas-fa-users-idbiz-tech-iconsi-our-functional-structure).
+IT EntApps teams use GitLab [issue boards](https://docs.gitlab.com/ee/user/project/issue_board.html) to strategically plan, organize, and visualize their work. To learn more about how IT EntApps teams manage issue boards, refer to [each team’s respective page](/handbook/business-technology/#i-classfas-fa-users-idbiz-tech-iconsi-our-functional-structure).
 
 ### Labels
 
