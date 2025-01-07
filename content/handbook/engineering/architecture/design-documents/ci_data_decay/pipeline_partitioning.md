@@ -75,7 +75,7 @@ partitioning, we can archive the entire partition (or set of partitions) by
 updating a single record in one of our database tables. It is one of the
 least expensive ways to implement time-decay patterns at a database level.
 
-![](/images/engineering/architecture/design-documents/ci_data_decay/decomposition_partitioning_comparison.png)
+![decomposition partitioning comparison](/images/engineering/architecture/design-documents/ci_data_decay/decomposition_partitioning_comparison.png)
 
 ## Why do we need to partition CI/CD data?
 
