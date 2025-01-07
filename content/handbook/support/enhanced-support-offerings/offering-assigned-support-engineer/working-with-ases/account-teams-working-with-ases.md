@@ -8,7 +8,7 @@ description: Information for Sales, CS and PS about how best to collaborate with
 ### ASE service kickoff meeting
 
 The ASE service can be sold to an account as a standalone service or as part
-of a bundled offering such as SPS. In both situations, the Account Team
+of a bundled offering such as [SPS](/handbook/support/support-idk/#sps). In both situations, the Account Team
 generally facilitates a services kickoff meeting that includes Support.
 For the ASE service to get off to a strong start and have the best chance at
 long-term success, the ASEs need the Account Team's help:
@@ -31,12 +31,12 @@ long-term success, the ASEs need the Account Team's help:
       - We welcome Account Team participation in the meeting so that you can
         stay well informed about the ASE's work and also so that the customers
         can see that we really are a team.
-   1. Otherwise (ASE service was bundled), there will need to be two kickoff
+   1. If the ASE service was bundled, there will be two kickoff
       meetings:
-      - In the first meeting, we will introduce ourselves and the service only
-        very briefly, and we will mention that there will be a second meeting
+      - In the first meeting, we will introduce ourselves and the service
+        briefly, and we will mention that there will be a second meeting
       - The second meeting will be conducted as described above, with the ASE
-        faciliting and the agenda being based off the
+        facilitating and the agenda being based off the
         [Introductory Meeting template](../ase-workflows-and-standards/introductory-meeting.html/#structure)
 
 ### New ASE kickoff meeting
@@ -59,6 +59,8 @@ abbreviated kickoff meeting. In this meeting:
 1. Please get to know the ASEs who support your accounts and work with them to
    gain alignment on how you'll work together. Agreeing on what and how to
    communicate with each other is particularly important for our mutual success.
+   Consider scheduling a coffee chat to have an informal conversation with an ASE
+   as well.
 1. Please be careful not to label an ASE. For example, when first introducing
    an ASE to a customer, you might say "Tanuki is a database expert." That
    labels the ASE as a database expert, and suggests that they have no other
@@ -66,7 +68,8 @@ abbreviated kickoff meeting. In this meeting:
 1. When a customer is asking about what an ASE can or can't do, or will or
    won't do, please let the ASE or their manager answer that question. If it
    turns out from our answer that you had a different expectation, we can
-   discuss that privately and get realigned.
-1. Please have our backs. If an ASE customer is upset about anything related to
-   the ASE or the service, please show faith and trust in us - stand up for us -
-   and then come tell us what you've heard.
+   discuss that internally and get realigned.
+1. Please trust in Support. If an ASE customer is upset about anything related to  
+   the ASE or the service, please listen to and document the customer's concerns,
+   and share your faith and trust in us. Afterward, discuss the concerns with the
+   ASE and, if needed, their manager.
