@@ -19,7 +19,7 @@ Note when viewing a deployment failure from the `#announcements` Slack channel, 
 
 Click on the diagram below to visit the announcement issue for more context and view an uncompressed image:
 
-[![Pipeline Reorder](/handbook/engineering/infrastructure/test-platform/debugging-qa-test-failures/deployment-pipeline-and-e2e-tests.png "pipeline diagram")](https://gitlab.com/gitlab-com/gl-infra/delivery/-/issues/2280)
+[![Pipeline Reorder](/images/engineering/infrastructure/test-platform/debugging-qa-test-failures/deployment-pipeline-and-e2e-tests.png "pipeline diagram")](https://gitlab.com/gitlab-com/gl-infra/delivery/-/issues/2280)
 
 Note the diagram has been updated as part of increasing rollback availability by removing the [blocking nature of post-deployment migrations](https://gitlab.com/groups/gitlab-com/gl-infra/-/epics/585).
 
@@ -79,7 +79,7 @@ run this in the #chat-ops-test Slack channel:
 /chatops run auto_deploy status
 ```
 
-![ChatopsAutoDeployStatus.png](ChatopsAutoDeployStatus.png)
+![ChatopsAutoDeployStatus.png](/images/engineering/infrastructure/test-platform/debugging-qa-test-failures/ChatopsAutoDeployStatus.png)
 
 You will [need access to the https://ops.gitlab.net/gitlab-com/chatops](https://docs.gitlab.com/ee/development/chatops_on_gitlabcom.html#requesting-access) project to run `/chatops` commands.
 Ask to be added to this project in the #development Slack channel.

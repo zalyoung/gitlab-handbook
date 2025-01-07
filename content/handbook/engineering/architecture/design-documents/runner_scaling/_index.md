@@ -214,7 +214,7 @@ the GitLab Runner needs to be abstracted away. To make this easier to grasp
 these concepts, let's take a look at the current auto-scaling architecture and
 sequence diagram.
 
-![GitLab Runner Autoscaling Overview](gitlab-autoscaling-overview.png)
+![GitLab Runner Autoscaling Overview](/images/engineering/architecture/design-documents/runner_scaling/gitlab-autoscaling-overview.png)
 
 On the diagrams above we see that currently a runner manager runs on a
 machine that has access to a cloud provider's API. It is using Docker Machine
