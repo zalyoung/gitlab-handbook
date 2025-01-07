@@ -1,5 +1,4 @@
 #!/bin/bash
-set -x
 MREPORT=markdownlint-cli2-codequality.json
 VREPORT=vale-codequality.json
 HREPORT=handbook-codequality.json
