@@ -12,7 +12,7 @@ The Marketing Operations team provides the Integrated Marketing team with advice
 
 ## Working with us
 
-Marketo campaign/program creation and support is a function of Marketing Operations, so [follow the same guidelines](handbook/marketing/marketing-operations/#-how-to-get-help) to request assistance. **Be sure to add the `~MktgOps-Support` label to the issue.**
+Marketo campaign/program creation and support is a function of Marketing Operations, so [follow the same guidelines](/handbook/marketing/marketing-operations/#how-to-get-help) to request assistance. **Be sure to add the `~MktgOps-Support` label to the issue.**
 
 Field Marketing issue templates (used by both Field Marketing and Corporate Events) for landing page and email requests have been updated with the appropriate labels to route to Marketing Ops.
 

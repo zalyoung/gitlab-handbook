@@ -197,7 +197,7 @@ you have handled that have some follow-up action. For example:
 - If you're in an active call with a customer and it's time to end your day, page the incoming on-call and make sure they're prepared to provide continuity by giving them an overview of what's been done before and what's next
   - Once you anticipate an active call to spill over into the next shift, you can try reaching out to the incoming on-call on Slack to make them aware of the upcoming need for a handover. As their shift has not yet started, they might not yet be available.
   During an emergency [taking a break](#take-a-break), can be very beneficial for results for our customers as it permits the incoming CEOC to get up to speed. The outgoing and incoming CEOC benefit from discussing ideas in a low pressure environment.
-  - Advise the customer that the call will be paused, and agree on a time to reconvene. 
+  - Advise the customer that the call will be paused, and agree on a time to reconvene.
   - During the 30 minute break, discuss with the incoming CEOC:
     - What is the problem the customer is facing?
     - What activities have been performed?
@@ -306,7 +306,7 @@ We understand you may have plans outside of your normal workspace while you're o
 
 ## Keeping the PagerDuty contact up to date
 
-PagerDuty phone and SMS notifications can come from a variety of different phone numbers and as such, it is important to stay up to date with this to avoid missed pages. You should use [this PagerDuty documentation page](https://support.pagerduty.com/docs/notification-phone-numbers) to download the most recent vCard or setup an automatically updated PagerDuty contact on your device.
+PagerDuty phone and SMS notifications can come from a variety of different phone numbers and as such, it is important to stay up to date with this to avoid missed pages. You should use [this PagerDuty documentation page](https://support.pagerduty.com/main/docs/notification-phone-numbers) to download the most recent vCard or setup an automatically updated PagerDuty contact on your device.
 
 If you use a "do not disturb" mode on your device, you should also allow the PagerDuty contact to bypass this.
 

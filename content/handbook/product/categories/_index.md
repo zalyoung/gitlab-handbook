@@ -254,7 +254,7 @@ When downgrading product maturity, we adjust our customer's current expectations
 
 ## DevOps Stages
 
-![Dev Ops Diagram](devops-diagram.svg)
+![Dev Ops Diagram](/images/product/categories/devops-diagram.svg)
 
 {{% categories %}}
 

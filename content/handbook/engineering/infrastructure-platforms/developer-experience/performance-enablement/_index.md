@@ -16,7 +16,7 @@ Engineers in this team support Performance Enablement projects.
 
 Engineering Manager: Kassandra Svoboda
 
-| S.No     |                    | 
+| S.No     |                    |
 |------    |-------------------------|
 | 1        | Andy Hohenner    |
 | 2        | Brittany Wilkerson     |

@@ -89,11 +89,11 @@ GitLab has a "Flexible PTO policy" [time off policy]({{< ref "paid-time-off" >}}
 
 ## Growth and Development Fund
 
-GitLab supports team members who wish to continue their education and growth within their professional career. GitLab team-members are eligible for a reimbursement of up to $10,000 USD per calendar year (January 1st - December 31st) depending on tenure, performance, company need for the learned skill, and available budget. A course/program is considered to be included in the calendar year in which the course/program is paid/reimbursed (which should also be the same calendar year in which it ends). If a course/program ends in December, team members have a grace period until the end of January to claim for Growth & Development reimbursements from the previous calendar year.
+GitLab supports team members who wish to continue their education and growth within their professional career. GitLab team-members are eligible for a reimbursement of up to $10,000 USD per calendar year (January 1st - December 31st) depending on tenure, performance, company need for the learned skill, and available budget. A course/program is considered to be included in the calendar year in which the course/program is paid/reimbursed. If a course/program ends in December, team members have a grace period until the end of January to claim for Growth & Development reimbursements from the previous calendar year.
 
 Budget estimations for the Growth & Development Fund are based on utilization rates from past years, adjusted for the size of the company. The budget is managed on a company-wide scale, not division-specific. For example, approving reimbursement for a team member in Engineering does not "take away" budget from other engineers. Eligibility is managed on an individual basis. Eligibility for this benefit is part of each GitLab team member's Total Rewards package.
 
-The [Growth and Development]({{< ref "/handbook/people-group/learning-and-development/growth-and-development/" >}}) covers information on the application process and the different types of expenses that are eligible for reimbursement.
+The [Growth and Development]({{< ref "/handbook/people-group/learning-and-development/growth-and-development/" >}}) handbook page covers information on the application process and the different types of expenses that are eligible for reimbursement.
 
 ## Modern Health - Mental Health Benefit
 
@@ -103,19 +103,19 @@ GitLab offers Mental Health Support through therapy and coaching sessions to all
 
 GitLab recognizes the challenges that balancing caregiving responsibilities at home can bring, and we strive to support our team members with comprehensive benefits. GitLab team members are eligible to access **Backup Care & Tutoring Benefits** through Vivvi.
 
-GitLab team members receive credits to use for backup care and learning benefits through Vivvi. [Click here](https://share.hsforms.com/1gj0LdnKCQ1-GXyLsGmFDjg47d19) to sign up and activate your benefits. 
+GitLab team members receive credits to use for backup care and learning benefits through Vivvi. [Click here](https://share.hsforms.com/1gj0LdnKCQ1-GXyLsGmFDjg47d19) to sign up and activate your benefits.
 
 ### Benefit Options & Taxability
 
 - **Care Cash:** Use your preferred backup care provider and get reimbursed up to 100 USD per day for the cost.
-- **Virtual Tutoring:** Weekly, 1-hour sessions for students (grades K–12) in subjects like math, SAT prep, or executive functioning skills.
+- **Virtual Tutoring:** Weekly, 1-hour sessions for students (ages 5-18) in subjects like math, SAT prep, or executive functioning skills.
 - **Center-Based Backup Child Care:** Available at Vivvi’s NY campuses or network daycare centers in the US and UK.
 - **In-Home Backup Child Care** For children ages 0–12 in the US, Canada, and UK.
 - **In-Home Backup Adult & Elder Care** For adults of all ages in the US, Canada, and UK.
 
-More information on the program can be found on the [Vivvi FAQ.](https://drive.google.com/file/d/1_AcfteDGUB9L6ZocdUsG3PuNaTGKbD-Y/view) 
+More information on the program can be found on the [Vivvi FAQ.](https://drive.google.com/file/d/1_AcfteDGUB9L6ZocdUsG3PuNaTGKbD-Y/view)
 
-Please note that this benefit is considered **taxable income**. To ensure compliance, any usage of the benefit will be reported, and applicable taxes will be deducted through payroll. 
+Please note that this benefit is considered **taxable income**. To ensure compliance, any usage of the benefit will be reported, and applicable taxes will be deducted through payroll.
 
 ## GitLab Summit
 

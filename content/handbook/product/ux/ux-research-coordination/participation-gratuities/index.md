@@ -125,7 +125,7 @@ To avoid having to distribute W-9 forms, the UX research team will not compensat
 The UX Research Operations team will make a monthly pull of all gratuities sent to users that participated in UX research studies and then update our "Do no recruit" list. To do this process follow these steps:
 
 1. Download report from Tremendous
-  ![image](tremendous.png)
+  ![image](/images/product/ux/ux-research-coordination/participation-gratuities/tremendous.png)
 1. Update the Gratuity tracking spreadsheet (In Google drive called Gratuity tracking, since it contains PII access will be restricted)
     - Paste in the new rows on the current years' tab
     - Check the list to see if any new participants are nearing the $600 limit in the "2023 Rollup" tab

@@ -12,7 +12,7 @@ and complete the issue.
 ## General team resources
 
 * GitLab QA
-  * [Testing Guide / E2E Tests](https://docs.gitlab.com/ee/development/testing_guide/end_to_end)
+  * [Testing Guide / E2E Tests](https://docs.gitlab.com/ee/development/testing_guide/end_to_end/)
   * [GitLab QA Orchestrator Documentation](https://gitlab.com/gitlab-org/gitlab-qa/blob/master/README.md)
   * [GitLab QA Testing Documentation](https://gitlab.com/gitlab-org/gitlab-qa/blob/master/README.md#documentation)
 * General testing guidelines
@@ -64,7 +64,6 @@ These internal Slack channels may be helpful to join.
   * [#e2e-run-preprod](https://gitlab.slack.com/messages/CCNNKFP8B) - channel with  end-to-end test results for run against pre.gitlab.com
   * [#e2e-run-release](https://gitlab.slack.com/archives/C0154HCFLRE) - channel with end-to-end test results for run against release.gitlab.net
   * [#e2e-run-staging](https://gitlab.slack.com/messages/CBS3YKMGD) -  channel with  end-to-end test results for run against staging.gitlab.com
-  * [#e2e-run-staging-ref](https://gitlab.slack.com/archives/C02JGFF2EAZ) - channel with end-to-end test results for run against staging-ref.gitlab.com
   * [#e2e-run-production](https://gitlab.slack.com/messages/CCNNKFP8B) - channel with end-to-end test results for run against gitlab.com
   * [#gpt-performance-run](https://gitlab.slack.com/messages/CH8J9EG49) - channel with performance testing results
   * [#quality-reports](https://gitlab.slack.com/archives/C02MH85L5EF) - channel with various end-to-end test metrics reports
@@ -83,7 +82,7 @@ These internal Slack channels may be helpful to join.
 The engagement Quadrant is designed to help you and your direct report evaluate how they currently feel about their work.
 This is not intended to be a performance evaluation tool, but rather a self-introspective mechanism to help frame the conversation.
 
-![engagement-quadrant.png](engagement-quadrant.png)
+![engagement-quadrant.png](/images/engineering/infrastructure/test-platform/onboarding/engagement-quadrant.png)
 
 * **Low knowledge & High excitement**: When we are excited on starting something new but unaware of all the things needed to succeed (unknown unknowns).
 * **Low knowledge & Low excitement**: As time progresses if we haven't made progress on acquiring knowledge (sustained unknown unknowns), the excitement is also lowered. We need to expedite on attaining additional help to unblock.
@@ -96,11 +95,11 @@ When starting something new, the goal is to discover unknowns and learn them qui
 
 [Organizational psychology](https://en.wikipedia.org/wiki/Industrial_and_organizational_psychology) is the study of human behavior and motivations as it relates to work.
 
-* [WorkLife podcast by Adam Grant](https://podcasts.apple.com/us/podcast/worklife-with-adam-grant/id1346314086?mt=2)
-* [Heartbeat podcast by Claire Lew](https://knowyourteam.com/blog/podcast/)
+* [WorkLife podcast by Adam Grant](https://podcasts.apple.com/us/podcast/worklife-with-adam-grant/id1346314086)
+* [Heartbeat podcast by Claire Lew](https://canopy.is/blog/podcast/)
 * [HBR IdeaCast podcast](https://hbr.org/2018/01/podcast-ideacast)
 * [Dear HBR podcast](https://hbr.org/2018/01/podcast-dear-hbr)
-* [Know Your Team blog](https://knowyourteam.com/blog/) - [most popular articles](https://knowyourteam.com/blog/our-most-popular-articles/)
+* [Know Your Team blog](https://canopy.is/blog/) - [most popular articles](https://canopy.is/blog/our-most-popular-articles/)
 
 #### People to follow on social media
 

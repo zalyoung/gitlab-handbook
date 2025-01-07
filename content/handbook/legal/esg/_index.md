@@ -13,8 +13,8 @@ In December 2022, we conducted an ESG materiality assessment to determine which 
 
 Every year GitLab publishes an annual ESG report where we share our approach to managing our key ESG focus areas, provide updates on programs and policies, achievements to date, metrics and targets and plans for the future.
 
-- [FY23 ESG Report](handbook/legal/esg/fy23-esg-report/)
-- [FY24 ESG Report](handbook/company/esg/)
+- [FY23 ESG Report](/handbook/legal/esg/fy23-esg-report/)
+- [FY24 ESG Report](/handbook/company/esg/)
 
 ### ESG Advisory Committee
 
@@ -90,7 +90,7 @@ Expenses allowed for reimbursement (for in-person volunteer events):
 
 - Local travel only -  [mileage](/handbook/finance/expenses/#mileage), [train](/handbook/finance/expenses/#train), [taxi/rideshares](/handbook/finance/expenses/#transportationparking). Must follow and comply with the current limits of our Expense Policy. Code under their individual travel category and use the "GiveLab" classification in Navan
 - [Parking](/handbook/finance/expenses/#transportationparking) for the event.  Must follow and comply with the current limits of our Expense Policy.  Please use the "GiveLab" classification in Navan
-- [Meal](handbook/finance/expenses/#meals-company-provided-while-traveling) during the event.  Must follow and comply with the current limits of our Expense Policy.  Code under Travel-Meals for Myself and use the "GiveLab" classification in Navan
+- [Meal](/handbook/finance/expenses/#meals-company-provided-while-traveling) during the event.  Must follow and comply with the current limits of our Expense Policy.  Code under Travel-Meals for Myself and use the "GiveLab" classification in Navan
 
 Expenses not allowed for reimbursement:
 
@@ -116,7 +116,7 @@ Throughout the month, team members can volunteer as little as one hour of their 
 - Individual volunteer pursuits
 - Find and contribute to opportunities in the [GiveLab Volunteer Directory](https://docs.google.com/spreadsheets/d/1koFKQbKqm4jpKtZlteLDTPM3HYv20nffXaqRJ2C8YBA/edit?usp=sharing)
 - Include a volunteer activity at an all-hands or team builder
-- Contribute to [GitLab's codebase](/handbook/legal/esg/#contribute-to-gitlabs-oss-codebase) 
+- Contribute to [GitLab's codebase](/handbook/legal/esg/#contribute-to-gitlabs-oss-codebase)
 
 ### Why GiveLab 30 Days of Impact Exists
 
@@ -459,7 +459,7 @@ NOTE: For any request(s) that require payment, please be certain to follow appli
 
 Six key topics were identified in GitLab's materiality assessment. These key topics will drive GitLab's ESG strategy and program development. This page will continue to be updated as we make progress towards developing plans and programs to advance our ESG goals.
 
-![2023 Materiality Matrix](/handbook/legal/esg/2022-materiality-matrix-062123.png)
+![2023 Materiality Matrix](/images/legal/esg/2022-materiality-matrix-062123.png)
 
 Here are GitLab's current key topics with their drivers:
 

@@ -134,6 +134,23 @@ For Self-Managed or GitLab Dedicated customers, we need to locate them in
      1. Click the `Billing account` link under the `Billing accounts` section
 1. Copy the Salesforce ID on the page
 
+#### Locating the Salesforce ID for Partners Using an NFR License
+
+**Note:** Depending on the NFR License type (Self-Managed or SaaS), the partner must pass entitlement before they can be associated with the organization.Please see [Proving support entitlement](https://support.gitlab.com/hc/en-us/articles/11626528150172-Managing-Support-Contacts#proving-support-entitlement) for more details.
+
+For Partners Using GitLab.com NFR License:
+
+1. Once you identify the partner is using an NFR SaaS License, you can use the Zendesk global search to find the related "Internal Request - GitLab.com - NFR License request" ticket using the GitLab.com namespace provided.
+   - You can use the search syntax `"insert_namespace_here" tags:ir_saas_nfr` to locate the ticket request.   
+1. In the NFR License request ticket, you can find the `SFDC Account` it was filed for in the ticket description.
+1. You can then use the `SFDC Account` ID to search for the corresponding organization in Zendesk.
+
+For Partners Using Self-Managed NFR License:
+
+1. Locate the NFR License in [CDot](https://customers.gitlab.com/admin).
+1. In the `Notes` section, look for the Zendesk ticket where the NFR license was requested.
+1. Open the Zendesk ticket and in the ticket description you will find the Salesforce account associated with the license.
+
 ## Via contact management projects
 
 **Note** This only applies to Zendesk Global.

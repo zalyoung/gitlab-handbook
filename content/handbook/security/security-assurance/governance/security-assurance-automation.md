@@ -72,7 +72,7 @@ graph TD;
 
 #### Type
 
-We use Type labels to determine what the work is about. Categories are as distinctive as possible to allow team members to quickly understand the nature of the work being done. 
+We use Type labels to determine what the work is about. Categories are as distinctive as possible to allow team members to quickly understand the nature of the work being done.
 
 These categories can be changed or expanded upon depending on work items, the goal always being of accurately capturing what the SAA team member is working on.
 
@@ -118,7 +118,7 @@ The Security Assurance Automation team is continuously engineering new automated
 
 [Tableau Dashboarding](https://10az.online.tableau.com/#/site/gitlab/views/DRAFTZenGRCObservations/ZenGRCObservationsDashboard) - Custom dashboards using our analytic tool that integrates with data sources across GitLab.
 
-[Insight Dashboarding](https://docs.gitlab.com/ee/user/group/insights/index.html#configure-your-insights) - Custom issue analytic dashboards native to GitLab.
+[Insight Dashboarding](https://docs.gitlab.com/ee/user/project/insights/index.html#configure-your-insights) - Custom issue analytic dashboards native to GitLab.
 
 #### Compliance control monitoring and evidence gathering automation
 
@@ -149,11 +149,11 @@ As a result of the planning stage, we determine the feasibility of a particular 
 
 During the analysis stage, we continue to gather details to support accepted projects. Projects are broken down into individual components to support an agile approach to development. Those individual components are represented as child issues under the project Epic or associated tasks/issues for smaller bodies of work.
 
-The agreed upon scale is one weight equals one business day. This means for each iteration, team members can't have assigned more than 10 points of work. 
+The agreed upon scale is one weight equals one business day. This means for each iteration, team members can't have assigned more than 10 points of work.
 
 This allows us to track unplanned work and rolled over issues for effectively and account for opportunities to better split big chunks of work into smaller manageable issues.
 
-This approach is flexible enough to ensure the team doesn't spend valuable engineering time gauging the relevant weight to assign an issue. 
+This approach is flexible enough to ensure the team doesn't spend valuable engineering time gauging the relevant weight to assign an issue.
 
 If work takes less than a full business day, weight of 1 will still be used for simplicity purposes.
 
@@ -207,7 +207,7 @@ Below is a list of libraries we use to assist with standardization:
   3) Modules
      - Dependency Management: [PDM](https://pdm-project.org/en/latest/)
         - [PDM](https://pdm-project.org/latest/) has been selected over [Poetry](https://python-poetry.org/) due to PDM's direct support of [PEP 621](https://peps.python.org/pep-0621/), [PEP631](https://peps.python.org/pep-0631/), and [PEP 517](https://peps.python.org/pep-0517/)
-     - CLI: [click](https://click.palletsprojects.com/en/7.x/)
+     - CLI: [click](https://click.palletsprojects.com/en/stable/)
 
 As `Simple is better than complex.`, this standard definition will remain minimal.
 

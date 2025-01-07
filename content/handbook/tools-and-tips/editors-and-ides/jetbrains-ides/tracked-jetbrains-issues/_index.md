@@ -65,7 +65,7 @@ Keep these sections sorted alphabetically. They are headers so that they can be 
 
 - Title: Code style: compatibility with Rubocop's Layout/MultilineOperationIndentation
 - Link: https://youtrack.jetbrains.com/issue/RUBY-25600
-- Notes: 
+- Notes:
   - This issue makes it impossible to have RubyMine autoformat match GitLab's RuboCop settings, and we have decided that we do not
     want to change the default settings.
   - Please upvote (thumbs-up) this issue to bring attention to it!

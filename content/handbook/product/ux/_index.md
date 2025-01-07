@@ -107,7 +107,7 @@ GitLab uses labels to categorize, prioritize, and track work. The following is a
 - [Actionable Insights](/handbook/engineering/ux/ux-research/research-insights/#how-to-document-actionable-insights) document learnings from research that need to be acted on.
   - [Actionable Insight::Exploration needed](https://gitlab.com/groups/gitlab-org/-/issues/?sort=updated_desc&state=opened&label_name%5B%5D=Actionable%20Insight%3A%3AExploration%20needed): A research insight derived from a UX research study that requires further exploration.
   - [Actionable Insight::Product change](https://gitlab.com/groups/gitlab-org/-/issues/?sort=updated_desc&state=opened&label_name%5B%5D=Actionable%20Insight%3A%3AProduct%20change): A research insight derived from a UX research study and requires a change to the product experience.
-- [Type labels](/handbook/product/groups/product-analysis/engineering/dashboards/#work-type-classification): Used to track feature, maintenance, and bug issues and MRs. UX Leadership are active participants in influencing the prioritization of all three work types. See also who are the [DRIs for prioritization](/handbook/product/product-processes/cross-functional-prioritization/#prioritization-for-feature-maintenance-and-bugs).
+- [Type labels](/handbook/product/groups/product-analysis/engineering/metrics/#work-type-classification): Used to track feature, maintenance, and bug issues and MRs. UX Leadership are active participants in influencing the prioritization of all three work types. See also who are the [DRIs for prioritization](/handbook/product/product-processes/cross-functional-prioritization/#prioritization-for-feature-maintenance-and-bugs).
 - **Theme labels** can be created to group issues that solve a similar user experience problem but don't have a category. This can be especially useful for a user experience that spans the product. These issues still require a UX label.
 - [**UX: Feature Discovery Improvement**](https://gitlab.com/groups/gitlab-org/-/issues?label_name%5B%5D=UX%3A++Feature+Discoverability+Improvement): Indicates issue may improve feature discoverability.
 - [**UX: Onboarding Improvement**](https://gitlab.com/groups/gitlab-org/-/issues/?label_name%5B%5D=UX%3A%20Onboarding%20Improvement): Indicates issue is a potential onboarding improvement.
@@ -125,6 +125,12 @@ To understand the specific challenges faced by the UX Department, we hold an asy
 ### UX Forum
 
 {{% ux-forum %}}
+
+## UX Week in Review
+
+The [UX Week in Review](https://docs.google.com/document/d/1YCpTr_jXxIe8O8ULBDAJRC3kWD5SzVDdAHptiOYkQEM/edit?tab=t.0#heading=h.9qwiojcv4wzk) is an asynchronous document that includes important updates for everyone in the UX department. This doc is editable by anyone at GitLab and everyone can contribute.
+
+Reminders are sent out weekly in the [#ux](https://gitlab.enterprise.slack.com/archives/C03MSG8B7) Slack channel to add and read updates. UX Managers will receive a monthly reminder in the [#ux_leadership](https://gitlab.enterprise.slack.com/archives/CPQT50BFG) Slack channel to add project updates from across their team.
 
 ## UX Talent Assessment
 

@@ -226,7 +226,7 @@ For details regarding Virtual Workshops, please visit the [Field Marketing Page]
 7. Include "contact us" information and a clear CTA at the end of the presentation.
 8. Video recording of webcast uploaded to YouTube within 24 hours as event occurred.
 9. Send the recording to all registrants, whether they attended or not within 48 hours post webcast.
-10. Review Zoom's guide on [in person chat](https://support.zoom.us/hc/en-us/articles/203650445-In-Meeting-Chat) which explains the various ways you can utilize the chat feature.
+10. Review Zoom's guide on [in person chat](https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0064400) which explains the various ways you can utilize the chat feature.
 
 Review GitLab's general [virtual events best practices](/handbook/marketing/virtual-events/#best-practices) for additional suggestions on how to make your virtual event a success.
 

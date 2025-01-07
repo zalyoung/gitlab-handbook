@@ -162,7 +162,7 @@ Capabilities for the DevOps platform should have been explored with the customer
 
 With these capabilities identify, the solution options can be considered:
 
-[**DevSecOps**](https://about.gitlab.com/solutions/dev-sec-ops/) with shift left security: security team is engaged and measurable business outcome is identified to improve the overall security posture while delivering the software faster;
+[**DevSecOps**](https://about.gitlab.com/solutions/security-compliance/) with shift left security: security team is engaged and measurable business outcome is identified to improve the overall security posture while delivering the software faster;
 
 [**Continous Software Compliance**](https://about.gitlab.com/solutions/compliance/) with built-in compliance, governance, policies and audit needs: compliance and change management teams are engaged to ensure that the app teams have guidance and framework to deliver software with regulatory or enterprise standard compliance;
 

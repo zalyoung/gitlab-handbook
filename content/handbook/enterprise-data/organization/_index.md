@@ -17,7 +17,7 @@ The Data Team Organization model is guided by three primary business needs:
 Based on these needs, the Data Team is organized in the following way:
 
 1. **Data Pods:** Pods are assembled to provide concentrated focus on delivering & maintaining **data products** for **strategic company initiatives**. Pods are staffed with multiple data personas including Data Analyst, Data Scientist, Analytics Engineer, and supported by Data Engineer as stable counterpart.
-1. **[Analytics Engineering](handbook/it/data-team/#analytics-engineering-team):** Transform raw data into clean, structured, and usable formats for data decision-making. The Lead Analytics Engineer serves as a stable counterpart for business departments and functional analytics teams.
+1. **[Analytics Engineering](/handbook/enterprise-data/#analytics-engineering-team):** Transform raw data into clean, structured, and usable formats for data decision-making. The Lead Analytics Engineer serves as a stable counterpart for business departments and functional analytics teams.
 1. **[Data Platform & Engineering Team](/handbook/enterprise-data/#the-data-platform--engineering-team):** **Center of Excellence** for data technologies, including owning and operating the Data Stack
 1. **[Data Science Team](/handbook/enterprise-data/#the-data-science-team):** **Center of Excellence** for advanced analytics, including delivery of data science projects to the business
 
@@ -29,9 +29,9 @@ Based on these needs, the Data Team is organized in the following way:
 | Customer Intelligence     |  @nmcavinue          |                                | @jonglee1218      |                |
 | Customer Product Adoption |  @mdrussell             | @michellecooper @utkarsh060 |                 |                |
 
-## Analytics Engineering - Business Stable Counterpart Assignments
+## Analytics Engineering - Stable Counterpart Assignments
 
-| Department       | Functional Analytics Team         | Analytics Engineer      |
+| Department / Division | Functional Analytics Team / Steering Committee | Analytics Engineer      |
 | ---------------- | --------------------------------- | ----------------------- |
 | Sales            |  Revenue Strategy and Analytics   |  @lisvinueza             |
 | Marketing        |  Marketing Strategy and Analytics |  @chrissharp             |
@@ -42,6 +42,7 @@ Based on these needs, the Data Team is organized in the following way:
 | Security         |  Engineering Analytics            |  @michellecooper        |
 | Support          |  N/A                              |  @michellecooper        |
 | People           |  People Analytics                 |  @rakhireddy            |
+| R&D              |  Product Usage Data Architecture Steering Committee | @pempey |
 
 ## Data Platform Team Stable Counterpart Assignments
 

@@ -14,11 +14,11 @@ Remember that some of the links below require you to login to [GitLab's Partner 
 
 ## Foundational Knowledge
 
-[GitLab Quick Start for New GitLab.com Customers](handbook/customer-success/customer-onboarding/)
+[GitLab Quick Start for New GitLab.com Customers](/handbook/customer-success/customer-onboarding/)
 
 - Provides a great primer on the basics of GitLab.com, Namespaces, Groups, Projects, Members, and the GitLab Customer Portal.
 
-[Building Pipelines GitLab Partner Webinar Series](https://content.gitlab.com/viewer/63bddf02edadd0b1346a73db) (Live Webinar & Episode Content Archive)
+Building Pipelines GitLab Partner Webinar Series (Live Webinar & Episode Content Archive)
 
 - This webinar series is produced exclusively for GitLab Partners.  We discuss various sales and presales-level topics that help you build your sales pipeline with GitLab.
 - Click the link above to view the archive of previous episode content and be sure to **Register Today**!
@@ -42,7 +42,7 @@ Learn what GitLab is, what it offers, and what it does
   - This is a Why GitLab Page .  It's actually a good elevator pitch!  Check it out.
 - [GitLab Promo DEMO](https://about.gitlab.com/demo/) (Video)
   - This video is a bit longer demo video and shows more about using GitLab (3 min)
-- [Platform Page](https://about.gitlab.com/platform) (Web Page)
+- [Platform Page](https://about.gitlab.com/platform/) (Web Page)
   - Get to know the basic capability set of GitLab here.  Be sure to scroll down to the Solutions GitLab enables and drill into them for more information (20 min read)
 - [Solutions Page](https://about.gitlab.com/solutions/) (Web Page)
   - offers a wide variety of ways customers leverage GitLab (20 min read)
@@ -95,8 +95,8 @@ Learn how to identify the most valuable challenges and leverage the GitLab DevSe
   - A GitLab Project containing all the resources for partners to successfully deliver a 1-hour-long, high-level, technical overview demo of GitLab. Check out the README for further info.
 - [GitLab Learn Labs - Tanuki Racing](https://gitlab.com/gitlab-learn-labs/sample-projects/tanuki-racing) (GitLab Project)
   - A collection of always up-to-date workshops. These can be used either individually for self-learning, delivered for customers as hands-on workshops or serve as a basis for in-depth demos. Check out the README for further info.
-- [Building Pipelines Episode 011](https://content.gitlab.com/viewer/63bddf02edadd0b1346a73db) (Video)
-  - "Effective GitLab Demos." (40:16)  More resources and helpful hints are provided.  [Register for the Webinar](https://content.gitlab.com/viewer/63bddf02edadd0b1346a73db)!
+- Building Pipelines Episode 011 (Video)
+  - "Effective GitLab Demos." (40:16)  More resources and helpful hints are provided.
 - [GitLab Partner Demos](https://gitlab.com/gitlab-partner-demos) (Project Catalog)
   - Public group containing demo projects developed by the GitLab Partner SA team for use with and by our partners
 - [GitLab POV Handbook Page](/handbook/solutions-architects/tools-and-resources/pov/)

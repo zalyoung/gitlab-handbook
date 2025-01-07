@@ -59,8 +59,8 @@ The Group Manager, Product is a [grade 9](/handbook/total-rewards/compensation/c
 - Enable product managers to make the most effective decisions when [prioritizing R&D investment](/handbook/product/product-processes/#how-we-prioritize-work) in their [product groups](/handbook/company/structure/#product-groups) so that our upcoming releases contain relevant enhancements for our customers, users, prospects and us.
 - Convene a set of stable counterparts for your assigned [Product Hierarchy](/handbook/product/categories/#hierarchy) and Use Cases to ensure R&D and GTM [KPIs](/handbook/company/kpis/) are met
 - Join customer and partner visits that spawn ideas for new features
-- Ensure PMs develop an understanding of the market for their categories, including ensuring that the [DevOps tools](https://about.gitlab.com/competition/) and category directions relevant to their markets are up to date
-- Keep relevant [/direction](https://about.gitlab.com/direction) pages up to date as our high level roadmap
+- Ensure PMs develop an understanding of the market for their categories, including ensuring that the [DevOps tools](https://about.gitlab.com/why-gitlab/) and category directions relevant to their markets are up to date
+- Keep relevant [/direction](https://about.gitlab.com/direction/) pages up to date as our high level roadmap
 - Prioritize, build and assess business cases for new or existing opportunities in your group that have no investment
 - Understand deeply and synthesize the market, competition, and upcoming solutions in the space their team is responsible for.
 - Review release post announcements to ensure they focus on user problems and [jobs-to-be-done](/handbook/product/ux/jobs-to-be-done/)
@@ -82,58 +82,58 @@ The next step in the Group Manager, Product is to move to [Director of Product](
 
 ##### Verify
 
-Are responsible for managing the team of product managers covering the [Verify stage groups](/handbook/product/categories/#verify-stage). Leading the [Verify direction](https://about.gitlab.com/direction/ops/#verify) is a high impact position. Works with your team to ensure our [industry-leading CI](https://about.gitlab.com/analysts/forrester-cloudci19/) continues to be a [critical entry-point](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/usecase-gtm/ci/) to our single DevOps platform. Work cross functionally as an expert and invest in your team of high caliber product managers to make sure our [R&D investment in Verify](https://internal.gitlab.com/handbook/product/investment/) is as effective as possible in fulfilling our [mission to enable everyone to contribute](/handbook/company/mission/#mission).
+Are responsible for managing the team of product managers covering the [Verify stage groups](/handbook/product/categories/#verify-stage). Leading the [Verify direction](https://about.gitlab.com/direction/ops/#verify) is a high impact position. Works with your team to ensure our [industry-leading CI](https://about.gitlab.com/press/releases/2019-09-20-gitlab-named-cloud-native-continuous-integration-tools-leader/) continues to be a [critical entry-point](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/usecase-gtm/ci/) to our single DevOps platform. Work cross functionally as an expert and invest in your team of high caliber product managers to make sure our [R&D investment in Verify](https://internal.gitlab.com/handbook/product/investment/) is as effective as possible in fulfilling our [mission to enable everyone to contribute](/handbook/company/mission/#mission).
 
-###### Verify - Runner
+##### Verify - Runner
 
-The GMP for Verify:Runner is responsible for supporting our [Runner product groups](https://docs.gitlab.com/runner/) functional management and vision. Leading the direction as an individual contributor for the categories of [Runner Core](https://about.gitlab.com/direction/verify/runner_core/) and [Runner Fleet](https://about.gitlab.com/direction/verify/fleet_visibility/) while supporting the Product Manager over [Runner SaaS](https://about.gitlab.com/direction/verify/runner_saas/), is an high visibility and mission-critical role. You will be working across two product groups to accelerate our [Verify stage direction](https://about.gitlab.com/direction/ops/#verify) growth and influence our [SaaS Platforms direction](https://about.gitlab.com/direction/saas-platforms/) via the implementation of our [Automated Software Delivery solution](https://about.gitlab.com/solutions/delivery-automation/). Investing in your team to curate Product Management excellence to effectively enable our position of being the [One DevOps Platform](https://about.gitlab.com/topics/devops-platform/).
+The GMP for Verify:Runner is responsible for supporting our [Runner product groups](https://docs.gitlab.com/runner/) functional management and vision. Leading the direction as an individual contributor for the categories of [Runner Core](https://about.gitlab.com/direction/verify/runner_core/) and [Runner Fleet](https://about.gitlab.com/direction/verify/fleet_visibility/) while supporting the Product Manager over [Runner SaaS](https://about.gitlab.com/direction/verify/hosted_runners/), is an high visibility and mission-critical role. You will be working across two product groups to accelerate our [Verify stage direction](https://about.gitlab.com/direction/ops/#verify) growth and influence our [SaaS Platforms direction](https://about.gitlab.com/direction/saas-platforms/) via the implementation of our [Automated Software Delivery solution](https://about.gitlab.com/solutions/delivery-automation/). Investing in your team to curate Product Management excellence to effectively enable our position of being the [One DevOps Platform](https://about.gitlab.com/topics/devops-platform/).
 
 ##### Enablement
 
 Responsible for the [Geo](/handbook/product/categories/#geo-group), [Global Search](/handbook/product/categories/#global-search-group), [Memory](/handbook/product/categories/#memory-group), and [Database](/handbook/product/categories/#database-group) groups. These groups ensure GitLab can meet customer business continuity requirements, is performant at all scales, and enables users to find the content they are looking for in our single platform.
 
-##### Requirements
+**GMP Enablement Requirements**
 
 - Demonstrated understanding of software systems, distributed systems a plus
 - Previous experience with self-managed products and their lifecycle operations
 - Strong communications skills and ability to work cross-functionally, as these groups affect many parts of GitLab
 
-#### Data Science
-
 ##### ModelOps
 
 Responsible for leading the team of PMs who manage the [ModelOps stage groups](/handbook/product/categories/#modelops-stage). This stage leader sets the vision and direction for how to empower GitLab users to leverage data science as part of their DevOps program—both by enabling users to build and run data science workloads, as well as by enriching existing GitLab product functionality with capabilities powered by machine learning. This individual will lead an expansion of GitLab's [core personas](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/usecase-gtm/ci/#personas) to address the needs of data science teams and will work cross-functionality with [other GitLab stages](/handbook/product/categories/#devops-stages) in leveraging machine learning to deepen our [core differentiators](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/usecase-gtm/ci/#top-3-gitlab-differentiators). This individual will be responsible for developing new revenue-generating products as well as enhancing existing products used by millions of users across the world.
 
-##### Requirements
+**GMP ModelOps Requirements**
 
 - Knowledge of how to operationalize the lifecycle management of data science workloads, including data ingestion and ETL, feature engineering, development environment setup, CI/CD integration, model versioning, testing, and production deployment
 - Familiarity with the technical differences and operational requirements of various AI disciplines (e.g. supervised and unsupervised machine learning, deep learning, natural language processing, neural networks, etc.)
 - Deep understanding of the production pain points of data science products
 - Prior experience with data science products and use cases
 
-#### Sec
-
 ##### Secure
 
 Responsible for leading the team of PMs who manage the [Secure stage groups](/handbook/product/categories/#sec-section). This stage leader sets the vision and direction for how to enable GitLab users to minimize their security risk with continuous identification and prioritization of high-impact vulnerabilities and weaknesses across every stage of the DevOps process. This scope includes identifying, prioritizing, and managing security research requirements across the entire Sec section and working with GitLab's Vulnerability Research team to prioritize those requirements. The Secure GMP works hand in hand with the [Govern stage](/handbook/product/categories/#govern-stage) leader to ensure that their teams, together, are providing a holistic and world-class user experience across all of GitLab's security & compliance offerings.
 
-##### Requirements
+**GMP Secure - Requirements**
 
 - Prior experience building or operating Application Security Testing (AST) products (e.g., SCA, SAST, DAST, etc.) products
 - Strong ability to understand the technical details underpinning security testing and software engineering concepts
 - Strong ability to define and maintain alignment on product vision and strategy
 - Excellent communication skills and ability to drive cross-functional execution
 
-#### Software Supply Chain Security
+##### Software Supply Chain Security
 
 Responsible for leading the team of PMs who manage the [Software Supply Chain Security stage groups](/handbook/product/categories/#software-supply-chain-security-stage). This stage leader sets the vision and direction for how to enable GitLab users with an effective, scalable, and lovable security and compliance solution. This individual also maintains and champions GitLab's [Software Supply Chain Security (SSCS) direction](https://about.gitlab.com/direction/supply-chain/) and coordinates execution of the SSCS roadmap across all GitLab stages. The Govern GMP works hand in hand with the [Secure stage](/handbook/product/categories/#sec-section) leader to ensure that their teams, together, are providing a holistic and word-class user experience across all of GitLab's security & compliance offerings.
 
-##### Requirements
+**GMP Software Supply Chain Security - Requirements**
 
 - Prior experience building operating security or compliance products
 - Deep knowledge of challenges in Software Supply Chain Security and how it intersects with each phase of the DevOps process
 - Strong ability to define and maintain alignment on product vision and strategy
 - Excellent communication skills and ability to drive cross-functional execution
+
+##### Fulfilment
+
+The Group PM, Fulfillment is the PM DRI for the [Fulfillment Section](/handbook/product/categories/#fulfillment-section), which owns delivering a flexible and powerful billing and licensing system.  Has the opportunity to work cross-functionally to ensure the billing and licensing system meets our evolving business needs and delivers a world class customer experience.
 
 #### Group Manager, Product (GMP) - Hiring Process
 
@@ -196,10 +196,6 @@ The Director of Product Management, SaaS Platforms is the PM DRI for the [Enable
 ##### SaaS Platforms
 
 The Director of Product Management, SaaS Platforms is the PM DRI for the [SaaS Platforms Section](/handbook/product/categories/#saas-platforms-section) and reports to the VP, Product Management - CI/CD, Enablement, & SaaS Platforms. The SaaS Platforms Section includes the SaaS Platforms Stage.
-
-##### Fulfilment
-
-The Director of Product Management, SaaS Platforms is the PM DRI for the [Fulfillment Section](/handbook/product/categories/#fulfillment-section), which owns delivering a flexible and powerful billing and licensing system.  Has the opportunity to work cross-functionally to ensure the billing and licensing system meets our evolving business needs and delivers a world class customer experience.
 
 ##### Requirements
 

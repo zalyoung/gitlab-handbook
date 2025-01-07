@@ -8,7 +8,7 @@ NOTE: The MLOps Incubation Engineering project has become the MLOps team. These 
 
 DRI: [@eduardobonet](https://gitlab.com/eduardobonet)
 
-MLOps is a [Single-Engineer Group](/handbook/company/structure/#single-engineer-groups) within our [Incubation Engineering Department](/handbook/engineering/development/incubation/). This group works on early feature exploration and validation related to the [MLOps group](https://about.gitlab.com/direction/modelops/mlops) within the [ModelOps stage](https://about.gitlab.com/direction/modelops/).
+MLOps is a [Single-Engineer Group](/handbook/company/structure/#single-engineer-groups) within our [Incubation Engineering Department](/handbook/engineering/development/incubation/). This group works on early feature exploration and validation related to the [MLOps group](https://about.gitlab.com/direction/modelops/mlops/) within the [ModelOps stage](https://about.gitlab.com/direction/modelops/).
 
 ## Vision & Mission
 

@@ -161,7 +161,7 @@ TODO: Define performance requirements and check with different steak holders. Di
 #### Decomposition
 
 The application data for [GitLab.com](https://gitlab.com/) is currently decomposed into two separate database clusters, `Main` and `CI`.
-We are evaluating if we can further decompose the `Main` database with [decomposing `Secure and Govern` related tables to a separate Postgres DB](https://gitlab.com/gitlab-org/gitlab/-/issues/427973) to gain more headroom and scalability for the current platform.
+We are evaluating if we can further decompose the `Main` database with [decomposing `Secure- and Software Supply Chain Security-related tables to a separate Postgres DB](https://gitlab.com/gitlab-org/gitlab/-/issues/427973) to gain more headroom and scalability for the current platform.
 
 For Cells it is a design choice to scale horizontally by adding more Cells and to rebalance by moving organizations to less saturated cells.
 Cells should not be scaled vertically to a point where decomposition is reasonable.
@@ -235,7 +235,7 @@ Currently, we maintain our own automation for this as well and could adapt it un
 | No product lock-in          | We are not locked in to one product we can not leave in the future.                                                                                                                                              | medium                |
 | Debugging capability        | Compared to any SaaS offering we do not rely on a vendor to be willing and able to debug our problems in a timely manner.                                                                                        | high                  |
 | Good integration with Cells | Compared to other self-hosted solutions, the database will run in the same k8s cluster as the rest of the workloads. This removes the need to integrate external components as well as multiple failure vectors. | medium                |
-| Near Zero Downtime Upgrade | We can adapt Gitlab's ([db-migration/pg-upgrade-logical](https://gitlab.com/gitlab-com/gl-infra/db-migration#zero-downtime-postgresql-upgrades) Automation to achieve near-zero downtime for PostgreSQL MVU over k8s | high / blocker            | 
+| Near Zero Downtime Upgrade | We can adapt Gitlab's ([db-migration/pg-upgrade-logical](https://gitlab.com/gitlab-com/gl-infra/db-migration#zero-downtime-postgresql-upgrades) Automation to achieve near-zero downtime for PostgreSQL MVU over k8s | high / blocker            |
 
 | Cons / Risks     | Description                                                                                                                  | Priority |
 | ---------------- | ---------------------------------------------------------------------------------------------------------------------------- | -------- |
@@ -250,7 +250,7 @@ Currently, we maintain our own automation for this as well and could adapt it un
 
 ### Amazon RDS PostgreSQL
 
-[Amazon Relational Database Services PostgreSQL](https://aws.amazon.com/rds/postgresql/) is AWS's managed database service offering fully compatible with PostgreSQL community version. In fact, Amazon only packs and deploys the PostgreSQL community binaries into the [RDS instance underlying infrastructure](https://aws.amazon.com/blogs/database/amazon-rds-multi-az-with-two-readable-standbys-under-the-hood/). 
+[Amazon Relational Database Services PostgreSQL](https://aws.amazon.com/rds/postgresql/) is AWS's managed database service offering fully compatible with PostgreSQL community version. In fact, Amazon only packs and deploys the PostgreSQL community binaries into the [RDS instance underlying infrastructure](https://aws.amazon.com/blogs/database/amazon-rds-multi-az-with-two-readable-standbys-under-the-hood/).
 GitLab currently recognizes Amazon RDS PostgreSQL as a [supported PostgreSQL implementation](https://docs.gitlab.com/ee/administration/reference_architectures/#recommended-cloud-providers-and-services).
 
 | Pro                                  | Description                                                                                                                                                                                                                                                                                                                                                                               | Priority / Importance |
@@ -289,7 +289,7 @@ GitLab currently recognizes Amazon RDS PostgreSQL as a [supported PostgreSQL imp
 - Evaluate time and impact of Major Version Upgrades 50k reference architecture?
   - Also evaluate Blue/Green deployments
 - How long does it take to create a read-replica, or a new cluster from a backup? `10GB`, `100GB`, `1TB`
-- How long is the database service downtime with Blue/Green major version upgrade method? 
+- How long is the database service downtime with Blue/Green major version upgrade method?
   - We should also test if pgbouncer or RDS Proxy can hold requests to alleviate the impact during a Blue/Green deployment.
 
 ##### Evaluate changes over current Dedicated-RDS deployment

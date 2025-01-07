@@ -209,7 +209,7 @@ All sales-related requests for a non-standard GTM structure, including pricing a
 
 ### Overview of GitLab Agreements
 
-1. GitLab provides its software (both on-premise and SaaS) pursuant to the GitLab Subscription Agreement, and its professional services pursuant to GitLab Professional Services Agreement. You can find our online versions [here](https://about.gitlab.com/terms).
+1. GitLab provides its software (both on-premise and SaaS) pursuant to the GitLab Subscription Agreement, and its professional services pursuant to GitLab Professional Services Agreement. You can find our online versions [here](https://about.gitlab.com/terms/).
 1. GitLab provides full transparency by including historic versions of the subscription terms. These can be found within the Agreement History section.
 1. The Subscription Agreement is agreed to by either: (i) customer clicking-through when purchasing (or downloading) software via the GitLab website, (ii) referenced in an order form that is signed by a customer, (iii) signing the negotiated subscription agreement, or (iv) passed through via partner if a customer is buying through an authorized partner.
 1. Please note that for a net-new customer that meets the negotiation thresholds, a Legal Request may be opened to request a single agreement that covers both Subscription and Professional Service Terms.

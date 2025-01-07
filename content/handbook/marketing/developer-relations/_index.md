@@ -19,7 +19,7 @@ In Developer Relations, we align our mission and vision with the company's [thre
 
 ## <i class="fas fa-map-marked-alt fa-fw color-orange font-awesome"></i> Our Strategy
 
-Our operational strategy is [documented in our internal handbook](https://internal.gitlab.com/handbook/marketing/developer-relations-and-community/) but is classified as confidential due to business sensitivity, customer impact, and to foster a psychological safe environment for our team members. Below you can find our strategic plans that are open to the wider community and where the Developer Relations team welcomes collaboration.
+Our operational strategy is [documented in our internal handbook](https://internal.gitlab.com/handbook/marketing/developer-relations/) but is classified as confidential due to business sensitivity, customer impact, and to foster a psychological safe environment for our team members. Below you can find our strategic plans that are open to the wider community and where the Developer Relations team welcomes collaboration.
 
 - [Contributor Program Unification & Growth Plan](/handbook/marketing/developer-relations/strategic-plans/contributor-program-unification/)
 - [Co-Creation Initiative](/handbook/marketing/developer-relations/cocreation/)
@@ -69,6 +69,7 @@ Teams within Developer Relations are reachable in these Slack channels:
 ### <i class="far fa-edit fa-fw color-orange font-awesome"></i> Our handbooks
 
 - [Contributor Success](/handbook/marketing/developer-relations/contributor-success/)
+  - [Contributors Program](/handbook/marketing/developer-relations/contributors-program/)
 - [Developer Advocacy](/handbook/marketing/developer-relations/developer-advocacy/)
 - [Community Programs](/handbook/marketing/developer-relations/community-programs/)
   - [Open Source Program](/handbook/marketing/developer-relations/community-programs/open-source-program/)
@@ -245,7 +246,7 @@ We take inspiration from the great work being done by other communities. Some of
 - [Debian](https://www.debian.org/) - A large, engaged community that act as custodians for important open source technology.
 - [GNOME](https://www.gnome.org/) - A large, engaged community that act as custodians for important open source technology.
 - [KDE](https://kde.org/) - A large, engaged community that act as custodians for important open source technology.
-- [Fedora](https://getfedora.org/) - A large, engaged community that act as custodians for important open source technology.
+- [Fedora](https://fedoraproject.org/) - A large, engaged community that act as custodians for important open source technology.
 - [Drupal](https://www.drupal.org/) - A large, engaged community that act as custodians for important open source technology.
 - [Wikimedia Foundation](https://wikimediafoundation.org/) - This community is a champion for free information with a large, engaged community.
 - [Kubernetes](https://kubernetes.io/) - This community consists of a large network of user groups and champions that serve to help each other grow and better utilize Kubernetes.

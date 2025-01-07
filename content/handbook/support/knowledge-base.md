@@ -103,7 +103,7 @@ After the KB article is merged:
      without a specific `CODEOWNERS` entry.
    - We add the CODEOWNERS file at the publishing stage and not at the article submission stage to
      avoid `CODEOWNERS` file merge conflicts blocking content merges.
-   
+
 2. Submit a request using the [Support Super Form](https://support-super-form-gitlab-com-support-support-op-651f22e90ce6d7.gitlab.io/).
    1. Fill in the fields as follows:
       - What is this request concerning?: `Create a Zendesk article`

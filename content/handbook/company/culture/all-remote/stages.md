@@ -112,7 +112,7 @@ While such organizations work well for some employees, it's important to note th
 >
 > Below is a thread about the future of remote work after the COVID-19 pandemic is over. I predict that remote will go through a trough of sorrow due to hybrid not working out, and most companies will return to being office based. But many all remote companies will see success.
 
-Want to know more? Read GitLab CEO Sid Sijbrandij's WIRED article: [Hybrid Remote Work Offers the Worst of Both Worlds](https://www.wired.com/story/hybrid-remote-work-offers-the-worst-of-both-worlds)
+Want to know more? Read GitLab co-founder Sid Sijbrandij's WIRED article: [Hybrid Remote Work Offers the Worst of Both Worlds](https://www.wired.com/story/hybrid-remote-work-offers-the-worst-of-both-worlds/)
 
 ## 6. Remote days
 
@@ -166,11 +166,11 @@ This goes beyond enabling a work from home arrangement; all-remote creates a wor
 
 {{< youtube "jdN5mj5ieLk?start=2115" >}}
 
-As part of a Harvard Business School case study [interview](https://youtu.be/jdN5mj5ieLk) (shown above), GitLab co-founder and CEO Sid Sijbrandij spoke with Professor Prithwiraj Choudhury on the various stages of remote work.
+As part of a Harvard Business School case study [interview](https://youtu.be/jdN5mj5ieLk) (shown above), GitLab co-founder Sid Sijbrandij spoke with Professor Prithwiraj Choudhury on the various stages of remote work.
 
 > We think it's time for clear differentiation between companies which *allow* remote, and companies that will not allow you to come into an office.
 >
-> People will start understanding the difference. If there is no headquarters, you're not at a satellite office. — *GitLab co-founder and CEO Sid Sijbrandij*
+> People will start understanding the difference. If there is no headquarters, you're not at a satellite office. — *GitLab co-founder Sid Sijbrandij*
 
 ### Benefits and challenges of all-remote work arrangements
 
@@ -190,7 +190,7 @@ To test your knowledge about remote work, consider taking the [GitLab Remote Fou
 
 ## Contribute your lessons
 
-GitLab believes that all-remote is the [future of work]({{< ref "remote-vision" >}}), and remote companies have a shared responsibility to show the way for other organizations who are embracing it. If you or your company has an experience that would benefit the greater world, consider creating a [merge request](https://docs.gitlab.com/ee/user/project/merge_requests) and adding a contribution to this page.
+GitLab believes that all-remote is the [future of work]({{< ref "remote-vision" >}}), and remote companies have a shared responsibility to show the way for other organizations who are embracing it. If you or your company has an experience that would benefit the greater world, consider creating a [merge request](https://docs.gitlab.com/ee/user/project/merge_requests/) and adding a contribution to this page.
 
 ---
 

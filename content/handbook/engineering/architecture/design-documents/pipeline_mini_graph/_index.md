@@ -14,7 +14,7 @@ toc_hide: true
 
 This blueprint serves as living documentation for the Pipeline Mini Graph. The Pipeline Mini Graph is used in various places throughout the platform to communicate to users the status of the relevant pipeline. Users are able to re-run jobs directly from the component or drilldown into said jobs and linked pipelines for further investigation.
 
-![Pipeline Mini Graph](img/pipeline_mini_graph.png)
+![Pipeline Mini Graph](/images/engineering/architecture/design-documents/pipeline_mini_graph/pipeline_mini_graph.png)
 
 ## Motivation
 

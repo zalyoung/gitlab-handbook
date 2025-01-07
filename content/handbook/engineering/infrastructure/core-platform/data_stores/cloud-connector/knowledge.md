@@ -27,20 +27,20 @@ We have a materials shared in our internal `Ruby on Rails Performance Training` 
 
 ### Articles
 
-- [42 performance tips for Ruby on Rails - Magnus Skog](https://www.mskog.com/posts/42-performance-tips-for-ruby-on-rails/)
+- [42 performance tips for Ruby on Rails - Magnus Skog](https://www.mskog.com/posts/42-performance-tips-for-ruby-on-rails)
 - [Cables vs. malloc_trim, or yet another Ruby memory usage benchmark — Martian Chronicles, Evil Martians' team blog](https://evilmartians.com/chronicles/cables-vs-malloc_trim-or-yet-another-ruby-memory-usage-benchmark)
 - [Chapter 19: Threads - Ruby Hacking Guide](https://ruby-hacking-guide.github.io/thread.html)
 - [CRuby Memory Slots: See Them, Tweak Them, Make Them Fast — Appfolio Engineering](https://engineering.appfolio.com/appfolio-engineering/2018/1/2/how-ruby-uses-memory)
 - [Debugging memory leaks in Ruby](https://samsaffron.com/archive/2015/03/31/debugging-memory-leaks-in-ruby)
 - [How do Ruby & Python profilers work?](https://jvns.ca/blog/2017/12/17/how-do-ruby---python-profilers-work-/)
-- [Implementing threads :: Operating systems 2018](https://www.it.uu.se/education/course/homepage/os/vt18/module-4/implementing-threads/)
+- [Implementing threads :: Operating systems 2018](https://www2.it.uu.se/education/course/homepage/os/vt18/module-4/implementing-threads/)
 - [Incremental Garbage Collection in Ruby 2.2 - Heroku](https://blog.heroku.com/incremental-gc)
-- [Inline caching in MRI - Tenderlovemaking](https://tenderlovemaking.com/2015/12/23/inline-caching-in-mri.html)
+- [Inline caching in MRI - Tenderlovemaking](https://tenderlovemaking.com/2015/12/23/inline-caching-in-mri/)
 - [Java theory and practice: Anatomy of a flawed microbenchmark](https://web.archive.org/web/20210306030600/https://www.ibm.com/developerworks/java/library/j-jtp02225/)
-- [Multithreading in the MRI Ruby Interpreter >>= BugFactory](https://bugfactory.io/blog/multithreading-in-the-mri-ruby-interpreter/)
+- [Multithreading in the MRI Ruby Interpreter >>= BugFactory](https://bugfactory.io/articles/multithreading-in-the-mri-ruby-interpreter/)
 - [Optimization Techniques by Benchmark Winners — Juanito Fatas](https://juanitofatas.com/optimization_techniques_by_benchmark_winners)
-- [Optimizing Rails for Memory Usage Part 2: Tuning the GC - Collective Idea](https://collectiveidea.com/blog/archives/2015/02/19/optimizing-rails-for-memory-usage-part-2-tuning-the-gc)
-- [Prometheus Counters and how to deal with them – INNOQ](https://www.innoq.com/en/blog/prometheus-counters/)
+- [Optimizing Rails for Memory Usage Part 2: Tuning the GC - Collective Idea](https://collectiveidea.com/blog/archives/2015/02/19/optimizing-rails-for-memory-usage-part-2-tuning-the-gc/)
+- [Prometheus Counters and how to deal with them – INNOQ](https://www.innoq.com/en/blog/2019/05/prometheus-counters/)
 - [Rails profiling story, or how I caught Faker trying to teach my app Australian Slang — Martian Chronicles, Evil Martians' team blog](https://evilmartians.com/chronicles/rails-profiling-story-or-how-i-caught-faker-trying-to-teach-my-app-australian-slang)
 - [Ruby 2.7 and the Compacting Garbage Collector — Appfolio Engineering](https://engineering.appfolio.com/appfolio-engineering/2019/3/22/ruby-27-and-the-compacting-garbage-collector)
 - [Ruby 2.x source code learning: memory management &amp; GC](https://programmer.help/blogs/ruby-2.x-source-code-learning-memory-management-amp-gc.html)
@@ -54,7 +54,7 @@ We have a materials shared in our internal `Ruby on Rails Performance Training` 
 - [Understanding Ruby GC through GC.stat](https://www.speedshop.co/2017/03/09/a-guide-to-gc-stat.html)
 - [Unicorn vs. Puma vs. Passenger: which app server is right for you? - Scout APM Blog](https://www.scoutapm.com/which-ruby-app-server-is-right-for-you/)
 - [Untangling Ruby Threads](https://thoughtbot.com/blog/untangling-ruby-threads)
-- [Visualizing Your Ruby Heap by Tenderlove](https://tenderlovemaking.com/2017/09/27/visualizing-your-ruby-heap.html)
+- [Visualizing Your Ruby Heap by Tenderlove](https://tenderlovemaking.com/2017/09/27/visualizing-your-ruby-heap/)
 - [Watching and Understanding the Ruby 2.1 Garbage Collector at Work - Thorsten Ball](https://thorstenball.com/blog/2014/03/12/watching-understanding-ruby-2.1-garbage-collector/)
 - [What causes Ruby memory bloat? – Joyful Bikeshedding](https://www.joyfulbikeshedding.com/blog/2019-03-14-what-causes-ruby-memory-bloat.html)
 - [Who's afraid of the big bad lock? - Space Vatican](https://www.spacevatican.org/2012/7/5/whos-afraid-of-the-big-bad-lock/)
@@ -68,7 +68,7 @@ We have a materials shared in our internal `Ruby on Rails Performance Training` 
 
 ### Podcasts
 
-- [Episode 372: Aaron Patterson on the Ruby Runtime : Software Engineering Radio](https://www.se-radio.net/2019/07/episode-372-aaron-patterson-on-the-ruby-runtime/)
+- [Episode 372: Aaron Patterson on the Ruby Runtime : Software Engineering Radio](https://se-radio.net/2019/07/episode-372-aaron-patterson-on-the-ruby-runtime/)
 
 ### Tools
 

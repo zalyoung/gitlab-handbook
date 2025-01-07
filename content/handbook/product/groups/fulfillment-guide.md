@@ -54,20 +54,20 @@ Last updated on 11-Nov-2024
 Most of [mechanizer](https://gitlab.com/gitlab-com/support/toolbox/mechanizer) functions that are used by support L&R team is being migrated into CustomersDot admin [view](https://customers.staging.gitlab.com/admins/sign_in)
 
 - More details on phased approach can be found in this epic [here](https://gitlab.com/groups/gitlab-org/-/epics/14169)
-- We are currently making 2 functions available in production as part of our BETA roll out. 
+- We are currently making 2 functions available in production as part of our BETA roll out.
 - The goal here is to have these new CustomersDot functions co-exist with Mechanizer and identify any significant gaps during usage
 - Please provide feeback [here](https://gitlab.com/gitlab-org/fulfillment/meta/-/issues/2086 ) for future improvements or fixes as needed
 
-### New functionality in CustomersDot admin view 
+### New functionality in CustomersDot admin view
 
 Please navigate to **support** menu item on CustomersDot admin view to find the below functionalities
 
-#### Trial updates for Saas 
+#### Trial updates for Saas
 
 - This new functionality replaces the use of UpdateGitlabplan function on Mechanizer for .com trials
 - Shows a list of trials to edit
 - Click the pencil icon to open edit view of particular trial
-- Edit the end date of the trial 
+- Edit the end date of the trial
 - Convert to other applicable trials (Premium or Ultimate as applicable) More plans will be available in the future
 - Verify if updated trial is synced to Gitlab.com
 - [Demo](https://gitlab.com/gitlab-org/customers-gitlab-com/-/merge_requests/10561#screenshots-or-screen-recordings)
@@ -80,8 +80,8 @@ Please navigate to **support** menu item on CustomersDot admin view to find the 
 - Please add the Zendesk ticket ID in the notes section for reference
 - [Demo](https://gitlab.com/groups/gitlab-org/-/epics/14262#note_2178647916)
 
-### How to get access to this feature on CustomersDot Admin view 
- 
+### How to get access to this feature on CustomersDot Admin view
+
 This feature is currently limited a few users from LnR support team but can be rolled out others in support once we have tested everything
 
 - Please note you will require the following permissions to be set via Okta to access these functions on CustomersDot view

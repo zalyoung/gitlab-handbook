@@ -48,7 +48,7 @@ This Working Group has the following goals:
     1. Define sane and secure defaults. Provide security recommendations and guardrails.
 1. Develop a Rollout Strategy and Plan (e.g. feature flags, would customers ever want to disable/remove it, etc.).
     1. SaaS rollout strategy for identified use cases.
-    1. Lay the groundwork to add ClickHouse to [our reference architectures](https://docs.gitlab.com/ee/administration/reference_architectures) through self-managed support.
+    1. Lay the groundwork to add ClickHouse to [our reference architectures](https://docs.gitlab.com/ee/administration/reference_architectures/) through self-managed support.
         * Packaging ClickHouse for our self-managed installations.
         * Research and understand the component costs and maintenance requirements of running a ClickHouse instance.
         * Determine the scale and deployment targets where adding ClickHouse makes sense.

@@ -18,7 +18,7 @@ Explore our team’s structure in the [organization chart](https://internal.gitl
 
 ## IT EntApps Portfolio Planning & Prioritization: A 6-Step Framework
 
-![it-pmo](/handbook/business-technology/enterprise-applications/pmo/it-pmo-planning.png)
+![it-pmo](/images/business-technology/enterprise-applications/pmo/it-pmo-planning.png)
 
 The IT EntApps Portfolio planning & prioritization process has 6 steps:
 
@@ -37,7 +37,7 @@ This section provides a quarterly inventory of all the committed and planned pro
 
 The [IT Project Prioritization tracker](https://docs.google.com/spreadsheets/d/1fnV3nWI0sNdbakHUys78d-lpbpKexFD_1kdO8JoVySY/edit#gid=745075679) serves as a centralized tool to log and manage new projects and initiatives. The PMO team evaluates these entries during the IT EntApps Quarterly Portfolio Planning process.
 
-![it-pmo](/handbook/business-technology/enterprise-applications/pmo/quarterly-planning.png)
+![it-pmo](/images/business-technology/enterprise-applications/pmo/quarterly-planning.png)
 
 ### T-Shirt Sizing
 
@@ -104,7 +104,7 @@ To maintain uniformity across all PMO-led projects, the team follows the same [E
 
 The System Development Lifecycle outlines a structured set of activities conducted at each project stage.
 
-![it-pmo](/handbook/business-technology/enterprise-applications/pmo/sdlc.png)
+![it-pmo](/images/business-technology/enterprise-applications/pmo/sdlc.png)
 
 #### Intake
 
@@ -190,7 +190,7 @@ There are several activities that take place to prepare for new OKRs / commits a
 
 ### FY25 Q4 Calendar
 
-![it-pmo](/handbook/business-technology/enterprise-applications/pmo/it-pmo-fy25-q4.png)
+![it-pmo](/images/business-technology/enterprise-applications/pmo/it-pmo-fy25-q4.png)
 
 ### FY26 Q1 Calendar
 
@@ -212,7 +212,7 @@ There are several activities that take place to prepare for new OKRs / commits a
 
 ## Meetings Protocol
 
-The team follows [GitLab meeting practices and standards](https://about.gitlab.com/company/culture/all-remote/meetings/).
+The team follows [GitLab meeting practices and standards](/handbook/company/culture/all-remote/meetings/).
 
 - Every meeting has an agenda.
 - All agendas are stored in the PMO Team Meetings [shared drive](https://drive.google.com/drive/folders/1nKgH2Q9PztXE388dbhUHxSh1Vy2V_vLz).

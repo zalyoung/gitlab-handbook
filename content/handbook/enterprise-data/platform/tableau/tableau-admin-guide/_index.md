@@ -7,7 +7,7 @@ This page describes the processes used to administer the Tableau sites managed b
 
 ## Sites
 
-GitLab currently maintains three different Tableau sites for different purposes: 
+GitLab currently maintains three different Tableau sites for different purposes:
 
 - **Main Site:** The main site is where all of the workbook and datasource development takes place and is the site team members can request a license to use.  
 
@@ -118,7 +118,7 @@ Our Data and Analytics team manages new releases for Tableau Cloud and Tableau D
 
 - **Release Review and Inspection:** After release the team will take **two weeks** to review release notes, inspect new features, enhancements, and security updates to assess potential impacts on our Tableau Cloud environment, data connections, and Tableau Desktop compatibility. Release notes can be followed in the GitLab [Tableau Quarterly Update Review](https://gitlab.com/groups/gitlab-data/-/epics/1287) Epic.
 
-- **Validation and Testing:** New releases will undergo a series of validation tests within a staging environment. This includes checking compatibility with our embedded data sources, dashboards, integrations, and any custom configurations. 
+- **Validation and Testing:** New releases will undergo a series of validation tests within a staging environment. This includes checking compatibility with our embedded data sources, dashboards, integrations, and any custom configurations.
 
 - **Communication to the Business:** After a release is validated, a communication will be sent via the Slack Channel: `#data-tableau`. Items to be covered in the release will include:
   - Key features and enhancements in the new release

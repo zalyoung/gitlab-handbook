@@ -94,11 +94,11 @@ variables:
 
   ### TOOLING ###
   # Specify versions of tools used in pipelines
-  HUGO_VERSION: '0.136.5'
+  HUGO_VERSION: '0.139.3'
   HUGO_IMAGE: "registry.gitlab.com/pages/hugo/hugo_extended:$HUGO_VERSION"
-  HUGOLINT_VERSION: '1.7.1'
-  MARKDOWNLINT_VERSION: '0.14.0'
-  VALE_VERSION: '3.8.0'
+  HUGOLINT_VERSION: '1.8.1'
+  MARKDOWNLINT_VERSION: '0.15.0'
+  VALE_VERSION: '3.9.1'
 
   ### CACHE DEPENDENCIES ###
   GOPATH: $CI_PROJECT_DIR/.GOPATH
@@ -243,7 +243,6 @@ markdownlint:
     - sh ./scripts/markdownlint.sh
   rules:
     - <<: *merge-request-or-tag
-    - <<: *build-and-test-only
     - <<: *is-fork
   artifacts:
     when: always
@@ -266,7 +265,6 @@ vale:
     - sh ./scripts/vale.sh
   rules:
     - <<: *merge-request-or-tag
-    - <<: *build-and-test-only
     - <<: *is-fork
   artifacts:
     when: always
@@ -290,7 +288,6 @@ handbooklint:
     - bash ./scripts/handbook-lint.sh
   rules:
     - <<: *merge-request-or-tag
-    - <<: *build-and-test-only
     - <<: *is-fork
   artifacts:
     when: always
@@ -299,6 +296,20 @@ handbooklint:
       - handbook-codequality.json
     reports:
       codequality: handbook-codequality.json
+
+check_path_change:
+  stage: build
+  image:
+    name: gitlab/glab
+    entrypoint: [""]
+  before_script:
+    - apk add git bash jq
+  script:
+    - bash ./scripts/check-path-change.sh
+  rules:
+    - if: $CI_MERGE_REQUEST_LABELS =~ /skip-path-check/
+      when: never
+    - <<: *merge-request-or-tag
 
 hugolint:
   stage: build
@@ -375,6 +386,8 @@ notify_slack_on_build_failures:
 
 update_counts:
   stage: maintenance
+  before_script:
+    - apk add git
   script: ./scripts/update-counts.sh
   rules:
   - <<: *scheduled-update
