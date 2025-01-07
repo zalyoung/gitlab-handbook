@@ -148,4 +148,4 @@ This also ensures that the data rolled up to the top level board is consistent.
 
 ### Board Overview
 
-![Mermaid.png](Mermaid.png)
+![Mermaid.png](/images/engineering/infrastructure/test-platform/project-management/Mermaid.png)

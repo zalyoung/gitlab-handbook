@@ -86,7 +86,7 @@ Teams should feel encouraged to tailor this process to what works best for them.
      * Engage with key DRIs listed above to define [persona](/handbook/product/personas) use cases, with the goal of illustrating how different customers will use these new features.
      * Keeping the entire [testing pyramid](https://docs.gitlab.com/ee/development/testing_guide/testing_levels.html) in mind, evaluate which parts of the use cases can be sufficiently covered by lower level tests, and which ones should have coverage in E2E tests.
      * This screenshot illustrates an example of what test coverage for a use case might look like once all tests are implemented:
-     * ![use-case-test-coverage.png](use-case-test-coverage.png)
+     * ![use-case-test-coverage.png](/images/engineering/infrastructure/test-platform/test-engineering-team/use-case-test-coverage.png)
 4. SET evaluates what E2E framework, tooling or infrastructure work (if any) will need to be completed ahead of time, and creates the respective issues.
    * The Test Engineering team should collaborate with the Test Tools and Infrastructure team for these changes, especially if the scope is large and could affect all E2E tests / frameworks.
    * If the scope of the change is more specific to the features or product area to be tested within the project, the Test Engineering team is encouraged to implement these changes.

@@ -118,7 +118,7 @@ Scalability leadership can be reached via PagerDuty [Scalability Escalation](htt
 
 From <a href="https://gitlab.pagerduty.com/incidents">https://gitlab.pagerduty.com/incidents</a>, click on the "New Incident" button and complete the new incident form as shown below.
 
-![Scalability PD Incident](img/pd-scalability-incident.png)
+![Scalability PD Incident](/images/engineering/infrastructure/team/scalability/pd-scalability-incident.png)
 
 ### How do I engage with the Scalability Group?
 

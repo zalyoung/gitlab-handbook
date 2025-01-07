@@ -111,7 +111,7 @@ Refer to the Scalability group [issue boards section](/handbook/engineering/infr
 |--------------|-------------|
 | [Planning Board](https://gitlab.com/groups/gitlab-com/gl-infra/-/boards/7339171) | [Build Board](https://gitlab.com/groups/gitlab-com/gl-infra/-/boards/7339070) |
 | Issues where we are investigating the work to be done. | Issues that will be built next, or are actively in development. |
-| ![Triage](../img/label-triage.png) <br/>![Proposal](../img/label-proposal.png) <br/>![Ready](../img/label-ready.png) | ![Ready](../img/label-ready.png) <br/>![In Progress](../img/label-in_progress.png) <br/>![Under Review](../img/label-under_review.png) <br/>![Verify](../img/label-verify.png) <br/>![Done](../img/label-done.png)|
+| ![Triage](/images/engineering/infrastructure/team/scalability/project-management/label-triage.png) <br/>![Proposal](/images/engineering/infrastructure/team/scalability/project-management/label-proposal.png) <br/>![Ready](/images/engineering/infrastructure/team/scalability/project-management/label-ready.png) | ![Ready](/images/engineering/infrastructure/team/scalability/project-management/label-ready.png) <br/>![In Progress](/images/engineering/infrastructure/team/scalability/project-management/label-in_progress.png) <br/>![Under Review](/images/engineering/infrastructure/team/scalability/project-management/label-under_review.png) <br/>![Verify](/images/engineering/infrastructure/team/scalability/project-management/label-verify.png) <br/>![Done](/images/engineering/infrastructure/team/scalability/project-management/label-done.png)|
 
 #### Retrospectives
 
