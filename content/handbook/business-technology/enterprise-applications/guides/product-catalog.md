@@ -211,13 +211,13 @@ There is a UAT issue template in
  **Pre-Testing Checklist**:
 
 - *Stakeholder & Timeline Alignment*
-    - This section is used to outline the [timeline] for UAT testing
+  - This section is used to outline the [timeline] for UAT testing
 - *Test Case Readiness*
-    - This section is used to:
-        - Create a copy of the master spreadsheet and link this spreadsheet in this section of the issue
-        - Check that all DRIs have approved the test cases
+  - This section is used to:
+    - Create a copy of the master spreadsheet and link this spreadsheet in this section of the issue
+    - Check that all DRIs have approved the test cases
 - *System Readiness*
-    - This section to be completed by Enterprise Apps & Fulfillment
+  - This section to be completed by Enterprise Apps & Fulfillment
 
 **Testing DRIs**
 
@@ -251,16 +251,18 @@ Each team will need to confirm:
 ### Step 3b: Estimate the UAT Timeline
 
 Several key dates and timing need to be established and approved by the [Testing DRIs]:
+
 - Date when Ent Apps will complete their SKU build in staging/test environment
 - Date when UAT test cases should be finalized and approved by all Testing DRIs
 - Date when Ent Apps will have test data generated
 - Date when Cross-functional Testing DRIs will conduct their testing
-    - 2-3 biz days: Q2C & Deal Desk
-    - 2-3 biz days: Billing & AR
-    - 2-3 biz days: Fulfillment, Data, Revenue, FP&A
+  - 2-3 biz days: Q2C & Deal Desk
+  - 2-3 biz days: Billing & AR
+  - 2-3 biz days: Fulfillment, Data, Revenue, FP&A
 - Date when User acceptance final sign off/approval
 
 Outline the estimated dates above and then ensure that these teams approve the timeline:
+
 - All [Testing DRIs]
 - Caroline Swanson from Enterprise Applications
 
@@ -269,30 +271,31 @@ Outline the estimated dates above and then ensure that these teams approve the t
 - Create a copy of the [master spreadsheet]
 - Populate columns A through J in the spreadsheet
 - **Column A:** test case #. Use this format for test case numbering:
-    - TC (test case)
-    - Short-hand for the SKU. For example Duo Enterprise would be DE
-    - 01 (test case number)
+  - TC (test case)
+  - Short-hand for the SKU. For example Duo Enterprise would be DE
+  - 01 (test case number)
     - So for Duo Enterprise test case #1 would be: TC-DE-01
 - **Column B:** Purchase method
-    - This would be either sales-assisted or self-service
+  - This would be either sales-assisted or self-service
 - **Column C:** Deal Type
-    - This would be new, upgrade, downgrade, renewal, cancellation
+  - This would be new, upgrade, downgrade, renewal, cancellation
 - **Column D:** Purchase Path:
-    - This would be either Direct or Partnership
+  - This would be either Direct or Partnership
 - **Column E:** Term
-    - Term is the length of the contract (12 months, 24 months, 36 months)
+  - Term is the length of the contract (12 months, 24 months, 36 months)
 - **Columen F:** Ramp?
-    - This would be Yes or No whether the price ramps over multi-year terms
+  - This would be Yes or No whether the price ramps over multi-year terms
 - **Column G:** Ramp Segments
 - **Column H:** Product Type
-    - This is the instance type: SaaS, Self-Managed, or Dedicated
+  - This is the instance type: SaaS, Self-Managed, or Dedicated
 - **Column: I:** Product Tier
-    - This is the product tier: Free, Premium, Ultimate
+  - This is the product tier: Free, Premium, Ultimate
 - **Column J:** Use Case Summary
-    - Describe what this test case is trying to test
+  - Describe what this test case is trying to test
 - **Columns K through AN** will be populated during testing by the Testing DRIs
 
 Test cases will vary depending on the SKU. However, most test cases will likely include scenarios such as:
+
 - New deals that include a product
 - Deals that have multi-year terms and need to ramp
 - Deals that are an upgrade or downgrade from one product to another
@@ -333,7 +336,6 @@ Once completed, UAT is can be considered done
 Enterprise Applications will deploy the SKU to production Enterprise Applications
 SKUs are always deployed on Wednesdays
 [Add deployment schedules]
-
 
 ## Post Go Live SKU Modifications
 
