@@ -76,14 +76,18 @@ generate_table() {
     done
 
     # Process linkcheck report
+    echo $LREPORT
     LENGTH=$(jq '. | length' $LREPORT)
+    echo LENGTH
     for i in $(seq 0 $((LENGTH-1))); do
+      echo "Processing linkcheck report i"
       FILE=$(jq -r ".[$i].location.path" $LREPORT)
       LINE=$(jq -r ".[$i].location.lines.begin" $LREPORT)
       LOC="$REPO_URL/-/blob/$CI_COMMIT_SHA/$FILE#L$LINE"
       DESCRIPTION=$(jq -r ".[$i].description" $LREPORT | cut -d ':' -f 2-)
       ERRORS+=( $ERROR )
       if [[ "$ERROR" ]]; then
+        echo "Found $ERROR"
         MSG+="| Broken link | [$FILE]($LOC) | [$LINE]($LOC) | $DESCRIPTION |\n"
       fi
     done
