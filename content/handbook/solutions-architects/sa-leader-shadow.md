@@ -33,19 +33,16 @@ Candidates must:
 ### Rotation Schedule
 
 | Start Date | Shadow Name | Geo Preference (can be multiple) |
-|------------|-------------|----------------------------------|
+|-------|---------|---------|
 | FY25 Q3 | [arun_kg](https://gitlab.com/arun_kg) | NEUR |
-| FY26 Q1 | [Chloé Cartron](https://gitlab.com/ChloeCartron) | |
-| FY26 Q1 | [Regnard Raquedan](https://gitlab.com/rraquedan) | |
-| FY26 Q1 | [Paul Dumaitre](https://gitlab.com/pdumaitre) | |
-| FY26 Q1 | [Nupur Sharma](https://gitlab.com/nsharma2) | |
-| FY26 Q2 | [Julia Gätjens](https://gitlab.com/jgaetjens) | |
-| FY26 Q3 | | |
-| FY26 Q4 | | |
-| FY27 Q1 | | |
-| FY27 Q2 | | |
-| FY27 Q3 | | |
-| FY27 Q4 | | |
+| FY26 Q1 | [Regnard Raquedan](https://gitlab.com/rraquedan) |  |
+| FY26 Q1 | [Paul Dumaitre](https://gitlab.com/pdumaitre) |  |
+| FY26 Q1 | [Nupur Sharma](https://gitlab.com/nsharma2) |  |
+| FY26 Q2 | [Julia Gätjens](https://gitlab.com/jgaetjens) |  |
+| FY26 Q3 |  |  |
+| FY26 Q4 |  |  |
+| FY27 Q1 |  |  |
+| FY27 Q2 |  |  |
 
 ## Program Preparation
 
