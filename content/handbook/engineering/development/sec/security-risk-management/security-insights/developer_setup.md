@@ -1,7 +1,10 @@
-## Developer Vulnerability Management Setup Guide
+
+# Developer Vulnerability Management Setup Guide
+
 To fully run Vulnerability Management on your local machine, you must have set up the [GDK](https://gitlab.com/gitlab-org/gitlab-development-kit/-/blob/main/doc/index.md). You should also add the [**Security Reports** project](https://gitlab.com/gitlab-examples/security/security-reports.git) to your local environment by following these steps:
 
-### Add Security Reports project
+## Add Security Reports project
+
 1. Go to `http://gdk.test:3000/` in your browser
 2. Click on `New Project` > `Import Project` > `Repository by URL`
 3. In the `Git repository URL` field, enter `https://gitlab.com/gitlab-examples/security/security-reports.git`
@@ -10,13 +13,17 @@ To fully run Vulnerability Management on your local machine, you must have set u
 6. Click  `Create project`
 
 
-### Generate a EE License
+## Generate a EE License
+
 To display Vulnerability Reports and the Vulnerability Management tool in GitLab, you need an Enterprise Edition (EE) license. This license enables features exclusive to the EE tier. To generate an EE development license, follow these steps: 
+
 1. Request an EE developer license. Follow the steps in [the handbook](https://handbook.gitlab.com/handbook/engineering/developer-onboarding/#working-on-gitlab-ee-developer-licenses).
 2. Once you've succesfully obtained the license, add it to your local environment. Follow the steps in [the handbook](https://docs.gitlab.com/ee/administration/license_file.html#add-license-in-the-admin-area) under **Add license in the Admin area**.
 
-### Setup Runner
+## Setup Runner
+
 To display the Vulnerability Reports, you need to set up the runner. Follow these steps:
+
 1. Navigate to `http://gdk.test:3000/gitlab-org/security-reports` 
 2. On the left sidebar, click on the `Search or go to...` button and select `Admin Area`.
 3. In the Admin Area, on the left sidebar, select `CI/CD` > `Runners`.
@@ -29,4 +36,3 @@ To display the Vulnerability Reports, you need to set up the runner. Follow thes
 10. On the left sidebar click on `Build` > `Pipelines`. The pipeline should now be active. 
 
 For additional details or troubleshooting, consult the offical [runner setup guide](https://gitlab.com/gitlab-org/gitlab-development-kit/blob/main/doc/howto/runner.md#set-up-a-runner).
-
