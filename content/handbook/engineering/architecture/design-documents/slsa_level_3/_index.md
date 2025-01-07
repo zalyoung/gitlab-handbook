@@ -252,6 +252,8 @@ verify_provenance:
    1. Self-hosted runners should follow security best practices to prevent token leakage.
 1. Dependency Management:
    1. Pin specific versions of Sigstore tools (e.g., cosign) to prevent supply chain attacks.
+1. CI Variables:
+   1. CI Variables will be included in signed provenance file. But will follow the Visibility setting where Masked variables will not store the value, only the key.
 
 ### Component Maintenance and Scalability
 
