@@ -269,6 +269,7 @@ There are no perfect or required ways to set up your Greenhouse notifications, b
 - [Details on who is eligible for referrals]({{< ref "incentives#referral-bonuses" >}})
 
 ### Contractor Conversions
+
 - [Contractor conversion processes]({{< ref "contractor-conversions" >}})
 
 ### Acquisitions
