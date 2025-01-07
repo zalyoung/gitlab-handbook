@@ -18,6 +18,7 @@ Our mission is to deliver and maintain a world-class observability offering and 
 | **Team Slack Channels**        | [#g_observability](https://gitlab.slack.com/archives/g_observability) - Team channel<br/> [#infrastructure_platforms_social](https://gitlab.enterprise.slack.com/archives/C062T669RFD) - Social channel                                                                                                                                                                                                                         |
 | **Project Slack Channels**     | [#observability-tamland](https://gitlab.enterprise.slack.com/archives/C05JU82BJQH) Tamland development <br/>                                                                                                                                                                                                                                                                                                                    |
 | **Information Slack Channels** | [#infrastructure-lounge](https://gitlab.slack.com/archives/infrastructure-lounge) (Infrastructure Group Channel), <br/>[#incident-management](https://gitlab.slack.com/archives/incident-management) (Incident Management),  <br/>[#alerts-general](https://gitlab.slack.com/archives/alerts-general) (SLO alerting), <br/>[#mech_symp_alerts](https://gitlab.slack.com/archives/mech_symp_alerts) (Mechanical Sympathy Alerts) |
+| **Documentation**              | Technical documentation is on the [Documentation Hub](https://gitlab-com.gitlab.io/gl-infra/observability/docs-hub/)                                                                                                                                                                                                                                                                                                            |
 
 ## Team Members
 
@@ -83,7 +84,7 @@ On the other hand, how we make particular use of these projects in our stack is 
 Often, we want to understand the bigger picture and how projects play together.
 This is out of scope for technical documentation that ships with a certain project itself and hence we put this information on the documentation hub instead.
 
-For our internal use, we use the documentation hub to help us reason about the services we own and hope we operate them.
+For our internal use, we use the documentation hub to help us reason about the services we own and how we operate them.
 We expect this helps everyone on the team and helps us gather a common understanding as we have different roles and perspectives on the team.
 
 A recommended read on different types of documentation and how to organize it is the [Divio Documentation System](https://docs.divio.com/documentation-system/).
