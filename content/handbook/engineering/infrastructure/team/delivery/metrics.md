@@ -36,7 +36,9 @@ biggest impact on further reducing MTTP.
 
 Plots tracking MTTP breakdown over time:
 
+<figure class="video_container">
 <iframe src="https://gitlab-com.gitlab.io/gl-infra/software-delivery/delivery_dashboard/?tab=DeliveryMetrics"></iframe>
+</figure>
 
 ### Deployment SLO
 
