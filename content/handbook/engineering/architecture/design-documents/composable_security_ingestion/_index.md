@@ -1,5 +1,5 @@
 ---
-title: Decouple security ingestion from security reports
+title: Composable Security Ingestion
 status: proposed
 creation-date: "2024-12-04"
 authors: [ "@hacks4oats" ]
