@@ -109,7 +109,7 @@ Although we place special emphasis on Referrals, we treat Referral interviews th
   
 #### Referral Bonus Eligibility
 
-All GitLab team members are eligible for the [Referral Bonus](/handbook/total-rewards/incentives/#referral-bonuses), except in [certain circumstances](https://handbook.gitlab.com/handbook/total-rewards/incentives/#exceptions).
+All GitLab team members are eligible for the [Referral Bonus](/handbook/total-rewards/incentives/#referral-bonuses), except in [certain circumstances](/handbook/total-rewards/incentives/#exceptions).
 
 #### Referral Bonus Payout and Processing
 
@@ -122,4 +122,5 @@ For any additional questions, please post in the talent-acquisition Slack channe
 #### Cold LinkedIn Outreach 
 
 - If someone you have not worked with reaches out requesting to be referred for an open role, you can respond with the message below. Please adjust the order and content to reflect your own style and tone as needed:
+
   - *“Thank you for your interest in GitLab. Unfortunately, I cannot refer you for the position as we have not had a chance to work together. To ensure we maintain an inclusive (https://about.gitlab.com/company/culture/inclusion/) recruiting process, I cannot influence your application. We would prefer you apply for the position you have in mind directly via our Jobs page (https://about.gitlab.com/jobs/). This will ensure the right GitLab team member reviews your profile!"*
