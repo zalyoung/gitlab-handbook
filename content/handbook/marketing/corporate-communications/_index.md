@@ -15,7 +15,7 @@ We serve as strategic advisors to GitLab executives and cross-functional teams o
 
 We exist to positively influence the perception of GitLab by reaching economic buyers, technical champions, community contributors, advocates, investors, and industry analysts. We do this by developing and implementing strategic external communications plans that protect the brand, and generate awareness and preference for GitLab. 
 
-This team is responsible for global public relations (PR), social media, and executive communications (speaking). Corporate Communications Job families can be found [here](https://handbook.gitlab.com/job-families/marketing/corporate-communications-manager/).
+This team is responsible for global public relations (PR), social media, and executive communications (speaking). Corporate Communications Job families can be found [here](/job-families/marketing/corporate-communications-manager/).
 
 *This page is the single source of truth for corporate communications objectives/goals, contact information, messaging, PR/social media guidelines, approval processes, strategy and more.*
 
@@ -28,7 +28,7 @@ The GitLab Corporate Communications team is responsible for the following activi
 * Contributed article placement
 * Executive visibility 
 * Awards
-* [Incident Communications](https://handbook.gitlab.com/handbook/marketing/corporate-communications/incident-communications-plan/) (separate handbook page)
+* [Incident Communications](/handbook/marketing/corporate-communications/incident-communications-plan/) (separate handbook page)
 
 ## Team Norms
 
@@ -44,7 +44,7 @@ Please use the `#external-comms` Slack channel.
 
 ## Speaking on behalf of GitLab
 
-Speaking on behalf of GitLab via a public channel such as a media interview (in-person or via phone), on a podcast, in a public issue on GitLab.com, on a forum, at a conference/event (live or virtual), in a blog or an external platform requires prior approval by the Comms team and must follow GitLab’s [SAFE framework](https://handbook.gitlab.com/handbook/legal/safe-framework/). To make a request, please use the `#external-comms` Slack channel.
+Speaking on behalf of GitLab via a public channel such as a media interview (in-person or via phone), on a podcast, in a public issue on GitLab.com, on a forum, at a conference/event (live or virtual), in a blog or an external platform requires prior approval by the Comms team and must follow GitLab’s [SAFE framework](/handbook/legal/safe-framework/). To make a request, please use the `#external-comms` Slack channel.
 
 ### Spokesperson Criteria
 
@@ -70,7 +70,7 @@ While team members may have established relationships with reporters, podcast ho
 ### Speaking Opportunities (conferences, meetups, webinars and other events)
 
 **Developer Relations Speakers Bureau**
-The [Developer Relations Speakers Bureau](https://handbook.gitlab.com/handbook/marketing/developer-relations/developer-advocacy/speakers-bureau/) includes GitLab team members who participate in community/user meetups and deliver technical talks. Participation in the Developer Relations Speakers Bureau is distinct from media and analyst relations overseen by the Corporate Communications team. 
+The [Developer Relations Speakers Bureau](/handbook/marketing/developer-relations/developer-advocacy/speakers-bureau/) includes GitLab team members who participate in community/user meetups and deliver technical talks. Participation in the Developer Relations Speakers Bureau is distinct from media and analyst relations overseen by the Corporate Communications team. 
 
 **Invited to Speak**
 If you are asked to speak on behalf of GitLab at an event, on a webinar or at a Meetup, please contact the Corporate Communications and Developer Relations teams to ensure that the opportunity aligns with GitLab objectives and key narratives. *Inquiries should be initiated in the `#external-comms` Slack channel before you accept the speaking invitation.* Please allow 5 business days for evaluation. Opening an issue under Corporate Marketing to further collaborate on the opportunity may be requested.
@@ -79,20 +79,20 @@ If you are asked to speak on behalf of GitLab at an event, on a webinar or at a 
 If you are planning to submit an event CFP or request to participate as a speaker for a webinar or Meetup, please ensure the opportunity aligns with GitLab objectives and key narratives. If you are unsure, please reach out to the Corporate Communications and Developer Relations teams. If accepted to speak, please notify the Corporate Communications and Developer Relations teams via the `#cfp` Slack channel w/link to the accompanying issue and ensure the teams have 7-10 business days to review your final presentations.
 
 **Pursuing Speaking Opportunities Separate from GitLab**
-We know GitLab team members are multi-faceted, and there may be opportunities to speak publicly that don’t overlap with your role at GitLab. In these cases, it is okay to do that, assuming the opportunity will not be in conflict with GitLab’s [Code of Business Conduct & Ethics](https://handbook.gitlab.com/handbook/legal/gitlab-code-of-business-conduct-and-ethics/).
+We know GitLab team members are multi-faceted, and there may be opportunities to speak publicly that don’t overlap with your role at GitLab. In these cases, it is okay to do that, assuming the opportunity will not be in conflict with GitLab’s [Code of Business Conduct & Ethics](/handbook/legal/gitlab-code-of-business-conduct-and-ethics/).
 
 In these instances, it’s necessary to keep your role at GitLab and affiliation with the company separate from the presentation. Additionally, you should not use GitLab branding, resources, or time allocated to your work at GitLab to prepare or deliver your presentation. Please add `these views are my own` to your comments, presentation, or social media.
 
 If you’re considering a speaking opportunity, which includes participating in podcasts or developing your podcast, that could be perceived as being associated with GitLab even if it is not; please share the opportunity with your manager and #external-comms for review before accepting it to avoid any potential conflicts.
 
 **Event Booth Staffing**
-If you are staffing the GitLab booth at an in-person or virtual event, you are representing GitLab. Please follow the company’s [SAFE framework](https://handbook.gitlab.com/handbook/legal/safe-framework/) when engaging with booth visitors and event attendees.
+If you are staffing the GitLab booth at an in-person or virtual event, you are representing GitLab. Please follow the company’s [SAFE framework](/handbook/legal/safe-framework/) when engaging with booth visitors and event attendees.
 
 ### Research-oriented requests
 
 #### Analysts
 
-For analyst research-oriented requests, please consult the [Analyst Relations](https://handbook.gitlab.com/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/analyst-relations/) handbook section and direct questions to the #analyst-relations Slack channel.
+For analyst research-oriented requests, please consult the [Analyst Relations](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/analyst-relations/) handbook section and direct questions to the #analyst-relations Slack channel.
 
 #### Media
 
@@ -113,7 +113,7 @@ Please consult the Social Media team (@social on Slack)  for guidelines on repre
 ### Public GitLab Issues
 
 Posting in and discussions occurring within a public GitLab issue should follow the same guidelines as if you were posting about GitLab on social media, engaging with community members in a forum or conducting an interview with a media outlet. You are externally representing and communicating on behalf of GitLab.
-When representing and/or communicating externally on behalf of GitLab, please follow the [SAFE framework](https://handbook.gitlab.com/handbook/legal/safe-framework/). Being mindful of how you say things within open issues will help keep the company SAFE. We all represent the company.
+When representing and/or communicating externally on behalf of GitLab, please follow the [SAFE framework](/handbook/legal/safe-framework/). Being mindful of how you say things within open issues will help keep the company SAFE. We all represent the company.
 
 ### Partner Requests for External Communications Support
 
@@ -121,7 +121,7 @@ Any use of GitLab’s name, brand, or logo requires prior email approval by GitL
 
 **Partner-led Blog Posts:** GitLab is proud of its collaborative partner program, and we encourage partners to showcase their solutions, capabilities, and customer success stories through partner-led blogs. Please send all blog posts, including GitLab, to the GitLab Corporate Communications team at press@gitlab.com or #external-comms in Slack for review and approval.
 
-**Press Release Criteria and Approval Process:** Partners seeking to issue a press release that includes mention of their partnership with GitLab must meet the criteria outlined below and in the [GitLab Partner Portal](https://partners.gitlab.com/English/?ReturnUrl=%2fEnglish%2fPartner%2fhome.aspx).
+**Press Release Criteria and Approval Process:** Partners seeking to issue a press release that includes mention of their partnership with GitLab must meet the criteria outlined below and in the GitLab Partner Portal.
 
 * *Partner public relations participation criteria:*
 
@@ -135,4 +135,4 @@ Any use of GitLab’s name, brand, or logo requires prior email approval by GitL
 
 ### GitLab Vendor Reference Requests
 
-If you receive a vendor request for GitLab to act as a reference (case study, blog post, GitLab logo on their website, press release, etc.) for the product, service, and/or technology that your GitLab team is using, please refer to the [process](https://handbook.gitlab.com/handbook/marketing/brand-and-product-marketing/brand/brand-strategy/#vendor-reference-requests) outlined on the Brand Strategy team’s handbook. For partner-led blogs or press releases, please refer to the [partner PR request section](https://handbook.gitlab.com/handbook/marketing/corporate-communications/#partner-requests-for-press-release-support) of the handbook. Note that due to the volume of requests, GitLab rarely writes joint press releases.
+If you receive a vendor request for GitLab to act as a reference (case study, blog post, GitLab logo on their website, press release, etc.) for the product, service, and/or technology that your GitLab team is using, please refer to the [process](/handbook/marketing/brand-and-product-marketing/brand/brand-strategy/#vendor-reference-requests) outlined on the Brand Strategy team’s handbook. For partner-led blogs or press releases, please refer to the [partner PR request section](/handbook/marketing/corporate-communications/#partner-requests-for-press-release-support) of the handbook. Note that due to the volume of requests, GitLab rarely writes joint press releases.
