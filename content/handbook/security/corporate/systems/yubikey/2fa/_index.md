@@ -37,11 +37,11 @@ When prompted to enable 2FA in the future, simply tap your key when prompted wit
 
 If the YubiKey is not working for that application, try using Touch ID, and then fall back to using 1Password to scan the QR code to save the one time password (OTP) to the appropriate record in your 1Password vault.
 
-<img src="../images/yubikey-passkey-1password.png" alt="YubiKey Models" style="border: 1px #888 solid; padding: 3px;" /><br />
+<img src="/images/security/yubikey/yubikey-passkey-1password.png" alt="YubiKey Models" style="border: 1px #888 solid; padding: 3px;" /><br />
 
-<img src="../images/yubikey-passkey-step1.png" alt="YubiKey Models" style="border: 1px #888 solid; padding: 3px;" /><br />
+<img src="/images/security/yubikey/yubikey-passkey-step1.png" alt="YubiKey Models" style="border: 1px #888 solid; padding: 3px;" /><br />
 
-<img src="../images/yubikey-passkey-step2.png" alt="YubiKey Models" style="border: 1px #888 solid; padding: 3px;" /><br />
+<img src="/images/security/yubikey/yubikey-passkey-step2.png" alt="YubiKey Models" style="border: 1px #888 solid; padding: 3px;" /><br />
 
 ### Using YubiKey on Mobile Devices
 
@@ -75,11 +75,11 @@ Each YubiKey is a piece of black plastic with an internal circuit board that exp
 
 You can insert it into *any* port. It is recommended to choose one that you do not use regularly for a power cord, monitor cord, or docking station cable.
 
-<img src="../images/yubikey-models.jpg" alt="YubiKey Models" style="border: 1px #888 solid; padding: 3px;" /><br />
+<img src="./images/security/yubikey/yubikey-models.jpg" alt="YubiKey Models" style="border: 1px #888 solid; padding: 3px;" /><br />
 
-<img src="../images/yubikey-nano-port.jpg" alt="YubiKey Nano Port" style="border: 1px #888 solid; padding: 3px;" /><br />
+<img src="/images/security/yubikey/yubikey-nano-port.jpg" alt="YubiKey Nano Port" style="border: 1px #888 solid; padding: 3px;" /><br />
 
-<img src="../images/yubikey-nfc-port.jpg" alt="YubiKey NFC Port" style="border: 1px #888 solid; padding: 3px;" /><br />
+<img src="/images/security/yubikey/yubikey-nfc-port.jpg" alt="YubiKey NFC Port" style="border: 1px #888 solid; padding: 3px;" /><br />
 
 ### WebAuthn Authentication
 
@@ -89,7 +89,7 @@ When you are prompted for your passkey/2FA/Touch ID, you simply rest your finger
 
 Simpler explanation? The oversimplified analogy is that it's similar in concept to SSH key public and private key pairs that are used when you authenticate via SSH (or Git).
 
-<img src="../images/yubikey-nano-touch.jpg" alt="YubiKey Nano Port" style="border: 1px #888 solid; padding: 3px;" /><br />
+<img src="/images/security/yubikey/yubikey-nano-touch.jpg" alt="YubiKey Nano Port" style="border: 1px #888 solid; padding: 3px;" /><br />
 
 <img src="../images/yubikey-nfc-touch.jpg" alt="YubiKey NFC Port" style="border: 1px #888 solid; padding: 3px;" /><br />
 
