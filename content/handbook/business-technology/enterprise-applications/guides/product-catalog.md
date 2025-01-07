@@ -188,6 +188,7 @@ The required approvals will differ depending on whether it is a Professional Ser
 {{% /panel %}}
 
 ## Step 2: SKU Build & Test Generation Data
+
 **Owner:** Enterprise Applications
 <br>**Expected Timing:** 2-3 weeks
 
@@ -201,13 +202,15 @@ Enterprise Applications generates test data to be utilized during user acceptanc
 <br>**Expected Timing:** 1 week for test case generation and approvals (can be done in parallel with SKU Build).  2 weeks for testing and sign-off
 
 ### Step 3a. Create the UAT issue
+
 There is a UAT issue template in 
  [this directory] (https://gitlab.com/gitlab-com/business-technology/enterprise-apps/financeops/finance-systems/-/issues/new). Open an issue in and use the [TBD NAME] template.
 
  **UAT Type**: This section is to determine whether this user acceptance testing is for an existing SKU or a new SKU.
 
  **Pre-Testing Checklist**:
- - *Stakeholder & Timeline Alignment*
+
+- *Stakeholder & Timeline Alignment*
     - This section is used to outline the [timeline] for UAT testing
 - *Test Case Readiness*
     - This section is used to:
@@ -217,7 +220,9 @@ There is a UAT issue template in
     - This section to be completed by Enterprise Apps & Fulfillment
 
 **Testing DRIs**
+
 These teams are typically involved in SKU testing:
+
 - Deal Desk
 - Billing & AR
 - Fulfillment
@@ -226,17 +231,21 @@ These teams are typically involved in SKU testing:
 - Finance
 
 Each team will need to confirm:
+
 - The expected DRI for that team’s testing
 - The team can test during the testing availability dates for that team established in the timeline alignment above
 - That they approve the test cases to be tested
 
 **Test Scenarios** 
+
 <br> Use this section to link to the test cases
 
 **Bugs Identified**
+
 <br> This section will be used to track bugs during the user acceptance testing.
 
 **Final Testing Sign Off**
+
 <br>This section will be used to receive final sign off across the cross-functional teams involved in testing
 
 ### Step 3b: Estimate the UAT Timeline
@@ -293,14 +302,17 @@ Test cases will vary depending on the SKU. However, most test cases will likely 
 Not every single transaction scenario needs to be tested. Jesse Rabbits can help validate and add initial test cases.
 
 ### Step 3d: Assign Business Ownership and Get Timing & Test Case Approval
+
 Assign the folks outlined in the [Testing DRIs] section of the issue
 
 Each team will need to confirm:
+
 - The expected DRI for that team’s testing
 - The team can test during the testing availability dates for that team established in the timeline alignment above
 - That they approve the test cases to be tested
 
 ### Step 3e: Conduct UAT and Track Bugs/Issues
+
 On the approved timing dates, the outlined [Testing DRIs] will conduct the test cases from the approved test cases
 
 Testing DRIs will use the UAT issue to report any buys or issues identified. Those bugs & issues will be tracked in the [Bugs Identified] section of the issue
@@ -308,12 +320,14 @@ Testing DRIs will use the UAT issue to report any buys or issues identified. Tho
 Most bug resolution will be executed between the Testing DRI and Enterprise Applications.
 
 ### Step 3f: Complete UAT and Cross Functional Approvals
+
 All [Testing DRIs] need to give their final sign-off and approval in the issue. 
 
 Once completed, UAT is can be considered done
 
 ## Step 4: SKU Deployment to Enterprise Applications
-**Owner:** Enterpris Applications
+
+**Owner:** Enterprise Applications
 <br>**Expected Timing:** 2-3 days
 
 Enterprise Applications will deploy the SKU to production Enterprise Applications
@@ -361,7 +375,7 @@ It is the Business Sponsor's responsibility to provide information and obtain re
 **When is the SKU expected to be retired**
 
 - Provide a specific date of when the new SKU is expected to be retired.
-- Please note that helps with intake and prioritization of the request and does not necessarily mean the SKU will be ready for sale by this date
+- Please note that helps with intake and prioritization of the request and does not necessarily mean the SKU will be ready for sale by this date.
 
 ### Step 2. Stakeholder Approval for SKU Retiring
 
