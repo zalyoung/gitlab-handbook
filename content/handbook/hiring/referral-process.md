@@ -20,14 +20,14 @@ To endorse a candidate, check who the Recruiter is on the [Internal Job Board](h
 - Please provide a description of how you know the candidate and why you think they  are aligned with the role.
 - Confirmation that the person knows you are endorsing them. 
 
-A Referral is **not**:
+A Referral is **not**
 
 - Someone the Talent Acquisition Team has already sourced, screened, or been in contact with for the same requisition or job family. If you have questions about whether or not someone is already active in an interview process, please reach out to TA in the #talent-acquisition Slack channel.
 - Someone you do not know and would not be able to speak about confidently.
 - Someone who applied via a unique link you shared from Greenhouse on a social site.
 - A former (or “Boomerang”) Team Member.
 - Contract or temporary roles, including Internships, are not eligible for referral bonuses.
-  - However, if the Intern is converted to a Team Member for the same/similar role, then the referring Team Member will receive a referral bonus per the [referral bonus guidelines](https://handbook.gitlab.com/handbook/total-rewards/incentives/#referral-bonuses) upon transitioning to the new employment status.
+  - However, if the Intern is converted to a Team Member for the same/similar role, then the referring Team Member will receive a referral bonus per the [referral bonus guidelines](/handbook/total-rewards/incentives/#referral-bonuses) upon transitioning to the new employment status.
 
 #### Expectations of Referrer
 
@@ -37,7 +37,7 @@ A Referral is **not**:
     - If the country is not listed or is marked as Not Open for Hiring, we unfortunately will not be able to move forward. 
 3. Please remember that GitLab does not offer any form of work or study sponsorship anywhere in the world other than support for highly skilled candidates in certain countries, where a candidate is already based in that country. We also do not offer any form of support to transfer an existing work permit. Please refer to the Visas handbook page and DM the recruiter if any clarification is needed.
 4. Inform the candidate you are referring them, and receive their approval. 
-5. Refer the candidate [through Greenhouse](https://handbook.gitlab.com/handbook/hiring/referral-process/#submitting-a-referral-in-greenhouse) with a detailed referral description and please complete all mandatory fields and provide as much information as possible about how you know the candidate and a comprehensive outline of why they are qualified for the role. 
+5. Refer the candidate [through Greenhouse](/handbook/hiring/referral-process#submitting-a-referral-in-greenhouse) with a detailed referral description and please complete all mandatory fields and provide as much information as possible about how you know the candidate and a comprehensive outline of why they are qualified for the role. 
     - If the candidate is interested in more than one open role, please refer them to the position they are most interested in and note the others they’re open to.
 6. Note: If this person has already applied and their application has been reviewed and progressed by TA, this is considered an endorsement.
 
@@ -51,7 +51,7 @@ A Referral is **not**:
     - While the Social media field is not required, we highly encourage that the referral’s LinkedIn URL is provided.
 3. Click `Add this referral` and you’ll see the referral in the `My Referrals` section of your dashboard. 
 
-##### Things to Note:
+##### Things to Note
 
 - A referral must be submitted to a specific requisition - general referrals are not accepted.
 - If you see CURRENT TEAM MEMBERS ONLY - before a requisition, please note that the requisition is for Internal Team Members only; please do not submit a referral.
@@ -109,17 +109,17 @@ Although we place special emphasis on Referrals, we treat Referral interviews th
   
 #### Referral Bonus Eligibility
 
-All GitLab team members are eligible for the [Referral Bonus](https://handbook.gitlab.com/handbook/total-rewards/incentives/#referral-bonuses), except in [certain circumstances](https://handbook.gitlab.com/handbook/total-rewards/incentives/#exceptions).
+All GitLab team members are eligible for the [Referral Bonus](/handbook/total-rewards/incentives/#referral-bonuses), except in [certain circumstances](https://handbook.gitlab.com/handbook/total-rewards/incentives/#exceptions).
 
 #### Referral Bonus Payout and Processing
 
-For details regarding the Referral Bonus Payout, please visit [this page](https://handbook.gitlab.com/handbook/total-rewards/incentives/#referral-bonuses).
+For details regarding the Referral Bonus Payout, please visit [this page](/handbook/total-rewards/incentives/#referral-bonuses).
 
-For process instructions on how to process referrals, please visit [the Referral Operations page](https://handbook.gitlab.com/handbook/hiring/referral-operations/).
+For process instructions on how to process referrals, please visit [the Referral Operations page](/handbook/hiring/referral-operations/).
 
 For any additional questions, please post in the talent-acquisition Slack channel.
 
 #### Cold LinkedIn Outreach 
 
 - If someone you have not worked with reaches out requesting to be referred for an open role, you can respond with the message below. Please adjust the order and content to reflect your own style and tone as needed:
-  - _“Thank you for your interest in GitLab. Unfortunately, I cannot refer you for the position as we have not had a chance to work together. To ensure we maintain an inclusive (https://about.gitlab.com/company/culture/inclusion/) recruiting process, I cannot influence your application. We would prefer you apply for the position you have in mind directly via our Jobs page (https://about.gitlab.com/jobs/). This will ensure the right GitLab team member reviews your profile!"_
+  - *“Thank you for your interest in GitLab. Unfortunately, I cannot refer you for the position as we have not had a chance to work together. To ensure we maintain an inclusive (https://about.gitlab.com/company/culture/inclusion/) recruiting process, I cannot influence your application. We would prefer you apply for the position you have in mind directly via our Jobs page (https://about.gitlab.com/jobs/). This will ensure the right GitLab team member reviews your profile!"*
