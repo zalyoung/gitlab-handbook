@@ -111,7 +111,16 @@ It is necessary to keep your role at GitLab and your affiliation with the compan
 ### Public GitLab Issues
 
 Posting in and discussions occurring within a public GitLab issue should follow the same guidelines as if you were posting about GitLab on social media, engaging with community members in a forum or conducting an interview with a media outlet. You are externally representing and communicating on behalf of GitLab.
+
 When representing and/or communicating externally on behalf of GitLab, please follow the SAFE framework. Being mindful of how you say things within open issues will help keep the company SAFE. We all represent the company.
+
+### Sharing Media Coverage
+
+Please follow the guidelines for using third-party IP in external materials outlined in the Legal and Corporate Affairs handbook page.
+
+### Requests for External Announcements
+
+Please reach out via `#external-comms` in Slack if you have a request.
 
 ### Partner Requests for External Communications Support
 
