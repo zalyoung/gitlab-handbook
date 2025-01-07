@@ -13,6 +13,13 @@ The voice in KB articles should be concise, direct and precise. Since many users
 
 Follow the [Documentation Style Guide](https://docs.gitlab.com/ee/development/documentation/styleguide) and use the [recommended word list](https://docs.gitlab.com/ee/development/documentation/styleguide/word_list.html). The important thing is that we have clear information for the customer following a standard template that, over time, users will be accustomed to navigating.
 
+### File naming
+
+File name should be similar to the title of the article. Follow the conventions in the [structure guide](https://docs.gitlab.com/ee/development/documentation/site_architecture/folder_structure.html#work-with-directories-and-files). Specifically:
+
+- Do not use special characters and spaces, or capital letters in file names, directory names, branch names, and anything that generates a path. This will break things when submitting the article to the Support Super Form for Zendesk.
+- When creating or renaming a file or directory and it has more than one word in its name, use underscores (_) instead of spaces or dashes.
+
 ### Title
 
 This is the title once added to Zendesk. This heading must be changed to properly integrate with the deployment.
@@ -68,12 +75,10 @@ The solution section clearly lists the steps a user must follow to resolve the i
    1. Connect to database: `sudo gitlab-psql connect`
    1. Run:
 
-   ```pgsql
-
-  --- comment: explain what complicated command does if not obvious
-  <complicated command>
-  
-   ```
+```pgsql
+--- comment: explain what complicated command does if not obvious
+<complicated command>
+```
 
 - For different environments, list commands as sub-bullets
   - Linux: `<command>`
