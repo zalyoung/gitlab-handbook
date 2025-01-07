@@ -7,7 +7,7 @@ twitter_site: '@gitlab'
 twitter_creator: '@gitlab'
 ---
 
-# Welcome to the Corporate Communications Handbook
+## Welcome to the Corporate Communications Handbook
 
 ## Mission Statement
 
