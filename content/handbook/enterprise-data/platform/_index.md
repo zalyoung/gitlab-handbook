@@ -716,6 +716,13 @@ No dbt models exist for this data and so it may be the case that the data needs 
 - Data is stored in different schemas based on the source
 - User access can be controlled by schema and tables
 
+##### Snowflake Data Share
+
+Snowflake data sharing enables sharing various Snowflake objects like databases, tables, secure views, and a couple more from one Snowflake account to another. Snowflake shares can be both Inbound and outbound. Inbound share, which is being used at Gitlab, is for accessing third-party data sources like ZoomInfo and Zuora Revenue; the mechanism followed here is direct share, where data providers share specific database objects to our Snowflake account.
+Outbound sharing is when we want to share our data with a third party. This involves creating an outbound share of a snowflake object in their account and granting access to the snowflake object (table, view, database, etc.) that needs to be shared to an external account using either a web interface or SQL.
+
+Snowflake Data Shares can be seen as an extension of the `raw` layer, but sharded (and) in different accounts. We don't see Snowflake Data Shares as a source from which data needs to be copied, but rather we connect directly to Snowflake Data Shares as we do to the `raw` layer (i.e., with dbt). This approach helps avoid creating extra processes and makes the pipeline more efficient.
+
 #### Prep
 
 This is the first layer of verification and transformation in the warehouse, but is not yet ready for general business use. This database should not be used in Tableau.
