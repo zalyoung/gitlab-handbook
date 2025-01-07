@@ -60,5 +60,5 @@ Dedicated IP's are listed below for reference by Security teams or incident resp
 
 ## System Owner and Support
 
-- DRI: `@adamhuss`
+- DRI: `@cshankgitlab`
 - `#security-corpsec` Slack channel

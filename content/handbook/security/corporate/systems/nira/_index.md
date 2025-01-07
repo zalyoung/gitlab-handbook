@@ -17,7 +17,7 @@ We chose Nira because of the easy to navigate interface, alerting mechanisms, fl
 
 ### System Owner
 
-- DRI: `@adamhuss`
+- DRI: `@jbisutti-gl`
 - `#security-corpsec` Slack channel
 
 #### Access Request
