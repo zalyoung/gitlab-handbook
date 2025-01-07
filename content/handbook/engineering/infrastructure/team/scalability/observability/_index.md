@@ -54,7 +54,7 @@ We recognize the need to provide technical documentation for teams using our obs
 Historically, we've provided reference documentation within the projects we own or contribute to.
 As these projects are scattered around, it is rather difficult to discover the various pieces of relevant documentation for our users.
 
-As we reshape our documentation in 2025, we follow along with the following idea and principles:
+As we reshape our documentation, we follow along with the following idea and principles:
 
 1. The [Infrastructure Observability Documentation Hub](https://gitlab-com.gitlab.io/gl-infra/observability/docs-hub/) is the entrypoint for any observability related documentation we provide.
 1. Carefully crafted documentation is a core product for the observability platform, not an afterthought.
