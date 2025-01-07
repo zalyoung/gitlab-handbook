@@ -9,39 +9,39 @@ Global Support Engineers track all of their work with customers in support
 tickets. As an ASE, you will likely need and want to use more than one tool for
 tracking and managing the work you do with your assigned accounts. Some work
 will fit well in support tickets, other work will not. Your customers will have
-opinions, maybe strong ones, about how, when and where they want to communicate
+opinions, maybe strong ones, about how, when, and where they want to communicate
 and work with you.
 
-On this page we are establishing a consistent set of practices for you to
-follow as you work with your ASE accounts, or anyone else's. The goals here are
-to help you to:
+On this page we establish a consistent set of practices for ASEs to
+follow while working with accounts. The goals here are
+to help ASEs to:
 
-- deliver exceptional service to each of your accounts by being receptive to
+- deliver exceptional service to each account by being receptive to
   their unique working styles and communication preferences
-- keep your work organized and prioritized
-- show what you've done as an ASE
-- support Sales in demonstrating the value of the ASE service both to potential
-  ASE accounts and to existing accounts (to win renewals)
+- keep their work organized and prioritized
+- highlight ASE progress and accomplishments
+- support Sales in demonstrating the value of the ASE service to prospective
+  and existing accounts
 - collaborate with others
-- make it easier for others to serve as your backup
+- make it easier for others to serve as backup for an ASE
 
 ## Tickets vs. issues
 
 Many ASE accounts have a [Customer Collaboration Project](/handbook/customer-success/csm/customer-collaboration-project/),
-and they may want to work with you through those projects. Which work should be
-done there, and which should be done in support tickets?
+and they might want to work with you through those projects. Which work should be
+done in the collaboration project, and which should be done in support tickets?
 
 - **Reactive Work**: Product and license problems and questions are best
-  tracked via support tickets
+  tracked in support tickets
 - **Proactive Work**:
   - Planning for architecture changes, migrations and upgrades is best managed
-    via issues (and epics)
+    in issues and epics
   - Discussion of best practices and how to structure workflows is best managed
-    via issues (and epics)
+    in issues and epics
 
 ### Proactive work
 
-If one of your accounts wants to work with you via their collaboration project:
+If one of your accounts wants to work with you through their collaboration project:
 
 1. In the [account-management group](https://gitlab.com/gitlab-com/account-management),
    create a scoped label for that account named `ASE Work::ACCOUNT`
@@ -59,9 +59,9 @@ If one of your accounts wants to work with you via their collaboration project:
 
 Many ASE accounts share an external Slack channel with GitLab, allowing GitLab
 team members to communicate with them in Slack. Because communicating in Slack
-is so quick, virtually the same as a live conversation, customers may want to
+is so quick, virtually the same as a live conversation, customers might want to
 work with you almost exclusively there. But Slack does not provide the
-structure, retention, organization, data or reporting that we need.
+structure, retention, organization, data, or reporting that we need.
 Conversations in Slack can be hard to find, and often lack the focus of a
 support ticket.
 
@@ -79,7 +79,7 @@ How should you use your account's external Slack channel?
 
 When you host a call with an assigned account in order to work on one or more
 of their support tickets, plan to create a
-[call summary](https://handbook.gitlab.com/handbook/support/workflows/customer_calls/#call-summary)
+[call summary](/handbook/support/workflows/customer_calls/#call-summary)
 in each of the tickets just as you would with any account.
 
 #### All other calls
