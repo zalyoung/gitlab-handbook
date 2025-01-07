@@ -342,7 +342,6 @@ hugolint:
       - new_broken_links.json
     reports:
       codequality:
-        - linkcheck.json
         - new_broken_links.json
 
 secret_detection:
