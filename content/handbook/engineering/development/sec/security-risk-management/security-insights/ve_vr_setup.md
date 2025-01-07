@@ -56,32 +56,42 @@ You should expect to see the 'Resolve with AI` button for any SAST vulnerability
 If you need assistance, please reach out in [#g_govern_threat_insights_eng_ai](https://gitlab.enterprise.slack.com/archives/C07KSUHD09E)
 
 ## Setup Guide for your Local Environment 
-Before setting up a runner, you must have set up the [GDK](https://gitlab.com/gitlab-org/gitlab-development-kit/-/blob/main/doc/index.md) for your machine, and you should add the `Security Reports` project to your local environment. Follow the following steps: 
+Before setting up a runner, you must have set up the [GDK](https://gitlab.com/gitlab-org/gitlab-development-kit/-/blob/main/doc/index.md) for your machine. You should also add the `Security Reports` project to your local environment by following these steps:
 
-1. Go to `http://gdk.test:3000/` 
+### Add Security Reports project
+1. Go to `http://gdk.test:3000/` in your browser
 2. Click on `New Project` > `Import Project` > `Repository by URL`
-3. To `Git repository URL` field, add `https://gitlab.com/gitlab-examples/security/security-reports.git`
-4. `Project Url`, add a namespace, e.g. `gitlab-org`
-5. To `Project slug` add `security-reports`
-6. Click on `Create project`
-
+3. In the `Git repository URL` field, enter `https://gitlab.com/gitlab-examples/security/security-reports.git`
+4. Under `Project Url`, add a namespace, (e.g. `gitlab-org`).
+5. For `Project slug` enter `security-reports`
+6. Click  `Create project`
 
 ### Setup Runner
 
-1. Go to `http://gdk.test:3000/gitlab-org/security-reports` 
-2. On the left sidebar, click on the `Search or go to...` button.
-3. Select `Admin Area`.
-4. On the left sidebar, select `CI/CD` > `Runners`.
-5. Select `New instance runner` > `Run untagged jobs` > `Create Runner`
-6. Select your Operating system
-7. Follow the instructions of `Step 1`
-8. Ensure that Docker is running
-9. Open your terminal, run `gdk start` and `gitlab-runner run`
-10. Click on `View runners`. Your runner should be shown, and should be `Online`.
-11. Go to `http://gdk.test:3000/gitlab-org/security-reports` 
-12. On the left sidebar, click on `Build` > `Pipelines`. The pipeline should be active. 
+1. Navigate to `http://gdk.test:3000/gitlab-org/security-reports` 
+2. On the left sidebar, click on the `Search or go to...` button and select `Admin Area`.
+3. In the Admin Area, on the left sidebar, select `CI/CD` > `Runners`.
+4. Select `New instance runner` > `Run untagged jobs` > `Create Runner`
+5. Choose your Operating system and follow the instructions of `Step 1`
+6. Ensure that Docker is running on your machine.
+7. Open your terminal, run `gdk start`. Once `gdk` is running, run the command `gitlab-runner run`
+8. Return to your browser, and click on `View runners`. Your runner should be shown in the list of runners, and show as `Online`.
+9. Navigate back to the `Security Reports` project at `http://gdk.test:3000/gitlab-org/security-reports` 
+10. On the left sidebar click on `Build` > `Pipelines`. The pipeline should now be active. 
 
-For more detailed steps, go to `https://gitlab.com/gitlab-org/gitlab-development-kit/blob/main/doc/howto/runner.md#set-up-a-runner` 
+For additional details or troubleshooting, consult the offical [runner setup guide](https://gitlab.com/gitlab-org/gitlab-development-kit/blob/main/doc/howto/runner.md#set-up-a-runner).
 
 ### Generate a EE License
+To display Vulnerability Reports in GitLab, you need an Enterprise Edition (EE) license. This license enables features exclusive to the EE tier. To generate an EE development license, follow these steps: 
+1. Request an EE developer license here (link)
+
+
+WIP
+1. Go to `http://gdk.test:3000/` and login as the `root` user
+2. On the left sidebar, at the bottom, select `Admin`.
+3. Select Settings > General.
+4. In the `Add License` area, add a license by either uploading the file or entering the key.
+Select the Terms of Service checkbox.
+Select Add license.
+
 
