@@ -66,7 +66,7 @@ The following Account Team Roles & Responsibilities Framework is an outcome of t
 
 ##### **Journey Stage: Pre-Sales & Alignment**
 
-| Activities | Tasks | CSMA | CSA | AE | RM | SA | PS | Suport | Executive Sponsor | Product and Engineering |
+| Activities | Tasks | CSMA | CSA | AE | RM | SA | PS | Support | Executive Sponsor | Product and Engineering |
 |-------|------|------|-----|----|----|----|------|----|-----|-----|
 | Qualification | Leverage MEDDPPICC to ensure opportunity is qualified. |I||DRI||C,I|||||
 | Technical Discovery | Continue the qualification of an opportunity coming from BDR/AE to understand whether there is a technical fit. |I||C,I||DRI|||||
@@ -89,7 +89,7 @@ The following Account Team Roles & Responsibilities Framework is an outcome of t
 
 ##### **Journey Stage: Onboard**
 
-| Activities | Tasks | CSMA | CSA | AE | RM | SA | PS | Suport | Executive Sponsor | Product and Engineering |
+| Activities | Tasks | CSMA | CSA | AE | RM | SA | PS | Support | Executive Sponsor | Product and Engineering |
 |-------|------|------|-----|----|----|----|------|----|-----|-----|
 | CSM Kickoff & Intro | Introduce the customer to their CSM; outline the onboarding process and tools. |DRI||C|I|I|I||I||
 | Technical Integration and Setup Support | Provide best practices on setting up GitLab (for example, architecture and deployment strategies) to fit customers' needs in line with our Documentation. |I||C|I|I|DR - If PS was not attached, the CSM / CSA is the DRI and is responsible with providing customers best practices on setting up GitLab in line with customer's success objectives||||
@@ -98,25 +98,25 @@ The following Account Team Roles & Responsibilities Framework is an outcome of t
 
 ##### **Journey Stage: Enable**
 
-| Activities | Tasks | CSMA | CSA | AE | RM | SA | PS | Suport | Executive Sponsor | Product and Engineering |
+| Activities | Tasks | CSMA | CSA | AE | RM | SA | PS | Support | Executive Sponsor | Product and Engineering |
 |-------|------|------|-----|----|----|----|------|----|-----|-----|
 | Use Case Enablement Workshops & Hands-on Trainings | Host workshops to enable and deepen understanding of relevant use cases for functionalities that customers have already purchased or have licenses for. Standard content is provided; for customised content, customers should work with Professional Services (PS). |DRI||I|I|I|||||
 | Measure Primary Use Case Adoption | Track and analyze the adoption rate of primary use cases. |DRI||I|I|I|||||
 
 ##### **Journey Stage: Expand**
 
-| Activities | Tasks | CSMA | CSA | AE | RM | SA | PS | Suport | Executive Sponsor | Product and Engineering |
+| Activities | Tasks | CSMA | CSA | AE | RM | SA | PS | Support | Executive Sponsor | Product and Engineering |
 |-------|------|------|-----|----|----|----|------|----|-----|-----|
 | Expansion Discovery | Identify and pursue upsell and cross-sell opportunities. |C||C|I|DRI|I||||
 | Account Health Checkups | Conduct regular assessments of account health to ensure ongoing customer success. |DRI||C|I|C|I||I||
 | Stakeholder Mapping and Engagement | Update and engage key stakeholders to maintain alignment and uncover new opportunities. |DRI||C|I|C|I||I||
 | Position co-create initiatives | Introduce the customer to the initiative. |DRI||I|I|C,I|I||I||
 | co-create Kickoff & Intro | Introduce the customer to the co-create team. |DRI||C|I|I|I||I||
-| Facilitating communication | Supporting communication between co-create team and the customer. |DRI - CSM here is DRI until kick-off and will only step in to help if the co-create team need additionnal support after kick-off (initiative is at risk)||C|I|I|I||I||
+| Facilitating communication | Supporting communication between co-create team and the customer. |DRI - CSM here is DRI until kick-off and will only step in to help if the co-create team need additional support after kick-off (initiative is at risk)||C|I|I|I||I||
 
 ##### **Journey Stage: Optimize & Renew**
 
-| Activities | Tasks | CSMA | CSA | AE | RM | SA | PS | Suport | Executive Sponsor | Product and Engineering |
+| Activities | Tasks | CSMA | CSA | AE | RM | SA | PS | Support | Executive Sponsor | Product and Engineering |
 |-------|------|------|-----|----|----|----|------|----|-----|-----|
 | Executive Business Review (EBR) | Conduct EBRs to review successes, challenges, and future plans. |DRI||C|I|C|I||C,I||
 | Renewal Discussions | Initiate early discussions about renewal, leveraging insights from the customer journey. |C||C|DRI|C|I||I||
