@@ -22,6 +22,7 @@ This team is responsible for global public relations (PR), social media, and exe
 ## What We Do
 
 The GitLab Corporate Communications team is responsible for the following activities and communications channels:
+
 * Media relations (print/broadcast/podcasts)
 * Media sponsorships
 * Contributed article placement
@@ -50,6 +51,7 @@ Speaking on behalf of GitLab via a public channel such as a media interview (in-
 Being a designated company spokesperson is a responsibility that should be taken with the utmost seriousness. 
 
 **Spokesperson Criteria:**
+
 * Subject matter expert
 * Business requirement for your expertise
 * Approved by Comms as a spokesperson
@@ -122,9 +124,11 @@ Any use of GitLab’s name, brand, or logo requires prior email approval by GitL
 **Press Release Criteria and Approval Process:** Partners seeking to issue a press release that includes mention of their partnership with GitLab must meet the criteria outlined below and in the [GitLab Partner Portal](https://partners.gitlab.com/English/?ReturnUrl=%2fEnglish%2fPartner%2fhome.aspx).
 
 * *Partner public relations participation criteria:*
+
   * A signed contract as a Select partner 
   * Minimum 10 joint customers and/or a strategic business plan
   * New partners: please reach out to your account representative for guidance.
+  
 * Note that GitLab requires up to 6 weeks of lead time to support external communications requests.
 * Please email your account representative for guidance on the approvals required and copy the GitLab Corporate Communications team at [press@gitlab.com](press@gitlab.com]).
 * GitLab account representatives: Any requests for public relations support requires approval from your executive sponsor, Nick Cayou. Please reach out via `#external-comms` in Slack if you have questions about this.
