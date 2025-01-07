@@ -43,15 +43,16 @@ done in the collaboration project, and which should be done in support tickets?
 
 If one of your accounts wants to work with you through their collaboration project:
 
-1. In the [account-management group](https://gitlab.com/gitlab-com/account-management),
-   create a scoped label for that account named `ASE Work::ACCOUNT`
-1. Subscribe to the label
+1. In the [Customer Collaboration Project](/handbook/customer-success/csm/customer-collaboration-project/)
+   create a label for that account named `ASE Work:ACCOUNT`. Note that is
+   **NOT** a scoped label.
+1. Subscribe to the label.
 1. Notify your customer contacts and your account team to apply that label to
-   any issue or epic in which they want you to contribute
-1. Consider creating an issue board in the `account-management` group using the
-   `ASE Work::` scoped labels to display one list of active items for each
-   account; you can even prioritize the items by dragging them up or down
-   within each list
+   any issue or epic in which they want you to contribute.
+1. Consider creating an issue board in the project that will show only items
+   with the `ASE Work:ACCOUNT` label. You could use the board to sort items
+   by priority, stage, or whatever other category makes sense for your work
+   with that account.
 
 ## Interactive work
 
@@ -104,10 +105,12 @@ In order to make the record of your work with each account readily available
 to the customers and the account team, use the account's
 [collaboration project](/handbook/customer-success/csm/customer-collaboration-project/):
 
-1. Create a subproject called `Assigned Support Engineer`
-1. Create a subproject under that called `Calls`
-1. In the `Calls` project, create an issue for the call:
+1. Create an issue for the call:
    1. Name it \<YYYY-MM-DD> Call: \<Purpose>
    1. Use the issue description to capture the notes
    1. Consider using tasks to capture action items
-   1. Apply the scoped label described under [proactive work](#proactive-work)
+   1. Apply the label described under [proactive work](#proactive-work)
+1. Consider creating an issue template as well, which would allow you to:
+   1. Include instructions for how to title the issue
+   1. Use the `/label` quick action to apply the correct label
+   1. Provide an agenda and notes template
