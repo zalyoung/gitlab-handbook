@@ -54,3 +54,34 @@ With the configuration in place, you should expect to see the `Explain with AI` 
 You should expect to see the 'Resolve with AI` button for any SAST vulnerability in the [high confidence CWE list](https://gitlab.com/gitlab-org/gitlab/-/blob/master/ee/app/models/vulnerabilities/finding.rb#L25-69). For example: [https://gitlab.com/gitlab-org/security-products/tests/webgoat.net/-/security/vulnerabilities/114941072](https://gitlab.com/gitlab-org/security-products/tests/webgoat.net/-/security/vulnerabilities/114941072)
 
 If you need assistance, please reach out in [#g_govern_threat_insights_eng_ai](https://gitlab.enterprise.slack.com/archives/C07KSUHD09E)
+
+## Setup Guide for your Local Environment 
+Before setting up a runner, you must have set up the [GDK](https://gitlab.com/gitlab-org/gitlab-development-kit/-/blob/main/doc/index.md) for your machine, and you should add the `Security Reports` project to your local environment. Follow the following steps: 
+
+1. Go to `http://gdk.test:3000/` 
+2. Click on `New Project` > `Import Project` > `Repository by URL`
+3. To `Git repository URL` field, add `https://gitlab.com/gitlab-examples/security/security-reports.git`
+4. `Project Url`, add a namespace, e.g. `gitlab-org`
+5. To `Project slug` add `security-reports`
+6. Click on `Create project`
+
+
+### Setup Runner
+
+1. Go to `http://gdk.test:3000/gitlab-org/security-reports` 
+2. On the left sidebar, click on the `Search or go to...` button.
+3. Select `Admin Area`.
+4. On the left sidebar, select `CI/CD` > `Runners`.
+5. Select `New instance runner` > `Run untagged jobs` > `Create Runner`
+6. Select your Operating system
+7. Follow the instructions of `Step 1`
+8. Ensure that Docker is running
+9. Open your terminal, run `gdk start` and `gitlab-runner run`
+10. Click on `View runners`. Your runner should be shown, and should be `Online`.
+11. Go to `http://gdk.test:3000/gitlab-org/security-reports` 
+12. On the left sidebar, click on `Build` > `Pipelines`. The pipeline should be active. 
+
+For more detailed steps, go to `https://gitlab.com/gitlab-org/gitlab-development-kit/blob/main/doc/howto/runner.md#set-up-a-runner` 
+
+### Generate a EE License
+
