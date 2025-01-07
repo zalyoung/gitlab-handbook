@@ -37,11 +37,11 @@ When prompted to enable 2FA in the future, simply tap your key when prompted wit
 
 If the YubiKey is not working for that application, try using Touch ID, and then fall back to using 1Password to scan the QR code to save the one time password (OTP) to the appropriate record in your 1Password vault.
 
-<img src="/images/security/corporate/systems/ubikey-passkey-1password.png" alt="YubiKey Models" style="border: 1px #888 solid; padding: 3px;" /><br />
+<img src="/images/security/corporate/systems/yubikey/yubikey-passkey-1password.png" alt="YubiKey Models" style="border: 1px #888 solid; padding: 3px;" /><br />
 
-<img src="/images/security/corporate/systems/yubikey-passkey-step1.png" alt="YubiKey Models" style="border: 1px #888 solid; padding: 3px;" /><br />
+<img src="/images/security/corporate/systems/yubikey/yubikey-passkey-step1.png" alt="YubiKey Models" style="border: 1px #888 solid; padding: 3px;" /><br />
 
-<img src="/images/security/corporate/systems/yubikey-passkey-step2.png" alt="YubiKey Models" style="border: 1px #888 solid; padding: 3px;" /><br />
+<img src="/images/security/corporate/systems/yubikey/yubikey-passkey-step2.png" alt="YubiKey Models" style="border: 1px #888 solid; padding: 3px;" /><br />
 
 ### Using YubiKey on Mobile Devices
 
