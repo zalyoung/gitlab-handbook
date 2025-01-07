@@ -34,6 +34,10 @@ To measure the MTTP subcomponents, the following metrics are used:
 These allows to decide whether we need to focus on speed or safety would have the
 biggest impact on further reducing MTTP.
 
+Plots tracking MTTP breakdown over time:
+
+<iframe src="https://gitlab-com.gitlab.io/gl-infra/software-delivery/delivery_dashboard/?tab=DeliveryMetrics"></iframe>
+
 ### Deployment SLO
 
 - **Target: 8 hours.**
