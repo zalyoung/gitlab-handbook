@@ -23,7 +23,7 @@ The  CSE (Associate) reports to the Manager/Senior Manager, CSE.
 
 #### Customer Success Engineer (Associate) Job Grade
 
-The Intermdiate CSE is a job grade [level 5](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
+The Associate CSE is a job grade [level 5](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
 
 #### Customer Success Engineer (Associate) Responsibilities
 
