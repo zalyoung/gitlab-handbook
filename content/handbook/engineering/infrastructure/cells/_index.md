@@ -396,16 +396,17 @@ Details:
 
 Exit Criteria:
 
-- Cell-Level Observability (Logs, Metrics, Alerts, Dashboard)
-- Integration with existing Incident Management tooling
-- Compliance with GitLab.com security standards
-- Regional and Zonal Disaster Recovery capabilities
-- Operational tooling independence from GitLab.com/dev.gitlab.org availability
-- Centralized WAF management for GitLab.com domain
-- Cell-level Application Rate Limits with synchronization
-- Least-privileged access implementation with SRE escalation path
-- Progressive rollout of Instrumentor changes across Cells with rollback support
-- Progressive deployment capabilities across Legacy Cell and Cells with rollback support
+- Cell-Level Observability (Logs, Metrics, Alerts, Dashboard).
+- Integration with existing Incident Management tooling.
+- Compliance with GitLab.com security standards.
+- Regional and Zonal Disaster Recovery capabilities.
+- Operational tooling independence from GitLab.com/dev.gitlab.org availability.
+- Centralized WAF management for GitLab.com domain.
+- Cell-level Application Rate Limits with synchronization.
+- Least-privileged access implementation with SRE escalation path.
+- Progressive rollout of Instrumentor changes across Cells with rollback support.
+- Progressive deployment capabilities across Legacy Cell and Cells with rollback support.
+- Suport for toggling Feature Flags across Legacy Cell and Cells.
 
 Dependencies:
 
