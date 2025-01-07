@@ -185,7 +185,7 @@ The process runs through [this smart campaign](https://engage-ab.marketo.com/?mu
 
 Starting in November 2022, teams within Marketo will transition to utilizing the [asset expiration feature](https://experienceleague.adobe.com/docs/marketo/using/product-docs/core-marketo-concepts/programs/working-with-programs/local-asset-expiration.html?lang=en#:~:text=Right%2Dclick%20on%20your%20desired,Choose%20an%20expiration%20date) added to the product in early 2022 as a way to declutter our expired landing pages and no longer relevant smart campaigns. Detailed instructions on this process can be found in our handbook on the [Campaigns and Programs](/handbook/marketing/marketing-operations/campaigns-and-programs/) page.
 
-Beginning in July of 2024, Marketo will now link to our Events Page (https://about.gitlab.com/events) for asset expirations. This will be the new Redirect instead of homepage. By utilizing asset expiration this allows us to avoid having to manually go in and update each LP no longer in use and have the page redirect to /events rather than the home page. Note: The fallback page is only used for unrecognized landing pages and whenever a landing page is unavailable. If you choose to not setup asset expiration and want a page available for longer you can do so and manually close with a redirect at a later time.
+Beginning in July of 2024, Marketo will now link to our Events Page (https://about.gitlab.com/events/) for asset expirations. This will be the new Redirect instead of homepage. By utilizing asset expiration this allows us to avoid having to manually go in and update each LP no longer in use and have the page redirect to /events rather than the home page. Note: The fallback page is only used for unrecognized landing pages and whenever a landing page is unavailable. If you choose to not setup asset expiration and want a page available for longer you can do so and manually close with a redirect at a later time.
 
 ### Product data in Marketo
 
@@ -520,9 +520,26 @@ Complete list of priority countries as found [here](https://gitlab.com/gitlab-co
 
 </details>
 
+<details><summary>[Education Sector](https://engage-ab.marketo.com/?munchkinId=194-VVC-221#/classic/SG1033A1)</summary>
+Documentation describing this segment can be found [here](https://docs.google.com/spreadsheets/d/1Q_TwMimeBOR3rJ8CK4EM6DJ9YWYO56bTLNYevCS8UA0/edit?gid=0#gid=0)
+
+- Students
+- Teachers
+- Faculty
+- Unrelated Faculty
+- Edu Domain
+
+</details>
+
 ### Snippets
 
-[Localized email footer](https://engage-ab.marketo.com/?munchkinId=194-VVC-221#/ds/snippet/15/overview/details) - This snippet can be applied to localized emails to automatically include the translated unsusbcribe language. The unsubscribe language will be localized if the recipient has a known `Preferred Language`. If they do not have a preferred language on file, the footer will be in English.
+[Localized email footer (unsubscribe language only)](https://engage-ab.marketo.com/?munchkinId=194-VVC-221#/ds/snippet/15/overview/details) - This snippet can be applied to localized emails to automatically include the translated unsubcribe language. The unsubscribe language will be localized if the recipient has a known `Preferred Language`. If they do not have a preferred language on file, the footer will be in English.
+
+[Localized footer, gray full footer - LOC-Full footer(gray)](https://engage-ab.marketo.com/?munchkinId=194-VVC-221#/ds/snippet/138/overview/details) - This is the full footer including the `View in Web Browser` and direct link to localized blogs. Use this on emails that have a gray footer.
+
+[Localized footer, charcoal full footer - Footer - LOC - Charcoal](https://engage-ab.marketo.com/?munchkinId=194-VVC-221#/ds/snippet/143/overview/details) - This is the full footer including the `View in Web Browser` and direct link to localized blogs. Use this on emails that have a charcoal footer.
+
+[Localized footer, blue full footer - Footer - LOC - Blue](https://engage-ab.marketo.com/?munchkinId=194-VVC-221#/ds/snippet/145/overview/details) - This is the full footer including the `View in Web Browser` and direct link to localized blogs. Use this on emails that have a blue footer.
 
 {{% details summary="How to use the localized email footer snippet" %}}
 To use the Localized email footer snippet in an email:
@@ -530,7 +547,7 @@ To use the Localized email footer snippet in an email:
 1. select the "Body Text 1 Column" module from the email modules template in the right sidebar. Drag this section below the existing unsubscribe language.
 1. Click on the generic copy, then click on the gear that appears. Note that there are two things you can select here - the copy and the module itself. Be sure to select the gear for the copy.
 1. Select `Replace with Snippet`, then select `Localized email footer` and click Save.
-1. You can then select the module with the existing unsubscribe language, click the gear, and click, `Delete`. You should only see the unsubscribe language once now.
+1. You can then select the module with the existing unsubscribe language, click the gear, and click, `Delete`. You should only see the unsubscribe language/footer once now.
 
 To test the snippet, click `Preview`, then select `View by: Segmentation`. Select "Language Preference", then the language you would like to preview. You will see that the unsubscribe language changes based on the language you select.
 {{% /details %}}
@@ -548,7 +565,7 @@ The instructions below are for MOps Admin users.
 1. Click on "HTML" to make your edits. Copy this code:
 `<a href="INSERT LINK TO CUSTOMER CASE STUDY" target="_blank"> <img src="INSERT LINK FROM DESIGN STUDIO" alt="ENTER NAME OF COMPANY logo" /></a>`
 1. Place it just before the `</div>` at the bottom of the html and replace the text in caps as instructed. The alt text should not be all caps. This will add the new logo to the end of the list. If you would like it in another location, place the code where you would like the logo to appear.
-1. After you have updated the code, click Apply. Once auto-save completes, you can close the snippet. Then, Approve the draft and select "Update all". "Update All" will add the snippet to all approved assets and all draft assets. It will not auto-approve draft assets. Details about the [No-Draft Snippet updates](https://nation.marketo.com/t5/knowledgebase/no-draft-snippet-limitations-and-troubleshooting/ta-p/253609) can be found in the Marketo documentation.
+1. After you have updated the code, click Apply. Once auto-save completes, you can close the snippet. Then, Approve the draft and select "Update all". "Update All" will add the snippet to all approved assets and all draft assets. It will not auto-approve draft assets. Details about the [No-Draft Snippet updates](https://nation.marketo.com/t5/knowledgebase/no-draft-snippet-limitations-and-troubleshooting/ta-p/300799) can be found in the Marketo documentation.
 {{% /details %}}
 
 ### Other Field Documentation and Definitions

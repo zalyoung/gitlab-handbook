@@ -17,7 +17,7 @@ Delegation is the assignment of responsibilities to another person for the purpo
 
 ### Considerations when delegating
 
-Before further diving into delegation, it's important for you as a leader to consider whether delegation is the right thing to do. In this [Situational Leadership Strategy](https://about.gitlab.com/blog/2021/11/19/situational-leadership-strategy/) article, GitLab's co-founder and CEO Sid Sijbrandij gives an overview of 4 leadership styles discussed in Situational Leadership Theory and the factors he considers when determining whether to delegate.
+Before further diving into delegation, it's important for you as a leader to consider whether delegation is the right thing to do. In this [Situational Leadership Strategy](https://about.gitlab.com/blog/2021/11/19/situational-leadership-strategy/) article, GitLab's co-founder Sid Sijbrandij gives an overview of 4 leadership styles discussed in Situational Leadership Theory and the factors he considers when determining whether to delegate.
 
 ### Benefits of Delegation
 
@@ -167,11 +167,11 @@ Micromanaging occurs when a manager assigns a task to a team member, but prevent
 
 Practice makes perfect.  It gets easier the more you do it!  Below are a few useful articles for managers regarding the importance of delegation.
 
-- [Managers Must Delegate Effectively to Develop Employees](https://www.shrm.org/resourcesandtools/hr-topics/organizational-and-employee-development/pages/delegateeffectively.aspx)
+- [Managers Must Delegate Effectively to Develop Employees](https://www.shrm.org/topics-tools/news/organizational-employee-development/managers-must-delegate-effectively-to-develop-employees)
 - [Why Aren't You Delegating](https://hbr.org/2012/07/why-arent-you-delegating)
 - [Management Tips: 10 Reasons To Delegate](https://www.bakercommunications.com/archive/apr13/management04013.html)
 - [The Benefits of Delegation and Why Most Leaders Under-Delegate](https://www.yourthoughtpartner.com/blog/the-benefits-of-delegation-and-why-most-leaders-under-delegate)
-- [How to Delegate Tasks Effectively and Why it is Important](https://www.meistertask.com/blog/delegate-tasks-effectively/)
+- [How to Delegate Tasks Effectively and Why it is Important](https://www.meistertask.com/blog/delegate-tasks-effectively)
 
 **Books to consider reading**
 

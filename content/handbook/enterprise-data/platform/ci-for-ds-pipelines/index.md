@@ -74,7 +74,7 @@ Within our public **[GitLab Data Science CI Example](https://gitlab.com/gitlab-d
 4. **Test** (optional)
    - **secret_detection**: [Pipeline secret detection](https://docs.gitlab.com/ee/user/application_security/secret_detection/) to scan for potential exposed secrets in your pipeline
 
-![CI Jobs](ci-pipelines.png)
+![CI Jobs](/images/enterprise-data/platform/ci-for-ds-pipelines/ci-pipelines.png)
 
 ### Training Setup
 
@@ -105,7 +105,7 @@ Let's take a detailed look at the repository (**Code -> Repository**):
    - Experiment Tracker: This will allow you to log your experiments in the native [Experiment Tracker](https://docs.gitlab.com/ee/user/project/ml/experiment_tracking/) (or MLFlow instance) and log the model artifacts to the [package registry](https://docs.gitlab.com/ee/user/packages/package_registry/).
       - Review the [MLflow Client Compatibility Instructions](https://docs.gitlab.com/ee/user/project/ml/experiment_tracking/mlflow_client.html) to set up the `MLFLOW_TRACKING_URI` and `MLFLOW_TRACKING_TOKEN` CI/CI in your project.
       - Create a project access token (**Settings -> Access Tokens -> Add New Token**) named `REPO_TOKEN` with a `Developer` role and the following scopes: `api, read_api, read_repository, write_repository`. Be sure to copy this token.
-          - ***Note***: Enabling group access tokens is a not available for SaaS Free accounts.  If using a Free account, you will need to fork the project into a personal (instead of a group) namespace ![Create Project Token](create_token.png)
+          - ***Note***: Enabling group access tokens is a not available for SaaS Free accounts.  If using a Free account, you will need to fork the project into a personal (instead of a group) namespace ![Create Project Token](/images/enterprise-data/platform/ci-for-ds-pipelines/create_token.png)
       - Create the following new CI Variables (**Settings -> CI/CD -> Variables -> Add New Variable**):
          - `MLFLOW_TRACKING_TOKEN`: For the value, enter the project access token value created above.
          - `MLFLOW_TRACKING_URI`: For the value, use the GitLab API MLFlow endpoint as outlined in the MLFlow instructions above. It should look something like: `https://gitlab.com/api/v4/projects/<your_project_id>/ml/mlflow`. Project ID can be found in **Settings -> General**
@@ -113,7 +113,7 @@ Let's take a detailed look at the repository (**Code -> Repository**):
    - Write Model Metrics to Merge Request
       - Create the following new CI/CD Variable (**Settings -> CI/CD -> Variables -> Add New Variable**):
          - `REPO_TOKEN`: For the value, enter the project access token value created above.
-         - ***Note:*** De-select the "Protect Variable" flag to enable experiment tracking on unprotected branches. Tick "Mask variable" to prevent the value from showing in the logs. ![Create CI Variables](create_ci_variables.png)
+         - ***Note:*** De-select the "Protect Variable" flag to enable experiment tracking on unprotected branches. Tick "Mask variable" to prevent the value from showing in the logs. ![Create CI Variables](/images/enterprise-data/platform/ci-for-ds-pipelines/create_ci_variables.png)
 1. Now, let's make some changes to activate our training pipeline:
 1. Create a new branch (**Code -> Branches -> New Branch**)
      - <img src="new_branch.png" width="500" alt="">
@@ -122,17 +122,17 @@ Let's take a detailed look at the repository (**Code -> Repository**):
      - The default value `saas-linux-small-amd64` will work for all account types.
 1. Edit **training_config.yaml**
      - Let's make a change so that we have something to commit. Change `n_trials` to a new value between `10` and `20`.
-     - For the commit message enter `train notebooks/training_example.ipynb`. This will tell the GitLab that you want to execute the training CI pipeline on the **training_example.ipynb** notebook found in the notebooks directory. Commit the change. ![Edit Config](edit_config.png)
+     - For the commit message enter `train notebooks/training_example.ipynb`. This will tell the GitLab that you want to execute the training CI pipeline on the **training_example.ipynb** notebook found in the notebooks directory. Commit the change. ![Edit Config](/images/enterprise-data/platform/ci-for-ds-pipelines/edit_config.png)
 1. Click "**Create merge request**". Make sure you are merging into your local fork and click "**Create merge request**" once again. This should activate the training CI pipeline for the newly created MR.
 1. Click on "**Pipelines**" and you should see the training pipeline running. Click into the pipeline to see which stage the pipeline is in.
-   - ***Note:*** If you did not set up the step above "Write Model Metrics to Merge Request", then the `publish-metrics-comment` job will fail. The pipeline will still pass with warnings ![Training Pipeline Jobs](training_pipeline_jobs.png)
+   - ***Note:*** If you did not set up the step above "Write Model Metrics to Merge Request", then the `publish-metrics-comment` job will fail. The pipeline will still pass with warnings ![Training Pipeline Jobs](/images/enterprise-data/platform/ci-for-ds-pipelines/training_pipeline_jobs.png)
 1. Once the pipeline has finished, you will see a new comment posted on the merge request that contains some model metrics from the run (assuming you set up Write Model Metrics to Merge Request).
    - <img src="model_metrics.png" width="700" alt="">
 1. Now let's look at the experiment run we just completed with our CI pipeline (**Analyze -> Model Experiments**)
    - Click on your experiment name.
    - You should see a new run logged from the CI Pipeline. Click into that run.
-   - Run details are displayed, including a link to the CI job, the merge request, various parameters and metrics, and model artifacts. ![Experiment Tracker](experiment.png)
-   - Click on "Artifacts". This will take you to the Package Registry, where all the artifacts associated with that particular model run are stored. You should see the .json model file, a .yaml configuration file, and a requirements.txt. These can be used later to deploy your model. ![Artifacts](artifacts.png)
+   - Run details are displayed, including a link to the CI job, the merge request, various parameters and metrics, and model artifacts. ![Experiment Tracker](/images/enterprise-data/platform/ci-for-ds-pipelines/experiment.png)
+   - Click on "Artifacts". This will take you to the Package Registry, where all the artifacts associated with that particular model run are stored. You should see the .json model file, a .yaml configuration file, and a requirements.txt. These can be used later to deploy your model. ![Artifacts](/images/enterprise-data/platform/ci-for-ds-pipelines/artifacts.png)
 1. Finally, let's look at the container that was used to train the model (**Deploy -> Container Registry**)
    - By default, the container `datascience-images` is used (this can be change this in [.gitlab-ci.yml](https://gitlab.com/gitlab-data/data-science-ci-example/-/blob/main/.gitlab-ci.yml) through the `DS_CONTAINER_IMAGE` optional input)
    - Click into `datascience-images` and you should see a new tag that was used to score the model in the merge requests. This tag was created by the CI pipeline, and each MR and model release will have it's own container tag.
@@ -151,7 +151,7 @@ Let's take a detailed look at the repository (**Code -> Repository**):
    - **publish-metrics-comment**: Write model performance metrics as a comment on the merge request. This is executed after a scoring run is performed through the commit message method.
    - **write-to-wiki**: Write model performance metrics and job details to the project wiki. The CI configuration it set up to only execute for scheduled jobs that use the `score-scheduled` job
 
-![CI Jobs](ci-pipelines.png)
+![CI Jobs](/images/enterprise-data/platform/ci-for-ds-pipelines/ci-pipelines.png)
 
 ### Scoring Setup
 
@@ -188,7 +188,7 @@ Let's take a detailed look at the repository (**Code -> Repository**):
    - For the commit message enter `score notebooks/scoring_example.ipynb`. This will tell the GitLab that you want to execute the `score-commit-activated`` CI pipeline on the **scoring_example.ipynb** notebook found in the notebooks directory. Commit the change.
    - Click "**Create merge request**". Make sure you are merging into your local fork and click "**Create merge request**" once again. This should activate the scoring CI pipeline for the newly created MR.
    - Click on "**Pipelines**" and you should see the scoring pipeline running. Click into the pipeline to see which stage the pipeline is in.
-   - **Note:** If you did not set up the step above "Write Model Metrics to Merge Request", then the `publish-metrics-comment` job will fail. The pipeline will still pass with warnings ![Scoring Pipeline Jobs](scoring_pipeline_jobs.png)
+   - **Note:** If you did not set up the step above "Write Model Metrics to Merge Request", then the `publish-metrics-comment` job will fail. The pipeline will still pass with warnings ![Scoring Pipeline Jobs](/images/enterprise-data/platform/ci-for-ds-pipelines/scoring_pipeline_jobs.png)
    - Once the pipeline has finished, you will see a new comment posted on the merge request that contains some model metrics from the run (assuming you set up Write Model Metrics to Merge Request). This is the same process you would have seen during training, except it is now writting out descriptives about the scored dataset.
 
 ## Model Deployment With CI/CD

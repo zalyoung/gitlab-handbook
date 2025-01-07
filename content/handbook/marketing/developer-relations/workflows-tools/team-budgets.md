@@ -4,7 +4,7 @@ title: "Developer Relations workflow: Team Budgets"
 
 ## <i class="fas fa-receipt" id="biz-tech-icons"></i> Team Budgets
 
-**We use [Allocadia](https://allocadia.com/) to manage team budgets.** Due to a limited number of seats being allocated to the Marketing team, only a limited number has access to the tool from the Developer Relations team (sign-in from Okta is required). They are responsible for coordinating with the Developer Relations team to make sure that forecasts are properly added to Allocadia.
+**We use [Allocadia](https://www.uptempo.io/allocadia/) to manage team budgets.** Due to a limited number of seats being allocated to the Marketing team, only a limited number has access to the tool from the Developer Relations team (sign-in from Okta is required). They are responsible for coordinating with the Developer Relations team to make sure that forecasts are properly added to Allocadia.
 
 **Quarterly Budget Planning Issues.** As each quarter begins, the Developer Relations team creates a [new issue](https://gitlab.com/gitlab-com/marketing/community-relations/community-operations/community-operations/-/issues/new) using the [`quarterly_budget_plan` issue template](https://gitlab.com/gitlab-com/marketing/community-relations/community-operations/community-operations/-/blob/main/.gitlab/issue_templates/quarterly_budget_plan.md) in the Community Ops project.
 

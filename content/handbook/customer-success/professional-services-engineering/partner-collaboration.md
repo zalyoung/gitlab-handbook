@@ -225,7 +225,7 @@ Invoices should be submitted in Coupa with the following details:
 - Hourly Rate
 - Total
 
-See Example
+[See Example](/handbook/customer-success/professional-services-engineering/examples/partner_invoice_mockup.md)
 
 There should be 1 invoice submitted each month for each partner, then have a line broken out for each project.
 If there is a need to have multiple invoices submitted each month, then approval would need to be obtain from the Operations Manager

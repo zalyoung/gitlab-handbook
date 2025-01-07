@@ -11,8 +11,8 @@ Token management is crucial in providing authentication and authorization within
 
 Automations for the `gitlab-org` group and projects under it can be split into three categories:
 
-* Automation for repository, packages, container registry within a project: a [project deploy token](https://docs.gitlab.com/ee/user/project/deploy_tokens) is sufficient.
-* Automation via API within a project: a [project access token](https://docs.gitlab.com/ee/user/project/settings/project_access_tokens) is sufficient.
+* Automation for repository, packages, container registry within a project: a [project deploy token](https://docs.gitlab.com/ee/user/project/deploy_tokens/) is sufficient.
+* Automation via API within a project: a [project access token](https://docs.gitlab.com/ee/user/project/settings/project_access_tokens/) is sufficient.
 * Automation via API within a group: a [group access token](https://docs.gitlab.com/ee/user/group/settings/group_access_tokens.html) is sufficient.
 
 These guidelines ensure consistency for Engineering automation using approved secure patterns aligned with [least privileged access principle](/handbook/security/security-and-technology-policies/access-management-policy/#least-privilege-reviews-for-access-requests).
@@ -30,7 +30,7 @@ It also increases the number of changes required if the token is revoked.
 
 ### Use project access tokens by default
 
-By default, and when possible, create a new [project access token](https://docs.gitlab.com/ee//user/project/settings/project_access_tokens) for any API automation, and follow these guidelines:
+By default, and when possible, create a new [project access token](https://docs.gitlab.com/ee//user/project/settings/project_access_tokens/) for any API automation, and follow these guidelines:
 
 * Create a suitable name for the access token. Keep in mind that this is also the name of the bot user created for the token.
 * Always set an expiration date for the token, even if this is for temporary automation.
@@ -40,7 +40,7 @@ Project access tokens have [a few known limitations](https://gitlab.com/gitlab-o
 
 ### Use a project deploy token for repository, packages, or container registry automation
 
-Create a new [project deploy token](https://docs.gitlab.com/ee/user/project/deploy_tokens) for repository, packages, or container registry automation.
+Create a new [project deploy token](https://docs.gitlab.com/ee/user/project/deploy_tokens/) for repository, packages, or container registry automation.
 
 Follow the same guidelines as for the project access tokens above.
 
@@ -55,14 +55,14 @@ that will be owned by a specific team.
 
 GitLab uses automation to streamline engineering processes, such as:
 
-* [Danger bot](https://docs.gitlab.com/ee/development/dangerbot) for merge request hygiene. We use the [Danger bot](https://gitlab.com/group_9970_bot1) group access token.
+* [Danger bot](https://docs.gitlab.com/ee/development/dangerbot/) for merge request hygiene. We use the [Danger bot](https://gitlab.com/group_9970_bot1) group access token.
 * [Triage ops](https://gitlab.com/gitlab-org/quality/triage-ops) for automated:
   * Scheduled reminders and reports of issues and merge requests. Requires a service account.
   * Real-time reaction to events on issues and merge requests. Requires a service account.
 * Allure test reports. We use the [End-to-end tests Allure report](https://gitlab.com/project_278964_bot5) project access token to post Allure test report on merge requests that run end-to-end tests against their Review App.
 * Asynchronous retrospective generation. Can use a project access tokens unless fetching confidential issues.
 * GitLab Runner releases. Requires a service account.
-* [Repository mirroring](https://docs.gitlab.com/ee/user/project/repository/mirror). Requires a service account.
+* [Repository mirroring](https://docs.gitlab.com/ee/user/project/repository/mirror/). Requires a service account.
 
 ## Current and potential GitLab.com service accounts
 

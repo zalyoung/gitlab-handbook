@@ -1,19 +1,18 @@
 ---
 title: Legal & Corporate Affairs ("LACA")
-description: Information regarding the Legal & Corporate Affairs Team
 ---
 
 ## Our Mission
 
-LACA team members leverage our versatile skill sets to drive positive outcomes for GitLab and our customers, enabling everyone to contribute.  Approachable and collaborative, we are trusted thought partners to our colleagues across GitLab, and facilitate efficient and informed decision making in all areas of the business.
+We leverage our versatile skill sets to drive positive outcomes for GitLab and our customers. Approachable and collaborative, LACA team members are trusted thought partners to our colleagues across GitLab, and facilitate efficient and informed decision making in all areas of the business.
 
 **In short: LACA – We’re your one phone call.**
 
-## Legal and Corporate Affairs Functional Groups
+## Legal & Corporate Affairs Functional Groups
 
 ### Commercial
 
-The [Commercial](/handbook/legal/commercial/) group supports GitLab’s go-to-market and procurement functions with knowledge and creativity in advising on contractual and regulatory matters to facilitate customer-centric results in accordance with the Company’s values.
+The [Commercial](https://handbook.gitlab.com/handbook/legal/commercial/) group supports GitLab’s go-to-market and procurement functions with knowledge and creativity in advising on contractual and regulatory matters to facilitate customer-centric results in accordance with the Company’s values.
 
 ### Corporate & Compliance
 
@@ -21,7 +20,7 @@ The [Corporate & Compliance](/handbook/legal/publiccompanyresources/) group driv
 
 ### Corporate Development
 
-The [Corporate Development](/handbook/acquisitions/) group conducts diligent and thorough analysis to strategically identify, evaluate and execute potential acquisitions to accelerate the product roadmap and advance the company's competitive position in the market.
+The [Corporate Development](/handbook/acquisitions/) group conducts diligent and thorough analysis to strategically identify, evaluate and execute potential acquisitions to accelerate the product roadmap and advance the company’s competitive position in the market.
 
 ### Employment
 
@@ -31,10 +30,6 @@ The [Employment](/handbook/legal/employment-law/) group provides thoughtful, pra
 
 The [ESG](/handbook/legal/esg/) group works cross-functionally to integrate ESG considerations, ESG regulatory compliance, and responsible business practices as part of GitLab’s overarching mission to make our customers successful.
 
-### Strategy and Legal Operations
-
-The [Strategy and Legal Operations](/handbook/legal/legalops/) group promotes continued process improvement such that LACA may be efficient and effective in its performance, including procurement of the most suitable tools and technology.
-
 ### Privacy and Intellectual Property
 
 The [Privacy](/handbook/legal/privacy/) [and Intellectual Property](/handbook/legal/product/) group enables fast-paced product development within applicable regulatory confines; privacy solutions so customers can confidently co-create in those products; and robust protection of Company IP.
@@ -42,6 +37,10 @@ The [Privacy](/handbook/legal/privacy/) [and Intellectual Property](/handbook/le
 ### Risk Management and Dispute Resolution
 
 The [Risk Management and Dispute Resolution](/handbook/legal/risk-management-dispute-resolution/) group directs GitLab’s unified, transparent and ethical approach to defending company interests while resolving disputes should they arise.
+
+### Strategy and Legal Operations
+
+The [Strategy and Legal Operations](/handbook/legal/legalops/) group promotes continued process improvement such that LACA may be efficient and effective in its performance, including procurement of the most suitable tools and technology.
 
 ## How to Reach Us
 

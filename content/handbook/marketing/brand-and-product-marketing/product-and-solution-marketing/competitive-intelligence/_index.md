@@ -22,7 +22,7 @@ The competitive intelligence team brings timely and insightful analysis of compe
 
 ## Comparison Assets - Externally-facing
 
-All our comparison assets - pages that compare other vendor products with GitLab are found in the **[DevOps Tools Landscape page](https://about.gitlab.com/devops-tools/)** and the **[DevOps Maturity Comparison chart](https://about.gitlab.com/why-gitlab/)**
+All our comparison assets - pages that compare other vendor products with GitLab are found in the **[DevOps Tools Landscape page](https://about.gitlab.com/why-gitlab/)** and the **[DevOps Maturity Comparison chart](https://about.gitlab.com/why-gitlab/)**
 
 These assets have two different purposes:
 

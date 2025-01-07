@@ -105,7 +105,7 @@ More information can be found below:
 - [Remote Allianz Benefit Guide](https://drive.google.com/file/d/1krO_RGt_H1_kPNgudHeuSIFjJohJuq-h/view)
 - [Allianz](https://drive.google.com/file/d/1hMw61FsriqRPfcFRQ-mzQsu6HF03IUFB/view)
 
-Team members in Denmark can also access the [public healthcare system](https://www.healthcaredenmark.dk/). This healthcare system covers all the team members and their family members.
+Team members in Denmark can also access the [public healthcare system](https://healthcaredenmark.dk/). This healthcare system covers all the team members and their family members.
 
 Team members can expense up to $250 for eye examination and glasses if they require corrective eyeware to work at a computer screen for extended periods of time. (Login required to see [policy](https://support.remote.com/hc/en-us/articles/20050865403149-Screen-Work-Eye-Examination))
 
@@ -245,7 +245,8 @@ To the top of that amount, 24,26% taxes should be added.
 
 ### Life Insurance
 
-Mandatory TGL life insurance is provided via Bliwa Livförsäkring. Lump sum benefit: the basic amount is SEK 285,600 (6 x Price Base Amount – PBA*) upon death before age 55, or after age 55 if there are children under age 17. It decreases for death above age 55, to 1 times PBA between age 64 and age 65.
+All Sweden-based team members will be automatically covered by group life insurance.
+Lump sum benefit: 352,800 SEK for deaths before age 55 (or later if there are children under 17). This benefit decreases with age and is tax-free.
 
 ### Remote - Sweden Statutory Leave Policies
 

@@ -85,10 +85,10 @@ Our Gente members are proud to be contributing externally to the following chari
 Learn more about the Gente community
 
 - [Renaming TMRG issue](https://gitlab.com/gitlab-com/latinx-tmrg/-/issues/40)
-- [Why Latinx?](https://www.merriam-webster.com/words-at-play/word-history-latinx)
+- [Why Latinx?](https://www.merriam-webster.com/wordplay/word-history-latinx)
 - [LTX Fest On-Demand](https://my.ltxconnect.org/ltx-fest-on-demand/) – The largest gathering of Latinx folks in tech, advocacy, and entrepreneurship.
 - Contribute to GitLab by [translating GitLab](https://translate.gitlab.com/) the product to promote inclusivity.
-- [LinkedIn Learning - Leadership in Tech](https://www.linkedin.com/learning/leadership-in-tech/) – Erica Lockheimer successfully rose through the ranks at LinkedIn to become a VP of engineering. In this course, she interviews other leaders—all of whom inspired her own professional journey—about what it takes to carve out a lasting career in the lively, challenging world of tech.
+- [LinkedIn Learning - Leadership in Tech](https://www.linkedin.com/learning/leadership-in-tech) – Erica Lockheimer successfully rose through the ranks at LinkedIn to become a VP of engineering. In this course, she interviews other leaders—all of whom inspired her own professional journey—about what it takes to carve out a lasting career in the lively, challenging world of tech.
 
 ## Learning & Development Resources
 

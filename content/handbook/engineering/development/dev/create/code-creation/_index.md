@@ -15,7 +15,7 @@ Develop cutting-edge AI-powered tools that enhance the efficiency and creativity
 
 One of the main features we work on in the Create:Code Creation group is Code Suggestions. Here is some quick information to get you started with Code Suggestions.
 
-- [Code Suggestions Quick Start](https://docs.gitlab.com/ee/user/gitlab_duo/quick_start) - GitLab Documentation
+- [Code Suggestions Quick Start](https://docs.gitlab.com/ee/user/gitlab_duo/quick_start/) - GitLab Documentation
 - [Difference betwen Code Completion and Code Generation](https://youtu.be/9dsyqMt9yg4) - YouTube
 - [Code Suggestion Documentation](https://docs.gitlab.com/ee/user/project/repository/code_suggestions/) - GitLab Documentation
 

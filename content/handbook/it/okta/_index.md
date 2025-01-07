@@ -52,7 +52,7 @@ GitLab requires all team members to use either Biometrics or YubiKey as your [Ok
 1. You will then presented with a password verification and passkey verification prompt.
 1. After pressing `Set up` twice, a prompt from your web browser will appear, or a [1Password prompt](#adding-a-passkey-to-1password) may appear. Click the "YubiKey" icon to bypass if it appears and you wish to save it in iCloud Keychain (recommended) or the local Chrome browser.
 
-<img src="/handbook/it/okta/images/1password-passkey.png" alt="1Password USB Key" width="300">
+<img src="/images/it/okta/1password-passkey.png" alt="1Password USB Key" width="300">
 
 1. By default, you will be prompted to save it in your iCloud KeyChain.
 
@@ -64,11 +64,11 @@ GitLab requires all team members to use either Biometrics or YubiKey as your [Ok
 
 1. For Security Key, choose "Use a phone, tablet, or security key" and a QR code will apepar. You can then tap the security key to save the passkey.
 
-    <img src="/handbook/it/okta/images/Okta-Add-SecurityKey-1.png" alt="Okta Security Key #1" width="300"/>
+    <img src="/images/it/okta/Okta-Add-SecurityKey-1.png" alt="Okta Security Key #1" width="300"/>
 
 1. You may be prompted for a PIN, and then finally click `Allow`.
 
-    <img src="/handbook/it/okta/images/Okta-Add-SecurityKey-2.png" alt="Okta Security Key #2" width="300"/>
+    <img src="/images/it/okta/Okta-Add-SecurityKey-2.png" alt="Okta Security Key #2" width="300"/>
 
 1. We recommend enrolling both Chrome and Safari for redundancy on your computer, as well as a mobile device. Each browser needs to be enrolled separately, unless you use iCloud Keychain. Note that separate Chrome browser profiles also need to be enrolled separately. You should enroll one computer browser (for example, Chrome), then add the [mobile device](#add-biometric-authentication-to-okta-for-mobile-devices-accessing-okta-apps-on-your-phone)), then if required add the other computer [browser](#i-want-to-login-or-add-a-new-computer-to-okta-and-i-have-a-mobile-device-enrolled) (for example, Safari).
 1. If clearing your browser cache, please be careful as you can delete your passkey.
@@ -87,7 +87,7 @@ We have also prepared Introductory Videos on [Configuring Applications](https://
 1. After pressing `Enroll`, a prompt from your web browser will appear.
 1. From 1Password, you'll see a pop up notification from 1Password with the options "New Item" or "Update Existing". Select "Update Existing" and your Okta account to continue.
 
-    <img src="/handbook/it/okta/images/1password-passkey.png" alt="Okta Passkey Key #1" width="300"/>
+    <img src="/images/it/okta/1password-passkey.png" alt="Okta Passkey Key #1" width="300"/>
 
 ### Add biometric authentication to Okta for mobile devices (accessing Okta apps on your phone)
 
@@ -95,15 +95,15 @@ These steps are for an iPhone, and may be slightly different for Android.  If yo
 
 1. On the computer, if using Chrome, please check that it is on the latest version by visiting the URL `chrome://settings/help` - if a new version is available, please use the `Relaunch` button to restart the browser.
 1. On your Mac, please check under "System Settings"->"Privacy & Security"->"Bluetooth" and make sure that Google Chrome has Bluetooth access enabled.
-    <img src="/handbook/it/okta/images/Okta-Mac-Bluetooth-1.png" alt="Okta Mac Bluetooth-1" width="300"/>
-    <img src="/handbook/it/okta/images/Okta-Mac-Bluetooth-2.png" alt="Okta Mac Bluetooth-2" width="300"/>
+    <img src="/images/it/okta/Okta-Mac-Bluetooth-1.png" alt="Okta Mac Bluetooth-1" width="300"/>
+    <img src="/images/it/okta/Okta-Mac-Bluetooth-2.png" alt="Okta Mac Bluetooth-2" width="300"/>
 1. On the computer, login into your [Okta](https://gitlab.okta.com).
 1. On the computer, click on your name on the top right to open the drop down menu (similar to above) and navigate to "Settings".
 1. On the computer, under Security Methods click "Set up another" beside Security Key or Biometric. This will take you to a setup authentication screen, click "Verify". Provide Touch ID.
 1. On the computer, click "Set up", then click "Set up" again on the next screen.
 1. On the computer, ignore all popups from the 1Password browser extension as it could interfere with the process of transferring the passkey. Click the "Yubikey" icon to bypass if it appears.
 
-<img src="/handbook/it/okta/images/1password-passkey.png" alt="1Password USB Key" width="300">
+<img src="/images/it/okta/1password-passkey.png" alt="1Password USB Key" width="300">
 
 1. On the computer, the next step depends on the browser and version.
     1. In Chrome and Safari you will see a pop up asking to "Use Touch ID to sign in?" Click "Cancel" to continue setting up your mobile device.
@@ -160,44 +160,44 @@ Okta Device Trust ensures that team members are acccessing Okta applications fro
 ### Device Trust Setup on macOS
 
 1. Open the Okta Verify application on macOS via Spotlight by selecting the magnifying glass in the menu bar (top right corner of display). Another method to open Spotlight is to use `cmd + Space`
-![Spotlight Search](/handbook/it/okta/images/spotlight.png)
+![Spotlight Search](/images/it/okta/spotlight.png)
 
 1. Search for `Okta Verify`
-![Okta Verify Search](/handbook/it/okta/images/okta-verify-search.png)
+![Okta Verify Search](/images/it/okta/okta-verify-search.png)
 
 1. Select `Get Started`
-![Get Started](/handbook/it/okta/images/get-started.png)
+![Get Started](/images/it/okta/get-started.png)
 
 1. Select `Next`
-![Get Started-Next](/handbook/it/okta/images/get-started-2.png)
+![Get Started-Next](/images/it/okta/get-started-2.png)
 
 1. Confirm `gitlab.okta.com` is populated for Sign-in URL and then select `Next`
-![Sign-in URL](/handbook/it/okta/images/signin-url.jpg)
+![Sign-in URL](/images/it/okta/signin-url.jpg)
 
 1. A browser window will open to gitlab.okta.com to confirm your identity
-![Identity](/handbook/it/okta/images/identity.png)
+![Identity](/images/it/okta/identity.png)
 
 1. After doing so, you will see the `Your Identity is Verified` message and you can close the browser
-![Identity Success](/handbook/it/okta/images/identity-success.png)
+![Identity Success](/images/it/okta/identity-success.png)
 
-1. The Okta Verify application will refresh. Press `Next` if you are using Touch ID on your Mac (most common), or `Skip` if you are not. Okta Verify uses macOS's Touch ID capability, and the [mathematical calculation](https://support.apple.com/en-us/HT204587) is stored locally within Apple's Secure Enclave and not available to Okta or GitLab.
-![Touch ID Prompt](/handbook/it/okta/images/touch-id-or-skip.png)
+1. The Okta Verify application will refresh. Press `Next` if you are using Touch ID on your Mac (most common), or `Skip` if you are not. Okta Verify uses macOS's Touch ID capability, and the [mathematical calculation](https://support.apple.com/en-us/105095) is stored locally within Apple's Secure Enclave and not available to Okta or GitLab.
+![Touch ID Prompt](/images/it/okta/touch-id-or-skip.png)
 
 1. If you pressed `Next`, then click `Enable Touch ID`
-![Touch ID Prompt 2](/handbook/it/okta/images/touch-id-prompt-2.png)
+![Touch ID Prompt 2](/images/it/okta/touch-id-prompt-2.png)
 
 1. Your GitLab Okta account will now be available to use with Okta Verify on macOS
-![Okta Verify Complete](/handbook/it/okta/images/okta-verify-complete.png)
+![Okta Verify Complete](/images/it/okta/okta-verify-complete.png)
 
 ### After enrolling
 
 You will continue to be able to use a [YubiKey](/handbook/it/guides/yubikey/) in addition to Touch ID to login to Okta from macOS device. You will not be able to login from a personal macOS device.
 
 A macOS device missing the certificate (even when enrolled with Okta Verify), will quickly show:
-![No Certificate](/handbook/it/okta/images/no-certificate.png)
+![No Certificate](/images/it/okta/no-certificate.png)
 
 Then re-direct to the following error:
-![No Certificate 2](/handbook/it/okta/images/no-certificate-2.png)
+![No Certificate 2](/images/it/okta/no-certificate-2.png)
 
 ## Managing Okta Access Using Google Groups
 

@@ -56,7 +56,7 @@ AMM tracks the position of a touchpoint based on its timing to other touchpoints
 - LC - Lead Created, prospect submits information
 - OC - Opportunity Creation, prospect intentionally moves toward a purchase decision
 - Closed - Customer Close, prospect makes a purchase
-- Pending - [The Pending touchpoint position](https://nation.marketo.com/t5/marketo-whisperer-blogs/bizible-s-pending-touchpoint-position/ba-p/312477) is stamped only on BATs (Buyer Attribution Touchpoints), not on BTs (Buyer Touchpoints). This touchpoint position is shown **only when the opportunity is still open**, providing a temporary value to allow the opportunity credit to sum to 100%.
+- Pending - [The Pending touchpoint position](https://nation.marketo.com/t5/marketo-whisperer-blogs/marketo-measure-pending-touchpoint-position/ba-p/312477) is stamped only on BATs (Buyer Attribution Touchpoints), not on BTs (Buyer Touchpoints). This touchpoint position is shown **only when the opportunity is still open**, providing a temporary value to allow the opportunity credit to sum to 100%.
 
 ### Attribution Models
 

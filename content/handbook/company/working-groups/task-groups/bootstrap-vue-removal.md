@@ -54,7 +54,7 @@ These are the known challenges, but there may be additional issues that have yet
    1. Directives are moved to the `/src` folder.
    2. Components, plugins, mixins, and constants are rewritten using the 'usual' Vue 2 Options API syntax and moved to the `/src` folder.
 5. The directory `/src/vendor/bootstrapvue` is removed.
-6. Bootstrap CSS Utilities are replaced with (TailwindCSS) GitLab CSS Utilities: [Epic &15271](https://gitlab.com/groups/gitlab-org/-/epics/15271)
+6. Bootstrap CSS Utilities in GitLab UI are replaced with (TailwindCSS) GitLab CSS Utilities: [Epic &15765](https://gitlab.com/groups/gitlab-org/-/epics/15765).
 
 ## Roles and Responsibilities
 

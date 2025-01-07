@@ -16,7 +16,7 @@ We hope it's a good entry point to learn more about who we are and what we do.
 ## What do we work on?
 
 <!-- TODO: Pull this from the product side -->
-- **Design System** ([Direction Page](https://about.gitlab.com/direction/manage/foundations/design_system/))
+- **Design System** ([Direction Page](https://about.gitlab.com/direction/foundations/personal_productivity/))
 
     We are currently focused on integrating our design system, [Pajamas](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com), into the GitLab product.
 
@@ -38,6 +38,31 @@ In general, we use the standard GitLab [Product Development Flow](/handbook/prod
 {{% include "includes/engineering/foundations/weighting_scale.md" %}}
 
 {{% include "includes/engineering/foundations/fifth_week_of_focus.md" %}}
+
+### Design Token Migration Strategy
+
+### Phase 0 (Small Migration with validation screenshots)
+
+- Create a small test migration issue to validate the approach for a particular scenario before applying it widely.
+- This step is not mandatory, but is available as a safety net when we need extra confidence. It should be suggested when we are not confident enough in the mass migration.
+
+### Phase 1 (Large-Scale, Low-Risk Migrations)
+
+- Focus on straightforward, low-risk changes we've confirmed are safe. For example, simple like-for-like color class replacements or switching a component's variant that we've tested is risk-free.
+- Do not dive into semantic correctness at this stage. The goal is to reduce deprecated classes quickly.
+- If something looks unsafe or unclear:
+  - Suggest removing it from the MR, or
+  - Create (or suggest) an issue for a Phase 0 test migration that covers this specific case.
+  - This phase is tackling thousands of changes without excessive review overhead. To aid with this, instead of changing one deprecated class across multiple directories, choose one directory and change all deprecated classes in that directory. This approach has a few benefits:
+    - Reduces the chance of a merge conflict
+    - Features are generally grouped by directory, this allows us to ping domain specific reviewers and more easily check features locally if there are questions.
+    - If there are regressions, they are isolated to one feature instead of across the entire product
+
+### Phase 2 (Page-by-Page Semantic Review)
+
+- After handling the bulk of horizontal migrations, move on to detailed, page-by-page audits.
+- Collaborate closely with teams and UX designers to ensure proper semantic usage and address code smells.
+- This will be slower and more deliberate, but by then we’ll have fewer issues to tackle since the big migrations are done.
 
 ## Metrics
 

@@ -664,7 +664,7 @@ These virtual cards within Navan are only utilized by the AP team, and they are 
 
 ### Setting up your Navan Account
 
-Below is some more information to help you get set up with your [Navan](https://tripactions.com/) account.
+Below is some more information to help you get set up with your [Navan](https://navan.com/) account.
 
 - Log into Okta and click the Navan tile.
 - Once you are in your dashboard, make sure to set up your info in your profile (see link from drop down menu under your name).

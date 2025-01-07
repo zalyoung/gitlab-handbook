@@ -331,6 +331,19 @@ _One-line description of the regression in behavior._
 
 Please reassure the participants that the purpose is not to apportion blame but to gather data, identify causal factors and implement corrective actions - but ask for a swift and brief response while the information is still fresh.
 
+### Technical Debt
+
+The ~"technical debt" label, used in combination with ~"devops::plan," helps track opportunities for improving the codebase. These labels should be applied to issues that highlight:
+
+- improvements to existing code or architecture;
+- shortcuts taken during development;
+- features requiring additional refinement;
+- any other items deferred due to the high pace of development.
+
+For example, a [follow-up issue](https://docs.gitlab.com/ee/development/contributing/issue_workflow.html#technical-debt-in-follow-up-issues) to resolve non-UX feedback during code review should have the ~"technical debt" label.
+
+Issues marked with this label are prioritized alongside those proposing new features and will be scheduled during milestone planning.
+
 ### UX
 
 The Plan UX team supports [Product Planning](/handbook/product/categories/#product-planning-group), [Project Management](/handbook/product/categories/#project-management-group) and [Optimize](/handbook/product/categories/#optimize-group). Product Planning and Project Management are focused on the work items architecture effort. This page focuses mainly on the specifics of how we support this, since it requires alignment and cross-group collaboration.
@@ -389,8 +402,8 @@ This enables us to differentiate these by persona and workflow. While they may s
 
 - The DRI for the user experience is the Product Designer assigned to the group that is using the work item architecture for their object(s).
 - We work in a user-first mindset, rather then technology-first. To support this, we have created a [research plan](/handbook/product/ux/stage-group-ux-strategy/plan/plan/#ux-research-for-work-items) for supporting work item initiatives.
-- [Pajamas](https://design.gitlab.com/) is our design system and new patterns introduced via work item efforts need to solve a real problem that users have, be validated by user research, and follow the [Pajamas contribution process](https://design.gitlab.com/get-started/contributing).
-- We follow [Pajamas principles](https://design.gitlab.com/get-started/principles) for the user experience.
+- [Pajamas](https://design.gitlab.com/) is our design system and new patterns introduced via work item efforts need to solve a real problem that users have, be validated by user research, and follow the [Pajamas contribution process](https://design.gitlab.com/get-started/contributing/).
+- We follow [Pajamas principles](https://design.gitlab.com/get-started/principles/) for the user experience.
 - MVCs provide value to users, are bug-free and a highly usable experience, as described in [Product Principles](/handbook/product/product-principles/#the-minimal-valuable-change-mvc).
 
 #### How the architecture is intended to work
@@ -602,7 +615,7 @@ The DRI for organizing Team Day may pursue a budget for expenses under existing 
 
 #### Tips for a Successful Team Day
 
-- Watch out for [Daylight Savings Time](https://www.timeanddate.com/time/dst/) when organizing for Q1 and Q3. When the date is set, check that the timeszones in the planning issue still match the timezones in use on the day (for example, AEST vs. AEDT).
+- Watch out for [Daylight Savings Time](https://www.timeanddate.com/time/dst/about.html) when organizing for Q1 and Q3. When the date is set, check that the timeszones in the planning issue still match the timezones in use on the day (for example, AEST vs. AEDT).
 - Secure expense budget and communicate at least a week in advance of the Team Day.
 - Ensure Google Calendar events are transferred from the planning issue to the Plan [Shared Calendar](#shared-calendar) a week in advance of the event date.
 - Ensure everyone has access to the calendar, and have easy step-by-step directions for creating a new event on the calendar (Adding events to a shared calendar can be slightly confusing).

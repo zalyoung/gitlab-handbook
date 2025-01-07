@@ -29,9 +29,9 @@ Based on these needs, the Data Team is organized in the following way:
 | Customer Intelligence     |  @nmcavinue          |                                | @jonglee1218      |                |
 | Customer Product Adoption |  @mdrussell             | @michellecooper @utkarsh060 |                 |                |
 
-## Analytics Engineering - Business Stable Counterpart Assignments
+## Analytics Engineering - Stable Counterpart Assignments
 
-| Department       | Functional Analytics Team         | Analytics Engineer      |
+| Department / Division | Functional Analytics Team / Steering Committee | Analytics Engineer      |
 | ---------------- | --------------------------------- | ----------------------- |
 | Sales            |  Revenue Strategy and Analytics   |  @lisvinueza             |
 | Marketing        |  Marketing Strategy and Analytics |  @chrissharp             |
@@ -42,6 +42,7 @@ Based on these needs, the Data Team is organized in the following way:
 | Security         |  Engineering Analytics            |  @michellecooper        |
 | Support          |  N/A                              |  @michellecooper        |
 | People           |  People Analytics                 |  @rakhireddy            |
+| R&D              |  Product Usage Data Architecture Steering Committee | @pempey |
 
 ## Data Platform Team Stable Counterpart Assignments
 

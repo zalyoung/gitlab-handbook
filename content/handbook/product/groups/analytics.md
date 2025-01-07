@@ -138,4 +138,4 @@ TBD
 ## References
 
 - [Product categories](/handbook/product/categories/#analytics-section)
-- [Direction](https://about.gitlab.com/direction/analytics/)
+- [Direction](https://about.gitlab.com/direction/monitor/)

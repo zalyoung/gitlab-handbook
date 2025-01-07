@@ -28,6 +28,8 @@ GitLab offers company paid [Group Life and Disability Plans](https://docs.google
 
 Team Members can designate their beneficiaries in the case of death with [Generali here](https://designation-beneficiaires.generali.fr/). You’ll find step-by-step instructions in both [French](https://drive.google.com/file/d/11iFBV6PkA7phsXXgtIyHa79DlKwrY0Oh/view?usp=sharing) and [English](https://docs.google.com/presentation/d/1VzjaQYxnDrAQ8Ax5I6Z4y0XytxjPHNKi/edit?usp=sharing&ouid=115600862362829120699&rtpof=true&sd=true). You will need the scheme/contract number to update your beneficiaries, which can be found [here](https://docs.google.com/document/d/12muwdp-9XvQGO8B2cCGoEfZ7-dU2BeMY8GivNcbJCDM/edit?tab=t.0).
 
+For more details on the plan see these [policy documents](https://drive.google.com/file/d/1jNFYcn2CLWHpPolvGTEz21FCQKIYBsbq/view?usp=sharing)
+
 ## France Holiday Bonus
 
 Eligible France Team Members will receive an Holiday Bonus annually. The Holiday Bonus is paid once a year during the June Payroll.
@@ -71,6 +73,7 @@ To initiate your parental leave, submit your time off by selecting `Parental Lea
 - GitLab France S.A.S. team members should be aware of their applicable leave categories and can review [the requirements for logging time away from work and the suggested order for using leave balances](https://internal.gitlab.com/handbook/finance/payroll/timekeeping/france/#logging-time-away). (*_internally accessible only_)
 - Team members must always submit their leave via the [Mihi Platform](https://2.mihi.info/Account/Login?ReturnUrl=%2F) **as well as** Workday in Slack.
 For all technical support inquiries or any inquiries relating to your balances in Mihi, please contact `support@mihi.info` and cc `gitlabHRSS@globalupside.com`.
+- GitLab team members are also entitled to [RTT time](https://handbook.gitlab.com/handbook/people-group/paid-time-off/#reduction-of-working-time-rtt) and we recognize this is different from PTO. Team members are responsible for ensuring that they are tracking their time accurately, both in Mihi and in Workday. When entering RTT time, team members should select the RTT time off type in Mihi, and PTO in Workday leaving a comment noting ‘RTT’.
 
 ## Sick Time
 

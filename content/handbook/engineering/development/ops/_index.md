@@ -26,7 +26,7 @@ The following teams comprise the Ops sub-department:
 
 Teams in the Ops Sub-Department map to several Product Sections.  Product direction can be found on the following direction pages:
 
-- [CI Section Direction](https://about.gitlab.com/direction/ci)
+- [CI Section Direction](https://about.gitlab.com/direction/ci/)
 - [CD Section Direction](https://about.gitlab.com/direction/delivery/)
 - [Observability Direction](direction/analytics/observability/)
 

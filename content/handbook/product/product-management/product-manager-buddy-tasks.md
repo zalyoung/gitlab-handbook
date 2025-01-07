@@ -14,11 +14,11 @@ draft: true
         - [Managing your Product Direction](/handbook/product/product-processes/#managing-your-product-direction)
         - [How to work as a PM](/handbook/product/product-processes/#how-to-work-as-a-pm)
     - Pricing / tier related
-        - https://about.gitlab.com/company/pricing/#three-tiers
+        - <https://handbook.gitlab.com/handbook/company/pricing/#three-tiers>
         - [Buyer Personas](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/roles-personas/buyer-persona/)
     - [Product Categories page](/handbook/product/categories/) to find who is the DRI for a category
     - [Features by tier and group](/handbook/product/categories/features/)
-    - [Analytics Direction Page](https://about.gitlab.com/direction/analytics/)
+    - [Analytics Direction Page](https://about.gitlab.com/direction/monitor/)
     - Helpful for research
         - [How/When to start a research project](/handbook/product/ux/ux-research/#conducting-ux-research-at-gitlab)
         - [How to recruit for a UX Project](/handbook/product/ux/ux-research/recruiting-participants/)

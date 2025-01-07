@@ -9,7 +9,7 @@ We support the Security division's [mission and operating principles](/handbook/
 
 1. Maintaining GitLab's position as the most trusted DevSecOps offering on the market
 1. Maintaining and achieving [security certifications and attestations]({{< ref "../security-compliance/certifications" >}}) that meet the needs of our customers
-1. Identifying and mitigating information security risk through [continuous control monitoring]({{< ref "sec-controls" >}}) of systems, applications, and repositories
+1. Identifying and mitigating information security risk through [continuous control monitoring]({{< ref "sec-controls" >}}) and [risk-based control testing] ({{< ref "risk-based-control-testing" >}}) of assets
 1. Applying compliance automation and [policy-as-code](/handbook/security/security-assurance/security-compliance/policy-as-code/)  guardrails to minimize [toil](https://sre.google/sre-book/eliminating-toil/) and enable product, development, and infrastructure teams
 1. Using our own product ([dogfooding](/handbook/values/#dogfooding)) to meet key security controls, improve our offering, and demonstrate to customers how they can do the same
 
@@ -21,9 +21,10 @@ We support the Security division's [mission and operating principles](/handbook/
 1. [Continuous Monitoring of GitLab's Security Controls]({{< ref "sec-controls" >}}) which are mapped to applicable regulatory requirements and security certifications/frameworks we have committed to.
    - [Policy-as-code]({{< ref "../../security-assurance/security-compliance/policy-as-code" >}})
    - Automated evidence collection and control testing
-   - [User Access Reviews]({{< ref "access-reviews" >}})
+   - [User Access Reviews](./access-reviews.md)
    - [Business Continuity Plan (BCP)](/handbook/business-technology/entapps-documentation/policies/gitlab-business-continuity-plan/) and [Information System Continuity (ISCP)]({{< ref "information-system-contingency-plan-iscp" >}}) testing
-1. [Observation and Remediation Management]({{< ref "observation-management-procedure" >}})
+   - [Risk-based control testing] (./risk-based-control-testing.md)
+1. [Observation and Remediation Management]({{< ref "observation-management-procedure" >}}) 
    - Specific to Tier 3 (system-level) risks
    - Identify control weaknesses and gaps (observations)
    - Provide remediation recommendations and guidance

@@ -9,7 +9,7 @@ Gainsight is a system that our CSMs use in order to support our customers and to
 
 ### Gainsight Rules Engine
 
-The Rules engine is a business automation tool build within Gainsight that allows for automation to be built within Gainsight but also to sync out to other systems. It is used in a variety of ways in our instance from enriching data that we bring in from Salesforce (i.e. Company Hierarchies) to Call To Action automatiosn and even syncing data back from Gainsight to Salesforce. More info can be found on the [Rules Engine on Gainsights Website](https://support.gainsight.com/SFDC_Edition/Rules_Engine/About/Rules_Engine_Overview).
+The Rules engine is a business automation tool build within Gainsight that allows for automation to be built within Gainsight but also to sync out to other systems. It is used in a variety of ways in our instance from enriching data that we bring in from Salesforce (i.e. Company Hierarchies) to Call To Action automatiosn and even syncing data back from Gainsight to Salesforce. More info can be found on the [Rules Engine on Gainsights Website](https://support.gainsight.com/gainsight_nxt/03Rules_Engine/Rules_Engine_(Bionic_Rules)/About/Rules_Engine_Overview).
 
 ## Bi-Directional syncs: Salesforce <> Gainsight
 

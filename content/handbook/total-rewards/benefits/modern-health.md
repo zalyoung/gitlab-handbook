@@ -5,7 +5,7 @@ description: Information on GitLab's Employee Assistance Program.
 
 ## Mental Wellness Services
 
-GitLab offers mental health care services to all team members and their eligible family members via [Modern Health](https://www.joinmodernhealth.com/). Modern Health provides technology and professional support to help reduce stress, feel more engaged, and be happier. Through GitLab, you have access to 6 coaching sessions and 6 therapy sessions each at no cost to you as well as 100+ digital programs & mediations and unlimited live provider-led group sessions or circles.
+GitLab offers mental health care services to all team members and their eligible family members via [Modern Health](https://www.modernhealth.com/). Modern Health provides technology and professional support to help reduce stress, feel more engaged, and be happier. Through GitLab, you have access to 6 coaching sessions and 6 therapy sessions each at no cost to you as well as 100+ digital programs & mediations and unlimited live provider-led group sessions or circles.
 
 <iframe src="https://player.vimeo.com/video/680639730?h=d48b608b3f" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
 <p><a href="https://vimeo.com/680639730">Introducing Modern Health</a> from <a href="https://vimeo.com/modernhealth">Modern Health</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
@@ -102,7 +102,7 @@ Minor Family Members:
 
 You can register via the Modern Health Mobile App or on your Desktop Browser:
 
-- Visit [my.joinmodernhealth.com](https://my.joinmodernhealth.com) on your desktop browser or download the Modern Health app in the [Google Play Store (Android)](https://play.google.com/store/apps/details?id=com.modernhealth.modernhealth) or [App Store (iOS)](https://itunes.apple.com/us/app/modern-health/id1445843859?ls=1&mt=8) & select "Join Now".
+- Visit [my.joinmodernhealth.com](https://my.joinmodernhealth.com) on your desktop browser or download the Modern Health app in the [Google Play Store (Android)](https://play.google.com/store/apps/details?id=com.modernhealth.modernhealth) or [App Store (iOS)](https://apps.apple.com/us/app/modern-health/id1445843859?ls=1) & select "Join Now".
 - Use the first and last name you have on file with GitLab.
 - Verify using your company email.
 - Enter your GitLab email and the password of your choice. (Reminder that you must register with your GitLab email, but you can change your Modern Health account email to your personal email in Settings upon registration.)

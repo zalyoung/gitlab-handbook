@@ -11,7 +11,7 @@ The group supports the product
 - by migrating between GitLab instances and from other providers
 - with 3rd party integrations, REST APIs and GraphQL foundational code, and Webhooks.
 
-This page covers processes and information specific to the Import and Integrate group. See also the [group direction page](https://about.gitlab.com/direction/manage/import_and_integrate/) and the [features we support per category](/handbook/product/categories/features/#manageimport-and-integrate-group).
+This page covers processes and information specific to the Import and Integrate group. See also the [group direction page](https://about.gitlab.com/direction/foundations/) and the [features we support per category](/handbook/product/categories/features/#manageimport-and-integrate-group).
 
 ## How to reach us
 
@@ -114,7 +114,7 @@ All issues should have:
   - `~"Category:Integrations"`
   - `~"Category:Internationalization"`
   - `~"Category:Webhooks"`
-- A [type label](/handbook/product/groups/product-analysis/engineering/dashboards/#work-type-classification)
+- A [type label](/handbook/product/groups/product-analysis/engineering/metrics/#work-type-classification)
 - A [workflow label](/handbook/engineering/workflow/#updating-workflow-labels-throughout-development)
 - `~"backend"` or `~"frontend"` if appropriate
 
@@ -289,7 +289,7 @@ An [Application Security Review](/handbook/security/product-security/application
 
 ### Longer lived feature flags
 
-This is a supplement to GitLab's common [development guidance](https://docs.gitlab.com/ee/development/feature_flags)
+This is a supplement to GitLab's common [development guidance](https://docs.gitlab.com/ee/development/feature_flags/)
 for use of feature flags. It applies to all flag types besides the [`ops` type](https://docs.gitlab.com/ee/development/feature_flags/#ops-type).
 
 Changes to Import and Integrate features often happen in high-traffic code paths and have
@@ -548,7 +548,7 @@ Learn more about error budgets with these resources:
 - [Error budgets and how they are calculated](/handbook/engineering/error-budgets/)
 - [What Apdex is and how it works](https://docs.gitlab.com/ee/development/application_slis/rails_request.html)
 - [Error budget in Grafana dashboards](https://docs.gitlab.com/ee/development/stage_group_observability/index.html#error-budget)
-- [Feature categorization](https://docs.gitlab.com/ee/development/feature_categorization): our code is attributed to us by `feature_category: :api`, `feature_category: :integrations`, `feature_category: :internationalization`, `feature_category: :importers`, and `feature_category: :webhooks`
+- [Feature categorization](https://docs.gitlab.com/ee/development/feature_categorization/): our code is attributed to us by `feature_category: :api`, `feature_category: :integrations`, `feature_category: :internationalization`, `feature_category: :importers`, and `feature_category: :webhooks`
 
 ## Links and resources {#links}
 
@@ -562,7 +562,7 @@ Learn more about error budgets with these resources:
   - [Current milestone board](https://gitlab.com/groups/gitlab-org/-/boards/1459244?milestone_title=Upcoming&label_name[]=group%3A%3Aimport%20and%20integrate)
 - Contribution guides
   - [Principles of importer design](https://docs.gitlab.com/ee/development/import/principles_of_importer_design/)
-  - [Contributing to Direct Transfer](https://docs.gitlab.com/ee/development/bulk_imports/contributing)
+  - [Contributing to Direct Transfer](https://docs.gitlab.com/ee/development/bulk_imports/contributing/)
     - [Feedback issue](https://gitlab.com/gitlab-org/gitlab/-/issues/456468)
 - Onboarding videos (GitLab Unfiltered Youtube)
   - [Direct Transfer](https://www.youtube.com/watch?v=vVQ6Ex9fSl8) (formerly known as GitLab Migration)

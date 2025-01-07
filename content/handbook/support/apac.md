@@ -287,25 +287,6 @@ each financial quarter.
 
   </details>
 
-## Daily Bot in the #support_licensing-subscription slack channel
-
-There is a daily bot that tags all APAC Support
-engineers who have a Focus `name: License and Renewals` listed in their [Support Team Page](https://gitlab.com/gitlab-com/support/team/-/blob/master/data/support-team.yaml) entry.
-
-Example Support Team Bot post:
-
-> *Support Team Bot
-Morning APAC @name1 @name2 @name3 @name4 @name5 @name6 @name7. Today we have:  7 working, 1 on PTO:*
->
-> *The following people have scheduled PTO:*
-> ** Wednesday: @name8*
-
-Support engineers update this post's thread daily to share with each other when
-they are covering the queue, so that team members are confident that there are eyes
-on the queue when they complete their scheduled time to action these tickets. There
-is no strict roster, team members opt-in and share their availability to achieve
-coverage.
-
 ## Holiday Coverage Planning
 
 We are mindful of [holidays](/handbook/support/support-time-off#holiday-time-off-ticket-management) that impact large parts of the team. The following are official holidays for mostly APAC team members, which we plan coverage for outside of global practices:
@@ -369,4 +350,4 @@ relation to SLA timers and [APAC regional business hours](https://about.gitlab.c
 in Zendesk. Pay attention to the months shown in each section - the difference is due to some
 countries observing daylight savings time.
 
-![APAC Working hours](../assets/APACWorkingHours.png)
+![APAC Working hours](/images/assets/APACWorkingHours.png)
