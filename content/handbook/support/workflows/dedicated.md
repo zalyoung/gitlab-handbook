@@ -128,7 +128,7 @@ When any changes are required besides those listed below, open a [Request for He
 
 ### Feature proposals
 
-GitLab Dedicated feature proposal issues should be opened in the **Public** [`gitlab-org/gitlab` issue tracker](https://gitlab.com/gitlab-org/gitlab/-/issues/?sort=created_date&state=opened&first_page_size=100).
+GitLab Dedicated feature proposal issues should be created in the **Public** [`gitlab-org/gitlab` issue tracker](https://gitlab.com/gitlab-org/gitlab/-/issues/?sort=created_date&state=opened&first_page_size=100). Mention the Product Manager when opening a feature proposal issue. Use the [feedback template](handbook/product/product-management.md#feedback-template) to register a customer's interest in an existing feature proposal.
 
 #### Inbound (Forward) PrivateLink Request
 
