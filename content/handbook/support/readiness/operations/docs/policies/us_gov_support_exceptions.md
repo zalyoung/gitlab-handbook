@@ -1,5 +1,5 @@
 ---
-title: Enabling US Government Support
+title: Enabling/disabling US Government Support exceptions
 description: Support Operations policies page for enabling/disabling US Government Support exceptions
 canonical_path: "/handbook/support/readiness/operations/docs/policies/us_gov_support_exceptions"
 ---
