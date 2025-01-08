@@ -392,6 +392,32 @@ Details:
 - [Epic](https://gitlab.com/groups/gitlab-org/-/epics/14749)
 - [DAG](https://cells-architecture-overview-gitlab-org-tenant-sc-ff1c641f886923.gitlab.io/phase-1-8/#groups_Phase_8)
 
+### Phase 10: Production Readiness
+
+Exit Criteria:
+
+- Cell-Level Observability (Logs, Metrics, Alerts, Dashboard).
+- Integration with existing Incident Management tooling.
+- Compliance with GitLab.com security standards.
+- Regional and Zonal Disaster Recovery capabilities.
+- Operational tooling independence from GitLab.com/dev.gitlab.org availability.
+- Centralized WAF management for GitLab.com domain.
+- Cell-level Application Rate Limits with synchronization.
+- Least-privileged access implementation with SRE escalation path.
+- Progressive rollout of infrastructure changes across Cells with rollback support.
+- Progressive deployment capabilities across Legacy Cell and Cells with rollback support.
+- Suport for toggling Feature Flags across Legacy Cell and Cells.
+
+Dependencies:
+
+- [Phase 1](#phase-1-preqa-cell): GCP organizations, Ring definition exists.
+
+Before/After:
+
+Details:
+
+- [Epic](https://gitlab.com/groups/gitlab-org/-/epics/14807)
+
 ## Communication
 
 ### Slack Channels
