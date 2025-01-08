@@ -346,3 +346,4 @@ Audit events will be logged when:
 - [004: Use Time-based Triggers for Controls](decisions/004_time_based_triggers.md)
 - [005: Violations Engine](decisions/005_violations_engine.md)
 - [006: Storing Controls in a Separate Table](decisions/006_storing_controls_in_a_separate_table.md)
+- [007: External Controls](decisions/007_external_controls.md)
