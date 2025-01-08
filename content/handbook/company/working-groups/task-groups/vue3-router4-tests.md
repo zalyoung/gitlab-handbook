@@ -13,8 +13,8 @@ description: "Learn more about the Vue 3 Router 4 Test Compatibility Task Group'
 
 ## Context
 
-A major effort is underway to ensure that the Gitlab Org unit tests are passing and compatible with vue compat. 
-The main cause of the current failures is a compatibility issue in how tests are written when incorporating Vue Router.
+A major effort is underway to ensure that the [GitLab](https://gitlab.com/gitlab-org/gitlab) unit tests are passing and compatible with Vue compat. 
+A major cause of the current failures is a compatibility issue in how tests are written when incorporating Vue Router.
 
 The differences between Vue Router 3 and 4 require that unit tests are re-written based on the findings of [the initial investigation](https://gitlab.com/gitlab-org/gitlab/-/issues/509084).
 
@@ -24,7 +24,7 @@ The differences between Vue Router 3 and 4 require that unit tests are re-writte
 
 ## Non-goals
 
-- Tests that are not directly related to the compatibility of Vue Router 3 and 4 may be initially skipped, as they are not covered by the migration strategy.
+- Tests that are not directly related to the compatibility of Vue Router 3 and 4 won't be considered, as they are not covered by the migration strategy.
 
 ## Exit Criteria
 
