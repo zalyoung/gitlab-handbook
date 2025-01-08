@@ -301,7 +301,7 @@ New Director will be provided with:
 1. Corporate Strategy (CEO) - 50 mins
 
    - Materials for meeting: Most recent Board of Directors meeting presentation, Key Review slides, current quarter OKRs. Please do not generate new content. The Staff EBA to the CEO sends material to the new Director at least 72 hours in advance. The meeting is centered around the new Director's questions
-   - [GitLab Strategy](/handbook/company/strategy/)
+   - [GitLab Strategy](/handbook/company/strategies/)
    - [3 year strategy](/handbook/company/strategy/#three-year-strategy)
    - [Company KPI's](/handbook/company/kpis/)
    - [Quarterly OKRs](/handbook/company/okrs/)
