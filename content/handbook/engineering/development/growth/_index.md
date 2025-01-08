@@ -158,9 +158,9 @@ By having a dedicated <abbr title="Directly Responsible Individual">DRI</abbr> f
 
 The Engineering <abbr title="Directly Responsible Individual">DRI</abbr> oversees weekly updates on the epic, tracking overall health status, including progress, obstacles, and emerging risks.
 
-* They continuously monitor and report on the epic's health status, indicating if it's on track, at risk, or blocked, providing context around any changes.
-* Progress updates are reported via a top-level comment on the epic containing the development work (usually linked to our OKRs).
-* Updates are due by End of Day on the <abbr title="Directly Responsible Individual">DRI</abbr>'s last workday of the week.
+- They continuously monitor and report on the epic's health status, indicating if it's on track, at risk, or blocked, providing context around any changes.
+- Progress updates are reported via a top-level comment on the epic containing the development work (usually linked to our OKRs).
+- Updates are due by End of Day on the <abbr title="Directly Responsible Individual">DRI</abbr>'s last workday of the week.
 
 *Facilitating Breakdown of Work*
 
