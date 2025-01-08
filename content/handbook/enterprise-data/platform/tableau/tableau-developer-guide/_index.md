@@ -536,3 +536,11 @@ Relationships are a feature in Tableau that allow you to combine data from multi
 When working with multi-table data sources in Tableau, consider using relationships as your default approach for combining tables, reserving joins for specific scenarios where more precise control over table combinations is required.
 
 If you would like to see a simple example demonstrating how relationships work - with the SQL queries that the example produced, you can find an in-depth writeup [here](https://anniesanalytics.com/what-are-relationships-in-tableau-really).
+
+## Snowflake & Tableau Settings Rolename Embedding
+
+In order to properly embed your credentials in connections (as described [here](https://handbook.gitlab.com/handbook/enterprise-data/platform/tableau/tableau-developer-guide/#workflow-for-embedding-your-rolename-to-avoid-errors-in-published-dashboards)), you will need to have two prerequisites:
+
+1. You have set a 'default role' in Snowflake. You can follow [the instructions here](https://handbook.gitlab.com/handbook/enterprise-data/platform/#logging-in-and-using-the-correct-role) on how to set your default role if you have not done so already.
+
+1. You have embedded your rolename into your Tableau settings. To do this, navigate to your Tableau homepage and look to the top right corner. Click on your profile dropdown (usually a cirlce with your initials), and click 'My Account Settings. In the "Saved Credentials for Data Sources" section, scroll until you find Snowflake, and add your default role there.
