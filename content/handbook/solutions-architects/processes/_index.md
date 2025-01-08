@@ -60,7 +60,7 @@ Customer Success Planning core goal is to identify and state:
 
 To summarize, there are three additional fields in the Customer Success Plan section, on the Opportunity level in SFDC, that should be maintained through the process:
 
-![Customer Success Plan Opportunity Fields](Customer-Success-Plan-SFDC.png)
+![Customer Success Plan Opportunity Fields](/images/solutions-architects/processes/Customer-Success-Plan-SFDC.png)
 
 1. Customer Success Plan: field for the URL to the plan
 1. CSM Ready: Check if the plan is/can be handed over to the CSM
