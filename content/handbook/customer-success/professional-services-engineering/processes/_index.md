@@ -246,7 +246,7 @@ By optimizing and automating internal controls (sign-offs / approvals), cycle ti
 
 The Professional Services process and methodology fits within the Customer journey that is supported by Customer Success.Professional Services contributes to the customer journey from the point of **SOW Close** through the **Project Closee** phase.
 
-![!\[''\](/images/customer-success/professional-services-engineering/processes/customer-journey-mapped-ps-process.png)](<PS Delivery Customer Journey Flow - Page 1 (11).png>)
+![!\[''\](/images/customer-success/professional-services-engineering/processes/customer-journey-mapped-ps-process.png)](<PS Delivery Customer Journey Flow - Page 1 (11).jpg>)
 
  [Source, GitLab Team Members Only](https://docs.google.com/presentation/d/1eC_ocJkzNkH4Vw3v4Vkd3S58a0NALYxXtnb6BZ7pJdc/edit?usp=sharing)
 
