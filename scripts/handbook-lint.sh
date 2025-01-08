@@ -25,6 +25,7 @@ if [ -n "$CI_PROJECT_ID" ]; then
         git diff --name-only --diff-filter=d $BRANCH_POINT origin/$CI_MERGE_REQUEST_SOURCE_BRANCH_NAME | grep -E '\.(png|jpg|jpeg|gif|svg)$' | sort | uniq > /tmp/IMAGES
         git diff --name-only --diff-filter=d $BRANCH_POINT origin/$CI_MERGE_REQUEST_SOURCE_BRANCH_NAME | grep -vE '\.(png|jpg|jpeg|gif|svg|md)$' | sort | uniq > /tmp/SIZE-check
         git diff --name-only --diff-filter=A $BRANCH_POINT origin/$CI_MERGE_REQUEST_SOURCE_BRANCH_NAME  | grep -E '\.(mov|mp4|m4v|avi|mkv|ogg|webm)$' | sort | uniq > /tmp/VIDEOS
+        git diff --name-only --diff-filter=d $BRANCH_POINT origin/$CI_MERGE_REQUEST_SOURCE_BRANCH_NAME | grep -E '\.(pdf)$' | sort | uniq > /tmp/PDFS
     else
         # assume otherwise it's a fork
         git fetch origin $CI_MERGE_REQUEST_TARGET_BRANCH_NAME
@@ -39,6 +40,7 @@ if [ -n "$CI_PROJECT_ID" ]; then
         git diff --name-only --diff-filter=d $BRANCH_POINT fork/$CI_MERGE_REQUEST_SOURCE_BRANCH_NAME | grep -E '\.(png|jpg|jpeg|gif|svg)$' | sort | uniq > /tmp/IMAGES
         git diff --name-only --diff-filter=d $BRANCH_POINT fork/$CI_MERGE_REQUEST_SOURCE_BRANCH_NAME | grep -vE '\.(png|jpg|jpeg|gif|svg|md)$' | sort | uniq > /tmp/SIZE-check
         git diff --name-only --diff-filter=A $BRANCH_POINT fork/$CI_MERGE_REQUEST_SOURCE_BRANCH_NAME  | grep -E '\.(mov|mp4|m4v|avi|mkv|ogg|webm)$' | sort | uniq > /tmp/VIDEOS
+        git diff --name-only --diff-filter=d $BRANCH_POINT fork/$CI_MERGE_REQUEST_SOURCE_BRANCH_NAME | grep -E '\.(pdf)$' | sort | uniq > /tmp/PDFS
    fi
 elif [ -n "$1" ]; then
     # if $1 exists, locally specified a branch to check against
@@ -46,6 +48,7 @@ elif [ -n "$1" ]; then
     git diff --name-only --diff-filter=d main...$1 | grep -E '\.(png|jpg|jpeg|gif|svg)$' | sort | uniq > /tmp/IMAGES
     git diff --name-only --diff-filter=d main...$1 | grep -vE '\.(png|jpg|jpeg|gif|svg|md)$' | sort | uniq > /tmp/SIZE-check
     git diff --name-only --diff-filter=A main...$1 | grep -E '\.(mov|mp4|m4v|avi|mkv|ogg|webm)$' | sort | uniq > /tmp/VIDEOS
+    git diff --name-only --diff-filter=d main...$1 | grep -E '\.(pdf)$' | sort | uniq > /tmp/PDFS
 else
     echo "No branch specified. If testing locally, specify source branch to check against main."
     exit 1
@@ -199,10 +202,49 @@ if [[ $INCORRECT_VIDEO_PATHS != "" ]]; then
 else
   printf "%b" " ${green}${bold}Success.${normal}\n"
 fi
+
+## PDF check if newly added PDFs are in /static/pdfs
+printf "%b" "${bold}Checking that added PDFs are in static/pdfs directory...${normal}"
+INCORRECT_PDF_PATHS=""
+while read -r pdf; do
+  if ! [[ "$pdf" =~ ^static/pdfs/ ]]; then
+    ERROR_FOUND=true
+    INCORRECT_PDF_PATHS="$INCORRECT_PDF_PATHS- $pdf\n"
+    fingerprint=$(sha256sum "$pdf")
+    markdownlinjson=$(cat handbook-codequality.json)
+    cat << EOF | jq -s 'add' - > handbook-codequality.json
+$markdownlinjson
+[
+  {
+    "type": "issue",
+    "check_name": "PDFS Incorrect Path",
+    "description": "The pdf \`$pdf\` is not in the /static/pdfs directory. Please move it to the correct location.",
+    "severity": "minor",
+    "fingerprint": "$fingerprint",
+    "location": {
+      "path": "$pdf",
+      "lines": {
+        "begin": 0
+      }
+    },
+    link: "https://handbook.gitlab.com/docs/markdown-guide/#videos"
+  }
+]
+EOF
+  fi
+done < /tmp/PDFS
+if [[ $INCORRECT_PDF_PATHS != "" ]]; then
+  printf "%b" " ${red}${bold}Failed.${normal}\n"
+else
+  printf "%b" " ${green}${bold}Success.${normal}\n"
+fi
+
 # Remove tmp file
 rm /tmp/IMAGES-added
 rm /tmp/IMAGES
 rm /tmp/VIDEOS
+rm /tmp/SIZE-check
+rm /tmp/PDFS
 
 ## CODEOWNERS checks ##
 printf "%b" "${bold}Checking for broken CODEOWNER entries...${normal}"
@@ -415,6 +457,10 @@ if [[ $ERROR_FOUND == "true" ]]; then
   if [[ $INCORRECT_VIDEO_PATHS != "" ]]; then
     printf "%b" "The following videos are being added, but are not located in the static/videos folder:\n\n"
     printf "%b" "$INCORRECT_VIDEO_PATHS\n"
+  fi
+    if [[ $INCORRECT_PDF_PATHS != "" ]]; then
+    printf "%b" "The following PDFs are being added, but are not located in the static/pdfs folder:\n\n"
+    printf "%b" "$INCORRECT_PDF_PATHS\n"
   fi
   if [[ $MISSING_FILE_ENTRY != "" ]]; then
     printf "%b" "The following files are listed in CODEOWNERS but don't exist in the repo:\n\n"
