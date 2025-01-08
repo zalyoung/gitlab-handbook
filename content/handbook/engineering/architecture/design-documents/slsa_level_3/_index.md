@@ -1,5 +1,5 @@
 ---
-title: "SLSA Level 3 Pipeline in GitLab"
+title: "SLSA Level 3 Provenance Attestations"
 status: ongoing
 creation-date: "2024-12-18"
 authors: [ "@nrosandich" ]
