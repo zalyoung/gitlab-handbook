@@ -95,7 +95,7 @@ Data triagers are the first responders to requests and problems for the Data Pro
   - During the assigned triage week the Data Platform Team member will focused on (in priority order):
     - Incoming incidents
     - [Open incidents](https://gitlab.com/gitlab-data/analytics/-/incidents)
-    - New issues
+    - New issues. As we do have a [SLO](/handbook/enterprise-data/how-we-work/#slo-for-issues-and-merge-requests) to respond within 2 business days, we check for any open, unassigned issues with the label "Data Platform Team". The Data Platform Team member who is on triage follows up on the issue, assigns the issue to the right team member and/or applies the correct labels (following the [workflow](/handbook/enterprise-data/how-we-work/#workflow-summary)).
     - Open issues on the [Data Platform - Triage Errors board](https://gitlab.com/groups/gitlab-data/-/boards/1917859).
       - If an open incident or issue is already assigned it is still the triager responsibility to either take that issue or ensure progress is made.
       - If there is no work to be performed on incidents or issues on the [board](https://gitlab.com/groups/gitlab-data/-/boards/1917859) the triager will work on their regular work assignments.
