@@ -111,9 +111,7 @@ Examples of tasks or initiatives that are important to the CEO:
 
 ## How to Work
 
-The team uses a limited access Google doc called "Sid, Stella, and the Office of the CEO" to collaborate and share progress with the CEO.
-It's format is structured like the [1-1 Suggested Agenda Format](/handbook/leadership/1-1/suggested-agenda-format/).
-Many of the tasks on the sheet are quick asks: handbook MRs, formatting changes, or questions to be answered.
+Many of the tasks are quick asks: handbook MRs, formatting changes, or questions to be answered.
 Small asks should be handled as quickly as possible.
 Other asks, such as OKR-related planning or an initiative that requires alignment with multiple stakeholders, require forethought and more appropriate timing.
 Some amount of time each week needs to be spent moving these sorts of tasks forward.

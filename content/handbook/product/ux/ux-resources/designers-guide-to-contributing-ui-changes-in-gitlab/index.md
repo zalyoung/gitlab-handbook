@@ -64,25 +64,25 @@ For a detailed step by step guide of how to make UI code changes against the Git
 - We use [Storybook](https://gitlab-org.gitlab.io/gitlab-ui/?path=/story/base-button--default) for development and component documentation, which is then displayed on component pages in [Pajamas](https://design.gitlab.com/).
 - We use [visual regression testing](https://gitlab.com/gitlab-org/gitlab-ui#visual-regression-tests) to prevent introducing unexpected regressions with CSS and layout changes on components. After committing changes to a GitLab UI merge request, run the manual job `update_screenshots` to check for visual regressions and update them automatically:
 
-![Update screenshots manual job](update_screenshots.png)
+![Update screenshots manual job](/images/product/ux/ux-resources/designers-guide-to-contributing-ui-changes-in-gitlab/update_screenshots.png)
 
 ### Updating an existing GitLab UI component
 
 If you're updating an existing component, issues may arise if you've changed or removed properties currently in use on gitlab.com. In this case, you'll need to create an integration test merge request on the [gitlab repo](https://gitlab.com/gitlab-org/gitlab) to update existing components that may become broken with your GitLab UI changes. Luckily, this is as simple as running the manual job `create_integration_branch`:
 
-![Create integration branch job](create_integration_branch.png)
+![Create integration branch job](/images/product/ux/ux-resources/designers-guide-to-contributing-ui-changes-in-gitlab/create_integration_branch.png)
 
 - After running this manual job, click on it and you will see a link to create a merge request from the created integration branch. Open this link to create your merge request:
 
-![Integration branch MR](integration_branch_mr.png)
+![Integration branch MR](/images/product/ux/ux-resources/designers-guide-to-contributing-ui-changes-in-gitlab/integration_branch_mr.png)
 
 Once the merge request is open, it will use your GitLab UI branch as the source for GitLab UI, allowing you to update existing components whose properties you may have changed or removed:
 
-![MR gitlab-ui source](mr_gitlabui_source.png)
+![MR gitlab-ui source](/images/product/ux/ux-resources/designers-guide-to-contributing-ui-changes-in-gitlab/mr_gitlabui_source.png)
 
 If you're viewing [Storybook](https://gitlab-org.gitlab.io/gitlab-ui/?path=/story/base-button--default) locally to see your GitLab UI changes, you can select the checkbox `Include GitLab CSS bundle` to pull in the main GitLab CSS file to see if any of your component styles will be overridden. If there are style differences when selecting this checkbox, you may get pipeline failures as a result:
 
-![Include GitLab CSS bundle](include_gitlab_css.png)
+![Include GitLab CSS bundle](/images/product/ux/ux-resources/designers-guide-to-contributing-ui-changes-in-gitlab/include_gitlab_css.png)
 
 **Note:** Don't be afraid to ask a [GitLab UI maintainer](/handbook/engineering/projects/#gitlab-ui) for help with setting up your integration test.
 

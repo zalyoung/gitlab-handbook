@@ -114,7 +114,7 @@ allow the user to more easily watch changes as they happen.
 
 ### GitLab.com architecture
 
-![Duo Workflow Architecture gitlab-com](diagrams/duo-workflow-architecture-gitlab-com.png)
+![Duo Workflow Architecture gitlab-com](/images/engineering/architecture/design-documents/duo_workflow/diagrams/duo-workflow-architecture-gitlab-com.png)
 
 1. Initially we focus on running locally and in CI pipelines with all inputs as
    environment variables
@@ -194,7 +194,7 @@ When customers are running the Duo Workflow Service locally the architecture wil
 similar to GitLab.com . This will also allow them to use whatever customer
 models they configure in their Duo Workflow Service.
 
-![Duo Workflow Self managed full](diagrams/duo-workflow-architecture-self-managed-full.png)
+![Duo Workflow Self managed full](/images/engineering/architecture/design-documents/duo_workflow/diagrams/duo-workflow-architecture-self-managed-full.png)
 
 #### With cloud Duo Workflow Service
 
@@ -205,7 +205,7 @@ Gateway will not have access to the customers GitLab instance but we can make
 use of the local executor (on the user's machine or in a CI runner) to proxy
 all interactions with GitLab.
 
-![Duo Workflow Self managed mixed](diagrams/duo-workflow-architecture-self-managed-mixed.png)
+![Duo Workflow Self managed mixed](/images/engineering/architecture/design-documents/duo_workflow/diagrams/duo-workflow-architecture-self-managed-mixed.png)
 
 #### Running without the Executor
 
@@ -231,7 +231,7 @@ we get quite significant scaling advantages if we never have to create a CI
 pipeline to do some of these non-code workflows as starting up a pipeline and
 keeping it running for the duration of a workflow is a large overhead.
 
-![Duo Workflow without executor](diagrams/duo-workflow-without-executor.png)
+![Duo Workflow without executor](/images/engineering/architecture/design-documents/duo_workflow/diagrams/duo-workflow-without-executor.png)
 
 We may choose to support this architecture later but it will depend on the
 following design decisions:
@@ -384,7 +384,7 @@ Duo Workflow requires several authentication flows.
 In this section, each connection that requires authentication is listed and the
 authentication mechanism is discussed.
 
-![Duo Workflow Auth](diagrams/duo_workflow_auth.png)
+![Duo Workflow Auth](/images/engineering/architecture/design-documents/duo_workflow/diagrams/duo_workflow_auth.png)
 
 #### Local Duo Workflow Executor -> Duo Workflow Service
 
@@ -700,7 +700,7 @@ Duo Workflow **agents** are, in a simplified view, a pair of: **prompt** and **L
 By this definition, agents on their own are not able to interact with the outside world,
 which significantly limits the scope of work that can be automated. To overcome this limitation, agents are being equipped with **tools**.
 
-Tools are functions that agents can invoke using the [function calling](https://docs.anthropic.com/en/docs/tool-use) LLM feature.
+Tools are functions that agents can invoke using the [function calling](https://docs.anthropic.com/en/docs/build-with-claude/tool-use) LLM feature.
 These functions perform different actions on behalf of the agent. For example, an agent might be equipped with a tool (function)
 that executes bash commands like `ls` or `cat` and returns the result of those bash commands back to the agent.
 

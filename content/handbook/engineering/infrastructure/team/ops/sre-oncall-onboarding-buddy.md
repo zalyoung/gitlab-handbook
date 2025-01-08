@@ -4,7 +4,7 @@ title: "EOC Onboarding Buddies"
 
 ## Introduction
 
-Engineers on-call (EOC) onboarding buddies play a crucial role in ensuring a positive and effective onboarding experience for new engineers joining the on-call rotation. Being on call can be very stressful, particularly for engineers who are new to the role or unfamiliar with our systems and processes. 
+Engineers on-call (EOC) onboarding buddies play a crucial role in ensuring a positive and effective onboarding experience for new engineers joining the on-call rotation. Being on call can be very stressful, particularly for engineers who are new to the role or unfamiliar with our systems and processes.
 That's why it's essential that all new engineers joining the on-call rotation be assigned a buddy who is ready and willing to assist with the onboarding process. These buddies are experienced on-call engineers who can provide guidance and support and share their invaluable knowledge.
 
 The EOC on-call buddy system is designed to:
@@ -52,7 +52,7 @@ If you are willing to become a EOC-Buddy, assign yourself to `@eoc-buddies` Slac
 1. Join the [SRE Shadow rotation schedule](https://gitlab.pagerduty.com/schedules#PZEBYO0) in PagerDuty and align your shifts with your EOC-Buddy's on-call shifts.
 1. Schedule weekly 45-minute calls with your EOC-Buddy. These calls should occur after each on-call weekly shift.
 Review and discuss incidents from the past week
-1. Begin responding to S3/S4 incidents as primary responder. Your Buddy will provide guidance and support. Document learnings and questions 
+1. Begin responding to S3/S4 incidents as primary responder. Your Buddy will provide guidance and support. Document learnings and questions
 1. Continue working through the SRE-oncall onboarding issue, track your progress and completion of required tasks
 
 ### Being an EOC-Buddy

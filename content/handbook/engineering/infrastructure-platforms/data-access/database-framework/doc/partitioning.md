@@ -10,7 +10,7 @@ This is a working document to discuss how we are going to introduce table partit
 
 The PostgreSQL database we run for GitLab.com has grown to over 5 TB in total size as of early 2020. However, the total database size is *not* the driver to introduce partitioning but the size of individual tables is:
 
-![gitlab-com-table-sizes](gitlab-com-table-sizes.png)
+![gitlab-com-table-sizes](/images/engineering/infrastructure-platforms/data-access/database-framework/doc/gitlab-com-table-sizes.png)
 
 We can see here that there are individual tables larger than 100 GB, some even go up in the terabytes range.
 
@@ -76,7 +76,7 @@ We analyzed the impact of partitioning for group-based issue search ([summary](i
 
 This is a simplified view of a part of GitLab's database schema: Largest tables on GitLab.com along with a few of their references. The color indicates how large the table roughly is: Deep red (> 200 GB), orange (> 100 GB), yellow (> 60 GB), blue (else). For detailed sizes please refer to the image at the top of the doc.
 
-![gitlab-model-simplified](gitlab-model-simplified.png)
+![gitlab-model-simplified](/images/engineering/infrastructure-platforms/data-access/database-framework/doc/gitlab-model-simplified.png)
 
 *(Disclaimer: Highly simplified, WIP and likely not detailed enough)*
 
@@ -98,7 +98,7 @@ The downside of denormalization is that there may be situations where a mass-upd
 
 We analyzed how issues distribute across partitions using a hash-based partitioning strategy (by top-level namespace). This is how the number of issues distributes across a set of 128 partitions (find more graphs for [64](https://gitlab.com/abrandl/gitlab-issue-partitioning/-/blob/master/issues_with_64_partitions.png), [256](https://gitlab.com/abrandl/gitlab-issue-partitioning/-/blob/master/issues_with_256_partitions.png) and [512](https://gitlab.com/abrandl/gitlab-issue-partitioning/-/blob/master/issues_with_512_partitions.png) partitions). The red line indicates the desired optimal distribution (1/128 per partition).
 
-![issues_with_128_partitions](issues_with_128_partitions.png)
+![issues_with_128_partitions](/images/engineering/infrastructure-platforms/data-access/database-framework/doc/issues_with_128_partitions.png)
 
 ### Implementation roadmap
 

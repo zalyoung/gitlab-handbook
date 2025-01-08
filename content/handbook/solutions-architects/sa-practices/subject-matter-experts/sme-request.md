@@ -13,7 +13,7 @@ To request a Subject Matter Expert (SME) for an opportunity, follow these steps:
   * To submit a request for help from a SME, select the **SME Request** workflow in the Slack channel from the "_Workflows_" tab below the channel name.
 
   ![SME Request Workflow](/images/solution-architects/initiate_sme_request.png)
-  
+
   * Alternatively, you can type "_/sme_" in the Slack message field and hit Enter to open the request form after you have previously opened the workflow at least once.
 
   ![Slash SME Request Alternative](/images/solution-architects/slash_sme.png)
@@ -56,34 +56,34 @@ To request a Subject Matter Expert (SME) for an opportunity, follow these steps:
 
 In lieu of directly engaging Product management, SMEs should be requested or engaged in the appropriate `sme-` slack channel, for one of the following scenarios:
 
-1. [Answering Technical Questions](#sme-questions) 
+1. [Answering Technical Questions](#sme-questions)
    1. Ask the question in the `sme-` channel using the Stack Overflow command `/stack ask`, and have a SME answer it.
    2. If questions are asked in a customer channel or in the `f_` channels, Product Managers are free to redirect these questions to the SMEs using the SME Slack handles.
-2. [Request for Content.](#sme-content) 
+2. [Request for Content.](#sme-content)
 3. [Request for a Demo.](#sme-demo)
-4. [Request for Best Practices.](#sme-best-practice) 
-5. Request to Speak at a Conference. 
+4. [Request for Best Practices.](#sme-best-practice)
+5. Request to Speak at a Conference.
 6. Request to join a Customer Call, in order to conduct a demo, discuss best practices or just to answer technical questions.
 7. During a POV, and help is needed. Engage a SME in the `sme-` channel, to help first triage the situation. You, along with the SME, before engaging a PM should do the following:
    1. Gather the required detail information (customer configuration, steps to reproduce etc.)
    2. Search existing documentation (internal or external) or past issues for a solution
-   3. Ask other SMEs or Support using the [Super Support Form](/handbook.gitlab.com/handbook/support/readiness/operations/docs/gitlab/support_super_form/) for help
+   3. Ask other SMEs or Support using the [Super Support Form](/handbook/support/readiness/operations/docs/gitlab/support_super_form/) for help
    4. SMEs can also reach out to PMs for one off questions or gain more clarification.
 
 #### When to Engage a Product Manager
 
-Please see [SME Engagement with Product Management](/handbook.gitlab.com/handbook/solutions-architects/sa-practices/subject-matter-experts/sme-engage-pm/)for a full discussion on how SAs, CSMs, and SMEs, should now engage with PMs alongside the SME Program.
+Please see [SME Engagement with Product Management](/handbook/solutions-architects/sa-practices/subject-matter-experts/sme-engage-pm/)for a full discussion on how SAs, CSMs, and SMEs, should now engage with PMs alongside the SME Program.
 
-**In summary, you can engage PMs**, as noted in the [Product Management Section of the Handbook](/handbook.gitlab.com/handbook/product/product-management/#requests-for-product-support) , for the following scenarios:
+**In summary, you can engage PMs**, as noted in the [Product Management Section of the Handbook](/handbook/product/product-management/#requests-for-product-support) , for the following scenarios:
 
 1. Request for a Roadmap.
 2. Discussion on the Direct of the Product.
-3. Feedback and Questions on Gaps in Functionality 
+3. Feedback and Questions on Gaps in Functionality
 4. Request to join a Customer Meeting to discuss for gaps in functionality, roadmaps, or future direction of the product.
    1. Please follow the Product Management process to request a [Customer Call](/handbook/product/product-management/#product-joining-customer-calls)
-   2. **NOTE: At no time should an AE, SA, or CSA request that a PM joins a call for tomorrow or the next day, especially just to answer technical questions, or best practices.**  See list 
+   2. **NOTE: At no time should an AE, SA, or CSA request that a PM joins a call for tomorrow or the next day, especially just to answer technical questions, or best practices.**  See list
     of scenarios above where SMEs should be requested instead of a PM.
-   3. Do not just simply request a Product Manager to join a call just because the AE insists, or you have not gathered the context or done any extensive discovery beforehand on exactly what the customer needs. 
+   3. Do not just simply request a Product Manager to join a call just because the AE insists, or you have not gathered the context or done any extensive discovery beforehand on exactly what the customer needs.
 5. During a POV, and you have already triaged with a SME as discussed above. This is usually the case assistance is needed on brand new functionality, or there is a need for a bug fix or enhancement.
 6. During a customer escalation, once the appropriate [escalation process](/handbook/product/product-management/#how-do-i-escalate-a-feature-request) has been followed.
 
@@ -99,7 +99,7 @@ Please see [SME Engagement with Product Management](/handbook.gitlab.com/handboo
 
 #### General Guidance
 
-1. If there are a a lot of follow ups or feedback needed for the customer, Create a **\<Customer\> SME Support Feedback Issue** in the SME Area Project under the [SME Collaboration Group](https://gitlab.com/gitlab-com/customer-success/subject-matter-experts), with appropriate action items. 
+1. If there are a a lot of follow ups or feedback needed for the customer, Create a **\<Customer\> SME Support Feedback Issue** in the SME Area Project under the [SME Collaboration Group](https://gitlab.com/gitlab-com/customer-success/subject-matter-experts), with appropriate action items.
 2. Add all the Action Items  needed. Action Items can be in the form of:
    1. [Technical Questions to be Answered (with list of Questions)](#sme-questions)
    2. [Request for a Demo](#sme-demo)
@@ -114,7 +114,7 @@ Please see [SME Engagement with Product Management](/handbook.gitlab.com/handboo
 
 Any SA or CSM can ask a technical question in the appropriate `sme-` channel using the Stack Overflow command `/stack ask`, and have a SME answer it.
 
-If a list of technical questions were sent before a customer call, or after as a follow up, the SME can take these addiitonal actions: 
+If a list of technical questions were sent before a customer call, or after as a follow up, the SME can take these addiitonal actions:
 
 1. If you believe that this request could have been prevented with better Discovery or you think this is an opportunity to add to the Discovery Questions, please go to the Contents & Collaterals Issue (see [Dedicated example](https://gitlab.com/gitlab-com/customer-success/subject-matter-experts/sa-sme-team-dedicated/-/issues/7 "Contents & Collaterals - SA SME Team Dedicated")) for the appropriate SME Area in the [SME Collaboration Project](https://gitlab.com/gitlab-com/customer-success/subject-matter-experts)  and add your Discovery questions for the good of the whole orh.
 2. If questions came up with the customer, where the answers should be shared with SAs and CSMs, as an action item add to StackOverflow (TBD on process), and/or add the question and answer to each SME Area FAQ (See Contents & Collaterals Issue in the [SME Collaboration Project](https://gitlab.com/gitlab-com/customer-success/subject-matter-experts) )
@@ -122,7 +122,7 @@ If a list of technical questions were sent before a customer call, or after as a
 
 #### **Request for Demo** {#sme-demo}
 
-1. If a Demo was requested, as the SME please record your demo before hand, or record the customer call on Gong if possible, and add that Demo on the [SME Hub on Highspot](https://gitlab.highspot.com/items/667095b95cc9b08c87d40b68?lfrm=isd.9) or [Demo Excellence Catalog](https://gitlab.highspot.com/items/6604439000e80e153ec8b204?lfrm=isd.6). 
+1. If a Demo was requested, as the SME please record your demo before hand, or record the customer call on Gong if possible, and add that Demo on the [SME Hub on Highspot](https://gitlab.highspot.com/items/667095b95cc9b08c87d40b68?lfrm=isd.9) or [Demo Excellence Catalog](https://gitlab.highspot.com/items/6604439000e80e153ec8b204?lfrm=isd.6).
 
 #### Request for Content to Be Shared {#sme-content}
 
@@ -139,13 +139,13 @@ Note: The SMEs are not necessary responsible for creating or producing every con
 
 This is the list of Content, SMEs are responsible for creating or gathering:
 
-\-List of discovery questions\
+-List of discovery questions\
 -Frequently asked questions\
 -List of any Recorded enablement sessions\
 -Work with PMs for Golden demos\
--[Hands-on workshops](/handbook.gitlab.com/handbook//solutions-architects/tools-and-resources/workshop/)\
+-[Hands-on workshops](/handbook/solutions-architects/tools-and-resources/workshop/)\
 -Technical evaluation guidelines\
--[POV](/handbook.gitlab.com/handbook//solutions-architects/tools-and-resources/pov/) templates\
+-[POV](/handbook/solutions-architects/tools-and-resources/pov/) templates\
 -Competitive intelligence
 
 #### **Request for Best Practices** {#sme-best-practice}

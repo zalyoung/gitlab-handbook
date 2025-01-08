@@ -108,16 +108,16 @@ Below is the timeline for FY26:
 
 - Planning: 2024-11-01 to 2024-12-01
 - Calibrations: 2024-12-02 to 2025-01-03
-- Workday input by Director+: 2025-01-09 to 2025-01-17
-- PBP + E-Group Leader approvals: 2025-01-20 to 2025-01-21
-- Workday Approvals: 2025-01-22 to 2025-01-24
+- Workday input by Director+: 2025-01-09 to 2025-01-16
+- PBP + E-Group Leader approvals: 2025-01-17 to 2025-01-20
+- Workday Approvals: 2025-01-21 to 2025-01-24
 - Team member individual communication: 2025-01-27 to 2025-01-31 (after fully approved in Workday)
 - Effective date for promotions: 2025-02-01
 - After communicating 1:1 with individuals on or after 2025-02-01, updates can be posted publicly in #team-member-updates. **Managers should not communicate until Total Rewards communicates that the promotions are fully approved.**
 
 ### FY26-Q4 (Nov 1)
 
-Status: Pending  
+Status: Pending
 
 - Planning:
 - Calibrations & Workday input by Director+:
@@ -129,7 +129,7 @@ Status: Pending
 
 ### FY27-Q2 (May 1)
 
-Status: Pending  
+Status: Pending
 
 - Planning:
 - Calibrations & Workday input by Director+:
@@ -141,7 +141,7 @@ Status: Pending
 
 ### FY27-Q4 (Nov 1)
 
-Status: Pending  
+Status: Pending
 
 - Planning:
 - Calibrations & Workday input by Director+:
@@ -161,7 +161,7 @@ Once the Calibration phase by Division is complete, Directors and above will hav
 
 The [promotion document](https://docs.google.com/document/d/1oXH9HzdO8gjqdeosstQRC1Mqt_5lCaN1U2kaF9Av-Ec/edit?usp=sharing) is required for all in-line promotions. **Promotion documents should not exceed three pages total.**
 
-As the audience are other GitLab team members, the text should be written in third person using the team member's name and appropriate pronouns (he/she/they) to highlight the work and skills as evidence of the team member's suitability for the role. A [style guide](/handbook/people-group/promotion-document-style-guide/) is available to assist in crafting a compelling document. You can utilize a bullet format to ensure that you are capturing the relevant sections per [business result](/handbook.gitlab.com/handbook/people-group/promotions-transfers/#business-results) or a short paragraph.
+As the audience are other GitLab team members, the text should be written in third person using the team member's name and appropriate pronouns (he/she/they) to highlight the work and skills as evidence of the team member's suitability for the role. A [style guide](/handbook/people-group/promotion-document-style-guide/) is available to assist in crafting a compelling document. You can utilize a bullet format to ensure that you are capturing the relevant sections per [business result](/handbook/people-group/promotions-transfers/#business-results) or a short paragraph.
 
 In-line promotion documents should demonstrate values alignment, business need for the role, and team member readiness through delivery of impactful business results. The core sections in our promotion document are: Promotion Summary, Business Results/Impact, Values Alignment and Business Justification.
 
@@ -173,7 +173,7 @@ This section is a high-level summary (3-5 sentences) of achievements that demons
 
 As our most important [value](/handbook/values/#hierarchy), results are at the core of everything we do.
 
-Please list the 3 most impactful results (accomplishments, initiatives, or projects) that demonstrate the team member's performance at the next level aligned with our values and expectations in the [job framework](https://docs.google.com/spreadsheets/d/1A46wqVK0ZdhmN7HT7G3QrBbExJw6vZJrSCFIiFd9T7U/edit?gid=0#gid=0). 
+Please list the 3 most impactful results (accomplishments, initiatives, or projects) that demonstrate the team member's performance at the next level aligned with our values and expectations in the [job framework](https://docs.google.com/spreadsheets/d/1A46wqVK0ZdhmN7HT7G3QrBbExJw6vZJrSCFIiFd9T7U/edit?gid=0#gid=0).
 
 **Project impact on GitLab / Business Result**
 
@@ -255,18 +255,18 @@ Promotions to Senior Director+ level ([job grade 11]({{< ref "compensation-calcu
 
 1. **Planning**: Senior Director+ promotions need to be added to E-group's promotion project sheet at least two quarters ahead of the desired promotion quarter for visibility. For example, if I want to promote an individual effective in Q1 (February), then I need to have this team member added to E-group's projection sheet within Q3 (latest October). Please work with your aligned People Business Partner, who will ensure the promotion projection is added.
 1. **Level Scoping**: We want to ensure rigor and consistency in our organization design principles and expectations for senior leadership roles. For Senior Director+ promotions, we utilize a scoping tool to evaluate the role (not the team member) for business need and alignment to the Job Frameworks.
-1. **Cross Functional Feedback**: We require at least 3 examples of cross functional feedback when reviewing Senior Director+ promotions. This feedback will not be made public and will only be reviewed by the calibration committee, PBP, direct manager and team member. 
+1. **Cross Functional Feedback**: We require at least 3 examples of cross functional feedback when reviewing Senior Director+ promotions. This feedback will not be made public and will only be reviewed by the calibration committee, PBP, direct manager and team member.
 
-- All three of the business results highlighted in the promotion document should have feedback provided from at least one cross functional team member. 
+- All three of the business results highlighted in the promotion document should have feedback provided from at least one cross functional team member.
 - Feedback providers should have direct experience working with the team member on one or more of the business results highlighted in their promotion document as a project team member, DRI, or stakeholder.
 - Feedback provider is not in the same reporting line as the manager (I.E. not team member’s manager, skip level, etc.)
 - Feedback providers must be cross-functional. When determining the most appropriate team members to provide feedback, the core focus should be on who worked most closely with the promotion candidate on the business results highlighted in the promotion document.
 - Feedback providers should be at or above the target promotion level. Feedback providers can be individual contributors or people managers at or above the target promotion level. The reason we require feedback providers to be at or above the target promotion level is to ensure they are able to speak to business results and collaboration in the context of next level expectations as team members who are already operating at the next level.
 - Feedback will be captured in [this template](https://docs.google.com/document/d/12WRYWICcxwvyVP4L052v9ciSNIhUlRUKGkr1AKq89zY/edit?usp=sharing), separate from the Promotion Document and will be reviewed as part of the calibration discussion. Feedback will be summarized, and it is not required to provide specific names of the feedback providers.
 
-**Feedback question guidance**: 
+**Feedback question guidance**:
 
-1. Please provide feedback on X delivery of Y business results, and collaboration with you and/or your team. 
+1. Please provide feedback on X delivery of Y business results, and collaboration with you and/or your team.
 1. Specifically highlight performance against the Job Frameworks, CREDIT Values and HPT Pillars
 
 1. **Calibration**: All Senior Director level promotions are calibrated at the Divisional VP+ leadership level, as opposed to at the Department level. Vice President level promotions are calibrated at E-group. The calibration timeline will align to the timing of the [E-group offsite]({{< ref "offsite#schedule" >}}) or extended monthly meeting, and will thus differ from the Calibration timeline of the rest of the organization. All promotion documents, feedback summaries and scoping tools need to be completed and shared with the E-group for visibility and preparation at least *2 weeks before the off-site date*.
@@ -664,7 +664,7 @@ Note for Sales Managers: If team members are not moved under the correct sales m
 
 ## Department Transfers
 
-If you are interested in applying for an open role, please do so  through [Greenhouse](https://boards.greenhouse.io/gitlab) or the internal job board, link found on the `#new-vacancies` Slack channel.
+If you are interested in applying for an open role, please do so  through [Greenhouse](https://job-boards.greenhouse.io/gitlab) or the internal job board, link found on the `#new-vacancies` Slack channel.
 
 Please understand the following eligibility guidelines that need to be met to be able to proceed with your application:
 
@@ -868,5 +868,16 @@ When a new team member moves to your team, in addition to the items above in "Tr
 - Do this `confidential handover` periodically (perhaps 2 weeks, 4 weeks and 6 weeks after transition). This will allow not only initial questions and considerations to come up, but also new ones as they arise.
 - Include in this handover the information you need for talent assessment planning that was confidential and not discussed in the 1-1-1.
 - If your new direct report is potentially up for promotion in the next 6 months, be sure to transition the information that supports from the previous manager and be the DRI to drive this forward, including both information discussed in the 1-1-1 and any confidential information discussed in the `confidential handover`.
+
+## For Team Members: Updating Your Title After A Role Change
+
+Your profile will need to be updated in a few places to reflect your new title change. Including, but not limited to:
+
+- [GitLab profile](https://gitlab.com/-/user_settings/profile)
+- [GitLab Team Page](https://gitlab.com/gitlab-com/www-gitlab-com/-/tree/master/data/team_members/person)
+- [Zoom profile](https://zoom.us/profile)
+- Slack profile (updated within Slack)
+- Gmail signature (updated within Gmail), see [guidelines](https://handbook.gitlab.com/handbook/tools-and-tips/#email-signature)
+- [Guide profile](https://app.guide.co/account/profile), if you take part in hiring
 
 ## Footnotes

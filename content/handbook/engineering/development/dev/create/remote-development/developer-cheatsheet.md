@@ -241,7 +241,7 @@ Depending on your existing habits and `git` practices the habits below may help 
 
 About testing:
 
-- Vue test utils guide: <https://vue-test-utils.vuejs.org/guides/>
+- Vue test utils guide: <https://v1.test-utils.vuejs.org/guides/>
 - Book: The way of the web tester: <https://pragprog.com/titles/jrtest/>
 - An essay on mocks: <https://martinfowler.com/articles/mocksArentStubs.html>
 - Clean architecture book: <https://www.amazon.com/Clean-Architecture-Craftsmans-Software-Structure/dp/0134494164>

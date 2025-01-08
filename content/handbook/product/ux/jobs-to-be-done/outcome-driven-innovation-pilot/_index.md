@@ -38,7 +38,7 @@ Understanding the different [Job types]<!--(handbook/product/ux/jobs-to-be-done/
 
 The Job Map is a visual representation of the sequence of [Stages]<!--(/handbook/product/ux/jobs-to-be-done/jtbd_topics__definitions/#job-stages)--> a [Job Performer]<!--(/handbook/product/ux/jobs-to-be-done/jtbd_topics__definitions/#job-performers)--> goes through to complete the [Main Job]<!--(/handbook/product/ux/jobs-to-be-done/jtbd_topics__definitions/#main-jobs)-->. It reveals the underlying patterns of intent and the sub-goals that comprise accomplishing the overall Job.
 
-![Job Map](Concepts_Job_Map.png)
+![Job Map](/images/product/ux/jobs-to-be-done/outcome-driven-innovation-pilot/Concepts_Job_Map.png)
 
 Common [Stages]<!--(/handbook/product/ux/jobs-to-be-done/jtbd_topics__definitions/#job-stages)--> of a Job Map include, _but are not limited to:_
 
@@ -59,7 +59,7 @@ These [Stages]<!--(/handbook/product/ux/jobs-to-be-done/jtbd_topics__definitions
 
 **[Outcomes]<!--(/handbook/product/ux/jobs-to-be-done/jtbd_topics__definitions/#outcomes)--> are the most crucial part of the JTBD framework**, as they help you understand what users truly value and how to design solutions that better meet their needs. By focusing on Outcomes rather than features or functionality, you can uncover unmet or [Underserved Needs]<!--(/handbook/product/ux/jobs-to-be-done/jtbd_topics__definitions/#underserved-needs)--> and identify opportunities to create differentiated value. By understanding the [Outcomes]<!--(/handbook/product/ux/jobs-to-be-done/jtbd_topics__definitions/#outcomes)--> that users care about, you can design more effective solutions, make better prioritization decisions, and measure the true impact of your work.
 
-![Job Map](Concepts_Outcomes.png)
+![Job Map](/images/product/ux/jobs-to-be-done/outcome-driven-innovation-pilot/Concepts_Outcomes.png)
 
 ### Continuous Evaluation
 
@@ -243,7 +243,7 @@ No, a user persona represents a person in an organization with a particular job 
 
 While using the JTBD framework, a user's job title or personal details are not as crucial as their capability to successfully carry out the job process. As a result, the two frameworks do have some overlap but are not designed to fit together perfectly. The following visual Venn diagram may be helpful in understanding this overlap.
 
-![PerformerPersonaDiagram](persona-v-performer.png)
+![PerformerPersonaDiagram](/images/product/ux/jobs-to-be-done/outcome-driven-innovation-pilot/persona-v-performer.png)
 
 ### *How* will the job get done? (objective of the JTBD)
 

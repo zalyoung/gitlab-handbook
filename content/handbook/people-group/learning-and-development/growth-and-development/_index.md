@@ -21,6 +21,8 @@ Here is a step by step guide on how to apply for G&D applications:
 
 Start by having a [growth conversation](/handbook/people-group/learning-and-development/career-development/#what-is-career-development) with your manager to discuss the learning opportunity. It’s important to talk through the timing, workload, and application timeline of the program to ensure coverage for your team. This conversation should allow time for you to apply for the program before it begins and allow your manager to ensure team capacity.
 
+[G&D Select](https://university.gitlab.com/access/saml/login/internal-team-members?returnTo=https://university.gitlab.com/pages/gd-select) is a directory of opportunities of recommended opportunities from GitLab team members.
+
 <details>
 <summary>Manager Guidance: Growth Conversations & Recommending Opportunities </summary>
 
@@ -196,7 +198,7 @@ Please use the [Other G&D Types](https://gitlab.com/gitlab-com/people-group/lear
 
 ### Coaching
 
-Please note, using G&D for coaching is only available for managers and leaders grade 8+. Team members job grade 4-7 can receive external coaching from [Modern Health](handbook/total-rewards/benefits/modern-health/#how-can-modern-health-support-my-career-goals).
+Please note, using G&D for coaching is only available for managers and leaders grade 8+. Team members job grade 4-7 can receive external coaching from [Modern Health](/handbook/total-rewards/benefits/modern-health/#how-can-modern-health-support-my-career-goals).
 
 #### Coaching Right Now
 

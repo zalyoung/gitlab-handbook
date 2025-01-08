@@ -49,7 +49,7 @@ The following people of other functional teams are our stable counterparts:
 
 ## Common Links
 
-- GitLab Team Handle: `@gitlab-com/create-team/source-code/backend` 
+- GitLab Team Handle: `@gitlab-com/create-team/source-code/backend`
 - Slack Channel: `#g_create_source-code-be`
 
 ## Sisense and KPIs
@@ -321,12 +321,10 @@ Issues scheduled for the release are then marked ~"workflow::ready for developme
 
 #### Issue assignments
 
-Once availability has been determined, weights have been assigned, and the PM/EM finalize a list of prioritized issues for the upcoming release, kickoff emails will be sent. The intent of this email is to notify you of the work we intend to assign for the upcoming release. This email will be sent before the release begins. The kickoff email will include:
+Issue assignments are done collaboratively during the monthly Backlog Refinement meeting and Milestone Planning meetings.
+If any priority issues emerge after these meetings, or if assignments can't be done during these meetings, the EM will assign the issues directly, before the milestone starts.
 
-- Your availability, weight budget, and how it was calculated
-- A list of the issues you will most probably be assigned as an individual
-- A reasoning behind why you have been assigned more than your weight budget, if applicable
-- A list of the issues the team is working on that are deemed "note-worthy," in case you'd like to offer help on those issues as time allows
+#### Follow up issues
 
 You will begin to collect follow-up issues when you've worked on something in a release but have tasks leftover, such as technical debt, feature flag rollouts or removals, or non-blocking work for the issue. For these, you can address them in at least 2 ways:
 

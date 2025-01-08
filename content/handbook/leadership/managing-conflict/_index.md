@@ -133,6 +133,6 @@ If you are interested in learning about conflict and your role as a manager plea
 - [Do You Handle Conflict like a Rhinoceros or an Ostrich](https://keithrosen.com/2015/04/14/do-you-handle-conflict-like-a-rhinoceros-or-an-ostrich/)
 - [How to deal with employees who do not get along](https://www.insperity.com/blog/employees-who-dont-get-along/)
   [How managers should deal with conflict between two employees](https://www.theladders.com/career-advice/how-managers-should-deal-with-conflict-between-two-employees)
-- [5 Conflict Management Skills For Every Manager](https://lattice.com/library/conflict-management-skills-for-every-manager)
+- [5 Conflict Management Skills For Every Manager](https://lattice.com/articles/conflict-management-skills-for-every-manager)
 - [5 Conflict Management Styles for Every Personality type](https://blog.hubspot.com/service/conflict-management-styles)
 - [The Science of Productive Conflict: Podcast Transcript](https://www.ted.com/podcasts/worklife/the-science-of-productive-conflict-transcript)

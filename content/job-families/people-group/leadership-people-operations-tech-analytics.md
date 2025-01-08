@@ -61,7 +61,7 @@ The next step is to move to Sr. Director, People Technology & Analytics
 
 The Sr. Director, People Technology reports to VP, People Operations.
 
-#### Sr. Director, People Technology 
+#### Sr. Director, People Technology
 
 The Sr. Director, People Technology is [Job Grade 11](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
 

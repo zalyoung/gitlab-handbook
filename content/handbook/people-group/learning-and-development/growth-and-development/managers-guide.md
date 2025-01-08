@@ -28,7 +28,7 @@ As a result of these career conversations, you may identify an opportunity that 
 
 Individual OKRs and business goals should not be tied to GD opportunities, unless the individual team member thinks it's appropriate.
 
-Growth and Development applications should generally be self-directed by your team members, but if each of your team members has G&D budget remaining, there are instances in which a manager can recommend a training for their whole team to make use of. Take a look at the [Bulk Applications](handbook/total-rewards/benefits/general-and-entity-benefits/growth-and-development/#bulk-applications) section for more info
+Growth and Development applications should generally be self-directed by your team members, but if each of your team members has G&D budget remaining, there are instances in which a manager can recommend a training for their whole team to make use of. Take a look at the [Bulk Applications](/handbook/people-group/learning-and-development/growth-and-development/#bulk-applications) section for more info
 
 We see use of the Growth and Development fund as a great means of supporting [High Performing Teams](/handbook/company/high-performing-teams/#high-performing-teams-indicators) at GitLab
 

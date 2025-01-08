@@ -48,7 +48,7 @@ NB: All the Shortlinks on this page can be managed at [https://campaign-manager.
 
 Opening an issue is the best way to get a conversation started. The `developer-advocacy` label is at the `gitlab-com` group level, which means it can be added to any issue or merge request in the group's structure.
 
-The `developer-advocacy` label is required, other labels are optional. The [DevRel-Bot](/handbook/marketing/developer-relations/developer-advocacy/projects/#developer-advocacy-bot) or a team member will do the triage and add the necessary labels. To reduce noise in the comments, please add the `DA-Type::Consulting` and the relevant `Consulting` team labels yourself.
+The `developer-advocacy` label is required, other labels are optional. The [DevRel-Bot](https://gitlab.com/gitlab-da/projects/devrel-bot) or a team member will do the triage and add the necessary labels. To reduce noise in the comments, please add the `DA-Type::Consulting` and the relevant `Consulting` team labels yourself.
 
 You can use the [request a Developer Advocate issue template](https://gitlab.com/gitlab-com/marketing/developer-relations/developer-advocacy/developer-advocacy-meta/-/issues/new?issuable_template=developer-advocate-request) to submit a request. It provides a guide to collect the required information to triage the request.
 
@@ -72,7 +72,7 @@ The Developer Advocate team workflow is supported by labels, which help determin
 
 ### Issue management
 
-#### Workflow
+#### General Workflow Labels
 
 | Label | Use |
 |-------|-----|
@@ -84,6 +84,19 @@ The Developer Advocate team workflow is supported by labels, which help determin
 |`DA-Status::FYI` | Issues the team needs to be aware of but no action is required |
 
 The default flow is from ToDo -> Doing -> (OnHold) -> Done. Issues with FYI don't go through any workflow, as they are owned by another team and will go through a different workflow.
+
+#### Content Workflow Labels
+
+For content specific workflow, we use the following labels:
+
+| Label | Use |
+|-------|---------|
+| `DA-Content::New` | Newly created content issue, this is automatically added when the content issue [template](https://gitlab.com/gitlab-com/marketing/developer-relations/developer-advocacy/developer-advocacy-meta/-/issues/new?issuable_template=content) is used. The DevRel-Bot sets the general workflow status for an issue to  `DA-Status::ToDo` when this label is encountered |
+| `DA-Content::In-Progress` | Issues where content is in progress. DevRel-Bot sets the general workflow status for an issue with this label is set to `DA-Status::Doing`. This label is automatically applied to existing content issues with now Content workflow labels. |
+| `DA-Content::In-Review` | Content is currently in review, general workflow status remains `DA-Status::Doing` |
+| `DA-Content::Awaiting-Publication` | Content has been completed and queued for publication, general workflow status moves to `DA-Status::OnHold` |
+| `DA-Content::Done-Metrics-Pending` | Content completed and published but waiting to collecting metrics, general workflow status moves to `DA-Status::OnHold`, once metrics collection is completed, content author is required to close the issue. DevRel-bot will change the label to  `DA-Content::Published` |
+| `DA-Content::Published` | Content has been concluded, DevRel-bot will close any issue with this label |
 
 #### Issue Types
 

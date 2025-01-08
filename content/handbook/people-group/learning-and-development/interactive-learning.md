@@ -88,7 +88,7 @@ The following best practices should be followed when using video to create handb
 
 Other best practices for recording new learning video include:
 
-1. Turn on [Zoom closed captionining and live transcription](https://support.zoom.us/hc/en-us/articles/207279736-Closed-captioning-and-live-transcription)
+1. Turn on [Zoom closed captionining and live transcription](https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0062490)
 1. Whenever possible, upload public videos to YouTube and use the YouTube link to share video on EdCast. This allows users to enable YouTube `closed caption` feature
 1. Upload `.vtt` files with video content added to Rise courses using Articulate360 to include closed captions within the course.
 1. The L&D team collaborates with Marketing Ops to use the tool Smartling to hard code closed captions to video that is not uploaded to YouTube. Video files should be shared with the Marketing Ops team who can support collaboration with Smartling. Expect anywhere between 1 day to 1 week turnaround on the video transcription based on the video length.

@@ -4,9 +4,9 @@ title: Annual Compensation Review Cycle
 
 ## Introduction
 
-On this page, we explain how we carry out the Annual Compensation Review (ACR) cycle. 
+On this page, we explain how we carry out the Annual Compensation Review (ACR) cycle.
 
-If you have any feedback or questions about Annual Compensation Review, please contact [HelpLab](/handbook/business-technology/enterprise-applications/guides/helplab-guide). 
+If you have any feedback or questions about Annual Compensation Review, please contact [HelpLab](/handbook/business-technology/enterprise-applications/guides/helplab-guide).
 
 ## Annual Compensation Review
 
@@ -54,8 +54,8 @@ Team members on leave will be eligible to receive an annual compensation and/or 
 
 Team members hired after the cutoff date will be reviewed to ensure their salary does not fall below the minimum of the compensation range. Team members may be below the compensation range due to updates to the range for the upcoming year that would include changes to benchmark, location factor, and/or exchange rate, if applicable. If this does occur, the team member will be adjusted to the minimum of the range during the Annual Compensation Review cycle.
 
-Eligibility for review does not guarantee an increase will be awarded. 
+Eligibility for review does not guarantee an increase will be awarded.
 
 ### Annual Compensation Review Timeline
 
-Annual Compensation Review will take place in March and April with all merit increases, if applicable, taking effect on May 1. More information on the timeline and process will be added closer to the launch of the program. 
+Annual Compensation Review will take place in March and April with all merit increases, if applicable, taking effect on May 1. More information on the timeline and process will be added closer to the launch of the program.

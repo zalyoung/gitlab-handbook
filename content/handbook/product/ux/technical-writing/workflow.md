@@ -471,20 +471,6 @@ documentation for their assigned stage.
 For [documentation improvements](#documentation-feedback-and-improvements), stage leads are responsible for creating an
 issue board to track ongoing and planned documentation enhancements and additions.
 
-## Topic types and team progress
-
-The Technical Writing team is always working to improve the quality of the documentation.
-Specifically, we are working to implement [topic types](https://docs.gitlab.com/ee/development/documentation/topic_types/).
-
-We are currently tracking updates to the [**Use GitLab**](https://docs.gitlab.com/ee/user/)
-section of the global navigation.
-
-| Date           | # of pages done | # of pages total | Percent complete |
-|----------------|-----------------|------------------|------------------|
-| September 2023 | 259             | 658              | 39 %             |
-| October 2022   | 245             | 468              | 52 %             |
-| April 2022     | 161             | 420              | 38 %             |
-
 ## Hackathons
 
 The Technical Writing team takes part in the [GitLab Hackathon](https://about.gitlab.com/community/hackathon/)
@@ -534,11 +520,11 @@ When working with issues or merge requests, the Technical Writing team uses
 issues' and merge requests' attributes (including the types of work being done).
 
 This information about labels supplements the [Issues workflow](https://gitlab.com/gitlab-org/gitlab/blob/master/doc/development/contributing/issue_workflow.md)
-page and the steps for [documentation feedback and improvements](#documentation-feedback-and-improvements). 
+page and the steps for [documentation feedback and improvements](#documentation-feedback-and-improvements).
 
 ### Usage
 
-Any issue or merge request for which a Technical Writer provides a measurable amount of work on (including content creation and reviews) *must* include the `Technical Writing` label. 
+Any issue or merge request for which a Technical Writer provides a measurable amount of work on (including content creation and reviews) *must* include the `Technical Writing` label.
 
 To further classify the type of effort, include one or more of the following labels:
 

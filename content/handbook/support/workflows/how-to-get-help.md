@@ -67,38 +67,13 @@ Especially if you feel you're stalled on a ticket and need assistance identifyin
 
 To enhance collaboration between the support and development teams, GitLab has implemented the Request for Help (RFH) process. This allows support engineers to formally request assistance from the specific GitLab development groups responsible for the relevant functionality when facing technical challenges that impede ticket resolution. This section outlines the necessary steps to effectively utilize the RFH process.
 
-It's important to note that this process is part of a broader, iterative strategy aimed at deploying this workflow across all development sections and groups at GitLab. If the RFH template for a particular development group is not yet available, please reach out to [John Lyttle](https://gitlab.com/jlyttle) to initiate the creation of the required RFH template.
+It's important to note that this process is part of a broader, iterative strategy aimed at deploying this workflow across all development sections and groups at GitLab. If an RFH template for a particular development group is not yet available, please reach out to [John Lyttle](https://gitlab.com/jlyttle) to initiate the creation of the required RFH template.
 
 #### Are you requesting for Dev help too soon?
 
-NO! To drive this point home, here's what our Devs have to say about this:
-
-> [...] _it's almost never too soon and every dev I've talked to about it has nothing but mountains of respect for support folks [...]_
-
-  -- **James Nutt**
-
-> _I always love it when anyone from the support team reaches out to me. It's not a bother at all; in fact, it has given me a lot of great ideas before.I actually wrote an [article](https://medium.com/popmenu-engineering/popmenus-culture-of-cross-functional-collaboration-dcc19bba3ea9) about how working with our support team helped get good outcomes for customers at a previous company_
-
-  -- **Lesley Razzaghian**
-
-> _Most are happy to help anytime. My only suggestion is to search docs first. That's really helpful for devs because we might link you to docs anyway. But then it's also helpful to know "the docs didn't address my question". Or they did but not clearly enough. These conversations give all involved a basis for improving docs once the question is answered._
-
-  -- **Drew Blessing**
-
-> _[...] If you stumble through and figure it out, and never tell us that you (or the customer) struggled, we don't get the feedback that we need to do better (which in many cases includes prioritizing doing better). And most of us want to do better._
->
->_Personally I wish Support would escalate to devs much sooner than they do on average. If that means that we get inundated with support requests that make it hard to focus on other work, then that's a sign that we need to deprioritize other features to focus on UX and docs (which are also features)._
-
-  -- **David Nelson**
-
-> _I'm never annoyed by support friends reaching out. It's you + me vs the problem after all!_
-_Devs love a puzzle, so I'm always keen.[...]_
-
-  -- **Charlie Ablett**
+NO! To drive this point home, here's what one of our Developers **Chad Woolley** had to say about this:
 
 > _If both Support and the Customer are confused about what the next steps are, at a minimum it's an indicator that something is lacking, either in our docs or support processes, and this is an opportunity to improve those areas._
-
-  -- **Chad Woolley**
 
 #### How to find the correct Development Section and Group to reach out for help
 
@@ -114,23 +89,13 @@ Alternatively, if you have set up the [Support dotfiles](https://gitlab.com/gitl
 
 _NOTE:_ A video recording of a similar workflow as the one described above can be found in the [Support Training repository](https://gitlab.com/gitlab-com/support/support-training/-/blob/main/Support%20Specific%20Trainings/training-videos/Support%20Request%20for%20Help%20Workflow.mp4)
 
-#### List of Development Sections and corresponding links to the Projects for requesting help
+#### The Request For Help Landing Page
 
-Note: Some sections are not yet available.
-If a section is not listed, consider a confidential issue in the GitLab project tracker and post in the relevant Slack channel.
-Please follow [support epic #222](https://gitlab.com/groups/gitlab-com/support/-/epics/222) for more information.
+The [Request for Help](https://gitlab.com/gitlab-com/request-for-help) landing page consolidates all GitLab Development Sections and their respective groups into a single repository. Unlike the previous process, all RFH templates are now centralized within this repository for easier access and management. To submit an issue, navigate to the page, locate the relevant GitLab Group, and click on its "Associated Template."
 
-| Development Section | Section Product Breakdown | Link to the GitLab RFH Project  | Corresponding Issue Board
-| ----------- | -------------- | -------- | --------
-| Ops (CI, CD) Section | [Ops Section Breakdown](/handbook/product/categories/#ops-section)| [Section Ops Request for Help](https://gitlab.com/gitlab-com/ops-sub-department/section-ops-request-for-help/) | [Section Ops Issue Board](https://gitlab.com/gitlab-com/ops-sub-department/section-ops-request-for-help/-/boards)
-| Dev Section | [Dev Section Breakdown](/handbook/product/categories/#dev-section) | [Section Dev Request for Help](https://gitlab.com/gitlab-com/dev-sub-department/section-dev-request-for-help/) | [Section Dev Issue Board](https://gitlab.com/gitlab-com/dev-sub-department/section-dev-request-for-help/-/boards)
-| Sec Section | [Sec Section Breakdown](/handbook/product/categories/#sec-section) | [Section Sec Request for Help](https://gitlab.com/gitlab-com/sec-sub-department/section-sec-request-for-help) | [Section Sec Issue Board](https://gitlab.com/gitlab-com/sec-sub-department/section-sec-request-for-help/-/boards)
-| Core Section | [Core Section Breakdown](/handbook/product/categories/#core-platform-section) | [Section Core Request for Help](https://gitlab.com/gitlab-com/core-sub-department/section-core-request-for-help/) | [Section Core Issue Board](https://gitlab.com/gitlab-com/core-sub-department/section-core-request-for-help/-/boards)
-| Fulfilment Section | [Fulfilment Section Breakdown](/handbook/product/categories/#fulfillment-section) | [Section Fulfilment Request for Help](https://gitlab.com/gitlab-com/fulfilment-sub-department/section-fulfilment-request-for-help) | [Section Fulfilment Issue Board](https://gitlab.com/gitlab-com/fulfilment-sub-department/section-fulfilment-request-for-help/-/boards)
-| SaaS Platforms Section | [SaaS Platforms Section Breakdown](/handbook/product/categories/#saas-platforms-section) | [SaaS Platforms Request for Help](https://gitlab.com/gitlab-com/saas-platforms/saas-platforms-request-for-help) | [Section SaaS Platforms Issue Board](https://gitlab.com/gitlab-com/saas-platforms/saas-platforms-request-for-help/-/boards)
-| GitLab Dedicated | [GitLab Dedicated Breakdown](/handbook/engineering/infrastructure/team/gitlab-dedicated/) | [GitLab Dedicated Request for Help](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/team/-/issues/new?issuable_template=support_request) | [GitLab Dedicated Issue Board](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/team/-/boards/7814856?label_name[]=support%3A%3Arequest-for-help)
-
-**Please note:** GitLab Dedicated is the first iteration for implementing a Request For Help Section for the SaaS section of GitLab development, therefore at the moment the GitLab project structure and workflows may not be consistent with the other development sections in the above table. You can find out more information on GitLab Dedicated internal processes by visiting the [Dedicated Team's ReadMe](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/team/-/blob/main/README.md).
+**Change Process:**
+If a section or group has been recently modified, please create a confidential issue in the GitLab project tracker, assign to @jlyttle and notify the relevant Slack channel.
+For additional details, refer to the [support epic #222](https://gitlab.com/groups/gitlab-com/support/-/epics/222) for more information.
 
 #### Research prior to opening an issue
 
@@ -138,13 +103,13 @@ Use the following repositories and resources for identifying similar issues or r
 
 1. Zendesk for related tickets.
 1. Previous GitLab Application [bugs and feature requests](https://gitlab.com/gitlab-org/gitlab/-/issues).
-1. Previously logged GitLab.com issues.
+1. Previously submitted GitLab.com issues.
+1. Previously submitted [Request for Help](https://gitlab.com/gitlab-com/request-for-help) issues.
 1. Discuss with knowledge experts and support stable counterparts.
-1. Search for previously opened issues in the relevant Development Section Project on GitLab.com.
 
 #### Create a detailed issue
 
-1. Open the corresponding Development Section Project as [defined in the above table](#list-of-development-sections-and-corresponding-links-to-the-projects-for-requesting-help).
+1. Open the [Request for Help](https://gitlab.com/gitlab-com/request-for-help) landing page.
 1. Review the Development groups and corresponding templates section.
    - Use the provided GitLab Handbook Section Breakdown link at the bottom of the Project ReadMe file if you are unsure about which Section Sub Group and corresponding template to use.
 1. Make sure to use the correct corresponding issue template when creating a new issue.
@@ -195,5 +160,5 @@ If you encounter any problems, such as obtaining a timely response from Developm
 Every problem is a little bit different. Sometimes it makes sense to try a different troubleshooting technique. These resources talk about general purpose approaches to troubleshooting:
 
 - Julia Evans' [comics](https://wizardzines.com/comics/), especially the ones about debugging
-- [The Pocket Guide to Debugging (PDF)](https://store.wizardzines.com/products/the-pocket-guide-to-debugging-pdf)
+- [The Pocket Guide to Debugging (PDF)](https://store.wizardzines.com/products/the-pocket-guide-to-debugging)
 - [General Purpose Troubleshooting Principles](https://brie.dev/troubleshooting/)

@@ -5,7 +5,7 @@ description: The Create:Code Review BE team is responsible for all backend aspec
 
 ## Team Vision & Mission
 
-Please refer to the category directions for [Code Review Workflow](https://about.gitlab.com/direction/create/code_review_workflow) and [GitLab CLI](https://about.gitlab.com/direction/create/gitlab_cli) for the current strategy and 1 year plan for these products.
+Please refer to the category directions for [Code Review Workflow](https://about.gitlab.com/direction/create/code_review_workflow/) and [GitLab CLI](https://about.gitlab.com/direction/create/gitlab_cli/) for the current strategy and 1 year plan for these products.
 
 ## Core Responsibilities
 

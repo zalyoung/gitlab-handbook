@@ -83,7 +83,7 @@ Media limits:
 
 Use the social card validators to verify the social preview of included URLs before sharing.
 
-- [OpenGraph validator](https://opengraph.xyz) to debug the tags, including social previews.
+- [OpenGraph validator](https://www.opengraph.xyz/) to debug the tags, including social previews.
 - [LinkedIn post inspector](https://www.linkedin.com/post-inspector/)
 
 #### Fast Emoji Workflows
@@ -103,7 +103,7 @@ LinkedIn provides [groups](https://www.linkedin.com/help/linkedin/answer/a540824
 - [DevOps and SRE discussions](https://www.linkedin.com/groups/6585254/): 137,000 members as of 2023-07-04
 - [Artificial Intelligence (AI), Digital Transformation, Data Science, Automation, Machine Learning, and Analytics Group](https://www.linkedin.com/groups/4376214/): 101,000 members as of 2023-07-04
 
-Benefits: Increase reach of content shares (for example, the [GitLab blog](https://about.gitlab.com/blog/)), attract new followers using the [creator mode profile](/handbook/marketing/developer-relations/developer-advocacy/social-media/#linkedin-use-creator-mode-profile).
+Benefits: Increase reach of content shares (for example, the [GitLab blog](https://about.gitlab.com/blog/)/), attract new followers using the [creator mode profile](/handbook/marketing/developer-relations/developer-advocacy/social-media/#linkedin-use-creator-mode-profile).
 
 Some groups require moderators to approve the posts. Please follow these guidelines:
 
@@ -282,7 +282,7 @@ Complete lists and Bluesky threads are also available, but are changing fast. _L
     - [hachyderm.io](https://hachyderm.io): [@sugaroverflow](https://hachyderm.io/@sugaroverflow), [@john_cogs](https://hachyderm.io/@john_cogs)
     - [crashloop.social](https://crashloop.social) (small community instance operated by #EveryoneCanContribute cafe members): [@dnsmichi](https://crashloop.social/@dnsmichi)
 1. Mobile apps
-    - Mastodon on [iOS](https://apps.apple.com/de/app/mastodon-for-iphone-and-ipad/id1571998974?l=en), [Android](https://play.google.com/store/apps/details?id=org.joinmastodon.android&hl=en&gl=US&pli=1)
+    - Mastodon on [iOS](https://apps.apple.com/de/app/mastodon/id1571998974), [Android](https://play.google.com/store/apps/details?id=org.joinmastodon.android&hl=en&gl=US&pli=1)
     - Metatext on [iOS](https://apps.apple.com/de/app/metatext/id1523996615?l=en)
 1. A Tweetdeck alternative is built into the Mastodon web interface.
     - Navigate into [`Preference > Appearance`](https://docs.joinmastodon.org/user/preferences/) and select `enable advanced web interface`.
@@ -309,7 +309,7 @@ _2023-07-01:_ Twitter/X [announced rate limits](https://techcrunch.com/2023/07/0
 - [CloudSecList](https://cloudseclist.com/) (Cloud, Security)
 - [The Pragmatic Engineer](https://newsletter.pragmaticengineer.com/) (Big Tech and high-growth startups - paid subscription required, ask @dnsmichi)
 - [Last week in AWS](https://www.lastweekinaws.com/) (Cloud)
-- [The New Stack](https://thenewstack.io/newsletter-archive/) (Cloud Native, DevOps)
+- [The New Stack](https://thenewstack.io/newsletter/) (Cloud Native, DevOps)
 - [allesnurgegloud.com](https://allesnurgecloud.com/) (Cloud, German)
 
 #### Community platforms

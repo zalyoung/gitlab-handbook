@@ -720,7 +720,7 @@ Engineers / C-Suite / Heads of Engineering & Data Science / DevOps Engineers / I
 
 ### Content Buyers Use for Tech Research and Decision-Making
 
-- [Analyst report:](https://about.gitlab.com/analysts/gartner-ast22/) Paid resource that provides insights into major business and IT trends and technologies (Gartner, Forrester, IDC, Red Monk, etc.).
+- [Analyst report:](https://page.gitlab.com/resources-report-gartner-magic-quadrant-ast-2023.html) Paid resource that provides insights into major business and IT trends and technologies (Gartner, Forrester, IDC, Red Monk, etc.).
 - [Announcement/Press release:](https://about.gitlab.com/press/releases/) Official statement to the news media for the purpose of providing information, creating an official statement, or making an announcement directed for public release.
 - [Blog post:](https://about.gitlab.com/blog/) Entry/article written on a blog usually including content in the form of text, photos, infographics, or videos.
 - [Case study:](https://about.gitlab.com/customers/) Detailed study of a specific subject in its real-world context focused on a person, group, event, or organization.
@@ -738,7 +738,7 @@ Engineers / C-Suite / Heads of Engineering & Data Science / DevOps Engineers / I
 - [Video story from similar organization:](https://www.youtube.com/watch?v=L4zf_QIr4jQ) Recorded talk about how a company's product or service has helped another customer solve a related problem.
 - [Webinar:](https://www.youtube.com/watch?v=muIZthUk4_o) Online event hosted by an organization/company and broadcast to a select group of individuals through their computers via the Internet.
 - [(Product) Website:](https://about.gitlab.com/) Page on a vendor's website describing a particular product/service and including specific specs and features, information about the manufacturer and brand, etc. .
-- [Whitepaper:](https://fbcinc.com/source/virtualhall_images/Convergence/GitLab/modernizing-government-it.pdf) Report/guide that informs readers concisely about a complex issue and presents the issuing body's philosophy on the matter. It is meant to help readers understand an issue, solve a problem, or make a decision.
+- [Whitepaper:](https://www.fbcinc.com/source/virtualhall_images/Convergence/GitLab/modernizing-government-it.pdf) Report/guide that informs readers concisely about a complex issue and presents the issuing body's philosophy on the matter. It is meant to help readers understand an issue, solve a problem, or make a decision.
 
 ### Enablement Artifacts
 

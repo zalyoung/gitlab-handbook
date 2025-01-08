@@ -19,7 +19,7 @@ To ensure that Calendly is setup to comply with GDPR and similar privacy laws, a
 
 - Visit [Learn How to Use Chorus.ai](/handbook/sales/field-operations/sales-operations/go-to-market/chorus/#chorus-scheduler) for instructions on how to create a Static Link from Chorus Scheduler.
 - To create/view the Static Link
-  - Link your [Zoom PMI](https://support.zoom.us/hc/en-us/articles/203276937-Using-Personal-Meeting-ID-PMI-) in the Chorus Scheduler Settings (one time only)
+  - Link your [Zoom PMI](https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0066271) in the Chorus Scheduler Settings (one time only)
   - Then create a test event on your Google calendar, click Add video conferencing, select Chorus Meeting. You will then be able to view the Chorus Go static link (Domain: go.chorus.ai).
   - ![static-chorus-go-link](grab-static-chorus-go-link.png)
 

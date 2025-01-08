@@ -545,7 +545,7 @@ The sales nominated process allows for records to be added to the campaign in or
 - [Solution Brief - GitLab on AWS](/uploads/74879d7fa7e1919948d9674d6e4be315/source_resources_downloads_GitLab_AWS_Solution_Brief.pdf)
 - [Solution Brief - GitLab on GCP](/uploads/d830cb6d747573e252c5a6520884010a/source_resources_downloads_GitLab_GCP_Solution_Brief.pdf)
 - [A Seismic Shift in Application Security whitepaper](/uploads/fd88f354f9f25bd5a73dab555b26a1dc/gitlab-seismic-shift-in-application-security-whitepaper.pdf)
-- [DevSecOps Solutions Page](https://about.gitlab.com/solutions/dev-sec-ops/)
+- [DevSecOps Solutions Page](https://about.gitlab.com/solutions/security-compliance/)
 - [GitLab — A single application for your entire software development lifecycle](https://www.youtube.com/watch?v=yjxrBSllNGo)
 - [The Benefits of a Single DevOps Platform](https://www.youtube.com/watch?v=MNxkyLrA5Aw)
 
@@ -771,7 +771,7 @@ For video instructions, [please see here](https://youtu.be/e4X9Dg_1rmA).
     - Click `Next` at the bottom of the page
     - Fill out QR Code Title & Description
 1. Create your QR code with the following design specs:
-    - **Frame:** If adding a frame, enter `#171321` ([Charcoal](https://design.gitlab.com/brand-design/color#primary-color-palette)) for the frame color.
+    - **Frame:** If adding a frame, enter `#171321` ([Charcoal](https://design.gitlab.com/brand-design/color/#primary-color-palette)) for the frame color.
       - This color ensures proper contrast (other brand approved colors can be used, but no need to get fancy with gradients or anything)
     - **QR code:** Select `More Options`.
       - `Code color:` Enter `#171321` for the code color and `#FFFFFF` for the background color.
@@ -899,7 +899,7 @@ At GitLab owned events we will sometimes host 10 minute lightning meetings with 
 
 ## How to add events to `about.gitlab.com/events`
 
-In an effort to publicly share where people can find GitLab for virtual events and events in-person throughout the world, we have created [about.gitlab.com/events](https://about.gitlab.com/events). This page is to be updated by the person responsible for the event. This page is now managed through [Contentful](/handbook/marketing/digital-experience/contentful-cms/). To add your event to the page or make any changes to existing events, please see the instructions [here](/handbook/marketing/digital-experience/contentful-cms/editing-content/#adding-an-event-to-the-events-page).
+In an effort to publicly share where people can find GitLab for virtual events and events in-person throughout the world, we have created [about.gitlab.com/events](https://about.gitlab.com/events/). This page is to be updated by the person responsible for the event. This page is now managed through [Contentful](/handbook/marketing/digital-experience/contentful-cms/). To add your event to the page or make any changes to existing events, please see the instructions [here](/handbook/marketing/digital-experience/contentful-cms/editing-content/#adding-an-event-to-the-events-page).
 
 ## Creating a Marketo Landing Page
 

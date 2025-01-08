@@ -125,7 +125,7 @@ Please see the [Rate Limit Bypass Policy](/handbook/engineering/infrastructure/r
 
 ### Cloudflare
 
-Cloudflare serves as our "outer-most" layer of protection, sitting at the network edge on inbound traffic. We use Cloudflare's standard DDoS (Distributed Denial of Service) protection plus [Spectrum](https://www.cloudflare.com/products/cloudflare-spectrum/) to protect git over ssh.
+Cloudflare serves as our "outer-most" layer of protection, sitting at the network edge on inbound traffic. We use Cloudflare's standard DDoS (Distributed Denial of Service) protection plus [Spectrum](https://www.cloudflare.com/en-us/application-services/products/cloudflare-spectrum/) to protect git over ssh.
 
 How rate limits are applied in Cloudflare:
 
@@ -338,4 +338,4 @@ The below are internal links to support troubleshooting rate limiting related is
 - [docs: GitLab.com](https://docs.gitlab.com/ee/user/gitlab_com/index.html#gitlabcom-specific-rate-limits)
 - [docs: Self Managed (and Dedicated)](https://docs.gitlab.com/ee/security/rate_limits.html)
 - [runbook: GitLab.com rate limiting](https://gitlab.com/gitlab-com/runbooks/-/tree/master/docs/rate-limiting)
-- [handbook: Identifying the cause of IP Blocks on GitLab.com](support/workflows/ip-blocks/) 
+- [handbook: Identifying the cause of IP Blocks on GitLab.com](support/workflows/ip-blocks/)

@@ -156,7 +156,7 @@ If you're not sure which category your post belongs in, just put a placeholder i
 
 #### Tags
 
-These are included to help readers find similar posts if they are interested in a particular subject. Tags appear at the top of each blog post, and clicking on a tag takes you to [/blog/tags](https://about.gitlab.com/blog/tags.html) where you can view all tagged posts and browse by tag.
+These are included to help readers find similar posts if they are interested in a particular subject. Tags appear at the top of each blog post, and clicking on a tag takes you to the specific `/blog/tags/specific-tag` where you can view all posts with the specified tag.
 
 You can include as many tags as you like, separated by commas. Please only include tags from the following list, and note that they are case sensitive.
 

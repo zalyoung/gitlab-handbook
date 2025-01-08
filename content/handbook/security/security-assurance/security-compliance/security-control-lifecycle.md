@@ -5,7 +5,7 @@ controlled_document: true
 
 ## Process Overview
 
-![Security Control Lifecycle](../control_lifecycle.png "Security Control Lifecycle")
+![Security Control Lifecycle](/images/security/security-assurance/security-compliance/control_lifecycle.png "Security Control Lifecycle")
 
 ## Purpose
 

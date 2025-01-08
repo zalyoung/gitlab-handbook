@@ -193,9 +193,9 @@ Async works well when managing multiple projects, although it does require disci
 
 {{< youtube "_okcPC9YucA" >}}
 
-*GitLab CEO Sid and the [Learning and Development](/handbook/people-group/learning-and-development) team provide more context on our bias towards asynchronous communication and the importance of our iteration value.*
+*GitLab co-founder Sid and the [Learning and Development](/handbook/people-group/learning-and-development) team provide more context on our bias towards asynchronous communication and the importance of our iteration value.*
 
-> There is a reason we are really good at async, and that is because we make things [smaller](/handbook/values/#move-fast-by-shipping-the-minimal-valuable-change). Through iteration, you don't have to coordinate with a ton of people. By taking smaller steps through iteration, we can ship faster. The only way this is possible is through asynchronous communication. — *Sid Sijbrandij, GitLab CEO and co-founder*
+> There is a reason we are really good at async, and that is because we make things [smaller](/handbook/values/#move-fast-by-shipping-the-minimal-valuable-change). Through iteration, you don't have to coordinate with a ton of people. By taking smaller steps through iteration, we can ship faster. The only way this is possible is through asynchronous communication. — *Sid Sijbrandij, GitLab co-founder*
 
 ### Aim for progress, not perfection
 
@@ -277,7 +277,7 @@ GitLab embraces asynchronous work and [non-linear workdays](non-linear-workday/)
 
 Remote workers lack many of the physical gateways that serve as dividers between work and life. When work and life happen in the same building, and one's work equipment is always within reach, it's far too easy to allow unread Slack messages to haunt you.
 
-Being intentional about removing Slack from one's phone is a great way to reinforce that time away from work is important. A [litany](https://sitn.hms.harvard.edu/flash/2018/dopamine-smartphones-battle-time/) of [studies](https://pmc.ncbi.nlm.nih.gov/articles/PMC6449671//) have covered the addictive impact of smartphones. Even if you aren't sure if this approach will benefit you, give it a try. It's a [two-way door](/handbook/values/#make-two-way-door-decisions).
+Being intentional about removing Slack from one's phone is a great way to reinforce that time away from work is important. A [litany](https://sites.harvard.edu/sitn/2018/05/01/dopamine-smartphones-battle-time//) of [studies](https://pmc.ncbi.nlm.nih.gov/articles/PMC6449671//) have covered the addictive impact of smartphones. Even if you aren't sure if this approach will benefit you, give it a try. It's a [two-way door](/handbook/values/#make-two-way-door-decisions).
 
 ### Be transparent on capacity
 

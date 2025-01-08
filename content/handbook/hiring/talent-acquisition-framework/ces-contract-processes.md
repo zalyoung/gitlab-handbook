@@ -253,7 +253,7 @@ There are certain times when a contract needs to get resent to the candidate aft
 1. If the req is already closed, tag the Enablement team in the greenhouse profile explaining the situation and that the req needs to be reopened to resend a contract.
 1. Unhire the candidate in Greenhouse. (If the position is Closed, Enablement will need to assist with this step).
 1. Resend the correct contract and follow standard steps for doing this.
-1. Once you receive the contract back, **before** marking the candidate as hired in Greenhouse - ping the People Connect team in the `#peopleop-alerts-private` slack channel and explain exactly what the change was. The updated details will not update Workday (or BambooHR, if applicable) and will need to be manually corrected by the People Connect Team.
+1. Once you receive the contract back, **before** marking the candidate as hired in Greenhouse - ping the People Connect team in the `#peopleop-alerts-private` slack channel and explain exactly what the change was. The updated details will not update Workday and will need to be manually corrected by the People Connect Team.
 1. Upload the new contract to their Workday profile.
 1. Ping the People Connect Team and let them know the contract has been updated and the details in Workday can be corrected.
 
@@ -284,7 +284,7 @@ If an amendment needs to be made and the previous contract was never active, the
 - Ask People Connect in the `people-exp_ces` Slack channel to delete the previous contract from Workday.
 - Upload the updated contract in the Documents section of the team member Workday profile, using the 'Contracts and Changes' document category.
 
-*Note: It is essential that People Connect Team members are informed of all changes, as various fields must be updated in BambooHR.*
+*Note: It is essential that People Connect Team members are informed of all changes, as various fields must be updated in Workday.*
 
 ### Amendments to contracts for new hires with planned relocations
 
@@ -334,12 +334,11 @@ A contractor requests a modification to their contract due to a name change/comp
 
 If for some reason a candidate declines an offer after they have been hired into the system, whoever receives that information needs to make sure `@ces` is tagged in the Greenhouse profile and is made aware that the candidate will no longer be starting at GitLab. Please note that the steps below are assuming that the person will not be working for GitLab; if you are hoping to just amend their offer after they've been marked as hired, please view the Resend process above.
 
-If they have been hired in Greenhouse and exported to BambooHR and Workday, the team will need to follow these steps:
+If they have been hired in Greenhouse and exported to Workday, the team will need to follow these steps:
 
 1. Unhire the candidate in Greenhouse if the req is still open by clicking the "unhire" button on the candidate's offer. If the req is closed, ask Enablement to unhire.
 1. Ask the Recruiter to reject them in Greenhouse; add reasons in notes, you may add the email that was sent by the candidate. Click 'reject and don't send email'.
 1. Cancel any scheduled emails in Greenhouse.
-1. Tag the VP, People Operations in the `#people-group-confidential` Slack channel and ask to remove the profile from BambooHR and @ mention the People Connect team for visibility. Only a BambooHR owner (at GitLab this is the VP, People Operations) can remove the profile, this is why this step is so important. Note: This isn't a typo---BambooHR is still collecting profiles even though we have migrated to WorkDay.
 1. If they were hired via a PEO, inform the contact person at the PEO of this change immediately, ideally before onboarding starts. If they are in a country that uses outside payroll, we will need to inform the payroll company as well.
 1. Message IT, People Connect, and the Sr. Background Check Specialist in the #peopleops-alerts-private channel to let them know to cancel any laptop orders, onboarding issues, background checks, and remove from Workday.
 1. If the Recruiter has not already tagged the FP&A approver in the Greenhouse notes, please tag them to let them know that the candidate has withdrawn.
@@ -366,7 +365,7 @@ If the team member is making a lateral move where there is no change in compensa
 
 When generating a job change letter for a PEO, the steps remains the same as outlined below. However, select the JCL template that does not include RSUs, and send the RSU details via DocuSign email.
 
-The Candidate Experience Specialist needs to merge any additional candidate profiles before marking as hired. If the profiles are not merged, it will create a duplicate and mess with the employment bot sync to Workday & BambooHR. The signed letter is uploaded into Workday under the Contracts and Changes folder on the Documents Tab by the Total Rewards Analyst.
+The Candidate Experience Specialist needs to merge any additional candidate profiles before marking as hired. If the profiles are not merged, it will create a duplicate and mess with the employment bot sync to Workday. The signed letter is uploaded into Workday under the Contracts and Changes folder on the Documents Tab by the Total Rewards Analyst.
 
 When an internal transition is taking place and the start date for that JCL is amended, please ensure to update the People Connect team via Slack in the `#people-connect_ces` channel of the new start date.
 
@@ -378,11 +377,10 @@ CES: Follow the instructions below on how to create and send a job change letter
 1. The signatory matches the appropriate entity. If the candidate is located in the US (including Federal), Morgan Wilkins can be a signatory. If the candidate is employed through a PEO, Morgan Wilkins and Marissa Ferber can be signatories (this process is subject to change)
 1. Next, Click Generate
 1. Select Job Change Letter template in Greenhouse:
-    - Job Change Letter w/ OTE (US ONLY!)
-    - Job Change Letter w/ no OTE (US ONLY!)
+    - Job Change Letter - OTE/with RSU's
+    - Job Change Letter - No OTE/with RSU's
     - Job Change Letter w/ OTE, no RSU's
     - Job Change Letter, No OTE, No RSU's
-    - **Special Note: Please ensure you are using the bottom two templates ONLY for NON US JCLs!**
 
 JCLs should be treated like contracts, where RSUs are only features in US ones and all other countries should have text within the DocuSign email instead.
 
@@ -577,7 +575,7 @@ GitLab is working in partnership with Global Expansion to employ GitLab team-mem
 
 ## Preparing Employment Agreements for GitLab team members employed via Global Upside
 
-GitLab is working in partnership with [Global Upside](https://globalupside.com) for employing GitLab team-members located in:
+GitLab is working in partnership with [Global Upside](https://www.safeguardglobal.com/) for employing GitLab team-members located in:
 
 - India
 

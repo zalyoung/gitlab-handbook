@@ -5,22 +5,22 @@ description: "Development Analytics Group under Developer Experience Stage"
 
 ## Common Links
 
-| **Category**            | **Handle** |
-|-------------------------|-------------|
-| **GitLab Group Handle**  | [`@gl-dx/development-analytics`](https://gitlab.com/gl-dx/development-analytics) |
-| **Slack Channel**               | [`#g_development-analytics`](https://gitlab.enterprise.slack.com/archives/C064M4D2V37) |
-| **Slack Handle**               | `@dx-development-analytics` |
-| **Team Boards**         | [`Team Work Board`](https://gitlab.com/groups/gitlab-org/-/boards/8966549?label_name%5B%5D=group::development%20analytics)  |
-| **Issue Tracker**       | [`tracker`](https://gitlab.com/groups/gitlab-org/quality/dx/analytics/-/issues) |
-| **GitLab Repositories**| [development-analytics](https://gitlab.com/gitlab-org/quality/dx/analytics)|
+| **Category**            | **Handle**                                                                                                                 |
+|-------------------------|----------------------------------------------------------------------------------------------------------------------------|
+| **GitLab Group Handle** | [`@gl-dx/development-analytics`](https://gitlab.com/gl-dx/development-analytics)                                           |
+| **Slack Channel**       | [`#g_development-analytics`](https://gitlab.enterprise.slack.com/archives/C064M4D2V37)                                     |
+| **Slack Handle**        | `@dx-development-analytics`                                                                                                |
+| **Team Boards**         | [`Team Work Board`](https://gitlab.com/groups/gitlab-org/-/boards/8966549?label_name%5B%5D=group::development%20analytics) |
+| **Issue Tracker**       | [`tracker`](https://gitlab.com/groups/gitlab-org/quality/dx/analytics/-/issues)                                            |
+| **GitLab Repositories** | [development-analytics](https://gitlab.com/gitlab-org/quality/analytics)                                                   |
 
 ## Mission
 
-Our mission is to enhance developer efficiency by delivering actionable insights, optimizing pipeline performance, and building scalable productivity tools that measurably improve the software development lifecycle. 
+Our mission is to enhance developer efficiency by delivering actionable insights, optimizing pipeline performance, and building scalable productivity tools that measurably improve the software development lifecycle.
 
 ## Vision
 
-We envision a future where GitLab’s development workflows are seamless, insightful, and empowered by data. The Developer Analytics team will:
+We envision a future where GitLab’s development workflows are seamless, insightful, and empowered by data. The Development Analytics team will:
 
 - Establish GitLab as the industry benchmark for measurable developer productivity
 - Improve cycle time to industry-leading standards through tooling and practices
@@ -33,10 +33,10 @@ We envision a future where GitLab’s development workflows are seamless, insigh
 
 ## Core Responsibilities
 
-| **Core Responsibilities**              | **Goals**                                                                                                                                                                                                                                                                               |
-|----------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Improve developer experience and productivity** | - ⚡ **Create intuitive dashboards, predictive analytics, and benchmarks** to enable data-driven decisions. <br> - 📊 **Track developer engagement and satisfaction** and use the data to drive process and tooling improvements. <br> - 🔄 **Optimize workflows and reduce MR cycle times.** |
-| **Enhance developer tools and processes**         | - 🤖 **Deploy self-served AI evalution tooling** to effectively utilize data for enhancing the performance of [GitLab Duo](https://about.gitlab.com/gitlab-duo/)  <br> - 🛠️ **Automate repetitive and manual tasks**, such as issue tracking and pipeline failure triage, to enhance operational efficiency. <br> - 🔧 **Develop robust self-healing systems** to ensure resilience and reliability across workflows.                                                                                                    |
+| **Core Responsibilities**                         | **Goals**                                                                                                                                                                                                                                                                                                                                                                                                              |
+|---------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Improve developer experience and productivity** | - ⚡ **Create intuitive dashboards, predictive analytics, and benchmarks** to enable data-driven decisions. <br> - 📊 **Track developer engagement and satisfaction** and use the data to drive process and tooling improvements. <br> - 🔄 **Optimize workflows and reduce MR cycle times.**                                                                                                                           |
+| **Enhance developer tools and processes**         | - 🤖 **Deploy self-served AI evalution tooling** to effectively utilize data for enhancing the performance of [GitLab Duo](https://about.gitlab.com/gitlab-duo/)  <br> - 🛠️ **Automate repetitive and manual tasks**, such as issue tracking and pipeline failure triage, to enhance operational efficiency. <br> - 🔧 **Develop robust self-healing systems** to ensure resilience and reliability across workflows. |
 
 ## Roadmap
 
@@ -74,21 +74,21 @@ As part of our commitment to aligning with GitLab's company goals, our team cond
 
 ### Work related rituals
 
-| Event                           | Cadence                              | Agenda                                                                                                                                                                                                                                        |
-|---------------------------------|--------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| End-of-Week progress update     | Once a week (Wednesday) | Summarize status, progress, ETA, and areas needing support in the weekly update in each OKR issue. Examples: [FY25-Q1 Test Platform OKR 2.2](https://gitlab.com/gitlab-com/gitlab-OKRs/-/work_items/5916#note_1763638654), [FY25-Q1 TTI OKR 6](https://gitlab.com/gitlab-com/gitlab-OKRs/-/work_items/6079#note_1764535829)        |
-| Team meeting         | Twice a month on Tuesday <br> Slot1 2:00 pm UTC <br> Slot2 9:30 pm UTC               |  Choose one of the slots based on your timezone alignment [Agenda](https://docs.google.com/document/d/1gtghZCYeg42cMbQ8mWnjBcsu4maMO4OFA0xcQ8MfRHE/edit?usp=sharing)|
-| Monthly Social Time        | Monthly on last Thursday <br> Slot1 2:00 pm UTC <br> Slot2 9:30 pm UTC               | No agenda, fun gathering. Choose one of the slots based on your timezone alignment. Read [Virtual team building](/handbook/finance/expenses/#team-building)|
-| Quarterly Business Report       | Quarterly                            | Contribute to [team's success, learnings, innovations and improvement opportunities for each business quarter](https://gitlab.com/groups/gitlab-org/quality/quality-engineering/-/epics/61)                                               |
-| 1:1 with Engineering Manager    | Weekly                               | Discuss development goals (see the [1:1 guidelines](/handbook/leadership/1-1/))                                                                                                                                                         |
-| Team member's coffee chats | once/twice a month | Optional meetings for team members to regularly connect |
+| Event                        | Cadence                                                                | Agenda                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
+|------------------------------|------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| End-of-Week progress update  | Once a week (Wednesday)                                                | Summarize status, progress, ETA, and areas needing support in the weekly update in OKR issues and Epics. Examples: [FY25-Q1 Test Platform OKR 2.2](https://gitlab.com/gitlab-com/gitlab-OKRs/-/work_items/5916#note_1763638654), [FY25-Q1 TTI OKR 6](https://gitlab.com/gitlab-com/gitlab-OKRs/-/work_items/6079#note_1764535829), [Optimizing GitLab's MR Cycle Time to Enable Faster Developer Feedback Loops](https://gitlab.com/groups/gitlab-org/-/epics/16026#note_2253818833) |
+| Team meeting                 | Twice a month on Tuesday <br> Slot1 2:00 pm UTC <br> Slot2 9:30 pm UTC | Choose one of the slots based on your timezone alignment [Agenda](https://docs.google.com/document/d/1gtghZCYeg42cMbQ8mWnjBcsu4maMO4OFA0xcQ8MfRHE/edit?usp=sharing)                                                                                                                                                                                                                                                                                                                  |
+| Monthly Social Time          | Monthly on last Thursday <br> Slot1 2:00 pm UTC <br> Slot2 9:30 pm UTC | No agenda, fun gathering. Choose one of the slots based on your timezone alignment. Read [Virtual team building](/handbook/finance/expenses/#team-building)                                                                                                                                                                                                                                                                                                                          |
+| Quarterly Business Report    | Quarterly                                                              | Contribute to [team's success, learnings, innovations and improvement opportunities for each business quarter](https://gitlab.com/groups/gitlab-org/quality/quality-engineering/-/epics/61)                                                                                                                                                                                                                                                                                          |
+| 1:1 with Engineering Manager | Weekly                                                                 | Discuss development goals (see the [1:1 guidelines](/handbook/leadership/1-1/))                                                                                                                                                                                                                                                                                                                                                                                                      |
+| Team member's coffee chats   | once/twice a month                                                     | Optional meetings for team members to regularly connect                                                                                                                                                                                                                                                                                                                                                                                                                              |
 
 ### Work management
 
 #### Planning
 
 - Each financial year, we develop a clear roadmap for the team to enhance visibility and alignment.
-- Our roadmap preparation is an intensive month long exercise (usually in Q4), led by a [DRI](/handbook/people-group/directly-responsible-individuals/). During this phase, DRIs take the lead in drafting the roadmap using [the roadmap prep-work template](https://gitlab.com/gitlab-org/quality/work-log/-/blob/main/templates/roadmap-pre-work-template.md?ref_type=heads) for necessary project tracks. This involves gathering inputs from the team, various stakeholders, assessing past performance, and aligning with the strategic goals of the Development Analytics group.
+- Our roadmap preparation is an intensive month-long exercise (usually in Q4), led by a [DRI](/handbook/people-group/directly-responsible-individuals/). During this phase, DRIs take the lead in drafting the roadmap using [the roadmap prep-work template](https://gitlab.com/gitlab-org/quality/work-log/-/blob/main/templates/roadmap-pre-work-template.md?ref_type=heads) for necessary project tracks. This involves gathering inputs from the team, various stakeholders, assessing past performance, and aligning with the strategic goals of the Development Analytics group.
 - We utilize and plan [OKRs](/handbook/company/okrs/) to prioritize the roadmap items.
 - Adhering to our team's [work rituals](#work-related-rituals), we conduct reviews to assess progress, address challenges, and recalibrate goals if necessary every two weeks.
 - We maintain a [Team Board](https://gitlab.com/groups/gitlab-org/-/boards/8966549?label_name%5B%5D=group::development%20analytics) to visualise the current state of the feature work.
@@ -97,7 +97,7 @@ As part of our commitment to aligning with GitLab's company goals, our team cond
 
 We estimate ~20% of weekly time for support tasks, and balancing our roadmap work with emerging support needs. Please note this estimate varies depending upon ongoing priorities.
 
-- For individual questions please reach out to the team via our slack channels: [#s_developer_experience](https://gitlab.enterprise.slack.com/archives/C07TWBRER7H) and [#g_development-analytics](https://gitlab.enterprise.slack.com/archives/C064M4D2V37).
+- For individual questions please reach out to the team via our Slack channels: [#s_developer_experience](https://gitlab.enterprise.slack.com/archives/C07TWBRER7H) and [#g_development-analytics](https://gitlab.enterprise.slack.com/archives/C064M4D2V37).
 - Raise support requests as [issues in the dx space](https://gitlab.com/groups/gitlab-org/quality/dx/-/issues). Add [~"group::Development Analytics"](https://gitlab.com/groups/gitlab-org/-/labels?subscribed=&sort=relevance&search=group::development+analytics) and [~"development-analytics::support-request"](https://gitlab.com/groups/gitlab-org/-/labels?subscribed=&sort=relevance&search=development-analytics#) labels.
 - Ensure each issue is tagged with one of `~"type::feature"`, `~"type::bug`, `~"type::maintenance` following [workflow classification guidelines](/handbook/product/groups/product-analysis/engineering/metrics/#work-type-classification).
 - Team members analyze the issue and add a priority. P1 issues will be taken up on an urgent basis the same week based on the availability of the relevant team members. Lower-priority issues are scheduled for review and discussion in our next team meeting.

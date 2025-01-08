@@ -160,7 +160,7 @@ The following members of other functional teams are our stable counterparts:
 
 ### Promotion Process
 
-Aligned with the [company-wide promotion cadence](/handbook/people-group/promotions-transfers/#promotions-process--timeline), Development utilizes a quarterly process to collect, validate, approve, review all promotion proposals prior to them being added via the company-wide [process](/handbook/people-group/promotions-transfers/#bamboohr-promotion-approval-process). The goal of this quarterly promotion projection and review is to:
+Aligned with the [company-wide promotion cadence](/handbook/people-group/promotions-transfers/#promotions-process--timeline), Development utilizes a quarterly process to collect, validate, approve, review all promotion proposals prior to them being added via the company-wide [process](/handbook/people-group/promotions-transfers/). The goal of this quarterly promotion projection and review is to:
 
 - Promote the right people at the right time
 - Maintain a high bar for promotions
@@ -307,7 +307,7 @@ The following is a non exhaustive list of daily duties for engineering directors
     1. Growth
     1. Ops
     1. Secure
-    1. Govern
+    1. Software Supply Chain Security
 1. Review hiring dashboards
 1. Personal todo list
 1. Personal GitLab board(s) if any
@@ -580,7 +580,7 @@ These are the stakeholders:
 
 ## ClickHouse Datastore usage
 
-[ClickHouse usage by Monitor:Observability group](/handbook/engineering/development/ops/monitor/observability/#clickhouse-datastore)
+[ClickHouse usage by Monitor:Platform Insights group](/handbook/engineering/development/analytics/monitor/platform-insights/#clickhouse-datastore)
 
 ## Customer Account Escalation coordination
 

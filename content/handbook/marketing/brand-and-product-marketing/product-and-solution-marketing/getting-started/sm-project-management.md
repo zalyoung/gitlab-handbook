@@ -167,7 +167,7 @@ Here is a link to the current [UseCase 2020-3](https://gitlab.com/gitlab-com/mar
 ### Workflow - Refine, Sprint, Retrospective
 
 The Product and Solution Marketing team uses a 2-week sprint model, scoping and weighting work items (Issues) to produce the greatest increment of value at the end of each sprint. While our process is similar in many regards
-to Scrum, we do not practice [Scrum Events](https://www.scrumalliance.org/about-scrum/events) as separate ceremonies, instead working them into our existing meeting workflow.
+to Scrum, we do not practice [Scrum Events](https://www.scrumalliance.org/about-scrum) as separate ceremonies, instead working them into our existing meeting workflow.
 
 We plan, manage, and track our work in the [Product Marketing - Overview Issue Board](https://gitlab.com/gitlab-com/marketing/product-marketing/-/boards/1074672).
 

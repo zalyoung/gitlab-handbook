@@ -17,9 +17,9 @@ fi
 # Pull image and video lists
 # diff differently depending on if CI environment, fork, or local
 if [ -n "$CI_PROJECT_ID" ]; then
-    # if CI_PROJECT_ID exists, we're in a CI environment
-    if [ "$CI_PROJECT_ID" == "42817607" ]; then
-        # if CI_PROJECT_ID matches the current project, then it's not a fork
+    # if CI_MERGE_REQUEST_SOURCE_PROJECT_PATH matches the current project, then it's not a fork
+    # if CI_PROJECT_ID matches the current project and CI_PIPELINE_SOURCE is not from a merge request, then it is not a fork
+    if [ "${CI_MERGE_REQUEST_SOURCE_PROJECT_PATH:-}" = "gitlab-com/content-sites/handbook" ] || ([ "${CI_PROJECT_ID:-}" = "42817607" ] && [ "${CI_PIPELINE_SOURCE:-}" != "merge_request_event" ]); then
         BRANCH_POINT=$(git merge-base origin/$CI_MERGE_REQUEST_TARGET_BRANCH_NAME origin/$CI_MERGE_REQUEST_SOURCE_BRANCH_NAME)
         git diff --name-only --diff-filter=A $BRANCH_POINT origin/$CI_MERGE_REQUEST_SOURCE_BRANCH_NAME  | grep -E '\.(png|jpg|jpeg|gif|svg)$' | sort | uniq > /tmp/IMAGES-added
         git diff --name-only --diff-filter=d $BRANCH_POINT origin/$CI_MERGE_REQUEST_SOURCE_BRANCH_NAME | grep -E '\.(png|jpg|jpeg|gif|svg)$' | sort | uniq > /tmp/IMAGES

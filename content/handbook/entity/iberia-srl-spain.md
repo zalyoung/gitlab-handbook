@@ -168,6 +168,14 @@ Your benefits will cease on the date of termination. You may be able to transfer
 
 </details>
 
+### Computer Glasses Reimbursement
+
+Team Members experiencing eye problems due to work could be entitled to a reimbursement of corrective eye wear. The Team Member must be seen by an optician and must provide proof that lenses are specifically required for reading a display screen only and not required for general day to day use.
+
+Team Members should send their documentation (prescription) from the optician to total-rewards@gitlab.com for approval. The Team Member can request to be reimbursed for the frame, glasses and/or lenses, and eye test for a maximum reimbursement of 150 Euros.
+
+Once Total Rewards approves, the team member should submit their reimbursement through Navan. For the Navan entry under “Expense Type” select “Other” and under “GL” select “Benefits Medical & Other”.
+
 ### Life and Disability Insurance
 
 Life Insurance provides peace of mind for you and your loved ones in the event of your untimely death, helping to relieve financial concern during a time of grief. GitLab offers Life Insurance via Generali.

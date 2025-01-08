@@ -73,7 +73,7 @@ Threat modeling is a structured process used to identify, evaluate, and mitigate
 
 **Process**:
 
-- [OWASP Threat Modelling Process](https://owasp.org/www-community/Threat_Modeling_Process)
+- [OWASP Threat Modelling Process](https://owasp.org/www-community/Threat_Modeling_Process/)
 - [Microsoft Threat Modelling Process](https://learn.microsoft.com/en-us/training/paths/tm-threat-modeling-fundamentals/)
 
 ### 4.2 Vulnerability Assessment

@@ -257,7 +257,7 @@ The below were campaigns run historically, and aligned to overall GTM. They have
 - [Handbook: CD Solution Resource](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/usecase-gtm/cd/)
 - [Handbook: CI Message House](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/usecase-gtm/ci/message-house/)
 - [Handbook: CD Message House](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/usecase-gtm/cd/message-house/)
-- [Website: CI Solution Page](https://about.gitlab.com/features/continuous-integration/)
+- [Website: CI Solution Page](https://about.gitlab.com/solutions/continuous-integration/)
 - [Website: CI Solution Page](https://about.gitlab.com/stages-devops-lifecycle/continuous-delivery/)
 - [2022-04-07 CI/CD Campaign Review Deck](https://docs.google.com/presentation/d/1mqYScmF1bjON0PsjfurmsChcVdCkMsjkDvTK5YyOlIQ/edit#slide=id.g5e411f22b2_0_0) - GitLab Team Members Only
 - [2021-09-09 CI/CD Campaign Review Deck](https://docs.google.com/presentation/d/1TG7SAHUub3BqclJg4nawDARecOOaQ4NpMaxDnXWWtF8/edit#slide=id.g5e411f22b2_0_0) - GitLab Team Members Only
@@ -302,7 +302,7 @@ The below were campaigns run historically, and aligned to overall GTM. They have
 - [Solution Resource](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/usecase-gtm/devsecops/)
 - [Campaign Review 2021-07-26](https://docs.google.com/presentation/d/1gPMLjIRPNOCt8DqHUWYdwxW2tNH528qg_YbmZaDYzl8/edit#slide=id.g5e411f22b2_0_0) - GitLab Team Members Only
 - [SDR & Sales enablement epic](https://gitlab.com/groups/gitlab-com/marketing/-/epics/874)
-- [Live landing page](https://about.gitlab.com/solutions/dev-sec-ops/)
+- [Live landing page](https://about.gitlab.com/solutions/security-compliance/)
 - [Slack](https://gitlab.slack.com/archives/CV8GZ63GR)
 - [SFDC campaign](https://gitlab.my.salesforce.com/7014M000001df4w?srPos=0&srKp=701)
 - Campaign UTM: `devsecopsusecase`
@@ -435,7 +435,7 @@ The below were campaigns run historically, and aligned to overall GTM. They have
 
 - *Note: this is being sunsetted Q2 FY21 and existing records in the nurture will move to the DevSecOps use case campaign nurture.*
 - [Epic with tactical issues](https://gitlab.com/groups/gitlab-com/marketing/-/epics/368)
-- [Live landing page](https://about.gitlab.com/solutions/dev-sec-ops/)
+- [Live landing page](https://about.gitlab.com/solutions/security-compliance/)
 - [Campaign brief](https://docs.google.com/document/d/1NzFcUg-8c1eoZ1maHHQu9-ABFfQC65ptihx0Mlyd-64/edit)
 - [SFDC campaign](https://gitlab.my.salesforce.com/7014M000000CyeJ)
 
@@ -465,7 +465,7 @@ The below were campaigns run historically, and aligned to overall GTM. They have
 - [Epic with tactical issues](https://gitlab.com/groups/gitlab-com/marketing/-/epics/439)
 - [SDR & Sales enablement epic](https://gitlab.com/groups/gitlab-com/marketing/-/epics/445)
 - [FigJam of campaign user journey](https://www.figma.com/file/BYZIoMhJzI4FvM4nXit9Ca/OctoCat-Campaign-Flows-Actual-Sizes_2023-09-11_19-03-47?type=whiteboard&t=elKOAakWTl8snIYW-1)
-- [Live landing page](https://about.gitlab.com/competition/github/)
+- [Live landing page](https://web.archive.org/web/20240331181506/https://about.gitlab.com/competition/github/)
 - [Campaign brief](https://docs.google.com/document/d/1Mcy_0cwMsTPIxWUXPgoqw9ejsRJxaZBHi4NikYTabDY/edit#heading=h.kf9lglu57c0t)
 - [SFDC campaign](https://gitlab.my.salesforce.com/7014M000001lmdK)
 

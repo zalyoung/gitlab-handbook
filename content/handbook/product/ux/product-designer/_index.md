@@ -75,7 +75,7 @@ When designing AI solutions, Product Designers need to approach the process thou
 
 Here are some resources to help you contribute to the design of AI-assisted features across the platform:
 
-- [AI-human interaction in Pajamas](https://design.gitlab.com/usability/ai-human-interaction): Documentation on best practices for AI-human interaction.
+- [AI-human interaction in Pajamas](https://design.gitlab.com/usability/ai-human-interaction/): Documentation on best practices for AI-human interaction.
 - [AI Integration Effort FAQ](https://internal.gitlab.com/handbook/product/ai-strategy/ai-integration-effort/faq/): Internal handbook with frequently asked questions about AI integration efforts. **Internal handbook 🔒**
 - [UX maturity requirements](/handbook/product/ai/ux-maturity/): Documentation on the UX maturity requirements to move AI features from Experiment to Beta to Generally Available (GA).
 - [Experiment, Beta, and Generally Available features](https://docs.gitlab.com/ee/policy/development_stages_support.html): Guidelines on the different stages of feature availability.
@@ -94,7 +94,7 @@ The visual design of GitLab has evolved from naive simplicity to sophisticated c
 1. **Discovery** - Ensure users can interact and explore in ways that promote learning and proficiency while minimizing mistakes.
 1. **Capability** - Provide features and functions that enable users to complete tasks and automate processes.
 
-![Three-part venn diagram with the terms structure, discovery, and capability overlapping to create sophisticated simplicity in the center.](sophisticated-simplicity-venn.svg)
+![Three-part venn diagram with the terms structure, discovery, and capability overlapping to create sophisticated simplicity in the center.](/images/product/ux/product-designer/sophisticated-simplicity-venn.svg)
 
 Balancing these principles is crucial for an optimal user experience:
 
@@ -200,7 +200,7 @@ To ensure a smooth process:
 
 #### Collaborating on in-product reference information
 
-Sometimes the designer, PM, and technical writer agree to display additional [in-product reference information](https://design.gitlab.com/usability/contextual-help) in a [drawer component](https://design.gitlab.com/components/drawer/). The reference information should align with the existing documentation for the feature.
+Sometimes the designer, PM, and technical writer agree to display additional [in-product reference information](https://design.gitlab.com/usability/contextual-help/) in a [drawer component](https://design.gitlab.com/components/drawer/). The reference information should align with the existing documentation for the feature.
 
 1. **Draft copy**: The designer drafts the content for the drawer, identifying necessary information for user foals. This draft should be as close as possible to the final version.
 1. **Mark draft status**: Indicate that the drawer content is not final, using a text watermark like "waiting on documentation," "draft," or "placeholder," or a pin in the Figma file.
@@ -247,7 +247,7 @@ For inspiration, watch our Product Designers discuss [iteration at GitLab](https
 - **Follow design file guidelines**:
   - Regularly commit your design files following the [GitLab Design project contribution guidelines](https://gitlab.com/gitlab-org/gitlab-design/blob/master/CONTRIBUTING.md).
 - **Consider new UX paradigms carefully**:
-  - Evaluate if the new pattern will be inconsistent with other areas, if other areas need updating, and if the new pattern significantly improves the user experience. If changes are necessary, follow the [component lifecycle documentation](https://design.gitlab.com/get-started/lifecycle).
+  - Evaluate if the new pattern will be inconsistent with other areas, if other areas need updating, and if the new pattern significantly improves the user experience. If changes are necessary, follow the [component lifecycle documentation](https://design.gitlab.com/get-started/lifecycle/).
 
 ### Delivering your solution
 

@@ -5,7 +5,7 @@ description: "Information on the automations we have in place to support the Peo
 
 The People Group Engineering team aims to reduce as much manual work as possible. One of the areas we have done this, is everything related to the employment automation flow.
 
-Everything on this page, assumes the team member is already present in Workday. To read more about how they get synced to Workday, you can read [this handbook section](/handbook/people-group/engineering/gh-bhr-sync).
+Everything on this page, assumes the team member is already present in Workday.
 
 ## Onboarding
 
@@ -96,7 +96,7 @@ This  triggers the following flow:
 ```mermaid
 graph TD
     A[PEA triggers the automation via Slack] -->B(Finds the open onboarding issue)
-    B --> C(Finds the BHR profile from the onboarding issue description)
+    B --> C(Finds the Workday profile from the onboarding issue description)
     C --> D(Sends the e-mail to the team member)
 ```
 

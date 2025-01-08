@@ -166,7 +166,7 @@ We utilize the [Jobs to be Done](/handbook/product/ux/jobs-to-be-done/) (JTBD) f
 
 ### Performance Testing
 
-We are exploring [Rally](https://esrally.readthedocs.io) for performance testing the Elasticsearch cluster. Workload data is determined using Kibana and stored in a [Google Sheet](https://docs.google.com/spreadsheets/d/1K_MteuTEX0spu0jOiRt9BqDLZXywUhQ9NUw7PbU8odw/edit?usp=sharing) (internal)
+We are exploring [Rally](https://esrally.readthedocs.io/en/stable/) for performance testing the Elasticsearch cluster. Workload data is determined using Kibana and stored in a [Google Sheet](https://docs.google.com/spreadsheets/d/1K_MteuTEX0spu0jOiRt9BqDLZXywUhQ9NUw7PbU8odw/edit?usp=sharing) (internal)
 
 ## Resources
 

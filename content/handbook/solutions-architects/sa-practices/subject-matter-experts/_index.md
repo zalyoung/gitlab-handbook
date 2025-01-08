@@ -17,7 +17,7 @@ The goals of the SME Program are:
 
 In order to fulfill the above goals, the [SME Program is structured, appropriately with defined Roles and Responsibilities](/handbook/solutions-architects/sa-practices/subject-matter-experts/sme-program.md), to also support the following processes::
 
-1. [SME Operations - Collab Project, Groups, Slack Channels](content/handbook/solutions-architects/sa-practices/subject-matter-experts/sme-operations.md)
+1. [SME Operations - Collab Project, Groups, Slack Channels](/handbook/solutions-architects/sa-practices/subject-matter-experts/sme-operations.md)
 2. [SME Nomination and Onboarding \- How to Become a SME](/handbook/solutions-architects/sa-practices/subject-matter-experts/sme-program/#sme-selection)  
 3. [How to Request a SME on an opportunity to provide technical guidance and expertise](/handbook/solutions-architects/sa-practices/subject-matter-experts/sme-request/)  
 4. [Maintaining Collateral for each SME Area\*](/handbook/solutions-architects/sa-practices/subject-matter-experts/sme-collateral/)  
@@ -140,6 +140,6 @@ SMEs will be regularly evaluated based on their contributions and impact on the 
 | **US East** | Sam Morris,<br>Manjeet Singh | Bernard Park,<br>James Nyika,<br>Manjeet Singh | Dan Rabinovitz | Adam Zwickey | Jason Morgan,<br>Bradley Lee | Rob Jackson |
 | **US West** | Karen Kwentus | Yu-Chen Hsueh,<br>Anthony Baer,<br>Taylor Carr,<br>John Bush | Steve Grossman | Ryan Taylor | Ken McKnight | Siddharth Mathur |
 | **High Velocity - AMER** | | | Sophia Manicor | | Noah Ing | |
-| **High Velocity - EMEA** | | Claire Marie Champernowne<br>Nupur Sharma | Jan Kunzmann | Corina Patachia | Sarah Matthies | Breno Gomes |
-| **Pub Sec** | Kevin Chasse,<br>Josh Swann | Sameer Kamani,<br>Zachary Yates | Joseph Valeriano,<br>Linc Williams | Daniel Marquard,<br>Michael Bradley | Rachel Fuerst | |
+| **High Velocity - EMEA** | | Claire Marie Champernowne<br>Nupur Sharma | Jan Kunzmann | | Sarah Matthies | Breno Gomes |
+| **Pub Sec** | Kevin Chasse,<br>Josh Swann | Sameer Kamani,<br>Zachary Yates | Joseph Valeriano,<br>Linc Williams | Michael Bradley | Rachel Fuerst | |
 | **Partner** | | | | | | |

@@ -61,7 +61,7 @@ The following teams are available to handle internal support requests:
     - At-Risk Account Help (CSM red accounts & CSM/CSE escalations)
 - [GitLab Customer Support](/handbook/support/internal-support/)
 - Enterprise Applications
-  - [Enterprise Applications - CRM Team](/handbook/business-technology/enterprise-applications/entapps-crm/#steps-to-getting-help-from-sales-systems)
+  - [Enterprise Applications - CRM Team](/handbook/business-technology/enterprise-applications/entapps-crm/#i-classfas-fa-users-idbiz-tech-iconsi-how-we-operate)
   - [Enterprise Applications - PMO](/handbook/business-technology/enterprise-applications/pmo/#i-classfas-fa-headset-idbiz-tech-iconsi-how-to-connect-with-us)
 - [Revenue](https://internal.gitlab.com/handbook/finance/accounting/finance-ops/revenue-accounting/#communicating-with-revenue-accounting)
   - Chatter @revenue
@@ -125,7 +125,7 @@ Once you’ve submitted your request, here’s how to navigate to the case in Sa
 
 #### How to Report Bugs or Request Fixes
 
-If you encounter any issues with creating a case for the internal support teams or with the form, please submit your request using [HelpLab application](/handbook/business-technology/enterprise-applications/guides/helplab-guide/#create-a-ticket--request), which can be accessed through the OKTA tile: 
+If you encounter any issues with creating a case for the internal support teams or with the form, please submit your request using [HelpLab application](/handbook/business-technology/enterprise-applications/guides/helplab-guide/#create-a-ticket--request), which can be accessed through the OKTA tile:
 
 1. In the HelpLab select **IT**
 2. Click on the **Break/Fix Request** type
@@ -146,11 +146,11 @@ If you encounter any issues with creating a case for the internal support teams 
 
 This new workflow aims to streamline the support request process, improving efficiency and communication across teams. If you have any questions or need further assistance, refer to the internal resources or reach out to the appropriate team.
 
-#### Request Routing 
+#### Request Routing
 
-- Here is who you should contact based on your request: 
+- Here is who you should contact based on your request:
 
-Object: OPPORTUNITY 
+Object: OPPORTUNITY
 
 | TEAM:                               | REQUEST TYPE:                  | SUB REQUEST:                       |
 |-------------------------------------|--------------------------------|------------------------------------|
@@ -172,11 +172,11 @@ Object: OPPORTUNITY
 |                                     | Quote Help                     | Contract Reset                     |
 |                                     | Finance Use                    | Internal Only Correction           |
 |                                     | Finance Use                    | Customer Involved Correction       |
-|                                     | Other                          |                                    |     
-| Billing Team                        | Payment Portals (e.g. portal set-ups, Ariba, Coupa) |                |             
-|                                     | Billing Disputes (e.g. customer refusing to pay due to incorrect start date) |   | 
+|                                     | Other                          |                                    |
+| Billing Team                        | Payment Portals (e.g. portal set-ups, Ariba, Coupa) |                |
+|                                     | Billing Disputes (e.g. customer refusing to pay due to incorrect start date) |   |
 |                                     | Cancellation Requests | |
-|                                     | Currency Related Questions | |    
+|                                     | Currency Related Questions | |
 |                                     | Invoice Copy Requests |  |
 |                                     | Invoice Update (incl. VAT ID, name update, address update, PO) |    |
 |                                     | Payment Status Confirmation/Questions |       |
@@ -185,12 +185,12 @@ Object: OPPORTUNITY
 |                                     | Bill to/Sold to Address OR Bill to Email Address Updates |  |
 |                                     | Internal Support |    |
 |                                     | Request Reseller Account Creation in Zuora |  |
-| Sales Operations                    | Churn Exception Request - Comp |               |              
+| Sales Operations                    | Churn Exception Request - Comp |               |
 |                                     | Opportunity Splits |    |
-|                                     | Opportunity Owner Reassignment | | 
-|                                     | Opportunity Reassigment (xDR/SA/CSM)| |    
+|                                     | Opportunity Owner Reassignment | |
+|                                     | Opportunity Reassigment (xDR/SA/CSM)| |
 |                                     | Order Type |  |
-|                                     | Stage Reversion | |    
+|                                     | Stage Reversion | |
 |                                     | System Error |     |  
 |                                     | Other | |
 | Renewal Operations                  | Compensation Question | |
@@ -210,19 +210,19 @@ Object: OPPORTUNITY
 |                                     | CPPO | |
 |                                     | Link a deal reg to this closed opportunity | |
 
-Object: CONTACT 
+Object: CONTACT
 
 | TEAM:                               | REQUEST:                                                                                   |
 |-------------------------------------|--------------------------------------------------------------------------------------------|
 | SalesDev & Marketing                | Why was this contact assigned to me?                                                       |
-|                                     | How do I update the matched account?                                                       | 
-                               
+|                                     | How do I update the matched account?                                                       |
+
 Object: LEAD
 
 | TEAM:                               | REQUEST:                                                                                   |
 |-------------------------------------|--------------------------------------------------------------------------------------------|
 | SalesDev & Marketing                | I get an error blocking me from being able to edit/update a Lead                           |
-|                                     | I need help with merging duplicate Leads                                                   | 
+|                                     | I need help with merging duplicate Leads                                                   |
 |                                     | I am not seeing my activity showing up on the Lead                                         |
 |                                     | I get an error when trying to convert a Lead to Opp or Contact                             |
 |                                     | I get an error when trying to override address information on a Lead                       |
@@ -239,7 +239,7 @@ Object: CUSTOMER ACCOUNT
 | TEAM:                               | REQUEST:                                                                                   |
 |-------------------------------------|--------------------------------------------------------------------------------------------|
 | Sales Operations                    | Account Merges/Duplicate account                         |
-|                                     | Account Name Changes | 
+|                                     | Account Name Changes |
 |                                     | Account Hirearchy Correction |
 |                                     | Account Merger or Acquisition  |
 |                                     | Employee Count/Segment Correction |
@@ -254,7 +254,7 @@ Object: PARTNER ACCOUNT
 | TEAM:                               | REQUEST:                                                                                   |
 |-------------------------------------|--------------------------------------------------------------------------------------------|
 | Ecosystem Operations                | Traning and Certification                    |
-|                                     | Partner Program Admin | 
+|                                     | Partner Program Admin |
 |                                     | Partner Payments |
 |                                     | Post-Sale Support |
 |                                     | Update Account Owner |
@@ -266,7 +266,7 @@ Object: DEAL REGISTRATION
 | TEAM:                               | REQUEST:                                                                                   |
 |-------------------------------------|--------------------------------------------------------------------------------------------|
 | Ecosystem Operations                | General Question/Other      |
-|                                     | Unable to Approve/Error Message | 
+|                                     | Unable to Approve/Error Message |
 |                                     | Update Customer Account |
 |                                     | Link Reg to a Closed Opportunity |
 |                                     | Linked Customer Account Employee Count/Segment Update |

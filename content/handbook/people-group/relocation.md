@@ -204,6 +204,7 @@ If you are relocating away from a location with PEO Employment, you must give no
 
 1. Run the [Add Employee integration](https://internal.gitlab.com/handbook/people-group/people-operations/people-connect/onboarding_process/#steps-to-run-the-lawlogix-integration-in-workday) from Workday to LawLogix in order to intiate the I-9 process for the team member moving at least 5 days before the relocation.
 1. [Place team member in the appropriate benefit group](https://docs.google.com/document/d/1MuRjPnvK9PZI2kk58jHnMgC3iUQCzp7xdjsfQpJT37k/edit) in Workday on the effective date
+1. While creating the contract, please remove the summary page as it is not needed for relocating team members. 
 
 ##### Relocating **From** The United States
 
@@ -282,7 +283,6 @@ Once the contract or Mutual Termination Agreement (MTA) has been created by the 
     - Start Date: *add effective date of relocation*
     - Add this line underneath the start date at the top: "Continuous Service Date: *add original hire date*"
     - Add this sentence to the section above 1. Position: "Your continuity of service for all employment purposes begins on the *add original hire date: YYYY-MM-DD*"
-1. The People Connect Team member sets a reminder to update the PTO policy in BambooHR on the effective date of the relocation. The new PTO policy should start without a previous balance, adjust the balance if required. Click on +/- by hovering over the 'Employee Accruals' in the top left. Add or subtract the amount of days to 0 it out. Add a note: "Adjustment due to Relocation from COUNTRY to COUNTRY"
 
 #### South Korea, France or Singapore
 

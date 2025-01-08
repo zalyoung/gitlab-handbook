@@ -28,7 +28,7 @@ Listed below are GitLab's policies and procedures, as well as guidance and other
 - [Data Privacy Impact Assessment (DPIA) Policy](/handbook/legal/privacy/dpia-policy)
 - [Employee Privacy Policy](/handbook/legal/privacy/employee-privacy-policy/)
 - [Entity-Specific Employment Policies](/handbook/people-policies/#entity-specific-employment-policies)
-- [Events Code of Conduct](https://about.gitlab.com/company/culture/ecoc/)
+- [Events Code of Conduct](/handbook/company/culture/ecoc/)
 - [Gifts & Entertainment, Political Activities & Contributions, and Charitable Contributions](/handbook/legal/policies/gifts-contributions/#)
 - [GitLab Federal Code of Ethics](https://drive.google.com/file/d/1whEuxvIwy3M33N3vbUUkGrOKvkow5LAw/view)
 - [Insider Trading Policy](https://drive.google.com/file/d/184tkDZaPmZAxwQRQ5BwBv2JpfTWbWmBW/view)
@@ -40,7 +40,7 @@ Listed below are GitLab's policies and procedures, as well as guidance and other
 - [Related Party Transactions](/handbook/legal/gitlab-related-party-transactions-policy/)
 - [SAFE Framework](/handbook/legal/safe-framework/)
 - [Social Media Policy](/handbook/marketing/team-member-social-media-policy/)
-- [Third-Party Risk Management Process](/handbook/finance/procurement/#-third-party-risk-management)
+- [Third-Party Risk Management Process](/handbook/finance/procurement/#third-party-risk-management)
 - [UK Modern Slavery Act Transparency Statement](https://drive.google.com/file/d/11Yne51yOV5_9EBnGbfvMIrq06Z_OxUEM/view?usp=sharing)
 - [Whistleblower Policies](/handbook/legal/whistleblowing/#whistleblowing-at-gitlab)
 
@@ -69,7 +69,7 @@ We anticipate the need for policy amendments and new policies and procedures, as
 
 Compliance training is critical to GitLab's success and the success of its team members. Effective training helps team members achieve a more meaningful understanding of what our Compliance Standards require and puts them in a better position to recognize and escalate (as required) unethical and unlawful behavior when they see it.
 
-All team members are required, as part of their onboarding, to complete compliance training within 30 days of starting at GitLab. This training addresses key compliance topics such as anti-harassment, security, data privacy, and insider training, and must read and acknowledge GitLab's Code of Business Conduct and Ethics. Laws and regulations are constantly evolving, which is why GitLab also provides annual and refresher training as appropriate. Currently, training is provided through either [NavexEngage](https://lms.navexglobal.com/topclass5/) and [WILL Interactive](https://learning.willinteractive.com/). GitLab's [General Security Awareness Training](/handbook/security/security-assurance/governance/sec-training.html) is provided through [Proof Point](https://gitlab.ws01-securityeducation.com/my-training). Additional information about Navex and the courses available there can be found [here](/handbook/legal/legalops/navex/).
+All team members are required, as part of their onboarding, to complete compliance training within 30 days of starting at GitLab. This training addresses key compliance topics such as anti-harassment, security, data privacy, and insider training, and must read and acknowledge GitLab's Code of Business Conduct and Ethics. Laws and regulations are constantly evolving, which is why GitLab also provides annual and refresher training as appropriate. Currently, training is provided through [NavexEngage](https://lms.navexglobal.com/topclass5/) and [Level Up](https://university.gitlab.com/learn/dashboard). GitLab's [General Security Awareness Training](/handbook/security/security-assurance/governance/sec-training.html) is provided through [Proof Point](https://gitlab.ws01-securityeducation.com/my-training). Additional information about Navex and the courses available there can be found [here](/handbook/legal/legalops/navex/). The refresher training schedule for the current year is reflected in the [GitLab Team Member Calendar](https://handbook.gitlab.com/handbook/people-group/calendars/team-member-calendar/). 
 
 We recognize that some team members are subject to additional or heightened compliance requirements as a result of their roles and responsibilities or the geographies in which they operate. Depending on these factors, those team members may receive additional training. As an example, team members employed by or working closely with GitLab Federal, our United States public sector entity, must complete a training course titled Government Contracting: Gifts, Gratuities, and Bribery.
 

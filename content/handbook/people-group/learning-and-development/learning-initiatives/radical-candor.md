@@ -69,7 +69,7 @@ Attend **one** session, and come prepared to discuss and practice with concepts 
 
 ### Practice Session #2
 
-Attend **one** session, and come prepared to discuss and practice with concepts from the self-paced work, including: 
+Attend **one** session, and come prepared to discuss and practice with concepts from the self-paced work, including:
 `Give Criticism Effectively`, `Gauge How your Feedback Lands`, `Put Radical Candor to Work`, and `Cultivate a Candid Culture`.
 
 1. 2024-12-03 @ 1am UTC (best for APAC)

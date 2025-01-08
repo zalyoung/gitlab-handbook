@@ -92,7 +92,7 @@ The below steps should be followed when performing a **Design Spike**:
 
 ### Documentation
 
-The Data Team, like the rest of GitLab, works hard to document as much as possible. We believe [this framework](https://documentation.divio.com/) for types of documentation from Divio is quite valuable. For the most part, what's captured in the handbook are tutorials, how-to guides, and explanations, while reference documentation lives within in the primary analytics project. We have aspirations to tag our documentation with the appropriate function as well as clearly articulate the [assumed audiences](https://v4.chriskrycho.com/2018/assumed-audiences.html) for each piece of documentation.
+The Data Team, like the rest of GitLab, works hard to document as much as possible. We believe [this framework](https://docs.divio.com/documentation-system/) for types of documentation from Divio is quite valuable. For the most part, what's captured in the handbook are tutorials, how-to guides, and explanations, while reference documentation lives within in the primary analytics project. We have aspirations to tag our documentation with the appropriate function as well as clearly articulate the [assumed audiences](https://v4.chriskrycho.com/2018/assumed-audiences.html) for each piece of documentation.
 
 #### Documentation guideline
 
@@ -121,7 +121,7 @@ Matrix with the explanation when to use which documentation type:
 ### Data Team Value Calculator
 <!-- read through this and make adjustments -->
 
-The Value Calculator provides a uniform and transparent mechanism for ranking and enables all work to be evaluated on equal terms. The value calculator approach is similar to the [RICE Scoring Model](https://www.productplan.com/glossary/rice-scoring-model/) for Product Managers and the [Demand Metric Prioritization Model](https://blog.demandmetric.com/2009/02/06/prioritize-your-strategic-initiatives/) for Marketing.
+The Value Calculator provides a uniform and transparent mechanism for ranking and enables all work to be evaluated on equal terms. The value calculator approach is similar to the [RICE Scoring Model](https://www.productplan.com/glossary/rice-scoring-model/) for Product Managers and the [Demand Metric Prioritization Model](https://blog.demandmetric.com/2009/02/06/prioritize-your-strategic-initiatives) for Marketing.
 
 The calculator below is based on the following [Value Calculator](https://docs.google.com/spreadsheets/d/1FROB7j0YfNS_cQM6qQD0CPkE0Emuf77EJwTb96UduWs/edit?usp=sharing) spreadsheet. Please select the values below to define the value of new work.
 
@@ -204,7 +204,7 @@ All issues should get the following classes of labels assigned to them:
 - **Workflow:** The status of the work
 - **Priority:** Whether the work is P1 (Operational), P2 (OKR), or P3 (Other)
 
-Effective in January 2025, we use a Bot on the Data Team project to check that the Team, Champion, Workflow, and Priority labels have been applied to issues after 14 days of being opened. The bot sends a reminder in the issue to add the missing labels. The first triage response for adding labels is the team member that opens the issue. The 2nd triage response for adding labels is the Data Analyst, Data Scientist, Analytics Engineer, and Data Engineer that are on triage. Issues that do not have Team, Champion, Workflow, and Priority labels applied after 30 days are automatically closed. If an issue is closed due to not having the required labels, team members have the option to reopen the closed issue and apply the labels to meet the issue refinement requirements.   
+Effective in January 2025, we use a Bot on the Data Team project to check that the Team, Champion, Workflow, and Priority labels have been applied to issues after 14 days of being opened. The bot sends a reminder in the issue to add the missing labels. The first triage response for adding labels is the team member that opens the issue. The 2nd triage response for adding labels is the Data Analyst, Data Scientist, Analytics Engineer, and Data Engineer that are on triage. Issues that do not have Team, Champion, Workflow, and Priority labels applied after 30 days are automatically closed. If an issue is closed due to not having the required labels, team members have the option to reopen the closed issue and apply the labels to meet the issue refinement requirements.
 
 Optional labels that are useful to communicate state or other priority:
 
@@ -269,12 +269,10 @@ Once the KPI has been added to our enterprise BI platform, the Data Team will pr
 
 ### SLO for Issues and Merge Requests
 
-- First-Response SLO for a new Issue or MR: 36 hours from the time of creation
-- Issue Close SLO for a new Issue or MR is based on the [Issue Weight](/handbook/enterprise-data/how-we-work/#issue-pointing) assigned by the Data Team.
-  - Issue weight of 1-5 points: 4 weeks (2 iterations)
-  - Issue weight > 5 points: No SLO
-- MR Review SLO
-  - 4 weeks (2 iterations)
+- First-Response SLO for a new Issue: 2 business days from the time of issue creation
+- First-Response SLO for a new MR: 2 business days from the time of submission to the codeowner
+
+When opening an issue or submitting a MR for review, it is good to add a comment bringing the issue or MR to the attention of a DRI or codeowner. Please allow the SLO time period to expire before requesting additional updates or first responses on an Issue or MR. Issues and MRs within the SLO time period are not considered blocked. If the issue or MR is urgent or a break-fix scenario, it is good to follow-up with the team member in the Issue or MR within the SLO period as determined by the required urgency and importance.
 
 ### Removal and deletion process
 <!-- @dennis is there an iteration on this one, get @chris and @peter to contribute here -->

@@ -101,9 +101,9 @@ Vendor invoices are to be sent to ap@gitlab.com and payroll@gitlab.com for contr
 
 Non-US contractors not from Hungary, Italy, Japan, New Zealand, Nigeria, South Africa, Switzerland, and Ukraine will get pay their monthly wages and expenses through iiPay. Here is the process:
 
-- enter bank information in BambooHR under Bank Information tab. Note - new contractor should enter their bank information within 3 business days from their start date.
+- enter bank information in Workday under Bank Information tab. Note - new contractor should enter their bank information within 3 business days from their start date.
 - enter VAT number if it is available
-- submit monthly salary/bonus/commission invoice in BambooHR under Contractor Invoice tab (select the currency based on contract agreement) by the 8th of each month
+- submit monthly salary/bonus/commission invoice in through Google form by the 8th of each month (as described to you during onboarding)
 - submit expenses through Navan Expense by the 8th of each month
 - the scheduled payment date is the 22nd of each month
 - iiPay will send out remittance advice along with the scheduled payment via your GitLab email address

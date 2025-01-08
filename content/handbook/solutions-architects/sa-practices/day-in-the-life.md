@@ -157,7 +157,7 @@ The process which we will go through, at a high level, is as follows:
 - Remote:
   - Zoom, MS Teams, or Google Meet
   - Diagramming tools
-  - [FigJam](handbook/solutions-architects/tools-and-resources/#diagramming-tools) or LucidChart for Current State and Future State visualization
+  - [FigJam](/handbook/solutions-architects/tools-and-resources/#diagramming-tools) or LucidChart for Current State and Future State visualization
     - FigJam is not yet connected to Okta. Login using your Google account. Make sure you have a `Full` FigJam license with read-write access. (if you're in read-only mode, you need to request a full license)
     - LucidChart is an IT-managed application. If you are unsure if you have LucidChart access, go to the Okta interface in your browser, then select "Search Your Apps" and see if `LucidChart SSO` is available. If yes, LucidChart has been assigned to you and you can launch it from Okta and collaborate on any LucidChart Documents your team has shared with you. If no, then `LucidChart SSO` has not been assigned to you yet.
     - If you do not have `LucidChart SSO` assigned to you in Okta, please navigate to the ["access-requests" Project](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/) and submit an Issue requesting "Lucid Chart". Assign the Issue to your Manager and add the `IT::to do` label. See [example](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/19341) Access Request Issue.
@@ -175,15 +175,15 @@ The process which we will go through, at a high level, is as follows:
 
 ##### Idea to Production
 
-![Idea to Production](handbook/solutions-architects/sa-practices/value-stream-discovery/workflow-02.png)
+![Idea to Production](/handbook/solutions-architects/sa-practices/value-stream-discovery/workflow-02.png)
 
 ##### Response to Production Incident
 
-![Response to Production Incident](handbook/solutions-architects/sa-practices/value-stream-discovery/workflow-01.png)
+![Response to Production Incident](/handbook/solutions-architects/sa-practices/value-stream-discovery/workflow-01.png)
 
 ##### Toolchain Upgrading and Maintenance
 
-![Toolchain Upgrading and Maintenance](handbook/solutions-architects/sa-practices/value-stream-discovery/workflow-03.png)
+![Toolchain Upgrading and Maintenance](/handbook/solutions-architects/sa-practices/value-stream-discovery/workflow-03.png)
 
 ### Executive Briefing - Summarize the Findings
 

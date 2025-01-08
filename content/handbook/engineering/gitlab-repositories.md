@@ -28,7 +28,7 @@ When creating a new project, please follow these steps:
 1. When possible, projects should have the following [Merge request settings enabled](https://docs.gitlab.com/ee/user/project/settings/#delete-the-source-branch-on-merge-by-default):
     * [Merge Trains](https://docs.gitlab.com/ee/ci/pipelines/merge_trains.html).
     * [Delete source branch after merge](https://docs.gitlab.com/ee/user/project/settings/).
-    * [Merge only if pipeline succeeds](https://docs.gitlab.com/ee/user/project/merge_requests/merge_when_pipeline_succeeds.html).
+    * [Merge only if pipeline succeeds](https://docs.gitlab.com/ee/user/project/merge_requests/auto_merge.html).
     * [Merge only when all threads are resolved](https://docs.gitlab.com/ee/user/discussions/index.html#only-allow-merge-requests-to-be-merged-if-all-threads-are-resolved).
 1. When possible, projects should have the following [Pipeline settings enabled](https://docs.gitlab.com/ee/ci/pipelines/settings.html):
     * [Auto-cancel pending pipelines](https://docs.gitlab.com/ee/ci/pipelines/settings.html#auto-cancel-pending-pipelines).
@@ -88,7 +88,7 @@ sast:
     - gitlab-org-docker
 ```
 
-If a job requires the usage of Windows, SaaS runners on Windows should be used. For the exact configuration please check the [SaaS runner on Windows documentation](https://docs.gitlab.com/ee/ci/runners/saas/windows_saas_runner.html#machine-types-available-for-windows).
+If a job requires the usage of Windows, SaaS runners on Windows should be used. For the exact configuration please check the [SaaS runner on Windows documentation](https://docs.gitlab.com/ee/ci/runners/hosted_runners/windows.html#machine-types-available-for-windows).
 
 ### Publishing a Project
 

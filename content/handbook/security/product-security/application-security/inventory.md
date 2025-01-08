@@ -48,7 +48,7 @@ Rules define actions to take, based on the project categories. These actions are
 
 | Categories | Actions |
 | -------- | ----------- |
-|  All (even if no category is defined) | Download [Dependencies], [Protected Branches](https://docs.gitlab.com/ce/api/protected_branches.html), [Approvals](https://docs.gitlab.com/ee/api/merge_request_approvals.html), [Approval Rules](https://docs.gitlab.com/ee/api/merge_request_approvals.html#get-project-level-rules) |
+|  All (even if no category is defined) | Download [Dependencies], [Protected Branches](https://docs.gitlab.com/ee/api/protected_branches.html), [Approvals](https://docs.gitlab.com/ee/api/merge_request_approvals.html), [Approval Rules](https://docs.gitlab.com/ee/api/merge_request_approvals.html#get-project-level-rules) |
 | `product`, `library`, `red_data` | Download [CI/CD configuration](https://docs.gitlab.com/ee/api/lint.html) |
 | `product`, `secrets_monitoring`  | Download [Vulnerabilities]     |
 

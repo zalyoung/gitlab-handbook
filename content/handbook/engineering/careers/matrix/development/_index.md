@@ -27,5 +27,5 @@ These are the expected competencies of team members at GitLab by Job Title and j
 - <span class="colour" style="color: rgb(51, 51, 51);">Fulfillment</span>
 - Growth
 - Ops
-- Govern
+- Software Supply Chain Security
 - Secure

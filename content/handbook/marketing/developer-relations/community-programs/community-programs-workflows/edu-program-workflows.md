@@ -12,9 +12,9 @@ SheerID instantly confirms whether or not there is a match and either successful
 
 ## Education Service Desk
 
-We assist Education Program members who are blocked in the process of renewing or applying, as well as those with general questions about the program. 
+We assist Education Program members who are blocked in the process of renewing or applying, as well as those with general questions about the program.
 
-To review any current applications, support tickets or common questions please review the Service Desk below. 
+To review any current applications, support tickets or common questions please review the Service Desk below.
 
 - [Education Service Desk](https://gitlab.com/gitlab-com/marketing/developer-relations/education-program/education-program-support/-/boards)
 
