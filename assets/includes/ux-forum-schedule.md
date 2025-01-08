@@ -3,7 +3,6 @@
 
 | Date       | Host                 | Speaker 1              | Speaker 2              | Speaker 3              |
 |------------|----------------------|------------------------|------------------------|------------------------|
-| 2025-01-08 | Nicolle Merrill      |                        |                        |                        |
 | 2025-01-22 | Andy Volpe           | Chad Lavimoniere       | Amelia Bauerly         |                        |
 | 2025-02-05 | Chris Micek          | Taylor Vanderhelm      | Sunjung Park           | Libor Vanc             |
 | 2025-02-19 | Justin Mandell       | Katie Macoy            | Ilonah Pelaez          |                        |
