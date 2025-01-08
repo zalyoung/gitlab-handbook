@@ -1,6 +1,10 @@
 # This file excludes certain links from hugolint.
 # It uses the gitignore syntax.
 
+# Files in the /static/ folders are valid.
+/pdfs
+/videos
+
 # The team page uses the `{{< team >}}` shortcode, so most anchors cannot be found by hugolint.
 /handbook/company/team
 
