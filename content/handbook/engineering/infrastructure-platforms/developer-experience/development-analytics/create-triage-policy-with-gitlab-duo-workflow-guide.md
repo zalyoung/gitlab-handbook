@@ -1,0 +1,97 @@
+---
+title: Create triage policies with the assistance of GitLab Duo Workflow
+draft: true
+---
+
+## Summary
+
+This guide provides comprehensive instructions for writing triage automation policies in [triage-ops](https://gitlab.com/gitlab-org/quality/triage-ops) using GitLab Duo Workflow.
+
+## Purpose
+
+Triage policies are necessary when team members perform label migrations across existing issues, merge requests, and epics using [gitlab-triage](https://gitlab.com/gitlab-org/ruby/gems/gitlab-triage). To optimize operational efficiency and ensure seamless implementation, we recommend self-servicing the label migration MRs using [GitLab Duo Workflow](https://docs.gitlab.com/ee/user/duo_workflow/).
+
+## Before you start
+
+Setup: Follow the [GitLab Duo Workflow documentation](https://docs.gitlab.com/ee/user/duo_workflow/) to learn how to set up and access GitLab Duo Workflow in your code editor.
+
+## Build your prompt
+
+Include the following details in your prompt:
+
+### File name and location
+
+Specify the location for your policies.
+
+For label migration policies, place the policy files inside the [`policies/one-off`](https://gitlab.com/gitlab-org/quality/triage-ops/-/tree/master/policies/one-off) folder in the `triage-ops` project. Make sure to specify the policy file name.
+
+Example: `write a one-off label migration in policies/one-off/auth-migration.yml to...`
+
+### Migration target
+
+Define your migration target through `conditions` in the policy.
+
+Example: `issues, MRs, and epics that are currently labeled with group::authentication`
+
+### Action
+
+Define the desired outcome of the automation, such as which label to apply to the targets.
+
+Example: `apply a devops::software supply chain security label to issues, MRs, and epics...`
+
+### Reference material
+
+GitLab Duo Workflow requires reference materials, preferably with examples, to write these files.
+
+Example: `Read instructions and example yml files in policies/one-off/duo-workflow-guide-and-example-policies to ensure the result has the correct syntax.`
+
+### CI jobs for label migration
+
+For testing and executing migration policies, create CI jobs in the MR pipeline. Instruct Workflow to create these jobs:
+
+Example: `Link the new one-off policy in .gitlab/ci/one-off.yml to run the policy in CI. Create two jobs: a dry-run and an actual job. The job names must follow the instructions listed in one-off.yml.`
+
+### Complete example prompt
+
+> Write a one-off label migration in policies/one-off/auth-migration.yml to apply a devops::software supply chain security label to issues, MRs, and epics currently labeled with group::authentication. Target only open resources. Exclude any resource that already has the devops::software supply chain security label.
+>
+> Link the new one-off policy in .gitlab/ci/one-off.yml to run the policy in CI. Create two jobs: a dry-run and an actual job. The job names must follow the instructions listed in one-off.yml.
+>
+> Read instructions and example yml files in `policies/one-off/duo-workflow-guide-and-example-policies` to ensure correct syntax.
+
+## Best practices and troubleshooting tips
+
+Use the dry-run job to verify your policy's accuracy.
+
+If a specified condition is ignored in the dry run, check for syntax errors in the condition field. The gitlab-triage gem might ignore conditions with invalid syntax without generating an error message. Review all condition keywords in the policy and compare them with the [gitlab-triage documentation](https://gitlab.com/gitlab-org/ruby/gems/gitlab-triage#defining-a-policy).
+
+For example, when writing a triage policy to post comments in your targeted resources:
+
+> In ./policies/groups/gitlab-com/csmerm/label_regression_for_on_track_with_no_activity.yml, write a policy to apply regression label on issues labeled with ~"SP Objective::Status::On Track" when there has been no update on the issue in more than 8 days.
+
+May produce this result with an incorrect field `last_updated_at`:
+
+```yaml
+resource_rules:
+  issues:
+    rules:
+      - name: Mark as regression when on track issues have no activity for 8+ days
+        conditions:
+          last_updated_at: 8d-ago
+        actions:
+          labels:
+            - regression
+```
+
+The correct way of specifying that condition is:
+
+```yaml
+conditions:
+  ruby: resource[:updated_at] < 8.days.ago.strftime('%Y-%m-%dT00:00:00.000Z')
+```
+
+After finding the solution, include this policy in the reference materials linked in your #reference-material prompt to help Workflow avoid similar mistakes.
+
+## Demo
+
+Watch [this video](https://www.youtube.com/watch?v=AoCD4hh2nhc) on GitLab Unfiltered for demo.
