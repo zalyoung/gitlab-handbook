@@ -3,7 +3,7 @@
 
 | Date       | Host                 | Speaker 1              | Speaker 2              | Speaker 3              |
 |------------|----------------------|------------------------|------------------------|------------------------|
-| 2025-01-22 | Andy Volpe           | Chad Lavimoniere       | Amelia Bauerly         |                        |
+| 2025-01-22 | Andy Volpe           | Chad Lavimoniere       | Amelia Bauerly        |                        |
 | 2025-02-05 | Chris Micek          | Taylor Vanderhelm      | Sunjung Park           | Libor Vanc             |
 | 2025-02-19 | Justin Mandell       | Katie Macoy            | Ilonah Pelaez          |                        |
 | 2025-03-05 | Marcel van Remmerden | Jeremy Elder           | Pedro Moreira da Silva | Becka Lippert          |
@@ -32,5 +32,6 @@
 | 2026-01-21 | Paul Wright          | Ilonah Pelaez          | Lina Fowler            |                        |
 | 2026-02-04 | Emily Sybrant        | Nick Brandt            | Veethika Mishra        |                        |
 | 2026-02-18 | Rayana Verissimo     | Graham Bachelder       | Trevor Storey          | Annabel Gray           |
+
 
 Tip for Product Design Managers: Create the schedule in a temporary spreadsheet, and then copy/paste the rows into an online [markdown generator](https://www.google.com/search?q=copy-table-in-excel-and-paste-as-a-markdown-table).
