@@ -110,13 +110,23 @@ This phased approach ensures an MVP can be delivered early, with incremental sec
 1. Define the structure of the component (e.g., input/output variables, artifact paths).
 1. Create templates for users to integrate the component into their .gitlab-ci.yml files.
 
-### Key Implementation Steps
+### Key Implementation Projects
 
-1. Phase 1: Develop and validate the provenance generation component using Sigstore.
-1. Phase 2: Extend the component to collect build-specific metadata for supported ecosystems.
+Note: the projects listed below are note dependent on each other and can be done in parallel.
+
+#### Provenance Generation
+  
+1. Phase 1: Develop and validate the provenance generation component using Sigstore. 
+1. Phase 2: Extend the component to collect build-specific metadata for supported ecosystems. 
 1. Phase 3: Add functionality to collect and embed GitLab platform metadata.
-1. Phase 4: Integrate KMS-based out-of-pipeline signing and ensure key isolation.
-1. Phase 5: Design runner identity enhancements and explore hardware-based solutions.
+
+#### KMS Integration
+
+1. Phase 1: Integrate KMS-based out-of-pipeline signing and ensure key isolation.
+
+#### Runner Identity Enhancements
+
+1. Phase 1: Design runner identity enhancements and explore hardware-based solutions.
 
 ### Deliverables
 
