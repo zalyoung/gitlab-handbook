@@ -7,10 +7,10 @@ description: "Programs available to specific customer types and segments."
 ### Program Content
 
 The Digital Success team creates email programs to accelerate customer value through self-service onboarding and education. Our content drives customers to [GitLab University](https://university.gitlab.com/) hub for customer resources and learning.
+
 ### Core Customer Email Programs
 
 The programs below are currently active. For more details on segmentation breakdown and copy doc information refer to the [Digital Success Email Program Documentation](https://docs.google.com/spreadsheets/d/14udgDUoEhzMjkQMYBVmYInPUBHgpfSKm8vVDRTR3NyY/edit?usp=sharing).
-
 
 | Program                      | Category   | Content  |
 |-----------------|------------|----------|
@@ -26,18 +26,19 @@ The programs below are currently active. For more details on segmentation breakd
 | Agile Adoption | Day 60 | CSE / Digital SMB |
 | [Customer CSAT Survey](/handbook/sales/field-operations/customer-success-operations/cs-ops-programs/all-customer-csat-cs/) | Quarterly | All |
 | [Customer Newsletter](/handbook/sales/field-operations/customer-success-operations/cs-ops-programs/customer-newsletter/) | Monthly on the 4th Friday | All |
+
 To enroll contacts into Enablement campaigns Gainsight users can enroll contacts through a multi-picklist Enablement Enrollment on the contact in Gainsight - see [issue](https://gitlab.com/gitlab-com/sales-team/field-operations/customer-success-operations/-/issues/694) for instructions.
 
 ### Customer webinars & labs
 
 Monthly communications are sent out to all customers, targeted based on renewal date, CI score, Security score, and occasionally issue/epic use and start date.
 
-Find this month’s full list of customer invites here.
+Find this months full list of customer invites here.
 
 #### Email Invites: CI Lab Invite to Low-CI Customers
 
 Every month, customers are invited to CI and Advanced CI Hands-On Labs hosted by CSEs. These sessions are two hours long, and provide customers access to hands-on experience in a provisioned environment. Customers who receive this invite have low CI score (yellow or red). Note: If CI Product Coach is going on, CSE Customers who receive CI Product Coach do not typically receive this email.
- 
+
 #### Email Invites: Security Lab Invite to Ultimate
 
 Every month, customers are invited to a Security & Compliance Hands-On Lab hosted by CSEs. This session is two hours long, and provides customers access to hands-on experience in a provisioned environment. All ultimate customers receive this invite. Note: If Security Product Coach/Security Plus is going on, CSE Customers who receive Security Product Coach/Security Plus do not typically receive this email.
