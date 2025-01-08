@@ -221,7 +221,7 @@ Tips & Tricks:
   - Archive the temporary Slack channel
   - Update the customer's CSM Sentiment in Gainsight to reflect the new state of the account.
 
-- Gainsight Escalation Closure question template: 
+- Gainsight Escalation Closure question template:
 
 Please provide a closure update answering the following questions:
 

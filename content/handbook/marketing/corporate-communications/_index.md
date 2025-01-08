@@ -13,7 +13,7 @@ twitter_creator: '@gitlab'
 
 We serve as strategic advisors to GitLab executives and cross-functional teams on issues that impact team members, customers, partners, and other business-critical parties.
 
-We exist to positively influence the perception of GitLab by reaching economic buyers, technical champions, community contributors, advocates, investors, and industry analysts. We do this by developing and implementing strategic external communications plans that protect the brand, and generate awareness and preference for GitLab. 
+We exist to positively influence the perception of GitLab by reaching economic buyers, technical champions, community contributors, advocates, investors, and industry analysts. We do this by developing and implementing strategic external communications plans that protect the brand, and generate awareness and preference for GitLab.
 
 *This page is the single source of truth for corporate communications objectives/goals, contact information, messaging, PR/social media guidelines, approval processes, strategy and more.*
 
@@ -24,7 +24,7 @@ The GitLab Corporate Communications team is responsible for the following activi
 * Media relations (print/broadcast/podcasts)
 * Media sponsorships
 * Contributed article placement
-* Executive visibility 
+* Executive visibility
 * Awards
 * [Incident Communications](/handbook/marketing/corporate-communications/incident-communications-plan/) (separate handbook page)
 
@@ -32,13 +32,13 @@ The GitLab Corporate Communications team is responsible for the following activi
 
 * Celebrate individual wins, along with team wins
 * Support each other professionally and personally
-* Hold each other to a high standard 
+* Hold each other to a high standard
 * We have short toes and welcome collaboration, feedback, and feedforward
 * We strive for excellence
 
 ## Contacting GitLab’s Corporate Communications team
 
-Please use the `#external-comms` Slack channel. 
+Please use the `#external-comms` Slack channel.
 
 ## Speaking on behalf of GitLab
 
@@ -46,29 +46,29 @@ Speaking on behalf of GitLab via a public channel such as a media interview (in-
 
 ### Spokesperson Criteria
 
-Being a designated company spokesperson is a responsibility that should be taken with the utmost seriousness. 
+Being a designated company spokesperson is a responsibility that should be taken with the utmost seriousness.
 
 **Spokesperson Criteria:**
 
 * Subject matter expert
 * Business requirement for your expertise
 * Approved by Comms as a spokesperson
-* Trained by GitLab media trainer 
+* Trained by GitLab media trainer
 * Manager approval
 * Good company standing
 
-If you are new to being a spokesperson for GitLab, the Corporate Communications team may ask you for video examples of past speaking engagements (events, webinars, tutorials, etc.) for assessment. 
+If you are new to being a spokesperson for GitLab, the Corporate Communications team may ask you for video examples of past speaking engagements (events, webinars, tutorials, etc.) for assessment.
 
 ### Media mentions, incoming media requests and interviews (including podcasts)
 
-Team members may be approached by reporters, podcasts hosts, etc. to comment on the company and/or conduct interviews. If you are asked to be quoted or to provide commentary on any matter as a spokesperson of GitLab, please provide detail of the opportunity to the Corporate Communications team in the `#external-comms` Slack channel before engaging. 
+Team members may be approached by reporters, podcasts hosts, etc. to comment on the company and/or conduct interviews. If you are asked to be quoted or to provide commentary on any matter as a spokesperson of GitLab, please provide detail of the opportunity to the Corporate Communications team in the `#external-comms` Slack channel before engaging.
 
 While team members may have established relationships with reporters, podcast hosts, etc., engagement on any matter related to GitLab should go through the Corporate Communications team. You can reach the team in the `#external-comms` Slack channel before engaging.
 
 ### Speaking Opportunities (conferences, meetups, webinars and other events)
 
 **Developer Relations Speakers Bureau**
-The Developer Relations Speakers Bureau includes GitLab team members who participate in community/user meetups and deliver technical talks. Participation in the Developer Relations Speakers Bureau is distinct from media and analyst relations overseen by the Corporate Communications team. 
+The Developer Relations Speakers Bureau includes GitLab team members who participate in community/user meetups and deliver technical talks. Participation in the Developer Relations Speakers Bureau is distinct from media and analyst relations overseen by the Corporate Communications team.
 
 **Invited to Speak**
 If you are asked to speak on behalf of GitLab at an event, on a webinar or at a Meetup, please contact the Corporate Communications and Developer Relations teams to ensure that the opportunity aligns with GitLab objectives and key narratives. *Inquiries should be initiated in the `#external-comms` Slack channel before you accept the speaking invitation.* Please allow 5 business days for evaluation. Opening an issue under Corporate Marketing to further collaborate on the opportunity may be requested.
@@ -90,7 +90,7 @@ If you are staffing the GitLab booth at an in-person or virtual event, you are r
 
 #### Analysts
 
-For analyst research-oriented requests, please consult the Analyst Relations handbook section and direct questions to the `#analyst-relations` Slack channel. 
+For analyst research-oriented requests, please consult the Analyst Relations handbook section and direct questions to the `#analyst-relations` Slack channel.
 
 #### Media
 
@@ -98,7 +98,7 @@ All media inquiries and requests must go through the corporate communications te
 
 #### Honorariums
 
-If you are approached by external parties seeking to provide payment for a GitLab team member’s time, please contact the corporate communications team via the  `#external-comms` Slack channel to discuss the opportunity and approval process. 
+If you are approached by external parties seeking to provide payment for a GitLab team member’s time, please contact the corporate communications team via the  `#external-comms` Slack channel to discuss the opportunity and approval process.
 
 ### Social Media
 
@@ -132,7 +132,7 @@ Any use of GitLab’s name, brand, or logo requires prior email approval by GitL
 
 * *Partner public relations participation criteria:*
 
-  * A signed contract as a Select partner 
+  * A signed contract as a Select partner
   * Minimum 10 joint customers and/or a strategic business plan
   * New partners: please reach out to your account representative for guidance.
   

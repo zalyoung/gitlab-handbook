@@ -109,7 +109,7 @@ The first exception is in the collection of hostname and IP address for Self-Man
 
 ## Switchboard
 
-*Purpose*: GitLab customers using the Dedicated single tenant SaaS offering have access to a customer console called [Switchboard](https://about.gitlab.com/direction/saas-platforms/switchboard/).  Switchboard is used by customer teams to maintain and configure their own Dedicated tenant.  Metrics from the Switchboard application are collected to help GitLab better understand how Dedicated customers are using Switchboard.  In turn, these Metrics will assist in driving further development of the Switchboard application.   
+*Purpose*: GitLab customers using the Dedicated single tenant SaaS offering have access to a customer console called [Switchboard](https://about.gitlab.com/direction/saas-platforms/switchboard/).  Switchboard is used by customer teams to maintain and configure their own Dedicated tenant.  Metrics from the Switchboard application are collected to help GitLab better understand how Dedicated customers are using Switchboard.  In turn, these Metrics will assist in driving further development of the Switchboard application.
 
 *Applicable Software*: Switchboard Metrics are collected only from Dedicated users with access to the Swithboard application.
 
@@ -125,7 +125,7 @@ The first exception is in the collection of hostname and IP address for Self-Man
 
 *Types of Data*: A full list of the Switchboard Mertics collected can be viewed [here](https://metrics.gitlab.com/events/?serviceName=Switchboard).
 
-*Opting-Out*:  Currently, there is no mechanism for opting out of Switchboard Metrics. 
+*Opting-Out*:  Currently, there is no mechanism for opting out of Switchboard Metrics.
 
 ## Usage Data for AI-Powered Features
 
