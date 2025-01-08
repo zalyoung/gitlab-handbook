@@ -114,3 +114,9 @@ The primary team label is `team::GitLab Delivery Framework`. This label should b
 ```
 
 </details>
+
+## Team Impact
+
+The following are records of the annual achievements of the Framework team.
+
+1. [Team Impact Overview for 2024](https://gitlab.com/gitlab-com/gl-infra/software-delivery/framework/software-delivery-framework-issue-tracker/-/issues/15)
