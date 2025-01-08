@@ -132,14 +132,14 @@ SMEs will be regularly evaluated based on their contributions and impact on the 
 | SME Areas | AI | App Security | Agile Planning | GitLab Dedicated |
 | :---- | :---- | :---- | :---- | :---- |
 | SME Area Lead | Edmond Chan | Andrea Obermeier | David Astor | Alessia Del Vecchio |
-| Product Manager Rep/ | Depending on time zone: <br>AMER: Taylor McCaslin <br>APAC/EU: Pini Wietchner |  | Melissa ushakov | Chris Balane |
-| Engineering Manager Rep | Depending on time zone: <br>AMER: Michelle Gill <br>APAC/EU: David O’Regan |  | John Hope | Oriol Lluch |
-| APJ |  | Tomasz Skora |  |  |
+| Product Manager Rep/ | Depending on time zone: <br>AMER: Taylor McCaslin <br>APAC/EU: Pini Wietchner |  :----  | Melissa ushakov | Chris Balane |
+| Engineering Manager Rep | Depending on time zone: <br>AMER: Michelle Gill <br>APAC/EU: David O’Regan |  :---- | John Hope | Oriol Lluch |
+| APJ |  :---- | Tomasz Skora |  :---- |  :---- |
 | EMEA North Europe | Kristoff Goossens | Dominique Top | Gabriela Dobrescu, James Moverley | Martin McVay |
-| EMEA South Europe |  | Paul Dumaitre, Olivier Dupre |  |  |
-| EMEA DACH/META | Alexander Dess | Mirko Brandner, Julia Gåtjens |  | Falko Sieverding |
+| EMEA South Europe |  | Paul Dumaitre, Olivier Dupre |  :---- |  :---- |
+| EMEA DACH/META | Alexander Dess | Mirko Brandner, Julia Gåtjens |  :----  | Falko Sieverding |
 | US East | Sam Morris | Bernard Park, James Nyika | Dan Rabinovitz | Adam Zwickey |
 | US West | Karen Kwentus | Yu-Chen Hsueh | Steve Grossman | Ryan Taylor |
-| High Velocity AMER |  | Jefferson Jones | Sophia Manicor |  |
-| High Velocity EMEA |  | Claire Marie Champernowne, Nupur Sharma | Jan Kunzmann | Corina Patachia |
-| Pub Sector AMER | :---- | :---- | :---- | Daniel Marquard, Michael Bradley |
+| High Velocity AMER |  :---- | Jefferson Jones | Sophia Manicor |  :---- |
+| High Velocity EMEA | :---- | Claire Marie Champernowne, Nupur Sharma | Jan Kunzmann | :---- |
+| Pub Sector AMER | :---- | :---- | :---- | Michael Bradley |
