@@ -137,6 +137,7 @@ Apple hardware is the common choice among GitLab team members. Team members may 
 NOTE: GitLab's IT Ops team uses a corporate discount for our corporate-purchased Apple products only. Apple does **not** have an employee discount program for GitLab at this time.
 
 #### Apple Hardware
+
 Chipset specifications not listed as they will vary based on current inventory levels.
 
 - MacBook Pro 14-inch - 16GB Unified memory / 512GB storage  **Standard model**
