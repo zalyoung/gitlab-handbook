@@ -335,7 +335,7 @@ SRE's with Cloud Efficiency Engineering specialization primarily focus on improv
 
 The FinOps SRE specialization focuses on optimizing cloud infrastructure costs by developing tools and processes that offer valuable insights into infrastructure spending. Acting as subject matter experts, they collaborate with compliance assessors on regulatory certifications (e.g. FedRAMP, SOC2, ISO) and support Finance in understanding how system changes impact financial forecasts. Additionally, they work closely with engineering teams to ensure operational readiness across GitLab's infrastructure.
 
-**Note:** The nature of this role means there is limited exposure to the day-to-day operations of GitLab's SaaS Platforms, therefore there is no requirement to be part of the Incident Management [EOC process](/handbook/engineering/infrastructure/incident-management/#engineer-on-call-eoc-responsibilities). However, FinOps SREs are expected to maintain appropriate SLAs of the systems and processes they support. 
+**Note:** The nature of this role means there is limited exposure to the day-to-day operations of GitLab's SaaS Platforms, therefore there is no requirement to be part of the Incident Management [EOC process](/handbook/engineering/infrastructure/incident-management/#engineer-on-call-eoc-responsibilities). However, FinOps SREs are expected to maintain appropriate SLAs of the systems and processes they support.
 
 #### Responsibilities
 

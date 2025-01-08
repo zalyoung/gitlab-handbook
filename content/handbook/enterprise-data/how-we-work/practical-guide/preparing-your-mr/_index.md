@@ -25,7 +25,7 @@ Because permissions are replicated from the production environment, if you are c
 
 ### Test the MR - either in SQL or in Tableau. Make sure it's doing what you think it is
 
-Once you have access to your tables, make sure to test them! You can test them in Tableau, or Snowflake. Getting updates merged can be time consuming- not just from the review of the changes, but also just the time it takes to see your changes reflected once you update the database. 
+Once you have access to your tables, make sure to test them! You can test them in Tableau, or Snowflake. Getting updates merged can be time consuming- not just from the review of the changes, but also just the time it takes to see your changes reflected once you update the database.
 
 Even if you are making changes in a report table where nobody else will be negatively impacted if your code changes have a mistake in them, you are still holding up the process if you merge through changes that are incorrect and need to be changed again. When you are finished reviewing the changes from your MR and you leave your sign off that the changes are working as expected, you are committing to having tested your changes.
 
@@ -82,7 +82,7 @@ Here is a breakdown of the MR template, one section at a time. The numbers on th
 
   4. Our CI jobs will build the models and environment included in the scope of your MR. You can leave this section as is, as the "Changes" tab will outline the MR's scope. In rare cases where additional models need to be built outside of those included in the `build_changes` job, you can specify them here. If extra models need to be run, you can use the `custom_invocation` job or the `build_changes` job with a specified `SELECTION`.
 
-  5. Before an MR can be merged, you will need to "Build Changes", "Grant Clones" to yourself, and perform remote testing - either in Snowflake or Tableau. 
+  5. Before an MR can be merged, you will need to "Build Changes", "Grant Clones" to yourself, and perform remote testing - either in Snowflake or Tableau.
       ![MR 2](/images/handbook/enterprise-data/platform/tableau/mr-template-2.png)
   6. In the "Verify" section you will verify that the changes you make are having the impact you expect. You will include the results below.
 
@@ -148,6 +148,6 @@ This also helps tremendously when something happens like the company grows in si
 
 ## Other Helpful Resources for Preparing MRs
 
-Our DBT Guide: https://handbook.gitlab.com/handbook/enterprise-data/platform/dbt-guide/ 
+Our DBT Guide: https://handbook.gitlab.com/handbook/enterprise-data/platform/dbt-guide/
 Style Guide: https://handbook.gitlab.com/handbook/enterprise-data/platform/dbt-guide/#style-and-usage-guide
 General helpful information about using dbt: https://handbook.gitlab.com/handbook/enterprise-data/platform/dbt-guide/#general

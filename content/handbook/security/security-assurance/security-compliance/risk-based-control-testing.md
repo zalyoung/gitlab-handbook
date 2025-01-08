@@ -58,7 +58,7 @@ If you have a process or control that you think should be tested based on the cr
 
 ### 1. Confirm that the controls are not already tested
 
-(to be updated - https://gitlab.com/gitlab-com/gl-security/security-assurance/security-compliance/team/-/issues/267) 
+(to be updated - https://gitlab.com/gitlab-com/gl-security/security-assurance/security-compliance/team/-/issues/267)
 
 ### 2. Create a Security Compliance Intake Issue
 
