@@ -103,9 +103,9 @@ The high-level proposal is as follows:
    - What's the expected ETA for everything to be re-encrypted with the current encryption key?
    - What keys can be deleted (i.e. no data is encrypted with this key and the key is `retired` already)?
 
-### New "Encryption keys" admin page
+### "Encryption keys" admin page
 
-!["Encryption keys" admin page](/images/handbook/engineering/architecture/design-documents/encryption_key_rotation/encryption-keys-admin-page.png)
+!["Encryption keys" admin page](/images/handbook/engineering/architecture/design-documents/encryption_keys_rotation/encryption-keys-admin-page.png)
 
 ### Technical details
 
