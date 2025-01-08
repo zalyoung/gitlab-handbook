@@ -5,11 +5,15 @@ draft: true
 
 ## Summary
 
-This guide provides comprehensive instructions for writing triage automation policies in [triage-ops](https://gitlab.com/gitlab-org/quality/triage-ops) using GitLab Duo Workflow.
+This guide provides comprehensive instructions for writing triage automation policies in [triage-ops](https://gitlab.com/gitlab-org/quality/triage-ops) using GitLab Duo Workflow. You will be able to self service label migrations after a department re-org by following this page.
+
+Todo: include instructions for writing policies to perform other types of automated tasks.
 
 ## Purpose
 
-Triage policies are necessary when team members perform label migrations across existing issues, merge requests, and epics using [gitlab-triage](https://gitlab.com/gitlab-org/ruby/gems/gitlab-triage). To optimize operational efficiency and ensure seamless implementation, we recommend self-servicing the label migration MRs using [GitLab Duo Workflow](https://docs.gitlab.com/ee/user/duo_workflow/).
+Triage policies are necessary to perform automated tasks against Gitlab resources with the help of the [gitlab-triage](https://gitlab.com/gitlab-org/ruby/gems/gitlab-triage) gem.
+
+A common use case is when team members perform label migrations across existing issues, merge requests, and epics using [gitlab-triage](https://gitlab.com/gitlab-org/ruby/gems/gitlab-triage). To optimize operational efficiency and ensure seamless implementation, we recommend self-servicing the label migration MRs using [GitLab Duo Workflow](https://docs.gitlab.com/ee/user/duo_workflow/).
 
 ## Before you start
 
