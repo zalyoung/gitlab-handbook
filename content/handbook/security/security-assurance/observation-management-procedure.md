@@ -85,7 +85,7 @@ Observations can be identified through the following channels:
 
 ### Assigning Observations
 
-The observation identifier is responsible for opening an observation in the GitLab Observation Project. The observation identifier fills out all necessary observation information, remediation recommendations and submits the observation to the Remediation Owner for validation. The Observation Manager is responsible for managing the observation through the observation lifecycle. This includes linking the observation to the associated control in Hyperproof, validating the observation with the Remediation Owner, tracking all remediation progress and updating the GitLab issue with current information and status updates. Each observation has both a GitLab Issue (for Remediation Owners) and a Hyperproof Issue (for Observation Managers). Each observation will be assigned a [risk rating](#observation-risk-ratings), which should drive the priority of remediation.
+The observation identifier is responsible for opening an observation in the GitLab Observation Project. The observation identifier fills out all necessary observation information, remediation recommendations and submits the observation to the Remediation Owner for validation. The Observation Manager is responsible for managing the observation through the observation lifecycle. This includes linking the observation to the associated control in Hyperproof, validating the observation with the Remediation Owner, tracking all remediation progress and updating the GitLab issue with current information and status updates. Each observation has both a GitLab Issue (for Remediation Owners) and a Hyperproof Issue (for Observation Managers). Each observation will be assigned a [risk rating](#risk-ratings), which should drive the priority of remediation.
 
 ### Drafting Observation Description Guidance
 
@@ -157,7 +157,7 @@ Observation remediation SLA's are determined by the risk rating of the individua
 The observation program is a key input to the [StORM program](/handbook/security/security-assurance/security-risk/storm-program), which manages tier 2 security operational risks. When the following criteria is met, it is an indicator that a larger risk exists and is upgraded to a tier 2 operational risk and therefore included in the StORM program. This criteria is as follows:
 
 - An observation in an entity level control
-- When multiple observations share root cause and are grouped in an [observation epic](#root-cause-observation-epics). Observation epics are a group of observations spanning multiple systems that have shared root cause and remediation paths.
+- When multiple observations share root cause and are grouped in an observation epic. Observation epics are a group of observations spanning multiple systems that have shared root cause and remediation paths.
 
 ### Security Compliance Workflow
 
