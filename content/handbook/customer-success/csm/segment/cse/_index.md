@@ -55,7 +55,7 @@ The [CSE operating rhythm](/handbook/customer-success/csm/segment/cse/cse-operat
 
 [For the ARR thresholds for the CSE customer segment please reference this Wiki page](https://gitlab.com/gitlab-com/customer-success/csm/-/wikis/CSM-Segments) (GitLab Internal).
 
-![Customer Lifecycle Journey CSE](/handbook/customer-success/csm/segment/cse/CustomerLifecycleJourneywithMetrics-ScaleCSE_Nov-2023.png)
+![Customer Lifecycle Journey CSE](/images/customer-success/csm/segment/cse/CustomerLifecycleJourneywithMetrics-ScaleCSE_Nov-2023.png)
 
 The [CSE DCI matrix](/handbook/people-group/directly-responsible-individuals/#dri-consulted-informed-dci) provided below is designed to serve as a guiding framework to improve collaboration across teams. Please note that this is applicable only to accounts interacting with a CSE. For accounts managed by a CSM or CSA, refer to the [CSMA's DCI](/handbook/customer-success/account-team/#customer-success-manager-csm/) on Rules of Engagement.
 

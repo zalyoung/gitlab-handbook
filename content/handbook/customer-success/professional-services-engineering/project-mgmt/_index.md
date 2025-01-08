@@ -5,7 +5,7 @@ description: "Learn about the processes that the GitLab Project Management team 
 
 Customer success = GitLab product implementation, on time, on budget delivery of agreed upon scope, faster time to value that leads to satisfied customers that see the added value of GitLab products and PS
 
-![<PS Delivery Customer Journey Flow - Page 1 (10).png>](<PS Delivery Customer Journey Flow - Page 1 (11).png>)
+![<PS Delivery Customer Journey Flow - Page 1 (10).png>](/images/customer-success/professional-services-engineering/project-mgmt/<PS Delivery Customer Journey Flow - Page 1 (11).png>)
 
 ### SOW Close
 
