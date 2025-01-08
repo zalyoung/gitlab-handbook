@@ -8,7 +8,7 @@ Buyer personas represent the people who serve as the main buyers in an organizat
 the champions within an enterprise that drive the buying conversation and
 coordinate various teams to make a purchase. We've updated our approach to include persona groups, in addition to specific roles or titles within a group, based on the Jobs To Be Done (JTBD) framework.
 
-![IT Orgchart](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/images/buyerpersonaorgchart-2022-09-29.png)
+![IT Orgchart](/images/marketing/brand-and-product-marketing/product-and-solution-marketing/buyerpersonaorgchart-2022-09-29.png)
 
 1. [CIO](#tech-exec-tristan)
 1. [App Dev](#app-dev-avery)
@@ -48,15 +48,15 @@ See the [Enterprise IT Roles page](/handbook/marketing/brand-and-product-marketi
 
 #### Comparing the personas
 
-![Motivations and challenges for each buyer persona.](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/images/comparison-buyer-persona-motivations-challenges-v3.png)
+![Motivations and challenges for each buyer persona.](/images/marketing/brand-and-product-marketing/product-and-solution-marketing/comparison-buyer-persona-motivations-challenges-v3.png)
 
-![How buyer personas collect technical information.](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/images/comparison-how-they-gather-tech-info.png)
+![How buyer personas collect technical information.](/images/marketing/brand-and-product-marketing/product-and-solution-marketing/comparison-how-they-gather-tech-info.png)
 
 ---
 
 ### Tech Exec Tristan
 
-![techexectristan](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/images/techexectristan.png)
+![techexectristan](/images/marketing/brand-and-product-marketing/product-and-solution-marketing/techexectristan.png)
 
 - **Job To Be Done:**
 
@@ -141,7 +141,7 @@ See the [Enterprise IT Roles page](/handbook/marketing/brand-and-product-marketi
 
 ### App Dev Avery
 
-![appdevavery](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/images/appdevavery.png)
+![appdevavery](/images/marketing/brand-and-product-marketing/product-and-solution-marketing/appdevavery.png)
 
 - **Job To Be Done:**
 
@@ -226,7 +226,7 @@ See the [Enterprise IT Roles page](/handbook/marketing/brand-and-product-marketi
 
 ### InfoSec Shiloh
 
-![infosecshiloh](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/images/infosecshiloh.png)
+![infosecshiloh](/images/marketing/brand-and-product-marketing/product-and-solution-marketing/infosecshiloh.png)
 
 - **Job To Be Done:**
 
@@ -311,7 +311,7 @@ See the [Enterprise IT Roles page](/handbook/marketing/brand-and-product-marketi
 
 ### Platform Perry
 
-![platformperry](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/images/platformperry.png)
+![platformperry](/images/marketing/brand-and-product-marketing/product-and-solution-marketing/platformperry.png)
 
 - **Job To Be Done:**
 
@@ -400,7 +400,7 @@ Engineers / C-Suite / Heads of Engineering & Data Science / DevOps Engineers / I
 
 ### Compliance Cooper
 
-![compliancecooper](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/images/compliancecooper.png)
+![compliancecooper](/images/marketing/brand-and-product-marketing/product-and-solution-marketing/compliancecooper.png)
 
 - **Job To Be Done:**
 
@@ -474,7 +474,7 @@ Engineers / C-Suite / Heads of Engineering & Data Science / DevOps Engineers / I
 
 ### Release Rory
 
-![releaserory](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/images/releaserory.png)
+![releaserory](/images/marketing/brand-and-product-marketing/product-and-solution-marketing/releaserory.png)
 
 - **Job To Be Done:**
 
@@ -551,7 +551,7 @@ Engineers / C-Suite / Heads of Engineering & Data Science / DevOps Engineers / I
 
 ### Program Management Payton
 
-![pmpayton](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/images/pmpayton.png)
+![pmpayton](/images/marketing/brand-and-product-marketing/product-and-solution-marketing/pmpayton.png)
 
 - **Job To Be Done:**
 
@@ -633,7 +633,7 @@ Engineers / C-Suite / Heads of Engineering & Data Science / DevOps Engineers / I
 
 ### Back Office Blake
 
-![backofficeblake](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/images/backofficeblake.png)
+![backofficeblake](/images/marketing/brand-and-product-marketing/product-and-solution-marketing/backofficeblake.png)
 
 - **Job To Be Done:**
 

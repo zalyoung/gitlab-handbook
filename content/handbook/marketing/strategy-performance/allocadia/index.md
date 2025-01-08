@@ -396,7 +396,7 @@ Think of each line item ID as its own budget line. Each Allocadia line item ID w
 
 **Example Event in Allocadia:**
 
-![Example Event](/handbook/marketing/strategy-performance/allocadia/Alloscreenshot.png)
+![Example Event](/images/marketing/strategy-performance/allocadia/Alloscreenshot.png)
 
 In this example, you would use your sponsorship line item ID when submitting your sponsorship contract through Zip. You would then use your swag line item ID when submitting your swag order through Zip. If you used your Navan card for shipping charges and additional booth charges, you would enter those individual line item IDs into Navan when submitting your receipts (see below for more information regarding the new Navan field.)
 
