@@ -7,9 +7,7 @@ canonical_path: "/handbook/support/readiness/operations/docs/policies/us_gov_sup
 ## Which organizations sync to the US Government instance by default?
 
 As the exact conditions of this can change at any time, it is best to refer to
-our documentation page on the ZD-SFDC sync, specially the section concerning the
-[Zendesk US Federal organizations sync](../../zendesk/zendesk_salesforce_sync#zendesk-us-federal-organizations-sync)
-and the SOQL query documented within.
+our documentation page on the ZD-SFDC sync and the SOQL query documented within.
 
 ## Adding the exception submissions
 
