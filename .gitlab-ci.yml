@@ -345,6 +345,7 @@ hugolint:
 
 hugolint-report:
   needs: ["hugolint"]
+  stage: build
   rules:
     - if: $CI_PIPELINE_SOURCE == "merge_request_event"
   script:
