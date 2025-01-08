@@ -99,8 +99,13 @@ resources.
 1. For the meeting to be successful, all stakeholders must participate. This
    can include:
    1. The customer's technical people who are expected to be the ones working
-      with the ASE on a frequent basis
-   1. The individual(s) designated by the customer to oversee and assess the success of the ASE engagement
+      with the ASE on a frequent basis. This can sometimes include external vendors
+      that the customer work closely with.
+      - Some instances we have seen vendors getting involved: Providing L1 support for their 
+        internal users and being the intermediary between GitLab Support and internal users.
+   1. The individual(s) designated by the customer to oversee and assess the success of the
+      ASE engagement. You may need to ask the customer during the meeting who the DRI or
+      key liason with Support will be.
    1. The ASE
 1. Do **not** let the meeting become a troubleshooting session
 1. Throughout the meeting, be sure that you speak clearly, slowly but not too
