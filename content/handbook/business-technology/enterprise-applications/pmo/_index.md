@@ -252,3 +252,9 @@ The team follows [GitLab meeting practices and standards](/handbook/company/cult
 - **Purpose**: Discuss roadmap & timelines, shifts in priorities, alignment to goals. This is a strategic meeting to ensure that teams are aligned with their key business partners and have clarity on our shared roadmap.
   - **Frequency**: Quarterly (on the third week of the month before quarter end)
   - **Participants**: IT PMO (host), Business & IT EntApps Leadership.
+
+## <i class="fas fa-headset" id="biz-tech-icons"></i> How To Connect With Us
+
+### IT PMO Slack Channels
+
+- [#business-technology](https://gitlab.slack.com/archives/C01BLS12V37) is the primary channel for all business technology related conversations. This is where GitLab team members can link to their issues, ask for help, direction, and get general feedback from members of the Business Technology team.
