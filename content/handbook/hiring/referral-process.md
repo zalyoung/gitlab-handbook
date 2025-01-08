@@ -37,7 +37,7 @@ A Referral is **not**
     - If the country is not listed or is marked as Not Open for Hiring, we unfortunately will not be able to move forward. 
 3. Please remember that GitLab does not offer any form of work or study sponsorship anywhere in the world other than support for highly skilled candidates in certain countries, where a candidate is already based in that country. We also do not offer any form of support to transfer an existing work permit. Please refer to the Visas handbook page and DM the recruiter if any clarification is needed.
 4. Inform the candidate you are referring them, and receive their approval. 
-5. Refer the candidate [through Greenhouse](/handbook/hiring/referral-process#submitting-a-referral-in-greenhouse) with a detailed referral description and please complete all mandatory fields and provide as much information as possible about how you know the candidate and a comprehensive outline of why they are qualified for the role. 
+5. Refer the candidate [through Greenhouse](#how-to-submit-a-referral-in-greenhouse) with a detailed referral description and please complete all mandatory fields and provide as much information as possible about how you know the candidate and a comprehensive outline of why they are qualified for the role. 
     - If the candidate is interested in more than one open role, please refer them to the position they are most interested in and note the others they’re open to.
 6. Note: If this person has already applied and their application has been reviewed and progressed by TA, this is considered an endorsement.
 
@@ -121,4 +121,4 @@ For any additional questions, please post in the talent-acquisition Slack channe
 
 #### Cold LinkedIn Outreach
 
-If someone you do not know and/or you have not worked with reaches out requesting to be referred for an open role, please let them know you are unable to refer them due to our referral policy, but encourage them to apply directly to any open roles via the [Jobs page](/jobs/). The appropriate recruiter will then review their application as soon as they can!
+If someone you do not know and/or you have not worked with reaches out requesting to be referred for an open role, please let them know you are unable to refer them due to our referral policy, but encourage them to apply directly to any open roles via the [Jobs page](https://about.gitlab.com/jobs/). The appropriate recruiter will then review their application as soon as they can!
