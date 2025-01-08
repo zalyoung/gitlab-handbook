@@ -330,7 +330,6 @@ hugolint:
       # Compare with target branch when running as a merge request pipeline.
       if [ "${CI_PIPELINE_SOURCE}" == "merge_request_event" ]; then
         hugolint codequality latest --artifact 'linkcheck.json' >'latest.json'
-        jq -s '.[1] - .[0]' latest.json linkcheck.json > new_broken_links.json
         hugolint codequality diff --exit-code 'latest.json' 'linkcheck.json'
       fi
   artifacts:
@@ -339,6 +338,21 @@ hugolint:
     paths:
       - linkcheck.json
       - missinglinks.txt
+      - latest.json
+    reports:
+      codequality:
+        - linkcheck.json
+
+hugolint-report:
+  needs: ["hugolint"]
+  rules:
+    - if: $CI_PIPELINE_SOURCE == "merge_request_event"
+  script:
+    - jq -s '.[1] - .[0]' latest.json linkcheck.json > new_broken_links.json
+  artifacts:
+    when: always
+    expire_in: 1 month
+    paths:
       - new_broken_links.json
     reports:
       codequality:
@@ -360,7 +374,7 @@ secret_detection:
 ####################################
 
 post_comment_on_failure:
-  needs: ["markdownlint", "handbooklint", "vale", "hugolint"]
+  needs: ["markdownlint", "handbooklint", "vale", "hugolint-report"]
   when: on_failure
   stage: notify
   image:
