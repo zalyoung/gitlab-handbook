@@ -39,16 +39,16 @@ long-term success, the ASEs need the Account Team's help:
         facilitating and the agenda being based off the
         [Introductory Meeting template](../ase-workflows-and-standards/introductory-meeting.html/#structure)
 
-### New ASE kickoff meeting
+### New ASE introductory meeting
 
 When it becomes necessary to introduce a new ASE to an established ASE account,
-such as when the existing ASE moves into a new role, we will want to host an
-abbreviated kickoff meeting. In this meeting:
+such as when the existing ASE moves into a new role, we will want to host anabbreviated kickoff-style meeting. In this meeting:
 
 1. The new ASE will build the agenda with a focus on the first two main items
    in the [Introductory Meeting template](../ase-workflows-and-standards/introductory-meeting.html/#structure)
-1. We will ask that at least some of the Account Team members participate in the
-   meeting in order to help the transition to be as smooth as possible.
+1. We will ask that the CSA participate in the meeting in order to help the
+   transition to be as smooth as possible. Other Account Team members are welcome
+   to attend as well.
 1. The new ASE's manager will participate in order to address any concerns the
    customers may have.
 
