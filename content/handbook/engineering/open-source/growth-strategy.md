@@ -41,7 +41,7 @@ flowchart LR
   click scaleCommunity "./#scale-the-community" _self
  ```
 
-### Current focus 
+### Current focus
 
 We're prioritizing these 5 key items to maximize our impact within our current capacity. While all initiatives are valuable, this focused approach allows us to drive meaningful change more effectively.
 

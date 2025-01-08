@@ -100,7 +100,7 @@ By adopting a broader range of performance engineering practices, we can take a 
 * Improve early detection and resolution of performance issues.
 * Enhance GitLab's overall performance and scalability.
 * Standardize prioritization of performance issues at GitLab, so it no longer varies team to team with the lowest possible standard being “in response to production incident”.  
-* Ingrain performance earlier into the development process 
+* Ingrain performance earlier into the development process
 
 ### Non-Goals
 

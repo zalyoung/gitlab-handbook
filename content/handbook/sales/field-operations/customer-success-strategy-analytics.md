@@ -3,9 +3,9 @@ title: "Customer Success Strategy & Analytics"
 description: "GitLab Handbook page for the Customer Success Strategy & Analytics (CSSA) team"
 ---
 
-### Customer Success Strategy & Analytics 
+### Customer Success Strategy & Analytics
 
-## Vision 
+## Vision
 
 The Customer Success Strategy and Analytics team drives customer-centric growth by providing strategic insights and data-driven recommendations. We partner closely with Customer Success, Renewals, Sales, Support, Data and Product teams to optimize customer journeys, improve retention, and maximize customer value. By leveraging advanced analytics, scalable processes, and tailored strategies, we empower teams to enhance customer satisfaction, identify opportunities for expansion, and ensure long-term success. Our mission is to bridge the gap between data and action, enabling impactful decisions that foster strong, enduring customer relationships.
 
@@ -39,8 +39,8 @@ The CSSA team is repsonsible for supporting the business via a number of differe
 - Project and planning support
 - GTM Strategy
 - Territory and Resource planning
-- Product and Use Case scoring and analytics 
-- Customer Journey analytics 
+- Product and Use Case scoring and analytics
+- Customer Journey analytics
 
 ## Get in Touch
 

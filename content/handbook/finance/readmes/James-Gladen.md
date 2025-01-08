@@ -5,7 +5,7 @@ description: "Learn more about working with James (Jim) Gladen, VP Tax"
 
 ## Why I'm at GitLab
 
-Every company is now a software company. GitLab is in a unique space to accelerate software development at each and every one of these companies. 
+Every company is now a software company. GitLab is in a unique space to accelerate software development at each and every one of these companies.
 
 ## My Personal Values
 
@@ -42,7 +42,7 @@ Every company is now a software company. GitLab is in a unique space to accelera
 
 ## Expectations for leadership - What I need from you. What you will get from me
 
-1. I appreciate your coming to the Tax Department with your corporate tax, sales tax, and foreign withholding tax questions. You will receive a thoughtful answer from either me or the Tax Department. Should the issue have more than one possible response, you will receive a response with possible options, recommendations (and maybe even an ROI-related question). 
+1. I appreciate your coming to the Tax Department with your corporate tax, sales tax, and foreign withholding tax questions. You will receive a thoughtful answer from either me or the Tax Department. Should the issue have more than one possible response, you will receive a response with possible options, recommendations (and maybe even an ROI-related question).
 
 ## FAQs
 

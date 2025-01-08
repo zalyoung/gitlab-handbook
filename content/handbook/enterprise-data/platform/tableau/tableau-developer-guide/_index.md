@@ -146,7 +146,7 @@ In the niche use-case that you want an Explorer without Snowflake access to be a
 
 This error message can be challenging to diagnose, as it can be the result of numerous causes. Unfortunately, there is no easy way to diagnose which possible cause is the reason you are seeing this message when it occurs.
 
-  | Cause                     | Solution/Prevention             | 
+  | Cause                     | Solution/Prevention             |
   |---------------------------|----------------------|
   |The developer used a local, live connection         | [Follow these steps.](/handbook/enterprise-data/platform/tableau/tableau-developer-guide/#creating-connection-types-that-allow-others-without-snowflake-access-to-edit-the-workbook)  |
   | The last person to publish changes to the workbook/data source forgot to embed their credentials when publishing.                | [Follow these steps when publishing.](/handbook/enterprise-data/platform/tableau/tableau-developer-guide/#workflow-for-embedding-your-rolename-to-avoid-errors-in-published-dashboards)|
@@ -160,7 +160,7 @@ This error message can be challenging to diagnose, as it can be the result of nu
 ![invalid consent embedded from other location](/images/handbook/enterprise-data/platform/tableau/invalidconsent.png)
 
 This generally occurs because you do not have access to something you are trying to view. This can be:
- 
+
 - The a database or table the view is built off of.
 - The credentials the developer embedded into the workbook. [See here.](/handbook/enterprise-data/platform/tableau/tableau-developer-guide/#workflow-for-embedding-your-rolename-to-avoid-errors-in-published-dashboards)
 
@@ -168,14 +168,14 @@ This generally occurs because you do not have access to something you are trying
 
 If you need access and using an extracted connection is not suitable, you can check with the developer if they used a "large" warehouse which you do not have access to, or if there are non-standard tables used in the workbook that have restricted access.
 
-### 3. Issue: Missing Columns in Data 
+### 3. Issue: Missing Columns in Data
 
 **Error**:
-> `"An unexpected error occurred. If you continue to receive this error please contact your Tableau Server Administrator" combined with "TableauException: ERROR: The field '[name]' in the datasource 'sqlproyx._______' does not exist in your database. It was either modified or removed. Would you like to reset the view?".` 
+> `"An unexpected error occurred. If you continue to receive this error please contact your Tableau Server Administrator" combined with "TableauException: ERROR: The field '[name]' in the datasource 'sqlproyx._______' does not exist in your database. It was either modified or removed. Would you like to reset the view?".`
 
 This indicates that the connection is looking for a column that does not exist/ is broken. It may have been dropped or modified in Snowflake, and now those changes are causing a breakage in Tableau.
 
-**Solution:** Contact the owner of the workbook for assistance. The easiest way to resolve errors like this is by downloading a local copy of the data source or workbook to Tableau Desktop and deleting or replacing the fields there. 
+**Solution:** Contact the owner of the workbook for assistance. The easiest way to resolve errors like this is by downloading a local copy of the data source or workbook to Tableau Desktop and deleting or replacing the fields there.
 
 ## Embedding in the Handbook
 
