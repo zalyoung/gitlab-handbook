@@ -1,5 +1,5 @@
 ---
-title: "Encryption key rotation"
+title: "Encryption keys rotation"
 status: proposed
 creation-date: "2024-12-03"
 authors: [ "@rymai" ]
@@ -14,54 +14,66 @@ toc_hide: true
 
 ## Summary
 
-We need a solution to rotate [the `db_key_base` secret](https://docs.gitlab.com/ee/development/application_secrets.html)
+We need a solution to rotate [the `db_key_base`/`active_record_encryption_primary_key`/`active_record_encryption_deterministic_key` secrets](https://docs.gitlab.com/ee/development/application_secrets.html)
 without having to put GitLab offline.
 
 ## Motivation
 
-[The `db_key_base` secret](https://docs.gitlab.com/ee/development/application_secrets.html) is used to encrypt data at
-rest in the GitLab databse. Its rotation is currently not possible without downtime, and there's no automation, script
-or even process for it.
-Given the criticality of this secret, the goal is to design a solution that allows the secret to be rotated while
+[The `db_key_base`/`active_record_encryption_primary_key`/`active_record_encryption_deterministic_key` secrets](https://docs.gitlab.com/ee/development/application_secrets.html)
+are used to encrypt data at rest in the GitLab database.
+Their rotation is currently not possible without downtime, and there's no automation, script or even process for it.
+Given the criticality of these secrets, the goal is to design a solution that allows these secrets to be rotated while
 GitLab stays online.
 
-With the Dedicated and Cells effort, the criticality of this secret and its rotation is multiplied by the number of
-instances deployed, for two reasons:
+With the Dedicated and Cells effort, the criticality of this secret and its rotation is multiplied by the increasing
+number of instances deployed, for two reasons:
 
-- The likelihood of a secret leak (through accidental or malicious means) increases with the number of instances deployed (and we expect to deploy more and more of these).
-- The amount of work needed to rotate a secret increases with the number of instances deployed (and we expect to deploy more and more of these).
+- The likelihood of a secret leak (through accidental or malicious means) increases with the number of instances deployed
+- The amount of work needed to rotate a secret increases with the number of instances deployed
 
-A lot of discussions happened to discuss the problem and potential solutions. The main issue where this was discussed
-is <https://gitlab.com/gitlab-org/gitlab/-/issues/25332>. In this issue
+A lot of discussions happened to discuss the problem and potential solutions but no formal proposal was ever made.
+The main issue where this was discussed is <https://gitlab.com/gitlab-org/gitlab/-/issues/25332>.
 
 ### Goals
 
 Provide GitLab administrators with a way to:
 
-- Introduce a new encryption key with an explicit enablement toggling to ensure all nodes have the new key before it's
-  used to encrypt new/updated records with it
-- Introduce scripts to re-encrypt all the data while GitLab is offline
-- Introduce an automated background process (with automated throttling to avoid degrading database performance) to take
-  care of progressive re-encryption while GitLab is online
-- Monitor the progress for the re-encryption of data encrypted with legacy keys, and overall usage of each key
+- Introduce a new encryption key with an explicit enablement toggling (through UI, API, or rake task) to ensure all
+  nodes have the new key before it's used to encrypt new/updated records with it.
+  This is important in the scenario where an administrator adds a new key to `config/secrets.yml`, and then kicks off a
+  new deployment. During the deployment phase, some of the pods/VMs will not have the new key. It's critical that the
+  new pods/VMs don't start re-encrypting using the new key until the deployment is completed.
+  When the deployment completes successfully, all pods/VMs now have the new key and the administrator can transition
+  the new key to `active`.
+- Introduce an always-running background process (with automated throttling to avoid degrading database performance) to take
+  care of progressive re-encryption while GitLab stays online. The process would look up and re-encrypt any data
+  encrypted with the non-current encryption key.
+- Monitor the progress for the re-encryption of data encrypted with legacy keys, and overall usage of each key.
+- Manage keys:
+  - Enable a newly introduced key.
+  - Disable a legacy key once no data is encrypted with it anymore.
 
 #### Use cases
 
-- The `db_key_base` secret leaked and needs to be rotated.
-- A security policy advise to rotate the `db_key_base` secret regularly
+- The `db_key_base`/`active_record_encryption_primary_key`/`active_record_encryption_deterministic_key` secrets leaked and needs to be rotated.
+- A security policy advise to rotate the `db_key_base`/`active_record_encryption_primary_key`/`active_record_encryption_deterministic_key` secrets regularly
 
 ### Non-goals
 
 This blueprint does not cover the following:
 
+- Introduce scripts to re-encrypt all the data while GitLab is offline. While there might be customer use-cases for
+  this, we won't implement this initially.
 - Other secrets such as `secret_key_base`, `otp_key_base`, `openid_connect_signing_key`, and
   `encrypted_settings_key_base`, but ideally it should describe a solution that's generic enough to be applied to other
   secrets without too much changes in the future.
-- Possibility to rotate the secret from the Admin UI (this would require writing to the `secrets.yml` at runtime, which
+- Possibility to rotate the secret from the Admin UI (this would require writing to the `config/secrets.yml` at runtime, which
   is impossible with most deployment strategies)
-- Possibility to pull secrets from external secrets manager. While this is related, it should be solved with another proposal.
-
-## Decisions
+- Possibility to pull secrets from external secrets manager (e.g. GCP and AWS KMS).
+  While this is related, it should be solved with a dedicated proposal.
+- Decision to use [envelope encryption or not](https://cloud.google.com/kms/docs/envelope-encryption).
+  While envelope encryption has many benefits and is supported natively by Active Record Encryption, the decision to
+  use it is independent from this proposal, and should be solved with a dedicated proposal.
 
 ## Proposal
 
@@ -72,22 +84,24 @@ The idea is based on 2 pre-requisites:
 
 The high-level proposal is as follows:
 
-1. When a key need to be rotated, just add a new one last to the `db_key_base` array in `config/secrets.yml`, and restart GitLab.
+1. When a key need to be rotated, just add a new one last to the
+   `db_key_base`/`active_record_encryption_primary_key`/`active_record_encryption_deterministic_key` arrays in
+   `config/secrets.yml`, and restart GitLab.
 1. Once the new secret is deployed to all nodes, the new key should be explicitely enabled, so that from now on, data
    will be encrypted with this new key.
 1. The decryption process will use the key that was used to encrypt the data.
-   In the case the encryption key fingerprint isn't stored alongside the encrypted data, the decryption proceess will
-   try each key (in the order they appear in the `db_key_base` array), until it can decrypt the data.
+   In the case the encryption key fingerprint isn't stored alongside the encrypted data, the decryption process will
+   try each key (in the order they appear in the key arrays), until it can decrypt the data.
    That way, there's no need to bring GitLab down to mass-re-encrypt all data.
-1. A background process continuously runs to re-encrypt any data that was encrypted with a legacy key (i.e. not the
-   last item from the `db_key_base` array).
-   The whole re-encryption process would likely take a long time on big instances (e.g. GitLab.com), but as long as we have a
-   limiting/throttling mechanism in place, it shouldn't impact the database stability.
-   The background process becomes a no-op as soon as all the data is re-encrypted with the current key.
+1. A background process continuously runs to re-encrypt any data that was encrypted with the non-current encryption key
+   (i.e. not the last item from the `db_key_base` array).
+   The whole re-encryption process would likely take a long time on big instances (e.g. GitLab.com), but as long as we
+   have a limiting/throttling mechanism in place, it shouldn't impact the database stability.
+   The background process becomes a no-op as soon as all the data is re-encrypted with the current encryption key.
 1. A new dedicated Admin page allows to monitor the encrypted data status:
-   - How many records are still encrypted with a legacy key?
-   - What's the expected ETA for everything to be re-encrypted with the current key?
-   - What keys can be deleted (i.e. no data is encrypted with this key)?
+   - How many records are still encrypted with a legacy encryption key?
+   - What's the expected ETA for everything to be re-encrypted with the current encryption key?
+   - What keys can be deleted (i.e. no data is encrypted with this key and the key is `retired` already)?
 
 ### New "Encryption keys" admin page
 
@@ -95,23 +109,65 @@ The high-level proposal is as follows:
 
 ### Technical details
 
-#### Keys tracking
+#### Keys management
 
-Key fingerprints will be stored in the database, for different reasons:
+Keys lifecycle information will be stored in a new `encryption_keys` table, including:
+
+- Key fingerprint (4 hex chars), i.e. `Digest::SHA1.hexdigest(secret).first(4)`
+  (inspired by <https://github.com/rails/rails/blob/v7.0.8.6/activerecord/lib/active_record/encryption/key.rb#L24>).
+- Key creating time `created_at`: the first time it appeared in a `config/secrets.yml` file.
+- Key activation time `activated_at`: the time when the key transitioned to `active`.
+- Key retirement time `retired_at`: the time when the key transitioned to `retired`.
+- Key deletion time `deleted_at`: the time when the key transitioned to `deleted`.
+- Key status `status`: `inactive`, `active`, `retired`, `deleted`.
+  - At first a new key is `inactive`.
+  - The new key will need to be explicitely enabled and will transition to `active` to become the current encryption key.
+  - The current encryption key is always the `active` record with the highest `activated_at`.
+  - All `active` keys are available for decryption purpose. The encryption key fingerprint should be stored alongside
+    encrypted data so that the decryption key doesn't have to be guessed from the active keys.
+  - Once no data is encrypted with an `active` key anymore, it can be retired (in which case its status transitions to `retired`).
+  - When the key is actually deleted from the `config/secrets.yml` file, its corresponding record transitions to
+    `deleted` (see "During initialization" below).
+
+Key statuses state diagram:
+
+```mermaid
+stateDiagram-v2
+    [*] --> Inactive
+    Inactive --> [*]
+    Inactive --> Active
+    Inactive --> Retired
+    Active --> Retired
+    Retired --> Deleted
+    Deleted --> [*]
+```
+
+Keeping track of these information in the database will gives the following abilities:
 
 - Ability to explicitely enable a key once it's been deployed to all nodes. Otherwise, a key could be used on a node to
   encrypt data, but another node could be unable to read the data until it's deployed with the new key.
-- Ability to build complex features around keys management and rotation
-- Ability to keep a history of deleted keys
+- Ability to build complex features around keys management and rotation.
+- Ability to keep a history of keys and their status.
 
-NOTE:
-The actual keys used to encrypt/decrypt would still come from the `config/secrets.yml` file. Until the keys status is
+Later on, we could also keep statistics about keys usage in a separate table.
+
+Note: The actual keys used to encrypt/decrypt data would still come from the `config/secrets.yml` file. Until the keys status is
 read from the database, the oldest key would be used to encrypt/decrypt data. Hopefully, this would only mean during
 the initialization of the application (i.e. before the database is ready).
 
+##### During initialization
+
+During initialization, if a new key is discovered in `config/secrets.yml`, the following happens:
+
+- Its fingerprint is computed and an exception is raised if an existing non-`deleted` key has the same fingerprint. In that case, the key should be replaced with another randomly-generated key until its fingerprint doesn't collide with an existing key.
+- A record for the new key is created in the `encryption_keys` table (the status of the new key is `inactive`).
+
+If a key is present in `encryption_keys` but not in `config/secrets.yml` anymore, the record is transitioned to
+`deleted` and `deleted_at` is set.
+
 #### Background re-encryption process
 
-Following is a naive implementation of what the background re-encryption process.
+Following is a naive implementation of what the background re-encryption process would roughly do.
 
 ```ruby
 current_key_id = ActiveRecord::Encryption::DerivedSecretKeyProvider.new(ActiveRecord::Encryption.config.primary_key.last).encryption_key.id
