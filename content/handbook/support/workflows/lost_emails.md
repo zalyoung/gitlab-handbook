@@ -26,7 +26,7 @@ The actions support can take on accounts are different for free users and paid u
 
 ### Paid user
 
-What can we do?
+Refer to [Making Changes and Taking Actions on a user's behalf](/handbook/support/workflows/account_changes) for the options available to paid users.
 
 ### Free user
 
