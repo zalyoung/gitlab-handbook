@@ -477,7 +477,7 @@ do `git pull origin master` then `:wq`.
 
 Once the PMs have included everything they're accountable for, they should **check their item** in the release post MR description:
 
-![PMs check list](features-checklist.png)
+![PMs check list](/images/marketing/blog/release-posts/features-checklist.png)
 
 By checking your item, you will make it clear to the Release Post Manager that you have done your part in time (during the general contributions stage) and you're waiting for review. If you don't check it, it's implicit that you didn't finish your part in time, despite that's the case or not.
 

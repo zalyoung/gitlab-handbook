@@ -245,7 +245,7 @@ If you need to do edits to the database by merging leads together for any of the
 
 #### SDR Territory Map
 
-![SDRTerritoryMap](/handbook/marketing/sales-development/SDRTerritoryMap.png)
+![SDRTerritoryMap](/images/marketing/sales-development/SDRTerritoryMap.png)
 
 #### Merging Leads
 
@@ -606,7 +606,7 @@ If the opportunity is for a new group of users in a Large account where sales is
 
 #### Opportunity Creation Workflow
 
-![Opp-Creation-Workflow](/handbook/marketing/sales-development/FY24OpportunityCreationWorkflow.png)
+![Opp-Creation-Workflow](/images/marketing/sales-development/FY24OpportunityCreationWorkflow.png)
 
 #### Scheduling IQMs
 
@@ -1134,7 +1134,7 @@ This is where you can find messaging related to GitLab vs some of our competiors
 - The rest of the leads that do not fit these parameters will be routed round-robin to the SDR team.
 - These leads should also be considered as intent data for prospecting an outbound account.
   - Take the time to research accounts for the propensity to purchase and intent signals. Could the tracked contact's hire into that account be a compelling event for you to use?
-  - This data can be found either on our [1:1 Dashboards](https://handbook.gitlab.com/handbook/marketing/sales-development/#dashboards-for-team-members) on report 6 that's dedicated to UserGems, or through this [lead-level SFDC template that you can clone and use.](https://gitlab.my.salesforce.com/00OPL00000BOYrq)
+  - This data can be found either on our [1:1 Dashboards](/handbook/marketing/sales-development/#dashboards-for-team-members) on report 6 that's dedicated to UserGems, or through this [lead-level SFDC template that you can clone and use.](https://gitlab.my.salesforce.com/00OPL00000BOYrq)
   - Analyze the hiring and promotion patterns as business signals.
     - A surge in technical hires (e.g., developers, engineers) may indicate growth initiatives, product development, or a focus on scaling infrastructure.
     - Sales or customer success hires could suggest plans to expand revenue through growth or enhance customer retention strategies.
@@ -1592,7 +1592,7 @@ If the related SDR relays information that was not picked up in the new SDR's re
 
 #### Routing Workflow Chart
 
-![Routing-Chart](/handbook/marketing/sales-development/RoutingChart.png)
+![Routing-Chart](/images/marketing/sales-development/RoutingChart.png)
 
 ### Frequently Asked Questions (FAQ)
 

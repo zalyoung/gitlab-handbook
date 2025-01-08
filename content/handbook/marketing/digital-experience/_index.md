@@ -388,7 +388,7 @@ From the repositories we own, the [Buyer Experience](https://gitlab.com/gitlab-c
 - [BE Deploy file](https://gitlab.com/gitlab-com/marketing/digital-experience/buyer-experience/-/blob/main/scripts/deploy).
 - [GitLab Blog Deploy file](https://gitlab.com/gitlab-com/marketing/digital-experience/gitlab-blog/-/blob/main/scripts/deploy).
 
-![Mermaid diagram](Dex-pipeline.png)
+![Mermaid diagram](/images/marketing/digital-experience/Dex-pipeline.png)
 
 To maintain our bucket clean, we run a scheduled pipeline with a delete flag in these repositories, which deletes outdated files from the cloud bucket (such as pages removed from the marketing site and old JS bundles).
 
