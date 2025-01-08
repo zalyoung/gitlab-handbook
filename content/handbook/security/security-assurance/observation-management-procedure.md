@@ -106,12 +106,12 @@ Tier 3 information system risk ratings are based off the formula below.
 
 At GitLab, observations will be rated based on the likelihood the observation has recurring and/or the frequency that the control has seen observations.
 
-| Qualitative <br> Score | Risk Level | Scoring Guidelines |
-| :--------------------: | :--------: | ------------------ |
-| 4 | CRITICAL | The control has observations that have persisted and continue to occur year to year AND/OR the observation noted is associated with the design of the control. |
-| 3 | HIGH | The control has had multiple observations in the current fiscal year or prior 9 months, whichever is longer. |
-| 2 | MEDIUM  | The observation was identified as a result of management's oversight on the control and may potentially occur again. This is the only observation associated with the control in the current fiscal year or prior 9 months, whichever is longer.    |
-| 1 |  LOW  | The observation identified is considered to be a one off occurrence for the control as a result of extenuating circumstances. It is unlikely to occur again once remediated. |
+| Qualitative <br> Score |  Scoring Guidelines |
+| :--------------------: |  ------------------ |
+| **4** |  The control has observations that have persisted and continue to occur year to year AND/OR the observation noted is associated with the design of the control. |
+| **3** |  The control has had multiple observations in the current fiscal year or prior 9 months, whichever is longer. |
+| **2** |  The observation was identified as a result of management's oversight on the control and may potentially occur again. This is the only observation associated with the control in the current fiscal year or prior 9 months, whichever is longer.    |
+| **1** |  The observation identified is considered to be a one off occurrence for the control as a result of extenuating circumstances. It is unlikely to occur again once remediated. |
 
 #### Determine the impact of the observation
 
@@ -144,11 +144,11 @@ It is the responsibility of the Observation Manager to track the milestones, wor
 Observation remediation SLA's are determined by the risk rating of the individual observation. The following table shows the SLA for each risk rating unless otherwise defined by the agreed upon remediation plan.
 
 | Risk Rating | Remediation SLA |
-| :---: | :---: | :---: |
+| :---: | :---: |
 | Critical | 3 months|
 | High | 6 months|
 | Moderate | 12 months|
-| Low | > 12 months|
+| Low | 18 months|
 
 ### Criteria for Upgrading Observations To Tier 2 Risks
 
