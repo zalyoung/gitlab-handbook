@@ -82,8 +82,7 @@ resources.
    1. Ask what questions they have for you
    1. Ask who your primary contact(s) will be
    1. Ask what their goals are for working with you
-1. Learn about their GitLab-related internal structure and plans
-   1. Are they engaging any external vendors that is using or working with GitLab? 
+1. Learn about their GitLab-related plans
    1. Why did they become GitLab customers?
    1. How are they using the product right now?
    1. What's going well and what's not going well?
