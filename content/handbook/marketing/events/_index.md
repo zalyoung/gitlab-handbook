@@ -780,7 +780,7 @@ For video instructions, [please see here](https://youtu.be/e4X9Dg_1rmA).
     - **Logo:** Select the solid Charcoal tanuki. This tanuki has a transparent background and should be the only logo placed for the center of the QR code.
     - **NOTE:** Keep the design/shape of the QR code within the brand aesthetic (no odd or unorganized shapes).
     - **NOTE:** When placing the QR code into your collateral, the [design team](/handbook/marketing/brand-and-product-marketing/design/) advises that it should be no smaller than 1" x 1" for efficient scanning.
-    - ![QR code styling](/handbook/marketing/events/qr-code-handbook.png)
+    - ![QR code styling](/images/marketing/events/qr-code-handbook.jpg)
 1. Add in URL link to CTA. Example CTAs listed below:
 
     ```text

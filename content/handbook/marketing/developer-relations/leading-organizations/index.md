@@ -64,8 +64,8 @@ GitLab hosts workshops with organizations interested in increasing their contrib
 
 1. **Program Workshop** - Program Overview and Benefits
    1. Audience: Business Stakeholders, GitLab: Leading Organization Team and CSM/Account Executive
-   <object data="/handbook/marketing/developer-relations/leading-organizations/leading-org-workshop-handbook-page.pdf" type="application/pdf" width="100%" height="500px">
-   <p>Unable to display PDF file. <a href="/handbook/marketing/developer-relations/leading-organizations/leading-org-workshop-handbook-page.pdf">Download it</a> instead.</p>
+   <object data="/pdfs/marketing/developer-relations/leading-organizations/leading-org-workshop-handbook-page.pdf" type="application/pdf" width="100%" height="500px">
+   <p>Unable to display PDF file. <a href="/pdfs/marketing/developer-relations/leading-organizations/leading-org-workshop-handbook-page.pdf">Download it</a> instead.</p>
    </object>
 
 2. Onboarding Workshop & Technical Deep Dive
