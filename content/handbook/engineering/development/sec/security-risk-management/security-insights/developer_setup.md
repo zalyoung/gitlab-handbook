@@ -43,3 +43,15 @@ To easily populate vulnerabilities, we recommend the [**Security Reports** proje
 4. Under `Project Url`, add a namespace, (e.g. `gitlab-org`).
 5. For `Project slug` enter `security-reports`
 6. Click  `Create project`
+
+### Vulnerability Reports
+
+With the basic setup complete and the Security Reports repository imported into your local environment, it's time to view the vulnerabilities. Follow these steps:
+
+1. In your terminal, run the following commands: `gdk start` and `gitlab-runner run`. 
+2. Open your browser and go to `http://gdk.test:3000/`
+3. Navigate to the project you just imported (likely `Security Reports` if you followed the previous steps).
+4. In the left sidebar, select `Secure` > `Vulnerability Report` . You should see a list of example vulnerability reports.
+
+#### Troubleshooting
+If you don’t see any pre-populated Vulnerability Reports, it’s likely that the [runner](https://gitlab.com/gitlab-org/gitlab-development-kit/blob/main/doc/howto/runner.md#set-up-a-runner) isn’t running. Verify that your runner is online and ensure your pipeline has successfully passed.
