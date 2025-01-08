@@ -437,9 +437,8 @@ This workflow diagram shows the how Compliance Frameworks trigger a configuratio
 ```mermaid
 flowchart TD
     F[User applies Framework to Project] --> G[Schedule recurring Configuration check sync job]
-    G --> H[Get all Controls in Framework applied to Project]
+    G --> H[Get distinct list of actionable Controls in Frameworks applied to Project]
     H --> I[Loop through Controls]
-
     I --> TYPE{Control Type?}
     TYPE -- Internal --> J{Control has enforcement mechanism?}
     TYPE -- External & has external_url --> EXT[Post message to external service]
@@ -493,7 +492,7 @@ All GitLab defined controls will have an audit event type configured as its trig
 
 #### Audit history
 
-In the above workflows there will be audit events triggered throughout to give a full history of a projects compliance posture. For example audit events will be logged when a project is evalutated against a control and the result of that evaluation. User can then see when the configuration status changed from one state to another in the past. User can then use the [audit event reports](https://docs.gitlab.com/ee/user/compliance/audit_events.html) or [streaming audit events](https://docs.gitlab.com/ee/user/compliance/audit_event_streaming.html) to trigger other workflows.
+In the above workflows there will be audit events triggered throughout to give a full history of a projects compliance posture. For example audit events will be logged when a project is evaluated against a control and the result of that evaluation. User can then see when the configuration status changed from one state to another in the past. User can then use the [audit event reports](https://docs.gitlab.com/ee/user/compliance/audit_events.html) or [streaming audit events](https://docs.gitlab.com/ee/user/compliance/audit_event_streaming.html) to trigger other workflows.
 
 Audit events will be logged when:
 
