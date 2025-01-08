@@ -19,6 +19,10 @@ branch, to deploying that change to GitLab.com.
 
 ## MTTP breakdown
 
+<figure class="video_container">
+<iframe src="https://gitlab-com.gitlab.io/gl-infra/software-delivery/delivery_dashboard/mttp.html" style="height:500px;width:100%;"></iframe>
+</figure>
+
 MTTP is conformed by:
 
 - Time to inclusion: The merge request is merged and waiting to be included in an auto-deploy branch.
@@ -33,12 +37,6 @@ To measure the MTTP subcomponents, the following metrics are used:
 
 These allows to decide whether we need to focus on speed or safety would have the
 biggest impact on further reducing MTTP.
-
-Plots tracking MTTP breakdown over time:
-
-<figure class="video_container">
-<iframe src="https://gitlab-com.gitlab.io/gl-infra/software-delivery/delivery_dashboard/?tab=DeliveryMetrics"></iframe>
-</figure>
 
 ### Deployment SLO
 
