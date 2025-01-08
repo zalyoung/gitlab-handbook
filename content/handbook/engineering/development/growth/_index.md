@@ -147,7 +147,7 @@ The Engineering DRI role is crucial for managing larger chunks of work within ou
 The DRI is responsible for providing weekly updates on the epic, including tracking the overall health status of the work, such as progress, obstacles, and emerging risks.
 * The DRI should continuously monitor and report on the health status of the epic, indicating if it is on track, at risk, or blocked, and provide context around any changes.
 * Progress updates should be reported via a top-level comment on the epic that contains the development work (usually linked to our OKRs).
-* Updates are due by End of Day on each Friday.
+* Updates are due by End of Day on the DRI's last workday of the week.
 
 *Facilitating Breakdown of Work*
 The DRI plays a crucial role in breaking down epics into smaller, manageable deliverables, ensuring that tasks are clearly defined and ready for development.
