@@ -1,7 +1,6 @@
 ---
 stage: enablement
 group: Tenant Scale
-title: 'Cells: OAuth'
 description: 'Cells: OAuth applications'
 ---
 <!-- vale gitlab.FutureTense = NO -->
