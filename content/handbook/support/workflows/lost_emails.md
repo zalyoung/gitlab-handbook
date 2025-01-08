@@ -7,7 +7,7 @@ description: "Workflow for cases when a customer reports they have lost access t
 
 ## Overview
 
-This workflow covers cases when a user has lost access to all email address on their account.
+This workflow covers cases when a user has lost access to all email address on their account and is being asked to perform [Account email verification](https://docs.gitlab.com/ee/security/email_verification.html#accounts-without-two-factor-authentication-2fa) due to 2FA not being enabled on their account.
 
 ## **Stage 0:** Ticket Triage
 
