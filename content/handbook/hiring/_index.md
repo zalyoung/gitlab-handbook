@@ -178,7 +178,6 @@ Scorecards are required in all stages that require interviews. Confidential, per
 - [**Reference Check:**](/handbook/hiring/#reference-check) The reference check stage can sometimes be done in tandem with the Debrief and Background Check and Offer stages. They can be completed by the Hiring Manager or Recruiter.
 - [**Background Check and Offer:**](/handbook/hiring/#background-check-and-offer) Recruiters move candidates into this stage once they're ready to receive their verbal offer. Before that time, this stage is where an offer is prepared and goes through approvals. This is the final stage in the process.
 
-
 </details>
 
 <details>
@@ -186,8 +185,8 @@ Scorecards are required in all stages that require interviews. Confidential, per
 
 - Candidate Experience Specialists use [Prelude]({{< ref "prelude#prelude" >}}) to schedule.
 - Interview confirmations are sent through [Guide]({{< ref "guide#guide" >}}). Because of this, confirmations have calendar invites that can be downloaded rather than being sent through. For this reason, Recruiters are not able to be added to candidate interview invites.
-</details>
 
+</details>
 
 <details>
 <summary>Greenhouse for internal candidates</summary>
@@ -197,6 +196,7 @@ Scorecards are required in all stages that require interviews. Confidential, per
 - If internal applicants apply via our internal job board, the yellow "internal applicant" tag will automatically show in the GH profile. If you don't see this tag, you can add it by navigating to the "Details" tab in GH and scroll down to "Source & Responsibility". Click the pencil next to Source and select Internal Applicant from the drop down.
 - CES will use the internal applicant's Google Calendar to find an appropriate time for them to meet, and do not need to be sent an availability email.
 - Former GitLab team members who re-apply are not considered internal candidates. Their source should be whatever they used to apply (ie application), and you should add a "Former Team Member" tag to their profile.
+
 </details>
 
 #### Candidate Hygiene
@@ -211,6 +211,7 @@ Scorecards are required in all stages that require interviews. Confidential, per
 - If this is an internal candidate, the most recent profile should always be Primary, but should not be merged until the candidate has accepted their offer to minimize the number of people with access to this information.
 - After merging, check the Activity Feed and Details tabs to see what information was removed from old profiles and ensure that you have the most accurate Recruiter, Coordinator, and Source.
 - If you have any questions, please contact the Enablement Manager because profile merges cannot be undone.
+
 </details>
 
 <details>
@@ -299,7 +300,6 @@ There are no perfect or required ways to set up your Greenhouse notifications, b
 
 </details>
 
-
 <details>
 <summary>Email notifications</summary> 
 
@@ -309,7 +309,6 @@ There are no perfect or required ways to set up your Greenhouse notifications, b
 
 </details>
 </details>
-
 
 ## Talent Acquisition Processes
 
@@ -321,7 +320,7 @@ There are no perfect or required ways to set up your Greenhouse notifications, b
 
 ### Contractor Conversions
 
-- [Contractor Conversions](https://handbook.gitlab.com/handbook/hiring/talent-acquisition-framework/ces-contract-processes/#contractor-conversions)
+- [Contractor Conversions](/handbook/hiring/talent-acquisition-framework/ces-contract-processes/#contractor-conversions)
 
 ### Acquisitions
 
