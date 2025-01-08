@@ -30,7 +30,9 @@ Our hope is that the GitLab Handbook is something that others want to emulate. T
 
 ### What's Next & Why
 
-This is currently under consideration.
+We are focused on maintaining the handbook's fast (pipeline under 10 minutes) and stable (minimal pipeline failures) state.
+
+Anything further is under consideration.
 
 As there is no full time DRI, the following are on hold:
 
