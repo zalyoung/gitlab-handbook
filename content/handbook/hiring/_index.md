@@ -264,7 +264,7 @@ Scorecards are required in all stages that require interviews. Confidential, per
 <summary>Offers</summary> 
 
 - [Creating an offer in Greenhouse]({{< ref "offer-process#offer-approvals" >}})
-- [Verbal offer information]({{< ref "offer-process#verbal-job-offer" >})
+- [Verbal offer information]({{< ref "offer-process#verbal-job-offer" >}})
 - [Declined offer steps]({{< ref "offer-process#declined-offers" >}})
 
 <details>
