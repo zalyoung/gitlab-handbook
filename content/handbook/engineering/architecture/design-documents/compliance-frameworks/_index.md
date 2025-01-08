@@ -199,6 +199,8 @@ The compliance requirements would be stored in a separate table with the followi
         control_type: smallint
         external_url: text
         expression: text
+        encrypted_secret_token: bytea
+        encrypted_secret_token_iv: bytea
     }
 
     class project_control_compliance_statuses {
