@@ -92,26 +92,11 @@ knowledge base content. This has the following benefits:
 
 ### Publishing a KB article
 
-After the KB article is merged:
+Publishing a KB article should be done by the person who merges a KB MR. After the KB article is merged:
 
-1. Create a merge request adding the KB article to the [`CODEOWNERS`](https://gitlab.com/gitlab-com/support/support-pages/-/blob/master/.gitlab/CODEOWNERS)
-   file.
-   1. Use `@weimeng-gtlb @irisb @gitlab-com/support/staff @gitlab-com/support/managers` as the code owners for your KB article.
-   1. Set the MR to auto-merge.
-   1. Ask in [`#support_operations`](https://gitlab.enterprise.slack.com/archives/C018ZGZAMPD) for approval.
-   - This step is necessary as the Support Super Form rejects publishing requests for KB articles
-     without a specific `CODEOWNERS` entry.
-   - We add the CODEOWNERS file at the publishing stage and not at the article submission stage to
-     avoid `CODEOWNERS` file merge conflicts blocking content merges.
-
-2. Submit a request using the [Support Super Form](https://support-super-form-gitlab-com-support-support-op-651f22e90ce6d7.gitlab.io/).
-   1. Fill in the fields as follows:
-      - What is this request concerning?: `Create a Zendesk article`
-      - What is the comma-separated list of maintainers for the article?: `@weimeng-gtlb @irisb @gitlab-com/support/staff @gitlab-com/support/managers`
-        - The Support Super Form will reject the publishing request if this does not match the
-          `CODEOWNERS` entry for the KB article.
-   1. After successful submission, the Support Super Form will create an issue and post URLs to
-      the published KB article. The sync may take 5 to 10 minutes to complete.
+1. Submit a request using the [Support Super Form](https://support-super-form-gitlab-com-support-support-op-651f22e90ce6d7.gitlab.io/), selecting `Create a Zendesk article` for the field "What is this request concerning?".
+1. After successful submission, the Support Super Form will create an issue and post URLs to
+   the published KB article. The sync may take 5 to 10 minutes to complete.
 
 ## Roles
 
