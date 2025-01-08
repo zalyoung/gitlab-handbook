@@ -458,7 +458,7 @@ if [[ $ERROR_FOUND == "true" ]]; then
     printf "%b" "The following videos are being added, but are not located in the static/videos folder:\n\n"
     printf "%b" "$INCORRECT_VIDEO_PATHS\n"
   fi
-    if [[ $INCORRECT_PDF_PATHS != "" ]]; then
+  if [[ $INCORRECT_PDF_PATHS != "" ]]; then
     printf "%b" "The following PDFs are being added, but are not located in the static/pdfs folder:\n\n"
     printf "%b" "$INCORRECT_PDF_PATHS\n"
   fi
