@@ -121,4 +121,4 @@ For any additional questions, please post in the talent-acquisition Slack channe
 
 #### Cold LinkedIn Outreach 
 
-- If someone you do not know and/or you have not worked with reaches out requesting to be referred for an open role, please let them know you are unable to refer them due to our referral policy, but encourage them to apply directly to any open roles via the [Jobs page](/jobs/). The appropriate recruiter will then review their application as soon as they can!
+If someone you do not know and/or you have not worked with reaches out requesting to be referred for an open role, please let them know you are unable to refer them due to our referral policy, but encourage them to apply directly to any open roles via the [Jobs page](/jobs/). The appropriate recruiter will then review their application as soon as they can!
