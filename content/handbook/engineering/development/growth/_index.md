@@ -139,35 +139,57 @@ In planning and estimation, we value [velocity over predictability](/handbook/en
 - If an issue has many unknowns, we can break it into two issues. The first issue is for research, also referred to as a [Spike](https://en.wikipedia.org/wiki/Spike_(software_development)), where we de-risk the unknowns and explore potential solutions. The second issue is for the implementation.
 - If an initial estimate is incorrect and needs to be adjusted, we revise the estimate immediately and inform the Product Manager. The Product Manager and team will decide if a milestone commitment needs to be adjusted.
 
-## Engineering DRI
-The Engineering DRI role is crucial for managing larger chunks of work within our team. This role is assigned to epics that have reached the development stage or to issues that are too large and have been promoted to epics. The DRI is assigned before the work is broken down into smaller deliverables, as one of their key responsibilities is to facilitate the planning and breakdown process.
+## Engineering DRI for Large-Scale Initiatives
+
+For substantial epics or projects that require extensive coordination, we designate an Engineering Directly Responsible Individual (DRI). This role is pivotal in managing complex workstreams within our team.
+
+The Engineering <abbr title="Directly Responsible Individual">DRI</abbr> is typically assigned in two scenarios:
+1. When an epic reaches the development phase and requires detailed oversight.
+2. When an issue grows in scope and complexity, necessitating its promotion to an epic.
+
+Importantly, we appoint the <abbr title="Directly Responsible Individual">DRI</abbr> before breaking down the work into smaller, manageable tasks. This early assignment is crucial because one of the <abbr title="Directly Responsible Individual">DRI</abbr>'s primary responsibilities is to lead the planning process and facilitate the strategic breakdown of the epic or project into actionable deliverables.
+
+By having a dedicated <abbr title="Directly Responsible Individual">DRI</abbr> for these large-scale initiatives, we ensure focused leadership, clear accountability, and effective coordination throughout the development lifecycle of complex engineering efforts.
 
 ### Role Responsibilities
 *Communicating Progress and Managing Health Status*
-The DRI is responsible for providing weekly updates on the epic, including tracking the overall health status of the work, such as progress, obstacles, and emerging risks.
-* The DRI should continuously monitor and report on the health status of the epic, indicating if it is on track, at risk, or blocked, and provide context around any changes.
-* Progress updates should be reported via a top-level comment on the epic that contains the development work (usually linked to our OKRs).
-* Updates are due by End of Day on the DRI's last workday of the week.
+The Engineering <abbr title="Directly Responsible Individual">DRI</abbr> oversees weekly updates on the epic, tracking overall health status, including progress, obstacles, and emerging risks.
+* They continuously monitor and report on the epic's health status, indicating if it's on track, at risk, or blocked, providing context around any changes.
+* Progress updates are reported via a top-level comment on the epic containing the development work (usually linked to our OKRs).
+* Updates are due by End of Day on the <abbr title="Directly Responsible Individual">DRI</abbr>'s last workday of the week.
 
 *Facilitating Breakdown of Work*
-The DRI plays a crucial role in breaking down epics into smaller, manageable deliverables, ensuring that tasks are clearly defined and ready for development.
+This role is crucial in breaking down epics into smaller, manageable deliverables, ensuring tasks are clearly defined and ready for development.
 
 *Ensuring Steady Progress*
-The DRI ensures that work items are progressing smoothly through our Kanban flow, with enough work prepared for development to maintain consistent progress.
+The responsible individual ensures work items progress smoothly through our Kanban flow, with enough work prepared for development to maintain consistent progress.
 
 *Risk Management and Mitigation*
-The DRI is responsible for identifying potential risks early in the process and proactively working with the team to develop mitigation strategies. This responsibility enhances the DRI’s role in not only communicating issues but actively managing and resolving them.
+Early identification of potential risks and proactive collaboration with the team to develop mitigation strategies are key responsibilities. This enhances the role in not only communicating issues but actively managing and resolving them.
 
 *Retrospective and Continuous Improvement*
-At the conclusion of each epic, the DRI should facilitate a brief retrospective session to gather feedback on what went well and areas for improvement. This practice helps refine processes and improve the handling of future epics.
+Upon conclusion of each epic, a brief retrospective session should be facilitated to gather feedback on successes and areas for improvement. This practice helps refine processes and improves the handling of future epics.
 
 *Collaboration with Product and Design*
-The DRI should actively collaborate with Product Managers and Designers during the planning phase to ensure that the scope of the epic aligns with business goals and user experience standards.
+Active collaboration with Product Managers and Designers during the planning phase is essential to ensure the epic's scope aligns with business goals and user experience standards.
 
 *Resource Allocation and Escalation*
-The DRI is empowered to identify when additional resources or support are needed and to escalate issues promptly. This helps ensure that timelines are met and work progresses smoothly.
+The appointed individual is empowered to identify when additional resources or support are needed and to escalate issues promptly. This helps ensure timelines are met and work progresses smoothly.
 
-*Note:* The DRI is responsible for timely delivery, not execution of every task.
+*Note:* While responsible for timely delivery, the <abbr title="Directly Responsible Individual">DRI</abbr> is not expected to execute every task personally.
+
+### Standardized Status Update Template
+
+To ensure consistency and clarity in our communication, we've implemented a standardized comment template for status updates across the Growth team.
+
+**Template Details:**
+- **Name:** "Growth - DRI Status Update"
+- **Scope:** Available for the entire GitLab group
+- **Location:** [GitLab.com Comment Templates](https://gitlab.com/groups/gitlab-org/-/comment_templates/1000452)
+
+This template streamlines our reporting process, making it easier for <abbr title="Directly Responsible Individual">DRI</abbr>s to provide comprehensive and uniform updates. By using a consistent format, we enhance readability and facilitate quick information retrieval for all team members.
+
+For guidance on using comment templates, please refer to our [Comment Templates Usage Guide](https://docs.gitlab.com/ee/user/project/description_templates.html#use-the-templates).
 
 ## Technical exploration ("Spike") guidelines
 
