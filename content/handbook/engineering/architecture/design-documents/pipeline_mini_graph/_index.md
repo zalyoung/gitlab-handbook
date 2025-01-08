@@ -18,7 +18,7 @@ This blueprint serves as living documentation for the Pipeline Mini Graph. The P
 
 ## Motivation
 
-The Pipeline Mini Graph primarily functioned via REST, so we updated the component to support GraphQL and subsequently are migrating all instances of this component to GraphQL. This documentation will serve as the SSOT for this refactor. Developers have expressed difficulty contributing to this component as the two APIs co-exist, so we need to make this code easier to update while also supporting both REST and GraphQL. 
+The Pipeline Mini Graph originally relied on REST for its functionality. We have updated the component to support GraphQL and are in the process of migrating all instances to this API. This documentation will act as the single source of truth (SSOT) for the refactor. Developers have found it challenging to contribute to the component due to the coexistence of two APIs, making it essential to simplify the code while ensuring compatibility with both REST and GraphQL.
 
 ### Goals
 
@@ -26,7 +26,7 @@ The Pipeline Mini Graph primarily functioned via REST, so we updated the compone
 - Backwards compatibility
 - Improved query performance
 - Deprecation of REST support
-- real-time pipeline updates
+- Real-time pipeline status updates
 
 ### Non-Goals
 
