@@ -126,7 +126,7 @@ The username can be anything; it is not used by GitLab's container registry. The
 
 Per the current [container registry authentication process](https://docs.gitlab.com/ee/user/packages/container_registry/authenticate_with_container_registry.html).
 
-Note that **Deploy token** is listed as an available password for the container registry, but since these tokens are not routeable, they will only work with the legacy cell. For the first iteration, only routing to the legacy cell and default organization will be supported for all token types.
+Note that **Deploy token** is listed as an available password for the container registry, but since these tokens are not routeable, they will only work with the legacy cell. The user's **GitLab username and password** can also be used to authenticate with the container registry, but this authentication method also does not contain routing information, so will only work with the legacy cell. For the first iteration, only routing to the legacy cell and default organization will be supported for all token types.
 
 The docker client will then submit this username and password combination to the `/jwt/auth` endpoint in GitLab Rails using HTTP Basic Auth.
 
