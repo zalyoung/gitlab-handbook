@@ -13,7 +13,7 @@ Triage policies are necessary when team members perform label migrations across 
 
 ## Before you start
 
-Setup: Follow the [GitLab Duo Workflow documentation](https://docs.gitlab.com/ee/user/duo_workflow/) to learn how to set up and access GitLab Duo Workflow in your code editor.
+Follow the [GitLab Duo Workflow documentation](https://docs.gitlab.com/ee/user/duo_workflow/) to learn how to set up and access GitLab Duo Workflow in your code editor.
 
 ## Build your prompt
 
@@ -58,6 +58,63 @@ Example: `Link the new one-off policy in .gitlab/ci/one-off.yml to run the polic
 > Link the new one-off policy in .gitlab/ci/one-off.yml to run the policy in CI. Create two jobs: a dry-run and an actual job. The job names must follow the instructions listed in one-off.yml.
 >
 > Read instructions and example yml files in `policies/one-off/duo-workflow-guide-and-example-policies` to ensure correct syntax.
+
+### Policy Refinement
+
+You can start another workflow to refine the policy if some policy condition was missing.
+
+Example prompt:
+
+> Update the policy you created in policies/one-off/auth-migration.yml by adding a new condition to skip resources currently labeled with "workflow::completed" using the forbidden_labels field
+
+### Resulting policy written by GitLab Duo Workflow
+
+The 2 prompts above generated the following policy:
+
+```yaml
+.common_conditions: &common_conditions
+  state: opened
+  labels:
+    - "group::authentication"
+  forbidden_labels:
+    - "devops::software supply chain security"
+    - "workflow::completed"
+
+.common_actions: &common_actions
+  labels:
+    - "devops::software supply chain security"
+
+resource_rules:
+  epics:
+    rules:
+      - name: (Epics) Add devops::software supply chain security label to group::authentication epics
+        conditions:
+          <<: *common_conditions
+        actions:
+          <<: *common_actions
+  issues:
+    rules:
+      - name: (Issues) Add devops::software supply chain security label to group::authentication issues
+        conditions:
+          <<: *common_conditions
+        actions:
+          <<: *common_actions
+  merge_requests:
+    rules:
+      - name: (Merge Requests) Add devops::software supply chain security label to group::authentication MRs
+        conditions:
+          <<: *common_conditions
+        actions:
+          <<: *common_actions
+```
+
+## After a triage policy is written
+
+Submit the code changes to an MR using [this merge request template for one-off label migration](https://gitlab.com/gitlab-org/quality/triage-ops/-/blob/master/.gitlab/merge_request_templates/One-off-label-migration.md). If you have followed the instructions above, your MR should include 2 jobs under the `one-off` stage. Run the dry-run job in your merge request pipeline to validate the policy. Once the policy is validated, you can execute the label migration job (the one without the `dry-run` job name suffix).
+
+You are welcome to request a code review to confirm the migration policy was correctly written. However, if you are confident with the result of the label migration, you can choose to skip the code review step.
+
+Reminder, please do not merge the MR when a migration is done.
 
 ## Best practices and troubleshooting tips
 
