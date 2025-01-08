@@ -331,6 +331,19 @@ SRE's with Cloud Efficiency Engineering specialization primarily focus on improv
 1. Implement tools, practies, and process to enable other teams to contribute to efficiency in their areas.
 1. Plan and implement needed changes in our cloud environments to drive better observability of usage and improved efficiency.
 
+### FinOps
+
+The FinOps SRE specialization focuses on optimizing cloud infrastructure costs by developing tools and processes that offer valuable insights into infrastructure spending. Acting as subject matter experts, they collaborate with compliance assessors on regulatory certifications (e.g. FedRAMP, SOC2, ISO) and support Finance in understanding how system changes impact financial forecasts. Additionally, they work closely with engineering teams to ensure operational readiness across GitLab's infrastructure.
+
+**Note:** The nature of this role means there is limited exposure to the day-to-day operations of GitLab's SaaS Platforms, therefore there is no requirement to be part of the Incident Management [EOC process](/handbook/engineering/infrastructure/incident-management/#engineer-on-call-eoc-responsibilities). However, FinOps SREs are expected to maintain appropriate SLAs of the systems and processes they support. 
+
+#### Responsibilities
+
+1. Drive the adoption of FinOps principles across the organization by staying informed on industry best practices (e.g. [FOCUS](https://focus.finops.org/)) and fostering a culture of cost awareness, encouraging all teams to consider financial efficiency in their decision-making processes.
+1. Work with partners in Finance and Enterprise Data to help them understand how changes in existing and new systems at GitLab, as well as changes in usage patterns for our product, will affect our data structures and financial reporting.
+1. Act as a compliance and infrastructure cost expert, working with internal and external auditors on certifications (e.g., FedRAMP, SOC2, ISO) and collaborating with Finance teams to evaluate the financial impact of changes in systems, infrastructure usage patterns, and forecasts.
+1. Identify cost optimization opportunities using existing tools and data, promoting discussions between Engineering and other stakeholders to ensure cost-efficient operations.
+
 ## Career Ladder
 
 Further career progression is available as a Principle Engineer, [Distinguished Engineer](/job-families/engineering/infrastructure/distinguished-engineer/#infrastructure) and then an [Engineering Fellow](/job-families/engineering/infrastructure/engineering-fellow/).
