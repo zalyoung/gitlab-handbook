@@ -4,9 +4,13 @@ title: "Security Assurance"
 
 <link rel="stylesheet" type="text/css" href="/stylesheets/biztech.css" />
 
+## Vision
+
+To be a trusted sales enablement partner that is recognized internally and externally for collaborative and transparent security assurance programs.  
+
 ## Overview
 
-As a member of the [Security department]({{< ref "../_index.md#assure-the-customer" >}}), the Security Assurance sub-department provides GitLab customers with a high level of assurance around the security of GitLab SaaS service offerings.
+As a member of the [Security department]({{< ref "../_index.md#assure-the-customer" >}}), the Security Assurance sub-department provides GitLab customers with a high level of assurance around the security of GitLab SaaS service offerings. 
 
 There are five teams in the Security Assurance sub-department.
 
@@ -26,6 +30,10 @@ There are five teams in the Security Assurance sub-department.
         <i class="fas fa-shield-alt i-bt"></i>
         <h5>Security Risk</h5>
     </th>
+     <th class="text-center">
+  
+        <h5>Security Program Management</h5>
+    </th>
   </tr>
   <tr>
       <td>
@@ -42,6 +50,11 @@ There are five teams in the Security Assurance sub-department.
       <td>
         <ul>
             <li><a href="{{< ref "security-risk" >}}"> Security Risk Team Page </a></li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+            <li> Security Program Management Team Page </li>
         </ul>
       </td>
   </tr>
@@ -72,7 +85,7 @@ There are five teams in the Security Assurance sub-department.
 - [Business Impact Assessments]({{< ref "business-impact-analysis" >}})
 - [Critical System Tiering]({{< ref "critical-systems" >}})
 
-### Security Compliance, Commercial Core Competencies
+### Security Compliance Core Competencies
 
 - [Continuous Control Monitoring]({{< ref "sec-controls" >}})
 - [Security Certifications and Attestations]({{< ref "../security-assurance/security-compliance/certifications" >}})
