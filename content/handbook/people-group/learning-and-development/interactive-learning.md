@@ -5,7 +5,7 @@ description: "All elearning courses tied to the Field Certification Program will
 
 All elearning courses at GitLab will utilize the Handbook as the Single Source of Truth (SSOT).
 
-![gitlab-learning-content-diagram](gitlab-learning-content-diagram.png)
+![gitlab-learning-content-diagram](/images/people-group/learning-and-development/gitlab-learning-content-diagram.png)
 
 All our available learning material can be found on [Level Up](https://levelup.gitlab.com/learn/dashboard).
 
@@ -65,7 +65,7 @@ This [training video](https://youtu.be/wlLKZz3vSAk) provides an example of how i
 
 In the team Articulate - Rise 360 license, there is a block template for iframes. You can access this template in the `block templates` section and add your iframe code directly.
 
-![iframe-embed-template](../iframe-block.png)
+![iframe-embed-template](/images/people-group/learning-and-development/iframe-block.png)
 
 #### iframe tag examples
 
