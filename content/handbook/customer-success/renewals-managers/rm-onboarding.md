@@ -3,7 +3,7 @@ title: RM Onboarding
 ---
 
 
-![Global Renewals Organization](images/GitLab_GR_BLK.gif)
+![Global Renewals Organization](/images/customer-success/renewals-managers/GitLab_GR_BLK.gif)
 
 ---
 **Renewals Manager (RM) Onboarding Journey**

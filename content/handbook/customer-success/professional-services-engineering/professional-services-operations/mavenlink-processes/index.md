@@ -18,19 +18,19 @@ To log into Mavenlink, you will need to access GitLab's Okta account.
 
 - Click on Mavenlink inside Okta
 
-![mavenlinkokta](mavenlinkokta.png)
+![mavenlinkokta](/images/customer-success/professional-services-engineering/professional-services-operations/mavenlink-processes/mavenlinkokta.png)
 
 - Verify email
 - Enter password
 - click "Sign On with Okta"
 
-![verification1](verification1.png)
+![verification1](/images/customer-success/professional-services-engineering/professional-services-operations/mavenlink-processes/verification1.png)
 
-![verification2](verification2.png)
+![verification2](/images/customer-success/professional-services-engineering/professional-services-operations/mavenlink-processes/verification2.png)
 
-![verification3](verification3.png)
+![verification3](/images/customer-success/professional-services-engineering/professional-services-operations/mavenlink-processes/verification3.png)
 
-![verification4](verification4.png)
+![verification4](/images/customer-success/professional-services-engineering/professional-services-operations/mavenlink-processes/verification4.png)
 
 You should now be in Mavenlink, Enjoy!
 
@@ -52,15 +52,15 @@ To view projects as Read only/ Guest:
 
 - Members can find projects for which they have Guest Access by going to the Project List tab in Projects and selecting Guest Projects from the Show drop-down menu. Note that team members cannot have Guest Access on projects for which they're participating.
 
-![Read Only](Mavenlinkguestaccess3.png)
+![Read Only](/images/customer-success/professional-services-engineering/professional-services-operations/mavenlink-processes/Mavenlinkguestaccess3.png)
 
-![Read Only 2](Mavenlinkguestaccess2.png)
+![Read Only 2](/images/customer-success/professional-services-engineering/professional-services-operations/mavenlink-processes/Mavenlinkguestaccess2.png)
 
 ### Mavenlink Update User Profile
 
 - From the Dashboard, click on Edit Profile
 
-![User Profile](Profile.png)
+![User Profile](/images/customer-success/professional-services-engineering/professional-services-operations/mavenlink-processes/Profile.png)
 
 - Update the profile information along with a photo and hit save
 
@@ -155,7 +155,7 @@ Project Close
 
 Regional holidays and Family and Friends days are included in Mavenlink on each members calendar, followed by the  [time off process](/handbook/people-group/paid-time-off/#a-gitlab-team-members-guide-to-time-off).  Since the days are included in the calendar there is no need to submit the time in the Mavenlink PTO feature or the users time sheet.  When logging into the time sheet, the required work week is shown on the time sheet entry.
 
-![TimeOff](Timeoff.png)
+![TimeOff](/images/customer-success/professional-services-engineering/professional-services-operations/mavenlink-processes/Timeoff.png)
 
 GitLab's company policy to submit time off is through Workday, and followed by this [handbook process](/handbook/people-group/paid-time-off/).
 In the Professional Services group, we also require time off to be submitted to Mavenlink:
@@ -186,13 +186,13 @@ Time off cancellation
 - Right hand profile will pop up, there is a section for Upcoming Time Off
 - Click on the plus sign select the date and update the hours to "0"
 
-![PTOFeature2](ptofeature2.png)
+![PTOFeature2](/images/customer-success/professional-services-engineering/professional-services-operations/mavenlink-processes/ptofeature2.png)
 
 #### Mavenlink Time Tracking- Time Sheets
 
-![tmesheets](tmesheets.png)
+![tmesheets](/images/customer-success/professional-services-engineering/professional-services-operations/mavenlink-processes/tmesheets.png)
 
-![timesheetoptions](timesheetoptions.png)
+![timesheetoptions](/images/customer-success/professional-services-engineering/professional-services-operations/mavenlink-processes/timesheetoptions.png)
 
 #### Mavenlink Time Approval Process
 
@@ -242,28 +242,28 @@ Method 1- Mavenlink email
 
 - Automated Mavenlink time sheet approval email received when time sheet is submitted
 
-![emailapproval](emailapproval.png)
+![emailapproval](/images/customer-success/professional-services-engineering/professional-services-operations/mavenlink-processes/emailapproval.png)
 
 - Click on the **view the timesheet** link to review the timesheet.
 - Click the Approve button to approve the timesheet or the Reject button to reject the timesheet. Enter notes if you are rejecting the timesheet.
 
 Method 2- Mavenlink Time Sheet Approvals
 
-![timeapprovals1](timeapprovals1.png)
+![timeapprovals1](/images/customer-success/professional-services-engineering/professional-services-operations/mavenlink-processes/timeapprovals1.png)
 
-![timeapprovals2](timeapprovals2.png)
+![timeapprovals2](/images/customer-success/professional-services-engineering/professional-services-operations/mavenlink-processes/timeapprovals2.png)
 
-![timeapprovals3](timeapprovals3.png)
+![timeapprovals3](/images/customer-success/professional-services-engineering/professional-services-operations/mavenlink-processes/timeapprovals3.png)
 
-![timeapprovals4](timeapprovals4.png)
+![timeapprovals4](/images/customer-success/professional-services-engineering/professional-services-operations/mavenlink-processes/timeapprovals4.png)
 
-![timeapprovals5](timeapprovals5.png)
+![timeapprovals5](/images/customer-success/professional-services-engineering/professional-services-operations/mavenlink-processes/timeapprovals5.png)
 
 Method 3- Mavenlink project activity feed
 
-![projectactivity1](projectactivity1.png)
+![projectactivity1](/images/customer-success/professional-services-engineering/professional-services-operations/mavenlink-processes/projectactivity1.png)
 
-![projectactivity2](projectactivity2.png)
+![projectactivity2](/images/customer-success/professional-services-engineering/professional-services-operations/mavenlink-processes/projectactivity2.png)
 
 #### Mavenlink Project Creation
 
@@ -338,15 +338,15 @@ Once the PS Opportunity is closed/ won, a notification is sent from SFDC.
 
 Project Health Reports are found on the Mavenlink project on the right hand fly out panel
 
-![healthreport1](healthreport1.png)
+![healthreport1](/images/customer-success/professional-services-engineering/professional-services-operations/mavenlink-processes/healthreport1.png)
 
 Click On new Health Report to create a new report
 
-![healthreport2](healthreport2.png)
+![healthreport2](/images/customer-success/professional-services-engineering/professional-services-operations/mavenlink-processes/healthreport2.png)
 
 Fill out each section and save
 
-![healthreport3](healthreport3.png)
+![healthreport3](/images/customer-success/professional-services-engineering/professional-services-operations/mavenlink-processes/healthreport3.png)
 
 Only one Health Report can be added each day
 
