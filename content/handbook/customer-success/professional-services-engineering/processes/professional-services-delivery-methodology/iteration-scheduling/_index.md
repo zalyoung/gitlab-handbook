@@ -5,9 +5,9 @@ description: "Learn about how to schedule iterations in a PS engagement."
 
 ## Cadence Planning
 
-![1 week iteration](one-week-iteration.png)
+![1 week iteration](/images/customer-success/professional-services-engineering/processes/professional-services-delivery-methodology/iteration-scheduling/one-week-iteration.png)
 
-![2 week iteration](two-week-iteration.png)
+![2 week iteration](/images/customer-success/professional-services-engineering/processes/professional-services-delivery-methodology/iteration-scheduling/two-week-iteration.png)
 
 Although the above pictures show a one-week and two-week sprint (aka iteration) it is assumed that iteration duration can be adjusted based on customer needs - as long as the duration stays consistent.
 
@@ -21,9 +21,9 @@ _2 week iterations are a good target duration to use unless the customer insists
 
 What do you do if you just cannot make it work? Between various stakeholders, locations, time zones, and other challenges, coordination can be difficult. Ultimately, the specific customer situation dictates what needs to be done. For example, working in different time zones might necessitate a flexible approach who works at what hours.
 
-![Time Zone Distributed](iteration-timezone-distributed.png)
+![Time Zone Distributed](/images/customer-success/professional-services-engineering/processes/professional-services-delivery-methodology/iteration-scheduling/iteration-timezone-distributed.png)
 
-![Sample Iteration Calendar](iteration-calendar.png)
+![Sample Iteration Calendar](/images/customer-success/professional-services-engineering/processes/professional-services-delivery-methodology/iteration-scheduling/iteration-calendar.png)
 
 It is important to point out that certain meetings really, really, really need to be attended - iteration reviews for example demonstrate to the customer the tangible progress that has been achieved, so it is important that both GitLab and customer stakeholders attend in order to see that progress.
 

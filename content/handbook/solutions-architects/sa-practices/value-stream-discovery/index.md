@@ -229,15 +229,15 @@ The process which we will go through, at a high level, is as follows  (per funct
 
 ##### Idea to Production
 
-![Idea to Production](workflow-02.png)
+![Idea to Production](/images/solutions-architects/sa-practices/value-stream-discovery/workflow-02.png)
 
 ##### Response to Production Incident
 
-![Response to Production Incident](workflow-01.png)
+![Response to Production Incident](/images/solutions-architects/sa-practices/value-stream-discovery/workflow-01.png)
 
 ##### Toolchain Upgrading and Maintenance
 
-![Toolchain Upgrading and Maintenance](workflow-03.png)
+![Toolchain Upgrading and Maintenance](/images/solutions-architects/sa-practices/value-stream-discovery/workflow-03.png)
 
 ### Executive Briefing - Summarize the Findings
 

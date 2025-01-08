@@ -215,7 +215,7 @@ MVP Pilot Phases of an engagement consist of:
 
 Integrating business and IT needs is accomplished through a disciplined decomposition of higher level Vision and Goals into Epics and User Stories, which in turn drive the technical implementation of the customer engagement.Depending on the size and complexity of the engagement, one or several Program Managers are closely coordinating with executive level stakeholders and business sponsors in order to ensure that key business goals are achieved.Lower level technical coordination and tasking is done by one or several projects managers, working with the GitLab TA/PSE Team and the customer sourced Dev Team.
 
-![IntegrateBizAndIT.jpg](professional-services-delivery-methodology/IntegrateBizAndIT.jpg)
+![IntegrateBizAndIT.jpg](/images/customer-success/professional-services-engineering/processes/IntegrateBizAndIT.jpg)
 
 ##### 3. Adopt GitLab's Consistent Tools
 
@@ -224,13 +224,13 @@ Helping customers adopt the GitLab platform across the entire software developme
 1. Achieving significant license savings by replacing a complex DIY tool chain
 2. Enabling productivity improvements due to an enhanced developer experience, streamlined collaboration, and reduced context switching
 
-![GitLabPlatformOptimizesValueStream.jpg](professional-services-delivery-methodology/GitLabPlatformOptimizesValueStream.jpg)
+![GitLabPlatformOptimizesValueStream.jpg](/images/customer-success/professional-services-engineering/processes/GitLabPlatformOptimizesValueStream.jpg)
 
 ##### 4. Optimize Internal Controls
 
 By optimizing and automating internal controls (sign-offs / approvals), cycle times are significantly reduced and Time to Market windows are shortened. Collaboration is streamlined, context switching is eliminated, and velocity is increased. Overall productivity increases.
 
- ![ValueStreamOptimization.jpg](professional-services-delivery-methodology/ValueStreamOptimization.jpg)
+ ![ValueStreamOptimization.jpg](/images/customer-success/professional-services-engineering/processes/ValueStreamOptimization.jpg)
 
 ##### 5. Establish Thought Leadership through Continuous Value Delivery and Cost Savings
 
@@ -246,7 +246,7 @@ By optimizing and automating internal controls (sign-offs / approvals), cycle ti
 
 The Professional Services process and methodology fits within the Customer journey that is supported by Customer Success.Professional Services contributes to the customer journey from the point of **SOW Close** through the **Project Closee** phase.
 
-![!\[''\](/handbook/customer-success/professional-services-engineering/processes/customer-journey-mapped-ps-process.png)](<PS Delivery Customer Journey Flow - Page 1 (11).png>)
+![!\[''\](/images/customer-success/professional-services-engineering/processes/customer-journey-mapped-ps-process.png)](<PS Delivery Customer Journey Flow - Page 1 (11).jpg>)
 
  [Source, GitLab Team Members Only](https://docs.google.com/presentation/d/1eC_ocJkzNkH4Vw3v4Vkd3S58a0NALYxXtnb6BZ7pJdc/edit?usp=sharing)
 
@@ -260,13 +260,13 @@ In the linked pages below, you can see a detailed drill down into the steps with
 
 For a more detailed explanation of the steps that comprise each stage of the scoping phase, check out the [Scoping (Pre-Sales)](pre-sales-methodology) page. In this page, we drill down into- and describe- specific steps in each phase of the pre-sales scoping process.
 
-![Pre-Sales Stages & Steps](pre-sales-methodology/scoping-workflow.png)
+![Pre-Sales Stages & Steps](/images/customer-success/professional-services-engineering/processes/scoping-workflow.png)
 
 ### Delivery (Post-Sales)
 
 For a more detailed explanation of the steps that comprise each stage of the delivery phase, check out the [Delivery (Post-Sales)](post-sales-methodology) page. In this page, we drill down into- and describe- specific steps in each phase of the post-sales delivery process.
 
-![Post-Sales Stages & Steps](post-sales-methodology/PS-delivery-workflow.png) -->
+![Post-Sales Stages & Steps](/images/customer-success/professional-services-engineering/processes/PS-delivery-workflow.png) -->
 
 <!-- ---
 
@@ -284,7 +284,7 @@ This page will help outline the when and how to get involved with positioning an
 
 For custom SOWs, the [workflow for SOW creation](/handbook/customer-success/professional-services-engineering/selling/#custom-scoped-services) involves a partnership between the Account Team and the Professional Services Team.
 
-![''](scoping-workflow.png)
+![''](/images/customer-success/professional-services-engineering/processes/scoping-workflow.png)
 [Source](https://docs.google.com/presentation/d/1TOI2aoseBoyWYQC6-xpJVMknEncCNreSFfMvOHO7EBA/edit#slide=id.gbfb62d0c00_0_58) (GitLab Team Members Only)
 
 ## 1. Positioning
@@ -380,7 +380,7 @@ Once the SOW is fully executed, the deal desk team updates the Salesforce PS-Onl
 
 TODO: update this with documents and delivery kits that are organized to help the delivery team be successful with the engagement.
 
-![''](../PS-delivery-workflow.png) -->
+![''](/images/customer-success/professional-services-engineering/processes/PS-delivery-workflow.png) -->
 
 <!--This page provides scoping questions designed to collect details and uncover the customer's required capabilities. This ensures alignment of the SOW and PS delivery with the positive business outcomes the customer is looking for.  While not an exhaustive list, these questions and suggestions will help spark the discovery conversations.
 
@@ -465,7 +465,7 @@ description: "Describes the workflow governing delivery of GitLab professional s
 
 The purpose of this page is to describe the workflow governing delivery of professional service projects. We will start by outlining the general workflow that is common across all service delivery categories. Then we will describe the differences for engagements that do not fit the general workflow shown below.
 
-![ps-delivery-workflow](PS-delivery-workflow.png)
+![ps-delivery-workflow](/images/customer-success/professional-services-engineering/processes/PS-delivery-workflow.png)
 
 [Source](https://docs.google.com/presentation/d/1TOI2aoseBoyWYQC6-xpJVMknEncCNreSFfMvOHO7EBA/edit?usp=sharing),  internal only
 

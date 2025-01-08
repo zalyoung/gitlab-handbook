@@ -204,7 +204,7 @@ Delivery docs and technical guidance for your GitLab practice engineers
 - [Access GitLab Training from the Partner Portal](https://partners.gitlab.com/prm/English/c/Training)
   - We use LevelUp that is accessible publicly, but please do not use the site directly as a Partner.  Please login through the Partner Portal and access training there.  This will ensure that the training you take will be associated with your company partnership with GitLab!
 
-    ![Start Training from the Partner Portal](images/gitlab-partner-training.png)*Start Training from the Partner Portal*
+    ![Start Training from the Partner Portal](/images/resellers/partner-enablement/gitlab-partner-training.png) *Start Training from the Partner Portal*
 
 ## 2. Additional Enablement Resources at GitLab
 
