@@ -181,7 +181,10 @@ The focus will be moving top-level groups into Organizations and then migration 
 
 We will establish a process for moving top-level groups between organizations on the same Cell. This functionality is net new and will need to be developed in time for Cells 1.5 and is a pre-requisite before Org mover can move an Organization between Cells.
 
-The solution will need to re-write the org IDs when a top-level group is moved to a new Organization. A new solution is preferable to using DT since DT does much more than re-writing IDs and will be a more complex operation. This also ensures new IDs are not generated where it's not necessary when the top-level groups is moved into a new Organization that will lead to users having to make changes to their local repositories, bookmarks, etc ... to match the new IDs and paths.
+The solution will need to re-write the org IDs when a top-level group is moved to a new Organization.
+A new solution is preferable to using DT, because DT is more complex than re-writing IDs.
+The new solution would also ensure that new IDs are only generated where necessary when a top-level group is moved into a new Organization.
+This improves the experience for users, as it minimizes the changes users have to make to their local repositories, bookmarks, etc. to match the new IDs and paths.
 
 Once the top-level groups for a customer are in their own Organization on [Cell 1 (the legacy Cell)](decisions/012_cell_unique_identifier.md), Org mover will move the entire Organization from Cell 1 to a secondary Cell.
 
