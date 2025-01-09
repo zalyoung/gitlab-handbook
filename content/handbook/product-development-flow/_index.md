@@ -38,7 +38,7 @@ Examples:
 
 ## Workflow Summary
 
-<object data="PDF-Diagram.svg" style="width: 100%;" type="image/svg+xml">
+<object data="/images/product-development-flow/PDF-Diagram.svg" style="width: 100%;" type="image/svg+xml">
   Product Development Flow diagram.
   Unable to load this content, check console for details.
 </object>
