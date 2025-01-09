@@ -148,7 +148,7 @@ These awards and lists recognize GitLab's unique culture and help us spread the 
 
 | Videos | Category |
 | ------ | ------ |
-| [Life at GitLab YouTube Channel on GitLab Unfiltered](https://www.youtube.com/playlist?list=PL05JrBw4t0KpZ7TlkcjRZdn7dAAjpi97L) |
+| [Life at GitLab YouTube Channel on GitLab Unfiltered](https://www.youtube.com/playlist?list=PL05JrBw4t0KpZ7TlkcjRZdn7dAAjpi97L) | |
 | [Get to Know GitLab](https://vimeo.com/gitlab/gettoknowgitlab) | Culture |
 | [GitLab's Values](https://vimeo.com/956663126) | Culture |
 | [Building the Future of GitLab](hhttps://youtu.be/TBMVj8Oc_9U?si=QJD1sMNCdsrraStf) | Our Technology |
