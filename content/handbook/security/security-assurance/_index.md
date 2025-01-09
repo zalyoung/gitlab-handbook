@@ -6,11 +6,11 @@ title: "Security Assurance"
 
 ## Vision
 
-To be a trusted sales enablement partner that is recognized internally and externally for collaborative and transparent security assurance programs.  
+To be a trusted sales enablement partner that is recognized internally and externally for collaborative and transparent security assurance programs.
 
 ## Overview
 
-As a member of the [Security department]({{< ref "../_index.md#assure-the-customer" >}}), the Security Assurance sub-department provides GitLab customers with a high level of assurance around the security of GitLab SaaS service offerings. 
+As a member of the [Security department]({{< ref "../_index.md#assure-the-customer" >}}), the Security Assurance sub-department provides GitLab customers with a high level of assurance around the security of GitLab SaaS service offerings.
 
 There are five teams in the Security Assurance sub-department.
 
@@ -30,8 +30,8 @@ There are five teams in the Security Assurance sub-department.
         <i class="fas fa-shield-alt i-bt"></i>
         <h5>Security Risk</h5>
     </th>
-     <th class="text-center">
-  
+    <th class="text-center">
+        <i class="fas fa-tasks i-bt"></i>
         <h5>Security Program Management</h5>
     </th>
   </tr>
