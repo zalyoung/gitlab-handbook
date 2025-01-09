@@ -1,17 +1,17 @@
 ---
 title: Organizations Team
-description: "The Organizations team develops the Organizations feature to support Cells. "
+description: "The Organizations team develops the Organizations entity to support Cells. "
 ---
 
 ## About
 
-The Organizations team's main focus is to develop the application features needed for data sharding and isolation Cells. The team also offers support for groups, projects, and user profiles within our product.
+The Organizations team's main focus is to develop the Organization entity needed for data sharding and isolation in the context of [Cells](https://handbook.gitlab.com/handbook/engineering/architecture/design-documents/cells/). The team also offers support for groups, projects, and user profiles within our product.
 
 ### Contact
 
 To get in touch with us, it's best to create an issue in the relevant
 project (typically [GitLab](https://gitlab.com/gitlab-org/gitlab)) and add the
-`~"group::tenant scale"` label, along with any other appropriate labels.
+`~"group::organizations"` label, along with any other appropriate labels.
 
 For urgent items, feel free to use the Slack channel (internal): [#g_organizations](https://gitlab.slack.com/archives/g_organizations).
 
@@ -26,17 +26,17 @@ As we brainstorm and iterate on horizontal scalability proposals, we will
 provide implementation details, prototypes, metrics, demos, and documentation to
 support our hypotheses and outcomes.
 
-Currently, [Cells](https://docs.gitlab.com/ee/architecture/blueprints/cells/) is
-our proposal of a new architecture for our SaaS that is horizontally scalable,
+Currently, [Cells](https://handbook.gitlab.com/handbook/engineering/architecture/design-documents/cells/) is
+our proposal of a new architecture for our platform that is horizontally scalable,
 resilient, and provides a more consistent user experience.
 
 ### Goals
 
-The executive summary goals for the Tenant Scale group include:
+The executive summary goals for the Organizations group include:
 
 - Support GitLab.com's daily-active user growth
 - Do not allow a problem with any given data store to affect all users
-- Minimize or eliminate complexity for our self-managed use-case
+- Minimize or eliminate complexity for our self-managed use case
 
 ### Team Members
 
@@ -60,8 +60,7 @@ limited to that area and they also work in other areas as needed.
 
 | Project | DRI | Team |
 | ------ | ------ | ------ |
-| Application Readiness questions | Manoj | |
-| [Organization for Cells 1.0](https://gitlab.com/groups/gitlab-org/-/epics/10018) | Alex | Abdul, Rutger, Peter, Zack Cuddy |
+| [Organization for Cells 1.0](https://gitlab.com/groups/gitlab-org/-/epics/10018) | Alex | Abdul, Rutger, Peter |
 | [Organization isolation](https://gitlab.com/groups/gitlab-org/-/epics/11670) | Shubham | Leonardo da Rosa, Krasimir Angelov |
 
 ## Meetings
@@ -79,7 +78,7 @@ Currently we have the following recurring meetings scheduled:
 The Product Manager (PM) compiles the list of issues following
 the [product prioritization process](/handbook/product/product-processes/#prioritization),
 with input from the team, Engineering Manager (EM), and other stakeholders.
-The iteration cycle lasts from the 18th of one month until the 17th of the next month,
+The iteration cycle starts on the 2nd Monday of one month, and lasts until the 2nd Friday of the following month,
 and is identified by the GitLab version set to be released.
 
 Engineers are encouraged to work as closely as needed with their stable
@@ -98,12 +97,11 @@ We follow this process:
 
 ### What To Work On
 
-The primary source for things to work on is the [milestone prioritization board](https://gitlab.com/groups/gitlab-org/-/boards/5548886),
-which lists all issues scheduled for the current cycle in priority order (from most to least important): p1,
-p2, and p3. You should first pick up issues that have the highest priority, which are listed at the top of the first board column.
+The primary source for things to work on is the [planning board](https://gitlab.com/groups/gitlab-org/-/boards/7487616?label_name[]=group%3A%3Aorganizations&milestone_title=Started),
+which lists all issues scheduled for the current cycle.
 When you assign yourself to an issue, you indicate that you are working on it.
 
-If anything is blocking you from getting started with the top issue immediately,
+If anything is blocking you from getting started with an issue immediately,
 like unanswered questions or unclear requirements, you can skip it, as long as
 you put your findings and questions in the issue.
 This helps the next engineer who picks up the issue.
