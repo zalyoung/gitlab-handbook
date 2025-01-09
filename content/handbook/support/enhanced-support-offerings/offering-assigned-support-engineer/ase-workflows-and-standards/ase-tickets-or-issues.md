@@ -23,7 +23,7 @@ to help ASEs to:
 - support Sales in demonstrating the value of the ASE service to prospective
   and existing accounts
 - collaborate with others
-- make it easier for others to serve as backup for an ASE
+- make it easier for others to serve as their backup
 
 ## Tickets vs. issues
 
@@ -69,7 +69,7 @@ support ticket.
 How should you use your account's external Slack channel?
 
 - **Interactive Work**:
-  - Simple questions that can be answered quickly
+  - Questions about creating tickets or issues
   - Adjusting the prioritization of ASE work items
   - Notifications to or from customers that something is urgent and important
   - Sending a Zoom link for an unplanned meeting
