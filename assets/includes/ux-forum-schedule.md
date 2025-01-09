@@ -7,11 +7,11 @@
 | 2025-02-05 | Chris Micek          | Taylor Vanderhelm      | Sunjung Park           | Libor Vanc             |
 | 2025-02-19 | Justin Mandell       | Katie Macoy            | Ilonah Pelaez          |                        |
 | 2025-03-05 | Marcel van Remmerden | Jeremy Elder           | Pedro Moreira da Silva | Becka Lippert          |
-| 2025-03-19 | Jacki Bauer          | Austin Regnery         | Julia Miocene          |                        |
+| 2025-03-19 | Rayana Verissimo          | Austin Regnery         | Julia Miocene          |                        |
 | 2025-04-02 | Taurie Davis         | Gina Doyle             | Nick Leonard           |                        |
 | 2025-04-16 | Paul Wright          | Camellia Yang          | Libor Vanc             |                        |
 | 2025-04-30 | Emily Sybrant        | Alyssa Trinh           | Sascha Eggenberger     |                        |
-| 2025-05-14 | Rayana Verissimo     | Michael Fangman        | Tina Lise Ng           |                        |
+| 2025-05-14 | Jacki Bouer     | Michael Fangman        | Tina Lise Ng           |                        |
 | 2025-05-28 | APAC                 | Michael Le             | Alex Fracazo           | Bonnie Tsang           |
 | 2025-06-11 | Andy Volpe           | Dan Mizzi-Harris       | Tim Noah               |                        |
 | 2025-06-25 | Chris Micek          | Ilonah Pelaez          | Lina Fowler            |                        |
