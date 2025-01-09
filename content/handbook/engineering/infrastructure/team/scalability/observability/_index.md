@@ -52,7 +52,7 @@ The following gives an overview of our scope and ownership.
 
 We recognize the need to provide technical documentation for teams using our observability services and platforms, as well as for our team's internal use.
 
-Historically, we've provided reference documentation within the projects we own or contribute to.
+Historically, we've provided reference documentation within the projects we own or contribute to, or in the [runbooks project](https://gitlab.com/gitlab-com/runbooks/-/tree/master/docs).
 As these projects are scattered around, it is rather difficult to discover the various pieces of relevant documentation for our users.
 
 As we reshape our documentation, we follow along with the following idea and principles:
