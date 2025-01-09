@@ -390,4 +390,4 @@ Team members, referred to as [MR Buddies](/handbook/people-group/general-onboard
 
 For general questions about the handbook, post in the [handbook Slack channel](https://gitlab.enterprise.slack.com/archives/C81PT2ALD).
 
-For [more serious problems](/handbook/about/on-call/#when-to-escalate-an-issue), especially ones that are time sensitive or prohibiting access to important information, there is an [escalation process](/handbook/about/on-call/) to reach out to team members who are on-call to help resolve the problem.
+For more serious problems, especially ones that are time sensitive or prohibiting access to important information, there is an [escalation process](/handbook/about/escalation/#when-to-escalate-an-issue) to reach out to team members who are able to help resolve the problem.
