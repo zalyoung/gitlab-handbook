@@ -45,6 +45,60 @@ Examples:
 
 > <i class="fab fa-gitlab fa-fw" style="color:rgb(252,109,38); font-size:1.25em" aria-hidden="true"></i> We use workflow labels to efficiently communicate an issue's state. Using these labels enables collaboration across teams and communicates an issue's current state.
 
+The workflow labels are prefixed with `workflow::`, such as `workflow::ready for development`. The following diagram shows how a new issue moves to each workflow label. The rest of this document describes each workflow step in detail.
+
+```mermaid
+stateDiagram-v2
+    [*] --> ValidationBacklog: New issue created
+    
+    ValidationBacklog: validation backlog
+    ProblemValidation: problem validation
+    ReadyForDesign: ready for design
+    Design: design
+    SolutionValidation: solution validation
+    
+    ValidationBacklog --> ProblemValidation: Problem needs validation
+    ProblemValidation --> ReadyForDesign: Optional design backlog
+    ReadyForDesign --> Design: Design starts
+    ProblemValidation --> Design: Problem validated
+    Design --> SolutionValidation: Design completed
+
+    PlanningBreakdown: planning breakdown
+    Scheduling: scheduling
+    Refinement: refinement
+    ReadyForDev: ready for development
+    InDev: in dev
+    InReview: in review
+    Verification: verification
+    Complete: complete
+    BlockedStatus: blocked
+    SecurityStatus: awaiting security release
+    
+    PlanningBreakdown --> Scheduling: Issue broken down but not scheduled
+    PlanningBreakdown --> Refinement: Optional refinement step
+    PlanningBreakdown --> ReadyForDev: PM adds type label & milestone
+    Scheduling --> ReadyForDev: Milestone assigned
+    Refinement --> ReadyForDev: Refinement complete
+    ReadyForDev --> InDev: Development starts
+    InDev --> InReview: MRs ready for review
+    InReview --> Verification: MRs merged
+    Verification --> Complete: Verified in staging/prod
+    
+    InDev --> BlockedStatus: Blocked by dependency/question
+    BlockedStatus --> InDev: Block resolved
+    
+    Verification --> SecurityStatus: Waiting for monthly security release
+    SecurityStatus --> Complete: Released in security update
+    
+    SolutionValidation --> PlanningBreakdown: Solution validated
+    Complete --> [*]
+
+    note right of ValidationBacklog: Initial state for new issues requiring validation
+    note right of PlanningBreakdown: PM signals intent to prioritize for next milestone
+    note right of ReadyForDev: Requires type label, milestone, and Deliverable label
+    note right of BlockedStatus: Can be applied at any point during development
+```
+
 ### Issue descriptions as the Single Source of Truth (SSOT)
 
 > <i class="fab fa-gitlab fa-fw" style="color:rgb(252,109,38); font-size:1.25em" aria-hidden="true"></i> Issue descriptions shall always be maintained as the single source of truth.
