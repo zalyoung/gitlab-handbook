@@ -12,7 +12,6 @@ description: "The Customer Success Engineering (CSE) team focuses on the themes 
 | [Manager, Customer Success Engineers](#manager-customer-success-engineers) | [Grade 9](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades) |
 | [Senior Manager, Customer Success Engineers](#senior-manager-customer-success-engineers) | [Grade 9](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades) |
 
-
 ## Job Levels
 
 ### Customer Success Engineer (Associate)
