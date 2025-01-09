@@ -183,7 +183,7 @@ The below image shows the current report structure in Adaptive Insights. There a
 1. Sandbox Reports - folder that houses work in progress reports and where reports are created before moving to production
 1. YTD Reports - folder that houses year to date reports
 
-![alt text](/images/finance/adaptive-report.png "Report Structure")
+![alt text](/images/finance/financial-planning-and-analysis/adaptive-report.png "Report Structure")
 
 ### Reports
 

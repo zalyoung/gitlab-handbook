@@ -48,7 +48,7 @@ The instructions are specific to DDWRT, which is a popular custom router firmwar
 1. **Setup Security**. Next, we will set up encryption. Go to tab **Wireless Security** and go to the section that shows the name (SSID) of our newly created WiFi. Tick *WPA2 Personal*, *CCMP-128 (AES)* and enter the WiFi password into *WPA Shared Key*. Hit *Save*. ![WiFi security](/images/security/wifi_security.png)
 1. **Set up DHCP**. To automatically assign an IP address to devices on our new WiFi, we have to enable DHCP. Go to tab *Setup* -> *Networking*, scroll to section *DHCPD* at the bottom. Click *Add* and select the interface belonging to our new WiFi (most likely `ath0.1`) and hit *Save*.
 
-![dhcp_config.png](/images/dhcp_config.png)
+![dhcp_config.png](/images/security/dhcp_config.png)
 
 That's it. If you search for nearby WiFi on your work notebook, our new WiFi should show up with the name you assigned.
 

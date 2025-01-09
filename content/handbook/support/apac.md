@@ -350,4 +350,4 @@ relation to SLA timers and [APAC regional business hours](https://about.gitlab.c
 in Zendesk. Pay attention to the months shown in each section - the difference is due to some
 countries observing daylight savings time.
 
-![APAC Working hours](/images/assets/APACWorkingHours.png)
+![APAC Working hours](/images/support/assets/APACWorkingHours.png)
