@@ -3,7 +3,7 @@ title: Adopt Flux as GitOps Solution for Infrastructure Workloads
 status: ongoing
 creation-date: "2025-01-09"
 authors: ["@mchacon3"]
-coaches: ["@username"]
+coaches: ["@sabrams"]
 dris: ["@mchacon3", "@pguinoiseau"]
 owning-stage: "@gitlab-org/production-engineering/foundations"
 participating-stages: []
@@ -195,7 +195,7 @@ G --> J[Production-C]
 
 ### GitOps Repository Structure
 
-```
+```sh
 k8s-mgmt/
 ├── fleet/  # Cluster bootstrap and tenant configuration
 │   ├── clusters/
@@ -329,7 +329,7 @@ Cons:
 - Less integrated with GitLab's existing tooling
 - Steeper learning curve for advanced features
 
-## Considerations
+## Production Readiness Considerations
 
 ### Risk Assessment
 
@@ -357,13 +357,13 @@ Cons:
    - Security policies
 
 2. Training Needs
-   - Foundation team Flux training
-   - Stage team onboarding documentation
-   - GitOps best practices guidance
+   - Flux training for Production Engineering and Stage Teams.
+   - Stage team onboarding documentation.
+   - GitOps best practices guidance and documentation.
 
 3. Support Model
-   - First responder procedures
-   - Escalation paths
+   - Day 2 Operation runbooks.
+   - Document Escalation paths.
    - Incident response playbooks
 
 ### Migration Strategy
