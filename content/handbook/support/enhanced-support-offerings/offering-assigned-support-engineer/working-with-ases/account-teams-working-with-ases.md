@@ -42,7 +42,7 @@ long-term success, the ASEs need the Account Team's help:
 ### New ASE introductory meeting
 
 When it becomes necessary to introduce a new ASE to an established ASE account,
-such as when the existing ASE moves into a new role, we will want to host anabbreviated kickoff-style meeting. In this meeting:
+such as when the existing ASE moves into a new role, we will want to host an abbreviated kickoff-style meeting. In this meeting:
 
 1. The new ASE will build the agenda with a focus on the first two main items
    in the [Introductory Meeting template](../ase-workflows-and-standards/introductory-meeting.html/#structure)
