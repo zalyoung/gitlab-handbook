@@ -47,7 +47,9 @@ such as when the existing ASE moves into a new role, we will want to host an abb
 1. The new ASE will build the agenda with a focus on the first two main items
    in the [Introductory Meeting template](../ase-workflows-and-standards/introductory-meeting.html/#structure)
 1. We will ask that the CSA participate in the meeting in order to help the
-   transition to be as smooth as possible. Other Account Team members are welcome
+   transition to be as smooth as possible. This also provides an opportunity
+   for the CSA and ASE to ensure that they know the customer's GitLab plans and
+   internal stakeholders. Other Account Team members are welcome
    to attend as well.
 1. The new ASE's manager will participate in order to address any concerns the
    customers may have.
