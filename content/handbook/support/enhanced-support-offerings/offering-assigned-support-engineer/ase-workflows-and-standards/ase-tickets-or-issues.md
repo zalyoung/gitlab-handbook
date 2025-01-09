@@ -43,14 +43,15 @@ done in the collaboration project, and which should be done in support tickets?
 
 If one of your accounts wants to work with you through their collaboration project:
 
-1. In the [Customer Collaboration Project](/handbook/customer-success/csm/customer-collaboration-project/)
-   create a label for that account named `ASE Work:ACCOUNT`. Note that is
-   **NOT** a scoped label.
+1. In the [Customer Collaboration Project](/handbook/customer-success/csm/customer-collaboration-project/),
+   which you will find under the
+   `https://gitlab.com/gitlab-com/account-management` group,
+   create a label for that account named `ASE Work - ACCOUNT`.
 1. Subscribe to the label.
 1. Notify your customer contacts and your account team to apply that label to
    any issue or epic in which they want you to contribute.
 1. Consider creating an issue board in the project that will show only items
-   with the `ASE Work:ACCOUNT` label. You could use the board to sort items
+   with the `ASE Work - ACCOUNT` label. You could use the board to sort items
    by priority, stage, or whatever other category makes sense for your work
    with that account.
 
@@ -65,6 +66,12 @@ work with you almost exclusively there. But Slack does not provide the
 structure, retention, organization, data, or reporting that we need.
 Conversations in Slack can be hard to find, and often lack the focus of a
 support ticket.
+
+Your customers might find it especially attractive to work with you in their
+Slack channel when they are experiencing an emergency. That's understandable,
+and could easily be seen as a big part of the value of the ASE service. Just
+be very diligent in such a situation about capturing quickly in the emergency
+ticket all of the important information from the conversation.
 
 How should you use your account's external Slack channel?
 
