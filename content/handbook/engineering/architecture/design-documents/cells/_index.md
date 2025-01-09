@@ -5,7 +5,7 @@ creation-date: "2022-09-07"
 authors: ["@ayufan", "@fzimmer", "@DylanGriffith", "@lohrc", "@tkuah"]
 coach: "@ayufan"
 approvers: ["@lohrc"]
-owning-stage: "~devops::data stores"
+owning-stage: "~devops::tenant scale"
 participating-stages: []
 toc_hide: true
 no_list: true
@@ -42,6 +42,7 @@ This section links all different technical proposals that are being evaluated.
   - [SSH Routing Service](ssh_routing_service.md)
   - [Topology Service](topology_service.md)
   - Planned: Indexing Service
+- [Mutual authentication between Cell services](mutual_authentication_between_cell_services.md)
 - [Feature Flags](./infrastructure/feature_flags.md) - ([Previous iteration](feature_flags.md))
 - [Cluster wide unique sequences](unique_sequences.md)
 - [Cells: Infrastructure](./infrastructure/_index.md)
