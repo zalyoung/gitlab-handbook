@@ -17,7 +17,7 @@ used for reporting.
 | Dashboard Name | Description | Date | Location | SAFE Access Required? |
 | --- | --- | --- | --- | --- |
 | [Product Data Insights Collection](https://10az.online.tableau.com/#/site/gitlab/collections/2b35eb4c-1d4f-4339-b53e-5e3f58147e92?:origin=card_share_link) | This is a Tableau Collection containing analytics resources that are broadly useful to the Product Org. | Ongoing | Product/General & Product/SAFE  | Y & N |
-| [PDI: AI Collection](https://10az.online.tableau.com/#/site/gitlab/collections/16d7490e-931b-4aa7-b4de-afb4916bb518) | This is a Tableau Collection containing PDI-owned resources related to Duo Pro adoption and usage. It contains both general and SAFE workbooks. | Ongoing | Product/General & Product/SAFE | Y & N |
+| [PDI: AI Collection](https://10az.online.tableau.com/#/site/gitlab/collections/16d7490e-931b-4aa7-b4de-afb4916bb518) | This is a Tableau Collection containing PDI-owned resources related to AI feature adoption and usage. It contains both general and SAFE workbooks. | Ongoing | Product/General & Product/SAFE | Y & N |
 | [PD: Cloud Licensing Adoption Dashboard](https://10az.online.tableau.com/#/site/gitlab/workbooks/1891137/views) | This dashboard provides insights on adoption of Cloud Licensing | FY24 Q1 | Ad-hoc/Product/SAFE | Y |
 | [PD: Centralized Product Usage Metrics](https://10az.online.tableau.com/#/site/gitlab/workbooks/2069845/views) | Monthly reporting metrics and trends for product performance indicators | FY24 Q4 | Ad-hoc/Product/General | N |
 | [PD: Firmographic Product Metric Usage](https://10az.online.tableau.com/#/site/gitlab/workbooks/2137023/views) | Segment metric usage by company size, industry, and seat count. | FY24 Q4 | Development/Product/SAFE | Y |
