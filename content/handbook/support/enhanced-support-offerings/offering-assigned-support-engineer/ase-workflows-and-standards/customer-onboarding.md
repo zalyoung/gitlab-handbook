@@ -34,7 +34,7 @@ select the following options:
   `What kind of modification are you looking to make?` should be
   `Set an Assigned Support Engineer for an organization`
 
-The request will automatically create a tracking issue. 
+The request is automated and will create a tracking issue reflecting its status. 
 
 ### Org Note mentioning the ASE and how to treat the ticket
 
