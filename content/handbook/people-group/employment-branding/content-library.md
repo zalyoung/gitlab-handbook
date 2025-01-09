@@ -116,6 +116,7 @@ These awards and lists recognize GitLab's unique culture and help us spread the 
 
 | Articles/Blogs/Features | Category |
 | ------ | ------ |
+| [Why This Leader Believes ‘GitLab is Unlike Anywhere Else You’ll Ever Work’](https://builtin.com/articles/why-leader-believes-gitlab-unlike-anywhere-else-youll-ever-work?utm_source=bambu&utm_medium=social&utm_campaign=advocacy) | Culture / Product Management |
 | [17 Companies with a Growth-Focused Culture](https://builtin.com/articles/17-companies-growth-focused-culture#GitLab) | Culture / Support |
 | [GitLab TMRGs: Global Resource Groups Supporting Team Members Both in the Workplace and Beyond](https://builtin.com/articles/gitlab-tmrgs-global-resource-groups-supporting-team-members-both-workplace-and-beyond) | DIB / Culture |
 | [Inside 13 Customer Success Teams Data-Driven Approach To Empowering Clients](https://builtin.com/articles/inside-13-customer-success-teams-data-driven-approach-empowering-clients) | Sales / Customer Success |
@@ -147,19 +148,19 @@ These awards and lists recognize GitLab's unique culture and help us spread the 
 
 | Videos | Category |
 | ------ | ------ |
+| [Life at GitLab YouTube Channel on GitLab Unfiltered](https://www.youtube.com/playlist?list=PL05JrBw4t0KpZ7TlkcjRZdn7dAAjpi97L) |
+| [Get to Know GitLab](https://vimeo.com/gitlab/gettoknowgitlab) | Culture |
 | [GitLab's Values](https://vimeo.com/956663126) | Culture |
+| [Building the Future of GitLab](hhttps://youtu.be/TBMVj8Oc_9U?si=QJD1sMNCdsrraStf) | Our Technology |
 | [TMRGs at GitLab](https://vimeo.com/gitlab/tmrgsatgitlab) | DIB / Culture |
 | [Harnessing AI in DevSecOps: Streamlining Efficiency](https://vimeo.com/gitlab/harnessingai) | AI / Product |
-| [Get to Know GitLab](https://vimeo.com/gitlab/gettoknowgitlab) | Culture |
 | [Sales at GitLab](https://vimeo.com/675024697) | Sales |
 | [Diverse Minds, Unified AI Solutions](https://vimeo.com/gitlab/diversemindsunifiedaisolutions?share=copy) | AI / Product |
 | [GitLab at European Women in Tech](https://vimeo.com/852369659?share=copy) | DIB |
 | [A Conversation with Ragnar Hardarson, Engineering Manager at GitLab](https://vimeo.com/716075220) | Engineering |
-| [A Conversation with Monmayuri Ray, Engineering Manager, ModelOps at GitLab](https://vimeo.com/745189253) | Engineering |
 | [A Conversation with Nick Nguyen, Sr. Engineering Mgr., Enablement at GitLab](https://vimeo.com/745463953) | Engineering |
 | [GitLab's Engineering Team: An Inside Look](https://www.youtube.com/watch?v=bnq8-iJeUMI) | Engineering |
 | [Ishita's Life at GitLab](https://vimeo.com/677814891) | Team Member Spotlight |
-| [Kyla's Life at GitLab](https://vimeo.com/677779723) | Team Member Spotlight |
 | [Bruno's Life at GitLab](https://vimeo.com/677785451) | Team Member Spotlight |
 | [Michael's Life at GitLab](https://vimeo.com/677818344) | Team Member Spotlight |
 | [Liam's Life at GitLab](https://vimeo.com/677812885) | Team Member Spotlight |
