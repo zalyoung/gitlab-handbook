@@ -19,17 +19,23 @@ branch, to deploying that change to GitLab.com.
 
 ## MTTP breakdown
 
+The Delivery team is maintaining a [dashboard](https://gitlab-com.gitlab.io/gl-infra/software-delivery/delivery_dashboard/) breaking down MTTP into individual stages of an MR's path from merge to production (see the chart below. If it doesn't load, please log in to the [internal pages site](https://gitlab-com.gitlab.io/gl-infra/software-delivery/delivery_dashboard/))
+
 <figure class="video_container">
-<iframe src="https://gitlab-com.gitlab.io/gl-infra/software-delivery/delivery_dashboard/mttp.html" style="height:500px;width:100%;"></iframe>
+<iframe src="https://gitlab-com.gitlab.io/gl-infra/software-delivery/delivery_dashboard/mttp.html" style="height:520px;width:100%;"></iframe>
 </figure>
 
-MTTP is conformed by:
+MTTP breaks down to:
 
-- Time to inclusion: The merge request is merged and waiting to be included in an auto-deploy branch.
-- Time to package: The package to be deployed is being built.
-- Time to staging: Time it takes for the package to be deployed to staging and tested.
-- Time to canary: Time it takes for the package to be deployed to canary and tested.
-- Time to production: Time it takes for the package to be deployed to production.
+* `time_to_merge`: The MR has been reviewed and is added to the merge train. A pipeline for merged results is running. At the end of this stage, the MR is merged.
+* `master_pipeline_time`: The MR has been merged, the `master` branch pipeline is running. Afterwards the MR is valid to be picked up by the deployment pipeline.
+* `time_to_auto_deploy_pick`: The MR is waiting to be included in an auto-deploy branch. This stage also contains delays due to production change locks, because we are not deploying and thus MRs wait longer until deployment.
+* `time_to_build_finished`: A package is being built which includes the MR.
+* `time_to_staging-canary`: The package containing the MR is being deployed to [staging canary](https://handbook.gitlab.com/handbook/engineering/infrastructure/environments/#staging-canary) and [staging ref](https://handbook.gitlab.com/handbook/engineering/infrastructure/environments/#staging-ref). QA smoke tests have run successfully.
+* `time_to_canary`: The package containing the MR is being deployed to [canary](https://handbook.gitlab.com/handbook/engineering/infrastructure/environments/#production-canary).
+* `promotion_delay`: As we are doing continuous delivery, deployments have to be manually promoted for production deployment. This stage measures the delay introduced by this manual promotion. The package containing the MR is now going to be deployed into production.
+* `time_to_staging`: The package containing the MR is being deployed to the [staging environment](https://handbook.gitlab.com/handbook/engineering/infrastructure/environments/#staging)
+* `time_to_prod`: At the end of this stage, the package containing the MR has been successfully deployed to the [production environment](https://handbook.gitlab.com/handbook/engineering/infrastructure/environments/#production)
 
 To measure the MTTP subcomponents, the following metrics are used:
 
