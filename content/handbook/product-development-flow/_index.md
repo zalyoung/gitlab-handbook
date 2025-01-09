@@ -74,7 +74,7 @@ stateDiagram-v2
     Blocked: blocked
     Security: awaiting security release
     
-    SolutionValidation --> PlanningBreakdown: PM signals intent for next milestone
+    SolutionValidation --> PlanningBreakdown: PM signals intent to prioritize
     PlanningBreakdown --> Scheduling: (Optional) Awaiting scheduling
     PlanningBreakdown --> Refinement: (Optional) Needs refinement
     PlanningBreakdown --> ReadyForDev: Has type label & weight. Prioritization requires milestone, and Deliverable label.
