@@ -76,14 +76,12 @@ There are templates for both [Figma](https://www.figma.com/design/B9mNC34Kh8PavW
 **Outcome:** Identify parts of the UI that visibly aren't using design tokens for color and when applicable, suggest remedies.
 
 1. With the [hot pink bookmarklet](https://gitlab.com/-/snippets/3756317#note_2240454256) enabled in your browser, view a page from your list. You'll need to refresh any open pages for the bookmarklet to take effect, but you won't have to for future page loads.  
-2. Take screenshots of the page. Be sure to expose hidden elements like dropdowns, tooltips, collapsed containers, and error states. Depending on the page, you may also need to test a variety of conditions, like empty vs. populated regions and responsive layout changes. It can be helpful to capture a screenshot both with and without the hot pink highlights to compare the actual appearance with the findings.<br>![UI without and with hot pink highlights](/images/product/ux/ux-resources/dark-mode-rollout-playbook/hot-pink.png)  
+2. Take screenshots of the page. Be sure to expose hidden elements like dropdowns, tooltips, collapsed containers, and error states. Depending on the page, you may also need to test a variety of conditions, like empty vs. populated regions and responsive layout changes. It can be helpful to capture a screenshot both with and without the hot pink highlights to compare the actual appearance with the findings.<br><br>![UI without and with hot pink highlights](/images/product/ux/ux-resources/dark-mode-rollout-playbook/hot-pink.png)*UI without and with hot pink highlights*<br><br>
 3. Annotate your screenshots in Figma, FigJam, or a GitLab issue by marking elements as related to one of the following categories (examples can be seen in the Figma and FigJam files):  
    1. **Ideas for existing Pajamas solutions that specifically relate to dark mode.** These annotations should suggest using a semantic color design token instead of hard-coded colors or constants, or they can suggest using a different design token than the one currently applied to better align semantics and intent.  
    2. **Discussions to have about bespoke dark mode or design system solutions.** This includes parts of the UI where none of the existing design tokens are a good fit and something new may be needed. It could also include discussions about replacing a custom solution with an existing Pajamas component.  
-   3. **Notes for others, for example, candidate for design system team solution or a paper cut to fix.** Make a note of items you encounter that can be fixed upstream in the design system or where minor refactoring could make the dark mode implementation more seamless.  
+   3. **Notes for others, for example, candidate for design system team solution or a paper cut to fix.** Make a note of items you encounter that can be fixed upstream in the design system or where minor refactoring could make the dark mode implementation more seamless.<br><br>![Annotated screenshot in Figma](/images/product/ux/ux-resources/dark-mode-rollout-playbook/annotations.png)*Annotated screenshot in Figma*<br><br>
 4. Under the epic, create an issue for each finding.
-
-![Annotated screenshot in Figma](/images/product/ux/ux-resources/dark-mode-rollout-playbook/annotations.png) 
 
 Common findings:
 
@@ -102,7 +100,7 @@ Common findings:
    1. If an icon is present, is it being used for status, help, feedback, a static visual element, or something else? The design token used should match the [design intent](https://design.gitlab.com/product-foundations/design-tokens#semantic-design-tokens).  
    2. Is a border being used as a divider or to surround a container? Does it match [expected combinations](https://gitlab-org.gitlab.io/gitlab-ui/?path=/story/tokens-examples--borders)? (See this [merge request](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/-/merge_requests/4232) that adds more clarity for border and background use.)  
    3. Something looks like a component, but is it? If so, is it being used correctly? If not, could it be migrated to one?  
-2. With the Highlighter extension enabled, enter a class name, prefix, or suffix to highlight matching elements.<br>![Highlighter extension and highlighted element](/images/product/ux/ux-resources/dark-mode-rollout-playbook/highlighted.png)<br> Keep in mind that what *isn't* highlighted can be just as important as what is and can indicate things that appear as one thing, but are really something else. It's likely that elements like this won't respond as expected to mode changes or adhere to future design changes. Because of the *cascading* part of CSS, not everything will be highlighted as expected and developer tools will still be helpful to determine computed styles. Example queries:  
+2. With the Highlighter extension enabled, enter a class name, prefix, or suffix to highlight matching elements.<br><br>![Highlighter extension and highlighted element](/images/product/ux/ux-resources/dark-mode-rollout-playbook/highlighted.png)*Highlighter extension and highlighted element*<br><br> Keep in mind that what *isn't* highlighted can be just as important as what is and can indicate things that appear as one thing, but are really something else. It's likely that elements like this won't respond as expected to mode changes or adhere to future design changes. Because of the *cascading* part of CSS, not everything will be highlighted as expected and developer tools will still be helpful to determine computed styles. Example queries:  
    1. Enter "gl-link" to highlight all links.  
    2. Enter "gl-form-*" to ensure that all elements that appear to be a form element really are.  
    3. Enter "gl-text-*" to see if any icons happen to be using text styles.  
@@ -157,7 +155,13 @@ As mentioned before, while going through this process, you're likely to uncover 
 
 ## Addressing findings
 
-TBD…
+If you've familiarized yourself with the the [getting started](#getting-started) content and references, prioritized your pages, and have completed creating issues for each finding, you're well on your way to addressing those findings.
+
+- Use existing Pajamas solutions when they're available.
+- Engage in discussions when you have custom parts of the UI that existing solutions don't apply to or when you're not sure how or if you can migrate to an existing design system solution.
+- Help with upstream fixes in the design system or simple paper cut fixes that unblock dark mode from taking effect in your product area.
+
+If at any point you get stuck or need a second opinion or review, reach out to the Design System or UX Paper Cuts groups.
 
 ## Reference
 
