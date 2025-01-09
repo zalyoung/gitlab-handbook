@@ -415,7 +415,7 @@ and poor user experience.
 
 #### Compliance framework definition
 
-This workflow diagram shows the creation of Compliance Frameworks, Requirements and Controls, and how security policies are associated with Requirments.
+This workflow diagram shows the creation of Compliance Frameworks, Requirements and Controls, and how security policies are associated with Requirements.
 
 ```mermaid
 flowchart TD
