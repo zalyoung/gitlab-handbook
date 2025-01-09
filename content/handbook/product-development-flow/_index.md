@@ -58,9 +58,9 @@ stateDiagram-v2
     SolutionValidation: solution validation
     
     ValidationBacklog --> ProblemValidation: Problem needs validation
-    ProblemValidation --> ReadyForDesign: Optional design backlog
+    ProblemValidation --> ReadyForDesign: (Optional) Design needed
     ReadyForDesign --> Design: Design starts
-    ProblemValidation --> Design: Problem validated
+    ProblemValidation --> SolutionValidation: Problem validated
     Design --> SolutionValidation: Design completed
 
     PlanningBreakdown: planning breakdown
@@ -74,9 +74,10 @@ stateDiagram-v2
     BlockedStatus: blocked
     SecurityStatus: awaiting security release
     
-    PlanningBreakdown --> Scheduling: Issue broken down but not scheduled
-    PlanningBreakdown --> Refinement: Optional refinement step
-    PlanningBreakdown --> ReadyForDev: PM adds type label & milestone
+    SolutionValidation --> PlanningBreakdown: PM signals intent for next milestone
+    PlanningBreakdown --> Scheduling: (Optional) Awaiting scheduling
+    PlanningBreakdown --> Refinement: (Optional) Refinement needed
+    PlanningBreakdown --> ReadyForDev: Has type label & weight
     Scheduling --> ReadyForDev: Milestone assigned
     Refinement --> ReadyForDev: Refinement complete
     ReadyForDev --> InDev: Development starts
@@ -90,12 +91,10 @@ stateDiagram-v2
     Verification --> SecurityStatus: Waiting for monthly security release
     SecurityStatus --> Complete: Released in security update
     
-    SolutionValidation --> PlanningBreakdown: Solution validated
     Complete --> [*]
 
     note right of ValidationBacklog: Initial state for new issues requiring validation
-    note right of PlanningBreakdown: PM signals intent to prioritize for next milestone
-    note right of ReadyForDev: Requires type label, milestone, and Deliverable label
+    note right of ReadyForDev: Requires type label & weight. Prioritization requires milestone, and Deliverable label.
     note right of BlockedStatus: Can be applied at any point during development
 ```
 
