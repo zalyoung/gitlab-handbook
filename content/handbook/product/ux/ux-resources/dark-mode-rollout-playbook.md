@@ -37,7 +37,7 @@ After authenticating, turn on the dark mode experience by navigating to https://
 
 ## Getting help
 
-The [Design System Group](https://handbook.gitlab.com/handbook/product/categories/features/#design-system) is available to help and can be reached by mention in the product, or in the [#g_pajamas-design-system](https://gitlab.slack.com/channels/g_pajamas-design-system) Slack channel.
+The [Design System Group](/handbook/product/categories/features/#design-system) is available to help and can be reached by mention in the product, or in the [#g_pajamas-design-system](https://gitlab.slack.com/channels/g_pajamas-design-system) Slack channel.
 
 ## Evaluation
 
@@ -49,9 +49,9 @@ The core objective of evaluating product pages is twofold:
 
 When we achieve these goals, we'll see several benefits:
 
-* A more cohesive, consistent product experience.  
-* Seamless propagation of design system updates.  
-* Confidence to move dark mode beyond beta to general availability.
+- A more cohesive, consistent product experience.  
+- Seamless propagation of design system updates.  
+- Confidence to move dark mode beyond beta to general availability.
 
 During your evaluation, you'll likely discover additional opportunities for improvement beyond what impacts dark mode. While some changes may not be immediately visible to users, they can enhance accessibility, improve component and design system compliance, and help us identify areas where the design system needs expansion or where guidance is needed for custom solutions.
 
@@ -59,10 +59,10 @@ During your evaluation, you'll likely discover additional opportunities for impr
 
 In addition to your day-to-day tools like Chrome, Figma, GDK, GitLab Duo, and others, the following will be especially helpful and are featured predominantly in the steps below. Note that at any point you can use tools or methods that you or your team are more familiar with, however the outcome should be the same.
 
-* [Hot pink bookmarklet](https://gitlab.com/-/snippets/3756317#note_2240454256): A browser bookmarklet that finds all color-related CSS variables defined at the root level (except those starting with "`--gl`") and changes them to hotpink to easily visualize elements that aren't using design tokens.  
-* [Highlighter Chrome extension](https://gitlab.com/gitlab-org/foundations/design-system/highlighter): A Chrome extension that highlights UI elements matching a specified CSS class, class prefix, or class suffix. When activated, it outlines matching elements in red (color can be customized) to make them easily visible on the page.  
-* [Claude AI](https://claude.ai): An AI assistant that is used to help inspect code by using different prompts.  
-* [Vue.js devtools browser extension](https://chromewebstore.google.com/detail/vuejs-devtools/iaajmlceplecbljialhhkmedjlpdblhp): Easily inspect Vue components and open them directly in your favorite IDE (e.g. VSCode) with a single click on a button to speed up finding the corresponding files.
+- [Hot pink bookmarklet](https://gitlab.com/-/snippets/3756317#note_2240454256): A browser bookmarklet that finds all color-related CSS variables defined at the root level (except those starting with "`--gl`") and changes them to hotpink to easily visualize elements that aren't using design tokens.  
+- [Highlighter Chrome extension](https://gitlab.com/gitlab-org/foundations/design-system/highlighter): A Chrome extension that highlights UI elements matching a specified CSS class, class prefix, or class suffix. When activated, it outlines matching elements in red (color can be customized) to make them easily visible on the page.  
+- [Claude AI](https://claude.ai): An AI assistant that is used to help inspect code by using different prompts.  
+- [Vue.js devtools browser extension](https://chromewebstore.google.com/detail/vuejs-devtools/iaajmlceplecbljialhhkmedjlpdblhp): Easily inspect Vue components and open them directly in your favorite IDE (e.g. VSCode) with a single click on a button to speed up finding the corresponding files.
 
 ### Steps
 
@@ -87,11 +87,11 @@ There are templates for both [Figma](https://www.figma.com/design/B9mNC34Kh8PavW
 
 Common findings:
 
-* Icons that are using text design tokens instead of ones specifically for icons.  
-* Elements that are using hard-coded or color constants instead of a semantic design token.  
-* Custom elements that don't fit into any of the current semantic design token categories like status, feedback, or action.  
-* Elements with style overrides that impact the visual presentation.  
-* Color contrast issues where the contrast is lower than 4.5:1 for text or 3:1 for graphic elements.
+- Icons that are using text design tokens instead of ones specifically for icons.  
+- Elements that are using hard-coded or color constants instead of a semantic design token.  
+- Custom elements that don't fit into any of the current semantic design token categories like status, feedback, or action.  
+- Elements with style overrides that impact the visual presentation.  
+- Color contrast issues where the contrast is lower than 4.5:1 for text or 3:1 for graphic elements.
 
 #### 2. Element inspection
 
@@ -114,11 +114,11 @@ Common findings:
 
 Common findings:
 
-* Icons that are using text design tokens instead of ones specifically for icons.  
-* Background and border design token pairing that doesn't match expected combinations.  
-* Headings that aren't using a heading design token or non-heading text that does.  
-* Elements that appear to be a component, but aren't.  
-* Elements that are a component, but have overrides that cause them to not appear as expected.
+- Icons that are using text design tokens instead of ones specifically for icons.  
+- Background and border design token pairing that doesn't match expected combinations.  
+- Headings that aren't using a heading design token or non-heading text that does.  
+- Elements that appear to be a component, but aren't.  
+- Elements that are a component, but have overrides that cause them to not appear as expected.
 
 #### 3. Code review
 
@@ -141,19 +141,19 @@ Common findings:
 
 Common findings:
 
-* Legacy components with direct Pajamas equivalents that haven't been migrated.  
-* Components with extensive overrides that should be reconsidered.  
-* Nested components causing unexpected theme inheritance.  
-* Components using hard-coded color values instead of design tokens.
+- Legacy components with direct Pajamas equivalents that haven't been migrated.  
+- Components with extensive overrides that should be reconsidered.  
+- Nested components causing unexpected theme inheritance.  
+- Components using hard-coded color values instead of design tokens.
 
 ### Additional findings
 
-As mentioned before, while going through this process, you're likely to uncover other opportunities to improve accessibility, design system compliance, and identify gaps where the design system needs to expand or provide more guidance. These findings can also be captured with the rest of the annotations. The [UX Paper Cuts Group](https://handbook.gitlab.com/handbook/product/categories/features/#ux-paper-cuts) is a great resource to help resolve these items too. Here are some additional things to look for along with related AI prompts:
+As mentioned before, while going through this process, you're likely to uncover other opportunities to improve accessibility, design system compliance, and identify gaps where the design system needs to expand or provide more guidance. These findings can also be captured with the rest of the annotations. The [UX Paper Cuts Group](/handbook/product/categories/features/#ux-paper-cuts) is a great resource to help resolve these items too. Here are some additional things to look for along with related AI prompts:
 
-* Find headings that are out of order or missing: *List headings in order and include their level.*  
-* Identify inaccessible form elements: *List form elements that have missing or problematic labels.*  
-* Find instances to use Pajamas components: *List custom components that implement similar functionality to existing Pajamas components.*  
-* Look for opportunities to abstract patterns: *Identify repeated style patterns that could be abstracted into a shared component.*
+- Find headings that are out of order or missing: *List headings in order and include their level.*  
+- Identify inaccessible form elements: *List form elements that have missing or problematic labels.*  
+- Find instances to use Pajamas components: *List custom components that implement similar functionality to existing Pajamas components.*  
+- Look for opportunities to abstract patterns: *Identify repeated style patterns that could be abstracted into a shared component.*
 
 ## Addressing findings
 
@@ -161,5 +161,5 @@ TBD…
 
 ## Reference
 
-* [Dark mode > Rollout by stage group](https://gitlab.com/groups/gitlab-org/-/epics/15660#note_2208363151)  
-* Example evaluations: [Knowledge](https://gitlab.com/groups/gitlab-org/-/epics/15768), [Source Code](https://gitlab.com/groups/gitlab-org/-/epics/15915), [Pipeline Execution](https://gitlab.com/groups/gitlab-org/-/epics/15914), [Import & Integrate](https://gitlab.com/groups/gitlab-org/-/epics/16184)
+- [Dark mode > Rollout by stage group](https://gitlab.com/groups/gitlab-org/-/epics/15660#note_2208363151)  
+- Example evaluations: [Knowledge](https://gitlab.com/groups/gitlab-org/-/epics/15768), [Source Code](https://gitlab.com/groups/gitlab-org/-/epics/15915), [Pipeline Execution](https://gitlab.com/groups/gitlab-org/-/epics/15914), [Import & Integrate](https://gitlab.com/groups/gitlab-org/-/epics/16184)
