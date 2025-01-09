@@ -48,6 +48,10 @@ Anyone can chime in on any subject, including people who don't work at GitLab.
 The person who's responsible for the work decides how to do it,
 but they should always take each suggestion seriously and try to respond and explain why it may or may not have been implemented.
 
+##### Courtesy
+
+In a remote environment, [courtesy](https://en.wikipedia.org/wiki/Courtesy) plays an important role in effective communication. When communicating with others, show courtesy by using a [greeting](https://en.wikipedia.org/wiki/Greeting), using please, and giving thanks where appropriate.
+
 ##### Kindness
 
 We value caring for others.
