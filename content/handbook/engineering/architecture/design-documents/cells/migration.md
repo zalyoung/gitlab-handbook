@@ -148,11 +148,13 @@ As we discuss creating and migrating Organizations, it's important to call out t
 
 Cells 1.0 will use [Direct Transfer (DT)](https://docs.gitlab.com/ee/user/group/import/) to move internal top-level groups to a separate Organization.
 
-We still need to evaluate and address any gaps but this is the only option available in this timeframe.
+We still need to evaluate and address any gaps, but this is the only option available in this time frame.
 
-DT will generate new IDs when the data is imported into a new organization. This is because DT is a copy instead of a move operation. It does not make sense to evolve DT to work as a move operation as it deviates from its core purpose for importing and exporting data.
+DT is a `copy` instead of a `move` operation.
+This means that DT will generate new IDs when the data is imported into a new Organization.
+It does not make sense to evolve DT to work as a `move` operation, because its core purpose is to import and export data.
 
-It makes sense for DT to evolve to work with organizations in time for Cells 1.0. This is not throw away work since it is a feature that will need to be supported when we have Cells and Organizations.
+It makes sense for DT to evolve to work with Organizations in time for Cells 1.0. This is not a throwaway effort, because DT will need to be supported when we have Cells and Organizations.
 
 Limitations:
 
