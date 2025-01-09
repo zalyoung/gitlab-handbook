@@ -248,17 +248,16 @@ When creating a new project, all settings should be left to the default options,
       - `New issue URL`
          - `https://gitlab.com/gitlab-org/gitlab/issues/new`
 
-1. Configure the following [project features and permissions](https://docs.gitlab.com/ee/user/project/settings/):
+1. Configure the following [project features and permissions](https://docs.gitlab.com/ee/user/project/settings/) settings:
 
-   - `Settings -> General -> Visibility, project features, permissions -> Additional options -> Users can request access`
-      - `Allowed to merge`
-         - `Maintainers`
-      - `Allowed to push and merge`
-         - `No one`
-      - `Allowed to force push`
-         - `Disabled`
-      - `Code owner approval`
-         - `Enabled`
+   - `Settings -> General -> Visibility, project features, permissions`
+      - `Project visibility`
+         - `Public`
+      - `Additional options`
+         - `Users can request access`
+            - `Disabled`
+      - `Container Registry`
+         - `Only Project Members`
    - `Settings -> Repository -> Protected branches`
       - `Allowed to merge`
          - `Maintainers`
