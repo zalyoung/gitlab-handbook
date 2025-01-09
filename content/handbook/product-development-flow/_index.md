@@ -57,11 +57,11 @@ stateDiagram-v2
     Design: design
     SolutionValidation: solution validation
     
-    ValidationBacklog --> ProblemValidation: Problem needs validation
-    ProblemValidation --> ReadyForDesign: (Optional) Design needed
-    ReadyForDesign --> Design: Design starts
-    ProblemValidation --> SolutionValidation: Problem validated
-    Design --> SolutionValidation: Design completed
+    ValidationBacklog --> ProblemValidation
+    ProblemValidation --> ReadyForDesign: (Optional) Needs design
+    ReadyForDesign --> Design
+    ProblemValidation --> SolutionValidation
+    Design --> SolutionValidation
 
     PlanningBreakdown: planning breakdown
     Scheduling: scheduling
@@ -71,30 +71,27 @@ stateDiagram-v2
     InReview: in review
     Verification: verification
     Complete: complete
-    BlockedStatus: blocked
-    SecurityStatus: awaiting security release
+    Blocked: blocked
+    Security: awaiting security release
     
     SolutionValidation --> PlanningBreakdown: PM signals intent for next milestone
     PlanningBreakdown --> Scheduling: (Optional) Awaiting scheduling
-    PlanningBreakdown --> Refinement: (Optional) Refinement needed
-    PlanningBreakdown --> ReadyForDev: Has type label & weight
+    PlanningBreakdown --> Refinement: (Optional) Needs refinement
+    PlanningBreakdown --> ReadyForDev: Has type label & weight. Prioritization requires milestone, and Deliverable label.
     Scheduling --> ReadyForDev: Milestone assigned
-    Refinement --> ReadyForDev: Refinement complete
-    ReadyForDev --> InDev: Development starts
+    Refinement --> ReadyForDev
+    ReadyForDev --> InDev
     InDev --> InReview: MRs ready for review
     InReview --> Verification: MRs merged
     Verification --> Complete: Verified in staging/prod
     
-    InDev --> BlockedStatus: Blocked by dependency/question
-    BlockedStatus --> InDev: Block resolved
+    InDev --> Blocked: Blocked by dependency/question
+    Blocked --> InDev: Block resolved
     
-    Verification --> SecurityStatus: Waiting for monthly security release
-    SecurityStatus --> Complete: Released in security update
+    InReview --> Security: Waiting for monthly security release
+    Security --> Verification: MRs merged and released in security update
     
     Complete --> [*]
-
-    note right of ReadyForDev: Requires type label & weight. Prioritization requires milestone, and Deliverable label.
-    note right of BlockedStatus: Can be applied at any point during development
 ```
 
 ### Issue descriptions as the Single Source of Truth (SSOT)
