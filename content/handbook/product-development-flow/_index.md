@@ -45,7 +45,7 @@ Examples:
 
 > <i class="fab fa-gitlab fa-fw" style="color:rgb(252,109,38); font-size:1.25em" aria-hidden="true"></i> We use workflow labels to efficiently communicate an issue's state. Using these labels enables collaboration across teams and communicates an issue's current state.
 
-The workflow labels are prefixed with `workflow::`, such as `workflow::ready for development`. The following diagram shows how a new issue moves to each workflow label. The rest of this document describes each workflow step in detail.
+The workflow labels are prefixed with `workflow::`, such as `workflow::ready for development`. The following diagram shows how a new issue moves to each workflow label, though states can be skipped when appropriate. The rest of this document describes each workflow step in detail.
 
 ```mermaid
 stateDiagram-v2
@@ -93,7 +93,6 @@ stateDiagram-v2
     
     Complete --> [*]
 
-    note right of ValidationBacklog: Initial state for new issues requiring validation
     note right of ReadyForDev: Requires type label & weight. Prioritization requires milestone, and Deliverable label.
     note right of BlockedStatus: Can be applied at any point during development
 ```
