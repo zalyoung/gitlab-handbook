@@ -146,7 +146,7 @@ As we discuss creating and migrating Organizations, it's important to call out t
 
 ### Cells 1.0
 
-Cells 1.0 will use [Direct Transfer (DT)](https://docs.gitlab.com/ee/user/group/import/) to move internal top-level groups to a separate Organization. 
+Cells 1.0 will use [Direct Transfer (DT)](https://docs.gitlab.com/ee/user/group/import/) to move internal top-level groups to a separate Organization.
 
 We still need to evaluate and address any gaps but this is the only option available in this timeframe.
 
