@@ -227,6 +227,7 @@ config
 Configs
 Consul
 Contentful
+contributable
 Coronavirus
 Corosync
 corpuses
@@ -337,6 +338,10 @@ dialogs
 Diffblue
 disambiguates
 discoverability
+disempower
+disempowered
+disempowering
+disempowers
 dismissable
 Disqus
 Distroless
@@ -370,6 +375,7 @@ Dreamweaver
 DRIs
 DSLs
 DSN
+duplicative
 Dynatrace
 dyscalculia
 dyspraxia
@@ -1243,6 +1249,7 @@ Tamland
 tanuki
 taskscaler
 tcpdump
+TeamOps
 teardown
 templated
 Tesorio
@@ -1289,6 +1296,7 @@ transpiling
 Trello
 Trendline
 triaged
+triager
 triages
 triaging
 Trivy
