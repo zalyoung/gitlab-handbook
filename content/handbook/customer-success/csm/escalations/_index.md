@@ -121,7 +121,7 @@ This channel will remain open until the escalation is closed and should be liste
 
 #### CS Help Request
 
-If an [Escalation (For Non Professional Services Projects)](/handbook/customer-success/csm/escalations/#Escalation-(For-Non-Professional-Services-Projects)) has been created, CSMs should create an escalation case in Salesforce. Steps for opening the case:
+If an [Escalation (For Non Professional Services Projects)](/handbook/customer-success/csm/escalations/#escalation-for-non-professional-services-projects) has been created, CSMs should create an escalation case in Salesforce. Steps for opening the case:
 
 1. Navigate to the account page in Salesforce
 1. Navigate to the next open renewal opportunity under "Opportunities" (Note: if you're having trouble finding the opportunity, you may need to change the Salesforce App. Click the 9-dotted box in the upper left corned and change the Salesforce App to "Sales")
