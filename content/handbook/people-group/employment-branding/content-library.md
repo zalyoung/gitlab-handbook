@@ -158,13 +158,7 @@ These awards and lists recognize GitLab's unique culture and help us spread the 
 | [Diverse Minds, Unified AI Solutions](https://vimeo.com/gitlab/diversemindsunifiedaisolutions?share=copy) | AI / Product |
 | [GitLab at European Women in Tech](https://vimeo.com/852369659?share=copy) | DIB |
 | [A Conversation with Ragnar Hardarson, Engineering Manager at GitLab](https://vimeo.com/716075220) | Engineering |
-| [A Conversation with Nick Nguyen, Sr. Engineering Mgr., Enablement at GitLab](https://vimeo.com/745463953) | Engineering |
-| [GitLab's Engineering Team: An Inside Look](https://www.youtube.com/watch?v=bnq8-iJeUMI) | Engineering |
-| [Ishita's Life at GitLab](https://vimeo.com/677814891) | Team Member Spotlight |
-| [Bruno's Life at GitLab](https://vimeo.com/677785451) | Team Member Spotlight |
-| [Michael's Life at GitLab](https://vimeo.com/677818344) | Team Member Spotlight |
-| [Liam's Life at GitLab](https://vimeo.com/677812885) | Team Member Spotlight |
-| [What is GitLab?](https://www.youtube.com/watch?v=tmEv_XgwR6Y) | General |
+| [A Conversation with Nick Nguyen, Sr. Engineering Manager at GitLab](https://vimeo.com/745463953) | Engineering |
 
 </details>
 
