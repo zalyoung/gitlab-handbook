@@ -98,7 +98,7 @@ As we reshape and build documentation, the documentation hub benefits from each 
 1. Consolidate existing documentation and move in the right places
 1. Writing and graphics on system architecture and operational principles
 
-We aspire to establish a [Handbook First](/handbook/company/culture/all-remote/handbook-first/) mindset for our documentation.
+We aspire to create and maintain documentation as a primary citizen and similar to the [Handbook First](/handbook/company/culture/all-remote/handbook-first/) mindset.
 For example, instead of answering specific questions from team members individually (for example on Slack), we can take this as an opportunity to write a piece of documentation and ask them to review and work with that.
 
 ### Indicators
