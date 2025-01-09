@@ -11,9 +11,7 @@ Todo: include instructions for writing policies to perform other types of automa
 
 ## Purpose
 
-Triage policies are necessary to perform automated tasks against Gitlab resources with the help of the [gitlab-triage](https://gitlab.com/gitlab-org/ruby/gems/gitlab-triage) gem.
-
-A common use case is when team members perform label migrations across existing issues, merge requests, and epics using [gitlab-triage](https://gitlab.com/gitlab-org/ruby/gems/gitlab-triage). To optimize operational efficiency and ensure seamless implementation, we recommend self-servicing the label migration MRs using [GitLab Duo Workflow](https://docs.gitlab.com/ee/user/duo_workflow/).
+Triage policies are used when team members migrate labels across existing issues, merge requests, and epics using [gitlab-triage](https://gitlab.com/gitlab-org/ruby/gems/gitlab-triage). This tool automates triaging through [policies defined in YAML](https://gitlab.com/gitlab-org/ruby/gems/gitlab-triage#what-is-a-triage-policy). To optimize operational efficiency and ensure seamless implementation, we recommend self-servicing the label migration MRs using [GitLab Duo Workflow](https://docs.gitlab.com/ee/user/duo_workflow/).
 
 ## Before you start
 
@@ -21,47 +19,53 @@ Follow the [GitLab Duo Workflow documentation](https://docs.gitlab.com/ee/user/d
 
 ## Build your prompt
 
-Include the following details in your prompt:
+You need to be specific about your requirements in the prompt to produce the best result.
+
+Example prompt:
+
+> Write a one-off label migration in policies/one-off/auth-migration.yml to apply a ~"devops::software supply chain security" label to issues, MRs, and epics currently labeled with ~"group::authentication". Target only open resources. Exclude any resource that already has the devops::software supply chain security label.
+>
+> Link the new one-off policy in .gitlab/ci/one-off.yml to run the policy in CI. Create two jobs: a dry-run and an actual job. The job names must follow the instructions listed in one-off.yml.
+>
+> Read instructions and example yml files in `policies/one-off/duo-workflow-guide-and-example-policies` to ensure correct syntax.
+
+See sections below for recommended information to include in the prompt.
 
 ### File name and location
 
-Specify the location for your policies.
+Specify a policy file name inside the [`policies`](https://gitlab.com/gitlab-org/quality/triage-ops/-/tree/master/policies?ref_type=heads) directory except for `generated` directory.
 
-For label migration policies, place the policy files inside the [`policies/one-off`](https://gitlab.com/gitlab-org/quality/triage-ops/-/tree/master/policies/one-off) folder in the `triage-ops` project. Make sure to specify the policy file name.
+For example, label migration policies go in [`policies/one-off`](https://gitlab.com/gitlab-org/quality/triage-ops/-/tree/master/policies/one-off) directory.
 
-Example: `write a one-off label migration in policies/one-off/auth-migration.yml to...`
+Example prompt snippet: `write a one-off label migration in policies/one-off/auth-migration.yml to...`
 
 ### Migration target
 
 Define your migration target through `conditions` in the policy.
 
-Example: `issues, MRs, and epics that are currently labeled with group::authentication`
+Example prompt snippet: `issues, MRs, and epics that are currently labeled with group::authentication`
+
+Note: the gem only answers to [these specific conditions](https://gitlab.com/gitlab-org/ruby/gems/gitlab-triage#conditions-field).
 
 ### Action
 
 Define the desired outcome of the automation, such as which label to apply to the targets.
 
-Example: `apply a devops::software supply chain security label to issues, MRs, and epics...`
+Example prompt snippet: `apply a devops::software supply chain security label to issues, MRs, and epics...`
+
+Note: the gem only performs [these actions](https://gitlab.com/gitlab-org/ruby/gems/gitlab-triage#actions-field).
 
 ### Reference material
 
 GitLab Duo Workflow requires reference materials, preferably with examples, to write these files.
 
-Example: `Read instructions and example yml files in policies/one-off/duo-workflow-guide-and-example-policies to ensure the result has the correct syntax.`
+Example prompt snippet: `Read instructions and example yml files in policies/one-off/duo-workflow-guide-and-example-policies to ensure the result has the correct syntax.`
 
 ### CI jobs for label migration
 
 For testing and executing migration policies, create CI jobs in the MR pipeline. Instruct Workflow to create these jobs:
 
-Example: `Link the new one-off policy in .gitlab/ci/one-off.yml to run the policy in CI. Create two jobs: a dry-run and an actual job. The job names must follow the instructions listed in one-off.yml.`
-
-### Complete example prompt
-
-> Write a one-off label migration in policies/one-off/auth-migration.yml to apply a devops::software supply chain security label to issues, MRs, and epics currently labeled with group::authentication. Target only open resources. Exclude any resource that already has the devops::software supply chain security label.
->
-> Link the new one-off policy in .gitlab/ci/one-off.yml to run the policy in CI. Create two jobs: a dry-run and an actual job. The job names must follow the instructions listed in one-off.yml.
->
-> Read instructions and example yml files in `policies/one-off/duo-workflow-guide-and-example-policies` to ensure correct syntax.
+Example prompt snippet: `Link the new one-off policy in .gitlab/ci/one-off.yml to run the policy in CI. Create two jobs: a dry-run and an actual job. The job names must follow the instructions listed in one-off.yml.`
 
 ### Policy Refinement
 
