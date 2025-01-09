@@ -127,7 +127,9 @@ Reminder, please do not merge the MR when a migration is done.
 
 Use the dry-run job to verify your policy's accuracy.
 
-If a specified condition is ignored in the dry run, check for syntax errors in the condition field. The gitlab-triage gem might ignore conditions with invalid syntax without generating an error message. Review all condition keywords in the policy and compare them with the [gitlab-triage documentation](https://gitlab.com/gitlab-org/ruby/gems/gitlab-triage#defining-a-policy).
+If a specified condition is ignored in the dry run, check for syntax errors in the condition field.
+
+If the syntax looks correct, you may have used an invalid condition. The gitlab-triage gem ignores such conditions without generating an error message, so you need to review all condition keywords in the policy and compare them with the [gitlab-triage documentation](https://gitlab.com/gitlab-org/ruby/gems/gitlab-triage#defining-a-policy). It only answers to [these conditions](https://gitlab.com/gitlab-org/ruby/gems/gitlab-triage#conditions-field) and [these actions](https://gitlab.com/gitlab-org/ruby/gems/gitlab-triage#actions-field).
 
 For example, when writing a triage policy to post comments in your targeted resources:
 
