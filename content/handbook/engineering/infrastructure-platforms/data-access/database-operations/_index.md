@@ -4,7 +4,7 @@ title: "Database Operations Team"
 
 ## Mission
 
-The Database Operations team at GitLab mission is to Build, Run and Own the entire lifecycle of the PostgreSQL database engine for GitLab.com.
+The Database Operations team at GitLab mission is to Build, Run, Own and Evolve the entire lifecycle of the PostgreSQL database engine for GitLab.com.
 
 The team is focused on owning the reliability, scalability, performance & security of the database engine and its supporting services. The team should be seeking to build their services on top of [Production Engineering::Foundations](/handbook/engineering/infrastructure/team/foundations/_index.md) services and cloud vendor managed products, where appropriate, to reduce complexity, improve efficiency and deliver new capabilities quicker.
 
