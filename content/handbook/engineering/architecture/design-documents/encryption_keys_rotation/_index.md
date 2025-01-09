@@ -422,6 +422,52 @@ what key was used to encrypt an attribute. It's possible to add support for this
 `encryption_key_fingerprint` column per table (except for some cases where different keys are used for different encrypted
 attribtues in the same table).
 
+## Iteration plan
+
+### Iteration 1: Foundation and Key Management
+
+1. Implement the key management system in the database
+   - Create a new table to store key information (id, fingerprint, status, created_at, etc.)
+   - Implement initializer to read keys from `config/secrets.yml` and populate/update the database
+   - Add collision detection to prevent `inactive` -> `active` transition
+1. Develop the key selection mechanism
+   - Implement caching for active keys to ensure good performance
+   - Create logic to select the appropriate key based on the encryption framework used
+1. Add fingerprint generation for keys
+   - Implement SHA1 hashing for key fingerprints
+
+### Iteration 2: Framework-specific Implementations
+
+1. Implement support for `ActiveRecord::Encryption`
+   - Modify existing `ActiveRecord::Encryption` usage to work with new multiple keys management
+1. Implement support for `attr_encrypted`
+   - Modify existing `attr_encrypted` usage to work with new multiple keys management
+1. Implement support for `TokenAuthenticatable`
+   - Modify existing `TokenAuthenticatable` usage to work with new multiple keys management
+
+### Iteration 3: Admin Interface and Key Lifecycle
+
+1. Create the admin interface for key management
+   - Develop the UI for viewing key status, usage statistics, and controls
+   - Implement key activation/retirement functionality
+
+### Iteration 4: Re-encryption Process
+
+1. Implement background re-encryption process
+   - Build on top of background migration framework
+   - Ensure database load is under control during re-encryption
+   - Support `ActiveRecord::Encryption`, `attr_encrypted`, and `TokenAuthenticatable`
+1. Develop progress tracking for re-encryption
+   - Add database columns to track re-encryption progress
+   - Update admin interface to display re-encryption status
+
+### Iteration 5: Additional tooling
+
+1. Create rake task to detect key collision in advance
+1. Allow to disable actions in the admin UI (useful for Dedicated)
+1. Create rake task to enable a new key
+1. Develop safeguards against accidental key deletion
+
 ## References
 
 - <https://gitlab.com/gitlab-org/gitlab/-/issues/25332>
