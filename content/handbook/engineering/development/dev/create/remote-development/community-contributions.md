@@ -24,7 +24,7 @@ Here is an interdependency graph breaking down this problem into possible contri
 
 > **suggestion:** When reading the graph, look for nodes with multiple arrows pointing away. These are areas where a small difference can have a significant spreading effect.
 
-![low community contributions problem analysis](/images/engineering/development/dev/create/low_community_contributions_analysis.png)
+![low community contributions problem analysis](/images/engineering/development/dev/create/remote-development/low_community_contributions_analysis.png)
 
 ### Graph explanations
 
