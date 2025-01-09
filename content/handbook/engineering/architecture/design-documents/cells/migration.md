@@ -138,9 +138,9 @@ We could move organizations using [Direct transfer](https://docs.gitlab.com/ee/u
 - Provide an API interface to make integration with infrastructure tools easier.
 - Provide intuitive configuration and management UI interfaces.
 
-## Migration approaches at different stages of Cells
+## Migration approaches at different major iterations of Cells
 
-We will need to adopt different approaches for each [major stage](_index.md#cells-iterations) of the Cells evolution based on which technologies are available at each stage.
+We will need to adopt different approaches for each [major iteration](_index.md#cells-iterations) of the Cells evolution based on which technologies are available at each iteration.
 
 As we discuss creating and migrating Organizations, it's important to call out that top-level groups will retain their URL as they move between Organizations. For example, when a customer's top-level group is moved from the [default Organization](../organization/_index.md#default-organization) to their own Organization, their method of access remains unchanged. This means bookmarks, git remote URLs, etc. for projects in these top-level groups remain unchanged and require no action from users or updates to automation after a migration.
 
@@ -161,23 +161,23 @@ Limitations:
 - Only top-level groups can be moved between organizations.
 - New IDs will be generated which will break automation and integrations - This is acceptable since we will only be moving a limited set of internal top-level groups.
 
-We will migrate a few small GitLab internal top-level groups to a secondary cell. There will be no customer org migrations in Cells 1.0. The specific top-level groups to be migrated will be identified in due course.
+We will migrate a few small GitLab internal top-level groups to another Cell. There will be no customer org migrations in Cells 1.0. The specific top-level groups to be migrated will be identified in due course.
 
 ![org-migrations-cells-1-0](/images/design-documents/cells/org_migrations_cells_1_0.png)
 
 All existing top-level groups on GitLab.com are part of the `default Organization`.
 A list of all GitLab top-level groups can be found [here (internal link)](https://docs.google.com/spreadsheets/d/18JSGNWYXhAofSqPPLCh_wb0dc9wTT9HuOucHegmsYhA/edit#gid=0).
 
-We will create a new temporary Organization (GitLab Inc.) on the secondary Cell.
+We will create a new temporary Organization (GitLab Inc.) in a Cell (not Legacy Cell).
 
 We will use [direct transfer](https://docs.gitlab.com/ee/user/group/import/)
-or [congregate](https://gitlab.com/gitlab-org/professional-services-automation/tools/migration/congregate) to migrate select top-level groups belonging to GitLab Inc. from the `default Organization` on the primary Cell to the GitLab Inc. Organization on the secondary Cell. If [Org mover](https://gitlab.com/groups/gitlab-org/-/epics/12859) is ready in time, we will use it instead.
+or [congregate](https://gitlab.com/gitlab-org/professional-services-automation/tools/migration/congregate) to migrate select top-level groups belonging to GitLab Inc. from the `default Organization` in the Legacy Cell to the GitLab Inc. Organization on the other Cell. If [Org mover](https://gitlab.com/groups/gitlab-org/-/epics/12859) is ready in time, we will use it instead.
 
-The top-level groups being migrated will be read-only for the duration of the migration. Once the migration is complete the organization will become read/write and fully operational on the secondary cell.
+The top-level groups being migrated will be read-only for the duration of the migration. Once the migration is complete the organization will become read/write and fully operational on the other Cell.
 
 ### Cells 1.5
 
-The focus will be moving top-level groups into Organizations and then migration those Organizations to secondary Cells.
+The focus will be moving top-level groups into Organizations and then migrating those Organizations from the Legacy Cell to other Cells.
 
 We will establish a process for moving top-level groups between organizations on the same Cell. This functionality is net new and will need to be developed in time for Cells 1.5 and is a pre-requisite before Org mover can move an Organization between Cells.
 
@@ -186,24 +186,24 @@ A new solution is preferable to using DT, because DT is more complex than re-wri
 The new solution would also ensure that new IDs are only generated where necessary when a top-level group is moved into a new Organization.
 This improves the experience for users, as it minimizes the changes users have to make to their local repositories, bookmarks, etc. to match the new IDs and paths.
 
-Once the top-level groups for a customer are in their own Organization on [Cell 1 (the legacy Cell)](decisions/012_cell_unique_identifier.md), Org mover will move the entire Organization from Cell 1 to a secondary Cell.
+Once the top-level groups for a customer are in their own Organization on [Legacy Cell)](decisions/012_cell_unique_identifier.md), Org mover will move the entire Organization from Legacy Cell to another Cell.
 
 Limitations:
 
 - Only top-level groups can be moved between Organizations.
-- It will only be possible to move top-level groups between organizations in the same Cell - This is acceptable because our primary use case involves creating a new Organization for a customer in Cell 1 and moving their top-level groups into this Organization. Groups will not need to be moved across Cells at this stage.
+- It will only be possible to move top-level groups between organizations in the same Cell - This is acceptable because our primary use case involves creating a new Organization for a customer in Cell 1 and moving their top-level groups into this Organization. Groups will not need to be moved across Cells at this iteration.
 
 At Cells 1.5, we will consolidate the GitLab Organization by merging the top-levels groups that are part of the GitLab Inc Organization with the main GitLab Organization - the long term home for all GitLab top-level groups.
 
 ![org-migrations-cells-1-5](/images/design-documents/cells/org_migrations_cells_1_5.png)
 
-All remaining top-level GitLab groups on the legacy Cell will be moved to the GitLab Organization. The entire GitLab Organization will be moved to a secondary cell using org mover. Following this, Organizations will be consolidated by moving the top-level groups in the temporary GitLab Inc Organization into the GitLab Organization. The GitLab Inc org will then be deleted.
+All remaining top-level GitLab groups on the Legacy Cell will be moved to the GitLab Organization. The entire GitLab Organization will be moved to the Cell hosting the GitLab Inc Organization using org mover. Following this, the two Organizations (GitLab and GitLab Inc) will be consolidated by moving the top-level groups in the temporary GitLab Inc Organization into the GitLab Organization. The GitLab Inc org will then be deleted.
 
 ### Cells 2.0
 
-At this stage it is anticipated that we will have a fleet of Cells. Load across these Cells will need to be rebalanced as Organizations grow requiring a mechanism for moving Organizations between secondary Cells. Org mover will be evolved to move Organizations between secondary Cells.
+At this iteration it is anticipated that we will have a fleet of Cells. Load across these Cells will need to be rebalanced as Organizations grow requiring a mechanism for moving Organizations between Cells. Org mover will be evolved to move Organizations between Cells.
 
-There is also a need to move top-level groups between Organizations that are on different Cells. The primary use case is to support mergers between two customer Organizations. We do not currently have solution for this. We will in due course evaluate where the Org mover should be evolved to move top-levels groups between secondary Cells and other approaches.
+There is also a need to move top-level groups between Organizations that are on different Cells. The primary use case is to support mergers between two customer Organizations. We do not currently have solution for this. We will in due course evaluate whether org mover should be evolved to move top-level groups between Cells and other approaches.
 
 Limitations:
 
