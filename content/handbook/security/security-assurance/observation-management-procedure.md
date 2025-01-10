@@ -147,7 +147,7 @@ Observation remediation SLA's are determined by the risk rating of the individua
 | :---: | :---: |
 | Critical | 3 months|
 | High | 6 months|
-| Moderate | 12 months|
+| Medium | 12 months|
 | Low | 18 months|
 
 ### Criteria for Upgrading Observations To Tier 2 Risks
@@ -226,7 +226,7 @@ Defined below are status labels that will aide in the process of managing remedi
 
 ## Metrics and Reporting
 
-Please refer to the [observation management project](https://gitlab.com/gitlab-com/gl-security/security-assurance/security-compliance-commercial-and-dedicated/observation-management)'s [issue boards](https://gitlab.com/gitlab-com/gl-security/security-assurance/security-compliance-commercial-and-dedicated/observation-management/-/boards/5659373?label_name[]=Department%3A%3ASecurity%20Compliance) for details for all observations by risk, status, and department. Please refer to our [tableau dashboard](https://10az.online.tableau.com/#/site/gitlab/views/ObservationMetrics/SecCompOperationalMetrics?:iid=1) for operational metrics for the observation program. 
+Please refer to the [observation management project](https://gitlab.com/gitlab-com/gl-security/security-assurance/security-compliance-commercial-and-dedicated/observation-management)'s [issue boards](https://gitlab.com/gitlab-com/gl-security/security-assurance/security-compliance-commercial-and-dedicated/observation-management/-/boards/5659373?label_name[]=Department%3A%3ASecurity%20Compliance) for details for all observations by risk, status, and department. Please refer to our [tableau dashboard](https://10az.online.tableau.com/#/site/gitlab/views/ObservationMetrics/SecCompOperationalMetrics?:iid=1) for operational metrics for the observation program.
 
 ## Exceptions
 
