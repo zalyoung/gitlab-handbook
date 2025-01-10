@@ -266,6 +266,7 @@ CWEs
 cybersecurity
 CycloneDX
 Dangerfile
+dashboarding
 DAST
 Database Lab
 Database Lab Engine

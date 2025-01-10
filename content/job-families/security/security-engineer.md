@@ -385,9 +385,9 @@ Security Assurance Engineers enable Sales and support go-to-market by achieving 
 
 ### Security Architect
 
-Security Architects are responsible for the assessment, reduction or mitigation of risks associated with the GitLab product and architecture. They maintain the security strategy and solutions across the entire GitLab ecosystem. 
+Security Architects are responsible for the assessment, reduction or mitigation of risks associated with the GitLab product and architecture. They maintain the security strategy and solutions across the entire GitLab ecosystem.
 
-Security Architects report to the VP of Product Security. Generally we would see this specialty to be filled at the Staff Security Engineer level and above. These Security Engineers have a wide sphere of influence and responsibility at the Individual Contributor level and as such may be asked to focus on high impacting focus areas. 
+Security Architects report to the VP of Product Security. Generally we would see this specialty to be filled at the Staff Security Engineer level and above. These Security Engineers have a wide sphere of influence and responsibility at the Individual Contributor level and as such may be asked to focus on high impacting focus areas.
 
 Responsibilities
 
@@ -399,7 +399,7 @@ Responsibilities
 - Contribute to, interpret, and disseminate information security policies, standards, and promote awareness of these artifacts to technical component owners.
 - Ensure compliance to information security practices & standards to reduce the likelihood of breaches, audit findings, regulatory, and legal liabilities.
 - Be a consultant for escalated security incidents where applicable.
-- Unification and optimization of processes between teams. 
+- Unification and optimization of processes between teams.
 
 Requirements
 
@@ -411,7 +411,7 @@ Requirements
 Nice to have
 
 - Ecosystem knowledge of security teams and cross-departmental processes.
-- Experience in working on high-impact operations involving multiple departments and divisions. 
+- Experience in working on high-impact operations involving multiple departments and divisions.
 - Experience in establishing and presenting security metrics to C-Level executives through dashboarding tools like Tableau.
 
 ## Security Engineer Hiring Process
