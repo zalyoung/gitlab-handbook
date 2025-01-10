@@ -37,7 +37,7 @@ Elevate is organized into 6 learning modules, including 2 practice labs. Practic
 
 ![visual displaying the content in each elevate module](/images/handbook/people-group/elevatemoduleoverviews.png)
 
-All participants are expected to complete the program and make up any missed sessions within one month of the final live session taking place (Friday April 11th). Failure to complete the program within this timeframe will mean the team member will be added to a future round.
+All participants are expected to complete the program and make up any missed sessions within one month of the final live session taking place (Friday April 11th). If you think this won't be feasible, please let a member of the Learning and Development team know so we can find a solution, whether be providing extra support or re-adding you to the program at a later date.
 
 We ask that team members make an effort to attend the live sessions, and engage in them fully, with cameras on. This enhances the experience for other team members and fosters an environment which promotes more active engagement and discussion with the concepts being discussed.
 
