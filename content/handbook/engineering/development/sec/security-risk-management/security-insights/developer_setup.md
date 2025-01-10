@@ -1,3 +1,8 @@
+---
+title: Security Risk Management, Security Insights
+description: "The Security Insights group at GitLab is charged with developing solutions to enable customers to manage their security risks effectively and efficiently."
+layout: single
+---
 
 # Developer Vulnerability Management Setup Guide
 
