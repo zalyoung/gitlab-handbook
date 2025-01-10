@@ -129,13 +129,13 @@ We propose adopting FluxCD as the standardized GitOps solution for managing GitL
 
 The implementation will follow a phased approach:
 
-1. Phase 1: Foundation (1 months)
+1. Phase 1: Foundation (1 month)
    - Restructure k8s-mgmt repository to align with Flux best practices.
    - Use Ops Gitlab instance as Git repository for Flux.
    - Implement Gitlab CI pipelines for testing validity of Flux manifests and configurations as well as End to End integration testing using an ephemeral Kubernetes cluster.
    - Set up Capacitor UI for Flux visualization
 
-2. Phase 2: Testing & Validation (2 month)
+2. Phase 2: Testing & Validation (2 months)
    - Complete migration of partially moved services (cert-manager, external-dns)
    - Document production readiness requirements
    - Validate multi-tenancy configuration by onboarding other Production Engineering teams to Flux.
@@ -145,6 +145,7 @@ The implementation will follow a phased approach:
 3. Phase 3: Production Migration (3 months)
    - Bootstrap Flux in production clusters.
    - Gradually migrate Foundation-owned services from helmfiles and tanka.
+   - Assist on the migration of non Foundations workloads.
 
 The proposed architecture will follow the [D1 reference architecture](https://fluxcd.control-plane.io/guides/d1-architecture-reference/) pattern from the Flux documentation, with modifications to suit GitLab's specific needs:
 
@@ -359,59 +360,3 @@ Cons:
 - Resource intensive due to UI and server components
 - Less integrated with GitLab's existing tooling
 - Steeper learning curve for advanced features
-
-## Production Readiness Considerations
-
-### Risk Assessment
-
-1. Production Impact
-   - Mitigation: Gradual migration starting with non-critical services.
-   - Extensive testing in staging environments.
-   - Rollback procedures documented.
-
-2. Performance
-   - Impact on API server load from continuous reconciliation
-   - Resource requirements for Flux controllers
-   - Monitoring and auto-scaling strategy
-
-3. Security
-   - RBAC configuration complexity
-   - Secret management across namespaces
-   - Supply chain security considerations
-
-### Operational Readiness
-
-1. Documentation Requirements
-   - Architecture documentation
-   - Runbooks for common scenarios
-   - Troubleshooting guides
-   - Security policies
-
-2. Training Needs
-   - Flux training for Production Engineering and Stage Teams.
-   - Stage team onboarding documentation.
-   - GitOps best practices guidance and documentation.
-
-3. Support Model
-   - Day 2 Operation runbooks.
-   - Document Escalation paths.
-   - Incident response playbooks
-
-### Migration Strategy
-
-1. Service Selection Criteria
-   - Complexity of current deployment
-   - Business criticality
-   - Team readiness
-   - Dependencies
-
-2. Validation Requirements
-   - Integration test coverage
-   - Performance benchmarks
-   - Security scanning
-   - Compliance verification
-
-3. Rollback Procedures
-   - Point-in-time recovery
-   - State reconciliation
-   - Communication plan
