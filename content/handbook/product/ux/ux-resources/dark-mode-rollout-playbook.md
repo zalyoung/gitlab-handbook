@@ -157,7 +157,7 @@ As mentioned before, while going through this process, you're likely to uncover 
 
 If you've familiarized yourself with the the [getting started](#getting-started) content and references, prioritized your pages, and have completed creating issues for each finding, you're well on your way to addressing those findings.
 
-- Use existing Pajamas solutions when they're available.
+- Use existing Pajamas solutions when they're available. Refer to our [Design token documentation in Pajamas](https://design.gitlab.com/product-foundations/design-tokens) for guidance on choosing the right tokens.
 - Engage in discussions when you have custom parts of the UI that existing solutions don't apply to or when you're not sure how or if you can migrate to an existing design system solution.
 - Help with upstream fixes in the design system or simple paper cut fixes that unblock dark mode from taking effect in your product area.
 
