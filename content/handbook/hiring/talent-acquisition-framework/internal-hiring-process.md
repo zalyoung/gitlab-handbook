@@ -51,7 +51,7 @@ description: "This page discusses the Internal Hiring Process"
   - Internal team members should be alerting and receiving support from their current managers prior to formally applying to open roles. Offers at the end of an internal interview process should not come as a surprise to current managers.
   - TA will not discuss any compensation changes with the team member's current manager.
   - TA will not provide updates on interview feedback or progress to a team member's current manager. This should be discussed between managers and team members during 1:1s.
-  - Should the Recruiter not have access to a team members compensation, you should
+  - Should the Recruiter not have access to a team members compensation (due to moving Divisions), you should
     - Reach out to People Connect by submitting a request through HelpLab using the [Internal Movement](https://helplab.gitlab.systems/esc?id=sc_cat_item&sys_id=7b2f4b8d4748069067429ee0026d435f) case template. In your request details please include that you the candidate has been selected to move forward and that you require their current compensation details. People Connect will only confirm the salary details and any confirmation on equity would need to be verified by the Total Rewards team separately.
     - Within 48 hours, the People Connect team will respond and provide annual base compensation details to the Recruiter to utilize for the offer (in partnership with the hiring manager).
 
