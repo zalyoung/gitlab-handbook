@@ -18,7 +18,7 @@ Groups and projects of the internal customer will have to be private, because th
 Internal customers might not need things like the CI Catalog or Advanced Search.
 
 The first internal customer to migrate is yet to be identified.
-The migration will loosely follow this plan outline [Cells: Organization migration blueprint](../migration.md#cells-10)
+The migration will loosely follow the plan outline in the [Cells: Organization migration blueprint](../migration.md#cells-10)
 
 ## Consequences
 
