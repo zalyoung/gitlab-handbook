@@ -34,7 +34,7 @@ To display Vulnerability Reports and the Vulnerability Management tool in GitLab
 1. Request an EE developer license. Follow the steps in [the handbook](../../../../../engineering/developer-onboarding.md#working-on-gitlab-ee-developer-licenses).
 1. Add the EE license to your local environment. Follow the steps in [the handbook](https://docs.gitlab.com/ee/administration/license_file.html#add-license-in-the-admin-area) under **Add license in the Admin area**.
 
-## Resources and Examples
+## Resources and examples
 
 ### Repositories
 
