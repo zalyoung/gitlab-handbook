@@ -17,7 +17,7 @@ This TMRG is focused on 4 key areas of impact. We call them our pillars. Review 
 
 | Pillar | Purpose | Example Results |
 | ----- | ----- | ----- |
-| Awareness and Education | Increase awareness of the experience of TMRG memebers at GitLab and educate allies. | |
+| Awareness and Education | Increase awareness of the experience of TMRG members at GitLab and educate allies. | |
 | Professional Development | Increase access to opportunity for career and professional growth of TMRG members | [Women at GitLab Mentorship Program](mentorship-program/) |
 | Recruiting and Retention | Increase the successful recruitment and retention of women at GitLab | Participate in [candidate TMRG calls](/handbook/hiring/talent-acquisition-framework/coordinator#speaking-with-tmrg-team-members-in-the-hiring-process) by joining the [#candidate_tmrg-call Slack channel](https://app.slack.com/client/T02592416/C03JEQPSN3V/thread/C012GP5CGCR-1655385119.184549) |
 | Business Influence | Start and contribute to discusses that influence GitLab the business. | Surface burnout data to People Leadership |
