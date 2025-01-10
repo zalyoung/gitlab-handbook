@@ -196,6 +196,7 @@ If you delete, rename, or move a page, you should:
 
 1. [update all existing links](practical-handbook-edits.md#find-and-replace-a-string-in-all-matching-files) in the handbook **and** internal handbook.
    - Note: When searching for links, use the page name. Sometimes links use references or relative links, meaning it doesn't use the full path.
+   - Please also consider searching for and updating handbook links in other places, such as [docs](https://docs.gitlab.com) and project templates in [gitlab-com](https://gilab.com/gitlab-com) and [gitlab-org](https://gitlab.com/gitlab-org).
 1. [add a redirect](https://handbook.gitlab.com/docs/development/#redirects).
 
 ## Editing page maintainers
