@@ -61,20 +61,18 @@ Potential key performance indicators include:
 
 | Subject                             | Facilitator (members list in project)                                                                                                                                           |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [Advanced Pipelines](https://gitlab.com/gitlab-com/customer-success/communities-of-practice/advanced-pipeline-community-of-practice)                  | [@juliebyrne](https://gitlab.com/juliebyrne) |
-| [Agile Architecture](https://gitlab.com/gitlab-com/customer-success/communities-of-practice/agile-architecture-cop)   | [Darwin Sanoy](https://gitlab.com/darwinjs), [Brian Wald](https://gitlab.com/brianwald) |
-| [AWS](https://gitlab.com/gitlab-com/customer-success/communities-of-practice/aws-community-of-practice)                  | [Darwin Sanoy](https://gitlab.com/darwinjs) |
-| Defending against GitHub]| [Regnard Raquedan](https://gitlab.com/rraquedan) |
-| [Modern Applications](https://gitlab.com/gitlab-com/customer-success/communities-of-practice/modern-applications)                 | [@reshmikrishna](https://gitlab.com/reshmikrishna) (inactive) |
-| [OpenShift](https://gitlab.com/gitlab-com/customer-success/communities-of-practice/redhat-openshift-community-of-practice)                  | TBD |
-| [Trusted Advisor Skill Development](https://gitlab.com/gitlab-com/customer-success/communities-of-practice/trusted-advisor-skill-development)   | Lead: [Bart Zhang (@bzhang7)](https://gitlab.com/bzhang7), Co-Leads: [Chester Nwachukwu (@cnwachukwu)](https://gitlab.com/cnwachukwu), [Darwin Sanoy (@DarwinJS)](https://gitlab.com/darwinjs) |
+
+| Cloud | [Regnard Raquedan](https://gitlab.com/rraquedan) |
+| Competitive intelligence                | [Péter Bozsó](https://gitlab.com/pboszo)|
+
 
 ### Process
 
 1. Establish a focus topic.
-2. Enlist GitLab team members to participate in your new CoP, utilize the #customer-success channel in Slack to reach a broad audience. Make sure to point them to the process outlined on this page, so they understand the commitment.
-3. Create a project in the [Communities of Practice group](https://gitlab.com/gitlab-com/customer-success/communities-of-practice) by using this [project template](https://gitlab.com/gitlab-com/customer-success/communities-of-practice/project-template)
-4. Setup a monthly Cadence call with the team members
-5. Create and manage the [README.md](https://gitlab.com/gitlab-com/customer-success/communities-of-practice/project-template/-/blob/master/README.md)
-6. Update this handbook page under the table "Active Communities of Practice."
-7. Setup a slack channel using the `#cp_` prefix, so team members know where to go for help.
+2. Enlist GitLab team members to participate in your new CoP, utilize the #customer-success or #solutions-architects channel in Slack to reach a broad audience. Make sure to point them to the process outlined on this page, so they understand the commitment.
+3. Setup a monthly or bi-weekly Cadence call with the team members.
+4. Update this handbook page under the table "Active Communities of Practice."
+5. Setup a slack channel using the `#cop-` prefix, so team members know where to go for help.
+6. If needed, create a project in the [Communities of Practice group](https://gitlab.com/gitlab-com/customer-success/communities-of-practice) by using this [project template](https://gitlab.com/gitlab-com/customer-success/communities-of-practice/project-template)
+7. As needed, create and manage the [README.md](https://gitlab.com/gitlab-com/customer-success/communities-of-practice/project-template/-/blob/master/README.md)
+
