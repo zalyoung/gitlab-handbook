@@ -93,9 +93,9 @@ The current architecture struggles to provide effective multi-tenant support, a 
 
 ## Proposal
 
-We propose adopting FluxCD as the standardized GitOps solution for managing GitLab.com infrastructure workloads. Flux offers several key characteristics that make it particularly well-suited for GitLab's infrastructure needs:
+We propose adopting Flux as the standardized GitOps solution for managing GitLab.com infrastructure workloads. Flux offers several key characteristics that make it particularly well-suited for GitLab's infrastructure needs:
 
-### FluxCD Key Characteristics
+### Flux Key Characteristics
 
 1. GitOps-Native Architecture
    - Declarative configuration using Git as single source of truth
@@ -360,3 +360,7 @@ Cons:
 - Resource intensive due to UI and server components
 - Less integrated with GitLab's existing tooling
 - Steeper learning curve for advanced features
+
+#### Why We Chose Flux Instead
+
+While Argo CD offers a mature GitOps solution with powerful UI capabilities and deployment features, Flux's lightweight distributed architecture and native GitLab integration make it a better fit for our needs. Flux eliminates the operational overhead of maintaining a central management server while providing built-in image automation that would require additional tooling with Argo CD. As active contributors to the Flux project, we can influence its roadmap to align with our requirements, while simultaneously improving both our infrastructure and GitLab's product offering through dogfooding our own integration. This, combined with successful adoption by teams like Runway, makes Flux the clear choice for GitLab's infrastructure.
