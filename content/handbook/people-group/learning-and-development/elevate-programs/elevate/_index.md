@@ -86,7 +86,7 @@ We're committed to working with you to find a solution that let's you successful
 
 We want to try to support all people leaders to go through the program in its entirety - if you're feeling like it's too much to balance with your other work, as a first port of call please speak to your manager and explore options for how you can be supported to continue. If your manager is supportive of you leaving the program, please let one of the Talent Development team know. The Talent Development team will then speak to your People Business Partner to notify them of your leaving the program, and explore any final options to support you in continuing.
 
-Team members who leave the program part way through will still need to complete it in it's entirety in the future.
+Team members who leave the program part way through will still need to complete it in it's entirety in the future, but the point of re-entry will be reviewed on a case by case basis.
 
 ### How often will this program run?
 
