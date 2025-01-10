@@ -406,7 +406,7 @@ Exit Criteria:
 - Least-privileged access implementation with SRE escalation path.
 - Progressive rollout of infrastructure changes across Cells with rollback support.
 - Progressive deployment capabilities across Legacy Cell and Cells with rollback support.
-- Suport for toggling Feature Flags across Legacy Cell and Cells.
+- Support for toggling Feature Flags across Legacy Cell and Cells.
 
 Dependencies:
 
