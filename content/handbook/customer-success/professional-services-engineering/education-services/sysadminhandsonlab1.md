@@ -49,6 +49,8 @@ Before you get started, complete the following:
 
 ### Task B. Install necessary dependencies
 
+1. Before proceeding with installing dependencies, ensure that your repository is updated by running `sudo apt-get update`.
+
 1. Install Postfix so GitLab can send notification emails by using the command below:
 
     ```bash
