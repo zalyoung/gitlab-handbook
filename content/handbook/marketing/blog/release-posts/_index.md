@@ -321,8 +321,8 @@ The generator will not create an MR for a confidential issue. To add a release p
 - Create a new branch from `master` of the [www-gitlab-com repository](https://gitlab.com/gitlab-com/www-gitlab-com) for each feature (primary, secondary, removal). [Deprecations are handled differently](#deprecations-and-other-planned-breaking-change-announcements)
 - Open a merge request targeted at the `master` branch
 - Use the [Release Post Item template](https://gitlab.com/gitlab-com/www-gitlab-com/blob/master/.gitlab/merge_request_templates/Release-Post-Item.md)
-- Content should be one YAML file added to `data/release_posts/unreleased/` on the `master` branch
-  - See `data/release_posts/unreleased/samples/` for format and sample content
+- Content should be one YAML file added to [`data/release_posts/unreleased/`](https://gitlab.com/gitlab-com/www-gitlab-com/-/tree/master/data/release_posts/unreleased/) on the `master` branch
+  - See [`data/release_posts/unreleased/samples/`](https://gitlab.com/gitlab-com/www-gitlab-com/-/tree/master/data/release_posts/unreleased/samples?ref_type=heads) for format and sample content
   - Note that the structure needs to be preserved, like `features:` then `primary:`, then the feature content
   - Images should be placed in `/source/images/unreleased/`
 - Update the `data/features.yml` (if applicable) to include your feature and commit the changes as part of the same merge request
