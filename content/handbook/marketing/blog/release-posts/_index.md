@@ -318,7 +318,7 @@ The generator will not create an MR for a confidential issue. To add a release p
 
 #### Option 2: manual MR creation
 
-- Create a new branch from `master` for each feature (primary, secondary, removal). [Deprecations are handled differently](#deprecations-and-other-planned-breaking-change-announcements)
+- Create a new branch from `master` of the [www-gitlab-com repository](https://gitlab.com/gitlab-com/www-gitlab-com) for each feature (primary, secondary, removal). [Deprecations are handled differently](#deprecations-and-other-planned-breaking-change-announcements)
 - Open a merge request targeted at the `master` branch
 - Use the [Release Post Item template](https://gitlab.com/gitlab-com/www-gitlab-com/blob/master/.gitlab/merge_request_templates/Release-Post-Item.md)
 - Content should be one YAML file added to `data/release_posts/unreleased/` on the `master` branch
