@@ -18,11 +18,7 @@ Groups and projects of the internal customer will have to be private, because th
 Internal customers might not need things like the CI Catalog or Advanced Search.
 
 The first internal customer to migrate is yet to be identified.
-The migration will loosely follow this plan:
-
-1. Create `GitLab Inc.` Organization on another Cell
-1. Use [Direct Transfer](https://docs.gitlab.com/ee/user/group/import/index.html) to move a group from the existing GitLab.com infrastructure to the other Cell.
-1. Use [Org Mover](https://gitlab.com/groups/gitlab-org/-/epics/12857) when it's ready to migrate the rest of the top-level groups and the feature set is enough for that top-level group. For example, `gitlab-org` will be moved in Cells 2.0.
+The migration will loosely follow this plan outline [Cells: Organization migration blueprint](../migration.md#cells-10)
 
 ## Consequences
 
