@@ -81,5 +81,18 @@ Refer to the [Rollout Guide](model_rollout_guide.md#create-a-rollout-plan) for m
 
 For both the direct-to-AIGW and indirect-through-GitLab-Rails requests, the decision on what model to use
 ultimately comes from GitLab Rails. When introducing a new model, you must
-[create a feature flag in GitLab Rails](https://docs.gitlab.com/ee/development/feature_flags/)
-to toggle the enablement of the new model.
+[create a `beta` type feature flag in GitLab Rails](https://docs.gitlab.com/ee/development/feature_flags/)
+to toggle the enablement of the new model. This feature flag must have an accompanying
+[rollout issue](https://gitlab.com/gitlab-org/gitlab/-/blob/master/.gitlab/issue_templates/Feature%20Flag%20Roll%20Out.md).
+
+### Allow customers to opt out
+
+Some customers may not be able to switch to the new model within the rollout timeline.
+We can add an opt-out capability to give customers more time before switching to the new model.
+This can be done by introducing an `ops` Feature Flag.
+This should ideally be an _opt-out_ flag (instead of _opt-in_), and should always be `false` by default.
+
+The Feature Flag actor can be decided on a case-to-case basis, but in general:
+
+- On GitLab SaaS, the flag will be checked against the _top-level group_ that is providing the user with the [GitLab Duo Add-on](https://docs.gitlab.com/ee/subscriptions/subscription-add-ons.html) seat.
+- On Self-Managed GitLab instances, the flag can be checked on the instance level.
