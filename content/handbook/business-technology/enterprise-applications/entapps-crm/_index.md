@@ -25,7 +25,7 @@ Our mission is to deliver a robust, end-to-end solution that streamlines and enh
 
 ## <i class="fas fa-users" id="biz-tech-icons"></i> Our Team
 
-[Our Team](https://internal.gitlab.com/handbook/it-enterprise-applications/organizational-structure/entapps-crm/)
+Learn more about [our team and roles](https://internal.gitlab.com/handbook/it-enterprise-applications/organizational-structure/entapps-crm/) in supporting GitLab's enterprise applications.
 
 ## <i class="fas fa-bullhorn" id="biz-tech-icons"></i> What We Do
 
