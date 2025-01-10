@@ -33,7 +33,7 @@ title: GitLab's Guide to Total Rewards
 | Who  | Job Title |
 |------|-----------|
 | Rob Allen | VP, People |
-| Cathy Lee | Director, Total Rewards |
+| Cathy Lee | Director, Global Compensation |
 | Angela Chung | Director, Executive Compensation & Equity |
 | Denise Parsonage| Director, Global Benefits Strategy|
 | Raisha Kole | Senior Benefits Program Manager |
