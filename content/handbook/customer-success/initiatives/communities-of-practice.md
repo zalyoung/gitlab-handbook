@@ -64,6 +64,7 @@ Potential key performance indicators include:
 
 | Cloud | [Regnard Raquedan](https://gitlab.com/rraquedan) |
 | Competitive intelligence                | [Péter Bozsó](https://gitlab.com/pboszo)|
+
 ### Process
 
 1. Establish a focus topic.
