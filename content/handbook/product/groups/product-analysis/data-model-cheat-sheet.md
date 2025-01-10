@@ -265,13 +265,11 @@ GitLab Duo is a suite of AI-powered features including Code Suggestions, Chat, a
 
 - Usage is attributed based on how an event happened (which namespace/installation enabled access), not where the event occurred. A single event can be enabled by multiple customers.
 
-
 #### Documentation
 
 <details markdown="1"><summary>Click to expand</summary>
 
 - [Data Guide to Duo Analysis](https://internal.gitlab.com/handbook/enterprise-data/data-catalog/duo-analysis/)
-
 
 </details>
 
