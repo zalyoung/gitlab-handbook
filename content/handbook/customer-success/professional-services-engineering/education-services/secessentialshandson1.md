@@ -59,7 +59,7 @@ Please take time to understand any code that you are asked to copy and paste in 
 
 1. Under **Visibility Level**, click **Private**.
 
-    > Since the parent group above your group is private, all child groups and projects below will be private. You can learn more about project visibility levels in the <a target="_blank" href="https://docs.gitlab.com/ee/user/public_access.html">documentation</a>.
+    > Since the parent group above your group is private, all child groups and projects below will be private. You can learn more about project visibility levels in the [documentation](https://docs.gitlab.com/ee/user/application_security/secret_detection/pipeline/custom_rulesets_schema.html).
 
 1. Check **Initialize repository with a README**.
 
