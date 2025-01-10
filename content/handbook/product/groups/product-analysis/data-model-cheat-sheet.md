@@ -296,5 +296,4 @@ GitLab Duo is a suite of AI-powered features including Code Suggestions, Chat, a
   - GitLab.com: `feature_enabled_by_namespace_ids`
   - Self-Managed & Dedicated: `instance_id` + `host_name`
 - For improvements in progress on AI Gateway reporting, follow: https://gitlab.com/gitlab-org/gitlab/-/issues/502457
-
 </details>
