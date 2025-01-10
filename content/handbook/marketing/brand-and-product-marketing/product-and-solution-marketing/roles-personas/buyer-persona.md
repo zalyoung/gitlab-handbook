@@ -33,7 +33,7 @@ See the [Enterprise IT Roles page](/handbook/marketing/brand-and-product-marketi
 
 #### Writing for all personas
 
-- When writing content, always remember to use the [GitLab voice](https://design.gitlab.com/brand/overview/#tone-of-voice) regardless of the persona.
+- When writing content, always remember to use the [GitLab voice](https://design.gitlab.com/brand-messaging/brand-voice) regardless of the persona.
 - Never alienate other personas. You can appeal to a buyer without buzzword bingo.
 - Look at who uses a channel most (twitter & docs: user, webinar linkedin: buyer) when shared (website) guide them /features for users /solutions for buyers.
 
