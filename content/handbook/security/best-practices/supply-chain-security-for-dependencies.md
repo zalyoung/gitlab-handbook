@@ -1,22 +1,33 @@
-<!-- TODO: Integrate https://gitlab.com/gitlab-org/gitlab/-/merge_requests/60618/diffs-->
+# Supply Chain Security for Open Source Dependencies and Libraries
 
-## Software Supply Chain Security Guidelines for Open Source Dependencies and Libraries
+## Overview
 
-This guide provides developers and security team members with best practices and considerations for evaluating and securing open source dependencies in their projects. By following these steps, one can minimize the risk of supply chain compromises and ensure the overall security of software.
+Software supply chain security has become increasingly critical as modern applications, including GitLab products, rely heavily on third-party open source dependencies and libraries. 
+A single compromised dependency can result in serious real-world consequences.
+This guide provides developers and security team members with best practices and considerations for evaluating and securely using open source dependencies in their projects.
 
-Follow these guidelines whenever a merge request (MR) adds a new library or dependency to:
+## When to Use These Guidelines
 
-- A library manifest (e.g., `Gemfile`, `package.json`, `go.mod`)
-- A lockfile (e.g., `Gemfile.lock`, `yarn.lock`, `go.sum`)
+Apply these guidelines when:
 
-### Supply Chain Security Considerations for Open Source Dependencies and Libraries
+- Reviewing merge requests (MRs) that add new dependencies
+- Evaluating updates to existing dependencies
+- Auditing current dependencies for security
+
+This includes changes to:
+
+- Library manifests (e.g., `Gemfile`, `package.json`, `go.mod`)
+- Lockfiles (e.g., `Gemfile.lock`, `yarn.lock`, `go.sum`)
+- Vendored dependencies
+
+### Evaluate Project Health and Secure Development Practices
 
 - Is the project actively developed, maintained, and mature?
   - When was the code last updated?
   - When was the last release shipped?
   - How many releases are there?
   - How frequently are new releases shipped?
-  - Is the software dependency version being evaluated a stable "release" version? (e.g. not an alpha, beta, 0.x or similar)
+  - Is the software dependency version being evaluated a stable "release" version? (for example: not alpha, beta, v0.x)
   - Is the project older than 90 days?
 - Is the project well-known or widely adopted in the software industry and open source community?
 - Given the complexity of the project, does the project have a sufficient number of maintainers and contributors?
@@ -35,10 +46,11 @@ Follow these guidelines whenever a merge request (MR) adds a new library or depe
 
 ### Code Inspection
 
-- Review all library code for malicious or problematic content
+- Review library code for malicious or problematic content
 - For Gems or Node.js modules, inspect the distributed code, not the repository
-- Use services like diffend.io for Gems or app.renovatebot.com for Node.js modules
+- Use services like [diffend.io](https://diffend.io/) for Gems or [app.renovatebot.com](https://app.renovatebot.com/) for Node.js modules
 - For vendored libraries, use standard code review tools
+- Review diffs for dependency upgrades to ensure the upgrade is safe and does not introduce new vulnerabilities or
 
 ### Supply Chain Security Best Practices
 
