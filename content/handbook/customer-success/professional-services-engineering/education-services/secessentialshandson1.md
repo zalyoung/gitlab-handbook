@@ -365,7 +365,7 @@ Please take time to understand any code that you are asked to copy and paste in 
 
 1. On the merge request page, wait for the pipeline to complete.
 
-1. Once the pipeline completes, the security scan will display in the merge request. Click the **Full report** button.
+1. Once the pipeline completes, the security scan will display in the merge request. Click the **View all pipleline findings** link.
 
     > You may need to refresh the page for the security scan to show.
 
