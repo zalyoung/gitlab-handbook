@@ -2,7 +2,7 @@
 title: Engineering Productivity
 ---
 
-# Engineering Productivity
+## Engineering Productivity
 
 GitLab’s leadership is committed to fostering an environment where engineers are measured fairly and encouraged to take risks, innovate, and grow. When it comes to measuring productivity, we aim to find metrics that align with our values and help drive meaningful outcomes for the company and our customers.
 
