@@ -64,8 +64,6 @@ Potential key performance indicators include:
 
 | Cloud | [Regnard Raquedan](https://gitlab.com/rraquedan) |
 | Competitive intelligence                | [Péter Bozsó](https://gitlab.com/pboszo)|
-
-
 ### Process
 
 1. Establish a focus topic.
@@ -75,4 +73,3 @@ Potential key performance indicators include:
 5. Setup a slack channel using the `#cop-` prefix, so team members know where to go for help.
 6. If needed, create a project in the [Communities of Practice group](https://gitlab.com/gitlab-com/customer-success/communities-of-practice) by using this [project template](https://gitlab.com/gitlab-com/customer-success/communities-of-practice/project-template)
 7. As needed, create and manage the [README.md](https://gitlab.com/gitlab-com/customer-success/communities-of-practice/project-template/-/blob/master/README.md)
-
