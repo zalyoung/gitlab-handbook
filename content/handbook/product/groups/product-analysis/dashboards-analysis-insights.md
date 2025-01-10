@@ -5,7 +5,7 @@ description: This page aggregates dashboards, analysis, and insights generated o
 
 ### Dashboards
 
-[Here is a list of Tableau dashboards](https://10az.online.tableau.com/#/site/gitlab/search/workbooks?search=peterson%20hervas%20raisinghani%20fergen%20petersen%20braza&tag=Product)
+[Here is a list of Tableau dashboards](https://10az.online.tableau.com/#/site/gitlab/search/workbooks?search=peterson%20hervas%20raisinghani%20fergen%20petersen%20fisher%20deng%20braza)
 owned by the Product Data Insights team. Note:
 
 * Viewing dashboards in the `SAFE` project require
