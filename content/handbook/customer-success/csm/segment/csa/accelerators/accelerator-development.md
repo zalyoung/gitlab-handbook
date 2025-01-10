@@ -33,8 +33,11 @@ Accelerator work encompasses two distinct dimensions, which are organized under 
 
 This guide and issue template refer strictly to the **development** of new Accelerators. Use it as a blueprint to ensure the Accelerator is well-documented, actionable, and ready for seamless delivery.
 
+---
 
 ## Important links
+
+---
 
 ### Group & projects
 
