@@ -20,7 +20,7 @@ Here are some useful links that we recommend for you to bookmark:
 - [Product Data Insights handbook](/handbook/product/groups/product-analysis/): Information about the Product Data Insights team
 - [Tableau documentation](/handbook/enterprise-data/platform/tableau/): Information and guides on how to use Tableau
 - [Analytics Instrumentation Quick Links](/handbook/product/product-processes/analytics-instrumentation-guide/#quick-links)
-- [Quick Start Guide for Internal Event Tracking](https://docs.gitlab.com/ee/development/internal_analytics/internal_event_instrumentation/quick_start.html): Comprehensive instructions on how to instrument event tracking and context around GitLab's internal tracking system. 
+- [Quick Start Guide for Internal Event Tracking](https://docs.gitlab.com/ee/development/internal_analytics/internal_event_instrumentation/quick_start.html): Comprehensive instructions on how to instrument event tracking and context around GitLab's internal tracking system.
 - [Usage Data Instrumentation Issue Template](https://gitlab.com/gitlab-org/gitlab/-/issues/new?issuable_template=Usage%20Data%20Instrumentation): Issue template for product managers or engineering teams looking to track usage of their features.
 
 ### Getting Tableau Access
