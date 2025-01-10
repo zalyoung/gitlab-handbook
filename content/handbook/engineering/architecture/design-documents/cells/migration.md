@@ -140,7 +140,9 @@ We could move organizations using [Direct transfer](https://docs.gitlab.com/ee/u
 
 ## Migration approaches at different major iterations of Cells
 
-We will need to adopt different approaches for each [major iteration](_index.md#cells-iterations) of the Cells evolution based on which technologies are available at each iteration.
+As we build out Cells we need a way to test the functionality at each [major iteration](_index.md#cells-iterations). We want to dog food the new Cells deployment together with Organizations. The first iteration of Cells will have limited functionality therefore, we cannot move all GitLab top-level groups out of the Legacy Cell to another Cell without severly impacting productivity. The following section outlines our approach to moving select top-level groups off the Legacy Cell into another Cell for dog food purposes and how we reconsile the top-level group as the Cells development progresses through the iterations.
+
+We will need to adopt different approaches for each major iteration of the Cells evolution based on which technologies are available at each iteration.
 
 As we discuss creating and migrating Organizations, it's important to call out that top-level groups will retain their URL as they move between Organizations. For example, when a customer's top-level group is moved from the [default Organization](../organization/_index.md#default-organization) to their own Organization, their method of access remains unchanged. This means bookmarks, git remote URLs, etc. for projects in these top-level groups remain unchanged and require no action from users or updates to automation after a migration.
 
@@ -160,10 +162,11 @@ Limitations:
 
 - Only top-level groups can be moved between organizations.
 - New IDs will be generated which will break automation and integrations - This is acceptable since we will only be moving a limited set of internal top-level groups.
+- Public top-level groups cannot be hosted on other Cells, only on the Legacy Cell.
 
-We will migrate a few small GitLab internal top-level groups to another Cell. There will be no customer org migrations in Cells 1.0. The specific top-level groups to be migrated will be identified in due course.
+We will migrate a few small GitLab internal top-level groups to another Cell. There will be no Organization migrations in Cells 1.0. The specific top-level groups to be migrated will be identified in due course.
 
-![org-migrations-cells-1-0](/images/design-documents/cells/org_migrations_cells_1_0.png)
+![gitlab_org-migrations-cells-1-0](/images/design-documents/cells/gitlab_org_migrations_cells_1_0.drawio.png)
 
 All existing top-level groups on GitLab.com are part of the `default Organization`.
 A list of all GitLab top-level groups can be found [here (internal link)](https://docs.google.com/spreadsheets/d/18JSGNWYXhAofSqPPLCh_wb0dc9wTT9HuOucHegmsYhA/edit#gid=0).
@@ -177,7 +180,7 @@ The top-level groups being migrated will be read-only for the duration of the mi
 
 ### Cells 1.5
 
-The focus will be moving top-level groups into Organizations and then migrating those Organizations from the Legacy Cell to other Cells.
+At the Cells iteration the focus will be moving top-level groups into Organizations and then migrating those Organizations from the Legacy Cell to other Cells.
 
 We will establish a process for moving top-level groups between organizations on the same Cell. This functionality is net new and will need to be developed in time for Cells 1.5 and is a pre-requisite before Org mover can move an Organization between Cells.
 
@@ -192,12 +195,9 @@ Limitations:
 
 - Only top-level groups can be moved between Organizations.
 - It will only be possible to move top-level groups between organizations in the same Cell - This is acceptable because our primary use case involves creating a new Organization for a customer in Cell 1 and moving their top-level groups into this Organization. Groups will not need to be moved across Cells at this iteration.
+- Public top-level groups cannot be hosted on other Cells, only on the Legacy Cell.
 
-At Cells 1.5, we will consolidate the GitLab Organization by merging the top-levels groups that are part of the GitLab Inc Organization with the main GitLab Organization - the long term home for all GitLab top-level groups.
-
-![org-migrations-cells-1-5](/images/design-documents/cells/org_migrations_cells_1_5.png)
-
-All remaining top-level GitLab groups on the Legacy Cell will be moved to the GitLab Organization. The entire GitLab Organization will be moved to the Cell hosting the GitLab Inc Organization using org mover. Following this, the two Organizations (GitLab and GitLab Inc) will be consolidated by moving the top-level groups in the temporary GitLab Inc Organization into the GitLab Organization. The GitLab Inc org will then be deleted.
+Note, GitLab top-level groups cannot be consolidated under a single GitLab Organization on the Cell hosting the GitLab Inc Organization at this point because many GitLab top-level groups are public groups. Public groups are only supported on the Legacy GitLab Cell. This will need to wait until the Cells-2.0 iteration.
 
 ### Cells 2.0
 
@@ -208,3 +208,10 @@ There is also a need to move top-level groups between Organizations that are on 
 Limitations:
 
 - Only top-level groups can be moved between organizations.
+
+
+At Cells 2.0, we will consolidate all GitLab top-level groups under the GitLab Organization by merging the top-levels groups that are part of the GitLab Inc Organization with the main GitLab Organization - the long term home for all GitLab top-level groups.
+
+![gitlab_org-migrations-cells-2-0](/images/design-documents/cells/gitlab_org_migrations_cells_2_0.drawio.png)
+
+All remaining top-level groups belonging to GitLab on the Legacy Cell will be moved to the GitLab Organization. The entire GitLab Organization will be moved to the Cell hosting the GitLab Inc Organization using org mover. Following this, the two Organizations (GitLab and GitLab Inc) will be consolidated by moving the top-level groups in the temporary GitLab Inc Organization into the GitLab Organization. The GitLab Inc org will then be deleted.
