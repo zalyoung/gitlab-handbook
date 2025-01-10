@@ -51,6 +51,9 @@ description: "This page discusses the Internal Hiring Process"
   - Internal team members should be alerting and receiving support from their current managers prior to formally applying to open roles. Offers at the end of an internal interview process should not come as a surprise to current managers.
   - TA will not discuss any compensation changes with the team member's current manager.
   - TA will not provide updates on interview feedback or progress to a team member's current manager. This should be discussed between managers and team members during 1:1s.
+  - Should the Recruiter not have access to a team members compensation, you should
+    - Reach out to People Connect by submitting a request through HelpLab using the [Internal Movement](https://helplab.gitlab.systems/esc?id=sc_cat_item&sys_id=7b2f4b8d4748069067429ee0026d435f) case template. In your request details please include that you the candidate has been selected to move forward and that you require their current compensation details. People Connect will only confirm the salary details and any confirmation on equity would need to be verified by the Total Rewards team separately.
+    - Within 48 hours, the People Connect team will respond and provide annual base compensation details to the Recruiter to utilize for the offer (in partnership with the hiring manager).
 
 ### Template for the Recruiter's slack message
 
@@ -62,9 +65,7 @@ As you are both aware, XXX has been interviewing for the XXX role and the team i
 - Please discuss any outstanding items that may require XX to stay in their current role longer than 6 weeks as we want to ensure they'll be able to have a smooth transition between roles.
 - I'd recommend connecting live if you can, but if not, async works and we can use this channel. If you do connect live, please  confirm with me once you've done so and agreed on a start date. Once I have that information, I will proceed with the formal offer approvals.  Once they accept the offer (and sign the Job Change Letter), we will be able to move forward with their backfill process. Thanks!
 
-- If the hiring team would like to move forward with an offer, the Recruiter will align with People Connect on the team member's current compensation. The Recruiter will
-  - Reach out to People Connect by submitting a request through HelpLab using the [Internal Movement](https://helplab.gitlab.systems/esc?id=sc_cat_item&sys_id=7b2f4b8d4748069067429ee0026d435f) case template. In your request details please include that you the candidate has been selected to move forward and that you require their current compensation details. People Connect will only confirm the salary details and any confirmation on equity would need to be verified by the Total Rewards team separately.
-  - Within 48 hours, the People Connect team will respond and provide annual base compensation details to the Recruiter to utilize for the offer (in partnership with the hiring manager).
+- If the hiring team would like to move forward with an offer, the Recruiter will access the team members current compensation in Workday to create the offer (in partnership with the hiring manager). Any confirmation on equity would need to be verified by the Total Rewards team separately. 
 - Once an internal candidate verbally accepts an offer, the Recruiter will notify CES to get the Job Change Letter (JCL) to the team member.
 
 ## CES Responsibilities
@@ -91,9 +92,10 @@ As you are both aware, XXX has been interviewing for the XXX role and the team i
       - SDR 12 months in role
       - SDR/BDR Team Lead 3 months in role
 - For any situations where further discussion may be needed, People Connect Leads will go to the department specific [PBP](/handbook/people-group#people-business-partner-alignment-to-division).
-- At the offer stage, the Recruiter will submit a request via HelpLab to attain current compensation information:
+- At the offer stage, should the Recruiter not have access to compensation data (due to a candidate moving Divisions for example), will submit a request via HelpLab to attain current compensation information:
   - People Connect checks Workday for current team member base compensation.
   - People Connect will then provide annual base compensation details in the HelpLab request. The Recruiter can then utilize this information while putting an offer together (in partnership with the hiring manager).
+
 
 ## Current Manager Responsibilities
 
@@ -106,7 +108,7 @@ If the team member is not selected for the new role, the current manager should 
 
 - Hiring Managers will be notified by Recruiter when an internal team member has applied and has completed the necessary eligibility checks as mentioned above, and they will follow the process outlined in the [Talent Acquisition Process Framework]({{< ref "talent-acquisition-framework" >}}) for all candidates.
 - If a team member moves to offer, the Recruiter will connect the Hiring Manager with the team member's current manager. Please follow the steps outlined by the Recruiter in their message via Slack (details above).
-- Hiring Manager will be provided the candidates compensation expectations from the Recruiter (in partnership with People Connect). It is up to the hiring manager to propose a compensation aligned with budget, candidate expectations, and internal pay equality.
+- Hiring Manager will be provided the candidates compensation expectations from the Recruiter. It is up to the hiring manager to propose a compensation aligned with budget, candidate expectations, and internal pay equality.
 - If internal candidates need to be declined post interviews, it is required that the hiring manager connect with the team member via Zoom to inform them of the decision and provide constructive feedback (an outline providing feedback can be found below).
 
 ### Delivering feedback to declined candidates
