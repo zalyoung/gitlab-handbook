@@ -54,7 +54,7 @@ Team members on leave will be eligible to receive an annual compensation and/or 
 
 Team members hired after the cutoff date will be reviewed to ensure their salary does not fall below the minimum of the compensation range. Team members may be below the compensation range due to updates to the range for the upcoming year that would include changes to benchmark, location factor, and/or exchange rate, if applicable. If this does occur, the team member will be adjusted to the minimum of the range during the Annual Compensation Review cycle.
 
-Additionally, Team Members who receive a promotion as part of the Q1 FY26 PromotionCycle (effective February 1st) will be eligible for the Annual Compensation Review process (including merit and equity).
+Additionally, Team Members who receive a promotion as part of the Q1 FY26 Promotion Cycle (effective February 1st) will be eligible for the Annual Compensation Review process (including merit and equity).
 
 Eligibility for review does not guarantee an increase will be awarded.
 
