@@ -8,7 +8,7 @@ GitLab’s leadership is committed to fostering an environment where engineers a
 
 Measuring engineering productivity remains a nuanced and complex challenge. While we have historically used various metrics to track productivity, including [Merge Request Rate](https://about.gitlab.com/blog/2020/08/27/measuring-engineering-productivity-at-gitlab/#what-is-mr-rate%3F) (MR Rate), we recognize that these numbers alone are insufficient to fully capture a team or engineer’s contribution to the company. In this part of the handbook, we outline various approaches to measuring productivity, the limitations of certain metrics, and how we can better align our performance metrics with GitLab’s broader goals.
 
-# Merge Request Rate
+## Merge Request Rate
 
 MR Rate has long been a metric associated with productivity in engineering at GitLab. However, its use has been controversial due to its limitations and the potential for undesirable behaviors, such as focusing on volume over value. When using MR Rate as a metric, you should consider the following:
 
