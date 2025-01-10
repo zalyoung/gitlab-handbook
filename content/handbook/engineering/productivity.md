@@ -1,8 +1,8 @@
 ---
-**title**: Engineering Productivity
+title: Engineering Productivity
 ---
 
-# Introduction
+# Engineering Productivity
 
 GitLab’s leadership is committed to fostering an environment where engineers are measured fairly and encouraged to take risks, innovate, and grow. When it comes to measuring productivity, we aim to find metrics that align with our values and help drive meaningful outcomes for the company and our customers.
 
@@ -24,7 +24,7 @@ Metrics never tell the whole story. Productivity and value cannot be captured by
 
 Managers are expected to have a deeper understanding of how productivity is measured within their teams. They should assess not just the volume of work done, but the quality and alignment of that work with GitLab’s goals. Leaders need to know who the high performers are and understand their motivations to get the best out of their teams.
 
-# Alternative Metrics
+## Alternative Metrics
 
 GitLab's leadership is actively working on developing a more holistic approach to measuring productivity, with the following considerations. We will explore a broader set of indicators that capture the variety of ways engineers contribute to the company, such as product adoption and contributions to operational efficiency.
 
@@ -44,7 +44,7 @@ In addition to feature development, engineers working on operational improvement
 
 It's important to recognize those who enable others to perform at their best, whether through mentoring, coaching, or connecting teams across the organization.
 
-# Guidance for Managers
+## Guidance for Managers
 
 As a manager at GitLab, it is your responsibility to understand the value your team brings to the company. This requires a multifaceted approach to measuring productivity, including but not limited to:
 
