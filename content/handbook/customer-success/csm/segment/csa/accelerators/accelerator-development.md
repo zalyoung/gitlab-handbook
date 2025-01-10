@@ -2,7 +2,7 @@
 title: "Accelerator Development Template Usage Guide"
 ---
 
-View the [Accelerator Handbook Homepage](../../../handbook/customer-success/success-services/#accelerators) for additional accelerator resources.
+For additional accelerator resources, refer to the Accelerator Handbook Homepage.
 
 ---
 
