@@ -1,10 +1,8 @@
 ---
-title: Security Risk Management, Security Insights
+title: Developer Vulnerability Management Setup Guide
 description: "The Security Insights group at GitLab is charged with developing solutions to enable customers to manage their security risks effectively and efficiently."
 layout: single
 ---
-
-# Developer Vulnerability Management Setup Guide
 
 ## Requirements
 
@@ -12,7 +10,7 @@ layout: single
 
 To fully run Vulnerability Management on your local machine, you must have set up the [GDK](https://gitlab.com/gitlab-org/gitlab-development-kit/-/blob/main/doc/index.md).
 
-### Set up Runner
+### Set up runner
 
 To display the Vulnerability Reports, you need to set up the runner. Follow these steps:
 
@@ -29,7 +27,7 @@ To display the Vulnerability Reports, you need to set up the runner. Follow thes
 
 For additional details or troubleshooting, consult the official [runner setup guide](https://gitlab.com/gitlab-org/gitlab-development-kit/blob/main/doc/howto/runner.md#set-up-a-runner).
 
-### Ensure EE License
+### Ensure EE license
 
 To display Vulnerability Reports and the Vulnerability Management tool in GitLab, you need an Enterprise Edition [(EE) license](https://gitlab.com/gitlab-org/gitlab-development-kit/blob/main/doc/index.md#use-gitlab-enterprise-features). This license enables features exclusive to the EE tier. To generate an EE development license, follow these steps:
 
