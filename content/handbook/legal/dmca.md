@@ -1,5 +1,5 @@
 ---
-title: DMCA Policy
+title: Content Removal Guidelines
 ---
 
 ## DMCA (Digital Millennium Copyright Act) takedown request requirements
@@ -56,3 +56,15 @@ You can send this information to dmca@gitlab.com, you should receive an automate
 Disputes regarding namespaces, ownership and trademarks are not governed by DMCA. These disputes must be resolved by the parties involved. GitLab will never act as arbitrators or intermediaries in these disputes and will not take any action without the appropriate legal orders.
 
 For more information, see our [Namespace and Trademark Policy](https://about.gitlab.com/support/gitlab-com-policies/#namespace--trademarks) and [Ownership Dispute Policy](https://about.gitlab.com/support/gitlab-com-policies/#ownership-disputes)
+
+## EU Digital Services Act (DSA) 
+
+Information on how European Union users and authorities may submit requests to GitLab relating to the EU Digital Services Act (DSA), as well as other information related to the DSA. 
+
+### EU Illegal Content Reporting
+
+The DSA requires hosting services to provide a method for people to report content that is potentially illegal in the EU. 
+
+Please use this [form] to report content that you believe is illegal in the European Union. This form should be used by individuals claiming legal rights in the EU, as well as individuals or entities designated as trusted flaggers pursuant to the DSA. Trusted flagger reports will be prioritized for review, in accordance with the DSA. We also ask individuals who report potentially illegal content in the EU to provide clear and concise information in English, or provide an English translation, wherever possible.
+
+GitLab may restrict access to content determined to violate the law(s) of the EU country specified in your report. If you want to report a potential violation of GitLab’s [Acceptable Use](https://handbook.gitlab.com/handbook/legal/acceptable-use-policy/) or [Community Code of Conduct](https://about.gitlab.com/community/contribute/code-of-conduct/) policies rather than an EU legal violation, please refer to [this guide](https://handbook.gitlab.com/handbook/security/security-operations/trustandsafety/abuse-on-gitlab-com/) on how to report abuse. Note that if you don’t have a GitLab account, you can report potential violations by contacting the GitLab Trust and Safety team at abuse@gitlab.com. 
