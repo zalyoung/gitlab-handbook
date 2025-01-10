@@ -8,6 +8,7 @@ GitLab's pricing strategy is set by the CEO. Everyone can contribute, and the be
 Contributions are part of the day-to-day jobs of the following people:
 
 - Principal Pricing Manager (Sean Hall)
+- Senior Pricing Manager (Sarah DeVries)
 - VP, Product Management (Justin Farris)
 
 ## Pricing Strategy
