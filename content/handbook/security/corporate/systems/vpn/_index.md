@@ -50,7 +50,7 @@ Dedicated IP's are listed below for reference by Security teams or incident resp
 
 | Location | IP |
 | --- | --- |
-| GitLab - Los Angeles | 146.70.49.165 |
+| GitLab - Los Angeles | 216.74.107.115 |
 | GitLab - New York | 146.70.186.59 |
 | GitLab - Atlanta | 205.234.251.167 |
 | GitLab - Belgium | 146.70.55.7 |
