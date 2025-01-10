@@ -148,6 +148,8 @@ As we discuss creating and migrating Organizations, it's important to call out t
 
 ### Cells 1.0
 
+[fd](#cells-10)
+
 Cells 1.0 will use [Direct Transfer (DT)](https://docs.gitlab.com/ee/user/group/import/) to move internal top-level groups to a separate Organization.
 
 We still need to evaluate and address any gaps, but this is the only option available in this time frame.
@@ -208,7 +210,6 @@ There is also a need to move top-level groups between Organizations that are on 
 Limitations:
 
 - Only top-level groups can be moved between organizations.
-
 
 At Cells 2.0, we will consolidate all GitLab top-level groups under the GitLab Organization by merging the top-levels groups that are part of the GitLab Inc Organization with the main GitLab Organization - the long term home for all GitLab top-level groups.
 
