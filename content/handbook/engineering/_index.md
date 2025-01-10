@@ -2,7 +2,7 @@
 title: Engineering
 ---
 
-[The GitLab Product team](/handbook/product/) looks ahead for expanding the platform “What" (features) and "Why” (product strategy) and Engineering determines the “How" (technical implementation) and "When” (scheduling) of the platform releases. The content on this page talks about how we do engineering at GitLab.
+[The GitLab Product team](/handbook/product/) looks ahead for expanding the platform “What" (customer needs) and "Why” (business strategy) and Engineering determines the “How" (technical implementation) and "When” (scheduling) of the platform releases. The content on this page talks about how we do engineering at GitLab.
 
 ## Engineering Direction
 
