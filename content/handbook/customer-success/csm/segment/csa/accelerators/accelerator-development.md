@@ -2,7 +2,7 @@
 title: "Accelerator Development Template Usage Guide"
 ---
 
-View the [Accelerator Handbook Homepage](/handbook/customer-success/accelerators/) for additional accelerator resources.
+View the [Accelerator Handbook Homepage](https://handbook.gitlab.com/handbook/customer-success/success-services/#accelerators) for additional accelerator resources.
 
 ---
 
@@ -31,9 +31,35 @@ Accelerator work encompasses two distinct dimensions, which are organized under 
    Managed by the **Customer Success Architect (CSA)** team, this dimension involves implementing the developed Accelerators for customers.  
    - Activities include structured workshops, guided implementation, and continuous check-ins to ensure Accelerators are tailored to customer needs and deliver measurable outcomes.
 
-This guide and template refer strictly to the **development** of new Accelerators. Use it as a blueprint to ensure the Accelerator is well-documented, actionable, and ready for seamless delivery.
+This guide and issue template refer strictly to the **development** of new Accelerators. Use it as a blueprint to ensure the Accelerator is well-documented, actionable, and ready for seamless delivery.
 
----
+
+## Important links
+
+### Group & projects
+
+- [<i class="far fa-clipboard"></i> Success Services Group](https://gitlab.com/gitlab-com/customer-success/success-services)
+- [<i class="far fa-clipboard"></i> Accelerator Development Project](https://gitlab.com/gitlab-com/customer-success/success-services/csa)
+- [<i class="far fa-clipboard"></i> Accelerator Delivery Project](https://gitlab.com/gitlab-com/customer-success/success-services/success-enterprise-customers)
+
+### Issue Boards
+
+- [<i class="far fa-clipboard"></i> Accelerator Development](https://gitlab.com/gitlab-com/customer-success/success-services/csa/-/boards)
+
+### Value Stream Analytics 
+
+Value Stream Analytics (VSA) is the solution for managers and leadership to get actionable insights into the Accelerator development process. VSA allows them to balance out workloads, identify bottlenecks
+
+- [<i class="far fa-clipboard"></i> Accelerator Development](https://gitlab.com/gitlab-com/customer-success/success-services/csa/-/value_stream_analytics?created_after=2024-12-12&created_before=2025-01-10&value_stream_id=2008305)
+
+### Accelerator Repository
+
+The Accelerator Repository is a centralized collection of well-documented, accelerator blueprints  (like the AI-Assisted Code Review example), that CSAs can leverage in their own projects. 
+
+The Accelerator blueprints contain information that include workshops guides, timelines, prerequisites, implementation steps, expected outcomes, and success metrics.
+
+- [<i class="far fa-clipboard"></i> Accelerator Development](https://gitlab.com/gitlab-com/customer-success/success-services/csa/-/tree/main/Accelerators)
+
 
 ## Accelerator Development Template Walkthrough with Examples
 
@@ -108,9 +134,9 @@ Define quantitative and qualitative metrics to measure success.
 Include data sources for tracking progress.
 
 #### Example:  
-- [Gainsight Dashboard](#)  
-- [Service Ping Metrics](#)  
-- [GitLab Project Backlog](#)
+- Gainsight Dashboard  
+- Product Adoption Metrics
+- Salesforce Data
 
 ---
 
@@ -155,46 +181,77 @@ Define critical milestones and deliverables.
 - **Week 1-2**: Initial template prototypes developed.  
 - **Week 3-12**: Templates implemented and validated.
 
----
 
 
 ## Labeling for Value Stream Analytics
 
-Proper labeling in GitLab projects is critical for ensuring visibility into the progress and success of Accelerators. Labels allow for consistent tracking and reporting across the entire lifecycle of Accelerator development and delivery. They provide key insights into where work is being done and help align efforts with the broader value stream.
+# Proper Labeling in GitLab Projects
 
-### Why Labeling Matters
+Proper labeling  accelerator development issues, is critical for ensuring visibility into the progress and success of Accelerators. Labels allow for consistent tracking and reporting across the entire lifecycle of Accelerator development and delivery. They provide key insights into where work is being done and help align efforts with the broader value stream.
+
+## Why Labeling Matters
 
 Labels:
+
 - **Facilitate workflow tracking**: Ensure clear progress monitoring across stages.
 - **Enable data-driven insights**: Leverage Value Stream Analytics (VSA) to identify bottlenecks and optimize processes.
 - **Support alignment with business goals**: Ensure that efforts are focused on high-priority initiatives.
 
-### Workflow Labels and Their Purpose
+---
 
-1. **`workflow| problem validation` (Stage: Backlog)**  
-   - Used for issues in the initial discovery phase.
-   - Ensures problems are clearly defined before moving to solution validation.
+## Workflow Labels and Their Purpose
 
-2. **`workflow| solution validation` and `workflow| planning breakdown` (Stage: Accelerator Validation)**  
-   - Marks issues undergoing exploration for potential solutions.
-   - Prepares detailed plans to validate Accelerator concepts before development.
+### 1. Backlog Stage
+**Label:** `workflow| problem validation`
 
-3. **`workflow| planning breakdown` and `workflow| ready for development` (Stage: Accelerator Planning)**  
-   - Indicates readiness to begin development.
-   - Ensures all dependencies and tasks are clearly defined.
-
-4. **`workflow| in progress` and `workflow| scheduling` (Stage: Accelerator Development)**  
-   - Tracks active development of Accelerators.
-   - Scheduling ensures alignment with delivery timelines.
-
-5. **`workflow| scheduling` and `workflow| in review` (Stage: Accelerator Review)**  
-   - Represents the review and refinement process.
-   - Ensures Accelerators meet quality standards and deliver intended outcomes.
-
-6. **Peer Review Stage**  
-   - Issues are reviewed by peers, and the stage is exited once the issue is closed.
+- Used for issues in the initial discovery phase.
+- Ensures problems are clearly defined before moving to solution validation.
 
 ---
+
+### 2. Accelerator Validation Stage
+**Labels:**  
+`workflow| solution validation → workflow| planning breakdown`
+
+- Marks issues undergoing exploration for potential solutions.
+- Prepares detailed plans to validate Accelerator concepts before development.
+
+---
+
+### 3. Accelerator Planning Stage
+**Labels:**  
+`workflow| planning breakdown → workflow| ready for development`
+
+- Indicates readiness to begin development.
+- Ensures all dependencies and tasks are clearly defined.
+
+---
+
+### 4. Accelerator Development Stage
+**Labels:**  
+`workflow| in progress → workflow| scheduling`
+
+- Tracks active development of Accelerators.
+- Scheduling ensures alignment with delivery timelines.
+
+---
+
+### 5. Accelerator Review Stage
+**Labels:**  
+`workflow| scheduling → workflow| in review`
+
+- Represents the review and refinement process.
+- Ensures Accelerators meet quality standards and deliver intended outcomes.
+
+---
+
+### 6. Peer Review Stage
+**Labels:**  
+`workflow| in review → Issue closed`
+
+- Issues are reviewed by peers.
+- The stage is exited once the issue is closed.
+
 
 ## Making the Template Actionable
 
