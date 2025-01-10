@@ -27,7 +27,7 @@ Per the current [Referral Submission Process]({{< ref "referral-process#submitti
         - The appropriate *Sourcer(s)* is determined by referencing the **Hiring Team** page of the requisition.
 1. Check to make sure the Issue is marked as `Confidential`.
     - *Reruiting Operations & Insights* will ensure this setting is enabled.
-1. Check to see if the vacancy is posted on the external [Job Board](https://job-boards.greenhouse.io/gitlab) and if it is, **tag** the *Referrer*, **comment** that they'll need to submit their referral directly in Greenhouse per [these instructions](/handbook/hiring/referral-process/#submitting-a-referral-in-greenhouse), and **close** the Issue.
+1. Check to see if the vacancy is posted on the external [Job Board](https://job-boards.greenhouse.io/gitlab) and if it is, **tag** the *Referrer*, **comment** that they'll need to submit their referral directly in Greenhouse per [these instructions](/handbook/hiring/referral-process/#how-to-submit-a-referral-in-greenhouse), and **close** the Issue.
     - *Reruiting Operations & Insights* will check to make sure the vacancy is only posted internally.
 1. If the vacancy is **only** open internally, go to your Greenhouse dashboard and click `+` > `Add a Referral`.
 1. Reference the Issue to see what should be entered in the following fields:
