@@ -1,5 +1,6 @@
 ---
-title: Channel and Partner Marketing Team
+title: "Channel and Partner Marketing Team"
+---
 
 ## Channel Marketing Program Specialist
 
