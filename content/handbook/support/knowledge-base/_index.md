@@ -70,7 +70,8 @@ knowledge base content. This has the following benefits:
 1. Pick the appropriate template in the [`/kb-documentation/templates`](https://gitlab.com/gitlab-com/support/support-pages/-/tree/master/kb-documentation/templates)
    directory:
    - [`break-fix.md`](https://gitlab.com/gitlab-com/support/support-pages/-/blob/master/kb-documentation/templates/break-fix.md): Specific issues encountered by users with one or more specific resolution steps.
-   - Other types of content TBD.
+   - ['how-to.md'](https://gitlab.com/gitlab-com/support/support-pages/-/blob/master/kb-documentation/templates/how-to.md): Specific steps to do a specific task. Does not need to be an issue.
+   - [`question-answer.md`](https://gitlab.com/gitlab-com/support/support-pages/-/blob/master/kb-documentation/templates/question-answer.md): Simple article answering a question.
 1. Duplicate the template, placing the new file in the appropriate directory:
    - [`/knowledge-base/all_instances`](https://gitlab.com/gitlab-com/support/support-pages/-/tree/master/knowledge-base/all_instances):
      This is where the majority of knowledge base articles will live.
@@ -79,11 +80,11 @@ knowledge base content. This has the following benefits:
    - [`/knowledge-base/us_government_only`](https://gitlab.com/gitlab-com/support/support-pages/-/tree/master/knowledge-base/us_government_only):
      For content specific to our US Government product offerings.
 1. Fill out the template with the content you'd like to contribute. Focus more on the technical
-   content, while following the style and content guide in the template as closely as you can.
+   content, while following the [style and content guide](./kb-style-guide.md) as closely as you can.
 1. Create the merge request using the `Knowledge Base Article` template.
 1. Assign reviewers:
    - If timeliness is important, assign a Staff Support Engineer or Support Manager for review.
-   - Otherwise, assign a KB editor: currently `@irisb` or `@weimeng-gtlb`.
+   - Otherwise, the template will assign the KB editors: currently `@irisb` or `@weimeng-gtlb`.
 
 ### Reviewing a KB article
 
