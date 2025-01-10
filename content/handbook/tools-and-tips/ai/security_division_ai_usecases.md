@@ -2,9 +2,11 @@
 title: "AI use cases within the Security Division at GitLab"
 ---
 
-Learn how the [Security Division](https://handbook.gitlab.com/handbook/security/) leverages Claude and DUO to optimize workflows, improve productivity and automate manual tasks. 
+Learn how the [Security Division](https://handbook.gitlab.com/handbook/security/) leverages AI platforms such as Claude and Duo to optimize workflows, improve productivity and automate manual tasks. 
 
-## Active Use Case Library
+## Security Tools and Automations Using AI
+
+The Security Division integrates AI capabilities into various tools and automations. Most use cases integrate AI capabilities into existing tools and capabilities to improve productivity and automate manual processes and tasks. 
 
 | Tool | AI Engine | Use Case | Team |
 |------|-----------|----------|------|
@@ -15,6 +17,12 @@ Learn how the [Security Division](https://handbook.gitlab.com/handbook/security/
 | [Duo generated CVE descriptions](https://gitlab.com/gitlab-com/gl-security/engineering-and-research/automation-team/h1bot/-/merge_requests/46) | Duo | Generates CVE description from the imported HackerOne reports that can optionally be used in our CVE's. | [Application Security](https://handbook.gitlab.com/handbook/security/product-security/application-security/) |
 | [Automate our Continous Control Monitoring Program](https://gitlab.com/gitlab-com/gl-security/security-assurance/security-compliance/team/-/tree/AWS-API-test/Continuous%20Control%20Monitoring/AWS?ref_type=heads) | Claude | Generate entire scripts used for: Pull data from resources (e.g. AWS); Pull policies from a yaml file; Perform an audit analysis and Conclusion (example [here](https://gitlab.com/gitlab-com/gl-security/security-assurance/security-compliance/continous-control-monitoring-program/-/issues/2)) | [Security Compliance](https://handbook.gitlab.com/handbook/security/security-assurance/security-compliance/) |
 | [Generation of Test Cases for gitlab-assistant](https://gitlab.com/gitlab-com/gl-security/security-assurance/governance-and-field-security/governance/security-assurance-automation-subgroup/gitlab-assistant) | Duo | Generate basic and complex test cases for a Python module that standardizes scripting of solutions across the team when building automations and functionality for interactions with GitLab. The module introduces business logic beyond the basic API endpoint interactions. |
+
+## AI Driven Process Efficiencies
+
+| Process | AI Engine | Efficiency Details | Team | 
+|------|-----------|----------|------|
+| | | |
 
 ## Ideas, Experiements and Tests
 
