@@ -63,11 +63,11 @@ erDiagram
 
   "ErrorMonitorings" {
     integer id PK
-    string message "null:false"
+    text message "null:false"
     string code
-    string error_type
+    string error_type, limit: 1000
     string status "null:false"
-    string gitlab_issue_link
+    string gitlab_issue_iid
     text backtrace
     jsonb payload
     text notes
@@ -79,8 +79,8 @@ erDiagram
 The `error_monitorings` table is designed to store meaningful errors that are valuable for monitoring as they occur. Most of the columns are self explanatory. Taking an example of the [current logging in google cloud](https://console.cloud.google.com/logs/query;query=resource.type%3D%22gce_instance%22%0Aseverity%3DERROR%0AinsertId%3D%22va7ahf34wc3i%22;cursorTimestamp=2024-09-06T03:18:44.840Z;aroundTime=2024-09-06T03:18:44.840Z;duration=PT24H?project=gitlab-subscriptions-prod).
 
 * `code` -> VALIDATION_ERROR
-* `error_type` -> Subscription update failed
-* `message` -> This code is not valid. Try re-entering the code from your email.
+* `error_type` -> This code is not valid. Try re-entering the code from your email.
+* `message` -> Subscription update failed
 
 Currently, we are tagging error messages with `fulfillment_job_monitoring` within the codebase and using GCloud to look up and resolve them individually. Moving forward, the plan remains the same: we will begin by logging errors with the `fulfillment_job_monitoring` tag into the database.
 
