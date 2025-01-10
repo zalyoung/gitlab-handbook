@@ -16,60 +16,61 @@ toc_hide: true
 
 This design document proposes adopting Flux as the standardized GitOps solution for managing GitLab.com's infrastructure workloads, replacing the current dual-tooling approach of gitlab-helmfiles and tanka-deployments. Flux will provide automated synchronization, enhanced security, and improved multi-tenancy support while reducing deployment complexity and preventing configuration drift. This adoption aligns with GitLab's involvement in the Flux project and follows successful implementations by teams like Runway.
 
+The implementation is expected to deliver improvements across several key areas:
+
+1. Operational Efficiency
+   - Reduced deployment times through targeted reconciliation
+   - Fewer manual interventions through automation
+   - Automated drift detection and correction
+   - Streamlined workflow with single tool and methodology
+
+2. Resource Optimization
+   - More efficient CI pipeline usage through targeted deployments
+   - Lower operational overhead from consolidated tooling
+   - Improved cluster resource utilization
+   - Reduced engineering time spent on maintenance
+
+3. Security Enhancements
+   - Enhanced supply chain security with artifact verification
+   - Improved secret management and access control
+   - Better audit trails and compliance tracking
+   - Standardized security practices across deployments
+
+4. Team Productivity
+   - Simplified onboarding process for new services
+   - Reduced cognitive load from single tool adoption
+   - Improved troubleshooting capabilities
+   - Enhanced collaboration through standardized practices
+
 ## Motivation
 
 GitLab.com's infrastructure team currently manages Kubernetes workloads using two different mechanisms - gitlab-helmfiles and tanka-deployments. This dual-tooling approach has created several challenges.
 
 ### Current Architecture Challenges
 
-1. Deployment Complexity
-   - Two separate deployment mechanisms require maintaining different workflows
-   - Implicit dependencies between helm releases make ordering difficult
-   - No standardized way to establish release prerequisites
-   - Complex branching strategy across multiple repositories
-   - Manual intervention often needed for failed deployments
-   - Long deployment times due to full environment diffing on every change
+- **Deployment Complexity**
 
-2. Operational Overhead
-   - Teams must context switch between helmfile and tanka tooling
-   - Duplicate configuration patterns across both systems
-   - No automated drift detection or correction
-   - Manual secret rotation and management
-   - Complex rollback procedures requiring human intervention
-   - Additional CI pipeline maintenance for both tools
-   - High cognitive load from managing two different systems
+The current dual-tooling approach creates significant complexity in our deployment workflows. Managing both helmfile and tanka deployments requires maintaining parallel processes and documentation, leading to confusion and increased chances of errors. A particularly challenging aspect is the handling of dependencies between helm releases, which are currently implicit and poorly documented. This makes it difficult to understand deployment prerequisites and properly sequence releases, especially when deploying to test clusters where we may not want to deploy every component. The branching strategy across multiple repositories has become unwieldy, requiring careful coordination and often manual intervention when deployments fail. Furthermore, our current setup performs full environment diffing on every change, resulting in unnecessarily long deployment times even for minor updates.
 
-3. Technical Debt
-   - Legacy configurations maintained for backward compatibility
-   - Inconsistent deployment patterns between teams
-   - Complex jsonnet libraries with poor documentation
-   - Custom shell scripts required for deployment orchestration
-   - No standardized way to handle CRDs
-   - Accumulated workarounds for tool limitations
+- **Operational Overhead**
 
-4. Security Concerns
-   - Limited RBAC granularity
-   - Manual secret management across environments
-   - Complex CODEOWNERS maintenance for access control
-   - No built-in supply chain security features
-   - Lack of automated security scanning integration
-   - Manual audit trail through Git history
+Day-to-day operations are significantly impacted by the need to maintain and switch between helmfile and tanka tooling. Teams must constantly context switch between different deployment methodologies, leading to reduced efficiency and increased chance of errors. The lack of automated drift detection means configuration divergence can go unnoticed until it causes problems, requiring periodic manual audits to ensure cluster state matches our desired configuration. Rollback procedures often require human intervention, increasing the risk of extended outages. The need to maintain separate CI pipelines for both tools further compounds the operational burden, with teams spending considerable time troubleshooting pipeline issues rather than focusing on platform improvements.
 
-5. Scalability Issues
-   - Long CI pipeline times impacting velocity
-   - Resource-intensive full cluster reconciliation
-   - Manual intervention required for cross-cluster deployments
-   - No native multi-cluster support
-   - Limited ability to handle large numbers of releases
-   - Performance degradation with increased number of resources
+- **Technical Debt**
 
-6. Multi-tenancy Limitations
-   - Complex permission management across repos
-   - No native tenant isolation
-   - Manual namespace and RBAC configuration
-   - Difficult to delegate control to stage teams
-   - No standardized onboarding process
-   - Risk of tenant interference
+Years of maintaining two parallel systems has led to significant technical debt. Inconsistent deployment patterns have emerged between teams using different tools. The tanka deployment system relies on complex jsonnet libraries that are poorly documented and understood by only a few team members.
+
+- **Security Concerns**
+
+Our current setup presents several security challenges that are becoming increasingly critical. The limited RBAC granularity makes it difficult to implement proper access controls, while the manual secret management across environments increases the risk of exposure. Managing access through CODEOWNERS files has become complex and error-prone, requiring frequent updates and careful review. The lack of built-in supply chain security features means we have no automated way to verify the integrity of deployed artifacts. Security scanning must be implemented separately for each tool, leading to potential gaps in coverage. Additionally, audit trails are limited to Git history, making it difficult to track and report on deployment changes comprehensively.
+
+- **Scalability Issues**
+
+As our infrastructure grows, scalability limitations are becoming more apparent. The current setup requires long-running CI pipelines that impact deployment velocity, while resource-intensive full cluster reconciliation operations strain our infrastructure. Cross-cluster deployments require manual intervention and coordination, making it difficult to manage our expanding cluster fleet efficiently. The lack of native multi-cluster support means we've had to implement custom solutions that are difficult to maintain and scale. We're also seeing performance degradation as the number of releases increases, with no clear path to improvement without significant architectural changes.
+
+- **Multi-tenancy Limitations**
+
+The current architecture struggles to provide effective multi-tenant support, a critical requirement for our growing organization. Permission management across repositories is complex and error-prone, with no native tenant isolation capabilities. Teams must manually configure namespaces and RBAC settings for each new tenant, leading to inconsistencies and security risks. Delegating control to stage teams is particularly challenging, requiring careful coordination and multiple repository changes. The lack of a standardized onboarding process means each new tenant requires significant manual effort to set up, while the risk of tenant interference remains high due to limited isolation capabilities. These limitations make it increasingly difficult to scale our platform across multiple teams and applications.
 
 ### Goals
 
@@ -94,7 +95,7 @@ GitLab.com's infrastructure team currently manages Kubernetes workloads using tw
 
 We propose adopting FluxCD as the standardized GitOps solution for managing GitLab.com infrastructure workloads. Flux offers several key characteristics that make it particularly well-suited for GitLab's infrastructure needs:
 
-### FluxCD Key Characteristics for GitLab.com
+### FluxCD Key Characteristics
 
 1. GitOps-Native Architecture
    - Declarative configuration using Git as single source of truth
@@ -202,14 +203,16 @@ k8s-mgmt/
 │   │   ├── staging/
 │   │   └── production/
 │   └── tenants/
-│       ├── foundation/
+│       ├── infra/
+│       ├── foundations/
+│       ├── observability/
 │       └── stage-teams/
 ├── infra/  # Infrastructure components
 │   ├── components/
 │   │   ├── cert-manager/
 │   │   ├── external-dns/
 │   │   └── monitoring/
-│   └── configs/
+│   └── updates/
 └── applications/  # Stage team applications
     └── components/
 ```
@@ -277,6 +280,8 @@ Reference: [Flux Monitoring](https://fluxcd.io/flux/monitoring/)
 
 ### 1. Maintain Status Quo (gitlab-helmfiles + tanka)
 
+Maintaining our current dual-tooling approach with helmfiles and tanka would avoid the immediate effort of migration, but would perpetuate the significant challenges outlined in the Motivation section. While the current system is familiar to teams and has proven functional at our current scale, it presents increasing limitations as we grow.
+
 Pros:
 
 - No migration effort required
@@ -298,6 +303,32 @@ Cons:
 - Limited automation capabilities
 - Complex onboarding for new applications
 - Difficulty scaling with organization growth
+
+#### Impact on Team Velocity
+
+1. Development Friction
+   - Long lead times for new service onboarding
+   - Complex debugging across two systems
+   - High learning curve for new team members
+   - Frequent context switching between tools
+   - Manual steps slowing down deployments
+   - Limited automation possibilities
+
+2. Operational Burden
+   - Increased on-call load from manual interventions
+   - Complex troubleshooting across two systems
+   - Double the documentation maintenance
+   - Training requirements for both tools
+   - Higher risk of human error
+   - More time spent on maintenance
+
+3. Future Limitations
+   - Difficulty integrating with modern platform tools
+   - Limited ability to implement advanced deployment strategies
+   - No clear path for security improvements
+   - Challenges with multi-cluster expansion
+   - Growing complexity with scale
+   - Technical debt accumulation
 
 ### 2. Adopt ArgoCD
 
