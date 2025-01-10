@@ -265,6 +265,7 @@ Within this department, this team member would take on more strategic projects t
 GitLab is successfully partnering with top cloud and LLM providers, including Amazon Web Services and Google Cloud Platform, to meet our customers needs and to continue to deliver on their success. This role requires an experienced and full-stack marketer to support these relationships by driving and delivering on a co-marketing strategy. This role will include working with our partners’ marketing and sales teams, as well as cross-functionally at GitLab to create messaging, content, campaigns, programs, and events that build awareness around the partnerships and drive pipeline.
 
 ### Responsibilities
+
 - Messaging and Positioning: Partner to develop internal and external-facing better together messaging that delivers on the strengths, key differentiators, and customer value of our partnerships.
 - Content: Drive the creation of relevant partnership content, including joint customer success stories, blog posts, whitepapers, and webinars, .
 - Event Planning and Execution: Conceptualize and manage partnership presence and activation at owned and third-party events. 
@@ -272,6 +273,7 @@ GitLab is successfully partnering with top cloud and LLM providers, including Am
 - Collaboration: Be the face of partner marketing, building strong and productive relationships with our partner marketing and sales organizations, and GitLab colleagues.
 
 ### Requirements
+
 - 10+ years enterprise software marketing experience, ideally working with software partners. 
 - Product marketing or product management experience is required. 
 - Understanding of Agile and DevOps methodologies across the entire Software Development Lifecycle, especially in large enterprise environments.
