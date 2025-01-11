@@ -5,9 +5,11 @@ description: "Cross Functional team focusing on specific topics. Learn more!"
 
 ### What's a Community of Practice?
 
-A Community of Practice (CoP) is a self-organized, cross-functional group of *Subject Matter Experts* (or aspiring to be!) within GitLab dedicated to a topic within GitLab or the broader DevSecOps space. The goal is to primarily to create thought leadership at GitLab, often in the form of content and other assets, with CoP members benefitting from sharing experiences with the topic. In turn, CoP's will build broader subject matter depth within our organization to advice our customers and our marketing and product teams.
+A Community of Practice (CoP) is a self-organized, cross-functional group of GitLab team members dedicated to a topic within GitLab or the broader DevSecOps space. The goal is to primarily to create thought leadership at GitLab, often in the form of content and other assets, with CoP members benefitting from sharing experiences with the topic. In turn, CoP's will build broader subject matter depth within our organization to advice our customers and our marketing and product teams.
 
 The content and assets are [aggregated into a single group](https://gitlab.com/gitlab-com/customer-success/communities-of-practice) to maximize discoverability. Each Community of Practice has a project which contains a Readme of links and an issue board for discussion.
+
+Please note that even though [Subject Matter Experts](/handbook/solutions-architects/sa-practices/subject-matter-experts) tend to participate in CoPs, that's technically a separate, more formal program.
 
 ### Roles and Responsibilities
 
