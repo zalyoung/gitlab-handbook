@@ -81,7 +81,7 @@ The following are the questions to consider when determining incident severity:
         1. [Megan Filo](https://gitlab.enterprise.slack.com/archives/D02SNEUHZ3L)
     3. Pacific Timezone (UTC−8):
         1. [Lauren Barker](https://gitlab.enterprise.slack.com/archives/D0168EQ62EP)
-1. Incident issue created by DEX team member [here](https://gitlab.com/gitlab-com/marketing/digital-experience/announcements/-/issues/new) using the root cause analysis incident issue template.
+1. Incident created by DEX team member based on the project. For example, an outage in the Buyer Experience project would be created [here](https://gitlab.com/gitlab-com/marketing/digital-experience/buyer-experience/-/issues/new?issuable_template=root-cause-analysis&issue%5Bissue_type%5D=incident#). Note: Any time we would create an issue for an outage, **create an incident instead**. Make sure we open incidents in the appropriate project as this affects our reporting and metrics. As a general rule, an incident should be created if we are [circumventing the triage process](https://handbook.gitlab.com/handbook/marketing/digital-experience/#labels-and-workflow-boards), there is no existing open issue, and our site uptime is affected. 
 
 _Call on the phone if no response within 15 minutes_
 
