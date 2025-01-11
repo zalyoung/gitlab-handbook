@@ -39,7 +39,7 @@ Additional projects that we mainly maintain:
 1. [Duo Workflow Tests](https://gitlab.com/gitlab-org/duo-workflow/testing/duo-workflow-tests)
 2. [Default Docker Image](https://gitlab.kkkcom/gitlab-org/duo-workflow/default-docker-image)
 
-For an understanding of how these components work together, take a look at the [architecture](https://handbook.gitlab.com/handbook/engineering/architecture/design-documents/duo_workflow/).
+For an understanding of how these components work together, take a look at the [architecture](/handbook/engineering/architecture/design-documents/duo_workflow/).
 
 ## 📦 Team Processes
 

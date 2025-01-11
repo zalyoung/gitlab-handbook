@@ -590,8 +590,8 @@ Deal Summary (including compelling event to transact) (1-2 bullets)
 Previous discount (if renewal/add-on)
 Ramp details (if applicable)
 Rationale for Discount Request (1-2 bullets) (ex. Services included)
-Strategy to increase price over time 
-What are we getting in return? 
+Strategy to increase price over time
+What are we getting in return?
 Is this deal competitive? (Y/N)
   If Yes, against whom?
 Logo Rights? (Y/N)
@@ -605,7 +605,7 @@ Note: If any changes are made to the quote after approval, you will need to resu
 
 **Contractual Discounts**
 
-If a discount has been applied to a quote pursuant to a signed agreement between GitLab and the customer, additional approvals are not required. Create a case for Deal Desk following [this process](https://handbook.gitlab.com/handbook/sales/field-operations/requesting-internal-support/#salesforce-workflow), and provide a link to the signed agreement to request that the quote approvals be overridden.
+If a discount has been applied to a quote pursuant to a signed agreement between GitLab and the customer, additional approvals are not required. Create a case for Deal Desk following [this process](/handbook/sales/field-operations/requesting-internal-support/#salesforce-workflow), and provide a link to the signed agreement to request that the quote approvals be overridden.
 
 #### Channel Quote Approval
 

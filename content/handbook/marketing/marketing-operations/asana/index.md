@@ -231,7 +231,7 @@ If you're unsure which tool to use:
 
 ## How to get help with Asana
 
-If you have questions, first self-service by reviewing this Handbook page, [Asana Help Center](https://help.asana.com/), and/or [Asana Academy](https://academy.asana.com/). If you cannot find a solution on your own, feel free to let us know using this [GitLab Internal Support Form](https://form.asana.com/?k=rIdwTWezTYqZhSI9vgJZsQ&d=306855239930259).
+If you have questions, first self-service by reviewing this Handbook page, [Asana Help Center](https://help.asana.com/s/?language=en_US), and/or [Asana Academy](https://academy.asana.com/). If you cannot find a solution on your own, feel free to let us know using this [GitLab Internal Support Form](https://form.asana.com/?k=rIdwTWezTYqZhSI9vgJZsQ&d=306855239930259).
 
 ## Self-Paced Learning
 

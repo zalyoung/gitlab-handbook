@@ -1351,7 +1351,7 @@ We are committed to providing opportunities for discussion, education and commun
 ### Purchasing Details
 
 [iPad Pro 12.9 inch/256GB/wifi](https://www.apple.com/shop/buy-ipad/ipad-pro)
-[iPad Pro 12.9 inch Smart Keyboard Folio](https://www.apple.com/ca/shop/product/MXNL2LL/A/smart-keyboard-folio-for-ipad-pro-129-inch-6th-generation-us-english)
+[iPad Pro 12.9 inch Smart Keyboard Folio](https://www.apple.com/in/shop/product/MXNL2HN/A/smart-keyboard-folio-for-ipad-pro-129-6th-generation-us-english)
 
 - When purchasing, please utilize the GitLab Business Account for corporate discounts. The Apple store/online representative will look up the GitLab Business Account associated with GitLab's 268 Bush St., San Francisco, CA 94104 address.
 - Do not purchase AppleCare

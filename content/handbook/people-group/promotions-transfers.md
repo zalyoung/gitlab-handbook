@@ -877,7 +877,7 @@ Your profile will need to be updated in a few places to reflect your new title c
 - [GitLab Team Page](https://gitlab.com/gitlab-com/www-gitlab-com/-/tree/master/data/team_members/person)
 - [Zoom profile](https://zoom.us/profile)
 - Slack profile (updated within Slack)
-- Gmail signature (updated within Gmail), see [guidelines](https://handbook.gitlab.com/handbook/tools-and-tips/#email-signature)
+- Gmail signature (updated within Gmail), see [guidelines](/handbook/tools-and-tips/#email-signature)
 - [Guide profile](https://app.guide.co/account/profile), if you take part in hiring
 
 ## Footnotes

@@ -32,7 +32,7 @@ Show only what you need to. Not everything needs to be in there, its a glimpse a
 
 ### Step 2
 
-> All my GIFs start as videos – [Andy Orsow](https://www.invisionapp.com/inside-design/7-tips-for-designing-awesome-gifs/)
+> All my GIFs start as videos – [Andy Orsow](https://web.archive.org/web/20241224005349/https://www.invisionapp.com/inside-design/7-tips-for-designing-awesome-gifs/)
 
 If you want to create professional GIFs, you want to start from a video file. This can give you expert control over the output if you need it (e.g. motion blur can add additional professionalism). Video files will in most cases be created from a screen recording software, details can be found in the [Tools Section](#tools)
 
@@ -40,7 +40,7 @@ If you want to create professional GIFs, you want to start from a video file. Th
 
 Reduce the amount of colors visible. You can do this either be thinking beforehand what exactly you will capture or by limiting the amount of output colors exported in the resulting GIF (see options [gifify](#gifify-cli) ). Check your result to see if it fits your needs.
 
-Another step could be to drop duplicate frames by manually searching through all frames. For more information on this, look [here](https://www.invisionapp.com/inside-design/7-tips-for-designing-awesome-gifs/). This additional step can take a lot of time. As with anything: "Only use it if you need to".
+Another step could be to drop duplicate frames by manually searching through all frames. For more information on this, look [here](https://web.archive.org/web/20241224005349/https://www.invisionapp.com/inside-design/7-tips-for-designing-awesome-gifs/). This additional step can take a lot of time. As with anything: "Only use it if you need to".
 
 ### Step 4
 

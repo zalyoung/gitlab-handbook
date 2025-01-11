@@ -172,7 +172,7 @@ There are a number of additional videos on our [corporate YouTube channel](https
 | [Engineering at GitLab](https://www.linkedin.com/company/gitlab-com/life/d7a581f5-5dd7-499f-a5e9-79bbcda7f29a/?viewAsMember=true) | LinkedIn Life Page |
 | [UX at GitLab](https://www.linkedin.com/company/gitlab-com/life/2401df61-b442-4630-a061-c586f6d788ba/?viewAsMember=true) | LinkedIn Life Page |
 | [Builtin](https://builtin.com/company/gitlab) | Culture Page and Job Board |
-| [Women in Sales Everywhere](https://app.womeninsaleseverywhere.com/companies/gitlab) | Company Page and Community Member Benefits |
+| [Women in Sales Everywhere](https://www.womeninsaleseverywhere.com/companies/gitlab) | Company Page and Community Member Benefits |
 | [Glassdoor](https://bit.ly/3BT89On) | Company Rating, Reviews and Job Board |
 | [Comparably](https://www.comparably.com/companies/gitlab) | Culture Page and Job Board |
 

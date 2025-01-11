@@ -81,7 +81,7 @@ Co-working and networking spaces can become hubs for entrepreneurs and startups 
 These companies have already taken innovative approaches to how they've reduced or reinvented their office space to support their team's needs for the future. This is not an exhaustive list, and we encourage contributions to it.
 
 - [Cimpress/Vista](https://cimpress.com/accelerating-with-remote-first/): Shifted to a remote-first model and reduced their overall office footprint. They're turning remaining offices into collaboration centers for team members to gather.
-- [Atlassian](https://thinkremote.com/atlassian-office-redesign/): Transitioned a ["TEAM Anywhere"](https://www.atlassian.com/practices/use-cases/team-anywhere) distributed model. The company redesigned its Austin office to be more equipped to support both remote and in-office employees.
+- [Atlassian](https://thinkremote.com/atlassian-office-redesign/): Transitioned a ["TEAM Anywhere"](https://www.atlassian.com/solutions/distributed) distributed model. The company redesigned its Austin office to be more equipped to support both remote and in-office employees.
 - [Hubspot](https://www.hubspot.com/hybrid): Shifted to a hybrid model that allows team members to choose from three primary work environments: home, flex, or office. They redesigned their offices to better serve "flex" and "office" employees, while working to make their perks and benefits location agnostic.
 - [Amazon](https://deadline.com/2020/05/amazon-turns-office-building-homeless-shelter-seattle-1202942304/): Partnered with a non-profit organization to turn one of its headquarters buildings in Seattle into a homeless shelter and community support center.
 

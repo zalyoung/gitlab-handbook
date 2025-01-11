@@ -696,7 +696,7 @@ docker exec -it gitlab-ee gitlab-ctl reconfigure
 
 #### Resources
 
-- <https://docs.gitlab.com/ee/install/docker.html>
+- <https://docs.gitlab.com/ee/install/docker/index.html>
 - <https://web.archive.org/web/20210619101324/https://docs.docker.com/machine/get-started/>
 - <https://web.archive.org/web/20210619101324/https://docs.docker.com/machine/reference/ip/>
 

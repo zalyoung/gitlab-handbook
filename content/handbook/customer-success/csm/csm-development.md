@@ -66,7 +66,7 @@ As CSMs have positioned themselves to be more strategic and reach Director, VP, 
 - [Google Doc (Actively being updated)](https://docs.google.com/document/d/1lkk_25XwOOw9eN-NqxuupZsDWRdWPbmFYD8RP8cWXz8/) - Lee Faus, Brian Wald, and Francis Ofungwu share themes (four pillars) they are hearing from executives around GitLab's platform
 - Sandler Articles
   - [How to Use DISC Assessments to Appropriately Customize Workplace Communication](https://www.sandler.com/blog/how-use-disc-assessments-appropriately-customize-workplace-communication/) (Article)
-  - [Up Front Contracts](https://go.sandler.com/dwood/insights/videos/coaching/elevating-your-up-front-contract-with-danny-wood/) (Article)
+  - [Up Front Contracts](https://www.youtube.com/watch?v=WTZwyUeAI3o) (Article)
 - [Pyramid Principle for Slide Presentation](https://www.myconsultingoffer.org/case-study-interview-prep/pyramid-principle/) (Article)
 - [Tim Ferris - how I prepare for keynotes](https://tim.blog/2010/04/11/public-speaking-how-i-prepare-every-time/) (Article)
 
@@ -92,9 +92,9 @@ As CSMs have positioned themselves to be more strategic and reach Director, VP, 
 - [Selling Solutions vs Solving Problems](https://www.youtube.com/watch?v=9ZuWLs7ZNpY) (YouTube)
 - [Psychological Safety: Clear Blocks to Innovation, Collaboration, and Risk-Taking](https://www.linkedin.com/learning/psychological-safety-clear-blocks-to-innovation-collaboration-and-risk-taking/psychological-safety-clear-blocks-to-problem-solving-and-innovation) (LinkedIn Learning)
 - [Improving Your Listening Skills](https://www.linkedin.com/learning/improving-your-listening-skills-19238090) (LinkedIn Learning)
-- [The Six Morning Habits of High Performers](https://www.linkedin.com/learning/the-six-morning-habits-of-high-performers/six-practices-to-get-back-on-track-16454204) (LinkedIn Learning)
+- [The Six Morning Habits of High Performers](https://www.linkedin.com/learning/the-six-morning-habits-of-high-performers/six-practices-to-get-back-on-track) (LinkedIn Learning)
 - [Unconscious Bias](https://www.linkedin.com/learning/unconscious-bias-14822310) (LinkedIn Learning)
-- [How to Make Strategic Thinking a Habit](https://www.linkedin.com/learning/how-to-make-strategic-thinking-a-habit/why-make-strategic-thinking-a-habit)  (LinkedIn Learning)
+- [How to Make Strategic Thinking a Habit](https://www.linkedin.com/learning/how-to-make-strategic-thinking-a-habit-22614178/why-make-strategic-thinking-a-habit)  (LinkedIn Learning)
 - [Leading with Emotional Intelligence](https://www.linkedin.com/learning/leading-with-emotional-intelligence-19884915) (LinkedIn Learning)
 
 <a name="tech-domain"></a>
@@ -111,7 +111,7 @@ As CSMs have positioned themselves to be more strategic and reach Director, VP, 
   - [GitLab Certified Security Specialist](https://levelup.gitlab.com/courses/gitlab-security-essentials-certification-exam)
 - [GitLab 101](/handbook/people-group/learning-and-development/gitlab-101/)
 - [GitLab 201](/handbook/people-group/learning-and-development/gitlab-201/)
-- [Learning GitLab](https://www.linkedin.com/learning/learning-gitlab-14539757/) (LinkedIn Learning)
+- [Learning GitLab](https://www.linkedin.com/learning/learning-gitlab-14539757) (LinkedIn Learning)
 - [Continuous Delivery with GitLab](https://www.linkedin.com/learning/continuous-integration-and-continuous-delivery-with-gitlab) (LinkedIn Learning)
 - [Introduction to GitLab CI & DevOps with AWS](https://www.youtube.com/watch?v=PGyhBwLyK2U) (YouTube)
   - [Introduction to GitLab CI & DevOps with AWS - Course Notes](https://gitlab.com/gitlab-course-public/freecodecamp-gitlab-ci/-/blob/main/docs/course-notes.md) (Git Repo)
@@ -119,7 +119,7 @@ As CSMs have positioned themselves to be more strategic and reach Director, VP, 
 
 #### DevOps
 
-- [DevOps Foundations](https://www.linkedin.com/learning/devops-foundations-23454205/) (LinkedIn Learning)
+- [DevOps Foundations](https://www.linkedin.com/learning/devops-foundations-23454205) (LinkedIn Learning)
 
 #### Software Development
 
