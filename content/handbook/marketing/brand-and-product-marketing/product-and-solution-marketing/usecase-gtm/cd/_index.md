@@ -339,7 +339,7 @@ We are committed to lowering the barriers for organizations embarking on their C
 - [GitLab Pages](https://docs.gitlab.com/ee/user/project/pages/): deploy static web pages directly from GitLab
 - [Deploy Tokens](https://docs.gitlab.com/ee/user/project/deploy_tokens/): secure your package and container registry images by requiring username/password for access
 - [Release Evidence](https://docs.gitlab.com/ee/user/project/releases/index.html#release-evidence): snapshot of releases data to compare and audit releases
-- [Vault integrations](https://docs.gitlab.com/ee/ci/examples/authenticating-with-hashicorp-vault/): authentication of secrets via Hashicorp Vault
+- [Vault integrations](https://docs.gitlab.com/ee/ci/secrets/hashicorp_vault.html): authentication of secrets via Hashicorp Vault
 - [ChatOps](https://docs.gitlab.com/ee/ci/chatops/): interact with GitLab via chat services
 - [AutoDevOps](https://docs.gitlab.com/ee/topics/autodevops/): simplify build, test, deploy, monitor of your applications
 

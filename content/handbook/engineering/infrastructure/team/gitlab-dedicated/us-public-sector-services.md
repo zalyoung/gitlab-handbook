@@ -80,7 +80,7 @@ The single source of truth for _all_ GitLab US Public Sector Services work acros
 
 #### Epic Hierarchy
 
-[Sub-epics](https://docs.gitlab.com/ee/user/group/planning_hierarchy/index.html#hierarchies-with-epics) are created under the top-level epic to logically segment work into an organized list of issues that are targeted towards a specific initiative or project milestone.
+[Sub-epics](https://docs.gitlab.com/ee/topics/plan_and_track.html#hierarchies-with-epics) are created under the top-level epic to logically segment work into an organized list of issues that are targeted towards a specific initiative or project milestone.
 
 When applicable, additional sub-epics may be created within the existing epic hierarchy to further segment issues for project tracking purposes.
 

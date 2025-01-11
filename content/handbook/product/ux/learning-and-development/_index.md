@@ -66,7 +66,7 @@ Managers should add approved growth and development programs to the [department 
 
 ### LinkedIn Learning
 
-- [UX Research: Lean Experimentation](https://www.linkedin.com/learning/ux-research-lean-experimentationwriting-an-effective-hypothesis) - This is a great overview of Lean UX and discusses business impact, iteration, hypothesis writing, experiment design, lean interviewing and more.
+- [UX Research: Lean Experimentation](https://www.linkedin.com/learning/ux-research-lean-experimentation/writing-an-effective-hypothesis) - This is a great overview of Lean UX and discusses business impact, iteration, hypothesis writing, experiment design, lean interviewing and more.
 - [Surveys and Questionnaires for UX Projects](https://www.linkedin.com/learning/surveys-and-questionnaires-for-ux-projects/getting-good-feedback) - This one might be a review for some of you but it's a good overview of what to know about surveys.
 - [UX Deep Dive: Analyzing Data](https://www.linkedin.com/learning/ux-deep-dive-analyzing-data/setting-your-objectives) - This one isn't about quantitative research, but it is about how to properly analyze your qualitative data to get to good insights.
 
@@ -120,7 +120,7 @@ Managers should add approved growth and development programs to the [department 
 ### Other Resources
 
 - [Growth Design](https://lexroman.com/guides/growth-design)
-- [Practicing Growth Design](https://lexroman.com/blog/2019/9/30/practicing-growth-design)
+- [Practicing Growth Design](https://lexroman.com/guides/practicing-growth-design)
 - [What is a Growth Designer?](https://blog.alexaroman.com/what-is-a-growth-designer-1b342d55a358)
 - [Growth Designers Resources](https://www.growthdesigners.co/tools)
 - [Growth Design Case Studies](https://growth.design/case-studies)

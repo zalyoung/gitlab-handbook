@@ -19,7 +19,7 @@ We're also curating a growing list of remote communities, where remote leaders a
 
 Working remotely is becoming more common globally, as supported by data in the [GitLab Remote Work Report](remote-work-report/). While all-remote and remote-first organizations still represent the minority, a variety of trends — from heightened rents in major cities to a greater emphasis on sustainability to a cultural desire to work and live where one is most fulfilled — have more people than ever [interested in this way of working](benefits/).
 
-Buffer's latest [State of Remote Work](https://lp.buffer.com/state-of-remote-work-2020) shows that the overwhelming majority of those who work remotely would recommend it to others, while [new survey data from Owl Labs](https://resources.owllabs.com/blog/remote-work-statistics) collected from 23 countries and 6 continents found that over half of global companies now allow some form of remote work.
+Buffer's latest [State of Remote Work](https://buffer.com/state-of-remote-work/2020) shows that the overwhelming majority of those who work remotely would recommend it to others, while [new survey data from Owl Labs](https://resources.owllabs.com/blog/remote-work-statistics) collected from 23 countries and 6 continents found that over half of global companies now allow some form of remote work.
 
 Of course, [not all remote environments are created equal](hybrid-remote/) — a point we cover in detail on the [part-remote page](hybrid-remote/).
 
@@ -32,7 +32,7 @@ However, an increasing amount of startups and small-to-medium sized businesses a
 ![GitLab all-remote companies illustration](/images/all-remote/gitlab-com-all-remote-v4-dark-1280x270.png)
 {style="max-width: 50%;"}
 
-1. [InVision](https://www.invisionapp.com/), see their posts about [remote-only motivations](https://www.invisionapp.com/inside-design/remote-design-best-practices/), building [company culture](https://miro.com/blog/remote-company-culture/), and what remote work [feels like](https://miro.com/blog/remote-worker-truths/).
+1. [InVision](https://web.archive.org/web/20241231132828/https://www.invisionapp.com/), see their posts about [remote-only motivations](https://web.archive.org/web/20240719145246/https://www.invisionapp.com/inside-design/remote-design-best-practices/), building [company culture](https://web.archive.org/web/20240913042201/https://www.invisionapp.com/inside-design/remote-company-culture/), and what remote work [feels like](https://web.archive.org/web/20240909191856/https://www.invisionapp.com/inside-design/remote-worker-truths/).
 1. [Buffer](https://buffer.com), see their posts about going [remote only](https://buffer.com/resources/no-office/), [the benefits](https://buffer.com/resources/distributed-team-benefits/), and how they [make it work](https://buffer.com/resources/buffer-distributed-team-how-we-work/).
 1. [Automattic](https://automattic.com/about/), the company behind [WordPress.com](https://wordpress.com) and [The year without pants](https://www.amazon.com/Year-Without-Pants-WordPress-com-Future/dp/1118660633) fame
 1. [GitLab](https://about.gitlab.com), this website is hosted by GitLab, everyone is welcome to contribute to [this page](https://gitlab.com/gitlab-com/www-gitlab-com/blob/master/source/index.html.md), and also check out [our handbook](/handbook) for remote work practices.
@@ -84,7 +84,7 @@ Chris H. of Firstbase [curates](https://twitter.com/chris_herd/status/1297223150
 1. [Basecamp](https://basecamp.com/), authors of [Remote](https://basecamp.com/books#remote)
 1. [Harvest](https://www.getharvest.com/), see their collection of stories on [Working without borders](https://www.getharvest.com/working-without-borders)
 1. [Niteo](https://niteo.co/), a decade-old Python boutique with a public [handbook](https://github.com/teamniteo/handbook)
-1. [ElevenYellow](https://elevenyellow.com), type `job openings` on their [console](https://www.elevenyellow.com/) to join this team of digital nomads.
+1. [ElevenYellow](https://www.elevenyellow.com/), type `job openings` on their [console](https://www.elevenyellow.com/) to join this team of digital nomads.
 1. [wemake.services](https://wemake.services), software development company using [`RSDP`](https://wemake.services/meta/)
 1. [Igalia](https://www.igalia.com/), [employee-owned cooperative](https://www.igalia.com/about/) providing software development consulting services
 1. [Ad Hoc](https://adhoc.team/index.html), see their post ["The truth about remote work"](https://adhoc.team/2017/12/05/truth-remote-work/) and their [jobs page](https://adhoc.team/careers/).

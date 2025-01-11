@@ -118,7 +118,7 @@ It may be useful to run a [SSL Server Test](https://www.ssllabs.com/ssltest/anal
 
 ### Obtain DevTools > Network HAR file during activation
 
-A user's [browser's DevTools](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Tools_and_setup/What_are_browser_developer_tools) can be particularly useful in diagnosing cloud license connectivity failures, especially since the GitLab internal API ([graphql](https://docs.gitlab.com/ee/api/graphql/)) response can be viewed.
+A user's [browser's DevTools](https://developer.mozilla.org/en-US/docs/Learn_web_development/Howto/Tools_and_setup/What_are_browser_developer_tools) can be particularly useful in diagnosing cloud license connectivity failures, especially since the GitLab internal API ([graphql](https://docs.gitlab.com/ee/api/graphql/)) response can be viewed.
 
 1. Open the DevTools (usually `ctrl+shift+i`) and navigate to the Network tab
 1. (re)Load the page at `/admin/subscription`
