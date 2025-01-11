@@ -66,7 +66,7 @@ permissions for each token.
 - A [Security Token Service](https://datatracker.ietf.org/doc/html/rfc8693) will not be created.
 - Reducing the duration of `CI_JOB_TOKEN` access is not a focus.
 - Unifying [PAT scopes](https://docs.gitlab.com/ee/user/profile/personal_access_tokens.html#personal-access-token-scopes) with [custom abilities](https://gitlab.com/gitlab-org/gitlab/-/tree/master/ee/config/custom_abilities) will not be pursued.
-- [Token types](https://docs.gitlab.com/ee/security/token_overview.html) will not be consolidated into a single token.
+- [Token types](https://docs.gitlab.com/ee/security/tokens/index.html) will not be consolidated into a single token.
 - The [permission set](https://gitlab.com/gitlab-com/content-sites/handbook/-/merge_requests/7856) for the `CI_JOB_TOKEN` will not be expanded.
 - We will not handle cases where specific projects can override group-level permissions.
 

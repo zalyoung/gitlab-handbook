@@ -140,11 +140,11 @@ The best way to get in contact with the Brand design team is to fill out one of 
 
 ### Working with the brand
 
-To learn more about our [Brand Guidelines](https://design.gitlab.com/brand-overview/introduction), self-service resources and assets, and training materials, check out the [Brand Resources](https://design.gitlab.com/brand-overview/resources/) handbook. Below you will find more details about working with our brand and creative materials.
+To learn more about our [Brand Guidelines](https://design.gitlab.com/brand-overview/introduction/), self-service resources and assets, and training materials, check out the [Brand Resources](https://design.gitlab.com/brand-overview/resources/) handbook. Below you will find more details about working with our brand and creative materials.
 
 #### Providing feedback
 
-The Brand Creative team is comprised of team members who all bring a variety of visual skills, knowledge, and brand expertise to each project. **Brand awareness**, **visual consistency**, and **business value** are the key factors we use to make creative decisions - all while we adhere to and build upon the systems outlined in our [brand guidelines](https://design.gitlab.com/brand-overview/introduction/). When working with our team, it is important to provide [constructive feedback](/handbook/people-group/guidance-on-feedback/) by keeping these same factors in mind.
+The Brand Creative team is comprised of team members who all bring a variety of visual skills, knowledge, and brand expertise to each project. **Brand awareness**, **visual consistency**, and **business value** are the key factors we use to make creative decisions - all while we adhere to and build upon the systems outlined in our [brand guidelines](https://design.gitlab.com/brand-overview/introduction//). When working with our team, it is important to provide [constructive feedback](/handbook/people-group/guidance-on-feedback/) by keeping these same factors in mind.
 
 Constructive feedback takes into consideration our [values](/handbook/values/) of collaboration, efficiency, and results. The following tools can help keep feedback focused, all while allowing a project to move along in a timely manner:
 
@@ -360,7 +360,7 @@ We upload and pull work locally from the [Brand Design repository](https://gitla
 
 #### Using git and terminal
 
-- [Push and pull](https://docs.gitlab.com/ee/gitlab-basics/start-using-git.html#pull-and-push) work frequently, at least once a day, to keep our work up-to-date. If you are working on a file that others may be in as well, communicate it with the team so that no one saves over someone else's work.
+- [Push and pull](https://docs.gitlab.com/ee/topics/git/commands.html#pull-and-push) work frequently, at least once a day, to keep our work up-to-date. If you are working on a file that others may be in as well, communicate it with the team so that no one saves over someone else's work.
 - To get started, [set up](https://docs.google.com/document/d/1u7iNFnbD4Nj4aeLRFpmnzHewgKBjCwdyjvTuOND0rfA/edit?usp=sharing) a local clone of the `brand-design` repository to your machine. For your day-to-day work, here are the typical git commands for pulling and pushing work, in the order of which they should be used:
   - `cd brand-design` - this command only needs to be used once upon opening the [Terminal app](https://support.apple.com/guide/terminal/open-or-quit-terminal-apd5265185d-f365-44cb-8b09-71a064a42125/mac). Depending on where you've stored the repository on your machine, the `cd` [parent folder name] command may need to be done multiple times, until you get into the `brand-design` folder
   - `git pull` - this updates your local repository to mirror any changes made by the rest of the team; do this command before starting work or pushing any new work

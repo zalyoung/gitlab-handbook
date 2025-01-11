@@ -425,7 +425,7 @@ Project: [DE Events Project](https://gitlab.com/gitlab-da/projects/events)
 
 Maintainer: [Michael Friedrich](/handbook/company/team/#dnsmichi)
 
-[everyonecancontribute.com](https://everyonecancontribute.com) serves as the main website for a community formed around tech coffee chats called `#EveryoneCanContribute cafe` (active) and `#EveryoneCanContribute Kaeffchen` (retired).
+[everyonecancontribute.com](https://everyonecancontribute.cafe/) serves as the main website for a community formed around tech coffee chats called `#EveryoneCanContribute cafe` (active) and `#EveryoneCanContribute Kaeffchen` (retired).
 
 The coffee chats are organized as [meetup.com group events](https://www.meetup.com/everyonecancontribute-cafe/) and are open for topic or theme suggestions from everyone.
 

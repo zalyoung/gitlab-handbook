@@ -42,7 +42,7 @@ In GitLab 15.0 a malicious user could create a stored XSS payload. See if you ca
 
 #### Installation
 
-1. Follow [the steps to install a Docker version of GitLab](https://docs.gitlab.com/ee/install/docker.html). Depending on your setup, the command will look something like:
+1. Follow [the steps to install a Docker version of GitLab](https://docs.gitlab.com/ee/install/docker/index.html). Depending on your setup, the command will look something like:
 
 ```shell
 sudo docker run --detach \
@@ -136,7 +136,7 @@ On GitLab installations before 14.3.6, a malicious actor could perform a Denial 
 
 #### Installation
 
-1. Follow [the steps to install a Docker version of GitLab](https://docs.gitlab.com/ee/install/docker.html). Depending on your setup, the command will look something like:
+1. Follow [the steps to install a Docker version of GitLab](https://docs.gitlab.com/ee/install/docker/index.html). Depending on your setup, the command will look something like:
 
 ```shell
 sudo docker run --detach \
@@ -165,7 +165,7 @@ This DoS involved user content, for example issue descriptions or comments. Thes
 {{% /details %}}
 
 {{% details summary="Hint 2" %}}
-This researcher found a [regex-based DoS](https://owasp.org/www-community/attacks/Regular_expression_Denial_of_Service_-_ReDoS/) by reading the code GitLab used to parse front-matter. <https://gitlab.com/gitlab-org/gitlab/-/blob/6f10f768c9cc2d131c056289f58519cf9cae79fa/lib/gitlab/front_matter.rb>
+This researcher found a [regex-based DoS](https://owasp.org/www-community/attacks/Regular_expression_Denial_of_Service_-_ReDoS) by reading the code GitLab used to parse front-matter. <https://gitlab.com/gitlab-org/gitlab/-/blob/6f10f768c9cc2d131c056289f58519cf9cae79fa/lib/gitlab/front_matter.rb>
 {{% /details %}}
 
 {{% details summary="Hint 3" %}}
@@ -225,7 +225,7 @@ Open a Merge Request to this page, mention `@gitlab-com/gl-security/product-secu
 
 - A title and non-revealing summary of the vulnerability
 - Steps to install the vulnerable version
-  - Ideally <https://docs.gitlab.com/ee/install/docker.html#install-gitlab-using-docker-engine> with a specific version number
+  - Ideally <https://docs.gitlab.com/ee/install/docker/index.html#install-gitlab-using-docker-engine> with a specific version number
   - More complex issues might require a specific installation method, like the Omnibus Linux package.
 - A series of progressively revealing hints, so people can try to hunt for the bug themselves but get help if needed. (Remember GitLab is a big product!).
 - A link to the GitLab issue, for those who want to follow the original HackerOne report's steps to reproduce.

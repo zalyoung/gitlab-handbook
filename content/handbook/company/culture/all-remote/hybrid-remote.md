@@ -200,7 +200,7 @@ COVID-19 created a wave of companies intentionally shifting to remote-first. For
 1. Grammarly — *[The Future of Work at Grammarly](https://en.ain.ua/2021/06/15/grammarly-permanently-switches-to-hybrid-remote-work-format/)*
 1. Mailchimp — *[The Future of Work at Mailchimp](https://web.archive.org/web/20230207083313/https://mailchimp.com/future-of-work-at-mailchimp/)*
 1. Adobe - *[The Future of Work at Adobe](https://blog.adobe.com/en/publish/2021/06/24/future-of-work-adobe)*
-1. Asana - *[Reuniting and Thriving in a Distributed World With Asana](https://blog.asana.com/2021/04/reuniting-teams)*
+1. Asana - *[Reuniting and Thriving in a Distributed World With Asana](https://asana.com/inside-asana/reuniting-teams)*
 1. LinkedIn - *[A Sneak Peek at LinkedIn's New Hybrid Workplace Plans](https://www.linkedin.com/business/talent/blog/talent-engagement/sneak-peek-at-linkedins-new-hybrid-workplace-plans)*
 1. DoorDash - *[DoorDash's Hybrid Work Plan: Committing to Flexibility](https://about.doordash.com/en-us/news/doordashs-hybrid-work-plan-committing-to-flexibility)*
 1. Uber - *[Our Return to the Office](https://www.uber.com/en-US/blog/our-return-to-the-office/)*

@@ -185,7 +185,7 @@ From family time to unforgettable adventures, there are many great stories of ho
 ### Guides from friends and partners
 
 1. [Doist's guide for the remote working parent](https://todoist.com/inspiration/remote-working-parents-survival-guide)
-1. [Trello: A remote work guide for parents](https://blog.trello.com/remote-work-guide-for-parents)
+1. [Trello: A remote work guide for parents](https://www.atlassian.com/blog/distributed-work/distributed-work-guide-for-parents)
 1. [Thrive Global: Managing parenting and remote work](https://community.thriveglobal.com/three-tips-for-managing-parenting-and-remote-work/)
 1. [Buffer: Tips from a remote team on working at home with kids](https://buffer.com/resources/integrating-work-family-21-tips-working-home-kids/)
 1. [Autonomous: How to balance working at home and parenting](https://www.autonomous.ai/ourblog/how-to-balance-working-at-home-and-parenting)
