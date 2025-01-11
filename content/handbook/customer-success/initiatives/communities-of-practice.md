@@ -35,7 +35,7 @@ To improve active participation and engagement, a pilot will be launched. This w
 
 A set of recommendations were formulated that focused on:
 
-- Defining stronger a CoP charter
+- Defining a stronger CoP charter
 - Promoting better across the organziation
 - Encouraging active participation
 - Recognizing people who participate
@@ -57,11 +57,10 @@ Potential key performance indicators include:
 - Participation & attendance
 - CoP member experience
 
-#### Current Communities of Practice
+### Current Communities of Practice
 
-| Subject                             | Facilitator (members list in project)                                                                                                                                           |
-|-------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-
+| Subject                             | Facilitator (members list in project) |
+|---|---|
 | Cloud | [Regnard Raquedan](https://gitlab.com/rraquedan) |
 | Competitive intelligence                | [Péter Bozsó](https://gitlab.com/pboszo)|
 
