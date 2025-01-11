@@ -23,12 +23,12 @@ Todd provides an overview of the purpose and goals of the Marketing Career Devel
 
 Know how to read and interpret the marketing analytics GitLab's marketing team uses to inform business decisions and strategy
 
-- [Business Analytics: Marketing Data](https://www.linkedin.com/learning/business-analytics-marketing-data/what-is-the-value-of-marketing-data)  - LI provides a nice overview of why and how people analyze marketing data.
+- [Business Analytics: Marketing Data](https://www.linkedin.com/learning/business-analytics-marketing-data)  - LI provides a nice overview of why and how people analyze marketing data.
 - For SFDC users:
 - [Trailhead Reports and Dashboards for SFDC Classic](https://trailhead.salesforce.com/content/learn/modules/reports-dashboards-quick-look/learn-about-reports-and-dashboards)
 - [DataStudio training on GitLab about.com](https://www.youtube.com/watch?v=7IFDCl_6SsM) - Empirical Path and Shane Rice sharing how to use DataStudio
-- [OPTIONAL: Salesforce Custom Reports](https://www.linkedin.com/learning/salesforce-custom-reports) (LI video - all shown in Lightning UI vs Classic)
-- [OPTIONAL: Salesforce dashboards](https://www.linkedin.com/learning/salesforce-dashboards) (Section 2 Chart Types may be of interest as to why you might choose one type over another and what each means, again in Lightning)
+- [OPTIONAL: Salesforce Custom Reports](https://www.linkedin.com/learning/salesforce-for-sales-managers/create-basic-sales-reports) (LI video - all shown in Lightning UI vs Classic)
+- [OPTIONAL: Salesforce dashboards](https://www.linkedin.com/learning/salesforce-for-sales-managers/create-a-goals-based-dashboard) (Section 2 Chart Types may be of interest as to why you might choose one type over another and what each means, again in Lightning)
 
 ### Writing and communication
 
@@ -66,11 +66,11 @@ Know how to read and interpret the marketing analytics GitLab's marketing team u
 - [Email marketing from Tanuki Tech](https://gitlab.com/gitlab-com/marketing/sdr/-/issues/628)
 - [Demand Generation metrics](https://app.periscopedata.com/app/gitlab/793304/Demand-Gen-Dashboard) [and how to understand the data](/handbook/marketing/demand-generation/#dashboard-metrics)
 - [Mastering Digital Marketing](https://www.linkedin.com/learning/paths/master-digital-marketing)
-- [Connecting with Customers Online](https://www.linkedin.com/learning/digital-marketing-foundations/connecting-with-customers-online)
+- [Connecting with Customers Online](https://www.linkedin.com/learning/digital-marketing-foundations-15054577/connecting-with-customers-online)
 - [Building an Integrated Online Marketing Plan](https://www.linkedin.com/learning/building-an-integrated-online-marketing-plan/welcome)
 - [Understanding eCommerce](https://www.linkedin.com/learning/marketing-foundations-ecommerce-14401600)
 - [Creating a channel marketing structure](https://www.linkedin.com/learning/sales-channel-management/creating-a-channel-marketing-structure)
-- [Google Analytics Essential Training](https://www.linkedin.com/learning/google-universal-analytics-essential-training-2020/understanding-your-digital-customers-with-google-analytics) - how to use GA to track success
+- [Google Analytics Essential Training](https://www.linkedin.com/learning/google-analytics-4-ga4-essential-training-14915362/understanding-your-digital-customers-with-google-analytics) - how to use GA to track success
 
 ### Operations
 

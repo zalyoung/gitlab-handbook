@@ -154,7 +154,7 @@ which runs via a scheduled pipeline to injest data.
 
 For requests to extract information from Common Room, you can open [a confidential issue in the Developer Advocacy Meta project](https://gitlab.com/gitlab-com/marketing/developer-relations/developer-advocacy/de-tmm-meta/-/issues) with the details of your request and assign it to `@sugaroverflow`. The DevRel team can then execute the query and export the report as a PDF to the issue.
 
-Requests can be for the export of information or for setting up [a team alert](https://www.commonroom.io/docs/using-common-room/team-alerts-page/) to Slack. You can learn more about the types of reporting in [Common Room's documentation](https://www.commonroom.io/docs/using-common-room/reporting-page/).
+Requests can be for the export of information or for setting up [a team alert](https://www.commonroom.io/docs/using-common-room/team-alerts-page/) to Slack. You can learn more about the types of reporting in [Common Room's documentation](https://www.commonroom.io/docs/using-common-room/reporting-page/room-overview/).
 
 Here are some request-based business cases:
 

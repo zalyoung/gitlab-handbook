@@ -155,7 +155,7 @@ I often find the midday slump to be so real, so if I'm feeling this way I step a
 ### Balance work and life
 
 - Explicitly plan your [time off]({{< ref "paid-time-off" >}}) so that you'll intentionally take time for yourself.
-- When you're not working, disconnect by turning off Slack and closing down your email client. At GitLab, this only works if all team members abide by the [communication guidelines](https://about.gitlab.com/blog/2016/03/23/remote-communication#asynchronous-communication-so-everyone-can-focus).
+- When you're not working, disconnect by turning off Slack and closing down your email client. At GitLab, this only works if all team members abide by the [communication guidelines](https://about.gitlab.com/blog/2016/03/23/remote-communication/#asynchronous-communication-so-everyone-can-focus).
 - Enable the "working hours" feature on your calendar so that team members in other time zones know not to schedule meetings during times when you're not working.
 
 ### Communicate clearly

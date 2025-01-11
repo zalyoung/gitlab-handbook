@@ -162,7 +162,7 @@ There have been a number of issues raised to the CS Ops team related to customer
 
 | Source System | Source System Table | Source System Field Name | Source System Field Name Definition |
 |     --        | --                  | --                       | --                |
-|   [Zuora](https://knowledgecenter.zuora.com/Zuora_Platform/API/G_SOAP_API/E1_SOAP_API_Object_Reference/Subscription)      |  subscription       |   id (SubscriptionId)    |  The ID of this object. Upon creation, the ID of this object is SubscriptionId.  |
+|   [Zuora](https://knowledgecenter.zuora.com/Zuora_Platform/Integration/API/G_SOAP_API/E1_SOAP_API_Object_Reference/Subscription)      |  subscription       |   id (SubscriptionId)    |  The ID of this object. Upon creation, the ID of this object is SubscriptionId.  |
 |     Zuora        | `subscription`        | `GITLABNAMESPACEID__C`     | The SaaS Namespace Id that the subscription is associated with. This is a custom field added by GitLab's Fulfillment team   |
 
 </details>

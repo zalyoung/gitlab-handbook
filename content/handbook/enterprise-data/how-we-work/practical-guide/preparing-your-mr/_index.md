@@ -50,7 +50,7 @@ This row count catches things like when you accidentally type a join wrong, and 
 
     UNION ALL
 
-    SELECT 
+    SELECT
         COUNT(*) as row_count,
         'MR' as source
     FROM "your-mr-branch-name".your_schema.your_table_name
@@ -78,7 +78,7 @@ Here is a breakdown of the MR template, one section at a time. The numbers on th
 
   3. In dbt, tests are predefined or custom checks configured in `.yml` files to validate the data in your models. These tests automatically check for specific conditions in the resulting tables, such as ensuring no null values, verifying unique rows, or maintaining referential integrity. This approach separates data validation from the model code, making it easier to ensure data quality and maintainability.
 
-     - You likely won’t need to add tests to your tables when you’re new to using dbt. The Analytics Engineer reviewing your MR can suggest tests if they think one is relevant. For more information about adding tests to your models, see the [Trusted Data Framework handbook page](https://handbook.gitlab.com/handbook/enterprise-data/platform/dbt-guide/#trusted-data-framework).
+     - You likely won’t need to add tests to your tables when you’re new to using dbt. The Analytics Engineer reviewing your MR can suggest tests if they think one is relevant. For more information about adding tests to your models, see the [Trusted Data Framework handbook page](/handbook/enterprise-data/platform/dbt-guide/#trusted-data-framework).
 
   4. Our CI jobs will build the models and environment included in the scope of your MR. You can leave this section as is, as the "Changes" tab will outline the MR's scope. In rare cases where additional models need to be built outside of those included in the `build_changes` job, you can specify them here. If extra models need to be run, you can use the `custom_invocation` job or the `build_changes` job with a specified `SELECTION`.
 
@@ -102,7 +102,7 @@ Here is a breakdown of the MR template, one section at a time. The numbers on th
      ![MR 4](/images/handbook/enterprise-data/platform/tableau/mr-template-4.png)
 
   9. When you create an MR, you will likely start by assigning it to yourself. This helps you keep track of the MR's that you have open and in progress.
-  
+
   10. After completing testing and ensuring your changes are ready for review, assign the MR to an Analytics Engineer who is a code owner of the files you modified. Once they have reviewed and approved the changes, they will assign the MR to a maintainer for merging.
 
   11. Labels can help you and your team keep track of your MR. If your team uses labels for your GitLab work, you can apply those same labels to your MR.

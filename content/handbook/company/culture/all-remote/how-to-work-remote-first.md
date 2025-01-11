@@ -194,7 +194,7 @@ Despite having many [advantages]({{< ref "remote-benefits" >}}), all-remote work
 
 {{< youtube "CwOLAKSdlfs" >}}
 
-In this [video](https://youtu.be/CwOLAKSdlfs), GitLab Director of Technical Evangelism [Priyanka Sharma](https://gitlab.com/pritianka) discusses pros and cons of remote working with a panel of experts from [TFiR](https://www.tfir.io), [Arm](https://www.arm.com) and [ISG Research](https://isg-one.com/research).
+In this [video](https://youtu.be/CwOLAKSdlfs), GitLab Director of Technical Evangelism [Priyanka Sharma](https://gitlab.com/pritianka) discusses pros and cons of remote working with a panel of experts from [TFiR](https://tfir.io/), [Arm](https://www.arm.com) and [ISG Research](https://isg-one.com/research).
 
 You can do a [deep dive on remote-work challenges and solutions](drawbacks/#remote-work-challenges-and-solutions-for-employees) here.
 
