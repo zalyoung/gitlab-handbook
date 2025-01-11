@@ -68,7 +68,7 @@ The following are the questions to consider when determining incident severity:
 </tbody>
 </table>
 
-## Reporting an incident:
+## Reporting an incident
 
 We now use [incidents](https://docs.gitlab.com/ee/operations/incident_management/incidents.html) instead of using issues for documenting site outages. Incidents behave similarly to issues, allowing us to use templates tailored for outage documentation. This method provides more insights into our site reliability and ensures tracking and resolution of downtime events across our projects.
 
