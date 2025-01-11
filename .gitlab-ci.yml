@@ -183,6 +183,7 @@ build:
   - <<: *merge-request-only
     variables:
       PAGES_PREFIX: 'mr$CI_MERGE_REQUEST_IID'
+      HUGO_BASEURL: "https://gitlab-com.gitlab.io/content-sites/handbook/${PAGES_PREFIX}/"
 
 ###################################
 #
@@ -206,7 +207,7 @@ pages:
     - echo "CI_PAGES_URL ${CI_PAGES_URL}"
     - echo "PAGES_PREFIX ${PAGES_PREFIX}"
     - echo "HUGO_BASEURL ${HUGO_BASEURL}"
-    - echo "Pages accessible through ${CI_PAGES_URL}/${PAGES_PREFIX}"
+    - echo "Pages accessible through ${CI_PAGES_URL}/"
   rules:
     - <<: *default-branch
     - <<: *scheduled-pipeline
@@ -214,12 +215,12 @@ pages:
       variables:
         PAGES_PREFIX: 'mr$CI_MERGE_REQUEST_IID'
         ENVIRONMENT: 'review/mr$CI_MERGE_REQUEST_IID'
-        HUGO_BASEURL: "${CI_PAGES_URL}/${PAGES_PREFIX}"
+        HUGO_BASEURL: "${CI_PAGES_URL}/"
     - <<: *merge-request-only
       variables:
         PAGES_PREFIX: 'mr$CI_MERGE_REQUEST_IID'
         ENVIRONMENT: 'review/mr$CI_MERGE_REQUEST_IID'
-        HUGO_BASEURL: "${CI_PAGES_URL}/${PAGES_PREFIX}"
+        HUGO_BASEURL: "${CI_PAGES_URL}/"
       when: manual
       allow_failure: true
 
