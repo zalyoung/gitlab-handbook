@@ -11,10 +11,10 @@ The content and assets are [aggregated into a single group](https://gitlab.com/g
 
 ### Roles and Responsibilities
 
-| Role                  | Responsibility                                                                                                                                                            |
-|-----------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Facilitator           | Assembles the group, runs the meeting, and maintains the project. Ideally 2 per CoP                                                                                                          |
-| Contributor           | Any Team member who engages with the CoP group SME should try to contribute back - such as providing a deck or recording where the information gathered was utilized.     |
+| Role                  | Responsibility |
+|-----|-----|
+| Facilitator           | Assembles the group, runs the meeting, and maintains the project. Ideally 2 per CoP |
+| Contributor           | Any Team member who engages with the CoP group SME should try to contribute back - such as providing a deck or recording where the information gathered was utilized. |
 
 #### Guidelines
 
@@ -26,7 +26,26 @@ The content and assets are [aggregated into a single group](https://gitlab.com/g
 
 Anyone can establish or participate in an existing Community of Practice. Below you will find the active ones. If you are interested in starting a new one, please follow the process outlined below.
 
-### 2023 Pilot
+#### Current Communities of Practice
+
+| Subject                             | Facilitator (members list in project) |
+|---|---|
+| Cloud | [Regnard Raquedan](https://gitlab.com/rraquedan) |
+| Competitive intelligence                | [Péter Bozsó](https://gitlab.com/pboszo)|
+
+#### Process
+
+1. Establish a focus topic.
+2. Enlist GitLab team members to participate in your new CoP, utilize the #customer-success or #solutions-architects channel in Slack to reach a broad audience. Make sure to point them to the process outlined on this page, so they understand the commitment.
+3. Setup a monthly or bi-weekly Cadence call with the team members.
+4. Update this handbook page under the table "Active Communities of Practice."
+5. Setup a slack channel using the `#cop-` prefix, so team members know where to go for help.
+6. If needed, create a project in the [Communities of Practice group](https://gitlab.com/gitlab-com/customer-success/communities-of-practice) by using this [project template](https://gitlab.com/gitlab-com/customer-success/communities-of-practice/project-template)
+7. As needed, create and manage the [README.md](https://gitlab.com/gitlab-com/customer-success/communities-of-practice/project-template/-/blob/master/README.md)
+
+### History
+
+#### 2023 Pilot
 
 To improve active participation and engagement, a pilot will be launched. This was based on a survey and consultation with several members of the Solutions Architects (SA) team. Some of the findings include:
 
@@ -56,20 +75,3 @@ Potential key performance indicators include:
 - Quality & delivery of output
 - Participation & attendance
 - CoP member experience
-
-### Current Communities of Practice
-
-| Subject                             | Facilitator (members list in project) |
-|---|---|
-| Cloud | [Regnard Raquedan](https://gitlab.com/rraquedan) |
-| Competitive intelligence                | [Péter Bozsó](https://gitlab.com/pboszo)|
-
-### Process
-
-1. Establish a focus topic.
-2. Enlist GitLab team members to participate in your new CoP, utilize the #customer-success or #solutions-architects channel in Slack to reach a broad audience. Make sure to point them to the process outlined on this page, so they understand the commitment.
-3. Setup a monthly or bi-weekly Cadence call with the team members.
-4. Update this handbook page under the table "Active Communities of Practice."
-5. Setup a slack channel using the `#cop-` prefix, so team members know where to go for help.
-6. If needed, create a project in the [Communities of Practice group](https://gitlab.com/gitlab-com/customer-success/communities-of-practice) by using this [project template](https://gitlab.com/gitlab-com/customer-success/communities-of-practice/project-template)
-7. As needed, create and manage the [README.md](https://gitlab.com/gitlab-com/customer-success/communities-of-practice/project-template/-/blob/master/README.md)
