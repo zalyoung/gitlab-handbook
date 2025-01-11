@@ -204,10 +204,7 @@ pages:
     paths:
       - public
   script:
-    - echo "CI_PAGES_URL ${CI_PAGES_URL}"
-    - echo "PAGES_PREFIX ${PAGES_PREFIX}"
-    - echo "HUGO_BASEURL ${HUGO_BASEURL}"
-    - echo "Pages accessible through ${CI_PAGES_URL}/"
+    - echo "Pages accessible through ${HUGO_BASEURL}"
   rules:
     - <<: *default-branch
     - <<: *scheduled-pipeline
