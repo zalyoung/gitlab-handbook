@@ -173,6 +173,7 @@ build:
     - echo -e "\e[0Ksection_start:`date +%s`:group7\r\e[0KGroup 7"
     - find "public" -type f -name '*.html' -exec sed -i -e "s/content-sites\/handbook\/${PAGES_PREFIX}\/content-sites\/handbook\/${PAGES_PREFIX}/content-sites\/handbook\/${PAGES_PREFIX}/g" {} +
     - echo -e "\e[0Ksection_end:`date +%s`:group7\r\e[0K"
+    - echo -e "HUGO_BASEURL ${CI_PAGES_URL}/${PAGES_PREFIX}"
   artifacts:
     paths:
       - public
