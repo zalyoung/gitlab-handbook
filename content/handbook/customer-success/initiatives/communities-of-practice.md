@@ -28,10 +28,10 @@ Anyone can establish or participate in an existing Community of Practice. Below 
 
 #### Current Communities of Practice
 
-| Subject                             | Facilitator (members list in project) |
+| Subject                             | Facilitator |
 |---|---|
 | Cloud | [Regnard Raquedan](https://gitlab.com/rraquedan) |
-| Competitive intelligence                | [Péter Bozsó](https://gitlab.com/pboszo)|
+| Competitive Intelligence                | [Péter Bozsó](https://gitlab.com/pboszo)|
 
 #### Process
 
