@@ -14,7 +14,7 @@ The content and assets are [aggregated into a single group](https://gitlab.com/g
 | Role                  | Responsibility |
 |-----|-----|
 | Facilitator           | Assembles the group, runs the meeting, and maintains the project. Ideally 2 per CoP |
-| Contributor           | Any Team member who engages with the CoP group SME should try to contribute back - such as providing a deck or recording where the information gathered was utilized. |
+| Contributor           | Any team member who engages with the CoP group SME should try to contribute back - such as providing a deck or recording where the information gathered was utilized. |
 
 #### Guidelines
 
