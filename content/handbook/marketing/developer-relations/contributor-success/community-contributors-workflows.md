@@ -231,7 +231,7 @@ GitLab teams are encouraged to use the following [Hackathon issue template](http
 
 ### Virtual hackathons/hackathon-in-a-box
 
-We also encourage wider community members to organize events to encourage and support new contributors to GitLab. This could be done as a part of in-person or virtual [GitLab meetups](/handbook/marketing/developer-relations/evangelist-program/#meetups).
+We also encourage wider community members to organize events to encourage and support new contributors to GitLab. This could be done as a part of in-person or virtual GitLab meetups.
 
 If wider community members are interested in including a hackathon as a part of a meetup, ask them to include this information when they open a [meetup issue](https://gitlab.com/gitlab-com/marketing/community-relations/evangelist-program/general/issues/new?issuable_template=meetup-organizer). Contributor Success team members will get in touch with the organizer and provide the necessary resources to support the event.
 
