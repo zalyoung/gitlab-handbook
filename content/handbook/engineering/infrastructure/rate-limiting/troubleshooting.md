@@ -108,7 +108,12 @@ This dashboard will show the HTTP traffic for `gitlab.com`,
 which can return sampled results.
 Use this dashboard to look up paths, IPs, source user agents, data centers, and more.
 
+<details>
+<summary>Click to see Cloudflare HTTP Traffic Analytics</summary>
+
 ![Cloudflare HTTP Traffic Analytics](/images/handbook/engineering/infrastructure/rate-limiting/troubleshooting/cloudflare-http-traffic-analytics.jpeg)
+
+</details>
 
 ##### Add filters
 
@@ -133,7 +138,12 @@ but this can be increased to 15 items if required.
 The [Security Events](https://dash.cloudflare.com/852e9d53d0f8adbd9205389356f2303d/security-center/events?host=gitlab.com) show the volume of requests that were blocked, challenged, or skipped.
 Use this dashboard to investigate if (and what) Cloudflare rule might be blocking traffic.
 
+<details>
+<summary>Click to see Cloudflare Security Events</summary>
+
 ![Cloudflare Security Events](/images/handbook/engineering/infrastructure/rate-limiting/troubleshooting/cloudflare-security-events.jpeg)
+
+</details>
 
 ##### Add filters
 
@@ -147,6 +157,29 @@ You can apply as many filters as required,
 then scroll down to see the results.
 The default view will return the top 5 items,
 but this can be increased to 15 items if required.
+
+**Note:** Search results may be limited to 30 days.
+
+##### Interpreting Results
+
+Once you have filtered your results then you can use the results to further investigate:
+
+- **Source IP Addresses:** Are requests coming from one, or many IP addresses?
+- **User Agents:** Are requests from a common library? What version?
+- **Paths:** What resources or paths are they targetting, is there a pattern?
+- **Firewall/ Rate limiting/ Managed rules**: What rules are being hit? Is this expected behaviour?
+
+If any of the results are particularly interesting, you can hover over the value to further `Filter` or `Exclude` to dig deeper into your investigation.
+
+<details>
+<summary>Click to see Cloudflare Security Events Results</summary>
+
+The below results have been redacted
+to remove any potentially sensitive information.
+
+![Cloudflare Security Events Example](/images/handbook/engineering/infrastructure/rate-limiting/troubleshooting/cloudflare-security-events-example.jpeg)
+
+</details>
 
 #### SSH Traffic
 
