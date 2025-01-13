@@ -29,7 +29,7 @@ This process helps Snowflake's query optimizer to quickly locate and retrieve re
 
 ## When to Use Clustering
 
-If a model has the `incremental_backfill_date` variable configured then it must also be configured to never fully refresh. These models can incur large re-clustering charges since the backfill DAG reprocesses months in random order which leads to an unsorted table. An example of this is `mart_behavior_structured_event`.
+If a model includes the `incremental_backfill_date` variable then it must also be configured to never fully refresh. These models can incur large re-clustering charges since the backfill DAG reprocesses months in random order which leads to an unsorted table. An example of this is `mart_behavior_structured_event`.
 
 Models which can be fully refreshed without additional configuration can be clustered in the normal way as dbt will produce a clustered table. 
 
