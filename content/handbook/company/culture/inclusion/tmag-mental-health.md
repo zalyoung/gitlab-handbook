@@ -11,9 +11,9 @@ This group aims to unify all GitLab employees in a supportive wellness and menta
 
 ## Leadership
 
-Co-leads: @mmacfarlane and @yyugitlab
+Co-leads: @yyugitlab and @mmacfarlane. Yin is based out of Sydney, Australia, and Matthew out of Seattle, USA.
 
-Executive sponsor: To be confirmed
+Executive sponsor: @lboughner. Lisa is based out of Las Vegas, Nevada.
 
 Advisors & allies: Could be you!
 
@@ -23,7 +23,6 @@ Advisors & allies: Could be you!
 
 ## Where to reach us
 
-- Join our Slack channel #
-- Issue label:
-- Email:
-- Sign up to get meeting invites by joining the GitLab Mental Health Google Group (link to be added)
+- Join our Slack channel #mental-health-tmag
+- Create an Issue in the Mental Health TMAG Project: https://gitlab.com/gitlab-com/mental-health-tmag
+- Sign up to get meeting invites by joining the GitLab Mental Health Google Group: https://groups.google.com/a/gitlab.com/g/wellness-mental-health
