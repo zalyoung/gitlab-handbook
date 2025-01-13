@@ -16,7 +16,7 @@ The Cells Infrastructure team is responsible for developing key services and com
 
 #### Issue Tracking
 
-The Cells Infrastructure team works across multiple GitLab projects such as `gitlab-org/gitlab`, `gitlab-org/http-router`, `gitlab-org/topology-service`, and `gitlab-com/gl-infra/gitlab-dedicated/instrumentor`. By default, you should open issues that will be owned by the team under the [Cells Infrastructure Team Issue Tracker](https://gitlab.com/gitlab-com/gl-infra/tenant-scale/cells-infrastructure/team/-/issues) and apply the `group::cells infrastructure` label. Move issues for the Cells Infrastructure team from other projects to the team issue tracker when appropriate.
+The Cells Infrastructure team works across multiple GitLab projects such as `gitlab-org/gitlab`, `gitlab-org/cells/http-router`, `gitlab-org/cells/topology-service`, and `gitlab-com/gl-infra/gitlab-dedicated/instrumentor`. By default, you should open issues that will be owned by the team under the [Cells Infrastructure Team Issue Tracker](https://gitlab.com/gitlab-com/gl-infra/tenant-scale/cells-infrastructure/team/-/issues) and apply the `group::cells infrastructure` label. Move issues for the Cells Infrastructure team from other projects to the team issue tracker when appropriate.
 
 For issues tracked in the team's issue tracker or other `gitlab-com/gl-infra` projects, we use the `workflow-infra::*` labels to track an issue's workflow status. Ensure that all issues that are in progress, ready, or need triage have the relevant `workflow-infra::*` label applied. We use a [workflow issue board](https://gitlab.com/groups/gitlab-com/gl-infra/-/boards/9026689) to track the workflow status of active issues.
 
