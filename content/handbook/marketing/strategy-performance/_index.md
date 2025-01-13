@@ -167,6 +167,7 @@ To give each functional marketing team has a single point of contact for marketi
 
 - [Marketing Metrics](/handbook/marketing/strategy-performance/marketing-metrics)
 - [Dashboards Page](dashboards)
+- [Marketing Analytics Data Overview and General Information](/handbook/marketing/strategy-performance/marketing-analytics-data)
 
 ## <i id="biz-tech-icons" class="fas fa-toolbox"></i>We are the Bussiness Owners Of the Following Applications
 
