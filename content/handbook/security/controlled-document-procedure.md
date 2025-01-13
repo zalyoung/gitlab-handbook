@@ -101,7 +101,6 @@ Once an exception request is submitted, the following general flow will commence
 - The exception will be logged in the central exception management space.
 - The exception will be reviewed as its expiration date approaches, and any extension of the exception will require a new and approved extension request. 
 
-
 ## References
 
 - [GCF Compliance Controls]({{< ref "sec-controls" >}})
