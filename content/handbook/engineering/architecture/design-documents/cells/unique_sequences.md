@@ -25,3 +25,5 @@ The range got from the SequenceService will be used to set `maxval` and `minval`
 newly created IDs.
 
 Logic to compute to the sequence range and the interactions between cells and the topology service can be found [here](topology_service.md#workflow).
+
+More details about this can be found in [ADR 008: Cluster wide unique database sequences](decisions/008_database_sequences.md).
