@@ -13,7 +13,7 @@ This group aims to unify all GitLab employees in a supportive wellness and menta
 
 Co-leads: @yyugitlab and @mmacfarlane. Yin is based out of Sydney, Australia, and Matthew out of Seattle, USA.
 
-Executive sponsor: @lboughner. Lisa is based out of Las Vegas, Nevada.
+Executive sponsor: @lboughner. Lisa is based out of Las Vegas, USA.
 
 Advisors & allies: Could be you!
 
