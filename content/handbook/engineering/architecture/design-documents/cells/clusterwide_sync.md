@@ -108,17 +108,17 @@ different types:
 
 #### application_settings
 
-See related design document. In short, we will use an external source of truth
+See related design document.
+In short, we will use an external source of truth
 to synchronize each cell's Application Settings.
 
 The external source of truth will need to first obtain the current values from
 the Legacy Cell, before propogating the values to other cells.
 
 When creating a setting, developers need to ensure that the default for the
-setting will work correctly for any Cell. This applies especially when the new
-setting has not had a chance to be synchronized yet with the external source of
-truth.
-
+setting will work correctly for any Cell.
+This applies especially when the new setting has not had a chance to be
+synchronized yet with the external source of truth.
 
 ### Reference tables
 
@@ -126,15 +126,16 @@ Convert reference tables to be in application code instead.
 
 #### plans
 
-The plans table is a simple table with `id`, `name`, and `title` columns. It also has a unique index on the `name`
-table. There are two referencing tables, `plan_limits` and
-`gitlab_subscriptions`.
+The plans table is a simple table with `id`, `name`, and `title` columns.
+It also has a unique index on the `name` table.
+There are two referencing tables, `plan_limits` and `gitlab_subscriptions`.
 
 The problem is that each Cell could create in-consistent data where
 the `name` does not match `id` in all cells.
 
-The solution is simple. We need a globally unique reference for each plan. We
-can have the following enum:
+The solution is simple.
+We need a globally unique reference for each plan.
+We can have the following enum:
 
 ```ruby
   enum :name_uid,
@@ -151,7 +152,8 @@ can have the following enum:
     opensource: 11
 ```
 
-And drop the `id` column. We will then use the new `name_uid` column in all
+And drop the `id` column.
+We will then use the new `name_uid` column in all
 referencing tables.
 
 Another alternative is to drop the `plans` table entirely, and use a hard-coded
@@ -160,7 +162,8 @@ list of plans.
 #### subscription_add_ons
 
 The `subscription_add_ons` table is also a simple table with `id`, `name`, and
-`description` columns. Again, it has a unique index on the `name` column.
+`description` columns.
+Again, it has a unique index on the `name` column.
 
 Similar to the `plans`, we can either use a `name_uid` column strategy, or drop
 the table entirely.
@@ -182,28 +185,31 @@ This table `abuse_report_labels` has several columns:
 
 There is a unique index for the `title` column.
 
-There is no conceptual need to synchronize this table between each Cell. Abuse reports are
-independent records. `abuse_report_labels` are labels which are attached to abuse
-reports.
+There is no conceptual need to synchronize this table between each Cell.
+Abuse reports are independent records.
+`abuse_report_labels` are labels which are attached to abuse reports.
 
 The only problem arises when `abuse_report_labels` are moved between Cells,
-leading to uniqueness violations for the `title` column. The simplest measure is
-to drop the uniqueness constraint, and allow duplicates.
+leading to uniqueness violations for the `title` column.
+The simplest measure is to drop the uniqueness constraint, and allow duplicates.
 
 Alternatively, we can append `(Cell 2)` to the title to de-duplicate.
 
 #### programming_languages
 
 The `programming_languages` table is a table with `id`, `name`, and `color`
-columns. The table has a unique index on the `name` column.
+columns.
+The table has a unique index on the `name` column.
 
 Similar to the `plans`, we can adopt the `name_uid` column strategy, and drop the
-`id` column. As the data comes from Gitaly (lingust), we will need to map the
-`name` to an integer in a way that is stable. This mapping can be stored on
-either the GitLab Ruby monolith, or in Gitaly.
+`id` column.
+As the data comes from Gitaly (lingust), we will need to map the
+`name` to an integer in a way that is stable.
+This mapping can be stored on either the GitLab Ruby monolith, or in Gitaly.
 
 <https://github.com/github-linguist/linguist/blob/main/lib/linguist/languages.yml>
-has the full list of languages. We can possibly use the `langugage_id` field.
+has the full list of languages.
+We can possibly use the `langugage_id` field.
 
 All referencing tables will be switched to refer to the `name_uid`
 column instead.
@@ -221,7 +227,8 @@ The `security_training_providers` table has a few columns:
 There is a unique index on `name`.
 
 Similar to the `plans`, we can adopt the `name_uid` column strategy, and drop the
-`id` column. All referencing tables will be switched to refer to the `name_uid`
+`id` column.
+All referencing tables will be switched to refer to the `name_uid`
 column instead.
 
 However, as there are only three rows, we can drop the table entirely instead,
