@@ -10,7 +10,7 @@ Framework is a team within the [GitLab Delivery Stage](/handbook/engineering/inf
 
 The Framework team intends to make GitLab easy to operate at any scale. GitLab is critical to our end users (developers) and a necessity for organizations most important business operations and workflows. The Framework team functions with autonomy to drive good quality within our Reference Architectures and GET above all else.
 
-### Some optimal success criteria include:
+### Some optimal success criteria include
 
 1. A decrease in the cost of support per customer
 1. Lower time to value for new installations
@@ -50,6 +50,7 @@ The reference architectures will provide the best user experience with the inten
 Upgrading GitLab is one of the most challenging parts of operating GitLab and, at times, requires very dedicated attention to plan how GitLab gets upgraded.
 
 #### Other Responsibilities
+
 1. Architecture performance and non-functional testing
 2. Admin experience
 3. Enablement of GitLab account teams to provide appropriate recommendations
