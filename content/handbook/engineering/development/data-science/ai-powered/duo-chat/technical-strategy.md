@@ -70,5 +70,3 @@ Expanding and refining our runbooks is a crucial step in this direction, ensurin
 In addition to improving debugging tools, this pillar also emphasizes the importance of enhancing unit tests and end-to-end testing. Expanding test coverage plays a critical role in identifying and resolving issues early, thereby reducing the likelihood of regressions and minimizing the occurrence of bugs. Comprehensive testing enables the team to detect issues before they reach customers, protecting valuable engineering time from being consumed by post-release bug fixes.
 
 Improving both the scope and quality of tests allows for more reliable deployments, strengthens the overall stability of the system, and supports continuous delivery without compromising quality. As the system evolves, maintaining high test coverage, combined with automated testing practices, will ensure that new features are introduced with minimal risk to the existing functionality. This will not only increase confidence in the product but also free up engineering resources to focus on innovation and long-term improvements rather than reactive bug fixes.
-
-
