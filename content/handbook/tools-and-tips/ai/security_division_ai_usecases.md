@@ -23,7 +23,7 @@ The Security Division integrates AI capabilities into various tools and automati
 | Process | AI Engine | Efficiency Details | Team | 
 |------|-----------|----------|------|
 |Tableau Data Manipulation | Claude |Leverage Claude to generate syntax for calculated fields in Tableau to enable data manipulation. These fields enable us manipulate existing data and create new dimensions and measures to support the Security metrics program.  | Security Governance |
-| Policy Generation and Optimization | Claude | Create the foundations of Security and Technology policies and reduce verbosity of policy languge to align with Governance expectations. | Security Governance |
+| Policy Generation and Optimization | Claude | Create the foundations of Security and Technology policies and reduce verbosity of policy language to align with Governance expectations. | Security Governance |
 | Security Training Content Script Creation and Editing | Claude | Create scripts for AI created Security Training videos and editing of Security training content for readability and conciseness. | Security Governance |
 | Blog and White Paper Optimization | Claude | Optimize the language and readability of blog posts and white papers to support a polished product for customers and the community. | Field Security |
 
