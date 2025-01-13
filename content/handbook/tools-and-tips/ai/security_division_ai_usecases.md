@@ -2,7 +2,7 @@
 title: "AI use cases within the Security Division at GitLab"
 ---
 
-Learn how the [Security Division](https://handbook.gitlab.com/handbook/security/) leverages AI platforms such as Claude and Duo to optimize workflows, improve productivity and automate manual tasks. 
+Learn how the [Security Division](/handbook/security/) leverages AI platforms such as [Claude](/handbook/tools-and-tips/ai/claude/) and [GitLab Duo](/handbook/tools-and-tips/ai/gitlab-duo/) to optimize workflows, improve productivity and automate manual tasks. 
 
 ## Security Tools and Automations Using AI
 
