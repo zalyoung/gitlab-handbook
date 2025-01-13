@@ -200,7 +200,7 @@ Please use the [Other G&D Types](https://gitlab.com/gitlab-com/people-group/lear
 
 Please use the [Other G&D Types](https://gitlab.com/gitlab-com/people-group/learning-development/growth-and-development-requests/-/issues/new?issuable_template=g-and-d-other) issue template to open requests of this type.
 
-**Description:** Books related to programming, software development, and technical skills that support your career development at GitLab can be reimbursed through the G&D Fund. This is separate from GitLab's general book reimbursement benefit and requires manager approval as part of the G&D process. Books should align with your growth goals and development plan discussed with your manager.
+**Description:** Books related to programming, software development, and technical skills that support your career development at GitLab can be reimbursed through the G&D Fund. This is separate from GitLab's [general book reimbursement benefit](/handbook/finance/expenses/#books-audioe-books-included) and requires manager approval as part of the G&D process. Books should align with your growth goals and development plan discussed with your manager.
 
 **Reimbursement Requirements:** Submit proof of purchase (receipt) through Navan using the Expense type `G&D (Growth and Development)`. Include a link to your approved G&D issue in the expense description.
 
