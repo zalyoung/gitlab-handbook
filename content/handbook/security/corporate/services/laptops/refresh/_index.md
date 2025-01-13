@@ -10,4 +10,4 @@ The old laptop must be [wiped](/handbook/security/corporate/services/laptops/wip
 
 Laptops being requested as part of the refresh program use [this template](https://gitlab.com/gitlab-com/it/end-user-services/issues/laptop-issue-tracker/-/issues/new?issuable_template=Laptop_Refresh_Upgrade).
 
-If you qualify/complete a laptop refresh, please also refer to our [Laptop Buy back Policy](/handbook/security/corporate/services/laptops/buyback) below.
+If you qualify/complete a laptop refresh, please also refer to our [Laptop Buyback Policy](/handbook/security/corporate/services/laptops/buyback).
