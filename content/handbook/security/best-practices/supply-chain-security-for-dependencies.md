@@ -20,7 +20,28 @@ This includes changes to:
 - Lockfiles (e.g., `Gemfile.lock`, `yarn.lock`, `go.sum`)
 - Vendored dependencies
 
+## Dependency Evaluation Process
+
+### Evaluate the Need for the Dependency
+
+Before adding a new dependency, first evaluate whether it's truly necessary:
+
+- How much of the dependency's functionality will you actually use?
+- Could the needed functionality be implemented directly with a reasonable amount of code?
+- Would maintaining this code yourself be simpler than managing a new dependency?
+- Is the dependency solving a complex problem (like cryptography) that should not be implemented in-house?
+- Does the dependency have other dependencies that would also need to be added?
+
+### Initial Risk Assessment
+
+Before diving into detailed evaluation, consider:
+
+- The scope of access and permissions the dependency requires
+- The criticality of the component or feature that will use this dependency
+
 ### Evaluate Project Health and Secure Development Practices
+
+Note: these criteria are *not* required to use a dependency, but they are good indicators of the project's health and security.
 
 - Is the project actively developed, maintained, and mature?
   - When was the code last updated?
@@ -30,6 +51,11 @@ This includes changes to:
   - Is the software dependency version being evaluated a stable "release" version? (for example: not alpha, beta, v0.x)
   - Is the project older than 90 days?
 - Is the project well-known or widely adopted in the software industry and open source community?
+  - Wide adoption can indicate stability, reliability, and community trust
+  - Lesser-known, newer, specialized, or niche dependencies may still be appropriate if they:
+    - Meet our security requirements
+    - Solve a specific need better than alternatives
+  - Note: Low adoption alone is not a disqualifying factor if other security and maintenance criteria are met
 - Given the complexity of the project, does the project have a sufficient number of maintainers and contributors?
 - Does the project keep its dependencies updated?
 - Does the project have sufficient test coverage?
@@ -41,14 +67,14 @@ This includes changes to:
 - Does the project have a code review process for changes before code is merged into the main branch?
   - Does the project require approvals for merge/pull requests?
 - Are releases signed or cryptographically verifiable?
-- Are project maintainers using 2FA?
 - Do project maintainers use accounts registered to personal custom email domains?
+- Does the project have security requirements for maintainer accounts? (Check project security or contribution requirements, if available)
 
 ### Code Inspection
 
 - Review library code for malicious or problematic content
-- For Gems or Node.js modules, inspect the distributed code, not the repository
-- Use services like [diffend.io](https://diffend.io/) for Gems or [app.renovatebot.com](https://app.renovatebot.com/) for Node.js modules
+- Inspect the source code
+- To help review code changes between dependency versions, use services like [diffend.io](https://diffend.io/) for Gems or [app.renovatebot.com](https://app.renovatebot.com/) for Node.js modules
 - For vendored libraries, use standard code review tools
 - Review diffs for dependency upgrades to ensure the upgrade is safe and does not introduce new vulnerabilities or
 
