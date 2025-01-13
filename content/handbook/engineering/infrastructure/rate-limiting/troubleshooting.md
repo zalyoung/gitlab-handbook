@@ -252,3 +252,9 @@ using one of two confidential issue templates:
 
 - [Cloudflare Troubleshooting](https://gitlab.com/gitlab-com/gl-infra/production-engineering/-/issues/new?issuable_template=Cloudflare%2520Troubleshooting)
 - [User Rate Limiting Settings](https://gitlab.com/gitlab-com/gl-infra/production-engineering/-/issues/new?issuable_template=request-rate-limiting)
+
+### Additional Resources
+
+- [Support Workflows: IP Blocks](/handbook/support/workflows/ip-blocks/)
+- [Runbooks: Rate Limiting](https://gitlab.com/gitlab-com/runbooks/-/tree/master/docs/rate-limiting)
+- [Runbooks: Cloudflare](https://gitlab.com/gitlab-com/runbooks/-/tree/master/docs/cloudflare)
