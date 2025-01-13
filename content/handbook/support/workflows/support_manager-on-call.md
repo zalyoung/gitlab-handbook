@@ -18,7 +18,7 @@ As part of [GitLab Support on-call](/handbook/support/on-call/), Support Manager
 1. Ensuring customer emergencies are [handled promptly and accurately](#handling-customer-emergencies-and-incidents), [according to SLAs](https://about.gitlab.com/support/)
 1. [Handling Support Ticket Attention Requests](/handbook/support/internal-support/support-ticket-attention-requests) during [Global Support Hours](https://about.gitlab.com/support/#hours-of-operation)
 1. Acting as a [notification point for security incidents](#act-as-a-notification-point-for-security-incidents)
-1. Find Support Manager DRI for [Account Escalations](/handbook.gitlab.com/handbook/support/workflows/escalations-support_manager/)
+1. Find Support Manager DRI for [Account Escalations](/handbook/support/workflows/escalations-support_manager/)
 1. Help avoid SLA breaches. See [Working on Tickets](/handbook/support/workflows/working-on-tickets) for details.
 
 **Note:** You (or the CMOC/CEOC) may sometimes be required to contact GitLab users on behalf of another GitLab team (such as the SIRT team). Please follow the [Sending Notices workflow](/handbook/support/workflows/sending_notices) to action these requests.
