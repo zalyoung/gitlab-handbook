@@ -27,6 +27,6 @@ The Security Division integrates AI capabilities into various tools and automati
 | Security Training Content Script Creation and Editing | Claude | Create scripts for AI created Security Training videos and editing of Security training content for readability and conciseness. | Security Governance |
 | Blog and White Paper Optimization | Claude | Optimize the language and readability of blog posts and white papers to support a polished product for customers and the community. | Field Security |
 
-## Ideas, Experiements and Tests
+## Ideas, Experiments and Tests
 
 The security division works out of GitLab issues to keep track of AI-integrated ideas, experiments, and tests. Generally it is a good idea to add the `AI` GitLab label to issues for tracking.
