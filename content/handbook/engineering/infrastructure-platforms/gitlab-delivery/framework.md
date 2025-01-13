@@ -10,11 +10,56 @@ Framework is a team within the [GitLab Delivery Stage](/handbook/engineering/inf
 
 The Framework team intends to make GitLab easy to operate at any scale. GitLab is critical to our end users (developers) and a necessity for organizations most important business operations and workflows. The Framework team functions with autonomy to drive good quality within our Reference Architectures and GET above all else.
 
+### Some optimal success criteria include:
+
+1. A decrease in the cost of support per customer
+1. Lower time to value for new installations
+1. More instances on the recent version of GitLab
+1. Fewer upgrade-related incidents
+1. Instances on supported architecture
+
+Seeing that many of these metrics are owned by multiple teams, the Framework Team will contribute here but does not have full agency to drive.
+
+### What does it mean to Operate GitLab?
+
+GitLab is a complex application. Organizations typically have a dedicated team to manage GitLab internally. This operation includes day-to-day maintenance, upgrades, backup and restore, and downtime. This team's goal is to make this operation easy for all organizations, including our own deployments.
+
+It is not solely the responsibility of the Framework team to make GitLab easy to operate, but to provide guidance to the wider GitLab organization to develop in a way that is conducive to a good user experience for admins. Managing GitLab components in a tested and supported architecture significantly lowers the operational aptitude required.
+
+### Delivery of Mission
+
+1. Easy enablement materials to consume reference architectures for account teams and operators
+2. Collaborate on structured guidance for operational excellence in feature development
+3. Verify upgrade paths
+4. Stewards of a good experience for managing GitLab with GET and the Reference Architectures
+
+### Tools and Responsibilities
+
+The Framework team will lead our GitLab Environment Toolkit and Reference Architectures initiatives, as these are great delivery methods for the goals of this team. However, these will only be a piece of the larger picture, which includes producing positive outcomes for the GitLab admin. This includes external users as well as easing the operational requirements for our own SaaS offerings.
+
+#### GitLab Environment Toolkit (GET)
+
+GET is a set of opinionated Terraform and Ansible scripts to assist with deploying scaled self-managed GitLab environments following the Reference Architectures. A good experience with GET means users will more quickly have an environment (lower TTV) and long-term success (decreased need for support).
+
+#### Reference Architectures
+
+The reference architectures will provide the best user experience with the intent to decrease the amount of required support from GitLab. The Framework team will continue to ensure the RAs meet the needs of customers by improving architecture designs over time. The Framework team will also provide guidance for internal teams to review and add components as needed.
+
+#### Upgrade Path Validation
+
+Upgrading GitLab is one of the most challenging parts of operating GitLab and, at times, requires very dedicated attention to plan how GitLab gets upgraded.
+
+#### Other Responsibilities
+1. Architecture performance and non-functional testing
+2. Admin experience
+3. Enablement of GitLab account teams to provide appropriate recommendations
+4. Self-serve experience for scaling GitLab
+
 ## Team Members
 
 {{< team-by-manager-slug "lsogunle" >}}
 
-Product Manager: [Dilan Orrino](/handbook/company/team/#dorrino)
+Product Manager: [Martin Brümmer](/handbook/company/team/#mbruemmer)
 
 ## Roadmap
 
