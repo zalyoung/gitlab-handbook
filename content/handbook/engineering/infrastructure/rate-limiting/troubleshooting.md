@@ -86,22 +86,25 @@ as the `RackAttack` rate limits configured in the Application return these respo
 GitLab employees with access can use SSO to login to our Cloudflare account.
 To do so, enter your GitLab email and the `Log in with SSO` option will appear.
 
+To request access, open an [access request](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/new?issuable_template=Access_Change_Request) for the Cloudflare Analytics role.
+
 #### Quick Links
 
 - [Cloudflare Overview: gitlab.com domain](https://dash.cloudflare.com/852e9d53d0f8adbd9205389356f2303d/gitlab.com)
+- [Analytics & Logs: Network Analytics](https://dash.cloudflare.com/852e9d53d0f8adbd9205389356f2303d/network-analytics/all-traffic)
 - [Analytics & Logs: HTTP Traffic for gitlab.com](https://dash.cloudflare.com/852e9d53d0f8adbd9205389356f2303d/gitlab.com/analytics/traffic)
-- [Security Events for gitlab.com](https://dash.cloudflare.com/852e9d53d0f8adbd9205389356f2303d/gitlab.com/security/events)
+- [Security Center: Events for gitlab.com](https://dash.cloudflare.com/852e9d53d0f8adbd9205389356f2303d/security-center/events?host=gitlab.com)
 
 ##### Select custom date ranges for your searches
 
 Doing so serves two purposes:
 
 1. It narrows your search to a specific time period.
-1. It allows you to share a URL with a snapshot view with colleagues, whereas the `Previous 24 hours` will generate a link with a rolling window, which may not be as useful for investigations.
+1. It allows you to share a snapshot view with colleagues, whereas the `Previous 24 hours` will generate a link with a rolling window.
 
 #### HTTP Traffic Analytics
 
-This page on the Cloudflare dashboard will show the HTTP traffic for `gitlab.com`,
+This dashboard will show the HTTP traffic for `gitlab.com`,
 which can return sampled results.
 Use this dashboard to look up paths, IPs, source user agents, data centers, and more.
 
@@ -127,7 +130,7 @@ but this can be increased to 15 items if required.
 
 #### Security Events
 
-The [Security Events](https://dash.cloudflare.com/852e9d53d0f8adbd9205389356f2303d/gitlab.com/security/events) show the volume of requests that were blocked, challenged, or skipped.
+The [Security Events](https://dash.cloudflare.com/852e9d53d0f8adbd9205389356f2303d/security-center/events?host=gitlab.com) show the volume of requests that were blocked, challenged, or skipped.
 Use this dashboard to investigate if (and what) Cloudflare rule might be blocking traffic.
 
 ![Cloudflare Security Events](/images/handbook/engineering/infrastructure/rate-limiting/troubleshooting/cloudflare-security-events.jpeg)
@@ -147,12 +150,15 @@ but this can be increased to 15 items if required.
 
 #### SSH Traffic
 
-The Cloudflare dashboard does not provide analytics for SSH traffic.
-These logs are pushed to a google Cloud Storage (GCS) bucket
+The [Network Analytics](https://dash.cloudflare.com/852e9d53d0f8adbd9205389356f2303d/network-analytics/all-traffic?dest-port=22) dashboard allows you to filter by destination port.
+Setting a filter of `Destination port equals 22`
+will allow you to do basic analysis on SSH traffic.
+
+For more detailed investigation, logs are pushed to a Google Cloud Storage (GCS) bucket
 where those with access to GCP can investigate further.
 
 See the [Cloudflare runbook](https://gitlab.com/gitlab-com/runbooks/-/blob/master/docs/cloudflare/logging.md) for details on querying the Cloudflare logs,
-or follow guidance to request further assistance.
+or follow guidance to request further SRE assistance.
 
 ### HAProxy
 
@@ -162,10 +168,54 @@ then you can refer to the [HAProxy Logging runbook](https://gitlab.com/gitlab-co
 
 ### Application
 
-[Grafana: Rate Limiting Overview dashboard](https://dashboards.gitlab.net/d/rate-limiting-rate-limiting_overview/rate-limiting3a-rate-limiting3a-overview?orgId=1)
+There are two main throtting mechanisms in the GitLab Application:
+[RackAttack](/handbook/engineering/infrastructure/rate-limiting/#rackattack) and the
+[ApplicationRateLimiter](/handbook/engineering/infrastructure/rate-limiting/#applicationratelimiter).
+
+You can observe trends for both using the [Rate Limiting Overview](https://dashboards.gitlab.net/d/rate-limiting-rate-limiting_overview/rate-limiting3a-rate-limiting3a-overview?orgId=1) Grafana dashboard.
+
+#### Quick Links
+
+- [Metrics: Rate Limiting Overview dashboard](https://dashboards.gitlab.net/d/rate-limiting-rate-limiting_overview/rate-limiting3a-rate-limiting3a-overview?orgId=1)
+- [Logs: RackAttack](https://log.gprd.gitlab.net/app/discover#/view/0026cc97-6b9a-445a-a364-7197e04053a2?_g=())
+- [Logs: ApplicationRateLimiter](https://log.gprd.gitlab.net/app/discover#/view/2d2cf10e-b22a-4c07-bbda-45bb665c31ee?_g=())
+- [Logs: Rate Limit Dashboard](https://log.gprd.gitlab.net/app/r/s/AJDZC)
 
 #### RackAttack
 
+If a request is throttled by [RackAttack](/handbook/engineering/infrastructure/rate-limiting/#rackattack) it will contain `RateLimit-*` response headers.
+
+You can filter the the [RackAttack logs](https://log.gprd.gitlab.net/app/discover#/view/0026cc97-6b9a-445a-a364-7197e04053a2?_g=()) by:
+
+- IP address using `json.remote_ip`
+- Throttle using `json.matched`
+- Path using `json.path`
+
 #### ApplicationRateLimiter
 
+You can filter the [ApplicationRateLimiter logs](https://log.gprd.gitlab.net/app/discover#/view/2d2cf10e-b22a-4c07-bbda-45bb665c31ee?_g=()) by:
+
+- IP using `json.meta.remote_ip`
+- User using `json.meta.user` or `json.meta.client_id`
+- Project using `json.meta.project`
+- Throttle using `json.env`
+- Path using `json.path`
+
+#### Workhorse
+
+If you have not found the request in Cloudflare, RackAttack, or ApplicationRateLimiter,
+then you can search for rate limited responses in the [Workhorse logs](https://log.gprd.gitlab.net/app/discover#/view/7b6dc396-5b27-4e86-b150-72b476255faf?_g=()) by:
+
+- IP using `json.remote_ip`
+- Path using `json.uri`
+- Status using `json.status`
+
 ### Requesting further assistance
+
+If you have followed this troubleshooting guidance
+and have not found the results you were looking for,
+you can request further assistance from a Site Reliability Engineer (SRE)
+using one of two confidential issue templates:
+
+- [Cloudflare Troubleshooting](https://gitlab.com/gitlab-com/gl-infra/production-engineering/-/issues/new?issuable_template=Cloudflare%2520Troubleshooting)
+- [User Rate Limiting Settings](https://gitlab.com/gitlab-com/gl-infra/production-engineering/-/issues/new?issuable_template=request-rate-limiting)
