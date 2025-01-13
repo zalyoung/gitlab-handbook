@@ -92,7 +92,7 @@ We can add an opt-out capability to give customers more time before switching to
 This can be done by introducing an `ops` Feature Flag.
 This should ideally be an _opt-out_ flag (instead of _opt-in_), and should always be `false` by default.
 
-The Feature Flag actor can be decided on a case-to-case basis, but in general:
+The Feature Flag actor can be decided on a case-by-case basis, but in general:
 
 - On GitLab SaaS, the flag will be checked against the _top-level group_ that is providing the user with the [GitLab Duo Add-on](https://docs.gitlab.com/ee/subscriptions/subscription-add-ons.html) seat.
 - On Self-Managed GitLab instances, the flag can be checked on the instance level.
