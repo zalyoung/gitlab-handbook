@@ -115,6 +115,12 @@ Whether related to an ongoing incident or not, Infrastructure or Security may as
 
 The CMOC can be paged during the [incident declaration process](/handbook/engineering/infrastructure/incident-management/#reporting-an-incident). If the CMOC needs to be paged after an incident was created or for any other reason, see the [How to engage the CMOC?](/handbook/engineering/infrastructure/incident-management/#how-to-engage-the-cmoc) section of the main incident management handbook.
 
+### About Coordinating a Support Response
+
+When there is an incident that results in unexpected customer impact, that requires non-standard workflow or communication from Support, you can create a [Support Response](https://gitlab.com/gitlab-com/support/support-team-meta/-/blob/master/.gitlab/issue_templates/Support%20Response.md) issue to help coordinate Support action and response.
+
+Keep this issue updated as communication guidelines or workflows change so that it remains the singe source of truth for Support-related information.
+
 ### CMOC Performance Indicators
 
 Success as a CMOC is determined by the following performance indicators:
