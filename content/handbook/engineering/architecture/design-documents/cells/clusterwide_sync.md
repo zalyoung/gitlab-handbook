@@ -12,37 +12,101 @@ In order for some features to work, the data for some
 tables needs to be synchronized to all cells.
 For example, the `plans`, `plan_limits`, and `licenses` tables do need to be the same across all cells.
 
-## Alternative
+## Analysis of clusterwide tables
 
-Convert reference tables to be in application code instead.
+Below is an analysis of clusterwide tables, which can be categorized into 4
+different types:
 
-| Table                               | Reference table | Instance Setting | Organization/cell data | User | Rows Present ? |
-|-------------------------------------|-----------------|------------------|------------------------|------|----------------|
-| ai_self_hosted_models               | Y               |                  |                        |      | 0              |
-| application_setting_terms           | Y               |                  |                        |      | 0              |
-| application_settings                |                 | Y                |                        |      | 1              |
-| plans                               | Y               |                  |                        |      | 1              |
-| subscription_add_ons                | Y               |                  |                        |      | 1              |
-| work_item_hierarchy_restrictions    | Y               |                  |                        |      | 1              |
-| work_item_related_link_restrictions | Y               |                  |                        |      | 1              |
-| work_item_types                     | Y               |                  |                        |      | 1              |
-| work_item_widget_definitions        | Y               |                  |                        |      | 1              |
-| abuse_report_label_links            |                 |                  |                        | Y    | 1              |
-| abuse_report_labels                 |                 |                  |                        | Y    | 1              |
-| abuse_reports                       |                 |                  |                        | Y    | 1              |
-| authentication_events               |                 |                  |                        | Y    | 1              |
-| emails                              |                 |                  |                        | Y    | 1              |
-| keys                                |                 |                  |                        | Y    | 1              |
-| programming_languages               | Y               |                  | Maybe                  |      | 1              |
-| routes                              |                 |                  | Y                      |      | 1              |
-| security_training_providers         | Y               |                  | Maybe                  |      | 1              |
-| spam_logs                           |                 |                  |                        | Y    | 1              |
-| user_audit_events                   |                 |                  |                        | Y    | 1              |
-| user_details                        |                 |                  |                        | Y    | 1              |
-| user_preferences                    |                 |                  |                        | Y    | 1              |
-| users                               |                 |                  |                        | Y    | 1              |
+1. Reference table. Tables which are constant / exactly the same for all cells.
+1. Instance Setting table. Tables which host settings which needs to affect all
+   cells.
+1. Organization / Cell table. Tables which may be better categorized as
+   `gitlab_main_cell`.
+1. User table. Tables related to users, and can be synchronized later in Cells 1.5+
+   (not Cells 1.0).
 
-### application_settings
+| Table                                                     | Reference table | Instance Setting table | Organization/cell table | User table | Rows Present in new GDK |
+|-----------------------------------------------------------|-----------------|------------------------|-------------------------|------------|-------------------------|
+| ai_feature_settings                                       |                 | Y                      |                         |            | N                       |
+| ai_settings                                               |                 | Y                      |                         |            | N                       |
+| appearances                                               |                 | Y                      |                         |            | N                       |
+| application_settings                                      |                 | Y                      |                         |            | Y                       |
+| cloud_connector_access                                    |                 | Y                      |                         |            | N                       |
+| plan_limits                                               |                 | Y                      |                         |            | N                       |
+| service_access_tokens                                     |                 | Y                      |                         |            | N                       |
+| ai_self_hosted_models                                     | Y               |                        |                         |            | N                       |
+| application_setting_terms                                 | Y               |                        |                         |            | N                       |
+| broadcast_messages                                        |                 | Y                      | Maybe ?                 |            | N                       |
+| licenses                                                  |                 | Y                      |                         |            | N                       |
+| plans                                                     | Y               |                        |                         |            | Y                       |
+| subscription_add_ons                                      | Y               |                        |                         |            | Y                       |
+| work_item_hierarchy_restrictions                          | Y               |                        |                         |            | Y                       |
+| work_item_related_link_restrictions                       | Y               |                        |                         |            | Y                       |
+| work_item_types                                           | Y               |                        |                         |            | Y                       |
+| work_item_widget_definitions                              | Y               |                        |                         |            | Y                       |
+| abuse_events                                              |                 |                        |                         | Y          | N                       |
+| abuse_report_assignees                                    |                 |                        |                         | Y          | N                       |
+| abuse_report_events                                       |                 |                        |                         | Y          | N                       |
+| abuse_report_label_links                                  |                 |                        |                         | Y          | Y                       |
+| abuse_report_labels                                       |                 |                        |                         | Y          | Y                       |
+| abuse_report_notes                                        |                 |                        |                         | Y          | N                       |
+| abuse_report_user_mentions                                |                 |                        |                         | Y          | N                       |
+| abuse_reports                                             |                 |                        |                         | Y          | Y                       |
+| abuse_trust_scores                                        |                 |                        |                         | Y          | N                       |
+| ai_testing_terms_acceptances                              |                 |                        | Maybe                   |            | N                       |
+| atlassian_identities                                      |                 |                        |                         | Y          | N                       |
+| audit_events_instance_amazon_s3_configurations            |                 |                        | Maybe                   |            | N                       |
+| audit_events_instance_external_audit_event_destinations   |                 |                        | Maybe                   |            | N                       |
+| audit_events_instance_external_streaming_destinations     |                 |                        | Maybe                   |            | N                       |
+| audit_events_instance_google_cloud_logging_configurations |                 |                        | Maybe                   |            | N                       |
+| audit_events_instance_streaming_event_type_filters        |                 |                        | Maybe                   |            | N                       |
+| audit_events_streaming_instance_event_type_filters        |                 |                        | Maybe                   |            | N                       |
+| authentication_events                                     |                 |                        |                         | Y          | Y                       |
+| aws_roles                                                 |                 |                        |                         | Y          | N                       |
+| banned_users                                              |                 |                        |                         | Y          | N                       |
+| deploy_tokens                                             |                 |                        |                         | Y          | N                       |
+| early_access_program_tracking_events                      |                 |                        |                         | Y          | N                       |
+| emails                                                    |                 |                        |                         | Y          | Y                       |
+| ghost_user_migrations                                     |                 |                        |                         | Y          | N                       |
+| gpg_key_subkeys                                           |                 |                        |                         | Y          | N                       |
+| gpg_keys                                                  |                 |                        |                         | Y          | N                       |
+| identities                                                |                 |                        |                         | Y          | N                       |
+| instance_audit_events                                     |                 |                        | Maybe                   |            | N                       |
+| instance_audit_events_streaming_headers                   |                 |                        | Maybe                   |            | N                       |
+| instance_integrations                                     |                 |                        | Maybe                   |            | N                       |
+| keys                                                      |                 |                        |                         | Y          | Y                       |
+| oauth_applications                                        |                 |                        | Maybe                   |            | N                       |
+| programming_languages                                     | Y               |                        | Maybe                   |            | Y                       |
+| redirect_routes                                           |                 |                        | Y                       |            | N                       |
+| routes                                                    |                 |                        | Y                       |            | Y                       |
+| saved_replies                                             |                 |                        |                         | Y          | N                       |
+| security_training_providers                               | Y               |                        | Maybe                   |            | Y                       |
+| smartcard_identities                                      |                 |                        |                         | Y          | N                       |
+| spam_logs                                                 |                 |                        |                         | Y          | Y                       |
+| term_agreements                                           |                 |                        |                         | Y          | N                       |
+| user_agent_details                                        |                 |                        |                         | Y          | N                       |
+| user_audit_events                                         |                 |                        |                         | Y          | Y                       |
+| user_broadcast_message_dismissals                         |                 |                        |                         | Y          | N                       |
+| user_callouts                                             |                 |                        |                         | Y          | N                       |
+| user_credit_card_validations                              |                 |                        |                         | Y          | N                       |
+| user_custom_attributes                                    |                 |                        |                         | Y          | N                       |
+| user_details                                              |                 |                        |                         | Y          | Y                       |
+| user_follow_users                                         |                 |                        |                         | Y          | N                       |
+| user_highest_roles                                        |                 |                        |                         | Y          | N                       |
+| user_member_roles                                         |                 |                        |                         | Y          | N                       |
+| user_permission_export_uploads                            |                 |                        |                         | Y          | N                       |
+| user_phone_number_validations                             |                 |                        |                         | Y          | N                       |
+| user_preferences                                          |                 |                        |                         | Y          | Y                       |
+| user_statuses                                             |                 |                        |                         | Y          | N                       |
+| user_synced_attributes_metadata                           |                 |                        |                         | Y          | N                       |
+| users                                                     |                 |                        |                         | Y          | Y                       |
+| users_statistics                                          |                 |                        |                         | Y          | N                       |
+| vs_code_settings                                          |                 |                        |                         | Y          | N                       |
+| webauthn_registrations                                    |                 |                        |                         | Y          | N                       |
+
+### Instance Setting tables
+
+#### application_settings
 
 See related design document. In short, we will use an external source of truth
 to synchronize each cell's Application Settings.
@@ -55,7 +119,12 @@ setting will work correctly for any Cell. This applies especially when the new
 setting has not had a chance to be synchronized yet with the external source of
 truth.
 
-### plans
+
+### Reference tables
+
+Convert reference tables to be in application code instead.
+
+#### plans
 
 The plans table is a simple table with `id`, `name`, and `title` columns. It also has a unique index on the `name`
 table. There are two referencing tables, `plan_limits` and
@@ -88,7 +157,7 @@ referencing tables.
 Another alternative is to drop the `plans` table entirely, and use a hard-coded
 list of plans.
 
-### subscription_add_ons
+#### subscription_add_ons
 
 The `subscription_add_ons` table is also a simple table with `id`, `name`, and
 `description` columns. Again, it has a unique index on the `name` column.
@@ -96,11 +165,11 @@ The `subscription_add_ons` table is also a simple table with `id`, `name`, and
 Similar to the `plans`, we can either use a `name_uid` column strategy, or drop
 the table entirely.
 
-### work_item_types
+#### work_item_types
 
 See this epic: TBD
 
-### abuse_report_labels
+#### abuse_report_labels
 
 This table `abuse_report_labels` has several columns:
 
@@ -123,7 +192,7 @@ to drop the uniqueness constraint, and allow duplicates.
 
 Alternatively, we can append `(Cell 2)` to the title to de-duplicate.
 
-### programming_languages
+#### programming_languages
 
 The `programming_languages` table is a table with `id`, `name`, and `color`
 columns. The table has a unique index on the `name` column.
@@ -139,7 +208,7 @@ has the full list of languages. We can possibly use the `langugage_id` field.
 All referencing tables will be switched to refer to the `name_uid`
 column instead.
 
-### security_training_providers
+#### security_training_providers
 
 The `security_training_providers` table has a few columns:
 
@@ -167,6 +236,8 @@ SECUREFLAG_DATA = {
   url: "https://knowledge-base-api.secureflag.com/gitlab"
 }.freeze
 ```
+
+----
 
 ## Requirements
 
