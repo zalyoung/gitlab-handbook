@@ -103,7 +103,7 @@ The high-level proposal is as follows:
 1. A new dedicated admin page allows to manage and monitor the encryption key usage:
    - What percentage of data is encrypted with each active encryption/decryption keys?
    - What's the expected ETA for everything to be re-encrypted with the current encryption key?
-   - What keys can be deleted (i.e. no data is encrypted with this key and the key is `retired` already)?
+   - What keys can be removed (i.e. no data is encrypted with this key and the key is `retired` already)?
 
 ### "Encryption keys" admin page
 
@@ -115,29 +115,25 @@ The high-level proposal is as follows:
 
 Keys lifecycle information will be stored in a new `encryption_keys` table, including:
 
-- Key type, an enum:
-  - `secret_key_base`
-  - `otp_key_base`
+- Key type `key_type`, an enum:
   - `db_key_base`
-  - `openid_connect_signing_key`
   - `active_record_encryption_primary_key`
   - `active_record_encryption_deterministic_key`
-  - `active_record_encryption_key_derivation_salt`
-- Key fingerprint (4 hex chars), i.e. `Digest::SHA1.hexdigest(secret).first(4)`
-  (inspired by <https://github.com/rails/rails/blob/v7.0.8.6/activerecord/lib/active_record/encryption/key.rb#L24>).
+- Key fingerprint (4 hex chars), (inspired by
+  <https://github.com/rails/rails/blob/v7.0.8.6/activerecord/lib/active_record/encryption/key.rb#L24>).
+- Key status `status`: `inactive`, `active`, `retired`, `removed`.
+  - At first a new key is `inactive`.
+  - The new key will need to be explicitely enabled and will transition to `active` to become the current encryption key.
+  - The current encryption key is always the `active` record with the highest `id`.
+  - All keys from `config/secrets.yml` are available for decryption purpose. The encryption key fingerprint should be stored alongside
+    encrypted data so that the decryption key doesn't have to be guessed from the active keys.
+  - Once no data is encrypted with an `active` key anymore, it can be retired (in which case its status transitions to `retired`).
+  - When the key is actually removed from the `config/secrets.yml` file, its corresponding record transitions to
+    `removed` (see "During initialization" below).
 - Key creation time `created_at`: the first time it appeared in a `config/secrets.yml` file.
 - Key activation time `activated_at`: the time when the key transitioned to `active`.
 - Key retirement time `retired_at`: the time when the key transitioned to `retired`.
-- Key deletion time `deleted_at`: the time when the key transitioned to `deleted`.
-- Key status `status`: `inactive`, `active`, `retired`, `deleted`.
-  - At first a new key is `inactive`.
-  - The new key will need to be explicitely enabled and will transition to `active` to become the current encryption key.
-  - The current encryption key is always the `active` record with the highest `activated_at`.
-  - All `active` keys are available for decryption purpose. The encryption key fingerprint should be stored alongside
-    encrypted data so that the decryption key doesn't have to be guessed from the active keys.
-  - Once no data is encrypted with an `active` key anymore, it can be retired (in which case its status transitions to `retired`).
-  - When the key is actually deleted from the `config/secrets.yml` file, its corresponding record transitions to
-    `deleted` (see "During initialization" below).
+- Key deletion time `removed_at`: the time when the key transitioned to `removed`.
 
 Key statuses state diagram:
 
@@ -147,10 +143,11 @@ stateDiagram-v2
     Inactive --> [*]
     Inactive --> Active
     Inactive --> Retired
-    Inactive --> Deleted
     Active --> Retired
-    Retired --> Deleted
-    Deleted --> [*]
+    Inactive --> Removed
+    Active --> Removed
+    Retired --> Removed
+    Removed --> [*]
 ```
 
 Keeping track of these information in the database gives the following abilities:
@@ -168,51 +165,80 @@ the initialization of the application (i.e. before the database is ready).
 
 ##### During initialization
 
-During initialization, if a new key is discovered in `config/secrets.yml`, the following happens:
+During initialization, if a new key is discovered in `config/secrets.yml`, the following 3 steps happens:
 
-- A record for the new key is created in the `encryption_keys` table (the status of the new key is `inactive`).
-- If its fingerprint collides with an existing non-`deleted` key fingerprint, a warning is shown and the key cannot be transitioned to `active`.
-  In that case, the key should be deleted and replaced with another key.
-  Note that a rake task will be provided to perform this collision check before the key is actually added to `config/secrets.yml`.
-
-If a key is present in `encryption_keys` but not in `config/secrets.yml` anymore, the record is transitioned from
-`inactive` or `retired` to `deleted` and `deleted_at` is set.
-If the key was in the `active` state, it's problematic as it means the key was still in use (we can detect such cases
-with `state == "deleted" && activated_at != nil && retired_at == nil`).
-The only remediation is to re-add the deleted key from a backup. In that case, a new record would be created (and its
-fingerprint wouldn't collide since the previous record would be in the `deleted` state).
+1. A record for the new key is created in the `encryption_keys` table (the status of the new key is `inactive`).
+   - If its fingerprint collides with an existing non-`removed` key fingerprint, a warning is shown and the key cannot be transitioned to `active`.
+     In that case, the key should be removed and replaced with another key.
+     Note that a rake task will be provided to perform this collision check before the key is actually added to `config/secrets.yml`.
+1. If a key is present in `encryption_keys` but not in `config/secrets.yml` anymore, the record is transitioned from
+`inactive` or `retired` to `removed` and `removed_at` is set.
+   - If the key was in the `active` state, it's problematic as it means the key was still in use (we can detect such cases
+     with `state == "removed" && activated_at != nil && retired_at == nil`).
+     The only remediation is to re-add the removed key from a backup. In that case, a new record would be created (and its
+     fingerprint wouldn't collide since the previous record would be in the `removed` state).
+1. For each key type, if no key is currently active, the latest inactive key is automatically activated.
 
 #### Encryption key selection
 
 The encryption key needs to be dynamically selected based on the `encryption_keys` table.
 
 For `ActiveRecord::Encryption` attributes, we will introduce a
-[`GitlabKeyProvider` custom key provider](https://guides.rubyonrails.org/active_record_encryption.html#custom-key-providers).
+[`GitlabPrimaryKeyProvider` custom key provider](https://guides.rubyonrails.org/active_record_encryption.html#custom-key-providers).
 
 For `attr_encrypted` and `TokenAuthenticatable`, we'll implement the methods in `EncryptionKey`.
 
-##### `GitlabKeyProvider` implementation
+##### `GitlabPrimaryKeyProvider` implementation
 
 ```ruby
-class GitlabKeyProvider < ActiveRecord::Encryption::DerivedSecretKeyProvider
-  KEY_TYPE = :active_record_encryption_primary_key
+# frozen_string_literal: true
 
+# rubocop:disable Gitlab/BoundedContexts -- Not sure yet
+# rubocop:disable Gitlab/NamespacedClass -- Not sure yet
+class GitlabPrimaryKeyProvider < ActiveRecord::Encryption::DerivedSecretKeyProvider
+  KEY_TYPE = :active_record_encryption_primary_key
+  DEFAULT_KEYS = ActiveRecord::Encryption.config.primary_key
+
+  def initialize(passwords = nil)
+    if passwords.nil?
+      fingerprints = EncryptionKey.active_keys_fingerprints_for_type(key_type)
+      passwords = DEFAULT_KEYS.select do |key|
+        fingerprints.include?(EncryptionKey.key_fingerprint(key_type: :active_record_encryption_primary_key, key: key))
+      end
+    end
+
+    super
+  end
+
+  def last_key_fingerprint
+    @keys.last.id
+  end
+
+  # TODO: Cache
   def current_key_fingerprint
-    EncryptionKey.active.where(type: KEY_TYPE).order(activated_at: :desc).limit(1).pluck(:fingerprint).first
+    EncryptionKey.latest_active_key_for_type(KEY_TYPE).fingerprint
   end
 
   def encryption_key
     fingerprint = current_key_fingerprint
-    @keys.find do |key|
-      key.encryption_key.id == fingerprint
+    @encryption_key ||= @keys.find do |key|
+      key.id == fingerprint
+    end
+
+    return unless @encryption_key
+
+    @encryption_key.tap do |key|
+      key.public_tags.encrypted_data_key_id = key.id if ActiveRecord::Encryption.config.store_key_references
     end
   end
 end
+# rubocop:enable Gitlab/BoundedContexts
+# rubocop:enable Gitlab/NamespacedClass
 ```
 
 Notes on caching:
 
-- `GitlabKeyProvider#current_active_record_encryption_primary_key_fingerprint` & `GitlabKeyProvider#encryption_key`
+- `GitlabPrimaryKeyProvider#current_key_fingerprint` & `GitlabPrimaryKeyProvider#encryption_key`
   should be cached appropriately to avoid issuing DB queries each time they're called (given encryption is a very
   common and low-level flow).
 - For encryption key, caching isn't a problem since it would only delay the usage of a newly-activated encryption key.
@@ -220,9 +246,16 @@ Notes on caching:
 ##### `GitlabDeterministicKeyProvider` implementation
 
 ```ruby
-class GitlabDeterministicKeyProvider < GitlabKeyProvider
+# frozen_string_literal: true
+
+# rubocop:disable Gitlab/BoundedContexts -- Not sure yet
+# rubocop:disable Gitlab/NamespacedClass -- Not sure yet
+class GitlabDeterministicKeyProvider < GitlabPrimaryKeyProvider
   KEY_TYPE = :active_record_encryption_deterministic_key
+  DEFAULT_KEYS = ActiveRecord::Encryption.config.deterministic_key
 end
+# rubocop:enable Gitlab/BoundedContexts
+# rubocop:enable Gitlab/NamespacedClass
 ```
 
 ##### `attr_encrypted` and `TokenAuthenticatable` implementation
@@ -231,39 +264,40 @@ The `EncryptionKey.current_db_key_base_encryption_key` and `EncryptionKey.curren
 be implemented as follows:
 
 ```ruby
-def self.current_db_key_base_encryption_key_fingerprint
-  active.where(type: :db_key_base).order(activated_at: :desc).limit(1).pluck(:fingerprint).first
-end
-
-def self.find_key_from_fingerprint(fingerprint)
-  Settings.db_key_base_keys_32_bytes.find do |key|
-    ActiveRecord::Encryption::Key.new(key).id == fingerprint
+  def self.current_db_key_base_encryption_key_fingerprint
+    active.where(key_type: :db_key_base).order(activated_at: :desc).limit(1).pick(:fingerprint)
   end
-end
 
-def self.current_db_key_base_encryption_key
-  find_key_from_fingerprint(current_db_key_base_encryption_key_fingerprint)
-end
-
-def self.current_active_decryption_keys(record = nil)
-  if record && record.respond_to?(:encryption_key_fingerprint)
-    find_key_from_fingerprint(encryption_key_fingerprint)
-  else
-    # Select the first key for each fingerprint in normal order (i.e. old to new), to avoid conflicting keys.
-    # This allows decryption to use a key that's not yet `active` in the case it became active in another process
-    # and data already started to be encrypted with the newly active key. In that case, decryption should be possible
-    # right away (i.e. we cannot cache decryption keys otherwise we'd have decryption errors until the cache is expired).
-    Settings.db_key_base_keys_32_bytes.each_with_object({}) do |key, memo|
-      fingerprint = ActiveRecord::Encryption::Key.new(key).id
-      memo[fingerprint] << key unless memo.key?(fingerprint)
+  def self.find_key_from_fingerprint(fingerprint)
+    Settings.attr_encrypted_db_key_base_32.find do |key|
+      ActiveRecord::Encryption::Key.new(key).id == fingerprint
     end
   end
-end
+
+  def self.current_db_key_base_encryption_key
+    find_key_from_fingerprint(current_db_key_base_encryption_key_fingerprint)
+  end
+
+  def self.current_active_decryption_keys(record = nil)
+    if record && record.respond_to?(:encryption_key_fingerprint)
+      [find_key_from_fingerprint(record.encryption_key_fingerprint)]
+    else
+      # Select the first key for each fingerprint in normal order (i.e. old to new), to avoid conflicting keys.
+      # This allows decryption to use a key that's not yet `active` in the case it became active in another process
+      # and data already started to be encrypted with the newly active key. In that case, decryption should be possible
+      # right away (i.e. we cannot cache decryption keys otherwise we'd have decryption errors until the cache is
+      # expired).
+      Settings.attr_encrypted_db_key_base_32.each_with_object({}) do |key, memo|
+        fingerprint = ActiveRecord::Encryption::Key.new(key).id
+        memo[fingerprint] << key unless memo.key?(fingerprint)
+      end
+    end
+  end
 ```
 
 Notes on caching:
 
-- Same remarks on caching for `EncryptionKey.current_db_key_base_encryption_key` key methods as for`GitlabKeyProvider`.
+- Same remarks on caching for `EncryptionKey.current_db_key_base_encryption_key` key methods as for `GitlabPrimaryKeyProvider`.
 - Caching of `EncryptionKey.current_active_decryption_keys` would be a problem if a newly-activated key is used for
   encryption, before it's used for decryption. To solve that, all the keys from `config/secrets.yml` should be
   available for decryption at any time (except the ones that would conflict with previous keys, see inline code
