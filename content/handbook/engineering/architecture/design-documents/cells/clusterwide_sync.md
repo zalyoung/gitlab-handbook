@@ -47,6 +47,14 @@ Convert reference tables to be in application code instead.
 See related design document. In short, we will use an external source of truth
 to synchronize each cell's Application Settings.
 
+The external source of truth will need to first obtain the current values from
+the Legacy Cell, before propogating the values to other cells.
+
+When creating a setting, developers need to ensure that the default for the
+setting will work correctly for any Cell. This applies especially when the new
+setting has not had a chance to be synchronized yet with the external source of
+truth.
+
 ### plans
 
 The plans table is a simple table with `id`, `name`, and `title` columns. It also has a unique index on the `name`
