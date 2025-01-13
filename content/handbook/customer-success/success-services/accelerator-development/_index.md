@@ -240,6 +240,10 @@ Labels:
 
 To streamline the development of Accelerators and make the process more actionable, CSAs & their should focus on asynchronous collaboration, leverage existing meetings like the Accelerator Delivery Framework Meeting.
 
+{{< youtube "aSCGpEXoQbU" >}}
+
+*In the [walkthrough](https://youtu.be/aSCGpEXoQbU?si=uJLqOe5Z68TLccE6) you will see how to streamline accelerator development using the accelerator issue template and track performance with Value Stream Analytics for optimal lifecycle management, all in GitLab.*
+
 ### 1. Leverage GitLab Issue Boards for Workflow Management
 
 The CSA Issue Board provides a Kanban-style view of Accelerator states, making it easy to track progress.  
