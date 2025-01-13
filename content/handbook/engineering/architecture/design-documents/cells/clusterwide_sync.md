@@ -12,6 +12,154 @@ In order for some features to work, the data for some
 tables needs to be synchronized to all cells.
 For example, the `plans`, `plan_limits`, and `licenses` tables do need to be the same across all cells.
 
+## Alternative
+
+Convert reference tables to be in application code instead.
+
+| Table                               | Reference table | Instance Setting | Organization/cell data | User | Rows Present ? |
+|-------------------------------------|-----------------|------------------|------------------------|------|----------------|
+| ai_self_hosted_models               | Y               |                  |                        |      | 0              |
+| application_setting_terms           | Y               |                  |                        |      | 0              |
+| application_settings                |                 | Y                |                        |      | 1              |
+| plans                               | Y               |                  |                        |      | 1              |
+| subscription_add_ons                | Y               |                  |                        |      | 1              |
+| work_item_hierarchy_restrictions    | Y               |                  |                        |      | 1              |
+| work_item_related_link_restrictions | Y               |                  |                        |      | 1              |
+| work_item_types                     | Y               |                  |                        |      | 1              |
+| work_item_widget_definitions        | Y               |                  |                        |      | 1              |
+| abuse_report_label_links            |                 |                  |                        | Y    | 1              |
+| abuse_report_labels                 |                 |                  |                        | Y    | 1              |
+| abuse_reports                       |                 |                  |                        | Y    | 1              |
+| authentication_events               |                 |                  |                        | Y    | 1              |
+| emails                              |                 |                  |                        | Y    | 1              |
+| keys                                |                 |                  |                        | Y    | 1              |
+| programming_languages               | Y               |                  | Maybe                  |      | 1              |
+| routes                              |                 |                  | Y                      |      | 1              |
+| security_training_providers         | Y               |                  | Maybe                  |      | 1              |
+| spam_logs                           |                 |                  |                        | Y    | 1              |
+| user_audit_events                   |                 |                  |                        | Y    | 1              |
+| user_details                        |                 |                  |                        | Y    | 1              |
+| user_preferences                    |                 |                  |                        | Y    | 1              |
+| users                               |                 |                  |                        | Y    | 1              |
+
+### application_settings
+
+See related design document. In short, we will use an external source of truth
+to synchronize each cell's Application Settings.
+
+### plans
+
+The plans table is a simple table with `id`, `name`, and `title` columns. It also has a unique index on the `name`
+table. There are two referencing tables, `plan_limits` and
+`gitlab_subscriptions`.
+
+The problem is that each Cell could create in-consistent data where
+the `name` does not match `id` in all cells.
+
+The solution is simple. We need a globally unique reference for each plan. We
+can have the following enum:
+
+```ruby
+  enum :name_uid,
+    default: 1,
+    free: 2,
+    bronze: 3,
+    silver: 4,
+    premium: 5,
+    gold: 6,
+    ultimate: 7,
+    ultimate_trial: 8,
+    ultimate_trial_paid_customer: 9,
+    premium_trial: 10,
+    opensource: 11
+```
+
+And drop the `id` column. We will then use the new `name_uid` column in all
+referencing tables.
+
+Another alternative is to drop the `plans` table entirely, and use a hard-coded
+list of plans.
+
+### subscription_add_ons
+
+The `subscription_add_ons` table is also a simple table with `id`, `name`, and
+`description` columns. Again, it has a unique index on the `name` column.
+
+Similar to the `plans`, we can either use a `name_uid` column strategy, or drop
+the table entirely.
+
+### work_item_types
+
+See this epic: TBD
+
+### abuse_report_labels
+
+This table `abuse_report_labels` has several columns:
+
+- `id`
+- `cached_markdown_version`
+- `title`
+- `color`
+- `description`
+- `description_html`
+
+There is a unique index for the `title` column.
+
+There is no conceptual need to synchronize this table between each Cell. Abuse reports are
+independent records. `abuse_report_labels` are labels which are attached to abuse
+reports.
+
+The only problem arises when `abuse_report_labels` are moved between Cells,
+leading to uniqueness violations for the `title` column. The simplest measure is
+to drop the uniqueness constraint, and allow duplicates.
+
+Alternatively, we can append `(Cell 2)` to the title to de-duplicate.
+
+### programming_languages
+
+The `programming_languages` table is a table with `id`, `name`, and `color`
+columns. The table has a unique index on the `name` column.
+
+Similar to the `plans`, we can adopt the `name_uid` column strategy, and drop the
+`id` column. As the data comes from Gitaly (lingust), we will need to map the
+`name` to an integer in a way that is stable. This mapping can be stored on
+either the GitLab Ruby monolith, or in Gitaly.
+
+<https://github.com/github-linguist/linguist/blob/main/lib/linguist/languages.yml>
+has the full list of languages. We can possibly use the `langugage_id` field.
+
+All referencing tables will be switched to refer to the `name_uid`
+column instead.
+
+### security_training_providers
+
+The `security_training_providers` table has a few columns:
+
+- `id`
+- `name`
+- `description`
+- `url`
+- `logo_url`
+
+There is a unique index on `name`.
+
+Similar to the `plans`, we can adopt the `name_uid` column strategy, and drop the
+`id` column. All referencing tables will be switched to refer to the `name_uid`
+column instead.
+
+However, as there are only three rows, we can drop the table entirely instead,
+and use in-application code instead.
+
+```ruby
+SECUREFLAG_DATA = {
+  name_uid: 1,
+  name: 'SecureFlag',
+  description: "Get remediation advice with example code and recommended hands-on labs in a fully
+                interactive virtualised environment.",
+  url: "https://knowledge-base-api.secureflag.com/gitlab"
+}.freeze
+```
+
 ## Requirements
 
 - Clusterwide tables needs to be clearly marked in the database dictionary as participating in the sync process, or not.
