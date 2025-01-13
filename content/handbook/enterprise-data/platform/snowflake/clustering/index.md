@@ -34,6 +34,7 @@ If a model includes the `incremental_backfill_date` variable then it must also b
 Models which can be fully refreshed without additional configuration can be clustered in the normal way as dbt will produce a clustered table. 
 
 Consider using clustering when:
+
 - Your table is large (typically > 1 TB)
 - You frequently query on specific columns
 - Your queries are experiencing performance issues in dbt, Snowsight, or Tableau; clustering the table that your query selects from can improve query performance.
