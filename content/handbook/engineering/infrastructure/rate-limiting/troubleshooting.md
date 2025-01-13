@@ -250,7 +250,7 @@ and have not found the results you were looking for,
 you can request further assistance from a Site Reliability Engineer (SRE)
 using one of two confidential issue templates:
 
-- [Cloudflare Troubleshooting](https://gitlab.com/gitlab-com/gl-infra/production-engineering/-/issues/new?issuable_template=Cloudflare%2520Troubleshooting)
+- [Cloudflare Troubleshooting](https://gitlab.com/gitlab-com/gl-infra/production-engineering/-/issues/new?issuable_template=Cloudflare%20Troubleshooting)
 - [User Rate Limiting Settings](https://gitlab.com/gitlab-com/gl-infra/production-engineering/-/issues/new?issuable_template=request-rate-limiting)
 
 ### Additional Resources
