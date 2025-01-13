@@ -29,4 +29,4 @@ The Security Division integrates AI capabilities into various tools and automati
 
 ## Ideas, Experiements and Tests
 
-The security division works out of GitLab issues to keep track of AI integrated ideas, experiements and tests. Generally it is a good idea to add the `AI` GitLab label to issues for tracking.
+The security division works out of GitLab issues to keep track of AI-integrated ideas, experiments, and tests. Generally it is a good idea to add the `AI` GitLab label to issues for tracking.
