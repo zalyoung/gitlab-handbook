@@ -178,7 +178,6 @@ deleted. You might need to edit it first to remove rules and persons first.
   - Notify the following users or schedules
     - Lee Matos
     - Lyle Kozloff
-    - James Lopes
 
 ### Support Managers
 
@@ -207,7 +206,6 @@ deleted. You might need to edit it first to remove rules and persons first.
   - Notify the following users or schedules
     - Lyle Kozloff
     - Lee Matoes
-    - James Lopes
 
 ## Change management
 
