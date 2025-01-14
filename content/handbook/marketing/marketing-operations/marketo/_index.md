@@ -119,7 +119,7 @@ All forms should follow these guidelines:
   - See more information on the [standardization of Country &/or State Values](/handbook/marketing/marketing-operations/marketo/#standardization-of-country-or-state-values) to avoid sync errors
 - Generally `City` is only visible when `Country` = `Ukraine`
 - Forms should all contain a checkbox to obtain consent to `opting in` to communications via email
-- When `Country` = `Ukraine` there is an additional checkbox for the submitter to confirm they do not live in the Crimean region of the Ukraine
+- When `Country` = `Ukraine` there is an additional checkbox for the submitter to confirm they do not live in the Crimean region of Ukraine
 - Country should not include [embargoed countries](/handbook/legal/trade-compliance/)
 - All forms should have hidden fields for `gclid` and google analytics tracking
 
@@ -441,7 +441,7 @@ Recommended for email lists. `Person Region` uses the country of the lead/contac
 - INQ > MQL - `Status = MQL, Accepted or Qualifying` OR (`Status = Recycle` AND `Person Score > 74`)
 - MQL > SAO - `Status = Qualified` OR `1 Open Opportunity` OR `Has an Open Opportunity`
 - Customer - `Current Customer = TRUE` OR `Status = Web Portal Purchase` OR `Is Paid Tier = True`
-- Disqualified - Status is `Disqualified or Bad Data`
+- Disqualified - Status is `Disqualified` or `Ineligible`
 
 </details>
 
