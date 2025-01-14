@@ -47,12 +47,11 @@ The reference architectures will provide the best user experience with the inten
 
 #### Upgrade Path Validation
 
-Upgrading GitLab is one of the most challenging parts of operating GitLab and, at times, requires very dedicated attention to plan how GitLab gets upgraded.
+Upgrading GitLab is one of the most challenging aspects of its operation and often requires dedicated attention to effectively plan the upgrade process. The Framework team continuously validates the upgrade paths between releases to ensure that only necessary, planned stops are introduced, thereby instilling confidence in the upgrade process for our Self-Managed and Dedicated customers.
 
 #### Other Responsibilities
 
 1. Architecture performance and non-functional testing
-2. Admin experience
 3. Enablement of GitLab account teams to provide appropriate recommendations
 4. Self-serve experience for scaling GitLab
 
