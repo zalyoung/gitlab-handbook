@@ -342,8 +342,7 @@ hugolint:
       - missinglinks.txt
       - new_broken_links.json
     reports:
-      codequality:
-        - linkcheck.json
+      codequality: linkcheck.json
 
 secret_detection:
   stage: build
