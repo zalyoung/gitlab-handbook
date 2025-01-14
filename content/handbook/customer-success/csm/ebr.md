@@ -8,9 +8,9 @@ View the [CSM Handbook homepage](/handbook/customer-success/csm/) for additional
 
 ## Overview
 
-An **Executive ROI Progress and Impact Review (EPR)** is a strategic meeting with stakeholders from both GitLab and the customer. It is an extension of the account planning process and part of the CSM’s regular business rhythm. The Executive ROI Progress and Impact Review aims to demonstrate to the customer leadership and stakeholders the value they are receiving in their partnership with GitLab.
+An **Executive Business Review (EBR)** is a strategic meeting with stakeholders from both GitLab and the customer. It is an extension of the account planning process and part of the CSM’s regular business rhythm. The EBR Review aims to demonstrate to the customer leadership and stakeholders the value they are receiving in their partnership with GitLab.
 
-The EPR is interactive, with discussions on the customer’s desired business outcomes, ROI metrics, progress against these metrics, and alignment on strategic next steps. The key element of an EPR is providing customer stakeholders the opportunity to speak on what matters to them and creating a success plan to achieve their business goals.
+The EBR is interactive, with discussions on the customer’s desired business outcomes, ROI metrics, progress against these metrics, and alignment on strategic next steps. The key element of an EPR is providing customer stakeholders the opportunity to speak on what matters to them and creating a success plan to achieve their business goals.
 
 ## Alignment with Stakeholders: The Importance of the EPR
 
