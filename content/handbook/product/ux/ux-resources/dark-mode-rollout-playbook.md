@@ -121,7 +121,7 @@ Common findings:
 #### 3. Code review
 
 **Who:** Engineers  
-**Outcome:** Identify components that need migrated, things that aren't a component but should be, and things that use a component incorrectly or have unsustainable overrides.
+**Outcome:** Identify components that need migration, things that aren't a component but should be, and things that use a component incorrectly or have unsustainable overrides.
 
 1. Review the codebase structure and component usage for the page:  
    1. Check if components are imported from the Pajamas design system (@gitlab/ui) or if they're custom implementations.  
