@@ -21,6 +21,19 @@ For example, the `plans`, `plan_limits`, and `licenses` tables do need to be the
    [Terraform](https://gitlab.com/gitlab-org/gitlab/-/issues/505685) will loop
    over each cell, and set the desired value.
 
+## Pros
+
+1. We can avoid work to prevent writes on follower cells, and setup syncing service, and creating APIs to update each Reference type table.
+1. We reduce consistency risks. If for any reason, the syncing fails, the application might
+   start producing corrupt data. For example creating `gitlab_subscriptions` with bad
+   `plan_id` values. If we replace `plan_id` column to use a globally unique
+   reference instead, we will not have any consistency risk.
+
+## Cons
+
+1. For Instance settings, we will need to tolerate a small amount of time where
+   there may be configuration drift.
+
 ## Analysis of clusterwide tables
 
 Below is an analysis of clusterwide tables, which can be categorized into 4
