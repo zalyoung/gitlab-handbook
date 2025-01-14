@@ -33,7 +33,7 @@ Anyone can establish or participate in an existing Community of Practice. Below 
 | Subject                             | Facilitator |
 |---|---|
 | Cloud | [Regnard Raquedan](https://gitlab.com/rraquedan) |
-| Competitive Intelligence                | [Péter Bozsó](https://gitlab.com/pboszo)|
+| Competitive Intelligence                | [Péter Bozsó](https://gitlab.com/pbozso)|
 
 #### Process
 
