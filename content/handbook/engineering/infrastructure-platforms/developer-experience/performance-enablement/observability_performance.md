@@ -4,24 +4,57 @@ title: Observability Based Performance Testing at GitLab
 
 ## Description
 
-Observability-based performance testing is an approach that focuses on understanding your system's performance characteristics through comprehensive instrumentation and real-time data collection. Unlike traditional performance testing where you run specific test scenarios, observability testing is about having deep visibility into how your application behaves under real conditions. This involves instrumenting your code with traces, metrics, and structured logging to track everything from response times and resource usage to business-level performance indicators.
 
-The key advantage of this approach is that it enables you to understand not just what's happening in your system, but why it's happening. By collecting detailed performance data across your entire application stack, you can follow requests as they flow through your services, identify bottlenecks, spot patterns, and predict potential issues before they impact users. This makes debugging faster, helps catch performance regressions early, and allows teams to make data-driven decisions about optimizations. Instead of relying solely on synthetic tests, you're working with real-world data that shows exactly how your code performs under actual usage conditions.
+Observability Based Performance Testing is a proactive approach to understanding system performance through comprehensive instrumentation and real-time data collection. Unlike traditional performance testing, which relies on specific test scenarios, observability testing provides deep visibility into application behavior under real-world conditions. 
 
-## Goals
-
-- Performance Understanding: Increase visibility in teams on the performance impact of their work
-- Early Detection: Enable teams to identify potential performance problems before they get bad enough to be customer affecting
-- Team Enablement: Teams have another tool to analyze performance that does not necessitate specific domain expertise (Load Testing tooling)
-
-## Non-Goals
-
-- Replace existing load based testing, in particular our testing with [GPT](https://gitlab.com/gitlab-org/quality/performance)
-  - Observability based Performance Testing does not replace well designed load tests
-    - It will find different performance problems
-    - It will reduce our dependance on heavy weight load tests, but not replace.
 
 ## Approach
 
+Observability testing is actively making use of our Observability tools to detect trends that would develop into performance issues. A couple common approaches:
+
+1. Have the development teams monitor the dashboards on their components and proactively pickup performance concerns
+2. Build dashboards/tooling that support doing exploratory testing on the Observability data, looking for linkages that may not be obvious (system A causes system B to slow down)
+  - Tools like the [Performance Bar](https://docs.gitlab.com/ee/administration/monitoring/performance/performance_bar.html) can enable someone to notice a performance oddity and start the investigation into the root cause
+3. Extend existing Observability tooling to development/test environments
+  - This enables teams to get performance metrics earlier in the development process
+  - This increases team familiarity with the tooling which facilitates easier adoption/use
+
+## Key Components
+
+- **Instrumentation**: Embedding traces, metrics, and structured logging across the application stack.
+- **Real-time Data Collection**: Gathering performance data continuously during actual usage.
+- **Holistic Analysis**: Examining the entire system to identify bottlenecks and patterns.
+
+## Goals
+
+- **Enhanced Performance Visibility**: Increase team awareness of their work's performance impact.
+- **Proactive Issue Detection**: Identify potential problems before they affect customers.
+- **Team Empowerment**: Provide accessible performance analysis tools that don't require specialized expertise.
+
+## Non-Goals
+
+- **Replace Load Testing**: Observability-based testing complements, but does not replace, well-designed load tests like those using [GPT](https://gitlab.com/gitlab-org/quality/performance).
+
+## Implementation Approach
+
+[TBD]
+
 ## Case Studies
 
+[TBD]
+
+## Tools and Technologies
+
+- Prometheus
+- Grafana
+- [Add other relevant tools used at GitLab]
+
+## Future Directions
+
+[TBD]
+
+## Resources
+
+- [Link to relevant GitLab documentation]
+- [Link to related blog posts or external resources]
+- [Information on available training or workshops]
