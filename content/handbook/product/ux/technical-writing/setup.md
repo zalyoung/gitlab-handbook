@@ -11,17 +11,17 @@ You can use the following tools to set up your environment. Most of
 these are not compulsory - you can set up your environment however you choose.
 These are simply suggestions to help you get up and running quickly:
 
-- If you haven't already, [install Git](https://docs.gitlab.com/ee/topics/git/how_to_install_git/index.html)
-  and [add an SSH key to your GitLab profile](https://docs.gitlab.com/ee/user/ssh.html#add-an-ssh-key-to-your-gitlab-account).
+- If you haven't already, [install Git](https://docs.gitlab.com/topics/git/how_to_install_git/)
+  and [add an SSH key to your GitLab profile](https://docs.gitlab.com/user/ssh/#add-an-ssh-key-to-your-gitlab-account).
   This step is required.
 - Install a code editor, like VS Code or Sublime Text, where you will work with markdown files. You can use whichever tool
   you're most comfortable with.
 - Install documentation
-  [linters](https://docs.gitlab.com/ee/development/documentation/testing/index.html) and
+  [linters](https://docs.gitlab.com/development/documentation/testing/) and
   configure them in your code editor:
-  - [markdownlint](https://docs.gitlab.com/ee/development/documentation/testing/markdownlint.html)
-  - [Vale](https://docs.gitlab.com/ee/development/documentation/testing/vale.html)
-- To build the docs site locally, install [the requirements and dependencies](https://gitlab.com/gitlab-org/gitlab-docs/-/blob/main/doc/setup.md). If you are new to working on GitLab documentation as a Technical Writing team member, getting this basic local build and preview setup is recommended. GDK can be added later, after you are comfortable using the combination of Git, text editor, linters, and Nanoc (static site generator) the [Technical Writing workflow](/handbook/product/ux/technical-writing/workflow/).
+  - [markdownlint](https://docs.gitlab.com/development/documentation/testing/markdownlint/)
+  - [Vale](https://docs.gitlab.com/development/documentation/testing/vale/)
+- To build the docs site locally, install [the requirements and dependencies](https://gitlab.com/gitlab-org/technical-writing-group/gitlab-docs-hugo/-/blob/main/doc/setup.md). If you are new to working on GitLab documentation as a Technical Writing team member, getting this basic local build and preview setup is recommended. GDK can be added later, after you are comfortable using the combination of Git, text editor, linters, and Hugo (static site generator) the [Technical Writing workflow](/handbook/product/ux/technical-writing/workflow/).
 - [Install the GitLab Development Kit (GDK)](https://gitlab.com/gitlab-org/gitlab-development-kit/-/blob/main/doc/index.md). GDK enables you:
   - To install, run, and maintain an instance of GitLab locally.
   - To [preview documentation changes locally](https://gitlab.com/gitlab-org/gitlab-development-kit/-/blob/main/doc/howto/gitlab_docs.md).
@@ -30,8 +30,8 @@ These are simply suggestions to help you get up and running quickly:
 
 ## Additional resources
 
-- The [Documentation Style Guide](https://docs.gitlab.com/ee/development/documentation/styleguide/)
+- The [Documentation Style Guide](https://docs.gitlab.com/development/documentation/styleguide/)
   defines the standards for GitLab documentation, including grammar and formatting.
-- The [documentation testing page](https://docs.gitlab.com/ee/development/documentation/testing/index.html)
+- The [documentation testing page](https://docs.gitlab.com/development/documentation/testing/)
   has important information about tests you should run to help ensure the quality of our documentation codebase.
-- The [documentation topic types](https://docs.gitlab.com/ee/development/documentation/topic_types/index.html) define the structure for how content should be organized.
+- The [documentation topic types](https://docs.gitlab.com/development/documentation/topic_types/) define the structure for how content should be organized.
