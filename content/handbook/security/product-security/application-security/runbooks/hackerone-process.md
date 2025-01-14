@@ -15,7 +15,7 @@ The `#hackerone-feed` Slack channel receives notifications of report status chan
 ## Guiding principles
 
 - When the `GitLab Team` queue is empty, regularly check that the `H1 Triage` queue doesn't contain reports that are rated as `Critical` or `High`. If there are such rated reports, evaluate if they are indeed `Critical` or `High`, and if so handle them directly without waiting on `H1 Triage`.
-- The AppSec engineer on rotation is responsible for H1 reports that are assigned to `GitLab Team` by Friday 2pm on the AppSec Engineer's time. All reports submitted after that time should still be triaged by the person on rotation, if the queue allows it (for example the queue is empty). All remaining reports are then passed to the next person on HackerOne rotation.
+- The AppSec engineer on rotation is responsible for H1 reports that are assigned to `GitLab Team` until Friday 2pm on the AppSec Engineer's time. All reports submitted after that time should still be triaged by the person on rotation, if the queue allows it (for example the queue is empty). All remaining reports are then passed to the next person on HackerOne rotation.
 
 ## GitLab Team On-boarding
 
