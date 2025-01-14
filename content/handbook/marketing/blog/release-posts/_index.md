@@ -1395,7 +1395,7 @@ For entries that support Markdown, use regular [Markdown Kramdown](https://about
 - **Image shadow**:
   when you add images though the text,
   make sure all images have the class shadow applied:
-  - `![image alt text](/images/marketing/blog/release-posts/#img-url){:.shadow}`
+  - `![image alt text](#img-url){:.shadow}`
   - If the original image already has shadow applied, don't use `{:.shadow}`.
   - If you're inserting the image in the YAML file via `image_url` entry, add the `image_noshadow: true` [entry](#content-blocks) right after `image_url`.
 
