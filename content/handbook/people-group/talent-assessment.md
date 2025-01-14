@@ -109,7 +109,7 @@ Examples:
 
 Note that this is an expected distribution, not a forced distribution. The bell curve distribution aligns with what is most commonly used as a benchmark in the industry and serves as a baseline for us to review and calibrate against. There may be exceptions that are justified that can be discussed and reviewed during calibration. Where deviations from the expected distribution occur, managers should use this as a data point to further review and work with their leadership to ensure appropriate growth plans are in place, proper role fit exists, hiring plans are adjusted, that we are promoting at a fair and accurate rate.
 
-**We expect roughly ~5% of team members to be assess as [TNTR (Too New To Rate)](/handbook/people-group/talent-assessment/#too-new-to-rate).**
+**We expect roughly ~5% of team members to be assessed as [TNTR (Too New To Rate)](/handbook/people-group/talent-assessment/#too-new-to-rate).**
 Performance:
 
 - **Developing**: 10%, not yet meeting all of the expectations
@@ -292,7 +292,7 @@ The calibration session is one of the most important pieces of the Performance/G
 - Leaders should feel comfortable providing feedback on team members in other functions that they have direct experience working with.
 - Focus on discussing artifacts that are relevant to the performance factor and refrain from discussing artifacts that are not relevant to performance being developing, performing or exceeding. Examples of artifacts which are not relevant: upcoming maternity/parental leave, personal information/home situation or things that were confidentially shared and do not relate to performance.
 - Refer to the competencies, job family, job frameworks and values when deciding what is relevant.
-- Utilize the SBI model for [feedback](/handbook/people-group/guidance-on-feedback/#s-b-i-model). Focus on facts and avoid blanket statements as opposed to (i.e. [team member] has poor communication), "[team member] struggled with collaboration during the roll-out of x project and could have improved communciation by ensuring they aligned with x stakeholders more regularly during the process. The impact of this was x."
+- Utilize the SBI model for [feedback](/handbook/people-group/guidance-on-feedback/#s-b-i-model). Focus on facts and avoid blanket statements as opposed to (i.e. [team member] has poor communication), "[team member] struggled with collaboration during the roll-out of x project and could have improved communication by ensuring they aligned with x stakeholders more regularly during the process. The impact of this was x."
 - Calibration is not a stack ranking of team members. While some inter-person comparison may happen, it should only be to ensure that evaluations are being applied fairly across different raters.
 - **Ask questions and provide feedback!** This may seem obvious, but it is an important aspect to help identify any potential bias
 
@@ -361,7 +361,7 @@ Below is the high level timeline for the formal assessment beginning in Q4 FY25 
 
 - **2025-01-27:** Kick off Optional Self-Evaluation cycle for all Team Members
 - **2025-02-06:** Due date for all Self-Evaluations
-- **2025-02-10:** Managers begin to review thier team members self evaluations and gather feedback. Workday Calibration cycle opens and Calibration discussions occur
+- **2025-02-10:** Managers begin to review their team members self evaluations and gather feedback. Workday Calibration cycle opens and Calibration discussions occur
 - **2025-02-28:** 5:00pm PST Workday Calibration will be locked
 - **2025-03-03**: Kick off the Manager Evaluation cycle in Workday
 - **2025-03-07:** Annual Compensation Review Kicks off for Managers
@@ -373,7 +373,7 @@ Below is the high level timeline for the formal assessment beginning in Q4 FY25 
 
 *Team members who are on Leave of Absence (LOA) on TBD are excluded from the auto advancement of their talent assessment until they return to work.
 
-Note: For full details on our Annual Compensation Review (ACR) timeline and cycle, pelase refer to our ACR [handbook page](/handbook/total-rewards/compensation/compensation-review-cycle/).
+Note: For full details on our Annual Compensation Review (ACR) timeline and cycle, please refer to our ACR [handbook page](/handbook/total-rewards/compensation/compensation-review-cycle/).
 
 ### Cadence
 
@@ -385,7 +385,7 @@ Anyone hired on or before January 31st should receive a Performance and Growth P
 
 ### Team Member Self-Evaluations
 
-It is up to all team members' discretion if they wish to complete their Self-Evaluation in Workday. While they are volunatary, self evaluations are highly encouraged so the team member's perspective is captured and shared with their manager prior to the manager's evaluation and Calibration Sessions. Please review the most current [timeline](#timeline) to ensure a timely delivery.
+It is up to all team members' discretion if they wish to complete their Self-Evaluation in Workday. While they are voluntary, self evaluations are highly encouraged so the team member's perspective is captured and shared with their manager prior to the manager's evaluation and Calibration Sessions. Please review the most current [timeline](#timeline) to ensure a timely delivery.
 
 ### Matrix Assessment Timeline
 
