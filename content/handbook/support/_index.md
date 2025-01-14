@@ -3,7 +3,7 @@ title: Support Team Handbook
 description: The GitLab Support Team Handbook is the central repository for why and how we work the way we do.
 ---
 
-## Welcome to the GitLab Support Team Handbook
+## Welcome to the GitLab Support Team Handbook, it's amazing!
 
 The GitLab Support Team provides technical support to GitLab.com and Self-Managed GitLab customers. The GitLab Support Team Handbook is the central repository for why and how we work the way we do.
 
@@ -22,7 +22,7 @@ Know someone who might be a great fit for our team? Please refer them to the job
 
 ## What does the Support Team do?
 
-### We care for our customers
+### We care for our customers (they're great!)
 
 - Always assume you are the person responsible for ensuring success for the customer.
 - When supporting a customer, any issue, incident or loss is *GitLab's loss*.
