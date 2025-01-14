@@ -1435,7 +1435,7 @@ New team members should read [GitLab's guide to starting a new remote role](/han
 
 ## Mission
 
-Our [mission](/handbook/company/mission/#mission) is that **everyone can contribute**. This mission guides our path, and we live our values along that path.
+Our [mission](/handbook/company/mission/#mission) is to **enable everyone to contribute to and co-create the software that powers our world**. This mission guides our path, and we live our values along that path.
 
 ## Mitigating Concerns
 
