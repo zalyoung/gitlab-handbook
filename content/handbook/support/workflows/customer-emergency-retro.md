@@ -21,7 +21,7 @@ A few key principles to keep in mind:
 
 Anyone can suggest that a retro should be conducted on an emergency (or other anomalous situation). Once it has been determined that a retro should be conducted on a particular emergency, this section should guide you.
 
-Ideally, someone who was directly involved in the emergency identifies someone who was not actively involved in the emergency to lead the synchronous retro. A thirty minute session is typically sufficient.
+Ideally, someone who was directly involved in the emergency identifies someone who was not actively involved in the emergency to lead the synchronous retro. A thirty minute session is typically sufficient. While retros do not need to be conducted immediately after the emergency, they should happen shortly after the emergency is resolved to ensure no context is missed.
 
 The person conducting the retro should review the ticket and related Slack threads and issues before the retro. (The aim is to get enough context to make the retro efficient while keeping an open mind and refraining from drawing conclusions before the retro.)
 
