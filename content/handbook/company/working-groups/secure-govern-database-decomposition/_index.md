@@ -104,12 +104,11 @@ title 50% confidence timeline
 section Work
 Gitlab Decomposition Ready :active , decompose, 2024-07-01, 2025-02-14
 Non-Slice Work :active, nonslicework, 2024-07-15, 2025-02-14
-Slice 1 :active, slice1, 2024-07-23, 2024-12-30
+Slice 1 :active, slice1, 2024-07-23, 2025-01-13
 Slice 2 :active, slice2, 2024-08-06, 2024-12-30
 Slice 3 :active, slice3, 2024-07-15, 2025-02-14
 Gitlab Application Ready for Decomposition :milestone, allslices, after slice1 slice2 slice3 nonslicework, 0d
-Phase 1 & 2 : phase12, 2024-09-11, 7w
-Phase 3 : phase3, after phase12, 3w
+Phase 1 & 2 : phase12, 2024-09-11, 16w
 Phase 4 : phase4, after allslices phase3 decompose, 3w
 Phase 5 : phase5, after phase4, 3w
 Phase 6 : phase6, after phase4, 3w
