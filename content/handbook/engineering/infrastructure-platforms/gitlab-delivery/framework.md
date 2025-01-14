@@ -52,8 +52,8 @@ Upgrading GitLab is one of the most challenging aspects of its operation and oft
 #### Other Responsibilities
 
 1. Architecture performance and non-functional testing
-3. Enablement of GitLab account teams to provide appropriate recommendations
-4. Self-serve experience for scaling GitLab
+1. Enablement of GitLab account teams to provide appropriate recommendations
+1. Self-serve experience for scaling GitLab
 
 ## Team Members
 
