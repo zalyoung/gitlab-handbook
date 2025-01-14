@@ -11,6 +11,7 @@ The Digital Success team creates email programs to accelerate customer value thr
 ### Core Customer Email Programs
 
 The programs below are currently active. For more details on segmentation breakdown and copy doc information refer to the [Digital Success Email Program Documentation](https://docs.google.com/spreadsheets/d/14udgDUoEhzMjkQMYBVmYInPUBHgpfSKm8vVDRTR3NyY/edit?usp=sharing).
+
 | Program                      | Category   | Content  |
 |-----------------|------------|----------|
 | CSM/CSE Introduction | Day 0 of new subscription | CSM / CSE |
