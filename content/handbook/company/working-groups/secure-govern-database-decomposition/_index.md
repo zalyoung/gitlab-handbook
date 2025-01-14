@@ -124,12 +124,12 @@ axisFormat  %Y-%m
 
 | Slice              | % Done | Estimated completion |
 | ---                | ---    | ---                  |
-| [Slice 1](https://gitlab.com/groups/gitlab-org/-/epics/14116?force_legacy_view=true) | 95%  | 2024-12 |
-| [Slice 2](https://gitlab.com/groups/gitlab-org/-/epics/14196?force_legacy_view=true) | 98% | 2024-12 |
-| [Slice 3](https://gitlab.com/groups/gitlab-org/-/epics/14197?force_legacy_view=true) | 73%  | 2025-01 |
-| [Non Slice work](https://gitlab.com/groups/gitlab-org/-/epics/13043?force_legacy_view=true) | 73%  | 2025-01 |
+| [Slice 1](https://gitlab.com/groups/gitlab-org/-/epics/14116?force_legacy_view=true) | 100% | Complete |
+| [Slice 2](https://gitlab.com/groups/gitlab-org/-/epics/14196?force_legacy_view=true) | 100% | Complete |
+| [Slice 3](https://gitlab.com/groups/gitlab-org/-/epics/14197?force_legacy_view=true) | 83%  | 2025-01 |
+| [Non-slice work](https://gitlab.com/groups/gitlab-org/-/epics/13043?force_legacy_view=true) | 68% | 2025-04 |
 
-Last update: [2024-12-06](https://gitlab.com/groups/gitlab-org/-/epics/14165?force_legacy_view=true#note_2236224657).
+Last update: [2025-01-13](https://gitlab.com/groups/gitlab-org/-/epics/14165#note_2294280780).
 
 ### Plan
 
