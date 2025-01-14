@@ -36,8 +36,7 @@ The Foundations team's flagship focus is our networking infrastructure, which we
 
 While these services are essential to GitLab's infrastructure, we focus on maintaining their stability and reliability rather than actively expanding their capabilities. Features and improvements will not be prioritized:
 
-- [SaaS K8s workloads](https://gitlab.com/gitlab-com/runbooks/-/blob/master/docs/onboarding/gitlab.com_on_k8s.md), Cluster addons | Autodeploy is owned by Delivery, Tanka and Helmfiles are often shared by other teams |
-- Config ([Terraform](https://gitlab.com/gitlab-com/runbooks/-/blob/master/docs/uncategorized/terraform-broken-master.md), [Chef](https://gitlab.com/gitlab-com/runbooks/-/tree/master/docs/config_management), Image Builds)
+- [SaaS K8s workloads](https://gitlab.com/gitlab-com/runbooks/-/blob/master/docs/onboarding/gitlab.com_on_k8s.md). GitLab-com is owned by Delivery, Tanka and Helmfiles are often shared by other teams.
 - Secrets Management ([Vault](https://gitlab.com/gitlab-com/runbooks/-/tree/master/docs/vault))
 - [Ops.gitlab.net](https://gitlab.com/gitlab-com/runbooks/-/tree/master/docs/ops) and [Ops Runners](https://gitlab.com/gitlab-com/runbooks/-/blob/master/docs/uncategorized/subnet-allocations.md)
 
