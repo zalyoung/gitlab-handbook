@@ -29,7 +29,7 @@ and what parts are instead private encapsulated details.
 Define Web, Sidekiq, REST, GraphQL, and Action Cable as the adapters in the external layer of the architecture.
 Use [Packwerk](https://github.com/Shopify/packwerk) to enforce privacy and dependency between modules of the monolith.
 
-![Hexagonal Architecture for GitLab monolith](hexagonal_architecture.png)
+![Hexagonal Architecture for GitLab monolith](/images/engineering/architecture/design-documents/modular_monolith/hexagonal_monolith/hexagonal_architecture.png)
 
 ## Details
 

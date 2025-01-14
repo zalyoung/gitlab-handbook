@@ -136,7 +136,7 @@ The PM sends out the request for acceptance to the customer and then updates the
 
 Please note only the **top level** milestone fields should be updated. The sub activities within the milestone should **not** be updated.
 
-![fprevenuerelease](fprevenuerelease.png)
+![fprevenuerelease](/images/customer-success/professional-services-engineering/professional-services-operations/fprevenuerelease.png)
 
 ## Project Coordination- Training
 
@@ -232,7 +232,7 @@ If required per the project SOW, Professional Services Operations sends the requ
 - Update Sign Off received, when training is complete, acceptance is received, or Passive Acceptance is reached and add the class roster or PDF email of acceptance to the Milestone
 - Update if Passive Acceptance has been utilized for sign off
 
-![trainingrelease](trainingrelease.png)
+![trainingrelease](/images/customer-success/professional-services-engineering/professional-services-operations/trainingrelease.png)
 
 ---
 

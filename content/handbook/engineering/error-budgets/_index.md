@@ -153,9 +153,9 @@ Spent budget is the time (in minutes) during which user facing services have exp
 
 The budget spend is currently aggregated at the primary service level.
 
-![Complete budget](img/complete-budget.png)
+![Complete budget](/images/engineering/error-budgets/complete-budget.png)
 
-![Spent budget](img/spent-budget.png)
+![Spent budget](/images/engineering/error-budgets/spent-budget.png)
 
 Details on what contributed to the budget spend can be further found by examining the raised incidents, and exploring the specific service dashboard (and its resources).
 

@@ -22,7 +22,7 @@ By ensuring that good ESG practices are embedded into the organization, it will 
 - Meet and Exceed Customer Expectations & Remain Easy to Transact With
   - GitLab’s customers have ESG commitments and policies that extend to the companies they do business with, like GitLab.
   - Many of our customers are under pressure to comply with new regulation and meet their own ESG goals. By having a strong ESG program, GitLab is helping its customers achieve their goals and comply with new regulations.
- 
+
 - Comply with New Regulation
   - Starting in 2026, GitLab is required to comply with two new ESG regulations in the US and the EU. These regulations require comprehensive and detailed disclosure covering a wide range of ESG topics (e.g., climate change, working conditions, human rights, business ethics).
 

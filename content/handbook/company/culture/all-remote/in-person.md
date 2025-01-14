@@ -105,7 +105,7 @@ In remote-first and all-remote settings, the value proposition is drastically di
 
 Consider supporting team members who wish to arrive early or stay late in order to spend time getting to know colleagues on a face-to-face basis, but be mindful not to judge or penalize those who opt out. Family commitments and personal preference should be honored. Choosing not to arrive early or stay late at a conference for bonding should not be viewed as indifference towards the company.
 
-As an example, [GitLab Commit](https://about.gitlab.com/events/commit/) — a series of user conferences — doubles as an excellent mechanism to bring colleagues together for a purpose, while also serving the greater community.
+As an example, [GitLab Commit](https://about.gitlab.com/events/) — a series of user conferences — doubles as an excellent mechanism to bring colleagues together for a purpose, while also serving the greater community.
 
 ## Annual (or regular) summits
 

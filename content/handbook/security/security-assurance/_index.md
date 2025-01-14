@@ -4,6 +4,10 @@ title: "Security Assurance"
 
 <link rel="stylesheet" type="text/css" href="/stylesheets/biztech.css" />
 
+## Vision
+
+To be a trusted sales enablement partner that is recognized internally and externally for collaborative and transparent security assurance programs.
+
 ## Overview
 
 As a member of the [Security department]({{< ref "../_index.md#assure-the-customer" >}}), the Security Assurance sub-department provides GitLab customers with a high level of assurance around the security of GitLab SaaS service offerings.
@@ -26,6 +30,10 @@ There are five teams in the Security Assurance sub-department.
         <i class="fas fa-shield-alt i-bt"></i>
         <h5>Security Risk</h5>
     </th>
+    <th class="text-center">
+        <i class="fas fa-tasks i-bt"></i>
+        <h5>Security Program Management</h5>
+    </th>
   </tr>
   <tr>
       <td>
@@ -42,6 +50,11 @@ There are five teams in the Security Assurance sub-department.
       <td>
         <ul>
             <li><a href="{{< ref "security-risk" >}}"> Security Risk Team Page </a></li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+            <li> Security Program Management Team Page </li>
         </ul>
       </td>
   </tr>
@@ -72,7 +85,7 @@ There are five teams in the Security Assurance sub-department.
 - [Business Impact Assessments]({{< ref "business-impact-analysis" >}})
 - [Critical System Tiering]({{< ref "critical-systems" >}})
 
-### Security Compliance, Commercial Core Competencies
+### Security Compliance Core Competencies
 
 - [Continuous Control Monitoring]({{< ref "sec-controls" >}})
 - [Security Certifications and Attestations]({{< ref "../security-assurance/security-compliance/certifications" >}})
@@ -97,7 +110,7 @@ All other actions are the responsibility of the assigned DRI.
 | System Name | System Description | Admin | DRI |
 |---------|-------------|---------------|---------|
 | [Hyperproof](/handbook/business-technology/tech-stack/#hyperproof) | Key system utilized for initiating, tracking/documenting, and completing Governance, Risk, and Compliance related activities.  | [Donovan Felton](https://gitlab.com/dfelton) | Security Compliance - [Madeline Lake](https://gitlab.com/madlake)<br>Security Risk - [Ty Dilbeck](https://gitlab.com/tdilbeck) |
-| [Authomize](https://www.authomize.com/) | Key system utilized by Security Compliance for [User Access Reviews]({{< ref "security-compliance/access-reviews" >}}) | [Alex Frank](https://gitlab.com/alexfrank09) | Platform - [Alex Frank](https://gitlab.com/alexfrank09)<br>Custom Connectors - [Byron Boots](https://gitlab.com/byronboots) |
+| [Authomize](https://delinea.com/authomize) | Key system utilized by Security Compliance for [User Access Reviews]({{< ref "security-compliance/access-reviews" >}}) | [Alex Frank](https://gitlab.com/alexfrank09) | Platform - [Alex Frank](https://gitlab.com/alexfrank09)<br>Custom Connectors - [Byron Boots](https://gitlab.com/byronboots) |
 | [Safebase](/handbook/business-technology/tech-stack/#safebase) | Trust center solution to host security collateral for customers to request. | [Donovan Felton](https://gitlab.com/dfelton) | [Joe Longo](https://gitlab.com/jlongo_gitlab) |
 | [ProofPoint](/handbook/business-technology/tech-stack/#proofpoint) | Key system utilized for the creation and distribution of our security training and phishing simulations to provide ongoing testing for adherence of various compliance frameworks. | [Donovan Felton](https://gitlab.com/dfelton) | [Joe Longo](https://gitlab.com/jlongo_gitlab) |
 | [BitSight](/handbook/security/security-assurance/field-security/independent_security_assurance/) | BitSight is used to assess and monitor software vendors as part of our Security Third Party Risk Management Program. | [Ryan Lawson](https://gitlab.com/rlawson1) | [Ty Dilbeck](https://gitlab.com/tdilbeck) |

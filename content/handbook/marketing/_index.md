@@ -17,11 +17,11 @@ GitLab is the leading DevSecOps Platform that empowers organizations to deliver 
 
 As the GitLab Marketing team puts customers at the center of everything we do, the marketing strategy aligns with the customer journey. The journey's purpose is to provide a clear and cohesive experience to a prospect/customer from the minute they become **Aware** of GitLab, to **Considering** the platform and **Converting** into a happy customer, and then of course **Expanding** over time and becoming an **Evangelist**.
 
-![marketing customer journey](mktgcustomerjourney.png)
+![marketing customer journey](/images/marketing/mktgcustomerjourney.png)
 
 Each stage has a purpose which is the guiding indicator for the marketing team to measure our success. Everything the team plans and executes in the short and long term will revolve around the customer journey, and we will also measure our success along each step to hold ourselves accountable.
 
-![marketing customer journey stages](mktgcustomerjourneystages1.png)
+![marketing customer journey stages](/images/marketing/mktgcustomerjourneystages1.png)
 
 ## Marketing Strategy
 

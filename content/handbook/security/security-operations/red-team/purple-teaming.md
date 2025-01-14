@@ -31,7 +31,7 @@ Operations will be tracked using [GitLab epics](https://docs.gitlab.com/ee/user/
 
 As much as possible, our Purple Team operations should be performed [asynchronously](/handbook/company/culture/all-remote/asynchronous/). However, a few stages work best when done with live participants over a video conference with screen sharing. To include team members in all time zones, these stages can be conducted more than once. This is particularly beneficial when conducting the actual attacks and practicing detection. We will automate this work whenever possible, which makes repeating them easy.
 
-![Purple Teaming Process](../purple-team-process.png)
+![Purple Teaming Process](/images/security/security-operations/red-team/purple-team-process.png)
 
 ### Attack Planning
 

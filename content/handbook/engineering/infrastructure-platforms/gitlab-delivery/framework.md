@@ -10,11 +10,56 @@ Framework is a team within the [GitLab Delivery Stage](/handbook/engineering/inf
 
 The Framework team intends to make GitLab easy to operate at any scale. GitLab is critical to our end users (developers) and a necessity for organizations most important business operations and workflows. The Framework team functions with autonomy to drive good quality within our Reference Architectures and GET above all else.
 
+### Some optimal success criteria include
+
+1. A decrease in the cost of support per customer
+1. Lower time to value for new installations
+1. More instances on the recent version of GitLab
+1. Fewer upgrade-related incidents
+1. Instances on supported architecture
+
+Seeing that many of these metrics are owned by multiple teams, the Framework Team will contribute here but does not have full agency to drive.
+
+### What does it mean to Operate GitLab?
+
+GitLab is a complex application. Organizations typically have a dedicated team to manage GitLab internally. This operation includes day-to-day maintenance, upgrades, backup and restore, and downtime. This team's goal is to make this operation easy for all organizations, including our own deployments.
+
+It is not solely the responsibility of the Framework team to make GitLab easy to operate, but to provide guidance to the wider GitLab organization to develop in a way that is conducive to a good user experience for admins. Managing GitLab components in a tested and supported architecture significantly lowers the operational aptitude required.
+
+### Delivery of Mission
+
+1. Easy enablement materials to consume reference architectures for account teams and operators
+2. Collaborate on structured guidance for operational excellence in feature development
+3. Verify upgrade paths
+4. Stewards of a good experience for managing GitLab with GET and the Reference Architectures
+
+### Tools and Responsibilities
+
+The Framework team owns and leads our GitLab Environment Toolkit and Reference Architectures initiatives, which are key programs with the aim assist and enable customers to deploy and maintain their GitLab environments. This includes external users as well as easing the operational requirements for our own SaaS offerings.
+
+#### GitLab Environment Toolkit (GET)
+
+GET is a set of opinionated Terraform and Ansible scripts to assist with deploying scaled self-managed GitLab environments following the Reference Architectures. A good experience with GET means users will more quickly have an environment (lower TTV) and long-term success (decreased need for support).
+
+#### Reference Architectures
+
+The reference architectures will provide the best user experience with the intent to decrease the amount of required support from GitLab. The Framework team will continue to ensure the RAs meet the needs of customers by improving architecture designs over time. The Framework team will also provide guidance for internal teams to review and add components as needed.
+
+#### Upgrade Path Validation
+
+Upgrading GitLab is one of the most challenging aspects of its operation and often requires dedicated attention to effectively plan the upgrade process. The Framework team continuously validates the upgrade paths between releases to ensure that only necessary, planned stops are introduced, thereby instilling confidence in the upgrade process for our Self-Managed and Dedicated customers.
+
+#### Other Responsibilities
+
+1. Architecture performance and non-functional testing
+1. Enablement of GitLab account teams to provide appropriate recommendations
+1. Self-serve experience for scaling GitLab
+
 ## Team Members
 
 {{< team-by-manager-slug "lsogunle" >}}
 
-Product Manager: [Dilan Orrino](/handbook/company/team/#dorrino)
+Product Manager: [Martin Brümmer](/handbook/company/team/#mbruemmer)
 
 ## Roadmap
 
@@ -95,6 +140,9 @@ The primary team label is `team::GitLab Delivery Framework`. This label should b
 
 ### Problem to solve :thinking:
 
+### Why :results-for-customers:
+<!-- Explain the importance of this epic and its contributions to delivering results for customer. -->
+
 ### Documentation :book:
 
 * Publicly Accessible Documentation:
@@ -114,3 +162,9 @@ The primary team label is `team::GitLab Delivery Framework`. This label should b
 ```
 
 </details>
+
+## Team Impact
+
+The following are records of the annual achievements of the Framework team.
+
+1. [Team Impact Overview for 2024](https://gitlab.com/gitlab-com/gl-infra/software-delivery/framework/software-delivery-framework-issue-tracker/-/issues/15)

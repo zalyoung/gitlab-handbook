@@ -82,7 +82,7 @@ These internal Slack channels may be helpful to join.
 The engagement Quadrant is designed to help you and your direct report evaluate how they currently feel about their work.
 This is not intended to be a performance evaluation tool, but rather a self-introspective mechanism to help frame the conversation.
 
-![engagement-quadrant.png](engagement-quadrant.png)
+![engagement-quadrant.png](/images/engineering/infrastructure/test-platform/onboarding/engagement-quadrant.png)
 
 * **Low knowledge & High excitement**: When we are excited on starting something new but unaware of all the things needed to succeed (unknown unknowns).
 * **Low knowledge & Low excitement**: As time progresses if we haven't made progress on acquiring knowledge (sustained unknown unknowns), the excitement is also lowered. We need to expedite on attaining additional help to unblock.

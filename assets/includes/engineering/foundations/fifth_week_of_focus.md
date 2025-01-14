@@ -10,14 +10,11 @@ We trialled this as an [OKR](https://gitlab.com/gitlab-com/gitlab-OKRs/-/work_it
 
 The upcoming five week milestones are:
 
-- Aug 09, 2024 - Sep 13, 2024
-- Oct 11, 2024 - Nov 14, 2024
 - Jan 10, 2025 - Feb 13, 2025
 - Apr 11, 2025 - May 15, 2025
-
-<!--
 - Jul 11, 2025 - Aug 14, 2025
 - Oct 10, 2025 - Nov 13, 2025
+<!--
 - Dec 12, 2025 - Jan 15, 2026
 - Apr 10, 2026 - May 14, 2026
 - Jul 10, 2026 - Aug 13, 2026

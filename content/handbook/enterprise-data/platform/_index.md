@@ -142,7 +142,7 @@ The following table indexes all of the RAW data sources we are loading into the 
 | SIRT Alertapp | Snowflake task | `sirt_alertapp` | `sirt_alertapp` | Engineering | 24h / 48h | No | Tier 3 |
 | [Snowplow](https://snowplow.io/) | Snowpipe | `snowplow` | `snowplow` | Product | 15m / 24h | No | Tier 1 |
 | [Tableau Cloud](https://www.tableau.com/products/cloud-bi) | Tableau Prep | `tableau_cloud` | `tableau_cloud` | Data Team | 24h / 24h | No | Tier 3 |
-| [Tableau Back-end Data](https://www.fivetran.com/docs/connectors/applications/tableau) | Fivetran | `tableau_fivetran` | N/A | Data Team | 24h / 48h | No | Tier 3 |
+| [Tableau Back-end Data](https://fivetran.com/docs/connectors/applications/tableau) | Fivetran | `tableau_fivetran` | N/A | Data Team | 24h / 48h | No | Tier 3 |
 | [Thanos](https://thanos-query.ops.gitlab.net/graph) | Snowflake Task | `prometheus` | `prometheus` | Engineering | 24 h / x | No | Tier 3 |
 | [Version DB](https://version.gitlab.com/users/sign_in) | Automatic Process | `version_db` | `version_db` | Product | 24 h / 48 h | No | Tier 1 |
 | [Workday](https://www.workday.com/) | Fivetran | `workday` | `workday` | People | 6h / 24h / | No | Tier 2 |
@@ -715,6 +715,13 @@ No dbt models exist for this data and so it may be the case that the data needs 
 - RAW will contain data that isn't ready for business use.
 - Data is stored in different schemas based on the source
 - User access can be controlled by schema and tables
+
+##### Snowflake Data Share
+
+Snowflake data sharing enables sharing various Snowflake objects like databases, tables, secure views, and a couple more from one Snowflake account to another. Snowflake shares can be both Inbound and outbound. Inbound share, which is being used at Gitlab, is for accessing third-party data sources like ZoomInfo and Zuora Revenue; the mechanism followed here is direct share, where data providers share specific database objects to our Snowflake account.
+Outbound sharing is when we want to share our data with a third party. This involves creating an outbound share of a snowflake object in their account and granting access to the snowflake object (table, view, database, etc.) that needs to be shared to an external account using either a web interface or SQL.
+
+Snowflake Data Shares can be seen as an extension of the `raw` layer, but sharded (and) in different accounts. We don't see Snowflake Data Shares as a source from which data needs to be copied, but rather we connect directly to Snowflake Data Shares as we do to the `raw` layer (i.e., with dbt). This approach helps avoid creating extra processes and makes the pipeline more efficient.
 
 #### Prep
 

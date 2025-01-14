@@ -21,7 +21,7 @@ We've consistently heard from team members across the marketing org that there i
 
 Asana licenses will be rolled out across the entire Marketing Org, excluding Sales Development and the Data Team.
 
-View Only licenses are available to GitLab team members. 
+View Only licenses are available to GitLab team members.
 
 ## Asana Implementation Project
 
@@ -109,9 +109,9 @@ Projects allow you to organize all tasks related to a specific initiative, goal,
 There are three general types of projects and associated naming conventions. Naming conventions can help keep your tasks and projects organized and help your team find information more quickly. When creating a new project, first decide what type of project you are creating.
 
 1. Deadline-bound projects have a clear start and end date and clear exit criteria
-   a. [FYXX] - [Subteam Name] - [Concise Project Name] 
+   a. [FYXX] - [Subteam Name] - [Concise Project Name]
       i. FY25 - Product Marketing - GitLab Duo Launch Plan
-      ii. FY25 - Content - Blog Post - Enterprise Agile Planning 
+      ii. FY25 - Content - Blog Post - Enterprise Agile Planning
 2. Ongoing/Operational Processes represent an ongoing process with no specific end. Work moves through a repeatable set of stages
    a. OP - Calendar - Events
    b. OP - Calendar - Email
@@ -231,7 +231,7 @@ If you're unsure which tool to use:
 
 ## How to get help with Asana
 
-If you have questions, first self-service by reviewing this Handbook page, [Asana Help Center](https://help.asana.com/), and/or [Asana Academy](https://academy.asana.com/). If you cannot find a solution on your own, feel free to let us know using this [GitLab Internal Support Form](https://form.asana.com/?k=rIdwTWezTYqZhSI9vgJZsQ&d=306855239930259).
+If you have questions, first self-service by reviewing this Handbook page, [Asana Help Center](https://help.asana.com/s/?language=en_US), and/or [Asana Academy](https://academy.asana.com/). If you cannot find a solution on your own, feel free to let us know using this [GitLab Internal Support Form](https://form.asana.com/?k=rIdwTWezTYqZhSI9vgJZsQ&d=306855239930259).
 
 ## Self-Paced Learning
 

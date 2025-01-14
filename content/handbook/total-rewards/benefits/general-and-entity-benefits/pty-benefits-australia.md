@@ -604,7 +604,7 @@ For more information related to this policy, please reivew the [Employment New Z
 
 - This leave may also be taken to support a child who has experienced domestic violence as long as they live with the team member for some of the time.
 - A person is affected by family violence if they are a person against whom any other person is inflicting, or has inflicted family violence, and/or a person with whom there ordinarily or periodically resides a child against whom any other person is inflicting or has inflicted, family violence.
-- Team members may also request [short-term flexible working arrangements](https://www.employment.govt.nz/leave-and-holidays/family-violence-leavetaking-family-violence-leave#scroll-to-8) for up to 2 months.
+- Team members may also request [short-term flexible working arrangements](https://www.employment.govt.nz/leave-and-holidays/family-violence-leave/taking-family-violence-leave#scroll-to-8) for up to 2 months.
 - This leave runs concurrently with GitLab PTO. Team members should notify the Absence Management team (leaves@gitlab.com) if they need to make use of this leave.
 - Team members must designate this time off as `Out Sick` in Workday to ensure that statutory entitlements are properly tracked.
 

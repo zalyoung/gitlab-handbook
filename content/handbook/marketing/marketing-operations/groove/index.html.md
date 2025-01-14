@@ -119,9 +119,10 @@ BDRs are able to create individual flows that must be approved by their managers
 
 1. BDR creates flow and submits for approval in Groove
 2. Manager Sends flow to Operations (Panos for EMEA/APJ, Ed for AMER)
-3. Operations Transfers Ownership from BDR to Manager within 24 hours
-4. Manager checks and Approves flow (Directions above)
-5. BDR can now add prospects to the flow after ownership is transferred
+3. Operations will check Flow settings, labels, and who it is shared with
+4. Operations Transfers Ownership from BDR to Manager within 24 hours
+5. Manager checks and Approves flow (Directions above)
+6. BDR can now add prospects to the flow after ownership is transferred
 
 ### Sales: Flow Creation Requirements & Sharing with BDRs
 

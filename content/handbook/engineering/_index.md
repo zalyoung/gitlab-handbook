@@ -2,7 +2,7 @@
 title: Engineering
 ---
 
-[The GitLab Product team](/handbook/product/) looks ahead for expanding the platform “What" (features) and "Why” (product strategy) and Engineering determines the “How" (technical implementation) and "When” (scheduling) of the platform releases. The content on this page talks about how we do engineering at GitLab.
+[The GitLab Product team](/handbook/product/) looks ahead for expanding the platform “What" (customer needs) and "Why” (business strategy) and Engineering determines the “How" (technical implementation) and "When” (scheduling) of the platform releases. The content on this page talks about how we do engineering at GitLab.
 
 ## Engineering Direction
 
@@ -277,7 +277,7 @@ requires immediate scheduling of bug fixes or development effort.
 
 ### Requirements for critical escalation
 
-- Customer is in [critical escalation](/handbook/customer-success/csm/escalations/#critical-and-high-level-escalations) state
+- Customer is in [critical escalation](/handbook/customer-success/csm/escalations/#escalation-for-non-professional-services-projects) state
 - The issues escalated have critical business impact to the customer, determined by Customer Success and Support Engineering leadership
   - Failure to expedite scheduling may have cascading business impact to GitLab
 - Approval from a VP from Customer Success AND a Director of Support Engineering are required to expedite scheduling

@@ -129,7 +129,7 @@ If the command completes with a welcome message instead of an error, your SSH ke
 
 ## Task D. Clone a GitLab project repository to your local computer
 
-> When you clone a repository, the files from the remote repository are downloaded to your computer, and a connection is created. You can learn more in the [documentation](https://docs.gitlab.com/ee/gitlab-basics/start-using-git.html#clone-a-repository).
+> When you clone a repository, the files from the remote repository are downloaded to your computer, and a connection is created. You can learn more in the [documentation](https://docs.gitlab.com/ee/topics/git/commands.html#clone-a-repository).
 
 1. Navigate back to the `Top Level` project that you created in Lab 1.
 

@@ -88,19 +88,19 @@ This guide serves as a resource, showcasing our strategies, tools, and best prac
 
 ## Motivation
 
-We have been successfully using tools like [GPT](https://gitlab.com/gitlab-org/quality/performance) for load testing against [Reference Architectures](https://docs.gitlab.com/ee/administration/reference_architectures/), the current [handbook page](https://handbook.gitlab.com/handbook/engineering/infrastructure/test-platform/performance-and-scalability/). We have had experiences, such as [database performance testing with large datasets](https://gitlab.com/gitlab-org/gitlab/-/issues/434465), that have demonstrated the benefits of shifting performance testing left in the development process.
+We have been successfully using tools like [GPT](https://gitlab.com/gitlab-org/quality/performance) for load testing against [Reference Architectures](https://docs.gitlab.com/ee/administration/reference_architectures/), the current [handbook page](/handbook/engineering/infrastructure/test-platform/performance-and-scalability/). We have had experiences, such as [database performance testing with large datasets](https://gitlab.com/gitlab-org/gitlab/-/issues/434465), that have demonstrated the benefits of shifting performance testing left in the development process.
 
 By adopting a broader range of performance engineering practices, we can take a more proactive stance on solving performance concerns before they surface as issues in live environments. This approach aligns with our commitment to delivering excellent user experiences and maintaining GitLab's scalability as we continue to grow.
 
 ### Goals
 
-* More complete documentation on Performance Engineering practices in [the handbook page](https://handbook.gitlab.com/handbook/engineering/infrastructure-platforms/developer-experience/performance-enablement/performance/)
+* More complete documentation on Performance Engineering practices in [the handbook page](/handbook/engineering/infrastructure-platforms/developer-experience/performance-enablement/performance/)
 * Develop a plan for adopting these practices across all Engineering teams.
 * Create a culture of performance awareness throughout the entire software development lifecycle.
 * Improve early detection and resolution of performance issues.
 * Enhance GitLab's overall performance and scalability.
-* Standardize prioritization of performance issues at GitLab, so it no longer varies team to team with the lowest possible standard being “in response to production incident”.  
-* Ingrain performance earlier into the development process 
+* Standardize prioritization of performance issues at GitLab, so it no longer varies team to team with the lowest possible standard being “in response to production incident”.
+* Ingrain performance earlier into the development process
 
 ### Non-Goals
 

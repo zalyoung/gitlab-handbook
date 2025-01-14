@@ -150,6 +150,6 @@ Comparisons at a deep level are challenging and time consuming.  We'd like to ac
 The goal of the Competitive Intelligence team will be to provide a complete set of assets and other deliverables that enable sales teams to compete and win.
 The diagram below captures the overall approach.  The idea is that for each use case-competitor with the exception of the strategy document (hosted in Crayon), all other resources should generally be publicly accessible.  This is in keeping with GitLab value of Transparency.
 
-![Competitive Framework](compintel-strategy.png)
+![Competitive Framework](/images/marketing/brand-and-product-marketing/product-and-solution-marketing/competitive-intelligence/compintel-strategy.png)
 
 [See the Solutions Marketing page](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/) for more information.

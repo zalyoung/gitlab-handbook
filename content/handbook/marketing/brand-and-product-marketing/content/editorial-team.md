@@ -257,6 +257,8 @@ How to spell and style commonly used words.
 - GitHub
 - GitLab
   - G and L are always capitalized, even in GitLab.com
+- GitLab Self-Managed
+  - Not self-managed GitLab, GitLab self-managed, or GitLab Self-managed
 - internet
   - not capitalized
 - Kubernetes

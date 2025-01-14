@@ -170,7 +170,7 @@ In the table below, we outline the baseline numbers for each of the metric relat
 
 ### How were the targets calculated?
 
-By analysing the existing teams' metrics and collaborating with all Engineering Managers in the stage, targets were be defined to accurately reflect the expectations set during a normal calibration session for talent assessments at the [Performing](/handbook/people-group/talent-assessment/#performing) level of each role.
+By analysing the existing teams' metrics and collaborating with all Engineering Managers in the stage, targets were defined to accurately reflect the expectations set during a normal calibration session for talent assessments at the [Performing](/handbook/people-group/talent-assessment/#performing) level of each role.
 
 These targets were set having adherence to our CREDIT values in mind and are both ambitious and realistic.
 

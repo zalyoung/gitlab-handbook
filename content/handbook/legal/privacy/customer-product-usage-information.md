@@ -109,23 +109,23 @@ The first exception is in the collection of hostname and IP address for Self-Man
 
 ## Switchboard
 
-*Purpose*: GitLab customers using the Dedicated single tenant SaaS offering have access to a customer console called [Switchboard](https://about.gitlab.com/direction/saas-platforms/switchboard/).  Switchboard is used by customer teams to maintain and configure their own Dedicated tenant.  Metrics from the Switchboard application are collected to help GitLab better understand how Dedicated customers are using Switchboard.  In turn, these Metrics will assist in driving further development of the Switchboard application.   
+*Purpose*: GitLab customers using the Dedicated single tenant SaaS offering have access to a customer console called [Switchboard](https://about.gitlab.com/direction/saas-platforms/switchboard/).  Switchboard is used by customer teams to maintain and configure their own Dedicated tenant.  Metrics from the Switchboard application are collected to help GitLab better understand how Dedicated customers are using Switchboard.  In turn, these Metrics will assist in driving further development of the Switchboard application.
 
 *Applicable Software*: Switchboard Metrics are collected only from Dedicated users with access to the Swithboard application.
 
 *Configuration*: Switchboard Metrics are only collected from the Switchboard application itself and not from the Dedicated tenant.  Therefore, user interactions in the Dedicated tenant do not result in any data collected under this section.  Please view this [high-level diagram](https://docs.gitlab.com/ee/administration/dedicated/#architecture) that demonstrates the flow of Metrics collected from the Switchboard application and sent to our data warehouse for further processing.
 
-*Personal Data Collected*: Switchboard Metrics are initially tied to an individual user in a raw format.  However, these Metrics are sent through a de-identification process and subsequently purged, meaning only pseudonymized Metrics or Metrics aggregated across an entire Switchboard customer console are delivered to our data warehouse.  Pseudonymized Metrics are still considered personal data under applicable data protection laws since these Metrics are capable of re-identification. GitLab, however, does not undertake any processes to re-identify or relate the Metrics back to individual users.  
+*Personal Data Collected*: Switchboard Metrics are initially tied to an individual user in a raw format.  However, these Metrics are sent through a de-identification process and subsequently purged, meaning only pseudonymized Metrics or Metrics aggregated across an entire Switchboard customer console are delivered to our data warehouse.  Pseudonymized Metrics are still considered personal data under applicable data protection laws since these Metrics are capable of re-identification. GitLab, however, does not undertake any processes to re-identify or relate the Metrics back to individual users.
 
 *Data Sharing*: Switchboard Metrics are not shared with independent third-parties.  The Switchboard application and data warehouse are GitLab-controlled systems.
 
 *Cadence*: Switchboard Metrics are collected from GitLab.com and sent to the data warehouse contemporaneously.
 
-*Ownership*: Switchboard Metrics are owend by the [GitLab Dedicated Group](https://handbook.gitlab.com/handbook/engineering/infrastructure/team/gitlab-dedicated/) and the [Analytics Instrumentation Group](https://handbook.gitlab.com/handbook/engineering/development/analytics/monitor/analytics-instrumentation/).  
+*Ownership*: Switchboard Metrics are owend by the [GitLab Dedicated Group](/handbook/engineering/infrastructure/team/gitlab-dedicated/) and the [Analytics Instrumentation Group](/handbook/engineering/development/analytics/monitor/analytics-instrumentation/).
 
 *Types of Data*: A full list of the Switchboard Mertics collected can be viewed [here](https://metrics.gitlab.com/events/?serviceName=Switchboard).
 
-*Opting-Out*:  Currently, there is no mechanism for opting out of Switchboard Metrics. 
+*Opting-Out*:  Currently, there is no mechanism for opting out of Switchboard Metrics.
 
 ## Usage Data for AI-Powered Features
 

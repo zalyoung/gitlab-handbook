@@ -65,7 +65,7 @@ Modules/functionality being implemented:
 
 Workday is GitLab's new People technology cloud solution that will help us scale as we grow and is designed to provide a simple team member experience. It will replace our current BambooHR system.
 
-![image-1](../workday.png)
+![image-1](/images/people-group/workday.png)
 
 ### Integrations
 

@@ -318,7 +318,7 @@ To initiate leave, and ensure that statutory entitlements are properly tracked, 
 
 - Up to 37 weeks within a 52-week period of leave in relation to a critically ill minor child
 - Up to 17 weeks within a 52-week period in relation to a critically ill adult.
-- The team member must submit a [medical certificate](https://www.ontario.ca/document/your-guide-employment-standards-act-0pdf/medcert_2019_1.pdf).
+- The team member must submit a [medical certificate](https://www.ontario.ca/document/your-guide-employment-standards-act-0/critical-illness-leave#section-2).
 - Team Members should select `Out Sick` in Workday.
 
 **Child Death Leave** *Team members who have been employed with GitLab for at least six consecutive months*

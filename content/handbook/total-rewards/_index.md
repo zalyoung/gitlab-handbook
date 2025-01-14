@@ -32,15 +32,19 @@ title: GitLab's Guide to Total Rewards
 
 | Who  | Job Title |
 |------|-----------|
-| Michelle Nelson | VP, Total Rewards |
-| Amanda Zurmuhle| Director, Benefits |
+| Rob Allen | VP, People |
+| Cathy Lee | Director, Global Compensation |
+| Angela Chung | Director, Executive Compensation & Equity |
+| Denise Parsonage| Director, Global Benefits Strategy|
 | Raisha Kole | Senior Benefits Program Manager |
-| Morgan Wilkins | Manager, Compensation |
+| Vanessa Crisostomo | Senior Benefits Analyst |
+| Morgan Wilkins | Manager, Compensation | 
+| Shahrukh Talat | Compensation Analyst |
+| Ari Weir | Compensation Partner, GTM |
+| Mike Kitlas | Compensation Partner, R&D |
 
 ## Contact The Team
 
 For feedback or questions relating to compensation, benefits and equity, you can reach out to us via:
 
 - **[HelpLab:](/handbook/business-technology/enterprise-applications/guides/helplab-guide/)** To get in touch with People Connect who can answer your question or help direct it to the proper person/team.
-- **Email:** `total-rewards@gitlab.com`
-- **Issue:** [Open an issue on GitLab.com](https://gitlab.com/gitlab-com/people-group/total-rewards/issues/new)

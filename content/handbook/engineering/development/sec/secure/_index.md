@@ -112,7 +112,7 @@ Coverage-guided fuzzing and API fuzzing are used to automatically input data int
 #### License Compliance
 
 [License Compliance](https://docs.gitlab.com/ee/user/compliance/license_approval_policies.html) helps with the licenses introduced by third-party libraries in the application.
-Licence management relies on the [LicenseFinder](https://github.com/pivotal-legacy/LicenseFinder) gem.
+Licence management relies on the [LicenseFinder](https://github.com/pivotal/LicenseFinder) gem.
 
 #### Vulnerability Research
 
@@ -292,19 +292,19 @@ For that, we rely on the [geekbot](https://geekbot.com/) slack plugin to automat
 
 * Use the "`description in backquote` + `[link to issue](#)`" format when mentioning issues in your standup report.
 * Prepend CI status icons to the answer lines for `What did you do since yesterday?` to denote the current state:
-  * ![Accomplished](img/ci-success.svg) for successfully accomplished tasks (`:ci_passing:` emoji)
-  * ![Overdue](img/ci-failed.svg) for tasks that were due on some period of time but were not accomplished (`:ci_failing:` emoji)
-  * ![In progress](img/ci-running.svg) for tasks currently in progress (`:ci_running:` emoji)
-  * ![Paused](img/ci-pending.svg) for paused or postponed tasks (`:ci_pending:` emoji)
+  * ![Accomplished](/images/engineering/development/sec/secure/ci-success.svg) for successfully accomplished tasks (`:ci_passing:` emoji)
+  * ![Overdue](/images/engineering/development/sec/secure/ci-failed.svg) for tasks that were due on some period of time but were not accomplished (`:ci_failing:` emoji)
+  * ![In progress](/images/engineering/development/sec/secure/ci-running.svg) for tasks currently in progress (`:ci_running:` emoji)
+  * ![Paused](/images/engineering/development/sec/secure/ci-pending.svg) for paused or postponed tasks (`:ci_pending:` emoji)
   * any other `:ci_...` icon you find applicable
 
 **Example:**
 
 What did you do since yesterday?
 
-* ![Accomplished](img/ci-success.svg) Accomplished the `Spotbugs java analyzer compareKey is not unique` [https://gitlab.com/gitlab-org/gitlab-ee/issues/10860](https://gitlab.com/gitlab-org/gitlab-ee/issues/10860)
-* ![In progress](img/ci-running.svg) Still working on `Allow guests to create an issue from a vulnerability` [https://gitlab.com/gitlab-org/gitlab-ee/issues/7813](https://gitlab.com/gitlab-org/gitlab-ee/issues/7813)
-* ![Overdue](img/ci-failed.svg) Catch-up on all emails and threads after the vacation
+* ![Accomplished](/images/engineering/development/sec/secure/ci-success.svg) Accomplished the `Spotbugs java analyzer compareKey is not unique` [https://gitlab.com/gitlab-org/gitlab-ee/issues/10860](https://gitlab.com/gitlab-org/gitlab-ee/issues/10860)
+* ![In progress](/images/engineering/development/sec/secure/ci-running.svg) Still working on `Allow guests to create an issue from a vulnerability` [https://gitlab.com/gitlab-org/gitlab-ee/issues/7813](https://gitlab.com/gitlab-org/gitlab-ee/issues/7813)
+* ![Overdue](/images/engineering/development/sec/secure/ci-failed.svg) Catch-up on all emails and threads after the vacation
 
 **Slack Channels:**
 
@@ -372,7 +372,7 @@ Engineering Managers are encouraged to look at this queue of work during milesto
 
 The Secure Team follows the coding standards and style guidelines outlined in the company-wide [Contributor and Development Docs](https://docs.gitlab.com/ee/development/), however, please consult the following guidelines which are specific to the Secure Team:
 
-* [Secure Team Go standards and style guidelines](https://docs.gitlab.com/ee/development/go_guide#secure-team-standards-and-style-guidelines)
+* [Secure Team Go standards and style guidelines](https://docs.gitlab.com/ee/development/go_guide/#secure-team-standards-and-style-guidelines)
 
 #### Cross group collaboration
 

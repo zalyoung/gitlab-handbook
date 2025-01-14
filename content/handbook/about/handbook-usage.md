@@ -15,7 +15,7 @@ Sometimes you want to have real time editing of a proposal during a meeting and 
 
 Documenting in the handbook before taking an action may require more time initially because you have to think about where to make the change, integrate it with the existing content, and then possibly add to or refactor the handbook to have a proper foundation. But, it saves time in the long run, and this communication is essential to our ability to continue scaling and adapting our organization.
 
-This process is not unlike writing tests for your software. Only communicate a (proposed) change via a change to the handbook; don't use a presentation, email, chat message, or another medium to communicate the components of the change. These other forms of communication might be more convenient for the presenter, but they make it harder for the audience to understand the context and the implications for other potentially affected processes.
+This process is not unlike writing tests for your software. Only communicate a (proposed) change through a change to the handbook; don't use a presentation, email, chat message, or another medium to communicate the components of the change. These other forms of communication might be more convenient for the presenter, but they make it harder for the audience to understand the context and the implications for other potentially affected processes.
 
 Having a **"handbook first"** mentality ensures there is no duplication; the handbook is always up to date, and others are better able to contribute.
 
@@ -93,20 +93,20 @@ See the [Searching GitLab like a pro](/handbook/tools-and-tips/searching/) page 
 
 ### How to change or define a process
 
-1. To change a guideline or process, [**suggest an edit**]({{< ref "editing-handbook" >}}) in the form of a merge request.
+1. To change a guideline or process, [**suggest an edit**](editing-handbook/_index.md) in the form of a merge request.
 1. When working to get your change merged quickly, make sure you are asking the appropriate team members with merge rights. Not sure who is responsible? Consult (and add to) the `CODEOWNERS` file in the relevant project.
 
-    - For example, CMO (Chief Marketing Officer) Staff members can approve any merge request that is specific to their function, while the CMO approves any merge request that is cross-functional marketing. Chief of Staff to the CEO/CEO approves any merge request that has cross-company impact, such as GitLab's [Values](/handbook/values/) page.
+   - For example, CMO (Chief Marketing Officer) Staff members can approve any merge request that is specific to their function, while the CMO approves any merge request that is cross-functional marketing. Chief of Staff to the CEO/CEO approves any merge request that has cross-company impact, such as GitLab's [Values](/handbook/values/) page.
 
 1. After it is merged you can post this in the `#whats-happening-at-gitlab` slack channel if applicable. You can remind other people of this by asking "Can you please send a merge request for the handbook?"
 1. When substantially changing handbook layout, please leave a link to the specific page of the review app **that is directly affected by this MR**. Along with the link, include as much info as possible in the MR description. This will allow everyone to understand what is the purpose of the MR without looking at diffs.
 1. Keeping up with changes to the Handbook can be difficult, please follow the [commit subject guidelines](https://docs.gitlab.com/ee/development/contributing/merge_request_workflow.html#commit-messages-guidelines) with a particular focus on your merge request's title, to ensure someone reading the [Handbook Changelog](/handbook/about/changelog/) can quickly understand the MR's content.
 1. Communicate process changes by linking to the **merged diff** (a commit that shows the changes before and after). If you are communicating a change for the purpose of discussion and feedback, it is ok to link to an **unmerged diff**. Do not change the process first, and then view the documentation as a lower priority task. Planning to do the documentation later inevitably leads to duplicate work communicating the change and it leads to outdated documentation. You can remind other people of this by asking "Can you please update the handbook first?"
 1. When feasible, introduce process changes iteratively. It is important that you contribute to the handbook by [making small merge requests](/handbook/values/#make-small-merge-requests). This will help gain adoption among the process's intended audience. We want to avoid significant process changes that are unnecessarily large, top-down, and disruptive. These types of process changes can disempower [DRIs](/handbook/people-group/directly-responsible-individuals/) and cause people to focus on process rather than results.
-1. Like everything else, our processes are always in flux. Everything is always in draft, and the initial version should be in the handbook, too. If you are proposing a change to the handbook, whenever possible, **skip the issue and submit a merge request**. (Proposing a change via a merge request is preferred over an issue description). Mention the people that are affected by the change in the merge request. In many cases, merge requests are easier to collaborate on since you can see the proposed changes.
+1. Like everything else, our processes are always in flux. Everything is always in draft, and the initial version should be in the handbook, too. If you are proposing a change to the handbook, whenever possible, **skip the issue and submit a merge request**. (Proposing a change in a merge request is preferred over an issue description). Mention the people that are affected by the change in the merge request. In many cases, merge requests are easier to collaborate on since you can see the proposed changes.
 1. **If something is a limited test** to a group of users, add it to the handbook and note as such. Then remove the note once the test is over and every case should use the new process.
 1. If someone inside or outside GitLab makes a good suggestion invite them to add it to the handbook. Send the person the URL of the relevant page and section and offer to do it for them if they can't. Having them make and send the suggestion will make the change and will reflect their knowledge.
-1. When you submit a merge request, make sure that it gets merged quickly. Making single, small changes quickly will ensure your branch doesn't fall far behind master, creating merge conflicts. Aim to make and merge your update on the same day. Mention people in the merge request or reach them via Slack. If you get a suggestion for a large improvement on top of the existing one consider doing that separately. Create an issue, get the existing MR merged, then create a new merge request.
+1. When you submit a merge request, make sure that it gets merged quickly. Making single, small changes quickly will ensure your branch doesn't fall far behind master, creating merge conflicts. Aim to make and merge your update on the same day. Mention people in the merge request or reach them in Slack. If you get a suggestion for a large improvement on top of the existing one consider doing that separately. Create an issue, get the existing MR merged, then create a new merge request.
 1. If you have to move content have a merge request that moves it and does nothing else. If you want to clean it up, summarize it, or expand on it do that after the moving MR is merged. This is much easier to review.
 1. Try to **add the why of a handbook process**, what is the business goal, what is the inspiration for this section. Adding the why makes processes easier to change in the future since you can evaluate if the why changed.
 1. When adding or changing a process in the [engineering workflow](/handbook/engineering/workflow), consider scheduling a retro `X` months out. The retro is an opportunity to [consider the effects](/handbook/about/handbook-usage/#considerations-when-adding-an-additional-process) of the new process and determine if it needs further iteration or can be removed.
@@ -145,7 +145,7 @@ A system of record (SoR) is the authoritative data source for a given data eleme
 
 The handbook is **organized by function and result** to ensure every item in it has a location and owner to keep it up to date.
 
-- It's essential that we adhere to this hierarchy and that we not maintain separate structures for company training materials (e.g. onboarding materials, how-tos, etc.), videos, or other documentation.
+- It's essential that we adhere to this hierarchy and that we not maintain separate structures for company training materials (such as onboarding materials, how-tos, etc.), videos, or other documentation.
 - Adhering to this hierarchy is sometimes counter-intuitive.
 We've learned over the years that keeping content in context helps to ensure consistency when making future updates.
 - At times, a change of perspective may be desired.
@@ -155,7 +155,7 @@ Or for example a list of [Key Performance Indicators](/handbook/company/kpis/) t
 
 ### Style guide
 
-Read through these style guidance below and the [Writing Style Guidelines](/handbook/communication/#writing-style-guidelines) before [editing the handbook]({{< ref "editing-handbook" >}}).
+Read through these style guidance below and the [Writing Style Guidelines](/handbook/communication/#writing-style-guidelines) before [editing the handbook](editing-handbook/_index.md).
 
 #### Handbook pages
 
@@ -213,7 +213,7 @@ You need [`developer` access](https://docs.gitlab.com/ee/user/permissions.html#p
 
 ### Merge with confidence
 
-You should feel confident merging any changes that pass the pipeline without worrying that you will break the handbook. The tests in the pipeline are designed to catch any major problems. The handbook projects are configured so that changes cannot be merged unless the pipeline passes. In the event that code is merged that does break the handbook in some way, follow the instructions for [reporting an issue to the Handbook on-call team](/handbook/about/on-call/).
+You should feel confident merging any changes that pass the pipeline without worrying that you will break the handbook. The tests in the pipeline are designed to catch any major problems. The handbook projects are configured so that changes cannot be merged unless the pipeline passes. In the event that code is merged that does break the handbook in some way, follow the instructions for [reporting an issue to the Handbook team](/handbook/about/escalation/).
 
 ### Do not use merge immediately
 
@@ -221,11 +221,11 @@ Do **not** use the [merge immediately](https://docs.gitlab.com/ee/ci/pipelines/m
 
 More context on the technical reasons behind this:
 
-- We want to have a fast pipeline for the master branch, which minimizes the time needed for changes to be deployed and appear live on the production site.
-- In order to achieve this, we do not run any tests or linters on the master branch, because these are long-running jobs which would block a fast deployment.
+- We want to have a fast pipeline for the default branch, which minimizes the time needed for changes to be deployed and appear live on the production site.
+- In order to achieve this, we do not run any tests or linters on the default branch, because these are long-running jobs which would block a fast deployment.
 - Instead, we rely on the [Merge Train](https://docs.gitlab.com/ee/ci/pipelines/merge_trains.html) to ensure that all Merge Request changes have successfully passed all necessary test/lint jobs before being allowed to merge.
-- So, if you use "merge immediately", ***none of the test/lint jobs will be run, which will result in a broken master branch if problems were introduced.***
-- This means that **everyone who creates new MRs off of master after this point will experience confusing pipeline failures which are not their fault**, and this will continue until this situation is discovered and a fix is merged to master.
+- So, if you use "merge immediately", ***none of the test/lint jobs will be run, which will result in a broken default branch if problems were introduced.***
+- This means that **everyone who creates new MRs off of the default branch after this point will experience confusing pipeline failures which are not their fault**, and this will continue until this situation is discovered and a fix is merged to the default branch.
 
 ### When to get approval
 
@@ -233,7 +233,7 @@ Getting pinged to approve every small change to your page can be annoying, but s
 
 Whenever reasonable, practice [responsibility over rigidity](/handbook/values/#freedom-and-responsibility-over-rigidity). When you expect a page owner will appreciate your changes, go ahead and merge them without approval. Always ping the code owners with an @mention comment to inform them of the changes. They will be happy their page was made better and they didn't need to waste time reviewing and approving the change. In the event that something isn't an improvement, we practice [clean up over sign off](/handbook/values/#cleanup-over-sign-off).
 
-Whenever appropriate, e.g. publishing a previously internal-only document, get approval from the [code owner](https://docs.gitlab.com/ee/user/project/codeowners/) using the [approval feature](https://docs.gitlab.com/ee/user/project/merge_requests/approvals/settings.html) before merging changes. Each page in the handbook shows the code owner listed under "Maintained by". The maintainer information and for list of groups that maintain a page, see the relevant [codeowners file](https://gitlab.com/gitlab-com/content-sites/handbook/-/blob/main/.gitlab/CODEOWNERS). The page's code owner is the DRI for the page and has the final say for what appears in the handbook. When in doubt, get the DRI's permission before changing their page. Don't worry if the DRI is a C-level person. You can still assign your MRs to them, even if you are an individual contributor. This is because we prefer to [communicate directly](/handbook/communication/#communicate-directly).
+Whenever appropriate, such as publishing a previously internal-only document, get approval from the [code owner](https://docs.gitlab.com/ee/user/project/codeowners/) using the [approval feature](https://docs.gitlab.com/ee/user/project/merge_requests/approvals/settings.html) before merging changes. Each page in the handbook shows the code owner listed under "Maintained by". The maintainer information and for list of groups that maintain a page, see the relevant [codeowners file](https://gitlab.com/gitlab-com/content-sites/handbook/-/blob/main/.gitlab/CODEOWNERS). The page's code owner is the DRI for the page and has the final say for what appears in the handbook. When in doubt, get the DRI's permission before changing their page. Don't worry if the DRI is a C-level person. You can still assign your MRs to them, even if you are an individual contributor. This is because we prefer to [communicate directly](/handbook/communication/#communicate-directly).
 
 ### Have a peer review your changes
 
@@ -279,7 +279,7 @@ All team members have access to the internal handbook through Okta as baseline a
 
 ## KPI
 
-The Engineering team and all sub-teams track Handbook Update Frequency as a [KPI](/handbook/company/kpis/#engineering-kpis), with varying targets per team. Currently, Engineering is the only Division tracking Handbook update frequency, so as to analyse and observe the effectiveness of this KPI.
+The Engineering team and all sub-teams track Handbook Update Frequency as a [KPI](/handbook/company/kpis/#engineering-kpis), with varying targets per team. Currently, Engineering is the only Division tracking Handbook update frequency, so as to analyze and observe the effectiveness of this KPI.
 
 ## External use of the Handbook
 

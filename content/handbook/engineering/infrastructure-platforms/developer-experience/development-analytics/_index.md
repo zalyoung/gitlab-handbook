@@ -102,3 +102,7 @@ We estimate ~20% of weekly time for support tasks, and balancing our roadmap wor
 - Ensure each issue is tagged with one of `~"type::feature"`, `~"type::bug`, `~"type::maintenance` following [workflow classification guidelines](/handbook/product/groups/product-analysis/engineering/metrics/#work-type-classification).
 - Team members analyze the issue and add a priority. P1 issues will be taken up on an urgent basis the same week based on the availability of the relevant team members. Lower-priority issues are scheduled for review and discussion in our next team meeting.
 - The issues should be following the [workflow label guidelines](/handbook/engineering/infrastructure/platforms/project-management/#workflow-labels).
+
+#### Automated label migration
+
+Please read our [handbook entry for creating label migration triage policy with GitLab Duo Workflow](/handbook/engineering/infrastructure-platforms/developer-experience/development-analytics/create-triage-policy-with-gitlab-duo-workflow-guide)

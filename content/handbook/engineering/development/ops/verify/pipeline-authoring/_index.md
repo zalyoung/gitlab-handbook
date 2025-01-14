@@ -48,7 +48,7 @@ description: "The GitLab team page for the Pipeline Authoring Group"
 
 - [Pipeline creation](https://docs.gitlab.com/ee/ci/quick_start/)
 - [YAML syntax](https://docs.gitlab.com/ee/ci/yaml/)
-- [CI/CD configuration lint tool](https://docs.gitlab.com/ee/ci/lint.html)
+- [CI/CD configuration lint tool](https://docs.gitlab.com/ee/ci/yaml/lint.html)
 - [CI/CD Variables](https://docs.gitlab.com/ee/ci/variables/)
 - Additional features can be found [here](/handbook/product/categories/features/#verify-pipeline-authoring-group)
 

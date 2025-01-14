@@ -103,7 +103,7 @@ Everyone in engineering is expected to contribute to Quality and keep our test p
 For every new feature we aim to ship a new slice of the pyramid so we don't incur test automation debt.
 This is what enables us to do Continuous Delivery.
 
-![TestPyramid.png](TestPyramid.png)
+![TestPyramid.png](/images/engineering/infrastructure/test-platform/test-engineering/TestPyramid.png)
 
 #### Test Plan
 

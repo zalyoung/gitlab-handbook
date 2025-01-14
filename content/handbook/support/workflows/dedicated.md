@@ -8,6 +8,13 @@ description: "GitLab Dedicated Support overview."
 
 [GitLab Dedicated](https://docs.gitlab.com/ee/subscriptions/gitlab_dedicated/), from a support perspective, works as a combination of SaaS and Self-Managed. Customers have full Admin access to the instance, but no access to the infrastructure, nor to the backend configurations. This workflow captures the differences, and details of providing support for GitLab Dedicated.
 
+When working on GitLab Dedicated tickets, a good mental model to follow is to determine if the issue is an Application issue or an Infrastructure issue.
+
+- If you're dealing with an Application issue, that is, the issue is within the GitLab application, then you can treat it like a Self-Managed instance while being mindful of the [features that are not available for GitLab Dedicated](https://docs.gitlab.com/ee/subscriptions/gitlab_dedicated/#unavailable-features).
+- If it's an infrastructure issue, you'll want to consider engaging with the SREs by opening a [Request for Help](https://gitlab.com/gitlab-com/request-for-help/-/issues/new?issuable_template=SupportRequestTemplate-GitLabDedicated) or opening an incident. The [runbooks](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/team/-/tree/main/runbooks) used by the SREs may be useful additional context.
+
+Use the [SaaS, Self-Managed and Dedicated Troubleshooting tables](/handbook/support/workflows/saas_sm_cheatsheet/) to learn more about the differences between `gitlab.com`, self-managed and GitLab Dedicated.
+
 If you'd like to work on GitLab Dedicated tickets, consider [creating an issue using the template](https://gitlab.com/gitlab-com/support/support-training/-/issues/new?issuable_template=GitLab%20Dedicated) in Support Training, and read the [overview](https://gitlab-com.gitlab.io/gl-infra/gitlab-dedicated/team/).
 
 Below is a list of other GitLab Dedicated Support workflow pages. This is list

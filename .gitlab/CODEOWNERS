@@ -255,7 +255,6 @@
 /content/handbook/engineering/readmes/ben-king.md @benjaminking
 /content/handbook/engineering/readmes/craig-miskell.md @cmiskell
 /content/handbook/engineering/readmes/emily-chang.md @emchang
-/content/handbook/engineering/readmes/james-lopes.md @JamesRLopes
 /content/handbook/engineering/readmes/jane-gianoutsos.md @jgianoutsos
 /content/handbook/engineering/readmes/juan-silva.md @juan-silva
 /content/handbook/engineering/readmes/kamil-trzcinski.md @ayufan
@@ -531,12 +530,12 @@
 /content/handbook/sales/insidesales.md @jakebielecki
 /content/handbook/sales/it-agility-director-interview.md @akramer
 /content/handbook/sales/manager-operating-rhythm/ @ashahrazad1 @akramer
-/content/handbook/sales/manager-operating-rhythm/enterprise-sales.md @monicaj @kshirazi
+/content/handbook/sales/manager-operating-rhythm/enterprise-sales.md @monicaj @ashahrazad1
 /content/handbook/sales/meddppicc.md @ashahrazad1 @jblevins608
-/content/handbook/sales/negotiate-to-close.md @monicaj @kshirazi
+/content/handbook/sales/negotiate-to-close.md @monicaj @ashahrazad1
 /content/handbook/sales/onboarding/ @jblevins608 @ashahrazad1
-/content/handbook/sales/playbook/ @monicaj @kshirazi
-/content/handbook/sales/prospecting.md @monicaj @akramer @kshirazi
+/content/handbook/sales/playbook/ @monicaj @ashahrazad1
+/content/handbook/sales/prospecting.md @monicaj @akramer @ashahrazad1
 /content/handbook/sales/public-sector.md @jakebielecki
 /content/handbook/sales/qbrs/ @ashahrazad1 @shannonthompson @monicaj
 /content/handbook/sales/qualification-questions.md @akramer
@@ -556,8 +555,8 @@
 /content/handbook/sales/territory-planning.md @akramer @monicaj
 /content/handbook/sales/training/ @ashahrazad1 @jblevins608
 /content/handbook/sales/training/customer-success-skills-exchange.md @akramer @pdaliparthi
-/content/handbook/sales/training/field-certification/ @kshirazi @ashahrazad1 @pdaliparthi @monicaj
-/content/handbook/sales/training/field-functional-competencies.md @akramer @kshirazi
+/content/handbook/sales/training/field-certification/ @ashahrazad1 @pdaliparthi @monicaj
+/content/handbook/sales/training/field-functional-competencies.md @akramer @ashahrazad1
 /content/handbook/sales/training/sales-enablement-sessions/ @ashahrazad1 @jblevins608
 /content/handbook/sales/training/sko/ @kdemarest @kagarrett
 /content/handbook/sales/understand-customer-gitlab-use.md @jakebielecki
@@ -647,6 +646,9 @@
 /content/handbook/total-rewards/ @wendybarnes @mwilkins @rallen3 @Rkole
 /content/handbook/total-rewards/benefits/ @wendybarnes @rallen3 @Rkole
 /content/handbook/total-rewards/compensation/ @wendybarnes @mwilkins
+
+^[tools-and-tips]
+/content/handbook/tools-and-tips/ai/ @dnsmichi @panand3 @russchgl @rogerwoo @smanzuik @dfrhodes 
 
 ^[working-groups]
 /content/handbook/company/working-groups/ @gitlab-com/egroup

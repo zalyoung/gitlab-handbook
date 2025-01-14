@@ -24,7 +24,7 @@ There are many talent assessment options, and we have opted to use a Performance
 
 GitLab's Performance/Growth Potential Matrix is a type of talent assessment that forms part of our [Talent Development Program](/handbook/people-group/talent-development-program/).
 
-The FY5 talent assessment should consider performance from the period FY25Q1 - FY25Q4
+The FY25 talent assessment should consider performance from the period FY25Q1 - FY25Q4
 
 In addition to assessing Performance/Growth Potential, we annually review Key Talent aligned with the criteria outlined below on this page. The combination of Performance/Growth Potential and Key Talent assessments allow us to identify team members who drive the organization's success and use our engagement tools to retain them.
 
@@ -109,7 +109,7 @@ Examples:
 
 Note that this is an expected distribution, not a forced distribution. The bell curve distribution aligns with what is most commonly used as a benchmark in the industry and serves as a baseline for us to review and calibrate against. There may be exceptions that are justified that can be discussed and reviewed during calibration. Where deviations from the expected distribution occur, managers should use this as a data point to further review and work with their leadership to ensure appropriate growth plans are in place, proper role fit exists, hiring plans are adjusted, that we are promoting at a fair and accurate rate.
 
-**We expect roughly ~5% of team members to be assess as [TNTR (Too New To Rate)](/handbook/people-group/talent-assessment/#too-new-to-rate).**
+**We expect roughly ~5% of team members to be assessed as [TNTR (Too New To Rate)](/handbook/people-group/talent-assessment/#too-new-to-rate).**
 Performance:
 
 - **Developing**: 10%, not yet meeting all of the expectations
@@ -292,7 +292,7 @@ The calibration session is one of the most important pieces of the Performance/G
 - Leaders should feel comfortable providing feedback on team members in other functions that they have direct experience working with.
 - Focus on discussing artifacts that are relevant to the performance factor and refrain from discussing artifacts that are not relevant to performance being developing, performing or exceeding. Examples of artifacts which are not relevant: upcoming maternity/parental leave, personal information/home situation or things that were confidentially shared and do not relate to performance.
 - Refer to the competencies, job family, job frameworks and values when deciding what is relevant.
-- Utilize the SBI model for [feedback](/handbook/people-group/guidance-on-feedback/#s-b-i-model). Focus on facts and avoid blanket statements as opposed to (i.e. [team member] has poor communication), "[team member] struggled with collaboration during the roll-out of x project and could have improved communciation by ensuring they aligned with x stakeholders more regularly during the process. The impact of this was x."
+- Utilize the SBI model for [feedback](/handbook/people-group/guidance-on-feedback/#s-b-i-model). Focus on facts and avoid blanket statements as opposed to (i.e. [team member] has poor communication), "[team member] struggled with collaboration during the roll-out of x project and could have improved communication by ensuring they aligned with x stakeholders more regularly during the process. The impact of this was x."
 - Calibration is not a stack ranking of team members. While some inter-person comparison may happen, it should only be to ensure that evaluations are being applied fairly across different raters.
 - **Ask questions and provide feedback!** This may seem obvious, but it is an important aspect to help identify any potential bias
 
@@ -360,12 +360,12 @@ After the calibration sessions the performance and growth potential outcomes can
 Below is the high level timeline for the formal assessment beginning in Q4 FY25 (January). Different departments may have additional due dates built into the high level timeline, so please follow up with your [People Business Partner](/handbook/people-group#people-business-partner-alignment-to-division) if you have any questions.
 
 - **2025-01-27:** Kick off Optional Self-Evaluation cycle for all Team Members
-- **2025-02-06 (5:00pm PST):** Due date for all Self-Evaluations
-- **2025-02-07:** Managers begin to review thier team members self evaluations and gather feedback. Workday Calibration cycle opens and Calibration discussions occur
+- **2025-02-06:** Due date for all Self-Evaluations
+- **2025-02-10:** Managers begin to review their team members self evaluations and gather feedback. Workday Calibration cycle opens and Calibration discussions occur
 - **2025-02-28:** 5:00pm PST Workday Calibration will be locked
 - **2025-03-03**: Kick off the Manager Evaluation cycle in Workday
 - **2025-03-07:** Annual Compensation Review Kicks off for Managers
-- **2025-03-15:** Due date for all Manager evaluations. 5:00pm PST Talent Assessment in Workday is locked.
+- **2025-03-17:** Due date for all Manager evaluations. Talent Assessment in Workday is locked.
 - **2025-03-31 to 2025-04-02:** Total Rewards and final E-Group review and approval
 - **2025-04-27 to 2025-04-30:** Managers can communicate Performance/Growth Potential assessment and Annual Compensation Review to team members
 - **TBD:** Talent Assessments pending in Workday will be auto advanced to team members*
@@ -373,7 +373,7 @@ Below is the high level timeline for the formal assessment beginning in Q4 FY25 
 
 *Team members who are on Leave of Absence (LOA) on TBD are excluded from the auto advancement of their talent assessment until they return to work.
 
-Note: For full details on our Annual Compensation Review (ACR) timeline and cycle, pelase refer to our ACR [handbook page](/handbook/total-rewards/compensation/compensation-review-cycle/).
+Note: For full details on our Annual Compensation Review (ACR) timeline and cycle, please refer to our ACR [handbook page](/handbook/total-rewards/compensation/compensation-review-cycle/).
 
 ### Cadence
 
@@ -385,7 +385,7 @@ Anyone hired on or before January 31st should receive a Performance and Growth P
 
 ### Team Member Self-Evaluations
 
-It is up to all team members' discretion if they wish to complete their Self-Evaluation in Workday. While they are volunatary, self evaluations are highly encouraged so the team member's perspective is captured and shared with their manager prior to the manager's evaluation and Calibration Sessions. Please review the most current [timeline](#timeline) to ensure a timely delivery.
+It is up to all team members' discretion if they wish to complete their Self-Evaluation in Workday. While they are voluntary, self evaluations are highly encouraged so the team member's perspective is captured and shared with their manager prior to the manager's evaluation and Calibration Sessions. Please review the most current [timeline](#timeline) to ensure a timely delivery.
 
 ### Matrix Assessment Timeline
 
@@ -408,8 +408,9 @@ Aligned with the [timeline](#timeline), managers can see final assessments for e
 
 The cut-off date to determine whether to assess team members as Too New to Rate based on recent promotion/transfer for the FY25 Talent Assessment cycle is based on their time in role prior to the start of the Talent Assessment cycle, **2025-01-27**. Guidelines are as follows:
 
-1. **If a team member interviews and transfers or is promoted to a new role, with an effective date *within* 90 days of the start of the talent assessment cycle or throughout the talent assessment cycle (on or after 2024-10-01), guidance would be that they should be assessed as Too New to Rate.**
-1. **If a team member interviews and transfers to a new role or was promoted to a new role more than 90 days before the start of the talent assessment cycle (on or before 2024-10-01) they would be assessed based on the new level/role.**
+1. **If a team member interviews and transfers or is promoted to a new role, with an effective date *within* 90 days of the start of the talent assessment cycle or throughout the talent assessment cycle (on or after 2024-10-01), guidance would be that they should be assessed as Too New to Rate.** For example, if a Senior Manager is promoted to Director on 2024-11-02, they would be assessed as `Too New to Rate` for the Talent Assessment cycle. 
+1. **If a team member interviews and transfers to a new role or was promoted to a new role more than 90 days before the start of the talent assessment cycle (on or before 2024-10-01) they would be assessed based on the new level/role.** For example, if a Senior Manager is promoted to Director on 2024-09-15, they would be assessed based on the new Director-level role for the Talent Assessment cycle.
+1. **Exception for FY25 Talent Assessment Cycle**: Due to the transition of our promotion cycles, team members who receive a promotion effective in the FY26 Q1 (Feb 1) cycle, will receive a talent assessment rating that is reflective of their full FY25 performance, and not be classed as TNTR for this talent assessment cycle. For example, if a Senior Manager is promoted to Director effective 2025-02-01, their Talent Assessment should reflect their Senior Manager level to ensure we are capturing a full year of Performance and Growth Potential feedback.
 
 It is important to note that because being promoted recognizes high performance both in terms of increased scope/responsibility and monetarily through compensation increase therefore a **promotion "resets" the performance factor evaluation**.
 

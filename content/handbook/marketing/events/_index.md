@@ -704,7 +704,7 @@ For all details regarding Field Marketing Swag and Event Assets, please visit th
 
 ## Specifics for Developer Relations
 
-GitLab's Developer Relations team reviews and manages our community events (typically an event with less than 250 attendees that is targetting end users of GitLab) including [Meetups](/handbook/marketing/developer-relations/evangelist-program/#meetups). The [Developer Relations handbook](/handbook/marketing/developer-relations/evangelist-program/#community-events) has additional information on the events the Developer Relations team will support.
+GitLab's Developer Relations team reviews and manages our community events (typically an event with less than 250 attendees that is targetting end users of GitLab). The [Developer Relations handbook](/handbook/marketing/developer-relations/evangelist-program/#community-events) has additional information on the events the Developer Relations team will support.
 
 ## Specifics for Corporate Events
 
@@ -780,7 +780,7 @@ For video instructions, [please see here](https://youtu.be/e4X9Dg_1rmA).
     - **Logo:** Select the solid Charcoal tanuki. This tanuki has a transparent background and should be the only logo placed for the center of the QR code.
     - **NOTE:** Keep the design/shape of the QR code within the brand aesthetic (no odd or unorganized shapes).
     - **NOTE:** When placing the QR code into your collateral, the [design team](/handbook/marketing/brand-and-product-marketing/design/) advises that it should be no smaller than 1" x 1" for efficient scanning.
-    - ![QR code styling](/handbook/marketing/events/qr-code-handbook.png)
+    - ![QR code styling](/images/marketing/events/qr-code-handbook.jpg)
 1. Add in URL link to CTA. Example CTAs listed below:
 
     ```text
