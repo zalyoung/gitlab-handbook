@@ -12,6 +12,11 @@ The `#hackerone-feed` Slack channel receives notifications of report status chan
 - `H1 Triage` are reports being triaged by the HackerOne triage team
 - `Pending Disclosure` are reports that should be reviewed and disclosed
 
+## Guiding principles
+
+- When the `GitLab Team` queue is empty, regularly check that the `H1 Triage` queue doesn't contain reports that are rated as `Critical` or `High`. If there are such rated reports, evaluate if they are indeed `Critical` or `High`, and if so handle them directly without waiting on `H1 Triage`.
+- The AppSec engineer on rotation is responsible for H1 reports that are assigned to `GitLab Team` by Friday 2pm on the AppSec Engineer's time. All reports submitted after that time should still be triaged by the person on rotation, if the queue allows it (for example the queue is empty). All remaining reports are then passed to the next person on HackerOne rotation.
+
 ## GitLab Team On-boarding
 
 - New members of the GitLab security team are granted access to the GitLab HackerOne team via an access request issue using the appropriate [role based entitlement template](https://internal.gitlab.com/handbook/it/end-user-services/access-request/baseline-entitlements/#role-entitlements-for-a-specific-job), which should be submitted by their manager during onboarding
