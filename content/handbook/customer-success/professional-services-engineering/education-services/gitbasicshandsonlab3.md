@@ -142,7 +142,7 @@ the screen to expand the pane). Ensure the merge request is assigned to yourself
 
 1. Click the **Overview** tab under the MR title.
 
-1. To mark the merge request as ready to merge, click **Mark as ready**. This removes `Draft:` from your MR's title.
+1. To mark the merge request as ready to merge, click the three dots on the right and then select **Mark as ready**. This removes `Draft:` from your MR's title.
 
    > For this lab, you haven't specified any approvers for this project. If you had, an **Approve** button would appear in the **View eligible approvers** section.
 
