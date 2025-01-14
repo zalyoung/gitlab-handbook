@@ -98,7 +98,6 @@ be rolled-out simultaneously to gitlab.com.
 
 ```mermaid
 gantt
-gantt
 dateFormat YYYY-MM-DD
 title 50% confidence timeline
 
