@@ -94,3 +94,5 @@ GitLab Champions enlists, supports, rewards, and recognizes members of the GitLa
 1. Create an [onboarding issue in the champions project](https://gitlab.com/gitlab-partners-public/gitlab-champions/champions/-/issues/new#) for the new Champion with the New_Champion_Onboarding template.
 1. Complete the `GitLab Sponsoring SA Tasks` section of the issue
 1. Work with the new gitLab Champion to complete the `Partner Champion Tasks` section of the issue
+
+## Managing Champions Meetings
