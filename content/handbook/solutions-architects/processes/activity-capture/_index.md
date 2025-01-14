@@ -83,10 +83,10 @@ Capturing various types of data helps us build a comprehensive understanding of 
 - **Overview**: Capture key fields in Salesforce such as SA Validated Tech Eval, SA Next Steps, POVs, and Assigned SA.
 - **Details**: [SFDC Fields Guide](/handbook/solutions-architects/processes/activity-capture/sfdc-logging)
 
-### 4. **Technical Close Plans [Required]**
+### 4. **Customer Success Plans [Required]**
 
-- **Overview**: Document the plan for closing technical evaluations, including next steps and outcomes.
-- **Details**: [Technical Close Plans Guide](/handbook/solutions-architects/processes/activity-capture/tech-close-plans)
+- **Overview**: 
+- **Details**: [Customer Success Plans Guide](/handbook/solutions-architects/processes/activity-capture/customer-success-plans)
 
 Each type of data capture plays a crucial role in building a detailed and actionable knowledge base. For more information on how to perform each type of data capture, please refer to the linked guides.
 
