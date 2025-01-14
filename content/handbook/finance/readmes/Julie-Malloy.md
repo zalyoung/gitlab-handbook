@@ -28,7 +28,6 @@ For me, being at GitLab represents the perfect blend of doing a job I truly enjo
 1. **Curiosity** - Because I ask a lot of questions, it can be misinterpreted as distrust or me doubting your understanding of your subject. That is not my intent
    - How to help me manage this: direct me to source information upfront to help me get up to speed or set up time 1:1 so we can delve deeper without an audience.  
 
-
 ## My Expectations of Everyone
 
 1. **Accountability**: Taking ownership of your work is fundamental to our success. This means: delivering high-quality work that meets or exceeds standards, following through on commitments and deadlines, acknowledging mistakes and course correcting, being transparent about progress and potential roadblocks.
