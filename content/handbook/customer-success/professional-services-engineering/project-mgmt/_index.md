@@ -35,6 +35,71 @@ Given the close collaboration between the PS Project Management and PS Operation
 1. The DoW is used to add additional detail to a Consulting Block SKU that has been sold. A DoW is created by the Engagement Management team and confirmed by the Customer. The DOW should be attached to the Customer Epic prior to the Sales to Delivery Transition call
 1. [Template for a DoW](https://docs.google.com/document/d/1ZsMUvBUL9kt3CqB4YjYlX-E1uEJz-elO/edit) can be found here
 
+
+#### Building High Performing Teams
+
+### Working Agreements
+
+As a PMO organization, we assemble micro teams on a consistent basis, with both internal GitLab and external GitLab partners.
+
+Each contributing engineer comes with their own set of experience and ways of completing a project.
+
+When a delivery team comes together for a new project, a short ritual is held to agree to working norms; ultimately fostering a positive working relationship that translates to successful project delivery and enhanced interpersonal, working relationships.
+
+This falls in line with several of our GitLab values and promotes Psychological Safety. The following link documents [GitLab's view of Psychological Safety](https://handbook.gitlab.com/handbook/leadership/emotional-intelligence/psychological-safety/).
+
+![image.png](/uploads/8855c49811df7cb4770f8dfddcab7879/image.png){width="85" height="81"} ![image.png](/uploads/b0a6a549bc1192a92d5b80ffb8e61501/image.png){width="85" height="82"} ![image.png](/uploads/1620390bf408e20c943ab1fa1d649fcf/image.png){width="85" height="81"}
+
+#### Why working agreements?
+
+Working agreements serve several crucial purposes in building high-performing teams, particularly for newly formed groups.
+
+#### Alignment and Shared Understanding
+
+* They create explicit, rather than assumed, expectations about how the team will work together.
+* This is especially valuable when team members come from different backgrounds or organizational cultures.
+* It prevents misunderstandings that could otherwise create friction or reduce productivity.
+
+#### Psychological Safety
+
+* The process of creating agreements together establishes that all voices matter.
+* It creates a foundation where team members feel safe to raise concerns or suggest improvements.
+* By setting clear norms for communication and collaboration, it reduces anxiety about "unwritten rules".
+
+#### Team Ownership and Accountability
+
+* Because agreements are created collaboratively, team members feel greater ownership of the processes.
+* The team has a shared reference point for holding each other accountable.
+* It moves responsibility for team performance from the project manager to the entire team.
+
+#### Conflict Prevention and Resolution
+
+* Clear agreements provide a framework for addressing issues before they become problems.
+* When conflicts do arise, the team can refer back to their agreements as a neutral starting point
+* It depersonalizes disagreements by focusing on agreed-upon standards rather than individual preferences.
+
+#### Continuous Improvement
+
+* Working agreements serve as a living document that can evolve as the team learns what works best.
+* Regular review of agreements provides structured opportunities to discuss team dynamics.
+* It creates a foundation for honest retrospectives and process improvements.
+
+#### Accelerated Team Formation
+
+* By explicitly discussing and agreeing on ways of working, teams can move through forming and storming stages more quickly.
+* It helps bridge experience gaps between senior and junior team members.
+* New team members can be onboarded more effectively with clear documentation of team practices.
+
+### Example Working Agreements
+
+* We assume positive intent and acknowledge that throughout the entire project, each team member will do the best they can, given their experience level and perspective.
+* We agree to make our work transparent to our colleagues and customers using GitLab Collaboration Project and collaboration tools.
+* Mark yourself as "away" when not available, with expected return time.
+* We will update issue status and time tracking daily. 
+* Core collaboration hours: 10:00 AM - 4:00 PM EST; no expectation of response outside working hours.
+* We honor our commitments to our teammates and to our customers. If we commit to doing something, we follow through within expected timelines. 
+* We understand that working agreements are not authoritative, but fluid and open to change when necessary.
+
 #### Forecasting Process for PMO Team
 
 ##### PS/PMO Cadence Schedule
