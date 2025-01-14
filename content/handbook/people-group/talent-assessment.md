@@ -24,7 +24,7 @@ There are many talent assessment options, and we have opted to use a Performance
 
 GitLab's Performance/Growth Potential Matrix is a type of talent assessment that forms part of our [Talent Development Program](/handbook/people-group/talent-development-program/).
 
-The FY5 talent assessment should consider performance from the period FY25Q1 - FY25Q4
+The FY25 talent assessment should consider performance from the period FY25Q1 - FY25Q4
 
 In addition to assessing Performance/Growth Potential, we annually review Key Talent aligned with the criteria outlined below on this page. The combination of Performance/Growth Potential and Key Talent assessments allow us to identify team members who drive the organization's success and use our engagement tools to retain them.
 
