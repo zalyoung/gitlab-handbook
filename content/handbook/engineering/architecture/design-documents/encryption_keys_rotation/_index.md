@@ -260,7 +260,7 @@ end
 
 ##### `attr_encrypted` and `TokenAuthenticatable` implementation
 
-The `EncryptionKey.current_db_key_base_encryption_key` and `EncryptionKey.current_active_decryption_keys` method would
+The `EncryptionKey.current_db_key_base_encryption_key` and `EncryptionKey.current_db_key_base_decryption_keys` method would
 be implemented as follows:
 
 ```ruby
@@ -278,7 +278,7 @@ be implemented as follows:
     find_key_from_fingerprint(current_db_key_base_encryption_key_fingerprint)
   end
 
-  def self.current_active_decryption_keys(record = nil)
+  def self.current_db_key_base_decryption_keys(record = nil)
     if record && record.respond_to?(:encryption_key_fingerprint)
       [find_key_from_fingerprint(record.encryption_key_fingerprint)]
     else
@@ -287,9 +287,13 @@ be implemented as follows:
       # and data already started to be encrypted with the newly active key. In that case, decryption should be possible
       # right away (i.e. we cannot cache decryption keys otherwise we'd have decryption errors until the cache is
       # expired).
-      Settings.attr_encrypted_db_key_base_32.each_with_object({}) do |key, memo|
+      existing_fingerprints = Set.new
+      Settings.attr_encrypted_db_key_base_32.each_with_object([]) do |key, memo|
         fingerprint = ActiveRecord::Encryption::Key.new(key).id
-        memo[fingerprint] << key unless memo.key?(fingerprint)
+        next if existing_fingerprints.include?(fingerprint)
+
+        existing_fingerprints.add(fingerprint)
+        memo << key
       end
     end
   end
@@ -298,7 +302,7 @@ be implemented as follows:
 Notes on caching:
 
 - Same remarks on caching for `EncryptionKey.current_db_key_base_encryption_key` key methods as for `GitlabPrimaryKeyProvider`.
-- Caching of `EncryptionKey.current_active_decryption_keys` would be a problem if a newly-activated key is used for
+- Caching of `EncryptionKey.current_db_key_base_decryption_keys` would be a problem if a newly-activated key is used for
   encryption, before it's used for decryption. To solve that, all the keys from `config/secrets.yml` should be
   available for decryption at any time (except the ones that would conflict with previous keys, see inline code
   comments above).
@@ -318,7 +322,7 @@ def dynamic_encryption_key
   if operation == :encrypting
     EncryptionKey.current_db_key_base_encryption_key
   else
-    EncryptionKey.current_active_decryption_keys(self)
+    EncryptionKey.current_db_key_base_decryption_keys(self)
   end
 end
 ```
@@ -333,13 +337,14 @@ AES256_GCM_OPTIONS = {
   key: EncryptionKey.current_db_key_base_encryption_key
 }.freeze
 
-def aes256_gcm_decrypt(value, keys: DECRYPTION_KEYS, nonce: AES256_GCM_IV_STATIC, owner_record: nil)
+def aes256_gcm_decrypt(value, nonce: AES256_GCM_IV_STATIC, owner_record: nil)
   return unless value
 
   encrypted_token = Base64.decode64(value)
 
   # Try to decrypt with all keys, from oldest to newest
-  EncryptionKey.current_active_decryption_keys(owner_record).with_index do |key, index|
+  keys = EncryptionKey.current_db_key_base_decryption_keys(owner_record)
+  keys.with_index do |key, index|
     return Encryptor.decrypt( # rubocop:disable Cop/AvoidReturnFromBlocks -- next doesn't work the same here
       AES256_GCM_OPTIONS.merge(value: encrypted_token, key: key, iv: nonce)
     )
