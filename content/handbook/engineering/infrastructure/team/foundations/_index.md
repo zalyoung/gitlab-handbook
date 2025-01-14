@@ -10,7 +10,7 @@ The mission of the Production Engineering Foundations team at GitLab is to build
 
 The Foundations team's North Star consists of two pieces:
 
-1. **Excellence in networking infrastructure.** We will drive GitLab's networking capabilities forward by building scalable, secure, and efficient solutions. This includes evolving our edge services, load balancing, rate limiting, and network security to meet the growing demands of all GitLab platforms. Through centralized networking tooling and infrastructure, we create a foundation that supports GitLab's continued growth and innovation.
+1. **Excellence in networking infrastructure.** We will drive GitLab's networking capabilities for GitLab forward by building scalable, secure, and efficient solutions. This includes evolving our edge services, load balancing, rate limiting, and network security to meet the growing demands of all GitLab platforms. Through centralized networking tooling and infrastructure, we create a foundation that supports GitLab's continued growth and innovation.
 1. **Sustainable toil and service maintenance.** While toil is inherent in SRE work, we will adopt processes and policies that create an effective balance between automation and manual work. This approach ensures we can maintain our core infrastructure services reliably while keeping operational overhead minimal as GitLab grows. We strive for efficiency in both our day-to-day operations and our maintenance of essential platform services.
 
 ## Responsibilities
