@@ -322,6 +322,8 @@ hugolint:
     - <<: *merge-request-or-tag
   image:
     name: registry.gitlab.com/gitlab-com/content-sites/handbook-tools/hugolint:v${HUGOLINT_VERSION}
+  before_script:
+    - apk add jq
   script:
     - hugolint linkcheck --exclude .hugolint.exclude --format=json $(find content -type f -name '*.md' | grep -v ' ') >linkcheck.json
     - hugolint missinglinks --num 30 $(find content -name '*.md' | grep -v ' ') 2>/dev/null | tee missinglinks.txt
@@ -329,6 +331,8 @@ hugolint:
       # Compare with target branch when running as a merge request pipeline.
       if [ "${CI_PIPELINE_SOURCE}" == "merge_request_event" ]; then
         hugolint codequality latest --artifact 'linkcheck.json' >'latest.json'
+        # additional JSON file to populate MR comment in post_comment_on_failure job
+        jq -s '.[1] - .[0]' latest.json linkcheck.json > new_broken_links.json
         hugolint codequality diff --exit-code 'latest.json' 'linkcheck.json'
       fi
   artifacts:
@@ -337,6 +341,7 @@ hugolint:
     paths:
       - linkcheck.json
       - missinglinks.txt
+      - new_broken_links.json
     reports:
       codequality: linkcheck.json
 
