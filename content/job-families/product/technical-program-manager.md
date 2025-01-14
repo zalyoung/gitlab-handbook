@@ -229,8 +229,9 @@ All of the below are tied to a specific customer’s needs, and would not be a g
 * The support team has a request they need to escalate to the [product team](/handbook/support/workflows/how-to-get-help/) or another department.
 * Proactive planning for breaking or impactful changes. (May be in the future scope of work, but for now it is not part of this role.)
 
+The Escalation TPM is not intended to serve as the [Incident Manager](https://handbook.gitlab.com/handbook/engineering/infrastructure/incident-management/) as that role requires 24-hour coverage.
 <br>
 
 **Big-Picture Improvements**
 
-Ongoing Platform Escalation projects will take up the majority of their time, and their remaining bandwidth is spent improving our operational handling of escalations and incidents. The current Escalation Specialist has been conducting coffee chats with people all over the organization and will soon share their findings on the current state of escalations. They will also be leading a working group to consolidate GitLab's incident response processes.
+Ongoing Platform Escalation projects will take up the majority of their time, and their remaining bandwidth is spent improving our operational handling of escalations and incidents. The current [State of Escalations](https://docs.google.com/presentation/d/1xELjd6Gy6JxSUl5QpeXgzjgv0w3vmOz08zH-vYjnRfA/edit#slide=id.g32007dd9875_0_35) at GitLab was shared after meeting with dozens of cross functional stakeholders. They will also be leading a working group to consolidate GitLab's incident response processes.
