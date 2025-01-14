@@ -86,11 +86,11 @@ Team members will be expected to fill out a monthly timesheet at the end of each
 1. Go to your Okta account and click on the HelpLab SSO tile.
 1. Click on the Payroll dropdown, and select Timecards.
 
-![HelpLab Payroll dropdown](/handbook/entity/images/timecards.png "HelpLab Payroll dropdown")
+![HelpLab Payroll dropdown](/images/entity/timecards.png "HelpLab Payroll dropdown")
 
 1. Click on the Timecards request tile.
 
-![Timecards request tile](/handbook/entity/images/timecards-request.png "HelpLab Timecards Request")
+![Timecards request tile](/images/entity/timecards-request.png "HelpLab Timecards Request")
 
 1. Enter the Entity (GitLab Iberia srl)
 1. Enter that No, you do not require your manager's approval
@@ -98,7 +98,7 @@ Team members will be expected to fill out a monthly timesheet at the end of each
 1. Upload your timesheet pdf file, and ensure that it contains your Name, the Month and Year of the timesheet in the file title.
 1. Click Submit.
 
-![Timecards submission](/handbook/entity/images/timecards-submission.png "HelpLab Timecard Submission")
+![Timecards submission](/images/entity/timecards-submission.png "HelpLab Timecard Submission")
 
 For any questions relating to this process please reach out to the Non US Payroll team via HelpLab. For new hires or any relocations, this information will be in the relevant onboarding/relocation issue/channel.
 

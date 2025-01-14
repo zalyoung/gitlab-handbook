@@ -7,7 +7,7 @@ description: "Resources and direction for career development and mobility for al
 
 Career development is the non-linear, lifelong growth process integrating learning, work, leisure, and change. It happens in all directions, including subject matter expertise, lateral growth to new teams, and linear growth through a job family. Use the recources on this page to navigate your career growth at GitLab.
 
-![infographic with examples of career growth at gitlab](non-linear.png)
+![infographic with examples of career growth at gitlab](/images/people-group/learning-and-development/career-development/non-linear.png)
 
 ## Directory
 
