@@ -35,7 +35,7 @@ It is not solely the responsibility of the Framework team to make GitLab easy to
 
 ### Tools and Responsibilities
 
-The Framework team will lead our GitLab Environment Toolkit and Reference Architectures initiatives, as these are great delivery methods for the goals of this team. However, these will only be a piece of the larger picture, which includes producing positive outcomes for the GitLab admin. This includes external users as well as easing the operational requirements for our own SaaS offerings.
+The Framework team owns and leads our GitLab Environment Toolkit and Reference Architectures initiatives, which are key programs with the aim assist and enable customers to deploy and maintain their GitLab environments. This includes external users as well as easing the operational requirements for our own SaaS offerings.
 
 #### GitLab Environment Toolkit (GET)
 
