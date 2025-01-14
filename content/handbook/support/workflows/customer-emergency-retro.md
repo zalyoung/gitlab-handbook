@@ -25,6 +25,8 @@ Ideally, someone who was directly involved in the emergency identifies someone w
 
 The person conducting the retro should review the ticket and related Slack threads and issues before the retro. (The aim is to get enough context to make the retro efficient while keeping an open mind and refraining from drawing conclusions before the retro.)
 
+Typically, the person who participated in the emergency does not need to do additional prep for the retro. The notes taken during the emergency should be sufficient.
+
 During the synchronous portion of the retro:
 
 1. apply the `retro` label to the issue in [the tracker](https://gitlab.com/gitlab-com/support/readiness/emergencies/-/issues/?sort=created_date&state=opened&first_page_size=100)
