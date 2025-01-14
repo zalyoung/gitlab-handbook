@@ -192,6 +192,18 @@ SECUREFLAG_DATA = {
 }.freeze
 ```
 
+### Organization / Cell tables
+
+These tables are likely mis-categorized as `gitlab_main_clusterwide`, and need
+to be classificed as `gitlab_main_cell` instead.
+
+### User tables
+
+These tables are related to the `users` table.
+
+As Users can only exist on one cell in Cells 1.0, there is no need to
+synchronize any user related data until Cells 1.5+
+
 ## Tables
 
 This lists all clusterwide tables and its type.
