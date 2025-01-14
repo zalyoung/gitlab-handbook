@@ -4,24 +4,24 @@ title: DMCA Policy
 
 ## DMCA (Digital Millennium Copyright Act) takedown request requirements
 
-We take the intellectual property rights of others seriously and require that our Users do the same. The Digital Millennium Copyright Act (DMCA) established a process for addressing claims of copyright infringement. If you own a copyright or have authority to act on behalf of a copyright owner and want to report a claim that a third party is infringing that material on or through GitLab's services, please send a notice that meets the minimum requirements of the DMCA, to `dmca@gitlab.com`, and we will take appropriate action.
+We take the intellectual property rights of others seriously and require that our users do the same. The Digital Millennium Copyright Act (DMCA) established a process for addressing claims of copyright infringement. If you own a copyright or have authority to act on behalf of a copyright owner and want to make a claim that a third party is infringing that copyright on or through GitLab's services, send a notice that meets the minimum requirements of the DMCA to `dmca@gitlab.com`, and we will take appropriate action.
 
 ## DMCA notice requirements
 
 You must include:
 
 1. **Identify the copyrighted work.** A description of the copyrighted work that you claim is being infringed;
-1. **Identify the alleged infringing material.** A description of the material you claim is infringing and that you want removed or access to which you want disabled and the URL or other location of that material;
-   - Be as specific as possible. If you believe less than the whole project infringes, identify the specific project, file, or line numbers within a file a User would need to delete in order to remedy the infringement.
-   - Note that GitLab will not automatically disable forks of a project unless they are explicitly identified within the notice. It is your responsibility to determine that the material identified, including any fork(s) included in a notice, independently meet the notice requirements.
+1. **Identify the allegedly-infringing material.** A description of the material you claim is infringing and that you want removed or access to which you want disabled and the URL or other location of that material;
+   - Be as specific as possible. If you believe less than the whole project infringes, identify the specific project, file, or line numbers within a file a user would need to delete in order to remedy the infringement.
+   - GitLab will not automatically disable forks of a project unless they are explicitly identified within the notice you send. It is your responsibility to determine that the material identified, including any fork(s) included in a notice, independently meet the notice requirements.
 1. **Provide contact information.** Your name, title (if acting as an agent), address, telephone number, and email address;
 1. **Include the following statement:** "I have a good faith belief that the use of the copyrighted material I am complaining of is not authorized by the copyright owner, its agent, or the law (e.g., as a fair use)";
 1. **Include the following statement:** "The information in this notice is accurate and, under penalty of perjury, I am the owner, or authorized to act on behalf of the owner, of the copyright or of an exclusive right that is allegedly infringed"; and
 1. **Signature.** An electronic or physical signature of the owner of the copyright or a person authorized to act on the owner’s behalf.
 
-Submissions under this DMCA Policy should be sent to dmca@gitlab.com
+Submissions under this DMCA Policy should be sent to dmca@gitlab.com.
 
-We will review your submission and take whatever action we deem appropriate under the DMCA, including the removal of the challenged content from the website. Further more, we may, in appropriate circumstances, disable access or terminate the account(s) of the reported user(s).
+We will review your submission and take whatever action we deem appropriate under the DMCA, including the removal of the challenged content from the website. Furthermore, we may, in appropriate circumstances, disable access or terminate the account(s) of the reported user(s).
 
 ## DMCA Counter Notice requirements
 
@@ -43,7 +43,7 @@ We will review the counter-notice, and:
 
 ## Anti-Circumvention Technology
 
-The DMCA also makes it illegal to circumvent technical measures that prevent access to copyrighted materials, such as computer software. If you believe that content hosted on GitLab violates this prohibition, please send a complaint to dmca@gitlab.com. The complaint should include the following:
+The DMCA prohibits the circumvention of technical measures that prevent access to copyrighted works. If you believe that content hosted on GitLab violates this prohibition, send a complaint to dmca@gitlab.com. The complaint should include the following:
 
 1. **Identify the copyrighted work.** A description of the copyrighted work that you claim is being circumvented;
 1. **Identify the alleged circumventing content.** Be sure to include detailed statements that describe:
@@ -59,7 +59,7 @@ We will review your complaint and take whatever action we deem appropriate under
 
 ## Trademark takedown request requirements
 
-If you're sure you want to report content on GitLab that you believe infringes your trademark, please provide the following information:
+If you want to report content on GitLab that you believe infringes your trademark, provide the following information:
 
 1. Details of the original trademark (and a description if it's a logo).
 1. A list of the countries in which the trademark is registered.
