@@ -19,6 +19,8 @@ For example, the `plans`, `plan_limits`, and `licenses` tables do need to be the
 
 ## Proposal
 
+![Syncing service, with one leader, and one follower](images/syncing_service_leader_follower.png)
+
 Prerequisites:
 
 1. Only clusterwide tables are allowed to be synced. Cell tables are not allowed to be synced.
