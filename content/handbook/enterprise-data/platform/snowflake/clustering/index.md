@@ -49,7 +49,7 @@ cluster_by=['column1','column2'],
 automatic_clustering='true'
 ```
 
-The cluster key and automatic_clustering configuration setting must be added to the model so that automatic clustering is enabled by default should the model be rebuilt.
+The cluster key and automatic_clustering configuration setting must be added to the model so that automatic clustering is enabled by default should the model be rebuilt. A full-refresh of an incremental model will be required before the automatic clustering is enabled.
 
 ### Manual applying via SQL
 
