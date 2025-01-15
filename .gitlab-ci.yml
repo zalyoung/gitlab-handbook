@@ -153,7 +153,7 @@ build:
   stage: build
   script:
     - echo "HUGO_BASEURL ${HUGO_BASEURL}"
-    - echo "CI_PAGES_URL ${CI_PAGES_URL}
+    - echo "CI_PAGES_URL ${CI_PAGES_URL}"
     - echo "PAGES_PREFIX ${PAGES_PREFIX}"
     - echo -e "\e[0Ksection_start:`date +%s`:group1\r\e[0KGroup 1"
     - apk update
