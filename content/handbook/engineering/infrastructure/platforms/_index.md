@@ -188,7 +188,7 @@ All team members are encouraged to schedule time for personal development. The f
 | Group | Topic |
 |-------|-------|
 | SaaS Platforms | [Product direction](https://about.gitlab.com/direction/saas-platforms/) |
-| [Delivery Group](/handbook/engineering/infrastructure/team/delivery) | [Mission](/handbook/engineering/infrastructure/team/delivery/#mission), [Strategy](/handbook/engineering/infrastructure/team/delivery/#strategy), [Team history](/handbook/engineering/infrastructure/team/delivery/#history) |
+| [Delivery Group](/handbook/engineering/infrastructure/team/delivery) | [Mission](/handbook/engineering/infrastructure-platforms/gitlab-delivery/delivery/#mission), [Strategy](/handbook/engineering/infrastructure-platforms/gitlab-delivery/delivery/#strategy), [Team history](/handbook/engineering/infrastructure-platforms/gitlab-delivery/delivery/#history) |
 | [Scalability Group](/handbook/engineering/infrastructure/team/scalability/) | [Mission](/handbook/engineering/infrastructure/team/scalability/#mission), [Strategy](/handbook/engineering/infrastructure/team/scalability/#strategy), [Team history](/handbook/engineering/infrastructure/team/scalability/#history) |
 | [Dedicated Group](/handbook/engineering/infrastructure/team/gitlab-dedicated/) | [Mission](/handbook/engineering/infrastructure/team/gitlab-dedicated/#mission) |
 

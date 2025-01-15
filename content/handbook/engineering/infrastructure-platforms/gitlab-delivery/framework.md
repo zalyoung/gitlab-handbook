@@ -4,7 +4,7 @@ title: GitLab Delivery:Framework
 
 ## Summary
 
-Framework is a team within the [GitLab Delivery Stage](/handbook/engineering/infrastructure/team/delivery/). This team takes ownership of the GitLab Environment Toolkit (GET) as instance lifecycle tool, Reference Architectures, tooling and frameworks related to upgrade path testing, and will ensure installation and upgrade paths are fully tested and reliable. We follow the same processes as listed on the [GitLab Delivery Stage](/handbook/engineering/infrastructure/team/delivery/), unless otherwise stated on this page.
+Framework is a team within the [GitLab Delivery Stage](/handbook/engineering/infrastructure-platforms/gitlab-delivery/delivery/). This team takes ownership of the GitLab Environment Toolkit (GET) as instance lifecycle tool, Reference Architectures, tooling and frameworks related to upgrade path testing, and will ensure installation and upgrade paths are fully tested and reliable. We follow the same processes as listed on the [GitLab Delivery Stage](/handbook/engineering/infrastructure-platforms/gitlab-delivery/delivery/), unless otherwise stated on this page.
 
 ## Mission
 

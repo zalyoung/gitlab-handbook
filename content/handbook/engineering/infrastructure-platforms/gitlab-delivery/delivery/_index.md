@@ -155,7 +155,7 @@ Release Managers are members of the Delivery group but during their time as rele
 4. Hot patch process: Release Managers, working with EOCs, will manage the hot patch process. Hot patch capabilities are provided by the Releases team with heavy dependence on Deployments capabilities due to the shortened process and therefore reduced pipeline jobs.
 5. Deployment blockers: Release Managers are responsible for identifying, and reporting on deployment blockers in order to provide the teams with data needed to plan improvements.
 6. Release Manager dashboards: Release Managers own <https://dashboards.gitlab.net/d/delivery-release_management/delivery-release-management?orgId=1> plus have the freedom to create any additional dashboards that they think would be useful for release management. The data needed for dashboards will be made available from a centralized place, owned by Deployments.
-7. Escalation of Deployment Blockers.  When facing deployment blockers in any environment of more than 2 hours without a clear path to resolution, [escalate](/handbook/engineering/infrastructure/team/delivery/#release-management-escalation) to the `Release Management Escalation` Schedule in PagerDuty to help coordinate and unblock deployments.
+7. Escalation of Deployment Blockers.  When facing deployment blockers in any environment of more than 2 hours without a clear path to resolution, [escalate](/handbook/engineering/infrastructure-platforms/gitlab-delivery/delivery/#release-management-escalation) to the `Release Management Escalation` Schedule in PagerDuty to help coordinate and unblock deployments.
 
 ### Delivery:Releases ownership
 
@@ -380,7 +380,7 @@ The Delivery group generally has working epics assigned to a [DRI](/handbook/peo
 The Delivery group respects the Company principle of [everything starting with a merge request](/handbook/communication/#start-with-a-merge-request).
 
 1. All Merge Requests (MRs) must go through the review process.
-1. MRs should be labeled with the [Delivery labels](/handbook/engineering/infrastructure/team/delivery/#labels).
+1. MRs should be labeled with the [Delivery labels](/handbook/engineering/infrastructure-platforms/gitlab-delivery/delivery/#labels).
 1. It is expected that MR author assigns reviewers once the MR is ready to go.
 1. Follow [GitLab Code Review Guidelines](https://docs.gitlab.com/ee/development/code_review.html).
 1. We [dogfood the Reviewers feature](https://docs.gitlab.com/ee/development/code_review.html#dogfooding-the-reviewers-feature) to assign reviewers to an MR.
@@ -416,7 +416,7 @@ It is encouraged to show and discuss:
 ## Team training
 
 Every Delivery Group member is responsible for sharing skills either through creating a training session for the rest of the group or through paired work.
-See the page on [team training](/handbook/engineering/infrastructure/team/delivery/training/) for details.
+See the page on [team training](/handbook/engineering/infrastructure-platforms/gitlab-delivery/delivery/training/) for details.
 
 ## History
 
