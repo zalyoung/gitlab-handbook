@@ -43,13 +43,13 @@ We will review the counter-notice, and:
 
 ## Anti-Circumvention Technology
 
-The DMCA prohibits the circumvention of technical measures that prevent access to copyrighted works. If you believe that content hosted on GitLab violates this prohibition, send a complaint to dmca@gitlab.com. The complaint should include the following:
+The DMCA prohibits the circumvention of technical protection measures that prevent access to copyrighted works. If you believe that content hosted on GitLab violates this prohibition, send a complaint to dmca@gitlab.com. The complaint should include the following:
 
-1. **Identify the copyrighted work.** A description of the copyrighted work that you claim is being circumvented;
+1. **Identify the copyrighted work.** A description of the copyrighted work that is being protected by the technical measure;
 1. **Identify the alleged circumventing content.** Be sure to include detailed statements that describe:
    - What the technical protection measures are;
-   - How they effectively control access to the copyrighted material; and
-   - How the technology is designed to circumvent those technological protection measures.
+   - How the technical protection measures effectively control access to the copyrighted work; and
+   - How the content hosted on GitLab is designed to circumvent those technical protection measures.
 1. **Provide contact information.** Your name, title (if acting as an agent), address, telephone number, and email address;
 1. **Include the following statement:** "I have a good faith belief that the use of the copyrighted material I am complaining of is not authorized by the copyright owner, its agent, or the law (e.g., as a fair use)";
 1. **Include the following statement:** "The information in this notice is accurate and, under penalty of perjury, I am the owner, or authorized to act on behalf of the owner, of the copyright or of an exclusive right that is allegedly infringed"; and
