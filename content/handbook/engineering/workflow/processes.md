@@ -41,7 +41,7 @@ more solid review process to make sure the benefits of removing it outweigh the 
     ```
 
 1. Ping at least one relevant maintainer for feedback 
-1. If the package has been determined to have no security vulnerabilities, set the issue to public.
+1. If you haven't found any vulnerabilities, make the issue public.
 1. Decide whether to:
     - leave the package in place
     - replace it with an alternative package, or 
