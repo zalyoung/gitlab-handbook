@@ -34,7 +34,7 @@ SA prospect/customer activity is recorded into `Task` objects within Salesforce 
   - **Related To** - Search for and set this to the Salesforce `Opportunity` associated with the activity.
   - **Name**  - Please search for and populate the `Name` field with a prospect/customer contact existing in Salesforce that was part of the activity.   <i>`Name` is currently a single select field. Choose any contact that was part of the meeting, if possible. In the future, we may have the ability to select multiple contacts.</i>
   - **Subject**  - High-level description of the activity. Usually, the subject of the calendar event for this activity is appropriate.
-  - **[SA] Activity Type** - Choose the type(s) of activity for this customer/prospect interaction  (ie. Demo, POV Related, Presentation/Pitch). For description of each activity type, refer to [this page](/handbook/solutions-architects/processes/activity-capture/activity-desc).
+  - **[SA] Activity Type** - Choose the type(s) of activity for this customer/prospect interaction  (ie. Demo, POV Related, Presentation/Pitch). For description of each activity type, refer to  to the [Enterprise and Commercial SA Activity Types](#enterprise-and-commercial-sa-activity-types) section below.
   - **Products Positioned** (Optional) - Select the products that were either positioned directly within a Demo, Pitch, or aligned to product capabilities within a Close Plan.  If the call was a discovery call, please select which product(s) would best be positioned in future calls. 
   - **Persona Levels** (Optional if unknown) - Select the customer/prospect participants' levels in this activity. Current options include: `Individual Contributor, Manager/Director, Executive` _Note: Executive should be used for any VP, C-level or the Economic Buyer_
   - **Persona Functions** (Optional if unknown) - Select the customer/prospect functions represented during the activity (ie. Development, Security, DevOps)
@@ -43,13 +43,13 @@ SA prospect/customer activity is recorded into `Task` objects within Salesforce 
 
 #### Activity type description
 
-All activities should fall into one of the categories described in the [activity type descriptions](/handbook/solutions-architects/processes/activity-capture/activity-desc)
+All activities should fall into one of the categories described in the [Enterprise and Commercial SA Activity Types](#enterprise-and-commercial-sa-activity-types) below.
 
 #### Example Activity Description
 
 ```markdown
-We provided a SCM and CI/CD demo for the head of application development, Homer Simpson, that was well-received.  His team is responsible for building a suite of catalog services and API for their partner merchants.  They are using Spring Boot to develop microservices and struggling with deployment consistency and complexity.  As a next step, we are scheduling a review of their current path to production.
-More detailed notes are here: <link to detailed notes>
+We provided a SCM and CI/CD demo for the head of application development, Peter Floss, that was well-received.  His team is responsible for building a suite of catalog services and API for their partner merchants.  They are using Spring Boot to develop microservices and struggling with deployment consistency and complexity.  As a next step, we are scheduling a review of their current path to production.
+More detailed notes are here: <link to notes document bookmark>
 ```
 
 ### Collaborating on an Update
@@ -83,7 +83,7 @@ This [tutorial](https://help.gorattle.com/en/collections/3196824-workflows) expl
 Select these types when capturing activities by Enterprise and Commercial SA teams.
 
 - **Customer No Show** - The SA has the opportunity to log an activity for a scheduled client meeting whereby the customer has not attended. In collaboration with the SAE/AE/Channels Manager, the SA should try to understand the underlying reason for the customers absence and record under the [SA] Activity Description.
-- **Customer Strategy Plan Review** - Collaborative session between SA and a customer identifying and documenting business stakeholders, high-impact strategic requirements and key technologies, the current state of their technology ecosystem, current and desired capabilities, operational alignment with strategic objectives, and perceived gaps and deficiencies in current capabilities. See [process description](/handbook/solutions-architects/processes/index.html#customer-strategy-planning) for details. When reporting this activity a link to the latest Customer Strategy Plan must be included.
+- **Customer Strategy Plan Review** - (Note: While this activity type still uses the legacy name "Customer Strategy Plan", it refers to Customer Success Plan activities) Collaborative session between SA and a customer identifying and documenting business stakeholders, high-impact strategic requirements and key technologies, the current state of their technology ecosystem, current and desired capabilities, operational alignment with strategic objectives, and perceived gaps and deficiencies in current capabilities. See [Customer Success Plans](/handbook/solutions-architects/processes/activity-capture/customer-success-plans) for details. When reporting this activity a link to the latest Customer Success Plan must be included.
 - **Demo** - The SA can record the activity when a planned GitLab product demonstration has been
 delivered to the client. In the [SA] Activity Description field in Rattle, the SA should
 also refer to insights around the demonstration purpose and area of product walkthrough. Options could be a full high-level end-to-end GitLab overview, or a specific GitLab stage demonstration, a partial GitLab platform overview or a very specific technical deep dive into the product.

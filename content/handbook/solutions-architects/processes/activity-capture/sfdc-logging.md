@@ -14,11 +14,13 @@ Solutions Architects are responsible for maintaining several key fields in Sales
 ### Primary Fields
 
 1. **Primary SA**
+
    - The primary Solutions Architect assigned to and working on the opportunity
    - Must be updated whenever SA assignment changes
    - Critical for accurate reporting and accountability
 
 2. **SA Validated Tech Evaluation Start Date**
+
    - Marks the beginning of serious technical evaluation
    - Should reflect when customer explicitly starts evaluation of value
    - Requirements:
@@ -28,6 +30,7 @@ Solutions Architects are responsible for maintaining several key fields in Sales
    - Special note for Commercial: Should reflect trial start date when SA is engaged
 
 3. **SA Validated Tech Evaluation End Date**
+
    - Marks the conclusion of technical evaluation
    - Should be set when evaluation is complete (win/loss) or stalled
    - Independent of final deal outcome
@@ -35,17 +38,20 @@ Solutions Architects are responsible for maintaining several key fields in Sales
 
 4. **SA Validated Tech Evaluation Close Status**
    Options include:
+
    - **Win**: Customer agrees GitLab meets requirements
    - **Loss**: Customer choosing alternative solution
    - **Stalled**: No active evaluation for 2+ weeks
    
 5. **SA Validated Tech Evaluation Close Details**
+
    - 1-2 line description explaining the close status
    - Should provide clear context for the outcome
 
 ### Technical Health Fields
 
 1. **SA Feasibility Rating**
+
    - A technical health assessment of the opportunity using a simple rating:
      - Green: Strong technical fit and alignment
      - Yellow: Some concerns or challenges to address
@@ -54,12 +60,14 @@ Solutions Architects are responsible for maintaining several key fields in Sales
    - Drives technical forecasting accuracy
 
 2. **SA Feasibility Details**
+
    - Detailed commentary explaining the Feasibility Rating
    - Should include specific technical challenges or risks
    - Used to provide context for the rating
    - Helps align Sales and Pre-Sales understanding
 
 3. **SA Feasibility Review Date**
+
    - Automatically updates when Feasibility Rating or Details change
    - Shows when the last technical review occurred
    - Helps ensure assessments stay current
@@ -68,11 +76,13 @@ Solutions Architects are responsible for maintaining several key fields in Sales
 ### Related Fields
 
 1. **POV Status and Details**
+
    - Required when a Proof of Value is part of the engagement
    - Must be maintained throughout the POV process
    - For complete details, see the [POV tracking guide](/handbook/solutions-architects/tools-and-resources/pov/#tracking-a-pov-in-salesforce)
 
 2. **Customer Success Plan**
+
    - Required for all opportunities $300k+ Net ARR where an SA is meaningfully engaged
    - Must be populated with a link to the plan document
    - Plan should be continuously developed and updated throughout the opportunity lifecycle until deal closure
@@ -88,6 +98,7 @@ Solutions Architects are responsible for maintaining several key fields in Sales
 ### Relationship with Rattle Activity Logging
 
 While these Salesforce fields must be updated directly in Salesforce, activity tracking (which appears as Tasks in Salesforce) can be logged through Rattle:
+
 - Via Rattle notifications after meetings
 - Using the `/Rattle <opportunity name>` command in Slack
 - Through the "Update Opportunity" button in Rattle
@@ -99,16 +110,19 @@ For detailed instructions on activity logging through Rattle, see [Activity Base
 ### Field Updates
 
 1. **Timing**
+
    - Update fields in real-time when possible
    - Don't backdate unless absolutely necessary
    - Keep current even if opportunity is early stage
 
 2. **Accuracy**
+
    - Be precise with dates
    - Use clear, concise descriptions
    - Maintain consistency across opportunities
 
 3. **Completeness**
+
    - Fill all required fields
    - Don't leave fields blank or TBD
    - Include relevant context
@@ -116,16 +130,19 @@ For detailed instructions on activity logging through Rattle, see [Activity Base
 ### Common Scenarios
 
 1. **Multiple SAs**
+
    - Only one Primary SA
    - Others tracked through activity logging
    - Clear handoff process when changing Primary SA
 
 2. **Stalled Evaluations**
+
    - Mark as stalled after 2 weeks of inactivity
    - Update status if evaluation resumes
    - Document reason in close details
 
 3. **Commercial Trials**
+
    - Align with trial dates
    - Must have SA engagement
    - Track through completion
