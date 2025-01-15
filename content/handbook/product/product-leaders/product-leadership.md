@@ -46,7 +46,6 @@ The [Monthly Kick-Off](https://about.gitlab.com/direction/kickoff/#overview) is 
 | 2026-01-15 | Hillary Benson | - |
 | 2026-02-18 | Mike Flouton | - |
 
-
 ## Product Leadership ReadMe's
 
 Below you'll find the ReadMe's for our Product Division leaders who manage teams.
