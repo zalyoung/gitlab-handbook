@@ -173,7 +173,7 @@ build:
     - echo -e "\e[0Ksection_start:`date +%s`:group7\r\e[0KGroup 7"
     - find "public" -type f -name '*.html' -exec sed -i -e "s/content-sites\/handbook\/${PAGES_PREFIX}\/content-sites\/handbook\/${PAGES_PREFIX}/content-sites\/handbook\/${PAGES_PREFIX}/g" {} +
     - echo -e "\e[0Ksection_end:`date +%s`:group7\r\e[0K"
-    - echo "Base URL ${CI_PAGES_URL}/$PAGES_PREFIX"
+    - echo "Base URL ${CI_PAGES_URL}/$PAGES_PREFIX/"
     - echo "Verify base URL ${HUGO_BASEURL}"
   artifacts:
     paths:
@@ -184,7 +184,7 @@ build:
   - <<: *merge-request-only
     variables:
       PAGES_PREFIX: 'mr$CI_MERGE_REQUEST_IID'
-      HUGO_BASEURL: "${CI_PAGES_URL}/${PAGES_PREFIX}"
+      HUGO_BASEURL: "${CI_PAGES_URL}/${PAGES_PREFIX}/"
 
 ###################################
 #
@@ -205,7 +205,7 @@ pages:
     paths:
       - public
   script:
-    - echo "Base URL ${CI_PAGES_URL}/$PAGES_PREFIX"
+    - echo "Base URL ${CI_PAGES_URL}/$PAGES_PREFIX/"
     - echo "Pages accessible through ${HUGO_BASEURL}"
   rules:
     - <<: *default-branch
