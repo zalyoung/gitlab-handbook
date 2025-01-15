@@ -319,14 +319,13 @@ It is **absolutely essential** that managers complete the required pre-work to e
 - Review the team member's own [Self-Evaluation](#team-member-self-evaluations)  if they have completed one, if they wished to complete one.
 - Review the Job Family/Families that will be calibrated in detail
 - Review our competencies
-  - [Talent Assessment Training in LevelUp](https://levelup.gitlab.com/access/saml/login/internal-team-members?returnTo=https://levelup.gitlab.com/learn/course/talent-assessment)
+  - [Talent Assessment Training](https://university.gitlab.com/access/saml/login/internal-team-members?returnTo=https://university.gitlab.com/learn/course/fy26-talent-assessment-training)
   - [Job frameworks](/handbook/company/structure/#job-frameworks)
   - [High Performing Team Indicators](/https://internal.gitlab.com/handbook/company/high-performing-teams/?search=values#high-performing-teams-indicators)
   - [Values competencies](/handbook/people-group/competencies/#values-competencies)
   - [Remote work competencies](/handbook/people-group/competencies/#remote-work-competencies)
   - [Functional competencies](/handbook/people-group/competencies/#functional-competencies) *(if applicable)*
 - Review our [Unconscious Bias](/handbook/company/culture/inclusion/unconscious-bias/) handbook page and consider watching our [Recognizing Bias Training](/handbook/company/culture/inclusion/unconscious-bias/#recognizing-bias-training) if you haven't already.
-- Review the [Performance/Growth Potential Matrix Training Information](https://docs.google.com/presentation/d/151ys8xkOak9ifU9IPXQydZ44sb_BoMpMocWmjVonLHE/edit), which delves into definitions for each box.
 - Determine the appropriate box for each of your team members
 - Add notes for each of your team members to the agenda, at least 12 hours before the session
   - An example of notes could include:
@@ -360,7 +359,7 @@ After the calibration sessions the performance and growth potential outcomes can
 Below is the high level timeline for the formal assessment beginning in Q4 FY25 (January). Different departments may have additional due dates built into the high level timeline, so please follow up with your [People Business Partner](/handbook/people-group#people-business-partner-alignment-to-division) if you have any questions.
 
 - **2025-01-27:** Kick off Optional Self-Evaluation cycle for all Team Members
-- **2025-02-06:** Due date for all Self-Evaluations
+- **2025-02-07:** Due date for all Self-Evaluations
 - **2025-02-10:** Managers begin to review their team members self evaluations and gather feedback. Workday Calibration cycle opens and Calibration discussions occur
 - **2025-02-28:** 5:00pm PST Workday Calibration will be locked
 - **2025-03-03**: Kick off the Manager Evaluation cycle in Workday
