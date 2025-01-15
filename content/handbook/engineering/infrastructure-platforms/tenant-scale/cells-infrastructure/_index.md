@@ -24,6 +24,20 @@ Sometimes we'll need to track issues contained in the `gitlab-org` top-level gro
 
 Having two issue boards is not ideal and is a result of our recent reorganization into the Infrastructure Platforms department. Our long-term goal is to minimize the amount of issues that we need to track in the `gitlab-org` group and to primarily use the team's issue tracker in `gitlab-com/gl-infra/tenant-scale/cells-infrastructure/team`. 
 
+##### Workflow Label Mappings
+
+The following are the `workflow::*` and `workflow-infra::*` labels that we use and how they map to each other.
+
+| `gitlab-org` issues | `gitlab-com/gl-infra` issues | 
+| ---------- | ------------------  |
+| ~workflow::refinement | ~workflow-infra::Triage |
+| ~workflow::ready for development | ~workflow-infra::Ready |
+| ~workflow::in dev | ~workflow-infra::In Progress |
+| ~workflow::in review | ~workflow-infra::Under Review |
+| ~workflow::blocked | ~workflow-infra::Blocked |
+| ~workflow::verification | ~workflow-infra::Verify |
+| ~workflow::complete | ~workflow-infra::Done |
+
 #### Blocked Issues
 
 We use the following guidelines for denoting when an issue is blocked:
