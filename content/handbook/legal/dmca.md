@@ -23,9 +23,9 @@ Submissions under this DMCA Policy should be sent to dmca@gitlab.com.
 
 We will review your submission and take whatever action we deem appropriate under the DMCA, including the removal of the challenged content from the website. Furthermore, we may, in appropriate circumstances, disable access or terminate the account(s) of the reported user(s).
 
-## DMCA Counter Notice requirements
+## DMCA counter-notice requirements
 
-The owner of the allegedly-infringing content may submit a DMCA Counter-Notice to dmca@gitlab.com. The Counter-Notice must comply with the requirements of the DMCA, and must include the following:
+The owner of the allegedly-infringing content may submit a DMCA counter-notice to dmca@gitlab.com. The counter-notice must comply with the requirements of the DMCA, and must include the following:
 
 1. **Contact Information.** Your name, title (if acting as an agent), physical address, email address, and phone number;
 1. **Content Identification.** A reasonable identification of the material that has been removed or to which access has been blocked;
@@ -39,7 +39,7 @@ The owner of the allegedly-infringing content may submit a DMCA Counter-Notice t
 We will review the counter-notice, and:
 
 - if the counter-notice doesn't satisfy the DMCA requirements, we'll request a revised submission; or
-- if the counter-notice is complete and valid, we'll forward the counter notice to the person who filed the original takedown notice, advising that the challenged content will be reinstated within 10-14 business days, unless we receive a notification that the copyright owner is seeking a court order regarding this matter.
+- if the counter-notice is complete and valid, we'll forward the counter-notice to the person who filed the original takedown notice, advising that the challenged content will be reinstated within 10-14 business days, unless we receive a notification that the copyright owner is seeking a court order regarding this matter.
 
 ## Anti-Circumvention Technology
 
