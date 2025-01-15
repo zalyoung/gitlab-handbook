@@ -123,9 +123,6 @@ In these videos, we run through the GitLab Handbook with experts, uncovering how
 
 ## Editing the handbook locally
 
-If you want to install a local version of the website to test and preview things locally,
-see the [handbook project readme](https://gitlab.com/gitlab-com/content-sites/handbook/-/tree/main) for instructions on how to set it up.
-
 1. Set up an [SSH key](https://docs.gitlab.com/ee/user/ssh.html) to use with GitLab, if you have not previously done so.
 1. [Set up Git](https://docs.gitlab.com/ee/topics/git/commands.html) and clone the appropriate repository, such as the [public handbook](https://gitlab.com/gitlab-com/content-sites/handbook).
 1. Use your editor of choice to make changes. If you use [Visual Studio Code](https://code.visualstudio.com/download) optionally along with the [GitLab Workflow extension for VS Code](https://docs.gitlab.com/ee/editor_extensions/visual_studio_code/), you can follow the [Web IDE editing instructions](#use-the-web-ide-to-edit-the-handbook).
@@ -135,6 +132,9 @@ see the [handbook project readme](https://gitlab.com/gitlab-com/content-sites/ha
 Additional notes:
 
 1. We don't need [.gitkeep files](https://stackoverflow.com/questions/7229885/what-are-the-differences-between-gitignore-and-gitkeep) in our handbook, they make it harder to quickly open a file in editors. Don't add them, and delete them when you see them.
+
+If you want to install a local version of the website to test and preview things locally,
+see the [handbook development page](https://handbook.gitlab.com/docs/development/#run-the-handbook-locally-for-edits) for instructions on how to set it up.
 
 ## Preview changes on GitLab
 
@@ -153,7 +153,7 @@ For more information about how the review apps are configuration for the handboo
 
 ## Naming pages and folder structure
 
-The site uses the concept of page bundles, sections, and leaf pages.  A section can have multiple leaf pages, which requires a `_index.md` for the section.  A page bundle is a single page with a group of images, requires an `index.md`.
+The site uses the concept of page bundles, sections, and leaf pages.  A section can have multiple leaf pages, which requires a `_index.md` for the section.  A page bundle is a single page with a group of images, which can be an `index.md`.
 
 In general, Handbook URLs should describe their content and be as clean and easy to remember as possible.
 
@@ -195,7 +195,7 @@ section-dir/
 If you delete, rename, or move a page, you should:
 
 1. [update all existing links](practical-handbook-edits.md#find-and-replace-a-string-in-all-matching-files) in the handbook **and** internal handbook.
-   - Note: When searching for links, use the page name. Sometimes links use references or relative links, meaning it doesn't use the full path.
+   - Note: When searching for links, use the page name. Sometimes links use page-relative links, meaning it doesn't use the full path.
    - Please also consider searching for and updating handbook links in other places, such as [docs](https://docs.gitlab.com) and project templates in [gitlab-com](https://gilab.com/gitlab-com) and [gitlab-org](https://gitlab.com/gitlab-org).
 1. [add a redirect](https://handbook.gitlab.com/docs/development/#redirects).
 
@@ -209,7 +209,7 @@ The list is generated from the `CODEOWNERS` file in the relevant repository, suc
 - The list is generated based on the most specific path:
 
   - If users are specified for a directory and then for a specific page in that directory,
-    the list includes the users for the specific page.
+    the list only includes the users for the specific page.
   - If groups or subgroups are listed for a specific page without any specific users,
     the list of maintainers is empty.
 
@@ -258,11 +258,16 @@ The other pages will not display.
 
 See [pages and folder structure](#naming-pages-and-folder-structure) for more information.
 
+### Images not loading properly
+
+If you added new images and they are not loading properly in your review app, please review the
+[Images section of the markdown guide](https://handbook.gitlab.com/docs/markdown-guide/#images).
+
 ### Failing pipelines
 
 To see why your pipeline is failing, there are two main places to look:
 
-1. The latest comment by the bot on your merge request. Mainly covers markdown errors.
+1. The latest comment by the bot on your merge request. It should have a list of all linter errors. However, build errors do not generate a comment.
 1. Individual failed jobs. On the MR > "Pipelines" tab > select any red circle > select a failed job. Error messages are near the bottom of the job log and start with `Error`.
 
 In the job log, error messages typically provide you:
@@ -288,38 +293,36 @@ If the problem was on the `main` branch, you may need to [rebase](https://docs.g
 
 If you're unsure, you can [reach out for help](#need-help).
 
-### Resolving linting errors
+#### Link and anchor errors
 
-To the ensure consistency, quality and correctness of the GitLab Handbook we use various linting jobs that run as part of the pipeline. These jobs check that everything is as it should be, and if they detect something is wrong will cause the pipeline to fail.
+There is a linter (Hugolint) that validates links and anchors across the handbook. If your change introduces _new_ broken links, then the pipeline job will fail. Follow the instructions in the [previous failing pipelines section](#failing-pipelines) for how to find the list of errors.
 
-### Prettier is formatting markdown files
+There are two main reasons it will fail:
 
-If you have `prettier` set up in VS Code and it is formatting the `.md` files when they are not supposed to, check if you have Prettier set to be your default formatter with `"editor.defaultFormatter": "esbenp.prettier-vscode"` in your user settings.
+1. Content added in the MR includes a broken link.
+1. Content changed in the MR brakes an existing link.
 
-Additionally, consider using the [Glob Pattern](https://code.visualstudio.com/api/references/vscode-api#GlobPattern) in the extension settings to specify which files to prettify automatically.
+Here's an example of a failed `hugolint` job error message when viewed in the job log:
 
-### Links and anchors errors
+```
+Newly broken (only in "linkcheck.json", 3 issues):
+❌ [content/handbook/security/product-security/_index.md:43]: <major> Link destination "architecture/" does not exist
+❌ [content/handbook/security/product-security/security-architecture/_index.md:269]: <major> Link destination "/handbook/business-technology/tech-stack/#panther" does not exist
+❌ [content/handbook/security/product-security/security-architecture/zero-trust.md:45]: <major> Link destination "/handbook/security/corporate/systems/#laptop-or-desktop-system-configuration" does not exist
+```
 
-There is a special linter that validates links and anchors across the handbook. If your change accidentally breaks a link, then the pipeline job will fail with a similar error message.
-
-![Link linter error](/images/about/link-linter-error.png)
-
-1. It is a path to the file where the broken link was detected.
-    (file path - `sites/handbook/source/handbook/total-rewards/benefits/general-and-entity-benefits/pty-benefits-australia/index.html.md`, line number: 87)
-1. It is an error message. An anchor `expense-reimbursement` is defined in the file path from step 1 but does not exist in the file path from step 3.
-1. It is a path where the header `Expense Reimbursement` needs to be defined. (file path - `sites/handbook/source/handbook/finance/spending-company-money/index.html.md`)
-
-**How to fix the problem**
-
-Double-check that header `Expense Reimbursement` exists in `sites/handbook/source/handbook/finance/spending-company-money/index.html.md`.
-
-If it was moved or renamed, then update the link with the anchor to point to the correct location.
+1. The error starts with the file where the broken link is present, followed by the line number.
+   (For example, file path - `content/handbook/security/product-security/_index.md`, line number: 43.)
+1. The link destination is the link itself. (For example, `architecture/`.).
+1. If what does not exist is an anchor (for example, `#panther`):
+   1. Did the MR change a heading that is being linked to? If so, you'll need to update the linked anchor to match the new heading.
+   1. If you're linking to a heading, does it exists? Check the file in the repository instead of on the website. The links are checked pre-build, so generated content (from shortcodes and includes) don't "exist" for the link checker.
+      - If the page you're linking to has a large amount of generated content (such as performance indicator pages), you can [add an exclusion to `hugolint`](https://gitlab.com/gitlab-com/content-sites/handbook-tools/hugolint/#configuration) in the relevant configuration file.
 
 ### Fixing default branch errors
 
 MR pipelines should catch almost all errors before they are merged into the relevant repository.
-However, the handbook (and some other projects) pull data from `www-gitlab-com` `yml` files,
-which are currently not fully checked by the pipeline.
+The handbook projects also pull data from `www-gitlab-com` `yml` files.
 
 If the default branch `main` (for public and internal handbook) or `master` (for `www-gitlab-com`)
 is "broken" and pipelines are failing for everyone, the root issue is most likely a data file error.
@@ -337,7 +340,7 @@ is "broken" and pipelines are failing for everyone, the root issue is most likel
 
 #### Example: Fixing broken main on tech writing shortcode
 
-Take this [example error](https://gitlab.com/gitlab-com/content-sites/handbook/-/jobs/5968799321#L123):
+Consider this [example error](https://gitlab.com/gitlab-com/content-sites/handbook/-/jobs/5968799321#L123):
 
 ```plain
 Error: error building site: failed to render shortcode: "/builds/gitlab-com/content-sites/handbook/content/handbook/product/ux/technical-writing/_index.md:126:1": failed to render shortcode "tech-writing": failed to process shortcode: "/builds/gitlab-com/content-sites/handbook/layouts/shortcodes/tech-writing.html:16:28": execute of template failed: template: shortcodes/tech-writing.html:16:28: executing "shortcodes/tech-writing.html" at <ref page (printf "/handbook/product/categories#%s-section" $section)>: error calling ref: parse "/handbook/product/categories#%!s(<nil>)-section": invalid URL escape "%!s"
@@ -346,11 +349,11 @@ Error: error building site: failed to render shortcode: "/builds/gitlab-com/cont
 Following the error trace, notice that the last error with a full path and line number is:
 `failed to process shortcode: "/builds/gitlab-com/content-sites/handbook/layouts/shortcodes/tech-writing.html:16:28"`.
 
-Looking [at the file](https://gitlab.com/gitlab-com/content-sites/handbook/-/blob/114d8f9bf00342360be14dce8cf6e55e1d8a6edd/layouts/shortcodes/tech-writing.html#L16),
+Looking [at the `tech-writing` shortcode](https://gitlab.com/gitlab-com/content-sites/handbook/-/blob/114d8f9bf00342360be14dce8cf6e55e1d8a6edd/layouts/shortcodes/tech-writing.html#L16),
 the issue is an unexpected value in `printf "/handbook/product/categories#%s-section" $section`,
 which matches the last part of the error message.
 
-From there, [line 11](https://gitlab.com/gitlab-com/content-sites/handbook/-/blob/114d8f9bf00342360be14dce8cf6e55e1d8a6edd/layouts/shortcodes/tech-writing.html#L11)
+From there, [line 11 of the `tech-writing` shortcode](https://gitlab.com/gitlab-com/content-sites/handbook/-/blob/114d8f9bf00342360be14dce8cf6e55e1d8a6edd/layouts/shortcodes/tech-writing.html#L11)
 tells us that the data is from `site.Data.public.stages.stages "section"`.
 
 If you have a local build of the site, you can find all the data files in the `data/public` folder.
@@ -374,10 +377,11 @@ in the public handbook project.
 
 In this case, [the handbook code was made more robust](https://gitlab.com/gitlab-com/content-sites/handbook/-/merge_requests/2820/diffs).
 
-### Images not loading properly
+### Prettier is formatting markdown files
 
-If you added new images and they are not loading properly in your review app, please review the
-[Images section](https://handbook.gitlab.com/docs/markdown-guide/#images) of the markdown guide.
+If you have `prettier` set up in VS Code and it is formatting the `.md` files when they are not supposed to, check if you have Prettier set to be your default formatter with `"editor.defaultFormatter": "esbenp.prettier-vscode"` in your user settings.
+
+Additionally, consider using the [Glob Pattern](https://code.visualstudio.com/api/references/vscode-api#GlobPattern) in the extension settings to specify which files to prettify automatically.
 
 ## Additional tips
 
@@ -387,8 +391,8 @@ For additional tips, such as how to replace strings in files, refer to the [prac
 
 If you run into trouble editing the GitLab Handbook, help is available.
 
-Team members, referred to as [MR Buddies](/handbook/people-group/general-onboarding/mr-buddies/), are available to help you create a merge request or debug any problems you might run into while updating the GitLab Handbook. Some common questions are covered in the videos in the [MR Buddies playlist](https://www.youtube.com/playlist?list=PL05JrBw4t0KrCVFOwSGW6M3k16yLtPO1M). Post your request with a link in the [mr-buddies](https://gitlab.slack.com/archives/CLM8K5LF4/p1678812429884979) Slack channel.
+Team members, referred to as [MR Buddies](/handbook/people-group/general-onboarding/mr-buddies/), are available to help you create a merge request or debug any problems you might run into while updating the GitLab Handbook. Some common questions are covered in the videos in the [MR Buddies playlist](https://www.youtube.com/playlist?list=PL05JrBw4t0KrCVFOwSGW6M3k16yLtPO1M). Post your request with a link in the [`#mr-buddies`](https://gitlab.slack.com/archives/CLM8K5LF4/p1678812429884979) Slack channel.
 
 For general questions about the handbook, post in the [handbook Slack channel](https://gitlab.enterprise.slack.com/archives/C81PT2ALD).
 
-For more serious problems, especially ones that are time sensitive or prohibiting access to important information, there is an [escalation process](/handbook/about/escalation/#when-to-escalate-an-issue) to reach out to team members who are able to help resolve the problem.
+For more serious problems, especially ones that are time sensitive or prohibiting access to important information, there is an [escalation process](../escalation.md#when-to-escalate-an-issue) to reach out to team members who are able to help resolve the problem.
