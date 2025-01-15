@@ -85,7 +85,7 @@ Capturing various types of data helps us build a comprehensive understanding of 
 
 ### 4. **Customer Success Plans [Required]**
 
-- **Overview**: 
+- **Overview**: Customer Success Plans bridge pre-sales and post-sales activities by documenting technical evaluation criteria, implementation roadmaps, and success metrics. These plans serve as the foundation for customer engagements, ensuring alignment between GitLab and customer objectives while providing clear documentation that guides both evaluation and implementation phases.
 - **Details**: [Customer Success Plans Guide](/handbook/solutions-architects/processes/activity-capture/customer-success-plans)
 
 Each type of data capture plays a crucial role in building a detailed and actionable knowledge base. For more information on how to perform each type of data capture, please refer to the linked guides.

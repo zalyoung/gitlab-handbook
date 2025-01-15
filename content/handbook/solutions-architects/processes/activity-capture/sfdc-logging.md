@@ -7,7 +7,7 @@ description: >-
 
 ## Overview
 
-Solutions Architects are responsible for maintaining several key fields in Salesforce to ensure accurate tracking of technical evaluations, customer engagements, and opportunity progress. This guide outlines the required fields and best practices for maintaining them.
+Solutions Architects are responsible for maintaining several key fields in Salesforce to ensure accurate tracking of technical evaluations, customer engagements, and opportunity progress. These fields provide critical visibility into technical evaluations and work in conjunction with Rattle activity logging and Gong interaction tracking to create a complete picture of customer engagement. This guide outlines the required fields and best practices for maintaining them.
 
 ## Required Fields
 
@@ -43,12 +43,56 @@ Solutions Architects are responsible for maintaining several key fields in Sales
    - 1-2 line description explaining the close status
    - Should provide clear context for the outcome
 
+### Technical Health Fields
+
+1. **SA Feasibility Rating**
+   - A technical health assessment of the opportunity using a simple rating:
+     - Green: Strong technical fit and alignment
+     - Yellow: Some concerns or challenges to address
+     - Red: Significant technical challenges or misalignment
+   - Required for accurate opportunity health tracking
+   - Drives technical forecasting accuracy
+
+2. **SA Feasibility Details**
+   - Detailed commentary explaining the Feasibility Rating
+   - Should include specific technical challenges or risks
+   - Used to provide context for the rating
+   - Helps align Sales and Pre-Sales understanding
+
+3. **SA Feasibility Review Date**
+   - Automatically updates when Feasibility Rating or Details change
+   - Shows when the last technical review occurred
+   - Helps ensure assessments stay current
+   - No manual updates required - system maintained
+
+### Related Fields
+
+1. **POV Status and Details**
+   - Required when a Proof of Value is part of the engagement
+   - Must be maintained throughout the POV process
+   - For complete details, see the [POV tracking guide](/handbook/solutions-architects/tools-and-resources/pov/#tracking-a-pov-in-salesforce)
+
+2. **Customer Success Plan**
+   - Required for all opportunities $300k+ Net ARR where an SA is meaningfully engaged
+   - Must be populated with a link to the plan document
+   - Plan should be continuously developed and updated throughout the opportunity lifecycle until deal closure
+   - See [Customer Success Plans](/handbook/solutions-architects/processes/activity-capture/customer-success-plans) for more details
+
 ### When to Update Fields
 
 - Update fields as soon as status changes occur
 - Don't wait until opportunity closes
 - Keep fields current for accurate reporting
 - Update through Rattle or directly in Salesforce
+
+### Relationship with Rattle Activity Logging
+
+While these Salesforce fields must be updated directly in Salesforce, activity tracking (which appears as Tasks in Salesforce) can be logged through Rattle:
+- Via Rattle notifications after meetings
+- Using the `/Rattle <opportunity name>` command in Slack
+- Through the "Update Opportunity" button in Rattle
+
+For detailed instructions on activity logging through Rattle, see [Activity Based Logging Guide](/handbook/solutions-architects/processes/activity-capture/activity-logging).
 
 ## Best Practices
 
