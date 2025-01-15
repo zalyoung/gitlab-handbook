@@ -258,4 +258,4 @@ The manager will inform the team and relevant stakeholders about the temporary c
 
 Conduct a Debriefing: The manager will meet with the team member to review the progress made, any challenges encountered, and the outcomes of decisions made in their absence.
 
-For more tips, check [returning from pto](/handbook/paid-time-off/#returning-from-pto).
+For more tips, check [returning from pto](/handbook/people-group/paid-time-off/#returning-from-pto).
