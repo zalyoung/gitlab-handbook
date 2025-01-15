@@ -117,5 +117,5 @@ Finance team members have a high workload and may not be able to complete a full
 | Start Date | End Date |Shadow Name |
 |----|---------|--------|
 | Tuesday 2025-01-21 | Thursday 2025-01-23 | Stacy Cline |
-| Tuesday 2025-03-18 | Thursday 2025-03-20 | Available |
+| Tuesday 2025-03-18 | Thursday 2025-03-20 | Vikas Agrawal |
 | Tuesday 2025-03-25 | Thursday 2025-03-27 | Available |
