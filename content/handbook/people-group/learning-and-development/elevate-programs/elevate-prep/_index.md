@@ -85,7 +85,7 @@ Attendance at all sessions is required for program completion. If you must miss 
 
 ### Where do I communicate questions or concerns about the program?
 
-When the program begins, you'll be added to a Slack group for your cohort. You can also reach out directly to your manager or the Learning and Development team in the #learninganddevelopmentchannel.
+When the program begins, you'll be added to a Slack group for your cohort. You can also reach out directly to your manager or the Learning and Development team in the #learninganddevelopment channel.
 
 ### Is Elevate Prep a prerequisite for the main Elevate program?
 
