@@ -11,7 +11,7 @@ The group supports the product
 - by migrating between GitLab instances and from other providers
 - with 3rd party integrations, REST APIs and GraphQL foundational code, and Webhooks.
 
-This page covers processes and information specific to the Import and Integrate group. See also the [group direction page](https://about.gitlab.com/direction/foundations/) and the [features we support per category](/handbook/product/categories/features/#manageimport-and-integrate-group).
+This page covers processes and information specific to the Import and Integrate group. See also the [group direction page](https://about.gitlab.com/direction/foundations/) and the [features we support per category](/handbook/product/categories/features/#import-and-integrate).
 
 ## How to reach us
 

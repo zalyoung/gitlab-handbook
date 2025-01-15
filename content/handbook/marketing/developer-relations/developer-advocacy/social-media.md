@@ -487,7 +487,7 @@ Developer Advocates will take the end-user point-of-view and help review the rel
 - Suggest promoting a feature to primary.
 - Add a feature from the Changelog, seeing huge impact or a missing addition.
 
-The first pilot experiment was established with our [Verify product group](/handbook/product/categories/verify/) for [GitLab 14.2 in August 2021](https://gitlab.com/gitlab-org/verify-stage/-/issues/97#note_664350725). The DRIs were @jreporter (Group Manager, Product) and @dnsmichi (DE stable counterpart).
+The first pilot experiment was established with our [Verify product group](/handbook/product/categories/#verify-stage) for [GitLab 14.2 in August 2021](https://gitlab.com/gitlab-org/verify-stage/-/issues/97#note_664350725). The DRIs were @jreporter (Group Manager, Product) and @dnsmichi (DE stable counterpart).
 
 ### Product Feedback
 
