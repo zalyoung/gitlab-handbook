@@ -266,7 +266,7 @@ Make attacks less attractive.
 
 - Enable [GuardDuty](https://aws.amazon.com/guardduty/) in AWS or [Cloud Audit Logs](https://cloud.google.com/logging/docs/audit?hl=en) in GCP to record activity and detect malicious
   intent.
-- Leverage [Panther](/handbook/business-technology/tech-stack/#panther) (for gitlab.com only) to collect, normalize, and analyze logs.
+- Leverage a SIEM (Devo for gitlab.com) to collect, normalize, and analyze logs.
 - Provide notifications to users when:
   - Changes to their accounts
   - New keys generated or added to their accounts
