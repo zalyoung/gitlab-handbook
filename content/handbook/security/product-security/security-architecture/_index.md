@@ -1,5 +1,7 @@
 ---
 title: "Security Architecture"
+aliases:
+  - "/handbook/security/product-security/architecture/"
 ---
 
 <link rel="stylesheet" type="text/css" href="/stylesheets/biztech.css" />
@@ -360,7 +362,7 @@ aka Fail Safe Defaults.
 - Don't rely on a single point/layer of security:
   - Secure every level
   - Stop failures at one level propagating
-- [Encrypt data at rest](/handbook/security/product-security/vulnerability-management/encryption-policy/#encryption-at-rest) and [in transit](/handbook/security/product-security/vulnerability-management/encryption-policy/#encryption-in-transit)
+- Encrypt data at rest and in transit (according to [GitLab's encryption policy](/handbook/security/product-security/vulnerability-management/encryption-policy/#encryption))
 - Use vulnerability scanners
 - Close unnecessary ports and disable unused features
 
