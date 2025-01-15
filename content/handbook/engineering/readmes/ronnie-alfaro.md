@@ -29,7 +29,7 @@ Please feel free to contribute to this page by opening a merge request.
 * I like cooking and collecting recipes books from all the places I visit
   * My wife's most requested meals are Bánh mì and the russian borscht.
 * One time I was asked what was my secret to have a team doing so good, I said there is no secret, it is easy actually: ***Happy people work better***
-* I love spicy food, even completed the [Phaal Challenge](https://newyork.seriouseats.com/2008/06/brick-lane-curry-house-east-village-nyc-phaal-spiciest-indian-curry.html)
+* I love spicy food, even completed the [Phaal Challenge](https://web.archive.org/web/20201111171113/https://newyork.seriouseats.com/2008/06/brick-lane-curry-house-east-village-nyc-phaal-spiciest-indian-curry.html)
 * Most of the time you'll see me carrying my camera, and you can see some of my photos on my personal website.
 * I have 2 beautiful daughters, a lovely wife and we have a pet rabbit
 

@@ -129,7 +129,7 @@ The [Security Assurance Department]({{< ref "security-assurance" >}}) is compris
 
 GitLab is both a company and a product. The [Corporate Security](/handbook/security/corporate/) department focuses on implementing and protecting the information technology (IT) related systems that the company uses to conduct business internally, and provides the hardware, software, and tools that our team members and 3rd party service providers (aka contractors) need to be productive and get their job done efficiently. The configurations that we implement for team members internally are designed to protect our customers and their data.
 
-We have a 24x5 [technical support helpdesk](/handbook/security/corporate/support) for team members and have engineers that configure and maintain many of our company-wide [tech stack applications](/handbook/security/corporate/systems). 
+We have a 24x5 [technical support helpdesk](/handbook/security/corporate/support) for team members and have engineers that configure and maintain many of our company-wide [tech stack applications](/handbook/security/corporate/systems).
 
 We invest heavily in [device trust, identity management, and infrastructure governance](/handbook/security/corporate/team/#functional-org-chart) to provide the highest level of security assurance for the administrators of our product and ensure all appropriate controls are in place when handling customer data.
 

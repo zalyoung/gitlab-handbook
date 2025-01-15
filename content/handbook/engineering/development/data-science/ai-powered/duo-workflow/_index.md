@@ -24,6 +24,23 @@ Depending on the context here are the most appropriate ways to reach out to the 
 * Slack Channel: `#g_duo_workflow`
 * Slack Groups: `@duo-workflow` (entire team) and `@duo-workflow-engs` (just engineers)
 
+### Technical Components 🛠️
+
+Besides the main GitLab repository these are the key technical components we work with:
+
+1. [Duo Workflow Service](https://gitlab.com/gitlab-org/duo-workflow/duo-workflow-service) 🐍
+1. [Duo Workflow Executor](https://gitlab.com/gitlab-org/duo-workflow/duo-workflow-executor) 🏃‍♂️
+1. IDE Integration 🧩
+   1. [GitLab LSP](https://gitlab.com/gitlab-org/editor-extensions/gitlab-lsp)
+   1. [GitLab VS Code Extension](https://gitlab.com/gitlab-org/gitlab-vscode-extension)
+
+Additional projects that we mainly maintain:
+
+1. [Duo Workflow Tests](https://gitlab.com/gitlab-org/duo-workflow/testing/duo-workflow-tests)
+2. [Default Docker Image](https://gitlab.kkkcom/gitlab-org/duo-workflow/default-docker-image)
+
+For an understanding of how these components work together, take a look at the [architecture](/handbook/engineering/architecture/design-documents/duo_workflow/).
+
 ## 📦 Team Processes
 
 ### 📆 Regular team meetings
@@ -46,7 +63,7 @@ The Duo Workflow team is following a 2-week iteration process. All currently pri
 
 We aim for ambitious but achievable planning of the current iteration, and only issues in the current iteration should be actively worked on. If there are no more issues available reach out to the EM/PM of the team for clarification.
 
-The highest priority issues for the current iteration are marked as deliverable to make them easily identifiable. Not more than 30% of issues of an iteration should be marked that way, to make sure priority and focus stays clear.
+These are the workflow labels we work with:
 
 1. **Open**: As of yet unclassified issues, which need to be updated to one of the used workflow labels or meta issues such as iteration overview.
 1. **workflow::refinement**: Issues in this stage have been identified as important to be worked on but are not ready for development yet. This might be due to a variety of reasons such as missing or not finished designs or architectural questions that need to be clarified.
@@ -55,6 +72,12 @@ The highest priority issues for the current iteration are marked as deliverable 
 1. **workflow::in review**: After development is complete and submitted to be reviewed, the issue should be moved to this list.
 1. **workflow::verification**: Following a successful code and UX review, the issue should be moved to this list and the "verification" label should be applied.
 1. **Closed**: Once the issue is verified and confirmed to be working properly, it should be moved to this list, the "complete" label should be applied, and the issue should be closed.
+
+We use priority labels to help with understanding the order in which issues should be worked on:
+
+1. **DuoWF-Prio::1**: These items are the primary deliverables of an iteration and should therefore be picked up first.
+1. **DuoWF-Prio::2**: Ideally, all of these items are deliverd throughout the iteration as well.
+1. **DuoWF-Prio::3**: These are likely follow-up issues that might depend on Prio 1 or 2 work or other kinds of issues that are not yet time-sensitive.
 
 ## 👏 Communication
 
@@ -77,6 +100,7 @@ We operate using async communication by default. There are times when a sync dis
 
 * [Monthly Retros](https://gitlab.com/gl-retrospectives/data-science/ai-powered/duo-workflow)
 * [Duo Workflow troubleshooting](troubleshooting.md)
+* [LangGraph Workshop](https://gitlab.com/gitlab-org/duo-workflow/langgraph-workshop)
 
 ### 📝 Dashboards (internal only)
 

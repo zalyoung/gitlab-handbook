@@ -98,15 +98,18 @@ As of 2022-02-01, the Deal Desk team is structured as follows:
 
 ### Communicating with the Deal Desk Team
 
-#### Salesforce Chatter Communication
+#### Salesforce Communication
 
-Deal Desk's primary communication channel is Salesforce Chatter. When you chatter `@Sales-Support`, it will automatically create a case in the Deal Desk/Order Management queue.
+Deal Desk's primary communication process to request internal support is SFDC Cases. Support can be requested on the Opportunity Object in SFDC, by clicking on the "Request Support" button in the top right hand side of the page layout. Please reference the "[Requesting Internal Support](/handbook/sales/field-operations/requesting-internal-support/)" section in the Handbook for detailed instructions.
 
-- Always use `@Sales-Support` for SFDC requests or post `#sales-support` in Slack for general questions.
-  - Please do not tag Deal Desk team members directly in chatter or make a request through Slack direct message. This ensures our team is working as efficiently as possible and that you are covered in case the DD team member who replied first is unavailable.
-  - Direct chatters to team members will not create a case in the Sales Support case queue, and therefore will not be prioritized. You may experience a significant delay in response, or no response at all. Please always use `@Sales-Support` to communicate with the team in chatter.
-- If someone is working on a case, they will continue to support until the case is closed.  If an issue has been resolved, please chatter @Sales-Support to reopen a case.
-- If you tag @Sales-Support on an existing Chatter post/comment by editing it, that action won't generate a request to Deal Desk and we will not receive a notification. Please make sure tag Sales Support on an original post or on a new comment to the original post.
+For enablement on requesting Deal Desk Cases, please reference the [New Internal Support Request + Quote Approval Processes - 2024-11-21](https://gitlab.highspot.com/items/673f8c8deaa0ddae6c0b99f8) in HighSpot.
+
+- Always use the "Request Support" workflow on the Opportunity Object to create a case for Deal Desk. For general support, please use the `#sales-support` Slack channel for general questions.
+  - Please do not tag Deal Desk team members directly in chatter on an Account or Opportunity or make a request through Slack direct message. Only @mention someone directly on a case where they are the Case Owner. This ensures our team is working as efficiently as possible and that you are covered in case the DD team member who replied first is unavailable.
+  - Direct chatters on Account or Opportunities to team members will not create a case in the Deal Desk queue, and therefore will not be prioritized. You may experience a significant delay in response, or no response at all. Please always use the "Request Support" workflow on the Opportunity Object to create a case for Deal Desk.
+- If someone is working on a case, they will continue to support until the case is closed.  If an issue has been resolved but needs further support from the Deal Desk team, use the "Request Support" workflow on the Opportunity Object to create a new case for Deal Desk. Deal Desk will determine if the resolved case should be reopened, or if the newly created case will be used.
+
+- If you add any @ mention tag on an existing Chatter post/comment by editing it, that action may not generate a notification. If you fail to @ mention someone in your comment, just @ them in the thread instead of editing the comment. Please use the "Request Support" workflow on the Opportunity Object to create a case for Deal Desk.
 
 For cases related to Account Segmentation (ROE, Territory), account data, or account merges, Deal desk will reassign these cases to our Sales Operations team to review and resolve.
 
@@ -115,13 +118,13 @@ For cases related to Account Segmentation (ROE, Territory), account data, or acc
 ##### Primary Slack Channel**
 
 Use our Slack channel in case of general, non-record related requests and/or urgent questions:
-**#sales-support** [If the request is related to a quote, opportunity, or account - please chatter on the page in Salesforce instead of the Slack channel.]
+**#sales-support** [If the request is related to a quote or opportunity - please Request Support on the opportunity in Salesforce instead of the Slack channel.]
 
 ##### Slack Best Practices**
 
 **Please avoid contacting the DD team members directly via Slack.** Utlizing the `#sales-support` channel is best to ensure timely coverage, helps others who may have similar questions, and aligns with our **Transparency** value.
 
-In case of a specific opportunity or quote related question please use SF Chatter (see section [Salesforce Chatter Communication](#salesforce-chatter-communication))
+In case of a specific opportunity or quote related question please Request Support on the Opportunity level.
 
 ##### Slack Announcements
 
@@ -149,13 +152,13 @@ Supported topics include:
 
 Deal Desk AMA's are an opportunity to invite someone from Deal Desk to your local team call. We can help address any questions regarding quote processes, best practices, or unique deal structures. Think of this as an opportunity for your team to learn together on general topics for quoting or opportunity management. For specific questions related to in-flight opportunities, it is best to join [Deal Desk Office Hours](/handbook/sales/field-operations/sales-operations/deal-desk/#deal-desk-office-hours).
 
-Chatter or Slack #sales-support if you are interested in having Deal Desk join your team call!
+Requeat Support (creating a case) or Slack #sales-support if you are interested in having Deal Desk join your team call!
 
 ### Key Performance Indicators
 
 #### 1. Deal Desk  Case SLAs
 
-The Deal Desk team will do their best to respond to each request to '@sales-support' within 6 business hours. Revenue generating or current quarter requests will take priority, especially during Month & Quarter End. If a task is not resolved within 24 hours it will be escalated (if necessary).
+The Deal Desk team will do their best to respond to each request to SFDC Case within 6 business hours. Revenue generating or current quarter requests will take priority, especially during Month & Quarter End. If a task is not resolved within 24 hours it will be escalated (if necessary).
 The SLAs below are applicable (especially for contract resets and ramp deals) if all the necessary information is provided in the request.
 
 | Type of Request | First Response | Resolution |
@@ -178,7 +181,7 @@ The Deal Desk team will respond to EoA Ramp requests as quickly as possible. How
 | < 30 days in the future | 6 Hours | 1 Business Day |
 | > 30 days in the future| 6 Hours | 3 Business Days |
 
-A Deal Desk team member will respond to your chatter request with an estimate on when the Order Form will be complete. Please let us know if your customer requires the quote in advance due to lengthy procurement cycles or budget planning reasons - exceptions will be considered in cases of urgency, or to meet a customer's needs.
+A Deal Desk team member will respond to your case request with an estimate on when the Order Form will be complete. Please let us know if your customer requires the quote in advance due to lengthy procurement cycles or budget planning reasons - exceptions will be considered in cases of urgency, or to meet a customer's needs.
 
 ##### Escalation Path for Case Review
 
@@ -364,7 +367,7 @@ If you choose to add Annual Payments to a quote, please keep in mind the followi
 - **Select "Sold To" and "Bill To" contacts.** Note that the "Sold To" contact will receive the EULA or License file via email. Note: Each contact record must have a complete address, if the address is not fully populated, you will need to update this before you can proceed with the quote.
 - For **One-Tier Reseller or MSP deals,** populate the "Invoice Owner", "Invoice Owner Contact" and "Resale Partner" fields. For **Distrbutor deals,** populate the "Invoice Owner", "Invoice Owner Contact", "Resale Partner" and "Distributor" fields. For **Direct Deals** leave "Invoice Owner", "Invoice Owner Contact," "Resale Partner," and "Distributor" fields blank.
   - "Invoice Owner" and "Invoice Owner Contact" should reflect the account and contact of the party being quoted by GitLab. This means we should leverage the Resale Partner's Billing Account and Billing Account Contact for One-Tier Reseller and MSP deals, and the Distributor's Billing Account and Billing Account Contact for Distributor deals.
-  - Search for the Partner Account Name in the "Invoice Owner" field to select the Billing Account for the partner. If there are no results matching the partner account, this means that a Billing Account does not yet exist for the partner. Chatter `@Billing-ops` and the Partner Account Owner listed on the Partner Account Record and ask for a Billing Account to be created.
+  - Search for the Partner Account Name in the "Invoice Owner" field to select the Billing Account for the partner. If there are no results matching the partner account, this means that a Billing Account does not yet exist for the partner. Request Support to Billing Ops team, tagging the Partner Account Owner listed on the Partner Account Record and ask for a Billing Account to be created.
   - "Invoice Owner Contact"
     - The Billing Account on the Partner Account lists the accounts payable contact information associated with that account (refer to "Contact Information" section on the billing account), so that contact should be used as the "Invoice Owner Contact". If that contact does not exist on the Partner Account as a Contact Record, please create the contact using the following naming convention "[Partner Account Name] - Accounts Payable".
     - Ensure that the "Invoice Owner Contact" is connected to the Partner Account record and matches the contact information from the partner's Billing Account (i.e., Invoice Owner).
@@ -426,7 +429,7 @@ C.  On this second and final page of the quoting experience, populate Quote Deta
 - **Select "Sold To" and "Bill To" contacts.** Note that the "Sold To" contact will receive the EULA or License file via email. Note: Each contact record must have a complete address, if the address is not fully populated, you will need to update this before you can proceed with the quote.
 - For **One-Tier Reseller or MSP deals,** populate the "Invoice Owner", "Invoice Owner Contact" and "Resale Partner" fields. For **Distrbutor deals,** populate the "Invoice Owner", "Invoice Owner Contact", "Resale Partner" and "Distributor" fields. For **Direct Deals** leave "Invoice Owner", "Invoice Owner Contact," "Resale Partner," and "Distributor" fields blank.
   - "Invoice Owner" and "Invoice Owner Contact" should reflect the account and contact of the party being quoted by GitLab. This means we should leverage the Resale Partner's Billing Account and Billing Account Contact for One-Tier Reseller and MSP deals, and the Distributor's Billing Account and Billing Account Contact for Distributor deals.
-  - Search for the Partner Account Name in the "Invoice Owner" field to select the Billing Account for the partner. If there are no results matching the partner account, this means that a Billing Account does not yet exist for the partner. Chatter `@Billing-ops` and the Partner Account Owner listed on the Partner Account Record and ask for a Billing Account to be created.
+  - Search for the Partner Account Name in the "Invoice Owner" field to select the Billing Account for the partner. If there are no results matching the partner account, this means that a Billing Account does not yet exist for the partner. Request Support to the Billing Ops team, tagging the Partner Account Owner listed on the Partner Account Record and ask for a Billing Account to be created.
   - "Invoice Owner Contact"
     - The Billing Account on the Partner Account lists the accounts payable contact information associated with that account (refer to "Contact Information" section on the billing account), so that contact should be used as the "Invoice Owner Contact". If that contact does not exist on the Partner Account as a Contact Record, please create the contact using the following naming convention "[Partner Account Name] - Accounts Payable".
     - Ensure that the "Invoice Owner Contact" is connected to the Partner Account record and matches the contact information from the partner's Billing Account (i.e., Invoice Owner).
@@ -441,7 +444,7 @@ D.  **To Add Products to your quote,** locate the search bar between "Subscripti
 
 E.  EntFor each Product SKU you have added to the quote, edit Quantity, Discount, and/or Effective Price as desired. **After you have correctly configured Product SKUs, you can click "Preview Metrics" to preview the quote total while still in draft mode. Once you are ready to save the quote, click "Submit" at the top of the screen.**
 
-- For **Channel deals**, see this [cheat sheet](https://docs.google.com/document/d/1qiT_2EsnL20c4w0hyZ_CGaJQIzj8CSCsHERoR80cwws/edit#heading=h.9e3o7yaxw8mu) to confirm correct discounts to apply. Partner discounts must be added in addition to any customer discounts and required approvals must be received by submitting the quote in the system, per the quote approval matrix. If there are no customer discounts and standard partner program discounts are used, additional quote approvals will not be required. Chatter `@Partner Operations` for questions.
+- For **Channel deals**, see this [cheat sheet](https://docs.google.com/document/d/1qiT_2EsnL20c4w0hyZ_CGaJQIzj8CSCsHERoR80cwws/edit#heading=h.9e3o7yaxw8mu) to confirm correct discounts to apply. Partner discounts must be added in addition to any customer discounts and required approvals must be received by submitting the quote in the system, per the quote approval matrix. If there are no customer discounts and standard partner program discounts are used, additional quote approvals will not be required. Request Support to Ecosystems team for questions.
 
 F.  **Add Annual Payments** to a order form by:
 
@@ -455,9 +458,9 @@ H.  **Order Form Generation**
 
 - If no discounts or special terms are requested, click "Generate PDF."
 - If the deal contains discounts that require approval, please submit the quote for approval using the button on the quote. The quote must be approved before the PDF can be generated.
-  - In the case of reseller deals, please obtain the approvals in Chatter based on the approval matrix.
+  - In the case of reseller deals, please obtain the approvals based on the approval matrix.
 - **Order Form Manual Edits**
-  - Please note that Sales reps may only generate PDF versions of the Order Form. If you require special wording or other manual edits, please make the request by tagging `@Sales-Support` in chatter.
+  - Please note that Sales reps may only generate PDF versions of the Order Form. If you require special wording or other manual edits, please make the request by using the "Request Support" workflow on the Opportunity Object to create a case for Deal Desk.
 
 **To supplement these steps, review the [Highspot Page](https://gitlab.highspot.com/items/63c04679ce74a0ae63ca5e49) or the [RISE Course](https://rise.articulate.com/share/HzJgdaWzK1C_SwlMSCwQchgV9PbpRNvi#/) to see each step live for a New Subscription quote.**
 
@@ -485,7 +488,7 @@ In addition to the step-by-step quoting guides that follow this paragraph, check
 - Next, locate the subscription you would like to amend. If you are unsure which subscription to amend, click on the blue subscription name (i.e. A-S00263985) - this will open a new window that details that subscriptions products, quantities, pricing, etc.
 - Click the pencil icon to amend that subscription.
 - Note: If there are subscriptions available, click on the subscription name to open the subscription information and review the dates, products, and pricing of that subscription.
-- If you are still unable to determine which to choose, please ask @Sales-Support via Chatter to help confirm. and click "Next."
+- If you are still unable to determine which to choose, please use the "Request Support" workflow on the Opportunity Object to create a case for Deal Desk.
 - On this second and final page of the quoting experience, populate Quote Detail Information.
 
 - The following fields must be populated to successfully create a quote:
@@ -502,7 +505,7 @@ In addition to the step-by-step quoting guides that follow this paragraph, check
   - The **GitLab Entity** must be the same as it was on the initial deal you're amending.
   - For **One-Tier Reseller or MSP deals,** populate the "Invoice Owner", "Invoice Owner Contact" and "Resale Partner" fields. For **Distrbutor deals,** populate the "Invoice Owner", "Invoice Owner Contact", "Resale Partner" and "Distributor" fields. For **Direct Deals** leave "Invoice Owner", "Invoice Owner Contact," "Resale Partner," and "Distributor" fields blank.
     - "Invoice Owner" and "Invoice Owner Contact" should reflect the account and contact of the party being quoted by GitLab. This means we should leverage the Resale Partner's Billing Account and Billing Account Contact for One-Tier Reseller and MSP deals, and the Distributor's Billing Account and Billing Account Contact for Distributor deals.
-    - Search for the Partner Account Name in the "Invoice Owner" field to select the Billing Account for the partner. If there are no results matching the partner account, this means that a Billing Account does not yet exist for the partner. Chatter `@Billing-ops` and the Partner Account Owner listed on the Partner Account Record and ask for a Billing Account to be created.
+    - Search for the Partner Account Name in the "Invoice Owner" field to select the Billing Account for the partner. If there are no results matching the partner account, this means that a Billing Account does not yet exist for the partner. Request Support from Billing Ops and tag the Partner Account Owner listed on the Partner Account Record and ask for a Billing Account to be created.
     - "Invoice Owner Contact"
       - The Billing Account on the Partner Account lists the accounts payable contact information associated with that account (refer to "Contact Information" section on the billing account), so that contact should be used as the "Invoice Owner Contact". If that contact does not exist on the Partner Account as a Contact Record, please create the contact using the following naming convention "[Partner Account Name] - Accounts Payable".
       - Ensure that the "Invoice Owner Contact" is connected to the Partner Account record and matches the contact information from the partner's Billing Account (i.e., Invoice Owner).
@@ -522,9 +525,9 @@ In addition to the step-by-step quoting guides that follow this paragraph, check
 - **Order Form Generation**
   - If no discounts or special terms are requested, click "Generate PDF."
   - If the deal contains discounts that require approval, please submit the quote for approval using the button on the quote. The quote must be approved before the PDF can be generated.
-    - In the case of reseller deals, please obtain the approvals in Chatter based on the approval matrix.
+    - In the case of reseller deals, please obtain the approvals based on the approval matrix.
   - **Order Form Manual Edits**
-    - Please note that Sales reps may only generate PDF versions of the Order Form. If you require special wording or other manual edits, please make the request by tagging @Sales-Support in chatter.
+    - Please note that Sales reps may only generate PDF versions of the Order Form. If you require special wording or other manual edits, please use the "Request Support" workflow on the Opportunity Object to create a case for Deal Desk.
 
 ##### Prorata calculation of add-on order forms
 
@@ -604,7 +607,7 @@ The following is intended as a step by step guide for opportunity owners or ISRs
 - Open the Renewal opportunity and click the **"New Quote"** button.
 - Select the **applicable billing account**.
 - Next, locate the subscription you would like to renew. If you are unsure which subscription to renew, click on the blue subscription name (i.e. A-S00263985) - this will open a new window that details that subscriptions products, quantities, pricing, etc.
-  - Note: If there are multiple billing accounts or subscriptions available, and you are unable to determine which to choose, please ask @Sales-Support via Chatter.
+  - Note: If there are multiple billing accounts or subscriptions available, and you are unable to determine which to choose, please use the "Request Support" workflow on the Opportunity Object to create a case for Deal Desk. Please select "Quote Help" as the request type and select "Quote Help" as the Sub-Request Type.
 - Click the curved arrow renew icon to remew that subscription.
 - Note: If there are subscriptions available, click on the subscription name to open the subscription information and review the dates, products, and pricing of that subscription.
 
@@ -621,7 +624,7 @@ The following is intended as a step by step guide for opportunity owners or ISRs
 
   - For **One-Tier Reseller or MSP deals,** populate the "Invoice Owner", "Invoice Owner Contact" and "Resale Partner" fields. For **Distrbutor deals,** populate the "Invoice Owner", "Invoice Owner Contact", "Resale Partner" and "Distributor" fields. For **Direct Deals** leave "Invoice Owner", "Invoice Owner Contact," "Resale Partner," and "Distributor" fields blank.
     - "Invoice Owner" and "Invoice Owner Contact" should reflect the account and contact of the party being quoted by GitLab. This means we should leverage the Resale Partner's Billing Account and Billing Account Contact for One-Tier Reseller and MSP deals, and the Distributor's Billing Account and Billing Account Contact for Distributor deals.
-    - Search for the Partner Account Name in the "Invoice Owner" field to select the Billing Account for the partner. If there are no results matching the partner account, this means that a Billing Account does not yet exist for the partner. Chatter `@Billing-ops` and the Partner Account Owner listed on the Partner Account Record and ask for a Billing Account to be created.
+    - Search for the Partner Account Name in the "Invoice Owner" field to select the Billing Account for the partner. If there are no results matching the partner account, this means that a Billing Account does not yet exist for the partner. Request Support from Billing Ops and tag the Partner Account Owner listed on the Partner Account Record and ask for a Billing Account to be created.
     - "Invoice Owner Contact"
       - The Billing Account on the Partner Account lists the accounts payable contact information associated with that account (refer to "Contact Information" section on the billing account), so that contact should be used as the "Invoice Owner Contact". If that contact does not exist on the Partner Account as a Contact Record, please create the contact using the following naming convention "[Partner Account Name] - Accounts Payable".
       - Ensure that the "Invoice Owner Contact" is connected to the Partner Account record and matches the contact information from the partner's Billing Account (i.e., Invoice Owner).
@@ -645,7 +648,7 @@ The following is intended as a step by step guide for opportunity owners or ISRs
 - Note: If a product has been amended multiple times during a subscription period, the product will display multiple lines with each quantity of the product shown.  In this instance, **only modify one line with the new quantity**. Do not modify multiple lines.  Additional [information can be found here](https://gitlab.com/groups/gitlab-com/business-technology/enterprise-apps/financeops/-/wikis/Zuora-CPQ-Legacy-UI:-Limitations).
   - For **Channel renewals**, please refer to this [cheat sheet](https://docs.google.com/document/d/1qiT_2EsnL20c4w0hyZ_CGaJQIzj8CSCsHERoR80cwws/edit#heading=h.9e3o7yaxw8mu) to help identify what discounts and product lines to add for a renewal. Quote approvals may be triggered due to system limitations.
     - Partner discounts must be added in addition to any customer discounts and required approvals must be received by submitting the quote in the system, per the quote approval matrix.
-    - If you have questions about Channel discounts when building a quote, chatter `@Partner Operations` for help.
+    - If you have questions about Channel discounts when building a quote, Request Support from Ecosystem Operations for help.
 
 - **True-Ups:** NOTE: The true-up SKU does not add users to the license - it's simply a retroactive one time charge that should only be used to account for overages in the prior subscription term. If you are quoting true-up users, search for the applicable True-Up SKU and add it to the quote. Edit the quantity and effective price.
   - Example: If customer A has purchased a 100 user SaaS - Premium subscription previously, and now at renewal they inform you that they overused prior to the renewal by 10 seats, you will need to add an Annual True Up SKU for SaaS - Premium for 10 users.
@@ -669,7 +672,7 @@ If the customer needs to change the Quote Start Date (typically for Billing purp
   - If the customer has an existing Billing Account, and you intend to sell a new subscription using the same Sold To Contact listed under the Billing Account, select the applicable Billing Account and click "New Quote."
   - If the customer does not have an existing Billing Account, or if the Sold To Contacct you intend to use is not listed under one of the existing Billing Accounts, click "New Billing Account."
 
-    - Note: If there are multiple billing accounts or subscriptions available, and you are unable to determine which to choose, please ask @Sales-Support via Chatter.
+    - Note: If there are multiple billing accounts or subscriptions available, and you are unable to determine which to choose, please ask via the #sales-support Slack Channel.
 
 - Fill out the necessary information on the quote per the instruction under the **New Subscription Quote** section above.
   - **Note: The Start Date can be later than the original renewal date only if customer has lost access after the renewal grace period. Otherwise no subscription gap is allowed.**
@@ -851,7 +854,7 @@ To learn more about the SuperSonics Billing and Subscription Management experien
 - Standard services are those for which a SKU exists in Zuora CPQ.
 - Standard services can be added to any New Business, Add-On, or Renewal quote alongside subscription product SKUs. (i.e. If you are selling a 12 month SaaS Ultimate deal, you can add a separate SKU on the same quote to sell instructor led training offering(s).)
 - For Standard Services, a signed Order Form is sufficient to book the deal. (Note, some customers may also require issuance of a PO)
-- More information on [Professional Services SKUs](https://about.gitlab.com/services/catalog)
+- More information on [Professional Services SKUs](https://about.gitlab.com/services/catalog/)
 
 ##### Before submitting a Scoped/Custom Professional Services Opportunity for Closure
 
@@ -873,7 +876,7 @@ To learn more about the SuperSonics Billing and Subscription Management experien
     - The sum of the values from these two quotes should equal to the total price on the SOW. **Note: Once this second quote is added, it is likley to overwrite the "Professional Services Value" field against the opportunity. Please ensure that this field continues to reflect the sum of both quotes, in line with the overall SOW.**
   - To determine which portion of the SOW is for Professional Services vs. Education Services, note the following: Education and Services are split out on the SOW in separate sections. The Education portion would display standard SKU names such as "CI/CD Training" and "Admin Training" and will contain a total cost for the full Education portion. The Services portion would be custom, but would often denote "Time and Materials" or "PS Hours" and will contain a total cost for the full Services Portion.
 
-**Note: You do not need to submit the quote for Custom services for approval.** Approvals will be handled by the Engagement Manager via the scoping issue, and any discounts in rate should be handled separately via Chatter, as per the [Approval Matrix](https://docs.google.com/document/d/1-CH-uH_zr0qaVaV1QbmVZ1rF669DsaUeq9w-q1QiKPE/edit#heading=h.dccvx02huo2y). The SAE/AE remains responsible for obtaining any approvals required. As well as discounts in price, this also includes increased payment terms. Once approved, the SOW will be sent to the customer for signature, not the quote/order form.
+**Note: You do not need to submit the quote for Custom services for approval.** Approvals will be handled by the Engagement Manager via the scoping issue, and any discounts in rate should be handled separately via quote, as per the [Approval Matrix](https://docs.google.com/document/d/1-CH-uH_zr0qaVaV1QbmVZ1rF669DsaUeq9w-q1QiKPE/edit#heading=h.dccvx02huo2y). The SAE/AE remains responsible for obtaining any approvals required. As well as discounts in price, this also includes increased payment terms. Once approved, the SOW will be sent to the customer for signature, not the quote/order form.
 
 - To gain support from the Professional Services team with a Custom SOW, initiate a scoping issue using the [Services Calculator](https://services-calculator.gitlab.io/) and work with a Professional Services [Engagement Manager](/handbook/customer-success/professional-services-engineering/engagement-mgmt/).
 
@@ -903,7 +906,7 @@ Once the deal has been closed won, the customer will be issued the correct produ
 
 ### **Non-Standard Quotes**
 
-Occasionally an opportunity will require a unique structure that is outside of the normal quote format. Examples of these scenarios are listed below. Deal Desk will partner with the Account Owner to structure the opportunity and provide guidance on creating the quote. Please chatter @ Sales Support on the opportunity if you need assistance with one of these scenarios!
+Occasionally an opportunity will require a unique structure that is outside of the normal quote format. Examples of these scenarios are listed below. Deal Desk will partner with the Account Owner to structure the opportunity and provide guidance on creating the quote. Please Request Support from Deal Desk on the opportunity if you need assistance with one of these scenarios!
 
 #### Contract Reset
 
@@ -921,7 +924,7 @@ Contract Resets are used to perform an "Early Renewal" - i.e. start a new 12 mon
 - Fill out the necessary information on the quote per the instruction under the New Subscription Quote section above.
   - **Note: The Start Date should be the new subscription term's start date, or the "Early Renewal" date.**
 - Click Next and update the products and fees per the steps above.
-- **IMPORTANT:** Next, tag `@Sales-Support` in Chatter on the Renewal Opportunity to create a credit opportunity and quote to cancel the existing subscription, which in this scenario is being replaced with the new subscription. Deal Desk will then manually generate a Contract Reset Opp and Order Form to add the credit line into the order form once the quote has been fully approved.
+- **IMPORTANT:** Next, please use the "Request Support" workflow on the Renewal Opportunity to create a credit opportunity and quote to cancel the existing subscription, which in this scenario is being replaced with the new subscription. Deal Desk will then manually generate a Contract Reset Opp and Order Form to add the credit line into the order form once the quote has been fully approved.
 
 For GitLab.com subscriptions, Deal Desk will follow the below steps to ensure the customer is not downgraded to free when their initial subscription is cancelled. These are outlined in more detail in [this presentation](https://docs.google.com/presentation/d/1fv_QMzPJ4Al5AaPBNd-IW5dCwuac56ShrzcpjUO_S60/edit?usp=sharing).
 
@@ -944,7 +947,7 @@ For more information on ARR calculation for Contract Resets, see [ARR in Practic
 
 Concurrent Subscriptions are two unique subscriptions (instances) for Self Managed and SaaS issued for the purpose of supporting a large customer migration over an extended period. **This does not allow the customer to use Self Managed and SaaS on the same instance.**
 
-SaaS Subscription with Privilege Access Token (P.A.T) cannot be extended via trial. If your client (almost) expired subscription with P.A.T need to be extended, a $0 order for 1 month new subscription is required. **Rep  will build new opportunity & new sub quote (Initial Term & Renewal Term = 1 month), then collaborate with Deal Desk tag `@Sales-Support` and [legal](/handbook/legal/customer-negotiations/#requesting-content) to finalize the Order Form.**
+SaaS Subscription with Privilege Access Token (P.A.T) cannot be extended via trial. If your client (almost) expired subscription with P.A.T need to be extended, a $0 order for 1 month new subscription is required. **Rep  will build new opportunity & new sub quote (Initial Term & Renewal Term = 1 month), then collaborate with Deal Desk by using the "Request Support" workflow on the Opportunity Object to create a case. Please also submit a Legal request by following the process outlined by [legal](/handbook/legal/customer-negotiations/#requesting-content) to finalize the Order Form.**
 
 Approvals for this deal strucutre will follow the [standard approval matrix](https://docs.google.com/document/d/1-CH-uH_zr0qaVaV1QbmVZ1rF669DsaUeq9w-q1QiKPE/edit#heading=h.f8920bj8v6l9).
 
@@ -1039,7 +1042,7 @@ Ramp Deals are multi-year deals in which products can incrementally vary in pric
 
 ###### How to amend an existing ramp deal, created before 2023-03-01
 
-To amend a ramp deal created before 2023-03-01, tag @Sales-Support in chatter on the opportunity. Deal Desk will create the quotes and Order Form. **Provide the following information for each ramp period:**
+To amend a ramp deal created before 2023-03-01, please use the "Request Support" workflow on the Opportunity Object to create a case for Deal Desk. Deal Desk will create the quotes and Order Form. **Provide the following information for each ramp period:**
 
 - Start date and term length
 - Product, quantity, discount
@@ -1231,7 +1234,7 @@ Deal Desk manages AWS and GCP Private Offer creation and acceptance.
 
 #### Process Overview
 
-- **All Private Offer requests must be made in chatter by tagging @Sales-Support on the related SFDC opportunity.** All Private Offer requests must include the following information:
+- **All Private Offer requests must be made by using the "Request Support" workflow on the Opportunity Object to create a case for Deal Desk.** All Private Offer requests must include the following information:
   - Customer's AWS or GCP Billing ID
   - Customer Contact name and email address
   - Alliance margin

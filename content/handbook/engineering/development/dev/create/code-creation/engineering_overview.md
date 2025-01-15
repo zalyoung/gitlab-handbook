@@ -46,7 +46,7 @@ Components pictured on diagram are as follow:
    1. VSCode Extension: https://gitlab.com/gitlab-org/gitlab-vscode-extension/
    1. JetBrains Extension: https://gitlab.com/gitlab-org/editor-extensions/gitlab-jetbrains-plugin
    1. NeoVim Extension: https://gitlab.com/gitlab-org/editor-extensions/gitlab.vim
-1. [Language Server](https://gitlab.com/gitlab-org/editor-extensions/gitlab-lsp): it is a unified way of delivering features that can be shared across different IDEs reducing duplication. Language Server is a component that uses the [LSP protocol](https://microsoft.github.io/language-server-protocol) for communication with IDE extensions.
+1. [Language Server](https://gitlab.com/gitlab-org/editor-extensions/gitlab-lsp): it is a unified way of delivering features that can be shared across different IDEs reducing duplication. Language Server is a component that uses the [LSP protocol](https://microsoft.github.io/language-server-protocol/) for communication with IDE extensions.
 1. [GitLab Workhorse](https://docs.gitlab.com/ee/development/workhorse/) - GitLab Workhorse is a smart reverse proxy for GitLab intended to handle resource-intensive and long-running requests.
 1. [GitLab Rails](https://gitlab.com/gitlab-org/gitlab) - main GitLab component providing majority of features.
 1. [AI Gateway](https://gitlab.com/gitlab-org/modelops/applied-ml/code-suggestions/ai-assist) - a standalone-service that will give access to AI features to all users of GitLab, no matter which instance they are using: self-managed, dedicated or GitLab.com. For more conceptual information refer to [architecture blueprint](https://docs.gitlab.com/ee/architecture/blueprints/ai_gateway/index.html)
@@ -81,22 +81,19 @@ sequenceDiagram
     participant LS as Language Server
     participant GLR as GitLab Rails
     participant AIGW as AI Gateway
-    participant LLM as Large Language Model
 
-    USR->>IDE: starts
-    IDE->>EXT: starts
-    loop Every 1 hour
-    EXT->>LS: triggers request for direct connection details
-    LS->>GLR: requests for direct connection details
-    GLR->>LS: returns direct connection details (AIGW url and token, model details)
-    LS->>LS: caches direct connection details for 1 hour
-    end
     USR->>IDE: types: "def add(a, b)"
     IDE->>EXT: notify about document change def add(a, b)
     EXT->>LS: register document change def add(a, b)
-    LS->>AIGW: sends code suggestion requests
-    AIGW->>LLM: code suggestion request
-    LLM->>AIGW: "a + b"
+    LS->>LS: triggers code suggestion request
+    alt there is unexpired direct connection details in cache?
+    LS->>LS: fetches direct connection details from cache
+    else
+    LS->>GLR: requests for direct connection details
+    GLR->>LS: returns direct connection details (AIGW url and token, expiry, model details)
+    LS->>LS: caches direct connection details, with 1 hour expiry
+    end
+    LS->>AIGW: sends code suggestion requests using direct connection details
     AIGW->>LS:  suggestion: "a + b"
     LS->>EXT: triggers IDE code suggestion UI: "a + b"
     EXT->>IDE: triggers IDE code suggestion UI: "a + b"

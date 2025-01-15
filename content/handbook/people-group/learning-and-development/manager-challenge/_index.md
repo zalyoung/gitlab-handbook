@@ -20,7 +20,7 @@ The Manager Challenge addresses your specific needs to understand the qualities 
 
 The program was awarded a Gold Excellence in Leadership Development by the [Brandon Hall Group for the Best Unique and Innovative Leadership Development Program](https://brandonhall.com/brandon-hall-group-announces-winners-of-the-excellence-in-technology-awards-for-2021/). Brandon Hall operates the largest and longest running awards in Human Capital Management. The GitLab program was evaluated by a panel of learning and development veterans, senior industry experts, analysts, and executives. L&D is thrilled to have been recognized for this achievement!
 
-![picture-of-gold-in-leadership-excellence award](Gold-LD-Award-2021-01.png)
+![picture-of-gold-in-leadership-excellence award](/images/people-group/learning-and-development/manager-challenge/Gold-LD-Award-2021-01.png)
 
 ### Team Member Time Investment Level
 
@@ -201,7 +201,7 @@ The document is intended to be a starting point for managers to document where t
 
 ### Manager Challenge Certification
 
-Following the completion of the GitLab Manager Challenge program, participants will be [awarded a certification](https://about.gitlab.com/learn/certifications/public/)! The certification will be sent to a team member who has completed at least 80% of the daily challenges. Once a team member receives a certification, they can post it on their LinkedIn Profile.
+Following the completion of the GitLab Manager Challenge program, participants will be [awarded a certification](https://university.gitlab.com/certifications/public/)! The certification will be sent to a team member who has completed at least 80% of the daily challenges. Once a team member receives a certification, they can post it on their LinkedIn Profile.
 
 ## Testimonials
 

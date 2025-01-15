@@ -7,7 +7,7 @@ description: Allocadia is Marketing Performance Management Software.
 
 Say good-bye to multiple spreadsheets, disparate data sets and misaligned marketing plans. The recognized leader in Marketing Performance Management (MPM), Allocadia's budget management and strategic planning platform is the foundation for operational excellence for marketing leaders and their teams. Powered with data-driven insights, marketing leaders can visualize what's working to enable greater planning agility. Learn how to run marketing like a business at Allocadia.com.
 
-💰 Version purchased: [Allocadia Optimize](https://allocadia.com/pricing/)
+💰 Version purchased: [Allocadia Optimize](https://www.uptempo.io/)
 
 🔑 Logins are available for Marketing budget holders
 
@@ -396,7 +396,7 @@ Think of each line item ID as its own budget line. Each Allocadia line item ID w
 
 **Example Event in Allocadia:**
 
-![Example Event](/handbook/marketing/strategy-performance/allocadia/Alloscreenshot.png)
+![Example Event](/images/marketing/strategy-performance/allocadia/Alloscreenshot.png)
 
 In this example, you would use your sponsorship line item ID when submitting your sponsorship contract through Zip. You would then use your swag line item ID when submitting your swag order through Zip. If you used your Navan card for shipping charges and additional booth charges, you would enter those individual line item IDs into Navan when submitting your receipts (see below for more information regarding the new Navan field.)
 

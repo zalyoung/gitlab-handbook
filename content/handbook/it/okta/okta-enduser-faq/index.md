@@ -46,7 +46,7 @@ To delete a tab, you will need to move all applications out of that tab into ano
 
 ## How do I request an app to be added?
 
-Application Requests are managed via a [Change Management Issue](https://gitlab.com/gitlab-com/business-technology/change-management/-/issues/new?issue%5Bmilestone_id%5D=#) within the Business Technology team. Please use the `okta_new_app_request` template to ensure all required information fields are inputted.
+First, please open a [CorpSec Issue](https://gitlab.com/gitlab-com/gl-security/corp/issue-tracker/-/issues/new) and tag `@gitlab-com/gl-security/corp/identity` for Iteration planning and specification gathering. Please also create a [Change Management Issue](https://gitlab.com/gitlab-com/business-technology/change-management/-/issues/new?issue%5Bmilestone_id%5D=#) within the Business Technology team. Please use the `okta_new_app_request` template to ensure all required information fields are inputted. 
 
 [All new software must go through Procurement](/handbook/finance/procurement/new-software/) before being added to Okta.
 
@@ -60,7 +60,7 @@ Application Requests are managed via a [Change Management Issue](https://gitlab.
 
 ## How do I request an app to be updated?
 
-Application Update Requests are managed via a [Change Management Issue](https://gitlab.com/gitlab-com/business-technology/change-management/-/issues/new?issue%5Bmilestone_id%5D=#) within the Business Technology team. Please use the `okta_existing_app_udate` template to ensure all required information fields are inputted.
+First, please open a [CorpSec Issue](https://gitlab.com/gitlab-com/gl-security/corp/issue-tracker/-/issues/new) and tag `@gitlab-com/gl-security/corp/identity` for Iteration planning and specification gathering. Application Update Requests are tracked via a [Change Management Issue](https://gitlab.com/gitlab-com/business-technology/change-management/-/issues/new?issue%5Bmilestone_id%5D=#) within the Business Technology team. Please use the `okta_existing_app_udate` template to ensure all required information fields are inputted.
 
 ## How can I change the order in which my apps appear?
 

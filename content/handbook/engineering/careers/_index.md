@@ -309,7 +309,7 @@ For more details on logistics of ending an interim or acting period please refer
   graph LR;
 
   subgraph Merit Based
-    supe:si(Intern, Support Engineer)-->supe:se(Support Engineer);
+    supe:sa(Associate Support Engineer)-->supe:se(Support Engineer);
     supe:se(Support Engineer)-->supe:sse(Senior Support Engineer);
   end
 

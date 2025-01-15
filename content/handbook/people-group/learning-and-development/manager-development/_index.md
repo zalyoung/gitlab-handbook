@@ -70,6 +70,6 @@ Take a moment to reflect on where you are in this transition. Then use this [goo
 **Content Sources:**
 
 - [How to Manage Your Former Peers, Harvard Business Review](https://hbr.org/2012/12/how-to-manage-your-former-peer)
-- [Coping successfully with your transition, Lynda.com](https://www.lynda.com/Business-Skills-tutorials/Coping-successfully-your-transition/119004/132715-4.html)
+- [Coping successfully with your transition, Lynda.com](https://www.linkedin.com/learning/new-manager-foundations-21965262)
 - [Are You A First-Time Manager? Here Are 5 Essential Tips for Success!, Inc.com](https://www.inc.com/melissa-lamson/5-success-strategies-for-first-time-managers.html)
 - [Use This Tactic To Avoid Burnout As A New Manager, American Management Association](https://playbook.amanet.org/training-articles-avoid-burnout-new-manager/)

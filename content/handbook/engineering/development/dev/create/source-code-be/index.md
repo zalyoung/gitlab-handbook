@@ -5,7 +5,7 @@ description: The Create:Source Code BE team is responsible for all backend aspec
 
 The Create:Source Code BE team focuses on GitLab's Source Code Management (SCM) tools and is responsible for all backend aspects of the [Source Code group's](/handbook/product/categories/#source-code-group) product categories in the [Create stage](/handbook/product/categories/#create-stage) of the [DevOps lifecycle](/handbook/product/categories/#devops-stages). For information on our product direction, visit the [Category Direction - Source Code Management](https://about.gitlab.com/direction/create/source_code_management/) page.
 
-We interface with the Gitaly and Code Review teams, and work closely with the [Create:Source Code Frontend team](/handbook/engineering/development/dev/create/create-source-code-fe/). The features we work with are listed on the [Features by Group Page](/handbook/product/categories/features/#createsource-code-group) and technical documentation is available on the [Create: Source Code Backend](https://docs.gitlab.com/ee/development/backend/create_source_code_be/index.html) page.
+We interface with the Gitaly and Code Review teams, and work closely with the [Create:Source Code Frontend team](/handbook/engineering/development/dev/create/create-source-code-fe/). The features we work with are listed on the [Features by Group Page](/handbook/product/categories/features/#code-creation) and technical documentation is available on the [Create: Source Code Backend](https://docs.gitlab.com/ee/development/backend/create_source_code_be/index.html) page.
 
 ## About our team handbook page
 
@@ -83,7 +83,7 @@ We use the standard GitLab [engineering workflow](/handbook/engineering/workflow
 
 For more urgent items, use the `#g_create_source_code` Slack channel.
 
-[Take a look at the features we support per category here.](/handbook/product/categories/features/#createsource-code-group)
+[Take a look at the features we support per category here.](/handbook/product/categories/features/#code-creation)
 
 ### Working with the Product Team
 
@@ -160,7 +160,7 @@ The weekly Triage Report is generated automatically by the [GitLab bot](https://
 The Triage Report can be quite long, and it important to deal with it efficiently. An effective way to approach it is:
 
 - Open every issue in a separate browser tab and use "edit issue" to mark then as checked once review, then close the tab.
-- Verify if the issue belongs to ~"group::source code" and change group label if needed. The [Features by Group](/handbook/product/categories/features/#createsource-code-group) page is a good starting point for this assessment.
+- Verify if the issue belongs to ~"group::source code" and change group label if needed. The [Features by Group](/handbook/product/categories/features/#code-creation) page is a good starting point for this assessment.
 - Apply ~frontend if it is a frontend issue.
 - Perform a brief search to assess if is a duplicate, close with a ~Duplicate label if this is the case.
 - Is it a ~"support request" ? Does it ~"needs investigation" ? Apply labels if so.
@@ -321,12 +321,10 @@ Issues scheduled for the release are then marked ~"workflow::ready for developme
 
 #### Issue assignments
 
-Once availability has been determined, weights have been assigned, and the PM/EM finalize a list of prioritized issues for the upcoming release, kickoff emails will be sent. The intent of this email is to notify you of the work we intend to assign for the upcoming release. This email will be sent before the release begins. The kickoff email will include:
+Issue assignments are done collaboratively during the monthly Backlog Refinement meeting and Milestone Planning meetings.
+If any priority issues emerge after these meetings, or if assignments can't be done during these meetings, the EM will assign the issues directly, before the milestone starts.
 
-- Your availability, weight budget, and how it was calculated
-- A list of the issues you will most probably be assigned as an individual
-- A reasoning behind why you have been assigned more than your weight budget, if applicable
-- A list of the issues the team is working on that are deemed "note-worthy," in case you'd like to offer help on those issues as time allows
+#### Follow up issues
 
 You will begin to collect follow-up issues when you've worked on something in a release but have tasks leftover, such as technical debt, feature flag rollouts or removals, or non-blocking work for the issue. For these, you can address them in at least 2 ways:
 

@@ -7,7 +7,7 @@ twitter_site: "@gitlab"
 twitter_creator: "@gitlab"
 ---
 
-Due to global issues concerning [COVID-19 (Coronavirus)](https://www.cdc.gov/coronavirus/2019-ncov/index.html), many employees and employers are facing a new reality: they're remote, and they're unsure of when they'll be able to return to the office.
+Due to global issues concerning [COVID-19 (Coronavirus)](https://www.cdc.gov/covid/index.html), many employees and employers are facing a new reality: they're remote, and they're unsure of when they'll be able to return to the office.
 
 For **leaders** who are suddenly managing work-from-home teams, there are five things you can focus on right now to maximize stability.
 
@@ -39,7 +39,7 @@ Executive assistants may take on a more significant role in the transition, func
 ![GitLab collaboration illustration](/images/all-remote/gitlab-collaboration.jpg)
 {style="max-width: 50%"}
 
-This will be rudimentary to start, and will serve as a [single source of truth](handbook-first/) for more pressing questions. Communicate this company-wide, and update it continually with DRIs for common questions around tools and access. This can start as a single company webpage or repository in [Notion](https://www.notion.so) or [Almanac](https://almanac.io), and will serve you well even after the current crisis subsides.
+This will be rudimentary to start, and will serve as a [single source of truth](handbook-first/) for more pressing questions. Communicate this company-wide, and update it continually with DRIs for common questions around tools and access. This can start as a single company webpage or repository in [Notion](https://www.notion.com) or [Almanac](https://almanac.io), and will serve you well even after the current crisis subsides.
 
 [GitLab uses GitLab](gitlab-for-remote/) to build, sustain, and evolve its company handbook. GitLab is a collaboration tool designed to help people work better together whether they are in the same location or spread across multiple time zones. Originally, GitLab let software developers collaborate on writing code and packaging it up into software applications. Today, GitLab has a wide range of capabilities used by people around the globe in all kinds of companies and roles.
 
@@ -49,11 +49,7 @@ One of the most sizable challenges when going remote is keeping everyone informe
 
 ## Establish a communications plan
 
-{{< youtube "gOp4lKSCulI" >}}
-
-*In the GitLab Unfiltered video above, Adrian Larssen sits down with GitLab CEO and co-founder Sid Sijbrandij, as well as GitLab Head of Remote Darren Murph, to discuss business and societal changes related to remote work in the wake of COVID-19 and the great remote work migration. Discover more in GitLab's [Remote Work playlist](https://www.youtube.com/playlist?list=PL05JrBw4t0Kq7QUX-Ux5fOunQotqJbECc).*
-
-Depending on team size, consider an always-on video conference room per team, where team members can linger, or come and go as they please. This simulation helps acclimation, enabling team members to embrace the shift to remote in a [less jarring way](https://about.gitlab.com/blog/2019/08/05/tips-for-mastering-video-calls). It also shows intentionality around [informal communication](informal-communication/) — an important element that occurs spontaneously in an office, and needs an immediate replacement in a remote setting.
+Depending on team size, consider an always-on video conference room per team, where team members can linger, or come and go as they please. This simulation helps acclimation, enabling team members to embrace the shift to remote in a [less jarring way](https://about.gitlab.com/blog/2019/08/05/tips-for-mastering-video-calls/). It also shows intentionality around [informal communication](informal-communication/) — an important element that occurs spontaneously in an office, and needs an immediate replacement in a remote setting.
 
 Whatever your current view on transparency, leaders should not hold back during this time. It's vital to maintain perspective through this shift. Everyone reacts to remote work differently, and not all homes are ideal [workspaces](workspace/). This can (and likely will) feel jarring, and team members will expect frequent updates as leaders iterate on their communication plan in real-time.
 
@@ -61,7 +57,7 @@ For a fast-boot on this front, consider replicating GitLab's public [communicati
 
 ## Minimize your tool stack
 
-While functioning remotely, strip the tool stack down to a minimum. Google Docs, a company-wide chat tool (like Microsoft Teams or [Slack](/handbook/communication/#slack)), and [Zoom](https://about.gitlab.com/blog/2019/08/05/tips-for-mastering-video-calls) are all you need to start. If your team needs access to internal systems through a VPN, ensure that everyone has easy access, and instructions on usage are clear.
+While functioning remotely, strip the tool stack down to a minimum. Google Docs, a company-wide chat tool (like Microsoft Teams or [Slack](/handbook/communication/#slack)), and [Zoom](https://about.gitlab.com/blog/2019/08/05/tips-for-mastering-video-calls/) are all you need to start. If your team needs access to internal systems through a VPN, ensure that everyone has easy access, and instructions on usage are clear.
 
 Working well remotely requires [writing things down](effective-communication/). For companies who do not have an existing culture of documentation, this will prove to be the most difficult shift. Aim to funnel communication into as few places as possible to reduce silos and fragmentation. You'll want to proactively solve for mass confusion when it comes to finding things — policies, protocols, outreach mechanisms, messaging, etc.
 
@@ -99,7 +95,7 @@ We recognize that many companies are in need of establishing baseline remote pri
 
 ## Contribute your lessons
 
-GitLab believes that all-remote is the [future of work]({{< ref "remote-vision" >}}), and remote companies have a shared responsibility to show the way for other organizations who are embracing it. If you or your company has an experience that would benefit the greater world, consider creating a [merge request](https://docs.gitlab.com/ee/user/project/merge_requests) and adding a contribution to this page.
+GitLab believes that all-remote is the [future of work]({{< ref "remote-vision" >}}), and remote companies have a shared responsibility to show the way for other organizations who are embracing it. If you or your company has an experience that would benefit the greater world, consider creating a [merge request](https://docs.gitlab.com/ee/user/project/merge_requests/) and adding a contribution to this page.
 
 ---
 

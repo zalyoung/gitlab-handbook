@@ -11,7 +11,7 @@ Despite all of its [advantages]({{< ref "remote-benefits" >}}), all-remote work 
 
 {{< youtube "CwOLAKSdlfs" >}}
 
-In the [video](https://youtu.be/CwOLAKSdlfs) above, GitLab Director of Technical Evangelism [Priyanka Sharma](https://gitlab.com/pritianka) discusses pros and cons of remote working with a panel of experts from [TFiR](https://www.tfir.io/), [Arm](https://www.arm.com/) and [ISG Research](https://isg-one.com/research).
+In the [video](https://youtu.be/CwOLAKSdlfs) above, GitLab Director of Technical Evangelism [Priyanka Sharma](https://gitlab.com/pritianka) discusses pros and cons of remote working with a panel of experts from [TFiR](https://tfir.io/), [Arm](https://www.arm.com/) and [ISG Research](https://isg-one.com/research).
 
 ## The difference between all-remote and remote-first
 
@@ -97,7 +97,7 @@ Remote work requires you to [manage your own time](/handbook/values/#managers-of
 </figure>
 <!-- blank line -->
 
-In the [video](https://youtu.be/ha4aMKl3MRA) above, GitLab co-founder and CEO Sid Sijbrandij discusses some of the organizational challenges involved in building and sustaining an all-remote company.
+In the [video](https://youtu.be/ha4aMKl3MRA) above, GitLab co-founder Sid Sijbrandij discusses some of the organizational challenges involved in building and sustaining an all-remote company.
 
 ### Challenge: Non-traditional setup
 
@@ -106,14 +106,14 @@ Because it's non-traditional, all-remote work sometimes [concerns](https://about
 **Solutions**
 
 - All-remote companies are welcome to glean from [GitLab's template for keeping investors in the loop](https://about.gitlab.com/blog/2018/10/17/how-we-keep-investors-in-the-loop/).
-- For those in the early stages of fundraising for an all-remote company, here are [30 tips from GitLab co-founder and CEO Sid Sijbrandij](https://about.gitlab.com/blog/2016/10/14/fundraising-tips-ceo/).
+- For those in the early stages of fundraising for an all-remote company, here are [30 tips from GitLab co-founder Sid Sijbrandij](https://about.gitlab.com/blog/2016/10/14/fundraising-tips-ceo/).
 - For even more on this topic, [listen](https://about.gitlab.com/blog/2019/08/16/all-remote-fundraising/) to Sid unpack why venture firms struggle to fund all-remote startups with [Maren Kate](https://www.linkedin.com/in/marenkate), host of the Remote AF podcast (link no longer available).
 
-> "In the beginning they assess your team, then they assess your product, and then they assess your financials. When it comes to the team, [investors are] super skeptical they will be able to create something with all-remote. Then when it's about the product they say, 'Yes, maybe, but what about scaling?' And then when it's about the financials you can let the numbers speak for themselves so it's less of a concern. — *GitLab co-founder and CEO Sid Sijbrandij*
+> "In the beginning they assess your team, then they assess your product, and then they assess your financials. When it comes to the team, [investors are] super skeptical they will be able to create something with all-remote. Then when it's about the product they say, 'Yes, maybe, but what about scaling?' And then when it's about the financials you can let the numbers speak for themselves so it's less of a concern. — *GitLab co-founder Sid Sijbrandij*
 
 ### Challenge: Compliance
 
-Differences in currency as well as tax, immigration, and labor laws around the world can create [compliance challenges](https://www.forbes.com/sites/forbeshumanresourcescouncil/2019/07/12/remote-work-is-here-to-stay-heres-how-to-avoid-three-common-compliance-issues/) for the organization.
+Differences in currency as well as tax, immigration, and labor laws around the world can create [compliance challenges](https://www.forbes.com/councils/forbeshumanresourcescouncil/2019/07/12/remote-work-is-here-to-stay-heres-how-to-avoid-three-common-compliance-issues/) for the organization.
 
 **Solution**
 

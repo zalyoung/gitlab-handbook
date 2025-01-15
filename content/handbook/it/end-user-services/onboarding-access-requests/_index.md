@@ -77,7 +77,7 @@ Before repairing, you must open an issue in the [End User Services Issue Tracker
 
 Do not provide the repair center with any credentials to your laptop. If they ask, you can tell them that they're authorized to do a factory reset on the laptop should it be necessary to run diagnostics. This will help prevent sensitive data from being accidentally or intentionally leaked during repair.
 
-Once you receive your laptop back, re-install MacOS ([instructions here](https://support.apple.com/en-au/HT208496)) and restore your data from a recent backup. This is to ensure that no unauthorized software was added during the repair process. Make sure that your [disk is encrypted](/handbook/it/end-user-services/onboarding-access-requests/#full-disk-encryption) and you've reinstalled [Jamf for Mac or DriveStrike for Linux](/handbook/it/end-user-services/onboarding-access-requests/#fleet-intelligence--remote-lockwipe). Also, ensure that you have installed [SentinelOne](https://internal.gitlab.com/handbook/it/endpoint-tools/#endpoint-management-technologies) in order to keep your laptop secure.
+Once you receive your laptop back, re-install MacOS ([instructions here](https://support.apple.com/en-us/102639)) and restore your data from a recent backup. This is to ensure that no unauthorized software was added during the repair process. Make sure that your [disk is encrypted](/handbook/it/end-user-services/onboarding-access-requests/#full-disk-encryption) and you've reinstalled [Jamf for Mac or DriveStrike for Linux](/handbook/it/end-user-services/onboarding-access-requests/#fleet-intelligence--remote-lockwipe). Also, ensure that you have installed [SentinelOne](https://internal.gitlab.com/handbook/it/endpoint-tools/#endpoint-management-technologies) in order to keep your laptop secure.
 
 If, however, the repair is going to be expensive and take weeks to fix or you have no back up laptop, your best option is to replace the laptop. Be advised, replaced laptops do not qualify for the [Laptop Buyback Policy](#laptop-buyback-policy) and will need to be returned to be repaired/recycled at GitLab IT's discretion.
 
@@ -249,9 +249,9 @@ Please refer to the [laptop buyback policy](/handbook/security/corporate/service
 
 ### Laptop Recycle/Return
 
-We use [SIPI Asset Recovery](https://www.sipicorp.com/itad/) for devices that need to be recycled.  At GitLab IT's discretion, laptops may also be sent to our vendor for repair. Either way, GitLab IT can provide a shipping label and box upon request at no cost to yourself. If you are able to purchase and expense the box, please do so.
+We use [SIPI Asset Recovery](https://www.sipicorp.com/secure-data-destruction/) for devices that need to be recycled.  At GitLab IT's discretion, laptops may also be sent to our vendor for repair. Either way, GitLab IT can provide a shipping label and box upon request at no cost to yourself. If you are able to purchase and expense the box, please do so.
 
-We use [Sycomp](https://sycomp.com/professional-services/endpoint-msp/) for devices that need to be repaired. At GitLab IT's discretion, laptops may also be sent to be recycled. Either way, GitLab IT can request a shipping label and box from the vendor at no cost to yourself. If you are able to purchase and expense the box, please do so.
+We use [Sycomp](https://sycomp.com/service/managed-services/endpoint-management/) for devices that need to be repaired. At GitLab IT's discretion, laptops may also be sent to be recycled. Either way, GitLab IT can request a shipping label and box from the vendor at no cost to yourself. If you are able to purchase and expense the box, please do so.
 
 If the IT department has record of a current litigation hold for the offboarded employee, IT will consult with Legal before proceeding.
 

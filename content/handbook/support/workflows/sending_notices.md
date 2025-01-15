@@ -81,7 +81,7 @@ The [Email Grab Script](https://gitlab.com/gitlab-com/support/runbooks/-/blob/ma
 
 - **Note**: If a new PAT was created from an admin account, that account will receive a slack message from the SIRTbot app asking if the PAT creation was legitimate. Remember to fill this out for security auditing.
 
-1. [Comment out](https://docs.ruby-lang.org/en/3.0/doc/syntax/comments_rdoc.html) the sections of the script that you will not be using, either `groups`, `users`, or `projects`.
+1. [Comment out](https://docs.ruby-lang.org/en/3.0/syntax/comments_rdoc.html) the sections of the script that you will not be using, either `groups`, `users`, or `projects`.
 1. Add your data to the section you will be using.
 1. Run the script with `ruby emailgrab.rb`.
 

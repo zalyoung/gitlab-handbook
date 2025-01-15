@@ -37,7 +37,7 @@ Please follow the table below to quickly find the most relevant place for what y
 
 Our handbook page has contributions from a diverse team. To help you efficienctly find answers, we highly suggest that you `cmnd+F` this page as a best searching practice.
 
-Try searching for as many permutations of what you're looking for. For example, if you want to find information on lead scoring search for keywords like `score, scoring, lead, leads, scoring`. Remember that [information retrieval](/handbook.gitlab.com/teamops/shared-reality/) is a core GitLab value, and a skill that will make a big difference in your careers.
+Try searching for as many permutations of what you're looking for. For example, if you want to find information on lead scoring search for keywords like `score, scoring, lead, leads, scoring`. Remember that [information retrieval](/teamops/shared-reality/) is a core GitLab value, and a skill that will make a big difference in your careers.
 
 If you can't find what you're looking for please reach out to a member of the Sales Dev Ops team and we'll help you find it, or update the handbook to include it!
 
@@ -99,6 +99,11 @@ Please find our SSoT in terms of reporting below, for each dashboard you can als
 
 | Name/Link                                                            | Description                                            |
 |-----------------------------------------------------------------------|--------------------------------------------------------|
+| [Action Needed: PubSec Global](https://gitlab.my.salesforce.com/01ZPL000000UN7F) | Dashboard outlining items where immediate action is needed in the PubSec team. |
+| [Action Needed: APJ BDR](https://gitlab.my.salesforce.com/01ZPL000000bkbl) | Dashboard outlining items where immediate action is needed for APJ BDR.          |
+| [Action Needed: EMEA BDR](https://gitlab.my.salesforce.com/01Z4M000000soBO) | Dashboard outlining items where immediate action is needed for EMEA BDR.          |
+| [Action Needed: AMER BDR](https://gitlab.my.salesforce.com/01ZPL00000069v3) | Dashboard outlining items where immediate action is needed for AMER BDR.        |
+| [Action Needed: SDR Global](https://gitlab.my.salesforce.com/01ZPL000000ULrp) | Dashboard outlining items where immediate action is needed for SDR Global.  |
 | [1:1 Dashboards - Accounts: EMEA COMM](https://gitlab.my.salesforce.com/01Z8X000000u7O4) | 1:1 dashboard for accounts in the EMEA COMM segment.    |
 | [1:1 Dashboards - Accounts: AMER COMM](https://gitlab.my.salesforce.com/01ZPL000001I5n3) | 1:1 dashboard for accounts in the AMER COMM segment.    |
 | [1:1 Dashboards - Accounts: ENTG AMER/LATAM](https://gitlab.my.salesforce.com/01ZPL000001I6Ub) | 1:1 dashboard for accounts in the ENG AMER/LATAM segment. |
@@ -118,11 +123,11 @@ Please find our SSoT in terms of reporting below, for each dashboard you can als
 
 | Name/Link                                                            | Description                                            |
 |-----------------------------------------------------------------------|--------------------------------------------------------|
-| [Action Needed: PubSec Global](https://gitlab.my.salesforce.com/01ZPL000000UN7F) | Dashboard outlining items where immediate action is needed in the PubSec team. |
-| [Action Needed: APJ BDR](https://gitlab.my.salesforce.com/01ZPL000000bkbl) | Dashboard outlining items where immediate action is needed for APJ BDR.          |
-| [Action Needed: EMEA BDR](https://gitlab.my.salesforce.com/01Z4M000000soBO) | Dashboard outlining items where immediate action is needed for EMEA BDR.          |
-| [Action Needed: AMER BDR](https://gitlab.my.salesforce.com/01ZPL00000069v3) | Dashboard outlining items where immediate action is needed for AMER BDR.        |
-| [Action Needed: SDR Global](https://gitlab.my.salesforce.com/01ZPL000000ULrp) | Dashboard outlining items where immediate action is needed for SDR Global.        |
+| [Attention Needed: PubSec Managers](https://gitlab.my.salesforce.com/01ZPL000000V0zp) | Dashboard outlining items where immediate action is needed for PubSec Managers.  |
+| [Attention Needed: APJ BDR Managers](https://gitlab.my.salesforce.com/01ZPL000000cUJd) | Dashboard outlining items where immediate action is needed for APJ BDR Managers.          |
+| [Attention Needed: EMEA BDR Managers](https://gitlab.my.salesforce.com/01ZPL0000006ABB) | Dashboard outlining items where immediate action is needed for EMEA BDR Managers.          |
+| [Attention Needed: AMER BDR Managers](https://gitlab.my.salesforce.com/01ZPL00000069VF) | Dashboard outlining items where immediate action is needed for AMER BDR Managers.        |
+| [Attention Needed: SDR Global Managers](https://gitlab.my.salesforce.com/01ZPL000000pryL) | Dashboard outlining items where immediate action is needed for SDR Global Managers.        |
 | [High Level Results Dashboard](https://gitlab.my.salesforce.com/01ZPL000000eQob) | The dashboard we use to glance at our bottom-line results. |
 | [Pipeline Progression Dashboard](https://gitlab.my.salesforce.com/01Z8X000000u6mP) | The dashboard we use to measure the progress, or lack of thereof, of opportunities sourced by our org. |
 | [Global/Regional Sales Dev Results Dashboard](https://10az.online.tableau.com/#/site/gitlab/views/DraftSalesDevAnalyticsHub/Overview?:iid=2) | A Tableau dashboard that breaks down attainment in regions or teams, and current/previous Quarters. |
@@ -186,10 +191,8 @@ You will find the lead views below. These views are split per use-case for your 
 | FY25 B3 - Change Owner AWA's (Clone)   | These leads are now in your name automatically (not leads you've necessarily chosen and moved into your name, the old B3 view had to be cloned which is no longer needed). This view however allows you to see leads that may not have been moved into your name because at the time, they did not meet criteria. These could be bc: the leads were in lead statuses of: Accepted, MQL, or Qualifying when you moved the account into Actively Working since leads with those statuses should stay with the owner. Leads that were in disqualified or ineligible are also not moved into your name. This view will allow you to get eyes on any leads that are not in your name. You then can review any LIM dates and decide to put leads into your name if no one is reaching out. Keep sorted by LIM Date. |
 | FY25 B4 - My HT Leads W/ Phone         | This view should be used when either you do not have enough daily call tasks in Groove to hit your daily KPI or when your team wants to do a call blitz etc. It allows you to easily pull into Groove and create additional call tasks for your leads currently in high touch flows.                                                                                                                             |
 | FY25 B5 - My Qualifying Leads          | These are leads in qualifying status which means some sort of two-way engagement happened between you two. Please review this section of our handbook for best converting follow-up practices.                                                                                                                                                                                                                          |
-| FY25 B6 - 6QA imported leads           | You can find any leads in your ownership related to accounts that have just hit 6QA status in this view. 6QA means the account has been shown to have high intent signals and has similar signs to other accounts that have purchased from us. We have brought in appropriate titles from ZoomInfo so that when you move the 6QA account into Actively Working, you have some leads all ready for sequencing.                                                                  |
-| FY25 B7 - BDR Prospecting Last 7 Days  | This view will surface leads that you created or refreshed from ZoomInfo or Cognism. (Please note that there is also a contacts view you will need to check should the person already be a contact in our system)                                                                                                                                                                                                                 |
-| FY25 B8 - UG changes - less than 3 months   | This view will surface leads that were automatically created by UserGems for job changed that happened in the last 3 months. |
-| FY25 B9 - UG changes - more than 3 months | This view will surface leads that were automatically created by UserGems for job changed that happened more than 3 months ago. |
+| FY25 B6 - BDR Prospecting Last 7 Days  | This view will surface leads that you created or refreshed from ZoomInfo or Cognism. (Please note that there is also a contacts view you will need to check should the person already be a contact in our system)                                                                                                                                                                                                                 |
+| FY25 B7 - UG leads   | This view will surface leads that were automatically created by UserGems. |
 
 #### Contact Views
 
@@ -242,7 +245,7 @@ If you need to do edits to the database by merging leads together for any of the
 
 #### SDR Territory Map
 
-![SDRTerritoryMap](/handbook/marketing/sales-development/SDRTerritoryMap.png)
+![SDRTerritoryMap](/images/marketing/sales-development/SDRTerritoryMap.png)
 
 #### Merging Leads
 
@@ -603,7 +606,7 @@ If the opportunity is for a new group of users in a Large account where sales is
 
 #### Opportunity Creation Workflow
 
-![Opp-Creation-Workflow](/handbook/marketing/sales-development/FY24OpportunityCreationWorkflow.png)
+![Opp-Creation-Workflow](/images/marketing/sales-development/FY24OpportunityCreationWorkflow.png)
 
 #### Scheduling IQMs
 
@@ -1077,11 +1080,12 @@ Specifically:
 - Accounts flagged as 6QA from 6Sense, whether they already exist on our system or not, will automatically be marked with the fields:
   - `BDR Prospecting Status: Actively Working`
   - `BDR Account Strategy: Showing Intent`
+
 - These Accounts will be flagged on 1:1 dashboards for team members to review with an expected SLA of **48 hours**
 - Any accounts that team members choose to dispute using the instructions below will be flagged to the Action Needed dashboards for Managers to keep track of.
 - While these accounts are automatically switched to Actively Working to indicate the high propensity to buy, team members need to still review and accept or dispute a 6QA account.
 - This can be done through a secondary field titled `6QA Acceptance Status` where the options `Disputed` (would need to provide reasoning) or `Accepted` can be found.
-- Any accounts that marked as `Accepted` by the BDR team will be flagged on the [MM/ENTG saved search on ZoomInfo](https://app.zoominfo.com/#/apps/searchV2/v2/results/person?query=eyJmaWx0ZXJzIjp7InBhZ2UiOjEsImNvbXBhbnlQYXN0T3JQcmVzZW50IjoiMSIsImlzQ2VydGlmaWVkIjoiaW5jbHVkZSIsInNvcnRCeSI6IlJlbGV2YW5jZSIsInNvcnRPcmRlciI6ImRlc2MiLCJleGNsdWRlRGVmdW5jdENvbXBhbmllcyI6dHJ1ZSwiY29uZmlkZW5jZVNjb3JlTWluIjo4NSwiY29uZmlkZW5jZVNjb3JlTWF4Ijo5OSwib3V0cHV0Q3VycmVuY3lDb2RlIjoiVVNEIiwiaW5wdXRDdXJyZW5jeUNvZGUiOiJVU0QiLCJleGNsdWRlTm9Db21wYW55IjoidHJ1ZSIsInJldHVybk9ubHlCb2FyZE1lbWJlcnMiOmZhbHNlLCJleGNsdWRlQm9hcmRNZW1iZXJzIjp0cnVlLCJzY29yaW5nT3B0aW9ucyI6IntcImlkXCI6XCJaUmhSeWJtUHIxMGU2cEVQVDVBcVwiLFwib25seUNvbnRhY3RGaWx0ZXJzXCI6ZmFsc2V9Iiwic291cmNlSWQiOiJBTlVSQSIsInRpdGxlU2VuaW9yaXR5IjoiQ19FWEVDVVRJVkVTLFZQX0VYRUNVVElWRVMsRElSRUNUT1IiLCJ3b3JrRXhwZXJpZW5jZUpvaW5PcGVyYXRvciI6Ik9SIiwicnBwIjoyNSwiZGVwYXJ0bWVudHMiOiJJbmZvcm1hdGlvbiBUZWNobm9sb2d5LEVuZ2luZWVyaW5nICYgVGVjaG5pY2FsLEMtU3VpdGUiLCJoYXNNb2JpbGVQaG9uZSI6ImluY2x1ZGUiLCJDRi1zYWxlc2ZvcmNlLWFjY291bnQtMTAyIjp7ImluY2x1ZGUiOnsicGxhdGZvcm0iOiJzYWxlc2ZvcmNlIiwiZW50aXR5IjoiYWNjb3VudCIsImZpZWxkTmFtZSI6IjEwMiIsImlkTGlzdCI6WyI0MDU5OXg0NG0xYXl1YWR4Il0sImlzSW5jbHVkZSI6dHJ1ZX19LCJoYXNFbWFpbCI6ImluY2x1ZGUifSwic2VhcmNoVHlwZSI6MH0%3D) which in turn will trigger the [ZoomInfo workflow here](https://app.zoominfo.com/#/apps/automate/workflow/overview/65fdc8011c3ae1ac2cbef07b/completed) to automatically bring relevant decision-makers for these accounts to the [B6 - 6QA view on SFDC.](/handbook/marketing/sales-development/#bdr-lead-views).
+- Any accounts that marked as `Accepted` by the BDR team will be flagged on the [MM/ENTG saved search on ZoomInfo](https://app.zoominfo.com/#/apps/searchV2/v2/results/person?query=eyJmaWx0ZXJzIjp7InBhZ2UiOjEsImNvbXBhbnlQYXN0T3JQcmVzZW50IjoiMSIsImlzQ2VydGlmaWVkIjoiaW5jbHVkZSIsInNvcnRCeSI6IlJlbGV2YW5jZSIsInNvcnRPcmRlciI6ImRlc2MiLCJleGNsdWRlRGVmdW5jdENvbXBhbmllcyI6dHJ1ZSwiY29uZmlkZW5jZVNjb3JlTWluIjo4NSwiY29uZmlkZW5jZVNjb3JlTWF4Ijo5OSwib3V0cHV0Q3VycmVuY3lDb2RlIjoiVVNEIiwiaW5wdXRDdXJyZW5jeUNvZGUiOiJVU0QiLCJleGNsdWRlTm9Db21wYW55IjoidHJ1ZSIsInJldHVybk9ubHlCb2FyZE1lbWJlcnMiOmZhbHNlLCJleGNsdWRlQm9hcmRNZW1iZXJzIjp0cnVlLCJzY29yaW5nT3B0aW9ucyI6IntcImlkXCI6XCJaUmhSeWJtUHIxMGU2cEVQVDVBcVwiLFwib25seUNvbnRhY3RGaWx0ZXJzXCI6ZmFsc2V9Iiwic291cmNlSWQiOiJBTlVSQSIsInRpdGxlU2VuaW9yaXR5IjoiQ19FWEVDVVRJVkVTLFZQX0VYRUNVVElWRVMsRElSRUNUT1IiLCJ3b3JrRXhwZXJpZW5jZUpvaW5PcGVyYXRvciI6Ik9SIiwicnBwIjoyNSwiZGVwYXJ0bWVudHMiOiJJbmZvcm1hdGlvbiBUZWNobm9sb2d5LEVuZ2luZWVyaW5nICYgVGVjaG5pY2FsLEMtU3VpdGUiLCJoYXNNb2JpbGVQaG9uZSI6ImluY2x1ZGUiLCJDRi1zYWxlc2ZvcmNlLWFjY291bnQtMTAyIjp7ImluY2x1ZGUiOnsicGxhdGZvcm0iOiJzYWxlc2ZvcmNlIiwiZW50aXR5IjoiYWNjb3VudCIsImZpZWxkTmFtZSI6IjEwMiIsImlkTGlzdCI6WyI0MDU5OXg0NG0xYXl1YWR4Il0sImlzSW5jbHVkZSI6dHJ1ZX19LCJoYXNFbWFpbCI6ImluY2x1ZGUifSwic2VhcmNoVHlwZSI6MH0%3D) which in turn will trigger the [ZoomInfo workflow here](https://app.zoominfo.com/#/apps/automate/workflow/overview/65fdc8011c3ae1ac2cbef07b/completed) to automatically bring relevant decision-makers for these accounts to the [B2 view on SFDC](/handbook/marketing/sales-development/#bdr-lead-views).
 - This is a complementary automation for the outbound team to automatically source some prospects for you. you are still expected to properly add the account to your pipeline following the steps outlined above.
 
   - [SMB Saved Search](https://app.zoominfo.com/#/apps/searchV2/v2/results/person?query=eyJmaWx0ZXJzIjp7InBhZ2UiOjEsImNvbXBhbnlQYXN0T3JQcmVzZW50IjoiMSIsImlzQ2VydGlmaWVkIjoiaW5jbHVkZSIsInNvcnRCeSI6IlJlbGV2YW5jZSIsInNvcnRPcmRlciI6ImRlc2MiLCJleGNsdWRlRGVmdW5jdENvbXBhbmllcyI6dHJ1ZSwiY29uZmlkZW5jZVNjb3JlTWluIjo4NSwiY29uZmlkZW5jZVNjb3JlTWF4Ijo5OSwib3V0cHV0Q3VycmVuY3lDb2RlIjoiVVNEIiwiaW5wdXRDdXJyZW5jeUNvZGUiOiJVU0QiLCJleGNsdWRlTm9Db21wYW55IjoidHJ1ZSIsInJldHVybk9ubHlCb2FyZE1lbWJlcnMiOmZhbHNlLCJleGNsdWRlQm9hcmRNZW1iZXJzIjp0cnVlLCJzY29yaW5nT3B0aW9ucyI6IntcImlkXCI6XCJaUmhSeWJtUHIxMGU2cEVQVDVBcVwiLFwib25seUNvbnRhY3RGaWx0ZXJzXCI6ZmFsc2V9Iiwic291cmNlSWQiOiJBTlVSQSIsInRpdGxlU2VuaW9yaXR5IjoiQ19FWEVDVVRJVkVTLFZQX0VYRUNVVElWRVMsRElSRUNUT1IiLCJycHAiOjI1LCJkZXBhcnRtZW50cyI6IkluZm9ybWF0aW9uIFRlY2hub2xvZ3ksRW5naW5lZXJpbmcgJiBUZWNobmljYWwsQy1TdWl0ZSIsImhhc01vYmlsZVBob25lIjoiaW5jbHVkZSIsIkNGLXNhbGVzZm9yY2UtYWNjb3VudC0xMDEiOnsiaW5jbHVkZSI6eyJwbGF0Zm9ybSI6InNhbGVzZm9yY2UiLCJlbnRpdHkiOiJhY2NvdW50IiwiZmllbGROYW1lIjoiMTAxIiwiaWRMaXN0IjpbIjQwNTk5eDN6bHRmeDliNWoiXSwiaXNJbmNsdWRlIjp0cnVlfX19LCJzZWFyY2hUeXBlIjowfQ%3D%3D)
@@ -1092,7 +1096,7 @@ Specifically:
 
   - Automatically enroll SMB leads to the fully automated sequence [here](https://web.outreach.io/sequences/13896/overview)
   - Automatically add MM/ENTG accounts to the [SFDC dashboard here.](https://gitlab.my.salesforce.com/01ZPL000000kAPN)
-  - Automatically add a sample size of prospects from each 6QA'd account to the SFDC view titled `B6 - My 6QA Leads.`
+  - Automatically add a sample size of prospects from each 6QA'd account to the SFDC view titled `B2 - AWA Leads w/ LIM`
 
 ### Qualified
 
@@ -1118,28 +1122,37 @@ This is where you can find messaging related to GitLab vs some of our competiors
 
 [UserGems](/handbook/marketing/marketing-operations/usergems) is a tool that tracks specific cohorts of people that we provide in terms of them changing jobs. This automated tracking provides valuable insights, surfacing warm leads that can drive faster, larger wins. This tool helps mitigate deal risks when key individuals leave accounts, and accelerates deal progress when influential contacts join new organizations.
 
-**We have two main cohorts we're tracking:**
-
 #### 1. When a person that we are tracking leaves their current place of employment
 
+- These people are identified by the lead initial source being `UserGems Contact Tracking`
 - UserGems will track that person to their new role and will automatically create a lead with their new details in our system.
 - These leads will be flagged on the **Action Needed BDR dashboards** for you and your manager's review, as well as on the [B2 views](/handbook/marketing/sales-development/#bdr-lead-views)
-- We expect that our [standard RoE](/handbook/marketing/sales-development/#rules-of-engagement-roe) will be followed normally in actioning these leads. 
-- These leads should also be considered as intent data for prospecting an outbound account. 
+- We expect that our [standard RoE](/handbook/marketing/sales-development/#rules-of-engagement-roe) will be followed normally in actioning these leads, similar to MQLs.
+- These leads will be routed to the BDR team if:
+  - They are associated to an Actively Worked Account
+  - Are connected to a Pursuit Account, or an account that has been marked as [6QA by 6Sense](/handbook/marketing/sales-development/#6sense-6qa-automations)
+- The rest of the leads that do not fit these parameters will be routed round-robin to the SDR team.
+- These leads should also be considered as intent data for prospecting an outbound account.
   - Take the time to research accounts for the propensity to purchase and intent signals. Could the tracked contact's hire into that account be a compelling event for you to use?
-  - This data can be found either on our [1:1 Dashboards](https://handbook.gitlab.com/handbook/marketing/sales-development/#dashboards-for-team-members) on report 6 that's dedicated to UserGems, or through this [lead-level SFDC template that you can clone and use.](https://gitlab.my.salesforce.com/00OPL00000BOYrq)
-  - Analyze the hiring and promotion patterns as business signals - a surge in technical hires (e.g., developers, engineers) may indicate growth initiatives, product development, or a focus on scaling infrastructure. Sales or customer success hires could suggest plans to expand revenue or enhance customer retention strategies. Use these hiring signals to identify potential challenges or priorities, such as team collaboration, scaling efficiently, or driving revenue growth. Based on these, target decision-makers who are likely overseeing these initiatives, like directors or VPs.
+  - This data can be found either on our [1:1 Dashboards](/handbook/marketing/sales-development/#dashboards-for-team-members) on report 6 that's dedicated to UserGems, or through this [lead-level SFDC template that you can clone and use.](https://gitlab.my.salesforce.com/00OPL00000BOYrq)
+  - Analyze the hiring and promotion patterns as business signals.
+    - A surge in technical hires (e.g., developers, engineers) may indicate growth initiatives, product development, or a focus on scaling infrastructure.
+    - Sales or customer success hires could suggest plans to expand revenue through growth or enhance customer retention strategies.
+    - Senior Leadership hires may indicate an internal restructuring of a department or a new business initiative.
+      - Use these hiring signals to identify potential challenges or priorities, such as team collaboration, scaling efficiently, or driving revenue growth. Based on these, target decision-makers who are likely overseeing these initiatives, like directors or VPs.
 - If you'd like to iterate on any UserGems flows please follow the content creation process outlined [here.](/handbook/marketing/sales-development/#flow-creation)
 - We'll also notify you via Slack and email about these Job Changes.
 
 #### 2. When a company that we are tracking gets a new hire or promotion
 
+- These people are identified by the lead initial source being `UserGems - New Hires and Promotions`
 - These people will be automatically be enrolled to a [fully automated sequence](https://groove.clari.com/flows/1124157).
-  - We expect that our [standard RoE](/handbook/marketing/sales-development/#rules-of-engagement-roe) will be followed normally.
+- Similar to above, the same people will be flagged on dashboards and reporting for you to consider as intent signals to add their respective accounts to your pipeline.
+- We expect that our [standard RoE](/handbook/marketing/sales-development/#rules-of-engagement-roe) will be followed normally.`
 
 #### 3. When people leave or join accounts where we have open oppourtunities
 
-- While we are actively working to improve our back-end so that this cohort can be visible on our dashboards, like the use-cases above, we are relying on sending notifications only for these people. In the meantime, you can use the report here to gauge what prospects we have on [this list.](https://gitlab.my.salesforce.com/00OPL000007z6XV). We are currently notifying:
+- While we are actively working to improve our back-end so that this cohort can be visible on our dashboards, like the use-cases above, we are relying on sending notifications only for these people. In the meantime, you can use the report here to gauge what prospects we have on [this list](https://gitlab.my.salesforce.com/00OPL000007z6XV). We are currently notifying:
   - The Sales team for people that joined or left a stage 3 or beyond opportunity.
   - The Sales and Sales Development teams for people that joined or left a stage 0, 1 or 2 opportunity.
 - These people are not enrolled to a specific flow, since there multiple scenarios on how to best address them, please search Groove for templated messages [like this one](https://groove.clari.com/templates?fId=280305&tId=3285044) that you can use.
@@ -1579,7 +1592,7 @@ If the related SDR relays information that was not picked up in the new SDR's re
 
 #### Routing Workflow Chart
 
-![Routing-Chart](/handbook/marketing/sales-development/RoutingChart.png)
+![Routing-Chart](/images/marketing/sales-development/RoutingChart.png)
 
 ### Frequently Asked Questions (FAQ)
 
@@ -1768,7 +1781,7 @@ Announcement Channels
 |                                        | - Endorsement from SDR management                                                                                                                                                   |
 |                                        | - Demonstration of GitLab's Values                                                                                                                                                  |
 |                                        | - Completion of SDR Q1-Q3 Tanuki Techs                                                                                                                                              |
-|                                        | NOTE: Not every SDR will have the opportunity to become a team lead. Interviews will take place when a spot is available. A successful applicant must make a 3-month minimum commitment to the Team Lead Role before pursuing another promotion.  |
+|                                        | NOTE: Not every SDR will have the opportunity to become a team lead. Interviews will take place when a spot is available. A successful applicant must make a 6-month minimum commitment to the Team Lead Role before pursuing another promotion.  |
 | SDR to BDR                             | - Minimum 12 months in the SDR Role (incl. ramp)                                                                                                                                    |
 |                                        | - Hitting quota cumulatively over the last 2 fully-ramped quarters (neither quarter below 80% attainment)                                                                          |
 |                                        | - Endorsement from current SDR manager                                                                                                                                              |
@@ -1786,7 +1799,7 @@ Announcement Channels
 |                                        | - Endorsement from BDR management                                                                                                                                                   |
 |                                        | - Demonstration of GitLab's Values                                                                                                                                                  |
 |                                        | - Completion of BDR Q1-Q3 Tanuki Techs                                                                                                                                              |
-|                                        | NOTE: Not every BDR will have the opportunity to become a team lead. Interviews will take place when a spot is available. A successful applicant must make a 3-month minimum commitment to the Team Lead Role before pursuing another promotion.  |
+|                                        | NOTE: Not every BDR will have the opportunity to become a team lead. Interviews will take place when a spot is available. A successful applicant must make a 6-month minimum commitment to the Team Lead Role before pursuing another promotion.  |
 | BDR and BDR Team Lead to Next Step     | - Minimum 12 months in the BDR Role (incl. ramp)                                                                                                                                    |
 |                                        | - Hitting quota cumulatively over the last 2 fully-ramped quarters (neither quarter below 80% attainment)                                                                          |
 |                                        | - Endorsement from BDR management                                                                                                                                                   |

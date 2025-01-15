@@ -2,19 +2,17 @@
 title: Elevate
 ---
 
-Elevate: a live virtual leadership development program for GitLab managers, focused on understanding leadership competencies, building emotional intelligence, giving and recieving great feedback, coaching, and recognizing unconscious bias.
+Elevate is a live virtual leadership development program for GitLab managers, focused on understanding leadership competencies, building emotional intelligence, giving and recieving great feedback, coaching, and recognizing unconscious bias.
+
+**Note**: We're making some changes to the Elevate program currently, so this page is under construction as we roll out the new iteration of the program, to view information about the previous version of Elevate (if you enrolled before October 2024), please visit the [Elevate - Previous Iterations](./elevatev1.md) page.
 
 Managers at GitLab enable our mission that [everyone can contribute]({{< ref "mission" >}}). We need to equip our people leaders with the skills to lead globally dispersed, all-remote teams to support our business growth at scale.
 
 The handbook provides guidance on GitLab [leadership competencies](/handbook/people-group/competencies/#manager-and-leadership-competencies) and principles. Bringing these practices to life requires training and practice. **Elevate**, GitLab's leadership development program, provides opportunity for people leaders to learn to lead at GitLab.
 
-At this time, Elevate is only available for current People Leaders, People Business Partners, and members of the Team Member Relations team.
-
-{{< vimeo "827425645?h=8019cd1096" >}}
-
 ### Goal
 
-In FY24, 85% of people leaders will complete Elevate and earn the GitLab Elevate certification.
+In FY26, 85% of GitLab managers will complete Elevate.
 
 ## What team members are saying about Elevate
 
@@ -25,89 +23,27 @@ In FY24, 85% of people leaders will complete Elevate and earn the GitLab Elevate
 
 ## What is Elevate
 
-Elevate is a highly interactive, all-remote program where managers will learn with, and from, each other. The goal is to provide a common, well understood leadership framework which demonstrates GitLab [values](/handbook/values/), [leadership competencies](/handbook/people-group/competencies/#manager-and-leadership-competencies), and [mission]({{< ref "mission" >}}).
+Elevate is a highly interactive, all-remote program where managers will learn with, and from, each other. The goal is to provide a common, well understood leadership framework which demonstrates GitLab [values](/handbook/values/) and [leadership competencies](/handbook/people-group/competencies/#manager-and-leadership-competencies).
 
 In Elevate, participants will:
 
-1. Learn what it means to lead at GitLab
 1. Practice the [Manager & Leadership competencies](/handbook/people-group/competencies/#manager-and-leadership-competencies)
 1. Build cross-functional relationships with coaching cohort members
 1. Demonstrate leadership competency by completing the Elevate Leadership Certification
 
-## What concepts are taught in Elevate
+## How is the program structured?
 
-Elevate is organized into 5 learning modules. Read more about the skills covered in each module below:
+Elevate is organized into 6 learning modules, including 2 practice labs. Practice Labs are primarily an interactive session in which you'll practice the concepts taught in the previous module, however, every module will include elements of interactivity. Each module is 60 minutes long, and they take place at 2 week intervals. View the infographic below for more details on what's covered in each module.
 
-![visual displaying the content in each elevate module](/handbook/people-group/learning-and-development/elevate-programs/images/elevatemodules.png)
+![visual displaying the content in each elevate module](/images/handbook/people-group/elevatemoduleoverviews.png)
 
-We've put together a Level Up course available to all GitLab Team Members, to share the self-paced training content for each Elevate module. You can check it out here: [Elevate Learning Materials](https://levelup.gitlab.com/access/saml/login/internal-team-members?returnTo=https://levelup.gitlab.com/learn/learning-path/elevate-learning-materials)
+All participants are expected to complete the program and make up any missed sessions within one month of the final live session taking place (Friday April 11th). If you think this won't be feasible, please let a member of the Learning and Development team know so we can find a solution, whether be providing extra support or re-adding you to the program at a later date.
 
-## Time Commitment
-
-![visual displaying the module path for learners in the Elevate program](/handbook/people-group/learning-and-development/elevate-programs/images/elevatepath.png)
-
-Elevate runs for a total of 6 months and is organized into 5 learning modules. In each module, participants spend a total of 3-4 hours in the following learning activities:
-
-| Steps | Title | Description | Time Spent |
-| ------- | ----- | ---------- | ----- |
-| Step 1 | Live Learning Session | 1x monthly synchronous learning session on the relevant module topic | 50 minutes |
-| Step 2 | Asynchronous Learning | Videos, reading, journaling, self-reflections, and quizzes to reinforce concepts completed in Level Up | 45 minutes |
-| Step 3 | Group Coaching | Cross-functional group coaching sessions with 10-12 other GitLab people leaders to practice module concepts | 80 minutes |
-| Step 4 | Assess your Learning | Take a quiz in Level Up to demonstrate your understanding of new concepts. | 5 minutes |
-
-Watch this video for a walk through of each step:
-
-{{< youtube "Eyh-Az13o0U" >}}
-
-### Pre-Certification Coaching
-
-After you complete Module 5, team members will attend a pre-certification coaching session to prepare for certification.
-
-The intention of this session is to allow space to practice and ask questions about what certification will look and feel like.
-
-To prepare for your pre-certification coaching session, review instructions outlined [here](https://docs.google.com/document/d/1fLywGTJHZppgZBoV6QbucXTc8UNxjUB_VbDiU9MPn3A/edit).
-
-Starting with Round 3, pre-certification coaching sessions are required. For Round 2, they are optional.
-
-### Certification
-
-The Elevate Certification process is your time to shine!
-
-Following Module 5, you'll be assessed on your mastery of the leadership competencies taught in Elevate. Certification will occur in a live, collaborative, 50 minute session with a small group of other Elevate participants, likely in your cohort.
-
-The certification for Elevate is not meant to be scary! It's a time to demonstrate everything you've learned and celebrate your new skills and self awareness as you continue to grow as a leader at GitLab.
-
-**Elevate Participant Action Items:**
-
-1. Sign up for a 50 minute certification session that works for your schedule. The sign up issue for your cohort will be shared in Slack.
-1. Review the 4 scenarios that you might be asked about in the session [here](https://docs.google.com/document/d/1vugl8dAeEIX3UxMCIusgG3_HDH6QEABenIf72y83ujg/edit).
-1. Make a copy of the [Elevate Tools and Frameworks resource](https://docs.google.com/document/d/1o-JbkF7uB0pQmf1NJcuZkmak3s-eXaMxo_BL1bIlCPU/edit) for your own note take and certification prep.
-1. Understand how your performance will be assessed by reviewing the grading rubric [here](https://docs.google.com/document/d/1jzbJ-7aa9Qwn6fv111pKLJ6llYg7z_tPCx-O3mWQi2c/edit)
-1. Practice and ask questions in your cohort Slack channel
-
-**What to expect in the certification session:**
-
-1. A collaborative, 50 minute session with others Elevate participants, likely in your cohort
-1. Opportunity to demonstrate your understanding of Elevate leadership competencies
-1. Time to give feedback and discuss iterations for others in your small group
-
-Following the certification, a member of the L&D team will follow up with your results, and either share your Elevate certification or discuss next steps. If for some reason you don't pass the certification, you'll meet 1:1 with a Elevate coach to practice your skills.
+We ask that team members make an effort to attend the live sessions, and engage in them fully, with cameras on. This enhances the experience for other team members and fosters an environment which promotes more active engagement and discussion with the concepts being discussed.
 
 ## Making up missed sessions
 
-Attendance to all Elevate live sessions is required to earn the certification. We understand that making time for all live sessions can be difficult. We have options for making up sessions you've missed:
-
-**Option 1: Attend Another Session**
-
-There are **5 Live Learning** and **10 Group Coaching** options for each module. If you cannot attend your scheduled sessions, Option 1 is to attend another scheduled session. Additional Group Coaching makeups will be scheduled after each module to accommodate anyone who has missed a session.
-
-Note: You will initially be invited to 4 Live Learning & 1 Group Coaching session - invites will be shared to the other makeup sessions based on your availability.
-
-**Option 2: Async Makeup**
-
-If none of the 5 Live Learning sessions will work, you may use Option 2: Async Makeup. Note that this can only be used a total of **one time** per participant.
-
-Async makeups will be shared with participants directly via Level Up. These include watching recordings from the Live Learning and responding to text-based discussion threads in Level Up.
+Attendance to all Elevate live sessions is required to complete the program. We understand that making time for all live sessions can be difficult. If you cannot attend one of the 2 scheduled private GitLab sessions, you will be able to schedule into a session publicly hosted by our delivery partner Hone. These sessions happen globally, so won't be exclusively GitLab team members, but the core concepts of the module will still be taught.
 
 ## Supporting your team in Elevate
 
@@ -126,19 +62,11 @@ People Leaders with direct reports who are in a current Elevate cohort could be 
 
 ## Measuring Success
 
-Before each Elevate cohort begins, a short survey will be sent to participants' direct reports via Culture Amp. The questions are meant to understand the perception of direct reports, specifically related to how their managers are already demonstrating concepts covered in Elevate.
+We evaluate the success of Elevate through a combination of surveys, sentiment scoring, feedback, and analyiss of People data.
 
-The same survey will be sent to participants' direct reports immediately after the program ends, then again after 6 and 12 months.
+As we roll out the new iteration of the program, we are developing our methods for measuring success, and will add more information here soon.
 
 ## Frequently Asked Questions
-
-### What does success in Elevate look like?
-
-To earn the final Elevate certification, participants must:
-
-1. Attend or makeup all live sessions, as outlined below
-1. Complete all self-paced work in Level Up
-1. Pass the Elevate Certification
 
 ### Is my participation in Elevate required?
 
@@ -146,66 +74,28 @@ Yes, this is a required training for all people leaders at GitLab.
 
 ### Where do I communicate my questions, concerns, and feedback as I go through the program?
 
-When the program begins, you'll be added to a Slack group that includes all members of your cohort. The naming convention used is `#elevate-cohort-x`. You can also reach out directly to your manager or the Learning and Development team.
+When the program begins, you'll be added to a Slack group that includes all members of your cohort. You can also reach out directly to your manager or the Learning and Development team.
 
-### I missed, or cannot attend, a live learning or group coaching. What do I do?
+### I missed, or cannot attend, a session, what do I do?
 
-It's a requirement to make up missed sessions within each month to ensure that you're learning each new skill and moving through the program in the appropriate order. Please make every effort to attend live sessions as scheduled. We have [2 makeup options outlined below](#making-up-missed-sessions). If a conflict arises for your assigned group coaching session, you can attend with another cohort. If none of the live session times work for you, you can complete the Async Makeup. **Please reach out proactively to a member of the Learning and Development Team if you cannot attend a session.**
+It's a requirement to make up missed sessions to ensure that you're learning each new skill and moving through the program in the appropriate order. Please make every effort to attend live sessions as scheduled. If you miss a session, you'll have the option to schedule into a 'Membership' session in the Hone platform. We'll share more details on this process soon.
 
 We're committed to working with you to find a solution that let's you successfully complete Elevate. If you must miss one live session for personal reasons, you need approval from your manager. Additional missed sessions will result in an incomplete Elevate status.
 
-### What if I have already completed the manager challenge?
+### I'm over capacity and feel like I may need to opt out of the training, what should I do?
 
-The [Manager Challenge]({{< ref "manager-challenge" >}}) is a past iteration of leadership development at GitLab. We appreciate the time that past manager challenge participations have dedicated to their growth and development. Elevate is the next iteration in our GitLab manager journey, and is still required of manager challenge participants.
+We want to try to support all people leaders to go through the program in its entirety - if you're feeling like it's too much to balance with your other work, as a first port of call please speak to your manager and explore options for how you can be supported to continue. If your manager is supportive of you leaving the program, please let one of the Talent Development team know. The Talent Development team will then speak to your People Business Partner to notify them of your leaving the program, and explore any final options to support you in continuing.
 
-### When I complete this program will I earn a certificate?
-
-Yes! Upon successful completion of the program, including attendance to all required live sessions, asynchronous learning, and assessments, participants will be awarded the GitLab Elevate certification.
+Team members who leave the program part way through will still need to complete it in it's entirety in the future, but the point of re-entry will be reviewed on a case by case basis.
 
 ### How often will this program run?
 
-We currently plan for a new group of ~30 people leaders to start this program every 2-3 months.
+We currently plan for a new group of ~50 people leaders to start this program every 2-3 months.
 
 ### Is there opportunity to participate in the program if I am an aspiring manager?
 
-Team members who are not in people manager roles are considered on a case by case basis for involvement in Elevate, as of August 2024. If aspiring managers are interested in participating in Elevate, they should start by discussing their career growth goals with their manager and People Business Partner. Decisions on enrollment will be made on a case by case basis between managers, PBPs, and the Talent Development team.
-
-In addition, there is a Level Up course available to all GitLab Team Members, to share the self-paced training content for each Elevate module. You can check it out here: [Elevate Learning Materials](https://levelup.gitlab.com/access/saml/login/internal-team-members?returnTo=https://levelup.gitlab.com/learn/learning-path/elevate-learning-materials)
+We're planning to launch ElevatePrep in Q1 of FY26, a program specifically designed for aspiring managers. Please reach out to the Talent and Development team in the #learninganddevelopment if you wish to be considered for the next round. We'll be sharing more details on the program soon.
 
 ### What if I get promoted while I'm part of Elevate?
 
 If you're promoted from Manager to Senior Manager, you'll continue Elevate without interruption. If you're promoted to a Director role or above, please plan to discuss directly with your manager and the Elevate team. Decisions will be made on a case by case basis.
-
-## Delivering Elevate
-
-This section includes key resources for the Learning and Development team who delivers Elevate.
-
-### Language
-
-Refer to the table below to align on language used to talk about Elevate.
-
-| Term | Definition |
-| ----- | ---------- |
-| Round | Collection of cohorts starting Elevate at the same time - used for internal reference only |
-| Cohort | Groups of 10-12 participants organized by timezone who meet together for Group Coaching - used with participants |
-| Manager+ Path | Elevate content for Managers and Senior Managers |
-| Director+ Path | Elevate content for Directors, Senior Directors, and VPs |
-| Pilot | First group of ~45 managers involved in Elevate |
-| Round 1 | Manager+ Path running from April-August 2023 - 100 participants |
-| Round 2 | Manager+ Path running from June-January 2024 - 60 participants |
-| Round 3 | Manager+ Path running from October-March 2024 - 30 participants |
-
-### Resources
-
-1. [Use the #new-elevate-cohort issue template](https://gitlab.com/gitlab-com/people-group/learning-development/general/-/tree/master/.gitlab/issue_templates) whenever you start a new round of Elevate
-
-### Disengaged Participants
-
-If a participant misses a live session or falls behind on self paced work, the L&D team should use the following outreach process. Messages can be found [in this Google sheet](https://docs.google.com/spreadsheets/d/1xPAVF9hlZE_oZohmQ_WhE6Q36TJoSuJkidPraUNbZ3c/edit#gid=0).
-
-| Timeline | L&D Action |
-| ----- | ----- |
-| Participant is incomplete on live session or self pace work | Message 1: Direct message via Slack to coordinate makeup or check on progress |
-| No response 24 hours after Message 1 | Message 2: Direct message via Slack to participant & PBP |
-| No response 24 hours after Message 2 | Message 3: Direct message via Slack to participant, PBP, & Talent Acquisition VP |
-| Disengaged or request program exit | Message 4: L&D team sends message to PBP of participant to discuss enrollment of future Elevate cohort |

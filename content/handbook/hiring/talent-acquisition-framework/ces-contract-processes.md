@@ -377,11 +377,10 @@ CES: Follow the instructions below on how to create and send a job change letter
 1. The signatory matches the appropriate entity. If the candidate is located in the US (including Federal), Morgan Wilkins can be a signatory. If the candidate is employed through a PEO, Morgan Wilkins and Marissa Ferber can be signatories (this process is subject to change)
 1. Next, Click Generate
 1. Select Job Change Letter template in Greenhouse:
-    - Job Change Letter w/ OTE (US ONLY!)
-    - Job Change Letter w/ no OTE (US ONLY!)
+    - Job Change Letter - OTE/with RSU's
+    - Job Change Letter - No OTE/with RSU's
     - Job Change Letter w/ OTE, no RSU's
     - Job Change Letter, No OTE, No RSU's
-    - **Special Note: Please ensure you are using the bottom two templates ONLY for NON US JCLs!**
 
 JCLs should be treated like contracts, where RSUs are only features in US ones and all other countries should have text within the DocuSign email instead.
 
@@ -576,7 +575,7 @@ GitLab is working in partnership with Global Expansion to employ GitLab team-mem
 
 ## Preparing Employment Agreements for GitLab team members employed via Global Upside
 
-GitLab is working in partnership with [Global Upside](https://globalupside.com) for employing GitLab team-members located in:
+GitLab is working in partnership with [Global Upside](https://www.safeguardglobal.com/) for employing GitLab team-members located in:
 
 - India
 
@@ -674,10 +673,7 @@ Kindly note the following when filling in this section:
 | Country | Benefit plan |
 |---------|--------------|
 | Denmark | Standard |
-| Austria | None |
 | Hungary | Standard |
-| Mexico | Allowance |
-| South Africa | Allowance |
 | Luxembourg | Premium |
 | Brazil | Omint Plan (should be added for you) |
 | Italy | Premium |

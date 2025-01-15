@@ -11,7 +11,7 @@ When an extreme weather event; natural disaster or any other catastrophe occurs 
 
 A catastrophic event has the potential to pose a significant threat to human health and safety, property, critical infrastructures and national security.
 
-These events may come without any warning and/or they could be driven by seasonal weather patterns. Different countries around the world have various ways of declaring a `disaster` e.g. [The Office of Disaster Management in India](https://ndma.gov.in) is responsible for declaring and directing efforts around Natural Disasters whereas the United States of America the [Department of Homeland Security](https://www.dhs.gov/natural-disasters) would initiate these declarations and the associated federal response.
+These events may come without any warning and/or they could be driven by seasonal weather patterns. Different countries around the world have various ways of declaring a `disaster` e.g. [The Office of Disaster Management in India](https://ndma.gov.in) is responsible for declaring and directing efforts around Natural Disasters whereas the United States of America the [Department of Homeland Security](https://www.dhs.gov/archive/natural-disasters) would initiate these declarations and the associated federal response.
 
 ### Team Member Assistance
 

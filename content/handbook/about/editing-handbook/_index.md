@@ -7,9 +7,11 @@ This page focuses on how to edit the handbook.
 Please see the [handbook usage page](../handbook-usage.md) for how and why we use the handbook, and other [docs pages](https://handbook.gitlab.com/docs/) for further reference.
 
 This page is intended to be complementary to [Using GitLab at GitLab](/handbook/people-group/using-gitlab-at-gitlab/#using-gitlab-competency).
-We suggest you complete the [GitLab 101 Tool Certification](/handbook/people-group/learning-and-development/gitlab-101/) if you haven't already.
+Reviewing the [GitLab 101](/handbook/people-group/learning-and-development/gitlab-101/) page may also be useful.
 
 **Have your own practical Handbook editing tips? Drop a video below!**
+
+> **Tip** Use AI to edit the handbook faster, and learn about [Anthropic Claude](/handbook/tools-and-tips/ai/claude/) and [GitLab Duo](/handbook/tools-and-tips/ai/gitlab-duo/).
 
 ## Add yourself to the team page
 
@@ -125,9 +127,9 @@ If you want to install a local version of the website to test and preview things
 see the [handbook project readme](https://gitlab.com/gitlab-com/content-sites/handbook/-/tree/main) for instructions on how to set it up.
 
 1. Set up an [SSH key](https://docs.gitlab.com/ee/user/ssh.html) to use with GitLab, if you have not previously done so.
-1. [Set up Git](https://docs.gitlab.com/ee/gitlab-basics/start-using-git.html) and clone the appropriate repository, such as the [public handbook](https://gitlab.com/gitlab-com/content-sites/handbook).
+1. [Set up Git](https://docs.gitlab.com/ee/topics/git/commands.html) and clone the appropriate repository, such as the [public handbook](https://gitlab.com/gitlab-com/content-sites/handbook).
 1. Use your editor of choice to make changes. If you use [Visual Studio Code](https://code.visualstudio.com/download) optionally along with the [GitLab Workflow extension for VS Code](https://docs.gitlab.com/ee/editor_extensions/visual_studio_code/), you can follow the [Web IDE editing instructions](#use-the-web-ide-to-edit-the-handbook).
-1. [Push the changes to GitLab](https://docs.gitlab.com/ee/gitlab-basics/start-using-git.html#send-changes-to-gitlab).
+1. [Push the changes to GitLab](https://docs.gitlab.com/ee/topics/git/commands.html#send-changes-to-gitlab).
 1. Create a merge request.
 
 Additional notes:
@@ -194,6 +196,7 @@ If you delete, rename, or move a page, you should:
 
 1. [update all existing links](practical-handbook-edits.md#find-and-replace-a-string-in-all-matching-files) in the handbook **and** internal handbook.
    - Note: When searching for links, use the page name. Sometimes links use references or relative links, meaning it doesn't use the full path.
+   - Please also consider searching for and updating handbook links in other places, such as [docs](https://docs.gitlab.com) and project templates in [gitlab-com](https://gilab.com/gitlab-com) and [gitlab-org](https://gitlab.com/gitlab-org).
 1. [add a redirect](https://handbook.gitlab.com/docs/development/#redirects).
 
 ## Editing page maintainers
@@ -299,7 +302,7 @@ Additionally, consider using the [Glob Pattern](https://code.visualstudio.com/ap
 
 There is a special linter that validates links and anchors across the handbook. If your change accidentally breaks a link, then the pipeline job will fail with a similar error message.
 
-![Link linter error](/handbook/about/images/link-linter-error.png)
+![Link linter error](/images/about/link-linter-error.png)
 
 1. It is a path to the file where the broken link was detected.
     (file path - `sites/handbook/source/handbook/total-rewards/benefits/general-and-entity-benefits/pty-benefits-australia/index.html.md`, line number: 87)
@@ -388,4 +391,4 @@ Team members, referred to as [MR Buddies](/handbook/people-group/general-onboard
 
 For general questions about the handbook, post in the [handbook Slack channel](https://gitlab.enterprise.slack.com/archives/C81PT2ALD).
 
-For [more serious problems](/handbook/about/on-call/#when-to-escalate-an-issue), especially ones that are time sensitive or prohibiting access to important information, there is an [escalation process](/handbook/about/on-call/) to reach out to team members who are on-call to help resolve the problem.
+For more serious problems, especially ones that are time sensitive or prohibiting access to important information, there is an [escalation process](/handbook/about/escalation/#when-to-escalate-an-issue) to reach out to team members who are able to help resolve the problem.

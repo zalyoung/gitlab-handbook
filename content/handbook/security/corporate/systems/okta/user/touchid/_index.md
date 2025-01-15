@@ -16,29 +16,29 @@ title: Okta User SSO Guide (Touch ID 2FA Setup)
 
 1. After pressing `Set up` twice, a prompt from your web browser will appear, or a [1Password prompt](/handbook/security/corporate/systems/1password/passkey) may appear. Click the thumb drive icon to bypass if it appears and you wish to save it in iCloud Keychain (recommended) or the local Chrome browser.
 
-    <img src="/handbook/business-technology/okta/images/1password-passkey.png" alt="1Password USB Key" width="300">
+    <img src="/images/business-technology/okta/1password-passkey.png" alt="1Password USB Key" width="300">
 
 1. For iCloud Keychain or a YubiKey, click "Use a different passkey". For the local Chrome browser choose "Continue".
 
-    <img src="/handbook/business-technology/okta/images/Okta-Chrome-Passkey-Popup.png" alt="Okta Add Passkey #1" width="300"/>
+    <img src="/images/business-technology/okta/Okta-Chrome-Passkey-Popup.png" alt="Okta Add Passkey #1" width="300"/>
 
 <!-- FIXME -->
 
 1. If you choose to save it in your Chrome profile, another prompt will appear asking you to authenticate using Touch ID or Face ID.
 
-    <img src="/handbook/business-technology/okta/images/Okta-Add-Biometric-2.png" alt="Okta Add Biometric #2" width="300"/>
+    <img src="/images/business-technology/okta/Okta-Add-Biometric-2.png" alt="Okta Add Biometric #2" width="300"/>
 
 1. If you chose to use the iCloud Keychain or Security Key, choose the correct option to finish enrollment.
 
-    <img src="/handbook/business-technology/okta/images/Okta-Chrome-Passkey-2.png" alt="Okta Add Passkey #2" width="300"/>
+    <img src="/images/business-technology/okta/Okta-Chrome-Passkey-2.png" alt="Okta Add Passkey #2" width="300"/>
 
 1. For Security Key, relevant prompts will appear.
 
-    <img src="/handbook/business-technology/okta/images/Okta-Add-SecurityKey-1.png" alt="Okta Security Key #1" width="300"/>
+    <img src="/images/business-technology/okta/Okta-Add-SecurityKey-1.png" alt="Okta Security Key #1" width="300"/>
 
 1. You may be prompted for a PIN, and then finally click `Allow`.
 
-    <img src="/handbook/business-technology/okta/images/Okta-Add-SecurityKey-2.png" alt="Okta Security Key #2" width="300"/>
+    <img src="/images/business-technology/okta/Okta-Add-SecurityKey-2.png" alt="Okta Security Key #2" width="300"/>
 
 1. We recommend enrolling both Chrome and Safari for redundancy on your computer, as well as a mobile device. Each browser needs to be enrolled separately, unless you use iCloud Keychain. Note that separate Chrome browser profiles also need to be enrolled separately. You should enroll one computer browser (for example, Chrome), then add the mobile device, then if required add the other computer browser (for example, Safari).
 

@@ -17,7 +17,7 @@ description: "This Hands-On Guide walks you through the lab exercises used in th
 ## Quick links
 
 * [GitLab with Git Fundamentals course description](https://university.gitlab.com/pages/gitlab-fundamentals-training)
-* [GitLab Certified Associate Certification Details](https://about.gitlab.com/services/education/gitlab-certified-associate/)
+* [GitLab Certified Associate Certification Details](https://university.gitlab.com/pages/certifications/)
 
 ## Suggestions?
 

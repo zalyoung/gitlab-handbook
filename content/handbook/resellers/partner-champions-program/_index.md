@@ -2,7 +2,7 @@
 title: "GitLab Partner Champions Program"
 ---
 
-![GitLab Partner Champion](images/champions-dark-bg.png)
+![GitLab Partner Champion](/images/resellers/partner-champions-program/champions-dark-bg.png)
 
 <link rel="stylesheet" type="text/css" href="/stylesheets/biztech.css" />
 
@@ -47,7 +47,7 @@ GitLab Champions enlists, supports, rewards, and recognizes members of the GitLa
 
 ## Who is the Right Candidate for the Program?
 
-**- Adhere to GitLab Values:** Aspire to GitLab [mission](https://about.gitlab.com/company/mission/#mission), uphold our [values](/handbook/values/), and adhere to our [Code of Conduct](https://about.gitlab.com/community/contribute/code-of-conduct/).
+**- Adhere to GitLab Values:** Aspire to GitLab [mission](/handbook/company/mission/#mission), uphold our [values](/handbook/values/), and adhere to our [Code of Conduct](https://about.gitlab.com/community/contribute/code-of-conduct/).
 
 **- Passion for GitLab:** Genuine passion for GitLab and a desire to drive practice building within the partner organization.
 
@@ -61,7 +61,7 @@ GitLab Champions enlists, supports, rewards, and recognizes members of the GitLa
 
 ## How to Join the GitLab Partner Champions Program?
 
-![The Process to become a GitLab Partner Champion](images/BecomeAChampion.png)
+![The Process to become a GitLab Partner Champion](/images/resellers/partner-champions-program/BecomeAChampion.png)
 
 ## Expected GitLab Partner Champions Outputs
 

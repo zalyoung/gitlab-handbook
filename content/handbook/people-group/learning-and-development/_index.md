@@ -4,7 +4,7 @@ title: Learning & Development
 
 ## Overview
 
-<div style="width: 100%;"><div style="position: relative; padding-bottom: 50.82%; padding-top: 0; height: 0;"><iframe frameborder="0" width="500" height="350" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" src="https://view.genial.ly/62fe8a909b925c0018b5de80" type="text/html" allowscriptaccess="always" allowfullscreen="true" scrolling="yes" allownetworking="all"></iframe> </div> </div>
+<div style="width: 100%;"><div style="position: relative; padding-bottom: 50.82%; padding-top: 0; height: 0;"><iframe frameborder="0" width="500" height="350" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" src="https://view.genially.com/62fe8a909b925c0018b5de80" type="text/html" allowscriptaccess="always" allowfullscreen="true" scrolling="yes" allownetworking="all"></iframe> </div> </div>
 
 ### Purpose
 
@@ -149,9 +149,9 @@ The L&D team freqently uses the following tools for creating and communicating l
 | Tool | Purpose |
 | ----- | -------- |
 | [Powtoon](https://www.powtoon.com/) | Video Creation |
-| [LucidChart](https://www.lucidchart.com/) | Interactive Diagrams |
+| [LucidChart](https://www.lucidchart.com/pages/) | Interactive Diagrams |
 | [Canva](https://www.canva.com/) | Image and infographic creation |
-| [Articulate/Rise 360](https://articulate.com/) | Course Authoring |
+| [Articulate/Rise 360](https://www.articulate.com/) | Course Authoring |
 | [Genial.ly](https://app.genial.ly/dashboard) | Create Interactive Images |
 
 ## Developing Learning Content
@@ -171,7 +171,7 @@ We ask that team members who create both internal and external learning content:
 1. **Know Your Audience** - Analyze and assess the course audience. Ensure that all audience needs are accounted for at every level in the organization you are delivering the training too.
 1. **Define Learning Objectives** - Highlight the learner outcome. Consider developing two to three broad overall statements of what the audience will achieve.
 1. **Break Down Complex Information** - Consider breaking down complex information into easy to digest visuals or text. Reference the handbook but do not be afraid to create a visual representation or use storytelling for the audience.
-1. **Engage the Learner** - Adults learn through practice and involvement. Consider using tools to engage learners in a virtual setting like [Mentimeter](https://www.mentimeter.com/) or [Kahoot](https://kahoot.com/business-u/) to stimulate interactivity.
+1. **Engage the Learner** - Adults learn through practice and involvement. Consider using tools to engage learners in a virtual setting like [Mentimeter](https://www.mentimeter.com/) or [Kahoot](https://kahoot.com/) to stimulate interactivity.
 1. **Implement Blended Learning Course Content** - Give the learners pre-course work to read and review before the learning session. Use off-the-shelf resources and ensure the content is applicable to what will be covered in the session. Follow up to gauge how they've applied what they've learned on the job through surveys and questionnaires.
 
 ### Application of Adult Learning Theory
@@ -231,4 +231,4 @@ Please let us know how you would prefer to learn by [filling out this form](http
 
 The launch of the GitLab Learn LXP was awarded a Silver Excellence in Learning by the [Brandon Hall Group](https://excellenceawards.brandonhall.com/) for the Best Launch of a Corporate Learning University.
 
-![silver brandon hall group award logo](silver-award.png)
+![silver brandon hall group award logo](/images/people-group/learning-and-development/silver-award.png)

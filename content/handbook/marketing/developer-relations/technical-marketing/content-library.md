@@ -25,7 +25,7 @@ description: "Library of technical content created by the Technical Marketing te
 
 [Configure GitLab CI/CD with the Pipeline editor](https://www.brighttalk.com/webcast/17523/528544?utm_source=brighttalk-portal&utm_medium=web&utm_campaign=channel-page&utm_content=recorded) - Feb 16 2022 (28 mins)
 
-[GitLab CI Overview](https://www.brighttalk.com/channel/17523/#:~:text=GitLab%20CI%20Overview%20Demo%20and%20Live%20Q%26A) - Feb 09 2022 (25 mins)
+[GitLab CI Overview](https://www.brighttalk.com/channel/17523#:~:text=GitLab%20CI%20Overview%20Demo%20and%20Live%20Q%26A) - Feb 09 2022 (25 mins)
 [Configure GitLab CI/CD with the Pipeline Editor](https://www.brighttalk.com/webcast/17523/524762?utm_source=brighttalk-portal&utm_medium=web&utm_campaign=channel-page&utm_content=recorded) - Jan 19 2022 (25 mins)
 
 [Introduction to Continuous Delivery](https://www.brighttalk.com/webcast/17523/525591?utm_source=brighttalk-portal&utm_medium=web&utm_campaign=channel-page&utm_content=recorded) - Jan 12 2022 (25 mins)

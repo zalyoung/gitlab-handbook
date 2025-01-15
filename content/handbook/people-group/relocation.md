@@ -204,6 +204,7 @@ If you are relocating away from a location with PEO Employment, you must give no
 
 1. Run the [Add Employee integration](https://internal.gitlab.com/handbook/people-group/people-operations/people-connect/onboarding_process/#steps-to-run-the-lawlogix-integration-in-workday) from Workday to LawLogix in order to intiate the I-9 process for the team member moving at least 5 days before the relocation.
 1. [Place team member in the appropriate benefit group](https://docs.google.com/document/d/1MuRjPnvK9PZI2kk58jHnMgC3iUQCzp7xdjsfQpJT37k/edit) in Workday on the effective date
+1. While creating the contract, please remove the summary page as it is not needed for relocating team members.
 
 ##### Relocating **From** The United States
 
@@ -282,6 +283,13 @@ Once the contract or Mutual Termination Agreement (MTA) has been created by the 
     - Start Date: *add effective date of relocation*
     - Add this line underneath the start date at the top: "Continuous Service Date: *add original hire date*"
     - Add this sentence to the section above 1. Position: "Your continuity of service for all employment purposes begins on the *add original hire date: YYYY-MM-DD*"
+
+#### Spain
+
+##### Relocating **to** Spain
+
+1. *Before* choosing a template or creating a contract, the People Connect Lead should reach out to legal-employment@gitlab.com with the details of the role the relocating team member has for support with classification of the role under the applicable CBA. The clasification will determine the choice of template used for creating a contract.
+1. If the relocating team member does not yet have an address or NIE in Spain, legal, employment can provide a separate template for use (once the role has been classified).
 
 #### South Korea, France or Singapore
 

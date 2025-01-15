@@ -9,7 +9,7 @@ The GitLab Support Team provides technical support to GitLab.com and Self-Manage
 
 | If you are | Your Need | Where You Should Look |
 | ---------- | --------- | --------------------- |
-| A customer, or an advocate for a customer | Technical assistance | Public [Support Page](https://about.gitlab.com/support), which describes the best way to get the help you need and lists GitLab's paid service offerings |
+| A customer, or an advocate for a customer | Technical assistance | Public [Support Page](https://about.gitlab.com/support/), which describes the best way to get the help you need and lists GitLab's paid service offerings |
 | GitLab team member | Technical assistance | [Internal Support for GitLab Team Members page](internal-support) |
 | New Support Team member | Onboarding / Learning | [Support Engineer Responsibilities](/handbook/support/support-engineer-responsibilities) page and [Support Learning Pathways](/handbook/support/training/) |
 | New Support Manager | Onboarding / Learning | [Support Manager Responsibilities](/handbook/support/managers/manager-responsibilities) page and [Support Manager Pathways](/handbook/support/training/#support-manager-onboarding-pathway) |

@@ -38,7 +38,7 @@ Examples:
 
 ## Workflow Summary
 
-<object data="PDF-Diagram.svg" style="width: 100%;" type="image/svg+xml">
+<object data="/images/product-development-flow/PDF-Diagram.svg" style="width: 100%;" type="image/svg+xml">
   Product Development Flow diagram.
   Unable to load this content, check console for details.
 </object>
@@ -61,7 +61,7 @@ For situations [when the customer problem isn't well understood](/handbook/produ
 
 The types of activities and depth of research required in the validation track will depend on how well we understand the customer problem and solution.
 
-<img src="/handbook/product-development-flow/validation-spectrum.png" alt="Validation Spectrum">
+<img src="/images/product-development-flow/validation-spectrum.png" alt="Validation Spectrum">
 
 ### Validation Goals & Outcomes
 
@@ -224,7 +224,7 @@ The build track is where we plan, develop, and deliver value to our users by bui
 | Label | Usage |
 |-------|-------|
 |<i class="fab fa-gitlab fa-fw" style="color:rgb(252,109,38); font-size:1.25em" aria-hidden="true"></i> `workflow::planning breakdown` | Applied by the Product Manager on or before the [4th of the month](/handbook/engineering/workflow/#product-development-timeline) signaling an intent to prioritize the issue for the next milestone. |
-|<i class="fab fa-gitlab fa-fw" style="color:rgb(252,109,38); font-size:1.25em" aria-hidden="true"></i> `workflow::ready for development` | Issue has been broken down and prioritized by PM for development. Issue also has a [work type classification](/handbook/product/groups/product-analysis/engineering/dashboards/#work-type-classification) (`type::`) label and milestone assigned at this point. |
+|<i class="fab fa-gitlab fa-fw" style="color:rgb(252,109,38); font-size:1.25em" aria-hidden="true"></i> `workflow::ready for development` | Issue has been broken down and prioritized by PM for development. Issue also has a [work type classification](/handbook/product/groups/product-analysis/engineering/metrics/#work-type-classification) (`type::`) label and milestone assigned at this point. |
 |<i class="fab fa-gitlab fa-fw" style="color:rgb(252,109,38); font-size:1.25em" aria-hidden="true"></i> `Deliverable` | Applied to issues by engineering managers indicating it's been accepted into the current milestone. |
 
 #### Key Participants

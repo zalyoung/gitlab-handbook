@@ -395,7 +395,7 @@ Type `/incident declare` in the [`#production`](https://gitlab.slack.com/archive
 It is always better to err on side of choosing a higher severity, and declaring an incident for a production issue, even if you aren't sure.
 Reporting high severity bugs via this process is the preferred path so that we can make sure we engage the appropriate engineering teams as needed.
 
-![Incident Declaration Slack window](incident-declare-slack.png)
+![Incident Declaration Slack window](/images/engineering/infrastructure/incident-management/incident-declare-slack.png)
 _Incident Declaration Slack window_
 
 | Field | Description |
@@ -406,7 +406,7 @@ _Incident Declaration Slack window_
 | Page engineer on-call / incident manager / communications manager on-call | **Leave these checked** unless the incident is severity 1 or severity 2, and does not require immediate engagement (this is unusual), or if the person submitting the incident is the EOC. **We will not page anyone for severity 3 and severity 4 incidents, even if the boxes are checked**. |
 | Confidential | This will mark the issue confidential, do this for all security related issues or incidents that primarily contain information that is not [SAFE](/handbook/legal/safe-framework/#what-is-safe). We generally prefer to leave this unchecked, and use confidential notes for information that cannot be public. |
 
-![Incident Declaration Results](incident-declare-results.png)
+![Incident Declaration Results](/images/engineering/infrastructure/incident-management/incident-declare-results.png)
 
 _Incident Declaration Results_
 
@@ -770,7 +770,7 @@ of close calls since 1976. Due to near miss observations and other technological
 the rate of fatal accidents has dropped about 65 percent.
 [source](https://en.wikipedia.org/wiki/Near_miss_(safety))
 
-As [John Allspaw states](https://qz.com/504661/why-etsy-engineers-send-company-wide-emails-confessing-mistakes-they-made/):
+As [John Allspaw states](https://qz.com/504661/why-etsy-engineers-send-company-wide-emails-confessing-mistakes-they-made):
 
 > Near misses are like a vaccine. They help the company better defend against
 > more serious errors in the future, without harming anyone or anything in the process.

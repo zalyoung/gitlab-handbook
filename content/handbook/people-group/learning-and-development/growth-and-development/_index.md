@@ -21,6 +21,8 @@ Here is a step by step guide on how to apply for G&D applications:
 
 Start by having a [growth conversation](/handbook/people-group/learning-and-development/career-development/#what-is-career-development) with your manager to discuss the learning opportunity. It’s important to talk through the timing, workload, and application timeline of the program to ensure coverage for your team. This conversation should allow time for you to apply for the program before it begins and allow your manager to ensure team capacity.
 
+[G&D Select](https://university.gitlab.com/access/saml/login/internal-team-members?returnTo=https://university.gitlab.com/pages/gd-select) is a directory of opportunities of recommended opportunities from GitLab team members.
+
 <details>
 <summary>Manager Guidance: Growth Conversations & Recommending Opportunities </summary>
 
@@ -193,6 +195,14 @@ Please use the [Other G&D Types](https://gitlab.com/gitlab-com/people-group/lear
 **Description:** GitLab will pay for courses related to learning how to code (for example Learning Rails on Codecademy), regardless of your department. If you are new to development, we encourage you to learn Git through GitLab, and feel free to ask any questions in the #git-help Slack channel.
 
 **Reimbursement Requirements:** A final grade report or satisfactory certificate of completion are required to receive reimbursements.
+
+#### Programming Books
+
+Please use the [Other G&D Types](https://gitlab.com/gitlab-com/people-group/learning-development/growth-and-development-requests/-/issues/new?issuable_template=g-and-d-other) issue template to open requests of this type.
+
+**Description:** Books related to programming, software development, and technical skills that support your career development at GitLab can be reimbursed through the G&D Fund. This is separate from GitLab's [general book reimbursement benefit](/handbook/finance/expenses/#books-audioe-books-included) and requires manager approval as part of the G&D process. Books should align with your growth goals and development plan discussed with your manager.
+
+**Reimbursement Requirements:** Submit proof of purchase (receipt) through Navan using the Expense type `G&D (Growth and Development)`. Include a link to your approved G&D issue in the expense description.
 
 ### Coaching
 

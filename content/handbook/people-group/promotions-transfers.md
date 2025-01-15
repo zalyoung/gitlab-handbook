@@ -108,16 +108,16 @@ Below is the timeline for FY26:
 
 - Planning: 2024-11-01 to 2024-12-01
 - Calibrations: 2024-12-02 to 2025-01-03
-- Workday input by Director+: 2025-01-09 to 2025-01-17
-- PBP + E-Group Leader approvals: 2025-01-20 to 2025-01-21
-- Workday Approvals: 2025-01-22 to 2025-01-24
+- Workday input by Director+: 2025-01-09 to 2025-01-16
+- PBP + E-Group Leader approvals: 2025-01-17 to 2025-01-20
+- Workday Approvals: 2025-01-21 to 2025-01-24
 - Team member individual communication: 2025-01-27 to 2025-01-31 (after fully approved in Workday)
 - Effective date for promotions: 2025-02-01
 - After communicating 1:1 with individuals on or after 2025-02-01, updates can be posted publicly in #team-member-updates. **Managers should not communicate until Total Rewards communicates that the promotions are fully approved.**
 
 ### FY26-Q4 (Nov 1)
 
-Status: Pending  
+Status: Pending
 
 - Planning:
 - Calibrations & Workday input by Director+:
@@ -129,7 +129,7 @@ Status: Pending
 
 ### FY27-Q2 (May 1)
 
-Status: Pending  
+Status: Pending
 
 - Planning:
 - Calibrations & Workday input by Director+:
@@ -141,7 +141,7 @@ Status: Pending
 
 ### FY27-Q4 (Nov 1)
 
-Status: Pending  
+Status: Pending
 
 - Planning:
 - Calibrations & Workday input by Director+:
@@ -161,7 +161,7 @@ Once the Calibration phase by Division is complete, Directors and above will hav
 
 The [promotion document](https://docs.google.com/document/d/1oXH9HzdO8gjqdeosstQRC1Mqt_5lCaN1U2kaF9Av-Ec/edit?usp=sharing) is required for all in-line promotions. **Promotion documents should not exceed three pages total.**
 
-As the audience are other GitLab team members, the text should be written in third person using the team member's name and appropriate pronouns (he/she/they) to highlight the work and skills as evidence of the team member's suitability for the role. A [style guide](/handbook/people-group/promotion-document-style-guide/) is available to assist in crafting a compelling document. You can utilize a bullet format to ensure that you are capturing the relevant sections per [business result](/handbook.gitlab.com/handbook/people-group/promotions-transfers/#business-results) or a short paragraph.
+As the audience are other GitLab team members, the text should be written in third person using the team member's name and appropriate pronouns (he/she/they) to highlight the work and skills as evidence of the team member's suitability for the role. A [style guide](/handbook/people-group/promotion-document-style-guide/) is available to assist in crafting a compelling document. You can utilize a bullet format to ensure that you are capturing the relevant sections per [business result](/handbook/people-group/promotions-transfers/#business-results) or a short paragraph.
 
 In-line promotion documents should demonstrate values alignment, business need for the role, and team member readiness through delivery of impactful business results. The core sections in our promotion document are: Promotion Summary, Business Results/Impact, Values Alignment and Business Justification.
 
@@ -242,8 +242,8 @@ Calibration should be aligned to the following levels of leaders and people mana
 | Promotion Level | Level Calibrated |
 | ---------- | ----- |
 | Under Director level ([Job Grade]({{< ref "compensation-calculator#gitlab-job-grades" >}}) 5-9) | Calibrated at the Department level |
-| Director level ([Job Grade]({{< ref "compensation-calculator#gitlab-job-grades" >}}) 10) | Calibrated at the Division level |
-| Senior Director+ level ([Job Grade]({{< ref "compensation-calculator#gitlab-job-grades" >}}) 11-15) | Calibrated at the E-Group level |
+| Director/Sr Director level ([Job Grade]({{< ref "compensation-calculator#gitlab-job-grades" >}}) 10) | Calibrated at the Division level, with Sr Director level shared with E-Group for visibility |
+| VP level ([Job Grade]({{< ref "compensation-calculator#gitlab-job-grades" >}}) 11-15) | Calibrated at the E-Group level |
 
 Note that calibration structure may vary by division and department depending on size/scope/etc.
 
@@ -664,7 +664,7 @@ Note for Sales Managers: If team members are not moved under the correct sales m
 
 ## Department Transfers
 
-If you are interested in applying for an open role, please do so  through [Greenhouse](https://boards.greenhouse.io/gitlab) or the internal job board, link found on the `#new-vacancies` Slack channel.
+If you are interested in applying for an open role, please do so  through [Greenhouse](https://job-boards.greenhouse.io/gitlab) or the internal job board, link found on the `#new-vacancies` Slack channel.
 
 Please understand the following eligibility guidelines that need to be met to be able to proceed with your application:
 
@@ -868,5 +868,16 @@ When a new team member moves to your team, in addition to the items above in "Tr
 - Do this `confidential handover` periodically (perhaps 2 weeks, 4 weeks and 6 weeks after transition). This will allow not only initial questions and considerations to come up, but also new ones as they arise.
 - Include in this handover the information you need for talent assessment planning that was confidential and not discussed in the 1-1-1.
 - If your new direct report is potentially up for promotion in the next 6 months, be sure to transition the information that supports from the previous manager and be the DRI to drive this forward, including both information discussed in the 1-1-1 and any confidential information discussed in the `confidential handover`.
+
+## For Team Members: Updating Your Title After A Role Change
+
+Your profile will need to be updated in a few places to reflect your new title change. Including, but not limited to:
+
+- [GitLab profile](https://gitlab.com/-/user_settings/profile)
+- [GitLab Team Page](https://gitlab.com/gitlab-com/www-gitlab-com/-/tree/master/data/team_members/person)
+- [Zoom profile](https://zoom.us/profile)
+- Slack profile (updated within Slack)
+- Gmail signature (updated within Gmail), see [guidelines](/handbook/tools-and-tips/#email-signature)
+- [Guide profile](https://app.guide.co/account/profile), if you take part in hiring
 
 ## Footnotes

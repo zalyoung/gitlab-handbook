@@ -10,7 +10,7 @@ This page details processes and general guidelines specific to the Executive Bus
 
 | ORG |  EBA / SR EBA  | EXECUTIVE  |
 | --- | --- | --- |
-| [CEO](/job-families/chief-executive-officer/) | **Jeanne Rotenberry**<br>Staff EBA<br>**Carla Sylva**<br>Sr EBA  | Sid Sijbrandij (CEO) |
+| [CEO](/job-families/chief-executive-officer/) | **Jeanne Rotenberry**<br>Staff EBA | Bill Staples (CEO) |
 | [Chief of Staff](/job-families/chief-executive-officer/chief-of-staff/) | **Carla Sylva**<br>Sr EBA  | Stella Treas (Chief of Staff) |
 | [Engineering](/handbook/engineering/) | **Vange Ingan**<br>Sr EBA  | Sabrina Farmer (CTO) |
 | [Engineering](/handbook/engineering/) | **Liki Simonot**<br>Sr EBA | Mek Stittri (VP of Infrastructure & Quality)<br>Tim Zallmann (Sr. Director of Engineering, Core Development) |
@@ -36,7 +36,7 @@ This page details processes and general guidelines specific to the Executive Bus
 
 ## Contact us
 
-Please feel free to ping/hang out with us in slack at #eba-team. If you need to quickly communicate with the entire team please @ mention exec-admins in slack. For requests for Sid, please tag @ceoeba.
+Please feel free to ping/hang out with us in slack at #eba-team. If you need to quickly communicate with the entire team please @ mention exec-admins in slack. For requests for the CEO, please tag @ceoeba.
 
 ## Meeting request requirements
 
@@ -110,7 +110,7 @@ The process outlined below should be followed for requesting interviews with any
 - LIVESTREAM for livestreams
   - When a meeting is being live-streamed to YouTube add Public Stream or Private Stream in the subject and body of the calendar invite to indicate which live stream
 - 1:1 for one-on-ones with direct reports
-  - Example: "1:1 Jane Doe & Sid"
+  - Example: "1:1 Jane Doe & John"
 - "Skip Level" should be in the title of skip level meetings
 - Flight travel should include "flight" in the title
 - Ground transportation is indicated by "Uber", "Ground Transportation", or "Car service" in the title

@@ -54,7 +54,7 @@ As our company and the industry continue to grow, you'll have the freedom to cha
 
 {{< youtube "eIs71f5IEUU?start=468" >}}
 
-*In the above [interview](https://youtu.be/eIs71f5IEUU) with [Stuart Miniman](https://twitter.com/stu) of [theCUBE](https://www.thecube.net/), GitLab CEO and co-founder Sid Sijbrandij discusses the merits of operating a 100% remote organization, and why he believes it's the future of work.*
+*In the above [interview](https://youtu.be/eIs71f5IEUU) with [Stuart Miniman](https://twitter.com/stu) of [theCUBE](https://www.thecube.net/), GitLab co-founder Sid Sijbrandij discusses the merits of operating a 100% remote organization, and why he believes it's the future of work.*
 
 > At GitLab, we're figuring out a lot of things you have to do to be all-remote, and we're trying to share those lessons. That's anything from working [handbook-first]({{< ref "handbook-usage#why-handbook-first" >}}) to [communication styles](all-remote/effective-communication/) and being intentional about [informal communication](all-remote/informal-communication/).
 >

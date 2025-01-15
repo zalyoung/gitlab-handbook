@@ -42,6 +42,10 @@ For any other offboarding questions from active team members please reach out to
 
 In addition to submitting their resignation directly in Workday (following the guidelines in the 'How to Submit a Resignation' [e-Learning](https://drive.google.com/file/d/1CWEfVPFLRLtcFQh81mYAuXtYKvf3hKW0/view?usp=sharing) or [Job Aid](https://docs.google.com/document/d/1AVHHBKd6dtyn0DOl4_UydbdEhectLpH5aMh17r9Sg_4/edit)) and complying with any contractual requirements, Team Members resigning in France should also email a copy of their resignation letter to legal-employment@gitlab.com.
 
+##### Japan
+
+Team Members located in Japan who are resigning need to complete [this resignation form](https://docs.google.com/spreadsheets/d/1ScccG7B48ClXw4L7BWcFmeT1v-CgpNvS/edit?usp=sharing&ouid=114499652844396120212&rtpof=true&sd=true) and send it to payroll via [HelpLab](https://helplab.gitlab.systems/esc?id=emp_taxonomy_topic&topic_id=0d510c99478c069067429ee0026d4356) in order to process this with the local provider/partner for correct taxations. Please download or make a copy of the document in order to complete.
+
 ##### Singapore
 
 Team Members located in Singapore who are resigning and are **not** Singapore citizens need to complete a Letter of Undertaking [document](https://docs.google.com/document/d/1l4Iq6atvXzq6Gt_DdiWfv3DwvshTOoEYZv8baMq_HKo/edit?usp=sharing) and send it to payroll via [HelpLab](https://helplab.gitlab.systems/esc?id=emp_taxonomy_topic&topic_id=0d510c99478c069067429ee0026d4356) in order to process this with the local provider/partner. Please download or make a copy of the document in order to complete.
@@ -309,7 +313,7 @@ To return your laptop to GitLab, please contact `itops@gitlab.com` immediately u
 
 This section of the Accounting Department.
 
-To remove someone from Navan Expense Log in to [Navan Expense](https://www.expensify.com/signin) and go to "Settings" in the left sidebar.
+To remove someone from Navan Expense Log in to [Navan Expense](https://app.navan.com/app/liquid/) and go to "Settings" in the left sidebar.
 Select the right policy based upon the entity that employs the team member. Select "People" in the left menu.
 Select the individual's name and click "Remove".
 If the person has a Corporate Credit Card assigned to them, please notify Accounts Payable before un-assigning it.

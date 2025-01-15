@@ -1,0 +1,26 @@
+exclude:
+  # Files in the /static/ folders are valid.
+  - pattern: '^/pdfs/'
+  - pattern: '^/videos/'
+
+  # The team page uses the `{{< team >}}` shortcode, so most anchors cannot be found by hugolint.
+  - pattern: '^/handbook/company/team/?#'
+
+  # The product categories page uses the `{{% categories %}}` shortcode, creating per-group headings.
+  - pattern: '^/handbook/product/categories/?#'
+
+  # The "Features by Group" page uses the `{{% categories-features %}}` shortcode, creating dynamic headings.
+  - pattern: '^/handbook/product/categories/features/?#'
+
+  # Pages using the `{{% performance-indicators %}}` shortcode.
+  - pattern: '^/handbook/ceo/office-of-the-ceo/performance-indicators/?#'
+  - pattern: '^/handbook/engineering/development/incubation/performance-indicators/?#'
+  - pattern: '^/handbook/engineering/development/performance-indicators/?#'
+  - pattern: '^/handbook/engineering/infrastructure/performance-indicators/?#'
+  - pattern: '^/handbook/engineering/performance-indicators/_index/?#'
+  - pattern: '^/handbook/finance/finance-team-performance-indicators/?#'
+  - pattern: '^/handbook/marketing/developer-relations/performance-indicators/?#'
+  - pattern: '^/handbook/marketing/performance-indicators/?#'
+  - pattern: '^/handbook/people-group/people-success-performance-indicators/?#'
+  - pattern: '^/handbook/product/ux/performance-indicators/?#'
+  - pattern: '^/handbook/support/performance-indicators/?#'

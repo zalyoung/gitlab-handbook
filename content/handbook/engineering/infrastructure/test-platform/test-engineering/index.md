@@ -20,13 +20,13 @@ graph LR
     C --> C1[Design, Build and continuously improve tests, test frameworks and tools]
     C --> C2[Influence, advise and increase the testing capabilities for product teams]
     C --> C3[Monitor and address test flakiness]
-  
+
     A --> D[Test guidance. Provide guidance and coach engineering teams in the areas:]
     D --> D1[Writing e2e tests and feature specs]
     D --> D2[Debugging and fixing test failures]
     D --> D3[Planning testing early in the development process]
-    D --> D4[Anticipating test infrastructure needs and requesting change in advance] 
-    D --> D5[Shift left and maintaining appropriate ratio between unit, integration and e2e tests] 
+    D --> D4[Anticipating test infrastructure needs and requesting change in advance]
+    D --> D5[Shift left and maintaining appropriate ratio between unit, integration and e2e tests]
     D --> D7[Post-incident action]
 
     A --> E[E2E Pipeline triage. Shared responsibility among all SETs in DevX sub-department]
@@ -103,7 +103,7 @@ Everyone in engineering is expected to contribute to Quality and keep our test p
 For every new feature we aim to ship a new slice of the pyramid so we don't incur test automation debt.
 This is what enables us to do Continuous Delivery.
 
-![TestPyramid.png](TestPyramid.png)
+![TestPyramid.png](/images/engineering/infrastructure/test-platform/test-engineering/TestPyramid.png)
 
 #### Test Plan
 
@@ -338,4 +338,4 @@ How can we use these heuristics? Are there others? The next section answers thos
 
 This is not an exhaustive list of heuristics. If you know others you have found useful, please consider contributing them to this document.
 
-*Accreditation to these ideas belongs to the general test community, many who have contributed to and compiled these ideas in different ways. For further explanation of applying heuristics to testing, see Elisabeth Hendrickson, VP of R&D at Pivotal Software, Inc., and her book titled **Explore It!** or many other various blogs and sites, e.g. [Satisfice](https://www.satisfice.com/blog/), [DevelopSense](https://www.developsense.com/blog/), or [Ministry of Testing](https://club.ministryoftesting.com/categories). For an in-depth explanation of heuristics in the context of software testing, see [Heuristics for Understanding Heuristics](https://www.developsense.com/blog/2012/04/heuristics-for-understanding-heuristics/).*
+*Accreditation to these ideas belongs to the general test community, many who have contributed to and compiled these ideas in different ways. For further explanation of applying heuristics to testing, see Elisabeth Hendrickson, VP of R&D at Pivotal Software, Inc., and her book titled **Explore It!** or many other various blogs and sites, e.g. [Satisfice](https://www.satisfice.com/blog/), [DevelopSense](https://developsense.com/blog), or [Ministry of Testing](https://club.ministryoftesting.com/categories). For an in-depth explanation of heuristics in the context of software testing, see [Heuristics for Understanding Heuristics](https://developsense.com/blog/2012/04/heuristics-for-understanding-heuristics).*

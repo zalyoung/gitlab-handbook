@@ -55,7 +55,7 @@ Within Prelude, interviewers can set their interviewing availability, set daily 
 
 - Scroll down to add notes and adjust the dates and times to match your preferences. Then ensure that your time zone is correct so that it matches your availability.
 
-![Interviewing availability](Availability.png)
+![Interviewing availability](/images/hiring/interviewing/Availability.png)
 
 ***Examples of helpful notes include:***
 
@@ -66,11 +66,11 @@ Within Prelude, interviewers can set their interviewing availability, set daily 
 
 Additionally, you can help us understand which meetings are moveable and which are not. We've set up some recommendations in your Prelude account to get you started, but you can adjust these preferences yourself.
 
-![Scheduling conflicts](Conflicts.png)
+![Scheduling conflicts](/images/hiring/interviewing/Conflicts.png)
 
 In Preferences, interviewers also have the ability to set daily and weekly Interview Limits. See screenshot below for an example. If you need assistance in setting this preference, please reach out to ces@gitlab.com as we can set these for you as well.
 
-![Interview limits](Limits.png)
+![Interview limits](/images/hiring/interviewing/Limits.png)
 
 ## Guide
 

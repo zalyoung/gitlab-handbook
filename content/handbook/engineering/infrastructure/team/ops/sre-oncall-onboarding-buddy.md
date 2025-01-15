@@ -40,7 +40,7 @@ The role of a EOC-Buddy is important in helping new engineers become confident a
 
 The EOC buddy program operates on a volunteer basis, allowing experienced engineers to contribute to the team's growth based on their willingness and capacity. Please make sure to check the [Buddy Responsibilities](#buddy-responsibilities) section.
 
-If you are willing to become a EOC-Buddy, assign yourself to `@eoc-buddies` Slack group. This group receives notifications when EOC-Shadows are looking for buddies. When you find a suitable match, respond to the request and notify both your manager and the EOC-Shadow.
+If you are willing to become a EOC-Buddy, add yourself to `@eoc-buddies` Slack group via [sre-oncall-onboarding-buddy project](https://gitlab.com/gitlab-com/gl-infra/ops-team/toolkit/eoc-buddies-members/-/tree/main?ref_type=heads). This Slack group receives notifications when EOC-Shadows are looking for buddies. When you find a suitable match, respond to the request and notify both your manager and the EOC-Shadow.
 
 ## Workflow
 

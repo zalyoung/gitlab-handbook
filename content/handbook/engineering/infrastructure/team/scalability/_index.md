@@ -73,7 +73,7 @@ for each of GitLab's services.
 
 ## Direction for FY24
 
-We've moved the direction to the direction section [here](https://about.gitlab.com/direction/saas-platforms/scalability/) so that it's in the same place as the rest of our product direction.
+We've moved the direction to the direction section [here](https://about.gitlab.com/direction/saas-platforms/production-engineering/) so that it's in the same place as the rest of our product direction.
 
 ## Indicators
 
@@ -118,7 +118,7 @@ Scalability leadership can be reached via PagerDuty [Scalability Escalation](htt
 
 From <a href="https://gitlab.pagerduty.com/incidents">https://gitlab.pagerduty.com/incidents</a>, click on the "New Incident" button and complete the new incident form as shown below.
 
-![Scalability PD Incident](img/pd-scalability-incident.png)
+![Scalability PD Incident](/images/engineering/infrastructure/team/scalability/pd-scalability-incident.png)
 
 ### How do I engage with the Scalability Group?
 

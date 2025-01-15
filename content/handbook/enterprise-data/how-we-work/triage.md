@@ -73,7 +73,7 @@ For days that show `Weekly rotation` on the Tableau triage schedule, i.e. Monday
 
 #### Analytics Engineering weekly rotation schedule
 
-Beginning on `2025-01-02` Analytics Engineering will move to a weekly triage schedule. The schedule is maintained on the Data Program Google Calendar. 
+Beginning on `2025-01-02` Analytics Engineering will move to a weekly triage schedule. The schedule is maintained on the Data Program Google Calendar.
 
 ### Enterprise Data Program Triage Instructions
 

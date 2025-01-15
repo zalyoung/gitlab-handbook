@@ -100,7 +100,7 @@ Any contributor can suggest changes to our linting rules or tooling by creating 
 #### Translation and internationalization
 
 Everyone can contribute to the translation of GitLab from English into other languages.
-To learn more about translation and internationalization at GitLab, visit the Import and Integrate direction page and Manage stage Category Direction page on [Internationalization](https://about.gitlab.com/direction/manage/import_and_integrate/internationalization/).
+To learn more about translation and internationalization at GitLab, visit the Import and Integrate direction page and Manage stage Category Direction page on [Internationalization](https://about.gitlab.com/direction/foundations/import_and_integrate/internationalization/).
 For a step-by-step guide to translation contributions, read [Translating GitLab](https://docs.gitlab.com/ee/development/i18n/translation.html).
 
 The [docs.gitlab.com](https://docs.gitlab.com/) site is not included in the community efforts to internationalize GitLab. Discussion on translating documentation into other languages is included in [this issue](https://gitlab.com/gitlab-org/gitlab/-/issues/15471#note_214823504).
@@ -175,7 +175,6 @@ For collaboration in other projects and subjects:
 | [Style Guide](#style-guide)                                                          | {{< member-by-name "Fiona Neill" >}} |
 | [Left nav](https://docs.gitlab.com/ee/development/documentation/site_architecture/global_nav.html) (information architecture of docs) | {{< member-by-name "Fiona Neill" >}} |
 | [Testing/Vale/markdownlint](#testing)                                                | {{< member-by-name "Fiona Neill" >}} |
-| [Tutorials](https://docs.gitlab.com/ee/tutorials/)                                   | {{< member-by-name "Kati Paizee" >}} |
 | [GitLab Development Kit (GDK)](https://gitlab.com/gitlab-org/gitlab-development-kit) | {{< member-by-name "Ashraf Khamis" >}}, {{< member-by-name "Achilleas Pipinellis" >}}, {{< member-by-name "Evan Read" >}}, {{< member-by-name "Jon Glassman" >}}, {{< member-by-name "Lorena Ciutacu" >}}, {{< member-by-name "Marcel Amirault" >}}, {{< member-by-name "Phillip Wells" >}}, {{< member-by-name "Russell Dickenson" >}} |
 
 ### Content not reviewed by TWs
@@ -284,7 +283,7 @@ Options for groups to get help when an assigned Technical Writer is on PTO are:
 - For help with a specific, time-sensitive, in-progress piece of work, a pre-arranged Technical Writer. The Technical
   Writer can be pinged on issues or merge requests and begin participating.
 
-If taking extended PTO (more than one week), Technical Writer should consider using the Technical Writer
+If taking extended PTO (one week or more), Technical Writers and Managers should use the Technical Writer
 [coverage issue](https://gitlab.com/gitlab-org/technical-writing/-/blob/main/.gitlab/issue_templates/TW_Coverage.md).
 This issue can describe exactly who is providing coverage, for what, and by what means.
 

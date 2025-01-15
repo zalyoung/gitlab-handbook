@@ -62,6 +62,6 @@ You can use Siri if you'd like. Remember that Siri is tied to your work Apple ID
 
 If you are new to using a MacBook or switched from another OS such as windows, check out these useful shortcuts and options.
 
-![mactips2.png](/handbook/security/corporate/systems/macos/setup/images/mactips2.png)
+![mactips2.png](/images/security/corporate/systems/macos/setup/mactips2.png)
 
-![mactips1.png](/handbook/security/corporate/systems/macos/setup/images/mactips1.png)
+![mactips1.png](/images/security/corporate/systems/macos/setup/mactips1.png)

@@ -153,7 +153,7 @@ Note: Live webinars, the start time, duration, and present type, cannot be chang
 
 8. `Registration confirmation`, `24 Hour Reminder` and `1 Hour Reminder` emails are handled through On24 rather than Marketo, for setup simplicity. Make sure `Registration Confirmation Email`, `Reminder email` and `Reminder 2 email` are all toggled on. You can also click `Preview/Edit` to view the email and check for any formatting you'd like to change or to review active tokens. If you make changes, remember to `Save` and send yourself a `preview` email to make sure nothing is broken.
 
-   ![Email toggles](/handbook/marketing/marketing-operations/on24/on24-emails.png)
+   ![Email toggles](/images/marketing/marketing-operations/on24/on24-emails.png)
 
     - A note about email reminders: Registrants may receive the reminder emails at varying times depending on their email administrators queuing on their end (prioritizing resources, etc.) and how many emails are being processed by ON24 at any given time.  As a best practice, we recommend keeping the subject lines generic to accommodate for these delays.  Instead of saying, "The webinar begins in 15 minutes," consider changing it to "The webinar will begin at the top of the hour." Read On24's full email reminder documentation [here](https://support.on24.com/hc/en-us/articles/21420760535963-Webcast-Elite-Email-Notifications-and-Reminders)
 
@@ -196,11 +196,11 @@ Follow these steps to apply a console template:
 2. Open the Template Library, housed in the Select a Template drop-down
 3. Double click on the name of the desired template
 
-   ![Select a template screenshot](/handbook/marketing/marketing-operations/on24/template-screenshot.jpeg)
+   ![Select a template screenshot](/images/marketing/marketing-operations/on24/template-screenshot.jpeg)
 
 4. When applying a console template, all setting and tools from the saved template will override the existing console. A confirmation dialogue will pop-up to prevent you from accidentally wiping out your current console.
 
-![confirmation dialogue screenshot](/handbook/marketing/marketing-operations/on24/confirmation-screenshot.jpeg)
+![confirmation dialogue screenshot](/images/marketing/marketing-operations/on24/confirmation-screenshot.jpeg)
 
 ### Connecting On24 Web Events to Marketo Programs
 

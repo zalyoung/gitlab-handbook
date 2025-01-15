@@ -15,7 +15,7 @@ Solutions Architects record all customer and prospect activity to promote **tran
 
 ## Recording Activity with Rattle
 
-SA prospect/customer activity is recorded into `Task` objects within Salesforce based on the `Log a Call` action on an `Opportunity`. However, [Rattle](https://gorattle.com) is leveraged to simplify the capture of required and optional fields via Slack to alleviate the SA from navigating through Salesforce.
+SA prospect/customer activity is recorded into `Task` objects within Salesforce based on the `Log a Call` action on an `Opportunity`. However, [Rattle](https://www.gorattle.com/) is leveraged to simplify the capture of required and optional fields via Slack to alleviate the SA from navigating through Salesforce.
 
 ### Rattle Setup
 
@@ -26,8 +26,8 @@ SA prospect/customer activity is recorded into `Task` objects within Salesforce 
 ### Logging an Activity
 
 - There are multiple ways to log your activity with Rattle ([Log an Activity Video](https://www.youtube.com/watch?v=zRxUJSjujUk&feature=youtu.be))
-  - After meetings with a prospect/customers, you will be prompted in the Slack Rattle application to `Log a Call` for the activity (easiest method)
-  - On-demand, type `/rattle-create` in Slack and click on the `Create Task` button
+  - Before or after meetings with a prospect/customers, you will be prompted in the Slack Rattle application to `Log a Call` for the activity (easiest method). You can configure when to receive the notification in Rattle's [advanced settings for meetings](https://app.gorattle.com/meetings/advance-settings).
+  - On-demand, type `/rattle-create` in Slack and click on the `Create Task` button.
   - It is required to log the activity against the associated **opportunity** versus at the account level.  This is to ensure accurate reporting and analysis of our engagement models.
 - There is a minimal set of fields that are required to be populated, _regardless if Rattle marks them as optional_.
   - **Related To** - Search for and set this to the Salesforce `Opportunity` associated with the activity.

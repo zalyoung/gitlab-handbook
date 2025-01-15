@@ -256,7 +256,7 @@ Milestones (product releases) are one of our [planning horizons](/handbook/produ
 - Maintenance - EM
 - Bug - QEM
 
-We use [type labels](/handbook/product/groups/product-analysis/engineering/dashboards/#work-type-classification) to track: feature, maintenance, and bug issues and MRs. UX Leadership are active participants in influencing the prioritization of all three work types.
+We use [type labels](/handbook/product/groups/product-analysis/engineering/metrics/#work-type-classification) to track: feature, maintenance, and bug issues and MRs. UX Leadership are active participants in influencing the prioritization of all three work types.
 
 QEMs meet with their PM, EM, and UX counterparts to discuss the priorities for the upcoming milestone. The purpose of this is to ensure that everyone understands the requirements and to assess whether or not there is the capacity to complete all of the proposed issues.
 
@@ -319,12 +319,6 @@ Currently, we do not have an SET embedded within every product group, hence for 
 Please note that the borrow request might not guarantee 100% allocation to the requested product group. The temporary allocation will depend upon ongoing priorities.
 
 The list of all SET borrow requests can be seen [here](https://gitlab.com/gitlab-com/Product/-/issues/?label_name%5B%5D=SET%20Borrow).
-
-### Blocking tests
-
-Blocking tests have met stricter reliability criteria than other tests in our test suite. When a failure is seen in a blocking test, it's less likely to be flakiness and more likely to be a true issue.
-
-For more information, please visit our [blocking tests page](blocking-tests).
 
 ### Risk mapping
 
