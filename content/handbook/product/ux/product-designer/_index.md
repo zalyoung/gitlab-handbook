@@ -71,10 +71,11 @@ Product Designers need to assess how their work impacts other parts of the produ
 
 ### Designing with AI
 
-When designing AI solutions, Product Designers need to approach the process thoughtfully to ensure that the technology enhances the user experience and meets strategic objectives.
+When designing AI solutions, Product Designers need to approach the process thoughtfully to ensure that the technology enhances the user experience and meets strategic objectives. 
 
 Here are some resources to help you contribute to the design of AI-assisted features across the platform:
 
+- [Our guide for Product Designers](/handbook/product/ux/product-designer/ai-design.md) 
 - [AI-human interaction in Pajamas](https://design.gitlab.com/usability/ai-human-interaction/): Documentation on best practices for AI-human interaction.
 - [AI Integration Effort FAQ](https://internal.gitlab.com/handbook/product/ai-strategy/ai-integration-effort/faq/): Internal handbook with frequently asked questions about AI integration efforts. **Internal handbook 🔒**
 - [UX maturity requirements](/handbook/product/ai/ux-maturity/): Documentation on the UX maturity requirements to move AI features from Experiment to Beta to Generally Available (GA).
