@@ -26,7 +26,7 @@ The team should scope the problem space enough to be able to quickly explain to 
 Designing for generative AI requires a fundamental shift in interaction design, as we're creating interfaces for systems whose outputs are inherently variable and unpredictable. Whether in conversational exchanges or single-input generations, the core challenge is designing clear paths for users to understand, shape, and recover from these uncertain interactions
 
 ####Align on the AI guidelines 
-We recommend that designers create an *interaction design policy* before moving into the design phase. This is a framework proposed by [People + AI Research](https://pair.withgoogle.com/) at Google that we propose to use here. We think this framework provides a good foundation for establishing good AI related design and technical requirements. We have adapted the framework into our own Figjam template {tbd link}. 
+We recommend that designers create AI Engagement Guidelines before moving into the design phase. This is a framework proposed by [People + AI Research](https://pair.withgoogle.com/) at Google that we propose to use here. This framework provides a foundation for establishing alignment on AI related design and technical requirements. We have adapted the framework into our own Figjam template {tbd link}. 
 
 Before using the framework for the first time, read this Medium article to familiarize yourself with the concepts: [Interaction Design Policies: Design for the opportunity, not just the task.](https://medium.com/people-ai-research/interaction-design-policies-design-for-the-opportunity-not-just-the-task-239e7f294b29). 
 
