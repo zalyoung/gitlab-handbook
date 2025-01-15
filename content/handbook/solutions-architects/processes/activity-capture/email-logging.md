@@ -69,4 +69,4 @@ Gong is configured to:
 
 - [Gong Documentation](https://help.gong.io)
 - [GitLab Email Policy](/handbook/communication/#email)
-- [Customer Communication Guidelines](/handbook/customer-success/customer-communication)
+- [Communication Guidelines](/handbook/communication/)

@@ -1,15 +1,13 @@
 ---
+
 title: Customer Success Plans
-description: Customer Success Plans are strategic documents that bridge pre-sales and post-sales activities, ensuring alignment between GitLab and customer objectives while providing clear documentation of evaluation, implementation, and success criteria.
+description: >-
+  Customer Success Plans bridge pre-sales and post-sales activities by documenting technical evaluation criteria, implementation roadmaps, and success metrics. These plans serve as the foundation for customer engagements, ensuring alignment between GitLab and customer objectives while providing clear documentation that guides both evaluation and implementation phases.
 ---
 
 ## Overview
 
-A Customer Success Plan (CSP) is a customer-facing and mutually agreed roadmap for achieving value through GitLab adoption. This plan starts in the pre-sales process and is designed to support shifting from product-scoped conversations (focusing on specific features or functions) towards solution or strategic scopes (shaping business outcomes through holistic organizational process innovation and transformation).
-
-## Purpose
-
-The CSP serves multiple key purposes:
+A Customer Success Plan (CSP) is generated from our centralized account planning dataset (plan.yaml) and includes customer context, technical requirements, success criteria, and implementation roadmap. This plan starts during pre-sales and serves multiple key purposes:
 
 1. For the **Customer**: Provides a prescriptive, phased approach to successful GitLab adoption, including architecture recommendations, deployment strategy, migration plans, integration approach, and user onboarding at scale.
 
@@ -30,29 +28,17 @@ A Customer Success Plan should be initiated when:
 
 *Note: SA Managers have discretion for additional opportunities to be included or excluded.*
 
-## Creating the Plan
+## Documentation Structure
 
-The CSP is generated from our centralized account planning dataset (plan.yaml) and includes:
+The SA organization maintains a standard schema for Customer Success Plans to ensure consistency and completeness. The schema can be found in the [AccountPlan.schema.json](https://gitlab.com/gl-demo-ultimate-ryappleby/technical-close-plans/generators/-/blob/main/plan-schemas/accountPlan.schema.json) file, which details all required and optional fields along with their descriptions.
 
-### Customer-Facing Elements
-
-- Company background
-- Business objectives and outcomes
-- Key stakeholders and project team
-- Current and desired state workflows
-- Technical activities planned/completed
-- Value outcome metrics
-- Phased success plan and adoption journey
-- Technical milestones (3/6/12 month)
-- Architecture recommendations
-
-### Tracking in Salesforce
+## Tracking in Salesforce
 
 The following fields must be maintained in Salesforce:
 
-1. Customer Success Plan: URL to the plan
-2. CSM Ready: Checked when plan is ready for CSM review
-3. Customer Accepted: Checked after customer review
+1. **Customer Success Plan**: URL to the plan
+2. **CSM Ready**: Checked when plan is ready for CSM review
+3. **Customer Accepted**: Checked after customer review and approval
 
 ## Transition to Post-Sales
 
@@ -84,38 +70,7 @@ The CSP content is transformed into actionable GitLab items:
 - Implementation phases are organized as Epic groups
 - Customer stakeholders are added as project members
 
-## Post-Sales Ownership
-
-After the sale, ownership moves to the Customer Success organization. Based on the customer's tier and needs, the primary owner will be:
-
-1. **Customer Success Manager (CSM)**
-   - Manages overall customer relationship
-   - Drives adoption and expansion strategy
-   - Oversees MSP execution
-
-2. **Customer Success Architect (CSA)**
-   - Provides technical leadership
-   - Guides architectural decisions
-   - Supports complex implementations
-
-3. **Customer Success Engineer (CSE)**
-   - Handles technical implementation
-   - Resolves technical blockers
-   - Supports customer enablement
-
-The Solutions Architect remains available for consultation during the transition period but is not responsible for MSP execution.
-
-## Success Plan Review Cadence
-
-1. Pre-Sales:
-   - Regular reviews with customer during technical evaluation
-   - Internal reviews with AE (and later CSM) for deals over threshold
-   - Executive sponsor review for strategic accounts
-
-2. Post-Sales:
-   - Transition review with CSM/CSA/CSE
-   - Regular cadence established by CS team
-   - Quarterly business reviews as needed
+For details about post-sales plan management and CSM responsibilities, see the [CSM Success Plans documentation](/handbook/customer-success/csm/success-plans/).
 
 ## Resources
 

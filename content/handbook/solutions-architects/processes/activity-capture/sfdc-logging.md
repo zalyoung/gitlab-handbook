@@ -159,7 +159,7 @@ If opportunity is closed and fields need updating:
 
 Example message:
 
-```
+```txt
 @Sales-Support please update the SA Validated Tech Evaluation Close Status to Won, 
 and SA Validated Tech Evaluation End Date to 2024-01-14
 ```
