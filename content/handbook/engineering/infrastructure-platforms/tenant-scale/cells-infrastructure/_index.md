@@ -37,7 +37,7 @@ Each week the EM will schedule time to review the issue boards and team members 
 
 - Ensure that issues have the appropriate workflow labels.
 - Check on the status of in progress, blocked, and in review issues.
-- Ensure that there are refined issues ready to be worked on.
+- Ensure that there are refined issues ready to be worked on. Refined issues are weighted, have sufficient context in the description, and a workflow label indicating that it is ready to be worked on.
 - Check that issues are aligned to our roadmap and status updates on relevant epics.
 
 ## Resources
