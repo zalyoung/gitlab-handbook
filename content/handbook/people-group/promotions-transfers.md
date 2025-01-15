@@ -242,8 +242,8 @@ Calibration should be aligned to the following levels of leaders and people mana
 | Promotion Level | Level Calibrated |
 | ---------- | ----- |
 | Under Director level ([Job Grade]({{< ref "compensation-calculator#gitlab-job-grades" >}}) 5-9) | Calibrated at the Department level |
-| Director level ([Job Grade]({{< ref "compensation-calculator#gitlab-job-grades" >}}) 10) | Calibrated at the Division level |
-| Senior Director+ level ([Job Grade]({{< ref "compensation-calculator#gitlab-job-grades" >}}) 11-15) | Calibrated at the E-Group level |
+| Director/Sr Director level ([Job Grade]({{< ref "compensation-calculator#gitlab-job-grades" >}}) 10) | Calibrated at the Division level, with Sr Director level shared with E-Group for visibility |
+| VP level ([Job Grade]({{< ref "compensation-calculator#gitlab-job-grades" >}}) 11-15) | Calibrated at the E-Group level |
 
 Note that calibration structure may vary by division and department depending on size/scope/etc.
 
