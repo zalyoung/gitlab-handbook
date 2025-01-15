@@ -35,7 +35,6 @@ Given the close collaboration between the PS Project Management and PS Operation
 1. The DoW is used to add additional detail to a Consulting Block SKU that has been sold. A DoW is created by the Engagement Management team and confirmed by the Customer. The DOW should be attached to the Customer Epic prior to the Sales to Delivery Transition call
 1. [Template for a DoW](https://docs.google.com/document/d/1ZsMUvBUL9kt3CqB4YjYlX-E1uEJz-elO/edit) can be found here
 
-
 #### Building High Performing Teams
 
 ### Working Agreements
@@ -47,8 +46,6 @@ Each contributing engineer comes with their own set of experience and ways of co
 When a delivery team comes together for a new project, a short ritual is held to agree to working norms; ultimately fostering a positive working relationship that translates to successful project delivery and enhanced interpersonal, working relationships.
 
 This falls in line with several of our GitLab values and promotes Psychological Safety. The following link documents [GitLab's view of Psychological Safety](https://handbook.gitlab.com/handbook/leadership/emotional-intelligence/psychological-safety/).
-
-![image.png](/uploads/8855c49811df7cb4770f8dfddcab7879/image.png){width="85" height="81"} ![image.png](/uploads/b0a6a549bc1192a92d5b80ffb8e61501/image.png){width="85" height="82"} ![image.png](/uploads/1620390bf408e20c943ab1fa1d649fcf/image.png){width="85" height="81"}
 
 #### Why working agreements?
 
