@@ -45,5 +45,6 @@ more solid review process to make sure the benefits of removing it outweigh the 
 1. Decide whether to:
     - leave the package in place
     - replace it with an alternative package, or 
+    - vendor the dependency in the GitLab project, or
     - have GitLab create and maintain a fork
 1. If deciding to replace the package, create an MR.
