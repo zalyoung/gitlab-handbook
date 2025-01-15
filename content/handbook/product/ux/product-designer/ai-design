@@ -135,6 +135,55 @@ When designing the screen interactions, refer to [GitLab Duo patterns in Pajamas
 ### During solution validation
 As with any project, you’ll want to ask yourself how confident you are in your solution and if you aren’t very confident, validate your solution with users before committing to development. You will want to select a validation method that works best for your research questions.
 
+Generative AI solution validation has two distinct testing possibilities: 
+
+  low-fidelity prototypes (highly moderated) 
+  interactive LLM prototypes (preferably unmoderated)
+
+Most solution validation will be in the form of low-fidelity prototypes until prototyping tooling is built out. This should occur earlier in the development process. 
+Starting with moderated testing gives you the ability to understand where the user will interact with the solution in the context of your workflow. It will also help you test assumption about how you expect them to interact with the LLM. Mock up the solution in a Figma prototype, that shows the happy path (and predetermined outputs) 
+In this solution validation, aim to understand the user’s current workflow before showing any designs. Once you understand their workflow, show them a Figma prototype for the solution. 
+A reminder that LLMs are interactive tools controlled by language and offer multiple paths for non-linear engagement. A Figma prototype is linear and will not offer the range of possibilities. It should include mock outputs that are an ideal of your expected generated response.
+Since Figma prototypes are not generating responses to user queries, you’ll need to have participants think out loud about their intended queries and expected responses before showing them the results from a button or predetermined output. After showing an output, spend time discussing the output and the reaction to it to determine if it is meeting expectations. 
+For example, instead of saying “Let’s assume you write summarize issue”” and asking for feedback on a result, keep the questions open ended and user led. Ask the participant “What would you type in this field?” Why?” Then, show them the result. Then ask for feedback on your mock output.  “What do you think of this response?” and “What would you expect from what you typed?”
+
+Throughout the conversation, carefully observe where users desire control, express trust concerns, or want to edit AI outputs, as these are critical friction points in AI interfaces. 
+Always conclude sessions by asking about likelihood of adoption and potential dealbreakers, as users might provide positive feedback throughout but reveal critical adoption barriers in their final assessment.
+These sessions will likely result in tweaks to the prompt to improve outputs and better meet user behaviors. 
+If you are validating a solution interaction and you have an iinteractive LLM prototypes or feature that users can test and provide feedback, an unmoderated testing is ideal. Define the task you’d like the user to complete and always record the session. 
+
+During unmoderated sessions, pay attention to:
+ 
+User mental models
+  How users frame their requests
+  When they expect AI to understand context
+  Where they assume capabilities that don't exist
+  How they recover from misunderstandings
+  
+Interaction patterns
+  Natural vs. prompted inputs
+  Response to different AI output styles
+  When users abandon and restart
+  How they handle variable outputs
+
+Trust signals
+  Points where users verify information
+  When they question AI responses
+  How they build confidence in the system
+  What causes trust breakdown
+  
+Task completion
+  Whether users achieve their goals
+  If they find alternate paths to success
+  When they need human intervention
+  How they combine AI with other tools
+
+Recovery behaviors
+  What users do when AI fails
+  How they rephrase or retry
+  When they give up entirely
+  Ways they work around limitations
+
 
 If your research question is about…
 - the usability of the UI/user flow / prototype / consider doing a moderated or unmoderated usability test, with static or dummy LLM prompts/outputs.
