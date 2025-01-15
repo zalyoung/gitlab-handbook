@@ -1202,11 +1202,11 @@ When the MR is approved, add the `Ready` label before merging.
 
 Deprecation, removal, and breaking change announcements appear [in GitLab Docs](https://docs.gitlab.com/ee/update/deprecations.html) and in the release post of the announcement's corresponding milestone.
 
-Before making an announcement, review the [breaking changes, deprecations and removals guidance](/handbook/product/categories/gitlab-the-product/#deprecations-removals-and-breaking-changes) to ensure you:
+Before making an announcement, review the [breaking changes, deprecations and removals guidance](https://docs.gitlab.com/ee/development/deprecation_guidelines/) to ensure you:
 
 - Are minimizing disruption for our customers.
 - Are providing the required advance notice for workflow changes.
-- Have [determined if the change is a breaking change](/handbook/product/categories/gitlab-the-product/#breaking-changes).
+- Have [determined if the change is a breaking change](https://docs.gitlab.com/ee/development/deprecation_guidelines/).
 
 #### Milestone due dates
 
@@ -1711,7 +1711,7 @@ The What's New MR will be initiated by the Release Post Manager on the Tuesday o
 ### Pages
 
 - [GitLab the product](/handbook/product/categories/gitlab-the-product/#gitlab-the-product)
-- [General guidance on deprecations, remvoals and breaking changes](/handbook/product/categories/gitlab-the-product/#breaking-changes-deprecations-and-removing-features)
+- [General guidance on deprecations, remvoals and breaking changes](https://docs.gitlab.com/ee/development/deprecation_guidelines/)
 - [Release Post volunteer schedule](managers/)
 - [Security and monthly releases](https://about.gitlab.com/releases/categories/releases/)
 - [Features per release](https://about.gitlab.com/releases/)

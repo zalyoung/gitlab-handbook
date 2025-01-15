@@ -78,7 +78,7 @@ Engineering Manager as listed above.
 
 For more urgent items, feel free to use [#g_create_source_code](https://gitlab.slack.com/archives/g_create_source-code) or [#g_create_source_code_fe](https://gitlab.slack.com/archives/g_create_source-code-review-fe) on Slack.
 
-[Take a look at the features we support per category here.](/handbook/product/categories/features/#createsource-code-group)
+[Take a look at the features we support per category here.](/handbook/product/categories/features/#code-creation)
 
 ### Code Reviewing
 

@@ -96,7 +96,7 @@ variables:
   # Specify versions of tools used in pipelines
   HUGO_VERSION: '0.139.3'
   HUGO_IMAGE: "registry.gitlab.com/pages/hugo/hugo_extended:$HUGO_VERSION"
-  HUGOLINT_VERSION: '1.8.1'
+  HUGOLINT_VERSION: '2.0.2'
   MARKDOWNLINT_VERSION: '0.15.0'
   VALE_VERSION: '3.9.1'
 
@@ -327,7 +327,7 @@ hugolint:
   before_script:
     - apk add jq
   script:
-    - hugolint linkcheck --exclude .hugolint.exclude --format=json $(find content -type f -name '*.md' | grep -v ' ') >linkcheck.json
+    - hugolint linkcheck --config .hugolint.yaml --format=json $(find content -type f -name '*.md' | grep -v ' ') >linkcheck.json
     - hugolint missinglinks --num 30 $(find content -name '*.md' | grep -v ' ') 2>/dev/null | tee missinglinks.txt
     - |
       # Compare with target branch when running as a merge request pipeline.
