@@ -28,7 +28,7 @@ Capturing data is not just about filling out forms or logging activities. It's a
 
 ### 4. **Predicting and Improving Outcomes**
 
-- **SA Judgement**: Can the SA’s view of an opportunity often predict closed-lost opportunities early? By analyzing historical data, we can develop predictive models that help identify deals at risk, allowing us to take proactive measures.
+- **SA Judgement**: Can the SA's view of an opportunity often predict closed-lost opportunities early? By analyzing historical data, we can develop predictive models that help identify deals at risk, allowing us to take proactive measures.
 - **Forecast Accuracy**: Enhance our sales forecasting accuracy by integrating SA insights with data-driven predictions, leading to better resource allocation and strategic planning.
 
 ### 5. **Learning from Past Experiences**
@@ -38,12 +38,12 @@ Capturing data is not just about filling out forms or logging activities. It's a
 
 ### 6. **Adapting to Market Changes**
 
-- **Real-Time Market Insights**: Identify new challenges that SAs are encountering in the field today that they weren’t last month. This helps us stay ahead of market changes and trends, adapting our strategies in real time.
+- **Real-Time Market Insights**: Identify new challenges that SAs are encountering in the field today that they weren't last month. This helps us stay ahead of market changes and trends, adapting our strategies in real time.
 
 ### 7. **Promoting Transparency and Collaboration**
 
 - **Open Communication**: Data capture promotes transparency, allowing team members to see summaries of all activities. This openness facilitates questioning our actions, increasing accountability, and fostering a culture of continuous improvement.
-- **Enhanced Collaboration**: Timely feedback from reviewing captured data allows team members to share experiences, offer alternate perspectives, and recognize each other’s contributions, leading to a more cohesive and collaborative team environment.
+- **Enhanced Collaboration**: Timely feedback from reviewing captured data allows team members to share experiences, offer alternate perspectives, and recognize each other's contributions, leading to a more cohesive and collaborative team environment.
 
 ### 8. **Creating a Culture of Data-Driven Excellence**
 
@@ -55,14 +55,14 @@ Capturing data is not just about filling out forms or logging activities. It's a
 Imagine a future where every decision is informed by rich data insights, and AI amplifies our capabilities by providing instant access to a vast pool of knowledge:
 
 - **AI-Powered Insights**: Imagine a world where all retrospectives, meeting notes, and entire opportunity histories are ingested into an AI model. The next meeting you have with a customer, you can simply ask the AI for insights tailored to their specific toolstack and objectives.
-- **Personalized Recommendations**: The AI can provide you with what worked well in similar scenarios, what didn’t, timelines, things to avoid, and things that could have been done differently. This personalized guidance ensures that you are always prepared with the most relevant and effective strategies.
+- **Personalized Recommendations**: The AI can provide you with what worked well in similar scenarios, what didn't, timelines, things to avoid, and things that could have been done differently. This personalized guidance ensures that you are always prepared with the most relevant and effective strategies.
 - **Instant Knowledge Access**: No more digging through past notes or relying on memory. Just ask the AI, and it will surface the most pertinent information, allowing you to focus on building relationships and driving success.
 - **Enhanced Learning and Adaptation**: The AI continuously learns from new data, refining its recommendations and insights. This means that our strategies and approaches are always evolving, informed by the latest and most comprehensive data available.
 - **Seamless Account Transitions:** When transitioning accounts between teams, years worth of knowledge is easily summarizable. The AI can highlight the most important topics, ensuring that transition meetings between account teams cover critical information and maintain continuity.
 
 ### Envisioning Our Future
 
-By capturing comprehensive data and leveraging AI, we are not just logging activities; we are building a foundation for smarter, more effective, and more impactful solutions architecture. Let’s embrace this opportunity to elevate our work and achieve new heights of success together.
+By capturing comprehensive data and leveraging AI, we are not just logging activities; we are building a foundation for smarter, more effective, and more impactful solutions architecture. Let's embrace this opportunity to elevate our work and achieve new heights of success together.
 
 ## Types of Data Capture
 
