@@ -30,6 +30,101 @@ We recommend that designers create AI Engagement Guidelines before moving into t
 
 Before using the guidelines for the first time, read this Medium article to familiarize yourself with the concepts: [Interaction Design Policies: Design for the opportunity, not just the task.](https://medium.com/people-ai-research/interaction-design-policies-design-for-the-opportunity-not-just-the-task-239e7f294b29). 
 
+By creating AI Engagement Guidelines, you define the target behavior (UX) of the model. Through discussions with your PM and dev team, you should clearly define what you expect the model to do, what it shouldn’t do, and where the system or user might fail. By establishing AI guidelines, you ensure stakeholders are aligned on model behavior and expected outputs. 
+
+####Map the user flow
+User flow design for AI focuses not on predicting outputs but on creating consistent ways for users to interact with, shape, and recover from situations when AI fails them. When creating user flows, you are defining the happy path and unhappy paths. 
+
+A happy path in generative AI design is when users can successfully achieve their goals through clear input, appropriate AI outputs, and minimal corrections, even though the exact inputs and outputs may vary with each interaction.
+
+Happy path example: 
+  User begins: "Analyze this long document for key insights"
+  System tracks request count and shows clear usage meter
+  Warning appears at 75% with "Save and Continue Later" option
+  Progress auto-saves with completion timestamp
+  Analysis resumes next day from saved point
+
+An unhappy path occurs when AI interactions require user intervention to correct or recover from unexpected outputs. 
+
+Unhappy path example:
+  User begins: "Analyze this long document for key insights"
+  System fails after hitting undisclosed rate limit
+  Shows generic error: "Something went wrong"
+  User loses all progress upon refresh
+  User has to start over
+
+Key failure points:
+  No visibility into system limits
+  Unclear error messaging
+  Loss of user progress
+  Forced restart of workflow
+
+Since these moments are frequent in generative AI interactions due to output variability, designers should treat them as core flows rather than edge cases. Example of unhappy paths:
+
+Technical failures
+  AI returns incorrect or incomplete responses
+  System errors or timeouts
+  Token limit issues
+  Performance degradation
+
+User Behavior variations
+
+Unexpected queries 
+  Context switching mid-conversation (if designing for conversations)
+  Misunderstanding of AI capabilities (i.e. a user thinks Duo knows their codebase)
+  Complex queries that combine multiple intents (if designing for conversations)
+  Requests outside system capabilities (i.e. a user thinks Duo knows their codebase)
+
+We're not designing for what the AI will say - we're designing for how users will work with whatever it says. These patterns are predictable and designable, even when the outputs aren't. 
+User flow design for generative AI looks like this: 
+
+Map ideal flow first
+  Define the best-case scenario step by step
+  Include both user actions and system responses
+  Identify key success points
+  
+Identify likely breakdown points
+  Where might the AI misunderstand?
+  When might system limits be hit?
+  What user expectations might not be met?
+
+Design recovery paths
+  How users get back on track
+  Clear error explanations
+  Alternative paths to success
+
+Build in feedback mechanisms
+  How users signal problems
+  Where system shows understanding
+  Ways to correct or refine
+
+####Define the ideal output
+While generative AI outputs are non-deterministic (producing different results each time), defining ideal outputs is crucial for both prompt engineering and interaction design. With clear definitions of an ideal output, we streamline the UX for the user between generations. These definitions also shape how we instruct the model and design user interactions in the prompt.
+
+Key elements to define
+
+Output structure
+  Length (character limits, paragraph count)
+  Format (JSON, markdown, plain text)
+  Structure (headers, sections, bullet points)
+  Style (formal, casual, technical)
+
+Content requirements
+  Essential information (core data points, key metrics)
+  Required data points, if any (technical specs, citations)
+  Level of detail required (summary vs in-depth)
+  Accuracy needs (fact-checking, validation)
+
+Example: 
+You’re building an automated API documentation generator
+  Length: Each endpoint described in <500 chars
+  Format: OpenAPI specification in YAML
+  Structure: Standardized sections for endpoints, methods, parameters
+  Style: Technical reference format with standardized terminology
+
+While we can't predict exact outputs, defining these elements helps create consistent user experiences and better prompt engineering. Experiment with creating your ideal output using Claude, LangSmith, or locally.  {link to docs}
+
+####Evaluation
 Additionally, begin to discuss with your team how you’ll evaluate the answers provided by the LLM. You will eventually need a data set to use for your LLM evaluations. It's best to work on the data set early, as it will foruce you to consider the types of prompts you expect to provide the LLM (or for users to provide the LLM), along with acceptable answers. If the team cannot confidently produce at least a preliminary data set, then user research or other data mining can be used to help with this step.  {link to info here about evals?} or sources of data sets?
 
 
