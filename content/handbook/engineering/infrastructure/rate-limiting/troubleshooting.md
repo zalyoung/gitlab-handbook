@@ -21,7 +21,8 @@ Following these troubleshooting guides for other status codes may still be benef
 All traffic to GitLab.com is subject to rate limiting,
 there are different [limits](/handbook/engineering/infrastructure/rate-limiting/#limits) applied at Cloudflare and within the Application.
 
-Note: If you are troubleshooting rate limiting issues for GitLab Pages or Registry, see [other rate limits](/handbook/engineering/infrastructure/rate-limiting/#other-rate-limits) for details on how these are configured.
+**Note:** If you are troubleshooting rate limiting issues for GitLab Pages or Registry,
+see [other rate limits](/handbook/engineering/infrastructure/rate-limiting/#other-rate-limits) for details on how these are configured.
 
 The following diagram should aid you in determining where to look first,
 and for further detail scroll down to the related section.
@@ -83,7 +84,7 @@ as the `RackAttack` rate limits configured in the Application return these respo
 
 ### Cloudflare
 
-GitLab employees with access can use SSO to login to our Cloudflare account.
+GitLab team members with access can [use SSO to login to our Cloudflare account](https://dash.cloudflare.com/login).
 To do so, enter your GitLab email and the `Log in with SSO` option will appear.
 
 To request access, open an [access request](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/new?issuable_template=Access_Change_Request) for the Cloudflare Analytics role.
@@ -100,7 +101,10 @@ To request access, open an [access request](https://gitlab.com/gitlab-com/team-m
 Doing so serves two purposes:
 
 1. It narrows your search to a specific time period.
-1. It allows you to share a snapshot view with colleagues, whereas the `Previous 24 hours` will generate a link with a rolling window.
+1. It allows you to share a snapshot view with colleagues,
+whereas the `Previous 24 hours` will generate a link with a rolling window.
+
+**Note:** that the dates seen in the UI are in your local time zone.
 
 #### HTTP Traffic Analytics
 
@@ -135,7 +139,8 @@ but this can be increased to 15 items if required.
 
 #### Security Events
 
-The [Security Events](https://dash.cloudflare.com/852e9d53d0f8adbd9205389356f2303d/security-center/events?host=gitlab.com) show the volume of requests that were blocked, challenged, or skipped.
+The [Security Events](https://dash.cloudflare.com/852e9d53d0f8adbd9205389356f2303d/security-center/events?host=gitlab.com)
+show the volume of requests that were blocked, challenged, or skipped.
 Use this dashboard to investigate if (and what) Cloudflare rule might be blocking traffic.
 
 <details>
@@ -169,7 +174,8 @@ Once you have filtered your results then you can use the results to further inve
 - **Paths:** What resources or paths are they targetting, is there a pattern?
 - **Firewall/ Rate limiting/ Managed rules**: What rules are being hit? Is this expected behaviour?
 
-If any of the results are particularly interesting, you can hover over the value to further `Filter` or `Exclude` to dig deeper into your investigation.
+If any of the results are particularly interesting,
+you can hover over the value to further `Filter` or `Exclude` to dig deeper into your investigation.
 
 <details>
 <summary>Click to see Cloudflare Security Events Results</summary>
@@ -201,7 +207,7 @@ then you can refer to the [HAProxy Logging runbook](https://gitlab.com/gitlab-co
 
 ### Application
 
-There are two main throtting mechanisms in the GitLab Application:
+There are two main throttling mechanisms in the GitLab Application:
 [RackAttack](/handbook/engineering/infrastructure/rate-limiting/#rackattack) and the
 [ApplicationRateLimiter](/handbook/engineering/infrastructure/rate-limiting/#applicationratelimiter).
 
@@ -218,7 +224,7 @@ You can observe trends for both using the [Rate Limiting Overview](https://dashb
 
 If a request is throttled by [RackAttack](/handbook/engineering/infrastructure/rate-limiting/#rackattack) it will contain `RateLimit-*` response headers.
 
-You can filter the the [RackAttack logs](https://log.gprd.gitlab.net/app/discover#/view/0026cc97-6b9a-445a-a364-7197e04053a2?_g=()) by:
+You can filter the [RackAttack logs](https://log.gprd.gitlab.net/app/discover#/view/0026cc97-6b9a-445a-a364-7197e04053a2?_g=()) by:
 
 - IP address using `json.remote_ip`
 - Throttle using `json.matched`
