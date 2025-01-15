@@ -40,7 +40,7 @@ more solid review process to make sure the benefits of removing it outweigh the 
     Note any other considerations that may affect the decision to replace the package
     ```
 
-1. Ping at least one relevant maintainer (Frontend, Backend) on the issue to ask for feedback before deciding on a path forward
+1. Ping at least one relevant maintainer for feedback 
 1. If the package has been determined to have no security vulnerabilities, set the issue to public.
 1. Decide whether to:
     - leave the package in place
