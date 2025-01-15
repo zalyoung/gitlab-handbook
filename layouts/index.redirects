@@ -110,5 +110,5 @@
 # Old red team handbook - remove 2025-11-11
 /handbook/security/threat-management/red-team/ /handbook/security/security-operations/red-team/ 301
 
-# Delivery Group move in Infra platforms - remove 2026-01-20
-/handbook/engineering/infrastructure/team/delivery/ /handbook/engineering/infrastructure-platforms/gitlab-delivery/delivery 301
+# Delivery Group move in Infra platforms - remove 2025-04-20
+/handbook/engineering/infrastructure/team/delivery/ /handbook/engineering/infrastructure-platforms/gitlab-delivery/delivery/ 301
