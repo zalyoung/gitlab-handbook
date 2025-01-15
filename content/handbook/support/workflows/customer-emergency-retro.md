@@ -30,7 +30,7 @@ Typically, the person who participated in the emergency does not need to do addi
 
 During the synchronous portion of the retro:
 
-1. apply the `retro` label to the issue in [the tracker](https://gitlab.com/gitlab-com/support/readiness/emergencies/-/issues/?sort=created_date&state=opened&first_page_size=100)
+1. apply the `retro` label to the issue in [the tracker](https://gitlab.com/gitlab-com/support/readiness/emergencies/-/issues/?sort=created_date&state=opened&first_page_size=100) if it hasn't already been applied
 1. the SE who responded to the emergency provides a brief timeline (while the person conducting the retro asks questions to fill in the gaps)
 1. the person conducting the retro and the SE who responded to the emergency work through what went well, what could have gone better and suggestions for what we might do or change
 1. if there are open questions or suggested possible action items in the retro issue
