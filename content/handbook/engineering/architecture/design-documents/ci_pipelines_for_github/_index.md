@@ -18,35 +18,37 @@ Some customers using GitHub Source Code Management want to integrate with GitLab
 
 ## Motivation
 
-Our current approach with GitHub <-> GitLab integration is with mirroring at a minimum 5 minute interval. This is too slow for feedback, uses long lived personal access tokens, and requires a copy of GitHub's source code on GitLab. Additionally, as the entire project and all pipelines are run under the user that initiates the integration; this could lead to permission mismatch.
+Our current approach with GitHub <-> GitLab integration is with mirroring at a minimum 5 minute interval. This is too slow for feedback, uses long lived personal access tokens, and requires a copy of GitHub's source code on GitLab. Additionally, as the entire project and all pipelines are run under the user that initiates the integration; this could lead to a permission mismatch.
 
-With an effective solution, we can sell GitLab CI/CD and other Ops features to business that use GitHub source control.
+With an effective solution, we can sell GitLab CI/CD and other Ops features to businesses that use GitHub as a source control management tool.
 
-There are similar tools in the market that can be used for GitHub to run CI/CD externally. [Buildkite, CircleCi, TeamCity, Jenkins](https://GitLab.com/GitLab-org/GitLab/-/issues/460503#note_2115425859) are examples where the runner pulls directly from GitHub. And where the pipelines config file can live either on GitHub or in the services.
+CI tools in the market currently use GitHub source to run CI/CD externally. [Buildkite, CircleCi, TeamCity, Jenkins](https://GitLab.com/GitLab-org/GitLab/-/issues/460503#note_2115425859) are examples where the runner pulls directly from GitHub. In such examples, the pipeline config file can live either on GitHub or in the services.
 
 ### Goals
 
 As an initial MVC we want to support
 
-1. A GitHub App (on GitHub's marketplace - this doesn't need to be in MVP, users can install with a direct link)
-2. Near instant pipeline creation upon GitHub pushes
-3. Correct user management system, through direct user mapping
+1. A GitHub App (on/off GitHub's marketplace - this doesn't need to be in MVP, users can install with a direct link)
+1. Near instant pipeline creation upon GitHub pushes
+1. We will only be communicating with GitHub via short lived tokens
+1. Correct user management system, through direct user mapping
     1. Each user on GitHub's side should have a billable seat on GitLab
-    2. GitLab users should have the least privilege needed to run pipelines
-4. Runners are the only place to interact (fetch/pull) with the source code
+    1. GitLab users should have the least privilege needed to run pipelines
+1. Runners are the only place to interact (fetch/pull) with the source code
     1. Customer source code is stored in a GitHub Repo and is never stored in a GitLab repo
 
 ### Non-Goals
 
-Items that are out of scope (For MVP) include
+Items that are out of scope (For MVP) include in order of importance
 
-1. GitHub Enterprise
-    1. Why: This will require extra set-up, licensing, testing, and manual configurations as GitHubApps are different on the Enterprise level
-2. GitLab Self-Managed
+1. GitLab Self-Managed
     1. Why: This should be quite do-able. Assuming we have docs for SM users to set-up. We _should_ get this from the MVP
-3. GitLab Security Scans, and execution policies
-    1. Why: Similarly to the above, we _should_ get this for free as well. But because of the additional integration and cross team collaboration, if this doesn't work; the time spent might overwhelm the MVP.
-4. Different actions on GitHub side that might want/require CI such as
+1. GitHub Enterprise
+    1. Why: This will require extra set-up, licensing, testing, and manual configurations as GitHubApp and Actions are different on the Enterprise level
+1. GitLab Security Scans, Pipeline execution policies, Merge Request widgets from artifacts (Junit/Cobertura)
+    1. Why: Because the source code is in GitHub and our scans only work natively there'll be extra work to fetch and analyze the code
+    1. Similary for the MR widget, since the Merge Request is on GitHub side we can't modify it
+1. Different actions on GitHub side that might want/require CI such as
     1. Forks
     2. Tags
     3. Branch name changes, [etc](https://GitLab.com/GitLab-org/GitLab/-/issues/493378#future-iterations)
@@ -59,10 +61,9 @@ These are do-able, but just to reduce scope and complexity we can iterate on add
 ![Architecture](images/GitHubGitLabWorkflow.png)
 
 GitHub will communicate with GitLab via our GitHubApp via webhooks.
-When runners poll GitLab's api, GitLab will serialize the jobs including the GitHub repo location for the runner to fetch the code from.
+GitLab will use ther webhook's sender user OAuth tokens to fetch the repo and update GitHub
+When runners poll GitLab's api, GitLab will provide the GitHub repo location and access token for the runner to fetch the code from.
 GitLab will then use GitHub's API to update the commit with the pipeline status.
-
-Unfortunately there's nuances to this diagram regarding user management and access tokens that we'll explore below.
 
 ## Design and implementation details
 
@@ -76,27 +77,33 @@ After import, we would automatically enable a new GitLab integration called GitH
 
 Then the customer will use a direct link to install our GitHub App, and choose which repos on GitHub to install it on
 
+Each user that would want to trigger pipeline would need to OAuth with GitHub. Either via OAuth login or connecting their GitLab account with GitHub
+
 ### Once everything is set-up properly
 
 The steps here will be in accordance with the diagram above
 
 1. User on GitHub initiates a push to a branch
-2. GitHub will automatically trigger a webhook via our GitHubApp. This'll send a `push` payload to GitLab
+1. GitHub will automatically trigger a webhook via our GitHubApp. This'll send a `push` payload to GitLab
     1. [GitLab Webhook Push Payload](https://docs.GitHub.com/en/webhooks/webhook-events-and-payloads#push)
-3. GitLab will receive the push payload.
-4. GitLab will use Installation Access Tokens (IAT) to exchange for a short lived token (1hr max)
-    1. [GitHub docs for IAT](https://docs.GitHub.com/en/apps/creating-GitHub-apps/authenticating-with-a-GitHub-app/authenticating-as-a-GitHub-app-installation)
-    1. Each GitHub project will come with an Installation ID. GitLab will use a private `.pem` key with this Installation ID to get a short-lived token for that project.
-5. GitLab will use the webhook details for which user was the sender. And try to run a pipeline with that user on GitLab's side. If the user does not exist (eg bots), the pipeline will be created but in a failed status. Any maintainer of the project can then retry the pipeline.
-    1. The pipeline will be generated by pulling a `.GitLab-ci.yml` file present on GitHub side.
-    1. The user is required to create a GitLab account, and then link their GitHub account. The user will be mapped via the user_id generated on GitHub's side.
-6. Rails will pass the necessary params including the IAT to the runner. It will also update the pipeline on GitHub side to "running" via GitHub API and IAT.
-7. The runner will directly call GitHub with the IAT to fetch and pull the repository for that branch
-8. When the pipeline finishes, runner will update GitLab as normal
-9. GitLab will use the IAT to post a commit on GitHub with the pipeline's sha. Notifying them the commit has a finished pipeline.
+1. GitLab will use the signed payload's `sender_id` and map that to a GitLab user.
+    1. If the GitLab user does not have permissions to run pipelines. A pipeline will be created but will fail immediately. Anyone with correct permissions can re-try this pipeline.
+1. If the GitLab user does have permissions to create pipelines.
+    1. GitLab will the `refresh_token` of the user to generate a new `access_token`, so we can [act on behalf of the user](https://docs.github.com/en/apps/creating-github-apps/authenticating-with-a-github-app/authenticating-with-a-github-app-on-behalf-of-a-user#identifying-and-authorizing-users-for-github-apps)
+    1. This `access_token` is repository specific, and will only have
+        1. Read access to repos
+        1. Write access to commit_status (to update the commit with pipeline details)
+    1. There's no way to revoke the `access_token` without also revoking the `refresh_token`. But if want to be safe, we can just re-generate a new `access_token` after the pipeline has finished.
+    1. The pipeline will be generated by pulling a `.gitlab-ci.yml` file present on GitHub side.
+        1. To make this easier in the future to work with `includes`; we'll require this `.yml` file to be in a `gitlab` folder
+1. GitLab calls `CreatePipelineService` sidekiq job and sets up the pipeline.
+1. Rails will pass the necessary params including the `access_token` to the runner. It will also update the pipeline on GitHub side to "running" via GitHub API.
+1. The runner will directly call GitHub with the `access_token` to fetch and pull the repository for that branch
+1. When the pipeline finishes, runner will update GitLab as normal
+1. GitLab will use the `access_token` to post a commit on GitHub with the pipeline's sha. Notifying them the commit has a finished pipeline.
     1. [GitHub commit status API](https://docs.GitHub.com/en/rest/commits/statuses?apiVersion=2022-11-28#create-a-commit-status)
 
-**Step 5 expanded:**
+**Step 3 expanded:**
 
 There are many ways this authorization could play out. More details in [Corresponding Implementation Issue](https://GitLab.com/GitLab-org/GitLab/-/issues/505056).
 
@@ -106,36 +113,30 @@ Each user will need to manually link their GitHub accounts to their GitLab profi
 
 The downside is that users or bot accounts that do not have a GitLab account mapping will not be able to run pipelines. The workaround is to create a failed pipeline that maintainers can manually run.
 
-**Step 5.1** - As the `GitLab-ci.yml` file is hosted externally on GitHub.com. Only this file will then be pulled in when a webhook is triggered. This'll keep the source code and config file in sync.
+**Step 4.4** - As the `gitlab-ci.yml` file is hosted externally on GitHub.com. Only this file will then be pulled in when a webhook is triggered. This'll keep the source code and config file in sync.
 
 There are certain yaml definitions which would not work with this approach. The `includes:` yaml definition would not work, similarly cross-pipeline configs, security scans, pipeline test reports, execution policies would need additional patching to work.
 
 ## Alternative Solutions
 
-For Step 4.
-
-Another option is for the GitHub App to use Oauth Access Tokens. This'll require installation user on GitHub's side to explicity authenticate with the GitHubApp.
-
-There is extra work involved here as the user needs to be created on GitLab's side. Additionally, we'll need to support the ability to refresh user tokens. This doesn't seem to be needed currently, as this integration won't need to update GitHub as a specific user.
-
-[Authenticating GitHubApp as a User](https://docs.GitHub.com/en/apps/creating-GitHub-apps/authenticating-with-a-GitHub-app/authenticating-with-a-GitHub-app-on-behalf-of-a-user)
-
-For Step 5.
+For Step 3.
 
 Another idea is to use [service accounts](https://docs.GitLab.com/ee/user/profile/service_accounts.html). Have the customer create a service account they want to use and assign it to a project with the permission set or [custom role](https://docs.GitLab.com/ee/user/custom_roles.html). Then we'll have a UI allowing them to select which service account they want to use for these GitHub webhook actions.
 
-This'll need composite identities, as cross-project pipelines can exist.
+This'll need composite identities, as cross-project pipelines can exist. Additionally, there'll be extra considerations for billing as GitHub users can share GitLab seats
 
-For Step 5-1.
+For Step 4.
 
-If the `GitLab-ci.yml` is on GitLab.com, this should allow many of the features to work automatically. Although this creates overhead as the source code is not in sync with the pipeline configuration.
+Another option is for the GitHub App to use Installation Access Tokens.
 
-To help with this, we could run the `GitLab-ci.yml` file on the pushed branch if it exists, and default to `main` if it doesn't. This will allow for easier `GitLab-ci.yml` testing, even though it could lead to more #master-broken incidents as merge to master conditions would be different.
+This would be a great option if not for the rate limits. As IAT have a limit of 5k/hour calls for GitHub.com and 15k/hour for GitHub Enterprise, this is not enough for large customers without a caching mechanism in place.
 
-There is a use-case for this, so maybe we can push this to a post-mvp feature.
+[Authentication as a GitHub App installation](https://docs.github.com/en/apps/creating-github-apps/authenticating-with-a-github-app/authenticating-as-a-github-app-installation)
 
 ## Questions for Reviewers
 
 1. Compliance Question: Do we need additional terms and conditions depending on how we run & keep GitHub code?
     1. As the job logs will be kept on GitLab side
-2. Compliance Question/PM: Some customers don't want anything else aside from runner interacting with the source code. This requirement is unclear; does referencing, have snipplets of file/artifact names in the job logs invalidate this reqirement?
+    1. Answer: (Rutshah) should be okay to keep job logs
+2. Compliance Question/PM: Some customers don't want anything else aside from runner interacting with the source code. This requirement is unclear; does referencing, have snipplets of file/artifact names in the job logs invalidate this requirement?
+    1. Partial Answer: (Rutshah) These passby references should be okay
