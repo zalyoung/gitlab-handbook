@@ -22,9 +22,9 @@ The Security Compliance team is instrumental in supporting external audits, cert
 
 ### Current certifications and attestations
 
-Refer to the [GitLab Trust Center](https://trust.gitlab.com/) for the latest information on all all of the certifications and attestations we maintain, including 3rd party reports, commonly request security documentation, and answers to commonly asked questions about our security and compliance posture. There is a dropdown menu to view content for GitLab.com and GitLab Dedicated SaaS offerings. Some of the content is applicable to both SaaS platforms and/or GitLab Inc.
+Refer to the [GitLab Trust Center](https://trust.gitlab.com/) for the latest information on all all of the certifications and attestations we maintain, including 3rd party reports, commonly request security documentation, and answers to commonly asked questions about our security and compliance posture. There is a dropdown list to view content for GitLab.com and GitLab Dedicated SaaS offerings. Some of the content is applicable to both SaaS platforms and/or GitLab Inc.
 
-Please refer to our [PCI Charter](pci-charter.md) for details around our attestation as a Service Provider for our SaaS offerings. 
+Please refer to our [PCI Charter](pci-charter.md) for details around our attestation as a Service Provider for our SaaS offerings.
 
 ### Tentative roadmap
 

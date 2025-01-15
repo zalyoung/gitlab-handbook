@@ -9,7 +9,8 @@ This charter establishes the governance framework and organizational structure f
 
 ## Program Governance
 
-The Chief Information Secuirty Officer, supported by the Security Assurance team, maintains ultimate accountability for PCI DSS compliance and are responsible for:
+The Chief Information Security Officer, supported by the Security Assurance team, maintains ultimate accountability for PCI DSS compliance and are responsible for:
+
 - Reviewing and approving the PCI DSS charter annually
 - Reviewing and approving PCI DSS scope every 6 months
 - Ensuring adequate resource allocation
