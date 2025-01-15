@@ -56,7 +56,6 @@ This person is of interest, but has not interacted with the Talent Acquisition (
 
 - Paid External Tools (*broken out individually*)
   - LinkedIn (Prospecting i.e. LinkedIn Recruiter)
-  - SeekOut
 - Social Media
 - Greenhouse Sourcing (Prospecting via our CRM)
 - Other Sourcing Tools - this indicates any tool we used that we do not have a paid agreement.
@@ -152,7 +151,7 @@ Our strategy to building representative teams is rooted in our top of funnel str
 
 - As a best practice, Recruiters will focus on screening internal candidates, referrals, and sourced candidates for the first 5 business days a req is open.
 
-1. Recruiters run targeted searches leveraging some of our internal resources and sourcing tools (ex: LinkedIn Recruiter, SeekOut, our CRM)
+1. Recruiters run targeted searches leveraging some of our internal resources and sourcing tools (ex: LinkedIn Recruiter and our CRM)
 1. For each candidate that is sourced in step 2 utilizing a DIB sourcing strategy (ie: leveraging HCBUs in a boolean string, utilizing GraceHopper resume books, etc), apply the appropriate tag.
 
 **IMPORTANT NOTE** These indicators are not assuming or identifying an individual's gender, race, or ethnicity—we cannot be certain of this information from a search and do not want to make any assumptions without self-identification.
@@ -179,10 +178,6 @@ Our Talent Acquisition team has two seats for LinkedIn's **Talent Insights** pro
 Once a report has been run, it can be exported in either a `.PDF` or `.CSV` format; the latter allowing you to filter and segment the data. All reports will be uploaded to the [LinkedIn Talent Insights Reports](https://gitlab.com/gitlab-com/people-group/talent-acquisition/-/tree/master/LinkedIn%20Talent%20Insights%20Reports/Talent%20Insights%20Reports) project. If there's a report in that project that you'd like refreshed, please submit a new request Issue.
 
 Our Executive Recruitment team performs research before the start of every Dir+ role which leverages our LI Talent Insights tool. The use throughout the rest of the team is discretionary based on need and sourcing strategy.
-
-#### SeekOut
-
-Each quarter, we allocate SeekOut seats strategically through our recruitment team based on need (volume of roles and alignment to goals), usage and opportunity to drive impact to priority pipelines. Allocations are established during the first two weeks of the quarter. If you are interested in having a seat allocated for the following quarter, be sure to raise the request with your manager for consideration.
 
 #### LinkedIn Sourcing
 
@@ -212,8 +207,6 @@ In today's talent market, a CRM enables us to efficiently and quickly engage wit
 
 Examples of searches:
 
-1. Use of SeekOut's gender or race & ethnicity-specific search tools
-A list of all HBCUs (Historically Black Colleges and Universities) in the United States
 1. A search of all sororities in the United States
 1. A LinkedIn search including "she" or "her" pronouns
 You cannot search for race or gender on LinkedIn, but you can search for associations. (Examples would be NSBE OR "Black engineer" OR NSMBA OR "Black MBAs" OR AAWIT OR "African American women in technology" OR NAACP OR "Black chamber of commerce" OR "African American chamber")
