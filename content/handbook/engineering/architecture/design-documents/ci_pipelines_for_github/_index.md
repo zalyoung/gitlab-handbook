@@ -75,7 +75,7 @@ We would reuse [CI/CD For External Repositories](https://GitLab.com/projects/new
 
 After import, we would automatically enable a new GitLab integration called GitHub SCM for these projects.
 
-Then the customer will use a direct link to install our GitHub App, and choose which repos on GitHub to install it on
+Then the customer will use a direct link to install our GitHub App, and choose which repos on GitHub to install it on. Upon GitHub app installation, and for OAuth, each user will need to accept the terms and conditions listed in ![GitHubApp Installation](images/GitHubAppInstallation.png)
 
 Each user that would want to trigger pipeline would need to OAuth with GitHub. Either via OAuth login or connecting their GitLab account with GitHub
 
