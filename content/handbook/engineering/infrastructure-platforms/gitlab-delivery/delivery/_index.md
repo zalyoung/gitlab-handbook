@@ -43,7 +43,7 @@ Each member of the Delivery group is part of this vision:
 
 ### Short-term
 
-- Develop tooling and processes to allow the Maintenance Policy to be extended to fully support three versions
+- Develop tooling and processes to allow the [Maintenance Policy](https://docs.gitlab.com/ee/policy/maintenance.html) to be extended to fully support three versions
 - Improve deployment pipeline observability to allow deployment inefficiencies to be measured and reduced
 - Measure Release Manager workload to drive process improvements
 
@@ -73,7 +73,7 @@ These principles are intended to help everyone work independently in a way that 
 ### When designing a solution
 
 1. Simplify Release Management. We always want to be reducing work for release managers either by removing tasks or by improving automation. Be very cautious about introducing new tasks without removing something else
-1. Don't add functionality to Deployer. We aim to deprecate Deployer as part of our work to migrate away from VMs
+1. Don't add functionality to [Deployer](https://gitlab.com/gitlab-com/gl-infra/deployer). We aim to deprecate [Deployer](https://gitlab.com/gitlab-com/gl-infra/deployer) as part of our work to migrate away from VMs
 1. Always consider metrics. If we don't have the metrics to track the value, we should look to add them
 1. UX consistency. Strive for consistency across tool interactions and naming
 1. Low-context designs. Design tools as if non-delivery team members need to use them. Keep things simple and let the tools do the hard work
@@ -354,22 +354,7 @@ who was involved in the discussion and decision, and the outcome of the decision
 Comments within the progress thread should highlight the progress achieved, the intermediate steps/results we got, assumptions, discoveries, and blockers we face.
 This approach allows people from the team and outside of the team to build a clear idea and eventually contribute with comments and suggestions.
 
-- Each week, we should provide at least two status updates on Slack: Epics and Issues are our SSOT for the work we are doing, and to make the work more inclusive and visible to the team and the wider group,
-we should post a status update on the Delivery Group Standup channel (`#g_delivery_standups`) at least two times a week (more updates are welcome). The status updates should provide what we completed, what we plan to do today, and what we will do next, and items not work-related and part of everyday life. In the Status Update, links to Progress Thread comments are highly recommended so that we can provide more context and use the Issue as SSOT for discussions.
-
-  We use [Geekbot](https://geekbot.com/) to automate the standup reminder. An example of a status update is:
-
-```markdown
-Today:
-  * Weekly sync meeting
-  * Reviewed team OKR related MRs
-  * Wrestled draft MR to implement a flagger Canary resource template but helm(files) and pipeline failures gave me a hard time
-  * Had the best Pistachio Icecream ever
-
-Tomorrow:
-  * Fighting with Helm: I gave a [more detailed update on the issue's progress thread](https://gitlab.com/gitlab-com/gl-infra/delivery/-/issues/19471#note_1473654659)
-  * Going for a marathon training in my early morning
-```
+- Each week, we should provide at least two status updates on Slack: Epics and Issues are our SSOT for the work we are doing.
 
 ### Choosing something to work on
 

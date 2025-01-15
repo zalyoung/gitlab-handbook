@@ -1,5 +1,6 @@
 ---
 title: "Delivery Team Training"
+description: "The purpose of the team training is to share the work done with the rest of the team, company and public."
 ---
 
 ## Common links
