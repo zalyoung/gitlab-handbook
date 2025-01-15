@@ -5,7 +5,8 @@ The main difference between designing for AI features and every other feature is
 
 We hope this guide will help answer questions like:
 - How do we map a user's happy path when the user's input and system's output are unpredictable?
-- Does a usability test with 5 users still work if each session is completely different from the next?
+- How do we conduct usability testing if sessions are different and unpredictable? 
+- How do we identify unhappy paths and potential failures?
 - How can we measure task success when there is so much subjectivity as to whether or not an LLM answer was useful to an individual?
 - How can we intentionally design for an experience that relies on the unpredictable flow of a conversation?
 
