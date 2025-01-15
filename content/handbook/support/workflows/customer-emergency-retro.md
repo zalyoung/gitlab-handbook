@@ -20,7 +20,7 @@ A few key principles to keep in mind:
 
 ## :musical_score: Conducting a Retro
 
-Anyone can suggest that a retro should be conducted on an emergency (or other anomalous situation). Once it has been determined that a retro should be conducted on a particular emergency, this section should guide you.
+Anyone can suggest that a retro should be conducted on an emergency (or other anomalous situation). To suggest that a retro should be completed, add the `retro` label to the emergency issue. Once it has been determined that a retro should be conducted on a particular emergency, this section should guide you.
 
 Ideally, someone who was directly involved in the emergency identifies someone who was not actively involved in the emergency to lead the synchronous retro. A thirty minute session is typically sufficient. While retros do not need to be conducted immediately after the emergency, they should happen shortly after the emergency is resolved to ensure no context is missed.
 
@@ -30,7 +30,7 @@ Typically, the person who participated in the emergency does not need to do addi
 
 During the synchronous portion of the retro:
 
-1. apply the `retro` label to the issue in [the tracker](https://gitlab.com/gitlab-com/support/readiness/emergencies/-/issues/?sort=created_date&state=opened&first_page_size=100) if it hasn't already been applied
+1. Ensure that the `retro` label has been applied to the issue in [the tracker](https://gitlab.com/gitlab-com/support/readiness/emergencies/-/issues/?sort=created_date&state=opened&first_page_size=100)
 1. the SE who responded to the emergency provides a brief timeline (while the person conducting the retro asks questions to fill in the gaps)
 1. the person conducting the retro and the SE who responded to the emergency work through what went well, what could have gone better and suggestions for what we might do or change
 1. if there are open questions or suggested possible action items in the retro issue
