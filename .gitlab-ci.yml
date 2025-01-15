@@ -152,6 +152,9 @@ build:
   image: $HUGO_IMAGE
   stage: build
   script:
+    - echo "HUGO_BASEURL ${HUGO_BASEURL}"
+    - echo "CI_PAGES_URL ${CI_PAGES_URL}
+    - echo "PAGES_PREFIX ${PAGES_PREFIX}"
     - echo -e "\e[0Ksection_start:`date +%s`:group1\r\e[0KGroup 1"
     - apk update
     - echo -e "\e[0Ksection_end:`date +%s`:group1\r\e[0K"
@@ -205,6 +208,8 @@ pages:
       - public
   script:
     - echo "Pages accessible through ${HUGO_BASEURL}"
+    - echo "PAGES_PREFIX ${PAGES_PREFIX}"
+    - echo "ENVIRONMENT ${ENVIRONMENT}"
   rules:
     - <<: *default-branch
     - <<: *scheduled-pipeline
