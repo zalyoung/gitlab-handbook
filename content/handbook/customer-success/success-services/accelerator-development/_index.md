@@ -292,7 +292,7 @@ GitLab's Value Stream Analytics offers key insights into the Accelerator develop
 | Development Check-Ins         | Async                       | CSA Manager      | Sync on blockers and priorities        |
 | Analyze Workflow Efficiency   | Value Stream Analytics      | CSA Team/Manager | Improved workload distribution         |
 
-### Leveraging Value Stream Analytics (VSA) for Managers and Leadership
+### Leveraging Value Stream Analytics (VSA) for accelerator development reporting
 
 Value Stream Analytics (VSA) is a powerful tool that provides managers and leadership with actionable insights into the Accelerator development process. It allows for better workload management, resource allocation, and alignment with strategic goals. Here's how VSA can be utilized:
 
@@ -342,4 +342,54 @@ VSA offers clear, visual reports that leadership can share with stakeholders to 
    - Adding additional reviewers for faster feedback.  
    - Splitting complex tasks into smaller issues for parallel work.  
 
-**Result**: A smoother workflow with reduced cycle times and more predictable delivery schedules.
+### Leveraging GitLab Roadmaps, Epics, and Child Issues for Accelerator Development Reporting
+
+{{< youtube "3jQIkLruvcI" >}}
+
+*In the [walkthrough](https://youtu.be/3jQIkLruvcI) you will learn how to leverage GitLab Roadmaps and Epics to manage the development and delivery lifecycle of SPS Accelerators.*
+
+GitLab Roadmaps, along with Epics and child issues, offer a structured and transparent way to manage and report on the development and delivery of Accelerators. They enable centralized visibility, strategic alignment, and data-driven decision-making. Here's how these tools can be effectively utilized:
+
+#### 1. **Centralized Visibility for Teams**
+
+Using Roadmaps provides a consolidated view of all Accelerator projects across quarters, allowing teams to monitor workload distribution and progress.  
+
+- **Example**: A quarterly Epic, such as “Accelerators Q4FY25,” is broken down into monthly sub-epics, enabling better tracking of deliverables and team capacity.
+
+#### 2. **Strategic Resource Allocation for Leadership**
+
+Leadership can leverage Roadmaps to align resource planning with customer needs and corporate priorities, ensuring that high-impact projects are prioritized.  
+
+- **Example**: If CI/CD-focused Accelerators are a priority, leadership can track their progress in the Roadmap to ensure timely delivery.
+
+#### 3. **Tracking Performance Metrics**
+
+Roadmaps, when paired with labels and issue weights, help measure delivery velocity and team performance.  
+
+- **Example**: Assigning weights to issues (e.g., weight 8 for a medium effort Accelerator) allows leadership to gauge team capacity and adjust workloads as needed.
+
+#### 4. **Identifying and Resolving Bottlenecks**
+
+Clear timelines and workflow labels in Roadmaps make it easy to pinpoint where issues are stuck and resolve bottlenecks quickly.  
+
+- **Example**: If many tasks are labeled as `workflow: in-review` for extended periods, managers can add reviewers to expedite progress.
+
+#### 5. **Aligning with Customer Needs**
+
+Using clear naming conventions for issues (e.g., `[Customer Name] - [Accelerator Type]`) ensures that each Accelerator aligns with specific customer requirements and goals.  
+
+- **Example**: An issue labeled “Acme Corp - CI/CD Enhancer” provides clarity on the Accelerator’s purpose and value.
+
+#### 6. **Transparent Reporting for Stakeholders**
+
+Roadmaps provide visual reports on the Accelerator portfolio's progress, which can be shared with stakeholders to demonstrate alignment with corporate strategies and delivery timelines.
+
+### Example: Tracking Accelerator Delivery via Epics
+
+**Scenario**: Leadership wants to ensure timely delivery of CI/CD-focused Accelerators in Q4FY25.
+
+**Actions**:
+
+1. Create a parent Epic for Q4FY25 and link relevant monthly sub-epics.  
+2. Assign issues with clear weights, labels, and due dates.  
+3. Regularly update completion percentages and monitor progress in the Roadmap view.
