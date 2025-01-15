@@ -151,13 +151,13 @@ The table has a unique index on the `name` column.
 
 Similar to the `plans`, we can adopt the `name_uid` column strategy, and drop the
 `id` column.
-As the data comes from Gitaly (lingust), we will need to map the
+As the data comes from Gitaly (linguist), we will need to map the
 `name` to an integer in a way that is stable.
 This mapping can be stored on either the GitLab Ruby monolith, or in Gitaly.
 
 <https://github.com/github-linguist/linguist/blob/main/lib/linguist/languages.yml>
 has the full list of languages.
-We can possibly use the `langugage_id` field.
+We can possibly use the `language_id` field.
 
 All referencing tables will be switched to refer to the `name_uid`
 column instead.
