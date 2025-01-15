@@ -69,9 +69,9 @@ The framework is architected around 3 stages:
 | Activity | Security Team | Green & Yellow Data | Orange Data | Red Data |
 | -------- | ------------- | ------------------- | ----------- | -------- |
 | [Data classification](#data-classification) | [Security Assurance]({{< ref "security-assurance" >}}) | N/A | N/A | N/A |
-| [Architecture](architecture.html) | [Security Architects]({{< ref "../product-security/architecture" >}}) | Optional| Recommended | Required |
-| Define Target Environment | [InfraSec]({{< ref "../product-security/infrastructure-security" >}}) | Optional | Required | Required |
-| Threat Modeling | [AppSec]({{< ref "../product-security/application-security" >}}) | Optional | Recommended | Required |
+| [Architecture](architecture.html) | [Security Architects](/handbook/security/product-security/security-architecture/) | Optional| Recommended | Required |
+| Define Target Environment | [InfraSec](/handbook/security/product-security/infrastructure-security/) | Optional | Required | Required |
+| Threat Modeling | [AppSec](/handbook/security/product-security/application-security/) | Optional | Recommended | Required |
 
 #### Data classification
 
