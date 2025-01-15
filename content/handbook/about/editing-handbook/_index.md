@@ -304,7 +304,7 @@ There are two main reasons it will fail:
 
 Here's an example of a failed `hugolint` job error message when viewed in the job log:
 
-```
+```plain
 Newly broken (only in "linkcheck.json", 3 issues):
 ❌ [content/handbook/security/product-security/_index.md:43]: <major> Link destination "architecture/" does not exist
 ❌ [content/handbook/security/product-security/security-architecture/_index.md:269]: <major> Link destination "/handbook/business-technology/tech-stack/#panther" does not exist
