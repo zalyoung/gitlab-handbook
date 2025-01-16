@@ -264,7 +264,7 @@ Please review the [Pathfactory Training](/handbook/marketing/marketing-operation
 
 This section will continue to be fleshed out as we rollout to the global Field Marketing team.
 
-## Process for Issues Moving from Plan to WIP
+## Process for moving events from Plan to WIP
 
 The following is the process for when a Field Marketing issue moves from `mktg-status::plan` to `mktg-status::wip`.
 
@@ -297,7 +297,7 @@ Please plan your timelines accordingly based on the below SLAs. Keep in mind the
   - Click `Use Template`
   - Copy the full GitLab issue title (FY26-Q2: Best Event Ever 2025.05.12) and paste into `Project Name` in Asana
   - `Team - All Marketing` and `Privacy - Shared with team` should not be adjusted
-  - Update the date of the event - Confirm date range start or end date and update Asana verbiage
+  - Update the date to the start date of the event
   - Click `Continue`
   - Assign the appropriate roles to the appropriate POCs (MOps POC is Bryce Weatherford)
   - Click `Go to Project`
@@ -310,26 +310,6 @@ Please plan your timelines accordingly based on the below SLAs. Keep in mind the
 ### Plan to WIP video walk through
 
 TBD for new process
-
-## Field Marketing Event Copy Deadline Process
-
-Please review [SLAs](/handbook/marketing/field-marketing/#slas) above.
-
-- FMM to assign FMC in main event issue.
-- FMC to attach their regional event tracking label to the event issue.
-- FMM and FMC to follow the [Process for Issues Moving from Plan to WIP](/handbook/marketing/field-marketing/#process-for-issues-moving-from-plan-to-wip).
-- FMC to create a [Write Copy Issue](https://gitlab.com/gitlab-com/marketing/field-marketing/-/blob/master/.gitlab/issue_templates/write-copy.md) and fill in the requested copy due dates for each asset the FMM has requested in the FMC checklist, and then attach the issue to the epic.
-- FMM to update the Copy Document file the FMC created for them (linked in the epic) with copy for each asset. Previous Copy Documents for reference are available in the [Event Support Folder](https://drive.google.com/drive/folders/1S-4PVueBj7FPAE9fB-IKz_Bbuz17rPtH).
-- Once the FMM completes copy, they will ping the FMC in the [Write Copy Issue](https://gitlab.com/gitlab-com/marketing/field-marketing/-/blob/master/.gitlab/issue_templates/write-copy.md) to notify them which asset copy has been completed.
-- If copy has not been completed for an asset yet, (1) business day before copy is due, the FMC will ping the FMM in [Write Copy Issue](https://gitlab.com/gitlab-com/marketing/field-marketing/-/blob/master/.gitlab/issue_templates/write-copy.md) with a copy due reminder.
-- FMC will make sure copy has been provided or continue to remind the FMM, if needed.
-
-## Lead List Deadline Process
-
-- FMC to create the [List Clean and Upload](https://gitlab.com/gitlab-com/marketing/marketing-operations/issues/new?issuable_template=event-clean-upload-list) issue during the [plan to WIP process](/handbook/marketing/field-marketing/#process-for-issues-moving-from-plan-to-wip)
-- FMC to assign a due date of 2 business days post-event
-- One (1) business day after the issue is due, FMC to ping the FMM in the list clean and upload issue to remind them leads are due
-- FMC will make sure leads have been provided or continue to remind the FMM, if needed
 
 ## Rescheduling or Canceling Events
 
@@ -1742,9 +1722,29 @@ Field Marketing will:
 1. KubeCon US
 1. Black Hat US
 
-## Deprecated handbook content
+## Deprecated Handbook Content
 
 We feel like this info is too good to delete, and while we currently aren't using either the tool that is descirbed or the process, we just aren't ready to delete.....its like that sweater you just can't seem to get rid of in case you may need it one day...
+
+## Field Marketing Event Copy Deadline Process
+
+Please review [SLAs](/handbook/marketing/field-marketing/#slas) above.
+
+- FMM to assign FMC in main event issue.
+- FMC to attach their regional event tracking label to the event issue.
+- FMM and FMC to follow the [Process for Issues Moving from Plan to WIP](/handbook/marketing/field-marketing/#process-for-issues-moving-from-plan-to-wip).
+- FMC to create a [Write Copy Issue](https://gitlab.com/gitlab-com/marketing/field-marketing/-/blob/master/.gitlab/issue_templates/write-copy.md) and fill in the requested copy due dates for each asset the FMM has requested in the FMC checklist, and then attach the issue to the epic.
+- FMM to update the Copy Document file the FMC created for them (linked in the epic) with copy for each asset. Previous Copy Documents for reference are available in the [Event Support Folder](https://drive.google.com/drive/folders/1S-4PVueBj7FPAE9fB-IKz_Bbuz17rPtH).
+- Once the FMM completes copy, they will ping the FMC in the [Write Copy Issue](https://gitlab.com/gitlab-com/marketing/field-marketing/-/blob/master/.gitlab/issue_templates/write-copy.md) to notify them which asset copy has been completed.
+- If copy has not been completed for an asset yet, (1) business day before copy is due, the FMC will ping the FMM in [Write Copy Issue](https://gitlab.com/gitlab-com/marketing/field-marketing/-/blob/master/.gitlab/issue_templates/write-copy.md) with a copy due reminder.
+- FMC will make sure copy has been provided or continue to remind the FMM, if needed.
+
+## Lead List Deadline Process
+
+- FMC to create the [List Clean and Upload](https://gitlab.com/gitlab-com/marketing/marketing-operations/issues/new?issuable_template=event-clean-upload-list) issue during the [plan to WIP process](/handbook/marketing/field-marketing/#process-for-issues-moving-from-plan-to-wip)
+- FMC to assign a due date of 2 business days post-event
+- One (1) business day after the issue is due, FMC to ping the FMM in the list clean and upload issue to remind them leads are due
+- FMC will make sure leads have been provided or continue to remind the FMM, if needed
 
 ## Refined AMER Regional Marketing Event Planning Cycle
 
