@@ -1730,7 +1730,7 @@ Please review [SLAs](/handbook/marketing/field-marketing/#slas) above.
 
 - FMM to assign FMC in main event issue.
 - FMC to attach their regional event tracking label to the event issue.
-- FMM and FMC to follow the [Process for Issues Moving from Plan to WIP](/handbook/marketing/field-marketing/#process-for-issues-moving-from-plan-to-wip).
+- FMM and FMC to follow the process for issues Moving from Plan to WIP.
 - FMC to create a [Write Copy Issue](https://gitlab.com/gitlab-com/marketing/field-marketing/-/blob/master/.gitlab/issue_templates/write-copy.md) and fill in the requested copy due dates for each asset the FMM has requested in the FMC checklist, and then attach the issue to the epic.
 - FMM to update the Copy Document file the FMC created for them (linked in the epic) with copy for each asset. Previous Copy Documents for reference are available in the [Event Support Folder](https://drive.google.com/drive/folders/1S-4PVueBj7FPAE9fB-IKz_Bbuz17rPtH).
 - Once the FMM completes copy, they will ping the FMC in the [Write Copy Issue](https://gitlab.com/gitlab-com/marketing/field-marketing/-/blob/master/.gitlab/issue_templates/write-copy.md) to notify them which asset copy has been completed.
@@ -1739,7 +1739,7 @@ Please review [SLAs](/handbook/marketing/field-marketing/#slas) above.
 
 ## Lead List Deadline Process
 
-- FMC to create the [List Clean and Upload](https://gitlab.com/gitlab-com/marketing/marketing-operations/issues/new?issuable_template=event-clean-upload-list) issue during the [plan to WIP process](/handbook/marketing/field-marketing/#process-for-issues-moving-from-plan-to-wip)
+- FMC to create the [List Clean and Upload](https://gitlab.com/gitlab-com/marketing/marketing-operations/issues/new?issuable_template=event-clean-upload-list) issue during the plan to WIP process.
 - FMC to assign a due date of 2 business days post-event
 - One (1) business day after the issue is due, FMC to ping the FMM in the list clean and upload issue to remind them leads are due
 - FMC will make sure leads have been provided or continue to remind the FMM, if needed
