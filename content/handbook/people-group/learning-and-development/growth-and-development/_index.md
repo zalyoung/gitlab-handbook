@@ -15,7 +15,9 @@ To use the Growth and Development fund, applicants must be full-time GitLab empl
 
 ## Process
 
-Here is a step by step guide on how to apply for G&D applications:
+Here is a step by step guide on how to apply for G&D applications.
+
+We've created a comprehensive guide on Level Up that walks you through the G&D process, complete with video tutorials and step-by-step examples. Check out the [Growth & Development Explainer](https://university.gitlab.com/access/saml/login/internal-team-members?returnTo=https://university.gitlab.com/learn/course/growth-and-development-explainer) course.
 
 ### Step 1 - Growth Conversation
 
