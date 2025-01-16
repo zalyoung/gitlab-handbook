@@ -19,6 +19,16 @@ Observability testing is actively making use of our Observability tools to detec
   - This enables teams to get performance metrics earlier in the development process
   - This increases team familiarity with the tooling which facilitates easier adoption/use
 
+### Example workflow for a Scrum Development team
+
+We had a couple dashboards setup:
+
+- An [Apdex](https://en.wikipedia.org/wiki/Apdex) based view into how the application was running for end users (both in production and our test environment)
+- Dashboards for Key services / KPIs that provided deeper details to explain the why's and what's of the Apdex view 
+- A dashboard that provided views into errors in our environments
+
+Every Daily Standup, we spent 5 minutes reviewing the dashboards, indentifying patterns / errors that the team wanted to review / investigate further. The review was not to find a cause, just to identify something that was worth further investigation so we could open an Issue against it. These issues would get prioritized and worked like any other Issue. We allocated time to investigate and diagnose these Issues
+
 ## Key Components
 
 - **Instrumentation**: Embedding traces, metrics, and structured logging across the application stack.
