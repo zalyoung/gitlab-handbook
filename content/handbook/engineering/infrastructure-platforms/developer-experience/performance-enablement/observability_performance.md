@@ -19,16 +19,6 @@ Observability testing is actively making use of our Observability tools to detec
   - This enables teams to get performance metrics earlier in the development process
   - This increases team familiarity with the tooling which facilitates easier adoption/use
 
-### Example workflow for a Scrum Development team
-
-We had a couple dashboards setup:
-
-- An [Apdex](https://en.wikipedia.org/wiki/Apdex) based view into how the application was running for end users (both in production and our test environment)
-- Dashboards for Key services / KPIs that provided deeper details to explain the why's and what's of the Apdex view 
-- A dashboard that provided views into errors in our environments
-
-Every Daily Standup, we spent 5 minutes reviewing the dashboards, indentifying patterns / errors that the team wanted to review / investigate further. The review was not to find a cause, just to identify something that was worth further investigation so we could open an Issue against it. These issues would get prioritized and worked like any other Issue. We allocated time to investigate and diagnose these Issues
-
 ## Key Components
 
 - **Instrumentation**: Embedding traces, metrics, and structured logging across the application stack.
@@ -51,7 +41,56 @@ Every Daily Standup, we spent 5 minutes reviewing the dashboards, indentifying p
 
 ## Case Studies
 
-[TBD]
+### Case Study 1: Scrum team using Observability Based Performance Testing
+
+#### Background
+
+The team was building an ETL (Extract, Transform, Load) project with critical performance requirements. A few hours of system delay would create an insurmountable backlog in the ETL process, making performance monitoring essential to business operations. The team was small (9 developers, 2 QA, 1 Ops) and deployed to production every other week, adding a heavy weight process would of introduced a signficant burden. So, we implemented using our existing Observability stack.
+
+#### Observabilty implementation
+
+We implemented a three-tiered monitoring approach:
+
+1. User Experience Monitoring
+   - Built Apdex-based dashboards for both production and test environments
+   - Tracked end-user performance metrics like page load times and API response times
+   - Set clear thresholds for acceptable performance levels
+2. Service-Level Monitoring
+   - Created detailed dashboards for key services showing:
+     - Resource utilization (CPU, memory, I/O)
+     - Service dependencies and their performance
+     - Queue lengths and processing rates
+   - Established KPI tracking for critical ETL operations
+3. Error Tracking
+   - Implemented comprehensive error logging
+   - Created error pattern recognition dashboards
+   - Set up alerting for error rate thresholds
+
+#### Daily Workflow
+
+1. Dashboard Review (5 minutes in daily standup)
+   - Team reviewed all three dashboard tiers
+   - Focused on identifying patterns rather than immediate problem-solving
+   - Used a structured approach:
+     - Review user experience metrics
+     - Check service health indicators
+     - Examine error patterns
+2. Issue Management
+   - Created issues for concerning patterns
+   - Prioritized performance issues alongside feature work
+   - Allocated dedicated investigation time in sprint planning
+
+#### Outcomes
+
+- Met performance KPIs consistently
+- Maintained 99.999% uptime during 10x growth period
+  - Zero performance-related incidents
+  - No emergency load testing needed
+  - Proactively scaled based on observability data
+- Lessons Learned:
+  - Early warning from observability prevented major incidents
+  - Daily review habit kept performance top-of-mind
+  - Small, regular improvements better than big reactive changes
 
 ## Tools and Technologies
 
