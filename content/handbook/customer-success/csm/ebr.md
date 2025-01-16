@@ -20,7 +20,7 @@ GitLab encourages participation from decision-makers and influential stakeholder
 
 ## Stakeholder Recommendations
 
-### Customer Stakeholders that would benefit from an Executive ROI Progress and Impact Review
+### Customer Stakeholders that would benefit from an Executive Business Review
 
 | Customer Stakeholder Recommendations                | GitLab Potential Attendance            |
 |-----------------------------------------------------|----------------------------------------|
@@ -33,19 +33,19 @@ GitLab encourages participation from decision-makers and influential stakeholder
 | DevOps Leadership (for example, SVP, VP, Director)         |                                        |
 | Product Leadership (for example, SVP, VP, Director)        |                                        |
 
-## Executive ROI Progress and Impact Review (EPR) Process and Overview
+## Executive Business Review Process and Overview
 
-This section outlines the EPR process, highlighting key stages: preparation, delivery, and follow-ups. While the process can be tailored to meet specific customer needs, this guide provides a typical flow to ensure strategic alignment, seamless execution, and timely action on key outcomes.
+This section outlines the EBR process, highlighting key stages: preparation, delivery, and follow-ups. While the process can be tailored to meet specific customer needs, this guide provides a typical flow to ensure strategic alignment, seamless execution, and timely action on key outcomes.
 
-1. **Internal Alignment (3-4 months prior)**: CSM and the account team set goals, timing, and participants to ensure a successful EPR.
+1. **Internal Alignment (3-4 months prior)**: CSM and the account team set goals, timing, and participants to ensure a successful EBR.
 2. **Initial Customer Discussion (3-4 months prior)**: CSM engages with the customer to define focus areas and align attendees.
 3. **Scheduling (2-3 months prior)**: Confirm date and attendees, and secure participation from GitLab leadership.
-4. **EPR Planning (1 month prior)**: Build the EPR content, aligning with internal and customer stakeholders to ensure strategic focus.
+4. **EPR Planning (1 month prior)**: Build the EBR content, aligning with internal and customer stakeholders to ensure strategic focus.
 5. **Internal Review (3-4 weeks prior)**: Finalize the presentation with internal GitLab teams and adjust based on feedback.
 6. **Customer Review (2-3 weeks prior)**: Validate the agenda and content with the customer to ensure alignment with their expectations.
-7. **Final Prep (2 weeks prior)**: All GitLab participants align on objectives and final details for the EPR.
-8. **Delivery**: The EPR is conducted, focusing on strategic alignment and driving outcomes for the customer.
-9. **Follow-ups (Within 1 business day)**: A follow-up email is sent to review action items, ensuring timely completion. The Success Plan is also updated to reflect insights from the EPR.
+7. **Final Prep (2 weeks prior)**: All GitLab participants align on objectives and final details for the EBR.
+8. **Delivery**: The EBR is conducted, focusing on strategic alignment and driving outcomes for the customer.
+9. **Follow-ups (Within 1 business day)**: A follow-up email is sent to review action items, ensuring timely completion. The Success Plan is also updated to reflect insights from the EBR.
 
 ### Final Review with the Customer
 
