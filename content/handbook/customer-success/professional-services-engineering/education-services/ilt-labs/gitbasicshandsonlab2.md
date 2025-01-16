@@ -81,10 +81,10 @@ Please take time to understand any code that you are asked to copy and paste in 
 
    > **Security Warning:** You should never share your private key or paste it into any website form field. Only your public key should be shared.
 
-1. Display the contents of your public key by using the `cat id_rsa.pub` if you are using Linux, or `file id_rsa.pub` if you are using Windows.
+1. Display the contents of your public key by using the `cat id_rsa.pub` if you are using Linux, or `type id_rsa.pub` if you are using Windows.
 
 
-   > If you used a different file name, you command will be `cat <filename>.pub` if you are using Linux, or `file id_rsa.pub` if you are using Windows.
+   > If you used a different file name, you command will be `cat <filename>.pub` if you are using Linux, or `type id_rsa.pub` if you are using Windows.
 
 1. Copy the content of the file displayed to your screen to your clipboard.
 
