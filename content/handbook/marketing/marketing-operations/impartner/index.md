@@ -22,7 +22,6 @@ The emails to Partner and GitLab team members in the PRM Approval Process can be
 3. There is a new required field on the Claim form asking for a Claim Title. We will need to provide guidance to Partner so they know how to name the Claim. Claim Titles need to be unique for each submission otherwise the workflows will fail.
 4. Partners are asked to submit the lead list and proof of performance on the Claim, and Invoice when we receive a notification when the PO is created.
 
-
 ### Step 1 - MDF Request Submission
 
 On the MDF Request Form, Partners are required to provide the following:
@@ -73,8 +72,8 @@ Once submitted, the Partner will receive a confirmation email indicating that th
 
 When the Partner has uploaded the Proof of Performance and Lead List attachments, the GitLab team member will be asked to check to ensure they are infact the right attachment.
 
-     - If they are missing an attachment, the GitLab team member is required to update the field, `Missing POP` with the missing item. This will trigger an automated message to Partner will add the selected item to the Claim.
-     - If all attachments are received and looks good, the GitLab team member will update the `POP Approval` to `Rejected` or `Approved`.
+      - If they are missing an attachment, the GitLab team member is required to update the field, `Missing POP` with the missing item. This will trigger an automated message to Partner will add the selected item to the Claim.
+      - If all attachments are received and looks good, the GitLab team member will update the `POP Approval` to `Rejected` or `Approved`.
 
 ## Cancelled MDF Request
 
@@ -89,10 +88,10 @@ We can make edits to the form, which is built using  the Module Form Builder (MF
 3. Under the Select a Module to Edit section choose `SFDC - Marketing Development Funds`.
 4. Select the MDF forms, you wish to update. You can edit the following form:
 
-    - Create - Funds Request
-    - Edit - Funds Request
-    - Create - Funds Request - Funds Claim
-    - Edit - Funds Request - Fund Claim.
+      - Create - Funds Request
+      - Edit - Funds Request
+      - Create - Funds Request - Funds Claim
+      - Edit - Funds Request - Fund Claim.
 
 5. When you've clicked any of the MDF forms, you will be able to add, remove and update the form fields and layout.
 6. Save and Publish.
@@ -110,10 +109,12 @@ Should you wish to have a customized view, following the instructions below.
 1. Update the Name to "My Pending Requests"
 1. Set Visibility: "Private - can only be seen by me"
 1. In Manage Filters, Click on `+Add` 
-     1. Field: `Activity Location - Region`
-     1. Operator: `equals`
-     1. Type: `Value`
-     1. Value: Select the region that applies to you
+          
+      1. Field: `Activity Location - Region`
+      1. Operator: `equals`
+      1. Type: `Value`
+      1. Value: Select the region that applies to you
+      
 1. In Column Configuration, add any additional fields.
 1. Save and repeat for the other statuses - Approved and Denied.
 
@@ -121,9 +122,9 @@ Should you wish to have a customized view, following the instructions below.
 
 The intergration from PRM to Salesforce is customizable per object.
 
-- Impartner `Lead` is mapped to SFDC `Lead`
-- Impartner `MDF Request` is mapped to SFDC `Funds Request`
-- Impartner `MDF Claim` is mapped to SFDC `Funds Claim`
+ - Impartner `Lead` is mapped to SFDC `Lead`
+ - Impartner `MDF Request` is mapped to SFDC `Funds Request`
+ - Impartner `MDF Claim` is mapped to SFDC `Funds Claim`
 
 ### MDF Request and Claim Salesforce Sync
 
