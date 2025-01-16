@@ -70,7 +70,7 @@ Our preference is to work asynchronously, within our project issue tracker as de
 
 The team does have set of regular synchronous calls:
 
-- A weekly team sync to discuss progress, blockers, and anything related to the InfraSec team.
+- A weekly team sync to discuss progress, blockers, and anything related to the Security Logging Team team.
   - Everyone in the company is welcome to join.
   - The [agenda is public within GitLab](https://docs.google.com/document/d/1kFahDB78MSKpIUJX1XG3i8WkD_tSrg3iVk2TFbLa3cI/edit?usp=sharing) as well.
 - A quarterly team retrospective to reflect on what went well in the previous quarter, and discuss what can be improved going forward.
@@ -92,7 +92,7 @@ work for different services alongside each other.
 
 #### Team Planning
 
-- For the **long term strategy** of the InfraSec Team, you can refer to:
+- For the **long term strategy** of the Security Logging Team, you can refer to:
   - 📊 [Sec-Logging Roadmap](tbd)
   - 🎯 [Sec-Logging OKRs](tbd)
 - From a **tactical point of view**, you can refer to:
@@ -126,7 +126,7 @@ These design doc documents the high level implementation strategy and key design
 
 To start discussing a new design:
 
-1. [Create a new issue](https://gitlab.com/gitlab-com/gl-security/security-operations/infrastructure-security/team-charter/-/issues/new?issuable_template=design_doc) in the InfraSec Team Charter repo
+1. [Create a new issue](https://gitlab.com/gitlab-com/gl-security/security-operations/infrastructure-security/team-charter/-/issues/new?issuable_template=design_doc) in the Security Logging Team Team Charter repo
 1. Select the `design_doc` template
 1. Fill the data as requested
 
@@ -142,7 +142,7 @@ The following roles and responsibilities are specific to the management and exec
 - Ownership of the to be developed Security Logging Standard
 - Subject matter experts with regards to the operation and management of the SIEM
 - The data movement and archive of security logging data currently held in Panther
-- Capacity planning and forecasting of licensing and infrastructure costs, as a shared responsibility with InfraSec
+- Capacity planning and forecasting of licensing and infrastructure costs, as a shared responsibility with Security Logging Team
 
 ### AppSec is responsible for
 
@@ -169,7 +169,7 @@ Capacity planning and forecasting of licensing and infrastructure costs, as a sh
 - Ensuring that they have the logging data needed to effectively and efficiently execute their responsibilities as incident responders
 - Documenting gaps in logs and using the prioritization procedure to ensure prioritization meets the standards set by the procedure
 - Configuring automation, alerting, and monitoring specific to their needs for incident response
-- Guiding and informing the InfraSec and AppSec teams on logging data critical to SIRT through collaboration and maintenance of the development of the Security Logging Standard
+- Guiding and informing the Security Logging Team and AppSec teams on logging data critical to SIRT through collaboration and maintenance of the development of the Security Logging Standard
 - Reporting to the Security Logging Team when logs:
   - Are no longer needed
   - Are incomplete
@@ -187,4 +187,4 @@ Capacity planning and forecasting of licensing and infrastructure costs, as a sh
 ### Onboarding
 
 - Infrastructure Security Team [Onboarding Template](https://gitlab.com/gitlab-com/gl-security/security-operations/infrastructure-security/team-charter/-/blob/master/onboarding/onboarding_template.md)
-- [InfraSec Entitlements template](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/blob/master/.gitlab/issue_templates/role_baseline_access_request_tasks/department_security/role_security_engineer_infrastructure_security.md)
+- [Security Logging Team Entitlements template](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/blob/master/.gitlab/issue_templates/role_baseline_access_request_tasks/department_security/role_security_engineer_infrastructure_security.md)
