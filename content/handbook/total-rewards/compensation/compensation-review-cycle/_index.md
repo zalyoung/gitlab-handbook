@@ -48,7 +48,7 @@ graph LR
 Eligible team members for Annual Compensation Review have a hire date on or before:
 
 - January 31st to be eligible to participate in the merit review program
-- December 5th to be eligible to participate in the equity refresh program
+- October 5th to be eligible to participate in the equity refresh program
 
 Team members on leave will be eligible to receive an annual compensation and/or promotion increase during the GitLab-paid portion of their leave. If a team member is not receiving pay from GitLab, then they'll be eligible to receive the increase when they return to work.
 
