@@ -72,7 +72,7 @@ Capturing various types of data helps us build a comprehensive understanding of 
 
 - **Overview**: Log activities such as meetings and calls using Rattle integrated with Slack and Salesforce.
 - **Details**: [Activity Based Logging Guide](/handbook/solutions-architects/processes/activity-capture/activity-logging)
-  
+
 ### 2. **Email Logging (Gong) [Optional]**
 
 - **Overview**: Record email communications with customers in Salesforce using the Gong email connection.
@@ -94,12 +94,6 @@ Each type of data capture plays a crucial role in building a detailed and action
 
 - **Tableau Dashboards**: Solutions Architecture Tableau Dashboard, SA Activity Report, Current FQ Technical Evaluations, Proof of Values Dashboards.
 - **Salesforce Dashboards**: Regional and segment-specific dashboards for tracking SA activities and technical evaluations.
-
-## Training Resources
-
-- **Logging an Activity Post Meeting**
-- **Creating a Record**
-- **Updating Tech Eval Dates and Status**
 
 ## Feedback and Questions
 
