@@ -336,4 +336,3 @@ For changes that affect Pajamas (GitLab's design system):
   - Create an issue to track and address the feedback.
 
 By following these steps, you ensure effective communication, collaboration, and continuous improvement in the design and development process.
-
