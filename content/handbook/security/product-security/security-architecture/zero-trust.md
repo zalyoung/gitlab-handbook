@@ -42,9 +42,11 @@ use cases for which individual team members may still wish to use a *personal*
 VPN, such as privacy or preventing traffic aggregation. Team members that
 wish to use a personal VPN service for any reason may still [expense one](/handbook/finance/expenses/).
 
-For the use case of laptop usage in untrusted environments, such as coffee
-shops and coworking spaces, team members should prioritize a baseline of always-on host protections,
-such as up-to-date security patching, host firewalls, and antivirus, by following the
-[system configuration guidelines](/handbook/security/corporate/systems/#laptop-or-desktop-system-configuration)
-at a minimum. That said, a personal VPN may provide additional protections in these situations.
-For more on personal VPNs see the [Personal VPN]({{< ref "personal-vpn" >}}) page.
+For the use case of laptop usage in untrusted environments, such as coffee shops
+and coworking spaces, team members should prioritize a baseline of always-on
+host protections, such as up-to-date security patching, host firewalls, and
+antivirus, by following the [Laptop Software Configuration
+Standards](https://handbook.gitlab.com/handbook/security/corporate/services/laptops/software/).
+That said, a personal VPN may provide additional protections in these
+situations. For more on personal VPNs see the [Personal VPN]({{< ref
+"personal-vpn" >}}) page.
