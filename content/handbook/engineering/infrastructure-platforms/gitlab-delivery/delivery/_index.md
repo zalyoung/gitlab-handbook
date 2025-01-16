@@ -393,7 +393,7 @@ Besides, we try to apply some best practices when doing Merge Requests:
   - Project - The reviewer should be knowledgeable or at least familiarized with the project, for example, release-tools reviews are normally handled by backend engineers, while k8s-workloads reviews are handled by SREs.
   - Context - If you're working closely with a peer, it's recommended to assign it to this team member for shorter review cycles.
   - Release manager (or capacity) - If a team member is a [release manager](https://about.gitlab.com/community/release-managers/) and they're working on a release task, they should not be bothered with reviews.
-- The usual [code-review turnaround]([link](/handbook/engineering/workflow/code-review/#review-response-slo)) is of two business days.
+- The usual [code-review turnaround](/handbook/engineering/workflow/code-review/#review-response-slo) is two business days.
   - This doesn't apply if the merge request is associated with a ~Delivery::P1 item. In that case, the Merge Request review has to be treated with priority and urgency.
 - If the merge request has all the required approvals it can be merged by the author.
 - If you are assigned as a Reviewer, and you think to not be the best fit for the Merge Request (out of working hours, not enough understanding, don't have the capacity to review, etc.), please mention this to the merge request author so they can find another maintainer available or select an alternate team member that you feel would be better suited.
