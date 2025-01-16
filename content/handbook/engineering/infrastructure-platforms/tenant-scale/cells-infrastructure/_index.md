@@ -30,13 +30,13 @@ The following are the `workflow::*` and `workflow-infra::*` labels that we use a
 
 | `gitlab-org` issues | `gitlab-com/gl-infra` issues | 
 | ---------- | ------------------  |
-| ~workflow::refinement | ~workflow-infra::Triage |
-| ~workflow::ready for development | ~workflow-infra::Ready |
-| ~workflow::in dev | ~workflow-infra::In Progress |
-| ~workflow::in review | ~workflow-infra::Under Review |
-| ~workflow::blocked | ~workflow-infra::Blocked |
-| ~workflow::verification | ~workflow-infra::Verify |
-| ~workflow::complete | ~workflow-infra::Done |
+| ~"workflow::refinement" | ~"workflow-infra::Triage" |
+| ~"workflow::ready for development" | ~"workflow-infra::Ready" |
+| ~"workflow::in dev" | ~"workflow-infra::In Progress" |
+| ~"workflow::in review" | ~"workflow-infra::Under Review" |
+| ~"workflow::blocked" | ~"workflow-infra::Blocked" |
+| ~"workflow::verification" | ~"workflow-infra::Verify" |
+| ~"workflow::complete" | ~"workflow-infra::Done" |
 
 #### Blocked Issues
 
