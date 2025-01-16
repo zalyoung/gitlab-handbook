@@ -75,7 +75,7 @@ We would reuse [CI/CD For External Repositories](https://GitLab.com/projects/new
 
 After import, we would automatically enable a new GitLab integration called GitHub SCM for these projects.
 
-Then the customer will use a direct link to install our GitHub App, and choose which repos on GitHub to install it on. Upon GitHub app installation, and for OAuth, each user will need to accept the terms and conditions listed in ![GitHubApp Installation](images/GitHubAppInstallation.png)
+Then the customer will use a direct link to install our GitHub App, and choose which repos on GitHub to install it on. Upon GitHub app installation, and for OAuth, each user will need to accept the terms and conditions listed in ![GitHubApp Installation](images/GitHubAppInstallation.png). The OAuth permissions as well as the App's permissions will be set-up on GitHub's side.
 
 Each user that would want to trigger pipeline would need to OAuth with GitHub. Either via OAuth login or connecting their GitLab account with GitHub
 
@@ -89,7 +89,7 @@ The steps here will be in accordance with the diagram above
 1. GitLab will use the signed payload's `sender_id` and map that to a GitLab user.
     1. If the GitLab user does not have permissions to run pipelines. A pipeline will be created but will fail immediately. Anyone with correct permissions can re-try this pipeline.
 1. If the GitLab user does have permissions to create pipelines.
-    1. GitLab will the `refresh_token` of the user to generate a new `access_token`, so we can [act on behalf of the user](https://docs.github.com/en/apps/creating-github-apps/authenticating-with-a-github-app/authenticating-with-a-github-app-on-behalf-of-a-user#identifying-and-authorizing-users-for-github-apps)
+    1. GitLab will use the `refresh_token` of the user to generate a new `access_token`, so we can [act on behalf of the user](https://docs.github.com/en/apps/creating-github-apps/authenticating-with-a-github-app/authenticating-with-a-github-app-on-behalf-of-a-user#identifying-and-authorizing-users-for-github-apps)
     1. This `access_token` is repository specific, and will only have
         1. Read access to repos
         1. Write access to commit_status (to update the commit with pipeline details)
