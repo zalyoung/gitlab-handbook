@@ -3,6 +3,7 @@
 The main difference between designing for AI features and every other feature is mainly one thing: uncertainty. Especially when working with LLMs, there is usually uncertainty as to what users will do, or write, and there is always uncertainty over how an LLM will respond. As designers, we’re here to shape the experience, but we have far less control over what the user can do and the results they get, than most of us are used to. This guide is intended to provide tools and methods that work well in this environment of uncertaintly. They are meant to supplement, not replace, a product designer’s existing toolkit. 
 
 We hope this guide will help answer questions like:
+
 - How do we map a user's happy path when the user's input and system's output are unpredictable?
 - How do we conduct usability testing if sessions are different and unpredictable? 
 - How do we identify unhappy paths and potential failures?
@@ -13,7 +14,9 @@ We hope this guide will help answer questions like:
 
 To start with, we've noted aspects of the [Product Designer Workflow](/handbook/product/ux/product-designer/#product-design-process) that you might want to adjust.
 
-### [Define the opportunity](/handbook/product/ux/product-designer/#define-the-opportunity)  
+### Define the opportunity
+
+[Define the opportunity](/handbook/product/ux/product-designer/#define-the-opportunity)  
 
 During [problem validation](/handbook/product-development-flow/#validation-goals--outcomes), you should work closely with Product Managers as usual to understand" who you’re designing for, what you’re designing, and why you’re designing it.
 
@@ -21,7 +24,9 @@ For gen AI, the problem and solution space may be broader than usual. For exampl
 
 The team should scope the problem space enough to be able to quickly explain to a stranger what types of problems their solution will and won’t solve. Along with your PM, you should then be able to define measurable success criteria.
 
-### [Before you design](/handbook/product/ux/product-designer/#before-you-design)
+### Before you design
+
+[Before you design](/handbook/product/ux/product-designer/#before-you-design)
 
 Designing for generative AI requires a fundamental shift in interaction design, as we're creating interfaces for systems whose outputs are inherently variable and unpredictable. Whether in conversational exchanges or single-input generations, the core challenge is designing clear paths for users to understand, shape, and recover from these uncertain interactions
 
@@ -200,7 +205,9 @@ If your research question is about…
 - understanding what users think a good answer is, try: 
    - Show users multiple AI outputs for the same prompt
 
-### [Delivering your solution](/handbook/product/ux/product-designer/#delivering-your-solution)
+### Delivering your solution
+
+[Delivering your solution](/handbook/product/ux/product-designer/#delivering-your-solution)
 
 ### During development, when doing an MR review
 
@@ -208,18 +215,18 @@ After the solution has been built, designers must test it.
 
 UX testing ensures designers identify any potential issues that evaluation might miss. The focus on UX testing isn't on the model's accuracy but on how well the model and interface handles different inputs, failures, and edge cases. 
 
-UX testing
-  Focuses on how to interact with the interface
-  Tests specific features, workflows, happy pathes, unhappy paths
-  Identifies usability issues and friction points
-  Helps refine interaction patterns
+UX testing 
+* Focuses on how to interact with the interface
+* Tests specific features, workflows, happy pathes, unhappy paths
+* Identifies usability issues and friction points
+* Helps refine interaction patterns
 
 Evaluation
-  Assesses AI system performance and outputs
-  Measures accuracy and usefulness of responses
-  Checks for biases and errors
-  Validates against business requirements
-  Helps improve model behavior
+* Assesses AI system performance and outputs
+* Measures accuracy and usefulness of responses
+* Checks for biases and errors
+* Validates against business requirements
+* Helps improve model behavior
 
 UX testing helps stakeholders better understanding user behaviors, strategies, and mental models for navigating AI interactions. 
 
@@ -230,34 +237,34 @@ To test a new generative AI feature, return to the data set created at the begin
 UX testing should include testing happy paths and unhappy paths. 
 
 How to test: 
-  Try various inputs from the data set
-  Map happy and unhappy paths
-  Document usability issues
-  Identify friction points
+* Try various inputs from the data set
+* Map happy and unhappy paths
+* Document usability issues
+* Identify friction points
 
 Test edge cases:
-  Empty or minimal inputs
-  Extremely long inputs
-  Special characters/formatting
-  Rate limit boundaries
-  System errors/timeouts
-  Multiple rapid requests
-  Context switching (for conversational solutions)
-  Incomplete queries
+* Empty or minimal inputs
+* Extremely long inputs
+* Special characters/formatting
+* Rate limit boundaries
+* System errors/timeouts
+* Multiple rapid requests
+* Context switching (for conversational solutions)
+* Incomplete queries
   
 Example of UX testing flow with dataset:
-  Input test prompt
-  Review AI response
-  Note interaction patterns
-  Ask followup questions if testing a conversational solution
-  Test error scenarios
-  Document recovery paths
+* Input test prompt
+* Review AI response
+* Note interaction patterns
+* Ask followup questions if testing a conversational solution
+* Test error scenarios
+* Document recovery paths
 
 ### Links and Resources
 
-- [UX Forum presentation on this framework](https://www.youtube.com/watch?v=wM8726uQoW4)
-- [AI-human interaction in Pajamas](https://design.gitlab.com/usability/ai-human-interaction): Documentation on best practices for AI-human interaction.
-- [AI Integration Effort FAQ](https://internal.gitlab.com/handbook/product/ai-strategy/ai-integration-effort/faq/): Internal handbook with frequently asked questions about AI integration efforts. **Internal handbook 🔒**
-- [UX maturity requirements](/handbook/product/ai/ux-maturity/): Documentation on the UX maturity requirements to move AI features from Experiment to Beta to Generally Available (GA).
-- [Experiment, Beta, and Generally Available features](https://docs.gitlab.com/ee/policy/development_stages_support.html): Guidelines on the different stages of feature availability.
-- [UX research in the AI space](/handbook/product/ux/ux-research/research-in-the-AI-space.md): Documentation on conducting UX research in the AI domain.
+* [UX Forum presentation on this framework](https://www.youtube.com/watch?v=wM8726uQoW4)
+* [AI-human interaction in Pajamas](https://design.gitlab.com/usability/ai-human-interaction): Documentation on best practices for AI-human interaction.
+* [AI Integration Effort FAQ](https://internal.gitlab.com/handbook/product/ai-strategy/ai-integration-effort/faq/): Internal handbook with frequently asked questions about AI integration efforts. **Internal handbook 🔒**
+* [UX maturity requirements](/handbook/product/ai/ux-maturity/): Documentation on the UX maturity requirements to move AI features from Experiment to Beta to Generally Available (GA).
+* [Experiment, Beta, and Generally Available features](https://docs.gitlab.com/ee/policy/development_stages_support.html): Guidelines on the different stages of feature availability.
+* [UX research in the AI space](/handbook/product/ux/ux-research/research-in-the-AI-space.md): Documentation on conducting UX research in the AI domain.
