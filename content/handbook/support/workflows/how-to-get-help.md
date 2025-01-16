@@ -162,7 +162,7 @@ Use the following repositories and resources for identifying similar issues or r
 1. When linking to Kibana, also upload a copy of relevant entries, a screenshot of the graph, etc. as logs rotate out after 7 days. If possible, also link to the relevant Sentry entry.
 1. Many teams do not have access to customer information. So make sure if you are accessing information using elevated access (Such as GitLab.com Admin) that you provide information in the issue directly that may be required to understand the problem.
 
-#### When Development Requires Additional Information:
+#### When Development Requires Additional Information
 
 Development engineers may apply the `RFH::Needs more info` label to your issue if additional details are needed. This label indicates that your issue requires clarification or additional information to proceed. When you see this label:
 
