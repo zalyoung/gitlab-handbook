@@ -49,6 +49,20 @@ You might also find it helpful to review the
 1. Change your job title in Zoom
 1. Update your signature in Zendesk to indicate that you are an ASE
 
+### On-call responsibilities
+
+Support Engineers who are moving into an ASE role will continue participating in the CMOC/CEOC
+on-call rotations until they have two assigned accounts. At that point, you and your manager should
+plan for you to be taken off the on-call rota.
+
+This transition plan is influenced by:
+
+- When your backfill is ready to start on-call responsibilities.
+- Whether the on-call rota you are on is sufficient staffed.
+- Any other operational considerations.
+
+Guidance for Support Engineers who are hired into GitLab as ASEs will be defined at a later date.
+
 ###
 
 **<<<< COMING SOON >>>>**
