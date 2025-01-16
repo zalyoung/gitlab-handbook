@@ -556,6 +556,8 @@ hotspots
 HTMLHint
 http
 https
+Hugo
+Hugolint
 Hugomods
 hypercare
 hypergrowth
