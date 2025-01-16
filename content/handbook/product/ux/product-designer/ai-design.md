@@ -1,5 +1,5 @@
 ---
-title: Designing with AI: A Guide for Product Designers
+title: A Guide for Designing with AI 
 description: "Here are some guidelines to help Product Designers navigate AI projects"
 ---
 
