@@ -4,18 +4,20 @@ title: Observability Based Performance Testing at GitLab
 
 ## Description
 
-
 Observability Based Performance Testing is a proactive approach to understanding system performance through comprehensive instrumentation and real-time data collection. Unlike traditional performance testing, which relies on specific test scenarios, observability testing provides deep visibility into application behavior under real-world conditions. 
-
 
 ## Approach
 
 Observability testing is actively making use of our Observability tools to detect trends that would develop into performance issues. A couple common approaches:
 
 1. Have the development teams monitor the dashboards on their components and proactively pickup performance concerns
+
 2. Build dashboards/tooling that support doing exploratory testing on the Observability data, looking for linkages that may not be obvious (system A causes system B to slow down)
+
   - Tools like the [Performance Bar](https://docs.gitlab.com/ee/administration/monitoring/performance/performance_bar.html) can enable someone to notice a performance oddity and start the investigation into the root cause
+
 3. Extend existing Observability tooling to development/test environments
+
   - This enables teams to get performance metrics earlier in the development process
   - This increases team familiarity with the tooling which facilitates easier adoption/use
 
