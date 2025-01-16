@@ -163,6 +163,7 @@ Limitations:
 - Only top-level groups can be moved between organizations.
 - New IDs will be generated which will break automation and integrations - This is acceptable since we will only be moving a limited set of internal top-level groups.
 - Public top-level groups cannot be hosted on other Cells, only on the Legacy Cell.
+- Several [features available on GitLab.com are not supported on Cells](./iterations/cells-1.0.md#features-on-gitlabcom-that-are-not-supported-on-cells) at this iteration.
 
 We will migrate a few small GitLab internal top-level groups to another Cell. There will be no Organization migrations in Cells 1.0. The specific top-level groups to be migrated will be identified in due course.
 
@@ -180,7 +181,7 @@ The top-level groups being migrated will be read-only for the duration of the mi
 
 ### Cells 1.5
 
-At the Cells iteration the focus will be moving top-level groups into Organizations and then migrating those Organizations from the Legacy Cell to other Cells.
+At this Cells iteration the focus will be moving top-level groups into Organizations and then migrating those Organizations from the Legacy Cell to other Cells.
 
 We will establish a process for moving top-level groups between organizations on the same Cell. This functionality is net new and will need to be developed in time for Cells 1.5 and is a pre-requisite before Org mover can move an Organization between Cells.
 
