@@ -89,6 +89,8 @@ To do so, enter your GitLab email and the `Log in with SSO` option will appear.
 
 To request access, open an [access request](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/new?issuable_template=Access_Change_Request) for the Cloudflare Analytics role.
 
+Watch a [recorded walkthrough of the Cloudflare Dashboard](https://www.youtube.com/watch?v=7oW5WrlJWp0) (private to GitLab Team Members).
+
 #### Quick Links
 
 - [Cloudflare Overview: gitlab.com domain](https://dash.cloudflare.com/852e9d53d0f8adbd9205389356f2303d/gitlab.com)
@@ -173,6 +175,8 @@ Once you have filtered your results then you can use the results to further inve
 - **User Agents:** Are requests from a common library? What version?
 - **Paths:** What resources or paths are they targetting, is there a pattern?
 - **Firewall/ Rate limiting/ Managed rules**: What rules are being hit? Is this expected behaviour?
+  - Note: these may show as `Rule unavailable` to those with Analytics access,
+  but can still be beneficial to know which type of rule has blocked a request.
 
 If any of the results are particularly interesting,
 you can hover over the value to further `Filter` or `Exclude` to dig deeper into your investigation.
@@ -264,3 +268,4 @@ using one of two confidential issue templates:
 - [Support Workflows: IP Blocks](/handbook/support/workflows/ip-blocks/)
 - [Runbooks: Rate Limiting](https://gitlab.com/gitlab-com/runbooks/-/tree/master/docs/rate-limiting)
 - [Runbooks: Cloudflare](https://gitlab.com/gitlab-com/runbooks/-/tree/master/docs/cloudflare)
+- [Docs: RackAttack Troubleshooting](https://docs.gitlab.com/ee/security/rate_limits.html#troubleshooting)
