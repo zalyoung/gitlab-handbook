@@ -67,10 +67,7 @@ For a general list of public holidays by country, follow these steps:
 3. Select your country of residence
 4. Change the dropdown from 'All holidays and national observances' to 'Public Holidays'
 
-For any questions related to holidays or how to categorize time off please reach out using [HelpLab](https://helplab.gitlab.systems/esc?id=emp_taxonomy_topic&topic_id=3df7f70d474c069067429ee0026d434c).
-
-1. If you decide to work on a holiday and then take another day off in lieu of the actual holiday date, we ask that you choose Public Holiday as a Time Off category, and in the comment section please note that this day is taken in lieu of the actual holiday date.
-2. Please note that Public Holidays will be listed in Workday with a Length of 1 day.
+For any questions related to holidays or how to categorize time off please reach out using [HelpLab](https://helplab.gitlab.systems/esc?id=emp_taxonomy_topic&topic_id=3df7f70d474c069067429ee0026d434c). Please note that Public Holidays will be listed in Workday with a length of 1 day.
 
 ### Communicating Your Time Off
 
