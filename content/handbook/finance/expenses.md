@@ -625,9 +625,9 @@ The procedure by which reimbursable expenses are processed varies and is depende
 
 #### PEO (Professional Employer Organization/ Employer of Record and not a GitLab entity or Branch)
 
-**Global Upside, Remote.com and Papaya Global**
+**PEO Locations**
 
-- The list of Global Upside, Remote & Papaya countries can be found [here](/handbook/people-group/employment-solutions#peo-professional-employer-organization-employer-of-record-and-not-a-gitlab-entity).
+- The list of locations under a PEO can be found [here](/handbook/people-group/employment-solutions#peo-professional-employer-organization-employer-of-record-and-not-a-gitlab-entity).
 - Team Members must submit their expenses through Navan.
 - All expenses must be submitted and approved by the Accounts Payable team (for out of policy expenses) on or before the 6th of each month to ensure it is included in the current month's payroll.
 
