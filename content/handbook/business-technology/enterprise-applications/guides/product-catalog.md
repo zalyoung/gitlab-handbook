@@ -32,7 +32,7 @@ There are 3 issue templates in [this directory](https://gitlab.com/gitlab-com/bu
 
 It is the Business Sponsor's responsibility to provide information and obtain required approvals for the SKU changes being requested. Steps 1-4 of the SKU issue template must be completed and have required approvals obtained before the SKU can be configured. **Please assign the SKU Request issue to yourself by clicking on the `Edit` button on the right-hand panel of the issue.**
 
-Generally, it takes 6-8 weeks for a new SKU to be created. This timing includes 4 major steps. This outlines the steps to create the SKU in our Enterprise Applications (Salesforce, Zuora) & CDOt (webstore). This does not include the time it takes to provision customer access to features in GitLab.
+Generally, it takes 6-8 weeks for a new SKU to be created. This timing includes 4 major steps. This [flow](https://lucid.app/lucidchart/bc3b2fae-8007-4ecc-b246-83e078ba7b6e/edit?viewport_loc=2618%2C46%2C3328%2C1592%2C0_0&invitationId=inv_700137df-67d0-4833-a808-2ebc12d27f33) outlines the steps to create the SKU in our Enterprise Applications (Salesforce, Zuora) & CDOt (webstore). This does not include the time it takes to provision customer access to features in GitLab.
 
 1. SKU requirements gathering and cross-functional approvals
 2. Enterprise Apps SKU build & test data generation
@@ -204,7 +204,7 @@ Enterprise Applications generates test data to be utilized during user acceptanc
 ### Step 3a. Create the UAT issue
 
 There is a UAT issue template in 
- [this directory] (https://gitlab.com/gitlab-com/business-technology/enterprise-apps/financeops/finance-systems/-/issues/new). Open an issue in and use the [TBD NAME] template.
+ [this directory](https://gitlab.com/gitlab-com/Product/-/issues/new?issuable_template=SKU-UAT-template). Open an issue in and use the `SKU UAT template`.
 
  **UAT Type**: This section is to determine whether this user acceptance testing is for an existing SKU or a new SKU.
 
@@ -237,15 +237,12 @@ Each team will need to confirm:
 - That they approve the test cases to be tested
 
 **Test Scenarios** 
-
 <br> Use this section to link to the test cases
 
 **Bugs Identified**
-
 <br> This section will be used to track bugs during the user acceptance testing.
 
 **Final Testing Sign Off**
-
 <br>This section will be used to receive final sign off across the cross-functional teams involved in testing
 
 ### Step 3b: Estimate the UAT Timeline
@@ -268,7 +265,7 @@ Outline the estimated dates above and then ensure that these teams approve the t
 
 ### Step 3c: Create Draft of UAT Test Cases
 
-- Create a copy of the [master spreadsheet]
+- Create a copy of the [master spreadsheet](https://docs.google.com/spreadsheets/d/1awATKGhVKLRh3LpyVllCnCQYsV4vjakoijsW5K8dY_4/edit?gid=2069598564#gid=2069598564)
 - Populate columns A through J in the spreadsheet
 - **Column A:** test case #. Use this format for test case numbering:
   - TC (test case)
