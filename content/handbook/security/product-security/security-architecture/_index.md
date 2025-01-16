@@ -1,8 +1,20 @@
 ---
 title: "Security Architecture"
+aliases:
+  - "/handbook/security/product-security/security-architecture/"
 ---
 
 <link rel="stylesheet" type="text/css" href="/stylesheets/biztech.css" />
+
+## Team Information
+
+- **Team Pages**
+  - [Handbook Page](/handbook/security/product-security/security-architecture/)
+  - [GitLab Sub-Group](https://gitlab.com/gitlab-com/gl-security/product-security/security-architecture/)
+- **Contact Info**
+  - Slack Channels
+    - `#security-architecture`: main channel to engage with the team
+  - Tag on GitLab: `@gitlab-com/gl-security/security-architecture`
 
 ## Overview
 
@@ -17,7 +29,6 @@ Security Architecture protects the organization from cyber harm, and support pre
 business needs by:
 
 - Preventing Security from being an afterthought
-- Conducting [Security Architecture reviews](#security-architecture-reviews)
 - Defining [Security Architecture Principles](#security-architecture-principles)
 - Aligning with our [security sub-departments requirements and expectations](#security-architecture-requirements)
 - Assisting other departments in the design and architect of new features, services, products.
@@ -59,17 +70,17 @@ cycle of source code:
 
 <!-- Using this page until infrasec requirements are in the handbook -->
 
-- [Security Requirements for Development and Deployment]({{< ref "security-development-deployment-requirements" >}})
+- [Security Requirements for Development and Deployment](/handbook/security/planning/security-development-deployment-requirements/)
 
 ### Compliance
 
-- [GitLab Audit Logging Policy]({{< ref "audit-logging-policy" >}})
+- [GitLab Audit Logging Policy](/handbook/security/security-and-technology-policies/audit-logging-policy/)
 
 ### Cryptography
 
 - [Do not roll your own crypto]({{< ref "encryption-policy#rolling-your-own-crypto" >}}) (also one of our [Security Architecture Principles](#security-architecture-principles)
 )
-- Reference our [GitLab Cryptography Standard]({{< ref "cryptographic-standard" >}})
+- Reference our [GitLab Cryptography Standard](/handbook/security/cryptographic-standard/)
 
 <!-- Add FIPS and FedRamp requirements here when available -->
 
@@ -149,7 +160,7 @@ Make attacks less attractive.
 #### Examples
 
 - A system/service that only needs to read git commits should not be able to access user data
-- GitLab team members don't have access to billing data, nor anything else [classified red data]({{< ref "data-classification-standard" >}})
+- GitLab team members don't have access to billing data, nor anything else [classified red data](/handbook/security/data-classification-standard/)
 
 #### Links
 
@@ -194,7 +205,7 @@ Make attacks less attractive.
 
 #### Links
 
-- [Zero Trust](/handbook/security/product-security/architecture/zero-trust) at GitLab
+- [Zero Trust](/handbook/security/product-security/security-architecture/zero-trust) at GitLab
 
 </details>
 
@@ -255,7 +266,7 @@ Make attacks less attractive.
 
 - Enable [GuardDuty](https://aws.amazon.com/guardduty/) in AWS or [Cloud Audit Logs](https://cloud.google.com/logging/docs/audit?hl=en) in GCP to record activity and detect malicious
   intent.
-- Leverage [Panther](/handbook/business-technology/tech-stack/#panther) (for gitlab.com only) to collect, normalize, and analyze logs.
+- Leverage a SIEM (Devo for gitlab.com) to collect, normalize, and analyze logs.
 - Provide notifications to users when:
   - Changes to their accounts
   - New keys generated or added to their accounts
@@ -351,13 +362,13 @@ aka Fail Safe Defaults.
 - Don't rely on a single point/layer of security:
   - Secure every level
   - Stop failures at one level propagating
-- [Encrypt data at rest]({{< ref "encryption-policy#encryption-at-rest" >}}) and [in transit]({{< ref "encryption-policy#encryption-in-transit" >}})
+- Encrypt data at rest and in transit (according to [GitLab's encryption policy](/handbook/security/product-security/vulnerability-management/encryption-policy/#encryption))
 - Use vulnerability scanners
 - Close unnecessary ports and disable unused features
 
 #### Examples
 
-- A resource is well protected when accessed via the UI, but could be more exposed via the API.
+- A resource is well protected when accessed with the UI, but could be more exposed through the API.
 - Accounts are locked when too many attempts, in order to avoid brute-force attacks.
 - OS execution can lead to bypass all application security layers, because the execution occurs
   outside of the application.
@@ -366,7 +377,7 @@ aka Fail Safe Defaults.
 #### Links
 
 - <https://en.wikipedia.org/wiki/Defense_in_depth_(computing)>
-- [Zero Trust](/handbook/security/product-security/architecture/zero-trust) at GitLab
+- [Zero Trust](/handbook/security/product-security/security-architecture/zero-trust) at GitLab
 
 </details>
 
@@ -437,7 +448,7 @@ aka Fail Safe Defaults.
 - The weakest link could also be a user. Not enforcing strong passwords and MFA could lead to
   sensitive data exposure, but users can also do harmful actions without being aware of it.
 - OS (system) commands often leads to bypassing most, if not all, the security controls of an
-  applicaton. It is a common vector for [RCEs](https://en.wikipedia.org/wiki/Arbitrary_code_execution) and should be avoided as much as possible.
+  application. It is a common vector for [RCEs](https://en.wikipedia.org/wiki/Arbitrary_code_execution) and should be avoided as much as possible.
 
 #### Links
 
@@ -446,26 +457,9 @@ aka Fail Safe Defaults.
 
 </details>
 
-## Security Architecture reviews
-
-As part of the [Production Readiness Process](/handbook/engineering/infrastructure/production/readiness/), it is highly recommended to include a Security
-Architecture review.
-
-The Security Architecture review process is detailed in this [page]({{< ref "review." >}}).
-
 ## Measuring results
 
-Security Architecture, by nature, doesn't generate measurable data, apart from the number of
-architecture diagrams and reviews. While this could be used as a metric, it's only reflecting work
-load, and not achievements. Instead, we are measuring success in terms of maturity.
-
-The [OWASP SAMM](https://owaspsamm.org/about/) framework is currently used, but this is subject to change (see discussions in this
-[issue](https://gitlab.com/gitlab-com/gl-security/security-department-meta/-/issues/1315)).
-
-## Communication channels
-
-- **Slack**: #security-architecture
-- **GitLab namespace**: <https://gitlab.com/gitlab-com/gl-security/security-architecture>
+TODO (discussed in https://gitlab.com/gitlab-com/gl-security/product-security/security-architecture/general/-/issues/49)
 
 ## References
 
