@@ -162,6 +162,19 @@ Use the following repositories and resources for identifying similar issues or r
 1. When linking to Kibana, also upload a copy of relevant entries, a screenshot of the graph, etc. as logs rotate out after 7 days. If possible, also link to the relevant Sentry entry.
 1. Many teams do not have access to customer information. So make sure if you are accessing information using elevated access (Such as GitLab.com Admin) that you provide information in the issue directly that may be required to understand the problem.
 
+#### When Development Requires Additional Information
+
+Development engineers may apply the `RFH::Needs more info` label to your issue if additional details are needed. This label indicates that your issue requires clarification or additional information to proceed. When you see this label:
+
+1. Review any comments from the development team carefully.
+1. Provide all requested information in a new comment.
+1. Mention the relevant developer in your response.
+1. Ensure you've included a detailed description of the problem, the required logs, screenshots, or the required reproduction steps.
+
+Once you've provided the requested information, the development team will remove the RFH::Needs more info label and continue with the investigation.
+
+Please Note: Providing thorough and prompt responses when this label is applied helps ensure your issue can be investigated and resolved efficiently.
+
 #### Escalate to unblock a request
 
 If you encounter any problems, such as obtaining a timely response from Development, then please take one or more of the following steps:
