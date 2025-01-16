@@ -334,11 +334,10 @@ For all other event types (including in-person workshops), please see instructio
 ### FMC Tasks
 
 - FMC to update the new date(s) in the Allocadia sub-category and adjust the forecasted amount (if over the prepaid $5k threshold and if the new date falls in a new month).
-- The FMC will update the event listing in the [Marketing Calendar](/handbook/marketing/#marketing-calendar) with the updated date(s).
 - The FMC will update the date(s) in the appropriate Google calendar for the event invite.
 - The FMC will update the epic details and sub-issue due dates (and issue titles), as well as make the necessary changes to any upcoming asset send dates. If there are any emails scheduled to send, the FMC will ping MOps specially in those issues to have them unschedule the sends first.
 - The FMC will re-open the Marketo LP issue and request the date be changed in the LP. This will most likely change the LP URL as well, in which case, the FMC will update the LP link in the epic and notify the FMM of the changed link (to communicate to the sales team).
-- The FMC will follow [these instructions](/handbook/marketing/events/#how-to-add-events-to-aboutgitlabcomeventshttpsaboutgitlabcomevents) to update the date of the event on the [Events Page](https://about.gitlab.com/events/) (if applicable).
+- The FMC will follow [these instructions](/handbook/marketing/events/#how-to-add-events-to-aboutgitlabcomevents) to update the date of the event on the [Events Page](https://about.gitlab.com/events/) (if applicable).
 - Allocadia: FMC to change the ISO date in the SFDC campaign name to the new start date.
 - SFDC: FMC to change the ISO date in the SFDC campaign name to the new date and update the start and end date fields.
 - Marketo: FMC to change the ISO date in the Marketo program to the new date and update the `event date` and `UTM tokens`. Also update [asset expiration](/handbook/marketing/marketing-operations/campaigns-and-programs/#step-5-setting-landing-page--smart-campaign-expiration-asset-expiration).
@@ -357,9 +356,8 @@ For all other event types (including in-person workshops), please see instructio
 
 - FMC to update Allocadia showing the event as canceled by going to the event sub-category panel and selecting `Yes` to the `Campaign Canceled?` dropdown. FMC to also add in `CANCELED` to the event sub-category title and to the `Official Event/Campaign Name` field so the title in the main issue stays updated.
 - FMC to remove any planned/forecasted costs in Allocadia accordingly.
-- The FMC will update the [Marketing Calendar](/handbook/marketing/#marketing-calendar) by selecting the event line item and adding a strikethrough to indicate the event has been canceled.
 - The FMC will delete the Google calendar invite in the appropriate calendar.
-- The FMC will follow [these instructions](/handbook/marketing/events/#how-to-add-events-to-aboutgitlabcomeventshttpsaboutgitlabcomevents) to delete the event from the [Events Page](https://about.gitlab.com/events/) (if applicable)
+- The FMC will follow [these instructions](/handbook/marketing/events/#how-to-add-events-to-aboutgitlabcomevents) to delete the event from the [Events Page](https://about.gitlab.com/events/) (if applicable)
 - The FMC will comment regarding the cancellation in all open sub-issues and close out the issues. If there are any emails scheduled to send, the FMC will ping MOps specifically in those issues to have them unschedule the sends first.
 - If applicable, FMC to ping procurement and finance in the Coupa req to notify them that the event has been canceled.
 - If the FMM is not sending their own cancellation email to registrants and would like to send a Marketo cancellation email, create an [issue](https://gitlab.com/gitlab-com/marketing/field-marketing/-/blob/master/.gitlab/issue_templates/request_email_invite.md) for the request and triage to Marketing Ops. Please Note: This email must be scheduled and sent BEFORE the rest of the steps below can be completed.
@@ -492,7 +490,7 @@ Once the report is downloaded (or the event/tactic has ended and all swag has be
 
 ## Brand Details for Swag and Event Assets
 
-For information regarding Brand support, please visit the [Brand Creative Handbook Page](/handbook/marketing/brand-and-product-marketing/design/). Templates for requesting design/brand support are located [here](/handbook/marketing/brand-and-product-marketing/design/#brand--marketing-design-issue-templates). You can also watch [this video](https://www.youtube.com/watch?v=bBzasucNkh0) (must be logged into GitLab Unfiltered) regarding Brand templates and repos for previous and current brand designs.
+For information regarding Brand support, please visit the [Brand Design Handbook Page](/handbook/marketing/brand-and-product-marketing/design/). Templates for requesting design/brand support are located [here](/handbook/marketing/brand-and-product-marketing/design/#brand-design--video-issue-templates). You can also watch [this video](https://www.youtube.com/watch?v=bBzasucNkh0) (must be logged into GitLab Unfiltered) regarding Brand templates and repos for previous and current brand designs.
 
 ## AMER Field Marketing Swag
 
@@ -526,7 +524,7 @@ For Brilliant support, please see email addresses below. For any questions or co
 
 #### Approval Process through the Brilliant Store Portal
 
-- Brilliant will send the FMM an order estimate through the [Brilliant store portal](/handbook/marketing/field-marketing/#brilliant-portal) (FMM will receive an email notification). FMM to go to the order estimate and save the order to PDF and submit a [contract request](/handbook/marketing/field-marketing/#field-marketing-contract-requests) to the FMC.
+- Brilliant will send the FMM an order estimate through the [Brilliant store portal](/handbook/marketing/field-marketing/#brilliant-store-portal) (FMM will receive an email notification). FMM to go to the order estimate and save the order to PDF and submit a [contract request](/handbook/marketing/field-marketing/#field-marketing-contract-requests) to the FMC.
 - FMC to route the order through the procurement process.
 - Once the PO number is obtained, the FMM will log back into the Brilliant store portal, go to the order estimate, and click `approve`. An additional screen will pop up where the FMM will include the PO number and then submit.
 - Once the order is approved in the store portal, Brilliant will submit the order to the vendor.
@@ -573,11 +571,11 @@ For sticker orders, please reach out to `@krogel` for details.
 
 ### Print Collateral
 
-In order to stay environmentally-friendly, we generally do not provide large quantities of print collateral at events. However, if you do need printouts or gift bag stuffers for events, we utilize [Vistaprint](https://www.vistaprint.com/). Please log in using the Marketing 1pass. Another option in lieu of hundreds of printed handouts is to have a handful of printed and laminated pieces of collateral to utilize for visual reference while speaking with customers at an event. Additionally, you can create a [QR Code](/handbook/marketing/events/#field-marketing-qr-codes-for-events) to display at your event with that same piece of content for customers to download to their own devices.
+In order to stay environmentally-friendly, we generally do not provide large quantities of print collateral at events. However, if you do need printouts or gift bag stuffers for events, we utilize [Vistaprint](https://www.vistaprint.com/). Please log in using the Marketing 1pass. Another option in lieu of hundreds of printed handouts is to have a handful of printed and laminated pieces of collateral to utilize for visual reference while speaking with customers at an event. Additionally, you can create a [QR Code](/handbook/marketing/events/#qr-codes-for-events-field-marketing-and-corporate-events) to display at your event with that same piece of content for customers to download to their own devices.
 
 ## EMEA Field Marketing Swag
 
-The EMEA Field Marketing team utilises [Reachdesk](/handbook/marketing/marketing-operations/#project-management) to source, fulfill, ship and store (European and UK warehouses) swag branded swag items.  We also utilise vendor [Ten&One](https://tenandone.com/) who can source swag items and who also currently store all EMEA event material. The FMC is responsible for ensuring adequate stock levels and coordinating field event swag logistics. Additional event assets utilized for shows (including backwalls, tablecloths, popup banners, etc.) are stocked at the Ten&One warehouse and can be shipped
+The EMEA Field Marketing team utilises Brilliant to source, fulfill, ship and store (European and UK warehouses) swag branded swag items.  We also utilise vendor [Ten&One](https://tenandone.com/) who can source swag items and who also currently store all EMEA event material. The FMC is responsible for ensuring adequate stock levels and coordinating field event swag logistics. Additional event assets utilized for shows (including backwalls, tablecloths, popup banners, etc.) are stocked at the Ten&One warehouse and can be shipped
 
 - **Budget Allocation:**
   - If there is an individual order dedicated to support one specific event (e.g Cloud Expo) an Allocadia line item should be created by the FMM in their regional activity plan under this specific event.
@@ -983,11 +981,11 @@ In an effort to share the regional marketing team's plans with the rest of the m
 
 ### Marketing SSoT calendar
 
-Within two days of the quarterly plan being [locked by Finance](https://internal.gitlab.com/handbook/finance/financial-planning-and-analysis/marketing-finance/#important-dates) in Allocadia, the Regional Managers will download the teams' plans from Allocadia and will upload to the shared [marketing calendar](/handbook/marketing/#marketing-calendar).
+Within two days of the quarterly plan being [locked by Finance](https://internal.gitlab.com/handbook/finance/financial-planning-and-analysis/marketing-finance/#important-dates) in Allocadia, the Regional Managers will download the teams' plans from Allocadia and will upload to the shared Marketing Calendar.
 
 In order to ensure the formulas carry over properly, the download from Allocadia will need to be cleaned, similiar to how we clean our leads for list upload.
 
-The [Calendar cleaner spreadsheet](https://docs.google.com/spreadsheets/d/19XsjDlnAJ_lmWysIcD1XSL1JT3R0awDUd_7MRCGgMgs/edit#gid=777223734&range=A1) should be used to do this. Once the data is cleaned, it then can be copied into the [marketing calendar](/handbook/marketing/#marketing-calendar).
+The [Calendar cleaner spreadsheet](https://docs.google.com/spreadsheets/d/19XsjDlnAJ_lmWysIcD1XSL1JT3R0awDUd_7MRCGgMgs/edit#gid=777223734&range=A1) should be used to do this. Once the data is cleaned, it then can be copied into the Marketing Calendar.
 
 [Video walk through on how to clean.](https://youtu.be/xiABH1Gjkw4) *on GitLab Unfiltered.
 
