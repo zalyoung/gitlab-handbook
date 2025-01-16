@@ -12,7 +12,7 @@ For more information about various uses of Jira Please check out the [Get starte
 
 ### How to Set Up Jira Server
 
-1. You need to create a host with [GitLab Sandbox Cloud](https://gitlabsandbox.cloud). Ensure no services (including GitLab) are using port 443 on this new host. We will set up Jira to use HTTPS for GitLab integration.
+1. Create a new host using [GitLab Sandbox Cloud](https://gitlabsandbox.cloud) for your Jira Server installation. This should be separate from your GitLab instance. Ensure port 443 is available on this new host, as we will set up Jira to use HTTPS for GitLab integration.
 
 #### Prerequisite software
 
