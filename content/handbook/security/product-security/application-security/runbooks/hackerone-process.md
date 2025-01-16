@@ -18,7 +18,6 @@ The `#hackerone-feed` Slack channel receives notifications of report status chan
    - Generally speaking it's a good practice to keep an eye on the `H1 Triage` and `New` queues to look for `Criticals` and `Highs`.
 - The AppSec engineer on rotation should make every effort to ensure that _all_ H1 reports that are assigned to `GitLab Team` within their triage week are both assigned (to themselves) and properly triaged.
   - If a report wasn't re-assigned to the person on rotation, the next person on rotation can freely assign it to them.
-  - All subsequent reports are then passed on to the next person on HackerOne rotation.
 
 ## GitLab Team On-boarding
 
