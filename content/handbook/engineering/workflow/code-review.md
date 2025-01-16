@@ -96,6 +96,23 @@ After merging, the manager should:
 
 Interested reviewers for the projects below should complete the listed tasks in addition to what is described in [How to become a project maintainer](#how-to-become-a-project-maintainer) to progress from a reviewer to a maintainer.
 
+### Maintaining maintainership
+
+Becoming a maintainer is a not an end goal but rather an ongoing journey.
+Serving as a maintainer requires that you:
+
+- Continue to uphold high standards for the respective project.
+- Respond to merge requests in a timely manner.
+- Make a reasonable effort to flag potential problems that might arise in production.
+
+If you feel that a maintainer is not performing up to standards, consider:
+
+- Providing feedback directly to that person, if you feel comfortable.
+- Discussing your concerns with the maintainer's manager.
+
+Maintainership may be revoked on a case-by-case basis if at least three
+maintainers agree.
+
 #### Project maintainer process for `gitlab-database`
 
 - Familiarize with [database review process](https://docs.gitlab.com/ee/development/database_review.html).
