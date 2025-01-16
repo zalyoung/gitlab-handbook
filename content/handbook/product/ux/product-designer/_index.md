@@ -181,7 +181,7 @@ UI text includes button or menu labels, error messages, log files, user-assistan
 To ensure a smooth process:
 
 - **Label the issue and MR**: Apply the [UI text](https://gitlab.com/gitlab-org/gitlab/-/issues?label_name%5B%5D=UI+text) and`documentation` labels.
-- **Request a review**: Message the [Technical Writer for the group](/handbook/product/ux/technical-writing/#designated-technical-writers) in the design issue to request a review. Specify files or lines to review and how to preview or understand the context from the user's perspective.
+- **Request a review**: Message the [Technical Writer for the group](/handbook/product/ux/technical-writing/#assignments) in the design issue to request a review. Specify files or lines to review and how to preview or understand the context from the user's perspective.
 - **Collaborate on finalizing text**: Work closely with the Technical Writer to finalize the UI text, ensuring it's usable and accurate.
 - **Incorporate feedback from other departments**: When other departments (e.g., Product Management, Marketing, Legal) provide input on UI copy, ask for goals rather than specific text to avoid extensive revisions and design-by-committee.
 
@@ -200,7 +200,7 @@ Sometimes the designer, PM, and technical writer agree to display additional [in
 
 UX Researchers collaborate with Product Managers and Product Designers to ensure research projects are targeted and provide valuable insights.
 
-- **Request research**: Follow the [process to request research](/handbook/product/ux/ux-research/how-uxr-team-operates/#how-to-request-research), even if conducting the research yourself.
+<!-- - **Request research**: Follow the [process to request research](/handbook/product/ux/ux-research/how-uxr-team-operates/#how-to-request-research), even if conducting the research yourself.-->
 - **Document findings**: Ensure research findings are documented according to established processes.
 
 ### Refine MVC
@@ -277,7 +277,7 @@ Sharing design work sllows Product Designers to mentor, engage, and inspire peer
 
 - Slack: Share insights and updates.
 - Unfiltered YouTube: Provide updates and gather feedback.
-- [UX Forums](/handbook/product/ux/ux-forums/): Open pathways for collaboration with teams addressing similiar objectives and JTBDs.
+- [UX Forums](/handbook/product/ux/ux-forum/): Open pathways for collaboration with teams addressing similiar objectives and JTBDs.
 
 **External Socialization**:
 

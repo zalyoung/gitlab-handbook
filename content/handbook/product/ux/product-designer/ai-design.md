@@ -1,6 +1,10 @@
-# Designing with AI: A Guide for Product Designers
+---
+title: Designing with AI: A Guide for Product Designers
+description: "Here are some guidelines to help Product Designers navigate AI projects"
+---
 
 ## Understanding AI Design Challenges
+
 The main difference between designing AI features and traditional features is uncertainty. With Large Language Models (LLMs), we face uncertainty in both:
 
 What users will do or write
@@ -121,6 +125,7 @@ Key elements to define
   - Accuracy needs (fact-checking, validation)
 
 Example: You’re building an automated API documentation generator
+
 - Length: Each endpoint described in <500 chars
 - Format: OpenAPI specification in YAML
 - Structure: Standardized sections for endpoints, methods, parameters
@@ -148,6 +153,7 @@ Generative AI solution validation has two distinct testing possibilities:
 - interactive LLM prototypes (preferably unmoderated)
 
 #### If you are using a low-fidelity (Figma) prototype
+
 Most solution validation will be in the form of low-fidelity prototypes until prototyping tooling is built out. This should occur earlier in the process. 
 
 Starting with moderated testing gives you the ability to understand where the user will interact with the solution in the context of your workflow. It will also help you test assumptions about how you expect them to interact with the LLM. Mock up the solution in a Figma prototype that shows the happy path (and predetermined outputs).
@@ -205,17 +211,16 @@ There are many times you'll test your workflows live, whether you are doing an M
 UX testing ensures designers identify any potential issues that evaluation might miss. The focus on UX testing isn't on the model's accuracy but on how well the model and interface handles different inputs, failures, and edge cases. 
 
 - UX testing 
- - Focuses on how to interact with the interface
- - Tests specific features, workflows, happy pathes, unhappy paths
- - Identifies usability issues and friction points
- - Helps refine interaction patterns
-
+  - Focuses on how to interact with the interface
+  - Tests specific features, workflows, happy pathes, unhappy paths
+  - Identifies usability issues and friction points
+  - Helps refine interaction patterns
 - LLM Evaluation
- - Assesses AI system performance and outputs
- - Measures accuracy and usefulness of responses
- - Checks for biases and errors
- - Validates against business requirements
- - Helps improve model behavior
+  - Assesses AI system performance and outputs
+  - Measures accuracy and usefulness of responses
+  - Checks for biases and errors
+  - Validates against business requirements
+  - Helps improve model behavior
 
 UX testing helps stakeholders better understanding user behaviors, strategies, and mental models for navigating AI interactions. 
 
