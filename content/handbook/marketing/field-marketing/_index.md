@@ -264,7 +264,7 @@ Please review the [Pathfactory Training](/handbook/marketing/marketing-operation
 
 This section will continue to be fleshed out as we rollout to the global Field Marketing team.
 
-## Process for Issues Moving from Plan to WIP
+## Process for moving events from Plan to WIP
 
 The following is the process for when a Field Marketing issue moves from `mktg-status::plan` to `mktg-status::wip`.
 
@@ -276,59 +276,40 @@ Please plan your timelines accordingly based on the below SLAs. Keep in mind the
 
 - **Contract Requests:** 3 business days
 - **Plan to WIP Requests** - 5 business days
-- **Copy to FMCs for Review** - 24 hours
-- **Marketing Operations Requests** - [5 business days](/handbook/marketing/marketing-operations/campaign-operations/#slas) (not including the day the triage request is sent)
+- **Marketing Operations Requests** - [5 business days](/handbook/marketing/marketing-operations/campaign-operations/#slas) 
 
-## Items required by FMM to request moving an issue from Plan to WIP
+## Items required by FMM to begin the Plan to WIP process
 
-- If a contract is required, the FMM is to obtain the agreement from the vendor, review and make any changes needed with the vendor, then submit a [Contract Request](/handbook/marketing/field-marketing/#field-marketing-contract-requests) to their FMC for processing through Zip. Please note the contract request issue template has very detailed instructions for our finance and procurement process. The FMM should contact their FMC if they have any special requests or specific questions.
-- The Event Details and FMC Checklist sections in the main issue must be completed in full and finalized (specifically the date of the event, as shifting dates after moving from Plan to WIP requires many adjustments by the FMC).
-- The Allocadia sub-category and line item detail panels must be updated and finalized and the FMM will include their correct forecast cost that matches the amount stated in their contract request, as well as check that the forecasted cost is in the correct month (according to the [prepaid policy](/handbook/finance/accounting/#prepaid-expense-policy)).
+- The Allocadia sub-category and line item detail panels must be updated and finalized and the FMM will include their correct plan and/or forecast cost(s) in the correct month (according to the [prepaid policy](/handbook/finance/accounting/#prepaid-expense-policy)).
+- The FMM creates the GitLab issue using the `Create/Update Marketing Issue` button in Allocadia.
+- **NOTE:** The FMM will not fill out any additional information in the GitLab issue. All work will be managed in the Asana project.
 
-Once the FMM has submitted the Contract Request to their FMC and the remaining above items have also been completed, the FMM can proceed with requesting the FMC move from [Plan to WIP](/handbook/marketing/field-marketing/#moving-from-plan-to-wip).
-
-**PLEASE NOTE**: While we are able to move an issue to WIP after the above items have been completed, note that travel should not be booked and additional event costs should not be charged until the contract has been fully approved via the procurement process.
+**EVENT TRAVEL AND PAYMENT NOTE**: Travel should not be booked and additional event costs should not be charged until the initial contract has been fully approved via the procurement process.
 
 ## Moving from Plan to WIP
 
+*Please note that this is an interim process while the Regional Marketing team begins utilizing Asana. This process will be updated and finalized as all global teams move to Asana.*
+
 - FMM pings the FMC in the main Field Marketing issue and requests the FMC move the issue to WIP (FMM keeps issue label `mktg-status::plan`)
 - FMC reviews the Allocadia sub-category and line item panel details, as well as checks that the forecasted cost is in the correct month (according to the [prepaid policy](/handbook/finance/accounting/#prepaid-expense-policy)) for the tactic and makes any changes necessary
-- FMC creates the epic and sub-issues utilizing [this list of epics](/handbook/marketing/field-marketing/#field-marketing-campaign-issue-templates-epic-codes-and-progression-status)
-- FMC creates the [Marketo program and SFDC campaign](/handbook/marketing/marketing-operations/campaigns-and-programs/#campaign-type--progression-status) utilizing the [Program Tracking](https://gitlab.com/gitlab-com/marketing/field-marketing/-/blob/master/.gitlab/issue_templates/program-tracking.md) sub-issue previously created
-  - AMER ONLY - Once SFDC campaign is created, FMC to add to [this spreadsheet](https://docs.google.com/spreadsheets/d/1Tss2_8rz9vZdDE68T11dOMlCZPRowhANKLHgAazmSJA/edit?gid=222941017#gid=222941017)
-- FMC adds the event to the appropriate events calendar. All events should be added to the appropriate calendar from the list below.
-  - [In-Person Events and Sponsorship](https://calendar.google.com/calendar/u/0?cid=Z2l0bGFiLmNvbV9laWN2b3VkcHBjdTQ3bG5xdTFwOTlvNjU2Z0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t)
-  - [External Virtual Events](https://calendar.google.com/calendar/u/0?cid=Z2l0bGFiLmNvbV8xOGVqOHN0NmlxajZpYXB1NTNrajUzNHBsa0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t)
-  - [GitLab Hosted Zoom Webcasts](https://calendar.google.com/calendar/u/0?cid=Z2l0bGFiLmNvbV8xcXZlNmc4MWRwOTFyOWhldnRrZmQ5cjA5OEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t)
-- FMC adds the event to the [GitLab Events Page](https://about.gitlab.com/events/) utilizing [these instructions](/handbook/marketing/events/#how-to-add-events-to-aboutgitlabcomeventshttpsaboutgitlabcomevents), if applicable (specified by the FMM in the FMC Checklist section of the issue)
-- When all the above tasks have been completed, the FMC will ping the FMM in the main issue to confirm completion of the above tasks and will move the issue label `mktg-status::plan` to `mktg-status::wip`.
-- FMC and FMM to follow the [Copy Deadline Process](/handbook/marketing/field-marketing/#field-marketing-event-copy-deadline-process) for any assets the FMM has requested in the main issue's FMC Checklist.
-- FMC and FMM to follow the [Lead List Deadline Process](/handbook/marketing/field-marketing/#lead-list-deadline-process) for lead list upload process and SLAs.
-- If applicable, FMC is to shut down the Marketo LP due to capacity, or after event is complete using [these instructions](/handbook/marketing/field-marketing/#process-to-close-marketo-landing-pages-and-landing-page-forms).
+- FMC creates a new project in Asana by following the below steps:
+  - Open the [Field Marketing Template](https://app.asana.com/0/project-templates/1208622308556886/list) in Asana
+  - Click `Use Template`
+  - Copy the full GitLab issue title (FY26-Q2: Best Event Ever 2025.05.12) and paste into `Project Name` in Asana
+  - `Team - All Marketing` and `Privacy - Shared with team` should not be adjusted
+  - Update the date to the start date of the event
+  - Click `Continue`
+  - Assign the appropriate roles to the appropriate POCs (MOps POC is Bryce Weatherford)
+  - Click `Go to Project`
+  - Please give the system a couple of minutes to pull all of the details through. You will see a popup in the bottom left-hand corner of the page that will say `Created - Best Event Ever`
+- FMC to then copy the body of the [FM_Asana_Template](https://gitlab.com/gitlab-com/marketing/field-marketing/-/blob/master/.gitlab/issue_templates/FM_Asana_Template.md) and paste it into the project Overview section in the Asana project.
+- FMC to fill in details from the issue in the project Overview, including adding the Asana project link to the top of the GitLab issue as well as adding the GitLab issue link to the Asana project (this will all be automated soon).
+- FMC then pings the FMM in the GitLab issue that the event has been moved to Asana and is ready for the FMM to provide the appropriate details in Asana to move to WIP.
+- FMM follows the appropriate tasks assigned to them in the project in Asana. Once the FMM completes the `FMC Checklist` and `Ecosystem Involvement` tasks, the FMC will be pinged in Asana to move the project to WIP.
 
 ### Plan to WIP video walk through
 
-[Plan to WIP Video](https://youtu.be/7l59sm_5aD4) - You must be logged into GitLab Unfiltered to view.
-
-## Field Marketing Event Copy Deadline Process
-
-Please review [SLAs](/handbook/marketing/field-marketing/#slas) above.
-
-- FMM to assign FMC in main event issue.
-- FMC to attach their regional event tracking label to the event issue.
-- FMM and FMC to follow the [Process for Issues Moving from Plan to WIP](/handbook/marketing/field-marketing/#process-for-issues-moving-from-plan-to-wip).
-- FMC to create a [Write Copy Issue](https://gitlab.com/gitlab-com/marketing/field-marketing/-/blob/master/.gitlab/issue_templates/write-copy.md) and fill in the requested copy due dates for each asset the FMM has requested in the FMC checklist, and then attach the issue to the epic.
-- FMM to update the Copy Document file the FMC created for them (linked in the epic) with copy for each asset. Previous Copy Documents for reference are available in the [Event Support Folder](https://drive.google.com/drive/folders/1S-4PVueBj7FPAE9fB-IKz_Bbuz17rPtH).
-- Once the FMM completes copy, they will ping the FMC in the [Write Copy Issue](https://gitlab.com/gitlab-com/marketing/field-marketing/-/blob/master/.gitlab/issue_templates/write-copy.md) to notify them which asset copy has been completed.
-- If copy has not been completed for an asset yet, (1) business day before copy is due, the FMC will ping the FMM in [Write Copy Issue](https://gitlab.com/gitlab-com/marketing/field-marketing/-/blob/master/.gitlab/issue_templates/write-copy.md) with a copy due reminder.
-- FMC will make sure copy has been provided or continue to remind the FMM, if needed.
-
-## Lead List Deadline Process
-
-- FMC to create the [List Clean and Upload](https://gitlab.com/gitlab-com/marketing/marketing-operations/issues/new?issuable_template=event-clean-upload-list) issue during the [plan to WIP process](/handbook/marketing/field-marketing/#process-for-issues-moving-from-plan-to-wip)
-- FMC to assign a due date of 2 business days post-event
-- One (1) business day after the issue is due, FMC to ping the FMM in the list clean and upload issue to remind them leads are due
-- FMC will make sure leads have been provided or continue to remind the FMM, if needed
+TBD for new process
 
 ## Rescheduling or Canceling Events
 
@@ -353,11 +334,10 @@ For all other event types (including in-person workshops), please see instructio
 ### FMC Tasks
 
 - FMC to update the new date(s) in the Allocadia sub-category and adjust the forecasted amount (if over the prepaid $5k threshold and if the new date falls in a new month).
-- The FMC will update the event listing in the [Marketing Calendar](/handbook/marketing/#marketing-calendar) with the updated date(s).
 - The FMC will update the date(s) in the appropriate Google calendar for the event invite.
 - The FMC will update the epic details and sub-issue due dates (and issue titles), as well as make the necessary changes to any upcoming asset send dates. If there are any emails scheduled to send, the FMC will ping MOps specially in those issues to have them unschedule the sends first.
 - The FMC will re-open the Marketo LP issue and request the date be changed in the LP. This will most likely change the LP URL as well, in which case, the FMC will update the LP link in the epic and notify the FMM of the changed link (to communicate to the sales team).
-- The FMC will follow [these instructions](/handbook/marketing/events/#how-to-add-events-to-aboutgitlabcomeventshttpsaboutgitlabcomevents) to update the date of the event on the [Events Page](https://about.gitlab.com/events/) (if applicable).
+- The FMC will follow [these instructions](/handbook/marketing/events/#how-to-add-events-to-aboutgitlabcomevents) to update the date of the event on the [Events Page](https://about.gitlab.com/events/) (if applicable).
 - Allocadia: FMC to change the ISO date in the SFDC campaign name to the new start date.
 - SFDC: FMC to change the ISO date in the SFDC campaign name to the new date and update the start and end date fields.
 - Marketo: FMC to change the ISO date in the Marketo program to the new date and update the `event date` and `UTM tokens`. Also update [asset expiration](/handbook/marketing/marketing-operations/campaigns-and-programs/#step-5-setting-landing-page--smart-campaign-expiration-asset-expiration).
@@ -376,9 +356,8 @@ For all other event types (including in-person workshops), please see instructio
 
 - FMC to update Allocadia showing the event as canceled by going to the event sub-category panel and selecting `Yes` to the `Campaign Canceled?` dropdown. FMC to also add in `CANCELED` to the event sub-category title and to the `Official Event/Campaign Name` field so the title in the main issue stays updated.
 - FMC to remove any planned/forecasted costs in Allocadia accordingly.
-- The FMC will update the [Marketing Calendar](/handbook/marketing/#marketing-calendar) by selecting the event line item and adding a strikethrough to indicate the event has been canceled.
 - The FMC will delete the Google calendar invite in the appropriate calendar.
-- The FMC will follow [these instructions](/handbook/marketing/events/#how-to-add-events-to-aboutgitlabcomeventshttpsaboutgitlabcomevents) to delete the event from the [Events Page](https://about.gitlab.com/events/) (if applicable)
+- The FMC will follow [these instructions](/handbook/marketing/events/#how-to-add-events-to-aboutgitlabcomevents) to delete the event from the [Events Page](https://about.gitlab.com/events/) (if applicable)
 - The FMC will comment regarding the cancellation in all open sub-issues and close out the issues. If there are any emails scheduled to send, the FMC will ping MOps specifically in those issues to have them unschedule the sends first.
 - If applicable, FMC to ping procurement and finance in the Coupa req to notify them that the event has been canceled.
 - If the FMM is not sending their own cancellation email to registrants and would like to send a Marketo cancellation email, create an [issue](https://gitlab.com/gitlab-com/marketing/field-marketing/-/blob/master/.gitlab/issue_templates/request_email_invite.md) for the request and triage to Marketing Ops. Please Note: This email must be scheduled and sent BEFORE the rest of the steps below can be completed.
@@ -511,7 +490,7 @@ Once the report is downloaded (or the event/tactic has ended and all swag has be
 
 ## Brand Details for Swag and Event Assets
 
-For information regarding Brand support, please visit the [Brand Creative Handbook Page](/handbook/marketing/brand-and-product-marketing/design/). Templates for requesting design/brand support are located [here](/handbook/marketing/brand-and-product-marketing/design/#brand--marketing-design-issue-templates). You can also watch [this video](https://www.youtube.com/watch?v=bBzasucNkh0) (must be logged into GitLab Unfiltered) regarding Brand templates and repos for previous and current brand designs.
+For information regarding Brand support, please visit the [Brand Design Handbook Page](/handbook/marketing/brand-and-product-marketing/design/). Templates for requesting design/brand support are located [here](/handbook/marketing/brand-and-product-marketing/design/#brand-design--video-issue-templates). You can also watch [this video](https://www.youtube.com/watch?v=bBzasucNkh0) (must be logged into GitLab Unfiltered) regarding Brand templates and repos for previous and current brand designs.
 
 ## AMER Field Marketing Swag
 
@@ -545,7 +524,7 @@ For Brilliant support, please see email addresses below. For any questions or co
 
 #### Approval Process through the Brilliant Store Portal
 
-- Brilliant will send the FMM an order estimate through the [Brilliant store portal](/handbook/marketing/field-marketing/#brilliant-portal) (FMM will receive an email notification). FMM to go to the order estimate and save the order to PDF and submit a [contract request](/handbook/marketing/field-marketing/#field-marketing-contract-requests) to the FMC.
+- Brilliant will send the FMM an order estimate through the [Brilliant store portal](/handbook/marketing/field-marketing/#brilliant-store-portal) (FMM will receive an email notification). FMM to go to the order estimate and save the order to PDF and submit a [contract request](/handbook/marketing/field-marketing/#field-marketing-contract-requests) to the FMC.
 - FMC to route the order through the procurement process.
 - Once the PO number is obtained, the FMM will log back into the Brilliant store portal, go to the order estimate, and click `approve`. An additional screen will pop up where the FMM will include the PO number and then submit.
 - Once the order is approved in the store portal, Brilliant will submit the order to the vendor.
@@ -592,11 +571,11 @@ For sticker orders, please reach out to `@krogel` for details.
 
 ### Print Collateral
 
-In order to stay environmentally-friendly, we generally do not provide large quantities of print collateral at events. However, if you do need printouts or gift bag stuffers for events, we utilize [Vistaprint](https://www.vistaprint.com/). Please log in using the Marketing 1pass. Another option in lieu of hundreds of printed handouts is to have a handful of printed and laminated pieces of collateral to utilize for visual reference while speaking with customers at an event. Additionally, you can create a [QR Code](/handbook/marketing/events/#field-marketing-qr-codes-for-events) to display at your event with that same piece of content for customers to download to their own devices.
+In order to stay environmentally-friendly, we generally do not provide large quantities of print collateral at events. However, if you do need printouts or gift bag stuffers for events, we utilize [Vistaprint](https://www.vistaprint.com/). Please log in using the Marketing 1pass. Another option in lieu of hundreds of printed handouts is to have a handful of printed and laminated pieces of collateral to utilize for visual reference while speaking with customers at an event. Additionally, you can create a [QR Code](/handbook/marketing/events/#qr-codes-for-events-field-marketing-and-corporate-events) to display at your event with that same piece of content for customers to download to their own devices.
 
 ## EMEA Field Marketing Swag
 
-The EMEA Field Marketing team utilises [Reachdesk](/handbook/marketing/marketing-operations/#project-management) to source, fulfill, ship and store (European and UK warehouses) swag branded swag items.  We also utilise vendor [Ten&One](https://tenandone.com/) who can source swag items and who also currently store all EMEA event material. The FMC is responsible for ensuring adequate stock levels and coordinating field event swag logistics. Additional event assets utilized for shows (including backwalls, tablecloths, popup banners, etc.) are stocked at the Ten&One warehouse and can be shipped
+The EMEA Field Marketing team utilises Brilliant to source, fulfill, ship and store (European and UK warehouses) swag branded swag items.  We also utilise vendor [Ten&One](https://tenandone.com/) who can source swag items and who also currently store all EMEA event material. The FMC is responsible for ensuring adequate stock levels and coordinating field event swag logistics. Additional event assets utilized for shows (including backwalls, tablecloths, popup banners, etc.) are stocked at the Ten&One warehouse and can be shipped
 
 - **Budget Allocation:**
   - If there is an individual order dedicated to support one specific event (e.g Cloud Expo) an Allocadia line item should be created by the FMM in their regional activity plan under this specific event.
@@ -1002,11 +981,11 @@ In an effort to share the regional marketing team's plans with the rest of the m
 
 ### Marketing SSoT calendar
 
-Within two days of the quarterly plan being [locked by Finance](https://internal.gitlab.com/handbook/finance/financial-planning-and-analysis/marketing-finance/#important-dates) in Allocadia, the Regional Managers will download the teams' plans from Allocadia and will upload to the shared [marketing calendar](/handbook/marketing/#marketing-calendar).
+Within two days of the quarterly plan being [locked by Finance](https://internal.gitlab.com/handbook/finance/financial-planning-and-analysis/marketing-finance/#important-dates) in Allocadia, the Regional Managers will download the teams' plans from Allocadia and will upload to the shared Marketing Calendar.
 
 In order to ensure the formulas carry over properly, the download from Allocadia will need to be cleaned, similiar to how we clean our leads for list upload.
 
-The [Calendar cleaner spreadsheet](https://docs.google.com/spreadsheets/d/19XsjDlnAJ_lmWysIcD1XSL1JT3R0awDUd_7MRCGgMgs/edit#gid=777223734&range=A1) should be used to do this. Once the data is cleaned, it then can be copied into the [marketing calendar](/handbook/marketing/#marketing-calendar).
+The [Calendar cleaner spreadsheet](https://docs.google.com/spreadsheets/d/19XsjDlnAJ_lmWysIcD1XSL1JT3R0awDUd_7MRCGgMgs/edit#gid=777223734&range=A1) should be used to do this. Once the data is cleaned, it then can be copied into the Marketing Calendar.
 
 [Video walk through on how to clean.](https://youtu.be/xiABH1Gjkw4) *on GitLab Unfiltered.
 
@@ -1741,9 +1720,29 @@ Field Marketing will:
 1. KubeCon US
 1. Black Hat US
 
-## Deprecated handbook content
+## Deprecated Handbook Content
 
 We feel like this info is too good to delete, and while we currently aren't using either the tool that is descirbed or the process, we just aren't ready to delete.....its like that sweater you just can't seem to get rid of in case you may need it one day...
+
+## Field Marketing Event Copy Deadline Process
+
+Please review [SLAs](/handbook/marketing/field-marketing/#slas) above.
+
+- FMM to assign FMC in main event issue.
+- FMC to attach their regional event tracking label to the event issue.
+- FMM and FMC to follow the process for issues Moving from Plan to WIP.
+- FMC to create a [Write Copy Issue](https://gitlab.com/gitlab-com/marketing/field-marketing/-/blob/master/.gitlab/issue_templates/write-copy.md) and fill in the requested copy due dates for each asset the FMM has requested in the FMC checklist, and then attach the issue to the epic.
+- FMM to update the Copy Document file the FMC created for them (linked in the epic) with copy for each asset. Previous Copy Documents for reference are available in the [Event Support Folder](https://drive.google.com/drive/folders/1S-4PVueBj7FPAE9fB-IKz_Bbuz17rPtH).
+- Once the FMM completes copy, they will ping the FMC in the [Write Copy Issue](https://gitlab.com/gitlab-com/marketing/field-marketing/-/blob/master/.gitlab/issue_templates/write-copy.md) to notify them which asset copy has been completed.
+- If copy has not been completed for an asset yet, (1) business day before copy is due, the FMC will ping the FMM in [Write Copy Issue](https://gitlab.com/gitlab-com/marketing/field-marketing/-/blob/master/.gitlab/issue_templates/write-copy.md) with a copy due reminder.
+- FMC will make sure copy has been provided or continue to remind the FMM, if needed.
+
+## Lead List Deadline Process
+
+- FMC to create the [List Clean and Upload](https://gitlab.com/gitlab-com/marketing/marketing-operations/issues/new?issuable_template=event-clean-upload-list) issue during the plan to WIP process.
+- FMC to assign a due date of 2 business days post-event
+- One (1) business day after the issue is due, FMC to ping the FMM in the list clean and upload issue to remind them leads are due
+- FMC will make sure leads have been provided or continue to remind the FMM, if needed
 
 ## Refined AMER Regional Marketing Event Planning Cycle
 
