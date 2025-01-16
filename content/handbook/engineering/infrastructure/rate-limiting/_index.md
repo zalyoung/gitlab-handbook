@@ -320,20 +320,16 @@ The list of semi-standard rate limiting response headers can be found [here](htt
 
 See [this issue](https://gitlab.com/gitlab-com/gl-infra/production-engineering/-/issues/25372) for improvements to returning rate limiting response headers.
 
+## Avoiding Rate Limits
+
+To minimise the risk of hitting rates limits, you can try the following:
+
+- Stagger the execution of your automated pipelines.
+- Configure [exponential back off and retry](https://docs.aws.amazon.com/prescriptive-guidance/latest/cloud-design-patterns/retry-backoff.html) for failed attempts.
+
 ## Troubleshooting
 
-### Observability
-
-The below are internal links to support troubleshooting rate limiting related issues:
-
-- [Grafana: Rate Limiting Overview dashboard](https://dashboards.gitlab.net/d/rate-limiting-rate-limiting_overview/rate-limiting3a-rate-limiting3a-overview?orgId=1)
-- [Kibana: Support - Rate limit dashboard](https://log.gprd.gitlab.net/app/r/s/39dcp)
-- [Cloudflare: Security Analytics dashboard](https://dash.cloudflare.com/852e9d53d0f8adbd9205389356f2303d/gitlab.com/security/analytics) (GitLab Cloudflare account access required)
-
-#### Investigating RackAttack logs
-
-- `json.meta.user` field is set if a request is authenticated, and missing if it was anonymous.
-- `json.env` will either be set to `throttle` or `blocklist`, the latter which comes from [failed authentication bans](https://docs.gitlab.com/ee/security/rate_limits.html#failed-authentication-ban-for-git-and-container-registry).
+Please see [Rate Limiting Troubleshooting](/handbook/engineering/infrastructure/rate-limiting/troubleshooting/).
 
 ## Important Links
 
