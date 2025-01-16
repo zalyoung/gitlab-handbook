@@ -80,10 +80,9 @@ Here are some resources to help you contribute to the design of AI-assisted feat
 - [AI Integration Effort FAQ](https://internal.gitlab.com/handbook/product/ai-strategy/ai-integration-effort/faq/): Internal handbook with frequently asked questions about AI integration efforts. **Internal handbook 🔒**
 - [UX maturity requirements](/handbook/product/ai/ux-maturity/): Documentation on the UX maturity requirements to move AI features from Experiment to Beta to Generally Available (GA).
 - [Experiment, Beta, and Generally Available features](https://docs.gitlab.com/ee/policy/development_stages_support.html): Guidelines on the different stages of feature availability.
-- [UX research in the AI space](/handbook/product/ux/ux-research/research-in-the-AI-space/): Documentation on conducting UX research in the AI domain.
+- [UX research in the AI space](/handbook/product/ux/ux-research/research-in-the-AI-space.md): Documentation on conducting UX research in the AI domain.
 - [Epic: UX of AI Integration](https://gitlab.com/groups/gitlab-org/-/epics/10269): A GitLab epic tracking the UX of AI integration.
 - [AI prototypes in Figma](https://www.figma.com/file/s4TP1i2Akd1VTh4jhbg234/AI-prioritized-prototypes?type=design&node-id=1%3A79&t=SNUCGun6HHxi9LaY-1): Access AI prototypes in Figma.
-- [AI Project Proposal issue template](https://gitlab.com/gitlab-org/gitlab/-/issues/new?issuable_template=AI%20Project%20Proposal): Use this template to propose new AI projects.
 
 These resources will guide you through the process and best practices for designing and integrating AI features within the platform.
 
