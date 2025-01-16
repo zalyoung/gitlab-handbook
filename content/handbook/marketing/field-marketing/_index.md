@@ -276,39 +276,40 @@ Please plan your timelines accordingly based on the below SLAs. Keep in mind the
 
 - **Contract Requests:** 3 business days
 - **Plan to WIP Requests** - 5 business days
-- **Copy to FMCs for Review** - 24 hours
-- **Marketing Operations Requests** - [5 business days](/handbook/marketing/marketing-operations/campaign-operations/#slas) (not including the day the triage request is sent)
+- **Marketing Operations Requests** - [5 business days](/handbook/marketing/marketing-operations/campaign-operations/#slas) 
 
-## Items required by FMM to request moving an issue from Plan to WIP
+## Items required by FMM to begin the Plan to WIP process
 
-- If a contract is required, the FMM is to obtain the agreement from the vendor, review and make any changes needed with the vendor, then submit a [Contract Request](/handbook/marketing/field-marketing/#field-marketing-contract-requests) to their FMC for processing through Zip. Please note the contract request issue template has very detailed instructions for our finance and procurement process. The FMM should contact their FMC if they have any special requests or specific questions.
-- The Event Details and FMC Checklist sections in the main issue must be completed in full and finalized (specifically the date of the event, as shifting dates after moving from Plan to WIP requires many adjustments by the FMC).
-- The Allocadia sub-category and line item detail panels must be updated and finalized and the FMM will include their correct forecast cost that matches the amount stated in their contract request, as well as check that the forecasted cost is in the correct month (according to the [prepaid policy](/handbook/finance/accounting/#prepaid-expense-policy)).
+- The Allocadia sub-category and line item detail panels must be updated and finalized and the FMM will include their correct plan and/or forecast cost(s) in the correct month (according to the [prepaid policy](/handbook/finance/accounting/#prepaid-expense-policy)).
+- The FMM creates the GitLab issue using the `Create/Update Marketing Issue` button in Allocadia.
+- **NOTE:** The FMM will not fill out any additional information in the GitLab issue. All work will be managed in the Asana project.
 
-Once the FMM has submitted the Contract Request to their FMC and the remaining above items have also been completed, the FMM can proceed with requesting the FMC move from [Plan to WIP](/handbook/marketing/field-marketing/#moving-from-plan-to-wip).
-
-**PLEASE NOTE**: While we are able to move an issue to WIP after the above items have been completed, note that travel should not be booked and additional event costs should not be charged until the contract has been fully approved via the procurement process.
+**EVENT TRAVEL AND PAYMENT NOTE**: Travel should not be booked and additional event costs should not be charged until the initial contract has been fully approved via the procurement process.
 
 ## Moving from Plan to WIP
 
+*Please note that this is an interim process while the Regional Marketing team begins utilizing Asana. This process will be updated and finalized as all global teams move to Asana.*
+
 - FMM pings the FMC in the main Field Marketing issue and requests the FMC move the issue to WIP (FMM keeps issue label `mktg-status::plan`)
 - FMC reviews the Allocadia sub-category and line item panel details, as well as checks that the forecasted cost is in the correct month (according to the [prepaid policy](/handbook/finance/accounting/#prepaid-expense-policy)) for the tactic and makes any changes necessary
-- FMC creates the epic and sub-issues utilizing [this list of epics](/handbook/marketing/field-marketing/#field-marketing-campaign-issue-templates-epic-codes-and-progression-status)
-- FMC creates the [Marketo program and SFDC campaign](/handbook/marketing/marketing-operations/campaigns-and-programs/#campaign-type--progression-status) utilizing the [Program Tracking](https://gitlab.com/gitlab-com/marketing/field-marketing/-/blob/master/.gitlab/issue_templates/program-tracking.md) sub-issue previously created
-  - AMER ONLY - Once SFDC campaign is created, FMC to add to [this spreadsheet](https://docs.google.com/spreadsheets/d/1Tss2_8rz9vZdDE68T11dOMlCZPRowhANKLHgAazmSJA/edit?gid=222941017#gid=222941017)
-- FMC adds the event to the appropriate events calendar. All events should be added to the appropriate calendar from the list below.
-  - [In-Person Events and Sponsorship](https://calendar.google.com/calendar/u/0?cid=Z2l0bGFiLmNvbV9laWN2b3VkcHBjdTQ3bG5xdTFwOTlvNjU2Z0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t)
-  - [External Virtual Events](https://calendar.google.com/calendar/u/0?cid=Z2l0bGFiLmNvbV8xOGVqOHN0NmlxajZpYXB1NTNrajUzNHBsa0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t)
-  - [GitLab Hosted Zoom Webcasts](https://calendar.google.com/calendar/u/0?cid=Z2l0bGFiLmNvbV8xcXZlNmc4MWRwOTFyOWhldnRrZmQ5cjA5OEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t)
-- FMC adds the event to the [GitLab Events Page](https://about.gitlab.com/events/) utilizing [these instructions](/handbook/marketing/events/#how-to-add-events-to-aboutgitlabcomeventshttpsaboutgitlabcomevents), if applicable (specified by the FMM in the FMC Checklist section of the issue)
-- When all the above tasks have been completed, the FMC will ping the FMM in the main issue to confirm completion of the above tasks and will move the issue label `mktg-status::plan` to `mktg-status::wip`.
-- FMC and FMM to follow the [Copy Deadline Process](/handbook/marketing/field-marketing/#field-marketing-event-copy-deadline-process) for any assets the FMM has requested in the main issue's FMC Checklist.
-- FMC and FMM to follow the [Lead List Deadline Process](/handbook/marketing/field-marketing/#lead-list-deadline-process) for lead list upload process and SLAs.
-- If applicable, FMC is to shut down the Marketo LP due to capacity, or after event is complete using [these instructions](/handbook/marketing/field-marketing/#process-to-close-marketo-landing-pages-and-landing-page-forms).
+- FMC creates a new project in Asana by following the below steps:
+  - Open the [Field Marketing Template](https://app.asana.com/0/project-templates/1208622308556886/list) in Asana
+  - Click `Use Template`
+  - Copy the full GitLab issue title (FY26-Q2: Best Event Ever 2025.05.12) and paste into `Project Name` in Asana
+  - `Team - All Marketing` and `Privacy - Shared with team` should not be adjusted
+  - Update the date of the event - Confirm date range start or end date and update Asana verbiage
+  - Click `Continue`
+  - Assign the appropriate roles to the appropriate POCs (MOps POC is Bryce Weatherford)
+  - Click `Go to Project`
+  - Please give the system a couple of minutes to pull all of the details through. You will see a popup in the bottom left-hand corner of the page that will say `Created - Best Event Ever`
+- FMC to then copy the body of the [FM_Asana_Template](https://gitlab.com/gitlab-com/marketing/field-marketing/-/blob/master/.gitlab/issue_templates/FM_Asana_Template.md) and paste it into the project Overview section in the Asana project.
+- FMC to fill in details from the issue in the project Overview, including adding the Asana project link to the top of the GitLab issue as well as adding the GitLab issue link to the Asana project (this will all be automated soon).
+- FMC then pings the FMM in the GitLab issue that the event has been moved to Asana and is ready for the FMM to provide the appropriate details in Asana to move to WIP.
+- FMM follows the appropriate tasks assigned to them in the project in Asana. Once the FMM completes the `FMC Checklist` and `Ecosystem Involvement` tasks, the FMC will be pinged in Asana to move the project to WIP.
 
 ### Plan to WIP video walk through
 
-[Plan to WIP Video](https://youtu.be/7l59sm_5aD4) - You must be logged into GitLab Unfiltered to view.
+TBD for new process
 
 ## Field Marketing Event Copy Deadline Process
 
