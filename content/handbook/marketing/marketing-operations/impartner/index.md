@@ -9,6 +9,20 @@ GitLab uses Impartner as our primary Partner Relationship Management (PRM) platf
 
 The Channel Marketing team offers Market Development Funds to support the Partner's marketing campaigns and events. Channel Partners submit the MDF request and claim to the Partner Portal, and they must be approved before being reimbursed. 
 
+This process is reflected in Iteration 2, [see flowchart](https://www.figma.com/board/5JXv8yRHDyXttWt669A67E/MDF-Process-Iterations?node-id=0-1&p=f&t=PhdMoT9RvpJz9VKz-0).
+
+<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://embed.figma.com/board/5JXv8yRHDyXttWt669A67E/MDF-Process-Iterations?node-id=0-1&embed-host=share" allowfullscreen></iframe>
+
+The emails to Partner and GitLab team members in the PRM Approval Process can be viewed in [this document](https://docs.google.com/document/d/1LfI-J77ag1CBRYUtjG5sQF-YuQFPnfT9ol0J26bmNjk/edit?usp=sharing).
+
+### Change Management
+
+1. The MDF request and claim will sync to Salesforce, however the attachments will not sync to Salesforce. That said, when we complete the POP task on the epic/issue, we will have to use Impartner as the SSOT. Please link the Impartner URL to the epic/issue.
+2. There will be a new MDF dashboard, and Partner will be able to add a claim directly from the dashboard when the request is Approved.
+3. There is a new required field on the Claim form asking for a Claim Title. We will need to provide guidance to Partner so they know how to name the Claim. Claim Titles need to be unique for each submission otherwise the workflows will fail.
+4. Partners are asked to submit the lead list and proof of performance on the Claim, and Invoice when we receive a notification when the PO is created.
+
+
 ### Step 1 - MDF Request Submission
 
 On the MDF Request Form, Partners are required to provide the following:
@@ -55,32 +69,24 @@ On the MDF Claim Form, Partners are required to provide the following:
 
 Once submitted, the Partner will receive a confirmation email indicating that their MDF request has been received. If the Partner doesn't upload more than 2 attachments, the Partner will be notified to ensure they have provided all the necessary attachments.
 
-### Step 4 - Check Attachments
+### Step 4 - Check Attachments and Claim Approval
 
 When the Partner has uploaded the Proof of Performance and Lead List attachments, the GitLab team member will be asked to check to ensure they are infact the right attachment.
 
-   - If they are missing an attachment, the GitLab team member is required to update the field, `Missing POP` with the missing item. This will trigger an automated message to Partner will add the selected item to the Claim.
-   - If all attachments are received, the GitLab team member will update the check box to `POP Received`. This will trigger the MDF Claim Approval Process.
+     - If they are missing an attachment, the GitLab team member is required to update the field, `Missing POP` with the missing item. This will trigger an automated message to Partner will add the selected item to the Claim.
+     - If all attachments are received and looks good, the GitLab team member will update the `POP Approval` to `Rejected` or `Approved`.
 
-### Step 5 - MDF Claim Approval
+## Cancelled MDF Request
 
-
+When an MDF request has been cancelled, CMM will need to change the status on the MDF Request Details: `Status` => `Cancelled`. Partners will receive a notification informing them the Fund Request has been cancelled. If Partners try to submit a Claim, it will automatically be rejected.
 
 ## MFB MDF Request Form
 
 We can make edits to the form, which is built using  the Module Form Builder (MFB). This dynamic page is editable by GitLab by anyone with the correct permissions in PRM.
 
 1. From the PRM, you will want to access the CMS editor using the red pen icon on the top right.
-
-    ![Impartner PRM CMS Editor](/sites/handbook/source/handbook/marketing/marketing-operations/impartner/impartner-prm-cms-editor.png)
-
 2. Click on the hamburger menu in the top left of the page and select `Edit Forms`.
-
-    ![Impartner CMS Editor Edit Forms](/sites/handbook/source/handbook/marketing/marketing-operations/impartner/impartner-cms-editor-edit-form.png)
 3. Under the Select a Module to Edit section choose `SFDC - Marketing Development Funds`.
-
-    ![Impartner CMS Editor Module](/sites/handbook/source/handbook/marketing/marketing-operations/impartner/impartner-cms-editor-modules.png)
-
 4. Select the MDF forms, you wish to update. You can edit the following form:
 
     - Create - Funds Request
@@ -89,9 +95,6 @@ We can make edits to the form, which is built using  the Module Form Builder (MF
     - Edit - Funds Request - Fund Claim.
 
 5. When you've clicked any of the MDF forms, you will be able to add, remove and update the form fields and layout.
-
-    ![Impartner CMS Form Editor](/sites/handbook/source/handbook/marketing/marketing-operations/impartner/impartner-cms-editor-form.png)
-
 6. Save and Publish.
 
 ## PRM MDF 
@@ -114,5 +117,16 @@ Should you wish to have a customized view, following the instructions below.
 1. In Column Configuration, add any additional fields.
 1. Save and repeat for the other statuses - Approved and Denied.
 
-## Salesforce - PRM Integration
+## PRM - Salesforce Integration
+
+The intergration from PRM to Salesforce is customizable per object.
+
+- Impartner `Lead` is mapped to SFDC `Lead`
+- Impartner `MDF Request` is mapped to SFDC `Funds Request`
+- Impartner `MDF Claim` is mapped to SFDC `Funds Claim`
+
+### MDF Request and Claim Salesforce Sync
+
+There is a two way sync between MDF Request and MDF Claim objects. The ID indicator between both sync is the Funds Request Number, also known as the MDF Number. 
+
 
