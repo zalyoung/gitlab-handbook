@@ -232,7 +232,7 @@ If you unassigned some of your tickets before going on PTO, take the time to go 
 
 ## Managers Time Off
 
-### Before PTO is taken,
+### Before PTO is taken
 
 The manager will conduct a thorough review of all ongoing tasks, responsibilities, and projects. 
 
