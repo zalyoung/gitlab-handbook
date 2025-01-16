@@ -300,7 +300,7 @@ There is a linter (Hugolint) that validates links and anchors across the handboo
 There are two main reasons it will fail:
 
 1. Content added in the MR includes a broken link.
-1. Content changed in the MR brakes an existing link.
+1. Content changed in the MR breaks an existing link.
 
 Here's an example of a failed `hugolint` job error message when viewed in the job log:
 
@@ -313,8 +313,8 @@ Newly broken (only in "linkcheck.json", 3 issues):
 
 1. The error starts with the file where the broken link is present, followed by the line number.
    (For example, file path - `content/handbook/security/product-security/_index.md`, line number: 43.)
-1. The link destination is the link itself. (For example, `architecture/`.).
-1. If what does not exist is an anchor (for example, `#panther`):
+1. Next, the error indicates which link is broken. (For example, `architecture/` is the broken link destination.)
+1. For broken or non-existent anchor links (for example, `#panther`):
    1. Did the MR change a heading that is being linked to? If so, you'll need to update the linked anchor to match the new heading.
    1. If you're linking to a heading, does it exists? Check the file in the repository instead of on the website. The links are checked pre-build, so generated content (from shortcodes and includes) don't "exist" for the link checker.
       - If the page you're linking to has a large amount of generated content (such as performance indicator pages), you can [add an exclusion to `hugolint`](https://gitlab.com/gitlab-com/content-sites/handbook-tools/hugolint/#configuration) in the relevant configuration file.
