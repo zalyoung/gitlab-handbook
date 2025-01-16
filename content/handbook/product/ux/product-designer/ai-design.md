@@ -2,7 +2,6 @@
 
 The main difference between designing for AI features and every other feature is mainly one thing: uncertainty. Especially when working with LLMs, there is usually uncertainty as to what users will do, or write, and there is always uncertainty over how an LLM will respond. As designers, we’re here to shape the experience, but we have far less control over what the user can do and the results they get, than most of us are used to. This guide is intended to provide tools and methods that work well in this environment of uncertaintly. They are meant to supplement, not replace, a product designer’s existing toolkit. 
 
-
 We hope this guide will help answer questions like:
 - How do we map a user's happy path when the user's input and system's output are unpredictable?
 - How do we conduct usability testing if sessions are different and unpredictable? 
@@ -10,29 +9,32 @@ We hope this guide will help answer questions like:
 - How can we measure task success when there is so much subjectivity as to whether or not an LLM answer was useful to an individual?
 - How can we intentionally design for an experience that relies on the unpredictable flow of a conversation?
 
-##Through the lens of the Product Designer Workflow
+## Through the lens of the Product Designer Workflow
+
 To start with, we've noted aspects of the [Product Designer Workflow](/handbook/product/ux/product-designer/#product-design-process) that you might want to adjust.
 
+### [Define the opportunity](/handbook/product/ux/product-designer/#define-the-opportunity)  
 
-### [Define the opportunity](/handbook/product/ux/product-designer/#define-the-opportunity) 
 During [problem validation](/handbook/product-development-flow/#validation-goals--outcomes), you should work closely with Product Managers as usual to understand" who you’re designing for, what you’re designing, and why you’re designing it.
 
 For gen AI, the problem and solution space may be broader than usual. For example, when working on something like Duo Workflow or Duo Chat, the team may be tempted to say something vague, like “the feature can assist with anything the user asks”. This should be avoided, because it will be very hard to set a definition of done or success metrics. You also run a risk of building a solution that does many things poorly, and nothing really well. 
 
 The team should scope the problem space enough to be able to quickly explain to a stranger what types of problems their solution will and won’t solve. Along with your PM, you should then be able to define measurable success criteria.
 
-
 ### [Before you design](/handbook/product/ux/product-designer/#before-you-design)
+
 Designing for generative AI requires a fundamental shift in interaction design, as we're creating interfaces for systems whose outputs are inherently variable and unpredictable. Whether in conversational exchanges or single-input generations, the core challenge is designing clear paths for users to understand, shape, and recover from these uncertain interactions
 
-####Align on the AI guidelines 
+#### Align on the AI guidelines 
+
 We recommend that designers create AI Engagement Guidelines before moving into the design phase. This is a framework proposed by [People + AI Research](https://pair.withgoogle.com/) at Google that we propose to use here. This framework provides a foundation for establishing alignment on AI related design and technical requirements. We have adapted the framework into our own Figjam template {tbd link}. 
 
 Before using the guidelines for the first time, read this Medium article to familiarize yourself with the concepts: [Interaction Design Policies: Design for the opportunity, not just the task.](https://medium.com/people-ai-research/interaction-design-policies-design-for-the-opportunity-not-just-the-task-239e7f294b29). 
 
 By creating AI Engagement Guidelines, you define the target behavior (UX) of the model. Through discussions with your PM and dev team, you should clearly define what you expect the model to do, what it shouldn’t do, and where the system or user might fail. By establishing AI guidelines, you ensure stakeholders are aligned on model behavior and expected outputs. 
 
-####Map the user flow
+#### Map the user flow
+
 User flow design for AI focuses not on predicting outputs but on creating consistent ways for users to interact with, shape, and recover from situations when AI fails them. When creating user flows, you are defining the happy path and unhappy paths. 
 
 A happy path in generative AI design is when users can successfully achieve their goals through clear input, appropriate AI outputs, and minimal corrections, even though the exact inputs and outputs may vary with each interaction.
@@ -98,7 +100,8 @@ Build in feedback mechanisms
   Where system shows understanding
   Ways to correct or refine
 
-####Define the ideal output
+#### Define the ideal output
+
 While generative AI outputs are non-deterministic (producing different results each time), defining ideal outputs is crucial for both prompt engineering and interaction design. With clear definitions of an ideal output, we streamline the UX for the user between generations. These definitions also shape how we instruct the model and design user interactions in the prompt.
 
 Key elements to define
@@ -124,15 +127,16 @@ You’re building an automated API documentation generator
 
 While we can't predict exact outputs, defining these elements helps create consistent user experiences and better prompt engineering. Experiment with creating your ideal output using Claude, LangSmith, or locally.  {link to docs}
 
-####Evaluation
+#### Evaluation
+
 Additionally, begin to discuss with your team how you’ll evaluate the answers provided by the LLM. You will eventually need a data set to use for your LLM evaluations. It's best to work on the data set early, as it will foruce you to consider the types of prompts you expect to provide the LLM (or for users to provide the LLM), along with acceptable answers. If the team cannot confidently produce at least a preliminary data set, then user research or other data mining can be used to help with this step.  {link to info here about evals?} or sources of data sets?
 
-
 ### During design
+
 When designing the screen interactions, refer to [GitLab Duo patterns in Pajamas](https://design.gitlab.com/usability/ai-human-interaction/). There are many great interaction design resources for AI. One we like is [Shape of AI](https://www.shapeof.ai/).
 
-
 ### During solution validation
+
 As with any project, you’ll want to ask yourself how confident you are in your solution and if you aren’t very confident, validate your solution with users before committing to development. You will want to select a validation method that works best for your research questions.
 
 Generative AI solution validation has two distinct testing possibilities: 
@@ -184,12 +188,11 @@ Recovery behaviors
   When they give up entirely
   Ways they work around limitations
 
-
 If your research question is about…
-- the usability of the UI/user flow / prototype / consider doing a moderated or unmoderated usability test, with static or dummy LLM prompts/outputs.
-- the usefulness or appropriateness of the LLM output, / production feature / consider doing a UX bash. You’ll get answers from a larger number of participants with feedback based on actual LLM responses to their questions
-- whether users will be able to craft good prompts / prototype / consider asking users to write example prompts for various scenarios the feature is supposed to work for. Run those prompts through the LLM and observe how they refine and iterate. Ask them if the answers meet their expectations. 
-- how to improve an existing system prompt (to improve answer quality), you may need to better understand the variations that users attempt a task. For this, you can try:
+  - the usability of the UI/user flow / prototype / consider doing a moderated or unmoderated usability test, with static or dummy LLM prompts/outputs.
+  - the usefulness or appropriateness of the LLM output, / production feature / consider doing a UX bash. You’ll get answers from a larger number of participants with feedback based on actual LLM responses to their questions
+  - whether users will be able to craft good prompts / prototype / consider asking users to write example prompts for various scenarios the feature is supposed to work for. Run those prompts through the LLM and observe how they refine and iterate. Ask them if the answers meet their expectations. 
+  - how to improve an existing system prompt (to improve answer quality), you may need to better understand the variations that users attempt a task. For this, you can try:
    - Have users write their own prompts for specific tasks
    - Compare different phrasings for the same intent
    - Identify common patterns in user language
@@ -197,9 +200,7 @@ If your research question is about…
 - understanding what users think a good answer is, try: 
    - Show users multiple AI outputs for the same prompt
 
-
 ### [Delivering your solution](/handbook/product/ux/product-designer/#delivering-your-solution)
-TBD - add something here about how to document AI/ML requirements
 
 ### During development, when doing an MR review
 
@@ -252,8 +253,6 @@ Example of UX testing flow with dataset:
   Test error scenarios
   Document recovery paths
 
-
-
 ### Links and Resources
 
 - [UX Forum presentation on this framework](https://www.youtube.com/watch?v=wM8726uQoW4)
@@ -261,4 +260,4 @@ Example of UX testing flow with dataset:
 - [AI Integration Effort FAQ](https://internal.gitlab.com/handbook/product/ai-strategy/ai-integration-effort/faq/): Internal handbook with frequently asked questions about AI integration efforts. **Internal handbook 🔒**
 - [UX maturity requirements](/handbook/product/ai/ux-maturity/): Documentation on the UX maturity requirements to move AI features from Experiment to Beta to Generally Available (GA).
 - [Experiment, Beta, and Generally Available features](https://docs.gitlab.com/ee/policy/development_stages_support.html): Guidelines on the different stages of feature availability.
-- [UX research in the AI space](/handbook/product/ux/ux-research/research-in-the-AI-space/): Documentation on conducting UX research in the AI domain.
+- [UX research in the AI space](/handbook/product/ux/ux-research/research-in-the-AI-space.md): Documentation on conducting UX research in the AI domain.
