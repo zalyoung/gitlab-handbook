@@ -236,23 +236,24 @@ If you unassigned some of your tickets before going on PTO, take the time to go 
 
 The manager will conduct a thorough review of all ongoing tasks, responsibilities, and projects. 
 
-1. List Key Responsibilities: The manager will prepare a comprehensive list of all tasks that require attention during the absence.
-1. Determine Priority: Assess which tasks are time-sensitive and which can be delayed. Prioritize duties based on urgency, impact, and team dependency.
-1. Select a Delegate: The manager will choose a team member for the specific tasks. Or another manager if the tasks are confidential.
+1. List Key Responsibilities: The manager will prepare a comprehensive list of all tasks that require attention during their absence.
+1. Determine Priority: The manager will assess which tasks are time-sensitive and which can be delayed. They will prioritize duties based on urgency, impact, and team dependency.
+1. Select a Delegate: The manager will choose a single team member to be responsible for all of the tasks, or another manager if any of the tasks are confidential.
 
 ### Task Delegation
 
 Once tasks have been identified and the team member has been selected, the following steps should be taken to ensure a seamless transition:
-Documenting the Process: A shared document should be created to outline
+
+Documenting the Process: The manager will create a shared document to outline
 
 - Key contacts for each task.
 - Any ongoing projects or deadlines.
-- Specific instructions or checklists that the subordinate should follow.
-- Access to Resources: Ensure that the subordinate has the necessary access to tools, files, and systems to perform tasks effectively.
+- Specific instructions or checklists to be followed.
+- Access to Resources: Ensure that the delegate has the necessary access to tools, files, and systems to perform tasks effectively.
 
 ### Communicate
 
-The manager will inform the team and relevant stakeholders about the temporary change delegation of responsibilities. 
+The manager will inform the team and relevant stakeholders about the temporary delegation of responsibilities. 
 
 ### After PTO
 
