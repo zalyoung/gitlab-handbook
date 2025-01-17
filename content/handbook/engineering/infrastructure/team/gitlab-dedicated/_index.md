@@ -39,7 +39,7 @@ The following people are members of the Dedicated:Environment Automation Team:
 
 The following people are members of the Dedicated:US Public Sector Services Team:
 
-{{< team-by-manager-slug "sdumesnil" >}}
+{{< team-by-manager-slug "mckgl" >}}
 
 The following people are members of the Dedicated:Switchboard Team:
 
