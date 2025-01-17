@@ -4,7 +4,7 @@ title: Observability Based Performance Testing at GitLab
 
 ## Description
 
-Observability Based Performance Testing is a proactive approach to understanding system performance through comprehensive instrumentation and real-time data collection. Unlike traditional performance testing, which relies on specific test scenarios, observability testing provides deep visibility into application behavior under real-world conditions. 
+Observability Based Performance Testing is a proactive approach to understanding system performance through comprehensive instrumentation and real-time data collection. Unlike traditional performance testing, which relies on specific test scenarios, observability testing provides deep visibility into application behavior under real-world conditions.
 
 ## Approach
 
@@ -40,7 +40,7 @@ Observability testing is actively making use of our Observability tools to detec
 1. Education & Documentation
    - Add [documentation](https://gitlab.com/gitlab-org/quality/quality-engineering/team-tasks/-/work_items/3322) on what this process is so teams understand it
    - Create [training](https://gitlab.com/gitlab-org/quality/quality-engineering/team-tasks/-/work_items/3325) to help teams understand and adopt
-   - Create [guides(https://gitlab.com/gitlab-org/quality/quality-engineering/team-tasks/-/work_items/3323)] to enable teams to build / use performance dashboards 
+   - Create [guides(https://gitlab.com/gitlab-org/quality/quality-engineering/team-tasks/-/work_items/3323)] to enable teams to build / use performance dashboards
 2. Baseline Assessment & Infrastructure
    - There are a number of existing dashboards, identify existing ones that already cover what we need
    - Identify gaps and develop plans to fill
@@ -108,6 +108,16 @@ We implemented a three-tiered monitoring approach:
    - Created issues for concerning patterns
    - Prioritized performance issues alongside feature work
    - Allocated dedicated investigation time in sprint planning
+
+#### Implementation Challenges
+
+- Small team size and fast release cycle was a constraint on what we could deliver
+- Balancing prioritizing performance investigation with new feature development was difficult
+  - Performance improvements often competed with feature deadlines
+  - Sometimes had to make trade-offs between immediate fixes and long-term solutions
+- It took some trial and error to identify the right metrics/dashboard configuration for our team
+  - What we thought was the right metric to monitor proved not to be correct
+  - The infrastructure evolved incrementally so we had to evolve the dashboards to keep in sync
 
 #### Outcomes
 
