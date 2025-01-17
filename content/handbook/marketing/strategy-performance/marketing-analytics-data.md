@@ -4,7 +4,6 @@ description: >-
   Marketing Analytics, as the embedded data team for the Marketing Org, relies heavily upon and adheres closely to the guidelines, rules, and best practices of the [Central Data Team (CDT)](/handbook/enterprise-data/). 
 
 Below are a few brief overviews of core concepts involved in the data work performed by the Marketing Analytics team - for further details and more granular information, please review the CDT/Enterprise Data Team handbook pages. 
-
 ---
 
 <link rel="stylesheet" type="text/css" href="/stylesheets/biztech.css" />
@@ -99,7 +98,6 @@ All GitLab data models are grouped and categorized in snowflake/dbt through a se
 | Presentation Layer Model | Models used in active and public Tableau Dashboards. These models are the most commonly used and presented for analysis.                                                       |
 | [SFDC](/marketing-analytcis-data-sfdc)                     | Models built off of the SFDC Source tables. These are often used in conjuction with the `L2R` and `Presentation Layer Model` groupings for additional fields and information.  |
 | Web                      | Models built to model out web traffic data (top of funnel).                                                                                                                    |
-
 
 ### Models
 

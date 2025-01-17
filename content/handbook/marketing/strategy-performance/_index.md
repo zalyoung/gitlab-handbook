@@ -199,4 +199,4 @@ We use Adobe Marketo Measure (Bizible) for marketing attribution and tracking ti
 
 ## Web Traffic Analysis
 
-Google Analytics data is used to gain insights about the visitors and their behavior on our websites. The [web traffic analysis data catalog](/handbook/enterprise-data/data-catalog/web-traffic-analysis/) provides details about how to leverage GitLab specific web data (key terms, definitions, KPIs, caveats, data structure)
+Google Analytics data is used to gain insights about the visitors and their behavior on our websites. The [web traffic analysis data catalog](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/metrics/#web-traffic-analysis) provides details about how to leverage GitLab specific web data (key terms, definitions, KPIs, caveats, data structure)
