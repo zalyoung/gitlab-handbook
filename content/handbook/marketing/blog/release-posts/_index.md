@@ -950,20 +950,74 @@ For the subscription tier where the feature is available, use `available_in` wit
 
 ##### Offering (GitLab.com or self-managed)
 
-For features available on both self-managed and GitLab.com:
+Features can be made available on GitLab.com (SaaS), Self-managed GitLab, and GitLab Dedicated using the following fields:
 
-- Use `gitlab_com: true`, or do not include `gitlab_com` in the yaml file.
+| Field | Description | Default | 
+|----|----|---|
+| `gitlab_com` | Controls availability on GitLab.com. | `true` | 
+| `self_managed` | Controls availability on GitLab Self-Managed. | `true` if the tier contains `core`, `premium`, or `ultimate` | 
+| `gitlab_dedicated` | Controls availability on GitLab Dedicated. | `false` | 
 
-For features available on self-managed only:
+Common scenarios: 
 
-- Use `gitlab_com: false`. For example:
+- For features available only on GitLab.com:
 
   ```yaml
-  available_in: [premium, ultimate]
-  gitlab_com: false
+    gitlab_com: true
+    self_managed: false
+    gitlab_dedicated: false
   ```
 
-  This setting greys out the orange badges on the GitLab SaaS row.
+- For features available only on GitLab Self-Managed:
+
+  ```yaml
+    gitlab_com: false
+    self_managed: true
+    gitlab_dedicated: false
+  ```
+
+  Or simply: 
+
+  ```yaml
+    available_in: [ultimate]
+    gitlab_com: false
+  ```
+
+- For features available for GitLab.com and GitLab Self-Managed:
+
+  ```yaml
+    gitlab_com: true
+    self_managed: true
+    gitlab_dedicated: false
+  ```
+
+  Or simply: 
+
+  ```yaml
+    available_in: [ultimate]
+    gitlab_com: true
+  ```
+
+- For features available only on GitLab Dedicated:
+
+  ```yaml
+    gitlab_com: false
+    self_managed: false
+    gitlab_dedicated: true
+  ```
+
+- For features available in all offerings:
+
+  ```yaml
+    gitlab_com: true
+    self_managed: true
+    gitlab_dedicated: true
+  ```
+
+###### Legacy configurations using `available_in`
+
+NOTE:
+While the following configurations still work for backwards compatibility, we recommend using the explicit offering flags shown above for clearer and more maintainable configuration.
 
 For features available on GitLab.com only, use `available_in:` with:
 
@@ -971,7 +1025,7 @@ For features available on GitLab.com only, use `available_in:` with:
 - For GitLab.com Silver, `[silver, gold]`
 - For GitLab.com Gold, `[gold]`
 
-You can also mix the GitLab.com badges with the self-managed badges. However, for this to work, the `gitlab_com` variable must be set to `false`:
+You can also mix the GitLab.com badges with the self-managed badges when `gitlab_com: false` is set:
 
 - `available_in`:
   - For availability in all tiers on GitLab.com and only Premium and Ultimate tiers on self-managed, use `[free, silver, gold, premium, ultimate]` and set `gitlab_com: false`
