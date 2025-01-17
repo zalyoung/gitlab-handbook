@@ -1,9 +1,7 @@
 ---
 title: Marketing Analytics Data Overview and General Information
 description: >-
-  Marketing Analytics, as the embedded data team for the Marketing Org, relies heavily upon and adheres closely to the guidelines, rules, and best practices of the [Central Data Team (CDT)](/handbook/enterprise-data/). 
-
-Below are a few brief overviews of core concepts involved in the data work performed by the Marketing Analytics team - for further details and more granular information, please review the CDT/Enterprise Data Team handbook pages. 
+  Marketing Analytics, as the embedded data team for the Marketing Org, relies heavily upon and adheres closely to the guidelines, rules, and best practices of the [Central Data Team (CDT)](/handbook/enterprise-data/). ßBelow are a few brief overviews of core concepts involved in the data work performed by the Marketing Analytics team - for further details and more granular information, please review the CDT/Enterprise Data Team handbook pages. 
 ---
 
 <link rel="stylesheet" type="text/css" href="/stylesheets/biztech.css" />
