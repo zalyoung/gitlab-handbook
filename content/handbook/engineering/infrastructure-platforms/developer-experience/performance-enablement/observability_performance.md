@@ -35,6 +35,31 @@ Observability testing is actively making use of our Observability tools to detec
 
 ## Implementation Approach
 
+### Phase 1: Foundation Setting
+
+1. Education
+   - Add [documentation](https://gitlab.com/gitlab-org/quality/quality-engineering/team-tasks/-/work_items/3322) on what this process is so teams understand it
+   - Create [training](https://gitlab.com/gitlab-org/quality/quality-engineering/team-tasks/-/work_items/3325) to help teams understand and adopt
+   - Create [guides(https://gitlab.com/gitlab-org/quality/quality-engineering/team-tasks/-/work_items/3323)] to enable teams to build / use performance dashboards 
+2. Baseline Assessment
+   - There are a number of existing dashboards, identify existing ones that already cover what we need
+   - Identify gaps and develop plans to fill
+
+### Phase 2: Initial Implementation
+
+1. Implement with a single team
+   - Work with to identify / build dashboards for their use
+   - Integrate with their workflow
+2. Iterate on documentation
+   - Bring lessons learned back into documentation for other teams
+
+### Phase 3: Practice and Culture Building
+
+1. Expand to other teams
+2. Document how to use in GitLab Dev workflows
+
+### Phase 4: Expansion and Maturity
+
 [TBD]
 
 ## Case Studies
