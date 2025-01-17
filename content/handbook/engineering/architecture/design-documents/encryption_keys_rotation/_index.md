@@ -144,6 +144,7 @@ stateDiagram-v2
     Inactive --> Active
     Inactive --> Retired
     Active --> Retired
+    Retired --> Active
     Inactive --> Removed
     Active --> Removed
     Retired --> Removed
@@ -183,176 +184,103 @@ During initialization, if a new key is discovered in `config/secrets.yml`, the f
 
 The encryption key needs to be dynamically selected based on the `encryption_keys` table.
 
-For `ActiveRecord::Encryption` attributes, we will introduce a
-[`GitlabPrimaryKeyProvider` custom key provider](https://guides.rubyonrails.org/active_record_encryption.html#custom-key-providers).
+We'll introduce key providers that follow the
+[`ActiveRecord::Encryption` custom key providers architecture](https://guides.rubyonrails.org/active_record_encryption.html#custom-key-providers).
 
-For `attr_encrypted` and `TokenAuthenticatable`, we'll implement the methods in `EncryptionKey`.
+Key providers don't interact with the `KeyEncryption` model, instead they only receive the current key fingerprint (for
+encryption), and the retired keys fingerprints (to exclude them for decryption).
 
-##### `GitlabPrimaryKeyProvider` implementation
+##### Architecture
 
-```ruby
-# frozen_string_literal: true
+```mermaid
+classDiagram
+    class KeyService {
+        +populate_from_config()
+        +key_fingerprint(key)
+    }
 
-# rubocop:disable Gitlab/BoundedContexts -- Not sure yet
-# rubocop:disable Gitlab/NamespacedClass -- Not sure yet
-class GitlabPrimaryKeyProvider < ActiveRecord::Encryption::DerivedSecretKeyProvider
-  KEY_TYPE = :active_record_encryption_primary_key
-  DEFAULT_KEYS = ActiveRecord::Encryption.config.primary_key
+    class KeyProviderService {
+        +key_provider(key_type)
+        -cache
+    }
 
-  def initialize(passwords = nil)
-    if passwords.nil?
-      fingerprints = EncryptionKey.active_keys_fingerprints_for_type(key_type)
-      passwords = DEFAULT_KEYS.select do |key|
-        fingerprints.include?(EncryptionKey.key_fingerprint(key_type: :active_record_encryption_primary_key, key: key))
-      end
-    end
+    class Settings {
+        +various_settings
+    }
 
-    super
-  end
+    class RailsCredentials {
+        Rails.application.credentials
+    }
 
-  def last_key_fingerprint
-    @keys.last.id
-  end
+    class DbKeyBaseProvider {
+        +oldest_key()
+        +encryption_key()
+        +decryption_keys()
+        -current_key_fingerprint
+        -retired_keys_fingerprints[]
+    }
 
-  # TODO: Cache
-  def current_key_fingerprint
-    EncryptionKey.latest_active_key_for_type(KEY_TYPE).fingerprint
-  end
+    class PrimaryKeyProvider {
+        +oldest_key()
+        +encryption_key()
+        +decryption_keys()
+        -current_key_fingerprint
+        -retired_keys_fingerprints[]
+    }
 
-  def encryption_key
-    fingerprint = current_key_fingerprint
-    @encryption_key ||= @keys.find do |key|
-      key.id == fingerprint
-    end
+    class DeterministicKeyProvider {
+        +oldest_key()
+        +encryption_key()
+        +decryption_keys()
+        -current_key_fingerprint
+        -retired_keys_fingerprints[]
+    }
 
-    return unless @encryption_key
+    class EncryptionKey {
+        +id
+        +key_type
+        +value
+    }
 
-    @encryption_key.tap do |key|
-      key.public_tags.encrypted_data_key_id = key.id if ActiveRecord::Encryption.config.store_key_references
-    end
-  end
-end
-# rubocop:enable Gitlab/BoundedContexts
-# rubocop:enable Gitlab/NamespacedClass
+    KeyService --> EncryptionKey : populates
+    KeyService --> Settings : reads keys depending on type
+    KeyService --> RailsCredentials : reads keys depending on type
+    KeyService --> KeyProviderService : uses for fingerprinting
+
+    KeyProviderService --> DbKeyBaseProvider : instantiates with fingerprints
+    KeyProviderService --> PrimaryKeyProvider : instantiates with fingerprints
+    KeyProviderService --> DeterministicKeyProvider : instantiates with fingerprints
+    KeyProviderService --> EncryptionKey : reads fingerprints
+
+    note for KeyService "Reads keys from Settings or Rails.application.credentials<br>Gets fingerprints via KeyProviderService<br>Populates EncryptionKey records"
+    note for KeyProviderService "Reads fingerprints from EncryptionKey<br>Instantiates provider with fingerprints<br>Caches provider instance"
+    note for DbKeyBaseProvider "Uses fingerprints to<br>identify correct keys"
+    note for PrimaryKeyProvider "Uses fingerprints to<br>identify correct keys"
+    note for DeterministicKeyProvider "Uses fingerprints to<br>identify correct keys"
 ```
 
-Notes on caching:
+##### Implementation of "Encryption keys" admin page
 
-- `GitlabPrimaryKeyProvider#current_key_fingerprint` & `GitlabPrimaryKeyProvider#encryption_key`
-  should be cached appropriately to avoid issuing DB queries each time they're called (given encryption is a very
-  common and low-level flow).
-- For encryption key, caching isn't a problem since it would only delay the usage of a newly-activated encryption key.
+See the PoC code at <https://gitlab.com/gitlab-org/gitlab/-/merge_requests/177838/diffs?commit_id=c8807b44c750881c980e3de14275ca8cfc78e675>.
 
-##### `GitlabDeterministicKeyProvider` implementation
-
-```ruby
-# frozen_string_literal: true
-
-# rubocop:disable Gitlab/BoundedContexts -- Not sure yet
-# rubocop:disable Gitlab/NamespacedClass -- Not sure yet
-class GitlabDeterministicKeyProvider < GitlabPrimaryKeyProvider
-  KEY_TYPE = :active_record_encryption_deterministic_key
-  DEFAULT_KEYS = ActiveRecord::Encryption.config.deterministic_key
-end
-# rubocop:enable Gitlab/BoundedContexts
-# rubocop:enable Gitlab/NamespacedClass
-```
-
-##### `attr_encrypted` and `TokenAuthenticatable` implementation
-
-The `EncryptionKey.current_db_key_base_encryption_key` and `EncryptionKey.current_db_key_base_decryption_keys` method would
-be implemented as follows:
-
-```ruby
-  def self.current_db_key_base_encryption_key_fingerprint
-    active.where(key_type: :db_key_base).order(activated_at: :desc).limit(1).pick(:fingerprint)
-  end
-
-  def self.find_key_from_fingerprint(fingerprint)
-    Settings.attr_encrypted_db_key_base_32.find do |key|
-      ActiveRecord::Encryption::Key.new(key).id == fingerprint
-    end
-  end
-
-  def self.current_db_key_base_encryption_key
-    find_key_from_fingerprint(current_db_key_base_encryption_key_fingerprint)
-  end
-
-  def self.current_db_key_base_decryption_keys(record = nil)
-    if record && record.respond_to?(:encryption_key_fingerprint)
-      [find_key_from_fingerprint(record.encryption_key_fingerprint)]
-    else
-      # Select the first key for each fingerprint in normal order (i.e. old to new), to avoid conflicting keys.
-      # This allows decryption to use a key that's not yet `active` in the case it became active in another process
-      # and data already started to be encrypted with the newly active key. In that case, decryption should be possible
-      # right away (i.e. we cannot cache decryption keys otherwise we'd have decryption errors until the cache is
-      # expired).
-      existing_fingerprints = Set.new
-      Settings.attr_encrypted_db_key_base_32.each_with_object([]) do |key, memo|
-        fingerprint = ActiveRecord::Encryption::Key.new(key).id
-        next if existing_fingerprints.include?(fingerprint)
-
-        existing_fingerprints.add(fingerprint)
-        memo << key
-      end
-    end
-  end
-```
-
-Notes on caching:
-
-- Same remarks on caching for `EncryptionKey.current_db_key_base_encryption_key` key methods as for `GitlabPrimaryKeyProvider`.
-- Caching of `EncryptionKey.current_db_key_base_decryption_keys` would be a problem if a newly-activated key is used for
-  encryption, before it's used for decryption. To solve that, all the keys from `config/secrets.yml` should be
-  available for decryption at any time (except the ones that would conflict with previous keys, see inline code
-  comments above).
-  It shouldn't introduce performance issues since we're storing the key fingerprint alongside with the encrypted data,
-  and since we shouldn't have more than a handful of keys in `config/secrets.yml` at any time.
-
-##### Changes to `attr_encrypted` calls
+##### Changes required for `attr_encrypted`
 
 The `attr_encrypted` gem supports dynamic key by passing a method name as the `key:` option, e.g.
 
 ```ruby
-attr_encrypted :email, key: :dynamic_encryption_key
-
-def dynamic_encryption_key
-  operation = attr_encrypted_attributes[attribute.to_sym][:operation]
-
-  if operation == :encrypting
-    EncryptionKey.current_db_key_base_encryption_key
-  else
-    EncryptionKey.current_db_key_base_decryption_keys(self)
-  end
-end
+attr_encrypted :email, key: :db_key_base_32
 ```
+
+We're taking advantage of that so that the key(s) used for encryption/decryption are retrieved from
+`Gitlab::Database::Encryption::KeyProviderService`.
+
+See the PoC code at <https://gitlab.com/gitlab-org/gitlab/-/merge_requests/177838/diffs?commit_id=904ccbf9f4408a31303e9065f0c39ad77f85a5c7#diff-content-5d31008bc68bfcfa3787a3338a808f53c51a6ad5>.
 
 ##### Changes required for `TokenAuthenticatable`
 
-A few changes would need to be made in `lib/gitlab/crypto_helper.rb`:
+Changes are similar to what's done for `attr_encrypted`.
 
-```ruby
-AES256_GCM_OPTIONS = {
-  algorithm: 'aes-256-gcm',
-  key: EncryptionKey.current_db_key_base_encryption_key
-}.freeze
-
-def aes256_gcm_decrypt(value, nonce: AES256_GCM_IV_STATIC, owner_record: nil)
-  return unless value
-
-  encrypted_token = Base64.decode64(value)
-
-  # Try to decrypt with all keys, from oldest to newest
-  keys = EncryptionKey.current_db_key_base_decryption_keys(owner_record)
-  keys.with_index do |key, index|
-    return Encryptor.decrypt( # rubocop:disable Cop/AvoidReturnFromBlocks -- next doesn't work the same here
-      AES256_GCM_OPTIONS.merge(value: encrypted_token, key: key, iv: nonce)
-    )
-  rescue OpenSSL::Cipher::CipherError
-    raise if index == keys.length - 1
-  end
-end
-```
+See the PoC code at <https://gitlab.com/gitlab-org/gitlab/-/merge_requests/177838/diffs?commit_id=904ccbf9f4408a31303e9065f0c39ad77f85a5c7#diff-content-a99cfc117c9fe8408818387e8197ef3186848efe>.
 
 #### Background re-encryption process
 
@@ -414,24 +342,37 @@ but we might work around that, or even implement proper support for it).
 ### Data encrypted through `attr_encrypted` and `TokenAuthenticatable`
 
 Currently, `attr_encrypted` and `TokenAuthenticatable` don't store the fingerprint of the key used to encrypt an attribute.
-We could introduce a new `encryption_key_fingerprint` column (4 chars) to tables that include encrypted columns.
+We could introduce a new `encryption_key_id` column referencing the `EncryptionKey#id` column to tables that include
+encrypted columns.
 
-A single `encryption_key_fingerprint` column per table is enough since the same key is used to encrypt all encrypted attributes
+A single `encryption_key_id` column per table is enough since the same key is used to encrypt all encrypted attributes
 for a given record.
 
-The key fingerprint can be computed with
-[`ActiveRecord::Encryption::Key.new(key).id`](https://github.com/rails/rails/blob/v7.0.8.6/activerecord/lib/active_record/encryption/key.rb#L24)
-(which is implemented as `Digest::SHA1.hexdigest(secret).first(4)` under the hood).
-
-Once introduced, a post-deploy migration should populate all rows with the current key fingerprint.
+Once introduced, a post-deploy migration should populate all rows with the current encryption key ID.
 
 The implementation of `attr_encrypted` and `TokenAuthenticatable` would need to be modified to populate the
-`encryption_key_fingerprint` attribute.
+`encryption_key_id` attribute.
 
 **In the future, we should progressively migrate all the usage of `attr_encrypted` and `TokenAuthenticatable` to
 `ActiveRecord::Encryption`.**
 
 ## Challenges
+
+### Other usages of `db_key_base`
+
+There are few places where the `db_key_base` secrets are used (mostly in JWT generation):
+
+- `Auth::DependencyProxyAuthenticationService#secret` in `app/services/auth/dependency_proxy_authentication_service.rb`
+- `Gitlab::Geo::Oauth::LogoutState#with_cipher` in `ee/lib/gitlab/geo/oauth/logout_state.rb`
+  - Note that in `Gitlab::Geo::Oauth::LoginState#key`, we use `Gitlab::Application.credentials.secret_key_base`...
+- `Gitlab::ConanToken#secret` in `lib/gitlab/conan_token.rb`
+- `Gitlab::JWTToken#secret` in `lib/gitlab/jwt_token.rb`
+- `Gitlab::LfsToken::HMACToken#secret` in `lib/gitlab/lfs_token.rb`
+
+In all these cases, we should probably follow the general practice:
+
+- Encrypt with the current active key
+- Try to decrypt with all keys until one works
 
 ### Rotation of deterministic key
 
@@ -442,55 +383,90 @@ invalidating all the tokens).
 `ActiveRecord::Encryption` doesn't support deterministic keys rotation at the moment, support for it should be
 implemented either in GitLab, or in Rails directly.
 
-That said, we might be able to work around this limitation by specifying a custom `GitlabDeterministicKeyProvider` key
-provider so that under the hood it uses the logic from `DerivedSecretKeyProvider` but with the
-`deterministic: true` option which makes the encryption process generate the initialization vector based on
-the encrypted content instead of being random, i.e.
+That said, we might be able to work around this limitation by specifying a custom key provider so that under the hood
+it uses the logic from `DerivedSecretKeyProvider` but with the `deterministic: true` option which makes the encryption
+process generate the initialization vector based on the encrypted content instead of being random, i.e.
 
 ```ruby
-encrypts :attr, deterministic: true, key_provider: GitlabDeterministicKeyProvider.new
+encrypts :attr, deterministic: true, key_provider: Gitlab::Database::Encryption::KeyProviderService.new(:active_record_encryption_deterministic_key)
 ```
 
-## Proof of Concept
+## Proof of Concept merge requests
 
-A Proof of Concept merge request was created to show that support of multiple encryption keys is possible today for
-both `attr_encrypted` and `TokenAuthenticatable`: <https://gitlab.com/gitlab-org/gitlab/-/merge_requests/167067>.
+### Multiple encryption key support
+
+The following merge request shows that support of multiple encryption keys is possible today for both `attr_encrypted`
+and `TokenAuthenticatable`: <https://gitlab.com/gitlab-org/gitlab/-/merge_requests/177748>
 
 What's missing from this PoC is the second pre-requisite [from the above proposal](#proposal): the ability to know
 what key was used to encrypt an attribute. It's possible to add support for this with the introduction of a new
-`encryption_key_fingerprint` column per table (except for some cases where different keys are used for different encrypted
-attribtues in the same table).
+`encryption_key_id` column per table.
+
+### Encryption keys management
+
+The following merge request implements the basis for encryption keys management in the DB:
+<https://gitlab.com/gitlab-org/gitlab/-/merge_requests/177838>
+
+What's missing from this PoC is:
+
+- the automated background process to re-encrypt legacy-key-encoded data
+- key usage statistics in the admin
 
 ## Iteration plan
 
-### Iteration 1: Foundation and Key Management
+### Iteration 1: Multiple encryption keys support for all `db_key_base` usages
 
-1. Implement the key management system in the database
-   - Create a new table to store key information (id, fingerprint, status, created_at, etc.)
-   - Implement initializer to read keys from `config/secrets.yml` and populate/update the database
+1. Implement support of multiple keys in `attr_encrypted` and `TokenAuthenticatable` but still use the oldest key for
+   encryption (until we have a proper keys management & rotation strategy in place).
+1. Implement support of multiple keys in other usages of `db_key_base`
+
+PoC MR: <https://gitlab.com/gitlab-org/gitlab/-/merge_requests/177748/diffs>
+
+### Iteration 2: `EncryptionKey` model implementation
+
+1. Implement the keys management system in the database
+   - Create a new `encryption_keys` table to store keys information (id, fingerprint, status, timestamps)
    - Add collision detection to prevent `inactive` -> `active` transition
-1. Develop the key selection mechanism
-   - Implement caching for active keys to ensure good performance
-   - Create logic to select the appropriate key based on the encryption framework used
-1. Add fingerprint generation for keys
-   - Implement SHA1 hashing for key fingerprints
 
-### Iteration 2: Framework-specific Implementations
+PoC MR: <https://gitlab.com/gitlab-org/gitlab/-/merge_requests/177838/diffs?commit_id=f1130cda5965d544f2cb03d9393f1dc09ba7c601>
 
-1. Implement support for `ActiveRecord::Encryption`
-   - Modify existing `ActiveRecord::Encryption` usage to work with new multiple keys management
-1. Implement support for `attr_encrypted`
-   - Modify existing `attr_encrypted` usage to work with new multiple keys management
-1. Implement support for `TokenAuthenticatable`
-   - Modify existing `TokenAuthenticatable` usage to work with new multiple keys management
+### Iteration 3: Encryption keys management foundations
 
-### Iteration 3: Admin Interface and Key Lifecycle
+1. Introduce `KeyService`, `KeyProviderService` and key provider classes.
 
-1. Create the admin interface for key management
+We don't use the key provider classes in this iteration.
+
+PoC MR: <https://gitlab.com/gitlab-org/gitlab/-/merge_requests/177838/diffs?commit_id=a5d9db6c8f8a05617c8a88e84834f20d3d5155cc>
+
+### Iteration 4: Encryption keys initializer
+
+1. Implement initializer to read keys from `config/secrets.yml` and populate/update the database
+   - Automatically activate the oldest key for each key type
+
+We don't yet select keys from `EncryptionKey` in this iteration.
+
+PoC MR: <https://gitlab.com/gitlab-org/gitlab/-/merge_requests/177838/diffs?commit_id=8d7a62e964406330e548229c853ea47350707790>
+
+### Iteration 5: Key usage tracking in models
+
+1. Add the `encryption_key_id` column to all models that use `attr_encrypted` and `TokenAuthenticatable`
+   - Populate the column with the current encryption key (the first one, just in case several cases are already defined)
+
+### Iteration 6: Encryption keys admin interface
+
+1. Create the admin interface for keys management
    - Develop the UI for viewing key status, usage statistics, and controls
-   - Implement key activation/retirement functionality
 
-### Iteration 4: Re-encryption Process
+PoC MR: <https://gitlab.com/gitlab-org/gitlab/-/merge_requests/177838/diffs?commit_id=3eb8c0745553aef57bf514edfdc8caaf256abcb6>
+
+### Iteration 7: Select keys based on `EncryptionKey`
+
+1. Actually select encryption/decryption keys based on the data from `EncryptionKey`
+   - This is a critical step, mostly in terms of performance
+
+PoC MR: <https://gitlab.com/gitlab-org/gitlab/-/merge_requests/177838/diffs?commit_id=3511738098c46f96869263f4d738d703fc3b9337>
+
+### Iteration 8: Re-encryption Process
 
 1. Implement background re-encryption process
    - Build on top of background migration framework
@@ -500,7 +476,11 @@ attribtues in the same table).
    - Add database columns to track re-encryption progress
    - Update admin interface to display re-encryption status
 
-### Iteration 5: Additional tooling
+### Iteration 9: Add activation/retirement actions in the admin interface
+
+1. Implement key activation/retirement functionalities
+
+### Iteration 10: Additional tooling
 
 1. Create rake task to detect key collision in advance
 1. Allow to disable actions in the admin UI (useful for Dedicated)
