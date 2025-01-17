@@ -289,6 +289,7 @@ Please plan your timelines accordingly based on the below SLAs. Keep in mind the
 ## Items required by FMM to begin the Plan to WIP process
 
 - The Allocadia sub-category and line item detail panels must be updated and finalized and the FMM will include their correct plan and/or forecast cost(s) in the correct month (according to the [prepaid policy](/handbook/finance/accounting/#prepaid-expense-policy)).
+  - Please make sure the correct FMM and FMC are listed in the Allocadia panel for your event. The team members listed in Allocadia will sync to the GitLab issue and then to the Asana project (Asana tasks will be assigned based on these roles as well).
 - The FMM creates the GitLab issue using the `Create/Update Marketing Issue` button in Allocadia.
 - **NOTE:** The FMM will not fill out any additional information in the GitLab issue. All work will be managed in the [Asana](/handbook/marketing/marketing-operations/asana/) project.
 
@@ -299,15 +300,8 @@ Please plan your timelines accordingly based on the below SLAs. Keep in mind the
 - FMM pings the FMC in the main Field Marketing issue and requests the FMC move the GitLab issue to WIP
 - FMC reviews the Allocadia sub-category and line item panel details, as well as checks that the forecasted cost is in the correct month (according to the [prepaid policy](/handbook/finance/accounting/#prepaid-expense-policy)) for the tactic and makes any changes necessary
 - FMC creates a new project in Asana by following the below steps:
-  - Open the [Field Marketing Template](https://app.asana.com/0/project-templates/1208622308556886/list) in Asana
-  - Click `Use Template`
-  - Copy the full GitLab issue title (FY26-Q2: Best Event Ever 2025.05.12) and paste into `Project Name` in Asana
-  - `Team - All Marketing` and `Privacy - Shared with team` should not be adjusted
-  - Update the date to the start date of the event
-  - Click `Continue`
-  - Assign the appropriate roles to the appropriate POCs (MOps POC is Bryce Weatherford)
-  - Click `Go to Project`
-  - Please give the system a couple of minutes to pull all of the details through. You will see a popup in the bottom left-hand corner of the page that will say `Created - Best Event Ever`
+  - FMC adds the `Testing In-Progress` label to the GitLab issue. Adding this label will trigger the Asana project to be created utilizing the GitLab > Asana sync.
+  - In Asana, please give the system a couple of minutes to pull all of the details through. You receive a notification when the Asana project has been created.
 - FMC to then copy the body of the [FM_Asana_Template](https://gitlab.com/gitlab-com/marketing/field-marketing/-/blob/master/.gitlab/issue_templates/FM_Asana_Template.md) and paste it into the project Overview section in the Asana project
 - FMC to fill in Event Details from the GitLab issue to the project Overview
 - FMC to add the Asana project link to the top of the GitLab issue, as well as adding the GitLab issue link to the Asana project in the Overview
