@@ -50,7 +50,7 @@ The team was building an ETL (Extract, Transform, Load) project with critical pe
 We implemented a three-tiered monitoring approach:
 
 1. User Experience Monitoring
-   - Built Apdex-based dashboards for both production and test environments
+   - Used existing Apdex-based dashboards for both production and test environments
    - Tracked end-user performance metrics like page load times and API response times
    - Set clear thresholds for acceptable performance levels
 2. Service-Level Monitoring
@@ -88,7 +88,7 @@ We implemented a three-tiered monitoring approach:
 - Lessons Learned:
   - Early warning from observability prevented major incidents
   - Daily review habit kept performance top-of-mind
-  - Small, regular improvements better than big reactive changes
+  - Small, regular improvements are better than big reactive changes
 
 ## Tools and Technologies
 
