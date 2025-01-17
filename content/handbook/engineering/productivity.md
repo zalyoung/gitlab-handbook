@@ -14,7 +14,7 @@ MR Rate has long been a metric associated with productivity in engineering at Gi
 
 **MR Rate as a Signal, Not a Measure of Value**
 
-While MR Rate shows activity — specifically whether an engineer is producing merge requests — it does not measure whether the work is meaningful or impactful. It's easy to "game" the system, leading to inflated numbers that do not reflect true value creation. Simply put, MR Rate reflects how much work is done, but not whether it's the right work.
+While MR Rate shows activity — specifically whether an engineer is producing merge requests — it does not measure whether the work is meaningful, impactful, how difficult or complex it is. It's easy to "game" the system, leading to inflated numbers that do not reflect true value creation. Simply put, MR Rate reflects a single unit of work, but not whether it's all the work, the right work, if it provided any value, or how difficult it was.
 
 **Importance of Context**
 
