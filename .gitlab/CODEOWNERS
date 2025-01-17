@@ -574,7 +574,7 @@
 /content/handbook/security/product-security/product-security-engineering/ @jdicken
 /content/handbook/security/security-assurance/ @tdilbeck @corey-oas @jlongo_gitlab @cynthiamiller
 /content/handbook/security/security-operations/ @mcoons @cmoberly @rdickson1 @nslaughter @mjozenazemian
-/content/handbook/security/security-operations/security-logging/ @mcoons
+/content/handbook/security/product-security/security-logging/ @jacobjernigan @juliedavila
 /content/handbook/security/threat-management/ @smanzuik @estrike
 /content/handbook/security/threat-management/identity/ @gitlab-com/gl-security/identity
 /content/handbook/security/security-operations/red-team/ @cmoberly
