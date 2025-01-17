@@ -72,8 +72,8 @@ Once submitted, the Partner will receive a confirmation email indicating that th
 
 When the Partner has uploaded the Proof of Performance and Lead List attachments, the GitLab team member will be asked to check to ensure they are infact the right attachment.
 
-      - If they are missing an attachment, the GitLab team member is required to update the field, `Missing POP` with the missing item. This will trigger an automated message to Partner will add the selected item to the Claim.
-      - If all attachments are received and looks good, the GitLab team member will update the `POP Approval` to `Rejected` or `Approved`.
+- If they are missing an attachment, the GitLab team member is required to update the field, `Missing POP` with the missing item. This will trigger an automated message to Partner will add the selected item to the Claim.
+- If all attachments are received and looks good, the GitLab team member will update the `POP Approval` to `Rejected` or `Approved`.
 
 ## Cancelled MDF Request
 
