@@ -68,6 +68,8 @@ When Google Calendar is [configured with Humantic AI](/handbook/marketing/market
 
 ### Groove
 
+#### Groove Actions
+
 1. Go to the Action page.
 1. Pick a prospect with an email action.
 1. Click on the action icon and make sure the Groove omnibar is open.
@@ -76,6 +78,22 @@ When Google Calendar is [configured with Humantic AI](/handbook/marketing/market
 1. Click on the check mark to accept the personalize email copy.
 1. Edit the copy as needed.
 1. And send!
+
+#### Groove Flows via Groove Home Page
+
+1. On the Home page, go to flows with actions due
+1. Under the Flows overview, there will be X number of due, select the blue email icon.
+1. Open the Groove omnibar, then select the prospect you’d like to action ( This step is essential. If the editor opens before the Groove omnibar, Humantic won’t run as it depends on the omnibar for person identification)
+1. Input your Write for Me text, then select the `Personalize` button!
+1. Make edit as necessary and send!
+
+#### Groove Omnibar via Salesforce Classic
+
+1. Go to a Lead or Contact in Salesforce Classic.
+1. Open the Groove omnibar, then go to Groove tab.
+1. Add prospect to a flow, then open the actions.
+1. Input your Write for Me text, then select the `Personalize` button!
+1. Make edit as necessary and send!
 
 ## DISC Selling
 
