@@ -11,6 +11,8 @@ View the [CSM Handbook homepage](/handbook/customer-success/csm/) for additional
 An **Executive Business Review (EBR)** is a strategic partnership meeting where key stakeholders from both organizations assess progress and align on future priorities. Going beyond standard metrics, these sessions focus on measurable business outcomes and return on investment, ensuring the partnership continues to deliver meaningful value.
 The EBR creates a focused environment for customer leadership to share their evolving business objectives while collaboratively developing action plans to achieve them. This approach ensures resources and initiatives remain aligned with what matters most to the customer's success.
 
+![EBR One pager](/content/handbook/customer-success/csm/images/EBR-One-Pager.png)
+
 ## Strategic Alignment with Stakeholders: The Importance of the EBR
 
 The Executive Business Review brings together leadership teams to strengthen collaboration and drive measurable outcomes. These strategic sessions work best when key decision-makers from both organizations actively participate and share insights.
