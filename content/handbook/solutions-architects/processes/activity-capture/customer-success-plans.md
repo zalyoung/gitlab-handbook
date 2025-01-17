@@ -15,7 +15,7 @@ A Customer Success Plan (CSP) is generated from our centralized account planning
 
 3. For the **Professional Services Team**: Delivers context for scoping Statements of Work (SOW) based on outlined initiatives.
 
-4. For the **Go-To-Market Team**: Serves as a source of truth when executives or customer support needs context about customer interactions and plans.
+4. For the **Go-To-Market Team**: Serves as a source of truth when executives or customer support needs context about customer objectives, interactions and plans.
 
 ## When to Create a Success Plan
 
