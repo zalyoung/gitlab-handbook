@@ -300,7 +300,7 @@ Please plan your timelines accordingly based on the below SLAs. Keep in mind the
 - FMM pings the FMC in the main Field Marketing issue and requests the FMC move the GitLab issue to WIP
 - FMC reviews the Allocadia sub-category and line item panel details, as well as checks that the forecasted cost is in the correct month (according to the [prepaid policy](/handbook/finance/accounting/#prepaid-expense-policy)) for the tactic and makes any changes necessary
 - FMC creates a new project in Asana by following the below steps:
-  - FMC adds the `Testing In-Progress` label to the GitLab issue. Adding this label will trigger the GitLab > Asana sync.
+  - FMC adds the `Testing In-Progress` label to the GitLab issue. Adding this label will trigger the Asana project to be created utilizing the GitLab > Asana sync.
   - In Asana, please give the system a couple of minutes to pull all of the details through. You receive a notification when the Asana project has been created.
 - FMC to then copy the body of the [FM_Asana_Template](https://gitlab.com/gitlab-com/marketing/field-marketing/-/blob/master/.gitlab/issue_templates/FM_Asana_Template.md) and paste it into the project Overview section in the Asana project
 - FMC to fill in Event Details from the GitLab issue to the project Overview
