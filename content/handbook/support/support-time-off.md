@@ -244,7 +244,7 @@ The manager will conduct a thorough review of all ongoing tasks, responsibilitie
 
 Once tasks have been identified and the team member has been selected, the following steps should be taken to ensure a seamless transition:
 
-Documenting the Process: The manager will create a shared document to outline
+Documenting the Process: The manager will create an issue to outline
 
 - Key contacts for each task.
 - Any ongoing projects or deadlines.
