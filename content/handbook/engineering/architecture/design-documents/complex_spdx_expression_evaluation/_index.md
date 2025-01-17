@@ -124,45 +124,161 @@ status of a dependency's license.
 
 ## Design and implementation details
 
-<!--
-This section should contain enough information that the specifics of your
-change are understandable. This may include API specs (though not always
-required) or even code snippets. If there's any ambiguity about HOW your
-proposal will be implemented, this is the place to discuss them.
+SPDX license expressions are supported across ecosystems at varying levels. The
+following table depicts the level at which they're supported by each ecosystem.
 
-If you are not sure how many implementation details you should include in the
-document, the rule of thumb here is to provide enough context for people to
-understand the proposal. As you move forward with the implementation, you may
-need to add more implementation details to the document, as those may become
-valuable context for important technical decisions made along the way. A
-document is also a register of such technical decisions. If a technical
-decision requires additional context before it can be made, you probably should
-document this context in a document. If it is a small technical decision that
-can be made in a merge request by an author and a maintainer, you probably do
-not need to document it here. The impact a technical decision will have is
-another helpful information - if a technical decision is very impactful,
-documenting it, along with associated implementation details, is advisable.
+| Ecosystem   | Support level
+| ----------- | -------------
+| `cargo`     | fully supported
+| `cocoapods` | one or more identifiers - equivalent to conjunctive `AND`
+| `composer`  | fully supported
+| `conan`     | one or more identifiers - equivalent to conjunctive `AND`
+| `gem`       | one or more identifiers - equivalent to conjunctive `AND`
+| `golang`    | one or more identifiers - equivalent to conjunctive `AND`
+| `maven`     | one or more identifiers - equivalent to conjunctive `AND`
+| `npm`       | fully supported
+| `pypi`      | one or more identifiers - equivalent to conjunctive `AND`
+| `swift`     | one or more identifiers - equivalent to conjunctive `AND`
 
-If it's helpful to include workflow diagrams or any other related images.
-Diagrams authored in GitLab flavored markdown are preferred. In cases where
-that is not feasible, images should be placed under `images/` in the same
-directory as the `index.md` for the proposal.
--->
+### Licensing options
 
-### Compiler
+At a high level, a SPDX expression can be compiled down into a set of license
+combinations. Take the following expression, for example.
 
-To support the license approval policy use case, license expressions will need
-to be evaluated by license approval policies that run in the context of a merge
-request. In the past, projects with large sets of dependencies have experienced
-performance related issues, so we must take this into account. The proposed
-solution for this is to compile the license expressions into bytecode, and store
-the bytecode for repeated evaluations.
+```text
+Apache-2.0 AND (MIT OR GLP-3.0)
+```
+
+The expression is human readable, deterministic, but it's far from optimized for
+our use cases. We can improve on this by expanding the expression into the
+different licensing options it represents. In this case, the options could be
+represented like so:
+
+```json
+[
+    ["Apache-2.0", "MIT"],
+    ["Apache-2.0", "GLP-3.0"]
+]
+```
+
+From here, it's easy to see how a license approval policy can be evaluated
+against the different licensing options. If an approval policy denies any
+of the licenses, the next license option can be tested for denial. The change in
+logic is minimal, with the only change being an additional outer loop in the
+violation checking logic.
 
 ### Evaluation
 
-We'll create a basic virtual machine that will evaluate the bytecode in a
-SideKiq worker. This saves us the overhead of tokenizing and parsing the tokens,
-leaving us with only the last step of evaluation.
+The solution above is functional, but it must be further improved to meet our
+performance requirements. As previously mentioned, license scanning **must**
+remain performant even for the largest of projects. This solution does not
+provide that, and we can demonstrate this with the following example.
+
+Say that we scan a project with the following components and licenses, and have
+an approval policy that we want to evaluate against for policy violations.
+
+```json
+{
+    "packageA": [ ["LicenseA", "LicenseB"], ["LicenseA", "LicenseC"]],
+    "packageB": [ ["LicenseD", "LicenseE"], ["LicenseD", "LicenseF"]],
+    "packageC": [ ["LicenseG", "LicenseH"], ["LicenseG", "LicenseI"]],
+}
+```
+
+Before evaluating the license approval policies, we'd need to clean up the data,
+so that we have a singular array of licensing options to evaluate against. The
+process requires us to combine the options in order to compact the arrays. On
+first pass, we'd have the following options.
+
+```json
+[
+    ["LicenseA", "LicenseB"],
+    ["LicenseA", "LicenseC"],
+]
+```
+
+On second pass, we'd need to combine the existing options with the next set of
+licensing options, so we'll end up with something like so.
+
+```json
+[
+    ["LicenseA", "LicenseB", "LicenseD", "LicenseE"],
+    ["LicenseA", "LicenseC", "LicenseD", "LicenseE"],
+    ["LicenseA", "LicenseB", "LicenseD", "LicenseF"],
+    ["LicenseA", "LicenseC", "LicenseD", "LicenseF"],
+]
+```
+
+The amount of options has grown considerably, but we're _still not done_.
+We must do a third and final pass to incorporate the remaining licensing
+options for `packageC`. Doing so results in the following outcome.
+
+```json
+[
+    ["LicenseA", "LicenseB", "LicenseD", "LicenseE", "LicenseG", "LicenseH"],
+    ["LicenseA", "LicenseC", "LicenseD", "LicenseE", "LicenseG", "LicenseH"],
+    ["LicenseA", "LicenseB", "LicenseD", "LicenseF", "LicenseG", "LicenseH"],
+    ["LicenseA", "LicenseC", "LicenseD", "LicenseF", "LicenseG", "LicenseH"],
+    ["LicenseA", "LicenseB", "LicenseD", "LicenseE", "LicenseG", "LicenseI"],
+    ["LicenseA", "LicenseC", "LicenseD", "LicenseE", "LicenseG", "LicenseI"],
+    ["LicenseA", "LicenseB", "LicenseD", "LicenseF", "LicenseG", "LicenseI"],
+    ["LicenseA", "LicenseC", "LicenseD", "LicenseF", "LicenseG", "LicenseI"],
+]
+```
+
+From this example, we can see how quickly the search space can become because
+we're essentially getting the cartesian product of different sets. This
+[combinatorial explosion](https://en.wikipedia.org/wiki/Combinatorial_explosion)
+requires us to further refine the implementation, so that it remains performant
+should we be presented with large amount of packages with more than one licensing.
+
+To do this, we can make use of [bit arrays](https://en.wikipedia.org/wiki/Bit_array)
+to act as a vector of licenses. At a high level the representation would work
+like this.
+
+- Every bit in the bit array will represent the detection of a license.
+- There are 729 known licenses in the SPDX library. If we account for this,
+future growth, and word alignment, we can use a bit array with 1024 bits.
+- We can XOR the bit arrays to detect for approvals or violations. Bitwise
+operatiosn are fast, and can also be parallelized by the processor.
+
+To demonstrate the implementation, we can do an example using a smaller set of
+available options. Say that projects have the option of using one or more out of
+eight licenses. We could represent the licenses like so.
+
+| Name | Leftmost Index
+| ---- | --------------
+| LicenseA | 0
+| LicenseB | 1
+| LicenseC | 2
+| LicenseD | 3
+| LicenseE | 4
+| LicenseF | 5
+| LicenseG | 6
+| LicenseH | 7
+
+Let's say that there was a policy that disallowed `LicenseF`, and we wanted to
+evaluate it against the licensing options above. A list approach would have to
+do a union operation between two lists. Ruby makes this readable and
+[easy to do](https://gitlab.com/gitlab-org/gitlab/blob/4d8427c67fd1ecb7b854469d4151b0cddd2e9b34/ee/lib/security/scan_result_policies/license_violation_checker.rb#L32-L38):
+
+```ruby
+          all_denied_licenses = (licenses_from_report - licenses_from_policy).uniq
+          comparison_licenses = join_ids_and_names(license_ids, license_names)
+          policy_denied_license_names = (comparison_licenses - licenses_from_policy).uniq
+          violates_license_policy = policy_denied_license_names.present?
+```
+
+For a singular set of licensing options, it may be acceptable, but using this
+for larger sets of data would begin to deteriorate performance. In comparison,
+the bit array approach would look like so:
+
+
+```ruby
+licenses_from_policy = 0b00000100
+licenses_from_report = 0b01010010
+return true if (licenses_from_report & licenses_from_policy) > 0
+```
 
 ### Storage
 
