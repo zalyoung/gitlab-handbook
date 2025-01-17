@@ -285,7 +285,7 @@ All team members are encouraged to schedule time for personal development. The f
 | Group | Topic |
 |-------|-------|
 | SaaS Platforms | [Product direction](https://about.gitlab.com/direction/saas-platforms/) |
-| Delivery Group | [Delivery Group](/handbook/engineering/infrastructure/team/delivery) |
+| Delivery Group | [Delivery Group](/handbook/engineering/infrastructure-platforms/gitlab-delivery/delivery/) |
 | Scalability Group| [Scalability Group](/handbook/engineering/infrastructure/team/scalability/) |
 | Dedicated Group | [Dedicated Group](/handbook/engineering/infrastructure/team/gitlab-dedicated/) |
 

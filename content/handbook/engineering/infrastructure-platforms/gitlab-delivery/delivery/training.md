@@ -4,7 +4,7 @@ title: "Delivery Team Training"
 
 ## Common links
 
-* [Delivery Team Handbook](/handbook/engineering/infrastructure/team/delivery/)
+* [Delivery Team Handbook](/handbook/engineering/infrastructure-platforms/gitlab-delivery/delivery/)
 
 ## Purpose
 

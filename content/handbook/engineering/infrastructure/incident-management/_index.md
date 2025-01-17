@@ -233,7 +233,7 @@ When paged, the Infrastructure Liaison will:
 
 Further support is available from the Scalability and Delivery Groups if required.
 Scalability leadership can be reached via PagerDuty [Scalability Escalation](https://gitlab.pagerduty.com/escalation_policies#PDJ160O) (further [details available on their team page](/handbook/engineering/infrastructure/team/scalability/#emergency-escalation-during-s1s2-incidents)).
-Delivery leadership can be reached via PagerDuty. See the [Release Management Escalation](/handbook/engineering/infrastructure/team/delivery/#release-management-escalation) steps on the Delivery group page.
+Delivery leadership can be reached via PagerDuty. See the [Release Management Escalation](/handbook/engineering/infrastructure-platforms/gitlab-delivery/delivery/#release-management-escalation) steps on the Delivery group page.
 
 ### Incident Mitigation Methods - EOC/Incident Manager
 
