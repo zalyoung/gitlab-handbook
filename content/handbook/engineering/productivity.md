@@ -10,7 +10,7 @@ Measuring engineering productivity remains a nuanced and complex challenge. Whil
 
 ## Merge Request Rate
 
-MR Rate has long been a metric associated with productivity in engineering at GitLab. However, its use has been controversial due to its limitations and the potential for undesirable behaviors, such as focusing on volume over value. When using MR Rate as a metric, you should consider the following:
+[MR Rate](/handbook/product/groups/product-analysis/engineering/metrics/#merge-request-rates-mr-rates) has long been a metric associated with productivity in engineering at GitLab. However, its use has been controversial due to its limitations and the potential for undesirable behaviors, such as focusing on volume over value. When using MR Rate as a metric, you should consider the following:
 
 **MR Rate as a Signal, Not a Measure of Value**
 
