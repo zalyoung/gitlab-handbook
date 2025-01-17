@@ -1,0 +1,114 @@
+---
+title: "Risk-based Compliance at GitLab"
+---
+
+## On this page
+
+- [Overview](#overview)
+- [Risk-Based Control Testing](#risk-based-control-testing)
+- [Evolution of Our Approach](#evolution-of-our-approach)
+- [Industry Validation](#industry-validation)
+- [Risk and Compliance Collaboration](#risk-and-compliance-collaboration)
+- [Additional Resources](#additional-resources)
+
+## Overview
+
+Risk-based compliance is our strategic approach to using risk intelligence for informing compliance activities and testing priorities, rather than treating all compliance requirements equally. At GitLab, we sometimes also refer to this as risk-based control testing to differentiate the ongoing continuous monitoring of our SaaS platforms to maintain our certifications/attestations. This strategy recognizes that not all systems, vendors, or controls carry the same level of risk to the organization.
+
+## Risk-Based Control Testing
+
+Risk-based control testing focuses on evaluating the effectiveness of internal controls based on the risk they mitigate. By concentrating on controls associated with higher-risk areas, we ensure critical controls are functioning properly without expending unnecessary resources on lower-risk areas.
+
+### Key Aspects
+
+1. **Control Identification:** Determining which controls are in place to mitigate identified risks
+1. **Testing Prioritization:** Allocating testing efforts to controls that address the most significant risks
+1. **Evidence Collection:** Gathering sufficient evidence to assess control effectiveness, with more rigorous testing for higher-risk controls
+
+## Evolution of Our Approach
+
+While achieving and maintaining certifications for our SaaS platforms remains a core priority of our team, an effective security compliance program must look beyond certifications and audit results. Some of our most sensitive data and critical systems fall outside traditional compliance boundaries. This reality demands that our security policies, standards, and best practices are implemented comprehensively across the enterprise.
+
+With finite resources, we've adopted a risk-based framework to optimize our efforts. This approach enables us to:
+- Maintain our certification requirements
+- Ensure proper safeguards for our crown jewels
+- Allocate resources based on actual risk exposure
+- Adapt quickly to emerging threats and changes in our environment
+
+This evolution from traditional compliance to risk-based compliance reflects our commitment to meaningful security outcomes rather than just "checking boxes" for auditors.
+
+## Industry Validation
+
+Industry trends and best practices supporting this shift include:
+
+- Moving away from checkbox compliance toward risk-informed testing
+- Increasing use of automated continuous control monitoring
+- Greater emphasis on data-driven prioritization
+- Organizations increasingly adopting risk-based approaches to compliance management
+- Development of shared risk/compliance taxonomies
+- Regular joint risk-compliance working sessions
+
+## Risk and Compliance Collaboration
+
+A beautiful synergy and feedback loop is created when Risk and Compliance collaborate together. Although we are completely separate teams with separate focuses, a risk-based compliance program allows us to:
+
+- Establish formal coordination processes
+- Share data and insights systematically
+- Perform regular joint reviews of findings
+- Provide unified reporting to leadership
+
+### Feedback Loop
+
+```mermaid
+flowchart LR
+    subgraph Risk[Risk Team]
+        R1[Risk Assessments]
+        R2[Vendor Reviews]
+        R3[Risk Register]
+    end
+
+    subgraph Compliance[Compliance Team]
+        C1[Control Testing]
+        C2[Control Effectiveness]
+    end
+
+    R1 --> |Updates| R3
+    R1 --> |Testing Priorities| C1
+    R2 --> |Testing Priorities| C1
+    R3 --> |Testing Priorities| C1
+
+    C1 --> |Testing Results| C2
+    C2 --> |Informs| R1
+```
+
+#### Risk Team's Input to Compliance
+
+- Risk assessments identify high-risk systems and processes (testing priorities)
+- Vendor risk reviews highlight critical third-party relationships
+- Risk register provides thematic view of organizational risks
+- Risk ratings help prioritize which controls need more rigorous testing
+
+#### Compliance Team's Input to Risk
+
+- Control testing results identify gaps and weaknesses
+- Compliance findings map back to risk register items including risk treatment plans
+- Testing coverage data informs risk treatment decisions
+- Control effectiveness metrics feed into risk calculations
+
+### Benefits of Integration
+
+- More efficient resource allocation focused on highest-risk areas 
+- Agility to quickly adapt to evolving threats and regulatory changes
+- Stronger justification for compliance activities
+- Better data for risk decision-making
+- More comprehensive view of organizational security posture
+- Reduced redundancy in assessment activities
+
+## Additional Resources
+
+The Security Compliance team maintains details on how we execute this program in our [team issue tracker](https://gitlab.com/gitlab-com/gl-security/security-assurance/security-compliance/team). There you can learn how we:
+
+- Prioritize which systems and applications to test
+- Determine which controls are important
+- Collaborate with Security Risk
+- Share inputs and outputs between teams
