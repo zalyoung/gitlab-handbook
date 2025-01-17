@@ -104,11 +104,11 @@ The preset filter will display all MDF requests that are Pending, Approved and D
 
 Should you wish to have a customized view, following the instructions below.
 
-1. Go to the `Pending` tab 
+1. Go to the `Pending` tab
 1. Select the three dots in a circle, and `Create From Current View`
 1. Update the Name to "My Pending Requests"
 1. Set Visibility: "Private - can only be seen by me"
-1. In Manage Filters, Click on `+Add` 
+1. In Manage Filters, Click on `+Add`
           
       1. Field: `Activity Location - Region`
       1. Operator: `equals`
@@ -122,12 +122,10 @@ Should you wish to have a customized view, following the instructions below.
 
 The intergration from PRM to Salesforce is customizable per object.
 
- - Impartner `Lead` is mapped to SFDC `Lead`
- - Impartner `MDF Request` is mapped to SFDC `Funds Request`
- - Impartner `MDF Claim` is mapped to SFDC `Funds Claim`
+- Impartner `Lead` is mapped to SFDC `Lead`
+- Impartner `MDF Request` is mapped to SFDC `Funds Request`
+- Impartner `MDF Claim` is mapped to SFDC `Funds Claim`
 
 ### MDF Request and Claim Salesforce Sync
 
-There is a two way sync between MDF Request and MDF Claim objects. The ID indicator between both sync is the Funds Request Number, also known as the MDF Number. 
-
-
+There is a two way sync between MDF Request and MDF Claim objects. The ID indicator between both sync is the Funds Request Number, also known as the MDF Number.
