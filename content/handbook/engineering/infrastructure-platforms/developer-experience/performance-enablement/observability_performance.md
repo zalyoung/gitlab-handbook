@@ -8,7 +8,7 @@ Observability Based Performance Testing is a proactive approach to understanding
 
 ## Approach
 
-Observability testing is actively making use of our Observability tools to detect trends that would develop into performance issues. A couple common approaches:
+Observability testing is actively making use of our [Observability tools](#tools-and-technologies) to detect trends that would develop into performance issues. A couple common approaches:
 
 - Have the development teams monitor the dashboards on their components and proactively pickup performance concerns
 - Build dashboards/tooling that support doing exploratory testing on the Observability data, looking for linkages that may not be obvious (system A causes system B to slow down)
@@ -74,9 +74,9 @@ Observability testing is actively making use of our Observability tools to detec
 
 #### Background
 
-The team was building an ETL (Extract, Transform, Load) project with critical performance requirements. A few hours of system delay would create an insurmountable backlog in the ETL process, making performance monitoring essential to business operations. The team was small (9 developers, 2 QA, 1 Ops) and deployed to production every other week, adding a heavy weight process would of introduced a signficant burden. So, we implemented using our existing Observability stack.
+The team was building an ETL (Extract, Transform, Load) project with critical performance requirements. A few hours of system delay would create an insurmountable backlog in the ETL process, making performance monitoring essential to business operations. The team was small (9 developers, 2 QA, 1 Ops) and deployed to production every other week, adding a heavy weight process would of introduced a significant burden. So, we implemented using our existing Observability stack.
 
-#### Observabilty implementation
+#### Observability implementation
 
 We implemented a three-tiered monitoring approach:
 
