@@ -11,7 +11,7 @@ A Customer Success Plan (CSP) is generated from our centralized account planning
 
 1. For the **Customer**: Provides a prescriptive, phased approach to achieve business objectives via the adoption of GitLab, including architecture recommendations, deployment strategy, migration plans, integration approach, and user onboarding at scale.
 
-2. For the **Customer Success Team**: Creates a foundation for the post-sales relationship by documenting objectives, success criteria, and milestones for the next 30, 60, 90 days and beyond.
+2. For the **Customer Success Team**: Creates a foundation for the post-sales relationship by documenting value objectives, success criteria, and milestones for the next 30, 60, 90 days and beyond.
 
 3. For the **Professional Services Team**: Delivers context for scoping Statements of Work (SOW) based on outlined initiatives.
 
