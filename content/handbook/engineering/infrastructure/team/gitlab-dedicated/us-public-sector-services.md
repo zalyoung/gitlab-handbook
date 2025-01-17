@@ -24,8 +24,7 @@ Team performance indicators are not fully defined. We are going to consider a **
 
 ## Team Members
 
-{{< team-by-manager-slug "mckgl
-" >}}
+{{< team-by-manager-slug "mckgl" >}}
 
 ## Working with us
 
