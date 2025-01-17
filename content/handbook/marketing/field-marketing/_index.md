@@ -264,6 +264,14 @@ Please review the [Pathfactory Training](/handbook/marketing/marketing-operation
 
 This section will continue to be fleshed out as we rollout to the global Field Marketing team.
 
+## Asana
+
+The global Field Marketing team is working with the Marketing Operations team to implement [Asana](https://asana.com/) as our new project management tool.
+
+### Asana Handbook Page
+
+- [Asana](/handbook/marketing/marketing-operations/asana/)
+
 ## Process for moving events from Plan to WIP
 
 The following is the process for when a Field Marketing issue moves from `mktg-status::plan` to `mktg-status::wip`.
@@ -282,11 +290,11 @@ Please plan your timelines accordingly based on the below SLAs. Keep in mind the
 
 - The Allocadia sub-category and line item detail panels must be updated and finalized and the FMM will include their correct plan and/or forecast cost(s) in the correct month (according to the [prepaid policy](/handbook/finance/accounting/#prepaid-expense-policy)).
 - The FMM creates the GitLab issue using the `Create/Update Marketing Issue` button in Allocadia.
-- **NOTE:** The FMM will not fill out any additional information in the GitLab issue. All work will be managed in the Asana project.
+- **NOTE:** The FMM will not fill out any additional information in the GitLab issue. All work will be managed in the [Asana](/handbook/marketing/marketing-operations/asana/) project.
 
 ## Moving from Plan to WIP
 
-*Please note that this is an interim process while the Regional Marketing team begins utilizing Asana. Automations are still being implemented, so there will be many iterations to the below instructions as all global teams move to Asana.*
+*Please note that this is an interim process while the Regional Marketing team begins utilizing [Asana](/handbook/marketing/marketing-operations/asana/). Automations are still being implemented, so there will be many iterations to the below instructions as all global teams move to Asana.*
 
 - FMM pings the FMC in the main Field Marketing issue and requests the FMC move the GitLab issue to WIP
 - FMC reviews the Allocadia sub-category and line item panel details, as well as checks that the forecasted cost is in the correct month (according to the [prepaid policy](/handbook/finance/accounting/#prepaid-expense-policy)) for the tactic and makes any changes necessary
@@ -307,7 +315,7 @@ Please plan your timelines accordingly based on the below SLAs. Keep in mind the
 - FMM follows the tasks assigned to them in the project in Asana. Once the FMM completes the `FMC Checklist` and `Ecosystem Involvement` tasks, the FMC will be notified to move the project to WIP.
 - The FMC will then proceed with their tasks in Asana
 
-### Plan to WIP video walk through
+## Plan to WIP Recorded Training 
 
 TBD for new Asana process
 
