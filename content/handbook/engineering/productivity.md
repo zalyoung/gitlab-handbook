@@ -54,7 +54,7 @@ Work with your team to define which metrics will best reflect their contribution
 
 **Measure Value, Not Just Activity**
 
-Track how well your engineers are contributing to the company's value. This includes not just deliverables but also the quality and strategic alignment of those deliverables.
+Track how well your team are contributing to the company's value. This includes not just deliverables but also the quality and strategic alignment of those deliverables.
 
 **Leverage Data to Drive Decisions**
 
