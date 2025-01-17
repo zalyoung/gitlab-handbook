@@ -83,7 +83,6 @@ The last step in the process is to ingest the finished dbt-created, snowflake-ho
 | Iterable      | User Unsubscribed Channel         | iterable_user_unsubscribed_channel_source         | prep_iterable_user              | WIP                  | WIP                            | WIP                             |
 | Iterable      | User Unsubscribed Message         | iterable_user_unsubscribed_message_type_source    | prep_iterable_message_type      | WIP                  | WIP                            | WIP                             |
 
-
 ## Marketing Data Models
 
 All GitLab data models are grouped and categorized in snowflake/dbt through a series of folders and hierarchy. Below are the primary Marketing data models, there folders, links, and descriptions. We've added another lvel of organization, the `Grouping` field, which is a custom grouping of the data models based on their usage and lineage. The list of groupings below, preceding the data model inventory table, will you give you a brief understanding of what each grouping represents. 
@@ -96,7 +95,7 @@ All GitLab data models are grouped and categorized in snowflake/dbt through a se
 | L2R                      | Models built off the Lead to Revenue model. L2R is a consolidation of SFDC PErsons (leads/contacts), Accounts, Opportunities, and Bizible Touchpoints.                         |
 | Marketo                  | Models built off of Marketo source data. These are often used in conjuction with the `L2R` and `Presentation Layer Model` groupings for additional fields and information.     |
 | Presentation Layer Model | Models used in active and public Tableau Dashboards. These models are the most commonly used and presented for analysis.                                                       |
-| [SFDC](/marketing-analytcis-data-sfdc)                     | Models built off of the SFDC Source tables. These are often used in conjuction with the `L2R` and `Presentation Layer Model` groupings for additional fields and information.  |
+| [SFDC](/handbook/marketing/strategy-performance/marketing-analytics-data-sfdc)                     | Models built off of the SFDC Source tables. These are often used in conjuction with the `L2R` and `Presentation Layer Model` groupings for additional fields and information.  |
 | Web                      | Models built to model out web traffic data (top of funnel).                                                                                                                    |
 
 ### Models
