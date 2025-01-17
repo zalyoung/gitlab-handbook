@@ -18,7 +18,7 @@ Our comprehensive, [multi-year product security mission](https://internal.gitlab
 
 ### Product Security Risk Register
 
-Our Product Security Risk Register process details can be consulted on [his dedicated page](/handbook/security/product-security/risk-register/).
+Our Product Security Risk Register process details can be consulted on [this dedicated page](/handbook/security/product-security/risk-register/).
 
 ## Collaboration is Key
 
