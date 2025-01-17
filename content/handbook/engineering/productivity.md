@@ -18,7 +18,7 @@ While MR Rate shows activity — specifically whether an engineer is producing m
 
 **Importance of Context**
 
-Metrics never tell the whole story. Productivity and value cannot be captured by a single metric. For example, senior engineers often engage in activities like mentoring, coaching, and assisting customers. These contributions are vital but hard to quantify using MR Rate.
+Metrics never tell the whole story. Productivity and value cannot be captured by a single metric, especially on an individual level. For example, senior engineers often engage in activities like mentoring, coaching, upskilling, and assisting customers. These contributions are vital but hard to quantify using MR Rate.
 
 **Considerations for Managers**
 
