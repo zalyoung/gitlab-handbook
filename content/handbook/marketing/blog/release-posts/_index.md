@@ -952,13 +952,13 @@ For the subscription tier where the feature is available, use `available_in` wit
 
 Features can be made available on GitLab.com (SaaS), Self-managed GitLab, and GitLab Dedicated using the following fields:
 
-| Field | Description | Default | 
+| Field | Description | Default |
 |----|----|---|
-| `gitlab_com` | Controls availability on GitLab.com. | `true` | 
-| `self_managed` | Controls availability on GitLab Self-Managed. | `true` if the tier contains `core`, `premium`, or `ultimate` | 
-| `gitlab_dedicated` | Controls availability on GitLab Dedicated. | `false` | 
+| `gitlab_com` | Controls availability on GitLab.com. | `true` |
+| `self_managed` | Controls availability on GitLab Self-Managed. | `true` if the tier contains `core`, `premium`, or `ultimate` |
+| `gitlab_dedicated` | Controls availability on GitLab Dedicated. | `false` |
 
-Common scenarios: 
+Common scenarios:
 
 - For features available only on GitLab.com:
 
@@ -976,7 +976,7 @@ Common scenarios:
     gitlab_dedicated: false
   ```
 
-  Or simply: 
+  Or simply:
 
   ```yaml
     available_in: [ultimate]
@@ -991,7 +991,7 @@ Common scenarios:
     gitlab_dedicated: false
   ```
 
-  Or simply: 
+  Or simply:
 
   ```yaml
     available_in: [ultimate]
@@ -1014,7 +1014,7 @@ Common scenarios:
     gitlab_dedicated: true
   ```
 
-###### Legacy configurations using `available_in`
+##### Legacy configurations using `available_in`
 
 NOTE:
 While the following configurations still work for backwards compatibility, we recommend using the explicit offering flags shown above for clearer and more maintainable configuration.
