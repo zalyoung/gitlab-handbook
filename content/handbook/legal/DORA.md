@@ -1,8 +1,8 @@
 ---
-title: DORA Mapping
+title: DORA (Digital Operational Resilience Act) Mapping
 ---
 
-**(How GitLab addresses requirements of the Digital Operational Resilience Act)**
+### How GitLab addresses the key contractual requirements of the Digital Operational Resilience Act
 
 ## Important Notice
 
