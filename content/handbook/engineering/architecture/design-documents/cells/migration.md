@@ -140,7 +140,7 @@ We could move organizations using [Direct transfer](https://docs.gitlab.com/ee/u
 
 ## Migration approaches at different major iterations of Cells
 
-As we build out Cells we need a way to test the functionality at each [major iteration](_index.md#cells-iterations). We want to dog food the new Cells deployment together with Organizations. The first iteration of Cells will have limited functionality therefore, we cannot move all GitLab top-level groups out of the Legacy Cell to another Cell without severly impacting productivity. The following section outlines our approach to moving select top-level groups off the Legacy Cell into another Cell for dog food purposes and how we reconsile the top-level group as the Cells development progresses through the iterations.
+As we build out Cells we need a way to test the functionality at each [major iteration](_index.md#cells-iterations). We want to dog food the new Cells deployment together with Organizations. The first iteration of Cells will have limited functionality therefore, we cannot move all GitLab top-level groups out of the Legacy Cell to another Cell without severely impacting productivity. The following section outlines our approach to moving select top-level groups off the Legacy Cell into another Cell for dog food purposes and how we reconsile the top-level group as the Cells development progresses through the iterations.
 
 We will need to adopt different approaches for each major iteration of the Cells evolution based on which technologies are available at each iteration.
 
