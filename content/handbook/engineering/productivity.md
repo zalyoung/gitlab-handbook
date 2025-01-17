@@ -4,7 +4,7 @@ title: Engineering Productivity
 
 ## Engineering Productivity
 
-GitLab's leadership is committed to fostering an environment where engineers are measured fairly and encouraged to take risks, innovate, and grow. When it comes to measuring productivity, we aim to find metrics that align with our values and help drive meaningful outcomes for the company and our customers.
+Leadership at GitLab is committed to fostering an environment where engineers are measured fairly and encouraged to take risks, innovate, and grow. When it comes to measuring productivity, we aim to find metrics that align with our values and help drive meaningful outcomes for the company and our customers.
 
 Measuring engineering productivity remains a nuanced and complex challenge. While we have historically used various metrics to track productivity, including [Merge Request Rate](https://about.gitlab.com/blog/2020/08/27/measuring-engineering-productivity-at-gitlab/#what-is-mr-rate%3F) (MR Rate), we recognize that these numbers alone are insufficient to fully capture a team or engineer's contribution to the company. In this part of the handbook, we outline various approaches to measuring productivity, the limitations of certain metrics, and how we can better align our performance metrics with GitLab's broader goals.
 
