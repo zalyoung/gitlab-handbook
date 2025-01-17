@@ -89,20 +89,6 @@ EBRs can be flexible to online or onsite. An in-person EBR is ideal to maximize 
 - Enablement sessions aligned with ongoing adoption efforts or future adoption plans.
 - Meetings with customer stakeholders for GitLab use cases to align on use case adoption & value.
 
-## Follow-ups
-
-### Summary Email
-
-Within 1 business day, the CSM sends a follow-up email thanking participants, summarizing key takeaways, action items, and next steps, with assigned responsibilities and deadlines. The email will also include the slide deck and any agreed-upon materials.
-
-### Action Items
-
-Action items and next steps, captured in the EBR deck and discussion, must be promptly addressed. The CSM ensures follow-ups are completed by the responsible parties to maintain momentum.
-
-### Success Planning
-
-No EBR is complete without updating the success plan. Within a few days of the EBR, while information is fresh, the CSM updates the customer’s success plan with the confirmed objectives and action items. All sections of the success plan should be updated based on the EBR discussion & takeaways.
-
 ## FAQ
 
 **Q: Is this EBR just another sales pitch for renewal?**
