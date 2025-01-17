@@ -7,7 +7,7 @@ controlled_document: true
 
 GitLab maintains an industry-leading Third Party Risk Management (TPRM) Program through the use of automation, continuous monitoring, and deep integration across business functions to validate the security of GitLab data shared with external parties.
 
-The integration of GitLab's TPRM program within the vendor Procurement flow enables cross-functional [collaboration](/handbook/values/#collaboration) between Privacy, Legal, IT, and People Operations to facilitate [transparent](/handbook/values/#transparency), risk-based decision making, Business and Stakeholder-focused [Results](/handbook/values/#results), and adherence to GitLab's Regulatory and [Compliance Obligations](/handbook/security/security-assurance/security-compliance/certifications/). The vendor relationships maintained through this program are leveraged to create efficiencies across the organization.
+The integration of GitLab's TPRM program within the vendor Procurement flow enables cross-functional [collaboration](/handbook/values/#collaboration) between Privacy, Legal, IT, and People Operations to facilitate [transparent](/handbook/values/#transparency), risk-based decision-making, Business and Stakeholder-focused [Results](/handbook/values/#results), and adherence to GitLab's Regulatory and [Compliance Obligations](/handbook/security/security-assurance/security-compliance/certifications/). The vendor relationships maintained through this program are leveraged to create efficiencies across the organization.
 
 ## Scope
 
@@ -17,7 +17,7 @@ This procedure applies to all third party providers that access, store, process 
 
 GitLab's Security Third Party Risk Management (TPRM) Program helps guard against security threats posed by third parties who have access to GitLab data or that of our customers. These risks may include data breaches, unauthorized use or disclosure, and corruption or loss of data. Adequate TPRM is a best practice that helps [mitigate security concerns](https://internal.gitlab.com/handbook/leadership/mitigating-concerns/#security-breach) and enables GitLab to meet our contractual obligations. TPRM also enables GitLab to meet regulatory requirements and standards related to ISO, SOX, GDPR and other state and federal laws requiring vendor oversight.
 
-GitLab's Security TPRM program involves three components which are integrated in to our [Procurement](/handbook/finance/procurement/) processes:
+GitLab's Security TPRM program involves three components which are integrated into our [Procurement](/handbook/finance/procurement/) processes:
 
 1. Performing due diligence to ensure the third party implements safeguards to enforce data privacy and security.
     - This activity is performed via our Security Assessment Process.
@@ -85,10 +85,10 @@ The following table defines the procedures followed by TPRM engineers for vendor
 
 | Data<br>Classification | Request | Supplemental<br>Questionnaire | Okta SSO? | New BIA /<br>Tech Stack Entry? | BitSight<br>Review? | Evidence of PenTest<br>and BCP Testing |
 | ------ | ------ |------ |------ |------ |------ | ------ |
-|Red     |3rd Party Attest & [SIG Lite Plus](https://docs.google.com/spreadsheets/d/1wvpY3oF8sG_UbnQzzlbXs85ahsfLiDQp/edit?usp=drive_link&ouid=103289635706160914358&rtpof=true&sd=true) (or equiv)|     Yes|          If applicable|     Yes|    If Applicable | Yes |
-|Orange SaaS Systems or Locally Hosted/Installed Systems with Data Exchange| 3rd Party Attest & [SIG Lite Plus](https://docs.google.com/spreadsheets/d/1wvpY3oF8sG_UbnQzzlbXs85ahsfLiDQp/edit?usp=drive_link&ouid=103289635706160914358&rtpof=true&sd=true) (or equiv)|     Yes|          Yes|     Yes|     Yes | Yes |
-| Orange Individual Use Software* | 3rd Party Attest or [SIG Lite Plus](https://docs.google.com/spreadsheets/d/1wvpY3oF8sG_UbnQzzlbXs85ahsfLiDQp/edit?usp=drive_link&ouid=103289635706160914358&rtpof=true&sd=true) (or equiv) | No | No | No | Yes | No|
-|Orange Professional Services | 3rd Party Attest or [SIG Prof Svcs](https://docs.google.com/spreadsheets/d/1xiReZd5heUl5YVFCqPxEfXJIYlqtz_LS/edit?usp=drive_link&ouid=103289635706160914358&rtpof=true&sd=true)|          N/A|     N/A| N/A|   N/A | N/A|
+|Red     |3rd Party Attestation |     Yes|          If applicable|     Yes|    If Applicable | Yes |
+|Orange SaaS Systems or Locally Hosted/Installed Systems with Data Exchange| 3rd Party Attestation|     Yes|          Yes|     Yes|     Yes | Yes |
+| Orange Individual Use Software* | 3rd Party Attestation or [Self-Attestation] | No | No | No | Yes | No|
+|Orange Professional Services | 3rd Party Attestation or [Prof Svcs SIG](https://docs.google.com/spreadsheets/d/1xiReZd5heUl5YVFCqPxEfXJIYlqtz_LS/edit?usp=drive_link&ouid=103289635706160914358&rtpof=true&sd=true)|          N/A|     N/A| N/A|   N/A | N/A|
 |Yellow/Green     | N/A |  N/A |  N/A |     No | N/A  | N/A  |
 
 *Professional Services vendors utilizing a web-facing application to collect and store GitLab sensitive data are generally treated as an Orange SaaS system.*
@@ -228,11 +228,13 @@ Deficiencies identified are reviewed in the context of the vendor's greater Secu
 
 GitLab obtains and reviews third-party attestations to provide assurance over the design and operating effectiveness of a service provider's internal control environment. These attestations commonly include, but are not limited to, an ISO 27001 certificate or a Service Organization Control (SOC) 2 Type 2 report. Alternate forms of attestations can be leveraged in the absence of these more common documents, though diligence should be performed by the assessor in determining whether the attestation provides sufficient coverage over the control environment and aligns with our assessment criteria.
 
-**ISO 27001:** An ISO 27001 certificate with the accompanying [Information Security Management System (ISMS)](/handbook/security/isms/) scope and [Statement of Applicability (SoA)](https://www.isms.online/iso-27001/iso27001-statement-applicability-simplified/) can be leveraged as evidence of compliance with industry-standard security best practices. The ISMS scope helps ensure that the services provided by the vendor to GitLab are covered by the ISO audit. The SoA provides visibility into the policies and controls that are applied by the organization. A valid ISO 27001 certificate providing coverage over applicable services indicates that an external certifying body has performed testing to validate the design and operating effectiveness of controls related to the management team's continued performance of the following:
+**ISO 27001:** An ISO 27001 certificate with the accompanying [Information Security Management System (ISMS)](/handbook/security/isms/) scope and [Statement of Applicability (SoA)](https://www.isms.online/iso-27001/iso27001-statement-applicability-simplified/) can be leveraged as evidence of compliance with industry-standard security best practices. The ISMS scope helps ensure that the services provided by the vendor to GitLab are covered by the ISO audit, and the SoA provides visibility into the policies and controls that are applied by the organization. A valid ISO 27001 certificate providing coverage over applicable services indicates that an external certifying body has performed testing to validate the design and operating effectiveness of controls related to the management team's continued performance of the following:
 
 - Systematic examination of the organization's information security risks, taking account of the threats, vulnerabilities, and impacts;
 - Design and implementation of a coherent and comprehensive suite of information security controls and/or other forms of risk treatment (such as risk avoidance or risk transfer) to address those risks that are deemed unacceptable; and
 - Adoption of an overarching management process to ensure that the information security controls continue to meet the organization's information security needs on an ongoing basis. ([Source](https://en.wikipedia.org/wiki/ISO/IEC_27001#:~:text=2020.%5B5%5D-,How%20the%20standard%20works,-%5Bedit%5D))
+
+In the event that a vendor provides a valid ISO 27001 certificate but is unable to provide their SoA and ISMS scoping document, we require the completion of a self-attestation such as a SIG or CAIQ to meet our assessment criteria and gain a better understanding of their security environment.
 
 *Be aware that ISO 27001 certificates include an expiration date. Once this date has passed, the certificate is no longer valid and should not be leveraged in our assessment.*
 
@@ -273,7 +275,7 @@ Questions regarding CUECs can be directed to the #sec-assurance channel in Slack
 
 ### The Standard Information Gathering (SIG) Questionnaire
 
-The Security Risk Team leverages the [Standard Information Gathering (SIG)](https://sharedassessments.org/sig/) Questionnaire to gain a more in-depth understanding of a vendor's Security environment beyond what is attained by reviewing a Third-Party Attestation such as an ISO certification or SOC-2 report. Responses within the SIG questionnaire, or an equivalent document such as a CAIQ, should be reviewed alongside the vendor's third-party attestation (if available) and their responses to our Security Questionnaire when assessing the Security environment in place within the service organization.
+The Security Risk Team leverages the [Standard Information Gathering (SIG)](https://sharedassessments.org/sig/) Questionnaire to gain a more in-depth understanding of a vendor's Security environment beyond what is attained by reviewing a Third-Party Attestation such as an ISO certification or SOC-2 report. A self-attestation such as a SIG questionnaire, or equivalent document such as a CAIQ, is required if an individual-use software vendor is unable to provide a valid SOC 2 Type 2 report or an ISO 27001 certificate along with it's Statement of Applicability and ISMS scoping document. Red vendors or Orange SaaS vendors are required to provide a Third-Party Attestation as defined above. The SIG questionnaire is reviewed alongside the responses to our Security Questionnaire when assessing the maturity of a service organization's Security environment.
 
 Security Risk maintains multiple templated versions of the SIG questionnaire for use depending on the product or service being assessed, as some vendors may not have a SIG questionnaire or equivalent to provide. The SIG templates include instructions noting that we only require Inquiry responses within Columns D and E of the main questionnaire tab, as additional requests for information or documentation within the SIG are generally not required. Note that potential fringe cases *could* exist wherein professional discretion may dictate the necessity for additional documentation requests to supplement vendor responses. Further, professional discretion should be applied when making decisions as to which version of the SIG questionnaire should be sent. For cases in which the level of review required is unclear, engineers are encouraged to discuss with the @Security-Risk team in the #Sec-Assurance-Team channel to come to a decision considering factors such as the services offered, data exchanged and the outcome of previous assessments.
 
