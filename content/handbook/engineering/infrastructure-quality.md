@@ -36,7 +36,7 @@ Two distinct groups are responsible for infrastructure at GitLab:
 
 To create an issue, or find how to engage with the related teams you can use the links below:
 
-- [Delivery](https://gitlab.com/gitlab-com/gl-infra/delivery/-/issues/new) - Follow [directions how to reach us urgently](/handbook/engineering/infrastructure/team/delivery/#reaching-our-team)
+- [Delivery](https://gitlab.com/gitlab-com/gl-infra/delivery/-/issues/new) - Follow [directions how to reach us urgently](/handbook/engineering/infrastructure-platforms/gitlab-delivery/delivery/#reaching-our-team)
 - [Reliability](https://gitlab.com/gitlab-com/gl-infra/reliability/-/issues/new?issuable_template=default)
   - You can [read more about how reliability triages issues here.](/handbook/engineering/infrastructure/team/reliability/issues/#issue-board)
 - [Scalability](/handbook/engineering/infrastructure/team/scalability/#working-with-us)

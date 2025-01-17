@@ -562,7 +562,7 @@ When hosting a session, the team member should:
 
 ### Cross-Group Dependencies
 
-Cross-group dependencies may exist as pre-requisites to deliver Package features or bug fixes. Issues to deliver such dependencies are owned by groups that Package depends on, such as [Delivery](/handbook/engineering/infrastructure/team/delivery/) or [Distribution](/handbook/engineering/infrastructure/core-platform/systems/distribution/).
+Cross-group dependencies may exist as pre-requisites to deliver Package features or bug fixes. Issues to deliver such dependencies are owned by groups that Package depends on, such as [Delivery](/handbook/engineering/infrastructure-platforms/gitlab-delivery/delivery/) or [Distribution](/handbook/engineering/infrastructure/core-platform/systems/distribution/).
 
 For discoverability, issues that represent cross-group dependencies should be labeled with `package:cross-group-dependency`. If working on one of these issues, Package engineers should ensure that they are labeled correctly.
 
