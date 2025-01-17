@@ -30,6 +30,7 @@ Risk-based control testing focuses on evaluating the effectiveness of internal c
 While achieving and maintaining certifications for our SaaS platforms remains a core priority of our team, an effective security compliance program must look beyond certifications and audit results. Some of our most sensitive data and critical systems fall outside traditional compliance boundaries. This reality demands that our security policies, standards, and best practices are implemented comprehensively across the enterprise.
 
 With finite resources, we've adopted a risk-based framework to optimize our efforts. This approach enables us to:
+
 - Maintain our certification requirements
 - Ensure proper safeguards for our crown jewels
 - Allocate resources based on actual risk exposure
