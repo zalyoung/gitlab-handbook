@@ -8,15 +8,15 @@ View the [CSM Handbook homepage](/handbook/customer-success/csm/) for additional
 
 ## Overview
 
-An **Executive Business Review (EBR)** is a strategic meeting with stakeholders from both GitLab and the customer. It is an extension of the account planning process and part of the CSM’s regular business rhythm. The EBR Review aims to demonstrate to the customer leadership and stakeholders the value they are receiving in their partnership with GitLab.
+An **Executive Business Review (EBR)** is a strategic partnership meeting where key stakeholders from both organizations assess progress and align on future priorities. Going beyond standard metrics, these sessions focus on measurable business outcomes and return on investment, ensuring the partnership continues to deliver meaningful value.
+The EBR creates a focused environment for customer leadership to share their evolving business objectives while collaboratively developing action plans to achieve them. This approach ensures resources and initiatives remain aligned with what matters most to the customer's success.
 
-The EBR is interactive, with discussions on the customer’s desired business outcomes, ROI metrics, progress against these metrics, and alignment on strategic next steps. The key element of an EBR is providing customer stakeholders the opportunity to speak on what matters to them and creating a success plan to achieve their business goals.
+![EBR One pager](static/images/customer-success/csm/engagement/EBR-One-Pager.png)
 
-## Alignment with Stakeholders: The Importance of the EBR
+## Strategic Alignment with Stakeholders: The Importance of the EBR
 
-The Executive Business Review (EBR) is an essential opportunity to align on strategic goals, assess progress, and plan for future success. It typically brings together both GitLab and customer leadership to ensure mutual understanding and continued collaboration. During regular meetings, introduce the EBR to key customer stakeholders, highlighting its value in driving business outcomes and fostering stronger partnerships.
-
-GitLab encourages participation from decision-makers and influential stakeholders, as their insights and feedback are crucial to a productive EBR. Scheduling can take time, so initiating this discussion at least three months in advance is recommended to ensure availability. After the conversation, provide a follow-up summary outlining the EBR’s purpose and key scheduling details.
+The Executive Business Review brings together leadership teams to strengthen collaboration and drive measurable outcomes. These strategic sessions work best when key decision-makers from both organizations actively participate and share insights.
+Since coordinating executive schedules requires advance planning, begin preparations at least three months ahead. After initial discussions, distribute a brief summary that outlines the session's objectives and logistics. This ensures all participants understand the purpose and can prepare meaningfully for the discussion.
 
 ## Stakeholder Recommendations
 
