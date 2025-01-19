@@ -113,7 +113,7 @@ Whether related to an ongoing incident or not, Infrastructure or Security may as
 
 ### How to Page the CMOC?
 
-The CMOC can be paged during the [incident declaration process](/handbook/engineering/infrastructure/incident-management/#reporting-an-incident). If the CMOC needs to be paged after an incident was created or for any other reason, see the [How to engage the CMOC?](/handbook/engineering/infrastructure/incident-management/#how-to-engage-the-eoc-im-or-cmoc) section of the main incident management handbook.
+The CMOC can be paged during the [incident declaration process](/handbook/engineering/infrastructure/incident-management/#reporting-an-incident). If the CMOC needs to be paged after an incident was created or for any other reason, see the [How to engage the EOC, IM or CMOC?](/handbook/engineering/infrastructure/incident-management/#how-to-engage-the-eoc-im-or-cmoc) section of the main incident management handbook.
 
 ### CMOC Performance Indicators
 
