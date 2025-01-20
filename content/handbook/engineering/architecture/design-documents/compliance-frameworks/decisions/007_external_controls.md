@@ -38,94 +38,12 @@ When the external service reports back inside the timeout we set the status in t
 For the external service to be able to post the requirement control results they have we need to provide APIs to do so.
 This allows external systems to report and query the compliance status of specific project requirements.
 
-#### REST
-
-##### Query
-
-`GET https://gitlab.com/api/v4/projects/control_statuses/:id/`
-
-```plaintext
-curl -X GET \
-  'https://gitlab.com/api/v4/projects/control_statuses/123/' \
-  -H 'Authorization: Bearer glpat-XXXXXXXXXXXXXXXXX' \
-  -H 'Content-Type: application/json'
-```
-
-##### Update
-
-`PUT https://gitlab.com/api/v4/projects/control_statuses/:id/?status=[fail|success]`
-
-```plaintext
-curl -X PUT \
-  'https://gitlab.com/api/v4/projects/control_statuses/123/?status=success' \
-  -H 'Authorization: Bearer glpat-XXXXXXXXXXXXXXXXX' \
-  -H 'Content-Type: application/json'
-```
-
-#### GraphQl
-
-##### Types
-
-```graphql
-type ProjectsComplianceControlStatus {
-  id: ID!
-  status: ComplianceControlState!
-  projectId: ID!
-  namespaceId: ID!
-  complianceRequirementId: ID!
-  createdAt: DateTime!
-  updatedAt: DateTime!
-}
-
-enum ComplianceControlState {
-  FAIL
-  SUCCESS
-  PENDING
-}
-```
-
-##### Query
-
-```grqphql
-query GetProjectsComplianceControlStatus($id: ID!) {
-  complianceStatus(id: $id) {
-    id
-    status
-    projectId
-    updatedAt
-  }
-}
-```
-
-##### Mutation
-
-```graphql
-mutation UpdateProjectsComplianceControlStatus(
-  $id: ID!
-  $status: ComplianceState!
-) {
-  updateComplianceStatus(
-    input: {
-      id: $id
-      status: $status
-    }
-  ) {
-    complianceStatus {
-      id
-      status
-      updatedAt
-    }
-    errors
-  }
-}
-```
-
 ### Auditing
 
 Audit events need to be created for the following events in this workflow:
 
 1. Triggering of messages to external service.
-1. Network timeouts encountered when attempting to message external service.
+1. Non HTTP 2xx statuses encountered when attempting to message external service.
 1. Storing replies from external service.
 1. Defaulting to a failed state when timeout is reached.
 

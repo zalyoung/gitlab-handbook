@@ -143,12 +143,121 @@ Each expression is evaluated to a boolean true or false.
 
 ##### External requirements
 
-The external HTTP/HTTPS URLs for the user's services are stored in the `compliance_requirements` table with
-'external' as the `requirement_type`.
+The external HTTP/HTTPS URLs for the user's external services are stored in the `compliance_requirements_controls` table with
+'external' as the `control_type`(enum). The same table will also store the shared HMAC secret in the `encrypted_secret_token` and `encrypted_secret_token_iv` columns.
 
-We POST the latest project settings to these external services and expect a boolean status as the response.
-Alternatively, we could also create a POST API that can be used to update the status of an external requirement, this would be a
+We POST the latest project settings to these external services and expect a HTTP 2xx status as the response.
+We provide an API endpoint that can be used to update the status of an external requirement, this would be a
 similar to [setting the status of external status checks](https://docs.gitlab.com/ee/api/status_checks.html#set-status-of-an-external-status-check).
+
+The shared HMAC secret must be used to sign the request and also to check the responses. This
+ensures we do not need to use API tokens and complicate role management, while
+still ensuring proper authorization.
+
+###### Report Status API example
+
+**Update status of control**
+
+```bash
+
+timestamp=$(date +%s)
+nonce=$(openssl rand -hex 16)
+path="/api/v4/projects/123/control_statuses/123/"
+data="status=success"
+
+# Create signature string
+sign_payload="${timestamp}${nonce}${path}${data}"
+
+# Generate HMAC signature (sha256)
+signature=$(echo -n "$sign_payload" | openssl dgst -sha256 -hmac "your_shared_secret" -hex | cut -d' ' -f2)
+
+curl -x PUT \
+ "https://gitlab.com/api/v4/projects/123/control_statuses/123/?status=success" \
+ -H "x-gitlab-timestamp: ${timestamp}" \
+ -H "x-gitlab-nonce: ${nonce}" \
+ -H "x-gitlab-hmac-sha256: ${signature}" \
+ -H 'content-type: application/json'
+```
+
+---
+
+**List all controls**
+
+Note: Since each control with `external_url` has it's own shared secret,
+listing all external controls requires use of a GitLab personal access token (glpat/PAT).
+
+```plaintext
+curl -x GET \
+ "https://gitlab.com/api/v4/projects/:id/control_statuses/" \
+  -H 'Authorization: Bearer glpat-XXXXXXXXXXXXXXXXX' \
+  -H 'content-type: application/json'
+```
+
+---
+**GraphQl**
+
+__Types__
+
+```graphql
+type ProjectsComplianceControlStatus {
+  id: ID!
+  status: ComplianceControlState!
+  projectId: ID!
+  namespaceId: ID!
+  complianceRequirementId: ID!
+  createdAt: DateTime!
+  updatedAt: DateTime!
+}
+
+enum ComplianceControlState {
+  FAIL
+  SUCCESS
+  PENDING
+}
+```
+
+**Query**
+
+Note: With PAT.
+
+```grqphql
+query GetProjectsComplianceControlStatus($id: ID!) {
+  complianceStatus(id: $id) {
+    id
+    status
+    projectId
+    updatedAt
+  }
+}
+```
+
+--
+
+**Mutation**
+
+Note: With approriate HMAC headers.
+
+
+```graphql
+mutation UpdateProjectsComplianceControlStatus(
+  $id: ID!
+  $status: ComplianceState!
+) {
+  updateComplianceStatus(
+    input: {
+      id: $id
+      status: $status
+    }
+  ) {
+    complianceStatus {
+      id
+      status
+      updatedAt
+    }
+    errors
+  }
+}
+```
 
 #### Database Schema
 
@@ -294,11 +403,22 @@ This workflow diagram shows the how Compliance Frameworks trigger a configuratio
 
 ```mermaid
 flowchart TD
-    %% Async Job Trigger
     F[User applies Framework to Project] --> G[Schedule recurring Configuration check sync job]
     G --> H[Get all Controls in Framework applied to Project]
     H --> I[Loop through Controls]
-    I --> J{Control has enforcement mechanism?}
+
+    I --> TYPE{Control Type?}
+    TYPE -- Internal --> J{Control has enforcement mechanism?}
+    TYPE -- External & has external_url --> EXT[Post message to external service]
+
+    EXT --> PEND[Set control to pending state]
+    PEND --> WAIT{Wait max 6 hours}
+    WAIT -->|No reply| FAIL[Default to failed]
+    WAIT -->|Got reply| REPLY[Use reply status]
+
+    FAIL --> Q
+    REPLY --> Q
+
     J -- Yes --> K{Associated Policy exists?}
     K -- Yes --> L[Skip Check: Result is Pass]
     K -- No --> M[Check Setting/Policy configured correctly]
@@ -306,7 +426,7 @@ flowchart TD
 
     M --> O[Result: Pass/Fail]
     N --> O
-    O --> Q[Upsert result in DB: project_control_compliance_statuses]@{ shape: cyl }
+    O --> Q[Upsert result in DB: project_control_compliance_statuses]
     L --> Q
     N -- Fail --> S[Insert violation in DB: project_compliance_violations]@{ shape: cyl }
 
