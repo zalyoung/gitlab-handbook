@@ -289,12 +289,12 @@ Prerequisites:
 Cluster Setup:
 
 1. Browse to https://console.redhat.com/openshift/create/rosa/getstarted.
-1. Log in using your Red Hat account. This will take you to the Hybrid Cloud Console. 
+1. Log in using your Red Hat account. This will take you to the Hybrid Cloud Console.
 1. Download and install the ROSA CLI tool for your local OS (step 1).
 1. Login to the ROSA CLI with your Red Hat account token and create AWS account roles and policies as described on the setup page (step 2).
 1. From your laptop, run `rosa create cluster` to start the installation. You will be prompted for quite a few settings - accept the offered defaults for all except the following:
 
-    - `Cluster name` - choose a name for your cluster 
+    - `Cluster name` - choose a name for your cluster
     - `Create cluster admin user` - select Yes
     - `Openshift version` - enter desired OpenShift version
     - `AWS region` - enter desired AWS region
@@ -310,17 +310,17 @@ You can log into the cluster console from the Hybrid Cloud Console by selecting 
 
 But you will need to wait an additional 5-10 minutes for the setup of the default identify provider and TLS certificates to complete and the `cluster-admin` identify provider button to appear first on the login page. If you are only presented with username and password fields to fill in wait a few more minutes and try browsing to the console login page again. 
 
-Once you see the `cluster-admin` button clik on it and you will be prompted for the admin user and password you recorded earlier. You are now logged into the cluster. 
+Once you see the `cluster-admin` button clik on it and you will be prompted for the admin user and password you recorded earlier. You are now logged into the cluster.
 
 #### Accessing the OpenShift cluster from the command line
 
 To access the cluster from the command line you first need to log into it using the `oc` command. From the cluster console, click on the **cluster-admin** drop down at the top right and then on **Copy login command**. You will be prompted to log in as the cluster admin again, and then shown a **Display token** link. Click on the link and copy the `oc login` command that is displayed.
 
-Run the `oc login` command on your laptop with the supplied token - you should then be able to run other commands such as `oc get pods -A`. 
+Run the `oc login` command on your laptop with the supplied token - you should then be able to run other commands such as `oc get pods -A`.
 
 #### Destroying the cluster
 
-ROSA clusters aren't cheap to run and so to reduce AWS costs the OpenShift cluster should be destroyed as soon as it is no longer needed (even if that means building a new one in a couple of days) - this is done from the command line by running `rosa delete cluster --cluster=mycluster`.  
+ROSA clusters aren't cheap to run and so to reduce AWS costs the OpenShift cluster should be destroyed as soon as it is no longer needed (even if that means building a new one in a couple of days) - this is done from the command line by running `rosa delete cluster --cluster=mycluster`.
 
 ### Azure Testing Environment
 
