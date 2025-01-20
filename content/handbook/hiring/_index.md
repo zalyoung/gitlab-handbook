@@ -118,7 +118,6 @@ Please find pages for potential and active applicants below.
 - Know your department before you open your req. If you need to change the department name later, the approval chain will not automatically update. If this happens to you, please contact Enablement.
 - We do not re-open jobs after they have been closed. This is because permissions and approvers may have changed in the time since the job was first closed.
 </details>
-</details>
 
 <details>
 <summary>Post a job in Greenhouse</summary>
