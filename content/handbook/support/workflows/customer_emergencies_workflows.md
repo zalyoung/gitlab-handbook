@@ -43,9 +43,40 @@ An example DRI schedule is below. Note that AMER 2 is DRI for 30 minutes longer 
 - AMER 2 DRI: 14:30pm - 17:30pm EDT
 - AMER 3 DRI: 17:30pm - 20:00 EDT
 
+##### Balancing ticket load while on-call
+
+###### Before On-Call
+
+- 🎫 Maintain your regular workload during the week prior.
+- 📅 Toward the end of the week (Thursday-Friday), look through your queue:
+  - Identify the tickets that will need to be [handed over](https://gitlab.com/gitlab-com/support/support-team-meta/-/issues/6371) (i.e. High priority tickets, high touch tickets, STAR’ed or escalated customers)
+    - Leave the summary you would want to receive
+    - Work with your network/peers/Support Pod to find an Assignee for each of those tickets
+- During the week before you are on-call, discuss tickets that need to be handed over with your manager. Assign these tickets to them to ensure they have a DRI and chat through Next Steps as needed. (It's expected that your Manager will help with finding an Assignee to work on the ticket.)
+  - 🔎 Identify tickets you can reasonably keep during on-call week
+    - 📉Try to enter the on-call week with about ~20% less than the AQC baseline. (Current: 22)
+NOTE: 💡Solving emergency tickets will count towards your AQC
+
+###### During On-Call
+
+- Emergencies are unpredictable, so remember that your main objective this week is to deliver results for customers who contact CEOC
+- 🔥 If one of your assigned tickets gets hot, you can [STAR the ticket](/handbook/support/internal-support/support-ticket-attention-requests.md), or raise attention to a Support Leader who can help
+- Help with the Global queue as you can
+  - Take easy win tickets (i.e. 2FA, Low priority, free user tickets) as you are able
+  - Leave internal notes with next steps on tickets if you cannot take assignment
+  - Pair and participate in Support Pod sessions as you are able
+- 🧠 Remember: your goal this week is to take care of customers who page CEOC
+
+###### Week After On-Call
+
+- Take time off as needed based on how things went that weekend or the previous week
+  - If you plan to take time off, please ensure that you complete any extra steps so that your pending tickets are in good hands 🫶
+- If you had to leave something for later while on-call — do it now
+- Ramp up as quickly as you reasonably can to normal AQC
+
 ### Communicate
 
-When you get an alert, you should immediately use the PagerDuty message in Slack to start a thread and take notes therein. Tag the Customer Success Manager (CSM) - "cc @user" is good enough - if the customer has one (steps [here](/handbook/support/workflows/support-sales-escalations#role-customer-success-manager-csm) for how to identify CSMs). This creates visibility around the situation and opens the door to let the team join in.
+When you get an alert, you should immediately use the PagerDuty message in Slack to start a thread and take notes therein. Tag the Customer Success Manager (CSM)—`cc @user` is good enough—if the customer has one (see [this workflow for how to identify CSMs](/handbook/support/workflows/support-sales-escalations#role-customer-success-manager-csm)). This creates visibility around the situation and opens the door to let the team join in.
 
 Good notes in Slack help others follow along, and help you with your follow-ups after the call.
 
@@ -151,7 +182,7 @@ If at any point you would like advice or help finding additional support, [conta
     - After another 15 minutes without response the bridge will be closed and the ticket will be assigned a `HIGH` priority.
     - Feel free to open a new emergency request if the need arises.
 
-**NOTE:** If you need to reach the current on-call engineer and they're not accessible on Slack (e.g., it's a weekend, or the end of a shift), you can [manually trigger a PagerDuty incident](https://support.pagerduty.com/docs/incidents#section-manually-trigger-an-incident) to get their attention, selecting **Customer Support** as the Impacted Service and assigning it to the relevant Support Engineer.
+**NOTE:** If you need to reach the current on-call engineer and they're not accessible on Slack (e.g., it's a weekend, or the end of a shift), you can [manually trigger a PagerDuty incident](https://support.pagerduty.com/main/docs/incidents#section-manually-trigger-an-incident) to get their attention, selecting **Customer Support** as the Impacted Service and assigning it to the relevant Support Engineer.
 
 #### PagerDuty Status
 
@@ -488,7 +519,7 @@ During an incident:
 
 #### Using Zendesk Bulk Update
 
-[Zendesk Bulk Update](https://support.zendesk.com/hc/en-us/articles/203690866-Managing-tickets-in-bulk#topic_oth_lkp_gk) is a way to mass edit and respond to tickets. During an incident, you can use it to:
+[Zendesk Bulk Update](https://support.zendesk.com/hc/en-us/articles/4408886890906-Managing-tickets-in-bulk#topic_oth_lkp_gk) is a way to mass edit and respond to tickets. During an incident, you can use it to:
 
 - automatically tag tickets
 - send a bulk response

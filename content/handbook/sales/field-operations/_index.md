@@ -27,6 +27,11 @@ The term *"sales"* refers to the Sales Team and *"field"* includes the Customer 
 - [Field Enablement](/handbook/sales/field-operations/field-enablement/)
 - [Channel Operations](/handbook/sales/field-operations/channel-operations/)
 - [Customer Success Operations](/handbook/sales/field-operations/customer-success-operations)
+- [Customer Success Strategy & Analytics](/handbook/sales/field-operations/customer-success-strategy-analytics)
+
+### RSOE Growth & Development
+
+- For guidance and resources on [RSOE Career Growth & Development](/handbook/sales/field-operations/RSOE-G&D)
 
 ### Field Operations Calendar
 

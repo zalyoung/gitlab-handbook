@@ -7,7 +7,7 @@ description: Allocadia is Marketing Performance Management Software.
 
 Say good-bye to multiple spreadsheets, disparate data sets and misaligned marketing plans. The recognized leader in Marketing Performance Management (MPM), Allocadia's budget management and strategic planning platform is the foundation for operational excellence for marketing leaders and their teams. Powered with data-driven insights, marketing leaders can visualize what's working to enable greater planning agility. Learn how to run marketing like a business at Allocadia.com.
 
-💰 Version purchased: [Allocadia Optimize](https://allocadia.com/pricing/)
+💰 Version purchased: [Allocadia Optimize](https://www.uptempo.io/)
 
 🔑 Logins are available for Marketing budget holders
 
@@ -33,11 +33,11 @@ Allocadia integrates with multiple systems described further [below](/handbook/m
 
 ## Partnership with Finance
 
-Marketing and Finance partner together when using Allocadia. The [Marketing Finance handbook](/handbook/finance/financial-planning-and-analysis/marketing-finance/#important-dates) page lists out:
+Marketing and Finance partner together when using Allocadia. The [Marketing Finance handbook](https://internal.gitlab.com/handbook/finance/financial-planning-and-analysis/marketing-finance/#important-dates) page lists out:
 
-1. [Finance Marketing Allocadia Training](/handbook/finance/financial-planning-and-analysis/marketing-finance/#allocadia-training-materials)
-1. [Financial terminology](/handbook/finance/financial-planning-and-analysis/marketing-finance/#finance-terminology) as it relates to your view in Allocadia
-1. [Important dates](/handbook/finance/financial-planning-and-analysis/marketing-finance/#important-dates) to be aware of between finance and marketing
+1. [Finance Marketing Allocadia Training](https://internal.gitlab.com/handbook/finance/financial-planning-and-analysis/marketing-finance/#allocadia-training-materials)
+1. [Financial terminology](https://internal.gitlab.com/handbook/finance/financial-planning-and-analysis/marketing-finance/#finance-terminology) as it relates to your view in Allocadia
+1. [Important dates](https://internal.gitlab.com/handbook/finance/financial-planning-and-analysis/marketing-finance/#important-dates) to be aware of between finance and marketing
 1. And more!
 
 ## Allocadia Internal communication
@@ -360,7 +360,7 @@ As mentioned above, there is a listing of available FY23 SFDC campaigns to choos
 
 In addition, we will be sending over planned amounts into the SFDC Campaign Budget field and actuals will synch nightly. This ONLY happens if the connection is there by having a campaign selected in the `Existing SFDC Campaign` field. If there are multiple line items for a given SFDC campaign, they will be combined for the updated SFDC Campaign Budget, since we use the Allocadia sub-category ID to sync Allocadia to the SFDC campaign.
 
-There may be times when new values for existing fields need to be added to account for changing intiatives. If a new value needs to be added to an existing field that syncs to the SFDC campaign, that value will need to exist in SFDC first. An issue will need to be opened with the Sales Systems team to add the new value. Once the new value exists in SFDC, that matching value can be added in the master settings of Allocadia. 
+There may be times when new values for existing fields need to be added to account for changing intiatives. If a new value needs to be added to an existing field that syncs to the SFDC campaign, that value will need to exist in SFDC first. An issue will need to be opened with the Sales Systems team to add the new value. Once the new value exists in SFDC, that matching value can be added in the master settings of Allocadia.
 
 Full detailed instructions on how to set this synch up, which does have to be done campaign by campaign, can be [found here](/handbook/marketing/marketing-operations/campaigns-and-programs/#marketo-program-and-salesforce-campaign-set-up).
 
@@ -396,7 +396,7 @@ Think of each line item ID as its own budget line. Each Allocadia line item ID w
 
 **Example Event in Allocadia:**
 
-![Example Event](/handbook/marketing/strategy-performance/allocadia/Alloscreenshot.png)
+![Example Event](/images/marketing/strategy-performance/allocadia/Alloscreenshot.png)
 
 In this example, you would use your sponsorship line item ID when submitting your sponsorship contract through Zip. You would then use your swag line item ID when submitting your swag order through Zip. If you used your Navan card for shipping charges and additional booth charges, you would enter those individual line item IDs into Navan when submitting your receipts (see below for more information regarding the new Navan field.)
 

@@ -30,9 +30,9 @@ In this section we list the companies that have been inspired by GitLab with the
    - "What GitLab-proven techniques can you apply to your own organizational transformation? We refined them into a 1-2-3 set of high-level practices applicable to both all-remote and (more likely) hybrid companies who seek to succeed in a work-from-home world."
 1. [City of Boston](https://twitter.com/TheJPHaus/status/1384540010775519232)
    - "Just watched your [live stream about All-Remote](https://youtu.be/q4h75yx_i4o?t=27) and wanted to chime in. I've been stealing pages out of the GitLab handbook heavily for [@CityOfBoston](https://twitter.com/CityOfBoston). Especially the pages on [communication](/handbook/company/culture/all-remote/effective-communication/), [meetings](/handbook/company/culture/all-remote/meetings/), and [roles](/handbook/company/culture/all-remote/hiring/) which are infinitely important in a remote setting."
-1. [Remote](https://www.notion.so/Handbook-a3439c6ccaac4d5f8c7515c357345c11)
+1. [Remote](https://remotecom.notion.site/a3439c6ccaac4d5f8c7515c357345c11)
    - Remote handles international payroll, benefits, taxes, and compliance for businesses big and small. It was founded by a [former GitLab team member](https://www.linkedin.com/in/jobvo/) and uses a public handbook.
-1. [BNP Paribas](https://www.linkedin.com/feed/update/urn:li:activity:6787407510333722624?commentUrn=urn%3Ali%3Acomment%3A%28activity%3A6787407510333722624%2C6787420841140457472%29)
+1. [BNP Paribas](https://www.linkedin.com/feed/update/urn:li:activity:6787407510333722624)
    - "Thanks Flexjob and GitLab for your time! Learning how to work efficiently on [all-remote] was really inspiring. We've learned a lot from your daily practices."
 1. [Upwork](https://www.linkedin.com/posts/haydenlbrown_skip-the-workacation-and-take-the-vacation-activity-6787399956862001152-3-rN)
    - "Skip the workacation and take the vacation! I totally +1 to GitLab's Darren M.'s comment that committing to our team's sanity starts with each of us creating boundaries, particularly in senior leadership. I have actively tried to publicize within my company to promote others to take time off, too."
@@ -45,16 +45,16 @@ In this section we list the companies that have been inspired by GitLab with the
 1. [OpenAI](https://www.youtube.com/watch?v=ExG8_bnIAMI)
    - Sam Altman, CEO of OpenAI, discusses plans to consider a [CEO Shadow program](/handbook/ceo/shadow/) based on GitLab's pioneering approach to the concept.
 1. [Doist](https://doist.com/)
-   - This all-remote company launched [Twist](https://doist.com/blog/twist-mindful-team-communication/), a team communications app. In a series of [Remote Work Guides](https://twist.com/remote-work-guides), Doist cites GitLab in sharing practices around all-remote [hiring](https://twist.com/remote-work-guides/remote-company-setup) and [management](https://twist.com/remote-work-guides/remote-management), as well as mastering [asynchronous communication](https://twist.com/remote-work-guides/remote-team-communication).
+   - This all-remote company launched [Twist](https://twist.com/), a team communications app. In a series of [Remote Work Guides](https://twist.com/remote-work-guides), Doist cites GitLab in sharing practices around all-remote [hiring](https://twist.com/remote-work-guides/remote-company-setup) and [management](https://twist.com/remote-work-guides/remote-management), as well as mastering [asynchronous communication](https://twist.com/remote-work-guides/remote-team-communication).
 1. [Joy Labs](https://joylabs.com/)
-   - This all-remote company is developing communication software, including [Memo](https://memo.com/). GitLab's intentional approach to [informal communication](/handbook/company/culture/all-remote/informal-communication/) was used in [building Joy Labs' company culture](https://www.linkedin.com/posts/joylabs_informal-communication-activity-6599648936762445824-Jd-6/).
+   - This all-remote company is developing communication software, including Memo. GitLab's intentional approach to [informal communication](/handbook/company/culture/all-remote/informal-communication/) was used in [building Joy Labs' company culture](https://www.linkedin.com/posts/joylabs_informal-communication-activity-6599648936762445824-Jd-6/).
 1. Veamly
    - Veamly is a remote-first software firm. CEO Emna G. was inspired GitLab's documented approach to [building company culture](/handbook/company/culture/all-remote/building-culture/), and shared elements that she is implementing in a [GitLab Unfiltered](https://www.youtube.com/channel/UCMtZ0sc1HHNtGGWZFDRTh5A) [Pick Your Brain](/handbook/company/culture/all-remote/pick-your-brain/) video.
-1. [ProxyCrawl](https://proxycrawl.com/)
+1. [ProxyCrawl](https://crawlbase.com/)
    - At ProxyCrawl we are a completely remote company with employees all around the world working from home, co-working spaces, coffee shops, parks, etc. All our products have been created by our remote team. We have faced many of the issues of a worldwide remote team and GitLab handbook has helped us and inspired us to be a greater team. Special mentions to [communication](/handbook/communication/) and [all-remote](/handbook/company/culture/all-remote/guide/) pages.
 1. [Hubstaff](https://twitter.com/TSell89/status/1329372153595117568)
    - "The open source GitLab handbook is why I'm a successful remote worker and leader after a 13 year career in education."
-1. [Clearbit](https://clearbit.com/blog/gitlabs-strategies-remote-first/)
+1. [Clearbit](https://clearbit.com/blog/gitlabs-strategies-remote-first)
    - "As the COVID headwinds continue to push back against a full reopening, now is a good time for CEOs to embrace remote work — and discover how it can make their teams even more effective."
 1. [Tackle](https://twitter.com/johnjahnke/status/1235183028785360897)
    - "[The GitLab all-remote guide] is an amazing resource when you are working through building a remote company. We use it regularly at Tackle. Thanks GitLab for sharing your guide with the community."
@@ -77,21 +77,21 @@ In this section we list the companies that have been inspired by GitLab with the
 1. [Spark'n](https://twitter.com/Snakecharmer/status/1381059849807556609)
    - "Spending a lot of time processing GitLab's rather amazing remote work manifesto/guidebook for use at Spark'n. Really gel with the 100% remote commit for the modern workplace. It's very now and the future. 💯 Unreal `@darrenmurph` and team. 🙌 "
 1. [LogDNA](https://twitter.com/davesteer/status/1382411551718580228)
-   - "Remote-first, remote-biased... inspired by GitLab and other leaders. It started with a great conversation with GitLab CMO Todd Barr who taught me about the remote-first approach and [GitLab Remote Playbook](http://allremote.info/). That helped reinforce how LogDNA creates support structures for remote work and grows its vibrant, values-driven culture."
+   - "Remote-first, remote-biased... inspired by GitLab and other leaders. It started with a great conversation with GitLab CMO Todd Barr who taught me about the remote-first approach and [GitLab Remote Playbook](https://allremote.info/). That helped reinforce how LogDNA creates support structures for remote work and grows its vibrant, values-driven culture."
 1. [AvenueHQ](https://www.linkedin.com/feed/update/urn:li:activity:6788490212684181505?commentUrn=urn%3Ali%3Acomment%3A%28activity%3A6788490212684181505%2C6788494019820318721%29&replyUrn=urn%3Ali%3Acomment%3A%28activity%3A6788490212684181505%2C6788494739487428608%29)
    - "[GitLab's approach to] [values-driven hiring](/handbook/values/#culture-fit-is-a-bad-excuse) reasonated with what we do at AvenueHQ. It was a real lightbulb moment hearing about how planned the 'serendipity' we experience in the office actually is. It made me feel [that] we can [recreate that in a distributed environment](/handbook/company/culture/all-remote/informal-communication/)!"
 1. [Axya](https://www.linkedin.com/posts/karimbesbes_remote-hiring-softwareengineer-activity-6811290725788004352-IVB3)
-   - "Axya ❤️ GitLab's [remote culture](http://allremote.info/)! The GitLab platform is not the only thing we love about GitLab, but also their remote culture. As a remote-first SaaS company, Axya is heavily inspired by the likes of GitLab and Automattic."
+   - "Axya ❤️ GitLab's [remote culture](https://allremote.info/)! The GitLab platform is not the only thing we love about GitLab, but also their remote culture. As a remote-first SaaS company, Axya is heavily inspired by the likes of GitLab and Automattic."
 1. [Assured Information Security](https://www.ainfosec.com/)
    - "As a [predominantly](https://www.ainfosec.com/we-are-in-this-together-ais-response-to-covid-19/) on-premise organization, [Assured Information Security](https://www.ainfosec.com/) is sitting on the shoulder of giants by adapting GitLab [communication practices](/handbook/communication/) and using GitLab technology. The care and expertise is apparent in the [GitLab company values](/handbook/values/), handbook, community, and product, which has allowed us to rapidly [adopt a new way of doing business](/handbook/company/culture/all-remote/hybrid-remote/) and trust we are on a proven path."
-1. [Matter IP](https://www.matter-ip.com/)
-   - "GitLab are real leaders in remote working, which is something essential to our business model but that we felt out of our depth on. The [Remote Playbook](http://allremote.info/) has been a great resource for us to makes sure we approach this in a way that leads to success."
+1. [Matter IP](https://matter-ip.com/)
+   - "GitLab are real leaders in remote working, which is something essential to our business model but that we felt out of our depth on. The [Remote Playbook](https://allremote.info/) has been a great resource for us to makes sure we approach this in a way that leads to success."
 1. [OpenNebula](https://opennebula.io/all-remote-manifesto-opennebula-systems-goes-fully-distributed/)
    - "Inspired by [GitLab and its all-remote movement](/handbook/company/culture/all-remote/), we are adopting a fully distributed work policy to improve talent recruitment and retention, employee wellness, and long-term flexibility, adaptability, and scalability. We are starting a journey to build remote fluency in our organization. In the following months, we will be implementing new operational processes to help our people and organization embrace remote work and the future of living.
 1. [Yembo](https://twitter.com/siddharthm83/status/1446125572036304908)
    - "We are building our own handbook inspired by GitLab. Thank you to the entire GitLab team for open sourcing so much information."
-1. [Synura](https://www.synura.com)
-   - "Founded by a [former GitLab employee](https://twitter.com/j4yav), Synura is a video collaboration app that follows most GitLab remote work practices including a [public handbook](https://www.synura.com/handbook/).
+1. Synura
+   - "Founded by a [former GitLab employee](https://twitter.com/j4yav), Synura is a video collaboration app that follows most GitLab remote work practices including a [public handbook](https://web.archive.org/web/20220809084853/https://www.synura.com/handbook/).
 1. [Gozynta](https://www.gozynta.com)
    - "We were inspired by GitLab to start Gozynta as a remote-first company in 2018.  This model has given us the flexibility to build a great team spread across 5 different countries, and has permitted our founders to move to a new country themselves (something they never imagined being able to do before).  We use GitLab internally to manage our development team, and keep coming back to the GitLab Handbook for additional inspiration on how to run our company better.  Thanks GitLab!"
 

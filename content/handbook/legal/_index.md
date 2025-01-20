@@ -1,11 +1,48 @@
 ---
-title: "Legal & Corporate Affairs"
-description: "Information regarding the Legal & Corporate Affairs Team"
+title: Legal & Corporate Affairs ("LACA")
 ---
 
-Welcome to the Legal and Corporate Affairs Handbook! Use this page to learn more about our team, GitLab policies, and shared processes. Visit the sub-team pages linked below for more detailed information and procedures.
+## Our Mission
 
-**How to Reach Us**
+We leverage our versatile skill sets to drive positive outcomes for GitLab and our customers. Approachable and collaborative, LACA team members are trusted thought partners to our colleagues across GitLab, and facilitate efficient and informed decision making in all areas of the business.
+
+**In short: LACA – We’re your one phone call.**
+
+## Legal & Corporate Affairs Functional Groups
+
+### Commercial
+
+The [Commercial](/handbook/legal/commercial/) group supports GitLab’s go-to-market and procurement functions with knowledge and creativity in advising on contractual and regulatory matters to facilitate customer-centric results in accordance with the Company’s values.
+
+### Corporate & Compliance
+
+The [Corporate & Compliance](/handbook/legal/publiccompanyresources/) group drives strategic results for GitLab via cross-functional relationships to support a climate of principled corporate governance and the company’s culture of compliance.
+
+### Corporate Development
+
+The [Corporate Development](/handbook/acquisitions/) group conducts diligent and thorough analysis to strategically identify, evaluate and execute potential acquisitions to accelerate the product roadmap and advance the company’s competitive position in the market.
+
+### Employment
+
+The [Employment](/handbook/legal/employment-law/) group provides thoughtful, pragmatic recommendations to address complicated employment situations within the legal confines of the many jurisdictions in which GitLab team members reside.
+
+### Environment, Social, and Governance (ESG)
+
+The [ESG](/handbook/legal/esg/) group works cross-functionally to integrate ESG considerations, ESG regulatory compliance, and responsible business practices as part of GitLab’s overarching mission to make our customers successful.
+
+### Privacy and Intellectual Property
+
+The [Privacy](/handbook/legal/privacy/) [and Intellectual Property](/handbook/legal/product/) group enables fast-paced product development within applicable regulatory confines; privacy solutions so customers can confidently co-create in those products; and robust protection of Company IP.
+
+### Risk Management and Dispute Resolution
+
+The [Risk Management and Dispute Resolution](/handbook/legal/risk-management-dispute-resolution/) group directs GitLab’s unified, transparent and ethical approach to defending company interests while resolving disputes should they arise.
+
+### Strategy and Legal Operations
+
+The [Strategy and Legal Operations](/handbook/legal/legalops/) group promotes continued process improvement such that LACA may be efficient and effective in its performance, including procurement of the most suitable tools and technology.
+
+## How to Reach Us
 
 For quick questions that ***do not*** require legal advice, deliverables, or any discussion of confidential information, you can reach out to the GitLab Legal and Corporate Affairs Team in Slack at [#legal](https://gitlab.slack.com/archives/legal). We find this channel best for questions regarding process, who handles what, or how to find certain things if the handbook has not yielded the right result for you after searching. #legal is not a private channel, so your inquiry will be visible to the entire company. One of our Team Members will do their best to answer your question in a timely fashion.
 
@@ -13,47 +50,9 @@ To open a general Legal Issue for questions related to deliverables and non-sens
 
 For sensitive, private, or confidential requests, email [legal_internal@gitlab.com](mailto:legal_internal@gitlab.com).
 
-**Anonymous Internal Ethics and Compliance Reporting**
+## Anonymous Internal Ethics and Compliance Reporting
 
 We take employee concerns very seriously and encourage all GitLab Team Members to report any ethics and/or compliance violations by using [EthicsPoint](https://secure.ethicspoint.com/domain/media/en/gui/74686/index.html). Further details can be found in the [People Group Handbook](/handbook/people-group/) under [How to Report Violations](/handbook/people-group/#how-to-report-violations) and in our [Code of Business Conduct and Ethics](/handbook/legal/gitlab-code-of-business-conduct-and-ethics/).
-
-## Legal and Corporate Affairs Team Functional Groups
-
-### Commercial
-
-The [Commercial Legal Team](/handbook/legal/commercial/) works with our Sales and Partnership Team Members to deliver GitLab software and services. In addition, this team is responsible for reviewing and approving all agreements with regards to the procurement of goods and services. Resources include the [Sales Guide: Collaborating with GitLab Legal](/handbook/legal/customer-negotiations/), Procurement Guide, and other resources which provide how best to engage the Commercial Team, as well as assist in efficiently reaching terms with our vendors, customers and partners, including negotiating terms, and providing business and legal recommendations.
-
-For all questions or requests related to a specific Partner and/or Customer, including non-standard NDA requests, contract review / negotiations and general legal questions, please open a [Legal Request](/handbook/legal/customer-negotiations/#how-to-reach-legal) in SFDC.
-
-For matters opened in GitLab Issues that require the Commercial Legal Team's attention, follow the GitLab Commercial Legal [labeling instructions](/handbook/legal/customer-negotiations/#commercial-legal-issues) to notify the team.
-
-### Corporate
-
-The [Corporate Team](/handbook/legal/publiccompanyresources/) supports the compliance and corporate functions of GitLab, which includes regulatory filings with the U.S. Securities and Exchange Commission, review of internal and external communications with respect to GitLab's SAFE Framework, review and preparation of board and committee materials, general corporate and governance matters, as well as compliance and corporate governance matters for GitLab's direct and indirect wholly owned international and domestic subsidiaries.
-
-### Corporate Development
-
-The [Corporate Development Team](/handbook/acquisitions/) prospects, pursues and integrates acquisitions to accelerate GitLab's roadmap and offer better tools to customers more quickly. For information about GitLab's acquisition strategy and approach, visit the [Acquisitions Handbook](/handbook/acquisitions/).
-
-### Employment
-
-The [Employment Legal Team](/handbook/legal/employment-law/) collaborates with GitLab People Group on a broad range of matters across the entire arc of the employment relationship, from recruiting to onboarding, compensation, performance management, leave management, separation, and where necessary, litigation.
-
-### Environment, Social, and Governance (ESG)
-
-The [ESG Team](/handbook/legal/esg/) creates and maintains GitLab's Corporate Sustainability strategy and programs. This includes ESG disclosures and public ESG reporting, identifying and prioritizing key issues to advance GitLab's social and environmental goals, and creating partnerships with non-profit organizations that support GitLab's values and mission.
-
-### Operations
-
-[Legal Operations](/handbook/legal/legalops/) supports Legal & Corporate Affairs processes with a focus on defining and driving initiatives that improve the team's efficiency and effectiveness. Operations also includes Legal's [Procurement](/handbook/legal/procurement-guide-collaborating-with-gitlab-legal/) function, which reviews purchases made to ensure adequate terms are present for GitLab.
-
-### Privacy, Product, and Trade Compliance
-
-The [Privacy](/handbook/legal/privacy/), [Product](/handbook/legal/product/), and [Trade Compliance](/handbook/legal/trade-compliance/) Team collaborates with all GitLab teams including engineering, security, product, and marketing to provide guidance and direction in a broad range of matters relating to data privacy, open source licensing, intellectual property protection and export compliance.
-
-### Risk Management and Dispute Resolution
-
-The [Risk Management and Dispute Resolution team](/handbook/legal/risk-management-dispute-resolution/) addresses dispute resolution across a wide range of topics, including active claims and disputes, external and internal investigations, subpoenas, and third-party discovery requests.  RMDR also coordinates and collaborates cross-functionally with various GitLab teams to address, manage and mitigate company risk.
 
 ## GitLab Policies
 
@@ -85,9 +84,9 @@ The [Authorization Matrix](/handbook/finance/authorization-matrix/#authorization
 
 ## Non-Disclosure Agreements
 
-Follow the [Non-Disclosure Agreement Process](/handbook/legal/NDA/) to learn how to send an NDA in DocuSign or request an NDA if you do not have DocuSign access.
+Follow the [Non-Disclosure Agreement Process](/handbook/legal/nda/) to learn how to send an NDA in DocuSign or request an NDA if you do not have DocuSign access.
 
-Note that this process is only for standard GitLab NDAs. In the event a non-standard NDA is needed, follow the steps [here](/handbook/legal/NDA/#non-standard-nda-requests).
+Note that this process is only for standard GitLab NDAs. In the event a non-standard NDA is needed, follow the steps [here](/handbook/legal/nda/#non-standard-nda-requests).
 
 ## General Legal FAQs
 

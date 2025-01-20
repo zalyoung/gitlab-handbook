@@ -23,7 +23,7 @@ For testing purposes, all changes are deployed to GitLab.com before being consid
 
 This overview shows how the two processes are connected:
 
-![Deployment and Release process overview](deployment-and-release-process-overview.png)
+![Deployment and Release process overview](/images/engineering/deployments-and-releases/deployment-and-release-process-overview.png)
 
 - [Diagram source](https://docs.google.com/presentation/d/1YRjA1dYCXNXp06VltDYlik1MdFyzUvaeXKk69mMPcA4/edit?usp=sharing)
 
@@ -53,7 +53,7 @@ You can contact the current Release Managers:
 
 We use the `#releases` and `#f_upcoming_releases` channels to discuss and coordinate deployments and releases. Automated deployment status announcements are made to the `#announcements` channel.
 
-If you need to escalate a request, please use the [release management escalation process](/handbook/engineering/infrastructure/team/delivery/#release-management-escalation)
+If you need to escalate a request, please use the [release management escalation process](/handbook/engineering/infrastructure-platforms/gitlab-delivery/delivery/#release-management-escalation)
 
 ### Weekly Delivery Metrics Review
 

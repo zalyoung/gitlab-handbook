@@ -9,7 +9,7 @@ The GitLab Support Team provides technical support to GitLab.com and Self-Manage
 
 | If you are | Your Need | Where You Should Look |
 | ---------- | --------- | --------------------- |
-| A customer, or an advocate for a customer | Technical assistance | Public [Support Page](https://about.gitlab.com/support), which describes the best way to get the help you need and lists GitLab's paid service offerings |
+| A customer, or an advocate for a customer | Technical assistance | Public [Support Page](https://about.gitlab.com/support/), which describes the best way to get the help you need and lists GitLab's paid service offerings |
 | GitLab team member | Technical assistance | [Internal Support for GitLab Team Members page](internal-support) |
 | New Support Team member | Onboarding / Learning | [Support Engineer Responsibilities](/handbook/support/support-engineer-responsibilities) page and [Support Learning Pathways](/handbook/support/training/) |
 | New Support Manager | Onboarding / Learning | [Support Manager Responsibilities](/handbook/support/managers/manager-responsibilities) page and [Support Manager Pathways](/handbook/support/training/#support-manager-onboarding-pathway) |
@@ -141,9 +141,9 @@ for details of the structure of the file.
 
 Information for and about the different parts of the Support Team can be found in the following sections of the Support Handbook:
 
-- [/support/engineering](/handbook/support/engineering/index.html) is content that is for Support Engineers. Think: Zendesk workflows and technical resources.
-- [/support/license-and-renewals](/handbook/support/license-and-renewals/index.html) is content for the Licensing and Renewals Support Engineers and Managers. Think: [customers.gitlab.com](https://customers.gitlab.com) and working with the Fulfillment Product Team.
-- [/support/managers](/handbook/support/managers/index.html) is content that is for Support Managers. Think: how to manage issues, run 1:1s and leadership sync information.
+- [/support/engineering](/handbook/support/engineering/) is content that is for Support Engineers. Think: Zendesk workflows and technical resources.
+- [/support/license-and-renewals](/handbook/support/license-and-renewals/) is content for the Licensing and Renewals Support Engineers and Managers. Think: [customers.gitlab.com](https://customers.gitlab.com) and working with the Fulfillment Product Team.
+- [/support/managers](/handbook/support/managers/) is content that is for Support Managers. Think: how to manage issues, run 1:1s and leadership sync information.
 - [/support/readiness](/handbook/support/readiness/) is the landing page for Support Readiness. Think: how is the support team preparing for X?
   - [/support/support-ops](/handbook/support/readiness/operations/) is content that is for Support Operations. Think: how to change Zendesk forms and fields, and other ops details.
 

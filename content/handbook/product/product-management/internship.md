@@ -22,7 +22,7 @@ Another option is using the table below that will help match mentors and interns
 
 ## Coffee Chat with PM internship Alumni
 
-  Feel free to schedule a coffee chat with any of the [PM internship Alumni](/handbook/product/internship/index.html#alumni). You can review the list of PM internship below. These chats can be helpful when deciding whether to apply to participate or if you're unable to participate but want to hear about the experience and what alumni have learned during their internship.
+  Feel free to schedule a coffee chat with any of the [PM internship Alumni](/handbook/product/internship/#alumni). You can review the list of PM internship below. These chats can be helpful when deciding whether to apply to participate or if you're unable to participate but want to hear about the experience and what alumni have learned during their internship.
 
 ## Planning the internship
 
@@ -48,6 +48,7 @@ Selection of which track to pursue for the internship should be based on the goa
 
 | Start date | End date | Group | Track | Name | Title | Takeaways |
 | ---------- | -------- | ---- | ----- | --------- | --------- | --------- |
+| 2024-08-01 | 2024-10-28 | Secure | Validation | @bskierlak | Customer Success Engineer | Learned about problem validation, created and presented opportunity canvas to PM and Directors of product. Created a framework for friction logs and had internal users complete it to identify product gaps. Conducted competitive analysis and documented inconsistencies within a GitLab subsets of products. |
 | 2023-01-23 | 2023-04-17 | Create | Build | @agulina | Frontend Engineer | Collaborated with engineers in assessing a feature readiness, and prepare strategy, for general availabilty release: verified existing Issues relevance, and created new ones. Went through various steps of PM work: milestone planning, PI review. Participated in discussion with engineers, and Product Designers regarding user journey map. In the last phase on the internship, learned about problem and solution validation. |
 | 2023-02-27 | 2023-05-22 | Verify | Validation | @atanayno | Sr. Support Engineer | Learnt various aspects of PM workflow: milestone planning, PI review, direction update, competitor review, opportunity canvas, release post items & blog posts, customer interviews; worked on the experiment with funnels to encourage upgrade from Premium to Ultimate; explored CI components & catalog, discussed dogfooding of CI components within GitLab. |
 | 2022-03-21 | 2022-06-10 | Foundations | Validation | @m_frankiewicz | Backend Engineer | Practiced qualitative customer interviewing: prepared discussion guide, led 7 customer interviews, documented results in Dovetail. Derived key insights and patterns from customer interviews and surveys' feedback. Created and presented opportunity canvas to the Director and VP of Product. |

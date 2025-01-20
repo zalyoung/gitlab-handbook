@@ -156,7 +156,7 @@ If you're not sure which category your post belongs in, just put a placeholder i
 
 #### Tags
 
-These are included to help readers find similar posts if they are interested in a particular subject. Tags appear at the top of each blog post, and clicking on a tag takes you to [/blog/tags](https://about.gitlab.com/blog/tags.html) where you can view all tagged posts and browse by tag.
+These are included to help readers find similar posts if they are interested in a particular subject. Tags appear at the top of each blog post, and clicking on a tag takes you to the specific `/blog/tags/specific-tag` where you can view all posts with the specified tag.
 
 You can include as many tags as you like, separated by commas. Please only include tags from the following list, and note that they are case sensitive.
 
@@ -230,7 +230,7 @@ We limit media embeds to the following providers:
 
 ### Adding code blocks
 
-Below are the two types of code blocks we commonly use on the blog. Find a number of other options in the [Markdown guide](/handbook/markdown-guide/#code-blocks).
+Below are the two types of code blocks we commonly use on the blog. Find a number of other options in the [Markdown guide](https://about.gitlab.com/community/markdown-guide-middleman/#code-blocks).
 
 #### Inline code
 
@@ -327,11 +327,11 @@ to exemplify your steps `domain.com`, be consistent and keep it `domain.com`, th
 
 #### Embedding videos
 
-Please see the [Markdown Guide](/handbook/markdown-guide/#display-videos-from-youtube) for instructions for embedding videos from YouTube and other sources.
+Please see the [Markdown Guide](https://about.gitlab.com/community/markdown-guide-middleman/#display-videos-from-youtube) for instructions for embedding videos from YouTube and other sources.
 
 #### Embedding tweets or Instagram posts
 
-Please see the [Markdown guide for instructions for embedding posts from social media](/handbook/markdown-guide/#embed-tweets).
+Please see the [Markdown guide for instructions for embedding posts from social media](https://about.gitlab.com/community/markdown-guide-middleman/#embed-tweets).
 
 #### Creating GIFs
 

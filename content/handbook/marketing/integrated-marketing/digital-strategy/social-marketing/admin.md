@@ -139,9 +139,11 @@ See below for code that can be added to the frontmatter of all pages. If you're 
 
 No matter the circumstance, the social team will need a visual asset to accompany our posts. In many cases, it's most effective and time efficient if these images were created with the linked page development and added to the frontmatter before publicizing the link to teams who need to use it for promotional efforts. When there is not an image already embedded in the frontmatter of a page that GitLab owns or operates, the social team can either spend time creating our own images or reject the request. In many cases, it won't be an appropriate use of time for the social team to create our own images.
 
-#### Consider using an existing template in our Canva Enterprise account. These images have been approved to use
+#### Canva Enterprise Account
 
-#### Templates
+Consider using an existing template in our Canva Enterprise account as these images have been approved to use.
+
+##### Templates
 
 - [Generic Website Template](https://www.canva.com/design/DAEefl8BdlA/L27eJQgZuophxErdjRMnDw/view?utm_content=DAEefl8BdlA&utm_campaign=designshare&utm_medium=link&utm_source=sharebutton&mode=preview)
 - [Generic Brand Template](https://www.canva.com/design/DAEexdigCaQ/hd7RR6KYWWWEymV6f8Cy_A/view?utm_content=DAEexdigCaQ&utm_campaign=designshare&utm_medium=link&utm_source=sharebutton&mode=preview)
@@ -283,7 +285,7 @@ Post-Giveaway </summary>
 <li>Winners must sign an Affidavit of Eligibility &amp; Liability, Indemnity, and Publicity Release. Use the &quot;Affidavit of Eligibility - Sweepstakes&quot; template found on the google drive.</li>
 <li>Announce the winners</li>
 </ol>
-<p><a href="https://handbook.gitlab.com/handbook/marketing/brand-and-product-marketing/brand/merchandise-handling/giveaways/">Find out more about the swag giveaways here.</a></p>
+<p><a href="/handbook/marketing/brand-and-product-marketing/brand/merchandise-handling/">Find out more about the swag giveaways here.</a></p>
 
 </details>
 
@@ -412,7 +414,7 @@ All of the following elements should be coming from the team member who is the e
 
 If these elements aren't provided or necessary, the event imagery will be whatever the current GitLab brand profile default is at the time.
 
-[Check out the LinkedIn Events FAQs provided by LinkedIn here.](https://www.linkedin.com/help/linkedin/answer/118926/linkedin-events-organized-by-pages-faqs?lang=en)
+[Check out the LinkedIn Events FAQs provided by LinkedIn here.](https://www.linkedin.com/help/linkedin/answer/a548521/linkedin-events-organized-by-pages-faqs?lang=en)
 
 ### Non-social team admin access to select social channels
 

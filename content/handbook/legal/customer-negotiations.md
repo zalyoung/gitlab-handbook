@@ -35,13 +35,14 @@ The information contained on this page is organized into two distinct categories
 
 **Different situations require different approaches. In the vast majority of cases regarding revenue-related requests, the proper way to engage the Legal team is through Salesforce (SFDC) by creating a legal request per the process below.**
 
-1. Click the "Legal Request" button under the customer's opportunity in SFDC (or at the account level if related to a partner). This enables Legal to gather more information regarding Legal Requests created and the applicable opportunity information. If an opportunity does not exist, please open a $0 opportunity and then create the Legal Request following the steps within this section.
-1. Once the Legal Request is correctly created, the request is logged in a queue where the appropriate Legal team member will assign themselves to the case and will communicatewith originator as applicable.
-1. Step-by-step directions on opening a Legal Request can be found below.
-    - Click "Legal Request" but located at the top of Opportunity SFDC layout.
-    - Choose the correct answers for each field and add details in the "Notes" Section and hit "Save".
-    - Once saved, there will be a new legal request added to the legal queue and the appropriate team member will assign the case to themselves.
-    - The legal request will be reviewed, answered and the originator will be @ mentioned.
+1. Select the "Legal Request" button in the drop down menu at the upper right corner of the customer's opportunity in SFDC (or at the account level if query is related to a partner). If an opportunity does not exist, please open a $0 opportunity and then create the Legal Request from such opportunity, following the steps set out in this section.
+1. Once the Legal Request is correctly created, the request is logged in a queue where the appropriate Legal team member will assign themselves to the case and communicate with the requestor as applicable.
+1. Step-by-step directions on opening a Legal Request is shown in [this video] (https://youtu.be/Zalqiadqwvk), as well as described below.
+    - Select "Legal Request" located at the top of your Opportunity in SFDC.
+    - Choose the most appropriate answers for each field in the drop-down menu, add all relevant detail in the "Notes" Section and upload any related document, then hit "Submit".
+    - Once submitted, a new legal request will be added to the legal team's queue and the appropriate team member will assign the case to themselves to assist you.
+    - You will also receive an automated message via email as well as in the Chatter section of your newly created legal case, which will, depending on the legal request type, outline what documents and/or information the legal team needs to assist you, or points you to resources that might answer your query directly. Please review this message and make sure that all necessary information is provided, and documents are attached.
+    - The legal request will be reviewed, answered and the requestor will be @ mentioned.
     - Once the request is addressed, the legal request will be closed by the legal team member.
     **NOTE: If no Opportunity exists, please create a $0 to open the Legal Request.**
 1. Except for export compliance purposes (see process [here](#export-review-in-sfdc)) do not tag @Legal in SFDC as the entire team gets unnecessarily notified.
@@ -60,7 +61,7 @@ The information contained on this page is organized into two distinct categories
 1. Once the Agreement has been stamped by Legal, follow the [DocuSign Process](/handbook/sales/field-operations/order-processing/#how-to-send-an-order-form-to-the-customer-for-signature-via-docusign) to send the agreement for signature within SFDC.
 1. All Sales Team Members have DocuSign access, please work with Sales Ops for any questions on how to use it. **Please be sure to copy the applicable Legal team member for all fully executed agreements**
 
-Need an NDA signed? Follow the process for [Team Members with DocuSign access](/handbook/legal/NDA/).
+Need an NDA signed? Follow the process for [Team Members with DocuSign access](/handbook/legal/nda/).
 {.h3}
 
 ### How to Get a Data Processing Addendum (DPA) Signed
@@ -119,7 +120,7 @@ With regards to completing RFPs, sometimes referred to as RFIs, RFQs or RFXs, pl
 
 ### Escalation Process
 
-In instances where a customer or a partner has requested material non-standard terms that are not generally accepted, and where the transaction may merit additional consideration, please follow the [Escalation Process Overview](https://internal.gitlab.com/handbook/legal-and-corporate-affairs/legal-commercial/). Included in the overview are the steps required to meet threshold requirements, ensure the matter receives the appropriate level of review, and provide guidance to complete the applicable escalation form(s)
+If a customer or partner has requested material non-standard terms, and the transaction merits additional consideration by GitLab's leadership, please follow the [GitLab Escalation Process](https://internal.gitlab.com/handbook/legal-and-corporate-affairs/legal-commercial/index.html/) (the "Process"). The Process sets forth factors to consider before escalating material non-standard requests to leadership, including initial threshold considerations, ensuring the matter receives the appropriate level of review, instructions on properly documenting the escalation, etc.
 **Note This document is only available for GitLab Team Members.**
 
 ### How to get a Data Processing Addendum (DPA) signed
@@ -149,7 +150,7 @@ Occasionally GitLab will receive a notice from a customer or partner outlining e
 
 ### Legal Commercial Coverage Model
 
-1. Please review the [Legal Coverage Model](https://internal.gitlab.com/handbook/legal-and-corporate-affairs/legal-commercial/) which provides an overview of the GitLab Legal coverage model by region & segment. **NOTE: this is available to GitLab team members only**
+1. Please review the [Legal Coverage Model](https://internal.gitlab.com/handbook/legal-and-corporate-affairs/legal-commercial/index.html/#legal-coverage-model) which provides an overview of the GitLab Legal coverage model by region & segment. **NOTE: this is available to GitLab team members only**
 1. Even though this resource provides individual contact information, please follow the applicable steps to open a Legal Request if you have a need related to a customer.
 1. Please note this model is a guide, as the specific team member assigned will take into consideration current work-flow and subject-matter expertise.
 
@@ -208,7 +209,7 @@ All sales-related requests for a non-standard GTM structure, including pricing a
 
 ### Overview of GitLab Agreements
 
-1. GitLab provides its software (both on-premise and SaaS) pursuant to the GitLab Subscription Agreement, and its professional services pursuant to GitLab Professional Services Agreement. You can find our online versions [here](https://about.gitlab.com/terms).
+1. GitLab provides its software (both on-premise and SaaS) pursuant to the GitLab Subscription Agreement, and its professional services pursuant to GitLab Professional Services Agreement. You can find our online versions [here](https://about.gitlab.com/terms/).
 1. GitLab provides full transparency by including historic versions of the subscription terms. These can be found within the Agreement History section.
 1. The Subscription Agreement is agreed to by either: (i) customer clicking-through when purchasing (or downloading) software via the GitLab website, (ii) referenced in an order form that is signed by a customer, (iii) signing the negotiated subscription agreement, or (iv) passed through via partner if a customer is buying through an authorized partner.
 1. Please note that for a net-new customer that meets the negotiation thresholds, a Legal Request may be opened to request a single agreement that covers both Subscription and Professional Service Terms.
@@ -259,7 +260,7 @@ Why will GitLab not sign a BAA?
 1. The GitLab Data Processing Addendum, usually referred to as the "DPA", can be accessed from the GitLab [Terms of Use page](https://about.gitlab.com/terms/). As stated in the GitLab Subscription Agreement, the terms of the DPA automatically apply to corporate customers.
 1. When asking questions about data privacy, customers may also raise questions about security. Generally, such questions are best directed to the [Field Security Team](/handbook/security/security-assurance/field-security/#contact-the-field-security-team). However, the following resources may be useful prior to contacting the Field Security team:
     -The [Security Practices handbook page](/handbook/security/) gives details about GitLab's organizational security.
-    -GitLab's [Customer Assurance Package](/handbook/security/security-assurance/field-security/customer-assurance-package.html) provides details of GitLab's current security and compliance policies.
+    -GitLab's [Customer Assurance Package](/handbook/security/security-assurance/field-security/customer-assurance-package/) provides details of GitLab's current security and compliance policies.
     -GitLab documentation explaining how to [Secure your application](https://docs.gitlab.com/ee/user/application_security/), [Secure your installation](https://docs.gitlab.com/ee/security/) and the GitLab [permissions guide](https://docs.gitlab.com/ee/development/permissions.html) are useful for helping customers understand steps they can take to secure the personal data processed by GitLab.
 
 ### Contract Lifecycle Management (CLM) Process

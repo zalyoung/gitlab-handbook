@@ -4,7 +4,7 @@ title: Plan:Knowledge Engineering Team
 
 ## Plan:Knowledge team
 
-The Plan:Knowledge team develops [Knowledge Management categories](handbook/product/categories/#knowledge-group):
+The Plan:Knowledge team develops [Knowledge Management categories](/handbook/product/categories/#knowledge-group):
 
 - Wiki
 - GitLab Pages
@@ -43,7 +43,11 @@ It's OK not to take the top item if you are not confident you can solve it, but 
 
 ### Capacity
 
-{{% include "includes/engineering/plan/capacity-planning.md" %}}
+#### Estimating effort
+
+When estimating the effort involved in upcoming work, we use the same approach and numerical scale as other groups in the Plan stage.
+
+{{% include "includes/engineering/plan/estimating-effort.md" %}}
 
 Typically, 3-month rolling average is a good indicator of the team's capacity. Knowledge is a new team and determining capacity will be difficult at the beginning without clear historical data.
 
@@ -170,8 +174,30 @@ are essential. The table below describes these and gives the reason why.
 | Label | Use | Handbook Guidance | DRI |
 |---    | --- | ---               | --- |
 | ~workflow::* | Communicates the current workflow state of an issue. Important for understanding progress & quantifying risk during the course of a milestone. | [Updating Issues Throughout Development](/handbook/engineering/workflow/#updating-issues-throughout-development) | Engineer |
-| ~type::* | Communicates the type of work being done. Used to quantify and report the split of work to roles inside and outside GitLab. | [Work Type Classification](/handbook/product/groups/product-analysis/engineering/dashboards/#work-type-classification) | |
+| ~type::* | Communicates the type of work being done. Used to quantify and report the split of work to roles inside and outside GitLab. | [Work Type Classification](/handbook/product/groups/product-analysis/engineering/metrics/#work-type-classification) | |
 | ~Deliverable/~Stretch | ~Deliverable communicates to customers and stakeholders that we intend to deliver an issue within the assigned milestone. ~Stretch indicates that it might be started during the milestone but is not expected to complete. | [Release Scoping Labels](https://docs.gitlab.com/ee/development/labels/#release-scoping-labels) | Engineering Manager |
+
+#### Async update
+
+We aim to  make the status of each epic and issue clear and easily accessible for our teammates, counterparts and users.
+
+The primary source of truth for this information is the `~workflow::*` label and the health status.
+
+But when the issue spends more than in a week in the `~"workflow::in dev"`, `~"workflow::in review"` or `~"workflow::verification"`
+DRI also leaves an async update on the it using the
+["Knowledge - async update" comment template](https://gitlab.com/groups/gitlab-org/-/comment_templates/1000436).
+
+To keep the track of what issues may need an async update, you can use the following GLQL query:
+
+````markdown
+```glql
+---
+display: list
+fields: title, labels("workflow::*"), healthStatus
+---
+group = "gitlab-org" and assignee = currentUser() and label in ("workflow::in dev", "workflow::in review", "workflow::verification") and opened = true
+```
+````
 
 ### Priority labels
 
@@ -229,5 +255,5 @@ Additional dashboards are available in Grafana that show application performance
 - [#s_plan](https://gitlab.slack.com/archives/s_plan) in Slack
 - [Recorded meetings](https://www.youtube.com/playlist?list=PL05JrBw4t0KouWOCpPdlVZmwr3QCqhQ94)
 - [Retrospectives](https://gitlab.com/gl-retrospectives/plan/issues?scope=all&utf8=%E2%9C%93&state=all&label_name[]=retrospective)
-- [Group Conversations](http://gitlab-org.gitlab.io/group-conversations/plan/) (archive; group conversations now happen at a the
-  [section level](/handbook/company/team/structure/#organizational-structure))
+- [Group Conversations](https://gitlab-org.gitlab.io/group-conversations/plan/) (archive; group conversations now happen at a the
+  [section level](/handbook/company/structure/#organizational-structure))

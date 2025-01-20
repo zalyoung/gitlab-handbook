@@ -10,14 +10,13 @@ Offer enterprise-grade operational experience of GitLab products from streamline
 
 Core Platform focuses on improving our capabilities and metrics in the following areas:
 
-- [Database](/handbook/engineering/infrastructure/core-platform/data_stores/database/)
-- [Database Reliability](/handbook/engineering/infrastructure/core-platform/data_stores/database-reliability/)
+- [Database](/handbook/engineering/infrastructure-platforms/data-access/database-framework/)
+- [Database Reliability](/handbook/engineering/infrastructure-platforms/data-access/database-framework-reliability/)
 - [Distribution:Build](/handbook/engineering/infrastructure/core-platform/systems/distribution/#distribution-build)
 - [Distribution:Deploy](/handbook/engineering/infrastructure/core-platform/systems/distribution/#distribution-deploy)
 - [Geo](/handbook/engineering/infrastructure/core-platform/systems/geo/)
 - [Gitaly](/handbook/engineering/infrastructure/core-platform/systems/gitaly/)
 - [Cloud Connector](/handbook/engineering/infrastructure/core-platform/data_stores/cloud-connector/)
-- [Global Search](/handbook/engineering/infrastructure/core-platform/data_stores/search/)
 - [Tenant Scale](/handbook/engineering/infrastructure/core-platform/tenant-scale/)
 
 ## All Team Members
@@ -48,17 +47,13 @@ The following people are permanent members of teams that belong to the Core Plat
 
 {{< team-by-manager-slug manager="andrashorvath" >}}
 
-### Global Search
-
-{{< team-by-manager-slug manager="cliu" team="Global Search" >}}
-
 ### Cloud Connector
 
 {{< team-by-manager-slug manager="pjphillips" team="Cloud Connector" >}}
 
 ### Tenant Scale
 
-{{< team-by-manager-slug manager="sissiyao" >}}
+{{< team-by-manager-slug manager="nick-nguyen" team="Organizations" >}}
 
 ## Stable Counterparts
 
@@ -124,7 +119,7 @@ List of frontend collaborations:
 | Zack Cuddy | Global Search | [GitLab Chat](https://gitlab.com/groups/gitlab-org/-/epics/10220) | 16.0 | |
 | Zack Cuddy | Tenant Scale | [Migrate user tabs to Vue](https://gitlab.com/groups/gitlab-org/-/epics/9056) | 16.1 | |
 | Zack Cuddy | Tenant Scale | [Organization MVC](https://gitlab.com/groups/gitlab-org/-/epics/10649) | 16.2 - 16.10 | Part-time |
-| Zack Cuddy | Tenant Scale | [Organization MVC](https://gitlab.com/groups/gitlab-org/-/epics/10649) | 16.11 - Present | Full-time |
+| Zack Cuddy | Tenant Scale | [Organization MVC](https://gitlab.com/groups/gitlab-org/-/epics/10649) | 16.11 - 17.7 | Full-time |
 
 The frontend roadmap items above are broken down into specific epics and issues, and they can also be labeled with `Core Platform-FE` tracked in the [Core Platform Frontend Backlog](https://gitlab.com/groups/gitlab-org/-/boards/5604213) board.
 
@@ -132,7 +127,7 @@ The frontend roadmap items above are broken down into specific epics and issues,
 
 Documenting development decisions is another way to increase efficiency.  These decisions can be either in an issue explicitly stating that we will not work on this issue, the product category page for your group or a more formal decision log in your group's section of the handbook.  Whatever your chosen desitination, each group should try to maintain a [single source of truth](/handbook/values/#single-source-of-truth) for the decisions.  A recent example (without mentioning specific product name) had a development team researching an open source product to accelerate development time only to find out later that this research had been previously completed and the product was eliminated from consideration.  If this decision had been discoverable via documentation or issue it would have saved precious development time.
 
-We have started creating decision logs to benefit our internal development team as well as our greater GitLab community.  It is up to each group to determine the best location for decision logs to be discoverable.  For example, the Database team has a decision log for [Sharding GitLab with CitusDB](/handbook/engineering/infrastructure/core-platform/data_stores/database/doc/citus.html) in the Core Platform/Database section of the handbook and a decision log for the [Sharding Working Group](/handbook/company/working-groups/sharding/#outcome---closed) in the working group section of the handbook.
+We have started creating decision logs to benefit our internal development team as well as our greater GitLab community.  It is up to each group to determine the best location for decision logs to be discoverable.  For example, the Database team has a decision log for [Sharding GitLab with CitusDB](/handbook/engineering/infrastructure-platforms/data-access/database-framework/doc/citus/) in the Core Platform/Database section of the handbook and a decision log for the [Sharding Working Group](/handbook/company/working-groups/sharding/#outcome---closed) in the working group section of the handbook.
 
 For issues, a clear decision is when an issue is successfully closed.  However, if an issue is closed because we "won't do it" it may not be immediately clear.  We are adopting the `~won't do` label for those issues.  Often the pattern is to just stash these issues in the `~backlog`.  This can be misleading to those watching the issue and frustrating to the original author, especially if they are a community contributor.  When we apply a `won't do` label to an issue, we are making a clear decision.  If there is no pushback on the `won't do` label then we made the right decision.  If there is pushback and we need to reprioritize the issue, then that is a good outcome as well.
 
@@ -200,7 +195,7 @@ The Core Platform teams leverage the following software or SaaS services to deli
 | Software | Vendor Link | Term    | Renewal Date | Team Impacted | Comments |
 | -----    | -----       | -----   | -----      | -----         | -----    |
 | packagecloud.io | [https://packagecloud.io/](https://packagecloud.io/) | Annual | March 30th | Distribution | Existing vendor, [last renewal issue](https://gitlab.com/gitlab-com/Finance-Division/procurement-team/procurement/-/issues/485), [last renewal PO](https://gitlab.coupahost.com/requisition_headers/618)  |
-| dependencies.io | [https://www.dropseed.io/](https://www.dropseed.io/ ) | Annual | November 1st | Distribution | Existing vendor, [last renewal issue](https://gitlab.com/gitlab-org/distribution/team-tasks/-/issues/514) |
+| dependencies.io | [https://www.dropseed.dev/](https://www.dropseed.dev/ ) | Annual | November 1st | Distribution | Existing vendor, [last renewal issue](https://gitlab.com/gitlab-org/distribution/team-tasks/-/issues/514) |
 | postgres.ai     | [https://postgres.ai/](https://postgres.ai/)     | Annual  | May 28th          | Database     | Existing vendor, [last renewal issue](https://gitlab.com/gitlab-com/Finance-Division/procurement-team/procurement/-/issues/1310) |
 
 ## Lunch and Learns
@@ -227,8 +222,8 @@ To sign up for a month, simply open an MR to the schedule below to add yourself 
 | June  |           |       |          |
 | July  |     @terrichu     |   [Advanced search basics, integration, indexing and search](https://docs.google.com/presentation/d/1Fy3pfFIGK_2ZCoB93EksRKhaS7uuNp81I3L5_joWa04/edit?usp=sharing_)    | https://youtu.be/5OXK1isDaks |
 | August | @sxuereb | [PromQL Basics, Mimir and our exporters](https://docs.google.com/presentation/d/1BhH0Ga_gtwoaiILCQEWYo4XdFidznT5Uk2v6D3QF7hw)       | https://youtu.be/CPo1-__wdh8 |
-| September | @mkaeppler | Life of a Cloud Connector request |          |
-| October |  @bshah11     |    TBD  ||
+| September | @mkaeppler | [Life of a Cloud Connector request](https://docs.google.com/presentation/d/1-T6PNMBFhBJMtfGdfjMsgMcgSHXtLzDd4T8lrTMkDHg/edit#slide=id.g1e546bbceaf_0_1402) | https://youtu.be/DeTh9dhDrnw         |
+| October |  @bshah11     |    Kubernetes Operators for PostgreSQL  ||
 | November |        |       |          |
 | December |        |       |          |
 
@@ -254,7 +249,7 @@ The following conditions are followed when initiating the process:
 
 ## Collaborations and Requests For Help Cross Org
 
-We are piloting a process within Core Platform to standardize how we interact and respond to Collaboration requests from other organizations such as Professional Services or Customer Success Teams. Each team will use a template similar to [this](https://gitlab.com/gitlab-com/geo-customers/-/blob/master/.gitlab/issue_templates/Support%20Request%20-%20Collaboration%20Template.md) where specific information similar to an RFH template is used to help streamline any calls for Product/Engineering to participate in cross group collaborations or customer calls where engineer expertise is required.  
+We are piloting a process within Core Platform to standardize how we interact and respond to Collaboration requests from other organizations such as Professional Services or Customer Success Teams. Each team will use a template similar to [this](https://gitlab.com/gitlab-com/geo-customers/-/blob/master/.gitlab/issue_templates/Support%20Request%20-%20Collaboration%20Template.md) where specific information similar to an RFH template is used to help streamline any calls for Product/Engineering to participate in cross group collaborations or customer calls where engineer expertise is required.
 
 ### Collaboration and RFH Templates
 

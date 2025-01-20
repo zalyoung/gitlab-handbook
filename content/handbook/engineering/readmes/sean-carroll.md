@@ -1,10 +1,12 @@
 ---
 title: "Sean Carroll's Readme"
-job: "Engineering Manager, Source Code"
+description: "Personal readme page for Sean Carroll, Senior Engineering Manager, ModelOps and Custom Models, GitLab"
+job: "Senior Engineering Manager, ModelOps and Custom Models"
 ---
+
 ## Sean Carroll's - README
 
-I'm [Sean Carroll](https://gitlab.com/sean_carroll), Engineering Manager for [Source Code](/handbook/product/categories/features/#createsource-code-group). I have been living in Geneva, Switzerland for a while now. I've also lived in the US, Turkey, Scotland and of course Australia, where I'm from. These experiences have given me a strong understanding of different cultures and work styles.
+I'm [Sean Carroll](https://gitlab.com/sean_carroll), Senior Engineering Manager for [Custom Models Group](/handbook/engineering/development/data-science/ai-powered/custom-models/) and the [ModelsOps Stage](/handbook/engineering/development/data-science/modelops/). I've been fortunate enough to have travelled to 24 countries and have been living in Geneva, Switzerland for a while now. I've also lived in the US, Turkey, Scotland and of course Australia, where I'm from. These experiences have given me a strong understanding of different cultures and work styles.
 
 I studied [Computer Science](https://www.monash.edu/) and later [Business Systems](https://www.vu.edu.au/), and the first half of my career was in [ERP systems](https://en.wikipedia.org/wiki/Enterprise_resource_planning), mostly in a consulting capacity. Since then I have worked at startups and in innovation environments. I have a personal love for Ruby, and am excited to be working at GitLab, on what is probably one of the largest Ruby codebases in the world.
 
@@ -16,7 +18,7 @@ I am rated as a [Campaigner on 16 Personalities](https://www.16personalities.com
 
 ### I work daily on building and maintaining trust
 
-GitLab does not have junior engineers: everyone is intermediate or senior and among the best in the industry. Trusting people and being able to be trusted is crucial to a happy and productive work environment for everyone and it takes continuous work. I am an open person and the GitLab value of [Transparency](/handbook/values/#transparency) comes naturally to me.
+GitLab has amazing engineers and among the best in the industry. Trusting people and being able to be trusted is crucial to a happy and productive work environment for everyone and it takes continuous work. I am an open person and the GitLab value of [Transparency](/handbook/values/#transparency) comes naturally to me.
 
 GitLab is at the forefront of addressing the huge diversity issues in IT. Building a [diverse and inclusive](/handbook/values/#diversity-inclusion) workplace is a critical part of trust-building that all employees can and should participate in.
 
@@ -28,8 +30,8 @@ if a piece of scheduled work can no longer fit into a milestone, call it out.
 ### Keeping an eye on the ball
 
 - The role of the IC is deep focus on difficult technical tasks.
-- My role as a Manager is to focus on the big picture, filter the noise, to work with Product and help prepare the work as achievable pieces, then remove any roadblocks so scheduled work can be merged.
-- Together, we deliver Product.
+- My role as a Engineering Leader is to focus on the big picture, filter the noise, to work with Product and help prepare the work as achievable pieces, then remove any roadblocks so scheduled work can be merged.
+- Together, we deliver Business Results.
 
 ## 1:1s
 
@@ -51,9 +53,9 @@ Please don't hesitate to schedule one with me!
 
 - [MacBook Pro](/handbook/it/end-user-services/onboarding-access-requests/#apple-hardware)
 - Paper notebook, I like [Moleskins](https://www.amazon.com/Moleskine-Classic-Cover-Notebook-Ruled/dp/8883701127)
-- [Fully Standing Desk](https://www.fully.com/en-eu/standing-desks/jarvis/jarvis-hardwood-standing-desk.html)
+- [Fully Standing Desk](https://store.hermanmiller.com/brands-fully)
 - Office chair
-- [Bose 700](https://www.bose.com/en_us/products/headphones/noise_cancelling_headphones/noise-cancelling-headphones-700.html) Noise canceling headphones, essential for deep focus.
+- [Bose 700](https://www.bose.com/c/headphones/noise-cancelling) Noise canceling headphones, essential for deep focus.
 
 I strive to meditate daily for 20 minutes, which has a positive effect on my productivity and general wellness. When working at home it's easy to stay inside all day, so I usually take a short walk around the neighbourhood before starting work.
 

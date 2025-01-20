@@ -8,7 +8,7 @@ Fill out [this Google form](https://docs.google.com/forms/d/e/1FAIpQLSf5yUA-H0RS
 
 | Program Title | Description |
 | ----- | --------------- |
-| **Mentor/Mentee Training** | Completion of the self-paced [How to be a Good Mentor or Mentee](https://www.linkedin.com/learning/how-to-be-a-good-mentee-and-mentor/the-power-of-mentoring?u=2255073) course is **required** of all mentors and mentees. If you prefer text-based learning or don't have a LinkedIn Learning license, you can instead review [these slides]({{< ref "mentor#mentor-and-mentee-training" >}}). We ask that all mentors and mentees also complete the [DIB training certification](https://levelup.gitlab.com/access/saml/login/internal-team-members?returnTo=https://levelup.gitlab.com/courses/dib-training-certification) prior to the start of the program. |
+| **Mentor/Mentee Training** | Completion of the self-paced [How to be a Good Mentor or Mentee](https://www.linkedin.com/learning/how-to-be-a-good-mentee-and-mentor/the-power-of-mentoring) course is **required** of all mentors and mentees. If you prefer text-based learning or don't have a LinkedIn Learning license, you can instead review [these slides]({{< ref "mentor#mentor-and-mentee-training" >}}). We ask that all mentors and mentees also complete the [DIB training certification](https://levelup.gitlab.com/access/saml/login/internal-team-members?returnTo=https://levelup.gitlab.com/courses/dib-training-certification) prior to the start of the program. |
 | **Initial program kickoff** | Async kickoff discussion with mentors and mentees. Participation is **strongly encouraged**. |
 | **Mentorship Sessions** | Mentors and mentees meet sync or async every other week for ~30-minutes for a total 5 months, *(with the option to extend)*. Sessions are led by the mentee and should be focused on specific goals. Participation is **required**.|
 | **Mentor/Mentee Workbook** | [Mentorship resources]({{< ref "mentor#resources" >}}) are available for all mentor/mentee pairs, including suggested articles, strategies for goal setting, and sample meeting agendas. Use of resources is **encouraged**. |
@@ -52,7 +52,7 @@ As a mentor, you benefit from:
 
 - You have been with GitLab for at least 3 months at the time of application
 - You have availability in your schedule to meet sync or async with your mentee on a bi-weekly basis for at least 30 minute meetings for the entire length of the program
-- You intend to make every effort to participate in the async kickoff discussion and will complete the LinkedIn Learning or text-version of the [How to be a Good Mentor or Mentee](https://www.linkedin.com/learning/how-to-be-a-good-mentee-and-mentor/the-power-of-mentoring?u=2255073) course
+- You intend to make every effort to participate in the async kickoff discussion and will complete the LinkedIn Learning or text-version of the [How to be a Good Mentor or Mentee](https://www.linkedin.com/learning/how-to-be-a-good-mentee-and-mentor/the-power-of-mentoring) course
 - You are not on a [Formal Coaching plan]({{< ref "underperformance#options-for-remediation" >}}) or PIP (Performance Improvement Plan)
 - You can complete the [DIB training certification](https://levelup.gitlab.com/access/saml/login/internal-team-members?returnTo=https://levelup.gitlab.com/courses/dib-training-certification) before the program begins
 
@@ -84,7 +84,7 @@ As a mentee, you benefit from:
 - You have been with GitLab for at least 3 months at the time of application
 - You have availability in your schedule to meet sync or async with your mentor on a bi-weekly basis for at least 30 minute meetings for the entire length of the program
 - You are not on a [Formal Coaching plan]({{< ref "underperformance#options-for-remediation" >}}) or PIP (Performance Improvement Plan)
-- You intend to make every effort to participate in the async kickoff discussion and will complete the LinkedIn Learning or text-version of the [How to be a Good Mentor or Mentee](https://www.linkedin.com/learning/how-to-be-a-good-mentee-and-mentor/the-power-of-mentoring?u=2255073) course
+- You intend to make every effort to participate in the async kickoff discussion and will complete the LinkedIn Learning or text-version of the [How to be a Good Mentor or Mentee](https://www.linkedin.com/learning/how-to-be-a-good-mentee-and-mentor/the-power-of-mentoring) course
 - You can complete the [DIB training certification](https://levelup.gitlab.com/access/saml/login/internal-team-members?returnTo=https://levelup.gitlab.com/courses/dib-training-certification) before the program begins
 
 Applications will be prioritized on many points including:

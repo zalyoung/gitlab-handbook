@@ -74,7 +74,7 @@ Feedback from the survey in turn allows Leadership within GitLab to gain insight
 
 ### Survey Confidentiality
 
-In an effort to ensure team member confidentiality is upheld, only managers with >5 respondents will be able to view quantitative results - this is carried across to demographic filtering in teams with population sizes which exceed the minimum too. The survey is wholly administered by Culture Amp on a secure external website and the survey data will not be stored on any local computer. If you'd like to know more, check out CultureAmp's [FAQ guide](https://support.cultureamp.com/hc/en-us/articles/204529829-Survey-participant-FAQs).
+In an effort to ensure team member confidentiality is upheld, only managers with >5 respondents will be able to view quantitative results - this is carried across to demographic filtering in teams with population sizes which exceed the minimum too. The survey is wholly administered by Culture Amp on a secure external website and the survey data will not be stored on any local computer. If you'd like to know more, check out CultureAmp's [FAQ guide](https://support.cultureamp.com/en/articles/7048327-engagement-attributed-survey-guide-for-participants).
 
 ### Survey Participation
 
@@ -172,7 +172,7 @@ In addition to Engagement, we asked questions about other factors regarding our 
 
 All divisions are recommended to create an Epic to store Engagement Survey Action Issues. Every Division should create an Epic that gives an overview of the engagement survey results that includes: highlights, lowlights, recommended actions, and resources. Epics can be created in division issue boards or projects that are applicable to the organization.
 
-In addition, Managers can create an Engagement Survey Action Issue that links to the division wide Epic. In the Issue, managers can link team wide actions to the division. Here is the recommended [action planning tips](https://docs.google.com/document/d/17C41zQRSRBfI-8_mzHYu91svF94b00DMNCfy6gW-hFI/edit#heading=h.cbt5f5ipulcx) for managers. 
+In addition, Managers can create an Engagement Survey Action Issue that links to the division wide Epic. In the Issue, managers can link team wide actions to the division. Here is the recommended [action planning tips](https://docs.google.com/document/d/17C41zQRSRBfI-8_mzHYu91svF94b00DMNCfy6gW-hFI/edit#heading=h.cbt5f5ipulcx) for managers.
 
 #### FY25 Engagement Survey Action Planning Epics
 
@@ -363,9 +363,9 @@ See the [example epics]({{< ref "engagement#taking-action" >}}) from FY22 for in
 
 [Engagement Survey Manager Toolkit - GitLab Learn pathway](https://gitlab.edcast.com/pathways/engagement-survey-manager-toolkit)
 
-[Managers Guide to Taking Action](https://academy.cultureamp.com/hc/en-us/articles/207302419-Manager-s-guide-to-taking-action-on-Engagement-survey-results)
+[Managers Guide to Taking Action](https://support.cultureamp.com/en/articles/7048670-manager-s-guide-to-taking-action-on-engagement-survey-results)
 
-[Take Action with Action Framework](https://academy.cultureamp.com/hc/en-us/articles/115005387945-Take-action-with-action-framework)
+[Take Action with Action Framework](https://support.cultureamp.com/en/articles/7048673-take-action-with-the-action-framework)
 
 ## FY'23 Q2 Pulse Engagement Survey Results
 
@@ -438,7 +438,7 @@ Per CultureAmp's insights related to the Great Resignation, we added questions r
 
 Culture Amp determines which questions are "focus recommendations" based on: impact on overall, favorable score, comparison to benchmarks. [Here](https://support.cultureamp.com/en/articles/7048700-focus-agent-feature-in-survey-analytics) is more information on how Culture Amp determines "focus" recommendations.
 
-"Impact" is a word we use to refer to a statistical technique called a driver analysis. People Intelligence relies on a lot of data and analysis techniques, and one of the most powerful is Driver Analysis. Driver Analysis lets you focus on the most important drivers of outcomes for your culture. The questions that are identified as the top drivers are the questions that are most likely having the biggest impact on Engagement (or whatever measure you have set up as your outcome). So if you were able to improve your scores on these questions, you are likely to improve your Engagement score. You can find more information on how "impact" is determined [here](https://support.cultureamp.com/hc/en-us/articles/208026545-Impact-and-driver-analysis-FAQs).
+"Impact" is a word we use to refer to a statistical technique called a driver analysis. People Intelligence relies on a lot of data and analysis techniques, and one of the most powerful is Driver Analysis. Driver Analysis lets you focus on the most important drivers of outcomes for your culture. The questions that are identified as the top drivers are the questions that are most likely having the biggest impact on Engagement (or whatever measure you have set up as your outcome). So if you were able to improve your scores on these questions, you are likely to improve your Engagement score. You can find more information on how "impact" is determined [here](https://support.cultureamp.com/en/articles/7048590-impact-and-driver-analysis-faqs).
 
 In addition to leveraging insights from our Engagement Survey tool, Culture Amp, the People Group may add in a couple of additional questions particularly relevant to current business priorities, changes, and/or challenges.
 
@@ -466,7 +466,7 @@ Once the GitLab Team Member Engagement Survey has been closed out, reports will 
 
 ##### Timeline for Action Planning
 
-- Each E-Group member will in collaboration with their respective People Business Partner (PBP) to identify one or two acton items to initiate coming out of the results review - these will be tracked and managed within CultureAmp moving forward using the [Action Framework](https://academy.cultureamp.com/hc/en-us/articles/115005387945-Take-action-with-action-framework).
+- Each E-Group member will in collaboration with their respective People Business Partner (PBP) to identify one or two acton items to initiate coming out of the results review - these will be tracked and managed within CultureAmp moving forward using the [Action Framework](https://support.cultureamp.com/en/articles/7048673-take-action-with-the-action-framework).
 - After action items have been identified at the E-Group level, all managers who received an engagement survey result report (AKA: managers with 5+ direct reports who responded to the survey) will also be asked to create an action plan in Culture Amp.
 - A manager may choose to align their action planning to their leader or division or they may choose to add a specific and separate action for their team. This will likely depend on the size/structure of the organization.
 
@@ -492,9 +492,9 @@ See the examples from FY21' for the [Product](https://gitlab.com/gitlab-com/Prod
 
 [Engagement Survey Manager Toolkit - GitLab Learn pathway](https://gitlab.edcast.com/pathways/engagement-survey-manager-toolkit)
 
-[Managers Guide to Taking Action](https://academy.cultureamp.com/hc/en-us/articles/207302419-Manager-s-guide-to-taking-action-on-Engagement-survey-results)
+[Managers Guide to Taking Action](https://support.cultureamp.com/en/articles/7048670-manager-s-guide-to-taking-action-on-engagement-survey-results)
 
-[Take Action with Action Framework](https://academy.cultureamp.com/hc/en-us/articles/115005387945-Take-action-with-action-framework)
+[Take Action with Action Framework](https://support.cultureamp.com/en/articles/7048673-take-action-with-the-action-framework)
 
 ## FY' 22 Q4 Pulse Engagement Survey Results
 

@@ -21,7 +21,7 @@ graph TD
 
 ## **Stage 1:** Submission Handling
 
-We are only able to process Account Deletion and Data Access requests if they are submitted through the official [Personal Data Request form](https://support.gitlab.io/account-deletion/). If a request is received via any other method, we will close it and direct the user to open a request through the form.
+We are only able to process Account Deletion and Data Access requests if they are submitted through the official [Personal Data Request form](https://support.gitlab.io/personal-data-request/). If a request is received via any other method, we will close it and direct the user to open a request through the form.
 
 When a user submits a request through the form, an issue is [automatically created](/handbook/support/readiness/operations/docs/gitlab/account_deletions.md) in the [Personal Account Requests Service Desk](https://gitlab.com/gitlab-com/gdpr-request/-/issues/service_desk), *even for invalid requests*. Comments made in the issue will be emailed to the user. You will communicate with the user through the issue on the progress of their request.
 
@@ -46,7 +46,7 @@ If a request to the [Personal Account Requests Service Desk](https://gitlab.com/
 
   <p>Greetings,</p>
 
-  <p>It looks like you've emailed this request in to us directly. In order for us to best assist you please re-submit this request via our [Personal Data Request form](https://support.gitlab.io/account-deletion/). Doing so will allow us to process your request more quickly and efficiently. This request will now be closed. We eagerly await your resubmission. Thank you!</p>
+  <p>It looks like you've emailed this request in to us directly. In order for us to best assist you please re-submit this request via our [Personal Data Request form](https://support.gitlab.io/personal-data-request/). Doing so will allow us to process your request more quickly and efficiently. This request will now be closed. We eagerly await your resubmission. Thank you!</p>
 
   <p>Regards,</p>
 </details>
@@ -132,7 +132,7 @@ If the user fails to respond within 7 calendar days, close it using the followin
 
   <p>Greetings,</p>
 
-  <p>We have not heard back from you with responses to our verification challenge questions, which are required in order to verify your identity before we process your request. We will now close this request. If you still wish to proceed please feel free to submit a new request via our [Personal Data Request Form](https://support.gitlab.io/account-deletion/).</p>
+  <p>We have not heard back from you with responses to our verification challenge questions, which are required in order to verify your identity before we process your request. We will now close this request. If you still wish to proceed please feel free to submit a new request via our [Personal Data Request Form](https://support.gitlab.io/personal-data-request/).</p>
 
   <p>Regards,</p>
 
@@ -162,6 +162,7 @@ For all other blocked or banned reasons, proceed to [step 2](#step-2-evaluate) f
 ##### **Step 2:** Evaluate
 
 Evaluate the answers to the challenge questions that the user has provided using the [Account Verification](/handbook/support/workflows/account_verification#evaluating-challenge-answers) workflow with a data classification of `RED` along with the [Risk Factor](https://internal.gitlab.com/handbook/support/#risk-factors-for-account-ownership-verification) (GitLab internal) for data and privacy requests to confirm if the verification passes or fails.
+</details>
 
 - If the verification passes, proceed to [**Step 3:** Create Meta Issue](#step-3-create-meta-issue).
 
@@ -345,7 +346,7 @@ Use this workflow for requests to delete user data from Sales or Marketing syste
 1. No confirmation or verification is required for this request type under data privacy laws. Unless the user responds back in the issue that they did not submit the request, proceed with the workflow.
 1. In the [Personal Account Requests Service Desk](https://gitlab.com/gitlab-com/gdpr-request/-/issues/new), create a new confidential issue using the [Deletion Meta Issue - Marketing](https://gitlab.com/gitlab-com/gdpr-request/-/issues/new?issuable_template=Deletion%20Meta%20Issue%20-%20Marketing) template, populating the title with the email address of the original request.
 1. **Follow the instructions in the top of the template**, then complete each step in the issue that begins with `Support Engineer:` in order.
-1. Let the requester know the deletion process is complete by leaving a comment on the original issue with the following snippet. 
+1. Let the requester know the deletion process is complete by leaving a comment on the original issue with the following snippet.
 
 <details>
   <summary markdown="spam">Request Closed - Deletion Complete</summary>
@@ -370,7 +371,7 @@ Use the following workflows based on the type of request submitted.
 
   <p>Greetings,</p>
 
-  <p>We have not heard back from you, which is required in order to validate your email address before we process your request. We will now close this request. If you still wish to proceed please feel free to submit a new request via our [Personal Data Request Form](https://support.gitlab.io/account-deletion/).</p>
+  <p>We have not heard back from you, which is required in order to validate your email address before we process your request. We will now close this request. If you still wish to proceed please feel free to submit a new request via our [Personal Data Request Form](https://support.gitlab.io/personal-data-request/).</p>
 
   <p>Regards,</p>
 </details>
@@ -415,7 +416,7 @@ Use this workflow for data export request submissions. Note that we can only act
     - [Evaluate answers](/handbook/support/workflows/account_deletion_access_request_workflows#step-2-evaluate)
 1. Only if the user passes account validation, start the process to get them project exports.
    1. If the user cannot sign in, export project using [the UI](https://docs.gitlab.com/ee/user/project/settings/import_export.html#export-a-project-and-its-data) or [the API](https://docs.gitlab.com/ee/api/project_import_export.html#schedule-an-export).
-   1. If there are errors, follow [the project exports workflow](/handbook/support/workflows/importing_projects#project-exports). You can also search ZenDesk for examples of past project export tickets from *paid* customers for additional troubleshooting help and ideas.
+   1. If there are errors, follow [the project exports workflow](/handbook/support/workflows/exporting_projects). You can also search ZenDesk for examples of past project export tickets from *paid* customers for additional troubleshooting help and ideas.
 1. Upload the project exports to a new folder in the "Personal Data Requests" shared drive. Share the request specific folder with the user and let them know they should download the files within 7 days.
 1. After 7 days, unshare the request related folder and ask them to confirm they have the files.
 1. Once their issue is resolved, close the issue and apply the `Export Request::complied` label.

@@ -22,7 +22,7 @@ Everyone has unconscious biases, the goal is to bring them to our consciousness 
 
 ### Unconscious Biases to look out for (in ourselves and in others)
 
-- **[Affinity Bias](https://www.futurelearn.com/courses/diversity-inclusion-awareness/0/steps/39958#targetText=Affinity%20bias%20is%20the%20unconscious,differences%20when%20diversity%20is%20present.)**: Biased towards people "who make me comfortable"; Biased against people "who make me uncomfortable".
+- **[Affinity Bias](https://web.archive.org/web/20201025085556/https://www.futurelearn.com/courses/diversity-inclusion-awareness/0/steps/39958)**: Biased towards people "who make me comfortable"; Biased against people "who make me uncomfortable".
 - **[Affective Heuristic Bias](https://en.wikipedia.org/wiki/Affect_heuristic)**: Immediate emotional judgement influenced by superficial traits such as race, gender, age, or names.
 - **Ageism Bias**: The tendency to have adverse feelings/perception about another person based on age.
 - **Authority Bias**: The tendency to attribute greater knowledge to persons in positions of authority than they may actually possess.
@@ -42,7 +42,7 @@ For further reading: Wikipedia has [a comprehensive list of cognitive biases](ht
 Unconscious bias is far more prevalent than conscious prejudice and often incompatible with one's conscious values. Therefore it would be good to have an instrument to detect and fight it.
 The tool that achieved most popularity both in scientific circles and public is the [implicit-association test (IAT)](https://implicit.harvard.edu/implicit/), which is a collaborative research effort between researchers at Harvard University, the University of Virginia, and University of Washington. It is meant to reveal the strength of one's mental association between certain groups of people and certain traits. It is used to investigate biases in racial groups, gender, sexuality, age, and religion, as well as assessing self-esteem.
 
-Though it has some [criticisms](https://qz.com/1144504/the-world-is-relying-on-a-flawed-psychological-test-to-fight-racism/), IAT can jumpstart our thinking about hidden biases:
+Though it has some [criticisms](https://qz.com/1144504/the-world-is-relying-on-a-flawed-psychological-test-to-fight-racism), IAT can jumpstart our thinking about hidden biases:
 
 - Where do they come from?
 - How do they influence our actions?
@@ -96,10 +96,10 @@ On 2020-06-24 we held three Live Learning sessions to cover how to recognize bia
 
 ### External resources
 
-- [Teaching Tolerance](https://www.tolerance.org/professional-development/test-yourself-for-hidden-bias)
-- [Diversity and Outreach, UCSF](https://diversity.ucsf.edu/resources/unconscious-bias)
+- [Teaching Tolerance](https://www.learningforjustice.org/professional-development/test-yourself-for-hidden-bias)
+- [Diversity and Outreach, UCSF](https://diversity.ucsf.edu/programs-resources/training/unconscious-bias-training)
 - [The Guardian: Unconscious bias: what is it and can it be eliminated?](https://www.theguardian.com/uk-news/2018/dec/02/unconscious-bias-what-is-it-and-can-it-be-eliminated)
 - [Wikipedia: IAT](https://en.wikipedia.org/wiki/Implicit-association_test)
-- [The world is relying on a flawed psychological test to fight racism](https://qz.com/1144504/the-world-is-relying-on-a-flawed-psychological-test-to-fight-racism/)
-- [How to reduce unconscious bias at work](https://lattice.com/library/how-to-reduce-unconscious-bias-at-work)
-- [Affinity bias](https://www.futurelearn.com/courses/diversity-inclusion-awareness/0/steps/39958#targetText=Affinity%20bias%20is%20the%20unconscious,differences%20when%20diversity%20is%20present.)
+- [The world is relying on a flawed psychological test to fight racism](https://qz.com/1144504/the-world-is-relying-on-a-flawed-psychological-test-to-fight-racism)
+- [How to reduce unconscious bias at work](https://lattice.com/articles/how-to-reduce-unconscious-bias-at-work)
+- [Affinity bias](https://web.archive.org/web/20201025085556/https://www.futurelearn.com/courses/diversity-inclusion-awareness/0/steps/39958)

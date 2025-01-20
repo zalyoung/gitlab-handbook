@@ -23,10 +23,10 @@ This chart reflects the available signatories for each of GitLab's entities. The
 |-------- | -----|
 | GitLab Inc | All Recruiting Leads (Jake Foster, Marissa Farris), Jess Dallmar, Rob Allen, Other People Group Team Members who are employed by Inc. and of the appropriate grade to sign the document. JCLs can be signed by Morgan Wilkins  |
 | GitLab Federal LLC    |       Bob Stevens     |
-| GitLab BV Belgium, Dutch & English | Marissa Farris, Pattie Egan|
-| GitLab BV, Netherlands | Marissa Farris & Pattie Egan|
+| GitLab BV Belgium, Dutch & English | Marissa Farris, Jake Foster & Pattie Egan|
+| GitLab BV, Netherlands | Marissa Farris, Jake Foster & Pattie Egan|
 | GitLab Canada Corp | Simon Mundy |
-| GitLab France S.A.S. | Rob Allen & Pattie Egan & Jake Foster|
+| GitLab France S.A.S. | Jake Foster, Pattie Egan, & Rob Allen |
 | GitLab GK, Japan | Jess Dallmar, Rob Allen & Jack Connors Backup: Simon Mundy|
 | GitLab GmbH | Marissa Farris, Rob Allen & Pattie Egan|
 | GitLab Iberia S.L (Spain) | Jake Foster, Rob Allen, Pattie Egan. Backups: Jim Gladen & Simon Mundy |
@@ -36,8 +36,8 @@ This chart reflects the available signatories for each of GitLab's entities. The
 | GitLab PTY Ltd, Australia | Jess Dallmar & Rob Allen, Jack Connors. Backup: Jim Gladen|
 | GitLab PTY Ltd, New Zealand | Jess Dallman & Rob Allen, Jack Connors. Backup: Jim Gladen|
 | GitLab South Korea | Jess Dallmar, Jack Connors & Rob Allen |
-| GitLab Singapore PTE. LTD. | Jess Dallmar & Rob Allen. Backup: Simon Mundy |
-| GitLab UK Ltd | Marissa Farris, Rob Allen, Pattie Egan|
+| GitLab Singapore PTE. LTD. | Jess Dallmar, Jack Connors & Rob Allen. Backup: Simon Mundy |
+| GitLab UK Ltd | Marissa Farris, Jake Foster, Rob Allen, Pattie Egan|
 | JCLs | Choose signatory from the list above. For the US, Morgan Wilkins can also sign. |
 | PEOs | The Candidate Experience Specialist processing the offer. For JCLs, choose Morgan Wilkins or Marissa Farris |
 
@@ -253,7 +253,7 @@ There are certain times when a contract needs to get resent to the candidate aft
 1. If the req is already closed, tag the Enablement team in the greenhouse profile explaining the situation and that the req needs to be reopened to resend a contract.
 1. Unhire the candidate in Greenhouse. (If the position is Closed, Enablement will need to assist with this step).
 1. Resend the correct contract and follow standard steps for doing this.
-1. Once you receive the contract back, **before** marking the candidate as hired in Greenhouse - ping the People Connect team in the `#peopleop-alerts-private` slack channel and explain exactly what the change was. The updated details will not update Workday (or BambooHR, if applicable) and will need to be manually corrected by the People Connect Team.
+1. Once you receive the contract back, **before** marking the candidate as hired in Greenhouse - ping the People Connect team in the `#peopleop-alerts-private` slack channel and explain exactly what the change was. The updated details will not update Workday and will need to be manually corrected by the People Connect Team.
 1. Upload the new contract to their Workday profile.
 1. Ping the People Connect Team and let them know the contract has been updated and the details in Workday can be corrected.
 
@@ -284,7 +284,7 @@ If an amendment needs to be made and the previous contract was never active, the
 - Ask People Connect in the `people-exp_ces` Slack channel to delete the previous contract from Workday.
 - Upload the updated contract in the Documents section of the team member Workday profile, using the 'Contracts and Changes' document category.
 
-*Note: It is essential that People Connect Team members are informed of all changes, as various fields must be updated in BambooHR.*
+*Note: It is essential that People Connect Team members are informed of all changes, as various fields must be updated in Workday.*
 
 ### Amendments to contracts for new hires with planned relocations
 
@@ -334,12 +334,11 @@ A contractor requests a modification to their contract due to a name change/comp
 
 If for some reason a candidate declines an offer after they have been hired into the system, whoever receives that information needs to make sure `@ces` is tagged in the Greenhouse profile and is made aware that the candidate will no longer be starting at GitLab. Please note that the steps below are assuming that the person will not be working for GitLab; if you are hoping to just amend their offer after they've been marked as hired, please view the Resend process above.
 
-If they have been hired in Greenhouse and exported to BambooHR and Workday, the team will need to follow these steps:
+If they have been hired in Greenhouse and exported to Workday, the team will need to follow these steps:
 
 1. Unhire the candidate in Greenhouse if the req is still open by clicking the "unhire" button on the candidate's offer. If the req is closed, ask Enablement to unhire.
 1. Ask the Recruiter to reject them in Greenhouse; add reasons in notes, you may add the email that was sent by the candidate. Click 'reject and don't send email'.
 1. Cancel any scheduled emails in Greenhouse.
-1. Tag the VP, People Operations in the `#people-group-confidential` Slack channel and ask to remove the profile from BambooHR and @ mention the People Connect team for visibility. Only a BambooHR owner (at GitLab this is the VP, People Operations) can remove the profile, this is why this step is so important. Note: This isn't a typo---BambooHR is still collecting profiles even though we have migrated to WorkDay.
 1. If they were hired via a PEO, inform the contact person at the PEO of this change immediately, ideally before onboarding starts. If they are in a country that uses outside payroll, we will need to inform the payroll company as well.
 1. Message IT, People Connect, and the Sr. Background Check Specialist in the #peopleops-alerts-private channel to let them know to cancel any laptop orders, onboarding issues, background checks, and remove from Workday.
 1. If the Recruiter has not already tagged the FP&A approver in the Greenhouse notes, please tag them to let them know that the candidate has withdrawn.
@@ -366,7 +365,7 @@ If the team member is making a lateral move where there is no change in compensa
 
 When generating a job change letter for a PEO, the steps remains the same as outlined below. However, select the JCL template that does not include RSUs, and send the RSU details via DocuSign email.
 
-The Candidate Experience Specialist needs to merge any additional candidate profiles before marking as hired. If the profiles are not merged, it will create a duplicate and mess with the employment bot sync to Workday & BambooHR. The signed letter is uploaded into Workday under the Contracts and Changes folder on the Documents Tab by the Total Rewards Analyst.
+The Candidate Experience Specialist needs to merge any additional candidate profiles before marking as hired. If the profiles are not merged, it will create a duplicate and mess with the employment bot sync to Workday. The signed letter is uploaded into Workday under the Contracts and Changes folder on the Documents Tab by the Total Rewards Analyst.
 
 When an internal transition is taking place and the start date for that JCL is amended, please ensure to update the People Connect team via Slack in the `#people-connect_ces` channel of the new start date.
 
@@ -378,11 +377,10 @@ CES: Follow the instructions below on how to create and send a job change letter
 1. The signatory matches the appropriate entity. If the candidate is located in the US (including Federal), Morgan Wilkins can be a signatory. If the candidate is employed through a PEO, Morgan Wilkins and Marissa Ferber can be signatories (this process is subject to change)
 1. Next, Click Generate
 1. Select Job Change Letter template in Greenhouse:
-    - Job Change Letter w/ OTE (US ONLY!)
-    - Job Change Letter w/ no OTE (US ONLY!)
+    - Job Change Letter - OTE/with RSU's
+    - Job Change Letter - No OTE/with RSU's
     - Job Change Letter w/ OTE, no RSU's
     - Job Change Letter, No OTE, No RSU's
-    - **Special Note: Please ensure you are using the bottom two templates ONLY for NON US JCLs!**
 
 JCLs should be treated like contracts, where RSUs are only features in US ones and all other countries should have text within the DocuSign email instead.
 
@@ -491,7 +489,7 @@ Once this information has been received, please go onto GH and follow the steps 
 
 ## CXC (NOTE: HIRING IS CURRENTLY PAUSED HERE: Please speak with Enablement before sending offer letters)
 
-GitLab is working in partnership with [CXC Global](http://cxcglobal.com/) to employ GitLab team-members located in **Poland**, **Ukraine**, **Romania**, **Russia**, **Serbia**, & **Slovenia**. The actual employment contracts will be sent and issued by CXC and are in accordance with local labor law. CXC also handles the processing and payment of payroll and associated taxes and compliance in each of the countries on behalf of GitLab. The contracts themselves are between the individual and CXC.
+GitLab is working in partnership with [CXC Global](https://www.cxcglobal.com/) to employ GitLab team-members located in **Poland**, **Ukraine**, **Romania**, **Russia**, **Serbia**, & **Slovenia**. The actual employment contracts will be sent and issued by CXC and are in accordance with local labor law. CXC also handles the processing and payment of payroll and associated taxes and compliance in each of the countries on behalf of GitLab. The contracts themselves are between the individual and CXC.
 
 CXC provides a 12 month contract in these locations, and this can be extended. They are only able to support contractors that have an established entity/company in these countries (listed above). The offer details will be provided to CXC by GitLab's hiring team.
 
@@ -577,7 +575,7 @@ GitLab is working in partnership with Global Expansion to employ GitLab team-mem
 
 ## Preparing Employment Agreements for GitLab team members employed via Global Upside
 
-GitLab is working in partnership with [Global Upside](https://globalupside.com) for employing GitLab team-members located in:
+GitLab is working in partnership with [Global Upside](https://www.safeguardglobal.com/) for employing GitLab team-members located in:
 
 - India
 
@@ -675,10 +673,7 @@ Kindly note the following when filling in this section:
 | Country | Benefit plan |
 |---------|--------------|
 | Denmark | Standard |
-| Austria | None |
 | Hungary | Standard |
-| Mexico | Allowance |
-| South Africa | Allowance |
 | Luxembourg | Premium |
 | Brazil | Omint Plan (should be added for you) |
 | Italy | Premium |
@@ -767,31 +762,14 @@ Once the Labor Contract has been signed by both CIIC and the new hire the indivi
 
 ## Employment Agreements for GitLab team members in Germany
 
-According to the revised German Contract process, contracts require wet signatures, which means that besides contracts being e-signed in Docusign, GitLab also requires physical copies of the contract to be signed by both parties.
-
-To initiate the process to submit the contract for e-signatures via DocuSign:
+From 1 January 2025, the wet-ink signature requirement in Germany has been removed, so that offers can be issued with e-signature via DosuSign (steps set out below).
 
 1. CES will ensure that the start date is either a Monday, or the 1st or 16th of the month
-1. CES will send the German Contract Step 1 template email via Greenhouse
-1. The offer can be sent through Greenhouse and DocuSign. Please use the signatories listed against the German Entity as per this [table](/handbook/hiring/talent-acquisition-framework/ces-contract-processes/#entity-contract-signatories)]
-1. Download a copy of the unsigned contract onto your desktop from Greenhouse.
+1. Please use the signatories listed against the German Entity as per this [table](/handbook/hiring/talent-acquisition-framework/ces-contract-processes/#entity-contract-signatories)] 
+1. Send the offer through Greenhouse and DocuSign. Use the "send through Docusign" template and add the RSU information into the body of the email. 
 1. Initiate the background check. Please use the Germany Package from the drop down in Sterling.
 
-**Once the Contract has been e-signed via DocuSign by both parties, please follow the steps below on how to send the contract in PDF format to the German counsel**
-
-Please follow the outlined steps below before sending the unsigned copy of the Contract to the Counsel:
-
-- Open the saved unsigned contract in Google Drive, remove GitLab signatory from the below fields -
-    1. **Summary Key of Terms** - Delete the GitLab Signatory's name and leave the field blank.
-    1. **Scroll down to the end of the contract** - replace Signatory's name with "GitLab Signatory". Save the contract as a PDF format.
-- To send the contract out to the German Counsel, CES can follow the below email structure through Gmail:
-  - **To (recipients)**-  Thomas.Leister@osborneclarke.com & julia.bauer@osborneclarke.com
-  - **Subject line**  : Please Send Physical Contract for "Name of the new hire"
-  - **Body of the email** : Expand the Text expander snippet "GCtogermancounsel"
-  - **Attachment** : CES to attach the unsigned PDF contract
-- In order to inform the candidate regarding the physical copies sent out via post, go to the Greenhouse profile of the ​​candidate, using the "email the "candidate name" function, select the template "German Contract already sent to counsel".
-- A welcome email should be sent to the candidate, and they should be marked as hired as per the normal hiring process.
-- Once the candidate has confirmed that they have received the physical contract in mail. CES will send the email template "German Contract step 2" to the candidate and close out the issue.
+Candidates in Germany have the right to ask for a wet signature contract.  (Process to be added)
 
 ## Employment Agreements for GitLab team members in Japan
 

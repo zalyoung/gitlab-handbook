@@ -9,7 +9,7 @@ Experimentation allows us to learn and give the right experiences to our Custome
 
 For example, here are a couple of commonly made mis-steps while conducting experiments which can lead to inaccurate conclusions and decisions:
 
-1. Peeking (article [here](https://gopractice.io/blog/peeking-problem/)): If we do not lock down the testing time period ahead of time, we end up with the peeking problem where we have side effects from checking the results and taking action before the A/B test is over. The more often you look at the intermediate results of the A/B testing with the readiness to make a decision, the higher the probability is that the criterion will show a statistically significant difference when there is none.
+1. Peeking (article [here](https://gopractice.io/data/peeking-problem/)): If we do not lock down the testing time period ahead of time, we end up with the peeking problem where we have side effects from checking the results and taking action before the A/B test is over. The more often you look at the intermediate results of the A/B testing with the readiness to make a decision, the higher the probability is that the criterion will show a statistically significant difference when there is none.
     1. 2 peeking cases double the p-value;
     2. 5 peeking sessions increase the p-value by a factor of 3.2;
 2. Simpson's Paradox: This can occur when we change the test group allocations in a disproportionate manner mid-test-flight. The latent segments in the test groups change their proportions when we change allocation percentages, inserting error into the results. More formally, [Simpson's Paradox](https://plato.stanford.edu/entries/paradox-simpson/) is a statistical phenomenon where an association between two variables in a population emerges, disappears or reverses when the population is divided into subpopulations.
@@ -235,7 +235,7 @@ Based on initial feedback and observations on current experiment platform capabi
 
 - [Growth Experiments page:](/handbook/marketing/growth/)<span style="text-decoration:underline;"> </span>Growth is already documenting experiment results in a centralized page.
 - [7 Step A/B testing process](https://web.archive.org/web/20210731123605/https://blog.optimizely.com/2016/08/10/7-step-ab-testing-process/) Need to invest time on planning, Design and QA
-- [A/B testing for a low traffic website](https://blog.optimizely.com/2016/05/17/ab-testing-for-low-traffic-websites/)
+- [A/B testing for a low traffic website](https://www.optimizely.com/insights/blog/ab-testing-for-low-traffic-websites/)
 - [Importance of test planning](https://optinmonster.com/ab-testing-best-practices/)
 
 ### <span style="text-decoration:underline;">Terminology:</span>

@@ -105,11 +105,11 @@ In some instances, you will make a selection that will require additional review
 
 #### Known Quote Template Issues
 
-**Additional Line Items Displaying on the Quote**: If you construct a quote and notice that there is an additional line item displaying on your quote, know that this is the result of a [known Zuora bug](https://community.zuora.com/t5/Zuora-CPQ/known-Issue-Duplicate-Rate-Plan-created-for-Renewal-Quote-when/m-p/34564#!%23M3294). The only current workaround in place is to recreate the quote from scratch by clicking the `New Quote` button and follow the New Quote creation flow.
+**Additional Line Items Displaying on the Quote**: If you construct a quote and notice that there is an additional line item displaying on your quote, know that this is the result of a [known Zuora bug](https://web.archive.org/web/20210227012538/https://community.zuora.com/t5/Zuora-CPQ/known-Issue-Duplicate-Rate-Plan-created-for-Renewal-Quote-when/m-p/34564#!%2F%23M3294). The only current workaround in place is to recreate the quote from scratch by clicking the `New Quote` button and follow the New Quote creation flow.
 
 #### Quote Assistance
 
-If your quote requires any special, non-standard edits, or if you have questions regarding standard quotes, you are encouraged to send a Chatter message to `@Sales-Support` on the SFDC Opportunity record for assistance.
+If your quote requires any special, non-standard edits, or if you have questions regarding standard quotes, you are encouraged to send a Chatter message to `request internal support to create a case for Deal Desk` on the SFDC Opportunity record for assistance.
 
 Please provide as much detail as possible, including links to relevant records, dates, user counts, and other applicable information. **It is the Opportunity Owner's responsibility to create all standard quotes, unless they are complex custom deals or one of the scenarios listed below.**
 
@@ -126,7 +126,7 @@ For **Non-Standard/Complex Quote requests**, the Deal Desk team will assist the 
   - Year 1 will be for 100 users and Year 2 will be for 200 users.
   - Year 1 will be $45 per user per year and Year 2 will be $48 per user per year
 
-Please review the [Deal Desk Quote Configuration Guide](/handbook/sales/field-operations/sales-operations/deal-desk/#zuora-quote-configuration-guide---standard-quotes) for more information. Note that the above list of non-standard quote elements is not exhaustive. If you encounter a non-standard need that is not listed on this page, please chatter @Sales-Support on the SFDC Opportunity in question for evaluation and assistance.
+Please review the [Deal Desk Quote Configuration Guide](/handbook/sales/field-operations/sales-operations/deal-desk/#zuora-quote-configuration-guide---standard-quotes) for more information. Note that the above list of non-standard quote elements is not exhaustive. If you encounter a non-standard need that is not listed on this page, request internal support to create a case for Deal Desk on the SFDC Opportunity in question for evaluation and assistance.
 
 #### Quote Tax Information
 
@@ -227,7 +227,7 @@ The below process applies to any existing customers with an active subscription 
 
 **Important:** If a QSR is refunded, max user count must be reset by opening a ticket with Support. Deal Desk will support this process. [Internal process guide here](https://gitlab.com/gitlab-com/sales-team/field-operations/deal-desk/-/wikis/Web-Direct-Quarterly-Seat-Reconciliation-(QSR)-Refunds).
 
-#### How To Opt-Out of Auto-Renewal, Quarterly Subscription Reconciliation, Cloud Licensing and Operational Data
+#### How To Opt-Out of Auto-Renewal, QSR, Cloud Licensing and Operational Data
 
 During the Sales process, a customer who would not otherwise be exempt from Auto-Renewal, Quarterly Subscription Reconciliation, Cloud Licensing and/or Operational Data may request to disable one or more of these features. Every opt-out will require approvals, as noted in the [Deal Approval Matrix](https://docs.google.com/document/d/1-CH-uH_zr0qaVaV1QbmVZ1rF669DsaUeq9w-q1QiKPE/edit#bookmark=id.6ae1zz9525h7). If an opt-out is requested and approved, upon Closed Won the related feature will be disabled for the subscription in question.
 
@@ -249,9 +249,9 @@ During the Sales process, there may be a need for Sales to "pause" an upcoming A
 ##### Steps to Request a Pause
 
 1. Navigate to the applicable opportunity in SFDC.
-2. Write a message in chatter explaining why you'd like to pause Auto-Renewal or Quarterly Reconciliation for the subscription. Tag @Sales-Support to request approval. Note that justification will be required.
+2. Write a message in chatter explaining why you'd like to pause Auto-Renewal or Quarterly Reconciliation for the subscription. Request internal support to create a case for Deal Desk. Note that justification will be required.
 
-   - Example: "@Sales-Support I'd like to request that Auto-Renewal be paused for this subscription. I'm working with the customer on an upsell, and I'd like to ensure we do not auto-renew the subscription at the current user count if negotiations do not end before the renewal date. Please let me know if you have any questions. Thank you!"
+   - Example: Request internal support to create a case for Deal Desk: "I'd like to request that Auto-Renewal be paused for this subscription. I'm working with the customer on an upsell, and I'd like to ensure we do not auto-renew the subscription at the current user count if negotiations do not end before the renewal date. Please let me know if you have any questions. Thank you!"
 
 3. If approved, Deal Desk will navigate to the Customer Subscription object in SFDC to temporarily disable the related feature. To pause auto-renewal, Deal Desk will check the "Pause Auto-Renewal" box. To pause QSR, Deal Desk will check the "Pause Seat Reconciliation" box. The feature will remain disabled until the next renewal occurs, at which time it will revert to its previous state.
 
@@ -264,7 +264,7 @@ During the Sales process, there may be a need for Sales to "pause" an upcoming A
 1. **I created a quote and legal language has automatically populated in the Notes section of the Order Form. Why did that happen?**
 
    - This means that your customer is exempt from one or more SuperSonics features. These SuperSonics features are not available for the deal, and we must place legal opt-out language on the Order Form to make it clear that these features do not apply. Review the [Availability Matrix](https://internal.gitlab.com/handbook/product/fulfillment/#feature-availability-matrix) for more information on exemptions.
-   - Note: This language is not optional and cannot be removed unless the customer opts into SuperSonics. If you would like to discuss such a scenario, tag @Sales-Support in chatter.
+   - Note: This language is not optional and cannot be removed unless the customer opts into SuperSonics. If you would like to discuss such a scenario, request internal support to create a case for Deal Desk.
 
 1. **My customer is exempt from SuperSonics, and they have requested edits to the opt-out language on the Order Form. What do I do?**
 
@@ -282,7 +282,7 @@ During the Sales process, there may be a need for Sales to "pause" an upcoming A
 
    - To provide the customer with a legacy or offline license file, Sales should first collect the necessary approvals as noted in the [Deal Approval Matrix](https://docs.google.com/document/d/1-CH-uH_zr0qaVaV1QbmVZ1rF669DsaUeq9w-q1QiKPE/edit#bookmark=id.6ae1zz9525h7). Sales should then work with Support Engineering to request that a legacy or offline license be sent to the customer.
    - To open a Support ticket, click [here](/handbook/support/internal-support/#internal-requests).
-   - To review the Support process, click [here](/handbook/support/license-and-renewals/workflows/self-managed/cloud-licensing.html#post-sale-exemptions-support).
+   - To review the Support process, click [here](/handbook/support/license-and-renewals/workflows/self-managed/cloud-licensing/#post-sale-exemptions-support).
 
 #### Resources
 
@@ -343,7 +343,7 @@ The signatory Authorization Matrix can be found here: /handbook/finance/authoriz
 Once negotiations are completed, and the digital stamp has been affixed to the final version of the contract / Agreement:
 
 1. Change the status of the contract, in SFDC, to 'Approved to Sign'; and
-1. [stage the contract](https://support.docusign.com/guides/ndse-user-guide-send-a-document) in DocuSign for signatures;
+1. [stage the contract](https://support.docusign.com/s/document-item?language=en_US&rsc_301=&bundleId=ulp1643236876813&topicId=lak1578456412477.html&_LANG=enus) in DocuSign for signatures;
 1. Send to the Customer and cc' our CFO (Brian Robins).
 
 </details>
@@ -429,7 +429,7 @@ Within the Customer Opportunity:
 
 **At this time, the Contract Request Case will be marked as "Closed". Follow the below steps to initiate "Contract Review" of the Customer edits.**
 
-#### Request for GitLab review of Customer edits to GitLab Template, OR, Review of Customer Agreement Template
+#### Request for GitLab Review: Customer edits to GitLab Template OR Customer Agreement Template
 
 Within the Customer Opportunity:
 
@@ -579,24 +579,33 @@ The following is intended as a guide for Opportunity Owners who need to submit a
 
 #### Standard Quote Approval
 
-Prior to generating a standard (non-draft) quote to deliver to a client or prospect in PDF format, any non-standard elements (discounts, unique payment terms, and other items found in the matrix) must be approved. The following steps outline the process for how to correctly submit a quote for approval. This approval flow follows the criteria in [our approval matrix](https://docs.google.com/document/d/1-CH-uH_zr0qaVaV1QbmVZ1rF669DsaUeq9w-q1QiKPE/edit#heading=h.ag75fqu12pf0) for approvers.
+Prior to generating a standard (non-draft) quote to deliver to a client or prospect in PDF format, any non-standard deal elements (discounts, unique payment terms, and other items found in the matrix) must be approved. The following steps outline the process for how to correctly submit a quote for approval. This approval flow follows the criteria in [our approval matrix](https://docs.google.com/document/d/1-CH-uH_zr0qaVaV1QbmVZ1rF669DsaUeq9w-q1QiKPE/edit#heading=h.ag75fqu12pf0) for approvers.
 
 1. Navigate to the quote that you would like to submit for approval. Ensure that all of the relevant information is filled out on the quote.
-1. Include the `Submitter Comments` on the quote before you submit for discount and terms approval. Please provide as much detail as to why you are requesting discounts or other terms that require approval.
+1. Populate `Submitter Comments` on the quote before submission. This field must be populated on any quote that requires approval. Please provide detail as to why you are requesting discounts or other terms that require approval, following the below format:
 
-   - **CRO Deal Approvals:**
-     - When requesting CRO approval for any discount or other non-standard deal element, please fill out the [CRO Deal Approval Template](https://docs.google.com/document/d/1thffIdwcjutUIhLW4tYlc_28O8ylPLB1WiFH98f20ac/edit) and provide a link to your copy within the request.
-     - When requesting approval via the SFDC Quote Object (i.e. clicking Submit for Approval), please link your copy of the CRO Deal Approval Template in the "Submitter Comments" field on the quote.
-     - When requesting approval via SFDC Chatter, please link your copy of the CRO Deal Approval Template in the original chatter request when tagging Jake Bielecki.
-     - *In all scenarios, please ensure Jake Bielecki has permission to access the form prior to submitting the quote for approval.*
+```text
+Executive Summary
+Deal Summary (including compelling event to transact) (1-2 bullets)
+Previous discount (if renewal/add-on)
+Ramp details (if applicable)
+Rationale for Discount Request (1-2 bullets) (ex. Services included)
+Strategy to increase price over time
+What are we getting in return?
+Is this deal competitive? (Y/N)
+  If Yes, against whom?
+Logo Rights? (Y/N)
+```
 
-1. You will be able to see who the required approvers are on the quote prior to submitting the quote and why they are required.
-1. Click the `Submit for Approval` button on the quote screen.
-1. Your quote has now been submitted for approval. You can monitor who needs to approve it on the quote in the section `Required Quote Approvals`.
+1. **CRO/Finance Deal Approval:** If you are applying discounts that require CRO and/or Finance approval per the current [Deal Approval Matrix](https://docs.google.com/document/d/1-CH-uH_zr0qaVaV1QbmVZ1rF669DsaUeq9w-q1QiKPE/edit?tab=t.0#bookmark=kix.h86b3ktlqijh) and the deal is >= $500k Booked ARR (Net ARR + ARR Basis), you must fill out the **[CRO/CFO Deal Approval Template](https://docs.google.com/document/d/1sBDE26cGC4-BXfFjicNNn7OVYhJ8jnRRpfTLpM6O6hE/edit?tab=t.0)** and provide a link in the `Submitter Comments` quote field prior to approval submission. Please ensure Ashley Kramer and Brian Robins have permission to access your document prior to submitting the quote for approval.
+1. Click "Submit for Approval" to initiate the approval process. The quote will be routed to the appropriate approvers based on the approval matrix. You can track the status of your approval request in the "Approval History" related list on the quote.
+1. Once all required approvals have been obtained, you will receive a notification and the quote status will change to "Approved". You can now generate the PDF and send the approved quote to the customer.
+
+Note: If any changes are made to the quote after approval, you will need to resubmit it for approval before generating a new PDF.
 
 **Contractual Discounts**
 
-If a discount has been applied to a quote pursuant to a signed agreement between GitLab and the customer, additional approvals are not required. Tag Sales-Support in chatter with a link to the signed agreement to request that the quote approvals be overridden.
+If a discount has been applied to a quote pursuant to a signed agreement between GitLab and the customer, additional approvals are not required. Create a case for Deal Desk following [this process](/handbook/sales/field-operations/requesting-internal-support/#salesforce-workflow), and provide a link to the signed agreement to request that the quote approvals be overridden.
 
 #### Channel Quote Approval
 
@@ -717,12 +726,18 @@ If an opportunity meets the criteria listed above, but does not meet the Minimum
 1. Approval is required per the [Deal Approval Matrix](https://docs.google.com/document/d/1-CH-uH_zr0qaVaV1QbmVZ1rF669DsaUeq9w-q1QiKPE/edit#heading=h.dccvx02huo2y).
 1. If the approvals noted above are obtained, and no other approvals are required, the quote will be approved. If the approvals noted above are obtained, and other approvals are required (discount approvals, payment term approvals, etc.), the quote approval module will automatically enter the existing approval process.
 
+### Other services quote approvals
+
+#### EM Approval on Consulting Block quotes
+
+For quotes that contain the Professional Services SKU [consulting block](https://about.gitlab.com/services/skus/consulting-block/), the quote will require an approval from an Engagement Manager on the Professional Services team. If you are unsure of who your assigned engagement manager is, check out [the PS to Sales Mapping doc](https://docs.google.com/document/d/1sdehii3Eqp_CiYsGT3dDb0nKbbtwpxKQlni7t3ZgfCs/edit?tab=t.0#heading=h.1er41qhhpoj5) (Internal Team Mmembers only).
+
 ### Waived True-Ups: Policy and Approval Requirements
 
 **Summary: Waived True-Ups require executive approvals and may negatively impact Net ARR.**
 
 1. Waived True-Ups require written approvals per the [approval matrix](https://docs.google.com/document/d/1-CH-uH_zr0qaVaV1QbmVZ1rF669DsaUeq9w-q1QiKPE/edit?ts=5d6ea430#heading=h.dccvx02huo2y). Approvals should be sought in SFDC Chatter on the related Opportunity.
-1. After approval is obtained, Sales should create the appropriate opportunity and quote. Typically, true up waivers are required after renewal, and thus require an Add-On opportunity with an amend subscription quote. The true up SKU must be added to the same subscription that incurred the overage. On the quote, Sales should apply the appropriate true up SKU and quantity approved to be waived, at a 100% discount. After saving the quote, Sales should tag @Sales-Support to override the quote approval requirement.
+1. After approval is obtained, Sales should create the appropriate opportunity and quote. Typically, true up waivers are required after renewal, and thus require an Add-On opportunity with an amend subscription quote. The true up SKU must be added to the same subscription that incurred the overage. On the quote, Sales should apply the appropriate true up SKU and quantity approved to be waived, at a 100% discount. After saving the quote, Sales should request internal support to create a case for Deal Desk to override the quote approval requirement.
 1. Like all GitLab deals, waived true up orders must meet booking requirements as described [here](/handbook/sales/field-operations/order-processing/#opportunity-booking-requirements). In most cases, that means that the customer must sign a $0 Order Form, or issue a $0 PO.
 1. Upon booking the true up waiver opportunity, Order Management will notify @Revenue of the waiver in SFDC chatter.
 1. After being notified, the Revenue team will review the case, and will calculate the amount of the ARR allocation. The Revenue team will then add it to the ARR Allocations Tracker.
@@ -815,14 +830,15 @@ Once a user submits a quote for approval, it will follow the order of approvers 
   - `REJECT`
   - `REJECTED`
   - `NO`
-- Please note, shortly after the launch of Slack Approvals in May 2024, email approval alerts will be deprecated. An announcement will be sent to Field Managers upon removal of this feature.
 
-##### NEW IN FY25: Approve via Slack
+##### Approve via Slack
 
 ###### How It Works
 
 - Slack Approvals sends quote approval requests from Salesforce right to your Slack via the "Quote Approval Bot." As soon as a submitter clicks "Submit for Approval" on the quote object, the first approver will receive the request. After an approver actions their step, any subsequent approver(s) will receive their request in sequence until the quote is fully approved, or until a user rejects the quote. When it's your turn to approve, you'll be able to approve, reject, add comments, and monitor progression - all right in Slack. Each action writes back to Salesforce and leaves a timestamp - just like we're used to.
 - The Quote Approval Bot's Approval Dashboard conveniently lists all pending approval requests in one location. No more worrying you missed one!
+  - On the dashboard, click "Slack Approval Request Link" to navigate to the original approval request (where you can approve or reject within Slack), or click on the Quote URL to open Salesforce and review the quote there.
+  - This dashboard updates every 15 minutes.
 
 ###### Alert Types
 
@@ -830,21 +846,21 @@ Both submitters and approvers will receive alerts via the Quote Approval Bot as 
 
 **Approvers** will receive an Approval Request with key information about the opp and quote, links to Salesforce, and Approve/Reject buttons with comment functionality that writes back to Salesforce. Approvers will also receive Approval Alerts confirming they've approved, Rejection Alerts confirming they've rejected and Recall alerts notifying them when a quote pending their approval has been recalled in Salesforce.
 
-**Submitters** will receive Approval Alerts notifying them when each Approver has approved, Rejection Alerts notifying them that a quote has been rejected, and Final Approvla Alerts notifying them when a quote has been *fully approved* and an Order Form can be generated.
+**Submitters** will receive Approval Alerts notifying them when each Approver has approved, Rejection Alerts notifying them that a quote has been rejected, and Final Approval Alerts notifying them when a quote has been *fully approved* and an Order Form can be generated.
 
 ###### FAQ
 
 1. Will I still receive email notifications for quote approvals?
 
-   Yes, you will still receive email notifications initially. Eventually, email notifications will be turned off once all grown accustomed to Slack Approvals.
+   Yes, you will still receive email notifications. You may use either email or Slack.
 
 2. Does this work for chatter approval requests?
 
-   No, chatter approval requests will not be routed through Slack. In FY25 Q2/Q3 we will build all deal approvals into the quote approval tool, which will bring all approval requests into Slack and get us out of chatter. Stay tuned!
+   No, chatter approval requests will not be routed through Slack. As of FY25 Q4, all quote-level approvals should be routed through the quote approval tool.
 
 3. Can I still approve quotes directly in Salesforce?
 
-   Yes! If you approve directly in Salesforce, you will still receive a Slack alert confirming your approval.
+   Yes! If you approve directly in Salesforce, or if another user approves on your behalf, the original Slack approval request will update to reflect the "approved" status so that it is clear you don't need to action anything.
 
 4. Does this require any change in rep behavior?
 
@@ -879,7 +895,7 @@ If you are a quote approver and will be out of office, please take action to del
 1. Navigate to your personal settings in SFDC. At the top right corner of your screen, Click on your name. In the drop down, click "My Settings".
 1. Enter Approver Settings in the Quick Find box, then select Approver Settings. No results? Enter Personal Information in the Quick Find box, then select Personal Information.
      1. Assign your Delegated Approver (the individual to whom your quotes should be rerouted).
-     1. Verify with your Delegated Approver that they have set their [SFDC Approval Settings](https://help.salesforce.com/articleView?id=approvals_change_approval_user_pref.htm&type=5) to "If I am an approver" or "Delegated Approver".
+     1. Verify with your Delegated Approver that they have set their [SFDC Approval Settings](https://help.salesforce.com/s/articleView?id=platform.approvals_change_approval_user_pref.htm&type=5) to "If I am an approver" or "Delegated Approver".
 
 Note: If you are a Delegated Approver and are not receiving approval alerts, contact sales-support for assistance.
 
@@ -1016,7 +1032,7 @@ To send a digital copy of an Order Form to the customer via DocuSign:
 
 - [Send Your First Envelope](https://dsu.docebosaas.com/learn/course/620)
 - [Configure Envelopes for Sending](https://dsu.docebosaas.com/learn/course/687/play/1849:2112/configure-envelopes-for-sending)
-- [DocuSign Support Page](https://support.docusign.com/en/home)
+- [DocuSign Support Page](https://support.docusign.com/s/?language=en_US)
 
 Note: You must log in with your DocuSign credentials to access these educational resources.
 
@@ -1162,7 +1178,7 @@ Quoting:
 
 1. Create a quote object per standard practice, and **enter "Amazon Web Services, Inc." as the Invoice Owner. The Invoice Owner Contact field should reflect "Accounts Payable (AWS)"**. The "Resale Partner" is "Amazon Web Services." The Sold To contact must be the individual who will receive the license. Use the Standard Order Form quote template.
 1. Any additional discounts, non-standard payment terms, or other devitation from standard terms will require approval per the approval matrix. Such approvals must be obtained BEFORE applicable terms are relayed to the customer.
-1. Once Order Form PDF is generated, chatter @Sales-Support(Deal Desk) to create Private Offer.
+1. Once Order Form PDF is generated, request internal support to create a case for Deal Desk to create Private Offer.
    All Private offer requests must include the following details:
 
    - AWS Billing ID
@@ -1197,7 +1213,7 @@ Quoting:
 
 1. Create a quote object per standard practice, and **enter "Google Cloud Marketplace" as the Invoice Owner, and "Cloud Marketplace Payments" as the Invoice Owner Contact**. The "Resale Partner" is "Google Cloud (Partner)". The Sold To contact must be the individual who will receive the license. Use the Standard Order Form quote template.
 1. Any additional discounts, non-standard payment terms, or other devitation from standard terms will require approval per the approval matrix. Such approvals must be obtained BEFORE applicable terms are relayed to the customer.
-1. Once order form is generated chatter @Sales-Support(Deal Desk) for private offer creation
+1. Once order form is generated request internal support to create a case for Deal Desk for private offer creation
 1. All Private offer request must include the following details:
    GCP Billing ID
    Customer details - Contat name and email of who can accept the private offer
@@ -1363,7 +1379,7 @@ Per the [Deal Approval Matrix](https://docs.google.com/document/d/1-CH-uH_zr0qaV
 
 graph LR;
     A[Executed Agreement<br>attached to Opportunity] --> |Submit for Approval|B[Sr. Dir., Deal Desk<br> Reviews Non-Standard<br> Executed Agreement];
-    B --> |Sr. Dir. Deal Desk<br>Approved|C[Revenue Team<br> Reviews Non-Standard<br>Executed Agreement]; 
+    B --> |Sr. Dir. Deal Desk<br>Approved|C[Revenue Team<br> Reviews Non-Standard<br>Executed Agreement];
     C --> |Revenue Team<br>Approved|D[Sr. Dir., Legal<br> Reviews Non-Standard<br>Executed Agreement];
     D --> |Sr. Dir., Legal<br>Approved|E[Order Management Reviews<br>Opportunity for Approval];
     E --> |Order Mgmt<br>Approved|F[Finance Review];
@@ -1405,7 +1421,7 @@ This policy dictates the timing of opportunity closure for all sales-assisted de
 
 - If a renewal is achieved *within 15 days after the Subscription Renewal Date* (Renewal Date), the opportunity will be Closed Won on the date of approval submission.
 - **Renewal opportunities must be Closed Lost if the renewal is not achieved within 15 days after the Subscription Renewal Date (Renewal Date).**
-  - See the [Late Renewal Notification & Auto Close Processes](https://internal.gitlab.com/handbook/sales/go-to-market/renewals/#late-renewal-notification--auto-close-process) section of the handbook for details on how the system automatidally supports the 30 day late renewal policy.
+  - See the [Late Renewal Notification & Auto Close Processes](https://internal.gitlab.com/handbook/sales/go-to-market/renewals/#late-renewal-notification--auto-close-process) section of the handbook for details on how the system automatidally supports the 15 day late renewal policy.
 - If a renewal is achieved *more than 15 days after the Renewal Date, but less than 180 days after the Renewal Date*:
   - The renewal should be recorded on a newly created renewal opportunity. The renewal should be quoted using a [New Subscription quote](/handbook/sales/field-operations/sales-operations/deal-desk/#new-subscription-quote). See: [Opportunity Requirements for Return Customers](/handbook/sales/field-operations/gtm-resources/#opportunity-requirements-for-return-customers)
   - The original Closed Lost opportunity will remain as is. A second Closed Lost opportunity will be created and closed with the inverse values of the original, to effectively cancel the original Closed Lost opportunity. This new Closed Lost opportunity will have the same close date as the new Closed Won renewal opportunity. See: [Opportunity Requirements for Return Customers](/handbook/sales/field-operations/gtm-resources/#opportunity-requirements-for-return-customers)
@@ -1421,7 +1437,7 @@ This policy dictates the timing of opportunity closure for all sales-assisted de
   - **Approval from both** Sales VP and Revenue Manager (Please tag Revenue in chatter)
   - Anticipated (revised) Renewal Close Date
 
-- Once all of the above have been documented in Chatter, please tag @sales-support on the associated opportunity so that [Sales Operations can take the appropriate actions](https://internal.gitlab.com/handbook/sales/sales-operations/#late-renewal-exception-process) to exclude the opportunity from auto closure.
+- Once all of the above have been documented, request internal support to create a case for Deal Desk on the associated opportunity so that [Sales Operations can take the appropriate actions](https://internal.gitlab.com/handbook/sales/sales-operations/#late-renewal-exception-process) to exclude the opportunity from auto closure.
 
 - See the [Late Renewal Notification & Auto Close Processes](https://internal.gitlab.com/handbook/sales/go-to-market/renewals/#steps-to-request-an-exception) section of the handbook for details on how the system automatidally supports late renewal exceptions.
 
@@ -1431,7 +1447,7 @@ This policy dictates the timing of opportunity closure for all sales-assisted de
   - Impact to the business (Net ARR or Renewal ARR loss)
   - **Approval from both** CRO and CFO (or Chief Accounting Officer, if CFO is not available)
   - Anticipated (revised) Renewal Close Date
-  - Tag @Sales-Support and the Sr. Dir., Deal Desk for visibility
+  - Request internal support to create a case for Deal Desk and tag the Sr. Dir., Deal Desk for visibility
 
 - Note: Opportunities approved for invoicing outside of the 15-day booking policy will be booked and invoiced as approved, but the booking will then be moved so that the close date falls within the 15-day bookings policy. For clarity, quota credit and commission will align to the 15 day booking policy even if approvals are obtained to invoice the transaction earlier than 15 days prior to the Quote Start Date.
 

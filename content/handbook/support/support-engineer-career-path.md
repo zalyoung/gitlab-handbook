@@ -38,6 +38,7 @@ Recommendations to explore this path:
 - Read about the [Senior Support Engineer role criteria](/job-families/engineering/support-engineer/#senior-support-engineer).
 - Read about the [Senior level competencies and framework requirements](/handbook/engineering/careers/matrix/support/senior/).
 - Watch or listen to the [Ask Us Anything - Being/Becoming a Senior Support Engineer sesssions from 2021-12](https://www.youtube.com/watch?v=jwjPvzz_f5g&list=PL05JrBw4t0KrQVEIzmhhQMR68JGBl3dDy).
+- Watch or listen to the [Async Staff Support Engineer AMA 2024](https://www.youtube.com/playlist?list=PL05JrBw4t0KrWFkNej77kXspfjem_UA1J).
 
 Considerations when building your path:
 
@@ -86,7 +87,7 @@ Recommendations to explore this path:
 - Read [Transitioning from Individual Contributor to Manager](/handbook/engineering/development/dev/training/ic-to-manager/).
 - Read about [Individual Contribution vs. Management](/handbook/engineering/careers/#individual-contribution-vs-management) and [Trying the Management Track](/handbook/engineering/careers/#trying-the-management-track).
 - Read about the [Interim Manager](/handbook/engineering/careers/#interim-manager) role.
-- Read about [Elevate](/handbook/people-group/learning-and-development/elevate/) and consider participating.
+- Read about [Elevate](/handbook/people-group/learning-and-development/elevate-programs/) and consider participating.
 
 Considerations when building your path:
 

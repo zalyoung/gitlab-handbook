@@ -28,7 +28,7 @@ Paid customers must set up a new namespace on SaaS when trialing Ultimate.  Ther
 
 Both situations put customer production GitLab usage at risk if a trial is applied to the SaaS namespace.
 
-Instead, a customer should create a new namespace and trial there.  We have put together some [rial guidelines](/handbook/solutions-architects/tools-and-resources/trial-guidelines/) in order to make the process as seamless as possible for customers.
+Instead, a customer should create a new namespace and trial there.  We have put together some [trial guidelines](/handbook/solutions-architects/tools-and-resources/trial-guidelines/) in order to make the process as seamless as possible for customers.
 
 ### Hands-on Workshops
 
@@ -36,7 +36,7 @@ GitLab Solutions Architects conduct hands-on workshops as interactive events for
 
 ### RFI/RFP Responses
 
-RFx's such as RFI and RFP are common steps in the public sector yet it may be required by enterprise customers to assess, evaluate and procure the software. Solutions architects often participate in the RFP process responding to the technical asks and solutions requirements. Information on responding to the RFx can be found on the [RFI/RFP](/handbook/security/security-assurance/field-security/Field-Security-RFP.html) page.
+RFx's such as RFI and RFP are common steps in the public sector yet it may be required by enterprise customers to assess, evaluate and procure the software. Solutions architects often participate in the RFP process responding to the technical asks and solutions requirements. Information on responding to the RFx can be found on the [RFI/RFP](/handbook/security/security-assurance/field-security/Field-Security-RFP/) page.
 
 ### Stack Overflow for Teams
 
@@ -69,13 +69,13 @@ Solutions Architects frequently interact with customers for demos, presentations
 
 - [Muzzle](https://muzzleapp.com/) to mute all notifications prior to beginning a call
 - [Tab Resize Chrome plugin](https://chrome.google.com/webstore/detail/tab-resize-split-screen-l/bkpenclhmiealbebdopglffmfdiilejc?hl=en-US) to break tabs into split-screen viewing
-- [Screenbrush](http://screenbrush.imagestudiopro.com/) to draw on the screen
-- [Toby](http://www.gettoby.com/) or [Tabs Outliner](https://chrome.google.com/webstore/detail/tabs-outliner/eggkanocgddhmamlbiijnphhppkpkmkl) to launch many preset tabs at once
+- [Screenbrush](https://screenbrush.imagestudiopro.com/) to draw on the screen
+- [Toby](https://www.gettoby.com/) or [Tabs Outliner](https://chrome.google.com/webstore/detail/tabs-outliner/eggkanocgddhmamlbiijnphhppkpkmkl) to launch many preset tabs at once
 - [Station](https://getstation.com/) to group pages by application in a smart dock
 - [MouseBeam](https://geeky.gent/tag/mousebeam/) enables the mouse cursor to use multiple screens like a circle
 - [Rectangle](https://rectangleapp.com/) to quickly move and resize windows in macOS using keyboard shortcuts or snap areas
 - [Dark Reader](https://darkreader.org/) enables browser dark mode to better fit room lighting
-- [Postman](https://www.getpostman.com/) for API interaction
+- [Postman](https://www.postman.com/) for API interaction
 - [Visual Studio Code](https://code.visualstudio.com/) lightweight IDE text editor
 
 #### Related macOS tips
@@ -108,22 +108,22 @@ Here are courses that will facilitate the onboarding process of associate SAs an
 
 **Free for GitLab members**
 
-- The learning path [Become a DevOps Engineer](https://www.linkedin.com/learning/paths/become-a-devops-engineer), particularly the following sections:
-  - [DevOps Foundations](https://www.linkedin.com/learning/devops-foundations)
-  - [Learning Docker](https://www.linkedin.com/learning/learning-docker-2018)
+- The learning path [Become a DevOps Engineer](https://www.linkedin.com/learning/paths/getting-started-with-devops), particularly the following sections:
+  - [DevOps Foundations](https://www.linkedin.com/learning/devops-foundations-23454205)
+  - [Learning Docker](https://www.linkedin.com/learning/learning-docker-17236240)
   - [DevOps Foundations - CI/CD](https://www.linkedin.com/learning/devops-foundations-continuous-delivery-continuous-integration-14449917)
 
 - [Docker for the Absolute Beginner - Hands-On](https://learning.oreilly.com/videos/docker-for-the/9781788991315/)
 
 **Paid**
-Paid courses can be expensed as part of the [Growth and Development benefits](/handbook/total-rewards/benefits/general-and-entity-benefits/growth-and-development/)
+Paid courses can be expensed as part of the [Growth and Development benefits](/handbook/people-group/learning-and-development/growth-and-development/)
 
 - IBM course on Coursera: [Information Technology (IT) and Cloud Fundamentals Specialization](https://www.coursera.org/specializations/it-cloud-fundamentals)
 Especially the module [Introduction to Cloud Computing](https://www.coursera.org/learn/introduction-to-cloud?specialization=it-cloud-fundamentals)
 
 ### Data Seeding (Demo Data)
 
-The [GitLab Data Seeder](https://docs.gitlab.com/ee/topics/data_seeder.html) is a tool that Solutions Architects can use to showcase to customers "what good data looks like" in GitLab.
+The [GitLab Data Seeder](https://docs.gitlab.com/ee/development/data_seeder.html) is a tool that Solutions Architects can use to showcase to customers "what good data looks like" in GitLab.
 The data that is generated is customizable, time-relative, and can be used on-demand to generate data to demonstrate.
 
 The Demo Data can be showcased on any self-managed instance including Docker, GDK, and customer environments.

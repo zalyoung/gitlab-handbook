@@ -21,6 +21,7 @@ This will allow everyone to gain more knowledge regarding Geo and an easier loca
 
 - Lead: {{< member-by-name "Ronald van Zon" >}} (`@rvzon`)
 - Co-Lead: {{< member-by-name "Anton Smith" >}} (`@anton`)
+- Co-Lead: {{< member-by-name "Keelan Lang" >}} (`@klang`)
 - {{< member-by-name "Alexander Strachan" >}} (`@astrachan`)
 - {{< member-by-name "Brie Carranza" >}} (`@bcarranza`)
 - {{< member-by-name "Bo Carbonell" >}} (`@bocarbonell`)
@@ -29,7 +30,6 @@ This will allow everyone to gain more knowledge regarding Geo and an easier loca
 - {{< member-by-name "Łukasz Korbasiewicz" >}} (`@lkorbasiewicz`)
 - {{< member-by-name "Mario Mora" >}} (`@mmora`)
 - {{< member-by-name "Harish Ramachandran" >}} (`@harishsr`)
-- {{< member-by-name "Nathaniel Rosario" >}} (`@nrosario`)
 - {{< member-by-name "Aric Buerer" >}} (`@abuerer`)
 
 ## Collaboration channels

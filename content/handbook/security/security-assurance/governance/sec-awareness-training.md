@@ -73,7 +73,7 @@ The Security Governance team will track the annual security awareness training c
 
 GitLab leverages the SANS Security Awareness Maturity Model to gauge the maturity of its program. GitLab's current maturity level is **Stage 2 - Compliance Focused.**
 
-![SANS Security Awareness Maturity Model](/handbook/security/security-assurance/images/sansmaturitymodel.png "SANS Security Awareness Maturity Model")
+![SANS Security Awareness Maturity Model](/images/security/security-assurance/sansmaturitymodel.png "SANS Security Awareness Maturity Model")
 
 ### Questions and Answers
 

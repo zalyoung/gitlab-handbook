@@ -5,7 +5,7 @@ decsription: "On this page, we will cover some of the key topics covered in the 
 
 ## Introduction
 
-At GitLab, one of our favorite books is, "[High Output Management]({{< ref "book-clubs#high-output-management" >}})" by Andrew Grove. The book provides a comprehensive overview of a manager's role and purpose. Our CEO, Sid, applied many of the concepts covered when partnering with the People team to design management and people practices for GitLab. On this page, we will cover some of the key topics covered in the book and what they mean for people leaders.
+At GitLab, one of our favorite books is, "[High Output Management]({{< ref "book-clubs#high-output-management" >}})" by Andrew Grove. The book provides a comprehensive overview of a manager's role and purpose. Our co-founder, Sid, applied many of the concepts covered when partnering with the People team to design management and people practices for GitLab. On this page, we will cover some of the key topics covered in the book and what they mean for people leaders.
 
 ## Applying High Output Management
 
@@ -24,7 +24,7 @@ Topics covered include:
 
 > If there is one management book you should read, it is High Output Management. A lot of GitLab policies are directly from the book. Managers can learn that the most challenging aspect of management, is managing their time to make decisions and achieve results. This book will teach you how.
 
-Team members can [expense](/handbook/finance/expenses/) the book if they choose to [purchase](https://www.amazon.com/High-Output-Management-Andrew-Grove/dp/0679762884/ref=sr_1_1?dchild=1&keywords=High+Output+Management&qid=1612303222&sr=8-1).
+Team members can [expense](/handbook/finance/expenses/) the book if they choose to [purchase](https://www.amazon.com/High-Output-Management-Andrew-Grove/dp/0679762884/).
 
 ### High Output Management
 
@@ -51,6 +51,6 @@ In the book, the author describes applying [async](/handbook/values/#bias-toward
 
 Every page in our handbook is a [source of learning and development material](/handbook/people-group/learning-and-development/#handbook-first-training-content/). If managers accept that training, along with motivation, are the key ways to improve the performance of direct reports, the way you teach must be closely tied to what you practice. Training should be considered a continuing process rather than a one-time event. Managers fill the role of teacher to their teams. Team members also have valuable skills they can share with their teams and the broader organization.
 
-As a people leader, consider holding training events and/or record videos that teach your team members important concepts related to functional skill-building. At GitLab, we have [Focus Friday's]({{< ref "communication" >}}) that can be used to [take time out to learn](/handbook/people-group/learning-and-development/learning-initiatives/#take-time-out-to-learn-campaign/).  Enable team members to drive training of the team on complex functions through [enablement sessions]({{< ref "building-trust#host-a-lunch--learn" >}}). Also, consider using [LinkedIn Learning](/handbook/people-group/learning-and-development/linkedin-learning/) to focus your team on curated content. During the next team meeting, have team members share feedback on the topics covered.
+As a people leader, consider holding training events and/or record videos that teach your team members important concepts related to functional skill-building. At GitLab, we have [Focus Friday's]({{< ref "communication" >}}) that can be used to [take time out to learn](/handbook/people-group/learning-and-development/learning-initiatives/#take-time-out-to-learn-campaign/).  Enable team members to drive training of the team on complex functions through [enablement sessions]({{< ref "building-trust#host-a-lunch--learn" >}}). Also, consider using [LinkedIn Learning](/handbook/people-group/learning-and-development/self-paced-learning/#linkedin-learning) to focus your team on curated content. During the next team meeting, have team members share feedback on the topics covered.
 
 Managers can lead training sessions throughout the year, and according to the book, it is considered one of the highest-leverage activities a manager can do.

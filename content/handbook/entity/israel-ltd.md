@@ -42,7 +42,7 @@ Trust-based working time generally refers to a GitLab's way of working, a flexib
 
 ### Timekeeping Record
 
-Each team member employeed by GitLab Israel Ltd. will be required to report their actual working hours using the methods prescribed (the details of which will be shared in due course, please hold tight!). These records will be kept by Payroll and can be audited at any time.
+Each team member employed by GitLab Israel Ltd. will be required to report their actual working hours using the methods prescribed (the details of which will be shared in due course, please hold tight!). These records will be kept by Payroll and can be audited at any time.
 
 ### Daily Work Time
 
@@ -62,7 +62,7 @@ Payroll information will be linked in due course - please hold tight!
 
 ## Israel-Specific Team Member Benefits
 
-Currently, GitLab provides the below additional benefits, in addition to mandatory state requirements. [General GitLab benefits](/handbook/total-rewards/benefits/general-and-entity-benefits/) still apply. As part of the [guiding principles](/handbook/total-rewards/benefits/#guiding-principles), we will continously review our benefits design and offerings available through GitLab in Israel.
+Currently, GitLab provides the below additional benefits, in addition to mandatory state requirements. [General GitLab benefits](/handbook/total-rewards/benefits/general-and-entity-benefits/) still apply. As part of the [guiding principles](/handbook/total-rewards/benefits/#guiding-principles), we will continuously review our benefits design and offerings available through GitLab in Israel.
 
 ### Pension
 
@@ -72,6 +72,8 @@ All team members in Israel are enrolled in the Pension Arrangement. In general t
 - GitLab contributes up to 6.5% (includes disability) and 8.33% (severance pay).There are special cases where this may vary, please refer to your employee contract for specifics.
 - You can elect and personalize your plan via Shaldan or your private insurance agency.
 - Employer contributions are based on your eligible earnings, the definition of eligible earning is Base salary and overtime.
+
+Pension contributions continue while on leave, with the exception of unpaid leave.
 
 #### Enrollment & Administration of the Pension Plan
 
@@ -86,21 +88,56 @@ A Study Fund (Keren Hishtalmut) is a savings instrument in Israel with special t
 
 Team Member contribution to the study fund is 2.5% of their determined salary, which is deducted on a monthly basis. GitLab contributes 7.5% of determined salary to the study fund.
 
+Study Fund contributions continue while on leave, with the exception of unpaid leave.
+
 ### Meal Card
 
 Israel Team Members are granted a meal allowance of up to NIS 900 per month. Vouchers are managed through Cibus. Team members will receive a debit card to use the benefit.
 
-The People-Connect Team will assist Payroll in the administration of this benefit.
+Team Members do not recieve the meal allowance while on unpaid leave.
+
+### Transportation Allowance
+
+This policy applies to all Israel-based GitLab team members who choose to work from a co-working space regularly and meet the requirements outlined in the [Global Expense Co-Working Space Policy](/handbook/finance/expenses/#co-working-space)
+ This allowance is intended to cover travel expenses from the team member's residence to the co-working space.
+
+Note: This allowance will be paid through payroll rather than reimbursed through Navan. While the Global Expense Policy generally excludes transportation to and from co-working spaces from reimbursement, the Israel transportation allowance will still be processed as outlined here. If a team member works from a co-working space on a one-off basis while traveling for business, travel expenses should be reimbursed via Navan in line with the Global Expense Policy.
+
+<details markdown="1">
+
+<summary>Eligibility Criteria</summary>
+
+- The co-working space must  in line with the [Global Expense Co-Working Space Policy](/handbook/finance/expenses/#co-working-space)
+- The co-working space must be used regularly (i.e., on a monthly basis).
+- Team members must submit required documentation as outlined below.
+
+</details>
+
+<details markdown="1">
+
+<summary>Application Process</summary>
+
+To receive the transportation allowance, team members must:
+
+- Complete and submit the [Israel Transportation Allowance Form on HelpLab](https://helplab.gitlab.systems/esc?id=sc_cat_item&sys_id=0f8a3eefff991e103691fe34fc4fd9be)
+- Information required for the form:
+  - A copy of the lease agreement for the co-working space.
+  - The address of the co-working space.
+  - The number of days per week that the team member intends to travel to the co-working space.
+- The allowance is provided for the duration of the lease agreement. Once the lease agreement lapses, team members must resubmit the form and HelpLab ticket to continue receiving the allowance.
+- It is the team member’s responsibility to submit a new request upon lease expiration.
+
+Submit your form and supporting documents by the 4th of each month to be included in the upcoming payroll cycle. Submitted details will be reviewed by the Non-US Payroll and Total Rewards Team, who will calculate and process the allowance through payroll.
+
+</details>
 
 ### Accrued Recuperation
 
-Accrued Recuperation is an Israel entitlement meant to help fund expenses that encourage recuperation and recovery. Gitlab will pay the Accrued Recuperation payment in July, in accordance with applicable law. The pay is subject to completion of one year of employment.
+Accrued Recuperation is an Israel entitlement meant to help fund expenses that encourage recuperation and recovery. GitLab will pay the Accrued Recuperation payment in July, in accordance with applicable law. The pay is subject to completion of one year of employment.
 
 ### Gifts
 
-As customary in Israel, GitLab offers monetary gifts to team members during major holidays (Passover and Rosh Hashannah) and during major life events, such as birth of a child, or marriage. These gifts will be provided via gift card and reported as taxable income.
-
-The People-Connect Team will administer this benefit.
+As customary, Gifts are offered for major holidays such as Passover and Rosh Hashanah at the company's discretion. These gifts are provided through a gross payment in payroll. Please note that the gift amount will be subject to taxation.
 
 ### Medical
 
@@ -181,6 +218,12 @@ Team members should enter the time away into 'Workday' by selecting the label `B
 
 ### Service Duty Leave
 
-In Israel, team members serving on reserve duty must still be paid by their employer. Military service is mandatory in Israel.
+Military service is mandatory in Israel and an employee serving on reserve duty must still be paid by their employer.
 
-Team members should enter the time away into 'Workday' by selecting the label `Military Service` under the `Leaves` dropdown menu.
+In Israel, team members serving on reserve duty will still be paid by GitLab and [GitLab will then apply for a refund of reservist’s benefit](https://www.btl.gov.il/English%20Homepage/About/Frequent_questions/HarvotBarzelOuestions/Reserve%20service/MasikimMilQ/Pages/default.aspx).
+
+If requesting military service leave, a team member should contact leaves@gitlab.com with the details and team members should enter the time away into 'Workday' by selecting the label `Military Service` under the `Leaves` dropdown menu.
+
+In order to enable GitLab to apply for a refund of reservist’s benefit, the team member should provide confirmation of the reserve duty period (by a form 3010 unless exempt from doing so). Where a differential is received by GitLab for a benefit of a higher amount than a team member's wage, this differential will be paid to the team member.
+
+Note that a 40% supplement on reserve benefit will be paid proactively by the National Insurance, without the need to file a claim once the exact period of service of each reservist can be determined.

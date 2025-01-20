@@ -21,7 +21,10 @@ At a high level, the Release post schedule is:
 
 ### Monday, 3 weeks before release
 
-- Through **automation**, the [Release Post Process Kickoff Tasks](https://gitlab.com/gitlab-com/www-gitlab-com/-/pipeline_schedules) run in a scheduled pipeline invoking the `bin/rake release_post:start` rake task. ([pipeline configuration](https://gitlab.com/gitlab-com/www-gitlab-com/blob/master/.gitlab-ci.yml#L280-288); [rake task](https://gitlab.com/gitlab-com/www-gitlab-com/blob/master/lib/tasks/release_post.rake#L9))
+- Release Post Manager manually triggers the following [scheduled pipelines in the www-gitlab-com project](https://gitlab.com/gitlab-com/www-gitlab-com/-/pipeline_schedules):
+  - `Release Post Process Kickoff Tasks`
+  - `Add deprecations and removals to current release post branch`
+- These invoke the `bin/rake release_post:start` rake task. ([pipeline configuration](https://gitlab.com/gitlab-com/www-gitlab-com/blob/master/.gitlab-ci.yml#L280-288); [rake task](https://gitlab.com/gitlab-com/www-gitlab-com/blob/master/lib/tasks/release_post.rake#L9))
 - This task creates the branches, MRs, and issues necessary to run the Release Post process
 - The MRs and issues will be assigned to the Release Post Manager using the content in [release_post_managers.yml](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/data/release_post_managers.yml)
 
@@ -63,7 +66,7 @@ MRs added after the Thursday, 1 week before release should target the `release-x
 - **Release Post Manager and Technical Writer** perform final reviews
   - Changes after <time datetime="16:00">4 pm UTC (11 am ET / 8 am PT)</time> on the Monday of release week will be done via the `release-X-Y` branch and are subject to approval by the Release Post Manager.
   - The TW Lead verifies the deprecations and removals links in the release post
-  - RPM create a [What's New](/handbook/product/gitlab-the-product/index.html#using-whats-new-to-communicate-updates-to-users) MR
+  - RPM create a [What's New](/handbook/product/categories/gitlab-the-product/#using-whats-new-to-communicate-updates-to-users) MR
 
 {{% note %}}
 The Monday through Tuesday of release week can fall on vacations or holidays. PMs should designate who to respond to time-sensitive inquiries should they be unreachable. Release Post Managers are empowered to make decisions and [display bias for action](/handbook/values/#bias-for-action) if they haven't received a response by EOD on the Tuesday of release week.
@@ -166,7 +169,7 @@ The responsibilities of a technical advisor can be seen in more detail in [Techn
 - Completing all the tasks assigned to the Release Post Manager in the Release Post MR template
   - Reminder: If you cannot perform any of the Release Post Manager tasks between Thursday, 1 week before release, and the [release date](/handbook/engineering/releases/) of the month as defined in the [monthly MR template](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/.gitlab/merge_request_templates/Release-Post.md.erb), it is recommended you sign up for another release post. In the case that schedule/circumstances changes after you'd already signed up for the release post, please start a thread in #product in slack and tag `@[name of PLT member who is reviewing this month]`. The name of the PLT member who is reviewing this month can be found on the [release post scheduling page](/handbook/marketing/blog/release-posts/managers/)
 - Identify the top feature to highlight on the release post page and collecting feedback from the VP of Product
-- Creating the What's New MR and working with the VP of Product to identify what to include in [What's New](/handbook/product/gitlab-the-product/index.html#using-whats-new-to-communicate-updates-to-users)
+- Creating the What's New MR and working with the VP of Product to identify what to include in [What's New](/handbook/product/categories/gitlab-the-product/#using-whats-new-to-communicate-updates-to-users)
 - Sending out reminders about upcoming due dates
 - Merging the release post MR on the [release date](/handbook/engineering/releases/) and ensuring the release post page goes live
 - Collecting feedback in the release post retrospective issue during the release post not just for your own challenges, but other team members challenges as they pop on Slack and other places
@@ -474,7 +477,7 @@ do `git pull origin master` then `:wq`.
 
 Once the PMs have included everything they're accountable for, they should **check their item** in the release post MR description:
 
-![PMs check list](features-checklist.png)
+![PMs check list](/images/marketing/blog/release-posts/features-checklist.png)
 
 By checking your item, you will make it clear to the Release Post Manager that you have done your part in time (during the general contributions stage) and you're waiting for review. If you don't check it, it's implicit that you didn't finish your part in time, despite that's the case or not.
 
@@ -513,7 +516,7 @@ Always link to the "EE" version of GitLab docs `https://docs.gitlab.com/ee/` (no
 - To understand the feature better look at the issue and MR for the feature, they are linked in the YAML. Sometimes the issue description will include the value prop. Read the comments in the issue and MR for the feature, often users and customers will chime in with why they want a feature and what pain the lack of the feature is causing.
 - The release post and `features.yml` can have the same or very similar content - e.g. same screen shot.
   - The tone of the release post is more about introducing the feature "we're happy to ship XYZ..."
-  - The tone of `features.yml` should be [evergreen](https://www.thebalancecareers.com/what-is-evergreen-content-definition-dos-and-don-ts-2316028) to appear on our website in various places.
+  - The tone of `features.yml` should be [evergreen](https://web.archive.org/web/20190610215424/https://www.thebalancecareers.com/what-is-evergreen-content-definition-dos-and-don-ts-2316028) to appear on our website in various places.
 
 ## PMM Lead
 
@@ -558,7 +561,7 @@ Consideration: When communicating with your release post team, use the release p
 
 *A technical writer, once assigned to the release post merge request, will check the syntax and the content structure.*
 
-The **Structural check** [checklist in the main release post merge request description](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/.gitlab/merge_request_templates/Release-Post.md#structural-check-technical-writing-lead)
+The **Structural check** [checklist in the main release post merge request description](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/.gitlab/merge_request_templates/Release-Post.md.erb#L301)
 will guide them through the structural check.
 
 Given that the technical writing review occurs in release post items'
@@ -1044,7 +1047,7 @@ It is a required field.
   - [`configure`](https://about.gitlab.com/stages-devops-lifecycle/configure/)
   - [`monitor`](https://about.gitlab.com/stages-devops-lifecycle/monitor/)
   - [`secure`](https://about.gitlab.com/stages-devops-lifecycle/secure/)
-  - [`govern`](https://about.gitlab.com/stages-devops-lifecycle/govern/)
+  - [`software_supply_chain_security`](https://about.gitlab.com/stages-devops-lifecycle/govern/)
   - [`systems`](/handbook/product/categories/#systems-stage)
   - [`data_stores`](/handbook/product/categories/#data-stores-stage)
 
@@ -1199,11 +1202,11 @@ When the MR is approved, add the `Ready` label before merging.
 
 Deprecation, removal, and breaking change announcements appear [in GitLab Docs](https://docs.gitlab.com/ee/update/deprecations.html) and in the release post of the announcement's corresponding milestone.
 
-Before making an announcement, review the [breaking changes, deprecations and removals guidance](/handbook/product/gitlab-the-product/#deprecations-removals-and-breaking-changes) to ensure you:
+Before making an announcement, review the [breaking changes, deprecations and removals guidance](https://docs.gitlab.com/ee/development/deprecation_guidelines/) to ensure you:
 
 - Are minimizing disruption for our customers.
 - Are providing the required advance notice for workflow changes.
-- Have [determined if the change is a breaking change](/handbook/product/gitlab-the-product/#breaking-changes).
+- Have [determined if the change is a breaking change](https://docs.gitlab.com/ee/development/deprecation_guidelines/).
 
 #### Milestone due dates
 
@@ -1255,7 +1258,7 @@ This video will walk you through the process of making an announcement:
 
 ##### Reviewing and merging the announcement
 
-1. The TW Reviewer reviews the content, adds a commit that [updates the deprecations doc](#update-the-deprecations-doc), and merges the MR by the Thursday, 1 week before release. After merging, the announcement will be visible on the [deprecations documentation page](https://docs.gitlab.com/ee/update/deprecations) within an hour.
+1. The TW Reviewer reviews the content, adds a commit that [updates the deprecations doc](#update-the-deprecations-doc), and merges the MR by the Thursday, 1 week before release. After merging, the announcement will be visible on the [deprecations documentation page](https://docs.gitlab.com/ee/update/deprecations/) within an hour.
 1. If the MR is at risk of missing the cut off date, open a duplicate MR and set the target branch to `X-Y-stable-ee` where `X-Y` aligns with the version released `X.Y`. If you have trouble, ask for help in `#mr-buddies` or refer to the [full process for backporting an MR](https://gitlab.com/gitlab-org/release/docs/-/blob/master/general/patch/process_new.md#gitlab-project).
 
 #### Announcing an End of Support period
@@ -1264,7 +1267,7 @@ The [deprecation template](https://gitlab.com/gitlab-org/gitlab/-/blob/master/da
 
 An End of Support milestone must be at least 3 milestones *after* the deprecation announcement. For example, if the deprecation announcement is made in `15.1`, the End of Support milestone must be in `15.4` at the earliest. There is no requirement for the gap between the End of Support milestone and the Removal milestone.
 
-If an End of Support milestone is announced, it will be displayed under the title of the deprecation announcement on the [Deprecations page](https://docs.gitlab.com/ee/update/deprecations). End of Support milestones are not currently displayed in the release post.
+If an End of Support milestone is announced, it will be displayed under the title of the deprecation announcement on the [Deprecations page](https://docs.gitlab.com/ee/update/deprecations/). End of Support milestones are not currently displayed in the release post.
 
 **When to define an End of Support period**
 
@@ -1275,7 +1278,7 @@ If an End of Support milestone is announced, it will be displayed under the titl
 
 If you decide to declare an End of Support period:
 
-- Check for any [Support Stable Counterpart](/handbook/support/support-stable-counterparts.html) (also listed on the [product categories page](/handbook/product/categories/)) for your development group and tag them in the MR that adds a value to the `end_of_support_milestone`.
+- Check for any [Support Stable Counterpart](/handbook/support/support-stable-counterparts/) (also listed on the [product categories page](/handbook/product/categories/)) for your development group and tag them in the MR that adds a value to the `end_of_support_milestone`.
 - If your group does not have a Support Stable Counterpart, look for a stage or section Support Counterpart. If none, please post in the `#support_leadership` Slack channel with a link to the readiness issue (next line).
 - Please also open a Support Readiness issue [following the Support communications guidance](/handbook/support/internal-support/#contacting-users-about-gitlab-incidents-or-changes).
 
@@ -1488,7 +1491,7 @@ To run the project locally:
    ```
 
 1. [Run Middleman](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/doc/development.md#run-middleman).
-1. See the release post locally, using `http://127.0.0.1:4567/` instead of `https://about.gitlab.com/`. For example, `http://127.0.0.1:4567/releases/2021/09/22/gitlab-14-3-released/`.
+1. See the release post locally, using `https://127.0.0.1:4567/` instead of `https://about.gitlab.com/`. For example, `https://127.0.0.1:4567/releases/2021/09/22/gitlab-14-3-released/`.
 
 ### Feature order
 
@@ -1601,7 +1604,7 @@ It does not check if:
 - `top` and `primary` items have an image or video
 - `issue_url` is supplied, since there are other alternatives
 
-The schema is implemented using [Rx](http://rx.codesimply.com/index.html).
+The schema is implemented using [Rx](https://rx.codesimply.com/index.html).
 
 ### Deprecation rake task troubleshooting
 
@@ -1707,8 +1710,8 @@ The What's New MR will be initiated by the Release Post Manager on the Tuesday o
 
 ### Pages
 
-- [GitLab the product](/handbook/product/gitlab-the-product/#gitlab-the-product)
-- [General guidance on deprecations, remvoals and breaking changes](/handbook/product/gitlab-the-product/#breaking-changes-deprecations-and-removing-features)
+- [GitLab the product](/handbook/product/categories/gitlab-the-product/#gitlab-the-product)
+- [General guidance on deprecations, remvoals and breaking changes](https://docs.gitlab.com/ee/development/deprecation_guidelines/)
 - [Release Post volunteer schedule](managers/)
 - [Security and monthly releases](https://about.gitlab.com/releases/categories/releases/)
 - [Features per release](https://about.gitlab.com/releases/)

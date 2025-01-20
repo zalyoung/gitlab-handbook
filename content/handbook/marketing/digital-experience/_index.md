@@ -18,19 +18,17 @@ We take a customer-centric approach to educating prospects on how GitLab enables
 | Role | Name |
 |--|--|
 | Senior Product Designer | [Tina Lise Ng](https://gitlab.com/Tinaliseng) |
-| Senior Product Designer |[Trevor Storey](https://gitlab.comtrevor-storey) |
-| Product Design | [Carrie Tsang](https://gitlab.com/ctsang-ext) |
-| Senior Frontend Engineer| [Megan Filo](https://gitlab.com/meganfilo) |
+| Senior Product Designer |[Trevor Storey](https://gitlab.com/trevor-storey) |
 | Frontend Engineer | [Javi Garcia](https://gitlab.com/jgarc)|
+| Senior Frontend Engineer| [Megan Filo](https://gitlab.com/meganfilo) |
 | Senior Frontend Engineer | [Laura Duggan](https://gitlab.com/lduggan) |
 | Senior Frontend Engineer | [Marg Mañunga](https://gitlab.com/mmanunga-ext) |
-| Frontend Engineer | [Miguel Duque](https://gitlab.com/mduque-ext) |
-| Senior Frontend Engineer | [Nathan Dubord](https://gitlab.com/ndubord) |
+| Staff Frontend Engineer | [Nathan Dubord](https://gitlab.com/ndubord) |
 | Fullstack Engineer | [Miracle Banks](https://gitlab.com/miraclebanks) |
 | Senior Fullstack Engineer | [John Arias](https://gitlab.com/jariasc-ext) |
 | Senior Fullstack Engineer | [Mateo Penagos](https://gitlab.com/mpenagos-ext) |
-| Senior Product Manager | [Filza Qureshi](https://gitlab.com/fqureshi)|
 | Engineering Manager | [Lauren Barker](https://gitlab.com/laurenbarker) |
+| Director | [Filza Qureshi](https://gitlab.com/fqureshi)|
 
 ## Scope
 
@@ -390,7 +388,7 @@ From the repositories we own, the [Buyer Experience](https://gitlab.com/gitlab-c
 - [BE Deploy file](https://gitlab.com/gitlab-com/marketing/digital-experience/buyer-experience/-/blob/main/scripts/deploy).
 - [GitLab Blog Deploy file](https://gitlab.com/gitlab-com/marketing/digital-experience/gitlab-blog/-/blob/main/scripts/deploy).
 
-![Mermaid diagram](Dex-pipeline.png)
+![Mermaid diagram](/images/marketing/digital-experience/Dex-pipeline.png)
 
 To maintain our bucket clean, we run a scheduled pipeline with a delete flag in these repositories, which deletes outdated files from the cloud bucket (such as pages removed from the marketing site and old JS bundles).
 

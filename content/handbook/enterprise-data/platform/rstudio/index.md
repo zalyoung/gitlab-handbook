@@ -17,7 +17,7 @@ You'll want to download the file similar to `R-4.2.2.pkg`. Once you've downloade
 
 RStudio is an integrated development environment (IDE) for R that is available in both open source and commercial editions. RStudio is developed by [Posit](https://posit.co/), a company that creates open source software for data science, scientific research, and technical communication. They are also responsible for many R resources and package development. Take a look at the resources page on the Posit website for more information, but below are just a couple of useful resources from RStudio.
 
-- [Books](https://www.rstudio.com/resources/books/)
+- [Books](https://resources.rstudio.com/resources/books/)
 - [Tidyverse Blog](https://www.tidyverse.org/blog/)
 - [Posit Blog](https://posit.co/blog/)
 - [RMarkdown Documents](https://rmarkdown.rstudio.com/)
@@ -43,7 +43,7 @@ RStudio can connect to various database for production development of models or 
    - **odbc.ini** holds information required to connect to databases, such as host, username, etc. This is where you set up your DSN for your system.
    - to see the location of these configuration files, run the command `odbcinst -j`.
 
-1. Download the latest driver for Snowflake [here](https://sfc-repo.snowflakecomputing.com/odbc/mac64/index.html). You can then follow [these instructions](https://docs.snowflake.com/en/user-guide/odbc-mac.html) to complete the configuration of the driver on your machine.
+1. Download the latest driver for Snowflake [here](https://sfc-repo.snowflakecomputing.com/odbc/mac64/index.html). You can then follow [these instructions](https://docs.snowflake.com/developer-guide/odbc/odbc-mac) to complete the configuration of the driver on your machine.
    - As many parameters as desired can be entered in the configuration files, such as role, database, warehouse, username, etc. However, these can also be specified in RStudio. Is you choose to set up the configuration files with these details, it may be necessary to set up a DSN for every database/schema used in Snowflake.
    - Below are examples of how to configure the **odbc.ini** and **odbcinst.ini** files in the user file location.
 
@@ -77,7 +77,7 @@ Authenticator = gitlab.okta.com
 
 ## Connecting to Snowflake in RStudio
 
-The next step is to connect RStudio to Snowflake using the driver configurations you've just set up. This can be accomplished by using the `DBI`,`tidyverse`, and `odbc` packages in R. For a general overview on how to connect to databases in RStudio, please refer to [this website](https://db.rstudio.com/) for detailed information.
+The next step is to connect RStudio to Snowflake using the driver configurations you've just set up. This can be accomplished by using the `DBI`,`tidyverse`, and `odbc` packages in R. For a general overview on how to connect to databases in RStudio, please refer to [this website](https://solutions.posit.co/connections/db/) for detailed information.
 
 This is an example of the code that can be used to connect to Snowflake in R.
 
@@ -170,7 +170,7 @@ This documentation was creating using RStudio version 2022.07.1.
 ### Part 1: Installation and Setup
 
 - Download and install [R](https://cloud.r-project.org/) (if not already installed).
-- Download and install [RStudio Desktop](https://www.rstudio.com/products/rstudio/#Desktop) (if not already installed).
+- Download and install [RStudio Desktop](https://posit.co/products/open-source/rstudio/) (if not already installed).
 - Install [Homebrew](https://brew.sh/) (if not already installed).
 - Install Git
   - Once Homebrew is installed, open your terminal (Command+Space Bar on Mac to open search bar, and search "Terminal")
@@ -188,7 +188,7 @@ This documentation was creating using RStudio version 2022.07.1.
 - Create an SSH key by following the instructions it/data-team/ the [Generate an SSH Key Pair](https://docs.gitlab.com/ee/user/ssh.html) section.
   - ED25519 is recommended
   - Once complete, add the private key path to the **SSH RSA Key** field
-  - ![Git-SVN](/handbook/enterprise-data/platform/rstudio/Git1.png)
+  - ![Git-SVN](/images/enterprise-data/platform/rstudio/Git1.png)
 - Configure Git by setting your **GitLab user name** and **GitLab email** in RStudio
   - To open the Git prompt go to **Tools** > **Shell** and enter the following:
     - `git config --global user.name 'yourGitHubUsername'`
@@ -199,17 +199,17 @@ This documentation was creating using RStudio version 2022.07.1.
 
 - To create a new project based on a remote Git repository:
   - Select **File** > **New Project** > **Version Control**
-  - ![Git-Project](/handbook/enterprise-data/platform/rstudio/Git2.png)
+  - ![Git-Project](/images/enterprise-data/platform/rstudio/Git2.png)
   - Choose **Git**, then provide the repository URL:
-    - ![Git-Repo](/handbook/enterprise-data/platform/rstudio/Git3.png)
+    - ![Git-Repo](/images/enterprise-data/platform/rstudio/Git3.png)
     - Access the GitLab project you want to clone
     - Select the **Clone** drop-down button at the top right
     - Copy the URL for **Clone with HTTPS**
-    - ![Git-Clone](/handbook/enterprise-data/platform/rstudio/Git5.png)
+    - ![Git-Clone](/images/enterprise-data/platform/rstudio/Git5.png)
     - Paste this link into the **Repository URL** section in RStudio
     - Select **Create New Project**
 - The GitLab Project should now be visible in R Studio
-- [Source](https://www.geo.uzh.ch/microsite/reproducible_research/post/rr-rstudio-git/) for Walkthrough Instructions
+- [Source](https://microsite.geo.uzh.ch/reproducible_research/post/rr-rstudio-git/) for Walkthrough Instructions
 
 ### Part 4: Troubleshooting
 
@@ -223,14 +223,14 @@ This documentation was creating using RStudio version 2022.07.1.
   Please make sure you have the correct access rights and repository exists.
   ```
 
-  - Solution: This is a known issue in certain versions of RStudio that is working to be resolved. Reinstalling an [older version](https://dailies.rstudio.com/version/2022.02.4+500.pro1/) should resolve the issue ([Source](https://community.rstudio.com/t/git-authentication-error-in-rstudio/145686/2)).
+  - Solution: This is a known issue in certain versions of RStudio that is working to be resolved. Reinstalling an [older version](https://dailies.rstudio.com/version/2022.02.4+500.pro1/) should resolve the issue ([Source](https://forum.posit.co/t/git-authentication-error-in-rstudio/145686/2)).
 
 ## How to Update a GitLab Project with Updates from R Studio
 
 - Before uploading changes made locally to a GitLab project ensure that you are working with the most current branch by selecting **Pull with Rebase** from the **Git** section in R (Ensure that you are rebasing from the **main** branch)
-  - ![Pull](/handbook/enterprise-data/platform/rstudio/Pull.png)
+  - ![Pull](/images/enterprise-data/platform/rstudio/Pull.png)
 - Once changes are complete and ready to be uploaded select the new branch icon and enter a name for the branch (no spaces allowed). Select **Create**
-  - ![Push](/handbook/enterprise-data/platform/rstudio/Push.png)
+  - ![Push](/images/enterprise-data/platform/rstudio/Push.png)
 - In the **Review Changes** window that opens in R ensure that changes on the left side of the screen are checked for **Staged** and that a commit message is entered on the right side of the screen.
 - Select **Commit**
 - In GitLab, navigate to the project you have made updates to. You should see a merge request that needs to be created and it will have the changes you made in R. Select the relevant reviewers and approvers to merge the changes.
@@ -239,11 +239,54 @@ This documentation was creating using RStudio version 2022.07.1.
 
 Google Sheets and R have the ability to interact via the `googlesheets4` and `googledrive` packages in R.
 
-1. Installation
-2. Reading Existing Google Sheets
-3. Writing to Google Sheets
+1. Google App Authentication Setup
+2. Package Installation
+3. Reading Existing Google Sheets
+4. Writing to Google Sheets
 
-### Part 1: Installation
+### Part 1: Google App Authentication Setup
+
+1. Follow the steps in the [handbook](/handbook/security/corporate/systems/google/apps/) to add yourself to the Google Cloud Project.
+2. Submit and issue similar to [this one](https://gitlab.com/gitlab-com/gl-security/corp/infra/issue-tracker/-/issues/877) to set up access for yourself specifically
+3. Once the access is set up, you can use the below code to work through setting up and configuring access in RStudio.
+
+```r
+library(googlesheets4)
+library(googledrive)
+## googlesheets4 Test
+google_app <- httr::oauth_app(
+    "R",
+    key = "[KEY].apps.googleusercontent.com",
+    secret = "[SECRET]"
+)
+
+google_key <- "[GOOGLE_KEY]"
+
+# googlesheets4::gs4_auth_configure(app = google_app,
+#                                   api_key = google_key)
+
+googlesheets4::gs4_auth_configure(client = gargle::gargle_oauth_client_from_json("~/Google Drive/Shared drives/People Analytics/Google API in R/googlesheets_api_sm.json"),
+                                  api_key = google_key)
+
+googlesheets4::gs4_auth()
+
+## Test Read
+googlesheets4::read_sheet(ss = "https://docs.google.com/spreadsheets/d/1Oe7AduRIKO7Zqh60v51Zn-WnTJYpcMDho_394urBmpA",
+                          sheet = "stop_words") |>
+    View()
+
+
+## googledrive Test
+
+googledrive::drive_auth()
+
+googledrive::drive_mv(file = "[SHEET_NAME]",
+         path = as_id("[PATH]"),
+         overwrite = TRUE)
+
+```
+
+### Part 2: Installation
 
 - Run the following code in R to install the necessary packages in RStudio
 
@@ -254,7 +297,7 @@ invisible(lapply(pkg, library, character.only = TRUE))
 rm(pkg)
 ```
 
-### Part 2: Reading Existing Google Sheets
+### Part 3: Reading Existing Google Sheets
 
 - The `read_sheet()` function will allow you to read an existing spreadsheet
   - Run the `read_sheet()` command in R pointing to the Spreadsheet URL you want to view
@@ -266,7 +309,7 @@ rm(pkg)
   - A new window will open saying authentication is complete. Close the browser window.
   - rerun the `read_sheet()` command again to confirm you can see output in R
 
-### Part 3: Writing to Google Sheets
+### Part 4: Writing to Google Sheets
 
 Below are a list of functions that can be used to write data into a Google Sheet with examples.
 

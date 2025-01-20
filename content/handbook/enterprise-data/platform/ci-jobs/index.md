@@ -10,7 +10,7 @@ This page documents the CI jobs used by the data team in Merge Requests in both 
 ## What to do if a pipeline fails
 
 - If a weekend has passed re-run any CLONE steps which were performed prior, every Sunday (5:00AMUTC) all old pipeline databases are [dropped](https://gitlab.com/gitlab-data/analytics/-/blob/master/orchestration/drop_snowflake_objects.py) from SnowFlake older than 14 days.
-![ci-db-deletion-schema.png](ci-db-deletion-schema.png)
+![ci-db-deletion-schema.png](/images/enterprise-data/platform/ci-jobs/ci-db-deletion-schema.png)
 - Merge master branch. Due to how dbt handles packages pipelines can fail due to package failures which should always be handled in the latest branch.
 - Confirm [model selection syntax](https://docs.getdbt.com/reference/node-selection/syntax). In general, it is easiest to simply use the file names of the models you are changing.
 - If still uncertain or facing any issues, request assistance in the #data Slack channel
@@ -81,8 +81,9 @@ Run this if you'd like to grant access to the copies or clones of `prep` and `pr
 
 **This will be fastest if the Data Engineer is provided with:**
 
+1. the merge request where the new models are being introduced
 1. the fully qualified name (`"database".schema.table`) of the table(s) to which access needs to be granted
-2. the role to which permissions should be granted
+1. the role to which permissions should be granted
 
 The database names for `PREP` and `PROD` can be found in the completed 🔑 `grant_clones` CI job. Linking this job for the DE will also be helpful in expediting this process.
 
@@ -143,7 +144,7 @@ These jobs run against the primary `RAW` database.
 
 Most dbt run jobs can be parameterized with a variable specifying dbt model that requires testing.
 
-The variable `SELECTION` is a stand-in for any of the examples in [the dbt documentation on model selection syntax](https://docs.getdbt.com/docs/model-selection-syntax#section-specifying-models-to-run).
+The variable `SELECTION` is a stand-in for any of the examples in [the dbt documentation on model selection syntax](https://docs.getdbt.com/reference/node-selection/syntax#section-specifying-models-to-run).
 
 If you are testing changes to tests in the `data-tests` project, you can pass in `DATA_TEST_BRANCH` to the manual jobs along with the branch name. This will update the branch in the `packages.yml` for the data-tests package. This works for any job running `dbt test`.
 
@@ -180,9 +181,9 @@ This job is designed to work with most dbt changes without user configuration. I
 Should the changes made fall outside the default selection of this job, it can be configured in the following ways:
 
 - `WAREHOUSE`: Defaults to `DEV_XL` but will accept `DEV_XS` and `DEV_L` as well.
-- `CONTIGUOUS`: Defaults to `True` but will accept `False` to run only the models that have changed. When contiguous is `True`, other configurations are ignored, such as `DOWNSTREAM` and `EXCLUDE`. 
+- `CONTIGUOUS`: Defaults to `True` but will accept `False` to run only the models that have changed. When contiguous is `True`, other configurations are ignored, such as `DOWNSTREAM` and `EXCLUDE`.
 - `SELECTION`: Defaults to a list of any changed SQL or CSV files but accepts any valid dbt selection statement. It overrides any other model selection.
-- `DOWNSTREAM`: Defaults to `None` but will accept the `plus` and `n-plus` operators. `DOWNSTREAM` is bypassed if `CONTIGUOUS` is `True` (which it is by default). As a result, you must manually set `CONTIGUOUS` to `False` if you want to use `DOWNSTREAM`. `DOWNSTREAM` has no impact when overriding the `SELECTION`. See the [documentation](https://docs.getdbt.com/reference/node-selection/graph-operators) for the graph operators for details on what each will do. 
+- `DOWNSTREAM`: Defaults to `None` but will accept the `plus` and `n-plus` operators. `DOWNSTREAM` is bypassed if `CONTIGUOUS` is `True` (which it is by default). As a result, you must manually set `CONTIGUOUS` to `False` if you want to use `DOWNSTREAM`. `DOWNSTREAM` has no impact when overriding the `SELECTION`. See the [documentation](https://docs.getdbt.com/reference/node-selection/graph-operators) for the graph operators for details on what each will do.
 - `FAIL_FAST`: Defaults to `True` but accepts `False` to continue running even if a test fails or a model can not build.  See the [documentation](https://docs.getdbt.com/reference/global-configs/failing-fast) for additional details.
 - `EXCLUDE`: Defaults to `None` but will accept any dbt node selection. `EXCLUDE` is bypassed if `CONTIGUOUS` is `True`. See the [documentation](https://docs.getdbt.com/reference/node-selection/exclude) for additional details.
 - `FULL_REFRESH`: Defaults to `False` but accepts `True` to re-clone and rebuild any tables that would otherwise run in an incremental state. See the [documentation](https://docs.getdbt.com/reference/commands/run#refresh-incremental-models) for additional details.
@@ -218,6 +219,7 @@ This job can be configured in the following ways:
 
 - `WAREHOUSE`: No default, a value of `DEV_XL`, `DEV_L`, or `DEV_XS` must be provided.
 - `STATEMENT`: No default, a complete `dbt` statement must be provided. e.g. `run --select +dim_date`.
+- `RAW_DB`: Defaults to `Live` but will accept `Dev`.  Selecting `Dev` will have the job use the branch specific version of the live `RAW` database, only the data that is explicitly loaded will be present.  This is needed when testing models build on extracts that are new in the same branch.
 
 #### `📚📝generate_dbt_docs`
 
@@ -245,6 +247,7 @@ Current caveats with the job are:
 
 - It will not tell you which tableau workbook to check
 - It will not tell indirectly connected downstream dependencies. This feature will be a part of upcoming iteration to this job.
+- It does not find dependencies for tables that use a dbt alias. [We discourage the use of aliases](/handbook/enterprise-data/platform/dbt-guide/#general) in models, but there are legacy tables that use aliases, so caution should be exercised when working with aliased tables. Downstream dependencies can be checked manually in MonteCarlo using the alias.
 
 ##### Explanation
 
@@ -399,6 +402,10 @@ Triggered when there is a change to `permissions/snowflake/roles.yml`. Validates
 #### `snowflake_provisioning_snowflake_users`
 
 This job adds/removes specified users and roles directly in Snowflake based on changes to `snowflake_users.yml`.
+
+#### 📈namespace_metrics_check
+
+The pipeline runs only when the file [usage_ping_namespace_queries.json](https://gitlab.com/gitlab-data/analytics/-/blob/master/extract/saas_usage_ping/usage_ping_namespace_queries.json) is changed to ensure all rules are satisfied. The pipeline runs automatically.
 
 ##### Quick Summary
 

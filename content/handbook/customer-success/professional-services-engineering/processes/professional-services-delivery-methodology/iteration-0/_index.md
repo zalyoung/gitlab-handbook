@@ -23,7 +23,7 @@ The output of this meeting is to ensure the Delivery team is prepared, and we ha
 
 ## Stakeholder Planning Meeting
 
-During this meeting, the PM between the GitLab & Customer side meet to review the high level scope, and gather any onboarding material that is still missing. This is an opportunity to meet each other and begin to build trust. Additionally, this is an opportunity to review how we plan to manage the project our of Gitlab, along with a quick overview of our methodology. (review suggested cadences, iteration planning & review, preferred updated for status, etc.) We will take this information to our Customer kickoff and review it with the broader project teams. Please use the [Stakeholder Planning](https://docs.google.com/presentation/d/1vVJQrJeGG-yLAeso_iKkb80H5kE7wStyBAj1sj45sY4/edit#slide=id.g923452f41b_1_5) Meeting template to facilitate this meeting.
+During this meeting, the PM between the GitLab & Customer side meet to review the high level scope, and gather any onboarding material that is still missing. This is an opportunity to meet each other and begin to build trust. Additionally, this is an opportunity to review how we plan to manage the project our of GitLab, along with a quick overview of our methodology. (review suggested cadences, iteration planning & review, preferred updated for status, etc.) We will take this information to our Customer kickoff and review it with the broader project teams. Please use the [Stakeholder Planning](https://docs.google.com/presentation/d/1vVJQrJeGG-yLAeso_iKkb80H5kE7wStyBAj1sj45sY4/edit#slide=id.g923452f41b_1_5) Meeting template to facilitate this meeting.
 
 The PM will take information from this discussion & the EM\>PS transition process and continue to build out the following for our [Customer Kickoff](https://docs.google.com/presentation/d/1XUljBcQUZgQA-0fhQ5UayiEGtp4Of3xsaFGpVxdoDS4/edit#slide=id.p1):
 
@@ -57,10 +57,10 @@ If you do not have ZenDesk light (Read-Only) open an [Access Request](https://gi
 ### Creating a ZenDesk Note for Support
 
 1. Find the relevant org `.yaml` find in the [Repository](https://gitlab.com/gitlab-com/support/zendesk-global/organizations/-/tree/master/organizations) by [Searching](https://gitlab.com/search?search=&nav_source=navbar&project_id=27675679&group_id=78867384&search_code=true&repository_ref=master) for the Customer Name (It will be a hash, followed by the name in Salesforce).
-![image](Zen-search.png)
+![image](/images/customer-success/professional-services-engineering/processes/professional-services-delivery-methodology/iteration-0/Zen-search.png)
 
 1. Create a new Merge Request by Selecting the YAML from Search. Then `Edit > Open in Web IDE`
-![image](edit-yaml.png)
+![image](/images/customer-success/professional-services-engineering/processes/professional-services-delivery-methodology/iteration-0/edit-yaml.png)
 
 1. Add the block below after notes starting with a pipe "|" (this Character indicates a multi line entry). The fields should be spaced 1 tab from notes.
 Include the details below and anything else that would be helpful for support to know when engaging the customer. If notes content already exists append this to it to include both.
@@ -82,7 +82,7 @@ Include the details below and anything else that would be helpful for support to
    ```
 
 1. Commit your changes by clicking the Source Control Button (noted with 1 change) > The drop down arrow > Create new branch and commit.
-![image](newmr.jpg)
+![image](/images/customer-success/professional-services-engineering/processes/professional-services-delivery-methodology/iteration-0/newmr.jpg)
 
 1. Hit Enter to accept the default branch name (Should by a combination with your user name)
 

@@ -11,7 +11,7 @@ As part of the Fleet Metrics, we would like to have a section dedicated to CI in
 
 We have a [page for CI/CD Analytics](https://gitlab.com/gitlab-org/gitlab/-/pipelines/charts?chart=pipelines) that contain some very basic analytics on pipelines. Most of this information relates to the **total** number of pipelines over time, which does not give any real value to customers: projects will always see an increase of pipelines number over time, so the total number of pipelines is of little consequence.
 
-![Current page](../img/current_page.png)
+![Current page](/images/engineering/architecture/design-documents/ci_builds_runner_fleet_metrics/current_page.png)
 
 Because this page lacks real insights, it makes understanding pipelines slowdowns or failures hard to track and becomes a very manual task. We want to empower users to optimize their workflow in a centralized place to avoid all of the manual labor associated with either querying the API for data and then manually parsing it or navigating the UI through dozens of pages utils the insights or action required can be found.
 
@@ -79,7 +79,7 @@ To develop this new analytic page, we will gate the new page behind a feature fl
 
 ### Add analytics on page view
 
-Make sure that we can get information on how often this page is viewed. If we do not have it, then let's implment some to know how visible this page is. The changes to this section should make the view count go up and we want to track this as a measure of success.
+Make sure that we can get information on how often this page is viewed. If we do not have it, then let's implement some to know how visible this page is. The changes to this section should make the view count go up and we want to track this as a measure of success.
 
 ### Routing
 
@@ -108,12 +108,12 @@ query getJob($projectPath: ID!, $jobName: String!){
 }
 ```
 
-There are plans to create a new unified table to log job analytics and it is not yet defined what this API will look like. Without comitting yet to an API definiton, we want so unified way to query information for nalytics that may look roughly like so:
+We want a unified way to query information for job analytics. Roughly, this could translate to the following:
 
 ```ruby
 get_jobs(project_id:, job_name: nil, stage: nil, stage_index: nil, *etc)
 # >
-[{id: 1, duration: 134, status: 'failed'}, *etc] 
+[{id: 1, duration: 134, status: 'failed'}, *etc]
 
 get_jobs_statistics(project_id, job_name:, *etc)
 # >

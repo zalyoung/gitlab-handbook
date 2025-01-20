@@ -9,7 +9,7 @@ a customer to the flow across multiple GitLab features - and even reactivation o
 
 - Activation, Conversion, Expansion, and Adoption connect users to the existing value that GitLab already delivers by
 rapid experimentation.
-- [Analytics Instrumentation](https://about.gitlab.com/direction/analytics/analytics-instrumentation/) builds the backbone of data that other groups need to be successful, enabling a data-informed product
+- [Analytics Instrumentation](https://about.gitlab.com/direction/monitor/analytics-instrumentation/) builds the backbone of data that other groups need to be successful, enabling a data-informed product
 culture at GitLab.
 
 Growth's ultimate goal is to connect GitLab's value as a Single DevOps Platform with our customers. In order to do that, we take a zoom in and zoom out approach. We break down the entire GitLab growth model, and identify the highest ROI lever at this moment to focus on. In the [Growth direction page](/handbook/marketing/growth/) we outline the Growth section's long term direction and near term focus areas.
@@ -241,6 +241,6 @@ In alignment with GitLab's [RADCIE](/handbook/people-group/directly-responsible-
 | Post-Experiment Analysis | Data Team |
 | Post-Experiment Decision | Growth Product/Stage Product/Engineering |
 | Maintenance | Stage Product/Engineering |
-| Alert creation | Growth Product/Engineering : [How to create a Sisense SQL alert](/handbook/engineering/development/growth/sisense_alert.html) |
+| Alert creation | Growth Product/Engineering : [How to create a Sisense SQL alert](/handbook/engineering/development/growth/sisense_alert/) |
 
 It is in the Growth teams purview to run any experiment in any area of the application. Growth's ability to experiment in this manner is designed to further learning potential for the larger GitLab team and support business priorities. When an experiment impacts the area of another product owner/team, Growth informs them following the collaboration model above. Product owners/teams are encouraged to raise concerns and provide further context. Ultimately, Growth determines whether the experiment is deemed a success using data and input from relevant teams. The product owner/team is made aware of the result and next steps.

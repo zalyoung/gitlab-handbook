@@ -38,7 +38,7 @@ Examples:
 
 ## Workflow Summary
 
-<object data="PDF-Diagram.svg" style="width: 100%;" type="image/svg+xml">
+<object data="/images/product-development-flow/PDF-Diagram.svg" style="width: 100%;" type="image/svg+xml">
   Product Development Flow diagram.
   Unable to load this content, check console for details.
 </object>
@@ -61,7 +61,7 @@ For situations [when the customer problem isn't well understood](/handbook/produ
 
 The types of activities and depth of research required in the validation track will depend on how well we understand the customer problem and solution.
 
-<img src="/handbook/product-development-flow/validation-spectrum.png" alt="Validation Spectrum">
+<img src="/images/product-development-flow/validation-spectrum.png" alt="Validation Spectrum">
 
 ### Validation Goals & Outcomes
 
@@ -150,7 +150,7 @@ If the problem is nuanced or not yet well understood, then it will likely take l
 
 #### Description
 
-After understanding and validating the problem, we can begin or continue to ideate potential solutions through a [diverge/converge](https://web.archive.org/web/20210119060603/http://web.stanford.edu/~rldavis/educ236/readings/doet/text/ch06_excerpt.html) process. However, if the outcome from the problem validation phase confidently suggests an incremental modification to the existing solution, the aforementioned diverge/converge process could be skipped.
+After understanding and validating the problem, we can begin or continue to ideate potential solutions through a [diverge/converge](https://web.archive.org/web/20210119060603/https://web.stanford.edu/~rldavis/educ236/readings/doet/text/ch06_excerpt.html) process. However, if the outcome from the problem validation phase confidently suggests an incremental modification to the existing solution, the aforementioned diverge/converge process could be skipped.
 
 The Product Designer leads the team (Product Manager, Engineering team, UX Researcher, Software Engineers in Test, and Technical Writers, as needed, depending on the item) in ideating potential solutions and exploring different approaches (diverge) before converging on a single solution. Product Managers and the Engineering team evaluate solutions by determining if they meet customer and business goals, are technically feasible, and align with legal compliance considerations. The team is encouraged to engage with stakeholders to determine potential flaws, missed use cases, potential security risks, and if the solution has the intended customer impact.
 
@@ -224,7 +224,7 @@ The build track is where we plan, develop, and deliver value to our users by bui
 | Label | Usage |
 |-------|-------|
 |<i class="fab fa-gitlab fa-fw" style="color:rgb(252,109,38); font-size:1.25em" aria-hidden="true"></i> `workflow::planning breakdown` | Applied by the Product Manager on or before the [4th of the month](/handbook/engineering/workflow/#product-development-timeline) signaling an intent to prioritize the issue for the next milestone. |
-|<i class="fab fa-gitlab fa-fw" style="color:rgb(252,109,38); font-size:1.25em" aria-hidden="true"></i> `workflow::ready for development` | Issue has been broken down and prioritized by PM for development. Issue also has a [work type classification](/handbook/product/groups/product-analysis/engineering/dashboards/#work-type-classification) (`type::`) label and milestone assigned at this point. |
+|<i class="fab fa-gitlab fa-fw" style="color:rgb(252,109,38); font-size:1.25em" aria-hidden="true"></i> `workflow::ready for development` | Issue has been broken down and prioritized by PM for development. Issue also has a [work type classification](/handbook/product/groups/product-analysis/engineering/metrics/#work-type-classification) (`type::`) label and milestone assigned at this point. |
 |<i class="fab fa-gitlab fa-fw" style="color:rgb(252,109,38); font-size:1.25em" aria-hidden="true"></i> `Deliverable` | Applied to issues by engineering managers indicating it's been accepted into the current milestone. |
 
 #### Key Participants
@@ -268,7 +268,7 @@ During this phase, it's important to keep Application Security Engineers informe
 |<i class="fab fa-gitlab fa-fw" style="color:rgb(252,109,38); font-size:1.25em" aria-hidden="true"></i> `workflow::in review` | Applied by an engineer indicating that all MRs required to close an issue are in review. |
 |<i class="fab fa-gitlab fa-fw" style="color:rgb(252,109,38); font-size:1.25em" aria-hidden="true"></i> `workflow::blocked` | Applied if at any time during development the issue is blocked. For example: technical issue, open question to PM or PD, cross-group dependency. |
 |<i class="fab fa-gitlab fa-fw" style="color:rgb(252,109,38); font-size:1.25em" aria-hidden="true"></i> `workflow::verification` | After the MRs in the issue have been merged, this label is applied signaling the issue needs to be verified in staging or production. |
-|<i class="fab fa-gitlab fa-fw" style="color:rgb(252,109,38); font-size:1.25em" aria-hidden="true"></i> `workflow::awaiting security release` | Applied by an engineer after the security issue has passed verification, this label signals that it is ready but awaiting the next [monthly security release](/handbook/engineering/releases/security-releases/).|
+|<i class="fab fa-gitlab fa-fw" style="color:rgb(252,109,38); font-size:1.25em" aria-hidden="true"></i> `workflow::awaiting security release` | Applied by an engineer after the security issue has passed verification, this label signals that it is ready but awaiting the next [monthly security release](/handbook/engineering/infrastructure/library/security-releases-development/).|
 
 #### Key Participants
 
@@ -286,7 +286,7 @@ This phase begins after work has been broken down, and [prioritized](/handbook/p
 
 When an issue is in development the Software Engineer in Test ([SET](/handbook/engineering/quality/quality-engineering/#stable-counterparts)) will ensure the [quad planning](/handbook/engineering/infrastructure/test-platform/quad-planning/#process) process is being followed regarding test plans, regression jobs, end to end tests, etc. Coordination is key between the assigned development engineer and the SET during this phase.
 
-When an issue is in `workflow::in review`, the Application Security Engineer would help validate the risk mitigations through the non-blocking [application security review process](/handbook/security/product-security/application-security/appsec-reviews.html).
+When an issue is in `workflow::in review`, the Application Security Engineer would help validate the risk mitigations through the non-blocking [application security review process](/handbook/security/product-security/application-security/appsec-reviews/).
 
 Documentation for the work will be developed by the engineer and the Technical Writer (see [Documentation with code as workflow](/handbook/product/ux/technical-writing/workflow/#documentation-with-code-as-a-workflow)). The Technical Writer should review the documentation as part of the development process. Items discovered during a documentation review should not block issues moving into the next phase. This may drive the creation of follow-on improvement MRs for the documentation, after release.
 
@@ -300,7 +300,7 @@ When an issue is in `workflow::verification`, the responsible engineer will [man
 | Outcomes | Activities | DRI |
 |----------|------------|-----|
 |<i class="fab fa-gitlab fa-fw" style="color:rgb(252,109,38); font-size:1.25em" aria-hidden="true"></i> **Feature is built** | - Engineering Manager check that [definition of done](https://gitlab.com/gitlab-org/gitlab-foss/-/blob/master/doc/development/contributing/merge_request_workflow.md#definition-of-done) is met<br/>- Provide regular status updates to stakeholders<br/>- Provide asynchronous updates to avoid status check-ins and synchronous stand-ups<br/> - Engineers follow the [engineering process](/handbook/engineering/workflow/#basics) to implement assigned issues. | Engineer |
-|<i class="fab fa-gitlab fa-fw" style="color:rgb(252,109,38); font-size:1.25em" aria-hidden="true"></i> **Feature is tested** | - Engineers test features they implement (see [Definition of done](https://gitlab.com/gitlab-org/gitlab-foss/-/blob/master/doc/development/contributing/merge_request_workflow.md#definition-of-done)).<br/>- SET sets testing requirements on the issue.<br/>- SET follows up on any specific test coverage changes necessary as an outcome of Quad Planning. <br/>- Technical Writers complete a [review](/handbook/product/ux/technical-writing/#reviews) of any developed documentation. <br/>- Application Security Engineer validates the risk mitigations through the non-blocking [application security review process](/handbook/security/product-security/application-security/appsec-reviews.html). | Engineer |
+|<i class="fab fa-gitlab fa-fw" style="color:rgb(252,109,38); font-size:1.25em" aria-hidden="true"></i> **Feature is tested** | - Engineers test features they implement (see [Definition of done](https://gitlab.com/gitlab-org/gitlab-foss/-/blob/master/doc/development/contributing/merge_request_workflow.md#definition-of-done)).<br/>- SET sets testing requirements on the issue.<br/>- SET follows up on any specific test coverage changes necessary as an outcome of Quad Planning. <br/>- Technical Writers complete a [review](/handbook/product/ux/technical-writing/#reviews) of any developed documentation. <br/>- Application Security Engineer validates the risk mitigations through the non-blocking [application security review process](/handbook/security/product-security/application-security/appsec-reviews/). | Engineer |
 
 ### Build phase 3: Launch
 

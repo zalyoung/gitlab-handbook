@@ -103,77 +103,38 @@ During the first week of the final month of the quarter, you need to setup all
 the schedules we use to align with the requested changes in the
 [Support Pagerduty Worksheet](https://docs.google.com/spreadsheets/d/1FdUzVXCZleopfteC2QxW7LJwyylGWGl9hwXHMPkRHbQ/edit?usp=sharing).
 
-To do this, there is a script located in our
-[Pagerduty project](https://gitlab.com/gitlab-com/support/support-ops/other-software/pagerduty)
-called
-[handle_pd_changes](https://gitlab.com/gitlab-com/support/support-ops/other-software/pagerduty/-/blob/master/handle_pd_changes).
+To do this, we utilize the
+[Schedule Implementer](https://gitlab.com/gitlab-support-readiness/pagerduty/schedule-implementer)
+project.
 
-To utilize this, you will need to download a CSV of each of the locked sheets.
-To do that, you will go to the sheet in question, click `File` at the top menu,
-hover over `Download`, and then click `Comma Separate Values (.csv)`. Doing so
-will download that specific sheet to your computer. Keep in mind the CSV file
-that is downloaded has the *entire spreadsheet* within it, so you **will** need
-to modify the file to remove any entries beyond the following quarter.
-
-You will then navigate to the location of the
-[Pagerduty project](https://gitlab.com/gitlab-com/support/support-ops/other-software/pagerduty)
+To utilize this, navigate to the location of the
+[Schedule Implementer](https://gitlab.com/gitlab-support-readiness/pagerduty/schedule-implementer)
 repo on your local computer.
 
-Run the `bundle` command to download the needed gems. An example out this would
-look like:
+You will want to run the `bundle` command to download the needed gem (and it's
+dependencies).
 
-```bash
-jason@laptop:~/dev/gitlab-com/support/support-ops/other-software/pagerduty$ bundle
-Using concurrent-ruby 1.2.2
-Using i18n 1.14.1
-Using minitest 5.18.1
-Using tzinfo 2.0.6
-Using activesupport 7.0.6
-Using bundler 2.4.10
-Using faraday-em_http 1.0.0
-Using faraday-em_synchrony 1.0.0
-Using faraday-excon 1.1.0
-Using faraday-httpclient 1.0.1
-Using multipart-post 2.3.0
-Using faraday-multipart 1.0.4
-Using faraday-net_http 1.0.1
-Using faraday-net_http_persistent 1.2.0
-Using faraday-patron 1.0.0
-Using faraday-rack 1.0.0
-Using faraday-retry 1.0.3
-Using ruby2_keywords 0.0.5
-Using faraday 1.10.3
-Using faraday_middleware 1.2.0
-Using json 2.6.3
-Using oj 3.13.23
-Using yaml 0.2.1
-Bundle complete! 5 Gemfile dependencies, 23 gems now installed.
-Use `bundle info [gemname]` to see where a bundled gem is installed.
-```
-
-After doing so, you should verify you have the four needed environment variables
-set in your local environment (see the project's
-[README](https://gitlab.com/gitlab-com/support/support-ops/other-software/pagerduty/-/tree/master#variables-needed)
+After doing so, you should verify you have the needed environment variables set
+in your local environment (see the project's
+[README](https://gitlab.com/gitlab-support-readiness/pagerduty/schedule-implementer#requirements)
 for more details).
 
-After that has been done, you will run the script with the needed parameters to
-create all the overrides needed for the next quarter (again, see the project's
-[README](https://gitlab.com/gitlab-com/support/support-ops/other-software/pagerduty/-/tree/master#definitions-for-running-the-script)
-for more details). You can also run the commands `./handle_pd_changes HELP` and
-`./handle_pd_changes DEFINE` to see more information on running the script.
-
-The output should show you if each override was created correctly. If you see a
-status of 201, it was successful. If you see anything else, it did not succeed
-(and manual intervention will be required).
-
-An example of the script running would look like:
+With those in place, setup the config.json file within the data folder by doing
+the following:
 
 ```bash
-jason@laptop:~/dev/gitlab-com/support/support-ops/other-software/pagerduty$ ./handle_pd_changes AMER Emergencies 1 temp.csv
-Status 201 for 2024-01-29T16:00:00Z to 2024-01-29T22:00:00Z
-Status 201 for 2024-01-30T16:00:00Z to 2024-01-30T22:00:00Z
-Status 201 for 2024-01-31T16:00:00Z to 2024-01-31T22:00:00Z
+echo $SERVICE_CREDS > data/config.json
 ```
+
+After that has been done, you will run the script itself using:
+
+```bash
+./bin/add_to_schedule
+```
+
+The output should show you if each override for each group within each schedule
+was created correctly. If you see a status of 201, it was successful. If you see
+anything else, it did not succeed (and manual intervention will be required).
 
 After you have run that script, go into Pagerduty and check the corresponding
 schedule for accuracy.
@@ -240,22 +201,26 @@ are not meant to be edited:
 
 | Name of protection              | Sheet Name            | Definition                                      | Who can edit |
 |---------------------------------|-----------------------|-------------------------------------------------|--------------|
-| AMER - CEOC dropdowns           | AMER - CEOC           | 'AMER - CEOC'!2:1000                            | Support Readiness, Support Managers, Kate Grechishkina |
+| AMER - CEOC dropdowns           | AMER - CEOC           | 'AMER - CEOC'!2:1000                            | Support Readiness, Support Managers |
 | AMER - CEOC headers             | AMER - CEOC           | Whole sheet except F2:F1000, M2:M1000, T2:T1000 | Support Readiness |
-| US Government - CEOC dropdowns  | US Government - CEOC  | 'US Government - CEOC'!4:1000                   | Support Readiness, Support Managers, Kate Grechishkina |
+| US Government - CEOC dropdowns  | US Government - CEOC  | 'US Government - CEOC'!4:1000                   | Support Readiness, Support Managers |
 | US Government - CEOC headers    | US Government - CEOC  | Whole sheet except F2:F1000, M2:M1000, T2:T1000 | Support Readiness |
-| AMER - CMOC dropdowns           | AMER - CMOC           | 'AMER - CMOC'!2:1000                            | Support Readiness, Support Managers, Kate Grechishkina |
-| AMER - CMOC headers             | AMER - CMOC           |  Whole sheet except F2:F1001                    | Support Readiness |
-| APAC - CEOC - Group 1 dropdowns | APAC - CEOC - Group 1 | 'APAC - CEOC - Group 1'!2:1000                  | Support Readiness, Support Managers, Kate Grechishkina |
+| AMER - CMOC dropdowns           | AMER - CMOC           | 'AMER - CMOC'!2:1000                            | Support Readiness, Support Managers |
+| AMER - CMOC headers             | AMER - CMOC           | Whole sheet except F2:F1000                     | Support Readiness |
+| APAC - CEOC - Group 1 dropdowns | APAC - CEOC - Group 1 | 'APAC - CEOC - Group 1'!2:1000                  | Support Readiness, Support Managers |
 | APAC - CEOC - Group 1 headers   | APAC - CEOC - Group 1 | Whole sheet except F2:F1000, M2:M1000           | Support Readiness |
-| APAC - CEOC - Group 2 dropdowns | APAC - CEOC - Group 2 | 'APAC - CEOC - Group 2'!2:1000                  | Support Readiness, Support Managers, Kate Grechishkina |
+| APAC - CEOC - Group 2 dropdowns | APAC - CEOC - Group 2 | 'APAC - CEOC - Group 2'!2:1000                  | Support Readiness, Support Managers |
 | APAC - CEOC - Group 2 headers   | APAC - CEOC - Group 2 | Whole sheet except F2:F1000, M2:M1000           | Support Readiness |
-| APAC - CMOC dropdowns           | APAC - CMOC           | 'APAC - CMOC'!2:1000                            | Support Readiness, Support Managers, Kate Grechishkina |
+| APAC - CMOC dropdowns           | APAC - CMOC           | 'APAC - CMOC'!2:1000                            | Support Readiness, Support Managers |
 | APAC - CMOC headers             | APAC - CMOC           | Whole sheet except F2:F1000, M2:M1000           | Support Readiness |
 | EMEA - CEOC dropdowns           | EMEA - CEOC           | 'EMEA - CEOC'!2:1000                            | Support Readiness, Support Managers, Kate Grechishkina |
-| EMEA - CEOC headers             | EMEA - CEOC           | Whole sheet except F2:F1000, M2:M1000           | Support Readiness |
+| EMEA - CEOC headers             | EMEA - CEOC           | Whole sheet except F2:F1000, M2:M1000, T2:T1000 | Support Readiness |
 | EMEA - CMOC dropdowns           | EMEA - CMOC           | 'EMEA - CMOC'!2:1000                            | Support Readiness, Support Managers, Kate Grechishkina |
 | EMEA - CMOC headers             | EMEA - CMOC           | Whole sheet except F2:F1000                     | Support Readiness |
-| Managers dropdowns              | Managers              | 'Managers'!2:1000                               | Support Readiness, Support Managers, Kate Grechishkina |
-| Managers headers                | Managers              | Whole sheet except F2:F1000, M2:M1000, T2:T1000 | Support Readiness |
+| AMER Managers dropdowns         | AMER Managers         | 'AMER Managers'!2:1000                          | Support Readiness, Support Managers |
+| AMER Managers headers           | AMER Managers         | Whole sheet except F2:F1000, M2:M1000           | Support Readiness |
+| APAC Managers dropdowns         | APAC Managers         | 'APAC Managers'!2:1000                          | Support Readiness, Support Managers |
+| APAC Managers headers           | APAC Managers         | Whole sheet except F2:F1000                     | Support Readiness |
+| EMEA Managers dropdowns         | EMEA Managers         | 'APAC Managers'!2:1000                          | Support Readiness, Support Managers, Kate Grechishkina |
+| EMEA Managers headers           | EMEA Managers         | Whole sheet except F2:F1000                     | Support Readiness |
 | Available persons               | People                | Whole sheet                                     | Support Readiness |

@@ -16,7 +16,7 @@ For any questions relating to benefits, please reach out to [HelpLab](https://he
 - [GitLab BV (Netherlands)]({{< ref "bv-benefits-netherlands" >}})
 - [GitLab BV (Belgium)]({{< ref "bv-benefits-belgium" >}})
 - [GitLab BV (Finland)]({{< ref "bv-benefits-finland" >}})
-- [Global Upside (India, Philippines, Kenya, Chile, Costa Rica, and Latvia)]({{< ref "global-upside-benefits-india" >}})
+- [Global Upside (India)]({{< ref "global-upside-benefits-india" >}})
 - [GitLab Inc (US)]({{< ref "inc-benefits-us" >}})
 - [GitLab LTD (UK)]({{< ref "ltd-benefits-uk" >}})
 - [GitLab GmbH (Germany)]({{< ref "gmbh-germany" >}})
@@ -28,8 +28,9 @@ For any questions relating to benefits, please reach out to [HelpLab](https://he
 - [GitLab France S.A.S.]({{< ref "france-sas" >}})
 - [GitLab Singapore Pte Ltd]({{< ref "singapore-pte-ltd" >}})
 - [GitLab Iberia s.r.l Spain](/handbook/entity/iberia-srl-spain/)
-- [Remote Technology (Brazil,Denmark, Italy, Switzerland, South Africa, Mexico, Hungary, Sweden and Austria)]({{< ref "remote-com" >}})
-- [Papaya Global (UAE, Italy)]({{< ref "papaya-global" >}})
+- [Remote Technology (Brazil, Denmark, Italy, Mexico, Switzerland, Hungary, and Sweden)]({{< ref "remote-com" >}})
+- [Papaya Global (Italy)]({{< ref "papaya-global" >}})
+- [Global Expansion (Austria, Chile, Costa Rica, Kenya, Latvia, Mexico, Philippines, South Africa, and UAE)]({{< ref "global-expansion" >}})
 
 ### Benefits Available to Contractors
 
@@ -63,7 +64,7 @@ In the unfortunate event that a GitLab team member passes away, GitLab will prov
     - Upload to your Documents folder in Workday - [here](https://docs.google.com/document/d/19B0lsMu7dMhof1ghPuBxHP23DuDqi2qpWF8pCWyEUN4/edit) is the job aid for quick reference.
   - For part-time GitLab team members, the lump sum is calculated pro-rata, so for example for a team member that works for GitLab 50% of the time, the lump sum would be [$10,000]({{< ref "compensation#exchange-rates" >}}).
 
-## Discount Well-being Platform
+## HealthKick Well-being Platform & Discounts
 
 Starting 2024, GitLab has partnered with HealthKick, a global well-being platform providing Team Members discounts across well-being, fitness, & overall lifestyle offerings/services.
 
@@ -72,7 +73,7 @@ Starting 2024, GitLab has partnered with HealthKick, a global well-being platfor
 We know that whole-person wellness is important for feeling good. That's why we are offering all employees access to HealthKick (at no-cost), a personal wellness membership dedicated to helping you feel your best. When you enroll you'll gain access to an array of 250+ brands, content and expert resources that will help you optimize your well-being. From fitness classes and personalized workout plans to nutrition workshops and mental health resources.
 
 Please review HealthKick's member resources and the self-registration link/instructions to enroll with anytime throughout the year.
-[Gitlab self-registration link](https://www.health-kick.com/companies/1004/registration)
+[GitLab self-registration link](https://www.health-kick.com/companies/1004/registration)
 [HealthKick Overview](https://drive.google.com/file/d/1AitsrkUDA66UV5xZsv5ooqxmr7BpxlLh/view)
 [HealthKick Welcome Packet](https://drive.google.com/file/d/1_vdASrSSzztvEwM7NOx_szEPYMkPBiiA/view?usp=sharing)
 
@@ -88,11 +89,33 @@ GitLab has a "Flexible PTO policy" [time off policy]({{< ref "paid-time-off" >}}
 
 ## Growth and Development Fund
 
-GitLab supports team members who wish to continue their education and growth within their professional career. GitLab team-members are eligible for a reimbursement of up to $10,000 USD per calendar year (January 1st - December 31st) depending on tenure, performance, company need for the learned skill, and available budget. A course/program is considered to be included in the calendar year in which the course/program is paid/reimbursed (which should also be the same calendar year in which it ends). If a course/program ends in December, team members have a grace period until the end of January to claim for Growth & Development reimbursements from the previous calendar year.
+GitLab supports team members who wish to continue their education and growth within their professional career. GitLab team-members are eligible for a reimbursement of up to $10,000 USD per calendar year (January 1st - December 31st) depending on tenure, performance, company need for the learned skill, and available budget. A course/program is considered to be included in the calendar year in which the course/program is paid/reimbursed. If a course/program ends in December, team members have a grace period until the end of January to claim for Growth & Development reimbursements from the previous calendar year.
 
 Budget estimations for the Growth & Development Fund are based on utilization rates from past years, adjusted for the size of the company. The budget is managed on a company-wide scale, not division-specific. For example, approving reimbursement for a team member in Engineering does not "take away" budget from other engineers. Eligibility is managed on an individual basis. Eligibility for this benefit is part of each GitLab team member's Total Rewards package.
 
-The [Growth and Development]({{< ref "/handbook/people-group/learning-and-development/growth-and-development/" >}}) covers information on the application process and the different types of expenses that are eligible for reimbursement.
+The [Growth and Development]({{< ref "/handbook/people-group/learning-and-development/growth-and-development/" >}}) handbook page covers information on the application process and the different types of expenses that are eligible for reimbursement.
+
+## Modern Health - Mental Health Benefit
+
+GitLab offers Mental Health Support through therapy and coaching sessions to all team members via [Modern Health]({{< ref "modern-health" >}}).
+
+## Vivvi Caregiving Benefits
+
+GitLab recognizes the challenges that balancing caregiving responsibilities at home can bring, and we strive to support our team members with comprehensive benefits. GitLab team members are eligible to access **Backup Care & Tutoring Benefits** through Vivvi.
+
+GitLab team members receive credits to use for backup care and learning benefits through Vivvi. [Click here](https://share.hsforms.com/1gj0LdnKCQ1-GXyLsGmFDjg47d19) to sign up and activate your benefits.
+
+### Benefit Options & Taxability
+
+- **Care Cash:** Use your preferred backup care provider and get reimbursed up to 100 USD per day for the cost.
+- **Virtual Tutoring:** Weekly, 1-hour sessions for students (ages 5-18) in subjects like math, SAT prep, or executive functioning skills.
+- **Center-Based Backup Child Care:** Available at Vivvi’s NY campuses or network daycare centers in the US and UK.
+- **In-Home Backup Child Care** For children ages 0–12 in the US, Canada, and UK.
+- **In-Home Backup Adult & Elder Care** For adults of all ages in the US, Canada, and UK.
+
+More information on the program can be found on the [Vivvi FAQ.](https://drive.google.com/file/d/1_AcfteDGUB9L6ZocdUsG3PuNaTGKbD-Y/view)
+
+Please note that this benefit is considered **taxable income**. To ensure compliance, any usage of the benefit will be reported, and applicable taxes will be deducted through payroll.
 
 ## GitLab Summit
 
@@ -107,9 +130,9 @@ In an emergency, International SOS (ISOS) can provide quick medical, safety, and
 
 Your coverage as a GitLab team member is automatic and is year-round. There are several ways to interact with ISOS, depending on your preference:
 
-- Team members can download the [ISOS emergency app](https://my.internationalsos.com/LP=8890?_ga=2.54701099.1827787566.1652889843-59998074.1652889840) — it's the best way to get medical, safety, and security assistance abroad. Before traveling, open the App and register using your GitLab email address.
+- Team members can download the [ISOS emergency app](https://my.internationalsos.com/LP=8890) — it's the best way to get medical, safety, and security assistance abroad. Before traveling, open the App and register using your GitLab email address.
   - Please use a unique password and not the same as your existing GitLab credentials.
-  - Note that this is not a GitLab application and is managed by ISOS. You can read more about the app [here](https://internationalsos.com/subscriber/assistance-app).
+  - Note that this is not a GitLab application and is managed by ISOS. You can read more about the app [here](https://www.internationalsos.com/subscriber/assistance-app).
   - If you have medical, safety, or security questions before or during travel, open the ISOS app and press the Need Assistance button. You will be directed to ISOS's closest emergency alarm center, where a nurse, doctor, safety, or security expert will assist you.
   - If team members prefer not to download the app, we encourage you to follow this [link](https://www.internationalsos.com/Private/NET_StandardMembershipCards/comprehensive.aspx?CustomerNumber=401GDA935395IT&CompanyID=GitLab%2c+Inc.&ProgramName=Assignee+%26+International+Traveler+Assistance&PhoneNum1=Philadelphia+++%2b1+215+942+8226&PhoneNum2=Sydney+++%2b61+2+9372+2468&PhoneNum3=London+++%2b44+(0)20+8762+8008&PhoneNum4=Singapore+++%2b65+6338+7800&Language=en-US) and print or take a picture of the membership card with the emergency contact details. You can save the number in your phone for easy access.
   - Note that International SOS is an optional resource for team members and is only one of the ways you can receive care.
@@ -137,10 +160,6 @@ If you have questions, reach out in the [#peopleconnect](https://gitlab.enterpri
 ## Immigration
 
 GitLab offers benefits in relation to [obtaining visas and work permits](/handbook/people-group/visas/) for eligible team members.
-
-## Employee Assistance Program
-
-GitLab offers an Employee Assistance Program to all team members via [Modern Health]({{< ref "modern-health" >}}).
 
 ## Incentives
 
@@ -171,7 +190,9 @@ Examples of when someone may request a meal train (this list isn't exhaustive):
 - Extended illnesses
 - Condolences
 
-### Instructions for starting a Meal Train
+<details markdown="1">
+
+<summary>Instructions for starting a Meal Train</summary>
 
 1. You may create a Meal Train for yourself or for a fellow team member. If you are not the recipient of the Meal Train, please receive approval from the team member first and forward this to the Total Rewards team. We highly encourage managers to reach out to their team member to see if they would like a Meal Train if the manager informs them of a life disruption.
 1. When creating a Meal Train, please create this in GitLab using the [Meal Train issue template](https://gitlab.com/gitlab-com/people-group/total-rewards/-/blob/master/.gitlab/issue_templates/meal_train.md).
@@ -180,13 +201,19 @@ Examples of when someone may request a meal train (this list isn't exhaustive):
     - The Total Rewards team is also happy to create the issue on your behalf if you send the form details to total-rewards@ domain.
 1. The issue template has 5 pre-populated entries to add a date to, but the Meal Train can be longer or shorter than this. Please add as many dates that are needed and if at the end, you feel more are needed, please add the additional dates and notify the Total Rewards Analyst assigned to the issue that you have added dates so they can help gather support.
 
-### Instructions for participating in a Meal Train
+</details>
+
+<details markdown="1">
+
+<summary>Instructions for participating in a Meal Train</summary>
 
 1. All Meal Trains are posted by a member of the Total Rewards team in the #whats-happening-at-gitlab slack channel. You can also check the [Total Rewards issue tracker](https://gitlab.com/gitlab-com/people-group/total-rewards/-/issues) where all Meal Trains will be designated as such.
 1. If there is a Meal Train occuring, please read through the entire issue. If you are interested in participating, please edit the issue and add your name to the date you would like to contribute to. There is also a field to add the meal you will be providing or the meal delivery service you intend to gift. More instructions for how to proceed as a team member will be located in the issue.
     - Please note, it is typically only possible to gift a gift card from within the same country. The Total Rewards team is researching possible ways to participate from a different country than the recipient, but until we have a solution, we don't advise participating in this from a different country and can not help facilitate this.
 1. Ensure you can follow through on the date you sign up for or please help coordinate a replacement as soon as you know you can no longer participate.
 1. Participation is voluntary and is **NOT** reimbursable by GitLab. Any expense incurred would be your responsibility.
+
+</details>
 
 ## Fertility & Family Planning
 
@@ -211,7 +238,7 @@ You don't have to take your Parental Leave in one continuous period, we encourag
 **A few things to note:**
 
 - If you are planning to change or extend your Parental Leave by using a different type of leave such as PTO or any local statutory leave, please send an e-mail to leaves@gitlab.com.
-- When determing the dates of your leave, GitLab uses a 1/7 formula (1 week = 7 days). This means if you are planning on returning to work on a Monday, the last day of your leave will be Sunday. Please use this formula when submitting your Workday request.
+- When determining the dates of your leave, GitLab uses a 1/7 formula (1 week = 7 days). This means if you are planning on returning to work on a Monday, the last day of your leave will be Sunday. Please use this formula when submitting your Workday request.
 
 ### Taking PTO After Taking Parental Leave
 
@@ -219,7 +246,9 @@ If you need to take more time off after Parental Leave, you may utilize GitLab's
 
 Please submit the dates of your PTO in Workday by selecting `Paid Time Off`.
 
-### How to Initiate Your Parental Leave
+<details markdown="1">
+
+<summary>How to Initiate Your Parental Leave</summary>
 
 Some team members may feel comfortable sharing their news sooner than other team members. You can share your news with your Manager whenever you feel comfortable, but we recommend communicating your plan to your manager at least 2-3 months before your leave starts for workload planning purposes. In the meantime, familiarize yourself with the steps below and specific leave requirements in your [country]({{< ref "general-and-entity-benefits#entity-benefits" >}}) (if any).
 
@@ -235,9 +264,13 @@ Your manager and the Absence Management team will be notified after you submit y
   - If eligible to roll over public holidays, and you'd like to use them to extend your time away, please enter this as `Public Holiday` in Workday and add a note indicating "rolling over holidays which occured while on parental leave".
 - Some countries require extra paperwork or have specific leave requirements, which are subject to change as legal requirements change. Please take a look at your [country's leave policy](#entity-benefits).
 
+</details>
+
 ### Commission Payout and Quota Relief
 
-### Commission Payments on Parental Leave
+<details markdown="1">
+
+<summary>Commission Payments on Parental Leave</summary>
 
 Team members on a parental leave of absence longer than 30 days in length will be eligible for parental leave commissions payments, as outlined below.
 
@@ -249,7 +282,11 @@ On the day you return from leave and going forward, your commissions will be bas
 
 In all cases, target variable pay used for LOA commission payments is 1/12 of annual on-target incentives (OTI) per month on leave.
 
-#### Quota Relief While On Parental Leave
+</details>
+
+<details markdown="1">
+
+<summary>Quota Relief While On Parental Leave</summary>
 
 Additionally, effective Q1 FY22, commissioned roles are eligible to receive quota relief during their parental leave if the team member has six months or greater of tenure with GitLab before the start of their leave and their leave of absence is longer than 60 continuous days. The team member will receive credit and commissions as specified in their existing Participant Schedule that occur ***prior*** to the start of the leave. After 60 continuous days of parental leave, quota relief will be applied to the team member on leave for the total duration of the leave up to a total of 4 months. The team member would receive an amended Participant Schedule upon return from leave. That amended participant schedule will include a prorated On Target Incentive based off the number of days that a team member is in seat for the fiscal year. For example, If coming back from leave at the beginning of a fiscal year, the On Target Incentive will not be prorated. Please see a [reference slide here](https://docs.google.com/presentation/d/1pWM8UhJGL7G8w_QzLKM1q2Rqql4OKm7vLD9HSCKfT9g/edit#slide=id.p) for an example of how the quota relief process and calculation works. For more information on quota relief and commissions on leave, please refer to the terms in the [Sales Compensation Plan](/handbook/finance/sales-comp-plan/#sales-compensation-plan).
 
@@ -261,19 +298,25 @@ For Sales roles with a utilization attainment, like the [Professional Services E
 
 On the day you return from leave, the utilization payout returns to the established utilization attainment ranges.
 
+</details>
+
 ### Commission Payments on Non-Parental Leave
 
 Effective Q1 FY25, team members on leave for 30 days or more will be eligible for Commissions to be paid for the first five weeks of non-parental leave. Commissions will be paid based on the 6 prior months of performance with a cap at 100% of plan. After five weeks of non-parental leave, the team member would become ineligible for commissions. Any local requirements for commission payments on non-parental leave would supersede this policy.
 
 For Solution Architects and Sales Management and Customer Success Management, payment will be calculated for individuals using actual team performance for the first five weeks of non-parental leave. These roles will not be eligible for quota relief during non-parental leave.
 
-#### Quota Relief While On Non-Parental Leave
+<details markdown="1">
+
+<summary>Quota Relief While On Non-Parental Leave</summary>
 
 Additionally, effective Q1 FY24, commissioned roles are eligible to receive quota relief if the team member has been with GitLab for six months or longer prior to the start of the leave. The team member will receive credit and commissions as specified in their existing Participant Schedule that occur ***prior*** to the start of the leave. After 60 continuous days of leave, quota relief will be applied to the team member on leave for the total duration of the leave up to a total of 3 months. The team member would receive an amended Participant Schedule upon return from leave. That amended participant schedule will include a prorated On Target Incentive based off the number of days that a team member is in seat for the fiscal year. For example, if coming back from leave at the beginning of a fiscal year the On Target Incentive will not be prorated. Please review this [reference slide](https://docs.google.com/presentation/d/1pWM8UhJGL7G8w_QzLKM1q2Rqql4OKm7vLD9HSCKfT9g/edit#slide=id.p) for an illustration of the quota relief and calculation process. For more information on quota relief and commissions on leave, please refer to the terms in the [Sales Compensation Plan](/handbook/finance/sales-comp-plan/#sales-compensation-plan).
 
 Sales management has discretion on how to cover a team member's territory while they are on leave. However, if another team member is assigned to cover business for someone on leave, they should be assigned the opportunity in SFDC but not the account. Team members covering opportunities will be compensated on the opportunities that they close in their name. Reassigning accounts may trigger quota changes.
 
 You are entitled to and need to comply with your local regulations. They override our policy.
+
+</details>
 
 ### Returning from Parental Leave
 
@@ -350,10 +393,10 @@ Managers of soon to be parents should check out this [Parental Leave Manager Too
 
 If you're interested in learning about how other GitLab team members approach parenthood, take a look at [the parenting resources wiki page](https://gitlab.com/gitlab-com/gitlab-team-member-resources/wikis/parenting) and [#intheparenthood](https://gitlab.slack.com/messages/CHADS8G12/) on Slack.
 
-## Team Member Relief Program
+## GitLab Cares - Team Member Disaster Relief Program
 
 When Team Members are affected by natural disasters such as fires, earthquakes, floods, etc..., GitLab has established a Team Member Relief Program to assist with financial hardship from these disasters or other emergencies. This program is managed in partnership with E4E Relief, a non-profit that helps businesses establish global disaster relief programs for their Team Members.
 
-This program provides Team Members and their families with short-term, need-based assistance in times of extreme need. If you experience a difficult situation, please visit the [GitLab Cares Portal](http://gitlab.e4erelief.org/) to easily determine if you're eligible for program assistance and to apply for assistance.
+This program provides Team Members and their families with short-term, need-based assistance in times of extreme need. If you experience a difficult situation, please visit the [GitLab Cares Portal](https://gitlab.e4erelief.org/) to easily determine if you're eligible for program assistance and to apply for assistance.
 
-GitLab started the fund with an initial contribution to support team members. Team Members may also choose to make donations to the fund as part of their annual giving and donation efforts. If you wish to make a donation, please visit the Portal and select 'Contribute to the Fund'. Donationas are tax-deductable (country-specific tax laws apply).
+GitLab started the fund with an initial contribution to support team members. Team Members may also choose to make donations to the fund as part of their annual giving and donation efforts. If you wish to make a donation, please visit the Portal and select 'Contribute to the Fund'. Donations are tax-deductable (country-specific tax laws apply).

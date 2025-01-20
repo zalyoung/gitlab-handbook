@@ -23,7 +23,7 @@ Documenting a Section, Stage, Group and Category direction is critical to commun
 
 ### Understanding Milestones and Releases
 
-- [Interpreting release dates](/handbook/product/interpreting-release-dates.html) clarifies how product teams use milestones and labels to indicate the likelihood of feature delivery within certain time frames.
+- [Interpreting release dates](/handbook/product/interpreting-release-dates/) clarifies how product teams use milestones and labels to indicate the likelihood of feature delivery within certain time frames.
 - The [release definitions](/handbook/engineering/releases/) are maintained by the Engineering Team and we run the end of each Milestone on the [release date](/handbook/engineering/releases/).
 
 ### Relevant links
@@ -34,16 +34,34 @@ Documenting a Section, Stage, Group and Category direction is critical to commun
 
 ## Communication
 
+### Product Org Communication Touchpoints
+
+In November 2024 we adjusted our communicated touch points based on feedback from our [FY25-Q2 Engagement Survey](https://gitlab.com/groups/gitlab-com/-/epics/2402), AMAs, skip levels, and 1:1s. The two key areas we are prioritizing:
+
+- Embedding more asynchronous touchpoints to reach team members across time zones
+- Implementing additional opportunities to cascade information from E-Group and PLT
+
+#### Synchronous Product Org Communication Touch Points
+
+- Product All-Team Meeting: We have a quarterly synchronous meeting for the Product Org. As of Nov 2024, we are expanding on the existing content and structure to ensure key strategic updates from each PLT department head are effectively cascading through the organization regularly.
+- Product Key Review: We follow the company wide key-review format which covers key updates to the product division and is shared with cross-functional stakeholders.
+
+#### Asynchronous Product Org Communication Touch Points
+
+- CPO Fortnightly Update: David posts a slack message in #product-private every two weeks. This is a way for him to share what is top of mind for E-group and across the product team.
+- New Hire Intros: New hires to the product org are encouraged to post their introduction in the #new-team-members slack channel. Once per month, a member of our Product Leadership Team will post a consolidated list of new hires and their intros into the #product-private slack channel.
+- Monthly Showcase: On a 4-week cadence we have an async monthly showcase, facilitated in the #product-private channel, where people can share what they're working on with the rest of the Product Org. This is a low-key competition with prizes to incentivize folks to contribute videos. Team members can add videos throughout the month, then the entire Product Org can vote on their favorite video via google form. At the end of the 4-week period, there will be a prize for the winner, announced in David's fortnightly update. In the case of a tie in number of views, David will make the final call on who wins. We hope that this encourages team members to share their wins and exciting developments in their feature areas! Note: We’re doing this on a 4-week cadence (rather than calendar month) so that it aligns with David’s fortnightly updates, which are posted every other week. This should still be roughly aligned to the calendar month.
+
+### Other Communication Channels
+
 - [**Product Function Issue Tracker**](https://gitlab.com/gitlab-com/Product/issues) - please use
 confidential issues for topics that should only be visible to team members at GitLab.
 - [**Product Function GitLab Group - @gl-product**](https://gitlab.com/groups/gl-product/-/group_members)
 - [**Product Management GitLab Group - @gl-product-pm**](https://gitlab.com/groups/gl-product/-/group_members)
-- **Bi-Weekly Meeting**
-- [**Chat channel - #product**](https://gitlab.slack.com/archives/product)
+- [**Chat channel - #product-private**]. This is a private slack channel for members of the product-org; new team members are automatically added to this channel as part of onboarding.
+- [**Chat channel - #product**](https://gitlab.slack.com/archives/product). All GitLab internal team members can use the `#product` channel for any product-related questions but you'll also find more direct assistance in the various [Product Group](/handbook/product/categories/) channels.
 
-For internal team members please feel free to use the `#product` channel for any product-related questions but you'll also find more direct assistance in the various [Product Group](/handbook/product/categories/) channels.
-
-### Communicating with the Entire Product Management Function
+### Communicating with the Entire Product Management Function At Once
 
 When communicating change or a request for action to the entire product function, utilize the following levels and corresponding activities.
 
@@ -216,9 +234,9 @@ Development Kit (GDK).
 
 ### Dealing with security issues
 
-Quality Engineering Managers (QEM) are the DRIs for prioritizing bugs. These include security issues which are prioritized in conjunction with the security team. Product Managers must work with their QEM to set Milestones for issues marked with the `bug::vulnerability` [type label](/handbook/product/groups/product-analysis/engineering/dashboards/#work-type-classification) to guarantee they are shipped by their due date, as defined in the [Security Team process](/handbook/security/engaging-with-security/#severity-and-priority-labels-on-security-issues).
+Quality Engineering Managers (QEM) are the DRIs for prioritizing bugs. These include security issues which are prioritized in conjunction with the security team. Product Managers must work with their QEM to set Milestones for issues marked with the `bug::vulnerability` [type label](/handbook/product/groups/product-analysis/engineering/metrics/#work-type-classification) to guarantee they are shipped by their due date, as defined in the [Security Team process](/handbook/security/engaging-with-security/#severity-and-priority-labels-on-security-issues).
 
-While Product Managers are the DRIs for [milestone planning](/handbook/product/cross-functional-prioritization/#planning-for-the-milestone), they must respect the prioritization order for bugs and maintenance issues as determined by their QEM and EM, respectively. As such they should deeply understand the implications and risks of security-related issues and balance those when prioritizing a milestone work. Addressing a serious security issue by its due date may require temporarily adjusting the desired work type ratio for one or more milestones. Priority labels and Due Date designations for security issues should never be modified by Product Managers as they are directly managed by the Security Team and used to track metrics and progress.
+While Product Managers are the DRIs for [milestone planning](/handbook/product/product-processes/cross-functional-prioritization/#planning-for-the-milestone), they must respect the prioritization order for bugs and maintenance issues as determined by their QEM and EM, respectively. As such they should deeply understand the implications and risks of security-related issues and balance those when prioritizing a milestone work. Addressing a serious security issue by its due date may require temporarily adjusting the desired work type ratio for one or more milestones. Priority labels and Due Date designations for security issues should never be modified by Product Managers as they are directly managed by the Security Team and used to track metrics and progress.
 
 ### Foundational Requirements
 
@@ -263,7 +281,7 @@ When evaluating feature data storage, the following data storage topics should b
 
 - **What quantity data needs to be stored?** - What amount of data will need to be stored for the feature to function as intended. Is this level of data storage bounded, or is there a potential for unbounded growth? Unbounded growth should be avoided if possible.
 - **How long should data be retained?** - We should consider carefully the need to store data indefinitely. For many features, removing certain data after a specified time period won't impact the functionality of the feature. In these instances, we should put retention policies in place. These retention polices should have a sane default value which is considered best practice for operating the feature long term. _Note: it is easier to iterate toward longer data retention time frames, but far harder to reduce retention time frames. Consider starting out with a conservative time frame._
-- **How often will this data be accessed?** - Much like the quantity of data stored can lead to scalability issues, so can the increased load on the data stores when the data is accessed frequently. There are ways to ease the burden on our infrastructure by properly forming queries, caching often used data, or carefully considering how repository data is accessed. If there are questions, consider reaching out to the [Database Group](/handbook/product/categories/#database-group) or the [Gitaly::Git Group](/handbook/product/categories/#gitalygit-group) for assistance.
+- **How often will this data be accessed?** - Much like the quantity of data stored can lead to scalability issues, so can the increased load on the data stores when the data is accessed frequently. There are ways to ease the burden on our infrastructure by properly forming queries, caching often used data, or carefully considering how repository data is accessed. If there are questions, consider reaching out to the [Database Group](/handbook/product/categories/#database-group) or the [Git Group](/handbook/product/categories/#git-group) for assistance.
 
 A good example where we've successfully evaluated data storage is our CI/CD Artifacts. We've set some sane default values for both [maximum artifact size](https://docs.gitlab.com/ee/administration/settings/continuous_integration.html#maximum-artifacts-size) and for [default artifacts expiration](https://docs.gitlab.com/ee/administration/settings/continuous_integration.html#default-artifacts-expiration), while making these both configurable for administrative users.
 
@@ -416,6 +434,7 @@ changes quickly in the future so we try to avoid complex code, complex data stru
 - It is orthogonal to other features (prevents overlap with current and future features).
 - The requirements are clear.
 - It can be achieved within the scheduled milestone. Larger issues should be split up, so that individual steps can be achieved within a single milestone.
+- Refer to [research participant gratuities](/handbook/product/ux/ux-research-coordination/participation-gratuities/) section to understand [if your study qualifies for incentive distribution](/handbook/product/ux/ux-research-coordination/participation-gratuities/#study-qualification).
 
 We schedule a prioritized issue by assigning it a milestone; for more on this see
 Planning a Future Release.
@@ -456,7 +475,7 @@ The [SaaS-First product investment theme](https://about.gitlab.com/direction/#sa
 
 #### Availability
 
-Downtime of GitLab.com has a material impact on our customers. From a 2014 report [Gartner estimates](https://blogs.gartner.com/andrew-lerner/2014/07/16/the-cost-of-downtime/) that downtime costs companies on average "$5,600 per minute, which extrapolates to well over $300K per hour." Furthermore, SaaS downtime can severely disrupt the productivity of GitLab Inc since we rely heavily on GitLab.com to run our business. Finally, downtime can also lead to customer churn and damage to our reputation. Thus, it is crucial as a company we collectively work towards consistently maintaining our [99.95% SLA on GitLab.com](https://dashboards.gitlab.net/d/general-slas/general-slas?orgId=1&from=1614038400000&to=1616630399000). There are a few things that PMs can do in partnership with their engineering team to help ensure overall Availability for GitLab.com.
+Downtime of GitLab.com has a material impact on our customers. From a 2014 report [Gartner estimates](https://web.archive.org/web/20230709185836/https://blogs.gartner.com/andrew-lerner/2014/07/16/the-cost-of-downtime/) that downtime costs companies on average "$5,600 per minute, which extrapolates to well over $300K per hour." Furthermore, SaaS downtime can severely disrupt the productivity of GitLab Inc since we rely heavily on GitLab.com to run our business. Finally, downtime can also lead to customer churn and damage to our reputation. Thus, it is crucial as a company we collectively work towards consistently maintaining our [99.95% SLA on GitLab.com](https://dashboards.gitlab.net/d/general-slas/general-slas?orgId=1&from=1614038400000&to=1616630399000). There are a few things that PMs can do in partnership with their engineering team to help ensure overall Availability for GitLab.com.
 
 - Make sure each new feature that gets built has full end to end [test coverage](/handbook/engineering/quality/#test-coverage-and-tooling).
 - Before rolling out a new service to support a major new feature launch, ensure that your team has gone through the [readiness review process](/handbook/engineering/infrastructure/production/readiness/#starting-a-proposal). The effort and timing for a readiness review will vary depending on the complexity of the feature. It is recommended to start this process as early as practical when a significant number of the questions can be answered but not too late to further develop the feature based on learnings from the review.
@@ -482,14 +501,14 @@ To track hard adoption blockers, use the ~"GitLab.com Enterprise Readiness" labe
 
 #### SaaS Features
 
-There are a few special considerations when it comes to delivering features for SaaS. In order to achieve [parity between SaaS and Self-managed installations](/handbook/product/product-principles/#parity-between-saas-and-self-managed-deployments) PMs should prioritize efforts to eliminate existing feature gaps that exist [across the two installations](https://about.gitlab.com/features/). Additionally, new features should ship for SaaS and self-managed at the same time. Features should be implemented at the group level first, before being implemented at the instance level, so that they will work across [both self-managed and SaaS](https://about.gitlab.com/direction/manage/#gitlabcom). Finally, in order for new features to be adequately monitored, they should include [appropriate logging and observability](https://gitlab.com/gitlab-com/gl-infra/readiness/blob/master/.gitlab/issue_templates/production_readiness.md#monitoring-and-alerts), which makes troubleshooting much easier.
+There are a few special considerations when it comes to delivering features for SaaS. In order to achieve [parity between SaaS and Self-managed installations](/handbook/product/product-principles/#parity-between-saas-and-self-managed-deployments) PMs should prioritize efforts to eliminate existing feature gaps that exist [across the two installations](https://about.gitlab.com/features/). Additionally, new features should ship for SaaS and self-managed at the same time. Features should be implemented at the group level first, before being implemented at the instance level, so that they will work across [both self-managed and SaaS](https://about.gitlab.com/direction/foundations/#gitlabcom). Finally, in order for new features to be adequately monitored, they should include [appropriate logging and observability](https://gitlab.com/gitlab-com/gl-infra/readiness/blob/master/.gitlab/issue_templates/production_readiness.md#monitoring-and-alerts), which makes troubleshooting much easier.
 
 ### Working with Your Group
 
 As a product manager, you will be assigned as the [stable counterpart](/handbook/company/structure/#specialists-experts-and-mentors) to a single [group](/handbook/company/structure/#groups). At GitLab we abide by
 unique, and extremely beneficial guidelines when interacting with our groups. These include:
 
-1. Product managers are the [DRIs](/handbook/people-group/directly-responsible-individuals/) for overall work prioritization but work collaboratively with their EM, UX, and QEM stable counterparts to ensure the right priorities from each [work type](/handbook/product/groups/product-analysis/engineering/dashboards/#work-type-classification) are considered as each has a different DRI. Product Managers are responsible for communicating overall priority.
+1. Product managers are the [DRIs](/handbook/people-group/directly-responsible-individuals/) for overall work prioritization but work collaboratively with their EM, UX, and QEM stable counterparts to ensure the right priorities from each [work type](/handbook/product/groups/product-analysis/engineering/metrics/#work-type-classification) are considered as each has a different DRI. Product Managers are responsible for communicating overall priority.
 1. Product Managers provide the what and when for feature work. Engineering (UX, Backend, Frontend, Quality) provide the how. This process is documented as part of our monthly [product](/handbook/product-development-flow/), [engineering](/handbook/engineering/workflow/#product-development-timeline) and [UX](/handbook/product/ux/product-designer/) cadence. We [define stable counterparts for each of these functions](/handbook/product/categories/) within a group.
 
 As an all-remote company, our crispness when it comes to responsibilities throughout the Product Delivery process was born out of necessity, but it pays untold dividends. Some of the benefits include:
@@ -507,8 +526,8 @@ As described above, prioritization is a multi-faceted problem. In order to
 translate the priorities of any given group into action by our engineering
 teams, we need to be able to translate this multi-faceted problem into a flat
 list of priorities for at least the next release cycle. Product Managers are
-[responsible for taking all these prioritization considerations](/handbook/product/cross-functional-prioritization/#planning-for-the-milestone) and creating a
-clear, sequenced list of next priorities. This list should be represented as an [issue board](https://about.gitlab.com/stages-devops-lifecycle/issueboard/)
+[responsible for taking all these prioritization considerations](/handbook/product/product-processes/cross-functional-prioritization/#planning-for-the-milestone) and creating a
+clear, sequenced list of next priorities. This list should be represented as an [issue board](https://docs.gitlab.com/ee/user/project/issue_board.html)
 so that each team has a clear interface for making decisions about work. From
 this list, Product Designers, Engineering Managers and Product Managers can work together to
 determine what items will be selected for work in the immediate future.
@@ -537,7 +556,7 @@ responsible for velocity and delivery. However, there are instances when there i
 - Infrastructure projects with customer commitment or heavily upvoted should be given a priority indicative of other customer commitments
 - Vision or Direction items for a launch
 
-As the DRI for [milestone prioritization](/handbook/product/cross-functional-prioritization/#planning-for-the-milestone), it is the Product Manager's job to prioritize for predictability when it is needed. You should do so by ensuring you prioritize a deliverable, and its dependencies, so that it can reasonably be expected to be delivered by any committed dates. If there is time pressure to hit a date, the PM should also explore de-scoping the issue to meet the deadline, rather than pressuring engineering to move abnormally fast or cut corners.
+As the DRI for [milestone prioritization](/handbook/product/product-processes/cross-functional-prioritization/#planning-for-the-milestone), it is the Product Manager's job to prioritize for predictability when it is needed. You should do so by ensuring you prioritize a deliverable, and its dependencies, so that it can reasonably be expected to be delivered by any committed dates. If there is time pressure to hit a date, the PM should also explore de-scoping the issue to meet the deadline, rather than pressuring engineering to move abnormally fast or cut corners.
 
 #### Private tools and dashboards for monitoring and KPI tracking
 
@@ -640,7 +659,7 @@ There are several examples of these types of direction pages today:
 
 1. [Software Supply Chain Security Direction](https://about.gitlab.com/direction/supply-chain/)
 1. [AutoDevOps Direction](https://about.gitlab.com/direction/delivery/auto_devops/)
-1. [Monorepo Product Direction](https://about.gitlab.com/direction/monorepos/)
+1. [Monorepo Product Direction](https://about.gitlab.com/direction/gitaly/monorepos/)
 1. [Versioned Dependencies Direction](https://about.gitlab.com/direction/versioned-dependencies/)
 1. [Customizable Dashboards Direction](https://about.gitlab.com/direction/customizable-dashboards/)
 
@@ -831,7 +850,7 @@ Often, the criteria for features are built on is implicit. It can help to use a 
 
 #### Exception & error cases
 
-Software often fails and can fail in different ways depending upon how it is architected. It is always best to provide the user with as much information as possible as to why something did not behave as expected. Creating and building different states to handle all possible errors and exceptions can easily be broken down into individual issues. Start by creating a generic error state to display when anything goes wrong, and then add on to handle different cases one by one. Remember to always make error messages [useful](https://design.gitlab.com/content/ui-text#clear-error-messages), and add additional error messages as you identify new error states.
+Software often fails and can fail in different ways depending upon how it is architected. It is always best to provide the user with as much information as possible as to why something did not behave as expected. Creating and building different states to handle all possible errors and exceptions can easily be broken down into individual issues. Start by creating a generic error state to display when anything goes wrong, and then add on to handle different cases one by one. Remember to always make error messages [useful](https://design.gitlab.com/content/ui-text/#clear-error-messages), and add additional error messages as you identify new error states.
 
 #### Breaking down the UI
 
@@ -871,7 +890,7 @@ As an all-remote company we run [Remote Design Sprints (RDS)](/handbook/product/
 
 #### Spikes
 
-If you're faced with a very large or complex problem, and it's not clear how to most efficiently iterate towards the desired outcome, consider working with your engineers to build an experimental [spike solution](http://www.jamesshore.com/v2/books/aoad1/spike_solutions). This process is also sometimes referred to as a "technical evaluation." When conducting a spike, the goal is write as little code within the shortest possible time frame to provide the level of information necessary the team needs to determine how to best proceed. At the end of the spike, code is usually discarded as the original goal was to learn, not build production-ready solutions. This process is particularly useful for major refactors and creating [architecture blueprints](/handbook/engineering/architecture/workflow/).
+If you're faced with a very large or complex problem, and it's not clear how to most efficiently iterate towards the desired outcome, consider working with your engineers to build an experimental [spike solution](https://www.jamesshore.com/v2/books/aoad1/spike_solutions). This process is also sometimes referred to as a "technical evaluation." When conducting a spike, the goal is write as little code within the shortest possible time frame to provide the level of information necessary the team needs to determine how to best proceed. At the end of the spike, code is usually discarded as the original goal was to learn, not build production-ready solutions. This process is particularly useful for major refactors and creating [architecture blueprints](/handbook/engineering/architecture/workflow/).
 
 #### Feedback issues
 
@@ -926,12 +945,12 @@ A general list of conferences the company is participating in can be found on ou
 There are a few notable conferences that we would typically always send PMs to:
 
 - [KubeCon](https://events.linuxfoundation.org/)
-- [Atlassian Summit](https://www.atlassian.com/company/events/summit)
+- [Atlassian Summit](https://events.atlassian.com/team22/)
 - [GitHub Universe](https://githubuniverse.com/)
-- [DevOps Enterprise Summit](https://events.itrevolution.com/)
+- [DevOps Enterprise Summit](https://itrevolution.com/events/)
 - [Google Next](https://cloud.withgoogle.com/next)
 - [AWS Reinvent](https://reinvent.awsevents.com/)
-- [Velocity](https://conferences.oreilly.com/velocity)
+- [Velocity](https://www.oreilly.com/conferences/velocity-software-architecture/)
 
 If you're interested in attending, check out the issue in the corporate marketing
 site and volunteer there, or reach out to your manager if you don't see it listed
@@ -1061,7 +1080,7 @@ Follow the below guidance to prepare and conduct Customer Discovery Meetings:
 You can find some additional guidance on conducting Customer Discovery Meetings from these resources:
 
 - [How to Interview Your Customers](https://customerdevlabs.com/2013/11/05/how-i-interview-customers/)
-- [Effective User Interviews](https://www.productmanagerhq.com/2018/08/effective-user-interviews/)
+- [Effective User Interviews](https://www.productmanagerhq.com/agile/product-management/effective-user-interviews/)
 
 #### Sourcing customers
 
@@ -1096,13 +1115,13 @@ on the user that initiated the interaction and their contact information will di
 
 If you don't have a Zendesk account, see [how to request a light agent Zendesk account](/handbook/support/internal-support/#submitting-internal-license-request-extensions-and-viewing-support-tickets).
 
-You can use [Zendesk's trigger feature](https://support.zendesk.com/hc/en-us/articles/115015611647-Trigger-conditions-and-actions-reference) to receive email alerts when specific keywords relevant
+You can use [Zendesk's trigger feature](https://support.zendesk.com/hc/en-us/articles/4408893545882-Ticket-trigger-conditions-and-actions-reference) to receive email alerts when specific keywords relevant
 to your product area are mentioned in a support ticket. Additionally, it is possible to create a simple dashboard that lists all the currently active support tickets that match the trigger. Reach out
 in #support_escalations to receive some help in setting this up.
 
 **Social Media** can also be effective. If your personal account has a reasonable number of connections/followers, you can post your desire to connect with users on a specific question directly. When posting, remember to include the subject you want to discuss as well as how people can reach out. You can also reach out to the `#social-media` channel to have your tweet retweeted by the @gitlab account.
 
-![twitter-contactpng](/handbook/product/twitter-contact.png)
+![twitter-contactpng](/images/product/twitter-contact.png)
 
 If you want to reach a wider audience, consider asking a community advocate to re-post using the official GitLab account for the relevant platform.
 You can reach advocates on the `#community-advocates` Slack channel.
@@ -1174,7 +1193,7 @@ to this paragraph for the person picking this up to follow
 
 You may want to interview a specific account because they are exhibiting atypical usage patterns or behaviors. In this case, [request Support to contact GitLab.com user(s) on your behalf](../../support/internal-support/#gitlab-changes-and-contacting-users).
 
-If it is the weekend, and the contact request is urgent as a result of an action that might affect a users' usage of GitLab, [page the CMOC](/handbook/engineering/infrastructure/incident-management/#how-to-engage-the-cmoc)
+If it is the weekend, and the contact request is urgent as a result of an action that might affect a users' usage of GitLab, [page the CMOC](/handbook/engineering/infrastructure/incident-management/#how-to-engage-the-eoc-im-or-cmoc)
 
 ### Assessing opportunities
 
@@ -1238,41 +1257,41 @@ feedback.
 This is a mutual collaboration, so we also want to keep them up to date with the
 new features that we release, and help them to adopt all our own features.
 
-### PCSAT responder outreach
+### USAT responder outreach
 
-Each quarter we reach out to [Product Customer Satisfaction (PCSAT)](/handbook/product/ux/performance-indicators/csat) survey responders who opted-in to speak with us. This is a fantastic opportunity to build bridges with users and for Product Managers to get direct feedback for their specific product area. If a customer has taken the time to share a verbatim with us and offered to have a conversation, they deserve to be followed up with - especially if that customer is dissatisfied with GitLab.
+Each quarter, we reach out to [User Satisfaction (USAT)](/handbook/product/ux/performance-indicators/usat) survey responders who opted-in to speak with us. This is a fantastic opportunity to build bridges with end users and for Product Managers and Product Designers to get direct feedback for their specific product area. If a user has taken the time to share a verbatim with us and offered to have a conversation, they deserve to be followed up with - especially if that user is dissatisfied with GitLab.
 
-When we speak to users and customers directly during this workflow, we must be mindful of [Product Legal guidance](/handbook/product/product-safe-guidance/) and the [SAFE framework](/handbook/legal/safe-framework/), just as we would be with any other documentation or communication we do as Product Managers.
+When we speak to users directly during this workflow, we must be mindful of [Product Legal guidance](/handbook/product/product-processes/product-safe-guidance/) and the [SAFE framework](/handbook/legal/safe-framework/), just as we would be with any other documentation or communication within Product.
 
 #### Overall process
 
 1. UX Researcher DRI opens a Responder Outreach issue and notifies Product team members in the comments that the issue is ready.
-1. Product leaders go through the list of PCSAT responders who have agreed to a follow up conversation. Those Product leaders either sign up for outreach or tag in their Group Product Managers and Product Managers as appropriate.
-1. Group Product Managers and Product Managers then view the sheet and confirm who they want to talk with.
+1. Product team members go through the list of USAT responders who have agreed to a follow up conversation. Those team members either sign up for outreach or tag in Product Managers or Product Designers where appropriate.
+1. Product team members then view the sheet and confirm who they want to talk with.
 1. Product team members reach out to users and schedule interviews.
-1. Product team members add notes and video recordings from the interviews to the PCSAT column in this [Dovetail project](https://gitlab.dovetailapp.com/projects/36nmGVKvkaT7SGMXtUeHVg/v/70xPTo5RzTRZnCNEVz1fWH).
-1. Product team members mark which users they interviewed and include any additional notes about the session in the follow up users sheet.
-1. As Product team members create or continue to work on issues related to PCSAT follow up interviews, they use the following label (CSAT::Responder Outreach) to help the UX Research team track the impact of these interviews.
+1. Product team members add notes and video recordings from the interviews to the `USAT` column in this [Dovetail project](https://gitlab.dovetailapp.com/projects/36nmGVKvkaT7SGMXtUeHVg/v/70xPTo5RzTRZnCNEVz1fWH).
+1. Product team members mark which users they interviewed, the link to the session recording, and include any additional notes about the session in the follow up users sheet.
+1. As Product team members create or continue to work on issues related to USAT follow up interviews, they should the following label ([USAT::Responder Outreach](https://gitlab.com/groups/gitlab-org/-/labels?subscribed=&sort=relevance&search=usat)) to help the UX Research team track the impact of those interviews.
 
-**Note:** GitLab Customer Success Managers will also follow the process above so please be mindful to coordinate with them if they reach out or if they've already signed up for a user. Users should never be contacted by more than one GitLab team member. Users should never be contacted more than twice if they do not respond to an outreach email.
+**Note:** GitLab Customer Success Managers can also follow the process above, so please be mindful to coordinate with them if they reach out or if they've already signed up to speak with a user. Users should never be contacted by more than one GitLab team member. Users should never be contacted more than twice if they do not respond to an outreach email.
 
 #### Instructions for product leaders
 
-1. Look at the `PCSAT Follow Up Users` Google Sheet that will be shared with you in an issue. Identify any users you think a Group Product Manager or Product Manager from your group would be interested in speaking to. Assign the specific Group Product Manager or Product Manager to reach out to that user by putting their name in the appropriate column. This will also serve as a "hold" on the user and if others are interested they will need to coordinate with this Group Product Manager or Product Manager.
-1. If you think another Group Product Manager or Product Manager in your group or another group would be interested in speaking to the same customer, consider notifying that Group Product Manager or Product Manager for the sake of efficiency.
-1. If you're interested in having one of your Group Product Managers or Product Managers speak with a user that has already been "claimed" by another GitLab team member, have your Group Product Manager or Product Manager reach out to that team member so they can coordinate a joint conversation. **We need to be mindful of our users' time and should limit this outreach to a single conversation rather than successive conversations.**
+1. Look at the `USAT Follow Up Users` Google Sheet that will be shared with you in an issue. Identify any users you think a Product Manager or Product Designer from your group would be interested in speaking to. Assign the specific Product Manager or Product Designer to reach out to that user by putting their name in the appropriate column. This will also serve as a "hold" on the user and if others are interested they will need to coordinate with that team member.
+1. If you think another Product Manager or Product Designer in your group or another group would be interested in speaking to the same user, consider notifying that team member for the sake of efficiency.
+1. If you're interested in having one of your Product Managers or Product Designers speak with a user that has already been "claimed" by another GitLab team member, have your Product Manager or Product Designer reach out to that team member so they can coordinate a joint conversation. **We need to be mindful of our users' time and should limit this outreach to a single conversation rather than successive conversations.**
 
-#### Instructions for Group Product Managers and Product Managers
+#### Instructions for Product Managers and Product Designers
 
-1. Your Group Product Manager Director will have put your name next to users they felt were relevant for you to speak with.
-1. If you are unable or unwilling to speak with the customer, please speak with your manager so they can find a replacement.
-1. If you see other users that have not been assigned to another Product Manager and you feel may be relevant to speak with, assign that user to yourself.
-1. If you see other users that have been assigned to another Product Manager, reach out to that Product Manager and coordinate a joint conversation. It is very important you do not reach out to users that have been assigned to other Product Managers as we want to be mindful of our users time and not risk negative sentiment due to over-communication. We are limiting these conversations to one per user for these reasons.
+1. Another GitLab team member may put your name next to users they felt were relevant for you to speak with.
+1. If you are unable or unwilling to speak with the user, please either remove your name or find a replacement.
+1. If you see other users that have not been assigned to another team member and you feel may be relevant to speak with, assign that user to yourself.
+1. If you see other users that have been assigned to another team member, reach out to that team member and coordinate a joint conversation. It is very important you do not reach out to users that have been assigned to other team member as we want to be mindful of our users time and not risk negative sentiment due to over-communication. We are limiting these conversations to one per user for these reasons.
 
 #### Process for reaching out to users
 
 1. Calendly is the best method for scheduling users. [Set up your free Calendly account](https://calendly.com/signup) if you haven't done so. Add details to the invite description describing yourself and the conversation purpose. Also add your personal Zoom link, either via connecting your Zoom account or pasting in your personal Zoom URL.
-1. You'll need to add two extra questions to the invite form in order to ask for consent to record, example below. Please use these questions as written in the example as they closely mirror the content that has been validated by the UX Research Team.
+1. You'll need to add three extra questions to the invite form in order to ask for consent to record, example below. Please use these questions as written in the example as they closely mirror the content that has been validated by the UX Research Team.
 1. Draft an email that you'll send to users. Example copy is below. You can re-phrase things as you wish but make sure you still cover the same points as the example.
 1. **BE ON TIME TO YOUR CALL**. Better yet, be 2 minutes early. Be ready to coach people through getting Zoom to work properly. Make sure everyone on the call introduces themselves.
 1. If people have agreed to recording, still ask them once again if it's OK if you record before turning it on. Obviously, do not record people who did not give consent.
@@ -1281,7 +1300,7 @@ When we speak to users and customers directly during this workflow, we must be m
 **Example email copy**:
 
 > Hello,
-> My name is X and I'm the PM for X at GitLab. Thank you for giving us the opportunity to follow up on your response to our recent survey.
+> My name is X and I'm the Product Manager/Designer for X at GitLab. Thank you for giving us the opportunity to follow up on your response to our recent survey.
 >
 > I would be very interested in speaking further about some of the points you raised in your survey response. Would you be willing to do a 30 minute Zoom call to give us some more detailed feedback on your experience using GitLab? You'd be able to schedule the call at a time convenient to you.
 >
@@ -1293,7 +1312,7 @@ When we speak to users and customers directly during this workflow, we must be m
 > Best,
 > Your name
 
-**Copy for two extra questions in Calendly invite**:
+**Copy for three extra questions in Calendly invite**:
 
 > To make sure we correctly represent what you say in any followup issues or discussions, we would like to record this conversation. Please indicate if you give permission to record this conversation.
 >
@@ -1306,16 +1325,22 @@ When we speak to users and customers directly during this workflow, we must be m
 > Yes, you may share the recording publicly on GitLab.
 >
 > No, you MAY NOT share the recording publicly on GitLab.
+>
+> I agree that by participating in this, and any future, research activities with GitLab, GitLab B.V. will retain all intellectual property rights in any suggestions, ideas, enhancement requests, feedback, or other recommendations I provide which are hereby assigned to GitLab B.V.
+>
+> Yes
+>
+> No
 
 #### After the call
 
 1. If multiple GitLab employees are on the call, it can be beneficial to debrief immediately afterwards.
-1. Collect all notes that were taken and Zoom recording from the interview and add them to the PCSAT column in this [Dovetail project](https://gitlab.dovetailapp.com/projects/36nmGVKvkaT7SGMXtUeHVg/v/70xPTo5RzTRZnCNEVz1fWH).
+1. Collect all notes that were taken and Zoom recording from the interview and add them to the `USAT` column in this [Dovetail project](https://gitlab.dovetailapp.com/projects/36nmGVKvkaT7SGMXtUeHVg/v/70xPTo5RzTRZnCNEVz1fWH).
 1. If you told the user you'd follow up on anything or promised to send them further information, make sure you do so, ideally within two business days.
-1. Go back to the spreadsheet and mark that you spoke to a user in the _Status_ column.
-1. If you create any epics/issues to address feedback gathered in the calls, add the label `CSAT:Responder Outreach` and link them to the corresponding PCSAT responder outreach issue from that quarter.
+1. Go back to the spreadsheet and mark that you spoke to a user in the _Status_ column and add a link to the recording in Dovetail.
+1. If you create any epics/issues to address feedback gathered in the calls, add the label [USAT::Responder Outreach](https://gitlab.com/groups/gitlab-org/-/labels?subscribed=&sort=relevance&search=usat) and link them to the corresponding USAT responder outreach issue from that quarter.
 
-Note: It's important to tag your PCSAT related issues to help tracking/reporting such as the [improvement slides](https://docs.google.com/presentation/d/1ZXEfR1lo5y5tpRi0i5l-OSX3v3wMe6jepjJcZfKyTvw/edit#slide=id.ge2b883c896_6_0) in Product Key Reviews.
+Note: It's important to tag your USAT related issues to help tracking/reporting such as the [improvement slides](https://docs.google.com/presentation/d/1ZXEfR1lo5y5tpRi0i5l-OSX3v3wMe6jepjJcZfKyTvw/edit#slide=id.ge2b883c896_6_0) in Product Key Reviews.
 
 ### Cost profile and user experience
 
@@ -1353,7 +1378,7 @@ There are a few different tools PM's can utilize to understand the operational c
 #### Tools to understand end user experience
 
 - [Snowplow data](/handbook/enterprise-data/platform/snowplow/) on GitLab.com
-- Quarterly PCSAT and SUS surveys
+- Quarterly USAT and SUS surveys
 - [Page load performance](../product-processes/#page-load-performance-metrics)
 
 ## Life Support PM Expectations
@@ -1413,55 +1438,44 @@ Please see [Analytics Instrumentation Guide](/handbook/product/analytics-instrum
 
 ## Post Launch Instrumentation Guide
 
-**Goal**
+**Goal:**
 Increase product instrumentation across our offerings to deliver greater product insights. There is a need to retroactively evaluate what features have been instrumented and need instrumentation from past feature launches. Post launch implementation will allow us to gather insights and allow better visibility into feature usage + adoption that may not currently be captured.
 
-**Tasks**:
+**Tasks:**
 
 1. Issue Request
-
-PM: Following the [Product Data Insights handbook](/content/handbook/product/product-analysis/#working-with-us), create an issue focused on instrumentation of products at a category level [using this templaste](https://gitlab.com/gitlab-data/product-analytics/-/blob/main/.gitlab/issue_templates/Post-Launch%20Instrumentation%20Audit.md).
-
-Assign the issue to your Product Data Insights counterpart and Carolyn Braza (`@cbraza`) will automatically be added for visibility.
-
-Alignment
-PM/PDI: Once all stakeholders have been added to the issue, Product Data Insights team will set time with the PM counterpart to align on:
-
-- Goals
-- Priorities
-- Milestones
-
-TPgM may assist in implementation of planning documentation.
-
+   - PM:
+     - Following the [Product Data Insights handbook](/handbook/product/groups/product-analysis/#working-with-us), create an issue focused on instrumentation of products at a category level [using the Post-Launch Instrumentation template](https://gitlab.com/gitlab-data/product-analytics/-/issues/new?issuable_template=Post-Launch%20Instrumentation%20Audit).
+     - Assign the issue to your Product Data Insights counterpart. Carolyn Braza (`@cbraza`) will automatically be added for visibility.
+   - Alignment
+     - PM/PDI: Once all stakeholders have been added to the issue, Product Data Insights team will set time with the PM counterpart to align on:
+       - Goals
+       - Priorities
+       - Milestones
+     - TPgM may assist in implementation of planning documentation.
 1. Category Inventory & Instrumentation Mapping
-
-PM/PDI: Work together to outline a category inventory using this template (https://docs.google.com/spreadsheets/d/1sqoGOM3MIOF0ntfxgJ3cuKVyY3MLT8Cfvxi5xBvgfws/edit?usp=sharing). Category level implementation should be prioritized by most utilized features and the areas we believe have the largest impact on the business. From there, PM and Product Data Insights counterparts will utilize labels outlined here in step 3 for markers of implementation status. The PM will lead mapping of instrumentation at a category level, in close partnership with the Product Data Insights counterpart.
-
-For any metric or event that has been identified to contribute to a categories instrumentation the correct `product_category` should be set in the definition file.
-
+   - PM/PDI: Work together to outline a category inventory using [this spreadsheet template](https://docs.google.com/spreadsheets/d/1sqoGOM3MIOF0ntfxgJ3cuKVyY3MLT8Cfvxi5xBvgfws/edit?usp=sharing).
+     - Category level implementation should be prioritized by most utilized features and the areas we believe have the largest impact on the business.
+     - From there, PM and Product Data Insights counterparts will utilize labels outlined here in step 3 for markers of implementation status.
+     - The PM will lead mapping of instrumentation at a category level, in close partnership with the Product Data Insights counterpart.
+   - For any metric or event that has been identified to contribute to a categories instrumentation the correct `product_category` should be set in the definition file.
 1. Audit & Review
-
-PM/PDI: will audit implementation/review implementation to quality check and ensure accuracy async. TPgM may assist in QA.
-
+   - PM/PDI: will audit implementation/review implementation to quality check and ensure accuracy async. TPgM may assist in QA.
 1. Update Categories yaml file
-
-PM: Update the categories.yml file with the applicable implementation status (see below) Utilizing the categories.yml file, the Product Data Insights team will create a Tableau dashboard to track implementation at a category level overtime.
-
-- Complete -  Instrumentation complete and satisfactory
-- Incomplete - Some instrumentation, but not complete
-- None - No instrumentation - instrumentation needed
-- Not needed - Instrumentation not needed
-
+   - PM: Update the categories.yml file with the applicable implementation status (see below) Utilizing the categories.yml file, the Product Data Insights team will create a Tableau dashboard to track implementation at a category level over time.
+     - Complete -  Instrumentation complete and satisfactory
+     - Incomplete - Some instrumentation, but not complete
+     - None - No instrumentation - instrumentation needed
+     - Not needed - Instrumentation not needed
 1. Analytics Instrumentation
-
-PM/PDI: Once category instrumentation audit has been completed. For categories marked as either red (needing implementation) or yellow (some instrumentation, not complete),
-PM/EM: will create an instrumentation issue with the label `analytics instrumentation` and utilizing the [usage data instrumentation template](https://gitlab.com/gitlab-org/gitlab/-/issues/new?issuable_template=Usage+Data+Instrumentation).
+   - PM/PDI: Once category instrumentation audit has been completed. For categories marked as either red (needing implementation) or yellow (some instrumentation, not complete),
+   - PM/EM: will create an instrumentation issue with the label `analytics instrumentation` and utilizing the [usage data instrumentation template](https://gitlab.com/gitlab-org/gitlab/-/issues/new?issuable_template=Usage+Data+Instrumentation).
 
 ## Page load performance metrics
 
 In order to better understand the perceived performance of GitLab, there is a synthetic page load performance testing framework available based on [sitespeed.io](https://www.sitespeed.io).
 
-A [Grafana dashboard](https://dashboards.gitlab.net/d/product-create/product-performance-create?orgId=1) is available for each stage, tracking the [Largest Contentful Paint](https://web.dev/lcp/) and first/last visual change times. These metrics together provide high-level insight into the experience our users have when interacting with these pages.
+A [Grafana dashboard](https://dashboards.gitlab.net/d/product-create/product-performance-create?orgId=1) is available for each stage, tracking the [Largest Contentful Paint](https://web.dev/articles/lcp) and first/last visual change times. These metrics together provide high-level insight into the experience our users have when interacting with these pages.
 
 ### Adding additional pages to performance testing
 

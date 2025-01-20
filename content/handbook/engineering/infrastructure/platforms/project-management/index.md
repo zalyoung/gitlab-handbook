@@ -27,7 +27,7 @@ This automation runs several times each day, and can be triggered by [running th
 #### Status updates on project epics
 
 Comments are automatically generated on project epics to report status.
-To enable this functionality, please ensure the epic follows [these steps](https://gitlab.com/gitlab-com/gl-infra/epic-issue-summaries/-/blob/c04662931be080c0b4d2b3495c2296476469c807/README.md#child-epics).
+To enable this functionality, please ensure the epic follows [these steps](https://gitlab.com/gitlab-com/gl-infra/epic-issue-summaries/-/blob/26295198fedcde8af09bf6b6abb22ed3acd52f07/README.md#child-epics).
 
 #### When a project is finished
 
@@ -59,15 +59,9 @@ Epics must always have the following sections:
 
 ### Sections format
 
-We use [automation](https://gitlab.com/gitlab-com/gl-infra/epic-issue-summaries/) that relies on the presence of following headings and structure in the Epic description:
+The DRI of the epic should be the assignee, and there should only be one assignee for an epic.
 
-#### DRI Section
-
-```markdown
-### DRI
-
-@user
-```
+Use the following headings and structure in the Epic description:
 
 #### Participants Section
 
@@ -123,21 +117,21 @@ While issues may not need to go through every state, the standard progression of
 
 | State Label | Description |
 | ----------- | ----------- |
-| ![Triage](img/label-triage.png) | Default label. Task is raised and effort is needed to determine the correct action, work required or team ownership |
-| ![Proposal](img/label-proposal.png) | Proposal is created following triage and put forward for a review. <br/>If there are no further questions or blockers, the issue can be moved into "Ready". |
-| ![Ready](img/label-ready.png) | Proposal is complete and the issue is waiting to be picked up for work. |
-| ![In Progress](img/label-in_progress.png) | Issue is assigned and work has started. <br/>While in progress, the issue should be updated to include steps for verification that will be followed at a later stage.|
-| ![Under Review](img/label-under_review.png) | Issue has an MR in review. |
-| ![Verify](img/label-verify.png) | MR was merged and we are waiting to see the impact of the change to confirm that the initial problem is resolved. |
-| ![Done](img/label-done.png) | Issue is updated with the latest graphs and measurements, this label is applied and issue can be closed. |
+| ![Triage](/images/engineering/infrastructure/platforms/project-management/label-triage.png) | Default label. Task is raised and effort is needed to determine the correct action, work required or team ownership |
+| ![Proposal](/images/engineering/infrastructure/platforms/project-management/label-proposal.png) | Proposal is created following triage and put forward for a review. <br/>If there are no further questions or blockers, the issue can be moved into "Ready". |
+| ![Ready](/images/engineering/infrastructure/platforms/project-management/label-ready.png) | Proposal is complete and the issue is waiting to be picked up for work. |
+| ![In Progress](/images/engineering/infrastructure/platforms/project-management/label-in_progress.png) | Issue is assigned and work has started. <br/>While in progress, the issue should be updated to include steps for verification that will be followed at a later stage.|
+| ![Under Review](/images/engineering/infrastructure/platforms/project-management/label-under_review.png) | Issue has an MR in review. |
+| ![Verify](/images/engineering/infrastructure/platforms/project-management/label-verify.png) | MR was merged and we are waiting to see the impact of the change to confirm that the initial problem is resolved. |
+| ![Done](/images/engineering/infrastructure/platforms/project-management/label-done.png) | Issue is updated with the latest graphs and measurements, this label is applied and issue can be closed. |
 
 There are three other workflow labels of importance:
 
 | State Label | Description |
 | ----------- | ----------- |
-| ![Cancelled](img/label-cancelled.png) | Work in the issue is being abandoned due to external factors or decision to not resolve the issue. After applying this label, issue will be closed. |
-| ![Stalled](img/label-stalled.png) | Work is not abandoned but other work has higher priority. After applying this label, team Engineering Manager is mentioned in the issue to either change the priority or find more help. |
-| ![Blocked](img/label-blocked.png) | Work is blocked due external dependencies or other external factors. Where possible, a [blocking issue](https://docs.gitlab.com/ee/user/project/issues/related_issues.html) should also be set. After applying this label, issue will be regularly triaged by the team until the label can be removed. |
+| ![Cancelled](/images/engineering/infrastructure/platforms/project-management/label-cancelled.png) | Work in the issue is being abandoned due to external factors or decision to not resolve the issue. After applying this label, issue will be closed. |
+| ![Stalled](/images/engineering/infrastructure/platforms/project-management/label-stalled.png) | Work is not abandoned but other work has higher priority. After applying this label, team Engineering Manager is mentioned in the issue to either change the priority or find more help. |
+| ![Blocked](/images/engineering/infrastructure/platforms/project-management/label-blocked.png) | Work is blocked due external dependencies or other external factors. Where possible, a [blocking issue](https://docs.gitlab.com/ee/user/project/issues/related_issues.html) should also be set. After applying this label, issue will be regularly triaged by the team until the label can be removed. |
 
 ### Priority labels
 

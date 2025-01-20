@@ -66,7 +66,7 @@ As an all-remote organization with team members and candidates around the world,
 
 That's why we created a [compensation calculator]({{< ref "compensation-calculator" >}}) that helps determine compensation for more than 200 regions globally.
 
-Take a look at [how our compensation calculator works]({{< ref "compensation-calculator" >}}), and learn more about [why we pay local rates](https://about.gitlab.com/blog/2019/02/28/why-we-pay-local-rates).
+Take a look at [how our compensation calculator works]({{< ref "compensation-calculator" >}}), and learn more about [why we pay local rates](https://about.gitlab.com/blog/2019/02/28/why-we-pay-local-rates/).
 
 #### Country hiring guidelines
 
@@ -84,7 +84,7 @@ Find out more about how we handle this in our [country hiring guidelines](/handb
 
 At GitLab, when we say our people can work from [anywhere](people/#travelers), we really mean it. We care about the [results](/handbook/values/#results) of their work, not where it's getting done.
 
-This flexibility often means something different for [each person at GitLab](people/). We have team members who are completely [location independent](people/#nomads) and [travel full time](https://about.gitlab.com/blog/2019/06/25/how-remote-work-at-gitlab-enables-location-independence).
+This flexibility often means something different for [each person at GitLab](people/).
 
 There are others who join and travel the world with remote co-working and co-living [organizations](resources/#organizations-for-traveling-remote-work).
 Many of our team members appreciate the ability to still be able to work while visiting friends or family away from home.
@@ -115,7 +115,7 @@ Here are some best practices that may help your all-remote team be successful.
 - Don't require people to have consistent set working hours or say when they're working.
 - Don't encourage or celebrate long working hours.
 - Don't encourage or celebrate working on a team member's day off (e.g. a weekend or holiday) unless it is required as part of their job responsibilities, such as direct/indirect customer support.
-- Encourage [teamwork and saying thanks](https://about.gitlab.com/blog/2015/04/08/the-remote-manifesto).
+- Encourage [teamwork and saying thanks](https://about.gitlab.com/blog/2015/04/08/the-remote-manifesto/).
 - Learn more about [managing a 100% remote team](management/).
 
 ### Communication
@@ -125,26 +125,26 @@ Here are some best practices that may help your all-remote team be successful.
 - Consider every document a draft, don't wait to share until it's done.
 - Use screenshots in an issue tracker instead of a whiteboard, ensuring that everyone at any time can follow the thought process.
 - Encourage [non-work related communication](informal-communication/) (talking about private life on a team call) for [relationship building](https://medium.com/@markfrein70/the-distributed-workplace-15ef447fa926).
-- Encourage group video calls for [bonding](https://about.gitlab.com/blog/2015/04/08/the-remote-manifesto).
-- Encourage one-on-one [video calls](https://about.gitlab.com/blog/2015/04/08/the-remote-manifesto) between people (as part of onboarding).
+- Encourage group video calls for [bonding](https://about.gitlab.com/blog/2015/04/08/the-remote-manifesto/).
+- Encourage one-on-one [video calls](https://about.gitlab.com/blog/2015/04/08/the-remote-manifesto/) between people (as part of onboarding).
 - Host [periodic summits](/handbook/company/culture/summit/) with the whole company to get to know each other in an informal setting.
 
 ### Hiring
 
 - Be transparent about your [hiring process and practices](hiring/) so that interviewing time can be spent evaluating the candidate's ability to do the job.
-- [Don't limit yourself](https://doist.com/blog/best-practices-managing-remote-employees) to *only* hiring people who have a passion for remote work. Start by looking for candidates who align with your company [values](/handbook/values/) and the role itself.
-- Assign new hires a [buddy]({{< ref "onboarding-buddies" >}}) so they have someone to reach out to in their first weeks.
+- [Don't limit yourself](https://blog.doist.com/best-practices-managing-remote-employees/) to *only* hiring people who have a passion for remote work. Start by looking for candidates who align with your company [values](/handbook/values/) and the role itself.
+- Assign new hires a [buddy](/handbook/people-group/general-onboarding/onboarding-buddies.md) so they have someone to reach out to in their first weeks.
 - Define clear goals and [performance indicators](/handbook/company/kpis/) for each role from the start so that you can measure success once you've hired someone for the role.
 
 ## Tips for employees
 
 Arguably the biggest advantage of working remotely and asynchronously is the [flexibility](people/#worklife-harmony) it provides. This makes it easy to combine work with your personal life, although it might be difficult to find the right balance.
 
-Our team members often share [their best advice](https://about.gitlab.com/blog/2019/07/09/tips-for-working-from-home-remote-work) about working from home, and you should ask your coworkers about what remote work tactics work best for them. Here are some tips you might find helpful:
+Our team members often share [their best advice](https://about.gitlab.com/blog/2019/07/09/tips-for-working-from-home-remote-work/) about working from home, and you should ask your coworkers about what remote work tactics work best for them. Here are some tips you might find helpful:
 
 ### Find your routine
 
-- You may work better with a [consistent workday routine](https://learn.g2.com/how-to-work-from-home), or you may find that it's best to determine when your [waves of peak productivity](https://www.jonobacon.com/2019/01/14/remote-working-survival) are, and design your work day and routine around them. These may shift and change depending on the season, holidays, family schedules, etc.
+- You may work better with a [consistent workday routine](https://learn.g2.com/how-to-work-from-home), or you may find that it's best to determine when your [waves of peak productivity](https://www.jonobacon.com/2019/01/14/remote-working-survival/) are, and design your work day and routine around them. These may shift and change depending on the season, holidays, family schedules, etc.
 - Take small breaks throughout your working hours to keep your creativity or productivity going.
 - If you worked at an office before, you might be missing your default group of coworkers at lunch. Now that you have the flexibility to choose what you do with that time, reach out to a friend and ask them to lunch.
 
@@ -155,32 +155,32 @@ I often find the midday slump to be so real, so if I'm feeling this way I step a
 ### Balance work and life
 
 - Explicitly plan your [time off]({{< ref "paid-time-off" >}}) so that you'll intentionally take time for yourself.
-- When you're not working, disconnect by turning off Slack and closing down your email client. At GitLab, this only works if all team members abide by the [communication guidelines](https://about.gitlab.com/blog/2016/03/23/remote-communication#asynchronous-communication-so-everyone-can-focus).
+- When you're not working, disconnect by turning off Slack and closing down your email client. At GitLab, this only works if all team members abide by the [communication guidelines](https://about.gitlab.com/blog/2016/03/23/remote-communication/#asynchronous-communication-so-everyone-can-focus).
 - Enable the "working hours" feature on your calendar so that team members in other time zones know not to schedule meetings during times when you're not working.
 
 ### Communicate clearly
 
-- Remote teams are less likely to know what's going on in each other's daily lives, so it's important that you're able to [express yourself](https://thriveglobal.com/stories/how-these-5-secrets-help-remote-workers-thrive) and ask for help when you need it.
-- Make the most of your [video calls](https://about.gitlab.com/blog/2019/08/05/tips-for-mastering-video-calls) so that you can build relationships with your team.
+- Remote teams are less likely to know what's going on in each other's daily lives, so it's important that you're able to [express yourself](https://community.thriveglobal.com/how-these-5-secrets-help-remote-workers-thrive/) and ask for help when you need it.
+- Make the most of your [video calls](https://about.gitlab.com/blog/2019/08/05/tips-for-mastering-video-calls/) so that you can build relationships with your team.
 
 ### Decide where to work
 
 - Designate a space that's used solely for work so that you can mentally switch from home to office. Don't have a separate room to use as an office? Consider using a screen or partition to physically divide the space.
 - Make sure you have the equipment you need to be productive (for GitLab team members, here's a helpful [guide](/handbook/finance/spending-company-money/)).
 - Join a coworking space or meet up with someone else who works remotely to cowork in person.
-- [Try out different background sounds](https://thriveglobal.com/stories/450-remote-workers-reveal-how-to-boost-productivity-when-working-from-home) like music, ambient noise, or silence to see what works best for you while you're working.
-- If you have family or roommates at home while you're working, consider [setting boundaries](https://about.gitlab.com/blog/2019/08/01/working-remotely-with-children-at-home) with them about your workspace to reduce interruptions.
+- [Try out different background sounds](https://community.thriveglobal.com/450-remote-workers-reveal-how-to-boost-productivity-when-working-from-home/) like music, ambient noise, or silence to see what works best for you while you're working.
+- If you have family or roommates at home while you're working, consider [setting boundaries](https://about.gitlab.com/blog/2019/08/01/working-remotely-with-children-at-home/) with them about your workspace to reduce interruptions.
 
 ### Create an ergonomic workspace
 
 ![GitLab all-remote ergonomic workspace](/images/all-remote/gitlab-com-all-remote-v3-dark-1280x270.png)
 {style="max-width: 50%;"}
 
-The goal of [office ergonomics](http://ergo-plus.com/office-ergonomics-10-tips-to-help-you-avoid-fatigue) is to design your [workspace](workspace/) so that it fits you and allows for a comfortable working environment for maximum productivity and efficiency.
+The goal of [office ergonomics](https://ergo-plus.com/office-ergonomics-10-tips-to-help-you-avoid-fatigue/) is to design your [workspace](workspace/) so that it fits you and allows for a comfortable working environment for maximum productivity and efficiency.
 
 Since we all work from home, GitLab wants each team member to have the [supplies](/handbook/finance/spending-company-money/) and knowledge they need to create an ergonomic home office.
 
-Here are some tips from the [Mayo Clinic](http://www.mayoclinic.org/healthy-lifestyle/adult-health/in-depth/office-ergonomics/art-20046169) on how to arrange your work station.
+Here are some tips from the [Mayo Clinic](https://www.mayoclinic.org/healthy-lifestyle/adult-health/in-depth/office-ergonomics/art-20046169) on how to arrange your work station.
 
 - **Chair**: Choose a chair that supports your spinal curves. Adjust the height of your chair so that your feet rest flat on the floor or on a footrest and your thighs are parallel to the floor. Adjust armrests so your arms gently rest on them with your shoulders relaxed.
 - **Keyboard and mouse:** Place your mouse within easy reach and on the same surface as your keyboard. While typing or using your mouse, keep your wrists straight, your upper arms close to your body, and your hands at or slightly below the level of your elbows. Use keyboard shortcuts to reduce extended mouse use. If possible, adjust the sensitivity of the mouse so you can use a light touch to operate it. Alternate the hand you use to operate the mouse by moving the mouse to the other side of your keyboard. Keep regularly used objects close to your body to minimize reaching. Stand up to reach anything that can't be comfortably reached while sitting.
@@ -203,9 +203,8 @@ It's sometimes hard to remember to stay active when you work from home. Here are
 - If possible, choose a workspace that's exposed to [natural light](https://www.makegreatlight.com/wp-content/uploads/Health_Benefits_Natural_Light.pdf).
 - Avoid "Digital Eye Strain" by following the [20-20-20 Rule](https://www.healthline.com/health/eye-health/20-20-20-rule#definition). Every 20 minutes look into the distance (at least 20 feet/6 meters) for 20 seconds.
 - Use an app - there are some that will remind you to take a break or help you with your computer posture:
-  - [Time Out](https://itunes.apple.com/us/app/time-out-break-reminders/id402592703?mt=12 )(macOS)
-  - [Awareness](http://iamfutureproof.com/tools/awareness) (macOS)
-  - [SafeEyes](https://slgobinath.github.io/SafeEyes) (GNU/Linux)
+  - [Time Out](https://apps.apple.com/us/app/time-out-break-reminders/id402592703?mt=12 )(macOS)
+  - [SafeEyes](https://slgobinath.github.io/SafeEyes/) (GNU/Linux)
 - Move every day
   - Go for a walk or do a short exercise for at least 15 minutes a day.
   - Do something active that can be done within a short amount of time like rope jumping, lifting kettlebells, push-ups or sit-ups. It might also help to split the activity into multiple shorter sessions. You can use an app that helps you with the workout, e.g., [7 minute workout](https://apps.apple.com/us/app/7-minute-workout/id650762525).

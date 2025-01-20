@@ -21,7 +21,7 @@ On this page, we're curating important historical moments and milestones that ha
 
 Source: [Garry Tan on X (Twitter)](https://twitter.com/garrytan/status/1161083440130691072)
 
-In a 1926 issue of [Collier's](http://www.tfcbooks.com/tesla/1926-01-30.htm) magazine, Tesla shared a number of predictions for the future. In forecasting a telephone which could be carried in one's vest pocket, he also alluded to wireless communications that would become the foundation for enabling conditions suitable for an all-remote company to thrive. A portion of the interview is below.
+In a 1926 issue of [Collier's](https://web.archive.org/web/20240715235451/https://www.tfcbooks.com/tesla/1926-01-30.htm) magazine, Tesla shared a number of predictions for the future. In forecasting a telephone which could be carried in one's vest pocket, he also alluded to wireless communications that would become the foundation for enabling conditions suitable for an all-remote company to thrive. A portion of the interview is below.
 
 > "When wireless is perfectly applied the whole earth will be converted into a huge brain, which in fact it is, all things being particles of a real and rhythmic whole. We shall be able to communicate with one another instantly, irrespective of distance. Not only this, but through television and telephony we shall see and hear one another as perfectly as though we were face to face, despite intervening distances of thousands of miles; and the instruments through which we shall be able to do his will be amazingly simple compared with our present telephone. A man will be able to carry one in his vest pocket.
 >

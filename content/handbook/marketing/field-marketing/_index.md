@@ -65,7 +65,7 @@ Below are best practices when running a roundtable:
 - Ensure questions are prepared between host and GitLab presenter beforehand to lead the conversations within the session
 - Assign notes of each delegate to list leads for upload onto SFDC
 - Pre-analysis of delegates - check to see if their organization is currently a user of GitLab, whether they're CE or EE customers. This could be a great way to start or dig into deeper conversations with the delegate.
-- Ensure you have familiarised yourself with the [White Glove Event Follow Up process](/handbook/marketing/sales-development/#white-glove-event-follow-up-sequence-saes-included) for this type of event.
+- Ensure you have familiarised yourself with the [White Glove Event Follow Up process](/handbook/marketing/sales-development/#white-glove-event-follow-up-flows) for this type of event.
 
 ## 3rd Party Events
 
@@ -89,10 +89,6 @@ Being the marketing experts for the region, GitLab Field Marketers are also resp
 Current regional marketing content and presentations can be accessed [here](drive.google.com/drive/u/0/folders/0AHFbLUWw3IEJUk9PVA).
 Content is classified into 2 groups: Economic Buyer and Technical Buyer. Choose the content category that aligns best to your audience needs - Economic Buyer for those focusing on business aspects, and Technical Buyer for those interested in technical details or specifications.
 Field Marketing Managers are responsible for adding new content for Own Events and Executive Engagement Tactics to this folder on an ongoing basis. NOTE: Naming convention of the folder should reflect the SFDC Campaign name for easier tracking.
-
-### ReachDesk
-
-Go to the [Reachdesk page](/handbook/marketing/marketing-operations/reachdesk) for instructions on campaign set up and best practices.
 
 ## Digital Tactics
 
@@ -204,165 +200,20 @@ Field Marketing utilizes the below issue templates and epic codes for virtual ev
 - [Issue Template](https://gitlab.com/gitlab-com/marketing/field-marketing/-/issues/new?issuable_template=Workshop_Template)
 - [Epic Code](/handbook/marketing/field-marketing/field-marketing-epics/#workshops)
 
-## Refined AMER Regional Marketing Event Planning Cycle
+## Event Lead Collection Should-Knows
 
-The schedule provided below presents a 20-week planning timeline meticulously designed for the seamless execution of our regional marketing events. These Service Level Agreements (SLAs) are strategically established for our Field Marketing Managers (FMMs), ensuring they have ample time to orchestrate and promote a robust event, while synchronizing the availability of other teams' SLAs, including Procurement, Marketing Operations, the SA teams, our Field Marketing Coordinators, etc. It is essential to remain adaptable, as adjustments and modifications may become necessary to align with the unique event objectives, target audience, and the resources at our disposal. Ultimately, the unwavering dedication of our team will serve as the cornerstone of success for each event.
+Not every field event or lead are the same. There will be times when meeting/scanning leads and notetaking for the interaction will require a tweaked processing procedure. A few examples are below:
 
-## 17-20 Weeks Out: Strategize and Initiate Planning
+`High Priority` leads: There are situations where GitLab leadership wants extra attention placed toward a prospective lead/account, assuming the right criteria is met for that lead/account. These leads are referred to as `High Priority` and utilize the `high priority` process. This label not only means its namesake, but it also means the lead will circumvent our normal lead routing and MQL processes to be sent immediately to SDR/BDR for strategic outreach. There are a few reasons why a lead would be marked as `High Priority`, but for this particular handbook page there are two primary definitions to focus on:
 
-<details markdown=1>
+- **High Priority Campaign**: This lead was acquired during a `high priority` event. While strategizing for the quarter and year, Sales and Marketing leadership discuss what upcoming field events will be important based on GitLab's current and future goals. If a field event is determined to fit the criteria, all leads collected from this event will be marked as `high priority` and quickly routed for follow up. Leadership will communicate what campaigns qualify
+- **White Glove**: A white glove lead needs strategic outreach and will involve the [SDR, Account Executive and maybe more](/handbook/marketing/sales-development/#white-glove-event-follow-up-flows). Generally, these leads were highly engaged in conversation about GitLab, have detailed event notes about the engagement and or were engaged with specific GitLab team members during the event. White glove leads can exist within a high priority campaign, so use best judgement on which label is most appropriate between the two
 
-<summary><b>At this stage, we lay the groundwork for a successful event by creating a well-defined strategy and rallying key players.</b></summary>
-
-- Initiate strategic collaboration with Sales to align event goals and strategies.
-- Define clear event objectives, messaging, target audience, and desired outcomes.
-- Secure unwavering buy-in from essential stakeholders to ensure full support.
-- Develop a comprehensive campaign plan using Allocadia, continually monitoring the budget.
-- Compile all available details into a comprehensive Main Issue.-* Secure required third-party vendors if necessary, and create vendor contract request issue(s).
-
-</details>
-
-## 14-17 Weeks Out: Resource Alignment and Team Coordination
-
-<details markdown=1>
-
-<summary><b>During this phase, we focus on coordinating resources and refining our strategies to meet evolving needs.</b></summary>
-
-- Review and approve contract requests for event vendors.
-- Request team member resources based on event needs.(SA,BDR, SDR, CS, Design, Internal - Speakers etc) when required use specific team request issues as needed..
-- Continue collaborating with Sales to refine goals and strategies.
-- Schedule meetings with relevant team members to outline their contributions to the plan.
-- Please continue to revise the issue, providing comprehensive updates that capture all plan details and ensuring that all key stakeholders are appropriately tagged.
-- Move to WIP.
-
-</details>
-
-## 12-13 Weeks Out: Draft Initial Content, Design and confirm all Key Stakeholders
-
-<details markdown=1>
-
-<summary><b>We delve into content creation, design, and finalizing key stakeholder involvement while maintaining a clear timeline.</b></summary>
-
-- Review the Issues/Epics, adding estimated completion dates for each task.
-- Confirm availability and roles of requested cross-functional team members and finalize team member assignments. Note: Internal team members must have permission from their managers to travel.  Once approved, send placeholders to their calendars for events.
-- Work with the design team to conceptualize event branding and design if needed.
-- Begin drafting the Copy document to form the events foundation.
-- Collect  concise abstracts from speakers and presenters for their sessions, to enhance your landing page and agenda.
-- Review initial content drafts and design concepts.
-- Gather feedback from stakeholders and make necessary revisions if needed.
-- If necessary, request approvals from internal stakeholders.
-
-</details>
-
-## 11-12 Weeks Out: Review, Refine Content, Develop Landing Page and Collateral
-
-<details markdown=1>
-
-<summary><b>During this phase, we polish content, initiate promotions, and ensure a seamless, finalized Copy Document for the event landing page, confirmation emails, and initial outreach (Email #1).</b></summary>
-
-- Compile and organize essential Target lists: Target Accounts, Target Audience, DMA requests, Relevant Previous Campaign Subject Matter, etc., for Copy Doc.
-- Explore opportunities for collaboration with Campaigns,  ABM or Social teams for event promotion.
-- Thoroughly review and approve landing page design and the first email.
-- Launch promotional efforts across social media and other channels.
-- Finalize and approve the event landing page and initial email.
-
-</details>
-
-## 8-10 Weeks Out: Fine-tuning and Launch Preparation
-
-<details markdown=1>
-
-<summary><b>With preparations in full swing, we focus on executing the first wave of communications and readying assets.</b></summary>
-
-- Confirm the timing of email #1, targeting the event's intended audience.
-- Continue robust event promotion across multiple channels.
-- Coordinate the creation and ordering of event-related swag and materials.
-- Initiate event swag shipments and asset preparations.
-- Continue to refine Main Issues/Epics, ensuring they capture all the intricate details of the comprehensive plan.
-
-</details>
-
-## 3-7 Weeks Out: Enriching Engagement and Preparing for Event Second Email Communication
-
-<details markdown=1>
-
-<summary><b>This period centers on deepening engagement, fine-tuning event logistics, and enhancing participant experiences.</b></summary>
-
-- Monitor the response to email #1 and track engagement with the landing page.
-- Develop email #2 with additional event details if needed and value propositions.
-- Sustain promotion efforts across various channels to bolster excitement.
-- Collaborate with speakers and participants to ensure seamless event coordination
-- If applicable, create a booth schedule for effective participant interaction.
-- Conduct a thorough review of event logistics and setup details.
-- Verify the timely delivery of all event-related assets and swag.
-- Send out email #2 target audience, highlighting event benefits
-- Finalize copy document for reminder emails and post-event follow-ups including relevant call to action resources.
-
-</details>
-
-## 1-3 Weeks Out: Final Touches and Attendee Confirmations
-
-<details markdown=1>
-
-<summary><b>As we approach the event, we focus on last-minute preparations and ensuring a smooth execution.</b></summary>
-
-- Verify attendance and manage any late registrations.
-- Send calendar confirmations to registered attendees, including comprehensive key event details.
-- Conduct a final walkthrough of the event venue or virtual platform.
-- Collect finalized assets from presenters for their respective sessions.
-- Ensure all event-related assets and swag have been received.
-- Prepare an all-inclusive 'Know Before You Go' guide and distribute it accordingly.
-- Conduct an all-encompassing event stakeholders' run-through
-
-</details>
-
-## 0 Weeks Out: The Event Unfolds
-
-<details markdown=1>
-
-<summary><b>On the event day(s), we execute flawlessly, ensuring every detail is attended to.</b></summary>
-
-- Ensure seamless technical operations and troubleshoot any unforeseen issues.
-- Confirm readiness of assets, presentations, and materials.
-- Ensure seamless coordination among speakers and participants.
-- Execute the planned event according to the established schedule.
-- Monitor event progress, promptly resolving any unforeseen challenges.
-- Collect valuable leads and notes from sessions, to better foster post-event engagement.
-- Pack up and return any necessary assets
-
-</details>
-
-## 1 Week Post Event: Event Follow-Up Post-Event Analysis and Reflection
-
-<details markdown=1>
-
-<summary><b>Following the event, we analyze its performance, gather insights, and embark on improvement strategies.</b></summary>
-
-- Analyze key event performance metrics, encompassing attendance, engagement, conversions, and participant feedback
-- Conduct 360 Review with key stakeholders on the effectiveness of the event, lessons learned and to identify areas for improvement.
-- Compile and prepare leads for upload to Marketo within 48 hours, , including detailed corresponding notes. Ensure all lead information is accurate and ready for upload
-- Upload event leads
-- Within 48 hours, ensure that a follow-up email is scheduled to be sent to attendees with relevant call-to-action resources."
-- Wrap up and close campaign issue and archive relevant materials.
-
-</details>
-
-## 1-2 Weeks Post Event: Evolving for the Future
-
-<details markdown=1>
-
-<summary><b>With one event completed, it's time to reflect, plan, and optimize for the upcoming campaigns.</b></summary>
-
-- Reflect on the successes and challenges of the planning process.
-- Initiate discussions and brainstorming for the upcoming quarter's planning and strategy.
-- Identify opportunities for enhancement and refinement in future endeavors.
-- Begin planning for the next successful event, incorporating lessons learned
-
-</details>
+ Recording `high priority` status for either of these types is simple and included in the spreadsheet used for [self-service list uploads](/handbook/marketing/marketing-operations/automated-list-import/#data-cleaning-instructions) under the `High Priority Reasons?` column - as a dropdown option. The reason feeds into Marketo's `High Priority Reason temp` field, which [then processes](https://engage-ab.marketo.com/?munchkinId=194-VVC-221#/classic/SC56504A1ZN19) the lead for early lead routing.
 
 ## Post event lead flow for each campaign
 
-after Field Marketing has executed a campaign, the Field Marketing Manager is responsible for ensuring that the campaign has been fully operational to include the following:
+After Field Marketing has executed a campaign, the Field Marketing Manager is responsible for ensuring that the campaign has been fully operational to include the following:
 
 - he campaign DRI reviews and cleans up the list following the guidelines for[list imports](/handbook/marketing/marketing-operations/list-import/)
 - SDRs should not be asked to follow up leads before they are added to Salesforce
@@ -413,7 +264,15 @@ Please review the [Pathfactory Training](/handbook/marketing/marketing-operation
 
 This section will continue to be fleshed out as we rollout to the global Field Marketing team.
 
-## Process for Issues Moving from Plan to WIP
+## Asana
+
+The global Field Marketing team is working with the Marketing Operations team to implement [Asana](https://asana.com/) as our new project management tool.
+
+### Asana Handbook Page
+
+- [Asana](/handbook/marketing/marketing-operations/asana/)
+
+## Process for moving events from Plan to WIP
 
 The following is the process for when a Field Marketing issue moves from `mktg-status::plan` to `mktg-status::wip`.
 
@@ -425,59 +284,34 @@ Please plan your timelines accordingly based on the below SLAs. Keep in mind the
 
 - **Contract Requests:** 3 business days
 - **Plan to WIP Requests** - 5 business days
-- **Copy to FMCs for Review** - 24 hours
-- **Marketing Operations Requests** - [5 business days](/handbook/marketing/marketing-operations/campaign-operations/#slas) (not including the day the triage request is sent)
+- **Marketing Operations Requests** - [5 business days](/handbook/marketing/marketing-operations/campaign-operations/#slas) 
 
-## Items required by FMM to request moving an issue from Plan to WIP
+## Items required by FMM to begin the Plan to WIP process
 
-- If a contract is required, the FMM is to obtain the agreement from the vendor, review and make any changes needed with the vendor, then submit a [Contract Request](/handbook/marketing/field-marketing/#field-marketing-contract-requests) to their FMC for processing through Zip. Please note the contract request issue template has very detailed instructions for our finance and procurement process. The FMM should contact their FMC if they have any special requests or specific questions.
-- The Event Details and FMC Checklist sections in the main issue must be completed in full and finalized (specifically the date of the event, as shifting dates after moving from Plan to WIP requires many adjustments by the FMC).
-- The Allocadia sub-category and line item detail panels must be updated and finalized and the FMM will include their correct forecast cost that matches the amount stated in their contract request, as well as check that the forecasted cost is in the correct month (according to the [prepaid policy](/handbook/finance/accounting/#prepaid-expense-policy)).
-
-Once the FMM has submitted the Contract Request to their FMC and the remaining above items have also been completed, the FMM can proceed with requesting the FMC move from [Plan to WIP](/handbook/marketing/field-marketing/#moving-from-plan-to-wip).
-
-**PLEASE NOTE**: While we are able to move an issue to WIP after the above items have been completed, note that travel should not be booked and additional event costs should not be charged until the contract has been fully approved via the procurement process.
+- The Allocadia sub-category and line item detail panels must be updated and finalized and the FMM will include their correct plan and/or forecast cost(s) in the correct month (according to the [prepaid policy](/handbook/finance/accounting/#prepaid-expense-policy)).
+  - Please make sure the correct FMM and FMC are listed in the Allocadia panel for your event. The team members listed in Allocadia will sync to the GitLab issue and then to the Asana project (Asana tasks will be assigned based on these roles as well).
+- The FMM creates the GitLab issue using the `Create/Update Marketing Issue` button in Allocadia.
+- **NOTE:** The FMM will not fill out any additional information in the GitLab issue. All work will be managed in the [Asana](/handbook/marketing/marketing-operations/asana/) project.
 
 ## Moving from Plan to WIP
 
-- FMM pings the FMC in the main Field Marketing issue and requests the FMC move the issue to WIP (FMM keeps issue label `mktg-status::plan`)
+*Please note that this is an interim process while the Regional Marketing team begins utilizing [Asana](/handbook/marketing/marketing-operations/asana/). Automations are still being implemented, so there will be many iterations to the below instructions as all global teams move to Asana.*
+
+- FMM pings the FMC in the main Field Marketing issue and requests the FMC move the GitLab issue to WIP
 - FMC reviews the Allocadia sub-category and line item panel details, as well as checks that the forecasted cost is in the correct month (according to the [prepaid policy](/handbook/finance/accounting/#prepaid-expense-policy)) for the tactic and makes any changes necessary
-- FMC creates the epic and sub-issues utilizing [this list of epics](/handbook/marketing/field-marketing/#field-marketing-campaign-issue-templates-epic-codes-and-progression-status)
-- FMC creates the [Marketo program and SFDC campaign](/handbook/marketing/marketing-operations/campaigns-and-programs/#campaign-type--progression-status) utilizing the [Program Tracking](https://gitlab.com/gitlab-com/marketing/field-marketing/-/blob/master/.gitlab/issue_templates/program-tracking.md) sub-issue previously created
-  - FMC pings the FMM in the Program Tracking issue that the Marketo program and SFDC campaign have been created and closes issue
-- FMC adds the event to the appropriate events calendar. All events should be added to the appropriate calendar from the list below.
-  - [In-Person Events and Sponsorship](https://calendar.google.com/calendar/u/0?cid=Z2l0bGFiLmNvbV9laWN2b3VkcHBjdTQ3bG5xdTFwOTlvNjU2Z0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t)
-  - [External Virtual Events](https://calendar.google.com/calendar/u/0?cid=Z2l0bGFiLmNvbV8xOGVqOHN0NmlxajZpYXB1NTNrajUzNHBsa0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t)
-  - [GitLab Hosted Zoom Webcasts](https://calendar.google.com/calendar/u/0?cid=Z2l0bGFiLmNvbV8xcXZlNmc4MWRwOTFyOWhldnRrZmQ5cjA5OEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t)
-- FMC adds the event to the [GitLab Events Page](https://about.gitlab.com/events/) utilizing [these instructions](/handbook/marketing/events/#how-to-add-events-to-aboutgitlabcomeventshttpsaboutgitlabcomevents), if applicable (specified by the FMM in the FMC Checklist section of the issue)
-- When all the above tasks have been completed, the FMC will ping the FMM in the main issue to confirm completion of the above tasks and will move the issue label `mktg-status::plan` to `mktg-status::wip`.
-- FMC and FMM to follow the [Copy Deadline Process](/handbook/marketing/field-marketing/#field-marketing-event-copy-deadline-process) for any assets the FMM has requested in the main issue's FMC Checklist.
-- FMC and FMM to follow the [Lead List Deadline Process](/handbook/marketing/field-marketing/#lead-list-deadline-process) for lead list upload process and SLAs.
-- If applicable, FMC is to shut down the Marketo LP due to capacity, or after event is complete using [these instructions](/handbook/marketing/field-marketing/#process-to-close-marketo-landing-pages-and-landing-page-forms).
+- FMC creates a new project in Asana by following the below steps:
+  - FMC adds the `Testing In-Progress` label to the GitLab issue. Adding this label will trigger the Asana project to be created utilizing the GitLab > Asana sync.
+  - In Asana, please give the system a couple of minutes to pull all of the details through. You receive a notification when the Asana project has been created.
+- FMC to then copy the body of the [FM_Asana_Template](https://gitlab.com/gitlab-com/marketing/field-marketing/-/blob/master/.gitlab/issue_templates/FM_Asana_Template.md) and paste it into the project Overview section in the Asana project
+- FMC to fill in Event Details from the GitLab issue to the project Overview
+- FMC to add the Asana project link to the top of the GitLab issue, as well as adding the GitLab issue link to the Asana project in the Overview
+- FMC then pings the FMM in the GitLab issue that the event has been moved to Asana and is ready for the FMM to work through their tasks in Asana
+- FMM follows the tasks assigned to them in the project in Asana. Once the FMM completes the `FMC Checklist` and `Ecosystem Involvement` tasks, the FMC will be notified to move the project to WIP.
+- The FMC will then proceed with their tasks in Asana
 
-### Plan to WIP video walk through
+## Plan to WIP Recorded Training 
 
-[Plan to WIP Video](https://youtu.be/7l59sm_5aD4) - You must be logged into GitLab Unfiltered to view.
-
-## Field Marketing Event Copy Deadline Process
-
-Please review [SLAs](/handbook/marketing/field-marketing/#slas) above.
-
-- FMM to assign FMC in main event issue.
-- FMC to attach their regional event tracking label to the event issue.
-- FMM and FMC to follow the [Process for Issues Moving from Plan to WIP](/handbook/marketing/field-marketing/#process-for-issues-moving-from-plan-to-wip).
-- FMC to create a [Write Copy Issue](https://gitlab.com/gitlab-com/marketing/field-marketing/-/blob/master/.gitlab/issue_templates/write-copy.md) and fill in the requested copy due dates for each asset the FMM has requested in the FMC checklist, and then attach the issue to the epic.
-- FMM to update the Copy Document file the FMC created for them (linked in the epic) with copy for each asset. Previous Copy Documents for reference are available in the [Event Support Folder](https://drive.google.com/drive/folders/1S-4PVueBj7FPAE9fB-IKz_Bbuz17rPtH).
-- Once the FMM completes copy, they will ping the FMC in the [Write Copy Issue](https://gitlab.com/gitlab-com/marketing/field-marketing/-/blob/master/.gitlab/issue_templates/write-copy.md) to notify them which asset copy has been completed.
-- If copy has not been completed for an asset yet, (1) business day before copy is due, the FMC will ping the FMM in [Write Copy Issue](https://gitlab.com/gitlab-com/marketing/field-marketing/-/blob/master/.gitlab/issue_templates/write-copy.md) with a copy due reminder.
-- FMC will make sure copy has been provided or continue to remind the FMM, if needed.
-
-## Lead List Deadline Process
-
-- FMC to create the [List Clean and Upload](https://gitlab.com/gitlab-com/marketing/marketing-operations/issues/new?issuable_template=event-clean-upload-list) issue during the [plan to WIP process](/handbook/marketing/field-marketing/#process-for-issues-moving-from-plan-to-wip)
-- FMC to assign a due date of 2 business days post-event
-- One (1) business day after the issue is due, FMC to ping the FMM in the list clean and upload issue to remind them leads are due
-- FMC will make sure leads have been provided or continue to remind the FMM, if needed
+TBD for new Asana process
 
 ## Rescheduling or Canceling Events
 
@@ -502,11 +336,10 @@ For all other event types (including in-person workshops), please see instructio
 ### FMC Tasks
 
 - FMC to update the new date(s) in the Allocadia sub-category and adjust the forecasted amount (if over the prepaid $5k threshold and if the new date falls in a new month).
-- The FMC will update the event listing in the [Marketing Calendar](/handbook/marketing/#marketing-calendar) with the updated date(s).
 - The FMC will update the date(s) in the appropriate Google calendar for the event invite.
 - The FMC will update the epic details and sub-issue due dates (and issue titles), as well as make the necessary changes to any upcoming asset send dates. If there are any emails scheduled to send, the FMC will ping MOps specially in those issues to have them unschedule the sends first.
 - The FMC will re-open the Marketo LP issue and request the date be changed in the LP. This will most likely change the LP URL as well, in which case, the FMC will update the LP link in the epic and notify the FMM of the changed link (to communicate to the sales team).
-- The FMC will follow [these instructions](/handbook/marketing/events/#how-to-add-events-to-aboutgitlabcomeventshttpsaboutgitlabcomevents) to update the date of the event on the [Events Page](https://about.gitlab.com/events/) (if applicable).
+- The FMC will follow [these instructions](/handbook/marketing/events/#how-to-add-events-to-aboutgitlabcomevents) to update the date of the event on the [Events Page](https://about.gitlab.com/events/) (if applicable).
 - Allocadia: FMC to change the ISO date in the SFDC campaign name to the new start date.
 - SFDC: FMC to change the ISO date in the SFDC campaign name to the new date and update the start and end date fields.
 - Marketo: FMC to change the ISO date in the Marketo program to the new date and update the `event date` and `UTM tokens`. Also update [asset expiration](/handbook/marketing/marketing-operations/campaigns-and-programs/#step-5-setting-landing-page--smart-campaign-expiration-asset-expiration).
@@ -525,9 +358,8 @@ For all other event types (including in-person workshops), please see instructio
 
 - FMC to update Allocadia showing the event as canceled by going to the event sub-category panel and selecting `Yes` to the `Campaign Canceled?` dropdown. FMC to also add in `CANCELED` to the event sub-category title and to the `Official Event/Campaign Name` field so the title in the main issue stays updated.
 - FMC to remove any planned/forecasted costs in Allocadia accordingly.
-- The FMC will update the [Marketing Calendar](/handbook/marketing/#marketing-calendar) by selecting the event line item and adding a strikethrough to indicate the event has been canceled.
 - The FMC will delete the Google calendar invite in the appropriate calendar.
-- The FMC will follow [these instructions](/handbook/marketing/events/#how-to-add-events-to-aboutgitlabcomeventshttpsaboutgitlabcomevents) to delete the event from the [Events Page](https://about.gitlab.com/events/) (if applicable)
+- The FMC will follow [these instructions](/handbook/marketing/events/#how-to-add-events-to-aboutgitlabcomevents) to delete the event from the [Events Page](https://about.gitlab.com/events/) (if applicable)
 - The FMC will comment regarding the cancellation in all open sub-issues and close out the issues. If there are any emails scheduled to send, the FMC will ping MOps specifically in those issues to have them unschedule the sends first.
 - If applicable, FMC to ping procurement and finance in the Coupa req to notify them that the event has been canceled.
 - If the FMM is not sending their own cancellation email to registrants and would like to send a Marketo cancellation email, create an [issue](https://gitlab.com/gitlab-com/marketing/field-marketing/-/blob/master/.gitlab/issue_templates/request_email_invite.md) for the request and triage to Marketing Ops. Please Note: This email must be scheduled and sent BEFORE the rest of the steps below can be completed.
@@ -660,73 +492,92 @@ Once the report is downloaded (or the event/tactic has ended and all swag has be
 
 ## Brand Details for Swag and Event Assets
 
-For information regarding Brand support, please visit the [Brand Creative Handbook Page](/handbook/marketing/brand-and-product-marketing/design/). Templates for requesting design/brand support are located [here](/handbook/marketing/brand-and-product-marketing/design/#brand--marketing-design-issue-templates). You can also watch [this video](https://www.youtube.com/watch?v=bBzasucNkh0) (must be logged into GitLab Unfiltered) regarding Brand templates and repos for previous and current brand designs.
+For information regarding Brand support, please visit the [Brand Design Handbook Page](/handbook/marketing/brand-and-product-marketing/design/). Templates for requesting design/brand support are located [here](/handbook/marketing/brand-and-product-marketing/design/#brand-design--video-issue-templates). You can also watch [this video](https://www.youtube.com/watch?v=bBzasucNkh0) (must be logged into GitLab Unfiltered) regarding Brand templates and repos for previous and current brand designs.
 
 ## AMER Field Marketing Swag
 
-The AMER Field Marketing team utilizes GitLab's swag and fulfillment vendor [Boundless](https://www.boundlessnetwork.com/), and their contracted warehouse, [A51 Logistics](https://a51logistics.weebly.com/) for all of our swag and event asset requirements. Boundless is available to produce, ship and store swag and event assets.
+The AMER Field Marketing team utilizes GitLab's swag and fulfillment vendor [Brilliant](https://www.brilliantmade.com/) for all of our swag and event asset requirements. Brilliant is available to produce, ship, and store swag and event assets.
 
-### Boundless Portal
+### Brilliant Store Portal
 
-Field Marketers are responsible for accessing the [Boundless Portal](https://gitlabstore.mybrightsites.com) via their individual logins to order all swag and assets for their events.
+Field Marketers are responsible for accessing the [Brilliant store portal](https://app.brilliantmade.com/users/sign_in) utilizing their individual logins to order all swag and assets for their events.
 
-#### Boundless Portal Training
+#### Brilliant Store Portal Training
 
-[**Watch Training Video Here**](https://youtu.be/GGFunX7JOK0)  *(Note: You must be logged in to GitLab Unfiltered to view)*
+[**Watch Training Video Here**](https://youtu.be/YRqPeom_H-Q)  *(Note: You must be logged in to GitLab Unfiltered to view)*
 
-### Boundless Support
+### Brilliant Support
 
-For Boundless support, please reach out directly to our Boundless Branded Merchandise Specialist, Savanah Sporer. For any questions or concerns, please reach out to `@krogel`.
+For Brilliant support, please see email addresses below. For any questions or concerns, please reach out to `@krogel`.
 
-Savanah Sporer
-sporer@boundlessnetwork.com
-785.672.2647
+- `gitlab@brilliantmade.com` for net-new orders
+- `support@brilliantmade.com` for order/shipping support in North America
+- `international.support@brilliantmade.com` for order/shipping support in EMEA, UK and APJ
 
-### Details Regarding Swag and Event Asset Ordering
+### Specialty Swag Orders, Invoicing, and Brand Approval
 
-- You are required to provide an Allocadia ID and event name for all Boundless orders. All charges related to swag and shipping will be associated to your specific campaign. Please see [this page](/handbook/marketing/#how-marketing-tracks-campaign-expenses) for additional Allocadia ID information.
-- When orders are placed through the Boundless portal, A51 Logistics' UPS account will be utilized for shipping charges. These charges will process through our monthly invoice and charges will be associated to the Allocadia ID provided when ordering.
-- Item quantities are listed in the portal. Please select from the current items in stock for your event. If you need a larger quantity of an item over what is available, or you intend to utilize the remaining stock for an item, please reach out to `@krogel` for reordering.
-- If you would like to source a new swag item, please reach out to `@krogel` directly. All new swag items must be approved by the Brand team for brand consistency.
-- Please be aware that ordering newly designed swag or placing reorders for existing items requires adequate lead time. Timeframes vary greatly based on the items selected, design approval, and availability. General Lead Times: 6 weeks to produce a new item and 2-3 weeks to reorder current designs
+- If you would like to order specialty swag for a specific event, please reach out to `gitlab@brilliantmade.com` and provide the following details:
+  - Item you are looking to source
+  - Any links or pictures for reference
+  - Budget
+  - In-hand ETA
+  - Where swag will be shipped (if swag is to be stored in the warehouse, please include `@krogel` on correspondence)
+- PLEASE NOTE: Every new swag order requires a PO number before Brilliant will submit the order to production. Please make sure to build this approval time into your overall timeline!
 
-### AMER Field Marketing Event Assets
+#### Approval Process through the Brilliant Store Portal
 
-It is recommended that each Field Marketer keep a separate GitLab tablecloth, popup banner and table runner with them at home for easy access and to be utilized for events. Ordering instructions are provided during onboarding, but if replacement items are needed, please contact `@krogel`. Additional event assets utilized for shows (including backwalls, tablecloths, popup banners, DevOps Days kits, etc.) are stocked at the Boundless warehouse and can be shipped via the [Boundless Portal](https://gitlabstore.mybrightsites.com).
+- Brilliant will send the FMM an order estimate through the [Brilliant store portal](/handbook/marketing/field-marketing/#brilliant-store-portal) (FMM will receive an email notification). FMM to go to the order estimate and save the order to PDF and submit a [contract request](/handbook/marketing/field-marketing/#field-marketing-contract-requests) to the FMC.
+- FMC to route the order through the procurement process.
+- Once the PO number is obtained, the FMM will log back into the Brilliant store portal, go to the order estimate, and click `approve`. An additional screen will pop up where the FMM will include the PO number and then submit.
+- Once the order is approved in the store portal, Brilliant will submit the order to the vendor.
+- All new swag artwork (inlcuding logo placement) will be reviewed and approved by the Brand team.
+  - If the swag item chosen only requires a GitLab logo to be added, Brilliant will provide a proof to the FMM through the store portal (FMM will receive an email notification) and then once approved in the portaly by the FMM, the proof will be sent to the Brand team for final approval (within the Brilliant store portal as well).
+  - If the swag item chosen requires a full design, please follow the instructions to submit a design request [here](/handbook/marketing/brand-and-product-marketing/brand/merchandise-handling/#swag-program-owners).
+- Once the order has been shipped, Brilliant will submit the invoice through Coupa directly.
 
-### Returning AMER Field Marketing Event Assets and Swag
+### Store Portal Orders and Shipping Charges
 
-It is the FMM's responsibility to not only ship assets to events, but to also ensure the onsite event DRI ships the items back within **3 days** of the end of the event. Every order placed through the Boundless portal will include a clearly marked return label inside of each box. The FMM is to make sure the onsite event DRI is aware of the location of the return shipping labels and of their responsibility to ship the items back.
+- Please see the homepage of the [Brilliant store portal](https://app.brilliantmade.com/users/sign_in) for specific ordering instructions and helpful details.
+- General swag items in the store have previously been ordered and paid for in bulk. You are not required to pay for these swag items from your individual budgets. The cost of the swag items are shown to help indicate the level of swag and how much should be utilized.
+- You are required to provide an Allocadia ID and event name for all Brilliant store orders. All charges related to shipping will be associated to your specific campaign and these charges will process through our monthly invoice. When you place your orders through the store, you will be provided a shipping estimate during checkout. If you are returning items, you can estimate the same return shipping and add that total to your forecast.
+  - PLEASE NOTE: Our monthly Brilliant invoice covers all charges for the previous month. Due to our prepaid policy, your shipping charges for the previous month will be reconciled in the following month, so please forecast accordingly. Example - You ship swag in August for an August event. Our August monthly invoice processes in September, so those August shipping charges should be forecasted in September.
+- Item quantities are listed in the portal. Please select from the current items in stock for your event. If you need a larger quantity of an item over what is available, you intend to utilize the remaining stock for an item, or you are ordering over 500 pieces of an item, please reach out to `@krogel` for reordering.
+- Please be aware that ordering newly designed swag or placing reorders for existing items requires adequate lead time. Time frames vary greatly based on the items selected, design approval, and availability. General Lead Times: 6-8 weeks to produce a new item and 2-3 weeks to reorder current designs
 
-**PLEASE NOTE:** Trash should not be put into the return shipping boxes. All event assets are to be packed up cleanly and securely in their original boxes. All tool kit items should be returned to the tool kits for future event use. Do not send small numbers of swag back to the warehouse if the items were bundled. Only send full bundles back to the warehouse for restock. Example: If pens come in bundles of ten, please do not send back 2 pens as these cannot be rebundled. Feel free to keep small quantities of extra swag to give out to customers, if appropriate. Also, only open swag bundles as they are needed so items can be returned if not used. If you have any questions, please contact `@krogel`.
+### New swag ideas for bulk orders
 
-#### A51 Logistics Warehouse Address
+If you would like to source a new swag item for the team's inventory, please reach out to `@krogel` directly. All new swag items must be approved by the Brand team for brand consistency.
 
-A51 Logistics
-Account: GitLab
-4465 W Hacienda, Suite 105
-Las Vegas, NV 89118
-702-353-4547
+### Field Marketing Event Assets
+
+Event assets utilized for shows (including backwalls, tablecloths, popup banners, event kits, etc.) are stocked at the Brilliant warehouse and can be ordered for events using the [Brilliant store portal](https://app.brilliantmade.com/users/sign_in). It is also recommended that each Field Marketer keep a separate GitLab tablecloth, popup banner and table runner with them at home for easy access and to be utilized for events.
+
+### Returning Field Marketing Event Assets and Swag
+
+It is the FMM's responsibility to not only ship assets to events, but to also ensure the onsite event DRI ships the items back within **3 days** of the end of the event. Every order placed through the Brilliant portal will include return labels (one return label per box) in a red envelope adhered to the inside flap of the box. The FMM is to make sure the onsite event DRI is aware of the location of the return shipping labels and of their responsibility to ship the items back.
+
+**PLEASE NOTE:** Trash and items not stored in the Brilliant warehouse should not be put in the return shipping boxes. All event assets are to be folded neatly and packed up cleanly and securely in their original boxes. All tool kit items should be returned to the tool kits for future event use. Please do not send small numbers of swag back to the warehouse if the items were bundled, only send full bundles back to the warehouse for restock. Example: If pens come in bundles of ten, please do not send back 2 pens as these cannot be re-bundled. Feel free to keep small quantities of extra swag to give out to customers, if appropriate. Also, only open swag bundles as they are needed so items can be returned if not used. If you have any questions, please contact `@krogel`.
+
+### Warehouse Address
+
+AMER Warehouse
+Attn: GitLab AMER FM Store - c/o Kerry Phan
+Brilliant
+1605 S Waukegan Rd
+Waukegan, IL 60085
+415-980-4600.
 
 ### Stickers
 
-For sticker orders, please utilize our [Stickermule](https://www.stickermule.com/) account. The login for Stickermule can be found in the Marketing 1pass. Delivery options and timelines are provided during the ordering process. Any new sticker designs must be approved by the Brand team for brand consistency. For new sticker design requests, please open a design issue using the design issue template [here](https://gitlab.com/gitlab-com/marketing/brand-product-marketing/brand-product-marketing/brand-design/-/issues/new?issuable_template=event-asset-request). Please note that we are currently not producing specialty Tanuki designs at this time.
-
-#### Sticker Budgeting and Tracking
-
-The AMER Field Marketing Team has a blanket PO for all Stickermule orders. The FMM placing the order will log into Stickermule (utilizing the Marketing 1pass), add the stickers needed to the cart, then contact their FMC to provide the total cost of the order. The FMC will then provide the Coupa Card information to use for payment (receipt is not required). The FMC will then add the total cost of the order to the appropriate month's forecast in the Stickermule Blanket PO line item in the ALL AMER plan in Allocadia (2505376).
+For sticker orders, please reach out to `@krogel` for details.
 
 ### Print Collateral
 
-In order to stay environmentally-friendly, we generally do not provide large quantities of print collateral at events. However, if you do need printouts or gift bag stuffers for events, we utilize [Vistaprint](https://www.vistaprint.com/). Please log in using the Marketing 1pass. Another option in lieu of hundreds of printed handouts is to have a handful of printed and laminated pieces of collateral to utilize for visual reference while speaking with customers at an event. Additionally, you can create a [QR Code](/handbook/marketing/events/#field-marketing-qr-codes-for-events) to display at your event with that same piece of content for customers to download to their own devices.
-
-### Requesting New Swag in AMER
-
-If you are interested in ordering new swag, please open a [Swag Request Issue](https://gitlab.com/gitlab-com/marketing/field-marketing/-/issues/new?issuable_template=Swag_Request_Template) and assign `@krogel`. If you believe the swag item is something the entire AMER team would be interested in utilizing, you can add an item to our weekly team agenda or send a message in the `#amerfmteamctf` Slack channel to check and see if any other FMMs would be interested in also ordering the item and splitting the cost. If splitting the cost between regions, please remember to utilize the `ALL AMER` plan in Allocadia for [budgeting](/handbook/marketing/field-marketing/#the-field-marketing-budget) and to indicate which regions are sharing the cost in the Swag Request Issue.
+In order to stay environmentally-friendly, we generally do not provide large quantities of print collateral at events. However, if you do need printouts or gift bag stuffers for events, we utilize [Vistaprint](https://www.vistaprint.com/). Please log in using the Marketing 1pass. Another option in lieu of hundreds of printed handouts is to have a handful of printed and laminated pieces of collateral to utilize for visual reference while speaking with customers at an event. Additionally, you can create a [QR Code](/handbook/marketing/events/#qr-codes-for-events-field-marketing-and-corporate-events) to display at your event with that same piece of content for customers to download to their own devices.
 
 ## EMEA Field Marketing Swag
 
-The EMEA Field Marketing team utilises [Reachdesk](/handbook/marketing/marketing-operations/reachdesk/#project-management) to source, fulfill, ship and store (European and UK warehouses) swag branded swag items.  We also utilise vendor [Ten&One](https://www.tenandone.com) who can source swag items and who also currently store all EMEA event material. The FMC is responsible for ensuring adequate stock levels and coordinating field event swag logistics. Additional event assets utilized for shows (including backwalls, tablecloths, popup banners, etc.) are stocked at the Ten&One warehouse and can be shipped
+The EMEA Field Marketing team utilises Brilliant to source, fulfill, ship and store (European and UK warehouses) swag branded swag items.  We also utilise vendor [Ten&One](https://tenandone.com/) who can source swag items and who also currently store all EMEA event material. The FMC is responsible for ensuring adequate stock levels and coordinating field event swag logistics. Additional event assets utilized for shows (including backwalls, tablecloths, popup banners, etc.) are stocked at the Ten&One warehouse and can be shipped
 
 - **Budget Allocation:**
   - If there is an individual order dedicated to support one specific event (e.g Cloud Expo) an Allocadia line item should be created by the FMM in their regional activity plan under this specific event.
@@ -831,7 +682,7 @@ The Admin Portal is where you manage all aspects of your Corporate Account from 
 
 **Grubhub Corporate Support**
 
-- [Grubhub Corporate Learning Center](https://corporate.grubhub.com/learning-center)
+- [Grubhub Corporate Learning Center](https://corporate.grubhub.com/learning-center/)
 - Grubhub Corporate Support Email: clients@grubhub.com
 - Grubhub Corporate Support Number: (844)-478-2249
   - Press 1 for order status
@@ -1037,15 +888,15 @@ The below epic is for tracking venues we would like to utilize for future events
 
 ## Corporate Memberships Owned by GitLab Field Marketing
 
-- [AFCEA](https://www.afcea.org/site/) - Membership is handled by the Public Sector Field Marketing Manager. Account information is stored in the marketing 1Pass vault. Please ping Kira Aubrey or Haley McComber for assistance.
+- [AFCEA](https://www.afcea.org/) - Membership is handled by the Public Sector Field Marketing Manager. Account information is stored in the marketing 1Pass vault. Please ping Kira Aubrey for assistance.
 - [ACT-IAC](https://www.actiac.org) - Membership is handled by the Public Sector Field Marketing Manager. Please ping Kira Aubrey for details if you'd like to join.
 - [Charleston DCA](https://www.charlestondca.org/) - Membership is handled by the Public Sector Field Marketing Manager. Please ping Kira Aubrey for details if you'd like to join.
-- [G2xExchange](https://g2xchange.com/) - Membership is handled by the Public Sector Field Marketing Manager. Please ping Haley McComber for details if you'd like to join.
-- [NASCIO](https://www.nascio.org/) - Membership is handled by the Public Sector Field Marketing Manager. Please ping Haley McComber for details.
-- [GBEF](https://gbef.tech/) - Membership is handled by the Public Sector Field Marketing Manager. Please ping Kira Aubrey for details.
+- [G2xExchange](https://g2xchange.com/) - Membership is handled by the Public Sector Field Marketing Manager. Please ping Kira Aubrey for details if you'd like to join.
+- [NASCIO](https://www.nascio.org/) - Membership is handled by the Public Sector Field Marketing Manager. Please ping Kira Aubrey for details.
+- [GBEF](https://gbeftech.com) - Membership is handled by the Public Sector Field Marketing Manager. Please ping Kira Aubrey for details.
 - [INSA](https://www.insaonline.org/) - Membership is handled by the Public Sector Field Marketing Manager. Please ping Kira Aubrey for details.
 - [USGIF](https://usgif.org/) - Membership is handled by the Public Sector Field Marketing Manager. Please ping Kira Aubrey for details.
-- [NASTD](https://www.nastd.org/home) - Membership is handled by the Public Sector Field Marketing Manager. Please ping Haley McComber for details.
+- [NASTD](https://www.nastd.org/home) - Membership is handled by the Public Sector Field Marketing Manager. Please ping Kira Aubrey for details.
 
 ## What's currently scheduled in my region?
 
@@ -1058,7 +909,7 @@ The below epic is for tracking venues we would like to utilize for future events
 | [AMER - West -Northwest & North Central](https://gitlab.com/groups/gitlab-com/marketing/-/boards/5290156?label_name[]=WEST%20-%20NW%20%26%20North%20Central) | Julie Wyatt | `@Julie Wyatt` | |
 | [AMER - Southwest & Bay](https://gitlab.com/groups/gitlab-com/marketing/-/boards/5290054?label_name[]=WEST%20-%20SW%20%26%20Bay%20Area) |  Lisa Rom | `@lrom`  | |
 | [AMER - Public Sector DoD/NSG/Alliances](https://gitlab.com/groups/gitlab-com/marketing/-/boards/933456?&label_name[]=Public%20Sector) | Kira Aubrey |  `@KiraAubrey` | |
-| [AMER - Public Sector SLED/Civ](https://gitlab.com/groups/gitlab-com/marketing/-/boards/933456?&label_name[]=Public%20Sector) | Haley McComber |  `@Haley McComber` | |
+| [AMER - Public Sector SLED/Civ](https://gitlab.com/groups/gitlab-com/marketing/-/boards/933456?&label_name[]=Public%20Sector) | Kira Aubrey |  @kiraaubrey` | |
 | [APAC](https://gitlab.com/groups/gitlab-com/marketing/-/boards/933488?&label_name[]=APAC) | Kate Baker | `@kbaker4` | |
 | Japan - link WIP | Shu Kawaguchi | `@skawaguchi1` | |
 | [EMEA Southern Europe](https://gitlab.com/groups/gitlab-com/marketing/-/boards/1426531?&label_name[]=Southern%20Europe) | Juliette Francon | `@ju` | [#emea_southern_europe_fieldmarketing](https://gitlab.slack.com/archives/CQ6FG8ETY) |
@@ -1116,8 +967,7 @@ This deck should also be used to present the regional plans to the sales teams.
 
 | Regional attendees:                                   |
 |-------------------------------------------------------|
-| VP of Integrated Marketing                            |
-| Director of FMM                                       |
+| VP of Regional Marketing                          |
 | Manager of FMM, REGION                                |
 | Regional FMMs & FMC/S                                 |
 | ABM delegate                                          |
@@ -1133,11 +983,11 @@ In an effort to share the regional marketing team's plans with the rest of the m
 
 ### Marketing SSoT calendar
 
-Within two days of the quarterly plan being [locked by Finance](/handbook/finance/financial-planning-and-analysis/marketing-finance/#important-dates) in Allocadia, the Regional Managers will download the teams' plans from Allocadia and will upload to the shared [marketing calendar](/handbook/marketing/#marketing-calendar).
+Within two days of the quarterly plan being [locked by Finance](https://internal.gitlab.com/handbook/finance/financial-planning-and-analysis/marketing-finance/#important-dates) in Allocadia, the Regional Managers will download the teams' plans from Allocadia and will upload to the shared Marketing Calendar.
 
 In order to ensure the formulas carry over properly, the download from Allocadia will need to be cleaned, similiar to how we clean our leads for list upload.
 
-The [Calendar cleaner spreadsheet](https://docs.google.com/spreadsheets/d/19XsjDlnAJ_lmWysIcD1XSL1JT3R0awDUd_7MRCGgMgs/edit#gid=777223734&range=A1) should be used to do this. Once the data is cleaned, it then can be copied into the [marketing calendar](/handbook/marketing/#marketing-calendar).
+The [Calendar cleaner spreadsheet](https://docs.google.com/spreadsheets/d/19XsjDlnAJ_lmWysIcD1XSL1JT3R0awDUd_7MRCGgMgs/edit#gid=777223734&range=A1) should be used to do this. Once the data is cleaned, it then can be copied into the Marketing Calendar.
 
 [Video walk through on how to clean.](https://youtu.be/xiABH1Gjkw4) *on GitLab Unfiltered.
 
@@ -1149,7 +999,7 @@ If an event is created after this quarterly transfer, the event DRI is responsib
 
 In the AMER region, managers are responsible for the [Marketing SSoT above](/handbook/marketing/field-marketing/#marketing-ssot-calendarhandbookmarketingmarketing-calendar), but also the AMER SSoT [here](https://docs.google.com/spreadsheets/d/1Tss2_8rz9vZdDE68T11dOMlCZPRowhANKLHgAazmSJA/edit#gid=222941017) (internal).
 
-Within two days of the quarterly plan being [locked by Finance](/handbook/finance/financial-planning-and-analysis/marketing-finance/#important-dates) in Allocadia, the AMER Regional Manager will download the team's plans from Allocadia and will upload to the [AMER SSoT](https://docs.google.com/spreadsheets/d/1Tss2_8rz9vZdDE68T11dOMlCZPRowhANKLHgAazmSJA/edit#gid=222941017) (internal).
+Within two days of the quarterly plan being [locked by Finance](https://internal.gitlab.com/handbook/finance/financial-planning-and-analysis/marketing-finance/#important-dates) in Allocadia, the AMER Regional Manager will download the team's plans from Allocadia and will upload to the [AMER SSoT](https://docs.google.com/spreadsheets/d/1Tss2_8rz9vZdDE68T11dOMlCZPRowhANKLHgAazmSJA/edit#gid=222941017) (internal).
 
 After the initial pull, the regional marketers are responsible for adding all details not included in the pull, any new tactics for the quarter that weren't pulled from Allocadia, and also moving completed tactics to the `Completed Events - Results` tab and providing all retrospective information required.
 
@@ -1270,52 +1120,30 @@ Please refer to the [Marketing Performance handbook](/handbook/marketing/strateg
 
 ## Field Marketing - Public Sector
 
-## Charitable Donations for Event Attendance
+### Requesting support for a Public Sector event
+
+Requests will be reviewed by the Staff Public Sector Field Marketing Manager. Even if the event is free or low-cost, all requests must be approved by the manager prior to any commitment to ensure the event or tactic aligns to the marketing strategy within the SLA required below, and the team has the resources to support the event.
+
+#### Requirements
+
+- 60 days notice, prior to the start of the event
+- Support needed from Field Marketing (landing page, swag, invites, etc.)
+- Budget
+- Have we run or sponsored this event in the past?
+  - If yes - Please provide ROI details from previous SFDC campaign
+  - If no - Please provide valid justification for adding this event to the Field Marketing plan
+
+### Charitable Donations for Event Attendance
 
 As incentive for attending an event, GitLab can promote and process a monetary donation per participant to a charitable organization. For example: GitLab promotes a $25 donation per attendee for attending an event, 100 attendees participate in the event and GitLab donates $2,500 to the selected charity. **Please Note**: Donations are not to be made in a participant's name or reference a participant's organization.
 
 All GitLab donations to charitable organizations must follow the [Philanthropy Approval Process](/handbook/legal/esg/#philanthropic-requests).
 
-## PubSec FMM Calendar share
+### PubSec FMM Calendar share
 
 In alignment with the PubSec team's [process to lock down shared data](https://gitlab.com/gitlab-com/customer-success/okrs/-/issues/150) that is accessible to teams outside of our US PubSec team - (will link to handbook page once its been created!) the Public Sector Field Marketing Managers, by default, will mark their calendar details as private. Google calendar [has a feature](https://support.google.com/calendar/answer/37082?hl=en#zippy=%2Cunderstand-permission-settings-for-shared-calendars%2Cstop-sharing-your-calendar-publicly-with-your-organization-or-with-specific-people) that allows you to share your calendar with individuals once its been marketed as private and at a minimum, the FMM team member should share their calendar with both their direct manager as well as their aligned Field Marketing Specialist, pending those people are US Citizens.
 
-## PubSec Website
-
-Please see the PubSec website page [here](https://about.gitlab.com/solutions/public-sector/).
-
-### How to Edit the PubSec Website
-
-The content for the PubSec page lives in the `Buyer Experience` repository, in the [public-sector.yml](https://gitlab.com/gitlab-com/marketing/digital-experience/buyer-experience/-/blob/main/content/solutions/public-sector.yml#L240) file (starting around line 240). To edit this file, please keep the same structure as the current content to avoid any errors. Feel free to use the Web IDE or single file editor to update the information.
-
-The event cards section of the file will look something like this:
-
-```yaml
-    -   icon: "/nuxt-images/features/resources/icon_partners.svg"
-        event_type: "Conference"
-        header: "AWS Summit Washington, DC 2022"
-        date: May 23-25, 2022
-        link_text: "Event Details"
-        image: "/nuxt-images/features/resources/resources_partners.png"
-        href: "https://portal.awsevents.com/events/DCSummit2022/registration?trk=b182ae87-ed10-41fb-844b-446696bfe55f&sc_channel=el"
-        data_ga_name: "Collaboration without Boundaries"
-        data_ga_location: resource cards
-```
-
-- **icon:** Can be either `/nuxt-images/icons/slp-webcast.svg` or `/nuxt-images/icons/slp-calendar.svg`.
-- **event_type:** Can be any value.
-- **header:** Can be any free text. If any colons or apostrophes are used, feel free to wrap in double quotes such as `header: "Space: The Final Frontier"`.
-- **date:** Can be any free text, but similar format is preferred for visual consistency.
-- **link_text:** Ideally this stays as "Event Details" for consistency.
-- **href:** Full link to the event.
-- **image:** Can be any image from this [folder](https://gitlab.com/gitlab-com/marketing/digital-experience/buyer-experience/-/tree/main/static/nuxt-images/features/resources) that starts with `resources_`
-- **data_{value}**: These are used for analytics - please don't edit.
-
-After making your edits, please tag an Engineer on the [Digital Experience Team](/handbook/marketing/digital-experience/#groups-metrics--team-members) as a `Reviewer`. For further assistance, feel free to post a question in the #digital-experience-team slack channel.
-
-## GitLab Government User Group Program
-
-### Purpose, Mission and Values
+### GitLab Government User Group Program
 
 #### Purpose
 
@@ -1329,49 +1157,49 @@ To provide opportunities for discussion, education and community building for in
 
  Transformation, Collaboration, Education, Iteration, Inclusion
 
-### Four Pillars of our User Group
+#### Four Pillars of our User Group
 
 1. Member Development: Helping our members grow both through both technical and professional education
 1. Outreach: Engaging with the greater Public Sector community
 1. Awareness & Education: Helping to drive conversations on how DevOps can benefit the communities we serve
 1. Contributing: Continue to support the growth and transformation of DevOps within the technical community
 
-### Code of Conduct
+#### Code of Conduct
 
 To ensure a positive experience we will adhere to the GitLab code of conduct [found here](https://about.gitlab.com/community/contribute/code-of-conduct/)
 
-### Boilerplate Verbiage
+#### Boilerplate Verbiage
 
 Join us as we build a community of GitLab users within Government and Education where peers can share best practices, connect with public sector GitLab Team members and collaborate on how to best serve the public sector.
 
 We are committed to providing opportunities for discussion, education and community building for individuals who serve the public sector. We look forward to connecting through both virtual and in person events, training and team building!
 
-### Branches
+#### Branches
 
 - Caffeine and Collaboration #caffeineandcollaboration
 - User Group Workshops #usergroupworkshop
 - Iterate! Start something new!
 
-### Recommended Formats for Event
+#### Recommended Formats for Event
 
 - Roughly 1.5 hours in length
 - Series of 2-3 speakers (one GitLab and 1-2 customers)
 - AMA or Panel
 
-### Sample Agenda/Example Slide Deck
+#### Sample Agenda/Example Slide Deck
 
 [Sample Agenda/Example Slide Deck](https://docs.google.com/presentation/d/1hwU1nt8wb8ADtj9JFq-zTg1bbZNf3L5H/edit?usp=sharing&ouid=114806938780598580840&rtpof=true&sd=true)
 
-### GitLab Forum
+#### GitLab Forum
 
 - Encourage members, registrants and attendees to get involved and open up discussions on the [GitLab Forum page](https://forum.gitlab.com/c/gitlab-government-user-group/44) for the GitLab Government User Group.
 
-### Imagery
+#### Imagery
 
 - Branding should remain consistent across the entire User Group program leveraging marketing approved Tanuki graphics.
   - Press kit for Tanuki designs can be found [here](https://about.gitlab.com/press/press-kit/)
 
-### Hashtags and Social Media Promotion
+#### Hashtags and Social Media Promotion
 
 - The following hashtags should be used when promoting on social platforms:
   - #gitlabgovernmentusergroup
@@ -1384,7 +1212,7 @@ We are committed to providing opportunities for discussion, education and commun
 - Event should be promoted via Bambu. Reach out to @KiraAubrey to get a post created, approved and ready for team sharing.
 - Encourage relevant people from the sales, marketing and technical teams to promote via their social pages.
 
-### When Engaging a Partner
+#### When Engaging a Partner
 
 **Consider the following items**:
 
@@ -1393,7 +1221,7 @@ We are committed to providing opportunities for discussion, education and commun
 - Ensure that the partner is aware this is NOT a marketable event.
 - Ensure branding is in alignment with GitLab Government User Group branding.
 
-### Backend Processes
+#### Backend Processes
 
 **Getting Started with Meetup.com**
 
@@ -1405,7 +1233,7 @@ We are committed to providing opportunities for discussion, education and commun
    - **Please Note**: Meetup.com will be leveraged for announcements and save the date messaging. Actual registration will take place on external registration sites via GitLab or the involved partner.
    - **Best Practice**: Create a Save the Date event for your upcoming event on meetup.com!
 
-### Best Practices - Sample Timeline for a User Group Run Through Carahsoft
+#### Best Practices - Sample Timeline for a User Group Run Through Carahsoft
 
 - GitLab Team Member nominates a Speaker and Proposed Topic/ Speaker submission form is received
 - Intro call with GitLab and Speaker
@@ -1501,30 +1329,30 @@ We are committed to providing opportunities for discussion, education and commun
 
 ## AMER Field Marketing iPad Purchasing and Setup Instructions
 
-## Purchasing Details
+### Purchasing Details
 
-[iPad Pro 12.9 inch/256GB/wifi](https://www.apple.com/shop/buy-ipad/ipad-pro/12.9-inch-display-256gb-space-gray-wifi)
-[iPad Pro 12.9 inch Smart Keyboard Folio](https://www.apple.com/ca/shop/product/MXNL2LL/A/smart-keyboard-folio-for-ipad-pro-129-inch-6th-generation-us-english)
+[iPad Pro 12.9 inch/256GB/wifi](https://www.apple.com/shop/buy-ipad/ipad-pro)
+[iPad Pro 12.9 inch Smart Keyboard Folio](https://www.apple.com/in/shop/product/MXNL2HN/A/smart-keyboard-folio-for-ipad-pro-129-6th-generation-us-english)
 
 - When purchasing, please utilize the GitLab Business Account for corporate discounts. The Apple store/online representative will look up the GitLab Business Account associated with GitLab's 268 Bush St., San Francisco, CA 94104 address.
 - Do not purchase AppleCare
 - iPads can only be purchased by the regional Field Marketing Manager
 
-## iPad Tracking
+### iPad Tracking
 
-### AMER
+#### AMER
 
 In the AMER region, we utilize [this issue](https://gitlab.com/gitlab-com/marketing/field-marketing/issues/1031) to track the team's iPads.
 
-### EMEA
+#### EMEA
 
 In the EMEA region, [Ten&One](/handbook/marketing/field-marketing/#emea-field-marketing-swag) is utilized for the team's iPad tracking.
 
-### APAC
+#### APAC
 
 TBD
 
-## Setting Up Logins
+### Setting Up Logins
 
 **iPad Password**
 
@@ -1540,7 +1368,7 @@ TBD
 
 ## Working with Field Marketing
 
-## Requests to Field Marketing leadership team
+### Requests to Field Marketing leadership team
 
 If you are a Field Marketing Manager and you would like to make a request in order to achieve better business results aligned to our values, please submit an issue using the [Field Marketing Leadership request issue template](https://gitlab.com/gitlab-com/marketing/field-marketing/-/issues/new?issuable_template=leadership_request).
 
@@ -1559,7 +1387,7 @@ For information on how Field Marketing tracks campaign expenses, please visit th
 
 The Field Marketing team works from issues and issue boards. If you need our assistance with any project, please open an issue and use the `Field Marketing` label anywhere within the GitLab repo.
 
-## General Field Marketing Labels
+### General Field Marketing Labels
 
 - `Field Marketing`: Issue initially created, used in templates, the starting point for any issue that involves Field Marketing
 - `FY25-Q1` `FY25-Q2` `FY25-Q3` `FY25-Q4`: What event or activity is set to take place or be due in this quarter in the specific year
@@ -1582,7 +1410,7 @@ The Field Marketing team works from issues and issue boards. If you need our ass
 - `Webcast - GitLab Hosted`: Issue related to GitLab-Hosted Webcasts
 - `FM Workshop`: Issue related to Field Marketing-run workshops
 
-## Regional Field Marketing Labels
+### Regional Field Marketing Labels
 
 - `APAC`: Issues that are related to the APAC sales team
 - `EMEA`: Issues that are related to the EMEA sales team
@@ -1608,13 +1436,8 @@ The Field Marketing team works from issues and issue boards. If you need our ass
 - `AMER - SLED`: AMER SLED tactics
 - `AMER - NSP`: AMER National Security tactics
 - `FMS AMER`: FMS AMER general requests
-- `FMS AMER - Tracking`: FMS AMER event tracking
 - `FMS AMER - Swag`: FMS AMER swag requests
 - `FMS AMER - Contracts`: FMS AMER contract requests
-- `FMC AMER East-Central/West`: Issues that the FMC East-Central/West is actively working
-- `FMC AMER East-Central/West - Contracts`: FMC East-Central/West task for tracking contract requests
-- `FMC AMER East-Central/West - WS/WC`: FMC East-Central/West task tracking for workshops and webcasts
-- `FMC AMER East-Central/West - Tracking`: FMC East-Central/West issue tracking
 - `FMC EMEA`: Apply this label for the attention of the Field Marketing Coordinator-EMEA
 - `FMC EMEA - Event Tracking`: Event/deadline tracking related to FMC EMEA
 - `SDR-GO Live`: Label FMMs add to the SDR Request issue that notifies the SDR team that the issue has been completed and is ready to be worked by the SDRs. [SDR-GO Live Summary board.](https://gitlab.com/groups/gitlab-com/marketing/-/boards/2124068?&label_name[]=SDR-GO%20Live)
@@ -1658,15 +1481,15 @@ Please note that there is a limit of $75 USD annually per person on customer spe
 
 ## Field Marketing and the Procurement Process
 
-## Field Marketing Contract Requests
+### Field Marketing Contract Requests
 
 In Field Marketing, the FMCs manage all [Zip requisitions](/handbook/business-technology/enterprise-applications/guides/zip-guide) for their regions. For contracts or invoices ready to submit for approval, the FMM will open an issue utilizing the [`Contract_Request`](https://gitlab.com/gitlab-com/marketing/field-marketing/issues/new?issuable_template=Contract_Request) template and follow the instructions to provide important details required before assigning to the regional FMC.
 
-### SLAs
+#### SLAs
 
 The SLA for your FMC to submit your request to Zip/Coupa is **3 business days** from when they are assigned the contract request issue. Please keep in mind it generally takes a week+ to obtain all approvals and/or signatures during the procurement process (longer for more complicated contracts that may require redlines from legal), so please plan accordingly.
 
-### Document Review
+#### Document Review
 
 Please make sure you have reviewed your document carefully and have pre-filled the contract details required in the agreement *before* assigning the issue to your FMC. Below are some items to keep in mind when both the FMMs and FMCs are reviewing contracts...
 
@@ -1677,23 +1500,23 @@ Please make sure you have reviewed your document carefully and have pre-filled t
 - Clear vendor goals and if the vendor fails to deliver against T&Cs/goals, a detailed make-good clause
 - If a room block is involved, accurate attrition requirements have been included
 
-### Month Close
+#### Month Close
 
 Please Note: AP typically closes out the month by the third business day **before** the last day of the month (Day -3). Once AP closes the month, any charges under $5k (under $50k for swag/shipping) occurring via a credit card or invoice approvals will be reconciled the following month. The month close date will be announced each month in the `#allocadia_mktg-budget-holders` Slack channel and will also be added to the [Marketing Finance Dates Calendar](https://calendar.google.com/calendar/embed?src=c_j581mpq4tcn6bjojs1bqnl4eg0%40group.calendar.google.com&ctz=America%2FDenver).
 
-### Prepaid Policy
+#### Prepaid Policy
 
 Please make sure you have reviewed our company's [prepaid policy](/handbook/finance/accounting/#prepaid-expense-policy) and have forecasted your cost(s) correctly in Allocadia.
 
-### Signature Authority
+#### Signature Authority
 
 GitLab team members DO NOT have [signature authority](/handbook/company/authorization-matrix/expenses-and-signatures/#signature-authority---sales-and-vendor-contracts). This means that FMMs are not allowed to sign any legal documents pertaining to quotes, orders, contracts, BEOs, etc. If you have a document that requires a signature, please submit it in a contract request to your FMC to process through procurement.
 
-### Coupa Card Versus Navan Card
+#### Coupa Card Versus Navan Card
 
 This template is to be utilized for all contracts/orders/invoices that either require a signature/acceptance of terms and conditions and/or are over $5,000 in cost. If your order does not require a contract/signature and is under $5,000, you may utilize your [Navan credit card](/handbook/finance/accounts-payable/corp-credit-cards/) for payment.
 
-### Coupa Card Limits
+#### Coupa Card Limits
 
 Please be aware that your Coupa card limit is directly associated to the approved PO amount. We have a 10% overage on the card and if you try to charge more than 10% over the PO amount, the card will decline. If you require additional funds be added to the card limit, you will need to request your FMC submit a [PO Change Request](/handbook/business-technology/enterprise-applications/guides/zip-guide/#how-to-do-a-request-change) to increase the PO total and the card limit.
 
@@ -1701,21 +1524,21 @@ Please be aware that your Coupa card limit is directly associated to the approve
 
 Please also note, we can only use Coupa cards for POs up to $25,000. Anything over $25,000 requires ACH payment and onboarding the vendor through Zip/Coupa. If you know you have an upcoming contract/payment over $25,000, please contact your FMC in advance so they can check to see if the vendor is currently in Zip/Coupa and if not, they can request the vendor be onboarded in advance by submitting a [Zip request](/handbook/business-technology/enterprise-applications/guides/zip-guide/#how-to-request-a-new-vendor). No contract is required to submit this request and an estimated cost can be provided. Please note in the title of the submission that the request is for new vendor onboarding only. For any questions, please reach out to your FMC.
 
-### Invoices Under $5k
-
-If you have an [invoice under $5k](/handbook/finance/procurement/#-what-are-the-exceptions-to-the-po-policy) that does NOT require a signature or [procurement review](/handbook/legal/procurement-guide-collaborating-with-gitlab-legal/#when-is-legal-involved), we do not need to process through Zip/Coupa. In these cases, your FMC can simply submit the invoice directly via email to `ap@gitlab.com` for ACH payment (please note, the vendor must be in the system to process payment). Items that must be included in the email to AP: Approver name (FMC), Allocadia ID, and Department (Field Marketing). An example of this would be Boundless invoices under $5k. Boundless has been onboarded in our finance system, they do not require a signature on their invoices, and these invoices do not require a procurement review as they are under $5k. If you are unsure if your invoice falls under this category, please ask your FMC.
-
-### Various Charges on Coupa Card
+#### Various Charges on Coupa Card
 
 If you are submitting various charges for approval on a Coupa virtual card, please make sure you either provide the PDF contract/order/quote or, if ordering through an online portal, please include a screenshot of the items you need to order. Each separate order requires a supporting PDF or screenshot that shows the vendor name, items being ordered, and total cost. These requests will be reviewed during the procurement process and if approved, the Coupa card issued will cover all costs submitted. Only one Allocadia line item is required per Coupa card approved. For example, if you submit a contract request for booth, AV, and IT charges for a show that equal $3,000, you only need one Allocadia line item ID for all three charges and your plan/forecast number would equal $3,000.
 
-### F&B/AV/Additional Event Charges
+PLEASE NOTE: These charges follow the [prepaid policy](/handbook/finance/accounting/#prepaid-expense-policy) and you will always reference the total cost of the charges/PO amount for determining the prepaid threshold. For example, if you submit a $3,000 AV order and a $3,000 booth items order together on one PO, the total PO amount is $6,000. Even though each charge is under the $5k prepaid threshold, the total amount of the PO is $6,000, so you would forecast the charges under the month the event occurs.
+
+#### Multi-Event Contracts
+
+We often receive a discount for multiple events and the vendor includes all events under one contract. When this occurs, the FMM will need to create an Allocadia sub-issue and line item for each event and provide all of the Allocadia IDs in the contract request for the FMC. The FMC will submit the contract in ZIP and add separate lines for each event with that specific event's information and Allocadia ID.
+
+PLEASE NOTE: These charges follow the [prepaid policy](/handbook/finance/accounting/#prepaid-expense-policy) and you will always reference the total cost of the charges/PO amount for determining the prepaid threshold. For example, if you submit a contract for 3 events and each event costs $3,000, the total PO amount is $9,000. Even though each event is under the $5k prepaid threshold, the total amount of the PO is $9,000, so you would forecast each event charge under the month the event occurs.
+
+#### F&B/AV/Additional Event Charges
 
 Since we often don't have the exact headcount for an event in advance, additional costs (such as AV, F&B, etc.) can be estimated for initial procurement approval. If your additional costs are included in the initial venue contract, please ask the venue to provide pricing for your estimated headcount in the contract (especially for F&B costs, so that you are not only submitting your F&B minimum). This will give us a baseline cost estimate for approval and your FMC will adjust the PO amount as needed, based on final cost (a PO change request will be issued for charges above 10% over the original PO amount). If your additional costs (catering, AV, etc.) are being provided by different vendors from the venue, please make sure you have separate Allocadia line items for those charges and also submit separate contract requests (if a contract is required by the vendors). If the vendor does not require a contract and charges are under $5,000, you can pay with your Navan card.
-
-### Contract Request Issue Re-use
-
-If you have an event that requires multiple contract requests, feel free to re-use your original contract request issue! Simply re-open the original request, copy the appropriate section that is needed for your new request, and add those fields with new details in a comment to your FMC. Please do not erase the original details from the request, though, as those details are often referenced.
 
 ## Sourcing New Field Marketing Vendors
 
@@ -1755,7 +1578,7 @@ New vendors are popping up frequently and in the spirit of iteration and testing
 
 ## Software Vendor/Product Approval Process
 
-1. FMM and FMC to review the [Procurement Handbook Page](/handbook.gitlab.com/handbook/finance/procurement/) so you are familiar with the procurement process and lead times. Please be aware of the SLAs listed in the [Procurement Process](/handbook.gitlab.com/handbook/finance/procurement/#the-procurement-process) for processing all reviews, approvals and contract negotiations. Note the [bid process](/handbook/finance/procurement/#how-to-start-the-procurement-process) based on thresholds as well.
+1. FMM and FMC to review the [Procurement Handbook Page](/handbook/finance/procurement/) so you are familiar with the procurement process and lead times. Please be aware of the SLAs listed in the [Procurement Process](/handbook/finance/procurement/#the-procurement-process) for processing all reviews, approvals and contract negotiations. Note the [bid process](/handbook/finance/procurement/#how-to-start-the-procurement-process) based on thresholds as well.
 1. FMM to open a Field Marketing issue and detail out the justification for the potential new vendor/product. Include any presentations, slides and demos that have been provided to help explain the product. Tag your regional manager in the issue to review and discuss. Approval must be received to move forward. Make sure to attach all of the following issues to your main Field Marketing Issue for easy access.
 1. FMM to open a [Contract Request](https://gitlab.com/gitlab-com/marketing/field-marketing/-/issues/new?issuable_template=Contract_Request) issue and assign to the regional FMC.
     - SLA for FMC to complete the Contract Request issue is 3 business days from the date all needed info is filled out by the FMM in the Contract Request issue. FMM to leave a note if turnaround is urgent (FMCs have been averaging 1-2 business days currently).
@@ -1770,19 +1593,19 @@ New vendors are popping up frequently and in the spirit of iteration and testing
 
 ## Field Marketing and Legal
 
-## Legal Approvals
+### Legal Approvals
 
 Field Marketing executes contracts with outside vendors to support the work we do. We do so by following the company [procure to pay process](/handbook/finance/procurement/). All legal approvals will flow this process.
 
 It should be a rare occasion (and not a result of poor planning), that a contract would need to be urgently (less than 5 business days) turned around. Only after all FMM approvals have happened, should the FMC ping legal on slack asking them to please approve an urgent ask.
 
-## Sweepstakes
+### Sweepstakes
 
 Field Marketing follows the legal team's process [here](/handbook/legal/marketing-collaboration/#promotional-games) for contests and sweepstakes.
 
 ## Field Marketing Communications
 
-## Regional Email Aliases
+### Regional Email Aliases
 
 Field Marketing utilizes regional email aliases for pre and post tactic outreach. Please see [this section](/handbook/marketing/events/#email-alias-usages-for-outreach) for more details.
 
@@ -1804,25 +1627,9 @@ Field Marketing utilizes regional email aliases for pre and post tactic outreach
 - #fieldofdreamsteam: private room only accessible to FMMs - funny GIFs, private questions for the team.
 - Please keep in mind we have detailed instructions on [how GitLab uses slack](/handbook/communication/#slack).
 
-## Monthly Calls
-
-- The World Wide Field Marketing team has one standing call on the calendar.
-- The team meets on the 1st Thursday of each month.
-- All team members are invited to each call although, if the call is scheduled outside of the team member's normal working hours, the team member is NOT expected to attend. The calendar invite simply serves as a reminder to the team member to check out the recording of the meeting the next working day and to also review the agenda.
-- The purpose of the team call is to share relevant company, marketing, and Field Marketing announcements.
-- Anyone on the team should feel empowered to add content to the team meeting agenda.
-- We will also have a specific `lessons learned` section where each Country Field Marketing Manager will select 1 FMM event or other tactic event recap to review.
-  - The FMM who is the DRI for the event or other tactic we will be reviewing as a team will add the `Event Recap` link from the `Event Planning and Recap` to the agenda
-  - We review the recap prior to the call, the FMM DRI briefly gives a run down of the event or other tactic, then we dialogue.
-  - Each region will be represented - AMER, APAC, and EMEA - so we will review 3 each call.
-- We also discuss use cases - could be how you've worked with social media, how you built a report in SFDC to help the team be more efficient, etc,
-- Guest Speakers - at times we will also invite other colleagues from the company to address our team as a whole
-- As a handbook first company, if you are going to bring a topic to the team, please think twice on if you should add just an agenda item, or if you should add an agenda item that links to an MR or a handbook page.
-- If you're not on the Field Marketing team at GitLab and you're a GitLab employee who's interested in joining our team meeting, please feel free to ask in the #fieldmarketing slack room, we'd welcome the opportunity to host you!
-
 ## Async Status Updates
 
-Since we are a [remote](/handbook/company/culture/all-remote/) company, we utilize a Slack plugin called [Geekbot](https://geekbot.io/) to coordinate status updates. Field Marketing world wide currently conducts 1 weekly standup. Geekbot shares this update in the public #im-hangout slack room.
+Since we are a [remote](/handbook/company/culture/all-remote/) company, we utilize a Slack plugin called [Geekbot](https://geekbot.com/) to coordinate status updates. Field Marketing world wide currently conducts 1 weekly standup. Geekbot shares this update in the public #im-hangout slack room.
 
 ## Weekly Status Update
 
@@ -1840,25 +1647,27 @@ Of those 1-3 items listed, do you need any roadblocks removed in order to accomp
 
 You will be notified via the Geekbot plug in on slack at 9 AM your local time on Mondays, as stated above. It is important to note, that unless you answer all questions in the Geekbot plug in, your answers will NOT be shared with your colleagues, so please be sure to complete all questions!
 
-## Out of Office Processes
+## Out of Office Process
 
 We follow the processes documented in the [Communicating your time off section](/handbook/people-group/paid-time-off/#communicating-your-time-off) of our handbook page.
 
 Specifically:
 
-1. Add your OOO to [Time Off by Deel](/handbook/people-group/paid-time-off/#time-off-by-deel)
+1. Add your OOO to [Workday](/handbook/people-group/paid-time-off/#workday)
+1. Notify both your manager and the person covering for you that you will be out of the office. Make sure the person covering for you has details for items to watch or take care of for you while you are OOO.
 1. Add an OOO message for your email. Please ensure you are including a DRI in your OOO email response for people outside the company to contact.
 1. Turn on [Google Calendar's "out of office" setting](https://support.google.com/calendar/answer/7638168?hl=en) (scroll down to "Show when you're out of office") to create an out of office event that will automatically decline new and existing meetings for you. Or, please ensure to manually cancel/decline/reschedule any meetings if you will not be in attendance.
-1. Add an OOO to your Slack profile (this will occur automatically when you submit your OOO to Time Off by Deel). If you're traveling for an event and not necessarily on PTO/vacation, please ensure you are manually updating your Slack status accordingly.
+1. Add an OOO to your Slack profile (this will occur automatically when you submit your OOO to Workday). If you're traveling for an event and not necessarily on PTO/vacation, please ensure you are manually updating your Slack status accordingly.
+1. If your time off was added in Workday, Time off by Deel in Slack will prompt you to add a delegate who will be covering for you. Please fill in this information so it's clear in Slack who people can contact in your absense.
 1. Add an OOO to your GitLab profile and mark yourself as `busy`
-1. For the AMER FM Team, please add your OOO to the [FM AMER Team PTO Google calendar](https://calendar.google.com/calendar/u/0?cid=Y18yZjA0OGVhNzc3YjcyZWQzYTRmY2VkOTZjZWI5NjRiMTNlNWM1YmMxOTA4M2FjNmE5YWNjYjUwMzc0NWZhNjlhQGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20).
-1. If you are a manager of people, please [assign a delegate in Coupa](/handbook/business-technology/enterprise-applications/guides/coupa-guide/#how-to-add-a-delegate-in-coupa) so you will not hold approvals while you're enjoying your time off.
+1. If you work in ZIP, please assign assign a delegate by going to ZIP - Settings - Personal Settings - Out of Office.
+1. If you work in Coupa, please [assign a delegate in Coupa](/handbook/business-technology/enterprise-applications/guides/coupa-guide/#how-to-add-a-delegate-in-coupa) so you will not hold approvals while you're enjoying your time off.
 
 ## Field Marketing MR process
 
-Everyone can contribute, although not everyone has merge rights. Within the Field Marketing team, when someone submits an MR, the submitter needs to assign to their direct line manager to review, and then their manager will assign to the Director of Field Marketing to review. Once the Director has reviewed/approved, it is their responsibility to ensure all threads are addressed and resolved and all merge conflicts are resolved, then merge.
+Everyone can contribute, although not everyone has merge rights. Within the Field Marketing team, when someone submits an MR, the submitter needs to assign to their direct line manager to review, and then their manager will assign to the VP of Regional Marketing to review. Once the VP has reviewed/approved, it is their responsibility to ensure all threads are addressed and resolved and all merge conflicts are resolved, then merge.
 
-Should a Country Manager of Field Marketing or Director of Field Marketing submit a process change in the handbook, then all Country Managers should sign off via approving the MR or commenting their approval. At which point, the Director ensures all threads are addressed and resolved and all merge conflicts are resolved, then the Director will merge.
+Should a Country Manager of Regional Marketing or VP of Regional Marketing submit a process change in the handbook, then all Country Managers should sign off via approving the MR or commenting their approval. At which point, the Director ensures all threads are addressed and resolved and all merge conflicts are resolved, then the VP will merge.
 
 ## Creating a spif for sales
 
@@ -1875,21 +1684,16 @@ At times, Field Marketers may want to create a SPIF (sales performance incentive
 - [Marketing Operations](/handbook/marketing/marketing-operations/)
 - [Sales Development](/handbook/marketing/sales-development/)
 - [Marketo program/campaign support](/handbook/marketing/marketing-operations/campaign-operations/)
-- [Field Marketing onboarding videos](https://drive.google.com/open?id=1m8ReMIiymMTqqk5PJAG7u_IG-Q5pkusV) - NOTE - these are also in the Field Marketing Onboarding issue that is kept in the [Marketing onboarding project](https://gitlab.com/gitlab-com/marketing/onboarding#onboarding)
 
 ## Account Based Marketing
 
 Account based marketing is separate but sits next to field marketing. For info on account based marketing, please head over to the [ABM page](/handbook/marketing/account-based-marketing/).
 
-## FMM 6sense Use Cases and set up
-
-Field Marketing use cases are being migrated from Demandbase to 6sense. More info can be found on the [6sense Handbook page.](/handbook/marketing/marketing-operations/6sense/)
-
 ## Tiers of support from Field Marketing for Corporate lead events
 
 In an effort to support the events the corporate marketing team runs, Field Marketing will rank the shows on an annual basis that corporate marketing runs.
 
-## Tier 1
+### Tier 1
 
 Field Marketing will:
 
@@ -1906,7 +1710,7 @@ Field Marketing will:
 1. Gartner Security Summit - AMER
 1. Google NEXT
 
-## Tier 2
+### Tier 2
 
 Field Marketing will:
 
@@ -1918,9 +1722,185 @@ Field Marketing will:
 1. KubeCon US
 1. Black Hat US
 
-## Deprecated handbook content
+## Deprecated Handbook Content
 
 We feel like this info is too good to delete, and while we currently aren't using either the tool that is descirbed or the process, we just aren't ready to delete.....its like that sweater you just can't seem to get rid of in case you may need it one day...
+
+## Field Marketing Event Copy Deadline Process
+
+Please review [SLAs](/handbook/marketing/field-marketing/#slas) above.
+
+- FMM to assign FMC in main event issue.
+- FMC to attach their regional event tracking label to the event issue.
+- FMM and FMC to follow the process for issues Moving from Plan to WIP.
+- FMC to create a [Write Copy Issue](https://gitlab.com/gitlab-com/marketing/field-marketing/-/blob/master/.gitlab/issue_templates/write-copy.md) and fill in the requested copy due dates for each asset the FMM has requested in the FMC checklist, and then attach the issue to the epic.
+- FMM to update the Copy Document file the FMC created for them (linked in the epic) with copy for each asset. Previous Copy Documents for reference are available in the [Event Support Folder](https://drive.google.com/drive/folders/1S-4PVueBj7FPAE9fB-IKz_Bbuz17rPtH).
+- Once the FMM completes copy, they will ping the FMC in the [Write Copy Issue](https://gitlab.com/gitlab-com/marketing/field-marketing/-/blob/master/.gitlab/issue_templates/write-copy.md) to notify them which asset copy has been completed.
+- If copy has not been completed for an asset yet, (1) business day before copy is due, the FMC will ping the FMM in [Write Copy Issue](https://gitlab.com/gitlab-com/marketing/field-marketing/-/blob/master/.gitlab/issue_templates/write-copy.md) with a copy due reminder.
+- FMC will make sure copy has been provided or continue to remind the FMM, if needed.
+
+## Lead List Deadline Process
+
+- FMC to create the [List Clean and Upload](https://gitlab.com/gitlab-com/marketing/marketing-operations/issues/new?issuable_template=event-clean-upload-list) issue during the plan to WIP process.
+- FMC to assign a due date of 2 business days post-event
+- One (1) business day after the issue is due, FMC to ping the FMM in the list clean and upload issue to remind them leads are due
+- FMC will make sure leads have been provided or continue to remind the FMM, if needed
+
+## Refined AMER Regional Marketing Event Planning Cycle
+
+The schedule provided below presents a 20-week planning timeline meticulously designed for the seamless execution of our regional marketing events. These Service Level Agreements (SLAs) are strategically established for our Field Marketing Managers (FMMs), ensuring they have ample time to orchestrate and promote a robust event, while synchronizing the availability of other teams' SLAs, including Procurement, Marketing Operations, the SA teams, our Field Marketing Coordinators, etc. It is essential to remain adaptable, as adjustments and modifications may become necessary to align with the unique event objectives, target audience, and the resources at our disposal. Ultimately, the unwavering dedication of our team will serve as the cornerstone of success for each event.
+
+## 17-20 Weeks Out: Strategize and Initiate Planning
+
+<details markdown=1>
+
+<summary><b>At this stage, we lay the groundwork for a successful event by creating a well-defined strategy and rallying key players.</b></summary>
+
+- Initiate strategic collaboration with Sales to align event goals and strategies.
+- Define clear event objectives, messaging, target audience, and desired outcomes.
+- Secure unwavering buy-in from essential stakeholders to ensure full support.
+- Develop a comprehensive campaign plan using Allocadia, continually monitoring the budget.
+- Compile all available details into a comprehensive Main Issue.-* Secure required third-party vendors if necessary, and create vendor contract request issue(s).
+
+</details>
+
+## 14-17 Weeks Out: Resource Alignment and Team Coordination
+
+<details markdown=1>
+
+<summary><b>During this phase, we focus on coordinating resources and refining our strategies to meet evolving needs.</b></summary>
+
+- Review and approve contract requests for event vendors.
+- Request team member resources based on event needs.(SA,BDR, SDR, CS, Design, Internal - Speakers etc) when required use specific team request issues as needed..
+- Continue collaborating with Sales to refine goals and strategies.
+- Schedule meetings with relevant team members to outline their contributions to the plan.
+- Please continue to revise the issue, providing comprehensive updates that capture all plan details and ensuring that all key stakeholders are appropriately tagged.
+- Move to WIP.
+
+</details>
+
+## 12-13 Weeks Out: Draft Initial Content, Design and confirm all Key Stakeholders
+
+<details markdown=1>
+
+<summary><b>We delve into content creation, design, and finalizing key stakeholder involvement while maintaining a clear timeline.</b></summary>
+
+- Review the Issues/Epics, adding estimated completion dates for each task.
+- Confirm availability and roles of requested cross-functional team members and finalize team member assignments. Note: Internal team members must have permission from their managers to travel.  Once approved, send placeholders to their calendars for events.
+- Work with the design team to conceptualize event branding and design if needed.
+- Begin drafting the Copy document to form the events foundation.
+- Collect  concise abstracts from speakers and presenters for their sessions, to enhance your landing page and agenda.
+- Review initial content drafts and design concepts.
+- Gather feedback from stakeholders and make necessary revisions if needed.
+- If necessary, request approvals from internal stakeholders.
+
+</details>
+
+## 11-12 Weeks Out: Review, Refine Content, Develop Landing Page and Collateral
+
+<details markdown=1>
+
+<summary><b>During this phase, we polish content, initiate promotions, and ensure a seamless, finalized Copy Document for the event landing page, confirmation emails, and initial outreach (Email #1).</b></summary>
+
+- Compile and organize essential Target lists: Target Accounts, Target Audience, DMA requests, Relevant Previous Campaign Subject Matter, etc., for Copy Doc.
+- Explore opportunities for collaboration with Campaigns,  ABM or Social teams for event promotion.
+- Thoroughly review and approve landing page design and the first email.
+- Launch promotional efforts across social media and other channels.
+- Finalize and approve the event landing page and initial email.
+
+</details>
+
+## 8-10 Weeks Out: Fine-tuning and Launch Preparation
+
+<details markdown=1>
+
+<summary><b>With preparations in full swing, we focus on executing the first wave of communications and readying assets.</b></summary>
+
+- Confirm the timing of email #1, targeting the event's intended audience.
+- Continue robust event promotion across multiple channels.
+- Coordinate the creation and ordering of event-related swag and materials.
+- Initiate event swag shipments and asset preparations.
+- Continue to refine Main Issues/Epics, ensuring they capture all the intricate details of the comprehensive plan.
+
+</details>
+
+## 3-7 Weeks Out: Enriching Engagement and Preparing for Event Second Email Communication
+
+<details markdown=1>
+
+<summary><b>This period centers on deepening engagement, fine-tuning event logistics, and enhancing participant experiences.</b></summary>
+
+- Monitor the response to email #1 and track engagement with the landing page.
+- Develop email #2 with additional event details if needed and value propositions.
+- Sustain promotion efforts across various channels to bolster excitement.
+- Collaborate with speakers and participants to ensure seamless event coordination
+- If applicable, create a booth schedule for effective participant interaction.
+- Conduct a thorough review of event logistics and setup details.
+- Verify the timely delivery of all event-related assets and swag.
+- Send out email #2 target audience, highlighting event benefits
+- Finalize copy document for reminder emails and post-event follow-ups including relevant call to action resources.
+
+</details>
+
+## 1-3 Weeks Out: Final Touches and Attendee Confirmations
+
+<details markdown=1>
+
+<summary><b>As we approach the event, we focus on last-minute preparations and ensuring a smooth execution.</b></summary>
+
+- Verify attendance and manage any late registrations.
+- Send calendar confirmations to registered attendees, including comprehensive key event details.
+- Conduct a final walkthrough of the event venue or virtual platform.
+- Collect finalized assets from presenters for their respective sessions.
+- Ensure all event-related assets and swag have been received.
+- Prepare an all-inclusive 'Know Before You Go' guide and distribute it accordingly.
+- Conduct an all-encompassing event stakeholders' run-through
+
+</details>
+
+## 0 Weeks Out: The Event Unfolds
+
+<details markdown=1>
+
+<summary><b>On the event day(s), we execute flawlessly, ensuring every detail is attended to.</b></summary>
+
+- Ensure seamless technical operations and troubleshoot any unforeseen issues.
+- Confirm readiness of assets, presentations, and materials.
+- Ensure seamless coordination among speakers and participants.
+- Execute the planned event according to the established schedule.
+- Monitor event progress, promptly resolving any unforeseen challenges.
+- Collect valuable leads and notes from sessions, to better foster post-event engagement.
+- Pack up and return any necessary assets
+
+</details>
+
+## 1 Week Post Event: Event Follow-Up Post-Event Analysis and Reflection
+
+<details markdown=1>
+
+<summary><b>Following the event, we analyze its performance, gather insights, and embark on improvement strategies.</b></summary>
+
+- Analyze key event performance metrics, encompassing attendance, engagement, conversions, and participant feedback
+- Conduct 360 Review with key stakeholders on the effectiveness of the event, lessons learned and to identify areas for improvement.
+- Compile and prepare leads for upload to Marketo within 48 hours, , including detailed corresponding notes. Ensure all lead information is accurate and ready for upload
+- Upload event leads
+- Within 48 hours, ensure that a follow-up email is scheduled to be sent to attendees with relevant call-to-action resources."
+- Wrap up and close campaign issue and archive relevant materials.
+
+</details>
+
+## 1-2 Weeks Post Event: Evolving for the Future
+
+<details markdown=1>
+
+<summary><b>With one event completed, it's time to reflect, plan, and optimize for the upcoming campaigns.</b></summary>
+
+- Reflect on the successes and challenges of the planning process.
+- Initiate discussions and brainstorming for the upcoming quarter's planning and strategy.
+- Identify opportunities for enhancement and refinement in future endeavors.
+- Begin planning for the next successful event, incorporating lessons learned
+
+</details>
 
 ## Printfection Direct Mail Giveaways
 

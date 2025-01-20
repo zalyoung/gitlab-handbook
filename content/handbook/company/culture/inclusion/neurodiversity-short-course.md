@@ -10,7 +10,7 @@ You can access this short course in [LevelUp here](https://levelup.gitlab.com/ac
 
 ### Exploring Neurodiversity
 
-[Defining Neurodiversity via LinkedIn Learning, by Tiffany Jameson](https://www.linkedin.com/learning/hiring-and-supporting-neurodiversity-in-the-workplace/defining-neurodiversity?autoAdvance=true&autoSkip=false&autoplay=true&resume=false&u=2255073)
+[Defining Neurodiversity via LinkedIn Learning, by Tiffany Jameson](https://www.linkedin.com/learning/hiring-and-supporting-neurodiversity-in-the-workplace-2021/defining-neurodiversity)
 {.h4}
 
 I speak to many organizations all around the world. When I talk about neurodiversity, most have never even heard of the word, so let's start there. Neurodiversity is an umbrella term for individuals who cognitively process differently than what society considers the norm.
@@ -31,7 +31,7 @@ There isn't a predefined list of what falls under the umbrella, it is a personal
 
 These groups make up a large portion of the population, and have many talents to lend to an organization. As an HR professional, you can guide your organization in learning how to hire, employ, and support this population to maximize this fantastic and talented workforce. Neurodiversity creates a new landscape of hiring and supporting employees. Human resource professionals can increase their competencies to support this group and educate the workforce to ensure inclusion for all types of minds. The world is ready to embrace neurodiversity. Neurodivergent people bring unique perspectives, solutions, and innovative ideas. Starting here is a great first step to embrace this population within your organization.
 
-[Defining the spectrum of neurodiversity via LinkedIn Learning](https://www.linkedin.com/learning/hiring-and-supporting-neurodiversity-in-the-workplace/defining-the-spectrum-of-neurodiversity?autoAdvance=true&autoSkip=false&autoplay=true&resume=false&u=2255073)
+[Defining the spectrum of neurodiversity via LinkedIn Learning](https://www.linkedin.com/learning/hiring-and-supporting-neurodiversity-in-the-workplace-2021/defining-the-spectrum-of-neurodiversity)
 {.h4}
 
 Neurodiversity is an umbrella term but there are some impairments more commonly associated with neurodiversity. So let's drill down on the five areas I'll be highlighting in this course.
@@ -45,7 +45,7 @@ My son in his early years, had difficulty speaking, exhibited stimulatory behavi
 
 It's important that your company supports the whole person, so you could include all the conditions that fall under the neurodiversity umbrella. When you think about your neurodivergent employees, consider what opportunities exist to use their special, creative and innovative talents to gain a competitive advantage.
 
-[Understanding the challenges for five groups via LinkedIn Learning](https://www.linkedin.com/learning/hiring-and-supporting-neurodiversity-in-the-workplace/understanding-the-challenges-for-five-groups?autoAdvance=true&autoSkip=false&autoplay=true&resume=false&u=2255073)
+[Understanding the challenges for five groups via LinkedIn Learning](https://www.linkedin.com/learning/hiring-and-supporting-neurodiversity-in-the-workplace-2021/understanding-the-challenges-for-five-groups)
 {.h4}
 
 One of the most important reasons a professional must understand neurodiversity is to fully appreciate and acknowledge the toll working in a neurotypical world has on many neurodivergent people. It starts with recognizing the natural differences in the way the human brain interprets information. By understanding these differences, you can begin to show empathy for those that experience life differently than you.
@@ -123,9 +123,7 @@ This is covered in the [Neurodiversity Resources Handbook Page]({{< ref "neurodi
 
 [Job Accommodation Network](https://askjan.org/)
 
-[Neurodiverse Employees may need accommodations for remote work](https://www.shrm.org/resourcesandtools/hr-topics/employee-relations/pages/neurodiverse-employees-may-need-accommodations-for-remote-work.aspx)
-
-[Workplace Accommodations](https://www.us.specialisterne.com/workplace-accommodations-part-2/)
+[Neurodiverse Employees may need accommodations for remote work](https://www.shrm.org/topics-tools/news/employee-relations/neurodiverse-employees-may-need-accommodations-remote-work)
 
 **What can you do if someone discloses they are neurodivergent to you?**
 

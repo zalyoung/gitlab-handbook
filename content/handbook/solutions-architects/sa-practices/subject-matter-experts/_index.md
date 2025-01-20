@@ -17,7 +17,7 @@ The goals of the SME Program are:
 
 In order to fulfill the above goals, the [SME Program is structured, appropriately with defined Roles and Responsibilities](/handbook/solutions-architects/sa-practices/subject-matter-experts/sme-program.md), to also support the following processes::
 
-1. [SME Operations - Collab Project, Groups, Slack Channels](content/handbook/solutions-architects/sa-practices/subject-matter-experts/sme-operations.md)
+1. [SME Operations - Collab Project, Groups, Slack Channels](/handbook/solutions-architects/sa-practices/subject-matter-experts/sme-operations.md)
 2. [SME Nomination and Onboarding \- How to Become a SME](/handbook/solutions-architects/sa-practices/subject-matter-experts/sme-program/#sme-selection)  
 3. [How to Request a SME on an opportunity to provide technical guidance and expertise](/handbook/solutions-architects/sa-practices/subject-matter-experts/sme-request/)  
 4. [Maintaining Collateral for each SME Area\*](/handbook/solutions-architects/sa-practices/subject-matter-experts/sme-collateral/)  
@@ -27,7 +27,7 @@ In order to fulfill the above goals, the [SME Program is structured, appropriate
 
 \*NOTE: Currently the CSM SMEs have collated resources and materials for each SME Area. They are maintained in Highspot at [CS SME Hub of content](https://gitlab.highspot.com/items/667095b95cc9b08c87d40b68?lfrm=srp.0).
 
-This is [description of the CS SME program](https://gitlab.com/gitlab-com/customer-success/subject-matter-experts/cs-subject-matter-experts/-/tree/main) taking the lead on the gathering of collateral for each SME Area 
+This is [description of the CS SME program](https://gitlab.com/gitlab-com/customer-success/subject-matter-experts/cs-subject-matter-experts/-/tree/main) taking the lead on the gathering of collateral for each SME Area
 
 ## Areas of Expertise
 
@@ -129,18 +129,17 @@ SMEs will be regularly evaluated based on their contributions and impact on the 
 
 ## SMEs {#sme-list}
 
-| SME Areas | AI | App Security | Agile Planning | GitLab Dedicated |
-| :---- | :---- | :---- | :---- | :---- |
-| SME Area Lead | Edmond Chan | Andrea Obermeier | David Astor | Alessia Del Vecchio |
-| Product Manager Rep/ | Depending on time zone: <br>AMER: Taylor McCaslin <br>APAC/EU: Pini Wietchner |  | Melissa ushakov | Chris Balane |
-| Engineering Manager Rep | Depending on time zone: <br>AMER: Michelle Gill <br>APAC/EU: David O’Regan |  | John Hope | Oriol Lluch |
-| APJ |  | Tomasz Skora |  |  |
-| EMEA North Europe | Kristoff Goossens | Dominique Top | Gabriela Dobrescu, James Moverley | Martin McVay |
-| EMEA South Europe |  | Paul Dumaitre, Olivier Dupre |  |  |
-| EMEA DACH/META | Alexander Dess | Mirko Brandner, Julia Gåtjens |  | Falko Sieverding |
-| US East | Sam Morris | Bernard Park, James Nyika | Dan Rabinovitz | Adam Zwickey |
-| US West | Karen Kwentus | Yu-Chen Hsueh | Steve Grossman | Ryan Taylor |
-| High Velocity AMER |  | Jefferson Jones | Sophia Manicor |  |
-| High Velocity EMEA |  | Claire Marie Champernowne, Nupur Sharma | Jan Kunzmann | Corina Patachia |
-| Pub Sector AMER | :---- | :---- | :---- | Daniel Marquard, Michael Bradley |
- 
+| SME Areas | AI / GitLab Duo | App Security | Agile Planning | Dedicated | CICD / Runners | Metrics / Observability |
+|-----------|----|--------------|--------------------|-----------|----------------|------------------------|
+| **SME Area Leads** | **SA**: Edmond Chan<br>**CS**: Jess Perry | **SA**: Julia Gaetjens<br>**CS**: Eduardo Guillen, Jess Perry | **SA**: David Astor<br>**CS**: Brianne Parton | **SA**: Alessia Del Vecchio<br>**CS**: Zane Chua | **SA**: Bradley Lee,<br>Ken McKnight<br>**CS**: Rachel Fuerst,<br>Rodney Bowles | **SA**: Zach Henderson,<br>Breno Gomes<br>**CS**: Jordan Monyhan |
+| **Product Manager Rep/<br>Engineering Manager Rep** | **AMER**: Taylor McCaslin,<br>Michelle Gill<br>**APAC/EU**: Pini Wietchner,<br>David O'Regan | Alana Bellucci,<br>Sara Meadzinger,<br>Joe Randazzo | **PM**: Melissa Ushakov<br>**EM**: John Hope | **PM**: Chris Balane<br>**EM**: Oriol Lluch | | |
+| **APJ** | Ben Ridley,<br>Arun Kumar G,<br>Arjun Krishna | Tomasz Skora | | | | |
+| **EMEA NEUR** | Ryan Appleby | Dominique Top,<br>Beatriz Barbosa | Gabriela Dobrescu,<br>James Moverley | Martin McVay | | |
+| **EMEA SEUR** | Madou Coulibaly | Paul Dumaitre,<br>Olivier Dupre | | | | |
+| **EMEA DACH/META** | Alex Dess | Mirko Brandner,<br>Julia Gaetjens | Ted Gieschen,<br>Hossam Hamdy | Falko Sieverding | Lars Blockken | |
+| **US East** | Sam Morris,<br>Manjeet Singh | Bernard Park,<br>James Nyika,<br>Manjeet Singh | Dan Rabinovitz | Adam Zwickey | Jason Morgan,<br>Bradley Lee | Rob Jackson |
+| **US West** | Karen Kwentus | Yu-Chen Hsueh,<br>Anthony Baer,<br>Taylor Carr,<br>John Bush | Steve Grossman | Ryan Taylor | Ken McKnight | Siddharth Mathur |
+| **High Velocity - AMER** | | | Sophia Manicor | | Noah Ing | |
+| **High Velocity - EMEA** | | Claire Marie Champernowne<br>Nupur Sharma | Jan Kunzmann | | Sarah Matthies | Breno Gomes |
+| **Pub Sec** | Kevin Chasse,<br>Josh Swann | Sameer Kamani,<br>Zachary Yates | Joseph Valeriano,<br>Linc Williams | Michael Bradley | Rachel Fuerst | |
+| **Partner** | | | | | | |

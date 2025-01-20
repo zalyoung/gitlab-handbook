@@ -51,7 +51,7 @@ package registry that allows users to manage their model's metadata. In addition
 to having a collection of versions, users can also create candidates within that
 model. In terms of usage, a model candidate can then be promoted into a model version.
 
-![Experiments vs Models](img/experiments_vs_models.png)
+![Experiments vs Models](/images/engineering/architecture/design-documents/model_experiments_and_registry/experiments_vs_models.png)
 
 ## Design and implementation details
 
@@ -68,9 +68,9 @@ Data topology changes:
 
 |         |                                             |
 |---------|---------------------------------------------|
-| Before  | ![img_1.png](img/data_topology_before.png)  |
-| Changes | ![img_1.png](img/data_topology_changes.png) |
-| After   | ![img.png](img/data_topology_after.png)     |
+| Before  | ![img_1.png](/images/engineering/architecture/design-documents/model_experiments_and_registry/data_topology_before.png)  |
+| Changes | ![img_1.png](/images/engineering/architecture/design-documents/model_experiments_and_registry/data_topology_changes.png) |
+| After   | ![img.png](/images/engineering/architecture/design-documents/model_experiments_and_registry/data_topology_after.png)     |
 
 ### Milestone 1: Migrate Ml::Candidates packages to ml_model type
 

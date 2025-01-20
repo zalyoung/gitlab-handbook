@@ -39,11 +39,11 @@ If the repair is going to be greater than `$1,000 USD` and take several weeks to
 
 #### During the repair process
 
-If the repair is going to take longer than a day and you are blocked for work. The IT team does have spares MacBooks to send to you.
+If the repair is going to take longer than a day and you are blocked for work. The IT team may have spares MacBooks to send to you. Please reach out to us in #it_help via Slack or in your created laptop repair issue so we can check if we are able to provide a loaner device
 
 #### After the repair process
 
-Once you receive your laptop back, [re-install MacOS](https://support.apple.com/en-au/HT208496) and restore your data from a recent backup. This is to ensure that no unauthorized software was added during the repair process. Make sure that your [disk is encrypted](/handbook/security/corporate/services/laptops/security/encryption) and you've reinstalled [Jamf for Mac](/handbook/security/corporate/systems/jamf/setup) or [DriveStrike for Linux](/handbook/security/corporate/systems/driverstrike/setup). Also, ensure that you have installed [SentinelOne](/handbook/security/corporate/systems/sentinelone/setup) in order to keep your laptop secure.
+Once you receive your laptop back, [re-install MacOS](https://support.apple.com/en-us/102639) and restore your data from a recent backup. This is to ensure that no unauthorized software was added during the repair process. Make sure that your [disk is encrypted](/handbook/security/corporate/services/laptops/security/encryption) and you've reinstalled [Jamf for Mac](/handbook/security/corporate/systems/jamf/setup) or [DriveStrike for Linux](/handbook/security/corporate/systems/driverstrike/setup). Also, ensure that you have installed [SentinelOne](/handbook/security/corporate/systems/sentinelone/setup) in order to keep your laptop secure.
 
 In this case please open a [laptop replacement issue](https://gitlab.com/gitlab-com/it/end-user-services/issues/laptop-issue-tracker/-/issues/new?issuable_template=Laptop_Replacement).
 

@@ -10,7 +10,7 @@ Groove is a Salesforce native sales engagement platform which helps Sales and Sa
 
 Groove is a tool co-owned by the Marketing Operations and Sales Operations teams.
 
-If you require further assistance outside of the contents of this handbook page, please reach out in the appropriate Slack channels based on your role:
+If you require further assistance outside of the contents of this handbook page and [Highspot page](https://gitlab.highspot.com/items/666cbedd1865f2652ce2da4d?lfrm=shp.0), please reach out in the appropriate Slack channels based on your role:
 
 - Marketing or Sales Development requests, please contact #mktgops on Slack.
 - Sales requests, please contact #sales-tools-support on Slack.
@@ -35,7 +35,7 @@ Once you have access please take the following steps:
 
 - Download and install the Groove Chrome extension.
 - Connect your calendar and email.
-  - Once you connect your calendar and email to Groove, your emails will begin to log to Salesforce records automatically. Emails sent to or from public domains are blocked from logging to Salesforce.
+  - Once you connect your calendar and email to Groove, your emails will begin to log to Salesforce records automatically. Groove syncs your emails to Salesforce by attaching those messages to contact or lead profiles within your Salesforce instance. This means that emails sent to recipients ***not*** associated with Salesforce will not be synced.
     - To prevent a specific email from being logged to Salesforce, uncheck the `Log` button in the Email Compose window (below the Subject line). This will ensure a specific email is not logged to Salesforce.
 - Connect your LinkedIn Sales Navigator account (if applicable)
 
@@ -49,37 +49,106 @@ To grant new users access- you need to do the following:
   - Flow Unlimited - Reserved for those who will be using flows as part of their role - e.g AEs, SMB Advocates, and SDRs
   - Dialer - Only for Sales Dev reps, AEs, and SMB Advocates
 - Grant them a role:
-  - Standard User - Allows standard access to the tool. Majority of ICs will be this role. 
-  - Team Leads - All Managers will receive this access. 
+  - Standard User - Allows standard access to the tool. Majority of ICs will be this role.
+  - Team Leads - All Managers will receive this access.
   - Analysts - All Directors will receive this access.
   - Admin - Reserved for select operations roles only.
-- IMPORTANT: Teams have been manually created in Groove. Please add them to their relevant teams. This part controls their flow access and if they are not added, they may not have the right permissions. 
+- IMPORTANT: Teams have been manually created in Groove. Please add them to their relevant teams. This part controls their flow access and if they are not added, they may not have the right permissions.
 
 ## Flows
 
 Flows must be named by the following [naming conventions](https://docs.google.com/spreadsheets/d/1d70MOLN6ZNVUNXHNoK3AnQu2e_oecnLc-wl-zvpYp54/edit?usp=sharing).
 
-## Flow Creation
-
-The creation of net new flows need to be approved. Currently, that approval process lives outside of Groove. At the end of Q3, Groove is releasing functionality for flows to be approved directly within Groove. Once this is released, we plan to open up the ability to create flows more widely.
+## Groove Flows Creation
 
 ### Flow Approval Process
 
-In the transition period from Outreach to Groove, if you have identified a sequence that didn’t come over from Outreach, please provide a link to the sequence for approval in the #groove-flow-approvals Slack channel. The flow will be reviewed, and if approved, the appropriate team will rebuild the sequence for you as a Groove flow with an SLA of one (1) business day.
+Individual flows can be created by any team member in Groove for personal use except for XDRs. XDRs and Renewals Managers will need to submit their individual flows for approvals, while Account Executives and SMB Advocates can create individual flows without the need for approvals. All flows used by XDRs will be master flows
 
-**Approval Matrix**
+### BDR Flow Creation Process
 
-Approvers for net new flows are dependent on the team creating the flow.
+BDRs are able to create individual flows that must be approved by their managers. After approval, ownership of these flows will be switched from the BDR to their Manager by Ops. The BDR **should not** add anyone to the flow until it is in their manager's ownership.
 
-- Sales Development Org: `Panos Rodopoulos` or `Ed Bao`
-- Sales Org
-  - Account Executives: `Kathleen Rintelman-Betances`
-  - Renewals Managers: `Suzy Verdin`
-  - SMB Advocates: `Mike Smith`
+**Checklist for BDRs when Creating Flows**
 
-### Sales Flows
+- Is the name of the flow inline with our naming conventions? If no, adjust it
+  - Department, Inbound/Outbound, High Touch/Low Touch, Region, Description, Language
+  - Example: SD IB LT EMEA CONTENT GER
+  - All Sales Dev flows begin with “SD”
+- Have you added labels that align to our naming convention?
+- Is email tracking on/off for each email step?
+- Have you previewed each step of the flow?
+- Are the steps inline with HT/LT principles? HT should always have Phone calls and LI steps
+- Have you notified your manager with the reason why you are planning to create this flow?
 
-For Sales, blank flows have been pre built for each team member to choose based on frequency of communication, and if you would like to majority call versus email, or a mix of both.
+### New Sales Dev Manager Flow Approval Process (Nov 2024)
+
+**Flow Approval Full Process and Order of Events**
+
+1. BDR creates flow and submits for approval in Groove
+2. Manager Sends flow to Operations (Panos for EMEA/APJ, Ed for AMER)
+3. Operations will check Flow settings, labels, and who it is shared with
+4. Operations Transfers Ownership from BDR to Manager within 24 hours
+5. Manager checks and Approves flow (Directions below)
+6. BDR can now add prospects to the flow after ownership is transferred
+
+**Mandatory Manager Approval Checks:**
+
+- Is the name of the flow inline with our naming conventions? If no, adjust it
+  - Department, Inbound/Outbound, High Touch/Low Touch, Region, Description, Language
+  - Example: SD IB LT EMEA CONTENT GER
+  - All Sales Dev flows begin with “SD”
+- Is the flow in your (the managers) ownership?
+- Should you add the flow to the testing collection (org applicable) or to your team collection?
+- Are there labels used that align to our naming convention? (Do not create new labels)
+- Is email tracking on/off for each email step?
+- Consider toggling manual steps to allow them to include their own template
+- Are the steps inline with HT/LT principles? HT should always have Phone calls and LI steps
+- Are there A/B tests included? (not mandatory but recommended)
+- Recommend previewing/testing the flow to ensure that variables are set up correctly
+- Note: Setting email steps to manual is the only way they’ll be able to customize messaging
+
+**Look at the Settings:**
+
+- Make sure the flow is a master flow
+- Is the Unsubscribe Footer on?
+- If you are sharing a flow with sales do not turn on edit permissions
+- Should there be an expiration date for this flow (use when only to be used for certain date range like an event)
+- Global Block Rules should be toggled on (should be automatic)
+- Make sure the flow is shared with each team you would like to have access to the flow.
+- Do not grant edit permissions on master flows.
+
+**Manager Recommendations:**
+
+- Come up with an intake process otherwise you will have duplicate efforts from team members and you will spend a ton of time approving flows rather than analyzing results.
+- Think if the flow you are approving should be in your team collection or would be useful for the rest of the org and should be added to the testing collection
+- Only approve LT flows for very specific reasons - include that in the description of the flow
+- Schedule recurring monthly checks of flow analytics to help with deprecation and promotion of flows
+
+### Sales: Flow Creation Requirements & Sharing with BDRs
+
+Watch this [15-minute demo](https://youtu.be/pf6OuKWDHIE) on GitLab Unfiltered for a walkthrough on how to create a flow.
+
+**Flow Requirements**
+
+Ensure that your flow is following the specified requirements. Flows will be reviewed by Sales Operations on a bi-weekly basis and will be adjusted or removed if they do not meet the requirements.
+
+- Name the flow according to the [naming conventions](https://docs.google.com/spreadsheets/d/1d70MOLN6ZNVUNXHNoK3AnQu2e_oecnLc-wl-zvpYp54/edit?gid=0#gid=0)
+  - Example: `AE OB HT AMER JENKINS`
+- Use merge fields for the recipient's name and the company name
+  - Merge fields will pull from Salesforce directly to populate the contact or lead records first name and the related account name.
+- If a flow is intended for an offer or promo, set an expiration date by opening up the Flow in the Groove webapp, clicking on Settings, and clicking on `Flow Expiration Settings`.
+- Assign a Label
+  - Please choose from the available list of Labels, and do not create a new one as Labels are visible to all Groove users. If you have identified a need for a new Label, please post in the #groove-flow-approvals Slack channel.
+  - All Sales labels start with `SALES`. Example: `SALES: Account Executives`, `SALES: Renewals`, `SALES: SMB`.
+
+#### Sharing with BDRs
+
+The Sales and Sales Dev organizations have their own processes for creating and maintaining flows. If you have a flow that you would like to share with your BDR for their usage, please reach out to the BDR Manager or Sales Dev Operations team for review and approval.
+
+**Sample Flows**
+
+If you're new to creating flows, there are blank flows available as samples (or templates) for each team member to choose based on frequency of communication, and if you would like to majority call versus email, or a mix of both. These flows can be found in the [Groove Flows tab](https://groove.clari.com/flows), click on Filter, choose Labels, and select the `SALES: Blank` option.
 
 Below are a few options:
 
@@ -91,30 +160,30 @@ Below are a few options:
 
 The email body is blank for you to personalize your message to your prospect or customer. Please note that you must add a lead to the flow before you are able to personalize. Once the lead is added, go to the Actions tab, click on the Play button of the specific flow you would like to personalize, and from there you can make updates.
 
-You also have access to all Sales Dev sequences. Any of the High Touch sequences will allow you to customize the first email message. Subsequent email steps are a mix of automated and manual emails. 
+You also have access to all Sales Dev sequences. Any of the High Touch sequences will allow you to customize the first email message. Subsequent email steps are a mix of automated and manual emails.
 
 ### Adding to Flows Option
 
-- CSV Upload: The CSV upload will only accept leads/contacts that already exist in SFDC. You can not upload anything that doesn’t exist in SFDC. 
-- Search: You can search SFDC by using name, email, company, phone or job title. 
+- CSV Upload: The CSV upload will only accept leads/contacts that already exist in SFDC. You can not upload anything that doesn’t exist in SFDC.
+- Search: You can search SFDC by using name, email, company, phone or job title.
 - SFDC List View: You can choose an object and then search your list view for that object to add people to flow. Example: B2 Lead View
-- SFDC Reports: You can search and add people through your SFDC reports or publicly shared reports. 
+- SFDC Reports: You can search and add people through your SFDC reports or publicly shared reports.
 
 ### Signature
 
-In the email body of some emails of flows, there are references to a meeting link in your signature. Please make sure you update your signature to include a meeting link. You can see a preview of your signature in your Groove Settings. 
+In the email body of some emails of flows, there are references to a meeting link in your signature. Please make sure you update your signature to include a meeting link. You can see a preview of your signature in your Groove Settings.
 
-- Sales Developement: Please do this using Terminus.com. 
-- Sales: Please do this in your Gmail settings. 
+- Sales Developement: Please do this using Terminus.com.
+- Sales: Please do this in your Gmail settings.
 
 ### Labels and Searching for Flows
 
-Labels are how Flows and Templates are organized in Groove. Currently there are no collections in Groove so we must use labels to search for the flows we are looking for. 
+Labels are how Flows and Templates are organized in Groove.
 
 **Label Categories:**
 
 - Industry: Flows targeted at a particular industry
-- Lang: Language Flows 
+- Lang: Language Flows
 - Motion: Different sales motions, ex: Competitive GitHub, Closed Lost, CI/CD, Event
 - Persona: Targeted at a particular buying persona
 - SD: Sales Dev owned, this will be in front of all Sales Dev flows
@@ -123,6 +192,31 @@ Important Notes on Searching using Labels:
 
 - When you filter by choosing multiple labels it creates an “and” statement between all of the labels you choose. For example, if you choose the labels “SD OB HT AMER” and “Motion: Competitive Atlassian” it will show every flow that has EITHER of those labels.
 - Best practice is to only filter down by one label and then search for the key word in the flow you are looking for. For example, you can filter by “SD IB HT AMER” and then in the search bar you can search the word “trial” to narrow your search down to all of the HT AMER Trial flows.
+
+### Groove Variables
+
+Groove Variables are formatted different than Outreach. You can find some commone examples below.
+
+- Personalization Example = {!Personalize Messaging Here}
+- Prospect Company/Account Name = {!company}
+- Prospect First Name = {!firstname}
+- Prospect Last Name = {!lastname}
+- Sender First Name = {!user.firstname}
+- Sender Calender Link = {!User.groove_meeting_link__c}
+
+### Groove Collections
+
+- Team Collections:  Managers own flow approvals for their team members. They are responsible for their team collection which includes: defining their process for content submissions, adhering to naming conventions & labels, quarterly deprecation and reporting on what’s converting. ex. SD EMEA DACH TEAM
+
+- Inbound collections: are required for all MQLs. Ops would own editing etc. To have these changed, approval would require ops.
+
+- SD Good outbound collection: owned by Ops and will only include highest performing flows. These flows will be added over the next 90 days as data from Groove comes in
+
+- SD Assist: Flow to be used for special circumstances (Action Qualifying, Move High Priority Leads, Web Directs ect.)
+
+### Notable Flows
+
+[SD Assist: Move High Priority Leads](https://groove.clari.com/flows/1097000)- This flow is only a single manual task and is to be used when you need to move a lead/contact out of high priority status. An example of this would be when an AE asks you not to reach out to a certain account because they are already in discussions with them.
 
 ## Email Sending Limits
 
@@ -134,30 +228,30 @@ Email will be sent at 45 secs intervals. If an email is scheduled to be sent at 
 
 For every flow, Operations have defined a set of actions that will take place depending on different triggers happening in the flow. This is to ensure good data management practices.
 
-- **On Complete:** When the contact is finished the flow, the SFDC lead or contact status will update to Recycle. 
-- **On Reply:** If a contact replies to an email, the contact will be removed from the flow and the SFDC lead or contact status will be updated to Qualifying. 
-- **On Days Overdue:** If a task in a flow becomes 30 days overdue, we will be removing the contact from the flow and updating the sfdc lead or contact status to Recycle. 
-- **On Negative Signal:** If a call is marked as a negative signal (through the call dispositions), the contact will be removed from the flow. Depending on the call disposition selected, it will update the SFDC lead/contact status. See below for more detail. 
-- **On Bounce:** If an email bounces, the contact will be removed from the flow. The lead will be marked as bounce in SFDC under the field Bad Data Reasons and the task related to the email will be marked as bounce and have the bounce code attached to it. 
-- **On Meeting booked:** If a meeting is booked through the flow, the contact will be removed from the flow and the SFDC lead and contact status will be updated to Qualifying. 
+- **On Complete:** When the contact is finished the flow, the SFDC lead or contact status will update to Recycle.
+- **On Reply:** If a contact replies to an email, the contact will be removed from the flow and the SFDC lead or contact status will be updated to Qualifying.
+- **On Days Overdue:** If a task in a flow becomes 30 days overdue, we will be removing the contact from the flow and updating the sfdc lead or contact status to Recycle.
+- **On Negative Signal:** If a call is marked as a negative signal (through the call dispositions), the contact will be removed from the flow. Depending on the call disposition selected, it will update the SFDC lead/contact status. See below for more detail.
+- **On Bounce:** If an email bounces, the contact will be removed from the flow. The lead will be marked as bounce in SFDC under the field Bad Data Reasons and the task related to the email will be marked as bounce and have the bounce code attached to it.
+- **On Meeting booked:** If a meeting is booked through the flow, the contact will be removed from the flow and the SFDC lead and contact status will be updated to Qualifying.
 
 ## Phone Numbers
 
 ### SDRS
 
-- All SDRs will receive a “base” number from which all calls will come from but local dial and international local dial will support calling into other state/countries. 
-- If we have an entity in that country, and the SDR is calling into that country, Groove will call from a local number in that country, regardless of the SDRs base country number. 
-- If we don’t have an entity, then Groove will use the SDRs assigned base number to call. 
-- For example, if they have a UK base number, and call into Germany, since we have an entity in Germany, Groove will dial from a german number. If they try to dial into Hungary, where we don’t have an entity,  the number will call from UK. 
+- All SDRs will receive a “base” number from which all calls will come from but local dial and international local dial will support calling into other state/countries.
+- If we have an entity in that country, and the SDR is calling into that country, Groove will call from a local number in that country, regardless of the SDRs base country number.
+- If we don’t have an entity, then Groove will use the SDRs assigned base number to call.
+- For example, if they have a UK base number, and call into Germany, since we have an entity in Germany, Groove will dial from a german number. If they try to dial into Hungary, where we don’t have an entity,  the number will call from UK.
 
 ### BDRs
 
-- All BDRs will receive a number from the territory they cover. It will work in a same way as SDRS if they dial into a state/country where we have an entity. 
+- All BDRs will receive a number from the territory they cover. It will work in a same way as SDRS if they dial into a state/country where we have an entity.
 
 ## Call Dispositions
 
 | Call Dispostion Name | Description  | Signal |
-| ------ | ------ | -------| 
+| ------ | ------ | -------|
 |    CC:Answered: Info Gathered: Potential Opp    |Some qualification questions were answered but more follow up is needed before an IQM is set| Positive signal|
 |   CC: Answered: Info Gathered: Not Opp yet |Some qualification questions were answered but no current use case or not the right time| Positive signal |
 | CC: Answered: Not Interested |Have stated on the call they are not interested| Negative signal |
@@ -168,7 +262,7 @@ For every flow, Operations have defined a set of actions that will take place de
 | Main Company Line - Can't Transfer Line |There's no way to contact your prospect through this company number | Neutral signal |
 | IQM Set | You were able to schedule an IQM while on the phone call. Note that a trigger exists in SFDC to automatically change lead status to Qualifying when this option is selected| Positive signal |
 | Correct Contact: Left Message |You were able to reach the voicemail for the correct contact and you left a message on their machine or with their Personal Assistant | Neutral signal |
-| Correct Contact: Not Answered/Other |You were able to reach the correct contact through a company directory but it kept ringing. You reached the contacts voicemail but their voicemail was not set up so you could not leave a message|Neutral signal | 
+| Correct Contact: Not Answered/Other |You were able to reach the correct contact through a company directory but it kept ringing. You reached the contacts voicemail but their voicemail was not set up so you could not leave a message|Neutral signal |
 | Incorrect Contact: Answered |The wrong person answered the phone number that you had for this contact and it is the wrong persons phone number (They were not a personal assistant). They didn’t take a message for the correct person or give helpful information |  Neutral signal |
 | Incorrect Contact: Left Message |The wrong person answered the phone and it is the wrong persons phone number (They were not a personal assistant). They took a message for the correct person/gave you the correct number for the contact| Neutral signal |
 | Incorrect Contact: Not Answered/Other |You got through to the voicemail but the voicemail was for someone other than the person who you were trying to contact. Or the person was not listed in the company directory and you were calling the companies main number |Neutral signal |
@@ -176,7 +270,7 @@ For every flow, Operations have defined a set of actions that will take place de
 | Incorrect Contact: No Authority | The person who answered the phone number has no authority nor decision to move forward with a purchase.| Negative signal |
 |Correct Contact: Discovery Call Set  | You were able to schedule a discovery call while on the phone call. Note that a trigger exists in SFDC to automatically change lead status to Qualifying when this option is selected | Positive Signal |
 
-## Spaces 
+## Spaces
 
 Spaces allows users to build a spreadsheet within Groove by pulling in account or opportunity data. A Live Space can also be used by leveraging a Salesforce report to automatically import opportunities that match the report. This Live Space will dynamically update by scanning our Salesforce instance for new records and updating the Space appropriately.
 
@@ -307,8 +401,19 @@ Dashboards
 ### Highspot
 
 - [Clari Knowledge Base Article - Groove Highspot Integration](https://clari.my.site.com/customer/s/article/Highspot-Integration)
+- When to use Highspot Pitches vs Groove templates [explainer video](https://gitlab.highspot.com/items/64b1c228139060dabfd1e504)
 
 ### LinkedIn Sales Navigator
 
 - Each Groove user can connect their LinkedIn Sales Navigator account to their Groove Omnibar.
 - [Clari Knowledge Base Article - Groove LinkedIn Integration](https://clari.my.site.com/customer/s/article/LinkedIn-Integration)
+
+### ZoomInfo
+
+Can view the demo in [highspot](https://gitlab.highspot.com/items/66db275add81ed254da5b6ee). With this integration, there are three ways to export records to Groove as a lead and select your flow:
+
+1. ZI Chrome Extension (Expand only);
+2. Advanced Search
+3. Company Org Chart
+
+Can read more on the [ZoomInfo Page](/handbook/marketing/marketing-operations/zoominfo/#groove-integration).

@@ -30,9 +30,9 @@ If you're a GitLab team member looking for help with a security problem, please 
 - After 10 minutes, if the alert has not been acknowledged, support management is alerted. After a further 5 minutes, *everyone* on the customer on-call rotation is alerted.
 - All tickets that are raised as emergencies will receive [the emergency SLA](https://about.gitlab.com/support/#priority-support). The on-call engineer's first action will be to [determine if the situation qualifies as an emergency]({{< ref "customer_emergencies_workflows#determine-if-the-situation-qualifies-as-an-emergency" >}}) and work with the customer to find the best path forward.
 - After 30 minutes, if the customer has not responded to our initial contact with them, let them know that the emergency ticket will be closed and that you are opening a normal priority ticket on their behalf. Also let them know that they are welcome to open a new emergency ticket if necessary.
-- You can view the [schedule](https://gitlab.pagerduty.com/schedules#PIQ317K) and the [escalation policy](https://gitlab.pagerduty.com/escalation_policies#PKV6GCH) on PagerDuty. You can also opt to [subscribe to your on-call schedule](https://support.pagerduty.com/docs/schedules-in-apps#section-export-only-your-on-call-shifts), which is updated daily.
+- You can view the [schedule](https://gitlab.pagerduty.com/schedules#PIQ317K) and the [escalation policy](https://gitlab.pagerduty.com/escalation_policies#PKV6GCH) on PagerDuty. You can also opt to [subscribe to your on-call schedule](https://support.pagerduty.com/main/docs/schedules-in-apps#export-only-your-on-call-shifts), which is updated daily.
 - After each shift, *if* there was an alert / incident, the on call person will send a hand off email to the next on call explaining what happened and what's ongoing, pointing at the right issues with the progress.
-- If you need to reach the current on-call engineer and they're not accessible on Slack (e.g. it's a weekend, or the end of a shift), you can [manually trigger a PagerDuty incident](https://support.pagerduty.com/docs/incidents#trigger-an-incident) to get their attention, selecting **Customer Support** as the Impacted Service and assigning it to the relevant Support Engineer.
+- If you need to reach the current on-call engineer and they're not accessible on Slack (e.g. it's a weekend, or the end of a shift), you can [manually trigger a PagerDuty incident](https://support.pagerduty.com/main/docs/incidents#trigger-an-incident) to get their attention, selecting **Customer Support** as the Impacted Service and assigning it to the relevant Support Engineer.
 - See the [GitLab Support On-Call Guide](/handbook/support/on-call) for a more
   comprehensive guide to handling customer emergencies.
 
@@ -81,7 +81,7 @@ In addition to incident management responsibilities, the EOC also is responsible
 
 - Gitaly team provides an expert oncall rotation via PagerDuty, currently in [pilot](https://gitlab.com/groups/gitlab-org/core-platform-section/-/epics/4).
 - SLO is 15 minutes, during working hours only (which still tends to cover 24h of workdays, given team member distribution).
-- For more details, see the [team page](/handbook/engineering/infrastructure/core-platform/systems/gitaly/#gitaly-oncall-rotation)
+- For more details, see the [team page](/handbook/engineering/infrastructure-platforms/data-access/gitaly/#gitaly-oncall-rotation)
 
 ## Security Team On-Call Rotation
 
@@ -112,12 +112,12 @@ In addition to incident management responsibilities, the EOC also is responsible
 
 ## PagerDuty
 
-We use [PagerDuty](http://gitlab.pagerduty.com/) to set the on-call
+We use [PagerDuty](https://gitlab.pagerduty.com/) to set the on-call
 schedules, and to route notifications to the appropriate individual(s).
 
 ### Swapping On-Call Duty
 
-Team members covering a shift for someone else are responsible for adding the override in PagerDuty. This can be arranged in the [#eoc-general](https://gitlab.enterprise.slack.com/archives/C07G9CP5XRR) Slack channel. They can delegate this task back to the requestor, but only after explicitly confirming they will cover the requested shift(s). To set an override, click the "Schedule an Override" button from the side navigation on the Schedule page or after selecting the relevant block of time on the calendar or timeline view. This action defaults the person in the override to *you* &mdash; PagerDuty assumes that you're the person volunteering an override. If you're processing this for another team member, you'll need to select their name from the drop-down list. Also see [this article](https://support.pagerduty.com/hc/en-us/articles/202830170-Creating-and-Deleting-Overrides) for reference.
+Team members covering a shift for someone else are responsible for adding the override in PagerDuty. This can be arranged in the [#eoc-general](https://gitlab.enterprise.slack.com/archives/C07G9CP5XRR) Slack channel. They can delegate this task back to the requestor, but only after explicitly confirming they will cover the requested shift(s). To set an override, click the "Schedule an Override" button from the side navigation on the Schedule page or after selecting the relevant block of time on the calendar or timeline view. This action defaults the person in the override to *you* &mdash; PagerDuty assumes that you're the person volunteering an override. If you're processing this for another team member, you'll need to select their name from the drop-down list. Also see [this article](https://support.pagerduty.com/main/docs/edit-schedules#create-overrides) for reference.
 
 ### Adding and removing people from the roster
 

@@ -23,9 +23,7 @@ And all the permissions, issues, MRs, and relevant stuff within GitLab are relat
 <!-- markdownlint-enable MD051 -->
 #### STEP 1: Request your new username
 
-- Access the username you want to request via `https://gitlab.com/mary`.
-- Check its activity and projects to see if they are an inactive user [according to the name squatting policy](/handbook/support/workflows/namesquatting_policy/).
-- There's no guarantee that the username will be available for you.
+- As of this [Merge Request](https://gitlab.com/gitlab-com/support/support-team-meta/-/issues/5170), it is no longer possible to request a username via the [Namesquatting process](/handbook/support/workflows/namesquatting_policy). If the username you wish to use is unavailable, you will have to pick a different one.
 
 #### STEP 2: Create a new account with your new username{#change-username-step-2}
 
@@ -198,6 +196,24 @@ If you need to convert multiple images, combine the `convert` command with `find
 find . -type f -name '*.jpg' -exec sh -c 'convert {} -resize 1920x1080 {}' \;
 ```
 
+### Convert HEIC to JPG
+
+> Tip: Modern macOS versions provide the Finder right-click menu `Quick Actions > Convert Image` which automatically converts an image to JPG. Use this method for quick UI conversions.
+
+[ImageMagick](#imagemagick) provides the `mogrify` CLI command which can be used to convert the `HEIC` image format to other formats like `JPG` which are accepted on all websites.
+
+```shell
+mogrify -format jpg icloudphoto.HEIC
+```
+
+If you need to convert multiple images, combine the `mogrify` command with `find`. Note that this creates new files and requires manual cleanup of `.heic|HEIC` files, `-iname` uses a case insensitive match.
+
+```shell
+find . -type f -iname '*.heic' -exec sh -c 'mogrify -format jpg \"{}\"' \;
+```
+
+An example shell alias can be found in [@dnsmichi's dotfiles project](https://gitlab.com/dnsmichi/dotfiles/-/blob/main/.oh-my-zsh/custom/aliases.zsh?ref_type=heads).
+
 ### Add drop shadow to images
 
 [Install ImageMagick](#imagemagick) and use the `convert` CLI command to add a drop shadow. The `-shadow` parameter may need adjustments on the dimension.
@@ -217,9 +233,9 @@ If this doesn't work, request that IT Ops reset your 2FA setting.
 
 Links for finding the settings:
 
-- iOS: [Get help with the date and time on your iPhone, iPad, and iPod touch - Apple Support](https://support.apple.com/en-us/HT203483)
-- macOS: [If the date or time is wrong on your Mac - Apple Support](https://support.apple.com/en-us/HT203413)
-- Linux (using systemd): [systemd-timesyncd - ArchWiki](https://wiki.archlinux.org/index.php/systemd-timesyncd)
+- iOS: [Get help with the date and time on your iPhone, iPad, and iPod touch - Apple Support](https://support.apple.com/en-us/101619)
+- macOS: [If the date or time is wrong on your Mac - Apple Support](https://support.apple.com/en-ca/guide/mac-help/mchlp2996/mac)
+- Linux (using systemd): [systemd-timesyncd - ArchWiki](https://wiki.archlinux.org/title/Systemd-timesyncd)
 
 For Android there's no definitive link, since most vendors have different UIs for their settings.
 But in the Settings-app, look for "Date & Time" and there should be a "Automatic Date & Time" toggle.
@@ -295,7 +311,7 @@ source ~/.bashrc
 
 **For Zsh:**
 
-On macOS Catalina, ZSH is the [default shell](https://support.apple.com/en-us/HT208050).
+On macOS Catalina, ZSH is the [default shell](https://support.apple.com/en-us/102360).
 By installing [Oh My ZSH!](https://ohmyz.sh/), the git plugin is automatically loaded and shows the current git branch.
 
 Another option would be:
@@ -388,12 +404,12 @@ We [don't have a corporate VPN](/handbook/security#why-we-dont-have-a-corporate-
 Remember that if your job has restrictions based upon geolocation (for example supporting customers with specific data restrictions and country-based access), a personal VPN may not be the best choice as often the VPN vendor routes traffic through other countries.
 If this restriction applies to you, consider tethering.
 [Tethering](https://en.wikipedia.org/wiki/Tethering) is when you set up your mobile phone as a hotspot and connect your laptop up to it via Wi-Fi, avoiding the unsecured Wi-Fi network.
-There is more information [here](https://www.computerworld.com/article/2499772/how-to-use-a-smartphone-as-a-mobile-hotspot.html) on the subject, and as long as your data plan supports it, you should be good to go.
+There is more information [here](https://www.computerworld.com/article/1536443/how-to-use-a-smartphone-as-a-mobile-hotspot.html) on the subject, and as long as your data plan supports it, you should be good to go.
 Double check before international travel, as it may be supported but have hidden costs.
 
 When connecting to a network with a [captive portal](https://en.wikipedia.org/wiki/Captive_portal), most websites will not load as modern sites use HTTPS, and captive portals interrupt that process.
 Your device will try and compensate for this, but it can be tough to manage manually.
-If you have trouble, try connecting to [http://captive.apple.com/](http://captive.apple.com/) first, which is intentionally only HTTP and will load the captive portal.
+If you have trouble, try connecting to [https://captive.apple.com/](https://captive.apple.com/) first, which is intentionally only HTTP and will load the captive portal.
 
 ### FIDO2 / WebAuthn
 
@@ -414,7 +430,7 @@ YubiKey: The most popular FIDO2/WebAuthn device is Yubico's YubiKey. There are a
 YubiKey has been examined by the security industry at large, third party audits and by the Security Team. YubiKey's are more than suitable for use within GitLab and work fine with FIDO2/WebAuthn-compatible systems.
 
 YubiKey has had a number of [security issues](https://www.yubico.com/support/security-advisories/) which are typically resolved quickly. They have a dedicated page for security advisories.
-In rare cases, a security issue involving a hardware token arises that requires the hardware token to be replaced as a firmware update will not mitigate the issue. This happened with [Yubico in 2017](https://www.yubico.com/keycheck/).
+In rare cases, a security issue involving a hardware token arises that requires the hardware token to be replaced as a firmware update will not mitigate the issue. This happened with [Yubico in 2017](https://support.yubico.com/hc/en-us/articles/360021803580-Infineon-RSA-Key-Generation-Issue-Customer-Portal).
 
 Most of the attack models that impact the FIDO2/WebAuthn tokens require physical access to the token itself. That is, the security advisories involve coding issues that can only be exploited via access to the token or the computer that the token is plugged into. This in itself makes the devices more secure.
 
@@ -427,7 +443,7 @@ While there are other hardware tokens that are also decent and will function wit
 
 What GitLab team members need to keep in mind is that if you travel with your company laptop - either on a business trip, a trip to visit family and friends in another location but you intend to keep working, or just a trip to the local coffee shop - treat the token with the same level of care as a credit card. Do not leave it where it could be stolen.
 
-If you are concerned about potentially losing your hardware token, be sure to add [Touch ID](/handbook/business-technology/okta/#i-want-to-add-touch-id--face-id--face-authentication--yubikey-to-okta) and potentially a [mobile device](/handbook/business-technology/okta/#i-want-to-add-touch-id--face-id--face-authentication-to-okta-for-my-mobile-device-iphoneipad-or-android) as an accepted authentication token. Sites following the FIDO2/WebAuthn standard should support multiple tokens. That way if one is lost or stolen, you can still login use another method. Currently YubiKey's are limited to one per user, in the case of lost or damaged, please reach out in the #it_security_help Slack channel and we'll assist you with a replacement.
+If you are concerned about potentially losing your hardware token, be sure to add [Touch ID](/handbook/it/okta/#i-want-to-add-touch-id--face-id--face-authentication--yubikey-to-okta) and potentially a [mobile device](/handbook/it/okta/#i-want-to-add-touch-id--face-id--face-authentication-to-okta-for-my-mobile-device-iphoneipad-or-android) as an accepted authentication token. Sites following the FIDO2/WebAuthn standard should support multiple tokens. That way if one is lost or stolen, you can still login use another method. Currently YubiKey's are limited to one per user, in the case of lost or damaged, please reach out in the #it_security_help Slack channel and we'll assist you with a replacement.
 
 Usage of 2FA is mandatory for GitLab team members.
 
@@ -462,7 +478,7 @@ Due to the number of caveats, SMS is only recommended if there is no other 2FA o
 - SMS is subject to the same phish-style attack as TOTP. The main difference is that some SMS-based authentication schemes time out after 60 seconds instead of 30, making the phish-style attack slightly easier for the attacker.
 - The information regarding your phone number is stored on a SIM card in your phone. If an attacker with physical access to your phone were to steal the SIM, they could impersonate you from their own phone. Of course they could do the same thing with your hardware token, however they would still need your username and password to use the hardware token. Unfortunately, calling up the service and asking for your password to be reset is often confirmed using SMS messaging, so with the possession of the SIM card, the attacker could pose as you. Again, if you treat your phone the same way you treat your credit card or cash, then this type of attack is minimized.
 - An attacker could contact your phone carrier, impersonate you and state you lost your phone, and set up a new SIM card. Unfortunately many times your account is protected with a security question such as "mother's maiden name", "favorite restaurant", or some other simple question - all information that could be determined from a website that does family trees or via social media where you post pictures of your dinner.
-- An older attack known as "[SIMJacker](https://simjacker.com/)" allowed an attacker to send your phone an SMS message with a malicious payload that allows for direct manipulation of the SIM card itself. This attack still works on older SIM cards, although more modern SIMs are no longer vulnerable to this. Most of the known attacks using SIMJacker involved Latin and South America, the Middle East, Northern Africa, parts of Eastern Europe, and parts of Southeast Asia.
+- An older attack known as "[SIMJacker](https://www.enea.com/info/simjacker/)" allowed an attacker to send your phone an SMS message with a malicious payload that allows for direct manipulation of the SIM card itself. This attack still works on older SIM cards, although more modern SIMs are no longer vulnerable to this. Most of the known attacks using SIMJacker involved Latin and South America, the Middle East, Northern Africa, parts of Eastern Europe, and parts of Southeast Asia.
 
 #### If You Must Use SMS
 
@@ -470,7 +486,7 @@ There may be services that only offer SMS as their 2FA solution, so in those cas
 
 - If you have an old phone (5+ years old) you might want to consider upgrading the SIM to a recent one, as these are not susceptible to the SIMJacker issues.
 - Contact your phone carrier and ask if there are additional security measures to protect your account besides security questions, such as a PIN. In lieu of that, you could also try setting your mother's maiden name or family pet security questions to something more, shall we say, unique (e.g. `Hdyla86kajDF64asdlui`).
-- Set a SIM PIN. For iOS devices, follow these [instructions from Apple](https://support.apple.com/en-us/HT201529). For Android devices, start with [these instructions](https://www.digitalcitizen.life/how-change-or-remove-sim-pin-android-2-steps/) but contact your phone's manufacturer website if the instructions do not fit your particular model.
+- Set a SIM PIN. For iOS devices, follow these [instructions from Apple](https://support.apple.com/en-us/118228). For Android devices, start with [these instructions](https://www.digitalcitizen.life/how-change-or-remove-sim-pin-android-2-steps/) but contact your phone's manufacturer website if the instructions do not fit your particular model.
 - Complain to the service to offer more than just SMS for 2FA! The more complaints they get, the more likely they might be to offer more secure options.
 
 ### Additional 2FA Concerns
@@ -492,7 +508,7 @@ The [Google Calendar](/handbook/tools-and-tips/#google-calendar) invite is the s
 
 ## Google
 
-Need a new document or new slide deck quickly? Use shortcuts like <http://doc.new> or <http://slide.new>. The full list (not even restricted to Google products) is available at <https://whats.new/shortcuts/>.
+Need a new document or new slide deck quickly? Use shortcuts like <https://doc.new> or <https://slide.new>. The full list (not even restricted to Google products) is available at <https://whats.new/shortcuts/>.
 
 ### Google Docs
 
@@ -525,22 +541,22 @@ To see the data for a specific page:
 - Click **Site content > All pages**
 - On the top-right, adjust the period of time you'd like to analyze
 - On the middle of the page, look for a search bar and paste the URL you'd like to analyze (without `https://`) and click on the magnifier button to search:
-![Google Analytics - find pageviews](/handbook/tools-and-tips/images/google-analytics-find-pageviews.png)
+![Google Analytics - find pageviews](/images/tools-and-tips/google-analytics-find-pageviews.png)
 Note that you can use the search tool with:
   - A full URL, which will return results for that specific URL
   - Part of an URL, e.g., `/2017/`, which will return the results for all the blog posts published on 2017
   - The higher directory on the file tree, which will return the results for a range of URLs in that tree.
     E.g., `docs.gitlab.com/ee/ci/` will return the results for all the range of pages contained in the `/ci/` directory
 - GA will output the data about the page (or range of pages) you searched for, including pageviews, unique pageviews, and other data:
-![Google Analytics - see pageviews](/handbook/tools-and-tips/images/google-analytics-pageviews.png)
+![Google Analytics - see pageviews](/images/tools-and-tips/google-analytics-pageviews.png)
 
 To find the referrals for a certain page, continue from the steps above.
 
 - Click on one of the website links to look at the data for a page of your choice
-![Google Analytics - find referrals](/handbook/tools-and-tips/images/google-analytics-find-referrals.png)
+![Google Analytics - find referrals](/images/tools-and-tips/google-analytics-find-referrals.png)
 - Just above the graph, click **Navigation summary**
 - GA will output the referrals, including **Previous Page Path** and **Next Page Path**:
-![Google Analytics - see referrals](/handbook/tools-and-tips/images/google-analytics-referrals.png)
+![Google Analytics - see referrals](/images/tools-and-tips/google-analytics-referrals.png)
 
 ### Set your picture in Google
 
@@ -561,7 +577,7 @@ Consider adding a phonetic pronunciation of your name and/or a pronunciation rec
 
 Please make use of the Find a Time tab in Google Calendar, especially when scheduling events with teammates in other parts of the world:
 
-![Google Calendar - Find a Time](/handbook/tools-and-tips/images/google-calendar-find-a-time.png)
+![Google Calendar - Find a Time](/images/tools-and-tips/google-calendar-find-a-time.png)
 
 Find a Time presents a new or existing event's time for all participants, adjusting for time zones as appropriate.
 To use Find a Time:
@@ -618,7 +634,7 @@ Please reach out to the People Connect Team in the `#people-connect` Slack chann
    This will appear like adding a room, which is expected
    {{% /note %}}
 
-   ![Adding GitLab Team Meetings](/handbook/tools-and-tips/images/adding-gitlab-team-meetings.png)
+   ![Adding GitLab Team Meetings](/images/tools-and-tips/adding-gitlab-team-meetings.png)
 
 #### Managing invite responses
 
@@ -641,7 +657,7 @@ Then click Create filter:
 Please click 'Guests can modify event' so people can update the time in the calendar instead of having to reach out via other channels.
 You can configure this to be checked by default under [Event Settings](https://calendar.google.com/calendar/r/settings).
 
-![Google Calendar - Guests can modify events setting](/handbook/tools-and-tips/images/google-calendar-guestsmodifyevent.png)
+![Google Calendar - Guests can modify events setting](/images/tools-and-tips/google-calendar-guestsmodifyevent.png)
 
 #### Notifications
 
@@ -667,7 +683,7 @@ We recommend enabling the 'Show declined events' setting if you are unable to at
 - Navigate to [Event settings](https://calendar.google.com/calendar/u/0/r/settings)
 - Check the box for 'Show declined events' under 'View options'
 
-![Google Calendar - Show declined events](/handbook/tools-and-tips/images/showdeclinedevents.png)
+![Google Calendar - Show declined events](/images/tools-and-tips/showdeclinedevents.png)
 
 #### Sharing
 
@@ -687,26 +703,26 @@ There are several benefits and reasons to sharing your calendar with everyone at
 If other members need to schedule a new meeting, seeing the details of recurring meetings (such as 1-1s) will allow for more flexibility in scheduling without needing to wait for a confirmation from the team member.
 This speaks to our value to be more efficient.
 
-![Google Calendar - make calendar available setting](/handbook/tools-and-tips/images/google-calendar-share.png)
+![Google Calendar - make calendar available setting](/images/tools-and-tips/google-calendar-share.png)
 
 When setting up your Google Calendar be sure to [set your working hours](https://support.google.com/calendar/answer/7638168?hl=en).
 
 If you'd like to share your calendar with e.g. your partner you can use the 'Share with specific people' feature and set the permissions to 'See only free/busy (hide details)':
 
-![Share with specific people](/handbook/tools-and-tips/images/share-with-specific-people.png)
+![Share with specific people](/images/tools-and-tips/share-with-specific-people.png)
 
 #### Speedy meetings
 
 Enable speedy meetings to automatically provide a buffer at the end of events you schedule.
 This thoughtfully allows participants with back-to-back events the opportunity to use the restroom or grab a cup of coffee without being late to their next function.
 
-![Google Calendar - Enable speedy meetings](/handbook/tools-and-tips/images/google-calendar-speedy-meetings.png)
+![Google Calendar - Enable speedy meetings](/images/tools-and-tips/google-calendar-speedy-meetings.png)
 
 #### World clock
 
 Add as many time zone world clocks as you wish by, in Google Calendar, going to `Settings -> World Clock` in order to see team members' local times.
 
-![Google Calendar - World Clock](/handbook/tools-and-tips/images/world-clock.png)
+![Google Calendar - World Clock](/images/tools-and-tips/world-clock.png)
 
 You can also use sites like [TimeAndDate](https://www.timeanddate.com/worldclock/converter.html) to convert times to/from UTC for example.
 
@@ -714,11 +730,11 @@ You can also use sites like [TimeAndDate](https://www.timeanddate.com/worldclock
 
 Check `Display secondary time zone` and select `(GMT+00:00) Coordinated Universal Time` (UTC). This enables team members to standardize on a single time zone in communicating when meetings take place.
 
-![Google Calendar - Time Zone](/handbook/tools-and-tips/images/google-calendar-timezone.png)
+![Google Calendar - Time Zone](/images/tools-and-tips/google-calendar-timezone.png)
 
 ### Google Cloud Platform
 
-See the [Sandbox Cloud page](/handbook/infrastructure-standards/realms/sandbox) for a listing of cloud resources and how to gain access to them.
+See the [Sandbox Cloud page](/handbook/company/infrastructure-standards/realms/sandbox) for a listing of cloud resources and how to gain access to them.
 
 ### Google Drive
 
@@ -772,7 +788,7 @@ The best practice is for sub-organizations to have their own directory inside th
 How do you use these? You don't have to remember these URL's.
 To add these links to your Google Drive My Drive directory, do the following:
 
-![Add to Drive Animation](/handbook/tools-and-tips/images/add2drive.gif)
+![Add to Drive Animation](/images/tools-and-tips/add2drive.gif)
 
 1. Make sure you are logged into your GitLab account in Google Drive in your browser
 1. Open the link of interest (from above) to go to that directory
@@ -789,7 +805,7 @@ With this it is easier to store and view files such as videos, analyst reports (
 
 Here's how to do this:
 
-![Download Drive for Desktop](/handbook/tools-and-tips/images/drive-for-desktop.png)
+![Download Drive for Desktop](/images/tools-and-tips/drive-for-desktop.png)
 
 1. Make sure you are logged into your GitLab account in Google Drive in your browser
 1. Go to your Google Drive (<https://drive.google.com>)

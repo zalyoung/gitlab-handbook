@@ -10,7 +10,7 @@ twitter_creator: "@gitlab"
 
 ## Introduction
 
-Trust is the cornerstone of how we operate at GitLab. We trust team members to [do the right thing instead of having rigid rules](/handbook/values/#measure-results-not-hours). Trust at GitLab [increases results](/handbook/people-group/guidance-on-feedback/), [efficiency](/handbook/values/#efficiency), and [collaboration](/handbook/values/#collaboration).
+Trust is the cornerstone of how we operate at GitLab. We trust team members to [do the right thing instead of having rigid rules](/handbook/values/#measure-impact-not-activity). Trust at GitLab [increases results](/handbook/people-group/guidance-on-feedback/), [efficiency](/handbook/values/#efficiency), and [collaboration](/handbook/values/#collaboration).
 
 Trust takes time and energy to build. We leverage [informal communication](/handbook/company/culture/all-remote/informal-communication/) to build trust, but there are additional strategies [people leaders](_index.md) and team members can implement on their teams.
 
@@ -18,7 +18,7 @@ Working remotely can be isolating for team members if managers do not take the [
 
 ## Ten Dimensions of Trust
 
-Sid Sijbrandij, GitLab's CEO, shared what he has identified as the ten dimensions of trust. He notes that trust allows you to [assume positive intent](/handbook/values/#assume-positive-intent) in support of our [CREDIT values](/handbook/values/#credit). It also helps to [prevent political behavior](/handbook/values/#playing-politics-is-counter-to-gitlab-values) that runs counter to our values.
+Sid Sijbrandij, GitLab's co-founder, shared what he has identified as the ten dimensions of trust. He notes that trust allows you to [assume positive intent](/handbook/values/#assume-positive-intent) in support of our [CREDIT values](/handbook/values/#credit). It also helps to [prevent political behavior](/handbook/values/#playing-politics-is-counter-to-gitlab-values) that runs counter to our values.
 
 1. Optimizing [efficiency for the right group](/handbook/values/#efficiency-for-the-right-group)
     1. We versus I optimization
@@ -195,7 +195,7 @@ Below are potential team day activities:
 
 #### More Ideas for Activities
 
-- [Among Us](https://innersloth.com/gameAmongUs.php) - Free on mobile, multiple platforms.
+- [Among Us](https://www.innersloth.com/games/among-us/) - Free on mobile, multiple platforms.
 - [Card & board game "table"](https://playingcards.io/) - Free!
 - [City Guesser](https://virtualvacation.us/guess) - Free!
 - [Drawasaurus](https://www.drawasaurus.org/) - Free!

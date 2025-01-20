@@ -3,6 +3,7 @@ Acai
 Aleesha
 Alix
 Altherr
+Arvind
 ashiel
 Bandur
 Bao
@@ -17,9 +18,11 @@ Chenje
 Chu
 Coghlan
 Cottrell
+Davila
 Deepika
 Demiri
 denhams
+Derald
 Diaz
 Dilan
 Djordje
@@ -29,6 +32,7 @@ Dusek
 Dybenko
 Dzalbo
 Egan
+Falor
 Farris
 Gabe
 Gudgenov
@@ -42,6 +46,7 @@ Iregbulem
 Jacie
 Jacki
 Jankovski
+Jernigan
 Katanda
 Keanon
 Khosla
@@ -52,6 +57,7 @@ Kryzeviciene
 Kwentus
 Kyla
 Liang
+Liki
 Lindberg
 Longo
 Marnane
@@ -65,6 +71,7 @@ Morrill
 Murph
 Nabitha
 Naheil
+Narayanan
 Neuberger
 Ng
 Nnamdi
@@ -101,6 +108,7 @@ Shih
 Shure
 Sijbrandij
 Silverberg
+Simonot
 Sincheol
 Sprauve
 Stittri
@@ -110,6 +118,7 @@ Taimur
 Taurie
 Terhar
 Thakkar
+Tre
 Treas
 Turcotte
 Turinske

@@ -3,7 +3,7 @@ title: "DevOps Solution Resource: Software Compliance"
 description: "How GitLab approaches the software compliance solution including messaging and key resources to help marketing and sales."
 ---
 
-**Looking for a customer-facing overview of GitLab's Software Compliance capabilities? See the [Compliance Solution](https://about.gitlab.com/solutions/compliance)**
+**Looking for a customer-facing overview of GitLab's Software Compliance capabilities? See the [Compliance Solution](https://about.gitlab.com/solutions/compliance/)**
 
 **GitLab field teams refer to this [Security and Governance highspot page](https://gitlab.highspot.com/items/61f415455b20d8eb224750a3) for latest information**
 
@@ -83,11 +83,11 @@ GitLab Software Compliance solution overview
 
 | Market Requirements | How GitLab Delivers | GitLab Category | Demos |
 | ------ | ------ | ------ | ------ |
-| Common compliance controls |  GitLab provides [many common controls](https://docs.gitlab.com/ee/administration/compliance.html) throughtout the SDLC, [Audit events](https://docs.gitlab.com/ee/administration/audit_events.html) [Compliance Management](https://about.gitlab.com/direction/govern/compliance/compliance-management/) | Access and Compliance within the Manage stage | |
-| Automated policy enforcement | [Security policies](https://docs.gitlab.com/ee/user/application_security/policies/#policy-management) can be managed in one place while [compliant workflow automation](https://docs.gitlab.com/ee/administration/compliance.html#compliant-workflow-automation) helps admins easily apply compliance policies across projects. | Govern | [![Compliance pipelines](../../images/youtube_social_icon_red-32x23.png) Compliance pipelines](https://www.youtube.com/watch?v=jKA_e_jimoI) |
-| Audit reporting | GitLab tracks [audit events](https://docs.gitlab.com/ee/api/audit_events.html) across the entire SDLC and [report them](https://docs.gitlab.com/ee/administration/audit_reports.html) | Access and Compliance within the Manage stage | |
+| Common compliance controls |  GitLab provides [many common controls](https://docs.gitlab.com/ee/administration/compliance.html) throughtout the SDLC, [Audit events](https://docs.gitlab.com/ee/administration/audit_event_reports.html) [Compliance Management](https://about.gitlab.com/direction/software_supply_chain_security/compliance/compliance-management/) | Access and Compliance within the Manage stage | |
+| Automated policy enforcement | [Security policies](https://docs.gitlab.com/ee/user/application_security/policies/#policy-management) can be managed in one place while [compliant workflow automation](https://docs.gitlab.com/ee/administration/compliance.html#compliant-workflow-automation) helps admins easily apply compliance policies across projects. | Govern | [![Compliance pipelines](/images/marketing/brand-and-product-marketing/product-and-solution-marketing/usecase-gtm/youtube_social_icon_red-32x23.png) Compliance pipelines](https://www.youtube.com/watch?v=jKA_e_jimoI) |
+| Audit reporting | GitLab tracks [audit events](https://docs.gitlab.com/ee/api/audit_events.html) across the entire SDLC and [report them](https://docs.gitlab.com/ee/administration/audit_event_reports.html) | Access and Compliance within the Manage stage | |
 | Security Governance | Security Policy Automation, [Compliant workflow automation](https://docs.gitlab.com/ee/administration/compliance.html#compliant-workflow-automation), [Security Dashboards](https://docs.gitlab.com/ee/user/application_security/security_dashboard/) and [Vulnerability Reports](https://docs.gitlab.com/ee/user/application_security/vulnerability_report/), [MR approvals](https://docs.gitlab.com/ee/user/project/merge_requests/approvals/), [License compliance](https://docs.gitlab.com/ee/user/compliance/license_approval_policies.html) | Govern, Secure ||
-| Security guardrails (Preventative - Pre CI/CD) | GitLab falls short of providing pre-approved dependencies as some other vendors do, [bill of materials feature](https://docs.gitlab.com/ee/user/application_security/dependency_list/) | Govern, Secure | [![Manage your Application Dependencies with GitLab](../../images/youtube_social_icon_red-32x23.png) Manage your Application Dependencies with GitLab](https://youtu.be/scNS4UuPvLI)|
+| Security guardrails (Preventative - Pre CI/CD) | GitLab falls short of providing pre-approved dependencies as some other vendors do, [bill of materials feature](https://docs.gitlab.com/ee/user/application_security/dependency_list/) | Govern, Secure | [![Manage your Application Dependencies with GitLab](/images/marketing/brand-and-product-marketing/product-and-solution-marketing/usecase-gtm/youtube_social_icon_red-32x23.png) Manage your Application Dependencies with GitLab](https://youtu.be/scNS4UuPvLI)|
 
 ## GitLab differentiators
 
@@ -103,8 +103,8 @@ GitLab Software Compliance solution overview
 
 | Differentiator | Value | Demo |
 | ----------------- | ------------- | ------ |
-| **MR approval based on Security Policy** | Bring Development and Security Teams closer by allowing security teams to apply organizational security policies before hand and review/approve security exceptions before the code is merged | [![Merge-Request Approvals as Displayed in DevSecOps Overview](../../images/youtube_social_icon_red-32x23.png) Merge-Request Approvals as Displayed in DevSecOps Overview](https://youtu.be/XnYstHObqlA?t=174) |
-| **Compliance Management** | GitLab makes compliance easier by providing a single source of truth for Dev, Sec and Ops through a single data-store. Everything is audited and for every change, there is a single thread that contains the full audit log of every decision and action - making audit compliance a breeze | [![Manage Compliance with GitLab](../../images/youtube_social_icon_red-32x23.png) Manage Compliance with GitLab](https://youtu.be/QV2dIocn-hk) |
+| **MR approval based on Security Policy** | Bring Development and Security Teams closer by allowing security teams to apply organizational security policies before hand and review/approve security exceptions before the code is merged | [![Merge-Request Approvals as Displayed in DevSecOps Overview](/images/marketing/brand-and-product-marketing/product-and-solution-marketing/usecase-gtm/youtube_social_icon_red-32x23.png) Merge-Request Approvals as Displayed in DevSecOps Overview](https://youtu.be/XnYstHObqlA?t=174) |
+| **Compliance Management** | GitLab makes compliance easier by providing a single source of truth for Dev, Sec and Ops through a single data-store. Everything is audited and for every change, there is a single thread that contains the full audit log of every decision and action - making audit compliance a breeze | [![Manage Compliance with GitLab](/images/marketing/brand-and-product-marketing/product-and-solution-marketing/usecase-gtm/youtube_social_icon_red-32x23.png) Manage Compliance with GitLab](https://youtu.be/QV2dIocn-hk) |
 | **Compliant pipelines** | Admin can choose a compliance framework and apply it to the project. It will override any changes developers make to the pipeline | [Compliant pipelines](https://www.youtube.com/watch?v=jKA_e_jimoI) |
 
 ## Message House
@@ -159,7 +159,7 @@ Note: The Free tier does not include providing these results in vulnerability re
 - Fuzz testing, called out by the 2021 US Executive Order to Improve Cybersecurity
 - [License Compliance](https://docs.gitlab.com/ee/user/compliance/license_approval_policies.html) - identify the presence of new software licenses included in your project and track project dependencies. Approve or deny the inclusion of a specific license.
 
-In addition, more security scanners are available, along with Vulnerability management and security dashboard. See the [DevSecOps solution](https://about.gitlab.com/solutions/dev-sec-ops) for details.
+In addition, more security scanners are available, along with Vulnerability management and security dashboard. See the [DevSecOps solution](https://about.gitlab.com/solutions/security-compliance/) for details.
 
 | Feature / Scenario                                  |    Free   |    Premium  | Ultimate | Product Analytics | Notes                      |
 | --------------------------------------------------- | :-------: | :-------: | :------: | :---------------: | :------------------------- |
@@ -327,7 +327,7 @@ Many great opportunities will not entirely fit this ideal profile. An ideal cust
 
 ### Additional Documentation Links
 
-- [GitLab Security Compliance Controls](/handbook/security/security-assurance/security-compliance/sec-controls.html)
+- [GitLab Security Compliance Controls](/handbook/security/security-assurance/security-compliance/sec-controls/)
 - [GitLab Security Practices](/handbook/security/)
 - [Security Planning](/handbook/security/planning/)
 
@@ -343,8 +343,8 @@ The following will link to enablement and training videos and content.
 GitLab offers a [variety of pre-packaged and custom services](https://about.gitlab.com/services/) for our customers and partners. The following are service offers specific to this solution. For additional services, see the [full service catalog](https://about.gitlab.com/services/catalog/).
 
 - [DevOps Fundamentals Training](https://university.gitlab.com/courses/gitlab-devops-fundamentals) (all stages of the DevOps lifecycle)
-- [GitLab CI/CD Training](https://about.gitlab.com/services/education/gitlab-ci/)
-- [Integration Services](https://about.gitlab.com/services/implementation/integration/ )
+- [GitLab CI/CD Training](https://university.gitlab.com/pages/ci-cd-training/)
+- [Integration Services](https://about.gitlab.com/services/catalog/ )
 
 ## Resources
 
@@ -355,7 +355,7 @@ GitLab offers a [variety of pre-packaged and custom services](https://about.gitl
 
 ### Roadmap
 
-- [Manage Direction](https://about.gitlab.com/direction/manage/)
+- [Manage Direction](https://about.gitlab.com/direction/foundations/)
 
 ### Technical Resources for Solution Architects - TBD
 

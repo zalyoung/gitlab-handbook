@@ -18,7 +18,7 @@ The main situations where action may need to be taken on behalf of the user:
 
 ### User Action First
 
-Following our [Security Policy on "GitLab's Access to Your Private Repositories"](https://about.gitlab.com/security/faq), actions should always be taken by the user whenever possible.
+Following our [Security Policy on "GitLab's Access to Your Private Repositories"](https://about.gitlab.com/security/faq/), actions should always be taken by the user whenever possible.
 
 For example, users should be deleting their own projects, but if they encounter an error with every attempt and there are no workarounds, then Support can intervene [with permission](#asking-permission).
 
@@ -47,10 +47,8 @@ If ownership is verified, then:
 1. [Confirm permission for the changes](#asking-permission).
 1. Add an [Admin Note](/handbook/support/workflows/admin_note) to the user's account.
 
-Example cases include:
+Example:
 
-1. Swapping secondary email with primary email due to primary email being unconfirmed or non-existent. If the requester is a free user, manager approval is needed. Available until [gitlab#416451](https://gitlab.com/gitlab-org/gitlab/-/issues/416451) is implemented.
-1. The user no longer having access to the primary email address also counts as a valid scenario where we can perform an email address swap between the primary email address and the secondary email address as [gitlab#416451](https://gitlab.com/gitlab-org/gitlab/-/issues/416451) prevents the verification code being sent to the secondary email address. Manager approval is needed here too.
 1. Removing an identity tied to the user account. The identity should also be verified in these cases.
 
 ## Releasing an Email Address
@@ -214,7 +212,7 @@ Account Ownership Change Requests are initiated when the sole Owner of a group l
 
 ## How is permission given for troubleshooting?
 
-The Support team will not view any private information unless required to resolve an issue. Typically, the issue is filed by the account holder (for users) or valid members of the namespace (for projects and groups) via a support ticket for troubleshooting purposes as outlined in [Security Policy on "GitLab's Access to Your Private Repositories"](https://about.gitlab.com/security/faq).
+The Support team will not view any private information unless required to resolve an issue. Typically, the issue is filed by the account holder (for users) or valid members of the namespace (for projects and groups) via a support ticket for troubleshooting purposes as outlined in [Security Policy on "GitLab's Access to Your Private Repositories"](https://about.gitlab.com/security/faq/).
 
 A Support team member may look at information on pages not explicitly mentioned in the request, but will limit the scope of the review to the minimum access required to solve any issues.
 

@@ -31,7 +31,7 @@ Success Services include up to 4 Accelerators, 1 per quarter, that your [Custome
 
 An Accelerator, depending on customer requirements and defined outcomes, will pull together one or more of the below content modules.   Typically the accelerator runs over 12 weeks.  It kicks off with a discovery workshop to document required customer outcomes.  From that, we will run a planning workshop outlining with the customer the steps necessary to achieve their outcomes.   The output of the Planning Workshop is a backlog of issues logged, in a GitLab project, that includes all the necessary activities that will be managed over the following 10 weeks to achieve those outcomes and close out the Accelerator
 
-![Accelerator Timeline](accelerator-timeline-graphic.png "Accelerator Timeline")
+![Accelerator Timeline](/images/customer-success/success-services/accelerator-timeline-graphic.png "Accelerator Timeline")
 
 #### Accelerator Content Modules
 
@@ -81,7 +81,7 @@ graph LR
    2. If customer is not available in first week for a formal kick-off, both ASE and CSA should begin work async and will start any needed conversations via email.
    3. Utilize the slide [template](https://docs.google.com/presentation/d/1uQpuSwPV43ZkNvG18y_XBRRoBaCtWiyhYoHHAT3QBY4/edit) (internal)
    4. Share the .pdf version post call as well as immediate next steps, such as a discovery workshop
-    
+
 ### Logging Accelerator Events
 
 In order to keep track of key deliverables in the Accelerator process, CSAs need to log these events in Gainsight. This will allow reporting and a complete account timeline within Gainsight.
@@ -102,4 +102,3 @@ Instructions:
 5. Fill in "Accelerator Content Module"
    * Use this optional field to document the activity itself
    * i.e. "Delivered guidance report for cost optimization", or "Custom Security Policy Workshop"
-   

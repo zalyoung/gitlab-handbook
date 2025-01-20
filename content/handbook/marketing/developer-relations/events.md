@@ -16,7 +16,7 @@ The Developer Relations team regularly attends the following event types:
 ### Community events
 
 GitLab's Developer Relations team regularly organizes virtual events including [GitLab Hackathons](https://about.gitlab.com/community/hackathon/)
-and [community office hours](/handbook/marketing/developer-relations/contributor-success/community-contributors-workflows.html#community-office-hours).
+and [community office hours](/handbook/marketing/developer-relations/contributor-success/community-contributors-workflows/#community-office-hours).
 We also support in-person contributor days and [community-organized meetups](https://about.gitlab.com/community/meetups/). Many of these activities
 are organized through the [GitLab network](https://www.meetup.com/pro/gitlab/) page on Meetup.
 
@@ -61,6 +61,16 @@ in-person events using the following criteria:
 
 **Note**: For virtual events, we will assess the opportunities on a case-by-case basis given
 they require less time and travel from the team.
+
+### Evaluation criteria for partner and community events
+
+For events that are organized by partners and members of the wider GitLab community, we require that organizers provide the following for GitLab team members to ensure their participation:
+
+1. Registration page, which must be live and shared with the speaker 4 weeks in advance of the event
+1. An update on registrations one week before the event
+1. An enforced, public Code of Conduct to ensure it is a safe environment for all contributing. If needed, event organizers are welcome to use GitLab’s [Community Code of Conduct](https://about.gitlab.com/community/contribute/code-of-conduct/).
+
+These steps will help us ensure that the events will have a sufficient audience to justify the time and cost spent preparing for and attending the events.
 
 ## Event Content Generation
 
@@ -289,4 +299,4 @@ and GitLab teams should keep in mind as they plan events and activities.
 ## Additional Resources
 
  Additional information about events can be found on the [Events](/handbook/marketing/events) page of the
- GitLab Handbook. For a list of upcoming GitLab events see the [Events](https://about.gitlab.com/events) page of our website.
+ GitLab Handbook. For a list of upcoming GitLab events see the [Events](https://about.gitlab.com/events/) page of our website.

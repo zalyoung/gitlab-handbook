@@ -231,7 +231,7 @@ GitLab teams are encouraged to use the following [Hackathon issue template](http
 
 ### Virtual hackathons/hackathon-in-a-box
 
-We also encourage wider community members to organize events to encourage and support new contributors to GitLab. This could be done as a part of in-person or virtual [GitLab meetups](/handbook/marketing/developer-relations/evangelist-program/#meetups).
+We also encourage wider community members to organize events to encourage and support new contributors to GitLab. This could be done as a part of in-person or virtual GitLab meetups.
 
 If wider community members are interested in including a hackathon as a part of a meetup, ask them to include this information when they open a [meetup issue](https://gitlab.com/gitlab-com/marketing/community-relations/evangelist-program/general/issues/new?issuable_template=meetup-organizer). Contributor Success team members will get in touch with the organizer and provide the necessary resources to support the event.
 
@@ -309,7 +309,9 @@ GitLab team members seeking help can reach out to the wider community for contri
 
 GitLab guides the wider community to search for issues with the `quick win` label when looking to contribute. These issues are intended to be straightforward for community contributors and quick enough to complete while still learning the contribution process. This follows [GitLab's mission](/handbook/company/mission/#mission) to enable everyone to contribute and to support our first-time contributors onboarding with the community. The [GitLab Bot](https://gitlab.com/gitlab-bot) helps to maintain this criteria and will remove the `quick win` label when an issue does not meet the requirements.
 
-- The issue description must include an `## Implementation plan` second-level heading, containing guidance to help contributors get started.
+- The issue description must include an implementation plan as a second-level heading with guidance
+to help contributors get started.
+For example `## Implementation`, `## Implementation plan` or `## Implementation guide` are all acceptable.
 This section can be very brief or offer possible actions to resolve the issue.
 - The issue must be assigned a weight between 0-3.
 Issue weights should approximate the complexity and effort required.
@@ -329,17 +331,28 @@ Contributor Success team members can use the [outreach email/message template](/
 
 More information on the [Core Team](https://about.gitlab.com/community/core-team/) is available in the [Core Team handbook page](/handbook/marketing/developer-relations/core-team/).
 
-### Granting GitLab Duo licenses
+### GitLab Duo for Contributors
 
-To support our mission to enable everyone to contribute, we offer GitLab Duo Pro licenses to the contributors in our wider community.
-[GitLab Duo Pro](https://about.gitlab.com/gitlab-duo/) features Code Suggestions, Chat and more AI-powered features to help boost efficiency
-and effectiveness by reducing the time required to write and understand code.
-Community contributors can [visit the Duo access project](https://gitlab.com/gitlab-community/community-members/duo-access) to request a Duo Pro license and learn more
-about the benefits of GitLab Duo.
+To support our mission to enable everyone to contribute, we offer complimentary GitLab Duo Enterprise
+licenses across the GitLab community forks for all our wider community contributors.
+[GitLab Duo](https://about.gitlab.com/gitlab-duo/) features Code Suggestions, Chat, Root Cause Analysis
+and more AI-powered features to help boost efficiency and effectiveness by reducing the time required
+to write and understand code and pipelines.
+Community contributors receive GitLab Duo once approved for [requesting access to the community forks](https://gitlab.com/groups/gitlab-community/community-members/-/group_members/request_access).
+
+### Highlighting high-value contributions with product bonuses
+
+This is an experiment that we run in FY25Q4 (November 2024 - January 2025).
+
+To highlight high-value contribution directions, the contributor success team might set up a dedicated budget that product managers (PM) can give out to contributors in their area in a given timeframe. The overall budget is shared equally across user-facing product stages where PMs can apply labels (`community-bonus::100`. `community-bonus::300`. `community-bonus::500`) to show how much value they give to the specific issue/epic. The bonus is accounted for when the issue is closed or in case of an epic, the contributor success team can give out part of the bonus for specific issues as discussed by the respective PM. PMs are expected to stay within their budgets when selecting issues.
+
+Bonuses can be granted after the contribution too.
+
+A bonus in this context is not a monetary grant. These bonus points can only be used to make purchases in the [contributor store](https://gitlab-contributor.brilliantmade.com/).
 
 ### For contributors who don't own a credit card
 
-For contributors who don't own a credit card and need to be manually verified, a GitLab team member can open an [internal request](https://support-super-form-gitlab-com-support-support-op-651f22e90ce6d7.gitlab.io/) using the `Other -> Other License and Renewals related issue` template. GitLab Support will follow the [Manual credit card validation process described in the handbook](/handbook/support/license-and-renewals/workflows/saas/ci_minutes.html#manual-credit-card-validation-for-community-contributors) to complete the request.
+For contributors who don't own a credit card and need to be manually verified, a GitLab team member can open an [internal request](https://support-super-form-gitlab-com-support-support-op-651f22e90ce6d7.gitlab.io/) using the `Other -> Other License and Renewals related issue` template. GitLab Support will follow the [Manual credit card validation process described in the handbook](/handbook/support/license-and-renewals/workflows/saas/ci_minutes/#manual-credit-card-validation-for-community-contributors) to complete the request.
 
 ### For contributors who run out of compute minutes or other CI/CD resources
 
@@ -523,7 +536,7 @@ You can also directly query data from `Merge Requests` pages for projects (e.g. 
 
 ### Number of Contributors
 
-In the past we often mentioned 2,000+ contributors in the GitLab community (GitLab team members + wider community) as you can see in [this example](https://about.gitlab.com/blog/2018/08/13/join-the-gitlab-community/). However, this only included contributors to CE and EE projects based on the old [https://contributors.gitlab.com](https://web.archive.org/web/20190619012814/http://contributors.gitlab.com/) page.
+In the past we often mentioned 2,000+ contributors in the GitLab community (GitLab team members + wider community) as you can see in [this example](https://about.gitlab.com/blog/2018/08/13/join-the-gitlab-community/). However, this only included contributors to CE and EE projects based on the old [https://contributors.gitlab.com](https://web.archive.org/web/20190619012814/https://contributors.gitlab.com/) page.
 
 If you include other GitLab projects, the total number of contributors is much larger.
 

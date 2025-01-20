@@ -61,7 +61,7 @@ Examples:
 - "This user <https://gitlab-federal-support.zendesk.com/users/398443026291/> is struggling with Geo setup..."
 - "The person who submitted the case that got bounced back is a member of this organization: <https://gitlab.my.salesforce.com/0014M00001hHHKF>"
 
-The use of an acronym to discuss an organization is **not permitted** in either `#spt_us-government` or `#feed_zd-federal` channels to prevent disclosure of sensitive information.
+The use of an acronym to discuss an organization is **not permitted** in the `#spt_us-government` channel to prevent disclosure of sensitive information.
 
 ## Ticket assignment via round-robin
 
@@ -87,7 +87,7 @@ If you need a manager's help with a ticket, please keep in mind that only US Cit
 
 ### Discussion issues from tickets
 
-In order to better facilite asynchronous collaboration on tickets within the US Government ticket system, we have a macro which allows US Government support engineers to trigger the creation of a confidential GitLab issue connected with the ticket. This issue will be open for the duration of the ticket and can provide a way for US Government support engineers to relay information to collaborators.
+In order to better facilitate asynchronous collaboration on tickets within the US Government ticket system, we have a macro which allows US Government support engineers to trigger the creation of a confidential GitLab issue connected with the ticket. This issue will be open for the duration of the ticket and can provide a way for US Government support engineers to relay information to collaborators.
 
 **NOTE:
 It is important to never included any customer specific information inside of these issues, because even though they are confidential, they are still visible to people who do not have access to the US Government ticket system.**
@@ -118,7 +118,7 @@ A short post call synopsis reminding the customer of what artifacts were collect
 
 ## US Government Shift Engineer Workflow
 
-The US Government shift engineers are a hybrid role between US Government support and global support, they work in both support portals. This workflow outlines the heirarchy of priorities for shift engineers to follow:
+The US Government shift engineers are a hybrid role between US Government support and global support, they work in both support portals. This workflow outlines the hierarchy of priorities for shift engineers to follow:
 
 1. US Government Emergencies (while on-call)
 1. US Government High priority cases for 24x7 Eligible customers ([24x7 Entitled Customers view](https://gitlab-federal-support.zendesk.com/agent/filters/20166453511316))

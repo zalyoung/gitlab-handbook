@@ -51,7 +51,7 @@ It's important to reconcile these variables with the research goals you're after
 
 Below is the set up we used for a [recent mental modeling study](https://gitlab.com/gitlab-org/ux-research/-/issues/2076) using cognitive mapping. We wanted to gather the ways in which customers organized the different kinds of work items they dealt with every day. Because we had specific nouns and verbs in mind, we pre-populated areas of each, but allowed participants to add their own as they needed.
 
-![A setup for a mental modeling exercise](mental_model_setup.png)
+![A setup for a mental modeling exercise](/images/product/ux/ux-research/mental-modeling/mental_model_setup.png)
 
 ## Mental model analysis
 
@@ -75,7 +75,7 @@ When you see clusters like this that share common nouns and appear across many o
 
 Below is an example of the segmentation process, broken down into 3 steps. From left to right, we start with the raw map, clean it up, and then are able to see areas of the map that are isolated from the others (outlined in squares).
 
-![Segmentation of a mental model map](segmentation.png)
+![Segmentation of a mental model map](/images/product/ux/ux-research/mental-modeling/segmentation.png)
 
 #### Network Graphing
 
@@ -83,7 +83,7 @@ For concept maps where both nouns and verbs (objects and relationships) are reco
 
 What you end up with is something like this:
 
-![Network graph of mental modeling terms](network_graph.png)
+![Network graph of mental modeling terms](/images/product/ux/ux-research/mental-modeling/network_graph.png)
 
 This is from the same [mental model study](https://gitlab.com/gitlab-org/ux-research/-/issues/2076) done at GitLab on different Work Items. Each blue circle represents a node or noun, and the size of the circle corresponds to how many relationships it has with other nodes in the graph.
 

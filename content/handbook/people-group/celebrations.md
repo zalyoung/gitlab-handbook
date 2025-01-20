@@ -56,5 +56,5 @@ Once you have your card created:
 
 Recommended sites:
 
-- [Ella Cards](https://www.ellacard.com/)
+- [Ella Cards](https://ellacard.com/start)
 - [Kudoboard Cards](https://www.kudoboard.com/)

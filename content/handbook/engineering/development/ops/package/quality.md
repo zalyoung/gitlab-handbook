@@ -27,8 +27,8 @@ The testing strategy for [this level of the pyramid](https://docs.gitlab.com/ee/
 **Merge Request** - The whole QA End-to-End test suite can be run on your MR by triggering manually the `package-and-qa` job.
 
 **Scheduled Pipelines** - [Schedule](/handbook/engineering/infrastructure/test-platform/debugging-qa-test-failures/#qa-test-pipelines).
-Package tests run in various pipelines and we have a few tests tagged as `:blocking`. `:blocking` tests block merge requests on failure and `:smoke` tests block deployments from going further in case of failure.
-Other Package related tests that are not tagged as `:blocking` run when the full suite of tests runs.
+Package tests run in various pipelines and we have a few tests tagged as `:smoke`. `:smoke` tests block deployments from going further in case of failure.
+Other Package related tests that are not tagged as `:smoke` run when the full suite of tests runs.
 
 ### Where are they
 
@@ -57,18 +57,18 @@ To run the tests:
 1. On the terminal, go to `path-to-your-gdk/gitlab/qa`
 1. Make sure that you have all the necessary gems installed: `bundle install`
 1. Issue the command:
-    1. To run all the tests for free features: `bundle exec bin/qa Test::Instance::All http://gdk.test:3000 -- qa/specs/features/browser_ui/5_package --tag orchestrated --tag packages`
-    1. To run all the tests for paid features: `bundle exec bin/qa Test::Instance::All http://gdk.test:3000 -- qa/specs/features/ee/browser_ui/5_package --tag orchestrated --tag packages` (currently there are no tests for paid features)
+    1. To run all the tests for free features: `bundle exec bin/qa Test::Instance::All https://gdk.test:3000 -- qa/specs/features/browser_ui/5_package --tag orchestrated --tag packages`
+    1. To run all the tests for paid features: `bundle exec bin/qa Test::Instance::All https://gdk.test:3000 -- qa/specs/features/ee/browser_ui/5_package --tag orchestrated --tag packages` (currently there are no tests for paid features)
     1. To run all the API tests for free features: _currently there are API tests for free features **at the End-to-End level** but they run only in Staging and Preprod environments_
     1. To run all the API tests for free features: _currently there are no API tests for paid features **at the End-to-End level**_
 
-**Note:** The command above is targeting `http://gdk.test:3000` which should be changed according to your hostname mapped to the loopback interface.
+**Note:** The command above is targeting `https://gdk.test:3000` which should be changed according to your hostname mapped to the loopback interface.
 
 - `Test::Instance::All` refers to the test scenario `Instance::All`. A test scenario is a statement describing the functionality of the application to be tested.
 These [are created on the GitLab QA](https://gitlab.com/gitlab-org/gitlab-qa/-/tree/master/lib/gitlab/qa/scenario/test) orchestration tool to define and compose
 all the necessary pre-conditions that a GitLab instance must have in order to be tested. `All` is just simply running all the tests without pre-configuring a GitLab
 instance as we are using our GDK as the GitLab instance under test. In order to configure the GDK instance to have the Registry and/or the Package Registry enabled please follow the existing [GDK Docs](https://gitlab.com/gitlab-org/gitlab-development-kit/-/tree/main/doc/howto).
-- `http://gdk.test:3000` is the hostname of the GitLab instance under test. When running locally is the hostname of the GDK.
+- `https://gdk.test:3000` is the hostname of the GitLab instance under test. When running locally is the hostname of the GDK.
 - `qa/specs/features/browser_ui/5_package` is the path to the folder where non-paid package features are.
 - `--tag orchestrated --tag packages` are [RSpec metadata](https://docs.gitlab.com/ee/development/testing_guide/end_to_end/rspec_metadata_tests.html#rspec-metadata-for-end-to-end-tests) used for filtering tests.
 Particularly useful when running on pipelines, but they also need to be included when running locally since they act as a filter for running `:packages` related tests only.

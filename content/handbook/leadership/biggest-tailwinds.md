@@ -11,7 +11,7 @@ We also have a [Mitigating Concerns page](https://internal.gitlab.com/handbook/l
 
 [Customer Experience](https://docs.gitlab.com/ee/ci/review_apps/index.html#visual-reviews)
 
-[Software is Eating the World](https://a16z.com/2011/08/20/why-software-is-eating-the-world/)
+[Software is Eating the World](https://a16z.com/why-software-is-eating-the-world/)
 
 ## 2.  DevOps
 
@@ -37,7 +37,7 @@ We also have a [Mitigating Concerns page](https://internal.gitlab.com/handbook/l
 
 [Progressive Delivery](https://about.gitlab.com/blog/2019/04/19/progressive-delivery-using-review-apps/)
 
-[Workloads Moving to the Cloud](https://www.synopsys.com/blogs/software-security/cloud-migration-business/)
+[Workloads Moving to the Cloud](https://www.blackduck.com/blog/cloud-migration-business.html)
 
 ## 4. All-Remote
 

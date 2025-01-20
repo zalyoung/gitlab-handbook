@@ -36,7 +36,7 @@ If you would like to check whether or not a team-member is a member of a Slack o
 
 #### Okta
 
-To read more about Okta, please visit the [**Okta**](/handbook/business-technology/okta/) page of the handbook.
+To read more about Okta, please visit the [**Okta**](/handbook/it/okta/) page of the handbook.
 
 #### Jamf (Endpoint Management)
 
@@ -44,7 +44,7 @@ To read more about our Jamf deployment please visit the [**Endpoint Management**
 
 #### Laptop Delivery Metrics
 
-To view laptop delivery metrics and statistic please visit the [Laptop Metrics Handbook Page](/handbook/business-technology/end-user-services/laptop-metrics/)
+To view laptop delivery metrics and statistic please visit the [Laptop Metrics Handbook Page](https://internal.gitlab.com/handbook/it/end-user-services/gitlab-laptop-metrics/)
 
 #### GitLab Onboarding and machine management
 
@@ -52,7 +52,7 @@ Please visit the GitLab Onboarding and machine management [handbook page](/handb
 
 #### GitLab Laptop Offboarding
 
-Please visit the GitLab Laptop Offboarding page for information pertaining to this process at GitLab [handbook page](/handbook/business-technology/end-user-services/gitlab-laptop-offboarding/)
+Please visit the GitLab Laptop Offboarding page for information pertaining to this process at GitLab [handbook page](/handbook/it/end-user-services/gitlab-laptop-offboarding/)
 
 #### Self-help and troubleshooting
 
@@ -60,11 +60,11 @@ Experiencing some issues with your machine, access to systems, 2FA or other IT r
 
 #### GitLab IT 101
 
-New to GitLab and looking for some IT tips and tricks? This is the spot for you, we have created a comprehensive guide for using the IT systems, apps and hardware [in this handbook page](/handbook/business-technology/end-user-services/onboarding101/)
+New to GitLab and looking for some IT tips and tricks? This is the spot for you, we have created a comprehensive guide for using the IT systems, apps and hardware [in this handbook page](/handbook/it/end-user-services/onboarding101/)
 
 #### Offboarding
 
-- Are you or a direct report leaving the company? Please reference the [Offboarding](/handbook/business-technology/end-user-services/offboarding/) handbook page to see the action items that you can take to create a smooth transition for you and your team.
+- Are you or a direct report leaving the company? Please reference the [Offboarding](/handbook/it/end-user-services/offboarding/) handbook page to see the action items that you can take to create a smooth transition for you and your team.
 
 ## <i class="fas fa-tasks" id="biz-tech-icons"></i> Automations
 
@@ -115,13 +115,14 @@ To learn more on how this automation works, check the [IT-Help Slack Issue Creat
 
 #### IT Holiday Schedule
 
-The IT Helpdesk team (End User Services) will be observing 2 end of the year holidays during the weeks from 2023-12-18 to the 2024-01-02.
+The IT Helpdesk team (End User Services) will observe two holidays:
 
-Observed Support Holidays
-Monday December 25th
-Monday January 1st
+| Date                     | Holiday                |
+|--------------------------|------------------------|
+| Wednesday, December 25, 2024 | Christmas Day         |
+| Wednesday, January 01, 2025  | New Year's Day        |
 
-If you have an urgent request, please reach out to us via slack in the #it_help channel.
+**If you have an urgent request, please reach out to us via slack in the #it_help channel.**
 
 #### IT Ops
 
@@ -141,33 +142,23 @@ If you have an urgent request, please reach out to us via slack in the #it_help 
 
 #### GitLab IT Team
 
-- Senior Director, IT Operations - [Robert Rea](/handbook/company/team/#rrea1), rrea@gitlab.com, @rrea1
+- Sr. Director. CorpSec Engineering, Identity, IT End User Support [Steve Manzuik](/handbook/company/team/#smanzuik), smanzuik@gitlab.com @smanzuik
 
 - Senior Manager, IT - [Michael Beltran](/handbook/company/team/#mbeee), mbeltran@gitlab.com, @mbeee
 
-- Business Systems Analyst - [Marc Di Sabatino](/handbook/company/team/#marc_disabatino), mdisabatino@gitlab.com, @marc_disabatino
-
-- IT Analyst Americas - Alex Krusiec, akrusiec-ext@gitlab.com, @akrusiec-ext
+- IT Analyst Americas - Alex Krusiec, akrusiec@gitlab.com, @akrusiec
 
 - IT Analyst Americas - [Jeff Ford](/handbook/company/team/#jeffford_), jford@gitlab.com, @jeffford_
 
-- IT Analyst Americas - [Jenny Wong](/handbook/company/team/#jwong6), jwong@gitlab.com, @jwong6
-
-- Senior IT Analyst APAC -  [Steve Ladgrove](/handbook/company/team/#sladgrove), sladgrove@gitlab.com, @sladgrove
+- Senior IT Analyst Americas - [Jenny Wong](/handbook/company/team/#jwong6), jwong@gitlab.com, @jwong6
 
 - IT Analyst APAC -  [Max Hirata](/handbook/company/team/#mhirata-gl), mraetz@gitlab.com, @mhirata-gl
 
-- IT Analyst EMEA - Bruno Ferreira, bferreira-ext@gitlab.com, @bferreira-ext
+- IT Analyst EMEA - Bruno Ferreira, bferreira@gitlab.com, @bruno.n.ferreira
 
-- IT Analyst EMEA - Eoghan Dunne, edunne-ext@gitlab.com, @edunne-ext
+- IT Analyst EMEA - Eoghan Dunne, edunne@gitlab.com, @edunne-gl
 
-- IT Systems Engineer - [Mohammed Al Kobaisy](/handbook/company/team/#malkobaisy), malkobaisy@gitlab.com, @malkobaisy
-
-- Senior IT Systems Engineer -  [Dillon Wheeler](/handbook/company/team/#dillonwheeler), dwheeler@gitlab.com, @dillonwheeler
-
-- Senior IT Systems Engineer -  [Jeff Martin](/handbook/company/team/#jeffersonmartin), jmartin@gitlab.com, @jeffersonmartin
-
-- Senior IT Systems Engineer - [Marcus Whitaker](/handbook/company/team/#mwhitaker), mwhitaker@gitlab.com, @mwhitaker
+- IT Global Logistics - Mic Rohr, mrohr@gitlab.com, @mic_rohr
 
 #### Laptop Wipe Schedules for IT Analysts
 

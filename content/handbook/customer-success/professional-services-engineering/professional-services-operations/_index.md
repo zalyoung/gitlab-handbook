@@ -136,7 +136,7 @@ The PM sends out the request for acceptance to the customer and then updates the
 
 Please note only the **top level** milestone fields should be updated. The sub activities within the milestone should **not** be updated.
 
-![fprevenuerelease](fprevenuerelease.png)
+![fprevenuerelease](/images/customer-success/professional-services-engineering/professional-services-operations/fprevenuerelease.png)
 
 ## Project Coordination- Training
 
@@ -152,15 +152,10 @@ PSEs or Technical Instructors who deliver GitLab Education Services instructor-l
 
 1. During the training planning meeting, be sure to discuss and document all of the event logistics listed in the [Training Event Plan Template](https://docs.google.com/document/d/1huNauyfhFPvLCuo-9T7Ol3FtBDYowYxiP_T5ItP2FN4/edit?usp=sharing). Professional Services Operations will create a draft of the Training Event Plan prior to the meeting and update the document during the training planning meeting.
    - During the training planning meeting, the course outline and system requirements pages below are useful to use to review training logistics, topics, teleconferencing, and system requirements.
-      - [GitLab with Git Fundamentals course outline](https://university.gitlab.com/pages/gitlab-fundamentals-training)
-      - [GitLab CI/CD course outline](https://university.gitlab.com/pages/ci-cd-training)
-      - [GitLab Agile Portfolio Management course outline](https://university.gitlab.com/pages/agile-training)
-      - [GitLab Security Essentials course outline](https://university.gitlab.com/pages/security-training)
-      - [GitLab System Administration course outline](https://university.gitlab.com/pages/system-admin-training)
-      - [GitLab Duo Principles course outline](https://university.gitlab.com/pages/duo-training)
+      - Refer to the [Education Services handbook page](https://about.gitlab.com/services/education/) for the complete list of Instructor-Led Training offerings.
       - [System Requirements](https://university.gitlab.com/pages/gitlab-ilt-sysreq)
 
-1. Professional Services Operations will set up a Zoom Meeting or Webinar session for each session using [these set up instructions](/handbook/customer-success/professional-services-engineering/remote-training-session-setup/) and add the registration link(s) to the issue. You will receive an email message with your unique link to join the Zoom Meeting or Webinar session. Make sure to locate the Zoom information within the email message and familiarize yourself with the Zoom functionality. Here is a useful Zoom article for [Managing Attendees and Panelists in a Webinar](https://support.zoom.us/hc/en-us/articles/115004834466-Managing-attendees-and-panelists-in-a-webinar). Depending on your Zoom set up, you may want to log into https://zoom.us, go to Join a Meeting, and enter the meeting ID/webinar ID to start the Zoom session.
+1. Professional Services Operations will set up a Zoom Meeting or Webinar session for each session using [these set up instructions](/handbook/customer-success/professional-services-engineering/remote-training-session-setup/) and add the registration link(s) to the issue. You will receive an email message with your unique link to join the Zoom Meeting or Webinar session. Make sure to locate the Zoom information within the email message and familiarize yourself with the Zoom functionality. Here is a useful Zoom article for [Managing Attendees and Panelists in a Webinar](https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0063276). Depending on your Zoom set up, you may want to log into https://zoom.us, go to Join a Meeting, and enter the meeting ID/webinar ID to start the Zoom session.
 
 1. At least 2 weeks prior to the training session, Professional Services Operations will email the session registration link(s) to the customer, asking them to send the link(s) to each of the employees whom they want to attend the session(s). When each person registers, they will receive an automated confirmation email with a Zoom Meeting or Webinar join link unique to each person, along with a link to add the session to their calendar.
 
@@ -180,7 +175,7 @@ PSEs or Technical Instructors who deliver GitLab Education Services instructor-l
 
 ##### Training lab pre-course instructor workflow
 
-PS uses the [GitLab Lab Environment](http://gitlabdemo.com/) as the standard environment for hands-on course lab activities and hands-on certification assessments. Follow these steps to set up your course attendees for lab access.
+PS uses the [GitLab Lab Environment](https://gitlabdemo.com/) as the standard environment for hands-on course lab activities and hands-on certification assessments. Follow these steps to set up your course attendees for lab access.
 
 **1. GitLab lab environment invitation codes**
 
@@ -237,7 +232,7 @@ If required per the project SOW, Professional Services Operations sends the requ
 - Update Sign Off received, when training is complete, acceptance is received, or Passive Acceptance is reached and add the class roster or PDF email of acceptance to the Milestone
 - Update if Passive Acceptance has been utilized for sign off
 
-![trainingrelease](trainingrelease.png)
+![trainingrelease](/images/customer-success/professional-services-engineering/professional-services-operations/trainingrelease.png)
 
 ---
 
@@ -285,7 +280,8 @@ Accurate time tracking records of hours is essential to ensure revenue can be re
 - Billable hours represent work hours that a staff member reports as being aligned to a specific SOW. The format for daily time tracking for each team member is shown below, and is reviewed weekly by PS Operations and Manager
 - Hours for PTO, Holidays and Family and Friends day are no longer required to be submitted in the weekly time sheet
 - If a team member did not work the time allocated for the week, then hours would be added to the PTO feature in Kantata
-- Notes are required for the PS Time Tracking Non Credit projects only, not on customer projects
+- Notes are not required for the PS Time Tracking - Non Creditable project
+- Notes may be required for customer projects, please confirm with your Project/Program Manager before submitting time
 
   - PTO should be submitted in the time off feature in Kantata, and also follow the company guidelines, [time off process](/handbook/people-group/paid-time-off/#a-gitlab-team-members-guide-to-time-off)
   - Holidays along with Family and Friends day are scheduled on the Kantata calendar
@@ -297,9 +293,9 @@ Accurate time tracking records of hours is essential to ensure revenue can be re
 
 ****Kantata Internal Projects****
 
-Internal projects are set up to track internal time that is not customer project related. Below is the project name along with tasks and examples.
+Internal projects are set up to track internal time that is not customer project related. Below is the project link along with tasks and examples.
 
-- [PS Time Tracking Non- Creditable](https://gitlab.mavenlink.com/workspaces/34595955/?tab=project-workspace)
+- [PS Time Tracking - Non Creditable](https://gitlab.mavenlink.com/workspaces/34595955/?tab=project-workspace)
 
 ****Customer consulting projects****
 

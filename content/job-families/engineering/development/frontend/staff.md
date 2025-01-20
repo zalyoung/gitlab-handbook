@@ -9,7 +9,7 @@ Frontend Engineers at GitLab work on our product. This includes both the open so
 - Develop features and improvements to the GitLab product in a secure, well-tested, and performant way
 - Work with Product Management and other stakeholders (Backend, UX, etc.) to iterate on new features within the GitLab product.
 - Craft code that meets our internal standards for style, maintainability, and best practices for a high-scale web environment. Maintain and advocate for these standards through code review.
-- Consistently ship small features and improvements with minimal guidance and support from other team members. Collaborate with the team on larger projects.
+- Consistently ship large features and improvements with minimal guidance and support from other team members. Collaborate with the team on larger projects.
 - Help improve the overall experience of our product through improving the quality of the Frontend features both in your [group](/handbook/product/categories/#hierarchy) and features that benefit other groups.
 - Help identify areas of improvements in the code base, both specific to your [group](/handbook/product/categories/#hierarchy) and outside your group (e.g. component library) and help contribute to make it better
 - Learn, collaborate, and teach other Frontend Engineers. Everyone can contribute something new to the team regardless of how long they've been in the industry.
@@ -23,7 +23,6 @@ Frontend Engineers at GitLab work on our product. This includes both the open so
 - Proactively seeks out difficult impediments to our efficiency as a team ("technical debt"), propose and implement solutions that will enable the entire team to iterate faster
 - Represent GitLab and its values in public communication around broad initiatives, specific projects, and community contributions. Interact with customers and other external stakeholders as a consultant and spokesperson for the work of your team.
 - Provide mentorship for all Engineers on your team to help them grow in their technical responsibilities and remove blockers.
-- Consistently ship large features and improvements with minimal guidance and support from other team members. Collaborate with the team on larger projects.
 - Participate in the [Incident Management on-call rotation](/handbook/engineering/infrastructure/incident-management/#incident-manager-responsibilities) to help ensure the availability goals for GitLab.com are met, by working with reliability engineers and development team members.
 
 ## Requirements
@@ -69,7 +68,6 @@ A Senior Frontend Engineer may want to pursue the engineering management track a
 - [Intermediate](/job-families/engineering/development/frontend/#intermediate-frontend-engineer)
 - [Senior](/job-families/engineering/development/frontend/#senior-frontend-engineer)
 - Staff
-- [Frontend Engineering Manager](/job-families/engineering/development/frontend/manager/)
 
 ## Job Grade
 

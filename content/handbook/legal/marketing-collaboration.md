@@ -40,7 +40,7 @@ Note: Trademarks aren't just words.  As mentioned above, trademarks can be symbo
 - **Sounds**  NBC trademarked the chimes that you hear during intermissions. Intel has a trademarked sound.
 - **Shapes** One of the most famous non-word trademarks is the shape of a Coke bottle.  Once you start getting into how something looks, it is called trade dress. Trade dress is a fancy term for trademarked product presentation.
 
-Marketing owns GitLab's [Brand Guidelines](/handbook/marketing/brand-and-product-marketing/brand/brand-activation/brand-standards/).
+Marketing owns GitLab's [Brand Guidelines](https://design.gitlab.com/brand-overview/resources/).
 
 ### Third-party use of GitLab trademarks on marketing materials
 
@@ -98,7 +98,7 @@ The following explanations will help you fill out the template completely. This 
 - **Social Media Platforms:** Social media platforms such as Twitter, Facebook, Instagram and LinkedIn have their own rules covering promotions on their platforms.
 - **Raffles.** Please avoid using the term "raffle", as raffles are a type of lottery whereby the participants pay money to purchase a ticket for the opportunity to be entered into a drawing. Raffles are normally conducted for charitable purposes and differ from a traditional sweepstakes, where participants can enter without making a purchase and must be able to enter for free.
 
-- **Hosting Country.** Because [laws vary based on locale](https://www.dlapiperintelligence.com/prizepromotions/insight/index.html?t=), it is necessary for Legal to know as much as possible about where the promotional game will take place. (In the case of remote events, please tell us the intended audience. For example, it may be targeted to EMEA users/prospects. Legal will then review our internal guidelines to determine which country we will designate as the host country.)
+- **Hosting Country.** Because [laws vary based on locale](https://web.archive.org/web/20201205060930/https://www.dlapiperintelligence.com/prizepromotions/insight/index.html), it is necessary for Legal to know as much as possible about where the promotional game will take place. (In the case of remote events, please tell us the intended audience. For example, it may be targeted to EMEA users/prospects. Legal will then review our internal guidelines to determine which country we will designate as the host country.)
 
 - **Promotional Game Description.** Various countries have certain requirements regarding what information must be communicated in the promotional game descriptions. While you may make small edits to your description throughout the process of developing your promotional game, it is important for Legal to know what communication to entrants will look like so we can ensure that it complies with local law. The game description should be clear regarding what steps the consumer needs to take and what they need to do in order to participate.
 

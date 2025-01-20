@@ -170,10 +170,6 @@ The Technical Writer:
   - Add a link to the board or filter that shows the planned documentation and UI text work for the upcoming milestone.
   - Confirm that the group PM or EM is aware of the planned work.
 
-For stages that have a [stage lead](#stage-leads-experiment) (experiment):
-
-- Technical writers (or PMs) apply a `tw-lead` label to any issues that have are likely to have cross-group or cross-stage impact on the documentation, and where additional review or assistance is likely to be required. The label can be used to filter assignments in an issue board.
-
 #### Collaboration
 
 By default, the developer will work on documentation changes independently, but
@@ -416,7 +412,6 @@ If you do start with an issue rather than an MR, use the [Documentation template
 - `type::maintenance`
 - `maintenance::refactor`
 - `docs-only`
-- `docs::fix` or `docs::improvement`
 - `Stage name`
 - `Group name`
 
@@ -438,7 +433,7 @@ Routine review and triage of documentation feedback and improvement issues for y
 
 #### Prerequisites
 
-- An issue triage board for each group that you are the assigned technical writer for. If you don't have an issue triage board for your group, set one up called `Docs only backlog triage - group name`. See an [example board](https://gitlab.com/gitlab-org/gitlab/-/boards/5285286?not%5Blabel_name%5D%5B%5D=type%3A%3Afeature&amp;not%5Blabel_name%5D%5B%5D=type%3A%3Abug&label_name%5B%5D=documentation&label_name%5B%5D=group%3A%3Aproject%20management) for the `Project Management` group.
+- An issue triage board for each group that you are the assigned technical writer for. If you don't have an issue triage board for your group, set one up called `Docs only backlog triage - group name`. See an [example board](https://gitlab.com/gitlab-org/gitlab/-/boards/8944610?not[label_name][]=type%3A%3Afeature&not[label_name][]=type%3A%3Abug&label_name[]=documentation&label_name[]=group%3A%3Aproject%20management) for the `Project Management` group.
   - The filter criteria should include **Label=**`documentation`, **Label=**`group::groupname`, **Label!=**`type::feature`, **Label!=**`type:bug`.
   - In **Edit board**, make sure `Show the Open list` is selected.
   - On the issue board, select **Create list**, and set Label to `tw:triaged`.
@@ -450,13 +445,13 @@ To review and triage documentation feedback and improvement issues for your grou
 1. Aim to keep the list of open, untriaged issues at **<10**.
 1. Share the triaged list with the group and group PM.
 
-## Stage leads (experiment)
+## Stage leads
 
 {{% alert title="Note" color="primary" %}}
-This section outlines a process that we are implementing in the Technical Writing team. We plan to experiment with stage leads in Q1, Q2, and Q3 of FY2025. This process is subject to change.
+This section outlines a process that we experimented with in Q1 and Q2 of FY2025, and rolled out more widely in Q3. This process is subject to change.
 {{% /alert %}}
 
-Some Technical Writers are assigned as *stage leads* for a given DevOps stage.
+Some Technical Writers are assigned as *stage leads* for a given [DevOps stage](/handbook/product/ux/technical-writing/#stage-leads).
 
 Stage leads might work across an entire stage, or a subset of groups in the stage.
 They support other Technical Writers assigned to groups in the stage.
@@ -465,28 +460,16 @@ Stage leads:
 
 - Assume the same [responsibilities](/job-families/product/technical-writer/#responsibilities) as Technical Writers, but with a more targeted focus on proactively creating and improving
 documentation for their assigned stage.
-- Spend approximately 30% of their time supporting technical writers in the stage to work on issues and review merge requests authored by developers for [new features and enhancements](#documentation-for-a-product-change). Issues and merge requests where they support other technical writers are labeled `tw-lead`.
-  The remaining merge requests are reviewed by the supporting Technical Writers assigned to the groups in the stage.
-- Spend the remainder of their time creating and refining content to address documentation needs and gaps for their assigned stage.
-  For example, writing tutorials, creating use-based content, restructuring existing content, working on the information architecture, and so on.
-- Create a quarterly planning issue to outline the content gaps and improvements that they aim to address over three milestones.
+- Spend approximately 30% of their time on issues and merge requests reviews authored by developers for [new features and enhancements](#documentation-for-a-product-change) for their assigned groups.
+- Spend the remainder of their time:
+  - Creating and refining content to address documentation needs and gaps for their assigned **stage**.
+    For example, writing tutorials and use case-based content, restructuring existing content, working on the information architecture, and so on.
+  - Supporting other writers in the stage to contribute to documentation improvements.
+- Create a quarterly planning issue to outline the content gaps and improvements that they aim to address over three milestones, for example, [FY25Q3 Stage lead planning issue: Secure](https://gitlab.com/gitlab-org/technical-writing/-/issues/1067).
+- Collaborate with other stage leads on documentation improvements.
 
 For [documentation improvements](#documentation-feedback-and-improvements), stage leads are responsible for creating an
 issue board to track ongoing and planned documentation enhancements and additions.
-
-## Topic types and team progress
-
-The Technical Writing team is always working to improve the quality of the documentation.
-Specifically, we are working to implement [topic types](https://docs.gitlab.com/ee/development/documentation/topic_types/).
-
-We are currently tracking updates to the [**Use GitLab**](https://docs.gitlab.com/ee/user/)
-section of the global navigation.
-
-| Date           | # of pages done | # of pages total | Percent complete |
-|----------------|-----------------|------------------|------------------|
-| September 2023 | 259             | 658              | 39 %             |
-| October 2022   | 245             | 468              | 52 %             |
-| April 2022     | 161             | 420              | 38 %             |
 
 ## Hackathons
 
@@ -536,47 +519,46 @@ When working with issues or merge requests, the Technical Writing team uses
 [labels](https://docs.gitlab.com/ee/user/project/labels.html) to describe those
 issues' and merge requests' attributes (including the types of work being done).
 
-The information about labels as described in this section supplements the
-contents of the [Issues workflow](https://gitlab.com/gitlab-org/gitlab/blob/master/doc/development/contributing/issue_workflow.md)
-page. To view a usage description of each of the labels in this section, see
-[Labels](https://gitlab.com/groups/gitlab-org/-/labels?utf8=%E2%9C%93&subscribed=&search=docs%3A%3A)
-in the GitLab interface.
+This information about labels supplements the [Issues workflow](https://gitlab.com/gitlab-org/gitlab/blob/master/doc/development/contributing/issue_workflow.md)
+page and the steps for [documentation feedback and improvements](#documentation-feedback-and-improvements).
 
 ### Usage
 
 Any issue or merge request for which a Technical Writer provides a measurable amount of work on (including content creation and reviews) *must* include the `Technical Writing` label.
 
-After adding the `Technical Writing` label, we want to classify the type of effort we're contributing to the issue or merge request by adding an additional label from the following list:
+To further classify the type of effort, include one or more of the following labels:
 
-- [`documentation`](https://gitlab.com/groups/gitlab-org/-/labels?utf8=%E2%9C%93&subscribed=&search=documentation) - Use this label if files in the `/doc` directory were added, changed, or removed.
-- [`UI text`](https://gitlab.com/groups/gitlab-org/-/labels?utf8=%E2%9C%93&subscribed=&search=ui+text) - If an issue has this label:
-  - If the issue describes a new feature, add the [`non-SUS`](https://gitlab.com/groups/gitlab-org/-/labels?subscribed=&search=non-sus) label and the `feature::addition` label.
-  - If the issue is for an existing feature or has the `feature::enhancement` label, add a severity label (it should already have the `SUS` label applied).
-- [`global nav item`](https://gitlab.com/groups/gitlab-org/-/labels?utf8=%E2%9C%93&subscribed=&search=global+nav+item)
-- [`release post item`](https://gitlab.com/groups/gitlab-org/-/labels?utf8=%E2%9C%93&subscribed=&search=release+post+item)
-- [`tw-style`](https://gitlab.com/groups/gitlab-org/-/labels?utf8=%E2%9C%93&subscribed=&search=tw-)
-- [`tw-testing`](https://gitlab.com/groups/gitlab-org/-/labels?utf8=%E2%9C%93&subscribed=&search=tw-)
-- [`development guidelines`](https://gitlab.com/gitlab-org/gitlab/-/labels?utf8=%E2%9C%93&subscribed=&search=development+guidelines) - See the [Developer documentation](https://docs.gitlab.com/ee/development/#development-guidelines-review) for information about updating pages in the `/developer` directory.
-- [`docs-technical-debt`](https://gitlab.com/groups/gitlab-org/-/labels?utf8=%E2%9C%93&subscribed=&search=docs-technical-debt)
-- `handbook`
-- [`Technical Writing Leadership`](https://gitlab.com/gitlab-org/gitlab/-/labels?subscribed=&search=tech+writing+leadership)
-- [`docs-channel`](https://gitlab.com/groups/gitlab-org/-/labels?subscribed=&search=docs-channel) - Technical Writers use this label if they pick up an MR or issue from the `#docs` or `#tw-team` Slack channels, or from the roulette, *and* it's outside of their assigned groups. Usage of this label is *optional*.
-- [`L10n-docs`](https://gitlab.com/groups/gitlab-org/-/labels?subscribed=&sort=relevance&search=L10n-documentation#) - Localization issue, MR, or epic that impacts the workflows of the Technical Writing team or the docs.gitlab.com site and infrastructure. Can be used in combination with `Technical Writing` to show Tech Writing team input into a `docs-localization` item.
-- [`Category:Docs Site`](https://gitlab.com/groups/gitlab-org/-/labels?subscribed=&sort=relevance&search=Category%3ADocs+Site) - Issues related to the Documentation website infrastructure or code. This is not needed for issues related to the documentation itself. Issues with this label are included on the [Docs Workflow issue board](https://gitlab.com/groups/gitlab-org/-/boards/4340643?label_name[]=Category%3ADocs%20Site).
+- [`documentation`](https://gitlab.com/groups/gitlab-org/-/labels?utf8=%E2%9C%93&subscribed=&search=documentation): Files in the `/doc` directory.
+- [`UI text`](https://gitlab.com/groups/gitlab-org/-/labels?utf8=%E2%9C%93&subscribed=&search=ui+text): Any user-facing text, such as UI text and error messages.
+- [`global nav item`](https://gitlab.com/groups/gitlab-org/-/labels?utf8=%E2%9C%93&subscribed=&search=global+nav+item): Left nav of the docs site. Used in the `gitlab-docs` project.
+- [`release post item`](https://gitlab.com/groups/gitlab-org/-/labels?utf8=%E2%9C%93&subscribed=&search=release+post+item): Release post items.
+- [`tw-style`](https://gitlab.com/groups/gitlab-org/-/labels?utf8=%E2%9C%93&subscribed=&search=tw-): Style standards for documentation and UI text.
+- [`development guidelines`](https://gitlab.com/gitlab-org/gitlab/-/labels?utf8=%E2%9C%93&subscribed=&search=development+guidelines): Files in the `/developer` directory.
+- [`Technical Writing Leadership`](https://gitlab.com/gitlab-org/gitlab/-/labels?subscribed=&search=tech+writing+leadership): Work driven or owned by the Technical Writing leadership team, such as OKRs.
+- [`L10N-docs`](https://gitlab.com/groups/gitlab-org/-/labels?subscribed=&sort=relevance&search=l10n-docs):  Localization issue, MR, or epic that impacts the workflows of the Technical Writing team or the docs.gitlab.com site and infrastructure.
+- [`Category:Docs Site`](https://gitlab.com/groups/gitlab-org/-/labels?subscribed=&sort=relevance&search=Category%3ADocs+Site): Documentation website infrastructure or code. This is not needed for issues related to the documentation itself. Issues with this label are included on the [Docs Workflow issue board](https://gitlab.com/groups/gitlab-org/-/boards/4340643?label_name[]=Category%3ADocs%20Site).
 
-Depending on the issue or merge request, you may include one or more of the preceding labels with the issue or merge request, depending on its contents. There may be occasions when *none* of the preceding labels apply to the issue or merge request; in that case, having only the `Technical Writing` label is enough.
+There are a number of other documentation-related labels, such as `vale` and `docs-channel`. These labels are optional.
 
-### Documentation-specific type labels
+### Type labels
 
-If an issue/merge request has both the `Technical Writing` and `documentation`
-labels, Technical Writers should add one of the following
-[scoped labels](https://gitlab.com/groups/gitlab-org/-/labels?utf8=✓&subscribed=&search=docs%3A%3A)
-to the issue/merge request on which they work:
+All issues and merge requests must be classified into one of three work types: Bug, Feature, or Maintenance.
+Add one of the following labels to an issue or merge request:
 
-- `docs::feature`
-- `docs::fix`
-- `docs::improvement`
-- `docs::non-content`
+- `type::feature`
+- `type::bug`
+- `type::maintenance`
+
+For more information, see [Work Type Classification](/handbook/product/groups/product-analysis/engineering/metrics/#work-type-classification).
+
+The majority of documentation work uses the `type::maintenance` label.
+You must also apply one these subtype labels to further classify the type of maintenance work:
+
+- `maintenance::refactor`: Edits and improvements of existing documentation.
+- `maintenance::workflow`: Documentation changes that are not visible to readers, like linting and tooling updates, and metadata changes.
+
+For example, if you open a merge request to refactor a page for CTRT, apply the `type::maintenance` and `maintenance::refactor` labels.
+If you open a merge request to modify the metadata, apply the `type::maintenance` and `maintenance::workflow` labels.
 
 ### Workflow labels
 

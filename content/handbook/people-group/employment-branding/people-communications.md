@@ -85,7 +85,19 @@ We use a variety of channels to communicate with various audiences within GitLab
 
 ## GitLab Assembly
 
-GitLab Assembly is our quarterly all-company meeting and is an opportunity for team members to hear from leaders and teams across the company. Assembly provides a holistic view of top priorities, customer stories and data, cross-collaboration, department deep dives, and other team member stories to bolster team member engagement, shared visibility, and company connectedness. Assembly is a 50-minute meeting consisting of ~35 minutes of content and ~15 minutes of Q&A and is scheduled to take place late in the second month or early in the third month of each quarter (January, April, June, October). To give global team members an opportunity to join live, there will be two live-hosted Assembly events each quarter, with the first event at 5pm PT (12am UTC) and the second event the next day at 8am PT (3pm UTC).
+GitLab Assembly is our quarterly all-company meeting and is an opportunity for team members to hear from leaders and teams across the company. Assembly provides a holistic view of top priorities, customer stories and data, cross-collaboration, department deep dives, and other team member stories to bolster team member engagement, shared visibility, and company connectedness. Assembly is a 50-minute meeting consisting of ~35 minutes of content and ~15 minutes of Q&A and is scheduled to take place late in the second month or early in the third month of each quarter. To give global team members an opportunity to join live, there will be two live-hosted Assembly events each quarter, with the first event at usually scheduled 5pm PT (12am UTC) and the second event the next day at 8am PT (3pm UTC). However some quarters both sessions will take place on the same day.
+
+The FY25 Assembly dates are:
+FY25-Q1: No Assembly due to GitLab Summit
+FY25-Q2: Tuesday, 2024-06-18, at 8am PT and 5pm PT
+FY25-Q3: Thursday,2024-10-03, at 8am PT and 5pm PT
+FY25-Q4: Tuesday, 2024-12-17, at 5pm PT and Wednesday, 2024-12-18 at 8am PT
+
+The tentative FY26 Assembly dates are:
+FY26-Q1: Tuesday, 2025-03-18, at 5pm PT and Wednesday, 2024-03-19, at 8am PT
+FY26-Q2: TBD
+FY26-Q3: TBD
+FY26-Q4: TBD
 
 To produce each quarterly Assembly, the People Communications & Engagement DRI:
 
@@ -188,7 +200,7 @@ We have a runbook for internal announcements that could lead to heated conversat
    1. When the message will be optimally be shared
    1. Main messages to be communicated and message content
    1. An activity and communications timeline that includes key participants and their responsibilities. It will specify any planned follow up in the minutes, hours, and weeks after the initial communications. This should include:
-      1. Who will be on call to respond in Slack or other channels immediately after an announcement, including coordinated leadership participation. Key leaders, including members of E-Group and often members of [VP-Directs Group](/content/handbook/company/structure.md#vp-directs), should be aware of when an announcement will happen and the response expectations for them. For example, if there is a contentious Slack announcement, a designated group of people should be monitoring the thread and responding immediately after the announcement.
+      1. Who will be on call to respond in Slack or other channels immediately after an announcement, including coordinated leadership participation. Key leaders, including members of E-Group and often members of [VP-Directs Group](/handbook/company/structure.md#vp-directs), should be aware of when an announcement will happen and the response expectations for them. For example, if there is a contentious Slack announcement, a designated group of people should be monitoring the thread and responding immediately after the announcement.
       1. Any AMAs or other designated plans for discussion or follow up communications
    1. Who is required to sign-off on the message and plan
    1. The desired timeline for sign-off

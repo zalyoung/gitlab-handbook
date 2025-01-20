@@ -39,7 +39,7 @@ For deeper dives on this topic, read our guides below.
 | Ability to [optimize location](https://www.fastcompany.com/90548691/extremely-transparent-and-incredibly-remote-gitlabs-radical-vision-for-the-future-of-work) for something other than a commutable distance to an office |            Yes             |                                    Limited |
 | Avoid [physiological stress of open-plan offices](https://theconversation.com/open-plan-office-noise-increases-stress-and-worsens-mood-weve-measured-the-effects-162843) |            Yes             |                                    Depends |
 | [Equal footing by default](how-to-work-remote-first/) on access to executives and senior leaders |            Yes             |                                         No |
-| Praise and promotion based on [work output](/handbook/values/#measure-results-not-hours) vs. "face time" with the right people |            Yes             |                                         No |
+| Praise and promotion based on [work output](/handbook/values/#measure-impact-not-activity) vs. "face time" with the right people |            Yes             |                                         No |
 | IT/support applied to everyone equally                       |            Yes             |                                         No |
 | All team members use [digital tools to work, collaborate, and communicate](https://about.gitlab.com/blog/2019/06/18/day-in-the-life-remote-worker/) |            Yes             |                                         No |
 | Freedom from manually chasing information shared during siloed, in-person meetings |            Yes             |                                         No |
@@ -64,7 +64,6 @@ For deeper dives on this topic, read our guides below.
 
 ## Assessing the remote workplace experience
 
-1. [RemoteRated](https://remoterated.com/) seeks to rate and rank organizations based on their remote fluency, cutting through what's advertised and focusing on *actual* team member experience.
 1. While [Glassdoor](https://www.glassdoor.com/) does not yet offer a dedicated `Remote Experience` filter in reviews, you are able to sort by `COVID-19 Related`. This filter increases the chances of reading reviews relevant to one's remote work experience at an organization. It's also helpful to search for `remote` within an organization's Review section. Glassdoor also offers [remote-related content on its blog](https://www.glassdoor.com/blog/search/remote%20work/).
 
 {{% include "includes/is_this_advice_any_good_remote.md" %}}

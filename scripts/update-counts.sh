@@ -7,20 +7,18 @@ mr_count () {
     echo Performing page count on the Handbook...
     PAGECOUNT=$(find content/handbook -type f -name "*.md" | LC_ALL=C wc -l)
     echo Updating counts for the handbook.
-    COUNT_FILE=csv/handbook-count.csv
+    COUNT_FILE=assets/csv/handbook-count.csv
     # Append latest data
     echo $TODAY,$WORDCOUNT,$PAGECOUNT,Live Count >> $COUNT_FILE
 }
 
 clone_repo () {
-    git config --global user.email "${GIT_USER_EMAIL:-$CI_EMAIL}"
-    git config --global user.name "${GIT_USER_NAME:-$CI_USERNAME}"
-    git clone https://$PROJECT_USERNAME:$PROJECT_TOKEN@gitlab.com/gitlab-com/content-sites/handbook.git /tmp/handbook
+    git clone https://bot:$GITLAB_TOKEN@gitlab.com/gitlab-com/content-sites/handbook.git /tmp/handbook
     cd /tmp/handbook
 }
 
 quarterly_count () {
-    COUNT_FILE=/tmp/handbook/csv/handbook-count.csv
+    COUNT_FILE=/tmp/handbook/assets/csv/handbook-count.csv
     echo Performing quarterly word count on the Handbook...
     WORDCOUNT=$(find /tmp/handbook/content/handbook -type f -name "*.md"  -exec cat {} + | LC_ALL=C wc -w)
     echo Performing quarterly page count on the Handbook...
@@ -29,33 +27,21 @@ quarterly_count () {
     echo $TODAY,$WORDCOUNT,$PAGECOUNT, >> $COUNT_FILE
 }
 
-legacy_handbook_count () {
-    echo Starting www-gitlab-com quartly count
-    COUNT_FILE=/tmp/handbook/csv/about-count.csv
-    REPO="https://gitlab.com/gitlab-com/www-gitlab-com.git"
-    # Clone legacy repo
-    echo "Cloning the www-gitlab-com repo"
-    git clone $REPO /tmp/www-gitlab-com
-    echo Performing word count...
-    LEGACY_WORD_COUNT=$(find /tmp/www-gitlab-com/sites/handbook/source/handbook -type f \( -name "*.md" -or -name "*.md.erb" \) -exec cat {} + | LC_ALL=C wc -w)
-    echo Performing page count...
-    LEGACY_PAGE_COUNT=$(grep -l -r "\- TOC" /tmp/www-gitlab-com/* | wc -l)
-    echo $TODAY,$LEGACY_WORD_COUNT,$LEGACY_PAGE_COUNT, >> $COUNT_FILE
-    echo www-gitlab-com quarterly count complete.
-}
-
 push_to_main () {
     cd /tmp/handbook
-    git add csv/about-count.csv
-    git add csv/handbook-count.csv
+    git config --global user.email "$GITLAB_USER_EMAIL"
+    git config --global user.name "$GITLAB_USER_NAME"
+    branch_name="update-counts-${TODAY}"
+    git checkout -b "$branch_name"
+    git add assets/csv/about-count.csv
+    git add assets/csv/handbook-count.csv
     git commit -m "Update handbook word and page counts"
-    git push origin main
+    git push origin "$branch_name" -o merge_request.create -o merge_request.title="$TODAY Update handbook word and page counts" -o merge_request.description="Performs the quarterly handbook word and page counts" -o merge_request.label="Handbook::Operations" -o merge_request.label="type::maintenance" -o merge_request.assign="$GITLAB_USER_LOGIN"
 }
 
-if [ "$RUN_TYPE" = "quarterly" ]; then
+if [ "$RUN_TYPE" = "count-update" ]; then
     clone_repo
     quarterly_count
-    legacy_handbook_count
     push_to_main
 else
     mr_count

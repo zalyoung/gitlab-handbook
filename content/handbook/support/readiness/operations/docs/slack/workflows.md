@@ -13,7 +13,7 @@ left-hand side of your Slack window (the `More` option) and select
 From this page, you will want to click `Workflow builder` button on the
 left-hand side of the page, which should make a new window pop-up.
 
-![Accessing Slack workflow builder](/handbook/support/readiness/operations/images/slack_workflows1.gif)
+![Accessing Slack workflow builder](/images/support/readiness/operations/slack_workflows1.gif)
 
 Within the new window, click the green `Create Workflow` button to start the
 process.
@@ -403,7 +403,6 @@ Located at
    - Emoji reaction:
      - :loose_lips_sink_ships:
    - Channels:
-     - #feed_zd-federal
      - #spt_us-gov-evening-overnight
      - #spt_us-government
 1. Reply to a message in thread

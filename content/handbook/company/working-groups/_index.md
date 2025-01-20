@@ -10,21 +10,6 @@ Like all groups at GitLab, a [working group](https://en.wikipedia.org/wiki/Worki
 
 Working groups are for important work that needs to be done quickly, when asynchronous work would be too slow.
 
-### CEO Handbook Learning Discussion on Working Groups
-
-GitLab's CEO, Sid, and Chief of Staff to the CEO, Stella, and the Learning & Development team discuss Working Groups in detail during a [CEO handbook learning session](/handbook/people-group/learning-and-development/learning-initiatives/#ceo-handbook-learning-sessions).
-
-Topics covered include:
-
-1. What is a working group
-1. When to start a working group
-1. Difference between project managers and working groups.
-    - Note: GitLab does not internally have project managers. Individual team members should have agency and accountability. We don't want someone who just tracks the status of work and makes updates. We want people to do this directly, and we want the [DRI](/handbook/people-group/directly-responsible-individuals/) to own the process and outcome. This supports accountability. We sometimes have project managers when interacting with external organizations, because accountability is harder when working with external parties.
-1. Lessons learned from previous working groups
-1. Why and how working groups support cross-functional projects
-
-{{< youtube "tE3d8WUSL30" >}}
-
 ## Roles and Responsibilities
 
 ### Required Roles
@@ -202,14 +187,16 @@ If you are unable to attend the existing working group meeting due to time diffe
 
 1. [Automotive Development]({{< ref "automotive-development" >}})
 1. [Customer Use Case Adoption]({{< ref "customer-use-case-adoption" >}})
+1. [Feature Testing]({{< ref "feature-testing" >}})
 1. [FedRAMP Execution]({{< ref "fedramp-execution" >}})
 1. [GCP Partnership]({{< ref "gcp-partnership" >}})
-1. [GitLab.com Disaster Recovery]({{< ref "disaster-recovery" >}})
+1. [Keep around references]({{< ref "keep-around-refs" >}}))
 1. [HPT in Product Division](/handbook/company/working-groups/hpt-product-division/)
 1. [Product Accessibility]({{< ref "product-accessibility" >}})
+1. [Python Stewardship]({{< ref "python-stewardship" >}})
 1. [Secure Govern Database Decomposition]({{< ref "secure-govern-database-decomposition" >}})
 1. [Software Supply Chain Security]({{< ref "software-supply-chain-security" >}})
-1. [Vue.js 3 Upgrade]({{< ref "vuejs-3-migration" >}})
+1. [Upgrade Improvements]({{< ref "upgrade-improvements" >}})
 
 ## Past Working Groups (alphabetic order)
 
@@ -225,10 +212,10 @@ If you are unable to attend the existing working group meeting due to time diffe
 1. [ClickHouse Datastore]({{< ref "clickhouse-datastore" >}})
 1. [Cloud Licensing](https://gitlab.com/groups/gitlab-com-top-initiatives/-/epics/2)
 1. [Commercial & Licensing]({{< ref "commercial-licensing" >}})
-1. [Continuous Scanning]({{< ref "continuous-scanning" >}})
-1. [Cross Functional Prioritization]({{< ref "cross-functional-prioritization" >}})
 1. [Consumption Add-Ons](https://docs.google.com/presentation/d/1eTH09QZqnazJ4jh-jVGTEYEFA3m6R2jwWuhY5_EtPL4/edit#slide=id.g123a13deda8_0_405)
+1. [Continuous Scanning]({{< ref "continuous-scanning" >}})
 1. [Contributor Growth]({{< ref "contributor-growth" >}})
+1. [Cross Functional Prioritization]({{< ref "cross-functional-prioritization" >}})
 1. [Dashboards]({{< ref "dashboards" >}})
 1. [Database Scalability]({{< ref "database-scalability" >}})
 1. [Demo & Test Data]({{< ref "demo-test-data" >}})
@@ -249,24 +236,26 @@ If you are unable to attend the existing working group meeting due to time diffe
 1. [Frontend Vision]({{< ref "frontend-vision" >}})
 1. [Githost Migration]({{< ref "githost-migration" >}})
 1. [GitLab Administration]({{< ref "administration" >}})
-1. [GitLab.com Cost]({{< ref "gitlab-com-cost" >}})
 1. [GitLab Dedicated]({{< ref "gitlab-dedicated" >}})
+1. [gitlab-ui (CSS and Components)]({{< ref "gitlab-ui" >}})
+1. [GitLab.com Cost]({{< ref "gitlab-com-cost" >}})
+1. [GitLab.com Disaster Recovery]({{< ref "disaster-recovery" >}})
 1. [GitLab.com Revenue]({{< ref "gitlab-com-revenue" >}})
 1. [GitLab.com SAAS Data Pipeline]({{< ref "gitlab-com-saas-data-pipeline" >}})
-1. [gitlab-ui (CSS and Components)]({{< ref "gitlab-ui" >}})
 1. [Government Support Offerings (Internal only)](https://internal.gitlab.com/handbook/company/internal-working-groups/govt-support-offerings/)
 1. [GTM Product Analytics]({{< ref "product-analytics-gtm" >}})
 1. [IACV - Delta ARR]({{< ref "iacv-delta-arr" >}})
 1. [IC Gearing]({{< ref "ic-gearing" >}})
 1. [Improve Ops Quality]({{< ref "improve-ops-quality" >}})
-1. [Internship Pilot]({{< ref "internship-pilot" >}})
 1. [Internal Feature Flag usage]({{< ref "feature-flag-usage" >}})
+1. [Internship Pilot]({{< ref "internship-pilot" >}})
 1. [Isolation]({{< ref "isolation" >}})
 1. [Issue Prioritization Framework]({{< ref "issue-prioritization-framework" >}})
-1. [Learning Experience]({{< ref "learning-experience" >}})
 1. [Leading Organizations]({{< ref "leading-organizations" >}})
+1. [Learning Experience]({{< ref "learning-experience" >}})
 1. [Learning Restructure]({{< ref "learning-restructure" >}})
 1. [Licensing and Transactions Improvements]({{< ref "licensing-transactions-improvements" >}})
+1. [Lighthouse Metric Definitions]({{< ref "lighthouse-metric-definitions" >}})
 1. [Log Aggregation]({{< ref "log-aggregation" >}})
 1. [Logging]({{< ref "logging" >}})
 1. [Maintainership]({{< ref "maintainership" >}})
@@ -278,8 +267,8 @@ If you are unable to attend the existing working group meeting due to time diffe
 1. [Multi-Large]({{< ref "multi-large" >}})
 1. [Next Architecture Workflow]({{< ref "next-architecture-workflow" >}})
 1. [Object Storage]({{< ref "object-storage" >}})
-1. [Pipeline Validation Service Operations]({{< ref "pipeline-validation-service-operations" >}})
 1. [Performance Indicators]({{< ref "performance-indicators" >}})
+1. [Pipeline Validation Service Operations]({{< ref "pipeline-validation-service-operations" >}})
 1. [Product Analytics]({{< ref "product-analytics" >}})
 1. [Product Career Development Framework]({{< ref "product-career-development-framework" >}})
 1. [Product Development Flow]({{< ref "product-development-flow" >}})
@@ -307,8 +296,8 @@ If you are unable to attend the existing working group meeting due to time diffe
 1. [Upstream Diversity]({{< ref "upstream-diversity" >}})
 1. [Usage Reporting](https://gitlab.com/groups/gitlab-com-top-initiatives/-/epics/1)
 1. [User Engagement](https://gitlab.com/groups/gitlab-com/-/epics/1794)
+1. [Vue.js 3 Upgrade]({{< ref "vuejs-3-migration" >}})
 1. [Webpack (Frontend build tooling)]({{< ref "webpack" >}})
-1. [Lighthouse Metric Definitions]({{< ref "lighthouse-metric-definitions" >}})
 
 ## What were Top Cross-Functional Initiatives?
 

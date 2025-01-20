@@ -1,7 +1,7 @@
 ---
 layout: markdown_page
-title: "Secure Govern Decomposition Working Group"
-description: "The charter of this working group is to successfully decompose the Secure/Govern dataset within GitLab"
+title: "Sec DB Decomposition Working Group"
+description: "The charter of this working group is to successfully decompose the Sec dataset within GitLab"
 canonical_path: "/company/team/structure/working-groups/secure-govern-database-decomposition/"
 ---
 
@@ -12,7 +12,7 @@ canonical_path: "/company/team/structure/working-groups/secure-govern-database-d
 | Date Created    | 1 May 2024 |
 | Start Date      | 13 May 2024 |
 | End Date        |  |
-| Slack           | [#wg_secure-govern-database-decomposition](https://gitlab.slack.com/archives/C01NB475VDF) (only accessible from within the company) |
+| Slack           | [#wg_sec-database-decomposition](https://gitlab.slack.com/archives/C01NB475VDF) (only accessible from within the company) |
 | Google Doc      | [Working Group Agenda](https://docs.google.com/document/d/16JxSsh7AleszlsXU8h0Xevk5nZ-if7YJtRPjpwgqhn4/edit) (only accessible from within the company) |
 | Issue Board     | [Epic Dashboard list](https://epic-dashboard-gitlab-org-tenant-scale-group-4aecf10d1d02154641.gitlab.io/epic_13043#only-open) |
 | Meeting Cadence | Weekly on Mondays. Recorded. EMEA and APAC options. |
@@ -21,10 +21,10 @@ canonical_path: "/company/team/structure/working-groups/secure-govern-database-d
 
 The charter of this working group is to:
 
-- Successfully decompose the Secure/Govern datasets to a separate `gitlab_sec` database in order to reduce pressure on the primary GitLab.com DB and assist in future scalability and stability concerns.
+- Successfully decompose the Sec datasets to a separate `gitlab_sec` database in order to reduce pressure on the primary GitLab.com DB and assist in future scalability and stability concerns.
 - Consider the timing, scope, and impact of the decomposition related to prioritization and implementation of additional efforts to support GitLab.com db performance and optimization for related tables - [OKR](https://gitlab.com/gitlab-com/gitlab-OKRs/-/work_items/7863) (GitLab internal)
 - Evaluate the impact of the decomposition on Self-Managed instances regarding feature parity, performance/hardware requirement, improvements for different size of DBs, and admin's effort to support.
-- Provide an effective migration guide and/or tooling to assist Self-Managed instances in the decomposition of their local CI and Secure/Govern databases in alignment with GitLab.com
+- Provide an effective migration guide and/or tooling to assist Self-Managed instances in the decomposition of their local CI and Sec databases in alignment with GitLab.com
 
 ### Objectives
 
@@ -41,7 +41,7 @@ Key results we'd like to achieve within the scope of the working group to ensure
 | Preferred Term | What Do We Mean | Terms Not To Use | Examples |
 |----------------|-----------------|------------------|----------|
 | Cluster | A database cluster is a collection of interconnected database instances that replicate data. | | The PostgreSQL cluster of GitLab.com (managed by Patroni) that hosts the main logical database and consists of the primary database instance along with its read-only replicas. |
-| Decomposition | Feature-owned database tables are on many logical databases on multiple database instances. In terms of GitLab.com, our desired decomposition outcome includes the separation of these instance to different database servers as well. The application manages various operations (ID generation, rebalancing etc.) | Y-Axis, Vertical Sharding | All Secure/Govern tables in separate logical database from Core tables. [Design illustration](https://gitlab.com/groups/gitlab-org/-/epics/5883#design-overview) |
+| Decomposition | Feature-owned database tables are on many logical databases on multiple database instances. In terms of GitLab.com, our desired decomposition outcome includes the separation of these instance to different database servers as well. The application manages various operations (ID generation, rebalancing etc.) | Y-Axis, Vertical Sharding | All Sec tables in separate logical database from Core tables. [Design illustration](https://gitlab.com/groups/gitlab-org/-/epics/5883#design-overview) |
 | Instance | A database instance is comprised of related processes running in the database server. Each instance runs its own set of database processes. | Physical Database | |
 | Logical database  | A logical database groups database objects logically, like schemas and tables. It is available within a database instance and independent of other logical databases. | Database | GitLab's rails database.  |
 | Node | Equivalent to a Database Server in the context of this working group. | Physical Database | |
@@ -55,27 +55,27 @@ Key results we'd like to achieve within the scope of the working group to ensure
 | Server | A database server is a physical or virtual system running an operating system that is running one or more database instances. | Physical Database | |
 | Table | A database table is a collection of tuples having a common data structure (the same number of attributes, in the same order, having the same name and type per position) ([source](https://www.postgresql.org/docs/13/glossary.html#GLOSSARY-TABLE)) | | |
 | Table Partitioning | A table that contains a part of the data of a partitioned table (horizontal slice). ([source](https://www.postgresql.org/docs/12/ddl-partitioning.html))| Partition | |
-| Dataset | A set of tables and their contained data that is contained within a logical database. | | The Secure/Govern Dataset includes all tables related to GitLab's security features, including but not limited to vulnerability and dependency tracking. |
-| Featureset | A set of features associated with some kind of concept within GitLab for ease of reference. | | Core, Secure/Govern |
+| Dataset | A set of tables and their contained data that is contained within a logical database. | | The Sec Dataset includes all tables related to GitLab's security features, including but not limited to vulnerability and dependency tracking. |
+| Featureset | A set of features associated with some kind of concept within GitLab for ease of reference. | | Core, Sec |
 | Core | Referred to in terms of Dataset or Featureset, this is information of functionality related to standard GitLab operations, such as Projects, Namespaces, Users and others.  | | |
-| Secure/Govern | Referred to in terms of Dataset or Featureset, this is information of functionality related to standard GitLab operations, such as Vulnerabilities, Dependencies (SBOM), Security Findings, Policies and more. | | |
+| Sec | Referred to in terms of Dataset or Featureset, this is information of functionality related to standard GitLab operations, such as Vulnerabilities, Dependencies (SBOM), Security Findings, Policies and more. | | |
 
 ### Overview
 
-There is high impetus within GitLab to reduce pressure on the primary GitLab database server. The Database and Scalability teams have been taking a variety of steps to mitigate the ongoing pressure on the database server to maintain the growth and stability of GitLab in the long term. One such endeavour is Cells, however, there is desire to provide further mitigation in the short to medium term. Decomposition of the Secure/Govern dataset from the primary database was identified as a strong possible solution, similar to how the CI decomposition aided in this regard in the past.
+There is high impetus within GitLab to reduce pressure on the primary GitLab database server. The Database and Scalability teams have been taking a variety of steps to mitigate the ongoing pressure on the database server to maintain the growth and stability of GitLab in the long term. One such endeavour is Cells, however, there is desire to provide further mitigation in the short to medium term. Decomposition of the Sec dataset from the primary database was identified as a strong possible solution, similar to how the CI decomposition aided in this regard in the past.
 
-Decomposition of the Secure/Govern dataset is a significant engineering effort due to the magnitude of the data interactions related to these features. The domain accounts for 25% of all database write traffic, and is only set to grow as we expand our feature set and grow our customer base. Further statistics and technical details can be found on the associated [epic](https://gitlab.com/groups/gitlab-org/-/epics/13043).
+Decomposition of the Sec dataset is a significant engineering effort due to the magnitude of the data interactions related to these features. The domain accounts for 25% of all database write traffic, and is only set to grow as we expand our feature set and grow our customer base. Further statistics and technical details can be found on the associated [epic](https://gitlab.com/groups/gitlab-org/-/epics/13043).
 
-As this has become a scalability and stability concern for all of GitLab.com, as well as significantly constraining the ability of the Secure/Govern stages to implement new features due to continuously growing performance concerns, it is necessary to form an organised effort to effectively achieve this project.
+As this has become a scalability and stability concern for all of GitLab.com, as well as significantly constraining the ability of the Stages in the Sec section to implement new features due to continuously growing performance concerns, it is necessary to form an organised effort to effectively achieve this project.
 
-We have the benefit of being able to lean heavily on the prior art and experience of the database-scalability working group who decomposed the CI database to achieve this goal. However, some key challenges we may face is the scale of the existing Secure/Govern codebase, and the need to maintain ongoing operations with (no/minimal) disruption to our customer base. A full GitLab.com downtime is heavily disfavoured due to our uptime SLA agreements with customers, but the scale of our operations may mean that some processes for this kind of decomposition may not be feasible.
+We have the benefit of being able to lean heavily on the prior art and experience of the database-scalability working group who decomposed the CI database to achieve this goal. However, some key challenges we may face is the scale of the existing Sec codebase, and the need to maintain ongoing operations with (no/minimal) disruption to our customer base. A full GitLab.com downtime is heavily disfavoured due to our uptime SLA agreements with customers, but the scale of our operations may mean that some processes for this kind of decomposition may not be feasible.
 
 ### Benefits
 
 1. Reduce write pressure on the GitLab.com primary Write database in advance of Cells 1.5
-2. Improve stability of GitLab operations, by isolating the primary database from Secure/Govern feature pressure
-3. General performance improvement for both the Core and Secure/Govern feature sets due to seperation of concerns.
-4. Improve iteration speed of Secure/Govern feature development without significant concern for compromising stability of the platform.
+2. Improve stability of GitLab operations, by isolating the primary database from Sec feature pressure
+3. General performance improvement for both the Core and Sec feature sets due to seperation of concerns.
+4. Improve iteration speed of Sec feature development without significant concern for compromising stability of the platform.
 
 ### Risks
 
@@ -86,7 +86,7 @@ We have the benefit of being able to lean heavily on the prior art and experienc
 
 ### Interdependencies
 
-Secure/Govern Data has a high degree of integration with CI and standard GitLab data, such as Users, Projects and Namespaces. The past CI decomposition has succesfully delinked query interdependency of the associated CI dataset, however, significant effort will be necessary to do the same between the core GitLab dataset and Govern/Secure functionality.
+Sec Data has a high degree of integration with CI and standard GitLab data, such as Users, Projects and Namespaces. The past CI decomposition has succesfully delinked query interdependency of the associated CI dataset, however, significant effort will be necessary to do the same between the core GitLab dataset and Sec functionality.
 
 ### Timeline
 
@@ -102,14 +102,14 @@ dateFormat YYYY-MM-DD
 title 50% confidence timeline
 
 section Work
-Decompose tables :active , decompose, 2024-07-01, 2024-11-30
-Slice 1 :active, slice1, 2024-07-23, 2024-11-30
-Slice 2 :active, slice2, 2024-08-06, 2024-10-04
-Slice 3 :active, slice3, 2024-07-15, 2024-11-30
-Table decomposition complete :milestone, allslices, after slice1 slice2 slice3, 0d
-Phase 1 & 2 : phase12, 2024-09-11, 4w
-Phase 3 : phase3, after phase12, 3w
-Phase 4 : phase4, after allslices phase3, 3w
+Gitlab Decomposition Ready :active , decompose, 2024-07-01, 2025-02-14
+Non-Slice Work :active, nonslicework, 2024-07-15, 2025-02-14
+Slice 1 :active, slice1, 2024-07-23, 2025-01-13
+Slice 2 :active, slice2, 2024-08-06, 2024-12-30
+Slice 3 :active, slice3, 2024-07-15, 2025-02-14
+Gitlab Application Ready for Decomposition :milestone, allslices, after slice1 slice2 slice3 nonslicework, 0d
+Phase 1 & 2 : phase12, 2024-09-11, 16w
+Phase 4 : phase4, after allslices phase3 decompose, 3w
 Phase 5 : phase5, after phase4, 3w
 Phase 6 : phase6, after phase4, 3w
 Phase 7 : phase7, after phase6, 4w
@@ -123,11 +123,12 @@ axisFormat  %Y-%m
 
 | Slice              | % Done | Estimated completion |
 | ---                | ---    | ---                  |
-| [Slice 1](https://gitlab.com/groups/gitlab-org/-/epics/14116?force_legacy_view=true) | 67%    | 2024-11              |
-| [Slice 2](https://gitlab.com/groups/gitlab-org/-/epics/14196?force_legacy_view=true) | 76%    | 2024-10              |
-| [Slice 3](https://gitlab.com/groups/gitlab-org/-/epics/14197?force_legacy_view=true) | 25%    | 2024-11              |
+| [Slice 1](https://gitlab.com/groups/gitlab-org/-/epics/14116?force_legacy_view=true) | 100% | Complete |
+| [Slice 2](https://gitlab.com/groups/gitlab-org/-/epics/14196?force_legacy_view=true) | 100% | Complete |
+| [Slice 3](https://gitlab.com/groups/gitlab-org/-/epics/14197?force_legacy_view=true) | 83%  | 2025-01 |
+| [Non-slice work](https://gitlab.com/groups/gitlab-org/-/epics/13043?force_legacy_view=true) | 68% | 2025-04 |
 
-Last update: [2024-09-18](https://gitlab.com/groups/gitlab-org/-/epics/14165?force_legacy_view=true#note_2112587408).
+Last update: [2025-01-13](https://gitlab.com/groups/gitlab-org/-/epics/14165#note_2294280780).
 
 ### Plan
 
@@ -139,58 +140,23 @@ Last update: [2024-09-18](https://gitlab.com/groups/gitlab-org/-/epics/14165?for
     1. Identify and [allowlist cross-joins](https://docs.gitlab.com/ee/development/database/multiple_databases.html#allowlist-for-existing-cross-database-foreign-keys) to be addressed
     1. Identify and allowlist cross-database transactions to be addressed
     1. Remove previously identified cross-joins and cross-database transactions allowances
-1. Await results of [Logical Replication Production test](https://gitlab.com/gitlab-com/gl-infra/dbre/-/issues/95) to determine the viability of [this as a migration path](#migration-proposal-a-logical-replication).
-1. Depending on the results of the production test, formulate a path for the safe migration of the Secure/Govern dataset to a new physical database. These may take the form of the headings below.
-1. Open Change Request to migrate tables using either (A) a phased approach mirroring code boundary slices above or (B) a single replication event for all tables in scope of decomposition
+1. Formulate a logical replication path for the safe migration of the Sec dataset to a new physical database.
+1. Open Change Request to migrate tables using a single replication event for all tables in scope of decomposition
 1. Update [documentation around migrating self-managed instances to multiple databases](https://docs.gitlab.com/ee/administration/postgresql/multiple_databases.html)
 
-#### Migration Proposal A: Logical Replication
+#### Data Migration Proposal
 
-1. Research and test the possiblity of a staged logical replication in which we migrate small subsets of the Secure/Govern featureset at a time, such as SBOM.
-    1. If a staged rollout is possible
-        1. Identify the highest value feature subset to decompose
-        2. Plan a decomposition strategy to separate only that feature to achieve a production benefit sooner.
-        3. Establish the decomposed database instance
-        4. Begin replicating the Secure/Govern data to the new database instance
-        5. Write the necessary code to enable GitLab.com to begin utilising the new instance generically, and for the chosen feature subset.
-        6. As this is a potentially risky operation, ensure production snapshots are ready and that customers are sufficiently informed of potential problems or dataloss in the event of failure.
-        7. Begin testing transition of the feature to using the new database instance as it's new write primary.
-        8. If successful, globally rollout usage of the decomposed database for the feature subset.
-        9. Repeat for each sufficiently sectionable feature subset until decomposition is completed.
-    2. If a staged rollout is not possible
-        1. Establish the decomposed database instance
-        2. Begin replicating the full Secure/Govern data to the new database instance
-        3. Write the necessary code to enable GitLab.com to begin utilising the new instance generically and for all Secure/Govern features.
-        4. As this is a potentially risky operation, ensure production snapshots are ready and that customers are sufficiently informed of potential problems or dataloss in the event of failure.
-        5. Begin testing transition of the Secure/Govern featureset to using the new database instance as it's new write primary.
-        6. If successful, globally rollout usage of the decomposed database for the full featureset.
-2. Cleanup legacy data from the GitLab core database.
+See [rollout for full details](https://gitlab.com/groups/gitlab-org/-/epics/15236)
 
-#### Migration Proposal B: Physical Replication
-
-1. Determine acceptability of a full downtime for GitLab, or a temporary suspension of use for the entire Secure/Govern featureset to prevent dataloss. (Alternatively, notify users that there will be dataloss related to this featureset after a certain Date and Time)
-    1. Begin communicating with customers ahead of time to minimise disatisfaction as a result of this disruption.
-    2. Establish the decomposed database instance
-    3. Write the necessary code to enable GitLab.com to begin utilising the new instance generically and for all Secure/Govern features.
-    4. Begin testing transition of the Secure/Govern featureset to using the new database instance as it's new write primary.
-    5. Take GitLab down so that write traffic stops.
-    6. Wait for replication to catch up on the node before promoting it to be the new leader of a new Secure DB cluster. Configure GitLab to write to this new Secure DB cluster.
-    7. Globally rollout usage of the decomposed database for the full featureset.
-    8. Cleanup legacy Secure/Govern data from the GitLab Core database.
-    9. Cleanup legacy Core data from the new Secure/Govern database.
-
-#### Migration Proposal C: Application Replication
-
-1. As a staged rollout is possible, identify the highest value feature subset to decompose.
-2. Plan a decomposition strategy to separate only that feature to achieve a production benefit sooner.
-3. Establish the decomposed database instance
-4. Write the necessary code to sync all possible data changes relating the chosen feature subset to the new database instance from whereever they may occur in the application.
-5. Begin replicating the Secure/Govern data to the new database instance for the chosen feature subset.
-6. Write the necessary code to enable GitLab.com to begin utilising the new instance generically, and for the chosen feature subset.
-7. As this is a potentially risky operation, ensure production snapshots are ready and that customers are sufficiently informed of potential problems or dataloss in the event of transition failure, as some data may not be able to be synced back to the Core database.
-8. Begin testing transition of the feature to using the new database instance as it's new write primary.
-9. If successful, globally rollout usage of the decomposed database for the feature.
-10. Repeat for each sufficiently sectionable feature subset until decomposition is completed.
+1. With physical-to-logical replication we replicate the full DB before converting to logical replication for the relevant sec tables
+    1. Deploy the decomposed database instance as a streaming replica of main
+    1. Begin replicating the full Sec data to the new database instance
+    1. Establish a separate sec DB connection pointed at the same main DB
+    1. Write the necessary code to enable GitLab.com to begin utilising the new DB connection generically and for all Sec features.
+    1. As this is a potentially risky operation, ensure production snapshots are ready and that customers are sufficiently informed of potential problems or dataloss in the event of failure.
+    1. Begin testing transition of the Sec featureset to using the new database instance as it's new primary (gstg -> canary -> grpd)
+    1. If successful, globally rollout usage of the decomposed database for the full featureset.
+2. Truncate legacy sec tables from the GitLab main database.
 
 ## Roles and Responsibilities
 
@@ -198,14 +164,13 @@ Last update: [2024-09-18](https://gitlab.com/groups/gitlab-org/-/epics/14165?for
 | -----------                          | -----------       | ----------- |
 | Executive Stakeholder                | Jerome Ng         | Engineering Director, Expansion |
 | Functional Lead                      | Gregory Havenga   | Senior Backend Engineer, Govern: Threat Insights  |
-| Functional Lead                      | Lucas Charles     | Principal Software Engineer, Secure & Govern |
+| Functional Lead                      | Lucas Charles     | Principal Software Engineer, Sec |
 | Facilitator AMER                     | Neil McCorrison   | Manager, Software Engineering |
 | Facilitator APAC                     | Thiago Figueiró   | Manager, Software Engineering |
-| Member                               | Fabien Catteau    | Staff Engineer, Secure: Composition Analysis |
-| Member                               | Arpit Gogia       | Backend Engineer, Secure: Dynamic Analysis |
-| Member                               | Schmil Monderer   | Staff Backend Engineer, Secure: Static Analysis |
-| Member                               | Ethan Urie        | Staff Backend Engineer, Secure: Secret Detection |
-| Member                               |                   ||
+| Member                               | Fabien Catteau    | Staff Engineer, SSCS: Pipeline Security |
+| Member                               | Arpit Gogia       | Backend Engineer, AST: Dynamic Analysis |
+| Member                               | Schmil Monderer   | Staff Backend Engineer, APM: Threat Insights |
+| Member                               | Ethan Urie        | Staff Backend Engineer, AST: Secret Detection |
 | Member                               | Jon Jenkins       | Senior Backend Engineer, Database |
 | Member                               | Ved Prakash       | Staff Data Engineer, Data Science|
 | Member                               | Dylan Griffith    | Principal Engineer, Create |

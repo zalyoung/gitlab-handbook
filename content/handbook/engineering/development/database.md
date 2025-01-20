@@ -4,7 +4,7 @@ title: Database Engineering
 
 This page is dedicated to database application engineering and provides an entry-point for resources on this topic.
 
-Also see [Database Team](/handbook/engineering/infrastructure/core-platform/data_stores/database/) in Enablement.
+Also see [Database Team](/handbook/engineering/infrastructure-platforms/data-access/database-framework/) in Enablement.
 
 ## GitLab development
 
@@ -60,3 +60,4 @@ If you're interested in participating in database reviews, please start by revie
 * [SQL Indexing and Tuning e-Book](https://use-the-index-luke.com/) (also known as "Use The Index Luke")
 * Weekly show on [Scaling PostgreSQL](https://www.scalingpostgres.com/)
 * Detailed documentation of the operations and fields in [PostgreSQL EXPLAIN query plans](https://www.pgmustard.com/docs/explain)
+* Weekly podcast about all things PostgreSQL [postgres.fm](https://postgres.fm)

@@ -74,7 +74,7 @@ This [video](https://www.youtube.com/watch?v=Cmh4yNu8fxE) contains a walkthrough
 
 Just like manually created tags, global tags can be used by highlighting the text you want to tag, and clicking on the global tag you have enabled. This is shown in the image below:
 
-![Dovetail Note](dovetail-note-tag-example.png)
+![Dovetail Note](/images/product/ux/dovetail/dovetail-note-tag-example.png)
 
 Tags are organized into categories, so you may want to familiarize yourself with the organization of tags and their categories.
 
@@ -308,13 +308,13 @@ This video demonstrates how to take structured notes in Dovetail similarly to a 
 
 In order to protect PII (Personally Identifiable Information), ensure that your project settings for insights are [disabled for public access](https://dovetailapp.com/help/share-insights-with-public-access/). To do this you navigate to your project and click `Insights`. From there, ensure your share settings look like this:
 
-![Dovetail Window](sharesettings.png)
+![Dovetail Window](/images/product/ux/dovetail/sharesettings.png)
 
 ### Frequently Asked Questions
 
 #### I'm a Product Manager. Can I use Dovetail to keep track of the calls I have with customers?
 
-Yes! When creating a new project, please select the `Customer calls` template. In the ReadMe file, update the name of your project from `Customer calls` to something more recognisable. Continue to follow the steps outlined under the UX Research team's guide to documenting insights in Dovetail starting with [Importing raw data into Dovetail](/handbook/product/ux/dovetail/index.html#importing-raw-data-into-dovetail).
+Yes! When creating a new project, please select the `Customer calls` template. In the ReadMe file, update the name of your project from `Customer calls` to something more recognisable. Continue to follow the steps outlined under the UX Research team's guide to documenting insights in Dovetail starting with [Importing raw data into Dovetail](/handbook/product/ux/dovetail/#importing-raw-data-into-dovetail).
 
 Note: If you're only speaking to one customer and haven't heard evidence from other customers that they are experiencing the same problem or want the same feature improvement, it's highly likely that your finding should remain as a `highlight` rather than be converted into an `insight`. Feel free to reach out to your UX Researcher if you're not sure.
 

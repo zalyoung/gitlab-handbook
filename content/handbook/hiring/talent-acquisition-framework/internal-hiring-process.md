@@ -40,6 +40,7 @@ description: "This page discusses the Internal Hiring Process"
 - Recruiter will then continue the process as described in the [Talent Acquisition Process Framework]({{< ref "talent-acquisition-framework" >}}) for all candidates. Recruiter will use identified templates in Greenhouse to communicate with candidates, current managers and hiring managers throughout the internal hiring process.
 - Once it is confirmed that the internal candidate is moving to the offer stage, the Recruiter will connect the team member's current manager and potential new manager via Slack to:
   - Give formal notice that an offer is being created for the team member.
+  - At the same time you should tag the relevant [People Business Partner](/handbook/people-group/people-business-partners/#people-business-partner-alignments) (both the departing and receiving PBP) in a note on Greenhouse so they are notified, can track the internal move and take any necessary action.
   - Facilitate a discussion around a transition date that works for both parties. Please note that TA's involvement is to facilitate this conversation and is not the decision maker. Ultimately, a transition date is something that should be agreed upon between a current manager and hiring manager. A finalized start date will be needed as TA submits an offer for approvals.
   - Some suggestions for transition timelines include:
     - Aiming for between 4-6 weeks for an official transition date to ensure the team with the backfill has lead time on filling the position
@@ -47,8 +48,8 @@ description: "This page discusses the Internal Hiring Process"
 - At the offer stage, the Recruiter will submit a request via [HelpLab](https://helplab.gitlab.systems/esc?id=emp_taxonomy_topic&topic_id=2e8c3f81478c069067429ee0026d4380) to attain current compensation information for the offer
   - When submitting the request form, under `Optional: Adding team member(s) to the Watchlist grants them access to view and comment on this request` please add the relevant [People Business Partner](https://handbook.gitlab.com/handbook/people-group/people-business-partners/#people-business-partner-alignments) so they are notified, can track the internal move and take any necessary action. 
 - Please note the following about this process:
-  - TA will only start an official backfill process once the internal candidate signs their job change letter.
-  - Internal team members should be alerting and receiving support from their current managers prior to formally applying to open roles. Offers at the end of an internal interview process should not come as a surprise to current managers.
+  - TA will only start an official backfill once the role has been approved via the [Backfill Approval process](/handbook/hiring/talent-acquisition-framework/req-creation/#backfill-approvals)
+  - It is the [Team Member's responsibility](/handbook/hiring/talent-acquisition-framework/internal-hiring-process/#team-member-responsibilities) to meet with their current manager to discuss the internal opportunity they’d like to pursue prior to submitting their application. Offers at the end of an internal interview process should not come as a surprise to current managers.
   - TA will not discuss any compensation changes with the team member's current manager.
   - TA will not provide updates on interview feedback or progress to a team member's current manager. This should be discussed between managers and team members during 1:1s.
   - Should the Recruiter not have access to a team members compensation (due to moving Divisions), you should
@@ -100,8 +101,8 @@ As you are both aware, XXX has been interviewing for the XXX role and the team i
 
 - Once your team member has notified you that they have applied for an internal opportunity (this should happen at the application stage) make sure to check in with them during 1:1s to see how their interviews are progressing.
 - If your team member moves to the offer stage, the Recruiter will connect you with the hiring manager via Slack. Please follow the steps outlined by the Recruiter once you receive that confirmation. Until you receive that Slack from TA, the offer is not confirmed.
-- Once the transition date is agreed upon, the current manager is responsible for notifying their leadership so they can align with Finance and get started on the backfill request.
-If the team member is not selected for the new role, the current manager should meet with the team member to discuss ongoing career development in their current role.
+- Once the transition date is agreed upon, the current manager is responsible for notifying their leadership and to follow the steps outlined in the [Backfill Approval process](/handbook/hiring/talent-acquisition-framework/req-creation/#backfill-approvals) handbook page
+- If the team member is not selected for the new role, the current manager should meet with the team member to discuss ongoing career development in their current role.
 
 ## Hiring Manager Responsibilities
 

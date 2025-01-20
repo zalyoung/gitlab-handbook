@@ -19,7 +19,7 @@ Steps to uplevel triaging process:
 
 | Triage Group Name   | Triage Slack Alias  | Triage Group Members  |
 | -------------- | ------------------- | -------------------- |
-| Go To Market Analytics Triage | `@GTMAnalyticsTriage` |  Sales Strategy & Analytics Team, Marketing Strategy and Performance Team, Business Insights and Analytics Team, GTM Data Fusion Team |
+| Go To Market Analytics Triage | `@GTMAnalyticsTriage` |  Revenue Strategy & Analytics Team, Marketing Strategy and Performance Team, Business Insights and Analytics Team, GTM Data Fusion Team |
 | R&D Analytics Triage | `@R&DAnalyticsTriage` | Product Data Insights Team, R&D Data Fusion Team |
 | People Analytics Triage | `@PeopleAnalyticsTriage` | People Group Analytics Team, G&A Data Fusion Team |
 | Engineering Analytics Triage | `@EngineeringAnalyticsTriage` | Engineering Analytics Team, G&A Data Fusion Team |
@@ -44,18 +44,14 @@ Steps to uplevel triaging process:
 
 | Slack Channel Alias| Analytics Team | Sunday | Monday | Tuesday | Wednesday | Thursday | Friday |
 | ---------     | -----------------    | -------| -------|---------| ----------|----------|--------|
-| `@GTMAnalyticsTriage` | Sales Strategy and Analytics | | `@melia` | | `@Noel Figuera`  | | |
+| `@GTMAnalyticsTriage` | Revenue Strategy and Analytics | | `@melia` | |  | | |
 |                   | Marketing Strategy and Performance | |  | `@David Egan` | | `@rkohnke` | |
-|                   | Business Insights and Analytics | |  `@Vikas Agrawal` | `@Deepesh Gupta` |  |      |  `@Shivangi Mishra` |
-|                   | GTM Data Fusion | | `@Peter Empey` |  |  |    | `@Michelle Cooper` |
+|                   | Business Insights and Analytics | |  `@Vikas Agrawal` |  |  |      |   |
 | `@R&DAnalyticsTriage` | Product Data Insights |  | `@Matthew Petersen` `@Carolyn Braza` | `@Dave Peterson` | `@Emma Neuberger` | `@Nicole Hervas` | `@Neil Raisinghani` |
-|                   | R&D Data Fusion | | `@utkarsh060` |  | `@Chris Sharp`  | `@snalamaru`  |   |
-| `@PeopleAnalyticsTriage` | People Analytics | |  | | | `@Adrian Pérez` `@rakhireddy` | |
-|                   | G&A Data Fusion | | `@Peter Empey` | `@lisvinueza`  | | | |
-| `@EngineeringAnalyticsTriage` | Engineering Analytics |  |  | `@Raul Rendon` | |  `@lily` | |
-|                   | Engineering Data Fusion |  | `@Peter Empey`  | `@lisvinueza` |  |     |     |
+| `@PeopleAnalyticsTriage` | People Analytics | |  | | | `@Adrian Pérez` | |
 | `@DataPlatformTriage` | Data Platform | | Weekly rotation | Weekly rotation | Weekly rotation | Weekly rotation | Weekly rotation |
-| `@TableauTriage` | Analytics & Insights |  | `@Peter Empey`  | Weekly rotation | Weekly rotation  | Weekly rotation | Weekly rotation |
+| `@TableauTriage` | Analytics & Insights |  | Weekly rotation  | Weekly rotation | Weekly rotation  | Weekly rotation | Weekly rotation |
+|  `@GTMAnalyticsTriage` `@R&DAnalyticsTriage`  `@PeopleAnalyticsTriage` | Analytics Engineering |  | Weekly rotation  | Weekly rotation | Weekly rotation  | Weekly rotation | Weekly rotation |
 
 #### Data Platform weekly rotation schedule
 
@@ -73,7 +69,11 @@ Because of public holidays or unforeseen circumstances (Family and Friends day e
 
 #### Tableau weekly rotation schedule
 
-For days that show `Weekly rotation` on the Tableau triage schedule, i.e. Tuesday - Friday, the triage responsibilities will be rotated between Enterprise Data Analysts.
+For days that show `Weekly rotation` on the Tableau triage schedule, i.e. Monday - Friday, the triage responsibilities will be rotated between Enterprise Data Analysts.
+
+#### Analytics Engineering weekly rotation schedule
+
+Beginning on `2025-01-02` Analytics Engineering will move to a weekly triage schedule. The schedule is maintained on the Data Program Google Calendar.
 
 ### Enterprise Data Program Triage Instructions
 

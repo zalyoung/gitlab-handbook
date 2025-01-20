@@ -12,16 +12,16 @@ description: "Operations, Procedures, Documentation"
 - [Sales](https://gitlab.com/groups/gitlab-com/sales-team/-/issues) - general sales related needs & issues
 - [Marketing](https://gitlab.com/groups/gitlab-com/marketing/-/issues) - all issues related to website, product, design, events, webcasts, lead routing, social media and Developer Relations
 - [Customer Success SA Triage](https://gitlab.com/gitlab-com/customer-success/sa-triage-boards) - technical pre-sales requests
+- [Requesting Internal Support in Salesforce](/handbook/sales/field-operations/requesting-internal-support/)
+- [HelpLab](https://helplab.gitlab.systems/esc) (through Okta) - Salesforce bug fixes and feature requests (IT)
 
 ### Slack: A short list of the helpful Slack channels
 
 - `#customer-success`
 - `#sales-support`
-- `#sfdc-users`
 - `#sdr_global`
 - `#smb`
 - `#mktgops`
-- `#outreach`
 - `#it_help`
 - `#marketing_programs`
 - `#marketing`
@@ -76,7 +76,11 @@ Those three terms also correspond to record types in salesforce.com.
 
 Lead => Opportunity => Customer
 
-However, there are more granular steps within the above milestones that are used to track the above process with more precision.
+Please see below for a high-level overview of the Customer Lifecycle at GitLab. This lifecycle is created through the lens of Salesforce data, and it is cross-functional - covering inputs from Sales, Marketing, and Finance.
+
+![Customer Lifecycle Flowchart](/images/handbook/sales/customer-lifecycle.jpeg)
+
+In addition, these are the more granular steps within the above milestones that are used to track the above process with more precision.
 They are tracked as follows:
 
 | Funnel stage | Record Type | Status or Stage |
@@ -647,10 +651,10 @@ This creates a parent-child relationship between the *original* OPPORTUNITY and 
 1. **UPDATE** the OPPORTUNITY Name - see the [Opportunity Naming Convention] guidelines
 1. Define:
     - Opportunity Type should always be New Business
-    - The Net ARR value of the Upside ARR opportunity should always be the delta between the Most Likely scenario (Main opportunity) and the best possible case . 
+    - The Net ARR value of the Upside ARR opportunity should always be the delta between the Most Likely scenario (Main opportunity) and the best possible case .
     - The stage and forecast category will always be lower than the ones in the main opportunity
     - The close date of both opportunities will be the same
-    - The Upside ARR record does not require Next Steps or Command Plan completion as this will be completed on the main record. 
+    - The Upside ARR record does not require Next Steps or Command Plan completion as this will be completed on the main record.
     - Once the main opportunity is Closed Won or Closed Lost, the Upside ARR record needs to be closed as Duplicate
 1. Click `Save`
 
@@ -668,7 +672,7 @@ See [Working with Professional Services](/handbook/customer-success/professional
 
 *Here is [a video](https://gitlab.highspot.com/items/6655fc408e0d8cc5d7a7c166?lfrm=srp.0) explaining the below process.*
 
-1. Navigate to the *original* OPPORTUNITY (this will become the "parent" opp). Note that this must be a standard license or subscription Opportunity. 
+1. Navigate to the *original* OPPORTUNITY (this will become the "parent" opp). Note that this must be a standard license or subscription Opportunity.
 1. Click the "Create Services Opportunity" button (in Lightning, this button is on the dropdown list in the top right of the page) and fill out the following:
    <!-- - OPPORTUNITY Name = will already be set correctly; do not change
    - Type = do not change it will populate from parent OPPORTUNITY
@@ -679,7 +683,7 @@ See [Working with Professional Services](/handbook/customer-success/professional
    - ACV = **do not populate** an automated workflow will fill this information
    - Amount = **do not populate** an automated workflow will fill this information
    - Professional Services Description, Project Scope, Task Schedule and Key Assumption fields = these will push to the Statement of Work when a PDF is generated from Zuora. -->
-   - Close Date 
+   - Close Date
    - Stage
    - Customer Folder URL (this will be auto-populated by a field **on the account object** that needs to be completed)
 1. Click `Next` and you're done! A child Professional Services opportunity will be created once submitted. Also, all of the scoping issue, estimation spreadsheet and proposal template will be automatically created and cross-linked!

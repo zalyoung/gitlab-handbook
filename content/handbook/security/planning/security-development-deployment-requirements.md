@@ -38,7 +38,7 @@ Such a process will be the responsibility of a future Security team.
 The following requirements are driven by 3 high level guidelines:
 
 - [Least Privilege]({{< ref "access-management-policy#principle-of-least-privilege" >}})
-- [Zero Trust](/handbook/security/product-security/architecture/zero-trust/)
+- [Zero Trust](/handbook/security/product-security/security-architecture/zero-trust/)
 - [GitLab's Security Controls]({{< ref "sec-controls#gitlabs-security-controls" >}})
 
 ### Identity, Authentication, and Authorization
@@ -254,7 +254,7 @@ reviewed periodically as part of scheduled reviews and maintenance.
 
 ## Identity Providers
 
-[Okta](/handbook/business-technology/okta/) is our corporate identity and authentication provider. Configuration of
+[Okta](/handbook/it/okta/) is our corporate identity and authentication provider. Configuration of
 applications using Okta as a SAML provider is the preferred solution. It meets
 operation needs for security monitoring of activity and can be provisioned by
 IT Ops using the standard Access Request process. Applications designed

@@ -3,16 +3,16 @@ title: "GitLab Singapore Pte Ltd"
 description: "Discover GitLab's benefits for team members in Singapore"
 ---
 
-The Total Rewards team hosted a [Singapore Benefits Webinar](https://drive.google.com/drive/folders/1xoXT7VPy6LvHjBp-T6CnY57EE1Y05TYr) on 31-07-2024 with WTW to go over the benefit plans below. 
+The Total Rewards team hosted a [Singapore Benefits Webinar](https://drive.google.com/drive/folders/1xoXT7VPy6LvHjBp-T6CnY57EE1Y05TYr) on 31-07-2024 with WTW to go over the benefit plans below.
 
 ## Medical
 
-Effective 2024-08-01 GitLab Singapore Team Members will be enrolled in Medical Insurance Benefits via HSBC Insurance. 
+Effective 2024-08-01 GitLab Singapore Team Members will be enrolled in Medical Insurance Benefits via HSBC Insurance.
 
-Coverage will inlcude: 
+Coverage will inlcude:
 
 - Group Hospital and Surgical
-- Group Major Medical 
+- Group Major Medical
 - Group Maternity
 - Group Outpatient General Practitioner
 - Group Outpatient Specialist
@@ -26,10 +26,10 @@ Please see the list of [IHP Panel Clinics](https://drive.google.com/file/d/1FO3Z
 ### Team Members undergoing Specialist visits
 
 1. Confirm if your provider is under the [IHP Panel Clinics](https://drive.google.com/file/d/1FO3ZpkrHGuaqooMNDUrCI62i2JQOW6vE/view?usp=sharing)
-2. If your specialist is under the IHP Panel:, contact IHP at  +64 6715 9422,  before your appointment. IHP will inform the clinic in advance of your visit for a smooth cashless arrangement. 
+2. If your specialist is under the IHP Panel:, contact IHP at  +64 6715 9422,  before your appointment. IHP will inform the clinic in advance of your visit for a smooth cashless arrangement.
 3. If your specialist is not under the IHP Panel:, please obtain a specialist memo indicating the purpose of the visit and medical diagnosis. Submit the memo along with your claim on the IHP portal.
 
-### IHP Portal Access 
+### IHP Portal Access
 
 Login to the IHP Portal to
 
@@ -40,7 +40,7 @@ Login to the IHP Portal to
 - View Entitlement Table
 - Connect to the Hotline
 - I-Health Palace - Market Place
-- Online Resources. 
+- Online Resources.
 
 **How to register**
 
@@ -48,18 +48,18 @@ See the [IHP Portal and Mobile Guide](https://drive.google.com/file/d/1OajuRXQ1T
 
 ### Letter of Guarantee (LOG)
 
-Please see slide 49 of teh [IHP Portal and Mobile Guide](https://drive.google.com/file/d/1OajuRXQ1Td9zfsrAcxYGjPZZ0uCv8G4h/view?usp=sharing) for instructions on requesting a Letter of Gaurantee. 
+Please see slide 49 of teh [IHP Portal and Mobile Guide](https://drive.google.com/file/d/1OajuRXQ1Td9zfsrAcxYGjPZZ0uCv8G4h/view?usp=sharing) for instructions on requesting a Letter of Gaurantee.
 
-### Willis Tower Watson Claims Assistance
+### Willis Towers Watson Claims Assistance
 
-[Willis Tower Watson](https://www.wtwco.com/en-SG/Solutions/health-and-benefits) (WTW) is the broker for GitLab's group benefit plans and can assist members with any benefit questions or claims issues.
+[Willis Towers Watson](https://www.wtwco.com/en-sg/solutions/health-and-benefits) (WTW) is the broker for GitLab's group benefit plans and can assist members with any benefit questions or claims issues.
 
 For any claims issues or benefits queries, please reach out to the WTW team at `claims.sg@willistowerswatson.com` .
 
 ### Enrollment
 
 New Team Members will be prompted to fill out a Singapore Benefits Onboarding Form during onboarding.
-Once completed, the Total Rewards team will receive the form and will work with our broker,  Willis Tower Watson, to enroll team members into the group plans.
+Once completed, the Total Rewards team will receive the form and will work with our broker,  Willis Towers Watson, to enroll team members into the group plans.
 Team Members will receive underwriting forms from WTW within the first month from their hire date.
 
 Team Members who experience a qualified status change can update their information by sending an email to the Total Rewards Team at total-rewards@gitlab.com
@@ -98,9 +98,9 @@ GitLab does not plan to offer a supplementary private pension benefit at this ti
 
 ## Life Insurance
 
-GitLab offers company paid Group Term Life through HSBC Insurance. Coverage is sum insured $500,000 SGD per member. 
+GitLab offers company paid Group Term Life through HSBC Insurance. Coverage is sum insured $500,000 SGD per member.
 
-**Underwriting**:  Members are automatically coverd up to the Free Cover Limit of $150,000 SGD. In order to recieve the full coverage of $500,000 SGD, team members must complete medical underwriting requirements. 
+**Underwriting**:  Members are automatically coverd up to the Free Cover Limit of $150,000 SGD. In order to recieve the full coverage of $500,000 SGD, team members must complete medical underwriting requirements.
 
 For more details on the coverage of the Life Insurance plan, please refer to slides 39-44 of the [GitLab Singapore Benefit Deck](https://drive.google.com/file/d/1EhdoC9Dgkf_5919-WZeuBJtdWeNz8hWp/view?usp=sharing)
 
@@ -127,7 +127,7 @@ Team members who have been continuously employed by GitLab for at least 3 months
 **Applying for government paid maternity leave**
 
 - Team members must submit a [GPML Declaration](https://file.go.gov.sg/gpml1form.pdf) to [the Absence Management team](mailto:leaves@gitlab.com) as soon as possible.
-- GitLab will continue to pay the team member's salary during their leave and [submit a claim for reimbursement](https://www.profamilyleave.gov.sg/Pages/GPML.aspx#What%20should%20I%20do%20as%20an%20employer?).
+- GitLab will continue to pay the team member's salary during their leave and [submit a claim for reimbursement](https://web.archive.org/web/20210918095026/https://www.profamilyleave.gov.sg/Pages/GPML.aspx#What%20should%20I%20do%20as%20an%20employer?).
 - For 1st and 2nd births, GitLab will apply for reimbursement for the 9th - 16th weeks of leave. For 3rd and subsequent births, GitLab will apply for reimbursement for the full 16 weeks.
 
 **Maternity Leave entitlements under the Employment Act**

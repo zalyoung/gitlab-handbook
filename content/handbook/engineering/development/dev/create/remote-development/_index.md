@@ -42,6 +42,10 @@ The following people are permanent members of the Remote Development Engineering
 | Workspaces                | {{< member-by-name "Vishal Tak" >}}     |
 | Web IDE                  | {{< member-by-name "Paul Slaughter" >}} |
 
+### 🎓 New Hires
+
+**As the Remote Development team and tech stack continue to mature, it's essential to have a team-specific onboarding process for new hires.** This checklist is designed to guide new team members through the key areas and processes specific to our team, starting two weeks after company onboarding. It covers our mission, essential tools, and workflows related to the Web IDE and Workspaces. Existing team members are encouraged to review the checklist regularly and contribute any missing or updated information to ensure it remains accurate and useful for newcomers. You can find the template https://gitlab.com/gitlab-com/create-stage/remote-development/-/blob/main/.gitlab/issue_templates/remote-development-onboarding.md.
+
 ### ☎️ How to reach us
 
 Depending on the context here are the most appropriate ways to reach out to the Remote Development Group:
@@ -225,7 +229,7 @@ graph TD;
 
 This process identifies and validates higher-priority issues to be worked on in the upcoming releases. It is analogous to the [Validation Track in the GitLab Product Flow](/handbook/product-development-flow/#validation-track), and should consist of many of the same steps and processes.
 
-In addition to validating features, this process can also result in Engineering identifying high-priority issue which are necessary to [address Technical Debt or "Friction"](https://www.mechanical-orchard.com/post/friction-over-debt?utm_campaign=Boost_friction_debt).
+In addition to validating features, this process can also result in Engineering identifying high-priority issue which are necessary to [address Technical Debt or "Friction"](https://www.mechanical-orchard.com/insights/friction-over-debt).
 
 There may be concerns about over-committing too many issues to the `%"Next 1-3 releases"` release. However:
 
@@ -309,6 +313,39 @@ For a few reasons:
 1. For each newly-prioritized issue, the facilitator reads the description, and the team **_briefly_** discusses the issue. If there are no blocking concerns/risks raised, the team collectively estimates the issue with rock-paper-scissors fibonacci scale, and the collectively agreed weight is assigned.
     1. If the discussion for a single issue goes on longer than 5-10 minutes or turns into an extended debate/discussion, this is an indicator that the issue has not been adequately refined, and should go back to the `~"(workspaces|webide)-workflow::unprioritized"` list, and potentially have another issue immediately created and prioritized to do further investigation/refinement, if the refinement scope may be significant.
 1. Issues which are prioritized in the upcoming 1-2 iterations should be assigned to individual(s) at this point, to ensure it gets worked on and not lost.
+
+**Async Process**
+
+**TL;DR: Sometimes issues need to be weighted quickly before the offical IPM meeting. This is how we weight those issues.**
+
+**Prerequisite:** Add the Polly app to your Slack if you have not already.
+
+1. Navigate to Polly application under that Apps section in Slack.
+1. Select Create a Polly.
+1. Select Create New.
+1. Fill out creation Options:
+    1. Create Question: Weight for: **_Add link to issue here._**
+    1. Question Type: Select **_1-to-10_** option.
+    1. Choose audience: Select **_remote_development_async_ipm_** channel.
+    1. Make sure "Send polly as direct message" is **_unchecked_**.
+    1. Select Settings Button.
+    1. Responses: Select **_Non-anonymous_**.
+    1. Results: Select **_Show after close_**.
+    1. Select Submit to save changes.
+1. Send Polly.
+
+**Optional Steps: Template Creation**
+
+This allows you make following Async IPMs faster by standardizing the configurations. After creation, all a user needs to do is select the template from the "My Templates" section, select Use Template, and update the Issue link in the "Create Question" field.
+
+1. Navigate to Polly application under that Apps section in Slack.
+1. Select Go to Polly Dashboard.
+1. Select the Polly you just made.
+1. Select Controls button.
+1. Select Save as Template.
+1. Title Template: **_Remote development async ipm_**.
+1. Ensure "Save audience with template" is **_checked_**.
+1. Select Save.
 
 **Explanation:**
 
@@ -405,27 +442,77 @@ To assign weights to issues effectively, it's important to remember that issue w
   - Making CSS or UI adjustments.
   - Minor code changes to one or two files, which require tests to be written or updated.
 - **Weight 2:** For more involved issues which are still straightforward without much risk or complexity, but may involve touching multiple areas of the code, and updating multiple tests.
-- **Weight 3:** For larger issues which may have some unforeseen complexity or risk, or require more extensive changes, but is still not large enough to warrant [breaking down into smaller separate issues](#-breaking-down-large-issues).
-- **Weight 5:** Normally, this weight should be avoided, and indicate that the issue ideally [should be broken down into smaller separate issues](#-breaking-down-large-issues). However, in some cases a issue with a weight of 5 might still be prioritized. For example, if there is a large amount of manual updates to be made which will require a large amount of effort, but doesn't necessarily involve significant risk or uncertainty.
-- **Weight 8/13+:** Weights above 5 are used to clearly indicate work that is not yet ready to be assigned for implementation, and _must_ be broken down because it is too large in scope to start implementing, and/or still has too many unknowns/risks. This weight is temporarily assigned to "placeholder" issues to capture the scope of the effort in our velocity-based capacity planning calculations. For more information, see ["Breaking Down Large Issues"](#-breaking-down-large-issues).
+- **Weight 3:** For larger issues which may have some unforeseen complexity or risk, or require more extensive changes, but is still not large enough to warrant [breaking down into smaller separate issues](#-investigations-and-breaking-down-large-issues).
+- **Weight 5:** Normally, this weight should be avoided, and indicate that the issue ideally [should be broken down into smaller separate issues](#-investigations-and-breaking-down-large-issues). However, in some cases a issue with a weight of 5 might still be prioritized. For example, if there is a large amount of manual updates to be made which will require a large amount of effort, but doesn't necessarily involve significant risk or uncertainty.
+- **Weight 8/13+:** Weights above 5 are used to clearly indicate work that is not yet ready to be assigned for implementation, and _must_ be broken down because it is too large in scope to start implementing, and/or still has too many unknowns/risks. This weight is temporarily assigned to "placeholder" issues to capture the scope of the effort in our velocity-based capacity planning calculations. For more information, see ["Breaking Down Large Issues"](#-investigations-and-breaking-down-large-issues).
 
-### 📝 Breaking Down Large Issues
+### 📝 Investigations and Breaking Down Large Issues
 
-Some issues are large in scope to start implementing, and/or still has too many unknowns/risks. In this case, we should break it down into smaller issues which can be implemented in a single iteration. These smaller issues should ideally have a weight of 3 or less, but never more than 5. Here's our process:
+If a task is too large, has too many unknowns, or requires proof of concept (POC), it should be broken down into smaller investigation tasks or POC issues. These tasks help clarify the scope, reduce risks, and identify the necessary steps to proceed with implementation and ideally should fit into a single milestone.
 
-1. Create an investigation issue to identify the work that needs to be done. This issue represents the work needed to research, investigate, discover and document the effort, and break the work down into new issues which are small and clear enough to be prioritized and started. The investigation issue should have a weight assigned which reflects the effort required perform this investigation and breakdown. Here's an example: https://gitlab.com/gitlab-org/gitlab/-/issues/408186.
-1. While the investigation issue work is ongoing, we create a temporary "placeholder" issue on our Iteration Board. This placeholder issue serves to capture the scope of the effort in our velocity-based capacity planning calculations while the investigation to break is down is still ongoing.
-    1. It should have a weight of either 8/13+ (indicating that it is too large to be prioritized and started, and must be broken down.
-    1. The title format for the placeholder issue is `[Category] - Iteration Planning Placeholder for [description of work]`. Here's an example: https://gitlab.com/gitlab-org/gitlab/-/issues/408093.
-    1. The description should have a link to the investigation issue, and a reminder to remove the weight and close it once the smaller replacement issues are created.
-    1. The `~blocked` label can be applied so it is clear that this issue should is not ready for development. Unfortunately, we must still apply the `~Deliverable` label to this issue, because that is the only way we can associate it with the Iteration Cadence for velocity calculations.
-1. Once the investigation and breakdown into smaller issues is complete, then the weight can be removed and the issue closed.
+1. **Create an Investigation Issue:**
+   - **Purpose:** Research, investigate, and document or breakdown the necessary work.
+   - **Weight:** Default to 3 for investigations, POCs, or breakdown tasks. If a different weight is needed, discuss it with PM/EM/Team stakeholders.
+   - **Label:** Assign the ~spike label to the issue.
+   - **Updates:** Provide an async weekly update in the investigation issue.
+   - You're allowed to adjust the weight dynamically to reflect ongoing efforts if they differ from initial estimates as new information becomes available [see [Responding to change over following a plan](https://agilemanifesto.org)].
+
+1. **Break Down and Close:**
+   - Once the investigation task is complete, document the findings and break down the work into actionable refined issues.
+
+### 🧹 Follow-up issues which span multiple releases
+
+Gitlab standards often require breaking down issues that need to be resolved in a specific set of steps that span multiple releases. Typically these are issues related to database migrations ([Dropping Columns](https://docs.gitlab.com/ee/development/database/avoiding_downtime_in_migrations.html#dropping-columns)) or breaking changes in GraphQL such as ["Deprecation and Removal"](https://docs.gitlab.com/ee/api/graphql/index.html#deprecation-and-removal-process).
+
+In such cases where we have pending or follow up tasks for future releases such as removing an ignore rule, removing a deprecated field from GraphQL, finalizing background migrations, etc., we must create follow up issues so we do not forget to complete the work in the future. Here is the process to follow:
+
+**Create a Followup Issue:**
+
+1. **References:** Link the issue to the original issue that spawned it.
+1. **Label:** Assign these labels:
+    - `~due-date-followup`
+    - `~refined`
+    - `~webide-workflow::prioritized` or `~workspaces-workflow::prioritized`
+1. **Milestone:** Assign it a specific milestone - i.e Drop column (17.5) -> Followup remove ignore rule (17.6).
+1. **Iteration:** Assign it to the current/latest iteration for Workspaces or Web IDE (this is required in order to assign a specific milestone)
+1. **Due Date:** Assign a due date 1 week into the assigned milestone. To see the dates for the milestone, you can click "Preview" after adding the Milestone, then open the milestone link in a new tab, and find its date range at the top of the page.
+1. **Epic:** Assign it to the [WebIDE | Technical Debt/Friction](https://gitlab.com/groups/gitlab-org/-/epics/14656) or [Workspaces Technical Debt Work](https://gitlab.com/groups/gitlab-org/-/epics/11041) epic.
+
+Here's a shortcut of label commands which you can use to easily apply this metadata.
+
+Workspaces:
+
+```text
+/relate #<original issue number or link>
+/milestone %"<target milestone>"
+/due date <one week into milestone's date, obtained from clicking on milestone link>
+/label ~due-date-followup ~refined ~workspaces-workflow::prioritized
+/iteration [cadence:"Workspaces"] --current
+/epic &11041
+```
+
+Web IDE:
+
+```text
+/relate #<original issue number or link>
+/milestone %"<target milestone>"
+/due date <one week into milestone's date, obtained from clicking on milestone link>
+/label ~due-date-followup ~refined ~workspaces-workflow::prioritized
+/iteration [cadence:"WebIDE"] --current
+/epic &14656
+```
+
+Note that these sorts of issues which we are _required_ to defer
+until future releases should not be confused with "tech debt"
+work that we are _choosing_ to defer. That is why they use the
+following process involving milestones, custom labels, and due date reminders
+to ensure that we do not forget to follow up and complete them.
 
 ### 🍨 Handling Issues Outside the Process
 
 <span id="-handling-remote-development-issues-outside-the-process" data-message="alias anchor for old links"></span>
 
-Certain `group::ide` issues may be categorized under the `(workspaces|webide)-workflow::ignored` label. These categories include:
+Certain `group::remote development` issues may be categorized under the `(workspaces|webide)-workflow::ignored` label. These categories include:
 
 1. **QA-Owned Issues:**
    - Issues owned by QA that may not require the standard Workspaces process.

@@ -304,13 +304,13 @@ responsibility, willingness of GitLab team-members to teach new GitLab team-memb
 1. Have more employee agreements instead of contractor agreements.
     - People Ops will be working to establish new entities/payrolls in more countries as we grow. Once this is completed we can transfer contractors to employees.
 1. Hire in departments that need more GitLab team-members.
-    - We understand that there is always a lot to do at GitLab and for some departments this means that we might need to hire more GitLab team-members. If this is the case please communicate this to your manager and/or People Ops. If appropriate People Ops will [open the role](/handbook/hiring#vacancy-creation-process), and add it to the [jobs page](https://about.gitlab.com/jobs).
+    - We understand that there is always a lot to do at GitLab and for some departments this means that we might need to hire more GitLab team-members. If this is the case please communicate this to your manager and/or People Ops. If appropriate People Ops will [open the role](/handbook/hiring#vacancy-creation-process), and add it to the [jobs page](https://about.gitlab.com/jobs/).
 1. Refine onboarding to be less intense/intimidating.
     - Onboarding can be overwhelming and sometimes confusing. To alleviate confusion about what you are doing and why, we created an [Onboarding]({{< ref "general-onboarding" >}}) guide to explain each step. Update: This page has been moved to [Onboarding]({{< ref "general-onboarding" >}}).
 1. Move unlimited vacation to a set amount so GitLab team-members take their full vacation.
     - We are taking a look at what the best option is in regard to a limited or unlimited vacation. We want to urge that GitLab team-members take enough [time off]({{< ref "paid-time-off" >}}) to recharge! Unlimited vacation/taking vacation is encourage at GitLab. For information on how these developments are going, check out the open [issue](https://gitlab.com/gitlab-com/www-gitlab-com/issues/952)
 1. Less downtime on GitLab.com.
-    - Our Infrastructure team is always looking for new ways to improve the ownership of the things we ship. The team will look to have owners of services or features, and these services working will be the way they prove that they are actually delivering. Infrastructure has also increased uptime to 99.91% in [December 2016](http://stats.pingdom.com/81vpf8jyr1h9/1902794/2016/12).
+    - Our Infrastructure team is always looking for new ways to improve the ownership of the things we ship. The team will look to have owners of services or features, and these services working will be the way they prove that they are actually delivering. Infrastructure has also increased uptime to 99.91% in [December 2016](https://stats.pingdom.com/81vpf8jyr1h9/1902794/2016/12).
 1. Casual and social interaction.
     - We have instituted [Coffee Breaks](/handbook/company/culture/all-remote/tips#coffee-chats) to promote catching up with GitLab team-members. Also, all GitLab team-members are just a click away on Slack or a call away on the [Random Hangout](/handbook/communication/#random-room).
 1. Revise Lever Notifications.

@@ -31,7 +31,7 @@ The Test Platform sub-department does this by focusing on:
 
 ## Vision
 
-The Test Platform sub-department vision is to focus on customer satisfaction and enable GitLab to deliver faster and efficiently by supporting Gitlab's principle of Quality is everyone's responsibility.
+The Test Platform sub-department vision is to focus on customer satisfaction and enable GitLab to deliver faster and efficiently by supporting GitLab's principle of Quality is everyone's responsibility.
 
 Integral parts of this vision:
 
@@ -157,12 +157,12 @@ Infrastructure Department structure is documented [here](/handbook/engineering/i
 ```mermaid
 graph TD
     A[Test Platform sub-department]
-    A --> B(Self-Managed Platform team)
+    A --> B(Performance Enablement)
     A --> C(Test Engineering team)
     A --> D(Test and Tools Infrastructure team)
 
     click A "/handbook/engineering/infrastructure/test-platform"
-    click B "/handbook/engineering/infrastructure/test-platform/self-managed-platform-team"
+    click B "/handbook/engineering/infrastructure-platforms/developer-experience/performance-enablement"
     click C "/handbook/engineering/infrastructure/test-platform/test-engineering-team"
     click D "/handbook/engineering/infrastructure/test-platform/test-and-tools-infrastructure-team"
 ```
@@ -174,7 +174,7 @@ Feel free to reach out to us by opening an issue on the [Quality Team Tasks proj
 | Team                           | GitLab.com handle  | Slack channel | Slack handle |
 | ------------------------------ | ------------------ | ------------- | ------------ |
 | Test Platform            | [`@gl-quality/tp-sub-dept`](https://gitlab.com/gl-quality/tp-sub-dept) | [#test-platform](https://gitlab.slack.com/archives/C3JJET4Q6) | None |
-| [Self-Managed Platform team](self-managed-platform-team) | [`@gl-quality/tp-self-managed-platform`](https://gitlab.com/gl-quality/tp-self-managed-platform) | [#self-managed-platform-team](https://gitlab.slack.com/archives/CTP7N0PM4) | `@self-managed-platform` |
+| [Self-Managed Platform team](/handbook/engineering/infrastructure-platforms/developer-experience/performance-enablement) | [`@gl-quality/tp-self-managed-platform`](https://gitlab.com/gl-quality/tp-self-managed-platform) | [#self-managed-platform-team](https://gitlab.slack.com/archives/CTP7N0PM4) | `@self-managed-platform` |
 | [Test Engineering team](test-engineering-team) | [`@gl-quality/tp-test-engineering`](https://gitlab.com/gl-quality/tp-test-engineering) | [#test-engineering-team](https://gitlab.slack.com/archives/C064M4S0FU5) |`@test-engineering-team` |
 | [Test and Tools Infrastructure team](test-and-tools-infrastructure-team)     | [`@gl-quality/tp-test-tools-infrastructure`](https://gitlab.com/gl-quality/tp-test-tools-infrastructure)  |  [`#test-tools-infrastructure-team`](https://gitlab.slack.com/archives/C064M4D2V37)  | `@test-tools-infrastructure` |
 
@@ -186,7 +186,7 @@ Feel free to reach out to us by opening an issue on the [Quality Team Tasks proj
 
 ### Individual contributors
 
-The following people are members of the [Self-Managed Platform team](self-managed-platform-team):
+The following people are members of the [Self-Managed Platform team](/handbook/engineering/infrastructure-platforms/developer-experience/performance-enablement):
 
 {{< team-by-manager-slug "ksvoboda" >}}
 
@@ -256,7 +256,7 @@ Milestones (product releases) are one of our [planning horizons](/handbook/produ
 - Maintenance - EM
 - Bug - QEM
 
-We use [type labels](/handbook/product/groups/product-analysis/engineering/dashboards/#work-type-classification) to track: feature, maintenance, and bug issues and MRs. UX Leadership are active participants in influencing the prioritization of all three work types.
+We use [type labels](/handbook/product/groups/product-analysis/engineering/metrics/#work-type-classification) to track: feature, maintenance, and bug issues and MRs. UX Leadership are active participants in influencing the prioritization of all three work types.
 
 QEMs meet with their PM, EM, and UX counterparts to discuss the priorities for the upcoming milestone. The purpose of this is to ensure that everyone understands the requirements and to assess whether or not there is the capacity to complete all of the proposed issues.
 
@@ -319,12 +319,6 @@ Currently, we do not have an SET embedded within every product group, hence for 
 Please note that the borrow request might not guarantee 100% allocation to the requested product group. The temporary allocation will depend upon ongoing priorities.
 
 The list of all SET borrow requests can be seen [here](https://gitlab.com/gitlab-com/Product/-/issues/?label_name%5B%5D=SET%20Borrow).
-
-### Blocking tests
-
-Blocking tests have met stricter reliability criteria than other tests in our test suite. When a failure is seen in a blocking test, it's less likely to be flakiness and more likely to be a true issue.
-
-For more information, please visit our [blocking tests page](blocking-tests).
 
 ### Risk mapping
 

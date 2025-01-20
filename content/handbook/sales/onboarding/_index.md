@@ -21,18 +21,21 @@ For a detailed list of SQS Learning Objectives, please visit [this page](/handbo
 - [SQS Workshop](/handbook/sales/onboarding/SQS-workshop/)
 - [Graduating from Sales Quick Start](/handbook/sales/onboarding/graduating-SQS/)
 
-## Upcoming Sales Quick Start (SQS) Workshops
+## Current & Upcoming Sales Quick Start (SQS) Workshops
 
 | DATES | GEO | LOCATION | ISSUE |
 | ------ | ------ | ------ | ------ |
-| August 22nd - September 13th, 2024  | AMER / EMEA | Virtual | [SQS 41 issue](https://gitlab.com/gitlab-com/sales-team/field-operations/enablement/-/issues/2795) |
-| October 14th - October 28th, 2024  | AMER / EMEA | Virtual | [SQS 42 issue](https://gitlab.com/gitlab-com/sales-team/field-operations/enablement/-/issues/2857) |
+| February 6th - February 26th, 2025  | AMER / EMEA | Virtual | [SQS 44 issue](https://gitlab.com/gitlab-com/sales-team/field-operations/enablement/-/issues/2946) |
+| April 2nd - April 23rd, 2025  | AMER / EMEA | Virtual | [SQS 45 issue](https://gitlab.com/gitlab-com/sales-team/field-operations/enablement/-/issues/2984) |
 
 ## Past Sales Quick Start (SQS) Workshops
 
 | DATES | GEO | LOCATION | ISSUE |
 | ------ | ------ | ------ | ------ |
-| July 15th - July 26th, 2024  | AMER / EMEA | Virtual | [SQS 40 issue](https://gitlab.com/gitlab-com/sales-team/field-operations/enablement/-/issues/2660) |
+| December 9th, 2024 - January 17th, 2025  | AMER / EMEA | Virtual | [SQS 43 issue](https://gitlab.com/gitlab-com/sales-team/field-operations/enablement/-/issues/2898) |
+| October 14th - October 28th, 2024  | AMER / EMEA | Virtual | [SQS 42 issue](https://gitlab.com/gitlab-com/sales-team/field-operations/enablement/-/issues/2857) |
+| August 22nd - September 13th, 2024  | AMER / EMEA | Virtual | [SQS 41 issue](https://gitlab.com/gitlab-com/sales-team/field-operations/enablement/-/issues/2795) |
+| July 15th - 26th, 2024  | AMER / EMEA | Virtual | [SQS 40 issue](https://gitlab.com/gitlab-com/sales-team/field-operations/enablement/-/issues/2660) |
 | June 7th - 24th, 2024  | AMER / EMEA | Virtual | [SQS 39 issue](https://gitlab.com/gitlab-com/sales-team/field-operations/enablement/-/issues/2425) |
 | April 15th - 26th, 2024  | AMER / EMEA | Virtual | [SQS 38 issue](https://gitlab.com/gitlab-com/sales-team/field-operations/enablement/-/issues/2424) |
 | February  26th - March 8th, 2024  | AMER / EMEA | Virtual | [SQS 37 issue](https://gitlab.com/gitlab-com/sales-team/field-operations/enablement/-/issues/2423) |
@@ -73,7 +76,7 @@ The onboarding program includes individual role-based learning journeys for AEs,
 
 **Check out the links below to find the specific onboarding handbook page for your role. On these pages you can find additional role based onboarding and shadow program information including learning objectives, manager expectations & graduation requirements.**
 
-- Enterprise & Commercial Account Executives - [Sales Onboarding (Shadow Program) Handbook](/handbook/sales/shadow-program/)
+- Enterprise, Commercial & Ecosystem Sales - [Sales Onboarding (Shadow Program) Handbook](/handbook/sales/shadow-program/)
 - Renewals Managers: [RM Onboarding Handbook](/handbook/customer-success/renewals-managers/rm-onboarding/)
 - Customer Success: [CSM Onboarding Handbook](/handbook/customer-success/csm/csm-onboarding/)
 - Customer Success: [CSE Onboarding Handbook](/handbook/customer-success/csm/segment/cse/cse-tm-onboarding/)
@@ -82,7 +85,7 @@ The onboarding program includes individual role-based learning journeys for AEs,
 
 **Click on a link below to begin your role based e-learning journey.**
 
-- Enterprise & Commercial Account Executives - [Sales (AE) Onboarding Journey](https://levelup.gitlab.com/access/saml/login/internal-team-members?returnTo=https://levelup.gitlab.com/learn/learning-path/enterprise-sales-onboarding-journey)
+- Enterprise, Commercial & Ecosystem Sales - [Sales (AE) Onboarding Journey](https://levelup.gitlab.com/access/saml/login/internal-team-members?returnTo=https://levelup.gitlab.com/learn/learning-path/enterprise-sales-onboarding-journey)
 - Renewals Manager: [Renewals Manager (RM) Onboarding Journey](https://levelup.gitlab.com/access/saml/login/internal-team-members?returnTo=https://university.gitlab.com/learn/learning-path/renewals-manager-onboarding-journey)
 - Solutions Architect - [Solutions Architect (SA) Onboarding Journey](https://university.gitlab.com/learn/learning-path/solutions-architect-sa-onboarding-journey)
 - Customer Success Management: [(CSM) Onboarding Journey](https://levelup.gitlab.com/access/saml/login/internal-team-members?returnTo=https://levelup.gitlab.com/learn/learning-path/technical-account-manager-tam-onboarding)
@@ -92,7 +95,7 @@ The onboarding program includes individual role-based learning journeys for AEs,
 
 ### Role Based Journeys Coming Soon
 
-- Channel & Alliances
+- Ecosystem Sales
 
 ### Onboarding Program Health Measurement
 
@@ -164,8 +167,8 @@ By comparing the learners' pre-training and post-training confidence levels, we 
 
 By using the Kirkpatrick model to evaluate the sales onboarding program at each of these four levels, we gain a holistic view of the program's effectiveness and make data-driven decisions to improve it.
 
-### Sales Quick Start Onboarding Workshop & e-learning Feedback 
+### Sales Quick Start Onboarding Workshop & e-learning Feedback
 
-Your feedback on the onboarding process and content is important to us and we welcome your thoughts and ideas about how we can improve in the future. 
+Your feedback on the onboarding process and content is important to us and we welcome your thoughts and ideas about how we can improve in the future.
 
-Please share your feedback by opening an issue using the following [SQS Feedback issue template.](https://gitlab.com/gitlab-com/sales-team/field-operations/enablement/-/issues/new) 
+Please share your feedback by opening an issue using the following [SQS Feedback issue template.](https://gitlab.com/gitlab-com/sales-team/field-operations/enablement/-/issues/new)

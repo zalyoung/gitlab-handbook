@@ -118,7 +118,7 @@ It may be useful to run a [SSL Server Test](https://www.ssllabs.com/ssltest/anal
 
 ### Obtain DevTools > Network HAR file during activation
 
-A user's [browser's DevTools](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Tools_and_setup/What_are_browser_developer_tools) can be particularly useful in diagnosing cloud license connectivity failures, especially since the GitLab internal API ([graphql](https://docs.gitlab.com/ee/api/graphql/)) response can be viewed.
+A user's [browser's DevTools](https://developer.mozilla.org/en-US/docs/Learn_web_development/Howto/Tools_and_setup/What_are_browser_developer_tools) can be particularly useful in diagnosing cloud license connectivity failures, especially since the GitLab internal API ([graphql](https://docs.gitlab.com/ee/api/graphql/)) response can be viewed.
 
 1. Open the DevTools (usually `ctrl+shift+i`) and navigate to the Network tab
 1. (re)Load the page at `/admin/subscription`
@@ -127,7 +127,7 @@ A user's [browser's DevTools](https://developer.mozilla.org/en-US/docs/Learn/Com
 
 - Note that multiple `graphql` resources may be present, and not all will be related to the cloud licensing activation process.
 
-Since there will be a lot of information presented in the DevTools, feel free to suggest that the customer [generate a network HAR file](https://support.zendesk.com/hc/en-us/articles/4408828867098) and attach it to the ticket for closer inspection by us.
+Since there will be a lot of information presented in the DevTools, feel free to suggest that the customer [generate a network HAR file](https://support.zendesk.com/hc/en-us/articles/4408828867098-Generating-a-HAR-file-for-troubleshooting) and attach it to the ticket for closer inspection by us.
 
 Caution: Advise the user to sign out of the GitLab session they recorded to invalidate their session credentials.
 See [sec.Okta.com/harfiles](https://sec.okta.com/harfiles) for context.

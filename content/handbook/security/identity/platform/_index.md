@@ -4,7 +4,7 @@ description: "The Identity Platform is a collection of microservices and tools t
 ---
 
 {{% alert title="Not Live Yet" color="warning" %}}
-You are viewing a preview of documentation for the future state of GitLab Identity v3 (mid 2024). See the <a href="https://handbook.gitlab.com/handbook/security/access-management-policy">Access Management Policy</a> for the GitLab Identity v2 current state with baseline entitlements and access requests. See the roadmap in the <a href="https://gitlab.com/groups/gitlab-com/gl-security/identity/eng/-/roadmap?state=all&sort=start_date_asc&layout=QUARTERS&timeframe_range_type=THREE_YEARS&group_path=gitlab-com/gl-security/identity/eng&progress=WEIGHT&show_progress=true&show_milestones=false&milestones_type=ALL&show_labels=true">epics gantt chart</a>.
+You are viewing a preview of documentation for the future state of GitLab Identity v3 (mid 2024). See the <a href="/handbook/security/security-and-technology-policies/access-management-policy/">Access Management Policy</a> for the GitLab Identity v2 current state with baseline entitlements and access requests. See the roadmap in the <a href="https://gitlab.com/groups/gitlab-com/gl-security/identity/eng/-/roadmap?state=all&sort=start_date_asc&layout=QUARTERS&timeframe_range_type=THREE_YEARS&group_path=gitlab-com/gl-security/identity/eng&progress=WEIGHT&show_progress=true&show_milestones=false&milestones_type=ALL&show_labels=true">epics gantt chart</a>.
 {{% /alert %}}
 
 ## Identity Platform Architecture
@@ -722,9 +722,9 @@ classDef fuchsia fill:#f0abfc,stroke:#c026d3,stroke-width:1px;
 
 Access Control is an open source monolith [code base](https://gitlab.com/gitlab-identity/accessctl) created by Jeff Martin that is built with the [Laravel framework](https://laravel.com) with multiple functional components included that are deployed in a distributed fashion to dogfood GitLab CI/CD pipelines and GitLab Runner for background jobs, GitLab repository for policy and manifest storage, CODEOWNERS and merge request approvals for change management.
 
-Although Laravel has [batteries included](https://laravel.com/docs) for all of the full stack web application and SQL database capabilities that rivals Django or Ruby on Rails, we are using it as more of a scripting engine that is easier for team members to contribute to and leverages GitLab for backend processing wherever possible. We still use Laravel native capabilities to expose a REST API, Web UI, and CLI for improved frontend user experience.
+Although Laravel has [batteries included](https://laravel.com/docs/11.x) for all of the full stack web application and SQL database capabilities that rivals Django or Ruby on Rails, we are using it as more of a scripting engine that is easier for team members to contribute to and leverages GitLab for backend processing wherever possible. We still use Laravel native capabilities to expose a REST API, Web UI, and CLI for improved frontend user experience.
 
-We use [Laravel Actions](https://laravelactions.com) for our business logic service classes. By using Laravel Actions, we simplify our architecture since each single responsibility principle (SRP) action can be invoked as a class, a console CLI command, or a background job. This also allows us to get data from the GitLab API for repository data instead of needing to use models and migrations for a large SQL database.
+We use [Laravel Actions](https://www.laravelactions.com/) for our business logic service classes. By using Laravel Actions, we simplify our architecture since each single responsibility principle (SRP) action can be invoked as a class, a console CLI command, or a background job. This also allows us to get data from the GitLab API for repository data instead of needing to use models and migrations for a large SQL database.
 
 See the [gitlab-identity/accessctl](https://gitlab.com/gitlab-identity/accessctl) repository and README to learn more.
 

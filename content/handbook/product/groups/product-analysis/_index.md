@@ -5,13 +5,13 @@ title: Product Data Insights
 
 ## Product Data Insights Handbook
 
-The Product Data Insights (formerly known as "Product Analysis") group consists of a team of
-product analysts. This group reports to the Senior Director, Product Monetization and serves
-as a functional analytics team to support the GitLab Product division and product data-related
-analysis across GitLab.
+The Product Data Insights group consists of a team of product analysts. This group reports to
+the VP, Product Management and serves as a functional analytics team to support the GitLab R&D
+Organization (Product and Engineering divisions), in addition to product data-related analysis
+across GitLab.
 
-In addition to supporting the Product division, the Product Data Insights team is an active
-contributor to the GitLab Data Program. As part of the [Research & Development (R&D) Data Fusion Team](/handbook/enterprise-data/#analytics-engineering-team),
+In addition to supporting the Product and Engineering divisions, the Product Data Insights team is an active
+contributor to the GitLab Data Program. As part of the [Customer Product Adoption (CPA) Pod](/handbook/enterprise-data/organization/#data-pod-assignments),
 the product analysts also work closely with members from the Enterprise Data team. In addition,
 the Product Data Insights team is part of the [Functional Analytics Center of Excellence (FACE)](/handbook/enterprise-data/functional-analytics-center-of-excellence/),
 along with other functional analytics groups across the GitLab Data Program.
@@ -20,16 +20,16 @@ Read more about what we do at GitLab on our [Direction](https://about.gitlab.com
 
 ### Team members
 
-Product Data Insights is a small (but mighty) team. In order to support the Product division,
-each analyst is assigned to one or more sections or teams to support.
+Product Data Insights is a small (but mighty) team. In order to support the Product and
+Engineering divisions, each analyst is assigned to one or more sections or teams to support.
 
 | Name | Title | Product Section or Team |
 | --- | --- | --- |
 | [Carolyn Braza](/handbook/company/team/#cbraza) | [Senior Manager, Product Data Insights](/job-families/product/product-analyst/#senior-manager-product-data-insights) | [Analytics](/handbook/product/categories/#analytics-section) |
 | [Dani Deng](/handbook/company/team/#ddeng1) | [Product Analyst](/job-families/product/product-analyst/#product-analyst-intermediate) | [Growth](/handbook/product/categories/#growth-section), [Engineering](/handbook/engineering/) |
 | [Nicole Hervas](/handbook/company/team/#nhervas) | [Senior Product Analyst](/job-families/product/product-analyst/#senior-product-analyst) | [CI](/handbook/product/categories/#ci-section), [CD](/handbook/product/categories/#cd-section) |
-| [Lily Mai](/handbook/company/team/#lmai1) | [Senior Product Analyst](/job-families/product/product-analyst/#senior-product-analyst) | [Data Science](/handbook/product/categories/#data-science-section), [Engineering](/handbook/engineering/) |
-| [Emma Neuberger](/handbook/company/team/#eneuberger) | [Senior Product Analyst](/job-families/product/product-analyst/#senior-product-analyst) | [Core Platform](/handbook/product/categories/#core-platform-section), [SaaS Platforms](/handbook/product/categories/#saas-platforms-section) |
+| [Lily Fisher](/handbook/company/team/#lmai1) | [Senior Product Analyst](/job-families/product/product-analyst/#senior-product-analyst) | [Core Platform](/handbook/product/categories/#core-platform-section), [Infrastructure Platforms](/handbook/product/categories/#infrastructure-platforms-section), [Engineering](/handbook/engineering/) |
+| [Emma Fergen](/handbook/company/team/#efergen) | [Senior Product Analyst](/job-families/product/product-analyst/#senior-product-analyst) | [Data Science](/handbook/product/categories/#data-science-section) |
 | [Matthew Petersen](/handbook/company/team/#matthewpetersen) | [Senior Product Analyst](/job-families/product/product-analyst/#senior-product-analyst) | [Dev](/handbook/product/categories/#dev-section)  |
 | [Dave Peterson](/handbook/company/team/#dpeterson1) | [Staff Product Analyst](/job-families/product/product-analyst/#staff-product-analyst) | [Sec](/handbook/product/categories/#sec-section) |
 | [Neil Raisinghani](/handbook/company/team/#nraisinghani) | [Senior Product Analyst](/job-families/product/product-analyst/#senior-product-analyst) | [Fulfillment](/handbook/product/categories/#fulfillment-section), [Pricing](https://internal.gitlab.com/handbook/product/pricing/) |
@@ -122,8 +122,8 @@ request.
 #### PDI priority
 
 PDI priority is owned by the individual analyst. The Senior Manager, Product Data Insights will
-help refine priority based on importance and capacity. The team will work with the Senior
-Director, Product Monetization and/or Product leadership on trade-offs (if needed).
+help refine priority based on importance and capacity. The team will work with the VP, Product
+Management and/or Product leadership on trade-offs (if needed).
 
 Section priority and PM priority are both inputs in determining PDI priority. However, the
 scope of the team's work extends beyond section support (ex: cross-functional initiatives),
@@ -416,7 +416,7 @@ the Product Data Insights team's asynchronous daily stand-up, powered by [Geekbo
 
 1. `@product-analysts` - Notifies the entire Product Data Insights team
 1. `@randdanalyticstriage` - Notifies the entire Product Data Insights team and the Data
-team's R&D Fusion group, per the [Enterprise Data Triage Program](/handbook/enterprise-data/how-we-work/triage/#enterprise-data-program-triage)
+team's Customer Product Adoption pod, per the [Enterprise Data Triage Program](/handbook/enterprise-data/how-we-work/triage/#enterprise-data-program-triage)
 1. `@functional-data-analysts` - Notifies the entire Product Data Insights team and other functional
 analysts across the GitLab Data Program
 
@@ -434,7 +434,7 @@ Recordings from office hours, analysis/read-outs, etc
 1. [Data Guide Series](/handbook/enterprise-data/data-catalog/#product-release-to-adoption-catalog)
 1. [Data Team Handbook](/handbook/enterprise-data/)
 1. [Data Catalog](/handbook/enterprise-data/data-catalog/)
-1. [Product Manager Toolkit](/handbook/enterprise-data/data-catalog/xmau-analysis/product-manager-toolkit.html)
+1. [Product Manager Toolkit](/handbook/enterprise-data/data-catalog/xmau-analysis/product-manager-toolkit/)
 1. [Data for Product Managers](/handbook/enterprise-data/programs/data-for-product-managers/)
 1. [Experimentation Best Practices](/handbook/enterprise-data/experimentation-best-practices/)
 1. [Functional Analytics Center of Excellence (FACE) Source of Truth Fields for Reporting](/handbook/enterprise-data/functional-analytics-center-of-excellence/source-of-truth-fields-for-reporting/)

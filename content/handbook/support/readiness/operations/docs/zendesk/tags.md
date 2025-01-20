@@ -7,7 +7,7 @@ canonical_path: "/handbook/support/readiness/operations/docs/zendesk/tags"
 ## What are Zendesk tags?
 
 As per
-[Zendesk](https://support.zendesk.com/hc/en-us/articles/203662096-About-tags):
+[Zendesk](https://support.zendesk.com/hc/en-us/articles/4408888664474-About-tags):
 
 > Tags are words, or combinations of words, you can use to add more context to
 > tickets and topics. You can apply tags to tickets, users, and organizations.
@@ -23,28 +23,33 @@ important to those working within Zendesk:
 ## Zendesk Global common tags
 
 <details>
-<summary>SLA Related Tags</summary>
+<summary>SLA/Subscription Related Tags</summary>
 
-| Tag                            | SLA granted | What it means |
-|--------------------------------|-------------|---------------|
-| `sub_community_other`          | None        | The organization has a community subscription of an unknown type |
-| `sub_consumption_ai`           | Consumption | The organization has purchased an AI addon |
-| `sub_consumption_cicd_minutes` | Consumption | The organization has purchased CI/CD minutes |
-| `sub_consumption_eap`          | Consumption | The organization has purchased the Enterprise Agile Planning addon |
-| `sub_consumption_storage`      | Consumption | The organization has storage |
-| `sub_dotcom_premium`           | Priority    | The organization has a GitLab.com Premium subscription |
-| `sub_dotcom_ultimate`          | Priority    | The organization has a GitLab.com Ultimate subscription |
-| `sub_edu`                      | None        | The organization has a EDU community subscription |
-| `sub_gitlab_dedicated`         | Priority    | The organization has a GitLab Dedicated subscription |
-| `sub_oss`                      | None        | The organization has a OSS community subscription |
-| `sub_other`                    | General     | The organization has an unknown purchase |
-| `sub_proserv`                  | None        | The organization has a Professional Services engagement purchase |
-| `sub_sm_premium`               | Priority    | The organization has a Self-managed Premium subscription |
-| `sub_sm_starter`               | Standard    | The organization has a Self-managed Starter subscription |
-| `sub_sm_ultimate`              | Priority    | The organization has a Self-managed Ultimate subscription |
-| `sub_ss_ase`                   | General     | The organization has purchased an Assigned Support Engineer addon |
-| `sub_usgov_12x5`               | Priority    | The organization has a US Government purchase granting 12x5 support |
-| `sub_usgov_24x7`               | Priority    | The organization has a US Government purchase granting 24x7 support |
+| Tag                              | SLA granted | What it means |
+|----------------------------------|-------------|---------------|
+| `sub_community_other`            | None        | The organization has a community subscription of an unknown type |
+| `sub_consumption_ai`             | Consumption | The organization has purchased an AI addon |
+| `sub_consumption_cicd_minutes`   | Consumption | The organization has purchased CI/CD minutes |
+| `sub_consumption_eap`            | Consumption | The organization has purchased the Enterprise Agile Planning addon |
+| `sub_consumption_duo_enterprise` | Consumption | The organization has purchased GitLab Duo Enterprise |
+| `sub_consumption_duo_premium`    | Consumption | The organization has purchased GitLab Duo Premium |
+| `sub_consumption_duo_amazon_q`   | Consumption | The organization has purchased GitLab Duo with Amazon Q |
+| `sub_consumption_storage`        | Consumption | The organization has storage |
+| `sub_dotcom_premium`             | Priority    | The organization has a GitLab.com Premium subscription |
+| `sub_dotcom_ultimate`            | Priority    | The organization has a GitLab.com Ultimate subscription |
+| `sub_edu`                        | None        | The organization has a EDU community subscription |
+| `sub_gitlab_dedicated`           | Priority    | The organization has a GitLab Dedicated subscription |
+| `sub_oss`                        | None        | The organization has a OSS community subscription |
+| `sub_other`                      | General     | The organization has an unknown purchase |
+| `sub_proserv`                    | None        | The organization has a Professional Services engagement purchase |
+| `sub_sm_premium`                 | Priority    | The organization has a Self-managed Premium subscription |
+| `sub_sm_starter`                 | Standard    | The organization has a Self-managed Starter subscription |
+| `sub_sm_ultimate`                | Priority    | The organization has a Self-managed Ultimate subscription |
+| `sub_ss_ase`                     | General     | The organization has purchased an Assigned Support Engineer addon |
+| `sub_ss_growth`                  | General     | The organization has purchased a Success Growth addon |
+| `sub_ss_enterprise`              | Special     | The organization has purchased a Success Enterprise addon |
+| `sub_usgov_12x5`                 | Priority    | The organization has a US Government purchase granting 12x5 support |
+| `sub_usgov_24x7`                 | Priority    | The organization has a US Government purchase granting 24x7 support |
 
 </details>
 <details>
@@ -71,6 +76,12 @@ important to those working within Zendesk:
 |--------------------------------|---------------|
 | `greatly_expired`              | The organization is slated to be removed due to data rentention policies |
 | `not_in_sfdc`                  | The organization is not being controlled by the ZD-SFDC sync |
+| `org_region_apac`              | The organization has a Geographic Demographic relating to APAC |
+| `org_region_amer`              | The organization has a Geographic Demographic relating to AMER |
+| `org_region_emea`              | The organization has a Geographic Demographic relating to EMEA |
+| `org_region_latam`             | The organization has a Geographic Demographic relating to LATAM |
+| `org_region_ncsa`              | The organization has a Geographic Demographic relating to NCSA |
+| `org_region_noram`             | The organization has a Geographic Demographic relating to NORAM |
 | `partner_customer`             | The organization has purchased from an OEM partner |
 | `restricted_account`           | The SFDC account is classified as restricted and cannot receive support |
 | `sub_community_other`          | The organization has a community subscription which had an undetectable type |
@@ -94,7 +105,951 @@ important to those working within Zendesk:
 
 </details>
 <details>
-<summary>Categorization tags</summary>
+<summary>Categorization tags (current)</summary>
+
+| Tag | What it means/Categorization |
+|-----|------------------------------|
+| `lnr_category_cdot` | The L&R ticket involves customers.gitlab.com |
+| `lnr_category_other` | The L&R ticket's category is unknown |
+| `lnr_category_purchasing_issues` | The L&R ticket involves purchasing issues |
+| `lnr_category_qsr` | The L&R ticket involves QSR |
+| `lnr_category_saas` | The L&R ticket involves saas issues |
+| `lnr_category_sm` | The L&R ticket involves self-managed issues |
+| `lnr_category_special_program` | The L&R ticket involves GitLab special programs (EDU, OSS, etc.) |
+| `lnr_category_trial` | The L&R ticket involves GitLab trials |
+| `lnr_cdot_contacts` | The L&R ticket involves customers.gitlab.com account contacts |
+| `lnr_cdot_login` | The L&R ticket involves customers.gitlab.com login issues |
+| `lnr_cdot_other` | The L&R ticket involves customers.gitlab.com in some way |
+| `lnr_cdot_transfer` | The L&R ticket involves customers.gitlab.com account transfers |
+| `lnr_purchasing_issues_cc_issues` | The L&R ticket involves CC issues when purchasing |
+| `lnr_purchasing_issues_non_cc_issues` | The L&R ticket involves non-CC issues when purchasing |
+| `lnr_purchasing_issues_other` | The L&R ticket involves some other purchasing issue |
+| `lnr_qsr_dispute` | The L&R ticket involves a QSR dispute |
+| `lnr_qsr_other` | The L&R ticket involves something else about QSR |
+| `lnr_qsr_questions` | The L&R ticket involves QSR questions |
+| `lnr_saas_link_sub` | The L&R ticket involves linking a subscription to a namespace |
+| `lnr_saas_other` | The L&R ticket involves something else about saas subscriptions |
+| `lnr_saas_seat_usage` | The L&R ticket involves namespace seat usage |
+| `lnr_saas_sub_issues` | The L&R ticket involves an issue with a saas subscription |
+| `lnr_sm_cloud_opt_out` | The L&R ticket involves opting out of SCL |
+| `lnr_sm_did_not_receive` | The L&R ticket involves not receiving a SM license |
+| `lnr_sm_license_errors` | The L&R ticket involves errors applying a SM license |
+| `lnr_sm_other` | The L&R ticket involves something else about SM licenses |
+| `lnr_sm_resend_to_new_contact` | The L&R ticket involves sending a license to a new contact |
+| `lnr_sm_seat_usage` | The L&R ticket involves seat usage on a SM instance |
+| `lnr_special_programs_other` | The L&R ticket involves something else about special programs |
+| `lnr_special_programs_questions` | The L&R ticket involves general questions about special programs |
+| `lnr_special_programs_renew` | The L&R ticket involves renewing a special program offerring |
+| `lnr_special_programs_sheerid` | The L&R ticket involves issues appying a SheerID |
+| `lnr_trial_cannot_apply` | The L&R ticket involves not being able to apply a trial |
+| `lnr_trial_cannot_start` | The L&R ticket involves not being able to start a trial |
+| `lnr_trial_other` | The L&R ticket involves something else about trials |
+| `lnr_trial_questions` | The L&R ticket involves general trial questions |
+| `resold_status_no` | The customer has stated they did not buy via a reseller |
+| `resold_status_reseller` | The customer has stated they are a reseller |
+| `resold_status_resold` | The customer has stated they did buy via a reseller |
+| `resold_status_unsure` | The customer is unsure if they bought via a reseller or not |
+| `saas_account_2fa_issues_questions` | The gitlab.com Account ticket involves 2FA questions |
+| `saas_account_2fa_issues_removal` | The gitlab.com Account ticket involves 2FA removal |
+| `saas_account_2fa_issues_setup` | The gitlab.com Account ticket involves 2FA setup |
+| `saas_account_access_issues_blocked` | The gitlab.com Account ticket involves getting account blocked errors |
+| `saas_account_access_issues_cannot_login` | The gitlab.com Account ticket involves not being able to login to gitlab.com |
+| `saas_account_access_issues_change_account` | The gitlab.com Account ticket involves changing something on a gitlab.com account |
+| `saas_account_access_issues_cloudflare` | The gitlab.com Account ticket involves CloudFlare issues |
+| `saas_account_access_issues_ip_blocked` | The gitlab.com Account ticket involves the customer's IP being blocked |
+| `saas_account_access_issues_locked` | The gitlab.com Account ticket involves getting account locked errors |
+| `saas_account_access_issues_other` | The gitlab.com Account ticket involves something else about accessing gitlab.com |
+| `saas_account_category_2fa_issues` | The gitlab.com Account ticket involves 2FA |
+| `saas_account_category_access_issues` | The gitlab.com Account ticket involves accessing gitlab.com |
+| `saas_account_category_account_deletion` | The gitlab.com Account ticket involves account deletion |
+| `saas_account_category_email_issues` | The gitlab.com Account ticket involves email issues |
+| `saas_account_category_namesquatting` | The gitlab.com Account ticket involves namesquatting |
+| `saas_account_category_other` | The gitlab.com Account ticket something else |
+| `saas_account_category_registration_issues` | The gitlab.com Account ticket involves registering a gitlab.com account |
+| `saas_account_email_issues_confirmation` | The gitlab.com Account ticket involves confirmation emails |
+| `saas_account_email_issues_notifications` | The gitlab.com Account ticket involves notification emails |
+| `saas_account_email_issues_reset` | The gitlab.com Account ticket involves password reset emails |
+| `support_category_administering_gitlab_admin_area_instance` | Maintaining/Administering GitLab::Admin Area::Instance settings |
+| `support_category_administering_gitlab_admin_area_limits` | Maintaining/Administering GitLab::Admin Area::Account and limit settings |
+| `support_category_administering_gitlab_admin_area` | Maintaining/Administering GitLab::Admin Area |
+| `support_category_administering_gitlab_admin_area_other` | Maintaining/Administering GitLab::Admin Area::Other |
+| `support_category_administering_gitlab_admin_area_questions` | Maintaining/Administering GitLab::Admin Area::General questions |
+| `support_category_administering_gitlab_admin_area_user_group` | Maintaining/Administering GitLab::Admin Area::User/Group management |
+| `support_category_administering_gitlab_backups_create` | Maintaining/Administering GitLab::Backups/Restores::Creating backups |
+| `support_category_administering_gitlab_backups` | Maintaining/Administering GitLab::Backups/Restores |
+| `support_category_administering_gitlab_backups_manage` | Maintaining/Administering GitLab::Backups/Restores::Managing backups |
+| `support_category_administering_gitlab_backups_other` | Maintaining/Administering GitLab::Backups/Restores::Other |
+| `support_category_administering_gitlab_backups_restore` | Maintaining/Administering GitLab::Backups/Restores::Performing a restore |
+| `support_category_administering_gitlab_other` | Maintaining/Administering GitLab::Other |
+| `support_category_administering_gitlab_securing_2fa` | Maintaining/Administering GitLab::Securing my GitLab setup::Enforce two-factor authentication |
+| `support_category_administering_gitlab_securing_compliance` | Maintaining/Administering GitLab::Securing my GitLab setup::Compliance features |
+| `support_category_administering_gitlab_securing_email_confirmation` | Maintaining/Administering GitLab::Securing my GitLab setup::User email confirmation |
+| `support_category_administering_gitlab_securing_exclusivity` | Maintaining/Administering GitLab::Securing my GitLab setup::Information exclusivity |
+| `support_category_administering_gitlab_securing_incidents` | Maintaining/Administering GitLab::Securing my GitLab setup::Responding to security incidents |
+| `support_category_administering_gitlab_securing_jobs` | Maintaining/Administering GitLab::Securing my GitLab setup::Security of running jobs |
+| `support_category_administering_gitlab_securing` | Maintaining/Administering GitLab::Securing my GitLab setup |
+| `support_category_administering_gitlab_securing_other` | Maintaining/Administering GitLab::Securing my GitLab setup::Other |
+| `support_category_administering_gitlab_securing_proxying` | Maintaining/Administering GitLab::Securing my GitLab setup::Proxying assets |
+| `support_category_administering_gitlab_securing_rate_limits` | Maintaining/Administering GitLab::Securing my GitLab setup::Rate limits |
+| `support_category_administering_gitlab_securing_ssh_keys` | Maintaining/Administering GitLab::Securing my GitLab setup::Limits on SSH keys |
+| `support_category_administering_gitlab_securing_token` | Maintaining/Administering GitLab::Securing my GitLab setup::Token overview |
+| `support_category_administering_gitlab_securing_webhooks` | Maintaining/Administering GitLab::Securing my GitLab setup::Webhooks administration |
+| `support_category_administering_gitlab_upgrades_component` | Maintaining/Administering GitLab::Upgrading GitLab::Component upgrades |
+| `support_category_administering_gitlab_upgrades_database` | Maintaining/Administering GitLab::Upgrading GitLab::Database upgrades and migrations |
+| `support_category_administering_gitlab_upgrades_major` | Maintaining/Administering GitLab::Upgrading GitLab::Major upgrades |
+| `support_category_administering_gitlab_upgrades_minor` | Maintaining/Administering GitLab::Upgrading GitLab::Minor upgrades |
+| `support_category_administering_gitlab_upgrades_other` | Maintaining/Administering GitLab::Upgrading GitLab::Other |
+| `support_category_administering_gitlab_upgrading` | Maintaining/Administering GitLab::Upgrading GitLab |
+| `support_category_analyze_usage_audits_errors` | GitLab analytics::Audit Events::Issues/Errors |
+| `support_category_analyze_usage_audits` | GitLab analytics::Audit Events |
+| `support_category_analyze_usage_audits_other_topic` | GitLab analytics::Audit Events::Other |
+| `support_category_analyze_usage_audits_questions` | GitLab analytics::Audit Events::Questions |
+| `support_category_analyze_usage_audits_setup` | GitLab analytics::Audit Events::Setup/configuration |
+| `support_category_analyze_usage_cicd_errors` | GitLab analytics::CI/CD analytic::Issues/Errors |
+| `support_category_analyze_usage_cicd` | GitLab analytics::CI/CD analytics |
+| `support_category_analyze_usage_cicd_other_topic` | GitLab analytics::CI/CD analytic::Other |
+| `support_category_analyze_usage_cicd_questions` | GitLab analytics::CI/CD analytic::Questions |
+| `support_category_analyze_usage_cicd_setup` | GitLab analytics::CI/CD analytic::Setup/configuration |
+| `support_category_analyze_usage_code_review_errors` | GitLab analytics::Code Review Analytics::Issues/Errors |
+| `support_category_analyze_usage_code_review` | GitLab analytics::Code Review Analytics |
+| `support_category_analyze_usage_code_review_other_topic` | GitLab analytics::Code Review Analytics::Other |
+| `support_category_analyze_usage_code_review_questions` | GitLab analytics::Code Review Analytics::Questions |
+| `support_category_analyze_usage_code_review_setup` | GitLab analytics::Code Review Analytics::Setup/configuration |
+| `support_category_analyze_usage_contribution_errors` | GitLab analytics::Contribution Analytics::Issues/Errors |
+| `support_category_analyze_usage_contribution` | GitLab analytics::Contribution Analytics |
+| `support_category_analyze_usage_contribution_other_topic` | GitLab analytics::Contribution Analytics::Other |
+| `support_category_analyze_usage_contribution_questions` | GitLab analytics::Contribution Analytics::Questions |
+| `support_category_analyze_usage_contribution_setup` | GitLab analytics::Contribution Analytics::Setup/configuration |
+| `support_category_analyze_usage_group_devops_errors` | GitLab analytics::Group DevOps Adoption::Issues/Errors |
+| `support_category_analyze_usage_group_devops` | GitLab analytics::Group DevOps Adoption |
+| `support_category_analyze_usage_group_devops_other_topic` | GitLab analytics::Group DevOps Adoption::Other |
+| `support_category_analyze_usage_group_devops_questions` | GitLab analytics::Group DevOps Adoption::Questions |
+| `support_category_analyze_usage_group_devops_setup` | GitLab analytics::Group DevOps Adoption::Setup/configuration |
+| `support_category_analyze_usage_insights_errors` | GitLab analytics::Insights::Issues/Errors |
+| `support_category_analyze_usage_insights` | GitLab analytics::Insights |
+| `support_category_analyze_usage_insights_other_topic` | GitLab analytics::Insights::Other |
+| `support_category_analyze_usage_insights_questions` | GitLab analytics::Insights::Questions |
+| `support_category_analyze_usage_insights_setup` | GitLab analytics::Insights::Setup/configuration |
+| `support_category_analyze_usage_issues_errors` | GitLab analytics::Issue analytics::Issues/Errors |
+| `support_category_analyze_usage_issues` | GitLab analytics::Issue analytics |
+| `support_category_analyze_usage_issues_other_topic` | GitLab analytics::Issue analytics::Other |
+| `support_category_analyze_usage_issues_questions` | GitLab analytics::Issue analytics::Questions |
+| `support_category_analyze_usage_issues_setup` | GitLab analytics::Issue analytics::Setup/configuration |
+| `support_category_analyze_usage_mrs_errors` | GitLab analytics::Merge request analytics::Issues/Errors |
+| `support_category_analyze_usage_mrs` | GitLab analytics::Merge request analytics |
+| `support_category_analyze_usage_mrs_other_topic` | GitLab analytics::Merge request analytics::Other |
+| `support_category_analyze_usage_mrs_questions` | GitLab analytics::Merge request analytics::Questions |
+| `support_category_analyze_usage_mrs_setup` | GitLab analytics::Merge request analytics::Setup/configuration |
+| `support_category_analyze_usage_other_errors` | GitLab analytics::Other::Issues/Errors |
+| `support_category_analyze_usage_other` | GitLab analytics::Other |
+| `support_category_analyze_usage_other_other_topic` | GitLab analytics::Other::Other |
+| `support_category_analyze_usage_other_questions` | GitLab analytics::Other::Questions |
+| `support_category_analyze_usage_other_setup` | GitLab analytics::Other::Setup/configuration |
+| `support_category_analyze_usage_productivity_errors` | GitLab analytics::Productivity Analytics::Issues/Errors |
+| `support_category_analyze_usage_productivity` | GitLab analytics::Productivity Analytics |
+| `support_category_analyze_usage_productivity_other_topic` | GitLab analytics::Productivity Analytics::Other |
+| `support_category_analyze_usage_productivity_questions` | GitLab analytics::Productivity Analytics::Questions |
+| `support_category_analyze_usage_productivity_setup` | GitLab analytics::Productivity Analytics::Setup/configuration |
+| `support_category_analyze_usage_respository_errors` | GitLab analytics::Repository Analytics::Issues/Errors |
+| `support_category_analyze_usage_respository` | GitLab analytics::Repository Analytics |
+| `support_category_analyze_usage_respository_other_topic` | GitLab analytics::Repository Analytics::Other |
+| `support_category_analyze_usage_respository_questions` | GitLab analytics::Repository Analytics::Questions |
+| `support_category_analyze_usage_respository_setup` | GitLab analytics::Repository Analytics::Setup/configuration |
+| `support_category_analyze_usage_value_stream_errors` | GitLab analytics::Value stream analytics::Issues/Errors |
+| `support_category_analyze_usage_value_stream` | GitLab analytics::Value stream analytics |
+| `support_category_analyze_usage_value_stream_other_topic` | GitLab analytics::Value stream analytics::Other |
+| `support_category_analyze_usage_value_stream_questions` | GitLab analytics::Value stream analytics::Questions |
+| `support_category_analyze_usage_value_stream_setup` | GitLab analytics::Value stream analytics::Setup/configuration |
+| `support_category_auth_alicloud` | Authentication and Authorization::AliCloud |
+| `support_category_auth_alicloud_issues_errors` | Authentication and Authorization::AliCloud::Issues/errors |
+| `support_category_auth_alicloud_other` | Authentication and Authorization::AliCloud::Other |
+| `support_category_auth_alicloud_questions` | Authentication and Authorization::AliCloud::Questions |
+| `support_category_auth_alicloud_setup_configuration` | Authentication and Authorization::AliCloud::Setup/configuration |
+| `support_category_auth_alicloud_sync_issues` | Authentication and Authorization::AliCloud::Sync issues |
+| `support_category_auth_atlassian_crowd` | Authentication and Authorization::Atlassian Crowd |
+| `support_category_auth_atlassian_crowd_issues_errors` | Authentication and Authorization::Atlassian Crowd::Issues/errors |
+| `support_category_auth_atlassian_crowd_other` | Authentication and Authorization::Atlassian Crowd::Other |
+| `support_category_auth_atlassian_crowd_questions` | Authentication and Authorization::Atlassian Crowd::Questions |
+| `support_category_auth_atlassian_crowd_setup_configuration` | Authentication and Authorization::Atlassian Crowd::Setup/configuration |
+| `support_category_auth_atlassian_crowd_sync_issues` | Authentication and Authorization::Atlassian Crowd::Sync issues |
+| `support_category_auth_atlassian_omniauth` | Authentication and Authorization::Atlassian Omniauth |
+| `support_category_auth_atlassian_omniauth_issues_errors` | Authentication and Authorization::Atlassian Omniauth::Issues/errors |
+| `support_category_auth_atlassian_omniauth_other` | Authentication and Authorization::Atlassian Omniauth::Other |
+| `support_category_auth_atlassian_omniauth_questions` | Authentication and Authorization::Atlassian Omniauth::Questions |
+| `support_category_auth_atlassian_omniauth_setup_configuration` | Authentication and Authorization::Atlassian Omniauth::Setup/configuration |
+| `support_category_auth_atlassian_omniauth_sync_issues` | Authentication and Authorization::Atlassian Omniauth::Sync issues |
+| `support_category_auth_auth0` | Authentication and Authorization::Auth0 OmniAuth |
+| `support_category_auth_auth0_issues_errors` | Authentication and Authorization::Auth0 OmniAuth::Issues/errors |
+| `support_category_auth_auth0_other` | Authentication and Authorization::Auth0 OmniAuth::Other |
+| `support_category_auth_auth0_questions` | Authentication and Authorization::Auth0 OmniAuth::Questions |
+| `support_category_auth_auth0_setup_configuration` | Authentication and Authorization::Auth0 OmniAuth::Setup/configuration |
+| `support_category_auth_auth0_sync_issues` | Authentication and Authorization::Auth0 OmniAuth::Sync issues |
+| `support_category_auth_authentiq` | Authentication and Authorization::Authentiq OmniAuth |
+| `support_category_auth_authentiq_issues_errors` | Authentication and Authorization::Authentiq OmniAuth::Issues/errors |
+| `support_category_auth_authentiq_other` | Authentication and Authorization::Authentiq OmniAuth::Other |
+| `support_category_auth_authentiq_questions` | Authentication and Authorization::Authentiq OmniAuth::Questions |
+| `support_category_auth_authentiq_setup_configuration` | Authentication and Authorization::Authentiq OmniAuth::Setup/configuration |
+| `support_category_auth_authentiq_sync_issues` | Authentication and Authorization::Authentiq OmniAuth::Sync issues |
+| `support_category_auth_aws_cognito` | Authentication and Authorization::Amazon Web Services Cognito |
+| `support_category_auth_aws_cognito_issues_errors` | Authentication and Authorization::Amazon Web Services Cognito::Issues/errors |
+| `support_category_auth_aws_cognito_other` | Authentication and Authorization::Amazon Web Services Cognito::Other |
+| `support_category_auth_aws_cognito_questions` | Authentication and Authorization::Amazon Web Services Cognito::Questions |
+| `support_category_auth_aws_cognito_setup_configuration` | Authentication and Authorization::Amazon Web Services Cognito::Setup/configuration |
+| `support_category_auth_aws_cognito_sync_issues` | Authentication and Authorization::Amazon Web Services Cognito::Sync issues |
+| `support_category_auth_azure` | Authentication and Authorization::Azure OAuth OmniAuth |
+| `support_category_auth_azure_issues_errors` | Authentication and Authorization::Azure OAuth OmniAuth::Issues/errors |
+| `support_category_auth_azure_other` | Authentication and Authorization::Azure OAuth OmniAuth::Other |
+| `support_category_auth_azure_questions` | Authentication and Authorization::Azure OAuth OmniAuth::Questions |
+| `support_category_auth_azure_setup_configuration` | Authentication and Authorization::Azure OAuth OmniAuth::Setup/configuration |
+| `support_category_auth_azure_sync_issues` | Authentication and Authorization::Azure OAuth OmniAuth::Sync issues |
+| `support_category_auth_bitbucket` | Authentication and Authorization::Bitbucket cloud OmniAuth |
+| `support_category_auth_bitbucket_issues_errors` | Authentication and Authorization::Bitbucket cloud OmniAuth::Issues/errors |
+| `support_category_auth_bitbucket_other` | Authentication and Authorization::Bitbucket cloud OmniAuth::Other |
+| `support_category_auth_bitbucket_questions` | Authentication and Authorization::Bitbucket cloud OmniAuth::Questions |
+| `support_category_auth_bitbucket_setup_configuration` | Authentication and Authorization::Bitbucket cloud OmniAuth::Setup/configuration |
+| `support_category_auth_bitbucket_sync_issues` | Authentication and Authorization::Bitbucket cloud OmniAuth::Sync issues |
+| `support_category_auth_cas` | Authentication and Authorization::CAS OmniAuth |
+| `support_category_auth_cas_issues_errors` | Authentication and Authorization::CAS OmniAuth::Issues/errors |
+| `support_category_auth_cas_other` | Authentication and Authorization::CAS OmniAuth::Other |
+| `support_category_auth_cas_questions` | Authentication and Authorization::CAS OmniAuth::Questions |
+| `support_category_auth_cas_setup_configuration` | Authentication and Authorization::CAS OmniAuth::Setup/configuration |
+| `support_category_auth_cas_sync_issues` | Authentication and Authorization::CAS OmniAuth::Sync issues |
+| `support_category_auth_facebook` | Authentication and Authorization::Facebook OAuth 2.0 |
+| `support_category_auth_facebook_issues_errors` | Authentication and Authorization::Facebook OAuth 2.0::Issues/errors |
+| `support_category_auth_facebook_other` | Authentication and Authorization::Facebook OAuth 2.0::Other |
+| `support_category_auth_facebook_questions` | Authentication and Authorization::Facebook OAuth 2.0::Questions |
+| `support_category_auth_facebook_setup_configuration` | Authentication and Authorization::Facebook OAuth 2.0::Setup/configuration |
+| `support_category_auth_facebook_sync_issues` | Authentication and Authorization::Facebook OAuth 2.0::Sync issues |
+| `support_category_auth_generic` | Authentication and Authorization::Generic OAuth2 Provider |
+| `support_category_auth_generic_issues_errors` | Authentication and Authorization::Generic OAuth2 Provider::Issues/errors |
+| `support_category_auth_generic_other` | Authentication and Authorization::Generic OAuth2 Provider::Other |
+| `support_category_auth_generic_questions` | Authentication and Authorization::Generic OAuth2 Provider::Questions |
+| `support_category_auth_generic_setup_configuration` | Authentication and Authorization::Generic OAuth2 Provider::Setup/configuration |
+| `support_category_auth_generic_sync_issues` | Authentication and Authorization::Generic OAuth2 Provider::Sync issues |
+| `support_category_auth_github` | Authentication and Authorization::GitHub OmniAuth |
+| `support_category_auth_github_issues_errors` | Authentication and Authorization::GitHub OmniAuth::Issues/errors |
+| `support_category_auth_github_other` | Authentication and Authorization::GitHub OmniAuth::Other |
+| `support_category_auth_github_questions` | Authentication and Authorization::GitHub OmniAuth::Questions |
+| `support_category_auth_github_setup_configuration` | Authentication and Authorization::GitHub OmniAuth::Setup/configuration |
+| `support_category_auth_github_sync_issues` | Authentication and Authorization::GitHub OmniAuth::Sync issues |
+| `support_category_auth_gitlab` | Authentication and Authorization::GitLab.com OmniAuth |
+| `support_category_auth_gitlab_issues_errors` | Authentication and Authorization::GitLab.com OmniAuth::Issues/errors |
+| `support_category_auth_gitlab_other` | Authentication and Authorization::GitLab.com OmniAuth::Other |
+| `support_category_auth_gitlab_questions` | Authentication and Authorization::GitLab.com OmniAuth::Questions |
+| `support_category_auth_gitlab_setup_configuration` | Authentication and Authorization::GitLab.com OmniAuth::Setup/configuration |
+| `support_category_auth_gitlab_sync_issues` | Authentication and Authorization::GitLab.com OmniAuth::Sync issues |
+| `support_category_auth_google` | Authentication and Authorization::Google OAuth 2.0 OmniAuth |
+| `support_category_auth_google_issues_errors` | Authentication and Authorization::Google OAuth 2.0 OmniAuth::Issues/errors |
+| `support_category_auth_google_other` | Authentication and Authorization::Google OAuth 2.0 OmniAuth::Other |
+| `support_category_auth_google_questions` | Authentication and Authorization::Google OAuth 2.0 OmniAuth::Questions |
+| `support_category_auth_google_setup_configuration` | Authentication and Authorization::Google OAuth 2.0 OmniAuth::Setup/configuration |
+| `support_category_auth_google_sync_issues` | Authentication and Authorization::Google OAuth 2.0 OmniAuth::Sync issues |
+| `support_category_auth_jwt` | Authentication and Authorization::JWT OmniAuth |
+| `support_category_auth_jwt_issues_errors` | Authentication and Authorization::JWT OmniAuth::Issues/errors |
+| `support_category_auth_jwt_other` | Authentication and Authorization::JWT OmniAuth::Other |
+| `support_category_auth_jwt_questions` | Authentication and Authorization::JWT OmniAuth::Questions |
+| `support_category_auth_jwt_setup_configuration` | Authentication and Authorization::JWT OmniAuth::Setup/configuration |
+| `support_category_auth_jwt_sync_issues` | Authentication and Authorization::JWT OmniAuth::Sync issues |
+| `support_category_auth_kerberos` | Authentication and Authorization::Kerberos Auth integration |
+| `support_category_auth_kerberos_issues_errors` | Authentication and Authorization::Kerberos Auth integration::Issues/errors |
+| `support_category_auth_kerberos_other` | Authentication and Authorization::Kerberos Auth integration::Other |
+| `support_category_auth_kerberos_questions` | Authentication and Authorization::Kerberos Auth integration::Questions |
+| `support_category_auth_kerberos_setup_configuration` | Authentication and Authorization::Kerberos Auth integration::Setup/configuration |
+| `support_category_auth_kerberos_sync_issues` | Authentication and Authorization::Kerberos Auth integration::Sync issues |
+| `support_category_auth_ldap` | Authentication and Authorization::LDAP |
+| `support_category_auth_ldap_issues_errors` | Authentication and Authorization::LDAP::Issues/errors |
+| `support_category_auth_ldap_other` | Authentication and Authorization::LDAP::Other |
+| `support_category_auth_ldap_questions` | Authentication and Authorization::LDAP::Questions |
+| `support_category_auth_ldap_setup_configuration` | Authentication and Authorization::LDAP::Setup/configuration |
+| `support_category_auth_ldap_sync_issues` | Authentication and Authorization::LDAP::Sync issues |
+| `support_category_auth_oauth_service_provider` | Authentication and Authorization::OAuth service provider |
+| `support_category_auth_oauth_service_provider_issues_errors` | Authentication and Authorization::OAuth service provider::Issues/errors |
+| `support_category_auth_oauth_service_provider_other` | Authentication and Authorization::OAuth service provider::Other |
+| `support_category_auth_oauth_service_provider_questions` | Authentication and Authorization::OAuth service provider::Questions |
+| `support_category_auth_oauth_service_provider_setup_configuration` | Authentication and Authorization::OAuth service provider::Setup/configuration |
+| `support_category_auth_oauth_service_provider_sync_issues` | Authentication and Authorization::OAuth service provider::Sync issues |
+| `support_category_auth_openid_connect` | Authentication and Authorization::OpenID Connect OmniAuth |
+| `support_category_auth_openid_connect_issues_errors` | Authentication and Authorization::OpenID Connect OmniAuth::Issues/errors |
+| `support_category_auth_openid_connect_other` | Authentication and Authorization::OpenID Connect OmniAuth::Other |
+| `support_category_auth_openid_connect_questions` | Authentication and Authorization::OpenID Connect OmniAuth::Questions |
+| `support_category_auth_openid_connect_setup_configuration` | Authentication and Authorization::OpenID Connect OmniAuth::Setup/configuration |
+| `support_category_auth_openid_connect_sync_issues` | Authentication and Authorization::OpenID Connect OmniAuth::Sync issues |
+| `support_category_auth_other` | Authentication and Authorization::Other |
+| `support_category_auth_other_issues_errors` | Authentication and Authorization::Other::Issues/errors |
+| `support_category_auth_other_other` | Authentication and Authorization::Other::Other |
+| `support_category_auth_other_questions` | Authentication and Authorization::Other::Questions |
+| `support_category_auth_other_setup_configuration` | Authentication and Authorization::Other::Setup/configuration |
+| `support_category_auth_other_sync_issues` | Authentication and Authorization::Other::Sync issues |
+| `support_category_auth_salesforce` | Authentication and Authorization::Salesforce OmniAuth |
+| `support_category_auth_salesforce_issues_errors` | Authentication and Authorization::Salesforce OmniAuth::Issues/errors |
+| `support_category_auth_salesforce_other` | Authentication and Authorization::Salesforce OmniAuth::Other |
+| `support_category_auth_salesforce_questions` | Authentication and Authorization::Salesforce OmniAuth::Questions |
+| `support_category_auth_salesforce_setup_configuration` | Authentication and Authorization::Salesforce OmniAuth::Setup/configuration |
+| `support_category_auth_salesforce_sync_issues` | Authentication and Authorization::Salesforce OmniAuth::Sync issues |
+| `support_category_auth_saml` | Authentication and Authorization::SAML |
+| `support_category_auth_saml_issues_errors` | Authentication and Authorization::SAML::Issues/errors |
+| `support_category_auth_saml_other` | Authentication and Authorization::SAML::Other |
+| `support_category_auth_saml_questions` | Authentication and Authorization::SAML::Questions |
+| `support_category_auth_saml_setup_configuration` | Authentication and Authorization::SAML::Setup/configuration |
+| `support_category_auth_saml_sync_issues` | Authentication and Authorization::SAML::Sync issues |
+| `support_category_auth_scim` | Authentication and Authorization::SCIM |
+| `support_category_auth_scim_issues_errors` | Authentication and Authorization::SCIM::Issues/errors |
+| `support_category_auth_scim_other` | Authentication and Authorization::SCIM::Other |
+| `support_category_auth_scim_questions` | Authentication and Authorization::SCIM::Questions |
+| `support_category_auth_scim_setup_configuration` | Authentication and Authorization::SCIM::Setup/configuration |
+| `support_category_auth_scim_sync_issues` | Authentication and Authorization::SCIM::Sync issues |
+| `support_category_auth_smartcard` | Authentication and Authorization::Smartcard authentication |
+| `support_category_auth_smartcard_issues_errors` | Authentication and Authorization::Smartcard authentication::Issues/errors |
+| `support_category_auth_smartcard_other` | Authentication and Authorization::Smartcard authentication::Other |
+| `support_category_auth_smartcard_questions` | Authentication and Authorization::Smartcard authentication::Questions |
+| `support_category_auth_smartcard_setup_configuration` | Authentication and Authorization::Smartcard authentication::Setup/configuration |
+| `support_category_auth_smartcard_sync_issues` | Authentication and Authorization::Smartcard authentication::Sync issues |
+| `support_category_auth_twitter` | Authentication and Authorization::Twitter OAuth |
+| `support_category_auth_twitter_issues_errors` | Authentication and Authorization::Twitter OAuth::Issues/errors |
+| `support_category_auth_twitter_other` | Authentication and Authorization::Twitter OAuth::Other |
+| `support_category_auth_twitter_questions` | Authentication and Authorization::Twitter OAuth::Questions |
+| `support_category_auth_twitter_setup_configuration` | Authentication and Authorization::Twitter OAuth::Setup/configuration |
+| `support_category_auth_twitter_sync_issues` | Authentication and Authorization::Twitter OAuth::Sync issues |
+| `support_category_auth_vault` | Authentication and Authorization::Vault Authentication with OpenID |
+| `support_category_auth_vault_issues_errors` | Authentication and Authorization::Vault Authentication with OpenID::Issues/errors |
+| `support_category_auth_vault_other` | Authentication and Authorization::Vault Authentication with OpenID::Other |
+| `support_category_auth_vault_questions` | Authentication and Authorization::Vault Authentication with OpenID::Questions |
+| `support_category_auth_vault_setup_configuration` | Authentication and Authorization::Vault Authentication with OpenID::Setup/configuration |
+| `support_category_auth_vault_sync_issues` | Authentication and Authorization::Vault Authentication with OpenID::Sync issues |
+| `support_category_category_administering_gitlab` | Maintaining/Administering GitLab |
+| `support_category_category_analyze_usage` | GitLab analytics |
+| `support_category_category_auth` | Authentication and Authorization |
+| `support_category_category_cicd` | CI/CD |
+| `support_category_category_deployments` | Deployments and Releases |
+| `support_category_category_gitlab_duo` | GitLab Duo |
+| `support_category_category_instance_management` | Installing/Configuring/Migrating GitLab |
+| `support_category_category_integrations` | Integrate applications |
+| `support_category_category_manage_infra` | Manage your infrastructure via GitLab |
+| `support_category_category_monitoring` | Application Performance Monitoring |
+| `support_category_category_other` | Other |
+| `support_category_category_packages` | Packages and Registries |
+| `support_category_category_performance` | Performance issues with GitLab components |
+| `support_category_category_project_group_management` | Project & Group Management |
+| `support_category_category_runners` | GitLab Runners |
+| `support_category_category_secure` | Secure |
+| `support_category_category_upgrade_assistance` | Upgrade assistance request |
+| `support_category_category_usage_quotas` | Usage Quotas |
+| `support_category_cicd_artifacts` | CI/CD::Artifacts |
+| `support_category_cicd_artifacts_creation_topic` | CI/CD::Artifacts::Creation |
+| `support_category_cicd_artifacts_errors_topic` | CI/CD::Artifacts::Errors/issues |
+| `support_category_cicd_artifacts_management_topic` | CI/CD::Artifacts::Management |
+| `support_category_cicd_artifacts_other_topic` | CI/CD::Artifacts::Other |
+| `support_category_cicd_artifacts_questions_topic` | CI/CD::Artifacts::Questions |
+| `support_category_cicd_autodevops` | CI/CD::Auto DevOps |
+| `support_category_cicd_autodevops_errors` | CI/CD::Auto DevOps::Issues/errors |
+| `support_category_cicd_autodevops_other` | CI/CD::Auto DevOps::Other |
+| `support_category_cicd_autodevops_questions` | CI/CD::Auto DevOps::Questions |
+| `support_category_cicd_autodevops_setup` | CI/CD::Auto DevOps::Setup/configuration |
+| `support_category_cicd_cache` | CI/CD::Cache |
+| `support_category_cicd_cache_creation` | CI/CD::Cache::Creation |
+| `support_category_cicd_cache_errors` | CI/CD::Cache::Errors/issues |
+| `support_category_cicd_cache_management` | CI/CD::Cache::Management |
+| `support_category_cicd_cache_other` | CI/CD::Cache::Other |
+| `support_category_cicd_cache_questions` | CI/CD::Cache::Questions |
+| `support_category_cicd_ci_file` | CI/CD::CI file configuration |
+| `support_category_cicd_ci_file_errors` | CI/CD::CI file configuration::Errors/issues |
+| `support_category_cicd_ci_file_other` | CI/CD::CI file configuration::Other |
+| `support_category_cicd_ci_file_questions` | CI/CD::CI file configuration::Questions |
+| `support_category_cicd_ci_file_setup` | CI/CD::CI file configuration::Setup/configuration |
+| `support_category_cicd_deployments` | CI/CD::Deployments |
+| `support_category_cicd_deployments_environments` | CI/CD::Deployments::Environments |
+| `support_category_cicd_deployments_feature_flags` | CI/CD::Deployments::Feature Flags |
+| `support_category_cicd_deployments_releases` | CI/CD::Deployments::Releases |
+| `support_category_cicd_deployments_review_apps` | CI/CD::Deployments::Review Apps |
+| `support_category_cicd_jobs` | CI/CD::Jobs |
+| `support_category_cicd_jobs_errors` | CI/CD::Jobs::Errors/issues |
+| `support_category_cicd_jobs_other` | CI/CD::Jobs::Other |
+| `support_category_cicd_jobs_questions` | CI/CD::Jobs::Questions |
+| `support_category_cicd_jobs_setup` | CI/CD::Jobs::Setup/configuration |
+| `support_category_cicd_other` | CI/CD::Other |
+| `support_category_cicd_pipelines` | CI/CD::Pipelines |
+| `support_category_cicd_pipelines_errors` | CI/CD::Pipelines::Errors/issues |
+| `support_category_cicd_pipelines_merge_trains` | CI/CD::Pipelines::Merge trains |
+| `support_category_cicd_pipelines_multiproject` | CI/CD::Pipelines::Multi-project pipelines |
+| `support_category_cicd_pipelines_other` | CI/CD::Pipelines::Other |
+| `support_category_cicd_pipelines_questions` | CI/CD::Pipelines::Questions |
+| `support_category_cicd_pipelines_schedules` | CI/CD::Pipelines::Schedules |
+| `support_category_cicd_pipelines_setup` | CI/CD::Pipelines::Setup/configuration |
+| `support_category_cicd_pipelines_triggers` | CI/CD::Pipelines::Triggers |
+| `support_category_cicd_variables` | CI/CD::Variables |
+| `support_category_cicd_variables_ci_file` | CI/CD::Variables::Via CI file |
+| `support_category_cicd_variables_group` | CI/CD::Variables::Via group settings |
+| `support_category_cicd_variables_project` | CI/CD::Variables::Via project settings |
+| `support_category_cicd_variables_schedules` | CI/CD::Variables::Via schedules |
+| `support_category_deployments_deployments` | Deployments and Releases::Deployments |
+| `support_category_deployments_deployments_errors_` | Deployments and Releases::Deployments::Issues/Errors |
+| `support_category_deployments_deployments_other_` | Deployments and Releases::Deployments::Other |
+| `support_category_deployments_deployments_protected_envs_` | Deployments and Releases::Deployments::Protected environments |
+| `support_category_deployments_deployments_questions_` | Deployments and Releases::Deployments::Questions |
+| `support_category_deployments_deployments_rollouts_` | Deployments and Releases::Deployments::Rollouts |
+| `support_category_deployments_deployments_setup_` | Deployments and Releases::Deployments::Setup/configuration |
+| `support_category_deployments_envs` | Deployments and Releases::Environments |
+| `support_category_deployments_envs_errors` | Deployments and Releases::Environments::Issues/Errors |
+| `support_category_deployments_envs_other` | Deployments and Releases::Environments::Other |
+| `support_category_deployments_envs_protected_envs` | Deployments and Releases::Environments::Protected environments |
+| `support_category_deployments_envs_questions` | Deployments and Releases::Environments::Questions |
+| `support_category_deployments_envs_rollouts` | Deployments and Releases::Environments::Rollouts |
+| `support_category_deployments_envs_setup` | Deployments and Releases::Environments::Setup/configuration |
+| `support_category_deployments_feature_flags` | Deployments and Releases::Feature Flags |
+| `support_category_deployments_feature_flags_errors_` | Deployments and Releases::Feature Flags::Issues/Errors |
+| `support_category_deployments_feature_flags_other_` | Deployments and Releases::Feature Flags::Other |
+| `support_category_deployments_feature_flags_protected_envs_` | Deployments and Releases::Feature Flags::Protected environments |
+| `support_category_deployments_feature_flags_questions_` | Deployments and Releases::Feature Flags::Questions |
+| `support_category_deployments_feature_flags_rollouts_` | Deployments and Releases::Feature Flags::Rollouts |
+| `support_category_deployments_feature_flags_setup_` | Deployments and Releases::Feature Flags::Setup/configuration |
+| `support_category_deployments_other` | Deployments and Releases::Other |
+| `support_category_deployments_other_errors_` | Deployments and Releases::Other::Issues/Errors |
+| `support_category_deployments_other_other_` | Deployments and Releases::Other::Other |
+| `support_category_deployments_other_protected_envs_` | Deployments and Releases::Other::Protected environments |
+| `support_category_deployments_other_questions_` | Deployments and Releases::Other::Questions |
+| `support_category_deployments_other_rollouts_` | Deployments and Releases::Other::Rollouts |
+| `support_category_deployments_other_setup_` | Deployments and Releases::Other::Setup/configuration |
+| `support_category_deployments_releases` | Deployments and Releases::Releases |
+| `support_category_deployments_releases_errors_` | Deployments and Releases::Releases::Issues/Errors |
+| `support_category_deployments_releases_other_` | Deployments and Releases::Releases::Other |
+| `support_category_deployments_releases_protected_envs_` | Deployments and Releases::Releases::Protected environments |
+| `support_category_deployments_releases_questions_` | Deployments and Releases::Releases::Questions |
+| `support_category_deployments_releases_rollouts_` | Deployments and Releases::Releases::Rollouts |
+| `support_category_deployments_releases_setup_` | Deployments and Releases::Releases::Setup/configuration |
+| `support_category_deployments_review_apps` | Deployments and Releases::Review apps |
+| `support_category_deployments_review_apps_errors_` | Deployments and Releases::Review apps::Issues/Errors |
+| `support_category_deployments_review_apps_other_` | Deployments and Releases::Review apps::Other |
+| `support_category_deployments_review_apps_protected_envs_` | Deployments and Releases::Review apps::Protected environments |
+| `support_category_deployments_review_apps_questions_` | Deployments and Releases::Review apps::Questions |
+| `support_category_deployments_review_apps_rollouts_` | Deployments and Releases::Review apps::Rollouts |
+| `support_category_deployments_review_apps_setup_` | Deployments and Releases::Review apps::Setup/configuration |
+| `support_category_gitlab_duo_chat_errors` | GitLab Duo::Chat::Issues/Errors |
+| `support_category_gitlab_duo_chat_generated_response` | GitLab Duo::Chat::Duo generated response |
+| `support_category_gitlab_duo_chat_integrations` | GitLab Duo::Chat::Integration |
+| `support_category_gitlab_duo_chat_licensing` | GitLab Duo::Chat::Licensing/Activation |
+| `support_category_gitlab_duo_chat_questions` | GitLab Duo::Chat::Questions |
+| `support_category_gitlab_duo_chat_setup` | GitLab Duo::Chat::Setup/Configuration |
+| `support_category_gitlab_duo_chat_suggestion_accuracy` | GitLab Duo::Chat::Suggestion accuracy |
+| `support_category_gitlab_duo_chatsupport_gitlab_duo_reviewers` | GitLab Duo::Suggested Reviewers |
+| `support_category_gitlab_duo_code_suggestions_errors` | GitLab Duo::Code Suggestions::Issues/Errors |
+| `support_category_gitlab_duo_code_suggestions_generated_response` | GitLab Duo::Code Suggestions::Duo generated response |
+| `support_category_gitlab_duo_code_suggestions` | GitLab Duo::Code Suggestions |
+| `support_category_gitlab_duo_code_suggestions_integrations` | GitLab Duo::Code Suggestions::Integration |
+| `support_category_gitlab_duo_code_suggestions_licensing` | GitLab Duo::Code Suggestions::Licensing/Activation |
+| `support_category_gitlab_duo_code_suggestions_questions` | GitLab Duo::Code Suggestions::Questions |
+| `support_category_gitlab_duo_code_suggestions_setup` | GitLab Duo::Code Suggestions::Setup/Configuration |
+| `support_category_gitlab_duo_code_suggestions_suggestion_accuracy` | GitLab Duo::Code Suggestions::Suggestion accuracy |
+| `support_category_gitlab_duo_code_suggestionssupport_gitlab_duo_chat` | GitLab Duo::Chat |
+| `support_category_gitlab_duo_configuration_errors` | GitLab Duo::GitLab Duo Configuration::Issues/Errors |
+| `support_category_gitlab_duo_configuration_generated_response` | GitLab Duo::GitLab Duo Configuration::Duo generated response |
+| `support_category_gitlab_duo_configuration_integrations` | GitLab Duo::GitLab Duo Configuration::Integration |
+| `support_category_gitlab_duo_configuration_licensing` | GitLab Duo::GitLab Duo Configuration::Licensing/Activation |
+| `support_category_gitlab_duo_configuration_questions` | GitLab Duo::GitLab Duo Configuration::Questions |
+| `support_category_gitlab_duo_configuration_setup` | GitLab Duo::GitLab Duo Configuration::Setup/Configuration |
+| `support_category_gitlab_duo_configuration_suggestion_accuracy` | GitLab Duo::GitLab Duo Configuration::Suggestion accuracy |
+| `support_category_gitlab_duo_configurationsupport_gitlab_duo_other` | GitLab Duo::Other |
+| `support_category_gitlab_duo_extensions_errors` | GitLab Duo::IDE Extensions::Issues/Errors |
+| `support_category_gitlab_duo_extensions_generated_response` | GitLab Duo::IDE Extensions::Duo generated response |
+| `support_category_gitlab_duo_extensions_integrations` | GitLab Duo::IDE Extensions::Integration |
+| `support_category_gitlab_duo_extensions_licensing` | GitLab Duo::IDE Extensions::Licensing/Activation |
+| `support_category_gitlab_duo_extensions_questions` | GitLab Duo::IDE Extensions::Questions |
+| `support_category_gitlab_duo_extensions_setup` | GitLab Duo::IDE Extensions::Setup/Configuration |
+| `support_category_gitlab_duo_extensions_suggestion_accuracy` | GitLab Duo::IDE Extensions::Suggestion accuracy |
+| `support_category_gitlab_duo_extensionssupport_gitlab_duo_configuration` | GitLab Duo::GitLab Duo Configuration |
+| `support_category_gitlab_duo_mr_summary_errors` | GitLab Duo::Merge Request Summary::Issues/Errors |
+| `support_category_gitlab_duo_mr_summary_generated_response` | GitLab Duo::Merge Request Summary::Duo generated response |
+| `support_category_gitlab_duo_mr_summary_integrations` | GitLab Duo::Merge Request Summary::Integration |
+| `support_category_gitlab_duo_mr_summary_licensing` | GitLab Duo::Merge Request Summary::Licensing/Activation |
+| `support_category_gitlab_duo_mr_summary_questions` | GitLab Duo::Merge Request Summary::Questions |
+| `support_category_gitlab_duo_mr_summary_setup` | GitLab Duo::Merge Request Summary::Setup/Configuration |
+| `support_category_gitlab_duo_mr_summary_suggestion_accuracy` | GitLab Duo::Merge Request Summary::Suggestion accuracy |
+| `support_category_gitlab_duo_mr_summarysupport_gitlab_duo_vulnerabilities` | GitLab Duo::Vulnerability Explanation |
+| `support_category_gitlab_duo_reviewers_errors` | GitLab Duo::Suggested Reviewers::Issues/Errors |
+| `support_category_gitlab_duo_reviewers_generated_response` | GitLab Duo::Suggested Reviewers::Duo generated response |
+| `support_category_gitlab_duo_reviewers_integrations` | GitLab Duo::Suggested Reviewers::Integration |
+| `support_category_gitlab_duo_reviewers_licensing` | GitLab Duo::Suggested Reviewers::Licensing/Activation |
+| `support_category_gitlab_duo_reviewers_questions` | GitLab Duo::Suggested Reviewers::Questions |
+| `support_category_gitlab_duo_reviewers_setup` | GitLab Duo::Suggested Reviewers::Setup/Configuration |
+| `support_category_gitlab_duo_reviewers_suggestion_accuracy` | GitLab Duo::Suggested Reviewers::Suggestion accuracy |
+| `support_category_gitlab_duo_reviewerssupport_gitlab_duo_tests` | GitLab Duo::Test Generation |
+| `support_category_gitlab_duo_tests_errors` | GitLab Duo::Test Generation::Issues/Errors |
+| `support_category_gitlab_duo_tests_generated_response` | GitLab Duo::Test Generation::Duo generated response |
+| `support_category_gitlab_duo_tests_integrations` | GitLab Duo::Test Generation::Integration |
+| `support_category_gitlab_duo_tests_licensing` | GitLab Duo::Test Generation::Licensing/Activation |
+| `support_category_gitlab_duo_tests_questions` | GitLab Duo::Test Generation::Questions |
+| `support_category_gitlab_duo_tests_setup` | GitLab Duo::Test Generation::Setup/Configuration |
+| `support_category_gitlab_duo_tests_suggestion_accuracy` | GitLab Duo::Test Generation::Suggestion accuracy |
+| `support_category_gitlab_duo_testssupport_gitlab_duo_mr_summary` | GitLab Duo::Merge Request Summary |
+| `support_category_gitlab_duo_vulnerabilities_errors` | GitLab Duo::Vulnerability Explanation::Issues/Errors |
+| `support_category_gitlab_duo_vulnerabilities_generated_response` | GitLab Duo::Vulnerability Explanation::Duo generated response |
+| `support_category_gitlab_duo_vulnerabilities_integrations` | GitLab Duo::Vulnerability Explanation::Integration |
+| `support_category_gitlab_duo_vulnerabilities_licensing` | GitLab Duo::Vulnerability Explanation::Licensing/Activation |
+| `support_category_gitlab_duo_vulnerabilities_questions` | GitLab Duo::Vulnerability Explanation::Questions |
+| `support_category_gitlab_duo_vulnerabilities_setup` | GitLab Duo::Vulnerability Explanation::Setup/Configuration |
+| `support_category_gitlab_duo_vulnerabilities_suggestion_accuracy` | GitLab Duo::Vulnerability Explanation::Suggestion accuracy |
+| `support_category_gitlab_duo_vulnerabilitiessupport_gitlab_duo_extensions` | GitLab Duo::IDE Extensions |
+| `support_category_integrations_akismet_errors` | Integrate applications::Akismet::Errors/issues |
+| `support_category_integrations_akismet` | Integrate applications::Akismet |
+| `support_category_integrations_akismet_other` | Integrate applications::Akismet::Other |
+| `support_category_integrations_akismet_questions` | Integrate applications::Akismet::Questions |
+| `support_category_integrations_akismet_setup` | Integrate applications::Akismet::Setup/configuration |
+| `support_category_integrations_datadog_errors` | Integrate applications::Datadog::Errors/issues |
+| `support_category_integrations_datadog` | Integrate applications::Datadog |
+| `support_category_integrations_datadog_other` | Integrate applications::Datadog::Other |
+| `support_category_integrations_datadog_questions` | Integrate applications::Datadog::Questions |
+| `support_category_integrations_datadog_setup` | Integrate applications::Datadog::Setup/configuration |
+| `support_category_integrations_elasticsearch_errors` | Integrate applications::Elasticsearch::Errors/issues |
+| `support_category_integrations_elasticsearch` | Integrate applications::Elasticsearch |
+| `support_category_integrations_elasticsearch_other` | Integrate applications::Elasticsearch::Other |
+| `support_category_integrations_elasticsearch_questions` | Integrate applications::Elasticsearch::Questions |
+| `support_category_integrations_elasticsearch_setup` | Integrate applications::Elasticsearch::Setup/configuration |
+| `support_category_integrations_external_trackers_bugzilla` | Integrate applications::External issue trackers::Bugzilla |
+| `support_category_integrations_external_trackers_ibm` | Integrate applications::External issue trackers::IBM EWM |
+| `support_category_integrations_external_trackers` | Integrate applications::External issue trackers |
+| `support_category_integrations_external_trackers_other` | Integrate applications::External issue trackers::Custom/Other issue tracker |
+| `support_category_integrations_external_trackers_redmine` | Integrate applications::External issue trackers::Redmine |
+| `support_category_integrations_external_trackers_youtrack` | Integrate applications::External issue trackers::YouTrack |
+| `support_category_integrations_external_trackers_zentao` | Integrate applications::External issue trackers::ZenTao |
+| `support_category_integrations_gitpod_errors` | Integrate applications::Gitpod::Errors/issues |
+| `support_category_integrations_gitpod` | Integrate applications::Gitpod |
+| `support_category_integrations_gitpod_other` | Integrate applications::Gitpod::Other |
+| `support_category_integrations_gitpod_questions` | Integrate applications::Gitpod::Questions |
+| `support_category_integrations_gitpod_setup` | Integrate applications::Gitpod::Setup/configuration |
+| `support_category_integrations_gmail_errors` | Integrate applications::Gmail actions buttons::Errors/issues |
+| `support_category_integrations_gmail` | Integrate applications::Gmail actions buttons |
+| `support_category_integrations_gmail_other` | Integrate applications::Gmail actions buttons::Other |
+| `support_category_integrations_gmail_questions` | Integrate applications::Gmail actions buttons::Questions |
+| `support_category_integrations_gmail_setup` | Integrate applications::Gmail actions buttons::Setup/configuration |
+| `support_category_integrations_jira_errors` | Integrate applications::Jira::Errors/issues |
+| `support_category_integrations_jira` | Integrate applications::Jira |
+| `support_category_integrations_jira_other` | Integrate applications::Jira::Other |
+| `support_category_integrations_jira_questions` | Integrate applications::Jira::Questions |
+| `support_category_integrations_jira_setup` | Integrate applications::Jira::Setup/configuration |
+| `support_category_integrations_kroki_errors` | Integrate applications::Kroki::Errors/issues |
+| `support_category_integrations_kroki` | Integrate applications::Kroki |
+| `support_category_integrations_kroki_other` | Integrate applications::Kroki::Other |
+| `support_category_integrations_kroki_questions` | Integrate applications::Kroki::Questions |
+| `support_category_integrations_kroki_setup` | Integrate applications::Kroki::Setup/configuration |
+| `support_category_integrations_mailgun_errors` | Integrate applications::Mailgun::Errors/issues |
+| `support_category_integrations_mailgun` | Integrate applications::Mailgun |
+| `support_category_integrations_mailgun_other` | Integrate applications::Mailgun::Other |
+| `support_category_integrations_mailgun_questions` | Integrate applications::Mailgun::Questions |
+| `support_category_integrations_mailgun_setup` | Integrate applications::Mailgun::Setup/configuration |
+| `support_category_integrations_other_errors` | Integrate applications::Other::Errors/issues |
+| `support_category_integrations_other` | Integrate applications::Other |
+| `support_category_integrations_other_other` | Integrate applications::Other::Other |
+| `support_category_integrations_other_questions` | Integrate applications::Other::Questions |
+| `support_category_integrations_other_setup` | Integrate applications::Other::Setup/configuration |
+| `support_category_integrations_pim_errors` | Integrate applications::Project integration management::Errors/issues |
+| `support_category_integrations_pim` | Integrate applications::Project integration management |
+| `support_category_integrations_pim_other` | Integrate applications::Project integration management::Other |
+| `support_category_integrations_pim_questions` | Integrate applications::Project integration management::Questions |
+| `support_category_integrations_pim_setup` | Integrate applications::Project integration management::Setup/configuration |
+| `support_category_integrations_plantuml_errors` | Integrate applications::PlantUML::Errors/issues |
+| `support_category_integrations_plantuml` | Integrate applications::PlantUML |
+| `support_category_integrations_plantuml_other` | Integrate applications::PlantUML::Other |
+| `support_category_integrations_plantuml_questions` | Integrate applications::PlantUML::Questions |
+| `support_category_integrations_plantuml_setup` | Integrate applications::PlantUML::Setup/configuration |
+| `support_category_integrations_project_asana` | Integrate applications::Project integrations::Asana |
+| `support_category_integrations_project_bamboo` | Integrate applications::Project integrations::Bamboo |
+| `support_category_integrations_project_discord` | Integrate applications::Project integrations::Discord |
+| `support_category_integrations_project_emails_on_push` | Integrate applications::Project integrations::Emails on push |
+| `support_category_integrations_project_github` | Integrate applications::Project integrations::GitHub |
+| `support_category_integrations_project_google_chat` | Integrate applications::Project integrations::Google Chat |
+| `support_category_integrations_project_` | Integrate applications::Project integrations |
+| `support_category_integrations_project_irker` | Integrate applications::Project integrations::Irker |
+| `support_category_integrations_project_jenkins` | Integrate applications::Project integrations::Jenkins |
+| `support_category_integrations_project_mattermost` | Integrate applications::Project integrations::Mattermost |
+| `support_category_integrations_project_ms_teams` | Integrate applications::Project integrations::Microsoft Teams |
+| `support_category_integrations_project_other` | Integrate applications::Project integrations::Other |
+| `support_category_integrations_project_pivotal` | Integrate applications::Project integrations::Pivotal tracker |
+| `support_category_integrations_project_prometheus` | Integrate applications::Project integrations::Prometheus |
+| `support_category_integrations_project_slack` | Integrate applications::Project integrations::Slack |
+| `support_category_integrations_project_status_emails` | Integrate applications::Project integrations::Pipeline status emails |
+| `support_category_integrations_project_unify_circuit` | Integrate applications::Project integrations::Unify Circuit |
+| `support_category_integrations_project_webex` | Integrate applications::Project integrations::Webex |
+| `support_category_integrations_project_webhooks` | Integrate applications::Project integrations::Webhooks |
+| `support_category_integrations_recaptcha_errors` | Integrate applications::reCAPTCHA::Errors/issues |
+| `support_category_integrations_recaptcha` | Integrate applications::reCAPTCHA |
+| `support_category_integrations_recaptcha_other` | Integrate applications::reCAPTCHA::Other |
+| `support_category_integrations_recaptcha_questions` | Integrate applications::reCAPTCHA::Questions |
+| `support_category_integrations_recaptcha_setup` | Integrate applications::reCAPTCHA::Setup/configuration |
+| `support_category_integrations_sourcegraph_errors` | Integrate applications::Sourcegraph::Errors/issues |
+| `support_category_integrations_sourcegraph` | Integrate applications::Sourcegraph |
+| `support_category_integrations_sourcegraph_other` | Integrate applications::Sourcegraph::Other |
+| `support_category_integrations_sourcegraph_questions` | Integrate applications::Sourcegraph::Questions |
+| `support_category_integrations_sourcegraph_setup` | Integrate applications::Sourcegraph::Setup/configuration |
+| `support_category_integrations_trllo_errors` | Integrate applications::Trello::Errors/issues |
+| `support_category_integrations_trllo` | Integrate applications::Trello |
+| `support_category_integrations_trllo_other` | Integrate applications::Trello::Other |
+| `support_category_integrations_trllo_questions` | Integrate applications::Trello::Questions |
+| `support_category_integrations_trllo_setup` | Integrate applications::Trello::Setup/configuration |
+| `support_category_integrations_visual_studio_errors` | Integrate applications::Visual Studio Code extension::Errors/issues |
+| `support_category_integrations_visual_studio` | Integrate applications::Visual Studio Code extension |
+| `support_category_integrations_visual_studio_other` | Integrate applications::Visual Studio Code extension::Other |
+| `support_category_integrations_visual_studio_questions` | Integrate applications::Visual Studio Code extension::Questions |
+| `support_category_integrations_visual_studio_setup` | Integrate applications::Visual Studio Code extension::Setup/configuration |
+| `support_category_manage_infra_clusters_agent` | Manage your infrastructure via GitLab::Kubernetes clusters::Kubernetes agent |
+| `support_category_manage_infra_clusters_connect` | Manage your infrastructure via GitLab::Kubernetes clusters::Connect Kubernetes clusters |
+| `support_category_manage_infra_clusters_create` | Manage your infrastructure via GitLab::Kubernetes clusters::Create Kubnernetes clusters |
+| `support_category_manage_infra_clusters_errors` | Manage your infrastructure via GitLab::Kubernetes clusters::Issues/errors |
+| `support_category_manage_infra_clusters_gitops` | Manage your infrastructure via GitLab::Kubernetes clusters::GitOps |
+| `support_category_manage_infra_clusters` | Manage your infrastructure via GitLab::Kubernetes clusters |
+| `support_category_manage_infra_clusters_migrate` | Manage your infrastructure via GitLab::Kubernetes clusters::Migrate to the GitLab agent for Kubernetes |
+| `support_category_manage_infra_clusters_other` | Manage your infrastructure via GitLab::Kubernetes clusters::Other |
+| `support_category_manage_infra_clusters_vulnerability_scanning` | Manage your infrastructure via GitLab::Kubernetes clusters::Container vulnerability scanning |
+| `support_category_manage_infra_code_errors` | Manage your infrastructure via GitLab::Infrastructure as Code::Issues/errors |
+| `support_category_manage_infra_code` | Manage your infrastructure via GitLab::Infrastructure as Code |
+| `support_category_manage_infra_code_other` | Manage your infrastructure via GitLab::Infrastructure as Code::Other |
+| `support_category_manage_infra_code_questions` | Manage your infrastructure via GitLab::Infrastructure as Code::Questions |
+| `support_category_manage_infra_code_setup` | Manage your infrastructure via GitLab::Infrastructure as Code::Setup/configuration |
+| `support_category_manage_infra_code_tf_integration` | Manage your infrastructure via GitLab::Infrastructure as Code::Terraform integration in merge requests |
+| `support_category_manage_infra_code_tf_state` | Manage your infrastructure via GitLab::Infrastructure as Code::Terraform state |
+| `support_category_manage_infra_other` | Manage your infrastructure via GitLab::Other |
+| `support_category_manage_infra_runbooks_errors` | Manage your infrastructure via GitLab::Runbooks::Issues/errors |
+| `support_category_manage_infra_runbooks` | Manage your infrastructure via GitLab::Runbooks |
+| `support_category_manage_infra_runbooks_other` | Manage your infrastructure via GitLab::Runbooks::Other |
+| `support_category_manage_infra_runbooks_questions` | Manage your infrastructure via GitLab::Runbooks::Questions |
+| `support_category_manage_infra_runbooks_setup` | Manage your infrastructure via GitLab::Runbooks::Setup/configuration |
+| `support_category_monitoring_error_tracking` | Application Performance Monitoring::Error Tracking |
+| `support_category_monitoring_error_tracking_errors` | Application Performance Monitoring::Error Tracking::Issues/errors |
+| `support_category_monitoring_error_tracking_other` | Application Performance Monitoring::Error Tracking::Other |
+| `support_category_monitoring_error_tracking_questions` | Application Performance Monitoring::Error Tracking::Questions |
+| `support_category_monitoring_error_tracking_setup` | Application Performance Monitoring::Error Tracking::Setup/configuration |
+| `support_category_monitoring_incidents_alerts` | Application Performance Monitoring::Incident Management::Alerts |
+| `support_category_monitoring_incidents` | Application Performance Monitoring::Incident Management |
+| `support_category_monitoring_incidents_escalations` | Application Performance Monitoring::Incident Management::Escalation Policies |
+| `support_category_monitoring_incidents_incidents` | Application Performance Monitoring::Incident Management::Incidents |
+| `support_category_monitoring_incidents_oncall` | Application Performance Monitoring::Incident Management::On-call Schedules |
+| `support_category_monitoring_incidents_other` | Application Performance Monitoring::Incident Management::Other |
+| `support_category_monitoring_incidents_paging` | Application Performance Monitoring::Incident Management::Paging and notifications |
+| `support_category_monitoring_incidents_status_page` | Application Performance Monitoring::Incident Management::Status Page |
+| `support_category_monitoring_other` | Application Performance Monitoring::Other |
+| `support_category_monitoring_product_analytics` | Application Performance Monitoring::Product Analytics |
+| `support_category_monitoring_product_analytics_errors` | Application Performance Monitoring::Product Analytics::Issues/errors |
+| `support_category_monitoring_product_analytics_other` | Application Performance Monitoring::Product Analytics::Other |
+| `support_category_monitoring_product_analytics_questions` | Application Performance Monitoring::Product Analytics::Questions |
+| `support_category_monitoring_product_analytics_setup` | Application Performance Monitoring::Product Analytics::Setup/configuration |
+| `support_category_packages_composer_building` | Packages and Registries::Composer Packages::Creating/building/publishing packages |
+| `support_category_packages_composer_installing` | Packages and Registries::Composer Packages::Installing packages |
+| `support_category_packages_composer_other` | Packages and Registries::Composer Packages::Other |
+| `support_category_packages_composer` | Packages and Registries::Composer Packages |
+| `support_category_packages_composer_questions` | Packages and Registries::Composer Packages::Questions |
+| `support_category_packages_container_building` | Packages and Registries::Container Registry |
+| `support_category_packages_container_deleting` | Packages and Registries::Container Registry |
+| `support_category_packages_container_errors` | Packages and Registries::Container Registry |
+| `support_category_packages_container_other` | Packages and Registries::Container Registry |
+| `support_category_packages_container` | Packages and Registries::Container Registry |
+| `support_category_packages_container_questions` | Packages and Registries::Container Registry |
+| `support_category_packages_dependency_proxy_errors` | Packages and Registries::Dependency Proxy::Issues/Errors |
+| `support_category_packages_dependency_proxy_other` | Packages and Registries::Dependency Proxy::Other |
+| `support_category_packages_dependency_proxy` | Packages and Registries::Dependency Proxy |
+| `support_category_packages_dependency_proxy_questions` | Packages and Registries::Dependency Proxy::Questions |
+| `support_category_packages_generic_building` | Packages and Registries::Generic/Other Packages::Creating/building/publishing packages |
+| `support_category_packages_generic_installing` | Packages and Registries::Generic/Other Packages::Installing packages |
+| `support_category_packages_generic_other` | Packages and Registries::Generic/Other Packages::Other |
+| `support_category_packages_generic` | Packages and Registries::Generic/Other Packages |
+| `support_category_packages_generic_questions` | Packages and Registries::Generic/Other Packages::Questions |
+| `support_category_packages_infra_building` | Packages and Registries::Infrastructure Registry::Building and pushing images |
+| `support_category_packages_infra_deleting` | Packages and Registries::Infrastructure Registry::Deleting images |
+| `support_category_packages_infra_errors` | Packages and Registries::Infrastructure Registry::Issues/Errors |
+| `support_category_packages_infra_other` | Packages and Registries::Infrastructure Registry::Other |
+| `support_category_packages_infra` | Packages and Registries::Infrastructure Registry |
+| `support_category_packages_infra_questions` | Packages and Registries::Infrastructure Registry::Questions |
+| `support_category_packages_maven_building` | Packages and Registries::Maven Packages::Creating/building/publishing packages |
+| `support_category_packages_maven_installing` | Packages and Registries::Maven Packages::Installing packages |
+| `support_category_packages_maven_other` | Packages and Registries::Maven Packages::Other |
+| `support_category_packages_maven` | Packages and Registries::Maven Packages |
+| `support_category_packages_maven_questions` | Packages and Registries::Maven Packages::Questions |
+| `support_category_packages_npm_building` | Packages and Registries::npm Packages::Creating/building/publishing packages |
+| `support_category_packages_npm_installing` | Packages and Registries::npm Packages::Installing packages |
+| `support_category_packages_npm_other` | Packages and Registries::npm Packages::Other |
+| `support_category_packages_npm` | Packages and Registries::npm Packages |
+| `support_category_packages_npm_questions` | Packages and Registries::npm Packages::Questions |
+| `support_category_packages_nuget_building` | Packages and Registries::NuGet Packages::Creating/building/publishing packages |
+| `support_category_packages_nuget_installing` | Packages and Registries::NuGet Packages::Installing packages |
+| `support_category_packages_nuget_other` | Packages and Registries::NuGet Packages::Other |
+| `support_category_packages_nuget` | Packages and Registries::NuGet Packages |
+| `support_category_packages_nuget_questions` | Packages and Registries::NuGet Packages::Questions |
+| `support_category_packages_other` | Packages and Registries::Other |
+| `support_category_packages_pypi_building` | Packages and Registries::PyPI Packages::Creating/building/publishing packages |
+| `support_category_packages_pypi_installing` | Packages and Registries::PyPI Packages::Installing packages |
+| `support_category_packages_pypi_other` | Packages and Registries::PyPI Packages::Other |
+| `support_category_packages_pypi` | Packages and Registries::PyPI Packages |
+| `support_category_packages_pypi_questions` | Packages and Registries::PyPI Packages::Questions |
+| `support_category_performance_agent` | Performance issues with GitLab components::GitLab agent |
+| `support_category_performance_alertmanager` | Performance issues with GitLab components::Alertmanager |
+| `support_category_performance_certifcates` | Performance issues with GitLab components::Certificate management |
+| `support_category_performance_consul` | Performance issues with GitLab components::Consul |
+| `support_category_performance_database` | Performance issues with GitLab components::PostgreSQL/Database |
+| `support_category_performance_emails` | Performance issues with GitLab components::Outbound/Inbounce Emails |
+| `support_category_performance_exporter` | Performance issues with GitLab components::GitLab Exporter |
+| `support_category_performance_geo` | Performance issues with GitLab components::GitLab Geo |
+| `support_category_performance_gitaly` | Performance issues with GitLab components::Gitaly |
+| `support_category_performance_grafana` | Performance issues with GitLab components::Grafana |
+| `support_category_performance_lfs` | Performance issues with GitLab components::LFS |
+| `support_category_performance_logrotate` | Performance issues with GitLab components::Logrotate |
+| `support_category_performance_mattermost` | Performance issues with GitLab components::Mattermost |
+| `support_category_performance_nginx` | Performance issues with GitLab components::Nginx |
+| `support_category_performance_node_exporter` | Performance issues with GitLab components::Node Exporter |
+| `support_category_performance_object_storage` | Performance issues with GitLab components::MinIO/Object storage |
+| `support_category_performance_other` | Performance issues with GitLab components::Other/Unsure |
+| `support_category_performance_patroni` | Performance issues with GitLab components::Patroni |
+| `support_category_performance_pgbouncer` | Performance issues with GitLab components::PgBouncer |
+| `support_category_performance_praefect` | Performance issues with GitLab components::Praefect |
+| `support_category_performance_prometheus` | Performance issues with GitLab components::Prometheus |
+| `support_category_performance_puma` | Performance issues with GitLab components::Puma |
+| `support_category_performance_redis` | Performance issues with GitLab components::Redis |
+| `support_category_performance_registry` | Performance issues with GitLab components::Registry |
+| `support_category_performance_sentry` | Performance issues with GitLab components::Sentry |
+| `support_category_performance_sidekiq` | Performance issues with GitLab components::Sidekiq |
+| `support_category_performance_ssl` | Performance issues with GitLab components::SSL/TLS |
+| `support_category_performance_workhorse` | Performance issues with GitLab components::GitLab Workhorse |
+| `support_category_pg_management_group_creation` | Project & Group Management::Group related::Creation |
+| `support_category_pg_management_group_errors` | Project & Group Management::Group related::Errors/issues |
+| `support_category_pg_management_group_memberships` | Project & Group Management::Group related::Memberships |
+| `support_category_pg_management_group_other` | Project & Group Management::Group related::Other |
+| `support_category_pg_management_group` | Project & Group Management::Group related |
+| `support_category_pg_management_group_questions` | Project & Group Management::Group related::Questions |
+| `support_category_pg_management_group_settings` | Project & Group Management::Group related::Management/Settings |
+| `support_category_pg_management_issues_boards` | Project & Group Management::Issues/Epics related::Issue Boards |
+| `support_category_pg_management_issues_creation` | Project & Group Management::Issues/Epics related::Creation |
+| `support_category_pg_management_issues_designs` | Project & Group Management::Issues/Epics related::Issue Designs |
+| `support_category_pg_management_issues_errors` | Project & Group Management::Issues/Epics related::Errors/issues |
+| `support_category_pg_management_issues_other` | Project & Group Management::Issues/Epics related::Other |
+| `support_category_pg_management_issues` | Project & Group Management::Issues/Epics related |
+| `support_category_pg_management_issues_questions` | Project & Group Management::Issues/Epics related::Questions |
+| `support_category_pg_management_issues_settings` | Project & Group Management::Issues/Epics related::Management/Settings |
+| `support_category_pg_management_issues_summarize_comments` | Project & Group Management::Issues/Epics related::Summarize Issue Comments |
+| `support_category_pg_management_iterations_iterations` | Project & Group Management::Iterations/Milestones related::Iterations |
+| `support_category_pg_management_iterations_milestones` | Project & Group Management::Iterations/Milestones related::Milestones |
+| `support_category_pg_management_iterations` | Project & Group Management::Iterations/Milestones related |
+| `support_category_pg_management_labels_group` | Project & Group Management::Labels related::Group Labels |
+| `support_category_pg_management_labels` | Project & Group Management::Labels related |
+| `support_category_pg_management_labels_project` | Project & Group Management::Labels related::Project Labels |
+| `support_category_pg_management_mrs_approvals` | Project & Group Management::Merge Requests related::Approval rules/settings |
+| `support_category_pg_management_mrs_changes` | Project & Group Management::Merge Requests related::Changes |
+| `support_category_pg_management_mrs_conflicts` | Project & Group Management::Merge Requests related::Conflicts |
+| `support_category_pg_management_mrs_creation` | Project & Group Management::Merge Requests related::Creation |
+| `support_category_pg_management_mrs_dependencies` | Project & Group Management::Merge Requests related::Dependencies |
+| `support_category_pg_management_mrs_generate_tests` | Project & Group Management::Merge Requests related::Generate tests in MR |
+| `support_category_pg_management_mrs_management` | Project & Group Management::Merge Requests related::Management |
+| `support_category_pg_management_mrs_other` | Project & Group Management::Merge Requests related::Other |
+| `support_category_pg_management_mrs` | Project & Group Management::Merge Requests related |
+| `support_category_pg_management_mrs_suggested_reviewers` | Project & Group Management::Merge Requests related::Suggested Reviewers |
+| `support_category_pg_management_mrs_summarize_changes` | Project & Group Management::Merge Requests related::Summarize proposed MR Changes |
+| `support_category_pg_management_mrs_summarize_mr` | Project & Group Management::Merge Requests related::Summarize my MR review |
+| `support_category_pg_management_other` | Project & Group Management::Other |
+| `support_category_pg_management_project_creation` | Project & Group Management::Project related::Creation |
+| `support_category_pg_management_project_errors` | Project & Group Management::Project related::Errors/issues |
+| `support_category_pg_management_project_import_export` | Project & Group Management::Project related::Import/Export |
+| `support_category_pg_management_project_other` | Project & Group Management::Project related::Other |
+| `support_category_pg_management_project_pages` | Project & Group Management::Project related::GitLab Pages |
+| `support_category_pg_management_project` | Project & Group Management::Project related |
+| `support_category_pg_management_project_questions` | Project & Group Management::Project related::Questions |
+| `support_category_pg_management_project_service_desk` | Project & Group Management::Project related::Service Desk |
+| `support_category_pg_management_project_settings` | Project & Group Management::Project related::Management/Settings |
+| `support_category_pg_management_repository_branches` | Project & Group Management::Repository related::Branches |
+| `support_category_pg_management_repository_code_owners` | Project & Group Management::Repository related::Code owners |
+| `support_category_pg_management_repository_code_suggestions` | Project & Group Management::Repository related::Code suggestions |
+| `support_category_pg_management_repository_creation` | Project & Group Management::Repository related::Creation |
+| `support_category_pg_management_repository_explain_code` | Project & Group Management::Repository related::Explain this block of code |
+| `support_category_pg_management_repository_forking` | Project & Group Management::Repository related::Forking |
+| `support_category_pg_management_repository_gitlab_chat` | Project & Group Management::Repository related::GitLab Chat |
+| `support_category_pg_management_repository_lfs` | Project & Group Management::Repository related::LFS |
+| `support_category_pg_management_repository_mirroring` | Project & Group Management::Repository related::Mirroring |
+| `support_category_pg_management_repository_other` | Project & Group Management::Repository related::Other |
+| `support_category_pg_management_repository` | Project & Group Management::Repository related |
+| `support_category_pg_management_repository_settings` | Project & Group Management::Repository related::Management/Settings |
+| `support_category_pg_management_repository_snippets` | Project & Group Management::Repository related::Snippets |
+| `support_category_pg_management_requirements_creation` | Project & Group Management::Requirements Management::Creation |
+| `support_category_pg_management_requirements_errors` | Project & Group Management::Requirements Management::Errors/issues |
+| `support_category_pg_management_requirements_other` | Project & Group Management::Requirements Management::Other |
+| `support_category_pg_management_requirements` | Project & Group Management::Requirements Management |
+| `support_category_pg_management_requirements_questions` | Project & Group Management::Requirements Management::Questions |
+| `support_category_pg_management_requirements_settings` | Project & Group Management::Requirements Management::Management/Settings |
+| `support_category_pg_management_roadmaps` | Project & Group Management::Roadmaps |
+| `support_category_pg_management_user_creation` | Project & Group Management::User related::Creation |
+| `support_category_pg_management_user_errors` | Project & Group Management::User related::Errors/issues |
+| `support_category_pg_management_user_other` | Project & Group Management::User related::Other |
+| `support_category_pg_management_user` | Project & Group Management::User related |
+| `support_category_pg_management_user_questions` | Project & Group Management::User related::Questions |
+| `support_category_pg_management_user_settings` | Project & Group Management::User related::Management/Settings |
+| `support_category_pg_management_user_todo_lists` | Project & Group Management::User related::To-Do Lists |
+| `support_category_pg_management_wiki_group` | Project & Group Management::Wiki related::Group Wikis |
+| `support_category_pg_management_wiki` | Project & Group Management::Wiki related |
+| `support_category_pg_management_wiki_project` | Project & Group Management::Wiki related::Project Wikis |
+| `support_category_runners_agent_configuration` | GitLab Runners::Kubernetes - Agent::Configuration |
+| `support_category_runners_agent_errors` | GitLab Runners::Kubernetes - Agent::Issues/Errors |
+| `support_category_runners_agent` | GitLab Runners::Kubernetes - Agent |
+| `support_category_runners_agent_installation` | GitLab Runners::Kubernetes - Agent::Installation/Registration |
+| `support_category_runners_agent_other_topic` | GitLab Runners::Kubernetes - Agent::Other |
+| `support_category_runners_agent_questions` | GitLab Runners::Kubernetes - Agent::Questions |
+| `support_category_runners_docker_configuration` | GitLab Runners::Docker::Configuration |
+| `support_category_runners_docker_errors` | GitLab Runners::Docker::Issues/Errors |
+| `support_category_runners_docker` | GitLab Runners::Docker |
+| `support_category_runners_docker_installation` | GitLab Runners::Docker::Installation/Registration |
+| `support_category_runners_docker_other_topic` | GitLab Runners::Docker::Other |
+| `support_category_runners_docker_questions` | GitLab Runners::Docker::Questions |
+| `support_category_runners_freebsd_configuration` | GitLab Runners::FreeBSD::Configuration |
+| `support_category_runners_freebsd_errors` | GitLab Runners::FreeBSD::Issues/Errors |
+| `support_category_runners_freebsd` | GitLab Runners::FreeBSD |
+| `support_category_runners_freebsd_installation` | GitLab Runners::FreeBSD::Installation/Registration |
+| `support_category_runners_freebsd_other_topic` | GitLab Runners::FreeBSD::Other |
+| `support_category_runners_freebsd_questions` | GitLab Runners::FreeBSD::Questions |
+| `support_category_runners_helm_configuration` | GitLab Runners::Kubernetes - Helm::Configuration |
+| `support_category_runners_helm_errors` | GitLab Runners::Kubernetes - Helm::Issues/Errors |
+| `support_category_runners_helm` | GitLab Runners::Kubernetes - Helm |
+| `support_category_runners_helm_installation` | GitLab Runners::Kubernetes - Helm::Installation/Registration |
+| `support_category_runners_helm_other_topic` | GitLab Runners::Kubernetes - Helm::Other |
+| `support_category_runners_helm_questions` | GitLab Runners::Kubernetes - Helm::Questions |
+| `support_category_runners_linux_configuration` | GitLab Runners::Linux::Configuration |
+| `support_category_runners_linux_errors` | GitLab Runners::Linux::Issues/Errors |
+| `support_category_runners_linux` | GitLab Runners::Linux |
+| `support_category_runners_linux_installation` | GitLab Runners::Linux::Installation/Registration |
+| `support_category_runners_linux_other_topic` | GitLab Runners::Linux::Other |
+| `support_category_runners_linux_questions` | GitLab Runners::Linux::Questions |
+| `support_category_runners_macos_configuration` | GitLab Runners::macOS::Configuration |
+| `support_category_runners_macos_errors` | GitLab Runners::macOS::Issues/Errors |
+| `support_category_runners_macos` | GitLab Runners::macOS |
+| `support_category_runners_macos_installation` | GitLab Runners::macOS::Installation/Registration |
+| `support_category_runners_macos_other_topic` | GitLab Runners::macOS::Other |
+| `support_category_runners_macos_questions` | GitLab Runners::macOS::Questions |
+| `support_category_runners_operator_configuration` | GitLab Runners::Kubernetes - Operator::Configuration |
+| `support_category_runners_operator_errors` | GitLab Runners::Kubernetes - Operator::Issues/Errors |
+| `support_category_runners_operator` | GitLab Runners::Kubernetes - Operator |
+| `support_category_runners_operator_installation` | GitLab Runners::Kubernetes - Operator::Installation/Registration |
+| `support_category_runners_operator_other_topic` | GitLab Runners::Kubernetes - Operator::Other |
+| `support_category_runners_operator_questions` | GitLab Runners::Kubernetes - Operator::Questions |
+| `support_category_runners_other_configuration` | GitLab Runners::Other::Configuration |
+| `support_category_runners_other_errors` | GitLab Runners::Other::Issues/Errors |
+| `support_category_runners_other` | GitLab Runners::Other |
+| `support_category_runners_other_installation` | GitLab Runners::Other::Installation/Registration |
+| `support_category_runners_other_other` | GitLab Runners::Other::Other |
+| `support_category_runners_other_questions` | GitLab Runners::Other::Questions |
+| `support_category_runners_shared_configuration` | GitLab Runners::GitLab.com Shared Runners::Configuration |
+| `support_category_runners_shared_errors` | GitLab Runners::GitLab.com Shared Runners::Issues/Errors |
+| `support_category_runners_shared` | GitLab Runners::GitLab.com Shared Runners |
+| `support_category_runners_shared_installation` | GitLab Runners::GitLab.com Shared Runners::Installation/Registration |
+| `support_category_runners_shared_other_topic` | GitLab Runners::GitLab.com Shared Runners::Other |
+| `support_category_runners_shared_questions` | GitLab Runners::GitLab.com Shared Runners::Questions |
+| `support_category_runners_windows_configuration` | GitLab Runners::Windows::Configuration |
+| `support_category_runners_windows_errors` | GitLab Runners::Windows::Issues/Errors |
+| `support_category_runners_windows` | GitLab Runners::Windows |
+| `support_category_runners_windows_installation` | GitLab Runners::Windows::Installation/Registration |
+| `support_category_runners_windows_other_topic` | GitLab Runners::Windows::Other |
+| `support_category_runners_windows_questions` | GitLab Runners::Windows::Questions |
+| `support_category_secure_api_fuzzing_errors` | Secure::API Fuzzing::Issues/Errors |
+| `support_category_secure_api_fuzzing_other` | Secure::API Fuzzing::Other |
+| `support_category_secure_api_fuzzing_questions` | Secure::API Fuzzing::Questions |
+| `support_category_secure_api_fuzzing` | Secure::API Fuzzing |
+| `support_category_secure_api_fuzzing_setup` | Secure::API Fuzzing::Setup/Configuration |
+| `support_category_secure_cve_id_errors` | Secure::CVE ID requests::Issues/Errors |
+| `support_category_secure_cve_id_other` | Secure::CVE ID requests::Other |
+| `support_category_secure_cve_id_questions` | Secure::CVE ID requests::Questions |
+| `support_category_secure_cve_id` | Secure::CVE ID requests |
+| `support_category_secure_cve_id_setup` | Secure::CVE ID requests::Setup/Configuration |
+| `support_category_secure_dast_errors` | Secure::Dynamic Application Security Testing ::Issues/Errors |
+| `support_category_secure_dast_other` | Secure::Dynamic Application Security Testing ::Other |
+| `support_category_secure_dast_questions` | Secure::Dynamic Application Security Testing ::Questions |
+| `support_category_secure_dast` | Secure::Dynamic Application Security Testing |
+| `support_category_secure_dast_setup` | Secure::Dynamic Application Security Testing ::Setup/Configuration |
+| `support_category_secure_dependency_scanning_errors` | Secure::Dependency Scanning::Issues/Errors |
+| `support_category_secure_dependency_scanning_other` | Secure::Dependency Scanning::Other |
+| `support_category_secure_dependency_scanning_questions` | Secure::Dependency Scanning::Questions |
+| `support_category_secure_dependency_scanning` | Secure::Dependency Scanning |
+| `support_category_secure_dependency_scanning_setup` | Secure::Dependency Scanning::Setup/Configuration |
+| `support_category_secure_explain_vulnerability_errors` | Secure::Explain this vulnerability::Issues/Errors |
+| `support_category_secure_explain_vulnerability_other` | Secure::Explain this vulnerability::Other |
+| `support_category_secure_explain_vulnerability_questions` | Secure::Explain this vulnerability::Questions |
+| `support_category_secure_explain_vulnerability` | Secure::Explain this vulnerability |
+| `support_category_secure_explain_vulnerability_setup` | Secure::Explain this vulnerability::Setup/Configuration |
+| `support_category_secure_fuzz_testing_errors` | Secure::Coverage-guided fuzz testing::Issues/Errors |
+| `support_category_secure_fuzz_testing_other` | Secure::Coverage-guided fuzz testing::Other |
+| `support_category_secure_fuzz_testing_questions` | Secure::Coverage-guided fuzz testing::Questions |
+| `support_category_secure_fuzz_testing` | Secure::Coverage-guided fuzz testing |
+| `support_category_secure_fuzz_testing_setup` | Secure::Coverage-guided fuzz testing::Setup/Configuration |
+| `support_category_secure_iac_scanning_errors` | Secure::Infrastructure as Code ::Issues/Errors |
+| `support_category_secure_iac_scanning_other` | Secure::Infrastructure as Code ::Other |
+| `support_category_secure_iac_scanning_questions` | Secure::Infrastructure as Code ::Questions |
+| `support_category_secure_iac_scanning` | Secure::Infrastructure as Code |
+| `support_category_secure_iac_scanning_setup` | Secure::Infrastructure as Code ::Setup/Configuration |
+| `support_category_secure_offline_envs_errors` | Secure::Offline Environments::Issues/Errors |
+| `support_category_secure_offline_envs_other` | Secure::Offline Environments::Other |
+| `support_category_secure_offline_envs_questions` | Secure::Offline Environments::Questions |
+| `support_category_secure_offline_envs` | Secure::Offline Environments |
+| `support_category_secure_offline_envs_setup` | Secure::Offline Environments::Setup/Configuration |
+| `support_category_secure_other_errors` | Secure::Other::Issues/Errors |
+| `support_category_secure_other_other` | Secure::Other::Other |
+| `support_category_secure_other_questions` | Secure::Other::Questions |
+| `support_category_secure_other` | Secure::Other |
+| `support_category_secure_other_setup` | Secure::Other::Setup/Configuration |
+| `support_category_secure_policies_errors` | Secure::Policies::Issues/Errors |
+| `support_category_secure_policies_other` | Secure::Policies::Other |
+| `support_category_secure_policies_questions` | Secure::Policies::Questions |
+| `support_category_secure_policies` | Secure::Policies |
+| `support_category_secure_policies_setup` | Secure::Policies::Setup/Configuration |
+| `support_category_secure_revocation_errors` | Secure::Post-processing and revocation::Issues/Errors |
+| `support_category_secure_revocation_other` | Secure::Post-processing and revocation::Other |
+| `support_category_secure_revocation_questions` | Secure::Post-processing and revocation::Questions |
+| `support_category_secure_revocation` | Secure::Post-processing and revocation |
+| `support_category_secure_revocation_setup` | Secure::Post-processing and revocation::Setup/Configuration |
+| `support_category_secure_sast_errors` | Secure::Static Application Security Testing::Issues/Errors |
+| `support_category_secure_sast_other` | Secure::Static Application Security Testing::Other |
+| `support_category_secure_sast_questions` | Secure::Static Application Security Testing::Questions |
+| `support_category_secure_sast` | Secure::Static Application Security Testing |
+| `support_category_secure_sast_setup` | Secure::Static Application Security Testing::Setup/Configuration |
+| `support_category_secure_scanner_integration_errors` | Secure::Security scanner integration::Issues/Errors |
+| `support_category_secure_scanner_integration_other` | Secure::Security scanner integration::Other |
+| `support_category_secure_scanner_integration_questions` | Secure::Security scanner integration::Questions |
+| `support_category_secure_scanner_integration` | Secure::Security scanner integration |
+| `support_category_secure_scanner_integration_setup` | Secure::Security scanner integration::Setup/Configuration |
+| `support_category_secure_secret_detection_errors` | Secure::Secret Detection::Issues/Errors |
+| `support_category_secure_secret_detection_other` | Secure::Secret Detection::Other |
+| `support_category_secure_secret_detection_questions` | Secure::Secret Detection::Questions |
+| `support_category_secure_secret_detection` | Secure::Secret Detection |
+| `support_category_secure_secret_detection_setup` | Secure::Secret Detection::Setup/Configuration |
+| `support_category_secure_security_config_errors` | Secure::Security Configuration::Issues/Errors |
+| `support_category_secure_security_config_other` | Secure::Security Configuration::Other |
+| `support_category_secure_security_config_questions` | Secure::Security Configuration::Questions |
+| `support_category_secure_security_config` | Secure::Security Configuration |
+| `support_category_secure_security_config_setup` | Secure::Security Configuration::Setup/Configuration |
+| `support_category_secure_security_dashboard_errors` | Secure::Security Dashboard::Issues/Errors |
+| `support_category_secure_security_dashboard_other` | Secure::Security Dashboard::Other |
+| `support_category_secure_security_dashboard_questions` | Secure::Security Dashboard::Questions |
+| `support_category_secure_security_dashboard` | Secure::Security Dashboard |
+| `support_category_secure_security_dashboard_setup` | Secure::Security Dashboard::Setup/Configuration |
+| `support_category_secure_vulnerability_levels_errors` | Secure::Vulnerability severity levels::Issues/Errors |
+| `support_category_secure_vulnerability_levels_other` | Secure::Vulnerability severity levels::Other |
+| `support_category_secure_vulnerability_levels_questions` | Secure::Vulnerability severity levels::Questions |
+| `support_category_secure_vulnerability_levels` | Secure::Vulnerability severity levels |
+| `support_category_secure_vulnerability_levels_setup` | Secure::Vulnerability severity levels::Setup/Configuration |
+| `support_category_secure_vulnerability_page_errors` | Secure::Vulnerability Page::Issues/Errors |
+| `support_category_secure_vulnerability_page_other` | Secure::Vulnerability Page::Other |
+| `support_category_secure_vulnerability_page_questions` | Secure::Vulnerability Page::Questions |
+| `support_category_secure_vulnerability_page` | Secure::Vulnerability Page |
+| `support_category_secure_vulnerability_page_setup` | Secure::Vulnerability Page::Setup/Configuration |
+| `support_category_secure_vulnerability_report_errors` | Secure::Vulnerability Report::Issues/Errors |
+| `support_category_secure_vulnerability_report_other` | Secure::Vulnerability Report::Other |
+| `support_category_secure_vulnerability_report_questions` | Secure::Vulnerability Report::Questions |
+| `support_category_secure_vulnerability_report` | Secure::Vulnerability Report |
+| `support_category_secure_vulnerability_report_setup` | Secure::Vulnerability Report::Setup/Configuration |
+| `support_category_usage_quotas_minutes_calc` | Usage Quotas::CI Minute usage::Subscription seat usage::Accuracy/Calculation |
+| `support_category_usage_quotas_minutes_other` | Usage Quotas::CI Minute usage::Other |
+| `support_category_usage_quotas_minutes_questions` | Usage Quotas::CI Minute usage::Questions |
+| `support_category_usage_quotas_minutes` | Usage Quotas::CI Minute usage |
+| `support_category_usage_quotas_seats_calc` | Usage Quotas::Subscription seat usage::Accuracy/Calculation |
+| `support_category_usage_quotas_seats_other` | Usage Quotas::Other |
+| `support_category_usage_quotas_seats_questions` | Usage Quotas::Subscription seat usage::Questions |
+| `support_category_usage_quotas_seats` | Usage Quotas::Subscription seat usage |
+| `support_category_usage_quotas_storage_calc` | Usage Quotas::Storage usage::Accuracy/Calculation |
+| `support_category_usage_quotas_storage_other` | Usage Quotas::Storage usage::Other |
+| `support_category_usage_quotas_storage_questions` | Usage Quotas::Storage usage::Questions |
+| `support_category_usage_quotas_storage` | Usage Quotas::Storage usage |
+
+</details>
+<details>
+<summary>Categorization tags (pre 2025-02-01)</summary>
 
 | Tag                                                        | What it means                                                                             |
 |------------------------------------------------------------|-------------------------------------------------------------------------------------------|
@@ -740,6 +1695,10 @@ important to those working within Zendesk:
 | `within_grace_period`            | Indicates a ticket was submitted while the account is within the subscription's grace period |
 | `CUSTOM_PATH_issues_IID`         | See below for more information |
 | `CUSTOM_PATH_merge_requests_IID` | See below for more information |
+| `americas_usa`                   | Customer selected preferred region of service: AMER |
+| `europe__middle_east__africa`    | Customer selected preferred region of service: EMEA |
+| `asia_pacific`                   | Customer selected preferred region of service: APAC |
+| `all_regions`                    | Customer selected preferred region of service: All Regions |
 
 For `CUSTOM_PATH_issues_IID` and `CUSTOM_PATH_merge_requests_IID`, this refers
 to a long tag that contains the entire project path.
@@ -756,40 +1715,31 @@ So an example:
 ## Zendesk US Federal common tags
 
 <details>
-<summary>SLA Related Tags</summary>
+<summary>SLA/Subscriptiom Related Tags</summary>
 
-| Tag               | What it means |
-|-------------------|---------------|
-| `starter`         | Signifies the ticket is using a Starter plan, granting Standard SLA on Support tickets |
-| `premium`         | Signifies the ticket is using a Premium plan, granting Priority SLA on Support tickets |
-| `ultimate`        | Signifies the ticket is using a Ultimate plan, granting Priority SLA on Support tickets |
-| `prospect`        | Signifies the ticket is from a prospect who has been temporarily granted Standard SLA on Support tickets |
-| `missing_sla_tag` | This means the ticket is missing any form of SLA tagging. |
-| `low`             | Signifies the ticket as a Low priority, thus granting it bare-level support SLAs for Support tickets with Priority SLA |
-| `medium`          | Signifies the ticket as a Normal priority, thus granting it mid-level support SLAs for Support tickets with Priority SLA |
-| `high`            | Signifies the ticket as a High priority, thus granting it high level support SLAs for Support tickets with Priority SLA |
-| `urgent`          | Signifies the ticket is an emergency request |
-
-| Tag                            | SLA granted | What it means |
-|--------------------------------|-------------|---------------|
-| `sub_community_other`          | None        | The organization has a community subscription of an unknown type |
-| `sub_consumption_ai`           | None        | The organization has purchased an AI addon |
-| `sub_consumption_cicd_minutes` | None        | The organization has purchased CI/CD minutes |
-| `sub_consumption_eap`          | None        | The organization has purchased the Enterprise Agile Planning addon |
-| `sub_consumption_storage`      | None        | The organization has storage |
-| `sub_dotcom_premium`           | None        | The organization has a GitLab.com Premium subscription |
-| `sub_dotcom_ultimate`          | None        | The organization has a GitLab.com Ultimate subscription |
-| `sub_edu`                      | None        | The organization has a EDU community subscription |
-| `sub_gitlab_dedicated`         | Priority    | The organization has a GitLab Dedicated subscription |
-| `sub_oss`                      | None        | The organization has a OSS community subscription |
-| `sub_other`                    | None        | The organization has an unknown purchase |
-| `sub_proserv`                  | None        | The organization has a Professional Services engagement purchase |
-| `sub_sm_premium`               | Priority    | The organization has a Self-managed Premium subscription |
-| `sub_sm_starter`               | Standard    | The organization has a Self-managed Starter subscription |
-| `sub_sm_ultimate`              | Priority    | The organization has a Self-managed Ultimate subscription |
-| `sub_ss_ase`                   | None        | The organization has purchased an Assigned Support Engineer addon |
-| `sub_usgov_12x5`               | Priority    | The organization has a US Government purchase granting 12x5 support |
-| `sub_usgov_24x7`               | Priority    | The organization has a US Government purchase granting 24x7 support |
+| Tag                              | SLA granted | What it means |
+|----------------------------------|-------------|---------------|
+| `sub_community_other`            | None        | The organization has a community subscription of an unknown type |
+| `sub_consumption_ai`             | None        | The organization has purchased an AI addon |
+| `sub_consumption_cicd_minutes`   | None        | The organization has purchased CI/CD minutes |
+| `sub_consumption_eap`            | None        | The organization has purchased the Enterprise Agile Planning addon |
+| `sub_consumption_storage`        | None        | The organization has storage |
+| `sub_consumption_duo_enterprise` | Consumption | The organization has purchased GitLab Duo Enterprise |
+| `sub_consumption_duo_premium`    | Consumption | The organization has purchased GitLab Duo Premium |
+| `sub_consumption_duo_amazon_q`   | Consumption | The organization has purchased GitLab Duo with Amazon Q |
+| `sub_dotcom_premium`             | None        | The organization has a GitLab.com Premium subscription |
+| `sub_dotcom_ultimate`            | None        | The organization has a GitLab.com Ultimate subscription |
+| `sub_edu`                        | None        | The organization has a EDU community subscription |
+| `sub_gitlab_dedicated`           | Priority    | The organization has a GitLab Dedicated subscription |
+| `sub_oss`                        | None        | The organization has a OSS community subscription |
+| `sub_other`                      | None        | The organization has an unknown purchase |
+| `sub_proserv`                    | None        | The organization has a Professional Services engagement purchase |
+| `sub_sm_premium`                 | Priority    | The organization has a Self-managed Premium subscription |
+| `sub_sm_starter`                 | Standard    | The organization has a Self-managed Starter subscription |
+| `sub_sm_ultimate`                | Priority    | The organization has a Self-managed Ultimate subscription |
+| `sub_ss_ase`                     | None        | The organization has purchased an Assigned Support Engineer addon |
+| `sub_usgov_12x5`                 | Priority    | The organization has a US Government purchase granting 12x5 support |
+| `sub_usgov_24x7`                 | Priority    | The organization has a US Government purchase granting 24x7 support |
 
 </details>
 <details>

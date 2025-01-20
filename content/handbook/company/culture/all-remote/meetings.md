@@ -21,7 +21,7 @@ We're thoughtful about how we run meetings, because, when done right, they are f
 1. **Provide slides and supporting videos in advance.** We [embrace Neurodiversity](/handbook/values/#embracing-neurodiversity) by adopting a variety of different work styles and communication styles. Providing multiple ways to consume information (written / video / audio) allows everyone to contribute independent of their preferred comprehension style.
 1. **Use "speedy meetings."** This [Google Calendar setting](https://calendar.google.com/calendar/r/settings) creates meetings of 25 / 50 minute duration, which leaves time to write notes, stretch, etc. in between meetings.
 1. **Use the Zoom scheduler plug-in to add video conferencing to your Google Calendar event.** Leveraging the Zoom plug-in automatically adds Zoom links to your event, and reduces the probability of user error in copying and pasting an incorrect video conferencing link.
-1. **Check your audio quality.** [Research shows](https://tips.ariyh.com/p/good-sound-quality-smarter) that when the audio quality is high, people judge the content as better and more important. We recommend you [invest in equipment](workspace/#what-technology-do-i-need-for-remote-working) to generate the highest-fidelity audio in your remote work setting, such as using a microphone.
+1. **Check your audio quality.** [Research shows](https://app.sciencesays.com/p/good-sound-quality-smarter) that when the audio quality is high, people judge the content as better and more important. We recommend you [invest in equipment](workspace/#what-technology-do-i-need-for-remote-working) to generate the highest-fidelity audio in your remote work setting, such as using a microphone.
 
 ### What to do during the meeting
 
@@ -133,16 +133,16 @@ It's not rude to focus on documentation in a meeting. A surefire way to waste ti
 
 1. During the meeting, add input and feedback from attendees to existing agenda items.
 1. When referencing a team member's name in the meeting agenda, ensure that both the first and last names are displayed. (e.g: When we write the name of the person who is speaking in the agenda, we should write the first and last name or use the tagging feature as a prefix)
-1. For action items, we [go directly to a GitLab issue](https://about.gitlab.com/blog/2016/03/03/start-with-an-issue) or [merge request](https://docs.gitlab.com/ee/user/project/merge_requests). This creates a direct takeaway from the meeting, where ideas are summarized and action can begin immediately. Be sure to add a link the issue or MR in your meeting agenda for reference and completeness.
+1. For action items, we [go directly to a GitLab issue](/handbook/communication/#start-with-a-merge-request) or [merge request](https://docs.gitlab.com/ee/user/project/merge_requests/). This creates a direct takeaway from the meeting, where ideas are summarized and action can begin immediately. Be sure to add a link the issue or MR in your meeting agenda for reference and completeness.
 1. For optional attendees, or key team members who could not attend the meeting live, tagging them in the resulting GitLab issue(s) enables them to get themselves up to speed and contribute when it is suitable for their schedule.
-1. Record the meeting. You can always delete an unwanted meeting, but you cannot turn back the clock and record a meeting retroactively. This is particularly important if you want to present or wish to have a written transcription of the meeting. Zoom's [Cloud Recording](https://support.zoom.us/hc/en-us/articles/115004794983-Automatically-Transcribe-Cloud-Recordings-) supports [transcription](/handbook/tools-and-tips/zoom#recording-video-transcripts) natively, and [Otter](https://otter.ai) is another popular transcription tool.
+1. Record the meeting. You can always delete an unwanted meeting, but you cannot turn back the clock and record a meeting retroactively. This is particularly important if you want to present or wish to have a written transcription of the meeting. Zoom's [Cloud Recording](https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0064927) supports [transcription](/handbook/tools-and-tips/zoom#recording-video-transcripts) natively, and [Otter](https://otter.ai) is another popular transcription tool.
 
 ### 6. Use the right tools
 
 All-remote meetings are made simpler given that there's no jockeying for space in a conference room, scrounging for huddle rooms, or wondering if a given group still needs the  room they've reserved — all very real conundrums in colocated environments.
 
 1. GitLab uses Zoom for video calls and screen sharing. Its simple recording function makes it easy to capture meetings for others to watch at a later time. Learn more about how we optimize Zoom usage in our meetings in the [Tools and Tips](/handbook/tools-and-tips#zoom) portion of our Handbook.
-1. We use [GitLab Issues](https://docs.gitlab.com/ee/user/project/issues) to document action items that come out of any given meeting, and loop anyone else in who opted out of real-time attendance.
+1. We use [GitLab Issues](https://docs.gitlab.com/ee/user/project/issues/) to document action items that come out of any given meeting, and loop anyone else in who opted out of real-time attendance.
 1. Leverage tools such as Calendly, which can show you as busy in chat tools like Slack.
 
 #### Use GitLab to replace meetings
@@ -166,17 +166,17 @@ If a hybrid call must happen, however, everyone should use their own equipment (
 </figure>
 
 <!-- blank line -->
-In the above [video interview](https://youtu.be/EeUhxQn_ct4) between GitLab co-founder and CEO [Sid Sijbrandij](https://twitter.com/sytses) and [NoHQ](https://nohq.co)'s [Dominic Monn](https://twitter.com/dqmonn), the two discuss common challenges and solutions to building, sustaining, and scaling a thriving remote workplace.
+In the above [video interview](https://youtu.be/EeUhxQn_ct4) between GitLab co-founder [Sid Sijbrandij](https://twitter.com/sytses) and [NoHQ](https://nohq.co)'s [Dominic Monn](https://twitter.com/dqmonn), the two discuss common challenges and solutions to building, sustaining, and scaling a thriving remote workplace.
 
 They speak at length about meetings within a remote environment. In particular, Sid shares that remote workers should embrace the benefit of being free to take meetings with loved ones nearby.
 
-> **Enjoy the benefits of your kids barging in on a meeting. That's the best distraction in the world.** - *GitLab co-founder and CEO [Sid Sijbrandij](https://twitter.com/sytses)*
+> **Enjoy the benefits of your kids barging in on a meeting. That's the best distraction in the world.** - *GitLab co-founder [Sid Sijbrandij](https://twitter.com/sytses)*
 
 Your appearance, surroundings, and background can be the source of great stress and anxiety when preparing for a video call. At GitLab, we encourage team members to bring their whole selves to work.
 
 1. Don't waste time trying to find the perfect backdrop for your video call.
-1. Celebrate [unique surroundings](https://about.gitlab.com/blog/2019/06/25/how-remote-work-at-gitlab-enables-location-independence). It's not uncommon to see GitLab team members participate in a video call from the shores of a lake, coffee shops, RVs, or even while walking.
-1. Focus on your internet connection and your audio quality ([use headphones](https://about.gitlab.com/blog/2019/06/28/five-things-you-hear-from-gitlab-ceo)), reducing listening fatigue for others.
+1. Celebrate [unique surroundings](https://about.gitlab.com/blog/2019/06/25/how-remote-work-at-gitlab-enables-location-independence/). It's not uncommon to see GitLab team members participate in a video call from the shores of a lake, coffee shops, RVs, or even while walking.
+1. Focus on your internet connection and your audio quality ([use headphones](https://about.gitlab.com/blog/2019/06/28/five-things-you-hear-from-gitlab-ceo/)/), reducing listening fatigue for others.
 1. Encourage family and housemates to say hello! All-remote employees invite others into their homes via video call, creating a unique opportunity to share their lives with colleagues.
 1. Consider *not* using a video call. Visit GitLab's [Communication](/handbook/communication/#video-calls) section of the Handbook to learn more.
 
@@ -194,7 +194,7 @@ Learn more in the [Communication section of GitLab's Handbook](/handbook/communi
 
 At GitLab, we have a dedicated Slack channel [devoted to saying thanks](/handbook/communication/#say-thanks). Kindness is embedded in our [Collaboration](/handbook/values/#collaboration) value, and gratitude is an essential part of our culture. This reinforces what connects us as a [geographically diverse](/handbook/company/culture/inclusion#fully-distributed-and-completely-connected) team.
 
-A great example of several GitLab's [values](/handbook/values/) being used to generate a creative outcome from a regularly scheduled meeting is detailed on the company blog: ["How we turned a dull weekly all-hands into a podcast"](https://about.gitlab.com/blog/2019/06/03/how-we-turned-40-person-meeting-into-a-podcast)
+A great example of several GitLab's [values](/handbook/values/) being used to generate a creative outcome from a regularly scheduled meeting is detailed on the company blog: ["How we turned a dull weekly all-hands into a podcast"](https://about.gitlab.com/blog/2019/06/03/how-we-turned-40-person-meeting-into-a-podcast/)
 
 While we can thanks team members within meetings, we do not thank each other for meeting participation as this is not part of our values and could reward folks attending meetings that they are not required in. This would not support [efficiency](/handbook/values/#efficiency), a GitLab value.
 
@@ -264,13 +264,11 @@ All-remote virtual offsites are cost-effective and enable team members to pivot 
 
 In April 2019, GitLab transitioned our board meetings to all-remote. This means that none of the attendees are colocated. By doing so, we've made it as easy as possible for the right people to attend our board meetings, including board members, observers, executives, and anyone doing a [deep dive](/handbook/board-meetings#deep-dives), which can include directors, managers, and, in some cases, individual contributors.
 
-Learn more on [how to run an all-remote board meeting](https://about.gitlab.com/blog/2020/04/15/remote-board-meeting).
+Learn more on [how to run an all-remote board meeting](https://about.gitlab.com/blog/2020/04/15/remote-board-meeting/).
 
 ### What is the difference between remote and in-person meetings?
 
-{{< youtube "EuGsen3FxXc?start=788" >}}
-
-When asked during an [INSEAD](http://insead.edu) case study interview (shown above) about an all-remote company's ability to bring people together in the same physical space for a meeting, GitLab co-founder and CEO Sid Sijbrandij provided the following reply.
+When asked during an [INSEAD](https://www.insead.edu/) [case study interview](https://www.youtube.com/watch?v=EuGsen3FxXc&t=790s) about an all-remote company's ability to bring people together in the same physical space for a meeting, GitLab co-founder Sid Sijbrandij provided the following reply.
 
 For context, Sid joined the Zoom call from San Francisco, while the researchers joined from Singapore.
 
@@ -292,7 +290,7 @@ For context, Sid joined the Zoom call from San Francisco, while the researchers 
 >
 > There are benefits, but they aren't as big as people make them out to be.
 >
-> The biggest thing is [taking the initiative to interrupt each other](https://about.gitlab.com/blog/2019/08/05/tips-for-mastering-video-calls), as that's harder in a remote setting. At GitLab, we solve that by making sure that questions are in a Google Doc in advance so it's clear who has a question and who to hand the conversation off to. — *GitLab co-founder and CEO Sid Sijbrandij*
+> The biggest thing is [taking the initiative to interrupt each other](https://about.gitlab.com/blog/2019/08/05/tips-for-mastering-video-calls/), as that's harder in a remote setting. At GitLab, we solve that by making sure that questions are in a Google Doc in advance so it's clear who has a question and who to hand the conversation off to. — *GitLab co-founder Sid Sijbrandij*
 
 ### Who should be invited to meetings?
 
@@ -320,17 +318,11 @@ For more tips, visit the [GitLab video call communication guide](/handbook/commu
 
 ### What are the best alternatives to Zoom for remote meetings?
 
-While GitLab uses Zoom as the primary video platform for communications,  others may prefer different tools. Some popular Zoom alternatives are:
+While GitLab uses Zoom as the primary video platform for communications, others may prefer different tools. Some popular Zoom alternatives are:
 
 - WebEx
 - MS Teams
 - Skype
-
-## A Conversation with Sid on Meeting preparation and efficiency
-
-{{< youtube "nn1Mjh7j-1I" >}}
-
-In the above [video interview](https://www.youtube.com/watch?v=nn1Mjh7j-1I) between GitLab co-founder and CEO [Sid Sijbrandij](https://twitter.com/sytses) and [CEO Shadow Nikki Silverberg](https://gitlab.com/nikkiroth), the two talk through how Sid prepares for and operates in a full day of meetings. Sid also talks through how he uses the points above to make meetings at GitLab and his day efficient.
 
 ## GitLab Knowledge Assessment: All-Remote Meetings
 

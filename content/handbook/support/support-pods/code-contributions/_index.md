@@ -43,11 +43,11 @@ In addition to collaborating with fellow Support Engineers, consider some of the
   - Slack channel: [#backend_pairs](https://gitlab.slack.com/archives/CLX2Z53A5)
   - Subscribe to the [Google calendar](https://calendar.google.com/calendar/u/0?cid=Y18waWFhcmdxdjUzZGY4cmR1N2g5YmhiNHBpZ0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t).
   - Watch the [Backend Pairing playlist](https://www.youtube.com/playlist?list=PL05JrBw4t0KrMuuWVieMsCG2XHWBCJi_2) on YouTube.
-  - Read about [Backend Engineering](https://handbook.gitlab.com/job-families/engineering/backend-engineer/) at GitLab.
+  - Read about [Backend Engineering](/job-families/engineering/backend-engineer/) at GitLab.
 - Consider participating in **Frontend Pairs**:
   - Slack channel: [#frontend_pairs](https://gitlab.slack.com/archives/CGWPX7516)
   - Subscribe to the [Google calendar](https://calendar.google.com/calendar/u/1?cid=Y18waWFhcmdxdjUzZGY4cmR1N2g5YmhiNHBpZ0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t).
-  - Read about [Frontend Engineering](https://handbook.gitlab.com/job-families/engineering/development/frontend/) at GitLab.
+  - Read about [Frontend Engineering](/job-families/engineering/development/frontend/) at GitLab.
 
 ## Finding a Code Contribution opportunity
 

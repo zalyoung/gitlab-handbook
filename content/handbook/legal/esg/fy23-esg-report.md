@@ -59,7 +59,7 @@ In December 2022, we completed an ESG materiality assessment to determine which 
 
 Six key topics, which drive GitLab's ESG strategy and program development, were identified in GitLab's materiality assessment.
 
-![Materiality_Matrix](/handbook/legal/esg/2022-materiality-matrix-062123.png)
+![Materiality_Matrix](/images/legal/esg/2022-materiality-matrix-062123.png)
 
 GitLab's current key topics are listed below:
 
@@ -82,7 +82,7 @@ GitLab's current key topics are listed below:
 
 In developing our ESG strategy, we have aligned our efforts to the [United Nations Sustainable Development Goals ("UN SDGs")](https://sdgs.un.org/goals). The UN SDGs provide a shared blueprint for peace and prosperity for people and the planet, now and into the future. To that end, our ESG efforts align with five of the seventeen UN SDGs, and we seek to drive progress on the goals within our operations. We will continue to revisit and deepen our alignment as we make progress on our ESG strategy. Throughout this report we include the relevant UN SDG number in each section.
 
-![5_SDGs](/handbook/esg/All_5_Icons.png)
+![5_SDGs](/images/esg/All_5_Icons.png)
 
 ## Social
 
@@ -116,7 +116,7 @@ Successful talent management at GitLab is the direct result of the successful ma
 
 **Developing Our Leaders**
 
-To continue to meet the needs of GitLab as we scale, we focused on developing our team members in FY23. Special attention has been given to developing our managers through targeted programs like [Elevate](/handbook/people-group/learning-and-development/elevate/), our Leadership Development course, which enrolled its first cohort of managers in FY23. We are aiming to have 85% of our leadership community (manager level) graduate from Elevate by the end of FY24.
+To continue to meet the needs of GitLab as we scale, we focused on developing our team members in FY23. Special attention has been given to developing our managers through targeted programs like [Elevate](/handbook/people-group/learning-and-development/elevate-programs/), our Leadership Development course, which enrolled its first cohort of managers in FY23. We are aiming to have 85% of our leadership community (manager level) graduate from Elevate by the end of FY24.
 
 #### Talent Engagement
 
@@ -215,11 +215,11 @@ GitLab launched its first [Philanthropy Policy](/handbook/legal/philanthropy-pol
 
 ### GitLab Foundation
 
-In September 2022, the GitLab Foundation (the "Foundation") launched with a mission to improve people's lifetime earnings through access to opportunities and a vision of a world in which one million more people can afford a better life. The Foundation was formed in part by GitLab as part of its [mission](/handbook/company/mission/) to create a world in which everyone can contribute. GitLab leadership believed it was important to support organizations that could further this goal on a global scale. When GitLab [went public]({{< ref "being-a-public-company#:~:text=GitLab%20began%20trading%20on%20the,part%20of%20realizing%20our%20mission." >}}) in October 2021, it dedicated 1% of its shares to further this aim. This was influenced by the [Pledge 1% movement](https://pledge1percent.org/), which encourages companies and founders desire to set aside equity for social impact.
+In September 2022, the GitLab Foundation (the "Foundation") launched with a mission to improve people's lifetime earnings through access to opportunities and a vision of a world in which one million more people can afford a better life. The Foundation was formed in part by GitLab as part of its [mission](/handbook/company/mission/) to create a world in which everyone can contribute. GitLab leadership believed it was important to support organizations that could further this goal on a global scale. When GitLab [went public]({{< ref "being-a-public-company#:~:text=GitLab%20began%20trading%20on%20the,part%20of%20realizing%20our%20mission." >}}) in October 2021, it dedicated 1% of its shares to further this aim. This was influenced by the [Pledge 1% movement](https://www.pledge1percent.org/), which encourages companies and founders desire to set aside equity for social impact.
 
 The Foundation is funded by GitLab and its CEO, Sytse 'Sid' Sijbrandij. The Foundation is an independent nonprofit entity, and its operations are autonomous from GitLab.
 
-To learn more, please visit the [GitLab Foundation](https://gitlabfoundation.org/).
+To learn more, please visit the [GitLab Foundation](https://www.gitlabfoundation.org/).
 
 ## Environment
 
@@ -231,7 +231,7 @@ Part of doing responsible business means minimizing our environmental footprint.
 
 GitLab is a fully remote company without direct emissions from company owned facilities or direct energy consumption. Accordingly, our GHG inventory measures Scope 3 emissions only, specifically the emissions associated with remote work, purchased goods and services, cloud services, and business travel. Teams across GitLab including Finance, Procurement, People Analytics, Engineering, and Infrastructure, collaborated with the ESG team to collect data for the inventory.
 
-![GHG_Inventory](/handbook/esg/GHG_Inventory.png)
+![GHG_Inventory](/images/esg/GHG_Inventory.png)
 
 The results of our first GHG inventory are also available in the [Performance Data Table](https://about.gitlab.com/documents/PERFORMANCE_DATA_TABLE.pdf) and our third-party assurance letter is available [here](https://about.gitlab.com/documents/GitLab_FY2023_Verification_Opinion.pdf).
 
@@ -246,7 +246,7 @@ As part of our commitment to iteration, GitLab began purchasing accredited carbo
 
 ### Corporate Governance
 
-GitLab's [team members](/handbook/company/team/), [senior management](/handbook/company/team/e-group/), and members of our [Board of Directors](https://ir.gitlab.com/corporate-governance/board-of-directors-grid) ("Board") play critical roles in providing strategic direction for our responsible business practices. Implicit in this philosophy is the importance of sound corporate governance. GitLab's Board has fiduciary duties to GitLab and its shareholders. Our Board provides leadership, regular review and evaluation, and oversight—all in service of stakeholder interests. To help ensure Board members are performing their duties, the Board and its committees participate in annual assessments.
+GitLab's [team members](/handbook/company/team/), [senior management](/handbook/company/structure/#executives), and members of our [Board of Directors](https://about.gitlab.com/company/team/board-of-directors/) ("Board") play critical roles in providing strategic direction for our responsible business practices. Implicit in this philosophy is the importance of sound corporate governance. GitLab's Board has fiduciary duties to GitLab and its shareholders. Our Board provides leadership, regular review and evaluation, and oversight—all in service of stakeholder interests. To help ensure Board members are performing their duties, the Board and its committees participate in annual assessments.
 
 GitLab's [Corporate Governance Guidelines, Codes, Policies, and other governance documents](https://ir.gitlab.com/corporate-governance/documents-charters) guide our [Board](https://ir.gitlab.com/corporate-governance/board-of-directors-grid?_gl=1*zm99bl*_ga*ODA0NTM3Mjk4LjE2NjQ4OTc5MzQ.*_ga_ENFH3X7M5Y*MTY4MjA5OTQyOS4xMDcuMS4xNjgyMTAxNTY3LjAuMC4w) in fulfilling its responsibilities. Board committees oversee and review areas of risk that are particularly relevant to them based on the committee of which a particular Board member sits. GitLab's management regularly provides reports to support the Board's oversight obligations. This reporting cadence provides visibility and information regarding the identification, assessment, and management of critical risks and the company's s risk mitigation strategies.
 
@@ -269,17 +269,17 @@ GitLab's [Nominating and Corporate Governance Committee](https://ir.gitlab.com/s
 
 At GitLab, we know how much security and privacy matter to our customers and stakeholders. GitLab maintains a formal [Security Assurance](/handbook/security/security-assurance/) department responsible for monitoring and reporting on GitLab's compliance with various security frameworks and standards. For the most up-to-date list of current security frameworks, certifications, and instructions on obtaining assurance documentation, please reference GitLab's [Trust Center](https://about.gitlab.com/security/).
 
-GitLab takes the security of our user's data seriously. We employ administrative, technical, and physical security controls when appropriate, to protect user information. For more information on our security practices, please see [Technical and Organizational Security Measures](/handbook/security/security-assurance/technical-and-organizational-measures.html) for GitLab.com.
+GitLab takes the security of our user's data seriously. We employ administrative, technical, and physical security controls when appropriate, to protect user information. For more information on our security practices, please see [Technical and Organizational Security Measures](/handbook/security/security-assurance/technical-and-organizational-measures/) for GitLab.com.
 
 GitLab acknowledges the importance of our privacy obligations and the requirements and rights of our customers and users. We provide detailed information to everyone on the personal data we collect to operate our business. For more information on the personal data we collect, please see our [Privacy Statement](https://about.gitlab.com/privacy/). GitLab makes the necessary documentation available to our customers to enable compliance with privacy regulations. Users also have the right to access, correct, restrict, or delete personal data, and to port personal data to another company. While these rights may vary by jurisdiction, GitLab provides users with the same rights and choices, no matter where they live. For more information on our privacy practices, see our [Privacy Statement](https://about.gitlab.com/privacy/).
 
 The [Privacy Team](/handbook/legal/privacy/), which is part of the [Legal and Corporate Affairs Team]({{< ref legal-and-corporate-affairs >}}), provides support and guidance to uphold consistent business processes around the protection of personal data as it relates to GitLab customers, users, team members, and other natural persons. The team serves as advocates to ensure that the data privacy practices of GitLab meet the needs of cross-functional partners and are continually balanced with an ever-changing global data privacy and protection landscape.
 
-GitLab maintains a [Data Classification Standard](/handbook/engineering/security/data-classification-standard.html) using a color system to denote data classification levels: green, yellow, orange, and red. All customer-generated private data is classified as the most sensitive data in the environment and is automatically labeled as red, demonstrating GitLab's commitment to data security on behalf of our customers. This classification standard extends to customer application programming interfaces ("APIs"), code, private user profiles, and confidential repos/epics/issues. Red data classification is reserved exclusively for customer-generated data.
+GitLab maintains a [Data Classification Standard](/handbook/engineering/security/data-classification-standard/) using a color system to denote data classification levels: green, yellow, orange, and red. All customer-generated private data is classified as the most sensitive data in the environment and is automatically labeled as red, demonstrating GitLab's commitment to data security on behalf of our customers. This classification standard extends to customer application programming interfaces ("APIs"), code, private user profiles, and confidential repos/epics/issues. Red data classification is reserved exclusively for customer-generated data.
 
 **ISO 27017:2015 & ISO 27018:2019 – A Certification in Our Cloud Security and Privacy Standards**
 
-Over the last few years, GitLab has continued to hold the [ISO/IEC 27001:2013](/handbook/security/security-assurance/security-compliance/certifications.html) certification that specifies the requirements for establishing, implementing, maintaining and continually improving an information security management system ("ISMS"). More recently GitLab received the expansion of its ISO 27001 certification to include ISO 27017:2015 cloud security standard, and ISO 27018:2019 privacy standard.
+Over the last few years, GitLab has continued to hold the [ISO/IEC 27001:2013](/handbook/security/security-assurance/security-compliance/certifications/) certification that specifies the requirements for establishing, implementing, maintaining and continually improving an information security management system ("ISMS"). More recently GitLab received the expansion of its ISO 27001 certification to include ISO 27017:2015 cloud security standard, and ISO 27018:2019 privacy standard.
 
 ### Responsible Product Development*
 
@@ -298,13 +298,13 @@ We believe we are best in class and the leading example in information security,
 
 Our FY23 priorities in this area included:
 
-- **Improving the developer experience with AI**, by investing in AI through the [UnReview acquisition](https://about.gitlab.com/press/releases/2021-06-02-gitlab-acquires-unreview-machine-learning-capabilities.html), and by launching [Suggested Reviewers, and AI Assisted Code Suggestions](https://about.gitlab.com/releases/2023/04/22/gitlab-15-11-released/#code-suggestions-for-ultimate--premium-users), which is GitLab's first AI powered features which help improve developer productivity and efficiency all within a single application
+- **Improving the developer experience with AI**, by investing in AI through the [UnReview acquisition](https://about.gitlab.com/press/releases/2021-06-02-gitlab-acquires-unreview-machine-learning-capabilities/), and by launching [Suggested Reviewers, and AI Assisted Code Suggestions](https://about.gitlab.com/releases/2023/04/22/gitlab-15-11-released/#code-suggestions-for-ultimate--premium-users), which is GitLab's first AI powered features which help improve developer productivity and efficiency all within a single application
 
 - **Extending our lead in GitLab continuous integration (CI)**, enabling testing, building, and publishing of software with no third-party application or integration needed
 
-- **Investing in an anti-abuse stage** aimed at [protecting](https://about.gitlab.com/direction/anti-abuse/) GitLab infrastructure and, by extension, our customers' sensitive source code from abuse and malicious behavior
+- **Investing in an anti-abuse stage** aimed at [protecting](https://about.gitlab.com/direction/software_supply_chain_security/) GitLab infrastructure and, by extension, our customers' sensitive source code from abuse and malicious behavior
 
-- **Enhancing platform security**, including improvements in [many industry certifications](https://about.gitlab.com/security/cap/).
+- **Enhancing platform security**, including improvements in [many industry certifications](https://trust.gitlab.com/).
 
 - **Investing heavily in our federal offering**, including [Federal Information Processing Standard](https://docs.gitlab.com/ee/development/fips_compliance.html) (FIPs) compliance
 

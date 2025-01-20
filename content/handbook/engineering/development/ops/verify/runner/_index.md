@@ -84,6 +84,11 @@ is added to each project with maintainer permission. We also try to align tools 
 - [Docker Machine (fork)](https://gitlab.com/gitlab-org/ci-cd/docker-machine)
 - [Custom Executor Autoscaler](https://gitlab.com/gitlab-org/ci-cd/custom-executor-drivers/autoscaler)
 
+### CI Steps projects
+
+- [Step Runner](https://gitlab.com/gitlab-org/step-runner)
+- [Action Runner](https://gitlab.com/gitlab-org/components/action-runner)
+
 ### Helper projects
 
 - Linters
@@ -116,6 +121,7 @@ is added to each project with maintainer permission. We also try to align tools 
   - [Chef Runner Cookbook Wrapper](https://gitlab.com/gitlab-cookbooks/cookbook-wrapper-gitlab-runner)
   - [Ansible Playbooks](https://gitlab.com/gitlab-com/gl-infra/ci-runners/deployer)
   - [Windows Runners](https://ops.gitlab.net/gitlab-com/gl-infra/ci-infrastructure-windows/)
+  - [GRIT](https://gitlab.com/gitlab-org/ci-cd/runner-tools/grit.git)
 - Operations
   - [Runbooks](https://gitlab.com/gitlab-com/runbooks/-/tree/master/docs/ci-runners)
   - [MacOS Runbooks](https://gitlab.com/gitlab-org/ci-cd/shared-runners/macos) (deprecated)
@@ -146,7 +152,7 @@ We spend a lot of time working in Go which is the language that [GitLab Runner](
 
 We work in monthly iterations. Iteration planning dates for the upcoming milestone are aligned with GitLab's [product development timeline](/handbook/engineering/workflow/#product-development-timeline).
 
-At a minimum, 30 days before the start of a milestone, the runner PM reviews and re-prioritizes as needed the features to be included in the [iteration planning issue](https://gitlab.com/gitlab-org/gitlab-runner/-/issues/?sort=created_date&state=opened&label_name%5B%5D=Planning%20Issue&first_page_size=20). The planning issue is a tool for asynchoronous collaboration between the PM, EM and members of the team. We use [cross-functional prioritization](/handbook/product/cross-functional-prioritization/#prioritization-for-feature-maintenance-and-bugs) to guide the collaboration process.
+At a minimum, 30 days before the start of a milestone, the runner PM reviews and re-prioritizes as needed the features to be included in the [iteration planning issue](https://gitlab.com/gitlab-org/gitlab-runner/-/issues/?sort=created_date&state=opened&label_name%5B%5D=Planning%20Issue&first_page_size=20). The planning issue is a tool for asynchoronous collaboration between the PM, EM and members of the team. We use [cross-functional prioritization](/handbook/product/product-processes/cross-functional-prioritization/#prioritization-for-feature-maintenance-and-bugs) to guide the collaboration process.
 
 The commitments for the iteration plan are directly related to the capacity of the team for the upcoming iteration. Therefore, to finalize the iteration plan (resource allocation) for a milestone, we evaluate and consider the following:
 
@@ -276,7 +282,7 @@ GitLab FedRAMP certification.
 
 Using the [`container-scanners`](https://gitlab.com/gitlab-com/gl-security/appsec/container-scanners) project, GitLab
 scans all images we produce to highlight CVE vulnerabilities. From those scans, the
-[`vulnmapper`](https://gitlab.com/gitlab-com/gl-security/threatmanagement/vulnerability-management/vulnerability-management-internal/vulnmapper)
+[`vulnmapper`](https://gitlab.com/gitlab-com/gl-security/product-security/vulnerability-management/vulnerability-management-internal/vulnmapper)
 project creates issues in the project that created the vulnerable image, including
 [SLAs](/handbook/security/product-security/vulnerability-management/sla/) to which we must adhere.
 The Runner team member assigned the `Support & Security Responder` role in the weekly team task should triage and
@@ -320,7 +326,7 @@ Vulnerabilities usually appear in one of three flavors (ordered in most to least
 - The vulnerability exists in `gitlab-runner` in one of its dependencies.
 - The vulnerability exists in `gitlab-runner` in code we've written.
 
-### Third-party OS packages
+##### Third-party OS packages
 
 In this case, the vulnerability:
 
@@ -331,7 +337,7 @@ In this case, the vulnerability:
 The primary course of action here is to create a
 [`deviation request issue`](https://gitlab.com/gitlab-com/gl-security/security-assurance/team-security-dedicated-compliance/poam-deviation-requests/-/issues)
 (see
-https://handbook.gitlab.com/handbook/security/security-assurance/dedicated-compliance/poam-deviation-request-procedure/).
+<https://handbook.gitlab.com/handbook/security/security-assurance/security-compliance/poam-deviation-request-procedure/>).
 We generally create one deviation request issue per offending software module (e.g. `git-lfs` or `libcurl`). When
 creating the issue, be sure to select `operational_requirement_template` as a template and complete the following
 sections:
@@ -355,7 +361,7 @@ Once the deviation request issue is created, add:
 Eventually, a fix in the offending package will make its way to the OS package manager, and then both the
 `gitlab-runner` and deviation request issues can be closed.
 
-### `gitlab-runner` dependencies
+##### `gitlab-runner` dependencies
 
 The simplest course of action here is to update the dependency to the latest compatible version (or at least a version
 that addresses the vulnerability). Once the MR with the dependency update is merged, the `gitlab-runner` issue can be
@@ -369,14 +375,90 @@ there.
 - If possible, consider not using the dependency or replacing it with another similar dependency.
 - Create a [deviation request issue](#third-party-os-packages).
 
-### `gitlab-runner` source
+##### `gitlab-runner` source
 
 The only course of action here is to fix the vulnerable code. If the fix is not simple and will take time to implement
 (and prevent us from meeting CVE SLAs), it might be necessary to create a [deviation request issue](#third-party-os-packages).
 
+### Working with security forks
+
+When issues are marked confidential, the MR that fixes the issue should be made in a project's security fork (see
+[security-forks](https://gitlab.com/gitlab-org/security?filter=gitlab%20runner)). In general the process is identical to
+crating and merging MRs in the canonical project repo, with a couple of notable differences.
+
+Note that MRs in the security repo _must_ be reviewed/approved by a security counterpart in addition to a runner
+code-owner.
+
+The examples below are given for the [GitLab Runner](https://gitlab.com/gitlab-org/gitlab-runner) project, but apply
+equally to all [runner-related projects with security forks](https://gitlab.com/gitlab-org/security?filter=gitlab%20runner).
+
+#### Keeping the security fork up to date with its canonical repo
+
+Security forks are configured to automatically synchronize with the canonical repo, but this can be disabled if changes
+exist in the security fork's `main` branch that do not exists in the canonical repo's `main` branch. This usually
+happens when a security MR is merged into the security fork's `main`, but not into the canonical repo's `main` branch.
+In this event, it is necessary to manually synchronize the security fork against the canonical repo.
+
+From a checked-out canonical repo:
+
+```shell
+git fetch # ensure you have the latest changes from the canonical repo.
+git remote add security git@gitlab.com:gitlab-org/security/gitlab-runner.git # add the security repo as a remote, be sure to use the git url.
+git fetch security # fetch the security fork repo references.
+git checkout -b security-main security/main # checkout the security fork's main branch.
+git rebase --rebase-merges origin/main # rebase the canoncial main onto the security main.
+git log --color --topo-order --oneline # ensure the resulting history is sane.
+git push --force # push the resulting local security main brnach to the security remote repo.
+```
+
+Notes:
+
+1. These steps will not fully synchronize the security and canonical repositories in both directions. They will only
+   bring changes that are only the canonical repo, into the security repo. Synchronizing in the other direction is
+   described below.
+2. The security repos do/should not have force-push branch protection on the `main` branch, but if the one you are
+   working with does, temporarily disable it so you can perform the last step.
+3. If the security fork `main` branch becomes too out of date with the canonical repo `main` branch (specifically with
+   changes that exist only in the security repo), merge conflicts are likely to occur when rebasing the canonical repo
+   atop the security fork. You will have to resolve these.
+
+#### Merging security MRs back into the canonical repo
+
+When MRs created in the security repo are merged (into the security repo's `main` branch), the security and canonical
+repo will become unsynchronized. Merging MRs from the security fork back into the canonical repo is a manual process.
+Each MR in the security repo that a developer wants to incorporate into the canonical repo must be be done manually via
+a new MR in the canonical repo. This procedure is manual so developers can control when these merges are done.
+
+To merge an MR already merged in the security fork `main` branch into the canonical repo, follow these steps:
+
+From a checked-out canonical repo:
+
+```shell
+git fetch # ensure you have the latest changes from the canonical repo.
+git remote add security git@gitlab.com:gitlab-org/security/gitlab-runner.git # add the security repo as a remote, be sure to use the git url.
+git fetch security # fetch the security fork repo references.
+git checkout -b name-of-working-branch origin/main # create a new branch into which you'll cherry-pick commits from the security repo.
+git cherry-pick sha-of-commit-in-security-repo # cherry-pick all commits from the relevant MR from the security repo into your branch in the canonical repo.
+```
+
+Repeat the final step for all commits in the relevant MR, in topographical order, _excluding the merge commit_. Do not
+include the MR's merge commit in the cherry-picked commits.
+
+Finally, create an MR in the canonical repo from this branch as usual.
+
+Notes:
+
+1. If the security fork becomes too out of date with the canonical repo, merge conflicts are likely when
+cherry-picking the commits. You will have to resolve them.
+2. You should manually synchronize the security repo as described above immediate after the MR is merged into the
+   canonical main.
+3. It is not the aim of these instruction to completely synchronize the security and canonical repos in both directions.
+   Full synchronization will occur as a byproduct of merging all MRs from the security repo into the canonical repo. It
+   is up to the developers' discretion when this happens for each MR.
+
 ## Issue Health Status Definitions
 
-- **On Track** - We are confident this issue will be completed and live for the current milestone. It is all [downhill from here](https://basecamp.com/shapeup/3.4-chapter-12#work-is-like-a-hill).
+- **On Track** - We are confident this issue will be completed and live for the current milestone. It is all [downhill from here](https://basecamp.com/shapeup/3.4-chapter-13#work-is-like-a-hill).
 - **Needs Attention** - There are concerns, new complexity, or unanswered questions that if left unattended will result in the issue missing its targeted release. Collaboration needed to get back `On Track` within the week.
   - If you are moving an item into this status please mention individuals in the issue you believe can help out in order to unstick the item so that it can get back to an `On Track` status.
 - **At Risk** - The issue in its current state will not make the planned release and immediate action is needed to get it back to `On Track` today.

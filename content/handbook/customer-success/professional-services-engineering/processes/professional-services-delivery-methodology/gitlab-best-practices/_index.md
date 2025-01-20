@@ -3,15 +3,15 @@ title: "GitLab Best Practices"
 description: "Learn about GitLab best practices for engagements."
 ---
 
-This section provides a comprehensive overview of best practices in Gitlab, highlighting key guidelines for efficient and effective usage. 
+This section provides a comprehensive overview of best practices in GitLab, highlighting key guidelines for efficient and effective usage.
 
-The documentation provides recommendations based on standards defined by the **National security agency \[NSA\]** along with **Cybersecurity and Infrastructure Security Agency \[CISA\]** for organizations to standardize and strengthen the security of their CI/CD pipelines. 
+The documentation provides recommendations based on standards defined by the **National security agency \[NSA\]** along with **Cybersecurity and Infrastructure Security Agency \[CISA\]** for organizations to standardize and strengthen the security of their CI/CD pipelines.
 
 This [article](https://www.cisa.gov/news-events/alerts/2023/06/28/cisa-and-nsa-release-joint-guidance-defending-continuous-integrationcontinuous-delivery-cicd) can be referred to for relevant information on the defined standards.
 
 ## 1. Use feature branches rather than direct commits on the main branch
 
-Using feature branches is a simple way to develop and keep the [source code](https://about.gitlab.com/stages-devops-lifecycle/source-code-management/) clean. If a team has recently transitioned to Git from SVN, for example, they'll be used to a trunk-based workflow. When using Git, developers should create a branch for anything they're working on so that contributors can easily start the [code review process](https://about.gitlab.com/topics/version-control/what-is-code-review/) before merging.
+Using feature branches is a simple way to develop and keep the [source code](https://about.gitlab.com/solutions/source-code-management/) clean. If a team has recently transitioned to Git from SVN, for example, they'll be used to a trunk-based workflow. When using Git, developers should create a branch for anything they're working on so that contributors can easily start the [code review process](https://about.gitlab.com/topics/version-control/what-is-code-review/) before merging.
 
 ## 2. Test all commits, not only ones on the main branch
 
@@ -25,7 +25,7 @@ When working on a feature branch and adding new commits, run tests right away. I
 
 You can also have these [displayed in each Merge Request](https://docs.gitlab.com/ee/user/application_security/#view-security-scan-information-in-merge-requests).
 
-![MR widget test results](MR-UI-Results.png){width="624" height="220"}
+![MR widget test results](/images/customer-success/professional-services-engineering/processes/professional-services-delivery-methodology/gitlab-best-practices/MR-UI-Results.png){width="624" height="220"}
 
 ## 4. Perform code reviews before merging into the main branch
 
@@ -44,13 +44,13 @@ The GitLab code review workflow is simple.
 
 Code Review best practices:
 
-1. A merge request should be first reviewed by a reviewer in each [category (for example: backend, database)](https://docs.gitlab.com/ee/development/code_review.html#approval-guidelines) the MR touches, as maintainers may not have the relevant domain knowledge. This also helps to spread the workload. Add approval rules for each Code review. For example: 
+1. A merge request should be first reviewed by a reviewer in each [category (for example: backend, database)](https://docs.gitlab.com/ee/development/code_review.html#approval-guidelines) the MR touches, as maintainers may not have the relevant domain knowledge. This also helps to spread the workload. Add approval rules for each Code review. For example:
    1. Backend approvers
    2. Frontend approvers
    3. Database approvers
    4. Documentation
    5. Etc
-2. For assistance with security scans or comments, include the Application Security Team 
+2. For assistance with security scans or comments, include the Application Security Team
 3. The reviewers use the [reviewer functionality](https://docs.gitlab.com/ee/user/project/merge_requests/reviews/index.html) in the sidebar. Reviewers can add their approval by [approving additionally](https://docs.gitlab.com/ee/user/project/merge_requests/approvals/index.html#approve-a-merge-request).
 4. Depending on the areas your merge request touches, it must be approved by one or more [maintainers](/handbook/engineering/workflow/code-review/#maintainer). The Approved button is in the merge request widget.
 5. Getting your merge request merged also requires a maintainer. If it requires more than one approval, the last maintainer to review and approve merges it.
@@ -124,7 +124,7 @@ Scenarios in which the final approver might not merge an MR:
 
 If any of these scenarios occurs, an MR author may merge their own MR if it has all required approvals and they have merge rights to the repository. This is also in line with the GitLab [bias for action](../../../../../values/_index.md#operate-with-a-bias-for-action) value.
 
-This policy is in place to satisfy the CHG-04 control of the GitLab [Change Management Controls](/handbook/security/change-management-policy.html).
+This policy is in place to satisfy the CHG-04 control of the GitLab [Change Management Controls](/handbook/security/change-management-policy/).
 
 To implement this policy in gitlab-org/gitlab, we have enabled the following settings to ensure MRs get an approval from a top-level CODEOWNERS maintainer:
 
@@ -155,7 +155,7 @@ If developers don't want to deploy main every time, they can create a production
 
 ## 6. Tags are set by the user, not by CI
 
-Developers should use [tags](https://docs.gitlab.com/ee/user/project/repository/tags/) so that the CI will perform an action rather than having the CI change the repository. 
+Developers should use [tags](https://docs.gitlab.com/ee/user/project/repository/tags/) so that the CI will perform an action rather than having the CI change the repository.
 
 ## 7. Releases are based on tags
 
@@ -191,12 +191,14 @@ In GitLab, [Review Apps](https://docs.gitlab.com/ee/ci/review_apps/index.html) p
 
 Continuous integration helps developers deploy faster and get feedback sooner. Ultimately, the best continuous integration system is the one you actually use. Find [the right CI](https://about.gitlab.com/topics/ci-cd/choose-continuous-integration-tool/) for your needs and then incorporate these best practices to make the most of your new CI workflow.
 
-## 14. CI best practice: Keep it safe: CI/CD is a shift left, so it offers a good opportunity to integrate security earlier in the process
+## 14. CI best practice: Keep it safe
+
+CI/CD is a shift left, so it offers a good opportunity to integrate security earlier in the process
 
 ## 15. Integrations with third-party
 
 * If JIRA is used, integrate Jira with GitLab to get timely updates on builds/branches/MRs
-  * [Add a rule to add JIRA ticket in every MR commit](https://docs.gitlab.com/ee/user/project/repository/push_rules.html) 
+  * [Add a rule to add JIRA ticket in every MR commit](https://docs.gitlab.com/ee/user/project/repository/push_rules.html)
 * [Teams-GitLab integration](https://docs.gitlab.com/ee/user/project/integrations/microsoft_teams.html) to send critical notifications like
   * Prod/Pre-prod deployment failure
 
@@ -216,9 +218,9 @@ The [default branch](https://docs.gitlab.com/ee/user/project/repository/branches
 
 It might be a good idea to have an [environment](https://about.gitlab.com/blog/2023/07/27/gitlab-flow-duo/) that is automatically updated to the staging branch. Only, in this case, the name of this environment might differ from the branch name. Suppose you have a staging environment, a pre-production environment, and a production environment:
 
-![GitLab Flow](gitlab-flow.png){width="356" height="340"}
+![GitLab Flow](/images/customer-success/professional-services-engineering/processes/professional-services-delivery-methodology/gitlab-best-practices/gitlab-flow.png){width="356" height="340"}
 
-In this case, deploy the staging branch to your staging environment. To deploy to pre-production, create a merge request from the staging branch to the pre-prod branch. Go live by merging the pre-prod branch into the production branch. This workflow, where commits only flow downstream, ensures that everything is tested in all environments. 
+In this case, deploy the staging branch to your staging environment. To deploy to pre-production, create a merge request from the staging branch to the pre-prod branch. Go live by merging the pre-prod branch into the production branch. This workflow, where commits only flow downstream, ensures that everything is tested in all environments.
 
 ## 18. Compliance frameworks
 
@@ -230,7 +232,7 @@ A compliance officer will be responsible for creating and enforcing the usage of
 
 GitLab provides Security Policies, which enable security teams to require security scans to run according to a configuration. This provides the security teams with confidence that the configured scans have not been changed or disabled.
 
-There are two types of policies, [Scan Execution Policies](https://docs.gitlab.com/ee/user/application_security/policies/scan-execution-policies.html) and [Merge Request Approval Policies](https://docs.gitlab.com/ee/user/application_security/policies/scan-result-policies.html).
+There are two types of policies, [Scan Execution Policies](https://docs.gitlab.com/ee/user/application_security/policies/scan_execution_policies.html) and [Merge Request Approval Policies](https://docs.gitlab.com/ee/user/application_security/policies/merge_request_approval_policies.html).
 
 ## 20. Audit Management and Compliance Dashboard
 
@@ -238,9 +240,9 @@ Another important part of compliance is knowing it is actually happening in your
 
 Audit Events allows GitLab owners and administrators to track important events such as who performed certain actions and the time they occurred.
 
-![Audit events](audit-events.png){width="496" height="322"}
+![Audit events](/images/customer-success/professional-services-engineering/processes/professional-services-delivery-methodology/gitlab-best-practices/audit-events.png){width="496" height="322"}
 
-Audit Events records different events per group and per project, which can be seen in the [audit events](https://docs.gitlab.com/ee/administration/audit_events.html) documentation. Audit Events can be accessed by going to Security & Compliance \> Audit Events Some examples include:
+Audit Events records different events per group and per project, which can be seen in the [audit events](https://docs.gitlab.com/ee/administration/audit_event_reports.html) documentation. Audit Events can be accessed by going to Security & Compliance \> Audit Events Some examples include:
 
 * user was added to project and their permissions
 * permission changes of a user assigned to a project
@@ -252,7 +254,7 @@ Audit Events can also be sent to an HTTP endpoint using Audit Event Streaming. I
 
 Compliance Report gives you the ability to see a group's merge request activity. It provides a high-level view for all projects in the group.
 
-![Compliance report](compliance-report.png){width="524" height="339"}
+![Compliance report](/images/customer-success/professional-services-engineering/processes/professional-services-delivery-methodology/gitlab-best-practices/compliance-report.png){width="524" height="339"}
 
 You can use the report to:
 
@@ -263,11 +265,11 @@ You can use the report to:
 
 The Compliance Report can be accessed in the top-level group by going to Security & Compliance \> Compliance Report.
 
-## 21. Implementation of Correct User Permissions and Roles will have below Positive effects over the entire DevOps lifecycle in GitLab
+## 21. Implementation of Correct User Permissions and Roles
 
-[User Permissions and Roles](https://docs.gitlab.com/ee/user/permissions.html)
+Implementation of Correct [User Permissions and Roles](https://docs.gitlab.com/ee/user/permissions.html) will have below Positive effects over the entire DevOps lifecycle in GitLab.
 
-* Restricting Developers 
+* Restricting Developers
   * To take major decisions like changing Security Policies
   * Delete Issues and MRs
   * Self Approve MRS or manage MR Approval rules

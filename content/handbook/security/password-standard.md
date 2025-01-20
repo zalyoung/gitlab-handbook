@@ -60,7 +60,7 @@ To make a secure password you can remember, consider using a [combination of 5 o
 
 #### Two Factor Authentication (MFA or 2FA)
 
-All GitLab team members are required to use [Two Factor Authentication](https://www.cisa.gov/resources-tools/resources/multifactor-authentication-mfa#) (2FA) whenever possible. Usage of 2FA by GitLab team members is **required** for access to the production environment. It should be noted that references to MFA (Multi-Factor Authentication) are often included in language associated with third party products and certain compliance references, but the general concept is still covered by the term "2FA". There are different 2FA methods that can be used by GitLab team members. These are ranked by security strength:
+All GitLab team members are required to use [Two Factor Authentication](https://www.cisa.gov/resources-tools/resources/multi-factor-authentication-mfa) (2FA) whenever possible. Usage of 2FA by GitLab team members is **required** for access to the production environment. It should be noted that references to MFA (Multi-Factor Authentication) are often included in language associated with third party products and certain compliance references, but the general concept is still covered by the term "2FA". There are different 2FA methods that can be used by GitLab team members. These are ranked by security strength:
 
 - [Biometric Authentication](https://aws.amazon.com/what-is/mfa/#:~:text=be%20digitally%20accessed.-,Inherence%20factor,-Inherence%20methods%20use). Biometric-based authentication uses "something you are" to authenticate you. Examples include touch-id (fingerprint) or face-id (facial recognition). This is the most secure authentication method.
 - [WebAuthn](https://en.wikipedia.org/wiki/WebAuthn). FIDO2/WebAuthn uses a hardware token to authenticate you. It is one of the most secure methods, assuming the hardware token itself is physically secured.
@@ -72,7 +72,7 @@ For a better understanding of how 2FA fits into GitLab, refer to the [Accounts a
 
 #### Application Authentication Requirements
 
-- Effective FY23 Q3, all third party applications that house GitLab confidential data are required to [authenticate via Okta inline with GitLab's approach to centralized authentication and authorization](/handbook/business-technology/okta/#what-is-okta). [Security Notices](/handbook/security/security-assurance/security-risk/third-party-risk-management/#tprm-security-notice-process) will be required in all cases where Okta is not supported.
+- Effective FY23 Q3, all third party applications that house GitLab confidential data are required to [authenticate via Okta inline with GitLab's approach to centralized authentication and authorization](/handbook/it/okta/#what-is-okta). [Security Notices](/handbook/security/security-assurance/security-risk/third-party-risk-management/#tprm-security-notice-process) will be required in all cases where Okta is not supported.
 - Authentication to an application should contain multi-factor authentication (Token, OTP Generator, SSO, YubiKey).
 - SAML Assertion after logging into an authentication portal is required where technically feasible (e.g. Okta).
 - Authentication to an application should support individual users, not groups.

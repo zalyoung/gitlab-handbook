@@ -16,8 +16,8 @@ Switchboard is a team within the [Dedicated Group](/handbook/engineering/infrast
 {{< team-by-manager-slug "ashiel" >}}
 
 Product Manager: [Loryn Bortins](/handbook/company/team/#lbortins)
-Technical Writer: [Lysanne Pinto](/handbook/company/team/#lyspin)
-Product Designer: [Divya Alagarsamy](/handbook/company/team/#divyaalagarsamy)
+Technical Writer: [Emily Sahlani](/handbook/company/team/#emily.sahlani)
+Product Designer: [Jesse Hoek](/handbook/company/team/#jhoek)
 
 ## Working with us
 
@@ -329,8 +329,16 @@ There are two groups for Switchboard, [Reviewers and Maintainers](https://gitlab
 
 ### Open Questions :question:
 | Question | Added by | Discussion thread | Resolved |
-|----------|----------|-------------------| ------ |
+|----------|----------|-------------------| -------- |
 |  |  |  |  |
+
+### Feature flags
+
+<!-- This table should document any feature flags that were added or removed by the epic -->
+
+| Feature flag | Details |
+| ------------ | ------- |
+| | |
 
 ### Further details :mag:
 
@@ -375,18 +383,9 @@ Demo Link - see https://handbook.gitlab.com/handbook/engineering/infrastructure/
 
 ---
 
-### Status YYYY-MM-DD
+<!-- STATUS NOTE START -->
 
-1.
-
-<details>
-<summary>Previous status updates</summary>
-
-### Status YYYY-MM_DD
-
-1.
-
-</details>
+<!-- STATUS NOTE END -->
 
 /label ~"team::Switchboard" ~"workflow-infra::Triage"
 

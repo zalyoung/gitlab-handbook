@@ -33,10 +33,12 @@ Current committee members:
 - [Ryan Lawson](https://gitlab.com/rlawson1)
 - [Clayton Shank](https://gitlab.com/cshankgitlab)
 - [Steve Ladgrove](https://gitlab.com/sladgrove)
+- [Ayoub Fandi](https://gitlab.com/ayofan)
 - [Julie Davila](https://gitlab.com/juliedavila) (Executive Sponsor)
+- [Giuliana Lucchesi](https://gitlab.com/glucchesi) and [Aurelia Akpan](https://gitlab.com/aakpan) - ([People Business Partner](/handbook/people-group/people-business-partners/#people-business-partner-alignments))
 
 <details>
-<summary>Previous committee members</summary> 
+<summary>Previous committee members</summary>
 
 Previously nominated committee members (July 2022 - September 2023):
 

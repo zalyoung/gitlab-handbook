@@ -70,9 +70,9 @@ Please be sure to include all the sections when updating or adding Engagements.
 
 #### Existing Professional Services That May Help
 
-- [Implementation Rapid Results Self-Managed](https://about.gitlab.com/services/rapid-results/self-managed/)
-- [Implementation Rapid Results .com](https://about.gitlab.com/services/rapid-results/dot-com/)
-- [Dedicated Implementation Planning](https://about.gitlab.com/services/implementation/enterprise/)
+- [Implementation Rapid Results Self-Managed](https://about.gitlab.com/services/catalog/)
+- [Implementation Rapid Results .com](https://about.gitlab.com/services/catalog/)
+- [Dedicated Implementation Planning](https://about.gitlab.com/services/catalog/)
 
 #### Preparation Materials
 
@@ -165,14 +165,16 @@ Please be sure to include all the sections when updating or adding Engagements.
 
 #### Existing Professional Services That May Help
 
-- [Implementation Rapid Results Self-Managed](https://about.gitlab.com/services/rapid-results/self-managed/)
-- [Dedicated Implementation Planning](https://about.gitlab.com/services/implementation/enterprise/)
+- [Implementation Rapid Results Self-Managed](https://about.gitlab.com/services/catalog/)
+- [Dedicated Implementation Planning](https://about.gitlab.com/services/catalog/)
 
 #### Preparation Materials
 
 ​ [Preparation materials (GitLab Team Members Only)](https://docs.google.com/presentation/d/106uQIXxy2tp3GLyl6WBdSwC7R7NUd9vTGaVePiDEo84/edit?usp=sharing)
 
-#### Outline: Terrain Mapping Best Practices For Operating Self Managed GitLab as a Production-Grade Internal Service
+#### Outline: Terrain Mapping Best Practices
+
+For Operating Self Managed GitLab as a Production-Grade Internal Service
 
 1. Teams and Users
 2. Existing Pipeline Code Analysis
@@ -207,7 +209,7 @@ Please be sure to include all the sections when updating or adding Engagements.
 
 #### Existing Professional Services That May Help
 
-- [Migration Services](https://about.gitlab.com/services/migration/)
+- [Migration Services](https://about.gitlab.com/services/catalog/)
 
 #### Preparation Materials
 
@@ -464,7 +466,7 @@ Please be sure to include all the sections when updating or adding Engagements.
 
 #### Existing Professional Services That May Help
 
-- [Integration Services](https://about.gitlab.com/services/implementation/integration/)
+- [Integration Services](https://about.gitlab.com/services/catalog/)
 
 #### Preparation Materials
 

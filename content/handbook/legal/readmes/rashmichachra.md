@@ -2,7 +2,7 @@
 title: "Rashmi Chachra's README"
 ---
 
-*This page, like me, is a WIP. I'm practicing our value of 👣 iteration. I welcome all feedback! Click here to see my [LinkedIn](http://linkedin.com/in/rashmi-chachra-b73b11).*
+*This page, like me, is a WIP. I'm practicing our value of 👣 iteration. I welcome all feedback! Click here to see my [LinkedIn](https://linkedin.com/in/rashmi-chachra-b73b11).*
 
 ## Rashmi Pronunciation Hint
 

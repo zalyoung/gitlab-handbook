@@ -5,7 +5,7 @@ creation-date: "2022-09-07"
 authors: ["@ayufan", "@fzimmer", "@DylanGriffith", "@lohrc", "@tkuah"]
 coach: "@ayufan"
 approvers: ["@lohrc"]
-owning-stage: "~devops::data stores"
+owning-stage: "~devops::tenant scale"
 participating-stages: []
 toc_hide: true
 no_list: true
@@ -42,10 +42,12 @@ This section links all different technical proposals that are being evaluated.
   - [SSH Routing Service](ssh_routing_service.md)
   - [Topology Service](topology_service.md)
   - Planned: Indexing Service
-- [Feature Flags](feature_flags.md)
+- [Mutual authentication between Cell services](mutual_authentication_between_cell_services.md)
+- [Feature Flags](./infrastructure/feature_flags.md) - ([Previous iteration](feature_flags.md))
 - [Cluster wide unique sequences](unique_sequences.md)
 - [Cells: Infrastructure](./infrastructure/_index.md)
 - [Organization migration](migration.md)
+- [Routable Tokens](routable_tokens.md)
 
 ## Impacted features
 
@@ -53,6 +55,7 @@ The Cells architecture will impact many features requiring some of them to be re
 Below is a list of known affected features with preliminary proposed solutions.
 
 - [Cells: Admin Area](impacted_features/admin-area.md)
+- [Cells: Advanced search](impacted_features/advanced-search.md)
 - [Cells: Backups](impacted_features/backups.md)
 - [Cells: CI/CD Catalog](impacted_features/ci-cd-catalog.md)
 - [Cells: CI Runners](impacted_features/ci-runners.md)
@@ -181,12 +184,13 @@ The Tenant Scale team sees an opportunity to use GitLab Dedicated as a base for 
 - [ADR-009: Initial Cell Sizes](decisions/009_cell_initial_sizing.md)
 - [ADR-010: HTTP Router uses static rules and HTTP-based caching mechanism](decisions/010_http_router_rules_and_cache.md)
 - [ADR-011: Cell Specific Configuration](decisions/011_cell_specific_configuration.md)
+- [ADR-012: Cell Unique Identifier](decisions/012_cell_unique_identifier.md)
 
 ## Links
 
 - [Internal Pods presentation](https://docs.google.com/presentation/d/1x1uIiN8FR9fhL7pzFh9juHOVcSxEY7d2_q4uiKKGD44/edit#slide=id.ge7acbdc97a_0_155)
 - [Cells Epic](https://gitlab.com/groups/gitlab-org/-/epics/7582)
-- [Database group investigation](../../../infrastructure/core-platform/data_stores/database/doc/root-namespace-sharding/)
+- [Database group investigation](../../../infrastructure-platforms/data-access/database-framework/doc/root-namespace-sharding/)
 - [Shopify Pods architecture](https://shopify.engineering/a-pods-architecture-to-allow-shopify-to-scale)
 - [Opstrace architecture](https://gitlab.com/gitlab-org/opstrace/opstrace/-/blob/main/docs/architecture/overview.md)
 - [Adding Diagrams to this blueprint](diagrams/index.md)

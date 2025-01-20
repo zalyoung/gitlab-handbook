@@ -72,6 +72,6 @@ As our Program Management function in the People Group continues to expand, we a
 
 An overview of People Group program management and touchpoints in place to stay connected.
 
-- [Repository](https://drive.google.com/drive/u/0/folders/0AIK6GVto4zVMUk9PVA) for Program Management planning resources and best practices
+- [Repository](https://drive.google.com/drive/folders/1cUD80mIIMRCNDkhPfDnDkB84tw4-KmId?role=writer) for Program Management planning resources and best practices
 - Slack channel for Program Management Individual Contributors `#ppl_program_managers`
 - Monthly meeting for Program Managers

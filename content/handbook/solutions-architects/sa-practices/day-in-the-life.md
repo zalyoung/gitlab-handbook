@@ -85,7 +85,7 @@ The initial customer pitch, delivered by the SA, allows us to identify key stake
 
 - What is a Day In The Life of a Developer?
 - What does a Day In The Life of a Developer entail?
-- Who are the key participants involved in the Day In The Life of a Developer? 
+- Who are the key participants involved in the Day In The Life of a Developer?
 - What are some of the expected outcomes of a Day In The Life of a Developer for them?
 
 During the pitch, the account team should strive to:
@@ -135,7 +135,7 @@ The process which we will go through, at a high level, is as follows:
 1. Current state
     1. Initial process "walk-through" for the prospect or customer to demonstrate - A best practice is to share a current state diagram based on our (possibly limited) understanding of the customer's environment to facilitate the Day in the Life discussion
         1. Capture people, processes and technology
-    1. Analyze and identify bottlenecks and improvement areas. 
+    1. Analyze and identify bottlenecks and improvement areas.
         1. Time is limited - Use the list of discovery questions selected during prep and focus/"double click" on the areas where GitLab can help - avoid delving deep into areas that GitLab cannot affect
 1. Design future state
     1. Review the expectations, to align the team on the target they are aiming to create
@@ -157,7 +157,7 @@ The process which we will go through, at a high level, is as follows:
 - Remote:
   - Zoom, MS Teams, or Google Meet
   - Diagramming tools
-  - [FigJam](handbook/solutions-architects/tools-and-resources/#diagramming-tools) or LucidChart for Current State and Future State visualization
+  - [FigJam](/handbook/solutions-architects/tools-and-resources/#diagramming-tools) or LucidChart for Current State and Future State visualization
     - FigJam is not yet connected to Okta. Login using your Google account. Make sure you have a `Full` FigJam license with read-write access. (if you're in read-only mode, you need to request a full license)
     - LucidChart is an IT-managed application. If you are unsure if you have LucidChart access, go to the Okta interface in your browser, then select "Search Your Apps" and see if `LucidChart SSO` is available. If yes, LucidChart has been assigned to you and you can launch it from Okta and collaborate on any LucidChart Documents your team has shared with you. If no, then `LucidChart SSO` has not been assigned to you yet.
     - If you do not have `LucidChart SSO` assigned to you in Okta, please navigate to the ["access-requests" Project](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/) and submit an Issue requesting "Lucid Chart". Assign the Issue to your Manager and add the `IT::to do` label. See [example](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/19341) Access Request Issue.
@@ -175,15 +175,15 @@ The process which we will go through, at a high level, is as follows:
 
 ##### Idea to Production
 
-![Idea to Production](handbook/solutions-architects/sa-practices/value-stream-discovery/workflow-02.png)
+![Idea to Production](/images/solutions-architects/sa-practices/value-stream-discovery/workflow-02.png)
 
 ##### Response to Production Incident
 
-![Response to Production Incident](handbook/solutions-architects/sa-practices/value-stream-discovery/workflow-01.png)
+![Response to Production Incident](/images/solutions-architects/sa-practices/value-stream-discovery/workflow-01.png)
 
 ##### Toolchain Upgrading and Maintenance
 
-![Toolchain Upgrading and Maintenance](handbook/solutions-architects/sa-practices/value-stream-discovery/workflow-03.png)
+![Toolchain Upgrading and Maintenance](/images/solutions-architects/sa-practices/value-stream-discovery/workflow-03.png)
 
 ### Executive Briefing - Summarize the Findings
 

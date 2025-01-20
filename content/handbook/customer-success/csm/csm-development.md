@@ -44,10 +44,10 @@ The content is divided into three key categories of competencies. [LevelUp](http
 - [Onboarding and Adoption Best Practices for Customer Success Management](https://www.linkedin.com/learning/onboarding-and-adoption-best-practices-for-customer-success-management) (LinkedIn Learning)
 - [Engagement Evaluation Best Practices for Customer Success Management](https://www.linkedin.com/learning/engagement-evaluation-best-practices-for-customer-success-management) (LinkedIn Learning)
 - [Value Realization Best Practices for Customer Success Management](https://www.linkedin.com/learning/value-realization-best-practices-for-customer-success-management) (LinkedIn Learning)
-- [Building Rapport with Customers](https://www.linkedin.com/learning/building-rapport-with-customers/) (LinkedIn Learning)
+- [Building Rapport with Customers](https://www.linkedin.com/learning/building-rapport-with-customers-21402583) (LinkedIn Learning)
 - [Customer Experience: Journey Mapping](https://www.linkedin.com/learning/customer-experience-journey-mapping) (LinkedIn Learning)
 - [Advanced Business Development Communication & Negotiation](https://www.linkedin.com/learning/advanced-business-development-communication-and-negotiation/taking-it-to-the-next-level) (LinkedIn Learning)
-- [Sales: Customer Success](https://www.linkedin.com/learning/sales-customer-success) (LinkedIn Learning)
+- [Sales: Customer Success](https://www.linkedin.com/learning/customer-success-foundations) (LinkedIn Learning)
 - [Customer Success by Nick Mehta, Dan Steinman, Lincoln Murphy, Maria Martinez](https://learning.oreilly.com/library/view/customer-success/9781119167969/) (O'Reilly Books)
 - [The Customer Success Professional's Handbook](https://learning.oreilly.com/library/view/the-customer-success/9781119624615/) (O'Reilly Books)
 - [Sales & Customer Success Learning Path in SQS](/handbook/sales/onboarding/sales-learning-path/): Parallel to the scheduled training sessions in the [Sales Quick Start (SQS)](/handbook/sales/onboarding/), with [Role-based content](/handbook/sales/onboarding/sales-learning-path/#customer-success-quick-start---role-based-curriculum) (Instructor-Led Sessions)
@@ -61,12 +61,12 @@ The content is divided into three key categories of competencies. [LevelUp](http
 As CSMs have positioned themselves to be more strategic and reach Director, VP, and CISO personas, we have to adjust our communication styles and consider how to cater them for executives. These resources will aid CSMs with executive presence and communication.
 
 - We have two team members in L&D who are certified in [Crucial Conversations](/handbook/leadership/crucial-conversations/). We have 1-2 sessions per quarter.
-- [Connecting with Executives](https://www.linkedin.com/learning/connecting-with-executives-2)
+- [Connecting with Executives](https://www.linkedin.com/learning/communicating-with-executives)
 - [Issue: Executive Communication Best Practices](https://gitlab.com/gitlab-com/customer-success/csm/-/issues/712)
 - [Google Doc (Actively being updated)](https://docs.google.com/document/d/1lkk_25XwOOw9eN-NqxuupZsDWRdWPbmFYD8RP8cWXz8/) - Lee Faus, Brian Wald, and Francis Ofungwu share themes (four pillars) they are hearing from executives around GitLab's platform
 - Sandler Articles
   - [How to Use DISC Assessments to Appropriately Customize Workplace Communication](https://www.sandler.com/blog/how-use-disc-assessments-appropriately-customize-workplace-communication/) (Article)
-  - [Up Front Contracts](https://www.dwood.sandler.com/blog/Up-Front-Contracts) (Article)
+  - [Up Front Contracts](https://www.youtube.com/watch?v=WTZwyUeAI3o) (Article)
 - [Pyramid Principle for Slide Presentation](https://www.myconsultingoffer.org/case-study-interview-prep/pyramid-principle/) (Article)
 - [Tim Ferris - how I prepare for keynotes](https://tim.blog/2010/04/11/public-speaking-how-i-prepare-every-time/) (Article)
 
@@ -78,7 +78,7 @@ As CSMs have positioned themselves to be more strategic and reach Director, VP, 
 - [Tips & Tricks for an Engaging Remote Workshop](https://global.hitachi-solutions.com/blog/tips-tricks-for-remote-workshops/) (Article)
 - [How to Run an Engaging Remote Workshop: Tips for Stress-Free Collaboration](https://dscout.com/people-nerds/remote-workshops) (Article)
 - [10 tips on how to deliver an engaging remote workshop](https://excopartners.com/2021/10/09/10-tips-on-how-to-deliver-an-engaging-remote-workshop) (Article)
-- [Communicating with Confidence](https://www.linkedin.com/learning-login/share?account=2255073&forceAccount=false&redirect=https%3A%2F%2Fwww.linkedin.com%2Flearning%2Fcommunicating-with-confidence%3Ftrk%3Dshare_ent_url%26shareId%3Db7EUHzikS6iSUIMO0n%252Fq9A%253D%253D) (LinkedIn Learning)
+- [Communicating with Confidence](https://www.linkedin.com/learning/communicating-with-confidence-23450131) (LinkedIn Learning)
 - [Dynamic Public Speaking by University of Washington](https://www.coursera.org/specializations/public-speaking) (Coursera)
 - [Storytelling and influencing: Communicate with impact](https://www.coursera.org/learn/communicate-with-impact) (Coursera)
 
@@ -90,12 +90,12 @@ As CSMs have positioned themselves to be more strategic and reach Director, VP, 
 - [Kind Engineering: How to Engineer Kindness](https://www.youtube.com/watch?v=OGFsM2lcF60) (YouTube)
 - [Secrets to Optimal Client Service](https://www.youtube.com/watch?v=hJbwyN4ZoCg) (YouTube)
 - [Selling Solutions vs Solving Problems](https://www.youtube.com/watch?v=9ZuWLs7ZNpY) (YouTube)
-- [Psychological Safety: Clear Blocks to Innovation, Collaboration, and Risk-Taking](https://www.linkedin.com/learning/psychological-safety-clear-blocks-to-innovation-collaboration-and-risk-taking/psychological-safety-clear-blocks-to-problem-solving-and-innovation?u=2255073) (LinkedIn Learning)
-- [Improving Your Listening Skills](https://www.linkedin.com/learning/improving-your-listening-skills/welcome?u=2255073) (LinkedIn Learning)
-- [The Six Morning Habits of High Performers](https://www.linkedin.com/learning/the-six-morning-habits-of-high-performers/six-practices-to-get-back-on-track-16454204?u=2255073) (LinkedIn Learning)
-- [Unconscious Bias](https://www.linkedin.com/learning/unconscious-bias/) (LinkedIn Learning)
-- [How to Make Strategic Thinking a Habit](https://www.linkedin.com/learning/how-to-make-strategic-thinking-a-habit/why-make-strategic-thinking-a-habit?u=2255073)  (LinkedIn Learning)
-- [Leading with Emotional Intelligence](https://www.linkedin.com/learning/leading-with-emotional-intelligence-3/lead-with-emotional-intelligence) (LinkedIn Learning)
+- [Psychological Safety: Clear Blocks to Innovation, Collaboration, and Risk-Taking](https://www.linkedin.com/learning/psychological-safety-clear-blocks-to-innovation-collaboration-and-risk-taking/psychological-safety-clear-blocks-to-problem-solving-and-innovation) (LinkedIn Learning)
+- [Improving Your Listening Skills](https://www.linkedin.com/learning/improving-your-listening-skills-19238090) (LinkedIn Learning)
+- [The Six Morning Habits of High Performers](https://www.linkedin.com/learning/the-six-morning-habits-of-high-performers/six-practices-to-get-back-on-track) (LinkedIn Learning)
+- [Unconscious Bias](https://www.linkedin.com/learning/unconscious-bias-14822310) (LinkedIn Learning)
+- [How to Make Strategic Thinking a Habit](https://www.linkedin.com/learning/how-to-make-strategic-thinking-a-habit-22614178/why-make-strategic-thinking-a-habit)  (LinkedIn Learning)
+- [Leading with Emotional Intelligence](https://www.linkedin.com/learning/leading-with-emotional-intelligence-19884915) (LinkedIn Learning)
 
 <a name="tech-domain"></a>
 
@@ -111,15 +111,15 @@ As CSMs have positioned themselves to be more strategic and reach Director, VP, 
   - [GitLab Certified Security Specialist](https://levelup.gitlab.com/courses/gitlab-security-essentials-certification-exam)
 - [GitLab 101](/handbook/people-group/learning-and-development/gitlab-101/)
 - [GitLab 201](/handbook/people-group/learning-and-development/gitlab-201/)
-- [Learning GitLab](https://www.linkedin.com/learning/learning-gitlab-14539757/) (LinkedIn Learning)
-- [Continuous Delivery with GitLab](https://www.linkedin.com/learning/continuous-integration-and-continuous-delivery-with-gitlab/) (LinkedIn Learning)
+- [Learning GitLab](https://www.linkedin.com/learning/learning-gitlab-14539757) (LinkedIn Learning)
+- [Continuous Delivery with GitLab](https://www.linkedin.com/learning/continuous-integration-and-continuous-delivery-with-gitlab) (LinkedIn Learning)
 - [Introduction to GitLab CI & DevOps with AWS](https://www.youtube.com/watch?v=PGyhBwLyK2U) (YouTube)
   - [Introduction to GitLab CI & DevOps with AWS - Course Notes](https://gitlab.com/gitlab-course-public/freecodecamp-gitlab-ci/-/blob/main/docs/course-notes.md) (Git Repo)
 - [GitLab CI CD Tutorial for Beginners](https://www.youtube.com/watch?v=qP8kir2GUgo) (YouTube)
 
 #### DevOps
 
-- [DevOps Foundations](https://www.linkedin.com/learning/devops-foundations/) (LinkedIn Learning)
+- [DevOps Foundations](https://www.linkedin.com/learning/devops-foundations-23454205) (LinkedIn Learning)
 
 #### Software Development
 
@@ -139,7 +139,7 @@ As CSMs have positioned themselves to be more strategic and reach Director, VP, 
 
 #### Markdown
 
-- [Handbook Markdown Guide](/handbook/markdown-guide/)
+- [Handbook Markdown Guide](https://handbook.gitlab.com/docs/markdown-guide/)
 - [GitLab Flavored Markdown (GLFM)](https://docs.gitlab.com/ee/user/markdown.html)
 - [Handbook Style Guide](/handbook/about/style-guide/)
 - [Markdown Tutorial](https://about.gitlab.com/blog/2018/08/17/gitlab-markdown-tutorial/)
@@ -181,10 +181,10 @@ Access codes and recording links can be found in this [internal doc](https://doc
 
 ### LinkedIn Learning
 
-[Handbook details about LinkedIn Learning](/handbook/people-group/learning-and-development/linkedin-learning/).
+[Handbook details about LinkedIn Learning](/handbook/people-group/learning-and-development/self-paced-learning/#linkedin-learning).
 
-We also have a list of [Recommended Learning Paths](/handbook/people-group/learning-and-development/linkedin-learning/#recommended-learning-paths).
+We also have a list of [Recommended Learning Paths](/handbook/people-group/learning-and-development/self-paced-learning/#linkedin-learning).
 
 ### Coursera
 
-[Handbook details about Coursera](/handbook/total-rewards/benefits/general-and-entity-benefits/growth-and-development/#self-service-learning-skillserve-coursera-others)
+[Handbook details about Coursera](/handbook/people-group/learning-and-development/growth-and-development/#self-service-learning)

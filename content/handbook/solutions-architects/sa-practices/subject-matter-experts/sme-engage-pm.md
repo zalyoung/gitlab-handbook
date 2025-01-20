@@ -10,7 +10,7 @@ description: How to engage with product Management
 TODO:  Need to review the processes in the handbook with Product Management, and determine what updates are needed with the introduction of the SME Program.
 
 1. Review [Customer Issues Prioritization Framework](/handbook/product/product-processes/customer-issues-prioritization-framework/)  
-2. How to [Engage Product Managers](/handbook/product/product-management/\#how-to-engage-product-managers)
+2. How to [Engage Product Managers](/handbook/product/product-management/#how-to-engage-product-managers)
 
 SMEs should relieve some load on the PMs for the most discussed and impactful product areas by:
 
@@ -27,7 +27,7 @@ Also SMEs can assist Product Management By
 4. Collaborate in / Create issues to improve the product in the key areas related to the SME area
 5. Enabling the rest of the team on the SME area - sharing new insights, updates, learnings, etc. on team calls
 
-SAs should now [request a SME](content/handbook/solutions-architects/sa-practices/subject-matter-experts/sme-request/) for the above scenarios as opposed to always engaging or requesting a Product Manager.
+SAs should now [request a SME](/handbook/solutions-architects/sa-practices/subject-matter-experts/sme-request/) for the above scenarios as opposed to always engaging or requesting a Product Manager.
 
 Product Managers can still be engaged to present detail roadmaps to the customer (TBD)
 

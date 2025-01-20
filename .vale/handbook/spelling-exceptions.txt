@@ -22,6 +22,7 @@ allowlists
 allyship
 AlmaLinux
 AMAs
+AMAUs
 AMIs
 anonymization
 anonymized
@@ -46,6 +47,7 @@ ARNs
 Artifactory
 Asana
 Asciidoctor
+ASCIIArt
 asdf
 ASMs
 Assembla
@@ -107,13 +109,16 @@ Bitbucket
 Bitnami
 bitrate
 Bittrex
+Bizible
 Blackmagic
 blockquote
 blockquoted
 blockquotes
 blockquoting
+Bluesky
 boolean
 booleans
+bootcamp
 Bootsnap
 bot
 bot's
@@ -154,6 +159,7 @@ cardpane
 Casdoor
 CDFs
 CDNs
+CDot
 CE
 CentOS
 Ceph
@@ -180,6 +186,7 @@ Cigna
 Citrix
 Citus
 Civo
+Clari
 Cleartext
 ClickHouse
 CLIs
@@ -220,6 +227,7 @@ config
 Configs
 Consul
 Contentful
+contributable
 Coronavirus
 Corosync
 corpuses
@@ -261,6 +269,7 @@ CUnit
 customappsso
 CVEs
 CWEs
+cyber
 cybersecurity
 CycloneDX
 Dangerfile
@@ -277,6 +286,7 @@ datestamp
 datetime
 daycares
 DBeaver
+dbt
 Debian
 debloating
 decodable
@@ -323,13 +333,16 @@ desynchronized
 Dev
 devfile
 devfiles
-Devo
 DevOps
 Dhall
 dialogs
 Diffblue
 disambiguates
 discoverability
+disempower
+disempowered
+disempowering
+disempowers
 dismissable
 Disqus
 Distroless
@@ -354,7 +367,6 @@ dogfoods
 DOMPurify
 donut
 dotenv
-dotfiles
 doublestar
 downvoted
 downvotes
@@ -364,7 +376,10 @@ Dreamweaver
 DRIs
 DSLs
 DSN
+duplicative
 Dynatrace
+dyscalculia
+dyspraxia
 EBAs
 ebook
 ebooks
@@ -386,6 +401,7 @@ enrichers
 enum
 enums
 Enviroments
+ERDs
 ESLint
 ESXi
 ETag
@@ -420,6 +436,7 @@ Figma
 Filebeat
 Filestore
 financials
+findability
 Finicity
 Finnhub
 Fio
@@ -454,6 +471,8 @@ Fullstack
 fuzzer
 fuzzing
 Gainsight
+gameday
+gamedays
 Gantt
 Gartner
 Gbps
@@ -496,6 +515,7 @@ GPUs
 Gradle
 Grafana
 Grafonnet
+Grammarly
 gravatar
 Grubhub
 Grype
@@ -514,6 +534,8 @@ heatmap
 heatmaps
 Helm
 Helmfile
+Helpdesk
+HelpLab
 Heroku
 Herokuish
 heuristical
@@ -535,7 +557,10 @@ hotspots
 HTMLHint
 http
 https
+Hugo
+Hugolint
 Hugomods
+hypercare
 hypergrowth
 hyperparameter
 hyperparameters
@@ -550,10 +575,14 @@ IIFEs
 Immer
 iMovie
 impactful
+incentivized
+incentivizes
 incentivizing
 inclusivity
+inexhaustive
 inflector
 inflectors
+influencer
 infradev
 Ingress
 initializer
@@ -573,7 +602,9 @@ irker
 ISOs
 issuables
 Istio
+iTerm
 Jaeger
+Jamf
 Jamstack
 jasmine-jquery
 Javafuzz
@@ -596,6 +627,7 @@ Jupyter
 JupyterHub
 JWT
 JWTs
+kaizen
 Kaminari
 kanban
 kanbans
@@ -649,6 +681,7 @@ livestreaming
 livestreams
 LLM
 LLMs
+localizability
 lockfile
 lockfiles
 Lodash
@@ -686,6 +719,7 @@ Maniphest
 Markdown
 markdownlint
 Marketo
+Mastodon
 matcher
 matchers
 Matomo
@@ -758,12 +792,16 @@ negatable
 Neovim
 Netlify
 Netsuite
+neurodevelopment
+neurodevelopmental
+neurodivergence
 neurodivergent
 neurodiverse
 neurodiversity
 neurotypical
 NGINX
 ngrok
+Nira
 njsscan
 Nokogiri
 nosniff
@@ -829,7 +867,6 @@ passwordless
 Pathfactory
 Patroni
 PBPs
-PCLs
 PDFs
 PEOs
 performant
@@ -852,6 +889,8 @@ Pipfiles
 Piwik
 Pizzatime
 plaintext
+podcaster
+podcasters
 podman
 Poedit
 polyfill
@@ -887,6 +926,7 @@ prepending
 prepends
 prepopulate
 prepopulated
+preseed
 presentationals
 presenteeism
 Prettifier
@@ -925,10 +965,12 @@ rbenv
 rbspy
 rbtrace
 Rclone
+RCEs
 Rdoc
 reachability
 readme
 Realplayer
+rearchitecting
 reauthenticate
 reauthenticated
 reauthenticates
@@ -976,10 +1018,14 @@ repmgrd
 repo
 repos
 reposts
+reprioritize
+reprioritized
+reprioritizing
 repurpose
 repurposes
 repurposing
 repurposing
+reputational
 requestee
 requesters
 requeue
@@ -1009,6 +1055,7 @@ roadmaps
 rock
 rollout
 rollouts
+Rolly
 routable
 RPCs
 RSpec
@@ -1045,8 +1092,10 @@ scatterplot
 scatterplots
 schedulable
 Schemastore
+screenshare
 scriptable
 scrollable
+SDGs
 SDKs
 SDRs
 sed
@@ -1054,6 +1103,7 @@ segmentations
 SEGs
 SELinux
 Semgrep
+Semver
 Sendbird
 Sendinblue
 Sendmail
@@ -1077,7 +1127,10 @@ shortcodename
 shortcodes
 Sidekiq
 Sigstore
+Sijbrandij
+siloed
 Silverlight
+Siri
 Sisense
 Sitespeed
 skippable
@@ -1091,10 +1144,10 @@ Slony
 SLOs
 smartcard
 smartcards
+SMAUs
 SMEs
 snake_case
 snake_cased
-Snapcraft
 snapshotting
 Snowplow
 Snyk
@@ -1119,7 +1172,6 @@ SSGs
 Stackdriver
 Stackprof
 stacktrace
-stageless
 starrer
 starrers
 Stickermule
@@ -1153,6 +1205,8 @@ submodule's
 subnet
 subnets
 subnetting
+subpage
+subpages
 subpath
 subproject
 subprojects
@@ -1199,8 +1253,10 @@ Tamland
 tanuki
 taskscaler
 tcpdump
+TeamOps
 teardown
 templated
+Tesorio
 Thanos
 thoughtbot
 throughputs
@@ -1216,6 +1272,8 @@ timelogs
 timesheet
 timesheets
 Tiptap
+TMAGs
+TMRGs
 ToDo
 todos
 tokenizer
@@ -1231,7 +1289,9 @@ tooltip
 tooltips
 touchpoint
 touchpoints
+TPMs
 transactionally
+transcreation
 transformative
 transpile
 transpiled
@@ -1240,6 +1300,7 @@ transpiling
 Trello
 Trendline
 triaged
+triager
 triages
 triaging
 Trivy
@@ -1271,6 +1332,7 @@ unassigning
 unassigns
 unban
 unbans
+unblocker
 uncached
 uncheck
 unchecked
@@ -1286,6 +1348,7 @@ underperform
 underperformance
 underperformed
 underperforming
+underserved
 unencode
 unencoded
 unencoder
@@ -1297,6 +1360,7 @@ unfollowed
 unfollows
 Unicorn
 unindexed
+unintuitive
 unlink
 unlinking
 unlinks
@@ -1317,6 +1381,7 @@ unoptimizing
 unparsable
 unpatched
 unpause
+unpredictabilities
 unprioritized
 unprotect
 unprotected
@@ -1369,6 +1434,7 @@ unverify
 unverifying
 uploader
 uploaders
+upskilling
 upstreams
 upvote
 upvoted
@@ -1399,6 +1465,7 @@ VPs
 VSCodium
 Vue
 Vuex
+Vulnmapper
 waitlist
 walkthrough
 walkthroughs

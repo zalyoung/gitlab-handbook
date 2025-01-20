@@ -9,13 +9,11 @@ For an overview of how CSMs use Gainsight, please refer to the [Gainsight CSM Ov
 
 ## Gainsight dashboard
 
-When logging in, CSMs will begin on their dashboard. Gainsight's homepage will show a "CSM Portfolio" Dashboard which is a full list and overview of each CSM's customers. This dashboard defaults to show the book of business for the current user but can be filtered and configured in a variety of ways to view the information for specific CSMs, teams, etc.
+When logging in, CSMs will begin on their dashboard. Gainsight's homepage will show a "My Portfolio" Dashboard which is a full list and overview of each CSM's customers. This dashboard defaults to show the book of business for the current user but can be filtered and configured in a variety of ways to view the information for specific CSMs, teams, etc.
 
-This dashboard is likely to be a CSM's most-frequented page, as it shows a summary of their entire book of business, including last activity dates, health scores, at-risk customers, [upcoming renewals](/handbook/customer-success/csm/renewals/), stage adoption statistics, success plan progress, and more.
+This view is likely to be a CSM's most-frequented page, as it shows a summary of their entire book of business, including last activity dates, health scores, at-risk customers, [upcoming renewals](/handbook/customer-success/csm/renewals/), stage adoption statistics, and more.
 
-There are also other dashboards available to CSMs to look at, including the CS Leadership Dashboard which reviews aspects of all CSM-supported accounts, the Customer Onboarding Dashboard which shows the status of onboarding across all accounts, and the Stage Adoption Dashboard which goes into detail regarding which stages have been adopted and the success of adoption plays.
-
-If there is an asterisk (*) in the title of a report, widget, or field, that means it takes up to 24 hours for that data to update if you change it. For example, in the CSM Burndown Dashboard, there's a widget called `*PR1 Cadence >30 Days`, which shows how many Priority 1 accounts have not had a cadence call recorded in more than 30 days. If you then record a call in Timeline, it will take up to 24 hours for that widget to reflect the updated information.
+There are also other dashboards available to CSMs to look at, including the CS Leadership Dashboard which reviews aspects of all CSM-supported accounts.
 
 When hovering on the far left of the screen, a sidebar will pop up that has a few options:
 
@@ -26,5 +24,4 @@ When hovering on the far left of the screen, a sidebar will pop up that has a fe
 ### Further detail on specific dashboards
 
 1. [CSM Burn-Down Dashboard](/handbook/customer-success/csm/gainsight/dashboards/#csm-burn-down-dashboard)
-1. [CSM Proactive Dashboard](/handbook/customer-success/csm/gainsight/dashboards/#csm-proactive-dashboard)
 1. [CSM Key Metrics Dashboard](/handbook/customer-success/csm/gainsight/dashboards/#csm-key-metrics-dashboard)

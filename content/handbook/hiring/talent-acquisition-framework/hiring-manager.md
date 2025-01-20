@@ -47,7 +47,7 @@ One way a Hiring Manager can help create more engagement in the open role is to 
 1. [Create a video, upload it to GitLab's unfiltered YouTube channel, and in the description link to the job listing in question](https://www.youtube.com/channel/UCMtZ0sc1HHNtGGWZFDRTh5A).
 1. If you're active on Twitter, post the YouTube link to Twitter and include the job listing in the body of the tweet.
 1. Upload the video to LinkedIn and create a post with a link to the job listing. It is better to upload the video directly to LinkedIn than use the YouTube link as this will help generate more traffic.
-1. Embed the YouTube video into the Job listing itself via [Greenhouse](https://boards.greenhouse.io/gitlab/jobs/6201785002) under the `work for this role` sub-heading.
+1. Embed the YouTube video into the Job listing itself via Greenhouse under the `work for this role` sub-heading.
 1. Ask the [sourcing team](/handbook/hiring/sourcing) to embed the video in the initial message they send to new candidates for the role.
 1. If you have questions, please reach out to the #talent-brand channel on slack. Please also share newly created videos in the #talent-brand channel so these can be captured in our content library.
 

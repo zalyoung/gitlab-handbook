@@ -87,8 +87,8 @@ GitLab secures your speed to mission by addressing elements to stay ahead of thr
 - [Security scanning](https://docs.gitlab.com/ee/user/application_security/): Find vulnerabilities sooner in the SDLC with static application security testing (SAST), dynamic application security testing (DAST), secret detection, and license compliance verification.
 - Automated unit testing, code quality, and fuzz testing: Automated capabilities can run on every code commit helping to prevent coding flaws.
 - [Offline environments](https://docs.gitlab.com/ee/user/application_security/offline_deployments/): Run security scans when not connected to the internet addressing cloud-native attack surfaces without getting in the way of rapid development and with fewer tools to manage.
-- Policy Management: Teams can create, maintain, and track every contribution to their software packages in a single repository with [source code management](https://about.gitlab.com/stages-devops-lifecycle/source-code-management/).
-- Optimized Workflows: Verifying code commits and releases can be challenging. GitLab helps protect source code from tampering and unauthorized contributions via source code management, protected branches, commit signatures, advanced code review capabilities, and merge approvals with [hardened containers](https://about.gitlab.com/press/releases/2020-07-01-gitlab-announces-hardened-container-image-in-support-of-the-us-department-of-defense-enterprise-devsecops-initiative.html).
+- Policy Management: Teams can create, maintain, and track every contribution to their software packages in a single repository with [source code management](https://about.gitlab.com/solutions/source-code-management/).
+- Optimized Workflows: Verifying code commits and releases can be challenging. GitLab helps protect source code from tampering and unauthorized contributions via source code management, protected branches, commit signatures, advanced code review capabilities, and merge approvals with [hardened containers](https://about.gitlab.com/press/releases/2020-07-01-gitlab-announces-hardened-container-image-in-support-of-the-us-department-of-defense-enterprise-devsecops-initiative/).
 - Container Scanning: Vulnerabilities are automatically exposed and displayed in a merge request to helping to address them faster and more efficiently.
 - [SBOM](https://docs.gitlab.com/ee/user/application_security/dependency_scanning/#cyclonedx-software-bill-of-materials): Dependency scanning, embedded in GitLab, automatically generates an SBOM while identifying vulnerabilities in operating systems, containers, and packages. Vulnerabilities are triaged and remediated earlier in the process with solutions suggested to guide developers to a fix. Then they are automatically added to the dependency list (SBOM). This information is available for every commit rather than at the end of the software development lifecycle. Also, SBOM workflows allow users to secure the software supply chain and development environment plus easily identify software dependencies in one DevOps platform.
   - Vulnerabilities are listed to provide clarity by including dependencies.
@@ -96,11 +96,13 @@ GitLab secures your speed to mission by addressing elements to stay ahead of thr
   - When presented in a merge request (MR), view and triage them before the code is committed to the mainline.
 - Safeguarding environments: Maintain a secure platform throughout the process with role-based permissions models, lightweight directory access protocol (LDAP), single sign-on (SSO), and multi-factor authentication (MFA) support.  Policy management, audits, and [zero trust](/handbook/security/#:~:text=In%20our%20case%2C%20Zero%20Trust,to%20authenticate%20and%20be%20authorized.) continuously validate every interaction.
 - Continuous Software Compliance: Significantly reduce the time to achieve Authority to Operate (ATO) with continuous automation of compliance management.
-- FIPS 140-2: GitLab can be run in a FIPS-compliant manner and is [FIPS 140-2](https://about.gitlab.com/security/cap/) compliant.
+- FIPS 140-2: GitLab can be run in a FIPS-compliant manner and is [FIPS 140-2](https://trust.gitlab.com/) compliant.
 
 **Key Messages:** Secure by design: Your SDLC is secure by design discovering vulnerabilities earlier helping you to shift left.
 
-#### Pain Point 2: How do we overcome manual processes, dated policies, and aging technology to achieve automated software factory deployment?
+#### Pain Point 2: How do we overcome manual processes, dated policies, and aging technology...?
+
+Pain Point 2: How do we overcome manual processes, dated policies, and aging technology to achieve automated software factory deployment?
 
 **Solution:** GitLab with end-to-end DevSecOps workflows is built on a single codebase enabling software development that eliminates the digital duct tape inefficiencies so you can accelerate the delivery of critical capabilities.
 
@@ -116,7 +118,9 @@ GitLab is cloud-neutral—connecting with AWS, Google Cloud, Azure, and beyond�
 
 **Key Messages:** Automate software factory deployment: Deploy an easy-to-manage software factory quickly to build, test, and deliver applications
 
-#### Pain Point 3: How do we encourage collaboration between teams and vendors while promoting employee retention?
+#### Pain Point 3: How do we encourage collaboration between teams and vendors...?
+
+Pain Point 3: How do we encourage collaboration between teams and vendors while promoting employee retention?
 
 **Solution:** GitLab supports public sector missions and enables collaboration between teams and vendors with multi-system integrations. Everyone can contribute at every development stage - Plan, Create, Verify, Secure, Package, Release, Configure, Monitor, Protect, and Manage within one DevSecOps platform. The embedded security, frequent update cycle, and agile project management provide visibility within the SDLC with end-to-end traceability dramatically accelerating the speed to mission — increasing code deployment by up to 200%. GitLab also increases user adoption and employee retention enabling organizations to do more for citizens, peacekeepers, students, and the public sector workforce.
 
@@ -152,7 +156,7 @@ Empowering the mission:
 
 - [How the U.S. Army Cyber School created "Courseware as Code" with GitLab](https://about.gitlab.com/customers/us_army_cyber_school/)
 
-GitLab is 100% remote and helps to foster collaborative environments. It has been recognized by numerous awards, including as a [Best Workplace by Inc. Magazine](https://fortune.com/best-small-workplaces-millennials/2022/gitlab/) and a [Top Small and Medium Workplace for Millennials by Fortune](https://fortune.com/best-small-workplaces-millennials/2022/gitlab/).
+GitLab is 100% remote and helps to foster collaborative environments. It has been recognized by numerous awards, including as a [Best Workplace by Inc. Magazine](https://fortune.com/company/gitlab/) and a [Top Small and Medium Workplace for Millennials by Fortune](https://fortune.com/company/gitlab/).
 
 ### Use Cases
 

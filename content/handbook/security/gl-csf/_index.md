@@ -38,21 +38,21 @@ and more precisely for changes in:
 
 1. The [GitLab Architecture](https://docs.gitlab.com/ee/development/architecture.html)
 1. The [GitLab.com    infrastructure](/handbook/engineering/infrastructure/production/architecture/)
-1. The [classification](/handbook/security/data-classification-standard.html) of
+1. The [classification](/handbook/security/data-classification-standard/) of
    the data being managed (stored, transferred, or updated)
 
 ## Getting Started
 
 The framework is organized in different stages, each of them having their own set of activities:
 
-![activities](img/activities.svg)
+![activities](/images/security/gl-csf/activities.svg)
 
 *(Source: https://docs.google.com/drawings/d/1eQZppzngBJ9Xssvt514GHbs7rKHuRiLRk8cYbQtD5bI/edit)*
 
 Activities have a "deliverable", which the expected artifacts of the activity. They can be of
 various forms, from markdown pages to the state of a dashboard.
 
-![deliverables](img/deliverables.svg)
+![deliverables](/images/security/gl-csf/deliverables.svg)
 
 *(Source: https://docs.google.com/drawings/d/1kj3KoU7UePUzoEdWCQFoppDEQgltUedmj6R-I0BqSZ8/edit)*
 
@@ -69,9 +69,9 @@ The framework is architected around 3 stages:
 | Activity | Security Team | Green & Yellow Data | Orange Data | Red Data |
 | -------- | ------------- | ------------------- | ----------- | -------- |
 | [Data classification](#data-classification) | [Security Assurance]({{< ref "security-assurance" >}}) | N/A | N/A | N/A |
-| [Architecture](architecture.html) | [Security Architects]({{< ref "../product-security/architecture" >}}) | Optional| Recommended | Required |
-| Define Target Environment | [InfraSec]({{< ref "../product-security/infrastructure-security" >}}) | Optional | Required | Required |
-| Threat Modeling | [AppSec]({{< ref "../product-security/application-security" >}}) | Optional | Recommended | Required |
+| [Architecture](architecture.html) | [Security Architects](/handbook/security/product-security/security-architecture/) | Optional| Recommended | Required |
+| Define Target Environment | [InfraSec](/handbook/security/product-security/infrastructure-security/) | Optional | Required | Required |
+| Threat Modeling | [AppSec](/handbook/security/product-security/application-security/) | Optional | Recommended | Required |
 
 #### Data classification
 

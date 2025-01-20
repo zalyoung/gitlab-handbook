@@ -19,7 +19,8 @@ When creating a new project, please follow these steps:
 1. [Add the project to the list of GitLab projects in `projects.yml`](https://gitlab.com/gitlab-com/www-gitlab-com/blob/master/doc/projects.md).
 1. Help [AppSec](/handbook/security/product-security/application-security/) [categorize your new project](/handbook/security/product-security/application-security/inventory.md#how-to-categorize-projects).
 1. Add a license to the repository. Contact #legal as to which license to add. A sample license is here: [`gitlab-org/gitlab` MIT License](https://gitlab.com/gitlab-org/gitlab/blob/master/LICENSE), but contact legal before using it.
-1. Add a section titled "Developer Certificate of Origin and License" to `CONTRIBUTING.md` in the repository. It is easiest to simply copy-paste the [`gitlab-org/gitaly` DCO + License section](https://gitlab.com/gitlab-org/gitaly/-/blob/master/CONTRIBUTING.md#developer-certificate-of-origin-license) verbatim.1. Add any further relevant details to the Contribution Guide. See [Contribution Example](https://gitlab.com/gitlab-org/gitlab/blob/master/CONTRIBUTING.md).
+1. Add a section titled "Developer Certificate of Origin and License" to `CONTRIBUTING.md` in the repository. It is easiest to simply copy-paste the [`gitlab-org/gitaly` DCO + License section](https://gitlab.com/gitlab-org/gitaly/-/blob/master/CONTRIBUTING.md#developer-certificate-of-origin-license) verbatim.
+1. Add any further relevant details to the Contribution Guide. See [Contribution Example](https://gitlab.com/gitlab-org/gitlab/blob/master/CONTRIBUTING.md).
 1. Add a link to `CONTRIBUTING.md` from the project's `README.md`.
 1. Add a [CODEOWNERS](https://docs.gitlab.com/ee/user/project/codeowners/) file, to make it easy for contributors to figure out which teams are best suited to review their changes.
     * Use teams rather than individuals as owners, to make it self updating over time and resilient to people taking time off
@@ -27,14 +28,14 @@ When creating a new project, please follow these steps:
 1. When possible, projects should have the following [Merge request settings enabled](https://docs.gitlab.com/ee/user/project/settings/#delete-the-source-branch-on-merge-by-default):
     * [Merge Trains](https://docs.gitlab.com/ee/ci/pipelines/merge_trains.html).
     * [Delete source branch after merge](https://docs.gitlab.com/ee/user/project/settings/).
-    * [Merge only if pipeline succeeds](https://docs.gitlab.com/ee/user/project/merge_requests/merge_when_pipeline_succeeds.html).
+    * [Merge only if pipeline succeeds](https://docs.gitlab.com/ee/user/project/merge_requests/auto_merge.html).
     * [Merge only when all threads are resolved](https://docs.gitlab.com/ee/user/discussions/index.html#only-allow-merge-requests-to-be-merged-if-all-threads-are-resolved).
 1. When possible, projects should have the following [Pipeline settings enabled](https://docs.gitlab.com/ee/ci/pipelines/settings.html):
     * [Auto-cancel pending pipelines](https://docs.gitlab.com/ee/ci/pipelines/settings.html#auto-cancel-pending-pipelines).
 1. Projects should have the minimum [Baseline Configurations setup for MR Approval Rules and Protected Branch Settings](/handbook/security/gitlab_projects_baseline_requirements/)
 1. Projects should have [`Users can request access` setting disabled](https://docs.gitlab.com/ee/user/project/members/index.html#prevent-users-from-requesting-access-to-a-project) to discourage granting accidental external access.
 1. If needed, make sure to [set up a default CI/CD configuration](#cicd-configuration).
-1. If your project contains code that is distributed with GitLab or is executed in production, set up [security jobs](https://gitlab.com/help/user/application_security/security_dashboard/index#gitlab-security-dashboard) for your project and add your project to the AppSec team's [triage rotation](/handbook/security/index.html#triage-rotation). The AppSec will triage security findings from the Security Dashboard and create issues for vulnerabilities.
+1. If your project contains code that is distributed with GitLab or is executed in production, set up [security jobs](https://gitlab.com/help/user/application_security/security_dashboard/index#gitlab-security-dashboard) for your project and add your project to the AppSec team's [triage rotation](/handbook/security/#triage-rotation). The AppSec will triage security findings from the Security Dashboard and create issues for vulnerabilities.
 1. If the project is part of work that is shipped to customers, add it to [projects_part_of_product.csv](https://gitlab.com/gitlab-data/analytics/blob/master/transform%2Fsnowflake-dbt%2Fdata%2Fprojects_part_of_product.csv) by opening an MR to that file or following the [process outlined by Engineering Productivity](/handbook/product/groups/product-analysis/engineering/dashboards/#updating-the-list-of-projects).
 1. If the repository is public, set up a [security mirror](https://gitlab.com/gitlab-org/release/docs/blob/master/general/security/mirrors.md).
    This is necessary to address security vulnerabilities without disclosing them before they are fixed.
@@ -87,7 +88,7 @@ sast:
     - gitlab-org-docker
 ```
 
-If a job requires the usage of Windows, SaaS runners on Windows should be used. For the exact configuration please check the [SaaS runner on Windows documentation](https://docs.gitlab.com/ee/ci/runners/saas/windows_saas_runner.html#machine-types-available-for-windows).
+If a job requires the usage of Windows, SaaS runners on Windows should be used. For the exact configuration please check the [SaaS runner on Windows documentation](https://docs.gitlab.com/ee/ci/runners/hosted_runners/windows.html#machine-types-available-for-windows).
 
 ### Publishing a Project
 

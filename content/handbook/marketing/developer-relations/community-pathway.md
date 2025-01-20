@@ -60,7 +60,7 @@ Ensuring everyone can contribute requires a conscious effort to ensure the commu
 #### Community Programs
 
 * Free community programs:
-  * [OSS](/handbook/marketing/developer-relations/community-programs/opensource-program/)
+  * [OSS](/handbook/marketing/developer-relations/community-programs/open-source-program/)
   * [Developer Evangelism](/handbook/marketing/developer-relations/developer-advocacy/)
   * [Education Program](/handbook/marketing/developer-relations/community-programs/education-program/)
   * [StartUps Program](/handbook/marketing/developer-relations/community-programs/startups-program/)
@@ -81,9 +81,9 @@ Building an inclusive and transparent community is a top-most priority for the C
 * [Fostering DIB in our community](/handbook/values/#diversity-inclusion)
 * [Transparency and openness](/handbook/values/#transparency)
 * [Kubernetes Community Values](https://www.kubernetes.dev/community/values/#inclusive-is-better-than-exclusive)
-* [Building Leadership in an Open SOurce Community](https://www.linuxfoundation.org/resources/open-source-guides/building-leadership-in-an-open-source-community/)
-* [Participating in Open Source Communities](https://www.linuxfoundation.org/resources/open-source-guides/participating-in-open-source-communities/)
-* [Measuring your Open source Program success](https://www.linuxfoundation.org/tools/tools-managing-open-source-programs/)
+* [Building Leadership in an Open SOurce Community](https://www.linuxfoundation.org/resources/open-source-guides/building-leadership-in-an-open-source-community)
+* [Participating in Open Source Communities](https://www.linuxfoundation.org/resources/open-source-guides/participating-in-open-source-communities)
+* [Measuring your Open source Program success](https://www.linuxfoundation.org/resources/open-source-guides/tools-managing-open-source-programs)
 * [The Value of Open Source](https://www.redhat.com/en/blog/value-open-source)
 * [Mozilla Community Guidelines](https://www.mozilla.org/en-US/about/governance/policies/participation/)
 

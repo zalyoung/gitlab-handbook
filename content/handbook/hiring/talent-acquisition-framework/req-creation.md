@@ -30,18 +30,21 @@ If there is not a current job family, the recruiter is to guide the hiring manag
 
 #### Backfill Approvals
 
-Backfills require a needed approval process prior to moving to the next step of the process. All other roles (incremental/net new) do not need approval at this point in the process and can proceed to the next step.
+All backfill roles will work through an approval process before moving to the next step of the recruiting process.
 
-In order to open a backfill:
+To open a backfill:
 
-1. Manager of departing team member enters attrition in Workday via the [off-boarding process](/handbook/people-group/offboarding).
-1. Talent Acquisition Leadership (Dir+) is notified via automated reporting once attrition is entered into the system.
-1. Leadership allocates the role to appropriate recruiter.
-1. Recruiter creates a backfill issue that informs: FP&A, PBP, VP via the appropriate backfill template in [department] headcount project. For Sales, add Sales Strategy. For R&D, add the corresponding E-Group member.
-1. Recruiter works through backfill issue with the business and PBP to drive towards backfill approval: role is to be direct backfill, repurposed within a team or organization. Recruiters to ensure documentation in issue for each decision made.
-*For Sales roles only*: Once the backfill issue is created, TA leadership posts in Sales Leadership channel for approval from the VP of the department. Once approval is received, TA leader is to document approval in the backfill issue for future reference. For templates, GitLab team members can utilize [this link](https://docs.google.com/document/d/19LjNhyNhcqmBMHoaGbjPvUfjWQk0wR9w8iowPlgdfkU/edit)
-*For roles being repurposed*: the business leader owns communication to the team to discuss rationale and drive clarity. PBP/Strategy team partners on reallocation decisions.
-1. Once the role is approved/decision has been reached and all has been documented in the issue, the recruiter can create a position in Greenhouse for approval and move to the next step of the process.
+1. The Manager of a departing team member enters attrition in Workday via the [off-boarding process](/handbook/people-group/offboarding/).
+1. Each week, by noon (PST) Monday, Corporate FP&A downloads the data from Adaptive and refreshes the confidential LIVE Headcount lists shared with TA, FP&A, and relevant leaders
+   1. By the end of the day (PST) Monday, Corporate notifies FP&A partners of targeted conversations with E-Group during the week.
+1. By the end of the day (PST) Wednesday, divisional FP&A teams align with E-Group and PBPs to review all new backfill roles and determine the appropriate action for each.
+   1. If no decisions are made, FP&A will mark backfill as paused
+   1. If decisions are made, FP&A will ensure Position IDs and GHPIDs are processed and shared with TA by the end of the day on Wednesday.
+      - For roles being repurposed: the business leader owns communication to the team to discuss the rationale and drive clarity. PBP/Strategy team partners on reallocation decisions.
+1. Taking the E-Group leader's decisions, each divisional Recruiting Leader will allocate the role to the appropriate recruiter.
+1. Once the role is approved/the decision has been reached and the role is allocated, the Recruiting partner will set up a kickoff strategy call with the hiring manager and will create a position in Greenhouse for approval to move to the next step of the process.
+1. By the end of the day (PST) Thursday, the FP&A update Adaptive
+   1. FP&A includes their best estimates of the start dates of all planned personnel for the forecast period based on the input from Talent Acquisition in the headcount forecast templates. This reflects a 50/50 “most realistic” view of headcount expenses/timing and is part of the current [Forecast Interlock process](/handbook/finance/financial-planning-and-analysis/#finance-business-partners--talent-acquisition-managers-forecast-interlock).
 
 ### Create or Review the Job Family (DRI: Hiring Manager)
 
@@ -89,11 +92,11 @@ Once you've selected a template to copy, the first screen will ask for **Basic J
 1. Click `Generate IDs` to create a requisition ID. You'll need this again when you set up your opening(s).
 1. Under `Job Family URL`, ensure you are linking to the correct job family page. It is the Recruiter's responsibility to ensure that the job family has the specific job listed before submitting the requisition for approval. If the job family is currently in approvals, please contact Total Rewards to ensure you are clear before moving forward. If you skip this step and the job makes it to the offer stage, the process will stall during Total Rewards approval and will take significantly longer to get approved. It is OK if the job title in Greenhouse is not identical to the job family for posting purposes.
 1. Under `Employment Type`, select your opening type - which unless there is an explicit exception, should be Full-Time. *Contract* refers to a true consultant, who works on short-term projects, and not someone in a country like the Netherlands who requires a one-year contract before indefinite. Talent Acquisition only supports Full Time Employee hiring at this time.
-1. Most positions will not be marked confidential. If you have prior approval from Jess Dallmar, Rich Kahn, and Enablement, you can select `Yes` under `Confidential?`. Selecting `Yes` will ensure that the Enablement team specifically excludes any jobs with this selected from reports. It does *not* change access or permissions, so you will still need to evaluate those to remove anyone who should not see your job.
-1. `CA/CO/HI/NY/NJ/WA/DC Salary` should be filled in if you believe you may list your position in the United States. If not, Recruiters can list 1-1 as the salary range as it's a required field. To find the salary range, utilize the comp calculator and search for Colorado (metro area = not applicable) for the minimum and California (metro area = San Francisco) for the maximum. This field is tied to your job post, so it's important that it's filled in correctly.
+1. Most positions will not be marked confidential. If you have prior approval from Jess Dallmar, and Enablement, you can select `Yes` under `Confidential?`. Selecting `Yes` will ensure that the Enablement team specifically excludes any jobs with this selected from reports. It does *not* change access or permissions, so you will still need to evaluate those to remove anyone who should not see your job.
+1. `CA/CO/HI/NY/NJ/WA/DC/IL/MN Salary` should be filled in if you believe you may list your position in the United States. If not, Recruiters can list 1-1 as the salary range as it's a required field. To find the salary range, utilize the comp calculator and search for Colorado (metro area = not applicable) for the minimum and California (metro area = San Francisco) for the maximum. This field is tied to your job post, so it's important that it's filled in correctly.
 1. Fill in the `Openings Section`. Your opening ID is your req ID with -1, -2, etc following it. It is **not** the GHPID.
 1. Enter the `Target Start Date` as listed on the GitLab Hiring Plan
-1. Under `Type` choose if this is a *Annual Plan*, *Backfill*, *Incremental* or *Intern*. If you select *Backfill*, please enter the name of the teammate you are backfilling on the line below. 
+1. Under `Type` choose if this is a *Annual Plan*, *Backfill*, *Incremental* or *Intern*. If you select *Backfill*, please enter the name of the teammate you are backfilling on the line below.
    1. **Annual Plan**: Refers to any budgeted net new role included at the start of the fiscal year as part of the planned headcount. These roles will appear in the interlock sheet and are typically labeled as ‘FYxx AOP’ in the ‘employee name’ field.
    1. **Backfill**: Refers to budgeted roles generated throughout the year due to a team member’s departure. These will also be visible in the interlock sheet and labeled as backfill in the ‘employee name’ field.
    1. **Incremental**: Refers to any Rolling List of Asks (RLoA) or in-quarter approved budget release not part of the annual plan. This headcount is released by Finance during the quarter and communicated directly by TALT in Pod Squad. Recruiters should ensure the correct ‘req type’ is selected in Greenhouse to inform the interlock sheet.
@@ -263,7 +266,7 @@ On occasion, there may be additional or fewer stages than represented here, but 
 
 ### Publish the Job: Careers Page & LinkedIn
 
-Once a job has been setup in Greenhouse and posted to the GitLab public job board it will be automatically posted to the [Careers Page](https://about.gitlab.com/jobs).
+Once a job has been setup in Greenhouse and posted to the GitLab public job board it will be automatically posted to the [Careers Page](https://about.gitlab.com/jobs/).
 
 #### Choosing the correct location for your published job
 
@@ -343,7 +346,7 @@ If you run into problems, you can reach out to the #talent-brand channel for sup
 
 #### How jobs are categorized on our careers site job board
 
-Greenhouse data is fed into our custom jobs page located at [https://about.gitlab.com/jobs/all-jobs](https://about.gitlab.com/jobs/all-jobs/).
+Greenhouse data is fed into our custom jobs page located at <https://about.gitlab.com/jobs/all-jobs/>.
 
 Each department in Greenhouse has a specific department ID associated with it. Those department ID's can be found in our [Greenhouse API feed](https://boards-api.greenhouse.io/v1/boards/gitlab/departments).
 
@@ -351,7 +354,7 @@ Specific departments are coded to show up in various categories, this is defined
 
 When new departments are created, we will need to add those to the openings.js file so that they appear correctly on our job board.
 
-If new categories are needed on the [https://about.gitlab.com/jobs/all-jobs](https://about.gitlab.com/jobs/all-jobs/) job board we also need to update that index file.
+If new categories are needed on the <https://about.gitlab.com/jobs/all-jobs/> job board we also need to update that index file.
 
 #### Publishing jobs to Indeed and Glassdoor
 

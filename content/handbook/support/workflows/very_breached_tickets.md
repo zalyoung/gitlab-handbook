@@ -1,14 +1,14 @@
 ---
 title: Very Breached Tickets 
 description: Describes Very Breached Tickets and the tools and process to address these.
-category: manager
+category: Manager
 subcategory: 
 last-reviewed: 2023-09-14
 ---
 
 ## Overview
 
-Very Breached Tickets are New tickets that have breached the FRT SLA and remain unresponded to for 2 business days after breaching.  This occurs rarely, but requires urgent intervention when it does occur.  While it would be better to prevent tickets from reaching this state, this process provides a safety-net to catch these occurences and ensure these tickets receive an FRT response with urgency.
+Very Breached Tickets are New tickets that have breached the FRT SLA and remain unresponded to for 2 business days after breaching.  This occurs rarely, but requires urgent intervention when it does occur.  While it would be better to prevent tickets from reaching this state, this process provides a safety-net to catch these occurrences and ensure these tickets receive an FRT response with urgency.
 
 ### Very Breached Ticket (VBT) Criteria
 
@@ -32,18 +32,18 @@ The VBT Slackbot runs 3 times per day, near the beginning of business hours for 
 
 ## Response and outcome
 
-It is expected that all tickets listed in the alert will receive a First Response before the next region's businesss hours commence. There is flexibility for each region to address the tickets listed as they see fit.  
+It is expected that all tickets listed in the alert will receive a First Response before the next region's business hours commence. There is flexibility for each region to address the tickets listed as they see fit.  
 
 Once all alerted tickets have a clear plan for a first response, add a `:white_check_mark:` reaction to the bot ping to signal that the alert has been addressed.
 
-Regional details for how the response and outcome are acheived are noted below.
+Regional details for how the response and outcome are achieved are noted below.
 
 ### APAC
 
 - A support manager will add `:eyes:` emoji to the ping to indicate they are DRI for the alert.
   - If there are no `:eyes:` on the ping by 03:00 UTC, the on-call support manager must be DRI.
     - The Manager DRI may instead choose to delegate responsibility to a Senior Support engineer on any given day by `@` mentioning them in a threaded response to the alert and requesting them to assist with finding SEs to provide FRTs to all tickets listed. In this case, the Senior SE will be responsible for applying the `:eyes:` and later the `:white_check_mark:` emojis.
-- The DRI will review the list and work with Support Engineers to ensure each ticket is responded to prior to the EMEA alert being excecuted.
+- The DRI will review the list and work with Support Engineers to ensure each ticket is responded to prior to the EMEA alert being executed.
 - The VBT DRI role must be done in the earlier part of APAC hours for the following reasons:
   - In general, to avoid VBTs becoming further breached.
   - We need sufficient time to clear out VBTs before EMEA starts (EMEA ping happens at 07:00 UTC).

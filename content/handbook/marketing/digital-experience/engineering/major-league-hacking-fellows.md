@@ -32,9 +32,9 @@ Please list all stakeholders (name, email, title/role) who will be involved with
 | Lauren Barker                                             | Maintainer      | [@laurenbarker](https://gitlab.com/laurenbarker)       |
 | Megan Filo                                                | Maintainer      | [@meganfilo](https://gitlab.com/meganfilo)             |
 | [Gideon Tong](https://www.linkedin.com/in/gideontong/)    | MLHF Pod Leader | [@gideontong](https://gitlab.com/gideontong)           |
-| [Chukwuemeka Mba](http://linkedin.com/in/emekamba)        | MLHF Fellow     | [@Chukwuemeka-Mba](https://gitlab.com/Chukwuemeka-Mba) |
-| [Uy Seng](http://linkedin.com/in/uy-seng-704843196)       | MLHF Fellow     | [@nova44056](https://gitlab.com/nova44056)             |
-| [Seung Yoo](http://linkedin.com/in/seungmin-yoo-01376932) | MLHF Fellow     | [@SssngM](https://gitlab.com/SssngM)                   |
+| [Chukwuemeka Mba](https://linkedin.com/in/emekamba)        | MLHF Fellow     | [@Chukwuemeka-Mba](https://gitlab.com/Chukwuemeka-Mba) |
+| [Uy Seng](https://linkedin.com/in/uy-seng-704843196)       | MLHF Fellow     | [@nova44056](https://gitlab.com/nova44056)             |
+| [Seung Yoo](https://linkedin.com/in/seungmin-yoo-01376932) | MLHF Fellow     | [@SssngM](https://gitlab.com/SssngM)                   |
 
 #### Fellow Technical Onboarding
 

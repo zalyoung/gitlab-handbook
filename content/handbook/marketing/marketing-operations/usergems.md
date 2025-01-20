@@ -16,7 +16,7 @@ The two initial sources you'll see on UserGems created leads are the following:
 
 ### UserGems Contact Tracking
 
-UserGems helps Gitlab track up to 50K matched contacts from different, carefully selected cohorts, as follows:
+UserGems helps GitLab track up to 50K matched contacts from different, carefully selected cohorts, as follows:
 
 - [CW Opp Associated Contacts (Large)](https://gitlab.lightning.force.com/lightning/r/Report/00OPL000006Rs2T2AS/view);
 - [CW Opp Associated Contacts (Mid-Market)](https://gitlab.lightning.force.com/lightning/r/Report/00OPL000006Rs8v2AC/view);
@@ -28,7 +28,7 @@ UserGems helps Gitlab track up to 50K matched contacts from different, carefully
 
 ### UserGems Target Account Tracking
 
-In a separate motion to the contact tracking, UserGems also helps Gitlab identify **New Hires & Promotions** into our target accounts.
+In a separate motion to the contact tracking, UserGems also helps GitLab identify **New Hires & Promotions** into our target accounts.
 
 The current list of target accounts UserGems is tracking for GitLab can be viewed using this [Salesforce Report](https://gitlab.lightning.force.com/lightning/r/Report/00OPL0000044fjp/view).
 
@@ -65,33 +65,51 @@ Either through reporting or on the lead/contact/UserGems objects, you'll be able
 - *UG - Past Contact*; - This field will be updated on the net new leads created by UG and will link to the previous contact for which the job change was identified;
 - *UG - Past Title*; - This field will be updated on the net new leads created by UG with the title the contact had prior to the job change;
 
-### UserGems <> GitLab Launch Timeline
+### UserGems Meeting Assistant
 
-The timeline for launching UserGems within GitLab is as follows:
+UserGems Meeting Assistant is a separate stand alone feature of UG that syncs to SDRs/BDRs Google Calendars and captures & enriches the third party contact data present in their meetings. If this contact data meets all necessary criteria, it is added as a contact in our SFDC instance.
 
-- Sales Enablement Training - 09/19/2024 - (Training dedicated to BDRs/SDRs minus the ones for the APJ region. The SDRs/BDRs for APJ region, along with AEs globally will review the recording async);
-- Retro-Active Leads Push #1 - 09/22/2024 (These are leads that are going to be created initially for both motions, job changes tracking along with new hire & promotions, based on the contacts/accounts that are being tracked);
-- Go Live Date - 09/23/2024;
-- Retro-Active Leads Push #2 - 09/29/2024 (These are New Hires & Promotion leads that are going to be created, based on the target accounts that are being tracked);
-- Retro-Active Leads Push #3 - 10/06/2024 (These are New Hires & Promotion leads that are going to be created, based on the target accounts that are being tracked).
+The necessary criteria that needs to be met for a contact to be created in SFDC is the following:
 
-### Retro-Active Leads
+- associated account/company exists in our SFDC environment;
+- associated account/company matches our set personna;
+- contact has a linkedin profile;
+- contact's email domain does not match the "free email providers";
 
-Based on the initial batch of contacts & accounts tracked, UserGems already identified a list of approximately 2K job changes & 27K New Hires & Promotions, which are all going to be pushed to SFDC as follows:
+Separetely, if an open opportunity also exists for the contact's company, the contact will also be added as a contact role to that open opportunity.
 
-- 2K job changes leads will be created in SFDC on Sunday, 22nd of September, ahead of launch;
-- 9K New Hires & Promotions will be created in SFDC on Sunday, 22nd of September, ahead of launch;
-- 9K New Hires & Promotions will be created in SFDC, the following Sunday on the 29th of September;
-- 9K New Hires & Promotions will be created in SFDC, the following Sunday after that, on the 6th of October;
+We're starting to leverage Meeting Assistant as a pilot for a group of 6 reps on the 12th of December. With the plan to do a full roll-out to the whole Sales Development org in mid to late January 2025.
+
+The tool is only processing the data of third-parties and data subject rights do not impute from that third-party contact to the Team Member. Even in the case where a team member uses a work calendar to schedule a meeting with friends, that contact will be omitted due to a personal domain exclusion.
 
 ### Lead Routing & Notifications
 
-Traction Complete will be used to route the leads created by UserGems as well as for notifying the BDRs/SDRs/AEs using either email or slack or both.
+Traction Complete will be used to route the leads created by UserGems as well as for notifying the BDRs/SDRs/AEs using either email or slack or both. The notification will run weekly (on Wednesdays) a day after UserGems data syncs to Salesforce (Tuesdays). We are using scheduled flow to trigger the notifications:
+
+- 1 A/B/C/D Notifications will trigger when: `LeadSource = 'UserGems Contact Tracking' AND CreatedDate = YESTERDAY`
+- 3 A/B Notifications will trigger when: `UserGem__NoLongerAtCompany__c =true AND Status = 'Disqualified' AND Unqualified_Reasons__c = 'No Longer At Company' AND Unqualified_DateTime__c = YESTERDAY`
+
+Do keep in mind that the notifications will be turned off for the retro-active leads due to the high volume of these leads, notifications will be turned back on after the first initial batch is completed.
+
+UserGems leads will be marked as high priority with a high priority reason of `UserGems Lead`, which allows leads to be assigned at creation. Leads that are SMB and have no BDR assigned on a matched account will round robin to SDRs, while the remaining will be assigned to BDRs.
+
+| Notifications                                                                                                                                | Related Object | Recipients | Filter                                                                                                                                                                                                                   |
+| -------------------------------------------------------------------------------------------------------------------------------------------- | -------------- | ---------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| 1A. Tracked Contacts that joined a new business, no open opps (less than 3 months)                                                           | Lead           | BDR/SDR    | Source = UserGems Contact Tracking<br>Count of Open Opps = 0<br>UG - Started Within the Last 3 month = Yes                                                                                                               |
+| 1B. Tracked Contacts that joined a new business, no open opps (more than 3 months)                                                           | Lead           | BDR/SDR    | Source = UserGems Contact Tracking<br>Count of Open Opps = 0<br>UG - Started Within the Last 3 month = No                                                                                                              |
+| 1C. Tracked Contacts that joined a business where we have an open opp at stage 3 or beyond.                                                  | Lead           | AE and Renewal Manager        | Source = UserGems Contact Tracking<br>Count of Open Opps GREATER THAN 0<br>Stage != 0-Pending Acceptance,1-Discovery,2-Scoping<br>UG - Started Within the Last 6 month = Yes                                             |
+| 1D. Tracked Contacts that joined a business where we have an open opp at stage 0, 1 or 2 OR are a customer account with an open renewal opp. | Lead           | BDR, AE and Renewal Manager  | Source = UserGems Contact Tracking<br>Count of Open Opps GREATER THAN 0<br>Stage = 0-Pending Acceptance,1-Discovery,2-Scoping<br>Count of Open Renewal Opps GREATER THAN 0<br>UG - Started Within the Last 6 month = Yes |
+| 3A. Contact leaves Company with Opportunity is in stage 3 and beyond                                                                         | Contact        | AE and Renewal Manager         | UG - No Longer at Company = True<br>Count of Open Opps GREATER THAN 0<br>Stage != 0-Pending Acceptance,1-Discovery,2-Scoping                                                                                             |
+| 3B. Contact leaves Company with Opportunity is in stage 1 or 2.                                                                              | Contact        | BDR, AE and Renewal Manager  | UG - No Longer at Company = True<br>Count of Open Opps GREATER THAN 0<br>Stage = 0-Pending Acceptance,1-Discovery,2-Scoping                                                                                              |
+
+### Dynamic Layouts
+
+On both the lead & contact object, on the top right side, if this is a UserGems Lead or a UserGems Past Contact, you'll be able to reference, at a glance relevant information like: Current Lead Link, Past Contact Link, Current Account, Current Account Type, Current Title, Current Email along with many other fields that are relevant.
 
 ### Sales Enablement
 
-A training for SDRs/BDRs will be held on 09/19/2024 and the recording will be added here as soon as it's available. For any questions regarding UserGems feel free to reach out to either Marketing Operations or Sales Development.
+A training for SDRs/BDRs took place on 09/19/2024 and the recording can be viewed [here](https://zoom.us/recording/detail?meeting_id=%2F%2Fw2nDCsSKq0S1Z%2FcjwZ1Q%3D%3D). For any questions regarding UserGems feel free to reach out to either Marketing Operations or Sales Development.
 
-### Sales Dev Playbooks
+### Sales Dev Plays
 
-To get more information regarding the different plays for the UserGems created leads, please visit the Sales Development Handbook UserGems entry. (Link is WIP)
+To get more information regarding the different plays for the UserGems created leads, please visit the [Sales Development Handbook UserGems entry](/handbook/marketing/sales-development/#usergems).

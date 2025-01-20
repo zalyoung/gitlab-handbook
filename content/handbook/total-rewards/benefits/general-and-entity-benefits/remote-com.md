@@ -35,11 +35,7 @@ Team Members hired prior to April 2022 are legacied in to the medical allowance 
 
 ### Life Insurance
 
-- Death: BRL 50,000
-- Total or partial permanent disability due to accident: BRL 50,000
-- Family funeral assistance: BRL 5,000
-
-Note: All amounts stated above are estimates and may change during the course of the year as more employees in Brazil are added or removed from the policy.
+Remote provides Life Insurance through Prudential. Coverage amount is 24x your monthly salary. Gitlab covers 100% of the premiums. Team Members can assign their Beneficiaries in the Remote portal.
 
 ### Remote - Brazil  Statutory Leave policies
 
@@ -47,11 +43,20 @@ Below is the information related to Brazil's statutory leave policies.  Please n
 
 ### Annual leave
 
-Team Members in Brazil are entitled to a statutory minimum of 30 calendar days of paid annual leave per year (based on employment year) after each 12 months of service. The vacation period is typically taken in one block (or split between 20 days and 10 days).  Team members are eligible for GitLab's PTO policy; which will run concurrently with this Annual Leave policy.
+Brazil has specific requirements that govern statutory leave to remain compliant. For reference, after 12 months of service, you are entitled to 30 calendar days of paid time off. Team members are also eligible for [GitLab's paid time off policy](/handbook/people-group/paid-time-off/#paid-time-off). If the time off taken falls under the requirements for statutory time then the time off will automatically be deducted from the statutory allowance first (you may see this reflected as "dummy days" on your pay slip).
+If the time off does not fall under the requirements it will be used as Flex Time Off, then once you have exhausted the full statutory leave allowance all ongoing time off will be Flex Time Off per GitLab policy.
 
-In addition, team members must be paid 1/3rd of a month's salary as holiday bonus.
+Please keep the below in mind before [submitting your time off request via Workday or the Workday Slack App](/handbook/people-group/paid-time-off/#communicating-your-time-off).
 
-To ensure all statutory annual leave is tracked appropriately, please enter all requested into Workday by selecting the `Paid Time Off` option, at least one month prior to the leave being taken (this is ensure accuracy and reporting for statutory compliance).
+- Vacations can only be divided in up to 3 periods. One of the vacation periods must be at least 14 days long, while the other two vacation periods need to be at least five days long each.
+- Team members cannot start their vacation two days before a holiday or a weekend as per the leave rules in Brazil. This means the team member cannot start their vacation on Thursday or Friday under the Statutory Leave allowance.
+- Vacations earned must be taken during the concession period and cannot be accumulated or carried over to the following year.
+- Team members are required to submit their time off request with at least 30 days’ notice. Although, we recommend team members submit their time off request 45 days in advance (this is to ensure accuracy and reporting for statutory compliance).
+- Our GitLab Payroll Team sends a time off report (past and current month) to the PEO vendor on a monthly basis to ensure their processing of your vacation bonus two days before you go on vacation.
+- Conversion into cash: 1/3 of vacations (10 days) can be converted into cash upon request to the PEO vendor. The funds will be paid on the last period of vacation days taken.
+- Team members will be provided the "Aviso de Férias" document from the PEO vendor which will need to be returned with signature (this document will be provided via the PEO portal).
+
+If you need further information on the laws that govern vacation days in Brazil, please visit the [Remote Help Center](https://support.remote.com/hc/en-us/sections/8577490511885-Statutory-Leave-in-Brazil) or reach out to help@remote.com
 
 ### Statutory Pregnancy & Maternity leave
 
@@ -100,7 +105,7 @@ More information can be found below:
 - [Remote Allianz Benefit Guide](https://drive.google.com/file/d/1krO_RGt_H1_kPNgudHeuSIFjJohJuq-h/view)
 - [Allianz](https://drive.google.com/file/d/1hMw61FsriqRPfcFRQ-mzQsu6HF03IUFB/view)
 
-Team members in Denmark can also access the [public healthcare system](https://www.healthcaredenmark.dk/). This healthcare system covers all the team members and their family members.
+Team members in Denmark can also access the [public healthcare system](https://healthcaredenmark.dk/). This healthcare system covers all the team members and their family members.
 
 Team members can expense up to $250 for eye examination and glasses if they require corrective eyeware to work at a computer screen for extended periods of time. (Login required to see [policy](https://support.remote.com/hc/en-us/articles/20050865403149-Screen-Work-Eye-Examination))
 
@@ -240,7 +245,8 @@ To the top of that amount, 24,26% taxes should be added.
 
 ### Life Insurance
 
-Mandatory TGL life insurance is provided via Bliwa Livförsäkring. Lump sum benefit: the basic amount is SEK 285,600 (6 x Price Base Amount – PBA*) upon death before age 55, or after age 55 if there are children under age 17. It decreases for death above age 55, to 1 times PBA between age 64 and age 65.
+All Sweden-based team members will be automatically covered by group life insurance.
+Lump sum benefit: 352,800 SEK for deaths before age 55 (or later if there are children under 17). This benefit decreases with age and is tax-free.
 
 ### Remote - Sweden Statutory Leave Policies
 
@@ -413,6 +419,8 @@ Below is the information related to Italy's statutory leave policies.  Please no
 ## Switzerland
 
 All of the benefits listed below are administered and managed by [Remote](https://remote.com/)
+
+Note that pensionable salary includes base salary and commissions. Remote will use the estimated commissions on your monthly payslip. At the end of the year, Remote Payroll will conduct a reconciliation and re-declare pensionable salary based on actual earnings.
 
 The social security obligations through Remote are divided between the employee and the employer, with each party contributing their respective shares:
 

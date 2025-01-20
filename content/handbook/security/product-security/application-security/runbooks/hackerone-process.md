@@ -106,11 +106,22 @@ the responsible engineering team:
     - In the comment, include link to the confidential issue
   - Update the CVE issue and Bug Bounty Council note with relevant details, while they are still fresh in your mind
     - If the CVSS score is higher on GitLab.com than self-managed, calculate both scores and share them in the Bug Bounty Council issue. If the council agrees that security impact is higher on GitLab.com than self-managed, bounty award will be based on the CVSS for GitLab.com. The CVE and security release blog post will always use the self-managed CVSS.
+    - Consider using the "Public description" field in the bug bounty council note. You can use the Duo-generated Public description that was created automatically if it is relevant and does not reveal too many details. This field will be picked up by the [cve description update automation](https://gitlab.com/gitlab-com/gl-security/product-security/appsec/tooling/security-release-tools/-/blob/master/scripts/cve_description_update.rb) and used as the CVE description if present.
   - If you relied on the HackerOne Triage Team's validation of the issue, consider setting time in your calendar to validate it yourself. This will help if you need to validate the fix later.
   - If full impact is needed to be assessed against GitLab infrastructure, instead of testing in https://gitlab.com, use https://staging.gitlab.com/help to sign in with your GitLab email account
     - If multiple users are needed, use credentials for users `gitlab-qa-user*` stored in 1password Team Vault to access the staging environment
   - If the report is for a bug that can be detected without authentication (in GitLab or anything else we host) consider reaching out to the Red Team or Vulnerability Management to help create a Nuclei template that we can include into our scanning
 - Remember to review the `Pending Disclosure` tab and follow [our disclosure process](#closing-out--disclosing-issues)
+
+#### Calculating CVSS for Vulnerability Chaining
+
+Typically, each HackerOne report discloses a single vulnerability. However, sometimes a single report uses two or more newly discovered vulnerabilities chained together for increased impact.
+
+When a single report discloses two or more new vulnerabilities being chained together for greater impact, calculate the CVSS for each individual vulnerability *and* an additional "vulnerability chaining" CVSS score for the combined impact. Share both the individual CVSS scores and the "vulnerability chaining" CVSS score in the corresponding bug bounty council issue.
+
+The CVSS of each individual vulnerability will be used for the CVEs issued for each vulnerability. The "vulnerability chaining" CVSS will be used to determine bounty award for the report.
+
+For future reports that involve "vulnerability chaining" with previously disclosed vulnerabilities, only calculate the CVSS for newly disclosed vulnerabilities. In such cases, only the new vulnerabilities in the chain will be eligible for a "vulnerability chaining" CVSS-based bounty.
 
 ## Triaging exposed secrets
 
@@ -128,7 +139,7 @@ the responsible engineering team:
     - [ ] [Revoke the token](https://docs.gitlab.com/ee/api/personal_access_tokens.html#using-a-request-header-1) and reach out to the owner of the token through Slack DM and in the SIRT issue that you will create in the steps below.
   - [ ] Post a comment in `#security-revocation-self-service` using [this message template](https://gitlab.com/gitlab-com/gl-security/security-operations/sirt/runbooks/-/blob/main/misc/exposed_secrets.md#general-revocation-template-for-secrets)
   - [ ] If the information was leaked in an issue, make the Issue confidential and leave an internal note explaining why it's been made confidential.
-- [ ] Use the `/security` slack command to [initiate](/handbook/security/security-operations/sirt/engaging-security-on-call.html#engage-the-security-engineer-on-call) an incident
+- [ ] Use the `/security` slack command to [initiate](/handbook/security/security-operations/sirt/engaging-security-on-call/#engage-the-security-engineer-on-call) an incident
   - [ ] In the description section, include a link to the HackerOne report and any other useful information
     - [ ] Share the reporter's IP address(es) and time(s) the reporter accessed the sensitive data to assist with incident response.
   - [ ] In the remediation section, document what time and from what IP used to revoke the token or validate the leak.
@@ -163,7 +174,7 @@ Exposure of information and secrets is handled a little differently to vulnerabi
   - Post a comment in `#security-revocation-self-service` using [this message template](https://gitlab.com/gitlab-com/gl-security/security-operations/sirt/runbooks/-/blob/main/misc/exposed_secrets.md#general-revocation-template-for-secrets)
   - If the information was leaked in an issue, make the Issue confidential and leave an internal note explaining why it's been made confidential.
 - Use the `/security` slack command to initiate an incident
-  - Learn more about engaging the SEOC: https://handbook.gitlab.com/handbook/security/security-operations/sirt/engaging-security-on-call.html#engage-the-security-engineer-on-call
+  - Learn more about engaging the SEOC: <https://handbook.gitlab.com/handbook/security/security-operations/sirt/engaging-security-on-call/#engage-the-security-engineer-on-call>
   - In the description section, include a link to the HackerOne report and any other useful information
     - Share the reporter's IP address(es) and time(s) the reporter accessed the sensitive data to assist with incident response.
   - In the remediation section, document what time and from what IP used to revoke the token or validate the leak.
@@ -191,7 +202,7 @@ Similar to how we handle exposed secrets, we sometimes handle exposed personal d
   - If the information was leaked in an issue, make the Issue confidential and leave an internal note explaining why it's been made confidential.
   - :warning: Bear in mind that turning an issue confidential doesn't turn attachments confidential.
 - Use the `/security` slack command to initiate an incident
-  - Learn more about engaging the SEOC: https://handbook.gitlab.com/handbook/security/security-operations/sirt/engaging-security-on-call.html#engage-the-security-engineer-on-call
+  - Learn more about engaging the SEOC: <https://handbook.gitlab.com/handbook/security/security-operations/sirt/engaging-security-on-call/#engage-the-security-engineer-on-call]>
   - Pick "Information Disclosure" as the nature of incident
   - In the description section, include a link to the HackerOne report and any other useful information
     - If possible, share the reporter's IP address(es) and time(s) the reporter accessed the sensitive data to assist with incident response.
@@ -213,7 +224,7 @@ Sometimes researchers will report a vulnerability in features behind a [feature 
 
 Pay attention to the full report to determine the `Attack Complexity`. The word `complex` in the bullet points below is as defined in the section **2.1.2 Attack Complexity** in [CVSS 3.1 Specification](https://www.first.org/cvss/v3.1/specification-document). Keep in mind, the aforementioned section says the following under the **2.1.2 Attack Complexity** section - ***"If a specific reasonable configuration is required for an attack to succeed, the Base metrics should be scored assuming the vulnerable component is in that configuration."***.
 
-- A vulnerability in a feature behind a feature flag that is not complex will be paid out at `AC:L` (this is after assuming the feature flag is enabled on a vulnerable instance). However we will handle the report as if it's `AC:H` for triage and SLOs. 
+- A vulnerability in a feature behind a feature flag that is not complex will be paid out at `AC:L` (this is after assuming the feature flag is enabled on a vulnerable instance). However we will handle the report as if it's `AC:H` for triage and SLOs.
 - A vulnerability in a feature behind a feature flag that is quite complex will still be `AC:H` (this is after assuming the feature flag is enabled on a vulnerable instance)
 
 Vulnerabilities behind disabled-by-default feature flags do not need a CVE (use `~no-cve` when importing) as they are [patched in regular releases](https://docs.gitlab.com/ee/administration/feature_flags.html#risks-when-enabling-features-still-in-development), not security releases.
@@ -228,7 +239,7 @@ Some vulnerabilities will only work on certain Ruby versions. In order to reprod
 1. Run `asdf install ruby <required-version>` while inside the GDK directory.
 1. Run `gem install gitlab-development-kit` while inside the GDK directory.
 1. Go into the `./gitlab` directory inside the GDK direcory, and run `bundle install`.
-1. Verify the Ruby version after running `gdk restart` and going to `http://127.0.0.1:3000/admin`
+1. Verify the Ruby version after running `gdk restart` and going to `https://127.0.0.1:3000/admin`
 
 ## Triaging deprecated features
 
@@ -263,6 +274,8 @@ Remediation of this vulnerability happens within the SIRT issue and typically in
   - Add a 💰 emoji to the bug bounty council thread after paying the bounty award.
 
 We can award GitLab swag to reporters who have submitted a quality report that did not qualify for a monetary reward in our Bug Bounty program. To award swag, please follow the [swag nomination process](/handbook/marketing/developer-relations/contributor-success/community-appreciation/#nomination-process) that is managed by our Developer Relations team.
+
+We can also request to plant trees in the GitLab Forest as a non-monetary rewards, where reporters for various reasons can't accept swag or a monetary award. The amount varies based on the severity, please add a note in the request form based on the [list here](https://gitlab.com/gitlab-com/gl-security/hackerone/administration/-/issues/1#note_2139914536) (Internal link).
 
 ## Managing issues
 

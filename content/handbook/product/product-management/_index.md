@@ -31,7 +31,7 @@ Please see the [Product Categories](/handbook/product/categories/) to know which
 
 Generally speaking, all product feedback should be provided via issues. For detailed overview of how to create an issue, please [read this section on the process](/handbook/product/product-processes/#issues). If you have any product-related questions, comments, input, or otherwise, the Product Manager is the primary person you should talk to, *if creating an issue does not suffice*.
 
-Creating an issue includes, but is not limited to, features, bugs, and other changes that need to be prioritized, changed, discussed, or need more attention. Product Managers will reach out to stakeholders when making or communicating any decision. The pressure of balancing priorities while ensuring we build excellent software is on the product managers and they need all the input they can get to achieve this. Paid features fall under their respective PMs, not under one PM in particular. For instance, Service Desk falls under the Monitor PM.
+Creating an issue includes, but is not limited to, features, bugs, and other changes that need to be prioritized, changed, discussed, or need more attention. Product Managers will reach out to stakeholders when making or communicating any decision. The pressure of balancing priorities while ensuring we build excellent software is on the product managers and they need all the input they can get to achieve this. Paid features fall under their respective PMs, not under one PM in particular. For instance, [Service Desk](https://docs.gitlab.com/ee/user/project/service_desk/) falls under the [Plan PM](/handbook/product/categories/features/#project-management).
 
 All feedback must follow the [GitLab Community Code of Conduct](https://about.gitlab.com/community/contribute/code-of-conduct/). Failure to do so will result in the issues or comment being deleted.
 
@@ -86,10 +86,9 @@ The following ~customer is interested in this capability
 - CSM to mention:
 ```
 
-The `~customer priority::*` labels are inputs for the prioritization model powering the customer issue prioritization framework dashboards:
+The `~customer priority::*` labels are inputs for the prioritization model powering the customer issue prioritization framework dashboard:
 
-- [Customer Requested Issues (Product)](https://10az.online.tableau.com/#/site/gitlab/workbooks/2015827/views) for Product Managers
-- [Customer Requested Issues (CSM)](https://10az.online.tableau.com/#/site/gitlab/workbooks/2015827/views) for Sales and Customer Success
+- [Customer Requested Issues](https://10az.online.tableau.com/#/site/gitlab/workbooks/2015827/views)
 
 These dashboards represent the relative importance of a given issue to the specific customer. 1 is the lowest priority and 10 is the highest. These can be updated at any point in time and will be reflected in the model within 24 hours. You can find more context about priority labels on the [customer issues prioritization framework handbook page](/handbook/product/product-processes/customer-issues-prioritization-framework/#priority-points).
 
@@ -182,7 +181,7 @@ The PM in turn will investigate whether this is a general problem or one specifi
 
 ### Tableau
 
-The Product team maintains a [Tableau dashboard](https://10az.online.tableau.com/#/site/gitlab/workbooks/2015827/views) to aggregate issues and customer interest in those issues. Information is automatically gathered from [GitLab issues](https://gitlab.com/gitlab-org/gitlab/issues) by scanning for Salesforce customer account links. A separate dashboard [Customer Requested Issues (CSM)](https://10az.online.tableau.com/#/site/gitlab/workbooks/2015827/views) is maintained for Sales and CS to make the dashboard easily filterable by the Account Owner or CSM for example.
+The Product team maintains a [Tableau dashboard](https://10az.online.tableau.com/#/site/gitlab/workbooks/2015827/views) to aggregate issues and customer interest in those issues. Information is automatically gathered from [GitLab issues](https://gitlab.com/gitlab-org/gitlab/issues) by scanning for Salesforce customer account links. The same dashboard can be used by Sales and CS.
 
 The Tableau page automation will detect when Salesforce links are added and use the customer's Salesforce data, such as Total Account Value and seat licenses, to add them to the page. This also maintains a customer's privacy on public issues, since Salesforce links are only accessible to GitLab employees with proper credentials.
 
@@ -281,7 +280,7 @@ the product is developed with [directly responsible individuals](/handbook/peopl
 
 | Product Managers | Engineering Managers | UXers | SETs |
 | :--------------: | :------------------: | :---: | :---: |
-| Set [milestone priorities](/handbook/product/cross-functional-prioritization/#planning-for-the-milestone) and define what features Engineering works on | Own the definition of done; decide what gets merged into Product. Prioritizes maintenance work | Proactively identify small and large strategic UX needs to aid Product Management prioritization | Own and identify test strategy and requirements to complete the definition of done |
+| Set [milestone priorities](/handbook/product/product-processes/cross-functional-prioritization/#planning-for-the-milestone) and define what features Engineering works on | Own the definition of done; decide what gets merged into Product. Prioritizes maintenance work | Proactively identify small and large strategic UX needs to aid Product Management prioritization | Own and identify test strategy and requirements to complete the definition of done |
 
 At GitLab, we develop our product for self-managed as well as SaaS-hosted customers. We realize that while we have DRIs there are many stakeholders who must have input, including Engineering, Quality, UX, Product, Security, and Infrastructure. For example, the Security team often has the deeper context of what it takes to run a secure SaaS system. Similarly, the Infrastructure team has insights into what we should build into the product to reduce toil and enable efficient, reliable, performant, and scalable systems.
 
@@ -349,7 +348,7 @@ It's important to keep [`features.yml`](https://gitlab.com/gitlab-com/www-gitlab
 - [Pricing](https://about.gitlab.com/pricing/)
 - [Features](https://about.gitlab.com/features/)
 - [Why GitLab Premium?](https://about.gitlab.com/pricing/premium/)
-- [Why GitLab Ultimate?](https://about.gitlab.com/pricing/ultimate)
+- [Why GitLab Ultimate?](https://about.gitlab.com/pricing/ultimate/)
 - [Feature Comparison](https://about.gitlab.com/pricing/feature-comparison/)
 - [DevOps Lifecycle](https://about.gitlab.com/stages-devops-lifecycle/)
 - [DevOps Tools Landscape](https://about.gitlab.com/why-gitlab/)
@@ -422,4 +421,3 @@ To support contributions product managers may consider the following guidelines:
    This is to ensure that the PM stays informed about changes affecting their area and to
    allow them communicate the change via a release post, if necessary.
    Remember to practice our CREDIT values when communicating with contributors.
-   

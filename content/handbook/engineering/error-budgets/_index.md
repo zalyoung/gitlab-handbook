@@ -3,7 +3,7 @@ title: "Engineering Error Budgets"
 description: "The error budget provides a clear, objective metric that determines how unreliable the service is allowed to be within a single quarter."
 ---
 
-As part of [our strategy](https://about.gitlab.com/direction/#3-year-strategy) to [reinforce GitLab SaaS](https://about.gitlab.com/direction/enablement/dotcom/) as an enterprise grade platform ready for business critical workloads, GitLab.com has specific [Availability](/handbook/engineering/infrastructure/performance-indicators/#gitlabcom-availability) and [Performance](/handbook/engineering/infrastructure/performance-indicators/#gitlabcom-performance) targets.
+As part of [our strategy](https://about.gitlab.com/direction/#3-year-strategy) to [reinforce GitLab SaaS](https://about.gitlab.com/direction/core_platform/dotcom/) as an enterprise grade platform ready for business critical workloads, GitLab.com has specific [Availability](/handbook/engineering/infrastructure/performance-indicators/#gitlabcom-availability) and [Performance](/handbook/engineering/infrastructure/performance-indicators/#gitlabcom-performance) targets.
 
 These targets give our users indication of the platform reliability.
 
@@ -45,7 +45,7 @@ GitLab's current implementation of Error Budgets is only using some of the above
 
 Web requests that result in a `500` status code error are counted. In Sidekiq, jobs that fail due to an unhandled exception are counted.
 
-If a group has [custom SLIs](https://docs.gitlab.com/ee/development/application_slis), or there's an SLI with a fixed feature category configured in our [metrics catalog](https://gitlab.com/gitlab-com/runbooks/-/tree/master/metrics-catalog), then those errors will also be counted.
+If a group has [custom SLIs](https://docs.gitlab.com/ee/development/application_slis/), or there's an SLI with a fixed feature category configured in our [metrics catalog](https://gitlab.com/gitlab-com/runbooks/-/tree/master/metrics-catalog), then those errors will also be counted.
 
 Engineers can use `Gitlab::ErrorTracking.track_exception`, or other logging, freely without affecting the error budget.
 
@@ -153,9 +153,9 @@ Spent budget is the time (in minutes) during which user facing services have exp
 
 The budget spend is currently aggregated at the primary service level.
 
-![Complete budget](img/complete-budget.png)
+![Complete budget](/images/engineering/error-budgets/complete-budget.png)
 
-![Spent budget](img/spent-budget.png)
+![Spent budget](/images/engineering/error-budgets/spent-budget.png)
 
 Details on what contributed to the budget spend can be further found by examining the raised incidents, and exploring the specific service dashboard (and its resources).
 
@@ -201,7 +201,7 @@ Error budget events are attributed to stage groups via feature categorization. T
 
 Updates to feature categories only change how future events are mapped to stage groups. Previously reported events will not be retroactively updated.
 
-The [Scalability:Projections team](/handbook/engineering/infrastructure/team/scalability/projections.html) owns keeping the mappings up to date when feature categories are changed in the website repository. When the categories are changed in `stages.yml`, a scheduled pipeline creates an issue ([example issue](https://gitlab.com/gitlab-com/gl-infra/scalability/-/issues/2084)) on the [build board](https://gitlab.com/gitlab-com/gl-infra/scalability/-/boards/1697160). The issue contains the pipeline link and instructions to follow in the description. The categories need to be synced to two places:
+The [Scalability:Projections team](/handbook/engineering/infrastructure/team/scalability/projections/) owns keeping the mappings up to date when feature categories are changed in the website repository. When the categories are changed in `stages.yml`, a scheduled pipeline creates an issue ([example issue](https://gitlab.com/gitlab-com/gl-infra/scalability/-/issues/2084)) on the [build board](https://gitlab.com/gitlab-com/gl-infra/scalability/-/boards/1697160). The issue contains the pipeline link and instructions to follow in the description. The categories need to be synced to two places:
 
 1. The [Rails application](https://docs.gitlab.com/ee/development/feature_categorization/#updating-configfeature_categoriesyml).
 1. The [Runbooks repository](https://gitlab.com/gitlab-com/runbooks/-/blob/master/services/stage-group-mapping.jsonnet).
@@ -240,11 +240,11 @@ Our current contract is 99.95% availability and a 20 minute monthly error budget
 |------------------|---------------------|---------------------|---------------------|
 | Enablement:Tenant Scale | 99.80% | To allow the group to focus on long-term scalability work (Cells) as well as coordinate changes requiring introduction in the next API version. Described in [this MR](https://gitlab.com/gitlab-com/www-gitlab-com/-/merge_requests/108039) | 2025-01-31 (or if total traffic share exceeds 5%) |
 | Deploy:Environments | 99.9% | [To safely account for a disproportion in traffic in the feature flag endpoint that skews the budget](https://gitlab.com/gitlab-org/gitlab/-/issues/415063#note_1457186576), by using an custom error budget we can keep the correct urgency while accurately represnt the situation for the other services. | 2025-03-01 |
-| Plan:Product Planning | 99.89% | Due to an issue checking permissions for participants in a comment in an Epic, the check can be computationally heavy with some endpoints taking over 10 seconds to respond. [The team is currently working on optmizing it](https://gitlab.com/gitlab-org/gitlab/-/issues/454045). | 2024-10-30 |
+| Plan:Product Planning | 99.89% | Due to an issue checking permissions for participants in a comment in an Epic, the check can be computationally heavy with some endpoints taking over 10 seconds to respond. [The team is currently working on optmizing it](https://gitlab.com/gitlab-com/gitlab-OKRs/-/work_items/10170). | 2025-02-28 |
 
 **Exceptions**
 
-Temporary exceptions are granted as a means to allow different stakeholders to fulfill higher priority business needs, if it is estimated that the granted exception is not creating additional risk to GitLab.com reliability. Note that *exceptions* are different from [Custom Targets](/handbook/engineering/error-budgets/custom-targets/index.html), which set properties on endpoints defining acceptable performance.
+Temporary exceptions are granted as a means to allow different stakeholders to fulfill higher priority business needs, if it is estimated that the granted exception is not creating additional risk to GitLab.com reliability. Note that *exceptions* are different from [Custom Targets](/handbook/engineering/error-budgets/custom-targets/), which set properties on endpoints defining acceptable performance.
 
 Valid reasons for an exception are:
 

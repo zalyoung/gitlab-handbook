@@ -25,11 +25,11 @@ It can be more difficult to notice burnout on a distributed team. Managers and i
 
 {{< youtube "fH8nmtEoBh4?start=1579" >}}
 
-In the [People Group Conversation](https://youtu.be/fH8nmtEoBh4) above, GitLab CEO Sid Sijbrandij responds to a discussion on the topic of burnout and overwork.
+In the [People Group Conversation](https://youtu.be/fH8nmtEoBh4) above, GitLab's Sid Sijbrandij responds to a discussion on the topic of burnout and overwork.
 
 > There's individual freedom, and there's peer pressure. As a company, we should take a lot of care that there's no peer pressure to work long hours.
 >
-> Everyone is used to that [being pressured]. At every company I've been at, that was a celebrated thing. We have to be super, super careful that we do not celebrate that at GitLab. — *Sid Sijbrandij, GitLab co-founder and CEO*
+> Everyone is used to that [being pressured]. At every company I've been at, that was a celebrated thing. We have to be super, super careful that we do not celebrate that at GitLab. — *Sid Sijbrandij, GitLab co-founder*
 
 There's a fine line between [thanking someone publicly](/handbook/communication/#say-thanks) for going above and beyond to help out in a situation, and sending a message that work should always trump life.
 Burnout rarely happens all at once. Rather, it typically takes one by surprise, eventually coming to a head after days, weeks, or months of overwork creep.
@@ -47,7 +47,7 @@ Particularly in a company where [results](/handbook/values/#results) are valued 
 
 Though it sounds counter to conventional wisdom, clarity comes through time away from work. Just as a human must inhale and exhale to survive, one cannot expect to remain healthy and productive if only inhaling more work.
 
-As John Fitch describes in the book [Time Off](https://maxfrenzel.com/time-off), there are four stages of creativity. This was initially [outlined](https://www.brainpickings.org/2013/08/28/the-art-of-thought-graham-wallas-stages) by English social psychologist and London School of Economics co-founder Graham Wallas.
+As John Fitch describes in the book [Time Off](https://maxfrenzel.com/time-off), there are four stages of creativity. This was initially [outlined](https://www.themarginalian.org/2013/08/28/the-art-of-thought-graham-wallas-stages/) by English social psychologist and London School of Economics co-founder Graham Wallas.
 
 1. Preparation
 1. Incubation
@@ -82,7 +82,7 @@ Watch the short interview below.
 
 ### Your rest ethic is as important as your work ethic
 
-Traditionally, we've emphasized the importance of having a strong work ethic. Finding a balance with your work ethic and your rest ethic is essential for avoiding burnout. Building and nurturing your rest ethic creates the energy needed to enable your work ethic. Dr. Saundra Dalton Smith talks about the importance of rest and the types of rest we need in her TedTalk, [The 7 Types of Rest that Every Person Needs](https://ideas.ted.com/the-7-types-of-rest-that-every-person-needs).
+Traditionally, we've emphasized the importance of having a strong work ethic. Finding a balance with your work ethic and your rest ethic is essential for avoiding burnout. Building and nurturing your rest ethic creates the energy needed to enable your work ethic. Dr. Saundra Dalton Smith talks about the importance of rest and the types of rest we need in her TedTalk, [The 7 Types of Rest that Every Person Needs](https://ideas.ted.com/the-7-types-of-rest-that-every-person-needs/).
 
 Examples of how you might define your rest ethic:
 
@@ -109,9 +109,9 @@ GitLab hosted John Fitch for 2 Live [Speaker Series]({{< ref "learning-initiativ
 
 There are [many mental health benefits]({{< ref "remote-benefits#benefits-for-all-remote-employees" >}}) to remote work, but some that top the list are:
 
-1. Increased [flexibility](https://web.archive.org/web/20200606214525/http://shedoesdatathings.com/post/1-year-at-gitlab/) in your [daily life](people/#those-who-value-flexibility-and-autonomy) (for [kids](https://about.gitlab.com/blog/2019/07/25/balancing-career-and-baby), parents, friends, groceries, sports, deliveries).
-1. Less time and [stress](https://www.forbes.com/sites/markeghrari/2016/01/21/a-long-commute-could-be-the-last-thing-your-marriage-needs#5baf10f04245), and money wasted on a [commute](https://www.inc.com/business-insider/study-reveals-commute-time-impacts-job-satisfaction.html) (subway and bus fees, gas, car maintenance, tolls, etc.).
-1. Reduced [interruption stress](https://about.gitlab.com/blog/2018/05/17/eliminating-distractions-and-getting-things-done) and increased [productivity](https://www.inc.com/brian-de-haaff/3-ways-remote-workers-outperform-office-workers.html).
+1. Increased [flexibility](https://web.archive.org/web/20200606214525/https://shedoesdatathings.com/post/1-year-at-gitlab/) in your [daily life](people/#those-who-value-flexibility-and-autonomy) (for [kids](https://about.gitlab.com/blog/2019/07/25/balancing-career-and-baby/), parents, friends, groceries, sports, deliveries).
+1. Less time and [stress](https://www.forbes.com/sites/markeghrari/2016/01/21/a-long-commute-could-be-the-last-thing-your-marriage-needs/), and money wasted on a [commute](https://www.inc.com/business-insider/study-reveals-commute-time-impacts-job-satisfaction.html) (subway and bus fees, gas, car maintenance, tolls, etc.).
+1. Reduced [interruption stress](https://about.gitlab.com/blog/2018/05/17/eliminating-distractions-and-getting-things-done/) and increased [productivity](https://www.inc.com/brian-de-haaff/3-ways-remote-workers-outperform-office-workers.html).
 1. Less exposure to germs from sick coworkers.
 1. You can [choose your working hours](people/#worklife-harmony) based on when you're [most productive](asynchronous/).
 
@@ -127,7 +127,7 @@ Remote work is not for everyone. We have done a deep dive on specific [remote-wo
 
 ## What are some tips for managing mental health when working remotely?
 
-A remote role can feel [lonely](https://about.gitlab.com/blog/2018/04/27/remote-future-how-remote-companies-stay-connected), especially if you're [transitioning from a traditional office setting](https://about.gitlab.com/blog/2018/03/15/working-at-gitlab-affects-my-life). It's important to take inventory of your mental health and take action as needed.
+A remote role can feel [lonely](https://about.gitlab.com/blog/2018/04/27/remote-future-how-remote-companies-stay-connected/), especially if you're [transitioning from a traditional office setting](https://about.gitlab.com/blog/2018/03/15/working-at-gitlab-affects-my-life/). It's important to take inventory of your mental health and take action as needed.
 
 ### Document processes around mental health
 
@@ -208,7 +208,7 @@ A regular cycle of these workshops creates moments for reevaluation. A rest and 
 
 ## What are some warning signs that indicate someone is struggling with their mental health while working remotely?
 
-Oftentimes, if you are feeling burned out, you aren't the only one feeling that way. GitLab team members have compiled a list of symptoms related to burnout, isolation, and anxiety [in a blog post](https://about.gitlab.com/blog/2018/03/08/preventing-burnout). A few are highlighted below.
+Oftentimes, if you are feeling burned out, you aren't the only one feeling that way. GitLab team members have compiled a list of symptoms related to burnout, isolation, and anxiety [in a blog post](https://about.gitlab.com/blog/2018/03/08/preventing-burnout/). A few are highlighted below.
 
 1. You're constantly tired
 1. You no longer enjoy things
@@ -227,7 +227,7 @@ Oftentimes, if you are feeling burned out, you aren't the only one feeling that 
 
 *In the video above, Darren (Head of Remote, GitLab) and Sara (Senior Partner Marketing Manager, GitLab) discuss tips, tricks, and insights on preventing burnout and achieving balance.*
 
-Prevention is a [team sport](https://www.cncf.io/blog/2020/04/03/were-all-in-this-together-a-wellness-guide-from-the-cncf-well-being-working-group). Leaders must work to establish a workplace culture that empowers rather than restricts, managers must be proactive in sensing the signs of mental strain, and team members must feel comfortable surfacing issues while they are still manageable. Below are several [recommendations](https://about.gitlab.com/blog/2018/03/08/preventing-burnout) for avoiding and preventing burnout, according to GitLab team members.
+Prevention is a [team sport](https://www.cncf.io/blog/2020/04/03/were-all-in-this-together-a-wellness-guide-from-the-cncf-well-being-working-group/). Leaders must work to establish a workplace culture that empowers rather than restricts, managers must be proactive in sensing the signs of mental strain, and team members must feel comfortable surfacing issues while they are still manageable. Below are several [recommendations](https://about.gitlab.com/blog/2018/03/08/preventing-burnout/) for avoiding and preventing burnout, according to GitLab team members.
 
 1. Set clear boundaries between work and home
 1. Take vacation
@@ -295,7 +295,7 @@ It's also important to understand that not every team members prefers to discuss
 
 Particularly in remote companies, leadership should consider implementing processes around internal feedback. Companies will often wait to gather [internal feedback]({{< ref "internal-feedback" >}}) until an exit interview after someone's resigned, or they'll organize an occasional survey to take a pulse on the company's engagement. GitLab prefers shorter, but more frequent, check-ins, aligned to our values of [collaboration](/handbook/values/#collaboration) and [iteration](/handbook/values/#iteration).
 
-Ask questions that shed light on whether or not a team member is thriving or struggling, and pay close attention to any adjustable workplace factors that are [contributing](https://about.gitlab.com/blog/2018/06/26/iterating-improving-frontend-culture) either positively or negatively.
+Ask questions that shed light on whether or not a team member is thriving or struggling, and pay close attention to any adjustable workplace factors that are [contributing](https://about.gitlab.com/blog/2018/06/26/iterating-improving-frontend-culture/) either positively or negatively.
 
 Learn more about [GitLab's approach and guidance on feedback]({{< ref "guidance-on-feedback" >}}).
 
@@ -321,7 +321,7 @@ In a remote setting, it's important to let others know you need uninterrupted fo
 
 ### Time tracking
 
-Be aware of how much time you spend working versus distractions. You can use [time tracking tools](https://about.gitlab.com/blog/2019/11/26/e-factor-productivity) to get a baseline, then set goals for increasing productivity as you learn to reduce distractions.
+Be aware of how much time you spend working versus distractions. You can use [time tracking tools](https://about.gitlab.com/blog/2019/11/26/e-factor-productivity/) to get a baseline, then set goals for increasing productivity as you learn to reduce distractions.
 
 This [Forbes article on remote-work time management tips](https://www.forbes.com/sites/carolinecastrillon/2020/12/06/5-time-management-tips-when-working-from-home/?sh=7b60c0164874) also recommends
 
@@ -333,9 +333,9 @@ This [Forbes article on remote-work time management tips](https://www.forbes.com
 
 ## What are some tips for avoiding distractions when working remotely?
 
-GitLab employee Matej L. outlines [9 tips for eliminating remote work distractions and being more productive](https://about.gitlab.com/blog/2018/05/17/eliminating-distractions-and-getting-things-done) here.
+GitLab employee Matej L. outlines [9 tips for eliminating remote work distractions and being more productive](https://about.gitlab.com/blog/2018/05/17/eliminating-distractions-and-getting-things-done/) here.
 
-**Pro tip:** experiment with removing Slack from your phone. A [litany](http://sitn.hms.harvard.edu/flash/2018/dopamine-smartphones-battle-time) of [studies](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6449671) have covered the addictive nature of smartphones. Even if you aren't sure if this approach will benefit you, give it a try. It's what we call a [two-way door](/handbook/values/#make-two-way-door-decisions).
+**Pro tip:** experiment with removing Slack from your phone. A [litany](https://sites.harvard.edu/sitn/2018/05/01/dopamine-smartphones-battle-time/) of [studies](https://pmc.ncbi.nlm.nih.gov/articles/PMC6449671/) have covered the addictive nature of smartphones. Even if you aren't sure if this approach will benefit you, give it a try. It's what we call a [two-way door](/handbook/values/#make-two-way-door-decisions).
 
 ## What are some resources for remote workers struggling with their mental health?
 
@@ -359,13 +359,13 @@ The following tools and strategies are used by the GitLab team to manage burnout
 
 ### LinkedIn Learning Courses
 
-1. [Mindful Stress Management](https://www.linkedin.com/learning/mindful-stress-management/introduction-to-stress-management?u=2255073)
-1. [Winding Down: Get a Better Nights Sleep](https://www.linkedin.com/learning/winding-down-get-a-better-night-s-sleep/introduction-the-importance-of-sleep?u=2255073)
-1. [How to Create a Life of Meaning and Purpose](https://www.linkedin.com/learning/how-to-create-a-life-of-meaning-and-purpose/creating-a-meaningful-life-is-easier-than-you-think?u=2255073)
+1. [Mindful Stress Management](https://www.linkedin.com/learning/mindful-stress-management/introduction-to-stress-management)
+1. [Winding Down: Get a Better Nights Sleep](https://www.linkedin.com/learning/winding-down-get-a-better-night-s-sleep/introduction-the-importance-of-sleep)
+1. [How to Create a Life of Meaning and Purpose](https://www.linkedin.com/learning/how-to-create-a-life-of-meaning-and-purpose/creating-a-meaningful-life-is-easier-than-you-think)
 
 ## How can remote workers connect with mental health professionals?
 
-1. [UCSF Department of Psychiatry and Behavioral Sciences: Resources to support your mental health during the COVID-19 outbreak and climate crises](https://psych.ucsf.edu/copingresources)
+1. [UCSF Department of Psychiatry and Behavioral Sciences: Resources to support your mental health during the COVID-19 outbreak and climate crises](https://hr.ucsf.edu/wellbeing/coping-and-resiliency-program)
 
 ## GitLab Knowledge Assessment: Combating burnout, isolation, and anxiety in the remote workplace
 
@@ -375,7 +375,7 @@ Complete all knowledge assessments in the [Remote Work Foundation certification]
 
 ## Contribute your lessons
 
-Creating a healthy remote workplace is essential to business success. If you or your company has an experience that would benefit the greater world, consider creating a [merge request](https://docs.gitlab.com/ee/user/project/merge_requests) and adding a contribution to this page.
+Creating a healthy remote workplace is essential to business success. If you or your company has an experience that would benefit the greater world, consider creating a [merge request](https://docs.gitlab.com/ee/user/project/merge_requests/) and adding a contribution to this page.
 
 ---
 

@@ -3,7 +3,7 @@ title: Fulfillment Sub-department
 description: "The Fulfillment Sub-department is composed of the Billing and Subscription Management, Fulfillment Platform, Provision, Purchase, and Utilization development teams working on the infrastructure between the systems which affect the user purchasing process that support the GitLab DevOps Platform."
 ---
 
-- [Direction](https://about.gitlab.com/direction/fulfillment)
+- [Direction](https://about.gitlab.com/direction/fulfillment/)
 - [Groups](https://about.gitlab.com/direction/fulfillment/#groups)
 - [Team](/handbook/engineering/development/fulfillment/#team-members)
 
@@ -18,7 +18,7 @@ Fulfillment focuses on improving our capabilities and metrics in the following a
 - [Platform](/handbook/product/categories/#fulfillment-platform-group): [Team](/handbook/engineering/development/fulfillment/fulfillment-platform/#team-members)
 - [Provision](/handbook/product/categories/#provision-group): [Team](/handbook/engineering/development/fulfillment/provision/#team-members)
 - Purchase
-- [Subscription Management](/handbook/product/categories/#subscription-management-group): [Features](https://about.gitlab.com/direction/fulfillment/subscription-management#feature-overview-and-maturity)
+- [Subscription Management](/handbook/product/categories/#subscription-management-group): [Features](https://about.gitlab.com/direction/fulfillment/subscription-management/#feature-overview-and-maturity)
 - [Utilization](/handbook/engineering/development/fulfillment/utilization/): [Team](/handbook/engineering/development/fulfillment/utilization/#team-members)
 
 ## Direction
@@ -37,11 +37,11 @@ See https://handbook.gitlab.com/handbook/product/categories/#fulfillment-section
 
 ### Sales & Go-To-Market
 
-{{< member-and-role-by-gitlab "cnodari" "jrabbits" "Gsodhi" "james_harrison" >}}
+{{< member-and-role-by-gitlab "cnodari" "jrabbits" "Gsodhi" >}}
 
 ### Finance & IT
 
-{{< member-and-role-by-gitlab "s_mccauley" "annapiaseczna" "andrew_murray" "smundy" "lmendonca2" "achampagne1" >}}
+{{< member-and-role-by-gitlab "s_mccauley" "annapiaseczna" "andrew_murray" "smundy" "lmendonca2" >}}
 
 ### Support Engineering
 
@@ -77,7 +77,7 @@ On occasion, it may be prudent to include language like the following to the des
 
 Similarly, not all information should be included in the public handbook. Instead, use the [private internal handbook](https://internal.gitlab.com/) for this SAFE information.
 
-Please reference this documentation about [promising features in future versions](https://docs.gitlab.com/ee/development/documentation/versions.html#promising-features-in-future-versions) for more information.
+Please reference this documentation about [promising features in future versions](https://docs.gitlab.com/ee/development/documentation/styleguide/availability_details.html#promising-features-in-future-versions) for more information.
 
 ### Planning
 
@@ -108,7 +108,7 @@ We strictly adhere to this Intake Request process to ensure we capture the full 
 
 ### Prioritization
 
-We follow our [prioritization framework](/handbook/product/product-processes/#prioritization) including [cross-functional prioritization guidelines](/handbook/product/cross-functional-prioritization/) to prioritize our backlog on a monthly basis. R&D teams use a variety of inputs and sensing mechanisms, including SLAs, OKRs, [L&R Support Priority Issues list for Fulfillment](/handbook/support/license-and-renewals/workflows/managing_product_issues/#supports-issue-list-for-fulfillment), technical debt, and more to set priorities.
+We follow our [prioritization framework](/handbook/product/product-processes/#prioritization) including [cross-functional prioritization guidelines](/handbook/product/product-processes/cross-functional-prioritization/) to prioritize our backlog on a monthly basis. R&D teams use a variety of inputs and sensing mechanisms, including SLAs, OKRs, [L&R Support Priority Issues list for Fulfillment](/handbook/support/license-and-renewals/workflows/managing_product_issues/#supports-issue-list-for-fulfillment), technical debt, and more to set priorities.
 
 We aim to maximize business value by balancing short-term, mid-term, and long-term investments across new initiatives and technical debt. At GitLab, we target an overall company allocation of 60% for new product development and 40% for technical debt and maintenance. However, this 60/40 split is flexible and may vary across different groups and sections over time.
 
@@ -364,7 +364,7 @@ The MRs must meet the following criteria:
 In addition to the approval rules, MRs may require additional reviews as suggested by the [Danger bot](https://docs.gitlab.com/ee/development/dangerbot.html):
 
 1. Modifications to the DB require database reviewer and maintainer approval
-1. Security-related issues (such as changes to authentication) require a [Security review](/handbook/security/product-security/application-security/appsec-reviews.html#adding-features-to-the-queue)
+1. Security-related issues (such as changes to authentication) require a [Security review](/handbook/security/product-security/application-security/appsec-reviews/#adding-features-to-the-queue)
 1. Changes to the SFDC APIs require review by the [Sales team](/handbook/sales/field-operations/sales-systems/)
 1. Changes to the Zuora APIs require review by the [EntApps team](/handbook/business-technology/enterprise-applications/)
 1. Changes to the user experience require a [UX Review](/handbook/product/ux/product-designer/mr-reviews/).
@@ -505,7 +505,7 @@ Planned/automated test cases in the CustomersDot project can be found [here](htt
 
 The CustomersDot has different types of tests running:
 
-1. Linting and [rubocop](https://github.com/rubocop-hq/rubocop) jobs
+1. Linting and [rubocop](https://github.com/rubocop/rubocop) jobs
 1. Unit tests (specs, these could be of many types, such as controller specs)
 1. Integration tests (specs, mocking external calls)
 1. Frontend tests
@@ -519,7 +519,7 @@ Any test failure is notified to #s_fulfillment_status including a link to the pi
 
 #### Access review
 
-Fulfillment Engineering's Engineering Managers and Senior Leadership are responsible for the Fulfillment system (e.g., CustomersDot) access review on a quarterly basis. We use the following guidance to perform [access reviews](/handbook/security/security-assurance/security-compliance/access-reviews.html), `access for systems will be reviewed based on the job roles and departments`. As such, reviewers use their best judgement when evaluating the list of team members who currently have access while evaluating their current roles and department associations.
+Fulfillment Engineering's Engineering Managers and Senior Leadership are responsible for the Fulfillment system (e.g., CustomersDot) access review on a quarterly basis. We use the following guidance to perform [access reviews](/handbook/security/security-assurance/security-compliance/access-reviews/), `access for systems will be reviewed based on the job roles and departments`. As such, reviewers use their best judgement when evaluating the list of team members who currently have access while evaluating their current roles and department associations.
 
 The following list contains some of the standard departments and teams who should retain access:
 
@@ -856,7 +856,7 @@ See the [Fulfillment Section DIB page](/handbook/engineering/development/fulfill
 
 ## Performance indicators
 
-See the [Fulfillment Section Performance Indicators](/handbook/engineering/development/performance-indicators/fulfillment/) as well as the
+See the [Fulfillment Section Performance Indicators](https://internal.gitlab.com/handbook/company/performance-indicators/product/fulfillment-section/#regular-performance-indicators) as well as the
 [Centralized Engineering Dashboards](/handbook/product/groups/product-analysis/engineering/dashboards/).
 
 ## Maintainer ratios
@@ -927,7 +927,7 @@ Google groups can be used for easily sending calendar invites to members of the 
 
 1. The [s_fulfillment](https://app.slack.com/client/T02592416/CMJ8JR0RH) slack channel can be used to ask all product, engineering, and Fulfillment processes related questions.
 1. When your question has been answered, please react with the ✅ (`:white_check_mark:`) Slack emoji to the original question so that team members know that it has been answered and they do not need to look at it any longer.
-1. For urgent support issues, please follow the [STAR escalation](/handbook/support/internal-support/support-ticket-attention-requests.html#requesting-an-escalation) strategy.
+1. For urgent support issues, please follow the [STAR escalation](/handbook/support/internal-support/support-ticket-attention-requests/#requesting-an-escalation) strategy.
 1. For [internal support requests](/handbook/support/internal-support/#internal-requests) regarding licensing, subscriptions, trials, grace period extensions, or any requests involving a customer, please fill out the [internal request form](https://support-super-form-gitlab-com-support-support-op-651f22e90ce6d7.gitlab.io/).
 1. For general licensing and subscription questions, check out the [#support_licensing-subscription](https://app.slack.com/client/T02592416/C018C623KBJ) Slack channel.
 

@@ -35,7 +35,7 @@ See <https://gitlab.com/gitlab-org/gitlab/tree/master/qa#how-can-i-use-it> for m
 - `cd qa`
 - `bundle`
 - `brew cask <install|reinstall> chromedriver`
-- `bundle exec bin/qa Test::Instance::All http://0.0.0.0:3000 -- qa/specs/features/ee/browser_ui/1_manage/project/project_templates_spec.rb`
+- `bundle exec bin/qa Test::Instance::All https://0.0.0.0:3000 -- qa/specs/features/ee/browser_ui/1_manage/project/project_templates_spec.rb`
 
 To run the QA specs in RubyMine, use a custom rspec runner configuration (right click on the arrow next to the example in the gutter), and set the `qa/bin/rubymine` script as the custom RSpec runner script, and the working directory as `qa`.
 
@@ -96,7 +96,7 @@ Assume this situation:
 1. `first` MR and branch is based off of the `master` (`main`) branch, and has some commits.
 1. `second` MR and branch is based off of the `first` branch, and has some commits.
 1. `first` branch has been rebased off of `master`.
-1. This means that the `first` branch's commit's SHAs have changed, and thus the SHAs for those commits in the `second` branch are outdated.  
+1. This means that the `first` branch's commit's SHAs have changed, and thus the SHAs for those commits in the `second` branch are outdated.
 
 This is where `--onto` comes in handy. If you simply tried to rebase `second` directly on to of `first`, you would get a lot of confusing rebase conflicts that didn't make sense, because the "history" or state of the `first` branch has changed compared to what the `second` branch currently knows about.
 
@@ -116,7 +116,7 @@ Here's how:
 
 ### Interactive Git Learning Tools
 
-- [http://onlywei.github.io/explain-git-with-d3/](http://onlywei.github.io/explain-git-with-d3/) is a very cool sandbox site that takes you through tutorials of various git commands, with a real-time visualization of what is going on.  You can also type your own commands outside of the tutorial instructions in many cases!
+- [https://onlywei.github.io/explain-git-with-d3/](https://onlywei.github.io/explain-git-with-d3/) is a very cool sandbox site that takes you through tutorials of various git commands, with a real-time visualization of what is going on.  You can also type your own commands outside of the tutorial instructions in many cases!
 - [https://ndpsoftware.com/git-cheatsheet.html](https://ndpsoftware.com/git-cheatsheet.html) is a great reference and visualization of the various git commands grouped into different "areas" in git.
 
 ### Squashing down a branch which has had master merged into it
@@ -241,7 +241,7 @@ Depending on your existing habits and `git` practices the habits below may help 
 
 About testing:
 
-- Vue test utils guide: <https://vue-test-utils.vuejs.org/guides/>
+- Vue test utils guide: <https://v1.test-utils.vuejs.org/guides/>
 - Book: The way of the web tester: <https://pragprog.com/titles/jrtest/>
 - An essay on mocks: <https://martinfowler.com/articles/mocksArentStubs.html>
 - Clean architecture book: <https://www.amazon.com/Clean-Architecture-Craftsmans-Software-Structure/dp/0134494164>

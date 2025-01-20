@@ -18,6 +18,16 @@ Team members can reach the AppSec team by:
 - Asking in `#sec-appsec` or mentioning `@appsec-team` on Slack
 - For cross team collaboration improvement opportunities, use [this template for collaboration improvement opportunities](https://gitlab.com/gitlab-com/gl-security/product-security/appsec/appsec-team/-/issues/new?issuable_template=cross-team-collaboration-improvement)
 
+## PTO
+
+Team members that are taking PTO for 5 days or more [must create a PTO coverage issue](https://gitlab.com/gitlab-com/gl-security/product-security/appsec/appsec-team/-/issues/new?issuable_template=pto_coverage) to organise their coverage during their time off. The PTO coverage issue should :
+
+- List any potential requests that could come to the team while on PTO
+- The team member taking PTO shoud organise their work accordingly and ensure the PTO coverage issue contains the context required to handle the work
+- Assign primary and secondary responsible team members
+
+AppSec team members should add any important information related to the work they are covering for the person on PTO and AppSec manager(s) should add any important announcement to see upon their return.
+
 ## Application Security Roadmap
 
 Please see the [Product Security Program Strategy document](https://docs.google.com/document/d/1Mba9ZhuVr2qBkvR7AqzNTUFMUTapJqiXkPUqc9Gr8io/edit).
@@ -62,7 +72,7 @@ Please see the [Root Cause Analysis for Critical Vulnerabilities page](/handbook
 
 ## Application Security Engineer Runbooks
 
-Please see the [Application Security Engineer Runbooks page index](runbooks})
+Please see the [Application Security Engineer Runbooks page index](runbooks)
 
 ## Meeting Recordings
 

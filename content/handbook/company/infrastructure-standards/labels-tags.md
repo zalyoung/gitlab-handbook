@@ -35,11 +35,11 @@ In labels and tags for specific realms should be prefixed with the realm prefix.
 
 Please see the realm label and tag handbook pages for labels and tags specific to the realm.
 
-- [infra-shared-services](/handbook/infrastructure-standards/realms/infra-shared-services/labels-tags)
-- [it](/handbook/infrastructure-standards/realms/it/labels-tags)
-- [saas](/handbook/infrastructure-standards/realms/saas/labels-tags)
+- [infra-shared-services](/handbook/company/infrastructure-standards/realms/infra-shared-services/labels-tags)
+- [it](/handbook/company/infrastructure-standards/realms/it/labels-tags)
+- [saas](/handbook/company/infrastructure-standards/realms/saas/labels-tags)
 - [sandbox](/handbook/company/infrastructure-standards/realms/sandbox/labels-tags)
-- [security](/handbook/infrastructure-standards/realms/security/labels-tags)
+- [security](/handbook/company/infrastructure-standards/realms/security/labels-tags)
 
 ### Design Decisions and Change Log
 
@@ -50,7 +50,7 @@ Here is a summary of changes made during the design of these standards based on 
 - We have renamed `gl_department` to `gl_dept` to allow it to be shorter as a prefix for `gl_dept_group`.
 - We have renamed `gl_team` to `gl_dept_group` based on feedback about the ambiguity of `team` and the remapping that we did in the spreadsheet that most departments have groups/teams but none have sub-groups other than engineering which has the sub-department/stage (Ex. `Dev` - `Plan`) organizational hierarchy. The engineering sub-department is not used in our label/tag structure.
 - We have added `gl_product_stage`. Earlier iterations used `gl_stage` however the term `stage` is ambiguous so we identify it as the product stage.
-- We have abbreviated all values to allow for easier prefixing using industry recognizable abbreviations. We use full words where an abbreviation is not universally recognizable. For OKTA integration, we remap values from BambooHR to their short names that we use for infrastructure.
+- We have abbreviated all values to allow for easier prefixing using industry recognizable abbreviations. We use full words where an abbreviation is not universally recognizable. For OKTA integration, we remap values from Workday to their short names that we use for infrastructure.
 - We removed `gl_owner_username` since GitLab.com usernames can have characters not allowed cloud provider labels and tags.
 - We renamed `gl_owner_email` to `gl_owner_email_handle` to provide clarity of the value that is expected.
 - We have removed `gl_owner_slack_id` since we won't perform any action from a cloud resource and will use owner lookup in separate tools using `gl_owner_email_handle`.
@@ -332,9 +332,9 @@ See the [GitLab Mailing addresses](/handbook/company/visiting/) for details abou
 | `eng-infra`        | (Placeholder for future use)   |
 | `eng-security`     | (Placeholder for future use)   |
 | `eng-support`      | (Placeholder for future use)   |
-| `sandbox`          | The GitLab entity that the team member is associated with in BambooHR. |
+| `sandbox`          | The GitLab entity that the team member is associated with in Workday. |
 
-### BambooHR Mapping
+### Workday Mapping
 
 During testing of OKTA integration, this field is populating additional values we did not expect (ex. `safeguard-italy`, `federal`). This is documented in [www-data/data/entity_mapper.yml](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/data/entity_mapper.yml) and we will map the respective entities to our cost center entities listed.
 
@@ -348,7 +348,7 @@ This label/tag is required.
 gl_dept: eng-dev
 ```
 
-We have abbreviated all values to allow for easier prefixing using industry recognizable abbreviations. We use full words where an abbreviation is not universally recognizable. For OKTA integration, we use YAML data file to remap values from BambooHR to their short names that we use for infrastructure. You can see a quick reference in the table below.
+We have abbreviated all values to allow for easier prefixing using industry recognizable abbreviations. We use full words where an abbreviation is not universally recognizable. For OKTA integration, we use YAML data file to remap values from Workday to their short names that we use for infrastructure. You can see a quick reference in the table below.
 
 ### Expected Values
 
@@ -417,8 +417,8 @@ For GitLab SaaS and infrastructure cost allocation or attribution, the Engineeri
 | `eng-dev-package`      | [Package Stage](/handbook/product/categories/#package-stage)             |
 | `eng-dev-deploy`       | [Deploy Stage](/handbook/product/categories/#deploy-stage)               |
 | `eng-dev-monitor`      | [Monitor Stage](/handbook/product/categories/#monitor-stage)             |
-| `eng-dev-secure`       | [Secure Stage](/handbook/product/categories/#secure-stage)               |
-| `eng-dev-govern`       | [Govern Stage](/handbook/product/categories/#govern-stage)               |
+| `eng-dev-secure`       | [Secure Stage](/handbook/product/categories/#sec-section)               |
+| `eng-dev-govern`       | [Software Supply Chain Security Stage](/handbook/product/categories/#software-supply-chain-security-stage) |
 | `eng-dev-growth`       | [Growth Stage](/handbook/product/categories/#growth-stage)               |
 | `eng-dev-fulfillment`  | [Fulfillment Stage](/handbook/product/categories/#fulfillment-stage)     |
 | `eng-dev-enablement`   | [Enablement Stage](/handbook/product/categories/#enablement-stage)       |
@@ -466,7 +466,7 @@ You can get an editable version of this table in the [spreadsheet](https://docs.
 If a group listed below does not have a group documentation link, it is safe to assume that a AWS account or GCP project has not been created for that group yet. Please follow the instructions for provisioning the group (TODO).
 {{% /alert %}}
 
-<!-- To add group documentation, please add a link to a new page [Group Documentation](/handbook/infrastructure-standards/realms/{realm_name}/groups/{gl_dept_group}) -->
+<!-- To add group documentation, please add a link to a new page [Group Documentation](/handbook/company/infrastructure-standards/realms/{realm_name}/groups/{gl_dept_group}) -->
 
 The full list of groups was last audited and updated on 2021-07-22.
 
@@ -746,7 +746,7 @@ This label/tag is required for resources that store data (databases, storage buc
 gl_data_classification: red
 ```
 
-Values should match the documented [Data Classification Levels](/handbook/security/data-classification-standard.html#data-classification-levels) with all lowercase value (for cloud provider tag and label consistency).
+Values should match the documented [Data Classification Levels](/handbook/security/data-classification-standard/#data-classification-levels) with all lowercase value (for cloud provider tag and label consistency).
 
 ### Expected Values
 

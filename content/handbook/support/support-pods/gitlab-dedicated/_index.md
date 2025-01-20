@@ -16,7 +16,7 @@ Enable others within the Support Team to answer GitLab Dedicated tickets.
 ## Support Pod members
 
 - Overall/AMER lead: {{< member-by-name "Brie Carranza" >}} (`@bcarranza`)
-- Co-lead: {{< member-by-name "Wei-Meng Lee" >}} (`@weimeng`)
+- Co-lead: {{< member-by-name "Wei-Meng Lee" >}} (`@weimeng-gtlb`)
 - APAC lead: {{< member-by-name "Daphne Kua" >}} (`@dkua1`)
 - EMEA lead: {{< member-by-name "Armin Hergenhan" >}} (`@ahergenhan`)
 - US Gov lead: {{< member-by-name "Wade Jenkins" >}} (`@wwjenkins`)
@@ -26,6 +26,7 @@ Enable others within the Support Team to answer GitLab Dedicated tickets.
 - {{< member-by-name "Brenda Nyaringita" >}} (`@bnyaringita`)
 - {{< member-by-name "Segolene Bouly" >}} (`@sbouly`)
 - {{< member-by-name "Sam Bernal-Damasco" >}} (`@definitelynotsam`)
+- {{< member-by-name "Luminus Alabi" >}} (`@lalabi`)
 
 ## Collaboration channels
 
@@ -51,10 +52,10 @@ Check the GitLab Support Google Calendar for the events and add yourself to the 
 
 ## Useful Links
 
-- [GitLab Dedicated Handbook](/handbook/support/workflows/dedicated.html)
+- [GitLab Dedicated Handbook](/handbook/support/workflows/dedicated/)
   - This handbook is located in the [Support Workflows](/handbook/support/workflows/) and is a great starting point for more information when working GitLab Dedicated tickets
 - See the training module for [GitLab Dedicated](https://gitlab.com/gitlab-com/support/support-training/-/blob/master/.gitlab/issue_templates/GitLab%20Dedicated.md) in the [Support Training](https://gitlab.com/gitlab-com/support/support-training) project.
-- Read about [working with logs](/handbook/support/workflows/dedicated.html#working-with-logs) when handling tickets for GitLab Dedicated.
+- Read about [working with logs](/handbook/support/workflows/dedicated/#working-with-logs) when handling tickets for GitLab Dedicated.
 - Review the [features _not_ in GitLab Dedicated](https://docs.gitlab.com/ee/subscriptions/gitlab_dedicated/#features-that-are-not-available) as these are almost as important as [the features in GitLab Dedicated](https://docs.gitlab.com/ee/subscriptions/gitlab_dedicated/#available-features)
 
 ## ℹ️  Stay Informed

@@ -70,7 +70,7 @@ When you're not tackling difficult customer challenges, you'll have a lot of fre
 
 ## Requirements
 
-You should [apply](https://boards.greenhouse.io/gitlab) if:
+You should [apply](https://job-boards.greenhouse.io/gitlab) if:
 
 ### You've got the personality
 
@@ -225,7 +225,7 @@ Support Engineers have the following job-family Performance Indicators.
 - [Customer satisfaction with Support](/handbook/support/performance-indicators/#support-satisfaction-ssat)
 - [Maintain at least average monthly tickets](/handbook/support/performance-indicators/#average-daily-tickets-closed-per-support-team-member)
 - [Service Level Agreement](/handbook/support/performance-indicators/#service-level-agreement-sla)
-- [Ticket deflection through documentation updates](/handbook/support/workflows/how-to-respond-to-tickets.html#improving-the-customer-experience-through-ticket-deflection)
+- [Ticket deflection through documentation updates](/handbook/support/workflows/how-to-respond-to-tickets/#improving-the-customer-experience-through-ticket-deflection)
 
 ## Hiring Process
 

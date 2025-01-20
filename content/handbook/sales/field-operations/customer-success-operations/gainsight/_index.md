@@ -117,7 +117,7 @@ These are some notable custom objects that we have created in Gainsight:
 
 ## Gainsight connectors and integrations
 
-The [Gainsight connectors](https://support.gainsight.com/Gainsight_NXT/03Connectors) are the main way we pull data from other systems into Gainsight. We have connectors set up for the following external systems:
+The [Gainsight connectors](https://support.gainsight.com/gainsight_nxt/Connectors) are the main way we pull data from other systems into Gainsight. We have connectors set up for the following external systems:
 
 - Zendesk
 - Snowflake
@@ -151,9 +151,10 @@ Username and password are saved in Jeff Beaumont's 1Password account. If you nee
 
 ### Salesforce Connector
 
-`Connectors` is used as one of the main import methods of data from Salesforce to Gainsight, and is a native integration that exists between the two systems. The connector is authenticated using a Gainsight Integration user in our Salesforce instance. More information in regards to the connector and how to set it up in the [Gainsight Knowledge Base](https://support.gainsight.com/Gainsight_NXT/01Onboarding_and_Implementation/Onboarding_for_Gainsight_NXT_in_Salesforce/Salesforce_Connector/Salesforce_Connector_Overview).
+`Connectors` is used as one of the main import methods of data from Salesforce to Gainsight, and is a native integration that exists between the two systems. The connector is authenticated using a Gainsight Integration user in our Salesforce instance. More information in regards to the connector and how to set it up in the [Gainsight Knowledge Base](https://support.gainsight.com/gainsight_nxt/Connectors/CRM_Integrations/Salesforce_Connector).
 
 `Connectors` is used between our Salesforce and Gainsight instances to sync these objects:
+
 | Job Name               | SFDC Object           | Gainsight Object      |
 | ---------------------- | --------------------- | --------------------- |
 | SFDC Account Sync      | Account               | Company               |
@@ -289,7 +290,7 @@ To see the complete list of fields and objects that are synced back from Gainsig
 
 ## Gainsight rules engine
 
-The [rules engine](https://support.gainsight.com/Gainsight_NXT/03Rules_Engine) is the main automation tool in Gainsight, and allows us to do a variety of actions including bring in and/or send data to other systems, populate field values, create CTAs, set scores, and many others.
+The [rules engine](https://support.gainsight.com/gainsight_nxt/03Rules_Engine) is the main automation tool in Gainsight, and allows us to do a variety of actions including bring in and/or send data to other systems, populate field values, create CTAs, set scores, and many others.
 
 We have a team email address cs-ops@gitlab.com that we use for rule failure emails in Gainsight.
 
@@ -360,8 +361,8 @@ When an account record is deleted or merged in Salesforce, the matching record i
 
 The following reports are located on the CS Ops dashboard in Gainsight. They are also scheduled to be emailed to the CS Ops email address every Monday morning so that a member of the team can be reminded to review them weekly.
 
-- `Accounts Flagged to Merge`: This report identifies accounts where the `Merged?` field is checked. The accounts that appear on this report need to be reviewed and merged with the correct account. This can be done in the Data Operations section in Gainsight by filtering to accounts where `Merge?` = Yes. More instructions on merging accounts in Gainsight can be found on the [Gainsight documentation website](https://support.gainsight.com/Gainsight_NXT/02Data_Management/02Managing_Data_In_Gainsight/Company_Merge).
-- `Accounts Flagged to Delete`: This report identifies accounts where the `Delete?` field is checked. These accounts need to be deleted completely from Gainsight. This can be done in the Data Operations section in Gainsight by filtering to accounts where `Delete?` = Yes. More instructions on deleting accounts in Gainsight can be found on the [Gainsight documentation website](https://support.gainsight.com/Gainsight_NXT/02Data_Management/03Gainsight_Standard_Objects/01Data_Operations#Delete_Records).
+- `Accounts Flagged to Merge`: This report identifies accounts where the `Merged?` field is checked. The accounts that appear on this report need to be reviewed and merged with the correct account. This can be done in the Data Operations section in Gainsight by filtering to accounts where `Merge?` = Yes. More instructions on merging accounts in Gainsight can be found on the [Gainsight documentation website](https://support.gainsight.com/gainsight_nxt/02Data_Management/Managing_Data_in_Gainsight/Company_Merge).
+- `Accounts Flagged to Delete`: This report identifies accounts where the `Delete?` field is checked. These accounts need to be deleted completely from Gainsight. This can be done in the Data Operations section in Gainsight by filtering to accounts where `Delete?` = Yes. More instructions on deleting accounts in Gainsight can be found on the [Gainsight documentation website](https://support.gainsight.com/gainsight_nxt/02Data_Management/Managing_Data_in_Gainsight/Data_Operations_-_Old#Delete_Records).
 
 #### GS Admin quick tip on resetting dashboards
 
