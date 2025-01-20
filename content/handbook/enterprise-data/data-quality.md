@@ -358,7 +358,7 @@ We use dbt for all transformations in the warehouse. [We require tests on all ne
 
 ### Data Quality Incidents
 
-##### Resulting in Permanently Lost Data
+#### Resulting in Permanently Lost Data
 
 | Line | Issue | Impacted Data Source | Impact                                                                                                                            | Impact Window                                                                             |
 |------| --- | --- |-----------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------|
@@ -368,8 +368,7 @@ We use dbt for all transformations in the warehouse. [We require tests on all ne
 | 4.   | [Service Pings not mapped to country Feb 2023 - June 2023](https://gitlab.com/gitlab-data/analytics/-/issues/15980) | SM Service Ping | Service pings from `2023-02-21` to `2023-06-21` have a null `dim_location_country_id`                                             | `2023-02-21` to `2023-06-21`                                                              |
 | 5.   | [Snowplow endpoint certificate expired for six hours](https://gitlab.com/gitlab-org/gitlab/-/issues/470639) | Snowplow | No Snowplow events recorded for six hours                                                                                         | `2024-07-03 23:59:59 - 2024-07-04 05:59:59`                                               |
 
-
-##### Resulting in updating data
+#### Resulting in updating data
 | Line | Issue | Impacted Data Source | Impact                                                                                                                            | Impact Window                                                                             |
 |------| --- | --- |-----------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------|
 | 1.   | [2024-10-11 - 2024-10-16 missing Snowplow events (gitlab_saas_duo_pro_namespace_ids)](https://gitlab.com/gitlab-data/analytics/-/issues/21943) | Snowplow | Wrong format for the column `gitlab_saas_duo_pro_namespace_ids` (no big impact, column was formatted as string instead of number) | `2024-10-11` - `2024-10-16`                                                               |
