@@ -369,6 +369,7 @@ We use dbt for all transformations in the warehouse. [We require tests on all ne
 | 5.   | [Snowplow endpoint certificate expired for six hours](https://gitlab.com/gitlab-org/gitlab/-/issues/470639) | Snowplow | No Snowplow events recorded for six hours                                                                                         | `2024-07-03 23:59:59 - 2024-07-04 05:59:59`                                               |
 
 #### Resulting in updating data
+
 | Line | Issue | Impacted Data Source | Impact                                                                                                                            | Impact Window                                                                             |
 |------| --- | --- |-----------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------|
 | 1.   | [2024-10-11 - 2024-10-16 missing Snowplow events (gitlab_saas_duo_pro_namespace_ids)](https://gitlab.com/gitlab-data/analytics/-/issues/21943) | Snowplow | Wrong format for the column `gitlab_saas_duo_pro_namespace_ids` (no big impact, column was formatted as string instead of number) | `2024-10-11` - `2024-10-16`                                                               |
