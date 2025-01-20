@@ -111,7 +111,7 @@ The workspace is the layer in the data warehouse where development and explorati
 
 - We use Lucidchart's [ER diagram template](https://www.lucidchart.com/pages/er-diagrams) to build [Enterprise Entity Relationship Diagram](https://lucid.app/lucidchart/12ee91c1-7ae5-4e99-96ae-bc51652dfa19/view?page=B47EyN20O.G6#) source.
 
-A Step-by-Step process of creating an ERD using Lucidchart can be found [here](/handbook/enterprise-data/platform/edw/##create-entity-relationship-(er)-diagrams-using-lucidchart).
+A Step-by-Step process of creating an ERD using Lucidchart can be found [here](#create-entity-relationship-(er)-diagrams-using-lucidchart).
 
 <div style="width: 640px; height: 480px; margin: 10px; position: relative;"><iframe allowfullscreen frameborder="0" style="width:640px; height:480px" src="https://lucid.app/documents/embeddedchart/12ee91c1-7ae5-4e99-96ae-bc51652dfa19" id="jBktl-f497ew"></iframe></div>
 
@@ -161,8 +161,7 @@ These diagrams provide the relationships between data objects in the Enterprise 
 
 Dimensional modeling is part of the Business Dimensional Lifecycle methodology developed by [Ralph Kimball](https://en.wikipedia.org/wiki/Ralph_Kimball) which includes a set of methods, techniques and concepts for use in data warehouse design.
 
-*a logical design technique that seeks to present the data in a standard, intuitive framework that allows for high-performance access*
-
+_a logical design technique that seeks to present the data in a standard, intuitive framework that allows for high-performance access_
 Dimensional Modeling is business process oriented and can be built in 4 steps:
 
 1. Choose the business process e.g. track monthly revenue
@@ -288,7 +287,7 @@ At GitLab, we standardize the definition of 'first day of week' across all our s
 
 ###### Key Points
 
-- The week starts on *Monday* and ends on *Sunday*.
+- The week starts on _Monday_ and ends on _Sunday_.
 - This aligns with the `DATE_TRUNC` function output when used with the 'week' parameter.
 - This standard is consistent with many functional analyst teams' practices.
 
@@ -647,11 +646,11 @@ We think about dbt model runs along 3 major dimensions: performance, efficiency,
 
 The scope of this Analytics Performance Policy at this time is specifically focused on the performance of models. In the future, we will consider adding a separate efficiency and cost policy that would roll-up to an overall Analytics Scalability Policy.
 
-*The Analytics Performance Policy is only considering the data transformations and does not consider retention of data that is extracted and loaded towards the RAW database of the EDW. For the time being, the policy assumes we will keep all data in the RAW database and we will not delete data. After a data retention policy is implemented in the future, we would reevaluate and iterate on this Analytics Performance Policy that focuses on the Transformation layer of the EDW. The alignment that is reached with the Functional Teams in this Analytics Performance Policy will be used to influence a data retention policy on the RAW database in Snowflake.*
+_The Analytics Performance Policy is only considering the data transformations and does not consider retention of data that is extracted and loaded towards the RAW database of the EDW. For the time being, the policy assumes we will keep all data in the RAW database and we will not delete data. After a data retention policy is implemented in the future, we would reevaluate and iterate on this Analytics Performance Policy that focuses on the Transformation layer of the EDW. The alignment that is reached with the Functional Teams in this Analytics Performance Policy will be used to influence a data retention policy on the RAW database in Snowflake._
 
 ### Performance Targets
 
-*These initial performance targets were created to allow the daily dbt model production run to finish within an 8 hour working day and provide for the run to be triaged within a working day. The Snowflake query time targets were created to make incremental improvements from several minutes query times to 1 minute to provide for a more productive and delightful querying experience in Snowflake. These targets are subject to change in the future as we continue to improve performance and receive new business requirements.*
+_These initial performance targets were created to allow the daily dbt model production run to finish within an 8 hour working day and provide for the run to be triaged within a working day. The Snowflake query time targets were created to make incremental improvements from several minutes query times to 1 minute to provide for a more productive and delightful querying experience in Snowflake. These targets are subject to change in the future as we continue to improve performance and receive new business requirements._
 
 1. Reduce dbt model production run time from 12 hours to 8 hours. Assumes we do not scale up and keep using a XL size warehouse. Assumes we can scale out with using more concurrent threads running at the same time.
 1. Individual dbt model run time is consistently between 30 minutes to 1 hour maximum per model, overtime as data volumes continue to increase.
