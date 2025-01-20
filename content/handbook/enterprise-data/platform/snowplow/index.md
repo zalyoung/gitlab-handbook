@@ -295,3 +295,14 @@ Our snowplow tracking configuration and particular implementations respect the [
 #### Duo data redaction
 
 We only keep Duo free form feedback for 60 days in snowflake. This is managed by the [duo_data_redaction DAG](https://gitlab.com/gitlab-data/analytics/-/blob/master/dags/general/duo_data_redaction.py), which runs daily, removing contents of the `extendedFeedback` attribute in the `contexts` column for all feedback response Snowplow events in `RAW` and `PREP`. This timeline allows for our full-refresh process to complete, updating all downstream data, within 90 days for compliance.
+
+
+#### Data fixing
+
+Here is the list of issus where data are fixed
+
+##### Pseudonymize page_url_path in Snowflake and s3 bucket
+
+Issues:
+1. [Snowflake: Pseudonymize page_url_path in Snowflake and s3 bucket](https://gitlab.com/gitlab-data/analytics/-/issues/22197)
+1. [s3: Pseudonymize page_url_path in Snowflake and s3 bucket](https://gitlab.com/gitlab-data/analytics/-/issues/22351)
