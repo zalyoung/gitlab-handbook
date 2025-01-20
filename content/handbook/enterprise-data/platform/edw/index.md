@@ -111,7 +111,7 @@ The workspace is the layer in the data warehouse where development and explorati
 
 - We use Lucidchart's [ER diagram template](https://www.lucidchart.com/pages/er-diagrams) to build [Enterprise Entity Relationship Diagram](https://lucid.app/lucidchart/12ee91c1-7ae5-4e99-96ae-bc51652dfa19/view?page=B47EyN20O.G6#) source.
 
-A Step-by-Step process of creating an ERD using Lucidchart can be found [here](#create-entity-relationship-(er)-diagrams-using-lucidchart).
+A Step-by-Step process of creating an ERD using Lucidchart can be found [here](#create-entity-relationship-er-diagrams-using-lucidchart). 
 
 <div style="width: 640px; height: 480px; margin: 10px; position: relative;"><iframe allowfullscreen frameborder="0" style="width:640px; height:480px" src="https://lucid.app/documents/embeddedchart/12ee91c1-7ae5-4e99-96ae-bc51652dfa19" id="jBktl-f497ew"></iframe></div>
 
