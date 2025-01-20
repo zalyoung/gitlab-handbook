@@ -45,8 +45,6 @@ description: "This page discusses the Internal Hiring Process"
   - Some suggestions for transition timelines include:
     - Aiming for between 4-6 weeks for an official transition date to ensure the team with the backfill has lead time on filling the position
     - A one month 50/50 split between teams to ease into a full time transition. For any moves from Sales Development, please be aware the team requests a 45 day transition period from the date of a verbal offer
-- At the offer stage, the Recruiter will submit a request via [HelpLab](https://helplab.gitlab.systems/esc?id=emp_taxonomy_topic&topic_id=2e8c3f81478c069067429ee0026d4380) to attain current compensation information for the offer
-  - When submitting the request form, under `Optional: Adding team member(s) to the Watchlist grants them access to view and comment on this request` please add the relevant [People Business Partner](https://handbook.gitlab.com/handbook/people-group/people-business-partners/#people-business-partner-alignments) so they are notified, can track the internal move and take any necessary action. 
 - Please note the following about this process:
   - TA will only start an official backfill once the role has been approved via the [Backfill Approval process](/handbook/hiring/talent-acquisition-framework/req-creation/#backfill-approvals)
   - It is the [Team Member's responsibility](/handbook/hiring/talent-acquisition-framework/internal-hiring-process/#team-member-responsibilities) to meet with their current manager to discuss the internal opportunity they’d like to pursue prior to submitting their application. Offers at the end of an internal interview process should not come as a surprise to current managers.
