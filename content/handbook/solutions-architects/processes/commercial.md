@@ -29,7 +29,7 @@ The Commercial Solutions Architecture team is a part of the global [SA Organizat
 
 ### Segment-Specific Engagement Models
 
-The SA team’s engagement is segmented by the AE role, so that the SA engagement model is aligned with the Sales Organisation's structures. [See individual AE's role, area, and segment in this report](https://gitlab.my.salesforce.com/00O8X000008RUf1)
+The SA team's engagement is segmented by the AE role, so that the SA engagement model is aligned with the Sales Organisation's structures. [See individual AE's role, area, and segment in this report](https://gitlab.my.salesforce.com/00O8X000008RUf1)
 
 #### Mid-Market
 
