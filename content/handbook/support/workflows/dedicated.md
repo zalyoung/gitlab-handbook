@@ -131,7 +131,7 @@ GitLab Dedicated uses the [Cloud Native Hybrid reference architecture](https://d
 
 If it's an emergency, [escalate the emergency](#escalating-an-emergency-issue) and contact GitLab Dedicated infrastructure team on Slack, using channel [`#g_dedicated-team`](https://gitlab.slack.com/archives/C025LECQY0M).
 
-When any changes are required besides those listed below, raise an issue in the [GitLab Dedicated issue tracker](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/team/-/issues) using a [Request for Help template](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/team/-/issues/new?issuable_template=request_for_help). Be sure that the `support::request-for-help` label is added.
+When any changes are required besides those listed below, raise [an issue with `SupportRequestTemplate-GitLabDedicated`](https://gitlab.com/gitlab-com/request-for-help/-/issues/new?issuable_template=SupportRequestTemplate-GitLabDedicated).
 
 #### Inbound (Forward) PrivateLink Request
 
