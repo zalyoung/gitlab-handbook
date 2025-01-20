@@ -6,22 +6,20 @@ title: "Enterprise Data Warehouse"
 
 The Enterprise Data Warehouse (EDW) is used for reporting and analysis. It is a central repository of current and historical data from GitLab's Enterprise Applications. We use an ELT method to Extract, Load, and Transform data in the EDW. We use Snowflake as our EDW and use [dbt](/handbook/enterprise-data/platform/dbt-guide/) to transform data in the EDW. The [Data Catalog](/handbook/enterprise-data/data-catalog/) contains Analytics Hubs, Data Guides, Data Dictionaries, and Analysis for the data models built in the EDW.
 
-### Staging
+The EDW is viewed as a series of layers. With five consecutive layers, where data progresses through the layers, and one development layer where data is explored and developed.  Each layer has a purpose is the overall operation and effectiveness of the EDW.
 
-The first thing that should be done to the data is to conform the column names and data types to the GitLab standard conventions.  This will ensure that the data will have expected behavior in downstream transformations and catch malformed data as it comes into the data warehouse.  This staging is best done as close to the source of the data as possible wile still being in the data warehouse and before any other transformations take place.
-As part of conforming data types is the disposition of NULL and blank values should take place during the staging of the data.  What this means in practice is that blank values should be converted to NULL, if NULL values are not acceptable blank and NULL values should be converted to a an expected default.  This conversion will simplify join and filtering conditions is downstream transformations and ensure that comparison operations will behave as expected.
-Conforming column names helps the transforming be as self documenting as possible and will improve readability if future transformations.  Care should be taken to avoid repetitive naming across data models to improve readability.
+| Layer       | Purpose                                                                                                       | Example Schema             |
+|-------------|---------------------------------------------------------------------------------------------------------------|----------------------------|
+| Landing     | Loads from Source Systems<br>Generated non-idempotent data                                                    | _raw.salesforce_v2_stitch_ |
+| Staging     | Column Name and Data Type Standardization<br>Filtering and Deduplication (Cleansing)                          | _prep.salesforce_          |
+| Preparation | Steps and Transformations in Motion<br>Application of Generic Business Logic                                  | _prod.common_prep_         |
+| Model       | Polished Product<br>Enterprise Dimensional Model<br>Function Data Models<br>Trusted, Validated, and Supported | _prod.common_              |
+| Semantic    | Logical and Physical Constructs<br>Point of Entry for Reports and Analysis                                    | _prod.common_mart_         |
+| Workspace   | In Process Development<br>Discovery<br>Rapid Iteration                                                        | _prod.workspace_sales_     |
 
-### Preparation
+More details about the activities performed in each layer can be found the [Layers](#layers) section.
 
-The next set of transformations encompass filtering malformed records, creating calculated fields, and deriving fields and records.  These transformations should be the result of applying known business logic as well as administrate and quality tests.  Doing these transformations separately from the staging steps help to improve maintainability and readability allowing the developer to quickly and easily identify where a change should be to apply a fix or improvement.  In many cases all of these transformations can be performed in a single data model. However; separate, and preferably sequential, data models can be used when doing so increase readability or maintainability of the given transformations.
-In the case where records need to be derived, such as fanning our date interval data, it is generally best to delay for as long as possible in deference to potential performance issues that can arise from significantly expanding the records count of a data model.  Deriving fields, in contrast to calculating fields, requires a combination of multiped data models to accomplish and the best place to perform this combination is where it will add the least complexity and increase the size of the data set the least.  While this is not a strict sequence of operations, following these guidelines should produce a performant, readable, and maintainable data model.
-
-### Modeling
-
-With the preparation steps complete the final action is to model the data with the final selection of fields and records for the target data model.  This may require additional joins, filtering, and filed calculation depending on the type of model being produced.  The transformations in this step should be derived form specific business requirements that could not be applied at a more brad scale and should drive to a specific business use case.
-
-### Importat Schemas
+### Important Schemas
 
 The Production Database in the EDW is used for reporting and analysis by Data Consumers at GitLab. It is composed of 4 major schemas which are `COMMON_`, `SPECIFIC`, `LEGACY_` and `WORKSPACE_` schemas. Below are descriptions of each Schema:
 
@@ -38,6 +36,68 @@ The Production Database in the EDW is used for reporting and analysis by Data Co
     - Snowplow
     - GitLab.com
 legacy folders. As of 2024-10-23, we have made significant progress on the goal, with all critical analyses that use these 5 data sources running off the EDM. We still have 75+ non-critical gitlab.com legacy tables to migrate. Going forward, with the exception of the gitlab.com legacy tables, deprecation of legacy models will no longer be a strategic priority. Instead, we will use P3-Other bandwidth to create new EDM replacements and deprecate legacy models. We accept that for the foreseeable future, there will be a long tail of legacy models where the costs to deprecate are not justified by the benefits of deprecation, that will persist in the legacy folder.
+
+## Layers
+
+### Landing
+
+The landing layer is where data from source systems are copied into the EDW.  It can contain traditional SQL tables as well as file based data.  This data is purposely left untouched from the way it is exported from the source system, this aids in monitoring and tracing the loading of data.
+
+### Staging
+
+The staging layer is where the first set of administrative transformations take place.  These transformations help to create a set of data that will behave in a known and predictable manner as well as help to conform the data to the GitLab standard conventions that make the data easier to work with. These transformations are best done as close to the source of the data as possible wile still being in the data warehouse and before any other transformations take place. Typical transformations in this layer include:
+
+**Conforming Data Types:**
+As part of conforming data types is the disposition of NULL and blank values should take place during the staging of the data.  What this means in practice is that blank values should be converted to NULL, if NULL values are not acceptable blank and NULL values should be converted to a an expected default.  This conversion will simplify join and filtering conditions is downstream transformations and ensure that comparison operations will behave as expected.
+
+**Standardizing Column Names:**
+Conforming column names helps the transforming be as self documenting as possible and will improve readability if future transformations.  Care should be taken to avoid repetitive naming across data models to improve readability.
+
+**Cleansing Data:**
+The removal of erroneous records of data, different from filtering data to answer a business question, helps to stream line downstream transformations by preventing the need of extraneous error catching logic when the data is malformed.
+
+**Flattening of Non-Tabular Data:**
+When data in the landing layer is stores in a non-tabular format it is often necessary to flatten the data so that the other staging steps can be performed. 
+
+### Preparation
+
+The preparation layer is the first place where general business logic transformations are applied to the data.  These transformations are intended to be intermediary and are to help organize the data in a way that allows for maintenance and scalability. In many cases all of these transformations can be performed in a single data model. However; separate, and preferably sequential, data models can be used when doing so increases readability or maintainability of the given transformations.  As a general rule transformations should be applied as early and on as simple version of the data as possible to improve performance of the transformation. Typical transformations in this layer include:
+
+**Calculating Fields:**
+Calculated fields are defined as being fields that did not originate in a source system but can be formed through the application of business logic to data within a single data set.
+
+**Deriving Fields:**
+Derived fields are defined as being fields that did not originate in a source system but can be formed through the application of business logic to data across multiple data sets.
+
+**Deriving Records:**
+Derived records, such as fanning out date interval data, are defined as being records that did not originate in a source system but are formed though joins or aggregations.  These transformations are used to set the analysis grain of the data.
+
+### Modeling
+
+The modeling layer is where the data is transformed in to formal structures that aim to standardize the shape of the data to facilitate maintaining and scaling the data.  These transformations are driven by business logic and adopted standards and may require additional joins, filtering, and field generation depending on the type of model being produced.  The general proactive is to minimize models and design models to sever as many reporting needs in the semantic layer as possible.  Typical transformations in this layer include:
+
+**Creating Facts and Dimensions:**
+Using the principles of Kimball dimensional modeling the data is filtered, grouped, and combined to create reusable dimensions models that describe attributes of a record. And low granularly facts representing a transaction of a business process.
+
+**Creating Big Tables:**
+A big table model aims to provide as relevant attributes of the records as possible into a single wide table.  These can use useful in incases when the data does not need to be used accords multiple source of data or if the data is excitingly large as the model redesign the downstream joins.
+
+**Creating Entitlement Tables:**
+Entitlement models aim to create list of person identifiers and join conditions that allow for granting explicit access to records of data in tools like Snowflake and Tableau.
+
+### Semantic
+
+The semantic layer is where the data is transformed in to meet the needs of business reporting.  These transformations are where the most specific business logic is applied to the data.  Typical transformations in this layer include:
+
+**Creating Mart Tables:**
+A mart table provides the records and columns necessary to answer many related business questions.  These tables may be build from the direct joins of the fact and dimension tables, materializing the dimensional modeling schemas, or by derivation from other tables from the modeling layer.  Typically, mart tables should be build from tabes in the modeling layer and not from other tables in the semantic layer.
+
+**Creating Report Tables:**
+A report table provides the records and columns necessary to answer a single business question.  Typically these tables are built from the mart tables in the semantic layer, through filtering, aggregation, and column selection. But may also be build directly from tables in the the other layers.  Columns may also be renamed to match the needs of the target report even if they names to not match the standard practices of earlier layers.
+
+### Workspace
+
+The workspace is the layer in the data warehouse where development and exploration takes place. There are no specific transformations that take place in this layer, but any transformation needed should be explored and evaluated.  Once the needed result is identified the transformation should be process through the other standard layers to improve maintenance and scalability.  Tables as the result of the transformations in the workspace do not need to conform to any standards or patterns found in the other layers, but the result should not be used to regularly answer business questions.
 
 ## Enterprise Dimensional Model (COMMON Schema)
 
