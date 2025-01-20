@@ -82,7 +82,7 @@ Passengers debriefing after a customer call should:
 
 ##### Rattle Feedback Template
 
-Record your ride along activity in Rattle as a call to **the account** (and not the opportunity) with the [appropriate activity type](/handbook/solutions-architects/processes/activity-capture/activity-desc/). Recording at the account level is required because ride alongs that are inter-segment or inter-region will not have their opportunities available to the riders.
+Record your ride along activity in Rattle as a call to **the account** (and not the opportunity) with the [appropriate activity type](/handbook/solutions-architects/processes/activity-capture/activity-logging). Recording at the account level is required because ride alongs that are inter-segment or inter-region will not have their opportunities available to the riders.
 The following can be used to guide how you record the description of your
 troops activity.
 
