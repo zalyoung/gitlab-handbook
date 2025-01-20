@@ -77,7 +77,9 @@ At least 2 references must be completed and documented in Greenhouse (one of the
 
 Hiring managers are expected to contact references by call or by email. Some managers [send the reference a brief email](https://gitlab.com/gitlab-com/people-group/hiring-processes/snippets/1933704) stating the purpose of the call and including a Calendly link so that the reference can select a convenient time. You can add a template to your Greenhouse account for quick use. Some managers also ask the candidate to reach out to their references to expect the email from the manager (as sometimes the email is ignored if the recipient is not expecting it).
 
-**For Engineering:** We require one reference (peer or manager) to be completed by either the Recruiter or Hiring Manager before being able to make an offer. Once the first reference has been completed and submitted in Greenhouse, the Hiring Manager can decide to move to offer or reach out to one of the other references provided in order to collect more data about the candidate. 
+**For Engineering:** Before extending an offer, one reference (from either a peer or manager) must be completed and documented in Greenhouse by the Recruiter. After reviewing the initial reference, the Hiring Manager can either proceed with the offer or contact additional references themselves to gather more information about the candidate.
+
+We require one reference (peer or manager) to be completed by either the Recruiter or Hiring Manager before being able to make an offer. Once the first reference has been completed and submitted in Greenhouse, the Hiring Manager can decide to move to offer or reach out to one of the other references provided in order to collect more data about the candidate. 
 
 In Greenhouse: Configure (the gear on the top right) - Email Templates - My Templates - New. Be sure to create the template as a Team Email under the Type field. If you create the email template with tokens please check the tokens were added correctly upon the first use.
 
