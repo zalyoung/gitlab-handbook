@@ -33,14 +33,39 @@ We envision a future where GitLab’s development workflows are seamless, insigh
 
 ## Core Responsibilities
 
-| **Core Responsibilities**                         | **Goals**                                                                                                                                                                                                                                                                                                                                                                                                              |
-|---------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Improve developer experience and productivity** | - ⚡ **Create intuitive dashboards, predictive analytics, and benchmarks** to enable data-driven decisions. <br> - 📊 **Track developer engagement and satisfaction** and use the data to drive process and tooling improvements. <br> - 🔄 **Optimize workflows and reduce MR cycle times.**                                                                                                                           |
-| **Enhance developer tools and processes**         | - 🤖 **Deploy self-served AI evalution tooling** to effectively utilize data for enhancing the performance of [GitLab Duo](https://about.gitlab.com/gitlab-duo/)  <br> - 🛠️ **Automate repetitive and manual tasks**, such as issue tracking and pipeline failure triage, to enhance operational efficiency. <br> - 🔧 **Develop robust self-healing systems** to ensure resilience and reliability across workflows. |
+```mermaid
+flowchart LR
+    DA[Development Analytics Team]
+    
+    DA --> MRCT[MR Cycle Time Improvement]
+    DA --> Tools[Tooling Maintenance]
+    
+    MRCT --> Analytics[Analytics & Observability]
+    MRCT --> ExecTime[Pipeline Execution Time Optimization]
+    MRCT --> ReviewEng[Review Engagement Enhancement]
+    MRCT --> PipeStab[Pipeline Stability Assurance]
+    
+    Tools --> Triage[Triage Ops]
+    Tools --> Roulette[GitLab Roulette]
+    Tools --> Danger[Dangerfiles]
+    Tools --> EPInfra[Engineering Productivity Infrastructure]
+    Tools --> CNG[CLI for Cloud Native GitLab deployment]
+
+    click Triage "https://gitlab.com/gitlab-org/quality/triage-ops"
+    click Roulette "https://gitlab.com/gitlab-org/gitlab-roulette"
+    click Danger "https://gitlab.com/gitlab-org/ruby/gems/gitlab-dangerfiles"
+    click EPInfra "https://gitlab.com/gitlab-org/quality/engineering-productivity-infrastructure"
+    click Analytics "https://gitlab.com/groups/gitlab-org/-/epics/16185"
+    click ExecTime "https://gitlab.com/groups/gitlab-org/-/epics/15989"
+    click ReviewEng "https://gitlab.com/groups/gitlab-org/-/epics/16028"
+    click PipeStab "https://gitlab.com/groups/gitlab-org/-/epics/16186"
+    click MRCT "https://gitlab.com/groups/gitlab-org/-/epics/16026"
+    click CNG "https://gitlab.com/gitlab-org/gitlab/-/tree/master/qa/gems/gitlab-cng"
+```
 
 ## Roadmap
 
-As part of our commitment to aligning with GitLab's company goals, our team conducts a thorough review of company-level Roadmap and [Objectives and Key Results (OKRs)](/handbook/company/okrs/) at the beginning of each quarter. This process ensures that our efforts are strategically focused on delivering high-impact results that contribute to the broader organizational objectives. View the [Development Analytics Roadmap](https://gitlab.com/groups/gitlab-org/-/epics/15865) for detailed insights and upcoming priorities
+As part of our commitment to aligning with GitLab's company goals, our team conducts a thorough review of company-level Roadmap and [Objectives and Key Results (OKRs)](/handbook/company/okrs/) at the beginning of each quarter. This process ensures that our efforts are strategically focused on delivering high-impact results that contribute to the broader organizational objectives. View the [Development Analytics Roadmap for FY26](https://gitlab.com/groups/gitlab-org/-/epics/16026) for detailed insights and upcoming priorities
 
 ## Dashboards
 
@@ -76,9 +101,9 @@ As part of our commitment to aligning with GitLab's company goals, our team cond
 
 | Event                        | Cadence                                                                | Agenda                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
 |------------------------------|------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| End-of-Week progress update  | Once a week (Wednesday)                                                | Summarize status, progress, ETA, and areas needing support in the weekly update in OKR issues and Epics. Examples: [FY25-Q1 Test Platform OKR 2.2](https://gitlab.com/gitlab-com/gitlab-OKRs/-/work_items/5916#note_1763638654), [FY25-Q1 TTI OKR 6](https://gitlab.com/gitlab-com/gitlab-OKRs/-/work_items/6079#note_1764535829), [Optimizing GitLab's MR Cycle Time to Enable Faster Developer Feedback Loops](https://gitlab.com/groups/gitlab-org/-/epics/16026#note_2253818833) |
-| Team meeting                 | Twice a month on Tuesday <br> Slot1 2:00 pm UTC <br> Slot2 9:30 pm UTC | Choose one of the slots based on your timezone alignment [Agenda](https://docs.google.com/document/d/1gtghZCYeg42cMbQ8mWnjBcsu4maMO4OFA0xcQ8MfRHE/edit?usp=sharing)                                                                                                                                                                                                                                                                                                                  |
-| Monthly Social Time          | Monthly on last Thursday <br> Slot1 2:00 pm UTC <br> Slot2 9:30 pm UTC | No agenda, fun gathering. Choose one of the slots based on your timezone alignment. Read [Virtual team building](/handbook/finance/expenses/#team-building)                                                                                                                                                                                                                                                                                                                          |
+| End-of-Week progress update  | Once a week (Wednesday)                                                | Summarize status, progress, ETA, and areas needing support in the weekly update in issues and Epics. We leverage [epic-issue-summaries bot](https://gitlab.com/gitlab-com/gl-infra/epic-issue-summaries) for automated status checks |
+| Team meeting | Twice a month on Tuesday 4:00 pm UTC | [Agenda](https://docs.google.com/document/d/1gtghZCYeg42cMbQ8mWnjBcsu4maMO4OFA0xcQ8MfRHE/edit?usp=sharing) |
+| Monthly Social Time          | Monthly on last Thursday 4:00 pm UTC | No agenda, fun gathering. Choose one of the slots based on your timezone alignment. Read [Virtual team building](/handbook/finance/expenses/#team-building)                                                                                                                                                                                                                                                                                                                          |
 | Quarterly Business Report    | Quarterly                                                              | Contribute to [team's success, learnings, innovations and improvement opportunities for each business quarter](https://gitlab.com/groups/gitlab-org/quality/quality-engineering/-/epics/61)                                                                                                                                                                                                                                                                                          |
 | 1:1 with Engineering Manager | Weekly                                                                 | Discuss development goals (see the [1:1 guidelines](/handbook/leadership/1-1/))                                                                                                                                                                                                                                                                                                                                                                                                      |
 | Team member's coffee chats   | once/twice a month                                                     | Optional meetings for team members to regularly connect                                                                                                                                                                                                                                                                                                                                                                                                                              |
