@@ -92,7 +92,7 @@ As you are both aware, XXX has been interviewing for the XXX role and the team i
       - SDR 12 months in role
       - SDR/BDR Team Lead 3 months in role
 - For any situations where further discussion may be needed, People Connect Leads will go to the department specific [PBP](/handbook/people-group#people-business-partner-alignment-to-division).
-- At the offer stage, should the Recruiter not have access to compensation data (due to a candidate moving Divisions for example), will submit a request via HelpLab to attain current compensation information:
+- At the offer stage, should the Recruiter not have access to compensation data (due to a candidate moving Divisions for example), they will submit a request via HelpLab to attain current compensation information:
   - People Connect checks Workday for current team member base compensation.
   - People Connect will then provide annual base compensation details in the HelpLab request. The Recruiter can then utilize this information while putting an offer together (in partnership with the hiring manager).
 
@@ -108,7 +108,7 @@ As you are both aware, XXX has been interviewing for the XXX role and the team i
 
 - Hiring Managers will be notified by Recruiter when an internal team member has applied and has completed the necessary eligibility checks as mentioned above, and they will follow the process outlined in the [Talent Acquisition Process Framework]({{< ref "talent-acquisition-framework" >}}) for all candidates.
 - If a team member moves to offer, the Recruiter will connect the Hiring Manager with the team member's current manager. Please follow the steps outlined by the Recruiter in their message via Slack (details above).
-- Hiring Manager will be provided the candidates compensation expectations from the Recruiter. It is up to the hiring manager to propose a compensation aligned with budget, candidate expectations, and internal pay equality.
+- Hiring Manager will be provided the candidates compensation expectations from the Recruiter. It is up to the Hiring Manager, in partnership with the Recruiter, to propose a compensation aligned with budget, candidate expectations, and internal pay equality.
 - If internal candidates need to be declined post interviews, it is required that the hiring manager connect with the team member via Zoom to inform them of the decision and provide constructive feedback (an outline providing feedback can be found below).
 
 ### Delivering feedback to declined candidates
