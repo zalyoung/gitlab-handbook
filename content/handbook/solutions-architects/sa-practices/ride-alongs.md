@@ -39,6 +39,7 @@ To become a driver, submit an MR to this page adding yourself to the table below
 | **Madou Coulibaly**    | EMEA, Enterprise             |
 | **Alexander Dess**     | EMEA, Enterprise             |
 | **Dominique Top**      | EMEA, Enterprise             |
+| **James Moverley**     | EMEA, Telco, Enterprise.     |
 | **Sameer Kamani**      | PubSec                       |
 | **Linc Williams**      | PubSec USN, USMC,DHA         |
 | **Ben Ridley**         | APAC PubSec                  |
