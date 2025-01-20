@@ -28,8 +28,6 @@ These tools can easily cause damage to websites or eat up your CPU with active s
 
 When testing requires using multiple users, an Incognito / Private tab is an easy option. You can also create and use [un-signed-in Chrome Profiles](https://support.google.com/chrome/answer/2364824) or [Firefox Multi-Account Containers](https://support.mozilla.org/en-US/kb/containers) to provide "session sandboxes", which will persist beyond window closure (unlike Incognito tabs) and you can colour code them to help with visual distinction.
 
-## Mocking Servers / ngrok / tunnels
-
-Some bugs require connecting to a service. An example is using `ngrok` to stub a fake GitLab server in ["CVE-2022-0244: Arbitrary file read via the bulk imports UploadsPipeline"](https://gitlab.com/gitlab-org/gitlab/-/issues/349524#steps-to-reproduce).
+## Mocking Servers / tunnels
 
 Making your local machine accessible from the internet is [not permitted](/handbook/security/corporate/systems/#other-servicesdevices), which precludes tools like `ngrok` or `localtunnel`. Use GitLab's [Sandbox Cloud](/handbook/company/infrastructure-standards/realms/sandbox) to host mock servers instead. Refer to [Secure Cloud testing environments]({{< ref "test_env#securing-cloud-testing-environments" >}}) for advice on how to secure your Sandbox Cloud test environments.
