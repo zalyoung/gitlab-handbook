@@ -21,6 +21,4 @@ You can also download the [ModernLoop Chrome extension](https://chromewebstore.g
 
 ## How to update an interviewer's preferences
 
-
-
 ## How to update Organization wide settings
