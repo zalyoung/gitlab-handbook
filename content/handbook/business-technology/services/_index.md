@@ -7,4 +7,4 @@ description: "This page lists down the services which IT Enterprise provides Git
 
 ## Services
 
-This is a placeholder as we compose the rest of the content. [Click here for a static link of services.](https://handbook.gitlab.com/handbook/business-technology/#i-classfas-fa-hands-helping-idbiz-tech-iconsi-what-do-we-do)
+This is a placeholder as we compose the rest of the content. [Click here for a static link of services.](/handbook/business-technology/#i-classfas-fa-hands-helping-idbiz-tech-iconsi-what-do-we-do)
