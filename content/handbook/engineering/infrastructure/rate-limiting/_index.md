@@ -315,27 +315,25 @@ The list of semi-standard rate limiting response headers can be found [here](htt
 
 - `Cloudflare` does not return rate limit response headers on any request.
 - `RackAttack` returns rate limit response headers on throttled requests only.
-- `ApplicationRateLimiter` will return rate limit response headers once [this issue](https://gitlab.com/gitlab-com/gl-infra/production-engineering/-/issues/25372) is implemented.
+- `ApplicationRateLimiter` does not return rate limit response headers.
 - `GraphQL` endpoints currently do not return rate limit response headers.
+
+See [this issue](https://gitlab.com/gitlab-com/gl-infra/production-engineering/-/issues/25372) for improvements to returning rate limiting response headers.
+
+## Avoiding Rate Limits
+
+To minimize the risk of hitting rate limits, you can try the following:
+
+- Stagger the execution of your automated pipelines.
+- Configure [exponential back off and retry](https://docs.aws.amazon.com/prescriptive-guidance/latest/cloud-design-patterns/retry-backoff.html) for failed attempts.
 
 ## Troubleshooting
 
-### Observability
-
-The below are internal links to support troubleshooting rate limiting related issues:
-
-- [Grafana: Rate Limiting Overview dashboard](https://dashboards.gitlab.net/d/rate-limiting-rate-limiting_overview/rate-limiting3a-rate-limiting3a-overview?orgId=1)
-- [Kibana: Support - Rate limit dashboard](https://log.gprd.gitlab.net/app/r/s/39dcp)
-- [Cloudflare: Security Analytics dashboard](https://dash.cloudflare.com/852e9d53d0f8adbd9205389356f2303d/gitlab.com/security/analytics) (GitLab Cloudflare account access required)
-
-#### Investigating RackAttack logs
-
-- `json.meta.user` field is set if a request is authenticated, and missing if it was anonymous.
-- `json.env` will either be set to `throttle` or `blocklist`, the latter which comes from [failed authentication bans](https://docs.gitlab.com/ee/security/rate_limits.html#failed-authentication-ban-for-git-and-container-registry).
+Please see [Rate Limiting Troubleshooting](/handbook/engineering/infrastructure/rate-limiting/troubleshooting/).
 
 ## Important Links
 
 - [docs: GitLab.com](https://docs.gitlab.com/ee/user/gitlab_com/index.html#gitlabcom-specific-rate-limits)
 - [docs: Self Managed (and Dedicated)](https://docs.gitlab.com/ee/security/rate_limits.html)
 - [runbook: GitLab.com rate limiting](https://gitlab.com/gitlab-com/runbooks/-/tree/master/docs/rate-limiting)
-- [handbook: Identifying the cause of IP Blocks on GitLab.com](support/workflows/ip-blocks/)
+- [handbook: Identifying the cause of IP Blocks on GitLab.com](/handbook/support/workflows/ip-blocks/)
