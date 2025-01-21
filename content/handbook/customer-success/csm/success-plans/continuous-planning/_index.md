@@ -52,7 +52,6 @@ Our [issue board](https://gitlab.com/groups/gitlab-sales-continuous-planning/-/b
 
 - Working on integrating success plan data into Gainsight.
 
-
 ## What's next for us
 
 - Q1 FY26 OKRs will be made available soon.
