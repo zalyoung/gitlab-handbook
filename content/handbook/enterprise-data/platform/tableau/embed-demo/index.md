@@ -69,7 +69,7 @@ There are a few extra steps to embed any views using a yml file, because you do 
 
 4. Go to the [Gitlab.com repository](https://gitlab.com/gitlab-com/www-gitlab-com) and search "find file" for that file name, it should be a yml file.
 
-5. Update the yml file according to [these guidelines for the performance indicators YML files](/handbook/enterprise-data/platform/tableau/tableau-developer-guide/#performance-indicators-yml) using a Merge Request.
+5. Update the yml file according to [these guidelines for the performance indicators YML files](/handbook/enterprise-data/platform/tableau/tableau-developer-guide/#yml) using a Merge Request.
 
 ### Example MR's
 
