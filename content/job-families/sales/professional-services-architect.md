@@ -126,11 +126,45 @@ The Senior Manager, Professional Services Technical Architects role reports to t
 
 ### Professional Experience
 
-At GitLab, due to the pace at which we are moving, people joining our team will be expected to have significant professional experience in the primary engineering tools of their specialty. For Professional Services Architects, this means work and consulting experience using IaC/CaC technologies on one or more of the main cloud providers, as well as experience deploying, maintaining, and administering a GitLab instance.
+At GitLab, due to the pace at which we are moving, people joining our team will be expected to have significant professional experience in the primary engineering tools of their specialty. For Professional Services Architects, this means work and consulting experience using IaC/CaC technologies on one or more of the main cloud providers, strong DevSecOps experience with multipe tools as well as experience deploying, maintaining, and administering a GitLab instance.
+
+
 
 ### Job Grades
 
 Read more about grades at GitLab [here](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades). As Professional Services falls under Customer Success, the specific grades are [here](/handbook/total-rewards/compensation/compensation-calculator/#customer-success)
+
+## Specialties
+
+### Security
+
+The Security specialty focuses on designing and implementing secure GitLab solutions for enterprise clients. This team partners closely with Professional Services, Product Security, and customers to ensure security best practices and compliance requirements are met throughout the software development lifecycle. Security Technical Architects lead complex security transformations, including tool migrations, security control implementations, and DevSecOps initiatives. They serve as trusted advisors to customers on security architecture, compliance frameworks, and emerging threats while developing security-focused delivery methods and training materials for the broader Professional Services organization.
+
+#### Requirements
+
+- Deep expertise in application and cloud security architecture
+- Experience implementing and configuring security tools and controls in enterprise environments
+- Strong knowledge of security frameworks and compliance standards (ISO 27001, NIST 800-53, SOC2, FedRAMP)
+- Hands-on experience with DevSecOps practices, including security scanning tool integration and migration
+- Expertise in secure CI/CD implementation and GitLab security features
+- Understanding of infrastructure as code security and cloud security architecture
+- Experience with security threat modeling and risk assessment
+- Knowledge of current security threats and mitigation strategies (ransomware, supply chain security, zero-trust architecture)
+- Security certifications preferred (CISSP, CISM, AWS Security or equivalent)
+
+#### Responsibilities
+
+- Design and lead secure GitLab implementations that meet customer compliance requirements
+- Conduct security discovery sessions and risk assessments for customer engagements
+- Lead security tool migrations and transformations (e.g., SonarQube, Checkmarx to GitLab Security Scanners)
+- Develop security-focused documentation, methodologies, and training materials
+- Mentor PS team members and partners on security best practices
+- Validate security controls and monitoring requirements
+- Support security-related pre-sales activities and SOW creation
+- Contribute to GitLab's security feature roadmap and best practices
+- Maintain expertise in emerging security threats and compliance requirements
+- Support Practice in the creation and maintenance of security implementation frameworks and delivery kits
+- Coordinate security activities across internal teams, partners, and customers
 
 ## Hiring Process
 
