@@ -75,7 +75,7 @@ Cost Tiers Approval:
   - The G&D Fund should be used to pay for conference registration, tickets, etc.
   - The costs for travelling to and from a conference, including hotel stays and meals, comes from the Travel & Expenses budget of the requestor's department.
 
-- These two costs should still be detailed in the Growth and Development request issue, ghey just need to be expensed separately.
+- These two costs should still be detailed in the Growth and Development request issue, they just need to be expensed separately.
 
 - There may be budgetary concerns if a team member is applying for a conference that would incur significant travel and accommodation costs. When approving a team members’ G&D request, managers should feel confident they have the approval of their [budget owner](https://docs.google.com/spreadsheets/d/1JDgoKl2HaHY5iMhJeu8ENqQzOJB8lHL0-oeO0UUieDU/edit?gid=617408906#gid=617408906). VP approval is required on all applications over $1000 involving travel, so in most cases they will be made aware as a matter of course.
 
