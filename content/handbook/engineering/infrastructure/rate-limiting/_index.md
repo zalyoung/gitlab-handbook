@@ -322,7 +322,7 @@ See [this issue](https://gitlab.com/gitlab-com/gl-infra/production-engineering/-
 
 ## Avoiding Rate Limits
 
-To minimise the risk of hitting rates limits, you can try the following:
+To minimize the risk of hitting rate limits, you can try the following:
 
 - Stagger the execution of your automated pipelines.
 - Configure [exponential back off and retry](https://docs.aws.amazon.com/prescriptive-guidance/latest/cloud-design-patterns/retry-backoff.html) for failed attempts.

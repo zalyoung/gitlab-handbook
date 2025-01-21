@@ -82,7 +82,7 @@ This behaviour is better documented in the [Rate Limiting Headers](/handbook/eng
 The presence (or absence) of these headers can be used to signal where to start your investigation,
 as the `RackAttack` rate limits configured in the Application return these response headers on throttled requests.
 
-### Cloudflare
+## Cloudflare
 
 GitLab team members with access can [use SSO to login to our Cloudflare account](https://dash.cloudflare.com/login).
 To do so, enter your GitLab email and the `Log in with SSO` option will appear.
@@ -91,14 +91,15 @@ To request access, open an [access request](https://gitlab.com/gitlab-com/team-m
 
 Watch a [recorded walkthrough of the Cloudflare Dashboard](https://www.youtube.com/watch?v=7oW5WrlJWp0) (private to GitLab Team Members).
 
-#### Quick Links
+### Quick Links
 
 - [Cloudflare Overview: gitlab.com domain](https://dash.cloudflare.com/852e9d53d0f8adbd9205389356f2303d/gitlab.com)
 - [Analytics & Logs: Network Analytics](https://dash.cloudflare.com/852e9d53d0f8adbd9205389356f2303d/network-analytics/all-traffic)
 - [Analytics & Logs: HTTP Traffic for gitlab.com](https://dash.cloudflare.com/852e9d53d0f8adbd9205389356f2303d/gitlab.com/analytics/traffic)
 - [Security Center: Events for gitlab.com](https://dash.cloudflare.com/852e9d53d0f8adbd9205389356f2303d/security-center/events?host=gitlab.com)
+- [Security: Bot Analytics for gitlab.com](https://dash.cloudflare.com/852e9d53d0f8adbd9205389356f2303d/gitlab.com/security/bots)
 
-##### Select custom date ranges for your searches
+#### Select custom date ranges for your searches
 
 Doing so serves two purposes:
 
@@ -108,7 +109,7 @@ whereas the `Previous 24 hours` will generate a link with a rolling window.
 
 **Note:** that the dates seen in the UI are in your local time zone.
 
-#### HTTP Traffic Analytics
+### HTTP Traffic Analytics
 
 This dashboard will show the HTTP traffic for `gitlab.com`,
 which can return sampled results.
@@ -121,7 +122,7 @@ Use this dashboard to look up paths, IPs, source user agents, data centers, and 
 
 </details>
 
-##### Add filters
+#### Add filters
 
 There are a number of filters that can be applied when looking at HTTP traffic.
 A few useful filters to be aware of:
@@ -139,7 +140,7 @@ then scroll down to see the results.
 The default view will return the top 5 items,
 but this can be increased to 15 items if required.
 
-#### Security Events
+### Security Events
 
 The [Security Events](https://dash.cloudflare.com/852e9d53d0f8adbd9205389356f2303d/security-center/events?host=gitlab.com)
 show the volume of requests that were blocked, challenged, or skipped.
@@ -152,7 +153,7 @@ Use this dashboard to investigate if (and what) Cloudflare rule might be blockin
 
 </details>
 
-##### Add filters
+#### Add filters
 
 The most useful filters you can apply when looking at Security Events are:
 
@@ -167,7 +168,7 @@ but this can be increased to 15 items if required.
 
 **Note:** Search results may be limited to 30 days.
 
-##### Interpreting Results
+#### Interpreting Results
 
 Once you have filtered your results then you can use the results to further investigate:
 
@@ -182,7 +183,7 @@ If any of the results are particularly interesting,
 you can hover over the value to further `Filter` or `Exclude` to dig deeper into your investigation.
 
 <details>
-<summary>Click to see Cloudflare Security Events Results</summary>
+<summary>Click to see Cloudflare Security Event Results</summary>
 
 The below results have been redacted
 to remove any potentially sensitive information.
@@ -191,7 +192,7 @@ to remove any potentially sensitive information.
 
 </details>
 
-#### SSH Traffic
+### SSH Traffic
 
 The [Network Analytics](https://dash.cloudflare.com/852e9d53d0f8adbd9205389356f2303d/network-analytics/all-traffic?dest-port=22) dashboard allows you to filter by destination port.
 Setting a filter of `Destination port equals 22`
@@ -203,13 +204,27 @@ where those with access to GCP can investigate further.
 See the [Cloudflare runbook](https://gitlab.com/gitlab-com/runbooks/-/blob/master/docs/cloudflare/logging.md) for details on querying the Cloudflare logs,
 or follow guidance to request further SRE assistance.
 
-### HAProxy
+### Bots
+
+The [Bot Analytics](https://dash.cloudflare.com/852e9d53d0f8adbd9205389356f2303d/gitlab.com/security/bots) dashboard (Administrator access only)
+allows you to filter in the same way as other Cloudflare dashboards,
+which can be useful if all other options have been exhausted
+to determine the likelihood of automation versus human requests.
+
+<details>
+<summary>Click to see Cloudflare Bot Analytics</summary>
+
+![Cloudflare Bot Analytics Example](/images/handbook/engineering/infrastructure/rate-limiting/troubleshooting/cloudflare-bot-analytics.png)
+
+</details>
+
+## HAProxy
 
 HAProxy is not used to throttle requests to `gitlab.com`,
 however if you're investigating rate limits related to Registry or Pages,
 then you can refer to the [HAProxy Logging runbook](https://gitlab.com/gitlab-com/runbooks/-/blob/master/docs/frontend/haproxy-logging.md).
 
-### Application
+## Application
 
 There are two main throttling mechanisms in the GitLab Application:
 [RackAttack](/handbook/engineering/infrastructure/rate-limiting/#rackattack) and the
@@ -217,14 +232,14 @@ There are two main throttling mechanisms in the GitLab Application:
 
 You can observe trends for both using the [Rate Limiting Overview](https://dashboards.gitlab.net/d/rate-limiting-rate-limiting_overview/rate-limiting3a-rate-limiting3a-overview?orgId=1) Grafana dashboard.
 
-#### Quick Links
+### Quick Links
 
 - [Metrics: Rate Limiting Overview dashboard](https://dashboards.gitlab.net/d/rate-limiting-rate-limiting_overview/rate-limiting3a-rate-limiting3a-overview?orgId=1)
 - [Logs: RackAttack](https://log.gprd.gitlab.net/app/discover#/view/0026cc97-6b9a-445a-a364-7197e04053a2?_g=())
 - [Logs: ApplicationRateLimiter](https://log.gprd.gitlab.net/app/discover#/view/2d2cf10e-b22a-4c07-bbda-45bb665c31ee?_g=())
 - [Logs: Rate Limit Dashboard](https://log.gprd.gitlab.net/app/r/s/AJDZC)
 
-#### RackAttack
+### RackAttack
 
 If a request is throttled by [RackAttack](/handbook/engineering/infrastructure/rate-limiting/#rackattack) it will contain `RateLimit-*` response headers.
 
@@ -234,7 +249,7 @@ You can filter the [RackAttack logs](https://log.gprd.gitlab.net/app/discover#/v
 - Throttle using `json.matched`
 - Path using `json.path`
 
-#### ApplicationRateLimiter
+### ApplicationRateLimiter
 
 You can filter the [ApplicationRateLimiter logs](https://log.gprd.gitlab.net/app/discover#/view/2d2cf10e-b22a-4c07-bbda-45bb665c31ee?_g=()) by:
 
@@ -244,7 +259,7 @@ You can filter the [ApplicationRateLimiter logs](https://log.gprd.gitlab.net/app
 - Throttle using `json.env`
 - Path using `json.path`
 
-#### Workhorse
+### Workhorse
 
 If you have not found the request in Cloudflare, RackAttack, or ApplicationRateLimiter,
 then you can search for rate limited responses in the [Workhorse logs](https://log.gprd.gitlab.net/app/discover#/view/7b6dc396-5b27-4e86-b150-72b476255faf?_g=()) by:
@@ -253,7 +268,7 @@ then you can search for rate limited responses in the [Workhorse logs](https://l
 - Path using `json.uri`
 - Status using `json.status`
 
-### Requesting further assistance
+## Requesting further assistance
 
 If you have followed this troubleshooting guidance
 and have not found the results you were looking for,
@@ -263,7 +278,7 @@ using one of two confidential issue templates:
 - [Cloudflare Troubleshooting](https://gitlab.com/gitlab-com/gl-infra/production-engineering/-/issues/new?issuable_template=Cloudflare%20Troubleshooting)
 - [User Rate Limiting Settings](https://gitlab.com/gitlab-com/gl-infra/production-engineering/-/issues/new?issuable_template=request-rate-limiting)
 
-### Additional Resources
+## Additional Resources
 
 - [Support Workflows: IP Blocks](/handbook/support/workflows/ip-blocks/)
 - [Runbooks: Rate Limiting](https://gitlab.com/gitlab-com/runbooks/-/tree/master/docs/rate-limiting)
