@@ -15,15 +15,9 @@ You can also download the [ModernLoop Chrome extension](https://chromewebstore.g
 
 ## How to schedule 1:1 via ModernLoop
 
-
-
 ## How to schedule technical or behavioral interviews using pools and attributes
 
-
-
-## How to update an interviewer pool in Prelude
-
-
+## How to update an interviewer pool in ModernLoop
 
 ## How to update an interviewer's preferences
 
