@@ -192,13 +192,13 @@ Using Issue Templates has been found to help the team in the following ways:
 We use the following Issue Templates:
 
 - [Bug (template)](https://gitlab.com/gitlab-org/gitlab/-/blob/master/.gitlab/issue_templates/Bug.md)
-    - Used as the template for Bugs and their investigation.
+  - Used as the template for Bugs and their investigation.
 - [Feature - lean (template)](https://gitlab.com/gitlab-org/gitlab/-/blob/master/.gitlab/issue_templates/Feature%20Proposal%20-%20lean.md)
-    - Used as the template for larger Feature requests. These will often drive a conversation and ultimately be promoted to Epics with Implementation Issues being broken off into MVC changes.
+  - Used as the template for larger Feature requests. These will often drive a conversation and ultimately be promoted to Epics with Implementation Issues being broken off into MVC changes.
 - [Implementation (template)](https://gitlab.com/gitlab-org/gitlab/-/blob/master/.gitlab/issue_templates/Implementation.md)
-    - Used as the template to break down large Epics, organize MVC level changes, and assist in our Refinement Process.
+  - Used as the template to break down large Epics, organize MVC level changes, and assist in our Refinement Process.
 
-_Note: Many sections in a template should be treated as optional if there is no relevant information to be added._
+*Note: Many sections in a template should be treated as optional if there is no relevant information to be added.*
 
 ### Addressing new issues quickly
 
@@ -379,7 +379,7 @@ Retrospectives are a [crucial component](https://www.retrium.com/blog/i-was-wron
 
 At GitLab there is a general guideline to conduct [group retrospectives](/handbook/engineering/management/group-retrospectives/) and a process automation to run retrospectives [asynchronously](https://gitlab.com/gitlab-org/async-retrospectives). The Geo team however is working with a new process that combines elements of fully asynchronous work with the benefits of active conversation and the increased level of engagement that these types of interactions bring.
 
-The details of this process is documented in our [Geo Team Retrospectives](../retrospectives.html) page.
+The details of this process is documented in our [Geo Team Retrospectives](./retrospectives.md) page.
 
 ## FAQ
 
