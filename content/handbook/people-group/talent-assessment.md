@@ -386,6 +386,8 @@ Anyone hired on or before January 31st should receive a Performance and Growth P
 
 It is up to all team members' discretion if they wish to complete their Self-Evaluation in Workday. While they are voluntary, self evaluations are highly encouraged so the team member's perspective is captured and shared with their manager prior to the manager's evaluation and Calibration Sessions. Please review the most current [timeline](#timeline) to ensure a timely delivery.
 
+Team members may use Claude, Insights, and GitLab Wrapped to assist in the preparation of your self evaluation.  AI tools like these can be super helpful to assist you in gathering information about your accomplishments, or helping you brainstorm how you might refine your self evaluation. However, meaningful human input and review is always required, and you should not rely solely on Claude to write your self-evaluation.
+
 ### Matrix Assessment Timeline
 
 The Performance/Growth Potential Matrix typically takes 4-6 weeks to complete from beginning to end. Steps are as follows:
@@ -488,6 +490,12 @@ The Talent Assessment involves all team members and managers.
 
 - Team Members are assessed according to [performance](#what-is-performance) and [growth potential](#what-is-growth). Team Members should be prepared to have a conversation with their manager about their performance and growth potential in **Q1** each year.
 - Managers assess their team members' [performance](#what-is-performance) and [growth potential](#what-is-growth). Managers attend calibration meetings in which team members' ratings are discussed and evaluated to ensure consistency and minimize bias. Once the program closes, managers are responsible for communicating Performance/Growth Potential Factor to team members.
+
+- **Can I use Claude or other AI tools to help me with my self evaluation?**
+- Yes. You may use Claude, Insights, and GitLab Wrapped to assist in the preparation of your self evaluation.  AI tools like these can be super helpful to assist you in gathering information about your accomplishments, or helping you brainstorm how you might refine your self evaluation. However, meaningful human input and review is always required, and you should not rely solely on Claude to write your self-evaluation.
+
+- **Can I utilize Claude or other AI tools to help with manager evaluations?**
+- Claude is the only AI tool you are permitted to use for this purpose, and it may only be used to assist in the writing of manager evaluations. Use of Insights, GitLab Wrapped, or any other AI tool for the assessment of team members or the writing of manager evaluations is not permitted. Claude can be super helpful to assist you in brainstorming how you might refine the feedback in your manager evaluation. However, meaningful human input is required in assessing performance and growth potential of your team members, and you should not rely solely on Claude to write manager evaluations. We also have a robust calibration process in our talent assessment program to ensure we are consistently and fairly assessing performance and growth potential across GitLab.
 
 - **How does this impact the way I work at GitLab?**
   - [The Performance Assessment](#what-is-performance) is an evaluation of your performance against [job family responsibilities](#job-family-responsibilities-and-functional-competencies) and [GitLab competencies](#gitlab-competencies) and [Growth](#what-is-growth) is evaluated against the 4 pillars of Growth Potential. Both can help you determine strengths and improvement areas that you can apply in your day-to-day work/way you work.
