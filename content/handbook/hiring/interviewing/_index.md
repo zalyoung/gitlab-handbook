@@ -37,52 +37,27 @@ CES uses your Google calendar to schedule interviews. Our scheduling tool, Prelu
 - If you need to decline an interview within 48 hours of the scheduled time and  you are able to provide CES a replacement interviewer, that would be preferred.
 - **Special Note:** Please do not add anyone else to your interview. If you need to swap with another interviewer or you would like to add a shadow, please tag @ces in your respective hiring channel or email ces@gitlab.com and we will happily make the adjustment to the invite.
 
-## Prelude
+## ModernLoop
 
-Prelude is the scheduling tool that the Candidate Experience Team uses to book interviews. Prelude is integrated with Greenhouse via API. DRI: Candidate Experience Team
+ModernLoop is the scheduling tool that the Candidate Experience Team uses to book interviews. Modern Loop is integrated with Greenhouse and Slack.
 
 **Logging in to Prelude**
 
-To log in, visit [Prelude.co](https://calendly.com/prelude), click "Log in to Prelude", click "Sign in with Google", and then use your GitLab email address.
+To log in, go to the ModernLoop Okta tile and log in with SSO.
 
-**Set your Prelude preferences**
+**Set your ModernLoop preferences**
 
-Within Prelude, interviewers can set their interviewing availability, set daily and weekly limits, and add notes to help CES schedule within their preferences.
+Within ModernLoop interviewers can set the following: 
+- Interview load capacity - Limits of hours or interviews you can participate in.
+- Timezone - We use this timezone for your interview availability.
+- Interview availability - This is when you are available to interview in your timezone.
 
-- Once you have logged in to Prelude, you will either land on the main page or your profile page, depending upon your permissions. If the page title doesn't indicate that you're looking at your profile, just click the profile link near the top right.
+Other settings which can be edited include: 
+- Basic infomration including profile image, job title & pronouns. 
+- Contact infromation.  Note: you can not change your email address
+- Calendar Keywords
 
-**Note** - if you cannot log in, it may be because you do not have a Greenhouse account, which is required. Please submit an Access Request if this is the case for you.
-
-- Scroll down to add notes and adjust the dates and times to match your preferences. Then ensure that your time zone is correct so that it matches your availability.
-
-![Interviewing availability](/images/hiring/interviewing/Availability.png)
-
-***Examples of helpful notes include:***
-
-- "Can schedule 1 hour outside of availability with advance notice"
-- "No interviews on Monday/ Wednesday mornings if possible"
-- "CES can schedule over 1:1 or coffee chats"
-- "Do not book over Focus Fridays / please ask before scheduling"
-
-Additionally, you can help us understand which meetings are moveable and which are not. We've set up some recommendations in your Prelude account to get you started, but you can adjust these preferences yourself.
-
-![Scheduling conflicts](/images/hiring/interviewing/Conflicts.png)
-
-In Preferences, interviewers also have the ability to set daily and weekly Interview Limits. See screenshot below for an example. If you need assistance in setting this preference, please reach out to ces@gitlab.com as we can set these for you as well.
-
-![Interview limits](/images/hiring/interviewing/Limits.png)
-
-## Guide
-
-Guide is the Interview Confirmation tool CES uses to send candidates their interview schedule. Guide provides candidates information about what their interview journey looks like, their interviewers, and GitLab! You have the ability as an interviewer to update your Guide profile which can include a photo, bio and more about your role here at GitLab.
-
-**Logging into Guide**
-
-- To log in, simply visit [Guide](https://app.guide.co/account/profile) and use your GitLab Google Account to log in.
-- Once logged in, Click on your initials in the top right corner of the screen.
-- Select Account and Preferences
-- Select Edit Profile
-- Finally, select Save Changes
+For more information on the interviewer portal go this [ModernLoop Resource](https://modernloop.zendesk.com/hc/en-us/articles/27873870073364-Interviewer-Portal#h_01J53W4KZ6Z40CG7ZN3WZCGQHA)
 
 ## Greenhouse
 
