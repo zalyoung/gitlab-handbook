@@ -132,7 +132,7 @@ File and complete a [Production Training](https://gitlab.com/gitlab-org/gitaly/-
 
 #### Who is oncall
 
-The source of truth is the [PagerDuty rotation](https://gitlab.pagerduty.com/schedules#POS76YN). If you're scheduled but want to take PTO, you're responsible for finding coverage. (In case of emergencies, managers will take over this duty.)
+The source of truth is the [PagerDuty rotation](https://gitlab.pagerduty.com/schedules#P636UD2). If you're scheduled but want to take PTO, you're responsible for finding coverage. (In case of emergencies, managers will take over this duty.)
 
 #### Roster management
 
