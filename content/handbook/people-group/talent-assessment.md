@@ -504,9 +504,7 @@ The Talent Assessment involves all team members and managers.
   - Team members who are on a formal Underperformance remediation plan, such as a [Performance Improvement Plan](/handbook/leadership/underperformance/#performance-improvement-plan-pip), are not eligible for a compensation increase as a result of the [Annual Compensation Review](/handbook/total-rewards/compensation/compensation-review-cycle/).
 
 - **Will my Growth Potential assessment impact my compensation?**
-  - Yes in FY25 both Performance, Growth Potential, and Key Talent Assessment can impact your Total Rewards.
-
-    If you have any questions, please reach out to your aligned [People Business Partner](/handbook/people-group/#people-business-partner-alignment-to-division).
+  - Yes both Performance, Growth Potential, and Key Talent Assessment can impact your Total Rewards.
 
 - **Can my performance factor be changed?**
   - After the Talent Assessment closes, the performance factor cannot be changed. You should work with your manager to develop a plan to develop your performance for future assessments.
@@ -522,7 +520,7 @@ The Performance/Growth Potential Factor is one of the factors considered in the 
   - Company budget for compensation increases
 
 - **When is the next opportunity for my performance to be reviewed?**
-  - Talent Assessments are performed twice per year -- one mid-year (Q2) and one at the end of fiscal year (Q4).
+  - Talent Assessments are formally conducted at the beginning of the fiscal year (Q1) to assess the prior year, and we encourage a mid-year check-in at the half-year.
 
 - **What can I do to change my performance factor in the future?**
   - There are many things that you can do to change your performance factor in the future. Please work with your manager on a career development plan and discuss actions that can be taken to improve.
@@ -576,7 +574,7 @@ Great! At GitLab team members have the opportunity to own their own development,
 Using the [70-20-10 model for learning](/handbook/people-group/learning-and-development/growth-and-development/#70-20-10-rule-for-development), help your team member identify experiential and formal learning opportunities, and consider connections you can facilitate that will support their growth.
 The [Career Development handbook page](/handbook/people-group/learning-and-development/growth-and-development/) has more ideas to help your team member craft a growth plan, including information on GitLab's [Growth and Development benefit](/handbook/people-group/learning-and-development/growth-and-development/).
 
-**How should we be communicating Growth Potential to team members who we haven't communicated this to before?**
+**How should we be communicating Growth Potential to team members?**
 
 First, ensure the team member understands what we mean when we say we are assessing Growth Potential, including the [4 pillars](#what-is-growth) that you considered when making the assessment. Be prepared with specifics that led to your evaluation.
 Remember, Growth Potential can change over time as team members are promoted, develop new interests, as new opportunities for growth arise, and as team members continue to broaden their knowledge, skills, and abilities. Avoid making promises, but if your team member sees themselves in a higher position, help them understand behaviors you expect to be able to assess them differently next time.
