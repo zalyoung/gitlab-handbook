@@ -120,20 +120,19 @@ Application Security will be involved in our security issue workflow and should 
 - [Confirming whether or not something is considered a vulnerability](https://gitlab.com/gitlab-org/gitlab/-/issues/364526#note_1041178738)
 - [Collaborating on feature proposals to see if they have any security implications](https://gitlab.com/gitlab-org/gitlab/-/issues/227841#note_1025940760)
 
-#### Support priority requests.
+#### Support priority requests
 
 As the primary interface between customers and engineering team, support team has insights into product and process improvements that will help reduce friction for our customers along with the need for manual intervention by the support team. Feature or enhancement requests such as these are labelled with `Support Priority` and surfaced by support team counterparts during milestone planning, in the group's planning issue for the respective milestone. At least once a year, when planning for yearly roadmaps, these are also matched against the impact on customers and support. These are then prioritized by the group based on available capacity for each milestone.
 
-#### Security tooling requests.
+#### Security tooling requests
+
 As GitLab grows, authentication group continues to build tooling that makes it easier to securely manage users for our largest customers. In doing so, GitLab.com itself, with the team members is an excellent use case where the features can be internaly dogfooded before we rolled out to our users. The security team can add the label for the group `group::authentication`, `security tooling` and the respective priority `priority::1/2/3` to tag an item that needs to be added to the backlog. The PM and EM should be tagged on the issue to ensure attention towards it.
 
 The backlog for these can viewed at [Sec Security Tooling - issue](https://gitlab.com/groups/gitlab-org/-/boards/9065128?label_name[]=security%20tooling&label_name[]=section%3A%3Asec) for individual issues. Each month, product and security counterparts will [review these requests](https://gitlab.com/gitlab-com/Product/-/issues/?sort=created_date&state=opened&label_name%5B%5D=security%20tooling&first_page_size=100) and ensure that the priority items are scheduled into the roadmap.
 
 #### Keeping yourself informed
 
-- [Subscribe to these company Slack channels](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/getting-started/communication/#read-all-of)
-- [Review the `#engineering-fyi` weekly](/handbook/engineering/engineering-comms/#engineering-fyi-channel)
-- Other channels of interest are `#team-member-updates`, `#g_sscs_authentication`, `#sec_section`, `#ceo`, `#cto`
+- Key channels of interest are `#engineering-fyi`, `#team-member-updates`, `#g_sscs_authentication`, `#sec_section`, `#ceo`, `#cto`
 - We create a weekly issue to inform the team members about the company or team updates, to share important links or to be informed about the team availability. Creation of the issue is the responsibility of an Engineering Manager, who can use an issue template located in the [SSCS/Auth repo](https://gitlab.com/gitlab-org/sscs/authentication/discussion). All weekly updates can be found in the project issue list [filtered by weekly update label.](https://gitlab.com/gitlab-org/sscs/authentication/discussion/-/issues/?sort=updated_desc&state=closed&label_name%5B%5D=weekly%20update&first_page_size=20)
 
 #### MR review requests
@@ -234,7 +233,7 @@ With the combination of our capacity planning (EM) and estimation (IC) processes
 
 ### How we prioritize for a release
 
-We have [cross-functional prioritization](/handbook/product/product-processes/#cross-functional-prioritization) aligned with our prioritization framework. The engineering manager will prioritize `type::maintenance` issues, the product manager will prioritize `type::feature` issues, and the software engineer in test will prioritize `type::bug` issues. From there, we are able to select a ratio of the top issues to be planned for the release by using our [cross-functional issue board](https://gitlab.com/groups/gitlab-org/-/boards/4453752?label_name[]=group%3A%3Aauthentication). **Starting 16.5, our target ratio is to plan 60% features, 20% bugs, and 20% maintenance per release**. Security issues do not count towards these ratios, but instead take away from the total capacity. The data below helps us understand our overall cross-functional status.
+We have [cross-functional prioritization](/handbook/product/product-processes/cross-functional-prioritization/) aligned with our prioritization framework. The engineering manager will prioritize `type::maintenance` issues, the product manager will prioritize `type::feature` issues, and the software engineer in test will prioritize `type::bug` issues. From there, we are able to select a ratio of the top issues to be planned for the release by using our [cross-functional issue board](https://gitlab.com/groups/gitlab-org/-/boards/4453752?label_name[]=group%3A%3Aauthentication). **Starting 16.5, our target ratio is to plan 60% features, 20% bugs, and 20% maintenance per release**. Security issues do not count towards these ratios, but instead take away from the total capacity. The data below helps us understand our overall cross-functional status.
 
 {{< tableau height="600px" toolbar="hidden" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/TopEngineeringMetrics/TopEngineeringMetricsDashboard" >}}
   {{< tableau/filters "GROUP_LABEL"="authentication" >}}
