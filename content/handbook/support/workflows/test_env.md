@@ -282,9 +282,11 @@ The key steps are as follows:
 
 Prerequisites:
 
-1. Local AWS command line access is configured on your laptop by setting the `AWS_REGION`, `AWS_ACCESS_KEY_ID` and `AWS_SECRET_ACCESS_KEY` environment variables to access your AWS sandbox account.
-1. The AWS ROSA prerequisites are met - in the AWS Console, search for the `Red Hat OpenShift Service on AWS` service, click on **Get started** and ensure ROSA is enabled and the Service Quotas and ELB service-linked role requirements are met.
-1. A personal Red Hat account - register a new persona account at https://www.redhat.com/wapps/ugc/register.html.     
+1. Local AWS command line access is configured on your laptop by setting the `AWS_REGION`, `AWS_ACCESS_KEY_ID` and
+   `AWS_SECRET_ACCESS_KEY` environment variables to access your AWS sandbox account.
+1. The AWS ROSA prerequisites are met - in the AWS Console, search for the `Red Hat OpenShift Service on AWS` service, click on
+   **Get started** and ensure ROSA is enabled and the Service Quotas and ELB service-linked role requirements are met.
+1. A personal Red Hat account - register a new personal account at https://www.redhat.com/wapps/ugc/register.html.
 
 Cluster Setup:
 
@@ -292,35 +294,48 @@ Cluster Setup:
 1. Log in using your Red Hat account. This will take you to the Hybrid Cloud Console.
 1. Download and install the ROSA CLI tool for your local OS (step 1).
 1. Login to the ROSA CLI with your Red Hat account token and create AWS account roles and policies as described on the setup page (step 2).
-1. From your laptop, run `rosa create cluster` to start the installation. You will be prompted for quite a few settings - accept the offered defaults for all except the following:
+1. From your laptop, run `rosa create cluster` to start the installation. You will be prompted for quite a few settings - accept the
+   offered defaults for all except the following:
 
-    - `Cluster name` - choose a name for your cluster
-    - `Create cluster admin user` - select Yes
-    - `Openshift version` - enter desired OpenShift version
-    - `AWS region` - enter desired AWS region
+   - `Cluster name` - choose a name for your cluster
+   - `Create cluster admin user` - select Yes
+   - `Openshift version` - enter desired OpenShift version
+   - `AWS region` - enter desired AWS region
 
-1. The installation process will start, and a message will appear prompting you to run commands to create the operator-roles and oidc-provider in order for the installation to continue. You need to run these now or the installation will just pause indefinitely. Accept the default options when prompted.
+1. The installation process will start, and a message will appear prompting you to run commands to create the `operator-roles` and
+   `oidc-provider` in order for the installation to continue. You need to run these now or the installation will pause indefinitely.
+   Accept the default options when prompted.
 1. Record the admin user name and password that were displayed during the setup step.
-1. You can monitor the progress of the installation and the installation log from the Hybrid Cloud Console **Cluster List** page. Note that multiple connection errors will be logged while services are being provisioned - these are expected.
-1. While the cluster is installing you can download the OpenShift CLI tool (`oc`) from the link provided on the cluster status page, if required.
+1. You can monitor the progress of the installation and the installation log from the Hybrid Cloud Console **Cluster List** page. Note
+   that multiple connection errors will be logged while services are being provisioned - these are expected.
+1. While the cluster is installing you can download the OpenShift CLI tool (`oc`) from the link provided on the cluster status page, 
+   if required.
 
 #### Logging in to the OpenShift cluster
 
-You can log into the cluster console from the Hybrid Cloud Console by selecting the cluster from **Cluster List** and clicking on the **Open Console** button. 
+Once the cluster state is `ready` you can log into the cluster console from the Hybrid Cloud Console by selecting the cluster from
+**Cluster List** and clicking on the **Open Console** button.
 
-But you will need to wait an additional 5-10 minutes for the setup of the default identify provider and TLS certificates to complete and the `cluster-admin` identify provider button to appear first on the login page. If you are only presented with username and password fields to fill in wait a few more minutes and try browsing to the console login page again. 
+However you will need to wait an additional 5-10 minutes for the setup of the default identify provider and TLS certificates to complete
+and the `cluster-admin` identify provider button to appear first on the login page. If you are only presented with username and
+password fields to fill in wait a few more minutes and try browsing to the console login page again.
 
-Once you see the `cluster-admin` button clik on it and you will be prompted for the admin user and password you recorded earlier. You are now logged into the cluster.
+Once you see the `cluster-admin` button click on it and you will be prompted for the admin user and password you recorded earlier. You
+are now logged into the cluster.
 
 #### Accessing the OpenShift cluster from the command line
 
-To access the cluster from the command line you first need to log into it using the `oc` command. From the cluster console, click on the **cluster-admin** drop down at the top right and then on **Copy login command**. You will be prompted to log in as the cluster admin again, and then shown a **Display token** link. Click on the link and copy the `oc login` command that is displayed.
+To access the cluster from the command line you first need to log into it using the `oc` command. From the cluster console, click on
+the **cluster-admin** drop down at the top right and then on **Copy login command**. You will be prompted to log in as the cluster
+admin again, and then shown a **Display token** link. Click on the link and copy the `oc login` command that is displayed.
 
 Run the `oc login` command on your laptop with the supplied token - you should then be able to run other commands such as `oc get pods -A`.
 
 #### Destroying the cluster
 
-ROSA clusters aren't cheap to run and so to reduce AWS costs the OpenShift cluster should be destroyed as soon as it is no longer needed (even if that means building a new one in a couple of days) - this is done from the command line by running `rosa delete cluster --cluster=mycluster`.
+ROSA clusters aren't cheap to run and so to reduce AWS costs the OpenShift cluster should be destroyed as soon as it is no longer
+needed (even if that means building a new one in a couple of days) - this is done from the command line by running
+`rosa delete cluster --cluster=mycluster`.
 
 ### Azure Testing Environment
 
