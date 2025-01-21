@@ -48,9 +48,9 @@ To log in, go to the ModernLoop Okta tile and log in with SSO.
 **Set your ModernLoop preferences**
 
 Within ModernLoop interviewers can set the following: 
-- Interview load capacity - Limits of hours or interviews you can participate in.
-- Timezone - We use this timezone for your interview availability.
-- Interview availability - This is when you are available to interview in your timezone.
+- Interview load capacity: Limits of hours or interviews you can participate in.
+- Timezone: We use this timezone for your interview availability.
+- Interview availability: This is when you are available to interview in your timezone.
 
 Other settings which can be edited include: 
 - Basic infomration including profile image, job title & pronouns. 
