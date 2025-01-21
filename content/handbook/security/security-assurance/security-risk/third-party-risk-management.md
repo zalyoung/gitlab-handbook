@@ -212,7 +212,7 @@ The Security Risk Team will take reasonable steps to collaborate with vendors an
 
 Deficiencies commonly identified during our TPRM procedures are listed below:
 
-1. Lack of third-party Security attestation such as a ISO 27001, SOC2 Type 2
+1. Lack of third-party Security attestation such as an ISO 27001, SOC2 Type 2
 1. Lack of background checks for employees and contractors
 1. Inability to integrate with [Okta](/handbook/it/okta/#what-is-okta)* (in alignment with [GitLab's Password Standard](/handbook/security/password-standard/#application-authentication-requirements))
    - If the Okta integration is not in place or not possible, native multi-factor authentication (MFA) capabilities can be a mitigating control.
