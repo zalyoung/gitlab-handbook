@@ -58,6 +58,7 @@ MRs added after the Thursday, 1 week before release should target the `release-x
 ### Monday of release week
 
 - At <time datetime="16:00">4 pm UTC (11 am ET / 8 am PT)</time>, another **release post automation** task ([scheduled pipeline](https://gitlab.com/gitlab-com/www-gitlab-com/blob/master/.gitlab-ci.yml#L290-299); [rake task](https://gitlab.com/gitlab-com/www-gitlab-com/blob/master/lib/tasks/release_post.rake#L373-399)) performs content assembly
+- **Release Post Manager** rebases the releast post branch with master after 4pm UTC on Monday so all unreleased post items are on the release post branch. This ensures the content assembly bot can move `/unreleased/` items into the release folder. 
 - **Release Post Manager** picks features to highlight and creates the introduction content
 
 ### Monday through Tuesday of release week
