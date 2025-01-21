@@ -133,12 +133,10 @@ The SFDC Tasks mart is the organized and formatted consolidation of Task data fr
 1. Volume/timeline of Tasks in the Opportunity lifecycle
 1. Efficacy of a given Task in progressing an Opportunity towards Closed Won. 
 
-
 ### Key Terms
 
 1. sales_dev_rep_*
    1. The associated Sales Dev Rep and their Manager’s information from SFDC
-
 
 ### Key Metrics
 
@@ -162,7 +160,6 @@ The Person/Buyer Touchpoint mart is the consolidated repository of Marketo Measu
 1. Touchpoints during a given stage
 1. Touchpoints per record
 
-
 ### Key Terms
 
 1. Buyer (Person) Touchpoint
@@ -176,12 +173,10 @@ The Person/Buyer Touchpoint mart is the consolidated repository of Marketo Measu
 1. Is FMM Sourced
    1. Whether a given touchpoint is sourced by FMM effort. 
 
-
 ### Key Metrics
 
 1. Attributed Weight
    1. The weight of a given touchpoint, based on which attribution model you are looking at. 
-
 
 ### Data Lineage
 
