@@ -111,11 +111,11 @@ The Senior People Operations Program Manager is a [grade 7]({{< ref "compensatio
 
 ### Staff People Operations Program Manager
 
-The Senior People Operations Program Manager reports to the Director, People Tools & Technology.
+The Staff People Operations Program Manager reports to the Director, People Tools & Technology.
 
 #### Staff People Operations Program Manager Job Grade
 
-The Senior People Operations Program Manager is a [grade 8]({{< ref "compensation-calculator#gitlab-job-grades" >}}).
+The Staff People Operations Program Manager is a [grade 8]({{< ref "compensation-calculator#gitlab-job-grades" >}}).
 
 #### Staff People Operations Program Manager Responsibilities
 
@@ -167,6 +167,74 @@ The Senior People Operations Program Manager is a [grade 8]({{< ref "compensatio
 - Excellent verbal and written communication skills
 - Ability to use GitLab
 - Aligns with GitLab values
+
+### Principal People Operations Program Manager
+
+The Principal People Operations Program Manager reports to the Director, People Tools & Technology.
+
+#### Principal People Operations Program Manager Job Grade
+
+The Principal People Operations Program Manager is a [grade 9]({{< ref "compensation-calculator#gitlab-job-grades" >}}).
+
+#### Principal People Operations Program Manager Responsibilities
+
+- Develop program management strategy and partner with People stakeholders on roadmap.
+- Partner with leadership to identify and prioritize strategic opportunities that improve operational scalability, employee experience, and organizational effectiveness.
+- Provide technical and functional knowledge to projects that contribute to overall direction across teams.
+- Oversee a portfolio of high-impact programs, ensuring alignment with the company’s strategic roadmap and delivering measurable business outcomes.
+- Exercise independent judgment in developing methods, techniques and evaluation criteria for obtaining results.
+- Foster a culture of continuous improvement by identifying and integrating best practices, tools, and technologies into program workflows.
+- Assume accountability for providing high-level project management and driving all aspects of critical projects from business case approval through validation of success metrics.
+- Design and implement processes and systems, leveraging advanced methodologies (e.g., System Design Thinking, Agile, Lean Six Sigma) to solve complex, cross-functional challenges.
+- Primary focus on cultivating positive employee experiences, seeking opportunities to optimize efficiency of processes to deliver exceptional customer service and enhance the overall employee journey.
+- Facilitate process mapping and design sessions with cross-functional teams and SMEs to document current state processes while also identifying process gaps, integration opportunities and efficiencies.
+- Independently gathers information from a variety of sources; to analyze, interpret, and summarize data gathered, and to deliver meaningful insights to the HR leadership team and other organizational stakeholders.
+- Synthesize complex data sets into clear, concise recommendations for leadership and stakeholders.
+- Collaborate with cross-functional teams to improve processes and to implement programs with the goal always being to make processes easier from the perspective of the team members.
+- Manage and create effective communication strategies to support information flow from the People team to stakeholders while ensuring a strong focus on achieving strategic outcomes. Deliver engaging, informative and well-organized presentations to support project objectives and outcomes.
+- Build business cases for new projects based on supporting data to present to People Operations Leadership and key stakeholders.
+- Create measures to ensure project outcomes are successful and meet expectations.
+- Coordinate, communicate and report out People operational activities including cyclical and project-based assignments.
+- Resourcefulness in problem-solving, proactively manage multiple projects with a keen sense of attention to detail.
+- Create project roadmaps, process documents, project documentation, and milestones to ensure successful completion of projects within the timeframe agreed upon.
+- Ensure programs comply with international regulations, standards, and ethical guidelines.
+- Update documentation and handbook as appropriate.
+- Collect GitLab internal data to track trends in functional areas.
+- Collect external market data to support project roadmaps.
+- Collect external market data to support project roadmaps.
+- Mentor and coach program managers and staff, fostering a high-performance culture across the organization.
+- Demonstrated ability to deliver complex, cross-functional programs that drive measurable business outcomes.
+- Partner with leadership in managing competing priorities in a dynamic, fast-paced environment.
+- Deliver executive-level presentations, articulating program objectives, progress, and outcomes with clarity and impact.
+
+#### Principal People Operations Program Manager Requirements
+
+- 7+ years of directly related experience required
+- Expanded sphere of influence in driving People initiatives across the company
+- Ownership and independently drives goals and objectives furthering the People Operations strategy and roadmap
+- Experience working in a fast-paced environment
+- Demonstrated resourcefulness in problem-solving, identifying and addressing issues that may arise during People operational activities to include analyzing problems, proposing solutions, and implementing appropriate measures to overcome challenges
+- An exceptional track record of successful project execution and strong project management skills
+- Strong ability to influence executive stakeholders, align cross-functional teams, and drive strategic priorities
+- Ability to influence others at varying levels of seniority using data to inform recommendations. Work collaboratively with cross-functional teams to identify and mitigate process gaps and issues through active listening and probing resulting in mutual understanding
+- Strong organizational skills
+- Strong change management experience
+- Strong ability to understand a high-level issue and conduct root cause analysis to understand concerns
+- Demonstrated expertise in data-driven decision-making and advanced metrics analysis using tools like Excel, Tableau, or similar
+- Prior understanding and management of the Contractor Hiring process is a plus
+- Proficiency in identifying and resolving systemic challenges that impact operational efficiency or strategic objectives
+- Exceptional customer service orientation, with a focus on delivering a superior experience for all stakeholders
+- Leverage business knowledge to address complex issues while mitigating risk
+- Ability to analyze, investigate & interpret data, issues & situations
+- Ability to plan organize and prioritize work while leveraging resources
+- Strong relationship-building skills, fostering collaboration and trust across diverse stakeholders and teams
+- Ability to multitask and maintain focus to achieve timely results
+- Ability to research, collect and organize data for analysis
+- Exceptional verbal and written communication skills, with the ability to present to executive audiences and articulate complex ideas clearly
+- Ability to use GitLab
+- Alignment with GitLab’s values and ability to model these values across the organization
+- Proven ability to deliver cross-functional programs with measurable business outcomes and global impact
+- Strong track record of leading large-scale transformations, balancing strategic vision with execution
 
 ## Performance Indicators
 
