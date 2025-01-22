@@ -294,7 +294,6 @@ Follow the document  [Investigating update-major or update-minor tests locally a
 ## Training videos
 
 - [Quality Engineering: Failure Triage - Using git bisect to identify commit that introduced a failure](https://www.youtube.com/watch?v=ZvrOF5Bx2Bo)
-  - A demo on how to use git bisect to identify which commit introduced a test failure
 
 ## Additional references
 

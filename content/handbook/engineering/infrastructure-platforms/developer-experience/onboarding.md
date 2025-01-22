@@ -1,6 +1,6 @@
 ---
-title: "Test Platform Onboarding"
-description: "Guidelines for onboarding as a new Test Platform team member"
+title: "Developer Experience Onboarding"
+description: "Guidelines for onboarding as a new Developer Experience Stage member"
 ---
 
 The instructions here are in addition to the on-boarding issue that People Ops will assign to the team member on their first day at GitLab.

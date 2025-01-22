@@ -301,12 +301,6 @@ Basecamp thinks about these stages in relation to the [climb and descent of a hi
 
 While individual groups are free to use as many stages in the [Product Development Flow](/handbook/product-development-flow/#workflow-summary) workflow as they find useful, we should be somewhat prescriptive on how issues transition from discovery/refinement to implementation.
 
-**Quad-planning workflow**
-
-The SETs helps facilitate the quad-planning process. This is the participation of Product Management, Development, UX, and the Quality team which aims to bring test planning as a topic before the development of any feature.
-
-We follow the Quad Planning process defined [here](/handbook/engineering/infrastructure/test-platform/quad-planning/#process).
-
 ### User Experience
 
 We strive to provide excellent usability in all of our workflows, creating a balance between user and business needs. Product Designers work closely with Product Managers and Engineers.
@@ -471,7 +465,7 @@ Here's an [example](https://www.youtube.com/playlist?list=PL05JrBw4t0KpOKxufy-sl
 
 ### Quality
 
-GitLab's Quality is everyone's responsibility. The [SETs](/handbook/engineering/quality/#stable-counterparts) embedded within Fulfillment section follow the [Quality Engineering Department's principles](/handbook/engineering/quality/#our-principles) primarily to ensure that everyone is aware of product quality.
+GitLab's Quality is everyone's responsibility.
 
 #### End-to-end tests - how, when and why to write them
 

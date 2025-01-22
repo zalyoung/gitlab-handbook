@@ -81,10 +81,6 @@ with input from the team, Engineering Manager (EM), and other stakeholders.
 The iteration cycle starts on the 2nd Monday of one month, and lasts until the 2nd Friday of the following month,
 and is identified by the GitLab version set to be released.
 
-Engineers are encouraged to work as closely as needed with their stable
-counterparts. Quality engineering is included in our workflow via the
-[quad planning process](/handbook/engineering/infrastructure/test-platform/quad-planning/).
-
 ### Milestone Planning
 
 Before starting a milestone, the group coordinates using [planning issues](https://gitlab.com/gitlab-org/tenant-scale-group/group-tasks/-/issues/?label_name%5B%5D=Planning%20Issue).

@@ -5,9 +5,9 @@ description: "Performance Enablement team within Developer Experience sub-depart
 
 ## Common Links
 
-| S.No     | Section                   |
-|------    |-------------------------|
-| **GitLab Team Handle** | [`@gl-quality/dx-performance-enablement`](https://gitlab.com/gl-quality/dx-performance-enablement) |
+| S.No     | Section                                                                                                             |
+|------    |---------------------------------------------------------------------------------------------------------------------|
+| **GitLab Team Handle** | [`@gl-dx/performance-enablement`](https://gitlab.com/gl-dx/dperformance-enablement)                               |
 | **Team Boards** | [Team Board](https://gitlab.com/groups/gitlab-org/-/boards/8955771?label_name[]=team%3A%3Aperformance%20enablement) |
 
 Engineers in this team support Performance Enablement projects.
@@ -122,9 +122,6 @@ Anything that would be assigned a weight of 8 or larger should be broken down.
       * Blockers :octagonal_sign: - Issues or unexpected work that blocked/affected progress. For example, customer escalations/on-call DRI
 * ASYNC weekly epic status updates
 
-## Test Platform process across product sections
+#### Performance Enablement in Distribution group
 
-Overall we follow the same process as [defined](/handbook/engineering/infrastructure/test-platform/#how-we-work) in our Test Platform handbook across all groups in Core Platform and SaaS Platform
-except for a few exceptions curated to fit the needs of specific groups.
-
-* [Test Platform in Distribution group](/handbook/engineering/infrastructure-platforms/developer-experience/performance-enablement/distribution/)
+[See the documentation](/handbook/engineering/infrastructure-platforms/developer-experience/performance-enablement/distribution/)

@@ -87,7 +87,7 @@ In FY23 we're focusing on achieving Viable maturity status for GET in both funct
 ## GitLab Performance Tool
 
 Quality Engineering is currently building and maintaining the [GitLab Performance Tool](https://gitlab.com/gitlab-org/quality/performance) (GPT),
-which is used to validate GitLab performance at scale. More information is available on [Performance and Scalability](/handbook/engineering/quality/performance-and-scalability/) page.
+which is used to validate GitLab performance at scale. More information is available on [Performance and Scalability](/handbook/engineering/infrastructure-platforms/developer-experience/performance-and-scalability/) page.
 
 ### FY24 Direction
 
