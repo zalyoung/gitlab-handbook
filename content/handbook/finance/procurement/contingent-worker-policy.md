@@ -13,6 +13,7 @@ The purpose of the Executive Summary is to provide a high-level overview of the 
 ## 3. CONTINGENT WORKERS
 
 Throughout this document, you will see the term “contingent workers” used. This term refers to:
+
 - Staff Augmentation Workers
 - Consultancy Services 
 - Independent Contractors
