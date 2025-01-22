@@ -87,7 +87,7 @@ The following table defines the procedures followed by TPRM engineers for vendor
 | ------ | ------ |------ |------ |------ |------ | ------ |
 |Red     |3rd Party Attestation |     Yes|          If applicable|     Yes|    If Applicable | Yes |
 |Orange SaaS Systems or Locally Hosted/Installed Systems with Data Exchange| 3rd Party Attestation|     Yes|          Yes|     Yes|     Yes | Yes |
-| Orange Individual Use Software* | 3rd Party Attestation or [Self-Attestation](#the-standard-information-gathering-sig-questionnaire-for-vendor-self-attestation) | No | No | No | Yes | No|
+| Orange Individual Use Software* | 3rd Party Attestation or [Self-Attestation](#standard-information-gathering-sig-questionnaire-for-vendor-self-attestation) | No | No | No | Yes | No|
 |Orange Professional Services | 3rd Party Attestation or [Prof Svcs SIG](https://docs.google.com/spreadsheets/d/1xiReZd5heUl5YVFCqPxEfXJIYlqtz_LS/edit?usp=drive_link&ouid=103289635706160914358&rtpof=true&sd=true)|          N/A|     N/A| N/A|   N/A | N/A|
 |Yellow/Green     | N/A |  N/A |  N/A |     No | N/A  | N/A  |
 
