@@ -66,7 +66,9 @@ More information on merge request coaches (including how to become a merge reque
 
 ## Contributing to the GitLab Enterprise Edition (EE)
 
-For community contributors to contribute to the [GitLab Enterprise Edition](https://gitlab.com/gitlab-org/gitlab/-/tree/master/ee), they will need a license for EE. If they don't already have a license, they can get a [free trial for 30 days](https://about.gitlab.com/free-trial/) (choose the Self-Managed option). If they cannot complete their work in 30 days, a new EE license for 90 days for a limited number of users (100) can be issued.
+### For community contributors
+
+To contribute to the [GitLab Enterprise Edition](https://gitlab.com/gitlab-org/gitlab/-/tree/master/ee), community contributors will need a license for EE. If they don't already have a license, they can get a [free trial for 30 days](https://about.gitlab.com/free-trial/) (choose the Self-Managed option). If they cannot complete their work in 30 days, a new EE license for 90 days for a limited number of users (100) can be issued.
 
 Renewal of this license:
 
@@ -75,7 +77,41 @@ Renewal of this license:
 
 Contributors will need to create an request in this project to request their license: [Wider Community Contributor License Request](https://gitlab.com/gitlab-org/developer-relations/contributor-success/team-task/-/issues/new?issuable_template=contributor_ee_license_request).
 
-(Internal link for GitLab team members) Upon evaluation of the contributor's request, a license request can be made using [this form](https://support-super-form-gitlab-com-support-support-op-651f22e90ce6d7.gitlab.io/) (Make sure to follow the Zendesk Global Light Agent steps if you haven't already). The Support team will respond following [this workflow](/handbook/support/license-and-renewals/workflows/self-managed/creating-wider-community-license).
+### Processing Enterprise Edition (EE) License Requests 
+
+To be completed by a GitLab team member:
+
+#### Prerequisites
+
+- Access to Zendesk support portal, requested via [Zendesk Global Light Agent form](#requesting-a-zendesk-light-agent-account).
+
+#### Process
+
+- Access the GitLab support [form](https://support-super-form-gitlab-com-support-support-op-651f22e90ce6d7.gitlab.io/).
+- Select "GitLab L&R request for global customers" as the initial option
+- Choose "Wider community license" from the subsequent dropdown
+- Fill out the required fields provided in the request issue.
+  - Contact information: Use the requesting contributor's information 
+- Other required fields:
+  - True-up: 0
+  - Priority of request: Low
+  - License type: Ultimate (unless otherwise specified)
+  - Expiration date:
+    - 90 days for new contributors
+    - 1 year for renewals
+- Include relevant details about their contributions and request in "What is the reason for the license being issued?"
+- Add a public comment to the request issue indicating the request has been submitted   
+- Save the ‘submission’ from the super support form in case there are issues
+
+The Support team will respond following [this workflow](/handbook/support/license-and-renewals/workflows/self-managed/creating-wider-community-license) within 24 hours.
+
+#### Close
+
+After license is provisioned:
+
+- Add a public comment on the issue with confirmation that the license request has been provisioned
+- Add a confidential comment with a screenshot of the "Private Note" included in the email sent to you by support 
+- Close the issue
 
 ## DCO and CLA Guidance
 
