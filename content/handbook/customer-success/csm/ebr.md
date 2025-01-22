@@ -107,6 +107,6 @@ A: The EBR focuses on strategic goals, but notable feature requests aligning wit
 A: Reviewing GitLab usage and identifying upcoming initiatives or goals helps ensure a productive discussion on how GitLab can best support objectives.
 
 ---
-*For further details, visit:* 
+*For further details, visit:*
 - [GitLab Success Plans Documentation](/handbook/customer-success/csm/success-plans/)
 - Account Team EBR Planning Resources & Overview [Internal Only]: [EBR Internal Handbook Page](https://internal.gitlab.com/handbook/customer-success/csm/cs-scheduled-activities/executive-business-review/)
