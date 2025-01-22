@@ -38,11 +38,11 @@ There is no limit on the length of contract, it will be the length of assignment
 
 - **Independent Contractor** (option not preferred, used by exception only): An individual(s) who works for a company that they own (sole proprietorship) providing project deliverables incorporated into a Statement of Work (SOW). The individual must work truly independently, provided the freedom of action as to the details, methods, and means of performing services. Independent contractors typically perform services for more than one company. Independent contractors may work on outcome based/milestone arrangements in which the business pays the contractor based on the deliverable achieved or they may get paid on a time and materials basis. While this contingent worker type may be used in certain circumstances, its use is by exception only. All Independent Contractors must be contracted using the Independent Contractor Service Agreement (ICSA).
 
- - Independent contractors (also called consultants, freelancers, self-employed workers):
+- Independent contractors (also called consultants, freelancers, self-employed workers):
   - are used for subject matter expertise that is outcome or project based
   - GitLab maintains responsibility for “what” is delivered, “who” delivers the service and “when”, but Independent Contractor maintains control over: 
-   - “where” the service is delivered from, and
-   - “how” the service is delivered
+    - “where” the service is delivered from, and
+    - “how” the service is delivered
 
 The relationship is defined in the contract between GitLab and the independent contractor. 
 
