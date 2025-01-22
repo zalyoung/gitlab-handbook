@@ -80,7 +80,9 @@ Staff Augmentation Worker, Consultancy Services, and Independent Contractor Char
   - Independent Contractors may include intellectual property which the vendor makes available as part of the service.
 
 ## 4. COUNTRY HIRING GUIDELINES
+
 GitLab will only contract with contingent workers in India, the Philippines, and jurisdictions where GitLab has an entity. Contingent workers identified outside of these countries are considered not in policy. All contingent workers who need access to GitLab resources (Okta and core GitLab applications) will be required to use a GitLab provided laptop running either MacOS or ChromeOS.
+
 | Entity / PEO             | Country                  |
 |--------------------------|--------------------------|
 | GitLab Israel Ltd.       | Israel                   |
@@ -100,7 +102,6 @@ GitLab will only contract with contingent workers in India, the Philippines, and
 | GitLab Korea Ltd         | South Korea              |
 | IT BV                    | India                    |
 | IT BV                    | Philippines              |
-
 
 ## 5. MISCLASSIFICATION RISK
 
