@@ -1103,6 +1103,7 @@ A Data Spigot is a concept/methodology to give external systems, access to Snowf
 - A dedicated view (or views) only exposing the minimum required data. No Personally Identifiable Information (PII) may be disclosed.
 - A dedicated role (or equivalent) with access to only the specified tables/views.
 - A dedicated XS warehouse to limit and monitor costs.
+- A dedicated service account with a/an key-pair/OAuth authentication.
 
 The process for setting up a new Data Spigot is as follows:
 
