@@ -221,7 +221,7 @@ Similar to issue labeling, epic labeling helps the Data team categorize, quantif
 
 At a minimum, all epics should have a **Team:** label applied. This tags the epic for the Data Team that is primarily responsible for performing the work, and enables managers to review the backlog of projects for their respective teams. This is particularly helpful during quarterly planning. 
 
-Because the epic list cannot easily be filtered to parent epics only (and epics may be nested under other epics as sub-epics), we use an additional label to distinguish between epics that are true projects (these should have the `Opportunity Canvas` label applied) vs. those that are just sub-epics to organize work within those projects (these should _not_ have the `Opportunity Canvas` label applied). 
+Because the epic list cannot easily be filtered to parent epics only (and epics may be nested under other epics as sub-epics), we use an additional label to distinguish between epics that are being considered for OKR-level commitments (these should have the `Opportunity Canvas` label applied) vs. those that are used to group related issues under a general theme (these should _not_ have the `Opportunity Canvas` label applied). 
 
 ##### Merge Request Workflow
 
