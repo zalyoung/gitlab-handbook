@@ -124,12 +124,6 @@ Application Security will be involved in our security issue workflow and should 
 
 As the primary interface between customers and engineering team, support team has insights into product and process improvements that will help reduce friction for our customers along with the need for manual intervention by the support team. Feature or enhancement requests such as these are labelled with `Support Priority` and surfaced by support team counterparts during milestone planning, in the group's planning issue for the respective milestone. At least once a year, when planning for yearly roadmaps, these are also matched against the impact on customers and support. These are then prioritized by the group based on available capacity for each milestone.
 
-#### Security tooling requests
-
-As GitLab grows, the Authentication group continues to build tooling that makes it easier to securely manage users for our largest customers. In doing so, managing team members on GitLab.com is an excellent use case where the features can be internally dogfooded before we rolled out to our users. The security team can add the label for the group `group::authentication`, `security tooling` and the respective priority `priority::1/2/3` to tag an item that needs to be added to the backlog. The PM and EM should be tagged on the issue to ensure attention towards it.
-
-The backlog for these can viewed at [Sec Security Tooling - issue](https://gitlab.com/groups/gitlab-org/-/boards/9065128?label_name[]=security%20tooling&label_name[]=section%3A%3Asec) for individual issues. Each month, product and security counterparts will [review these requests](https://gitlab.com/gitlab-com/Product/-/issues/?sort=created_date&state=opened&label_name%5B%5D=security%20tooling&first_page_size=100) and ensure that the priority items are scheduled into the roadmap.
-
 #### Keeping yourself informed
 
 - Key channels of interest are `#engineering-fyi`, `#team-member-updates`, `#g_sscs_authentication`, `#sec_section`, `#ceo`, `#cto`
