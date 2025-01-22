@@ -180,6 +180,26 @@ The Engineering Manager is responsible for clearing the path. They need to make 
 have the access to the right information, people, tools, and other resources to get the work done. They try to foresee
 problems and clear any blockers that may arise while the work is in progress.
 
+### Opening an Issue
+
+Within the Geo Team we utilize Issue Templates to create consistency in our Backlog to help us be more Efficient and deliver more Results.
+Using Issue Templates has been found to help the team in the following ways:
+
+1. Ensures an Issue has all the required information so that any contributor can pick up and start or join a conversation without any outside context.
+2. Empowers our Refinement Process to work more efficiently which results in higher Community Contributions and less SME reliance.
+3. Helps Issues stay relevant and not unintentionally sink to the bottom of our Backlog.
+
+We use the following Issue Templates:
+
+- [Bug (template)](https://gitlab.com/gitlab-org/gitlab/-/blob/master/.gitlab/issue_templates/Bug.md)
+  - Used as the template for Bugs and their investigation.
+- [Feature - lean (template)](https://gitlab.com/gitlab-org/gitlab/-/blob/master/.gitlab/issue_templates/Feature%20Proposal%20-%20lean.md)
+  - Used as the template for larger Feature requests. These will often drive a conversation and ultimately be promoted to Epics with Implementation Issues being broken off into MVC changes.
+- [Implementation (template)](https://gitlab.com/gitlab-org/gitlab/-/blob/master/.gitlab/issue_templates/Implementation.md)
+  - Used as the template to break down large Epics, organize MVC level changes, and assist in our Refinement Process.
+
+*Note: Many sections in a template should be treated as optional if there is no relevant information to be added.*
+
 ### Addressing new issues quickly
 
 When new issues arise (through testing, customer support issues, or other means) we still want to be able to address them
@@ -359,7 +379,7 @@ Retrospectives are a [crucial component](https://www.retrium.com/blog/i-was-wron
 
 At GitLab there is a general guideline to conduct [group retrospectives](/handbook/engineering/management/group-retrospectives/) and a process automation to run retrospectives [asynchronously](https://gitlab.com/gitlab-org/async-retrospectives). The Geo team however is working with a new process that combines elements of fully asynchronous work with the benefits of active conversation and the increased level of engagement that these types of interactions bring.
 
-The details of this process is documented in our [Geo Team Retrospectives](../retrospectives.html) page.
+The details of this process is documented in our [Geo Team Retrospectives](./retrospectives.md) page.
 
 ## FAQ
 
