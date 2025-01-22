@@ -126,7 +126,7 @@ As the primary interface between customers and engineering team, support team ha
 
 #### Security tooling requests
 
-As GitLab grows, authentication group continues to build tooling that makes it easier to securely manage users for our largest customers. In doing so, GitLab.com itself, with the team members is an excellent use case where the features can be internaly dogfooded before we rolled out to our users. The security team can add the label for the group `group::authentication`, `security tooling` and the respective priority `priority::1/2/3` to tag an item that needs to be added to the backlog. The PM and EM should be tagged on the issue to ensure attention towards it.
+As GitLab grows, the Authentication group continues to build tooling that makes it easier to securely manage users for our largest customers. In doing so, managing team members on GitLab.com is an excellent use case where the features can be internally dogfooded before we rolled out to our users. The security team can add the label for the group `group::authentication`, `security tooling` and the respective priority `priority::1/2/3` to tag an item that needs to be added to the backlog. The PM and EM should be tagged on the issue to ensure attention towards it.
 
 The backlog for these can viewed at [Sec Security Tooling - issue](https://gitlab.com/groups/gitlab-org/-/boards/9065128?label_name[]=security%20tooling&label_name[]=section%3A%3Asec) for individual issues. Each month, product and security counterparts will [review these requests](https://gitlab.com/gitlab-com/Product/-/issues/?sort=created_date&state=opened&label_name%5B%5D=security%20tooling&first_page_size=100) and ensure that the priority items are scheduled into the roadmap.
 
