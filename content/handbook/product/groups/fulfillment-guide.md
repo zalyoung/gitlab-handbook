@@ -198,7 +198,7 @@ Accounts and Subscriptions excluded from auto-renewal:
 1. Subscriptions purchased via a Reseller or another Channel partner (where the customer didn't transact with GitLab directly).
 1. Subscriptions for Education, OSS, or Startup (i.e. Community Programs).
 1. Subscriptions with non-standard term (not a 12-month term).
-1. Subscriptions with Enterprise Agile Planning products.
+1. Subscriptions with an Enterprise Agile Planning product.
 1. Accounts with the following settings in Zuora:
    1. `Account.PO Required = Yes` (customer notifies GitLab they have a "no PO, no Pay policy", booking requirement and pre-billing).
    1. `Account.Portal Required = Yes` (customer notifies GitLab that they require invoices to be manually uploaded to a billing portal, and includes non-PO, PO, contract, or SOW).
