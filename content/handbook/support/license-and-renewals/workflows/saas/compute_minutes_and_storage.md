@@ -1,6 +1,6 @@
 ---
-title: Handling compute minutes
-description: Adjusting compute minutes
+title: Handling compute minutes and Storage
+description: Adjusting compute minutes and Storage
 category: GitLab.com subscriptions & purchases
 ---
 
@@ -21,6 +21,31 @@ Use the <a href="/handbook/support/license-and-renewals/workflows/customersdot/m
 View the <a href="/handbook/support/workflows/chatops/#setting-additional-minutes-quota-for-a-namespace">
 Support ChatOps documentation</a> for more information.
 </details>
+
+<details>
+<summary>Using the Cdot [Namespace controls SaaS | Set extra CI minutes tab](https://customers.gitlab.com/admin/saas_full_order/set_extra_ci_minutes). </summary>
+
+The form has two required fields:
+
+- Namespace: The customer namespace as it appears in the URL.
+- Extra minutes: The value of compute minutes. (Note: This will **set** the Additional unit to the provided number so please note the namespace existing state of Additional units before making the change. )
+</details>
+
+## Adding additional storage
+
+<details>
+<summary>Using the Cdot [Namespace controls SaaS | Set additional storage tab](https://customers.gitlab.com/admin/saas_full_order/add_storage). </summary>
+
+The form has two required fields:
+
+- Namespace: The customer namespace as it appears in the URL.
+- Extra storage (MiB): Additional space to add in MB
+
+> Note: As storage is entered as MB, consider that GB is presented in the UI for large numbers. For example: 10000 MB = 9.76 GB. For ‘10 GB of storage’, you should instead use 10240, as 10240 MB = 10 GB
+
+</details>
+
+After adding the storage, if it's only a temporary solution, please create an [Internal Request | Repo size change](https://gitlab.com/gitlab-com/support/internal-requests/-/issues/new?issuable_template=Repo%2520Size%2520Limit%2520Change#) to remove the storage if necessary.
 
 ### Process for authorising additional compute minutes for customers as an act of goodwill
 
