@@ -188,7 +188,7 @@ TPRM procedures are guided by the vendor's Inherent and Residual Risk levels, wh
 
 <ol>
   <li> <i> Due to increased risk with vendor engagements providing cloud services (such as SaaS offerings), the inherent risk level has been elevated to account for emerging threats and vulnerabilities associated with these types of services. </i> </li>
-  <li><i>Orange Individual-Use Software is assessed as moderate inherent risk under a reduced scope due to the decreased risk associated with these types of requests. See <a href="/handbook/security/security-assurance/security-risk/third-party-risk-management/#individual-use-software-requests">here</a> for further guidance.</i></li>
+  <li><i>Orange Individual-Use Software is assessed as medium inherent risk under a reduced scope due to the decreased risk associated with these types of requests. See <a href="/handbook/security/security-assurance/security-risk/third-party-risk-management/#individual-use-software-requests">here</a> for further guidance.</i></li>
 </ol>
 
 **Residual Risk** is the level of risk that remains after accounting for mitigating controls required by GitLab's Third Party Risk Management Program. Effectively managing vendor residual risk requires a balanced approach that considers the criticality of the vendor's services or products, the sensitivity of the data involved, and GitLab's risk tolerance.
@@ -198,7 +198,7 @@ Vendors that meet GitLab's security requirements will have residual risks levels
 |Inherent Risk Level| Residual Risk Level|
 |:---------:|:--------------:|
 |Critical|High|
-|High|Moderate|
+|High|Medium|
 |Medium|Low|
 |Low|Low|
 
@@ -273,7 +273,7 @@ The Security Risk team obtains vendor SOC 2 reports during our reviews and deter
 
 Questions regarding CUECs can be directed to the #sec-assurance channel in Slack.
 
-### The Standard Information Gathering (SIG) Questionnaire
+### Standard Information Gathering (SIG) Questionnaire for Vendor Self-Attestation
 
 The Security Risk Team leverages the [Standard Information Gathering (SIG)](https://sharedassessments.org/sig/) Questionnaire to gain a more in-depth understanding of a vendor's Security environment beyond what is attained by reviewing a Third-Party Attestation such as an ISO certification or SOC-2 report. A self-attestation such as a SIG questionnaire, or equivalent document such as a CAIQ, is required if an individual-use software vendor is unable to provide a valid SOC 2 Type 2 report or an ISO 27001 certificate along with its Statement of Applicability and ISMS scoping document. Red vendors or Orange SaaS vendors are required to provide a Third-Party Attestation as defined above. The SIG questionnaire is reviewed alongside the responses to our Security Questionnaire when assessing the maturity of a service organization's Security environment.
 
@@ -339,6 +339,8 @@ Usage of Bitsight provides the Security Risk team with a comprehensive and conti
 - **Bitsight Total Risk Monitoring**
 
 Bitsight's Total Risk Monitoring is leveraged to obtain additional assurance over the security of a vendor's externally accessible environment by use of public scans and peer benchmarking. When assessing a vendor, their Bitsight report is downloaded and reviewed to determine whether their scoring is adequate, as evidenced by an "Advanced" security rating. Bitsight ratings of "Basic" or "Intermediate" are reviewed in further depth to understand the rationale behind the lower rating and whether the deficiencies identified may indicate a risk to GitLab. Due to the wide scope of Bitsight's scans, some deficiencies may exist within areas that do not impact GitLab's usage of a vendor's service(s), and thus do not contribute to the vendor's residual risk. If deficiencies are identified that may present a material risk to GitLab, further inquiry may be performed with the vendor to determine whether they have been resolved. Un-resolved material deficiencies should be documented within the TPRM Assessment Report and reported to the Business Owner via the [TPRM Security Notice Process](#tprm-security-notice-process) defined below.
+
+If a vendor is not available in Bitsight, the assessor should [submit a Company Request](https://help.bitsighttech.com/hc/en-us/articles/231344488-Company-) within BitSight. We can leverage their penetration testing report and relevant SOC 2 controls for assurance if the request cannot be fulfilled in time to support the assessment.
 
 - **Bitsight Daily Alerting**
 
