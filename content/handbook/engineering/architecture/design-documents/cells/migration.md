@@ -144,7 +144,7 @@ As we build out Cells, we need a way to test the functionality at each [major it
 
 We will need to adopt different approaches for each major iteration of the Cells evolution based on which technologies are available at each iteration.
 
-As we discuss creating and migrating Organizations, it's important to call out that top-level groups will retain their URL as they move between Organizations. For example, when a customer's top-level group is moved from the [default Organization](../organization/_index.md#default-organization) to their own Organization, their method of access remains unchanged. This means bookmarks, git remote URLs, etc. for projects in these top-level groups remain unchanged and require no action from users or updates to automation after a migration.
+As we discuss creating and migrating Organizations, it's important to call out that top-level groups will retain their URL as they move between Organizations. For example, when a customer's top-level group is moved from the [default Organization](../organization/_index.md#default-organization) to their own Organization, their method of access remains unchanged. This means bookmarks, Git remote URLs, etc., for projects in these top-level groups remain unchanged and require no action from users or updates to automation after a migration.
 
 ### Cells 1.0
 
