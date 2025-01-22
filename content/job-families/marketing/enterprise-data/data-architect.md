@@ -2,7 +2,7 @@
 title: "Data Architect"
 ---
 
-# Data Architect Job Family
+## Data Architect Job Family
 
 The Data Architect job family is focused on designing and governing the enterprise-wide data analytics architecture that enables efficient data movement, storage, processing, and consumption across GitLab's Data Platform. This role combines strategic architectural thinking with deep technical expertise to establish and maintain data architecture standards, patterns, and practices that support business objectives while ensuring data quality, security, compliance and scalability.
 
