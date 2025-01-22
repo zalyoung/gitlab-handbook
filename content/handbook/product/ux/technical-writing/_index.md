@@ -157,8 +157,7 @@ Some Technical Writers are assigned as [stage leads](/handbook/product/ux/techni
 | Stage            | Assigned stage lead |
 |:-----------------|:--------------------|
 | Verify           | {{< member-by-name "Marcel Amirault" >}} |
-| AI-powered       | {{< member-by-name "Suzanne Selhorn" >}} |
-| ModelOps         | {{< member-by-name "Suzanne Selhorn" >}} |
+| AI-powered       | {{< member-by-name "Jon Glassman" >}} |
 | Create           | {{< member-by-name "Amy Qualls" >}} |
 | Plan             | {{< member-by-name "Marcin Sędłak-Jakubowski" >}} |
 | Application Security Testing | {{< member-by-name "Russell Dickenson" >}} |
