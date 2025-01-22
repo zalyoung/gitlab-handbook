@@ -143,6 +143,8 @@ We implemented a three-tiered monitoring approach:
 
 ## Resources
 
-- [Link to relevant GitLab documentation]
+- GitLab Handbook pages
+  - [GitLab Performance Monitoring](https://gitlab.com/help/administration/monitoring/performance/index)
+  - [Observability for stage groups](https://gitlab.com/help/development/stage_group_observability/index)
 - [Link to related blog posts or external resources]
 - [Information on available training or workshops]
