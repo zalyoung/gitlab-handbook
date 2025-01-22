@@ -53,6 +53,12 @@ As a general guideline, we try to plan each release in this way:
 
 These targets will be [reviewed monthly](/handbook/product/product-processes/) after each release during the [retrospective](https://gitlab.com/gl-retrospectives/manage-stage/optimize/-/issues).
 
+
+### SSoT for data flows across Optimize features
+
+![optimize-data-analytics-diagram.png](/images/engineering/development/dev/plan/optimize-data-analytics-diagram.png)
+
+
 #### Organizing the work
 
 We generally follow the [Product Development Flow](/handbook/product-development-flow/#workflow-summary):
