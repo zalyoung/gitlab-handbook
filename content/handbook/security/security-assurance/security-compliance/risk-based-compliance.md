@@ -17,7 +17,7 @@ Risk-based compliance is our strategic approach to using risk intelligence for i
 
 ## Risk-Based Control Testing
 
-Risk-based control testing focuses on evaluating the effectiveness of internal controls based on the risk they mitigate. By concentrating on controls associated with higher-risk areas, we ensure critical controls are functioning properly without expending unnecessary resources on lower-risk areas.
+Risk-based control testing focuses on evaluating the effectiveness of internal controls based on the risk they mitigate. By concentrating on controls associated with higher-risk functions, we ensure critical controls are functioning properly without expending unnecessary resources on lower-risk functions.
 
 ### Key Aspects
 
@@ -32,7 +32,7 @@ While achieving and maintaining certifications for our SaaS platforms remains a 
 With finite resources, we've adopted a risk-based framework to optimize our efforts. This approach enables us to:
 
 - Maintain our certification requirements
-- Ensure proper safeguards for our crown jewels
+- Ensure proper safeguards for our [crown jewels](https://internal.gitlab.com/handbook/security/security_operations/threat_intelligence/crown-jewels/) as well as [customer (RED) data](https://handbook.gitlab.com/handbook/security/data-classification-standard/#red)
 - Allocate resources based on actual risk exposure
 - Adapt quickly to emerging threats and changes in our environment
 
@@ -84,24 +84,23 @@ flowchart LR
 
 #### Risk Team's Input to Compliance
 
-- Risk assessments identify high-risk systems and processes (testing priorities)
-- Vendor risk reviews highlight critical third-party relationships
-- Risk register provides thematic view of organizational risks
-- Risk ratings help prioritize which controls need more rigorous testing
+- [Risk assessments](https://handbook.gitlab.com/handbook/security/security-assurance/security-risk/storm-program/#risks-identified-during-risk-assessments) identify highest operational risks (testing priorities)
+- [TPRM Assessments](https://handbook.gitlab.com/handbook/security/security-assurance/security-risk/third-party-risk-management/#procedures) highlight critical third-party relationships
+- [Risk Register](https://gitlab.com/gitlab-com/gl-security/security-assurance/security-risk-team/storm-risk-register/-/issues) provides thematic view of operational risk across the organization
 
 #### Compliance Team's Input to Risk
 
 - Control testing results identify gaps and weaknesses
-- Compliance findings map back to risk register items including risk treatment plans
-- Testing coverage data informs risk treatment decisions
-- Control effectiveness metrics feed into risk calculations
+- Compliance findings map back to Risk Register items including [risk treatment plans](https://handbook.gitlab.com/handbook/security/security-assurance/security-risk/storm-program/#remediate-the-risk)
+- Testing coverage data informs [risk response decisions](https://handbook.gitlab.com/handbook/security/security-assurance/security-risk/storm-program/#risk-response)
+- Control effectiveness metrics are leveraged as Key Risk Indicators (KRIs) in [Quarterly Risk Reporting](https://handbook.gitlab.com/handbook/security/security-assurance/security-risk/storm-program/#storm-reporting-schedule)
 
 ### Benefits of Integration
 
-- More efficient resource allocation focused on highest-risk areas 
+- More efficient resource allocation focused on highest-risk functions 
 - Agility to quickly adapt to evolving threats and regulatory changes
 - Stronger justification for compliance activities
-- Better data for risk decision-making
+- Better data to drive risk reporting accuracy and inform risk decision-making
 - More comprehensive view of organizational security posture
 - Reduced redundancy in assessment activities
 
@@ -111,5 +110,5 @@ The Security Compliance team maintains details on how we execute this program in
 
 - Prioritize which systems and applications to test
 - Determine which controls are important
-- Collaborate with Security Risk
+- Collaborate with [Security Risk](https://handbook.gitlab.com/handbook/security/security-assurance/security-risk/)
 - Share inputs and outputs between teams
