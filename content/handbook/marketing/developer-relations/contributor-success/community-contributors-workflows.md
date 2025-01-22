@@ -83,7 +83,7 @@ To be completed by a GitLab team member:
 
 #### Prerequisites
 
-- Access to Zendesk support portal, requested via [Zendesk Global Light Agent form](#requesting-a-zendesk-light-agent-account).
+- Access to Zendesk support portal, requested via [Zendesk Global Light Agent form](/handbook/support/internal-support/#requesting-a-zendesk-light-agent-account).
 
 #### Process
 
