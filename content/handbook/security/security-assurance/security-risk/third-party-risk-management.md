@@ -73,7 +73,7 @@ See below for high level recommendations to leverage when evaluating professiona
 - Will GitLab documents be shared with the vendor?
   - Security recommends using GitLab's Google Drive to share sensitive data with external parties.
 - Does the professional services vendor adhere to strict human resource security practices including acceptable use and data protection training, background screenings, and regular security awareness trainings?
-  - GitLab requires professional service vendors have background screenings and security awareness training.
+  - GitLab requires professional service vendors have background screenings and security awareness training. Certain background screenings can be facilitated [by GitLab](/handbook/people-group/contracts-probation-periods/#background-screenings) with the vendor's permission. Additionally, if the vendor lacks a security awareness training, propose that they incorporate the [free security awareness training](https://www.ncsc.gov.uk/training/v4/Top+tips/Web+package/content/index.html#/) from the [UK's National Cyber Security Centre](https://www.ncsc.gov.uk/blog-post/ncsc-cyber-security-training-for-staff-now-available).
 - Does the vendor perform work from personal devices?
   - Security requires that GitLab data is protected by adequate endpoint security controls.
 
@@ -87,7 +87,7 @@ The following table defines the procedures followed by TPRM engineers for vendor
 | ------ | ------ |------ |------ |------ |------ | ------ |
 |Red     |3rd Party Attestation |     Yes|          If applicable|     Yes|    If Applicable | Yes |
 |Orange SaaS Systems or Locally Hosted/Installed Systems with Data Exchange| 3rd Party Attestation|     Yes|          Yes|     Yes|     Yes | Yes |
-| Orange Individual Use Software* | 3rd Party Attestation or [Self-Attestation] | No | No | No | Yes | No|
+| Orange Individual Use Software* | 3rd Party Attestation or [Self-Attestation](#the-standard-information-gathering-sig-questionnaire-for-vendor-self-attestations) | No | No | No | Yes | No|
 |Orange Professional Services | 3rd Party Attestation or [Prof Svcs SIG](https://docs.google.com/spreadsheets/d/1xiReZd5heUl5YVFCqPxEfXJIYlqtz_LS/edit?usp=drive_link&ouid=103289635706160914358&rtpof=true&sd=true)|          N/A|     N/A| N/A|   N/A | N/A|
 |Yellow/Green     | N/A |  N/A |  N/A |     No | N/A  | N/A  |
 
