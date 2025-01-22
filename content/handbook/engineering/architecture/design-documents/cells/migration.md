@@ -186,7 +186,7 @@ At this Cells iteration the focus will be moving top-level groups into Organizat
 We will establish a process for moving top-level groups between organizations on the same Cell. This functionality is net new and will need to be developed in time for Cells 1.5 and is a pre-requisite before Org mover can move an Organization between Cells. The work is tracked by [epic 11711](https://gitlab.com/groups/gitlab-org/-/epics/11711)
 
 The solution will need to re-write the org IDs when a top-level group is moved to a new Organization.
-A new solution is preferable to using DT, because DT is more complex than re-writing IDs.
+A [new solution](https://gitlab.com/groups/gitlab-org/-/epics/11711) is preferable to using the existing DT, because DT is more complex than re-writing IDs.
 The new solution would also ensure that new IDs are only generated where necessary when a top-level group is moved into a new Organization.
 This improves the experience for users, as it minimizes the changes users have to make to their local repositories, bookmarks, etc. to match the new IDs and paths.
 
