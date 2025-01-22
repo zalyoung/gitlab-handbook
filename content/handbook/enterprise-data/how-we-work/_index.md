@@ -215,6 +215,14 @@ Optional labels that are useful to communicate state or other priority:
 - **Business Logic Change**: This label is applied for any business logic changes such as adding new dimensions, facts, marts, changing joins, adding new calculated fields.
 - **Opportunity Canvas**: This label is auto-applied on the Opportunity Canvas template, but can also be applied to work that has converted into a large-scale project. This label will be used to identify topics for discussion and prioritization at the [monthly Data Leadership forum](/handbook/enterprise-data/how-we-work/#prioritization).
 
+#### Epic Labeling
+
+Similar to issue labeling, epic labeling helps the Data team categorize, quantify, and prioritize the projects in our backlog.
+
+At a minimum, all epics should have a **Team:** label applied. This tags the epic for the Data Team that is primarily responsible for performing the work, and enables managers to review the backlog of projects for their respective teams. This is particularly helpful during quarterly planning. 
+
+Because the epic list cannot easily be filtered to parent epics only (and epics may be nested under other epics as sub-epics), we use an additional label to distinguish between epics that are true projects (these should have the `Opportunity Canvas` label applied) vs. those that are just sub-epics to organize work within those projects (these should _not_ have the `Opportunity Canvas` label applied). 
+
 ##### Merge Request Workflow
 
 _Ideally_, your workflow should be as follows:
