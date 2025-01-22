@@ -87,7 +87,7 @@ The following table defines the procedures followed by TPRM engineers for vendor
 | ------ | ------ |------ |------ |------ |------ | ------ |
 |Red     |3rd Party Attestation |     Yes|          If applicable|     Yes|    If Applicable | Yes |
 |Orange SaaS Systems or Locally Hosted/Installed Systems with Data Exchange| 3rd Party Attestation|     Yes|          Yes|     Yes|     Yes | Yes |
-| Orange Individual Use Software* | 3rd Party Attestation or [Self-Attestation](#the-standard-information-gathering-sig-questionnaire-for-vendor-self-attestations) | No | No | No | Yes | No|
+| Orange Individual Use Software* | 3rd Party Attestation or [Self-Attestation](#the-standard-information-gathering-sig-questionnaire-for-vendor-self-attestation) | No | No | No | Yes | No|
 |Orange Professional Services | 3rd Party Attestation or [Prof Svcs SIG](https://docs.google.com/spreadsheets/d/1xiReZd5heUl5YVFCqPxEfXJIYlqtz_LS/edit?usp=drive_link&ouid=103289635706160914358&rtpof=true&sd=true)|          N/A|     N/A| N/A|   N/A | N/A|
 |Yellow/Green     | N/A |  N/A |  N/A |     No | N/A  | N/A  |
 
@@ -407,12 +407,12 @@ Completion of the TSV may be required at TPRMs discretion prior to approval of t
 
 ### Tech Stack Additions and New System Onboarding
 
-As an output of our TPRM assessments, the Security Risk team partners with [Information Technology](/handbook/business-technology/it/) to inventory the usage, administration, and integration of new applications supporting various GitLab functions. This inventory lives within the [Tech Stack](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/data/tech_stack.yml), GitLab's [single source of truth (SSOT)](/handbook/values/#single-source-of-truth) for technology that supports the business.
+As an output of our TPRM assessments, the Security Risk team partners with [Information Technology](/handbook/business-technology) to inventory the usage, administration, and integration of new applications supporting various GitLab functions. This inventory lives within the [Tech Stack](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/data/tech_stack.yml), GitLab's [single source of truth (SSOT)](/handbook/values/#single-source-of-truth) for technology that supports the business.
 
-The Security Risk team facilitates multiple functions to maintain accuracy of Tech Stack data, including [Critical System Tiers](/handbook/security/security-assurance/security-risk/storm-program/critical-systems/#determining-critical-system-tiers). This data is leveraged to ensure critical applications are appropriately supported. Functions consist of:
+The Security Risk team facilitates multiple functions to maintain accuracy of Tech Stack data, including [Critical System Tiers](/handbook/security/security-assurance/security-risk/storm-program/critical-systems). This data is leveraged to ensure critical applications are appropriately supported. Functions consist of:
 
 - Merge Requests upon system procurement to update the [Tech Stack](/handbook/business-technology/tech-stack-applications/#what-data-lives-in-the-tech-stack).
-- Initial [Business Impact Analyses (BIA)](/handbook/security/security-assurance/security-risk/storm-program/business-impact-analysis/#business-impact-analysis) to help determine the systems critical to serving GitLab's Customers.
+- Initial [Business Impact Analyses (BIA)](/handbook/security/security-assurance/security-risk/storm-program/business-impact-analysis) to help determine the systems critical to serving GitLab's Customers.
 - Recurring procedures to validate the accuracy of existing Tech Stack data, including an annual Business Impact Analysis for Tier 1 Systems.
 - Design and maintenance of a Post-Implementation Checklist to help ensure Business Owners implement security best practices during and after new system onboarding
 
@@ -453,7 +453,7 @@ If the review for either system in question has aged out of its approval window,
 
 #### Individual-Use Software Requests
 
-GitLab Team Members leverage [Individual Use Software](/handbook/finance/procurement/individual-use-software/) for various tasks on a user-by-user basis. Generally, these tools are categorized as having a [Critical System Tier](/handbook/security/security-assurance/security-risk/storm-program/critical-systems/#determining-critical-system-tiers) of '4'. Because Individual Use Software does not have a technical and/or Business Owner, it is not required to be represented in the [Tech Stack](/handbook/business-technology/tech-stack-applications/). Security Risk reserves the right to disallow or not approve the use of Individual Use Software that does not meet GitLab Security requirements. Exceptions to this process will be considered on a case-by-case basis and reported to relevant stakeholders via the TPRM Security Notice process. For more information, refer to GitLab's [Internal Acceptable Use Policy](/handbook/people-group/acceptable-use-policy/).
+GitLab Team Members leverage [Individual Use Software](/handbook/finance/procurement/individual-use-software/) for various tasks on a user-by-user basis. Generally, these tools are categorized as having a [Critical System Tier](/handbook/security/security-assurance/security-risk/storm-program/critical-systems) of '4'. Because Individual Use Software does not have a technical and/or Business Owner, it is not required to be represented in the [Tech Stack](/handbook/business-technology/tech-stack-applications/). Security Risk reserves the right to disallow or not approve the use of Individual Use Software that does not meet GitLab Security requirements. Exceptions to this process will be considered on a case-by-case basis and reported to relevant stakeholders via the TPRM Security Notice process. For more information, refer to GitLab's [Internal Acceptable Use Policy](/handbook/people-group/acceptable-use-policy/).
 
 Commonly requested individual-use software is added to the Pre-Approved Application Listing located [here](https://gitlab.com/gitlab-com/content-sites/internal-handbook/-/blob/main/data/Approved_Software_and_Integrations.yml?ref_type=heads). This listing is used to document approved vendors, their data classification, and the expiration of their most recent TPRM assessment where applicable. Assessments that have aged out are re-performed on an ad-hoc basis or upon entry of a new procurement request.
 
@@ -469,7 +469,7 @@ Looking for compliance reports for an active GitLab vendor? [Open a new issue](h
 
 ### Usage of Artificial Intelligence (AI)
 
-Usage of Artificial Intelligence (AI) services by GitLab Team Members carries unique Security, Privacy, and Legal implications and is governed by [GitLab's AI Acceptable Use Policy](/handbook/product/ai-strategy/ai-integration-effort/legal_restrictions/#acceptable-use-of-ai-services-and-gitlab-features). While TPRM has integrated procedures to gain assurance over the security of AI functionality, we may be unable to make determinations in some scenarios as to whether usage of these services is in alignment with GitLab's AI Acceptable Use Policy. As such, TPRM may engage the Legal and CorpSec teams prior to requisition approval to understand whether the usage of this functionality could result in additional risks. Adverse findings by these teams may result in denial of the requisition by the TPRM Engineer.
+Usage of Artificial Intelligence (AI) services by GitLab Team Members carries unique Security, Privacy, and Legal implications and is governed by [GitLab's Acceptable Use Policy](/handbook/legal/acceptable-use-policy/). While TPRM has integrated procedures to gain assurance over the security of AI functionality, we may be unable to make determinations in some scenarios as to whether usage of these services is in alignment with GitLab's AI Acceptable Use Policy. As such, TPRM may engage the Legal and CorpSec teams prior to requisition approval to understand whether the usage of this functionality could result in additional risks. Adverse findings by these teams may result in denial of the requisition by the TPRM Engineer.
 
 ### Exceptions to the TPRM Process
 
@@ -489,4 +489,4 @@ In specific instances, requirements for the performance or contents of TPRM revi
 - [App Integrations (Team Member Enablement)](https://internal.gitlab.com/handbook/it/end-user-services/app-integrations/)
 - [Observation Management Procedure]({{< ref "observation-management-procedure" >}})
 - [STORM]({{< ref "storm-program" >}})
-- [Professional Services](/handbook/finance/procurement/#-how-do-i-create-a-purchase-request-in-zip)
+- [Procurement Process](/handbook/finance/procurement/#how-to-start-the-procurement-process)
