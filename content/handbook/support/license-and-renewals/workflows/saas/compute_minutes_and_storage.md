@@ -28,7 +28,8 @@ Support ChatOps documentation</a> for more information.
 The form has two required fields:
 
 - Namespace: The customer namespace as it appears in the URL.
-- Extra minutes: The value of compute minutes. (Note: This will **set** the Additional unit to the provided number so please note the namespace existing state of Additional units before making the change. )
+- Extra minutes: The value of compute minutes. (Note: This will **set** the Additional unit to the provided number so please note the namespace existing state of Additional units before making the change.)
+
 </details>
 
 ## Adding additional storage
@@ -109,7 +110,7 @@ To transfer compute minutes from a user's personal namespace to a group namespac
 Qualifying requirements:
 
 1. Requester has [filed an internal request](https://support-super-form-gitlab-com-support-support-op-651f22e90ce6d7.gitlab.io/) or ZenDesk ticket to track request.
-1. Request is approved or created by a [Community Relations](/handbook/marketing/developer-relations/#-meet-the-team) or [Contributor Success](/handbook/marketing/developer-relations/contributor-success/#team-members) team member.
+1. Request is approved or created by a [Community Relations](/handbook/marketing/developer-relations/#i-classfas-fa-users-fa-fw-color-orange-font-awesomei-meet-the-team) or [Contributor Success](/handbook/marketing/developer-relations/contributor-success/#team-members) team member.
 1. GitLab.com admin account
 
 Once verified, use the following steps:
