@@ -109,4 +109,6 @@ A: Reviewing GitLab usage and identifying upcoming initiatives or goals helps en
 ![EBR Banner](/images/customer-success/csm/engagement/EBR-handshake.png)
 
 ---
-*For further details, visit:* [GitLab Success Plans Documentation](/handbook/customer-success/csm/success-plans/)
+*For further details, visit:*
+- [GitLab Success Plans Documentation](/handbook/customer-success/csm/success-plans/)
+- Account Team EBR Planning Resources & Overview [Internal Only]: [EBR Internal Handbook Page](https://internal.gitlab.com/handbook/customer-success/csm/cs-scheduled-activities/executive-business-review/)
