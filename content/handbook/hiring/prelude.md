@@ -18,7 +18,7 @@ You can also download the [ModernLoop Chrome extension](https://chromewebstore.g
 - Go to 'My Tasks' using the task bar on the left 
 - Under 'Action required' click on the candiadte who has the label 'ready to Schedule'
 - A side window will open, scroll down to the 'Schedule now' button and click it.  The page will open to the candidate's availability.  On the right press 'Next: Setup Interviews' button.
--  check the information for the required interview to schedule (time, interviewer, scorecard etc), then click 'Next: Find Schedules'
+- Check the information for the required interview to schedule (time, interviewer, scorecard etc), then click 'Next: Find Schedules'
 - ModernLoop will create a list of interview options.  To see an interviewers calendar you can click on the interviewer or the 'view' option on the top right of the card. 
 - To select a schedule option click on 'use schedule'on the top right corner of the option card. 
 - Select the check box to mark the interview as private 
@@ -34,6 +34,7 @@ You can also download the [ModernLoop Chrome extension](https://chromewebstore.g
 A module is modern loop is an interviewer pool, which also allows for trainees to move through shadows/reverse shadows.  
 
 To set up a module take the following steps: 
+
 - Go to Modules on the task bar on the left 
 - Click on 'New Module'
 - Give the Module a name, select the training plan (typically 2 shadowa and one reverse shadow), and select role-by-role, then create 
@@ -55,3 +56,5 @@ To assign a module to an interview plan:
 ## How to update an interviewer's preferences
 
 ## How to update Organization wide settings
+
+- Only Admins can change organizational settings
