@@ -195,8 +195,8 @@ Auto-renewal will fail if:
 
 Accounts and Subscriptions excluded from auto-renewal:
 
-1. Subscriptions purchased via a Reseller or another Channel partner (where the customer didn't transact with GitLab directly).
-1. Subscriptions for Education, OSS, or Startup (i.e. Community Programs).
+1. Subscriptions purchased through a Reseller or another Channel partner (where the customer didn't transact with GitLab directly).
+1. Subscriptions for Education, OSS, or Startup (Community Programs).
 1. Subscriptions with non-standard term (not a 12-month term).
 1. Subscriptions with an Enterprise Agile Planning product.
 1. Accounts with the following settings in Zuora:
