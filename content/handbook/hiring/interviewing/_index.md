@@ -41,7 +41,7 @@ CES uses your Google calendar to schedule interviews. Our scheduling tool, Prelu
 
 ModernLoop is the scheduling tool that the Candidate Experience Team uses to book interviews. Modern Loop is integrated with Greenhouse and Slack.
 
-**Logging in to Prelude**
+**Logging in to ModernLoop**
 
 To log in, go to the ModernLoop Okta tile and log in with SSO.
 
