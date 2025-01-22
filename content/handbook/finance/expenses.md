@@ -548,7 +548,7 @@ The company will cover all work-related travel expenses. This includes lodging a
 ### Team Building
 
 - To be used for team activities and food/beverages associated with special team events. Amount allowed is dependent on their department budget for the year.
--Team members to please use T&E accounts for their own individual expenses relating to any team building events (ie meals, travel, transportation) and tagging the classification to "FY25 Team Building Budget"
+- Team members to please use T&E accounts for their own individual expenses relating to any team building events (ie meals, travel, transportation) and tagging the classification to "FY25 Team Building Budget"
 - In FY25, each e-group member has been allocated a budget per quarter for FY25-Q2 to FY25-Q4 for team building events.
 - Each e-group member can use their discretion when using the budget.
 - The budget should be used within the quarter the funds are allocated and unused funds cannot be moved to a different quarter.
