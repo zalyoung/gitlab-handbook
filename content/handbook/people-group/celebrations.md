@@ -35,7 +35,6 @@ GitLab encourages team members to take a day of vacation on their special day in
 
 Retirement marks the end of decades of working life and is a significant life event. Celebrating a team member's retirement is an opportunity to acknowledge their career and express appreciation for their contributions. You may organize a virtual farewell gathering or [an E-Card](#sending-an-e-card) where team members can share memories and express best wishes as they embark on this new chapter.
 
-
 ### Team Member Gifts and Flowers
 
 For questions on our policy and how to submit your Team Member Gift and Flower expenses, including which categories to use in Navan, please refer to the [Global Travel and Expenses handbook page](/handbook/finance/expenses/).
