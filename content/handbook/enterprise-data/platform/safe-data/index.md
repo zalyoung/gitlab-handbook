@@ -33,9 +33,8 @@ All SAFE dashboards are stored within various team's SAFE folders and permission
 To gain access to SAFE dashboards:
 
 1. Create an [Access Request](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/24284) for Tableau - SAFE Access - [Requestor Name].
-2. Request approval from your immediate manager. Approval is needed if it concerns a new Access Request(/issue).
-3. Once the request is approved, follow the instructions in the tech_stack.yml file for provisioning.
-4. After processing is complete you will be able to log in to Tableau and access your requested SAFE dashboard and all other dashboards which require SAFE access.
+1. Request approval from your immediate manager. Approval is needed if it concerns a new Access Request(/issue).
+1. After processing is complete you will be able to log in to Tableau and access your requested SAFE dashboard and all other dashboards which require SAFE access.
 
 Please see the [Accessing](/handbook/enterprise-data/platform/#warehouse-access) SAFE Data in Snowflake for instructions on to access the SAFE data in Snowflake.
 
