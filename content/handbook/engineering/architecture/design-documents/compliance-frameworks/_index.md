@@ -171,7 +171,7 @@ We can look to expand on the information we send as we receive feature requests 
    allow for a timeout of `6 hours`.
 1. There will be a separate, worker, preiodically run, checking for status entries that are older than the
    timeout and still in state `pending`, these entries will be defaulted to a `fail` state.
-   (This adds an additional state to what's been mentioned in [ADR001](001_triggering_checks/#decision))
+   (This adds an additional state to what's been mentioned in [ADR001](decisions/001_triggering_checks.md)))
 
 1. When the external service reports back inside the timeout, we set the status in
    table `project_compliance_configuration_status` to store the results of the requirements as the external
@@ -194,8 +194,9 @@ This allows external systems to report and query the compliance status of specif
 
 API implementations could be implemented along this suggestion.
 
-**Update status of control ID: `123` for project ID: `123` with state: `pass`**
 ---
+
+**Update status of control ID: `123` for project ID: `123` with state: `pass`**
 
 ```bash
 
@@ -218,8 +219,9 @@ curl -x PUT \
  -H 'content-type: application/json'
 ```
 
-**List all controls**
 ---
+
+**List all controls**
 
 Note: Since each control with `external_url` has it's own shared secret,
 listing all external controls requires use of a GitLab personal access token (glpat/PAT).
@@ -231,8 +233,9 @@ curl -x GET \
   -H 'content-type: application/json'
 ```
 
-**GraphQl**
 ---
+
+**GraphQl**
 
 _Types_
 
@@ -269,7 +272,7 @@ query GetProjectsComplianceControlStatus($id: ID!) {
 }
 ```
 
---
+---
 
 **Mutation**
 
@@ -296,7 +299,7 @@ mutation UpdateProjectsComplianceControlStatus(
 }
 ```
 
-#### Database Schema
+### Database Schema
 
 It was [decided](decisions/006_storing_controls_in_a_separate_table.md#decision) to store control expressions in a
 separate database table `compliance_requirements_controls`.
