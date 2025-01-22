@@ -13,10 +13,10 @@ The process for creating and maintaining GitLab product documentation depends on
 - [A new feature or feature enhancement](#documentation-for-a-product-change): Delivered for a specific milestone and associated with specific code changes.
   This documentation has the highest priority.
 
-- [Changes outside a specific milestone](https://docs.gitlab.com/ee/development/documentation/workflow.html): Usually not associated with a specific code change, is of lower priority, and
+- [Changes outside a specific milestone](https://docs.gitlab.com/development/documentation/workflow/): Usually not associated with a specific code change, is of lower priority, and
   is open to all GitLab contributors.
 
-Documentation [is required](https://docs.gitlab.com/ee/development/contributing/merge_request_workflow.html#definition-of-done)
+Documentation [is required](https://docs.gitlab.com/development/contributing/merge_request_workflow/#definition-of-done)
 for a milestone when:
 
 - A new or enhanced feature is shipped that impacts the user or administrator
@@ -36,7 +36,7 @@ Documentation is required for any new or changed feature, and is:
   same merge request as the code eliminates the possibility that code and
   documentation get out-of-sync.
 - Required with the delivery of a feature for a specific milestone as part of the
-  GitLab [definition of done](https://docs.gitlab.com/ee/development/contributing/merge_request_workflow.html#definition-of-done).
+  GitLab [definition of done](https://docs.gitlab.com/development/contributing/merge_request_workflow/#definition-of-done).
 - Linked from the release post.
 
 ### Developer responsibilities
@@ -54,7 +54,7 @@ enhancement. They are responsible for:
 
 The first merge request where a feature can be tested should include the
 documentation, even if the feature is behind a feature flag.
-For details, see [the guidelines](https://docs.gitlab.com/ee/development/documentation/feature_flags.html).
+For details, see [the guidelines](https://docs.gitlab.com/development/documentation/feature_flags/).
 
 The author of this MR, either a frontend or backend developer, should write the documentation.
 
@@ -84,11 +84,10 @@ otherwise agreed with the Product Manager and Technical Writer:
   If the new or changed documentation requires extensive collaboration or
   conversation, a separate, linked issue can be used for the planning process.
 
-- Use the [Documentation guidelines](https://docs.gitlab.com/ee/development/documentation/index.html),
+- Use the [Documentation guidelines](https://docs.gitlab.com/development/documentation/),
   and other resources linked from there, including:
-  - Documentation [Structure and template](https://docs.gitlab.com/ee/development/documentation/site_architecture/folder_structure.html) page.
-  - [Style Guide](https://docs.gitlab.com/ee/development/documentation/styleguide/).
-  - [Markdown Guide](https://docs.gitlab.com/ee/user/markdown.html).
+  - Documentation [Structure and template](https://docs.gitlab.com/development/documentation/site_architecture/folder_structure/) page.
+  - [Style Guide](https://docs.gitlab.com/development/documentation/styleguide/).
 - Contact the Technical Writer for the relevant
   [DevOps stage](../#assignments)
   in your issue or merge request, or in the `#docs` Slack channel, if you:
@@ -97,7 +96,7 @@ otherwise agreed with the Product Manager and Technical Writer:
   - Want to request any other help.
 - If you are working on documentation in a separate merge request, ensure the
   documentation is merged as close as possible to the code merge.
-- If the feature has a feature flag, [follow the policy for documenting feature-flagged issues](https://docs.gitlab.com/ee/development/documentation/feature_flags.html).
+- If the feature has a feature flag, [follow the policy for documenting feature-flagged issues](https://docs.gitlab.com/development/documentation/feature_flags/).
 
 #### Reviews and merging
 
@@ -108,7 +107,7 @@ reviewed by:
 - Optionally, others involved in the work such as other developers or the
   Product Manager.
 - The Technical Writer for the DevOps stage group, except in exceptional
-  circumstances where a [post-merge review](https://docs.gitlab.com/ee/development/documentation/workflow.html#post-merge-reviews)
+  circumstances where a [post-merge review](https://docs.gitlab.com/development/documentation/workflow/#post-merge-reviews)
   can be requested.
 - A maintainer of the project.
 
@@ -129,7 +128,7 @@ must:
 - Ensure the issue contains:
   - Any new or updated feature name.
   - Overview, description, and use cases when applicable (as required by the
-    [documentation structure and template](https://docs.gitlab.com/ee/development/documentation/site_architecture/folder_structure.html).
+    [documentation structure and template](https://docs.gitlab.com/development/documentation/site_architecture/folder_structure/).
 
 Everyone is encouraged to draft the documentation requirements in the issue.
 However, a Product Manager will:
@@ -151,7 +150,7 @@ Technical Writers are responsible for:
   before merge or after it is merged, in accordance with [review principles](/handbook/product/ux/technical-writing/#review-principles).
 - Assisting the developer and Product Manager with feature documentation
   delivery.
-- Ensuring that issues and MRs are labeled appropriately, and that doc content has the correct [metadata](https://docs.gitlab.com/ee/development/documentation/metadata.html).
+- Ensuring that issues and MRs are labeled appropriately, and that doc content has the correct [metadata](https://docs.gitlab.com/development/documentation/metadata/).
 
 #### Planning
 
@@ -228,7 +227,7 @@ in an MR separate from the feature MR.
 
 Engineering teams may elect to adopt a workflow where it is **mandatory** that
 documentation is included in the code MR, as part of their
-[definition of done](https://docs.gitlab.com/ee/development/contributing/merge_request_workflow.html#definition-of-done).
+[definition of done](https://docs.gitlab.com/development/contributing/merge_request_workflow/#definition-of-done).
 When a team adopts this workflow, that team's engineers must include their
 documentation in the **same** MR as their feature code, at all times.
 
@@ -328,7 +327,7 @@ changes might need to happen to a team's current workflow:
   **documentation reviews must not be blockers**. Therefore, it's important to
   get the documentation included and assigned to the Technical Writers early.
   If the feature is merged before final documentation approval, the maintainer
-  must create a [post-merge follow-up issue](https://docs.gitlab.com/ee/development/documentation/workflow.html#post-merge-reviews),
+  must create a [post-merge follow-up issue](https://docs.gitlab.com/development/documentation/workflow/#post-merge-reviews),
   and assign it to both the engineer and Technical Writer.
 
 You can visualize the parallel workflow for code and documentation reviews as:
@@ -400,11 +399,11 @@ the [Structural Check](/handbook/marketing/blog/release-posts/#structural-check)
 
 ## Monthly documentation releases
 
-When a new GitLab version is released, the Technical Writing team releases [version-specific published documentation](https://gitlab.com/gitlab-org/gitlab-docs/-/blob/main/doc/releases.md).
+When a new GitLab version is released, the Technical Writing team releases [version-specific published documentation](https://gitlab.com/gitlab-org/technical-writing-group/gitlab-docs-hugo/-/blob/main/doc/releases.md).
 
 ## Documentation feedback and improvements
 
-To make a documentation change that is not associated with a specific code change, the Technical Writing team encourages contributors to [start with an MR](/handbook/communication/) and follow the [documentation update procedures](https://docs.gitlab.com/ee/development/documentation/workflow.html).
+To make a documentation change that is not associated with a specific code change, the Technical Writing team encourages contributors to [start with an MR](/handbook/communication/) and follow the [documentation update procedures](https://docs.gitlab.com/development/documentation/workflow/).
 
 If you do start with an issue rather than an MR, use the [Documentation template](https://gitlab.com/gitlab-org/gitlab/-/issues/new?issuable_template=Documentation). Labels should include:
 
@@ -488,7 +487,7 @@ We often create documentation issues for a Hackathon. These issues are typically
    - Use a [script](https://gitlab.com/gitlab-org/gitlab-docs/-/blob/main/scripts/create_issues.js) to create one issue for each markdown file listed in the Vale results.
      This script uses the [`Doc cleanup` issue template](https://gitlab.com/gitlab-org/gitlab/-/blob/master/.gitlab/issue_templates/Doc_cleanup.md).
    - Create issues one at a time by using the `Doc cleanup` issue template.
-   - Create issues in bulk by using the [Issues API](https://docs.gitlab.com/ee/api/issues.html#new-issue).
+   - Create issues in bulk by using the [Issues API](https://docs.gitlab.com/api/issues/#new-issue).
 
 Ensure that the labels assigned to the issues match those in the `Doc cleanup` issue template.
 
@@ -508,7 +507,7 @@ When a community contributor opens a Hackathon merge request:
 
 1. View the related issue. Ensure the user who authored the MR is the same user who asked to be assigned to the issue.
    - If the user is not listed in the issue, and another user has asked to work on the issue, do not merge the MR.
-     Ask the MR author to find an issue that has not already been assigned or point them to [this page](https://docs.gitlab.com/ee/development/contributing/).
+     Ask the MR author to find an issue that has not already been assigned or point them to [this page](https://docs.gitlab.com/development/contributing/).
 
 1. Work to merge the merge request.
 1. When you merge, ensure you close the related issue.
@@ -516,7 +515,7 @@ When a community contributor opens a Hackathon merge request:
 ## Labels
 
 When working with issues or merge requests, the Technical Writing team uses
-[labels](https://docs.gitlab.com/ee/user/project/labels.html) to describe those
+[labels](https://docs.gitlab.com/user/project/labels/) to describe those
 issues' and merge requests' attributes (including the types of work being done).
 
 This information about labels supplements the [Issues workflow](https://gitlab.com/gitlab-org/gitlab/blob/master/doc/development/contributing/issue_workflow.md)
@@ -531,7 +530,7 @@ To further classify the type of effort, include one or more of the following lab
 - [`documentation`](https://gitlab.com/groups/gitlab-org/-/labels?utf8=%E2%9C%93&subscribed=&search=documentation): Files in the `/doc` directory.
 - [`docs-missing`](https://gitlab.com/groups/gitlab-org/-/labels?subscribed=&sort=relevance&search=docs-missing): Documentation for a feature is or was missing. Documentation is required with the delivery of a feature for a specific milestone as part of the GitLab [definition of done](https://docs.gitlab.com/ee/development/contributing/merge_request_workflow.html#definition-of-done). Add the label to merged MRs where the content was missing, and to MRs when it's added. Use the label for issues when the issue tracks missing content. Does not apply to [experimental features](https://docs.gitlab.com/ee/policy/development_stages_support.html#experiment).
 - [`UI text`](https://gitlab.com/groups/gitlab-org/-/labels?utf8=%E2%9C%93&subscribed=&search=ui+text): Any user-facing text, such as UI text and error messages.
-- [`global nav item`](https://gitlab.com/groups/gitlab-org/-/labels?utf8=%E2%9C%93&subscribed=&search=global+nav+item): Left nav of the docs site. Used in the `gitlab-docs` project.
+- [`global nav item`](https://gitlab.com/groups/gitlab-org/-/labels?utf8=%E2%9C%93&subscribed=&search=global+nav+item): Left nav of the docs site. Used in the `gitlab-docs-hugo` project.
 - [`release post item`](https://gitlab.com/groups/gitlab-org/-/labels?utf8=%E2%9C%93&subscribed=&search=release+post+item): Release post items.
 - [`tw-style`](https://gitlab.com/groups/gitlab-org/-/labels?utf8=%E2%9C%93&subscribed=&search=tw-): Style standards for documentation and UI text.
 - [`development guidelines`](https://gitlab.com/gitlab-org/gitlab/-/labels?utf8=%E2%9C%93&subscribed=&search=development+guidelines): Files in the `/developer` directory.

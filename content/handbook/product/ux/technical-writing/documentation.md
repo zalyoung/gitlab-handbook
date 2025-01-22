@@ -8,7 +8,7 @@ their [DevOps needs](https://about.gitlab.com/stages-devops-lifecycle/).
 
 The documentation is an essential part of the product. Its source is developed
 and stored with the product in its respective paths within the
-[GitLab repositories](https://docs.gitlab.com/ee/development/documentation/site_architecture/#architecture).
+[GitLab repositories](https://docs.gitlab.com/development/documentation/site_architecture/#architecture).
 It's published at [docs.gitlab.com](https://docs.gitlab.com) (offering multiple
 versions of all product documentation) and at the `/help/` path on each GitLab
 instance's domain, with content for that instance's version.
@@ -18,12 +18,12 @@ to use. The documentation should be easy to browse or search for the information
 it should be easy to contribute to the documentation itself.
 
 All standards and practices for contributing documentation are in the
-[GitLab Documentation guidelines](https://docs.gitlab.com/ee/development/documentation/).
+[GitLab Documentation guidelines](https://docs.gitlab.com/development/documentation/).
 
 ## Documentation is the single source of truth (SSOT)
 
-See the [SSOT section in the Documentation Style Guide](https://docs.gitlab.com/ee/development/documentation/styleguide/#documentation-is-the-single-source-of-truth-ssot),
-and especially read the [docs-first methodology](https://docs.gitlab.com/ee/development/documentation/styleguide/#docs-first-methodology).
+See the [SSOT section in the Documentation Style Guide](https://docs.gitlab.com/development/documentation/styleguide/#documentation-is-the-single-source-of-truth-ssot),
+and especially read the [docs-first methodology](https://docs.gitlab.com/development/documentation/styleguide/#docs-first-methodology).
 
 ## Contributing to the documentation
 
@@ -35,7 +35,7 @@ Technical writers monitor the planning and merging of documentation, reviewing
 all changes before or after merging.
 
 For more information on these processes, see the
-[Documentation section of our Development documentation](https://docs.gitlab.com/ee/development/documentation/).
+[Documentation section of our Development documentation](https://docs.gitlab.com/development/documentation/).
 
 ## Merging documentation
 
@@ -44,8 +44,8 @@ GitLab master or main branches, provided they believe the content is:
 
 - Clear and sufficiently easy to understand for the intended audience.
 - Technically accurate (per their own knowledge or trust in the author or SME reviewers).
-- In line with GitLab [Documentation guidelines](https://docs.gitlab.com/ee/development/documentation/)
-and [Style Guide](https://docs.gitlab.com/ee/development/documentation/styleguide/).
+- In line with GitLab [Documentation guidelines](https://docs.gitlab.com/development/documentation/)
+and [Style Guide](https://docs.gitlab.com/development/documentation/styleguide/).
 
 GitLab technical writers review all content to confirm it is clear and
 meets the structure and style guidelines, often making additional improvements.
@@ -58,17 +58,17 @@ don't know it exists or are using an inferior version of the documentation page.
 However, if you know or suspect that a documentation page has been merged but still needs some additional work or polish,
 please create another MR or issue.
 
-For more information, see the [Documentation section of our Development documentation](https://docs.gitlab.com/ee/development/documentation/).
+For more information, see the [Documentation section of our Development documentation](https://docs.gitlab.com/development/documentation/).
 
 ## Resources about GitLab documentation
 
-- The [Documentation Guidelines](https://docs.gitlab.com/ee/development/documentation/):
-  - [Workflow](https://docs.gitlab.com/ee/development/documentation/workflow.html)
-  - [Page structure and template](https://docs.gitlab.com/ee/development/documentation/topic_types/index.html)
-  - [Style Guide](https://docs.gitlab.com/ee/development/documentation/styleguide/)
-  - [Site architecture](https://docs.gitlab.com/ee/development/documentation/site_architecture/index.html)
+- The [Documentation Guidelines](https://docs.gitlab.com/development/documentation/):
+  - [Workflow](https://docs.gitlab.com/development/documentation/workflow/)
+  - [Page structure and template](https://docs.gitlab.com/development/documentation/topic_types/)
+  - [Style Guide](https://docs.gitlab.com/development/documentation/styleguide/)
+  - [Site architecture](https://docs.gitlab.com/development/documentation/site_architecture/)
 - The [Documentation Markdown Guide](https://handbook.gitlab.com/docs/markdown-guide/)
-- The [GitLab Docs project](https://gitlab.com/gitlab-org/gitlab-docs/), which
+- The [GitLab Docs Hugo project](https://gitlab.com/gitlab-org/technical-writing-group/gitlab-docs-hugo/), which
 contains the code that pulls the documentation content from multiple
 repositories and builds docs.gitlab.com
 
