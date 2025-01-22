@@ -13,6 +13,7 @@ Professional Services Engineers are expected to be able to interface not only wi
 | [Associate Professional Services Engingeer](#associate-professional-services-engineer) | [Grade 5](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades) |
 | [Intermediate Professional Services Engingeer](#professional-services-engineer) | [Grade 6](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades) |
 | [Senior Professional Services Engingeer](#senior-professional-services-engineer) | [Grade 7](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades) |
+| [Manager, Professional Services Engineering](#manager-professional-services-engineering) | [Grade 9](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades) |
 | [Senior Manager, Professional Services Engineering](#senior-manager-professional-services-engineering) | [Grade 9](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades) |
 
 ## Performance Indicator
@@ -144,6 +145,19 @@ documents those opportunities
 - Developer platform/tool industry experience
 - Experience working with a global or otherwise multicultural team
 - Computer science education or equivalent experience
+
+## Manager, Professional Services Engineering
+
+The Manager, Professional Services Engineering reports to the Director, Professional Services.
+
+### Responsibilities
+
+- 
+
+### Requirements
+
+-
+
 
 ## Senior Manager, Professional Services Engineering
 
