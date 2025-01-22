@@ -190,7 +190,7 @@ A new solution is preferable to using DT, because DT is more complex than re-wri
 The new solution would also ensure that new IDs are only generated where necessary when a top-level group is moved into a new Organization.
 This improves the experience for users, as it minimizes the changes users have to make to their local repositories, bookmarks, etc. to match the new IDs and paths.
 
-Once the top-level groups for a customer are in their own Organization on [Legacy Cell)](decisions/012_cell_unique_identifier.md), the Organization will be put into [maintenance mode](https://gitlab.com/groups/gitlab-org/-/epics/13800) to prevent further changes to the Organization's data while it's being migrated. Org mover then moves the entire Organization from the Legacy Cell to another Cell. Once the Org is on the other Cell, traffic routing for the Organization is switched to the other Cell and maintenance mode for the Organization is disabled. The new Organization will not be fully operational on the Other Cell.
+After the top-level groups for a customer are in their own Organization on [Legacy Cell)](decisions/012_cell_unique_identifier.md), the Organization will be put into [maintenance mode](https://gitlab.com/groups/gitlab-org/-/epics/13800) to prevent further changes to the Organization's data while it's being migrated. Org mover then moves the entire Organization from the Legacy Cell to another Cell. After the Org is on the other Cell, traffic routing for the Organization is switched to the other Cell and maintenance mode for the Organization is disabled. The new Organization will not be fully operational on the Other Cell.
 
 Limitations:
 
