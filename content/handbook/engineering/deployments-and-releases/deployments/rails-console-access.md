@@ -31,4 +31,6 @@ Access to the [GitLab Rails Console](https://docs.gitlab.com/ee/administration/o
 
 In some exceptional scenarios, such as critical production outages impacting customers, temporary authorization to make changes via the rails console may be requested. Approval can be obtained from any Engineering Manager in the Infrastructure Platforms department. If you are in an incident, approval can also be obtained from the current EOC or IM.
 
+If the Rails console commands are intended to be executed through the Support team, they must first be approved by a Support Manager. This ensures a shared understanding of the code being executed and the specific scenarios in which it will be applied.
+
 After the immediate need has passed, actions taken in the console should be translated into code changes and deployed through the standard release process to ensure a permanent and auditable fix. 
