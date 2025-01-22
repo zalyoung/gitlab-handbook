@@ -25,9 +25,9 @@ Based on these needs, the Data Team is organized in the following way:
 
 | POD                       | Data Product Manager | Analytics Engineer                     | Data Analyst    | Data Scientist |
 | ------------------------- | -------------------- | -------------------------------------- | --------------- | -------------- |
-| Company KPIs              |  @iweeks          | @lisvinueza @chrissharp @annapiaseczna     | @annie-analyst  |                |
+| Company KPIs              |  @iweeks          | @dantenel @chrissharp @annapiaseczna @j_kim    | @annie-analyst  |                |
 | Customer Intelligence     |  @nmcavinue          |                                | @jonglee1218      |                |
-| Customer Product Adoption |  @mdrussell             | @michellecooper @utkarsh060 |                 |                |
+| Customer Product Adoption |  @mdrussell             | @michellecooper @utkarsh060 @lisvinueza |                 |                |
 
 ## Analytics Engineering - Stable Counterpart Assignments
 
@@ -48,9 +48,9 @@ Based on these needs, the Data Team is organized in the following way:
 
 | POD | Data Engineer |
 | --- | ------------- |
-| Enterprise Metrics | @juwong |
+| Enterprise Metrics | @csnehansh |
 | Customer Intelligence | @rigerta |
-| Customer Product Adoption | @rbacovic |
+| Customer Product Adoption | @juwong |
 
 ### Manager, Data
 
