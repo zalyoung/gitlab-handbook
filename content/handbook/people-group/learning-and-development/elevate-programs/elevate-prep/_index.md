@@ -1,40 +1,40 @@
 ---
-title: Elevate Prep
+title: ElevatePrep
 ---
 
-Elevate Prep is a live virtual development program for GitLab Individual Contributors (ICs) who are interested in exploring people leadership skills. The program focuses on foundational competencies that are valuable for both current ICs and potential future people leaders.
+ElevatePrep is a _signature_ program within GitLab's broader Elevate leadership experience aim to enhance leadership performance and capability across the organization. ElevatePrep focuses on skills and capabilities that strengthen self-awareness, goal setting, feedback, and influencing others. This experiece is designed for GitLab individual contributors (ICs) who would like to _one day_ step into a people management role. ElevatePrep lays the foundation for strong 
 
 ## Important Note About Career Development
 
-While Elevate Prep provides valuable leadership development opportunities, participation in the program is neither a guarantee of promotion nor a prerequisite for moving into a people leadership role at GitLab. The program is designed to support professional growth and skill development, regardless of your chosen career path.
+While ElevatePrep provides valuable leadership development opportunities, participation in the program is **neither a guarantee of promotion nor a prerequisite for moving into a people leadership role at GitLab.** The program is designed to support professional growth and skills development, regardless of your chosen career path.
 
-## What is Elevate Prep
+## What is ElevatePrep
 
-Elevate Prep is a highly interactive, all-remote program where participants learn foundational leadership skills that are valuable in both IC and people leadership roles. The program provides practical frameworks and tools that align with GitLab [values](/handbook/values/) while developing skills that support collaboration and influence across the organization.
+ElevatePrep is a **highly** interactive, all-remote (live virtual learning) program where participants develop leadership skills that are valuable in both IC and people leadership roles. The program provides practical frameworks and tools that align with GitLab [values](/handbook/values/) while developing skills that support collaboration and influence across the organization.
 
 In Elevate Prep, participants will:
 
 1. Develop skills that enhance their current IC role
 1. Build cross-functional relationships with cohort members
-1. Learn foundational leadership competencies
+1. Learn fundamental leadership competencies and expectations of people managers at GitLab
 1. Explore aspects of people leadership at GitLab
 
 ## How is the program structured?
 
-Elevate Prep consists of 4 core learning modules, each focusing on essential professional development areas:
+ElevatePrep consists of 4 core learning modules, each focusing on essential professional development areas:
 
 1. **Take control of your career path**: Learn to create meaningful development plans and navigate your professional growth
 1. **Give feedback that lands**: Develop skills to provide and receive effective feedback
-1. **Collaborate in a dynamic workplace**: Build techniques for successful collaboration in an all-remote environment
+1. **Give Feedback that Lands**: Build confidence in delivering honest feedback and have direct conversations with anyone
 1. **Influence without authority**: Learn to drive results through influence and effective stakeholder management
 
-Each module is 60 minutes long and delivered live through our learning partner, Hone. The program brings together cohorts of approximately 25 participants to ensure meaningful interaction and discussion.
+Each module is 60 minutes long and delivered live through our learning portal (in partnership with Hone). The program brings together cohorts of approximately 25 participants to ensure meaningful interaction and discussion.
 
 ## Program Requirements
 
-To successfully complete Elevate Prep, participants must:
+To successfully complete ElevatePrep, participants must:
 
-1. Attend all four live sessions
+1. Complete all four (4) live learning sessions
 1. Actively participate in discussions and exercises
 1. Engage with cameras on during sessions to foster better interaction
 
@@ -50,11 +50,11 @@ While team members can express interest in participating, preference is given to
 
 ## Making up missed sessions
 
-Attendance at all live sessions is required to complete the program. If you cannot attend one of the scheduled GitLab sessions, you will be able to schedule into a session publicly hosted by Hone. These sessions happen globally, so won't be exclusively GitLab team members, but the core concepts of the module will still be taught.
+Attendance at all live sessions is required to complete the program. If you cannot attend one of the scheduled GitLab sessions, you will be able to schedule into a public offerings hosted by Hone. We'll share more information on [SAFE](https://handbook.gitlab.com/handbook/legal/safe-framework/#safe) best practices when joining public sessions. These sessions happen globally, so won't be exclusively GitLab team members, but the core concepts of the module will still be taught.
 
-## Supporting your team members in Elevate Prep
+## Supporting your team members in ElevatePrep
 
-Managers with team members participating in Elevate Prep should:
+Managers with team members participating in ElevatePrep should:
 
 1. Discuss the program's benefits and expectations during 1:1 meetings
 1. Support team members in managing their workload to accommodate program participation
@@ -67,13 +67,13 @@ We evaluate the success of Elevate Prep through participant feedback, skill appl
 
 ## Frequently Asked Questions
 
-### Does participating in Elevate Prep guarantee a future management role?
+### Does participating in ElevatePrep guarantee a future management role?
 
 No. While the program develops valuable leadership skills, participation does not guarantee promotion or placement in a management role. Career progression at GitLab is based on multiple factors including business need, performance, and demonstrated competencies.
 
 ### How often will this program run?
 
-Program scheduling is based on organizational needs and demand. Details about upcoming cohorts will be shared through the Learning and Development team.
+Program scheduling is based on organizational needs and demand. Details about upcoming cohorts will be shared through the Learning & Organizational Development team (Talent Development). Join our #learninganddevelopment slack channel for updates on ElevatePrep and other GitLab learning offerings.
 
 ### How do I express interest in participating?
 
@@ -81,12 +81,12 @@ Speak with your manager about your interest in the program. They can nominate yo
 
 ### What if I miss a session?
 
-Attendance at all sessions is required for program completion. If you must miss a session, you'll have the option to make it up through Hone's membership sessions. We'll provide specific details about the makeup process when the program begins.
+Completion of all sessions is required for program completion. If you must miss a session, you'll have the option to make it up through Hone's membership sessions. We'll provide specific details about the makeup process when the program begins.
 
 ### Where do I communicate questions or concerns about the program?
 
-When the program begins, you'll be added to a Slack group for your cohort. You can also reach out directly to your manager or the Learning and Development team in the #learninganddevelopment channel.
+When the program begins, you'll be added to a dedicated Slack group for your cohort. You can also reach out directly to your manager or the Learning and Development team in the #learninganddevelopment channel.
 
-### Is Elevate Prep a prerequisite for the main Elevate program?
+### Is ElevatePrep a prerequisite for the main Elevate program?
 
-No. Elevate Prep and Elevate are separate programs with different purposes. Elevate Prep is for ICs interested in leadership development, while Elevate is a required program for current people leaders.
+Not exactly. ElevatePrep and Elevate are designed for different levels of leadership and experience. ElevatePrep is for ICs interested in growing skills to promote strong people management, while Elevate is a requirement for all people managers and requires some level of people management/people leadership experience. Later this year (FY26), we are exploring options on how we _may_ allow ElevatePrep alum to gain entry into Elevate cohorts.
