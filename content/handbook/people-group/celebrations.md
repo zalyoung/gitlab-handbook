@@ -33,9 +33,8 @@ GitLab encourages team members to take a day of vacation on their special day in
 
 ### Team Member Retirement
 
-Retirement marks the end of decades of working life and is a significant life event. Celebrating a team member's retirement is an opportunity to acknowledge their career and express appreciation for their contributions. You may organize a farewell gathering or [an E-Card](#sending-an-e-card) where team members can share memories and express best wishes as they embark on this new chapter.
+Retirement marks the end of decades of working life and is a significant life event. Celebrating a team member's retirement is an opportunity to acknowledge their career and express appreciation for their contributions. You may organize a virtual farewell gathering or [an E-Card](#sending-an-e-card) where team members can share memories and express best wishes as they embark on this new chapter.
 
-Please note that retirement is considered a voluntary separation from GitLab. 
 
 ### Team Member Gifts and Flowers
 
