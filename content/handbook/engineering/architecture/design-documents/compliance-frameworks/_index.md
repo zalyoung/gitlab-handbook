@@ -143,27 +143,66 @@ Each expression is evaluated to a boolean true or false.
 
 ##### External requirements
 
+**Users need to be able to create controls where they can configure them to check the state of an
+external service, as their requirements might not match what GitLab offers by default.**
+
 The external HTTP/HTTPS URLs for the user's external services are stored in the `compliance_requirements_controls` table with
 'external' as the `control_type`(enum). The same table will also store the shared HMAC secret in the `encrypted_secret_token` and `encrypted_secret_token_iv` columns.
 
 We POST the latest project settings to these external services and expect a HTTP 2xx status as the response.
+
 We provide an API endpoint that can be used to update the status of an external requirement, this would be a
 similar to [setting the status of external status checks](https://docs.gitlab.com/ee/api/status_checks.html#set-status-of-an-external-status-check).
 
-The shared HMAC secret must be used to sign the request and also to check the responses. This
+The shared HMAC secret must be used to sign the request and is also used to check the responses. This
 ensures we do not need to use API tokens and complicate role management, while
 still ensuring proper authorization.
 
-###### Report Status API example
+Since we are only sending project settings for external requirement controls initially,
+we expect users to query the from our catalog of GitLab APIs to get any
+additonal information they need to implement the control on their external service.
+We can look to expand on the information we send as we receive feature requests for it.
 
-**Update status of control**
+###### Workflow
+
+1. When evaluating requirements we trigger a message to the external service if it has an `external_url` defined
+   and is of `control_type` `external`.
+1. After posting we set the corresponding `project_compliance_configuration_status` entry to state `pending` and
+   allow for a timeout of `6 hours`.
+1. There will be a separate, worker, preiodically run, checking for status entries that are older than the
+   timeout and still in state `pending`, these entries will be defaulted to a `fail` state.
+   (This adds an additional state to what's been mentioned in [ADR001](001_triggering_checks/#decision))
+
+1. When the external service reports back inside the timeout, we set the status in
+   table `project_compliance_configuration_status` to store the results of the requirements as the external
+   service indicated. ['fail', 'pass']
+
+###### Auditing
+
+Audit events need to be created for the following events in this workflow:
+
+1. Triggering of messages to external service.
+1. Non HTTP 2xx statuses encountered when attempting to message external service.
+1. Storing replies from external service.
+1. Defaulting to a failed state when timeout is reached.
+1. Edits done to control (`external_url`, `secret_token`, etc.)
+
+###### Application Programmer Interfaces (APIs)
+
+For the external service to be able to post the requirement control results, we need to provide APIs to do so.
+This allows external systems to report and query the compliance status of specific project requirements.
+
+API implementations could be implemented along this suggestion.
+
+**Update status of control ID: `123` for project ID: `123` with state: `pass`**
+---
 
 ```bash
 
 timestamp=$(date +%s)
 nonce=$(openssl rand -hex 16)
 path="/api/v4/projects/123/control_statuses/123/"
-data="status=success"
+data="status=pass"
 
 # Create signature string
 sign_payload="${timestamp}${nonce}${path}${data}"
@@ -172,16 +211,15 @@ sign_payload="${timestamp}${nonce}${path}${data}"
 signature=$(echo -n "$sign_payload" | openssl dgst -sha256 -hmac "your_shared_secret" -hex | cut -d' ' -f2)
 
 curl -x PUT \
- "https://gitlab.com/api/v4/projects/123/control_statuses/123/?status=success" \
+ "https://gitlab.com/api/v4/projects/123/control_statuses/123/?status=pass" \
  -H "x-gitlab-timestamp: ${timestamp}" \
  -H "x-gitlab-nonce: ${nonce}" \
  -H "x-gitlab-hmac-sha256: ${signature}" \
  -H 'content-type: application/json'
 ```
 
----
-
 **List all controls**
+---
 
 Note: Since each control with `external_url` has it's own shared secret,
 listing all external controls requires use of a GitLab personal access token (glpat/PAT).
@@ -193,10 +231,10 @@ curl -x GET \
   -H 'content-type: application/json'
 ```
 
----
 **GraphQl**
+---
 
-__Types__
+_Types_
 
 ```graphql
 type ProjectsComplianceControlStatus {
@@ -216,9 +254,9 @@ enum ComplianceControlState {
 }
 ```
 
-**Query**
+_Query_
 
-Note: With PAT.
+Note: With personal access token.
 
 ```grqphql
 query GetProjectsComplianceControlStatus($id: ID!) {
@@ -235,8 +273,7 @@ query GetProjectsComplianceControlStatus($id: ID!) {
 
 **Mutation**
 
-Note: With approriate HMAC headers.
-
+Note: With appropriate HMAC headers.
 
 ```graphql
 mutation UpdateProjectsComplianceControlStatus(
