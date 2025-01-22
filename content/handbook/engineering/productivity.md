@@ -52,6 +52,8 @@ As a manager at GitLab, it is your responsibility to understand the value your t
 
 Work with your team to define which metrics will best reflect their contributions to GitLab's strategic goals. These may include MR Rate but should also encompass broader indicators like product impact, customer satisfaction, and operational improvements.
 
+Consider how your choice of metric signals what is important and how it might influence behaviors and outcomes. For example, measuring MR Rate signals that MRs are important (because they are _generally_ an indication of value being delivered to users).
+
 **Measure Value, Not Just Activity**
 
 Track how well your team are contributing to the company's value. This includes not just deliverables but also the quality and strategic alignment of those deliverables.
