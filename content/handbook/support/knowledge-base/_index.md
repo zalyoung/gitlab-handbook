@@ -82,7 +82,7 @@ knowledge base content. This has the following benefits:
 1. Fill out the template with the content you'd like to contribute.
    - Focus more on the technical content.
    - Follow the [style and content guide](./kb-style-guide.md) as closely as you can.
-   - Duo can help quickly generate a first pass of the article. **Always** review generated data by Duo for technical accuracy. Demo availabe on [GitLab Unfiltered](https://www.youtube.com/watch?v=4z6Xnh3B-wU).
+   - Consider [using Duo](#using-ai-to-generate-content) as a first pass.
 1. Create the merge request using the `Knowledge Base Article` template.
 1. Assign reviewers:
    - If timeliness is important, assign a Staff Support Engineer or Support Manager for review.
@@ -104,6 +104,15 @@ Publishing an article should be done by the person who merges a KB MR. After the
 ### Getting Help
 
 Questions can be asked in the dedicated [#spt_knowledge-base](https://gitlab.enterprise.slack.com/archives/C07QDCG4AGH) Slack channel.
+
+### Using AI to generate content
+
+- Only utilise Duo for any customer related (Red) data. Claude is only approved for Orange data at this time.
+- Duo can help quickly generate a first pass of an article. **Always** review generated data by Duo for technical accuracy. You are still the SME of the article and original customer issue.
+- You must be directly on the page of the article template, i.e. [break-fix.md](https://gitlab.com/gitlab-com/support/support-pages/-/blob/master/kb-documentation/templates/break-fix.md). If the request is made in another location, Duo may make up random sections in the article.
+- Examples:
+  - [GitLab Unfiltered](https://www.youtube.com/watch?v=4z6Xnh3B-wU) video(requires authentication) demonstration creating an article by copying ticket data.
+  - [GitLab issue](https://gitlab.com/gitlab-com/support/support-pages/-/issues/7) demonstrating text prompts and output.
 
 ## Roles
 
