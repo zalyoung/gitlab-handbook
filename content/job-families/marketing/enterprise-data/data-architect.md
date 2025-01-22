@@ -7,10 +7,13 @@ title: "Data Architect"
 The Data Architect job family is focused on designing and governing the enterprise-wide data analytics architecture that enables efficient data movement, storage, processing, and consumption across GitLab's Data Platform. This role combines strategic architectural thinking with deep technical expertise to establish and maintain data architecture standards, patterns, and practices that support business objectives while ensuring data quality, security, compliance and scalability.
 
 ## Data Architect
+
 ### Job Grade
+
 The Data Architect is a grade 6 and reports to the Director, Data Platform.
 
 ### Responsibilities
+
 - Design and document data architectures across enterprise systems including Snowflake, dbt, Airflow, and various data sources
 - Architect data pipeline patterns for different source systems (using technology like Stitch, Fivetran, custom Python pipelines, Snowpipe)
 - Create and maintain data flow architectures between source systems, the data platform and downsteram systems
@@ -25,6 +28,7 @@ The Data Architect is a grade 6 and reports to the Director, Data Platform.
 - Create and maintain architecture documentation in GitLab
 
 ### Requirements
+
 - Bachelor's degree in Computer Science, Information Technology, Data Science, or related field; or equivalent experience
 - 2+ years data architecture experience
 - Strong understanding of data warehouse architecture and Snowflake
@@ -38,10 +42,13 @@ The Data Architect is a grade 6 and reports to the Director, Data Platform.
 - Aptitude to thrive in a fully remote organization
 
 ## Senior Data Architect
+
 ### Job Grade
+
 The Senior Data Architect is a grade 7 and reports to the Director, Data Platform.
 
 ### Responsibilities
+
 Extends the Data Architect responsibilities:
 
 - Lead data initiatives from an architectural perspective
@@ -58,6 +65,7 @@ Extends the Data Architect responsibilities:
 - Contribute to data platform roadmap development
 
 ### Requirements
+
 - 5+ years of data architecture experience
 - Deep expertise in data modeling and warehouse architecture
 - Strong knowledge of data governance frameworks
@@ -69,10 +77,13 @@ Extends the Data Architect responsibilities:
 - Strong technical leadership and mentorship skills
 
 ## Staff Data Architect
+
 ### Job Grade
+
 The Staff Data Architect is a grade 8 and reports to the Director, Data Platform.
 
 ### Responsibilities
+
 Extends the Senior Data Architect responsibilities:
 
 - Drive strategic data architecture decisions
@@ -93,6 +104,7 @@ Extends the Senior Data Architect responsibilities:
 - Guide cross-functional initiatives
 
 ### Requirements
+
 - 5-8 years of data architecture experience
 - Deep expertise in modern data architectures
 - Strong understanding of business value of data
@@ -101,10 +113,13 @@ Extends the Senior Data Architect responsibilities:
 - Strong communication and leadership skills
 
 ## Principal Data Architect
+
 ### Job Grade
+
 The Principal Data Architect is a grade 9 and reports to the Director, Data Platform.
 
 ### Responsibilities
+
 Extends the Staff Data Architect responsibilities:
 
 - Translate GitLab vision into strategic data architecture
@@ -124,6 +139,7 @@ Extends the Staff Data Architect responsibilities:
 - Work with data governance team to establish architectural guardrails
 
 ### Requirements
+
 - 8-12 years of data architecture experience
 - Proven leadership in data initiatives
 - Track record of successful platform transformations
@@ -132,10 +148,13 @@ Extends the Staff Data Architect responsibilities:
 - Experience leading large-scale architectural transformations
 
 ## Distinguished Data Architect
+
 ### Job Grade
+
 The Distinguished Data Architect is a grade 10 and reports to the Director, Data Platform.
 
 ### Responsibilities
+
 Extends the Principal Data Architect responsibilities:
 
 - Drive organizational data strategy
@@ -149,6 +168,7 @@ Extends the Principal Data Architect responsibilities:
 - Represent GitLab in industry forums
 
 ### Requirements
+
 - 12+ years of data architecture experience
 - Recognized industry thought leader
 - Track record of transformative initiatives
