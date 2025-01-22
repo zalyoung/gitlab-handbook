@@ -45,7 +45,7 @@ If you have any questions please reach out in #sec-assurance and we'll be happy 
 
 ### Team Manager
 
-Jeff Burrows @jburrows001
+
 
 ## Field Security and Governance
 
