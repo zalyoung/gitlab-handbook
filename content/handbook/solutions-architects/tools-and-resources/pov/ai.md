@@ -37,14 +37,14 @@ We need to proactively identify languages, testing questions and teams with them
   - Give simple and clear instructions to ask for help:
     - Where to create an issue and who to tag
     - Invitation to Office Hours
-- Bias for guided, hands-on activities. See POV activites for inspiration
+- Bias for guided, hands-on activities. See POV activities for inspiration
 - When POV goals are to surface quantitative indicators of improvements brought by AI-powered features, it is tempting to adopt a comparative study approach for the workshops or hackathons described above.
-- It consists of assigning the same task to two groups of developers. One group works “as usual”, while the other is allowed to use AI-powered features. Optionnally, a second assignment is given, and the two groups are switched around.
-- A drawback of this approach is that working without AI-powered features isn’t very fun. Considering how precious it is in enterprise settings to have time dedicated to this kind of initiatives, spending it on “working as usual” may not be ideal.
+- It consists of assigning the same task to two groups of developers. One group works “as usual,” while the other is allowed to use AI-powered features. Optionally, a second assignment is given, and the two groups are switched around.
+- A drawback of this approach is that working without AI-powered features isn’t very fun. Considering how precious it is in enterprise settings to have time dedicated to this kind of initiative, spending it on “working as usual” may not be ideal.
 - As an alternative, ask participants to log, for each task
   - Before: a time estimate if they were working as usual
   - After: the time it actually took, with the help of AI-powered features.
-  - After: include qualitative feedback about comfort of working, quality of software, etc.
+  - After: include qualitative feedback about the comfort of working, quality of software, etc.
 - Familiarize yourself with [Duo Chat best practices](https://about.gitlab.com/blog/2024/04/02/10-best-practices-for-using-ai-powered-gitlab-duo-chat/) and [Duo Code Suggestions top tips](https://about.gitlab.com/blog/2024/06/11/top-tips-for-efficient-ai-powered-code-suggestions-with-gitlab-duo/). There are some great tips and tricks in this blog to assist with integrating Duo Chat and Code Suggestions into a customer’s workflow. Check the documentation for more practical [GitLab Duo uses case](https://docs.gitlab.com/ee/user/gitlab_duo/use_cases.html).
 
 ## Pre-requisites
@@ -64,12 +64,12 @@ Set-up the POV instance with your customer's POV lead or technical counterpart.
 - Getting GitLab Duo trial Licenses
   - For existing GitLab customers, [follow the steps here to request Duo trail](https://docs.gitlab.com/ee/subscriptions/subscription-add-ons.html#start-gitlab-duo-pro-trial)
   - For prospects, request trial licenses [here](https://about.gitlab.com/solutions/gitlab-duo-pro/sales/?toggle=gitlab-duo-pro) 
-- Setup patricipant environment, their IDE and do a trial run. Below few links and documents to help.
+- Setup the patricipant environment, their IDE and do a trial run. Below are a few links and documents to help.
   - GitLab University - [Duo Learning Track](https://university.gitlab.com/pages/ai)
   - Getting Started Documents - [Getting Started with GitLab Duo Enterprise](https://docs.google.com/document/d/1aK8IJMiYCs-7isZ-Ek-FnolY29_WJdexG_x1tkcLGs4/edit?tab=t.0)
   - [Quick Start - Duo links](https://docs.google.com/document/d/14j5H5IlySAhJ0EUpcrpJy3jwQxTdmw5c1uLKVlymEGI/edit?tab=t.0)
 - Import the public [AI POV Plan project template](https://gitlab.com/gitlab-com/account-management/templates/ai-pov-plan) at the root of the POV group, namespace, or instance.
-  - It is intended to be used as a central point of entry for participants, to make all useful information and resources easily discoverable for testers.
+  - It is intended to be used as a central point of entry for participants to make all useful information and resources easily discoverable for testers.
 - Follow the checklist provided in the REAMDE.md to customize this project
 - Configurations needed in the instance or group are better done by the customer's POV lead
   - This way they have ownership and understanding of the configuration
