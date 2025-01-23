@@ -9,6 +9,7 @@ title: "Risk-based Compliance at GitLab"
 - [Evolution of Our Approach](#evolution-of-our-approach)
 - [Industry Validation](#industry-validation)
 - [Risk and Compliance Collaboration](#risk-and-compliance-collaboration)
+- [Impact on External Audits and Regulatory Compliance](#impact-on-external-audits-and-regulatory-compliance)
 - [Additional Resources](#additional-resources)
 
 ## Overview
@@ -103,6 +104,26 @@ flowchart LR
 - Better data to drive risk reporting accuracy and inform risk decision-making
 - More comprehensive view of organizational security posture
 - Reduced redundancy in assessment activities
+
+## Impact on External Audits and Regulatory Compliance
+
+Our risk-based compliance program complements rather than conflicts with our formal audit and certification obligations. This approach is carefully designed to enhance our security posture while maintaining clear boundaries around regulated activities.
+
+We maintain strict separation between:
+
+- SOX compliance activities and associated Section 302 reporting
+- Existing certification and attestation requirements (SOC 2, ISO 27001, etc.)
+- Risk-based compliance activities focused on enterprise security
+
+By explicitly excluding systems and controls in scope for SOX and other certifications/attestations from our testing scope, we ensure our risk-based testing does not interfere with or create confusion around formal audit activities. We maintain distinct documentation, testing schedules, and reporting processes for each domain.
+
+Our findings and metrics remain internal to the security organization and inform our continuous improvement efforts. They are not:
+- Reported to internal audit
+- Shared with external auditors
+- Used for regulatory compliance purposes
+- Included in formal attestations
+
+Note: While our program's findings are for internal security use, standard incident reporting obligations remain in effect should any testing identify an active security incident.
 
 ## Additional Resources
 
