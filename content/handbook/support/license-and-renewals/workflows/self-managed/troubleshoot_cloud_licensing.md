@@ -168,7 +168,7 @@ puts curl_cmd.join(" \\\n  ")
 
 The result should look similar to the one below:
 
-```
+```shell
 curl --trace - --trace-time -X POST \
   "https://customers.gitlab.com/api/v1/seat_links" \
   -H "User-Agent: GitLab/17.6.1-ee" \
@@ -177,7 +177,7 @@ curl --trace - --trace-time -X POST \
   -d '{"gitlab_version":"17.6.1-ee","timestamp":"2025-01-21T12:00:11Z","license_key":"xxxx...\n","max_historical_user_count":2,"billable_users_count":2,"hostname":"gitlab.example.com","instance_id":"aaaaaaaa-0000-0000-aaaa-aaaaaaaaaaaa","add_on_metrics":[{"add_on_type":"duo_enterprise","purchased_seats":10,"assigned_seats":3}]}'
 ```
 
-Notice the `--trace - --trace-time` parameters - this will cause `curl` to produce large amounts of debug output. You can also add `--proxy [protocol://]host[:port] ` if needed.
+Notice the `--trace - --trace-time` parameters - this will cause `curl` to produce large amounts of debug output. You can also add `--proxy [protocol://]host[:port]` if needed.
 
 ### Custom proxy settings
 
