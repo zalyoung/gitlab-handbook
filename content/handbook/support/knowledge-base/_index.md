@@ -107,7 +107,7 @@ Questions can be asked in the dedicated [#spt_knowledge-base](https://gitlab.ent
 
 ### Using AI to generate content
 
-- You **must use Duo** for any customer related ([Red](../security/data-classification-standard.md#red)) data. Claude is only approved for [Orange data](../security/data-classification-standard.md#orange) at this time.
+- You **must use Duo** for any customer related ([Red](../../security/data-classification-standard.md#red)) data. Claude is only approved for [Orange data](../../security/data-classification-standard.md#orange) at this time.
 - Duo can help quickly generate a first pass of an article. **Always** review generated data by Duo for technical accuracy. You are still the SME of the article and original customer issue.
 - You must be directly on the page of the article template, i.e. [break-fix.md](https://gitlab.com/gitlab-com/support/support-pages/-/blob/master/kb-documentation/templates/break-fix.md). If the request is made in another location, Duo may make up random sections in the article.
 - Examples:
