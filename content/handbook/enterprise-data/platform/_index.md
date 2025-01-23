@@ -1099,7 +1099,7 @@ To reprocess a Qualtrics Mailing List request file:
 
 A Data Spigot is a concept/methodology to give external systems, access to Snowflake data in a controlled manner.  To give external systems access to Snowflake, the following controls are in place:
 
-- A dedicated service account.
+- A dedicated service account with a/an key-pair/OAuth authentication.
 - A dedicated view (or views) only exposing the minimum required data. No Personally Identifiable Information (PII) may be disclosed.
 - A dedicated role (or equivalent) with access to only the specified tables/views.
 - A dedicated XS warehouse to limit and monitor costs.
