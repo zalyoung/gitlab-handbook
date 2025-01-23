@@ -159,8 +159,8 @@ ensures we do not need to use API tokens and complicate role management, while
 still ensuring proper authorization.
 
 Since we are only sending project settings for external requirement controls initially,
-we expect users to query the from our catalog of GitLab APIs to get any
-additonal information they need to implement the control on their external service.
+we expect users to query from our catalog of GitLab APIs to get any
+additional information they need to implement the control on their external service.
 We can look to expand on the information we send as we receive feature requests for it.
 
 ###### Workflow
@@ -169,7 +169,7 @@ We can look to expand on the information we send as we receive feature requests 
    and is of `control_type` `external`.
 1. After posting we set the corresponding `project_compliance_configuration_status` entry to state `pending` and
    allow for a timeout of `6 hours`.
-1. There will be a separate, worker, preiodically run, checking for status entries that are older than the
+1. There will be a separate, worker, periodically run, checking for status entries that are older than the
    timeout and still in state `pending`, these entries will be defaulted to a `fail` state.
    (This adds an additional state to what's been mentioned in [ADR001](decisions/001_triggering_checks.md)))
 
