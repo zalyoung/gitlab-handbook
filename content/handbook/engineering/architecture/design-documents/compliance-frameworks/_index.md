@@ -165,7 +165,7 @@ We can look to expand on the information we send as we receive feature requests 
 
 ###### Workflow
 
-1. When evaluating requirements we trigger a message to the external service if it has an `external_url` defined
+1. When evaluating control of a requirement, we send a request to the external service if it has an `external_url` defined
    and is of `control_type` `external`.
 1. After posting we set the corresponding `project_compliance_configuration_status` entry to state `pending` and
    allow for a timeout of `30 mins`.
