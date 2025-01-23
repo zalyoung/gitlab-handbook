@@ -165,7 +165,7 @@ Limitations:
 - Public top-level groups cannot be hosted on other Cells, only on the Legacy Cell.
 - Several [features available on GitLab.com are not supported on Cells](./iterations/cells-1.0.md#features-on-gitlabcom-that-are-not-supported-on-cells) at this iteration.
 
-We will migrate a few small GitLab internal top-level groups to another Cell. There will be no Organization migrations in Cells 1.0. The specific top-level groups to be migrated will be identified in due course.
+We will migrate a few small GitLab internal top-level groups to Organizations on another Cell using direct transfer. There will be migrations of Organizations between Cells for Cells 1.0. The specific top-level groups to be migrated will be identified in due course.
 
 ![gitlab-org-migrations-cells-1-0](/images/design-documents/cells/gitlab_org_migrations_cells_1_0.drawio.png)
 
