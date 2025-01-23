@@ -15,7 +15,7 @@ You must include:
    - Be as specific as possible. If you believe less than the whole project infringes, identify the specific project, file, or line numbers within a file a user would need to delete in order to remedy the infringement.
    - GitLab will not automatically disable forks of a project unless they are explicitly identified within the notice you send. It is your responsibility to determine that the material identified, including any fork(s) included in a notice, independently meet the notice requirements.
 1. **Provide contact information.** Your name, title (if acting as an agent), address, telephone number, and email address;
-1. **Include the following statement:** "I have a good faith belief that the use of the copyrighted material I am complaining of is not authorized by the copyright owner, its agent, or the law (e.g., as a fair use)";
+1. **Include the following statement:** "I have a good faith belief that the use of the copyrighted material I am complaining of is not authorized by the copyright owner, its agent, or the law (for example, as a fair use)";
 1. **Include the following statement:** "The information in this notice is accurate and, under penalty of perjury, I am the owner, or authorized to act on behalf of the owner, of the copyright or of an exclusive right that is allegedly infringed"; and
 1. **Signature.** An electronic or physical signature of the owner of the copyright or a person authorized to act on the owner’s behalf.
 
@@ -51,7 +51,7 @@ The DMCA prohibits the circumvention of technical protection measures that preve
    - How the technical protection measures effectively control access to the copyrighted work; and
    - How the content hosted on GitLab is designed to circumvent those technical protection measures.
 1. **Provide contact information.** Your name, title (if acting as an agent), address, telephone number, and email address;
-1. **Include the following statement:** "I have a good faith belief that the use of the copyrighted material I am complaining of is not authorized by the copyright owner, its agent, or the law (e.g., as a fair use)";
+1. **Include the following statement:** "I have a good faith belief that the use of the copyrighted material I am complaining of is not authorized by the copyright owner, its agent, or the law (for example, as a fair use)";
 1. **Include the following statement:** "The information in this notice is accurate and, under penalty of perjury, I am the owner, or authorized to act on behalf of the owner, of the copyright or of an exclusive right that is allegedly infringed"; and
 1. **Signature.** An electronic or physical signature of the owner of the copyright or a person authorized to act on the owner’s behalf.
 
