@@ -186,7 +186,7 @@ Product tours are published in the following locations:
 
 - [DA Handbook](#product-tours)
 - Highspot
-- Docs (following the GitLab documentation style guide for demo [links](https://docs.gitlab.com/ee/development/documentation/styleguide/#link-to-click-through-demos)
+- Docs (follow the GitLab documentation style guide for demo [links](https://docs.gitlab.com/ee/development/documentation/styleguide/#link-to-click-through-demos))
 
 Additionally, select tours may be featured on the website.
 
