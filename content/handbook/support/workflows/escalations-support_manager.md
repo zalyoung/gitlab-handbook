@@ -28,8 +28,8 @@ The Support Manager DRI has the following goals:
 1. Minimize uncertainties by turning them into well defined risks
 1. Help define a set of exit criteria (goals) for the escalation, and guide the efforts of the Support team to work toward achieving those criteria
 1. Appoint the Lead Support Engineer and sync with the Escalation DRI on the action plan 
-1. Provide timely updates in the escalation slack with other critical details tied to the Escalation 
-1. Work with the Escalation DRI on then Escalation retrospective issue once an escalation is closed
+1. Provide timely updates in the escalation Slack channel with other critical details tied to the Escalation 
+1. Work with the Escalation DRI on the Escalation retrospective issue once an escalation is closed
 
 ## Uncertainty
 
@@ -85,7 +85,7 @@ From a technical perspective, the Lead Support Engineer will orchestrate the res
 
 ### Step 2: Define Scope and Exit Criteria
 
-- Define a clear scope of work with the escalation team. Be sure to state the exit criteria (goals). Both the scope and exit criteria need to be documented in the Support Escalation slack channel.
+- Define a clear scope of work with the escalation team. Be sure to state the exit criteria (goals). Both the scope and exit criteria need to be documented in the Support Escalation Slack channel.
 
 - Through collaboration with the customer, identify the tickets that relate directly to the escalation, and note those in the channel as well
 
@@ -104,7 +104,7 @@ Work with the escalation team to provide daily or weekly updates in the related 
 - Next steps
 - Blockers
 
-Help maintain updates (in collaboration with the escalation team) in the slack as the Escalation DRI will gather the information here and feed it back to the SalesForce case and have it there as SSOT.
+Help maintain updates (in collaboration with the escalation team) in the Slack channel as the Escalation DRI will gather the information here and feed it back to the SalesForce case and have it there as SSOT.
 
 #### Pausing Daily Updates
 
