@@ -68,7 +68,7 @@ More information on merge request coaches (including how to become a merge reque
 
 ### For community contributors
 
-To contribute to the [GitLab Enterprise Edition](https://gitlab.com/gitlab-org/gitlab/-/tree/master/ee), community contributors will need a license for EE. If they don't already have a license, they can get a [free trial for 30 days](https://about.gitlab.com/free-trial/) (choose the Self-Managed option). If they cannot complete their work in 30 days, a new EE license for 90 days for a limited number of users (100) can be issued.
+To contribute to any of the paid features in [GitLab Enterprise Edition](https://gitlab.com/gitlab-org/gitlab/-/tree/master/ee), community contributors will need to add a license to their GDK. If they don't already have a license, they can get a [free trial for 30 days](https://about.gitlab.com/free-trial/) (choose the Self-Managed option). If they cannot complete their work in 30 days, a new EE license for 90 days for a limited number of users (100) can be issued.
 
 Renewal of this license:
 
@@ -87,7 +87,7 @@ To be completed by a GitLab team member:
 
 #### Process
 
-- Access the GitLab support [form](https://support-super-form-gitlab-com-support-support-op-651f22e90ce6d7.gitlab.io/).
+- Access the GitLab support [form](https://support-super-form-gitlab-com-support-support-op-651f22e90ce6d7.gitlab.io/). (Internal link for team members only)
 - Select "GitLab L&R request for global customers" as the initial option
 - Choose "Wider community license" from the subsequent dropdown
 - Fill out the required fields provided in the request issue.
@@ -99,9 +99,10 @@ To be completed by a GitLab team member:
   - Expiration date:
     - 90 days for new contributors
     - 1 year for renewals
-- Include relevant details about their contributions and request in "What is the reason for the license being issued?"
+  - Use Nick's email as approving manager if it is a 1 year renewal
+- In "What is the reason for the license being issued?" specify `Wider community contributor EE license request` and add a link to the license request issue.
 - Add a public comment to the request issue indicating the request has been submitted   
-- Save the ‘submission’ from the super support form in case there are issues
+- The support form, when submitted, gives the user a link to the pipeline that "creates" the request in Zendesk. Save the link to this pipeline in an internal comment in case there are any issues that need investigating later.
 
 The Support team will respond following [this workflow](/handbook/support/license-and-renewals/workflows/self-managed/creating-wider-community-license) within 24 hours.
 
