@@ -126,7 +126,7 @@ The Senior Manager, Professional Services Technical Architects role reports to t
 
 ### Professional Experience
 
-At GitLab, due to the pace at which we are moving, people joining our team will be expected to have significant professional experience in the primary engineering tools of their specialty. For Professional Services Architects, this means work and consulting experience using IaC/CaC technologies on one or more of the main cloud providers, strong DevSecOps experience with multipe tools as well as experience deploying, maintaining, and administering a GitLab instance.
+At GitLab, due to the pace at which we are moving, people joining our team will be expected to have significant professional experience in the primary engineering tools of their specialty. For Professional Services Architects, this means work and consulting experience using IaC/CaC technologies on one or more of the main cloud providers, strong DevSecOps experience with multiple tools as well as experience deploying, maintaining, and administering a GitLab instance.
 
 ### Job Grades
 
