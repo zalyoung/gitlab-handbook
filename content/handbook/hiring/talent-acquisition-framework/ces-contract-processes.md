@@ -137,8 +137,9 @@ Consistent with GitLab's policy governing Hiring Significant Others or Family Me
 
 To change a start date after a **GitLab entity** contract has been signed and the new team member has been "hired" in GreenHouse the Candidate Experience Specialist will complete the following steps:
 
-1. Confirm the start date via email with the new team member, the recruiter, the hiring manager, and the Candidate Experience Specialist.
-1. Save the email as a pdf file for upload into Workday.
+1. Once the recruiter notifies CES of the start date change, CES should send the “Start Date Change Confirmation” template in Greenhouse under “email the team” and ensure all necessary fields are filled in.
+1. After receiving confirmation from both the Hiring Manager and the New Hire, save the confirmation email as a PDF file for upload into Workday.
+
 1. Update GreenHouse:
    - Offer Details
    - Click the edit pencil next to the start date
