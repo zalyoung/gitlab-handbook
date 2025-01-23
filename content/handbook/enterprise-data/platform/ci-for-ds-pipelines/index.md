@@ -116,7 +116,7 @@ Let's take a detailed look at the repository (**Code -> Repository**):
          - ***Note:*** De-select the "Protect Variable" flag to enable experiment tracking on unprotected branches. Tick "Mask variable" to prevent the value from showing in the logs. ![Create CI Variables](/images/enterprise-data/platform/ci-for-ds-pipelines/create_ci_variables.png)
 1. Now, let's make some changes to activate our training pipeline:
 1. Create a new branch (**Code -> Branches -> New Branch**)
-     - <img src="new_branch.png" width="500" alt="">
+     - <img src="/images/enterprise-data/platform/ci-for-ds-pipelines/new_branch.png" width="500" alt="">
 1. (Optional) Configure your runners:
      - GPU runners are available for Premium and Ultimate users. If enabled, edit `.gitlab-ci.yml` and change the value of `TRAIN_RUNNER` to a GPU runner (e.g. `saas-linux-medium-amd64-gpu-standard`).
      - The default value `saas-linux-small-amd64` will work for all account types.
@@ -127,7 +127,7 @@ Let's take a detailed look at the repository (**Code -> Repository**):
 1. Click on "**Pipelines**" and you should see the training pipeline running. Click into the pipeline to see which stage the pipeline is in.
    - ***Note:*** If you did not set up the step above "Write Model Metrics to Merge Request", then the `publish-metrics-comment` job will fail. The pipeline will still pass with warnings ![Training Pipeline Jobs](/images/enterprise-data/platform/ci-for-ds-pipelines/training_pipeline_jobs.png)
 1. Once the pipeline has finished, you will see a new comment posted on the merge request that contains some model metrics from the run (assuming you set up Write Model Metrics to Merge Request).
-   - <img src="model_metrics.png" width="700" alt="">
+   - <img src="/images/enterprise-data/platform/ci-for-ds-pipelines/model_metrics.png" width="700" alt="">
 1. Now let's look at the experiment run we just completed with our CI pipeline (**Analyze -> Model Experiments**)
    - Click on your experiment name.
    - You should see a new run logged from the CI Pipeline. Click into that run.
@@ -220,18 +220,18 @@ Now that we have our model trained and scoring pipeline set up, we can focus on 
    - Set target tag to `1.0.0`. This is the tag we just created.
    - We need to setup one variable, `SCORING_NOTEBOOK` with the location of the notebook we want to schedule `notebooks/scoring_example.ipynb`
    - Tick "Activated" and save the changes.
-   - <img src="pipeline_schedule.png" width="700" alt="">
+   - <img src="/images/enterprise-data/platform/ci-for-ds-pipelines/pipeline_schedule.png" width="700" alt="">
 1. Test out your schedule by manually triggering it
    - Should see the pipeline start to run
    - It will use the production container than was created when you created the `1.0.0` tag, named `production-1.0.0`
 1. View the logs and model metrics
    - Navigate to **Plan -> Wiki** and you will see a list by timestamp of all the times the scheduled pipeline has run, with links to the job logs and model metrics.
-   - <img src="wiki.png" width="700" alt="">
+   - <img src="/images/enterprise-data/platform/ci-for-ds-pipelines/wiki.png" width="700" alt="">
 1. Configure Slack notifications (optional):
    - In your GitLab project, go to **Settings -> Integrations -> GitLab for Slack**
    - Follow the instructions in the [GitLab For Slack app documentation](https://docs.gitlab.com/ee/user/project/integrations/gitlab_slack_application.html)
    - We've setup our slack notifications so that notifications are sent to our #data-science-pipelines channel only when a pipeline fails. If a pipeline succeeds, a notification is not sent.
-   - <img src="slack_notifications.png" width="700" alt="">
+   - <img src="/images/enterprise-data/platform/ci-for-ds-pipelines/slack_notifications.png" width="700" alt="">
    - Save your changes
 
 ## Slack Notifications (optional)
@@ -239,6 +239,6 @@ Now that we have our model trained and scoring pipeline set up, we can focus on 
 - In Slack, add the GitLab for Slack app
 - Follow the instructions in the [GitLab For Slack app documentation](https://docs.gitlab.com/ee/user/project/integrations/gitlab_slack_application.html)
 - We've setup our slack notifications so that notifications are sent to our #data-science-pipelines channel only when a pipeline fails. If a pipeline succeeds, a notification is not sent.
-- <img src="slack_notifications.png" width="700" alt="">
+- <img src="/images/enterprise-data/platform/ci-for-ds-pipelines/slack_notifications.png" width="700" alt="">
 
 **And that's it! Feel free to modify these pipelines and notebooks to fit your data science modeling needs. And be sure to check out all the other great data science resources on our [Data Science Handbook Page](/handbook/enterprise-data/organization/data-science/). If you are experiencing any difficulty or if you have any suggestions to improve these pipelines, feel free to [open an issue with us](https://gitlab.com/gitlab-data/data-science-ci-example/-/issues/new). Happy pipelining!**
