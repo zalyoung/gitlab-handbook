@@ -132,6 +132,8 @@ Due to IRS guidelines, you cannot make changes to your health insurance benefits
 
 A QLE is a change in your situation — like getting married, having a baby, etc that can make you eligible for a special enrollment period. You must wait until the event date has passed to submit your Qualifying Life Event. You have ***30 days from the date of your qualifying event*** to submit your requested change to PlanSource.
 
+Please note, Team members are unable to submit Qualifying Life Events (QLEs) in advance. Please wait until the event date has passed before submitting your QLE.
+
 Once approved, coverage will be backdated to the date of the event.
 
 Please see the [FSA](/handbook/total-rewards/benefits/general-and-entity-benefits/inc-benefits-us/#flexible-spending-account-fsa-plans-) and [HSA](/handbook/total-rewards/benefits/general-and-entity-benefits/inc-benefits-us/#health-savings-account-hsa) section of the Handbook for details on Mid-Year Qualifying Life Event changes to these plans.
