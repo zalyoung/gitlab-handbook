@@ -227,11 +227,12 @@ Most of the information above can be found in the official [Cloud SQL documentat
   - [CloudSQL Database Migration Services](https://cloud.google.com/database-migration)
   - Also, evaluate options to migrate data out of CloudSQL.
 - Evaluate time and impact of PostgreSQL major version upgrades in a 50k reference architecture.
-  -  CloudSQL does not have a direct equivalent to AWS RDS Blue/Green deployments, so solutions must be engineered in-house.
+  - CloudSQL does not have a direct equivalent to AWS RDS Blue/Green deployments, so solutions must be engineered in-house.
 - How long does it take to create a read-replica, or a new cluster from a backup? `10GB`, `100GB`, `1TB`, `2TB`?
 - Evaluate disaster recovery options, including delayed replicas.
+- Validate CloudSQL's backup and recovery strategies, including Point-in-Time Recovery (PITR), and review the [the high availability (HA) configuration for CloudSQL](https://cloud.google.com/sql/docs/postgres/high-availability) to minimize downtime during a zonal outage or hardware failure.
 
-##### Evaluate Changes Over Current Dedicated(RDS/CloudSQL) Deployment
+##### Evaluate Changes Over the Current Dedicated(RDS/CloudSQL) Deployment
 
 - Assess options to implement Enhanced Monitoring with finer granularity (<10 seconds), utilizing Postgres Exporter with custom queries (e.g., `pg_stat_activity`, `pg_stat_statements`) and Prometheus with more frequent scraping. 
 - Evaluate offloading read operations to Standby Replicas.
@@ -242,7 +243,6 @@ Most of the information above can be found in the official [Cloud SQL documentat
 - Load and Configure `auto_explain`.
 - Implement "logical backup" solution.
 - Review [Cloud Monitoring](https://cloud.google.com/monitoring) and (Alerting](https://cloud.google.com/monitoring/alerts)
-
 
 ### k8s Operator
 
