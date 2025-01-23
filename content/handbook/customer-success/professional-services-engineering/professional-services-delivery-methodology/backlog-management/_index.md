@@ -17,7 +17,7 @@ The problem arises from a combination of issues such as:
 
 The following picture shows how these things are strongly related:
 
-![IntegrateBizAndIT.jpg](/images/customer-success/professional-services-engineering/processes/professional-services-delivery-methodology/backlog-management/IntegrateBizAndIT.jpg)refi
+![IntegrateBizAndIT.jpg](/images/customer-success/professional-services-engineering/professional-services-delivery-methodology/backlog-management/IntegrateBizAndIT.jpg)refi
 
 ## Prerequisites
 
@@ -33,7 +33,7 @@ To reiterate some of the basic preconditions that have to be met in order to eff
 
 The Program Manager / Project Manager provides strategy and direction for the project, which means he/she is responsible for providing the vision, product roadmap, release goals, sprint goal. The Program Manager / Project Manager is expected to insert, re-prioritize, refine, or delete items from the product backlog; this can happen any time until the sprint scope is defined and committed to by the development team.
 
-![Backlog Change](/images/customer-success/professional-services-engineering/processes/professional-services-delivery-methodology/backlog-management/refine-backlog.png)
+![Backlog Change](/images/customer-success/professional-services-engineering/professional-services-delivery-methodology/backlog-management/refine-backlog.png)
 
 [Sizing and estimation](../good-estimation-techniques/_index.md) of the product backlog usually occurs in sprint planning meetings or at regularly intervals during ongoing sprints. Depending on how fast the Program Manager / Project Manager adds user stories, more frequent, maybe even daily estimation sessions might be needed. The GitLab Implementation Team and the Customer Development Team and Program Manager / Project Manager must work together to estimate the backlog items, may that be in sprint planning meetings or during ongoing regular sessions.
 
@@ -57,19 +57,19 @@ Many efforts require you to manage three backlogs:
 2. The **Release Backlog**, which is the subset of functionality that will have to be delivered in a specific release (consisting of a set of sprints), according to the product roadmap and release plan – active for a specific release
 3. The **Sprint Backlog**, which represents the work to be done for the upcoming sprint – active for the sprint duration
 
-![Product Backlog](/images/customer-success/professional-services-engineering/processes/professional-services-delivery-methodology/backlog-management/Agile-Release-Planning.jpg){width="767" height="518"}
+![Product Backlog](/images/customer-success/professional-services-engineering/professional-services-delivery-methodology/backlog-management/Agile-Release-Planning.jpg){width="767" height="518"}
 
 Labels can be used to tag user stories / issues.
 
-![Release Labels](/images/customer-success/professional-services-engineering/processes/professional-services-delivery-methodology/backlog-management/Release-Label.jpg){width="330" height="45"}
+![Release Labels](/images/customer-success/professional-services-engineering/professional-services-delivery-methodology/backlog-management/Release-Label.jpg){width="330" height="45"}
 
 Using such tagging lets you easily view relevant information about the specific user story and what state it is in.
 
 Usually the next upcoming sprint is sized and estimated in detail using Estimation Poker, with the following two to three sprints and their contents being sized and estimated using either Estimation Poker or T-Shirt Sizing. Remember that once a sprint is committed to by the team, the scope should not change any longer as you are "in-flight" - changing stories "in-flight" causes unnecessary context switching, which is costly in terms of productivity. Future sprints can still be adjusted and items can be reshuffled as the Product Owner and Development Team agree on.
 
-![Release Backlog](/images/customer-success/professional-services-engineering/processes/professional-services-delivery-methodology/backlog-management/Agile-Release-Planning-Sprint.jpg){width="767" height="518"}
+![Release Backlog](/images/customer-success/professional-services-engineering/professional-services-delivery-methodology/backlog-management/Agile-Release-Planning-Sprint.jpg){width="767" height="518"}
 
-![Sprint Backlog](/images/customer-success/professional-services-engineering/processes/professional-services-delivery-methodology/backlog-management/Sprint-Backlog.jpg){width="753" height="251"}
+![Sprint Backlog](/images/customer-success/professional-services-engineering/professional-services-delivery-methodology/backlog-management/Sprint-Backlog.jpg){width="753" height="251"}
 
 Product Backlog Items and Sprint Backlog Items may contain more than just user stories, but regardless what exactly is in the specific backlog, it is supposed to represents all work items that consume team capacity. This includes the actual user story describing the engagement feature to be implemented, defects, research, and other technical tasks.
 
@@ -93,7 +93,7 @@ The single most important artifact impacting the success or failure of your enga
 
 Agile is a simple process, with 6 roles, 5 events, and 9 artifacts.
 
-![Roles Events Artifacts](/images/customer-success/professional-services-engineering/processes/professional-services-delivery-methodology/backlog-management/Roles-Events-Artifacts.png)
+![Roles Events Artifacts](/images/customer-success/professional-services-engineering/professional-services-delivery-methodology/backlog-management/Roles-Events-Artifacts.png)
 
 Only 8 artifacts are shown above - the working system left behind is implicitly considered the 9th.
 

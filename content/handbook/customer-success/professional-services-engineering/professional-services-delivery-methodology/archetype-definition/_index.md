@@ -25,9 +25,9 @@ What are key characteristics?
   * Black Friday
   * 4th of July Sales Event
 
-![ScalingCharacteristics.jpg](/images/customer-success/professional-services-engineering/processes/professional-services-delivery-methodology/archetype-definition/ScalingCharacteristics.jpg)
+![ScalingCharacteristics.jpg](/images/customer-success/professional-services-engineering/professional-services-delivery-methodology/archetype-definition/ScalingCharacteristics.jpg)
 
-![ScalingTeamCompositions.jpg](/images/customer-success/professional-services-engineering/processes/professional-services-delivery-methodology/archetype-definition/ScalingTeamCompositions.jpg)
+![ScalingTeamCompositions.jpg](/images/customer-success/professional-services-engineering/professional-services-delivery-methodology/archetype-definition/ScalingTeamCompositions.jpg)
 
 ### Scaling Considerations
 

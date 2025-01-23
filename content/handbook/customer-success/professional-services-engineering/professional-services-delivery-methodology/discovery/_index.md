@@ -3,7 +3,7 @@ title: "Discovery"
 description: "Learn about the best practices of performing discovery sessions with a Customer."
 ---
 
-![Discovery.jpg](/images/customer-success/professional-services-engineering/processes/professional-services-delivery-methodology/discovery/Discovery.jpg)
+![Discovery.jpg](/images/customer-success/professional-services-engineering/professional-services-delivery-methodology/discovery/Discovery.jpg)
 
 ## How Will Discovery be Conducted?
 
