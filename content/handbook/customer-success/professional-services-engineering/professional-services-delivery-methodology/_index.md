@@ -1,6 +1,5 @@
 ---
 title: "Professional Services Delivery Methodology"
-description: "Learn the processes and methodology that GitLab Professional Services uses to help ensure Customer Success."
 ---
 
 ## What is the Professional Services Delivery Methodology (PSDM)
@@ -242,6 +241,7 @@ By optimizing and automating internal controls (sign-offs / approvals), cycle ti
 * Cycle times are greatly reduced and value streams are more optimized
 * Cost savings are achieved due to a simplified tool chain using the GitLab platform -->
 
+<<<<<<< HEAD:content/handbook/customer-success/professional-services-engineering/processes/_index.md
 <!-- ## PS Process & Methodology Mapped to the Customer Journey
 
 The Professional Services process and methodology fits within the Customer journey that is supported by Customer Success.Professional Services contributes to the customer journey from the point of **SOW Close** through the **Project Closee** phase.
@@ -381,6 +381,13 @@ Once the SOW is fully executed, the deal desk team updates the Salesforce PS-Onl
 TODO: update this with documents and delivery kits that are organized to help the delivery team be successful with the engagement.
 
 ![''](/images/customer-success/professional-services-engineering/processes/PS-delivery-workflow.png) -->
+=======
+<!-- ### Journal Epic (Delivery Kit)
+
+TODO: update this with documents and delivery kits that are organized to help the delivery team be successful with the engagement.
+
+![''](../PS-delivery-workflow.png)  -->
+>>>>>>> ce18ee7fa725747fbca54c5c24effbb639c03e41:content/handbook/customer-success/professional-services-engineering/professional-services-delivery-methodology/_index.md
 
 <!--This page provides scoping questions designed to collect details and uncover the customer's required capabilities. This ensures alignment of the SOW and PS delivery with the positive business outcomes the customer is looking for.  While not an exhaustive list, these questions and suggestions will help spark the discovery conversations.
 

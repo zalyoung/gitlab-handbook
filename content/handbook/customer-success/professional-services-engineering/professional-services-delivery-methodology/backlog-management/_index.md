@@ -17,7 +17,11 @@ The problem arises from a combination of issues such as:
 
 The following picture shows how these things are strongly related:
 
+<<<<<<< HEAD:content/handbook/customer-success/professional-services-engineering/processes/professional-services-delivery-methodology/backlog-management/_index.md
 ![IntegrateBizAndIT.jpg](/images/customer-success/professional-services-engineering/processes/professional-services-delivery-methodology/backlog-management/IntegrateBizAndIT.jpg)refi
+=======
+![IntegrateBizAndIT.jpg](/images/professional-services/IntegrateBizAndIT.jpg)
+>>>>>>> ce18ee7fa725747fbca54c5c24effbb639c03e41:content/handbook/customer-success/professional-services-engineering/professional-services-delivery-methodology/backlog-management/_index.md
 
 ## Prerequisites
 
