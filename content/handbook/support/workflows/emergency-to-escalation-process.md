@@ -44,4 +44,4 @@ Here are a few things to keep in mind:
 
 ## Closing an Account Escalation
 
-Follow the steps to [close the escalation](/handbook/customer-success/csm/escalations/#closing-the-escalation) if there is an agreement with the Escalation DRI.
+Follow the steps to [close the escalation](/handbook/customer-success/csm/escalations/#closing-the-escalation) once the Escalation DRI has agreed to the closing.
