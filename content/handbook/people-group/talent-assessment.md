@@ -24,7 +24,7 @@ There are many talent assessment options, and we have opted to use a Performance
 
 GitLab's Performance/Growth Potential Matrix is a type of talent assessment that forms part of our [Talent Development Program](/handbook/people-group/talent-development-program/).
 
-The FY5 talent assessment should consider performance from the period FY25Q1 - FY25Q4
+The FY25 talent assessment should consider performance from the period FY25Q1 - FY25Q4
 
 In addition to assessing Performance/Growth Potential, we annually review Key Talent aligned with the criteria outlined below on this page. The combination of Performance/Growth Potential and Key Talent assessments allow us to identify team members who drive the organization's success and use our engagement tools to retain them.
 
@@ -109,7 +109,7 @@ Examples:
 
 Note that this is an expected distribution, not a forced distribution. The bell curve distribution aligns with what is most commonly used as a benchmark in the industry and serves as a baseline for us to review and calibrate against. There may be exceptions that are justified that can be discussed and reviewed during calibration. Where deviations from the expected distribution occur, managers should use this as a data point to further review and work with their leadership to ensure appropriate growth plans are in place, proper role fit exists, hiring plans are adjusted, that we are promoting at a fair and accurate rate.
 
-**We expect roughly ~5% of team members to be assess as [TNTR (Too New To Rate)](/handbook/people-group/talent-assessment/#too-new-to-rate).**
+**We expect roughly ~5% of team members to be assessed as [TNTR (Too New To Rate)](/handbook/people-group/talent-assessment/#too-new-to-rate).**
 Performance:
 
 - **Developing**: 10%, not yet meeting all of the expectations
@@ -292,7 +292,7 @@ The calibration session is one of the most important pieces of the Performance/G
 - Leaders should feel comfortable providing feedback on team members in other functions that they have direct experience working with.
 - Focus on discussing artifacts that are relevant to the performance factor and refrain from discussing artifacts that are not relevant to performance being developing, performing or exceeding. Examples of artifacts which are not relevant: upcoming maternity/parental leave, personal information/home situation or things that were confidentially shared and do not relate to performance.
 - Refer to the competencies, job family, job frameworks and values when deciding what is relevant.
-- Utilize the SBI model for [feedback](/handbook/people-group/guidance-on-feedback/#s-b-i-model). Focus on facts and avoid blanket statements as opposed to (i.e. [team member] has poor communication), "[team member] struggled with collaboration during the roll-out of x project and could have improved communciation by ensuring they aligned with x stakeholders more regularly during the process. The impact of this was x."
+- Utilize the SBI model for [feedback](/handbook/people-group/guidance-on-feedback/#s-b-i-model). Focus on facts and avoid blanket statements as opposed to (i.e. [team member] has poor communication), "[team member] struggled with collaboration during the roll-out of x project and could have improved communication by ensuring they aligned with x stakeholders more regularly during the process. The impact of this was x."
 - Calibration is not a stack ranking of team members. While some inter-person comparison may happen, it should only be to ensure that evaluations are being applied fairly across different raters.
 - **Ask questions and provide feedback!** This may seem obvious, but it is an important aspect to help identify any potential bias
 
@@ -319,14 +319,13 @@ It is **absolutely essential** that managers complete the required pre-work to e
 - Review the team member's own [Self-Evaluation](#team-member-self-evaluations)  if they have completed one, if they wished to complete one.
 - Review the Job Family/Families that will be calibrated in detail
 - Review our competencies
-  - [Talent Assessment Training in LevelUp](https://levelup.gitlab.com/access/saml/login/internal-team-members?returnTo=https://levelup.gitlab.com/learn/course/talent-assessment)
+  - [Talent Assessment Training](https://university.gitlab.com/access/saml/login/internal-team-members?returnTo=https://university.gitlab.com/learn/course/fy26-talent-assessment-training)
   - [Job frameworks](/handbook/company/structure/#job-frameworks)
   - [High Performing Team Indicators](/https://internal.gitlab.com/handbook/company/high-performing-teams/?search=values#high-performing-teams-indicators)
   - [Values competencies](/handbook/people-group/competencies/#values-competencies)
   - [Remote work competencies](/handbook/people-group/competencies/#remote-work-competencies)
   - [Functional competencies](/handbook/people-group/competencies/#functional-competencies) *(if applicable)*
 - Review our [Unconscious Bias](/handbook/company/culture/inclusion/unconscious-bias/) handbook page and consider watching our [Recognizing Bias Training](/handbook/company/culture/inclusion/unconscious-bias/#recognizing-bias-training) if you haven't already.
-- Review the [Performance/Growth Potential Matrix Training Information](https://docs.google.com/presentation/d/151ys8xkOak9ifU9IPXQydZ44sb_BoMpMocWmjVonLHE/edit), which delves into definitions for each box.
 - Determine the appropriate box for each of your team members
 - Add notes for each of your team members to the agenda, at least 12 hours before the session
   - An example of notes could include:
@@ -360,12 +359,12 @@ After the calibration sessions the performance and growth potential outcomes can
 Below is the high level timeline for the formal assessment beginning in Q4 FY25 (January). Different departments may have additional due dates built into the high level timeline, so please follow up with your [People Business Partner](/handbook/people-group#people-business-partner-alignment-to-division) if you have any questions.
 
 - **2025-01-27:** Kick off Optional Self-Evaluation cycle for all Team Members
-- **2025-02-06 (5:00pm PST):** Due date for all Self-Evaluations
-- **2025-02-07:** Managers begin to review thier team members self evaluations and gather feedback. Workday Calibration cycle opens and Calibration discussions occur
+- **2025-02-07:** Due date for all Self-Evaluations
+- **2025-02-10:** Managers begin to review their team members self evaluations and gather feedback. Workday Calibration cycle opens and Calibration discussions occur
 - **2025-02-28:** 5:00pm PST Workday Calibration will be locked
 - **2025-03-03**: Kick off the Manager Evaluation cycle in Workday
 - **2025-03-07:** Annual Compensation Review Kicks off for Managers
-- **2025-03-17:** Due date for all Manager evaluations. 5:00pm PST Talent Assessment in Workday is locked.
+- **2025-03-17:** Due date for all Manager evaluations. Talent Assessment in Workday is locked.
 - **2025-03-31 to 2025-04-02:** Total Rewards and final E-Group review and approval
 - **2025-04-27 to 2025-04-30:** Managers can communicate Performance/Growth Potential assessment and Annual Compensation Review to team members
 - **TBD:** Talent Assessments pending in Workday will be auto advanced to team members*
@@ -373,7 +372,7 @@ Below is the high level timeline for the formal assessment beginning in Q4 FY25 
 
 *Team members who are on Leave of Absence (LOA) on TBD are excluded from the auto advancement of their talent assessment until they return to work.
 
-Note: For full details on our Annual Compensation Review (ACR) timeline and cycle, pelase refer to our ACR [handbook page](/handbook/total-rewards/compensation/compensation-review-cycle/).
+Note: For full details on our Annual Compensation Review (ACR) timeline and cycle, please refer to our ACR [handbook page](/handbook/total-rewards/compensation/compensation-review-cycle/).
 
 ### Cadence
 
@@ -385,7 +384,9 @@ Anyone hired on or before January 31st should receive a Performance and Growth P
 
 ### Team Member Self-Evaluations
 
-It is up to all team members' discretion if they wish to complete their Self-Evaluation in Workday. While they are volunatary, self evaluations are highly encouraged so the team member's perspective is captured and shared with their manager prior to the manager's evaluation and Calibration Sessions. Please review the most current [timeline](#timeline) to ensure a timely delivery.
+It is up to all team members' discretion if they wish to complete their Self-Evaluation in Workday. While they are voluntary, self evaluations are highly encouraged so the team member's perspective is captured and shared with their manager prior to the manager's evaluation and Calibration Sessions. Please review the most current [timeline](#timeline) to ensure a timely delivery.
+
+Team members may use Claude, Insights, and GitLab Wrapped to assist in the preparation of your self evaluation.  AI tools like these can be super helpful to assist you in gathering information about your accomplishments, or helping you brainstorm how you might refine your self evaluation. However, meaningful human input and review is always required, and you should not rely solely on Claude to write your self-evaluation.
 
 ### Matrix Assessment Timeline
 
@@ -408,8 +409,9 @@ Aligned with the [timeline](#timeline), managers can see final assessments for e
 
 The cut-off date to determine whether to assess team members as Too New to Rate based on recent promotion/transfer for the FY25 Talent Assessment cycle is based on their time in role prior to the start of the Talent Assessment cycle, **2025-01-27**. Guidelines are as follows:
 
-1. **If a team member interviews and transfers or is promoted to a new role, with an effective date *within* 90 days of the start of the talent assessment cycle or throughout the talent assessment cycle (on or after 2024-10-01), guidance would be that they should be assessed as Too New to Rate.**
-1. **If a team member interviews and transfers to a new role or was promoted to a new role more than 90 days before the start of the talent assessment cycle (on or before 2024-10-01) they would be assessed based on the new level/role.**
+1. **If a team member interviews and transfers or is promoted to a new role, with an effective date *within* 90 days of the start of the talent assessment cycle or throughout the talent assessment cycle (on or after 2024-10-01), guidance would be that they should be assessed as Too New to Rate.** For example, if a Senior Manager is promoted to Director on 2024-11-02, they would be assessed as `Too New to Rate` for the Talent Assessment cycle. 
+1. **If a team member interviews and transfers to a new role or was promoted to a new role more than 90 days before the start of the talent assessment cycle (on or before 2024-10-01) they would be assessed based on the new level/role.** For example, if a Senior Manager is promoted to Director on 2024-09-15, they would be assessed based on the new Director-level role for the Talent Assessment cycle.
+1. **Exception for FY25 Talent Assessment Cycle**: Due to the transition of our promotion cycles, team members who receive a promotion effective in the FY26 Q1 (Feb 1) cycle, will receive a talent assessment rating that is reflective of their full FY25 performance, and not be classed as TNTR for this talent assessment cycle. For example, if a Senior Manager is promoted to Director effective 2025-02-01, their Talent Assessment should reflect their Senior Manager level to ensure we are capturing a full year of Performance and Growth Potential feedback.
 
 It is important to note that because being promoted recognizes high performance both in terms of increased scope/responsibility and monetarily through compensation increase therefore a **promotion "resets" the performance factor evaluation**.
 
@@ -489,6 +491,12 @@ The Talent Assessment involves all team members and managers.
 - Team Members are assessed according to [performance](#what-is-performance) and [growth potential](#what-is-growth). Team Members should be prepared to have a conversation with their manager about their performance and growth potential in **Q1** each year.
 - Managers assess their team members' [performance](#what-is-performance) and [growth potential](#what-is-growth). Managers attend calibration meetings in which team members' ratings are discussed and evaluated to ensure consistency and minimize bias. Once the program closes, managers are responsible for communicating Performance/Growth Potential Factor to team members.
 
+- **Can I use Claude or other AI tools to help me with my self evaluation?**
+- Yes. You may use Claude, Insights, and GitLab Wrapped to assist in the preparation of your self evaluation.  AI tools like these can be super helpful to assist you in gathering information about your accomplishments, or helping you brainstorm how you might refine your self evaluation. However, meaningful human input and review is always required, and you should not rely solely on Claude to write your self-evaluation.
+
+- **Can I utilize Claude or other AI tools to help with manager evaluations?**
+- Claude is the only AI tool you are permitted to use for this purpose, and it may only be used to assist in the writing of manager evaluations. Use of Insights, GitLab Wrapped, or any other AI tool for the assessment of team members or the writing of manager evaluations is not permitted. Claude can be super helpful to assist you in brainstorming how you might refine the feedback in your manager evaluation. However, meaningful human input is required in assessing performance and growth potential of your team members, and you should not rely solely on Claude to write manager evaluations. We also have a robust calibration process in our talent assessment program to ensure we are consistently and fairly assessing performance and growth potential across GitLab.
+
 - **How does this impact the way I work at GitLab?**
   - [The Performance Assessment](#what-is-performance) is an evaluation of your performance against [job family responsibilities](#job-family-responsibilities-and-functional-competencies) and [GitLab competencies](#gitlab-competencies) and [Growth](#what-is-growth) is evaluated against the 4 pillars of Growth Potential. Both can help you determine strengths and improvement areas that you can apply in your day-to-day work/way you work.
 
@@ -504,9 +512,7 @@ The Talent Assessment involves all team members and managers.
   - Team members who are on a formal Underperformance remediation plan, such as a [Performance Improvement Plan](/handbook/leadership/underperformance/#performance-improvement-plan-pip), are not eligible for a compensation increase as a result of the [Annual Compensation Review](/handbook/total-rewards/compensation/compensation-review-cycle/).
 
 - **Will my Growth Potential assessment impact my compensation?**
-  - Yes in FY25 both Performance, Growth Potential, and Key Talent Assessment can impact your Total Rewards.
-
-    If you have any questions, please reach out to your aligned [People Business Partner](/handbook/people-group/#people-business-partner-alignment-to-division).
+  - Yes both Performance, Growth Potential, and Key Talent Assessment can impact your Total Rewards.
 
 - **Can my performance factor be changed?**
   - After the Talent Assessment closes, the performance factor cannot be changed. You should work with your manager to develop a plan to develop your performance for future assessments.
@@ -522,7 +528,7 @@ The Performance/Growth Potential Factor is one of the factors considered in the 
   - Company budget for compensation increases
 
 - **When is the next opportunity for my performance to be reviewed?**
-  - Talent Assessments are performed twice per year -- one mid-year (Q2) and one at the end of fiscal year (Q4).
+  - Talent Assessments are formally conducted at the beginning of the fiscal year (Q1) to assess the prior year, and we encourage a mid-year check-in at the half-year.
 
 - **What can I do to change my performance factor in the future?**
   - There are many things that you can do to change your performance factor in the future. Please work with your manager on a career development plan and discuss actions that can be taken to improve.
@@ -576,7 +582,7 @@ Great! At GitLab team members have the opportunity to own their own development,
 Using the [70-20-10 model for learning](/handbook/people-group/learning-and-development/growth-and-development/#70-20-10-rule-for-development), help your team member identify experiential and formal learning opportunities, and consider connections you can facilitate that will support their growth.
 The [Career Development handbook page](/handbook/people-group/learning-and-development/growth-and-development/) has more ideas to help your team member craft a growth plan, including information on GitLab's [Growth and Development benefit](/handbook/people-group/learning-and-development/growth-and-development/).
 
-**How should we be communicating Growth Potential to team members who we haven't communicated this to before?**
+**How should we be communicating Growth Potential to team members?**
 
 First, ensure the team member understands what we mean when we say we are assessing Growth Potential, including the [4 pillars](#what-is-growth) that you considered when making the assessment. Be prepared with specifics that led to your evaluation.
 Remember, Growth Potential can change over time as team members are promoted, develop new interests, as new opportunities for growth arise, and as team members continue to broaden their knowledge, skills, and abilities. Avoid making promises, but if your team member sees themselves in a higher position, help them understand behaviors you expect to be able to assess them differently next time.

@@ -71,24 +71,11 @@ Product Designers need to assess how their work impacts other parts of the produ
 
 ### Designing with AI
 
-When designing AI solutions, Product Designers need to approach the process thoughtfully to ensure that the technology enhances the user experience and meets strategic objectives.
-
-Here are some resources to help you contribute to the design of AI-assisted features across the platform:
-
-- [AI-human interaction in Pajamas](https://design.gitlab.com/usability/ai-human-interaction/): Documentation on best practices for AI-human interaction.
-- [AI Integration Effort FAQ](https://internal.gitlab.com/handbook/product/ai-strategy/ai-integration-effort/faq/): Internal handbook with frequently asked questions about AI integration efforts. **Internal handbook 🔒**
-- [UX maturity requirements](/handbook/product/ai/ux-maturity/): Documentation on the UX maturity requirements to move AI features from Experiment to Beta to Generally Available (GA).
-- [Experiment, Beta, and Generally Available features](https://docs.gitlab.com/ee/policy/development_stages_support.html): Guidelines on the different stages of feature availability.
-- [UX research in the AI space](/handbook/product/ux/ux-research/research-in-the-AI-space/): Documentation on conducting UX research in the AI domain.
-- [Epic: UX of AI Integration](https://gitlab.com/groups/gitlab-org/-/epics/10269): A GitLab epic tracking the UX of AI integration.
-- [AI prototypes in Figma](https://www.figma.com/file/s4TP1i2Akd1VTh4jhbg234/AI-prioritized-prototypes?type=design&node-id=1%3A79&t=SNUCGun6HHxi9LaY-1): Access AI prototypes in Figma.
-- [AI Project Proposal issue template](https://gitlab.com/gitlab-org/gitlab/-/issues/new?issuable_template=AI%20Project%20Proposal): Use this template to propose new AI projects.
-
-These resources will guide you through the process and best practices for designing and integrating AI features within the platform.
+When designing AI solutions, Product Designers need to approach the process thoughtfully to ensure that the technology enhances the user experience and meets strategic objectives. Follow this guide to support your work: [Designing with AI: A Guide for Product Designers](/handbook/product/ux/product-designer/ai-design.md)
 
 ### Aiming towards "sophisticated simplicity"
 
-The visual design of GitLab has evolved from naive simplicity to sophisticated complexity. However, the ultimate goal is to achieve sophisticated simplicity ([Sophisticated Simplicity,  Marcel Weiher](https://blog.metaobject.com/2014/04/sophisticated-simplicity.html)). When designing, keep these three principles in mind:
+The visual design of GitLab has evolved from naive simplicity to sophisticated complexity. However, the ultimate goal is to achieve sophisticated simplicity ([Sophisticated Simplicity, Marcel Weiher](https://blog.metaobject.com/2014/04/sophisticated-simplicity.html)). When designing, keep these three principles in mind:
 
 1. **Structure** - Organize and arrange content and concepts into meaningful groups and patterns.
 1. **Discovery** - Ensure users can interact and explore in ways that promote learning and proficiency while minimizing mistakes.
@@ -194,7 +181,7 @@ UI text includes button or menu labels, error messages, log files, user-assistan
 To ensure a smooth process:
 
 - **Label the issue and MR**: Apply the [UI text](https://gitlab.com/gitlab-org/gitlab/-/issues?label_name%5B%5D=UI+text) and`documentation` labels.
-- **Request a review**: Message the [Technical Writer for the group](/handbook/product/ux/technical-writing/#designated-technical-writers) in the design issue to request a review. Specify files or lines to review and how to preview or understand the context from the user's perspective.
+- **Request a review**: Message the [Technical Writer for the group](/handbook/product/ux/technical-writing/#assignments) in the design issue to request a review. Specify files or lines to review and how to preview or understand the context from the user's perspective.
 - **Collaborate on finalizing text**: Work closely with the Technical Writer to finalize the UI text, ensuring it's usable and accurate.
 - **Incorporate feedback from other departments**: When other departments (e.g., Product Management, Marketing, Legal) provide input on UI copy, ask for goals rather than specific text to avoid extensive revisions and design-by-committee.
 
@@ -213,7 +200,7 @@ Sometimes the designer, PM, and technical writer agree to display additional [in
 
 UX Researchers collaborate with Product Managers and Product Designers to ensure research projects are targeted and provide valuable insights.
 
-- **Request research**: Follow the [process to request research](/handbook/product/ux/ux-research/how-uxr-team-operates/#how-to-request-research), even if conducting the research yourself.
+<!-- - **Request research**: Follow the [process to request research](/handbook/product/ux/ux-research/how-uxr-team-operates/#how-to-request-research), even if conducting the research yourself.-->
 - **Document findings**: Ensure research findings are documented according to established processes.
 
 ### Refine MVC
@@ -290,7 +277,7 @@ Sharing design work sllows Product Designers to mentor, engage, and inspire peer
 
 - Slack: Share insights and updates.
 - Unfiltered YouTube: Provide updates and gather feedback.
-- [UX Forums](/handbook/product/ux/ux-forums/): Open pathways for collaboration with teams addressing similiar objectives and JTBDs.
+- [UX Forums](/handbook/product/ux/ux-forum/): Open pathways for collaboration with teams addressing similiar objectives and JTBDs.
 
 **External Socialization**:
 

@@ -12,8 +12,7 @@ This document provides information on what Pairify is and how to use it to recor
 
 [Pairify](https://gitlab.com/gitlab-com/support/toolbox/pairify) is a Slack bot application that will scan monitored Slack channels on a schedule for any conversations reacted with ![Pairify emoji](/images/support/workflows/assets/pairify.png "Pairify emoji") (`:pairify:`).
 
-It will then extract all Zendesk URLs, Slack participants/mentions and automatically create a pairing issue with the Zendesk URLs,
-participants (converted to GitLab.com usernames) and closes out the issue.
+It will then extract all Zendesk URLs, GitLab URLs (epics, issues, merge requests, handbook and docs), Slack participants/mentions and automatically create a pairing issue with the extracted URLs, participants (converted to GitLab.com usernames) and closes out the issue.
 
 ![Pairify demo](/images/support/workflows/assets/pairify_demo.gif)
 

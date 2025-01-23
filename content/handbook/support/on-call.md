@@ -101,7 +101,7 @@ There are several ways to view current and future schedules:
 
 1. In PagerDuty: View the [Customer Emergencies schedule (CEOC)](https://gitlab.pagerduty.com/schedules) and the [escalation policy](https://gitlab.pagerduty.com/escalation_policies#PKV6GCH)
 1. In Google Calendar, [subscribe to your on-call schedule](https://support.pagerduty.com/main/docs/schedules-in-apps#export-only-your-on-call-shifts)
-1. In the `#spt_leaders-daily` slack channel, you can see who is on-call for the different schedules today
+1. In the [`#spt_leaders-daily`](https://gitlab.enterprise.slack.com/archives/C03LL7Z2291) Slack channel, you can see who is on-call for the different schedules today
 1. In the [Support Pagerduty Worksheet](https://drive.google.com/drive/u/0/search?q=Support%20Pagerduty%20Worksheet), you may be able to see who will be on-call for future quarters.
 
 #### Scheduling PagerDuty rotations
@@ -231,7 +231,7 @@ To see who the *current* Support Engineer on-call is, you can:
 
 - [Look up](https://slack.com/help/articles/360003534892-Browse-people-and-user-groups-in-Slack#browse-user-groups) who currently is a member of the `@ceoc` group/handle in Slack
 - Log in to PagerDuty to view the [Customer Support](https://gitlab.pagerduty.com/service-directory/PL3TX00) service
-- View the `#spt-gg-forest` Slack channel, the regional bot message lists who is on-call for the different schedules today
+- View the [`#spt_leaders-daily`](https://gitlab.enterprise.slack.com/archives/C03LL7Z2291) Slack channel, the Support Team Bot messages list who is on-call for the different schedules today
 
 To see who the *upcoming* Support Engineer on-call is, you can view the individual on-call schedules for:
 
@@ -250,7 +250,7 @@ To see who the *current* manager on-call is, you can:
 
 - [Look up](https://slack.com/help/articles/360003534892-Browse-people-and-user-groups-in-Slack#browse-user-groups) who currently is a member of the `@support-manager-oncall` group/handle in Slack
 - Log in to PagerDuty to view the [Support Managers](https://gitlab.pagerduty.com/services/PTFI8XR) service
-- View the `#spt-gg-forest` Slack channel, the regional bot message lists who is on-call for the different schedules today
+- View the [`#spt_leaders-daily`](https://gitlab.enterprise.slack.com/archives/C03LL7Z2291) Slack channel, the Support Team Bot messages list who is on-call for the different schedules today
 
 To see who the *upcoming* manager on-call is, you can view the individual on-call schedules for:
 

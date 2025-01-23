@@ -11,7 +11,7 @@ The group supports the product
 - by migrating between GitLab instances and from other providers
 - with 3rd party integrations, REST APIs and GraphQL foundational code, and Webhooks.
 
-This page covers processes and information specific to the Import and Integrate group. See also the [group direction page](https://about.gitlab.com/direction/foundations/) and the [features we support per category](/handbook/product/categories/features/#manageimport-and-integrate-group).
+This page covers processes and information specific to the Import and Integrate group. See also the [group direction page](https://about.gitlab.com/direction/foundations/) and the [features we support per category](/handbook/product/categories/features/#import-and-integrate).
 
 ## How to reach us
 
@@ -260,7 +260,7 @@ If you cannot find the answer to your question in the resources listed above, pl
 
 In FY2025, on average 4-5 `Request for Help` (RFH) issues per month have been opened for feature categories that are owned by our team. Most of these issues are high-priority requests that involve the Engineering team to help resolve blocking issues for our customers. This type of ad-hoc work causes a lot of interruption while working on milestone Deliverables. To ensure these RFH issues are processed as quickly as possible by the Engineering team and to reduce context-switching time within the team, two engineers take on the "Milestone Doctor" role at every milestone. Their capacity for Deliverable work is reduced to 70% to allow taking over additional responsibilities as "Milestone Doctors".
 
-#### Responsibilites
+#### Responsibilities
 
 - Engage with Support and PS on new [RFH issues](https://gitlab.com/gitlab-com/request-for-help/-/issues?label_name%5B%5D=Help%20group%3A%3Aimport%20and%20integrate)
 - Follow-up on long-lasting open issues
@@ -272,7 +272,7 @@ In FY2025, on average 4-5 `Request for Help` (RFH) issues per month have been op
 
 - Each milestone two Backend Engineers take the role of a Milestone Doctor.
 - Engineers claim shifts themselves on the [Milestone Doctor schedule spreadsheet](https://docs.google.com/spreadsheets/d/1N6ObBcCnliu4uZS-_IbpsjzgrF5f-etcLohYKAzR6KQ/edit?usp=sharing).
-- At the beginning of a new milestone, Milestone Doctors update assignee section of the [RFH template](https://gitlab.com/gitlab-com/dev-sub-department/section-dev-request-for-help/-/edit/main/.gitlab/issue_templates/SupportRequestTemplate-Import-Integrate.md?ref_type=heads#L99) with their usernames.
+- At the beginning of a new milestone, Milestone Doctors update assignee section of the [RFH template](https://gitlab.com/gitlab-com/request-for-help/-/edit/main/.gitlab/issue_templates/SupportRequestTemplate-Import-Integrate.md) with their usernames.
 - Given the current team size, every Backend Engineer is expected to sign up as Milestone Doctor once per quarter.
 - At the end of each quarter, the EM assigns unassigned shifts for the upcoming quarter to engineers.
 
@@ -398,14 +398,14 @@ A tech lead is:
 
 The Tech Lead role provides growth opportunity for engineers who are interested in adopting leadership skills.
 
-#### Responsibilites of a Tech Lead
+#### Responsibilities of a Tech Lead
 
 Tech leads wear many hats. Their responsibilities may differ from project to project but may include:
 
 - Technical Vision and Architecture - Defining and evolving the overall technical architecture for a given project
 - Technical Guidance - Providing technical guidance and mentoring to other developers on the team
 - Planning and Prioritizing Work - Organizing the work by breaking down bigger tasks into smaller actionable items
-- Tracking Progress -  Tracking progress on committments and reporting status updates
+- Tracking Progress -  Tracking progress on commitments and reporting status updates
 - Risk Management - Identifying, assessing and managing technical risks that may impact deliverables
 - Coordination - Overseeing the work of others and helping remove blockers
 - Technical documentation - Maintaining documentation of the technical architecture and code structure for other developers

@@ -180,6 +180,16 @@ Source code, demo projects, workshops, tutorials, research, etc. are documented 
 1. Navattic supports two types of screen captures: Web and Screenshots. It's recommended to use web captures for an 'in-product' feel, but in some cases, due to Navattic product limitations, you may find that web capture doesn't work well for some pages. In such cases, use screenshots instead. Here are some guidelines for screenhots capturing:
 1. Open your browser at 1680x1050 resolution (Full HD). You can use [Window Resizer](https://chromewebstore.google.com/detail/window-resizer/kkelicaakdanhinjdeammmilcgefonfh) to set the resolution.
 
+### Publishing Product Tours
+
+Product tours are published in the following locations:
+
+- [DA Handbook](#product-tours)
+- Highspot
+- Docs (follow the GitLab documentation style guide for demo [links](https://docs.gitlab.com/ee/development/documentation/styleguide/#link-to-click-through-demos))
+
+Additionally, select tours may be featured on the website.
+
 ## Contribute to product tours
 
 The Developer Advocacy team creates product tours to showcase key workflows and highlight new features, such as **Advanced SAST**, **GitLab Duo**, **Duo with Amazon Q**, [and more](#product-tours). The team is committed to building, reviewing, and publishing product tours to ensure a consistent and high-quality experience for our users and potential customers. You can also contribute by proposing additional tours and provide the content, script, and environment. Here is how you can collaborate with the Developer Advocacy team to create new product tours:

@@ -856,7 +856,7 @@ See the [Fulfillment Section DIB page](/handbook/engineering/development/fulfill
 
 ## Performance indicators
 
-See the [Fulfillment Section Performance Indicators](/handbook/engineering/development/performance-indicators/fulfillment/) as well as the
+See the [Fulfillment Section Performance Indicators](https://internal.gitlab.com/handbook/company/performance-indicators/product/fulfillment-section/#regular-performance-indicators) as well as the
 [Centralized Engineering Dashboards](/handbook/product/groups/product-analysis/engineering/dashboards/).
 
 ## Maintainer ratios

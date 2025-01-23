@@ -204,9 +204,9 @@ Sandboxes which are managed as part of our team's SDLC process will follow a reg
 
 |Sandbox name|URL|Sandbox type|Standard Username|Used for|Refresh cadence|Last refresh date|Next refresh issue|Zuora Billing Sandbox|Zuora Billing Sandbox Tenant ID|Critical Connected Integrations|
 |-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
-|[Developer](https://gitlab--developer.sandbox.my.salesforce.com)|https://gitlab--developer.sandbox.my.salesforce.com|Partial|<email>.developer|Developer integration and testing org. |As needed, up to once per month, minimum once per quarter|2/14/2024|[#6403](https://gitlab.com/gitlab-com/sales-team/field-operations/systems/-/issues/6403)|Developer Sandbox (i.e. "Dev Sandbox")|10002574||
-|[Test1](https://gitlab--test1.sandbox.my.salesforce.com)|https://gitlab--test1.sandbox.my.salesforce.com|Full|<email>.test1|Pre-production org. Used for UAT of Systems issues prior to release to production. Also used for troubleshooting.|As needed, up to once per month, minimum once per quarter|[06/10/24](https://gitlab.com/gitlab-com/sales-team/field-operations/systems/-/issues/5698)|[TBD](https://gitlab.com/gitlab-com/sales-team/field-operations/systems/-/issues/6663#note_2171037981)|Central Sandbox 2|10000796|CustomerDot<br>Marketo<br>Vartopia<br>RingLead<br>Traction<br>PSQuote|
-|[Test2](https://gitlab--test2.sandbox.my.salesforce.com)|https://gitlab--test2.sandbox.my.salesforce.com|Full|<email>.test2|Used for UAT of Systems . Also used for troubleshooting.|As needed, up to once per month, minimum once per quarter|[08/15/24](https://gitlab.com/gitlab-com/sales-team/field-operations/systems/-/issues/5155) |TBD|Central Sandbox 1 (i.e. "Staging Sandbox")|10000719|CustomerDot|
+|[Developer](https://gitlab--developer.sandbox.my.salesforce.com)|https://gitlab--developer.sandbox.my.salesforce.com|Partial|<email>.developer|Developer integration and testing org. |As needed, up to once per month, minimum once per quarter|[12/26/2024](https://gitlab.com/gitlab-com/sales-team/field-operations/systems/-/issues/6403|TBD|Developer Sandbox (i.e. "Dev Sandbox")|10002574||
+|[Test1](https://gitlab--test1.sandbox.my.salesforce.com)|https://gitlab--test1.sandbox.my.salesforce.com|Full|<email>.test1|Pre-production org. Used for UAT of Systems issues prior to release to production. Also used for troubleshooting.|As needed, up to once per month, minimum once per quarter|[06/10/24](https://gitlab.com/gitlab-com/sales-team/field-operations/systems/-/issues/5698)|[TBD Early 2025](https://gitlab.com/gitlab-com/sales-team/field-operations/systems/-/issues/6663#note_2171037981)|Central Sandbox 2|10000796|CustomerDot<br>Marketo<br>Vartopia<br>RingLead<br>Traction<br>PSQuote|
+|[Test2](https://gitlab--test2.sandbox.my.salesforce.com)|https://gitlab--test2.sandbox.my.salesforce.com|Full|<email>.test2|Used for UAT of Systems . Also used for troubleshooting.|As needed, up to once per month, minimum once per quarter|[1/9/25](https://gitlab.com/gitlab-com/sales-team/field-operations/systems/-/issues/7074)|TBD|Central Sandbox 1 (i.e. "Staging Sandbox")|10000719|CustomerDot|
 
 ## <i class="fas fa-users" id="biz-tech-icons"></i> How we Operate
 
@@ -239,17 +239,17 @@ Sandboxes which are managed as part of our team's SDLC process will follow a reg
 2. In order to align our working style with the Labels, the Systems team prioritizes working on issues in the order as they get added & the issues get labeled accordingly
 3. The Systems Label Workflow and Label Description are as follows
 
-      ![The Systems Label Workflow](/handbook/sales/images/Systemsworkflow.png)
+      ![The Systems Label Workflow](/images/sales/Systemsworkflow.png)
 
-      - ![Sales Systems](/handbook/sales/images/Salessystems.png) New Issues that are created in the systems board are automatically tagged and any existing issues related to sales systems are tagged with this label
-      - ![Need More Information](/handbook/sales/images/SSNeedinformation.png) Issues awaiting for information from the requester, needs more clarity in requirements may or may not be assigned to milestone and assigned to the DRI and/or systems team member
-      - ![Out Of Scope](/handbook/sales/images/SSOutscope.png) Issues that are outside the parameters of an initiative, cannot be combined with current functionality and this issue will be closed
-      - ![Ready For Assignment](/handbook/sales/images/SSReadyassingment.png) Issues that have completed requirements gathering and been accepted, no milestone and not assigned to systems team member
-      - ![Assigned](/handbook/sales/images/SSAssign.png) Issues that are ready to moveforward to be worked on, slotted to a milestone & assigned to systems team member's queue
-      - ![Build](/handbook/sales/images/SSBuild.png) Issues that are in the current milestone, assigned to systems team member that are actively worked on
-      - ![Ready To Business Owner Review](/handbook/sales/images/SSBusinessowner.png) Issues in current milestone that are near the finish line, needs to be reviewed and demoed to the business owner(s) to sign-off
-      - ![Ready To Deploy](/handbook/sales/images/SSReadydeploy.png) Issues in current milestones, sign-offs given by the business owner that are ready to be deployed by systems team member
-      - ![Blocked](/handbook/sales/images/SSBlocked.png) Issues in the current milestone which are assigned to systems team member which are stalled due to technical difficulties and/or assigned to business owner pending to provide information to the systems member to move forward
+      - ![Sales Systems](/images/sales/Salessystems.png) New Issues that are created in the systems board are automatically tagged and any existing issues related to sales systems are tagged with this label
+      - ![Need More Information](/images/sales/SSNeedinformation.png) Issues awaiting for information from the requester, needs more clarity in requirements may or may not be assigned to milestone and assigned to the DRI and/or systems team member
+      - ![Out Of Scope](/images/sales/SSOutscope.png) Issues that are outside the parameters of an initiative, cannot be combined with current functionality and this issue will be closed
+      - ![Ready For Assignment](/images/sales/SSReadyassingment.png) Issues that have completed requirements gathering and been accepted, no milestone and not assigned to systems team member
+      - ![Assigned](/images/sales/SSAssign.png) Issues that are ready to moveforward to be worked on, slotted to a milestone & assigned to systems team member's queue
+      - ![Build](/images/sales/SSBuild.png) Issues that are in the current milestone, assigned to systems team member that are actively worked on
+      - ![Ready To Business Owner Review](/images/sales/SSBusinessowner.png) Issues in current milestone that are near the finish line, needs to be reviewed and demoed to the business owner(s) to sign-off
+      - ![Ready To Deploy](/images/sales/SSReadydeploy.png) Issues in current milestones, sign-offs given by the business owner that are ready to be deployed by systems team member
+      - ![Blocked](/images/sales/SSBlocked.png) Issues in the current milestone which are assigned to systems team member which are stalled due to technical difficulties and/or assigned to business owner pending to provide information to the systems member to move forward
 
 4. Please review the status of any issue on our agile [board.](https://gitlab.com/groups/gitlab-com/-/boards/1117318?label_name[]=SalesSystems)
 5. If there is a severity impacting the flow of business (i.e. No one can make a quote, No accounts are being created, Opportunities cannot be closed Won) follow the process as described above as well as share the issues in the `Sales-Support` Slack Channel

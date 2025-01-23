@@ -53,7 +53,7 @@ You can contact the current Release Managers:
 
 We use the `#releases` and `#f_upcoming_releases` channels to discuss and coordinate deployments and releases. Automated deployment status announcements are made to the `#announcements` channel.
 
-If you need to escalate a request, please use the [release management escalation process](/handbook/engineering/infrastructure/team/delivery/#release-management-escalation)
+If you need to escalate a request, please use the [release management escalation process](/handbook/engineering/infrastructure-platforms/gitlab-delivery/delivery/#release-management-escalation)
 
 ### Weekly Delivery Metrics Review
 

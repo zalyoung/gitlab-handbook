@@ -46,7 +46,7 @@ Knowing your growth direction helps you set goals and find the right resources. 
 
 Think big in this section. Do you want to become a manager? Are you growing as an IC leader? Maybe you're ready for a career transition to a new team. Remember that at GitLab, career growth is non-linear - we grow in all directions.
 
-![infographic showing examples of non-linear careers at GitLab](../non-linear.png)
+![infographic showing examples of non-linear careers at GitLab](/images/people-group/learning-and-development/career-development/non-linear.png)
 
 ## Section 3: Set your Intention
 

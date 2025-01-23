@@ -1,6 +1,7 @@
 ---
 title: Security Operations
 description: " "
+no_list: true
 ---
 
 ## Vision

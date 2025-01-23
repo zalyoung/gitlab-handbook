@@ -119,11 +119,11 @@ It's important to add captions to videos whenever possible. The steps below outl
 
 The Custom Content Field requirements for internal courses can be found [here](https://docs.google.com/spreadsheets/d/1zPJu3PSr40Xa5dUEe6Wj1Sm8gUkQpJG-NwUybxJOMfE/edit#gid=587118744) for GitLab team members. To add a new field, navigate to `Settings` -> `Content` -> `Organization and Display`.
 
-![Adding custom content field in Thought Industries](custom-content.jpg)
+![Adding custom content field in Thought Industries](/images/people-group/learning-and-development/level-up/custom-content.jpg)
 
 Add custom content fields directly to each course in the `Design` tab.
 
-![Adding custom content field in Thought Industries](course-content.jpg)
+![Adding custom content field in Thought Industries](/images/people-group/learning-and-development/level-up/course-content.jpg)
 
 Please review the **best practices** below:
 
