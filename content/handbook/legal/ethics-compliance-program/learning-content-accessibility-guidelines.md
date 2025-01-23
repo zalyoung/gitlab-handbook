@@ -69,8 +69,8 @@ A text alternative for images is important for conveying non-text content to a u
 
 A simple image is one that can be described in a few words or a short sentence. Examples might include a product screenshot or a photograph of people having a conversation. Simple images are most commonly described with “alt text,” which gets its name from the alt image attribute in code. Alt text looks like this: <img alt=“text alternative”>. The “text alternative” describes the image in a text-based format that screen readers can read out loud, which helps the user understand what the image is meant to convey. Writing the text alternative can be challenging and sometimes subjective. Compare the following examples to understand how to make alt text more descriptive:
 
-- Poorly-written alt text: `<img src="team.jpg" alt="image">`
-- Well-written alt text: `<img src="team.jpg" alt="Four team members discussing a project around a conference table.">`
+- Poorly-written alt text: `<img src="/images/legal/ethics-compliance-program/team.jpg" alt="image">`
+- Well-written alt text: `<img src="/images/legal/ethics-compliance-program/team.jpg" alt="Four team members discussing a project around a conference table.">`
 
 In both examples, the alt text alerts the user to the use of an image but the first does not describe the image, while the second describes what the image is meant to convey (“four team members discussing a project … “). Here is another example:
 

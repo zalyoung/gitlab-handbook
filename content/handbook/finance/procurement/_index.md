@@ -6,7 +6,7 @@ title: The GitLab Procurement Team
 
 The Procurement team manages GitLab's [Supplier Lifecycle](#vendor-lifecycle-management) through the process of strategically vetting and selecting vendors, negotiating commercial terms, the purchasing of goods and services, and managing the renewal or vendor offboarding process.
 
-<a href="https://docs.google.com/presentation/d/1p4TVSjwa79zbVs-7iDZ3_YrR8WQgB7jC7ZC_iKyUq3Y/edit#slide=id.g127b84edaab_0_0"><img src="process2.png" alt="Procurement process"></a>
+<a href="https://docs.google.com/presentation/d/1p4TVSjwa79zbVs-7iDZ3_YrR8WQgB7jC7ZC_iKyUq3Y/edit#slide=id.g127b84edaab_0_0"><img src="/images/finance/procurement/process2.png" alt="Procurement process"></a>
 
 ### Procurement Team Alignment
 
