@@ -27,7 +27,7 @@ Here are some questions to guide the decision:
 
 1. Decide which Escalation Level to use by consulting the [CSM handbook for escalation levels](/handbook/customer-success/csm/escalations/#definitions-of-severity-levels).
 1. Reach out to the [Escalation DRI](/handbook/customer-success/csm/escalations/#escalation-dri). If there is no CSM for the customer, reach out to the assigned AE, CSE or their regional manager.
-1. If you couldn't reach anyone yet, please follow the steps to [open the escalation](/handbook/customer-success/csm/escalations/#opening-the-escalation) with the Manager On-call (Please keep in mind only people wth SalesForce access can initiate an escalation for now). 
+1. If you receive no response, please follow the steps to [open the escalation](/handbook/customer-success/csm/escalations/#opening-the-escalation) with the Manager On-call (Please keep in mind only people wth SalesForce access can initiate an escalation for now). 
 
 ## Expectations during an Account Escalation
 
