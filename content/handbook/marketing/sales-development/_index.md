@@ -1043,6 +1043,7 @@ Claude is an AI assistant from Anthropic. It can help with analysis, content wri
 - [Prompt Library](https://gitlab.com/gitlab-com/marketing/sales-development/-/issues/1231) - a place to find prompts the Sales Dev Org is currently using and collaborating on
 
 **Limitations**
+
 - Claude's knowledge cutoff is April 2024, so any GitLab features, pricing, or competitive details may be outdated. Always verify current information through official GitLab channels.
 - Claude can't access GitLab systems, databases, or customer information directly. While Claude can analyze data you share, it can't pull anything from GitLab's internal tools or CRM. **DO NOT ADD Salesforce Data to Claude at this Time** 
 - Claude can't connect to external websites, APIs, or tools. If you need Claude to review specific content, you'll need to paste it directly into the conversation.
@@ -1050,6 +1051,7 @@ Claude is an AI assistant from Anthropic. It can help with analysis, content wri
 - Understand that **Claude is not always right and will sound very confident even when it is wrong**
 
 **General Tips**
+
 - Treat it like you are having a conversation with a highly intelligent robot (ex. C3P0)
 - Always try to ask follow up questions to get better answers 
 - You can always have Claude write ideal prompts for you! 
@@ -1057,6 +1059,7 @@ Claude is an AI assistant from Anthropic. It can help with analysis, content wri
 - You can use Claude to help you reformat your spreadsheets! It is recommended to upload your data in CSV format. 
 
 **Examples of Questions to Ask**
+
 - "Can you see if this companies' annual report mentions DevOps, Software, Cyber Security, Git?
 - “Can you make this email reply more concise?” 
 - “Let's say I was a sales rep from GitLab. How should I approach this company/title?” (Can use Panos’s prompt in the prompt library as well )
