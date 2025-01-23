@@ -1057,13 +1057,12 @@ Claude is an AI assistant from Anthropic. It can help with analysis, content wri
 - You can use Claude to help you reformat your spreadsheets! It is recommended to upload your data in CSV format. 
 
 **Examples of Questions to Ask**
-- "Can you see if this companies' annual report mentions DevOps, Software, Cyber Security, Git? 
+- "Can you see if this companies' annual report mentions DevOps, Software, Cyber Security, Git?
 - “Can you make this email reply more concise?” 
 - “Let's say I was a sales rep from GitLab. How should I approach this company/title?” (Can use Panos’s prompt in the prompt library as well )
 - “Can you explain why you gave x answer?” 
 - “Can you rewrite that in a more casual tone?”
 - “I do not like that message you generated.Can you give me 3more options and explain the pros and cons of each?”
-
 
 ### ZoomInfo
 
