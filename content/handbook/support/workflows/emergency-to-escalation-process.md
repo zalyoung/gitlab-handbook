@@ -39,7 +39,7 @@ Here are a few things to keep in mind:
 - At the end of your shift, update the next on-call Support Engineer & Manager of the escalation so they can take over.
 - Post updates in the Slack channel as you get them.
 - If calls are running past 3 hour mark, consider a break, re-defining the problem, and re-starting the meeting at an agreed-upon time.
-- During the part of the escalation that we are leading -- we set clarity as to when the next touch-point will happen. The customer shouldn't have to create another emergency ticket to get back in touch with us.
+- During the part of the escalation that we are leading -- we need to communicate clearly to the customer when the next touch-point will happen. The customer shouldn't have to create another emergency ticket to get back in touch with us.
 - Once we are in an Escalated state, we have full access to development via [Dev Escalations](/handbook/engineering/development/processes/infra-dev-escalation/process/).
 
 ## Closing an Account Escalation
