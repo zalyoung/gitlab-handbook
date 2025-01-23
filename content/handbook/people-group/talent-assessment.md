@@ -572,7 +572,7 @@ You may be able to gather insights from your manager or cross functional stakeho
 
 **A team member recently moved to be my direct report, however for the majority of the performance year, they reported to another manager. Are there options to delegate or re-assign the manager evaluation to their previous manager?** 
 
-As a manager, you can delegate the manager evaluation to another manager in your direct management chain. If your team member moved from another manager in another organization, you should be able to write the review with input from the previous manager. As the new manager, you will be responsible for the calibration of team members in your management chain at the time of calibration. 
+As a manager, you can delegate the manager evaluation to another manager in your direct management chain. If your team member moved from another manager in another organization, you should be able to write the review with input from the previous manager. The previous manager can leverage the Talent Assessment [google template](https://docs.google.com/document/d/1bdGDq85nY3uLRFLrmKV5RDyQpGkPmnvGAI1pN_RRNto/edit) to capture their feedback and provide it so that you can enter it into Workday. As the new manager, you will be responsible for the calibration of team members in your management chain at the time of calibration. You should also ensure your communication of the final talent assessment is done in a joing conversation with the previous manager, you as the new manager and your team member.
 
 We would expect these situations to be exceptions and will further guide at that time. Please enter a HelpLab request if you have any questions about your specific scenario. 
 
