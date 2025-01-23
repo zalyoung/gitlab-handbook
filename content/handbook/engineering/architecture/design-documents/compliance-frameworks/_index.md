@@ -167,14 +167,14 @@ We can look to expand on the information we send as we receive feature requests 
 
 1. When evaluating control of a requirement, we send a request to the external service if it has an `external_url` defined
    and is of `control_type` `external`.
-1. After posting we set the corresponding `project_compliance_configuration_status` entry to state `pending` and
+1. After posting we set the corresponding `project_control_compliance_statuses` entry to state `pending` and
    allow for a timeout of `30 mins`.
 1. There will be a separate, worker, periodically run, checking for status entries that are older than the
    timeout and still in state `pending`, these entries will be defaulted to a `fail` state.
    (This adds an additional state to what's been mentioned in [ADR001](decisions/001_triggering_checks.md)))
 
 1. When the external service reports back inside the timeout, we set the status in
-   table `project_compliance_configuration_status` to store the results of the requirements as the external
+   table `project_control_compliance_statuses` to store the results of the control as the external
    service indicated. ['fail', 'pass']
 
 ###### Auditing
