@@ -308,7 +308,7 @@ Cluster Setup:
 1. Record the admin user name and password that were displayed during the setup step.
 1. You can monitor the progress of the installation and the installation log from the Hybrid Cloud Console **Cluster List** page. Note
    that multiple connection errors will be logged while services are being provisioned - these are expected.
-1. While the cluster is installing you can download the OpenShift CLI tool (`oc`) from the link provided on the cluster status page, 
+1. While the cluster is installing you can download the OpenShift CLI tool (`oc`) from the link provided on the cluster status page,
    if required.
 
 #### Logging in to the OpenShift cluster
