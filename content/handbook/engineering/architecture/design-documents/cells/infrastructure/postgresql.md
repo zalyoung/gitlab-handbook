@@ -220,7 +220,7 @@ Most of the information above can be found in the official [Cloud SQL documentat
   - How to export PostgreSQL logs into Elastic?
 - Validate a connection pooling solution for both Write and Read-Only workloads:
   - PgBouncer on VMs
-  - [CloudSQL Manage database connections] (https://cloud.google.com/sql/docs/postgres/manage-connections) / [Managed Connection Pooling (MCP)](https://www.youtube.com/watch?v=rGI3hIBl2s0). It only offers limited functionality compared to self-managed PgBouncers.  
+  - [CloudSQL Manage database connections] (https://cloud.google.com/sql/docs/postgres/manage-connections) / [Managed Connection Pooling (MCP)](https://www.youtube.com/watch?v=rGI3hIBl2s0). It only offers limited functionality compared to self-managed PgBouncers.
 - Evaluate [Cloud SQL Proxy](https://cloud.google.com/sql/docs/postgres/sql-proxy)
 - Compare database migration options:
   - Native logical replication - [logical replication feature](https://cloud.google.com/sql/docs/postgres/replication/configure-external-replica) ([pglogical](https://github.com/2ndQuadrant/pglogical))
@@ -230,11 +230,11 @@ Most of the information above can be found in the official [Cloud SQL documentat
   - CloudSQL does not have a direct equivalent to AWS RDS Blue/Green deployments, so solutions must be engineered in-house.
 - How long does it take to create a read-replica, or a new cluster from a backup? `10GB`, `100GB`, `1TB`, `2TB`?
 - Evaluate disaster recovery options, including delayed replicas.
-- Validate CloudSQL's backup and recovery strategies, including Point-in-Time Recovery (PITR), and review the [the high availability (HA) configuration for CloudSQL](https://cloud.google.com/sql/docs/postgres/high-availability) to minimize downtime during a zonal outage or hardware failure.
+- Validate CloudSQL's backup and recovery strategies, including Point-in-Time Recovery (PITR), and review the [high availability (HA) configuration for CloudSQL](https://cloud.google.com/sql/docs/postgres/high-availability) to minimize downtime during a zonal outage or hardware failure.
 
 ##### Evaluate Changes Over the Current Dedicated(RDS/CloudSQL) Deployment
 
-- Assess options to implement Enhanced Monitoring with finer granularity (<10 seconds), utilizing Postgres Exporter with custom queries (e.g., `pg_stat_activity`, `pg_stat_statements`) and Prometheus with more frequent scraping. 
+- Assess options to implement Enhanced Monitoring with finer granularity (<10 seconds), utilizing Postgres Exporter with custom queries (e.g., `pg_stat_activity`, `pg_stat_statements`) and Prometheus with more frequent scraping.
 - Evaluate offloading read operations to Standby Replicas.
 - Evaluate "Enable auto minor version upgrade".
 - Assess performance improvements with the "Dedicated Log Volume."
