@@ -151,7 +151,7 @@ The external HTTP/HTTPS URLs for the user's external services are stored in the 
 
 We POST the latest project settings to these external services and expect a HTTP 2xx status as the response.
 
-We provide an API endpoint that can be used to update the status of an external requirement, this would be a
+We provide an API endpoint that can be used to update the status of an external requirement, this would be
 similar to [setting the status of external status checks](https://docs.gitlab.com/ee/api/status_checks.html#set-status-of-an-external-status-check).
 
 The shared HMAC secret must be used to sign the request and is also used to check the responses. This
