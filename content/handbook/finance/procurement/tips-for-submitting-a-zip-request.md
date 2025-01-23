@@ -24,38 +24,111 @@ Provide a brief description of your purchase and be sure to select the correct c
 
 #### Submitting a request for a Contractor
 
-A Contractor or an Independent Contractor (IC) **is an individual** (not an entity / business) who provides goods, labor, or services to an organization but is not employed by the business. Instead, they work with the business as or part of a third party. Instead of being hired through the talent acquisition process, a Contractor communicates directly with the manager for the project and submits a competitive bid to be hired.
+# Tips for Submitting a Zip Request
 
-- For GitLab purposes, a Contractor will likely communicate directly with the Procurement Team initially for onboarding and regarding the terms of the contract and the statement of work. Contractors set their own schedules and are responsible for arranging their own training and covering the costs of training. The specific test of whether someone is an "employee" or truly meets the definition of a "Contractor" depends on the law of the jurisdiction where the Contractor is located. For example, in California, a worker is by default considered an employee, unless the hiring entity meets all three conditions of the ABC Test:
-  - The person is independent of the hiring organization in connection with the performance of the work, both under the contract for the performance of the work and in fact.
-  - The person performs work that is outside the hiring entity's business
-  - The person is routinely doing work in an independently established trade, occupation, or business that is the same as the work being requested and performed.
-- **NOTE:** All requests for an Independent Contractor should include the requestor and/or Procurement asking if the potential Independent Contractor has a company under which they will, (i) receive payment(s), or (ii) enter into terms and conditions with GitLab for the delivery of services. GitLab's preference is to enter into a business-to-business relationship with all vendors.
-- For GitLab procurement process purposes, the term Independent Contractor (IC) is used when the ICSA form is required for completion and the IC is separate (independent) from a Third Party Professional Services vendor. If you have any questions on the definition or when to use the applicable contracts/terms, please reach out to Procurement in the Procurement slack channel.
+[Tips for submitting a Zip request](https://handbook.gitlab.com/handbook/finance/procurement/tips-for-submitting-a-zip-request/)
 
-##### How to Submit a Zip Request for a Contractor
+### Submitting a request for a Contingent Worker
 
-1. Before submitting a Zip request for a Contractor:
-   - Confirm you have internal approval from FP&A and your management to hire a Contractor and that this role is (i) not currently being performed by a GitLab Employee or (ii) there is not an open headcount position for this role.
-   - Confirm the potential Independent Contractor does not own / operate a business or entity which should be used to enter into applicable terms and conditions
-   - If the Contractor requires access to GitLab [Orange or Red data](https://internal.gitlab.com/handbook/security/data_classification/), [a background screening](/handbook/people-policies/#background-screenings) and subsequent Zip approval must be obtained from PeopleOps. Additionally, access to Orange or Red data requires [appropriate security measures](/handbook/security/security-assurance/security-risk/third-party-risk-management/#independent-contractors) are in place. As such, a GitLab laptop must be issued followed by a Zip approval from IT Ops validating laptop issuance.
-   - If the Contractor requires [GitLab equipment](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/a97ab3e71d08b55aea70f119caf5d41689ae9549/sites/handbook/source/handbook/finance/procurement/index.html.md#security-approval-requirements-for-contractors-consultants) (i.e. has access to Orange or Red data), the Zip purchase requisition will need to be submitted 10 days in advance of the normal approval [timeline](/handbook/finance/procurement/#-review-steps-timeline-and-considerations) to account for ordering and shipping of the equipment. [Certain locations](https://gitlab.com/gitlab-com/www-gitlab-com/-/merge_requests/127746#note_1497241068) will require IT Approval before providing the equipment. If you are unsure if the IC will require GitLab equipment, please reach out to the #it_help channel in slack.
-      - Lead times start once the purchase requisition has been fully approved and the PO is released. Please account for this time and the [Zip approval times](/handbook/finance/procurement/#-review-steps-timeline-and-considerations) to determine how far in advance your Zip Request needs to be submitted prior to the IC's start date.
-1. Open Zip to submit your request for a contractor by selecting "Request a Purchase"
-   - You must select the following to receive the required approvals:
-      - Category = Consulting, Professional Services & Training
-      - Subcategory = Consulting fees
-      - Commodity = Consulting fees
-   - In the Professional Services section, the type of contract required is determined by the "How is this contractor being hired?" question
-      - For Contractors hired through a Third Party Professional Services Vendor, for example: Upwork, select "Contractor hired through a 3rd Party Professional Services Vendor". These types of requests will require a governing Agreement and Statement of Work
-      - For Independent Contractors, as defined above, select "Contractor hired directly and independent of a 3rd Party (requires ICSA completion)". These types of requests require the [ICSA template](https://docs.google.com/document/d/1KDkv6oWv6V-6k9v5GhjF7WPMoQJOV5iubCZzLGn7xfY/edit?usp=sharing) to be completed.
-         - Once this template is complete, you can download it and attach it to your Zip request.
-1. The Zip Request will be reviewed by the applicable stakeholders
-1. Once the Zip Request is approved, open and complete the [Individual Contributor Onboarding Issue](https://gitlab.com/gitlab-com/temporary-service-providers/lifecycle/-/issues/new?issuable_template=orientation-issue)
-1. If you need to extend the contract term of an IC, submit a [Zip Change Request](/handbook/finance/procurement/#step-2-submit-your-zip-request)
-1. If you need to cancel / terminate the Contractor's agreement earlier than the specified term, review the [Cancellation process](/handbook/finance/procurement/#6-cancellation) and reach out to the Procurement Team in the #procurement slack channel
+At GitLab we have a [Contingent Worker Policy](https://docs.google.com/document/d/10xSFjjW6Sr-KFgV8mXzZShM8met_pedYQZh-HQn9Qt8/edit?tab=t.0) in place beginning February 2025. This policy has been designed to provide Team Members a high-level overview and guidelines on the different types of contingent workers available as well as how and when each should be used. After review you'll need to identify which type of contingent worker you are interested in hiring. There are three categories of contingent workers at GitLab:
 
-*Contractors / Consultants that require Orange and Red Data access, that will be processed or stored outside GitLab's systems, are considered "Professional Services" and are subject to a full security review. Please see the [Security Third Party Risk Management Handbook](/handbook/security/security-assurance/security-risk/third-party-risk-management/) for more details.
+* Staff Augmentation Workers
+* Consultancy Services
+* Independent Contractors
+
+### Staff Augmentation Workers
+
+Consists of supplemental, non-team member staff used temporarily to fill skill gaps or to provide additional project resources. Staff Augmentation Workers are always provided by an agency. If a Staff Augmentation Worker isn't through an agency, they must qualify as an Independent Contractor. The Staff Augmentation Worker works within the GitLab organization under the general guidance of a GitLab hiring manager. GitLab maintains responsibility for work deliverables. Little or no responsibility is transferred to the vendor or their staff. Knowledge is solely contributed from the supplied worker. GitLab manages the duration of the assignment. In addition to "what" is delivered and "when", GitLab maintains control over:
+
+* "who" delivers the service
+* "where" the service is delivered from
+* "how" service is delivered
+
+Services may be required on a full-time or part-time basis but invariably always temporary rather than permanent. Limited details of these Staff Augmentation Worker are to be held in Workday if the contract worker requires access to Okta and core GitLab applications.
+
+Max duration for this worker type is 24 months. The assignment end date must be established up front as established in the Purchase Order. The same Staff Augmentation worker can not return to GitLab after ending an assignment for 3 months.
+
+### Consultancy Services
+
+Consultancy Services are provided by a vendor that contracts with GitLab to provide professional services including expert advice within a particular knowledge domain. GitLab contracts with the third party for certain services and the contract is for the scope of work, i.e., the contract is for a product or service and not for an individual worker, for which GitLab is the customer. This arrangement is for non-core work that we trust an expert company to perform on our behalf and this arrangement is not for situations where we need supplemental labor to assist with the peaks of business. The third party has responsibility for the worker(s) and determines who will perform work and how work will be accomplished. Vendor assumes some or all responsibility for service delivery as detailed in a Statement of Work. In addition to providing staff, Vendor may be expected to provide access to its Intellectual Property to deliver service. Vendor manages its staff (e.g. turnover). GitLab maintains responsibility for "what" is delivered and "when", but vendor maintains control over:
+
+* "who" delivers the service (staffing)
+* "where" the service is delivered from
+* "how" the service is delivered
+
+Limited details of these Contractor Personnel are to be held in Workday only if the contract worker requires access to Okta and core GitLab applications.
+
+There is no limit on the length of contract, it will be the length of assignment necessary to fulfill the scope of work determined by the applicable contract and MSA. GitLab has the right to review and update the MSA as necessary.
+
+### Independent Contractor (option not preferred, used by exception only)
+
+An individual(s) who works for a company that they own (sole proprietorship) providing project deliverables incorporated into a Statement of Work (SOW). The individual must work truly independently, provided the freedom of action as to the details, methods, and means of performing services. Independent contractors typically perform services for more than one company. Independent contractors may work on outcome based/milestone arrangements in which the business pays the contractor based on the deliverable achieved or they may get paid on a time and materials basis. While this contingent worker type may be used in certain circumstances, its use is by exception only. All Independent Contractors must be contracted using the [Independent Contractor Service Agreement](https://docs.google.com/document/d/1KDkv6oWv6V-6k9v5GhjF7WPMoQJOV5iubCZzLGn7xfY/edit#heading=h.b9kk7pr94mid) (ICSA).
+
+Independent contractors (also called consultants, freelancers, self-employed workers):
+* are used for subject matter expertise that is outcome or project based
+* GitLab maintains responsibility for "what" is delivered, "who" delivers the service and "when", but Independent Contractor maintains control over:
+  * "where" the service is delivered from
+  * "how" the service is delivered
+
+The relationship is defined in the contract between GitLab and the independent contractor.
+
+Limited details of these Contractor Personnel are to be held in Workday if the contract worker requires access to Okta and core GitLab applications.
+
+Max duration for this worker is 24 months, with a 3 month break. End date must be established up front.
+
+### How to Submit a Zip Request for a Contingent Worker
+
+1. Before submitting a Zip request for a Contingent Worker:
+   * Confirm you have internal approval from FP&A and your management to hire a contingent worker and that this role is (i) not currently being performed by a GitLab Employee or (ii) there is not an open headcount position for this role.
+   * If the Contingent Worker requires access to Okta and/or core GitLab core applications, a GitLab laptop must be issued followed by a Zip approval from IT Ops validating laptop issuance.
+   * If the Contingent Worker requires [GitLab equipment](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/a97ab3e71d08b55aea70f119caf5d41689ae9549/sites/handbook/source/handbook/finance/procurement/index.html.md#security-approval-requirements-for-contractors-consultants) (i.e. has access to Orange or Red data), the Zip purchase requisition will need to be submitted 10 days in advance of the normal approval [timeline](https://handbook.gitlab.com/handbook/finance/procurement/#-review-steps-timeline-and-considerations) to account for ordering and shipping of the equipment. [Certain locations](https://gitlab.com/gitlab-com/www-gitlab-com/-/merge_requests/127746#note_1497241068) will require IT Approval before providing the equipment. If you are unsure if the IC will require GitLab equipment, please reach out to the #it_help channel in slack.
+     * Lead times start once the purchase requisition has been fully approved and the PO is released. Please account for this time and the [Zip approval times](https://handbook.gitlab.com/handbook/finance/procurement/#-review-steps-timeline-and-considerations) to determine how far in advance your Zip Request needs to be submitted prior to the IC's start date.
+
+2. Open Zip to submit your request for a contingent worker by selecting "New Request" and then "Request a Purchase - Contingent Worker or Consultancy Services"
+
+3. In the "General Information" section, you'll need to fill out the following information:
+   * Who is the requester? * (most likely this is yourself)
+   * Provide a Title for this request * (Best practice: "Vendor Name - FYXX Services Name/Description")
+   * Which detailed category best describes your purchase? * (select either Staff augmentation, Consultancy Services, or Independent Contractor)
+   * What type of purchase is this? * (select new, renewal, or extension)
+   * Will a virtual card be used to pay this vendor? *
+   * What is the vendor's name (look first to see if the vendor has been used previously at GitLab, if not you'll need to create a new vendor)
+   * In which country is the contingent worker working from? *
+   * Will you be onboarding multiple contingent workers for this engagement? *
+   * Do you have the contact information and personal email address(es) of the requested onboardee(s)? * (this will be needed to track contingent workers in Workday, note: this information can come at a later date but not before everything is finalized)
+   * Who is the Manager for the Contingent Worker? *
+   * What is the Business Title for this Contingent Worker? *
+   * What is the Contingent Worker's Non-GitLab email address? *
+   * What is the Contingent Worker's Legal First Name? *
+   * What is the Contingent Worker's Legal Last Name? *
+   * What is the Contingent Worker's Preferred First Name? *
+   * What is the Contingent Worker's Preferred Last Name? *
+   * What is the Contingent Worker's Address *
+
+4. In the "Spend Information" section, you'll need to fill out the following information:
+   * What subsidiary is this purchase for? * (FP&A can help you answer this?)
+   * What is the desired start and end date for this purchase/contract? * (Note: If this is a Staff Augmentation - the Start/End date should not be longer than 24 months)
+   * How much budget will you need for this purchase? *
+   * Line type (select "amount")
+   * Coupa Subsidiary (this is typically your entity like GitLab Inc for US)
+   * Coupa Department (this is typically the org you sit in)
+   * Coupa GL Account (select 6017 Consulting Fees)
+   * Do you have any of the below supporting documentation? * (MSA, SOW, etc)
+
+5. In the "IT, Security, and Privacy Information" section, you'll need to fill out the following information:
+   * What type of access will the vendor need to data and information? *
+   * Access to GitLab resources via personal devices is not permitted. Is the contractor issued a vendor-managed laptop? *
+   * Does this request involve the use of a web application, web portal, or software system? *
+
+6. The Zip Request will be reviewed by the applicable stakeholders
+
+7. Once the Zip Request is approved, open and complete the [Individual Contributor Onboarding Issue](https://gitlab.com/gitlab-com/temporary-service-providers/lifecycle/-/issues/new?issuable_template=orientation-issue)
+
+8. If you need to extend the contract term of an IC, submit a [Zip Change Request](https://handbook.gitlab.com/handbook/finance/procurement/#step-2-submit-your-zip-request)
+
+9. If you need to cancel / terminate the Contractor's agreement earlier than the specified term, review the [Cancellation process](https://handbook.gitlab.com/handbook/finance/procurement/#6-cancellation) and reach out to the Procurement Team in the #procurement slack channel
+
+*Contingent Workers that require Orange and Red Data access, that will be processed or stored outside GitLab's systems, are considered "Professional Services" and are subject to a full security review. Please see the [Security Third Party Risk Management Handbook](https://handbook.gitlab.com/handbook/security/security-assurance/security-risk/third-party-risk-management/) for more details.
 
 #### Submitting a request for New Software
 
