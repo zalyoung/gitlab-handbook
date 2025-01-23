@@ -4,7 +4,7 @@ title: ElevatePrep
 
 ElevatePrep is a _signature_ program within GitLab's broader Elevate leadership experience aim to enhance leadership performance and capability across the organization. ElevatePrep focuses on skills and capabilities that strengthen self-awareness, goal setting, feedback, and influencing others. This experiece is designed for GitLab individual contributors (ICs) who would like to _one day_ step into a people management role. ElevatePrep lays the foundation for strong 
 
-## Important Note About Career Development
+### Important Note About Career Development
 
 While ElevatePrep provides valuable leadership development opportunities, participation in the program is **neither a guarantee of promotion nor a prerequisite for moving into a people leadership role at GitLab.** The program is designed to support professional growth and skills development, regardless of your chosen career path.
 
