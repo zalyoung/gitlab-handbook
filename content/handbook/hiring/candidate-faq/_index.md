@@ -108,7 +108,6 @@ At GitLab, we are committed to fostering an inclusive environment where everyone
 
 When providing your availability for interviews, you’ll receive a link to a form where you can share any accommodation needs. Our Candidate Experience team, in collaboration with your Recruiter, will review your request and work with you to address your needs. Examples of accommodations may include but are not limited to:
 	•	Closed captioning for video interviews.
-	•	Additional time for technical or assesment based interviews.
 	•	Accessible formats for interview materials.
 
 We are here to support you every step of the way and ensure an inclusive and seamless experience.
