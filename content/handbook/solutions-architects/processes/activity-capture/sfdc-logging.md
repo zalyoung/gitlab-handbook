@@ -77,7 +77,6 @@ Solutions Architects are responsible for maintaining several key fields in Sales
    - Ensures current assessments
    - System-maintained, no manual updates needed
 
-
 ### Activity Planning Fields
 
 1. **SA Next Steps**
@@ -101,7 +100,6 @@ Solutions Architects are responsible for maintaining several key fields in Sales
    - Auto-updates with **SA Next Steps** changes
    - Keeps track of historical changes
    - System-maintained, no manual updates needed
-
 
 ### Related Fields
 
