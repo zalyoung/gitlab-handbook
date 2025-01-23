@@ -72,9 +72,9 @@ Solutions Architects are responsible for maintaining several key fields in Sales
 
 3. **SA Feasibility Review Date**
 
-   - Updates automatically with Feasibility Rating or Details change
+   - Updates automatically when Feasibility Rating or Details change
    - Shows when the last technical review occurred
-   - Ensures current assessments
+   - Helps ensure assessments stay current
    - System-maintained, no manual updates needed
 
 ### Activity Planning Fields
