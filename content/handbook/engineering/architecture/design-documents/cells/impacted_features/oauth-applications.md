@@ -81,7 +81,7 @@ Pros:
 
 Cons:
 
-- More complex as OAuth applications need to be synced across Cells
+- More complex as OAuth applications need to be synced across Cells. Issues like authoritative Cell for OAuth applications needs to be resolved.
 - Each organization requires a different token, requiring special handling for:
   - VS Code extension (needs to store tokens per organization)
   - Git access
@@ -89,17 +89,17 @@ Cons:
 
 ## 5. Alternative Approaches Considered
 
-### 5.1. OAuth Applications Scoped to Cells / Organizations
+### 5.1. OAuth Applications Scoped to Organizations
 
 OAuth applications, OAuth access grants, OAuth access tokens, and OAuth refresh tokens would be scoped to an Organization.
 
 Pros:
 
-- Less complex as OAuth applications do not need to be synced across Cells
+- Less complex as OAuth applications do not need to be globally accessible across Cells
 
 Cons:
 
-- Third-party applications need to install multiple OAuth applications: one per Cell
+- Third-party applications need to install multiple OAuth applications: one per Organization
 - Users need to understand which OAuth application is associated with a specific Cell
 - Third-party application admins need visibility into GitLab infrastructure
 - Need to create new OAuth applications as new Cells are created
