@@ -18,6 +18,7 @@ As part of [GitLab Support on-call](/handbook/support/on-call/), Support Manager
 1. Ensuring customer emergencies are [handled promptly and accurately](#handling-customer-emergencies-and-incidents), [according to SLAs](https://about.gitlab.com/support/)
 1. [Handling Support Ticket Attention Requests](/handbook/support/internal-support/support-ticket-attention-requests) during [Global Support Hours](https://about.gitlab.com/support/#hours-of-operation)
 1. Acting as a [notification point for security incidents](#act-as-a-notification-point-for-security-incidents)
+1. [Finding a Support Manager DRI for an Account Escalation](#finding-a-support-manager-dri-for-an-account-escalation)
 1. Help avoid SLA breaches. See [Working on Tickets](/handbook/support/workflows/working-on-tickets) for details.
 
 **Note:** You (or the CMOC/CEOC) may sometimes be required to contact GitLab users on behalf of another GitLab team (such as the SIRT team). Please follow the [Sending Notices workflow](/handbook/support/workflows/sending_notices) to action these requests.
@@ -115,6 +116,10 @@ When a STAR is resolved:
 1. Consider applying an appropriate label, such as one of the scoped label examples below, to help categorize and track trends.
     - `~Escalation::License-Issue` : Identifies the core issue at hand resolves around licensing / subscriptions
     - `~Escalation::Response-Time` : Useful when the purpose of the request is to expedite a response to an issue or case
+
+## Finding a Support Manager DRI for an Account Escalation
+
+In case an Account Escalation opens where support involvement is needed, it is the responsibility of the support manager on-call to find a Lead Support Manager. In case this is an ASE account (you can find this in the org notes) please ping Mike Dunninger (AMER), Ilia Kosenko (EMEA) or Wei Meng Lee (APAC). 
 
 ## Handling mid ticket feedback requesting manager contact during business hours
 
