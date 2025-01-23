@@ -452,7 +452,7 @@ flowchart TD
     TYPE -- External & has external_url --> EXT[Post message to external service]
 
     EXT --> PEND[Set control to pending state]
-    PEND --> WAIT{Wait max 6 hours}
+    PEND --> WAIT{Wait max 30 minutes}
     WAIT -->|No reply| FAIL[Default to failed]
     WAIT -->|Got reply| REPLY[Use reply status]
 
