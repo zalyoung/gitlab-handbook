@@ -65,6 +65,38 @@ The plan is to measure and compare the following metrics:
 
 Strategy to take to gradually migrate to Playwright.
 
+### Update 2025-01-22
+
+#### Current Progress and Challenges
+
+After extensive efforts on the proof of concept to replace Capybara with Playwright, the working group has encountered significant challenges that impede further progress:
+
+* Authentication Issues: Integrating Playwright with our existing authentication mechanisms has proven to be complex and while seemingly solved, it is in a way that makes it difficult to troubleshoot future problems.
+* Increased Complexity: Troubleshooting the Playwright POC revealed that migrating to a new testing framework introduces additional layers of complexity, making maintenance and debugging more challenging than anticipated.
+* Resource Constraints: The time and resources required to overcome these roadblocks are substantial, diverting focus from other critical testing improvements.
+
+Given these obstacles, the working group recommends discontinuing the current experiment to replace Capybara with Playwright.
+
+#### Recommendation
+
+Despite discontinuing the Playwright experiment, the working group remains committed to enhancing our overall testing strategy. We propose the following recommendations to increase testing coverage and reduce flakiness within our existing Capybara/RSpec framework:
+
+1. Increase Test Coverage:
+
+* Identify Gaps: Conduct a thorough analysis to identify areas with insufficient test coverage and prioritize adding tests to those regions.
+* End-to-End (E2E) Tests: Gradually introduce E2E tests for critical user flows, encouraging authoring of these E2E tests by frontend/fullstack engineers.
+
+1. Training and Documentation:
+
+* Skill Development: Provide training sessions for engineers on best practices with Capybara and RSpec to improve test writing and maintenance.
+
+1. Regular Maintenance and Review:
+
+* Flaky Test Identification: Establish a routine for identifying and addressing flaky tests promptly to maintain test suite reliability.
+* Continuous Improvement: Foster a culture of continuous improvement where feedback from test runs is regularly used to enhance testing strategies.
+
+By implementing these recommendations, we aim to strengthen our feature testing framework, increase coverage, and significantly reduce flakiness, thereby enhancing overall code quality and stability.
+
 ### Roles and Responsibilities
 
 | Working Group Role | Person              | Title                                               |
