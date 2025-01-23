@@ -33,11 +33,11 @@ Based on these needs, the Data Team is organized in the following way:
 
 | Department / Division | Functional Analytics Team / Steering Committee | Analytics Engineer      |
 | ---------------- | --------------------------------- | ----------------------- |
-| Sales            |  Revenue Strategy and Analytics   |  @lisvinueza             |
-| Marketing        |  Marketing Strategy and Analytics |  @chrissharp             |
-| Finance          |  FP&A Analytics                   |  @chrissharp            |
+| Sales            |  Revenue Strategy and Analytics   |  @j_kim                 |
+| Marketing        |  Marketing Strategy and Analytics |  @dantenel              |
+| Finance          |  FP&A Analytics                   |  @annapiaseczna         |
 | Customer Success |  CS Strategy and Analytics        |  @mdrussell             |
-| Product          |  Product Data Insights            |  @michellecooper             |
+| Product          |  Product Data Insights            |  @michellecooper        |
 | Engineering      |  Engineering Analytics            |  @michellecooper        |
 | Security         |  Engineering Analytics            |  @michellecooper        |
 | Support          |  N/A                              |  @michellecooper        |
