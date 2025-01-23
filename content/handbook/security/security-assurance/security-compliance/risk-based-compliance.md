@@ -118,6 +118,7 @@ We maintain strict separation between:
 By explicitly excluding systems and controls in scope for SOX and other certifications/attestations from our testing scope, we ensure our risk-based testing does not interfere with or create confusion around formal audit activities. We maintain distinct documentation, testing schedules, and reporting processes for each domain.
 
 Our findings and metrics remain internal to the security organization and inform our continuous improvement efforts. They are not:
+
 - Reported to internal audit
 - Shared with external auditors
 - Used for regulatory compliance purposes
