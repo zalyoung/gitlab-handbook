@@ -166,7 +166,7 @@ In the [HackyStack v1.11 (November 2021) release](https://gitlab.com/gitlab-com/
 
 1. Sign into [https://gitops.gitlabsandbox.cloud](https://gitops.gitlabsandbox.cloud) using your generated credentials on [https://gitlabsandbox.cloud](https://gitlabsandbox.cloud). Keep in mind that this is `{firstInitial}{lastName}-{hash}` and not your normal GitLab username.
 1. Navigate to the project for the Terraform environment that you just created. You can quickly access the project from the link on the Cloud Account page on [https://gitlabsandbox.cloud](https://gitlabsandbox.cloud).
-1. On your local computer navigate to your .ssh folder and generate a ssh key
+1. On your local computer navigate to your `~/.ssh` folder and generate an SSH key
 
     ```shell
     ssh-keygen -t rsa -b 4096 -C <name_of_project>
