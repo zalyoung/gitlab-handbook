@@ -570,6 +570,12 @@ Any of these factors can influence a team member's performance. Be prepared with
 
 You may be able to gather insights from your manager or cross functional stakeholders who have worked closely with the team member in the performance period. You may have access to the recent 360 feedback for each of your team members, as well as their talent assessment from last year to help inform your thinking. If you haven't already, it's important to ask the team member to share their own perspective on their accomplishments prior to you taking the role, so you are well prepared for the discussion of your assessment.
 
+**A team member recently moved to be my direct report, however for the majority of the performance year, they reported to another manager. Are there options to delegate or re-assign the manager evaluation to their previous manager?** 
+
+As a manager, you can delegate the manager evaluation to another manager in your direct management chain. If your team member moved from another manager in another organization, you should be able to write the review with input from the previous manager. As the new manager, you will be responsible for the calibration of team members in your management chain at the time of calibration. 
+
+We would expect these situations to be exceptions and will further guide at that time. Please enter a HelpLab request if you have any questions about your specific scenario. 
+
 **My team member does not agree with their placement in performance and growth potential. How should I approach this?**
 
 Remember that this conversation will be most effective if you are well prepared. If you haven't yet, take an opportunity before the performance and growth potential conversation to understand their own assessment of their results.
