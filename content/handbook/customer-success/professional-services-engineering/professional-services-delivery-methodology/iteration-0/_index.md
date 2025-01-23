@@ -9,7 +9,7 @@ A reminder to [think big in discovery](../discovery/_index.md) and consider [tea
 
 For **Transformational planning** throughout iterations, please [reference here.](../iteration-planning-per-service-offering/_index.md).
 
-[Guidelines for PSDM management](../../_index.md#guidelines-for-psdm)
+[Guidelines for PSDM management](../_index.md#guidelines-for-psdm)
 
 ## EM>PS Transition
 

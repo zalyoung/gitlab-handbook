@@ -7,7 +7,7 @@ description: "Learn about the key charateristics to classify the different Custo
 
 Most Fortune 500 companies are interested in **Scaling.** The business goals are usually focused on gaining efficiencies by scaling from **teams** to **programs** and ultimately across a set of complex **portfolios** with a strong incentive to realize cost savings through standardization.
 
-Some Fortune 500 companies are interested in [digital transformations](../digital-transformation/_index.md).
+Some Fortune 500 companies are interested in digital transformations.
 
 What are key characteristics?
 

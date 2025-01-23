@@ -27,7 +27,7 @@ To reiterate some of the basic preconditions that have to be met in order to eff
 
 2. [Good estimation techniques](../good-estimation-techniques/_index.md)
 
-3. 1 and 2 result in the ability to perform [effective release planning](../release-and-engagement-planning/_index.md)
+3. 1 and 2 result in the ability to perform effective release planning.
 
 **_Without good user stories and applying good estimation techniques, the product and sprint backlogs become less useful and will ultimately prevent the Agile / Scrum process from becoming predictable._**
 
@@ -47,7 +47,7 @@ The GitLab Implementation Team and the Customer Development Team are responsible
 
 The Program Manager / Project Manager communicates with stakeholders to determine the priorities and constantly refines the backlog.
 
-In GitLab, there are dynamically generated issue lists which users can view to track their backlog. Labels can be created and assigned to individual issues, which then allows you to filter the issue lists by a single label or multiple labels. This allows for further flexibility. Priority labels can be used to also order the issues in those lists. See "[How to Use CPR to Manage Engagements](../cpr/_index.md)" for more information.
+In GitLab, there are dynamically generated issue lists which users can view to track their backlog. Labels can be created and assigned to individual issues, which then allows you to filter the issue lists by a single label or multiple labels. This allows for further flexibility. Priority labels can be used to also order the issues in those lists. See "[How to Use CPR to Manage Engagements](../cp/_index.md)" for more information.
 
 ## Product – Release – Sprint Backlogs
 
