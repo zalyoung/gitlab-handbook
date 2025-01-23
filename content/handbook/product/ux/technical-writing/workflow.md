@@ -166,7 +166,7 @@ The Technical Writer:
   Documentation requirements section. Addresses any recommendations or
   questions with the PMs and others collaborating on the issue in order to
   refine or expand the Documentation requirements.
-- Updates the Technical Writing milestone plan. [Example](https://gitlab.com/gitlab-org/technical-writing/-/issues/521), created from the [issue template](https://gitlab.com/gitlab-org/technical-writing/-/blob/main/.gitlab/issue_templates/tw-milestone-plan.md).
+- Updates the Technical Writing milestone plan. [Example](https://gitlab.com/gitlab-org/technical-writing/team-tasks/-/issues/521), created from the [issue template](https://gitlab.com/gitlab-org/technical-writing/team-tasks/-/blob/main/.gitlab/issue_templates/tw-milestone-plan.md).
   - Add a link to the board or filter that shows the planned documentation and UI text work for the upcoming milestone.
   - Confirm that the group PM or EM is aware of the planned work.
 
@@ -465,7 +465,7 @@ documentation for their assigned stage.
   - Creating and refining content to address documentation needs and gaps for their assigned **stage**.
     For example, writing tutorials and use case-based content, restructuring existing content, working on the information architecture, and so on.
   - Supporting other writers in the stage to contribute to documentation improvements.
-- Create a quarterly planning issue to outline the content gaps and improvements that they aim to address over three milestones, for example, [FY25Q3 Stage lead planning issue: Secure](https://gitlab.com/gitlab-org/technical-writing/-/issues/1067).
+- Create a quarterly planning issue to outline the content gaps and improvements that they aim to address over three milestones, for example, [FY25Q3 Stage lead planning issue: Secure](https://gitlab.com/gitlab-org/technical-writing/team-tasks/-/issues/1067).
 - Collaborate with other stage leads on documentation improvements.
 
 For [documentation improvements](#documentation-feedback-and-improvements), stage leads are responsible for creating an
