@@ -20,10 +20,10 @@ We support the Security division's [mission and operating principles](/handbook/
    - External Audit coordination and execution
 1. [Continuous Monitoring of GitLab's Security Controls]({{< ref "sec-controls" >}}) which are mapped to applicable regulatory requirements and security certifications/frameworks we have committed to.
    - [Policy-as-code]({{< ref "../../security-assurance/security-compliance/policy-as-code" >}})
-   - Automated evidence collection and control testing
+   - [Automated evidence collection and control testing](./automated-control-testing.md)
    - [User Access Reviews](./access-reviews.md)
    - [Business Continuity Plan (BCP)](/handbook/business-technology/entapps-documentation/policies/gitlab-business-continuity-plan/) and [Information System Continuity (ISCP)]({{< ref "information-system-contingency-plan-iscp" >}}) testing
-   - [Risk-based control testing] (./risk-based-control-testing.md)
+   - [Risk-based control testing](./risk-based-control-testing.md)
 1. [Observation and Remediation Management]({{< ref "observation-management-procedure" >}})
    - Specific to Tier 3 (system-level) risks
    - Identify control weaknesses and gaps (observations)
