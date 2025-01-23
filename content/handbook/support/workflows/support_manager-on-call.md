@@ -136,6 +136,12 @@ The following action should be taken promptly:
 
 When GitLab experiences a [security incident](/handbook/security/security-operations/sirt/security-incident-communication-plan#extended-team-roles-responsibilities-and-points-of-contact), the Support Manager on-call is responsible for triaging and responding to customer communications stemming from the security incident. This may include involving the [CMOC](/handbook/support/workflows/cmoc_workflows).
 
+## Support the CMOC with incidents that require a Support Response
+
+When there is an incident that results in unexpected customer impact, that requires a non-standard workflow or communication from Support, the CMOC will create a [Support Response](https://gitlab.com/gitlab-com/support/support-team-meta/-/blob/master/.gitlab/issue_templates/Support%20Response.md) issue to coordinate Support action and response.
+
+The Support Response may require a decision or input from Support leadership, you can support the CMOC by ensuring they have clarity and communication with decision-makers about what is needed for the incident.
+
 ## Provide assistance with Upgrade Assistance Requests
 
 [Upgrade assistance requests](https://about.gitlab.com/support/scheduling-upgrade-assistance/) are currently triaged by engineers as part of the [Working on Tickets](/handbook/support/workflows/working-on-tickets) but in some cases the triaging agent(s) may need assistance from Support management.

@@ -117,9 +117,9 @@ The CMOC can be paged during the [incident declaration process](/handbook/engine
 
 ### About Coordinating a Support Response
 
-When there is an incident that results in unexpected customer impact, that requires non-standard workflow or communication from Support, you can create a [Support Response](https://gitlab.com/gitlab-com/support/support-team-meta/-/blob/master/.gitlab/issue_templates/Support%20Response.md) issue to help coordinate Support action and response.
+When there is an incident that results in unexpected customer impact, that requires a non-standard workflow or communication from Support, you can create a [Support Response](https://gitlab.com/gitlab-com/support/support-team-meta/-/blob/master/.gitlab/issue_templates/Support%20Response.md) issue to help coordinate Support action and response.
 
-Keep this issue updated as communication guidelines or workflows change so that it remains the singe source of truth for Support-related information.
+Keep this issue updated as communication guidelines or workflows change so that it remains the single source of truth for Support-related information.
 
 ### CMOC Performance Indicators
 
