@@ -177,7 +177,7 @@ We will create a new temporary Organization (GitLab Inc.) in a Cell (not Legacy 
 We will use [direct transfer](https://docs.gitlab.com/ee/user/group/import/)
 or [congregate](https://gitlab.com/gitlab-org/professional-services-automation/tools/migration/congregate) to migrate select top-level groups belonging to GitLab Inc. from the `default Organization` in the Legacy Cell to the GitLab Inc. Organization on the other Cell. If [Org mover](https://gitlab.com/groups/gitlab-org/-/epics/12859) is ready in time, we will use it instead.
 
-All traffic to the the top-level groups being migrated will blocked for the duration of the migration. After the migration is complete, traffic will be resumed and redirected to the other Cell where the groups are located. They will be read/write and fully operational.
+All traffic to the top-level groups being migrated will be blocked for the duration of the migration. After the migration is complete, traffic will be resumed and redirected to the other Cell where the groups are located. They will be read/write and fully operational.
 
 ### Cells 1.5
 
