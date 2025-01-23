@@ -6,11 +6,12 @@ Use the links below to navigate to each Elevate program. Here is a useful guide 
 
 | Program Name | Description |
 | ----- | -------- |
-| [Elevate](/handbook/people-group/learning-and-development/elevate-programs/elevate/) | The next round of Elevate will being in January 2025, if you've been enrolled, please navigate here. |
+| [Elevate](/handbook/people-group/learning-and-development/elevate-programs/elevate/) | The latest round of Elevate began in January 2025, if you've been enrolled, please navigate here. The next round will begin in Q1 FY26 |
 | [Elevate Applied](/handbook/people-group/learning-and-development/elevate-programs/elevate-applied/) | Continuous learning and resources for those who've earned their Elevate certification |
 | [Elevate+](/handbook/people-group/learning-and-development/elevate-programs/elevate+/) | Round 3 Ongoing, Round 4 will begin in Q1 FY26 |
+| [ElevatePrep](https://handbook.gitlab.com/handbook/people-group/learning-and-development/elevate-programs/elevate-prep/) | Round 1 will begin in Q1 FY26 |
 
-**Not a GitLab People Leader?** We've put together a Level Up course available to all GitLab Team Members, to share the self-paced training content for each Elevate module. You can check it out here: [Elevate Learning Materials](https://levelup.gitlab.com/access/saml/login/internal-team-members?returnTo=https://levelup.gitlab.com/learn/learning-path/elevate-learning-materials).
+If you have any questions about Elevate, or are interested in how you can participate in one of the programs, please reach out in the #learninganddevelopment channel.
 
 #### Elevate Feedback Loop
 
