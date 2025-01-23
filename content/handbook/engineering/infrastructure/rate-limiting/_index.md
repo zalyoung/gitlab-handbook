@@ -32,11 +32,11 @@ flowchart TD
     A -->|registry.gitlab.com| N
     D --> G
     F --> H
+    G[https + ssh]
     subgraph ide2 [GitLab]
         subgraph ide1 [HAProxy]
             C[pages_http]
             N[registry_https]
-            G[https + ssh]
         end
         C --> K
         H[nginx]
@@ -119,7 +119,7 @@ Application
 
 [Published rate limits](https://docs.gitlab.com/ee/user/gitlab_com/index.html#gitlabcom-specific-rate-limits) apply to all customers and users with no exceptions.
 
-Please see the [Rate Limit Bypass Policy](/handbook/engineering/infrastructure/rate-limiting/bypass-policy/) for more detailed information.
+Customers or internal teams seeking a bypass should refer to the [Rate Limit Bypass Policy](/handbook/engineering/infrastructure/rate-limiting/bypass-policy/).
 
 ## Traffic management Rate Limits
 
@@ -151,10 +151,10 @@ Gitlab.com Rate Limiting
 <td>
 
 - Configured by Terraform in [config-mgmt](https://ops.gitlab.net/gitlab-com/gl-infra/config-mgmt/-/blob/main/environments/gprd/cloudflare-rate-limits-waf-and-rules.tf).
-  - Covers a wide range of cases:
+- Covers a wide range of cases:
   - Global limits per `IP`
   - Global limits per `session` (cookies) or `tokens` (headers) can be used as rate counters to avoid IP scope false positives, e.g. many users behind a single IP, VPN.
-- Endpoint specific limits.
+- Endpoint-specific limits.
 - Independent of application rate limits.
 
 </td>
@@ -185,6 +185,14 @@ Cloud Connector Rate Limiting
 
 **Note:** Cloudflare is _not_ application aware and does not know how to map to our users and groups.
 
+Cloudflare is also responsible for applying the `X-GitLab-Rate-Limit-Bypass` header to a subset of requests from:
+
+- Legacy customer IP rate limit bypasses
+- Third party vendors with whom we have integrations
+- Internal infrastructure
+
+For a full list of conditions where the header will be applied, see [this configuration](https://ops.gitlab.net/gitlab-com/gl-infra/config-mgmt/-/blob/main/environments/gprd/cloudflare-transform-rules.tf).
+
 Our [Cloudflare runbook](https://gitlab.com/gitlab-com/runbooks/-/blob/master/docs/cloudflare/) contains more detail on configuring this layer of our infrastructure.
 
 Changes to Cloudflare rate limits require a [Change Request](change-management.md/#change-request-workflows), and should
@@ -194,16 +202,9 @@ be discussed with the [Production Engineering::Foundations](https://gitlab.com/g
 
 The majority of GitLab's traffic management rate limits have been moved out of HAProxy and into Cloudflare (see this [confidential issue](https://gitlab.com/gitlab-com/gl-infra/production-engineering/-/issues/24699) for more details).
 
-However, HAProxy is responsible for GitLab Pages and Registry rate limits, as those components are not fronted by Cloudflare.
+However, HAProxy is still responsible for GitLab Pages and Registry rate limits, as those components are not fronted by Cloudflare. There are no rate limit exceptions available for Pages or Registry. See the sections on [Pages](#gitlab-pages) and [Registry](#registry) for more details.
 
-HAProxy also handles the bypass header, which allows for a configured list of IP addresses to bypass rate limits in HAProxy or [Rack Attack](https://github.com/rack/rack-attack). There are two types:
-
-1. **Internal**: Full bypass, including some other protections. Only CI runner managers (or similar) should ever be added to the internal list. Managed in Chef.
-1. **External IPs**: An allowlist of IP addresses. Managed in [Chef](https://gitlab.com/gitlab-com/gl-infra/chef-repo/-/blob/62302c2219550f83b4427ceec2e303952c6ce333/roles/gprd-base-haproxy-main-config.json#L176). Requests from these IP addresses are still subject to additional checks, before bypassing the rest of the rate-limiting.
-
-A full list of cases where the `X-GitLab-Rate-Limit-Bypass` header is used can be found in the [HAProxy cookbook](https://gitlab.com/gitlab-cookbooks/gitlab-haproxy/-/blob/65f8adc65b62db74714bd53dd48a50f7d9cfede3/templates/default/frontends/https.erb#L49).
-
-Customers or internal teams seeking a bypass should refer to the [Rate Limit Bypass Policy](/handbook/engineering/infrastructure/rate-limiting/bypass-policy/).
+Currently HAProxy also handles applying the `X-GitLab-Rate-Limit-Bypass` for a limited number of special paths. The list can be found [here](https://gitlab.com/gitlab-cookbooks/gitlab-haproxy/-/blob/master/templates/default/frontends/https.erb?ref_type=heads#L40-43), but there is [work underway](https://gitlab.com/gitlab-com/gl-infra/production-engineering/-/issues/26205) to move this logic out into Cloudflare as well.
 
 ## Application Rate Limits
 
@@ -299,9 +300,8 @@ For more information about introducing new Rate Limits for GitLab, see the [Prod
 
 Because GitLab Pages is not behind CloudFlare and doesn't have CDN support, rate limits are set in several places:
 
-1. There exist some limits in [HAProxy](https://gitlab.com/gitlab-cookbooks/gitlab-haproxy/-/blob/master/templates/default/frontends/pages_http.erb).
-2. Within the [kubernetes settings](https://gitlab.com/gitlab-com/gl-infra/k8s-workloads/gitlab-com/-/blob/1c12c9ac84921893ac774e95e1087f144dd3b04a/releases/gitlab/values/values.yaml.gotmpl#L492) for GitLab.com.
-3. In the [go ratelimiter module](https://gitlab.com/gitlab-org/gitlab-pages/-/blob/master/internal/ratelimiter/ratelimiter.go?ref_type=heads) for Pages.
+1. Within the [Kubernetes settings](https://gitlab.com/gitlab-com/gl-infra/k8s-workloads/gitlab-com/-/blob/1c12c9ac84921893ac774e95e1087f144dd3b04a/releases/gitlab/values/values.yaml.gotmpl#L492) for GitLab.com.
+2. In the [Go ratelimiter module](https://gitlab.com/gitlab-org/gitlab-pages/-/blob/master/internal/ratelimiter/ratelimiter.go?ref_type=heads) for Pages.
 
 For more information, see the [Pages Rate Limit documentation](https://docs.gitlab.com/ee/administration/pages/index.html#rate-limits).
 
