@@ -139,7 +139,7 @@ However there are frequently instances where a review request primarily pertains
 
 We plan in monthly cycles in accordance with our [Product Development Timeline](/handbook/engineering/workflow/#product-development-timeline). Our typical planning cycle includes:
 
-- At the beginning of each month, Product should have created [a planning issue](https://gitlab.com/gitlab-org/sscs/authentication/discussion/-/issues/118) for the coming release.
+- At the beginning of each month, Product creates [a planning issue](https://gitlab.com/gitlab-org/software-supply-chain-security/authentication/discussion/-/issues/?sort=created_date&state=opened&label_name%5B%5D=group%3A%3Aauthentication&label_name%5B%5D=Planning%20Issue&first_page_size=20) for the coming release.
   - This issue should include the general themes of a release. It should also include placeholders for [the quad](/handbook/engineering/infrastructure/test-platform/quad-planning/) to put their prioritized feature, bug, and maintenance lists.
   - Issues without estimates should be investigated by engineering throughout the month so weighting does not need to happen at once. Once the prioritized feature list is determined for a milestone, engineering will put a weight on any issues on the list that do not have a weight.
 - Within the first 12 days of the month we estimate the issues. We also identify any key issues that our team feels should be addressed in the upcoming milestone, including bugs, maintenance tasks, and new features. This approach helps us build a list of important issues that we all agree should be prioritized in future milestones.
