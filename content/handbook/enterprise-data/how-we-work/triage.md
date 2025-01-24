@@ -112,6 +112,7 @@ All Data Team triagers, regardless of their specific role, share these core resp
 **Data Platform Responsibilities**
 
 The Data Platform triager is responsible for resolving problems with our data platform, which will either be in the **#data-pipelines** and **#data-prom-alerts** slack channels, on the [DE - Triage Errors board](https://gitlab.com/groups/gitlab-data/-/boards/1917859) and on the [MonteCarlo Incident page](https://getmontecarlo.com/incidents?include-normalized=false&types=freshness_anomaly%2Cvolume_anomaly%2Cdimension_anomaly%2Cfield_metrics_anomaly%2CDBT_ERRORS%2Cfreshness_sli_rule_breach%2Cvolume_sli_rule_breach%2Csql_rule_breach) (make sure to filter on the `Data Platform` domain in MonteCarlo). Issues created from these errors should use the [DE Triage Errors issue template](https://gitlab.com/gitlab-data/analytics/issues/new?issuable_template=Triage%20Errors%20DE).
+
 - During the assigned triage week the Data Platform Team member will focused on (in priority order):
   - Incoming incidents
   - [Open incidents](https://gitlab.com/gitlab-data/analytics/-/incidents)
@@ -149,7 +150,6 @@ We will iterate on triage responsibilities to include additional activities such
 
 - For more information on responsibilities of a triager watch the [Data Engineer triage training session video](https://www.youtube.com/watch?v=0eGpgaQgEGg).
 
-
 ### How to Complete Data Triage
 
 For issue triaging, the triager should add the appropriate labels to the issue to put the issue into the respective project's workflow. It is not the responsibility of the triager to validate the issue and determine any root causes or solutions. Rather, for the Data Team project for example, the triager should add the appropriate scoped TEAM label (Ex.`Team:GTM`) and the scoped `Workflow::triage` label. From there, those issues are then put into the respective team's workflow.
@@ -158,7 +158,7 @@ For issue triaging, the triager should add the appropriate labels to the issue t
 The Triager:
 
 - is not expected to know the answer to all the questions
-- should cc (mention) other team members who are subject matter experts (SME) or [functional DRIs](/handbook/enterprise-data/#-team-organization) for their feedback
+- should cc (mention) other team members who are subject matter experts (SME) or [functional DRIs](/handbook/enterprise-data/organization/#data-team-organization) for their feedback
 - should document any issues stumbled upon and help to disseminate knowledge amongst all team members
 
 The Central Data Team triager will create [an issue in the Data Team project](https://gitlab.com/gitlab-data/analytics/issues/new?issue%5Bassignee_id%5D=&issue%5Bmilestone_id%5D=&issuable_template=Data%20Triage). Task and duties are stated in the issue template.
@@ -350,7 +350,7 @@ Follow the [runbook](https://gitlab.com/gitlab-data/runbooks/-/blob/main/Gitlab_
 
 ### Automated service ping issue
 
-In a situation when [Service ping](/handbook/enterprise-data/data-catalog/saas-service-ping-automation/#service-ping-overview) fail while it generates metrics, we should be informed either via `Trusted data dashboard` or `Airflow` log - generally, the error log is stored in `RAW.SAAS_USAGE_PING.INSTANCE_SQL_ERRORS` table. Follow the instructions from the link [error-handling-for-sql-based-service-ping](/handbook/enterprise-data/data-catalog/saas-service-ping-automation/#error-handling-for-sql-based-service-ping) in order to fix the issue.
+In a situation when [Service ping](https://internal.gitlab.com/handbook/enterprise-data/data-catalog/#service-ping-overview) fail while it generates metrics, we should be informed either via `Trusted data dashboard` or `Airflow` log - generally, the error log is stored in `RAW.SAAS_USAGE_PING.INSTANCE_SQL_ERRORS` table. Follow the instructions from the link [error-handling-for-sql-based-service-ping](https://internal.gitlab.com/handbook/enterprise-data/data-catalog/saas-service-ping-automation/#error-handling-for-sql-based-service-ping) in order to fix the issue.
 
 ### Zuora Stitch Integration single or set of table-level reset
 
@@ -457,7 +457,7 @@ When got an error for model `version_usage_data_unpacked` and error looks like:
 
 The root cause of this issue is when new metrics are introduced in an upstream model - and this model (along with model `version_usage_data_unpacked_intermediate`) try to pivot values to columns. Without full refresh, this will not happen under the pipeline.
 
-Full refresh required as per instructions from [dbt models full refresh](/handbook/enterprise-data/platform/infrastructure/#dbt-models-full-refresh).
+Full refresh required as per instructions from [dbt models full refresh](https://internal.gitlab.com/handbook/enterprise-data/platform/infrastructure/#dbt-full-refresh).
 
 An example for this failure is the issue: **[#11524 (internal link)](https://gitlab.com/gitlab-data/analytics/-/issues/11524)**
 
@@ -533,7 +533,7 @@ It includes all the failures since the last person did sign off and will create 
 If any data pipeline has broken and there is expected to be a delay in getting data loaded or refreshed. The concerned team has to be notified using the [Triage Template (internal link)](https://gitlab.com/gitlab-data/analytics/-/issues/new)
 
 **Is there ETA for a different kind of issue?** <br>
-If the pipeline is broken it needs to be fixed, currently we are working on defining SLO's for our data assets. For our data extraction pipelines, there is a comprehensive overview [here](/handbook/enterprise-data/platform/#extract-and-load/).
+If the pipeline is broken it needs to be fixed, currently we are working on defining SLO's for our data assets. For our data extraction pipelines, there is a comprehensive overview [here](https://internal.gitlab.com/handbook/enterprise-data/platform/pipelines/).
 
 **If I work my normal hours on triage day i.e. till 11 AM of US timeline. What happens when the pipeline breaks post my normal hours and there is a delay in data availability?** <br>
 Yes, the benefit of our presence is that we have a wide overage of hours. If the person who is on Triage is ahead of US timelines, we have an advantage of solving issues timely. The downside is that we have not full coverage that day for US timelines. This is an attention point towards the future.
