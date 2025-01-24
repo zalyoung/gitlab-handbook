@@ -219,6 +219,8 @@ When a previously closed issue is reopened, the bot automatically removes the `c
 
 To help keep the project organized, the bot automatically removes warning labels once all required labels are properly applied to an issue. This creates a self-maintaining system where issues either progress through proper labeling or are eventually closed for review.
 
+Changes to the triage bot policy file should be tested in the MR by running the "dry-run:triage" CI job and inspecting the log output.  This CI job is a dry-run, meaning it will not actually take any actions in the project but will print out what would happen if the policy was actually executed.
+
 ### End of day wrap-up
 
 In order to get better and be more efficient in daily triage, we wrap-up the work by the end of the day. The following information is provided by the Data Analyst each day:
