@@ -489,27 +489,11 @@ With only the namespace, it will display the seats information. Entering the max
 | Name | Required | Details |
 |------|----------|---------|
 | :namespace      | *Yes* | The namespace to update |
-| :max_seats_used | No  | Max number of seats to use |
+| :max_seats_used | *Yes*  | Max number of seats to use |
 
 #### Sample
 
 ```ruby
-irb(main):035:0> account_seats("gitlab-silver")
-{"plan"=>
-  {"code"=>"silver",
-   "name"=>"Silver",
-   "trial"=>false,
-   "auto_renew"=>nil,
-   "upgradable"=>false},
- "usage"=>
-  {"seats_in_subscription"=>8,
-   "seats_in_use"=>10,
-   "max_seats_used"=>10,
-   "seats_owed"=>2},
- "billing"=>
-  {"subscription_start_date"=>"2020-01-01",
-   "subscription_end_date"=>"2021-01-01",
-   "trial_ends_on"=>nil}}
 irb(main):089:0> account_seats("gitlab-silver",0)
 {"plan"=>
   {"code"=>"silver",
