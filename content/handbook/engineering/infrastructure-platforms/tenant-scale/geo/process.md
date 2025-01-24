@@ -224,7 +224,21 @@ If an issue is assigned a weight of 10, then the issue is too big and will need 
 
 If any issue is weighted above a 3, we should ask ourselves if it can be further broken down. We should do this even if the issue was already broken out from an even larger issue.
 
-### Bugs Process
+### Backlog Refinement Process (Trial Phase) 
+
+Backlog refinement equals moving issues from `workflow::validation backlog` through each stage toward `workflow::ready for development`. Engineers will follow https://handbook.gitlab.com/handbook/product-development-flow along with the refinement issue specifics.
+
+Issues in the [GitLab.org group](https://gitlab.com/groups/gitlab-org/-/issues) labeled `~"group::geo`, `workflow::validation backlog` will be refined. 
+Each week 5 issues will be randomly selected by a bot and refined by the team. Bugs will be priortized over feature requests and a go/no go will be given
+
+1. Refinement issue is created and assigned to engineers.
+2. Phase 1: Engineers will select 2-3 issues each and put the label `~"workflow::problem validation` on when they start taking a look.
+   1. If the issue doesn't have the right issue template/enough details, it will be sent back to the author/PM for clarification 
+   2. If the issue is a bug and needs to be reproduced, it will be moved into `~"workflow::problem validation` and reassigned to someone in Phase 2 to reproduce, once reproduced, it can be assigned back
+   3. If the issue is a go, move to `~"workflow::refinement` for Phase 2
+3. Phase 2: Engineers will add an implementation guide, the right labels and weights for the issue. Once that is ready, move it to `~"workflow::ready for development` for the PM/EM to schedule.
+
+### Bugs Process (Being Deprecated/Combined with the Refinement Process Above)
 
 Issues in the [GitLab.org group](https://gitlab.com/groups/gitlab-org/-/issues) labeled `~"group::geo` and `~"type::bug"` will be triaged. These issues are represented at a high-level in the [Geo Bug Triage issue board](https://gitlab.com/groups/gitlab-org/-/boards/1077712). The current high-level state of each issue is indicated by its [`workflow` label](/handbook/product-development-flow/).
 
