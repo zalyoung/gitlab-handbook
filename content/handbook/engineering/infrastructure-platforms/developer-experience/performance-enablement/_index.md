@@ -5,7 +5,18 @@ description: "Performance Enablement team within Developer Experience sub-depart
 
 ![Emerald City](./images/DALL·E%20Emerald%20City.webp)
 
-Performance Enablement enables internal teams to build reliable systems and deliver seamless customer experiences through our comprehensive developer portal (our Emerald City). We transform GitLab's performance testing from reactive to proactive by providing tooling, frameworks, best practices, and solutions that foster a culture of performance awareness. Working closely with product groups, we develop application standardization and production readiness quality gates to ensure consistent performance and reliability outcomes, empowering teams to detect and prevent performance issues early in the development lifecycle.
+Performance Enablement is to build and maintain a framework which enables internal teams to build reliable systems and deliver seamless customer experiences. Our mission is to transform GitLab's performance testing from reactive to proactive while fostering a culture of performance awareness by providing: 
+
+- Optimized and efficient feedback loops
+     - Faster times between test execution and result analysis
+     - Enhance setup and execution process for performance testing
+     - Empower engineers to detect and prevent performance issues as early as possible
+- Reduced cognitive load
+     - Improve documentation for better clarity and accessibility of performance testing best practices and available tooling
+     - Simplify complexity in tools and dashboards used for performance testing
+- Improved flow state
+     - Define clear objectives for success criteria of performance readiness of features
+     - Ensure self-servicing of performing performance testing at the adequate layer of the SDLC  
 
 The first four pillars in the Emerald City will be:
 
@@ -135,11 +146,10 @@ The team does have a set of regular synchronous calls:
 
 ### Project Management
 
-#### Issue Boards
 
-The majority of our [project management process is described at the Platforms level](https://handbook.gitlab.com/handbook/engineering/infrastructure/platforms/project-management/) and is shared between all Infrastructure Platform teams. Please read this first.
+The majority of our [project management process is described at the Platforms level](/handbook/engineering/infrastructure/platforms/project-management/) and is shared between all Infrastructure Platform teams. Please read this first.
 
-The following is in addition to the process described on the Platforms page.
+Project management links
 
 - [Team board for Developer Experience: Performance Enablement](https://gitlab.com/groups/gitlab-org/-/boards/8955771?label_name[]=team%3A%3Aperformance%20enablement)
 - Team [project status epic](https://gitlab.com/groups/gitlab-org/quality/-/epics/96) 
@@ -148,19 +158,19 @@ The following is in addition to the process described on the Platforms page.
 
 #### Status Updates
 
-- By 20:00 UTC / 03:00 PM ET on Fridays DRIs of OKRs to provide a status update in the comment section of the OKR
-  - Format for weekly update:
-    - Date of Update (YYYY-MM-DD)
-    - Brief update (~sentence or couple bullets) for each of these four bullets:
-      - Status update - Progress has been updated to X %.
-      - What was done :white_check_mark: - Unblocked blockers, any other progress achieved
-      - Next steps :construction_worker:
-      - Blockers :octagonal_sign: - Issues or unexpected work that blocked/affected progress. For example, customer escalations/on-call DRI
-- ASYNC weekly epic status updates
+Every Wednesday, the DRI for a project epic is expected to update the status block in the epic description to:
 
-## Test Platform process across product sections
+1. Indicate any project blockers.
+1. Briefly highlight progress since the last update.
+1. Indicate planned next steps, or mitigations required to progress.
 
-Overall we follow the same process as [defined](/handbook/engineering/infrastructure/test-platform/#how-we-work) in our Test Platform handbook across all groups in Core Platform and SaaS Platform
-except for a few exceptions curated to fit the needs of specific groups.
+This enables other engineers and other managers to have good information about projects in an asynchronous fashion.
+
+## Team history
+
+The Performance Enablement team came to be after the transformation from Test Platform sub department to Developer Experience sub department. The team was last known as the Self-Managed Platform team under Test platform. 
+
+1. [Year overview for 2024]( https://gitlab.com/gitlab-org/quality/quality-engineering/team-tasks/-/issues/3217)
+
 
 - [Test Platform in Distribution group](/handbook/engineering/infrastructure-platforms/developer-experience/performance-enablement/distribution/)
