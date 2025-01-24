@@ -64,7 +64,7 @@ Candidates will do their research in places far beyond our jobs site to find out
 
 We want to be sure we're telling an authentic story about life at GitLab, and one of the best ways to do that is through our team members.
 
-Once you've reviewed the [team member social media policy](/handbook/marketing/team-member-social-media-policy/), you'll find a library of suggested posts to share using our social media advocacy platform, [Everyone Social](/handbook/marketing/integrated-marketing/digital-strategy/social-marketing/team-member-social-advocacy/#suggesting-content-for-team-members-to-share-on-EveryoneSocial).
+Once you've reviewed the [team member social media policy](/handbook/marketing/team-member-social-media-policy/), you'll find a library of suggested posts to share using our social media advocacy platform, [EveryoneSocial](https://handbook.gitlab.com/handbook/marketing/integrated-marketing/digital-strategy/social-marketing/team-member-social-advocacy/#suggesting-content-for-team-members-to-share-on-everyonesocial).
 
 #### Being an advocate for our talent brand on social media
 
