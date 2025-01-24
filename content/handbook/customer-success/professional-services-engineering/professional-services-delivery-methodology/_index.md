@@ -9,7 +9,7 @@ The Professional Services Delivery Methodology (PSDM) is the guiding light for P
 
 ## Iteration 0
 
-[Iteration 0](professional-services-delivery-methodology/iteration-0/_index.md) includes the initial discovery and planning between the GitLab & Customer Project Team(s). This includes:
+[Iteration 0](./iteration-0/_index.md) includes the initial discovery and planning between the GitLab & Customer Project Team(s). This includes:
 
 - EM>PS Delivery Transition
 - Stakeholder Planning
@@ -24,9 +24,9 @@ Proper Iteration 0 preparedness allows us to address risk early and instills con
 
 GitLab will be used as a project management and collaboration platform. We will be using the following features/terminology in GitLab defined below.
 
-Please reference the following tips for [GitLab best practices](professional-services-delivery-methodology/gitlab-best-practices/_index.md) when navigating GitLab.
+Please reference the following tips for [GitLab best practices](./gitlab-best-practices/_index.md) when navigating GitLab.
 
-How to initially configure GitLab as a Project Management tool can be found [here](professional-services-delivery-methodology/cp/_index.md).
+How to initially configure GitLab as a Project Management tool can be found [here](./cp/_index.md).
 
 NOTE: any issues marked as "internal" are still visible to anyone who has "developer" access into the Gitlab Collaboration project. This includes anyone outside of Gitlab. It it recommended to use the Projects "Internal Epic" for confidential communications.
 
@@ -42,15 +42,15 @@ NOTE: any issues marked as "internal" are still visible to anyone who has "devel
 | Iterations    | Time-boxed (generally) two-week events, that are reviewed during the Agile ceremonies.      |
 | Milestones    | How we can track against the Project Phase    |
 | Labels    | We use these in a variety of ways, but the most important ones are: </br> <ul><li>To manage progress during delivery using a left-to-right flow</li><li>To manage prioritization</li><li>To organize specific sub-categories of work to keep the team organized.</li><li>To manage risk and mitigation</li></ul> |
-| Weight | Size or level of effort of the issue. See [Good Estimation Techniques](./professional-services-delivery-methodology/good-estimation-techniques/_index.md) for assigning weight    |
+| Weight | Size or level of effort of the issue. See [Good Estimation Techniques](./good-estimation-techniques/_index.md) for assigning weight    |
 
-Reference [here](professional-services-delivery-methodology/agile-to-gitlab-terminology/_index.md) for additional clarity around mapping Agile terminology to GitLab.
+Reference [here](./agile-to-gitlab-terminology/_index.md) for additional clarity around mapping Agile terminology to GitLab.
 
 ## Label Guidelines
 
 Labels are the best way to generate reports around our Projects and sort according to the Project teams’ needs. The team is free to make labels as they see fit for Project reporting, but there are also current guidelines around label generation for internal use.
 
-Currently, our [CP (Customer Project) automation](professional-services-delivery-methodology/cp/_index.md) includes the following labels:
+Currently, our [CP (Customer Project) automation](./cp/_index.md) includes the following labels:
 
 - SOW-# or PO# - helps the GitLab team search for Projects within the Professional service Group
 - PM name - helps the GitLab team sort by PM name
@@ -60,7 +60,7 @@ Labels used for *Internal retro & RAID tracking/reporting* can be found in “Re
 
 ## Iteration Scheduling
 
-The [iteration schedule and cadence](professional-services-delivery-methodology/iteration-scheduling/_index.md) is first introduced in Iteration 0, and is part of the Communication Plan that lives within the GitLab Customer Project (Group). It is important the Customer agrees to an Iteration Schedule as an output of the Customer Kickoff, but should be introduced & collaborated with the Customer as part of our Stakeholder Planning meeting.
+The [iteration schedule and cadence](./iteration-scheduling/_index.md) is first introduced in Iteration 0, and is part of the Communication Plan that lives within the GitLab Customer Project (Group). It is important the Customer agrees to an Iteration Schedule as an output of the Customer Kickoff, but should be introduced & collaborated with the Customer as part of our Stakeholder Planning meeting.
 
 There are five components within an Iteration schedule:
 
@@ -74,7 +74,7 @@ There are five components within an Iteration schedule:
 
 The Program Manager / Project Manager provides strategy and direction for the project, which means he/she is responsible for providing the vision, product roadmap, release goals, and iteration goal. The Program Manager / Project Manager is expected to insert, re-prioritize, refine, or delete items from the product backlog; this can happen any time until the iteration scope is defined and committed to by the development team.
 
-Please reference [Backlog Management](professional-services-delivery-methodology/backlog-management/_index.md) for guidance around estimation, backlog grooming, and other Iteration Planning preparation tips.
+Please reference [Backlog Management](./backlog-management/_index.md) for guidance around estimation, backlog grooming, and other Iteration Planning preparation tips.
 
 ## Reporting within the Iteration Schedule and Project
 
@@ -86,15 +86,15 @@ Working asynchronously & remotely can be challenging. Ensuring the DRI within th
 
 ### RAID & Internal/Customer Retrospective
 
-The RAID, Internal Retrospective, and Customer Retrospective not only assist with the progression of a Project, but these records act as a mechanism to feed back into our Business Development, Customer Success tracking, and Team celebrations. [Please reference here](professional-services-delivery-methodology/manage-risk/_index.md) for more guidelines on how to manage these reports once a Project begins.
+The RAID, Internal Retrospective, and Customer Retrospective not only assist with the progression of a Project, but these records act as a mechanism to feed back into our Business Development, Customer Success tracking, and Team celebrations. [Please reference here](./manage-risk/_index.md) for more guidelines on how to manage these reports once a Project begins.
 
-The Customer Retrospective guidelines can be [found here](professional-services-delivery-methodology/retrospectives/_index.md).
+The Customer Retrospective guidelines can be [found here](./retrospectives/_index.md).
 
 ## Guidelines for PSDM
 
 Applying the suggested PSDM with a full Iteration schedule is needed only when the Project exceeds 5 Iterations or when the engagement plans to exceed two months.
 
-Please review the [archetype definitions](professional-services-delivery-methodology/archetype-definition/_index.md) around what a “large” Customer looks like.
+Please review the [archetype definitions](./archetype-definition/_index.md) around what a “large” Customer looks like.
 
 Please use the below as a guide, when planning for Iteration 0.
 

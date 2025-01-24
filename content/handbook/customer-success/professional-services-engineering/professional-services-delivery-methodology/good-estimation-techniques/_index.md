@@ -47,7 +47,7 @@ As you go through different project phases and you learn more about the actual w
 
 **Estimation variability decreases the closer we get to completing the project.**
 
-![ConeOfUncertainty.jpg](/images/customer-success/professional-services-engineering/processes/professional-services-delivery-methodology/good-estimation-techniques/ConeOfUncertainty.jpg)
+![ConeOfUncertainty.jpg](/images/customer-success/professional-services-engineering/professional-services-delivery-methodology/good-estimation-techniques/ConeOfUncertainty.jpg)
 
 The only exception to this is if you are working on a process that is 100% understood – a production line is a good example, you know exactly how long the piece will move through different stages on the production line and you can estimate exactly how long it will take to finish one instance of your product.
 
@@ -69,17 +69,17 @@ On the other hand, if I am trying to plan for something 5 months out, the best I
 
 For estimation of software projects, this translates into the traditional "Planning Onion" as follows:
 
-![PlanningOnion.jpg](/images/customer-success/professional-services-engineering/processes/professional-services-delivery-methodology/good-estimation-techniques/PlanningOnion.jpg)
+![PlanningOnion.jpg](/images/customer-success/professional-services-engineering/professional-services-delivery-methodology/good-estimation-techniques/PlanningOnion.jpg)
 
 This "Planning Onion" basically works from the outside in to provide ever increasing levels of detail; as such it is closely related to the concept presented in the Cone of Uncertainty.
 
 To reflect the timing aspect and estimation detail, you can think of the "Planning Onion" like this:
 
-![PlanningOnionTiming.jpg](/images/customer-success/professional-services-engineering/processes/professional-services-delivery-methodology/good-estimation-techniques/PlanningOnionTiming.jpg)
+![PlanningOnionTiming.jpg](/images/customer-success/professional-services-engineering/professional-services-delivery-methodology/good-estimation-techniques/PlanningOnionTiming.jpg)
 
 Finally, in terms of Agile / Scrum estimation time horizons, you can think of Long Term vs. Short Term planning horizons as follows:
 
-![ShortLongHorizon.jpg](/images/customer-success/professional-services-engineering/processes/professional-services-delivery-methodology/good-estimation-techniques/ShortLongHorizon.jpg)
+![ShortLongHorizon.jpg](/images/customer-success/professional-services-engineering/professional-services-delivery-methodology/good-estimation-techniques/ShortLongHorizon.jpg)
 
 Vision and Roadmap planning are Long Term Horizon activities, whereas Sprint planning falls into the Short Term Horizon activities.
 
@@ -97,13 +97,13 @@ The following picture shows a traditional Waterfall process with three imaginary
 2. Customer Management Turnover – your customer / client management or key stakeholders changed and the "new team" wants to provide input (read "new direction") on the project which causes a reset
 3. Technology Innovation – new technologies allow for better ways to deliver the project, which forces the team to re-evaluate existing analysis, design, and code and start over
 
-![WaterfallModel.jpg](/images/customer-success/professional-services-engineering/processes/professional-services-delivery-methodology/good-estimation-techniques/WaterfallModel.jpg)
+![WaterfallModel.jpg](/images/customer-success/professional-services-engineering/professional-services-delivery-methodology/good-estimation-techniques/WaterfallModel.jpg)
 
 **On waterfall projects, this happens all the time! You reset without delivering value.**
 
 Using Agile on the other hand, you are able to deliver small product increments rapidly. Your planning horizons are shorter, and the Agile team basically commits to delivering a working increment at the end of every sprint.
 
-![AgilePlanning Model.jpg](/images/customer-success/professional-services-engineering/processes/professional-services-delivery-methodology/good-estimation-techniques/AgilePlanning_Model.jpg)
+![AgilePlanning Model.jpg](/images/customer-success/professional-services-engineering/professional-services-delivery-methodology/good-estimation-techniques/AgilePlanning_Model.jpg)
 
 Even if requirements change mid sprint, the product increment at the end of that sprint will be delivered. New requirements make it into the product backlog to be prioritized for later sprints.
 
@@ -127,7 +127,7 @@ One key thing to keep in mind is that Agile / Scrum teams use relative estimatio
 
 The following picture tries to clarify the differences:
 
-![Absolute-Relative](/images/customer-success/professional-services-engineering/processes/professional-services-delivery-methodology/good-estimation-techniques/Absolute-relative.jpg)
+![Absolute-Relative](/images/customer-success/professional-services-engineering/professional-services-delivery-methodology/good-estimation-techniques/Absolute-relative.jpg)
 
 The _absolute_ measure here is milliliters (ml), which is an International System of Units fluid measure. There is no interpretation as to what it means. It is absolute. Wine bottles are classified accordingly.
 
@@ -135,11 +135,11 @@ The _relative_ measure might be the small, medium, large classification used i
 
 The following table compares and contrasts absolute vs. relative estimation techniques:
 
-![Absolute-Relative-Table](/images/customer-success/professional-services-engineering/processes/professional-services-delivery-methodology/good-estimation-techniques/Absolute-relative-table.jpg){width="544" height="380"}
+![Absolute-Relative-Table](/images/customer-success/professional-services-engineering/professional-services-delivery-methodology/good-estimation-techniques/Absolute-relative-table.jpg){width="544" height="380"}
 
 ## Estimation Poker
 
-![Estimation Poker](/images/customer-success/professional-services-engineering/processes/professional-services-delivery-methodology/good-estimation-techniques/Estimation-poker.jpg){width="523" height="285"}
+![Estimation Poker](/images/customer-success/professional-services-engineering/professional-services-delivery-methodology/good-estimation-techniques/Estimation-poker.jpg){width="523" height="285"}
 
 As mentioned before, Estimation Poker is a relative estimation technique that favors accuracy over precision. It commonly uses the Fibonacci number sequence (1, 2, 3, 5, 8, 13, 21, 34, 55, …) [^2].
 
@@ -200,7 +200,7 @@ All for one, and one for all!
 
 ## T-Shirt Sizing and Affinity Estimation
 
-![T-Shirt Sizing](/images/customer-success/professional-services-engineering/processes/professional-services-delivery-methodology/good-estimation-techniques/T-shirt-sizing.jpg){width="521" height="326"}
+![T-Shirt Sizing](/images/customer-success/professional-services-engineering/professional-services-delivery-methodology/good-estimation-techniques/T-shirt-sizing.jpg){width="521" height="326"}
 
 T-Shirt Sizing (aka Affinity Estimation) is based upon the need to estimate things quickly without necessarily having all the details available that you usually might require. Here are some examples of how T-Shirt Sizing can be use:
 
@@ -240,7 +240,7 @@ This 4 step process allows the Development Team to tackle many hundreds of user 
 
 Regardless if you are using Estimation Poker, or T-Shirt Sizing, the Cone of Uncertainty still applies. Be aware that using T-Shirt Sizing early in the process will produce estimates with higher variability.
 
-![ConeTShirtPoker.jpg](/images/customer-success/professional-services-engineering/processes/professional-services-delivery-methodology/good-estimation-techniques/ConeTShirtPoker.jpg)Depending on what you are challenged with estimating, choose the right estimation method:
+![ConeTShirtPoker.jpg](/images/customer-success/professional-services-engineering/professional-services-delivery-methodology/good-estimation-techniques/ConeTShirtPoker.jpg)Depending on what you are challenged with estimating, choose the right estimation method:
 
 * Roadmap Planning =\> Use T-Shirt Sizing
 * Release Planning =\> Use T-Shirt Sizing or Estimation Poker, depending on the number of user stories
@@ -254,7 +254,7 @@ The estimation team size is determined by the Agile Implementation Team size, wh
 
 Sometimes organizations think that adding more people to the estimation effort will make the estimate better, but that is a commonly accepted fallacy. Larger teams do not produce better estimates:
 
-![Estimation Accuracy](/images/customer-success/professional-services-engineering/processes/professional-services-delivery-methodology/good-estimation-techniques/EstimateAccuracy.jpg){width="600" height="377"}
+![Estimation Accuracy](/images/customer-success/professional-services-engineering/professional-services-delivery-methodology/good-estimation-techniques/EstimateAccuracy.jpg){width="600" height="377"}
 
 **Estimation accuracy actually decreases with increasing team size.**
 
@@ -264,7 +264,7 @@ It is worthwhile pointing out, that sports teams are organized around this size 
 
 What is important to understand, both for estimation efficiency as well as team dynamics, is the following:
 
-![Team Dynamics](/images/customer-success/professional-services-engineering/processes/professional-services-delivery-methodology/good-estimation-techniques/TeamDynamics.jpg)
+![Team Dynamics](/images/customer-success/professional-services-engineering/professional-services-delivery-methodology/good-estimation-techniques/TeamDynamics.jpg)
 
 The bigger the team, the harder it is to effectively communicate, estimate, and come to consensus. The bigger the team, the more likely something will fall through the cracks because of miscommunication. Because most of our PS engagements are conducted remotely, this problem is amplified even more.
 
@@ -274,13 +274,13 @@ This challenge of ever increasing communication paths with larger teams is also 
 
 Velocity is the rate at which the Development Team can reliably deliver story points (usually packaged into time boxed sprints and resulting in a working product increment).
 
-![Velocity Table](/images/customer-success/professional-services-engineering/processes/professional-services-delivery-methodology/good-estimation-techniques/Velocity.jpg)
+![Velocity Table](/images/customer-success/professional-services-engineering/professional-services-delivery-methodology/good-estimation-techniques/Velocity.jpg)
 
 ## Estimates Self-Correct
 
 Using Estimation Poker, estimation variability decreases usually over the course of the first 4 to 6 sprints. I have rarely seen stable teams that did not achieve fairly accurate estimates after working together for 5 to 6 sprints.
 
-![Estimation Accuracty](/images/customer-success/professional-services-engineering/processes/professional-services-delivery-methodology/good-estimation-techniques/EstimationAccuracySelfCorrect.jpg)
+![Estimation Accuracty](/images/customer-success/professional-services-engineering/professional-services-delivery-methodology/good-estimation-techniques/EstimationAccuracySelfCorrect.jpg)
 
 Pleases note that "stable teams" is key here – teams need to be stable, meaning team members need to know each other, have worked with each other, and successfully formed a team – following the standard "forming–storming–norming–performing" model of group development, first proposed by [Bruce Tuckman in 1965](https://en.wikipedia.org/wiki/Tuckman's_stages_of_group_development).
 
@@ -290,7 +290,7 @@ These phases are all necessary and inevitable in order for the team to grow, to 
 
 Once a Implementation Team has gone through the "forming–storming–norming–performing" process, team velocity is established. Estimation accuracy and predictable velocity allow for longer term forecasting.
 
-![Velocity Over Time](/images/customer-success/professional-services-engineering/processes/professional-services-delivery-methodology/good-estimation-techniques/Velocity-Forecast.jpg)
+![Velocity Over Time](/images/customer-success/professional-services-engineering/professional-services-delivery-methodology/good-estimation-techniques/Velocity-Forecast.jpg)
 
 **Simply put, if your product backlog contains 450 user stories representing 2,400 story point and your Development Team is delivering at a steady velocity of 60 story points for every 2 week sprint, you are able to predict that the rest of the project will take another 40 sprints, which equals 80 weeks, or roughly 1 ½ years.**
 
