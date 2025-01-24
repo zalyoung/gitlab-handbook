@@ -44,7 +44,7 @@ The form has two required fields:
 
 </details>
 
-Adding storage using this tool should be used as a temporary solution. Please create an [Internal Request / Repo size change](https://gitlab.com/gitlab-com/support/internal-requests/-/issues/new?issuable_template=Repo%2520Size%2520Limit%2520Change#) to remove the storage once a permanent solution is in place.
+Adding storage using this tool should be used as a temporary solution. Please create an [Internal Request / Repo size change](https://gitlab.com/gitlab-com/support/internal-requests/-/issues/new?issuable_template=Repo%2520Size%2520Limit%2520Change#) to remove the storage once a permanent solution is in place. Please verify the amount the namespace should have and the actual amount on the namespace before actually reverting the change.
 
 ### Process for authorising additional compute minutes for customers as an act of goodwill
 
