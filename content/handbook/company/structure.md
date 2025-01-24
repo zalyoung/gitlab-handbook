@@ -74,7 +74,7 @@ This ranges from focus on own work to cross-company and external influence in te
 This ranges from low/moderate complexity and problem solving to highly complex issues that influence the accomplishment of long-term goals of GitLab.
 - **Leadership & People Management/Communication**: The level of leadership they display and how they communicate within the organization. We expect that individual contributors also show leadership in their roles.
 This ranges from within their team to executives and board members.
-- [**High Performing Teams**](/internal.gitlab.com/handbook/company/high-performing-teams/#high-performing-teams-indicators): Each characteristic of high performance is broken into 3 indicators to help you recognize and measure success.
+- [**High Performing Teams**](https://internal.gitlab.com/handbook/company/high-performing-teams/#high-performing-teams-indicators): Each characteristic of high performance is broken into 3 indicators to help you recognize and measure success.
 - [**Values Competencies**](/handbook/people-group/competencies/#values-competencies): Competencies that are aligned with our [CREDIT Values](/handbook/values/#credit).
 - [**Remote Working Competencies**](/handbook/people-group/competencies/#remote-work-competencies): Competencies that are aligned with our Remote working competencies.
 - [**Functional Competencies**](/handbook/people-group/competencies/#functional-competencies): Competencies that are specific per function. These are built out by each function themselves.
