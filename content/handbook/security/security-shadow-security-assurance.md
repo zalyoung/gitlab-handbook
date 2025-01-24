@@ -2,8 +2,6 @@
 title: "Security Shadow: Security Assurance"
 ---
 
-Completion of each course you will receive a certificate.  At the completion of all 3 courses your name will be recognized on this page.
-
 ## Security Compliance
 
 [Security Compliance:]({{< ref "_index.md#security-compliance" >}}) Where "Just do whatever you want" comes to die.
@@ -44,7 +42,7 @@ If you have any questions please reach out in #sec-assurance and we'll be happy 
 3 days, 6-9 hours
 
 ### Team Manager
-
+Corey Oas @corey-oas
 
 
 ## Field Security and Governance
@@ -82,7 +80,7 @@ Our goal on the Field Security team is to be the liaison between GitLab's Securi
 
 ### Team Manager
 
-TBD
+Joe Longo @jlongo_gitlab
 
 ## Security Risk
 
@@ -100,11 +98,11 @@ The Security Risk team acts as a shield between GitLab and the dangers lurking w
 
 ### Course Length
 
-`TBD`
+2-3 days, 6-8 hours
 
 ### Team Manager
 
-`TBD`
+Ty Dilbeck, @tdilbeck
 
 ## Enrollment
 
