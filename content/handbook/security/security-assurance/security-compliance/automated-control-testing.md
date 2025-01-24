@@ -11,22 +11,33 @@ This document outlines GitLab's approach to automated evidence collection and co
 Key aspects of GitLab's automated evidence collection and control testing:
 
 * Two distinct testing methodologies:
+
 - Framework-based: Structured approach for ISO, SOC 2, TISAX, and Cyber Essentials compliance
+
 - Risk-based: Dynamic approach for emerging security challenges and operational risks
 
 * Shared Infrastructure:
+
 - Centralized evidence collection system
+
 - Automated collection and validation
+
 - Common storage and retrieval mechanisms
 
 * Key Differentiators:
+
 - Framework testing follows rigid schedules and standardized procedures
+
 - Risk-based testing adapts to the threat landscape and risk assessments
+
 - Evidence can serve both purposes through proper classification
 
 * Implementation:
+
 - Mix of custom automation and security platforms
+
 - Flexible architecture to accommodate evolving requirements
+
 - Comprehensive reporting for both compliance and risk management
 
 ## Introduction
@@ -76,5 +87,3 @@ Risk-based analysis examines control effectiveness trends, threat exposure metri
 ## Conclusion
 
 This dual approach to automated evidence collection and control testing provides GitLab with comprehensive coverage of compliance requirements and security risks. The shared infrastructure for evidence collection, combined with distinct testing methodologies, ensures efficient resource utilization while maintaining the flexibility to address both structured compliance needs and dynamic security challenges. This strategy positions GitLab to maintain a substantial compliance posture while effectively managing emerging security risks.
-
-
