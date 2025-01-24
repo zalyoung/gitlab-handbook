@@ -16,6 +16,7 @@ title: "Optimize Group"
 - We do an asynchronous daily stand-up in our group stand-up channel:
   - [#g-optimize-engineers-standup](https://gitlab.enterprise.slack.com/archives/C07QLHAS02Z)
 - You can reach out to the team on slack at: [#g_plan_optimize](https://gitlab.enterprise.slack.com/archives/CJZR6KPB4)
+  - All Optimize team members are ancouraged to triage and respond to requests in the team Slack channel, regardless of the nature of the questions being asked.
 
 #### Prioritization
 
