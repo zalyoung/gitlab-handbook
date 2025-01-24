@@ -165,7 +165,7 @@ From here, it's easy to see how a license approval policy can be evaluated
 against the different licensing options. If an approval policy denies any
 of the licenses, the next license option can be tested for denial. The change in
 logic is minimal, with the only change being an additional outer loop in the
-violation checking logic.
+[violation checking logic](https://gitlab.com/gitlab-org/gitlab/blob/4d8427c67fd1ecb7b854469d4151b0cddd2e9b34/ee/lib/security/scan_result_policies/license_violation_checker.rb#L32-L38).
 
 ### Evaluation
 
