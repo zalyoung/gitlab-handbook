@@ -34,7 +34,7 @@ The [Support Engineer on-call](/handbook/support/on-call/) is the first responde
 - During an emergency: find additional staff for subject-matter expertise; replace the on-call engineer if needed; lead any Zoom call(s) as needed; hand off the emergency to the next on-call manager.
 - Find additional staff when there are [multiple emergencies](/handbook/support/on-call/#handling-multiple-simultaneous-emergencies).
 - Convert [customer emergencies into Account Escalations](/handbook/support/workflows/emergency-to-escalation-process) as needed.
-- Support the CMOC when incidents require a Support Response by ensuring there is clarity and communication with relevant decision-makers in Support or other teams.
+- The CMOC should coordinate a [Support Response](/handbook/support/workflows/cmoc_workflows.md#about-coordinating-a-support-response) when an incident requires a non-standard workflow or communication from Support. Support the CMOC by ensuring there is clarity and communication with relevant decision-makers in Support or other teams. You can also create the [Support Response issue](https://gitlab.com/gitlab-com/support/support-team-meta/-/blob/master/.gitlab/issue_templates/Support%20Response.md) if this has not yet been done.
 
 ### Situations that Might or Might not Be Emergencies
 
