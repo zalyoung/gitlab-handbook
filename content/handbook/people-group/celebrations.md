@@ -9,7 +9,7 @@ As a new hire at GitLab, you will be getting a customized welcome package! On yo
 
 ## New Parent Swag
 
-As a token of appreciation, team members who welcome a new baby will be sent a GitLab swag bundle. This bundle includes a teething ring, baby socks, plush tag blanket, adult socks, baby bib and baby blanket (all GitLab branded). The Absence Management team will mail the gift. There is no action required by the team member or their manager. Please note that these gifts are ordered on a weekly cadence, although time to ship and customs will vary depending on the country. For questions related to New Parent Swag, please email leaves@gitlab.com.
+Welcoming a new child into your family is an exiting life event that GitLab wants to help celebrate. New parents will receive a swag bundle that includes a teething ring, baby socks, plush tag blanket, adult socks, baby bib and baby blanket (all GitLab branded). The Absence Management team will mail the gift to the team member. There is no action required by the team member or their manager. Gifts are ordered on a weekly cadence, although time to ship and customs can vary depending on the country. For questions related to new parent swag, please email leaves@gitlab.com.
 
 ## Celebrations
 
