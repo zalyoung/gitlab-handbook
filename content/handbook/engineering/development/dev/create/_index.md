@@ -78,8 +78,8 @@ Each team work in the manner that best meets the needs of their product and thei
 
 - [Create Engineering Managers](/handbook/engineering/development/dev/create/engineering-managers/)
 - [Remote Development Team](/handbook/engineering/development/dev/create/remote-development/#-how-we-work)
-- [Code Review Team](/handbook/engineering/development/dev/create/code-review/#work)
-- Source Code Team [Backend](/handbook/engineering/development/dev/create/source-code-be/#work), [Frontend](/handbook/engineering/development/dev/create/code-review/frontend/#work)
+- [Code Review Team](/handbook/engineering/development/dev/create/code-review/)
+- Source Code Team [Backend](/handbook/engineering/development/dev/create/source-code-be/), [Frontend](/handbook/engineering/development/dev/create/code-review/frontend/#work)
 
 ## Templates
 
@@ -103,7 +103,7 @@ Engineering Managers live our [values](/handbook/values/) every day.
 ## How we measure Results
 
 - [OKRs](/handbook/engineering/development/dev/create/engineering-managers/okrs/)
-- [Dashboards](/handbook/engineering/development/dev/create/engineering-managers/dashboards/)
+- [Dashboards](/handbook/engineering/development/dev/create/engineering-managers/#results/)
 - Issue Boards
 - [Monitoring](/handbook/engineering/development/dev/create/engineering-managers/monitoring/)
 
