@@ -107,7 +107,6 @@ GitLab team members receive credits to use for backup care and learning benefits
 
 If you missed the live webinar session, please find the recording [here](https://drive.google.com/file/d/1g7SugxmyV4kggCuVomtdfjRFZyliiCCO/view). Please see the [slide deck](https://www.google.com/url?q=https://drive.google.com/file/d/1KFpjdUWxFziXFOFwxCgmnc8TIUmk5Ijk/view?usp%3Dsharing&sa=D&source=calendar&ust=1737910504735459&usg=AOvVaw2Crosn8YD6vHjB4_Vb31Wg) from the presentation.
 
-
 ### Benefit Options & Taxability
 
 - **Care Cash:** Use your preferred backup care provider and get reimbursed up to 100 USD per day for the cost.
