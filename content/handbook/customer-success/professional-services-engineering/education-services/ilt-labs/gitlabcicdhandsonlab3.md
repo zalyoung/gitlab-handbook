@@ -2,6 +2,10 @@
 title: "GitLab CI/CD - Hands-On Lab: Configuring Pipeline Testing"
 description: "This Hands-On Guide demonstrates how to configure testing for a binary"
 ---
+
+> Estimated time to complete: 15 minutes
+
+
 ## Objectives
 
 - Handling different test types (unit, integration, end to end)

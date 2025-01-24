@@ -5,7 +5,7 @@ description: "This Hands-On Guide walks you through creating and maintaining a D
 
 Runner scalers rely on a consistent runner image to be able to spin up runner machines on demand. The first step to creating this image is understanding how the underlying runner functions. In this lab, you will learn how to create a Docker based runner. This runner will be able to serve as a basis for a Docker autoscaler.
 
-> Estimate time to complete: 15 minutes
+> Estimated time to complete: 15 minutes
 
 ### Task A. Create a new project
 
