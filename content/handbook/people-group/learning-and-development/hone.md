@@ -44,12 +44,7 @@ Program content will be announced closer to the launch date.
 
 ### Security and Confidentiality
 
-When participating in public workshops through the Hone platform, it's crucial to follow GitLab's [SAFE](/handbook/security/) information guidelines:
-
-1. Do not share confidential company information
-1. Use discretion when discussing GitLab-specific practices
-1. Focus on general scenarios and examples when participating in discussions
-1. Remember that you're representing GitLab in these public sessions
+When participating in public workshops through the Hone platform, it's crucial to follow GitLab's [SAFE](/handbook/legal/safe-framework/#safe) Framework:
 
 ### Platform Access
 
