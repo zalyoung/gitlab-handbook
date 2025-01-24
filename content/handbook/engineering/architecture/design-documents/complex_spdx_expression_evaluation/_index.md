@@ -273,7 +273,6 @@ For a singular set of licensing options, it may be acceptable, but using this
 for larger sets of data would begin to deteriorate performance. In comparison,
 the bit array approach would look like so:
 
-
 ```ruby
 licenses_from_policy = 0b00000100
 licenses_from_report = 0b01010010
@@ -300,4 +299,3 @@ each alternative solution/path.
 
 "Do nothing" and its pros and cons could be included in the list too.
 -->
-
