@@ -499,10 +499,12 @@ If the team member wants to keep their account as a wider community member, foll
 
 1. Remove the user from the [core team](https://forum.gitlab.com/g/core-team) group.
 
-## GitLab Forum Strategy
+## Projects
 
-Engagement drives engagement, so the more the GitLab team engages with our wider community, the more they are likely to engage with us, and with others. By setting the example of providing thorough answers, we can build our forum up as a place of knowledge share and collaboration. [See the Forum's 2020 strategy slide deck for more](https://docs.google.com/presentation/d/1PiNlxFImSIO8kz9TfWMZ6GLGd9fYefILpC6LS3w3lJE/edit#slide=id.p).
+### Fighting spam on Discourse
 
-### Connect with us via Slack
+See the [internal handbook](https://internal.gitlab.com/handbook/marketing/developer-relations/workflow-tools/forum/#fighting-spam-on-discourse) for analysis, strategies and actions.
+
+## Connect with us in Slack
 
 Join [#developer-relations](https://gitlab.slack.com/archives/C0R04UMT9).
