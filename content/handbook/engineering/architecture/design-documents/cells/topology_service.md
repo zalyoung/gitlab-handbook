@@ -137,8 +137,7 @@ Topology Service will make sure that the given range is not overlapping with oth
 graph TD
   A[64 bits] --> |1 bit - MSB| B[Sign]
   A -->|6 bits| C[Reserved]
-  A -->|16 bits| D[CellID]
-  A -->|41 bits| E[Sequence]
+  A -->|57 bits| D[46 bits of IDs per cell]
 ```
 
 - **Sign**: Always 0 for positive numbers.
@@ -148,36 +147,40 @@ graph TD
    ULID based ID allocator will have the `timestamp` value in the  most significant bits,
    reserving only one bit would have been sufficient but
    more bits are reserved to have the sequence bits at minimum.
-- **CellID**: A unique auto-incrementing [unique identifier for a Cell](decisions/012_cell_unique_identifier.md) starting with `1`, can support up to 65,535 Cell IDs.
-- **Sequence**: The sequence that will be used for each table in the database.
-  41 bits can support ~2 trillion IDs (2199,023,255,551) per cell (per sequence).
-  At the time of writing, the largest ID is 11,098,430,930 (primary key of `security_findings` table), so it's 200 times the current largest ID, which is sufficient.
+- With 41 bits (2199,023,255,551) per cell (per sequence), this will accommodate 65,536 unique cells.
+  And at the time of writing the largest ID in the legacy cell was ~11 billion (primary key of `security_findings` table). 41 bits supports ~200 times this ID, thus it is sufficient for any cell.
 
 Example `config.toml` of Topology Service:
 
 ```toml
 [[cells]]
 id = 1
+name = "cell-1"
 address = "legacy.gitlab.com"
-sequence_range = [0, 2199023255551]
+sequence_range = [1, 2199023255550]
 
 [[cells]]
 id = 2
+name = "cell-2"
 address = "cell-2-example.gitlab.com"
-sequence_range = [2199023255552, 4398046511103]
+sequence_range = [2199023255551, 4398046511101]
 ```
 
-Calculation for `id = 1`:
+Calculation for `cell-1`:
 
-- Sequences per cell: `2^41 -> 2199023255552`
-- Sequence `min`: `(CellId - 1) * SequencesPerCell` -> `(1 - 1) * 2199023255552` -> `0`
-- Sequence `max`: `(CellId * SequencesPerCell) - 1` -> `(1 * 2199023255552) - 1` -> `2199023255551`
+- Sequences per cell: `(2^41 - 1) -> 2199023255551`
+- Maximum allocated ID: `nil` || 0
+- Sequence `min`: (MaximumAllocatedID + 1) -> 1
+- Sequence `max`: (min + SequencesPerCell - 1) -> 2199023255550
+- Sequence range:  [1, 2199023255550]
 
-Calculation for `id = 2`:
+Calculation for `cell-2`:
 
-- Sequences per cell: `2^41 -> 2199023255552`
-- Sequence `min`: `(CellId - 1) * SequencesPerCell` -> `(2 - 1) * 2199023255552` -> `2199023255552`
-- Sequence `max`: `(CellId * SequencesPerCell) - 1` -> `(2 * 2199023255552) - 1` -> `4398046511103`
+- Sequences per cell: `(2^41 - 1) -> 2199023255551`
+- Maximum allocated ID: 2199023255550
+- Sequence `min`: (MaximumAllocatedID + 1) -> 2199023255551
+- Sequence `max`: (min + SequencesPerCell - 1) -> 4398046511101
+- Sequence range:  [2199023255551, 4398046511101]
 
 More details on the decision taken and other solutions evaluated can be found [here](decisions/008_database_sequences.md)
 and the reasoning behind choosing the logic to generate sequence ranges can be found [here](https://gitlab.com/gitlab-org/gitlab/-/issues/465809).
