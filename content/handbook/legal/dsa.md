@@ -7,7 +7,7 @@ description: "Use this form to report content that you believe is illegal in the
     <div class="col d-flex align-items-center rounded-3 p-4 shadow" style="background-color: #6e49cb; color: #ffffff;">
         <div id="dsaFormDiv">
             <p class="h4">DSA Reporting Form</p>
-            <form action="https://us-central1-glsec-trust-safety-dev.cloudfunctions.net/dsa-webhook" method="post" id="dsaForm" target="hidden-form">
+            <form action="https://us-central1-glsec-trust-safety-live.cloudfunctions.net/dsa-webhook" method="post" id="dsaForm" target="hidden-form">
                 <div class="mb-3">
                     <label for="email" class="form-label">Your email address</label>
                     <input name="email" type="email" required class="form-control">
@@ -24,6 +24,11 @@ description: "Use this form to report content that you believe is illegal in the
                         <option value="copyright">Copyright or trademark infringement</option>
                         <option value="other">Other legal issue</option>
                     </select>
+                </div>
+                <div class="mb-3">
+                    <label for="location" class="form-label">Location or URL of
+                    illegal content</label>
+                    <textarea name="location" type="text" required class="form-control"></textarea>
                 </div>
                 <div class="mb-3">
                     <label for="description" class="form-label">Please provide a detailed description of why you believe this content is illegal</label>
