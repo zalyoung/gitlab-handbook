@@ -330,7 +330,7 @@ Issue weights should approximate the complexity and effort required.
 Do not relate weight to time estimates.
 - The issue description must include an implementation plan as a second or third level heading with guidance
 to help contributors get started.
-For example `## Implementation`, `## Implementation plan` or `## Implementation guide` are all acceptable.
+For example `## Implementation`, `### Implementation`, `## Implementation plan` and `### Implementation guide` are all acceptable.
 This section can be very brief or offer possible actions to resolve the issue.
 - It's recommended to include at least 1 GitLab team member or experienced community contributor (e.g., "Support contact: @username") tagged in the `Implementation plan` section
 
