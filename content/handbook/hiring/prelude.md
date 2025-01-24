@@ -21,6 +21,7 @@ You can also download the [ModernLoop Chrome extension](https://chromewebstore.g
 - Check the information for the required interview to schedule (time, interviewer, scorecard etc), then click 'Next: Find Schedules'
 - ModernLoop will create a list of interview options.  To see an interviewers calendar you can click on the interviewer or the 'view' option on the top right of the card. 
 - To select a schedule option click on 'use schedule'on the top right corner of the option card. 
+- Change the location to Zoom
 - Select the check box to mark the interview as private 
 - Select slack channel to send slack messages to. 
 - Select Email to canditate template from dropdown list. 
