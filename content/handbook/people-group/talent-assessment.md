@@ -570,6 +570,12 @@ Any of these factors can influence a team member's performance. Be prepared with
 
 You may be able to gather insights from your manager or cross functional stakeholders who have worked closely with the team member in the performance period. You may have access to the recent 360 feedback for each of your team members, as well as their talent assessment from last year to help inform your thinking. If you haven't already, it's important to ask the team member to share their own perspective on their accomplishments prior to you taking the role, so you are well prepared for the discussion of your assessment.
 
+**A team member recently moved to be my direct report, however for the majority of the performance year, they reported to another manager. Are there options to delegate or re-assign the manager evaluation to their previous manager?** 
+
+As a manager, you can delegate the manager evaluation to another manager in your direct management chain. If your team member moved from another manager in another organization, you should collaborate with the previous manager to write the review with their input. The previous manager can leverage the Talent Assessment [google template](https://docs.google.com/document/d/1bdGDq85nY3uLRFLrmKV5RDyQpGkPmnvGAI1pN_RRNto/edit) to capture their feedback and provide it back to you so that you can enter it into Workday. As the new manager, you will be responsible for the calibration of team members in your management chain at the time of calibration. You should also ensure your communication of the final talent assessment is done in a joint conversation with the previous manager, you as the new manager and your team member.
+
+This would be a great opportunity to ensure a formal transition and knowledge of performance and feedback takes place between previous manager and new manager. Please enter a HelpLab request if you have any questions about your specific scenario. 
+
 **My team member does not agree with their placement in performance and growth potential. How should I approach this?**
 
 Remember that this conversation will be most effective if you are well prepared. If you haven't yet, take an opportunity before the performance and growth potential conversation to understand their own assessment of their results.
