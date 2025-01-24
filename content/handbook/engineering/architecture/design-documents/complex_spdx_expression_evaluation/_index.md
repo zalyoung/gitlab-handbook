@@ -240,13 +240,13 @@ like this.
 - There are 729 known licenses in the SPDX library. If we account for this,
 future growth, and word alignment, we can use a bit array with 1024 bits.
 - We can XOR the bit arrays to detect for approvals or violations. Bitwise
-operatiosn are fast, and can also be parallelized by the processor.
+operations are fast, and can also be parallelized by the processor.
 
 To demonstrate the implementation, we can do an example using a smaller set of
 available options. Say that projects have the option of using one or more out of
 eight licenses. We could represent the licenses like so.
 
-| Name | Leftmost Index
+| Name | Leftmost Index ([MSB](https://en.wikipedia.org/wiki/Bit_numbering))
 | ---- | --------------
 | LicenseA | 0
 | LicenseB | 1
