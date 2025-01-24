@@ -140,7 +140,7 @@ Before closing the Account Escalation:
 
 - In collaboration with the escalation team, complete the retrospective (within 3 weeks of escalation closure) in the issue created.
 
-- Lead the retrospective sync meeting from support side (if one is deemed necessary) to collect any final feedback and ensure all team members are clear on any remaining action items and due dates.
+- Lead the retrospective sync meeting on behalf of the support team (if deemed necessary) to collect any final feedback and ensure all team members are clear on any remaining action items and due dates.
 
 ## FAQ
 
