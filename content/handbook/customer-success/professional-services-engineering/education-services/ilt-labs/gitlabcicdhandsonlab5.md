@@ -5,7 +5,6 @@ description: "This Hands-On Guide demonstrates how to troubleshoot and fix CI/CD
 
 > Estimated time to complete: 15 minutes
 
-
 ## Objectives
 
 - Syntax error catching

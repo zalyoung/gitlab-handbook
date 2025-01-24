@@ -5,7 +5,6 @@ description: "This Hands-On Guide demonstrates how to configure testing for a bi
 
 > Estimated time to complete: 15 minutes
 
-
 ## Objectives
 
 - Handling different test types (unit, integration, end to end)

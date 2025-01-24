@@ -9,7 +9,6 @@ description: "This Hands-On Guide walks you through building a basic pipeline fo
 
 In this lab, you will explore the process of creating a build process for an application.
 
-
 ## Task A. Creating a Project
 
 1. Navigate to your GitLab group.

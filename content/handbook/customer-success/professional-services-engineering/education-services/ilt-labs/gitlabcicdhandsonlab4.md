@@ -9,7 +9,6 @@ description: "This Hands-On Guide demonstrates how to add CI/CD components to a 
 
 A component is a reusable CI/CD configuration. Many of GitLab’s provided CI/CD features are provided as components. In this lab, you will learn how to add a CI/CD component to your GitLab project.
 
-
 ## Task A. Finding the SAST Component
 
 GitLab stores CI/CD components inside of the CI/CD catalog. To view the catalog:
