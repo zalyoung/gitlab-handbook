@@ -129,14 +129,13 @@ The Data Platform triager is responsible for resolving problems with our data pl
 
 **Analytics Engineering Responsibilities**
 
-The Analytics Engineer triager is primarily responsible for resolving `dbt-test` and `dbt-run` errors which are sent to the **#analytics-pipelines** slack channel. Issues created from these errors should use the [AE Triage Errors issue template](https://gitlab.com/gitlab-data/analytics/-/issues/new?issuable_template=Triage%253A%2520Errors%2520AE).
+The Analytics Engineer triager has two primary responsibilities: addressing dbt-related errors (both new and existing) and supporting issue organization. 
 
-While team members are responsible for applying correct labels to their issues in the analytics repository, the AE triager plays a supportive role in label management:
+They monitor the `#analytics-pipelines` Slack channel for `dbt-test`, `dbt-run` errors and MonteCarlo anomalies, creating new issues using the [AE Triage Errors](https://gitlab.com/gitlab-data/analytics/-/issues/new?issuable_template=Triage:%20Errors%20AE%20) issue template when needed. 
 
-- Monitors issues with the `clean-up::review` label to assist team members who are unfamiliar with our labeling process
-- Helps team members understand how to properly label their issues
-- Assigns ownership based on the CODEOWNERS file for DBT model failures
-- Directs issues to functional DRIs or the Manager, Data when ownership isn't immediately clear
+The AE triager supports team members who are new to our labeling process by monitoring issues with the `clean-up::review` label and providing guidance on proper issue organization. They ensure issues reach the right owners by consulting the CODEOWNERS file for DBT model failures, or by directing them to functional DRIs or the Manager, Data when the ownership path isn't clear. 
+
+Additionally, they monitor and triage all issues labeled with `team::Analytics Engineering` to ensure timely responses to team-specific requests and problems.
 
 **BI / Tableau Team Responsibilities**
 
