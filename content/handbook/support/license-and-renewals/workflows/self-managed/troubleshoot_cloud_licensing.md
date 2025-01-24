@@ -75,7 +75,7 @@ $ nc -zv customers.gitlab.com 443
 Connection to customers.gitlab.com 443 port [tcp/https] succeeded!
 ```
 
-```
+```sh
 $ echo "." | telnet customers.gitlab.com 443
 
 Trying 104.18.20.224...
