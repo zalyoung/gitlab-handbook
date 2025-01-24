@@ -323,6 +323,8 @@ for contributors to ask questions or get mentorship.
 
 ### Criteria for `quick win::first-time contributor` issues
 
+During the onboarding process, new contributors are linked to `quick win::first-time contributor` issues. These issues are intended to help new contributors learn the process of contributing by using our easiest and most straight forward issues.
+
 `quick win::first-time contributor` follows most of the criteria for `quick win`, with the exception of the weight:
 
 - The issue must be assigned a weight between 0-1.
