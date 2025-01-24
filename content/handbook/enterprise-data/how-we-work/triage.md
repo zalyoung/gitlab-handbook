@@ -89,47 +89,67 @@ Having dedicated triagers on the team helps address the bystander affect. The sc
 
 #### Triage responsibilities
 
-Data triagers are the first responders to requests and problems for the Data Program. Triagers are primarily responsible for responding to GitLab team member requests whether via issue, which posts to **#data-triage**, or directly via slack in **#data**.
+Data triagers are the first responders to requests and problems for the Data Program. 
+
+**Shared Responsibilities Across All Triage Roles**
+
+All Data Team triagers, regardless of their specific role, share these core responsibilities:
+
+- Monitor and respond to team member requests in both the #data channel and their function-specific Slack channels
+- Handle issues labeled with their team designation (e.g., Data Platform triager handles ~"Team::Data Platform" labeled issues, Analytics Engineer triager handles ~"Team::Analytics Engineering" labeled issues, etc.) 
+- Create and manage issues using appropriate templates for their domain
+- Review and respond to alerts within their designated monitoring systems
+- Ensure proper handoff of ongoing issues when triage rotation ends
+- Maintain clear documentation of investigation steps and resolutions
+- Act as first responders to problems within their domain
+- Coordinate with other triagers when issues cross multiple domains
+- Follow up on existing open issues to ensure progress
+
+**Functional Analysts Responsibilities**
 
 - The Functional Analyst triage handle is primarily responsible for responding to GitLab team member requests that relate to their functions via Slack in **#data**.
-- The Data Platform triager is responsible for resolving problems with our data platform, which will either be in the **#data-pipelines** and **#data-prom-alerts** slack channels, on the [DE - Triage Errors board](https://gitlab.com/groups/gitlab-data/-/boards/1917859) and on the [MonteCarlo Incident page](https://getmontecarlo.com/incidents?include-normalized=false&types=freshness_anomaly%2Cvolume_anomaly%2Cdimension_anomaly%2Cfield_metrics_anomaly%2CDBT_ERRORS%2Cfreshness_sli_rule_breach%2Cvolume_sli_rule_breach%2Csql_rule_breach) (make sure to filter on the `Data Platform` domain in MonteCarlo). Issues created from these errors should use the [DE Triage Errors issue template](https://gitlab.com/gitlab-data/analytics/issues/new?issuable_template=Triage%20Errors%20DE).
-  - During the assigned triage week the Data Platform Team member will focused on (in priority order):
-    - Incoming incidents
-    - [Open incidents](https://gitlab.com/gitlab-data/analytics/-/incidents)
-    - New issues
-    - Open issues on the [Data Platform - Triage Errors board](https://gitlab.com/groups/gitlab-data/-/boards/1917859).
-      - If an open incident or issue is already assigned it is still the triager responsibility to either take that issue or ensure progress is made.
-      - If there is no work to be performed on incidents or issues on the [board](https://gitlab.com/groups/gitlab-data/-/boards/1917859) the triager will work on their regular work assignments.
-  - Involvement from Data Platform Team members who do **not** carry triage responsibilities that week is likely still needed in some cases like:
-    - A standing issue or incident could not be solved by the triager and triager need help from other Data Platform Team members.
-    - Monitoring #data-prom-alerts:
-      - The #data-prom-alerts slack channel is used for the most urgent breaking events, which requires **immediate** action. It is the responsibility of all Data Platform Team members to ensure action is taken in time after office hours of the triager.
-    - Assistance from the Data Platform Team is needed by other GitLab Team members and this is outside of the office hours of the triager.
-  - Monte Carlo incidents are posted in the `#data-pipelines` Slack channel (except schema changes). Because Monte Carlo only initially notifies an incident, checking the Monte Carlo Incident page is needed to avoid missing any incidents. **Schema changes** are filtered out using [this link](https://getmontecarlo.com/incidents?include-normalized=false&types=freshness_anomaly%2Cvolume_anomaly%2Cdimension_anomaly%2Cfield_metrics_anomaly%2CDBT_ERRORS%2Cfreshness_sli_rule_breach%2Cvolume_sli_rule_breach%2Csql_rule_breach), because these don't require action (and are also not reported in the Slack channel). **All Monte Carlo incidents need to be given an appropriate resolution status or linked to an assigned GitLab issue end of day.**
-    - Note: Currently there is a large backlog of unclassified incidents in MonteCarlo. We currently focus only on the last 7 days.
-- The Analytics Engineer triager is primarily responsible for resolving `dbt-test` and `dbt-run` errors. Issues created from these errors should use the [AE Triage Errors issue template](https://gitlab.com/gitlab-data/analytics/issues/new?issuable_template=Triage%20Errors%20AE).
-- The BI / Tableau triager is primarily responsible for acting as the primary owner of responses to ad hoc questions in the #data-tableau channel (others will continue to pitch in, but the person on triage will be the DRI) and facilitating Tableau Office Hours that week
-- The Data Science triager is primarily responsible for reviewing model run issues / breakages and supporting operational requests such as executing field replacements due to dbt model updates.
+
+**Data Platform Responsibilities**
+
+The Data Platform triager is responsible for resolving problems with our data platform, which will either be in the **#data-pipelines** and **#data-prom-alerts** slack channels, on the [DE - Triage Errors board](https://gitlab.com/groups/gitlab-data/-/boards/1917859) and on the [MonteCarlo Incident page](https://getmontecarlo.com/incidents?include-normalized=false&types=freshness_anomaly%2Cvolume_anomaly%2Cdimension_anomaly%2Cfield_metrics_anomaly%2CDBT_ERRORS%2Cfreshness_sli_rule_breach%2Cvolume_sli_rule_breach%2Csql_rule_breach) (make sure to filter on the `Data Platform` domain in MonteCarlo). Issues created from these errors should use the [DE Triage Errors issue template](https://gitlab.com/gitlab-data/analytics/issues/new?issuable_template=Triage%20Errors%20DE).
+- During the assigned triage week the Data Platform Team member will focused on (in priority order):
+  - Incoming incidents
+  - [Open incidents](https://gitlab.com/gitlab-data/analytics/-/incidents)
+  - New issues
+  - Open issues on the [Data Platform - Triage Errors board](https://gitlab.com/groups/gitlab-data/-/boards/1917859).
+    - If an open incident or issue is already assigned it is still the triager responsibility to either take that issue or ensure progress is made.
+    - If there is no work to be performed on incidents or issues on the [board](https://gitlab.com/groups/gitlab-data/-/boards/1917859) the triager will work on their regular work assignments.
+- Involvement from Data Platform Team members who do **not** carry triage responsibilities that week is likely still needed in some cases like:
+  - A standing issue or incident could not be solved by the triager and triager need help from other Data Platform Team members.
+  - Monitoring #data-prom-alerts:
+    - The #data-prom-alerts slack channel is used for the most urgent breaking events, which requires **immediate** action. It is the responsibility of all Data Platform Team members to ensure action is taken in time after office hours of the triager.
+  - Assistance from the Data Platform Team is needed by other GitLab Team members and this is outside of the office hours of the triager.
+- Monte Carlo incidents are posted in the `#data-pipelines` Slack channel (except schema changes). Because Monte Carlo only initially notifies an incident, checking the Monte Carlo Incident page is needed to avoid missing any incidents. **Schema changes** are filtered out using [this link](https://getmontecarlo.com/incidents?include-normalized=false&types=freshness_anomaly%2Cvolume_anomaly%2Cdimension_anomaly%2Cfield_metrics_anomaly%2CDBT_ERRORS%2Cfreshness_sli_rule_breach%2Cvolume_sli_rule_breach%2Csql_rule_breach), because these don't require action (and are also not reported in the Slack channel). **All Monte Carlo incidents need to be given an appropriate resolution status or linked to an assigned GitLab issue end of day.**
+  - Note: Currently there is a large backlog of unclassified incidents in MonteCarlo. We currently focus only on the last 7 days.
+
+**Analytics Engineering Responsibilities**
+
+The Analytics Engineer triager is primarily responsible for resolving `dbt-test` and `dbt-run` errors which are sent to the **#analytics-pipelines** slack channel. Issues created from these errors should use the [AE Triage Errors issue template](https://gitlab.com/gitlab-data/analytics/-/issues/new?issuable_template=Triage%253A%2520Errors%2520AE).
+
+While team members are responsible for applying correct labels to their issues in the analytics repository, the AE triager plays a supportive role in label management:
+
+- Monitors issues with the `clean-up::review` label to assist team members who are unfamiliar with our labeling process
+- Helps team members understand how to properly label their issues
+- Assigns ownership based on the CODEOWNERS file for DBT model failures
+- Directs issues to functional DRIs or the Manager, Data when ownership isn't immediately clear
+
+**BI / Tableau Team Responsibilities**
+
+The BI / Tableau triager is primarily responsible for acting as the primary owner of responses to ad hoc questions in the #data-tableau channel (others will continue to pitch in, but the person on triage will be the DRI) and facilitating Tableau Office Hours that week
+
+**Data Science Responsibilities**
+
+The Data Science triager is primarily responsible for reviewing model run issues / breakages and supporting operational requests such as executing field replacements due to dbt model updates.
 
 We will iterate on triage responsibilities to include additional activities such as extract refresh failure review, job failure review, etc. as the team expands.
 
 - For more information on responsibilities of a triager watch the [Data Engineer triage training session video](https://www.youtube.com/watch?v=0eGpgaQgEGg).
 
-```text
-Data Analysts
-- Respond to #data questions and assign to right Triage group
-- Respond to new unassigned issues in our project and assign to the right team
-
-Data Engineers:
-- Respond to data infrastructure incidents
-- Respond to broken data pipelines
-- Respond to data freshness issues
-- Respond to broken dags (except for dbt issues, see next)
-
-Analytics Engineers:
-- Respond to errors in dbt models
-- Respond to dbt test failures
-```
 
 ### How to Complete Data Triage
 
@@ -186,9 +206,19 @@ Depending on the nature and impact of the [incident](/handbook/enterprise-data/h
 
 ### Triage Bot
 
-Parts of triage are assisted by the [GitLab Triage Bot](https://gitlab.com/gitlab-org/gitlab-triage), which is setup in the Analytics project. The bot runs every hour and takes actions based on a set of rules defined in [a policies file](https://gitlab.com/gitlab-data/analytics/-/blob/master/.triage-policies.yml). The [GitLab Triage README](https://gitlab.com/gitlab-org/gitlab-triage#defining-a-policy) contains all documentation for the formatting and definition of rules.
+The Data Team leverages the [GitLab Triage Bot](https://gitlab.com/gitlab-org/gitlab-triage) to automate issue management and maintain project organization. 
 
-Changes to the triage bot policy file should be tested in the MR by running the "dry-run:triage" CI job and inspecting the log output.  This CI job is a dry-run, meaning it will not actually take any actions in the project but will print out what would happen if the policy was actually executed.
+Triagers rely on labels to identify and prioritize work within their domain. Team members who are unsure about which labels to apply can add the `clean-up::review` label to their issue, and the triage team will assist with proper labeling.
+
+This automation helps maintain project hygiene by ensuring every issue has the required labels: `team::`, `priority::`,` champion::`, and `workflow::`. `Documentation`, `Iteration Planning`, and `Discussion` labels are excluded from these requirements.
+
+The automated process begins three days after an issue is created. When required labels are missing, the bot adds a comment listing the missing labels and applies both `Needs Triage` and `clean-up::warning` labels. The comment includes instructions for requesting help through the `clean-up::review` label.
+
+After 14 days, if the issue still lacks required labels, the bot adds a reminder comment to prompt action. Issues that remain unlabeled for 30 days will be automatically closed with a `clean-up::close` label and a comment explaining the closure. Team members can reopen these closed issues at any time by adding the required labels.
+
+When a previously closed issue is reopened, the bot automatically removes the `clean-up::close` label and checks for proper labeling. If required labels are still missing, it applies the `clean-up::warning` label and adds a comment explaining which labels are needed. This process ensures that reopened issues meet our labeling standards.
+
+To help keep the project organized, the bot automatically removes warning labels once all required labels are properly applied to an issue. This creates a self-maintaining system where issues either progress through proper labeling or are eventually closed for review.
 
 ### End of day wrap-up
 

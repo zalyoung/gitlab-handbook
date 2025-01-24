@@ -199,10 +199,13 @@ Think of each of these groups of labels as ways of bucketing the work done.
 
 All issues should get the following classes of labels assigned to them:
 
-- **Team:** The Data Team that will perform the work (i.e. Data Platform, Analytics Engineering, Data Science, BI, Data Governance)
-- **Champion:** The team who has requested the work (may be a functional partner team, or the Data Team itself)
-- **Workflow:** The status of the work
-- **Priority:** Whether the work is P1 (Operational), P2 (OKR), or P3 (Other)
+- **Team:** The Data Team responsible for performing the work. This could be one of the following: Data Platform, Analytics Engineering, Data Science, BI, or Data Governance.
+- **Champion:** The team requesting the work. This may be a functional partner team or the Data Team itself.  
+- **Workflow:** The current status of the work. All issues should start with the `workflow::1 - triage` label. The team performing the work is responsible for updating the workflow status as the work progresses.  
+- **Priority:** The priority level of the work, categorized as follows:  
+  - **P1**: Operational (highest urgency)  
+  - **P2**: OKR-related work (objective-driven)  
+  - **P3**: Other (lower priority or non-urgent tasks)  
 
 Effective in January 2025, we use a Bot on the Data Team project to check that the Team, Champion, Workflow, and Priority labels have been applied to issues after 14 days of being opened. The bot sends a reminder in the issue to add the missing labels. The first triage response for adding labels is the team member that opens the issue. The 2nd triage response for adding labels is the Data Analyst, Data Scientist, Analytics Engineer, and Data Engineer that are on triage. Issues that do not have Team, Champion, Workflow, and Priority labels applied after 30 days are automatically closed. If an issue is closed due to not having the required labels, team members have the option to reopen the closed issue and apply the labels to meet the issue refinement requirements.
 
