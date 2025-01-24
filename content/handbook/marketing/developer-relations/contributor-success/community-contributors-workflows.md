@@ -321,7 +321,7 @@ for contributors to ask questions or get mentorship.
 
 ### Criteria for `quick win::first-time contributor` issues
 
-During the onboarding process, new contributors are link to `quick win::first-time contributor` issues. These issues are intended to help new contributors learn the process of contributing by using our easiest and most straight forward issues.
+During the onboarding process, new contributors are linked to `quick win::first-time contributor` issues. These issues are intended to help new contributors learn the process of contributing by using our easiest and most straight forward issues.
 
 `quick win::first-time contributor` follows most of the criteria for `quick win`, with the exception of the weight:
 
@@ -332,7 +332,7 @@ Do not relate weight to time estimates.
 to help contributors get started.
 For example `## Implementation`, `## Implementation plan` or `## Implementation guide` are all acceptable.
 This section can be very brief or offer possible actions to resolve the issue.
-- It's reccomended to include at least 1 GitLab team member or experienced community contributor (e.g., "Support contact: @username") tagged in the `Implementation plan` section
+- It's recommended to include at least 1 GitLab team member or experienced community contributor (e.g., "Support contact: @username") tagged in the `Implementation plan` section
 
 ### First-time contributors
 
