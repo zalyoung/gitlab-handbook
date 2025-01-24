@@ -2,9 +2,9 @@
 title: Tenant Scale Group
 ---
 
-## Vision
+## Mission
 
-The Tenant Scale group is working towards a horizontally scalable, fault-tolerant architecture for gitlab.com. It is accomplishing this by introducing Cells at the infrastructure layer and Organizations at the application layer, along with Geo for end-to-end resiliency.
+Group Tenant Scale is building GitLab's next-generation, multi-tenant, horizontally-scalble, fault-tolerant SaaS platform for GitLab.com (Cells), and the logical application container to enable seamless cross-platform operability of the GitLab application. Geo complements this mission providing end-to-end resiliency.
 
 ## Team Members
 
@@ -16,6 +16,7 @@ The Tenant Scale group is working towards a horizontally scalable, fault-toleran
 | Kamil Trzciński | Senior Distinguished Engineer |
 | Steve Xuereb | Staff Site Reliability Engineer |
 | Thong Kuah | Principal Engineer |
+| Alex Pooley | Staff Backend Engineer |
 | Rémy Coutable | Principal Engineer |
 | Nick Nguyen | Senior Engineering Manager |
 
