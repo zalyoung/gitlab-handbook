@@ -53,11 +53,71 @@ As a general guideline, we try to plan each release in this way:
 
 These targets will be [reviewed monthly](/handbook/product/product-processes/) after each release during the [retrospective](https://gitlab.com/gl-retrospectives/manage-stage/optimize/-/issues).
 
-
 ### SSoT for data flows across Optimize features
 
-![optimize-data-analytics-diagram.png](/images/engineering/development/dev/plan/optimize-data-analytics-diagram.png)
+**Data flow for [Group contribution analytics](https://docs.gitlab.com/ee/user/group/contribution_analytics) & [Group value stream dashboard contributions](https://docs.gitlab.com/ee/user/analytics/value_streams_dashboard.html)**
 
+```mermaid
+flowchart TB
+    subgraph User Actions
+        user_actions["User Actions\n(MRs, Pushes, Issues, etc..)"]
+    end
+
+    subgraph Postgres
+        events_table_pg["Events Table"]
+    end
+
+    subgraph ClickHouse
+        events_table_ch["Events Table"]
+        contributions_mv["Contributions\nMaterialized View"]
+    end
+
+    subgraph GraphQL
+        contribution_analytics["ContributionMetadataType\n(Group Contribution Analytics)"]
+        value_stream["ValueStreamDashboard\n(CountType)"]
+    end
+
+    user_actions -->|EventCreateService| events_table_pg
+    events_table_pg -->|EventSyncStrategy\nevery 3min| events_table_ch
+    events_table_ch --> contributions_mv
+    events_table_pg --> contribution_analytics
+    contributions_mv --> contribution_analytics
+    contributions_mv --> value_stream
+```
+
+**Data flow for [Group/Project AI Impact Analytics](https://docs.gitlab.com/ee/user/analytics/ai_impact_analytics.html)**
+
+```mermaid
+flowchart TB
+    subgraph Postgres
+      AI_events_tables_PG
+    end
+    subgraph ClickHouse
+      AI_events_tables_CH
+      AI_metrics_views
+      Contributions_views
+    end
+    subgraph GraphQL
+      aiMetrics
+      aiUserMetrics
+      aiUsageData
+    end
+    subgraph Redis
+      Buffer1
+      Buffer2
+    end
+    user_IDE-->|/usage_data/track_events|REST_API
+    REST_API-->Buffer1
+    REST_API-->Buffer2
+    Buffer1-->|sync every 5min|AI_events_tables_PG
+    Buffer2-->|sync every 5min|AI_events_tables_CH
+    AI_events_tables_CH --> AI_metrics_views
+    AI_events_tables_PG --> aiUsageData
+    AI_metrics_views --> aiMetrics
+    AI_metrics_views --> aiUserMetrics
+    Contributions_views --> aiMetrics
+    Contributions_views --> aiUserMetrics
+```
 
 #### Organizing the work
 
