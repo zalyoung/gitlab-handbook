@@ -73,11 +73,12 @@ Max duration for this worker is 24 months, with a 3 month break. End date must b
 
 ### How to Submit a Zip Request for a Contingent Worker
 
+
 1. Before submitting a Zip request for a Contingent Worker: 
-  - Confirm you have internal approval from FP&A and your management to hire a contingent worker and that this role is (i) not currently being performed by a GitLab Employee or (ii) there is not an open headcount position for this role.
-  - If the Contingent Worker requires access to Okta and/or core GitLab core applications, a GitLab laptop must be issued followed by a Zip approval from IT Ops validating laptop issuance.
-  - If the Contingent Worker requires [GitLab equipment](/handbook/source/handbook/finance/procurement/index.html.md#security-approval-requirements-for-contractors-consultants) (i.e. has access to Orange or Red data), the Zip purchase requisition will need to be submitted 10 days in advance of the normal approval [timeline](/handbook/finance/procurement/#review-steps-timeline-and-considerations) to account for ordering and shipping of the equipment. [Certain locations](https://gitlab.com/gitlab-com/www-gitlab-com/-/merge_requests/127746#note_1497241068) will require IT Approval before providing the equipment. If you are unsure if the IC will require GitLab equipment, please reach out to the #it_help channel in slack.
-     - Lead times start once the purchase requisition has been fully approved and the PO is released. Please account for this time and the [Zip approval times](/handbook/finance/procurement/#review-steps-timeline-and-considerations) to determine how far in advance your Zip Request needs to be submitted prior to the IC's start date.
+   - Confirm you have internal approval from FP&A and your management to hire a contingent worker and that this role is (i) not currently being performed by a GitLab Employee or (ii) there is not an open headcount position for this role.
+   - If the Contingent Worker requires access to Okta and/or core GitLab core applications, a GitLab laptop must be issued followed by a Zip approval from IT Ops validating laptop issuance.
+   - If the Contingent Worker requires GitLab equipment (i.e. access to Orange or Red data), which will require a [Security Review](/handbook/finance/procurement/#3c-security-review-4-14-days), the Zip purchase requisition will need to be submitted 10 days in advance of the normal approval [timeline](/handbook/finance/procurement/#review-steps-timeline-and-considerations) to account for ordering and shipping of the equipment. [Certain locations](https://gitlab.com/gitlab-com/www-gitlab-com/-/merge_requests/127746#note_1497241068) will require IT Approval before providing the equipment. If you are unsure if the IC will require GitLab equipment, please reach out to the #it_help channel in slack.
+      - Lead times start once the purchase requisition has been fully approved and the PO is released. Please account for this time and the [Zip approval times](/handbook/finance/procurement/#review-steps-timeline-and-considerations) to determine how far in advance your Zip Request needs to be submitted prior to the IC's start date.
 
 2. Open Zip to submit your request for a contingent worker by selecting "New Request" and then "Request a Purchase - Contingent Worker or Consultancy Services"
 
@@ -127,7 +128,7 @@ Max duration for this worker is 24 months, with a 3 month break. End date must b
 
 ## Submitting a Request for New Software
 
-1. All new software purchases also need reviewed by IT per the [Individual Use Software](/individual-use-software/) page.
+1. All new software purchases also need reviewed by IT per the [Individual Use Software](/handbook/finance/procurement/individual-use-software/) page.
 1. New software vendors will need to complete the [IT Questionnaire tab](https://docs.google.com/spreadsheets/d/17-NdZF0SeOS_b59XE9lLg9cuCD9iKKlO/edit#gid=392482466).
    - IT requests this information to perform a comprehensive assessment of applications against GitLab technology requirements.
    - Please make a copy of this tab (if not filled out during a formal RFP), have the vendor complete, and attach in the documents section of your Zip Request for IT review.
