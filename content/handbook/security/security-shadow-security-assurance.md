@@ -42,8 +42,8 @@ If you have any questions please reach out in #sec-assurance and we'll be happy 
 3 days, 6-9 hours
 
 ### Team Manager
-Corey Oas @corey-oas
 
+Corey Oas @corey-oas
 
 ## Field Security and Governance
 
