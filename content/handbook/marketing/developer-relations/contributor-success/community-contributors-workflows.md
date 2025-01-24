@@ -305,7 +305,9 @@ GitLab team members seeking help can reach out to the wider community for contri
 - If a community contributor expresses interest, assign them to the issue.
 - Follow up with the community contributor to see if they need help.
 
-### Criteria for `quick win` issues
+### 
+
+Criteria for `quick win` issues
 
 GitLab guides the wider community to search for issues with the `quick win` label when looking to contribute. These issues are intended to be straightforward for community contributors and quick enough to complete while still learning the contribution process. This follows [GitLab's mission](/handbook/company/mission/#mission) to enable everyone to contribute and to support our first-time contributors onboarding with the community. The [GitLab Bot](https://gitlab.com/gitlab-bot) helps to maintain this criteria and will remove the `quick win` label when an issue does not meet the requirements.
 
@@ -323,13 +325,13 @@ for contributors to ask questions or get mentorship.
 
 `quick win::first-time contributor` follows most of the criteria for `quick win`, with the exception of the weight:
 
+- The issue must be assigned a weight between 0-1.
+Issue weights should approximate the complexity and effort required.
+Do not relate weight to time estimates.
 - The issue description must include an implementation plan as a second or third level heading with guidance
 to help contributors get started.
 For example `## Implementation`, `## Implementation plan` or `## Implementation guide` are all acceptable.
 This section can be very brief or offer possible actions to resolve the issue.
-- The issue must be assigned a weight between 0-1.
-Issue weights should approximate the complexity and effort required.
-Do not relate weight to time estimates.
 - It's reccomended to include at least 1 GitLab team member or experienced community contributor (e.g., "Support contact: @username") tagged in the `Implementation plan` section
 
 ### First-time contributors
