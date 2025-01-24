@@ -187,7 +187,6 @@ Onboarding: Access to EveryoneSocial is provisioned via Okta. Team members are a
 
 Offboarding: When a team member loses access to Okta, they will also lose access to EveryoneSocial. This provides an automatic way to revoke access to former team members.
 
-
 ### Reporting and Metrics
 
 Conversion Rate - the percentage of team members invited to the program that are actually participating
@@ -203,7 +202,6 @@ Engagement - measuring the number of actions taken on content shared through Bam
 Ad value or equivalency - similar to how we measure this for the brand, this is measured in a dollar value for advertising determined by the sum of a reporting period's equivalent CPM + CPC costs
 
 ### EveryoneSocial FAQs
-
 
 #### Will EveryoneSocial replace the use of issues for social media enablement for team members?
 
