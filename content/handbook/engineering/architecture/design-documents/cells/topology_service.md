@@ -137,7 +137,7 @@ Topology Service will make sure that the given range is not overlapping with oth
 graph TD
   A[64 bits] --> |1 bit - MSB| B[Sign]
   A -->|6 bits| C[Reserved]
-  A -->|57 bits| D[46 bits of IDs per cell]
+  A -->|57 bits| D[Sequence]
 ```
 
 - **Sign**: Always 0 for positive numbers.
@@ -147,7 +147,7 @@ graph TD
    ULID based ID allocator will have the `timestamp` value in the  most significant bits,
    reserving only one bit would have been sufficient but
    more bits are reserved to have the sequence bits at minimum.
-- With 41 bits (2199,023,255,551) per cell (per sequence), this will accommodate 65,536 unique cells.
+- **Sequence**: Each cell will be given 41 bits of IDs (i.e: 2199,023,255,551), this will accommodate 65,536 unique cells in the 57 bits.
   And at the time of writing the largest ID in the legacy cell was ~11 billion (primary key of `security_findings` table). 41 bits supports ~200 times this ID, thus it is sufficient for any cell.
 
 Example `config.toml` of Topology Service:
@@ -155,13 +155,11 @@ Example `config.toml` of Topology Service:
 ```toml
 [[cells]]
 id = 1
-name = "cell-1"
 address = "legacy.gitlab.com"
 sequence_range = [1, 2199023255550]
 
 [[cells]]
 id = 2
-name = "cell-2"
 address = "cell-2-example.gitlab.com"
 sequence_range = [2199023255551, 4398046511101]
 ```
