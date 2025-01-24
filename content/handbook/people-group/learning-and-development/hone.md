@@ -2,7 +2,7 @@
 title: Hone Partnership
 ---
 
-GitLab has partnered with Hone to provide expanded professional development opportunities through live, coach-led learning experiences. Hone, who also delivers our [Elevate](/handbook/people-group/learning-and-development/elevate-programs/elevate/) leadership development program, specializes in interactive virtual training sessions led by expert facilitators.
+GitLab has partnered with [Hone](https://honehq.com/) to provide expanded professional development opportunities through live, coach-led learning experiences. Hone, who also delivers our [Elevate](/handbook/people-group/learning-and-development/elevate-programs/elevate/) leadership development program, specializes in interactive virtual training sessions led by expert facilitators.
 
 ## Overview
 
@@ -44,7 +44,7 @@ Program content will be announced closer to the launch date.
 
 ### Security and Confidentiality
 
-When participating in public workshops through the Hone platform, it's crucial to follow GitLab's [SAFE](/handbook/legal/safe-framework/#safe) Framework:
+When participating in public workshops through the Hone platform, it's crucial to follow GitLab's [SAFE](/handbook/legal/safe-framework/#safe) Framework.
 
 ### Platform Access
 
@@ -65,11 +65,7 @@ Specific success metrics will be developed and shared as we gather data from ini
 
 ## Support and Resources
 
-If you need assistance with:
-
-1. Platform access or technical issues: Contact Hone support through their platform
-1. Program questions or guidance: Reach out to the Learning and Development team
-1. Development planning: Discuss with your manager during 1:1s
+If you need assistance with platform access, technical issues, or program questions or guidance, please reach out to the Learning and Development team in the #learninganddevelopment Slack channel.
 
 ## Frequently Asked Questions
 
