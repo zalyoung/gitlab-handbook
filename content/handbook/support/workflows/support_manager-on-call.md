@@ -35,6 +35,7 @@ The [Support Engineer on-call](/handbook/support/on-call/) is the first responde
 - During an emergency: find additional staff for subject-matter expertise; replace the on-call engineer if needed; lead any Zoom call(s) as needed; hand off the emergency to the next on-call manager.
 - Find additional staff when there are [multiple emergencies](/handbook/support/on-call/#handling-multiple-simultaneous-emergencies).
 - Convert [customer emergencies into Account Escalations](/handbook/support/workflows/emergency-to-escalation-process) as needed.
+- The CMOC should coordinate a [Support Response](/handbook/support/workflows/cmoc_workflows.md#about-coordinating-a-support-response) when an incident requires a non-standard workflow or communication from Support. Support the CMOC by ensuring there is clarity and communication with relevant decision-makers in Support or other teams. You can also create the [Support Response issue](https://gitlab.com/gitlab-com/support/support-team-meta/-/blob/master/.gitlab/issue_templates/Support%20Response.md) if this has not yet been done.
 
 ### Situations that Might or Might not Be Emergencies
 
@@ -140,8 +141,6 @@ The following action should be taken promptly:
 ## Act as a notification point for security incidents
 
 When GitLab experiences a [security incident](/handbook/security/security-operations/sirt/security-incident-communication-plan#extended-team-roles-responsibilities-and-points-of-contact), the Support Manager on-call is responsible for triaging and responding to customer communications stemming from the security incident. This may include involving the [CMOC](/handbook/support/workflows/cmoc_workflows).
-
-## Provide assistance with Upgrade Assistance Requests
 
 [Upgrade assistance requests](https://about.gitlab.com/support/scheduling-upgrade-assistance/) are currently triaged by engineers as part of the [Working on Tickets](/handbook/support/workflows/working-on-tickets) but in some cases the triaging agent(s) may need assistance from Support management.
 
