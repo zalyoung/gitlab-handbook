@@ -216,7 +216,7 @@ Optional labels that are useful to communicate state or other priority:
   - Tool: (Tableau, dbt, Stitch, Airflow, etc.)
   - Pod: [Data team pod](/handbook/enterprise-data/organization/#data-team-organization) that is scheduling the work
 - **Business Logic Change**: This label is applied for any business logic changes such as adding new dimensions, facts, marts, changing joins, adding new calculated fields.
-- **Opportunity Canvas**: This label is auto-applied on the Opportunity Canvas template, but can also be applied to work that has converted into a large-scale project. This label will be used to identify topics for discussion and prioritization at the [monthly Data Leadership forum](/handbook/enterprise-data/how-we-work/#prioritization).
+- **Opportunity Canvas**: This label is auto-applied on the Opportunity Canvas template, but can also be applied to work that has converted into a large-scale project. This label will be used to identify topics for discussion and prioritization at the [monthly Data Leadership forum](/handbook/enterprise-data/how-we-work/#work-categorization-and-prioritization).
 
 ##### Merge Request Workflow
 
@@ -397,5 +397,5 @@ We encourage everyone to record videos and post to GitLab Unfiltered. The [handb
 1. Ask your People BP to provide you a Requisition # for tracking purposes. If you have multiple openings to fill, communicate with your People BP using this Req# because juggling multiple openings gets confusing fast.
 1. Develop an Interview Plan, which will cover Responsibilities, Tips, Reminders, and custom Interview questions for each Interview Job Role type. For examples, see the [Data Scientist Interview Plan](https://docs.google.com/document/d/1slPL8qy6IW01DcNBP26YVC3mHtkwApHGmA29d6Y9nlg/edit#heading=h.6mqvxi38wull) and [Analytics Engineer Interview Plan](https://docs.google.com/document/d/1wspMpA6Z-UQXZsqYJ7vqhZ5pHNErv54lyF-kOilpkDw/edit).
 1. Each Data Job Role and Job Grade has a customized [Homework Assessment](https://drive.google.com/drive/folders/1cQeCKu_Nu2kBLa4oiAVrp7hu7LdnIB3C). Review and update the Homework Assessment as needed. If a Homework Assessment is not available for the Job Role, create one and save it in the [Homework Assessment Google Drive](https://drive.google.com/drive/folders/1cQeCKu_Nu2kBLa4oiAVrp7hu7LdnIB3C)
-1. Send a Homework Assessment to the People BP for inclusion in the Hiring process. The Hiring Process is included in each Data Job Family to help set candidate and interviewer expectations. An example is the [Data Engineer Hiring Process](/job-families/finance/data-engineer/#hiring-process).
+1. Send a Homework Assessment to the People BP for inclusion in the Hiring process. The Hiring Process is included in each Data Job Family to help set candidate and interviewer expectations. An example is the [Data Engineer Hiring Process](/job-families/marketing/enterprise-data/data-engineer/#hiring-process).
 1. Create a new slack channel, e.g. `bt-data-data-science-interview` to help coordinate with your interviewers. Share the Interview Plan with your interviewers through Slack.
