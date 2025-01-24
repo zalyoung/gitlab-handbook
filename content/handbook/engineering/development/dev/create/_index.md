@@ -77,7 +77,7 @@ If there is an area you are interested in learning more about, please reach out 
 Each team work in the manner that best meets the needs of their product and their team.
 
 - [Create Engineering Managers](/handbook/engineering/development/dev/create/engineering-managers/)
-- [Remote Development Team](/handbook/engineering/development/dev/create/remote-development/#-how-we-work)
+- [Remote Development Team](/handbook/engineering/development/dev/create/remote-development/)
 - [Code Review Team](/handbook/engineering/development/dev/create/code-review/)
 - Source Code Team [Backend](/handbook/engineering/development/dev/create/source-code-be/), [Frontend](/handbook/engineering/development/dev/create/code-review/frontend/#work)
 
@@ -103,7 +103,7 @@ Engineering Managers live our [values](/handbook/values/) every day.
 ## How we measure Results
 
 - [OKRs](/handbook/engineering/development/dev/create/engineering-managers/okrs/)
-- [Dashboards](/handbook/engineering/development/dev/create/engineering-managers/#results/)
+- Dashboards
 - Issue Boards
 - [Monitoring](/handbook/engineering/development/dev/create/engineering-managers/monitoring/)
 
