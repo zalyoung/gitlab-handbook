@@ -75,7 +75,7 @@ We would reuse [CI/CD For External Repositories](https://GitLab.com/projects/new
 
 After import, we would automatically enable a new GitLab integration called GitHub SCM for these projects.
 
-Then the customer will use a direct link to install our GitHub App, and choose which repos on GitHub to install it on. Upon GitHub app installation, and for OAuth, each user will need to accept the terms and conditions listed in ![GitHubApp Installation](images/GitHubAppInstallation.png). The OAuth permissions as well as the App's permissions will be set-up on GitHub's side.
+Then the customer will use a direct link to install our GitHub App, and choose which repos on GitHub to install it on. Upon GitHub app installation, and for OAuth, each user will need to accept the terms and conditions listed in ![GitHubApp Installation](images/GitHubAppInstallation.png). The App's permissions will be set-up by GitLab and hosted on GitHub. This will be set up with the basic permission of (`read_repository`, and `write_commit_status`). We can modify these permissions and add new ones anytime via [Modifying GitHub App](https://docs.github.com/en/apps/maintaining-github-apps/modifying-a-github-app-registration#changing-the-permissions-of-a-github-app), although this will require users to re-accept the conditions and re-authenticate.
 
 Each user that would want to trigger pipeline would need to OAuth with GitHub. Either via OAuth login or connecting their GitLab account with GitHub
 
@@ -109,7 +109,7 @@ There are many ways this authorization could play out. More details in [Correspo
 
 We will enforce a 1:1 user mapping on GitHub <-> GitLab. Currently this is product's preferred approach. This allows us to make sure the product is properly licensed with the correct number of seats.
 
-Each user will need to manually link their GitHub accounts to their GitLab profiles
+Each user will need to manually link their GitHub accounts to their GitLab profiles. Which can only be done once GitHub is used as an [authentication provider](https://docs.gitlab.com/ee/integration/github.html).
 
 The downside is that users or bot accounts that do not have a GitLab account mapping will not be able to run pipelines. The workaround is to create a failed pipeline that maintainers can manually run.
 
