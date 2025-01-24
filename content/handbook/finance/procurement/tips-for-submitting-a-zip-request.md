@@ -4,7 +4,7 @@ title: Tips for Submitting a Zip Request
 
 If purchasing Home Office Equipment and/or Software for your individual work use that is <$5K USD, see [Other Services](/handbook/finance/procurement/#other-services) since a Zip Purchase Request is not required in these instances.
 
-Getting started with Zip:
+## Getting Started with Zip
 
 1. Login to Zip via your [Okta home page](https://gitlab.okta.com/app/UserHome#).
 1. If you need Zip access, [submit an access request here](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/new?issuable_template=Individual_Bulk_Access_Request&_gl=1*bsfkbc*_ga*MzkwMDUyMjg5LjE2MzU3NzYxMDA.*_ga_ENFH3X7M5Y*MTY3NzYyMDEwMi4xMzkuMS4xNjc3NjIwOTc3LjAuMC4w).
@@ -22,13 +22,7 @@ Provide a brief description of your purchase and be sure to select the correct c
 - **New** purchase would be any product or service that is brand new.
 - **Renewal** would be any renewals or add-ons with an existing vendor.
 
-#### Submitting a request for a Contractor
-
-## Tips for Submitting a Zip Request
-
-[Tips for submitting a Zip request](/handbook/finance/procurement/tips-for-submitting-a-zip-request/)
-
-## Submitting a request for a Contingent Worker
+## Submitting a Request for a Contingent Worker
 
 At GitLab we have a [Contingent Worker Policy](https://docs.google.com/document/d/10xSFjjW6Sr-KFgV8mXzZShM8met_pedYQZh-HQn9Qt8/edit?tab=t.0) in place beginning February 2025. This policy has been designed to provide Team Members a high-level overview and guidelines on the different types of contingent workers available as well as how and when each should be used. After review you'll need to identify which type of contingent worker you are interested in hiring. There are three categories of contingent workers at GitLab:
 
@@ -133,7 +127,7 @@ Max duration for this worker is 24 months, with a 3 month break. End date must b
 
 *Contingent Workers that require Orange and Red Data access, that will be processed or stored outside GitLab's systems, are considered "Professional Services" and are subject to a full security review. Please see the [Security Third Party Risk Management Handbook](/handbook/security/security-assurance/security-risk/third-party-risk-management/) for more details.
 
-#### Submitting a request for New Software
+## Submitting a Request for New Software
 
 1. All new software purchases also need reviewed by [IT](/handbook/finance/procurement/#it-review-if-purchasing-new-software)
 1. New software vendors will need to complete the [IT Questionnaire tab](https://docs.google.com/spreadsheets/d/17-NdZF0SeOS_b59XE9lLg9cuCD9iKKlO/edit#gid=392482466).
@@ -141,7 +135,7 @@ Max duration for this worker is 24 months, with a 3 month break. End date must b
    - Please make a copy of this tab (if not filled out during a formal RFP), have the vendor complete, and attach in the documents section of your Zip Request for IT review.
 1. If you have any questions regarding the IT Questionnaire, please contact the Enterprise Applications team in the #enterprise-apps slack channel.
 
-#### Other tips for submitting requests
+## Other Tips for Submitting Requests
 
 1. Will a virtual card be used to pay this vendor?
    - This applies to instances where the supplier only accepts online credit card payments or for one-time vendor use such as events. More info on allowed uses [here](/handbook/business-technology/enterprise-applications/guides/coupa-virtual-cards/)
@@ -169,7 +163,7 @@ Max duration for this worker is 24 months, with a 3 month break. End date must b
    - Upload any contracts and/or quotes you've received.
       - Draft contracts are okay. Make note of any terms and/or pricing still being finalized- this can be done in the Comments section once you submit your request.
 
-### Zip Change Requests
+## Zip Change Requests
 
 If you have a PO with an existing supplier and the costs have increased, end date has changed, and/or the scope or terms and conditions need to be amended, a [Zip Change Request](/handbook/business-technology/enterprise-applications/guides/zip-guide/#how-to-do-a-request-change) can be submitted.
 
