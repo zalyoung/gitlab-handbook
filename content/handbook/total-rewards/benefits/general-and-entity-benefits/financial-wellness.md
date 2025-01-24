@@ -40,18 +40,6 @@ GitLab hosted a kickoff call with SageView to discuss an overview of the program
 - **[Session Description](https://drive.google.com/file/d/1rPc_7iCiZV33BMuoithOlaJefeWNYgAK/view?usp=sharing):**
   - The specifics of Financial Wellness are different for everyone, but the common underlying theme is similar for most; identify your resources and utilize your opportunities in a way that gives you both peace of mind and the highest likelihood of achieving your financial goals.
 
-### LinkedIn Learning
-
-Self Learning around money management is also available through the company sponsored [LinkedIn Learning](/handbook/people-group/learning-and-development/self-paced-learning/#linkedin-learning) account.
-
-Examples of Learning Courses include:
-
-- [Managing Your Personal Finances](https://www.linkedin.com/learning/managing-your-personal-finances-2021/what-s-your-money-story?autoAdvance=true&autoSkip=false&autoplay=true&resume=true&u=2255073)
-- [Behavioral Finance Foundations](https://www.linkedin.com/learning/behavioral-finance-foundations-2/behavioral-finance-and-the-stock-market?autoAdvance=true&autoSkip=false&autoplay=true&resume=true&u=2255073)
-- [Personal Finance Tips & Tricks](https://www.linkedin.com/learning/personal-finance-tips-and-tricks/welcome-to-the-series?autoAdvance=true&autoSkip=false&autoplay=true&resume=true&u=2255073)
-- [Managing Your Personal Investments](https://www.linkedin.com/learning/managing-your-personal-investments/taking-control-of-your-investments?autoAdvance=true&autoSkip=false&autoplay=true&resume=true&u=2255073)
-- [Financial Wellness: Managing Personal Cash Flow](https://www.linkedin.com/learning/financial-wellness-managing-personal-cash-flow/understanding-your-relationship-with-money?autoAdvance=true&autoSkip=false&autoplay=true&resume=true&u=2255073)
-
 ### Schwab
 
 Within Schwab, as of no later than December 9th, you will see a summary of your options (vested and unvested) and vested exercised shares.  Exercised unvested options will be held at Computershare. When RSUs are granted, these will also be visible in Schwab.

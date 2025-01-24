@@ -72,8 +72,6 @@ If there is an area you are interested in learning more about, please reach out 
 - [Skip-level Meetings](/handbook/engineering/development/dev/create/engineers/skip-level/)
 - [Iteration](/handbook/engineering/development/dev/create/engineers/iteration/)
 
-The Learning & Development group has also compiled a list of LinkedIn training for [GitLab Recommended Learning Paths](/handbook/people-group/learning-and-development/self-paced-learning/#linkedin-learning).
-
 ## How we work
 
 Each team work in the manner that best meets the needs of their product and their team.

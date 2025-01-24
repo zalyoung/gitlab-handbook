@@ -8,11 +8,11 @@ This page is created as a [result of the FY21Q4 Culture Amp survey](https://gitl
 
 ### L&D resources available to all team members
 
-GitLab provides a multitude of opportunities to learn and develop new skills on the topics of leadership, management, and DIB. GitLab Learn is the platform of choice that allows self-paced, on-demand courses. It also contains trainings offered through [LinkedIn Learning](/handbook/people-group/learning-and-development/self-paced-learning/#linkedin-learning). If you're looking for a more flexible approach to learning the aforementioned skills, then perhaps the [learning initiatives](/handbook/people-group/learning-and-development/learning-initiatives/) provided by the L&D team are something for you to consider.
+GitLab provides a multitude of opportunities to learn and develop new skills on the topics of leadership, management, and DIB. Level Up is the platform of choice that allows self-paced, on-demand courses. If you're looking for a more flexible approach to learning the aforementioned skills, then perhaps the [learning initiatives](/handbook/people-group/learning-and-development/learning-initiatives/) provided by the L&D team are something for you to consider.
 
-### Growth and Development Budget
+### Growth and Development Fund
 
-Within the Growth and Development benefit, GitLab allows team members to spend [$10,000 on Growth and Development annually](/handbook/total-rewards/benefits/general-and-entity-benefits/#growth-and-development-benefit). The individual Growth and Development budget can be used to attend conferences and workshops, obtain certifications, professional coaching, academic study and more. The extensive list of Growth and Development types of reimbursement can be found [on this page](/handbook/people-group/learning-and-development/growth-and-development/#types-of-growth-and-development-reimbursements).
+Within the Growth and Development benefit, GitLab allows team members to spend up to [$10,000 on Growth and Development annually](/handbook/people-group/learning-and-development/growth-and-development/). The Growth and Development Fund can be used to attend conferences and workshops, obtain certifications, professional coaching, academic study and more. The extensive list of Growth and Development types of reimbursement can be found [on this page](/handbook/people-group/learning-and-development/growth-and-development/).
 
 ## Learning and development within GitLab Security
 
