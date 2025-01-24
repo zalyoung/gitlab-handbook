@@ -58,6 +58,6 @@ Consider how your choice of metric signals what is important and how it might in
 
 Track how well your team are contributing to the company's value. This includes not just deliverables but also the quality and strategic alignment of those deliverables.
 
-**Leverage Data to Drive Decisions**
+**Leverage Data to Inform Decisions**
 
 Use metrics as tools to support decision-making, but always balance them with context. Data-driven decisions are important, but data without context can lead to poor outcomes. It's important to understand the motivations, strengths, and areas for growth for each team member to provide tailored coaching and guidance.
