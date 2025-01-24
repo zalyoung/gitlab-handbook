@@ -25,7 +25,7 @@ When working on a feature branch and adding new commits, run tests right away. I
 
 You can also have these [displayed in each Merge Request](https://docs.gitlab.com/ee/user/application_security/#view-security-scan-information-in-merge-requests).
 
-![MR widget test results](/images/customer-success/professional-services-engineering/processes/professional-services-delivery-methodology/gitlab-best-practices/MR-UI-Results.png){width="624" height="220"}
+![MR widget test results](/images/customer-success/professional-services-engineering/professional-services-delivery-methodology/gitlab-best-practices/MR-UI-Results.png){width="624" height="220"}
 
 ## 4. Perform code reviews before merging into the main branch
 
@@ -122,9 +122,9 @@ Scenarios in which the final approver might not merge an MR:
 * Approver doesn't realize that they are the final approver.
 * Approver sets auto-merge but it is un-set by GitLab.
 
-If any of these scenarios occurs, an MR author may merge their own MR if it has all required approvals and they have merge rights to the repository. This is also in line with the GitLab [bias for action](../../../../../values/_index.md#operate-with-a-bias-for-action) value.
+If any of these scenarios occurs, an MR author may merge their own MR if it has all required approvals and they have merge rights to the repository. This is also in line with the GitLab [bias for action](../../../../values/_index.md#operate-with-a-bias-for-action) value.
 
-This policy is in place to satisfy the CHG-04 control of the GitLab [Change Management Controls](/handbook/security/change-management-policy/).
+This policy is in place to satisfy the CHG-04 control of the GitLab [Change Management Controls](../../../../security/security-and-technology-policies/change-management-policy.md).
 
 To implement this policy in gitlab-org/gitlab, we have enabled the following settings to ensure MRs get an approval from a top-level CODEOWNERS maintainer:
 
@@ -218,7 +218,7 @@ The [default branch](https://docs.gitlab.com/ee/user/project/repository/branches
 
 It might be a good idea to have an [environment](https://about.gitlab.com/blog/2023/07/27/gitlab-flow-duo/) that is automatically updated to the staging branch. Only, in this case, the name of this environment might differ from the branch name. Suppose you have a staging environment, a pre-production environment, and a production environment:
 
-![GitLab Flow](/images/customer-success/professional-services-engineering/processes/professional-services-delivery-methodology/gitlab-best-practices/gitlab-flow.png){width="356" height="340"}
+![GitLab Flow](/images/customer-success/professional-services-engineering/professional-services-delivery-methodology/gitlab-best-practices/gitlab-flow.png){width="356" height="340"}
 
 In this case, deploy the staging branch to your staging environment. To deploy to pre-production, create a merge request from the staging branch to the pre-prod branch. Go live by merging the pre-prod branch into the production branch. This workflow, where commits only flow downstream, ensures that everything is tested in all environments.
 
@@ -240,7 +240,7 @@ Another important part of compliance is knowing it is actually happening in your
 
 Audit Events allows GitLab owners and administrators to track important events such as who performed certain actions and the time they occurred.
 
-![Audit events](/images/customer-success/professional-services-engineering/processes/professional-services-delivery-methodology/gitlab-best-practices/audit-events.png){width="496" height="322"}
+![Audit events](/images/customer-success/professional-services-engineering/professional-services-delivery-methodology/gitlab-best-practices/audit-events.png){width="496" height="322"}
 
 Audit Events records different events per group and per project, which can be seen in the [audit events](https://docs.gitlab.com/ee/administration/audit_event_reports.html) documentation. Audit Events can be accessed by going to Security & Compliance \> Audit Events Some examples include:
 
@@ -254,7 +254,7 @@ Audit Events can also be sent to an HTTP endpoint using Audit Event Streaming. I
 
 Compliance Report gives you the ability to see a group's merge request activity. It provides a high-level view for all projects in the group.
 
-![Compliance report](/images/customer-success/professional-services-engineering/processes/professional-services-delivery-methodology/gitlab-best-practices/compliance-report.png){width="524" height="339"}
+![Compliance report](/images/customer-success/professional-services-engineering/professional-services-delivery-methodology/gitlab-best-practices/compliance-report.png){width="524" height="339"}
 
 You can use the report to:
 
