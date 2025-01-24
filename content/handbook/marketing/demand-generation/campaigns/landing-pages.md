@@ -24,7 +24,7 @@ twitter_creator: "@gitlab"
 
 * For about.gitlab.com pages: The H1/page title will be the slug of the URL
 * The H1 should be concise and focus on keywords for the campaign
-* For Marketo landing pages, follow the landing page naming convention.
+* For Marketo and PathFactory landing pages, follow the landing page naming convention. Utilize the [Content URL Builder](https://docs.google.com/spreadsheets/d/12jm8q13e3-JNDbJ5-DBJbSAGprLamrilWIBka875gDI/edit?gid=1807603787#gid=1807603787). 
 
 ## Resources and related issues
 
@@ -50,9 +50,10 @@ The following section point to more detailed processes for Marketo landing pages
 
 ### Marketo landing page instructions, character limits, and workback timelines
 
-_Curious how to estimate when a landing page due date should be set? We've tried to make it easy with a workback, so that you can also clearly see the **dependencies** for a landing page to be created (including landing page copy, which is a separate issue teamplate).*
+Curious how to estimate when a landing page due date should be set? We've tried to make it easy with a workback, so that you can also clearly see the **dependencies** for a landing page to be created (including landing page copy, which is a separate issue teamplate).
 
 * Gated content (in-house content, analyst content, and competitive content)
+  * [Content URL Builder](https://docs.google.com/spreadsheets/d/12jm8q13e3-JNDbJ5-DBJbSAGprLamrilWIBka875gDI/edit?gid=1807603787#gid=1807603787)
   * [Handbook page to reference process and details](/handbook/marketing/demand-generation/campaigns/content-in-campaigns/)
   * [Workback schedule calculator](https://docs.google.com/spreadsheets/d/1dKVIZGbbOLoR5BdCqXqCQ40qJlQNif9waTiHc8yWggQ/edit#gid=1648326617)
   * [Character limit checker](https://docs.google.com/spreadsheets/d/1dKVIZGbbOLoR5BdCqXqCQ40qJlQNif9waTiHc8yWggQ/edit#gid=905304679)
@@ -95,7 +96,7 @@ Marketo landing pages should use the following naming convention:
 
 * `**type-monthdd-shortcampaignname-region**` (no region for global)
 * For joint partner events, include `partner` in the short name
-* If the landing page is for gated content or an evergreen asset (such as a webcast that will be offered on-demand for more than a year), leave the date off.
+* If the landing page is for gated content or an evergreen asset (such as a webcast that will be offered on-demand for more than a year), leave the date off. Utilize the [Content URL Builder](https://docs.google.com/spreadsheets/d/12jm8q13e3-JNDbJ5-DBJbSAGprLamrilWIBka875gDI/edit?gid=1807603787#gid=1807603787). 
 
 The 'type' is outlined in the table below. If your type is not listed, please use `program-`.
 
@@ -105,17 +106,17 @@ This standardizes our page names for use in reporting and systems such as our AB
 
 | Type | URL Path: `https://page.gitlab.com/[first word below]` |
 | ------ | ------ |
-| Webcasts | /webcast-    |
+| Webcasts | /webcast_    |
 | Workshops | /workshop-  |
 | Owned, in-person events | /event- |
 | Owned, virtual events (that don't fall under webcasts - like wine tastings, cooking, etc) | /event- |
-| Gated content - ebook | /ebook- |
-| Gated content - demo | /demo- |
+| Gated content - ebook | /ebook_ |
+| Gated content - demo | /demo_ |
 | Gated content - video | /video- |
-| Gated content - all others | /resources- |
+| Gated content - all others | /resources_ |
 | Meeting requests | /event- |
 | Executive roundtables | /event- |
-| Survey | /survey- |
+| Survey | /survey_ |
 | Interest forms | /interest- |
 |Contact us forms (localized, for example) | /contact- |
 | Direct Mail | /direct- |
