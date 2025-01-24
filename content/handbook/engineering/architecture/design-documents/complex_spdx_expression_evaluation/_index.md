@@ -71,13 +71,13 @@ Document statuses you can use:
 
 ## Summary
 
-SPDX license expressions provide a clear, standardized, and machine-readable way
-to document the software licenses associated with code, ensuring compliance with
-licensing obligations. Standardized expressions help users manage legal risks,
-meet licensing requirements, and easily share software components for reuse.
-Expressions can be simple, for example an expression composed of singular SPDX
-license identifier, or complex, like when more than one expressions are combined
-using boolean operators.
+SPDX license expressions provide a clear, [standardized](https://spdx.github.io/spdx-spec/v2-draft/SPDX-license-expressions/),
+and machine-readable way to document the software licenses associated with code,
+ensuring compliance with licensing obligations. Standardized expressions help
+users manage legal risks, meet licensing requirements, and easily share software
+components for reuse.  Expressions can be simple, for example an expression
+composed of singular SPDX license identifier, or complex, like when more than
+one expressions are combined using boolean operators.
 
 ## Motivation
 
@@ -230,7 +230,7 @@ From this example, we can see how quickly the search space can become because
 we're essentially getting the cartesian product of different sets. This
 [combinatorial explosion](https://en.wikipedia.org/wiki/Combinatorial_explosion)
 requires us to further refine the implementation, so that it remains performant
-should we be presented with large amount of packages with more than one licensing.
+should we be presented with a large amount of dual licensed packages.
 
 To do this, we can make use of [bit arrays](https://en.wikipedia.org/wiki/Bit_array)
 to act as a vector of licenses. At a high level the representation would work
@@ -282,7 +282,7 @@ return true if (licenses_from_report & licenses_from_policy) > 0
 
 ### Storage
 
-The monolith's database will no longer rely on an enum to identify the license used
+The GitLab Rails database will no longer rely on an enum to identify the license used
 by a project. Instead it will add an additional column that stores the original
 license expression, and its equivalent bytecode.
 
