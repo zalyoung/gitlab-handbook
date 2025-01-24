@@ -200,7 +200,7 @@ be discussed with the [Production Engineering::Foundations](https://gitlab.com/g
 
 The majority of GitLab's traffic management rate limits have been moved out of HAProxy and into Cloudflare (see this [confidential issue](https://gitlab.com/gitlab-com/gl-infra/production-engineering/-/issues/24699) for more details).
 
-However, HAProxy is still responsible for GitLab Pages and Registry rate limits, as those components are not fronted by Cloudflare. There are no rate limit exceptions available for Pages or Registry. See the sections on [Pages](#gitlab-pages) and [Registry](#registry) for more details.
+However, HAProxy is still responsible for Registry rate limits, as that component is not fronted by Cloudflare. See [Registry](#registry) for more details.
 
 Currently HAProxy also handles applying the `X-GitLab-Rate-Limit-Bypass` for a limited number of special paths. The list can be found [here](https://gitlab.com/gitlab-cookbooks/gitlab-haproxy/-/blob/master/templates/default/frontends/https.erb?ref_type=heads#L40-43), but there is [work underway](https://gitlab.com/gitlab-com/gl-infra/production-engineering/-/issues/26205) to move this logic out into Cloudflare as well.
 
@@ -306,6 +306,8 @@ For more information, see the [Pages Rate Limit documentation](https://docs.gitl
 ### Registry
 
 Registry is not fronted by Cloudflare (see this [confidential issue](https://gitlab.com/gitlab-com/gl-infra/production-engineering/-/issues/16468) for full details around why). There is no application-level setting for it either (though there is an [open feature request](https://gitlab.com/gitlab-org/gitlab/-/issues/438690) to add that), so the only place where there is rate limiting in place for Registry is [in HAProxy](https://gitlab.com/gitlab-cookbooks/gitlab-haproxy/-/blob/master/templates/default/frontends/registry_https.erb).
+
+There are no rate limit exceptions available for Registry.
 
 ## Headers
 
