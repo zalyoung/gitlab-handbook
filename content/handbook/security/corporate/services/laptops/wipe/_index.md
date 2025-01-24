@@ -14,7 +14,6 @@ Laptops must be wiped with [Jamf](/handbook/security/corporate/systems/jamf) for
 
 | Region | IT Analysts    | Calendar Link                                                    |
 |--------|----------------|------------------------------------------------------------------|
-| APAC   | Steve Ladgrove | [Schedule a Call](https://calendar.app.google/sno1aJBB9YhQUHXh8) |
 | APAC   | Max Hirata     | [Schedule a Call](https://calendar.app.google/CMK6dKUN2otv1wsWA) |
 | EMEA   | Bruno Ferreira | [Schedule a Call](https://calendar.app.google/zKj8AH9c8VmAcYX48) |
 | EMEA   | Eoghan Dunne   | [Schedule a Call](https://calendar.app.google/BXECy3uLpUKdNbHe6) |

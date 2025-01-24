@@ -51,6 +51,7 @@ stages:
   - build
   - run
   - release
+  - deploy
 
 test go:
   stage: test
@@ -191,7 +192,7 @@ deploy app:
     - if: $CI_PIPELINE_SOURCE != 'merge_request_event'
 ```
 
-This script copies the binary and system service, then starts the system service. After the system service starts, you can navigate to http://<your-server-ip> to see the results!
+This script copies the binary and system service, then starts the system service. After the system service starts, you can navigate to http://{your-server-ip} (Can be found in the Variables section of your group under $ip-address) to see the results!
 
 ## Lab Guide Complete
 

@@ -2,7 +2,7 @@
 title: Sec Section
 description: >-
   The Sec Section is composed of development teams working on Secure
-  and Govern features of the GitLab DevOps Platform.
+  and Software Supply Chain Security features of the GitLab DevOps Platform.
 ---
 
 <div class="diagramwrapper">
@@ -141,13 +141,11 @@ description: >-
 
 The following teams comprise the sub-department:
 
-- Govern stage - [handbook](/handbook/engineering/development/sec/govern/)
-  - Anti-abuse group - [handbook](/handbook/engineering/development/sec/govern/anti-abuse)
-  - Authentication group - [handbook](/handbook/engineering/development/sec/govern/authentication)
-  - Authorization group - [handbook](/handbook/engineering/development/sec/govern/authorization)
-  - Compliance group - [handbook](govern/compliance/)
-  - Security Policies group - [handbook](/handbook/engineering/development/sec/govern/security-policies/)
-  - Threat Insights group - [handbook](/handbook/engineering/development/sec/govern/threat-insights/)
+- Software Supply Chain Security stage - [handbook](/handbook/engineering/development/sec/software-supply-chain-security/)
+  - Anti-abuse group - [handbook](/handbook/engineering/development/sec/software-supply-chain-security/anti-abuse)
+  - Authentication group - [handbook](/handbook/engineering/development/sec/software-supply-chain-security/authentication)
+  - Authorization group - [handbook](/handbook/engineering/development/sec/software-supply-chain-security/authorization)
+  - Compliance group - [handbook](software-supply-chain-security/compliance/)
 - Secure stage - [handbook](/handbook/engineering/development/sec/secure/)
   - Composition Analysis group - [handbook](/handbook/engineering/development/sec/secure/composition-analysis/)
   - Dynamic Analysis group - [handbook](/handbook/engineering/development/sec/secure/dynamic-analysis/dynamic-analysis/)
@@ -155,6 +153,9 @@ The following teams comprise the sub-department:
   - Secret Detection group - [handbook](/handbook/engineering/development/sec/secure/secret-detection/)
   - Vulnerability Research group - [handbook](/handbook/engineering/development/sec/secure/vulnerability-research/)
   - API Security - [handbook](/handbook/engineering/development/sec/secure/dynamic-analysis/api-security/)
+- Security Risk Management
+  - Security Policies group - [handbook](/handbook/engineering/development/sec/software-supply-chain-security/security-policies/)
+  - Threat Insights group - [handbook](/handbook/engineering/development/sec/security-risk-management/security-insights/)
 
 It is important to delineate who the EM and PM DRIs are for every functionality, especially where this may not be obvious. This is documented on a dedicated [delineation page](delineate-sec.html).
 
@@ -169,7 +170,7 @@ Keeping our projects organized is very important for productivity and maintainab
 - To setup a new project we follow the [company-wide Engineering guidelines](/handbook/engineering/gitlab-repositories/).
 - Sec projects should be organized into one of
   - [https://gitlab.com/gitlab-org/secure](https://gitlab.com/gitlab-org/secure)
-  - [https://gitlab.com/gitlab-org/govern](https://gitlab.com/gitlab-org/govern)
+  - [https://gitlab.com/gitlab-org/software-supply-chain-security](https://gitlab.com/gitlab-org/software-supply-chain-security)
   - [https://gitlab.com/gitlab-org/security-products](https://gitlab.com/gitlab-org/security-products)
 
 In general, we want to keep as few projects in `security-products` as necessary.
@@ -180,19 +181,19 @@ In general, we want to keep as few projects in `security-products` as necessary.
 - Demos
 - Historical projects that are difficult to move.
 
-`secure` and `govern` should have projects for:
+`secure` and `software-supply-chain-security` should have projects for:
 
 - End-to-end testing
 - Benchmarks / Stats
 - Tooling
 
-There may be projects that should belong in `secure` or `govern` but for technical reasons are much easier to have in `security-products`. In those cases, we can locate the project in `security-products` if reasonable efforts were made to get the project in `secure` or `govern` but were unsuccessful.
+There may be projects that should belong in `secure` or `software-supply-chain-security` but for technical reasons are much easier to have in `security-products`. In those cases, we can locate the project in `security-products` if reasonable efforts were made to get the project in `secure` or `software-supply-chain-security` but were unsuccessful.
 
 ### Recommended settings
 
 When creating a new project, all settings should be left to the default options, except for the following which are specific to the secure stage:
 
-1. Add a [CODEOWNERS](https://docs.gitlab.com/ee/user/project/codeowners) file to the project, for example:
+1. Add a [CODEOWNERS](https://docs.gitlab.com/ee/user/project/codeowners/) file to the project, for example:
 
    ```shell
    [Maintainers]
@@ -247,17 +248,16 @@ When creating a new project, all settings should be left to the default options,
       - `New issue URL`
          - `https://gitlab.com/gitlab-org/gitlab/issues/new`
 
-1. Configure the following [project features and permissions](https://docs.gitlab.com/ee/user/project/settings/):
+1. Configure the following [project features and permissions](https://docs.gitlab.com/ee/user/project/settings/) settings:
 
-   - `Settings -> General -> Visibility, project features, permissions -> Additional options -> Users can request access`
-      - `Allowed to merge`
-         - `Maintainers`
-      - `Allowed to push and merge`
-         - `No one`
-      - `Allowed to force push`
-         - `Disabled`
-      - `Code owner approval`
-         - `Enabled`
+   - `Settings -> General -> Visibility, project features, permissions`
+      - `Project visibility`
+         - `Public`
+      - `Additional options`
+         - `Users can request access`
+            - `Disabled`
+      - `Container Registry`
+         - `Only Project Members`
    - `Settings -> Repository -> Protected branches`
       - `Allowed to merge`
          - `Maintainers`
@@ -361,7 +361,7 @@ When configuring projects that are not part of the secure stage, please see the 
 
 ## Slack channels
 
-- [#sec-section](https://gitlab.slack.com/archives/C02087FTL5V) - Sec Section discussions spanning the Govern, and Secure stages.
+- [#sec-section](https://gitlab.slack.com/archives/C02087FTL5V) - Sec Section discussions spanning the Software Supply Chain Security and Secure stages.
 - [#sec-growth-datascience-people-leaders](https://gitlab.slack.com/archives/C033F69CQCB) - Engineering people leaders in Sec, Growth, and ModelOps.
 - [🔒sec-growth-datascience-leadership-confidential](https://gitlab.slack.com/archives/GKWF00Y3E) - Private channel for engineering people leaders in Sec, Growth, and ModelOps.
 
@@ -379,25 +379,32 @@ We encourage utilizing our available [Google Groups](https://groups.google.com/m
 
 ### Google Groups
 
-Google groups [were setup](https://gitlab.com/gitlab-org/secure/general/-/issues/246) and are structured as:
+Google groups follow the convention [section]-[stage]-[group], separating multi-word names with `_` and are structured as the following:
 
 - sec-section
-- sec-govern
-- sec-secure
-- sec-govern-threat-insights
-- sec-govern-security-policies
-- sec-govern-compliance
-- sec-secure-static-analysis
-- sec-secure-secret-detection
-- sec-secure-dynamic-analysis
-- sec-secure-composition-analysis
+- sec-software_supply_chain_security
+- sec-security_risk_management
+- sec-application_security_testing
+- sec-security_risk_management-security_insights
+- sec-security_risk_management-security_policies
+- sec-security_risk_management-security_platform_management
+- sec-security_risk_management-security_infrastructure
+- sec-application_security_testing-static_analysis
+- sec-application_security_testing-secret_detection
+- sec-application_security_testing-dynamic_analysis
+- sec-application_security_testing-composition_analysis
+- sec-software_supply_chain_security-authentication
+- sec-software_supply_chain_security-authorization
+- sec-software_supply_chain_security-compliance
+- sec-software_supply_chain_security-pipeline_security
+- vulnerability-research
 
-The members of each google group consists of stable counterparts and the correct `eng-dev-[sub-department]-[team]` group of engineers. When stable counterparts change, or team members onboard/offboard the appropriate group should be updated.
+The members of each google group consists of stable counterparts and the correct `eng-dev-[stage]-[group]` group of engineers. When stable counterparts change, or team members onboard/offboard the appropriate group should be updated by the EM of the respective group.
 
 ## Staying Informed and Informing Team Members
 
 - [Sec Week In Review Google Document](https://drive.google.com/drive/search?q=%22Sec%20Section%20Week%20In%20Review%22) - is an asynchronous weekly document of notables things happening in Sec. The document is inspired by the [Engineering Week In Review](/handbook/engineering/#communication).
-- Slack channels #s_secure and #s_govern are informative since they are all part of Sec Section.
+- Slack channels #s_secure and #s_software-supply-chain-security are informative since they are all part of Sec Section.
 
 ## Planning in the Section
 

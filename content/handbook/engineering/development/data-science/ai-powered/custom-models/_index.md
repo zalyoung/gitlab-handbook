@@ -57,6 +57,7 @@ Custom Models follows the [Product Development Flow](/handbook/product-developme
 During each milestone, planning is completed for the next milestone. The following activities are undertaken:
 
 - Creation of planning issues and boards (EM or PM)
+- Refinement issues are created every week via [automation](https://gitlab.com/gitlab-org/ai-powered/custom-models/custom-models/-/merge_requests/95)
 - Identification of candidate issues for the milestone and addition to Planning Board (PM, EM, SET)
 - Team member capacity planning (EM)
 - Estimation of effort using weights (Engineers and EM)
@@ -72,6 +73,12 @@ Each month a planning issue is created by the PM, using automation and the [Cust
 The [Planning Board](https://gitlab.com/groups/gitlab-org/-/boards/7762631?milestone_title=17.7&label_name[]=group%3A%3Acustom%20models) is created for each milestone by the PM, and is a curated list of issues by category. The planning board can be overloaded with issues; the excess will be moved to the next milestone or to the Next 1-3 Milestones board during the planning call.
 
 The PM marks issues with `~workflow::planning breakdown`, this signals to the EM to request engineers to review the issue description to ensure it is clear and ready for development. The engineer then assigns a weight and applies the `~workflow::ready for development` label.
+
+### Automation for Issue Refinement
+
+Every week, a new issue is created within [Custom Models project](https://gitlab.com/gitlab-org/ai-powered/custom-models/custom-models) to help with issue refinement.
+
+Engineers refine issues weekly by reviewing tasks, estimating their complexity, and preparing them for development. During the refinement process, they evaluate the work required, add implementation plans when needed, add a [weight](#issue-weights), and mark issues as [ready for development](#ready-for-development-status). This process ensures issues are well-defined before development begins.
 
 ### Ready for Development Status
 

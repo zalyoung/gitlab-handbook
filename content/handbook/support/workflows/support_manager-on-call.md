@@ -18,6 +18,7 @@ As part of [GitLab Support on-call](/handbook/support/on-call/), Support Manager
 1. Ensuring customer emergencies are [handled promptly and accurately](#handling-customer-emergencies-and-incidents), [according to SLAs](https://about.gitlab.com/support/)
 1. [Handling Support Ticket Attention Requests](/handbook/support/internal-support/support-ticket-attention-requests) during [Global Support Hours](https://about.gitlab.com/support/#hours-of-operation)
 1. Acting as a [notification point for security incidents](#act-as-a-notification-point-for-security-incidents)
+1. [Finding a Support Manager DRI for an Account Escalation](#finding-a-support-manager-dri-for-an-account-escalation)
 1. Help avoid SLA breaches. See [Working on Tickets](/handbook/support/workflows/working-on-tickets) for details.
 
 **Note:** You (or the CMOC/CEOC) may sometimes be required to contact GitLab users on behalf of another GitLab team (such as the SIRT team). Please follow the [Sending Notices workflow](/handbook/support/workflows/sending_notices) to action these requests.
@@ -34,6 +35,7 @@ The [Support Engineer on-call](/handbook/support/on-call/) is the first responde
 - During an emergency: find additional staff for subject-matter expertise; replace the on-call engineer if needed; lead any Zoom call(s) as needed; hand off the emergency to the next on-call manager.
 - Find additional staff when there are [multiple emergencies](/handbook/support/on-call/#handling-multiple-simultaneous-emergencies).
 - Convert [customer emergencies into Account Escalations](/handbook/support/workflows/emergency-to-escalation-process) as needed.
+- The CMOC should coordinate a [Support Response](/handbook/support/workflows/cmoc_workflows.md#about-coordinating-a-support-response) when an incident requires a non-standard workflow or communication from Support. Support the CMOC by ensuring there is clarity and communication with relevant decision-makers in Support or other teams. You can also create the [Support Response issue](https://gitlab.com/gitlab-com/support/support-team-meta/-/blob/master/.gitlab/issue_templates/Support%20Response.md) if this has not yet been done.
 
 ### Situations that Might or Might not Be Emergencies
 
@@ -116,6 +118,10 @@ When a STAR is resolved:
     - `~Escalation::License-Issue` : Identifies the core issue at hand resolves around licensing / subscriptions
     - `~Escalation::Response-Time` : Useful when the purpose of the request is to expedite a response to an issue or case
 
+## Finding a Support Manager DRI for an Account Escalation
+
+In case an Account Escalation opens where support involvement is needed, it is the responsibility of the support manager on-call to find a Lead Support Manager. In case this is an ASE account (you can find this in the org notes) please ping Mike Dunninger (AMER), Ilia Kosenko (EMEA) or Wei Meng Lee (APAC). 
+
 ## Handling mid ticket feedback requesting manager contact during business hours
 
 Mid-ticket feedback link -- each Public Comment from a GitLab Support Engineer or Manager has a link to a form where a customer can provide feedback or request contact from a manager while the ticket is open (introduced in issue [2913](https://gitlab.com/gitlab-com/support/support-team-meta/-/issues/2913)).
@@ -135,8 +141,6 @@ The following action should be taken promptly:
 ## Act as a notification point for security incidents
 
 When GitLab experiences a [security incident](/handbook/security/security-operations/sirt/security-incident-communication-plan#extended-team-roles-responsibilities-and-points-of-contact), the Support Manager on-call is responsible for triaging and responding to customer communications stemming from the security incident. This may include involving the [CMOC](/handbook/support/workflows/cmoc_workflows).
-
-## Provide assistance with Upgrade Assistance Requests
 
 [Upgrade assistance requests](https://about.gitlab.com/support/scheduling-upgrade-assistance/) are currently triaged by engineers as part of the [Working on Tickets](/handbook/support/workflows/working-on-tickets) but in some cases the triaging agent(s) may need assistance from Support management.
 

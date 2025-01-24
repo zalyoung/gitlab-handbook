@@ -50,7 +50,7 @@ The Education Program Manager is a [grade 6](/handbook/total-rewards/compensatio
 
 #### Education Program Manager Responsibilities
 
-- Run and develop the [GitLab for Education](https://about.gitlab.com/solutions/education) program. Increase operational efficiencies and streamline processes.
+- Run and develop the [GitLab for Education](https://about.gitlab.com/solutions/education/) program. Increase operational efficiencies and streamline processes.
 - Establish relationships with educational institutions to produce inspirational case studies of their use of GitLab. Showcase Program Member's success through Case Studies, webinars, blog posts, spotlights, and media campaigns.
 - Build the foundations of a GitLab for Education community and engage with program members.
 - Expand the GitLab for Education program with a learning package to facilitate and incentivize the use of GitLab for Educational purposes.

@@ -25,7 +25,7 @@ Check out our team of Engagement Managers on our [team page](/handbook/company/t
 
 ## How to contact or collaborate with us
 
-- Create a scoping issue using the [Services Calculator](https://services-calculator.gitlab.io) to request scoping support for a specific customer opportunity
+- AEs can create a `professional services only` opportunity in SFDC. This triggers the automatic creation of a [scoping issue](https://gitlab.com/gitlab-com/customer-success/professional-services-group/ww-consulting/ps-plan/-/boards/5968112?label_name[]=Services%20Calculator) used for collaboration during PS discovery, scoping and proposal presentation.
 - [Slack](/handbook/customer-success/professional-services-engineering/working-with/#slack) for informal and general questions, coordination
 - Salesforce Chatter for approvals, discussion of opportunity status, or collaboration with sales leadership and legal.
 

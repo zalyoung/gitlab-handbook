@@ -115,13 +115,14 @@ To learn more on how this automation works, check the [IT-Help Slack Issue Creat
 
 #### IT Holiday Schedule
 
-The IT Helpdesk team (End User Services) will be observing 2 end of the year holidays during the weeks from 2023-12-18 to the 2024-01-02.
+The IT Helpdesk team (End User Services) will observe two holidays:
 
-Observed Support Holidays
-Monday December 25th
-Monday January 1st
+| Date                     | Holiday                |
+|--------------------------|------------------------|
+| Wednesday, December 25, 2024 | Christmas Day         |
+| Wednesday, January 01, 2025  | New Year's Day        |
 
-If you have an urgent request, please reach out to us via slack in the #it_help channel.
+**If you have an urgent request, please reach out to us via slack in the #it_help channel.**
 
 #### IT Ops
 
@@ -150,8 +151,6 @@ If you have an urgent request, please reach out to us via slack in the #it_help 
 - IT Analyst Americas - [Jeff Ford](/handbook/company/team/#jeffford_), jford@gitlab.com, @jeffford_
 
 - Senior IT Analyst Americas - [Jenny Wong](/handbook/company/team/#jwong6), jwong@gitlab.com, @jwong6
-
-- Senior IT Analyst APAC -  [Steve Ladgrove](/handbook/company/team/#sladgrove), sladgrove@gitlab.com, @sladgrove
 
 - IT Analyst APAC -  [Max Hirata](/handbook/company/team/#mhirata-gl), mraetz@gitlab.com, @mhirata-gl
 

@@ -254,9 +254,9 @@ Unpaid carer's leave can be taken:
 - For more information on Family and Domestic Violence Leave, please visit the [Fair Work Ombudsman Website](https://www.fairwork.gov.au/leave/family-and-domestic-violence-leave).
 - Resources:
   - [1800RESPECT](https://www.1800respect.org.au/)
-  - [Safe Steps](https://www.safesteps.org.au/)
-  - [Victims Services](https://www.victimsservices.justice.nsw.gov.au/)
-  - [Domestic Violence Resource Centre Victoria](https://www.dvrcv.org.au/help-advice)
+  - [Safe Steps](https://safesteps.org.au/)
+  - [Victims Services](https://victimsservices.justice.nsw.gov.au/)
+  - [Domestic Violence Resource Centre Victoria](https://safeandequal.org.au/)
   - [JobWatch](https://jobwatch.org.au/)
   - [MensLine Australia](https://mensline.org.au/)
   - [Men's Referral Service](https://ntv.org.au/)
@@ -400,7 +400,7 @@ In considering whether contact is unreasonable, think about:
 
 In case of an issue arising relating to whether a team member has reasonably (or unreasonably) refused to monitor or respond to contact, the team members involved are encouraged to raise the issue with their manager or contact [Team Member Relations](teammemberrelations@gitlab.com).
 
-The FWC will update all modern awards to incorporate the right to disconnect in due course and awards can be checked [here](https://www.fwc.gov.au/agreements-awards/awards/find-award).
+The FWC will update all modern awards to incorporate the right to disconnect in due course and awards can be checked [here](https://www.fwc.gov.au/work-conditions/awards/find-award).
 
 ## GitLab PTY New Zealand Specific Benefits
 
@@ -500,7 +500,7 @@ If it's impossible to find a replacement and the team member ends up taking the 
 
 - Team members must notify the Absence Management team (leaves@gitlab.com) as soon as possible when they will need to go out on injured leave.
 - Team members must designate time off for injury as `Out Sick` or `Vacation` in Workday if they wish to use sick leave or annual leave for the first week of an injury.
-- If the leave will last longer than five days and is [covered by the Accident Compensation Corporation (ACC) scheme](https://www.acc.co.nz/im-injured/what-we-cover/), GitLab will top up the ACC payment from 80 to 100% for the first 25 days.
+- If the leave will last longer than five days and is [covered by the Accident Compensation Corporation (ACC) scheme](https://www.acc.co.nz/im-injured/what-we-cover), GitLab will top up the ACC payment from 80 to 100% for the first 25 days.
 
 ## GitLab PTY New Zealand Parental Leave
 
@@ -537,7 +537,7 @@ Partner Leave
 
 - To initiate your parental leave, submit your time off by selecting the `Parental Leave` category in Workday at least 30 days before your leave starts.
   - Please familiarize yourself with [GitLab's Parental Leave policy]({{< ref "general-and-entity-benefits#parental-leave" >}}).
-- To apply for government-funded Parental Leave pay, please submit your application via [IRD](https://www.ird.govt.nz/paid-parental-leave/apply).
+- To apply for government-funded Parental Leave pay, please submit your application via [IRD](https://www.ird.govt.nz/paid-parental-leave/applications).
   - If there is anything GitLab needs to provide, please let the Absence Management team know by emailing leaves@domain
 - If you are [eligible]({{< ref "general-and-entity-benefits#parental-leave" >}}), GitLab will supplement the government-funded payment to ensure that you receive 100% pay for up to 16 weeks of your Parental Leave.
 
@@ -592,7 +592,7 @@ All team members who have been employed for six months are entitled to three day
 - This leave runs concurrently with GitLab PTO. Team members must designate this time off as `Bereavement Leave` in Workday to ensure that statutory entitlements are properly tracked.
 - All team members who have been employed for six months are entitled to three days paid leave if a pregnancy ended by way of a miscarriage or still-birth in circumstances that give rise to an entitlement to bereavement leave under the Holidays Act 2003.
 
-For more information related to this policy, please reivew the [Employment New Zealand website](https://www.employment.govt.nz/leave-and-holidays/bereavement-leave/).
+For more information related to this policy, please reivew the [Employment New Zealand website](https://www.employment.govt.nz/leave-and-holidays/bereavement-leave).
 
 </details>
 
@@ -608,7 +608,7 @@ For more information related to this policy, please reivew the [Employment New Z
 - This leave runs concurrently with GitLab PTO. Team members should notify the Absence Management team (leaves@gitlab.com) if they need to make use of this leave.
 - Team members must designate this time off as `Out Sick` in Workday to ensure that statutory entitlements are properly tracked.
 
-For more information regarding this policy, please reivew the [Employment New Zealand website](https://www.employment.govt.nz/leave-and-holidays/family-violence-leave/).
+For more information regarding this policy, please reivew the [Employment New Zealand website](https://www.employment.govt.nz/leave-and-holidays/family-violence-leave).
 
 </details>
 
@@ -634,7 +634,7 @@ Leave without pay is when GitLab allows an team member time off work when they w
 
 - Team members must designate this time off as `Out Sick` in Workday.
 
-For more information regarding Leave without Pay, please review the [Employment New Zealand's website](https://www.employment.govt.nz/leave-and-holidays/other-types-of-leave/leave-without-pay/).
+For more information regarding Leave without Pay, please review the [Employment New Zealand's website](https://www.employment.govt.nz/leave-and-holidays/other-types-of-leave/leave-without-pay).
 
 </details>
 

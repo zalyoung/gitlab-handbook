@@ -71,10 +71,10 @@ We rotate triage duties weekly between team members as part of our [interrupt ro
 
 | Priority | Description | Engagement SLA |
 | ------- | ----------- | --------- |
-| Reliability::1 | Very urgent, blocking significant other work | Engage within 24 hours |
-| Reliability::2 | A blocker, but we have workarounds | Engage within 3 business days |
-| Reliability::3 | Not currently a blocker but will be soon | Engage within a week |
-| Reliability::4 | Not likely to be a blocker, this is a nice-to-have improvement or suggestion | Engage within a month |
+| Production Engineering::1 | Very urgent, blocking significant other work | Engage within 24 hours |
+| Production Engineering::2 | A blocker, but we have workarounds | Engage within 3 business days |
+| Production Engineering::3 | Not currently a blocker but will be soon | Engage within a week |
+| Production Engineering::4 | Not likely to be a blocker, this is a nice-to-have improvement or suggestion | Engage within a month |
 
 **Note:** Due to the complexity of our systems, we cannot commit to a resolution-based SLA when you open an issue with a given priority level, because we don't know how long something will take to resolve, and there is often more information we need from the stakeholder or external customer, which takes time to obtain. Therefore, we can only commit to an SLA for how quickly we will engage with an issue and prioritize the work.
 
@@ -94,16 +94,7 @@ We endeavor to triage incoming requests twice per week. If you have an issue tha
 
 ## Key Performance Indicators
 
-KPIs for the team are currently under development in https://gitlab.com/gitlab-com/gl-infra/production-engineering/-/issues/24928.
-
-We also internally track team and internal customer satisfaction with regular surveys.
-
-### Internal survey results
-
-- Team Satisfaction - current status: green
-- Customer Satisfaction - current status: green (4.25/5.00)
-
-For more context, see the related [discussion issue](https://gitlab.com/gitlab-com/gl-infra/production-engineering/-/issues/19167).
+KPIs for the team are under development in https://gitlab.com/gitlab-com/gl-infra/production-engineering/-/issues/24928.
 
 ## Team Members
 
@@ -143,16 +134,15 @@ The Foundations Team must maintain a broad and diverse set of technical skills w
 
 ### Standup
 
-We have Geekbot automated checkins on Mondays and Fridays in the [#g_foundations](https://gitlab.enterprise.slack.com/archives/C0313V3L5T6) channel.
+We have Geekbot automated checkins on Mondays and Fridays in the [#g_foundations](https://gitlab.enterprise.slack.com/archives/C0313V3L5T6) channel. Any question can be skipped by replying "-".
 
 - Monday questions include:
-  - What are your top priorities this week?
-  - What did you accomplish last week?
-  - What else is on your todo list for the week?
-  - Any blockers or requests for pairing?
+  - What are you working on this week?
+  - Do you have any blockers?
 - Friday questions include:
-  - How did your week go?
-  - What were your wins this week?
+  - What did you do this week?
+  - Do you have any shout outs?
+  - Anything else you'd like to share?
 
 ### Retros
 
@@ -162,27 +152,27 @@ We have a quarterly async retro that aligns with the company fiscal quarters and
 
 We have three buckets of work:
 
-1. OKRs (project work)
+1. Project work
 1. External requests
 1. General operations, also known as Keep the lights on (KTLO)
 
-While we rely on the `workflow-infra::*` labels to denote the current state of any given issue, we rely on the [Build Board](https://gitlab.com/groups/gitlab-com/gl-infra/-/boards/7578583?label_name%5B%5D=Foundations%3A%3ABuild) to understand what specific issues are ready to be picked up.
+While we rely on the `workflow-infra::*` labels to denote the current state of any given issue, we rely on the [Build Board](https://gitlab.com/groups/gitlab-com/gl-infra/-/boards/7578583) to understand what specific issues are ready to be picked up.
 
 In short, anyone on the team can find issues to work on in the Build Board.
 
-When something is prioritized to be worked on, the `Foundations::Build` label is applied so it is included on the board. With the exception of some external requests, issues being added should be in `workflow-infra::Ready` (clearly defined and [ready](../../platforms/project-management/index.md#workflow-labels) for any team member to pick up).
+When something is prioritized to be worked on, the `Foundations Build` label is applied so it is included on the board. With the exception of some external requests, issues being added should be in `workflow-infra::Ready` (clearly defined and [ready](../../platforms/project-management/index.md#workflow-labels) for any team member to pick up).
 
 We want the build board to be relatively small in size so it is easy to traverse and there is no confusion around what needs to be worked on. It can provide some options for people to find work, but also prevent key work from being missed.
 
-Different people are responsible for adding the `Foundations::Build` label to issues for each bucket of work:
+Different people are responsible for adding the `Foundations Build` label to issues for each bucket of work:
 
-- OKRs - DRIs of each OKR uses the `Foundations::Build` label to communicate what the next issues needed to be picked up are.
-- External requests - the Engineering manager will add `Foundations::Build` to issues that need attention. These will also include the `unblocks others` label to make it clear to people on the interrupt rotation which issues are external requests. The person on interrupt rotation can also actively triage incoming issues, adding the `Foundations::Build` label when new issues are opened.
+- Project Work - DRIs of each project (epic) uses the `Foundations Build` label to communicate what the next issues needed to be picked up are.
+- External requests - the Engineering manager or person on the [interrupt rotation](#interrupt-rotation) will add `Foundations Build` to issues that need attention. These will also include the `unblocks others` label to make it clear to people on the interrupt rotation which issues are external requests. The person on interrupt rotation can also actively triage incoming issues, adding the `Foundations Build` label when new issues are opened.
 - KTLO - These issues will generally be added according to a general combination of due date/priority/severity/weight. Any team member should feel empowered to add KTLO issues to the board when they fit the criteria (prioritization makes sense based on the due date/priority/severity/weight).
 
 From here, people have options when looking for what's next:
 
-1. Pick up issues related to the OKR they are involved with
+1. Pick up issues related to the project they are involved with
 1. Pick up KTLO work they are interested in or to create a break between other project work
 1. Help out with external requests if the interrupt rotation has higher volume on a given week
 
@@ -190,7 +180,7 @@ We trust everyone to be a [Manager of One](../../../../leadership/_index.md#mana
 
 ### Prioritization of work
 
-We use priority labels to prioritize our work. OKR work is updated to `Reliability::2` when it is ready to be worked on. As such it is given higher priority than most other work. This means that external requests will be worked in based on their own priority and impact, where only P1 and P2 issues will regularly interrupt OKR work.
+We use priority labels to prioritize our work. project work is automatically set considered `Production Engineering::2` when it is ready to be worked on. As such it is given higher priority than most other work. This means that external requests will be worked in based on their own priority and impact, where only P1 and P2 issues will regularly interrupt project work.
 
 ### Interrupt Rotation
 
@@ -200,12 +190,12 @@ If a team member is unavailable for more than 2 days of the week they are on tri
 
 The team member on rotation is responsible for:
 
-- Checking the [Foundations Build Board](https://gitlab.com/groups/gitlab-com/gl-infra/-/boards/7578583?label_name%5B%5D=Foundations%3A%3ABuild) throughout the week and ensuring new issues related to Foundations:
-  - Have the correct labels (priority, workflow, any other applicable category labels)
+- Checking the [Foundations Build Board](https://gitlab.com/groups/gitlab-com/gl-infra/-/boards/7578583) throughout the week and ensuring new issues related to Foundations:
+  - Have the correct labels (`Foundations::*`, `Production Engineering::P*`, `workflow-infra::*`, any other applicable category labels)
   - Have a [weight](#issue-weighting).
   - Are assigned to an [appropriate epic](https://gitlab.com/groups/gitlab-com/gl-infra/-/epics?state=opened&page=1&sort=start_date_desc&label_name[]=team::Foundations) if applicable.
 - Asking issue authors for more information when needed to understand the scope of work.
-- Raising any `Reliability::1` or `Reliability::2` issues and ensuring they have a DRI and are being actively worked on.
+- Raising any `Production Engineering::1` or `Production Engineering::2` issues and ensuring they have a DRI and are being actively worked on.
 - Completing any issues that come up that can be completed during the week. Weight 5 issues can be considered depending on the priority.
   - Anything weight 8 or larger (more than 1 week of work) should be made clear that it will need to be scheduled around other work.
 - Responding to alerts in [`#g_foundations_alerts`](https://gitlab.enterprise.slack.com/archives/C04Q7RQC7FF).
@@ -226,9 +216,9 @@ Below builds on top of those guidelines.
 
 - For Objectives and Key Results, we align with [Platforms guidance](/handbook/engineering/infrastructure/platforms/#okr) for creation and structure.
 
-#### Epics
+#### Epics / Projects
 
-In addition to the format described in the [platforms project management page](/handbook/engineering/infrastructure/platforms/project-management/#epics), these sections may be helpful
+In addition to the format described in the [platforms project management page](/handbook/engineering/infrastructure/platforms/project-management/#epics), these optional sections may be helpful
 
 ```markdown
 
@@ -238,7 +228,7 @@ In addition to the format described in the [platforms project management page](/
 
 \`\`\`
 /epic [current epic]
-/labels ~"group::Production Engineering" ~"Sub-Department::SaaS Platforms" ~"team::Foundations" ~"workflow-infra::Triage" ~"Reliability::P2"
+/labels ~"group::Production Engineering" ~"team::Foundations" ~"workflow-infra::Triage" ~"Production Engineering::P2" ~"Foundations::Project work"
 \`\`\`
 
 ## References
@@ -266,15 +256,16 @@ In addition to the format described in the [platforms project management page](/
 
 #### Issues
 
-Open planned work for our team is located in the [Production Engineering](https://gitlab.com/gitlab-com/gl-infra/production-engineering/) project. Issues should be updated whenever significant work occurs. New issues are expected to:
+Issues for our team are tracked in the [Production Engineering](https://gitlab.com/gitlab-com/gl-infra/production-engineering/) project. Issues should be updated whenever significant work occurs. New issues are expected to:
 
 - Link to a related Epic.
 - Include the following Labels (update the priority as needed):
 
    ```text
-   /labels ~"group::Production Engineering" ~"Sub-Department::SaaS Platforms" ~"team::Foundations" ~"workflow-infra::Triage" ~"Reliability::P4"
+   /labels ~"group::Production Engineering" ~"team::Foundations" ~"workflow-infra::Triage" ~"Production Engineering::P4"
    ```
 
+- A Foundations label that aligns with the bucket of work it fits best in: `Foundations::KTLO`, `Foundations::Requests`, `Foundations::Project Work`, ...
 - If there is a service label that is applicable, also apply that.
 
 ##### Issue weighting

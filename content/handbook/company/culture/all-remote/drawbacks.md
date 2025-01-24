@@ -11,7 +11,7 @@ Despite all of its [advantages]({{< ref "remote-benefits" >}}), all-remote work 
 
 {{< youtube "CwOLAKSdlfs" >}}
 
-In the [video](https://youtu.be/CwOLAKSdlfs) above, GitLab Director of Technical Evangelism [Priyanka Sharma](https://gitlab.com/pritianka) discusses pros and cons of remote working with a panel of experts from [TFiR](https://www.tfir.io/), [Arm](https://www.arm.com/) and [ISG Research](https://isg-one.com/research).
+In the [video](https://youtu.be/CwOLAKSdlfs) above, GitLab Director of Technical Evangelism [Priyanka Sharma](https://gitlab.com/pritianka) discusses pros and cons of remote working with a panel of experts from [TFiR](https://tfir.io/), [Arm](https://www.arm.com/) and [ISG Research](https://isg-one.com/research).
 
 ## The difference between all-remote and remote-first
 
@@ -76,7 +76,7 @@ It can be hard to separate your personal and work life. It's important to encour
 **Solutions**
 
 - [Preventing a culture of burnout starts at the top](https://about.gitlab.com/blog/2018/03/08/preventing-burnout/). In all-remote companies, it's important to reinforce this from the [interview process](https://about.gitlab.com/blog/2019/03/28/what-its-like-to-interview-at-gitlab/), to [onboarding](learning-and-development/#how-do-you-onboard-new-team-members), to regular [1:1s]({{< ref "1-1" >}}).
-- All-remote companies should consider implementing a [Results value](/handbook/values/#results), where [results (as opposed to hours) are measured](/handbook/values/#measure-results-not-hours). Fundamentally, this requires organizational trust — believing that colleagues will do the right thing rather than implementing rigid rules.
+- All-remote companies should consider implementing a [Results value](/handbook/values/#results), where [impact (as opposed to activity) are measured](/handbook/values/#measure-impact-not-activity). Fundamentally, this requires organizational trust — believing that colleagues will do the right thing rather than implementing rigid rules.
 - At GitLab, we encourage team members to [communicate with their manager when they recognize burnout]({{< ref "paid-time-off#recognizing-burnout" >}}), and to be mindful of the last time a team member [took time off from work]({{< ref "paid-time-off#paid-time-off" >}}).
 
 ### Challenge: Time management
@@ -97,7 +97,7 @@ Remote work requires you to [manage your own time](/handbook/values/#managers-of
 </figure>
 <!-- blank line -->
 
-In the [video](https://youtu.be/ha4aMKl3MRA) above, GitLab co-founder and CEO Sid Sijbrandij discusses some of the organizational challenges involved in building and sustaining an all-remote company.
+In the [video](https://youtu.be/ha4aMKl3MRA) above, GitLab co-founder Sid Sijbrandij discusses some of the organizational challenges involved in building and sustaining an all-remote company.
 
 ### Challenge: Non-traditional setup
 
@@ -106,14 +106,14 @@ Because it's non-traditional, all-remote work sometimes [concerns](https://about
 **Solutions**
 
 - All-remote companies are welcome to glean from [GitLab's template for keeping investors in the loop](https://about.gitlab.com/blog/2018/10/17/how-we-keep-investors-in-the-loop/).
-- For those in the early stages of fundraising for an all-remote company, here are [30 tips from GitLab co-founder and CEO Sid Sijbrandij](https://about.gitlab.com/blog/2016/10/14/fundraising-tips-ceo/).
+- For those in the early stages of fundraising for an all-remote company, here are [30 tips from GitLab co-founder Sid Sijbrandij](https://about.gitlab.com/blog/2016/10/14/fundraising-tips-ceo/).
 - For even more on this topic, [listen](https://about.gitlab.com/blog/2019/08/16/all-remote-fundraising/) to Sid unpack why venture firms struggle to fund all-remote startups with [Maren Kate](https://www.linkedin.com/in/marenkate), host of the Remote AF podcast (link no longer available).
 
-> "In the beginning they assess your team, then they assess your product, and then they assess your financials. When it comes to the team, [investors are] super skeptical they will be able to create something with all-remote. Then when it's about the product they say, 'Yes, maybe, but what about scaling?' And then when it's about the financials you can let the numbers speak for themselves so it's less of a concern. — *GitLab co-founder and CEO Sid Sijbrandij*
+> "In the beginning they assess your team, then they assess your product, and then they assess your financials. When it comes to the team, [investors are] super skeptical they will be able to create something with all-remote. Then when it's about the product they say, 'Yes, maybe, but what about scaling?' And then when it's about the financials you can let the numbers speak for themselves so it's less of a concern. — *GitLab co-founder Sid Sijbrandij*
 
 ### Challenge: Compliance
 
-Differences in currency as well as tax, immigration, and labor laws around the world can create [compliance challenges](https://www.forbes.com/sites/forbeshumanresourcescouncil/2019/07/12/remote-work-is-here-to-stay-heres-how-to-avoid-three-common-compliance-issues/) for the organization.
+Differences in currency as well as tax, immigration, and labor laws around the world can create [compliance challenges](https://www.forbes.com/councils/forbeshumanresourcescouncil/2019/07/12/remote-work-is-here-to-stay-heres-how-to-avoid-three-common-compliance-issues/) for the organization.
 
 **Solution**
 
@@ -158,7 +158,7 @@ It's not easy to separate work and personal life when working remote. It's impor
 **Solutions**
 
 - [Preventing a culture of burnout starts at the top](https://about.gitlab.com/blog/2018/03/08/preventing-burnout/). In all-remote companies, it's important to reinforce this from the [interview process](https://about.gitlab.com/blog/2019/03/28/what-its-like-to-interview-at-gitlab/), to [onboarding](learning-and-development/#how-do-you-onboard-new-team-members), to regular [1:1s]({{< ref "1-1" >}}).
-- Focus on [results (as opposed to hours worked)](/handbook/values/#measure-results-not-hours).
+- Focus on [impact (as opposed to activity)](/handbook/values/#measure-impact-not-activity).
 - At GitLab, we encourage team members to [communicate with their manager when they recognize burnout]({{< ref "paid-time-off#recognizing-burnout" >}}), and to be mindful of the last time a team member [took time off from work]({{< ref "paid-time-off#paid-time-off" >}}).
 - Remote work requires you to [manage your own time](/handbook/values/#managers-of-one) and be self-motivated, disciplined, and [organized](https://about.gitlab.com/blog/2019/06/18/day-in-the-life-remote-worker/).
 

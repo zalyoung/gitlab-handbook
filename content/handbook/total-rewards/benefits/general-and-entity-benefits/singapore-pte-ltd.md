@@ -50,16 +50,16 @@ See the [IHP Portal and Mobile Guide](https://drive.google.com/file/d/1OajuRXQ1T
 
 Please see slide 49 of teh [IHP Portal and Mobile Guide](https://drive.google.com/file/d/1OajuRXQ1Td9zfsrAcxYGjPZZ0uCv8G4h/view?usp=sharing) for instructions on requesting a Letter of Gaurantee.
 
-### Willis Tower Watson Claims Assistance
+### Willis Towers Watson Claims Assistance
 
-[Willis Tower Watson](https://www.wtwco.com/en-SG/Solutions/health-and-benefits) (WTW) is the broker for GitLab's group benefit plans and can assist members with any benefit questions or claims issues.
+[Willis Towers Watson](https://www.wtwco.com/en-sg/solutions/health-and-benefits) (WTW) is the broker for GitLab's group benefit plans and can assist members with any benefit questions or claims issues.
 
 For any claims issues or benefits queries, please reach out to the WTW team at `claims.sg@willistowerswatson.com` .
 
 ### Enrollment
 
 New Team Members will be prompted to fill out a Singapore Benefits Onboarding Form during onboarding.
-Once completed, the Total Rewards team will receive the form and will work with our broker,  Willis Tower Watson, to enroll team members into the group plans.
+Once completed, the Total Rewards team will receive the form and will work with our broker,  Willis Towers Watson, to enroll team members into the group plans.
 Team Members will receive underwriting forms from WTW within the first month from their hire date.
 
 Team Members who experience a qualified status change can update their information by sending an email to the Total Rewards Team at total-rewards@gitlab.com

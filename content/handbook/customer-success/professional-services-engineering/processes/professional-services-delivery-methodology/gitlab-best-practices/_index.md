@@ -11,7 +11,7 @@ This [article](https://www.cisa.gov/news-events/alerts/2023/06/28/cisa-and-nsa-r
 
 ## 1. Use feature branches rather than direct commits on the main branch
 
-Using feature branches is a simple way to develop and keep the [source code](https://about.gitlab.com/stages-devops-lifecycle/source-code-management/) clean. If a team has recently transitioned to Git from SVN, for example, they'll be used to a trunk-based workflow. When using Git, developers should create a branch for anything they're working on so that contributors can easily start the [code review process](https://about.gitlab.com/topics/version-control/what-is-code-review/) before merging.
+Using feature branches is a simple way to develop and keep the [source code](https://about.gitlab.com/solutions/source-code-management/) clean. If a team has recently transitioned to Git from SVN, for example, they'll be used to a trunk-based workflow. When using Git, developers should create a branch for anything they're working on so that contributors can easily start the [code review process](https://about.gitlab.com/topics/version-control/what-is-code-review/) before merging.
 
 ## 2. Test all commits, not only ones on the main branch
 
@@ -25,7 +25,7 @@ When working on a feature branch and adding new commits, run tests right away. I
 
 You can also have these [displayed in each Merge Request](https://docs.gitlab.com/ee/user/application_security/#view-security-scan-information-in-merge-requests).
 
-![MR widget test results](MR-UI-Results.png){width="624" height="220"}
+![MR widget test results](/images/customer-success/professional-services-engineering/processes/professional-services-delivery-methodology/gitlab-best-practices/MR-UI-Results.png){width="624" height="220"}
 
 ## 4. Perform code reviews before merging into the main branch
 
@@ -218,7 +218,7 @@ The [default branch](https://docs.gitlab.com/ee/user/project/repository/branches
 
 It might be a good idea to have an [environment](https://about.gitlab.com/blog/2023/07/27/gitlab-flow-duo/) that is automatically updated to the staging branch. Only, in this case, the name of this environment might differ from the branch name. Suppose you have a staging environment, a pre-production environment, and a production environment:
 
-![GitLab Flow](gitlab-flow.png){width="356" height="340"}
+![GitLab Flow](/images/customer-success/professional-services-engineering/processes/professional-services-delivery-methodology/gitlab-best-practices/gitlab-flow.png){width="356" height="340"}
 
 In this case, deploy the staging branch to your staging environment. To deploy to pre-production, create a merge request from the staging branch to the pre-prod branch. Go live by merging the pre-prod branch into the production branch. This workflow, where commits only flow downstream, ensures that everything is tested in all environments.
 
@@ -232,7 +232,7 @@ A compliance officer will be responsible for creating and enforcing the usage of
 
 GitLab provides Security Policies, which enable security teams to require security scans to run according to a configuration. This provides the security teams with confidence that the configured scans have not been changed or disabled.
 
-There are two types of policies, [Scan Execution Policies](https://docs.gitlab.com/ee/user/application_security/policies/scan-execution-policies.html) and [Merge Request Approval Policies](https://docs.gitlab.com/ee/user/application_security/policies/scan-result-policies.html).
+There are two types of policies, [Scan Execution Policies](https://docs.gitlab.com/ee/user/application_security/policies/scan_execution_policies.html) and [Merge Request Approval Policies](https://docs.gitlab.com/ee/user/application_security/policies/merge_request_approval_policies.html).
 
 ## 20. Audit Management and Compliance Dashboard
 
@@ -240,9 +240,9 @@ Another important part of compliance is knowing it is actually happening in your
 
 Audit Events allows GitLab owners and administrators to track important events such as who performed certain actions and the time they occurred.
 
-![Audit events](audit-events.png){width="496" height="322"}
+![Audit events](/images/customer-success/professional-services-engineering/processes/professional-services-delivery-methodology/gitlab-best-practices/audit-events.png){width="496" height="322"}
 
-Audit Events records different events per group and per project, which can be seen in the [audit events](https://docs.gitlab.com/ee/administration/audit_events.html) documentation. Audit Events can be accessed by going to Security & Compliance \> Audit Events Some examples include:
+Audit Events records different events per group and per project, which can be seen in the [audit events](https://docs.gitlab.com/ee/administration/audit_event_reports.html) documentation. Audit Events can be accessed by going to Security & Compliance \> Audit Events Some examples include:
 
 * user was added to project and their permissions
 * permission changes of a user assigned to a project
@@ -254,7 +254,7 @@ Audit Events can also be sent to an HTTP endpoint using Audit Event Streaming. I
 
 Compliance Report gives you the ability to see a group's merge request activity. It provides a high-level view for all projects in the group.
 
-![Compliance report](compliance-report.png){width="524" height="339"}
+![Compliance report](/images/customer-success/professional-services-engineering/processes/professional-services-delivery-methodology/gitlab-best-practices/compliance-report.png){width="524" height="339"}
 
 You can use the report to:
 

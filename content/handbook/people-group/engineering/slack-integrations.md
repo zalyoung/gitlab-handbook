@@ -32,7 +32,7 @@ To opt-in, follow these steps on Slack
 1. Click on `Edit profile`
 1. Scroll down to the `GitLab Birthdays` field and select `Yes`
 
-### Informing People Connect Team about details missing in BambooHR for upcoming new hires
+### Informing People Connect Team about details missing in Workday for upcoming new hires
 
 For the new hire announcements to be accurate, it is required to ensure the
 Workday details of team members joining the following week is as complete as

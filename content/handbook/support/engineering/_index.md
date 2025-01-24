@@ -55,11 +55,11 @@ end of each week with a list of support team contributions merged in the past we
 
 ### Internal tools
 
-- [Support Toolbox](https://gitlab.com/gitlab-com/support/toolbox) - Includes tools such as `json_stats` (analyze JSON logs), `strace_parser` (analyze `strace` output), `gitlabsos` (get all logs and other data from customers), etc.
-- [Support Resources](https://gitlab.com/gitlab-com/support/support-resources/#support-resources) - Create test instances
+- [Support Toolbox](https://gitlab.com/gitlab-com/support/toolbox) - Includes tools such as [Green Hat](https://gitlab.com/gitlab-com/support/toolbox/greenhat) (SOS/log analyzer), [fast-stats](https://gitlab.com/gitlab-com/support/toolbox/fast-stats) (generate performance statistics from logs), [strace-parser](https://gitlab.com/gitlab-com/support/toolbox/strace-parser) (analyze raw `strace` output), [gitlabsos](https://gitlab.com/gitlab-com/support/toolbox/gitlabsos) and [kubeSOS](https://gitlab.com/gitlab-com/support/toolbox/kubesos) (get all logs and other data from customers), etc.
+  - [Support Team Bot](https://api.slack.com/apps/A07DSM5C2H5) - A Slack integration owned by the Support team, mainly used to provide webhooks so other projects in the Support Toolbox can post to Slack in an automated way ([Support Daily Slackbot](https://gitlab.com/gitlab-com/support/toolbox/support-daily-slackbot), [SWIR-Slack Bridge](https://gitlab.com/gitlab-com/support/toolbox/swir-slack-bridge), [cmoc-handover-message](https://gitlab.com/gitlab-com/support/toolbox/cmoc-handover-message)). The main owner is [@manuelgrabowski](https://gitlab.com/manuelgrabowski), [@kslaats](https://gitlab.com/kslaats) and [@bcarranza](https://gitlab.com/bcarranza) also have access.
+- [GitLab Sandbox Cloud](/handbook/company/infrastructure-standards/realms/sandbox/#how-to-get-started) - Create test instances, see [guidance](../workflows/test_env.md#gitlab-sandbox-cloud-for-gcp-preferred)
 - [GitLab Development Kit](https://gitlab.com/gitlab-org/gitlab-development-kit)
 - [CustomersDot admin](https://customers.gitlab.com/admin/) - Where to manage Self-Managed licenses and where customers manage their subscriptions.
-- [GitLab Regressions](https://regressions.gitlab.io/)
 
 ### External tools
 
@@ -79,7 +79,7 @@ end of each week with a list of support team contributions merged in the past we
 
 ### Useful Browser Extensions
 
-- Copy As Markdown - Used to copy the element in current page as markdown format ([Chrome](https://chrome.google.com/webstore/detail/copy-as-markdown/fkeaekngjflipcockcnpobkpbbfbhmdn)/[Firefox](https://addons.mozilla.org/firefox/addon/copy-as-markdown/))
+- Copy As Markdown - Used to copy the element in current page as markdown format ([Chrome](https://chrome.google.com/webstore/detail/copy-as-markdown/fkeaekngjflipcockcnpobkpbbfbhmdn)/[Firefox](https://addons.mozilla.org/en-US/firefox/addon/copy-as-markdown/))
 - Zendesk Download Router - Automatically routes Zendesk downloads into separate folders by ticket number ([Chrome](https://chrome.google.com/webstore/detail/zendesk-download-router/pgfhacdbkdeppdjgighdeejjfneifkml)/[Firefox](https://addons.mozilla.org/en-GB/firefox/addon/zendesk-download-router/)/[Opera](https://addons.opera.com/en-gb/extensions/details/zendesk-download-router/))
 - GitLab Web Debugger - Aides in identifying the root cause of page load errors on GitLab.com and internal GitLab instances ([Chrome](https://gitlab.com/gitlab-com/gl-infra/gitlab-web-debugger))
 - [Zendesk Quicktab](https://support.zendesk.com/hc/en-us/articles/6443360776346-Installing-the-Quicktab-Google-Chrome-extension) - Opens Zendesk tickets in a single browser tab ([Chrome](https://chrome.google.com/webstore/detail/quicktab-for-zendesk-by-t/hhbimbckgheipimadcknkfogegmpoibj))

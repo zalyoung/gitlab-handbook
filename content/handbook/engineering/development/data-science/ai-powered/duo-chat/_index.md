@@ -1,13 +1,9 @@
 ---
 title: Duo Chat Group
-description: "The Duo Chat group is focused on developing GitLab Duo Chat capabilities, while supporting other product groups and the wider community in integrating more functionality."
+description: "We are dedicated to enhancing DevSecOps productivity by building an AI natural language interface to GitLab's Platform."
 ---
 
-## Vision
-
-The Duo Chat group is focused on developing GitLab Duo Chat capabilities, while supporting other product groups and the wider community in integrating more functionality.
-
-### 🚀 Team Members
+## 🚀 Team Members
 
 **Engineering Manager & Engineers**
 
@@ -17,7 +13,50 @@ The Duo Chat group is focused on developing GitLab Duo Chat capabilities, while 
 
 {{% stable-counterparts manager-role="Engineering Manager(.*)Duo Chat" role="Duo Chat" %}}
 
+## Vision
+
+The Duo Chat group is focused on developing GitLab Duo Chat as a platform by supporting other product groups and the wider community in integrating more capabilities. For more information on GitLab's Duo Chat as a product category, please see our [Product Category Direction](https://about.gitlab.com/direction/ai-powered/duo_chat/) page.
+
+### Technical Strategy
+
+As our team is developing an LLM-driven Chat application to enhance interactions within the GitLab DevSecOps platform, our technical strategy is focused on estabilishing the key engineering aspects that will ensure its reliability, scalability, and effectiveness. We will expose this through guidelines and tools so contributing teams can benefit. Please see our [Technical Strategy](technical-strategy.html) page for full details. 
+
 ## 📚 Internal Processes
+
+### Host Systems
+
+A host system is a platform where DuoChat is integrated. Below is a list of all currently existing host systems:
+
+| Host System | Description | Repository Link |
+| -------- | ------- | ------- |
+| GitLab Web UI | Web-based user interface for DuoChat | https://gitlab.com/gitlab-org/gitlab |
+| VS Code | The Visual Studio Code extension integrating DuoChat | https://gitlab.com/gitlab-org/gitlab |
+| Visual Studio | The Visual Studio extension integrating DuoChat  | https://gitlab.com/gitlab-org/editor-extensions/gitlab-lsp |
+| Jetbrains| The JetBrains IDE plugin for DuoChat  |  https://gitlab.com/gitlab-org/editor-extensions/gitlab-jetbrains-plugin|
+
+### Ownership and Maintenance of DuoChat Integrations
+
+This defines the ownership and maintenance responsibilities for DuoChat integrations, detailing the roles of the DuoChat team and the Editor Extensions team.
+
+| System part | Group Responsible |
+| -------- | ------- |
+| shared UI components in Duo-UI | group: duo chat |
+| VS Code - Chat Webview | group: duo chat (support: editor extensions) |
+| VS Code - Chat Business Logic | group: editor extensions  |
+| Visual Studio - Chat Webview (web page)| group: duo chat (support: editor extensions) |
+| Visual Studio - Chat Business Logic| group: editor extensions |
+| JetBrains - Chat Webview (web page)| group: duo chat (support: editor extensions) |
+| JetBrains - Chat Business Logic| group: editor extensions |
+
+#### Responsibilites
+
+1. Simple Component Updates: The UI component group (group: duo chat) is responsible.
+2. Complex Feature Integrations: The UI component group (group: duo chat) drives the integration, creating stubs for extension communication with dummy data. group: editor extensions supports the integration effort into IDE plugins.
+3. Breaking Changes: All breaking changes should be communicated early. Consider making new features optional whenever possible to prevent disruptions in IDE extension workflows.
+
+#### Tools
+
+- [GitLab Duo Hosts Status Page](https://jannik_lehmann.gitlab.io/gitlab-ui-hosts-status-page/): Tracks the GitLab UI & Duo UI version used by each host system.
 
 ### UX Reviews
 
@@ -77,19 +116,19 @@ If you are a Support Engineer looking to investigate a problem reported by a cus
 
 ### Asking a general question
 
-If you have a general question for which you can't find your answer, then feel free to ask your question in the *#g_duo_chat* channel on Slack. In this channel, there are numerous stakeholders with an ample breadth of knowledge about Duo Chat's usage and capabilities. 
+If you have a general question for which you can't find your answer, then feel free to ask your question in the *#g_duo_chat* channel on Slack. In this channel, there are numerous stakeholders with an ample breadth of knowledge about Duo Chat's usage and capabilities.
 
 Duo Chat engineers monitor this channel regularly to offer support. Please keep in mind that engineers will do their best to support you and answer your questions from the top of their heads. However, if they need to do more research or address more complicated scenarios, it will be necessary to create a Duo Chat Support Issue (see next section).
 
 ### Submitting a bug
 
-Consider if your request actually pertains to a software bug. A bug is a gap in the functionality that Duo Chat supports and that should be addressed to make the user experience complete as per the functional specifications. In this case, instead of creating support issues, please create an issue of type ‘bug’ in the `/gitlab` project. Provide all the details for reproducing the problem and assign the group label to Duo Chat. You may ping the EM and PM for triage. Triaged bugs will be assigned to corresponding future iterations for resolution depending on their severity and other priorities of the team. 
+Consider if your request actually pertains to a software bug. A bug is a gap in the functionality that Duo Chat supports and that should be addressed to make the user experience complete as per the functional specifications. In this case, instead of creating support issues, please create an issue of type ‘bug’ in the `/gitlab` project. Provide all the details for reproducing the problem and assign the group label to Duo Chat. You may ping the EM and PM for triage. Triaged bugs will be assigned to corresponding future iterations for resolution depending on their severity and other priorities of the team.
 
 ### Create a support request issue
 
 We like to use Issues when customers and their proxies need help from the Duo Chat Team which requires more than answering a simple question. This helps us prioritize work and make sure that we don't lose history and maintain context when the Slack retention policy expires. These requests are created in the [Duo Chat Support project](https://gitlab.com/gitlab-org/ai-powered/duo-chat/support).
 
-Duo Chat engineers can assist with the creation of the issue by leveraging Slack workflow automation. Once a Slack thread is deemed a Support Issue (i.e. not just a general question), the engineer will suggest moving the conversation to a support request and create a draft of the issue out of the Slack thread. The individual requesting help can then add more details like Zendesk links, log files, and any other supporting evidence of the problem or question at hand. 
+Duo Chat engineers can assist with the creation of the issue by leveraging Slack workflow automation. Once a Slack thread is deemed a Support Issue (i.e. not just a general question), the engineer will suggest moving the conversation to a support request and create a draft of the issue out of the Slack thread. The individual requesting help can then add more details like Zendesk links, log files, and any other supporting evidence of the problem or question at hand.
 
 Alternatively, if you know that you have a complex request, you may want to save time by opening the issue directly and then ping the team in Slack with the link.
 You may assign a priority label to your request. A Duo Chat team member or the PM will review this priority assignment during the triage of the issue. Please use the table below as a reference of priority levels and expected response times.
@@ -105,9 +144,9 @@ You may assign a priority label to your request. A Duo Chat team member or the P
 
 ### Support Engineer Pairing
 
-While Duo Chat engineers are uniquely positioned to effectively address some of the more complex customer support issues, it is important to have GitLab support engineers involved in every request. This will help them get acquainted with these types of problems and provide them with a learning opportunity on how to debug and resolve them. 
+While Duo Chat engineers are uniquely positioned to effectively address some of the more complex customer support issues, it is important to have GitLab support engineers involved in every request. This will help them get acquainted with these types of problems and provide them with a learning opportunity on how to debug and resolve them.
 
-To this end, support engineers should be assigned to Duo Chat support issues. They are expected to follow along and collaborate with Duo Chat engineers to get to a resolution. Support Engineers' involvement can also be very valuable in providing the necessary context of the customer and handling status updates and communications with the customer stakeholders. 
+To this end, support engineers should be assigned to Duo Chat support issues. They are expected to follow along and collaborate with Duo Chat engineers to get to a resolution. Support Engineers' involvement can also be very valuable in providing the necessary context of the customer and handling status updates and communications with the customer stakeholders.
 
 ## 🔗 Other Useful Links
 

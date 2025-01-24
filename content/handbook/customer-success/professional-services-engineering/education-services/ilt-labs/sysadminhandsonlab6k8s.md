@@ -18,7 +18,7 @@ The objective of this lab is to demonstrate how to use Prometheus and Grafana fo
    kubectl logs <webservice-pod-name>
    ```
 
-1. After typing this, navigate to your GitLab instance and try accessing various pages on the instance. Note how each request has an Nginx log message associated with it. 
+1. After typing this, navigate to your GitLab instance and try accessing various pages on the instance. Note how each request has an Nginx log message associated with it.
 
 1. Let's cause an error in the Nginx service. Stop the Nginx service using the following command:
 
@@ -73,7 +73,7 @@ For this example, let's suppose that an issue occurred in GitLab Rails. To simul
 
 1. In this output, search for your HTTP request. It will look something like this:
 
-    ```bash 
+    ```bash
     173.34.175.144 - - [25/Oct/2024:14:48:00 +0000] "GET / HTTP/1.1" 502 2026 "http://34.56.107.198/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" -
     ```
 
@@ -113,7 +113,7 @@ For this example, let's suppose that an issue occurred in GitLab Rails. To simul
 
 ## Task D. Collecting SOS
 
-In some cases, troubleshooting will require the assistance of GitLab Support. To help GitLab Support troubleshoot any errors, it is helpful to provide a full account of your instance logs. For this purpose, you can use the GitLab SOS tool. 
+In some cases, troubleshooting will require the assistance of GitLab Support. To help GitLab Support troubleshoot any errors, it is helpful to provide a full account of your instance logs. For this purpose, you can use the GitLab SOS tool.
 
 1. To run GitLab SOS, use the following commands:
 

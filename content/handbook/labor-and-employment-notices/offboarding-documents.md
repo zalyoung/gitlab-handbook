@@ -11,7 +11,7 @@ Pointing you to this handbook page serves as our mechanism to provide the requir
 
 ### Alabama
 
-- [Unemployment Compensation Documents](https://labor.alabama.gov/docs/dept_type.aspx)
+- [Unemployment Compensation Documents](https://labor.alabama.gov/docs/Default2.aspx)
 
 ### Alaska
 
@@ -45,7 +45,7 @@ Pointing you to this handbook page serves as our mechanism to provide the requir
 
 ### Georgia
 
-- [Separation Notice DOL-800](https://dol.georgia.gov/sites/dol.georgia.gov/files/related_files/document/dol800fillable.pdf)
+- [Separation Notice DOL-800](https://dol.georgia.gov/document/separation-notices/separation-notice-individual-interactive-dol-800/)
 
 ### Illinois
 
@@ -81,7 +81,7 @@ Pointing you to this handbook page serves as our mechanism to provide the requir
 
 ### Massachusetts
 
-- [Unemployment Insurance Benefits Claims Notice 0590-A](https://www.mass.gov/files/documents/2018/01/29/Form%20590-A-English%201-26-18.pdf)
+- [Unemployment Insurance Benefits Claims Notice 0590-A](https://www.mass.gov/doc/how-to-apply-for-unemployment-insurance-benefits-form-0590a/download)
 - [Unemployment Insurance Poster](https://www.mass.gov/doc/information-on-employees-unemployment-insurance-coverage-form-2553a/download)
 
 ### Michigan
@@ -141,7 +141,7 @@ Pointing you to this handbook page serves as our mechanism to provide the requir
 
 ### Washington
 
-- [Unemployment Benefits Poster](https://media.esd.wa.gov/esdwa/Default/ESDWAGOV/about-employees/ESD-unemployment-benefits-poster.pdf)
+- [Unemployment Benefits Poster](https://esd.wa.gov/media/315/download?inline)
 
 ### West Virginia
 

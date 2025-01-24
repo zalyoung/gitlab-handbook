@@ -182,7 +182,7 @@ Upon approval, the maintainer who merges the MR will:
 
 [`gitlab-secure-license-db`](https://gitlab.com/gitlab-org/security-products/license-db)
 
-- Familiarize with [GitLab Go standards and style guidelines](https://docs.gitlab.com/ee/development/go_guide).
+- Familiarize with [GitLab Go standards and style guidelines](https://docs.gitlab.com/ee/development/go_guide/).
 - Complete [Golang training issue](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/.gitlab/issue_templates/golang_training.md) if you don't have prior experience with Go.
 - Watch [External License DB Architecture and Repository Walkthrough](https://www.youtube.com/watch?v=5b5QNJNwoJ8)
 - Review [Fullstack Development of LicenseDB guideline](https://gitlab.com/gitlab-org/security-products/license-db/deployment/-/blob/main/docs/fullstack_development.md).
@@ -205,7 +205,7 @@ Upon approval, the maintainer who merges the MR will:
 [`gitlab-operator`](https://gitlab.com/gitlab-org/cloud-native/gitlab-operator)
 
 - Familiarize yourself with [Distribution's merge request workflow](/handbook/engineering/infrastructure/core-platform/systems/distribution/merge_requests/#workflow)
-- Familiarize youself with [GitLab Go standards and style guidelines](https://docs.gitlab.com/ee/development/go_guide).
+- Familiarize youself with [GitLab Go standards and style guidelines](https://docs.gitlab.com/ee/development/go_guide/).
 - Understand how [custom resources and controllers](https://kubernetes.io/docs/concepts/extend-kubernetes/api-extension/custom-resources/) work.
 - Familiarize yourself with the following libraries and tools:
   - [operator-sdk](https://sdk.operatorframework.io/docs/overview/)
@@ -246,6 +246,7 @@ Some reviewers find it helpful to track their progress. This is not required, bu
   - https://gitlab.com/nolith/review-tanuki
   - https://gitlab.com/caalberts/review-tanuki
   - https://gitlab.com/arturoherrero/trainee
+  - https://gitlab.com/knejad/gitlab-career-development#mr-reviews
 - Use an emoji to mark all MRs they received feedback from maintainers on so they are easily searchable.
 
 #### After becoming a maintainer

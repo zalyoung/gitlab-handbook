@@ -36,11 +36,10 @@ This is the rotation schedule for FY25-Q3 and Q4 (2024-08-01 until 2025-01-31).
 | Amelia Bauerly    | Chad Lavimoniere       |
 | Graham Bachelder  | Annabel Gray           |
 | Nicolle Merrill   | Nick Brandt            |
-| Alyssa Trinh      | Mike Nichols           |
+| Alyssa Trinh      | Nick Leonard           |
 | Taylor Vanderhelm | Jeremy Elder           |
 | Lina Fowler       | Becka Lippert          |
 | Ian Gloude        | Michael Fangman        |
-| Nick Leonard      | Austin Regnery         |
 | Gina Doyle        | Timothy Noah           |
 | Ilonah Pelaez     | Katie Macoy            |
 | Veethika Mishra   | Pedro Moreira da Silva |
@@ -48,3 +47,4 @@ This is the rotation schedule for FY25-Q3 and Q4 (2024-08-01 until 2025-01-31).
 | Camellia Yang     | Sascha Eggenberger     |
 | Sunjung Park      | Alex Fracazo           |
 | Bonnie Tsang      | Michael Le             |
+| Jesse Hoek        | Mark Unthank           |

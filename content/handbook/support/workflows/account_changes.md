@@ -18,7 +18,7 @@ The main situations where action may need to be taken on behalf of the user:
 
 ### User Action First
 
-Following our [Security Policy on "GitLab's Access to Your Private Repositories"](https://about.gitlab.com/security/faq), actions should always be taken by the user whenever possible.
+Following our [Security Policy on "GitLab's Access to Your Private Repositories"](https://about.gitlab.com/security/faq/), actions should always be taken by the user whenever possible.
 
 For example, users should be deleting their own projects, but if they encounter an error with every attempt and there are no workarounds, then Support can intervene [with permission](#asking-permission).
 
@@ -212,7 +212,7 @@ Account Ownership Change Requests are initiated when the sole Owner of a group l
 
 ## How is permission given for troubleshooting?
 
-The Support team will not view any private information unless required to resolve an issue. Typically, the issue is filed by the account holder (for users) or valid members of the namespace (for projects and groups) via a support ticket for troubleshooting purposes as outlined in [Security Policy on "GitLab's Access to Your Private Repositories"](https://about.gitlab.com/security/faq).
+The Support team will not view any private information unless required to resolve an issue. Typically, the issue is filed by the account holder (for users) or valid members of the namespace (for projects and groups) via a support ticket for troubleshooting purposes as outlined in [Security Policy on "GitLab's Access to Your Private Repositories"](https://about.gitlab.com/security/faq/).
 
 A Support team member may look at information on pages not explicitly mentioned in the request, but will limit the scope of the review to the minimum access required to solve any issues.
 

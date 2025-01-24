@@ -20,7 +20,7 @@ The British Design Council developed the [Double Diamond model](https://www.desi
 - Phase 1: Design the right thing
 - Phase 2: Design things right
 
-![Double-Diamond-Model](Double-Diamond-Model.png)
+![Double-Diamond-Model](/images/product/ux/ux-research/when-to-conduct-ux-research/Double-Diamond-Model.png)
 
 Source: [Wikipedia](https://en.wikipedia.org/wiki/Double_Diamond_(design_process_model))
 
@@ -49,7 +49,7 @@ The goals of solution validation align with these goals: *"**High confidence in 
 
 Once the feature is released to users, it's important to continue to gather qualitative and quantitative feedback from them in order to continuously improve the experience. This is what the "Improve Phase" of GitLab's Development workflow, specifically the [Build track](/handbook/product-development-flow/#build-track), encapsulates.
 
-![Product-Development-Workflow](Product-Development-Workflow.png)
+![Product-Development-Workflow](/images/product/ux/ux-research/when-to-conduct-ux-research/Product-Development-Workflow.png)
 
 Goals of the Improve Phase:
 

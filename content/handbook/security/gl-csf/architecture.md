@@ -103,7 +103,7 @@ constraints:
 GitLab offers out of the box some nice integrations in Markdown files, like
 [Mermaid](https://docs.gitlab.com/ee/user/markdown.html#mermaid) or
 [PlantUML](https://docs.gitlab.com/ee/user/markdown.html#plantuml). These are great for sequence or
-activity diagram, but don't work well for other views. [Diagrams](https://diagrams.net) is an
+activity diagram, but don't work well for other views. [Diagrams](https://www.drawio.com/) is an
 open source tool to create drag and drop diagrams, and is the recommended tool for this activity as
 of today.
 
@@ -208,5 +208,5 @@ The content of this page is based on the following books and articles:
    Erder & Pureur - (ISBN-13: 978-0136523567)
 1. [Continuous Architecture in Practice](https://continuousarchitecture.com/) -
    Erder, Pureur, & Woods - (ISBN-13: 978-0136523567)
-1. [Architecture Tradeoff Analysis Method](https://resources.sei.cmu.edu/asset_files/TechnicalReport/2000_005_001_13706.pdf) -
+1. [Architecture Tradeoff Analysis Method](https://insights.sei.cmu.edu/documents/629/2000_005_001_13706.pdf) -
    Kazman, Klein, & Clements - (CMU/SEI-2000-TR-004)

@@ -29,7 +29,7 @@ _In order of most to least relevant to UX Researchers:_
 - [Data Catalog](https://internal.gitlab.com/handbook/enterprise-data/data-catalog/) (Internal handbook page with examples of commonly used data models)
 - [DBT](https://dbt.gitlabdata.com/#!/overview) (Explains the underlying code and column definitions of all GitLab data sets)
 
-![Simplified usage data stack](datastack_simple.png)
+![Simplified usage data stack](/images/product/ux/ux-research/product-analytics-for-ux-research/datastack_simple.png)
 The above illustration shows a simplified version of GitLab's usage data stack, based on [this document.](/handbook/enterprise-data/platform/#i-classfas-fa-cubes-fa-fw-stylecolorrgb25210938-font-size85em-aria-hiddentrueiour-data-stack)
 
 ### Getting Access
@@ -47,7 +47,7 @@ There's a [more complete explanation](/handbook/enterprise-data/#how-data-works-
 [Product Data Insights (PDI)](/handbook/product/groups/product-analysis/) – As the name suggests, this team is responsible for helping folks in Product use data to gain insights. Typically, there is a team member assigned to your area of the product (find your partner on the product data insights team [here](/handbook/product/groups/product-analysis/)).
 The Product Data Insights team can take requests (via an [issue](/handbook/product/groups/product-analysis/#issue-intake)) for certain kinds of analysis, they can help you find the data you're looking for and are generally a great resource for asking questions during [Office Hours](/handbook/product/groups/product-analysis/#office-hours) or over [Slack](/handbook/product/groups/product-analysis/#channels). They are well-versed in Tableau.
 
-[Analytics Instrumentation](/handbook/engineering/development/analytics/analytics-instrumentation/) - This group is focused on building out the instrumentation capabilities of GitLab and its team members, including [increased instrumentation coverage](https://gitlab.com/groups/gitlab-org/analytics-section/analytics-instrumentation/-/epics/6) across the product and scaling the instrumentation system we use to handle more use cases. This is a group to contact if you run into a block where something you want to do isn't currently available (or you're not sure and the Product Data Insights team doesn't know).
+[Analytics Instrumentation](/handbook/engineering//development/analytics/monitor/analytics-instrumentation/) - This group is focused on building out the instrumentation capabilities of GitLab and its team members, including [increased instrumentation coverage](https://gitlab.com/groups/gitlab-org/analytics-section/analytics-instrumentation/-/epics/6) across the product and scaling the instrumentation system we use to handle more use cases. This is a group to contact if you run into a block where something you want to do isn't currently available (or you're not sure and the Product Data Insights team doesn't know).
 
 The Analytics Instrumentation team members are the DRIs for data collection across both GitLab.com and Self-Managed. They own Service Ping and Snowplow. They are the ones to go to for questions like:
 

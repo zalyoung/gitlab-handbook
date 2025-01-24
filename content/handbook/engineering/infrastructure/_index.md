@@ -34,7 +34,7 @@ Integral part of this vision is to:
 
 The direction is accomplished by using [Objectives and Key Results (OKRs)](/handbook/engineering/infrastructure-quality/okrs/).
 
-Other strategic initiatives to achieve this vision are driven by the needs of enterprise customers looking to adopt GitLab.com. [The GitLab.com strategy](https://about.gitlab.com/direction/enablement/dotcom/) catalogs top customer requests for the SaaS offering and outlines strategic initiatves across both Infrastructure and Stage Groups needed to address these gaps.
+Other strategic initiatives to achieve this vision are driven by the needs of enterprise customers looking to adopt GitLab.com. [The GitLab.com strategy](https://about.gitlab.com/direction/core_platform/dotcom/) catalogs top customer requests for the SaaS offering and outlines strategic initiatves across both Infrastructure and Stage Groups needed to address these gaps.
 
 {{% include "includes/we-are-also-product-development.md" %}}
 
@@ -106,8 +106,8 @@ flowchart LR
     D --> Switchboard
     click Switchboard "/handbook/engineering/infrastructure/team/gitlab-dedicated/switchboard/"
 
-    TP --> SMP[Self-Managed Platform]
-    click SMP "/handbook/engineering/infrastructure/test-platform/self-managed-platform-team/"
+    TP --> PE[Performance Enablement]
+    click PE "/handbook/engineering/infrastructure-platforms/developer-experience/performance-enablement/"
     TP --> TE[Test Engineering]
     click TE "/handbook/engineering/infrastructure/test-platform/test-engineering-team/"
     TP --> TTI[Test and Tools Infrastructure]
@@ -148,10 +148,6 @@ In addition to tracking the backlog, Infrastructure Department projects are capt
 ## Supporting Product Features
 
 We have a model that we use to help us support product features. [This model](/handbook/engineering/infrastructure/feature-support/) provides details on how we collaborate to ship new features to Production.
-
-## Ownership
-
-The Infrastructure team maintains responsibility for the underlying infrastructure on which customer-facing services run.  Specific ownership details are in the [GitLab Service Ownership Policy](service-ownership/index.html)
 
 ## Stable Counterparts
 

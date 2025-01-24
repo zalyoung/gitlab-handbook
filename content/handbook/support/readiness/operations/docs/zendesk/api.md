@@ -196,7 +196,7 @@ curl -u $ZD_USERNAME/token:$ZD_TOKEN "$ZD_URL/users.json"
 
 To use an Oauth access token, you'd first need to create an Oauth app in
 Zendesk (see
-[Zendesk docs](https://support.zendesk.com/hc/en-us/articles/203663836-Using-OAuth-authentication-with-your-application)
+[Zendesk docs](https://support.zendesk.com/hc/en-us/articles/4408845965210-Using-OAuth-authentication-with-your-application)
 for more information). With the access token in hand, you would pass this into
 the headers.
 
@@ -501,7 +501,7 @@ curl https://gitlab.zendesk.com/api/v2/views/12345/count \
 ## Useful links
 
 - [Zendesk API Docs](https://developer.zendesk.com/api-reference/ticketing/introduction/)
-- [Zendesk Oauth docs](https://support.zendesk.com/hc/en-us/articles/203663836-Using-OAuth-authentication-with-your-application)
+- [Zendesk Oauth docs](https://support.zendesk.com/hc/en-us/articles/4408845965210-Using-OAuth-authentication-with-your-application)
 - [zendesk_api_client gem](https://github.com/zendesk/zendesk_api_client_rb)
 - [Zendesk Support API Tickets endpoints](https://developer.zendesk.com/api-reference/ticketing/tickets/tickets/)
 - [Zendesk Support API Users endpoints](https://developer.zendesk.com/api-reference/ticketing/users/users/)

@@ -437,7 +437,7 @@ Please make a clone of the appropriate workshop copy doc below and create a new 
 - [ ] [CI Workshop](https://docs.google.com/document/d/16msOU3xb9G356pAZ04TfyAnnEc7WD09ZAc-6wqEJCrw/edit#heading=h.6vgpxnyb4dh1)
 - [ ] [Project Management Workshop](https://docs.google.com/document/d/1cYjIpOEU5gMKVEezQ8SiMrPYkWUk1FWTjx7IWT-Aj5w/edit#heading=h.6vgpxnyb4dh1)
 - [ ] [Security & Compliance Workshop](https://docs.google.com/document/d/1ADi1taVk4A9z6CXc0F5uKEyTjwhlPrNf4-f-l_Hb3TE/edit#heading=h.6vgpxnyb4dh1)
-- [ ] [AI in DevSecOps Workshop](https://docs.google.com/document/d/1SbAmTTzsYEdvF3Aeo72yAzfBvN7rNRLKPb13SzTeBEA/edit#heading=h.6vgpxnyb4dh1)
+- [ ] [GitLab Duo - AI Hands-on Workshop](https://docs.google.com/document/d/1SbAmTTzsYEdvF3Aeo72yAzfBvN7rNRLKPb13SzTeBEA/edit#heading=h.6vgpxnyb4dh1)
 - [ ] [GitHub to GitLab Migration Workshop](https://docs.google.com/document/d/15U4unIMX4LxRoIYllk6fNgfBW0Yws3m0Vt4SRABXc4o/edit#heading=h.6vgpxnyb4dh1)
 - [ ] [GitLab Basics Workshop](https://docs.google.com/document/d/10TDFA3OrsKyCPXyASCfEydg7luz9XuuucWugf488TTw/edit)
 

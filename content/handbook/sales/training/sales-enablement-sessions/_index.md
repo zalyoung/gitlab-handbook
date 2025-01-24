@@ -7,11 +7,11 @@ description: "Continuous education webcast series for all GitLab field sales & c
 
 The Field Enablement Spotlight is a weekly continuous education series for all GitLab Sales, Sales Development, Customer Success, Solution Architects, Partner Ecosystem, Renewals, Professional Services & Operations team members.
 
-The Field Enablement Spotlight takes place each week on Thursday, with two session options to accomidate GitLab's global field sales & customer success audience.
+The Field Enablement Spotlight takes place each week on Thursday, with two session options to accommodate GitLab's global field sales & customer success audience.
 
 - **(Option 1) 11:00 AM (US Eastern Time)(UTC -5)** = (8 AM Pacific Time) = **(5 PM Central European Time)(UTC +1)**
 
-- **(Option 2) 12:00 PM (Australian Eastern Time)(UTC +11)** = (5 PM US Pacific Time)(UTC -8) 
+- **(Option 2) 12:00 PM (Australian Eastern Time)(UTC +11)** = (5 PM US Pacific Time)(UTC -8)
 
 Attending the weekly Field Enablement Spotlight session is mandatory, with two options provided to accommodate our global audience. If team members are on paid time off or have a scheduling conflict with a customer, they may watch the session recording in a timely manner.
 
@@ -23,17 +23,8 @@ To see what training is coming soon, view the [Field Enablement Spotlight issue 
 
 | DATE   | TOPIC | SPEAKERS |
 |--------|--------|--------|
-| Nov 21 |  SFDC Case Revamp & New Quote Approval Process   | RSOE Team  |
-| Nov 28 |  **No Session**  |  |
-| Dec 5 |  Beyond the Role: GitLab Personas  | RSOE Team   |
-| Dec 12 |  Global Ecosystem Team Quarterly Update   | Ecosystem Team |
-| Dec 19 |  Analyst Relations Update  | Analyst Relations Team  |
-| Dec 26 |  **No Session**   |  |
-| Jan 2 |  Business Value Services   | RSOE Team  |
-| Jan 9 |  Gong 201 Training  | RSOE Team |
-| Jan 16 |  Azure DevOps Competitive Enablement  | Marketing |
-| Jan 23 | *No session during the last two weeks of the quarter*   |  |
-| Jan 30 | *No session during the last two weeks of the quarter* |    |
+| Jan 23 | Customer Success - New Paid Offer (Success Plans)   | CS Team  |
+| Jan 30 | *No session during the last week of the quarter* |    |
 
 ## Past Sessions
 
@@ -42,6 +33,13 @@ To see what training is coming soon, view the [Field Enablement Spotlight issue 
 
 | **Date** | **Topic** | **Public or Private** |
 | ------ | ------ | ------ |
+| 2025-01-16 |  **[GitLab Dedicated for Gov: The FedRAMP Journey](https://drive.google.com/file/d/1lvFqgW4xPvRU2a9yHK9J4YokQEy3XyOQ/view?usp=drive_link)** | Private |
+| 2025-01-09 |  **[Business Value Services Update](https://drive.google.com/file/d/1tWWBq3eppiSuIns-wEzPH9YvZOkQDb2v/view?usp=drive_link)**  | Private |
+| 2024-12-19 |  **[Winning with Analyst Relations](https://drive.google.com/file/d/1QlDRpBaKZLpDAcqbSeJ4a3aWdIHMYCn1/view?usp=drive_link)**  | Private  |
+| 2024-12-12 |  **[Global Ecosystem Team Quarterly Update](https://drive.google.com/file/d/14TdBZWG62A7bX28zNYrfCLcKOiB7VwC0/view?usp=drive_link)**   | Private |
+| 2024-12-05 |  **[Beyond the Title: Developer Persona](https://drive.google.com/file/d/1-VxaQfxyAxvm2WS0ELqB9OCxLQ1z6sPI/view?usp=drive_link)**  | Private  |
+| 2024-12-4 |  **[GitLab Duo with Amazon Q](https://drive.google.com/file/d/1kiaXF45iXzpO7otHzQ8_m_k5_OHArTrT/view?usp=drive_link)**  |  Private  |
+| 2024-11-21 |  **[SFDC Case Revamp & New Quote Approval Process](https://drive.google.com/file/d/1aC8I25Luq-oIBaP4jpwG5eOL2bn20LNh/view?usp=drive_link)**   | Private  |
 | 2024-11-14 | **[New Forrester TEI Study](https://drive.google.com/file/d/1_KPp5AZfUlg446lcc-VwIPzM1Mpg98nd/view?usp=drive_link)**   | Private  |
 | 2024-11-07 |  **[GitHub Universe Competitive Update](https://drive.google.com/file/d/1TIT5CBhk0wBk8dhyviFJB7Md2PnxHEWh/view?usp=drive_link)**  | Private  |
 | 2024-10-17  | **[Maximizing Sales with Customer Advocacy & References](https://drive.google.com/file/d/1JLVWoC6fxppw6e0jRpk5w68aqzxCxouL/view?usp=drive_link)**   |  Private  |
@@ -234,45 +232,45 @@ To see what training is coming soon, view the [Field Enablement Spotlight issue 
 
 - Complete and submit this [Field Enablement Spotlight Request issue template](https://gitlab.com/gitlab-com/sales-team/sales-enablement-videocast-series/-/issues/new#)
 - For urgent requests, please send a Slack message to #field-enablement-team and mention @John Blevins
-- An example of the template is shown below with guidance on how to fill out each section. 
+- An example of the template is shown below with guidance on how to fill out each section.
 
-### **Overview** 
+### **Overview**
 
 > *Please provide a brief overview for the session that articulates why the field audience (sales & customer success) will want to attend, this will be used to create communications for the session. Please take care to write an inclusive description that articulates why the entire field sales and customer success audience will want to attend the session.*
 
-### **Date & Time** 
+### **Date & Time**
 
 > *Please list the desired date for the session. The Field Enablement Spotlight takes place each week on Thursday, with two session options to accomidate GitLab’s global field sales audience.*
 
-### **Presenter(s) & Moderator(s)** 
+### **Presenter(s) & Moderator(s)**
 
-> *Make sure the presenter(s) are able to cover both session options, or find alternative presenter(s) that can cover both session options. Whenever possible, please invite a member of the field sales team to speak about their experiences to support your topic. The Moderator(s) are assigned from the Enablement team to facilitate the session and act as the primary point of contact for collboaration. In most cases more than one moderator will be assigned to cover both session options*   
+> *Make sure the presenter(s) are able to cover both session options, or find alternative presenter(s) that can cover both session options. Whenever possible, please invite a member of the field sales team to speak about their experiences to support your topic. The Moderator(s) are assigned from the Enablement team to facilitate the session and act as the primary point of contact for collboaration. In most cases more than one moderator will be assigned to cover both session options*
 
 - **(Option 1) 11:00 AM (US Eastern Time)(UTC -5)** = (8 AM Pacific Time) = **(5 PM Central European Time)(UTC +1)**
 
 - **(Option 2) 12:00 PM (Australian Eastern Time)(UTC +11)** = (5 PM US Pacific Time)(UTC -8)
 
-### **Learning Objectives** 
+### **Learning Objectives**
 
 > *Please write 2-3 key takeaways you would like for the audience to be informed about as a result of the session.*
 
-### **Resources** 
+### **Resources**
 
-> *Please list all session resources within the planning issue, including presentations and other related content. All session content must be ready for review by Field Enablement and departmental leadership one week prior to the session air date.* 
+> *Please list all session resources within the planning issue, including presentations and other related content. All session content must be ready for review by Field Enablement and departmental leadership one week prior to the session air date.*
 
-### **Session Format** 
+### **Session Format**
 
 > *Consider the desired session format and style including but not limited to Interview, Ask Me Anything, Presentation with Q&A, and Panel Discussion.*
 
-### **Session Length** 
+### **Session Length**
 
 > *The Field Enablement Spotlight takes place every week on Thursday. Please choose a session length appropriate for the topic, length of presentation, and expected volume of questions from the audience. 30 minutes is the standard session length, with 15 minutes for presentation and 15 minutes for questions from our audience. When needed sessions can be extended to 45 or 50 minutes.*
 
-### **Call to Action** 
+### **Call to Action**
 
 > *What action(s) do you want field team members to take after this session?*
 
-### **Polling** 
+### **Polling**
 
 > *If you would like to add a poll to your session, please write the poll question and answer choices that should be presented to the audience.*
 
@@ -431,15 +429,15 @@ The moderator should serve as the host of the call and overall wingperson for th
 - Check the zoom meeting report & record the number of total attendees as a comment in the issue.
 - Update the quarterly Spotlight attendace report with .csv attendance report from zoom to show attendance by region, department, and leader.
 
-## Spotlight Reporting 
+## Spotlight Reporting
 
 ### Attendance Reporting
 
 The Spotlight Attendance Report is available as of FY25-Q3 and is the single source of truth for attendance which includes live session attendance and async recording views via Highspot. The report is updated weekly and shows attendance for all Spotlight sessions sorted by geo, team, and leader.
 
-### Satisfaction & Usefulness Reporting 
+### Satisfaction & Usefulness Reporting
 
-At the end of each Spotlight session, a zoom survey launches automatically and asks attendees 3 questions. Each week, ratings for satisfaction and usefulness are averaged, then divided by 5 to calculate a percentage, the ratings scale is outlined below. 
+At the end of each Spotlight session, a zoom survey launches automatically and asks attendees 3 questions. Each week, ratings for satisfaction and usefulness are averaged, then divided by 5 to calculate a percentage, the ratings scale is outlined below.
 
 - On a scale of 1 - 5 please rate **your satisfaction with the information presented.**
 
@@ -449,7 +447,7 @@ At the end of each Spotlight session, a zoom survey launches automatically and a
 
 **Ratings Scale:**
 
-- **Highly Effective (90%+):** Indicates excellent engagement and alignment with audience needs. 
+- **Highly Effective (90%+):** Indicates excellent engagement and alignment with audience needs.
 
 - **Effective (85%-89%):** Shows strong value and relevance with minor areas for improvement.
 
@@ -461,7 +459,7 @@ At the end of each Spotlight session, a zoom survey launches automatically and a
 
 **A report is provided each week** to the presenter(s) and regional leaders containing the post meeting survey results on slack via #field-enablement-team. Scores are analyzed to identify areas for improvement. Insights are used to refine session content, pacing, and relevance, ensuring ongoing alignment with field needs and optimizing engagement.
 
-**At the end of each quarter**, a quarterly program results readout for Onboarding & Continuous education is created. In this report all Spotlight sessions are listed along with all survey, attendance, and recording view data. 
+**At the end of each quarter**, a quarterly program results readout for Onboarding & Continuous education is created. In this report all Spotlight sessions are listed along with all survey, attendance, and recording view data.
 
 ## Additional Enablement Pages
 

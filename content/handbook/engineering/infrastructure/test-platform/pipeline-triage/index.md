@@ -7,6 +7,8 @@ description: Overview of our pipeline triage processes
 
 These guidelines gives team members on pipeline triage an idea on the priorities and processes that come with this responsibility. This builds from the information provided in [On-Call Rotation](../oncall-rotation.md).
 
+This guide is an extension of the [Broken `master`](../../../workflow/_index.md#broken-master) engineering workflow and is intended to provide a more specific guide on how to triage end-to-end test pipeline failures.
+
 The Pipeline triage [DRI](/handbook/people-group/directly-responsible-individuals/) is responsible for analyzing and debugging test pipeline failures. Please refer to the [DRI weekly rotation schedule](https://gitlab.com/gitlab-org/quality/pipeline-triage#dri-weekly-rotation-schedule) to know who the current DRIs are.
 
 NOTE:
@@ -169,7 +171,7 @@ Checkout the list of [Slack channels](/handbook/engineering/infrastructure/test-
 Please use this step if there are no issues created to capture the failure. If there is already an issue please skip this step.
 
 1. Create an issue for the test or system failure (if retrying the job does not resolve the latter) in [https://gitlab.com/gitlab-org/gitlab/issues](https://gitlab.com/gitlab-org/gitlab/issues) using the [QA failure](https://gitlab.com/gitlab-org/gitlab/issues/new?issuable_template=QA%20Failure) template. For failures in CustomersDot tests, open an issue in [CustomersDot](https://gitlab.com/gitlab-org/customers-gitlab-com/-/issues) project.
-    - Apply the `~"type::ignore"` label to the issue until the investigation is complete and an [issue type](/handbook/product/groups/product-analysis/engineering/dashboards/#work-type-classification) is determined.
+    - Apply the `~"type::ignore"` label to the issue until the investigation is complete and an [issue type](/handbook/product/groups/product-analysis/engineering/metrics/#work-type-classification) is determined.
     - Inform the [counterpart SET](/handbook/engineering/quality/#individual-contributors) about the failure.
     - For system failures, it may make sense to open an issue in a different project such as [Omnibus GitLab](https://gitlab.com/gitlab-org/omnibus-gitlab/issues), [GitLab QA](https://gitlab.com/gitlab-org/gitlab-qa/issues), or [GitLab Runner](https://gitlab.com/gitlab-org/gitlab-runner/issues).
     - For staging environment-related failures, you can post a question in [`#infrastructure-lounge`](https://gitlab.slack.com/archives/CB3LSMEJV), or open an issue in the [infrastructure project](https://gitlab.com/gitlab-com/gl-infra/infrastructure)
@@ -187,7 +189,7 @@ Depending on your level of context for the test and its associated setup, you mi
 
 When investigating on your own, we suggest spending at most 20-30 minutes actively trying to find the root cause (this excludes time spent reporting the failure, reviewing the failure logs, or any test setup and pipeline execution time). After that point, or whenever you feel out of ideas, we recommend asking for help to unblock you.
 
-**Note:** Please avoid logging in via `gitlab-qa` and all the other bot accounts on Canary/Production. They are monitored by [SIRT](/handbook/security/security-operations/sirt/) and will raise an alert if someone uses them to log in. If it is really needed to log in with these accounts, please give a quick heads-up in [#security-department](https://gitlab.slack.com/archives/CM74JMLTU) that someone is logging into the bot and tag `@sirt-members` for awareness.
+**Note:** Please avoid logging in via `gitlab-qa` and all the other bot accounts on Canary/Production. They are monitored by [SIRT](/handbook/security/security-operations/sirt/) and will raise an alert if someone uses them to log in. If it is really needed to log in with these accounts, please give a quick heads-up in [#security-division](https://gitlab.slack.com/archives/CM74JMLTU) that someone is logging into the bot and tag `@sirt-members` for awareness.
 
 Below is the list of the common root causes in descending order of likelihood:
 
@@ -238,7 +240,7 @@ The failure was caused by a change in the application code and the test needs to
 - Apply the `~"failure::stale-test"` label.
 - If possible, mention the merge request which caused the test to break, to keep the corresponding engineer informed.
 
-See [Quarantining Tests]
+See [Quarantining Tests](#quarantining-tests)
 
 #### Bug in the test
 
@@ -247,7 +249,7 @@ The failure was caused by a bug in the test code itself, not in the application 
 - Include your findings in a note in the issue about the failure.
 - Apply the `~"failure::broken-test"` label.
 
-See [Quarantining Tests]
+See [Quarantining Tests](#quarantining-tests)
 
 #### Bug in the application
 
@@ -270,15 +272,20 @@ The failure was caused by a bug in the application code.
 
 To find the appropriate team member to cc, please refer to the [Organizational Chart](https://comp-calculator.gitlab.net/org_chart). The [Quality Engineering team list](/handbook/engineering/quality/#department-members) and [DevOps stage group list](/handbook/product/categories/#devops-stages) might also be helpful.
 
-See [Quarantining Tests]
+See [Quarantining Tests](#quarantining-tests)
 
 #### Flaky Test
 
-The failure is due to flakiness in the test itself.
+**Read more**:
 
-- Include your findings in a note in the issue about the failure.
-- Apply the `~"failure::flaky-test"` label.
-- Add the test to our [Test Reliability: Improve test design](https://gitlab.com/gitlab-org/quality/team-tasks/-/issues/1330) tracking issue to identify areas of improvement that can help prevent future flakiness.
+- [What is a flaky test?](https://docs.gitlab.com/ee/development/testing_guide/unhealthy_tests.html#whats-a-flaky-test)
+- [What are the potential causes for a test to be flaky?](https://docs.gitlab.com/ee/development/testing_guide/unhealthy_tests.html#what-are-the-potential-cause-for-a-test-to-be-flaky)
+
+**Process**
+
+- Include your findings in a note in the failure issue.
+- Apply the `~"failure::flaky-test"` label to the failure issue.
+- Apply a `~"flaky-test::*"` [scoped label](https://gitlab.com/groups/gitlab-org/-/labels?subscribed=&sort=relevance&search=flaky-test::) to the failure issue.
 
 Flakiness can be caused by a myriad of problems. Examples of underlying problems
 that have caused us flakiness include:
@@ -289,9 +296,9 @@ that have caused us flakiness include:
 - Actions not completing successfully (e.g. logging out).
 
 For more details, see the list with example issues in our
-[Testing standards and style guidelines section on Flaky tests](https://docs.gitlab.com/ee/development/testing_guide/flaky_tests.html).
+[unhealthy tests](https://docs.gitlab.com/ee/development/testing_guide/unhealthy_tests.html) documentation.
 
-See [Quarantining Tests]
+See [Quarantining Tests](#quarantining-tests)
 
 #### Failure due to test environment
 
@@ -327,7 +334,7 @@ Some examples of external dependency failures could include:
 
 #### Failure needs escalation
 
-If the failure is in a `smoke` test, it will block deployments ([except for Staging Ref failures](/handbook/engineering/infrastructure/test-platform/debugging-qa-test-failures/#staging-ref)). Please inform the release managers of the root cause and if a fix is in progress by Quality. On GitLab.com, you can use `@gitlab-org/release/managers`. In Slack, you can use `@release-managers`.
+If the failure is in a `smoke` test, it will block deployments. Please inform the release managers of the root cause and if a fix is in progress by Quality. On GitLab.com, you can use `@gitlab-org/release/managers`. In Slack, you can use `@release-managers`.
 
 If the failure could affect the performance of `GitLab.com` production, or make it unavailable to a specific group of users, you can [declare an incident](/handbook/engineering/infrastructure/incident-management/#reporting-an-incident) with `/incident declare` in the `#production` Slack channel, this will automatically prevent deployments (if the incident is at least an S2).
 
@@ -381,7 +388,7 @@ If a test is failing and you have good reason to quarantine it quickly you can [
 
 You should use fast quarantine to unblock deployment pipelines and MRs if the failure is disruptive and you've ruled out bugs as the cause of the failure (e.g., you've identified that the test is stale, or flaky).
 
-> **Note**: Failing `blocking` job in the `e2e: test-on-gdk` child pipeline will block MR pipelines as well as scheduled master pipelines. Failures of those tests are good candidates for fast quarantine.
+> **Note**: Failing `gdk-instance` job in the `e2e: test-on-gdk` child pipeline will block MR pipelines as well as scheduled master pipelines. Failures of those tests are good candidates for fast quarantine.
 
 After fast quarantining, please follow the long-term quarantine process below.
 

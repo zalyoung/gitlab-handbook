@@ -40,7 +40,7 @@ The Senior Manager, Quote to Cash is a [grade 9](/handbook/total-rewards/compens
 
 #### Performance Indicators
 
-- As with all roles in the Sales Department the Senior Manager, Quote to Cash participates in the Sales KPIs <https://about.gitlab.com/company/kpis/#sales-kpis>
+- As with all roles in the Sales Department the Senior Manager, Quote to Cash participates in the Sales KPIs <https://handbook.gitlab.com/handbook/company/kpis/#sales-kpis>
 - Overall Quote to Cash Performance Indicators across multiple departments
 - -Deal Desk SLAs
   - Billing SLAs
@@ -100,7 +100,7 @@ In addition to the responsibilities of the Senior Manager, Quote to Cash below, 
 
 #### Performance Indicators
 
-- As with all roles in the Sales Department the Director, Quote to Cash participates in the Sales KPIs <https://about.gitlab.com/company/kpis/#sales-kpis>
+- As with all roles in the Sales Department the Director, Quote to Cash participates in the Sales KPIs <https://handbook.gitlab.com/handbook/company/kpis/#sales-kpis>
 - Overall Quote to Cash Performance Indicators across multiple departments
 - -Deal Desk SLAs
 - -Billing SLAs

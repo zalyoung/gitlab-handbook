@@ -557,7 +557,7 @@ If you have any questions about what may or may not be a sensitive topic, please
 
 [Presenting](/handbook/communication/#common-meeting-problems) during meetings requires valuable synchronous time. Instead, recorded presentations make content accessible, prevent confusion, and increase participation for team members that prefer consuming content [asynchronously](/handbook/values/#bias-towards-asynchronous-communication). Remember it is not required to have a presentation or have a pre-recorded presentation.
 
-In the video below, GitLab CEO Sid Sijbrandij explains why there are no presentations in most meetings.
+In the video below, GitLab co-founder, Sid Sijbrandij, explains why there are no presentations in most meetings.
 
 {{< youtube "32GJ2ehUBhs" >}}
 
@@ -625,7 +625,7 @@ Make sure you're never screen sharing when people are introducing themselves.
 1. When scheduling a meeting we value people's time and prefer the "speedy meetings" [setting in our Google Calendar](https://calendar.google.com/calendar/r/settings). This gives us meetings of, for example, 25 or 50 minutes leaving some time to:
    - Write notes and reflect
    - Respond to urgent messages
-   - Take a [bio break](https://www.merriam-webster.com/words-at-play/bio-break-meaning-and-origin)
+   - Take a [bio break](https://www.merriam-webster.com/wordplay/bio-break-meaning-and-origin)
    - Stretch your legs
    - Grab a snack
 1. When scheduling a meeting, please try to have it start at :00 (hour) or :30 (mid-hour) to leave common start times available for other meetings on your attendees' calendars. Meetings should be for the time needed, so if you need 15 minutes just book that.
@@ -871,7 +871,7 @@ GitLab has a specific process to follow in crisis situations to ensure effective
 
 ## Presentations
 
-1. All presentations are made in Google Slides using [our templates](/handbook/tools-and-tips/#updating-your-existing-slide-deck-theme).
+1. All presentations are made in Google Slides using [our templates](/handbook/tools-and-tips/#google-slides).
 1. Please allow anyone at GitLab to edit the presentation (preferred) or at least comment on the presentation.
 1. If the content can be public use File > Publish to the web > Publish to get a URL and paste that in the speaker notes of the first slide (commonly the title slide).
 1. The title of every slide should be the message you want the audience to take away, not the subject matter. So use 'Our revenue more than doubled' instead of 'Revenue growth'.
@@ -1033,7 +1033,7 @@ Simple Language is important both when we're speaking to other team members and 
 
 Be sure to use Simple Language in written communications as well.
 Our handbook, website, docs, marketing materials, and candidate or customer emails should be clear, concise, and effective.
-Corporate marketing maintains guidelines on [GitLab's tone of voice](https://design.gitlab.com/brand/overview#tone-of-voice).
+Corporate marketing maintains guidelines on [GitLab's tone of voice](https://design.gitlab.com/brand/overview/#tone-of-voice).
 
 | Instead of...                       | Try...                                        |
 | ----------------------------------- | --------------------------------------------- |
@@ -1110,7 +1110,7 @@ We have a low internal email culture, as we see greater efficiency in other form
 1. Where appropriate, consider using professional salutations including Hi or Hello and avoid colloquial expressions such as Hey, Oh, or Sup. Sometimes only the person's name is suitable. The level of formality should often mirror the formality from previous messages when communicating with internal team members as well as external persons.
 1. Try to always use a person's name when starting or responding to a message, especially if there are multiple persons cc'd, so that the addressee knows you are addressing them.
 1. Make sure all relevant letters and words that need capitalization are capitalized, such as the start of sentences or the word "I".
-1. Proofread your messages so that sentences are punctuated correctly, typos are fixed, and grammar is corrected. Consider using the really helpful [Grammarly](https://app.grammarly.com/) tool - this tool is great for both native English speakers and for those who use English as an additional language.
+1. Proofread your messages so that sentences are punctuated correctly, typos are fixed, and grammar is corrected. Consider using the really helpful [Grammarly](https://www.grammarly.com/) tool - this tool is great for both native English speakers and for those who use English as an additional language.
 1. All messages and replies are signed with a professional send-off (ex. Best regards), your name, and your signature block.
 
 ## Slack
@@ -1330,7 +1330,7 @@ Reference Google's [documentation](https://support.google.com/drive/answer/24948
 1. In our handbook, if you find yourself wondering whether it is better to provide a public link to a Google Doc vs. writing out the content on the website, use the following guideline: Is this document frequently adapted / customized? If yes, then provide a link, making sure that the document can be *commented on* by *anyone* with the link. For instance, this is how we share our employment [contracts](/handbook/people-group/contracts-probation-periods/). If the document is rarely customized, then provide the content directly on the site and deprecate the Google Doc.
 1. If you want to quickly find where a team member's cursor is in a Google Doc, click their icon at the top of the document and the app will jump you to the current location. This works in Sheets and Presentations as well.
 1. You can set the notifications on a Google Doc so you only get emailed when someone tags you directly instead of getting emails for every comment. Click on "notifications" and select "Only yours". By the way, when you create the doc, it defaults to All, but when you are just shared with it, it defaults to Only yours. There is [no global default](https://productforums.google.com/forum/#!msg/docs/1C3PZX1AY7Q/6EXXQKQSPCMJ).<br>
-    ![Google Doc Notifications](google-docs-notifications.png)
+    ![Google Doc Notifications](/images/communication/google-docs-notifications.png)
 1. You can find a template of the [GitLab letterhead](https://docs.google.com/document/d/1gN1Z2FHPIfPk7QLIey1KF9dR1yTl0R7QrMSb5_Iqfh4/edit) on the shared Google Drive. Please be sure to make a copy of the document to your Google Drive before customizing the template for your use.
 1. If you want to have the Google Doc be readable to the public, do not change the sharing settings from 'Editable by Everyone at GitLab', [publish the document](https://support.google.com/docs/answer/183965) instead.
 1. In all cases, the sharing settings (who a document is shared with, if it is visible to the whole company, etc.) on a Google Doc should be the single source of truth for the confidentiality of the document.
@@ -1359,7 +1359,7 @@ Pages like this are part of the [handbook](/handbook/). The GitLab handbook is t
 
 ### GitLab repositories
 
-`repository`/`repositories` are where files are kept under [source code management](https://about.gitlab.com/stages-devops-lifecycle/source-code-management/). In most cases, requires MRs to merge. The Handbooks are in a repository, our code is in a repository, etc.
+`repository`/`repositories` are where files are kept under [source code management](https://about.gitlab.com/solutions/source-code-management/). In most cases, requires MRs to merge. The Handbooks are in a repository, our code is in a repository, etc.
 
 ### READMEs
 

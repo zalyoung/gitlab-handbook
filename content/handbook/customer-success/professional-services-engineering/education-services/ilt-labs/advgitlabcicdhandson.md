@@ -19,9 +19,9 @@ description: "This Hands-On Guide walks you through the lab exercises in the Git
 
 Here are some quick links that may be useful when reviewing this Hands-On Guide.
 
-* [GitLab CI/CD Course Description](https://about.gitlab.com/services/education/gitlab-ci/)
-* [GitLab CI/CD Specialist Certification Details](https://about.gitlab.com/services/education/gitlab-cicd-associate/)
+* [GitLab CI/CD Course Description](https://university.gitlab.com/pages/ci-cd-training/)
+* [GitLab CI/CD Specialist Certification Details](https://university.gitlab.com/pages/certifications/)
 
 ## Suggestions?
 
-If you wish to make a change to the *Hands-On Guide for GitLab CI/CD*, please submit your changes via Merge Request!
+If you wish to make a change to the *Hands-On Guide for GitLab Advanced CI/CD*, please submit your changes via Merge Request!

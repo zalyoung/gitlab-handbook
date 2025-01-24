@@ -36,10 +36,7 @@ The pipeline is scheduled to run every hour and scan for any recent voluntary of
 
 Every 15 minutes, a pipeline scans Workday for any terminations.
 
-Offboardings will be opened in the respective team members offboarding window for the day. This checks their timezone from Workday to find a *local* time to start the offboarding.
-
-- Monday - Thursday from 4:00pm to 5:00pm
-- Friday from 12:00pm to 1:00pm
+All scheduled offboardings will be opened between 4:00 - 5:00pm of the team members *local timezone*.
 
 For each row matching this criterion, it will perform the same actions as if a People Connect Team member ran manually initiated the offboarding. (see [Manually initiated offboarding issue creation](#manually-initiated-offboarding-issue-creation) and [Offboarding merge request](#offboarding-merge-request) sections).
 

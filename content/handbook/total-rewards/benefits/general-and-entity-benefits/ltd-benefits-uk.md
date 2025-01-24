@@ -137,7 +137,7 @@ Please refer to the [Company Pension Plan FAQ](https://drive.google.com/file/d/1
 
 ### Salary Sacrifice
 
-Team Members who have signed a UK Employment contract after 13 December 2022 will be automatically enrolled in to Company Pension Scheme via Salary Exchange. Please note that if you signed your contract prior to 13 December 2022 will have to request to opt in to the Salary Sacrifice Scheme. You can do so by emailing total-rewards@gitlab.com and nonuspayroll@gitlab.com. As part of this Salary Exchange offering GitLab will be passing on their employer NI saving to you as an employee in the form of an increased pension contribution. You can find more information in the following [document](https://drive.google.com/file/d/1L-YfEulL4SlJ22dVRrMqi9Yq82ircl-f/view?usp=sharing) detailing the benefits and potential disadvantages of changing to a Salary Exchange arrangement.
+Team Members who have signed a UK Employment contract after 13 December 2022 will be automatically enrolled in to Company Pension Scheme via Salary Exchange. Please note that if you signed your contract prior to 13 December 2022 will have to request to opt in to the Salary Sacrifice Scheme. You can do so via [HelpLab](https://helplab.gitlab.systems/esc?id=emp_taxonomy_topic&topic_id=b7d7b30d474c069067429ee0026d4382). As part of this Salary Exchange offering GitLab will be passing on their employer NI saving to you as an employee in the form of an increased pension contribution. You can find more information in the following [document](https://drive.google.com/file/d/1L-YfEulL4SlJ22dVRrMqi9Yq82ircl-f/view?usp=sharing) detailing the benefits and potential disadvantages of changing to a Salary Exchange arrangement.
 
 **Salary Sacrifice FAQ**
 
@@ -207,7 +207,7 @@ The certification level that has been chosen is **basic salary** only and will n
   - GitLab:   4% of basic salary
 
 - As your contribution is a percentage of your pay, the amounts will automatically increase or decrease in accordance with your basic pay. These contributions will be taken from your pay and will include tax relief.
-- You may increase the contribution percentage you pay by contacting Non US Payroll team via email. Please note the company contribution will remain fixed as above. The standard Annual Allowance for the 2024/2025 year is £60,000 p.a.  The Annual Allowance includes all contributions, both employer and employee payable to the pension plan in the tax year. You may carry forward unused Annual Allowance for up to three tax years. Your Annual Allowance will be reduced if your Adjusted Income exceeds £260,000 or if you 'flexibly access' pension
+- You may increase the contribution percentage you pay by contacting Non US Payroll team via [HelpLab](https://helplab.gitlab.systems/esc?id=emp_taxonomy_topic&topic_id=7b018859478c069067429ee0026d4352). Please note the company contribution will remain fixed as above. The standard Annual Allowance for the 2024/2025 year is £60,000 p.a.  The Annual Allowance includes all contributions, both employer and employee payable to the pension plan in the tax year. You may carry forward unused Annual Allowance for up to three tax years. Your Annual Allowance will be reduced if your Adjusted Income exceeds £260,000 or if you 'flexibly access' pension
 benefits from a Defined Contribution pension arrangement. Please see the [Annual Allowance Fact Sheet](https://drive.google.com/file/d/1MMA-0wfzUsO70pBsweDAHK-FVc-P_iR1/view?usp=sharing).
 - These percentages are gross percentages using the [relief at source](https://www.gov.uk/workplace-pensions/managing-your-pension) method. As basic rate tax relief is then added by the pension provider, the amount on your payslip will typically be the net amount, which is 80% of the employee's contribution.
 
@@ -248,7 +248,7 @@ Scottish Widows:
 - [www.scottishwidows.co.uk/gppae](https://www.scottishwidows.co.uk/gppae)
 - (t) 0345 755 6557
 
-You can also reach out to Willis Tower Watson to explain the details of the GitLab GPPP and answer any questions you may have.
+You can also reach out to Willis Towers Watson to explain the details of the GitLab GPPP and answer any questions you may have.
 
 3 Temple Quay, Temple Back East, Bristol, BS1 6DZ
 Nick Allen, Associate Director
@@ -385,7 +385,7 @@ Team members can receive Statutory Maternity Pay for up to 39 weeks:
 To apply for Maternity Leave:
 
 - Submit your time off by selecting the `Parental Leave` category in Workday at least 30 days before your leave starts.
-- Send the Absence Management team at `leaves@gitlab.com` a completed [MATB1 Certificate](https://www.gov.uk/government/publications/maternity-certificate-mat-b1-guidance-for-health-professionals/maternity-certificate-form-mat-b1-guidance-on-completion) no later than 21 days before your leave start date.
+- Send the Absence Management team at `leaves@gitlab.com` a completed [MATB1 Certificate](https://www.gov.uk/government/publications/maternity-certificate-mat-b1-guidance-for-health-professionals/ee03eb40-34b3-4930-8715-9cab858421ef) no later than 21 days before your leave start date.
 - The Absence Management team will then complete a [Risk Assessment Form](https://docs.google.com/document/d/1qHdbaeFSnqdwkQDTEurHD5QMbLPLuZGBQO_CBnRkpiE/edit) within 1-3 days of receiving notification of your leave. The purpose of the assessment is to make the team member aware of any hazards or "risks" to her in the workplace/home office to reduce potential injury to her or her baby.
 - The Absence Management team will notify payroll and email Vistra a copy of the MATB1, start date of leave, and outline what pay the team member is eligible for (statutory, supplemental, etc). Payroll will then automatically calculate the SMP due each pay period based on this information. The recovery of 90% will be outlined on the monthly payroll spreadsheet so that the finance team has indication of the amounts being offset each month.
 - Payroll will continue to be the same while on parental leave but Vistra will file for reimbursement of any statutory funds once the proper paperwork has been sent.
@@ -403,7 +403,7 @@ Team members can receive Statutory Paternity Pay for up to 2 weeks or up to 37 w
 To apply for Paternity Leave:
 
 - Submit your time off by selecting the `Parental Leave` category in Workday at least 30 days before your leave starts.
-- Send the Absence Management team at `leaves@gitlab.com` a completed [SPP Form](https://public-online.hmrc.gov.uk/lc/content/xfaforms/profiles/forms.html?contentRoot=repository:///Applications/PersonalTax_iForms/1.0/SC3&template=SC3.xdp) if applying for Statutory Paternity Pay or one of the [SPL Forms](https://www.acas.org.uk/shared-parental-leave-form-templates) if applying for Shared Parental Leave pay.
+- Send the Absence Management team at `leaves@gitlab.com` a completed [SPP Form](https://www.tax.service.gov.uk/print-and-post/form/PersonalTax_iForms/1.0/SC3/sc3.xdp) if applying for Statutory Paternity Pay or one of the [SPL Forms](https://www.acas.org.uk/shared-parental-leave-form-templates) if applying for Shared Parental Leave pay.
 - The Absence Management team will notify payroll and email Vistra a copy of the form, dates of leave and outline what pay the team member is eligible for (statutory, supplemental, etc).
 
 #### Adoption Leave Payment

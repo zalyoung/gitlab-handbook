@@ -25,11 +25,11 @@ This has moved to the [Internal Handbook](https://internal.gitlab.com/handbook/s
 
 #### Salesforce Certificates
 
-Learn more about Salesforce Certificates and Keys [here](https://help.salesforce.com/articleView?id=security_keys_about.htm&type=5)
+Learn more about Salesforce Certificates and Keys [here](https://help.salesforce.com/s/articleView?id=sf.security_keys_about.htm&type=5)
 
 #### Updating Expiring Certificates
 
-The Salesforce knowledge base has [a resource](https://help.salesforce.com/articleView?id=000329338&type=1&mode=1) that addressed what to do and how to handle Expiring certificates. Currently in Salesforce our certificate is located in two places and needs to be updated in both. In order to update please follow the below steps and update in the following locations.
+The Salesforce knowledge base has [a resource](https://help.salesforce.com/s/articleView?id=000385781&type=1) that addressed what to do and how to handle Expiring certificates. Currently in Salesforce our certificate is located in two places and needs to be updated in both. In order to update please follow the below steps and update in the following locations.
 
 - Create a new certificate by searching for `Certificate and Key Management` in setup. From there create a self-signed certificate and ensure that the options match the certificat you are replaceing. Please note that the information in the `Certificate` field will be slightly differnt between the old an new certificate. Then update the certificate in the following locations
   - [SAML Single Sign-On Settings](https://gitlab.my.salesforce.com/0LE4M0000004J63)
@@ -47,4 +47,4 @@ The Salesforce knowledge base has [a resource](https://help.salesforce.com/artic
 
 ### SFDC Backups
 
-Our Salesforce Backup solution is [Ownbackup](https://www.ownbackup.com/). There compliance information is located [here](https://www.owndata.com/trust).
+Our Salesforce Backup solution is [Ownbackup](https://www.owndata.com/). There compliance information is located [here](https://www.owndata.com/trust).

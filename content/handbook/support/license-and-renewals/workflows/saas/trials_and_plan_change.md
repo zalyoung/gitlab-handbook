@@ -74,6 +74,34 @@ If any fields when opening the ticket were filled out incorrectly,  send a publi
 
 If a customer is requesting a trial extension, please follow [Working with Sales workflow]({{< ref "working_with_sales" >}}) to let Sales team know in case they would like to have a discussion with the customer.
 
+### Customer requests for a subscription extension
+
+When a customer requests a subscription extension, follow the steps below based on the day of the week and whether the customer is classified as Enterprise or SMB.
+
+1. Locate the Account Owner:
+    - In the Zendesk (ZD) ticket, look for the internal note labeled `Organization Info` to dentify the Account Owner:
+        - For Enterprise/Commercial customers, a specific individual will be listed.
+        - For SMB customers, you will see `EMEA/AMER/APAC SMB Sales` instead of a named person.
+
+2. Determine next steps Based on the Day and Customer Type:
+
+    | Day | Enterprise/Commercial | SMB |
+    |--|-----------------------|-----|
+    | **Weekday** | Redirect to Sales | Redirect to Sales |
+    | **Weekend/Holiday** | Redirect to Sales | Issue temp extension and redirect to Sales |
+
+3. Steps for Redirecting to Sales:
+
+    **Enterprise/Commercial Customers:**
+        - Inform the customer that such requests have to be channeled through sales and provide them with their AE's email address before closing the ticket.
+        - Notify the Account Executive (AE) through Chatter to ensure they are aware of the request.
+    **SMB Customers:**
+        - Follow the process outlined in the [Working with the Global Digital SMB Account Team](../../../sales/commercial/global_digital_smb/#working-with-the-global-digital-smb-account-team) handbook page.
+        - Provide the Salesforce (SFDC) ticket ID to the customer.
+        - Close the ticket.
+
+4. For SMB Customers on Weekends or Holidays, please issue a temporary subscription extension before redirecting to Sales.
+
 ### SFDC generated temporary renewal extensions
 
 Account Executives (AEs) can use SalesForce.com (SFDC) to issue a SaaS 21-day Subscription extension to a customer when the renewal opportunity is taking longer than expected to close. When an AE uses this functionality, the subscription is automatically extended without any L&R Support involvement. The [Temporary renewal extensions](/handbook/product/groups/fulfillment-guide/#temporary-renewal-extensions) handbook entry documents this approach.
@@ -155,6 +183,18 @@ From CustomerDot you can only change the plan type not the subscription end date
 > adding to an existing issue or creating a new one as required.
 
 If you get an error, use admin following the instructions in the next section.
+
+### Licensing pathways for handling customer renewals and new sales that have become delayed
+
+In certain scenarios where customer renewals or new customer sales are experiencing delays, the L&R Support process workflows provide flexibility to address these challenges. The following table outlines the options available to issue temporary trial licenses based on specific use cases:
+
+| Use Case | Pathway |
+| ------ | ------ |
+|  Customer renewal is taking longer than expected      | The sales AE (Account Executive) generates a one-off 21 day [temporary renewal extension](/handbook/product/groups/fulfillment-guide/#temporary-renewal-extensions) via SFDC        |
+|  Customer renewal exceeds the additional 21 days     |  The sales AE can open a new Internal Request (IR) ticket with L&R support and request a trial subscription extension for up to 1 month      |
+|  Customer renewal exceeds the additional 21 days + 1 month     | The sales AE can open a new Internal Request (IR) ticket with L&R support who request approval via the ticket from the senior director of revenue @andrew_murray       |
+|  New customer potential sale     |  The sales AE can request up to 1 month trial extension via an IR with L&R support.|
+|  New customer sale taking longer than 1 month | The sales AE generates a $0 dollar opportunity in SFDC, then opens a new IR ticket with L&R support who request approval via the ticket from the senior director of revenue @andrew_murray       |
 
 ### How to create an NFR (Not for resale) SaaS License
 

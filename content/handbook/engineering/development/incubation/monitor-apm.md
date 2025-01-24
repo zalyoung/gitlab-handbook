@@ -96,7 +96,7 @@ classDiagram
 Handbook:
 
 - [Product Direction - Monitor](https://about.gitlab.com/direction/monitor/)
-- [Product Direction - Monitor:APM](https://about.gitlab.com/direction/monitor/observability/)
+- [Product Direction - Monitor:APM](https://about.gitlab.com/direction/monitor/)
 
 Literature:
 
@@ -109,7 +109,7 @@ Products:
 
 - [Opstrace: Showcase and ideas for APM](https://docs.google.com/document/d/1pksrG344JyXWcJ9zgKJ6gl6fe6bLGsi6FPEsFrFf078/edit)
 - [Opstrace: Introducing a Datadog-compatible HTTP API](https://opstrace.com/blog/introducing-datadog-compatible-http-api)
-- [Noble9 SLO Platform](https://nobl9.com/platform/)
+- [Noble9 SLO Platform](https://www.nobl9.com/platform/how-it-works)
 
 Community:
 

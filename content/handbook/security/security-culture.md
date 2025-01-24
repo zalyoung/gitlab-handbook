@@ -35,6 +35,7 @@ Current committee members:
 - [Steve Ladgrove](https://gitlab.com/sladgrove)
 - [Ayoub Fandi](https://gitlab.com/ayofan)
 - [Julie Davila](https://gitlab.com/juliedavila) (Executive Sponsor)
+- [Giuliana Lucchesi](https://gitlab.com/glucchesi) and [Aurelia Akpan](https://gitlab.com/aakpan) - ([People Business Partner](/handbook/people-group/people-business-partners/#people-business-partner-alignments))
 
 <details>
 <summary>Previous committee members</summary>

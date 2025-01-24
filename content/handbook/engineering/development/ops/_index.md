@@ -21,15 +21,13 @@ The following teams comprise the Ops sub-department:
   - Package Registry - [handbook](/handbook/engineering/development/ops/package/package-registry/)
 - Deploy stage
   - Environments - [handbook](/handbook/engineering/development/ops/deploy/environments/), jtbd
-- Monitor stage
-  - Monitor:Observability - [handbook](/handbook/engineering/development/ops/monitor/observability/), jtbd
 
 ## Product Direction
 
 Teams in the Ops Sub-Department map to several Product Sections.  Product direction can be found on the following direction pages:
 
-- [CI Section Direction](https://about.gitlab.com/direction/ci)
-- [CD Section Direction](https://about.gitlab.com/direction/cd)
+- [CI Section Direction](https://about.gitlab.com/direction/ci/)
+- [CD Section Direction](https://about.gitlab.com/direction/delivery/)
 - [Observability Direction](direction/analytics/observability/)
 
 ## Slack channels

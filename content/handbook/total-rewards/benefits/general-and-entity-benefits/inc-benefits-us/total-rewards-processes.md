@@ -12,7 +12,7 @@ DRI: Automated by PlanSource
 1. Employee elects Voluntary Life & Ad&D plans in PlanSource.
 1. If required, PlanSource routes the employee to the Cigna website to fill out the Evidence of Insurance directly.
 1. The Employee fills out the Evidence of Insurability and completes enrollment.
-1. Cigna/NY York Life rejects/approves the request and automatacally updates the election amount on PlanSource.
+1. Cigna/NY York Life rejects/approves the request and automatically updates the election amount on PlanSource.
 
 ### Qualifying Life Event (QLE) Processing
 
@@ -21,7 +21,7 @@ Cadence: Ad hoc (check at least weekly)
 
 1. Log into PlanSource and select `Life Events` (in the "Your Tasks" box).
 1. For any new pending life events, you will need to request documentation from the team member:
-    - Nagivate to the team member's profile.
+    - Navigate to the team member's profile.
     - Scroll down to the `Tasks` section and in the Actions drop-down, select "Create a Document Request".
     - Select "New Document Request" and paste the following text:
        > Hello,
@@ -134,7 +134,7 @@ The People Operations team will update the 'Benefits Group' in the HR system of 
 #### Instructions on assigning a benefits group
 
 There are two parts of the Benefits Group: **1. The entity** and **2. The team member's location.**
-For example'Fed-FT-Colorado' would be the correct option for a GitLab Federal Team Member living in Colorado.
+For example 'Fed-FT-Colorado' would be the correct option for a GitLab Federal Team Member living in Colorado.
 
 **Entity**
 

@@ -136,7 +136,7 @@ Since the inception of GitLab, [iteration](https://about.gitlab.com/blog/2020/02
 
 ### Zoom for all
 
-Any meeting at GitLab happens over a [Zoom call](/handbook/communication/zoom). Face to face is the best way to "meet" someone in person. On top of that, press record to digitally document the meeting for future reference or for anyone who might not make the call. Zoom also has a whiteboard function in [Zoom Rooms for Touch](https://support.zoom.us/hc/en-us/articles/115004797286-Using-the-whiteboard-in-Zoom-Rooms-for-Touch). Attendees can access and annotate a whiteboard on the call and then save and share the whiteboard by email.
+Any meeting at GitLab happens over a [Zoom call](/handbook/communication/zoom). Face to face is the best way to "meet" someone in person. On top of that, press record to digitally document the meeting for future reference or for anyone who might not make the call. Zoom also has a whiteboard function in [Zoom Rooms for Touch](https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0068629). Attendees can access and annotate a whiteboard on the call and then save and share the whiteboard by email.
 
 ### Pinging on Slack
 

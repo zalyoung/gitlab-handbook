@@ -7,7 +7,7 @@ twitter_site: "@gitlab"
 twitter_creator: "@gitlab"
 ---
 
-A brief [history](https://wrkfrce.com/a-brief-history-of-remote-work) of remote work
+A brief [history](https://wrkfrce.com/a-brief-history-of-remote-work/) of remote work
 {.h2}
 
 - 1973: Jack Nilles creates the terms "telecommuting" and "teleworking"
@@ -39,7 +39,7 @@ Reimagining how one's day can be structured, and how that can easily vary from o
 
 Rather than forcing one to build their life about a predefined daily schedule that involves an unavoidable commute, all-remote shifts that responsibility back to the individual.
 
-A number of studies from the likes of [Google](https://www.forbes.com/sites/abdullahimuhammed/2019/05/18/5-important-takeaways-from-googles-two-year-study-of-remote-work#1a536957439a), [Buffer](https://buffer.com/state-of-remote-work-2019), [FlexJobs](https://www.techrepublic.com/article/why-remote-work-has-grown-by-159-since-2005), and [IWG](https://assets.regus.com/pdfs/iwg-workplace-survey/iwg-workplace-survey-2019.pdf) show that driven individuals who place a high degree of value on autonomy and flexibility can experience new levels of joy and productivity in an all-remote environment.
+A number of studies from the likes of [Google](https://web.archive.org/web/20191123234200/https://www.forbes.com/sites/abdullahimuhammed/2019/05/18/5-important-takeaways-from-googles-two-year-study-of-remote-work/), [Buffer](https://buffer.com/state-of-remote-work/2019), [FlexJobs](https://www.prweb.com/releases/global-workplace-analytics-amp-flexjobs-report-159-percent-increase-in-remote-work-since-2005-863776940.html), and [IWG](https://assets.regus.com/pdfs/iwg-workplace-survey/iwg-workplace-survey-2019.pdf) show that driven individuals who place a high degree of value on autonomy and flexibility can experience new levels of joy and productivity in an all-remote environment.
 
 {{< youtube "tTQAU78QSt8" >}}
 
@@ -59,22 +59,22 @@ In the home, aim to create a dedicated working space (or work from a coworking s
 
 Be intentional about replacing your recovered commute time. Whether it's fitness, cooking, cleaning, spending time with family, or resting, be deliberate about reclaiming that time and using it to improve your overall well-being.
 
-1. You have more [flexibility](https://web.archive.org/web/20200606214525/https://shedoesdatathings.com/post/1-year-at-gitlab/) in your [daily life](people/#those-who-value-flexibility-and-autonomy) (for [kids](https://about.gitlab.com/blog/2019/07/25/balancing-career-and-baby), parents, friends, groceries, sports, deliveries).
-1. No more time, [stress](https://www.forbes.com/sites/markeghrari/2016/01/21/a-long-commute-could-be-the-last-thing-your-marriage-needs#5baf10f04245), or money wasted on a [commute](https://www.inc.com/business-insider/study-reveals-commute-time-impacts-job-satisfaction.html) (subway and bus fees, gas, car maintenance, tolls, etc.).
+1. You have more [flexibility](https://web.archive.org/web/20200606214525/https://shedoesdatathings.com/post/1-year-at-gitlab/) in your [daily life](people/#those-who-value-flexibility-and-autonomy) (for [kids](https://about.gitlab.com/blog/2019/07/25/balancing-career-and-baby/), parents, friends, groceries, sports, deliveries).
+1. No more time, [stress](https://www.forbes.com/sites/markeghrari/2016/01/21/a-long-commute-could-be-the-last-thing-your-marriage-needs/), or money wasted on a [commute](https://www.inc.com/business-insider/study-reveals-commute-time-impacts-job-satisfaction.html) (subway and bus fees, gas, car maintenance, tolls, etc.).
 1. It's safer. With no commute, there's no risk of getting into an accident traveling to and from work.
 1. You can optimize your life for superior air quality and medical facilities, a healthier community environment, and better schools for your children, rather than access to onsite jobs.
-1. Reduced [interruption stress](https://about.gitlab.com/blog/2018/05/17/eliminating-distractions-and-getting-things-done) and increased [productivity](https://www.inc.com/brian-de-haaff/3-ways-remote-workers-outperform-office-workers.html).
-1. Ability to [travel to other places](https://about.gitlab.com/blog/2017/01/31/around-the-world-in-6-releases) without taking vacation (family, fun, etc.).
-1. Freedom to [relocate]({{< ref "relocation" >}}), be [location independent](https://about.gitlab.com/blog/2019/06/25/how-remote-work-at-gitlab-enables-location-independence), or even [travel with other remote professionals](resources/#organizations-for-traveling-remote-work).
+1. Reduced [interruption stress](https://about.gitlab.com/blog/2018/05/17/eliminating-distractions-and-getting-things-done/) and increased [productivity](https://www.inc.com/brian-de-haaff/3-ways-remote-workers-outperform-office-workers.html).
+1. Ability to [travel to other places](https://about.gitlab.com/blog/2017/01/31/around-the-world-in-6-releases/) without taking vacation (family, fun, etc.).
+1. Freedom to [relocate]({{< ref "relocation" >}}), be [location independent](https://about.gitlab.com/blog/2019/06/25/how-remote-work-at-gitlab-enables-location-independence/), or even [travel with other remote professionals](resources/#organizations-for-traveling-remote-work).
 1. Less exposure to germs from sick coworkers.
-1. It can be [easier to communicate](informal-communication/) with difficult colleagues remotely, [reducing distractions](https://about.gitlab.com/blog/2018/03/15/working-at-gitlab-affects-my-life) from interpersonal drama or office politics.
-1. You can [set up and decorate your office or workspace](https://community.thriveglobal.com/how-remote-work-can-reduce-stress-and-revitalize-your-mindset/) in whatever way [works best for you](https://about.gitlab.com/blog/2019/08/01/working-remotely-with-children-at-home).
+1. It can be [easier to communicate](informal-communication/) with difficult colleagues remotely, [reducing distractions](https://about.gitlab.com/blog/2018/03/15/working-at-gitlab-affects-my-life/) from interpersonal drama or office politics.
+1. You can [set up and decorate your office or workspace](https://community.thriveglobal.com/how-remote-work-can-reduce-stress-and-revitalize-your-mindset/) in whatever way [works best for you](https://about.gitlab.com/blog/2019/08/01/working-remotely-with-children-at-home/).
 1. You can [choose your working hours](people/#worklife-harmony) based on when you're [most productive](asynchronous/).
 1. You have the opportunity to [meet and work with people from many locations around the world]({{< ref "incentives#visiting-grant" >}}), widening one's view of the world and creating opportunities to learn about new cultures.
 1. [Onboarding may be less stressful socially](learning-and-development/#how-do-you-onboard-new-team-members).
 1. Eating at home is better (sometimes) and cheaper.
 1. Taxes can be cheaper in some countries.
-1. Work clothes [are not required](https://about.gitlab.com/blog/2019/07/09/tips-for-working-from-home-remote-work).
+1. Work clothes [are not required](https://about.gitlab.com/blog/2019/07/09/tips-for-working-from-home-remote-work/).
 
 From family time to travel plans, there are [many examples and stories](stories/) of how remote work has impacted the lives of GitLab team members around the world.
 
@@ -92,24 +92,24 @@ Not only does this create a less [inclusive](/handbook/company/culture/inclusion
 
 1. You're able to hire great people [no matter where they live]({{< ref "handbook/people-group/employment-solutions#country-hiring-guidelines" >}}).
    - GitLab has a truly global footprint, with team members in [65+ countries](/handbook/company/team).
-1. Employees are [more productive with fewer distractions](https://about.gitlab.com/blog/2018/05/11/day-in-life-of-remote-sdr), so long as leadership is supportive in equipping teams with the requisite tools, structure, and culture to thrive.
+1. Employees are [more productive with fewer distractions](https://about.gitlab.com/blog/2018/05/11/day-in-life-of-remote-sdr/), so long as leadership is supportive in equipping teams with the requisite tools, structure, and culture to thrive.
    - For example, GitLab has a KPI of [65 tickets closed per support staff per month](/handbook/support/performance-indicators#average-daily-tickets-closed-per-support-team-member).
-1. [Increased savings on office costs](https://globalworkplaceanalytics.com/wp-content/The%20Remote%20Work%20ROI%20Calculator%20V0.97/The%20Remote%20Work%20ROI%20Calculator%20V0.97.htm) and [compensation](https://about.gitlab.com/blog/2019/02/28/why-we-pay-local-rates) (due to hiring in lower-cost regions).
+1. [Increased savings on office costs](https://globalworkplaceanalytics.com/wp-content/The%20Remote%20Work%20ROI%20Calculator%20V0.97/The%20Remote%20Work%20ROI%20Calculator%20V0.97.htm) and [compensation](https://about.gitlab.com/blog/2019/02/28/why-we-pay-local-rates/) (due to hiring in lower-cost regions).
    - GitLab **maintains a more balanced payroll** than other San Francisco Bay Area colocated companies. Learn more in the [Compensation Calculator](/handbook/total-rewards/compensation/compensation-calculator) section of GitLab's handbook.
    - Each function has a new hire location factor target. As an example, [marketing]({{< ref "kpis#marketing-kpis" >}}) targets < 0.72 and [finance]({{< ref "kpis#finance-team-kpis" >}}) targets < 0.69.  (For reference, San Francisco is 1.00)
    - We have a [people group KPI]({{< ref "kpis#people-group-kpis" >}}) for our average overall location factor to be < 0.65.
-1. All-remote naturally attracts [self-motivated people](https://about.gitlab.com/blog/2019/03/28/what-its-like-to-interview-at-gitlab).
+1. All-remote naturally attracts [self-motivated people](https://about.gitlab.com/blog/2019/03/28/what-its-like-to-interview-at-gitlab/).
 1. It's easier to quickly grow and scale your company.
    - GitLab **does not own/lease office space**. As colocated companies scale in size, their spend related to real estate will swell. This not only encompasses office space, but related activities such as security, cleaning, remodeling, etc. It also hampers [growth](scaling/). Hiring too many people in too short a time span will force you to move offices in quick succession, creating massive cost and inefficiency.
-1. Employees are [increasingly](https://www.iofficecorp.com/blog/workplace-design-statistics) expecting remote work options from their employers.
-   - GitLab sees **over 3,000 applicants per week** for open [vacancies](https://about.gitlab.com/jobs). Each applicant is given access to our [strategy](/handbook/company/strategy) and an overview of [what it's like to work at GitLab](/handbook/company/culture#so-thats-what-its-like-to-work-at-gitlab) *before* they are asked to invest time and energy in applying. We get more qualified applicants due to our [transparency](/handbook/values/#transparency), showcased through examples like [role description videos](https://youtu.be/BOeXgGu1Vco) hosted on the [GitLab Unfiltered YouTube channel](https://www.youtube.com/channel/UCMtZ0sc1HHNtGGWZFDRTh5A).
+1. Employees are [increasingly](https://web.archive.org/web/20240523000654/https://www.iofficecorp.com/blog/workplace-design-statistics) expecting remote work options from their employers.
+   - GitLab sees **over 3,000 applicants per week** for open [vacancies](https://about.gitlab.com/jobs/). Each applicant is given access to our [strategy](/handbook/company/strategy) and an overview of [what it's like to work at GitLab](/handbook/company/culture#so-thats-what-its-like-to-work-at-gitlab) *before* they are asked to invest time and energy in applying. We get more qualified applicants due to our [transparency](/handbook/values/#transparency), showcased through examples like [role description videos](https://youtu.be/BOeXgGu1Vco) hosted on the [GitLab Unfiltered YouTube channel](https://www.youtube.com/channel/UCMtZ0sc1HHNtGGWZFDRTh5A).
 1. Companies often experience [lower employee turnover](https://resources.owllabs.com/blog/remote-work-statistics) and higher morale with remote work.
    - GitLab enjoys a **[strong year-over-year voluntary retention rate](/handbook/people-group/people-success-performance-indicators/#executive-summary)**.  All-remote contributes to our high retention of people, as they're able to [take their career with them](people/) through life's changes.
 1. You have [fewer meetings](meetings/) and more focus on results and [output of great work](/handbook/values/#results).
    - Each meeting which is avoided by [asynchronous communication]({{< ref "communication" >}}) and intentional [documentation](management/#scaling-by-documenting) saves thousands of dollars in wages. Too, the time savings can be repurposed for generating additional value and empowering people to live [richer lives](people/) as they work more [efficiently](/handbook/values/#efficiency).
 1. You don't have to pay to relocate someone to join your team.
    - GitLab's talent acquisition department tracks cost per hire, which currently does not have a target.
-1. With employees located all over the world [working asynchronously](https://about.gitlab.com/blog/2019/02/27/remote-enables-innovation), contributions can continue even when one time zone's working day is over.
+1. With employees located all over the world [working asynchronously](https://about.gitlab.com/blog/2019/02/27/remote-enables-innovation/), contributions can continue even when one time zone's working day is over.
    - GitLab has a people group KPI stating that the [percent of sent Slack messages that are not DMs be > 50%]({{< ref "kpis#people-group-kpis" >}}).
 1. There's also business continuity in the case of local disturbances or natural disasters (e.g. political or weather-related events).
 1. Greater flexibility [can mean greater diversity](https://business.linkedin.com/content/dam/me/business/en-us/talent-solutions/resources/pdfs/global-talent-trends-2019.pdf) in your organization.
@@ -120,14 +120,14 @@ Not only does this create a less [inclusive](/handbook/company/culture/inclusion
 
 *In the [GitLab Unfiltered](https://www.youtube.com/channel/UCMtZ0sc1HHNtGGWZFDRTh5A) video above, two GitLab colleagues discuss the benefits of living in a lower cost-of-living environment near friends, family, and community.*
 
-[Research from the University of New Hampshire](https://carsey.unh.edu/publication/rural-depopulation) has found that "35% of rural counties in the United States are experiencing protracted and significant population loss." Speaking to shrinking towns across Europe, [a 2016 report from the European Parliamentary Research Service](https://www.europarl.europa.eu/thinktank/en/document/EPRS_BRI(2016)586632) notes that "younger members of society prefer to migrate to more economically vibrant regions and cities in search of better job prospects as, in most of these territories, professional opportunities remain limited and confined to specific fields (e.g. agriculture and tourism)."
+[Research from the University of New Hampshire](https://carsey.unh.edu/publication/rural-depopulation-rapidly-urbanizing-america) has found that "35% of rural counties in the United States are experiencing protracted and significant population loss." Speaking to shrinking towns across Europe, [a 2016 report from the European Parliamentary Research Service](https://www.europarl.europa.eu/thinktank/en/document/EPRS_BRI(2016)586632) notes that "younger members of society prefer to migrate to more economically vibrant regions and cities in search of better job prospects as, in most of these territories, professional opportunities remain limited and confined to specific fields (e.g. agriculture and tourism)."
 
 We believe all-remote has the power to pause, and perhaps even reverse, these trends of depopulation.
 
 Working remotely gives each person the autonomy to serve in a place that matters to them – a place that has shaped them – contributing significantly to the well-being of a population that may be at risk of losing its foundation, should talent continue to flee to the usual job centers.
 
 1. There's evidence that [remote work can reduce the effects of urban crowding](https://qz.com/work/1641664/remote-workers-are-the-solution-to-urban-crowding) for many cities around the world. Some states and countries are even [offering incentives](https://fortune.com/2019/06/22/google-housing-plan-bay-area) to encourage remote work. Here are [13 examples](https://web.archive.org/web/20210122035410/https://www.bankrate.com/personal-finance/smart-money/places-that-will-pay-you-to-move/) around the world.
-1. For global companies, bringing better-paying jobs to low-cost regions has positive economic impacts and works to reverse the [trends](https://www.europarl.europa.eu/thinktank/en/document/EPRS_BRI(2016)586632) of [depopulation in rural regions](https://carsey.unh.edu/publication/rural-depopulation).
+1. For global companies, bringing better-paying jobs to low-cost regions has positive economic impacts and works to reverse the [trends](https://www.europarl.europa.eu/thinktank/en/document/EPRS_BRI(2016)586632) of [depopulation in rural regions](https://carsey.unh.edu/publication/rural-depopulation-rapidly-urbanizing-america).
 
 ## The competitive advantage for companies that embrace remote work
 
@@ -149,7 +149,7 @@ With employees located all over the world [working asynchronously](asynchronous/
 
 ### Happy staff and better productivity
 
-Employees are [more productive with fewer distractions](https://about.gitlab.com/blog/2018/03/15/working-at-gitlab-affects-my-life), so long as leadership is supportive in equipping teams with the requisite tools, structure, and culture to thrive.
+Employees are [more productive with fewer distractions](https://about.gitlab.com/blog/2018/03/15/working-at-gitlab-affects-my-life/), so long as leadership is supportive in equipping teams with the requisite tools, structure, and culture to thrive.
 
 ## Challenges to consider before embracing remote work
 
@@ -180,7 +180,7 @@ All-remote work promotes:
 1. Public sharing of information (over need-to-know access).
 1. Opening up documents for editing by anyone (over top-down control of documents).
 1. Asynchronous communication (over synchronous communication).
-1. The results of work (over the hours put in).
+1. The results of impact (over the activity put in).
 1. Formal communication channels (over informal communication channels).
 
 > **"Remote is not a challenge to overcome. It's a clear business advantage."** -Victor, Product Manager, GitLab
@@ -193,7 +193,7 @@ Click around to learn more about what "all-remote" really means, [how it works a
 
 ## Contribute your lessons
 
-GitLab believes that all-remote is the [future of work]({{< ref "remote-vision" >}}), and remote companies have a shared responsibility to show the way for other organizations who are embracing it. If you or your company has an experience that would benefit the greater world, consider creating a [merge request](https://docs.gitlab.com/ee/user/project/merge_requests) and adding a contribution to this page.
+GitLab believes that all-remote is the [future of work]({{< ref "remote-vision" >}}), and remote companies have a shared responsibility to show the way for other organizations who are embracing it. If you or your company has an experience that would benefit the greater world, consider creating a [merge request](https://docs.gitlab.com/ee/user/project/merge_requests/) and adding a contribution to this page.
 
 ---
 

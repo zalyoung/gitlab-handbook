@@ -1,5 +1,5 @@
 ---
-title: "Engineering Dashboarding and Metrics"
+title: "Engineering Metrics"
 ---
 
 ## Engineering Analytics Dashboard Inventory
@@ -8,85 +8,131 @@ Several dashboards have been published to the Engineering project in the Tableau
 
 ### Centralized Engineering Metrics
 
-Please refer to our Centralized Engineering Metrics page [here](/handbook/product/groups/product-analysis/engineering/dashboards/dashboards/).
+Please refer to our Centralized Engineering Metrics page [here](/handbook/product/groups/product-analysis/engineering/dashboards/).
 
 ### Tableau Dashboards
 
-You can find published dashboards in [Ad-hoc/Development/General](https://10az.online.tableau.com/#/site/gitlab/projects/367746). These dashboards are safe for general use by the Tableau User population here at GitLab.
+You can find published dashboards in [Production/Engineering/General](https://10az.online.tableau.com/#/site/gitlab/projects/367732). These dashboards are safe for general use by the Tableau User population here at GitLab.
 
-### Dashboarding Guidelines
+## Productivity Engineering Metrics
 
-* Each KPI chart is a timeseries chart.
-  * The `URL` property is only used to link to a chart until it is an embedded Sisense chart.
-  * Use HTML hyperlinks `<a>` in description text if we need to link out to a supporting artifact e.g. Epics or Issues.
-  * Use Purple bars to denote values.
-  * Use a Red stepped-line for timeseries target.
-  * Directional targets will be used:
-    * `Above ...`
-    * `Below ...`
-    * `At ...`
-    * `At or above ...`
-    * `At or below ...`
-  * Optional: Use a Black line for rolling average.
-  * Optional: Use a Gray line for supporting indicator in the background.
-* For bar charts, the current month should be Green and subsequent months Purple. Highlighting the current month in a different color helps to indicate that data for the current month is not complete.
-  * This can be quickly implemented via a `case` `when` clause in Sisense. Example below:
-  * `CASE WHEN date_month < date_trunc('month',current_date) THEN MEDIAN(open_age_in_days) ELSE NULL END AS "Historical Median Open Days",`
-  * `CASE WHEN date_month = date_trunc('month',current_date) THEN MEDIAN(open_age_in_days) ELSE NULL END AS "Current Median Open Days",`
-* List a DRI for the KPI/PI if the metric is being delegated by the VP of that Engineering department.
-* Each dashboard for KPIs should consider the following settings to ensure timely updates:
-  * [Setting up auto-refresh](/handbook/enterprise-data/platform/periscope/#sts=Requesting%20Automatic%20Dashboard%20Refresh) for a frequency that fits the KPI
-  * [Excluding Dashboards from Auto Archive](https://dtdocs.sisense.com/article/auto-archive)
-* Each KPI should have a standalone dashboard with a single chart representing the KPI and a text box with a link back to the handbook definition.
-  * In Sisense, [create a shared dashboard link](https://dtdocs.sisense.com/article/share-dashboards) to get the shared dashboard ID.
-  * In Sisense, [use the Share Link action of the chart](https://dtdocs.sisense.com/article/chart-options#ShareLink) to get the chart (widget_id) and the dashboard ID.
-  * Add the `shared_dashboard`, `chart` , and the `dashboard` key-value pairs to the [corresponding Performance Indicators data file](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/data/performance_indicators/) under the `sisense_data` property
-  * Note: When we move to Tableau, we will have updated guidelines on where to create new charts
-* Multi-series performance indicators should consider the following guidelines:
-  * If series are mutually exclusive, use stacked bars for each series with a monthly time series
-  * If series are not mutually exclusive, use grouped bars for each series with a monthly time series
-  * Do not graph any targets in the chart.
-  * Current month styling guidelines will not apply
-* Tableau has the functionability to create target lines with shaded areas above or below the target line. For charts with a designated target, please create a reference line.
-* Avoid `:` in strings as it's an important character in YAML and will confuse the data parsing process. Put the string in "quotes" if you really need to use a `:`
+### Overview
 
-## Metric definitions
+To help our teams work better and faster, we track specific metrics that measure how efficiently we handle merge requests (MRs). These metrics focus on all **product-related MRs**, ensuring we capture contributions that directly impact the product. These metrics give us a clear picture of how long it takes for MRs to go through the review process, how quickly reviewers respond, and how much our teams are contributing overall.
 
-Taken from Metrics list
+#### What’s Included?
 
-### Merge Request Rate
+* Our metrics includes all MRs affecting the product.
+* The specific projects included in the dataset are listed in [this seed file](https://gitlab.com/gitlab-data/analytics/-/blob/master/transform/snowflake-dbt/seeds/seed_engineering/projects_part_of_product.csv?ref_type=heads). Please refer to this [section](/handbook/product/groups/product-analysis/engineering/metrics/#updating-the-list-of-projects) for instructions on how to update this list.
 
-Merge Request (MR) Rate is a measure of productivity and efficiency. The numerator is a collection of merge requests to a set of projects.  The denominator is a collection of people based on the `job title specialty` field in Workday. Both are tracked over time (usually monthly). The [stages.yml file](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/data/stages.yml) is the SSOT for group names. We rely on a mapping between the group name in this file to the job title specialty field in Workday. A mismatch between the two would cause team members or MRs not to be counted.
+By using this consistent dataset, we can ensure our metrics reflect the work that matters most for product development and improvement.
 
-In April 2023, there was an internal audit of the job title specialty field done by managers and directors. MR Rate data prior to this date may report inaccuracies due to missing or incorrect job title specialities that were corrected in the audit.
+This section explains four key metrics we use—**Review Time to Merge (RTTM)**, **Reviewer First Engagement Time (RFET)**, **Merge Request Rates (MR Rates)**, and **Mean Time to Merge (MTTM)**. These metrics highlight areas where we’re doing well and where we can improve.
 
-You can use [this MR Rate troubleshooting dashboard](https://app.periscopedata.com/app/gitlab/1138219/MR-Rate-Troubleshooting) to check the number of team members that are counted each month. If the monthly team member count is less than expected, refer to the table to see which team member is missing.
+### Review Time to Merge (RTTM)
 
-To update the job title speciality field, please refer to [the guidelines](/handbook/people-group/promotions-transfers/#for-people-connect-processing-job-information-change-requests).
+[Tableau Link](https://10az.online.tableau.com/#/site/gitlab/workbooks/2162529/views)
 
-#### Examples
+#### What It Means
 
-* Team "Apples" consists of 5 members as defined in the `job title specialty` field in Workday. In the past month, there were 20 merged MRs with the `group::Apples` label. Team A's MR Rate for that month would be: (20 / 5) = 4.
-* Team "Oranges" consists of 8 members as defined in the `job title specialty` field in Workday. In the past month, there were 20 merged MRs with the `group::Orange` label. Since the `job title specialty` does not match the group label (an extra `s` in the `job title specialty` field), we are unable to map the MRs back to the respective groups. We recommend either 1) updating the group label and [stages.yml file](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/data/stages.yml) or 2) updating the Workday value.
+* This measures how long it takes from when a merge request is first assigned to a reviewer until it’s merged into the codebase.
+* It doesn’t check if the reviewer actually engaged—it simply tracks the time starting from the first review assignment.
 
-Group MR Rate can be found [here](https://10az.online.tableau.com/#/site/gitlab/views/DevelopmentEmbeddedDashboard_17017859046500/DevelopmentEmbeddedDashboard) and filtered by group. It can also be queried by department or group using the following SQL:
+#### Why It Matters
 
-```sql
-SELECT merge_month
-, employees
-, mrs
-, mr_rate
-FROM workspace_engineering.merge_request_rate
-WHERE group_name=[fill in group name here]
-AND granularity_level = 'group'
-ORDER BY 1
-```
+* RTTM tells us how efficient our review process is overall.
+* If RTTM is consistently high, it might mean there are delays or bottlenecks that we need to address.
+
+### Reviewer First Engagement Time (RFET)
+
+[Tableau Link](https://10az.online.tableau.com/#/site/gitlab/workbooks/2889679/views)
+
+#### What It Means
+
+* This tracks how long it takes for a reviewer to respond after being assigned to an MR.
+* A “response” could mean leaving a comment, giving feedback, or taking action on the MR.
+
+#### Why It Matters
+
+* RFET helps us understand how quickly reviewers start engaging with their assignments.
+* It’s a good way to measure responsiveness and ensure timely collaboration.
+
+### Merge Request Rates (MR Rates)
+
+[Tableau Link](https://10az.online.tableau.com/#/site/gitlab/workbooks/2284105/views)
+
+Merge Request (MR) Rate is a measure of productivity and efficiency. The numerator is a typically a collection of merge requests to a set of projects.  The denominator is a collection of people based on the `job title specialty` field in Workday. Both are tracked over time (usually monthly). The [stages.yml file](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/data/stages.yml) is the SSOT for group names. We rely on a mapping between the group name in this file to the job title specialty field in Workday. A mismatch between the two would cause team members or MRs not to be counted.
+
+You can use [this MR Rate troubleshooting dashboard](https://10az.online.tableau.com/#/site/gitlab/views/DevelopmentEmbeddedDashboard_17017859046500/MergeRequestRates) to check the number of team members that are counted each month. If the monthly team member count is less than expected, refer to the table to see which team member is missing.
+
+To update the job title speciality field, please refer to the guidelines listed [here](/handbook/people-group/promotions-transfers/#for-people-connect-processing-job-information-change-requests) and [here](/handbook/people-group/promotions-transfers/#job-title-specialty-changes).
+
+#### What It Means
+
+When looking at how productive a team is with their Merge Requests (MRs), we use two different ways to calculate MR rates:
+
+1. MR Rate by Group Label:
+   * This metric looks at all MRs that match a specific group label (e.g., "code review" or "container registry") and compares that to the total number of team members associated with that group. Team member information comes from the Workday job title speciality field.
+   * This metric gives you a **high-level view** of how active a group is in contributing MRs. It includes MRs made by anyone who used the group label, even if they’re not part of the official team. This makes it a broader measure that reflects overall output tied to a group’s work. In other words, it’s a focused way to see how much work is being done within a particular group.
+2. Team MR Rate:
+   * This metric focuses only on MRs that match the group label and are authored by members of that team. It divides those MRs by the number of team members officially listed in that group. Team member information comes from the Workday job title speciality field.
+   * This metric shows the direct contributions of the team itself. It removes outside contributions, giving you a clearer picture of the team's internal activity.
+
+#### Why Have Two Metircs?
+
+Having both metrics allows you to see productivity from two angles:
+
+1. The Big Picture (MR Rate by Group Label):
+   * Helps you understand how much work is being done overall within a group’s area of focus, regardless of who is contributing.
+   * Useful for spotting trends in how much attention or effort is being put into a specific group label, even if it’s by contributors outside the official team.
+2. The Team Focus (Team MR Rate):
+   * Provides insight into how active the team itself is in contributing to their group’s goals.
+   * Highlights whether the team is meeting expectations or if external contributors are carrying the bulk of the work. Are certain teams being overworked? Do other teams need more support?
+
+#### When to Use Each Metric
+
+* Use **MR Rate by Group Label** when you want a broad view of a group’s impact, including all contributors.
+* Use **Team MR Rate** when you need to evaluate the specific contributions and productivity of the team itself.
+
+### Understanding Department-Level MR Rates
+
+#### Development Department MR Rate
+
+For the Development Department, we include team members from **Development**, **Core Development**, and **Expansion**. The numerator for this metric is the **total number of product MRs (all MRs tied to the product)**, and the denominator is the **number of team members across these combined departments**. Unlike more focused metrics (e.g., Team MR Rate), this metric doesn’t filter by group or author. It simply tracks all MRs affecting the product, ensuring no contributions are overlooked.
+
+#### Understanding MR Rates for Departments Outside Development
+
+For departments outside the Development Department, such as Support, Core/Internal Infrastructure, and others, we take a different approach to measuring MR rates. This is because these departments often lack distinct labels to identify whether an MR aligns with their work.
+
+For these departments, the MR rate is calculated as the **number of MRs authored by team members within the department**, divided by the **total number of team members in that department**.
+
+* Why we measure this way:
+  * No Distinct Labels:
+    * Unlike Development, these departments don’t have group labels that clearly indicate which MRs belong to them. Using authored MRs ensures we’re accurately capturing their work.
+  * Focuses on Team-Specific Contributions:
+    * This approach highlights the contributions of team members within the department, providing a clearer picture of their productivity.
+
+### Mean Time to Merge (MTTM)
+
+[Tableau Link](https://10az.online.tableau.com/#/site/gitlab/workbooks/2372920/views)
+
+#### What It Means
+
+* MTTM tracks the time from when a merge request is created to when it’s merged into the codebase.
+* This is a broader metric that includes both the review process and any additional delays before the MR is merged.
+
+#### Why It Matters
+
+* MTTM gives us a big-picture view of the overall time it takes to merge code, capturing inefficiencies or bottlenecks across the entire lifecycle of an MR.
+* A high MTTM may suggest issues in areas like MR creation, review assignment, or the actual merge process.
+
+Do you have any suggestions to improve these metrics? Feel free to drop us a note by creating a new [Product Data Insights issue](https://gitlab.com/gitlab-data/product-analytics/-/issues/new).
 
 ### Work Type Classification
 
 We use the following type labels to classify our Issues and Merge Requests.
 
-The 3 types (Bug, Feature & Maintenance) is key to our report to industry analysts. It is important for GitLab to communicate effort spent into a format that is easily understandable widely in the industry. We provide this [metric](https://app.periscopedata.com/app/gitlab/976817/Merge-Request-Types) to our leadership reporting and improve the accuracy with subtypes categorization. The 3 top level types can be applied without having to apply a sub-category type.
+The 3 types (Bug, Feature & Maintenance) is key to our report to industry analysts. It is important for GitLab to communicate effort spent into a format that is easily understandable widely in the industry. We provide this [metric](https://10az.online.tableau.com/#/site/gitlab/workbooks/2228822/views) to our leadership reporting and improve the accuracy with subtypes categorization. The 3 top level types can be applied without having to apply a sub-category type.
 
 1. `~"type::bug"`: Defects in shipped code and fixes for those defects. Read more about [features vs bugs](/handbook/product/product-processes/#issues).
    * `~"bug::performance"`: Performance defects or response time degradation

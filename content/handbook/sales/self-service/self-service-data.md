@@ -17,6 +17,7 @@ The Self-Service Data Team is responsible for leveraging data to optimize for th
 | :--------------- | :----------------- | :----------------- |
 | Max Fleisher | @mfleisher |  Mgr, Self-Service & Online Sales Data |
 | Sara Gladchun | @sglad | Sr. Analyst, Self-Service & Online Sales Data |
+| Ed Lu | @eclu94 | Sr. Analyst, Global Digital SMB Operations |
 
 ## Who We Work With
 

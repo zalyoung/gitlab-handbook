@@ -69,17 +69,17 @@ We use Slack internally as a communication tool. The Localization channels are a
 | `L10n-status:LQA` | To indicate that a localization request is under localization quality assurance (LQA) |
 | `L10n-status-blocked`| To indicate that the localization request is blocked |
 | `L10n:: business owner review` | To indicate that the requesting team/person is reviewing the translations. Also used when an [Internal Reviews](#internal-reviews) is happening |
-| `L10n::backlog`| For tracking issues in our backlog | 
+| `L10n::backlog`| For tracking issues in our backlog |
 
 #### Labels for our main localization pillars
 
 | Label | Purpose |
 | ------ | ------------ |
-| `L10n-mktg` | for work on marketing localization | 
+| `L10n-mktg` | for work on marketing localization |
 | `L10n-infrastructure`| for work on our localization infrastructure and technology |
 | `L10n-training` | related to learning everything about localization at GitLab |
 | `L10n-partners` | for tracking work vendor related |
-| `L10n-docs`| for tracking work related to the localization of GitLab documentation | 
+| `L10n-docs`| for tracking work related to the localization of GitLab documentation |
 | `L10n-product`| for tracking work related to the localization GitLab product UI |
 | `L10n-terminology-mngmnt` | Work related to terminology management processes, terminology management system implementation, glossary work on Crowdin for product translations, etc. |
 
@@ -88,19 +88,19 @@ We use Slack internally as a communication tool. The Localization channels are a
 | Label | Purpose |
 | ------ | ------------ |
 | `fr-FR` | tracking content and localization work in French |
-| `de-DE`| tracking content and localization work in German | 
+| `de-DE`| tracking content and localization work in German |
 | `es-International`| tracking content and localization work in Spanish|
 | `ja-JP` | tracking content and localization work in Japanese|
 | `pt-BR` | tracking content and localization work in Brazilian Portuguese|
 | `it-IT` | tracking content and localization work in Italian|
 
-## Localization Processes 
+## Localization Processes
 
 **Primary Method**
 Submit an issue through our [Localization Issue Tracker](https://gitlab.com/gitlab-com/localization/issue-tracker/-/issues/new?issuable_template=localization-request) when your content is ready for localization or review.
 
 **Additional Support**
-For general localization questions: 
+For general localization questions:
 
 - Join our `#localization` Slack channel
 - Add the L10n-attention label to issues, epics, or merge requests
@@ -127,7 +127,7 @@ At the moment, our internal reviewers are volunteers. We completely appreciate t
 | German | https://about.gitlab.com/de-de/ | Live |
 | Italian | https://about.gitlab.com/it-it/ | Live |
 | Brazilian Portuguese | https://about.gitlab.com/pt-br/ | Live |
-| Spanish | https://about.gitlab.com/es-es/ | Live |
+| Spanish | https://about.gitlab.com/es/ | Live |
 
 ## Marketing Localization
 
@@ -154,7 +154,7 @@ In order to offer content and events in preferred languages where available, we 
 
 ### Translated URL structure
 
-All translated pages live in a sub-folder dedicated to a specific language. These sub-folders use [ISO 639-1 codes](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes). 
+All translated pages live in a sub-folder dedicated to a specific language. These sub-folders use [ISO 639-1 codes](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes).
 
 ### hreflang tagging
 
@@ -200,5 +200,5 @@ GitLab's blog is available in Japanese, French and German, with a dedicated cont
 
 ## docs.gitlab.com Localization
 
-We're working on localizing GitLab documentation. 
+We're working on localizing GitLab documentation.
 To learn more, head to our [Docs Site Localization project](https://gitlab.com/gitlab-com/localization/docs-site-localization).

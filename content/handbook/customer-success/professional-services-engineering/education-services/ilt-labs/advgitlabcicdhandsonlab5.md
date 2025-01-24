@@ -21,7 +21,7 @@ In this lab we will analyze more complex merge processes, looking specifically a
 
 1. Under Merge options, click the options **Enable merged results pipeline**, **Pipelines must succeed**, and **Enable merge trains**.
 
-1. At the bottom of the page, select **Save changes**.
+1. At the bottom of the section, select **Save changes**.
 
 ## Task B. Running a merge train
 
@@ -40,6 +40,17 @@ To demonstrate a merge train, let’s create a purposefully long CI/CD job.
         - sleep 4m
     ```
 
+1. Add in the following rules to ensure jobs run on merge request pipelines:
+
+```yml
+workflow:
+      auto_cancel:
+        on_job_failure: all
+      rules:
+        - if: $CI_PIPELINE_SOURCE == 'merge_request_event'
+        - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
+```
+
 The current pipeline should look like this:
 
   ```yml
@@ -50,6 +61,9 @@ The current pipeline should look like this:
     workflow:
       auto_cancel:
         on_job_failure: all
+      rules:
+        - if: $CI_PIPELINE_SOURCE == 'merge_request_event'
+        - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
 
     default:
       image: node:latest
@@ -91,7 +105,7 @@ The current pipeline should look like this:
 
 Adding this job will ensure that you have enough time to create two merge requests.
 
-To start, create your two merge requests:
+To start, create your two merge requests. For the first merge request:
 
 1. Select **Code > Branches**.
 
@@ -107,9 +121,27 @@ To start, create your two merge requests:
 
 1. Leave all options as default and select **Create merge request**.
 
-1. Repeat the same process so that you have two merge requests.
+For the second merge request:
 
-1. Once you have two merge requests, set them both to auto-merge. You will see a message stating `Set by your user to start a merge train when all merge checks pass`. Await the completion of your merge requests and verify that they merge successfully.
+1. Select **Code > Branches**.
+
+1. Select **New branch**.
+
+1. Add the branch name `train-2`.
+
+1. Leave all other options as default and select **Create branch**.
+
+1. Select the `README.md` file and add some changes to it. Try making different changes to the file than the ones you did in the previous branch.
+
+1. Select **Create merge request**.
+
+1. Leave all options as default and select **Create merge request**.
+
+Now that both merge requests have been created:
+
+1. Set them both to auto-merge. You will see a message stating `Set by your user to start a merge train when all merge checks pass`.
+
+1. Await the completion of your merge requests and verify that they merge successfully.
 
 ## Task C. Merge Conflicts
 
@@ -242,4 +274,4 @@ You have completed this lab exercise. You can view the other [lab guides for thi
 
 ## Suggestions?
 
-If you wish to make a change to the *Hands-On Guide for GitLab CI/CD*, please submit your changes via Merge Request.
+If you wish to make a change to the *Hands-On Guide for GitLab Advanced CI/CD*, please submit your changes via Merge Request.

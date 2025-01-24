@@ -112,8 +112,8 @@ While GitLab is 100% remote, there may be times when team members travel for wor
 In general, please consider the following recommendations to ensure safety when traveling or coworking:
 
 1. Do the research. Have some familiarity with the destination before you arrive. Check with your country's government department that provides advice for traveling overseas:
-    - United States: check the State Department's website for country updates and enroll in a Traveler Program such as [Smart Traveler Enrollment Program (STEP)](https://step.state.gov/step/).
-    - New Zealand: [Safe Travel](https://safetravel.govt.nz/).
+    - United States: check the State Department's website for country updates and enroll in a Traveler Program such as [Smart Traveler Enrollment Program (STEP)](https://mytravel.state.gov/s/step).
+    - New Zealand: [Safe Travel](https://www.safetravel.govt.nz/).
 1. Try not to draw attention. People who appear to be from out of town are more vulnerable to crimes. Try to respect the culture you are visiting by blending in. Consider protective clothing to avoid pickpockets or other theft. Do not flash money or credit cards unnecessarily.
 1. Make copies of important documents. Consider carrying hard copies of important documents (passport, driver's license) in a separate location in the event your documents are misplaced or stolen.
 1. Keep friends and family updated. No matter whether you're going on an overnight jaunt or a week-long international journey, it's always a good idea to let friends or family know your plans. Before you leave, send a copy of your itinerary to a few trusted people who can keep tabs on your whereabouts. Check in regularly with your contacts so they know you're where you're supposed to be.
@@ -161,7 +161,7 @@ GitLab strives to maintain a workplace that is free from illegal use, possession
 ## Mental Health Awareness Statement
 
 1. Why is awareness of Mental Health important at GitLab?
-    - It can affect any and all of us. Statistics indicate that [1 in 4](https://www.who.int/whr/2001/media_centre/press_release/en/) of us will be affected by mental or neurological disorders at some point in our life. That said, we are all subject to periods where we or those around us find the "the normal stresses of life" harder than usual to deal with.
+    - It can affect any and all of us. Statistics indicate that [1 in 4](https://www.who.int/news-room/detail/28-09-2001-the-world-health-report-2001-mental-disorders-affect-one-in-four-people) of us will be affected by mental or neurological disorders at some point in our life. That said, we are all subject to periods where we or those around us find the "the normal stresses of life" harder than usual to deal with.
     - The more we are aware of mental health, the more inclusive we are. That will help encourage any colleagues currently experiencing mental health issues to talk about it.
     - Our business at its core is a group of people working together towards a common goal. With awareness of what might affect our colleagues, we are better equipped to help them if they do discuss it with us and therefore help our business.
     - Mental health has so much emotional baggage as a topic that it can initially seem scary to talk about. Promoting mental health awareness helps to remove the stigma and taboos associated with it.

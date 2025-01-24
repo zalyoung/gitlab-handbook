@@ -99,7 +99,7 @@ We need **one** of the following in order to verify eligibility for the subscrip
    - The `Bill To:` contact must provide a recent GitLab invoice.
 1. Prior subscription contract
 1. Recent GitLab invoice (last 12 months)
-   - This option is not available for customers who purchased through a reseller. If the license key is unactivated at the time of the request, see Option 5. below, if the license has already been activated, the reseller can either open a ticket with this request or the customer can CC the reseller and also confirm that they would like to authorize the reseller to participate in the ticket. The reseller can then provide the invoice as proof of identity.
+   - This option is not available for customers who purchased through a reseller. If the license key is unactivated at the time of the request, see Option 6. below, if the license has already been activated, the reseller can either open a ticket with this request or the customer can CC the reseller and also confirm that they would like to authorize the reseller to participate in the ticket. The reseller can then provide the invoice as proof of identity.
 1. Copy of last loaded license (Self-Managed only) in text format only.
    - Screenshots are not valid
    - To obtain the license code:
@@ -126,7 +126,7 @@ Support may receive an [Internal Request](/handbook/support/license-and-renewals
 
 1. (Cloud license only, proceed to step 2 for Offline/Legacy) In CustomersDot, find the subscription name on the [Cloud Activation](https://customers.gitlab.com/admin/cloud_activation) page. Ensure the activation code has not been used; if it has not been activated yet, there will be no "Self Managed Instance Activations" tab for this cloud activation.
 1. [Check the Mailgun logs](/handbook/support/license-and-renewals/workflows/customersdot/troubleshoot_errors_while_making_purchases/#troubleshooting-email-delivery-from-customerdot) to verify that the license email was sent but failed to reach the intended customer. If the email with the typo does not exist, the Mailgun log entry will display a failed mail delivery attempt (commonly shown as a **550 error code**).
-1. Log the error by taking a screenshot of the error message and attach it to the ticket.
+1. Log the error by attaching a Mailgun log in text form to the ticket.
 1. Validate the correct email address with the Account Manager who submitted the request in writing before correcting the typo.
 1. Update the Sold to contact email address on the Billing Account and the related Customers Portal account.
 1. Resend the license or activation code to the corrected email address.

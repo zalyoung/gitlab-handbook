@@ -28,7 +28,7 @@ As a result of these career conversations, you may identify an opportunity that 
 
 Individual OKRs and business goals should not be tied to GD opportunities, unless the individual team member thinks it's appropriate.
 
-Growth and Development applications should generally be self-directed by your team members, but if each of your team members has G&D budget remaining, there are instances in which a manager can recommend a training for their whole team to make use of. Take a look at the [Bulk Applications](handbook/total-rewards/benefits/general-and-entity-benefits/growth-and-development/#bulk-applications) section for more info
+Growth and Development applications should generally be self-directed by your team members, but if each of your team members has G&D budget remaining, there are instances in which a manager can recommend a training for their whole team to make use of. Take a look at the [Bulk Applications](/handbook/people-group/learning-and-development/growth-and-development/#bulk-applications) section for more info
 
 We see use of the Growth and Development fund as a great means of supporting [High Performing Teams](/handbook/company/high-performing-teams/#high-performing-teams-indicators) at GitLab
 
@@ -100,7 +100,7 @@ It's important to differentiate between mandatory, company-directed learning ini
 
 The G&D Fund is primarily intended for individual use for career growth and this accounts for the vast majority of applications. However, if a manager feels strongly they could benefit from a team-based training opportunity, their team members are supportive of that, and each team member has the remaining G&D allowance required for the opportunity, this may be suitable for G&D use. The Learning & Development review these applications on a case by case basis, so please reach out in [#learninganddevelopment](https://gitlab.enterprise.slack.com/archives/CMRAWQ97W) to discuss the suitability of your team training opportunity.
 
-If the budget isn't available to put team members through a paid learning opportunity, we recommend engaging the Learning and Development Team using our [Engagement Concierge](/handbook/people-group/engagement-concierge/) program, where we can assist in creating a customized learning path using our existing resources and expertise.
+If the budget isn't available to put team members through a paid learning opportunity, we recommend engaging the Learning and Development Team using our [Team Workshops](/handbook/people-group/learning-and-development/team-workshops/) program, where we can assist in creating a customized learning path using our existing resources and expertise.
 
 Note: G&D budgets cannot be pooled - e.g. if one team member has spent their full allowance for the year and you want to put them through a team training that costs $2000 per participant, they can't draw on the unused allowance from other team members to fund the training.
 

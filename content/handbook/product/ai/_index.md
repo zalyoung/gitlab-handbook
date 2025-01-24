@@ -12,7 +12,7 @@ This page serves as a resource for team members looking for information about wo
 
 ## Design and UX research for AI features
 
-* [Pajamas AI guidelines](https://design.gitlab.com/usability/ai-human-interaction): How to design the user experience for AI features. Includes design patterns and guidelines.
+* [Pajamas AI guidelines](https://design.gitlab.com/usability/ai-human-interaction/): How to design the user experience for AI features. Includes design patterns and guidelines.
 * [UX research in AI space](/handbook/product/ux/ux-research/research-in-the-ai-space/): Helps team members evaluate the usefullness and usability of AI features.
 * [UX maturity guidelines](/handbook/product/ai/ux-maturity/): Suggested UX validation to move up in AI feature maturity.
 

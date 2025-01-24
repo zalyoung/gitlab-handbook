@@ -120,7 +120,7 @@ It's okay to create specific engineering-driven implementation issues for more c
 * **Duration**: 3 milestones
 * **Goal**: Implement and refine a lightweight weighting process
 * **Ownership**: Issue assignee is the weight owner
-* **Process**: 
+* **Process**:
   * Initial weight assignment when issue is created
   * Weight updates as understanding evolves
   * Process review after 3 milestones

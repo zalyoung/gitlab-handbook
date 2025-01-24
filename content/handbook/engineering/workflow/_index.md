@@ -133,7 +133,7 @@ A notification will be sent to the attributed group's Slack channel, or the `#g_
 1. Identification
    - Review non-resolved [broken `master` incidents](https://gitlab.com/gitlab-org/quality/engineering-productivity/master-broken-incidents/-/issues) for the same failure. If the broken `master` is related to a test failure, [search the spec file in the issue search](https://gitlab.com/gitlab-org/gitlab/-/issues?sort=created_desc&state=opened&label_name[]=failure::flaky-test) to see if there's a known `failure::flaky-test` issue.
    - If this incident is **due to non-flaky reasons**, communicate in `#development`, `#backend`, and `#frontend` using the Slack Workflow.
-      - Click the "lightning bolt" shortcut icon in the `#master-broken` channel and select `Broadcast Master Broken`, then click `Continue the broadcast`.
+      - Announce that `master` is fixed by enter `/broadcast master fixed` in the chat bar of the `#master-broken` channel to invoke this workflow, and then click `Continue the broadcast`.
       - [Create a revert MR directly](#reverting-a-merge-request) to save some time in case we need to revert down the line.
         - If you are reverting an MR that performs a database migration, you need to follow the [Deployment blockers process](/handbook/engineering/deployments-and-releases/deployments/#deployment-blockers) to prevent the migration from proceeding to deploy and running on staging and production.
         - If the migration is executed in any environments, communicate to the release managers in `#releases` channel and discuss whether it's appropriate to create another migration to roll back the first migration or turn the migration into a no-op by following [Disabling a data migration steps](https://docs.gitlab.com/ee/development/database/deleting_migrations.html#how-to-disable-a-data-migration).
@@ -327,7 +327,7 @@ Next, merge the merge request:
 - If the "Merge" button is enabled (this is unlikely), then click it.
 - Otherwise, you must:
   1. Unset the
-    ["Pipelines must succeed" setting](https://docs.gitlab.com/ee/user/project/merge_requests/merge_when_pipeline_succeeds.html#require-a-successful-pipeline-for-merge)
+    ["Pipelines must succeed" setting](https://docs.gitlab.com/ee/user/project/merge_requests/auto_merge.html#require-a-successful-pipeline-for-merge)
     for the [`gitlab-org/gitlab` project](https://gitlab.com/gitlab-org/gitlab/edit).
   1. Click the "Merge" button.
   1. If the merge train is enabled, a warning will be displayed stating the code changes won't be validated by the merge train. Considering the criticality of the merge request it is acceptable to dismiss the warning.
@@ -515,7 +515,7 @@ Make sure the appropriate labels (such as `customer`) are applied so every issue
 
 ## Product Development Timeline
 
-[![''](/handbook/engineering/workflow/gitlab-release-timelines.png)](https://gitlab.com/gitlab-org/gitlab/-/snippets/3670861)
+[![''](/images/engineering/workflow/gitlab-release-timelines.png)](https://gitlab.com/gitlab-org/gitlab/-/snippets/3670861)
 
 Teams (Product, UX, Development, Quality) continually work on issues according to their respective workflows.
 There is no specified process whereby a particular person should be working on a set of issues in a given time period.
@@ -604,11 +604,11 @@ The milestone cleanup is currently applied to the [following groups and projects
 - [GitLab QA](https://gitlab.com/gitlab-org/gitlab-qa), [schedule](https://gitlab.com/gitlab-org/quality/triage-ops/pipeline_schedules/29050/edit)
 - [Omnibus GitLab](https://gitlab.com/gitlab-org/omnibus-gitlab), [schedule](https://gitlab.com/gitlab-org/quality/triage-ops/pipeline_schedules/31880/edit) (only moving milestone for now, not labelling)
 
-Milestones closure is in the remit of [the Delivery team](/handbook/engineering/infrastructure/team/delivery/). At any point in time a release might need to be created for an active milestone,and once that is no longer the case, the Delivery team closes the milestone.
+Milestones closure is in the remit of [the Delivery team](/handbook/engineering/infrastructure-platforms/gitlab-delivery/delivery/). At any point in time a release might need to be created for an active milestone,and once that is no longer the case, the Delivery team closes the milestone.
 
 ### Milestone cleanup schedule
 
-The milestone cleanup will happen the day before the release date.
+The milestone cleanup will happen on the milestone due date.
 
 These actions will be applied to open issues:
 
@@ -678,7 +678,7 @@ Open merge requests may also have other properties that indicate that the engine
 
 Being able to start the security review process earlier in the software development lifecycle means we will catch vulnerabilities earlier, and mitigate identified vulnerabilities before the code is merged. You should know when and how to proactively [seek an Application Security Review](/handbook/security/product-security/application-security/appsec-reviews/). You should also be familiar with our [Secure Coding Guidelines](https://docs.gitlab.com/ee/development/secure_coding_guidelines.html).
 
-We are fixing the obvious security issues before every merge, and therefore, scaling the security review process. Our workflow includes a check and validation by the reviewers of every merge request, thereby enabling developers to act on identified vulnerabilities before merging. As part of that process, developers are also encouraged to reach out to the Security Team to discuss the issue at that stage, rather than later on, when mitigating vulnerabilities becomes more expensive. After all, security is everyone's job. See also our [Security Paradigm](https://about.gitlab.com/direction/secure/#security-paradigm)
+We are fixing the obvious security issues before every merge, and therefore, scaling the security review process. Our workflow includes a check and validation by the reviewers of every merge request, thereby enabling developers to act on identified vulnerabilities before merging. As part of that process, developers are also encouraged to reach out to the Security Team to discuss the issue at that stage, rather than later on, when mitigating vulnerabilities becomes more expensive. After all, security is everyone's job. See also our [Security Paradigm](https://about.gitlab.com/direction/application_security_testing/#security-paradigm)
 
 ## Rapid Engineering Response
 
@@ -784,7 +784,7 @@ Issues are nominated to the board through the inclusion of the label `infradev` 
 
 Issues with `~infradev ~severity::1 ~priority::1 ~production request` labels applied require immediate resolution.
 
-`~infradev` issues requiring a ~"breaking change" should not exist.  If a current `~infradev` issue requires a breaking change then it should split into two issues.  The first issue should be the immediate `~infradev` work that can be done under current SLOs.  The second issue should be  ~"breaking change" work that needs to be completed at the next major release in accordance with [handbook guidance](/handbook/product/categories/gitlab-the-product/#breaking-changes-deprecations-and-removing-features). Agreement from development DRI as well as the infrastructure DRI should be documented on the issue.
+`~infradev` issues requiring a ~"breaking change" should not exist.  If a current `~infradev` issue requires a breaking change then it should split into two issues.  The first issue should be the immediate `~infradev` work that can be done under current SLOs.  The second issue should be  ~"breaking change" work that needs to be completed at the next major release in accordance with [deprecation guidance](https://docs.gitlab.com/ee/development/deprecation_guidelines/). Agreement from development DRI as well as the infrastructure DRI should be documented on the issue.
 
 Infradev issues are also shown in the monthly [Error Budget Report](/handbook/engineering/error-budgets/#budget-reporting).
 

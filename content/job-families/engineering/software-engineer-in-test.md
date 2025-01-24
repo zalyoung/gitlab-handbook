@@ -162,7 +162,7 @@ The Staff Software Engineer in Test is a [grade 8](/handbook/total-rewards/compe
   - Define and independently manages multiple projects within the department.
   - Able to create new methods for obtaining results.
   - Analyze engineering metrics and make suggestions to improve engineering processes and velocity.
-  - Contributes to [Working Groups](https://about.gitlab.com/company/team/structure/working-groups/#whats-a-working-group) as a Quality lead.
+  - Contributes to [Working Groups](/handbook/company/working-groups/#whats-a-working-group) as a Quality lead.
 - Knowledge Sharing
   - Clearly document, review, and broadly share our process and knowledge. This could be across mediums (recorded videos, written artifacts) and may include activities like:
     - Participating in customer calls and taking part in Engineering outreach.

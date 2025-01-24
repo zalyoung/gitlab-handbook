@@ -25,7 +25,7 @@ Provide a space for SEs to collaborate in the context of Code Contributions.
 1. Talk with your manager.
 1. If you haven't yet, consider working on the [Code Contributions](https://gitlab.com/gitlab-com/support/support-training/-/blob/master/.gitlab/issue_templates/Code%20Contributions.md) Support training module.
 1. Add Code Contributions to your knowledge areas in the [Support Team data](https://gitlab.com/gitlab-support-readiness/support-team/-/tree/master/data/agents?ref_type=heads). If it already exists, adjust your level accordingly – any level is welcome in the Pod!
-1. Optionally: Let the team and your SGG know about your new focus area.
+1. Optionally: Let the team know about your new focus area.
 1. Join the [#spt_pod_code-contributions](https://gitlab.slack.com/archives/C05DUHAG3EY) Slack channel.
 1. Add yourself to this page.
 
@@ -43,11 +43,11 @@ In addition to collaborating with fellow Support Engineers, consider some of the
   - Slack channel: [#backend_pairs](https://gitlab.slack.com/archives/CLX2Z53A5)
   - Subscribe to the [Google calendar](https://calendar.google.com/calendar/u/0?cid=Y18waWFhcmdxdjUzZGY4cmR1N2g5YmhiNHBpZ0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t).
   - Watch the [Backend Pairing playlist](https://www.youtube.com/playlist?list=PL05JrBw4t0KrMuuWVieMsCG2XHWBCJi_2) on YouTube.
-  - Read about [Backend Engineering](https://handbook.gitlab.com/job-families/engineering/backend-engineer/) at GitLab.
+  - Read about [Backend Engineering](/job-families/engineering/backend-engineer/) at GitLab.
 - Consider participating in **Frontend Pairs**:
   - Slack channel: [#frontend_pairs](https://gitlab.slack.com/archives/CGWPX7516)
   - Subscribe to the [Google calendar](https://calendar.google.com/calendar/u/1?cid=Y18waWFhcmdxdjUzZGY4cmR1N2g5YmhiNHBpZ0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t).
-  - Read about [Frontend Engineering](https://handbook.gitlab.com/job-families/engineering/development/frontend/) at GitLab.
+  - Read about [Frontend Engineering](/job-families/engineering/development/frontend/) at GitLab.
 
 ## Finding a Code Contribution opportunity
 

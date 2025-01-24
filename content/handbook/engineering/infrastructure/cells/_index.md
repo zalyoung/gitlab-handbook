@@ -130,21 +130,6 @@ Cells overall architecture [blueprint](https://docs.gitlab.com/ee/architecture/b
 <tr>
 <td>
 
-[Sissi Yao](https://gitlab.com/sissiyao)
-
-</td>
-<td>Tenant Scale Engineering Manager</td>
-<td>
-
-1. Status updates of Tenant Scale workstreams
-2. Mitigate risks
-3. Collaborate with Tenant Scale Product Manager on Organizations and Cells projects
-
-</td>
-</tr>
-<tr>
-<td>
-
 [Joshua Lambert](https://gitlab.com/joshlambert)
 
 </td>
@@ -221,7 +206,7 @@ Exit Criteria:
 - Cell available at `xxx.cells.gitlab.com`.
 - Cell doesn't handle data uniqueness.
 
-![phase-1](img/phase-1.png)
+![phase-1](/images/cells/phase-1.png)
 
 [source](https://excalidraw.com/#json=DuwGFqR2LcS6k2TZlYu9u,LKDzUCdkiHLO11c3rgFVeQ)
 
@@ -273,7 +258,7 @@ Exit Criteria:
 - PreQA Cell configured to generate `_gitlab_session` with prefix using rails config.
 - Route `_gitlab_session` with matching prefix to PreQA Cell using TopologyService::Classify (REST only) with static config file.
 - Continuous Delivery on Ring 0 with no rollback capabilities and doesn't block production deployments.
-- Topology Service [Readiness Review](../production/readiness.md) for [Experiment](https://docs.gitlab.com/ee/policy/experiment-beta-support.html#experiment)
+- Topology Service [Readiness Review](../production/readiness.md) for [Experiment](https://docs.gitlab.com/ee/policy/development_stages_support.html#experiment)
 - Topology Service gRPC endpoint not implemented.
 
 Unblocks:
@@ -351,7 +336,7 @@ Before/After:
 
 Details:
 
-- [Epic](hhttps://gitlab.com/groups/gitlab-org/-/epics/14511)
+- [Epic](https://gitlab.com/groups/gitlab-org/-/epics/14511)
 - [DAG](https://cells-architecture-overview-gitlab-org-tenant-sc-ff1c641f886923.gitlab.io/phase-1-8/#groups_Phase_5,groups_Phase_5_1_mTLS,groups_Phase_5_2_Sequence,groups_Phase_5_3_Claim,groups_Phase_5_4_Deploy)
 
 ### Phase 6: Monolith Cell
@@ -406,6 +391,32 @@ Details:
 
 - [Epic](https://gitlab.com/groups/gitlab-org/-/epics/14749)
 - [DAG](https://cells-architecture-overview-gitlab-org-tenant-sc-ff1c641f886923.gitlab.io/phase-1-8/#groups_Phase_8)
+
+### Phase 10: Production Readiness
+
+Exit Criteria:
+
+- Cell-Level Observability (Logs, Metrics, Alerts, Dashboard).
+- Integration with existing Incident Management tooling.
+- Compliance with GitLab.com security standards.
+- Regional and Zonal Disaster Recovery capabilities.
+- Operational tooling independence from GitLab.com/dev.gitlab.org availability.
+- Centralized WAF management for GitLab.com domain.
+- Cell-level Application Rate Limits with synchronization.
+- Least-privileged access implementation with SRE escalation path.
+- Progressive rollout of infrastructure changes across Cells with rollback support.
+- Progressive deployment capabilities across Legacy Cell and Cells with rollback support.
+- Support for toggling Feature Flags across Legacy Cell and Cells.
+
+Dependencies:
+
+- [Phase 1](#phase-1-preqa-cell): GCP organizations, Ring definition exists.
+
+Before/After:
+
+Details:
+
+- [Epic](https://gitlab.com/groups/gitlab-org/-/epics/14807)
 
 ## Communication
 

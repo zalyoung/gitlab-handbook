@@ -45,9 +45,19 @@ The assigned UX Researchers are the go-to person for their assigned [stage group
 | **Monitor**: Product Intelligence, Product Analytics | [Nicholas Hertz](https://gitlab.com/NickHertz) |
 | **Manage**: Import and Integrate, Design System, Personal Productivity, UX Paper Cuts | [Thaina Tavares](https://gitlab.com/thaina.t) |
 | **Plan**: Project Management, Product Planning, Optimize, Knowledge | [Danika Teverovsky](https://gitlab.com/dteverovsky) |
-| **Secure**: Static Analysis, Secret Detection, Dynamic Analysis, Composition Analysis, Vulnerability Research <br> **Govern**: Security Policies, Threat Insights, Compliance, Authentication, Anti-Abuse, Authorization | [Karen Li](https://gitlab.com/karenyli) (interim cover) |
+| **Secure**: Static Analysis, Secret Detection, Dynamic Analysis, Composition Analysis, Vulnerability Research <br> **Software Supply Chain Security**: Security Policies, Threat Insights, Compliance, Authentication, Anti-Abuse, Authorization | [Karen Li](https://gitlab.com/karenyli) (interim cover) |
 | **Create**: Source Code, Code Review, IDE, Editor Extensions, Code Creation | [Ben Leduc-Mills](https://gitlab.com/leducmills) |
-| **Verify**: Pipeline Execution, Pipeline Authoring, Runner, Hosted Runners <br> **Package**: Package <br> **Govern**: Pipeline Security | [Erika Feldman](https://gitlab.com/enf) |
+| **Verify**: Pipeline Execution, Pipeline Authoring, Runner, Hosted Runners <br> **Package**: Package <br> **Software Supply Chain Security**: Pipeline Security<br>**AI-Powered**: Duo Workflow / AI Agents | [Erika Feldman](https://gitlab.com/enf) |
+
+| AI themes | UXR Point of Contact |
+| -------- | --------- |
+| AI usability | UX Researcher of your own stage(s) |
+| Code completion | [Ben Leduc-Mills](https://gitlab.com/leducmills) |
+| AI onboarding | [Will Leidheiser](https://gitlab.com/wleidheiser) <br> [Anne Lasch](https://gitlab.com/alasch) |
+| Duo Workflow / AI Agents | [Erika Feldman](https://gitlab.com/enf) |
+| Duo Enterprise | [Danika Teverovsky](https://gitlab.com/dteverovsky) |
+| AI context <br> AI settings | [Nicholas Hertz](https://gitlab.com/NickHertz) |
+| All other AI items or new AI themes | [Nicholas Hertz](https://gitlab.com/NickHertz) <br> [Karen Li](https://gitlab.com/karenyli) |
 
 ## How UX Researchers work
 
@@ -61,6 +71,8 @@ Note that UX Researchers adopting the Collaborative UX Research working model ca
 
 UX Researchers collaborate with Product Managers to determine the scope of research studies. Where possible, UX Researchers should try to attend planning meetings for their designated groups.
 UX Researchers should proactively offer ways in which they can assist in the delivery of research. They should also suggest and discuss their own ideas for research studies with Product Managers.
+
+Read more on [how UX Research prioritize our works](/handbook/product/ux/ux-research/research-prioritization).
 
 ## How UX Researchers spend their time
 
@@ -147,7 +159,7 @@ When we drive our own research projects, it means we're also responsible for soc
 
 Below is an example of the formatting:
 
-![Slack snippet](posting.png)
+![Slack snippet](/images/product/ux/ux-research/how-uxr-team-operates/posting.png)
 
 ## How the UX Research team handles scheduling Paid Time Off (PTO)
 
