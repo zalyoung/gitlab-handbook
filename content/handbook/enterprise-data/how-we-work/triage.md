@@ -91,20 +91,6 @@ Having dedicated triagers on the team helps address the bystander affect. The sc
 
 Data triagers are the first responders to requests and problems for the Data Program. 
 
-**Shared Responsibilities Across All Triage Roles**
-
-All Data Team triagers, regardless of their specific role, share these core responsibilities:
-
-- Monitor and respond to team member requests in both the #data channel and their function-specific Slack channels
-- Handle issues labeled with their team designation (e.g., Data Platform triager handles ~"Team::Data Platform" labeled issues, Analytics Engineer triager handles ~"Team::Analytics Engineering" labeled issues, etc.) 
-- Create and manage issues using appropriate templates for their domain
-- Review and respond to alerts within their designated monitoring systems
-- Ensure proper handoff of ongoing issues when triage rotation ends
-- Maintain clear documentation of investigation steps and resolutions
-- Act as first responders to problems within their domain
-- Coordinate with other triagers when issues cross multiple domains
-- Follow up on existing open issues to ensure progress
-
 **Functional Analysts Responsibilities**
 
 - The Functional Analyst triage handle is primarily responsible for responding to GitLab team member requests that relate to their functions via Slack in **#data**.
