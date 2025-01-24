@@ -37,7 +37,7 @@ description: "This page discusses the Internal Hiring Process"
     - If they have additional questions, they may reach out to the team member's current PBP.
 - For promotions through the internal mobility process (upward movement from one job grade to another), tag the department specific People Business Partner in the notes section of Greenhouse to ensure they are aligned before moving forward with the offer. Additionally, confirm that the offer has been approved by the skip-level leader of the new role.
 - Once the Recruiter has confirmed the eligibility status via HelpLab (and the team member is confirmed eligible) the Recruiter will reach out to the team member to introduce themselves and set expectations around the internal hiring process. This includes ensuring they have notified their current manager. 
-    - If a team member is not eligible, the Recruiter will send the appropriate decline email template.
+- If a team member is not eligible, the Recruiter will send the appropriate decline email template.
 - The recruiter will also review the team member’s current compensation (found in Workday) to ensure they are in line with the salary range and budget for the role.
     - If a team member's current compensation is above the budget and/or salary range for the role, the recruiter will alert the team member of this at the start of the process to ensure the team member is aware of this before completing team interviews.
 - Recruiter will then continue the process as described in the [Talent Acquisition Process Framework]({{< ref "talent-acquisition-framework" >}}) for all candidates. Recruiter will use identified templates in Greenhouse to communicate with candidates, current managers and hiring managers throughout the internal hiring process.
