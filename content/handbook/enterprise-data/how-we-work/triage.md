@@ -209,7 +209,7 @@ The Data Team leverages the [GitLab Triage Bot](https://gitlab.com/gitlab-org/gi
 
 Triagers rely on labels to identify and prioritize work within their domain. Team members who are unsure about which labels to apply can add the `clean-up::review` label to their issue, and the triage team will assist with proper labeling.
 
-This automation helps maintain project hygiene by ensuring every issue has the required labels: `team::`, `priority::`,` champion::`, and `workflow::`. `Documentation`, `Iteration Planning`, and `Discussion` labels are excluded from these requirements.
+This automation helps maintain project hygiene by ensuring every issue has the required scoped labels: `team`, `priority`,` champion`, and `workflow`. The labels `Documentation`, `Iteration Planning`, and `Discussion` are excluded from these requirements.
 
 The automated process begins three days after an issue is created. When required labels are missing, the bot adds a comment listing the missing labels and applies both `Needs Triage` and `clean-up::warning` labels. The comment includes instructions for requesting help through the `clean-up::review` label.
 
