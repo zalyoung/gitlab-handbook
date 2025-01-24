@@ -46,7 +46,7 @@ It's important to recognize those who enable others to perform at their best, wh
 
 ## Guidance for Managers
 
-As a manager at GitLab, it is your responsibility to understand the value your team brings to the company. This requires a multifaceted approach to measuring productivity, including but not limited to:
+As a manager at GitLab, it is your responsibility to understand and communicate the value your team brings to the company. This requires a multifaceted approach to measuring productivity, including but not limited to:
 
 **Identify Key Metrics**
 
