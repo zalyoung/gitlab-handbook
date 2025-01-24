@@ -377,6 +377,20 @@ post_comment_on_failure:
   rules:
   - <<: *merge-request-or-tag
 
+resolve_comment_on_success:
+  needs: ["markdownlint", "handbooklint", "vale", "hugolint"]
+  when: on_success
+  stage: notify
+  image:
+    name: gitlab/glab
+    entrypoint: [""]
+  before_script:
+    - apk add jq sed bash
+  script:
+    - bash ./scripts/resolve-comment.sh
+  rules:
+  - <<: *merge-request-or-tag
+
 notify_slack_on_build_failures:
   when: on_failure
   stage: notify
