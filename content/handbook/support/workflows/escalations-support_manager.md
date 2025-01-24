@@ -69,7 +69,7 @@ To serve as Support Manager DRI for an Account Escalation, use the following ste
 
 ### Step 1: Lead Support Engineer Assignment
 
-- Assign a Support Engineer to act as the **Lead Support Engineer** during an Account Escalation. In collaboration with the Escalation DRI decide on the best region for the engineer to be in the same region as the escalated customer.
+- Assign a Support Engineer to act as the **Lead Support Engineer** during an Account Escalation.  In collaboration with the Escalation DRI, determine the most suitable region for the engineer to be located in, ensuring alignment with the escalated customer’s region.
 
   - If the escalation requires global effort, work with the on-call managers to identify Lead Support Engineers in those other regions.
 
