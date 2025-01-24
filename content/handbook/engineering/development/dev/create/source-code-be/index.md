@@ -51,6 +51,8 @@ The following people of other functional teams are our stable counterparts:
 
 - GitLab Team Handle: `@gitlab-com/create-team/source-code/backend`
 - Slack Channel: `#g_create_source-code-be`
+- [Team error budget dashboard 1](https://dashboards.gitlab.net/goto/2YoyikIHR?orgId=1)
+- [Team error budget dashboard 2](https://dashboards.gitlab.net/goto/O6YJZodNR?orgId=1)
 
 ## Sisense and KPIs
 
