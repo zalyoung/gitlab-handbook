@@ -26,7 +26,7 @@ Provide a brief description of your purchase and be sure to select the correct c
 
 # Tips for Submitting a Zip Request
 
-[Tips for submitting a Zip request](https://handbook.gitlab.com/handbook/finance/procurement/tips-for-submitting-a-zip-request/)
+[Tips for submitting a Zip request](/handbook/finance/procurement/tips-for-submitting-a-zip-request/)
 
 ## Submitting a request for a Contingent Worker
 
@@ -82,8 +82,8 @@ Max duration for this worker is 24 months, with a 3 month break. End date must b
 1. Before submitting a Zip request for a Contingent Worker:
 - Confirm you have internal approval from FP&A and your management to hire a contingent worker and that this role is (i) not currently being performed by a GitLab Employee or (ii) there is not an open headcount position for this role.
 - If the Contingent Worker requires access to Okta and/or core GitLab core applications, a GitLab laptop must be issued followed by a Zip approval from IT Ops validating laptop issuance.
-- If the Contingent Worker requires [GitLab equipment](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/a97ab3e71d08b55aea70f119caf5d41689ae9549/sites/handbook/source/handbook/finance/procurement/index.html.md#security-approval-requirements-for-contractors-consultants) (i.e. has access to Orange or Red data), the Zip purchase requisition will need to be submitted 10 days in advance of the normal approval [timeline](https://handbook.gitlab.com/handbook/finance/procurement/#-review-steps-timeline-and-considerations) to account for ordering and shipping of the equipment. [Certain locations](https://gitlab.com/gitlab-com/www-gitlab-com/-/merge_requests/127746#note_1497241068) will require IT Approval before providing the equipment. If you are unsure if the IC will require GitLab equipment, please reach out to the #it_help channel in slack.
-   - Lead times start once the purchase requisition has been fully approved and the PO is released. Please account for this time and the [Zip approval times](https://handbook.gitlab.com/handbook/finance/procurement/#-review-steps-timeline-and-considerations) to determine how far in advance your Zip Request needs to be submitted prior to the IC's start date.
+- If the Contingent Worker requires [GitLab equipment](/handbook/source/handbook/finance/procurement/index.html.md#security-approval-requirements-for-contractors-consultants) (i.e. has access to Orange or Red data), the Zip purchase requisition will need to be submitted 10 days in advance of the normal approval [timeline](handbook/finance/procurement/#-review-steps-timeline-and-considerations) to account for ordering and shipping of the equipment. [Certain locations](https://gitlab.com/gitlab-com/www-gitlab-com/-/merge_requests/127746#note_1497241068) will require IT Approval before providing the equipment. If you are unsure if the IC will require GitLab equipment, please reach out to the #it_help channel in slack.
+   - Lead times start once the purchase requisition has been fully approved and the PO is released. Please account for this time and the [Zip approval times](handbook/finance/procurement/#-review-steps-timeline-and-considerations) to determine how far in advance your Zip Request needs to be submitted prior to the IC's start date.
 
 2. Open Zip to submit your request for a contingent worker by selecting "New Request" and then "Request a Purchase - Contingent Worker or Consultancy Services"
 
@@ -125,11 +125,11 @@ Max duration for this worker is 24 months, with a 3 month break. End date must b
 
 7. Once the Zip Request is approved, open and complete the [Individual Contributor Onboarding Issue](https://gitlab.com/gitlab-com/temporary-service-providers/lifecycle/-/issues/new?issuable_template=orientation-issue)
 
-8. If you need to extend the contract term of an IC, submit a [Zip Change Request](https://handbook.gitlab.com/handbook/finance/procurement/#step-2-submit-your-zip-request)
+8. If you need to extend the contract term of an IC, submit a [Zip Change Request](/handbook/finance/procurement/#step-2-submit-your-zip-request)
 
-9. If you need to cancel / terminate the Contractor's agreement earlier than the specified term, review the [Cancellation process](https://handbook.gitlab.com/handbook/finance/procurement/#6-cancellation) and reach out to the Procurement Team in the #procurement slack channel
+9. If you need to cancel / terminate the Contractor's agreement earlier than the specified term, review the [Cancellation process](/handbook/finance/procurement/#6-cancellation) and reach out to the Procurement Team in the #procurement slack channel
 
-*Contingent Workers that require Orange and Red Data access, that will be processed or stored outside GitLab's systems, are considered "Professional Services" and are subject to a full security review. Please see the [Security Third Party Risk Management Handbook](https://handbook.gitlab.com/handbook/security/security-assurance/security-risk/third-party-risk-management/) for more details.
+*Contingent Workers that require Orange and Red Data access, that will be processed or stored outside GitLab's systems, are considered "Professional Services" and are subject to a full security review. Please see the [Security Third Party Risk Management Handbook](/handbook/security/security-assurance/security-risk/third-party-risk-management/) for more details.
 
 #### Submitting a request for New Software
 
