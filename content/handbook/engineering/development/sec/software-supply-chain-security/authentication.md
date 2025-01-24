@@ -2,7 +2,7 @@
 title: "Authentication Group"
 ---
 
-### Govern:Authentication{#welcome}
+### SSCS:Authentication{#welcome}
 
 #### Mission
 
@@ -68,7 +68,7 @@ The Authentication group is a central piece to the GitLab product! While many gr
 
 ##### Security vulnerability issues
 
-Bypassing permissions and authentication mechanisms are, by nature, common security targets. We closely watch new security vulnerability issues and schedule them as quickly as possible based on their [due date](/handbook/security/engaging-with-security/#due-date-on-security-issues). For planning security issues we use [the (filtered) milestone planning issue board](https://gitlab.com/gitlab-org/gitlab/-/boards/4260654?label_name%5B%5D=sec%3A%3Agovern&label_name%5B%5D=group%3A%3Aauthentication&label_name%5B%5D=bug%3A%3Avulnerability). We expect all team members to be able to resolve security issues following the [security developer workflow](https://gitlab.com/gitlab-org/release/docs/-/blob/master/general/security/engineer.md#security-releases-critical-non-critical-as-a-developer).
+Bypassing permissions and authentication mechanisms are, by nature, common security targets. We closely watch new security vulnerability issues and schedule them as quickly as possible based on their [due date](/handbook/security/engaging-with-security/#due-date-on-security-issues). For planning security issues we use [the (filtered) milestone planning issue board](https://gitlab.com/gitlab-org/gitlab/-/boards/4260654?label_name%5B%5D=sec%3A%3Asscs&label_name%5B%5D=group%3A%3Aauthentication&label_name%5B%5D=bug%3A%3Avulnerability). We expect all team members to be able to resolve security issues following the [security developer workflow](https://gitlab.com/gitlab-org/release/docs/-/blob/master/general/security/engineer.md#security-releases-critical-non-critical-as-a-developer).
 
 ##### Code Review
 
@@ -76,7 +76,7 @@ Because this group works on components of the application that have a [far-reach
 
 1. Our team's merge requests should be assigned to another Auth team member for first review in order to build more institutional knowledge across the team. This review should be done as a [reviewer](https://docs.gitlab.com/ee/development/code_review.html#the-responsibility-of-the-reviewer). The Auth approval counts as the approval matching the role of the Auth Reviewer, e.g. having a Backend Review from Auth counts as a Backend Review. Once approved, the Auth Reviewer should request a review from a Maintainer from the appropriate [maintainer category](https://docs.gitlab.com/ee/development/code_review.html#approval-guidelines).
 1. Auth merge requests will include a comment that needs answered before merging, "Should this be behind a feature flag?" This is an effort to remind engineers about feature flag usage, but also to challenge reasoning as to why changes do not need to be behind a feature flag.
-1. Auth related merge requests require a review by an [Auth Engineer](https://gitlab.com/groups/gitlab-org/govern/authentication/approvers/-/group_members?with_inherited_permissions=exclude). This is guarded by using the [CODEOWNERS](https://docs.gitlab.com/ee/user/project/codeowners/) feature of GitLab.
+1. Auth related merge requests require a review by an [Auth Engineer](https://gitlab.com/groups/gitlab-org/sscs/authentication/approvers/-/group_members?with_inherited_permissions=exclude). This is guarded by using the [CODEOWNERS](https://docs.gitlab.com/ee/user/project/codeowners/) feature of GitLab.
 
 ##### Rollout and validation for token related features or destructive data updates
 
@@ -102,7 +102,7 @@ Lastly, due to the direct impact of authentication change on the ability to acce
 - Everyone can contribute; no silos.
   - The goal is to have product give engineering and design the opportunity to be involved with direction and issue definition from the very beginning.
 - We do an optional, asynchronous daily stand-up in our group stand-up channel:
-  - Govern:Authentication [#g_govern_authentication_daily](https://gitlab.slack.com/archives/C01311Z0LDD)
+  - SSCS:Authentication [#g_sscs_authentication_daily](https://gitlab.slack.com/archives/C01311Z0LDD)
 
 #### With our counterparts
 
@@ -120,12 +120,14 @@ Application Security will be involved in our security issue workflow and should 
 - [Confirming whether or not something is considered a vulnerability](https://gitlab.com/gitlab-org/gitlab/-/issues/364526#note_1041178738)
 - [Collaborating on feature proposals to see if they have any security implications](https://gitlab.com/gitlab-org/gitlab/-/issues/227841#note_1025940760)
 
+#### Support priority requests
+
+As the primary interface between customers and engineering team, support team has insights into product and process improvements that will help reduce friction for our customers along with the need for manual intervention by the support team. Feature or enhancement requests such as these are labelled with `Support Priority` and surfaced by support team counterparts during milestone planning, in the group's planning issue for the respective milestone. At least once a year, when planning for yearly roadmaps, these are also matched against the impact on customers and support. These are then prioritized by the group based on available capacity for each milestone.
+
 #### Keeping yourself informed
 
-- [Subscribe to these company Slack channels](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/getting-started/communication/#read-all-of)
-- [Review the `#engineering-fyi` weekly](/handbook/engineering/engineering-comms/#engineering-fyi-channel)
-- Other channels of interest are `#team-member-updates`, `#g_govern_authentication`, `#sec_section`, `#ceo`, `#cto`
-- We create a weekly issue to inform the team members about the company or team updates, to share important links or to be informed about the team availability. Creation of the issue is the responsibility of an Engineering Manager, who can use an issue template located in the [Govern/Auth repo](https://gitlab.com/gitlab-org/govern/authentication/discussion). All weekly updates can be found in the project issue list [filtered by weekly update label.](https://gitlab.com/gitlab-org/govern/authentication/discussion/-/issues/?sort=updated_desc&state=closed&label_name%5B%5D=weekly%20update&first_page_size=20)
+- Key channels of interest are `#engineering-fyi`, `#team-member-updates`, `#g_sscs_authentication`, `#sec_section`, `#ceo`, `#cto`
+- We create a weekly issue to inform the team members about the company or team updates, to share important links or to be informed about the team availability. Creation of the issue is the responsibility of an Engineering Manager, who can use an issue template located in the [SSCS/Auth repo](https://gitlab.com/gitlab-org/sscs/authentication/discussion). All weekly updates can be found in the project issue list [filtered by weekly update label.](https://gitlab.com/gitlab-org/sscs/authentication/discussion/-/issues/?sort=updated_desc&state=closed&label_name%5B%5D=weekly%20update&first_page_size=20)
 
 #### MR review requests
 
@@ -137,7 +139,7 @@ However there are frequently instances where a review request primarily pertains
 
 We plan in monthly cycles in accordance with our [Product Development Timeline](/handbook/engineering/workflow/#product-development-timeline). Our typical planning cycle includes:
 
-- At the beginning of each month, Product should have created [a planning issue](https://gitlab.com/gitlab-org/govern/authentication/discussion/-/issues/118) for the coming release.
+- At the beginning of each month, Product creates [a planning issue](https://gitlab.com/gitlab-org/software-supply-chain-security/authentication/discussion/-/issues/?sort=created_date&state=opened&label_name%5B%5D=group%3A%3Aauthentication&label_name%5B%5D=Planning%20Issue&first_page_size=20) for the coming release.
   - This issue should include the general themes of a release. It should also include placeholders for [the quad](/handbook/engineering/infrastructure/test-platform/quad-planning/) to put their prioritized feature, bug, and maintenance lists.
   - Issues without estimates should be investigated by engineering throughout the month so weighting does not need to happen at once. Once the prioritized feature list is determined for a milestone, engineering will put a weight on any issues on the list that do not have a weight.
 - Within the first 12 days of the month we estimate the issues. We also identify any key issues that our team feels should be addressed in the upcoming milestone, including bugs, maintenance tasks, and new features. This approach helps us build a list of important issues that we all agree should be prioritized in future milestones.
@@ -151,7 +153,7 @@ Some items may be marked for a certain milestone, but do not have the `~Delivera
 
 Before work can begin on an issue, we should estimate it first after a preliminary investigation. If the scope of work of a given issue touches several disciplines (docs, design, frontend, backend, etc.) and involves significant complexity across them, consider creating separate issues for each discipline (see [an example](https://gitlab.com/gitlab-org/gitlab/-/issues/9288)).
 
-After the PM creates a [planning issue](https://gitlab.com/groups/gitlab-org/govern/authentication/-/issues/?sort=popularity&state=opened&label_name%5B%5D=Planning%20Issue&first_page_size=20) for the next release, the quad will gather a prioritized list of issues that should be considered. The EM will then create a "breakdown" issue with a checklist of issues that need to be estimated ([example](https://gitlab.com/gitlab-org/govern/authentication/discussion/-/issues/45)). All Engineers from the group should be assigned to that issue and participate in weighting or breaking down the list.
+After the PM creates a [planning issue](https://gitlab.com/groups/gitlab-org/sscs/authentication/-/issues/?sort=popularity&state=opened&label_name%5B%5D=Planning%20Issue&first_page_size=20) for the next release, the quad will gather a prioritized list of issues that should be considered. The EM will then create a "breakdown" issue with a checklist of issues that need to be estimated ([example](https://gitlab.com/gitlab-org/sscs/authentication/discussion/-/issues/45)). All Engineers from the group should be assigned to that issue and participate in weighting or breaking down the list.
 
 When estimating development work, please add the appropriate weight to the issue:
 
@@ -214,7 +216,7 @@ For work items that span greater than 1 week or are high priority deliverables (
 We have [many labels](https://docs.gitlab.com/ee/development/labels/index.html) that can be applied to an issue or merge request. Besides the issue workflow labels above, here are the minimum basic labels to apply to issues and merge requests:
 
 - Type (`type::feature`, `type::bug`, or `type::maintenance`)
-- Stage that owns the area (`devops::govern`)
+- Stage that owns the area (`devops::software supply chain security`)
 - Group that owns the area (`group::authentication`)
 - Specialization (`frontend`, `backend`, `database`, `documentation`)
 - `security` if the issue is related to application security, and `breaking change` if this work is considered a [breaking change](https://docs.gitlab.com/ee/update/terminology.html#breaking-change)
@@ -225,7 +227,7 @@ With the combination of our capacity planning (EM) and estimation (IC) processes
 
 ### How we prioritize for a release
 
-We have [cross-functional prioritization](/handbook/product/product-processes/#cross-functional-prioritization) aligned with our prioritization framework. The engineering manager will prioritize `type::maintenance` issues, the product manager will prioritize `type::feature` issues, and the software engineer in test will prioritize `type::bug` issues. From there, we are able to select a ratio of the top issues to be planned for the release by using our [cross-functional issue board](https://gitlab.com/groups/gitlab-org/-/boards/4453752?label_name[]=group%3A%3Aauthentication). **Starting 16.5, our target ratio is to plan 60% features, 20% bugs, and 20% maintenance per release**. Security issues do not count towards these ratios, but instead take away from the total capacity. The data below helps us understand our overall cross-functional status.
+We have [cross-functional prioritization](/handbook/product/product-processes/cross-functional-prioritization/) aligned with our prioritization framework. The engineering manager will prioritize `type::maintenance` issues, the product manager will prioritize `type::feature` issues, and the software engineer in test will prioritize `type::bug` issues. From there, we are able to select a ratio of the top issues to be planned for the release by using our [cross-functional issue board](https://gitlab.com/groups/gitlab-org/-/boards/4453752?label_name[]=group%3A%3Aauthentication). **Starting 16.5, our target ratio is to plan 60% features, 20% bugs, and 20% maintenance per release**. Security issues do not count towards these ratios, but instead take away from the total capacity. The data below helps us understand our overall cross-functional status.
 
 {{< tableau height="600px" toolbar="hidden" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/TopEngineeringMetrics/TopEngineeringMetricsDashboard" >}}
   {{< tableau/filters "GROUP_LABEL"="authentication" >}}
@@ -260,7 +262,7 @@ The roadmap items are then marked with the `Small`, `Medium` labels and a priori
 
 #### Monthly cross-functional dashboard review
 
-We create a monthly issue that is assigned to all counterparts. The issue has to be created manually by an Engineering Manager, but we have an issue template in the [Authentication discussion repo](https://gitlab.com/gitlab-org/govern/authentication/discussion).
+We create a monthly issue that is assigned to all counterparts. The issue has to be created manually by an Engineering Manager, but we have an issue template in the [Authentication discussion repo](https://gitlab.com/gitlab-org/sscs/authentication/discussion).
 
 You can read more about this process on the [handbook page](/handbook/product/product-processes/).
 
@@ -284,11 +286,11 @@ All meetings and 1-1's should have an agenda prepared in advance. If this is not
 
 ### Group Members
 
-Auth group members who are part of the [Authentication group](https://gitlab.com/groups/gitlab-org/govern/authentication/) can be `@` mentioned on GitLab with `@gitlab-org/govern/authentication`.
+Auth group members who are part of the [Authentication group](https://gitlab.com/groups/gitlab-org/sscs/authentication/) can be `@` mentioned on GitLab with `@gitlab-org/sscs/authentication`.
 
 The following people are permanent members of the group:
 
-{{< stable-counterparts role="Govern:Authentication" >}}
+{{< stable-counterparts role="SSCS:Authentication" >}}
 
 ### Dashboards
 
@@ -298,10 +300,10 @@ The following people are permanent members of the group:
 
 {{% include "includes/engineering/software_supply_chain_security-shared-links.md" %}}
 
-- [Milestone retrospectives](https://gitlab.com/gl-retrospectives/govern/authentication/-/issues/53)
+- [Milestone retrospectives](https://gitlab.com/gl-retrospectives/sscs/authentication/-/issues/53)
 - Our Slack channels
-  - Govern:Authentication [#g_govern_authentication](https://gitlab.slack.com/archives/CLM1D8QR0)
-  - Daily standups [#g_govern_authentication_daily](https://gitlab.slack.com/archives/C01311Z0LDD)
+  - SSCS:Authentication [#g_sscs_authentication](https://gitlab.slack.com/archives/CLM1D8QR0)
+  - Daily standups [#g_sscs_authentication_daily](https://gitlab.slack.com/archives/C01311Z0LDD)
 - Issue boards
   - [Milestone board](https://gitlab.com/gitlab-org/gitlab/-/boards/4374016?not%5Blabel_name%5D%5B%5D=Quality&label_name%5B%5D=group%3A%3Aauthentication&label_name%5B%5D=Deliverable&milestone_title=17.4)
   - [Task assignment board](https://gitlab.com/groups/gitlab-org/-/boards/4490634?label_name[]=Deliverable&label_name[]=group%3A%3Aauthentication&milestone_title=17.4)
