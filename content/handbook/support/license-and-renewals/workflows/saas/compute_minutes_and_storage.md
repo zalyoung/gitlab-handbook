@@ -27,7 +27,7 @@ Support ChatOps documentation</a> for more information.
 
 The form has two required fields:
 
-- Namespace: The customer namespace as it appears in the URL.
+- Namespace: The customer namespace as it appears in the URL. (for example: gitlab-silver)
 - Extra minutes: The value of compute minutes. (Note: This will **set** the Additional unit to the provided number so please note the namespace existing state of Additional units before making the change.)
 
 </details>
@@ -39,14 +39,12 @@ The form has two required fields:
 
 The form has two required fields:
 
-- Namespace: The customer namespace as it appears in the URL.
-- Extra storage (MiB): Additional space to add in MB
-
-> Note: As storage is entered as MB, consider that GB is presented in the UI for large numbers. For example: 10000 MB = 9.76 GB. For ‘10 GB of storage’, you should instead use 10240, as 10240 MB = 10 GB
+- Namespace: The customer namespace as it appears in the URL. (for example: gitlab-silver)
+- Extra storage (MiB): Additional space to add in MB (GB * 1024, for example: 10 GB = 10240)
 
 </details>
 
-Adding storage using this tool should be used as a temporary solution. Please create an [Internal Request | Repo size change](https://gitlab.com/gitlab-com/support/internal-requests/-/issues/new?issuable_template=Repo%2520Size%2520Limit%2520Change#) to remove the storage if necessary.
+Adding storage using this tool should be used as a temporary solution. Please create an [Internal Request / Repo size change](https://gitlab.com/gitlab-com/support/internal-requests/-/issues/new?issuable_template=Repo%2520Size%2520Limit%2520Change#) to remove the storage once a permanent solution is in place.
 
 ### Process for authorising additional compute minutes for customers as an act of goodwill
 
