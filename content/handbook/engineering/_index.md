@@ -33,7 +33,9 @@ allows everyone to contribute.
 
 ### Customer Empathy
 
-Engineering decisions at GitLab are guided by a deep understanding of customer needs and challenges. When engineers empathize with customers' workflows and pain points, they make technical choices that deliver meaningful value. By consistently asking "How will this impact our users?" we ensure our engineering excellence translates directly into customer success.
+Engineering decisions at GitLab are guided by a deep understanding of customer needs and challenges. When engineers empathize with customers' workflows and pain points, they make technical choices that deliver meaningful value. By consistently asking "How will this impact our users?" we ensure our engineering excellence translates directly into customer success. 
+
+The [Customer Empathy](/handbook/engineering/customer-empathy/) handbook page outlines resources and practical guidance for engineers to better understand and interact with customers.
 
 ## Engineering Initiatives
 
