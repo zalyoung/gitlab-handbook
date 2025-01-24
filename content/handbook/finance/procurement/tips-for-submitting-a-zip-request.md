@@ -24,7 +24,7 @@ Provide a brief description of your purchase and be sure to select the correct c
 
 #### Submitting a request for a Contractor
 
-# Tips for Submitting a Zip Request
+## Tips for Submitting a Zip Request
 
 [Tips for submitting a Zip request](/handbook/finance/procurement/tips-for-submitting-a-zip-request/)
 
@@ -79,7 +79,9 @@ Max duration for this worker is 24 months, with a 3 month break. End date must b
 
 ### How to Submit a Zip Request for a Contingent Worker
 
+
 1. Before submitting a Zip request for a Contingent Worker:
+
 - Confirm you have internal approval from FP&A and your management to hire a contingent worker and that this role is (i) not currently being performed by a GitLab Employee or (ii) there is not an open headcount position for this role.
 - If the Contingent Worker requires access to Okta and/or core GitLab core applications, a GitLab laptop must be issued followed by a Zip approval from IT Ops validating laptop issuance.
 - If the Contingent Worker requires [GitLab equipment](/handbook/source/handbook/finance/procurement/index.html.md#security-approval-requirements-for-contractors-consultants) (i.e. has access to Orange or Red data), the Zip purchase requisition will need to be submitted 10 days in advance of the normal approval [timeline](handbook/finance/procurement/#-review-steps-timeline-and-considerations) to account for ordering and shipping of the equipment. [Certain locations](https://gitlab.com/gitlab-com/www-gitlab-com/-/merge_requests/127746#note_1497241068) will require IT Approval before providing the equipment. If you are unsure if the IC will require GitLab equipment, please reach out to the #it_help channel in slack.
