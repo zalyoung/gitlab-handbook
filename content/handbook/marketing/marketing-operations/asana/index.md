@@ -21,11 +21,19 @@ We've consistently heard from team members across the marketing org that there i
 
 Asana licenses will be rolled out across the entire Marketing Org, excluding Sales Development and the Data Team.
 
-View Only licenses are available to GitLab team members.
+View Only licenses are available to all GitLab team members. If you would like a view only license, please put in an [access request](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/new?issuable_template=Individual_Bulk_Access_Request).
 
 ## Asana Implementation Project
 
 The Marketing Ops team started implementation on 2024-07-12. We are managing the [implementation project in Asana](https://app.asana.com/0/1207801099246898/1207801099246898).
+
+## How to get help with Asana
+
+If you have questions, first self-service by reviewing this Handbook page, [Asana Help Center](https://help.asana.com/s/?language=en_US), and/or [Asana Academy](https://academy.asana.com/). If you cannot find a solution on your own, feel free to let us know using this [GitLab Internal Support Form](https://form.asana.com/?k=rIdwTWezTYqZhSI9vgJZsQ&d=306855239930259).
+
+## Self-Paced Learning
+
+The [Asana Academy](https://academy.asana.com/) is a great resource with live and on-demand webinars and workshops.
 
 ## Getting Started in Asana
 
@@ -229,10 +237,52 @@ If you're unsure which tool to use:
 
 **Remember:** The goal is to keep related work together while using each tool for its strengths. When in doubt, ask yourself "Where would others look for this information?"
 
-## How to get help with Asana
+## Integrations with Asana
 
-If you have questions, first self-service by reviewing this Handbook page, [Asana Help Center](https://help.asana.com/s/?language=en_US), and/or [Asana Academy](https://academy.asana.com/). If you cannot find a solution on your own, feel free to let us know using this [GitLab Internal Support Form](https://form.asana.com/?k=rIdwTWezTYqZhSI9vgJZsQ&d=306855239930259).
+### GitLab
 
-## Self-Paced Learning
+Certain GitLab issues auto-create Asana projects and tasks based on a custom built workflow. More details to be added, but currently only available as a part of the Field Marketing workflow from Allocadia > GitLab > Asana. The majority of tasks and requests should live solely in Asana, please utilize the guide above to know when and how to use GitLab vs Asana.
 
-The [Asana Academy](https://academy.asana.com/) is a great resource with live and on-demand webinars and workshops.
+Details about integration (To be documented)
+
+### Slack
+
+Turn any Slack message into an actionable Asana task with just a few clicks. A few things you can do:
+
+1. Create a new task, assign it to yourself or a teammate, and add it to an existing project
+2. Mark a task complete, or make a comment
+3. Receive updates on task creation, completion, or 
+4. Stay up to date on projects with AI-generated Summaries
+   - Once an Asana task link is pasted in Slack, you can simply click on the “Summarize task” button and a summary is generated.
+   - You can ask questions Asana AI in Slack to understand the latest updates on projects and tasks, identify next steps, uncover key blockers, and more.
+5. Create rules in Asana to trigger updates to Slack channels.
+
+### Google Workspace
+
+1. Google Docs & Sheets - Connection will allow you to paste Asana projects/tasks and have them format well within the doc. To create tasks, you must use the Chrome Extension.
+2. GMail - Turn emails into tasks by syncing email threads into Asana. You can also mark tasks as complete, reply and post comments from notifications sent to your inbox.
+3. Google Drive - Connect and link documents directly in the Asana task
+
+### Chrome Browser
+
+Utilize the Asana plugin in your chrome browser to quickly create tasks and add to projects.
+
+### Figma
+
+Limited integration, but allows you to view live embeds of Figma diagrams and charts directly inside of project briefs. 
+
+**In Figma**
+- Open the file you want to embed in your Project Brief.
+- To link to a specific frame in the Figma file, select the frame.
+- Click the Share button in the toolbar.
+- Update your link sharing permissions to determine who can view and interact with the file embed (Optional).
+- Click Copy link when you're ready to embed the file.
+
+**In Asana**
+- Open the project where you'd like to embed a Figma file.
+- Go to the Overview tab.
+- In the Key Resources section, click Create a Project Brief. If there's already a Project Brief, click anywhere on the title.
+- When the Brief opens, click Edit in the top right.
+- Click the place in the Brief you'd like to embed.
+- Paste in the Figma link and a preview will expand below it.
+- You can also click the + icon to the left of the line you're on and choose Insert Media. Paste the Figma link into the box and click Embed link.
