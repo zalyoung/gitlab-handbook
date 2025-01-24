@@ -311,7 +311,7 @@ GitLab guides the wider community to search for issues with the `quick win` labe
 
 - The issue description must include an implementation plan as a second or third level heading with guidance
 to help contributors get started.
-For example ## Implementation, ### Implementation, ## Implementation plan and ### Implementation guide are all acceptable.
+For example `## Implementation`, `### Implementation`, `## Implementation plan` and `### Implementation guide` are all acceptable.
 This section can be very brief or offer possible actions to resolve the issue.
 - The issue must be assigned a weight between 0-3.
 Issue weights should approximate the complexity and effort required.
