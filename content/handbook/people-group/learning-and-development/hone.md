@@ -2,7 +2,7 @@
 title: Hone Partnership
 ---
 
-GitLab has partnered with Hone to provide expanded professional development opportunities through live, coach-led learning experiences. Hone, who also delivers our [Elevate](./elevate.md) leadership development program, specializes in interactive virtual training sessions led by expert facilitators.
+GitLab has partnered with Hone to provide expanded professional development opportunities through live, coach-led learning experiences. Hone, who also delivers our [Elevate](handbook/people-group/learning-and-development/elevate-programs/) leadership development program, specializes in interactive virtual training sessions led by expert facilitators.
 
 ## Overview
 
@@ -23,7 +23,7 @@ All GitLab people managers will receive unlimited access to the Hone platform fo
 
 ### Individual Contributors
 
-Individual Contributors can access Hone through their [Growth and Development benefit](/handbook/benefits/growth-and-development/). More details about this process will be shared soon.
+Individual Contributors can access Hone through their [Growth and Development benefit](/handbook/people-group/learning-and-development/growth-and-development/). More details about this process will be shared soon.
 
 ## GitLab Membership Programs
 
