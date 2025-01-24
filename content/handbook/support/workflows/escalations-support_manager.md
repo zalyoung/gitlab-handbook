@@ -104,7 +104,7 @@ Work with the escalation team to provide daily or weekly updates in the related 
 - Next steps
 - Blockers
 
-Help maintain updates (in collaboration with the escalation team) in the Slack channel as the Escalation DRI will gather the information here and feed it back to the SalesForce case and have it there as SSOT.
+Work with the escalation team to keep the Slack channel updated. The Escalation DRI will use this information to update the Salesforce case, ensuring it serves as the single source of truth (SSOT)
 
 #### Pausing Daily Updates
 
