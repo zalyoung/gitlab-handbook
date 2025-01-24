@@ -1,6 +1,6 @@
 ---
 title: Handling compute minutes and Storage
-description: Adjusting compute minutes and Storage
+description: Adjusting compute minutes and storage
 category: GitLab.com subscriptions & purchases
 ---
 
@@ -23,7 +23,7 @@ Support ChatOps documentation</a> for more information.
 </details>
 
 <details>
-<summary>Using the Cdot [Namespace controls SaaS | Set extra CI minutes tab](https://customers.gitlab.com/admin/saas_full_order/set_extra_ci_minutes). </summary>
+<summary>Using the Cdot [Namespace controls SaaS / Set extra CI minutes](https://customers.gitlab.com/admin/saas_full_order/set_extra_ci_minutes) tab. </summary>
 
 The form has two required fields:
 
@@ -32,10 +32,10 @@ The form has two required fields:
 
 </details>
 
-## Adding additional storage
+## Adding storage
 
 <details>
-<summary>Using the Cdot [Namespace controls SaaS | Set additional storage tab](https://customers.gitlab.com/admin/saas_full_order/add_storage). </summary>
+<summary>Using the Cdot [Namespace controls SaaS / Set additional storage](https://customers.gitlab.com/admin/saas_full_order/add_storage) tab. </summary>
 
 The form has two required fields:
 
@@ -46,7 +46,7 @@ The form has two required fields:
 
 </details>
 
-After adding the storage, if it's only a temporary solution, please create an [Internal Request | Repo size change](https://gitlab.com/gitlab-com/support/internal-requests/-/issues/new?issuable_template=Repo%2520Size%2520Limit%2520Change#) to remove the storage if necessary.
+Adding storage using this tool should be used as a temporary solution. Please create an [Internal Request | Repo size change](https://gitlab.com/gitlab-com/support/internal-requests/-/issues/new?issuable_template=Repo%2520Size%2520Limit%2520Change#) to remove the storage if necessary.
 
 ### Process for authorising additional compute minutes for customers as an act of goodwill
 
