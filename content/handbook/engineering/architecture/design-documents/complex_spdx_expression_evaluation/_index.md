@@ -277,7 +277,13 @@ the bit array approach would look like so:
 ```ruby
 licenses_from_policy = 0b00000100
 licenses_from_report = 0b01010010
-return true if (licenses_from_report & licenses_from_policy) > 0
+
+def is_compliant?(licenses_from_policy, licenses_from_report)
+  (licenses_from_report & ~licenses_from_policy) == 0
+end
+
+is_compliant?(licenses_from_policy, licenses_from_report)
+=> false
 ```
 
 ### Storage
