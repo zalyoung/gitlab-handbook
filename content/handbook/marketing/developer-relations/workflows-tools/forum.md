@@ -283,7 +283,7 @@ Steps for bannering on Discourse:
 ## Administration
 
 - Developer Relations DRIs: @sugaroverflow @dnsmichi
-- [Tech stack owners](/handbook/business-technology/tech-stack/#discourse): @sugaroverflow @dnsmichi
+- [Tech stack owners](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/data/tech_stack.yml): @sugaroverflow @dnsmichi
 - [Forum staff members](https://forum.gitlab.com/about)
 
 ### Discourse Platform
