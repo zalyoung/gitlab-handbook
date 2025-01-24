@@ -180,8 +180,17 @@ Calculation for `cell-2`:
 - Sequence `max`: (min + SequencesPerCell - 1) -> 4398046511101
 - Sequence range:  [2199023255551, 4398046511101]
 
-More details on the decision taken and other solutions evaluated can be found [here](decisions/008_database_sequences.md)
-and the reasoning behind choosing the logic to generate sequence ranges can be found [here](https://gitlab.com/gitlab-org/gitlab/-/issues/465809).
+NOTES:
+
+1. The above decision will support till [Cells 1.5](iterations/cells-1.5.md) but not [Cells 2.0](iterations/cells-2.0.md).
+   - To support Cells 2.0 (i.e: allow moving organizations from
+     Cells to the Legacy Cell), we need all integer IDs in the Legacy Cell to be converted to `bigint`.
+     Which is an ongoing effort as part of [core-platform-section/data-stores/-/issues/111](https://gitlab.com/gitlab-org/core-platform-section/data-stores/-/issues/111)
+     and it is estimated to take around 12 months.
+2. It's still uncertain how we will reuse the unused IDs from the decommissioned cells, it's been tracked in [issue#499109](https://gitlab.com/gitlab-org/gitlab/-/issues/499109).
+    - But this should not block anything as we can accommodate 65,535 cells for now and have room to increase in future using the reserved bits.
+
+More details on the decision taken and other solutions evaluated can be found [here](decisions/008_database_sequences.md).
 
 ```proto
 // sequence_request.proto

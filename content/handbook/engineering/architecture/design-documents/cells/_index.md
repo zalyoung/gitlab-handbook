@@ -44,7 +44,6 @@ This section links all different technical proposals that are being evaluated.
   - Planned: Indexing Service
 - [Mutual authentication between Cell services](mutual_authentication_between_cell_services.md)
 - [Feature Flags](./infrastructure/feature_flags.md) - ([Previous iteration](feature_flags.md))
-- [Cluster wide unique sequences](unique_sequences.md)
 - [Cells: Infrastructure](./infrastructure/_index.md)
 - [Organization migration](migration.md)
 - [Routable Tokens](routable_tokens.md)
