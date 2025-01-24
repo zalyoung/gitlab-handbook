@@ -73,7 +73,6 @@ Max duration for this worker is 24 months, with a 3 month break. End date must b
 
 ### How to Submit a Zip Request for a Contingent Worker
 
-
 1. Before submitting a Zip request for a Contingent Worker: 
    - Confirm you have internal approval from FP&A and your management to hire a contingent worker and that this role is (i) not currently being performed by a GitLab Employee or (ii) there is not an open headcount position for this role.
    - If the Contingent Worker requires access to Okta and/or core GitLab core applications, a GitLab laptop must be issued followed by a Zip approval from IT Ops validating laptop issuance.
