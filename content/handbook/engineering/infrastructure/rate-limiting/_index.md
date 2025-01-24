@@ -28,17 +28,15 @@ flowchart TD
         D[gitlab.com zone]
         F[customers.gitlab.com zone]
     end
-    A -->|*.gitlab.io| C
+    A -->|*.gitlab.io| K
     A -->|registry.gitlab.com| N
     D --> G
     F --> H
     G[https + ssh]
     subgraph ide2 [GitLab]
         subgraph ide1 [HAProxy]
-            C[pages_http]
             N[registry_https]
         end
-        C --> K
         H[nginx]
         K[pages kubernetes limits]
         K-->M[pages application limits]
