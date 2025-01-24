@@ -152,9 +152,7 @@ advanced features such as Transit for other solutions inside GitLab Rails.
 Within OpenBao, we'll use two authentication engines:
 
  1. [AppRole](https://openbao.org/docs/auth/approle/), to authenticate GitLab
-    Rails to OpenBao Server for privileged access. This will be done through
-    the [Auto-Authing Proxy](https://openbao.org/docs/agent-and-proxy/proxy/),
-    allowing GitLab Rails to connect with transparent authentication.
+    Rails to OpenBao Server for privileged access.
  1. [JWT](https://openbao.org/docs/auth/jwt/), to authenticate created
     pipeline jobs to OpenBao. These will be issued by GitLab Rails,
     using GitLab [OIDC ID Tokens](https://docs.gitlab.com/ee/ci/secrets/id_token_authentication.html)
@@ -164,11 +162,10 @@ Within OpenBao, we'll use two authentication engines:
 flowchart LR
 
 glab[GitLab Rails]
-op{OpenBao Proxy}
 o{OpenBao}
 p[Pipeline]
 
-glab --secrets management--> op --authenticated secrets management-->o
+glab --authenticated secrets management-->o
 
 glab --issues JWT--> p --authenticated secrets fetch-->o
 ```
@@ -541,12 +538,10 @@ granted in a given view and expand OpenBao to allow templating of profiles
 user). This would be rather involved but would help scope user JWTs more
 specifically.
 
-The upgrade path (from global AppRole token using the auto-authing proxy to
-incrementally using these policies) would simply be changing the Rails code
-to generate a user JWT and updating the Ruby client's request to authenticate
-and use the subsequent token for a particular request. The auto-authing proxy
-will not replace existing auth tokens on requests, so this change could be
-rolled out incrementally.
+The upgrade path (from global AppRole token to incrementally using these
+policies) would simply be changing the Rails code to generate a user JWT
+and updating the Ruby client's request to authenticate and use the subsequent
+token for a particular request instead of the global AppRole token.
 
 Note that users lack read permissions on the actual secret; they can only set
 the value. When rolling out dynamic secrets, users would be granted full
@@ -706,14 +701,13 @@ flowchart LR
 gl[GitLab Rails]
 u{{User}}
 p(Pipeline)
-obp[OpenBao Auto-Auth Proxy]
 ob{OpenBao}
 
 
-gl -- CUD secret (no Read) --> obp -- with auth --> ob
-gl -- manage mounts --> obp
-gl -- manage auth roles --> obp
-gl -- manage ACLs --> obp
+gl -- CUD secret (no Read) --> ob
+gl -- manage mounts --> ob
+gl -- manage auth roles --> ob
+gl -- manage ACLs --> ob
 gl-. issue user JWT .->u-. CUD secret (no Read) .->ob
 gl -- issue pipeline JWT --> p
 
@@ -988,8 +982,7 @@ be referenced and configured from the [GitLab Helm chart](https://docs.gitlab.co
 as required. In Kubernetes deployments, Proxy can be used in a sidecar
 container in the Rails monolith.
 
-For self-hosted, OpenBao server will also be executed by GitLab Rails in
-addition to the proxy.
+For self-hosted, OpenBao server will also be executed by GitLab Rails.
 
 ### Use case studies
 
