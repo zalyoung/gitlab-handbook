@@ -287,9 +287,17 @@ is_compliant?(licenses_from_policy, licenses_from_report)
 
 ### Storage
 
+#### PMDB
+
+The [exporter service](https://gitlab.com/gitlab-org/security-products/license-db/license-exporter)
+for our Package Metadata Database will be in charge of parsing the SPDX
+expression, and converting it into an array of bitmasks.
+
+#### GitLab Rails
+
 The GitLab Rails database will no longer rely on an enum to identify the license used
 by a project. Instead it will add an additional column that stores the original
-license expression, and its equivalent bytecode.
+license expression, and its equivalent bitmask representations.
 
 ## Alternative Solutions
 
