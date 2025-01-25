@@ -97,7 +97,6 @@ As you are both aware, XXX has been interviewing for the XXX role and the team i
   - People Connect checks Workday for current team member base compensation.
   - People Connect will then provide annual base compensation details in the HelpLab request. The Recruiter can then utilize this information while putting an offer together (in partnership with the hiring manager).
 
-
 ## Current Manager Responsibilities
 
 - Once your team member has notified you that they have applied for an internal opportunity (this should happen at the application stage) make sure to check in with them during 1:1s to see how their interviews are progressing.
