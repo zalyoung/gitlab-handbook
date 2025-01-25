@@ -12,27 +12,48 @@ This page describes the individual steps involved in deploying application chang
 
 ### GitLab.com deployments process
 
-GitLab.com receives updates multiple times a day with new deployment branches currently created at **02:00, 04:00, 06:00, 8:00, 10:00, 12:00, 14:00, 16:00, 18:00, 20:OO, and 22:00 UTC** from Monday through Friday.
+GitLab.com receives updates multiple times a day.
 
-![GitLab.com deployment process](gitlab-com-deployment-pipeline.png)
+Automated tasks in the [release-tools](https://gitlab.com/gitlab-org/release-tools) project are setup to build and deploy packages.
+
+#### Building packages
+
+- New branches for deployment are created every hour from Monday through Friday. The branches are created
+  from the latest commit that has passed the CI tests ('green build'). This means that if specs are
+  failing in [`gitlab-org/gitlab`](https://gitlab.com/gitlab-org/gitlab), deployments cannot
+  progress further.
+- Then a new version is tagged on the latest commit and a new package begins being built.
+- When a branch is created, any merge requests labeled with `~"Pick into auto-deploy"` (See [Labels of importance](#labels-of-importance))
+  are cherry-picked into the branch, before a package is tagged.
+  In addition, every 15 minutes, a task runs to cherry-pick merge requests labeled with `~"Pick into auto-deploy"`
+  into the latest deployment branch. If one or more MRs are cherry-picked, a new package is tagged.
+
+![GitLab.com deployment process](/images/engineering/deployments-and-releases/deployments/gitlab-com-auto-deploy-build-process.png)
 
 - [Source](https://docs.google.com/presentation/d/1YRjA1dYCXNXp06VltDYlik1MdFyzUvaeXKk69mMPcA4/edit?usp=sharing)
 
-Once a new branch is created, only commits that pass the CI tests are eligible for deployments ("green build"). This means that if specs are failing in
-[`gitlab-org/gitlab`](https://gitlab.com/gitlab-org/gitlab), the deployments cannot progress further.
+A package is created approximately every hour (with every new auto-deploy branch), if there are new commits with successful CI pipelines.
 
-Automated tasks in the [release-tools](https://gitlab.com/gitlab-org/release-tools) project are setup to drive the next steps:
+1. The package is tagged and the build process can start
+1. 2a. From the tag the Omnibus package is built.
 
-- Twice every hour, a task runs to cherry-pick merge requests labeled with `~"Pick into auto-deploy"` (See [Labels of importance](#labels-of-importance)).
-- Twice every hour, a task searches for the latest "green build" in the auto-deploy branch.
-  - If it finds a commit that has not been previously deployed, it will start the process of creating a new package.
-  - If the commit has already been deployed, the task will not take any actions.
+   2b. In parallel a Cloud Native GitLab package is built.
+
+#### Deploying packages
+
+- Every 15 minutes, an automated task selects the latest package that has completed building and starts the deployment process.
+
+![GitLab.com deployment process](/images/engineering/deployments-and-releases/deployments/gitlab-com-deployment-pipeline.png)
+
+- [Source](https://docs.google.com/presentation/d/1YRjA1dYCXNXp06VltDYlik1MdFyzUvaeXKk69mMPcA4/edit?usp=sharing)
 
 A package is deployed to GitLab.com in the following steps:
 
-1. The package is tagged and the build process can start
-1. 2a. From the tag the Omnibus package is built. 2b. In parallel a Cloud Native GitLab package is built
-1. 3a. When a new package is built, it is automatically deployed to gstg-cny, [the canary stage of staging.gitlab.com](/handbook/engineering/infrastructure/environments/#staging-canary). 3b. In parallel, the same package is deployed to the [Staging-ref environment, gstg-ref](/handbook/engineering/infrastructure/environments/#staging-ref)
+1. At regular intervals, an automated task in release-tools searches for the latest available package that has completed building.
+
+   1a. When a built package is found, it is automatically deployed to gstg-cny, [the canary stage of staging.gitlab.com](/handbook/engineering/infrastructure/environments/#staging-canary).
+
+   1b. In parallel, the same package is deployed to the [Staging-ref environment, gstg-ref](/handbook/engineering/infrastructure/environments/#staging-ref)
 1. A set of automated QA end-to-end/integration tests are run. Note that two sets of blocking QA tests are executed, one targeting gstg-cny and the other targeting staging (gstg). This is designed to assist with exposing issues arising in mixed deployment environments, where multiple versions of GitLab components are deployed that share services such as the database
 1. After passing, the package is automatically deployed to gprd-cny, [the canary stage of gitlab.com](/handbook/engineering/infrastructure/environments/#production-canary), where [covering the canary stage and how to use it](/handbook/engineering/infrastructure/environments/canary-stage) can take place. This means that specific projects (like `gitlab-org/gitlab`) as well as a small amount of end user traffic will be using the new package.
 1. Like with deployment to staging-canary above, two sets of automated QA end-to-end/integration tests are run. One targets the canary stage of production, the other targets the main stage (to ensure the new and old code are still functional). Note that the `smoke` and `reliable` tests targeting production canary (gprd-cny) are blocking.
@@ -53,7 +74,7 @@ To make GitLab.com packages rollbackable, the [post-deploy migrations](https://d
 are run in staging and production environments through the post-deploy migration pipeline that is triggered on a daily basis at the discretion of
 the release managers.
 
-![Post deploy migration pipeline](post-deploy-migration-pipeline.png)
+![Post deploy migration pipeline](/images/engineering/deployments-and-releases/deployments/post-deploy-migration-pipeline.png)
 
 - [Source](https://docs.google.com/presentation/d/1YRjA1dYCXNXp06VltDYlik1MdFyzUvaeXKk69mMPcA4/edit?usp=sharing)
 
@@ -90,7 +111,7 @@ Gitaly and Praefect have a dependency on the GitLab Rails version which means we
 
 Example of the Staging environment rollback pipeline:
 
-![Example of the Staging environment rollback pipeline](rollback-pipeline.png)
+![Example of the Staging environment rollback pipeline](/images/engineering/deployments-and-releases/deployments/rollback-pipeline.png)
 
 ### Deployment blockers
 

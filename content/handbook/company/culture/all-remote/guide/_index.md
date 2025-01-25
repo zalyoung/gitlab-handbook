@@ -24,7 +24,7 @@ All-remote work promotes:
 1. Public sharing of information (over need-to-know access).
 1. Opening up documents for editing by anyone (over top-down control of documents).
 1. Asynchronous communication (over synchronous communication).
-1. The results of work (over the hours put in).
+1. The results of impact (over the activity put in).
 1. Formal communication channels (over informal communication channels).
 
 ## Why remote?
@@ -51,7 +51,7 @@ Learn more about [why GitLab uses the term **all-remote** to describe its 100% r
 
 Created to foster collaboration, innovation, and evolution in the future of work, the [2020 Global Remote Work Report]({{< ref "remote-work-report" >}}) dissects the state of distributed work and surfaces key motivators for both employees and employers.
 
-[Download the full report now](http://learn.gitlab.com/all-remote/remote-work-report).
+[Download the full report now](https://learn.gitlab.com/all-remote/remote-work-report).
 
 ## Why GitLab uses GitLab for remote collaboration
 

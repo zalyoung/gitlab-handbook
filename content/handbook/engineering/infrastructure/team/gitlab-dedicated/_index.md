@@ -2,7 +2,7 @@
 title: "GitLab Dedicated Group"
 ---
 
-![GitLab Dedicated Group logo](img/dedicated_team_logo.png)
+![GitLab Dedicated Group logo](/images/engineering/infrastructure/team/gitlab-dedicated/dedicated_team_logo.png)
 
 ## Mission
 
@@ -39,7 +39,7 @@ The following people are members of the Dedicated:Environment Automation Team:
 
 The following people are members of the Dedicated:US Public Sector Services Team:
 
-{{< team-by-manager-slug "sdumesnil" >}}
+{{< team-by-manager-slug "mckgl" >}}
 
 The following people are members of the Dedicated:Switchboard Team:
 
@@ -102,9 +102,9 @@ A PCL is manually enforced once the following requirements are met:
 
 The following dates are currently scheduled PCLs.
 
-| Dates                       | Type       | Reason                        |
-|-----------------------------|------------|-------------------------------|
-| 2024-03-08 23:00 UTC -> 2024-03-17 20:00 UTC | Hard | GitLab Summit (Low team members availability) |
+| Dates                                        | Type   | Reason                                            |
+|----------------------------------------------|--------|---------------------------------------------------|
+| 2024-12-23 03:00 UTC -> 2025-01-06 03:00 UTC | Hard   | Year End Holidays (Low team member availability)  |
 
 Times for the dates without a time specified begin at 09:00 UTC and end the next day at 09:00 UTC.
 
@@ -422,7 +422,7 @@ Prior to the start of a new quarter, the team will spend time refining the Epic 
 - Link to high-level design
 - Estimated level of complexity
 
-While the above information is being added, the Epic will move from ![Triage](img/label-triage.png) to ![Proposal](img/label-proposal.png).  Once the information has been finalized, the Epic will move to ![Ready](img/label-ready.png).
+While the above information is being added, the Epic will move from ![Triage](/images/engineering/infrastructure/team/gitlab-dedicated/label-triage.png) to ![Proposal](/images/engineering/infrastructure/team/gitlab-dedicated/label-proposal.png).  Once the information has been finalized, the Epic will move to ![Ready](/images/engineering/infrastructure/team/gitlab-dedicated/label-ready.png).
 
 Having this set of refined epics will help us plan for the upcoming quarter and allow engineers to quickly get started on an Epic once it's ready to be picked up during the quarter.
 
@@ -528,19 +528,19 @@ The standard progression of workflow is from top to bottom in the table below:
 
 | State Label | Description |
 | ----------- | ----------- |
-| ![Triage](img/label-triage.png) | Default label added to issues created. Issues with this label need to be confirmed as work we would consider. If we don't want to consider the issue further, we mark it with `workflow-infra::Cancelled` and close it. If this issue does not need Product validation, and we are ready for implementation, issue is moved to `workflow-infra::Ready`. Otherwise, we move it to the next stage `workflow-infra::Proposal`. |
-| ![Proposal](img/label-proposal.png) | In this stage, proposal is being created and put forward for review with the rest of the team. Issues in this stage are also a part of Product validation workflow. If there are no further questions or blockers, the issue is supposed to be sufficiently refined and ready for implementation and can be moved into `workflow-infra::Ready`. The epics that encapsulate the implementation work for customer facing features must have a Product Manager sign-off before they can be moved to `workflow-infra::Ready` |
-| ![Ready](img/label-ready.png) | The issue is waiting to be picked up for work. |
-| ![In Progress](img/label-in_progress.png) | Issue is assigned to a DRI and work has started. |
-| ![Done](img/label-done.png) | Issue is updated with the outcome of the work that was done, and this label is applied and issue closed. |
+| ![Triage](/images/engineering/infrastructure/team/gitlab-dedicated/label-triage.png) | Default label added to issues created. Issues with this label need to be confirmed as work we would consider. If we don't want to consider the issue further, we mark it with `workflow-infra::Cancelled` and close it. If this issue does not need Product validation, and we are ready for implementation, issue is moved to `workflow-infra::Ready`. Otherwise, we move it to the next stage `workflow-infra::Proposal`. |
+| ![Proposal](/images/engineering/infrastructure/team/gitlab-dedicated/label-proposal.png) | In this stage, proposal is being created and put forward for review with the rest of the team. Issues in this stage are also a part of Product validation workflow. If there are no further questions or blockers, the issue is supposed to be sufficiently refined and ready for implementation and can be moved into `workflow-infra::Ready`. The epics that encapsulate the implementation work for customer facing features must have a Product Manager sign-off before they can be moved to `workflow-infra::Ready` |
+| ![Ready](/images/engineering/infrastructure/team/gitlab-dedicated/label-ready.png) | The issue is waiting to be picked up for work. |
+| ![In Progress](/images/engineering/infrastructure/team/gitlab-dedicated/label-in_progress.png) | Issue is assigned to a DRI and work has started. |
+| ![Done](/images/engineering/infrastructure/team/gitlab-dedicated/label-done.png) | Issue is updated with the outcome of the work that was done, and this label is applied and issue closed. |
 
 There are three other workflow labels of importance:
 
 | State Label | Description |
 | ----------- | ----------- |
-| ![Cancelled](img/label-cancelled.png) | Work in the issue is being abandoned due to external factors or decision to not resolve the issue. After applying this label, issue will be closed. |
-| ![Stalled](img/label-stalled.png) | If no update has been provided in an issue for over a week, the issue will get this label. The team Engineering Manager is responsible for reviewing the status of the issue and helping it move along. |
-| ![Blocked](img/label-blocked.png) | Work is blocked due external dependencies or other external factors. Where possible, a [blocking issue](https://docs.gitlab.com/ee/user/project/issues/related_issues.html) should also be set. After applying this label, issue will be regularly triaged by the team until the label can be removed. |
+| ![Cancelled](/images/engineering/infrastructure/team/gitlab-dedicated/label-cancelled.png) | Work in the issue is being abandoned due to external factors or decision to not resolve the issue. After applying this label, issue will be closed. |
+| ![Stalled](/images/engineering/infrastructure/team/gitlab-dedicated/label-stalled.png) | If no update has been provided in an issue for over a week, the issue will get this label. The team Engineering Manager is responsible for reviewing the status of the issue and helping it move along. |
+| ![Blocked](/images/engineering/infrastructure/team/gitlab-dedicated/label-blocked.png) | Work is blocked due external dependencies or other external factors. Where possible, a [blocking issue](https://docs.gitlab.com/ee/user/project/issues/related_issues.html) should also be set. After applying this label, issue will be regularly triaged by the team until the label can be removed. |
 
 #### Support labels
 
@@ -565,8 +565,8 @@ These scoped labels are intended to distinguish generic work to everything made 
 
 | Cloud Provider Label | Description |
 | ----------- | ----------- |
-| ![AWS](img/cloud-provider-aws.png) | Amazon Cloud specific implementation |
-| ![AWS](img/cloud-provider-gcp.png) | Google Cloud specific implementation |
+| ![AWS](/images/engineering/infrastructure/team/gitlab-dedicated/cloud-provider-aws.png) | Amazon Cloud specific implementation |
+| ![AWS](/images/engineering/infrastructure/team/gitlab-dedicated/cloud-provider-gcp.png) | Google Cloud specific implementation |
 
 #### Workaround labels
 
@@ -574,7 +574,7 @@ Scoped workaround labels are intended to track temporary workarounds applied to 
 
 | Workaround label | Description |
 | ----------- | ----------- |
-| ![workaround active](img/workaround-active.png) | This label is applied to issues describing workarounds applied to tenant instances |
+| ![workaround active](/images/engineering/infrastructure/team/gitlab-dedicated/workaround-active.png) | This label is applied to issues describing workarounds applied to tenant instances |
 
 ### Capacity Planning
 

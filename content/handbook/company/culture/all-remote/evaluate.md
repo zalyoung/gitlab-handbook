@@ -82,7 +82,7 @@ Answers to these questions are critical in understanding the [true level of auto
 
 It's important to understand how teams work within an all-remote company. In organizations where [asynchronous communication]({{< ref "communication" >}}) is the default, it's likely that team members are diligent about documentation, resist the urge to schedule [meetings](meetings/), and are sensitive to atypical working hours/arrangements.
 
-Certain companies prefer to have everyone contributing between certain times, creating additional boundaries on those who live too far east/west from the proverbial company epicenter and for [nomads](people/#nomads) who regularly change locations and time zones.
+Certain companies prefer to have everyone contributing between certain times, creating additional boundaries on those who live too far east/west from the proverbial company epicenter and for some who regularly change locations and time zones.
 
 ### Q: How is information disseminated?
 

@@ -60,7 +60,7 @@ At the top of your dashboard, you can find apps in the **Launch App** search bar
 
 ### Application Data Privacy
 
-> Does Okta store our information entered into apps like BambooHR, NexTravel, Carta etc?
+> Does Okta store our information entered into apps like Workday, NexTravel, Carta etc?
 
 No, Okta only acts as an integrator to the various apps. The information that the user stores inside of the app, is not accessible by Okta. The usernames and passwords (user credentials) are encrypted using both an industry-­standard encrypted AES and a randomly generated symmetric key.
 

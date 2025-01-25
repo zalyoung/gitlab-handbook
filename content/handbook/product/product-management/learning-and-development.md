@@ -169,7 +169,7 @@ This content is divided into five key competencies for Product Managers.
 
 #### Online courses
 
-- [Nielson Norman Group Trainings and Events](https://www.nngroup.com/training/)
+- [Nielson Norman Group Trainings and Events](https://www.nngroup.com/training/live-courses/)
 
 #### Books
 
@@ -183,7 +183,7 @@ This content is divided into five key competencies for Product Managers.
 #### Quick reads and videos
 
 - [Continuous interviewing at GitLab](/handbook/product/product-processes/continuous-interviewing/)
-- ['Get in the Van' and Other Tips for Getting Meaningful Customer Feedback](https://review.firstround.com/the-power-of-interviewing-customers-the-right-way-from-twitters-ex-vp-product)
+- ['Get in the Van' and Other Tips for Getting Meaningful Customer Feedback](https://review.firstround.com/the-power-of-interviewing-customers-the-right-way-from-twitters-ex-vp-product/)
 - [The Ultimate List of Customer Development Questions](https://mfishbein.com/the-ultimate-list-of-customer-development-questions/)
 - [Finding, preparing for, and nagivating Customer Calls as a Product Manager at GitLab](https://www.youtube.com/watch?v=HyVR_ybRkCY)
 
@@ -214,8 +214,8 @@ This content is divided into five key competencies for Product Managers.
 #### Deeper dive
 
 - [GitLab Jobs to be Done (JTBD) Deep Dive](/handbook/product/ux/jobs-to-be-done/)
-- [Bob Moesta & Chris Spiek - Uncovering the Jobs to be Done](https://businessofsoftware.org/2014/06/bos-2013-bob-moesta-and-chris-spiek-uncovering-the-jobs-to-be-done/) (57 min video)
-- [Tony Ulwick - Customer Centered Innovation](https://businessofsoftware.org/2015/08/tony-ulwick/) (57 min video)
+- [Bob Moesta & Chris Spiek - Uncovering the Jobs to be Done](https://businessofsoftware.org/talks/bob-moesta-and-chris-spiek-uncovering-the-jobs-to-be-done/) (57 min video)
+- [Tony Ulwick - Customer Centered Innovation](https://businessofsoftware.org/talks/customer-centered-innovation/) (57 min video)
 - [Xavier Russo - A step-by-step guide to using Outcome Driven Innovataion](https://medium.com/envato/a-step-by-step-guide-to-using-outcome-driven-innovation-odi-for-a-new-product-ded320f49acb)
 
 #### Online courses
@@ -241,7 +241,7 @@ This content is divided into five key competencies for Product Managers.
 
 #### Online courses
 
-- [LinkedIn Learning: UX Research: Lean Experimentation](https://www.linkedin.com/learning/ux-research-lean-experimentation/)
+- [LinkedIn Learning: UX Research: Lean Experimentation](https://www.linkedin.com/learning/ux-research-lean-experimentation)
 
 #### Books
 
@@ -290,12 +290,12 @@ This content is divided into five key competencies for Product Managers.
 #### Deeper dive
 
 - [Leaders of Awesomeness](https://leaders.centercentre.com/)
-- [The Complete Guide to the Kano Model](https://foldingburritos.com/kano-model/)
+- [The Complete Guide to the Kano Model](https://foldingburritos.com/blog/kano-model/)
 
 #### Online courses
 
 - [LinkedIn Learning: Learning Design Thinking](https://www.linkedin.com/learning/learning-design-thinking-lead-change-in-your-organization)
-- [LinkedIn Learning: Accessibility for Web Design](https://www.linkedin.com/learning/accessibility-for-web-design/welcome?u=2255073)
+- [LinkedIn Learning: Accessibility for Web Design](https://www.linkedin.com/learning/accessibility-for-web-design/making-the-digital-world-accessible)
 - [LinkedIn Learning: Dieter Rams: Principles of Good Design](https://www.linkedin.com/learning/dieter-rams-principles-of-good-design)
 
 #### Books
@@ -317,7 +317,7 @@ This content is divided into five key competencies for Product Managers.
 
 #### Quick reads and videos
 
-- [How to split a user story](https://agileforall.com/how-to-split-a-user-story/)
+- [How to split a user story](https://www.humanizingwork.com/the-humanizing-work-guide-to-splitting-user-stories/)
 - [Replacing The User Story With The Job Story](https://jtbd.info/replacing-the-user-story-with-the-job-story-af7cdee10c27)
 
 #### Deeper dive
@@ -338,7 +338,7 @@ _Please contribute your favorite resources here_
 
 - [Brandon Chu: Ruthless Prioritization](https://blackboxofpm.com/ruthless-prioritization-e4256e3520a9)
 - [Sean McBride: RICE: Simple prioritization for product managers](https://www.intercom.com/blog/rice-simple-prioritization-for-product-managers/)
-- [Ash Maurya: Love the Problem, Not Your Solution](https://blog.leanstack.com/love-the-problem-not-your-solution/)
+- [Ash Maurya: Love the Problem, Not Your Solution](https://www.leanfoundry.com/articles/love-the-problem-not-your-solution)
 - [Launch mode vs iterate mode](https://www.intercom.com/blog/launch-mode-vs-iterate-mode/)
 
 #### Deeper dive
@@ -399,7 +399,7 @@ _Please contribute your favorite resources here_
 
 #### Quick reads and videos
 
-- [Marty Cagan: Vision Vs. Strategy](https://svpg.com/vision-vs-strategy/)
+- [Marty Cagan: Vision Vs. Strategy](https://www.svpg.com/vision-vs-strategy/)
 - [Des Traynor: Product strategy means saying no](https://www.intercom.com/blog/product-strategy-means-saying-no/)
 - [Ken Norton's Discipline of No](https://mixpanel.com/blog/learning-to-say-no-with-ken-norton/)
 
@@ -425,7 +425,7 @@ Please contribute your favorite resources here
 
 #### Deeper dive
 
-- [SaaSFest Keynote: Building a Saas Company Isn't What it Used to Be](https://www.priceintelligently.com/blog/saasfest-keynote-speaker-hiten-shah-building-a-saas-business)
+- [SaaSFest Keynote: Building a Saas Company Isn't What it Used to Be](https://www.slideshare.net/slideshow/your-competition-now-matters-building-a-saas-company-isnt-what-it-used-to-be-hiten-shah-at-saasfest-2016/70237407)
 
 #### Online courses
 
@@ -441,9 +441,7 @@ _Please contribute your favorite resources here_
 
 - [John Doerr: Why the secret to success is setting the right goals](https://www.youtube.com/watch?v=L4N1q4RNi9I) (5 min video)
 - [David Skok: SaaS Metrics 2.0 – A Guide to Measuring and Improving what Matters](https://www.forentrepreneurs.com/saas-metrics-2/)
-- [Benefits of OKRs](https://www.whatmatters.com/faqs/benefits-of-okrs/)
-- [Getting Started with OKRs](https://learn.ally.io/path/employee/getting-started-with-okrs)
-- [Writing Basic OKRs](https://learn.ally.io/writing-basic-okrs)
+- [Benefits of OKRs](https://www.whatmatters.com/faqs/benefits-of-okrs)
 - [GitLab - How to write OKRs](/handbook/product/product-okrs/#how-to-write-okrs)
 - [Ally for OKRs - Overview for Product](https://www.youtube.com/watch?v=hP9yk_PSj2k&feature=youtu.be) (10 min video)
 
@@ -454,7 +452,7 @@ _Please contribute your favorite resources here_
 
 #### Online courses
 
-- [LinkedIn Learning: SQL Essential Training](https://www.linkedin.com/learning/sql-essential-training-3/)
+- [LinkedIn Learning: SQL Essential Training](https://www.linkedin.com/learning/sql-essential-training-20685933)
 
 #### Books
 
@@ -486,13 +484,13 @@ _Please contribute your favorite resources here_
 
 #### Books
 
-- [Building a Story brand](https://www.amazon.com/Building-StoryBrand-Clarify-Message-Customers/dp/0718033329/ref=sr_1_11?)
+- [Building a Story brand](https://www.amazon.com/Building-StoryBrand-Clarify-Message-Customers/dp/0718033329/)
 
 ### 💬 Communicating to inspire, align, and activate
 
 #### Quick reads and videos
 
-- [Paul Graham: Write Simply](http://paulgraham.com/simply.html)
+- [Paul Graham: Write Simply](https://paulgraham.com/simply.html)
 - [Mastering communication: a product manager's superpower](https://miro.com/blog/communication-product-managers-product-school/)
 - [Connor Murphy on how his team uses a combination of GitLab, Loom, Notion, and Figma to collaborate async between PM, Design, and Engineering](https://www.loom.com/share/17677053ff7d4eeba643eaf194c0b700) (5 min video)
 
@@ -502,7 +500,7 @@ _Please contribute your favorite resources here_
 
 #### Online courses
 
-- [LinkedIn Learning: Communication for Product Managers](https://www.linkedin.com/learning/communication-for-product-managers/)
+- [LinkedIn Learning: Communication for Product Managers](https://www.linkedin.com/learning/communication-for-product-managers)
 
 #### Books
 
@@ -520,7 +518,7 @@ _Please contribute your favorite resources here_
 
 #### Online courses
 
-- [LinkedIn Learning: Communicating for Product Managers](https://www.linkedin.com/learning/communication-for-product-managers/your-role-as-diplomat-of-the-product-team?u=2255073)
+- [LinkedIn Learning: Communicating for Product Managers](https://www.linkedin.com/learning/communication-for-product-managers)
 
 #### Books
 
@@ -549,7 +547,7 @@ _Please contribute your favorite resources here_
 
 #### Online courses
 
-- [Managing Project Stakeholders](https://www.linkedin.com/learning/managing-project-stakeholders-2?u=2255073) (LinkedIn Learning course)
+- [Managing Project Stakeholders](https://www.linkedin.com/learning/managing-project-stakeholders-2) (LinkedIn Learning course)
 
 #### Books
 
@@ -573,7 +571,7 @@ _Please contribute your favorite resources here_
 #### Books
 
 - [Dare to Lead](https://www.amazon.com/Dare-Lead-Brave-Conversations-Hearts/dp/0399592520)
-- [Radical Candor](https://www.amazon.com/dp/1529038340/ref=cm_sw_em_r_mt_dp_JW4418H1Q2BQ2MGV62WN)
+- [Radical Candor](https://www.amazon.com/dp/1529038340/)
 
 ### 🤝 Direct team management
 
@@ -606,12 +604,12 @@ _Please contribute your favorite resources here_
 #### Quick reads and videos
 
 - [Start with why -- how great leaders inspire action](https://www.youtube.com/watch?v=u4ZoJKF_VuA) (18 min video)
-- [Leadership Biz Cafe Podcast](https://www.tanveernaseer.com/lbc/)
+- [Leadership Biz Cafe Podcast](https://tanveernaseer.com/lbc/)
 
 #### Deeper dive
 
-- [LinkedIn Learning: Executive Leadership](https://www.linkedin.com/learning/executive-leadership/take-action-to-lead) (1h 19m total)
-- [LinkedIn Learning: Being a Good Mentor](https://www.linkedin.com/learning/being-a-good-mentor/) (1 hour total)
+- [LinkedIn Learning: Executive Leadership](https://www.linkedin.com/learning/executive-leadership-24384695/take-action-to-lead) (1h 19m total)
+- [LinkedIn Learning: Being a Good Mentor](https://www.linkedin.com/learning/being-a-good-mentor) (1 hour total)
 
 #### Online courses
 
@@ -661,7 +659,7 @@ There is a lot of amazing content and ongoing trends in the world of product dev
 
 #### Blogs
 
-- [https://svpg.com/articles/](https://svpg.com/articles/)
+- [https://www.svpg.com/articles/](https://www.svpg.com/articles/)
 - [https://www.intercom.com/blog/product-and-design/](https://www.intercom.com/blog/product-and-design/)
 - [https://producthabits.com/blog/](https://producthabits.com/blog/)
 - [https://www.mindtheproduct.com/](https://www.mindtheproduct.com/)

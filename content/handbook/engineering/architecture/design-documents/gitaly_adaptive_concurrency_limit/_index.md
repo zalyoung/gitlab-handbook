@@ -140,7 +140,7 @@ soon, it is referred to as a back-off event. Ideally, we would love to see the
 efficient state as long as possible. It's the state where Gitaly is at its
 maximum capacity.
 
-![Adaptive Concurrency Limit Flow](adaptive_concurrency_limit_flow.png)
+![Adaptive Concurrency Limit Flow](/images/engineering/architecture/design-documents/gitaly_adaptive_concurrency_limit/adaptive_concurrency_limit_flow.png)
 
 Ideally, min/max values are safeguards that aren't ever meant to be hit during
 operation, even overload. In fact, hitting either probably means that something
@@ -304,8 +304,8 @@ up-to-date value.
 Fortunately, there are some famous algorithms for this line of problems, mainly
 applied in the world of TCP Congestion Control:
 
-- Vegas Algorithm ([CN: ASA - Chapter 6.4](https://book.systemsapproach.org/congestion/avoidance.html), [Reference implementation](https://Github.com/Netflix/concurrency-limits/blob/master/concurrency-limits-core/src/main/java/com/netflix/concurrency/limits/limit/VegasLimit.java))
-- Gradient Algorithm ([Paper](https://link.springer.com/chapter/10.1007/978-3-642-20798-3_25), [Reference implementation](https://Github.com/Netflix/concurrency-limits/blob/master/concurrency-limits-core/src/main/java/com/netflix/concurrency/limits/limit/Gradient2Limit.java))
+- Vegas Algorithm ([CN: ASA - Chapter 6.4](https://book.systemsapproach.org/congestion/avoidance.html), [Reference implementation](https://github.com/Netflix/concurrency-limits/blob/main/concurrency-limits-core/src/main/java/com/netflix/concurrency/limits/limit/VegasLimit.java))
+- Gradient Algorithm ([Paper](https://link.springer.com/chapter/10.1007/978-3-642-20798-3_25), [Reference implementation](https://github.com/Netflix/concurrency-limits/blob/main/concurrency-limits-core/src/main/java/com/netflix/concurrency/limits/limit/Gradient2Limit.java))
 
 The two algorithms are capable of automatically determining the latency
 threshold without any pre-defined configuration. They are highly efficient and
@@ -365,7 +365,7 @@ reinforced when learning from production later.
 - [Netflix Performance Under Load](https://netflixtechblog.medium.com/performance-under-load-3e6fa9a60581)
 - [Netflix Adaptive Concurrency Limit](https://Github.com/Netflix/concurrency-limits)
 - [Load Shedding with NGINX using adaptive concurrency control](https://tech.olx.com/load-shedding-with-nginx-using-adaptive-concurrency-control-part-1-e59c7da6a6df)
-- [Overload Control for Scaling WeChat Microservices](http://web1.cs.columbia.edu/~junfeng/papers/dagor-socc18.pdf)
+- [Overload Control for Scaling WeChat Microservices](https://web1.cs.columbia.edu/~junfeng/papers/dagor-socc18.pdf)
 - [ReactiveConf 2019 - Jay Phelps: Backpressure: Resistance is NOT Futile](https://www.youtube.com/watch?v=I6eZ4ZyI1Zg)
 - [AWS re:Invent 2021 - Keeping Netflix reliable using prioritized load shedding](https://www.youtube.com/watch?v=TmNiHbh-6Wg)
 - [AWS Using load shedding to avoid overload](https://aws.amazon.com/builders-library/using-load-shedding-to-avoid-overload/)

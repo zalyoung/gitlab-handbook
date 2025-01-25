@@ -89,8 +89,6 @@ We use quarterly Objectives and Key Results as a tool to help us plan and measur
 
 Here is the [standard, company-wide process for OKRs](/handbook/company/okrs/)
 
-<iframe src="https://app.ally.io/public/EkMQUhunXy9Ifeo" class="dashboard-embed" height="600" width="100%" style="border:none;"> </iframe>
-
 ### Performance indicators
 
 We measure the value we contribute by using [performance indicator metrics](https://internal.gitlab.com/handbook/company/performance-indicators/product/). The primary metric used for the Package Registry group is the number of monthly active users or GMAU.
@@ -130,4 +128,4 @@ Below is a list of projects and initiatives that we are currently working on, al
 
 ## Documentation
 
-Package Registry documentation is available [here](https://docs.gitlab.com/ee/user/packages/package_registry).
+Package Registry documentation is available [here](https://docs.gitlab.com/ee/user/packages/package_registry/).

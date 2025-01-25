@@ -96,7 +96,7 @@ Follow the guidance below to prepare yourself, your customers, and your colleagu
 If you are assigned to any PagerDuty shifts (such as on-call) during the time off, arrange for coverage:
 
 1. Find a volunteer to cover for you; get help from your manager if necessary.
-1. [Create the appropriate override in PagerDuty](https://support.pagerduty.com/docs/editing-schedules#create-and-delete-overrides).
+1. [Create the appropriate override in PagerDuty](https://support.pagerduty.com/main/docs/edit-schedules#create-overrides).
 
 ### Coverage for assigned tickets
 
@@ -230,4 +230,33 @@ Once you have taken the time to catch-up, update your availability using the [Ou
 
 If you unassigned some of your tickets before going on PTO, take the time to go through them and check their status. It's good practice to reassign them to yourself if these are either still missing a DRI, or if it appears that you're still the best equipped person to drive it to a solution.
 
-For more tips, check [returning from pto](/handbook/paid-time-off/#returning-from-pto).
+## Managers Time Off
+
+### Before PTO is taken
+
+The manager will conduct a thorough review of all ongoing tasks, responsibilities, and projects. 
+
+1. List Key Responsibilities: The manager will prepare a comprehensive list of all tasks that require attention during their absence.
+1. Determine Priority: The manager will assess which tasks are time-sensitive and which can be delayed. They will prioritize duties based on urgency, impact, and team dependency.
+1. Select a Delegate: The manager will choose a single team member to be responsible for all of the tasks, or another manager if any of the tasks are confidential.
+
+### Task Delegation
+
+Once tasks have been identified and the team member has been selected, the following steps should be taken to ensure a seamless transition:
+
+Documenting the Process: The manager will create an issue to outline
+
+- Key contacts for each task.
+- Any ongoing projects or deadlines.
+- Specific instructions or checklists to be followed.
+- Access to Resources: Ensure that the delegate has the necessary access to tools, files, and systems to perform tasks effectively.
+
+### Communicate
+
+The manager will inform the team and relevant stakeholders about the temporary delegation of responsibilities. 
+
+### After PTO
+
+Conduct a Debriefing: The manager will meet with the team member to review the progress made, any challenges encountered, and the outcomes of decisions made in their absence.
+
+For more tips, check [returning from pto](/handbook/people-group/paid-time-off/#returning-from-pto).

@@ -15,7 +15,7 @@ On this page, we're detailing the primary differences between all-remote and oth
 
 *In the [GitLab Unfiltered](https://www.youtube.com/channel/UCMtZ0sc1HHNtGGWZFDRTh5A) video above, Darren (GitLab) and Anna-Karin (Because Mondays) discuss a number of challenges and solutions related to remote work, transitioning a company to remote, working asynchronously, and defaulting to documentation.*
 
-Hybrid-remote (which can be referred to as part-remote), is [different than all-remote](https://about.gitlab.com/blog/2018/10/18/the-case-for-all-remote-companies). In an all-remote company, there is no single headquarters, and each team member is free to live and work in any place they choose. Everyone, including executives, is remote, as there are no offices to come to.
+Hybrid-remote (which can be referred to as part-remote), is [different than all-remote](https://about.gitlab.com/blog/2018/10/18/the-case-for-all-remote-companies/). In an all-remote company, there is no single headquarters, and each team member is free to live and work in any place they choose. Everyone, including executives, is remote, as there are no offices to come to.
 
 Hybrid-remote is currently more common than all-remote, as it is easier for large, established companies to implement. In a hybrid-remote scenario, there is one or more offices where a subset of the company commutes to each day — working physically in the same space — paired with a subset of the company that works remotely.
 
@@ -23,7 +23,7 @@ These institutions are primarily colocated, but allow remote work. The day-to-da
 
 {{< youtube "QFbrPR0jAYs?start=3" >}}
 
-*In the [GitLab Unfiltered](https://www.youtube.com/channel/UCMtZ0sc1HHNtGGWZFDRTh5A) video above, GitLab co-founder and CEO Sid Sijbrandij chats with Maren Kate, founder at AVRA Talent Partners.*
+*In the [GitLab Unfiltered](https://www.youtube.com/channel/UCMtZ0sc1HHNtGGWZFDRTh5A) video above, GitLab co-founder, Sid Sijbrandij, chats with Maren Kate, founder at AVRA Talent Partners.*
 
 In discussing the decision to go all-remote at GitLab, Sid shares the following.
 
@@ -35,7 +35,7 @@ In discussing the decision to go all-remote at GitLab, Sid shares the following.
 >
 > [Coming to the office] wasn't needed. They weren't getting any extra information. They were on Slack, on Zoom, in Google Docs, in GitLab pages, in GitLab Issues, in GitLab merge requests — they didn't need to be there.
 >
-> **It's not that people like their commute; it's just that people don't want to miss out.** If you make sure that people don't miss out, you can be remote, too. It takes a lot of effort and focus to make sure all conversations are captured appropriately and that everything is documented. - *GitLab co-founder and CEO Sid Sijbrandij*
+> **It's not that people like their commute; it's just that people don't want to miss out.** If you make sure that people don't miss out, you can be remote, too. It takes a lot of effort and focus to make sure all conversations are captured appropriately and that everything is documented. - *GitLab co-founder, Sid Sijbrandij*
 
 ## Why do employees want hybrid-remote work?
 
@@ -179,8 +179,8 @@ We believe it's useful for transitioning companies to see *how* others are embra
 1. Dropbox - *[Virtual First Toolkit](https://experience.dropbox.com/virtual-first-toolkit)*
 1. Slack - *[A new guide for adapting to a radically different workplace](https://slack.com/blog/transformation/navigating-the-disruption-of-work)*
 1. Hubspot - *[How we're building a hybrid company](https://www.hubspot.com/careers-blog/future-of-work-hybrid)*
-1. Coinbase - *[Building a remote-first company: our biggest lessons so far](https://www.coinbase.com/blog/building-a-remote-first-company-our-biggest-lessons-so-far)*
-1. Herman Miller - *[The Future of Work: Looking Forward](https://www.hermanmiller.com/research/categories/white-papers/looking-forward)*
+1. Coinbase - *[Building a remote-first company: our biggest lessons so far](https://www.coinbase.com/en-ca/blog/building-a-remote-first-company-our-biggest-lessons-so-far)*
+1. Herman Miller - *[The Future of Work: Looking Forward](https://www.hermanmiller.com/solutions/future-of-work/)*
 
 ## Companies embracing hybrid-remote
 
@@ -189,31 +189,31 @@ COVID-19 created a wave of companies intentionally shifting to remote-first. For
 1. HubSpot — *[The Future of Work at HubSpot: How We're Building a Hybrid Company](https://www.hubspot.com/careers-blog/future-of-work-hybrid)*
 1. Dropbox — *[Dropbox goes Virtual First](https://blog.dropbox.com/topics/company/dropbox-goes-virtual-first)*
 1. Robinhood — *[Robinhood is a Remote First Company](https://newsroom.aboutrobinhood.com/robinhood-is-a-remote-first-company/)*
-1. Reddit — *[Evolving Reddit's Workforce](https://redditblog.com/2020/10/27/evolving-reddits-workforce)*
-1. Figma — *[How work is changing at Figma](https://www.figma.com/blog/how-work-is-changing-at-figma)*
-1. Coinbase — *[Post COVID-19, Coinbase will be a remote-first company](https://www.coinbase.com/blog/post-covid-19-coinbase-will-be-a-remote-first-company)*
-1. Shopify — *[Digital by default](https://www.shopify.com/careers/work-anywhere)*
+1. Reddit — *[Evolving Reddit's Workforce](https://redditinc.com/blog/evolving-reddits-workforce)*
+1. Figma — *[How work is changing at Figma](https://www.figma.com/blog/how-work-is-changing-at-figma/)*
+1. Coinbase — *[Post COVID-19, Coinbase will be a remote-first company](https://www.coinbase.com/en-ca/blog/post-covid-19-coinbase-will-be-a-remote-first-company)*
+1. Shopify — *[Digital by default](https://www.shopify.com/careers/extraordinary)*
 1. Twitter — *[Where We Work](https://careers.twitter.com/en/locations.html)*
 1. Slack — *[A new guide for adapting to a radically different workplace](https://slack.com/blog/transformation/navigating-the-disruption-of-work)*
 1. Sike Insights — *[EQ & Remote Managers Report](https://bit.ly/3iX519B)*
-1. Spotify — *[Distributed-First Is the Future of Work at Spotify](https://newsroom.spotify.com/2021-02-12/distributed-first-is-the-future-of-work-at-spotify)*
-1. Grammarly — *[The Future of Work at Grammarly](https://www.grammarly.com/blog/remote-first-hybrid-work-model/?)*
-1. Mailchimp — *[The Future of Work at Mailchimp](https://mailchimp.com/future-of-work-at-mailchimp)*
+1. Spotify — *[Distributed-First Is the Future of Work at Spotify](https://newsroom.spotify.com/2021-02-12/distributed-first-is-the-future-of-work-at-spotify/)*
+1. Grammarly — *[The Future of Work at Grammarly](https://en.ain.ua/2021/06/15/grammarly-permanently-switches-to-hybrid-remote-work-format/)*
+1. Mailchimp — *[The Future of Work at Mailchimp](https://web.archive.org/web/20230207083313/https://mailchimp.com/future-of-work-at-mailchimp/)*
 1. Adobe - *[The Future of Work at Adobe](https://blog.adobe.com/en/publish/2021/06/24/future-of-work-adobe)*
-1. Asana - *[Reuniting and Thriving in a Distributed World With Asana](https://blog.asana.com/2021/04/reuniting-teams)*
+1. Asana - *[Reuniting and Thriving in a Distributed World With Asana](https://asana.com/inside-asana/reuniting-teams)*
 1. LinkedIn - *[A Sneak Peek at LinkedIn's New Hybrid Workplace Plans](https://www.linkedin.com/business/talent/blog/talent-engagement/sneak-peek-at-linkedins-new-hybrid-workplace-plans)*
-1. DoorDash - *[DoorDash's Hybrid Work Plan: Committing to Flexibility](https://doordash.news/company/doordashs-hybrid-work-plan-committing-to-flexibility)*
-1. Uber - *[Our Return to the Office](https://www.uber.com/blog/our-return-to-the-office/)*
-1. Cisco - *[Cisco Powers Hybrid Work](https://newsroom.cisco.com/feature-content?type=webcontent&articleId=2179907)*
+1. DoorDash - *[DoorDash's Hybrid Work Plan: Committing to Flexibility](https://about.doordash.com/en-us/news/doordashs-hybrid-work-plan-committing-to-flexibility)*
+1. Uber - *[Our Return to the Office](https://www.uber.com/en-US/blog/our-return-to-the-office/)*
+1. Cisco - *[Cisco Powers Hybrid Work](https://newsroom.cisco.com/c/r/newsroom/en/us/a/y2021/m07/the-hybrid-future-of-work-starts-today-are-you-ready-.html)*
 1. Intel - *[Creating a "Hybrid-First" Company](https://www.intel.com/content/www/us/en/newsroom/opinion/creating-hybrid-first-company.html#gs.t85vm4)*
 1. Lyft - *[We're Going Fully Flexible](https://www.lyft.com/blog/posts/lyft-announces-fully-flexible-workplace)*
-1. Google - *[A Hybrid Approach to Work](https://blog.google/inside-google/life-at-google/hybrid-approach-work)*
+1. Google - *[A Hybrid Approach to Work](https://blog.google/inside-google/life-at-google/hybrid-approach-work/)*
 1. Amazon - *[Amazon Updates Return-to-Office Guidance](https://www.aboutamazon.com/news/workplace/amazon-updates-return-to-office-guidance)*
 1. Canva - *[Canva's Future of Work: Flexibility and Connection](https://medium.com/canva/canvas-future-of-work-flexibility-and-connection-b410d1793d83)*
-1. Microsoft - *[The Philosophy and Practice of our Hybrid Workplace](https://blogs.microsoft.com/blog/2021/03/22/the-philosophy-and-practice-of-our-hybrid-workplace)*
+1. Microsoft - *[The Philosophy and Practice of our Hybrid Workplace](https://blogs.microsoft.com/blog/2021/03/22/the-philosophy-and-practice-of-our-hybrid-workplace/)*
 1. Unilever - *[Our Future Workplace](https://www.unilever.com/planet-and-society/future-of-work/future-workplace)*
-1. Zoom - *[How Zoom is Approaching our Next Phase of Work](https://www.zoom.com/en/blog/how-zoom-is-approaching-our-next-phase-of-work/)*
-1. Deloitte - *[Transforming when, where, and how we work](https://www2.deloitte.com/us/en/pages/careers/articles/join-deloitte-hybrid-workplace-vaccine-update.html)*
+1. Zoom - *[How Zoom is Approaching our Next Phase of Work](https://www.zoom.com/en/blog/how-zoom-is-approaching-our-next-phase-of-work/?cms_guid=false&lang=en-US)*
+1. Deloitte - *[Transforming when, where, and how we work](https://www2.deloitte.com/us/en/pages/careers/articles/join-deloitte-hybrid-workplace.html)*
 
 ## Do hybrid-remote employees have a commute?
 
@@ -228,13 +228,13 @@ While this scenario may still be preferred over one where remote employees are *
 
 ### Better work-life balance
 
-Hybrid-remote employees can plan for more flexibility in their [daily life](people/#those-who-value-flexibility-and-autonomy) (for [kids](https://about.gitlab.com/blog/2019/07/25/balancing-career-and-baby), parents, friends, groceries, sports, deliveries).
+Hybrid-remote employees can plan for more flexibility in their [daily life](people/#those-who-value-flexibility-and-autonomy) (for [kids](https://about.gitlab.com/blog/2019/07/25/balancing-career-and-baby/), parents, friends, groceries, sports, deliveries).
 
 ### Optimize when and where you work
 
 A hybrid-remote schedule is often asynchronous, allowing an individual to [choose their working hours](people/#worklife-harmony) based on when they are [most productive](asynchronous/).
 
-They can also [set up and decorate an office or workspace](https://thriveglobal.com/stories/how-remote-work-can-reduce-stress-and-revitalize-your-mindset) in whatever way [works best for them](https://about.gitlab.com/blog/2019/08/01/working-remotely-with-children-at-home).
+They can also [set up and decorate an office or workspace](https://community.thriveglobal.com/how-remote-work-can-reduce-stress-and-revitalize-your-mindset/) in whatever way [works best for them](https://about.gitlab.com/blog/2019/08/01/working-remotely-with-children-at-home/).
 
 And of course, a hybrid schedule allows more flexibility for [traveling while working]({{< ref "working-while-traveling" >}}).
 
@@ -244,7 +244,7 @@ Especially after the global pandemic, people are concerned about decreasing thei
 
 ### Save on real estate expenses
 
-Some hybrid-remote options allow employees to choose where they live. At any given time, they are free to [relocate](/handbook/people-group/relocation), be [location independent](https://about.gitlab.com/blog/2019/06/25/how-remote-work-at-gitlab-enables-location-independence), or even [travel with other remote professionals](resources/#organizations-for-traveling-remote-work).
+Some hybrid-remote options allow employees to choose where they live. At any given time, they are free to [relocate](/handbook/people-group/relocation), be [location independent](https://about.gitlab.com/blog/2019/06/25/how-remote-work-at-gitlab-enables-location-independence/), or even [travel with other remote professionals](resources/#organizations-for-traveling-remote-work).
 
 ### Hire talent across the globe
 
@@ -291,7 +291,7 @@ Some people choose set days or times to be in-office or be remote, just be sure 
 
 ### Work how and when you are most productive
 
-Some people work better with a [consistent workday routine](https://learn.g2.com/how-to-work-from-home), while others find it best to ride their [waves of peak productivity](https://www.jonobacon.com/2019/01/14/remote-working-survival). Either way, design your work day and routine around your strengths understanding that different seasons, holidays, and family schedules may change this routine.
+Some people work better with a [consistent workday routine](https://learn.g2.com/how-to-work-from-home), while others find it best to ride their [waves of peak productivity](https://www.jonobacon.com/2019/01/14/remote-working-survival/). Either way, design your work day and routine around your strengths understanding that different seasons, holidays, and family schedules may change this routine.
 
 > **"I think you need to throw the concept of 'nine to five' out the window and actively experiment to find what schedule lets you make the most of your time.
 I often find the midday slump to be so real, so if I'm feeling this way I step away for a while and then come back for a few hours in the evening when I generally feel supercharged."**
@@ -304,7 +304,7 @@ I often find the midday slump to be so real, so if I'm feeling this way I step a
 
 The [movement](stages/) from hybrid-remote to all-remote is defined at GitLab as an `All-Remote Upgrade`. For reference, in January 2020, 17% of new hires attending the [CEO 101 call](/handbook/company/culture/gitlab-101) moved from a hybrid-remote model to all-remote at GitLab.
 
-This highlights another reality: [not all remote models are equal](https://about.gitlab.com/blog/2019/09/04/not-all-remote-is-created-equal), nor do they create [equality](https://about.gitlab.com/blog/2019/12/06/how-all-remote-supports-inclusion-and-bolsters-communities). All-remote is the [purest](https://about.gitlab.com/blog/2018/10/18/the-case-for-all-remote-companies) form of remote work, where every individual is treated as a [first-class team member](people/).
+This highlights another reality: [not all remote models are equal](https://about.gitlab.com/blog/2019/09/04/not-all-remote-is-created-equal/), nor do they create [equality](https://about.gitlab.com/blog/2019/12/06/how-all-remote-supports-inclusion-and-bolsters-communities/). All-remote is the [purest](https://about.gitlab.com/blog/2018/10/18/the-case-for-all-remote-companies/) form of remote work, where every individual is treated as a [first-class team member](people/).
 
 Through GitLab's [All-Remote Stories](stories/) and the [Remote Work GitLab Unfiltered playlist](https://www.youtube.com/playlist?list=PL05JrBw4t0Kq7QUX-Ux5fOunQotqJbECc), you can learn more from GitLab team members on what all-remote has meant to them and how it has shaped their lives and communities.
 
@@ -327,13 +327,13 @@ It is possible to find remote-first companies with a healthy, understanding cult
 
 ## GitLab Knowledge Assessment: Understanding a Hybrid-Remote Environment
 
-Anyone can test their knowledge on Understanding a Hybrid-Remote Environment by completing the [knowledge assessment](https://docs.google.com/forms/d/e/1FAIpQLSc-aKsS7Yu1-wwlpHsfEtHt8CkKK5n5UhnnU6ixTlM00Dz9cw/viewform). Earn at least an 80% or higher on the assessment to receive a passing score. Once the quiz has been passed, you will receive an email acknowledging the completion from GitLab. We are in the process of designing a GitLab Remote Certification and completion of the assessment will be one requirement in obtaining the [certification](https://about.gitlab.com/learn/certifications/public). If you have questions, please reach out to our [Learning & Development](/handbook/people-group/learning-and-development) team at `learning@gitlab.com`.
+Anyone can test their knowledge on Understanding a Hybrid-Remote Environment by completing the [knowledge assessment](https://docs.google.com/forms/d/e/1FAIpQLSc-aKsS7Yu1-wwlpHsfEtHt8CkKK5n5UhnnU6ixTlM00Dz9cw/viewform). Earn at least an 80% or higher on the assessment to receive a passing score. Once the quiz has been passed, you will receive an email acknowledging the completion from GitLab. We are in the process of designing a GitLab Remote Certification and completion of the assessment will be one requirement in obtaining the [certification](https://university.gitlab.com/certifications/public). If you have questions, please reach out to our [Learning & Development](/handbook/people-group/learning-and-development) team at `learning@gitlab.com`.
 
 {{% include "includes/is_this_advice_any_good_remote.md" %}}
 
 ## Contribute your lessons
 
-GitLab believes that all-remote is the [future of work]({{< ref "remote-vision" >}}), and remote companies have a shared responsibility to show the way for other organizations who are embracing it. If you or your company has an experience that would benefit the greater world, consider creating a [merge request](https://docs.gitlab.com/ee/user/project/merge_requests) and adding a contribution to this page.
+GitLab believes that all-remote is the [future of work]({{< ref "remote-vision" >}}), and remote companies have a shared responsibility to show the way for other organizations who are embracing it. If you or your company has an experience that would benefit the greater world, consider creating a [merge request](https://docs.gitlab.com/ee/user/project/merge_requests/) and adding a contribution to this page.
 
 ---
 

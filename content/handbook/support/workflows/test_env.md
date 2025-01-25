@@ -36,9 +36,24 @@ Please keep in mind *you can't generate licenses for customers*, only for your o
 
 Note that when using some AWS Marketplace resources, free trials (including GitLab Ultimate) may automatically renew. You should always prefer using test licenses, but ensure that you [cancel any AWS Marketplace subscriptions](https://aws.amazon.com/premiumsupport/knowledge-center/cancel-marketplace-subscription/) if you trial anything for testing purposes.
 
+## Testing on GitLab.com
+
+As noted in [Testing Environment License](#testing-environment-license), you will have received licensed namespaces for testing on GitLab.com as part of your onboarding.
+
+You will be added as `Owner` in these groups and can make changes at-will, including inviting customers to specific projects as you collaborate with them.
+
+- **Avoid** making the namespace public.
+  - *Instead* create a subgroup or project within your test namespace or a namespace unique to the customer case and assign them sufficient permissions to invite collaboration.
+
+- **Avoid** granting a customer permanent access.
+  - *Instead* set an access expiration date when you invite a customer.
+
+- **Avoid** using access tokens for your main GitLab account: a leak in a test project may not be automatically detected and can be used to traverse sensitive company namespaces.
+  - *Instead* try to use [Project Access Tokens](https://docs.gitlab.com/ee/user/project/settings/project_access_tokens.html) or [Group Access tokens](https://docs.gitlab.com/ee/user/group/settings/group_access_tokens.html). Otherwise, create a test account and use personal access tokens for it (If you do this, make sure the token is set to a expire within a maximum of 2 days).
+
 ## Cloud Testing Environments
 
-You can create (ephemeral) testing environments. We recommend using the support-resources project for doing so.
+You can create (ephemeral) testing environments. We recommend using the [Sandbox Cloud Realm](https://handbook.gitlab.com/handbook/company/infrastructure-standards/realms/sandbox/) at [gitlabsandbox.cloud](https://gitlabsandbox.cloud) for doing so.
 
 You're free to create any testing environments that you need in order to perform your role, however be advised that:
 
@@ -67,35 +82,9 @@ Check out a [this demo video](https://www.youtube.com/watch?v=aBF-AyQiFfA) for d
 
 #### Other GCP Projects
 
-You can use the `support-resources` project to manually create resources in a GCP testing environment alongside the resources created by our [automation tools](https://gitlab.com/gitlab-com/support/support-resources/-/blob/master/README.md). As with the [GitLab Sandbox Cloud](/handbook/company/infrastructure-standards/realms/sandbox/#how-to-get-started) for GCP - you can manage these manually created resources using the [GCP console](https://console.cloud.google.com/home/dashboard?project=support-resources-c801eb), or [gcloud command line tool](https://cloud.google.com/sdk/gcloud).
-
-**Warning:** You may also have access to the `gitlab-internal` and `gitlab-support` GCP projects. It's strongly recommended that you make use of the `support-resources` project or the GitLab Sandbox Cloud, instead of creating new resources in these projects.
-
-We also have a `support-openshift` project created for the purpose of creating OpenShift clusters for testing the [GitLab Operator](https://gitlab.com/gitlab-org/cloud-native/gitlab-operator) and [GitLab Runner Operator](https://gitlab.com/gitlab-org/gl-openshift/gitlab-runner-operator). Reach out to your Support Team colleagues in the [#support-testing Slack Channel](https://gitlab.slack.com/archives/C0167JB9E02) for more details on using this project for shared OpenShift testing.
+**Warning:** You may also have access to the `gitlab-internal` and `gitlab-support` GCP projects. You should use [GitLab Sandbox Cloud](#cloud-testing-environments) instead of creating resources in these projects.
 
 **Note:** Please remember to shut down or delete any resources that you are no longer using.
-
-##### GCP `support-resources` automation (deprecated)
-
-You can also use the [support-resources](https://gitlab.com/gitlab-com/support/support-resources/-/blob/master/README.md) project to automatically spin up resources. They will appear in the `support-resources` GCP project, which all Support Engineers should have access to as part of their baseline entitlements. If you don't have access to this project, please reach out in the `#support_operations` slack channel for assistance.
-
-`support-resources` is considered deprecated and we're actively tracking migration to Sandbox Cloud in [STM-4037](https://gitlab.com/gitlab-com/support/support-team-meta/-/issues/4037). Resources can still be created here, but if you're looking to create something enduring Sandbox Cloud should be preferred.
-
-Some advantages of using the `support-resources` automation project over Sandbox Cloud are:
-
-1. [Frugal times](https://gitlab.com/gitlab-com/support/support-resources#frugal-resources) - this is a key feature that allows for resources to be turned off (and on) based on a customizable schedule (GCP only charges for uptime). If you're using [GET](https://gitlab.com/gitlab-org/gitlab-environment-toolkit/) to spin up a 10k reference architecture (for example), the cost can be upwards of $250 USD/day. Frugal times lets you halve that by automatically turning it off when you're not online.
-1. Easy provisioning of streamlined complex topologies - with only a few clicks or a couple of commands, one can provision complex GitLab set-ups (GitLab installed on GKE, GitLab+Runner+Elasticsearch stack, etc) on any available version.
-1. Easily troubleshooting customer tickets by replicating their set-up in minutes and easily reproducing their issues. The GitLab instance can be provisioned as already seeded with Groups, Projects, Issues, MRs, etc. Because they are easy to set-up and, hence disposable, the instances can be shared with customers so they can themselves reproduce or showcase an issue or experiment and collaborate.
-1. Easy ramp-up and experimentation for various training modules - running before walking has never been easier. For example for someone taking the HA&Scale-out module, a good first step could be to create a [3K reference arch](https://docs.gitlab.com/ee/administration/reference_architectures/3k_users.html) to poke around and see how everything is set-up, before actually creating their own HA set-up, or maybe just use the 3K as a reference.
-1. Security - Support-resources allows the ports reviewed by our security team and if those were to change, we have a centralized way of imposing and rolling out that change across instances.
-1. Terraform development - while continuously developing the project a few support engineers have become very familiar with `terraform`, `ansible` and general automation guidelines (could include here `gcloud`, `bash` and `chef`). This is becoming more and more important as we are seeing the adoption of [GET](https://gitlab.com/gitlab-org/gitlab-environment-toolkit/).
-
-There's also a few disadvantages to using the project:
-
-1. Less granularity - while you can identify all the resources a user is running, having one's personal GCP project brings a lot more granularity to the data about each individual user.
-1. Isolation - while the `Support-Resources` automation project is good at preventing resources conflicts, those can still happen as everybody has access to the pool of resources (so accidents can and have happened). In a personal GCP project one can, among other things, restrict access to their resources.
-1. Familiarity with GCP - when using the `Support-Resources` project a lot of the intricacies of using GCP are performed beneath the covers. Having your own GCP projects will expose you to the complexity of setting things up manually or automating that yourself.
-1. Sandbox Cloud is the emerging company standard. For more history and details on the sets of problems it solves, see the [Sandbox Cloud Context and Problem Statement](/handbook/company/infrastructure-standards/realms/sandbox/#background-context-and-problem-statement)
 
 #### GCP GKE Kubernetes Cluster
 
@@ -110,11 +99,11 @@ Please use your [GitLab Sandbox Cloud](/handbook/company/infrastructure-standard
 1. Ensure you have selected your own project at the top of [GCC](https://console.cloud.google.com).
 1. Open the navigation menu at the top of [GCP](https://console.cloud.google.com)
 1. Select **Kubernetes Engine > Create Cluster** from the dashboard.
-1. Enter a name, select a zone, and choose the default static master version unless you have a specific reason to use an alternative version.  It's important to use a server version that will [match your kubectl client version](https://kubernetes.io/docs/tasks/tools/install-kubectl/#before-you-begin).
+1. Enter a name, select a zone, and choose the default static master version unless you have a specific reason to use an alternative version.  It's important to use a server version that will [match your kubectl client version](https://kubernetes.io/docs/tasks/tools/#before-you-begin).
 
 All of the remaining options can be left as their default settings unless you have a need to add customization to your cluster.  Of note, the Maximum Pods per Node option [directly correlates with the CIDR assignment](https://cloud.google.com/kubernetes-engine/docs/how-to/flexible-pod-cidr?_ga=2.246280516.-1734733517.1581009580) of your node(s).
 
-Connecting to, and configuring, your cluster can be done locally using [gcloud](https://cloud.google.com/sdk/docs#install_the_latest_cloud_tools_version_cloudsdk_current_version) and [kubectl](https://kubernetes.io/docs/tasks/tools/install-kubectl/#download-as-part-of-the-google-cloud-sdk). Or you can use the Google Cloud Shell.  Clicking Connect in GCP will provide the command to run locally for you to copy and paste, or let you open Cloud Shell immediately. Using [docker images](https://hub.docker.com/r/kiwigrid/gcloud-kubectl-helm) is also an option for a quick deployment of all tools locally.
+Connecting to, and configuring, your cluster can be done locally using [gcloud](https://cloud.google.com/sdk/docs#install_the_latest_cloud_tools_version_cloudsdk_current_version) and [kubectl](https://kubernetes.io/docs/tasks/tools/#download-as-part-of-the-google-cloud-sdk). Or you can use the Google Cloud Shell.  Clicking Connect in GCP will provide the command to run locally for you to copy and paste, or let you open Cloud Shell immediately. Using [docker images](https://hub.docker.com/r/kiwigrid/gcloud-kubectl-helm) is also an option for a quick deployment of all tools locally.
 </div>
 </details>
 
@@ -312,8 +301,8 @@ If you don't know your current IP address to use for source IP filtering, you ca
 In addition, you can find official, platform-specific documentation of features involved in implementing IP filtering:
 
 - [Google Cloud](https://cloud.google.com/vpc/docs/using-firewalls#creating_firewall_rules#console)
-- [Amazon Web Services (AWS)](https://docs.aws.amazon.com/vpc/latest/userguide/VPC_SecurityGroups.html)
-- [Azure](https://docs.microsoft.com/en-us/learn/modules/introduction-azure-web-application-firewall/)
+- [Amazon Web Services (AWS)](https://docs.aws.amazon.com/vpc/latest/userguide/vpc-security-groups.html)
+- [Azure](https://learn.microsoft.com/en-us/training/modules/introduction-azure-web-application-firewall/)
 
 ### TLS
 
@@ -325,7 +314,7 @@ For GitLab instances specifically, it's recommended that [LetsEncrypt is manuall
 
  Implementing TLS on any test instance that includes a login page can be done with a self-signed certificate if desired.  Self-signed certificates are free, suitable for testing environments, and encrypt ingress and egress traffic with the same ciphers as paid certificates.  The down-side is that self-signed certificates are not trusted by any browser or operating system and will therefore warn users of the risks when accessing a site that utilizes a self-signed (untrusted) certificate.  If external parties will be accessing your instance that should rely on your TLS implementation, it's best to include a signed certificate from a legitimate certificate authority.
 
-Self-signed certificates can be generated with a tool like [`mkcert`](https://mkcert.dev). Once `mkcert` has been installed, you can this command to generate a certificate file and a key file for `gitlab.example.com`:
+Self-signed certificates can be generated with a tool like [`mkcert`](https://github.com/FiloSottile/mkcert). Once `mkcert` has been installed, you can this command to generate a certificate file and a key file for `gitlab.example.com`:
 
 ```sh
 mkcert gitlab.example.om
@@ -341,7 +330,7 @@ For instructions on using self-signed certificates on your test instances, pleas
 
 - [Google Cloud](https://cloud.google.com/load-balancing/docs/ssl-certificates/self-managed-certs)
 - [AWS](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/SSL-on-amazon-linux-2.html)
-- [Azure](https://docs.microsoft.com/en-us/azure/active-directory/develop/howto-create-self-signed-certificate)
+- [Azure](https://learn.microsoft.com/en-us/entra/identity-platform/howto-create-self-signed-certificate)
 
 ### Patching against known vulnerabilities
 
@@ -371,7 +360,7 @@ sudo chmod a+x /opt/gitlab/embedded/bin/exiftool
 
 ### Docker
 
-If you'd like to use [Docker Desktop for Mac](https://www.docker.com/get-started) a subscription is required for business use. Please review the [Docker Desktop handbook page](/handbook/tools-and-tips/mac/#docker-desktop) to find more information on how to obtain a license as well as a list of recommended alternatives.
+If you'd like to use [Docker Desktop for Mac](https://www.docker.com/get-started/) a subscription is required for business use. Please review the [Docker Desktop handbook page](/handbook/tools-and-tips/mac/#docker-desktop) to find more information on how to obtain a license as well as a list of recommended alternatives.
 
 In the mean time, consider using a Cloud or local VM with [Linux Engine](https://hub.docker.com/search?q=&type=edition&offering=community&operating_system=linux) for testing Docker environments.
 
@@ -428,13 +417,13 @@ virtualization.
 
 #### Install Vagrant
 
-From [Introduction to Vagrant](https://www.vagrantup.com/intro)
+From [Introduction to Vagrant](https://developer.hashicorp.com/vagrant/intro)
 
 > Vagrant is a tool for building and managing virtual machine environments in a single workflow
 
 Vagrant encapsulates the local VM apps VMWare and Virtual along with [libvirt](https://libvirt.org/).
 
-To install Vagrant, go to [tutorials/vagrant/getting-started-install](https://learn.hashicorp.com/tutorials/vagrant/getting-started-install?in=vagrant/getting-started)
+To install Vagrant, go to [tutorials/vagrant/getting-started-install](https://developer.hashicorp.com/vagrant/tutorials/getting-started/getting-started-install)
 
 Once installed, [support/toolbox](https://gitlab.com/gitlab-com/support/toolbox) has two projects which you can explore for local GitLab and tools setup.
 
@@ -452,7 +441,7 @@ Once installed, [support/toolbox](https://gitlab.com/gitlab-com/support/toolbox)
 
 Multipass is a tool to generate cloud-style Ubuntu VMs quickly on Linux, macOS, and Windows. This method is similar to Vagrant.
 
-It can be [installed using brew](https://multipass.run/docs/installing-on-macos#heading--use-brew) or the [package installer](https://multipass.run/docs/installing-on-macos#heading--use-the-installer-package).
+It can be [installed using brew](https://canonical.com/multipass/docs/install-multipass) or the [package installer](https://canonical.com/multipass/docs/install-multipass).
 
 NOTE: Some Mac users may experience a [long standing bug](https://github.com/canonical/multipass/issues/2387) where the MacOS firewall prevents Multipass from functioning consistently. Use macOS 13.3.1 or above to avoid this issue.
 
@@ -492,7 +481,7 @@ Once installed, use `multipass help` to get an idea of what it can do. The gener
     - `multipass list` or `multipass ls` to see all instances
     - `multipass stop gitlab-omnibus` to stop the instance
     - `multipass delete gitlab-omnibus` to delete the instance
-    - Change the default `open shell` menu item by [using duti](https://multipass.run/docs/changing-terminal#heading--using-duti)
+    - Change the default `open shell` menu item by [using duti](https://canonical.com/multipass/docs/changing-terminal)
 
 ##### GitLab Runner
 
@@ -635,7 +624,7 @@ export NAME=gitlab-test-11.9
 export IP=$(docker-machine ip $ENV_NAME)
 
 docker run --detach \
---env GITLAB_OMNIBUS_CONFIG="external_url 'http://$IP:$HTTP_PORT'; gitlab_rails['gitlab_shell_ssh_port'] = $SSH_PORT;" \
+--env GITLAB_OMNIBUS_CONFIG="external_url 'https://$IP:$HTTP_PORT'; gitlab_rails['gitlab_shell_ssh_port'] = $SSH_PORT;" \
 --hostname $IP \
 -p $HTTP_PORT:$HTTP_PORT -p $SSH_PORT:22 \
 --name $CONTAINER_NAME \
@@ -651,7 +640,7 @@ echo $IP
 # example output: 192.168.151.134
 ```
 
-- Browse to: <http://192.168.151.134:8888/>
+- Browse to: <https://192.168.151.134:8888/>
 
 **Note**: The container might take a few seconds to spin up and become accessible via the browser.
 
@@ -681,14 +670,14 @@ docker exec -it gitlab-ee gitlab-ctl reconfigure
 
 #### Resources
 
-- <https://docs.gitlab.com/ee/install/docker.html>
+- <https://docs.gitlab.com/ee/install/docker/index.html>
 - <https://web.archive.org/web/20210619101324/https://docs.docker.com/machine/get-started/>
 - <https://web.archive.org/web/20210619101324/https://docs.docker.com/machine/reference/ip/>
 
 ## Windows
 
 It may come to pass that you require a Windows environment to test a [Windows Runner](https://docs.gitlab.com/runner/install/windows.html) or
-even the [Kubernetes Executor in a Mixed Cluster](https://docs.gitlab.com/runner/executors/kubernetes.html#example-for-windowsamd64).
+even the [Kubernetes Executor in a Mixed Cluster](https://docs.gitlab.com/runner/executors/kubernetes/index.html#example-for-windowsamd64).
 
 The options are the same as above:
 

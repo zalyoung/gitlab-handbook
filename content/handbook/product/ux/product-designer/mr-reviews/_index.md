@@ -128,7 +128,6 @@ Some MRs require additional set up:
 - **Secure**:
   - Generate project vulnerabilities, execute `GITLAB_QA_ACCESS_TOKEN=XXXXXXXXXX GITLAB_URL="https://gitlab.com" bundle exec rake vulnerabilities:setup\[<Project_Id>,<Vulnerability_Count>\] --trace` from the `gitlab/qa` directory. Replace the placeholders in the script with your local access token, project ID, and desired number of vulnerabilities. An example of this might be `GITLAB_QA_ACCESS_TOKEN=asdfASDF1234- GITLAB_URL="http://localhost:3000/" bundle exec rake vulnerabilities:setup\[25,10] --trace`
   - Populate a merge request with vulnerabilities by [following these steps](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/89526#note_992018561).
-- **Monitor**: Add test alerts for some MRs. [Sample alert instructions](/handbook/engineering/development/ops/monitor/respond/#assigning-mrs-for-code-review) (see the inline code snippet of instructions).
 - **Service Desk**: Set up `incoming_email`, `service_desk_email` and MailRoom. These MRs can't be reviewed on GitPod and need a working GDK. [GDK setup instructions](https://gitlab.com/gitlab-org/gitlab-development-kit/-/blob/main/doc/howto/service_desk_mail_room.md). [Video walkthrough](https://youtu.be/SdqBOK43MlI).
 - **Value Stream Analytics**: [Setup and seed data instructions](https://gitlab.com/-/snippets/2169951/raw/main/blocks.md). [Request a developer license](/handbook/engineering/developer-onboarding/#working-on-gitlab-ee-developer-licenses) as many VSA features require an EE license.
 - **Product Analytics**: [GDK setup instructions](https://gitlab.com/gitlab-org/gitlab-development-kit/-/blob/main/doc/howto/product_analytics.md). This process can only be done on a local version of the GDK, not on GitPod. Additionally, it requires Docker.
@@ -154,7 +153,7 @@ Some MRs require additional set up:
     - Try the [Chrome/Firefox add-on](https://gitlab.com/conventionalcomments/conventional-comments-button) to apply [Conventional Comment](https://conventionalcomments.org/) prefixes.
 - **Visual feedback**:
   - Share annotated screenshots or screen recordings in your comments. This makes issues clear and communication more efficient.
-  - Use free apps like [CloudApp](https://www.getcloudapp.com/), [Monosnap](https://monosnap.com/), or Mac's Screenshot (see how to [capture](https://support.apple.com/guide/mac-help/take-a-screenshot-or-screen-recording-mh26782/mac) and [annotate](https://support.apple.com/guide/mac-help/mark-up-files-mchl1fd88863/mac)).
+  - Use free apps like [CloudApp](https://zight.com/), [Monosnap](https://monosnap.com/), or Mac's Screenshot (see how to [capture](https://support.apple.com/en-ca/guide/mac-help/mh26782/mac) and [annotate](https://support.apple.com/guide/mac-help/mark-up-files-mchl1fd88863/mac)).
   - Highlight differences between the implementation and the expected result using a [Markdown table](https://docs.gitlab.com/ee/user/markdown.html#tables). Use the template below:
       <details>
       <summary>Differences table template</summary>

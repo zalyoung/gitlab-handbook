@@ -2,12 +2,165 @@
 title: "Git Team"
 ---
 
-**Mission**: Develop Git in accordance with the goals of the community and GitLab, and integrate it into our products.
+## Mission statement
+
+The Git team is responsible for building, maintaining and providing expertise on
+the Git version control system. Its main responsibilities include:
+
+- Upstream development of the Git version control system.
+- Provide expertise to other teams at GitLab.
+- Foster the Git community.
+- Ensure the long-term viability of the Git project.
+
+### Upstream development
+
+The Git team is responsible for driving the upstream development of Git both in
+accordance with the goals of the community and to address GitLab-specific needs
+as raised by other teams. This falls into the following broad categories:
+
+- Implementation of new features in the form of new tooling as required by use
+cases at GitLab.
+- Scalability improvements in the form of optimizations and new data formats.
+- Improvements to the usability of Git so that it remains the first choice for
+  developers.
+- Maintenance of the Git codebase.
+
+### Provide expertise
+
+The Git version control system is at the core of what GitLab is doing and is
+thus of critical importance to many teams across GitLab. This doesn't only
+include teams part of the Engineering division, but also spans across other
+divisions like for example Support. The Git team is the main contact point for
+such teams and provides expertise on how to use Git effectively and efficiently.
+It will provide insights into following non-exhaustive list of topics:
+
+- How can a certain use case be implemented with Git?
+- How to improve performance of certain workloads?
+- How to expose certain features of Git to customers?
+- What is happening in the Git community and what is the direction the project
+  heads into?
+- Which Git related workflows and practices should be encouraged among Git
+  users?
+
+### Foster the Git community
+
+GitLab relies on the Git community to be healthy. It is our belief that a
+healthy community is a community with diverse view points, including those views
+held by our direct competitors active in the same community. The Git team will
+help foster and grow the Git community:
+
+- Ensure an influx of new contributors via mentorship programs like Google
+  Summer of Code or Outreachy.
+- Improve Git documentation and materials for new contributors.
+- Attend or host community-oriented events like user groups or Git Merge.
+- Help out community members by providing guidance and doing reviews.
+- Spread information in the form of for example blog posts or Git Rev News.
+
+### Long-term viability
+
+The Git project has been growing organically for almost two decades at the point
+of writing. It has thus accumulated a lot of debt in different forms that need
+to be addressed in one form or another to ensure that the project itself remains
+viable in the long term. This includes topics like:
+
+- Maintenance and refactorings of the Git codebase to reduce technical debt.
+- Modernization of parts of the tech stack.
+- Improvements to the usability of Git.
+- Deprecations and removal of features.
+
+## Roadmap
+
+Please see the public [product direction for Gitaly](https://about.gitlab.com/direction/git/).
+
+The current roadmap is [this epic board](https://gitlab.com/groups/gitlab-org/-/epic_boards/2065518?label_name[]=Roadmap&label_name[]=group%3A%3Agit).
+
+## Team
 
 [Responsibilities](/job-families/engineering/backend-engineer/#git) |
 [In the product hierarchy](/handbook/product/categories/#git-group)
 
 {{< team-by-departments "Git Team" >}}
+
+## How to contact the team
+
+We are happy to help when other teams or customers need it. But please keep in
+mind that we are primarily a _development_ team, not equipped for "field
+engineering".
+
+Our _engineers_ can help, preferably
+[asyncchronously](/handbook/company/culture/all-remote/asynchronous/), with deep
+technical investigation based on Git-specific use cases and data and able
+technical collaboration, in close partnership with Support, CSM and direct users
+of Git like Gitaly.
+
+_Engineering Managers_ (`@pks-gitlab`) and _Product Managers_ (`@mjwood`) are
+also happy to engage with customers if you need assistance clarifying roadmaps,
+features and timelines, or to ensure the correct prioritization.
+
+We are not a good fit however if you need:
+
+- Guidance on how Git is used by other teams. While we can provide the expertise
+  on _how_ to integrate it, the _actual_ integration is outside of our reach.
+- Advice on workflows and instance configuration or architecture in self-hosted
+  scenarios. ([Reference Architectures](https://docs.gitlab.com/ee/administration/reference_architectures/)
+  and Professional Services can help)
+- Engagements without clear exit criteria. Please clarify them first, "let's
+  jump on a call to discuss" is usually in this category.
+- Long-term "advise us" scenarios. Please refer to Support and the
+  documentation, or engage Professional Services.
+
+### Git Office Hours
+
+The team regularly hosts GitLab-internal
+[Git Office Hours](https://docs.google.com/document/d/1mOFqF-SwKQc-EuJPyL3xj7xNmqpm9zDnJAnKXMUKmEs/edit?tab=t.0#heading=h.foc0amy34klq).
+The event is part of the Gitaly team calender, is announced in due time and
+typically happens on Wednesday at 2:30pm UTC.
+
+These office hours are mostly used to discuss upstream development in the Git
+team, but we also encourage other people not part of that team to join in case
+they want to learn about what is going on in the Git community.
+
+This venue can be used to ask for guidance on specific issues:
+
+- Ask for feedback and guidance on how to integrate Git into the product.
+- Discuss interesting edge cases as hit e.g. by our customers.
+- Provide feedback on Git features.
+
+Note that this is not intended as a general support forum for how to use Git on
+a day-to-day basis. A better channel to ask such questions would be
+[#git-help](https://gitlab.slack.com/archives/git-help).
+
+Please feel free to chime in and add your topic to the agenda linked above.
+
+### Bugs, features, performance
+
+To get Git team work on something, it's best to create an issue on the
+GitLab-specific [Git issue tracker](https://gitlab.com/gitlab-org/git/issues)
+and add the `group::git` and `workflow::problem validation` labels, along with
+any other appropriate labels. Then, feel free to tag the relevant Product
+Manager and/or Engineering Manager as listed above.
+
+For information requests and other quick one-offs, feel free to use
+[#g_git](https://gitlab.slack.com/archives/g_git) on Slack to get attention on
+the issue.
+
+### Urgent issues and outages
+
+If you're not part of the Support organization, please consider seeking help from them first -- Support has better availability and can help in most common cases.
+
+If you still need help, please file an issue [here](https://gitlab.com/gitlab-org/git/-/issues/new). Post it on [#g_git](https://gitlab.slack.com/archives/g_git) for more immediate visibility and tag EM and PM, and the Support person you're working with.
+
+### Future oncall rotation
+
+NOTE: Gitaly and Git are working on second-tier [on-call coverage](../gitaly#gitaly-oncall-rotation) for well-defined emergencies only. This is not enabled yet; the tentative start date is 2025-01-01.
+
+Please do not page oncall outside of these cases; contact Support instead!
+
+- For **production incidents only**, SRE or IMOC on-call can page the current [Gitaly oncall](../gitaly#gitaly-oncall-rotation) manually.
+- For **customer emergencies**, Support engineers and managers can page the current [Gitaly oncall](../gitaly#gitaly-oncall-rotation) manually.
+- If you're working on a customer emergency but not part of Support, please contact Support instead.
+
+For these cases, use `/pd trigger` on Slack, then select the Gitaly rotation. For all other cases please file an issue.
 
 ## Workflow in upstream Git
 

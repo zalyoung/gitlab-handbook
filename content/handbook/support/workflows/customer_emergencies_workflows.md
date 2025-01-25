@@ -182,7 +182,7 @@ If at any point you would like advice or help finding additional support, [conta
     - After another 15 minutes without response the bridge will be closed and the ticket will be assigned a `HIGH` priority.
     - Feel free to open a new emergency request if the need arises.
 
-**NOTE:** If you need to reach the current on-call engineer and they're not accessible on Slack (e.g., it's a weekend, or the end of a shift), you can [manually trigger a PagerDuty incident](https://support.pagerduty.com/docs/incidents#section-manually-trigger-an-incident) to get their attention, selecting **Customer Support** as the Impacted Service and assigning it to the relevant Support Engineer.
+**NOTE:** If you need to reach the current on-call engineer and they're not accessible on Slack (e.g., it's a weekend, or the end of a shift), you can [manually trigger a PagerDuty incident](https://support.pagerduty.com/main/docs/incidents#section-manually-trigger-an-incident) to get their attention, selecting **Customer Support** as the Impacted Service and assigning it to the relevant Support Engineer.
 
 #### PagerDuty Status
 
@@ -199,6 +199,10 @@ In rare cases, the on-call engineer may experience concurrent emergencies trigge
 1. **You**: [Contact the on-call Support Manager](/handbook/support/on-call/#paging-the-on-call-manager) to inform them of the new incoming emergency. The Support Manager is responsible for finding an engineer to own the new emergency page.
 1. **Support Manager**: In Slack, ping the regional support group (*e.g.* `@support-team-americas`) and request assistance from anyone who is available to assist with the new incoming emergency case.
 1. **Second Support Engineer**: Acknowledge and resolve the emergency page to indicate that you are assisting the customer with the case.
+
+#### Customer emergencies are triggered by a GitLab incident
+
+If a GitLab incident is the cause for customer emergencies, check in with the CMOC and the Support Manager On-Call about whether a [Support Response](/handbook/support/workflows/cmoc_workflows.md#about-coordinating-a-support-response) is relevant. A [Support Response issue](https://gitlab.com/gitlab-com/support/support-team-meta/-/blob/master/.gitlab/issue_templates/Support%20Response.md) will be created when the incident requires a non-standard workflow or communication from Support; use this issue as a guide when you work on the emergencies. You can also collaborate on the workflow and share any information you find that would help Support Engineers to handle related tickets.
 
 #### Backup engineers on weekends in APAC
 
@@ -519,7 +523,7 @@ During an incident:
 
 #### Using Zendesk Bulk Update
 
-[Zendesk Bulk Update](https://support.zendesk.com/hc/en-us/articles/203690866-Managing-tickets-in-bulk#topic_oth_lkp_gk) is a way to mass edit and respond to tickets. During an incident, you can use it to:
+[Zendesk Bulk Update](https://support.zendesk.com/hc/en-us/articles/4408886890906-Managing-tickets-in-bulk#topic_oth_lkp_gk) is a way to mass edit and respond to tickets. During an incident, you can use it to:
 
 - automatically tag tickets
 - send a bulk response

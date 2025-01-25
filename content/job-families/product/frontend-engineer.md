@@ -72,7 +72,7 @@ The Senior Frontend Engineer reports to a UX Engineering Manager or [Product Des
 
 #### Job Grade
 
-The Senior Frontend Engineer is a [grade 7](http://about.gitlab.com/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
+The Senior Frontend Engineer is a [grade 7](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
 
 #### Responsibilities
 
@@ -123,7 +123,7 @@ A Staff Frontend Engineer is expected to meet the base requirements and execute 
 
 Candidates can expect the hiring process to follow the below order, although it can change depending on calendar availability. Please keep in mind that candidates can be declined at any stage of the process.
 
-- 30-minute [screening call](http://about.gitlab.com/handbook/hiring/interviewing/#screening-call) with one of our global recruiters.
+- 30-minute [screening call](/handbook/hiring/interviewing/#screening-call) with one of our global recruiters.
 - 90-minute technical interview with a Frontend Engineer.
 - 60-minute interview with a UX Engineering Manager or Product Design Manager.
 - 50-minute interview with a Group Product Manager.

@@ -9,7 +9,7 @@ We receive [feedback](/handbook/people-group/guidance-on-feedback/#feedback-at-g
 
 ## Purpose
 
-The purpose of the Security Operational Risk Management ("StORM") program at GitLab is to enable better [decision-making](/handbook/leadership/making-decisions/) by identifying, monitoring, treating, and reporting on security operational risks in support of GitLab's [strategy](/handbook/company/strategy). The Security Risk Team utilizes the procedures below (formed through consideration of guidance set forth in [NIST's SP 800-39](https://csrc.nist.gov/pubs/sp/800/39/final), [SP 800-30 Rev. 1](https://csrc.nist.gov/pubs/sp/800/30/r1/final), and [ISO 31000 Risk Management Methodology](https://www.iso.org/iso-31000-risk-management.html)) to ensure that security risks that may impact GitLab are effectively managed.
+The purpose of the Security Operational Risk Management ("StORM") program at GitLab is to enable better [decision-making](/handbook/leadership/making-decisions/) by identifying, monitoring, treating, and reporting on security operational risks in support of GitLab's [strategy](/handbook/company/strategy). The Security Risk Team utilizes the procedures below (formed through consideration of guidance set forth in [NIST's SP 800-39](https://csrc.nist.gov/pubs/sp/800/39/final), [SP 800-30 Rev. 1](https://csrc.nist.gov/pubs/sp/800/30/r1/final), and [ISO 31000 Risk Management Methodology](https://www.iso.org/standard/65694.html)) to ensure that security risks that may impact GitLab are effectively managed.
 
 ## Scope
 
@@ -29,14 +29,14 @@ A risk governance structure has been put in place to outline the overall roles a
 | ------ | ------ |
 | Executive Risk Owner | - Accountable for driving treatment for one or more of GitLab's Top 5 Security Risks <br>- Responsible for identifying one or more Risk Owners. Security Risk recommends identifying at least one Risk Owner per department involved in risk treatment <br>- Responsible for approving the long-term risk treatment plan including the creation of KRs to associated treatment milestones identified by Risk Owners and the Security Risk Team <br>- Note that most Executive Risk Owners will be CEO + 2 (Senior Director or VP-level) and will be responsible for cross-department collaboration to drive risk reduction over time |
 | Risk Owners |  - Responsible for the creation of a long-term risk treatment plan including treatment milestones meant to reduce  residual risk over time <br>- Accountable for executing risk treatment activies <br>- Responsible for collaborating with the Security Risk Team to ensure associated risk(s) and treatment status are reported periodically <br>- Note that most Risk Owners will be CEO + 3 (Senior Manager or Director level) |
-| Security Risk Manager | This role is assigned per risk to a specific Security Risk team member. Expectations include:<br>- Maintains knowledge on the history, current-state, and direction of their risk<br>- Works with the risk owner or owners to ensure the risk status and treatment is documented<br>- Identifies, monitors, and participates in associated issues/MRs/epics/working groups that are relevant to their assigned risk<br>- Validates remediation activities<br>- Maps risks to relevant <a href="https://handbook.gitlab.com/handbook/security/security-assurance/security-compliance/sec-controls/#gitlab-control-framework-gcf">GCF controls</a>, <a href="https://gitlab.com/groups/gitlab-com/gl-security/security-assurance/-/epics?state=opened&page=1&sort=start_date_desc&label_name[]=Observation+Epics">Root Cause Observation Epics</a>, Security Compliance Tier 3 Observations</a>, <a href="https://handbook.gitlab.com/handbook/security/security-assurance/field-security/field-security-study/">Field Security Study Observations</a>, and other observations noted from security-impacting assessments (internal-only) <br>- Collaborates with Executive Risk Owner and Risk Owners to create and monitor long-term risk treatment plans|
+| Security Risk Manager | This role is assigned per risk to a specific Security Risk team member. Expectations include:<br>- Maintains knowledge on the history, current-state, and direction of their risk<br>- Works with the risk owner or owners to ensure the risk status and treatment is documented<br>- Identifies, monitors, and participates in associated issues/MRs/epics/working groups that are relevant to their assigned risk<br>- Validates remediation activities<br>- Maps risks to relevant <a href="/handbook/security/security-assurance/security-compliance/sec-controls/#gitlab-control-framework-gcf">GCF controls</a>, <a href="https://gitlab.com/groups/gitlab-com/gl-security/security-assurance/-/epics?state=opened&page=1&sort=start_date_desc&label_name[]=Observation+Epics">Root Cause Observation Epics</a>, Security Compliance Tier 3 Observations</a>, <a href="/handbook/security/security-assurance/field-security/field-security-study/">Field Security Study Observations</a>, and other observations noted from security-impacting assessments (internal-only) <br>- Collaborates with Executive Risk Owner and Risk Owners to create and monitor long-term risk treatment plans|
 | Security Risk Team | - Coordinates and executes StORM procedures including establishing risk appetite and conducting risk assessments<br>- Maintains the risk register to ensure accuracy and currency<br>- Acts in a Program Management capacity to support the tracking of risk treatment activities<br>- Coordinates peer validation testing after all risk remediation activities have been completed <br>- Periodically reports on the status of security operational risks <br> - Provides management level oversight of the StORM program, including continuing reviews of GitLab's Risk Register and acts as a point of escalation as needed <br>- Responsible for approving significant changes and exceptions to this procedure|
 
 ## StORM Procedures
 
 ### Establishing Risk Appetite and Tolerance
 
-**Tone at the Top**: GitLab's StORM methodology uses a defined Risk Appetite and Risk Tolerance as primary drivers to determine which risks GitLab are willing to accept/take versus which risks we will need to mitigate. These thresholds are defined by Senior Leadership across the organization to ensure the Tone at the Top is aligned with the StORM program. Risk Appetite and Tolerance are reassessed year-to-year. This is done through an annual Risk Appetite Survey based on the [ISO 31000 Risk Management Methodology](https://www.iso.org/iso-31000-risk-management.html). The survey is distributed to individuals operating in a Senior Leadership capacity with direct relations to Security Operations. The responses are averaged to arrive at an overall risk appetite and tolerance.
+**Tone at the Top**: GitLab's StORM methodology uses a defined Risk Appetite and Risk Tolerance as primary drivers to determine which risks GitLab are willing to accept/take versus which risks we will need to mitigate. These thresholds are defined by Senior Leadership across the organization to ensure the Tone at the Top is aligned with the StORM program. Risk Appetite and Tolerance are reassessed year-to-year. This is done through an annual Risk Appetite Survey based on the [ISO 31000 Risk Management Methodology](https://www.iso.org/standard/65694.html). The survey is distributed to individuals operating in a Senior Leadership capacity with direct relations to Security Operations. The responses are averaged to arrive at an overall risk appetite and tolerance.
 
 #### How GitLab Determines Risk Appetite
 
@@ -56,7 +56,7 @@ Each risk strategy statement is ranked in order of priority from Highest priorit
 | **RISK RESPONSE**<br>**APPROACH** | All risks are acceptable as long<br>as they do not impact our legal<br>and regulatory obligations | Determine risk response options to<br>help accept or reduce risk levels<br>through internal initiatives | Risk remediation is favored over<br>risk acceptance | Risks that cannot be effectively<br>treated or transferred are avoided |
 | **RISK RESPONSE**<br>**DRIVERS** | No response action required for risks<br>unless they may represent a<br>contract or regulatory violation | Risk response actions take into<br>consideration cost effectiveness,<br>management priorities, and return<br>on investment | Risk response actions emphasize the<br>impact to security over the impact<br>to strategic objectives | Risk response actions are always taken,<br>regardless of cost effectiveness,<br>management priorities, return on investment,<br>and overall organizational objectives |
 
-*GitLab's Risk Appetite Matrix was formed through consideration of guidance set forth in NIST's [SP 800-39](https://csrc.nist.gov/publications/detail/sp/800-39/final) and [SP 800-30 Rev. 1](https://csrc.nist.gov/publications/detail/sp/800-30/rev-1/final).*
+*GitLab's Risk Appetite Matrix was formed through consideration of guidance set forth in NIST's [SP 800-39](https://csrc.nist.gov/pubs/sp/800/39/final) and [SP 800-30 Rev. 1](https://csrc.nist.gov/pubs/sp/800/30/r1/final).*
 
 Scoring is performed by individuals operating in at least Senior Leadership capacity within GitLab and spans across multiple departments.
 
@@ -68,7 +68,7 @@ Our risk appetite is translated to a tolerance which defines a range in which a 
 |:---------:|:---------:|:---------:|:---------:|
 |1-5|1-10|11-15|16-20|
 
-Risk scores above 20 (High or Very High risk rating) are considered too risky to be considered within tolerance. In other words, risks that are rated High and Very High must be treated.
+Risk scores above 20 (High or Critical risk rating) are considered too risky to be considered within tolerance. In other words, risks that are rated High and Critical must be treated.
 
 #### Historical and Current Record of GitLab's Security Risk Appetite
 
@@ -122,7 +122,7 @@ To score each risk, we leverage a formula based on the Likelihood of the risk ev
 | 6 | CRITICAL | No expertise required to initiate a threat event |
 | 5 | VERY HIGH | Low level of expertise required to initiate a threat event   |
 | 4 | HIGH | Some expertise required to initiate a threat event           |
-| 3 | MODERATE  | Difficult to initiate a threat event, even with expertise    |
+| 3 | MEDIUM  | Difficult to initiate a threat event, even with expertise    |
 | 2 | LOW  | Requires significant expertise to initiate a threat event    |
 | 1 | VERY LOW  | Theoretically impossible to initiate a threat event |
 
@@ -132,7 +132,7 @@ To score each risk, we leverage a formula based on the Likelihood of the risk ev
 | :---------------: | ------------- | --- | -------- | ---------- | ----------- | ------- |
 | VERY LOW (1) | Organizational output is<br>impacted by less than 20% | Limited to reputational damage<br>with no more than one customer<br>within a fiscal period | Outages of non-critical systems<br>that impact GitLab team members | Impact is limited to one<br>customer and/or stakeholder | Breach of company policy<br>occurring once in a fiscal<br>period  | Loss up to $999   |
 | LOW (2) | Organizational output is<br>impacted by 30% - 40% | Confined to a limited number of<br>parties (e.g. specific customers)<br>and not publicized | Outages which result in the inability<br>of GitLab to continue sales and finance<br>operations longer than 72+ hours | Impact is limited to 2-3<br>customers and/or stakeholders | Breach of company policy<br>twice within a fiscal period | Loss between $1,000<br>and $9,999 |
-| MODERATE (3) | Organizational output is<br>impacted by 40% - 50% | Public domain publicity but limited<br>to industry channels and not the<br>broader public | Outages that impact GitLab's<br>ability to do business across 3+<br>departments | Impact is limited to 4-5<br>customers and/or stakeholders | Breach of a regulatory and/or<br>contractual obligation | Loss between $10,000<br>and $499,999  |
+| MEDIUM (3) | Organizational output is<br>impacted by 40% - 50% | Public domain publicity but limited<br>to industry channels and not the<br>broader public | Outages that impact GitLab's<br>ability to do business across 3+<br>departments | Impact is limited to 4-5<br>customers and/or stakeholders | Breach of a regulatory and/or<br>contractual obligation | Loss between $10,000<br>and $499,999  |
 | HIGH (4) | Organizational output is<br>impacted by 50% - 75% | Wide-spread publicity but limited<br>parties are impacted  | Outages that result in the loss of<br>availability of GitLab for customers<br>for less than 4 hours | Major impact to many<br>customers and/or stakeholders | Regulatory censure and/or action<br>taken against GitLab | Loss between $500,000<br>and $999,999 |
 | VERY HIGH (5) | Organizational output is<br>impacted by 75% or more | Widely publicized | Outages that result in the loss of<br>availability of GitLab for customers<br>for 4+ hours | Major impact to all<br>customers and/or stakeholders | Public regulatory fines and/or major<br>litigation against GitLab | Loss of $1,000,000+ |
 
@@ -145,25 +145,18 @@ To arrive at a final impact score, the impact score of all impact categories is 
 
 - Residual risk is calculated in the same manner as inherent risk, but the likelihood and impact is reassessed based on the known existing controls, processes/procedures, etc. that reduce/mitigate the risk.
 
-#### Determining if a risk is considered Very Low, Low, Moderate, High, or Very High
+#### Determining if a risk is considered Low, Medium, High, or Critical
 
-Once the Inherent and Residual risk score is determined, the following table can be used to determine if a risk is considered Very Low, Low, Moderate, High, or Very High:
+Once the Inherent and Residual risk score is determined, the following table can be used to determine if a risk is considered Low, Medium, High, or Critical:
 
 |Risk Rating|Risk Score Range|
 |:---------:|:--------------:|
-|Very Low|1-5|
-|Low|6-10|
-|Moderate|11-20|
+|Low|1-10|
+|Medium|11-20|
 |High|21-25|
-|Very High|26-30|
+|Critical|26-30|
 
 These ratings represent labels for communication purposes rather than what is or is not acceptable. To determine what is an acceptable risk, please refer to [risk tolerances](#translating-gitlabs-security-risk-appetite-to-risk-tolerance).
-
-#### The Impact of Control Health & Effectiveness Rating (CHER) on Risks
-
-In some cases where controls are identified that mitigate a risk, the Security Risk Team considers the CHER of the control that is established based on continuous monitoring performed by the Security Compliance Team. For details on how the Security Compliance Team rates observations, refer to the [Observation Management]({{< ref "observation-management-procedure" >}}) handbook page.
-
-Given that the scope of the StORM program is limited to Tier 2 Operational Risks, any information system level risks (i.e. Tier 3) identified within the organization are typically not included as part of the StORM program as Tier 3 risks should be addressed by one or more internal controls. However, should a control have a high CHER rating, this may be an indicator of a larger risk. Because of this, there are opportunities for Tier 3 risks to escalate to Tier 2 risks. The decision to escalate a Tier 3 risk in this manner will be documented within the Risk Details.
 
 #### Ad-hoc Risk Identification and Assessment
 
@@ -196,7 +189,7 @@ When choosing to remediate the risk, a specific path must be selected:
 
 Once a path is selected, the Risk Owner is required to provide a [SMART](https://en.wikipedia.org/wiki/SMART_criteria), detailed plan that includes milestones and due dates for working towards risk remediation. The treatment plan must be achievable and address the root cause of the risk event. Additionally and in alignment with our value of [Transparency](/handbook/values/#transparency), each treatment plan will include a step for documenting the results/outcome of the remediation within the Handbook. If the result of the remediation is considered [not public](/handbook/values/#not-public) and cannot be documented within the Handbook, it should be documented within our Internal Handbook or an internal runbook. The Security Risk Team will leverage these risk treatment plans to track the status of risk remediation.
 
-If the risk treatment plan is executed and results in a downgrading of the residual risk level for the risk (ex. the residual risk level goes from High to Moderate), validation of the remediation will be performed and captured within the associated risk object. Quality review of the downgrade support documentation will be completed by the Security Risk Manager and captured via comment in the GRC application.
+If the risk treatment plan is executed and results in a downgrading of the residual risk level for the risk (ex. the residual risk level goes from High to Medium), validation of the remediation will be performed and captured within the associated risk object. Quality review of the downgrade support documentation will be completed by the Security Risk Manager and captured via comment in the GRC application.
 
 #### Accept the Risk
 
@@ -204,8 +197,8 @@ In the cases where a risk owner has opted to pursue a risk acceptance, the follo
 
 |Risk Level|Approval Level Required|
 |-----|-----|
-|VERY HIGH|Risk Owner + VP Level Approval* + E-group Level Approval|
-|HIGH/MODERATE|Risk Owner + VP Level Approval*|
+|CRITICAL|Risk Owner + VP Level Approval* + E-group Level Approval|
+|HIGH/MEDIUM|Risk Owner + VP Level Approval*|
 
 `*` If the Risk Owner is a VP, no additional VP level approval is required
 
@@ -235,7 +228,7 @@ Executive Risk Owners are accountable for ensuring that long-term treatment plan
 
 ### StORM Reporting Schedule
 
-The table below outlines planned/completed activities for FY24.
+The table below outlines planned/completed activities for FY25.
 
 |Timing|Activities|
 |-----|-----|
@@ -253,5 +246,5 @@ The only exceptions to this procedure are those risks that are out of scope (as 
 - GitLab Handbook References:
   - [GitLab's Communication Page, Not Public Section]({{< ref "confidentiality-levels#not-public" >}})
 - External References
-  - [NIST SP 800-30 Rev. 1](https://csrc.nist.gov/publications/detail/sp/800-30/rev-1/final)
-  - [ISO 31000 Risk Management Methodology](https://www.iso.org/iso-31000-risk-management.html)
+  - [NIST SP 800-30 Rev. 1](https://csrc.nist.gov/pubs/sp/800/30/r1/final)
+  - [ISO 31000 Risk Management Methodology](https://www.iso.org/standard/65694.html)

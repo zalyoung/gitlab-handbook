@@ -27,7 +27,7 @@ In cases where our counterparts have differing opinions, we consider their persp
 
 ### Design Principles and Tools
 
-Our [design principles](https://design.gitlab.com/get-started/principles) are outlined in the Pajamas Design System.
+Our [design principles](https://design.gitlab.com/get-started/principles/) are outlined in the Pajamas Design System.
 
 Product Designer Tools
 
@@ -50,7 +50,7 @@ Product Designers adhere to the [Product Development flow](/handbook/product-dev
 - [Design Process](/handbook/product/ux/product-designer/#product-design-process)
 - [Partnering with UX Research](/handbook/product/ux/product-designer/#partnering-with-ux-researchers)
 - [Partnering with Technical Writers](/handbook/product/ux/product-designer/#partnering-with-technical-writers)
-- [Contributing to Pajamas](https://design.gitlab.com/get-started/contribute)
+- [Contributing to Pajamas](https://design.gitlab.com/get-started/contributing/)
 - [Designing with AI](/handbook/product/ux/product-designer/#designing-with-ai)
 
 New GitLab Product Designers should refer to the [Product Designer Workflow handbook page](/handbook/ux/product-design/workflow/) for a comprehensive guide to getting started.
@@ -61,7 +61,7 @@ New GitLab Product Designers should refer to the [Product Designer Workflow hand
 
 ## Learning and Development
 
-Our continuous learning initiatives are documented in the [UX Department Learning and Development](handbook/ux/learning-and-development/) section.
+Our continuous learning initiatives are documented in the [UX Department Learning and Development](/handbook/product/ux/learning-and-development/) section.
 
 ## Cross-functional Initiatives
 

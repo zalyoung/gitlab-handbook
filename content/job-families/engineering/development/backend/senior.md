@@ -141,9 +141,9 @@ Runner engineers are primarily responsible for the [GitLab-Runner](https://gitla
 - Desirable: DevOps experience, working with Linux, GCP/AWS, Chef/Ansible/Terraform, Helm/Kubernetes, or similar products.
 - Desirable: Strong experience with observability tools, including metrics (Prometheus is a plus), structured logging and distributed tracing.
 
-### Govern
+### Software Supply Chain Security
 
-Focus on security protection features for GitLab (including policy, vulnerability, dependency, and compliance management). This role will report to and collaborate directly with a Govern Engineering Manager.
+Focus on security protection features for GitLab (including policy, vulnerability, dependency, and compliance management). This role will report to and collaborate directly with a Software Supply Chain Security Engineering Manager.
 
 #### Requirements
 
@@ -341,7 +341,7 @@ An ideal engineer candidate -
 
 - Expert of Ruby on Rails.
 - Experience of performance tuning and/or architecture, [Example](https://rubykaigi.org/2018/presentations/tenderlove.html).
-- Experience of memory leak troubleshooting, [Example 1](https://web.archive.org/web/20220826233628/http://www.be9.io/2015/09/21/memory-leak/), [Example 2](https://samsaffron.com/archive/2015/03/31/debugging-memory-leaks-in-ruby).
+- Experience of memory leak troubleshooting, [Example 1](https://web.archive.org/web/20220826233628/https://www.be9.io/2015/09/21/memory-leak/), [Example 2](https://samsaffron.com/archive/2015/03/31/debugging-memory-leaks-in-ruby).
 
 Alternatively, some of the following qualifications, may not necessarily be all -
 

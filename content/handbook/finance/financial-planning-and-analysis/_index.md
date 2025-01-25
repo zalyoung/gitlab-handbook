@@ -83,28 +83,19 @@ FP&A comprises five different sub-teams to support our FP&A goals:
 - Revise and update the annual sales compensation plan
 - Set annual quota assignments for revenue producing roles
 
-#### FY24 AOP
-
-Final FY24 Planning documents are on Google Drive, please find the links in the [Internal Handbook](https://internal.gitlab.com/handbook/finance/documents/). These include:
-
-- FY24 AOP Board Approval Presentation
-- FY24 AOP SSOT Hiring List
-- FY24 Bookings Quarterization
-
-All of the data for these planning documents are locked in our Adaptive Planning instance (Adaptive Planning can only be accessed by FP&A.)
-
-#### FY25 AOP Milestones
+#### FY26 AOP Milestones
 
 Key planning milestones are listed below. For a more detailed timeline and planning checklist please engage your FP&A business partner.
 
-- 2023-09-04 Finalize FY25 Bookings proposal with CRO and CFO
-- 2023-09-11 Kick off FY25 Plan with e-group and FP&A
-- 2023-10-03 GTM Offsite for key design decisions
-- 2023-11-20 e-group update on Preliminary FY25 Plan. Rollup based on FP&A 9+3 Forecast lock
-- 2023-11-27 (week of) Individual department reviews with CEO and CFO
-- 2023-12-14 Q3 Board meeting with update on Preliminary Plan
-- 2024-01-16 e-group update on Final FY25 Plan
-- 2023-03-28 Q4 Board meeting for Final FY25 Plan approval
+- 2024-09-09 (week of) CFO/CRO Meeting: Discuss range of bookings, % expense, and agree on Q4 overattain/underattain scenarios impact
+- 2024-09-23 (week of) FP&A Meeting: Kickoff with Bottoms-up Targets with FP&A
+- 2024-11-15: Bottom-up Envelope submissions and Investment Area business cases are due
+- 2024-12-06: XFN eGroup Skips alignment on projects and dependencies
+- 2024-12-09 (week of) eGroup Offsite: FY26 AOP Alignment Meeting
+- 2024-12-12 Q3 Board Meeting: update planning progression and preview FY26 AOP
+- 2025-01-21 eGroup Meeting: update planning progression and Q4 Board Deck preview
+- 2025-02-12 eGroup ASYNC: FY26 AOP Final review
+- 2025-03-27 Q4 Board Meeting:  Final Formal Approval of FY26 AOP
 
 ## Long Range Outlook ("LRO")
 
@@ -601,19 +592,19 @@ Adaptive Quarterly Roadmap
 
    *Note: WD is defined as Working Days, which are Mondays through Fridays, excluding Federal holidays.*
 
-### Q2-FY25 RLOA Timeline
+### RLOA Timeline
 
-- **Through early May 2024,** FP&A maintains alignment with business needs.
+- **Throughout the quarter,** FP&A drives alignment with business needs through RLOA:
   - FBPs, **with the functional leader(s),** maintain a RLOA file of key incremental investments from the business
-  - FBPs, **with the functional leader(s),** prioritize the RLOA and develop a recommendation following the below timeline
-- **2024-04-30:** Corporate FP&A kicks off RLOA and shares detailed daily calendar with FBPs
-- **Week of 2024-05-06 noon Pacific:** RLOA asks submitted via finance business partners
-- **Week of 2024-05-13:** Forecast pencils down
-  - Corporate FP&A and VP of Finance review Forecast and RLOA submissions to determine funding
-  - Corporate FP&A provide Prelim Forecast vs. Final Forecast view to FBPs
-  - FP&A does lap with TA to review RLOA asks to determine recruiting feasibility
-  - Final Forecast Lock (pre-tax) on 2024-05-15 used for earnings call
-- **Week of 2024-05-13:** CFO review RLOA proposal based on Forecast vs. Street Consensus performance
-- **Week of 2024-05-20:** At e-group Meeting, CFO shares proposal for formal approval and inclusion into investor guidance
-  - Corporate FP&A updates this section of the Handbook page with the timeline for the next RLOA cycle
+  - FBPs, **with the functional leader(s),** prioritize the RLOA and develop a recommendation following the below high-level timeline
+- **Week 1:** Corporate FP&A kicks off RLOA and shares calendar with FBPs
+- **Week 2:** Forecast pencils down
+  - FBPs submit prioritized RLOA asks
+  - Corporate FP&A provide forecast preview to FBPs
+  - Corporate FP&A and VP of Finance review forecast and RLOA submissions to determine funding
+- **Week 3:** CFO review RLOA proposal based on forecast vs. street consensus performance
+  - FP&A reviews RLOA asks with TA to determine recruiting feasibility
+  - Pre-tax forecast lock used for earnings call preparation (pending on RLOA changes in Week 4)
+  - CFO reviews RLOA proposal based on forecast vs. street consensus performance
+- **Week 4:** At e-group meeting, CFO shares proposal for formal approval and inclusion into final forecast lock and investor guidance
   - After formal approvals, business, FP&A, and TA collaborate to execute on RLOA approved asks

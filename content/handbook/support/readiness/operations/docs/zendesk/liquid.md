@@ -96,7 +96,7 @@ something like `{% for comment in ticket.comments %}`.
 | Satisfaction | `current_comment`                         | The current satisfaction comment of a ticket |
 
 There are
-[many more](https://support.zendesk.com/hc/en-us/articles/203662156-Zendesk-Support-placeholders-reference)
+[many more](https://support.zendesk.com/hc/en-us/articles/4408886858138-Zendesk-Support-placeholders-reference)
 that can be used, these are by far just the most common used at GitLab.
 
 ## Common functions
@@ -279,4 +279,4 @@ Line by line breakdown:
 
 - [Liquid GitHub repo](https://github.com/Shopify/liquid)
 - [Liquid documentation](https://github.com/Shopify/liquid/wiki/Liquid-for-Designers)
-- [Zendesk placeholders reference](https://support.zendesk.com/hc/en-us/articles/203662156-Zendesk-Support-placeholders-reference)
+- [Zendesk placeholders reference](https://support.zendesk.com/hc/en-us/articles/4408886858138-Zendesk-Support-placeholders-reference)

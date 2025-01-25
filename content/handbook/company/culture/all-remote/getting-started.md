@@ -23,7 +23,7 @@ Another element to flesh out during an interview is remote communication. GitLab
 
 ## Prepare for a different type of onboarding
 
-Being [stressed about learning a new job](http://www.classycareergirl.com/2017/02/new-job-anxiety-conquer/) is a reality for many people. Remote onboarding for new GitLab team-members may be new as they join our all-remote culture. Prepare yourself to be flexible, open, and ready to listen, learn, research, try new things, and get comfortable with videos and video calls for your onboarding process.
+Being [stressed about learning a new job](https://www.classycareergirl.com/new-job-anxiety-conquer/) is a reality for many people. Remote onboarding for new GitLab team-members may be new as they join our all-remote culture. Prepare yourself to be flexible, open, and ready to listen, learn, research, try new things, and get comfortable with videos and video calls for your onboarding process.
 
 ## How do I prepare for the first day of remote work?
 
@@ -46,7 +46,7 @@ If you're interested in finding remote communities to learn from, try one of the
 
 {{< youtube "7kMQj4O4ZGU" >}}
 
-*In the [GitLab Unfiltered](https://www.youtube.com/channel/UCMtZ0sc1HHNtGGWZFDRTh5A) video above, Sid (co-founder and CEO) and Darren (Head of Remote) discuss the importance of values at GitLab.*
+*In the [GitLab Unfiltered](https://www.youtube.com/channel/UCMtZ0sc1HHNtGGWZFDRTh5A) video above, Sid (co-founder) and Darren (Head of Remote) discuss the importance of values at GitLab.*
 
 Absorbing a company culture in a colocated setting occurs over time, as one witnesses behaviors that are supported, praised, and discouraged. A benefit to working in an all-remote setting is that culture is (ideally) documented.
 

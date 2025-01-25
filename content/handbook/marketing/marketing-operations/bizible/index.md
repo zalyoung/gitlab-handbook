@@ -15,7 +15,7 @@ Marketing attribution is the process of assigning revenue credit to marketing ac
 
 This process allows Marketing to understand the value of each marketing activity.
 
-## Adobe Marketo Mesure Components
+## Adobe Marketo Measure Components
 
 ### Touchpoints
 
@@ -56,7 +56,7 @@ AMM tracks the position of a touchpoint based on its timing to other touchpoints
 - LC - Lead Created, prospect submits information
 - OC - Opportunity Creation, prospect intentionally moves toward a purchase decision
 - Closed - Customer Close, prospect makes a purchase
-- Pending - [The Pending touchpoint position](https://nation.marketo.com/t5/marketo-whisperer-blogs/bizible-s-pending-touchpoint-position/ba-p/312477) is stamped only on BATs (Buyer Attribution Touchpoints), not on BTs (Buyer Touchpoints). This touchpoint position is shown **only when the opportunity is still open**, providing a temporary value to allow the opportunity credit to sum to 100%.
+- Pending - [The Pending touchpoint position](https://nation.marketo.com/t5/marketo-whisperer-blogs/marketo-measure-pending-touchpoint-position/ba-p/312477) is stamped only on BATs (Buyer Attribution Touchpoints), not on BTs (Buyer Touchpoints). This touchpoint position is shown **only when the opportunity is still open**, providing a temporary value to allow the opportunity credit to sum to 100%.
 
 ### Attribution Models
 
@@ -219,7 +219,7 @@ Note: Some Online Touchpoints do not fall into a specific rule with a well-defin
 | Content.Content Syndication | Inbound Paid | Offline | White Paper or other content offer that is hosted by a third party.                                                                                                                                         |
 | Content.Gated Content | Inbound Paid | Offline | White Paper or other content offer.                                                                                                                                                                               |
 | Content.PF Content | Inbound Free Channels | Online | This campaign type is used to track consumption of specific PathFactory assets.                                                                                                                             |
-| Digital.Inbound Request | Inbound Free Channels | Online | Any type of inbound request that requires follow up.                                                                                                                                                                                |
+| Inbound - Offline.PQL/Drift/Qualified  | Inbound Free Channels | Offline | Any type of inbound reques (PQL, Drift, Qualified), which can't be tracked through online means.                                                                                                                                                                                 |
 | Direct | Inbound Free Channels | Online | Unknown or direct (NOTE: this is not the same as Web direct/self-serve in SFDC, this is a Web referral where the original source was not captured)                                                                      |
 | Display.Google | Inbound Paid | Online | A display ad from Google                                                                                                                                                                                                 |
 | Display.Other | Inbound Paid | Online | A display ad from an unspecified source                                                                                                                                                                                   |

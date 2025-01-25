@@ -12,6 +12,9 @@ More details on definitions of outage, and degradation are on the [incident-mana
 
 | **Year Month** | **Availability** | **Comments** |
 | ---- | ----------- | ---- |
+| 2024 December | 99.95% |  |
+| 2024 November | 100.00% |  |
+| 2024 October | 99.66% |  |
 | 2024 September | 99.85% |  |
 | 2024 August | 100.00% |  |
 | 2024 July | 99.99% |  |
@@ -84,10 +87,10 @@ These videos provide examples of how to quickly identify failures, defects, and 
 
 ### Pingdom Statistics
 
-We use our apdex based measurements to report official availability (see above). However, we also have some public pingdom tests for a representative view of overall performance of GitLab.com. These are available at [https://stats.pingdom.com](http://stats.pingdom.com/81vpf8jyr1h9). Specifically, this has the availability and latency of reaching
+We use our apdex based measurements to report official availability (see above). However, we also have some public pingdom tests for a representative view of overall performance of GitLab.com. These are available at [https://stats.pingdom.com](https://stats.pingdom.com/81vpf8jyr1h9). Specifically, this has the availability and latency of reaching
 
 * a GitLab.com issue. For reference, it is the [first gitlab-ce issue](https://gitlab.com/gitlab-org/gitlab-ce/issues/1).
-* [GitLab.com](https://gitlab.com/) "plain and simple" called the [GitLab public check](http://stats.pingdom.com/81vpf8jyr1h9/4932705/history).
+* [GitLab.com](https://gitlab.com/) "plain and simple" called the [GitLab public check](https://stats.pingdom.com/81vpf8jyr1h9/4932705/history).
 
 #### Monitoring Infrastructure
 
@@ -106,7 +109,7 @@ Metrics can be viewed in [Grafana](https://dashboards.gitlab.net/). The Grafana 
 
 To learn how to set up a new graph or dashboard using Grafana, take a look at the following resources:
 
-* [Guide to setting up Grafana dashboards by Grafana](http://docs.grafana.org/guides/getting_started/)
+* [Guide to setting up Grafana dashboards by Grafana](https://grafana.com/docs/grafana/latest/getting-started/get-started-grafana-prometheus/)
 * [YouTube video showing how to set up a dashboard](https://www.youtube.com/watch?v=sKNZMtoSHN4&index=7&list=PLDGkOdUX1Ujo3wHw9-z5Vo12YLqXRjzg2)
 * The [Grafana repo](https://gitlab.com/gitlab-org/grafana-dashboards) where we keep an archive of InfluxDB dashboards created in Grafana. Use these to see details in the file structure, but note that the repo is truly an archive (nothing populates _from_ it) and can be out of date.
 
@@ -138,7 +141,7 @@ The dashboards for stage groups are at a very early stage. All contributions are
 ## Logs
 
 Network, System, and Application logs are processed, stored, and searched using
-the [ELK stack](https://www.elastic.co/products). We use a [managed Elasticsearch cluster on GCP](https://www.elastic.co/gcp) and as such our only
+the [ELK stack](https://www.elastic.co/platform). We use a [managed Elasticsearch cluster on GCP](https://www.elastic.co/partners/google-cloud) and as such our only
 interface to this is through APIs, Kibana and the elastic.co web UI.  For
 monitoring system performance and metrics, Elastic's x-pack monitoring metrics are used. They are sent to a dedicated monitoring cluster. Long-term we intend to switch to Prometheus and Grafana as the preferred
 interface. As it is managed by Elastic they run the VMs and we do not have
@@ -160,7 +163,7 @@ To learn how to create Kibana dashboards use the following resources:
 
 * [Kibana Dashboard tutorial from Elastic.com](https://www.elastic.co/guide/en/kibana/current/index.html)
 * [Building a dashboard](https://www.elastic.co/guide/en/kibana/current/dashboard.html)
-* [Using TimeLion for time series visualization](https://www.elastic.co/guide/en/kibana/current/timelion.html)
+* [Using TimeLion for time series visualization](https://www.elastic.co/guide/en/kibana/current/legacy-editors.html#timelion)
 
 ## GitLab Profiling
 
@@ -188,7 +191,7 @@ We also did a series of deep dives by pairing with the development teams for eac
 
 Blocks of Ruby code can be "instrumented" to measure performance.
 
-* [Documentation of instrumentation](https://docs.gitlab.com/ee/api/usage_data.html) with more detail on [how to implement this](https://docs.gitlab.com/ee/development/internal_analytics/service_ping/metrics_instrumentation.html)
+* [Documentation of instrumentation](https://docs.gitlab.com/ee/api/usage_data.html) with more detail on [how to implement this](https://docs.gitlab.com/ee/operations/product_analytics/instrumentation/)
 * An example of how this is used for GitLab itself, can be found in this [initializer](https://gitlab.com/gitlab-org/gitlab/-/blob/master/config/initializers/zz_metrics.rb).
 
 ## Other Tools

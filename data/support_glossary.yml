@@ -80,7 +80,7 @@
 - acronym: ASE
   term: Assigned Support Engineer
   info: |
-    Customers can subscribe to our assigned support engineer service which allocates them a named support engineer. You can read more about this role in the [handbook](https://handbook.gitlab.com/handbook/support/workflows/assigned-support-engineer/).
+    Customers can subscribe to our assigned support engineer service which allocates them a named support engineer. You can read more about this role in the [handbook](https://handbook.gitlab.com/handbook/support/enhanced-support-offerings/offering-assigned-support-engineer/).
 
 - acronym: CES
   term: 
@@ -148,3 +148,8 @@
   term: Americas
   info: |
     See "AMER" in [List of country groupings](https://en.wikipedia.org/wiki/List_of_country_groupings) on Wikipedia.
+
+- acronym: AQC
+  term: Active Queue Carry
+  info: |
+    **Experimental**: AMER is exploring a metric called Active Queue Carry, which is the sum of tickets currently assigned to an engineer that are `open`, `pending`, `solved`, and `on-hold`. Tickets stay in a solved state for 7 days, so Active Queue Carry represents the most recent solved work.

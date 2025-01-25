@@ -118,33 +118,6 @@ The role is a [grade 8](/handbook/total-rewards/compensation/compensation-calcul
 - Strong development or scripting experience and skills. You're able to significantly and effectively contribute to the product and its security. Ruby and Ruby on Rails is a must.
 - Be a subject matter expert (SME) of at least 2 technical areas impacting the security of the product.
 
-### Distinguished Application Security Engineer
-
-This position reports to the [Product Security Director](/job-families/security/security-leadership/) role at GitLab.
-
-#### Distinguished Application Security Engineer Job Grade
-
-The role is a [grade 10](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
-
-#### Distinguished Application Security Engineer Responsibilities
-
-- Includes all [Staff level responsibilities listed](#staff-application-security-engineer-responsibilities).
-- Drive the technical direction, roadmap, and [6-month architecture blueprints](/handbook/engineering/architecture/#architecture-at-gitlab) of the Application Security program.
-- Drive the business value relation of metrics calculations for the Application Security program.
-- Represent the Application Security team across and outside of GitLab as a subject matter expert in technology, development, and application security concepts.
-- Work in a leveraged manner influencing other organizations and teams across GitLab with application security approaches and a focus on problem solving.
-
-#### Distinguished Application Security Engineer Requirements
-
-- Includes all [Staff level requirements listed](#staff-application-security-engineer-requirements).
-- 10+ years previous experience on a Security Operations, Software Development, Application Security team, or relevant education.
-- Excellent written and verbal communication skills.
-- Expert scripting/coding skills in one or more languages - Python, Ruby, and/or Golang experience a plus.
-- Expert understanding of Internet security issues, application security technologies, cloud architectures, and threat landscape concepts.
-- Expert understanding of the Software as a Service (SaaS) model.
-- Experience leading efforts or managing application security teams working in the DevOps model.
-- Hands on experience architecting, automating, maintaining, and securing Cloud Computing Platforms - GCP experience a plus.
-
 ## Application Security Engineer Specialties
 
 ### US Federal
@@ -247,7 +220,8 @@ For details on the Security organization leadership roles, to include the Produc
   graph LR;
   sec:se(Security Engineer, Application Security) --> sec:sse(Senior Security Engineer, Application Security);
   sec:sse(Senior Security Engineer, Application Security) --> sec:stse(Staff Security Engineer, Application Security);
-  sec:stse(Staff Security Engineer, Application Security) --> sec:dse(Distinguished Security Engineer, Application Security);
+  sec:stse(Staff Security Engineer, Application Security) --> sec:pse(Principle Security Engineer);
+  sec:pse(Principle Security Engineer, Application Security) --> sec:dse(Distinguished Security Engineer);
   sec:sse(Senior Security Engineer, Application Security)-->sec:sem(Security Manager, Application Security);
   sec:sem(Security Manager, Application Security)-->sec:sesm(Senior Security Manager, Application Security);
   sec:sesm(Senior Security Manager, Application Security)-->sec:ds(Director of Product Security);

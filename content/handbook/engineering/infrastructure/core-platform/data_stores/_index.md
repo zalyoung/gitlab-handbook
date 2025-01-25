@@ -10,5 +10,4 @@ Develop the tooling and frameworks to support the scalability and reliability of
 
 * [Database](/handbook/engineering/infrastructure-platforms/data-access/database-framework/)
 * [Database Reliability](/handbook/engineering/infrastructure-platforms/data-access/database-framework-reliability/)
-* [Global Search](/handbook/engineering/infrastructure/core-platform/data_stores/search/)
 * [Cloud Connector](/handbook/engineering/infrastructure/core-platform/data_stores/cloud-connector/)

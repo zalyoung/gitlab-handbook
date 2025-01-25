@@ -66,7 +66,7 @@ Please note that the information provided by you may be the basis for an interna
 
 Lighthouse has a toll free number and other methods of reporting are available 24 hours a day, 7 days a week for use by team members.
 
-- Website: [https://www.lighthouse-services.com/gitlab](https://www.lighthouse-services.com/gitlab)
+- Website: <https://www.lighthouse-services.com/gitlab>
 - USA Telephone:
   - English speaking USA and Canada: 833-480-0010
   - Spanish speaking USA and Canada: 800-216-1288
@@ -226,7 +226,7 @@ As a People Group, we're embracing this attitude of continuous learning together
 
 At the end of the quarter, we'll ask folks to self-report hours spent learning, and take a tally of total People Group learning hours.
 
-![visual progress bar for People team hours spent learning](/handbook/people-group/learning-hours.png)
+![visual progress bar for People team hours spent learning](/images/people-group/learning-hours.png)
 
 Here are a few ways you might spend time learning this quarter:
 

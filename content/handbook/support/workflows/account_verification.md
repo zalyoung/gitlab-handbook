@@ -15,7 +15,7 @@ This workflow covers how a user can provide account verification. While the work
 
 ### User Account Verification
 
-As of Aug 16, 2023, GitLab.com now requires that users without 2FA enabled verify their email address when a login attempt meets certain high-risk criteria. Review the [blog post](https://about.gitlab.com/blog/2023/08/08/gitlab-account-security/) announcing this change. If a user contacts support with questions, use the [`Support::SaaS::Gitlab.com::Abuse::Email Address Verification`](https://gitlab.com/gitlab-com/support/zendesk-global/macros/-/blob/master/active/Support/SaaS/GitLab.com/Abuse/Email%20Address%20Verification.md?ref_type=heads) macro.
+GitLab.com requires that users without 2FA enabled verify their email address when a login attempt meets certain high-risk criteria. For users requesting support when their email address is no longer valid and are unable to receive the email, please see the [Email account lost workflow](/handbook/support/workflows/lost_emails).
 
 If the user has questions about the email, phone, or credit card verification GitLab is requiring, please refer to the [Internal Handbook for the workflow](https://internal.gitlab.com/handbook/support/workflows/phone-number-verification) to follow.
 
@@ -225,10 +225,10 @@ The steps to follow depend on whether or not the customer has a shared Slack cha
 
        /assign GITLAB_USERNAME GITLAB_USERNAME GITLAB_USERNAME, /label ~"2FA Reset" ~"Awaiting confirmation"
 
-1. Open a [Support Operations issue](https://gitlab.com/gitlab-com/support/zendesk-global/organizations/-/issues/new) to request that three pieces of information be added to a customer's Zendesk organization:
-   1. A link to the `2FA Verification.md` file you created in the previous step, such as `2FA owner vouch: /path/to/2FA Verification.md/` in the notes.
-   1. A link to the customer's account management project in the notes.
-   1. The `skip_2fa_automation` tag so that users requesting this won't get the autoresponder.
+1. Create a [Support Super form](https://support-super-form-gitlab-com-support-support-op-651f22e90ce6d7.gitlab.io/) submission
+   - For "What is this request concerning?", select `Modifications to a Zendesk Global Organization`
+   - For "What kind of modification are you looking to make?", select `Add 2FA exemption for large customers`
+   - Fill out the other fields with the correct and relevant information it asks for
 
 #### Method 2: No Shared Slack Channel
 
@@ -257,9 +257,10 @@ The steps to follow depend on whether or not the customer has a shared Slack cha
 
        /assign GITLAB_USERNAME GITLAB_USERNAME GITLAB_USERNAME, /label ~"2FA Reset" ~"Awaiting confirmation"
 
-1. Open a [Support Operations issue](https://gitlab.com/gitlab-com/support/zendesk-global/organizations/-/issues/new) to request that two pieces of information be added to the notes section of the customer's Zendesk organization:
-   1. A link to the `2FA Verification.md` file you created in the previous step, such as `2FA owner vouch: /path/to/2FA Verification.md/`.
-   1. A link to the customer's account management project.
+1. Create a [Support Super form](https://support-super-form-gitlab-com-support-support-op-651f22e90ce6d7.gitlab.io/) submission
+   - For "What is this request concerning?", select `Modifications to a Zendesk Global Organization`
+   - For "What kind of modification are you looking to make?", select `Add 2FA exemption for large customers`
+   - Fill out the other fields with the correct and relevant information it asks for
 
 ### Usage (for GitLab Support)
 

@@ -30,7 +30,7 @@ func main() {
 }
 ```
 
-This application will listen on port 8080 for any requests to the / endpoint. When it receives a request, it will print out the message Hi there!
+This application will listen on port 8080 for any requests to the "/" (root) endpoint. When it receives a request, it will print out the message *Hi there*.
 
 To accommodate our new application type, we will modify our CI/CD process by removing the tests to run the application binary. These tests will no longer work, as they will cause the application to pause and wait for connections. Instead, we will deploy this application to a test server to be able to test our application. To start, your CI/CD file should look like this:
 
@@ -51,6 +51,7 @@ stages:
   - build
   - run
   - release
+  - deploy
 
 test go:
   stage: test
@@ -191,7 +192,7 @@ deploy app:
     - if: $CI_PIPELINE_SOURCE != 'merge_request_event'
 ```
 
-This script copies the binary and system service, then starts the system service. After the system service starts, you can navigate to http://<your-server-ip> to see the results!
+This script copies the binary and system service, then starts the system service. After the system service starts, you can navigate to http://{your-server-ip} (Can be found in the Variables section of your group under $ip-address) to see the results!
 
 ## Lab Guide Complete
 

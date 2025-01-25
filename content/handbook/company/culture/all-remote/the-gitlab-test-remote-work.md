@@ -10,7 +10,7 @@ twitter_creator: "@gitlab"
 ![GitLab remote work spectrum illustration](/images/all-remote/spectrum_of_remote_work_gitlab.jpg)
 {style="max-width: 50%;"}
 
-GitLab is one of the world's largest all-remote organizations. As we've scaled remote, we've documented over 40 individual guides that comprehensively cover the proven principles of remote-first work, culture, process, and optimization. The foundational elements are distilled in [The Remote Playbook](http://allremote.info).
+GitLab is one of the world's largest all-remote organizations. As we've scaled remote, we've documented over 40 individual guides that comprehensively cover the proven principles of remote-first work, culture, process, and optimization. The foundational elements are distilled in [The Remote Playbook](https://allremote.info).
 
 For some, there's still a looming question: *How do I know if we're running a great remote operation?*
 
@@ -19,7 +19,7 @@ For some, there's still a looming question: *How do I know if we're running a gr
 ![GitLab remote work checklist illustration](/images/all-remote/remote_checklist_illustration.jpg)
 {style="max-width: 50%;"}
 
-Enter **The GitLab Test: 12 Steps to Better Remote**. Kudos to [The Joel Test](https://www.joelonsoftware.com/2000/08/09/the-joel-test-12-steps-to-better-code) for the nomenclature inspiration.
+Enter **The GitLab Test: 12 Steps to Better Remote**. Kudos to [The Joel Test](https://www.joelonsoftware.com/2000/08/09/the-joel-test-12-steps-to-better-code/) for the nomenclature inspiration.
 
 The great part about this test is it takes around 10 minutes (or less, if you read quickly). Each question is a quick yes or no. A score of 12 is perfect and 11 is tolerable. 10 or lower indicates that there are significant [office-first strongholds](what-not-to-do/) which are preventing your organization from reaching the goal of Phase 4 of Remote Adaption— **[Intentionality](phases-of-remote-adaptation/#phase-4-intentionality)**.
 
@@ -98,7 +98,7 @@ Great remote organizations recognize that there are more than two places to work
 
 ## Contribute your lessons
 
-GitLab believes that all-remote is the [future of work]({{< ref "remote-vision" >}}), and remote companies have a shared responsibility to show the way for other organizations who are embracing it. If you or your company has an experience that would benefit the greater world, consider creating a [merge request](https://docs.gitlab.com/ee/user/project/merge_requests) and adding a contribution to this page.
+GitLab believes that all-remote is the [future of work]({{< ref "remote-vision" >}}), and remote companies have a shared responsibility to show the way for other organizations who are embracing it. If you or your company has an experience that would benefit the greater world, consider creating a [merge request](https://docs.gitlab.com/ee/user/project/merge_requests/) and adding a contribution to this page.
 
 ---
 

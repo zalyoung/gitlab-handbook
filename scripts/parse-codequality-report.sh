@@ -2,7 +2,7 @@
 MREPORT=markdownlint-cli2-codequality.json
 VREPORT=vale-codequality.json
 HREPORT=handbook-codequality.json
-LREPORT=linkcheck.json
+LREPORT=new_broken_links.json
 ERRORS=()
 MSG=""
 REPO_URL="https://gitlab.com/gitlab-com/content-sites/handbook"
@@ -18,13 +18,15 @@ generate_message() {
 generate_table() {
     MSG+="| Rule | File | Line | Error |\n"
     MSG+="|------|------|------|-------|\n"
-    for i in $(seq 0 $(($(yq 'length' $MREPORT -o yaml)-1))); do
-      ERROR=$(yq ".[$i].check_name" $MREPORT -o yaml | cut -d '/' -f 1)
+
+    LENGTH=$(jq '. | length' $MREPORT)
+    for i in $(seq 0 $((LENGTH-1))); do
+      ERROR=$(jq -r ".[$i].check_name" $MREPORT | cut -d '/' -f 1)
       URL="https://github.com/DavidAnson/markdownlint/blob/main/doc/Rules.md#$ERROR"
-      FILE=$(yq ".[$i].location.path" $MREPORT -o yaml)
-      LINE=$(yq ".[$i].location.lines.begin" $MREPORT -o yaml)
+      FILE=$(jq -r ".[$i].location.path" $MREPORT)
+      LINE=$(jq -r ".[$i].location.lines.begin" $MREPORT)
       LOC="$REPO_URL/-/blob/$CI_COMMIT_SHA/$FILE#L$LINE"
-      DESCRIPTION=$(yq ".[$i].description" $MREPORT -o yaml | cut -d ':' -f 2-)
+      DESCRIPTION=$(jq -r ".[$i].description" $MREPORT | cut -d ':' -f 2-)
       ERRORS+=( $ERROR )
       if [[ "$ERROR" ]]; then
         if [[ -z "$URL" ]]; then
@@ -34,14 +36,16 @@ generate_table() {
         fi
       fi
     done
-    for i in $(seq 0 $(($(yq 'length' $VREPORT -o yaml)-1))); do
-      if [[ $(yq ".[$i].severity" $VREPORT -o yaml) == "blocker" ]]; then
-        ERROR=$(yq ".[$i].rule" $VREPORT -o yaml)
-        URL=$(yq ".[$i].link" $VREPORT -o yaml)
-        FILE=$(yq ".[$i].location.path" $VREPORT -o yaml)
-        LINE=$(yq ".[$i].location.lines.begin" $VREPORT -o yaml)
+
+    LENGTH=$(jq '. | length' $VREPORT)
+    for i in $(seq 0 $((LENGTH-1))); do
+      if [[ $(jq -r ".[$i].severity" $VREPORT) == "blocker" ]]; then
+        ERROR=$(jq -r ".[$i].rule" $VREPORT)
+        URL=$(jq -r ".[$i].link" $VREPORT)
+        FILE=$(jq -r ".[$i].location.path" $VREPORT)
+        LINE=$(jq -r ".[$i].location.lines.begin" $VREPORT)
         LOC="$REPO_URL/-/blob/$CI_COMMIT_SHA/$FILE#L$LINE"
-        DESCRIPTION=$(yq ".[$i].description" $VREPORT -o yaml | cut -d ':' -f 2-)
+        DESCRIPTION=$(jq -r ".[$i].description" $VREPORT | cut -d ':' -f 2-)
         ERRORS+=( $ERROR )
         if [[ "$ERROR" ]]; then
           if [[ -z "$URL" ]]; then
@@ -52,17 +56,39 @@ generate_table() {
         fi
       fi
     done
-    for i in $(seq 0 $(($(yq 'length' $HREPORT -o yaml)-1))); do
-      ERROR=$(yq ".[$i].check_name" $HREPORT -o yaml | cut -d '/' -f 1)
-      FILE=$(yq ".[$i].location.path" $HREPORT -o yaml)
-      LINE=$(yq ".[$i].location.lines.begin" $HREPORT -o yaml)
+
+    LENGTH=$(jq '. | length' $HREPORT)
+    for i in $(seq 0 $((LENGTH-1))); do
+      ERROR=$(jq -r ".[$i].check_name" $HREPORT | cut -d '/' -f 1)
+      URL=$(jq -r ".[$i].link" $HREPORT)
+      FILE=$(jq -r ".[$i].location.path" $HREPORT)
+      LINE=$(jq -r ".[$i].location.lines.begin" $HREPORT)
       LOC="$REPO_URL/-/blob/$CI_COMMIT_SHA/$FILE#L$LINE"
-      DESCRIPTION=$(yq ".[$i].description" $HREPORT -o yaml | cut -d ':' -f 2-)
+      DESCRIPTION=$(jq -r ".[$i].description" $HREPORT | cut -d ':' -f 2-)
       ERRORS+=( $ERROR )
       if [[ "$ERROR" ]]; then
-        MSG+="| $ERROR | [$FILE]($LOC) | [$LINE]($LOC) | $DESCRIPTION |\n"
+          if [[ -z "$URL" ]]; then
+              MSG+="| $ERROR | [$FILE]($LOC) | [$LINE]($LOC) | $DESCRIPTION |\n"
+          else
+              MSG+="| [$ERROR]($URL) | [$FILE]($LOC) | [$LINE]($LOC) | $DESCRIPTION |\n"
+          fi
       fi
     done
+
+    # Process linkcheck report
+    LENGTH=$(jq '. | length' $LREPORT)
+    for i in $(seq 0 $((LENGTH-1))); do
+      ERROR=$(jq -r ".[$i].check_name" $LREPORT | cut -d '/' -f 1)
+      FILE=$(jq -r ".[$i].location.path" $LREPORT)
+      LINE=$(jq -r ".[$i].location.lines.begin" $LREPORT)
+      LOC="$REPO_URL/-/blob/$CI_COMMIT_SHA/$FILE#L$LINE"
+      DESCRIPTION=$(jq -r ".[$i].description" $LREPORT | cut -d ':' -f 2-)
+      ERRORS+=( $ERROR )
+      if [[ "$ERROR" ]]; then
+        MSG+="| Broken link ($ERROR) | [$FILE]($LOC) | [$LINE]($LOC) | $DESCRIPTION |\n"
+      fi
+    done
+
     MSG+="\n"
 }
 
@@ -75,10 +101,6 @@ generate_addition_messages() {
             CODEOWNER)      MSG+="> 🛑 You have marked a handbook page as a controlled document without adding an entry to the controlled-documents section of CODEOWNERS.\n\n"
         esac
     done
-    if [ -f "$LREPORT" ] && [ "$(jq 'length > 0' "$LREPORT")" = "true" ]; then
-        MSG+="> ⚠️ If you are **renaming, moving, or deleting pages**, please check the Code Quality report, or the hugolint job's artifact files, to see if there are any related broken links.\n\n"
-    fi
-
 }
 
 # Create an array of the report variables
@@ -105,10 +127,10 @@ else
     echo "All report files are empty."
 fi
 
-# TODO Improve error handling https://gitlab.com/gitlab-com/content-sites/docsy-gitlab/-/issues/10
-if ! yq $REPORT -o yaml > /dev/null; then
-    echo "Error: YQ is unable to read report file. Please post in the [#handbook Slack channel](https://gitlab.enterprise.slack.com/archives/C81PT2ALD) for assistance. Exiting..."
-    exit $?
+# Error handling for JSON parsing
+if ! jq '.' $REPORT > /dev/null; then
+    echo "Error: Unable to parse JSON report file. Please post in the [#handbook Slack channel](https://gitlab.enterprise.slack.com/archives/C81PT2ALD) for assistance. Exiting..."
+    exit 1
 fi
 
 generate_message

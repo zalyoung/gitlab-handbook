@@ -72,7 +72,7 @@ Remember that you and your co-workers may have different personality types in te
 - A combination of both introverts and extroverts
 
 References:
-[Are Extroverts Happier Than Introverts? Psychology Today](https://www.psychologytoday.com/blog/thrive/201205/are-extroverts-happier-introverts)
+[Are Extroverts Happier Than Introverts? Psychology Today](https://www.psychologytoday.com/intl/blog/thrive/201205/are-extroverts-happier-introverts)
 [Are You an Extrovert, Introvert, or Ambivert?](https://www.psychologytoday.com/us/blog/cutting-edge-leadership/201711/are-you-extravert-introvert-or-ambivert)
 
 ## Health and safety
@@ -92,7 +92,7 @@ References:
 
 ### Cultural Impacts and Differences
 
-It is important to recognize that people from different cultures have different ways of saying things, different body language, different ways of dressing/attire and even different ways of looking at things. You can review examples of typical cultural differences on the [Center of Intercultural Competence](http://www.cicb.net/en/home/examples).
+It is important to recognize that people from different cultures have different ways of saying things, different body language, different ways of dressing/attire and even different ways of looking at things. You can review examples of typical cultural differences on the [Center of Intercultural Competence](https://www.cicb.net/en/home/examples).
 
 Summit attendees should also remember:
 

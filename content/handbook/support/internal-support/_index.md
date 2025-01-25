@@ -103,7 +103,7 @@ Once Zendesk is assigned, you should be able to [log in](https://gitlab.zendesk.
 
 If your account is not assigned within 24 hours, please reach out via the Service Desk issue.
 
-Note that you cannot send public replies to customers with a Light Agent account. If you need to do this, please submit a [new Access Request issue for a paid full agent account](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/new?issuable_template=Individual_Bulk_Access_Request) and tag your manager for budget approval. If needed, you can [read more information](https://www.zendesk.com/company/collaboration-add-on-additional-features/) on Light Agent accounts from Zendesk.
+Note that you cannot send public replies to customers with a Light Agent account. If you need to do this, please submit a [new Access Request issue for a paid full agent account](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/new?issuable_template=Individual_Bulk_Access_Request) and tag your manager for budget approval. If needed, you can [read more information](https://support.zendesk.com/hc/en-us/articles/4408829504154-Collaboration-overview) on Light Agent accounts from Zendesk.
 
 ## Common Requests
 

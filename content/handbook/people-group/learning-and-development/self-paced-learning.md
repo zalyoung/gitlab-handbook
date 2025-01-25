@@ -68,7 +68,7 @@ After your access request as been approved, team members should follow these ste
 - When back at the LF page, enter your assigned redemption code (case-sensitive) as the `Registration Code`. You will receive this code after your access request has been approved.
 - Accept the terms and conditions and click `Redeem`
 - You should then land in the learner dashboard where you can start scrolling through courses and exams. Click any title to begin.
-- For support, please log a ticket at <http://trainingsupport.linuxfoundation.org/>
+- For support, please log a ticket at <https://trainingsupport.linuxfoundation.org/>
 
 ### FAQs
 

@@ -1,6 +1,6 @@
 ---
 title: "GitLab Iberia s.r.l. (Spain) Information and Benefits"
-description: "Entitity Information for GitLab Iberia s.r.l. Spain Team Members"
+description: "Entity Information for GitLab Iberia s.r.l. Spain Team Members"
 ---
 
 {{% panel header="**This is a Secure Document**" header-bg="orange" %}}
@@ -61,7 +61,7 @@ Trust-based working time generally refers to a GitLab's way of working, a flexib
 
 ### Timekeeping Record
 
-As of May 1, 2024 each team member employeed by GitLab Iberia will be required to log the start and end of their daily work time. We have provided a Google spreadsheet template, in English or Spanish. This record will be kept by Payroll and can be audited at any time.
+As of May 1, 2024 each team member employed by GitLab Iberia will be required to log the start and end of their daily work time. We have provided a Google spreadsheet template, in English or Spanish. This record will be kept by Payroll and can be audited at any time.
 
 ### Daily Work Time
 
@@ -86,11 +86,11 @@ Team members will be expected to fill out a monthly timesheet at the end of each
 1. Go to your Okta account and click on the HelpLab SSO tile.
 1. Click on the Payroll dropdown, and select Timecards.
 
-![HelpLab Payroll dropdown](/handbook/entity/images/timecards.png "HelpLab Payroll dropdown")
+![HelpLab Payroll dropdown](/images/entity/timecards.png "HelpLab Payroll dropdown")
 
 1. Click on the Timecards request tile.
 
-![Timecards request tile](/handbook/entity/images/timecards-request.png "HelpLab Timecards Request")
+![Timecards request tile](/images/entity/timecards-request.png "HelpLab Timecards Request")
 
 1. Enter the Entity (GitLab Iberia srl)
 1. Enter that No, you do not require your manager's approval
@@ -98,7 +98,7 @@ Team members will be expected to fill out a monthly timesheet at the end of each
 1. Upload your timesheet pdf file, and ensure that it contains your Name, the Month and Year of the timesheet in the file title.
 1. Click Submit.
 
-![Timecards submission](/handbook/entity/images/timecards-submission.png "HelpLab Timecard Submission")
+![Timecards submission](/images/entity/timecards-submission.png "HelpLab Timecard Submission")
 
 For any questions relating to this process please reach out to the Non US Payroll team via HelpLab. For new hires or any relocations, this information will be in the relevant onboarding/relocation issue/channel.
 
@@ -164,9 +164,17 @@ The Team Member portion of the dependent cost will be deducted from their payche
 <details markdown="1">
 <summary>Offboarding GitLab</summary>
 
-Your benefits will cease on the date of termination. You may be able to transfer your coverage to a personal plan through our brokers Willis Tower Watson (WTW). Reach out to WTW to Soportehb@wtwco.com and cc Fernanda.Dallagnese@wtwco.com to receive the guidelines for the plan.
+Your benefits will cease on the date of termination. You may be able to transfer your coverage to a personal plan through our brokers Willis Towers Watson (WTW). Reach out to WTW to Soportehb@wtwco.com and cc Fernanda.Dallagnese@wtwco.com to receive the guidelines for the plan.
 
 </details>
+
+### Computer Glasses Reimbursement
+
+Team Members experiencing eye problems due to work could be entitled to a reimbursement of corrective eye wear. The Team Member must be seen by an optician and must provide proof that lenses are specifically required for reading a display screen only and not required for general day to day use.
+
+Team Members should send their documentation (prescription) from the optician to total-rewards@gitlab.com for approval. The Team Member can request to be reimbursed for the frame, glasses and/or lenses, and eye test for a maximum reimbursement of 150 Euros.
+
+Once Total Rewards approves, the team member should submit their reimbursement through Navan. For the Navan entry under “Expense Type” select “Other” and under “GL” select “Benefits Medical & Other”.
 
 ### Life and Disability Insurance
 

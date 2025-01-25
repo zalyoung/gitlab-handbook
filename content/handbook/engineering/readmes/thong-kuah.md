@@ -1,5 +1,6 @@
 ---
 title: "Thong Kuah's README"
+description: "Personal readme page for Thong Kuah, Staff Backend Engineer, GitLab"
 job: "Staff Backend Engineer"
 ---
 

@@ -534,8 +534,8 @@ from some.deep.module.inside.a.module import (
 
 ##### Spacing
 
-Following [PEP8](https://www.python.org/dev/peps/pep-0008/#blank-lines) we recommend you put blank lines around logical sections of code.
-When starting a `for` loop or `if/else` block, add a new line above the section to give the code some breathing room. Newlines are cheap - [brain time is expensive](https://blog.getdbt.com/write-better-sql-a-defense-of-group-by-1/).
+Following [PEP8](https://peps.python.org/pep-0008/#blank-lines) we recommend you put blank lines around logical sections of code.
+When starting a `for` loop or `if/else` block, add a new line above the section to give the code some breathing room. Newlines are cheap - [brain time is expensive](https://www.getdbt.com/blog/write-better-sql-a-defense-of-group-by-1).
 
 ```python
 ## Bad
@@ -566,7 +566,7 @@ def bar(input_number:int) -> int:
 ##### Type Hints
 
 All function signatures should contain type hints, including for the return type, even if it is `None`.
-This is good documentation and can also be used with [`mypy`](http://mypy-lang.org/) for type checking and error checking.
+This is good documentation and can also be used with [`mypy`](https://mypy-lang.org/) for type checking and error checking.
 
 ```python
 ## Bad
@@ -597,7 +597,7 @@ def bar(some_str: str) -> None:
 
 ##### Import Order
 
-Imports should follow the [PEP8](https://www.python.org/dev/peps/pep-0008/#imports) rules and furthermore should be ordered with any `import ...` statements coming before `from .... import ...`
+Imports should follow the [PEP8](https://peps.python.org/pep-0008/#imports) rules and furthermore should be ordered with any `import ...` statements coming before `from .... import ...`
 
 ```python
 ## Bad
@@ -1094,13 +1094,13 @@ def test_convert_response_to_json(fake_response):
 
     expected = {"test1": "pro", "test2": "1"}
     fake_response.get(
-    "http://some_gitlab_api_url/test",
+    "https://some_gitlab_api_url/test",
     body='{"test1": "pro", "test2": "1"}',
     status=200,
     content_type="application/json",
     )
 
-    resp = requests.get("http://some_gitlab_api_url/test")
+    resp = requests.get("https://some_gitlab_api_url/test")
 
     assert resp == expected
 
@@ -1110,7 +1110,7 @@ def test_get_response(utils):
     Force fake url and raise a Connection Error
     """
     with pytest.raises(ConnectionError):
-        _ = utils.get_response("http://fake_url/test")
+        _ = utils.get_response("https://fake_url/test")
 ```
 
 ##### Beyond pytest: Useful pytest Plugins
@@ -1153,7 +1153,7 @@ $ run black --check extract/saas_usage_ping/usage_ping.py
 
 ##### mypy
 
-- [`mypy`](http://mypy-lang.org/)
+- [`mypy`](https://mypy-lang.org/)
 
 > Mypy is an optional static type checker for `Python` that aims to combine the benefits of dynamic *(or `duck`)* typing and static typing. Mypy combines the expressive power and convenience of Python with a powerful type system and compile-time type checking. Mypy type checks standard Python programs.
 

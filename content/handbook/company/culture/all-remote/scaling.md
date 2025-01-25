@@ -22,7 +22,7 @@ There are fewer examples of large remote teams working successfully, though that
 
 GitLab believes that all-remote is the future of work, and that it not only works well at scale, but works *better* at scale than antiquated colocated models.
 
-In [this GitLab Unfiltered video](https://youtu.be/Rt57pb8KElI), GitLab co-founder and CEO Sid Sijbrandij chats with Prof. Raj Choudhury of Harvard Business School on the topic of remote work.
+In [this GitLab Unfiltered video](https://youtu.be/Rt57pb8KElI), GitLab co-founder Sid Sijbrandij chats with Prof. Raj Choudhury of Harvard Business School on the topic of remote work.
 
 In response to a question on whether or not all-remote is infinitely scalable, or whether there is an inflection point beyond a certain organization size, Sijbrandij offers the following.
 
@@ -32,7 +32,7 @@ In response to a question on whether or not all-remote is infinitely scalable, o
 >
 > There's very little benefit to colocation if you're such a big company. While the benefits of remote — [writing down your processes](/handbook/product/ux/technical-writing/documentation/), stimulating cross-company [informal communication](informal-communication/) — those get much more pronounced at scale.
 >
-> It's not just that [all-remote] scales. It scales way better. - *GitLab co-founder and CEO Sid Sijbrandij*
+> It's not just that [all-remote] scales. It scales way better. - *GitLab co-founder Sid Sijbrandij*
 
 ## Colocation challenges at scale
 
@@ -75,7 +75,7 @@ With no company offices to maintain, all-remote organizations are able to recogn
 
 {{< youtube "EuGsen3FxXc?start=640" >}}
 
-In the [GitLab Unfiltered](https://www.youtube.com/channel/UCMtZ0sc1HHNtGGWZFDRTh5A) video above, GitLab co-founder and CEO Sid Sijbrandij discusses all-remote scalability (amongst other topics) with researchers from [INSEAD](https://www.insead.edu/).
+In the [GitLab Unfiltered](https://www.youtube.com/channel/UCMtZ0sc1HHNtGGWZFDRTh5A) video above, GitLab co-founder Sid Sijbrandij discusses all-remote scalability (amongst other topics) with researchers from [INSEAD](https://www.insead.edu/).
 
 > The more widespread an organization is, the less it benefits from being colocated. An all-remote organization will have to adopt the processes you'd use to control an organization at scale.
 >
@@ -83,7 +83,7 @@ In the [GitLab Unfiltered](https://www.youtube.com/channel/UCMtZ0sc1HHNtGGWZFDRT
 >
 > For example, we have the best [onboarding process](learning-and-development/#how-do-you-onboard-new-team-members) of any company in the world. It's not perfect — I can see lots of room for improvement — but no other company has [250+ tasks](https://gitlab.com/gitlab-com/people-group/employment-templates/-/blob/main/.gitlab/issue_templates/onboarding.md#all-gitlabbers) you need to complete when onboarding.
 >
-> That's more useful at scale. We just hired 600 people in 2019, and they were all able to benefit from that. — *GitLab co-founder and CEO Sid Sijbrandij*
+> That's more useful at scale. We just hired 600 people in 2019, and they were all able to benefit from that. — *GitLab co-founder Sid Sijbrandij*
 
 ### Team growth
 

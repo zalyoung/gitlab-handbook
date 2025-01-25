@@ -1,5 +1,7 @@
 ---
 title: Security at GitLab
+# See https://www.docsy.dev/docs/adding-content/content/#docs-section-landing-pages
+no_list: true
 ---
 
 ## <i class="fas fa-rocket" id="biz-tech-icons"></i> Security Vision and Mission
@@ -54,8 +56,8 @@ To reflect this, we have structured the Security Division around four key tenets
         <h5><a href="security-operations/">Security Operations</a></h5>
     </th>
     <th class="text-center">
-        <i class="fas fa-bullseye i-bt"></i>
-        <h5><a href="threat-management/">Threat Management</a></h5>
+        <i class="fas fa-shield-alt i-bt"></i>
+        <h5><a href="/handbook/security/corporate/">Corporate Security</a></h5>
     </th>
     <th class="text-center">
         <i class="fas fa-hands-helping i-bt"></i>
@@ -68,22 +70,28 @@ To reflect this, we have structured the Security Division around four key tenets
             <li><a href="product-security/application-security/">Application Security</a></li>
             <li><a href="product-security/infrastructure-security/">Infrastructure Security</a></li>
             <li><a href="product-security/product-security-engineering/">Product Security Engineering</a></li>
-            <li><a href="product-security/architecture/">Security Architecture</a></li>
+            <li><a href="product-security/security-architecture/">Security Architecture</a></li>
             <li><a href="product-security/security-research/">Security Research</a></li>
-            <li><a href="product-security/vulnerability-management/">Security Threat & Vulnerability Management</a></li>
+            <li><a href="product-security/vulnerability-management/">Vulnerability Management</a></li>
+            <li><a href="product-security/data-security/">Data Security</a></li>
+            <li><a href="security-operations/security-logging/">Security Logging</a></li>
         </ul>
       </td>
       <td>
         <ul>
             <li><a href="security-operations/sirt/">Security Incident Response Team (SIRT)</a></li>
             <li><a href="security-operations/trustandsafety/">Trust and Safety</a></li>
-            <li><a href="security-operations/security-logging/">Security Logging</a></li>
             <li><a href="security-operations/red-team/">Red Team</a></li>
+            <li><a href="security-operations/threat-intelligence/">Threat Intelligence</a></li>
+            <li><a href="security-operations/signals-engineering/">Signals Engineering</a></li>
         </ul>
       </td>
       <td>
         <ul>
-            <li><a href="threat-management/identity/">Identity Engineering, Infra, and Ops</a></li>
+            <li><a href="/handbook/security/corporate/">Corporate Security</a></li>
+            <li><a href="/handbook/security/corporate/support">Helpdesk Support</a></li>
+            <li><a href="/handbook/security/corporate/systems">Tech Stack Systems</a></li>
+            <li><a href="/handbook/security/corporate/team/#functional-org-chart">Engineering Teams</a></li>
         </ul>
       </td>
       <td>
@@ -116,6 +124,14 @@ These functions have the responsibility of shoring up and maintaining the securi
 #### Assure the Customer - The Security Assurance Department
 
 The [Security Assurance Department]({{< ref "security-assurance" >}}) is comprised of the teams noted above. They target Customer Assurance projects among their responsibilities. This reflects the need for us to provide resources to our customers to assure them of the security and safety of GitLab as an application to use within their organisation and as a enterprise-level SaaS. This also involves providing appropriate support, services and resources to customers so that they trust GitLab as a Secure Company, as a Secure Product, and Secure SaaS
+
+#### Protect the Organization - Corporate Security
+
+GitLab is both a company and a product. The [Corporate Security](/handbook/security/corporate/) department focuses on implementing and protecting the information technology (IT) related systems that the company uses to conduct business internally, and provides the hardware, software, and tools that our team members and 3rd party service providers (aka contractors) need to be productive and get their job done efficiently. The configurations that we implement for team members internally are designed to protect our customers and their data.
+
+We have a 24x5 [technical support helpdesk](/handbook/security/corporate/support) for team members and have engineers that configure and maintain many of our company-wide [tech stack applications](/handbook/security/corporate/systems).
+
+We invest heavily in [device trust, identity management, and infrastructure governance](/handbook/security/corporate/team/#functional-org-chart) to provide the highest level of security assurance for the administrators of our product and ensure all appropriate controls are in place when handling customer data.
 
 #### Other groups and individuals
 
@@ -174,25 +190,32 @@ Many teams follow a convention of having a GitLab group `team-name-team` with a 
 - [Product Security (@gitlab-com/gl-security/product-security)](https://gitlab.com/gitlab-com/gl-security/product-security/)
   - [Product Security Meta](https://gitlab.com/gitlab-com/gl-security/product-security/product-security-meta) For department wide management and planning issues.
   - [@gitlab-com/gl-security/product-security/appsec](https://gitlab.com/gitlab-com/gl-security/product-security/appsec) is the primary group for @'mentioning the Application Security team.
+  - [@gitlab-com/gl-security/security-research](https://gitlab.com/gitlab-com/gl-security/security-research)
+  - [@gitlab-com/gl-security/threatmanagement/vulnerability-management](https://gitlab.com/gitlab-com/gl-security/product-security/vulnerability-management)
 - [Security Operations (@gitlab-com/gl-security/security-operations)](https://gitlab.com/gitlab-com/gl-security/security-operations) Security Operations Department
   - [@gitlab-com/gl-security/security-operations/sirt](https://gitlab.com/gitlab-com/gl-security/security-operations/sirt) is the primary group for @'mentioning the Security Incident Response Team (SIRT).
     - [SIRT (private)](https://gitlab.com/gitlab-com/gl-security/security-operations/sirt/operations) for SIRT issues.
   - [@gitlab-com/gl-security/security-operations/trust-and-safety](https://gitlab.com/gitlab-com/gl-security/security-operations/trust-and-safety) is the primary group for @'mentioning the Trust & Safety team.
-- Security Threat Management
-  - Identity and Access Management
-    - [@gitlab-com/gl-security/identity/infra](https://gitlab.com/gitlab-com/gl-security/identity/infra)
-    - [@gitlab-com/gl-security/identity/ops](https://gitlab.com/gitlab-com/gl-security/identity/ops)
   - [@gitlab-com/gl-security/security-operations/redteam](https://gitlab.com/gitlab-com/gl-security/security-operations/redteam)
-  - [@gitlab-com/gl-security/security-research](https://gitlab.com/gitlab-com/gl-security/security-research)
-  - [@gitlab-com/gl-security/threatmanagement/vulnerability-management](https://gitlab.com/gitlab-com/gl-security/product-security/vulnerability-management)
+- [Corporate Security (@gitlab-com/gl-security/corp)](https://gitlab.com/gitlab-com/gl-security/corp)
+  - [Functional Teams Org Chart](/handbook/security/corporate/team/#functional-org-chart)
+  - [Issue Tracker](https://gitlab.com/gitlab-com/gl-security/corp/issue-tracker/-/issues)
+  - [@gitlab-com/gitlab-com/gl-security/corp/managers](https://gitlab.com/gitlab-com/gl-security/corp/managers) - Management Team
+  - [@gitlab-com/gitlab-com/gl-security/corp/helpdesk](https://gitlab.com/gitlab-com/gl-security/corp/helpdesk) - End User Services Helpdesk Team (see [Support Handbook Page](/handbook/security/corporate/support))
+  - [@gitlab-com/gitlab-com/gl-security/corp/logistics](https://gitlab.com/gitlab-com/gl-security/corp/logistics) - Laptop and Phone Logistics
+  - [@gitlab-com/gitlab-com/gl-security/corp/code](https://gitlab.com/gitlab-com/gl-security/corp/code) - Code Platforms Engineering
+  - [@gitlab-com/gitlab-com/gl-security/corp/device](https://gitlab.com/gitlab-com/gl-security/corp/device) - Device Trust Engineering
+  - [@gitlab-com/gitlab-com/gl-security/corp/identity](https://gitlab.com/gitlab-com/gl-security/corp/identity) - Identity Engineering
+  - [@gitlab-com/gitlab-com/gl-security/corp/infra](https://gitlab.com/gitlab-com/gl-security/corp/infra) - Infrastructure Governance Engineering
+  - [@gitlab-com/gitlab-com/gl-security/corp/saas](https://gitlab.com/gitlab-com/gl-security/corp/saas) - SaaS and Tech Stack Engineering (shared responsibility handled by Device Trust and Identity Teams)
+  - [@gitlab-com/gitlab-com/gl-security/corp/dept](https://gitlab.com/gitlab-com/gl-security/corp) - Entire Department
 
 #### Slack Channels
 
 - [#security](https://gitlab.slack.com/archives/security); Used for general security questions and posting of external links for the great discussions. Company wide security relevant announcements are announced in #whats-happening-at-gitlab and may be copied here.
-- [#security-department](https://gitlab.slack.com/archives/security-department) - Daily questions and discussions focused on work internal to the Security Division. Can be used for
-reporting when unsure of where to go.
+- [#security-division](https://gitlab.slack.com/archives/CM74JMLTU) - Daily questions and discussions focused on work internal to the Security Division. Can be used for reporting when unsure of where to go.
 - [#abuse](https://gitlab.slack.com/archives/abuse) - Used for reporting suspected abusive activity/content (*GitLab Internal*) as well as general discussions regarding anti-abuse efforts. Use `@trust-and-safety` in the channel to alert the team to anything urgent.
-- `#security-department-standup` - Private channel for daily standups.
+- `#security-team-standup` - Channel for daily standups.
 - `#incident-management` and [other infrastructure department channels](/handbook/engineering/infrastructure/#common-links)
 - `#security-alert-manual` - New reports for the Security Division from various intake sources, including ZenDesk and new HackerOne reports.
 - `#hackerone-feed` - Feed of most activity from our HackerOne program.
@@ -209,13 +232,13 @@ handled by the Security Division.
 
 We believe it is important to share regular updates at various levels of the Security Division, and we use Slack as the primary mechanism for providing these updates. Our updates are open to all GitLab team members using the following process:
 
-- **Start of each month:** A thread per-department is started in `#security-department` by each department leader (CorpSec, ProdSec, SecAssurance, SecOps). These threads are pinned for the duration of the month.
+- **Start of each month:** A thread per-department is started in `#security-division` by each department leader (CorpSec, ProdSec, SecAssurance, SecOps). These threads are pinned for the duration of the month.
   - Thread template:
     - `<MONTH> <DEPARMENT> Weekly Updates`
     - Example: `August Product Security Weekly Updates`
 - **Weekly:** At least once a week, teams provide updates they wish to share within the appropriate thread. For example, updates from Vulnerability Management would be placed in the Product Security thread for the given month.
   - These weekly updates, while highly encouraged, are strictly optional and should represent content that ICs and managers feel should be highlighted. Teams are encouraged to define processes and DRIs around these updates that work for them.
-  - Individuals providing the weekly updates are encouraged to use the "Also send to #security-department" option within the thread to increase visibility.
+  - Individuals providing the weekly updates are encouraged to use the "Also send to #security-division" option within the thread to increase visibility.
 - **End of each month:** Departmental leaders prepare a monthly update, including no more than **three updates per team**, and post it in `#ciso` within the first week of the following month.
   - Each monthly update should include a brief preface written by the departmental leader covering any notable themes or other strategic updates.
   - Each of the three updates per-team should be no more than 2-3 sentences and include at least one link to allow readers to gain additional context. Links should be to GitLab Issues or Epics wherever possible. If information is confidential and not able to be added to an Issue or Epic, a note should be added indicating this.

@@ -74,7 +74,7 @@ Feedback from the survey in turn allows Leadership within GitLab to gain insight
 
 ### Survey Confidentiality
 
-In an effort to ensure team member confidentiality is upheld, only managers with >5 respondents will be able to view quantitative results - this is carried across to demographic filtering in teams with population sizes which exceed the minimum too. The survey is wholly administered by Culture Amp on a secure external website and the survey data will not be stored on any local computer. If you'd like to know more, check out CultureAmp's [FAQ guide](https://support.cultureamp.com/hc/en-us/articles/204529829-Survey-participant-FAQs).
+In an effort to ensure team member confidentiality is upheld, only managers with >5 respondents will be able to view quantitative results - this is carried across to demographic filtering in teams with population sizes which exceed the minimum too. The survey is wholly administered by Culture Amp on a secure external website and the survey data will not be stored on any local computer. If you'd like to know more, check out CultureAmp's [FAQ guide](https://support.cultureamp.com/en/articles/7048327-engagement-attributed-survey-guide-for-participants).
 
 ### Survey Participation
 
@@ -438,7 +438,7 @@ Per CultureAmp's insights related to the Great Resignation, we added questions r
 
 Culture Amp determines which questions are "focus recommendations" based on: impact on overall, favorable score, comparison to benchmarks. [Here](https://support.cultureamp.com/en/articles/7048700-focus-agent-feature-in-survey-analytics) is more information on how Culture Amp determines "focus" recommendations.
 
-"Impact" is a word we use to refer to a statistical technique called a driver analysis. People Intelligence relies on a lot of data and analysis techniques, and one of the most powerful is Driver Analysis. Driver Analysis lets you focus on the most important drivers of outcomes for your culture. The questions that are identified as the top drivers are the questions that are most likely having the biggest impact on Engagement (or whatever measure you have set up as your outcome). So if you were able to improve your scores on these questions, you are likely to improve your Engagement score. You can find more information on how "impact" is determined [here](https://support.cultureamp.com/hc/en-us/articles/208026545-Impact-and-driver-analysis-FAQs).
+"Impact" is a word we use to refer to a statistical technique called a driver analysis. People Intelligence relies on a lot of data and analysis techniques, and one of the most powerful is Driver Analysis. Driver Analysis lets you focus on the most important drivers of outcomes for your culture. The questions that are identified as the top drivers are the questions that are most likely having the biggest impact on Engagement (or whatever measure you have set up as your outcome). So if you were able to improve your scores on these questions, you are likely to improve your Engagement score. You can find more information on how "impact" is determined [here](https://support.cultureamp.com/en/articles/7048590-impact-and-driver-analysis-faqs).
 
 In addition to leveraging insights from our Engagement Survey tool, Culture Amp, the People Group may add in a couple of additional questions particularly relevant to current business priorities, changes, and/or challenges.
 

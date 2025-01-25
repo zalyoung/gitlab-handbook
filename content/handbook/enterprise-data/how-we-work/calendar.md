@@ -19,7 +19,7 @@ While we can't promise we'll never have meetings on Fridays, the team has adopte
 
 ### Bias For The Maker's Schedule
 
-Most Data Team members identify more strongly with the [Maker's Schedule over the Manager's Schedule](http://www.paulgraham.com/makersschedule.html) and we support this by:
+Most Data Team members identify more strongly with the [Maker's Schedule over the Manager's Schedule](https://www.paulgraham.com/makersschedule.html) and we support this by:
 
 - limiting individual contributor meeting exposure to no more than 20% of their time
 - grouping our meetings into contiguous chunks instead of sprinkling them throughout the day or week
@@ -49,7 +49,7 @@ Give responses to Geekbot that truly communicate to your team what you're workin
 
 During weekly or twice-weekly meetings on Tuesdays (cadence depends on the team), we focus on results delivery within the business-focused Fusion Teams and Platform Enhancements Team.
 Data Team Leadership are expected to regularly attend most sessions and review all meeting agendas.
-Because we work in [2-week iteration intervals](handbook/it/data-team//how-we-work/#quarterly-and-iteration-planning), the focus of these *Tuesday* meetings will change from week-to-week.
+Because we work in [2-week iteration intervals](/handbook/enterprise-data/how-we-work/#quarterly-and-iteration-planning), the focus of these *Tuesday* meetings will change from week-to-week.
 
 **DEMO Meetings**
 

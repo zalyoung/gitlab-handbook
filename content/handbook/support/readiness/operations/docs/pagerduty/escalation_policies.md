@@ -6,7 +6,7 @@ canonical_path: "/handbook/support/readiness/operations/docs/pagerduty/escalatio
 
 ## What are Pagerduty escalation policies
 
-As per [Pagerduty](https://support.pagerduty.com/docs/escalation-policies):
+As per [Pagerduty](https://support.pagerduty.com/main/docs/escalation-policies):
 
 > Escalation policies connect services to individual users and/or schedules and
 > they ensure the right people are notified at the right time.
@@ -178,7 +178,6 @@ deleted. You might need to edit it first to remove rules and persons first.
   - Notify the following users or schedules
     - Lee Matos
     - Lyle Kozloff
-    - James Lopes
 
 ### Support Managers
 
@@ -207,7 +206,6 @@ deleted. You might need to edit it first to remove rules and persons first.
   - Notify the following users or schedules
     - Lyle Kozloff
     - Lee Matoes
-    - James Lopes
 
 ## Change management
 

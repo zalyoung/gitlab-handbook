@@ -71,7 +71,7 @@ If the request falls outside of such scenarios, see the [Other Requests section]
 
 ## After applying the correct form
 
-- Apply the correct `Support - Category` and `Subcategory` if possible.
+- Apply the correct `Support Ticket Category` value if possible.
 - If missing, gather information about the `GitLab Install Type`, `Reference Architecture` and `GitLab Version`
 - Consider gathering any other information that might be missing if the customer used the incorrect form.
 

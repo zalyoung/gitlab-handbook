@@ -63,21 +63,21 @@ After these changes, the `index.js` file should look like this:
 
   ```js
     //A binary search will search a sorted list in log(n) time
-    module.exports.binarySearch = function binarySearch(arr, val) { 
-        let start = 0; 
-        let end = arr.length - 1; 
-        while (start <= end) { 
-            let mid = Math.floor((start + end) / 2); 
-            if (arr[mid] === val) { 
-                return mid; 
-            } 
-            if (val < arr[mid]) { 
-                end = mid - 1; 
-            } else { 
-                start = mid + 1; 
-            } 
-        } 
-        return -1; 
+    module.exports.binarySearch = function binarySearch(arr, val) {
+        let start = 0;
+        let end = arr.length - 1;
+        while (start <= end) {
+            let mid = Math.floor((start + end) / 2);
+            if (arr[mid] === val) {
+                return mid;
+            }
+            if (val < arr[mid]) {
+                end = mid - 1;
+            } else {
+                start = mid + 1;
+            }
+        }
+        return -1;
     }
 
     module.exports.linearSearch = function linearSearch(arr, val){
@@ -275,4 +275,4 @@ You have completed this lab exercise. You can view the other [lab guides for thi
 
 ## Suggestions?
 
-If you wish to make a change to the *Hands-On Guide for GitLab CI/CD*, please submit your changes via Merge Request.
+If you wish to make a change to the *Hands-On Guide for GitLab Advanced CI/CD*, please submit your changes via Merge Request.

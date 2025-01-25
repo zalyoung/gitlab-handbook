@@ -25,10 +25,10 @@ A marketing script, pixel, or tag is a small piece of code embedded on a web pag
 |Marketo|Analytics|All pageviews|Marketing Operations|
 |PathFactory|Functional|All pageviews|Marketing Operations, ABM|
 |6Sense|Functional|All pageviews|Marketing Operations, ABM|
+|Mutiny|Functional|All pageviews|Marketing Operations, ABM|
 |Qualified|Functional|Most pageviews|Marketing Operations|
-|Zoominfo|Functional|Most pageviews|Marketing Operations|
 
-Table last updated: 2024-01-26
+Table last updated: 2024-11-15
 
 ### The Process
 

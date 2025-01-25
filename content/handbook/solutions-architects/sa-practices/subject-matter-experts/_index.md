@@ -17,7 +17,7 @@ The goals of the SME Program are:
 
 In order to fulfill the above goals, the [SME Program is structured, appropriately with defined Roles and Responsibilities](/handbook/solutions-architects/sa-practices/subject-matter-experts/sme-program.md), to also support the following processes::
 
-1. [SME Operations - Collab Project, Groups, Slack Channels](content/handbook/solutions-architects/sa-practices/subject-matter-experts/sme-operations.md)
+1. [SME Operations - Collab Project, Groups, Slack Channels](/handbook/solutions-architects/sa-practices/subject-matter-experts/sme-operations.md)
 2. [SME Nomination and Onboarding \- How to Become a SME](/handbook/solutions-architects/sa-practices/subject-matter-experts/sme-program/#sme-selection)  
 3. [How to Request a SME on an opportunity to provide technical guidance and expertise](/handbook/solutions-architects/sa-practices/subject-matter-experts/sme-request/)  
 4. [Maintaining Collateral for each SME Area\*](/handbook/solutions-architects/sa-practices/subject-matter-experts/sme-collateral/)  
@@ -134,12 +134,12 @@ SMEs will be regularly evaluated based on their contributions and impact on the 
 | **SME Area Leads** | **SA**: Edmond Chan<br>**CS**: Jess Perry | **SA**: Julia Gaetjens<br>**CS**: Eduardo Guillen, Jess Perry | **SA**: David Astor<br>**CS**: Brianne Parton | **SA**: Alessia Del Vecchio<br>**CS**: Zane Chua | **SA**: Bradley Lee,<br>Ken McKnight<br>**CS**: Rachel Fuerst,<br>Rodney Bowles | **SA**: Zach Henderson,<br>Breno Gomes<br>**CS**: Jordan Monyhan |
 | **Product Manager Rep/<br>Engineering Manager Rep** | **AMER**: Taylor McCaslin,<br>Michelle Gill<br>**APAC/EU**: Pini Wietchner,<br>David O'Regan | Alana Bellucci,<br>Sara Meadzinger,<br>Joe Randazzo | **PM**: Melissa Ushakov<br>**EM**: John Hope | **PM**: Chris Balane<br>**EM**: Oriol Lluch | | |
 | **APJ** | Ben Ridley,<br>Arun Kumar G,<br>Arjun Krishna | Tomasz Skora | | | | |
-| **EMEA NEUR** | Ryan Appleby | Dominique Top | Gabriela Dobrescu,<br>James Moverley | Martin McVay | | |
+| **EMEA NEUR** | Ryan Appleby | Dominique Top,<br>Beatriz Barbosa | Gabriela Dobrescu,<br>James Moverley | Martin McVay | | |
 | **EMEA SEUR** | Madou Coulibaly | Paul Dumaitre,<br>Olivier Dupre | | | | |
 | **EMEA DACH/META** | Alex Dess | Mirko Brandner,<br>Julia Gaetjens | Ted Gieschen,<br>Hossam Hamdy | Falko Sieverding | Lars Blockken | |
 | **US East** | Sam Morris,<br>Manjeet Singh | Bernard Park,<br>James Nyika,<br>Manjeet Singh | Dan Rabinovitz | Adam Zwickey | Jason Morgan,<br>Bradley Lee | Rob Jackson |
 | **US West** | Karen Kwentus | Yu-Chen Hsueh,<br>Anthony Baer,<br>Taylor Carr,<br>John Bush | Steve Grossman | Ryan Taylor | Ken McKnight | Siddharth Mathur |
 | **High Velocity - AMER** | | | Sophia Manicor | | Noah Ing | |
-| **High Velocity - EMEA** | | Claire Marie Champernowne<br>Nupur Sharma | Jan Kunzmann | Corina Patachia | Sarah Matthies | |
-| **Pub Sec** | Kevin Chasse,<br>Josh Swann | Sameer Kamani,<br>Zachary Yates | Joseph Valeriano,<br>Linc Williams | Daniel Marquard,<br>Michael Bradley | Rachel Fuerst | |
+| **High Velocity - EMEA** | | Claire Marie Champernowne<br>Nupur Sharma | Jan Kunzmann | | Sarah Matthies | Breno Gomes |
+| **Pub Sec** | Kevin Chasse,<br>Josh Swann | Sameer Kamani,<br>Zachary Yates | Joseph Valeriano,<br>Linc Williams | Michael Bradley | Rachel Fuerst | |
 | **Partner** | | | | | | |

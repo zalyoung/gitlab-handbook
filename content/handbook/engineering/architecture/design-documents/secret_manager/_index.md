@@ -810,7 +810,7 @@ In summary, storage is encrypted with a root key, which in turn encrypts a
 barrier keyring, which in turn encrypts storage. Access to the root key is
 protected through either a [Shamir's derived AES key](https://openbao.org/docs/concepts/seal/#shamir-seals)
 (which requires a quorum present to unseal) or an automatic unseal mechanism
-(such as [GCP KMS](https://openbao.org/docs/configuration/seal/gcpckms)).
+(such as [GCP KMS](https://openbao.org/docs/configuration/seal/gcpckms/)).
 
 #### Storage backend
 

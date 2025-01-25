@@ -12,23 +12,23 @@ description: "These are core principles we believe world class product organizat
 These are core principles we believe world class product organizations exhibit. The goal is to build a PM system that fosters and honors these principles, in a way that works for GitLab.
 
 1. **Hiring is Job One.** "A" players attract "A" players. Given the strategic importance of the PM role, a strong PM creates enormous leverage. We should strive to raise the average competency for the team with each new hire.
-    - Helpful resource: [Recruit Rockstars](https://www.amazon.com/Recruit-Rockstars-Playbook-Winners-Business/dp/1619618168/ref=sr_1_fkmrnull_3?keywords=recruit+rockstars&qid=1558392544&s=gateway&sr=8-3-fkmrnull)
+    - Helpful resource: [Recruit Rockstars](https://www.amazon.com/Recruit-Rockstars-Playbook-Winners-Business/dp/1619618168/)
 1. **Care personally & challenge directly**. Employees that feel safe plus managers that coach honestly is how people do their best work. We encourage timely and actionable feedback, as well as managers that take the time to get to know their people as humans with feelings and personal lives, not just resources.
-    - Helpful resource: [Radical Candor](https://www.amazon.com/Radical-Candor-KIM-SCOTT/dp/1509845380/ref=sr_1_3?keywords=radical+candor&qid=1558392325&s=gateway&sr=8-3)
+    - Helpful resource: [Radical Candor](https://www.amazon.com/Radical-Candor-KIM-SCOTT/dp/1509845380/)
 1. **Always be learning.** Continuously invest in skill development, and have a growth mindset as individuals and as a team.
-    - Helpful resource: [Peak](https://www.amazon.com/Peak-Secrets-New-Science-Expertise/dp/0544947223/ref=sr_1_3?keywords=peak&qid=1558392290&s=gateway&sr=8-3)
+    - Helpful resource: [Peak](https://www.amazon.com/Peak-Secrets-New-Science-Expertise/dp/0544947223/)
 1. **You're not the customer.** Talk to them. It is tempting to assume that we understand our customers, but we are often wrong. We validate our assumptions through qualitative and quantitative customer input.
-    - Helpful resources: [Inspired](https://www.amazon.com/INSPIRED-Create-Tech-Products-Customers/dp/1119387507/ref=sr_1_3?keywords=marty+cagan&qid=1558392207&s=gateway&sr=8-3). [Competing Against Luck](https://www.amazon.com/Competing-Against-Luck-Innovation-Customer/dp/0062435612/ref=sr_1_3?keywords=competing+against+luck&qid=1558392608&s=gateway&sr=8-3). [Get in the Van](https://firstround.com/review/the-power-of-interviewing-customers-the-right-way-from-twitters-ex-vp-product/).
+    - Helpful resources: [Inspired](https://www.amazon.com/INSPIRED-Create-Tech-Products-Customers/dp/1119387507/ref=sr_1_3?keywords=marty+cagan&qid=1558392207&s=gateway&sr=8-3). [Competing Against Luck](https://www.amazon.com/Competing-Against-Luck-Innovation-Customer/dp/0062435612/).
 1. **Start with the problem, not the solution.** It is tempting to dive right into solutioning, but we are often wrong about the underlying problem. A well formed problem statement is the key to a successful project.
     - Helpful resources: [Love the Problem Not Your Solution](https://www.leanfoundry.com/articles/love-the-problem-not-your-solution). [Great PM's Don't Spend Their Time on Solutions](https://www.intercom.com/blog/great-product-managers-dont-spend-time-on-solutions/).
 1. **Prioritize relentlessly.** It is better to do a few things well than many things poorly. We should focus first on what we're best at and what our customers need most, with a preference for simplicity. Customers will tell us when we're missing something they need, but they're unlikely to tell us when we're overwhelming them with unwanted features.
-    - Helpful resources: [Essentialism](https://www.amazon.com/Essentialism-Disciplined-Pursuit-Greg-McKeown/dp/0804137382/ref=sr_1_3?keywords=essentialism&qid=1558392393&s=gateway&sr=8-3). [RICE](https://www.intercom.com/blog/rice-simple-prioritization-for-product-managers/).
+    - Helpful resources: [Essentialism](https://www.amazon.com/Essentialism-Disciplined-Pursuit-Greg-McKeown/dp/0804137382/).
 1. **Assume you are wrong.** Human intuition is often wrong. To fight this, have a hypothesis and try to invalidate it quickly.
-    - Helpful resource: [Thinking, Fast & Slow](https://www.amazon.com/Thinking-Fast-Slow-Daniel-Kahneman/dp/0374533555/ref=sr_1_3?crid=CT91NU8162ED&keywords=thinking%2C+fast+and+slow&qid=1558392435&s=gateway&sprefix=thinking%2C+fas%2Caps%2C169&sr=8-3)
+    - Helpful resource: [Thinking, Fast & Slow](https://www.amazon.com/Thinking-Fast-Slow-Daniel-Kahneman/dp/0374533555/)
 1. **Iterate.** Leverage a fast-paced build-measure-learn feedback loop to iterate your way to a good solution, rather than trying to plan it all out up front.
-    - Helpful resource: [Lean Startup](https://www.amazon.com/Lean-Startup-Entrepreneurs-Continuous-Innovation/dp/0307887898/ref=sr_1_3?keywords=lean+startup&qid=1558392463&s=gateway&sr=8-3)
+    - Helpful resource: [Lean Startup](https://www.amazon.com/Lean-Startup-Entrepreneurs-Continuous-Innovation/dp/0307887898/)
 1. **Be data driven.** Always have success metrics, track them, and try to move them in the right direction with our actions.
-    - Helpful resource: [How to Measure Anything](https://www.amazon.com/How-Measure-Anything-Intangibles-Business/dp/1118539273/ref=sr_1_3?crid=34TJSQF3Z49AR&keywords=how+to+measure+anything&qid=1558392490&s=gateway&sprefix=how+to+measure+an%2Caps%2C167&sr=8-3)
+    - Helpful resource: [How to Measure Anything](https://www.amazon.com/How-Measure-Anything-Intangibles-Business/dp/1118539273/)
 1. **Product-led growth.** Strive to build a delightful product and user experience that seamlessly acquires, activates, and retains customers in partnership with Marketing, Growth, Pricing, Fulfillment, and Sales.
     - [Product-Led growth](https://www.productled.org/foundations/what-is-product-led-growth) does not mean _product-management-led growth_. However, following this principle product becomes a central piece in driving growth and is used for many activities that were traditionally outside of the product to provide a scalable approach.
 
@@ -63,12 +63,12 @@ Our approach requires four pillars:
 
 - Relentless customer focus and commitment to understanding their workflows, using research and validation
 - Measurable outcomes that use established metrics for success in tracking adoption, usage, or other business outcomes.
-- Product functionality that adheres to GA criteria listed in [the levels of support](https://docs.gitlab.com/ee/policy/experiment-beta-support.html)
+- Product functionality that adheres to GA criteria listed in [the levels of support](https://docs.gitlab.com/ee/policy/development_stages_support.html)
 - Future vision to expand the MVC beyond the initial release
 
-When considering how to scope a feature for a release, remember that it is not ok to ship an "incomplete" feature to customers (see the [definition of done](https://docs.gitlab.com/ee/development/contributing/merge_request_workflow.html#definition-of-done)). Consider the use of Pajamas components for UI in your MVCs. When introducing a new component or pattern not found within Pajamas, it is the responsibility of that team to follow our [component lifecycle guidelines](https://design.gitlab.com/get-started/lifecycle) to [determine whether it should be added](https://design.gitlab.com/get-started/lifecycle#determining-whether-a-component-should-be-included-in-pajamas) and, if so, contribute the addition/update back to Pajamas.
+When considering how to scope a feature for a release, remember that it is not ok to ship an "incomplete" feature to customers (see the [definition of done](https://docs.gitlab.com/ee/development/contributing/merge_request_workflow.html#definition-of-done)). Consider the use of Pajamas components for UI in your MVCs. When introducing a new component or pattern not found within Pajamas, it is the responsibility of that team to follow our [component lifecycle guidelines](https://design.gitlab.com/get-started/lifecycle/) to [determine whether it should be added](https://design.gitlab.com/get-started/lifecycle/#determining-whether-a-component-should-be-included-in-pajamas) and, if so, contribute the addition/update back to Pajamas.
 
-MVC means reducing the scope so we can ship quickly. It doesn't mean shipping something that hurts the usability of GitLab. First impressions are important. A feature that does not offer enough value or hinders the user experience may have a negative effect that discourages users from trying that feature again in the future. If there are obvious gaps in your MVC or you can anticipate follow-up requests, consider whether your feature is complete enough to be released to users. If you are unsure whether your feature is complete enough to be an MVC (or if you know your feature is not complete enough to be an MVC and you want to gather additional feedback), you can use approaches such as dogfooding, [beta programs](https://docs.gitlab.com/ee/policy/experiment-beta-support.html), feature flags, and/or user research to help build confidence in your decision. In terms of talking about your feature, it's ok to add a release post item that announces your incomplete feature (making clear that it is an early iteration, and points to the direction for the feature) and follow up in a later release post with a new item when you've completed more of the functionality. As long as you call it cookie dough, not a cookie, it manages user expectations.
+MVC means reducing the scope so we can ship quickly. It doesn't mean shipping something that hurts the usability of GitLab. First impressions are important. A feature that does not offer enough value or hinders the user experience may have a negative effect that discourages users from trying that feature again in the future. If there are obvious gaps in your MVC or you can anticipate follow-up requests, consider whether your feature is complete enough to be released to users. If you are unsure whether your feature is complete enough to be an MVC (or if you know your feature is not complete enough to be an MVC and you want to gather additional feedback), you can use approaches such as dogfooding, [beta programs](https://docs.gitlab.com/ee/policy/development_stages_support.html), feature flags, and/or user research to help build confidence in your decision. In terms of talking about your feature, it's ok to add a release post item that announces your incomplete feature (making clear that it is an early iteration, and points to the direction for the feature) and follow up in a later release post with a new item when you've completed more of the functionality. As long as you call it cookie dough, not a cookie, it manages user expectations.
 
 Examples:
 
@@ -181,7 +181,7 @@ We understand that a natural inclination when using application development tool
 
 #### Inspiration
 
-We admire other "convention over configuration" tools—like [Ruby on Rails](http://rubyonrails.org/) (the doctrine of which perfectly describes the [value of integrated systems](http://rubyonrails.org/doctrine#integrated-systems)), [Ember](http://emberjs.com/), and
+We admire other "convention over configuration" tools—like [Ruby on Rails](https://rubyonrails.org/) (the doctrine of which perfectly describes the [value of integrated systems](https://rubyonrails.org/doctrine#integrated-systems)), [Ember](https://emberjs.com/), and
 [Heroku](https://www.heroku.com/)—and we strive to offer the same advantages for continuous delivery of software.
 
 Furthermore, Ruby on Rails has significantly and positively influenced the Ruby community, uplifting the tool and making it more powerful and useful than ever before. We want GitLab to be to Kubernetes what Rails is to Ruby.
@@ -290,11 +290,11 @@ A highly usable interface with cohesive workflows and comprehensive documentatio
 Keep in mind these general user experience principles.
 
 - **Strive for simplicity:** Using GitLab should be easy. Users should think about the applications they are building and the teams they are collaborating with, not how to make our app work. Here's a great read on ["Don't make users think!"](https://www.goodreads.com/book/show/18197267-don-t-make-me-think-revisited?)
-- **Depth over breadth:** A world-class experience requires deep, powerful, useful features. To remain balanced, we must also identify capabilities that can be deprecated so we are adding depth while encouraging [subtractive thinking](handbook/product/product-principles/#subtractive-thinking).
+- **Depth over breadth:** A world-class experience requires deep, powerful, useful features. To remain balanced, we must also identify capabilities that can be deprecated so we are adding depth while encouraging [subtractive thinking](/handbook/product/product-principles/#subtractive-thinking).
 - **Better than before:** Our [MVC principle](/handbook/product/product-principles/#the-minimal-valuable-change-mvc) pushes back against the notion that something must be better than nothing. Instead, we assess if the user experience is better than before by considering its value. Work with a Product Designer to evaluate tradeoffs and minimize [deferred UX](/handbook/engineering/workflow/#deferred-ux).
 - **Timeless design:** The user experience should be relevant both today and years from now, so each release should encapsulate the best experience possible. Ask yourself, "How would we build something if we knew this was the last time a team could touch it?"
 
-Additionally, you can familiarize yourself with the [UX team mission](/handbook/product/ux/how-we-work/#ux-team-mission) and [GitLab's Pajamas design system principles](https://design.gitlab.com/get-started/principles).
+Additionally, you can familiarize yourself with the [UX team mission](/handbook/product/ux/how-we-work/#ux-team-mission) and [GitLab's Pajamas design system principles](https://design.gitlab.com/get-started/principles/).
 
 ### Be Ambitious
 
@@ -328,7 +328,7 @@ Discovering new features can enhance the experience and unlock significant value
 
 However, excessive feature discovery efforts can become irritating for users. This erodes trust and reduces engagement with other UI elements in the future. Even worse, they might leave GitLab due to this deteriorating experience. Context plays a significant role in how users engage with new functionality. By presenting features in a way that resonates with a user's current situation and needs you increase the liklihood of them using this new functionality.
 
-Work with your product designer to improve the discoverability of your features. The Pajamas Design System has best practices and examples to support [feature discoverability](https://design.gitlab.com/usability/feature-discovery). We can also design new patterns. The Growth team can also help you with this, as they think about things like onboarding new users and promoting feature use within the app while supporting, not annoying, the user.
+Work with your product designer to improve the discoverability of your features. The Pajamas Design System has best practices and examples to support [feature discoverability](https://design.gitlab.com/usability/feature-discovery/). We can also design new patterns. The Growth team can also help you with this, as they think about things like onboarding new users and promoting feature use within the app while supporting, not annoying, the user.
 
 ### Product Qualified Leads (PQLs)
 
@@ -360,7 +360,7 @@ There are two frameworks we use to think about driving GitLab's product usage: w
 
 #### Single Feature usage: AARRR framework
 
-AARRR stands for _Acquisition_, _Activation_, _Retention_, _Revenue_, and _Referral_ which is often referred to as ["Pirate Metrics"](https://amplitude.com/blog/2016/02/25/actionable-pirate-metrics). These five words represent the customer journey and the various means a product manager may apply Product Performance Indicators to drive a desired behavior in the funnel.
+AARRR stands for _Acquisition_, _Activation_, _Retention_, _Revenue_, and _Referral_ which is often referred to as ["Pirate Metrics"](https://amplitude.com/blog/actionable-pirate-metrics). These five words represent the customer journey and the various means a product manager may apply Product Performance Indicators to drive a desired behavior in the funnel.
 
 While the AARRR framework is commonly used to drive overall active users, it is also a great way for PMs to think about how to drive feature usage.
 
@@ -409,7 +409,7 @@ graph TD;
     id3 --> id7(Package - 7%)
     id6 --> id9(Monitor - 8%)
     id6 --> id10(Configure - 2%)
-    id6 --> id11(Govern - 28%)
+    id6 --> id11(Software Supply Chain Security - 28%)
 ```
 
 - The percentage here is defined as % of monthly active paid ultimate-tier self-managed instances that adopted that stage. The data is captured directly in the Golden Journey Paths chart (which has been deprecated).
@@ -596,7 +596,7 @@ With this in mind, below are some product guidelines to consider:
   - Integrations should be as discoverable as any native GitLab feature, if they're enabled. In cases where the two features are mutually exclusive, we should allow the user to hide our native functionality to prevent confusion. For example, having two project management tools is a (generally) _bad_ idea. Collaborators may end up filing issues in the wrong tool, slowing down their velocity and worsening their overall experience. Reducing velocity is antithetical to the value GitLab provides.
   - When features _aren't_ mutually exclusive (there's nothing wrong with using _multiple_ security scanning services, for example), we should group navigation to those integrations near our own.
 - **Use empty states for feature discovery**
-  - Consider adding an [_empty state_](https://design.gitlab.com/regions/empty-states) that highlights the availability of this integration. If someone is not using the GitLab feature _and also not_ integrating their tool of choice, that's the worst possible experience. We should respect the choices of our users, and if they've decided to use a 3rd-party tool that we integrate with, we shouldn't hide that option in a dark corner.
+  - Consider adding an [_empty state_](https://design.gitlab.com/patterns/empty-states/) that highlights the availability of this integration. If someone is not using the GitLab feature _and also not_ integrating their tool of choice, that's the worst possible experience. We should respect the choices of our users, and if they've decided to use a 3rd-party tool that we integrate with, we shouldn't hide that option in a dark corner.
   - This is also a great opportunity to educate the user on what GitLab can offer relative to other products. It's the best of both worlds: promoting our own features while helping them improve their current experience, regardless of choice.
 - **Use our own design language**
   - Just because we're leveraging _functionality_ from a 3rd-party service doesn't mean we should allow that service's UI to dictate what ours looks like. GitLab has its own [design language](https://design.gitlab.com/), and by keeping it cohesive across the application, we create a significantly better experience for our users.

@@ -7,18 +7,18 @@ description: "Demo and Test Data generator"
 
 The GitLab Data Seeder (GDS) (formerly AwesomeCo) is a technical implementation in GitLab to allow engineers, testers, and customers alike to generate seed data in their GitLab instances for various purposes.
 
-The Data Seeder tool was devised as a result of the [Demo & Test Data working group's](/handbook/company/team/structure/working-groups/demo-test-data/) effort to address this gap.
+The Data Seeder tool was devised as a result of the [Demo & Test Data working group's](/handbook/company/working-groups/demo-test-data/) effort to address this gap.
 
 ## How it works?
 
 GitLab's Data Seeder hinges in the following pieces of software currently in use by the GitLab project:
 
 - [FactoryBot](https://github.com/thoughtbot/factory_bot), which is used during GitLab's feature development to fabricate and permute Rails [Models](https://www.rubydoc.info/gems/activemodel) that exist within the GitLab source.
-- [Rake](https://ruby.github.io/rake), which is a Make-like program implemented in Ruby. Rake is included by default in all GitLab installations.
+- [Rake](https://ruby.github.io/rake/), which is a Make-like program implemented in Ruby. Rake is included by default in all GitLab installations.
 
 By providing a seed file which contains the representation of data to be created in GitLab, one can run Rake to generate the data in the GitLab UI.
 
-[Documentation](https://docs.gitlab.com/ee/topics/data_seeder.html)
+[Documentation](https://docs.gitlab.com/ee/development/data_seeder.html)
 
 ## How can it be used?
 
@@ -55,13 +55,13 @@ Some examples include, but are not limited to:
 
 ## Working Group Information
 
-The [Demo & Test Data working group](/handbook/company/team/structure/working-groups/demo-test-data/) was created on January 19th, 2022 to solve the problem of having no uniform way
+The [Demo & Test Data working group](/handbook/company/working-groups/demo-test-data/) was created on January 19th, 2022 to solve the problem of having no uniform way
 of generating data to be used with testing or demoing.
 
 ### Links
 
-- [Technical Documentation](https://docs.gitlab.com/ee/topics/data_seeder.html)
+- [Technical Documentation](https://docs.gitlab.com/ee/development/data_seeder.html)
 - [Data Seeder Issue Tracker](https://gitlab.com/gitlab-org/gitlab/-/boards/3766722?label_name[]=data%20seeder)
-- [Working Group page](/handbook/company/team/structure/working-groups/demo-test-data/)
+- [Working Group page](/handbook/company/working-groups/demo-test-data/)
 - [`#data-seeder`](https://gitlab.slack.com/archives/C055Y333MM1) Slack Channel (internal)
 - [Feedback Issue](https://gitlab.com/gitlab-org/gitlab/-/issues/414671)

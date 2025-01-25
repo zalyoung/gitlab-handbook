@@ -57,7 +57,7 @@ The GitLab Design System, [Pajamas](https://design.gitlab.com), was developed to
 
 Our SVG repository manages all GitLab SVG assets by creating an SVG sprite out of icons and optimizing SVG-based illustrations.
 
-- [SVG Previewer](http://gitlab-org.gitlab.io/gitlab-svgs/)
+- [SVG Previewer](https://gitlab-org.gitlab.io/gitlab-svgs/)
 - [View the project](https://gitlab.com/gitlab-org/gitlab-svgs)
 
 ### Jobs to be Done (JTBD)
@@ -138,4 +138,4 @@ Not only do our team members create great work for the wider GitLab community, b
 - [Building Design Systems: Unify User Experiences through a Shared Design Language](https://www.amazon.com/Building-Design-Systems-Experiences-Language/dp/148424513X), by Taurie Davis and Sarrah Vesselov
 - [Craft Awesome Web Typography](https://betterwebtype.com/web-typography-book/), by Matej Latin
 - [Hemingway - Figma plugin](https://www.figma.com/community/plugin/760035865558407437/Hemingway), by Michael Le
-- [GitLab-ipsum](https://ipsum.reali.sh/), by Patrick Deuley and Jeremy Elder
+- [GitLab-ipsum](https://gitlab-com.gitlab.io/gitlab-ux/ux-foundations/gitlabipsum/), by Patrick Deuley and Jeremy Elder

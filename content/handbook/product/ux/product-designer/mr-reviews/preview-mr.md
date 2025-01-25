@@ -57,7 +57,7 @@ Additionally, building these skills has the added benefit of empowering designer
 To use Gitpod you must create a Gitpod account (free) and connect it to your GitLab
 account. If you launch Gitpod from any project on GitLab.com your accounts are
 automatically connected (see links below). If for some reason that doesn't work,
-see [how to manually connect your GitLab.com account](https://www.gitpod.io/docs/gitlab-integration#connecting-your-gitlab.com-account).
+see [how to manually connect your GitLab.com account](https://www.gitpod.io/docs/configure/authentication/gitlab#connecting-your-gitlab.com-account).
 
 - [Use Gitpod for any project](https://docs.gitlab.com/ee/integration/gitpod.html#launch-gitpod-in-gitlab)
 - [Use Gitpod for the GitLab project](https://gitlab.com/gitlab-org/gitlab-development-kit/-/blob/main/doc/howto/gitpod.md) (i.e. cloud GDK)
@@ -71,7 +71,7 @@ see [how to manually connect your GitLab.com account](https://www.gitpod.io/docs
 - [More how-to topics for GDK](https://gitlab.com/gitlab-org/gitlab-development-kit/-/blob/main/doc/howto/index.md)
 - [Check out branches](https://gitlab.com/gitlab-org/gitlab-development-kit/-/blob/main/doc/howto/gitpod.md#check-out-branches)
 - [Commit and push changes](https://gitlab.com/gitlab-org/gitlab-development-kit/-/blob/main/doc/howto/gitpod.md#commit-and-push-changes)
-- [Prevent auto-deleting workspaces](https://www.gitpod.io/docs/life-of-workspace#garbage-collection)
+- [Prevent auto-deleting workspaces](https://www.gitpod.io/docs/configure/workspaces/workspace-lifecycle#garbage-collection)
 - [Gitpod official documentation](https://www.gitpod.io/docs)
 
 #### GDK

@@ -30,7 +30,9 @@ Our hope is that the GitLab Handbook is something that others want to emulate. T
 
 ### What's Next & Why
 
-In the short term, we want to make sure the handbook is [fast and stable](https://gitlab.com/groups/gitlab-com/content-sites/-/epics/10). We also need a [long term plan](https://gitlab.com/groups/gitlab-com/-/epics/2281).
+We are focused on maintaining the handbook's fast (pipeline under 10 minutes) and stable (minimal pipeline failures) state.
+
+Anything further is under consideration.
 
 As there is no full time DRI, the following are on hold:
 
@@ -46,4 +48,4 @@ The needs of the GitLab Handbook [have outgrown what can be handled in a wiki](/
 
 Since the content is [changing quite literally every day](https://gitlab.com/gitlab-com/content-sites/handbook/-/commits/main), we are not looking to generate a digital or printed book from the GitLab Handbook content.
 
-The GitLab Handbook is not currently optimized for serving as a searchable Knowledge Base or FAQ repository similar to what you would find on [Quora](https://www.quora.com/) or [Stack Overflow](https://stackoverflow.com/).
+The GitLab Handbook is not currently optimized for serving as a searchable Knowledge Base or FAQ repository similar to what you would find on [Stack Overflow](https://stackoverflow.com/).

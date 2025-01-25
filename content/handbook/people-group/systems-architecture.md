@@ -10,7 +10,7 @@ On this page you can find an overview of all the integrations that go into and o
 ```mermaid
 flowchart TD
     A[Greenhouse]
-    B[BambooHR]
+    B[Workday]
     C[GitLab]
     D[Modern Health]
     E[Time Off by Deel]
@@ -94,30 +94,30 @@ flowchart TD
 
 ## Integrations
 
-### BambooHR
+### Workday
 
 | Service | Type of integration | Direction | Handbook link |
 | ------ | ------ | -----|----------------------|
 | ADP | TBD | TBD |TBD |
 | Lumity | TBD | TBD | TBD |
-| GitLab | API | one-way (reads from BambooHR) | [link](/handbook/people-group/engineering/employment-issues) |
-| Modern Health | SFTP Upload | one-way (reads from BambooHR) | [link](/handbook/people-group/engineering/miscellaneous#team-members-to-modern-health) |
-| LawLogix | SFTP Upload | one-way (reads from BambooHR) |[link](/handbook/people-group/engineering/miscellaneous#team-members-to-lawlogix-i9) |
+| GitLab | API | one-way (reads from Workday) | [link](/handbook/people-group/engineering/employment-issues) |
+| Modern Health | SFTP Upload | one-way (reads from Workday) | [link](/handbook/people-group/engineering/miscellaneous#team-members-to-modern-health) |
+| LawLogix | SFTP Upload | one-way (reads from Workday) |[link](/handbook/people-group/engineering/miscellaneous#team-members-to-lawlogix-i9) |
 | Okta | TBD | TBD |TBD |
 | Culture Amp | TBD | TBD |TBD |
-| Assessment Tool | API |  two-way (reads and writes from/to BambooHR) | |
-| Nominator bot | API | two-way (reads and writes from/to BambooHR) |[link](/handbook/people-group/engineering/slack-integrations#nominator) |
+| Assessment Tool | API |  two-way (reads and writes from/to Workday) | |
+| Nominator bot | API | two-way (reads and writes from/to Workday) |[link](/handbook/people-group/engineering/slack-integrations#nominator) |
 | EdCast - GitLab Learn | TBD | TBD |TBD |
-| Navex Global| SFTP Upload | one-way (reads from BambooHR) |TBD |
-| Compaas | TBD | one-way (reads from BambooHR) |TBD |
-| Navan Expense | Workato (API) | one-way (reads from BambooHR) | TBD |
-| NetSuite | Workato (API) | one-way (reads from BambooHR) | TBD |
+| Navex Global| SFTP Upload | one-way (reads from Workday) |TBD |
+| Compaas | TBD | one-way (reads from Workday) |TBD |
+| Navan Expense | Workato (API) | one-way (reads from Workday) | TBD |
+| NetSuite | Workato (API) | one-way (reads from Workday) | TBD |
 
 ### Greenhouse
 
 | Service | Type | Direction | Handbook link |
 | ------ | ------ | ---------|------------------|
-| BambooHR | API | two-way (writes and reads on both services) | [link]({{< ref "gh-bhr-sync#overview" >}}) |
+| Workday | API | two-way (writes and reads on both services) | TBD |
 | Compensation Calculator | Webhooks | one-way (Greenhouse sends webhooks)| [link](https://gitlab.com/gitlab-com/people-group/peopleops-eng/compensation-calculator/#access-to-compensation-calculator) |
 | DocuSign | API | TBD | TBD |
 | Glassdoor | API | TBD | TBD |

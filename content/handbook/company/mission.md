@@ -18,7 +18,7 @@ There are three ways you can contribute and co-create:
 
 To ensure that **everyone can contribute with GitLab** we allow anyone to create a proposal, at any time, without setup, and with confidence. Let's analyze that sentence a bit.
 
-- Anyone: Every person in the world should be able to afford great DevSecOps software. GitLab.com has free private repos and CI runners and GitLab CE is [free as in speech and as in beer](http://www.howtogeek.com/31717/what-do-the-phrases-free-speech-vs.-free-beer-really-mean/). But open source is more than a license, that is why we are [a good steward of GitLab CE](/handbook/company/stewardship/) and keep both GitLab CE and EE open to inspection, modifications, enhancements, and suggestions.
+- Anyone: Every person in the world should be able to afford great DevSecOps software. GitLab.com has free private repos and CI runners and GitLab CE is [free as in speech and as in beer](https://www.howtogeek.com/31717/what-do-the-phrases-free-speech-vs.-free-beer-really-mean/). But open source is more than a license, that is why we are [a good steward of GitLab CE](/handbook/company/stewardship/) and keep both GitLab CE and EE open to inspection, modifications, enhancements, and suggestions.
 - Create: It is a [single application](/handbook/product/categories/gitlab-the-product/single-application/) based on [convention over configuration](/handbook/product/product-principles/#convention-over-configuration).
 - Proposal: With Git, if you can read it, you can fork it to create a proposal.
 - At any time: You can work concurrently with other people, without having to wait for permission or approval from others.
@@ -73,7 +73,7 @@ Our Mission is on a 30 year [cadence](/handbook/company/cadence/#30-years).
 
 [Our purpose](/handbook/company/purpose/) is to help people **increase their lifetime earnings** through training, access to opportunities, and the DevSecOps platform.
 
-Our mission is the way we realize [our purpose](/handbook/company/purpose/). By **enabling everyone to contribute to and co-create the software that powers our world**, we increase access for people to be creators. With more contributors and more creators, we increase both the volume and velocity of innovation. More innovation drives economic progress that [benefits consumers, businesses, and the economy as a whole](https://www.ecb.europa.eu/ecb/educational/explainers/tell-me-more/html/growth.en.html). As a result, innovation both directly and indirectly increases the total volume of available opportunities and average value of each individual opportunity.
+Our mission is the way we realize [our purpose](/handbook/company/purpose/). By **enabling everyone to contribute to and co-create the software that powers our world**, we increase access for people to be creators. With more contributors and more creators, we increase both the volume and velocity of innovation. More innovation drives economic progress that [benefits consumers, businesses, and the economy as a whole](https://www.ecb.europa.eu/ecb-and-you/explainers/tell-me-more/html/growth.en.html). As a result, innovation both directly and indirectly increases the total volume of available opportunities and average value of each individual opportunity.
 
 Access to a broader set of more valuable opportunities ultimately **increases people's lifetime earnings**.
 

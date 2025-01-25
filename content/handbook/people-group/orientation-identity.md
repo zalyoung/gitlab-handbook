@@ -20,7 +20,7 @@ The reasons for creating a Gender and Sexual Orientation Identity page in the Gi
   - [HRC Transgender FAQ](https://www.hrc.org/resources/transgender-and-non-binary-faq)
 - [The Genderbread Person](https://www.itspronouncedmetrosexual.com/2018/10/the-genderbread-person-v4/)
 - [A comprehensive list of LGBTQ+ term definitions](https://www.itspronouncedmetrosexual.com/2013/01/a-comprehensive-list-of-lgbtq-term-definitions/)
-- [We Are Family Lesbian, Gay and Bisexual Glossary of Terms](https://www.wearefamilycharleston.org/lgbt-glossary-az)
+- [We Are Family Lesbian, Gay and Bisexual Glossary of Terms](https://waf.org/lgbt-glossary-az)
 - [UC Davis LGBTQIA Resource Center Glossary](https://lgbtqia.ucdavis.edu/educated/glossary)
 - [Things not to say to a trans person](https://www.youtube.com/watch?v=pvBwWeG4Rpc)
 
@@ -160,9 +160,9 @@ QUILTBAG is a comprehensive, newer term that stands for queer and questioning, u
 
 ### What's the difference between sex and gender?
 
-Sex and gender are often seen as the same thing but in reality, [sex and gender are distinct](https://www.medicalnewstoday.com/articles/232363.php).
+Sex and gender are often seen as the same thing but in reality, [sex and gender are distinct](https://www.medicalnewstoday.com/articles/232363).
 
-Sex can refer to a person's anatomy and physiology, which can include phenotype, internal and external genitalia, gonads, hormone levels, chromosomes, epigenetics, etc... Maybe people believe sex is binary (either male or female) but in reality, sex is a non-binary construct where [1 in 1500 people are born intersex](http://www.isna.org/faq/frequency).
+Sex can refer to a person's anatomy and physiology, which can include phenotype, internal and external genitalia, gonads, hormone levels, chromosomes, epigenetics, etc... Maybe people believe sex is binary (either male or female) but in reality, sex is a non-binary construct where [1 in 1500 people are born intersex](https://isna.org/faq/frequency/).
 
 Gender refers to the social norms, emotions, and behaviors that are associated with being female, male, androgynous, or others. Gender traits can vary greatly depending on the time period and cultural context. It's important to remember that gender is not an inherently natural thing, but rather a social construct that varies from society to society.
 
@@ -208,7 +208,7 @@ Simple, just ask :)
 
 Asking for someone's pronouns is the same as asking for their name. In the same way that you wouldn't assume what someone's name is and start calling them by a name that wasn't theirs, you shouldn't assume someone's pronouns.
 
-In English, there are [many common pronouns](https://uwm.edu/lgbtrc/support-resources/gender-pronouns/) such as the singular they/them and ze/hir/hirs. To learn more see this [Time article on pronouns](http://time.com/4327915/gender-neutral-pronouns/).
+In English, there are [many common pronouns](https://uwm.edu/lgbtrc/support-resources/gender-pronouns/) such as the singular they/them and ze/hir/hirs. To learn more see this [Time article on pronouns](https://time.com/4327915/gender-neutral-pronouns/).
 
 For more information on pronouns, check out [Pronoun Guidance and Information]({{< ref "pronouns" >}}).
 

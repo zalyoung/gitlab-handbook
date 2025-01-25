@@ -14,7 +14,7 @@ When it comes to work, [Harvard Business Review](https://hbr.org/2020/10/use-gra
 1. Helps with team bonding
 1. Positively impacts our ability to make hard decisions and express self-control
 1. Increased retention
-   - 63% of employees who are recognized are very unlikely to look for a new job ([source](https://www.hrtechnologist.com/articles/rewards-and-recognition/employee-recognition-and-retention-statistics/#))
+   - 63% of employees who are recognized are very unlikely to look for a new job ([source](https://www.spiceworks.com/hr/engagement-retention/articles/employee-recognition-and-retention-statistics/))
 1. Increased trust
    - 50% of employees believe being thanked by managers not only improved their relationship but also built trust with their managers/executives ([source](https://web.archive.org/web/20230131145032/https://www.tinypulse.com/blog/sk-employee-recognition-stats))
 
@@ -89,4 +89,4 @@ You can find more guidance on recognition and what is "recognition worthy" at Gi
 
 Some additional resources include:
 
-1. [The Positive Power of Gratitude for Remote Teams](https://www.heykona.com/post/the-positive-power-of-gratitude-for-remote-teams) - Kona Blog
+1. [The Positive Power of Gratitude for Remote Teams](https://www.heykona.com/blog/the-positive-power-of-gratitude-for-remote-teams) - Kona Blog

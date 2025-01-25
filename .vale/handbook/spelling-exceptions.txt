@@ -47,6 +47,7 @@ ARNs
 Artifactory
 Asana
 Asciidoctor
+ASCIIArt
 asdf
 ASMs
 Assembla
@@ -114,8 +115,10 @@ blockquote
 blockquoted
 blockquotes
 blockquoting
+Bluesky
 boolean
 booleans
+bootcamp
 Bootsnap
 bot
 bot's
@@ -156,6 +159,7 @@ cardpane
 Casdoor
 CDFs
 CDNs
+CDot
 CE
 CentOS
 Ceph
@@ -223,6 +227,7 @@ config
 Configs
 Consul
 Contentful
+contributable
 Coronavirus
 Corosync
 corpuses
@@ -264,6 +269,7 @@ CUnit
 customappsso
 CVEs
 CWEs
+cyber
 cybersecurity
 CycloneDX
 Dangerfile
@@ -280,6 +286,7 @@ datestamp
 datetime
 daycares
 DBeaver
+dbt
 Debian
 debloating
 decodable
@@ -332,6 +339,10 @@ dialogs
 Diffblue
 disambiguates
 discoverability
+disempower
+disempowered
+disempowering
+disempowers
 dismissable
 Disqus
 Distroless
@@ -365,7 +376,10 @@ Dreamweaver
 DRIs
 DSLs
 DSN
+duplicative
 Dynatrace
+dyscalculia
+dyspraxia
 EBAs
 ebook
 ebooks
@@ -422,6 +436,7 @@ Figma
 Filebeat
 Filestore
 financials
+findability
 Finicity
 Finnhub
 Fio
@@ -456,6 +471,8 @@ Fullstack
 fuzzer
 fuzzing
 Gainsight
+gameday
+gamedays
 Gantt
 Gartner
 Gbps
@@ -498,6 +515,7 @@ GPUs
 Gradle
 Grafana
 Grafonnet
+Grammarly
 gravatar
 Grubhub
 Grype
@@ -539,7 +557,10 @@ hotspots
 HTMLHint
 http
 https
+Hugo
+Hugolint
 Hugomods
+hypercare
 hypergrowth
 hyperparameter
 hyperparameters
@@ -554,10 +575,14 @@ IIFEs
 Immer
 iMovie
 impactful
+incentivized
+incentivizes
 incentivizing
 inclusivity
+inexhaustive
 inflector
 inflectors
+influencer
 infradev
 Ingress
 initializer
@@ -602,6 +627,7 @@ Jupyter
 JupyterHub
 JWT
 JWTs
+kaizen
 Kaminari
 kanban
 kanbans
@@ -655,6 +681,7 @@ livestreaming
 livestreams
 LLM
 LLMs
+localizability
 lockfile
 lockfiles
 Lodash
@@ -692,6 +719,7 @@ Maniphest
 Markdown
 markdownlint
 Marketo
+Mastodon
 matcher
 matchers
 Matomo
@@ -764,6 +792,9 @@ negatable
 Neovim
 Netlify
 Netsuite
+neurodevelopment
+neurodevelopmental
+neurodivergence
 neurodivergent
 neurodiverse
 neurodiversity
@@ -776,6 +807,7 @@ Nokogiri
 nosniff
 noteable
 noteables
+notetakers
 npm
 NSOs
 NuGet
@@ -857,6 +889,8 @@ Pipfiles
 Piwik
 Pizzatime
 plaintext
+podcaster
+podcasters
 podman
 Poedit
 polyfill
@@ -892,6 +926,7 @@ prepending
 prepends
 prepopulate
 prepopulated
+preseed
 presentationals
 presenteeism
 Prettifier
@@ -930,10 +965,12 @@ rbenv
 rbspy
 rbtrace
 Rclone
+RCEs
 Rdoc
 reachability
 readme
 Realplayer
+rearchitecting
 reauthenticate
 reauthenticated
 reauthenticates
@@ -988,6 +1025,7 @@ repurpose
 repurposes
 repurposing
 repurposing
+reputational
 requestee
 requesters
 requeue
@@ -1017,6 +1055,7 @@ roadmaps
 rock
 rollout
 rollouts
+Rolly
 routable
 RPCs
 RSpec
@@ -1053,8 +1092,10 @@ scatterplot
 scatterplots
 schedulable
 Schemastore
+screenshare
 scriptable
 scrollable
+SDGs
 SDKs
 SDRs
 sed
@@ -1062,6 +1103,7 @@ segmentations
 SEGs
 SELinux
 Semgrep
+Semver
 Sendbird
 Sendinblue
 Sendmail
@@ -1086,6 +1128,7 @@ shortcodes
 Sidekiq
 Sigstore
 Sijbrandij
+siloed
 Silverlight
 Siri
 Sisense
@@ -1162,6 +1205,8 @@ submodule's
 subnet
 subnets
 subnetting
+subpage
+subpages
 subpath
 subproject
 subprojects
@@ -1208,6 +1253,7 @@ Tamland
 tanuki
 taskscaler
 tcpdump
+TeamOps
 teardown
 templated
 Tesorio
@@ -1226,6 +1272,8 @@ timelogs
 timesheet
 timesheets
 Tiptap
+TMAGs
+TMRGs
 ToDo
 todos
 tokenizer
@@ -1241,7 +1289,9 @@ tooltip
 tooltips
 touchpoint
 touchpoints
+TPMs
 transactionally
+transcreation
 transformative
 transpile
 transpiled
@@ -1250,6 +1300,7 @@ transpiling
 Trello
 Trendline
 triaged
+triager
 triages
 triaging
 Trivy
@@ -1281,6 +1332,7 @@ unassigning
 unassigns
 unban
 unbans
+unblocker
 uncached
 uncheck
 unchecked
@@ -1290,11 +1342,13 @@ uncomment
 uncommented
 uncommenting
 unconference
+unconfident
 uncordon
 underperform
 underperformance
 underperformed
 underperforming
+underserved
 unencode
 unencoded
 unencoder
@@ -1306,6 +1360,7 @@ unfollowed
 unfollows
 Unicorn
 unindexed
+unintuitive
 unlink
 unlinking
 unlinks
@@ -1318,6 +1373,7 @@ unmerges
 unmerging
 unmocked
 unmoderated
+unmute
 unoptimize
 unoptimized
 unoptimizes
@@ -1325,6 +1381,7 @@ unoptimizing
 unparsable
 unpatched
 unpause
+unpredictabilities
 unprioritized
 unprotect
 unprotected
@@ -1377,6 +1434,7 @@ unverify
 unverifying
 uploader
 uploaders
+upskilling
 upstreams
 upvote
 upvoted
@@ -1407,6 +1465,7 @@ VPs
 VSCodium
 Vue
 Vuex
+Vulnmapper
 waitlist
 walkthrough
 walkthroughs

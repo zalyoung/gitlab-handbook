@@ -112,10 +112,10 @@ classDiagram
 
 Not included in the Pipeline Execution group's domain:
 
-- Secrets Management, see the [direction page](https://about.gitlab.com/direction/release/secrets_management/)
+- Secrets Management, see the [direction page](https://about.gitlab.com/direction/software_supply_chain_security/pipeline_security/secrets_management/)
 - Pipeline Authoring, see the [direction page](https://about.gitlab.com/direction/verify/pipeline_composition/)
-- Compliance in Pipelines, see the [direction page](https://about.gitlab.com/direction/govern/compliance/compliance-management/)
-- [Job artifacts: storage and management of artifacts is the gateway for many CI/CD features](https://about.gitlab.com/direction/verify/build_artifacts/)
+- Compliance in Pipelines, see the [direction page](https://about.gitlab.com/direction/software_supply_chain_security/compliance/compliance-management/)
+- [Job artifacts: storage and management of artifacts is the gateway for many CI/CD features](https://about.gitlab.com/direction/verify/)
 
 ---
 

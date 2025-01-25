@@ -33,7 +33,7 @@ The services maturity framework provides for 5 maturity levels for offerings: pl
 
 ## Service Offering Framework
 
-In general, you can find our publicly marketed services on our [service catalog page](https://about.gitlab.com/services) and the delivery kits at: [Consulting](https://gitlab.com/gitlab-org/professional-services-automation/delivery-kits) and [Education](https://gitlab.com/gitlab-com/customer-success/professional-services-group/trainings)
+In general, you can find our publicly marketed services on our [service catalog page](https://about.gitlab.com/services/) and the delivery kits at: [Consulting](https://gitlab.com/gitlab-org/professional-services-automation/delivery-kits) and [Education](https://gitlab.com/gitlab-com/customer-success/professional-services-group/trainings)
 
 ## New Service Process
 
@@ -78,7 +78,7 @@ The process in which Technical Architects, Engagement Managers, and Practice Man
 
 - **Update Marketing Pages**: Practice updates the marketing pages as needed.
   - [Service catalog](https://about.gitlab.com/services/catalog/)
-  - Update [about.gitlab.com/services](https://about.gitlab.com/services) page in [Contentful](https://be.contentful.com/)
+  - Update [about.gitlab.com/services](https://about.gitlab.com/services/) page in [Contentful](https://be.contentful.com/)
   - Update [Professional Services Resources Hub Page](https://gitlab.highspot.com/items/6442b9fc37fc53163e5cb7d9) in HighSpot.
 
 ### Ongoing Enablement Sessions
@@ -111,16 +111,16 @@ The process in which Technical Architects, Engagement Managers, and Practice Man
 | Education | Standard | [Asynchronous eLearning](https://gitlab.edcast.com) | [Education](/handbook/customer-success/professional-services-engineering/education-services/) | Minimal |
 | Education | Standard | [GitLab Certification](/handbook/customer-success/professional-services-engineering/gitlab-technical-certifications/) | [Education](/handbook/customer-success/professional-services-engineering/education-services/) | Viable |
 | Education | Custom | [Custom Education Content Creation](/handbook/customer-success/professional-services-engineering/instruct-dev/) | [Education](/handbook/customer-success/professional-services-engineering/education-services/) | Complete |
-| Consulting | Implementation | [Rapid Results (Self Managed)](https://about.gitlab.com/services/rapid-results/self-managed/) | [rr-self-managed](https://gitlab.com/gitlab-com/customer-success/professional-services-group/global-practice-development/implementation/rapid-results-self-managed) | Viable |
-| Consulting | Implementation | [Rapid Results (SaaS)](https://about.gitlab.com/services/rapid-results/dot-com/) | [rr-saas](https://gitlab.com/gitlab-com/customer-success/professional-services-group/global-practice-development/implementation/rapid-results-com) | Viable |
-| Consulting | Implementation | [Custom implementation](https://about.gitlab.com/services/implementation/enterprise/) | [implementation-template](https://gitlab.com/gitlab-com/customer-success/professional-services-group/global-practice-development/implementation/implementation-template) | Complete |
-| Consulting | Implementation | [Readiness Assessment](https://about.gitlab.com/services/implementation/health-check/) | [readiness-assessment](https://gitlab.com/gitlab-com/customer-success/professional-services-group/global-practice-development/implementation/readiness-assessment) | Complete |
-| Consulting | Migration | [SCM Migration](https://about.gitlab.com/services/migration/enterprise/) | [migration-template](https://gitlab.com/gitlab-com/customer-success/professional-services-group/global-practice-development/migration/migration-template) | Complete |
-| Consulting | Migration | [CI Migration](https://about.gitlab.com/services/migration/enterprise/ci-cd-migration/) | TBD | Minimal |
-| Consulting | Migration | [Migration+](https://about.gitlab.com/services/migration/migration-plus/) | [migration-template](https://gitlab.com/gitlab-com/customer-success/professional-services-group/global-practice-development/migration/migration-template) | Viable |
-| Consulting | Integration | [Jenkins](https://about.gitlab.com/services/implementation/integration/) | TBD | Complete |
-| Consulting | Integration | [LDAP, SAML, SSO](https://about.gitlab.com/services/implementation/integration/) | TBD | Complete |
-| Consulting | Integration | [Jira](https://about.gitlab.com/services/implementation/integration/) | TBD | Complete |
+| Consulting | Implementation | [Rapid Results (Self Managed)](https://about.gitlab.com/services/catalog/) | [rr-self-managed](https://gitlab.com/gitlab-com/customer-success/professional-services-group/global-practice-development/implementation/rapid-results-self-managed) | Viable |
+| Consulting | Implementation | [Rapid Results (SaaS)](https://about.gitlab.com/services/catalog/) | [rr-saas](https://gitlab.com/gitlab-com/customer-success/professional-services-group/global-practice-development/implementation/rapid-results-com) | Viable |
+| Consulting | Implementation | [Custom implementation](https://about.gitlab.com/services/catalog/) | [implementation-template](https://gitlab.com/gitlab-com/customer-success/professional-services-group/global-practice-development/implementation/implementation-template) | Complete |
+| Consulting | Implementation | [Readiness Assessment](https://about.gitlab.com/services/catalog/health-check/) | [readiness-assessment](https://gitlab.com/gitlab-com/customer-success/professional-services-group/global-practice-development/implementation/readiness-assessment) | Complete |
+| Consulting | Migration | [SCM Migration](https://about.gitlab.com/services/catalog/enterprise/) | [migration-template](https://gitlab.com/gitlab-com/customer-success/professional-services-group/global-practice-development/migration/migration-template) | Complete |
+| Consulting | Migration | [CI Migration](https://about.gitlab.com/services/catalog/enterprise/ci-cd-migration/) | TBD | Minimal |
+| Consulting | Migration | [Migration+](https://about.gitlab.com/services/#migration-services) | [migration-template](https://gitlab.com/gitlab-com/customer-success/professional-services-group/global-practice-development/migration/migration-template) | Viable |
+| Consulting | Integration | [Jenkins](https://about.gitlab.com/services/catalog/) | TBD | Complete |
+| Consulting | Integration | [LDAP, SAML, SSO](https://about.gitlab.com/services/catalog/) | TBD | Complete |
+| Consulting | Integration | [Jira](https://about.gitlab.com/services/catalog/) | TBD | Complete |
 | Consulting | Advisory | [CI/CD Transformation](https://docs.google.com/presentation/d/1gCULkwewztptWPO4wnr6xU-E3B_C7oVqVAdT-yAc0SE/edit) | TBD | Planned |
 | Consulting | Advisory | [General Advisory Services](https://about.gitlab.com/services/advisory/) | [Advisory Services](https://gitlab.com/gitlab-com/customer-success/professional-services-group/global-practice-development/consulting) | Minimal |
 | Consulting | Advisory | Agile/Plan Workflow Advisory | [Agile/Plan Advisory](https://gitlab.com/gitlab-com/customer-success/professional-services-group/global-practice-development/consulting/workflow-agile-ceremonies) | Minimal

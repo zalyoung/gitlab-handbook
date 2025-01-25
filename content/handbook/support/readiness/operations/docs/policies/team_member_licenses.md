@@ -41,7 +41,7 @@ The process for these is:
 does not exceed 1 year. If it does, we cannot proceed with the request until
 the requester changes that.
 
-![Creating a license via staging cDot](/handbook/support/readiness/operations/images/generating_license_via_staging.gif)
+![Creating a license via staging cDot](/images/support/readiness/operations/generating_license_via_staging.gif)
 
 1. Login to the
    [staging cDot app](https://customers.staging.gitlab.com/admins/sign_in) via

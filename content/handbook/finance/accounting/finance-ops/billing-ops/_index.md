@@ -45,11 +45,11 @@ Please see the internal [Wiki](https://gitlab.com/gitlab-com/Finance-Division/fi
 Avoid contacting any Billing team members [directly via Slack](/handbook/communication/#avoid-direct-messages). Please tag `@billing-ops` in the #Finance channel.
 
 - Email: `billing@gitlab.com`
-- Salesforce: `@billing-ops`
+- Salesforce: Please follow the Requesting Internal Support workflow outlined [here,](/handbook/sales/field-operations/requesting-internal-support/#salesforce-workflow) this will ensure that your inquiry will be routed to the Billing Operations team.
 
-**Questions on a Quote?** Please contact `@sales-support`
+Please do not tag individual team members on opportunities to avoid potential delays.
 
-Do not tag individual team members in opportunities. Using `@billing-ops` will ensure that your inquiry is supported quickly and will avoid any potential delays.
+**Questions on a Quote?** Please contact the Deal Desk team by following the steps oulined [here.](/handbook/sales/field-operations/requesting-internal-support/#salesforce-workflow)
 
 ## Standard Operating Process
 
@@ -91,7 +91,7 @@ See also: [Business Operations - Salesforce Reference](/handbook/sales/field-ope
 
 ### Zuora
 
-[Zuora](https://gitlab.com/gitlab-org/customers-gitlab-com/-/tree/staging/doc/architecture#zuora), a leader in the subscription management technology space, provides a platform which allows automation of subscription operations for businesses. We use Zuora's platform at GitLab to integrate with other platforms for billing and CRM, automate subscriptions flows and assist with reporting. The platform is considered the source of truth for many important business objects, like the product catalog, subscriptions, invoices, and more. See the **[Zuora Billing Tech Stack Guide](https://internal.gitlab.com/handbook/finance/accounting/finance-ops/billing-ops/zuora-billing/)** for details regarding Zuora Billing implementation, including the [Zuora Object Model](https://knowledgecenter.zuora.com/BB_Introducing_Z_Business/D_Zuora_Business_Objects_Relationship) and integrations with systems like CustomersDot.
+[Zuora](https://gitlab.com/gitlab-org/customers-gitlab-com/-/tree/staging/doc/architecture#zuora), a leader in the subscription management technology space, provides a platform which allows automation of subscription operations for businesses. We use Zuora's platform at GitLab to integrate with other platforms for billing and CRM, automate subscriptions flows and assist with reporting. The platform is considered the source of truth for many important business objects, like the product catalog, subscriptions, invoices, and more. See the **[Zuora Billing Tech Stack Guide](https://internal.gitlab.com/handbook/finance/accounting/finance-ops/billing-ops/zuora-billing/)** for details regarding Zuora Billing implementation, including the [Zuora Object Model](https://knowledgecenter.zuora.com/Get_Started/Zuora_business_object_model) and integrations with systems like CustomersDot.
 
 - **Zuora is used for the following:**
   - Billing of all customer accounts

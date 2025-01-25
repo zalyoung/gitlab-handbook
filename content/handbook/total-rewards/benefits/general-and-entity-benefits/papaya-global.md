@@ -93,7 +93,7 @@ A team member is ineligible for a paid sick leave in the following situations:
 A female worker is entitled to a maternity leave of 60 days, out of which:
 
 - 45 days will be fully-paid leave
-- 15 days will be half-paid leaveduring the probation period
+- 15 days will be half-paid leave during the probation period
 
 A female worker may apply for her maternity leave up to 30 days prior to the expected date of delivery.
 
@@ -109,7 +109,7 @@ To apply for leave, please enter the dates into Workday and select the `Parental
 
 Team members of the private sector are entitled to a parental leave of 5 working days from the day of the birth of their child to six months. The parental leave is a paid leave that can be applied for by both mother and father of the baby.
 
-To apply for leave, please enter the dates intoWorkday and select the `Parental Leave` label. The Absence Management team will reach out to you with more information.
+To apply for leave, please enter the dates into Workday and select the `Parental Leave` label. The Absence Management team will reach out to you with more information.
 
 ### Sabatical Leave (National Service)
 

@@ -29,13 +29,13 @@ Team members registered to the Social Insurance are also registered with the Emp
 
 - Members covered by the Social general insurance system "Kyokai Kenpo" are entitled to a benefit of an annual health check up in any of the hospitals designated under "Kyokai Kenpo". The Japanese team members can also have a checkup in a non-designated institution.
 - In both the cases the team members can expense up to 15000 JPY against the actual bills via Navan Expense.
-  - The invoice must be uploaded to Navan Expense to validate the total remiburseable amount. Please do not upload any personal medican data, only the invoice with the total amount due. If you have any questions or concerns please reach out to Total Rewards.
+  - The invoice must be uploaded to Navan Expense to validate the total reimbursable amount. Please do not upload any personal medican data, only the invoice with the total amount due. If you have any questions or concerns please reach out to Total Rewards.
 
 ### GitLab GK Leave Policy
 
 #### Sick Leave
 
-- When a person is unable to work because of injury or sickness and GitLab provides no pay, the Health Insurance Scheme provides 60% of the standard monthly remuneration (determined on the basis of the insured person's basic monthly salary/wage) as a sickness or injury benefit from the fourth day, for up to 18 months.
+- When a person is unable to work because of injury or sickness and GitLab provides no pay, team members are allowed to use their statutorily accrued vacation but are not required to. They are also eligible for Japan's government Health Insurance Scheme which provides 60% of the standard monthly remuneration (determined on the basis of the insured person's basic monthly salary/wage) as a sickness or injury benefit from the fourth day, for up to 18 months. Team members will need to apply for this [here](https://www.ibmjapankenpo.jp/eng/member/application/rest_b.html). Per GitLab's work rules, team members with less than 5 years of service are entitled to 3 months of job protected leave.
 - Team members must designate any time off for illness as `Out Sick` in Workday to ensure that time off is properly tracked. In the event that a team member is out sick for greater than three consecutive calendar days, the team member must then follow the process with regard to [Communicating Illness-Related Leave]({{< ref "paid-time-off#communicating-illness-related-leave" >}}).
 
 #### Annual/Vacation Leave

@@ -1,5 +1,6 @@
 ---
 title: GitLab the Product
+description: "About GitLab the product"
 ---
 
 {{% include "includes/product-handbook-links.md" %}}
@@ -70,8 +71,8 @@ Naming new features or [renaming existing features](https://docs.gitlab.com/ee/d
 
 #### Factors in picking a name
 
-- It should clearly express what the feature is, in order to avoid the [AWS naming situation](https://www.expeditedssl.com/aws-in-plain-english).
-- It should follow [usability heuristics](http://www.designprinciplesftw.com/collections/10-usability-heuristics-for-user-interface-design) when in doubt.
+- It should clearly express what the feature is, in order to avoid the [AWS naming situation](https://expeditedsecurity.com/aws-in-plain-english/).
+- It should follow [usability heuristics](https://www.designprinciplesftw.com/collections/10-usability-heuristics-for-user-interface-design) when in doubt.
 - It should be common in the industry.
 - It should not overlap with any other existing concepts in GitLab.
 - It should have as few words as possible (so people won't use a shortened name).
@@ -138,7 +139,7 @@ All the above can be achieved by iteratively improving existing roles.
 
 ### Security Paradigm
 
-You can now find our [security paradigm](https://about.gitlab.com/direction/secure/#security-paradigm) on the [Secure Strategy](https://about.gitlab.com/direction/secure/) page.
+You can now find our [security paradigm](https://about.gitlab.com/direction/application_security_testing/#security-paradigm) on the [Secure Strategy](https://about.gitlab.com/direction/application_security_testing/) page.
 
 Also see our [Secure Team engineering handbook](/handbook/engineering/development/sec/secure/).
 

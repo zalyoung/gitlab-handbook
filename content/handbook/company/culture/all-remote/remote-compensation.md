@@ -17,7 +17,7 @@ While there are certain complexities to paying team members who are spread acros
 
 {{< youtube "Yr2do8A38r0" >}}
 
-In the above [GitLab Unfiltered](https://www.youtube.com/channel/UCMtZ0sc1HHNtGGWZFDRTh5A) video, GitLab co-founder and CEO Sid Sijbrandij discusses the logistics of hiring remote team members with [Proof](https://prooftrading.com/) CEO [Daniel Aisen](https://twitter.com/dcaisen).
+In the above [GitLab Unfiltered](https://www.youtube.com/channel/UCMtZ0sc1HHNtGGWZFDRTh5A) video, GitLab co-founder Sid Sijbrandij discusses the logistics of hiring remote team members with [Proof](https://prooftrading.com/) CEO [Daniel Aisen](https://twitter.com/dcaisen).
 
 Compensating people in a variety of countries isn't easy, and there's no blanket solution. However, as GitLab grows, it's able to incorporate in more countries. This allows us to be a traditional employer, paying local team members directly.
 
@@ -33,7 +33,7 @@ The preference is for team members and future team members to be paid in their l
 
 GitLab endeavors to [pay local rates]({{< ref "compensation#paying-local-rates" >}}) as opposed to paying a San Francisco wage to everyone in the company, regardless of their location.
 
-Our co-founder and CEO Sid Sijbrandij discusses this in a blog post entitled "[Why GitLab pays local rates](https://about.gitlab.com/blog/2019/02/28/why-we-pay-local-rates/)."
+Our co-founder Sid Sijbrandij discusses this in a blog post entitled "[Why GitLab pays local rates](https://about.gitlab.com/blog/2019/02/28/why-we-pay-local-rates/)."
 
 > If we pay everyone the San Francisco wage for their respective roles, our compensation costs would increase greatly, and we would be forced to hire a lot fewer people. Then we wouldn't be able to produce as much as we would like. If we started paying everyone the lowest rate possible, we would not be able to retain the people we want to keep.
 

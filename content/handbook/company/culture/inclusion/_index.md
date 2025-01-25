@@ -11,7 +11,7 @@ description: "Diversity, Inclusion & Belonging is fundamental to the success of 
 Diversity, Inclusion & Belonging is fundamental to the success of GitLab.  We include it in every way possible and in all that we do.  We strive for a transparent environment where all globally dispersed voices are heard and welcomed.  We strive for an environment where people can show up as their full selves each day and can contribute to their best ability.  And with over 100,000 organizations utilizing GitLab across the globe, we strive for a team that is representative of our users.
 
 Diversity complements our other [values](/handbook/values/), specifically Collaboration, Efficiency and Results.
-And diversity in our leadership [supports innovation](https://www.bcg.com/en-us/publications/2018/how-diverse-leadership-teams-boost-innovation.aspx), [promotes better decision making](https://www.cloverpop.com/hacking-diversity-with-inclusive-decision-making-white-paper) and [improves financial results](https://www.mckinsey.com/capabilities/people-and-organizational-performance/our-insights/why-diversity-matters).
+And diversity in our leadership [supports innovation](https://www.bcg.com/publications/2018/how-diverse-leadership-teams-boost-innovation), [promotes better decision making](https://www.cloverpop.com/hacking-diversity-with-inclusive-decision-making-white-paper) and [improves financial results](https://www.mckinsey.com/capabilities/people-and-organizational-performance/our-insights/why-diversity-matters).
 
 ## GitLab's Diversity Inclusion and Belonging Mission
 
@@ -37,7 +37,7 @@ Sometimes we can see things that make us diverse and sometimes we can't. We beli
 
 The context is "at GitLab" or "in a specific department or team at GitLab."
 This term is generally used in the context of reporting on how GitLab is working on understanding and improving the sourcing, interviewing, hiring, and retention of those who either want to work or currently work at GitLab.
-Institutes like the [National Science Foundation](https://www.nsf.gov/mps/dmr/diversity.jsp) use the word "underrepresented" when discussing research around diversity so we have chosen to use it as well in order to be able to set goals around the data we have and understand where we need to work harder.
+Institutes like the [National Science Foundation](https://new.nsf.gov/mps/dmr/workforce-development) use the word "underrepresented" when discussing research around diversity so we have chosen to use it as well in order to be able to set goals around the data we have and understand where we need to work harder.
 
 - A single person **should not** be referred to as a "diverse person" or a "diversity hire" which would imply they are not included in the current community or that they are only employed because of a factor that is not directly related to their skills and their ability to do their job.
 - People should not be singled out or "othered" by labels with cold terminology in personal interactions.
@@ -46,7 +46,7 @@ For additional information about how GitLab uses this data to make progress, ple
 
 **Inclusion** is the ability to recognize, respect, and value differences in those around us.  It focuses on the action and understanding of what makes us diverse and working towards building a diverse team and creating welcoming workplace. It requires skills such as empathy, openness, listening, etc.  This lays the foundation of an inclusive mindset.  The foundation of understanding gives way to the actions and being intentional about creating policies and practices that embrace diversity that in the end change the overall company culture to create an environment of inclusion. Inclusion also means being aware of both [positive and negative biases]({{< ref "unconscious-bias" >}}) and how those biases impact who we hire, work with, and retain.
 
-GitLab believes that many perspectives coming together creates a more innovative environment to work in with more satisfied teammates, leading to a better product and increased profitability.
+GitLab believes that many perspectives coming together creates a more innovative environment to work in with more satisfied team members, leading to a better product and increased profitability.
 
 **Belonging** is a feeling that your insights and contributions are valued. It goes back to team members feeling they can bring their full selves to work. It's not enough to simply include people to have a "seat at the table", but it's important to amplify everyone's voices, remove barriers and appreciate each others for their unique backgrounds.
 Embracing inclusion may increase the **sense of belonging**. Team members become more engaged and are invested in the work they are doing, because they are able to see themselves in the work being accomplished with the company overall.
@@ -187,7 +187,7 @@ In order to more efficiently scale this initiative at GitLab, we would *love* to
 
 ### Stay Interviews or Team Member Experience Interviews
 
-The stay interview with Black Team Members pilot program was developed as part of feedback from the Reverse AMA discussions with Sid. It was mentioned that "stay" interviews might be helpful in determining retention indicators for underrepresented groups.
+The stay interview with Black Team Members pilot program was developed as part of feedback from the Reverse AMA discussions with the CEO. It was mentioned that "stay" interviews might be helpful in determining retention indicators for underrepresented groups.
 
 ### Inclusive benefits
 
@@ -195,7 +195,7 @@ We list our [Pregnancy & Maternity Care]({{< ref "inc-benefits-us#pregnancy--mat
 
 ### Inclusive language
 
-In our [GitLab Values](/handbook/values/#inclusive-language--pronouns) we list: 'Use inclusive language. For example, prefer "Hi everybody" or "Hi people" to "Hi guys". And speak about courage instead of [aggression](https://www.huffingtonpost.com/2015/06/02/textio-unitive-bias-software_n_7493624.html). Another example is to avoid terms like "gossip" that have [negative gender connotations](https://inthesetimes.com/article/the-subversive-feminist-power-of-gossip). Also see the note in the [management section of the leadership page]({{< ref "structure#management-group" >}}) to avoid military analogies.
+In our [GitLab Values](/handbook/values/#inclusive-language--pronouns) we list: 'Use inclusive language. For example, prefer "Hi everybody" or "Hi people" to "Hi guys". And speak about courage instead of [aggression](https://www.huffpost.com/entry/textio-unitive-bias-software_n_7493624). Another example is to avoid terms like "gossip" that have [negative gender connotations](https://inthesetimes.com/article/the-subversive-feminist-power-of-gossip). Also see the note in the [management section of the leadership page]({{< ref "structure#management-group" >}}) to avoid military analogies.
 
 - For an additional resource, we also have a presentation on [Inclusive Language](https://docs.google.com/presentation/d/186RK9QqOYxF8BmVS15AOKvwFpt4WglKKDR7cUCeDGkE/edit?usp=sharing)
 
@@ -229,7 +229,7 @@ At GitLab, we are proud to make reasonable accommodations to the known disabilit
 
 #### Related Disability Legislation
 
-- [United Nations Convention on the Rights of Persons with Disabilities (CRPD)](https://www.un.org/development/desa/disabilities/convention-on-the-rights-of-persons-with-disabilities.html)
+- [United Nations Convention on the Rights of Persons with Disabilities (CRPD)](https://social.desa.un.org/issues/disability/crpd/convention-on-the-rights-of-persons-with-disabilities-crpd)
 - [Global Disability Legislation](https://williamsav.com/wp-content/uploads/2020/06/Global_summary_of_disability_leg.pdf)
 
 ### United States Veteran Inclusion
@@ -251,7 +251,7 @@ The options of this field are:
 
 Above this field, we have a section titled `Veteran Status` that we ask our US-based team members to review and also complete during the onboarding process, if it applies to them and if they so wish. The reason we ask is because it is a legal requirement in the United States for us to request and document this information. We encourage our US-based GitLab team members to self-disclose their Veteran Status in our HRIS without any fear of judgment or negative consequences, but it is always optional. Again, all veteran status data is completely confidential, and only requested for mandatory reporting purposes.
 
-If you are a team member on a GitLab Inc or Federal contract and a disabled veteran you may request a "reasonable accommodation." A reasonable accommodation is one that allows you to perform your job, and must be provided by GitLab unless doing so would cause GitLab significant difficulty or expense. A reasonable accommodation does not change essential job functions. GitLab can choose the type of reasonable accommodation that will be made available; however, the accommodation must be effective. More information on how to request a reasonable accommodation is available [here](https://www.dol.gov/ofccp/posters/ReasonableAccommodationPocketCard/index.htm). Please review the [reasonable accommodation](/handbook/people-policies/inc-usa#reasonable-accommodation) handbook section if you would like an accommodation due to your veteran status.
+If you are a team member on a GitLab Inc or Federal contract and a disabled veteran you may request a "reasonable accommodation." A reasonable accommodation is one that allows you to perform your job, and must be provided by GitLab unless doing so would cause GitLab significant difficulty or expense. A reasonable accommodation does not change essential job functions. GitLab can choose the type of reasonable accommodation that will be made available; however, the accommodation must be effective. More information on how to request a reasonable accommodation is available [here](https://www.dol.gov/agencies/ofccp/compliance-assistance/outreach/reasonable-accomodation-pocket-card). Please review the [reasonable accommodation](/handbook/people-policies/inc-usa#reasonable-accommodation) handbook section if you would like an accommodation due to your veteran status.
 
 ### Diversity, Inclusion & Belonging Learning & Development
 
@@ -262,7 +262,7 @@ If you are a team member on a GitLab Inc or Federal contract and a disabled vete
   - With many others to increase your knowledge on DIB Subjects
 - [Live Inclusion training](https://www.youtube.com/watch?v=gsQ2OsmgqVM&feature=youtu.be)
 - [Live Ally training](https://www.youtube.com/watch?v=wwZeFjDc4zE&feature=youtu.be)
-- [Delivering Through Diversity](https://www.mckinsey.com/business-functions/people-and-organizational-performance/our-insights/delivering-through-diversity) McKinsey and Company research on Diversity and its value.
+- [Delivering Through Diversity](https://www.mckinsey.com/capabilities/people-and-organizational-performance/our-insights/delivering-through-diversity) McKinsey and Company research on Diversity and its value.
  To earn badges and save your responses, you'll need to sign up! Use your GitLab address to sign in using Google+.
 - To be truly inclusive is to be aware of your biases as well as strategies for stopping the effects of those biases. As part of our efforts, we recommend everyone to partake in [the Harvard project Implicit test](https://implicit.harvard.edu/implicit/takeatest.html) which focuses on the hidden causes of everyday discrimination.
 

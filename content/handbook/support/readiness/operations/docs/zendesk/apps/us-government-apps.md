@@ -16,7 +16,7 @@ App information:
 - This application was developed by
   [Zendesk](https://www.zendesk.com/marketplace/partners/zendesk/) and is
   available in the
-  [Zendesk Marketplace](https://www.zendesk.com/apps/support/advanced-search/).
+  [Zendesk Marketplace](https://www.zendesk.com/marketplace/apps/support/198393/advanced-search/).
 
 ## Architecture Diagrams
 
@@ -79,25 +79,6 @@ App information:
 - This application was developed in-house and can be found
   [GitLab duo project](https://gitlab.com/gitlab-support-readiness/zendesk-us-government/apps/gitlab-duo).
 
-## Out of Office
-
-<sup>*Introduced via [support-team-meta#4303](https://gitlab.com/gitlab-com/support/support-team-meta/-/issues/4303)*</sup>
-
-This will enable an agent to mark when they are out of office in Zendesk, which
-then updates tickets and makes it visible in the views.
-
-Managers are also able to do this for their reports.
-
-App information:
-
-- Located in the navbar
-- Restricted by Group:
-  - Support
-  - Support Managers
-  - Support Operations
-- This application was developed in-house and can be found
-  [Out of Office project](https://gitlab.com/gitlab-support-readiness/zendesk-us-government/apps/out-of-office)
-
 ## Show Related Tickets
 
 This uses the ticket subject to search for other tickets with a similar
@@ -110,7 +91,7 @@ App information:
 - This application was developed by
   [Zendesk](https://www.zendesk.com/marketplace/partners/zendesk/) and is
   available in the
-  [Zendesk Marketplace](https://www.zendesk.com/apps/support/show-related-tickets/).
+  [Zendesk Marketplace](https://www.zendesk.com/marketplace/apps/support/5131/show-related-tickets/).
 
 ## Zendesk Super App
 

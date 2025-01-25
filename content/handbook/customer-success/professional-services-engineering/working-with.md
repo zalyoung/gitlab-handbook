@@ -38,7 +38,7 @@ Individual GitLab team members can request to audit a customer-facing training s
 
 - **Standard Services (non-customized)**: Sold using Professional Services SKUs with pre-defined statement of work (SOW) documents. These offerings do not require custom scoping and are ordered directly from Zuora in SFDC. Checkout our [full catalog](https://about.gitlab.com/services/catalog/) for a list of standard services currently offered.
 
-- **Custom Services**: Sold if standard services do not meet the needs of the customer, via a custom SOW using the [Services Calculator](http://services-calculator.gitlab.io/).
+- **Custom Services**: Sold if standard services do not meet the needs of the customer, via a custom SOW using the [Services Calculator](https://services-calculator.gitlab.io/).
 
 **Process for Sales Reps and SAs**
 
@@ -80,7 +80,7 @@ When scoping custom SOWs, the Professional Services Engagement Manager partners 
 
 ##### SOW Proposal Approval Board
 
-![SOW proposal board screenshot](/handbook/customer-success/professional-services-engineering/sow-approvals-board.png)
+![SOW proposal board screenshot](/images/customer-success/professional-services-engineering/sow-approvals-board.png)
 
 The [SOW Proposal Approval Board](https://gitlab.com/groups/gitlab-com/customer-success/professional-services-group/-/boards/1353982?label_name[]=Services%20Calculator) is used to progress all SOWs through the scoping and approval process before sending them to a customer for review and signature.
 
