@@ -41,6 +41,12 @@ workspace proxy and it has the following benefits over the workspace proxy:
 1. It doesn't require the user to register a domain name
 1. It doesn't require the user to deal with SSL certificates
 
+Initially we would provide this as an optional alternative to the workspace
+proxy but still maintain support for the workspace proxy. This would unblock
+other ways of deploying workspaces (see [below](#related-work-for-deploying-workspaces-to-vms)).
+Longer term we can determine whether or not we want to maintain both options
+depending on user feedback.
+
 In addition we found that it was easy to extend this tunnel to be useful for
 debugging CI jobs using the GitLab VS Code fork so that is also included in this proposal.
 This idea of tunneling may provide an alternative network transport
@@ -48,30 +54,6 @@ to support
 [Interactive Web Terminals](https://docs.gitlab.com/ee/ci/interactive_web_terminal/)
 which currently relies on direct network access to the Runner Manager and is likely a
 considerable barrier for adoption.
-
-This proposal is based on experimental proof of concept work done as part of
-https://gitlab.com/gitlab-org/gitlab/-/issues/505764 to explore ways to minimise
-the amount of effort to get started with Workspaces.
-
-During the investigation we found that
-[KAS](https://gitlab.com/gitlab-org/cluster-integration/gitlab-agent) already
-has most of the building blocks for this network tunnel and as such would be the
-most efficient option for getting this to production. KAS was originally built
-as a way to tunnel into customer's K8s clusters, and this is reflected in the
-name, but the same techniques can easily be applied to tunneling into any
-customer workloads so it seems like a natural extension of this service.
-
-## Related work for deploying workspaces to VMs
-
-The work complements
-[another proposal](https://gitlab.com/gitlab-com/content-sites/handbook/-/merge_requests/10811)
-for how we might also run workspaces without Kubernetes at all, but this
-proposal focuses solely on the network tunneling behaviour that will be used for
-both of these. It will be possible to ship either of these without the other and
-provide incremental user value, and as such we created separate proposals.
-
-In practice this proposal for network tunneling may be easiest to implement
-first as a smaller iteration to unblock deploying workspaces via CI.
 
 ## Technical details
 
@@ -128,6 +110,32 @@ lived agent token that is injected into the workspace via environment variables.
 
 These agents will not be shown in other parts of the GitLab application and do
 not require agent config files like normal agentk agents.
+
+## Background
+
+This proposal is based on experimental proof of concept work done as part of
+https://gitlab.com/gitlab-org/gitlab/-/issues/505764 to explore ways to minimise
+the amount of effort to get started with Workspaces.
+
+During the investigation we found that
+[KAS](https://gitlab.com/gitlab-org/cluster-integration/gitlab-agent) already
+has most of the building blocks for this network tunnel and as such would be the
+most efficient option for getting this to production. KAS was originally built
+as a way to tunnel into customer's K8s clusters, and this is reflected in the
+name, but the same techniques can easily be applied to tunneling into any
+customer workloads so it seems like a natural extension of this service.
+
+## Related work for deploying workspaces to VMs
+
+The work complements
+[another proposal](https://gitlab.com/gitlab-com/content-sites/handbook/-/merge_requests/10811)
+for how we might also run workspaces without Kubernetes at all, but this
+proposal focuses solely on the network tunneling behaviour that will be used for
+both of these. It will be possible to ship either of these without the other and
+provide incremental user value, and as such we created separate proposals.
+
+In practice this proposal for network tunneling may be easiest to implement
+first as a smaller iteration to unblock deploying workspaces via CI.
 
 ## Iteration plan
 
