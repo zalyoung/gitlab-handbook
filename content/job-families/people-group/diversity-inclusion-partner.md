@@ -11,7 +11,6 @@ The Diversity, Inclusion and Belonging (DIB) team builds an environment where al
 
 ## Requirements
 
-- Ability to use GitLab
 - Share our [values](/handbook/values/), and work in accordance with those values
 - Strong business acumen and ability to connect DIB learning to business needs
 - Skilled at taking a consultative and collaborative approach to problem solving
@@ -23,12 +22,13 @@ The Diversity, Inclusion and Belonging (DIB) team builds an environment where al
 - Experience working in a global environment preferred
 - Strong ability to plan proactively and react quickly when problems arise
 - Strong communication skills
+- Ability to use GitLab
 
 ## Levels
 
 ### Diversity, Inclusion, and Belonging Specialist
 
-The Diversity, Inclusion and Belonging Specialist reports to the [DIB Partner](#diversity-inclusion-and-belonging-partner).
+The Diversity, Inclusion and Belonging Specialist reports to the [Senior Diversity Business Partner](#senior-diversity-business-partner).
 
 #### Diversity, Inclusion, and Belonging Specialist Job Grade
 
@@ -71,61 +71,48 @@ Candidates for this position can expect the hiring process to follow the order b
 
 Additional details about our process can be found on our [hiring page](/handbook/hiring/).
 
-### Diversity, Inclusion, and Belonging Partner
+### Senior Diversity Business Partner
 
-The Diversity, Inclusion, and Belonging Partner reports to the [Manager, Diversity, Inclusion, and Belonging](#manager-diversity-inclusion-and-belonging).
+The Senior Diversity Business Partner reports to the [Vice President, Diversity Inclusion, and Belonging](/job-families/people-group/diversity-inclusion-partner/#vice-president-diversity-inclusion-and-belonging).
 
-#### Diversity, Inclusion, and Belonging Partner Job Grade
+#### Senior Diversity Business Partner Job Grade
 
-The Diversity, Inclusion, and Belonging Partner is a [grade 7](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
+The Senior Diversity Business Partner is a [grade 7](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
 
-#### Diversity, Inclusion, and Belonging Partner Responsibilities
+#### Senior Diversity Business Partner Responsibilities
 
 - Extends the Diversity, Inclusion, and Belonging Specialist responsibilities
-- Help build an environment where all team members feel they belong and can show up as their full selves by collaborating with all departments within GitLab as well as external
-- Work closely as needed with the CEO and E-group and guided under the leadership of the DIB Manager
-- Partner with the People Operations team, organizational leaders, and People Business Partners to continue building out our diversity, inclusion and belonging strategy
-- Consult with organizational leaders to provide mentorship and coaching on how to achieve results
-- Works with the Recruiting team to create and implement a diversity recruitment strategy
-- Develop and improve relationships with current and new diversity organizations and partnerships
-- Increase organizational capabilities in cross-cultural intelligence, mitigating unconscious bias, and inclusive leadership
-- Provide communication and visibility of DIB efforts across GitLab
-- Design leadership development programs focused on underrepresented groups
-- Review and analyze data to monitor progress
-- Conduct research and benchmarking on DIB standard methodologies and emerging trends and apply that to relevant programs aligned to business needs
-- Collaborate strategically to engage team members, amplify successes, and ensure inclusive internal and external messaging
-- Build out a library of diversity, inclusion and belonging materials
+- Influence and hold leadership accountable to deliver on DIB initiatives; provide consultation, coordination and strategic planning for the design and implementation of programs focused on creating a culture of belonging, developing and advancing diverse internal talent, and reducing the attrition of diverse talent.
+- Focus on and drive initiatives that move the needle on our overall headcount and promotions among underrepresented groups.
+- Expand and extend GitLab’s DIB strategy into the Division they are assigned to partner, adding rigor and accountability for results.
+- Leverage data driven insights throughout to determine the narrative, measure success and advocate for change.
+- Build strong collaborative working relationships among People and other cross-functional teams.
+- Establish, manage and iterate on key performance indicators and OKRs specifically supporting the employee lifecycle within the Divsion they responsible for partnering with.
+- Ensure alignment with our Learning and Development team members and develop a long term roadmap that will scale beyond R&D.
+- Alignment with people business partners on org health metrics for the Divisions and subsequent DIB programs necessary pending outcomes
+- Manage monthly DIB communication strategy in alignment with internal communications teams
+- Default to partnership in order to build meaningful programs that inspire and deliver change in the organization.
 
-#### Diversity, Inclusion, and Belonging Partner Requirements
+#### Senior Diversity Business Partner Requirements
 
 - Extends the Diversity, Inclusion, and Belonging Specialist requirements
-- 5+ years of experience in human resources or related business experience
-- 3+ years of experience leading diversity projects, diversity sourcing initiatives, and/or recruiting initiatives
-- 3+ years leadership experience, preferably in the DIB space
-- Deep understanding of diversity, inclusion and belonging principles and practices
-- Ability to influence leadership and enroll team member support and engagement
-- Experienced facilitation and communication skills
+- Strong knowledge of diversity, inclusion, belonging and equity principles, best practices, and legal considerations.
+- Experience in building programs from the ground up, establishing measures of success and leveraging strong communication to influence strategy
+- Excellent interpersonal and communication skills, with the ability to build relationships and influence at all levels of the organization.
+- Proven analytical skills with experience in using data to drive decisions and measure impact.
+- Ability to design and deliver impactful programs, training and workshops.
+- Experience with project management and the ability to manage multiple initiatives simultaneously.
+- Passionate about creating an inclusive and equitable workplace.
+- Demonstrates the GitLab values, cultural competency and sensitivity.
+- Proactive, innovative, and solution-oriented mindset.
 
-#### Diversity, Inclusion, and Belonging Partner Performance Indicators
+#### Senior Diversity Business Partner Performance Indicators
 
 - [Women globally as a whole at GitLab](/handbook/company/culture/inclusion/#performance-indicators)
 - [Women in leadership](/handbook/company/culture/inclusion/#performance-indicators)
 - [Women voluntary attrition](/handbook/company/culture/inclusion/#performance-indicators)
 - [Pay equality](/handbook/company/culture/inclusion/#performance-indicators)
 - [Engagement survey inclusion score](/handbook/company/culture/inclusion/#performance-indicators)
-
-#### Diversity, Inclusion, and Belonging Partner Hiring Process
-
-Candidates for this position can expect the hiring process to follow the order below. Please keep in mind that candidates can be declined from the position at any stage of the process.
-
-- Qualified candidates will be invited to schedule a 30 minute [screening call](/handbook/hiring/interviewing/#screening-call) with one of our Global Recruiters.
-- Next, candidates will be invited to schedule a 45 minute interview with our Vice President, Diversity Inclusion, and Belonging
-- Next, candidates will be invited to schedule a 45 minute panel interview with one of our People Business Partners, member of our L&D team and People Operations leadership
-- After that, candidates will be invited to schedule a 30 minute interview with our Chief People Officer
-- After that, the candidate may be invited to interview with our CFO or another member of our executive team
-- Finally, our CEO may choose to conduct a final interview
-
-Additional details about our process can be found on our [hiring page](/handbook/hiring/).
 
 ### Manager, Diversity Inclusion, and Belonging
 
