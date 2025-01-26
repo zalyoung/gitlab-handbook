@@ -34,13 +34,13 @@ using the existing CI Runners they have configured for their projects.
 This design document is related to
 https://gitlab.com/gitlab-com/content-sites/handbook/-/merge_requests/10804 except this
 document focuses on deploying workspaces as opposed to how to get network access
-to the Web IDE running inside the container.
+to the GitLab VS Code fork running inside the container.
 
 The idea of this proposal is that we add an additional option to workspace
 creation to create the workspace using CI Runners. Behind the scenes this will
 skip all the Kubernetes agent related logic of Workspaces and create a CI
 Pipeline. The CI pipeline will use the same docker image specified in their
-Devfile and will inject the Web IDE into that docker image in a similar way to
+Devfile and will inject the GitLab VS Code fork into that docker image in a similar way to
 how it is injected into our Kubernetes Workspaces.
 
 This idea was demonstrated in this
@@ -77,14 +77,14 @@ There is a POC in https://gitlab.com/gitlab-org/gitlab/-/merge_requests/176479
 which shows roughly how we might support runner type workspaces as well as agent
 type workspaces.
 
-### Injecting the Web IDE
+### Injecting the GitLab VS Code fork
 
-The Web IDE can be injected into the CI Job in a similar way to what we do for
+The GitLab VS Code fork can be injected into the CI Job in a similar way to what we do for
 our existing Kubernetes functionality. Our `.gitlab-ci.yml` syntax already
 supports additional containers (called `services`) which have a shared volume.
-We could use this with our existing workspace tools images to inject the Web IDE
+We could use this with our existing workspace tools images to inject the GitLab VS Code fork
 in almost an identical way. Then we can add commands to the `script` of the CI
-Job to run the Web IDE.
+Job to run the GitLab VS Code fork.
 
 ### Keeping things running (and declarative programming)
 
