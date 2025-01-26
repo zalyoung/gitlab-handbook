@@ -1,5 +1,5 @@
 ---
-title: "Reverse gRPC tunnel for Web IDE in Workspaces and CI"
+title: "Reverse gRPC tunnel for GitLab VS Code fork in Workspaces and CI"
 status: ongoing
 creation-date: "2024-12-24"
 authors: [ "@DylanGriffith" ]
@@ -25,26 +25,33 @@ This design document explains how we can re-use our
 [GitLab Agent (KAS)](https://gitlab.com/gitlab-org/cluster-integration/gitlab-agent)
 architecture to avoid all of this setup and tunnel in via KAS.
 
-This document also describes how this could be used to get a Web IDE connected
+This document also describes how this could be used to get a GitLab VS Code fork connected
 to a running CI Job as an additional benefit.
+
+While this document is related to
+https://gitlab.com/gitlab-com/content-sites/handbook/-/merge_requests/10811
 
 ## Proposal
 
-This proposal is based on experimental proof of concept work done as part of
-https://gitlab.com/gitlab-org/gitlab/-/issues/505764 to explore ways to minimise
-the amount of effort to get started with Workspaces. The work work complements
-[another proposal](https://gitlab.com/gitlab-com/content-sites/handbook/-/merge_requests/10811)
-for how we might also run workspaces without Kubernetes at all, but this
-proposal focuses solely on the network tunneling behaviour that will be used for
-both of these.
+In short, we propose that we tunnel HTTP and SSH traffic over gRPC (using KAS)
+to access our deployed workspaces. This would be an alternative option to our
+workspace proxy and it has the following benefits over the workspace proxy:
+
+1. It doesn't require the user to deploy any ingress/certmanager/proxy to K8s
+1. It doesn't require the user to register a domain name
+1. It doesn't require the user to deal with SSL certificates
 
 In addition we found that it was easy to extend this tunnel to be useful for
-debugging CI jobs using the Web IDE so that is also included in this proposal.
+debugging CI jobs using the GitLab VS Code fork so that is also included in this proposal.
 This idea of tunneling may provide an alternative network transport
 to support
 [Interactive Web Terminals](https://docs.gitlab.com/ee/ci/interactive_web_terminal/)
 which currently relies on direct network access to the Runner Manager and is likely a
 considerable barrier for adoption.
+
+This proposal is based on experimental proof of concept work done as part of
+https://gitlab.com/gitlab-org/gitlab/-/issues/505764 to explore ways to minimise
+the amount of effort to get started with Workspaces.
 
 During the investigation we found that
 [KAS](https://gitlab.com/gitlab-org/cluster-integration/gitlab-agent) already
@@ -54,11 +61,23 @@ as a way to tunnel into customer's K8s clusters, and this is reflected in the
 name, but the same techniques can easily be applied to tunneling into any
 customer workloads so it seems like a natural extension of this service.
 
+## Related work for deploying workspaces to VMs
+
+The work complements
+[another proposal](https://gitlab.com/gitlab-com/content-sites/handbook/-/merge_requests/10811)
+for how we might also run workspaces without Kubernetes at all, but this
+proposal focuses solely on the network tunneling behaviour that will be used for
+both of these. It will be possible to ship either of these without the other and
+provide incremental user value, and as such we created separate proposals.
+
+In practice this proposal for network tunneling may be easiest to implement
+first as a smaller iteration to unblock deploying workspaces via CI.
+
 ## Technical details
 
 The main idea of this proposal is to make use of the
-[`agentk` -> `KAS`](https://gitlab.com/gitlab-org/cluster-integration/gitlab-agent/-/blob/master/doc/kas_to_agentk_connectivity.md)
-`gRPC` connection to tunnel HTTP requests to a Web IDE running on the same
+[`agentk` -> `KAS`](https://gitlab.com/gitlab-org/cluster-integration/gitlab-agent/-/blob/master/doc/kas_to_agentk_connectivity.md#agentk---kas-connectivity)
+`gRPC` connection to tunnel HTTP requests to a GitLab VS Code fork running on the same
 container as the agent. Since `agentk` was built with a different purpose in
 mind (communicating with the K8s API) we are likely to build a different agent
 binary while trying to re-use as much of the server-side components as
