@@ -104,12 +104,14 @@ periodic process on GitLab Rails which is looping over all the workspaces we
 expect to be running and checking whether or not they are still running.
 
 Due to network access this would likely require a kind of health check pushed by
-the workspace or runner. Those implementation details will be left out for now but we
-should assume that Rails can know whether or not the Workspace has reported it's
-status with some frequency.
+the workspace or runner. This may be able to make use of the existing runner
+[`heartbeat`](https://gitlab.com/gitlab-org/gitlab/-/blob/8e1b70181095ef8d93ddaa01388ac25a74aeac24/app/models/ci/runner.rb#L524).
+Those implementation details will be left out of this document, but we should
+assume that Rails can know whether or not the Workspace has reported it's status
+with some frequency.
 
 Once we know if a workspace is no longer running (or healthy) and we believe it
-should be then GitLab Rails will do 2 things:
+should be, then GitLab Rails will do 2 things:
 
 1. Cancel the existing job for the workspace: notifying the runner to terminate
    it if it thinks it is still running
