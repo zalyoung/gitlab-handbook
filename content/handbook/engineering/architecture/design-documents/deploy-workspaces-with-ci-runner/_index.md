@@ -128,16 +128,18 @@ in the GitLab Rails codebase for hiding all this complexity.
 GitLab CI jobs already support persistence via a "cache". The cache storage
 in a CI Job usually involves zipping up a directory, uploading to object storage
 and then downloading an unzipping it the next time a CI job runs with the same
-cache key. We can likely re-use this mechanism for workspaces but we may want
-to evolve this on the runner side in the long run if we run into some
-limitations.
+cache key. We can likely re-use this mechanism initially to reduce the scope of
+our first iteration. Using the CI cache will need to ensure that users do not
+accidentally get the same cached data as another user. This should be possible
+by using a unique cache key for each workspace.
 
-The primary need for persistence in workspaces is to ensure that developers do
-not lose work in progress. For this reason it is usually "good enough" to only
-persist specific directories (e.g. the project directory). But developers may
-also want yet more control over the entire filesystem and want to persist entire
-volumes. We should consider this in the future and it may align with similar
-needs to persist volumes for faster cache retrieval in CI jobs.
+The CI cache, however, is not likely to be a good long term solution due to cost
+of zip/unzip and durability. As such we will look to replace this quickly with a
+better solution. The most promising option here will be to create a volume per
+workspace and re-use that volume when a workspace is restarted. The volumes
+should only be destroyed when the workspace is removed and not when the
+workspace is stopped. Extending the CI Runner to create persistent volumes may
+align with similar goals for faster cache retrieval in CI jobs.
 
 A related note here is that one of the key benefits of cloud development
 environments is that they are easy to recreate from scratch and this optimizes
