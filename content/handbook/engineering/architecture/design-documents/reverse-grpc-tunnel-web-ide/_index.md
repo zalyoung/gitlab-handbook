@@ -158,4 +158,5 @@ complexities with generating SSL certificates. One of the biggest challenges
 with using Let's Encrypt to generate SSL certificates is that there are limits
 on the number of certificates you can generate within a period of time. Using
 our KAS ingress avoids any such limits as we can use a single wildcard
-certificate for all workspaces which will be a subdomain of `gitlab.com`.
+certificate for all workspaces. Each workspace would have unique domain, which
+is some subdomain of `worskspacerootdomain.example.com` (for example).
