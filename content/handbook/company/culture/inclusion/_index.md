@@ -185,10 +185,6 @@ Currently, we have three GitLab team members who are certified to facilitate the
 
 In order to more efficiently scale this initiative at GitLab, we would *love* to have more facilitators join us! Anyone can [register to become a facilitator](https://www.rmrkblty.org/iamremarkableabout-facilitators). As soon as you have been certified, feel free to add your name to the list of facilitators above.
 
-### Stay Interviews or Team Member Experience Interviews
-
-The stay interview with Black Team Members pilot program was developed as part of feedback from the Reverse AMA discussions with the CEO. It was mentioned that "stay" interviews might be helpful in determining retention indicators for underrepresented groups.
-
 ### Inclusive benefits
 
 We list our [Pregnancy & Maternity Care]({{< ref "inc-benefits-us#pregnancy--maternity-care" >}}) publicly so people don't have to ask for them during interviews. In addition GitLab offers an Employee Assistance Program to all team members via [Modern Health]({{< ref "modern-health" >}}), a one-stop shop for all tools related to mental well-being and self-improvement.
