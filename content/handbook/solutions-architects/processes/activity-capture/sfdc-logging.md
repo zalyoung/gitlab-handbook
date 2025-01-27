@@ -58,7 +58,10 @@ Solutions Architects are responsible for maintaining several key fields in Sales
      - Red: Significant technical challenges, misalignment, unclear requirements, or insufficient resources.
    - Required for accurate opportunity health tracking
    - Facilitates deal reviews and pipeline analysis
-   - Can remain empty if insufficient information exists, with mandatory explanation in  **SA Feasibility Details**
+   - For opportunities without SA engagement the following logic is to be applied with mandatory explanation in **SA Feasibility Details**:
+      - Green: Not engaged, and not required (e.g., simple add-ons)
+      - Yellow: Not engaged yet and don't know enough 
+      - Red: Not engaged at all but should have been
 
 2. **SA Feasibility Details**
 
