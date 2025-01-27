@@ -32,7 +32,7 @@ Alternatively:
 
 All recorded customer calls, with consent of the customer, can be made available for team-members to view in Dovetail.
 
-To access these, simply go to the relevant project on Dovetail and log in with Google SSO. More information is available in the Readme of this project.
+To access these, go to the relevant project on Dovetail and log in with Google SSO. More information is available in the Readme of the project.
 
 Engineers are added to Dovetail projects with the Viewer role.
 
