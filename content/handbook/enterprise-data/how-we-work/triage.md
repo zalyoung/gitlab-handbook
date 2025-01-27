@@ -193,7 +193,7 @@ Depending on the nature and impact of the [incident](/handbook/enterprise-data/h
 
 The Data Team leverages the [GitLab Triage Bot](https://gitlab.com/gitlab-org/gitlab-triage) to automate issue management and maintain project organization. The triage policy for the analytics repo is defined in the [.triage-policies.yml](https://gitlab.com/gitlab-data/analytics/-/blob/master/.triage-policies.yml?ref_type=heads) file.
 
-Triagers rely on labels to identify and prioritize work within their domain. Team members who are unsure about which labels to apply can add the `clean-up::review` label to their issue, and the triage team will assist with proper labeling.
+Triagers rely on labels to identify and prioritize work within their domain. Team members who are unsure about which labels to apply can add the `clean-up::review` label to their issue, and the AE team will assist with proper labeling.
 
 This automation helps maintain project hygiene by ensuring every issue has the required scoped labels: `team`, `priority`, `champion`, and `workflow`. The labels `Documentation`, `Iteration Planning`, and `Discussion` are excluded from these requirements.
 
