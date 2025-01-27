@@ -44,3 +44,6 @@ The following teams maintain Dovetail projects:
 
 UX Research calls are scripted calls designed to mitigate bias and to address specific questions related to user needs and/or usability of the product. A selection of UX Research calls are available in Dovetail Projects with a column titled UXR - Research and Validation.
 
+## The Co-Create Initiative
+
+The [Co-Create Program](/handbook/marketing/developer-relations/cocreate/) is an initiative that embeds engineers directly with customers for a week, enabling them to gain firsthand insight into how customers use and integrate the platform while collaborating on new features, enhancements, or bug fixes. This hands-on approach allows GitLab's engineering team to develop a deeper understanding of customer needs and use cases, while simultaneously helping customers contribute meaningfully to GitLab's open-source platform.
