@@ -403,9 +403,6 @@ Triggered when there is a change to `permissions/snowflake/roles.yml`. Validates
 
 This job adds/removes specified users and roles directly in Snowflake based on changes to `snowflake_users.yml`.
 
-#### 📈namespace_metrics_check
-
-The pipeline runs only when the file [usage_ping_namespace_queries.json](https://gitlab.com/gitlab-data/analytics/-/blob/master/extract/saas_usage_ping/usage_ping_namespace_queries.json) is changed to ensure all rules are satisfied. The pipeline runs automatically.
 
 ##### Quick Summary
 
@@ -466,6 +463,11 @@ These are the full list of CI job arguments, all are **OPTIONAL**:
 
 Note: `USERS_TO_REMOVE` argument is not available because all deactivated users will be removed in Snowflake via separate airflow job.
 </details>
+
+#### 📈namespace_metrics_check
+
+The pipeline runs only when the file [usage_ping_namespace_queries.json](https://gitlab.com/gitlab-data/analytics/-/blob/master/extract/saas_usage_ping/usage_ping_namespace_queries.json) is changed to ensure all rules are satisfied. The pipeline runs automatically.
+
 
 ### 🛑 Snowflake Stop
 
