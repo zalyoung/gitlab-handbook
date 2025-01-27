@@ -30,6 +30,13 @@ You can also download the [ModernLoop Chrome extension](https://chromewebstore.g
 - Review all details and then press 'Confrim and send' 
 - If you only wish to send the invites to the interviewers before sending the candidate invite, select 'Send internal only'.  This will send the interviewer invites and move the candidate into the Pending section of My tasks.  When you wish to send the candidate invite you can go into the candidate profile and click 'finish and Send'. 
 
+## How to add or replace an interviewer for a scheduled interview
+
+- If you wish to replace or add an extra interviewer to a scheduled interview, in 'My tasks' go to scheduled, click on the scheduled interview.  
+- When the side page opens with the interview details, click on the 3 dots on the interview tile and select 'Edit Interview'.  
+- To add an interviewer select 'add interviewer' and type in the name of the new interviewer. 
+- To remove an interviewer select the three dots next to their name and select remove interviewer. 
+
 ## How to set up Interviewer Modules (Interviewer pools & training plans)
 
 A module is modern loop is an interviewer pool, which also allows for trainees to move through shadows/reverse shadows.  
@@ -52,10 +59,14 @@ To assign a module to an interview plan:
 
 ## How to schedule a technical interview
 
-## How to update an interviewer pool in ModernLoop
-
-## How to update an interviewer's preferences
+- If the technical interview requires a interviewer module, check in the job interview plan that the correct interviewer module is selected.  
+- Continue to schedule the interview using the same steps as for a 1:1 interview. 
+- For the candidate email select the template 'Technical Interview - Candidate confirmation' and add in the technical instructions using the correct text expander snippet. 
+- For interviews which have an MR, select the 'Technical Interview with MR' for internal invites for interviewers. 
+- If there is a shadow interviewer from a Module, ModernLoop will automatically add in a paragraph to let the interviewers know who is the lead and who is the shadow. 
+- Select finish and send. 
 
 ## How to update Organization wide settings
 
-- Only Admins can change organizational settings
+NOTE: Only Admins can change organizational settings.
+Organizational settings can be found in the menu on the left hand side of the homepage. 
