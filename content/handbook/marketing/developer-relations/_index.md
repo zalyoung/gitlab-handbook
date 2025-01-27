@@ -111,6 +111,7 @@ Organization:
 - [<i class="fas fa-inbox"></i> Zendesk](/handbook/marketing/developer-relations/workflows-tools/zendesk/)
 - [<i class="fas fa-envelope"></i> Email](/handbook/marketing/developer-relations/workflows-tools/e-mail/)
 - [<i class="fab fa-twitter"></i> Twitter/X](/handbook/marketing/developer-relations/workflows-tools/twitter/)
+- [<i class="fas fa-cloud"></i> Cloud Resources](/handbook/marketing/developer-relations/workflows-tools/cloud-resources/)
 
 #### Community Interest
 
