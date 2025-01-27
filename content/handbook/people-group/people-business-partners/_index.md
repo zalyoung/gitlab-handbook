@@ -23,7 +23,7 @@ Please reach out to your aligned People Business Partner (PBP) to engage in the 
 
 | Contact | Division or Departments |
 |-------------------|-------------|
-| Carolyn Bednarz  | People Goup |
+| Carolyn Bednarz  | People Group |
 | Carolyn Bednarz  | Legal and Corporate Affairs |
 | Carlie Russell    | Sales - Partners, CSM & Renewals,  Solutions Architecture, Professional Services|
 | Tracy Lu | Sales - APJ|
