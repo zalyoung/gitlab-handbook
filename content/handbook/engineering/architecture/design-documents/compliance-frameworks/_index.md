@@ -169,13 +169,13 @@ We can look to expand on the information we send as we receive feature requests 
    and is of `control_type` `external`.
 1. After posting we set the corresponding `project_control_compliance_statuses` entry to state `pending` and
    allow for a timeout of `30 mins`.
-1. There will be a separate, worker, periodically run, checking for status entries that are older than the
-   timeout and still in state `pending`, these entries will be defaulted to a `fail` state.
+1. There will be a separate worker, run with a delay equal to the timeout, checking each control if it
+   timed out and is still in state `pending`, these entries will be defaulted to a `fail` state.
    (This adds an additional state to what's been mentioned in [ADR001](decisions/001_triggering_checks.md)))
-
-1. When the external service reports back inside the timeout, we set the status in
+1. When the external service reports back, we set the status in
    table `project_control_compliance_statuses` to store the results of the control as the external
-   service indicated. ['fail', 'pass']
+   service indicated. ['fail', 'pass']. The external service may update the status of the
+   control at any time.
 
 ###### Auditing
 
