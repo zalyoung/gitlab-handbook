@@ -20,20 +20,20 @@ toc_hide: true
 
 ## Summary
 
-This design document outlines the implementation of a new trial eligibility system for GitLab SaaS.
-The system aims to improve the management of trial periods by ensuring users can only start a trial on a namespace according to various internal business conditions,
+This design document outlines the planned implementation of a new trial eligibility system for GitLab SaaS.
+The system aims to improve trial management by ensuring users can only start a trial on a namespace according to various internal business conditions,
 preventing abuse of the trial system, and implementing efficient caching mechanisms for trial eligibility checks from the GitLab side.
 GitLab will utilize the trial eligibility system in many scenarios:
 
 - CTAs throughout the UI.
-- Listing namespaces that a user owns for possibly apply for a trial on in the UI.
+- Listing namespaces that a user owns that are eligible for a trial in the UI.
 - Applying for a trial on a namespace from the UI.
 
 ## Motivation
 
-Currently, GitLab checks trial eligibility via GitLab database level queries.
+Currently, GitLab checks trial eligibility using GitLab database level queries.
 A recent business added eligibility qualification that triggered this was solved in the
-short term via https://gitlab.com/gitlab-org/gitlab/-/issues/500359.
+short term with https://gitlab.com/gitlab-org/gitlab/-/issues/500359.
 However, these queries are becoming more complex and are merely a duplication of logic that is already defined
 in CustomersDot.
 That issue highlighted the growing need to rely on CustomersDot for the SSOT for namespace trial eligibility.
@@ -48,7 +48,7 @@ reference epic: https://gitlab.com/groups/gitlab-org/-/epics/16169
 - Implement a robust and accurate system for checking trial eligibility from GitLab.
 - Enable easy extension of the trial eligibility rules.
 
-### Non-Goals
+### Out of Scope
 
 - Self-managed solution.
 
