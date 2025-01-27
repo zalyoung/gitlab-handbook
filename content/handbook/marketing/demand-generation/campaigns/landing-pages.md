@@ -141,3 +141,11 @@ This standardizes our page names for use in reporting and systems such as our AB
 * Check that [conversion best practices](/handbook/marketing/demand-generation/campaigns/landing-pages/#landing-page-conversion-best-practices) are met
 * Fill out the form and ensure all flow steps in Marketo trigger appropriately (i.e. you receive confirmation email, interesting moment applied, program membership updated, alert sent if applicable, etc.)
 * Confirm correct location is arrived at post-form submit (i.e. correct form success message or a resulting thank you page)
+
+## Reporting: Why URL Structure Is Important
+
+#### Automated Reporting
+The [Content Performance dashboard](https://10az.online.tableau.com/#/site/gitlab/views/ContentPerformance/GatedContent) in Tableau reports on web and pipeline metrics from multiple sources: Google Analytics, Marketo Measure (Bizible), and Salesforce. A single piece of content may have several associated web pages, including Marketo form pages and multiple PathFactory tracks. A consistent URL structure enables the dashboard to automatically map pages across page.gitlab.com, about.gitlab.com, and learn.gitlab.com, and accurately collect Content Name and Type variables. To ensure your page is automatically captured in Tableau reporting, please use the [Content URL Builder](https://docs.google.com/spreadsheets/d/12jm8q13e3-JNDbJ5-DBJbSAGprLamrilWIBka875gDI/edit?gid=1807603787#gid=1807603787).
+
+#### Manual Process
+For legacy content where URLs don't follow the current structure, the Marketing Analytics team manually maps content, web, and campaign variables using this [content_keystone.yaml](https://gitlab.com/gitlab-data/analytics/-/blob/master/extract/gitlab_data_yaml/content_keystone.yaml) file. 
