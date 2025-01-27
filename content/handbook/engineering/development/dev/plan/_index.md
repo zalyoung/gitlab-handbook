@@ -167,6 +167,7 @@ This is an experiment, we run it until 2025-02-01, and decide whether we want to
 To facitilate direct feedback from customers, sales and support teams we created [#s_plan_customers_feedback](link here) slack channel.
 
 Examples of things you're welcome share there:
+
 - Direct customer feedback on features or bugs, including quotes from issues and verbal discussions
 - Feedback on our roadmap
 - Notes about customer interest in plan features
@@ -174,6 +175,7 @@ Examples of things you're welcome share there:
 **Things that require response from the development team should be shared in other channels instead.**
 This channel is meant to be read-only, and you should not expect a prompt reply there.
 Examples:
+
 - Requests for help should go to special project
 - Questions of any kind should be directed to best fitting channel
 - New bugs or feature requests should go into an issue, but you can share the issue link
