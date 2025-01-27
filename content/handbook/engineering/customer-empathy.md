@@ -14,7 +14,7 @@ Customer Conversations calendars exist for the following teams:
 
 * The Plan Stage ([gitlab.com_5icpbg534ot25ujlo58hr05jd0@group.calendar.google.com](https://calendar.google.com/calendar/u/0/embed?src=gitlab.com_5icpbg534ot25ujlo58hr05jd0@group.calendar.google.com))
 
-### Subscribing to a calendar
+### Subscribe to a calendar
 
 To ensure upcoming calls appear in your calendar, subscribe to one or more Customer Conversations calendars. Product Managers add upcoming customer interviews to these calendars and you're welcome to shadow any call.
 
