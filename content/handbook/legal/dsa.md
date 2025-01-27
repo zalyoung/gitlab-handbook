@@ -19,7 +19,7 @@ description: "Use this form to report content that you believe is illegal in the
                         <option value="terrorist">Terrorist content</option>
                         <option value="hateful">Hateful content</option>
                         <option value="csam">Child sexual exploitation</option>
-                        <option value="harrasment">Harrasment</option>
+                        <option value="harassment">Harassment</option>
                         <option value="private">Private or personal information</option>
                         <option value="copyright">Copyright or trademark infringement</option>
                         <option value="other">Other legal issue</option>
