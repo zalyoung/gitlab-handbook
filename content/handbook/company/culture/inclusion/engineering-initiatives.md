@@ -5,13 +5,13 @@ description: "Learn more about GitLab Diversity, Inclusion & Belonging Engineeri
 
 This page is in [draft](/handbook/values/#everything-is-in-draft). We are working to build out this page and gather all the running initiatives/partnerships in Engineering.
 
+# Engineering Inclusion and Accessibility Initiatives
+
 At GitLab, Diversity, Inclusion & Belonging is infused into our company culture, from our [values](/handbook/values/) to our [all-remote way of working](/handbook/company/culture/all-remote/).
 Engineering partners closely with our [Diversity, Inclusion & Belonging](/handbook/company/culture/inclusion/) team to ensure we're building a diverse and inclusive workforce around the globe as the company continues to grow. 
 
 - [Team Member Resource Groups]({{< ref "erg-guide#how-to-join-current-tmrgs-and-their-slack-channels" >}})
 - [Diversity, Inclusion and Belonging GitLab initiatives]({{< ref "inclusion#diversity-inclusion--belonging-mission-at-gitlab" >}})
-
-# Engineering Inclusion and Accessibility Initiatives
 
 ## Overview
 
@@ -26,6 +26,7 @@ Our engineering DIB strategy aligns with GitLab's A.D.A.P.T model while focusing
 At GitLab, DNA aims to integrate disability, neurodiversity, and accessibility into all aspects of the company - from product design to talent acquisition, team member education, and culture through TMRG engagement. Using the ARISE (link to follow) framework transforms GitLab's DNA strategy into actionable initiatives 
 
 **Key Goals:**
+
 - Integrate Accessibility in Communications and Product Strategy
 - Implement Accessibility Technologies
 - Strengthen People & Talent Processes
@@ -49,15 +50,19 @@ GitLab's career development strategy focuses on creating equitable pathways for 
 The following sections will be updated once our FY26 strategy is finalized. These placeholders represent key focus areas and anticipated initiatives.
 
 #### [Program Placeholder 1: Accessibility Champions Program]
+
 Description: Outline for empowering team members to lead accessibility efforts.
 
 #### [Program Placeholder 2: Inclusive Practices Series]
+
 Description: Framework for quarterly sessions showcasing inclusive engineering practices.
 
 #### [Program Placeholder 3: Accessible Events Toolkit]
+
 Description: Initial draft guidance for planning inclusive events, virtual and hybrid.
 
 #### [Program Placeholder 4: [Insert Program Name]]
+
 Description: Reserved for additional programs under development.
 
 ## How to Get Involved
