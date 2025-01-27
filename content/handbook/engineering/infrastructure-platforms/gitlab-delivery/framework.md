@@ -69,6 +69,8 @@ The team's primary roadmap is tracked within [the Roadmap epic](https://gitlab.c
 
 To engage with the Framework team, please refer to the following.
 
+Please kindly note that as an engineering team our resources are finite. Direct asks to join customer calls or projects are not within the remit of this team and should instead be directed accordingly to Product Management, Support or Professional Services accordingly.
+
 ### Slack Channels
 
 The following list includes Slack channels relevant to projects within the team's scope:
@@ -77,6 +79,15 @@ The following list includes Slack channels relevant to projects within the team'
 * [#gitlab_environment_toolkit](https://gitlab.enterprise.slack.com/archives/C01DE8TA545) - For discussions, questions, and requests specific to the GitLab Environment Toolkit (GET).
 * [#reference-architectures](https://gitlab.enterprise.slack.com/archives/C015V8PDUSW) - For discussions, questions, and requests related to Reference Architectures.
 * Our slack group handle is `@software-delivery-framework-team`.
+
+### Reference Architecture Review requests
+
+For any requests relating to customer environments, either proposed or existing, they must be raised in the [Reference Architectures project](https://gitlab.com/gitlab-org/quality/reference-architectures/-/issues/new) in the following circumstances only with the given templates:
+
+* `environment-review-request` - Sanity checks of new environment designs, not already covered in the [Reference Architecture docs](https://docs.gitlab.com/ee/administration/reference_architectures/).
+* `request-for-help` - Help requests from the Support Team for assistance when an issue is suspected to be due to the environmental design.
+
+Requests should be opened two or more business days before action is needed to ensure the team has time to prepare and we kindly ask for this process to be followed for tracking and capacity reasons.
 
 ## Triage DRI
 
