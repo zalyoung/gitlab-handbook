@@ -50,9 +50,9 @@ The SA Validated Tech Evaluation End Date is when the technical evaluation is de
 The SA Validated Tech Evaluation Close Status represents the result of the technical evaluation at the end date.
 
 - Available options include:
-   - **Win**: The technical evaluation has ended, and the prospect or customer agrees the GitLab solution meets their requirements
-   - **Loss**: The technical evaluation has completed, but the prospect or customer is choosing an alternative solution or not changing their current process due to deficiencies with the evaluated GitLab solution
-   - **Stalled**: The technical evaluation has not completed, but the customer or prospect is not actively evaluating any solution - typically when the SA has not been working with the prospect or customer on evaluation-related activities for at least two weeks
+  - **Win**: The technical evaluation has ended, and the prospect or customer agrees the GitLab solution meets their requirements
+  - **Loss**: The technical evaluation has completed, but the prospect or customer is choosing an alternative solution or not changing their current process due to deficiencies with the evaluated GitLab solution
+  - **Stalled**: The technical evaluation has not completed, but the customer or prospect is not actively evaluating any solution - typically when the SA has not been working with the prospect or customer on evaluation-related activities for at least two weeks
 - Should NOT be used as a forecasted status
 - Should be accompanied by the **SA Validated Tech Evaluation End Date** and **SA Validated Tech Evaluation Close Details**
    
@@ -70,7 +70,7 @@ The SA Feasibility Rating is an assessment tool used by Solutions Architects to 
 - The Solutions Architect is the [Directly Responsible Individual (DRI)](/handbook/people-group/directly-responsible-individuals/) for ensuring these fields are accurate and updated
 - Solutions Architect Managers will regularly review SA Feasibility Ratings to understand where different time, attention, or resources should be attributed to the opportunity
 - The **SA Feasibility Rating** and **SA Feasibility Details** fields will be used as point of discussion during regular Top Deal Reviews and pipeline analysis
-   - Solutions Architect Managers may downgrade a SA Feasibility Rating after review
+  - Solutions Architect Managers may downgrade a SA Feasibility Rating after review
 
 ### Salesforce Fields
 
@@ -165,14 +165,14 @@ Not all opportunities are large enough to warrant tracking the SA Feasibility Ra
 Opportunities with minimal SA engagement should use the following criteria to simplify **SA Feasibility Rating** and **SA Feasibility Details**:
 
 - **Simple add-ons, planned growth, and renewals:**
-   - SA Feasibility Rating: Green
-   - SA Feasibility Details: Engagement not required
+  - SA Feasibility Rating: Green
+  - SA Feasibility Details: Engagement not required
 - **Too early:**
-   - SA Feasibility Rating: Yellow
-   - SA Feasibility Details: Not engaged yet and don't know enough
+  - SA Feasibility Rating: Yellow
+  - SA Feasibility Details: Not engaged yet and don't know enough
 - **Not engaged:**
-   - SA Feasibility Rating: Red
-   - SA Feasibility Details: Not engaged at all but should have been
+  - SA Feasibility Rating: Red
+  - SA Feasibility Details: Not engaged at all but should have been
 
 #### Update Frequency
 
@@ -248,13 +248,13 @@ For detailed instructions on activity logging through Rattle, see [Activity Base
 - Don't backdate unless absolutely necessary
 - Keep current even if opportunity is early stage
 
-2. **Accuracy**
+1. **Accuracy**
 
 - Be precise with dates
 - Use clear, concise descriptions
 - Maintain consistency across opportunities
 
-3. **Completeness**
+1. **Completeness**
 
 - Fill all required fields
 - Don't leave fields blank or TBD
@@ -268,13 +268,13 @@ For detailed instructions on activity logging through Rattle, see [Activity Base
 - Others tracked through activity logging
 - Clear handoff process when changing Primary SA
 
-2. **Stalled Evaluations**
+1. **Stalled Evaluations**
 
 - Mark as stalled after 2 weeks of inactivity
 - Update status if evaluation resumes
 - Document reason in close details
 
-3. **Commercial Trials**
+1. **Commercial Trials**
 
 - Align with trial dates
 - Must have SA engagement
