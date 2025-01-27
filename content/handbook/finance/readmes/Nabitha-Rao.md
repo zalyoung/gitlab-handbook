@@ -43,4 +43,4 @@ description: "Learn more about working with Nabitha Rao, VP IT EntApps"
 ## Communication Preferences
 
 1. I am responsive on all mediums: Slack, Google Workspace, Meetings, Email and Phone (Emergencies).  I will always do my best to acknowledge all inquiries or delegate to someone on my team to provide responses within 24 hours. 
-1. If you have any questions, please reach out to me or schedule a coffee chat. Please contact Anita Mall (EBA) for assistance with scheduling. 
+1. If you have any questions, please reach out to me or schedule a coffee chat. Please contact Anita Mall (EBA) for assistance with scheduling.
