@@ -73,6 +73,7 @@ Pairify can be used in the following Slack channels:
 - [`#spt_emea_shift-3`](https://gitlab.enterprise.slack.com/archives/C07DG6PEV26)
 - [`#spt_us-government`](https://gitlab.enterprise.slack.com/archives/C03RTN3JEJ2)
 - [`#spt_us-gov-evening-overnight`](https://gitlab.enterprise.slack.com/archives/C06C3DBT72L)
+- [`#support_self-managed`](https://gitlab.enterprise.slack.com/archives/C4Y5DRKLK)
 - [`#support_team-chat`](https://gitlab.enterprise.slack.com/archives/CCBJYEWAW)
 - [Support Pod](https://gitlab.com/gitlab-com/support/support-pods) channels
 
