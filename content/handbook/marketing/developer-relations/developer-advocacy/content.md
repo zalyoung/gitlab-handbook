@@ -86,7 +86,7 @@ Product tours are a self-guided journey emphasizing the 'What' of a feature, ski
 
 | Title | Area | Last updated | DRI |
 |-------|------|--------------|-----|
-| [Compliance Frameworks](https://gitlab.navattic.com/compliance) | DevSecOps Platform | 2024-01-27 | @iganbaruch |
+| [Compliance Frameworks](https://gitlab.navattic.com/compliance) | DevSecOps Platform | 2025-01-27 | @iganbaruch |
 | [Idea to MR](https://gitlab.navattic.com/duo-q) | Duo with Amazon Q | 2024-12-03 | @iganbaruch |
 | [Java modernization](https://gitlab.navattic.com/duo-q-transform) | Duo with Amazon Q | 2024-12-03 | @iganbaruch |
 | [Advanced SAST](https://gitlab.navattic.com/advanced-sast) | DevSecOps Platform | 2024-09-22 | @iganbaruch |
