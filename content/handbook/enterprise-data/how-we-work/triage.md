@@ -199,7 +199,7 @@ This automation helps maintain project hygiene by ensuring every issue has the r
 
 The automated process begins three days after an issue is created. When required labels are missing, the bot adds a comment listing the missing labels and applies both `Needs Triage` and `clean-up::warning` labels. The comment includes instructions for requesting help through the `clean-up::review` label.
 
-After 14 days, if the issue still lacks required labels, the bot adds a reminder comment to prompt action. Issues that remain unlabeled for 30 days will be automatically closed with a `clean-up::close` label and a comment explaining the closure. Team members can reopen these closed issues at any time by adding the required labels.
+After 14 days, if the issue still lacks required labels, the bot adds a reminder comment to prompt action. Issues that remain unlabeled for 30 days will be automatically closed with a `clean-up::close` label and a comment explaining the closure. Team members can reopen these closed issues at any time and ensure they won't be auto-closed again by adding the required labels.
 
 When a previously closed issue is reopened, the bot automatically removes the `clean-up::close` label and checks for proper labeling. If required labels are still missing, it applies the `clean-up::warning` label and adds a comment explaining which labels are needed. This process ensures that reopened issues meet our labeling standards.
 
