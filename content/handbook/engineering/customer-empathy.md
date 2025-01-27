@@ -6,22 +6,27 @@ Customer empathy is a core component of GitLab's engineering culture. We believe
 
 ## Customer Conversations calendars
 
-Customer Conversations calendars contain upcoming customer calls. You can subscribe to any calendar and invite it as a participant to a customer meeting that you are scheduling using the corresponding URL.
+Customer Conversations calendars contain upcoming customer calls. You can [subscribe to any calendar](#subscribe-to-a-calendar) using the corresponding URL. You are welcome and encouraged to join any call -- even if it's just to listen in and get context.
 
-Anyone who is scheduling a call with a customer via sales, conducting usability reasearch, or generally setting up a time to speak with customers or prospects is encouraged to add one or more relevant Customer Conversations calendars as an invitee to the event. This will automatically populate the shared calendar with upcoming customer and user iteractions. Any team member is welcome and encouraged to join -- even if it's just to listen in and get context.
+Anyone who is scheduling a call with a customer or prospect via sales, conducting usability reasearch, or generally setting up a time to speak is encouraged to invite one or more relevant Customer Conversations calendars to the event. This will automatically populate the shared calendar with the event.
 
 Customer Conversations calendars exist for the following teams:
+
 * The Plan Stage ([gitlab.com_5icpbg534ot25ujlo58hr05jd0@group.calendar.google.com](https://calendar.google.com/calendar/u/0/embed?src=gitlab.com_5icpbg534ot25ujlo58hr05jd0@group.calendar.google.com))
 
-### Shadow a customer call
-
-All team members are welcome and encouraged to join customer calls -- even if it's just to listen in and get context.
+### Subscribing to a calendar
 
 To ensure upcoming calls appear in your calendar, subscribe to one or more Customer Conversations calendars. Product Managers add upcoming customer interviews to these calendars and you're welcome to shadow any call.
 
 1. In GCal, next to "Other Calendars" in the left sidebar, click the +
 1. Select "Subscribe to Calendar"
 1. In the "Add Calendar" input, paste the calendar link
+
+Alternatively:
+
+1. Open one of the calendar links from the list above
+1. In the bottom left of the calendar, click "Add to Google Calendar"
+1. Follow instructions
 
 #### Review previous calls
 
@@ -32,6 +37,7 @@ To access these, simply go to the relevant project on Dovetail and log in with G
 Engineers are added to Dovetail projects with the Viewer role.
 
 The following teams maintain Dovetail projects:
+
 * [Plan](https://gitlab.dovetailapp.com/projects/3Smr4JOoU7a5pnWqazMfr2/readme)
 
 #### Review previous UX Research calls
