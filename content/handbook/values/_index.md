@@ -167,10 +167,6 @@ In a GitLab Unfiltered [interview](https://youtu.be/n9Gfe9p1tmA), GitLab Head of
 > At GitLab, "no ego" means that we foster and support an environment where results matter, and you're given agency to approach your work in the way that makes sense to you.
 > Instead of judging people for not approaching work in an agreed-upon way, "no ego" encourages people to glean inspiration from watching others approach work in new and different ways.
 
-Being no ego is a standard we hold ourselves as people but is not one that applies to GitLab as a company or product.
-We want to celebrate and highlight GitLab's accomplishments, including being [one of the largest all-remote companies](/handbook/company/culture/all-remote/).
-This doesn't mean we don't recognize our mistakes, including how we handled [telemetry](https://about.gitlab.com/blog/2019/10/10/update-free-software-and-telemetry/).
-
 ##### See others succeed
 
 A candidate who has talked to a lot of people inside GitLab said that, compared to other companies, one thing stood out the most: everyone here mentioned wanting to see each other succeed.
@@ -584,7 +580,7 @@ We demonstrate efficiency when we work on the right things, not doing more than 
 
 ## 🌐 Diversity, Inclusion & Belonging {#diversity-inclusion}
 
-Diversity, inclusion and belonging are fundamental to the success of GitLab. We aim to make a significant impact in our efforts to foster an environment where everyone can thrive. We are designing a multidimensional approach to ensure that GitLab is a place where people from every background and circumstance feel like they belong and can contribute. We actively chose to [build and institutionalize](https://www.russellreynolds.com/en/insights/reports-surveys/diversity-and-inclusion-gamechangers) a culture that is [inclusive](/handbook/company/culture/inclusion/) and supports all team members equally in the process of achieving their professional goals. We hire globally and encourage hiring in a diverse set of countries. We work to make everyone feel welcome and to increase the participation of underrepresented minorities and nationalities in our community and company. For example, we celebrate our sponsorship of [diversity, inclusion & belonging events](https://about.gitlab.com/blog/2016/03/24/sponsorship-update/).
+Diversity, inclusion and belonging are fundamental to the success of GitLab. We aim to make a significant impact in our efforts to foster an environment where everyone can thrive. We are designing a multidimensional approach to ensure that GitLab is a place where people from every background and circumstance feel like they belong and can contribute. We actively chose to build a culture that is [inclusive](/handbook/company/culture/inclusion/) and supports all team members equally in the process of achieving their professional goals. We work to make everyone feel welcome and to increase the participation of underrepresented groups in our community and company.
 
 ##### Bias towards asynchronous communication
 
