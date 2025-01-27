@@ -42,32 +42,6 @@
 # Handbook doesn't use .html style page locations so repoint these
 /*.html /:splat/ 301
 
-# Remote Development group/category renames - remove 2024-12-17
-/handbook/engineering/architecture/design-documents/remote_development/* /handbook/engineering/architecture/design-documents/workspaces/:splat 301
-
-# Removed oudated customer advocacy pages - remove 2024-12-17
-/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/customer-advocacy/* /handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/customer-advocacy/ 301
-
-# Replace Engagement Concierge with Team Workshops - remove 2024-12-26
-/handbook/people-group/engagement-concierge/ /handbook/people-group/learning-and-development/team-workshops 301
-
-# Growth and Development Pages Moved - remove 2024-12-20
-/handbook/total-rewards/benefits/general-and-entity-benefits/growth-and-development/ /handbook/people-group/learning-and-development/growth-and-development/ 301
-/handbook/total-rewards/benefits/general-and-entity-benefits/growth-and-development/* /handbook/people-group/learning-and-development/growth-and-development/:splat 301
-
-# Moved CTO Leadership Team page - remove 2024-12-30
-/handbook/engineering/cto-staff/ /handbook/engineering/cto-leadership-team/ 301
-
-# Solutions Architecture Handbook Moved - remove 2025-01-01
-/handbook/customer-success/solutions-architects/* /handbook/solutions-architects/:splat 301
-/handbook/customer-success/solutions-architects/ /handbook/solutions-architects/ 301
-
-# Dogfooding for R&D Moved - remove 2025-01-14
-/handbook/product/product-processes/dogfooding-for-product-mgt/ /handbook/product/product-processes/dogfooding-for-r-d/ 301
-
-# Brand Standards - remove 2025-01-17
-/handbook/marketing/brand-and-product-marketing/brand/brand-activation/brand-standards/* https://design.gitlab.com/brand-overview/resources 301
-
 # Broken onboarding link - remove 2025-02-01
 /handbook/anti-harassment/ /handbook/people-group/anti-harassment/ 301
 /handbook/paid-time-off/ /handbook/people-group/paid-time-off/ 301
