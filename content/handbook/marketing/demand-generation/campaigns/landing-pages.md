@@ -106,7 +106,7 @@ This standardizes our page names for use in reporting and systems such as our AB
 
 | Type | URL Path: `https://page.gitlab.com/[first word below]` |
 | ------ | ------ |
-| Webcasts | /webcast_    |
+| Webcasts | /webcast-    |
 | Workshops | /workshop-  |
 | Owned, in-person events | /event- |
 | Owned, virtual events (that don't fall under webcasts - like wine tastings, cooking, etc) | /event- |
