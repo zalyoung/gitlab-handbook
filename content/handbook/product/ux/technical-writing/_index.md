@@ -411,8 +411,9 @@ can efficiently perform the necessary verification.
 
 To balance [velocity](/handbook/engineering/development/principles/#the-importance-of-velocity) and quality, the technical writers use this workflow:
 
-- When a technical writer opens a merge request, another writer must review and merge.
-  Peer reviews are important to maintain quality and a common voice.
+- When a technical writer opens a merge request, another writer must review and merge. 
+  - The technical writer should not approve or merge their own MR. Instead, they should [request a review](#selecting-a-reviewer) from a peer with Maintainer access. The reviewer merges the MR after the final approval.
+  - This requirement is in place to satisfy the GitLab [Change Management Policy](/handbook/security/security-and-technology-policies/change-management-policy/). In addition, peer reviews are important to maintain quality and a common voice. 
 - When anyone else (like a developer, community member, or Support team member) opens a merge request:
   - If the MR contains only documentation changes, the writer:
     - Reviews the content and offers suggestions.
