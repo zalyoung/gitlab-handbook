@@ -100,7 +100,7 @@ Of Note: Management refers to Team Members who are People Managers, whereas Lead
 Source: GitLab's People Analytics Team, WorkDay
 
 ## Diversity, Inclusion and Belonging Team
-
+- [Naomi Johnson](/handbook/company/team/#NaomiJohnson) - Sr. Diversity Business Partner, Inclusion and Belonging
 - [Liam McNally](/handbook/company/team/#lmcnally1) - Manager, Diversity, Inclusion and Belonging
 - [Sherida McMullan](/handbook/company/team/#sheridam) - Vice President, Diversity, Inclusion and Belonging
 
