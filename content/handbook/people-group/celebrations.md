@@ -7,6 +7,10 @@ description: "Review different ways GitLab celebrates its team members."
 
 As a new hire at GitLab, you will be getting a customized welcome package! On your date of hire you will receive an [email](https://internal.gitlab.com/handbook/people-group/people-operations/people-connect/onboarding_process/#new-hire-swag-email) to claim the package with a redemption link. Then simply enter your shipping information to have your welcome swag shipped directly to you.
 
+## New Parent Swag
+
+Welcoming a new child into your family is an exiting life event that GitLab wants to help celebrate. New parents will receive a swag bundle that includes a teething ring, baby socks, plush tag blanket, adult socks, baby bib and baby blanket (all GitLab branded). The Absence Management team will mail the gift to the team member. There is no action required by the team member or their manager. Gifts are ordered on a weekly cadence, although time to ship and customs can vary depending on the country. For questions related to new parent swag, please email leaves@gitlab.com.
+
 ## Celebrations
 
 ### GitLab Anniversary
