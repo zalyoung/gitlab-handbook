@@ -13,6 +13,7 @@ Professional Services Engineers are expected to be able to interface not only wi
 | [Associate Professional Services Engingeer](#associate-professional-services-engineer) | [Grade 5](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades) |
 | [Intermediate Professional Services Engingeer](#professional-services-engineer) | [Grade 6](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades) |
 | [Senior Professional Services Engingeer](#senior-professional-services-engineer) | [Grade 7](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades) |
+| [Manager, Professional Services Engineering](#manager-professional-services-engineering) | [Grade 9](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades) |
 | [Senior Manager, Professional Services Engineering](#senior-manager-professional-services-engineering) | [Grade 9](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades) |
 
 ## Performance Indicator
@@ -144,6 +145,38 @@ documents those opportunities
 - Developer platform/tool industry experience
 - Experience working with a global or otherwise multicultural team
 - Computer science education or equivalent experience
+
+## Manager, Professional Services Engineering
+
+### Responsibilities
+
+- Directly manage and mentor a team of Professional Services Engineers, providing regular feedback, career development guidance, and performance evaluations
+- Execute and refine processes and tools used by the PS Engineering team to ensure efficient service delivery
+- Create and maintain customer-facing technical documentation and presentation materials
+- Lead technical discovery sessions with customers to understand requirements and scope professional services engagements
+- Collaborate with PS Operations to manage team capacity, resource allocation, and hiring needs
+- Review and provide technical input for statements of work, change requests, and proposals
+- Oversee day-to-day delivery of consulting engagements, ensuring high-quality implementation of custom SOWs and SKUs
+- Stay current with GitLab product updates and features, ensuring the team maintains technical expertise
+- Track and report on team performance metrics including:
+  - Individual engineer utilization rates
+  - Project delivery timelines and budgets
+  - Customer satisfaction scores
+  - Revenue and margin targets for assigned accounts
+- Partner with Engagement Managers and Practice Managers to optimize service delivery processes and methodologies
+- Build strong relationships with Sales teams to support deal progression and scope definition
+- Participate in regular forecast and status updates for assigned projects and accounts
+
+### Requirements
+
+- Strong understanding of subscription-based business models and SaaS/on-premises solution delivery
+- Demonstrated experience in project management and service delivery methodologies
+- Proven track record of successful customer implementations and relationship management
+- Deep technical knowledge of the GitLab platform and DevOps practices
+- Excellence in written and verbal communication, with ability to translate complex technical concepts
+- Experience in resource management and capacity planning
+- Strong analytical and problem-solving skills
+- Demonstrated ability to manage competing priorities and drive results in a fast-paced environment
 
 ## Senior Manager, Professional Services Engineering
 
