@@ -82,24 +82,23 @@ Note that you may be onboarding an account which is not net new. To ensure smoot
    2. Utilize [this internal email](https://docs.google.com/document/d/1eDj4zSzuHega_wvZrWMkOC9TAWMWs_bjVwnn7GeJzzY/edit) and customize to your customer's needs
    3. The first priority is getting the kick-off call locked in so that you can review the program and get in front of the customer
 
-
 ### SPS Customer Onboarding Activities
 
-2. Internal Kick-off Call
-   1. Internal prep call for the CSA to perform knowledge transfer and coordinate with the account team on what is the priority work to wrap an accelerator around
-   2. Customer Objectives identified prior to the Order Form being signed are to be documented by CSA and shared with account team
+1. Internal Kick-off Call  
+   1. Internal prep call for the CSA to perform knowledge transfer and coordinate with the account team on what is the priority work to wrap an accelerator around.  
+   2. Customer objectives identified prior to the Order Form being signed are to be documented by CSA and shared with the account team.  
 
-3. Customer Kick-off Call
-   1. This will be scheduled within the first week of the agreement, subject to customer availability.
-   2. If customer is not available in first week for a formal kick-off, both ASE and CSA should begin work async and will start any needed conversations via email.
-   3. Utilize the slide [template](https://docs.google.com/presentation/d/1uQpuSwPV43ZkNvG18y_XBRRoBaCtWiyhYoHHAT3QBY4/edit) (internal)
-   4. Share the .pdf version post call as well as immediate next steps, such as a discovery workshop
+2. Customer Kick-off Call  
+   1. This will be scheduled within the first week of the agreement, subject to customer availability.  
+   2. If the customer is not available in the first week for a formal kick-off, both ASE and CSA should begin work asynchronously and will start any needed conversations via email.  
+   3. Utilize the slide [template](https://docs.google.com/presentation/d/1uQpuSwPV43ZkNvG18y_XBRRoBaCtWiyhYoHHAT3QBY4/edit) (internal).  
+   4. Share the `.pdf` version post-call as well as immediate next steps, such as a discovery workshop.  
 
-4. Discovery Workshop
-   1. The outcome of this workshop is to gain an in depth understanding of the customer's business objectives/ success metrics, technology stack and processes.
-   2. This is the first step in defining a success plan with the customer as well as identifying a potential accelerator backlog to work on.
-   3. Tip: Run the discovery workshop within 2 weeks of Kickoff call to enable triage of accelerator development backlog items and feedback to customer. Leverage this interaction to get a baseline for DORA metrics you will be impacting with your accelerator development
-   3. Utilize this [intake questionnaire](https://gitlab.com/gitlab-com/customer-success/success-services/csa/-/issues/15) as a starting point. Here is an example of a discovery document created for one of our customers [internal discovery document](https://docs.google.com/document/d/1yf1RGS-pNGccHfGiiIVsvg8VL56ctJNSMZDeRLT1eDs/edit?tab=t.0#heading=h.azdjicqpfuh9) 
+3. Discovery Workshop  
+   1. The outcome of this workshop is to gain an in-depth understanding of the customer's business objectives/success metrics, technology stack, and processes.  
+   2. This is the first step in defining a success plan with the customer as well as identifying a potential accelerator backlog to work on.  
+   3. Tip: Run the discovery workshop within two weeks of the kickoff call to enable triage of accelerator development backlog items and provide feedback to the customer. Leverage this interaction to get a baseline for DORA metrics you will be impacting with your accelerator development.  
+   4. Utilize this [intake questionnaire](https://gitlab.com/gitlab-com/customer-success/success-services/csa/-/issues/15) as a starting point. Here is an example of a discovery document created for one of our customers: [internal discovery document](https://docs.google.com/document/d/1yf1RGS-pNGccHfGiiIVsvg8VL56ctJNSMZDeRLT1eDs/edit?tab=t.0#heading=h.azdjicqpfuh9).  
 
 ### Logging Accelerator Events
 
