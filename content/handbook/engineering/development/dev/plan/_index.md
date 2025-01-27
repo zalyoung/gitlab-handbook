@@ -160,6 +160,22 @@ If you find you do not have access, reach out to a Plan PM and ask to be added a
 
 UX Research calls are scripted calls designed to mitigate bias and to address specific questions related to user needs and/or usability of the product. A selection of UX Research calls are available in the [Plan Customer Calls](https://gitlab.dovetailapp.com/projects/3Smr4JOoU7a5pnWqazMfr2/readme) Dovetail Project in the column titled UXR - Research and Validation.
 
+#### Customer feedback channel (experiment)
+
+To facitilate direct feedback from customers, sales and support teams we created [#s_plan_customers_feedback](link here) slack channel.
+
+Examples of things you're welcome share there:
+- Direct customer feedback on features or bugs, including quotes from issues and verbal discussions
+- Feedback on our roadmap
+- Notes about customer interest in plan features
+
+**Things that require response from the development team should be shared in other channels instead.**
+This channel is meant to be read-only, and you should not expect a prompt reply there.
+Examples:
+- Requests for help should go to special project
+- Questions of any kind should be directed to best fitting channel
+- New bugs or feature requests should go into an issue, but you can share the issue link
+
 ### Board Refinement
 
 We perform many board refinement tasks asynchronously, using GitLab issues
