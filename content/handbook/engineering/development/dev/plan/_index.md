@@ -162,9 +162,9 @@ UX Research calls are scripted calls designed to mitigate bias and to address sp
 
 #### Customer feedback channel (experiment)
 
-This is an experiment, we run it until 2025-02-01, and decide whether we want to continue or remove the channel if it doesn't bring value.
+This is an experiment, we run it until 2025-04-30, and decide whether we want to continue or remove the channel if it doesn't bring value.
 
-To facitilate direct feedback from customers, sales and support teams we created [#s_plan_customers_feedback](link here) slack channel.
+To facitilate direct feedback from customers, sales and support teams we created [#s_plan-customers-feedback](link here) slack channel.
 
 Examples of things you're welcome share there:
 
