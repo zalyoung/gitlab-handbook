@@ -28,7 +28,7 @@ Alternatively:
 1. In the bottom left of the calendar, click "Add to Google Calendar"
 1. Follow instructions
 
-#### Review previous calls
+### Review previous calls
 
 All recorded customer calls, with consent of the customer, can be made available for team-members to view in Dovetail.
 
