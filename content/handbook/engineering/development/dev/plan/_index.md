@@ -365,7 +365,7 @@ _Weighting UX issues_
 
 All issues worked on by a designer should have a UX weight before work is scheduled for a milestone.
 
-- Issue weights should follow the [UX Department's definitions](/handbook/product/ux/product-designer/#ux-issue-weights).
+- Issue weights should follow the [UX Department's definitions](/handbook/product/ux/product-designer/capacity-management/#ux-issue-weights).
 - If the issue is a dedicated [UX] issue, then the issue weight can be added to the `weight` field, but it should also be duplicated as a ~'design weight:" label. This is for UX Department planning purposes. For smaller issues where implementation and UX work happen in the same issue, UX weight should be added using the ~'design weight:" label (the `weight` field is used by engineering).
 - Product Managers and Product Designers can use issue weights to ensure the milestone has the right amount of work, to discuss tradeoffs, or to initiate conversations about breaking work into smaller pieces for high-weight items.
 
@@ -402,7 +402,7 @@ This enables us to differentiate these by persona and workflow. While they may s
 ##### Guiding principles
 
 - The DRI for the user experience is the Product Designer assigned to the group that is using the work item architecture for their object(s).
-- We work in a user-first mindset, rather then technology-first. To support this, we have created a [research plan](/handbook/product/ux/stage-group-ux-strategy/plan/plan/#ux-research-for-work-items) for supporting work item initiatives.
+- We work in a user-first mindset, rather then technology-first. To support this, we have created a [research plan](broken-link) for supporting work item initiatives.
 - [Pajamas](https://design.gitlab.com/) is our design system and new patterns introduced via work item efforts need to solve a real problem that users have, be validated by user research, and follow the [Pajamas contribution process](https://design.gitlab.com/get-started/contributing/).
 - We follow [Pajamas principles](https://design.gitlab.com/get-started/principles/) for the user experience.
 - MVCs provide value to users, are bug-free and a highly usable experience, as described in [Product Principles](/handbook/product/product-principles/#the-minimal-valuable-change-mvc).
@@ -603,7 +603,7 @@ Some sessions may require small purchases to participate fully; for example, ing
 
 Unless communicated in advance these are **not expensable**.
 
-The DRI for organizing Team Day may pursue a budget for expenses under existing budgets; such as the [team building](/handbook/finance/expenses/#team-building) budget, or [fun budget](/handbook/engineering/development/#fy24-team-building-fun-budget). If successful it should be made clear to team-members well in advance:
+The DRI for organizing Team Day may pursue a budget for expenses under existing budgets; such as the [team building](/handbook/finance/expenses/#team-building) budget. If successful it should be made clear to team-members well in advance:
 
 - What purchases qualify for reimbursement.
 - The policy the expense qualifies under; including handbook link, policy category, and classification in Navan.
