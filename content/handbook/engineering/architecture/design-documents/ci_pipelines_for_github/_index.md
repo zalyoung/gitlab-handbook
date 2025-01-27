@@ -100,8 +100,9 @@ The steps here will be in accordance with the diagram above
 1. Rails will pass the necessary params including the `access_token` to the runner. It will also update the pipeline on GitHub side to "running" via GitHub API.
 1. The runner will directly call GitHub with the `access_token` to fetch and pull the repository for that branch
 1. When the pipeline finishes, runner will update GitLab as normal
-1. GitLab will use the `access_token` to post a commit on GitHub with the pipeline's sha. Notifying them the commit has a finished pipeline.
+1. GitLab will use the `installation access token` to post a commit on GitHub with the pipeline's sha. Notifying them the commit has a finished pipeline.
     1. [GitHub commit status API](https://docs.GitHub.com/en/rest/commits/statuses?apiVersion=2022-11-28#create-a-commit-status)
+    1. This will be limited to the 5k/15k rate limits per hour. But this should be sufficient for our customers.
 
 **Step 3 expanded:**
 
@@ -129,7 +130,7 @@ For Step 4.
 
 Another option is for the GitHub App to use Installation Access Tokens.
 
-This would be a great option if not for the rate limits. As IAT have a limit of 5k/hour calls for GitHub.com and 15k/hour for GitHub Enterprise, this is not enough for large customers without a caching mechanism in place.
+This would be a great option if not for the rate limits. As IAT have a limit of 5k/hour calls for GitHub.com and 15k/hour for GitHub Enterprise, this is not enough for large customers without a caching mechanism in place. This limit is on the organization level and shared between all their repositories.
 
 [Authentication as a GitHub App installation](https://docs.github.com/en/apps/creating-github-apps/authenticating-with-a-github-app/authenticating-as-a-github-app-installation)
 
