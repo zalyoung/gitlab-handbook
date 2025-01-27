@@ -13,7 +13,7 @@ Note: this section only discusses items in the offboarding where People Engineer
 
 ```mermaid
 graph TD
-  A[PEA triggers Slack command for career mobility issue] --> B
+  A[People Connect triggers Slack command for career mobility issue] --> B
   B[Career mobility issue is created, team member is assigned] --> C
   C[Career mobility issue is automatically marked confidential] --> D
   D[Manager and Interview training issues are opened if people manager] --> E
@@ -32,7 +32,7 @@ The issue will be automatically assigned to the following people:
 - the new manager of the team member
 - the People Business Partner for the team member's department or division
 
-This issue is then added to the [team member's epic]({{< ref "/handbook/people-group/engineering/employment-issues#epics" >}}).
+This issue is then added to the [team member's epic](/handbook/people-group/engineering/employment-issues#epics).
 
 ## Make confidential
 
@@ -42,7 +42,11 @@ Sometimes, issues are created by humans instead of a bot, in this case they can 
 
 This is the same as the manager an interview training issues we create for onboarding. Except that for onboarding we only create it after day 7 and for career mobility we create it at the same time as the career mobility issue.
 
-Read [here]({{< ref "/handbook/people-group/engineering/onboarding#manager-and-interview-training-issues" >}})
+Read [here](/handbook/people-group/engineering/onboarding#manager-and-interview-training-issues)
+
+## Baseline Entitlements / Access Request
+
+Once per day we run a job to open any baseline entitlment access requests for the team members new role. This is handled by the `dailycareermobilityaccessrequests` job in the employment automation project. This job can also be ran utilize `/pops` to run adhoc.
 
 ## Access request reminders
 

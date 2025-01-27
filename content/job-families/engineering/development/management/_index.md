@@ -21,33 +21,11 @@ The Senior Engineering Manager, Development is a [grade 9](/handbook/total-rewar
 
 #### Responsibilities
 
-- Manage up to six engineering teams
-- Conduct managerial interviews for candidates, and train engineering managers to do said interviews
-- Generate and implement process improvements, especially cross-team processes
-- Hold regular [1:1s](/handbook/leadership/1-1/) with team managers and skip-level 1:1s with all members of their team
-- Management mentorship
+Senior Engineering Manager, Development responsibilities extend those of [Senior Manager, Engineering](/handbook/job-families/engineering/engineering-management/#senior-manager-engineering-responsibilities) with [specific responsibities for the Development role](/handbook/job-families/engineering/development/management/senior-manager/).
 
 #### Requirements
 
-- Technical credibility: Past experience as a product engineer and leading teams thereof
-- Management credibility: Past experience (3 to 5 years) as an engineering manager
-- Ability to understand, communicate and improve the quality of multiple teams
-- Demonstrate longevity at at least one recent job
-- Ability to be successful managing at a remote-only company
-- Humble, servant leader
-- Ability to use GitLab
-
-#### Nice-to-have Requirements
-
-- Be a user of GitLab, or familiar with our company
-- Prior Developer Platform or Tool industry experience
-- Prior product company experience
-- Prior high-growth startup experience
-- Experience working on systems at massive (i.e. consumer) scale
-- Deep open source experience
-- Experience working with global teams
-- We value diversity, inclusion and belonging in leadership
-- Be inquisitive: Ask great questions
+Senior Engineering Manager, Development requirements match those of [Senior Manager, Engineering](/handbook/job-families/engineering/engineering-management/#senior-manager-engineering-requirements).
 
 ### Director, Development
 
@@ -57,17 +35,13 @@ The Director of Development role extends the [Senior Engineering Manager](#senio
 
 The  Director, Development is a [grade 10](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
 
+#### Responsibilities
+
+Director, Development responsibilities extend those of [Director, Engineering](/handbook/job-families/engineering/engineering-management/#director-engineering-responsibilities) with [specific responsibities for the Development role](/handbook/job-families/engineering/development/management/director/).
+
 #### Requirements
 
-- Excellent communication skills
-- Expert hiring manager skills and experience
-- A strong people management philosophy for managers and engineers
-- Experience managing managers
-- Agile project management skills
-- Ability to understand, communicate and improve the quality of multiple teams
-- Demonstrate longevity at at least one recent job
-- Ability to be successful managing at a remote-only company
-- Humble, servant leader
+Director, Development requirements match those of [Director, Engineering](/handbook/job-families/engineering/engineering-management/#director-engineering-requirements).
 
 #### Nice-to-have Requirements
 
@@ -89,13 +63,13 @@ The Distinguished Engineer is a [grade 10](/handbook/total-rewards/compensation/
 
 #### Responsibilities
 
-The Distinguished Engineer role extends the [Staff Frontend Engineer](/job-families/engineering/development/frontend#staff-frontend-engineer) and the [Staff Backend Engineer](/job-families/engineering/development/backend/#staff-backend-engineer) roles as the individual equivalent of a Director, Engineering.
+The Distinguished Engineer role extends the [Principal Engineer](/job-families/engineering/development/management/principal-engineer/) role as the individual equivalent of a Director, Engineering.
 
 - At this level the person's contribution plays to their strength and role on the team. These contributions come in different forms such as: Ship *large* feature sets with team, completes *feature discovery* independently, publishes technical blogs and speaks at conferences, interfaces with customers and provides technical direction to stakeholders (Product, Sales, others)
 - *Generate* technical and process improvements
 - Contribute to the sense of psychological safety on your team
 - Work cross-departmentally
-- Be a technical mentor for other backend engineers
+- Be a technical mentor for other engineers
 - Author architecture documents for epics
 - Hold team members accountable within their roles
 
@@ -165,10 +139,10 @@ The VP of Development is a [grade 12](/handbook/total-rewards/compensation/compe
 
 #### Performance Indicators
 
-- [Response to Community SLO](https://about.gitlab.com/handbook/engineering/development/performance-indicators/#response-to-community-slo)
-- [Hiring Actual vs. Plan](https://about.gitlab.com/handbook/engineering/performance-indicators/#engineering-hiring-actual-vs-plan)
-- [Team/Group MR Rate](https://about.gitlab.com/handbook/engineering/development/performance-indicators/#mr-rate)
-- [Handbook Update Frequency](https://about.gitlab.com/handbook/engineering/development/performance-indicators/#handbook-update-frequency)
+- [Response to Community SLO](/handbook/engineering/development/performance-indicators/#response-to-community-slo)
+- [Hiring Actual vs. Plan](/handbook/engineering/performance-indicators/#engineering-hiring-actual-vs-plan)
+- [Team/Group MR Rate](/handbook/engineering/development/performance-indicators/#mr-rate)
+- [Handbook Update Frequency](/handbook/engineering/development/performance-indicators/#handbook-update-frequency)
 
 #### Hiring Process
 
@@ -202,12 +176,12 @@ The Chief Technology Officer is a [grade 12](/handbook/total-rewards/compensatio
 
 #### Performance Indicators
 
-- [Response to Community SLO](https://about.gitlab.com/handbook/engineering/development/performance-indicators/#response-to-community-slo)
-- [Hiring Actual vs. Plan](https://about.gitlab.com/handbook/engineering/performance-indicators/#engineering-hiring-actual-vs-plan)
-- [Development Department merge request rate](https://about.gitlab.com/handbook/engineering/development/performance-indicators/#development-department-mr-rate)
-- [Diversity](https://about.gitlab.com/handbook/engineering/performance-indicators/#diversity)
-- [Handbook Update Frequency](https://about.gitlab.com/handbook/engineering/performance-indicators/#handbook-update-frequency)
-- [Team Member Retention](https://about.gitlab.com/handbook/engineering/performance-indicators/#team-member-retention)
+- [Response to Community SLO](/handbook/engineering/development/performance-indicators/#response-to-community-slo)
+- [Hiring Actual vs. Plan](/handbook/engineering/performance-indicators/#engineering-hiring-actual-vs-plan)
+- [Development Department merge request rate](/handbook/engineering/development/performance-indicators/#development-department-mr-rate)
+- [Diversity](/handbook/engineering/performance-indicators/#diversity)
+- [Handbook Update Frequency](/handbook/engineering/performance-indicators/#handbook-update-frequency)
+- [Team Member Retention](/handbook/engineering/performance-indicators/#team-member-retention)
 
 #### Hiring Process
 
@@ -224,4 +198,4 @@ Candidates for this position can generally expect the hiring process to follow t
 
 ## Career Ladder
 
-For more details on the engineering career ladders, please review the [engineering career development](https://about.gitlab.com/handbook/engineering/career-development/#roles) handbook page.
+For more details on the engineering career ladders, please review the [engineering career development](/handbook/engineering/careers/#roles) handbook page.

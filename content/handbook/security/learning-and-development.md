@@ -8,11 +8,11 @@ This page is created as a [result of the FY21Q4 Culture Amp survey](https://gitl
 
 ### L&D resources available to all team members
 
-GitLab provides a multitude of opportunities to learn and develop new skills on the topics of leadership, management, and DIB. GitLab Learn is the platform of choice that allows self-paced, on-demand courses. It also contains trainings offered through [LinkedIn Learning](/handbook/people-group/learning-and-development/linkedin-learning/). If you're looking for a more flexible approach to learning the aforementioned skills, then perhaps the [learning initiatives](/handbook/people-group/learning-and-development/learning-initiatives/) provided by the L&D team are something for you to consider.
+GitLab provides a multitude of opportunities to learn and develop new skills on the topics of leadership, management, and DIB. GitLab Learn is the platform of choice that allows self-paced, on-demand courses. It also contains trainings offered through [LinkedIn Learning](/handbook/people-group/learning-and-development/self-paced-learning/#linkedin-learning). If you're looking for a more flexible approach to learning the aforementioned skills, then perhaps the [learning initiatives](/handbook/people-group/learning-and-development/learning-initiatives/) provided by the L&D team are something for you to consider.
 
 ### Growth and Development Budget
 
-Within the Growth and Development benefit, GitLab allows team members to spend [$10,000 on Growth and Development annually](/handbook/total-rewards/benefits/general-and-entity-benefits/#growth-and-development-benefit). The individual Growth and Development budget can be used to attend conferences and workshops, obtain certifications, professional coaching, academic study and more. The extensive list of Growth and Development types of reimbursement can be found [on this page](/handbook/total-rewards/benefits/general-and-entity-benefits/growth-and-development/#types-of-growth-and-development-reimbursements).
+Within the Growth and Development benefit, GitLab allows team members to spend [$10,000 on Growth and Development annually](/handbook/total-rewards/benefits/general-and-entity-benefits/#growth-and-development-benefit). The individual Growth and Development budget can be used to attend conferences and workshops, obtain certifications, professional coaching, academic study and more. The extensive list of Growth and Development types of reimbursement can be found [on this page](/handbook/people-group/learning-and-development/growth-and-development/#types-of-growth-and-development-reimbursements).
 
 ## Learning and development within GitLab Security
 
@@ -23,7 +23,7 @@ The ability to pursue professional trainings is of critical importance to securi
 Some great security trainings are available at the following providers:
 
 - [SANS](https://www.sans.org/cyber-security-courses/)
-- [Offensive Security](https://www.offensive-security.com/courses-and-certifications/)
+- [Offensive Security](https://www.offsec.com/courses-and-certifications/)
 - [PluralSight](https://www.pluralsight.com/browse/information-cyber-security)
 - [Udemy](https://www.udemy.com/courses/it-and-software/network-and-security/)
 
@@ -35,7 +35,7 @@ It is recognized that there is a trade off with this initiative using the fundam
 
 ### Leadership shadowing
 
-We currently have the [Security Shadow]({{< ref "security-shadow" >}}) programme available to all team members. In addition to that we're also working on a Security Leadership shadowing idea, which would be based around the CEO Shadow model. We'll update this entry as we make progress on it.
+We currently have the [Security Shadow]({{< ref "security-shadow" >}}) program available to all team members. In addition to that we're also working on a Security Leadership shadowing idea, which would be based around the CEO Shadow model. We'll update this entry as we make progress on it.
 
 ### Share what you have learned with other team members
 
@@ -47,13 +47,13 @@ You'll be expected to provide a summary, key take-aways, and any supporting mate
 
 - Create a new project and name it accordingly
 - Provide a markup formatted write-up in the form of a README.md in the project, documenting as much you can, but at least the following:
-    - Name of the training
-    - Date of the training
-    - URLs to the training
-    - Description of the training
-    - Personal impression
+  - Name of the training
+  - Date of the training
+  - URLs to the training
+  - Description of the training
+  - Personal impression
 - Upload as much supporting material to the project as you're allowed to by the authors of the training
 
 #### Show & Tell
 
-The Security Department Show & Tell takes place every 2nd Thrusday, changing times each time to ensure both APAC and EMEA team members are able to attend at least once a month. Everyone at GitLab is welcome to join the Show & Tell and it's actively advertised in #security-department. The purpose of the Show & Tell is to encourage the sharing of knowledge with your Security peers and other team members - anything from proof-of-concepts, demos, ideas, books, trainings will do.
+The Security Department Show & Tell takes place every 2nd Thrusday, changing times each time to ensure both APAC and EMEA team members are able to attend at least once a month. Everyone at GitLab is welcome to join the Show & Tell and it's actively advertised in #security-division. The purpose of the Show & Tell is to encourage the sharing of knowledge with your Security peers and other team members - anything from proof-of-concepts, demos, ideas, books, trainings will do.

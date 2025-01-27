@@ -1,11 +1,8 @@
 ---
 title: "Security Awareness Training Standard"
 description: "Security Training Standard"
+controlled_document: true
 ---
-
-{{% alert title="This is a Controlled Document" color="danger" %}}
-Inline with GitLab's regulatory obligations, changes to [controlled documents]({{< ref "controlled-document-procedure" >}}) must be approved or merged by a code owner. All contributions are welcome and encouraged.
-{{% /alert %}}
 
 ## Purpose
 
@@ -47,7 +44,7 @@ Exceptions during the active campaign will be made for GitLab team members on ex
 
 The GitLab [Phishing Training Program]({{< ref "phishing" >}}) is designed to educate and evaluate GitLab's ability to detect and prevent phishing attempts.  Ongoing [phishing simulations and trainings]({{< ref "security-training" >}}) are conducted once per quarter via [ProofPoint](https://gitlab.ws01-securityeducation.com/), GitLab's third-party provider, and requires participation and completion by all assigned GitLab Team Members and contractors/TSPs.
 
-Remember: If you see something, say something, and always report suspicious emails via [PhishAlarm]({{< ref "handbook/security#option-1-preferred" >}}).
+Remember: If you see something, say something, and always report suspicious emails via [PhishArm]({{< ref "handbook/security/security-assurance/governance/phishing/#what-to-do-if-you-suspect-an-email-is-a-phishing-attack" >}}).
 
 ### Data Classification Training
 
@@ -65,11 +62,11 @@ As our Security Training Program matures, additional trainings will be identifie
 
 ## Exceptions
 
-Exceptions to this procedure will be tracked as per the [Information Security Policy Exception Management Process]({{< ref "/handbook/security#information-security-policy-exception-management-process" >}}).
+Exceptions to this procedure will be tracked as per the [Information Security Policy Exception Management Process](/handbook/security/controlled-document-procedure/#exceptions).
 
 ## References
 
-- Parent Policy: [Information Security Policy]({{< ref "/handbook/security" >}})
+- Parent Policy: [Information Security Policy](/handbook/security)
 - [Security Awareness Training Program]({{< ref "sec-awareness-training" >}})
 - [Phishing Program]({{< ref "phishing" >}})
 - [Data Classification Standard]({{< ref "data-classification-standard" >}})

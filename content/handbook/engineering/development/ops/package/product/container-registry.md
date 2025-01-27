@@ -1,14 +1,7 @@
 ---
-
 title: Package Stage - Container Registry
 description: "The goal of this page is to document specific processes and tools for the GitLab Container Registry project."
 ---
-
-
-
-
-
-
 
 ## Overview
 
@@ -16,11 +9,11 @@ The goal of this page is to document specific processes and tools for the [GitLa
 
 ## Historical Context
 
-In milestone 8.8, GitLab launched the MVC of the Container Registry. This feature integrated the [Docker Distribution registry](https://docs.docker.com/registry/) into GitLab so that any GitLab user can have a space to publish and share container images. 
+In milestone 8.8, GitLab launched the MVC of the Container Registry. This feature integrated the [Docker Distribution registry](https://docs.docker.com/registry/) into GitLab so that any GitLab user can have a space to publish and share container images.
 
-But there was an inherent problem with Docker Distribution. When you delete a container image tag, it's not actually deleted from storage. Instead, it is marked for deletion, and it will only be removed from storage when garbage collection is run. The problem is that the registry must be set to read-only mode or downtime to run garbage collection. Given the scale and SLAs of GitLab.com, it has not been possible to schedule downtime. 
+But there was an inherent problem with Docker Distribution. When you delete a container image tag, it's not actually deleted from storage. Instead, it is marked for deletion, and it will only be removed from storage when garbage collection is run. The problem is that the registry must be set to read-only mode or downtime to run garbage collection. Given the scale and SLAs of GitLab.com, it has not been possible to schedule downtime.
 
-Fast forward many milestones, and the problem has continued to grow linearly. The GitLab.com registry consumes petabytes of storage which costs tens of thousands of dollars every month. 
+Fast forward many milestones, and the problem has continued to grow linearly. The GitLab.com registry consumes petabytes of storage which costs tens of thousands of dollars every month.
 
 ### What's been done so far?
 
@@ -30,19 +23,19 @@ Two years ago, the Package group and GitLab Staff engineers had a lengthy [discu
 - Building our in-house registry
 - Forking Docker Distribution and iterating on that code
 
-In the end, the decision was made to fork Docker distribution and make the requisite updates to add support for online garage collection. 
+In the end, the decision was made to fork Docker distribution and make the requisite updates to add support for online garage collection.
 
-Along the way, we made several other changes and modifications, which were all targeted to help GitLab and its customers tackle this storage problem. 
+Along the way, we made several other changes and modifications, which were all targeted to help GitLab and its customers tackle this storage problem.
 
-First, we optimized the existing garbage collection algorithms for [GCS](https://gitlab.com/groups/gitlab-org/-/epics/2552) and [S3](https://gitlab.com/groups/gitlab-org/-/epics/2553), so that large enterprises could be unblocked from running garbage collection, even if it required downtime. This helped improve the performance of the algorithm by 90+ percent. 
+First, we optimized the existing garbage collection algorithms for [GCS](https://gitlab.com/groups/gitlab-org/-/epics/2552) and [S3](https://gitlab.com/groups/gitlab-org/-/epics/2553), so that large enterprises could be unblocked from running garbage collection, even if it required downtime. This helped improve the performance of the algorithm by 90+ percent.
 
-We also added programmatic [cleanup policies](https://docs.gitlab.com/ee/user/packages/container_registry/#cleanup-policy) to help customers automatically remove (even if they were not deleted from storage) old unused images. 
+We also added programmatic [cleanup policies](https://docs.gitlab.com/ee/user/packages/container_registry/#cleanup-policy) to help customers automatically remove (even if they were not deleted from storage) old unused images.
 
-Fast forward a bit, and, as a team, we've evaluated and iterated on designs for the implementation of online garbage collection and several plans for the migration of one registry to the next. The [epic](https://gitlab.com/groups/gitlab-org/-/epics/6405) details the work required to deploy the new metadata database to production and migrate all new and existing repositories to use the feature. 
+Fast forward a bit, and, as a team, we've evaluated and iterated on designs for the implementation of online garbage collection and several plans for the migration of one registry to the next. The [epic](https://gitlab.com/groups/gitlab-org/-/epics/6405) details the work required to deploy the new metadata database to production and migrate all new and existing repositories to use the feature.
 
 ### Why we are excited
 
-The metadata database is not just about online garbage collection. It unblocks a whole new set of potential features and capabilities that will help our customers to manage and deploy their software reliably. For example, it unblocks some much-needed updates for the [API](https://gitlab.com/groups/gitlab-org/-/epics/5683) so that we can support a more [robust user interface](https://gitlab.com/groups/gitlab-org/-/epics/3211), add enterprise features like [image signing](https://gitlab.com/gitlab-org/container-registry/-/issues/83) and [protection](https://gitlab.com/gitlab-org/gitlab/-/issues/18984) and provide more stability and reliability. 
+The metadata database is not just about online garbage collection. It unblocks a whole new set of potential features and capabilities that will help our customers to manage and deploy their software reliably. For example, it unblocks some much-needed updates for the [API](https://gitlab.com/groups/gitlab-org/-/epics/5683) so that we can support a more [robust user interface](https://gitlab.com/groups/gitlab-org/-/epics/3211), add enterprise features like [image signing](https://gitlab.com/gitlab-org/container-registry/-/issues/83) and [protection](https://gitlab.com/gitlab-org/gitlab/-/issues/18984) and provide more stability and reliability.
 
 By forking the project, we continued improving the application and implementing several bug fixes, performance improvements, and additional features that were not available or accepted upstream. Consequently, due to the rate of changes and how the codebases diverged, we decided to detach from upstream in [June 2020](https://gitlab.com/gitlab-org/container-registry/-/issues/139). Since then, we have been evolving the project in isolation. We continue to source changes from upstream whenever necessary (mostly security fixes), but these must be merged manually.
 
@@ -52,17 +45,17 @@ Although some of our engineers contribute to the upstream Distribution project, 
 
 ## Documentation
 
-The documentation is currently scattered across multiple places, namely this handbook page, [docs.gitlab.com](http://docs.gitlab.com/), the [project repository](https://gitlab.com/gitlab-org/container-registry), and the upstream [Docker documentation](https://docs.docker.com/registry/). This is a [known issue](https://gitlab.com/groups/gitlab-org/-/epics/5965) and something we intend to address.
+The documentation is currently scattered across multiple places, namely this handbook page, [docs.gitlab.com](https://docs.gitlab.com/), the [project repository](https://gitlab.com/gitlab-org/container-registry), and the upstream [Docker documentation](https://docs.docker.com/registry/). This is a [known issue](https://gitlab.com/groups/gitlab-org/-/epics/5965) and something we intend to address.
 
 ### Standards
 
-Being a fork of the original Docker Distribution registry, the GitLab Container Registry is based on the [V1](https://docs.docker.com/registry/spec/manifest-v2-1/) (deprecated in [13.4](https://about.gitlab.com/releases/2020/09/22/gitlab-13-4-released/#deprecate-pulls-that-use-v1-of-the-docker-registry-api) and no longer supported since [13.8](https://about.gitlab.com/releases/2021/01/22/gitlab-13-8-released/#deprecate-pulls-that-use-v1-of-the-docker-registry-api)) and the [V2](https://docs.docker.com/registry/spec/manifest-v2-2/) Docker Image Specification. These specifications define the format and content of [Manifests](https://docs.docker.com/registry/spec/manifest-v2-2/#image-manifest) and [Manifest Lists](https://docs.docker.com/registry/spec/manifest-v2-2/#manifest-list), used to describe Docker container images.
+Being a fork of the original Docker Distribution registry, the GitLab Container Registry is based on the [V1](https://docs.docker.com/registry/) (deprecated in [13.4](https://about.gitlab.com/releases/2020/09/22/gitlab-13-4-released/#deprecate-pulls-that-use-v1-of-the-docker-registry-api) and no longer supported since [13.8](https://about.gitlab.com/releases/2021/01/22/gitlab-13-8-released/#deprecate-pulls-that-use-v1-of-the-docker-registry-api)) and the [V2](https://distribution.github.io/distribution/spec/manifest-v2-2/) Docker Image Specification. These specifications define the format and content of [Manifests](https://distribution.github.io/distribution/spec/manifest-v2-2/#image-manifest) and [Manifest Lists](https://distribution.github.io/distribution/spec/manifest-v2-2/#manifest-list), used to describe Docker container images.
 
-The GitLab Container Registry is also based on the original [Docker Registry HTTP API V2](https://docs.docker.com/registry/spec/api/) specification, which defines the contract of the single entrypoint for the Container Registry - its HTTP API.
+The GitLab Container Registry is also based on the original [Docker Registry HTTP API V2](https://docs.docker.com/registry/) specification, which defines the contract of the single entrypoint for the Container Registry - its HTTP API.
 
 Due to the need to standardize the container distribution mechanism across vendors/providers, in 2018, [Docker donated](https://www.docker.com/blog/docker-registry-api-standardized-oci/) the HTTP API V2 specification to the [Open Container Initiative (OCI)](https://opencontainers.org/), which is a governance structure under the [Linux Foundation](https://www.linuxfoundation.org/) maintaining open industry standards around containerization technologies. This led to the creation of the [OCI Distribution Specification](https://github.com/opencontainers/distribution-spec/blob/main/spec.md), which is the current leading standard and therefore the one that the GitLab Container Registry HTTP API adheres.
 
-Similarly, Docker also [contributed its image specification to OCI](https://www.docker.com/blog/oci-release-of-v1-0-runtime-and-image-format-specifications/), leading to the creation of a vendor agnostic [OCI Image Specification](https://github.com/opencontainers/image-spec/blob/main/spec.md). This is the standard that the GitLab Container Registry adheres to when it comes to the [Image Manifest](https://github.com/opencontainers/image-spec/blob/main/manifest.md) and [Image Index](https://github.com/opencontainers/image-spec/blob/main/image-index.md) (the equivalent to Docker's Image Manifest Lists) formats.
+Similarly, Docker also [contributed its image specification to OCI](https://web.archive.org/web/20220522225041/https://www.docker.com/blog/oci-release-of-v1-0-runtime-and-image-format-specifications/), leading to the creation of a vendor agnostic [OCI Image Specification](https://github.com/opencontainers/image-spec/blob/main/spec.md). This is the standard that the GitLab Container Registry adheres to when it comes to the [Image Manifest](https://github.com/opencontainers/image-spec/blob/main/manifest.md) and [Image Index](https://github.com/opencontainers/image-spec/blob/main/image-index.md) (the equivalent to Docker's Image Manifest Lists) formats.
 
 The OCI Image and Distribution specifications are backward compatible with the original Docker specifications and are actively being worked on and therefore subject to changes. The GitLab Container Registry should follow the progress of these specifications to maintain OCI compliance. We are free to extend the HTTP API with additional functionality if needed, as long as we can keep backward compatibility with the OCI Distribution specification.
 
@@ -75,10 +68,10 @@ The following documentation is especially relevant for engineers working with th
 - [Contributing](https://gitlab.com/gitlab-org/container-registry/-/tree/master/docs-gitlab#contributing) - We stay as close as possible to the general GitLab development guidelines but enforce stricter rules whenever appropriate. Here is where we document those specific contributing processes.
 - [Development Guidelines](https://gitlab.com/gitlab-org/container-registry/-/tree/master/docs-gitlab#development) - Links for specific development documentation, ranging from setup instructions to general GitLab development guidelines extensions.
 - [Technical Documentation](https://gitlab.com/gitlab-org/container-registry/-/tree/master/docs-gitlab#technical-documentation) - Documentation about specific components or features of the application. This includes components and features inherited from upstream (with no documentation available elsewhere) and new ones.
-- [Configuration](https://gitlab.com/gitlab-org/container-registry/-/blob/master/docs/configuration.md) - Documentation about the available application settings. The [upstream configuration documentation](https://docs.docker.com/registry/configuration/) from Docker was the base for this, but since then, we have added, deprecated, and changed multiple configurations.
-- [Storage Drivers](https://docs.docker.com/registry/storage-drivers/) - The documentation for the storage drivers. This is only available upstream. Whenever we add or change a storage driver settings, we document it [here](https://gitlab.com/gitlab-org/container-registry/-/blob/master/docs-gitlab/README.md#configuration).
-- [Notifications](https://docs.docker.com/registry/notifications/) - Documentation about the asynchronous webhook notifications feature.
-- [Authentication](https://docs.docker.com/registry/spec/auth/) - All about the authentication specification implemented by the Container Registry and supported by GitLab Rails (the authentication provider).
+- [Configuration](https://gitlab.com/gitlab-org/container-registry/-/blob/master/docs/configuration.md) - Documentation about the available application settings. The [upstream configuration documentation](https://docs.docker.com/registry/) from Docker was the base for this, but since then, we have added, deprecated, and changed multiple configurations.
+- [Storage Drivers](https://docs.docker.com/registry/) - The documentation for the storage drivers. This is only available upstream. Whenever we add or change a storage driver settings, we document it [here](https://gitlab.com/gitlab-org/container-registry/-/blob/master/docs-gitlab/README.md#configuration).
+- [Notifications](https://docs.docker.com/registry/) - Documentation about the asynchronous webhook notifications feature.
+- [Authentication](https://docs.docker.com/registry/) - All about the authentication specification implemented by the Container Registry and supported by GitLab Rails (the authentication provider).
 - [HTTP API Specification](https://gitlab.com/gitlab-org/container-registry/-/blob/master/docs/spec/api.md) - This is based on the OCI Distribution Specification (see [Standards](#standards) for more details) but we have extended it with additional functionality. A log of changes is kept in the [project documentation](https://gitlab.com/gitlab-org/container-registry/-/blob/master/docs-gitlab/README.md#api).
 - [Online Garbage Collection](https://gitlab.com/gitlab-org/container-registry/-/blob/master/docs-gitlab/db/online-garbage-collection.md) - Documentation about the implementation of online garbage collection.
 - [Request Flow](https://gitlab.com/gitlab-org/container-registry/-/blob/master/docs-gitlab/auth-request-flow.md) - Sequence diagrams explaining the request flow for authentication, pull and push requests.
@@ -92,9 +85,9 @@ The following links are related to administrative tasks, mainly for self-managed
 
 ### Architecture
 
-Documentation about the current architecture or any significant changes to it. The latter usually come in the form of an [Architecture Blueprint](https://about.gitlab.com/handbook/engineering/architecture/workflow/):
+Documentation about the current architecture or any significant changes to it. The latter usually come in the form of an [Architecture Blueprint](/handbook/engineering/architecture/workflow/):
 
-* [Container Registry Metadata Database](https://docs.gitlab.com/ee/architecture/blueprints/container_registry_metadata_database/) - Blueprint for the architecture change to move metadata from the storage backend into a database.
+- [Container Registry Metadata Database](https://docs.gitlab.com/ee/architecture/blueprints/container_registry_metadata_database/) - Blueprint for the architecture change to move metadata from the storage backend into a database.
 
 ## Observability
 
@@ -108,14 +101,14 @@ All the underlying metrics for the Grafana and Kibana dashboards are also availa
 
 #### Grafana
 
-* [Overview](https://dashboards.gitlab.net/d/registry-main/registry-overview?orgId=1) - Main service dashboard. Provides an overview of the Service Level Indicators (SLI). The information is available for all the service components.
-* [Application Detail](https://dashboards.gitlab.net/d/registry-app/registry-application-detail?orgId=1) - Detailed information about the application metrics. Provides insight about the HTTP API and the hosts resources usage.
-* [Storage Detail](https://dashboards.gitlab.net/d/registry-storage/registry-storage-detail?orgId=1) - Consolidated information about the registry storage backend - Google Cloud Storage (GCS).
-* [Database Detail](https://dashboards.gitlab.net/d/registry-database/registry-database-detail?orgId=1) - Fine grain metrics about the metadata database.
-* [Garbage Collection Detail](https://dashboards.gitlab.net/d/registry-gc/registry-garbage-collection-detail?orgId=1) - Extensive metrics related to the online GC feature.
-* [Redis Detail](https://dashboards.gitlab.net/d/registry-redis/registry-redis-detail?orgId=1) - Detailed metrics about Redis usage.
-* [Migration Detail](https://dashboards.gitlab.net/d/registry-migration/registry-registry-migration-detail?orgId=1) - Temporary dashboard to support the ongoing GitLab.com deployment and migration ([gitlab-org&5523](https://gitlab.com/groups/gitlab-org/-/epics/5523)).
-* [PgBouncer](https://dashboards.gitlab.net/d/pgbouncer-registry-main/pgbouncer-registry-overview) - Metrics for the PgBouncer nodes in front of the registry PostgreSQL database cluster.
+- [Overview](https://dashboards.gitlab.net/d/registry-main/registry-overview?orgId=1) - Main service dashboard. Provides an overview of the Service Level Indicators (SLI). The information is available for all the service components.
+- [Application Detail](https://dashboards.gitlab.net/d/registry-app/registry-application-detail?orgId=1) - Detailed information about the application metrics. Provides insight about the HTTP API and the hosts resources usage.
+- [Storage Detail](https://dashboards.gitlab.net/d/registry-storage/registry-storage-detail?orgId=1) - Consolidated information about the registry storage backend - Google Cloud Storage (GCS).
+- [Database Detail](https://dashboards.gitlab.net/d/registry-database/registry-database-detail?orgId=1) - Fine grain metrics about the metadata database.
+- [Garbage Collection Detail](https://dashboards.gitlab.net/d/registry-gc/registry-garbage-collection-detail?orgId=1) - Extensive metrics related to the online GC feature.
+- [Redis Detail](https://dashboards.gitlab.net/d/registry-redis/registry-redis-detail?orgId=1) - Detailed metrics about Redis usage.
+- [Migration Detail](https://dashboards.gitlab.net/d/registry-migration/registry-registry-migration-detail?orgId=1) - Temporary dashboard to support the ongoing GitLab.com deployment and migration ([gitlab-org&5523](https://gitlab.com/groups/gitlab-org/-/epics/5523)).
+- [PgBouncer](https://dashboards.gitlab.net/d/pgbouncer-registry-main/pgbouncer-registry-overview) - Metrics for the PgBouncer nodes in front of the registry PostgreSQL database cluster.
 
 The source PromQL query for any graph in Grafana can be identified by looking at the corresponding dashboard source code in the [runbooks](https://gitlab.com/gitlab-com/runbooks/-/tree/master/dashboards/registry) project. You can also do so in the Grafana UI by clicking on the dropdown alongside a graph's name and click `Explore`. That will take you to a WYSIWYG editor for that particular query, showing both the PromQL source and the rendered graph. For a more advanced overview, you can watch a recording that walked through the process of creating and querying Prometheus metrics and Grafana dashboards for the [GitLab.com upgrade/migration](https://gitlab.com/groups/gitlab-org/-/epics/5523) project [here](https://drive.google.com/file/d/1WzAAiPYTK7YpKJTrBAFFYNhDksLV4x8c/view?usp=share_link).
 
@@ -127,15 +120,15 @@ Thanos has an autocompletion feature which is useful to find available Prometheu
 
 #### Kibana
 
-* [Main](https://log.gprd.gitlab.net/goto/7ac27e1df0f8fca57ad8ceb383696821) - Overview of several registry metrics.
-* [Blob Downloads](https://log.gprd.gitlab.net/goto/05f1f0f38ca1af421d70691d6e80c069) - Provides additional insight about downloads at the top-level namespace and repository levels.
+- [Main](https://log.gprd.gitlab.net/goto/7ac27e1df0f8fca57ad8ceb383696821) - Overview of several registry metrics.
+- [Blob Downloads](https://log.gprd.gitlab.net/goto/05f1f0f38ca1af421d70691d6e80c069) - Provides additional insight about downloads at the top-level namespace and repository levels.
 
 ### Logs
 
 The container registry exposes structured access and application logs. For GitLab.com, these logs can be found in Kibana:
 
-* [Non-production](https://nonprod-log.gitlab.net/goto/f3fbccdb9dea6805ff5bbf1e0144a04e): Logs for the development, staging, and pre-production environments.
-* [Production](https://log.gprd.gitlab.net/goto/7dc6f73d5dd4cc4bebcd4af3b767cae4): Logs for the production environment.
+- [Non-production](https://nonprod-log.gitlab.net/goto/f3fbccdb9dea6805ff5bbf1e0144a04e): Logs for the development, staging, and pre-production environments.
+- [Production](https://log.gprd.gitlab.net/goto/7dc6f73d5dd4cc4bebcd4af3b767cae4): Logs for the production environment.
 
 ## Releases
 

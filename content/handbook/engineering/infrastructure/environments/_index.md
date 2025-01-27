@@ -1,29 +1,16 @@
 ---
-
 title: "Infrastructure Environments"
 ---
 
-
-
-
-
-
-
-
 ## Environments
 
-Terraform control for the environments can be found [on ops](https://ops.gitlab.net/gitlab-com/gitlab-com-infrastructure/-/tree/master/environments)
+The Terraform configuration for the environments can be found in [`config-mgmt`](https://ops.gitlab.net/gitlab-com/gl-infra/config-mgmt/-/tree/main/environments).
 
-<div class="panel panel-info">
-<div class="panel-heading">
-Future Iteration with Infrastructure Standards
-</div>
-<div class="panel-body">
-We have a WIP initiative to iterate on our company-wide infrastructure standards. You can learn more about this on the <a href="/handbook/infrastructure-standards">infrastructure standards handbook page</a>.<br />
-<br />
+{{% panel header="**Future Iteration with Infrastructure Standards**" header-bg="info" %}}
+We have a WIP initiative to iterate on our company-wide infrastructure standards. You can learn more about this on the <a href="/handbook/infrastructure-standards">infrastructure standards handbook page</a>.
+
 This page will be refactored incrementally as the standards are documented, implemented, and changes to environments take place.
-</div>
-</div>
+{{% /panel %}}
 
 ### Development
 
@@ -81,34 +68,33 @@ At this time it includes:
 ### Production
 
 | **Name** | **Short Name** | **URL** | **Purpose** | **Deploy** | **Database** | **Terminal access** |
-| ---- | --- | ------- | ------ | -------- | --------------- |
+| -------- | -------------- | ------- | ----------- | ---------- | ------------ | ------------------- |
 | Production | `gprd` | [gitlab.com](https://gitlab.com/) | Production | Release Candidate | Production | Production team |
 
 Production will be full scale and size with the ability to have a canary deploy. Production has limited access.
 It consists of two stages:
 
-- The canary stage is a subset of infrastructure that reaches a limited number of members of the community. We deploy to this stage first. For more information see [canary testing](/handbook/engineering/#canary-testing).
+- The canary stage is a subset of infrastructure that reaches a limited number of members of the community. We deploy to this stage first. For more information see [covering the canary stage and how to use it](/handbook/engineering/infrastructure/environments/canary-stage)
 - The main stage serves the remaining traffic for the wider GitLab community.
 
 ### Production-Canary
 
 | **Name** | **Short Name** | **URL** | **Purpose** | **Deploy** | **Database** | **Terminal access** |
-| ---- | --- | ------- | ------ | -------- | --------------- |
+| -------- | -------------- | ------- | ----------- | ---------- | ------------ | ------------------- |
 | Production-Canary | `gprd-cny` | [gitlab.com](https://gitlab.com/) | Canary for Production | Release Candidate | Production | Production team |
 
 Production-Canary is a environment subset or deployment "stage" in the Production environment, sharing most of the same infrastructure as Production. This additional stage is designed to assist us with rolling out new releases to end users in a more controlled fashion, hoping
 to catch issues affecting users in a way that minimises impact.
 
-Information on how to access production-canary, use it, and what services it covers is documented in our [handbook page
-on canary stage environments](/handbook/engineering/infrastructure/environments/canary-stage/).
+Information on how to access production-canary, use it, and what services it covers is documented in our [handbook page on canary stage environments](/handbook/engineering/infrastructure/environments/canary-stage/).
 
 ### Staging
 
 | **Name** | **Short Name** | **URL** | **Purpose** | **Deploy** | **Database** | **Terminal access** |
-| ---- | --- | ------- | ------ | -------- | --------------- |
+| -------- | -------------- | ------- | ----------- | ---------- | ------------ | ------------------- |
 | Staging | `gstg` | [staging.gitlab.com](https://staging.gitlab.com/users/sign_in) | Pre-production testing | Frequently | [Pseudonymization of prod](https://en.wikipedia.org/wiki/Pseudonymization) | all engineers |
 
-Staging has the same topology as Production and includes the same components, since they share the same [terraform configuration](https://gitlab.com/gitlab-com/gitlab-com-infrastructure/-/tree/master/environments/gstg).
+Staging has the same topology as Production and includes the same components, since they share the same [Terraform configuration](https://gitlab.com/gitlab-com/gl-infra/config-mgmt/-/tree/main/environments/gstg).
 
 It has a canary environment similar to production, and new releases are deployed and validated in that environment first before going any further. The `Staging-Canary` environment has some additional features to take note of when it comes to deployment and usage that are detailed in its own environment entry.
 
@@ -119,27 +105,27 @@ If you need an account to test QA issues assigned to you on Staging, you may alr
 ### Staging-Canary
 
 | **Name** | **Short Name** | **URL** | **Purpose** | **Deploy** | **Database** | **Terminal access** |
-| ---- | --- | ------- | ------ | -------- | --------------- |
+| -------- | -------------- | ------- | ----------- | ---------- | ------------ | ------------------- |
 | Staging-Canary | `gstg-cny` | [staging.gitlab.com](https://staging.gitlab.com/users/sign_in) | Pre-production testing | Frequently | [Pseudonymization of prod](https://en.wikipedia.org/wiki/Pseudonymization) | all engineers |
 
-Staging-Canary is an environment subset or deployment "stage" in the Staging environment, sharing most of the same infrastructure as Staging. This additional stage is designed to assist us with capturing issues arising due to mixed deployments, where we have multiple versions of one or more components of GitLab that share services such as the database. Information on how to access it, use it, and what services it covers is documented in our [handbook page
-on canary stage environments](/handbook/engineering/infrastructure/environments/canary-stage/).
+Staging-Canary is an environment subset or deployment "stage" in the Staging environment, sharing most of the same infrastructure as Staging. This additional stage is designed to assist us with capturing issues arising due to mixed deployments, where we have multiple versions of one or more components of GitLab that share services such as the database. Information on how to access it, use it, and what services it covers is documented in our [handbook page on canary stage environments](/handbook/engineering/infrastructure/environments/canary-stage/).
 
-Staging-Canary deployments precede Staging deployments as described in [releases](/handbook/engineering/releases), with deployments occurring with the same frequency of Staging. It is important to note that there are two sets of blocking `smoke` and `reliable` QA tests that are executed on deployment. One set of tests targets Staging-Canary specifically. The other set targets Staging. **Both sets of tests must pass** for the Staging-Canary deployment to succeed. This is designed specifically to help flush out issues that occur from mixed version deployment environments. You can determine which environment tests are failing in by examining the Downstream QA pipelines.
+Staging-Canary deployments precede Staging deployments as described in [releases](/handbook/engineering/releases), with deployments occurring with the same frequency of Staging. It is important to note that there are two sets of blocking `smoke` test suite that are executed on deployment. One set of tests targets Staging-Canary specifically. The other set targets Staging. **Both sets of tests must pass** for the Staging-Canary deployment to succeed. This is designed specifically to help flush out issues that occur from mixed version deployment environments. You can determine which environment tests are failing in by examining the Downstream QA pipelines.
+
 ### Staging Ref
 
 | **Name** | **Short Name** | **URL** | **Purpose** | **Deploy** | **Database** | **Terminal access** |
-| ---- | --- | ------- | ------ | -------- | --------------- |
+| -------- | -------------- | ------- | ----------- | ---------- | ------------ | ------------------- |
 | Staging Ref | `gstg-ref` | [staging-ref.gitlab.com](https://staging-ref.gitlab.com/users/sign_in) | Pre-production testing | Frequently | Separate and local | all engineers |
 
-Staging Ref is a sandbox environment used for pre-production testing of the latest Staging Canary code. It is a [3k Cloud Native Hybrid Reference Architecture](https://docs.gitlab.com/ee/administration/reference_architectures/3k_users.html#cloud-native-hybrid-reference-architecture-with-helm-charts-alternative) environment. Staging Ref is being deployed in parallel with [Staging Canary](#staging) using [Deployer](https://ops.gitlab.net/gitlab-com/gl-infra/deployer) and [GitLab Environment Toolkit](https://gitlab.com/gitlab-org/gitlab-environment-toolkit). The environment can be destroyed and rebuilt automatically if needed. Initial test data is being populated during deployment. Refer to [Staging Ref](https://about.gitlab.com/handbook/engineering/infrastructure/environments/staging-ref) documentation to learn more.
+Staging Ref is a sandbox environment used for pre-production testing of the latest Staging Canary code. It is a [3k Cloud Native Hybrid Reference Architecture](https://docs.gitlab.com/ee/administration/reference_architectures/3k_users.html#cloud-native-hybrid-reference-architecture-with-helm-charts-alternative) environment. Staging Ref is being deployed in parallel with [Staging Canary](#staging) using [Deployer](https://ops.gitlab.net/gitlab-com/gl-infra/deployer) and [GitLab Environment Toolkit](https://gitlab.com/gitlab-org/gitlab-environment-toolkit). The environment can be destroyed and rebuilt automatically if needed. Initial test data is being populated during deployment. Refer to [Staging Ref](/handbook/engineering/infrastructure/environments/staging-ref) documentation to learn more.
 
 If you need an account to test QA issues assigned to you on Staging Ref, you can log in using your Production account. Otherwise, if you require an account to be created, create an issue in [the access-request project](https://gitlab.com/gitlab-com/team-member-epics/access-requests#pick-a-template) and assign to your manager for review. Requests for access to database and server environments require the approval of your manager and one of the Infrastructure managers. The same [access-request tracker](https://gitlab.com/gitlab-com/team-member-epics/access-requests#pick-a-template) should be used to request this type of access.
 
 ### Pre
 
 | **Name** | **Short Name** | **URL** | **Purpose** | **Deploy** | **Database** | **Terminal access** |
-| ---- | --- | ------- | ------ | -------- | --------------- |
+| -------- | -------------- | ------- | ----------- | ---------- | ------------ | ------------------- |
 | pre | `pre` | pre.gitlab.com | GitLab.com pre | Release candidates | Separate and local | SREs |
 
 The pre environment is an environment used for validating release candidates used to prepare final self-managed releases and production patches. It does not have a full production HA topology or a
@@ -163,13 +149,12 @@ The `release` environment receives and tests every package of the current milest
 
 | **Name** | **URL** | **Purpose** | **Deploy** | **Database** | **Terminal access** |
 | ---- | --- | ------- | ------ | -------- | --------------- |
-| version | version.gitlab.com | GitLab support testing | AutoDevops / GKE | GCP CloudSQL | N/A  |
-| license | license.gitlab.com | GitLab support testing | AutoDevops / GKE | GCP CloudSQL | N/A  |
+| version | version.gitlab.com | GitLab support testing | AutoDevOps / GKE | GCP CloudSQL | N/A  |
 | customers | customers.gitlab.com | GitLab support testing | Chef | fixture | SRE and support owner |
-| design | design.gitlab.com | Pajamas / Design website | AutoDevops / GKE | N/A | N/A  |
+| design | design.gitlab.com | Pajamas / Design website | AutoDevOps / GKE | N/A | N/A  |
 | docs | docs.gitlab.com | GitLab documentation site | GitLab Pages | N/A | N/A SRE |
 
-The GitLab Team Services Environment is a group of services for different sites run for GitLab.  It comprises the sites listed above.  These are not controlled in Terraform and seek to dogfood GitLab features such as AutoDevops or GitLab pages.
+The GitLab Team Services Environment is a group of services for different sites run for GitLab.  It comprises the sites listed above.  These are not controlled in Terraform and seek to dogfood GitLab features such as Auto DevOps or GitLab Pages.
 
 ### GitLap
 
@@ -181,7 +166,7 @@ The GitLab Team Services Environment is a group of services for different sites 
 
 The GitLap environment is an older domain primarily used for support testing.
 All DNS records under `*.dev.gitlap.com` and `*.do.gitlap.com` are controlled
-via terraform in the [dev-resources repository](https://gitlab.com/gitlab-com/dev-resources/).
+via Terraform in the [dev-resources repository](https://gitlab.com/gitlab-com/dev-resources/).
 
 The only important system is `gitlab-runner-builder.gitlap.com` which is used
 as a CI runner by the [gitlab-runner project](https://gitlab.com/gitlab-org/gitlab-runner).
@@ -196,9 +181,9 @@ This environment is used as a genesis project from which all other GCP projects 
 support/manage/host gitlab.com are provisioned. No compute resources are present in the project, and
 it is used solely to provide a mechanism for centrally managing GCP projects, provisioning IAM
 roles/service accounts for infrastructure deployments within those projects, and controlling which
-APIs are enabled for each GCP project via Infrastructure as Code (terraform).
+APIs are enabled for each GCP project via Infrastructure as Code (Terraform).
 
-Reference: https://ops.gitlab.net/gitlab-com/gitlab-com-infrastructure/-/tree/master/environments/env-projects
+Reference: <https://ops.gitlab.net/gitlab-com/gl-infra/config-mgmt/-/tree/main/environments/env-projects>
 
 ## Self-Managed
 

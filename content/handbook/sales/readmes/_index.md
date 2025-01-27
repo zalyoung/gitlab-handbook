@@ -1,4 +1,3 @@
 ---
-title: "GitLab Sales Team READMEs"
+title: READMEs
 ---
-

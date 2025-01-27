@@ -1,5 +1,5 @@
 ---
-title: Service Level Agreements
+title: SLA policies
 description: Support Operations documentation page for Zendesk SLAs
 canonical_path: "/handbook/support/readiness/operations/docs/zendesk/service-level-agreements"
 ---
@@ -14,7 +14,7 @@ setting. Nothing detailed herein is an actual, legal service level agreement.
 ## What are Zendesk service level agreements?
 
 As per
-[Zendesk](https://support.zendesk.com/hc/en-us/articles/204770038-Defining-and-using-SLA-policies):
+[Zendesk](https://support.zendesk.com/hc/en-us/articles/4408829459866-Defining-SLA-policies):
 
 > A Service Level Agreement, or SLA, is an agreed upon measure of the response
 > and resolution times that your support team delivers to your customers.
@@ -22,66 +22,83 @@ As per
 > measured and predictable service. It also provides greater visibility when
 > problems arise.
 
-## Creating a service level agreement via Zendesk
+### Change management
 
-**Note**: Some SLA policies are tied to the contracts our customers sign upon
-getting a subscription. This means these changes can cause a huge impact. Please
-ensure all change management processes are being followed.
+Keep in mind, all change management should be stemming from an issue, first and
+foremost.
 
-To create a service level agreement in Zendesk, you first need to go to the
-Admin Center
-([Zendesk Global](https://gitlab.zendesk.com/admin/) /
-[Zendesk US Federal](https://gitlab-federal-support.zendesk.com/admin/)). From
-there, you need to go to the Service level agreements page (Objects and rules >
-Business rules > Service level agreements).
+We manage role membership via Zendesk itself (on user profiles), but only with
+corresponding access request issues.
 
-After doing so, click the white `Add policy` button. This will then display a
-new SLA where you will enter:
+**NOTE** Any changes to SLAs **require** Support Readiness Director approval.
+Changes here can have severe legal implications and should only be worked by a
+Fullstack Engineer.
 
-- a name for the SLA policy.
-- a description for the SLA policy.
-- the conditions to be met for the SLA policy to be applied.
-- the response times for various SLA metrics.
-  - At GitLab, we only use First reply time and Next reply time.
-- The hours of operation for the SLA clocks to tick in.
+#### Creating a new SLA
 
-After doing so, click the black `Save` button to create the SLA policy.
+As we manage SLA policies via our sync repos, you simply need to create the
+file within the sync repo itself. The sync process will handle creating the
+SLA policy within Zendesk itself.
 
-## Editing a service level agreement via Zendesk
+#### Updating an existing SLA
 
-**Note**: Some SLA policies are tied to the contracts our customers sign upon
-getting a subscription. This means these changes can cause a huge impact. Please
-ensure all change management processes are being followed.
+Updating an existing SLA is considerably easier than creating a new one. Simply
+change the code in the source project and it will occur via the sync
+repo.
 
-To edit a service level agreement in Zendesk, you first need to go to the Admin
-Center
-([Zendesk Global](https://gitlab.zendesk.com/admin/) /
-[Zendesk US Federal](https://gitlab-federal-support.zendesk.com/admin/)). From
-there, you need to go to the Service level agreements page (Objects and rules >
-Business rules > Service level agreements).
+#### Deleting a SLA
 
-After doing so, locate the SLA policy to edit and click on it. This will open
-the SLA policy settings, where you can make the needed changes,
+**NOTE** This can be a **very** dangerous action to perform. Exercise extreme
+caution in doing do.
 
-After doing so, click the black `Save` button to update the SLA policy.
+To delete a role, you need to purge it from multiple locations:
 
-## Deleting a service level agreement via Zendesk
+- Sync repo project
+- Zendesk itself
 
-**Note**: Some SLA policies are tied to the contracts our customers sign upon
-getting a subscription. This means these changes can cause a huge impact. Please
-ensure all change management processes are being followed.
+The first can be done via merge requests, but the last one has to be done in the
+the Zendesk instance itself. Before doing so, 100% of the role's members should
+be removed from the role.
 
-To delete a service level agreement in Zendesk, you first need to go to the Admin
-Center
-([Zendesk Global](https://gitlab.zendesk.com/admin/) /
-[Zendesk US Federal](https://gitlab-federal-support.zendesk.com/admin/)). From
-there, you need to go to the Service level agreements page (Objects and rules >
-Business rules > Service level agreements).
+After doing so, open up the admin page of your corresponding Zendesk instance
+([Global](https://gitlab.zendesk.com/admin) or
+[US Government](https://gitlab-federal-support.zendesk.com/admin))
+`Objects and rules` on the left-hand side, and then click
+`Service level agreements`. On this page, locate the SLA you want to delete,
+click the gear icon to the right of it, and then click `Delete`.
 
-After doing so, locate the SLA policy to edit and hover over it. You will then
-click the gear icon on the right-hand side of the SLA policy. From there, click
-on `Delete`. A pop-up box will appear asking you to confirm the deletion. To
-confirm, click the black `Delete policy` button.
+This will cause a pop-up modal to appear asking you to confirm the action. Click
+the blue `Delete policy` button to do so.
+
+### Troubleshooting
+
+#### Pipeline error "Blank ID"
+
+This means the script detected a YAML file within `data/active` or
+`data/inactive` that has an `id` value of blank (or nil). You will need to
+locate the file mentioned in the error and correct that.
+
+#### Pipeline error "Blank position"
+
+This means the script detected a YAML file within `data/active` or
+`data/inactive` that has an `position` value of blank (or nil). You will need to
+locate the file mentioned in the error and correct that.
+
+#### Pipeline error "Blank title"
+
+This means the script detected a YAML file within `data/active` or
+`data/inactive` that has an `title` value of blank (or nil). You will need to
+locate the file mentioned in the error and correct that.
+
+#### Pipeline error "GitLab errors"
+
+This is a generic error message that will detail some error that occurred when
+trying to either create or update the tag used on the source project. The exact
+steps to fix this will vary based on the nature of the error itself. You will
+need to review the error and determine the next steps from there.
+
+If you are unsure how to proceed, it is best to seek assistance from the wider
+team.
 
 ## Service level agreement standards
 
@@ -102,29 +119,3 @@ succinct. As an example, if you wanted a SLA policy to only run when the form is
 `Support Ops`, it is better to simply put a condition of "Form is Support Ops"
 than adding exclusions for *every* other form. This can take time and practice
 to learn, so when in doubt, pair with the rest of the Support Ops team!
-
-## Change management
-
-As these are maintained via sync repositories, our standard change management
-process applies to all Zendesk service level agreements. See
-[standard change management](/handbook/support/readiness/operations/docs/change_management#standard-change-management)
-for more information, but please also note
-[Service level agreements information](/handbook/support/readiness/operations/docs/change_management#service-level-agreements-information)
-
-#### Labels to use
-
-For all issues and MRs involving service level agreements, the label
-`Support-Ops-Category::Zendesk Settings` should be used.
-
-#### Change criticality
-
-Due to the nature and impact adding/editing/deleting Zendesk service level
-agreements imposes, all issues/MRs related to Zendesk service level agreements
-will be classified as
-[criticality 1](/handbook/support/readiness/operations/docs/change_criticalities#criticality-1)
-
-## Notes
-
-The SLA badge/timer will always show the hours until a target is due, or how
-long the target has been breached in calendar hours and days, even if an SLA
-policy is based on business hours.

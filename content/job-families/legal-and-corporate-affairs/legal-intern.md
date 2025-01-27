@@ -11,15 +11,15 @@ The following criteria are considered required for candidates to be eligible for
 
 1. Current law student, with preference given to those students who have completed their 2L studies by the time the internship begins. Available full-time in the Pacific time zone for the duration of the internship (2021-05-15 - 2021-08-15)
 
-#### Duration and Timing
+### Duration and Timing
 
 The Legal Internship is for a 3-month period beginning 2021-05-15 and ending on 2021-08-15.
 
-#### Location
+### Location
 
 The internship program will be remote and primarily operate in the Pacific time zone.
 
-#### Compensation
+### Compensation
 
 Internships at GitLab offered in the framework described on this page will be paid and follow the same logic as that depicted in our [Compensation Calculator](/handbook/total-rewards/compensation/compensation-calculator/calculator/) and according to our [Global Compensation Principles](/handbook/total-rewards/compensation/). This means that, as usual, the San Francisco benchmark, location and experience factors will be taken into account during the recruitment process and before making an offer. Depending on country regulations, we will have to align with national labor laws.
 The Legal Intern is a grade 4 (/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
@@ -35,7 +35,7 @@ The Legal Intern is a grade 4 (/handbook/total-rewards/compensation/compensation
 - Proactive, dynamic and result driven individual with attention to detail
 - Enthusiasm and "self-starter" qualities enabling the intern  to manage responsibilities with an appropriate sense of urgency; the ability to function effectively and efficiently in a fast-paced & dynamic environment
 - Superior analytical, project management experience, and communication skills
-- Outstanding interpersonal skills, including diplomacy and flexibility, and the ability to interface effectively and engender trust and confidence with with all business functions throughout the organization
+- Outstanding interpersonal skills, including diplomacy and flexibility, and the ability to interface effectively and engender trust and confidence with all business functions throughout the organization
 - A curious mind who does not back down from a challenge.
 - Ability to use GitLab
 
@@ -52,7 +52,7 @@ Additional details about our process can be found on our [hiring page](/handbook
 
 ## Working at GitLab
 
-GitLab Inc. is a company based on the GitLab open-source project. GitLab is a community project to which over 2,200 people worldwide have contributed. We are an active participant in this community, trying to serve its needs and lead by example. We have one [vision](https://about.gitlab.com/strategy): everyone can contribute to all digital content, and our mission is to change all creative work from read-only to read-write so that everyone can contribute.
+GitLab Inc. is a company based on the GitLab open-source project. GitLab is a community project to which over 2,200 people worldwide have contributed. We are an active participant in this community, trying to serve its needs and lead by example. We have one [vision](/handbook/company/strategy/): everyone can contribute to all digital content, and our mission is to change all creative work from read-only to read-write so that everyone can contribute.
 
 We [value](/handbook/values/) results, transparency, sharing, freedom, efficiency, [self-learning](/handbook/company/culture/all-remote/self-service/#how-self-learning-leads-to-success-in-your-role), frugality, collaboration, directness, kindness, diversity, inclusion and belonging, boring solutions, and quirkiness. If these values match your personality, work ethic, and personal goals, we encourage you to visit our [primer](/handbook/company/) to learn more. Open source is our culture, our way of life, our story, and what makes us truly unique.
 
@@ -65,7 +65,7 @@ Work on open source software so you can interact with a large community and can 
 Work on a product you use every day: we drink our own wine.
 Work on a product used by lots of people that care about what you do.
 As a company we contribute more than we take, most of our work is released as the open source GitLab CE.
-Focused on results, not on long hours, so that you can have a life and don't burn out.
+Focused on impact, not on activity, so that you can have a life and don't burn out.
 Open internal processes: know what you're getting into and be assured we're thoughtful and effective.
 
 See [our culture page](/handbook/company/culture/) for more!

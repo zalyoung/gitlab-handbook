@@ -7,7 +7,7 @@ description: "This page describes the bug prioritization process performed by th
 
 This page describes the bug prioritization process performed by the quality engineering sub-department as part of the cross-functional prioritization process.
 
-An overview of the full process can be found on the [cross-functional prioritization](/handbook/product/cross-functional-prioritization/) handbook page.
+An overview of the full process can be found on the [cross-functional prioritization](/handbook/product/product-processes/cross-functional-prioritization/) handbook page.
 
 ## Timeline
 
@@ -22,6 +22,7 @@ As defined in our [Product Development Timeline](/handbook/engineering/workflow/
 ## Bug Prioritization triage report
 
 An automated [Bug Prioritization triage report](https://gitlab.com/gitlab-org/quality/triage-ops/-/blob/master/policies/template/group/bug-prioritization.yml.erb) is created for each group on a monthly basis containing the Top 10 open issues of `~"type::bug"`. The report is generated with issues that are prioritized based on the below conditions:
+
   1. Severity based on label `severity::*`
   1. Security vulnerabilities based on label `bug::vulnerability`
   1. Customer issues based on label `customer`
@@ -39,7 +40,7 @@ to update the generated files as well.
 
 ## Bug Prioritization Dashboard
 
-The [bug prioritization dashboard](https://app.periscopedata.com/app/gitlab/1037965/Bug-Prioritization) can also be used to put together a suggested list of bugs for each group.
+The [bug prioritization dashboard](https://10az.online.tableau.com/#/site/gitlab/views/OpenBugAgeOBA/BugPrioritizationDashboard?:iid=2) can also be used to put together a suggested list of bugs for each group.
 This dashboard should be revisited for each milestone, as the data will change over time.
 
 As a general guideline, the total amount of bugs proposed should match the burndown plan from the dashboard for your specific group.
@@ -87,7 +88,7 @@ The following considerations can be helpful to keep in mind when determining whi
     - Number of upvotes on an issue
     - Context from comments or customer support mentioning the number of users impacted
     - [Kibana](https://log.gprd.gitlab.net/) and [Sentry](https://sentry.gitlab.net/gitlab/gitlabcom/) prod logs for tracking how many users are experiencing specific errors
-    - Some product groups have dashboards and other tools to track [xMAU (monthly active usage)](/handbook/business-technology/data-team/data-catalog/xmau-analysis/) for their features. This can help us gauge how impactful a bug may be if it is affecting a feature with high usage.
+    - Some product groups have dashboards and other tools to track [xMAU (monthly active usage)](/handbook/enterprise-data/data-catalog/xmau-analysis/) for their features. This can help us gauge how impactful a bug may be if it is affecting a feature with high usage.
 - Not actively being worked on
 - Not already assigned to a future milestone (unless it requires escalation)
 - Not currently blocked

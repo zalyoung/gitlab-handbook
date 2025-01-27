@@ -25,7 +25,8 @@ This Working Group has the following goals:
 ### Exit Criteria
 
 1. Successfully transition PVS to a long term owner
-  - The [Anti-abuse](https://about.gitlab.com/handbook/engineering/development/sec/govern/anti-abuse/) group [owns and maintains PVS](https://about.gitlab.com/direction/anti-abuse/#pvs-pipeline-validation-service)
+
+   - The [Anti-abuse](/handbook/engineering/development/sec/software-supply-chain-security/anti-abuse/) group [owns and maintains PVS](https://about.gitlab.com/direction/software_supply_chain_security/#pvs-pipeline-validation-service)
 
 ### Roles and Responsibilities
 

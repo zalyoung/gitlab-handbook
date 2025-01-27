@@ -12,7 +12,6 @@ This working group is charged with rolling forward from the emergency "Engineeri
 1. It should **give voice to everyone** in the quad (PM, Development, Quality, and UX)
 1. It should **provide transparency into prioritization** and work status to internal and external stakeholders so they can advocate for their work items
 
-
 ## Attributes
 
 | Property        | Value      |
@@ -23,7 +22,7 @@ This working group is charged with rolling forward from the emergency "Engineeri
 | Google Doc      | [Working Group Agenda](https://docs.google.com/document/d/1wog8bR7jg6SECefx9BGqIa07sFm_sXJPvelVAganYmc/edit#heading=h.pmtw3ocv2aty)  |
 | Issue board    | [Issue board](https://gitlab.com/groups/gitlab-com/-/boards/4199535?not[label_name][]=wg-cross-functional-prioritization-adoption&label_name[]=wg-crossfunctional-prioritization) |
 | Open merge requests for the working group | [MR list](https://gitlab.com/gitlab-com/www-gitlab-com/-/merge_requests?label_name%5B%5D=wg-cross-functional-prioritization) |
-| OKR | [Mature cross functional prioritization model](https://app.ally.io/objectives/2228738?time_period_id=155987) |
+| OKR | Mature cross functional prioritization model |
 | Overview & Status | See [Exit criteria](#exit-criteria) below |
 
 ### Exit criteria
@@ -31,7 +30,7 @@ This working group is charged with rolling forward from the emergency "Engineeri
 Note that these goals are aspirational so we set a high bar (and potentially achieving something that is good enough vs. setting a low bar and not achieving something that is good enough).
 
 - [x] Name the new process (DONE "cross-functional prioritization) [Issue](https://gitlab.com/gitlab-com/www-gitlab-com/-/issues/13274)
-- [x] All groups have dashboards that they can use to analyze merged MR ratio of features, maintenance, bugs and undefined. [Issue](https://gitlab.com/gitlab-com/www-gitlab-com/-/issues/13294) [Issue](https://gitlab.com/gitlab-com/www-gitlab-com/-/issues/13448)
+- [x] All groups have dashboards that they can use to analyze merged MR ratio of features, maintenance, bugs and undefined. [Issue](https://gitlab.com/gitlab-com/www-gitlab-com/-/issues/13294), [Issue](https://gitlab.com/gitlab-com/www-gitlab-com/-/issues/13448)
 - [ ] Type:Undefined Issues are driven down to 0% [Issue](https://gitlab.com/gitlab-com/www-gitlab-com/-/issues/13760)
 - [ ] Type:Undefined MRs are driven down to 0% [Issue](https://gitlab.com/gitlab-com/www-gitlab-com/-/issues/13759)
 - [ ] Subtypes label are defined and implemented [Issue](https://gitlab.com/gitlab-com/www-gitlab-com/-/issues/13650)
@@ -42,7 +41,7 @@ Note that these goals are aspirational so we set a high bar (and potentially ach
 - [x] Development engineering managers are providing their maintenance priorities to PM [Issue](https://gitlab.com/gitlab-com/www-gitlab-com/-/issues/13304)
 - [x] Quality leads are providing their bug priorities to PM [Issue](https://gitlab.com/gitlab-com/www-gitlab-com/-/issues/13304)
 - [x] The quad stable counterparts (PM, Development EM, Quality Engineering Manager, UX Design Manager) collaborate to determine which issues which will be planned for which milestone [Issue](https://gitlab.com/gitlab-com/www-gitlab-com/-/issues/13304)
-- [x] Automation exists to streamline the process. [Issue](https://gitlab.com/gitlab-com/quality/engineering-productivity/-/issues/5) [Issue](https://gitlab.com/gitlab-com/quality/engineering-productivity/-/issues/6)
+- [x] Automation exists to streamline the process. [Issue](https://gitlab.com/gitlab-com/quality/engineering-productivity/-/issues/5), [Issue](https://gitlab.com/gitlab-com/quality/engineering-productivity/-/issues/6)
 - [ ] Framework for autoscheduling initial iterations of S1/S2 bugs is merged, and we've documented a process for expanding the automation to more groups and severities over time. [issue](https://gitlab.com/gitlab-org/gitlab/-/issues/368641)
 
 The below criteria will be marked as complete when we close the working group, as we will be doing this iteratively until then.
@@ -92,10 +91,9 @@ Note: This does not preclude other stages beyond create to complete the exit cri
 | Member                | Donald Cook                                          | Engineering Manager, Plan:Project Management |
 | Member                | Cheryl Li                                            | Senior Engineering Manager, Verify |
 
-
 ## Cross-functional prioritization process
 
-The process is [documented](https://about.gitlab.com/handbook/engineering/cross-functional-prioritization/) in the handbook.
+The process is [documented](/handbook/engineering/cross-functional-prioritization/) in the handbook.
 
 ## Multi-modal communication
 

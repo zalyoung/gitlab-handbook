@@ -1,19 +1,12 @@
 ---
-
 title: Release Tools
 description: "Guide to GitLab's tools for new releases"
 ---
 
-
-
-
-
-
-
 ## Introduction
 
 [Release Tools](https://gitlab.com/gitlab-org/release-tools/) is a project
-maintained by the [Delivery team](https://about.gitlab.com/handbook/engineering/infrastructure/team/delivery/), and used by Release Managers to perform
+maintained by the [Delivery team](/handbook/engineering/infrastructure-platforms/gitlab-delivery/delivery/), and used by Release Managers to perform
 releases of GitLab and its components. Release Tools works by running CI
 pipelines for specific purposes, such as tagging a new release or notifying
 merge requests about deployments. Some of these pipelines are triggered
@@ -48,7 +41,7 @@ Delivery team for testing purposes (e.g. when testing new functionality). Using
 Release Tools is primarily done through chatops and Slack. For example, to tag
 a self-managed release you'd run:
 
-```
+```text
 /chatops run release tag 42.0.0
 ```
 

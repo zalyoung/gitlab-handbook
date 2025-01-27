@@ -1,15 +1,8 @@
 ---
-
 title: "Professional Services Remote Training Session Setup and Reporting"
 description: "Explore how a GitLab Professional Services team members can setup and deliver a remote training."
 
 ---
-
-
-
-
-
-
 
 ## Professional Services Remote Training Session Setup and Reporting
 
@@ -24,7 +17,7 @@ Professional Services has a shared Zoom account for remote training deliveries t
 
 1. In the Zoom shared account, click **Webinars** from the left navigation menu.
 
-1. Check the list of scheduled webinars on the **Upcoming Webinars** tab to make sure none are scheduled to overlap with the one you need to schedule. **Important Note!** Zoom does not allow concurrent meetings or webinars to run from the same Zoom account. Even if you designate an alternate host, one of the meetings or webinars must be ended in order for the other session to initiate. If you see a webinar already scheduled that overlaps with the time slot you need to schedule, you must use a different Zoom account to schedule the session. For details see this [Zoom help article](https://support.zoom.us/hc/en-us/articles/206122046-Can-I-Host-Concurrent-Meetings-).
+1. Check the list of scheduled webinars on the **Upcoming Webinars** tab to make sure none are scheduled to overlap with the one you need to schedule. **Important Note!** Zoom does not allow concurrent meetings or webinars to run from the same Zoom account. Even if you designate an alternate host, one of the meetings or webinars must be ended in order for the other session to initiate. If you see a webinar already scheduled that overlaps with the time slot you need to schedule, you must use a different Zoom account to schedule the session. For details see this [Zoom help article](https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0068522).
 
 1. Click the **Webinar Templates** tab.
 
@@ -36,9 +29,9 @@ Professional Services has a shared Zoom account for remote training deliveries t
 
 1. Adjust the date and time.
     - Each course includes two 4-hour sessions. Select the date of the first session
-    - Adjust the start time to the confirmed start time in the customer’s preferred time zone.
+    - Adjust the start time to the confirmed start time in the customer's preferred time zone.
     - Adjust the duration to be 4 hours.
-    - Adjust the time zone to match the customer’s preferred time zone.
+    - Adjust the time zone to match the customer's preferred time zone.
     - As needed adjust the recurrence so that it matches the confirmed date for the second 4-hour session.
 
 1. Leave the settings as-is for Registration, Password, Video, Audio, and Webinar Options.
@@ -49,12 +42,12 @@ Professional Services has a shared Zoom account for remote training deliveries t
 
 ### Adjust the registration page
 
-Zoom templates do not include most of the branding used to set up the original template, so you’ll need to make some adjustments for each webinar you schedule.
+Zoom templates do not include most of the branding used to set up the original template, so you'll need to make some adjustments for each webinar you schedule.
 
 1. Scroll down to the bottom of the page for the webinar you just scheduled and click the **Branding** tab.
 
 1. In the **Title** section click **Edit**.
-    - Change the title to say the name of the training and the customer’s name (for example, “GitLab CI/CD Training for FRB Kansas City”).
+    - Change the title to say the name of the training and the customer's name (for example, "GitLab CI/CD Training for FRB Kansas City").
     - Click **Save**.
 
 1. In the **Speakers** section click **Add a speaker**.
@@ -84,11 +77,10 @@ Zoom templates do not include most of the branding used to set up the original t
 
 1. For the **Email Contact** row, click **Edit** and change the email contact name and address to your own. This will result in all automated emails received by attendees to be from your email address.
 
-### Add the survey link ###
+### Add the survey link
 
 1. On the "Polls/Survey" tab in the **Survey** row, click **Use a 3rd party survey** and paste in [the link](https://docs.google.com/forms/d/e/1FAIpQLScdTGl7Wwcw2yzFpvCd5jYMPgOf_lp8BYMKKhaW0Mrpt51TXg/viewform?usp=sf_link) to the training survey.
     - This will result in the survey popping up for each attendee immediately after you end the session.
-
 
 ### View and communicate the registration page link
 
@@ -141,12 +133,3 @@ Zoom templates do not include most of the branding used to set up the original t
 1. Click **Copy Sharing Information to the Clipboard**.
 
 1. Paste the recording access information into the issue and into the follow up email you send the customer.
-
-
-
-
-
-
-
-
-

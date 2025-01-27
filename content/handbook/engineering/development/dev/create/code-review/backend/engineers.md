@@ -1,24 +1,18 @@
 ---
-
 title: "Create:Code Review Backend Engineering Resources"
 description: Resources for the backend team members of the Create:Code Review group
 ---
 
-
-
-
-
-
-
-This page contains engineering resources for the Create:Code Review Backend team. For day-to-day work of the team, please review the [Create:Code Review BE handbook page](https://about.gitlab.com/handbook/engineering/development/dev/create/code-review/backend/).
+This page contains engineering resources for the Create:Code Review Backend team. For day-to-day work of the team, please review the [Create:Code Review BE handbook page](/handbook/engineering/development/dev/create/code-review/backend/).
 
 ## Team building
 
 Every two weeks a question/activity will be posted in the code-review-backend slack channel to enable the team to have a more relaxed interaction with each other. Currently, in the team, it is impossible to get everyone on a synchronous call and while the team days work well, they are at the create stage level. This team-building exercise is aimed more specifically at the [Code Review Backend Team](/handbook/engineering/development/dev/create/code-review/backend/#team-members).
 
 Some examples would be:
+
 - Ice breaker style question: What is your favourite food to cook? (maybe share photos too), What was your favourite holiday and why?
-- ‘Gif battle’: where we would have a topic, for example (cutest animal, most insane dance move) and we would each post our top GIF
+- 'Gif battle': where we would have a topic, for example (cutest animal, most insane dance move) and we would each post our top GIF
 - Share a photo: where we each share a photo that we took during the week
 
 ## Feedback
@@ -32,7 +26,7 @@ It can be hard to understand how you're doing in your role, because feedback can
 
 ## Career development
 
-<%= partial("handbook/engineering/development/dev/create/career_development.erb", locals: { group: "Code Review" }) %>
+{{% engineering/create/career-development group="Code Review" %}}
 
 ## Training and Development Opportunities
 
@@ -49,8 +43,5 @@ This is a list of commonly requested training and some additional resources:
 ### Additional resources
 
 - [Create Stage Professional Development](/handbook/engineering/development/dev/create/#professional-development)
-- [Level Up](https://levelup.gitlab.com/learn/dashboard)
-- [Live learning sessions](/handbook/people-group/learning-and-development/#learning-sessions)
-- [Learning and Development - Learning Initiatves](/handbook/people-group/learning-and-development/learning-initiatives/)
-- [Compliance courses](/handbook/people-group/learning-and-development/compliance-courses/)
-- [Growth and Development Benefit](/handbook/total-rewards/benefits/general-and-entity-benefits/growth-and-development/)
+- [Level Up](https://university.gitlab.com/access/saml/login/internal-team-members?returnTo=https://levelup.gitlab.com/learn/dashboard)
+- [Growth and Development Fund](/handbook/people-group/learning-and-development/growth-and-development/)

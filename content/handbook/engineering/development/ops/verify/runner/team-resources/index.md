@@ -1,14 +1,7 @@
 ---
-
 title: Runner Group - Team Resources
 description: "The goal of this page is to document resources needed for day-to-day work within the Runner group."
 ---
-
-
-
-
-
-
 
 ## Overview
 
@@ -16,7 +9,7 @@ The goal of this page is to document resources needed for day-to-day work within
 
 ## Good bookmarks
 
-- [Team Handbook](https://about.gitlab.com/handbook/engineering/development/ops/verify/runner/)
+- [Team Handbook](/handbook/engineering/development/ops/verify/runner/)
 - [Internal Engineering Handbook](https://internal.gitlab.com/handbook/engineering/)
 - [Runner SaaS HQ issue](https://gitlab.com/groups/gitlab-org/-/epics/9969)
 - [Public Runner Docs](https://docs.gitlab.com/runner/)
@@ -31,15 +24,15 @@ The goal of this page is to document resources needed for day-to-day work within
   - [Runner Service Overview](https://dashboards.gitlab.net/d/ci-runners-main/ci-runners-overview?orgId=1)
   - Additional dashboards can be found in the dropdowns along the top bar:
 
-![runner-dashboards](runner-dashboards.png)
+![runner-dashboards](/images/engineering/development/ops/verify/runner/team-resources/runner-dashboards.png)
 
 - Metrics
   - [Runner Metrics](https://docs.gitlab.com/runner/monitoring/index.html)
 - Logs
   - [Runner Logs](https://log.gprd.gitlab.net/goto/3d8891e0-2035-11ee-8afc-c9851e4645c0) (filter by shard)
-  - You can find a list of shards in the the dropdown along the top baf of any service dashboard:
+  - You can find a list of shards in the dropdown along the top baf of any service dashboard:
 
-![runner-shards](runner-shards.png)
+![runner-shards](/images/engineering/development/ops/verify/runner/team-resources/runner-shards.png)
 
 ## Internal tools
 
@@ -47,12 +40,9 @@ The goal of this page is to document resources needed for day-to-day work within
 
 For
 [`gitlab-org/gitlab-runner`](https://gitlab.com/gitlab-org/gitlab-runner)
-we have the [Merge Request
-Bot](https://gitlab.com/merge-request-bot/merge-request-bot) enabled which posts
-[comments for community
-contributions](https://gitlab.com/gitlab-org/gitlab-runner/-/merge_requests/2407#note_411098266).
-This is configured via [Merge Request webhook
-events](https://gitlab.com/gitlab-org/gitlab-runner/hooks).
+we have the [Merge Request Bot](https://gitlab.com/merge-request-bot/merge-request-bot) enabled which posts
+[comments for community contributions](https://gitlab.com/gitlab-org/gitlab-runner/-/merge_requests/2407#note_411098266).
+This is configured via [Merge Request webhook events](https://gitlab.com/gitlab-org/gitlab-runner/hooks).
 
 - [Appliation code](https://gitlab.com/merge-request-bot/merge-request-bot)
 - [CloudRun deployment](https://gitlab.com/gitlab-org/ci-cd/merge-request-bot/infrastructure/cloud-run)
@@ -77,7 +67,7 @@ a Z/OS VM is available to GitLab team members.
 
 #### Logging in
 
-1. In [1Password](https://about.gitlab.com/handbook/security/#1password-guide),
+1. In [1Password](/handbook/security/#1password-guide),
    under the `Verify` vault, download the `zOS login - gitlabkey02.pem` file.
 1. From the `zOS login` entry in the same vault, take note of the `user` and `address` fields.
 1. SSH into the Z/OS VM:
@@ -128,7 +118,7 @@ We also have a [team sandbox](https://gitlabsandbox.cloud/cloud/accounts/5442c67
 Access to the team sandbox can be acquired via access request.
 Within the team sandbox is also a role which has access to the staging and production Mac environments.
 
-### Access Mac Runner Production
+### Access Mac Runner Staging
 
 From the team sandbox, activate a role named `eng_dev_verify_runner` with the account ID `251165465090` (staging).
 

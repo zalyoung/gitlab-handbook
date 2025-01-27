@@ -1,28 +1,24 @@
 ---
-
 title: "Production"
+controlled_document: true
 ---
 
-
-
-
-
-
-
+{{% alert color="warning" %}}
 If you're a GitLab team member and are looking to alert Reliability Engineering about an availability issue with GitLab.com, please find quick instructions to report an incident here: [Reporting an Incident](/handbook/engineering/infrastructure/incident-management/#reporting-an-incident).
-{: .alert .alert-danger}
+{{% /alert %}}
 
-If you're a GitLab team member looking for help with a security problem, please see the [Engaging the Security On-Call](/handbook/security/security-operations/sirt/engaging-security-on-call.html) section.
-{: .alert .alert-info}
+{{% alert color="warning" %}}
+If you're a GitLab team member looking for help with a security problem, please see the [Engaging the Security On-Call](/handbook/security/security-operations/sirt/engaging-security-on-call/) section.
+{{% /alert %}}
 
-# The Production Environment
+## The Production Environment
 
 The GitLab.com production environment is comprised of services that operate–or support the operation of–gitlab.com.
 For a complete list of production services see the [service catalog](https://gitlab.com/gitlab-com/runbooks/-/blob/master/services/service-catalog.yml)
 
 ## How to Get Help
 
-See [how to get assistance](/handbook/engineering/infrastructure/team/reliability/#getting-assistance).
+See [how to get assistance](/handbook/engineering/infrastructure/team/).
 
 ## Why `infrastructure` and `production` queues?
 
@@ -30,9 +26,9 @@ See [how to get assistance](/handbook/engineering/infrastructure/team/reliabilit
 
 Long term, additional teams will perform work on the production environment:
 
-* Release Engineering performs deployments on production
-* Security performs scans against the production
-* Google may perform work on the underlying production infrastructure
+- Release Engineering performs deployments on production
+- Security performs scans against the production
+- Google may perform work on the underlying production infrastructure
 
 We cannot keep track of **events** in production across a growing number of *functional* queues.
 
@@ -44,9 +40,9 @@ Functional queues track team workloads (`infrastructure`, `security`, etc) and a
 
 The `production` queue tracks events in production, namely:
 
-* [changes](/handbook/engineering/infrastructure/change-management/)
-* [incidents](/handbook/engineering/infrastructure/incident-management/)
-* deltas (exceptions) -- still need to do handbook write up
+- [changes](/handbook/engineering/infrastructure/change-management/)
+- [incidents](/handbook/engineering/infrastructure/incident-management/)
+- deltas (exceptions) -- still need to do handbook write up
 
 Over time, we will implement hooks into our automation to *automagically* inject change audit data into the `production` queue.
 
@@ -56,35 +52,37 @@ Additionally, we need to keep track of error budgets, which should also be deriv
 
 We will also be collapsing the `database` queue into the `infrastructure` queue. The database is a special piece of the infrastructure for sure, but so are the storage nodes, for example.
 
-For the on-call SRE, every event that pages (where an event may be a group of related pages) *should* have an issue created for it in the `production` queue.  Per the [severity](#severity) definitions, if there is at least *visible* impact (functional inconvenience to users), then it is by definition an incident, and the Incident template should be used for the issue.  This is likely to be the majority of pager events; exceptions are typically obvious, i.e. they impact only us and customers won't even be aware, or they're alerts that are pre-incident level which by acting on we avoid incidents.
+For the on-call SRE, every event that pages (where an event may be a group of related pages) *should* have an issue created for it in the `production` queue.  Per the severity definitions, if there is at least *visible* impact (functional inconvenience to users), then it is by definition an incident, and the Incident template should be used for the issue.  This is likely to be the majority of pager events; exceptions are typically obvious, i.e. they impact only us and customers won't even be aware, or they're alerts that are pre-incident level which by acting on we avoid incidents.
 
 ### Security Related Changes
 
 All direct or indirect changes to authentication and authorization mechanisms used by GitLab Inc. by customers or employees require additional review and approval by a member of at least one of following teams:
 
-* [production team](/handbook/engineering/infrastructure/production/) member
-* [security team](/security/)  member
-* developer from a different team that is staff level or higher
+- [production team](/handbook/engineering/infrastructure/production/) member
+- [security team](/security/)  member
+- developer from a different team that is staff level or higher
 
 This process is enforced for the following repositories where the approval is mandatory using
 [MR approvals](https://docs.gitlab.com/ee/user/project/merge_requests/approvals/):
 
-* [gitlab-oauth2-proxy](https://gitlab.com/gitlab-cookbooks/gitlab-oauth2-proxy)
-* [gitlab_users](https://gitlab.com/gitlab-cookbooks/gitlab_users)
+- [gitlab-oauth2-proxy](https://gitlab.com/gitlab-cookbooks/gitlab-oauth2-proxy)
+- [gitlab_users](https://gitlab.com/gitlab-cookbooks/gitlab_users)
 
 Additional repositories may also require this approval and can be evaluated on a
 case-by-case basis.
 
 When should we loop the security team in on changes? If we are making major changes to any of the following areas:
+
 1. Processing credentials/tokens
 1. Storing credentials/tokens
 1. Logic for privilege escalation
 1. Authorization logic
 1. User/account access controls
 1. Authentication mechanisms
-1. Abuse-related activities                  |
+1. Abuse-related activities
 
 #### Type Labels
+
 Type labels are very important. They define what kind of issue this is. Every issue should have one or more.
 
 |       Label        | Description                                                                                                             |
@@ -94,8 +92,8 @@ Type labels are very important. They define what kind of issue this is. Every is
 |     `~Database`    | Label for problems related to database                                                                                  |
 |     `~Security`    | Label for problems related to security                                                                                  |
 
-
 #### Services
+
 The services list is mentioned here : https://gitlab.com/gitlab-com/runbooks/blob/master/services/service-catalog.yml
 
 ### Always Help Others
@@ -106,7 +104,7 @@ If this issue is urgent for whatever reason, we should label them following the 
 
 ## On-Call Support
 
-For details about managing schedules, workflows, and documentation, see the [on-call documentation](/handbook/on-call/).
+For details about managing schedules, workflows, and documentation, see the [on-call documentation](/handbook/engineering/on-call/).
 
 ### On-Call escalation
 
@@ -129,59 +127,11 @@ Events are recorded separately for the staging and production environment.
 For some incidents, we may figure out that the usage patterns that led to the issues were abuse.  There is a process for how we define and handle abuse.
 
 1. The definition of abuse can be found on the [security abuse operations section of the handbook](/handbook/security/)
-1. In the event of an incident affecting GitLab.com availability, the SRE team may take actions immediately to keep the system available.  However, the team must also immediately involve our security abuse team.  A new [security on call rotation](/handbook/security/security-operations/sirt/engaging-security-on-call.html) has been established in PagerDuty - There is a Security Responder rotation which can be alerted along with a Security Manager rotation.
+1. In the event of an incident affecting GitLab.com availability, the SRE team may take actions immediately to keep the system available.  However, the team must also immediately involve our security abuse team.  A new [security on call rotation](/handbook/security/security-operations/sirt/engaging-security-on-call/) has been established in PagerDuty - There is a Security Responder rotation which can be alerted along with a Security Manager rotation.
 
-## Backups
+## Backup and Restore
 
-
-
-<div class="panel panel-gitlab-orange">
-**This is a Controlled Document**
-{: .panel-heading}
-<div class="panel-body">
-
-Inline with GitLab's regulatory obligations, changes to [controlled documents](https://about.gitlab.com/handbook/security/controlled-document-procedure.html) must be approved or merged by a code owner. All contributions are welcome and encouraged. 
-
-</div>
-</div>
-
-### Purpose
-
-This section is part of [controlled document](https://about.gitlab.com/handbook/security/controlled-document-procedure.html) covering our controls for backups.  It covers BCD-11 in [the controls](https://about.gitlab.com/handbook/security/security-assurance/security-compliance/guidance/business-continuity-and-disaster-recovery.html).
-
-### Scope
-
-Production database backups
-
-### Roles & Responsibilities
-
-| Role  | Responsibility | 
-|-----------|-----------|
-| Infrastructure Team | Responsible for configuration and management | 
-| Infrastructure Management (Code Owners) | Responsible for approving significant changes and exceptions to this procedure |
-
-
-### Procedure
-
-Backups of our production databases are taken every 24 hours with continuous incremental data (at 60 sec intervals), streamed into [GCS](https://cloud.google.com/storage). These backups are encrypted, and follow the lifecycle:
-  - Initial 14 days in [Multi-regional](https://cloud.google.com/storage/docs/storage-classes#standard) storage class.
-  - After 14 days migrated to [Nearline](https://cloud.google.com/storage/docs/storage-classes#nearline) storage class.
-  - After 40 days migrated to [Coldline](https://cloud.google.com/storage/docs/storage-classes#coldline) storage class.
-  - After 120 days, backups are deleted.
-
-- Snapshots of non Patroni-managed database (e.g. PostgreSQL DR replicas) and non-database (e.g. Gitaly, Redis, Prometheus) data filesystems are taken every hour and kept for at least 7 days.
-- Snapshots of Patroni-managed databases (a designated replica, in fact) are taken every 6 hours and kept for 7 days.
-
-Data stored in Object Storage (GCS) such as artifacts, the container registry, and others have no additional backups, relying on the [99.999999999% annual durability](https://cloud.google.com/storage/docs/storage-classes#descriptions) and multi-region buckets.
-
-For details see the runbooks, particularly for [GCP snapshots](https://gitlab.com/gitlab-com/runbooks/blob/master/docs/uncategorized/gcp-snapshots.md) and [Database backups using WAL-E/WAL-G (encrypted)](https://gitlab.com/gitlab-com/runbooks/-/blob/master/docs/patroni/postgresql-backups-wale-walg.md)
-
-### Exceptions
-
-Exceptions to this backup policy will be tracked in the [compliance issue tracker](https://gitlab.com/gitlab-com/gl-security/security-assurance/sec-compliance/compliance/-/issues/).
-
-### References
-* Parent Policy: [Information Security Policy](/handbook/security/)
+See policies for [Backup and Restore](/handbook/engineering/gitlab-com/policies/backup).
 
 ## Patching
 
@@ -201,11 +151,15 @@ The critical change process is described in the [emergency change process](/hand
 
 ### Patching Validation
 
-Currently validation can be done manually by cross examining the logs of the host with the scans done by tenable.
+Patch validation can be performed in 3 ways.
+
+- Manually by cross examining the logs of the host with the vulnerability finding in [wiz.io](https://www.wiz.io/).
+- Reviewing vulnerability & tracking issue raised into GitLab by [Vulnerability Management teams automation] (/handbook/security/product-security/vulnerability-management/automation/)
+- Reach out to Vulnerability Management in slack `#g_vulnerability_management`
 
 ### General OS (Ubuntu or other Linux) Version updates
 
-Infrastructure will look to begin OS upgrades for Ubuntu LTS releases 6 months after their release and attempt to maintain all GCP compute instances on an LTS within the last 5 years of release.  When instances are on older OS releases, we leverage [Ubuntu Advantage](https://ubuntu.com/support) to gain an extension on security releases.
+Infrastructure will look to begin OS upgrades for Ubuntu LTS releases 6 months after their release and attempt to maintain all GCP compute instances on an LTS within the last 5 years of release.  We leverage [Ubuntu Pro](https://ubuntu.com/pro) to gain an extension on security updates for older OS releases using their [ESM](https://ubuntu.com/security/esm) service, and [Ubuntu Livepatch](https://ubuntu.com/security/livepatch) to automatically apply Kernel security updates to running systems.
 
 ## Penetration Testing
 
@@ -215,11 +169,11 @@ vulnerabilities, should be communicated to the infrastructure team through an is
 
 In the issue please provide the following:
 
-* scope of the testing
-* a suggested time frame
-* the depth of testing
-* which services will be tested
-* the procedures being done
-* any possible teams that may be affected (such as support, security, etc)
+- scope of the testing
+- a suggested time frame
+- the depth of testing
+- which services will be tested
+- the procedures being done
+- any possible teams that may be affected (such as support, security, etc)
 
 Please tag issues with the `~security` label and `/cc` infrastructure managers.

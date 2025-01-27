@@ -25,7 +25,7 @@ agents only, not to end-users.
 
 During your work on the ticket, if you have additional information worth noting
 about the organization, you can add them by following the
-[editing organizations]({{< ref "/handbook/support/readiness/operations/docs/zendesk/organizations#editing-organization-fields-in-zendesk" >}})
+[editing organizations](/handbook/support/readiness/operations/docs/zendesk/organizations#editing-organization-fields-in-zendesk)
 procedure.
 
 You may also consider updating the [Customer Collaboration Projects](/handbook/customer-success/csm/customer-collaboration-project/)
@@ -46,7 +46,7 @@ for your search!
 In both cases, you can click on `Requested` or `Updated` to sort by most recent
 so that you'll be sure to have fresher information.
 
-#### Architecture diagram and [Customer Collaboration Project](/handbook/customer-success/csm/customer-collaboration-project/)
+#### Architecture diagram and Customer Collaboration Project
 
 The Architecture Diagrams app automatically checks for the presence of the
 relevant diagram if the customer has a [Customer Collaboration Project](/handbook/customer-success/csm/customer-collaboration-project/) URL entered in
@@ -56,11 +56,11 @@ To access the app:
 
 1. Click on "Apps" in the top right of the Zendesk UI
 
-   ![Zendesk Apps button](/handbook/support/workflows/assets/zendesk-apps-button.png)
+   ![Zendesk Apps button](/images/support/workflows/assets/zendesk-apps-button.png)
 
 1. Look for the Architecture Diagrams app and expand it if closed
 
-   ![Zendesk Apps button](/handbook/support/workflows/assets/zendesk-apps-arch-diagram.png)
+   ![Zendesk Apps button](/images/support/workflows/assets/zendesk-apps-arch-diagram.png)
 
 ### Within GitLab.com
 

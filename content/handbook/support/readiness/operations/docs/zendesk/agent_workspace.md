@@ -4,6 +4,8 @@ description: Support Operations documentation page for Zendesk agent workspace
 canonical_path: "/handbook/support/readiness/operations/docs/zendesk/agent_workspace"
 ---
 
+<sup>*Introduced via [support-team-meta#5243](https://gitlab.com/gitlab-com/support/support-team-meta/-/issues/5243)*</sup>
+
 ## What is agent workspace?
 
 As per
@@ -36,7 +38,7 @@ With agent workspace, the reply box you type your reply into now has a WYSIWYG
 at the very bottom of the box. Using this you can format your reply, attach
 files, insert emoji, and create links.
 
-#### Markdown links no longer work
+### Markdown links no longer work
 
 When typing a reply, markdown links no longer will render properly. You will
 need to use the embedded `Add link` feature to do so (by either clicking the
@@ -45,12 +47,12 @@ image or using Ctrl+K/Cmd+K).
 **Note** This is only the case for messages you type. Markdown links in any
 macros you use will render correctly.
 
-#### Markdown tables do not work
+### Markdown tables do not work
 
 When typing a reply, markdown tables do not render properly. There is not a
 WYSIWYG ability for these, so tables would not longer be usable.
 
-#### Inline images now work
+### Inline images now work
 
 You can now use inline images in your replies. Simply copy the image and paste
 it into the text box.
@@ -80,7 +82,7 @@ key. This will put a red box around the text. After selecting all the
 attachments to redact, click the red `Redact` button at the bottom-right of the
 comment.
 
-![Performing redactions agent workspace](/handbook/support/readiness/operations/images/agent_workspace_redactions.gif)
+![Performing redactions agent workspace](/images/support/readiness/operations/agent_workspace_redactions.gif)
 
 ## Macro usage
 
@@ -92,7 +94,7 @@ through this menu). To apply the macro in this way, you can either click the
 macro that appears or hit the enter key when highlighted on the macro in
 question.
 
-![Using macros in agent workspace](/handbook/support/readiness/operations/images/agent_workspace_macros.gif)
+![Using macros in agent workspace](/images/support/readiness/operations/agent_workspace_macros.gif)
 
 **Note** If your typing starts with a slash, it will try to locate the macro
 based off what you are typing. It will disregard it when you type another slash
@@ -160,7 +162,7 @@ Agent workspace removed the preview functionality from the reply box. This was
 with the assumption that you can preview your message as you type it, since the
 reply box renders the reply as it will be posted.
 
-#### There is now a draft mode for replies
+### There is now a draft mode for replies
 
 In the bottom-left of the reply box, there is an option to toggle draft mode for
 your reply. This allows you to write your message without the worry of
@@ -169,7 +171,7 @@ to send out the reply, a warning message will indicate you are in draft mode and
 ask you to confirm the sending of the reply.
 
 For more information on draft mode, please see
-[Zendesk's documentation](https://support.zendesk.com/hc/en-us/articles/5627101293722).
+[Zendesk's documentation](https://support.zendesk.com/hc/en-us/articles/5627101293722-Writing-drafts-of-public-replies-in-tickets).
 
 **Note** You can also use the keyboard shortcut Ctrl+Alt+T or Cmd+Option+T to
 toggle draft mode on and off.

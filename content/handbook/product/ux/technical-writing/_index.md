@@ -4,9 +4,9 @@ title: "Technical Writing"
 
 The GitLab Technical Writing team collaborates with developers, product managers, and the community to develop product documentation.
 
-Good documentation meets the evolving needs of all GitLab customers, users, and administrators. It educates readers about features and best practices. It enables people to efficiently configure, use, and troubleshoot GitLab. The Technical Writing team manages the [docs.gitlab.com](https://docs.gitlab.com) site and its content, processes, and tooling.
+Good documentation meets the evolving needs of GitLab customers, users, and administrators. It educates readers about features and best practices. It enables people to efficiently configure, use, and troubleshoot GitLab. The Technical Writing team manages the [docs.gitlab.com](https://docs.gitlab.com) site and its content, processes, and tooling.
 
-The [documentation roadmap](https://about.gitlab.com/direction/manage/foundations/gitlab_docs/) and [related epic](https://gitlab.com/groups/gitlab-org/-/epics/4602) drive our efforts to improve both the content and [documentation website](https://docs.gitlab.com/). For example, we know that people have trouble finding information on docs.gitlab.com. We have roadmap items to better organize the documentation content, improve the information architecture, and upgrade the search capabilities. These larger projects, completed in addition to feature documentation, provide continual, iterative improvement to the user experience of our documentation.
+The [documentation roadmap](https://gitlab.com/groups/gitlab-org/-/epics/4602) drives our efforts to improve both the content and [documentation website](https://docs.gitlab.com/). For example, we know that people have trouble finding information on docs.gitlab.com. We have roadmap items and OKRs to replatform the docs site, provide better task-based information, and make content easier to find. These larger projects, completed in addition to feature documentation, provide continual, iterative improvement to the user experience of our documentation.
 
 Anyone can contribute to the documentation. Follow our [GitLab documentation guidelines](https://docs.gitlab.com/ee/development/documentation/).
 
@@ -15,10 +15,9 @@ Anyone can contribute to the documentation. Follow our [GitLab documentation gui
 [The Technical Writing team](/handbook/company/team/?department=technical-writing) includes:
 
 - A group of [Technical Writers](/job-families/product/technical-writer/).
-- Two [Technical Writing Managers](/job-families/product/technical-writing-manager/).
-- A [Senior UX Fullstack Engineer](/job-families/product/ux-fullstack-engineer/).
+- Three [Technical Writing Managers](/job-families/product/technical-writing-manager/).
+- Two [Fullstack Engineers, Technical Writing](/job-families/product/ux-fullstack-engineer/).
 - A [Technical Writing Director](/job-families/product/technical-writing-manager/#director-technical-writing).
-
 
 ## Contact Us
 
@@ -60,7 +59,7 @@ When evaluating work to meet our stakeholders' needs, we prioritize in the follo
 1. Feature work (including documenting new features, and providing guidance on UI text)
 1. OKR-related work
 1. Backlog issues (including docs technical debt and implementing content topic design)
-1. All other tasks (including creating suggestion- or warning-level [Vale rules](https://docs.gitlab.com/ee/development/documentation/testing.html#vale-result-types))
+1. All other tasks (including creating suggestion- or warning-level [Vale rules](https://docs.gitlab.com/ee/development/documentation/testing/vale.html#result-types))
 
 ### Processes
 
@@ -79,21 +78,21 @@ provides language and style guidance for the product documentation and release p
 
 Any Technical Writer (or other contributor) can make suggestions for
 documentation style updates or additions by creating an issue or merge request with the
-`~tw-style` label, and then assigning the issue or MR to the Style Guide DRI. GitLab team members can also use the #docs Slack channel.
+`~tw-style` label, and then assigning the issue or MR to the Style Guide DRI. GitLab team members can also use the `#docs` Slack channel.
 
 Use the following searches to track completed style-related issues:
 
 - [GitLab project style issues](https://gitlab.com/gitlab-org/gitlab/-/issues?scope=all&utf8=%E2%9C%93&state=opened&label_name[]=tw-style)
 - [GitLab project style MRs](https://gitlab.com/gitlab-org/gitlab/-/merge_requests?scope=all&utf8=%E2%9C%93&state=opened&label_name[]=tw-style)
-- [Technical Writing project style issues](https://gitlab.com/gitlab-org/technical-writing/-/issues?scope=all&utf8=%E2%9C%93&state=opened&label_name[]=tw-style)
+- [Technical Writing project style issues](https://gitlab.com/gitlab-org/technical-writing/team-tasks/-/issues?scope=all&utf8=%E2%9C%93&state=opened&label_name[]=tw-style)
 
 #### Testing
 
 The Technical Writing team develops and maintains toolkits to test GitLab's documentation (and other technical content) for problems. These toolkits include (but aren't limited) to:
 
 - Text content and writing style: markdownlint, Vale
-- Text formatting: Markdownlint, yamllint
-- Link validity: nanoc
+- Text formatting: markdownlint, yamllint
+- Link validity: Nanoc
 - File permissions and naming: `lint-doc.sh`
 
 Any contributor can suggest changes to our linting rules or tooling by creating an issue or merge request with the [`~tw-testing`](https://gitlab.com/gitlab-org/gitlab/-/issues?label_name[]=tw-testing) label, and then assigning the issue or MR to a technical writer.
@@ -101,7 +100,7 @@ Any contributor can suggest changes to our linting rules or tooling by creating 
 #### Translation and internationalization
 
 Everyone can contribute to the translation of GitLab from English into other languages.
-To learn more about translation and internationalization at GitLab, visit the Import and Integrate direction page and Manage stage Category Direction page on [Internationalization](https://about.gitlab.com/direction/manage/import_and_integrate/internationalization/).
+To learn more about translation and internationalization at GitLab, visit the Import and Integrate direction page and Manage stage Category Direction page on [Internationalization](https://about.gitlab.com/direction/foundations/import_and_integrate/internationalization/).
 For a step-by-step guide to translation contributions, read [Translating GitLab](https://docs.gitlab.com/ee/development/i18n/translation.html).
 
 The [docs.gitlab.com](https://docs.gitlab.com/) site is not included in the community efforts to internationalize GitLab. Discussion on translating documentation into other languages is included in [this issue](https://gitlab.com/gitlab-org/gitlab/-/issues/15471#note_214823504).
@@ -128,16 +127,17 @@ all situations where documentation is required.
 <!--
   To update the table above:
 
-  - For tech writer's name per stage, change data/stages.yml and sites/handbook/includes/stages/tech-writing.html.haml
-  - To turn off a stage, set tw: false in data/stages.yml
+  - For tech writer's name per stage, change https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/data/stages.yml and https://gitlab.com/gitlab-com/content-sites/handbook/-/blob/main/layouts/shortcodes/tech-writing.html
+  - To turn off a stage, set tw: false in https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/data/stages.yml
 
 Reference: https://gitlab.com/gitlab-com/www-gitlab-com/merge_requests/24952
 -->
 
 {{% alert title="Note" color="primary" %}}
 **If you were directed here from a documentation page's metadata:**
+
 - The metadata doesn't indicate developer ownership, but is meant to direct you to an appropriate technical writer.
-- If you are a development group and would like metadata in documentation pages, create an issue in [the Technical Writing repository](https://gitlab.com/gitlab-org/technical-writing) for discussion. Additional discussion is in [this issue](https://gitlab.com/gitlab-org/technical-writing/-/issues/547).
+- If you are part of a development group and would like to add metadata to documentation pages, create an issue in [the TW team tasks project](https://gitlab.com/gitlab-org/technical-writing/team-tasks/) for discussion. Additional discussion is in [issue 547](https://gitlab.com/gitlab-org/technical-writing/team-tasks/-/issues/547).
 - If the stage is listed as `none`, see if [there is a DRI](#assignments-to-other-projects-and-subjects) or use [roulette](https://gitlab-org.gitlab.io/gitlab-roulette/?sortKey=stats.avg30&order=-1&hourFormat24=true&visible=maintainer%7Cdocs).
 {{% /alert %}}
 
@@ -148,22 +148,33 @@ and approval when adding significant changes to their docs.
 
 When a Technical Writer [is on PTO](#technical-writer-pto), the whole team acts as their backup.
 
+<!-- vale handbook.Spelling = NO -->
+
+### Stage leads
+
+Some Technical Writers are assigned as [stage leads](/handbook/product/ux/technical-writing/workflow/#stage-leads) for a given [DevOps stage](/handbook/product/categories/#devops-stages):
+
+| Stage            | Assigned stage lead |
+|:-----------------|:--------------------|
+| Verify           | {{< member-by-name "Marcel Amirault" >}} |
+| AI-powered       | {{< member-by-name "Jon Glassman" >}} |
+| Create           | {{< member-by-name "Amy Qualls" >}} |
+| Plan             | {{< member-by-name "Marcin Sędłak-Jakubowski" >}} |
+| Application Security Testing | {{< member-by-name "Russell Dickenson" >}} |
+
 ### Assignments to other projects and subjects
 
 For collaboration in other projects and subjects:
 
-| Subject                                                                                                         | Assigned technical writer                                                                                                                      |
-|:----------------------------------------------------------------------------------------------------------------|:-----------------------------------------------------------------------------------------------------------------------------------------------|
-| The documentation site                                      | {{< member-by-name "Susan Tacker" >}}                                                                                                                              |
-| The documentation site backend (code, automation)                                             | {{< member-by-name "Sarah German" >}}                                                                                                                              |
-| [GitLab Design System ("Pajamas")](https://design.gitlab.com/) information under [`content`](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/-/tree/main/contents/content)                                               | {{< member-by-name "Suzanne Selhorn" >}}                                                                                                                              |
-| [Style Guide](#style-guide)                                                                                     | {{< member-by-name "Suzanne Selhorn" >}}                                                                                                                              |
-| [Testing/Vale/markdownlint](#testing)                                                                           | {{< member-by-name "Diana Logan" >}}                                                                                                                                  |
-| [Documentation handbook](/handbook/documentation/)                                                              | {{< member-by-name "Diana Logan" >}}                                                                                                                                  |
-| [Technical Writing handbook](https://about.gitlab.com/handbook/engineering/ux/technical-writing/)                                       | {{< member-by-name "Susan Tacker" >}}                                                                                                                                 |
-| [Tutorials](https://docs.gitlab.com/ee/tutorials/)                                                              | {{< member-by-name "Kati Paizee" >}}                                                                                                                                  |
-| [What's new](https://docs.gitlab.com/ee/administration/whats-new.html)                                          | {{< member-by-name "Kati Paizee" >}}                                                                                                                                  |
-| [GitLab Development Kit (GDK)](https://gitlab.com/gitlab-org/gitlab-development-kit)                            | {{< member-by-name "Ashraf Khamis" >}}, {{< member-by-name "Achilleas Pipinellis" >}}, {{< member-by-name "Evan Read" >}}, {{< member-by-name "Fiona Neill" >}}, {{< member-by-name "Jon Glassman" >}}, {{< member-by-name "Lorena Ciutacu" >}}, {{< member-by-name "Marcel Amirault" >}}, {{< member-by-name "Phillip Wells" >}}, {{< member-by-name "Russell Dickenson" >}} |
+| Subject                                                                              | Assigned technical writer |
+|:--------------------------------------------------------------------------------     |:--------------------------|
+| The documentation site                                                               | {{< member-by-name "Susan Tacker" >}} |
+| The documentation site backend (code, automation)                                    | {{< member-by-name "Sarah German" >}} |
+| [GitLab Design System ("Pajamas")](https://design.gitlab.com/) information under [`content`](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/-/tree/main/contents/content) | {{< member-by-name "Fiona Neill" >}} |
+| [Style Guide](#style-guide)                                                          | {{< member-by-name "Fiona Neill" >}} |
+| [Left nav](https://docs.gitlab.com/ee/development/documentation/site_architecture/global_nav.html) (information architecture of docs) | {{< member-by-name "Fiona Neill" >}} |
+| [Testing/Vale/markdownlint](#testing)                                                | {{< member-by-name "Fiona Neill" >}} |
+| [GitLab Development Kit (GDK)](https://gitlab.com/gitlab-org/gitlab-development-kit) | {{< member-by-name "Ashraf Khamis" >}}, {{< member-by-name "Achilleas Pipinellis" >}}, {{< member-by-name "Evan Read" >}}, {{< member-by-name "Jon Glassman" >}}, {{< member-by-name "Lorena Ciutacu" >}}, {{< member-by-name "Marcel Amirault" >}}, {{< member-by-name "Phillip Wells" >}}, {{< member-by-name "Russell Dickenson" >}} |
 
 ### Content not reviewed by TWs
 
@@ -177,23 +188,28 @@ Technical writers do not review content in:
 
 The Technical Writing team gets assistance with the `gitlab-docs` project from stable counterparts outside the team.
 
-| Subject          | Person                                 |
-|:-----------------|:---------------------------------------|
-| Backend reviews  | [Ash McKenzie], [David O'Regan]        |
-| Frontend reviews | [Lukas 'Eipi' Eipert], [David O'Regan] |
+| Subject          | Person |
+|:-----------------|:-------|
+| Backend reviews  | [Ash McKenzie](https://gitlab.com/ashmckenzie), [David O'Regan](https://gitlab.com/oregand) |
+| Frontend reviews | [Paul Gascou-Vaillancourt](https://gitlab.com/pgascouvaillancourt), [Lukas 'Eipi' Eipert](https://gitlab.com/leipert), [David O'Regan](https://gitlab.com/oregand) |
+| Support          | [Mike Lockhart](https://gitlab.com/mlockhart) |
 
-[Ash McKenzie]: https://gitlab.com/ashmckenzie
-[Lukas 'Eipi' Eipert]: https://gitlab.com/leipert
-[David O'Regan]: https://gitlab.com/oregand
+<!-- vale handbook.Spelling = YES -->
 
 ## Docs site stats
 
 The technical writing team supports a large amount of content.
 
+### Page count
+
 The number of pages in the five primary repositories (GitLab, Omnibus, Charts, Operator, and Runner):
 
-| Date          | # of pages | Increase from previous quarter |
+| Date          | # of pages | Increase/decrease from previous quarter |
 |---------------|------------| ------------|
+| Dec 2024      | 2,442      | 5 %         |
+| Sept 2024     | 2,328      | -5 %        |
+| June 2024     | 2,456      | 6 %         |
+| Mar  2024     | 2,308      | 5 %         |
 | Dec  2023     | 2,201      | 5 %         |
 | Sept 2023     | 2,088      | 8 %         |
 | Jun 2023      | 1,993      | 5 %         |
@@ -204,13 +220,27 @@ The number of pages in the five primary repositories (GitLab, Omnibus, Charts, O
 | Jan 2022      | 1,562      | -           |
 | May 2020      | 1,165      | -           |
 
-**Change between May 2020 and Dec 2023:** 1036 more pages (a 89% increase)
+**Change between May 2020 and December 2024:** 1,277 more pages (a 110% increase).
+
+Decrease in September 2024 due to moving the architecture blueprints topics to the handbook. For more information, see [issue 279](https://gitlab.com/gitlab-com/content-sites/handbook/-/issues/279).
+
+#### Page count by area of the left nav
+
+In December, 2024, the page count by area of the left navigation:
+
+![img](/images/handbook/product/ux/technical-writing/page_count_dec2024.png)
+
+### Word count
 
 The number of words in these repositories:
 
-| Date          | Word count | Increase from previous quarter |
+| Date          | Word count | Increase/decrease from previous quarter |
 |---------------|------------| ------------|
-| Dec  2023     | 2,990,400  | 5 %        |
+| Dec 2024      | 3,373,709  | 6 %         |
+| Sept 2024     | 3,191,353  | -4 %        |
+| June 2024     | 3,325,823  | 4 %         |
+| Mar  2024     | 3,183,647  | 6 %         |
+| Dec  2023     | 2,990,400  | 5 %         |
 | Sept 2023     | 2,842,399  | 5 %         |
 | Jun 2023      | 2,701,888  | 6 %         |
 | Mar 2023      | 2,546,466  | 6 %         |
@@ -220,20 +250,28 @@ The number of words in these repositories:
 | Jan 2022      | 2,017,183  | -           |
 | May 2020      | 1,190,371  | -           |
 
-**Change between May 2020 and Dec 2023:** 1,800,029 more words (a 151% increase)
+**Change between May 2020 and December 2024:** 2,183,338 more words (a 183% increase).
+
+Decrease in September 2024 due to moving the architecture blueprints topics to the handbook. For more information, see [issue 279](https://gitlab.com/gitlab-com/content-sites/handbook/-/issues/279).
 
 The word count has more than doubled in this timeframe.
+
+#### Word count by area of the left nav
+
+In December, 2024, the word count by area of the left navigation:
+
+![img](/images/handbook/product/ux/technical-writing/word_count_dec2024.png)
 
 ### Analytics
 
 GitLab Team Members can view docs site metrics on the docs.gitlab.com [LookerStudio dashboard](https://lookerstudio.google.com/reporting/d6af7a2b-2aaa-4f30-8742-811e62777c93/page/IeVBD).
-To view page level analytics, select **Page views by month**, and add the page URL in the value field. Do **not** include https:// as part of the value.
+To view page level analytics, select **Page views by month**, and add the page URL in the value field. Do **not** include `https://` as part of the value.
 
 To make or suggest changes to the dashboard, open an issue in the [Marketing Strategy and Analytics project](https://gitlab.com/gitlab-com/marketing/marketing-strategy-performance).
 
 ## Technical Writer PTO
 
-When Technical Writers take [paid time off](/handbook/paid-time-off/), the rest of the team provides coverage for them.
+When Technical Writers take [paid time off](/handbook/people-group/paid-time-off/), the rest of the team provides coverage for them.
 These team members may require additional context for requests. Requests are incorporated into the list of stage/group and
 feature priorities for *their* primary groups.
 
@@ -241,20 +279,20 @@ Options for groups to get help when an assigned Technical Writer is on PTO are:
 
 - [Reviewer Roulette](https://gitlab-org.gitlab.io/gitlab-roulette/?sortKey=stats.avg7&order=-1&visible=maintainer%7Cdocs).
   A rouletted Technical Writer can be pinged or assigned to an issue or merge request.
-- A request in the [#docs](https://gitlab.slack.com/archives/C16HYA2P5) channel in Slack, where it will be picked
+- A request in the [`#docs`](https://gitlab.slack.com/archives/C16HYA2P5) channel in Slack, where it will be picked
   up by an available volunteer Technical Writer.
 - For help with a specific, time-sensitive, in-progress piece of work, a pre-arranged Technical Writer. The Technical
   Writer can be pinged on issues or merge requests and begin participating.
 
-If taking extended PTO (more than one week), Technical Writer should consider using the Technical Writer
-[coverage issue](https://gitlab.com/gitlab-org/technical-writing/-/blob/main/.gitlab/issue_templates/TW_Coverage.md).
+If taking extended PTO (one week or more), Technical Writers and Managers should use the Technical Writer
+[coverage issue](https://gitlab.com/gitlab-org/technical-writing/team-tasks/-/blob/main/.gitlab/issue_templates/TW_Coverage.md).
 This issue can describe exactly who is providing coverage, for what, and by what means.
 
 ### Taking PTO
 
 When taking PTO, Technical Writers:
 
-1. Ensure their [out-of-office messaging](/handbook/paid-time-off/#communicating-your-time-off) reflects the available mechanisms for coverage.
+1. Ensure their [out-of-office messaging](/handbook/people-group/paid-time-off/#communicating-your-time-off) reflects the available mechanisms for coverage.
    It's important to keep GitLab.com statuses up-to-date to ensure:
 
    - [Reviewer Roulette](https://gitlab-org.gitlab.io/gitlab-roulette/?sortKey=stats.avg7&order=-1&visible=maintainer%7Cdocs) can make accurate suggestions.
@@ -262,8 +300,8 @@ When taking PTO, Technical Writers:
 1. Send a message in the group Slack channels indicating where to find the available mechanisms. For example:
 
    ```text
-   I’m off for the holidays (202y-mm-dd - 202y-mm-dd). For help with documentation while I'm away, see
-   https://about.gitlab.com/handbook/product/ux/technical-writing/#technical-writer-pto for ways to get help.
+   I'm off for the holidays (202y-mm-dd - 202y-mm-dd). For help with documentation while I'm away, see
+   https://handbook.gitlab.com/handbook/product/ux/technical-writing/#technical-writer-pto for ways to get help.
    For urgent _named time-sensitive task_ matters, ping _named TW_.
    ```
 
@@ -283,23 +321,27 @@ that need to be regularly completed:
 
 - **Release Post Structural Check:** The Technical Writing Lead [reviews the content](/handbook/marketing/blog/release-posts/#tw-lead) for the release post published at the end of each milestone. See the [Release Post Scheduling](/handbook/marketing/blog/release-posts/managers/) Handbook page for each milestone's assigned writer.
 - **Monthly doc version:** At the end of each milestone, a Technical Writer [creates the monthly version for the docs site](https://gitlab.com/gitlab-org/gitlab-docs/-/blob/main/doc/releases.md). The Technical Writer assigned to this task is the writer who completed the release post structural check for the previous milestone.
-- **Docs project maintenance tasks:** Each month, one Technical Writer is assigned to complete maintenance tasks for the documentation site and its content. This involves [creating a new issue using the `tw-monthly-tasks` template](https://gitlab.com/gitlab-org/technical-writing/-/issues/new?issue[title]=Docs%20project%20maintenance%20tasks%2C%20Month%20YYYY&issuable_template=tw-monthly-tasks) in the `technical-writing` project to track maintenance work. If additional work beyond what's described in the maintenance issue is required, the Technical Writer creates merge requests and additional issues as needed.
+- **Docs project maintenance tasks:** Each month, one Technical Writer is assigned to complete maintenance tasks for the documentation site and its content. This involves [creating a new issue using the `tw-monthly-tasks` template](https://gitlab.com/gitlab-org/technical-writing/team-tasks/-/issues/new?issue[title]=Docs%20project%20maintenance%20tasks%2C%20Month%20YYYY&issuable_template=tw-monthly-tasks) in the `technical-writing` project to track maintenance work. If additional work beyond what's described in the maintenance issue is required, the Technical Writer creates merge requests and additional issues as needed.
+
+<!-- vale handbook.Spelling = NO -->
 
 Schedule for Docs project maintenance tasks:
 
+- March, 2025: {{< member-by-name "Brendan Lynch" >}}
+- February, 2025: {{< member-by-name "Emily Sahlani" >}}
+- January, 2025: {{< member-by-name "Marcin Sędłak-Jakubowski" >}}
+- December, 2024: {{< member-by-name "Roshni Sarangadharan" >}}
+- November, 2024: {{< member-by-name "Ryan Lehmann" >}}
+- October, 2024: {{< member-by-name "Russell Dickenson" >}}
+- September, 2024: {{< member-by-name "Marcel Amirault" >}}
+- August, 2024: {{< member-by-name "Jon Glassman" >}}
+- July, 2024: {{< member-by-name "Ashraf Khamis" >}}
+- June, 2024: {{< member-by-name "Evan Read" >}}
+- May, 2024: {{< member-by-name "Lorena Ciutacu" >}}
+- April, 2024: {{< member-by-name "Lysanne Pinto" >}}
 - March, 2024: {{< member-by-name "Amy Qualls" >}}
-- February, 2024: {{< member-by-name "Marcel Amirault" >}}
-- January, 2024: {{< member-by-name "Phillip Wells" >}}
-- December, 2023: {{< member-by-name "Achilleas Pipinellis" >}}
-- November, 2023: {{< member-by-name "Marcin Sędłak-Jakubowski" >}}
-- October, 2023: {{< member-by-name "Russell Dickenson" >}}
-- September, 2023: {{< member-by-name "Evan Read" >}}
-- August, 2023: {{< member-by-name "Kati Paizee" >}}
-- July, 2023: {{< member-by-name "Diana Logan" >}}
-- June, 2023: {{< member-by-name "Ashraf Khamis" >}}
-- May, 2023: {{< member-by-name "Fiona Neill" >}}
-- April, 2023: {{< member-by-name "Lorena Ciutacu" >}}
-- March, 2023: {{< member-by-name "Marcin Sędłak-Jakubowski" >}}
+
+<!-- vale handbook.Spelling = YES -->
 
 ## Reviews
 
@@ -338,10 +380,10 @@ These items **do not receive** an edit unless it's specifically requested (and i
 
 - In the GitLab repository, the Contribution guidelines (in the `/development` directory).
 - In the GitLab repository, the `doc/solutions` directory. This information is owned by Solutions Architects.
+- In the GitLab repository, the blueprint documentation (everything in the `architecture/blueprints` directory).
 
 These items receive a **light** edit:
 
-- In the GitLab repository, the blueprint documentation (everything in the `architecture/blueprints` directory).
 - Documentation outside of the five main GitLab repositories (GitLab, Charts, Operator, Omnibus, and Runner).
 - Deprecations and removals.
 - Merge requests authored by other technical writers, unless the MR is part of an OKR, or the author requests a more in-depth edit.
@@ -367,20 +409,28 @@ can efficiently perform the necessary verification.
 
 ### Review workflow
 
-To balance [velocity](https://about.gitlab.com/handbook/engineering/development/principles/#the-importance-of-velocity) and quality, the writers use this workflow:
+To balance [velocity](/handbook/engineering/development/principles/#the-importance-of-velocity) and quality, the technical writers use this workflow:
 
-- When a writer opens a merge request, another writer must review and merge. Peer reviews are important to maintain quality and help the team build a common voice.
+- When a technical writer opens a merge request, another writer must review and merge.
+  Peer reviews are important to maintain quality and a common voice.
 - When anyone else (like a developer, community member, or Support team member) opens a merge request:
-  - If the MR contains documentation and code, the writer adds suggestions but does not merge. The MR is merged by another developer.
-  - If the MR contains documentation only:
-    - Writers can apply small suggestions, by using the **Apply suggestion** feature, before they merge.
-      Writers can fix things like missing punctuation, typos, and pipeline failures without additional review.
-    - Writers do not push larger changes (by using suggestions or commits) to the author's branch unless they have explicit approval in the MR to do so.
+  - If the MR contains only documentation changes, the writer:
+    - Reviews the content and offers suggestions.
+    - Does not directly make large changes (by applying suggestions or pushing commits) to the author's branch unless they have explicit approval in the MR to do so.
       Pushing to a branch can cause hard-to-resolve merge conflicts, and content can be accidentally overwritten.
-    - In rare cases, a writer has agreement from their team to make commits directly to the author's branch.
-      In these cases, if the writer pushes changes other than minor typo fixes (by using suggestions or commits), the author
-      must review before the writer merges. This workflow gives the MR
-      author a chance to verify the changes and it helps ensure accuracy.
+    - Can use suggestions or commits to make changes themselves only if the writer has agreement from the author to make changes directly to the author's branch.
+      In these cases, the author must always review the technical writer's changes before the writer merges, to help ensure accuracy.
+    - Can apply small suggestions using the **Apply suggestion** feature if an MR is nearly ready to merge.
+      Writers can fix things like missing punctuation, typos, and pipeline failures without additional review.
+    - Approves and merges the documentation MR when it is ready.
+  - If the MR is primarily a code change that also contains a documentation update, the writer:
+    - Offers suggestions for any documentation, UI text, and error message changes, but should not apply any suggestion themselves.
+      Making any changes to a code MR can cause pipelines to fail as code and specs often need to be updated by the engineer to match technical writing suggestions.
+    - Approves the MR if the documentation changes are ready to merge.
+    - Does not merge code MRs. The MR must be merged by an engineer who also reviews the code change.
+  - If the MR is primarily a documentation change, but also has a small code change to update a link to match the change, the writer:
+    - Reviews the content using the same workflow as a documentation-only MR.
+    - Can merge *only* if the MR has all [required approvals](#merge-rights).
 
 For more information on review turnaround times, see [Review-response SLO](../../../engineering/workflow/code-review/#review-response-slo).
 
@@ -406,29 +456,30 @@ If you have content that needs a specific assignee, or if you have a merge reque
 
 There are occasions when Technical Writers may be too busy for general team merge request reviews, and need to focus on their groups or other priorities. In those cases, Technical Writers can update their GitLab status by selecting the **Busy** checkbox and adding the 🔴 `:red_circle:`, which prevents their name from appearing in the reviewer roulette.
 
-For example, Technical Writers on release duty for a milestone should add the busy indicator to their status for the week preceeding the [release date](https://about.gitlab.com/handbook/engineering/releases/), to focus on release posts and other requirements.
+For example, Technical Writers on release duty for a milestone should add the busy indicator to their status for the week preceding the [release date](/handbook/engineering/releases/), to focus on release posts and other requirements.
 
 In all other cases, while Technical Writers can add (and remove) the busy indicator from their profiles, we ask that the busy indicator be in place for no longer than two days at a time, and be employed no more than once every two weeks. (Noting that the use of the busy indicator during releases doesn't affect this.) If you need more time not participating in the review roulette, be sure to talk to your manager so they can help (which may include additional use of the busy indicator).
 
 ## Merge rights
 
-The Technical Writing team is given merge rights (through
-[Maintainer access](https://about.gitlab.com/handbook/engineering/workflow/code-review/#how-to-become-a-project-maintainer))
-to GitLab projects as part of their role. Not all developers get Maintainer access. Technical
-writers should use this privilege responsibly.
+The Technical Writing team is given merge rights (through [Maintainer access](/handbook/engineering/workflow/code-review/#how-to-become-a-project-maintainer))
+to GitLab projects as part of their role. Not all developers get Maintainer access, so Technical Writers must use this privilege responsibly.
 
-As Maintainers, Technical Writers should limit what they merge to:
+As Maintainers, Technical Writers must limit what they merge to:
 
 - Documentation, typically in Markdown-formatted files.
-- UI text, error messages, and link-related fixes, with the approvals of appropriate engineer(s).
+- UI text, error messages, and link-related updates in code files, with the approvals of appropriate engineers.
+  You can skip engineer approval and ask a member of the [TW leadership team](https://gitlab.com/groups/gitlab-org/tw-leadership/-/group_members?with_inherited_permissions=exclude)
+  or `@marcel.amirault` to approve code changes when:
+  - The only code changes in a documentation MR are link fixes to match changes to documentation files or anchor names, and
+  - The pipeline completed successfully.
 - Documentation-related tooling and configuration such as linters, and changes
   to the [`gitlab-docs`](https://gitlab.com/gitlab-org/gitlab-docs) project. Engineers
   are available for code review and merges.
 
-In addition, Technical Writers should:
+In addition, Technical Writers must:
 
-- Never merge an MR with a failed pipeline, unless the failures are unrelated to the changes. If in
-  doubt, ask an engineer.
+- Never merge an MR with a failed pipeline.
 - Ensure that MRs are complete before merging, with appropriate labels and milestones.
 - Ensure that the DRI has reviewed and approved the MR.
 
@@ -437,7 +488,7 @@ In addition, Technical Writers should:
 While the Technical Writer is onboarding, they will be assigned to
 shadow groups and then start contributing as trainees. Veteran Technical Writers will coach them through the process.
 
-For more information about onboarding phases and tasks, see the [Technical Writer onboarding template](https://gitlab.com/gitlab-org/technical-writing/-/blob/main/.gitlab/issue_templates/tw_onboarding.md).
+For more information about onboarding phases and tasks, see the [Technical Writer onboarding template](https://gitlab.com/gitlab-org/technical-writing/team-tasks/-/blob/main/.gitlab/issue_templates/tw_onboarding.md).
 
 ## Standups
 
@@ -476,7 +527,7 @@ question to the list of random Wednesday questions! To do so:
 
 ## Community contribution opportunities
 
-We welcome [improvements to content](/community/contribute/documentation/)
+We welcome [improvements to content](https://docs.gitlab.com/ee/development/contributing/)
 as well as to the development of our
 documentation website, at https://docs.gitlab.com.
 
@@ -498,3 +549,9 @@ See:
 
 The documentation website is refreshed every hour. On rare occasions, we might have to publish documentation
 updates a little faster. If you need an urgent update, follow the steps to [manually deploy the docs site](https://docs.gitlab.com/ee/development/documentation/site_architecture/deployment_process.html#manually-deploy-to-production).
+
+### Report a docs website problem or infrastructure issue
+
+Report website bugs or feature requests in the [issue queue for the Docs website](https://gitlab.com/gitlab-org/gitlab-docs/-/issues).
+
+For outages or website availability issues, see [Docs site infrastructure](https://gitlab.com/gitlab-org/gitlab-docs/-/blob/main/doc/infrastructure.md?ref_type=heads).

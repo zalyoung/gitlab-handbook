@@ -1,19 +1,13 @@
 ---
-
 title: "Kamil Trzciński's README"
+description: "Personal readme page for Kamil Trzciński, Senior Distinguished Engineer, Ops and Enablement, GitLab"
 job: "Senior Distinguished Engineer, Ops and Enablement"
 ---
-
-
-
-
-
-
 
 ## Introduction
 
 My name is Kamil Trzciński and I am a Senior Distinguished Engineer as part of the
-[Memory team][/handbook/engineering/infrastructure/core-platform/data_stores/application_performance/],
+[Memory team](/handbook/engineering/infrastructure/core-platform/data_stores/application_performance/),
 and I live in Poland.
 
 I joined GitLab in 2015, June. I contributed to GitLab a way before me joining
@@ -21,11 +15,11 @@ the company. My most noteable contribution was [GitLab Runner](https://gitlab.co
 at the beginning of 2015, which got me hired into GitLab in the first place.
 
 I decided to write the [GitLab Runner](https://gitlab.com/gitlab-org/gitlab-runner/),
-because I wanted to learn [Go](https://golang.org/). The GitLab Runner is
+because I wanted to learn [Go](https://go.dev/). The GitLab Runner is
 my first actual project written in this language. Go was ideal choice for it
 due static compilation (easy to distribute), great support for Docker and
 very efficient execution model (able to concurrently execute many jobs at once).
-Additionally, I always loved simplicity of [Drone.io](https://drone.io).
+Additionally, I always loved simplicity of [Drone.io](https://www.drone.io/).
 I used a number of ideas and implemented them in a initial version
 of GitLab Runner, allowing it to heavily use Docker.
 
@@ -34,7 +28,7 @@ of GitLab Runner, allowing it to heavily use Docker.
 * [GitLab.com account](https://gitlab.com/ayufan)
 * [dev.gitlab.org account](https://dev.gitlab.org/kamil)
 * [ops.gitlab.net account](https://ops.gitlab.net/kamil)
-* [Team page](/company/team/#kamil)
+* [Team page](/handbook/company/team/#kamil)
 
 ## What I do focus
 
@@ -76,29 +70,29 @@ Working on many topics at the same time is sometimes challenging
 due to context switching, but I usually do not find it very tiresome.
 These are reason why I like doing that:
 
-- Broaden the knowledge
-- I'm genuinelly interested in a topic
-- I want to learn new technology or new area
-- I want to try different ideas and see how complex they could be if implemented
-- I want to explore a potential improvement to a known problem
-- I want to research an issue that I saw
-- I see it as a potential improvement to the product
+* Broaden the knowledge
+* I'm genuinelly interested in a topic
+* I want to learn new technology or new area
+* I want to try different ideas and see how complex they could be if implemented
+* I want to explore a potential improvement to a known problem
+* I want to research an issue that I saw
+* I see it as a potential improvement to the product
 
 My way of speeding up learning process is creating a [Proof of Concept](https://en.wikipedia.org/wiki/Proof_of_concept).
 I do it for a various reasons:
 
-- I tend to create many Proof of Concepts to check different approaches
-- I timebox time spend on Proof of Concept, dismiss the Proof of Concept if it takes
+* I tend to create many Proof of Concepts to check different approaches
+* I timebox time spend on Proof of Concept, dismiss the Proof of Concept if it takes
   too long as too complex
-- I use Proof of Concept to get a quick validation of the idea
-- I use Proof of Concept to understand the complexity of the implementation
+* I use Proof of Concept to get a quick validation of the idea
+* I use Proof of Concept to understand the complexity of the implementation
   and potential problems with the approach
-- The Proof of Concept is not perfect, it is never meant to cover all cases,
+* The Proof of Concept is not perfect, it is never meant to cover all cases,
   nor meant to be merged
-- The Proof of Concept does showcase one of the solutions to the stated problem
-- The Proof of Concept can be used to validate the performance characteristic of the approach
-- I describe Proof of Concept with the assumptions and limitations around which they got created
-- The Proof of Concept can be a good discussion point that allows to further decide
+* The Proof of Concept does showcase one of the solutions to the stated problem
+* The Proof of Concept can be used to validate the performance characteristic of the approach
+* I describe Proof of Concept with the assumptions and limitations around which they got created
+* The Proof of Concept can be a good discussion point that allows to further decide
   if the approach is correct, and what are needed steps to get it into mergeable state
 
 I like working on many merge requests at a single time. I tend to aggressively
@@ -121,32 +115,32 @@ our live easier in the future.
 
 A few examples how I approach above:
 
-- comment something that I discovered, but was not obvious
-- improve architecture of existing implementation
-- rewrite methods and tests to make them easier to read or make them more performant
-- create issues about problem discovered
-- do a small merge request prior to this change to improve some aspects
+* comment something that I discovered, but was not obvious
+* improve architecture of existing implementation
+* rewrite methods and tests to make them easier to read or make them more performant
+* create issues about problem discovered
+* do a small merge request prior to this change to improve some aspects
 
 ## My focus
 
 While doing my work or looking over someone else work I usually care most about:
 
-- security (always at the first place): in particular I look at all authentication
+* security (always at the first place): in particular I look at all authentication
   and authorization code, and try to ensure that a well established patterns
   are used instead of reinventing a wheel
-- data strucutre: that database structure is future-proof: I consider that data
+* data strucutre: that database structure is future-proof: I consider that data
   migration is the hardest thing to do at a scale
-- performance of the solution: I in particular look at mis-use and edge cases that
+* performance of the solution: I in particular look at mis-use and edge cases that
   might affect execution time (CPU/DB time or Memory usage)
-- usage limits: defines a upper usage limits to which the solution is tested,
+* usage limits: defines a upper usage limits to which the solution is tested,
   define limits that prevent mis-use of the solution
-- extensibility: that solution is extendable in the future
-- style: that it is implemented coherently to exisitng code, and it have
+* extensibility: that solution is extendable in the future
+* style: that it is implemented coherently to exisitng code, and it have
   a proper structure (OOM)
 
 Outside of purely implementation aspects I do also care about:
 
-- it is user-loveable UX: it is clean, and coherent with existing feature
+* it is user-loveable UX: it is clean, and coherent with existing feature
 
 ## Work Environment
 

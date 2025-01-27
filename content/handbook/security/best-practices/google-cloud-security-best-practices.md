@@ -18,7 +18,7 @@ This default account should not be used. Instead, you should choose one of the f
 
 - If your instance does not need authenticated access to Google Cloud APIs, you should choose not to bind any service account at all. This can be done by appending the `--no-service-account --no-scopes` flags if using the `gcloud` command, or by selecting the following option in the web interface:
 
-![No Service Account](gcp-no-service-account.jpg)
+![No Service Account](/images/security/gcp-no-service-account.jpg)
 
 - If your instance does need to authenticate to certain Google Cloud APIs, you should use a specific service account that has been granted only the [minimum IAM roles required](https://cloud.google.com/compute/docs/access/service-accounts#service_account_permissions) for your application to function. Access Scopes are not a replacement for properly configured IAM permissions and in general [should not be relied upon](https://cloud.google.com/compute/docs/access/service-accounts#accesscopesiam) as a security mechanism.
 
@@ -42,7 +42,7 @@ Whether deploying a GKE cluster manually or automatically via Terraform, you can
 
 In addition, you should enable [Workload Identity](https://cloud.google.com/kubernetes-engine/docs/how-to/workload-identity#enable_on_cluster) and [Shielded Nodes](https://cloud.google.com/kubernetes-engine/docs/how-to/shielded-gke-nodes#enabling_in_a_new_cluster) on all new clusters. This can be done by appending the `--workload-pool=[PROJECT-ID].svc.id.goog --enable-shielded-nodes` flags if using the gcloud command, or by selecting the following options in the web interface (located under the "Security" menu):
 
-![GKE Settings](gcp-gke-settings.jpg)
+![GKE Settings](/images/security/gcp-gke-settings.jpg)
 
 ### Google Cloud Functions
 
@@ -77,15 +77,15 @@ Test and demo instances are publicly accessible on the internet, by default. The
 
 A highly effective way to secure your cloud instances is to apply the [concept of IP filtering](https://www.oreilly.com/library/view/linux-network-administrators/1565924002/ch09s03.html) for each test instance you create whether its a GitLab instance or otherwise. For the majority of cases, this means source IP filtering from one or more [CIDR block ranges](https://whatismyipaddress.com/cidr) ensuring that only certain IPs and integrations can interact with the GitLab instance, therefore reducing the attack surface of the GitLab organization as a whole.
 
-If you don’t know your current IP address to use for source IP filtering, you can utilize services like [whatsmyipaddress.com](https://whatismyipaddress.com/) or [ipinfo.io](https://ipinfo.io/) to retrieve it. The steps to implement IP filtering will differ per cloud environment. Below you can find a detailed guide maintained by the support engineering team.
+If you don't know your current IP address to use for source IP filtering, you can utilize services like [whatsmyipaddress.com](https://whatismyipaddress.com/) or [ipinfo.io](https://ipinfo.io/) to retrieve it. The steps to implement IP filtering will differ per cloud environment. Below you can find a detailed guide maintained by the support engineering team.
 
 - [Support Engineering Step-by-Step Guide to Implementing IP Filtering](https://gitlab.com/gitlab-com/support/support-training/-/blob/master/content/ip%20filtering/ip_filtering_test_instances.md)
 
 In addition, you can find official, platform-specific documentation of features involved in implementing IP filtering:
 
 - [Google Cloud](https://cloud.google.com/vpc/docs/using-firewalls#creating_firewall_rules#console)
-- [Amazon Web Services (AWS)](https://docs.aws.amazon.com/vpc/latest/userguide/VPC_SecurityGroups.html)
-- [Azure](https://docs.microsoft.com/en-us/learn/modules/introduction-azure-web-application-firewall/)
+- [Amazon Web Services (AWS)](https://docs.aws.amazon.com/vpc/latest/userguide/vpc-security-groups.html)
+- [Azure](https://learn.microsoft.com/en-us/training/modules/introduction-azure-web-application-firewall/)
 
 IP filtering should be set up and used when hosting any version of GitLab affected by known and disclosed vulnerabilities.
 
@@ -124,4 +124,4 @@ Also, remember to [clean up](#clean-up) the instance as soon as your test or dem
 
 #### Use HTTPS
 
-To be in line with [GitLab’s encryption policy](/handbook/security/threat-management/vulnerability-management/encryption-policy.html), TLS should also be implemented on public-facing testing resources. For GitLab instances, you can use the [LetsEncrypt integration](https://docs.gitlab.com/omnibus/settings/ssl.html#primary-gitlab-instance). [Let’s Encrypt](https://letsencrypt.org/) is enabled by default if `external_url` is set with the HTTPS protocol and no other certificates are configured.
+To be in line with [GitLab's encryption policy](/handbook/security/product-security/vulnerability-management/encryption-policy/), TLS should also be implemented on public-facing testing resources. For GitLab instances, you can use the [LetsEncrypt integration](https://docs.gitlab.com/omnibus/settings/ssl/). [Let's Encrypt](https://letsencrypt.org/) is enabled by default if `external_url` is set with the HTTPS protocol and no other certificates are configured.

@@ -1,20 +1,9 @@
 ---
-
 title: "Create:Code Review Group"
 description: The Create:Code Review Group is responsible for all product categories that fall under the Code Review group of the Create stage.
 ---
 
-
-
-
-
-
-
-The Create:Code Review Group is responsible for all aspects of the product categories that fall under the [Code Review group][group] of the [Create stage][stage] of the [DevOps lifecycle][lifecycle].
-
-[group]: /handbook/product/categories/#code-review-group
-[stage]: /handbook/product/categories/#create-stage
-[lifecycle]: /handbook/product/categories/#devops-stages
+The Create:Code Review Group is responsible for all aspects of the product categories that fall under the [Code Review group](/handbook/product/categories/#code-review-group) of the [Create stage](/handbook/product/categories/#create-stage) of the [DevOps lifecycle](/handbook/product/categories/#devops-stages).
 
 ## Group overview
 
@@ -22,7 +11,7 @@ The Create:Code Review Group is responsible for all aspects of the product categ
 
 The following people are permanent members of the Create:Code Review Group:
 
-<%= product_group_table(group: 'Create:Code Review') %>
+{{<team-by-departments "Create:Code Review" >}}
 
 ### Sub-department specific pages
 
@@ -33,77 +22,70 @@ The following people are permanent members of the Create:Code Review Group:
 
 The Code Review group is responsible for the following product categories:
 
-- [Code Review](/direction/create/code_review_workflow/)
-- [Gitlab CLI](/direction/create/gitlab_cli/)
+- [Code Review](https://about.gitlab.com/direction/create/code_review_workflow/)
+- [GitLab CLI](https://about.gitlab.com/direction/create/gitlab_cli/)
 
 ### Category performance indicators
 
- - [Code Review Category MAU](https://internal.gitlab.com/handbook/company/performance-indicators/product/dev-section/#createcode-review---category-mau---unique-users-using-merge-requests) (Internal Only)
- - [Editor Extension Category MAU](https://internal.gitlab.com/handbook/company/performance-indicators/product/dev-section/#createcode-review---editor-extension---category-mau) (Internal Only)
+- [Code Review Category MAU](https://internal.gitlab.com/handbook/company/performance-indicators/product/dev-section/#createcode-review---category-mau---unique-users-using-merge-requests) (Internal Only)
+- [Editor Extension Category MAU](https://internal.gitlab.com/handbook/company/performance-indicators/product/dev-section/#createcode-review---editor-extension---category-mau) (Internal Only)
 
 ## Work
 
-In general, we use the standard GitLab [engineering workflow]. To get in touch with the Create:Code Review team, it's best to create an issue in the relevant project (typically [GitLab]) and add the `~"group::code review"` label, along with any other appropriate labels (`~devops::create`, `~section::dev`). Then, feel free to ping the relevant Product Manager and/or Engineering Manager as listed above.
+In general, we use the standard GitLab [engineering workflow](/handbook/engineering/workflow/). To get in touch with the Create:Code Review team, it's best to create an issue in the relevant project (typically [GitLab](https://gitlab.com/gitlab-org/gitlab)) and add the `~"group::code review"` label, along with any other appropriate labels (`~devops::create`, `~section::dev`). Then, feel free to ping the relevant Product Manager and/or Engineering Manager as listed above.
 
-For more urgent items, feel free to use [#g_create_code_review] on Slack.
+For more urgent items, feel free to use [#g_create_code_review](https://gitlab.slack.com/archives/g_create_code-review) on Slack.
 
-Work on the [GitLab VS Code Extension] follows a simplified development process. Learn more about it by looking at [CONTRIBUTING.md].
+Work on the [GitLab VS Code Extension](https://gitlab.com/gitlab-org/gitlab-vscode-extension) follows a simplified development process. Learn more about it by looking at [CONTRIBUTING.md](https://gitlab.com/gitlab-org/gitlab-vscode-extension/-/blob/main/CONTRIBUTING.md).
 
-[Take a look at the features we support per category here.](/handbook/product/categories/features/#createcode-review-group)
-
-[engineering workflow]: /handbook/engineering/workflow/
-[GitLab]: https://gitlab.com/gitlab-org/gitlab
-[#g_create_code_review]: https://gitlab.slack.com/archives/g_create_code-review
-[#g_create_code_review_fe]: https://gitlab.slack.com/archives/g_create_source-code-review-fe
-[GitLab VS Code Extension]: https://gitlab.com/gitlab-org/gitlab-vscode-extension
-[CONTRIBUTING.md]: https://gitlab.com/gitlab-org/gitlab-vscode-extension/-/blob/main/CONTRIBUTING.md
+[Take a look at the features we support per category here.](/handbook/product/categories/features/#code-review)
 
 ## Metrics of success
 
-The metrics by which we measure the success of the Code Review category are aligned with our [goals for code review](#where-we-are-headed), specifically ease of use, love-ability, and efficiency.
+The metrics by which we measure the success of the Code Review category are aligned with our goals for code review, specifically ease of use, love-ability, and efficiency.
 
 ### Primary metric
 
 Our _primary_ metric is: **reducing the duration of the Code Review**. This is measured as the duration from the first merge request version to merged.
 
-<embed width="100%" height="400px" src="<%= signed_periscope_url(chart: 10409104, dashboard: 785600, embed: 'v2') %>">
+The MTTM can be found on this [dashboard](https://10az.online.tableau.com/#/site/gitlab/workbooks/2372920/views).
 
 ### Secondary metrics
 
 _Secondary_ metrics of success act as support for the primary metric, helping build a more complete picture of how successful the category is.
 
-Once in a while, we conduct [UX scorecards](/handbook/product/ux/ux-scorecards/) to track the user experience through [various heuristics](/handbook/product/ux/heuristics/) — [see all UX scorecards for Code Review](https://gitlab.com/groups/gitlab-org/-/epics/5913). At the Create stage level, we conduct [usability benchmarking studies](/direction/create/#usability-benchmark).
+Once in a while, we conduct [UX scorecards](/handbook/product/ux/ux-scorecards/) to track the user experience through [various heuristics](/handbook/product/ux/heuristics/) — [see all UX scorecards for Code Review](https://gitlab.com/groups/gitlab-org/-/epics/5913). At the Create stage level, we conduct [usability benchmarking studies](https://about.gitlab.com/direction/create/#usability-benchmark).
 
-Right now we're focused on measuring and improving [**perceived performance**](https://developer.mozilla.org/en-US/docs/Glossary/Perceived_performance): “how fast, responsive, and reliable a website feels to its users. The perception of how well a site is performing can have more impact on the user experience that the actual load and response times.” Perceived performance is not only _technical_ performance (i.e. load and response times), but also _user_ performance (i.e. efficiency in completing tasks), and can be [formulated](https://youtu.be/7ubJzEi3HuA?t=405) as:
+Right now we're focused on measuring and improving [**perceived performance**](https://developer.mozilla.org/en-US/docs/Glossary/Perceived_performance): "how fast, responsive, and reliable a website feels to its users. The perception of how well a site is performing can have more impact on the user experience that the actual load and response times." Perceived performance is not only _technical_ performance (i.e. load and response times), but also _user_ performance (i.e. efficiency in completing tasks), and can be [formulated](https://youtu.be/7ubJzEi3HuA?t=405) as:
 
-```
+```text
 perceived performance = f(expected performance, UX, actual performance)
 experience = f(perceived performance, task completion)
 ```
 
 | Aspect | Measured by | Results |
 |-|-|-|
-| `Expected performance` and `UX` | Primarily by user’s feedback, and secondarily by actual performance of competitors. | [SaaS user’s feedback](https://gitlab.com/gitlab-org/ux-research/-/issues/1475) (in progress)<br>[Competitor performance (Software Forge Performance Index)](https://forgeperf.org/) (maintained by SourceHut)<br>[Largest Contentful Paint of SaaS vs GitHub.com for key pages](https://dashboards.gitlab.net/d/performance-comparison/github-gitlab-performance?orgId=1) |
-| `Actual performance` (load and response times) | Primarily by the [Largest Contentful Paint (LCP) metric](https://web.dev/lcp), and secondarily by [other important metrics](https://web.dev/user-centric-performance-metrics/#important-metrics-to-measure). | [Test instance](https://gitlab.com/gitlab-org/quality/performance/-/wikis/Benchmarks/SiteSpeed/10k) (test samples: [large MR overview and changes tabs](https://staging.gitlab.com/gpt/large_projects/gitlabhq1/-/merge_requests/8785/diffs), [large MR commits tab](https://staging.gitlab.com/gpt/large_projects/gitlabhq1/-/merge_requests/4954/commits))<br>[SaaS: `gitlab-foss` large MR overview tab](https://dashboards.gitlab.net/d/000000043/sitespeed-page-summary?orgId=1&var-base=sitespeed_io&var-path=desktop&var-testname=gitlab&var-group=gitlab_com&var-page=_gitlab-org_gitlab-foss_merge_requests_9546&var-browser=chrome&var-connectivity=cable&var-function=median&var-resulturl=https:%2F%2Fs3.amazonaws.com%2Fresults.sitespeed.io&var-screenshottype=jpg) ([test sample](https://gitlab.com/gitlab-org/gitlab-foss/-/merge_requests/9546))<br>[SaaS: `gitlab-foss` large MR changes tab](https://dashboards.gitlab.net/d/000000043/sitespeed-page-summary?orgId=1&var-base=sitespeed_io&var-path=desktop&var-testname=gitlab&var-group=gitlab_com&var-page=_gitlab-org_gitlab-foss_-_merge_requests_9546_diffs&var-browser=chrome&var-connectivity=cable&var-function=median&var-resulturl=https:%2F%2Fs3.amazonaws.com%2Fresults.sitespeed.io&var-screenshottype=jpg) ([test sample](https://gitlab.com/gitlab-org/gitlab-foss/-/merge_requests/9546/diffs))<br>[SaaS: `gitlab-foss` empty MR overview tab](https://dashboards.gitlab.net/d/000000043/sitespeed-page-summary?orgId=1&var-base=sitespeed_io&var-path=desktop&var-testname=gitlab&var-group=gitlab_com&var-page=_gitlab-org_gitlab-foss_merge_requests_12419&var-browser=chrome&var-connectivity=cable&var-function=median&var-resulturl=https:%2F%2Fs3.amazonaws.com%2Fresults.sitespeed.io&var-screenshottype=jpg) ([test sample](https://gitlab.com/gitlab-org/gitlab-foss/-/merge_requests/12419))<br>[SaaS: `gitlab` large MR overview tab](https://dashboards.gitlab.net/d/000000043/sitespeed-page-summary?orgId=1&var-base=sitespeed_io&var-path=desktop&var-testname=gitlab&var-group=gitlab_com&var-page=SourceCode_MR_Large&var-browser=chrome&var-connectivity=cable&var-function=median&var-resulturl=https:%2F%2Fs3.amazonaws.com%2Fresults.sitespeed.io&var-screenshottype=jpg) ([test sample](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/22439))<br>[SaaS: `gitlab` small MR overview tab](https://dashboards.gitlab.net/d/000000043/sitespeed-page-summary?orgId=1&var-base=sitespeed_io&var-path=desktop&var-testname=gitlab&var-group=gitlab_com&var-page=SourceCode_MR_Small&var-browser=chrome&var-connectivity=cable&var-function=median&var-resulturl=https:%2F%2Fs3.amazonaws.com%2Fresults.sitespeed.io&var-screenshottype=jpg) ([test sample](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/34944))<br>[SaaS: Other project MR overview tab](https://dashboards.gitlab.net/d/000000043/sitespeed-page-summary?orgId=1&var-base=sitespeed_io&var-path=desktop&var-testname=gitlab&var-group=gitlab_com&var-page=GitLab_Merge_Detail&var-browser=chrome&var-connectivity=cable&var-function=median&var-resulturl=https:%2F%2Fs3.amazonaws.com%2Fresults.sitespeed.io&var-screenshottype=jpg) ([test sample](https://gitlab.com/postmarketOS/pmaports/-/merge_requests/1002)) |
-| `Task completion` (task times) | Estimates of user’s execution time of primary tasks through the [GOMS approach](https://en.wikipedia.org/wiki/GOMS). We focus on the percentage difference of GitLab and competitors, or of current and proposed designs. | [July 2021 estimates](https://gitlab.com/gitlab-org/ux-research/-/issues/1474#results) |
+| `Expected performance` and `UX` | Primarily by user's feedback, and secondarily by actual performance of competitors. | [SaaS user's feedback](https://gitlab.com/gitlab-org/ux-research/-/issues/1475) (in progress)<br>[Competitor performance (Software Forge Performance Index)](https://forgeperf.org/) (maintained by SourceHut)<br>[Largest Contentful Paint of SaaS vs GitHub.com for key pages](https://dashboards.gitlab.net/d/performance-comparison/github-gitlab-performance?orgId=1) |
+| `Actual performance` (load and response times) | Primarily by the [Largest Contentful Paint (LCP) metric](https://web.dev/articles/lcp), and secondarily by [other important metrics](https://web.dev/articles/user-centric-performance-metrics#important-metrics-to-measure). | [Test instance](https://gitlab.com/gitlab-org/quality/performance/-/wikis/Benchmarks/SiteSpeed/10k) (test samples: [large MR overview and changes tabs](https://staging.gitlab.com/gpt/large_projects/gitlabhq1/-/merge_requests/8785/diffs), [large MR commits tab](https://staging.gitlab.com/gpt/large_projects/gitlabhq1/-/merge_requests/4954/commits))<br>[SaaS: `gitlab-foss` large MR overview tab](https://dashboards.gitlab.net/d/000000043/sitespeed-page-summary?orgId=1&var-base=sitespeed_io&var-path=desktop&var-testname=gitlab&var-group=gitlab_com&var-page=_gitlab-org_gitlab-foss_merge_requests_9546&var-browser=chrome&var-connectivity=cable&var-function=median&var-resulturl=https:%2F%2Fs3.amazonaws.com%2Fresults.sitespeed.io&var-screenshottype=jpg) ([test sample](https://gitlab.com/gitlab-org/gitlab-foss/-/merge_requests/9546))<br>[SaaS: `gitlab-foss` large MR changes tab](https://dashboards.gitlab.net/d/000000043/sitespeed-page-summary?orgId=1&var-base=sitespeed_io&var-path=desktop&var-testname=gitlab&var-group=gitlab_com&var-page=_gitlab-org_gitlab-foss_-_merge_requests_9546_diffs&var-browser=chrome&var-connectivity=cable&var-function=median&var-resulturl=https:%2F%2Fs3.amazonaws.com%2Fresults.sitespeed.io&var-screenshottype=jpg) ([test sample](https://gitlab.com/gitlab-org/gitlab-foss/-/merge_requests/9546/diffs))<br>[SaaS: `gitlab-foss` empty MR overview tab](https://dashboards.gitlab.net/d/000000043/sitespeed-page-summary?orgId=1&var-base=sitespeed_io&var-path=desktop&var-testname=gitlab&var-group=gitlab_com&var-page=_gitlab-org_gitlab-foss_merge_requests_12419&var-browser=chrome&var-connectivity=cable&var-function=median&var-resulturl=https:%2F%2Fs3.amazonaws.com%2Fresults.sitespeed.io&var-screenshottype=jpg) ([test sample](https://gitlab.com/gitlab-org/gitlab-foss/-/merge_requests/12419))<br>[SaaS: `gitlab` large MR overview tab](https://dashboards.gitlab.net/d/000000043/sitespeed-page-summary?orgId=1&var-base=sitespeed_io&var-path=desktop&var-testname=gitlab&var-group=gitlab_com&var-page=SourceCode_MR_Large&var-browser=chrome&var-connectivity=cable&var-function=median&var-resulturl=https:%2F%2Fs3.amazonaws.com%2Fresults.sitespeed.io&var-screenshottype=jpg) ([test sample](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/22439))<br>[SaaS: `gitlab` small MR overview tab](https://dashboards.gitlab.net/d/000000043/sitespeed-page-summary?orgId=1&var-base=sitespeed_io&var-path=desktop&var-testname=gitlab&var-group=gitlab_com&var-page=SourceCode_MR_Small&var-browser=chrome&var-connectivity=cable&var-function=median&var-resulturl=https:%2F%2Fs3.amazonaws.com%2Fresults.sitespeed.io&var-screenshottype=jpg) ([test sample](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/34944))<br>[SaaS: Other project MR overview tab](https://dashboards.gitlab.net/d/000000043/sitespeed-page-summary?orgId=1&var-base=sitespeed_io&var-path=desktop&var-testname=gitlab&var-group=gitlab_com&var-page=GitLab_Merge_Detail&var-browser=chrome&var-connectivity=cable&var-function=median&var-resulturl=https:%2F%2Fs3.amazonaws.com%2Fresults.sitespeed.io&var-screenshottype=jpg) ([test sample](https://gitlab.com/postmarketOS/pmaports/-/merge_requests/1002)) |
+| `Task completion` (task times) | Estimates of user's execution time of primary tasks through the [GOMS approach](https://en.wikipedia.org/wiki/GOMS). We focus on the percentage difference of GitLab and competitors, or of current and proposed designs. | [July 2021 estimates](https://gitlab.com/gitlab-org/ux-research/-/issues/1474#results) |
 
 ### Development Metrics
 
-<%= partial "handbook/engineering/metrics/partials/_cross_functional_dashboard.erb", locals: { filter_value: "Code Review" } %>
+{{< tableau height="600px" toolbar="hidden" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/TopEngineeringMetrics/TopEngineeringMetricsDashboard" >}}
+  {{< tableau/filters "GROUP_LABEL"="code review" >}}
+{{< /tableau >}}
 
-#### MRs and Issues Without Types
+{{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/MergeRequestMetrics/OverallMRsbyType_1" >}}
+  {{< tableau/filters "GROUP_LABEL"="code review" >}}
+{{< /tableau >}}
 
-In addition to the above dashboard, here are search links to ensure our MRs and Issues have the correct types:
+{{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/Flakytestissues/FlakyTestIssues" >}}
+  {{< tableau/filters "GROUP_NAME"="code review" >}}
+{{< /tableau >}}
 
-[Source](https://app.periscopedata.com/app/gitlab/786869/Code-Review-BE:Development-Metrics?widget=15814629&udv=1316736)
-
-<% if ENV['PERISCOPE_EMBED_API_KEY'] %>
-  <div>
-    <embed width="100%" height="150" src="<%= signed_periscope_url(dashboard: 786869, chart: 15814629, embed: 'v2') %>">
-  </div>
-  <% else %>
-    <p>You must set a <code>PERISCOPE_EMBED_API_KEY</code> environment variable to render this chart.</p>
-<% end %>
+{{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/SlowRSpecTestsIssues/SlowRSpecTestsIssuesDashboard" >}}
+  {{< tableau/filters "GROUP_LABEL"="code review" >}}
+{{< /tableau >}}
 
 ### Exploration and experimentation
 
@@ -111,7 +93,7 @@ The Code Review group believes it's important that team members are empowered to
 
 #### Allocate time
 
-In order to better provide opportunities for team members to pursue interest areas, engineers are encouraged to reserve about 10% of their scheduled capacity. 
+In order to better provide opportunities for team members to pursue interest areas, engineers are encouraged to reserve about 10% of their scheduled capacity.
 
 #### Setting expectations
 
@@ -152,7 +134,7 @@ This meeting is focused on collaboration between UX and PM, though all are welco
 
 This meeting is for discussing new performance topics, project proposals, and ongoing performance work or concerns.
 
-The [catch-all issue](https://gitlab.com/gitlab-org/create-stage/-/issues/13110) includes the agenda, issue board, and goals. 
+The [catch-all issue](https://gitlab.com/gitlab-org/create-stage/-/issues/13110) includes the agenda, issue board, and goals.
 
 ## Working with product
 
@@ -164,7 +146,7 @@ You are encouraged to work as closely as needed with stable counterparts outside
 
 Quality engineering is included in our workflow via the [Quad Planning Process](https://gitlab.com/gitlab-com/www-gitlab-com/issues/6318).
 
-Application Security will be involved in our workflow at the same time that [kickoff emails](#kickoff-emails) are sent to the team, so that they are able to review the upcoming milestone work, and notate any concerns or potential risks that we should be aware of.
+Application Security will be involved in our workflow at the same time that kickoff emails are sent to the team, so that they are able to review the upcoming milestone work, and notate any concerns or potential risks that we should be aware of.
 
 ### Working with the wider GitLab community
 
@@ -176,17 +158,15 @@ For tips, tricks, or quick shell scripts that aren't "ready" or sufficient enoug
 
 ### Middle of milestone check-in
 
-<%= partial("handbook/engineering/development/dev/create/sourcecode-codereview/midmilestone.erb") %>
-
-The data and calcuations are available in Sisense on the [Code Review Milestone Check-in dashboard](https://app.periscopedata.com/app/gitlab/919979/Code-Review-Milestone-Check-in).
+{{% include "includes/engineering/midmilestone.md" %}}
 
 ### Workflow labels
 
-<%= partial("handbook/engineering/development/dev/create/workflow_labels.erb", locals: { group_label: 'group::code review' }) %>
+{{% engineering/workflow-labels "group::code review" %}}
 
 ### Async standup
 
-<%= partial("handbook/engineering/development/dev/create/async_standup.erb") %>
+{{% include "includes/engineering/create-async-standup.md" %}}
 
 Our team is encouraged to post links to their deliverable issues or merge requests when they are mentioned in relation to the second question. This helps other team members to understand what others are working on, and in the case that they come across something similar in the future, they have a good reference point.
 
@@ -195,19 +175,21 @@ Our team is encouraged to post links to their deliverable issues or merge reques
 We have 1 regularly scheduled "Per Milestone" retrospective, and can have ad-hoc "Per Feature" retrospectives more focused at analyzing a specific case, usually looking into the Iteration approach.
 
 #### Per Milestone
-<%= partial("handbook/engineering/development/dev/create/retrospectives.erb", locals: { group: "Code Review", group_slug: 'code-review' }) %>
+
+{{% engineering/create-retrospectives group-label="Code Review" group-slug="code-review" %}}
 
 #### Per Project
 
 If a particular issue, feature, or other sort of project turns into a particularly useful learning experience, we may hold a synchronous or asynchronous retrospective to learn from it. If you feel like something you're working on deserves a retrospective:
+
 1. [Create an issue](https://gitlab.com/gl-retrospectives/create-stage/code-review/issues) explaining why you want to have a retrospective and indicate whether this should be synchronous or asynchronous
-2. Include your EM and anyone else who should be involved (PM, counterparts, etc)
-3. Coordinate a synchronous meeting if applicable
+1. Include your EM and anyone else who should be involved (PM, counterparts, etc)
+1. Coordinate a synchronous meeting if applicable
 
 All feedback from the retrospective should ultimately end up in the issue for reference purposes.
 
 ## Merge Request Report Widgets shared responsibility
 
-Even though the topic of Merge Request falls under Code Review, the code powering the Merge Request Report Widgets (see [Working Group](/company/team/structure/working-groups/merge-request-report-widgets/)) is written and maintained by a larger group.
+Even though the topic of Merge Request falls under Code Review, the code powering the Merge Request Report Widgets (see [Working Group](/handbook/company/working-groups/merge-request-report-widgets/)) is written and maintained by a larger group.
 
-Please refer to the [List of DRIs](/handbook/engineering/development/dev/create/code-review/report-widgets-dri-list.html) for communication and troubleshooting purposes relating to these Widgets.
+Please refer to the [List of DRIs](/handbook/engineering/development/dev/create/code-review/report-widgets-dri-list/) for communication and troubleshooting purposes relating to these Widgets.

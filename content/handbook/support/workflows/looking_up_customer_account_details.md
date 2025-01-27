@@ -17,16 +17,15 @@ In general, you should look for customer details in this order:
 1. [GitLab User Lookup app in Zendesk](#gitlab-user-lookup-app-in-zendesk)
 1. Within [customers.gitlab.com](#within-customersgitlabcom)
 1. Within [licenses in CustomersDot](#within-licenses-in-customersgitlabcom)
-   - See note on [legacy License App](#legacy-license-app)
 1. Within [Salesforce](#within-salesforce) (if you have access)
 
-For an overview and runthrough of manual searching of SFDC, customers.gitlab.com, and license.gitlab.com (legacy), watch Amanda Rueda's
+For an overview and runthrough of manual searching of SFDC, customers.gitlab.com, watch Amanda Rueda's
 [How to use Salesforce from a support perspective](https://drive.google.com/drive/u/0/search?q=Amanda%27s%20Salesforce%20Class%20parent:1JDdcj2ESdCc_ReG0-n7RyAIxbIFkcQ1K)
 video.
 
 ## GitLab User Lookup app in Zendesk
 
-From the Zendesk [GitLab User Lookup application]({{< ref "/handbook/support/readiness/operations/docs/zendesk/apps#gitlab-user-lookup" >}}) you have access to the requester details in SFDC and GitLab.com.
+From the Zendesk [GitLab User Lookup application](/handbook/support/readiness/operations/docs/zendesk/apps#gitlab-user-lookup) you have access to the requester details in SFDC and GitLab.com.
 
 ## Within customers.gitlab.com
 
@@ -35,11 +34,11 @@ From the Zendesk [GitLab User Lookup application]({{< ref "/handbook/support/rea
 
 1. In the **Customers** section, search for a domain or full email address.
 
-   ![Search box in customers.gitlab.com customers section](/handbook/support/workflows/assets/customers-gitlab-com-search.png)
+   ![Search box in customers.gitlab.com customers section](/images/support/workflows/assets/customers-gitlab-com-search.png)
 
 1. In the search results, click on the `i` icon to view the customer's details.
 
-   ![Search results in customers.gitlab.com customers section](/handbook/support/workflows/assets/customers-gitlab-com-search-results.png)
+   ![Search results in customers.gitlab.com customers section](/images/support/workflows/assets/customers-gitlab-com-search-results.png)
 
 1. You can *impersonate* an account to find out if they have a current
    subscription through the customer's detail page or by clicking on the `home`
@@ -106,7 +105,7 @@ This will return nice URL that will take you the relevant license in CustomersDo
 
 ## Within Salesforce
 
-If you have access, you have the ability to look up the ticket requester's organization directly directly in Salesforce.
+If you have access, you have the ability to look up the ticket requester's organization directly in Salesforce.
 
 ### Finding the customer's organization
 
@@ -119,7 +118,7 @@ If you have access, you have the ability to look up the ticket requester's organ
 1. Look for results in the **Accounts** section. You should also be able to see
    if they have a support level if they have one.
 
-   ![Account Name and Support Level in Salesforce search results](/handbook/support/workflows/assets/salesforce-search-results-accounts.png)
+   ![Account Name and Support Level in Salesforce search results](/images/support/workflows/assets/salesforce-search-results-accounts.png)
 
 1. Click the **Account Name** to view the customer's organization page.
 
@@ -150,12 +149,12 @@ Alternatively, look for the list of links just above the **Account Detail**
 section. Note: You may have to wait awhile as the list only loads after the
 rest of the page is loaded.
 
-![List of links above account details](/handbook/support/workflows/assets/salesforce-account-detail-links.png)
+![List of links above account details](/images/support/workflows/assets/salesforce-account-detail-links.png)
 
 Hover over the "Account Team" link to see a list of people who have handled the
 customer account.
 
-![List of account team members](/handbook/support/workflows/assets/salesforce-account-team-list.png)
+![List of account team members](/images/support/workflows/assets/salesforce-account-team-list.png)
 
 ### Finding the customer's renewal opportunity owner
 
@@ -163,12 +162,7 @@ In the customer's organization page, look for the **Opportunities** table. Look
 for a row with a `Close Date` in the future and a stage that is not `Closed Won`
 or `10-Duplicate`. This should generally be the first row.
 
-![List of account opportunities](/handbook/support/workflows/assets/salesforce-account-team-list.png)
+![List of account opportunities](/images/support/workflows/assets/salesforce-account-team-list.png)
 
 The person responsible for the customer's license renewal is listed under
 `Owner Full Name`.
-
-## Legacy license app
-
-Historically, [license.gitlab.com](https://license.gitlab.com) was used for creating and managing licenses.  This portal was deprecated mid 2021, and made read-only on October 5, 2021.
-All new and existing licenses are managed in [CustomersDot](https://customers.gitlab.com/admin/license), and this is only noted for posterity.

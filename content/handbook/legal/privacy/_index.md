@@ -43,14 +43,14 @@ Tell people what you are doing with personal data and why you are doing it so th
 
 ***Consent*** A freely given, specific, informed and unambiguous indication of an individual's wishes. Consent is captured by an unticked checkbox or other unequivocal statement which signifies agreement to the processing of personal data before or at the time of collection.
 
-***Data Classification*** A method of determining types of data associated by risk. See [GitLab Security Data Classification Standards](/handbook/security/data-classification-standard.html) for more information.
+***Data Classification*** A method of determining types of data associated by risk. See [GitLab Security Data Classification Standards](/handbook/security/data-classification-standard/) for more information.
 
 ***Data Controller*** A natural or legal person, agency, or other entity which alone, or jointly with others, determines the purpose and means of processing personal data. For example, GitLab is a Data Controller is in the areas of marketing and sales where the personal data of prospects and leads is managed solely at our discretion. GitLab also serves as a Data Controller for all personal data collected from Team Members for employment purposes and any administration of benefits.
 
 ***Data Processor*** A natural or legal person, agency, or other entity which processes personal data on behalf of a Data Controller. GitLab acts as a Data Processor when we manage personal data native to a Customer's instance or namespace.  GitLab acts as a Processor in these situations because the Customer is the ultimate owner of the data it submits to the service offerings, and our contracts servce as Customer's instructions to GitLab regarding the processing of their data.
 
 ***Data Subject*** An identified or identifiable natural person.
-
+<!-- vale handbook.Repetition = NO -->
 ***Data Subject Rights*** Rights granted to individuals in relation to personal data or information processed about them.  Because Data Subjct Rights are instrumental to the privacy and protection of data subjects, many of these rights are codified under global privacy legilsation, such as the GDPR, CCPA, and LGDP. If a business processes personal data pursuant to certain bases such as consent or legitimate interest, then a data subject may assert one of its fundamnetal rights and a business is obligated to respond under law.  The rights granted vary slightly by country, region, province or state. GitLab treats all users and Team Members the same and will respond to a data subject request from any individual user or team member even if they live in a country, region, or state/province without specific data protection laws. Expand the following section for more information about the data subject rights available.
 
 {{% details summary="Data Subject Rights" %}}
@@ -71,7 +71,7 @@ Tell people what you are doing with personal data and why you are doing it so th
 
 ***DPIA*** A Data Protection Impact Assessment is a method to review and document identified privacy compliance risks, as well as evalute higher risks to the rights and freedoms of individuals, including any that pose potential for significant harm. Learn more about GitLab's process for completing DPIAs [here](/handbook/legal/privacy/dpia/).
 
-***Personal Data*** Any data, individually or when combined with other data, that identifies, relates to, describes or is reasonably capable of being associated with or linked to an identifiable natural person (a ‘data subject’), whether directly or indirectly. See also, Sensitive Personal Data.
+***Personal Data*** Any data, individually or when combined with other data, that identifies, relates to, describes or is reasonably capable of being associated with or linked to an identifiable natural person (a 'data subject'), whether directly or indirectly. See also, Sensitive Personal Data.
 
 ***Privacy by Default*** A concept that should be implemented at the product development stage and uses appropriate measures to ensure that, by default, the only personal data processed is what is truly necessary. In practice, this means a user's privacy settings prioritize privacy in their default state.
 
@@ -82,7 +82,7 @@ Tell people what you are doing with personal data and why you are doing it so th
 ***Publicly Available Personal Data*** Refers to personal data that is publicly available from federal, state, or local government records or made manifestly public by the data subject. Under limited data privacy laws this may also include personal data made public through widely distributed media.
 
 ***Sensitive Personal Data*** Data that is particularly personal and intimately tied to the core identity of a person. This type of data generally includes racial or ethnic origin, political opinions, religious or philosophical beliefs, trade union membership, genetic data, biometric data, data related to health, data related to sex life or sexual orientation, criminal offenses, and citizenship/immigraion status.  In some jurisdictions, Sensitive Personal Data includes government identifiers and financial data.
-
+<!-- vale handbook.Repetition = YES -->
 <style>
     details > details {
         margin-bottom: 1.5em;
@@ -92,7 +92,7 @@ Tell people what you are doing with personal data and why you are doing it so th
 
 ## Privacy Review Process
 
-Every vendor that handles personal data is required to go through a Privacy Review prior to being onboarded, which includes completion and approval of the privacy due diligence questionnaires detailed in the [Procurement process](/handbook/finance/procurement/#privacy-review-4-14-days). Certain vendors who are classified as handling red or orange data under our [Data Classification Standards](/handbook/security/data-classification-standard.html) are reviewed annually. Additionally, when new product features are designed, there are times when a formal privacy review is required.
+Every vendor that handles personal data is required to go through a Privacy Review prior to being onboarded, which includes completion and approval of the privacy due diligence questionnaires detailed in the [Procurement process](/handbook/finance/procurement/#privacy-review-4-14-days). Certain vendors who are classified as handling red or orange data under our [Data Classification Standards](/handbook/security/data-classification-standard/) are reviewed annually. Additionally, when new product features are designed, there are times when a formal privacy review is required.
 
 This section outlines the process for these reviews.
 
@@ -121,7 +121,7 @@ graph TD
    N1 --> O[Process Complete<br> Approved]
    N2 --> P[Third-Party Risk<br> Acceptance Required]
 
-   click Did1 "https://about.gitlab.com/handbook/business-technology/enterprise-applications/guides/zip-guide/"
+   click Did1 "https://handbook.gitlab.com/handbook/business-technology/enterprise-applications/guides/zip-guide/"
    click J "https://gitlab.com/gitlab-com/legal-and-compliance/-/blob/master/.gitlab/issue_templates/Vendor-Procurement-Privacy-Review.md" _blank
    click P "https://gitlab.com/gitlab-com/legal-and-compliance/-/blob/master/.gitlab/issue_templates/Third-Party-Risk-Acceptance.md" _blank
 
@@ -147,8 +147,7 @@ graph TD
 
 ```
 
-*For Third-Party Risk Acceptance, any Moderate/High risk requires Director and/or above approval*
-
+*For Third-Party Risk Acceptance, any Moderate/High risk requires VP and/or above approval*
 
 ## Internal Privacy Review
 

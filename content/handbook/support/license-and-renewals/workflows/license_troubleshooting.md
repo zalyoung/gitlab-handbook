@@ -1,11 +1,8 @@
 ---
-
 title: Subscription and billing issues
 category: Legacy pages
 description: Refer to this page when a user has questions/issues related to transactions, licensing or billing for self-managed or GitLab.com.
 ---
-
-
 
 ## Overview
 
@@ -13,11 +10,11 @@ Refer to this page when a user has questions/issues related to transactions, lic
 
 ## License Vs Subscription Explained
 
-For self managed, a license is an artefact that customers need to upload to their instance to have access to the paid features in their subscription. This doesn't exist and is not needed for Gitlab.com subscriptions.
+For self managed, a license is an artefact that customers need to upload to their instance to have access to the paid features in their subscription. This doesn't exist and is not needed for GitLab.com subscriptions.
 
-For GitLab.com, there is no artefact to be uploaded but the subscription (seen in the CustomersDot) has to be linked to their namespace (on GitLab.com). If the portal and Gitlab.com don't have the link, then, GitLab.com won't know that a subscription exists.
+For GitLab.com, there is no artefact to be uploaded but the subscription (seen in the CustomersDot) has to be linked to their namespace (on GitLab.com). If the portal and GitLab.com don't have the link, then, GitLab.com won't know that a subscription exists.
 
-Also, subscription is an umbrella term for the base product purchased: for instance, if `subscription` is a fruit, then `Premium` or `Ultimate`(self-managed / Gitlab.com) would be types of fruits that can be purchased.
+Also, subscription is an umbrella term for the base product purchased: for instance, if `subscription` is a fruit, then `Premium` or `Ultimate`(self-managed / GitLab.com) would be types of fruits that can be purchased.
 
 ## Transactions
 
@@ -54,6 +51,6 @@ Licensing requests refers to problems or questions related to license keys for t
 
 If you want access to [CustomersDot staging](https://customers.staging.gitlab.com/customers/sign_in) as a user (and not an admin) you can browse to the link and register a new account. You need to use your @gitlab.com email address in order to get the verification. As an example, you can use <yourname+test@gitlab.com> so that you receive emails to your usual <yourname@gitlab.com> email address.
 
-Once you create a user account, you can use the [stripe test cards](https://stripe.com/docs/testing#cards) for testing.
+Once you create a user account, you can use the [stripe test cards](https://docs.stripe.com/testing#cards) for testing.
 
 Note: access to CustomersDot staging as an admin will require an Access Request.

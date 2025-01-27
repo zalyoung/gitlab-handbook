@@ -34,13 +34,29 @@ The current headcount number will be updated each quarter following our quarterl
 ## Key messages about diversity, inclusion, and belonging (DIB) at GitLab
 
 - Diversity, inclusion, and belonging (DIB) are fundamental to the success of GitLab. We infuse DIB in every way possible in all that we do.
--At GitLab, everyone has a voice and is empowered to contribute. This means that team members have the opportunity to speak openly about their experiences and provide suggestions to leadership in order to create a more diverse and inclusive culture.
+- At GitLab, everyone has a voice and is empowered to contribute. This means that team members have the opportunity to speak openly about their experiences and provide suggestions to leadership in order to create a more diverse and inclusive culture.
 - Through Team Member Resource Groups, event sponsorships, mentorship opportunities, and partnerships with HBCU's, we strive to create a transparent environment where people can and feel comfortable to show up as their full selves each and every day.
 - More about [DIB at GitLab](/handbook/company/culture/inclusion/).
 
 ## Awards and lists recognizing GitLab as a great place to work
 
 These awards and lists recognize GitLab's unique culture and help us spread the word about why this is such a great place to work. Here are the latest:
+
+<details><summary>2025</summary>
+
+- [Best Remote Places to Work, Builtin, 2025](https://builtin.com/awards/remote/2025/best-large-places-to-work)
+
+</details>
+
+<details><summary>2024</summary>
+
+- [Best Workplaces in Technology, Large, Fortune, 2024](https://www.greatplacetowork.com/best-workplaces/technology/2024?category=large)
+- [Best Places to Work, Builtin, 2024](https://builtin.com/awards/remote/2024/best-large-places-to-work?utm_source=bambu&utm_medium=social&utm_campaign=advocacy&blaid=5510421)
+- [Great Place to Work Certified, 2024-2025](https://www.greatplacetowork.com/certified-company/7013799)
+- [Best Workplaces in the Bay Area, Fortune, 2024](https://www.greatplacetowork.com/best-workplaces/bay-area/2024?mkt_tok=NTIwLUFPTy05ODIAAAGToW2DF6DFcjmJx7mX7Syzanz8QeeemZx_ylMFFyzwjw4hUz3QiiDbC29FO4FzTp8lEg3nb3Ksh9d-AhfrRKRT91u0o3ZYYgG_X3-uc58fXUxJsw)
+- [Best Companies to Work for in IT, Software & Services, U.S. Newsweek, 2024-2025](https://money.usnews.com/careers/companies/rankings/best-companies/it-software-and-services)
+
+</details>
 
 <details><summary>2023</summary>
 
@@ -52,20 +68,20 @@ These awards and lists recognize GitLab's unique culture and help us spread the 
 <details><summary>2022</summary>
 
 - [Best Workplaces for Parents, Fortune, 2022](https://www.greatplacetowork.com/best-workplaces-parents?mkt_tok=NTIwLUFPTy05ODIAAAGIch_eubKDhGDzybtHOPnrcxe8dgsYnuW1QwdVR2XCewDx-EJjcFjfAJYwniK6cFNS-VLk-V5Kk2hzXRcCz-XNjpJys6F6_QGqCaPBDJxQtoJPDA)
-- [Best Companies for Remote Workers, Quartz, 2022](https://qz.com/list/best-companies-to-work-from-home-2022/gitlab-5)
-- [Best Workplaces in Technology, Small & Medium, Fortune, 2022](https://fortune.com/best-small-workplaces-technology/2022/gitlab/)
+- [Best Companies for Remote Workers, Quartz, 2022](https://qz.com/list/best-companies-to-work-from-home-2022)
+- [Best Workplaces in Technology, Small & Medium, Fortune, 2022](https://fortune.com/company/gitlab/)
 - [Best Workplaces for Millennials, Fortune, 2022](https://www.greatplacetowork.com/best-workplaces/millennials/2022?category=small-and-medium)
 - [Best Workplaces for Innovators, Fast Company, 2022](https://www.fastcompany.com/best-workplaces-for-innovators/list)
-- [Best Medium Workplaces, Fortune, 2022](https://fortune.com/best-medium-workplaces/2022/gitlab/)
+- [Best Medium Workplaces, Fortune, 2022](https://fortune.com/company/gitlab/)
 - [Great Place to Work Certified, 2021-2022](https://www.greatplacetowork.com/certified-company/7013799)
-- [Best Workplaces in the SF Bay Area, Fortune, 2022](https://www.greatplacetowork.com/best-companies-in-the-us/)
+- [Best Workplaces in the SF Bay Area, Fortune, 2022](https://www.greatplacetowork.com/best-companies-in-the-us)
 
 </details>
 
 <details><summary>2021</summary>
 
 - [Best Tech Companies For Remote Jobs in 2021 according to Glassdoor, Forbes](https://www.forbes.com/sites/louiscolumbus/2020/12/20/the-best-tech-companies-for-remote-jobs-in-2021-according-to-glassdoor/?sh=2922f81c2ceb)
-- [Fortune's Best Small & Medium Workplaces in 2020](https://www.greatplacetowork.com/best-workplaces/smb/2020?category=medium)
+- [Fortune's Best Small & Medium Workplaces in 2020](https://www.greatplacetowork.com/best-workplaces/medium/2020)
 - [Great Place to Work Certified, 2020-2021](https://www.greatplacetowork.com/certified-company/7013799)
 - [Best Engingeering Departments, Comparably, 2021](https://www.businessinsider.com/companies-with-the-best-engineering-teams-according-to-employees-comparably-2021-4#here-is-the-full-list-of-companies-with-the-best-engineering-departments-26)
 
@@ -73,8 +89,8 @@ These awards and lists recognize GitLab's unique culture and help us spread the 
 
 <details><summary>2020</summary>
 
-- [Best Startup Employers in 2020, Forbes](https://www.forbes.com/americas-best-startup-employers/#46146ae96527)
-- [Cloud 100 List, Forbes, 2020](https://www.forbes.com/cloud100/#12ceb6e35f94)
+- [Best Startup Employers in 2020, Forbes](https://www.forbes.com/lists/americas-best-startup-employers/#46146ae96527)
+- [Cloud 100 List, Forbes, 2020](https://www.forbes.com/lists/cloud100/#12ceb6e35f94)
 - [No. 2 top private employer via Hired's Brand Health Report, 2020](https://www-forbes-com.cdn.ampproject.org/c/s/www.forbes.com/sites/johnkoetsier/2020/09/22/the-top-40-brands-people-want-to-work-for-in-the-tech-industry/amp/)
 - [Happiest Employees, Comparably, 2020](https://www.businessinsider.com/top-companies-employees-happy-fulfilled-comparably-2020-10)
 - [Best Perks and Benefits, Comparably, 2020](https://www.businessinsider.com/comparably-big-companies-best-perks-employee-benefits-2020-10)
@@ -100,14 +116,20 @@ These awards and lists recognize GitLab's unique culture and help us spread the 
 
 | Articles/Blogs/Features | Category |
 | ------ | ------ |
-| [These Companies Are Taking an Intentional Approach to Artificial Intelligence](https://builtin.com/brand-studio/these-companies-are-taking-intentional-approach-artificial-intelligence?utm_source=bambu&utm_medium=social&utm_campaign=advocacy) | AI / Product |
+| [Why This Leader Believes ‘GitLab is Unlike Anywhere Else You’ll Ever Work’](https://builtin.com/articles/why-leader-believes-gitlab-unlike-anywhere-else-youll-ever-work?utm_source=bambu&utm_medium=social&utm_campaign=advocacy) | Culture / Product Management |
+| [17 Companies with a Growth-Focused Culture](https://builtin.com/articles/17-companies-growth-focused-culture#GitLab) | Culture / Support |
+| [GitLab TMRGs: Global Resource Groups Supporting Team Members Both in the Workplace and Beyond](https://builtin.com/articles/gitlab-tmrgs-global-resource-groups-supporting-team-members-both-workplace-and-beyond) | DIB / Culture |
+| [Inside 13 Customer Success Teams Data-Driven Approach To Empowering Clients](https://builtin.com/articles/inside-13-customer-success-teams-data-driven-approach-empowering-clients) | Sales / Customer Success |
+| [Innovating in Sync: The Story of GitLab Duo](https://builtin.com/articles/innovating-sync-story-gitlab-duo) | AI / Product |
+| [How GitLab Offers a Space That Inspires Women to Shape The Future](https://builtin.com/articles/how-gitlab-offers-space-inspires-women-shape-future) | AI / Product |
+| [These Companies Are Taking an Intentional Approach to Artificial Intelligence](https://builtin.com/articles/these-companies-are-taking-intentional-approach-artificial-intelligence) | AI / Product |
 | [How Iteration drives innovation in our engineering org](https://about.gitlab.com/blog/2022/06/10/how-gitlab-iteration-value-drives-innovation-through-the-engineering-organization/) | Engineering |
-| [The Best Leadership Advice I Never Received](https://womeninsaleseverywhere.com/blog/author/meaghan-thatcher/) | Sales |
+| [The Best Leadership Advice I Never Received](https://www.womeninsaleseverywhere.com/blog/the-best-leadership-advice) | Sales |
 | [How GitLab's customer and partner focus fuels our culture](https://about.gitlab.com/blog/2022/05/03/how-gitlabs-customer-and-partner-focus-fuels-our-culture/) | Sales |
-| [How GitLab Enabled One Sales Pro to Build Her ‘Dream Life’](https://builtin.com/gitlab-enabled-one-sales-pro-build-her-dream-life?utm_source=linkedin&utm_medium=social_media&utm_campaign=gitlab) | Sales |
+| [How GitLab Enabled One Sales Pro to Build Her 'Dream Life'](https://builtin.com/articles/how-gitlab-enabled-one-sales-pro-build-her-dream-life) | Sales |
 | [DEI Spotlight - Diversity, Equity, and Inclusion at GitLab](https://venturefizz.com/insights/dei-spotlight-diversity-equity-and-inclusion-gitlab) | General / DIB |
-| [GitLab is Changing the Look of DevOps and Remote Work, One Iteration at a Time](https://builtin.com/brand-studio/gitlab-changing-look-devops-remote-work?utm_source=linkedin&utm_medium=social_media&utm_campaign=gitlab) | General |
-| [The Most Rewarding Teams in Tech are Looking For Talent. Are You in?](https://builtin.com/job-search-recruiting/most-rewarding-teams-tech-looking-talent) | General |
+| [GitLab is Changing the Look of DevOps and Remote Work, One Iteration at a Time](https://builtin.com/articles/gitlab-changing-look-devops-remote-work) | General |
+| [The Most Rewarding Teams in Tech are Looking For Talent. Are You in?](https://builtin.com/articles/most-rewarding-teams-tech-looking-talent) | General |
 | [How to win the burnout battle](https://about.gitlab.com/blog/2022/06/07/best-life-best-work/) | General |
 | [Preventing burnout: A manager's toolkit](https://about.gitlab.com/blog/2022/05/03/preventing-burnout-a-managers-toolkit/) | General |
 | [Use your uniqueness as your superpower](https://about.gitlab.com/blog/2022/04/04/advice-for-women-seeking-careers-in-tech/) | General |
@@ -126,22 +148,17 @@ These awards and lists recognize GitLab's unique culture and help us spread the 
 
 | Videos | Category |
 | ------ | ------ |
-| [Life at GitLab](https://vimeo.com/gitlab/lifeatgitlab) | General |
+| [Life at GitLab YouTube Channel on GitLab Unfiltered](https://www.youtube.com/playlist?list=PL05JrBw4t0KpZ7TlkcjRZdn7dAAjpi97L) | |
+| [Get to Know GitLab](https://vimeo.com/gitlab/gettoknowgitlab) | Culture |
+| [GitLab's Values](https://vimeo.com/956663126) | Culture |
+| [Building the Future of GitLab](hhttps://youtu.be/TBMVj8Oc_9U?si=QJD1sMNCdsrraStf) | Our Technology |
+| [TMRGs at GitLab](https://vimeo.com/gitlab/tmrgsatgitlab) | DIB / Culture |
+| [Harnessing AI in DevSecOps: Streamlining Efficiency](https://vimeo.com/gitlab/harnessingai) | AI / Product |
 | [Sales at GitLab](https://vimeo.com/675024697) | Sales |
 | [Diverse Minds, Unified AI Solutions](https://vimeo.com/gitlab/diversemindsunifiedaisolutions?share=copy) | AI / Product |
 | [GitLab at European Women in Tech](https://vimeo.com/852369659?share=copy) | DIB |
 | [A Conversation with Ragnar Hardarson, Engineering Manager at GitLab](https://vimeo.com/716075220) | Engineering |
-| [A Conversation with Monmayuri Ray, Engineering Manager, ModelOps at GitLab](https://vimeo.com/745189253) | Engineering |
-| [A Conversation with Nick Nguyen, Sr. Engineering Mgr., Enablement at GitLab](https://vimeo.com/745463953) | Engineering |
-| [GitLab's Engineering Team: An Inside Look](https://www.youtube.com/watch?v=bnq8-iJeUMI) | Engineering |
-| [Ishita's Life at GitLab](https://vimeo.com/677814891) | Team Member Spotlight |
-| [Kyla's Life at GitLab](https://vimeo.com/677779723) | Team Member Spotlight |
-| [Bruno's Life at GitLab](https://vimeo.com/677785451) | Team Member Spotlight |
-| [Michael's Life at GitLab](https://vimeo.com/677818344) | Team Member Spotlight |
-| [Liam's Life at GitLab](https://vimeo.com/677812885) | Team Member Spotlight |
-| [GitLab's core values](https://youtu.be/_8DFFHYAtj8) | General |
-| [What is GitLab?](https://www.youtube.com/watch?v=tmEv_XgwR6Y) | General |
-| [Black is Tech](https://vimeo.com/746975612) | DIB |
+| [A Conversation with Nick Nguyen, Sr. Engineering Manager at GitLab](https://vimeo.com/745463953) | Engineering |
 
 </details>
 
@@ -155,8 +172,7 @@ There are a number of additional videos on our [corporate YouTube channel](https
 | [Engineering at GitLab](https://www.linkedin.com/company/gitlab-com/life/d7a581f5-5dd7-499f-a5e9-79bbcda7f29a/?viewAsMember=true) | LinkedIn Life Page |
 | [UX at GitLab](https://www.linkedin.com/company/gitlab-com/life/2401df61-b442-4630-a061-c586f6d788ba/?viewAsMember=true) | LinkedIn Life Page |
 | [Builtin](https://builtin.com/company/gitlab) | Culture Page and Job Board |
-| [Women in Sales Everywhere](https://app.womeninsaleseverywhere.com/companies/gitlab) | Company Page and Community Member Benefits |
-| [Venturefizz](https://venturefizz.com/gitlab) | Culture Page and Job Board |
+| [Women in Sales Everywhere](https://www.womeninsaleseverywhere.com/companies/gitlab) | Company Page and Community Member Benefits |
 | [Glassdoor](https://bit.ly/3BT89On) | Company Rating, Reviews and Job Board |
 | [Comparably](https://www.comparably.com/companies/gitlab) | Culture Page and Job Board |
 

@@ -16,7 +16,7 @@ status: active
 
 ## Overview and goals
 
-Software Supply Chain Security (SSCS) is a key area where GitLab needs to excel, not only for the benefit of the company but for the benefit and security of our users. SSCS features and capabilities span across nearly all of the stages and groups in GitLab. The primary focus of this working group will be to work on building signing and verification into GitLab and will involve contributions in areas the following groups maintain: `Create::Source Code`, `Verify::Pipeline Execution`, `Verify::Runner`, `Package::Package Registry`, and `Package::Container Registry`. There may be some minor code contributions into other team areas as well. The other SSCS feature work at GitLab that is unrelated to signing and verification is outside the scope of this Working Group (but is still being considered or worked on in other areas in GitLab). This [direction page](https://about.gitlab.com/direction/supply-chain) describes the broad, long-term future vision for SSCS across the entire SDLC.
+Software Supply Chain Security (SSCS) is a key area where GitLab needs to excel, not only for the benefit of the company but for the benefit and security of our users. SSCS features and capabilities span across nearly all of the stages and groups in GitLab. The primary focus of this working group will be to work on building signing and verification into GitLab and will involve contributions in areas the following groups maintain: `Create::Source Code`, `Verify::Pipeline Execution`, `Verify::Runner`, `Package::Package Registry`, and `Package::Container Registry`. There may be some minor code contributions into other team areas as well. The other SSCS feature work at GitLab that is unrelated to signing and verification is outside the scope of this Working Group (but is still being considered or worked on in other areas in GitLab). This [direction page](https://about.gitlab.com/direction/supply-chain/) describes the broad, long-term future vision for SSCS across the entire SDLC.
 
 Signing and verification are traditionally difficult tasks. To securely sign a build artifact, container image, or package, users need to first securely store a private signing key. This key needs to be regularly rotated, and the signing tool needs a way to securely access the signing key. The combination of all of these requirements result in a high barrier to entry for users to sign their builds. As a result, many private projects and small open source projects do not publish signed build artifacts.
 
@@ -91,4 +91,5 @@ To be added once the project is complete
 | Engineering DRI    | Aaron Huntsman     | Sr. Backend Engineer, Govern                    |
 | Member             | Charlie Ablett     | Staff Backend Engineer, Plan                    |
 | Member             | Georgi N. Georgiev | Senior Backend Engineer, Verify                 |
-| Advisor            | Dominic Couture    | Staff Security Engineer, Application Security   |
+| Advisor            | Greg Myers         | Security Engineer, Application Security         |
+| Advisor            | Ottilia Westerlund       | Security Engineer, Application Security         |

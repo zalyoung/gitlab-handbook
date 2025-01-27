@@ -1,11 +1,10 @@
 ---
-
 title: Mattermost
 description: "Workflow for escalating Mattermost support issues."
 category: Self-managed
 ---
 
-
+## This workflow is currently under review and can not be used in its current form. See https://gitlab.com/gitlab-org/omnibus-gitlab/-/issues/8594
 
 ### Escalating to the Mattermost team
 
@@ -23,7 +22,7 @@ to the technical support team who answers the question within two business days 
 - For Priority support (Premium/Ultimate customers, additionally assign the issue to the `mattermost-support` account. This assignment sends an email notification,
 which is automatically escalated to the critical level technical support who answers the question within 4 hours using the `mattermost-support` account.
 
-This information is taken from [Service-Level Agreement (SLA)](https://docs.mattermost.com/process/gitlab-process.html#service-level-agreement-sla)
+This information is taken from [Service-Level Agreement (SLA)](https://mattermost.com/support-terms/#slas)
 page of Mattermost docs.
 
 NOTE: **Note:**
@@ -32,4 +31,4 @@ The Mattermost team sometimes uses their personal accounts to respond to issues.
 
 ### Other resources
 
-- [Mattermost forum](http://forum.mattermost.org/c/general/gitlab) - has over a thousand people registered on the forum and every new question and answer makes thing easier to troubleshoot.
+- [Mattermost forum](https://forum.mattermost.com/c/trouble-shoot/gitlab/12) - has over a thousand people registered on the forum and every new question and answer makes thing easier to troubleshoot.

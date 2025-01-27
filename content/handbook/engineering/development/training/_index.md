@@ -1,20 +1,12 @@
 ---
-
 title: Development Department Learning and Development
 ---
-
-
-
-
-
-
-
 
 ## Resources
 
 ### Secure coding best practices
 
-It is important that all developers are aware of [secure coding best practices](/handbook/security/secure-coding-training.html) and refresh this knowledge periodically. This is tracked via Secure Coding Training Guidelines.
+It is important that all developers are aware of [secure coding best practices](/handbook/security/secure-coding-training/) and refresh this knowledge periodically. This is tracked via Secure Coding Training Guidelines.
 
 ### Ruby on Rails Performance Training
 
@@ -39,9 +31,7 @@ Here is the information of a PostgreSQL query optimization bot at GitLab - Joe: 
 
 [Frontend Masters](https://frontendmasters.com) allows you to advance your skills with in-depth, modern frontend engineering courses.
 
-GitLab has an account with Frontend Masters and team members can gain access to it by creating an [Access Request](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/new?issuable_template=Individual_Bulk_Access_Request) and select the best option for your situation ([single user](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/new?issuable_template=Individual_Bulk_Access_Request), [bulk user](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/new?issuable_template=Bulk_Access_Request), etc.) and, once approved by your manager, assign to the Access Request Provisioner listed in the [Tech Stack](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/data/tech_stack.yml) for this system. Once your access has been provisioned, you will receive an email to activate your account.
-
-You can also join the [#frontendmasters](https://gitlab.slack.com/archives/C0151MXP6JH) Slack channel for course recommendations and discussion.
+Team members can use the Growth and Development Fund to request a subscription by following the process outlined at https://about.gitlab.com/handbook/total-rewards/benefits/general-and-entity-benefits/growth-and-development/.
 
 ### GraphQL
 
@@ -69,24 +59,22 @@ These meetings are currently run on a **weekly** cadence, alternating between ti
 
 One of the paths for engineers to progress in their career is a Management path. To explain more about the role
 of Engineering Managers in GitLab, there is a series of conversations with team members explaining details of their work and their experience transitioning to management
-[here](/handbook/engineering/development/training/em-role/index.html).
+[here](/handbook/engineering/development/training/em-role/).
 
 ### IC Leadership
 
 Staff+ engineers and ICs aspiring to become Staff can benefit from resources and recommendations described
-[here](/handbook/engineering/development/training/staff-plus-role.html).
+[here](/handbook/engineering/development/training/staff-plus-role/).
 
 ## Edcast / GitLab Learn
 
-
-[GitLab Learn](https://gitlab.edcast.com/) is a Learning Experience Platform (LXP) meant to provide training and professional development for team members. We will continue being [handbook first](/handbook/handbook-usage/#why-handbook-first), and use this platform to organize, surface, and promote relevant content that exists today.
+[GitLab Learn](https://gitlab.edcast.com/) is a Learning Experience Platform (LXP) meant to provide training and professional development for team members. We will continue being [handbook first](/handbook/about/handbook-usage/#why-handbook-first), and use this platform to organize, surface, and promote relevant content that exists today.
 
 We encourage you to browse all of the channels offered in GitLab Learn, as new ones are regularly being added and updated. Here are some resources to start:
 
 - [**GitLab Development Channel**](https://gitlab.edcast.com/channel/gitlab-development-learning-hub) - for Development-specific training resources
 - [**Recommendations from Learning and Development**](https://gitlab.edcast.com/channels/discover-channels/3635) - a collection of channels recommended by the L&D team, including Mental Wellness and Leadership Development
 - [**All Channels**](https://gitlab.edcast.com/channels/all)
-
 
 ## Process for Contributing
 
@@ -110,9 +98,8 @@ Submit a request to the [lxp-contributions project](https://gitlab.com/gitlab-co
 | Deploys / Releases | @nolith |
 | Management | @dsatcher |
 | New Managers | @jeromezng |
-| Leadership | @dsatcher | 
+| Leadership | @dsatcher |
 | Security | @joernchen |
-
 
 | Future Carousels | DRI |
 | ------ | ------ |
@@ -125,14 +112,13 @@ The Carousel DRI will review the request and approve or deny the request. Once a
 
 _Note: Carousel DRI's can only add content that exists in the platform already. If the content does not exist, the Carousel DRI will need to request that it be added first by consulting the learning and development team_
 
-
 **Criteria for approval**
 
-The following should be true for all content approved. 
+The following should be true for all content approved.
 
 1. A carousel cannot have more than 10 courses (There can be exceptions to the rule, however we only want to highlight the most impactful courses here)
 1. The Carousel DRI must complete the course or have confidence that it will contribute to professional development
-1. Upon evaluating the course, the Carousel DRI concurs that this course should be added to the carousel 
+1. Upon evaluating the course, the Carousel DRI concurs that this course should be added to the carousel
 
 ## What is a Carousel?
 

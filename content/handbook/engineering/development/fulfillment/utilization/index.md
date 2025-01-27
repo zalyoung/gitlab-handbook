@@ -1,14 +1,7 @@
 ---
-
 title: Fulfillment Utilization Team
 description: "The Utilization Team in the Fulfillment Sub-department at GitLab"
 ---
-
-
-
-
-
-
 
 ## Overview
 
@@ -16,29 +9,29 @@ The Utilization Team often works at the interface between GitLab Core and Fulfil
 
 ## Vision
 
-For more details about the product vision for Fulfillment, see our [Fulfillment](/direction/fulfillment/) page.
+For more details about the product vision for Fulfillment, see our [Fulfillment](https://about.gitlab.com/direction/fulfillment/) page.
 
 The Utilization group manages the [Utilization category](/handbook/product/categories/#utilization-group).
 
 ## Team members
 
-<%= direct_team(manager_role: 'Fullstack Engineering Manager, Fulfillment:Utilization', role_regexp: /[,&] Fulfillment/) %>
+{{% team-by-departments "Fulfillment:Utilization Team" %}}
 
 ## Stable counterparts
 
-<%= stable_counterparts(role_regexp: /[,&] Fulfillment((?!:)|:Utilization)/, direct_manager_role: 'Fullstack Engineering Manager, Fulfillment:Utilization') %>
+{{< stable-counterparts role="Fulfillment:Utilization|Security(.*)Fulfillment|Director(.*)Fulfillment" manager-role="Fullstack Engineering Manager, Fulfillment:Utilization" >}}
 
 ## How we work
 
 ### Sync Time is Valuable
 
-We try to [work async](/company/culture/all-remote/asynchronous/) as much as possible. However, there are occasions where synchronous communication might be better suited for the task. Our Weekly Team Sync meeting is one of those occasions where we can celebrate wins, collaborate quickly over a number of issues, and generally have some face-time in an all-remote environment.
+We try to [work async](/handbook/company/culture/all-remote/asynchronous/) as much as possible. However, there are occasions where synchronous communication might be better suited for the task. Our Weekly Team Sync meeting is one of those occasions where we can celebrate wins, collaborate quickly over a number of issues, and generally have some face-time in an all-remote environment.
 
 Crucially, we use this high bandwidth communication to review issues that need some extra discussion and input from the team to ensure that issues can be estimated and work developed with minimal back and forth to establish the nature of the request.
 
 #### Times and Timezones
 
-The Utilization group is spread across at least [4 different timezones](https://leipert-projects.gitlab.io/better-team-page/timezones/?search=reports_to%3AChaseSouthard).
+The Utilization group is spread across at least 4 different timezones.
 
 The Utilization Team meets via Zoom on Tuesdays each week at 9:00 AM US Eastern Time (6:00 AM PT / 2:00 PM UTC) to accommodate teammates in their timezones.
 
@@ -58,13 +51,42 @@ All team members are encouraged to add topics to the [weekly agenda](https://doc
 
 Engineers are responsible for providing async issue updates on active, assigned issues when progress is made. Following the [template and guidance](/handbook/engineering/development/fulfillment/#weekly-async-issue-updates) for async updates for the entire Fulfillment Sub-department, updates should be made at least weekly. These updates help keep collaborators, stakeholders, and community contributors informed on the progress of an issue.
 
+In addition to weekly issue updates, we ask that engineeering DRIs also provide a weekly status update for the bodies of work where they're focussed.
+
+- **When**: We aim to provide these updates every Tuesday
+- **Who**: Anyone who is listed as a DRI against our current milestone priority projects
+- **What**: The updates should include accomplishments, any blockers and a sense of how the work is progressing against the timeline. As an added bonus, a link to a demo that has been posted in the #s_fulfillment_demo Slack channel would also be beneficial.
+- **Where**: Please provide them in the comments of the primary/parent epic of your work and tag Alex and James when you do so.
+
+An example template to use in these updates looks like:
+
+```markdown
+# BE Weekly Update YYYY-MM-DD
+
+* **Timeline Confidence**: :thumbsup:
+* **% Complete**: X% (Y weight closed / Z total weight)
+* **Blockers**: None
+* **Accomplishments**:
+  * 3 MRs created
+  * 1 issue closed
+
+cc/ @alex_martin @csouthard
+```
+
+Initially we are using the following formula for `% Complete`, rounded down to the nearest multiple of 5:
+
+```markdown
+(issue weight closed / total issue weight) * 100
+```
+
 #### Engineering Manager
 
 ##### Milestones
 
 The Engineering Manager will report before the end of each week on milestone progress in the current milestone planning issue on the following topics:
 
-```
+```markdown
+
 **Total Weight Closed** XX
 
 **Total Weight Open** XX (XX in dev)
@@ -78,29 +100,30 @@ The Engineering Manager will report before the end of each week on milestone pro
 
 ##### OKRs
 
-The Engineering Manager will report on the progress of [OKRs](/company/okrs/) every two weeks as a comment in relevant work items found in the [Objectives and Key Results project](https://gitlab.com/gitlab-com/gitlab-OKRs).
+The Engineering Manager will report on the progress of [OKRs](/handbook/company/okrs/) every two weeks as a comment in relevant work items found in the [Objectives and Key Results project](https://gitlab.com/gitlab-com/gitlab-OKRs).
 
 Current OKRs: [Work Items Labeled with Utilization](https://gitlab.com/gitlab-com/gitlab-OKRs/-/issues/?sort=created_date&state=opened&label_name%5B%5D=group%3A%3Autilization&first_page_size=100)
 
-
 ### Taking Time Off (PTO)
 
-It is important to [take time off](/handbook/paid-time-off/#paid-time-off) so that you can rest, reset, avoid burnout, take care of loved ones, etc. You are encouraged to take time for yourself or your family following our operating principle of [Family and Friends First, work second](/handbook/values/#family-and-friends-first-work-second). Guidance is to communicate your PTO intention with your manager with [twice the number of days](/handbook/paid-time-off/#a-gitlab-team-members-guide-to-time-off) that you are taking off.
+It is important to [take time off](/handbook/people-group/paid-time-off/#paid-time-off) so that you can rest, reset, avoid burnout, take care of loved ones, etc. You are encouraged to take time for yourself or your family following our operating principle of [Family and Friends First, work second](/handbook/values/#family-and-friends-first-work-second). Guidance is to communicate your PTO intention with your manager with [twice the number of days](/handbook/people-group/paid-time-off/#a-gitlab-team-members-guide-to-time-off) that you are taking off.
 
-When going out of office, please be sure to [clearly communicate](/handbook/paid-time-off/#communicating-your-time-off) your availability with other people. The following steps are required when submitting a PTO notification.
+When going out of office, please be sure to [clearly communicate](/handbook/people-group/paid-time-off/#communicating-your-time-off) your availability with other people. The following steps are required when submitting a PTO notification.
 
-1. In [Time Off by Deel](/handbook/paid-time-off/#time-off-by-deel), select a role as your backup during your PTO. Please assign the team slack channel #g_utilization as your backup to help distribute the workload. Consider if your current work in progress requires a substitute DRI and assign a single person for those specific issues.
+1. In [Time Off by Deel](/handbook/people-group/paid-time-off/#time-off-by-deel), select a role as your backup during your PTO. Please assign the team slack channel #g_utilization as your backup to help distribute the workload. Consider if your current work in progress requires a substitute DRI and assign a single person for those specific issues.
 
-2. Add the Fulfillment Shared Calendar to your Time Off by Deel settings so your PTO events are visible to everyone in the team. The calendar ID is: `gitlab.com_7199q584haas4tgeuk9qnd48nc@group.calendar.google.com` Read more about [PTO](/handbook/paid-time-off/#a-gitlab-team-members-guide-to-time-off) in the handbook.
+2. Add the Fulfillment Shared Calendar to your Time Off by Deel settings so your PTO events are visible to everyone in the team. The calendar ID is: `gitlab.com_7199q584haas4tgeuk9qnd48nc@group.calendar.google.com` Read more about [PTO](/handbook/people-group/paid-time-off/#a-gitlab-team-members-guide-to-time-off) in the handbook.
 
 3. Update your GitLab.com status with your out of office dates by clicking on your profile picture and selecting "Edit Status." For Example: `OOO Back on yyyy-mm-dd` Adding `OOO` to your status message will keep you from appearing in the [reviewer roulette](https://docs.gitlab.com/ee/development/code_review.html#reviewer-roulette).
+
+4. If the planned PTO is more than 3 days, [create a coverage issue](https://gitlab.com/gitlab-org/fulfillment/meta/-/issues/new?issuable_template=em_coverage) to indicate who's helping where and how we all can support each other. If you're unsure if a coverage issue is needed for your planned PTO, please discuss with your engineering manager.
 
 ## Milestone Planning
 
 ### Key dates
 
 | Date | Event |
-| ------ | ------ | ------ |
+| ------ | ------ |
 | The Monday of the week the milestone ends |**PM** creates a Planning Issue and pings the EM(s) in the Planning Issue for review & preliminary weighting.<br><br> **EM and PM** calculate capacity, add to Planning Issue.|
 | Monday to Friday of the week the milestone ends |**EM** & **ICs** add weights to issues in the backend and frontend build boards.|
 | The Friday the milestone ends | **PM** adds ~Deliverable labels to issues.|
@@ -110,28 +133,26 @@ When going out of office, please be sure to [clearly communicate](/handbook/paid
 
 ### How We Prioritize Issues
 
-We have [cross-functional prioritization](/handbook/product/cross-functional-prioritization/) process that is aligned with our prioritization framework.
+We have [cross-functional prioritization](/handbook/product/product-processes/cross-functional-prioritization/) process that is aligned with our prioritization framework.
 
 #### Responsibilities
 
 - The Product Manager will prioritize `type::feature` issues
 - The Engineering Manager will prioritize `type::maintenance` issues
 - The Software Engineer in Test will prioritize `type::bug` issues
-- The Product Designer will prioritize `sus::impacting` issues ([System Usability Scale (SUS)](https://about.gitlab.com/handbook/engineering/quality/issue-triage/#sus-impacting))
+- The Product Designer will prioritize `bug::ux` issues ([System Usability Scale (SUS)](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#ux-bugs))
 
 #### Mechanics
 
-- The team uses the [#g_utilization_planning](https://gitlab.slack.com/archives/C04108X3FDG) Slack channel to discuss cross-functional prioritization.
-- The team reviews [this dashboard](#merged-merge-request-types) which shows the distribution of MRs that are bugs, maintenance, and features to ensure the team's efforts are properly aligned to our target prioritization ratio (60% features / 30% maintenance / 10% bugs).
-- The team uses [this prioritization board](https://gitlab.com/gitlab-org/gitlab/-/boards/4416231?label_name%5B%5D=group%3A%3Autilization) to order our top features, bugs, maintenance, and [System Usability Scale (SUS)](https://about.gitlab.com/handbook/engineering/quality/issue-triage/#sus-impacting) impacting issues.
-- For a quick view and controls on bugs by priority, [this board](https://gitlab.com/groups/gitlab-org/-/boards/2874336?label_name[]=group%3A%3Autilization&label_name[]=type%3A%3Abug) can be used. More detailed information on bugs, including backlog and open rate, both of which are factors in determining their desired bug percentage for the upcoming milestone, is shown in this [dashboard](https://app.periscopedata.com/app/gitlab/1037965/Bug-Prioritization) (select Utilization from filters).
+- The team reviewus [this dashboard](/handbook/product/groups/product-analysis/engineering/dashboards/#mr-types-dashboard) which shows the distribution of MRs that are bugs, maintenance, and features to ensure the team's efforts are properly aligned to our target prioritization ratio (60% features / 30% maintenance / 10% bugs).
+- The team uses [this prioritization board](https://gitlab.com/gitlab-org/gitlab/-/boards/4416231?label_name%5B%5D=group%3A%3Autilization) to order our top features, bugs, maintenance, and [System Usability Scale (SUS)](/handbook/engineering/infrastructure/engineering-productivity/issue-triage/#ux-bugs) impacting issues.
+- For a quick view and controls on bugs by priority, [this board](https://gitlab.com/groups/gitlab-org/-/boards/2874336?label_name[]=group%3A%3Autilization&label_name[]=type%3A%3Abug) can be used. More detailed information on bugs, including backlog and open rate, both of which are factors in determining their desired bug percentage for the upcoming milestone, is shown in this [dashboard](https://10az.online.tableau.com/t/gitlab/views/OpenBugAgeOBA/BugPrioritizationDashboard) (select Utilization from filters).
 - The team collaborates on a prioritization issue that documents and discusses our current prioritization scheme.
 
 ### Planning Issues
 
 - [Current Planning Issue](https://gitlab.com/gitlab-org/fulfillment-meta/-/issues/?sort=created_date&state=opened&label_name%5B%5D=group%3A%3Autilization&label_name%5B%5D=Planning%20Issue&first_page_size=100)
 - [Archive 13.8 - present](https://gitlab.com/gitlab-org/fulfillment-meta/-/issues/?sort=created_date&state=closed&label_name%5B%5D=group%3A%3Autilization&label_name%5B%5D=Planning%20Issue&first_page_size=100)
-
 
 ### How Engineering Refines Issues
 
@@ -147,10 +168,10 @@ If any issue requires any additional `~frontend`, `~backend`, `~Quality`, `~UX`,
 1. Does the issue have the expected behavior described well enough for anyone to understand?
 1. Does the issue explicitly define who the stakeholders are (e.g. BE, FE, PM, UX and/or Tech Writer)? In case the stakeholders aren't very clear (especially when it's not FE nor BE), mention both the PM and EM when you ask for clarification?
 1. Does the issue have a proposal in the description?
-    - _If so_:
+    - *If so*:
     1. Does the proposal address the problem statement?
     1. Are there any unintended side effects of the implementation?
-    - _If not_:
+    - *If not*:
     1. Create a proposal during the estimation steps or summarize the prevailing proposal.
 1. Does the issue have proper labeling matching the job to be done? (e.g. bug, feature, performance)
 
@@ -158,7 +179,7 @@ Anyone on the team can contribute to answering the questions in this checklist, 
 
 ##### Updated Refinement/Estimation Template
 
-```
+```markdown
 ### Refinement / Weighting
 
 <!--
@@ -241,18 +262,18 @@ If that passage of time is significant, e.g. 1 year, we should re-evaluate the i
 
 Much like [Martin Fowler's technical debt quadrant](https://martinfowler.com/bliki/TechnicalDebtQuadrant.html), we'll repurpose the [Eisenhower Method](https://en.wikipedia.org/wiki/Time_management#The_Eisenhower_Method) to help guide our thinking as we categorize and prioritize our maintenance issues. We use a two-axis framework, `urgency` and `importance`, to prioritize maintenance issues (refactoring, intentional or unintentional technical debt, etc). It's a framework for decision making.
 
-#### `urgency`: "_Will we need it soon?_"
+#### `urgency`: "*Will we need it soon?*"
 
 Range: not-urgent or urgent
 
-We can also quantify _urgency_ in a number of ways. One method is based on customer impact. For instance, we can use the number of errors(5xx's code errors; user facing exceptions), error-budget(higher impact leads to higher urgency), or the number of customers impacted by the issue. Other non-customer based urgency could include the timeline for driven changes such as package or gem upgrades.
+We can also quantify *urgency* in a number of ways. One method is based on customer impact. For instance, we can use the number of errors(5xx's code errors; user facing exceptions), error-budget(higher impact leads to higher urgency), or the number of customers impacted by the issue. Other non-customer based urgency could include the timeline for driven changes such as package or gem upgrades.
 
 Defining questions:
 
 1. "What will happen if we don't fix this issue in the next one milestone?"
 1. "Does the business need still exist? Is this still actively being used by our customers?"
 
-#### `importance`: "_How bad is it?_"
+#### `importance`: "*How bad is it?*"
 
 Range: not-important or important
 
@@ -290,6 +311,7 @@ We have many labels that can be applied to an issue or a merge request. Besides 
 - `security` if the issue is related to application security, and `breaking change` if this work is considered a breaking change
 
 The extended list of labels that should be applied where applicable to issues and MRs:
+
 - UI Context: `usage_quota:storage`, `usage_quota:pipeline`, `usage_quota:transfer`, `usage_quota:other`
 
 The `workflow::planning breakdown` label is driven by Product, but is a collaborative effort between Product, UX and Engineering. We are using this label to help drive the refinement, estimation, and breakdown of issues as described above. During that refinement process, the following examples of how the team might contribute towards that effort:
@@ -343,7 +365,7 @@ Throughout the estimation process, consider the following GitLab sub-values:
 
 #### Spikes
 
-We use [spikes](/handbook/product/product-processes/#spikes) _during the milestone_ to produce a [design document](https://www.industrialempathy.com/posts/design-docs-at-google/) or similar artifact that is useful for planning and execution of feature or other complex work. This can simply be, but not limited to, an issue containing a summary of the discussions on the topic, answers to questions from the spike description, links to any Proof of Concept MRs produced, a road map or other detailed outline. They are assigned like other work and take up capacity from the milestone.
+We use [spikes](/handbook/product/product-processes/#spikes) *during the milestone* to produce a [design document](https://www.industrialempathy.com/posts/design-docs-at-google/) or similar artifact that is useful for planning and execution of feature or other complex work. This can simply be, but not limited to, an issue containing a summary of the discussions on the topic, answers to questions from the spike description, links to any Proof of Concept MRs produced, a road map or other detailed outline. They are assigned like other work and take up capacity from the milestone.
 
 Spikes are typically considered a `Deliverable` issue and we use [this template](https://gitlab.com/gitlab-org/customers-gitlab-com/-/blob/main/.gitlab/issue_templates/spike_template.md) (internal only) to create new spike issues.
 
@@ -365,6 +387,7 @@ Follow the same Fibonacci scale used for feature work from 1 (low, quick, easy) 
 - Spikes should be assigned to at least one frontend and one backend engineer to ensure we consider the issue from both viewpoints. Otherwise, we can split the spike issue along those disciplines.
 
 ## "What do I work on next?"
+
 ### What are the priorities for this milestone?
 
 - When we receive `P1/S1` bug type issues, they will outrank other planned issues.
@@ -377,6 +400,14 @@ Follow the same Fibonacci scale used for feature work from 1 (low, quick, easy) 
 DRIs assign themselves to the selected issue. This is also a good time to re-evaluate the weight and proposal, in case the DRI picking up the issue was not the same individual who originally weighted and refined the issue. Aspirationally, we strive to iterate and want to breakdown issues to ship as much value in the milestone for our users as possible, which means if you see a more efficient way forward when you start working on a new issue, you are free to raise a comment and update the proposal to deliver more iterative value.
 
 [^stsjw-1]: Small effort improvements to the project can be added to the current milestone as unplanned work. Resolving small bugs or fixing flakey tests immediately are examples of how to use the `stuff that should just work` label.
+
+### Unblocking Frontend work
+
+Given the higher capacity to work on Frontend issues, we can use the following system for Frontend Engineers to ping Backend engineers in their timezone to resolve the blockers or backend dependencies faster:
+
+![Fe-Be-Priority-Heatmap](/images/handbook/engineering/priority-heatmap.png)
+
+Depending on the priority of the project or OKR, Frontend engineers are able to ask Backend engineers for help regardless of their current project - unless the priority of the Backend work is higher. In the above table, the cells in green show the times when Frontend Engineers can ping the Backend engineers for help regardless of their DRI status of the project, while cells in yellow may require an escalation to the EM if they are blocked or to wait for the Backend DRI of the project to help out.
 
 ## Triage
 
@@ -403,15 +434,16 @@ e.g. https://sentry.gitlab.net/gitlab/customersgitlabcom/issues/2505559/?query=i
 
 See links in the right sidebar:
 
-![](./sentry_issue_creator.png)
+![''](/images/engineering/development/fulfillment/utilization/sentry_issue_creator.png)
 
-Although both links look the same, the first link is for creating an issue _in the security repo_, the **second should be for the project** (CustomersDot/GitLab) accordingly.
+Although both links look the same, the first link is for creating an issue *in the security repo*, the **second should be for the project** (CustomersDot/GitLab) accordingly.
 
 ## Support Requests
 
 Fulfillment has a new [collaborative process with the Support team](https://gitlab.com/gitlab-com/fulfilment-sub-department/section-fulfilment-request-for-help#how-to-submit-a-request-for-help-to-the-fulfilment-section-development-team) to track and manage requests for help. We have a specialized, scoped label, `~"Help group::Utilization"`.  [Issues](https://gitlab.com/gitlab-com/fulfilment-sub-department/section-fulfilment-request-for-help/-/issues) are generated in the same project.
 
 Other boards where previous requests are tracked:
+
 - Board: [Bugs by severity](https://gitlab.com/groups/gitlab-org/-/boards/4373035?label_name%5B%5D=group%3A%3Autilization&label_name%5B%5D=type%3A%3Abug)
 - Board: [Features by severity](https://gitlab.com/groups/gitlab-org/-/boards/4373035?label_name%5B%5D=group%3A%3Autilization&label_name%5B%5D=type%3A%3Abug)
 
@@ -433,7 +465,9 @@ Other boards where previous requests are tracked:
 
 Following a similar process to Milestone Retrospectives, we employ [Iteration Retrospectives](https://gitlab.com/gitlab-com/www-gitlab-com/-/merge_requests/82623) on a quarterly basis.
 
-#### [May 2021](https://gitlab.com/gitlab-org/fulfillment-meta/-/issues/234)
+#### May 2021
+
+[May 2021](https://gitlab.com/gitlab-org/fulfillment-meta/-/issues/234)
 
 **Key Takeaways**
 
@@ -463,38 +497,38 @@ we have used for our retrospectives and working groups.
 
 1. The team creates a review issue
    1. We can use the [Utilization team project](https://gitlab.com/fulfillment-group/utilization-group/team-project), the following [issue template](https://gitlab.com/fulfillment-group/utilization-group/team-project/-/blob/main/.gitlab/issue_templates/architecture_review.md), and [Epic](https://gitlab.com/groups/fulfillment-group/utilization-group/-/epics/2)
-   2. Find a Reviewer (Issue author and DRI)
+   1. Find a Reviewer (Issue author and DRI)
       1. Optionally, find a person to chair the review. They would facilitate
       the process (review meeting scheduling; note taking; managing the clock and discussion).
       For smaller reviews, the reviewer also acts as the chair.
-   3. Summarize the [concern, feature, proposal, etc]. Limit this to 1 paragraph, but address the problem in its entirety.
+   1. Summarize the [concern, feature, proposal, etc]. Limit this to 1 paragraph, but address the problem in its entirety.
    The topic should be agreed upon between the team and the reviewer.
-2. The team asynchronously contributes to the issue to provide additional detail that documents the [concern, feature, proposal, etc] identified in the issue description.
+1. The team asynchronously contributes to the issue to provide additional detail that documents the [concern, feature, proposal, etc] identified in the issue description.
    1. Summarize the problem space. Definitions, terms, what is the key motivation for addressing this topic.
-   2. List those directly affected by the current problem or future revision. Bring in a stable counterpart (e.g. Support, Sales, cross-stage DRI) to further understand the impact.
-   3. Set exit criteria - what we will achieve on completion. Produce a brief that describes when this issue can be closed (e.g. improved documentation, sharing session, epic for refactoring, new issues, a proposal, an architecture blueprint)
+   1. List those directly affected by the current problem or future revision. Bring in a stable counterpart (e.g. Support, Sales, cross-stage DRI) to further understand the impact.
+   1. Set exit criteria - what we will achieve on completion. Produce a brief that describes when this issue can be closed (e.g. improved documentation, sharing session, epic for refactoring, new issues, a proposal, an architecture blueprint)
       1. Include:
          1. Any architecture being proposed
-         2. Non-functional requirements (e.g. accessibility, security, performance, etc)
-         3. Relevant business goals
-      2. Consider alternatives, costs, and opportunities
-      3. Be sure to address any concerns from affected groups or cross-stage collaborators
-3. The Reviewer creates a list of questions making them available to the team prior to the review meeting. The questions could be derived from information gathered in the previous step
-4. The Reviewer (or Chair) convenes a review meeting. The discussion should be recorded and made as widely available as possible while keeping sensitive information SAFE
+         1. Non-functional requirements (e.g. accessibility, security, performance, etc)
+         1. Relevant business goals
+      1. Consider alternatives, costs, and opportunities
+      1. Be sure to address any concerns from affected groups or cross-stage collaborators
+1. The Reviewer creates a list of questions making them available to the team prior to the review meeting. The questions could be derived from information gathered in the previous step
+1. The Reviewer (or Chair) convenes a review meeting. The discussion should be recorded and made as widely available as possible while keeping sensitive information SAFE
    1. Invite the team and any outside collaborator
-   2. Invite the EM and SEM/Director
-   3. PM, Designer, or other internal collaborators can be added optionally depending on the topic
-   4. Suggested agenda
+   1. Invite the EM and SEM/Director
+   1. PM, Designer, or other internal collaborators can be added optionally depending on the topic
+   1. Suggested agenda
       1. Overview
-      2. Discussion of questions from step 3 above
-      3. Is the proposal relevant in a wider context (team goals, sub-department goals, department goals)
-      4. Action items, if any
-   5. The Reviewer is responsible for outlining the action items and ultimately deciding the outcome of the review
-   6. Additional review steps can be completed asynchronously to complete the exit criteria
-   7. It is possible to alter the questions or direction given discussion. This could include a subsequent review or invalidating the current review.
-5. The artifacts of the review (recording, issues, etc) are published and made available to others in the `/doc` directory of the [CustomersDot project](https://gitlab.com/gitlab-org/customers-gitlab-com)
-6. Consider updating this timeline with any new learnings or propose adjustments to the [issue template](https://gitlab.com/fulfillment-group/utilization-group/team-project/-/blob/main/.gitlab/issue_templates/architecture_review.md) if applicable.
-7. The review issue is closed
+      1. Discussion of questions from step 3 above
+      1. Is the proposal relevant in a wider context (team goals, sub-department goals, department goals)
+      1. Action items, if any
+   1. The Reviewer is responsible for outlining the action items and ultimately deciding the outcome of the review
+   1. Additional review steps can be completed asynchronously to complete the exit criteria
+   1. It is possible to alter the questions or direction given discussion. This could include a subsequent review or invalidating the current review.
+1. The artifacts of the review (recording, issues, etc) are published and made available to others in the `/doc` directory of the [CustomersDot project](https://gitlab.com/gitlab-org/customers-gitlab-com)
+1. Consider updating this timeline with any new learnings or propose adjustments to the [issue template](https://gitlab.com/fulfillment-group/utilization-group/team-project/-/blob/main/.gitlab/issue_templates/architecture_review.md) if applicable.
+1. The review issue is closed
 
 ### Investment Time
 
@@ -515,5 +549,20 @@ a typical DRI.
 
 ## Performance Indicators
 
-<%= partial "handbook/engineering/metrics/partials/_cross_functional_dashboard.erb", locals: { filter_value: "Utilization" } %>
-<%= partial "handbook/engineering/metrics/partials/child_dashboard.erb", locals: { filter_type: "group", filter_value: "Utilization" } %>
+{{< tableau height="600px" toolbar="hidden" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/TopEngineeringMetrics/TopEngineeringMetricsDashboard" >}}
+  {{< tableau/filters "GROUP_LABEL"="utilization" >}}
+{{< /tableau >}}
+
+{{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/MergeRequestMetrics/OverallMRsbyType_1" >}}
+  {{< tableau/filters "GROUP_LABEL"="utilization" >}}
+{{< /tableau >}}
+
+{{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/Flakytestissues/FlakyTestIssues" >}}
+  {{< tableau/filters "GROUP_NAME"="utilization" >}}
+{{< /tableau >}}
+
+{{< tableau height="600px" src="https://us-west-2b.online.tableau.com/t/gitlabpublic/views/SlowRSpecTestsIssues/SlowRSpecTestsIssuesDashboard" >}}
+  {{< tableau/filters "GROUP_LABEL"="utilization" >}}
+{{< /tableau >}}
+
+You can find more centralized engineering metrics at [this page](/handbook/product/groups/product-analysis/engineering/dashboards/).

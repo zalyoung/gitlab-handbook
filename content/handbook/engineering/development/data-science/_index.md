@@ -1,49 +1,43 @@
 ---
-
 title: Data Science
-description: "The Data Science stage is focused on leveraging ML in the GitLab product and preventing abuse in the application."
+description: "The Data Science section is focused on leveraging ML and AI in the GitLab product and preventing abuse in the application."
 ---
-
-
-
-
-
-
 
 ## Vision
 
 Build a diverse and global development team to support and drive results across the section,
-while maintaining [our values](/handbook/values/) and [unique way of working](/company/culture/all-remote/guide/).
+while maintaining [our values](/handbook/values/) and [unique way of working](/handbook/company/culture/all-remote/guide/).
 
 ## Mission
 
-Drive results through iterative development as we add ModelOps and Anti-abuse features into the product.
-Our teams are data-driven, support [dogfooding](/direction/dogfooding/), and [collaboration](/handbook/values/#collaboration) within GitLab and the wider community.
+Drive results through iterative development as we add AI, ModelOps and Anti-abuse features into the product.
+Our teams are data-driven, support [dogfooding](https://about.gitlab.com/direction/dogfooding/), and [collaboration](/handbook/values/#collaboration) within GitLab and the wider community.
 
-## Groups
+## Stages
 
-* [AI Assisted](./ai-assisted/)
+* [AI-Powered](ai-powered/)
+* [ModelOps](modelops/)
 
-### Business Continuity - Coverage and Escalation
+## Career Development
 
-The following table shows who will provide cover if one or more of the Data-Science Engineering management team are unable to work for any reason.
+{{% include "includes/engineering/foundations-data-science-shared/career-development.md" %}}
 
-| Team Member        | Covered by            | Escalation     |
-| -----              |-----------------------| -----          |
-| Wayne Haber        | Bartek Marnane           | Jörg Heilig   |
-| Phil Calder        | Jay Swain             | Wayne Haber    |
-| Jay Swain          | Phil Calder           | Wayne Haber    |
-| Monmayuri          | Bartek Marnane        | Jörg Heilig   |
+## Team Days
 
-If an issue arises  - such as a production incident or feature change lock - that a team member needs management support with when their direct manager is not online, the team member should reach out to any Data-Science Engineering Manager by mentioning in `#data-science-section`. The manager can help the team member follow the process and co-ordinate to ensure the team member has the necessary support.
+{{% include "includes/engineering/foundations-data-science-shared/team-day.md" %}}
 
-If an Engineer is unavailable the Engineering Manager will reassign open issues and merge requests to another engineer, preferably in the same [group](#all-team-members).
+## Say/Do Ratio
 
-Some people management functions may require escalation or delegation, such as [Workday](/handbook/people-group/workday/workday-guide/) and [Navan Expense](/handbook/business-technology/enterprise-applications/guides/navan-expense-guide/).
+{{% include "includes/engineering/foundations-data-science-shared/say-do-ratio.md" %}}
 
-This can be used as the basis for a business continuity plan (BCP),
-as well as a general guide to Data Science Engineering continuity in the event of one or more team members being unavailable for any reason.
+## Meetings
 
-## Dashboards
+Although we have a bias for asynchronous communication, synchronous meetings are necessary and should adhere to our [communication guidelines](/handbook/communication/#video-calls). Some regular meetings that take place in Manage are:
 
-<%= partial "handbook/engineering/metrics/partials/_cross_functional_section_dashboard.erb", locals: { filter_value: "ModelOps" } %>
+| Frequency | Meeting                              | DRI         | Possible topics                                                                                        |
+|-----------|--------------------------------------|-------------|--------------------------------------------------------------------------------------------------------|
+| Every other Thursday | Engineering managers discussion | @m_gill | Ideas, help or resources needed from others, concerns, questions, etc.                                 |
+
+## Links and resources
+
+{{% include "includes/engineering/foundations-data-science-shared/shared-links.md" %}}

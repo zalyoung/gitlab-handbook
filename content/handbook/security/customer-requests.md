@@ -7,7 +7,7 @@ We at GitLab are committed to helping our customers succeed. When a GitLab.com c
 
 ## What type of assistance can GitLab provide to customers if they experience a security incident?
 
-If a GitLab.com customer determines that the information available through the [Audit Events](https://docs.gitlab.com/ee/administration/audit_events.html) feature doesn't provide suffcient information about activities taken on the customer's account, GitLab may provide reasonable assistance by performing additional log-dives under certain [conditions and requirements](#conditions-and-requirements).
+If a GitLab.com customer determines that the information available through the [Audit Events](https://docs.gitlab.com/ee/administration/audit_event_reports.html) feature doesn't provide sufficient information about activities taken on the customer's account, GitLab may provide reasonable assistance by performing additional log-dives under certain [conditions and requirements](#conditions-and-requirements).
 
 ## To whom does this apply?
 
@@ -25,15 +25,15 @@ GitLab's Security Incident Response Team handles complex, extensive requests. In
 ## Process outline
 
 1. Customer contacts GitLab Support or CSM with a request that meets the required [conditions and requirements](#conditions-and-requirements).
-1. GitLab GitLab Support or CSM creates a `confidential` issue [in the SIRT tracker](https://gitlab.com/gitlab-com/gl-security/security-operations/sirt/operations/-/issues/) using the `information_request` template. The author of the issue ensures that the request contains all [required information](#conditions-and-requirements).
-1. The author tags  `@gitlab-com/gl-security/sirt` on the issue. The requesting customer **must not** be added to the issue.
+1. GitLab Support or CSM triggers the workflow from Slack with the command `/security` to automatically create a confidential SIRT issue.
+1. This newly created SIRT issue tags `@gitlab-com/gl-security/sirt` directly. The requesting customer **must not** be added to the issue.
 1. Approval from GitLab Legal `@lasayers` should only be requested if an exception is required.
-1. GitLab GitLab Support or CSM verifies that the requesting customer complies with our [conditions and requirements](#conditions-and-requirements) for the request.
+1. GitLab Support or CSM verifies that the requesting customer complies with our [conditions and requirements](#conditions-and-requirements) for the request.
 1. The relevant team (either GitLab Support or GitLab Security) starts working on the case, depending on the type of requests. The issue is updated with every new finding.
 1. GitLab Support or CSM provides status updates to the customer based on the updates captured in the issue on a 12-hour/business day best-effort cadence.
 1. Once the requested artefacts (i.e. log entries) are collected, GitLab Security and GitLab Legal review them.
 1. Once reviewed and approved, GitLab Support or CSM share the artefacts with the requesting customer.
-1. The team that performed the log-dive [creates an issue](https://gitlab.com/gitlab-org/gitlab/-/issues) with ~"Category:Audit Events" and ~"Enterprise Edition" labels to document the gap in [Audit Events](https://docs.gitlab.com/ee/administration/audit_events.html) that forced the customer to request our assistance. This is to ensure that the missing functionality in the product is added in the future.
+1. The team that performed the log-dive [creates an issue](https://gitlab.com/gitlab-org/gitlab/-/issues) with ~"Category:Audit Events" and ~"Enterprise Edition" labels to document the gap in [Audit Events](https://docs.gitlab.com/ee/administration/audit_event_reports.html) that forced the customer to request our assistance. This is to ensure that the missing functionality in the product is added in the future.
 
 ## Conditions and requirements
 
@@ -83,9 +83,7 @@ This process applies to GitLab.com only. GitLab is unable to produce logs for se
 
 ### Why is this available only to GitLab.com customers that are on Premium or Ultimate plans?
 
-GitLab Premium or Ultimate plans provide access to the [Audit Events](https://docs.gitlab.com/ee/administration/audit_events.html) feature, which should provide the required information to help advanced customers to monitor the security and health of their GitLab.com accounts. This process is an extension of that feature that will:
+GitLab Premium or Ultimate plans provide access to the [Audit Events](https://docs.gitlab.com/ee/administration/audit_event_reports.html) feature, which should provide the required information to help advanced customers to monitor the security and health of their GitLab.com accounts. This process is an extension of that feature that will:
 
 - Help the customers get out of a tough situation.
 - Ensure that the product provides functionalities that are important to customers.
-
-

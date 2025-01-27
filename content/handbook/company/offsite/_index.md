@@ -17,13 +17,15 @@ The agenda should include discussions that are:
 
 ## Attendees
 
-1. [Executives](/handbook/company/team/structure/#executives)
+1. [Executives](/handbook/company/structure/#executives)
 1. [Chief of Staff to the CEO](/job-families/chief-executive-officer/chief-of-staff/); when not possible, the [Director, Strategy and Operations](/job-families/chief-executive-officer/strategy-and-operations/)
 1. [CEO Shadows](/handbook/ceo/shadow/)
 1. [Executive Business Admin](/handbook/eba/#executive-business-administrator-team) to the CEO (optional)
 1. Invited participants: folks invited to participate in one or more specific session
 
-#### Roles
+While attendees will include this list of folks, there will be conversations that are most relevant to a sub-set of people. In these cases, calendars will specify who is "recommended" and who is "optional." In some instances, E-Group members may be among the list of optional attendees.
+
+### Roles
 
 **Executives** are committed to working through difficult discussions and problems during the event.
 They commit to being active participants by proposing topics to the agenda before hand and being executive sponsors for those discussion topics.
@@ -42,11 +44,11 @@ The **Staff Executive Business Administrator to the CEO** is responsible for org
 
 ## Logistics
 
-Since most of the E-Group is in the San Francisco Bay Area, we usually go to a location close to a member of the E-Group that is drivable or a short direct flight; for example: San Francisco, Tahoe, Sonoma.
+Since most of the E-Group is in the San Francisco Bay Area, we most often go to a location close to a member of the E-Group that is drivable or a short direct flight from San Francisco.
 The E-Group offsite can also be hosted at the house of the CEO.
 The EBA to the CEO is responsible for booking the hotel and meeting rooms for the people attending in person.
 The EBA to the CEO is responsible for sending out the calendar invites associated to each meeting in the agenda, one calendar entry per meeting, with unique Zoom links for the meeting when the attendees change.
-If the CEO is traveling, the CoS to the CEO (preferred) or the EBA to the CEO should work with the CEO to bring [the Owl](https://www.owllabs.com).
+If the CEO is traveling, the CoS to the CEO (preferred) or the EBA to the CEO should work with the CEO to bring [the Owl](https://owllabs.com/).
 
 [Hybrid calls are hard](/handbook/communication/#hybrid-calls-are-horrible), but occasionally the Offsite will need to take a hybrid meeting form.
 When this is the case, the EBA to the CEO will ensure that the calendar invites for the offsite sessions include Zoom links.
@@ -63,15 +65,15 @@ The EBA to the CEO will coordinate with on-site contact of the house and collabo
 1. Meals and catering
 1. Schedule including arrival time and departure times
 1. Attendee count and details
-1. Share a summarized agenda detailing when meetings are taking place, which room will be used for each meeting, and the count of people in each room. If a room will be used by the [Directs-Group](/handbook/company/team/structure/#directs-group) while they are not in the E-Group Offsite meeting, note this as well.
+1. Share a summarized agenda detailing when meetings are taking place, which room will be used for each meeting, and the count of people in each room. If a room will be used by the [Directs-Group](/handbook/company/structure/#directs-group) while they are not in the E-Group Offsite meeting, note this as well.
 
 The maximum attendees that can fit in the main room is 16, however, if additional attendees are needed in the main room, coordinate with the on-site contact to secure additional accommodations such as an extra table, chairs, etc... and share which meetings this would be needed for.
 
-AV Equiptment is stored at the house. The following items are on-site:
+AV Equipment is stored at the house. The following items are on-site:
 
 - [Logitech GROUP Video Conferencing System](https://www.logitech.com/en-us/products/video-conferencing/conference-cameras/group-conferencecam.html)
-   - This is powered by a Mac Mini using Zoom Rooms and an iPad as the controller
-   - [Logitech GROUP Expansion Mics](https://www.logitech.com/en-us/products/video-conferencing/accessories/group-expansion-mics.989-000171.html) are being ordered for future offsites, and will need to be connected at the October, 2022 E-Group Offsite
+  - This is powered by a Mac Mini using Zoom Rooms and an iPad as the controller
+  - [Logitech GROUP Expansion Mics](https://www.logitech.com/en-us/products/video-conferencing/accessories/group-expansion-mics.989-000171.html) are being ordered for future offsites, and will need to be connected at the October, 2022 E-Group Offsite
 - [Anker 655 USB-C Hub](https://www.amazon.com/dp/B09MF6TJLW?psc=1&ref=ppx_yo2ov_dt_b_product_details)
 - Additional 20' HDMI Cable
 - Power Strips
@@ -93,6 +95,7 @@ This section captures all three meeting variants.
 ### In-person offsite with Board Meeting
 
 Scheduling for the in-person event around a Board Meeting generally follows:
+
 1. First Day (Monday): Half day meetings. Start around 1pm PST. A social dinner in the evening.
 1. Second Day (Tuesday): 6-7 hours of meetings starting with breakfast at 8am. Includes some unstructured time with the team and team activities.
 1. Third Day (Wednesday): 6-7 hours of meetings starting with breakfast at 8am. Includes some unstructured time with the team. Concludes with a dinner with the Board.
@@ -110,16 +113,17 @@ Scheduling for the in-person event that is not around a Board Meeting generally 
 ### Fully remote offsite
 
 Scheduling for a fully remote offsite generally follows:
+
 1. Monday through Thursday from 8:30am-12:20pm Pacific time each day.
 
 ### Functional leaders meetings
 
  The E-Group hosts a [Functional Leaders Zoom call](#functional-leaders-meeting) in the week after the E-Group Offsite
 
-
 ## Offsite dates and times
 
 The E-Group offsite generally occurs in:
+
 - March or early April
 - June or early July
 - September or October
@@ -127,9 +131,14 @@ The E-Group offsite generally occurs in:
 
 The following date(s) have been confirmed for future E-Group offsite(s) (starting dates):
 
-- 2024-01-08
+- 2024-12-09
+- 2025-03-31
+- 2025-06-23
+- 2025-09-22
+- 2025-12-08
 
 The following dates were previous E-Group offsites (starting dates):
+
 - 2021-06-28
 - 2021-11-01
 - 2022-01-10
@@ -140,66 +149,64 @@ The following dates were previous E-Group offsites (starting dates):
 - 2023-05-03
 - 2023-06-26
 - 2023-09-27
-
-## Monthly touch point meetings
-
-We have a monthly, remote touchpoint meeting for months that falls between offsite meetings. These happen between 8:30am and 12:30pm PST. They usually happen on a Monday or Tuesday. In them, we review OKR and [Yearly progress](/handbook/company/yearlies/), discuss key business priorities, and connect on other issues of importance. [E-Group Weeklies](/handbook/e-group-weekly/) will be cancelled during this week. The agenda will be finalized 1.5 weeks in advance of these meetings by the CoS in collaboration with the CEO. The CoST and E-Group is expected to prioritize these discussions.
+- 2024-01-08
+- 2024-03-25
+- 2024-06-24
+- 2024-09-23
 
 ## Offsite topic calendar
 
 While E-Group Offsites often happen about two months in advance of Board Meetings, we reserve time to discuss upcoming Board Meeting topics during each offsite.
 
 **Q1 Offsite**
-1. E-Group Offsite Month: April
-1. Following Board Meeting Month: June
-1. Finish the review of [**Three Year Strategy**](/handbook/company/strategy/) (1 day)
+
+1. E-Group Offsite and Board Meeting Month: March
 1. Start [**Yearlies**](/handbook/company/yearlies/) (50 minutes)
+1. Start review of [**Three Year Strategy**](/handbook/company/strategy/) (0.5 day)
 1. Non-product **Engineering** review, e.g. architecture, infrastructure
-1. [**CEO Assessment** from the Board](/handbook/ceo/chief-of-staff-team/#ceo-performance-evaluation) (2x session per year, 25 min per session)
 
 **Q2 Offsite**
-1. E-Group Offsite Month: June
-1. Following Board Meeting Month: September
+
+1. E-Group Offsite and Board Meeting Month: June
 1. Review 3 to 5 year [Long Range Outlook (**LRO**)](/handbook/finance/financial-planning-and-analysis/#long-range-outlook-lro) including scenarios, capabilities and dependencies
-1. Finish [**Yearlies**](/handbook/company/yearlies/) (1.5 hrs)
+1. Finish the review of [**Three Year Strategy**](/handbook/company/strategy/) (1 day)
 1. [**Talent** assessment and succession planning](/handbook/people-group/talent-assessment/) (2x session per year, 1.5 hrs per session, ~10 mins per function). CEO Shadows and EBAs do not attend this session
+1. [Director + promotion nominations](/handbook/people-group/promotions-transfers/#promotions-to-senior-director)
 
 **Q3 Offsite**
-1. E-Group Offsite Month: October
-1. Following Board Meeting Month: December
+
+1. E-Group Offsite and Board Meeting Month: September
 1. Start [**Annual Plan**](/handbook/finance/financial-planning-and-analysis/#plan) that includes the budgets and kick off the work streams to get to a final annual plan a quarter later.
 1. Go-to-market (**GTM**) learnings
+1. Finish [**Yearlies**](/handbook/company/yearlies/) for the next year (1.5 hrs)
 1. **Org** design
-1. [**CEO Assessment** from the Board](/handbook/ceo/chief-of-staff-team/#ceo-performance-evaluation) (2x session per year, 25 min per session)
 
 **Q4 Offsite**
-1. E-Group Offsite Month: January
-1. Following Board Meeting Month: March
+
+1. E-Group Offsite and Board Meeting Month: January
 1. Final [**Annual Plan**](/handbook/finance/financial-planning-and-analysis/#plan) that includes the budgets
-1. Start review of [**Three Year Strategy**](/handbook/company/strategy/) (0.5 day)
 1. Product **Roadmap** including competitive differentiation
 1. [**Talent** assessment and succession planning](/handbook/people-group/talent-assessment/) (2x session per year, 1.5 hrs per session, ~10 mins per function). CEO Shadows and EBAs do not attend this session
+1. [Director + promotion nominations](/handbook/people-group/promotions-transfers/#promotions-to-senior-director)
 
 ### Recurring discussion topics
 
 In addition to the topics from the [Topic Calendar](#offsite-topic-calendar) above, these topics are discussed at every E-Group offsite:
 
-1. Offsite peer feedback session (10 minute prep, 3 minute sessions, 10 minute closing conversation) (50 minutes). **This always happens on the first day of the offsite before lunch**
-1. [Director+ Promotions](/handbook/people-group/promotions-transfers/#bamboohr-or-greenhouse-process) (as-needed based on number of people, estimate ~10 mins per person)
+1. Offsite peer feedback session (10 minute prep, 3 minute sessions, 10 minute closing conversation) (50 minutes). **This always happens on the first day of the offsite before lunch unless not everyone is present. If not everyone is present, this will happen within half a day of everyone being together**
+1. [Director+ Promotions](/handbook/people-group/promotions-transfers/#promotions-to-senior-director) (as-needed based on number of people, estimate ~10 mins per person)
     1. To have an efficient meeting and focus on areas that require disussion, we will not spend time discussing a candidate unless questions or concerns are raised. At that point, the E-Group sponsor for the promotion can refer to the candidate promotion case and answer questions. If an E-Group Member wants to document support for a candidate or highlight something positive about a candidate who has not been discussed, they can write a comment in the agenda and note that it is a "[won't verbalize]" item.
     1. When a new person is added to the promotion or future promotion list, the sponsorship exec should provide a summary on the person, their contributions, and any areas to be addressed in advanced of the intended promotion window
-
 1. [Content Discussion](#content-choice) (30 minutes - 1 hour)
-1. Spend prioritization discussion (50 minutes)
-1. [E-Group OKR Draft Review meeting](/handbook/company/okrs/#okr-draft-review-meeting) (50 minutes)
+1. Aligning on quarterly priorities (OKRs) (25 minutes)
 1. Review [**Yearlies**](/handbook/company/yearlies/#cadence) (25 minutes)
 
 ### Pre-offsite discussion topics
 
 These topics are discussed by E-Group before the offsite:
 
-1. Yearly and OKR progress. These will be reviewed in [monthly touch point meetings](/company/offsite/#monthly-touch-point-meetings).
-1. Planning discussions. These will be faciliated by the Finance Team. Many of them will occur during E-Group Weeklies.
+1. Yearly and OKR progress. These will be reviewed in E-Group Weeklies and [Key Reviews](/handbook/company/key-review/).
+1. Planning discussions. These will be facilitated by the Finance Team. Many of them will occur during E-Group Weeklies.
 
 ### Collaborating with EBAs on the Offsite
 
@@ -217,9 +224,10 @@ Because the Offsite is a very expensive meeting, we want to be sure we are as ef
 One of the ways we do this is by asking participants to do prep work ahead of time.
 
 Examples of prep work include:
+
 - [Reading the content that was selected](#content-choice)
 - Executives working with their People Business Partners to prep the [Performance/Potential Matrix of their direct reports](/handbook/people-group/talent-assessment/#the-performancepotential-matrix)
-- Executives working with their People Business Partners to prep any [Director + promotion nominations](/handbook/people-group/promotions-transfers/#bamboohr-or-greenhouse-process)
+- Executives working with their People Business Partners to prep any [Director + promotion nominations](/handbook/people-group/promotions-transfers/#promotions-to-senior-director)
 - Reviewing any Section Direction Materials for reviews, such as the [Growth Section's Direction](/handbook/marketing/growth/)
 - Executives propose [draft Key Results for their functions](/handbook/company/okrs/#executives-propose-okrs-for-their-functions)
 - [Watch this short clip on the danger of sticky bears]({{< ref "beware-sticky-bears" >}})
@@ -259,12 +267,14 @@ The goal is to merge it the same day, preferably within 15 minutes.
 ## Communication guidelines
 
 We have communication guidelines to enable more efficient and productive conversations:
+
 1. Encourage participation from others. We should actively encourage folks who aren't speaking much to speak--especially if we are discussing a topic that should have their direct input. This includes directly asking other folks for their opinions and allowing space for folks to join the conversation.
 1. Proactively stop conversations only involving two people if they go on for more than a few minutes and do not require engagement from the broader group. These conversations can be taken offline.
 
 ## Topic owner responsibilities
 
 If you are the person who owns a topic, you are responsible for:
+
 1. Ensuring that any pre-work is shared at least 5 days before the offsite.
 1. The conversation is being managed toward your desired outcome.
 1. Encouraging folks to stick to the agenda rather than speaking out of order.
@@ -286,6 +296,7 @@ We agreed that we'd use some chosen words to signal that we should pause and reo
 ### Break guidelines
 
 Break periods are scheduled into the agenda by the CoS to the CEO and should follow these guidelines:
+
 1. Breaks should be scheduled for 1/6 of the time (same as speedy meeting)
 1. Breaks should be a minimum of 5 minutes
 1. Going over time on any topic should result in moving the break. It does not reduce it.
@@ -306,15 +317,17 @@ Follow ups can take the form of an:
 
 ### Functional Leaders Meeting
 
-In the week following the Offsite, there is a 25-minute Zoom call before 12pm Pacific time for the [Functional Leaders Meeting](/handbook/company/team/structure/#functional-leaders). This is called the Functional Leaders Meeting.
+In the week following the Offsite, there is a 25-minute Zoom call before 12pm Pacific time for the [Functional Leaders Meeting](/handbook/company/structure/#functional-leaders). This is called the Functional Leaders Meeting.
 
 The goal of this call is to communicate:
+
 1. Strategic or visionary updates that are crucial to priorities
 1. Key decisions made
 1. Key messaging that leaders are enlisted to help distribute
 1. Action items which may need cross-functional collaboration
 
 In advance of each meeting, we will:
+
 1. Provide a summary of key topics
 1. Pick a topic with multiple view points and recap the conversation in greater detail
 
@@ -325,6 +338,7 @@ This time will not work for everyone. The meeting will be privately recorded via
 ### Functional Leaders Responsibilities after Meeting
 
 Functional Leaders play a key role in cascading what is happening in the business and communicating key implications for teams and team members. After each Functional Leaders Meeting, participating team members should:
+
 1. Identify key changes or information of greatest relevance to their teams
 1. Reach out to their manager if they have unresolved questions
 1. Recognize any sensitivities and think about how best to frame messaging to the team
@@ -337,9 +351,9 @@ This Zoom call is a separate invite.
 The EBA to the CEO is responsible for setting up the invite, the doc for the call, and inviting Functional Leaders.
 The CoS to the CEO will moderate the call.
 
-The CoS to the CEO is responsible for meeting material. The CoS to the CEO will share the meeting recap material no later than 72 business hours after the offsite concludes and at least 48 hours in advance of the mettig. Material will include an event summary and may include a highlight video message from the CEO or others. All materials will be signed off on by the Legal Team in advance of sharing.
+The CoS to the CEO is responsible for meeting material. The CoS to the CEO will share the meeting recap material no later than 72 business hours after the offsite concludes and at least 48 hours in advance of the meeting. Material will include an event summary and may include a highlight video message from the CEO or others. All materials will be signed off on by the Legal Team in advance of sharing.
 
-A version of the notes shared with Functional Leaders may be shared with all team members within 4 business days of a Functional Leader eeting. The CoST to the CEO prepares materials excluding Functional Leadering Meeting Q&A or any [material non-public information](/handbook/product/product-safe-guidance/#materially-non-public-information) and shares them in the #company-fyi-private Slack Channel. Functional Leaders are encouraged to discuss relevant information within their teams. You can think of the materials shared with all team members as a "Meeting in a Box."
+A version of the notes shared with Functional Leaders may be shared with all team members within 4 business days of a Functional Leader meeting. The Office of the CEO prepares materials excluding Functional Leaders Meeting Q&A or any [material non-public information](/handbook/product/product-processes/product-safe-guidance/#materially-non-public-information) and shares them in the #company-fyi-private Slack Channel. Functional Leaders are encouraged to discuss relevant information within their teams. You can think of the materials shared with all team members as a "Meeting in a Box."
 
 ## Content Choice
 
@@ -347,17 +361,6 @@ The offsite includes a 30 minute to 1 hour discussion on material chosen by the 
 
 We will share discussion highlights and takeaways in E-Group Offsite meeting notes that are shared with all team members. This also allows team members to engage in the conversation.
 
-Team Members may [expense](/handbook/spending-company-money/#expense-policy) E-Group offsite material in the quarter that it is discussed.
+Team Members may [expense](/handbook/finance/spending-company-money/#expense-policy) E-Group offsite material in the quarter that it is discussed.
 
 Material that the E-Group finds noteworthy should be added to the [Leadership Books](/handbook/leadership/#books).
-
-### Previous Reads
-
-- [So You want to Talk about Race](https://www.goodreads.com/book/show/35099718-so-you-want-to-talk-about-race) by Ijeoma Oluo
-- [Dare to Lead](https://www.goodreads.com/book/show/40109367-dare-to-lead) by Brené Brown
-- [Better Allies](https://www.goodreads.com/book/show/43545460-better-allies) by Karen Catlin
-- [Great at Work](https://www.goodreads.com/book/show/35297611-great-at-work) by Morten Hansen
-- [Leadership and Self-Deception](https://www.goodreads.com/book/show/180463.Leadership_and_Self_Deception) by the Arbinger Institute
-- [Crucial Conversations](https://www.goodreads.com/book/show/15014.Crucial_Conversations) by Kerry Patterson, Joseph Granny, Ron McMillan, & Al Switzler
-- [The Servant: A simple story about the true essence of leadership](https://www.goodreads.com/book/show/181736.The_Servant) by James Hunter
-- [Drive: The Surprising Truth About What Motivates Us](https://www.goodreads.com/book/show/6452796-drive) by Daniel Pink

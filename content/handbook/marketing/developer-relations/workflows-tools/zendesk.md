@@ -1,20 +1,12 @@
 ---
-
 title: "Zendesk for GitLab Developer Relations"
 ---
-
-
-
-
-
-
-  
 
 ## Developer Relations Zendesk instance
 
 ![Mentions in Zendesk](/images/handbook/marketing/developer-relations/zendesk.jpg)
 
-The Developer Relations team uses a [dedicated Zendesk instance](https://gitlab-community.zendesk.com/) to centralize the management of relevant community mentions, and to process Education Program, Open Source Program, and Startup Program applications and requests. This instance is separate from [other Zendesk instances GitLab uses](/handbook/support/readiness/operations/docs/zendesk/#instances). 
+The Developer Relations team uses a [dedicated Zendesk instance](https://gitlab-community.zendesk.com/) to centralize the management of relevant community mentions, and to process Education Program, Open Source Program, and Startup Program applications and requests. This instance is separate from [other Zendesk instances GitLab uses](/handbook/support/readiness/operations/docs/zendesk/#instances).
 
 The majority of cases in Zendesk are routed there via [Zapier automation](/handbook/marketing/developer-relations/workflows-tools/zapier/), or a native Zendesk integration.
 
@@ -24,7 +16,7 @@ Each case is then converted into a Zendesk ticket and filtered into a [View](#ze
 
 After [a discussion with the GitLab Support team](https://gitlab.com/gitlab-com/support/support-team-meta/issues/1583), it was concluded that for the specific Developer Relations workflows and metrics it would be best to keep the [Developer Relations Zendesk instance](https://gitlab-community.zendesk.com/) separate from the [Support team's Zendesk instance](https://support.gitlab.com).
 
-The Developer Relations instance runs on a [Professional Zendesk Support](https://www.zendesk.com/product/pricing/#support_pricing) subscription, with one _Agent_ seat per Developer Relations team member, plus extra seats for the team manager and collaborators. Additionally, the [Collaboration Add-on](https://support.zendesk.com/hc/en-us/articles/203662036-Understanding-and-setting-light-agent-permissions-Collaboration-Add-on-) provides us extra seats for _Light Agents_ with read-only access to tickets.
+The Developer Relations instance runs on a [Professional Zendesk Support](https://www.zendesk.com/product/pricing/#support_pricing) subscription, with one _Agent_ seat per Developer Relations team member, plus extra seats for the team manager and collaborators. Additionally, the [Collaboration Add-on](https://support.zendesk.com/hc/en-us/articles/4408846501402-Understanding-and-setting-light-agent-permissions) provides us extra seats for _Light Agents_ with read-only access to tickets.
 
 #### Adding new agent seats to existing subscription
 
@@ -44,7 +36,7 @@ After the initial contact and agreeing to the subscription plan update:
 
 ### Zendesk access
 
-Zendesk access is provided during onboarding for members of the Developer Relations team when needed. Access as an Agent (read/write access to tickets) or a Light Agent (read-only access to tickets) can also be provided for other team members using the [access request](/handbook/business-technology/team-member-enablement/onboarding-access-requests/access-requests/#individual-or-bulk-access-request) process if needed.
+Zendesk access is provided during onboarding for members of the Developer Relations team when needed. Access as an Agent (read/write access to tickets) or a Light Agent (read-only access to tickets) can also be provided for other team members using the [access request](/handbook/it/end-user-services/onboarding-access-requests/access-requests/#individual-or-bulk-access-request) process if needed.
 
 Once access is set up:
 
@@ -90,7 +82,7 @@ To deprovision (remove agent status):
 
 ![Views in Zendesk](/images/handbook/marketing/developer-relations/zendesk-views.jpg)
 
-There is a [limit on the number of views](https://support.zendesk.com/hc/en-us/articles/231732128) that can be displayed on the main "Views" panel on Zendesk, regardless of the type of subscription:
+There is a [limit on the number of views](https://support.zendesk.com/hc/en-us/articles/4408893247002-Can-I-display-all-my-personal-ticket-views) that can be displayed on the main "Views" panel on Zendesk, regardless of the type of subscription:
 
 - 12 shared views
 - 8 personal views
@@ -295,8 +287,8 @@ There are instances where it is necessary to change the email address of the rec
    1. Select `End User` as the role
    1. Click `Add`
 
-![Change recipient step 4b](/images/handbook/marketing/developer-relations/zendesk-emails/recipient-4b.png)
-![Change recipient step 4a](/images/handbook/marketing/developer-relations/zendesk-emails/recipient-4a.png)
+   ![Change recipient step 4b](/images/handbook/marketing/developer-relations/zendesk-emails/recipient-4b.png)
+   ![Change recipient step 4a](/images/handbook/marketing/developer-relations/zendesk-emails/recipient-4a.png)
 
 5. If the email has been successfully changed, the new recipient will show up at the top of the ticket.
    ![Change recipient step 5](/images/handbook/marketing/developer-relations/zendesk-emails/recipient-5.png)
