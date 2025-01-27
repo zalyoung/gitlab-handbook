@@ -3,7 +3,6 @@
 
 | Date       | Host                 | Speaker 1              | Speaker 2              | Speaker 3              |
 |------------|----------------------|------------------------|------------------------|------------------------|
-| 2025-01-22 | Andy Volpe           | Chad Lavimoniere       | Amelia Bauerly         |                        |
 | 2025-02-05 | Chris Micek          | Taylor Vanderhelm      | Libor Vanc             |                        |
 | 2025-02-19 | Paul Wright          |                        | Ilonah Pelaez          |                        |
 | 2025-03-05 | Marcel van Remmerden | Jeremy Elder           | Pedro Moreira da Silva | Becka Lippert          |
