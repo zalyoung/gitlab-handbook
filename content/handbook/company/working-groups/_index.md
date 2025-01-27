@@ -195,7 +195,6 @@ If you are unable to attend the existing working group meeting due to time diffe
 1. [Product Accessibility]({{< ref "product-accessibility" >}})
 1. [Python Stewardship]({{< ref "python-stewardship" >}})
 1. [Secure Govern Database Decomposition]({{< ref "secure-govern-database-decomposition" >}})
-1. [Software Supply Chain Security]({{< ref "software-supply-chain-security" >}})
 1. [Upgrade Improvements]({{< ref "upgrade-improvements" >}})
 
 ## Past Working Groups (alphabetic order)
@@ -287,6 +286,7 @@ If you are unable to attend the existing working group meeting due to time diffe
 1. Shift LAM to Primary Metric
 1. [Simplify Groups & Projects]({{< ref "simplify-groups-and-projects" >}})
 1. [Single Codebase]({{< ref "single-codebase" >}})
+1. [Software Supply Chain Security]({{< ref "software-supply-chain-security" >}})
 1. [SOX PMO]({{< ref "sox" >}})
 1. [Talent Acquisition SSOT]({{< ref "recruiting-ssot" >}})
 1. [TeamOps Sales and Marketing Group]({{< ref "teamops-sales-marketing" >}})
