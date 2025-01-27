@@ -74,6 +74,7 @@ Epics to track the above work are still being created, along with the necessary 
 With the [Sec section realignment](https://gitlab.com/gitlab-com/sec-sub-department/meta/-/issues/1) the Govern stage was renamed to the Software Supply Chain Security Stage. With this change we are closing this working group and distributing the work to individual groups to own.
 
 What we acheived:
+
 1. Added [GitLab.com as an OIDC provider for Cosign](https://gitlab.com/groups/gitlab-org/-/epics/10254)
 1. Released a [User Experience for Signed Container Registry Images](https://gitlab.com/groups/gitlab-org/-/epics/7856)
 1. Added dcouemntation on how to [Use Sigstore for keyless signing and verification](https://docs.gitlab.com/ee/ci/yaml/signing_examples.html)
