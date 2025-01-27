@@ -200,8 +200,6 @@ FY25-Q1 Stage-level Objectives all closed out between 74% and 88% and are availa
 #### Drafting OKRs using GitLab
 
 Guidance is available, including a video guide, on [Approach to OKRs at GitLab](/handbook/company/okrs/).
-- breaking things on purpose to see the linter results 
-
 GitLab currently offers some freedom in how to structure OKR hierarchies. We take the following approach in Plan:
 
 - EMs are encouraged to create group-level KRs under stage-level Objectives directly, without creating their own OKR structure.
