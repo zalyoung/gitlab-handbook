@@ -133,11 +133,11 @@ Our team has a few weekly events that we use to stay connected and aligned on ou
 
 ### <i class="fa fa-calendar fa-fw color-orange font-awesome"></i> Our calendars
 
-We use team-wide calendars for collective notification and to manage team logistics and events. Additionally, specific teams within Developer Relations may maintain calendars specific to their programs (such as the [Developer Advocate team calendar](/handbook/marketing/developer-relations/developer-advocacy/#-team-calendar)).
+We use team-wide calendars for collective notification and to manage team logistics and events. Additionally, specific teams within Developer Relations may maintain calendars specific to their programs (such as the Developer Advocacy team calendar).
 
 - [Developer Relations Team](https://calendar.google.com/calendar/u/0?cid=Y190M2JhY2k5MnFoYnJmYTMyMDdpZHZwdnYwMEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t)
 - [Community Events](https://calendar.google.com/calendar/b/1?cid=Z2l0bGFiLmNvbV85MHQ1dWUxcThrYmpvcTViMHI5MW51N3J2Y0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t)
-- [Developer Advocate Team](/handbook/marketing/developer-relations/developer-advocacy/#-calendar)
+- [Developer Advocacy Team](https://calendar.google.com/calendar/u/0?cid=Y183OTMwZmNiMGM5ZTQ3ODNiZGQzZDIzODU4YWU5YWY0MzA2ZjI4ZDk3NmE0MGM4MzNmNTA3MTBjN2NiODZiYTgyQGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20)
 
 ### Developer Relations OKRs
 
@@ -170,7 +170,7 @@ For each quarterly objective and key results, the Developer Relations team will 
 
 To update our [list of current OKRs](https://gitlab.com/gitlab-com/gitlab-OKRs/-/issues/?sort=updated_desc&state=opened&label_name%5B%5D=division%3A%3AMarketing&label_name%5B%5D=OKR&label_name%5B%5D=Department%3A%3ADeveloper%20Relations&first_page_size=20):
 
-1. Follow the [OKRs in GitLab handbook](/handbook/company/okrs/#how-to-use-gitlab-for-okrs)
+1. Follow the [OKRs in GitLab handbook](/handbook/company/okrs/okrs-in-gitlab/)
 1. Create OKRs, and KR items.
 1. Add the following labels: `Division::Marketing`, `Department::Developer Relations`, `OKR`.
 
