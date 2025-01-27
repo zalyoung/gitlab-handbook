@@ -52,10 +52,10 @@ If you still need help, please file an issue [here](https://gitlab.com/gitlab-co
 
 NOTE: Gitaly is working on second-tier [on-call coverage](#gitaly-oncall-rotation) for well-defined emergencies only. This is not enabled yet; the start date is 2025-02-03.
 
-Please do not page oncall outside of these cases; contact Support instead!
+Please do not ping oncall outside of these cases; contact Support instead!
 
-- For **production incidents only**, SRE or IMOC on-call can page the current [Gitaly oncall](#gitaly-oncall-rotation) manually.
-- For **customer emergencies**, Support engineers and managers can page the current [Gitaly oncall](#gitaly-oncall-rotation) manually.
+- For **production incidents only**, SRE or IMOC on-call can ping the current [Gitaly oncall](#gitaly-oncall-rotation) manually.
+- For **customer emergencies**, Support engineers and managers can ping the current [Gitaly oncall](#gitaly-oncall-rotation) manually.
 - If you're working on a customer emergency but not part of Support, please contact Support instead.
 
 For these cases, use `/pd trigger` on Slack, then select the Gitaly rotation. For all other cases please file an issue under [Customer issues](#customer-issues).
@@ -114,11 +114,16 @@ and replaces the **Incident Manager On-Call (IMOC)** and **Engineer On-Call
   - You can choose to take time in lieu via Workday, selecting `the On-Call Time in Lieu` option after a shift.
 - Gitaly team members are expected to provide technical assistance for ONLY the cases described in [Urgent issues and outages](#urgent-issues-and-outages)
   - There is no intention to trigger this rotation directly from monitoring at this time.
-  - All contact **must** follow the process described in [How to contact the team](#how-to-contact-the-team) above, including who and why can page.
+  - All contact **must** follow the process described in [How to contact the team](#how-to-contact-the-team) above, including who and why can ping.
 - Team members provide 15 minutes response time while oncall.
   - The team member on-call is expected to be _available and reachable_ (but not necessarily actively working, as long as you can start the investigation within this SLO.)
-  - If paged less than 15 minutes before the end of a shift, you still must respond and explicitly hand off the incident.
+  - If pinged less than 15 minutes before the end of a shift, you still must respond and explicitly hand off the incident.
 - Ongoing production incidents and customer escalations are explicitly handed off by the person leaving shift to the next Gitaly oncall using the incident channel on Slack.
+
+#### How to contact
+
+You can reach the Gitaly on-call engineer by using the @gitaly-oncall Slack
+handle.
 
 #### Training material
 
