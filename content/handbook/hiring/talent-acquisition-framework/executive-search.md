@@ -13,7 +13,6 @@ The executive search team is responsible for leading the talent acquisition proc
 
 ## Team Members
 
-- Rich Kahn - Director, Executive Search
 - Sruthy Menon - Senior Candidate Experience Specialist
 
 ## Executive Search DRIs
