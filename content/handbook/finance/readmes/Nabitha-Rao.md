@@ -4,8 +4,8 @@ description: "Learn more about working with Nabitha Rao, VP IT EntApps"
 ---
 ## Why I'm at GitLab
 
-**Our Product** GitLab is a leading all-in-one DevSecOps platform, empowering organizations to thrive in a $40B market by providing end-to-end solutions and driving innovation in a world where software is foundational to every business.
-**Our Company** I thrive in high-growth environments, where I can help transform a fast-moving, dynamic organization into a well-structured, enterprise-scale powerhouse. Driving order, building scalability, and enabling sustainable success is where I excel. Additionally, our global all-remote culture embodies the future of work. GitLab is a true case study that proves remote work isn’t just possible—it’s a competitive advantage. I’m inspired to be part of a journey where every contribution builds to something bigger, better, and impactful.
+1. **Our Product** GitLab is a leading all-in-one DevSecOps platform, empowering organizations to thrive in a $40B market by providing end-to-end solutions and driving innovation in a world where software is foundational to every business.
+1. **Our Company** I thrive in high-growth environments, where I can help transform a fast-moving, dynamic organization into a well-structured, enterprise-scale powerhouse. Driving order, building scalability, and enabling sustainable success is where I excel. Additionally, our global all-remote culture embodies the future of work. GitLab is a true case study that proves remote work isn’t just possible—it’s a competitive advantage. I’m inspired to be part of a journey where every contribution builds to something bigger, better, and impactful.
 
 ## My Personal Values
 
