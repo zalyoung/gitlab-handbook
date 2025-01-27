@@ -73,8 +73,8 @@ flowchart TB
     end
 
     subgraph GraphQL
-        contribution_analytics["ContributionMetadataType\n(Group Contribution Analytics)"]
-        value_stream["ValueStreamDashboard\n(CountType)"]
+        contribution_analytics["ContributionAnalyticsContribution\n(Group Contribution Analytics)"]
+        value_stream["ValueStreamDashboardCount"]
     end
 
     user_actions -->|EventCreateService| events_table_pg
@@ -90,12 +90,13 @@ flowchart TB
 ```mermaid
 flowchart TB
     subgraph Postgres
-      AI_events_tables_PG
+      ai_code_suggestion_events
     end
     subgraph ClickHouse
-      AI_events_tables_CH
-      AI_metrics_views
-      Contributions_views
+      code_suggestion_usages
+      duo_chat_events
+      duo_chat_daily_events_mv
+      code_suggestion_daily_usages_mv
     end
     subgraph GraphQL
       aiMetrics
@@ -103,20 +104,21 @@ flowchart TB
       aiUsageData
     end
     subgraph Redis
-      Buffer1
-      Buffer2
+      Ai::UsageEventWriteBuffer
+      ClickHouse::WriteBuffer
     end
     user_IDE-->|/usage_data/track_events|REST_API
-    REST_API-->Buffer1
-    REST_API-->Buffer2
-    Buffer1-->|sync every 5min|AI_events_tables_PG
-    Buffer2-->|sync every 5min|AI_events_tables_CH
-    AI_events_tables_CH --> AI_metrics_views
-    AI_events_tables_PG --> aiUsageData
-    AI_metrics_views --> aiMetrics
-    AI_metrics_views --> aiUserMetrics
-    Contributions_views --> aiMetrics
-    Contributions_views --> aiUserMetrics
+    REST_API-->Ai::UsageEventWriteBuffer
+    REST_API-->ClickHouse::WriteBuffer
+    Ai::UsageEventWriteBuffer-->|sync every 5min|ai_code_suggestion_events
+    ClickHouse::WriteBuffer-->|sync every 5min|code_suggestion_usages
+    ClickHouse::WriteBuffer-->|sync every 5min|duo_chat_events
+    duo_chat_events --> duo_chat_daily_events_mv
+    code_suggestion_usages --> code_suggestion_daily_usages_mv
+    ai_code_suggestion_events --> aiUsageData
+    duo_chat_daily_events_mv --> aiMetrics
+    code_suggestion_daily_usages_mv --> aiMetrics
+    code_suggestion_daily_usages_mv --> aiUserMetrics
 ```
 
 #### Organizing the work
