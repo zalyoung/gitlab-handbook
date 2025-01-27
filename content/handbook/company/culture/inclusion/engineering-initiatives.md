@@ -5,7 +5,7 @@ description: "Learn more about GitLab Diversity, Inclusion & Belonging Engineeri
 
 This page is in [draft](/handbook/values/#everything-is-in-draft). We are working to build out this page and gather all the running initiatives/partnerships in Engineering.
 
-# Engineering Inclusion and Accessibility Initiatives
+## Engineering Inclusion and Accessibility Initiatives
 
 At GitLab, Diversity, Inclusion & Belonging is infused into our company culture, from our [values](/handbook/values/) to our [all-remote way of working](/handbook/company/culture/all-remote/).
 Engineering partners closely with our [Diversity, Inclusion & Belonging](/handbook/company/culture/inclusion/) team to ensure we're building a diverse and inclusive workforce around the globe as the company continues to grow. 
