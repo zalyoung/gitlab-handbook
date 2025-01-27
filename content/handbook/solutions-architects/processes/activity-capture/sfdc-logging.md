@@ -53,25 +53,56 @@ Solutions Architects are responsible for maintaining several key fields in Sales
 1. **SA Feasibility Rating**
 
    - A technical health assessment of the opportunity using a simple rating:
-     - Green: Strong technical fit and alignment
-     - Yellow: Some concerns or challenges to address
-     - Red: Significant technical challenges or misalignment
+     - Green: Strong technical fit and alignment.  Technical aspects well-understood, resources adequate, deal on track.
+     - Yellow: Some concerns or challenges to address. Includes minor technical hurdles, scope creep, or potential resource constraints.
+     - Red: Significant technical challenges, misalignment, unclear requirements, or insufficient resources.
    - Required for accurate opportunity health tracking
-   - Drives technical forecasting accuracy
+   - Facilitates deal reviews and pipeline analysis
+   - For opportunities without SA engagement the following logic is to be applied with mandatory explanation in **SA Feasibility Details**:
+      - Green: Not engaged, and not required (e.g., simple add-ons)
+      - Yellow: Not engaged yet and don't know enough 
+      - Red: Not engaged at all but should have been
 
 2. **SA Feasibility Details**
 
    - Detailed commentary explaining the Feasibility Rating
-   - Should include specific technical challenges or risks
-   - Used to provide context for the rating
-   - Helps align Sales and Pre-Sales understanding
+   - Include specific technical challenges and risks
+   - Provides context for Sales and Pre-Sales alignment
+   - Not to be used for:
+      - Technical evaluation status (use **SA Validated Tech Evaluation Close Status** and **SA Validated Tech Evaluation Close Details**)
+      - Activity logging (use [Activity Based Logging Guide](/handbook/solutions-architects/processes/activity-capture/activity-logging))
+      - Next steps or mitigation plans (use **SA Next Steps**)
 
 3. **SA Feasibility Review Date**
 
-   - Automatically updates when Feasibility Rating or Details change
+   - Updates automatically when Feasibility Rating or Details change
    - Shows when the last technical review occurred
    - Helps ensure assessments stay current
-   - No manual updates required - system maintained
+   - System-maintained, no manual updates needed
+
+### Activity Planning Fields
+
+1. **SA Next Steps**
+
+   - Planned SA activities to drive deal forward with target dates
+   - Functions as daily to-do and follow-up list
+   - Examples include demonstrations, value stream workshops, hands-on workshops, proofs of value, etc. 
+   - Track progress through technical evaluation
+   - Must be updated after each customer interaction
+   - Empty/outdated field signals inactive opportunity, and lack of activities
+   - Do NOT use as a log of past activities (use [Activity Based Logging Guide](/handbook/solutions-architects/processes/activity-capture/activity-logging))
+
+2. **SA Next Steps Date**
+
+   - Date if first planned activitiy in **SA Next Steps**
+   - Enables daily to-do list extraction
+   - Indicates when **SA Next Steps** needs updating
+
+3. **SA Next Steps History**
+
+   - Auto-updates with **SA Next Steps** changes
+   - Keeps track of historical changes
+   - System-maintained, no manual updates needed
 
 ### Related Fields
 
