@@ -93,7 +93,7 @@ The high-level proposal is as follows:
    `config/secrets.yml`, and restart GitLab. In multi-nodes installations, the new key deployment should happen in two
    phases: First add the key at the head of the keys array and for it to be deployed everywhere; then move the key to
    the tail of the keys array and start a new deployment.
-1. Once deployed, the new key becomes the currenty encryption key.
+1. Once deployed, the new key becomes the current encryption key.
 1. The decryption process uses the key that was used to encrypt the data.
    In the case the encryption key ID isn't stored alongside the encrypted data, the decryption process tries
    each key (in the order they appear in the key arrays), until it can decrypt the data.
