@@ -109,7 +109,6 @@ Each PSP must be:
 
 - Each PSP will be required to have submitted at least 8 Service Attach Registrations over the previous 12 months at their annual audit(s).  If during the previous 12 months, the partner was engaged in a longer-term, multi-phase project, they may meet the service attach requirements with fewer registrations.
 
-
 #### GitLab PSP Designation Information
 
 - The GitLab Partner team will communicate new PSP designations through email and will reflect the designation in the GitLab Partner Locator.
