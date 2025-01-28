@@ -248,13 +248,13 @@ For detailed instructions on activity logging through Rattle, see [Activity Base
 - Don't backdate unless absolutely necessary
 - Keep current even if opportunity is early stage
 
-1. **Accuracy**
+2. **Accuracy**
 
 - Be precise with dates
 - Use clear, concise descriptions
 - Maintain consistency across opportunities
 
-1. **Completeness**
+3. **Completeness**
 
 - Fill all required fields
 - Don't leave fields blank or TBD
@@ -268,13 +268,13 @@ For detailed instructions on activity logging through Rattle, see [Activity Base
 - Others tracked through activity logging
 - Clear handoff process when changing Primary SA
 
-1. **Stalled Evaluations**
+2. **Stalled Evaluations**
 
 - Mark as stalled after 2 weeks of inactivity
 - Update status if evaluation resumes
 - Document reason in close details
 
-1. **Commercial Trials**
+3. **Commercial Trials**
 
 - Align with trial dates
 - Must have SA engagement
