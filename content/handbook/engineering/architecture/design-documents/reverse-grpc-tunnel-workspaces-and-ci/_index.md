@@ -77,7 +77,7 @@ exclusive with
 [ongoing work to change the way our SSH proxy works](https://gitlab.com/groups/gitlab-org/-/epics/13984)
 as this network tunnel could be used for websocket-based SSH tunneling.
 
-![reverse gRPC tunnel into Workspaces](/images/handbook/engineering/architecture/design-documents/reverse-grpc-tunnel-web-ide/workspace-grpc-tunnel.png)
+![reverse gRPC tunnel into Workspaces](/images/handbook/engineering/architecture/design-documents/reverse-grpc-tunnel-workspaces-and-ci/workspace-grpc-tunnel.png)
 
 This idea was demonstrated in this
 [video demo](https://youtu.be/hw5gExP_gvA) which is composed of
@@ -87,7 +87,7 @@ POC changes in the following merge requests:
 1. https://gitlab.com/gitlab-org/cluster-integration/gitlab-agent/-/merge_requests/2084
 1. https://gitlab.com/gitlab-org/workspaces/gitlab-workspaces-tools/-/merge_requests/19
 
-![reverse gRPC tunnel into CI](/images/handbook/engineering/architecture/design-documents/reverse-grpc-tunnel-web-ide/workspace-tunnel-and-ci.png)
+![reverse gRPC tunnel into CI](/images/handbook/engineering/architecture/design-documents/reverse-grpc-tunnel-workspaces-and-ci/workspace-tunnel-and-ci.png)
 
 This idea was demonstrated in this
 [video demo](https://www.youtube.com/watch?v=m4VaLLg_Ipk) which is composed of
