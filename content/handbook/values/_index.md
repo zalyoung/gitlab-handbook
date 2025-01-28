@@ -471,7 +471,7 @@ For example, sales is hard because you are dependent on another organization, an
 
 ##### Self-service and self-learning
 
-Team members should first [search for their own answers](/handbook/company/culture/all-remote/self-service/) and, if an answer is not readily found or the answer is not clear, ask in public as we all should have a [low level of shame](#low-level-of-shame). [Write down any new information discovered](#write-things-down) and pay it forward so that those coming after will have better efficiency built on top of practicing collaboration, inclusion, and documenting the results.
+Team members should first [search for their own answers](/handbook/company/culture/all-remote/self-service/) and, if an answer is not readily found or the answer is not clear, ask in public as we all should have a [low level of shame](#low-level-of-shame-when-dogfooding). [Write down any new information discovered](#write-things-down) and pay it forward so that those coming after will have better efficiency built on top of practicing collaboration, inclusion, and documenting the results.
 
 Team members have more room to grow themselves when they are able to self-service and self-learn.
 
