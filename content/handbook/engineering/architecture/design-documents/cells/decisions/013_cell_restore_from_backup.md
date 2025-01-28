@@ -13,7 +13,7 @@ We discussed in [this epic](https://gitlab.com/groups/gitlab-org/-/epics/16339#n
 It was decided that for Cells 1.0:
 
 1. We will prioritize restoring into a new Cell rather than restoring in-place in an existing Cell.
-1. When restoring a Cell, the recovered Cell will use the same Cell ID as the original Cell or initially have an unassigned Cell ID.
+1. When restoring a Cell, the recovered Cell will use the same Cell ID as the original Cell.
 1. When restoring a Cell, the recovered Cell will have a different and unique Tenant ID.
 1. If a recovered Cell will need to become permanent, an update will be made in the Topology service to update the address for the existing Cell ID, to point to the new Tenant.
 
@@ -24,6 +24,7 @@ There will be two modes of Cell restoration:
    1. Register the recovered cell with the topology service with the new address.
 1. If the recovered cell will be used for validating restore:
    1. Provision the recovered Cell with the same or unset Cell ID and a different Tenant ID.
+   1. Don't add the recovered Cell to the topology service; it can't be assigned [sequence ID](../topology_service.md#sequence-service) or [Claims](#claim-service).
    1. Validate the recovered Cell by connecting to it directly, bypassing the routing.
    1. Tear down the recovered Cell.
 
@@ -40,4 +41,5 @@ There will be two modes of Cell restoration:
 1. Restore affected components in place.
    We decided to de-prioritize this approach as it doesn't allow for easy validation in Production of restore procedures.
 2. Assign a new Cell ID to the recovered Cell.
-   Because the recovered Cell may take over as the new Cell for routing purposes, we want to keep the Cell ID the same for the situation where we the recovered Cell will be permanent.
+   Because the recovered Cell may be the replacement for an existing Cell. For routing purposes, we want to keep the Cell ID the same.
+   If Cell ID changes, we would need to re-write multiple claims in Topology Service making the recovery process slower and more compute intensive.
