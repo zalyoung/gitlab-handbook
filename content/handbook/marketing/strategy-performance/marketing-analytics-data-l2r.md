@@ -34,7 +34,7 @@ The Lead to Revenue report is the consolidation of the major lifecycle objects/m
 ### Data Lineage
 
 1. Data is sourced from SFDC
-1. The full lineage can be seen [here](https://dbt.gitlabdata.com/#!/model/model.gitlab_snowflake.rpt_lead_to_revenue?g_v=1&g_i=%rpt_lead_to_revenue%2B)
+1. The full lineage can be seen [here](https://dbt.gitlabdata.com/#!/model/model.gitlab_snowflake.rpt_lead_to_revenue?g_v=1&g_i=\%rpt_lead_to_revenue%2B)
 
 ### DBT Solution
 
@@ -81,7 +81,7 @@ L2R is the base table of Campaign reporting at GitLab. It combines touchpoints a
 ### Data Lineage
 
 1. Data is sourced from SFDC and L2R
-1. The full lineage can be seen [here](https://dbt.gitlabdata.com/#!/model/model.gitlab_snowflake.rpt_l2r_campaign_interactions?g_v=1&g_i=%rpt_l2r_campaign_interactions%2B)
+1. The full lineage can be seen [here](https://dbt.gitlabdata.com/#!/model/model.gitlab_snowflake.rpt_l2r_campaign_interactions?g_v=1&g_i=\%rpt_l2r_campaign_interactions%2B)
 
 | Field                                       | Business Logic   |
 |---------------------------------------------|------------------|
@@ -127,7 +127,7 @@ L2R is the base table of Customer-specific Campaign reporting at GitLab. It comb
 ### Data Lineage
 
 1. Data is sourced from SFDC
-1. The full lineage can be seen [here](https://dbt.gitlabdata.com/#!/model/model.gitlab_snowflake.rpt_l2r_campaign_interactions_paid_account?g_v=1&g_i=%2Brpt_l2r_campaign_interactions_paid_account%2B)
+1. The full lineage can be seen [here](https://dbt.gitlabdata.com/#!/model/model.gitlab_snowflake.rpt_l2r_campaign_interactions_paid_account?g_v=1&g_i=\%2Brpt_l2r_campaign_interactions_paid_account%2B)
 
 ### DBT Solution
 
@@ -168,7 +168,7 @@ Tableau-specific table that joins Zuora, Opportunity, and Lead To Revenue data t
 ### Data Lineage
 
 1. Data is sourced from SFDC
-1. The full lineage can be seen [here](https://dbt.gitlabdata.com/#!/model/model.gitlab_snowflake.rpt_l2r_community_data?g_v=1&g_i=%2Brpt_l2r_community_data%2B)
+1. The full lineage can be seen [here](https://dbt.gitlabdata.com/#!/model/model.gitlab_snowflake.rpt_l2r_community_data?g_v=1&g_i=\%2Brpt_l2r_community_data%2B)
 
 ### DBT Solution
 
