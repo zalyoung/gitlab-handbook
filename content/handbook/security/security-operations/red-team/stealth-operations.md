@@ -2,7 +2,9 @@
 title: "Red Team Stealth Operations"
 ---
 
-Stealth operations is our most significant offering, providing GitLab an opportunity to practice responding to real-world attacks.
+Stealth operations is our most significant offering, providing GitLab an opportunity to practice responding to real-world attacks. We use stealth operations to emulate threats most likely to target GitLab, our platform, and our customers. This focused approach sharpens our defenses and keeps us ahead of potential attacks.
+
+
 
 ## Who is involved?
 
@@ -14,6 +16,8 @@ Stealth operations can vary in format and length. Some follow a more defined cyc
 
 ## What happens during a stealth operation?
 
-All our stealth operations emulate threats most likely to target GitLab, our platform, and our customers. This focused approach sharpens our defenses and keeps us ahead of potential attacks.
-
 Stealth operations require [special rules](rules-of-engagement#stealth-operations). Examples of techniques we may use and those we will specifically avoid can be found in [Stealth Operation Techniques](rules-of-engagement#stealth-operation-techniques).
+
+## What happens after?
+
+We release a [report](how-we-operate/#reporting) which summarises the entire operation and our recommendations, suitable for a broad audience.

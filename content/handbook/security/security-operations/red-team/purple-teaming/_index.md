@@ -20,7 +20,7 @@ At a high level, the goals of an operation generally fall into one of the follow
 
 ### Flash Operations
 
-These are very short.
+These are very short (1-2 weeks) and start with the identification of a relevant threat. Generally we'll schedule a call or relevant 
 
 ### Longer-term collaborations
 
