@@ -733,7 +733,7 @@ The succession planning process might vary slightly for different areas of the b
 |[High Performing Team Indicators](/https://internal.gitlab.com/handbook/company/high-performing-teams/?search=values#high-performing-teams-indicators) | We’ve broken down each characteristic of high performance to help you recognize and measure success.|
 |[Remote work competencies](/handbook/people-group/competencies/#remote-work-competencies) | Remote work competencies form an important part of the Performance Factor evaluation and are important to review prior to beginning the assessment period. |
 | [Functional competencies](/handbook/people-group/competencies/#functional-competencies) | Functional competencies (for groups that have them developed) can also influence the Performance Factor and should be reviewed prior to the assessment period. |
-| [Unconscious Bias](/handbook/company/culture/inclusion/unconscious-bias/) handbook page and [Recognizing Bias Training](/handbook/company/culture/inclusion/unconscious-bias/#recognizing-bias-training) | It is important to me mindful of unconscious bias always, and especially during talent reviews and assessments. It is highly recommended that you review the handbook page and watch the training. |
+|  | It is important to me mindful of unconscious bias always, and especially during talent reviews and assessments. It is highly recommended that you review the handbook page and watch the training. |
 | [Performance Factor](/handbook/total-rewards/compensation/compensation-review-cycle/#performance-factor) handbook page | This page is the SSOT to review the Performance Factor's impact on compensation. |
 
 ## Key Talent
