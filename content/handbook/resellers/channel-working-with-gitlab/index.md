@@ -130,7 +130,7 @@ The Operational Process:
 
 In order to receive their rebate, Partners must submit reasonable information and documentation proving that the services meet both program guidelines and customer needs. Per Step #4, Partners need to email an executed Statement of Work (SOW) within six (6) months of opportunity close date to partnersupport@gitlab.com for delivery of services. The SOW must include customer confirmation of the services, the services meet/met the guidelines as outlined in the current program guidance (found in the Partner Portal) for the incentive, confirm the dates of the project and include customer signature. Only one (1) Services Attach Reg can be approved per opportunity. SOWs must be approved by GitLab Ecosystem Specialists. 
 
-For the avoidance of doubt, GitLab subcontracted Professional Services and MSP deals do not apply and will not be approved. Services must be connected to our software (e.g., SOW mentiones GitLab). 
+For the avoidance of doubt, GitLab subcontracted Professional Services and MSP deals do not apply and will not be approved. Services must be connected to our software (e.g., SOW mentions GitLab). 
 
 The following services are **In Scope**: Implementation, Integration, Optimization, Migration, Security/Compliance, Adoption, Assessment
 
