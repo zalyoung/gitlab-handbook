@@ -13,7 +13,7 @@ To log in select the ModernLoop tile in Okta and use SSO.
 
 You can also download the [ModernLoop Chrome extension](https://chromewebstore.google.com/detail/modernloop-extension/bdljmpplpbibfkejhafjkngnhkenpnoi)
 
-## How to schedule 1:1 via ModernLoop
+## How to schedule via ModernLoop
 
 - Go to 'My Tasks' using the task bar on the left 
 - In the 'Action required' bucket, click on the candiadte who has the label 'ready to Schedule'
@@ -22,11 +22,11 @@ You can also download the [ModernLoop Chrome extension](https://chromewebstore.g
 - ModernLoop will create a list of interview options.  To see an interviewers calendar you can click on the interviewer or the 'view' option on the top right of the card. 
 - To select a schedule option click on 'use schedule'on the top right corner of the option card. 
 - The location will be automatically selected as Zoom and a zoom room selected. 
-- The calendaers are 'Candidate Interview CAlendar' for candidate events and 'Interview calendar' for Internal events. 
+- The calenders are 'Candidate Interview Calendar' for candidate events and 'Interview calendar' for Internal events. 
 - Select the Email to canditate template from dropdown list. 
 - If the interview requires a brief, you can include this by selecting 'Add attachment'
 - For the interviewer invite, select the correct template from the dropdown list 
-- Review all details and then press 'Confrim and send' 
+- Review all details and then press 'Confirm and send' 
 - If you only wish to send the invites to the interviewers before sending the candidate invite, select 'Send internal only'.  This will send the interviewer invites and move the candidate into the Pending section of My tasks.  When you wish to send the candidate invite you can go into the candidate profile and click 'finish and Send'. 
 
 ## How to add or replace an interviewer for a scheduled interview
@@ -44,7 +44,7 @@ To set up a module take the following steps:
 
 - Go to Modules on the task bar on the left 
 - Click on 'New Module'
-- Give the Module a name, select the training plan (typically 2 shadowa and one reverse shadow), and select role-by-role, then create 
+- Give the Module a name, select the training plan (typically 2 shadow and one reverse shadow), and select role-by-role, then create 
 - Click on add interviewers and then type in the names of the Trained interviewers for the module.  Then select fully trained and the interviewers will be added to the module. 
 - To add the trainees click on 'Add interviewers' in the top right corner.  Type in the names of the trainee interviewers and then select 'Trainee'
 
