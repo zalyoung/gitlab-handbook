@@ -704,9 +704,11 @@ Review the steps below to process a Service Attached Registration for an applica
 - No exceptions will be granted for Services Attached Registration submitted in a given quarter without an executes SOW.
 
 ### Status of Services Attached Registration
+
 **Pending:** If SOW/POE has not been submitted
 
 **Pending Opportunity Closure:** If SOW/POE is submitted and approved but review date is prior to opportunity close won date and/or opportunity is open
+
 - SOW is approved on Dec 13, opportunity close won date is Dec 15
 - Move to approved on Dec 15
 
@@ -715,8 +717,6 @@ Review the steps below to process a Service Attached Registration for an applica
 **Denied:** If SOW is submitted 6 months past close date or MSP customer account, etc
 
 **Closed:** If opportunity has moved to Closed Lost, or if Partner/ESM/etc communicates the partner did not win the services business
-
-
 
 ### Additional Information
 
