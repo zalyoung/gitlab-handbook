@@ -701,6 +701,8 @@ Review the steps below to process a Service Attached Registration for an applica
 
 - Approvals will be on first come, first serve basis for the partner that completes the process (i.e., submits Services Attached Registration and provides valied executed SOW)
 
+- SOW:Services Attached Registration is 1:1 ratio, meaning one SOW can only be attached to one Services Attacehed Registration
+
 - No exceptions will be granted for Services Attached Registration submitted in a given quarter without an executes SOW.
 
 ### Status of Services Attached Registration
