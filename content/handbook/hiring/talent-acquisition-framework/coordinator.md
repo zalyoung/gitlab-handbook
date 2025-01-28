@@ -14,7 +14,7 @@ The CES team utilizes [GitLab Service Desk](https://docs.gitlab.com/ee/user/proj
   - 2 - Reschedules
   - 3 - Schedule Interviews
   - 4 - Offboarding
-- The CES team utilizes a program called [Guide](coordinator/#using-the-candidate-guide) to enhance the candidate experience and create a more transparent view into the talent acquisition processes. This program also allows us to rename interview subject lines to make them more candidate-friendly and succinct.
+- Our team leverages ModernLoop for interview scheduling, seamlessly connecting with our existing calendar and ATS.This program also allows us to rename interview subject lines to make them more candidate-friendly and succinct.
 
 #### How the CES Team will run the Service Desk
 
