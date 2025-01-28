@@ -104,7 +104,7 @@ You can also make the entire web page editable, using the [`designMode`](https:/
 
 ### LanguageTool
 
-As an alternative to [Grammarly](#grammarly), we can combine LanguageTool in the browser
+As an alternative to Grammarly, we can combine LanguageTool in the browser
 with a local LanguageTool server .
 This ensures that spell and grammar checking remains both convenient and confidential:
 
