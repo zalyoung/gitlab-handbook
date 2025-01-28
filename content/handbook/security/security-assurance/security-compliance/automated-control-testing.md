@@ -2,8 +2,6 @@
 title: "Automated Evidence Collection and Control Testing"
 ---
 
-# Automated Evidence Collection and Control Testing
-
 ## Objectives
 
 The automated evidence collection and control testing program aims to:
@@ -243,7 +241,7 @@ Framework compliance reports provide clear visibility into certification readine
 * Control testing status
 * Evidence completeness
 * Compliance gaps
-* [Observation Management](/content/handbook/security/security-assurance/observation-management-procedure.md)
+* [Observation Management](../observation-management-procedure.md)
 * Audit preparation metrics
 
 ### Risk-Based Analysis
