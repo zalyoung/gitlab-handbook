@@ -54,21 +54,22 @@ The L2R Campaign Interactions report table uses a primary union between person/b
 L2R is the base table of Campaign reporting at GitLab. It combines touchpoints allowing us to create a single view that shows the top of the funnel to Influenced SAO. It is used to track the conformance of email, content, and paid media efforts.
 
 ### Key Fields
-1. Person_order_type
+
+1. `Person_order_type`
    1. A derived Order Type for the person record, based on the is_first_order_person SFDC field
-1. Touchpoint_type
+1. `Touchpoint_type`
    1. A denotation of whether the given touchpoint/record is a Person/Buyer or Opportunity/Attribution touchpoint. 
-1. Custom attribution fields (i.e. custom_sao)
+1. `Custom attribution fields (i.e. custom_sao)`
    1. Calculations to sum up the custom model weights of an opportunity’s touchpoints based on other criteria in the model
-1. Person_status_change
+1. `Person_status_change`
    1. A derived field to show the person record’s progression from one status to another. 
-1. Is_mdf_campaign
+1. `Is_mdf_campaign`
    1. A T/F flag that shows whether or not the campaign associated with the record will have MDF funding or not. 
-1. report_opportunity_*
+1. `report_opportunity_*`
    1. Derived fields to show the report-based attributes of the opportunity leveraging historical snapshot data where appropriate. 
-1. Is_sales_dev_owned_record
+1. `Is_sales_dev_owned_record`
    1. A T/F flag to show whether or not the record is owned by a Sales Dev rep in SFDC. 
-1. *_date_range_*
+1. `*_date_range_*`
    1. The pre-defined date aggregations of a given funnel-stage’s date for the given record.
 
 ### Key Metrics
