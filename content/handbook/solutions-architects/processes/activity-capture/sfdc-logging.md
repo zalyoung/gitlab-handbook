@@ -242,19 +242,19 @@ For detailed instructions on activity logging through Rattle, see [Activity Base
 
 ### Field Updates
 
-1. **Timing**
+#### Timing
 
 - Update fields in real-time when possible
 - Don't backdate unless absolutely necessary
 - Keep current even if opportunity is early stage
 
-1. **Accuracy**
+#### Accuracy
 
 - Be precise with dates
 - Use clear, concise descriptions
 - Maintain consistency across opportunities
 
-1. **Completeness**
+#### Completeness
 
 - Fill all required fields
 - Don't leave fields blank or TBD
@@ -262,19 +262,19 @@ For detailed instructions on activity logging through Rattle, see [Activity Base
 
 ### Common Scenarios
 
-1. **Multiple SAs**
+#### Multiple SAs
 
 - Only one Primary SA
 - Others tracked through activity logging
 - Clear handoff process when changing Primary SA
 
-1. **Stalled Evaluations**
+#### Stalled Evaluations
 
 - Mark as stalled after 2 weeks of inactivity
 - Update status if evaluation resumes
 - Document reason in close details
 
-1. **Commercial Trials**
+#### Commercial Trials
 
 - Align with trial dates
 - Must have SA engagement
