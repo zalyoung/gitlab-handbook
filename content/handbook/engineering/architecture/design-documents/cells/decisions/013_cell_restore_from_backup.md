@@ -20,11 +20,12 @@ It was decided that for Cells 1.0:
 There will be two modes of Cell restoration:
 
 1. If the recovered cell will be permanent:
+   1. Restrict writes or traffic to the Cell being recovered.
    1. Provision the recovered Cell with the same Cell ID, different Tenant ID.
    1. Register the recovered cell with the topology service with the new address.
 1. If the recovered cell will be used for validating restore:
    1. Provision the recovered Cell with the same or unset Cell ID and a different Tenant ID.
-   1. Don't add the recovered Cell to the topology service; it can't be assigned [sequence ID](../topology_service.md#sequence-service) or [Claims](#claim-service).
+   1. Don't add the recovered Cell to the topology service; it can't be assigned [sequence ID](../topology_service.md#sequence-service) or [Claims](../topology_service.md#claim-service).
    1. Validate the recovered Cell by connecting to it directly, bypassing the routing.
    1. Tear down the recovered Cell.
 
