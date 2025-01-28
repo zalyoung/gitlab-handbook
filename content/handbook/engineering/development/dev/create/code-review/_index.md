@@ -38,7 +38,7 @@ For more urgent items, feel free to use [#g_create_code_review](https://gitlab.s
 
 Work on the [GitLab VS Code Extension](https://gitlab.com/gitlab-org/gitlab-vscode-extension) follows a simplified development process. Learn more about it by looking at [CONTRIBUTING.md](https://gitlab.com/gitlab-org/gitlab-vscode-extension/-/blob/main/CONTRIBUTING.md).
 
-[Take a look at the features we support per category here.](/handbook/product/categories/features/#createcode-review-group)
+[Take a look at the features we support per category here.](/handbook/product/categories/features/#code-review)
 
 ## Metrics of success
 

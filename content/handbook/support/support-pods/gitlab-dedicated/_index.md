@@ -26,6 +26,7 @@ Enable others within the Support Team to answer GitLab Dedicated tickets.
 - {{< member-by-name "Brenda Nyaringita" >}} (`@bnyaringita`)
 - {{< member-by-name "Segolene Bouly" >}} (`@sbouly`)
 - {{< member-by-name "Sam Bernal-Damasco" >}} (`@definitelynotsam`)
+- {{< member-by-name "Luminus Alabi" >}} (`@lalabi`)
 
 ## Collaboration channels
 

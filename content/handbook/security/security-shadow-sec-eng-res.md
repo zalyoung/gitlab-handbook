@@ -34,7 +34,7 @@ prepare quality answers before the next session.
 
 5 days, 5-8 hours
 
-**Team Manager:** James Ritchey @jritchey, Vitor Meireles De Sousa @vdesousa
+**Team Manager:** Kymberlee Price @eelrebmyk, Vitor Meireles De Sousa @vdesousa
 
 ## Security Research
 

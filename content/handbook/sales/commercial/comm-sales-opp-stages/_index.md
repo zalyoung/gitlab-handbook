@@ -15,7 +15,7 @@ To view these stages in Google sheet format please [click this link](https://doc
 
 [Exit Criteria at a Glance:](https://docs.google.com/presentation/d/1x6ycY7SdPET5ioD2bPyV6RURafdU_fn4P7vD6X0QRsM/edit#slide=id.p)
 
-![comm-sales-stages-exit-criteria](/handbook/sales/commercial/comm-sales-opp-stages/comm-sales-stages-exit-criteria.png)
+![comm-sales-stages-exit-criteria](/images/sales/commercial/comm-sales-opp-stages/comm-sales-stages-exit-criteria.png)
 
 ---
 

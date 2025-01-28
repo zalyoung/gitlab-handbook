@@ -19,7 +19,7 @@ Related Reading:
 
 - [4 digital transformation success stories](https://www.cio.com/article/236822/digital-transformation-examples.html)
 - [The CIO's Dilemma: Innovate AND Cut Costs](https://www.cio.com/article/222180/the-cio-s-dilemma-innovate-and-cut-costs.html)
-- [Complexity a killer when it comes to digital transformation success](https://www.cio.com/article/228830/complexity-a-killer-when-it-comes-to-digital-transformation-success.html) - [5 Big Challenges CIOs face](https://www.mrc-productivity.com/blog/2017/11/5-big-challenges-facing-cios-leaders-2018/)
+- [Complexity a killer when it comes to digital transformation success](https://www.cio.com/article/228830/complexity-a-killer-when-it-comes-to-digital-transformation-success.html) - [5 Big Challenges CIOs face](https://www.mrc-productivity.com/blog/2019/11/7-challenges-facing-cios-and-it-leaders-in-2020/)
 - [9 forces shaping the future of IT](https://www.cio.com/article/230329/9-forces-shaping-the-future-of-it.html)
 - [10 biggest issues IT faces](https://www.cio.com/article/228199/the-12-biggest-issues-it-faces-today.html)
 - [Survey: Compliance Drives IT Security](https://www.cio.com/article/254841/compliance-survey-compliance-drives-it-security.html)

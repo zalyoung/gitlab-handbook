@@ -18,11 +18,20 @@ To identify if a customer is using Hosted Runners, use Switchboard.
 
 ## Viewing Logs
 
-Logs from a hosted runner for GitLab Dedicated are available via Opensearch, along with the logs from the GitLab application. See [GitLab Dedicated Logs](dedicated_logs.html) to learn more.
+`gitlab-runner` and `systemd` logs are available in OpenSearch
+alongside the [GitLab Dedicated application logs](dedicated_logs.html).
 
-To view only runner logs use the filter: `fluentd_tag: -fleeting-logs`. The full value is `cloudwatch.<name>-fleeting-logs`, where `<name>` is the value of the name attribute in the [Runner Model](https://gitlab-com.gitlab.io/gl-infra/gitlab-dedicated/runner-model-schema/). (Click **CommonProperties**.)
+To view on Runner-related logs only:
 
-Only `gitlab-runner` and `systemd` are sent to OpenSearch. For job logs reach out to the customer.
+1. Filter generally with `fluentd_tag:cloudwatch.*`
+2. Obtain the more exact `fluentd_tag:cloudwatch.<name>-fleeting-logs`,
+   from the `_source` column of initial results, and apply it.
+   The `<name>` is a customer-specific value (attribute of **CommonProperties** on
+   [Runner Model](https://gitlab-com.gitlab.io/gl-infra/gitlab-dedicated/runner-model-schema/)),
+   but is not yet available in Switchboard.
+3. Using that same prefix based on `cloudwatch.<name>` `manager-logs` are available as well.
+
+For job logs reach out to the customer.
 
 ## Monitoring
 

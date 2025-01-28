@@ -269,6 +269,7 @@ CUnit
 customappsso
 CVEs
 CWEs
+cyber
 cybersecurity
 CycloneDX
 Dangerfile
@@ -556,6 +557,8 @@ hotspots
 HTMLHint
 http
 https
+Hugo
+Hugolint
 Hugomods
 hypercare
 hypergrowth
@@ -962,6 +965,7 @@ rbenv
 rbspy
 rbtrace
 Rclone
+RCEs
 Rdoc
 reachability
 readme

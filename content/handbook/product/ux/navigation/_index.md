@@ -1,9 +1,9 @@
 ---
 title: "GitLab Navigation"
-description: "The group::foundations team owns the navigation structures of the GitLab product. Please review this information if you plan to propose changes to GitLab navigation."
+description: "The group::personal productivity team owns the navigation structures of the GitLab product. Please review this information if you plan to propose changes to GitLab navigation."
 ---
 
-The [`group::foundations` team](/handbook/product/categories/#foundations-group) owns the navigation structures of the GitLab product. Please review this information if you plan to propose changes to GitLab navigation.
+The [`group::personal productivity` team](/handbook/product/categories/#personal-productivity-group) owns the navigation structures of the GitLab product. Please review this information if you plan to propose changes to GitLab navigation.
 
 > Note: a [Code Owners approval rule](https://docs.gitlab.com/ee/user/project/codeowners/) is in place to prevent unapproved changes to the navigation. If you have not followed this process, your Merge Request will be blocked.
 
@@ -73,9 +73,9 @@ After there is insight into a problem with the navigation, the Product team DRI 
 
 1. Before opening an issue, review the [elements and patterns for navigation in Pajamas](https://design.gitlab.com/usability/navigation-sidebar/). It is worth checking the [direction page](https://about.gitlab.com/direction/foundations/personal_productivity/) to see how your proposal aligns or conflicts with upcoming changes.
 1. Review the [list of navigation changes](/handbook/product/ux/navigation/#what-are-navigation-changes) and what they are to make sure your change qualifies.
-1. The [Product Manager for Foundations](/handbook/product/categories/#foundations-group) is the [DRI](/handbook/people-group/directly-responsible-individuals/#what-is-a-directly-responsible-individual) for navigation changes. Reach out to them to determine whether your proposal needs [full validation](#full-validation-path) or [limited validation](#limited-validation-path).
+1. The [Product Manager for Personal Productivity](/handbook/product/categories/#personal-productivity-group) is the [DRI](/handbook/people-group/directly-responsible-individuals/#what-is-a-directly-responsible-individual) for navigation changes. Reach out to them to determine whether your proposal needs [full validation](#full-validation-path) or [limited validation](#limited-validation-path).
 1. You can initiate the review for this process by using the [Navigation Proposal](https://gitlab.com/gitlab-org/gitlab/-/issues/new?issuable_template=Navigation%20Proposals) issue template.
-1. Designers on Foundations will assist the DRI by reviewing the proposal and providing input. The typical turnaround time from the Foundations team will be 1 milestone. After providing feedback, it is the responsibility of the DRI to move the proposal forward and seek additional feedback as needed.
+1. Designers on Personal Productivity will assist the DRI by reviewing the proposal and providing input. The typical turnaround time from the Personal Productivity team will be 1 milestone. After providing feedback, it is the responsibility of the DRI to move the proposal forward and seek additional feedback as needed.
 1. When you have approval and are ready to start implementation, then follow the [GitLab Docs on adding items to the navigation](https://docs.gitlab.com/ee/development/navigation_sidebar.html#adding-page-specific-vue-content).
 
 ### Full validation path
@@ -87,7 +87,7 @@ This path is suitable for navigation changes that affect a majority of GitLab us
 * Removing an existing navigation item
 * Renaming an existing navigation item
 
-The Foundations PM is the DRI for determining if your proposal should follow the full validation path. On this path, we require the following steps be completed and documented as part of the navigation proposal issue.
+The Personal Productivity PM is the DRI for determining if your proposal should follow the full validation path. On this path, we require the following steps be completed and documented as part of the navigation proposal issue.
 
 | Step | Requirement |
 | --- | --- |
@@ -105,7 +105,7 @@ This path is suitable for navigation changes that affect a minority of users or 
 * New 3rd party integrations that follow the pattern of existing integrations
 * Changes that bring consistency where there is already inconsistency
 
-The Foundations PM is the DRI for determining if your proposal can follow the limited validation path. On this path, we require the following steps be completed and documented as part of the navigation proposal issue.
+The Personal Productivity PM is the DRI for determining if your proposal can follow the limited validation path. On this path, we require the following steps be completed and documented as part of the navigation proposal issue.
 
 | Step | Requirement |
 | --- | --- |
@@ -117,8 +117,8 @@ The Foundations PM is the DRI for determining if your proposal can follow the li
 
 ## Reconciliation process
 
-The navigation proposal process attempts to balance a focus on core workflows and feature visibility, which means sometimes proposal authors may disagree with the Foundations team decision. If you feel like we've struck the wrong balance, let's follow the [manager mention thread process](/handbook/communication/#scaling-merge-requests-through-manager-mention-mrs-formerly-consolidated-mrs). Add a comment to the proposal and:
+The navigation proposal process attempts to balance a focus on core workflows and feature visibility, which means sometimes proposal authors may disagree with the Personal Productivity team decision. If you feel like we've struck the wrong balance, let's follow the [manager mention thread process](/handbook/communication/#scaling-merge-requests-through-manager-mention-mrs-formerly-consolidated-mrs). Add a comment to the proposal and:
 
 1. Summarize why the proposal was rejected and your perspective on why this decision is incorrect
-1. Mention your manager and the Foundations PM manager
+1. Mention your manager and the Personal Productivity PM manager
 1. Request their input on the decision

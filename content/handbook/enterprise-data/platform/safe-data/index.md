@@ -29,14 +29,12 @@ General Access Dashboards are available to all GitLab Team members. An Access Re
 All SAFE dashboards are stored within various team's SAFE folders and permission is managed by the user's access group membership. Access to a single SAFE dashboard provides access to all SAFE Dashboards. Having  access to the SAFE project/folder will result in making the team member a [Designated Insider](/handbook/legal/publiccompanyresources/#sts=designated%20insiders) subject to our [Insider Trading Policy](https://drive.google.com/file/d/12H-H43vIf15fWADZDEf3FH2jneMmiLDH/view). Gaining access to a SAFE dashboard (and the space) via membership in the General SAFE Access user group requires:
 
 1. Your immediate manager's approval
-2. Departmental VP (or equivalent) approval
 
 To gain access to SAFE dashboards:
 
 1. Create an [Access Request](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/24284) for Tableau - SAFE Access - [Requestor Name].
-2. Request approval from your immediate manager and your Departmental VP (or equivalent). Approval is needed if it concerns a new Access Request(/issue).
-3. Once the request is approved, follow the instructions in the tech_stack.yml file for provisioning.
-4. After processing is complete you will be able to log in to Tableau and access your requested SAFE dashboard and all other dashboards which require SAFE access.
+1. Request approval from your immediate manager. Approval is needed if it concerns a new Access Request(/issue).
+1. After processing is complete you will be able to log in to Tableau and access your requested SAFE dashboard and all other dashboards which require SAFE access.
 
 Please see the [Accessing](/handbook/enterprise-data/platform/#warehouse-access) SAFE Data in Snowflake for instructions on to access the SAFE data in Snowflake.
 
@@ -55,12 +53,11 @@ There are several variations of limited access user groups which you may want to
 All SAFE Data are stored in tables and views within separate database schemas in Snowflake. Access to 1 table provides access to all SAFE tables. Access to SAFE data requires:
 
 1. Your immediate manager's approval.
-2. Departmental VP (or equivalent) approval.
 
 To gain access to SAFE Data:
 
 1. Create an [Access Request](https://gitlab.com/gitlab-com\team-member-epics/access-requests/-/issues\new?issuable_template=Individual_Bulk_Access_Request) and provide your needs and intent.
-2. Request approval from your immediate manager and your Departmental VP (or equivalent). Approval is needed if it concerns a new Access Request(/issue).
+2. Request approval from your immediate manager. Approval is needed if it concerns a new Access Request(/issue).
 3. Once the request is approved, tag the Snowflake [provisioners](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/data/tech_stack.yml) and they will process the request.
 4. After processing is complete you will be able to access SAFE Data (schemas) in Snowflake.
 

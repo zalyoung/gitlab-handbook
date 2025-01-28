@@ -85,7 +85,7 @@ The purpose of creating a new issue for each ancillary event is to better facili
 
 ### Step 3 - Contract Completed - FMM
 
-1. Please reference the Plan to WIP process [here](/handbook/marketing/field-marketing/#process-for-issues-moving-from-plan-to-wip).
+1. Please reference the Plan to WIP process [here](https://handbook.gitlab.com/handbook/marketing/field-marketing/#slas).
 
 ### Step 3 - Contract Completed- Corporate Event DRI
 
@@ -704,7 +704,7 @@ For all details regarding Field Marketing Swag and Event Assets, please visit th
 
 ## Specifics for Developer Relations
 
-GitLab's Developer Relations team reviews and manages our community events (typically an event with less than 250 attendees that is targetting end users of GitLab) including [Meetups](/handbook/marketing/developer-relations/evangelist-program/#meetups). The [Developer Relations handbook](/handbook/marketing/developer-relations/evangelist-program/#community-events) has additional information on the events the Developer Relations team will support.
+GitLab's Developer Relations team reviews and manages our community events (typically an event with less than 250 attendees that is targetting end users of GitLab). The [Developer Relations handbook](/handbook/marketing/developer-relations/evangelist-program/#community-events) has additional information on the events the Developer Relations team will support.
 
 ## Specifics for Corporate Events
 

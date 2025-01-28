@@ -18,7 +18,7 @@ We take a customer-centric approach to educating prospects on how GitLab enables
 | Role | Name |
 |--|--|
 | Senior Product Designer | [Tina Lise Ng](https://gitlab.com/Tinaliseng) |
-| Senior Product Designer |[Trevor Storey](https://gitlab.comtrevor-storey) |
+| Senior Product Designer |[Trevor Storey](https://gitlab.com/trevor-storey) |
 | Frontend Engineer | [Javi Garcia](https://gitlab.com/jgarc)|
 | Senior Frontend Engineer| [Megan Filo](https://gitlab.com/meganfilo) |
 | Senior Frontend Engineer | [Laura Duggan](https://gitlab.com/lduggan) |

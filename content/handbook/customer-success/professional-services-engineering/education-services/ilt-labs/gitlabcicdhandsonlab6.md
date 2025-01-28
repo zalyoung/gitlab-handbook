@@ -51,6 +51,7 @@ stages:
   - build
   - run
   - release
+  - deploy
 
 test go:
   stage: test

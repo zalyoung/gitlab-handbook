@@ -34,6 +34,8 @@ Also check: [VR troubleshooting guide](https://docs.gitlab.com/ee/user/applicati
 1. [Elastic watcher](https://log.gprd.gitlab.net/app/management/insightsAndAlerting/watcher/watches/watch/test_g_srm_security_insights_ai_error_watcher/status)
 1. Slack channel to see alerts: [`#g_srm_security_insights_ai_error_alerts`](https://gitlab.enterprise.slack.com/archives/C07V46USRHT)
 1. Elastic logs used in watcher: https://log.gprd.gitlab.net/app/r/s/foNLr
+1. Error watcher in IaC repo: https://gitlab.com/gitlab-com/runbooks/-/blob/master/elastic/managed-objects/log_gprd/watches/test_g_srm_security_insights_ai_error_watcher.jsonnet
+1. Alert threshold for this watcher is 5 errors over last 90 minutes. If needed the watcher can be deactivated from [this page](https://log.gprd.gitlab.net/app/management/insightsAndAlerting/watcher/watches/watch/test_g_srm_security_insights_ai_error_watcher/status). The threshold value can be changed from the [edit page](https://log.gprd.gitlab.net/app/management/insightsAndAlerting/watcher/watches/watch/test_g_srm_security_insights_ai_error_watcher/edit).
 
 ### Resources
 

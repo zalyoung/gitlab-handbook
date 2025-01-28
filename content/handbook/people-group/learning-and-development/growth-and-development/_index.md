@@ -15,7 +15,9 @@ To use the Growth and Development fund, applicants must be full-time GitLab empl
 
 ## Process
 
-Here is a step by step guide on how to apply for G&D applications:
+Here is a step by step guide on how to apply for G&D applications.
+
+We've created a comprehensive guide on Level Up that walks you through the G&D process, complete with video tutorials and step-by-step examples. Check out the [Growth & Development Explainer](https://university.gitlab.com/access/saml/login/internal-team-members?returnTo=https://university.gitlab.com/learn/course/growth-and-development-explainer) course.
 
 ### Step 1 - Growth Conversation
 
@@ -73,7 +75,7 @@ Cost Tiers Approval:
   - The G&D Fund should be used to pay for conference registration, tickets, etc.
   - The costs for travelling to and from a conference, including hotel stays and meals, comes from the Travel & Expenses budget of the requestor's department.
 
-- These two costs should still be detailed in the Growth and Development request issue, ghey just need to be expensed separately.
+- These two costs should still be detailed in the Growth and Development request issue, they just need to be expensed separately.
 
 - There may be budgetary concerns if a team member is applying for a conference that would incur significant travel and accommodation costs. When approving a team members’ G&D request, managers should feel confident they have the approval of their [budget owner](https://docs.google.com/spreadsheets/d/1JDgoKl2HaHY5iMhJeu8ENqQzOJB8lHL0-oeO0UUieDU/edit?gid=617408906#gid=617408906). VP approval is required on all applications over $1000 involving travel, so in most cases they will be made aware as a matter of course.
 
@@ -195,6 +197,14 @@ Please use the [Other G&D Types](https://gitlab.com/gitlab-com/people-group/lear
 **Description:** GitLab will pay for courses related to learning how to code (for example Learning Rails on Codecademy), regardless of your department. If you are new to development, we encourage you to learn Git through GitLab, and feel free to ask any questions in the #git-help Slack channel.
 
 **Reimbursement Requirements:** A final grade report or satisfactory certificate of completion are required to receive reimbursements.
+
+#### Programming Books
+
+Please use the [Other G&D Types](https://gitlab.com/gitlab-com/people-group/learning-development/growth-and-development-requests/-/issues/new?issuable_template=g-and-d-other) issue template to open requests of this type.
+
+**Description:** Books related to programming, software development, and technical skills that support your career development at GitLab can be reimbursed through the G&D Fund. This is separate from GitLab's [general book reimbursement benefit](/handbook/finance/expenses/#books-audioe-books-included) and requires manager approval as part of the G&D process. Books should align with your growth goals and development plan discussed with your manager.
+
+**Reimbursement Requirements:** Submit proof of purchase (receipt) through Navan using the Expense type `G&D (Growth and Development)`. Include a link to your approved G&D issue in the expense description.
 
 ### Coaching
 

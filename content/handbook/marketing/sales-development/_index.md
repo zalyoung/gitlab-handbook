@@ -1030,11 +1030,44 @@ description: This page walks you through all the tools we use in the Sales Dev o
 
 ---
 
-### Sales Development Tools
+## Sales Development Tools
 
 This page is to act as your guide to the many tools and best practices that the Sales Development Organization uitlizes.
 
-#### ZoomInfo
+### Claude
+
+Claude is an AI assistant from Anthropic. It can help with analysis, content writing, research, spreadsheet organization and other tasks. 
+
+#### Claude Sales Dev BDR/SDR User Guide
+
+- [Prompt Library](https://gitlab.com/gitlab-com/marketing/sales-development/-/issues/1231) - a place to find prompts the Sales Dev Org is currently using and collaborating on
+
+**Limitations**
+
+- Claude's knowledge cutoff is April 2024, so any GitLab features, pricing, or competitive details may be outdated. Always verify current information through official GitLab channels.
+- Claude can't access GitLab systems, databases, or customer information directly. While Claude can analyze data you share, it can't pull anything from GitLab's internal tools or CRM. **DO NOT ADD Salesforce Data to Claude at this Time** 
+- Claude can't connect to external websites, APIs, or tools. If you need Claude to review specific content, you'll need to paste it directly into the conversation.
+- Claude can't maintain context between conversations - each chat starts fresh, so previous discussions about prospects or strategies won't be remembered.
+- Understand that **Claude is not always right and will sound very confident even when it is wrong**
+
+**General Tips**
+
+- Treat it like you are having a conversation with a highly intelligent robot (ex. C3P0)
+- Always try to ask follow up questions to get better answers 
+- You can always have Claude write ideal prompts for you! 
+- Because Claude's data cut off is from April you can upload up to date target account's 10Ks, annual reports, and investor letters for up to date research
+- You can use Claude to help you reformat your spreadsheets! It is recommended to upload your data in CSV format. 
+
+**Examples of Questions to Ask**
+
+- "Can you see if this companies' annual report mentions DevOps, Software, Cyber Security, Git?
+- “Can you make this email reply more concise?” 
+- “Let's say I was a sales rep from GitLab. How should I approach this company/title?” (Can use Panos’s prompt in the prompt library as well )
+- “Can you explain why you gave x answer?” 
+- “Can you rewrite that in a more casual tone?”
+- “I do not like that message you generated.Can you give me 3more options and explain the pros and cons of each?”
+
+### ZoomInfo
 
 [Zoominfo](https://www.zoominfo.com/) provides our Sales Development Representatives and Account Executives with access to hundreds of thousands of prospects and their contact information, company information, tech stack, revenue, and other relevant data. Individual records or bulk exports can be imported into Salesforce using extensive search criteria such as job function, title, industry, location, tech stack, employee count, and company revenue. More information can be found on the Marketing Operations [Zoominfo handbook page.](/handbook/marketing/marketing-operations/zoominfo/)
 
@@ -1250,25 +1283,6 @@ Additionally this [5' video](https://drive.google.com/file/d/1dx57o5nu9xeHsvHUOC
 |                                            [Create a new job family](/handbook/hiring/job-families/#job-family-creation-using-web-version-of-gitlab)                                             | For each job at GitLab, the job family is the single source of truth for the expectations of that role. If you need information about when to create a new job family vs when to use an existing one watch [this video](https://www.youtube.com/watch?v=5EcFz1qNj2E&feature=emb_title) |
 |                                           [Resolve failed pipeline when creating an MR](https://www.youtube.com/watch?v=WlgH-6cX1k8&feature=youtu.be)                                            | Quick overview of how to go about identifying why a pipeline might be failing for a merge request to the handbook page |
 | [Sales Development Onboarding Job Specific Task Section](https://gitlab.com/gitlab-com/people-group/employment-templates/-/blob/main/.gitlab/issue_templates/onboarding_tasks/department_sales_development.md) | This task section will automatically be added to the general onboarding issue for new SDRs based on their role when hired. |
-
-### Tracking & Monitoring Resources
-
-| Resource | Purpose |
-| :----: | :-----: |
-|  [SDR Issue Board](https://gitlab.com/gitlab-com/marketing/sales-development/-/boards/5569691)  | Used to track GitLab issues involving the SDR team. This is a global issue board. |
-|  [SDR Event Tracker Issue Board](https://gitlab.com/groups/gitlab-com/-/boards/1718115) | Used to follow upcoming events globally |
-|  [SDR Sisense Dashboard](https://10az.online.tableau.com/#/site/gitlab/views/DraftSalesDevAnalyticsHub/Overview?:iid=1) | SalesDev Analytics Hub Dashboard  |
-
-|  [Lead View Descriptions](/handbook/marketing/sales-development/#lead-and-contact-views) | There are Manager Lead views in SFDC mirroring the SDR and BDR views which are described on the linked Handbook page on the left. These views need to be checked regularly by managers to ensure all necessary leads are being worked.
-
-### Action Needed Boards
-
-| Teams | Boards |
-| :----: | :-----: |
-|  **AMER BDR TEAMS**  | [AMER BDR Action Needed](https://gitlab.my.salesforce.com/01ZPL00000069v3) -  [AMER BDR Manager Attention Needed](https://gitlab.my.salesforce.com/01ZPL00000069VF) |
-|  **EMEA BDR TEAMS**  | [EMEA BDR Action Needed](https://gitlab.my.salesforce.com/01Z4M000000soBO) -  [EMEA BDR Manager Attention Needed](https://gitlab.my.salesforce.com/01ZPL0000006ABB) |
-|  **APJ BDR TEAMS**  | [APJ BDR Action Needed](https://gitlab.my.salesforce.com/01ZPL000000bkbl) -  [APAC BDR Manager Attention Needed](https://gitlab.my.salesforce.com/01ZPL000000cUJd) |
-|  **Global SDR Inbound Teams**  | [SDR Global Action Needed](https://gitlab.my.salesforce.com/01Z4M000000soBT) - [SDR Global Manager Attention Needed](https://gitlab.my.salesforce.com/01ZPL000000pryL)  |
 
 ### Sales_Dev_fyi Channel Information
 
@@ -1781,7 +1795,7 @@ Announcement Channels
 |                                        | - Endorsement from SDR management                                                                                                                                                   |
 |                                        | - Demonstration of GitLab's Values                                                                                                                                                  |
 |                                        | - Completion of SDR Q1-Q3 Tanuki Techs                                                                                                                                              |
-|                                        | NOTE: Not every SDR will have the opportunity to become a team lead. Interviews will take place when a spot is available. A successful applicant must make a 3-month minimum commitment to the Team Lead Role before pursuing another promotion.  |
+|                                        | NOTE: Not every SDR will have the opportunity to become a team lead. Interviews will take place when a spot is available. A successful applicant must make a 6-month minimum commitment to the Team Lead Role before pursuing another promotion.  |
 | SDR to BDR                             | - Minimum 12 months in the SDR Role (incl. ramp)                                                                                                                                    |
 |                                        | - Hitting quota cumulatively over the last 2 fully-ramped quarters (neither quarter below 80% attainment)                                                                          |
 |                                        | - Endorsement from current SDR manager                                                                                                                                              |
@@ -1799,7 +1813,7 @@ Announcement Channels
 |                                        | - Endorsement from BDR management                                                                                                                                                   |
 |                                        | - Demonstration of GitLab's Values                                                                                                                                                  |
 |                                        | - Completion of BDR Q1-Q3 Tanuki Techs                                                                                                                                              |
-|                                        | NOTE: Not every BDR will have the opportunity to become a team lead. Interviews will take place when a spot is available. A successful applicant must make a 3-month minimum commitment to the Team Lead Role before pursuing another promotion.  |
+|                                        | NOTE: Not every BDR will have the opportunity to become a team lead. Interviews will take place when a spot is available. A successful applicant must make a 6-month minimum commitment to the Team Lead Role before pursuing another promotion.  |
 | BDR and BDR Team Lead to Next Step     | - Minimum 12 months in the BDR Role (incl. ramp)                                                                                                                                    |
 |                                        | - Hitting quota cumulatively over the last 2 fully-ramped quarters (neither quarter below 80% attainment)                                                                          |
 |                                        | - Endorsement from BDR management                                                                                                                                                   |

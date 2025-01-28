@@ -69,7 +69,7 @@ SMEs are SAs and CSMs who, not only have declared a major, attained recognizable
 
 SMEs will be responsible for their area of expertise for their region, and to ensure the smooth running of the SME program.
 
-SME’s during their tenure in the program must be willing to have the [specified time commitment](/handbook/solutions-architects/sa-practices/subject-matter-experts/#time-commitment)
+SME's during their tenure in the program must be willing to have the [specified time commitment](/handbook/solutions-architects/sa-practices/subject-matter-experts/#time-commitment)
 
 Full Responsibilities for this and other SME roles are detailed [here](\#sme-responsibilities).
 

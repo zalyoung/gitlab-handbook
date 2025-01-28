@@ -205,6 +205,14 @@ All current job codes can be found by the Total Rewards team in the "Job Codes" 
 
 Location Factor is [calculated](#calculating-location-factors) using multiple data sources to conduct a market analysis of compensation rates globally: Economic Research Institute (ERI), Comptryx, Radford. This is *not* a cost of living analysis, but instead a **cost of labor market** evaluation compared to San Francisco. The Total Rewards team will use their best judgement in determining the input per location based on our [Compensation Principles](/handbook/total-rewards/compensation/#gitlabs-compensation-principles).
 
+#### In Workday
+
+In Workday the Location Factor is embedded into the Grade Profile as the second field. For example in a Grade Profile of "210.070.EUR", the second field "070" is referring to the Location Factor. As per Amsterdam's Location Factor in the Compensation Calculator, this is 0.70.
+
+The Grade Profile can be found under the Compensation tab, and is only viewable to managers.
+
+[Related issue](https://gitlab.com/gitlab-com/people-group/people-tools-technology/general/-/issues/1139)
+
 ### Geographical Areas
 
 The location factor depends on your geographical area. To determine geographical areas as it relates to compensation, we looked at what the [United Nations](https://unstats.un.org/unsd/methodology/m49/) outlines globally:

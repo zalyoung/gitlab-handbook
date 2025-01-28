@@ -84,7 +84,7 @@ Use the following searches to track completed style-related issues:
 
 - [GitLab project style issues](https://gitlab.com/gitlab-org/gitlab/-/issues?scope=all&utf8=%E2%9C%93&state=opened&label_name[]=tw-style)
 - [GitLab project style MRs](https://gitlab.com/gitlab-org/gitlab/-/merge_requests?scope=all&utf8=%E2%9C%93&state=opened&label_name[]=tw-style)
-- [Technical Writing project style issues](https://gitlab.com/gitlab-org/technical-writing/-/issues?scope=all&utf8=%E2%9C%93&state=opened&label_name[]=tw-style)
+- [Technical Writing project style issues](https://gitlab.com/gitlab-org/technical-writing/team-tasks/-/issues?scope=all&utf8=%E2%9C%93&state=opened&label_name[]=tw-style)
 
 #### Testing
 
@@ -100,7 +100,7 @@ Any contributor can suggest changes to our linting rules or tooling by creating 
 #### Translation and internationalization
 
 Everyone can contribute to the translation of GitLab from English into other languages.
-To learn more about translation and internationalization at GitLab, visit the Import and Integrate direction page and Manage stage Category Direction page on [Internationalization](https://about.gitlab.com/direction/foundations/internationalization/).
+To learn more about translation and internationalization at GitLab, visit the Import and Integrate direction page and Manage stage Category Direction page on [Internationalization](https://about.gitlab.com/direction/foundations/import_and_integrate/internationalization/).
 For a step-by-step guide to translation contributions, read [Translating GitLab](https://docs.gitlab.com/ee/development/i18n/translation.html).
 
 The [docs.gitlab.com](https://docs.gitlab.com/) site is not included in the community efforts to internationalize GitLab. Discussion on translating documentation into other languages is included in [this issue](https://gitlab.com/gitlab-org/gitlab/-/issues/15471#note_214823504).
@@ -137,7 +137,7 @@ Reference: https://gitlab.com/gitlab-com/www-gitlab-com/merge_requests/24952
 **If you were directed here from a documentation page's metadata:**
 
 - The metadata doesn't indicate developer ownership, but is meant to direct you to an appropriate technical writer.
-- If you are part of a development group and would like to add metadata to documentation pages, create an issue in [the Technical Writing repository](https://gitlab.com/gitlab-org/technical-writing) for discussion. Additional discussion is in [this issue](https://gitlab.com/gitlab-org/technical-writing/-/issues/547).
+- If you are part of a development group and would like to add metadata to documentation pages, create an issue in [the TW team tasks project](https://gitlab.com/gitlab-org/technical-writing/team-tasks/) for discussion. Additional discussion is in [issue 547](https://gitlab.com/gitlab-org/technical-writing/team-tasks/-/issues/547).
 - If the stage is listed as `none`, see if [there is a DRI](#assignments-to-other-projects-and-subjects) or use [roulette](https://gitlab-org.gitlab.io/gitlab-roulette/?sortKey=stats.avg30&order=-1&hourFormat24=true&visible=maintainer%7Cdocs).
 {{% /alert %}}
 
@@ -157,8 +157,7 @@ Some Technical Writers are assigned as [stage leads](/handbook/product/ux/techni
 | Stage            | Assigned stage lead |
 |:-----------------|:--------------------|
 | Verify           | {{< member-by-name "Marcel Amirault" >}} |
-| AI-powered       | {{< member-by-name "Suzanne Selhorn" >}} |
-| ModelOps         | {{< member-by-name "Suzanne Selhorn" >}} |
+| AI-powered       | {{< member-by-name "Jon Glassman" >}} |
 | Create           | {{< member-by-name "Amy Qualls" >}} |
 | Plan             | {{< member-by-name "Marcin Sędłak-Jakubowski" >}} |
 | Application Security Testing | {{< member-by-name "Russell Dickenson" >}} |
@@ -207,6 +206,7 @@ The number of pages in the five primary repositories (GitLab, Omnibus, Charts, O
 
 | Date          | # of pages | Increase/decrease from previous quarter |
 |---------------|------------| ------------|
+| Dec 2024      | 2,442      | 5 %         |
 | Sept 2024     | 2,328      | -5 %        |
 | June 2024     | 2,456      | 6 %         |
 | Mar  2024     | 2,308      | 5 %         |
@@ -220,15 +220,15 @@ The number of pages in the five primary repositories (GitLab, Omnibus, Charts, O
 | Jan 2022      | 1,562      | -           |
 | May 2020      | 1,165      | -           |
 
-**Change between May 2020 and September 2024:** 1,163 more pages (a 99% increase).
+**Change between May 2020 and December 2024:** 1,277 more pages (a 110% increase).
 
 Decrease in September 2024 due to moving the architecture blueprints topics to the handbook. For more information, see [issue 279](https://gitlab.com/gitlab-com/content-sites/handbook/-/issues/279).
 
 #### Page count by area of the left nav
 
-In August, 2024, the page count by area of the left navigation:
+In December, 2024, the page count by area of the left navigation:
 
-![img](/images/handbook/product/ux/technical-writing/page_count_aug2024.png)
+![img](/images/handbook/product/ux/technical-writing/page_count_dec2024.png)
 
 ### Word count
 
@@ -236,6 +236,7 @@ The number of words in these repositories:
 
 | Date          | Word count | Increase/decrease from previous quarter |
 |---------------|------------| ------------|
+| Dec 2024      | 3,373,709  | 6 %         |
 | Sept 2024     | 3,191,353  | -4 %        |
 | June 2024     | 3,325,823  | 4 %         |
 | Mar  2024     | 3,183,647  | 6 %         |
@@ -249,7 +250,7 @@ The number of words in these repositories:
 | Jan 2022      | 2,017,183  | -           |
 | May 2020      | 1,190,371  | -           |
 
-**Change between May 2020 and September 2024:** 2,000,982 more words (a 168% increase)
+**Change between May 2020 and December 2024:** 2,183,338 more words (a 183% increase).
 
 Decrease in September 2024 due to moving the architecture blueprints topics to the handbook. For more information, see [issue 279](https://gitlab.com/gitlab-com/content-sites/handbook/-/issues/279).
 
@@ -257,9 +258,9 @@ The word count has more than doubled in this timeframe.
 
 #### Word count by area of the left nav
 
-In August, 2024, the word count by area of the left navigation:
+In December, 2024, the word count by area of the left navigation:
 
-![img](/images/handbook/product/ux/technical-writing/word_count_aug2024.png)
+![img](/images/handbook/product/ux/technical-writing/word_count_dec2024.png)
 
 ### Analytics
 
@@ -284,7 +285,7 @@ Options for groups to get help when an assigned Technical Writer is on PTO are:
   Writer can be pinged on issues or merge requests and begin participating.
 
 If taking extended PTO (one week or more), Technical Writers and Managers should use the Technical Writer
-[coverage issue](https://gitlab.com/gitlab-org/technical-writing/-/blob/main/.gitlab/issue_templates/TW_Coverage.md).
+[coverage issue](https://gitlab.com/gitlab-org/technical-writing/team-tasks/-/blob/main/.gitlab/issue_templates/TW_Coverage.md).
 This issue can describe exactly who is providing coverage, for what, and by what means.
 
 ### Taking PTO
@@ -320,7 +321,7 @@ that need to be regularly completed:
 
 - **Release Post Structural Check:** The Technical Writing Lead [reviews the content](/handbook/marketing/blog/release-posts/#tw-lead) for the release post published at the end of each milestone. See the [Release Post Scheduling](/handbook/marketing/blog/release-posts/managers/) Handbook page for each milestone's assigned writer.
 - **Monthly doc version:** At the end of each milestone, a Technical Writer [creates the monthly version for the docs site](https://gitlab.com/gitlab-org/gitlab-docs/-/blob/main/doc/releases.md). The Technical Writer assigned to this task is the writer who completed the release post structural check for the previous milestone.
-- **Docs project maintenance tasks:** Each month, one Technical Writer is assigned to complete maintenance tasks for the documentation site and its content. This involves [creating a new issue using the `tw-monthly-tasks` template](https://gitlab.com/gitlab-org/technical-writing/-/issues/new?issue[title]=Docs%20project%20maintenance%20tasks%2C%20Month%20YYYY&issuable_template=tw-monthly-tasks) in the `technical-writing` project to track maintenance work. If additional work beyond what's described in the maintenance issue is required, the Technical Writer creates merge requests and additional issues as needed.
+- **Docs project maintenance tasks:** Each month, one Technical Writer is assigned to complete maintenance tasks for the documentation site and its content. This involves [creating a new issue using the `tw-monthly-tasks` template](https://gitlab.com/gitlab-org/technical-writing/team-tasks/-/issues/new?issue[title]=Docs%20project%20maintenance%20tasks%2C%20Month%20YYYY&issuable_template=tw-monthly-tasks) in the `technical-writing` project to track maintenance work. If additional work beyond what's described in the maintenance issue is required, the Technical Writer creates merge requests and additional issues as needed.
 
 <!-- vale handbook.Spelling = NO -->
 
@@ -487,7 +488,7 @@ In addition, Technical Writers must:
 While the Technical Writer is onboarding, they will be assigned to
 shadow groups and then start contributing as trainees. Veteran Technical Writers will coach them through the process.
 
-For more information about onboarding phases and tasks, see the [Technical Writer onboarding template](https://gitlab.com/gitlab-org/technical-writing/-/blob/main/.gitlab/issue_templates/tw_onboarding.md).
+For more information about onboarding phases and tasks, see the [Technical Writer onboarding template](https://gitlab.com/gitlab-org/technical-writing/team-tasks/-/blob/main/.gitlab/issue_templates/tw_onboarding.md).
 
 ## Standups
 

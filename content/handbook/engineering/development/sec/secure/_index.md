@@ -112,7 +112,7 @@ Coverage-guided fuzzing and API fuzzing are used to automatically input data int
 #### License Compliance
 
 [License Compliance](https://docs.gitlab.com/ee/user/compliance/license_approval_policies.html) helps with the licenses introduced by third-party libraries in the application.
-Licence management relies on the [LicenseFinder](https://github.com/pivotal-legacy/LicenseFinder) gem.
+Licence management relies on the [LicenseFinder](https://github.com/pivotal/LicenseFinder) gem.
 
 #### Vulnerability Research
 
@@ -372,7 +372,7 @@ Engineering Managers are encouraged to look at this queue of work during milesto
 
 The Secure Team follows the coding standards and style guidelines outlined in the company-wide [Contributor and Development Docs](https://docs.gitlab.com/ee/development/), however, please consult the following guidelines which are specific to the Secure Team:
 
-* [Secure Team Go standards and style guidelines](https://docs.gitlab.com/ee/development/go_guide#secure-team-standards-and-style-guidelines)
+* [Secure Team Go standards and style guidelines](https://docs.gitlab.com/ee/development/go_guide/#secure-team-standards-and-style-guidelines)
 
 #### Cross group collaboration
 

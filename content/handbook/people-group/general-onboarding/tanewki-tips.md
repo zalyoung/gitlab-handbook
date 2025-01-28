@@ -53,7 +53,7 @@ After you sign your offer and complete your background check and references, you
 
     - [Clocker App](https://apps.apple.com/us/app/clocker/id1056643111?mt=12)
 
-        <img src="/handbook/people-group/general-onboarding/images/clocker_app.png" alt="a screenshot of clocker app on mac desktop" width="300"/>
+        <img src="/images/people-group/general-onboarding/clocker_app.png" alt="a screenshot of clocker app on mac desktop" width="300"/>
 
     - [Find a Time in Google Calendar](https://www.getclockwise.com/blog/google-calendar-find-a-time)
     - [See Other TimeZone in Google Calendar](https://support.google.com/calendar/answer/37064?hl=en&co=GENIE.Platform%3DDesktop#zippy=%2Csee-other-time-zones)

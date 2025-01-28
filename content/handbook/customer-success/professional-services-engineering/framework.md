@@ -117,7 +117,7 @@ The process in which Technical Architects, Engagement Managers, and Practice Man
 | Consulting | Implementation | [Readiness Assessment](https://about.gitlab.com/services/catalog/health-check/) | [readiness-assessment](https://gitlab.com/gitlab-com/customer-success/professional-services-group/global-practice-development/implementation/readiness-assessment) | Complete |
 | Consulting | Migration | [SCM Migration](https://about.gitlab.com/services/catalog/enterprise/) | [migration-template](https://gitlab.com/gitlab-com/customer-success/professional-services-group/global-practice-development/migration/migration-template) | Complete |
 | Consulting | Migration | [CI Migration](https://about.gitlab.com/services/catalog/enterprise/ci-cd-migration/) | TBD | Minimal |
-| Consulting | Migration | [Migration+](https://about.gitlab.com/services/catalog/migration-plus/) | [migration-template](https://gitlab.com/gitlab-com/customer-success/professional-services-group/global-practice-development/migration/migration-template) | Viable |
+| Consulting | Migration | [Migration+](https://about.gitlab.com/services/#migration-services) | [migration-template](https://gitlab.com/gitlab-com/customer-success/professional-services-group/global-practice-development/migration/migration-template) | Viable |
 | Consulting | Integration | [Jenkins](https://about.gitlab.com/services/catalog/) | TBD | Complete |
 | Consulting | Integration | [LDAP, SAML, SSO](https://about.gitlab.com/services/catalog/) | TBD | Complete |
 | Consulting | Integration | [Jira](https://about.gitlab.com/services/catalog/) | TBD | Complete |

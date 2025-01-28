@@ -58,17 +58,16 @@ Entering time off in Workday is not necessary if working but working asynchronou
 
 ### Holidays
 
-1. We encourage all team members to take time off for public holidays observed in their country. No one is expected to attend calls on days they are not working or out of the office for an official public holiday. As a company that prides itself on a [family & friends first](/handbook/values/#family-and-friends-first-work-second) approach, it's a general guideline that if public schools or government offices in your area are closed for a particular national or regional holiday, that it's recognized for GitLab team members in that location to take that time off as a public holiday as well. For a general listing of public holidays by country, follow these steps:
-    1. Go to the [timeanddate.com](https://www.timeanddate.com/date/)
-    1. Select 'Holidays Worldwide' from the Calendar dropdown menu.
-    1. Select your country of residence
-    1. Change the dropdown from 'All holidays and national observances' to 'Public Holidays'
+We encourage all team members to take time off for public holidays observed in their country. All team members will see a public holiday accrual balance in Workay. The balance is country specific and was determined based on the local and/or contractual requirements. As a company that prides itself on a [family & friends first](/handbook/values/#family-and-friends-first-work-second) approach no one is expected to attend calls on days they are not working or out of the office for an official public holiday. As a company that values [Diversity, Inclusion & Belonging](/handbook/values/#diversity-inclusion--belonging-competency), public holidays will not be pre-loaded to Workday, instead team members have the flexibility to elect different dates and celebrate what’s important to them, as long as they do not exceed the balance in Workday.
 
-We recognize this list may not encompass all state or local public holidays, but please follow the guidance above--if public schools or government offices in your location are closed--then please enter your time off as a public holiday in Workday.  For any questions related to holidays or how to categorize time off please reach using [HelpLab](https://helplab.gitlab.systems/esc?id=emp_taxonomy_topic&topic_id=3df7f70d474c069067429ee0026d434c).
+For a general list of public holidays by country, follow these steps:
 
-1. If you decide to work on a holiday and then take another day off in lieu of the actual holiday date, we ask that you choose Public Holiday as a PTO category, and in the section `What is this OOO for?` please clarify that this day is taken in lieu of the actual holiday date.
+1. Go to the [timeanddate.com](https://www.timeanddate.com/date/)
+2. Select 'Holidays Worldwide' from the Calendar dropdown menu.
+3. Select your country of residence
+4. Change the dropdown from 'All holidays and national observances' to 'Public Holidays'
 
-1. Please note that Public Holidays will be listed in Workday with a Length of 0 days (0 hours).
+For any questions related to holidays or how to categorize time off please reach out using [HelpLab](https://helplab.gitlab.systems/esc?id=emp_taxonomy_topic&topic_id=3df7f70d474c069067429ee0026d434c). Please note that Public Holidays will be listed in Workday with a length of 1 day.
 
 ### Communicating Your Time Off
 

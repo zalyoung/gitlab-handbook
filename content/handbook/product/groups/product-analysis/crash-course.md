@@ -19,7 +19,7 @@ If this page serves it's purpose, Product Analysts should be able to visit this 
 
 - [Metrics dictionary](https://metrics.gitlab.com/) contains metrics and events collected in Service Ping and Snowplow. For more information visit the dedicated [Analytics Instrumentation Guide](/handbook/product/product-processes/analytics-instrumentation-guide/#metrics-dictionary).
 
-- [Features by Group handbook page](/handbook/product/categories/features/#planproject-management-group) contains a tabular breakdown of features included in each Stage Group by Core, Premium or Ultimate categories.
+- [Features by Group handbook page](/handbook/product/categories/features/#product-planning) contains a tabular breakdown of features included in each Stage Group by Core, Premium or Ultimate categories.
 
 - [Definitive guides to data subject areas](/handbook/enterprise-data/data-catalog/#definitive-guides) managed by the Data team.
 

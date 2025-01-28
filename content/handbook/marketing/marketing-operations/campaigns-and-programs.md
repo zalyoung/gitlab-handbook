@@ -418,7 +418,7 @@ If this is to set up a program that involves a channel partner, you must also fo
 [For virtual workshops, please follow directions in the virtual workshop set-up section.](/handbook/marketing/field-marketing/field-marketing-owned-virtual-events/#virtual-workshop-logistical-set-up) In-person workshops utilize a similar setup, but do not involve the Zoom requirements. If you have a workshop to set up that is not one of the workshops listed below, you can still utilize any of these templates for backend setup and then use a [copy doc](https://docs.google.com/document/d/1j43mf7Lsq2AXoNwiygGAr_laiFzmokNCfMHi7KNLjuA/edit#heading=h.tl82wncgutxu) to indicate all copy adjustments that are required (you will also update the baseline Marketo tokens during the setup process).
   - Project Management: [YYYYMMDD_Workshop_ProjectManagement_EventType](https://app-ab13.marketo.com/#ME6536A1)
   - Security: [YYYYMMDD_Workshop_SecurityWorkshop_EventType](https://app-ab13.marketo.com/#ME6521A1)
-  - Advanced CI/CD: [YYYYMMDD_Workshop_CI/CD_EventType](https://app-ab13.marketo.com/#ME6807A1)
+  - CI Workshop: [YYYYMMDD_Workshop_CI_EventType](https://app-ab13.marketo.com/#ME6807A1)
   - Jenkins [YYYYMMDD_Workshop_Jenkins_EventType](https://engage-ab.marketo.com/?munchkinId=194-VVC-221#/classic/ME8285A1)
   - GitLab Duo - AI Hands-on Workshop : [YYYYMMDD_Workshop_DuoAI_EventType](https://engage-ab.marketo.com/?munchkinId=194-VVC-221#/classic/ME16197A1)
   - GitHub GitLab Migration: [YYYYMMDD_Workshop_GitHubGitLab_EventType](https://engage-ab.marketo.com/?munchkinId=194-VVC-221#/classic/ME13738A1)
@@ -884,12 +884,12 @@ It is critical that any reference to asset number in Marketo automation (not tok
   - **Schedule**: Click on `Activate`. This should be set to `Each person can run through the flow every time`.
 - `01 Processing`
   - **Smart list**: No changes. Confirm that all references to the Marketo program match your program name.
-  - **Flow** (confirm that program references match the Marketo program name): `Step 1 - Add to List`- Delete any assets you are not using from the asset list. This will cause any responses that come in with that asset number to go into the error list and you can manually add them to the correct SFDC campaign.
+  - **Flow** (confirm that program references match the Marketo program name): 
     - `Step 2 - Add to SFDC Campaign` - Delete the selection for any assets you are not using for this Region/Vendor by clicking the X next to the relevant Choice. Confirm that you are deleting the choice referencing the correct asset. If you do not delete the choices for unused campaigns, the responses will be added to the template campaign in SFDC.
   - **Schedule**: Click on `Activate`. This should be set to `Each person can run through the flow every time`.
 - `03 Manual upload processing`
   - **Smart list**: No changes. Confirm that the program name in the filter matches your Marketo program name.
-  - **Flow** (confirm that program references match the Marketo program name): `Step 2 - Add to List`- Delete any assets you are not using from the asset list. This will cause any responses that come in with that asset number to go into the error list and you can manually add them to the correct SFDC campaign.
+  - **Flow** (confirm that program references match the Marketo program name): 
     - `Step 5 - Add to SFDC Campaign` - Delete the selection for any assets you are not using for this Region/Vendor by clicking the X next to the relevant Choice. Confirm that you are deleting the choice referencing the correct asset. If you do not delete the choices for unused campaigns, the responses will be added to the template campaign in SFDC. Note that it is not obvious when the selection deletes. Please confirm that the asset number you are deleting is correct before you click again.
   - **Schedule**: No changes. This will be activated by MOps if it is required. It will only be used on a manual upload and is not necessary if you use the self-service upload process.
 - `Not added to SFDC` - This isn't a campaign to activate, but this report will help you track issues with leads being added to SFDC.
@@ -926,6 +926,7 @@ There are a few common errors we see with Content Syndication leads. You can add
 1. Confirm that the correct Interesting Moment was Triggered
    - If no IM triggered, confirm that the `02 Interesting Moments` campaign is active in the program. If it is active, check to make sure that you have all of the assets set-up correctly in the Flow steps. You are likely missing an asset in the flow steps or the format of the `Content Syndication Asset` field was incorrect from the vendor.
 1. If you need to check the email deployment, change the "Filter" view to Email and confirm that the correct email was sent. In most cases, this should be the Welcome Email without a language specified.
+1. Check the `Not Added to SFDC` Smart List to make sure your test lead doesn't show up there.
 
 ### Steps to Setup Content Syndication - Campaigns through Integrate DAP - adding a new asset
 
@@ -978,12 +979,12 @@ It is critical that any reference to asset number in the Marketo automation belo
     - To add the new choice, change it to `Content Syndication Asset contains Asset x -`, `Type: Milestone, Description: Downloaded {{my.Assetx-Type}}-{{my.Assetx-Title}} from 3rd party site: {{my.vendor}}`. Replace the x in the token with the asset number.
 - `01 Processing`
   - **Smart list**: Add the Asset number to `Data Value Changes: Attribute=Content Syndication Asset, New Value contains [Asset list]`. Follow the same convention that is already in the list.
-  - **Flow**: `Step 1 - Add to List`- Add the Asset number to the asset list. Follow the same convention that is already in the list.
+  - **Flow**: 
     - `Step 2 - Add to SFDC Campaign` - Click `Add Choice`.
     - To add the new choice, change it to `Content Syndication Asset contains Asset x -`, `Campaign: {{my.Assetx-sfdc_campaign}}.` Replace the x in the token with the asset number. This is the token you added in Step 4. `Status: Downloaded`.
 - `03 Manual upload processing`
   - **Smart list**: No changes
-  - **Flow**: `Step 2 - Add to List`- Add the Asset number to the asset list. Follow the same convention that is already in the list.
+  - **Flow**: 
     - `Step 5 - Add to SFDC Campaign` - Click `Add Choice`.
     - To add the new choice, change it to `Content Syndication Asset contains Asset x -`, `Campaign: {{my.Assetx-sfdc_campaign}}.` Replace the x in the token with the asset number. This is the token you added in Step 4. `Status: Downloaded`.
 - `Not added to SFDC`: This isn't a campaign to activate, but this report will help you track issues with leads being added to SFDC.

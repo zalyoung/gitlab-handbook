@@ -152,8 +152,6 @@ The IT Helpdesk team (End User Services) will observe two holidays:
 
 - Senior IT Analyst Americas - [Jenny Wong](/handbook/company/team/#jwong6), jwong@gitlab.com, @jwong6
 
-- Senior IT Analyst APAC -  [Steve Ladgrove](/handbook/company/team/#sladgrove), sladgrove@gitlab.com, @sladgrove
-
 - IT Analyst APAC -  [Max Hirata](/handbook/company/team/#mhirata-gl), mraetz@gitlab.com, @mhirata-gl
 
 - IT Analyst EMEA - Bruno Ferreira, bferreira@gitlab.com, @bruno.n.ferreira

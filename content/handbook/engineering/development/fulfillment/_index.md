@@ -608,6 +608,10 @@ There are times when GitLab temporarily halts production changes during certain 
 
 During these PCLs, most notably at the end of the year, PCLs are managed in CustomersDot by creating an issue [using the PCL template](https://gitlab.com/gitlab-org/customers-gitlab-com/-/tree/main/.gitlab/issue_templates/Pcl.md). This issue should include a checklist of instructions along with DRIs and target times for adding or removing the `production::blocker` label. Once the PCL has ended, the issue can be closed.
 
+##### Zuora Blocked Period
+
+Zuora follows a [release calendar](/handbook/business-technology/enterprise-applications/pmo/#release-calendar) with blocked periods where Change Requests may not be possible or require additional approvals.
+
 ### Incident management
 
 On going [Fulfillment Platform](/handbook/engineering/development/fulfillment/fulfillment-platform/) work will provide greater observability to all of the Fulfillment systems. In the meantime, however, we have some tools like [CustomersDot health](https://customersdot.cloudwatch.net/) that post to [#s_fulfillment_status](https://gitlab.slack.com/archives/CL7SX4N86) in Slack. On occasion, there are reports of systemic critical trouble like a liveliness probe check failure, invalid SSL certificate, or other application errors. Look to the following sub-sections below for ways that you can contribute to error resolution.
@@ -856,7 +860,7 @@ See the [Fulfillment Section DIB page](/handbook/engineering/development/fulfill
 
 ## Performance indicators
 
-See the [Fulfillment Section Performance Indicators](/handbook/engineering/development/performance-indicators/fulfillment/) as well as the
+See the [Fulfillment Section Performance Indicators](https://internal.gitlab.com/handbook/company/performance-indicators/product/fulfillment-section/#regular-performance-indicators) as well as the
 [Centralized Engineering Dashboards](/handbook/product/groups/product-analysis/engineering/dashboards/).
 
 ## Maintainer ratios

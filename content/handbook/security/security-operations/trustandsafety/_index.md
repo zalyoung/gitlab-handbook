@@ -40,6 +40,11 @@ We want to make our corner of the internet a little safer, but also be the best 
 </thead>
 <tbody>
 <tr>
+<td>Matt Coons</td>
+<td><a href="/job-families/security/trust-and-safety">SecOps Manager - Lead T&S Strategy & Project Delivery </a></td>
+</tr>
+<tr>
+<tr>
 <td>Joanna Rubi</td>
 <td><a href="/job-families/security/trust-and-safety">Security Engineer, Trust & Safety</a></td>
 </tr>

@@ -302,7 +302,7 @@ The Account Leader (AE) is responsible for maintaining the Salesforce opportunit
 * **VSW URL** - The URL to the google drive folder containing the readout presentation and any other VSW artifacts.
 * **VSW Start Date Net ARR** - (Auto populated field) The opportunity Net ARR when the VSW start date is populated.
 
-Solutions Architects should leverage the following [SA Actiity Types](/handbook/solutions-architects/processes/activity-capture/activity-desc/#description-for-value-stream-workshop) when [loggin activity](/handbook/solutions-architects/processes/activity-capture/activity-desc/#description-for-value-stream-workshop)
+Solutions Architects should leverage the following [SA Activity Types](/handbook/solutions-architects/processes/activity-capture/activity-logging) when [logging activity](/handbook/solutions-architects/processes/activity-capture/activity-logging)
 
 * VSW Pitch
 * VSW Execution

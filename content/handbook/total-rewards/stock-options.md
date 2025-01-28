@@ -26,7 +26,7 @@ If a team member leaves GitLab, they have 90 days post termination to exercise t
 
 ## Stock Options
 
-In the past at GitLab, we have given equity grants in the form of Incentive Stock Options (ISOs) and Non-Qualified Stock Options (NQs). It's called an option because you have the option to    buy GitLab stock, subject to vesting terms, at the exercise price provided at the time of grant.  
+In the past at GitLab, we have given equity grants in the form of Incentive Stock Options (ISOs) and Non-Qualified Stock Options (NQs). It's called an option because you have the option to    buy GitLab stock, subject to vesting terms, at the exercise price provided at the time of grant.
 
 The difference in these two types of grants are, generally, as follows:
 
@@ -221,7 +221,7 @@ Taxation from the US perspective is not as straightforward as you might like. Yo
 
 Please note, however, that any gain upon exercise of an ISO (difference between the exercise price and fair market value at date of exercise), even if you do not sell the shares, may be counted as a "tax preference" towards the Alternative Minimum Tax limit. For instance, under scenario 1 above you have to make an adjustment in your tax return for the Alternative Minimum Tax (AMT) that equals the so-called bargain element. Each scenario has a different tax treatment, so be careful of the tax consequences when you exercise your options. In the long term, holding onto your stock does save taxes, however be aware of the AMT that you will be confronted with. It is strongly advised that you contact a tax advisor to be aware of the US tax consequences.
 
-In addition to the benefits of a longer holding period, the IRS does have an additional benefit for holders of Qualified Small Business Stock (QSBS for short). GitLab meets the criteria for QSBS treatment for options exercised prior to August, 2018, however (again), the Company is not in a position to offer tax or legal advice nor does it make any representation about compliance with the QSBS provisions, so check with your own tax and financial advisors. We found [this article](https://blog.wealthfront.com/qualified-small-business-stock-2016/) helpful  in describing the QSBS program in greater detail.
+In addition to the benefits of a longer holding period, the IRS does have an additional benefit for holders of Qualified Small Business Stock (QSBS for short). GitLab meets the criteria for QSBS treatment for options exercised prior to August, 2018, however (again), the Company is not in a position to offer tax or legal advice nor does it make any representation about compliance with the QSBS provisions, so check with your own tax and financial advisors. We found [this article](https://www.wealthfront.com/blog/qualified-small-business-stock-2016/) helpful  in describing the QSBS program in greater detail.
 
 ### US service providers with Non-qualified Statutory Options (NQs)
 

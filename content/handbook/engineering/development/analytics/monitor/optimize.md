@@ -16,6 +16,7 @@ title: "Optimize Group"
 - We do an asynchronous daily stand-up in our group stand-up channel:
   - [#g-optimize-engineers-standup](https://gitlab.enterprise.slack.com/archives/C07QLHAS02Z)
 - You can reach out to the team on slack at: [#g_plan_optimize](https://gitlab.enterprise.slack.com/archives/CJZR6KPB4)
+  - All Optimize team members are ancouraged to triage and respond to requests in the team Slack channel, regardless of the nature of the questions being asked.
 
 #### Prioritization
 
@@ -72,7 +73,7 @@ Generally speaking, issues are in one of two states:
 - Discovery/refinement: we're still answering questions that prevent us from starting development,
 - Implementation: an issue is waiting for an engineer to work on it, or is actively being built.
 
-Basecamp thinks about these stages in relation to the [climb and descent of a hill](https://basecamp.com/features/hill-charts).
+Basecamp thinks about these stages in relation to the [climb and descent of a hill](https://basecamp.com/#features).
 
 While individual groups are free to use as many stages in the [Product Development Flow](/handbook/product-development-flow/#workflow-summary) workflow as they find useful, we should be somewhat prescriptive on how issues transition from discovery/refinement to implementation.
 

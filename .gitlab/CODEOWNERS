@@ -199,6 +199,7 @@
 /content/handbook/engineering/infrastructure-platforms/data-access/git/ @pks-gitlab
 /content/handbook/engineering/infrastructure-platforms/tenant-scale/ @glopezfernandez @nhxnguyen
 /content/handbook/engineering/infrastructure-platforms/developer-experience/ @ghosh-abhinaba @kkolpakova @ksvoboda @marin @vincywilson
+/content/handbook/engineering/infrastructure-platforms/gitlab-delivery/ @marin @mbursi @dawsmith @plu8 @denisra
 /content/handbook/engineering/careers/matrix/infrastructure @marin @sabrinafarmer @dawsmith @amyphillips @rnienaber @mbursi
 /content/handbook/engineering/deployments-and-releases/ @marin @mbursi @dawsmith @gitlab-org/delivery
 /content/handbook/engineering/error-budgets/ @marin @rnienaber
@@ -215,7 +216,6 @@
 /content/handbook/engineering/infrastructure/service-maturity-model.md @rnienaber @marin @sabrinafarmer
 /content/handbook/engineering/infrastructure/team/ @marin
 /content/handbook/engineering/infrastructure/team/dei.md @andrewn
-/content/handbook/engineering/infrastructure/team/delivery/ @marin @mbursi @dawsmith
 /content/handbook/engineering/infrastructure/team/gitlab-dedicated/ @marin @amyphillips
 /content/handbook/engineering/infrastructure/team/gitlab-dedicated/environment-automation.md @o-lluch @denhams @marin @amyphillips
 /content/handbook/engineering/infrastructure/team/gitlab-dedicated/switchboard.md @ashiel @marin @amyphillips
@@ -240,12 +240,12 @@
 /content/handbook/engineering/development/incubation/ai-assist.md @jeromezng
 /content/handbook/engineering/development/incubation/airflow.md @jeromezng
 /content/handbook/engineering/development/incubation/breach-and-attack-simulation.md @jeromezng @erran
-/content/handbook/engineering/development/incubation/cloud-seed.md @jeromezng @sri19
+/content/handbook/engineering/development/incubation/cloud-seed.md @jeromezng @mnohr
 /content/handbook/engineering/development/incubation/jamstack/ @jeromezng
 /content/handbook/engineering/development/incubation/mlops/ @jeromezng @eduardobonet
 /content/handbook/engineering/development/incubation/mobile-devops/ @jeromezng @darbyfrey
 /content/handbook/engineering/development/incubation/no-code.md @jeromezng
-/content/handbook/engineering/development/incubation/okr.md @jeromezng @akotte
+/content/handbook/engineering/development/incubation/okr.md @jeromezng @kushalpandya
 /content/handbook/engineering/development/incubation/real-time-collaboration/ @jeromezng
 /content/handbook/engineering/development/incubation/server-runtime/ @jeromezng
 /content/handbook/engineering/development/incubation/service-desk.md @jeromezng @msaleiko
@@ -255,7 +255,6 @@
 /content/handbook/engineering/readmes/ben-king.md @benjaminking
 /content/handbook/engineering/readmes/craig-miskell.md @cmiskell
 /content/handbook/engineering/readmes/emily-chang.md @emchang
-/content/handbook/engineering/readmes/james-lopes.md @JamesRLopes
 /content/handbook/engineering/readmes/jane-gianoutsos.md @jgianoutsos
 /content/handbook/engineering/readmes/juan-silva.md @juan-silva
 /content/handbook/engineering/readmes/kamil-trzcinski.md @ayufan
@@ -571,7 +570,7 @@
 /content/handbook/security/product-security/infrastructure-security/ @jacobjernigan
 /content/handbook/security/product-security/data-security/ @jacobjernigan @boconnor @jcamgl
 /content/handbook/security/product-security/application-security/ @juliedavila
-/content/handbook/security/product-security/architecture/ @plafoucriere
+/content/handbook/security/product-security/security-architecture/ @plafoucriere
 /content/handbook/security/product-security/security-research/ @estrike
 /content/handbook/security/security-assurance/ @tdilbeck @corey-oas @jlongo_gitlab @cynthiamiller
 /content/handbook/security/security-operations/ @mcoons @cmoberly @rdickson1 @nslaughter @mjozenazemian
@@ -649,7 +648,7 @@
 /content/handbook/total-rewards/compensation/ @wendybarnes @mwilkins
 
 ^[tools-and-tips]
-/content/handbook/tools-and-tips/ai/ @dnsmichi @panand3 @russchgl @rogerwoo @smanzuik @dfrhodes 
+/content/handbook/tools-and-tips/ai/ @dnsmichi @panand3 @russchgl @rogerwoo @smanzuik @dfrhodes
 
 ^[working-groups]
 /content/handbook/company/working-groups/ @gitlab-com/egroup
@@ -740,6 +739,7 @@
 /content/handbook/security/security-assurance/security-compliance/access-reviews.md @cynthiamiller @tdilbeck @corey-oas @jlongo_gitlab @gitlab-com/egroup @gitlab-com/content-sites
 /content/handbook/security/security-assurance/security-compliance/sec-controls.md @cynthiamiller @tdilbeck @corey-oas @jlongo_gitlab @gitlab-com/egroup @gitlab-com/content-sites
 /content/handbook/security/security-assurance/security-compliance/security-control-lifecycle.md @cynthiamiller @tdilbeck @corey-oas @jlongo_gitlab @gitlab-com/egroup @gitlab-com/content-sites
+/content/handbook/security/security-assurance/security-compliance/pci-charter.md @cynthiamiller @tdilbeck @corey-oas @jlongo_gitlab @gitlab-com/egroup @gitlab-com/content-sites
 /content/handbook/security/security-assurance/security-risk/storm-program/ @cynthiamiller @tdilbeck @corey-oas @jlongo_gitlab @gitlab-com/egroup @gitlab-com/content-sites
 /content/handbook/security/security-assurance/security-risk/storm-program/critical-systems.md @cynthiamiller @corey-oas @jlongo_gitlab @gitlab-com/egroup @gitlab-com/content-sites
 /content/handbook/security/security-assurance/security-risk/third-party-risk-management.md @cynthiamiller @tdilbeck @corey-oas @jlongo_gitlab @gitlab-com/egroup @gitlab-com/content-sites

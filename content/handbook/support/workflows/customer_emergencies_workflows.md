@@ -200,6 +200,10 @@ In rare cases, the on-call engineer may experience concurrent emergencies trigge
 1. **Support Manager**: In Slack, ping the regional support group (*e.g.* `@support-team-americas`) and request assistance from anyone who is available to assist with the new incoming emergency case.
 1. **Second Support Engineer**: Acknowledge and resolve the emergency page to indicate that you are assisting the customer with the case.
 
+#### Customer emergencies are triggered by a GitLab incident
+
+If a GitLab incident is the cause for customer emergencies, check in with the CMOC and the Support Manager On-Call about whether a [Support Response](/handbook/support/workflows/cmoc_workflows.md#about-coordinating-a-support-response) is relevant. A [Support Response issue](https://gitlab.com/gitlab-com/support/support-team-meta/-/blob/master/.gitlab/issue_templates/Support%20Response.md) will be created when the incident requires a non-standard workflow or communication from Support; use this issue as a guide when you work on the emergencies. You can also collaborate on the workflow and share any information you find that would help Support Engineers to handle related tickets.
+
 #### Backup engineers on weekends in APAC
 
 Concurrent emergencies are anticipated to become more frequent over weekends. There is active discussion with the APAC managers on

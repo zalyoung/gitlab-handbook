@@ -434,7 +434,7 @@ Since GitLab is an [all remote](/handbook/company/culture/all-remote/) company w
 ### North Carolina
 
 - [Certificate of Coverage and Notice to Workers as to Benefit Rights](https://files.nc.gov/des/documents/Downloads/ncdes524_rev_1_21.pdf)
-- [Wage and Hour Notice to Employees](https://www.labor.nc.gov/media/1183/open)
+- [Wage and Hour Notice to Employees](https://www.labor.nc.gov/labor-law-posters-english/open)
 
 ### North Dakota
 

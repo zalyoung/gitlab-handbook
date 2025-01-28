@@ -44,7 +44,6 @@ Follow these steps to create a new ticket to start communications with a custome
     1. Set the **Preferred Region for Support** to the region similar to where the tenants' `Primary Region` is located.
     1. Add a `dedicated_contacted_request` **tag** to the ticket.
 1. Assign the ticket to yourself.
-1. Once the ticket has been created, change the Zendesk Form over to `GitLab Dedicated`.
 
 ## Keep the customer informed
 

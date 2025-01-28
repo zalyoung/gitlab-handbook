@@ -180,6 +180,26 @@ The Engineering Manager is responsible for clearing the path. They need to make 
 have the access to the right information, people, tools, and other resources to get the work done. They try to foresee
 problems and clear any blockers that may arise while the work is in progress.
 
+### Opening an Issue
+
+Within the Geo Team we utilize Issue Templates to create consistency in our Backlog to help us be more Efficient and deliver more Results.
+Using Issue Templates has been found to help the team in the following ways:
+
+1. Ensures an Issue has all the required information so that any contributor can pick up and start or join a conversation without any outside context.
+2. Empowers our Refinement Process to work more efficiently which results in higher Community Contributions and less SME reliance.
+3. Helps Issues stay relevant and not unintentionally sink to the bottom of our Backlog.
+
+We use the following Issue Templates:
+
+- [Bug (template)](https://gitlab.com/gitlab-org/gitlab/-/blob/master/.gitlab/issue_templates/Bug.md)
+  - Used as the template for Bugs and their investigation.
+- [Feature - lean (template)](https://gitlab.com/gitlab-org/gitlab/-/blob/master/.gitlab/issue_templates/Feature%20Proposal%20-%20lean.md)
+  - Used as the template for larger Feature requests. These will often drive a conversation and ultimately be promoted to Epics with Implementation Issues being broken off into MVC changes.
+- [Implementation (template)](https://gitlab.com/gitlab-org/gitlab/-/blob/master/.gitlab/issue_templates/Implementation.md)
+  - Used as the template to break down large Epics, organize MVC level changes, and assist in our Refinement Process.
+
+*Note: Many sections in a template should be treated as optional if there is no relevant information to be added.*
+
 ### Addressing new issues quickly
 
 When new issues arise (through testing, customer support issues, or other means) we still want to be able to address them
@@ -324,7 +344,7 @@ Process summary:
 
 - Every week, a slack reminder in [#geo-lounge](https://gitlab.enterprise.slack.com/archives/C7U95P909) channel will let the group know that a new support shift is starting for technical assessment triage.
 - Every Geo engineer is expected to be aware of their upcoming rotation (as per the schedule below) and take action as per the slack reminder.
-- The DRI currently assigned to the rotation should then dedicate their week to review issues from the customer support [backlog](https://gitlab.com/gitlab-com/geo-customers/-/issues/?label_name%5B%5D=support) and support in the [#g_geo](https://gitlab.enterprise.slack.com/archives/C32LCGC1H) channel.
+- The DRI currently assigned to the rotation should then dedicate their week to review issues from the customer support [backlog](https://gitlab.com/gitlab-com/request-for-help/-/issues/?sort=created_date&state=opened&label_name%5B%5D=Help%20group%3A%3AGeo&first_page_size=100) and support in the [#g_geo](https://gitlab.enterprise.slack.com/archives/C32LCGC1H) channel.
   - Be first on point to triage questions in our [#g_geo](https://gitlab.enterprise.slack.com/archives/C32LCGC1H) channel. Now that we have a slack workflow -> this should be taught/triggered per more complex questions and quickly answer anything that's short and sweet.
   - Expected duties are: triaging, creating issues, documenting initial research, adding priority labels etc. so that a customer support issue can enter our usual workflow. One dev continuing to take ownership of an issue they started on is preferred over handing it over.
 - If the DRI is unable to perform an upcoming triage rotation shift due to any reason (e.g. PTO, sick leave, other responsibilities taking precedence), they are expected to swap their rotation with another team member or notify the EM to facilitate. Once the swap is identified, the schedule should be updated with via a MR.
@@ -359,7 +379,7 @@ Retrospectives are a [crucial component](https://www.retrium.com/blog/i-was-wron
 
 At GitLab there is a general guideline to conduct [group retrospectives](/handbook/engineering/management/group-retrospectives/) and a process automation to run retrospectives [asynchronously](https://gitlab.com/gitlab-org/async-retrospectives). The Geo team however is working with a new process that combines elements of fully asynchronous work with the benefits of active conversation and the increased level of engagement that these types of interactions bring.
 
-The details of this process is documented in our [Geo Team Retrospectives](../retrospectives.html) page.
+The details of this process is documented in our [Geo Team Retrospectives](./retrospectives.md) page.
 
 ## FAQ
 

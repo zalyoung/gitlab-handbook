@@ -242,8 +242,8 @@ Calibration should be aligned to the following levels of leaders and people mana
 | Promotion Level | Level Calibrated |
 | ---------- | ----- |
 | Under Director level ([Job Grade]({{< ref "compensation-calculator#gitlab-job-grades" >}}) 5-9) | Calibrated at the Department level |
-| Director level ([Job Grade]({{< ref "compensation-calculator#gitlab-job-grades" >}}) 10) | Calibrated at the Division level |
-| Senior Director+ level ([Job Grade]({{< ref "compensation-calculator#gitlab-job-grades" >}}) 11-15) | Calibrated at the E-Group level |
+| Director/Sr Director level ([Job Grade]({{< ref "compensation-calculator#gitlab-job-grades" >}}) 10) | Calibrated at the Division level, with Sr Director level shared with E-Group for visibility |
+| VP level ([Job Grade]({{< ref "compensation-calculator#gitlab-job-grades" >}}) 11-15) | Calibrated at the E-Group level |
 
 Note that calibration structure may vary by division and department depending on size/scope/etc.
 
@@ -595,7 +595,7 @@ Demotions are not always considered a step backwards.  It may be an opportunity 
 
 Job title specialties are used to indicate a stage, group and/or a specific focus area of the team member within their responsibilities. These specialties are not part of the job title, but are used to feed into reporting around stage, group and/or focus area investments. It is also a resource for the People Group and leaders to leverage to review organizational health metrics and ratios.
 
-**If any changes are required to a team members Job Title Speciality, the manager should create a [HelpLab](https://helplab.gitlab.systems/esc?id=emp_taxonomy_topic&topic_id=6de369b997804e50a326158de053af7b) case for the People Connect team with the new job title specialty information along with the effective date of the change. If a new Job Title Specialty that does not already exist needs to be created, please open an [issue](https://gitlab.com/gitlab-com/people-group/people-tools-technology/general/-/issues/new#) to get it created in Workday using the `Workday: Job Title Specialty Request` template. It is an important manager responsibility to ensure this field remains accurate in Workday.**
+**If any changes are required to a team members Job Title Speciality, the manager should create a [HelpLab](https://helplab.gitlab.systems/esc?id=sc_cat_item&sys_id=8b5d24264753b150dff2c5a4f16d43cb) case for the People Connect team with the new job title specialty information along with the effective date of the change. If a new Job Title Specialty that does not already exist needs to be created, please open an [issue](https://gitlab.com/gitlab-com/people-group/people-tools-technology/general/-/issues/new#) to get it created in Workday using the `Workday: Job Title Specialty Request` template. It is an important manager responsibility to ensure this field remains accurate in Workday.**
 
 ### Job Title Specialty Guidance For Managers
 
@@ -877,7 +877,7 @@ Your profile will need to be updated in a few places to reflect your new title c
 - [GitLab Team Page](https://gitlab.com/gitlab-com/www-gitlab-com/-/tree/master/data/team_members/person)
 - [Zoom profile](https://zoom.us/profile)
 - Slack profile (updated within Slack)
-- Gmail signature (updated within Gmail), see [guidelines](https://handbook.gitlab.com/handbook/tools-and-tips/#email-signature)
+- Gmail signature (updated within Gmail), see [guidelines](/handbook/tools-and-tips/#email-signature)
 - [Guide profile](https://app.guide.co/account/profile), if you take part in hiring
 
 ## Footnotes

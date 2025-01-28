@@ -20,7 +20,7 @@ To better understand this, we're using this page to detail the phases of remote 
 
 {{< youtube "ZTcj1nhGmfw" >}}
 
-*In the [GitLab Unfiltered](https://www.youtube.com/playlist?list=PL05JrBw4t0Kq7QUX-Ux5fOunQotqJbECc) video above, Darren (Head of Remote, GitLab) and Luke (Founder, [Friday](https://www.friday.app)) unpack the phases of remote adaptation, and discuss projections for societal shifts related to remote work.*
+*In the [GitLab Unfiltered](https://www.youtube.com/playlist?list=PL05JrBw4t0Kq7QUX-Ux5fOunQotqJbECc) video above, Darren (Head of Remote, GitLab) and Luke (Founder, [Friday](https://friday.app/)) unpack the phases of remote adaptation, and discuss projections for societal shifts related to remote work.*
 
 It's important to frame one's transition to remote in terms of phases, as opposed to an all-or-nothing approach. Breaking adaptation down into smaller chunks creates less overwhelm. The goal for any suddenly remote company should be to graduate from one phase to another in a sustainable and efficient manner, instead of what will otherwise feel like a massive leap from nothing to mastery. This is [iteration](/handbook/values/#iteration) in practice.
 

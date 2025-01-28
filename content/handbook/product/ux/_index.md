@@ -138,6 +138,8 @@ In UX, we utilize [performance factor worksheets](https://drive.google.com/drive
 
 It is strongly encouraged for each team member to have their own worksheet created at the start of the fiscal year so that it can be used as a tool throughout the entire year.
 
+Performance factor worksheets can be utilized to help efficiently complete the year-end company [talent assessment program within Workday](/handbook/people-group/talent-assessment/).
+
 ## Meet some of our team members
 
 - [Valerie Karnes](https://gitlab.com/vkarnes/readme) - Director of Product Design

@@ -14,7 +14,7 @@ At GitLab we see **CREDIT** everywhere, it is in our 360 Feedback, Annual and Mi
 | **C**ollaboration | Course(s) from the [Building Trust and Collaborating with Others Pathway](https://www.linkedin.com/learning/paths/building-trust-and-collaborating-with-others-2) |
 | **R**esults       | [Enhancing your Productivity](https://www.linkedin.com/learning/enhancing-your-productivity/welcome?u=51852513)|
 | **E**fficiency    | [Efficient Time Management](https://www.linkedin.com/learning/efficient-time-management) |
-| **D**iversity     | [Diversity, Inclusion & Belonging](https://www.linkedin.com/learning/paths/diversity-inclusion-and-belonging-for-hr-professionals-and-leaders) |
+| **D**iversity     | [Diversity, Inclusion & Belonging](https://www.linkedin.com/learning/paths/diversity-equity-inclusion-and-belonging-for-hr-professionals-and-leaders) |
 | **I**teration     | [Interview about Iteration](https://youtu.be/tPTweQlBS54) |
 | **T**ransparency  | [Communicating with Transparency](https://www.linkedin.com/learning/communicating-with-transparency) |
 
@@ -28,7 +28,7 @@ We are experts in working remotely, so our handbook is the best resource for thi
 
 Giving and Receiving feedback is challenging. The training below provides some best practices and ideas regarding how to handle feedback.
 
-* [Giving & Receiving Feedback](https://www.linkedin.com/learning/giving-and-receiving-feedback)
+* [Giving & Receiving Feedback](https://www.linkedin.com/learning/giving-and-receiving-feedback-18926015)
 
 ## Mentoring
 
