@@ -48,13 +48,11 @@ Working asynchronously is highly efficient because everyone on the team can alwa
 
 >"There are many times when work isn't ready for us to tackle, tasks aren't planned, decision makers aren't online, etc. In these times, successful teams execute, even if they later have to refactor and adapt, they don't waste time "waiting".
 
-'Always default to action' is a mantra we keep on repeating at [Remote](https://remote.com/)."
-
 ### 3. Asynchronous work is more inclusive
 
 One of the biggest benefits of asynchronous work is that it completely [removes the hurdle of time zones](https://www.fastcompany.com/90712513/the-future-of-work-is-asynchronous).
 
->"At GitLab, we have people spread across 65 countries, so almost every time zone is covered. But, that also means that someone on your team is likely in a vastly different time zone. In fact, they may be asleep the entire time you're up working." - Darren M., GitLab's Head of Remote
+>"At GitLab, we have people spread across 60+ countries, so almost every time zone is covered. But, that also means that someone on your team is likely in a vastly different time zone. In fact, they may be asleep the entire time you're up working." - Darren M., GitLab's Head of Remote
 
 Business happens around the clock, in all time zones, in perpetuity. Attempting to shoehorn communications into a single time zone's predefined set of hours is [dysfunctional]({{< ref "#five-dysfunctions" >}}).
 
