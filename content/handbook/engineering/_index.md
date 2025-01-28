@@ -145,17 +145,17 @@ In order to ensure business continuity, and deliver on commitments; the Engineer
 
 A PTO Coverage issue is required for [job grades 8 and up](/handbook/total-rewards/compensation/compensation-calculator/#job-grades). For job grades 7 and below a PTO Coverage issue is recommended as there is value in going through the process of creating the PTO Coverage issue even if there are minimal items to include (for all levels) in that it forces you to think about what you have on your plate and what impact your PTO will have on those items. So whether the result is that the work waits or there is someone designated as a replacement DRI, it makes the decision explicit and documented.
 
-These issues will help inform teams as they plan their milestones to ensure the work teams are committed to can be achieved with the staff available, or if there will be a lack of staff to achieve those commitments, to work with team members to see what can be done to achieve the results for our customers.
-
-The process below helps to clarify and expand upon the [Flexible PTO Policy](/handbook/people-group/paid-time-off/#a-gitlab-team-members-guide-to-time-off) by making the coordination with the team members manager explicit.
-
-#### 1. Creating an Engineering coverage issue
-
 Once planning for a milestone has been completed (see [**Monday, 5 days before the milestone begins**](https://handbook.gitlab.com/handbook/engineering/workflow/#product-development-timeline:~:text=Monday%2C%205%20days%20before%20the%20milestone%20begins%3A)) PTO for periods longer than 5 consecutive days, inclusive of adjacent public holidays, cannot be requested. This is to prevent disrupting plans for that milestone. There are exceptions to this, but all need to be discussed with your manager. Examples include:
 
 - urgent scenarios
 - a team/individual hits targets earlier in the milestone ([we measure impact, not activity](/handbook/values/#measure-impact-not-activity))
 - a strong need for a team member to take PTO of this length
+
+These issues will help inform teams as they plan their milestones to ensure the work teams are committed to can be achieved with the staff available, or if there will be a lack of staff to achieve those commitments, to work with team members to see what can be done to achieve the results for our customers.
+
+The process below helps to clarify and expand upon the [Flexible PTO Policy](/handbook/people-group/paid-time-off/#a-gitlab-team-members-guide-to-time-off) by making the coordination with the team members manager explicit.
+
+#### 1. Creating an Engineering coverage issue
 
 You should use [this issue template](https://gitlab.com/gitlab-com/engineering-division/pto-coverage/-/issues/new) to define handshake responsibilities. For extended leave, it is important to find one or more Directly Responsible Individuals (DRIs) that will be able to make decisions while you are away. This may be your manager, another engineer, or maybe the Product Manager for your team. The coverage issue should contain all the necessary information for the DRIs to make good decisions in your absence, so please make sure to include as much detail as needed. The coverage issue should highlight work impact estimates, mitigations identified, and coverage alternatives.
 
