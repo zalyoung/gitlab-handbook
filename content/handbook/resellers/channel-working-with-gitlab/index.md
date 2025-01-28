@@ -120,22 +120,23 @@ If any of the above requirements are not met—or you fail to promptly schedule 
 
 The Services Attached incentive is based on the volume of licensing opportunities with services attached to those licensing deals. The more licensing deals you attach services to the richer the program becomes.
 
-- Services Attach deal registrations are submitted via the Partner Portal as a deal registration (Deal Registration Type = Services Attach) and then linked to GitLab licensing opportunities.
-- In order to receive their rebate, Partners must submit reasonable information and documentation proving that the services meet both program guidelines and customer needs.
+The Operational Process:
 
-Partners need to email an executed Statement of Work (SOW) within six (6) months of opportunity close date to partnersupport@gitlab.com for delivery of services. The SOW must include customer confirmation of the services, the services meet/met the guidelines as outlined in the current program guidance (found in the Partner Portal) for the incentive, confirm the dates of the project and include customer signature. Only one (1) Services Attach Reg can be approved per opportunity. SOWs must be approved by GitLab Ecosystem Specialists. 
+1. Services Attach deal registrations are submitted via the Partner Portal as a deal registration (Deal Registration Type = Services Attach) 
+2. Ecosystem Specialists validate and map the Services Attach Reg to the software opportunity
+3. Software opportunity is Closed Won 
+4. Partner provides a valid executed SOW
+5. Service Attached Reg is approved 
 
-For the avoidance of doubt, GitLab subcontracted Professional Services and MSP deals do not apply and will not be approved. Services must be connected to our software (e.g., SOW mentiones GitLab). The following services in scope are eligible to be paid:
+In order to receive their rebate, Partners must submit reasonable information and documentation proving that the services meet both program guidelines and customer needs. Per Step #4, Partners need to email an executed Statement of Work (SOW) within six (6) months of opportunity close date to partnersupport@gitlab.com for delivery of services. The SOW must include customer confirmation of the services, the services meet/met the guidelines as outlined in the current program guidance (found in the Partner Portal) for the incentive, confirm the dates of the project and include customer signature. Only one (1) Services Attach Reg can be approved per opportunity. SOWs must be approved by GitLab Ecosystem Specialists. 
 
-- Implementation
-- Integration
-- Optimization
-- Migration
-- Security/Compliance
-- Adoption 
-- Assessment
+For the avoidance of doubt, GitLab subcontracted Professional Services and MSP deals do not apply and will not be approved. Services must be connected to our software (e.g., SOW mentiones GitLab). 
 
-Rebates are paid out no later than 45 days after the end of each quarter in which the Services Attach Reg was Approved/Closed Won. Partners need to have connected with GitLab in our billing system,Coupa, by providing your banking information. To view the GitLab Services Attach Incentive Program, please visit the [GitLab Partner Portal](https://partners.gitlab.com/) and access the resources in the Program Documents folder in the Asset Library.
+The following services are **In Scope**: Implementation, Integration, Optimization, Migration, Security/Compliance, Adoption, Assessment
+
+The following services are **Out of Scope**: Education/Training, subscontracted services, free-of-charge services
+
+Partner Services Amount is calculated as attach rate times net ARR of the associated New/Add-on/Upsell/Renewal software opportunity. Rebates are paid out no later than 45 days after the end of each quarter in which the Services Attach Reg was Approved/Closed Won. Partners need to have connected with GitLab in our billing system, Coupa, by providing your banking information. To view the GitLab Services Attach Incentive Program, please visit the [GitLab Partner Portal](https://partners.gitlab.com/) and access the resources in the Program Documents folder in the Asset Library.
 
 ##### Quote to Order
 
