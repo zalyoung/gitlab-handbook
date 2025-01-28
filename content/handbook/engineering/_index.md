@@ -138,7 +138,7 @@ For customers using **CI/CD**, we're expanding the available types of Runners to
 ### Taking time off
 
 {{% note %}}
-This process is expected for PTO that is five consecutive days or more. For PTO that is fewer than five consecutive days you should not need a coverage issue but you can file one if you’d like.
+This process is expected for PTO that is five consecutive days or more, inclusive of adjacent public holidays. For PTO that is fewer than five consecutive days, including the cases where there are PTO blocks with a few working days in-between, a coverage issue is not required but a coverage issue can be filed for PTO of any length, especially if it'd be helpful to balance team continuity and individual flexibility.
 {{% /note %}}
 
 In order to ensure business continuity, and deliver on commitments; the Engineering Division is adopting a PTO Coverage Issue Process. Processes like this are already formalized in GitLab (e.g. [PM Coverage Issue](/handbook/product/product-management/product-manager-role/#creating-a-pm-coverage-issue)) and some team’s within Engineering have practiced this regularly at the Management+ level. This allows us to continue to support team member well-being through time away without negatively impacting the rest of the team.
@@ -151,7 +151,7 @@ The process below helps to clarify and expand upon the [Flexible PTO Policy](/ha
 
 #### 1. Creating an Engineering coverage issue
 
-Once planning for a milestone has been completed, PTO for periods longer than 5 consecutive days cannot be requested. This is to prevent disrupting plans for that milestone. There are exceptions to this, but all need to be discussed with your manager. Examples include:
+Once planning for a milestone has been completed (see [**Monday, 5 days before the milestone begins**](https://handbook.gitlab.com/handbook/engineering/workflow/#product-development-timeline:~:text=Monday%2C%205%20days%20before%20the%20milestone%20begins%3A)) PTO for periods longer than 5 consecutive days, inclusive of adjacent public holidays, cannot be requested. This is to prevent disrupting plans for that milestone. There are exceptions to this, but all need to be discussed with your manager. Examples include:
 
 - urgent scenarios
 - a team/individual hits targets earlier in the milestone ([we measure impact, not activity](/handbook/values/#measure-impact-not-activity))
