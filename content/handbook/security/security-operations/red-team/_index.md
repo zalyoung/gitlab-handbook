@@ -8,51 +8,53 @@ GitLab’s internal Red Team conducts security exercises that emulate real-world
 
 ## What are you looking for? (GitLab team members)
 
-* "**Is this the red team?**" Did you find something potentially malicious and you think it might be us? :point_right: [Is this the Red Team?](#is-this-the-red-team)
-* "**I have some attacker related ideas that could be quite interesting!**" :point_right: [Contact us](#contact-us)
-* "**Do you do penetration testing?**" :point_right: No. :smile: We don't do vulnerability enumeration. See [Services we offer](#services-we-offer)
-* "**I want to upskill in Red Teaming**" :point_right: See [resources](#additional-resourcesfurther-reading), [Club Red](opportunistic-attacks.md#club-red)
-* "**Can you hack me?**" :point_right: GitLab team members can sign up to our [laptop opt-in programme](https://forms.gle/kMTJEjzktcjAbTVn9)
-* "**Can you help us with an incident?** Does this look like hacker stuff in these logs?" :point_right: [Contact us](#contact-us)
-* "**Can you help find bugs in GitLab the product?**" :point_right: You're better off asking [Security Research](../../product-security/security-research/)
+- "**Is this the red team?**" Did you find something potentially malicious and you think it might be us? :point_right: [Is this the Red Team?](#is-this-the-red-team)
+- "**I have some attacker related ideas that could be quite interesting!**" :point_right: [Contact us](#contact-us)
+- "**Do you do penetration testing?**" :point_right: No. :smile: We don't do vulnerability enumeration. See [Services we offer](#services-we-offer)
+- "**I want to upskill in Red Teaming**" :point_right: See [resources](#additional-resourcesfurther-reading), [Club Red](opportunistic-attacks.md#club-red)
+- "**Can you hack me?**" :point_right: GitLab team members can sign up to our [laptop opt-in programme](https://forms.gle/kMTJEjzktcjAbTVn9)
+- "**Can you help us with an incident?** Does this look like hacker stuff in these logs?" :point_right: [Contact us](#contact-us)
+- "**Can you help find bugs in GitLab the product?**" :point_right: You're better off asking [Security Research](../../product-security/security-research/)
 
 GitLab’s internal Red Team conducts security exercises that emulate real-world threats. We do this to help assess and improve the effectiveness of the people, processes, and technologies used to keep our organization secure. We follow the GitLab Values as much as possible to transparently collaborate with teams within Security Division, and the wider company, for the best possible result.
 
-# Contact Us
+## Contact Us
 
 - GitLab team members: Slack :point_right: `#sd_security_redteam` or Direct Message.
 - General public :point_right: _email?_
 
-# General Information
+## General Information
 
-## Vision
+### Vision
 
 Improve GitLab's security posture and sharpen our defenses against constantly-evolving tools, techniques and procedures (TTPs) used by real-world adversaries. Continue to be a leader in the offensive security space with demonstrated transparency, collaboration and technical skill.
 
-## Mission
+### Mission
 
 - Leverage relevant threat intelligence to emulate realistic threats to our organisation. Do so ethically, safely, and collaboratively with the wider organisation.
 - Demonstrate the risk and impact of misconfigurations and security gaps.
 - Create recommendations to improve GitLab's security posture.
 - Collaborate with industry peers and customers to share relevant techniques as appropriate.
 
-# The Team
+## The Team
 
 The Red Team is part of the Security Operations department. [See GitLab’s organizational chart in Workday and meet our team members](https://www.myworkday.com/gitlab/d/home.htmld).
 
-# Services we offer
+Further details can be found in the [job family description](/job-families/security/red-team).
+
+## Services we offer
 
 In everything we do, we follow our [rules of engagement (RoE)](red-team-roe/)
 
-## Stealth operations
+### Stealth operations
 
 Our primary service. Stealth operations are typically 3-9 months in length and are focused on emulation of relevant threats to GitLab. We work closely with the Threat Intelligence team to identify an adversary that might pose a security risk to GitLab. Using tools we've developed similar to those of the adversary, we carry out the attack on GitLab's systems. We use stealth, testing the defenses realistically and without introducing unnecessary risk. [Read more...](stealth-operations.md)
 
-## Opportunistic attacks
+### Opportunistic attacks
 
 These are short (a few days), more spontaneous attacks against GitLab systems when a potential initial access vector comes to our attention. Depending on what we find, we can either raise an incident ourselves, or continue as attackers would until discovery. We're looking to formalise this to a framework for discovering initial access more efficiently such as IAB or Club Red. [Read more...](opportunistic-attacks/)
 
-## Purple teaming
+### Purple teaming
 
 Purple team represents a collaborative exercise between the Red team and Blue team (our defensive teams, usually [SIRT](../sirt/) or [Signals Engineering](../signals-engineering)). These can be:
 
@@ -61,7 +63,7 @@ Purple team represents a collaborative exercise between the Red team and Blue te
 
 [Read more...](purple-teaming/)
 
-## Research
+### Research
 
 We research upcoming technological trends and tools so we are familiar with them to keep current with the TTPs used by adversaries. Examples include:
 
@@ -75,7 +77,7 @@ Formalized operations and opportunistic attacks both require extensive research,
 
 [Read more...](research.md)
 
-# How We Operate
+## How We Operate
 
 The Red Team operates under a predefined set of [rules of engagement](how-we-operate/rules-of-engagement.md). These rules provide guidelines for determining scope, the ethics we employ during our engagements, how we collaborate as a security team, and how we escalate vulnerabilities and exploits we discover during those engagements.
 
@@ -83,7 +85,7 @@ We also track results via metrics which are available internally, including MITR
 
 [Read more...](how-we-operate/)
 
-# Additional Resources/Further Reading
+## Additional Resources/Further Reading
 
 - Public Red Team repository :point_right: redteam-public
   - Contains tools, scripts/proofs of concept and tech notes that have been made public
