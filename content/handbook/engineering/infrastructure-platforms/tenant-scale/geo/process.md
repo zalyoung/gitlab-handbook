@@ -226,12 +226,12 @@ If any issue is weighted above a 3, we should ask ourselves if it can be further
 
 ### Backlog Refinement Process (Trial Phase) 
 
-Backlog refinement equals moving issues from `workflow::validation backlog` through each stage toward `workflow::ready for development`. Engineers will follow https://handbook.gitlab.com/handbook/product-development-flow along with the refinement issue specifics.
+Backlog refinement equals moving issues from `workflow::validation backlog` through each stage toward `workflow::ready for development`. Engineers will follow instructions provided in a weekly assigned "refinement issue", which generally aligns with [Product Development Flow](../../../../product-development-flow).
 
 Issues in the [GitLab.org group](https://gitlab.com/groups/gitlab-org/-/issues) labeled `~"group::geo`, `workflow::validation backlog` will be refined. 
-Each week 5 issues will be randomly selected by a bot and refined by the team. Bugs will be priortized over feature requests and a go/no go will be given
+Each week 5 issues will be randomly selected by a bot and refined by the team. Bugs will be prioritized over feature requests and a go/no go will be given.
 
-1. Refinement issue is created and assigned to engineers.
+1. Refinement issue is created and assigned to engineers. It contains instructions for what to do with each issue and is the source of truth for this part of the process. The rest of the steps below are an overview.
 2. Phase 1: Engineers will select 2-3 issues each and put the label `~"workflow::problem validation` on when they start taking a look.
    1. If the issue doesn't have the right issue template/enough details, it will be sent back to the author/PM for clarification 
    2. If the issue is a bug and needs to be reproduced, it will be moved into `~"workflow::problem validation` and reassigned to someone in Phase 2 to reproduce, once reproduced, it can be assigned back
