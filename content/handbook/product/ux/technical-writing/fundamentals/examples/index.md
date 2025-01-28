@@ -7,7 +7,7 @@ We want to make sure we're telling readers everything they need to know.
 
 However, research shows that information is easier to digest if it's presented in
 repeatable patterns, so at GitLab we're moving toward using industry-standard
-[topic types](https://docs.gitlab.com/ee/development/documentation/structure.html).
+[topic types](https://docs.gitlab.com/ee/development/documentation/topic_types/).
 
 Each topic, or section on a page under a heading, should be identifiable as a concept, task, reference, or
 troubleshooting topic. This structure helps our users recognize patterns and
@@ -21,7 +21,7 @@ existing information and edit it into topics of specific types.
 The following topic was trying to be all things to all people. It provided information about groups
 and where to find them. It reiterated what was visible in the UI.
 
-![An example concept and task](example_1.png)
+![An example concept and task](/images/product/ux/technical-writing/fundamentals/examples/example_1.png)
 
 ## Concept and task topics: After
 
@@ -29,21 +29,21 @@ The information is easier to scan if you move it into concepts and tasks.
 
 ### Concept
 
-![A concept example after it's been corrected](example_1_after_concept.png)
+![A concept example after it's been corrected](/images/product/ux/technical-writing/fundamentals/examples/example_1_after_concept.png)
 
 ### Task
 
-![A task example after it's been corrected](example_1_after_task.png)
+![A task example after it's been corrected](/images/product/ux/technical-writing/fundamentals/examples/example_1_after_task.png)
 
 ## Reference topic: Before
 
 This topic was a compilation of a variety of information and was difficult to scan.
 
-![An example of a reference topic](reference_example1.png)
+![An example of a reference topic](/images/product/ux/technical-writing/fundamentals/examples/reference_example1.png)
 
 ## Reference topic: After
 
 The information in the **Overview** topic is now organized in a table
 that's easy to scan. It also has a more searchable title.
 
-![An example of a corrected reference topic](reference_example2.png)
+![An example of a corrected reference topic](/images/product/ux/technical-writing/fundamentals/examples/reference_example2.png)

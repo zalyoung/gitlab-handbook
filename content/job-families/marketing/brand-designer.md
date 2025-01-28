@@ -13,7 +13,7 @@ At GitLab, Brand Designers are responsible for ensuring strategic, seamless expe
 
 - Define and create a visual language as an extension of the brand (illustrations, icons, colors, typography, animations, etc.)
 - Be an advocate for consistent and cohesive design throughout the company.
-- Contribute to GitLab's [Brand Standards](/handbook/marketing/brand-and-product-marketing/brand/brand-activation/brand-standards/).
+- Contribute to GitLab's [Brand Standards](https://design.gitlab.com/brand-overview/resources/).
 - Educate others on design thinking, brand experience, and design-driven storytelling.
 - Collaborate with Content Marketing, and others, to establish a clear and concise brand voice, tone, and personality.
 - Collaborate with UX Design to create and maintain a cohesive and consistent brand experience between Marketing and Product.
@@ -52,7 +52,7 @@ Everything in the Associate Brand Designer role, plus:
 
 - Develop visual concepts for digital campaigns, webpages, print, and events.
 - Enable others, non-designers, to create on-brand assets.
-- Actively contribute to GitLab's [Brand Standards](/handbook/marketing/brand-and-product-marketing/brand/brand-activation/brand-standards/).
+- Actively contribute to GitLab's [Brand Standards](https://design.gitlab.com/brand-overview/resources/).
 
 #### Job Grade
 
@@ -105,7 +105,7 @@ The Senior Brand Designer is a [grade 7](/handbook/total-rewards/compensation/co
 
 The Staff Brand Designer is a [grade 8](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
 
-**Market Justification:** The Staff Brand Designer role will provide a high level of expertise in solving complex problems with a strong understanding of brand voice, audience, and strategy. Additionally, this role will be key in educating and enabling a consistent brand experience across the organization through industry experience related to creative philosophy, design principles, and brand standards. This role will help shape GitLab’s brand experience through extensive research, exploration, and iteration. Within the market there are a significant number of companies with an average of 7 team members in this type of role at the staff level.
+**Market Justification:** The Staff Brand Designer role will provide a high level of expertise in solving complex problems with a strong understanding of brand voice, audience, and strategy. Additionally, this role will be key in educating and enabling a consistent brand experience across the organization through industry experience related to creative philosophy, design principles, and brand standards. This role will help shape GitLab's brand experience through extensive research, exploration, and iteration. Within the market there are a significant number of companies with an average of 7 team members in this type of role at the staff level.
 
 #### Responsibilites
 
@@ -113,9 +113,9 @@ Everything in the Senior Brand Designer role, plus:
 
 - Inform the GitLab brand experience through research, exploration, and iteration.
 - Contribute to the development and production of Brand certifications and educational workshops.
-- Collaborate with marketing leaders and other Brand Design team members in shaping the evolution of GitLab’s brand, voice, and strategy as our company and platform evolve.
+- Collaborate with marketing leaders and other Brand Design team members in shaping the evolution of GitLab's brand, voice, and strategy as our company and platform evolve.
 - Contribute to the GitLab brand experience and how it drives value to / resonates with our enterprise and developer audiences.
-- Proactively contribute to GitLab’s Brand Design culture in areas such as Creative Philosophy, Design Principles, and Brand Standards.
+- Proactively contribute to GitLab's Brand Design culture in areas such as Creative Philosophy, Design Principles, and Brand Standards.
 - Contribute to the enablement of the broader GitLab organization; creating cohesive and consistent brand experiences across multiple channels and touchpoints through the development of self-serve tools, templates and libraries, request processes, communications, etc.
 
 #### Requirements
@@ -141,7 +141,7 @@ Everything in the Staff Brand Designer role, plus:
 - Use Design Thinking or other processes, to help drive thought leadership and work cross-functionally to define brand experiences that are innovative, solve real problems, and have impact on the business.
 - Build and nurture strong relationships with key partners and stakeholders throughout marketing, sales, and product; developing trust and enabling a cohesive cross-functional brand experience.
 - Demonstrate design leadership through extensive knowledge of the GitLab brand, strategic and creative execution, as well as the willingness to collaborate with and educate others.
-- Proactively contribute to GitLab’s Brand Design culture in areas such as Creative Philosophy, Design Principles, Brand Standards, workflows & best practices.
+- Proactively contribute to GitLab's Brand Design culture in areas such as Creative Philosophy, Design Principles, Brand Standards, workflows & best practices.
 - Lead the enablement of the broader GitLab organization to create cohesive and consistent brand experiences across multiple channels and touchpoints through the development of self-serve tools, templates, and libraries, request processes, communications, etc.
 - Support and contribute to the day-to-day leadership of the Brand Design team by providing inspiration, empowerment and mentorship to team members.
 - Evangelize the GitLab brand by actively promoting, and educating others of, the work and accomplishments of the Brand Design team.
@@ -163,7 +163,7 @@ Everything in the Staff Brand Designer role, plus:
 Everything in the Senior Brand Designer role, plus:
 
 - Lead the Brand Design team fostering innovation, collaboration, and continual evolution of GitLab's brand experience.
-- Oversee the definition, prioritization, and improvement of GitLab's [Brand Standards](/handbook/marketing/brand-and-product-marketing/brand/brand-activation/brand-standards/).
+- Oversee the definition, prioritization, and improvement of GitLab's [Brand Standards](https://design.gitlab.com/brand-overview/resources/).
 - Research and develop a greater understanding of GitLab's audience(s); iterating to keep our brand experience relevant and relatable.
 
 #### Job Grade

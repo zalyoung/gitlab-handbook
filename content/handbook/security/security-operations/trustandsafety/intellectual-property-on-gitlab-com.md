@@ -12,9 +12,16 @@ GitLab takes the intellectual property rights of others seriously and require th
 
 ### Trademark Policy
 
-GitLab can’t adjudicate disputes between third parties, and so we are not in a position to act on trademark reports that require an in-depth trademark analysis or a real-world dispute outside of GitLab. In these situations, rather than contacting GitLab, you may want to reach out directly to the party that you believe is infringing your rights, or seek any resolution in court or by other judicial means.
+GitLab.com namespaces are available on a first come, first served basis. No one can claim priority rights to any namespace on GitLab.com based on a trademark registration. For example, owning the trademark for "GreatCompany" does not mean the trademark owner will be granted the namespace name "gitlab.com/GreatCompany" if it is already registered.
 
-If you’re sure you want to report content on GitLab that you believe infringes your trademark, please review the `Submitting a Trademark Notice` section further below.
+GitLab is not in a position to investigate, assess or adjudicate complicated trademark disputes between third parties. In these instances, contact the third party that you believe is infringing your rights to resolve the matter, or seek resolution by available legal means. GitLab cannot intervene in such matters without a valid legal order.
+
+GitLab will only review a trademark infringement claim related to a namespace registered to a third party, and may intervene, where both of the below criteria are satisfied:
+
+1. you provide evidence to GitLab's satisfaction that you are holder of a relevant trademark registration, and
+1. you provide clear evidence to GitLab's satisfaction showing that unauthorized use is being made of your trademark such that there is an obvious intent to mislead others into believing that the relevant namespace is affiliated with your trademark.
+
+Reports can be submitted to dmca@gitlab.com, and GitLab will review the evidence provided, and if it satisfies the above criteria, GitLab will take any action it deems appropriate.
 
 ### Namespace Policy
 
@@ -46,21 +53,21 @@ A DMCA notice is a legal document, therefore GitLab requires you to submit a not
 1. A description of the copyrighted work that you claim is being infringed;
 1. A description of the material you claim is infringing and that you want removed or access to which you want disabled, and the URL or other location of that material;
 1. Your name, title (if acting as an agent), address, telephone number, and email address;
-1. The following statement: `“I have a good faith belief that the use of the copyrighted material I am complaining of is not authorized by the copyright owner, its agent, or the law (e.g., as a fair use)”`;
-1. The following statement: `“The information in this notice is accurate and, under penalty of perjury, I am the owner, or authorized to act on behalf of the owner, of the copyright or of an exclusive right that is allegedly infringed”`; and
+1. The following statement: `"I have a good faith belief that the use of the copyrighted material I am complaining of is not authorized by the copyright owner, its agent, or the law (e.g., as a fair use)"`;
+1. The following statement: `"The information in this notice is accurate and, under penalty of perjury, I am the owner, or authorized to act on behalf of the owner, of the copyright or of an exclusive right that is allegedly infringed"`; and
 1. An electronic or physical signature of the owner of the copyright or a person authorized to act on the owner's behalf.
 
 After your submission to dmca@gitlab.com, you should receive an automated confirmation of receipt.
 
 #### What happens Next?
 
- - Once your request is received, a member of our Trust and Safety Team will verify and process your notice.
- - Notices with missing or inaccurate information cannot be processed. A member of the Trust and Safety team will reach out to you for more information.
- - Should we verify that you have submitted the required information, you will receive a confirmation email from our team that your request has been processed.
-   - If you have not heard from us, you are welcome to send a follow-up email requesting an update.
- - Valid notices will be forwarded to the reported account owner, allowing them to submit a counter notice or remove the content from gitlab.com
- - GitLab users, implicated by the notice, have the right to submit a counter-notice. If the counter-notice is deemed valid, we will forward it to you for further action.
- - For more information on counter complaints, see the `Responding to a DMCA notice` section on this page.
+- Once your request is received, a member of our Trust and Safety Team will verify and process your notice.
+- Notices with missing or inaccurate information cannot be processed. A member of the Trust and Safety team will reach out to you for more information.
+- Should we verify that you have submitted the required information, you will receive a confirmation email from our team that your request has been processed.
+  - If you have not heard from us, you are welcome to send a follow-up email requesting an update.
+- Valid notices will be forwarded to the reported account owner, allowing them to submit a counter notice or remove the content from gitlab.com
+- GitLab users, implicated by the notice, have the right to submit a counter-notice. If the counter-notice is deemed valid, we will forward it to you for further action.
+- For more information on counter complaints, see the `Responding to a DMCA notice` section on this page.
 {{% /details %}}
 
 #### Responding to a DMCA Notice
@@ -80,6 +87,7 @@ The Counter complaint is a legal document and must comply with the requirements 
 {{% /details %}}
 
 {{% details sunmmary="Mitigating Copyright Infringement" %}}
+
 - Should you receive a gitlab.com DMCA notice for content that is in your control;
   1. You can respond to the notice by removing the reported content from gitlab.com.
   1. If you believe your content is mistakenly the subject of a DMCA take down request, you have the right to contest the take down request by submitting a counter complaint.
@@ -92,25 +100,12 @@ The Counter complaint is a legal document and must comply with the requirements 
 #### Trademark Infringement
 
 {{% details summary="Submitting a Trademark Infringement Notice" %}}
-If you’re sure you want to report content on GitLab that you believe infringes your trademark, please provide the following information:
+To submit a trademark infringement report under the [Trademark Policy](/handbook/security/security-operations/trustandsafety/intellectual-property-on-gitlab-com/#trademark-policy), please provide:
 
-1. Details of the original trademark (and a description if it's a logo).
-1. A list of the countries in which the trademark is registered.
-1. The registration number(s) of the trademark.
-1. A scanned copy of the trademark registration certificate(s) or screenshot of the registration on the website or database of the applicable national intellectual property office(s).
-1. A declaration of the following statement: "By submitting this notice, I state that I have a good-faith belief that the reported use, in the manner that I have complained of, is not authorised by the intellectual property rights owner, its agent or the law; that the information contained in this notice is accurate; and, under penalty of perjury, that I am authorised to act on behalf of the owner of the intellectual property rights at issue".
+1. Evidence that you are holder of a relevant trademark registration, such as a scanned copy of the trademark registration certificate(s) or screenshot of the registration on the website or database of the applicable national intellectual property office(s).
+1. A declaration of the following statement: "By submitting this trademark infringement notice, I state that I have a good-faith belief that the reported use, in the manner that I have complained of, is not authorized by the intellectual property rights owner, its agent or the law; that the information contained in this notice is accurate; and, under penalty of perjury, that I am authorized to act on behalf of the owner of the intellectual property rights at issue".
 
 You can send this information to dmca@gitlab.com, you should receive an automated confirmation of receipt.
-{{% /details %}}
-
-{{% details summary="Responding to a Trademark Infringement Request" %}}
-1. Should you receive a Trademark take down notice;
-  - You can respond to the notice by submitting the requested information that proves that you hold Trademark rights to the infringing content.
-{{% /details %}}
-
-{{% details summary="Mitigating Trademark Infringement" %}}
-1. Should you receive a Trademark take down request, you can;
-   1. Agree to remove the reported content within 24 hours of receiving our notice.
 {{% /details %}}
 
 #### Name Squatting
@@ -124,11 +119,13 @@ User namespaces can be reassigned if both of the following are true:
 
 - The user's last sign in was at least two years ago.
 - The user is not the sole owner of any active projects.
-- Group namespaces can be reassigned if one of the following is true:
-  - There is no data (no project or project(s) are empty).
-  - The owner's last sign in was at least two years ago.
-  - If the namespace contains data, GitLab Support will attempt to contact the owner over a two-week period before reassigning the namespaces. If the namespace contains no data (empty or no projects) and the owner is inactive, the namespace will be released immediately.
-  - Namespaces associated with unconfirmed accounts over 90 days old are eligible for immediate release. Group namespaces that contain no data and were created more than 6 months ago are likewise eligible for immediate release.
+
+Group namespaces can be reassigned if one of the following is true:
+
+- There is no data (no project or project(s) are empty).
+- The owner's last sign in was at least two years ago.
+- If the namespace contains data, GitLab Support will attempt to contact the owner over a two-week period before reassigning the namespaces. If the namespace contains no data (empty or no projects) and the owner is inactive, the namespace will be released immediately.
+- Namespaces associated with unconfirmed accounts over 90 days old are eligible for immediate release. Group namespaces that contain no data and were created more than 6 months ago are likewise eligible for immediate release.
 
 Account and Group ownership disputes should contact **GitLab Support** to see if namespaces are eligible.
 {{% /details %}}

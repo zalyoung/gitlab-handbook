@@ -28,7 +28,7 @@ For multi-person groups or critical projects, we use a heavier weight grading pr
 1. The audience is the key business stakeholder of the demo deliverables & the product group team (Development, UX, Quality, Product).
 1. Meeting should be kept to 30 minutes. The emphasis should be on the product requirements & acceptance criteria.
 1. The demo gets kicked off and each demo tracks iterate each week on the progress until completion.
-1. Live streaming or uploading to GitLab Unfiltered channel is options. Please abide by our SAFE guidelines if choosen to do so.
+1. Live streaming or uploading to GitLab Unfiltered channel is optional. Please abide by our SAFE guidelines if choosen to do so.
 
 ## Demo grading
 
@@ -45,7 +45,7 @@ Our scoring definitions are as follows:
 
 ## Single Engineer Groups Demo
 
-A different demo process is used by the [Single-Engineer Groups](/handbook/company/team/structure/#single-engineer-groups) and does not require a demo score card.
+A different demo process is used by the [Single-Engineer Groups](/handbook/company/structure/#single-engineer-groups) and does not require a demo score card.
 
 - Record a video on your computer or via Zoom livestream of the working software
 - Upload to the [GitLab Unfiltered Channel](https://www.youtube.com/channel/UCMtZ0sc1HHNtGGWZFDRTh5A)

@@ -45,6 +45,87 @@ When an issue related to `noinspection` is resolved and included in a released v
 
 Keep these sections sorted alphabetically. They are headers so that they can be directly linked.
 
+### IDEA-337625
+
+- Title: DIRC checksum mismatch error in Settings Sync
+- Link: https://youtrack.jetbrains.com/issue/IDEA-337625
+- Notes: The Settings Sync feature currently does not work. This is problematic because [JetBrains has also deprecated the previous alternative Settings Repository Plugin](/handbook/tools-and-tips/editors-and-ides/jetbrains-ides/setup-and-config/#update-2023-11)
+
+### RUBY-25400
+
+- Title: Programmatically defined constants always produce 'Unresolved reference' error
+- Link: <https://youtrack.jetbrains.com/issue/RUBY-25400/Programmatically-defined-constants-always-produce-Unresolved-reference-error#focus=Comments-27-7812554.0-0>
+- Notes:
+  - Requires `# noinspection RubyResolve`
+  - UPDATE 2023-07-10: Got a response from JetBrains here: <https://youtrack.jetbrains.com/issue/RUBY-25400/Programmatically-defined-constants-always-produce-Unresolved-reference-error#focus=Comments-27-7813280.0-0> stating limitations and potential workarounds.
+  - UPDATE 2023-01-06: This still happens in some cases, notably in the Declarative Policy DSL. Asked if we can get a specific issue to follow for this case:
+    https://youtrack.jetbrains.com/issue/RUBY-25400/Programmatically-defined-constants-always-produce-Unresolved-reference-error#focus=Comments-27-8744732.0-0
+
+### RUBY-25600
+
+- Title: Code style: compatibility with Rubocop's Layout/MultilineOperationIndentation
+- Link: https://youtrack.jetbrains.com/issue/RUBY-25600
+- Notes:
+  - This issue makes it impossible to have RubyMine autoformat match GitLab's RuboCop settings, and we have decided that we do not
+    want to change the default settings.
+  - Please upvote (thumbs-up) this issue to bring attention to it!
+
+### RUBY-31542
+
+- Title: Cannot resolve attributes on ActiveRecord model which is not in standard location
+- Link: <https://youtrack.jetbrains.com/issue/RUBY-31542/Cannot-resolve-attributes-on-ActiveRecord-model-which-is-not-in-standard-location>
+- Notes:
+  - Requires `# noinspection SqlResolve` or sometimes maybe `# noinspection RubyResolve` (e.g. if it's indirectly accessed via Rspec).
+  - UPDATE 2023-07-10: Got a response from JetBrains here: <https://youtrack.jetbrains.com/issue/RUBY-31542/Cannot-resolve-attributes-on-ActiveRecord-model-which-is-not-in-standard-location#focus=Comments-27-7813387.0-0> providing some information and requesting more info and follow-up
+  - UPDATE 2024-01-06: JetBrains marked the issue resolved, but we are still seeing errors which seem related. See comment here:
+    https://youtrack.jetbrains.com/issue/RUBY-31542/Cannot-resolve-attributes-on-ActiveRecord-model-which-is-not-in-standard-location#focus=Comments-27-8744712.0-0  
+
+### RUBY-32287
+
+- Title: RubyResolve error when calling ActiveRecord dynamically defined attribute methods from within an `if` block on ActiveRecord lifecycle methods
+- Link: <https://youtrack.jetbrains.com/issue/RUBY-32287>
+
+### RUBY-32288
+
+- Title: "Go To Declaration" shows libraries from gems in non-current SDK
+- Link: https://youtrack.jetbrains.com/issue/RUBY-32288
+- Notes:
+  - The root of this problem is really that we don't want rubymine to create modules for all our vendored gems under `gems`,
+    but it always prompts by default to make modules. Then this causes a related problem where the interpreters for these modules get
+    out of date.
+  - See this comment for some workarounds: https://youtrack.jetbrains.com/issue/RUBY-32288/Go-To-Declaration-shows-libraries-from-gems-in-non-current-SDK#focus=Comments-27-8922166.0-0
+
+### RUBY-32301
+
+- Title: Unable to find associated model/association in GitLab application
+- Link: https://youtrack.jetbrains.com/issue/RUBY-32301
+- Notes:
+  - This is currently un-resolvable due to the amount of metaprogramming and indirection involved with how we mix in the `EE` modules.
+  - Comment from JetBrains on the issue:
+    *"...it looks like RubyMine is unable to understand the relationship here due to the alternative definition approach with `prepended` from `ee/app/models/ee/clusters/agent.rb`. `Prependable` seems to be a custom approach to prepending code in GitLab,
+    and we don't have any recognition of it. Unfortunately I don't have any workarounds for this right now, but we can leave the ticket open in case we think of something."*
+
+### RUBY-32336
+
+- Title: Add support for declarative_policy
+- Link: https://youtrack.jetbrains.com/issue/RUBY-32336
+- Notes:
+  - Extensive metaprogramming in the declarative_policy gem causes 'Unresolved reference' errors
+  - See also https://youtrack.jetbrains.com/issue/RUBY-25400/Programmatically-defined-constants-always-produce-Unresolved-reference-error#focus=Comments-27-8805699.0-0 :
+    - "I'm afraid there is no existing issue. I think this is something that we can't really address without implementing custom support for this library, just due to how
+      it has written its own DSL. We'll create an issue requesting support for this library (so that you can mention it in your comments), but there isn't any timeframe
+      on implementing it right now sorry."
+
+### RUBY-32975
+
+- Title: Update unconventional name inspections to match RuboCop further
+- Link: https://youtrack.jetbrains.com/issue/RUBY-32975
+- Notes:
+  - Requires `# noinspection RubyClassModuleNamingConvention`
+  - Required to allow 2-character module names like `EE`
+
+## Closed Issues
+
 ### RUBY-31540
 
 - Title: Invalid RailsParamDefResolve warning when table name does not match class name
@@ -57,26 +138,10 @@ Keep these sections sorted alphabetically. They are headers so that they can be 
     handling in GraphQL mutations. We should consider renaming this table or model to match
     standard rails naming conventions.
 
-### RUBY-25400
+### RUBY-31544
 
-- Title: Programmatically defined constants always produce 'Unresolved reference' error
-- Link: <https://youtrack.jetbrains.com/issue/RUBY-25400/Programmatically-defined-constants-always-produce-Unresolved-reference-error#focus=Comments-27-7812554.0-0>
-- Notes:
-  - Requires `# noinspection RubyResolve`
-  - UPDATE 2023-07-10: Got a response from JetBrains here: <https://youtrack.jetbrains.com/issue/RUBY-25400/Programmatically-defined-constants-always-produce-Unresolved-reference-error#focus=Comments-27-7813280.0-0> stating limitations and potential workarounds.
-
-### RUBY-31542
-
-- Title: Cannot resolve attributes on ActiveRecord model which is not in standard location
-- Link: <https://youtrack.jetbrains.com/issue/RUBY-31542/Cannot-resolve-attributes-on-ActiveRecord-model-which-is-not-in-standard-location>
-- Notes:
-  - Requires `# noinspection SqlResolve` or sometimes maybe `# noinspection RubyResolve` (e.g. if it's indirectly accessed via Rspec).
-  - UPDATE 2023-07-10: Got a response from JetBrains here: <https://youtrack.jetbrains.com/issue/RUBY-31542/Cannot-resolve-attributes-on-ActiveRecord-model-which-is-not-in-standard-location#focus=Comments-27-7813387.0-0> providing some information and requesting more info and follow-up
-
-### RUBY-31543
-
-- Title: Fixtures declared with `let_it_be` from `test-prof` gem cannot be found, and give `RubyResolve` warning
-- Link: <https://youtrack.jetbrains.com/issue/RUBY-31543/Fixtures-declared-with-letitbe-from-test-prof-gem-cannot-be-found-and-give-RubyResolve-warning>
+- Title: Cannot find fixtures defined with `RSpec::Parameterized::TableSyntax`, causes `RubyResolve` warning
+- Link: <https://youtrack.jetbrains.com/issue/RUBY-31544/Cannot-find-fixtures-defined-with-RSpecParameterizedTableSyntax-causes-RubyResolve-warning>
 - Notes: Requires `# noinspection RubyResolve`
 
 ### RUBY-32041
@@ -87,10 +152,8 @@ Keep these sections sorted alphabetically. They are headers so that they can be 
   Note that this is different than <#ruby-31544> (<https://youtrack.jetbrains.com/issue/RUBY-31544/Cannot-find-fixtures-defined-with-RSpecParameterizedTableSyntax-causes-RubyResolve-warning>), which appears to be fixed in the latest EAP.
   RUBY-32041 seems to be specific to using `Array` types with `RSpec::Parameterized::TableSyntax`.
 
-## Closed Issues
+### RUBY-31543
 
-### RUBY-31544
-
-- Title: Cannot find fixtures defined with `RSpec::Parameterized::TableSyntax`, causes `RubyResolve` warning
-- Link: <https://youtrack.jetbrains.com/issue/RUBY-31544/Cannot-find-fixtures-defined-with-RSpecParameterizedTableSyntax-causes-RubyResolve-warning>
+- Title: Fixtures declared with `let_it_be` from `test-prof` gem cannot be found, and give `RubyResolve` warning
+- Link: <https://youtrack.jetbrains.com/issue/RUBY-31543/Fixtures-declared-with-letitbe-from-test-prof-gem-cannot-be-found-and-give-RubyResolve-warning>
 - Notes: Requires `# noinspection RubyResolve`

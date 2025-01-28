@@ -47,7 +47,7 @@ Just like us, the product teams are spread across the globe. Due to this, it mig
 - Inquire about the group's plans for breaking changes in the next major release well in advance (three months/releases prior). Try to get a proper understanding of how customers will be affected early on.
 - Be aware of the priorities and challenges of the product group.
 - Strive to become a subject matter expert in the use of the features they cover. At the section level, focus on becoming knowledgeable on feature usage and effect on customers.
-- Consider adding yourself as a CC to the [request-for-help](https://gitlab.com/gitlab-com/?filter=request-for-help) issue template for your product group. This ensures you will be notified anytime someone in Support needs to reach out to your group via an issue. You might be able to provide additional context, help your colleague or just benefit from increased awareness yourself.
+- Consider adding yourself as a CC to the [RFH issue template](https://gitlab.com/gitlab-com/request-for-help/-/tree/main/.gitlab/issue_templates?ref_type=heads) for your product group. This ensures you will be notified anytime someone in Support needs to reach out to your group via an issue. You might be able to provide additional context, help your colleague or just benefit from increased awareness yourself.
 - [Section SSC] Provide insight into relevant product KPIs and their potential impact on customers and Support.
 
 ### Enable Support with periodic communication relevant to the group
@@ -88,7 +88,7 @@ Here's some things that other SSCs are doing that might serve as additional insp
 - On a cadence, identify and tag or list relevant Support tickets you've worked on or seen (examples for [Pipeline Authoring](https://gitlab.com/gitlab-gold/mg-gold/log/-/issues/5#note_1227878476), [Pipeline Execution](https://gitlab.com/gitlab-gold/mg-gold/log/-/issues/4#note_1227880727))
 - Tag issues with "Support Priority" and "Support Efficiency" when appropriate. You can also use "Support Interest" to easily search for issues.
 - Analyze impact of fixing one or more high priority issues with the number of relevant tickets. (examples for [Authentication and Authorization](https://gitlab.com/gitlab-org/manage/general-discussion/-/issues/17628) and [SaaS Account tickets](https://gitlab.com/gitlab-com/support/support-team-meta/-/issues/4966))
-- Contacting customers on behalf of the product group: Normally this is something the CMOC does, but in non-urgent cases you might be better equipped with domain-specific knowledge for a specific conversation with a customer ([example from Pipeline Execution](https://gitlab.com/gitlab-com/support/internal-requests/-/issues/18107))
+- Contacting customers on behalf of the product group: [Normally](workflows/sending_notices.md) this is something the CMOC does, but in non-urgent cases you might be better equipped with domain-specific knowledge for a specific conversation with a customer ([example from Pipeline Execution](https://gitlab.com/gitlab-com/support/internal-requests/-/issues/18107))
 - Provide reviews of customer enablement campaigns: The [Customer Success Programs Team](/handbook/sales/field-operations/customer-success-operations/cs-ops-programs) creates campaigns to inform and educate our customers to help expand their usage of GitLab. As an SSC you're uniquely positioned as a Subject Matter Expert to review the communication that will go to customers with an eye for technical accuracy and ticket deflection. See [SME Review Guidelines](/handbook/sales/field-operations/customer-success-operations/cs-ops-programs/#subject-matter-expert-sme-review-guidelines) for more information.
 - Check if there is a [Support Pod](https://gitlab.com/gitlab-com/support/support-pods) that is topically aligned with your product group and consider joining it – you're an ideal candidate to benefit from the additional exposure to relevant tickets.
 
@@ -127,7 +127,7 @@ If your group doesn't have an SSC assigned and you'd like to request one, please
 
 ## Feedback on the current initiative
 
-During Q3-FY23 the [SSC create and document process to ensure alignment of Support and Product issue prioritization and track results](https://app.ally.io/objectives/2228176?time_period_id=155987) OKR focused on reaching out to Product and Engineering Managers, and their SSC/s to gather feedback. A common theme highlighted an interest from Product Managers having inputs from Support that may be able to provide insights for product planning and prioritization meetings with Product Managers.
+During Q3-FY23 the SSC create and document process to ensure alignment of Support and Product issue prioritization and track results OKR focused on reaching out to Product and Engineering Managers, and their SSC/s to gather feedback. A common theme highlighted an interest from Product Managers having inputs from Support that may be able to provide insights for product planning and prioritization meetings with Product Managers.
 
 SSCs that are regularly engaging with their product group are informing Support with knowledge they have picked up and the Product and Engineering Managers have built a steady relationship in these particular groups. There are still a few groups who are yet to build these foundational relationships, however, the feedback issues created an opportunity to encourage these discussions to start and a path forward for these groups to be carved out.
 
@@ -145,7 +145,7 @@ If you're interested in becoming a stable counterpart for a group,
 
 - Discuss with your manager.
 - Open an issue with the [SSC Onboarding template](https://gitlab.com/gitlab-com/support/support-training/-/blob/main/.gitlab/issue_templates/Support%20Stable%20Counterparts%20Basics.md) in the Support Training project.
-  - This is a very very short module that walks you through expectations and best practices, and will take less than half a day to complete!
+  - This is a very short module that walks you through expectations and best practices, and will take less than half a day to complete!
 - Once done, create a handbook merge request:
   - Add your name under 'Support' for the relevant team on [/data/stages.yml](https://gitlab.com/gitlab-com/www-gitlab-com/-/blob/master/data/stages.yml). Spell your name exactly as in the [YAML file for your team page entry](https://gitlab.com/gitlab-com/www-gitlab-com/-/tree/master/data/team_members/person) to ensure it will be linked up correctly.
   - Assign the MR to your manager.
@@ -154,13 +154,25 @@ Note: We encourage having more than 1 SSC for a group - so if the group you are 
 
 ## Non-group specific SSCs
 
-A couple of roles are not product group specific, but involve all the same expectations and responsibilities with some overlap of the [Support Liaison role](/handbook/support/support-liaisons).
+A couple of roles are not product group specific, but involve all the same expectations and responsibilities.
 Non-group specific counterparts typically also step in when the related group has questions where there is no SSC currently.
 
 | Section          | Group          | Group Contact       | Support Counterpart | Frequency           |
 |:----------------:|:--------------:|:-------------------:|:-------------------:|:-------------------:|
-| UX               | Tech Writing   | {{< member-by-name "Susan Tacker" >}} | {{< member-by-name "Mike Lockhart" >}}       | weekly team meeting |
-| Quality          | Reference Architecture | {{< member-by-name "Grant Young" >}} | {{< member-by-name "Simon Street" >}}        | TBD |
+| Finance          | Accounts               | TBD                                          | TBD                                    | N/A |
+| Finance          | Budget                 | {{< member-by-name "Chase Wright" >}}        | TBD                                    | 1x Qtr on budget + once per month |
+| Legal            | Legal                  | {{< member-by-name "Robin Schulman" >}}      | {{< member-by-name "Jason Colyer" >}}  | N/A |
+| PeopleOps        | After-hire care        | {{< member-by-name "Jessica Mitchell" >}}    | TBD                                    | N/A |
+| PeopleOps        | Talent Acquisition     | {{< member-by-name "Cyndi Walsh" >}}         | TBD                                    | N/A |
+| Performance      | Performance            | {{< member-by-name "Stan Hu" >}}             | {{< member-by-name "Lee Matos" >}}     | N/A |
+| Production       | .com Infrastructure    | {{< member-by-name "Dave Smith" >}}          | TBD                                    | N/A |
+| Marketing        | Developer Relations    | {{< member-by-name "John Coghlan" >}}        | TBD                                    | N/A |
+| Marketing        | Open Source Prog.      | {{< member-by-name "Bryan Behrenshausen" >}} | {{< member-by-name "Andrew Conrad" >}} | weekly team meeting |
+| Customer Success | Customer Success       | {{< member-by-name "Kristen Lawrence" >}}    | TBD                                    | weekly on Fri join EMEA scrum |
+| Sales            | Sales                  | TBD                                          | {{< member-by-name "Mike Dunninger" >}} / {{< member-by-name "Tine Sørensen" >}} | N/A |
+| Security         | Security Operations    | {{< member-by-name "Jan Urbanc" >}}          | {{< member-by-name "Brie Carranza" >}} | N/A |
+| UX               | Tech Writing           | {{< member-by-name "Susan Tacker" >}}        | {{< member-by-name "Mike Lockhart" >}} | weekly team meeting |
+| Quality          | Reference Architecture | {{< member-by-name "Grant Young" >}}         | {{< member-by-name "Simon Street" >}}  | N/A |
 
 ## Product counterparts
 

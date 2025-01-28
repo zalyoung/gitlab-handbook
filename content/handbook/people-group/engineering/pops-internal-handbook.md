@@ -29,7 +29,7 @@ to the hosted page.
 
 ### Engineer Access Requests
 
-People Group Engineers will need a couple of [Access Requests](/handbook/business-technology/team-member-enablement/onboarding-access-requests/access-requests/) in order to maintain, test, and deploy our current integrations and applications.
+People Group Engineers will need a couple of [Access Requests](/handbook/it/end-user-services/onboarding-access-requests/access-requests/) in order to maintain, test, and deploy our current integrations and applications.
 
 | **Name** | **Description** |
 |---|---|
@@ -41,9 +41,8 @@ People Group Engineers will need a couple of [Access Requests](/handbook/busines
 | [dev.gitlab.net](https://dev.gitlab.net) | Our development repository mirrors, similar to above. |
 | [ngrok](https://dashboard.ngrok.com/) | Allows us to test slack integrations without hitting our production server. This reroutes external requests to our local machine. |
 | Letter of Employment Spreadsheet | Helps us keep track of new hires and double check with existing integrations. |
-| BambooHR / Workday Permission | Enough permission to be able to use the web interface for simple team member look ups and should be able to use the API with the correct level of permission. |
+| Workday Permission | Enough permission to be able to use the web interface for simple team member look ups and should be able to use the API with the correct level of permission. |
 | Greenhouse | Job Admin: People Success permission. This allows us to us to use the Greenhouse API within our integrations for testing and debugging. |
 | [Slack API](https://api.slack.com/apps) | Permission to access Slack's API both for production and developmental purposes. |
 | [People Group Engineering](https://gitlab.com/groups/gitlab-com/people-group/peopleops-eng/-/group_members) GitLab Group Access | Grants us access to our publicly available projects. Nominatorbot, People-Connect, etc. |
 | [Compensation Calculator Admin](https://comp-calculator.gitlab.net/admin) & [Repository Access](https://gitlab.com/gitlab-com/people-group/peopleops-eng/compensation-calculator/-/project_members) | Allows us to grant or revoke permission to use the compensation calculator. Also lets us view the project on GitLab and make contributions. |
-| [Conservatory Access](https://conservatory.gitlab.net/) & [Repository Access](https://gitlab.com/gitlab-com/people-group/peopleops-eng/conservatory/-/project_members) | Allows us to manage [Greenhouse to BambooHR Syncs]({{< ref "gh-bhr-sync" >}}) as well as contribute to the private Conservatory project. |

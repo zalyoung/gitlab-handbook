@@ -8,7 +8,6 @@ The Learning and Development team is available to support GitLab teams in the fo
 
 | Support Model | When to use this process |
 | ----- | ----- |
-| Creating a Learning Hub for your team | You'd like to build a new Channel in GitLab Learn to curate professional development content for your team |
 | Hosting a Live Learning event | You'd like to **host** an internal Live Learning session |
 | Creating a new learning pathway | Create a new learning pathway or course for any audience |
 | Uploading to company learning platform | Add new or existing learning content to the LXP |
@@ -16,7 +15,7 @@ The Learning and Development team is available to support GitLab teams in the fo
 | Requesting content review | L&D review of your learning content for handbook first, adult learning theory, and bias for async alignment |
 | Requesting new content creation | You'd like the L&D team to **create** or **host** learning content for your team |
 
-### Creating a Learning Hub for your team
+### Creating a Learning Hub for your team  
 
 We work closely with leaders across GitLab to develop landing pages for learning material that is tailored to specific departments and teams. By creating learning hubs in Level Up, teams can contribute, curate, organize, and suggest professional development opportunities for their team members. Some scenarios where you might want to build a Channel include:
 
@@ -25,7 +24,6 @@ We work closely with leaders across GitLab to develop landing pages for learning
 1. You'd like a single spot to send team members who are looking for professional development courses
 
 To create new learning hub, open an issue in the [lxp-contributions project](https://gitlab.com/gitlab-com/people-group/learning-development/lxp-contributions) using the `learning-hub` issue template.
-
 
 ### Host a Live Learning event
 

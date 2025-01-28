@@ -8,7 +8,13 @@ Welcome to Learning and Development for the UX Department at GitLab! You are wel
 
 The resources in this page are meant to support product designers, researchers, technical writers, and their managers to explore, learn and grow at their own pace. We aim to collect content that spans various skill levels, as well as various levels of depth/commitment. It is recommended that the UX Department engage with the resources here to help them have a successful journey at GitLab and in their career as a whole.
 
-Most of the resources here are free but any content requiring payment [can be reimbursed following the GitLab reimbursement policies](/handbook/spending-company-money/).
+Most of the resources here are free but any content requiring payment [can be reimbursed following the GitLab reimbursement policies](/handbook/finance/spending-company-money/).
+
+## Growth and Development
+
+GitLab provides team members with the [growth and development benefit](/handbook/people-group/learning-and-development/growth-and-development/) to access external resources to develop their career. To take advantage of this benefit, review the company handbook page and follow the process.
+
+Managers should add approved growth and development programs to the [department spreadsheet tracker](https://docs.google.com/spreadsheets/d/1hLm_XEX3Vux1Co_dMY5A74io8oqXArDAX6MonlBOYNg/edit#gid=1233213154) in order to track departmental budget.
 
 ## Mentoring and coaching
 
@@ -61,8 +67,8 @@ Most of the resources here are free but any content requiring payment [can be re
 ### LinkedIn Learning
 
 - [UX Research: Lean Experimentation](https://www.linkedin.com/learning/ux-research-lean-experimentation/writing-an-effective-hypothesis) - This is a great overview of Lean UX and discusses business impact, iteration, hypothesis writing, experiment design, lean interviewing and more.
-- [Surveys and Questionnaires for UX Projects](https://www.linkedin.com/learning/surveys-and-questionnaires-for-ux-projects/getting-good-feedback?u=2255073) - This one might be a review for some of you but it's a good overview of what to know about surveys.
-- [UX Deep Dive: Analyzing Data](https://www.linkedin.com/learning/ux-deep-dive-analyzing-data/setting-your-objectives?u=2255073) - This one isn't about quantitative research, but it is about how to properly analyze your qualitative data to get to good insights.
+- [Surveys and Questionnaires for UX Projects](https://www.linkedin.com/learning/surveys-and-questionnaires-for-ux-projects/getting-good-feedback) - This one might be a review for some of you but it's a good overview of what to know about surveys.
+- [UX Deep Dive: Analyzing Data](https://www.linkedin.com/learning/ux-deep-dive-analyzing-data/setting-your-objectives) - This one isn't about quantitative research, but it is about how to properly analyze your qualitative data to get to good insights.
 
 ### Other Resources
 
@@ -93,39 +99,39 @@ Most of the resources here are free but any content requiring payment [can be re
 
 ### Handbook
 
-- [Minimum Viable Experiment](https://about.gitlab.com/handbook/engineering/development/growth/experimentation/#minimum-viable-experiment-mve)
-- [How Growth launches experiments](/handbook/product/growth/#how-growth-launches-experiments)
+- [Minimum Viable Experiment](/handbook/engineering/development/growth/experimentation/#minimum-viable-experiment-mve)
+- [How Growth launches experiments](/handbook/product/groups/growth/#how-growth-launches-experiments)
 - [Growth Experiments Knowledge Base](/handbook/marketing/growth/)
 
 ### Videos
 
 - [GitLab Growth experiment discussion: Adding the "Invite members" option in assignee dropdowns](https://www.youtube.com/watch?v=J5h_SNH3Nt8&list=PL05JrBw4t0Kr_-AowJmbhGk9yj_zIZySf&index=17)
 - [Growth Coffee & Learn: Anuj — Author Growth Hacking for Dummies](https://www.youtube.com/watch?v=a3VIrCSq_k8&list=PL05JrBw4t0Kr_-AowJmbhGk9yj_zIZySf&index=4)
-- [UX Showcase: New user onboarding strategy](https://www.youtube.com/watch?v=pihqBsophmE&list=PL05JrBw4t0Kq89nFXtkVviaIfYQPptwJz&index=33)
-- [UX Showcase: New User Onboarding](https://www.youtube.com/watch?v=NLDzr69D2Pw&list=PL05JrBw4t0Kq89nFXtkVviaIfYQPptwJz&index=56)
-- [UX Showcase - Growth - Continuous Onboarding](https://www.youtube.com/watch?v=G345H1Fgpo4&list=PL05JrBw4t0Kq89nFXtkVviaIfYQPptwJz&index=32)
-- [UX Showcase: An improved Trial Signup for GitLab.com](https://www.youtube.com/watch?v=5WWZsdJcr2k&list=PL05JrBw4t0Kq89nFXtkVviaIfYQPptwJz&index=149)
-- [UX Showcase: Promoting the value of locked features](https://www.youtube.com/watch?v=9_5PFgRFN74&list=PL05JrBw4t0Kq89nFXtkVviaIfYQPptwJz&index=150)
-- [UX Showcase: Authoring a Pipeline for the first time](https://youtu.be/wM97njPA8-w)
-- [UX Showcase: Simple changes, significant results](https://www.youtube.com/watch?v=uV0alFo_wfI)
+- [UX Forum: New user onboarding strategy](https://www.youtube.com/watch?v=pihqBsophmE&list=PL05JrBw4t0Kq89nFXtkVviaIfYQPptwJz&index=33)
+- [UX Forum: New User Onboarding](https://www.youtube.com/watch?v=NLDzr69D2Pw&list=PL05JrBw4t0Kq89nFXtkVviaIfYQPptwJz&index=56)
+- [UX Forum: Growth - Continuous Onboarding](https://www.youtube.com/watch?v=G345H1Fgpo4&list=PL05JrBw4t0Kq89nFXtkVviaIfYQPptwJz&index=32)
+- [UX Forum: An improved Trial Signup for GitLab.com](https://www.youtube.com/watch?v=5WWZsdJcr2k&list=PL05JrBw4t0Kq89nFXtkVviaIfYQPptwJz&index=149)
+- [UX Forum: Promoting the value of locked features](https://www.youtube.com/watch?v=9_5PFgRFN74&list=PL05JrBw4t0Kq89nFXtkVviaIfYQPptwJz&index=150)
+- [UX Forum: Authoring a Pipeline for the first time](https://youtu.be/wM97njPA8-w)
+- [UX Forum: Simple changes, significant results](https://www.youtube.com/watch?v=uV0alFo_wfI)
 - [How to launch product experiments at GitLab](https://youtu.be/rEHxAfxr9eU)
 - [UX collaboration on Growth experiments at GitLab](https://youtu.be/wnww8aBoqRY)
 
 ### Other Resources
 
-- [Growth Design](https://lexroman.com/growthdesign)
-- [Practicing Growth Design](https://lexroman.com/blog/2019/9/30/practicing-growth-design)
+- [Growth Design](https://lexroman.com/guides/growth-design)
+- [Practicing Growth Design](https://lexroman.com/guides/practicing-growth-design)
 - [What is a Growth Designer?](https://blog.alexaroman.com/what-is-a-growth-designer-1b342d55a358)
-- [Growth Designers Resources](https://growthdesigners.co/resources)
-- [Growth Design Case Studies](https://growth.design/case-studies/)
-- [The Psychology of Design](https://growth.design/psychology/)
+- [Growth Designers Resources](https://www.growthdesigners.co/tools)
+- [Growth Design Case Studies](https://growth.design/case-studies)
+- [The Psychology of Design](https://growth.design/psychology)
 - [10 insights into user-centered growth design](https://medium.com/dropbox-design/user-centered-growth-design-97a53d829807)
 - [A/B Testing: Concept != Execution](https://booking.design/a-b-testing-concept-execution-b37bf4d744d)
 - [Design Like a Scientist](https://youtu.be/XRd6Ddn4ZSY)
 
 ## UX writing
 
-- [Microcopy: Discover How Tiny Bits of Text Make Tasty Apps and Websites](https://www.amazon.com/dp/B071S54VLL/ref=cm_sw_em_r_mt_dp_51MKD8EZ2M7KMZYX7N2T) by Niaw de Leon
+- [Microcopy: Discover How Tiny Bits of Text Make Tasty Apps and Websites](https://www.amazon.com/dp/B071S54VLL/) by Niaw de Leon
 
 ## Leadership and Communication
 
@@ -153,13 +159,13 @@ Most of the resources here are free but any content requiring payment [can be re
 
 ### LinkedIn Learning
 
-- [Leading with Intelligent Disobediance](https://www.linkedin.com/learning/leading-with-intelligent-disobedience/what-is-intelligent-disobedience?u=2255073)
+- [Leading with Intelligent Disobediance](https://www.linkedin.com/learning/strategic-leadership-deploying-intelligent-disobedience/what-is-intelligent-disobedience)
 
 ## Time management and productivity
 
 ### Books
 
-- [Deep Work - Rules for Focused Success in a Distracted World](https://www.amazon.com/dp/B013UWFM52/ref=cm_sw_r_tw_dp_F00CBYJ3VJMPM6A2NYNQ) by Cal Newport
+- [Deep Work - Rules for Focused Success in a Distracted World](https://www.amazon.com/dp/B013UWFM52/) by Cal Newport
 - [Make time](https://www.goodreads.com/book/show/37880811-make-time) by Jake Knapp and John Zeratsky
 
 ## Behavioral Psychology in Design
@@ -178,18 +184,17 @@ Most of the resources here are free but any content requiring payment [can be re
 
 ### Books
 
-- [Refactoring UI](https://www.refactoringui.com/book) by Adam Wathan and Steve Schoger
+- [Refactoring UI](https://www.refactoringui.com/) by Adam Wathan and Steve Schoger
 - [About Face 3: The Essentials of Interaction Design](https://www.goodreads.com/book/show/289062.About_Face_3) by Alan Cooper, Robert Reimann, David Cronin
 
 ## Other GitLab resources
 
 ### Handbook Links
 
-- [Product Management Learning and Development](/handbook/product/product-manager-role/learning-and-development/) - a comprehensive list of internal and external resources that Product Managers at GitLab can use to build their skills.
+- [Product Management Learning and Development](/handbook/product/product-management/learning-and-development/) - a comprehensive list of internal and external resources that Product Managers at GitLab can use to build their skills.
 
 ### Book Clubs
 
 - From time to time, we run an internal book club on a book from one of our resource lists. Join the conversation in `#ux-book-club`.
 - [GitLab Book Clubs project](https://gitlab.com/gitlab-com/book-clubs)
 - [Leadership Book clubs](/handbook/leadership/book-clubs/)
-

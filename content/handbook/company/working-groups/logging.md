@@ -36,9 +36,7 @@ description: "The GitLab Logging Working Group will have multiple business purpo
 
 | Working Group Role  | Person           | Title                                  |
 |---------------------|------------------|----------------------------------------|
-| Facilitator         | Joe Dubail     | Manager, Infrastructure Security         |
-| Co-Facilitator     | Harjeet Sharma | Security Engineer, SIRT |
-| Exec Sponsor        | Laurence Bierner | Director, Security Engineering           |
+| Facilitator     | Harjeet Sharma | Security Engineer, SIRT |
 | Member              | Jeff Martin      | Senior IT Systems Engineer |
 | Member              | Steve Manzuik | Senior Manager, Threat Management |
 | Member              |Byron Boots |Senior Security Compliance Engineer  |
@@ -48,14 +46,13 @@ description: "The GitLab Logging Working Group will have multiple business purpo
 | Member              | Dan Croft | Senior Engineering Manager, Ops |
 | Member              |  |  |
 
-
 ## Requirements and Considerations
 
 ### Actors
 
 - Security Operations
 - Infrastructure Security
-- Security Engineering
+- Product Security
 - IT Engineering
 - Infrastructure
 - Development
@@ -81,11 +78,10 @@ description: "The GitLab Logging Working Group will have multiple business purpo
 - As a SIRT Engineer, I can retrieve archived log sources that are over 1 year old and be able to easily search, view and analyze those logs
 - As a SIRT Engineer, I can easily create rules, alerts and dashboards for Incident Response.
 - As a SIRT Engineer, I can find in the handbook information about log sources inluding:
-    - The DRI's responsible for each log source
-    - The format of each log source
-    - The fields recorded in each log source
+  - The DRI's responsible for each log source
+  - The format of each log source
+  - The fields recorded in each log source
 - As a SIRT Engineer, I am able to easily integrate logging data into other SIRT tools for fast, accurate and reliable Incident Response
-
 
 #### Infrastructure Security
 
@@ -95,7 +91,7 @@ description: "The GitLab Logging Working Group will have multiple business purpo
 - Delivery
   - As an Infrastructure Security Engineer, I need our logs to be scalable, consistent and reliable (no broken timestamps, no loss of data)
 - Retention
-  - As an Infrastructure Security Engineer, I need our logs to comply with [Retention & Disposal Requirements](/handbook/security/records-retention-deletion.html#retention--disposal-requirements-procedure), compliance with internal policies, standards, and regulatory requirements
+  - As an Infrastructure Security Engineer, I need our logs to comply with [Retention & Disposal Requirements](/handbook/security/records-retention-deletion/#retention--disposal-requirements-procedure), compliance with internal policies, standards, and regulatory requirements
 - Monitoring and Alerting
   - As an Infrastructure Security Engineer, I need to be able to easily analyze logs and threat findings for one or more infrastructure resources
   - As an Infrastructure Security Engineer, I need to be able to create alerts on rules and anomalies from my logs

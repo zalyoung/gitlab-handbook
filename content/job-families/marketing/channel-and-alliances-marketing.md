@@ -1,14 +1,12 @@
 ---
-title: Channel Marketing Team
-summary: The Global Channel Marketing team is a team of demand generation professionals dedicated to the creation of tools and programs that support our partners demand generation efforts.
+title: "Channel and Partner Marketing Team"
 ---
-The Global Channel Marketing team is a team of demand generation professionals dedicated to the creation of tools and programs that support our partners demand generation efforts.  The team sits within the Integrated Marketing organization.
 
 ## Channel Marketing Program Specialist
 
 Channel Marketing Program Specialists work with our marketing, operations and channel sales teams to build the foundation for a world class global partner marketing program that will drive customer acquisition and revenue growth for GitLab.
 
-This team works from a global charter to develop key services offerings and repeatable practices that scale to support our growing partner and channel ecosystems. The team is responsible for working cross-functionally with Integrated Marketing peers, channel sales, marketing operations, product marketing, finance, and legal to ensure our programs reflect GitLab’s culture, goals and objectives while mandating they are held to the highest ethical standards.  The Channel Marketing Specialist reports to the Director of Field Marketing.
+This team works from a global charter to develop key services offerings and repeatable practices that scale to support our growing partner and channel ecosystems. The team is responsible for working cross-functionally with Integrated Marketing peers, channel sales, marketing operations, product marketing, finance, and legal to ensure our programs reflect GitLab's culture, goals and objectives while mandating they are held to the highest ethical standards.  The Channel Marketing Specialist reports to the Director of Field Marketing.
 
 ### Job Grade
 
@@ -17,7 +15,7 @@ The Channel Marketing Program Specialist is a [grade 5](/handbook/total-rewards/
 ### Responsibilities
 
 - Create, maintain and manage our partner marketing services offerings that allow partners to develop integrated demand generation campaigns.  Offerings include: co-branded, dynamic partner microsites, on-prem and SAAS free trial program, partner references program and many more!
-- Plan, manage, execute and measure the adoption and on-going support of partner trial syndication across Focus, Open and Select partners, Distributors, GSI’s and Alliances partners.
+- Plan, manage, execute and measure the adoption and on-going support of partner trial syndication across Focus, Open and Select partners, Distributors, GSI's and Alliances partners.
 - Develop a global planning and reporting process that is inclusive of adoption and usage of these powerful demand generation tools.
 - Develop standard, repeatable and stable processes that promote and enable operational efficiency.
 - Implement channel marketing initiatives, programs, communication vehicles, and sales tools to drive increased market adoption and channel revenue goals.
@@ -47,7 +45,7 @@ A successful channel marketing program specialist would consider their next step
 
 Channel Marketing managers work with our channel account managers, field marketing managers, and global channel marketing team driving customer acquisition and revenue growth for GitLab.
 
-This team works from a regional charter to develop key services offerings and repeatable practices that scale to support our growing channel ecosystems. The team is responsible for working cross-functionally with Integrated Marketing peers, Field Makrketing Managers, channel sales, marketing operations, product marketing, finance, and legal to ensure our programs reflect GitLab’s culture, goals and objectives while mandating they are held to the highest ethical standards.  The Channel Marketing manager reports to the Regional Field Marketing Manager.
+This team works from a regional charter to develop key services offerings and repeatable practices that scale to support our growing channel ecosystems. The team is responsible for working cross-functionally with Integrated Marketing peers, Field Makrketing Managers, channel sales, marketing operations, product marketing, finance, and legal to ensure our programs reflect GitLab's culture, goals and objectives while mandating they are held to the highest ethical standards.  The Channel Marketing manager reports to the Regional Field Marketing Manager.
 
 ### Job Grade
 
@@ -88,7 +86,7 @@ A successful channel marketing manager would consider their next step to be a se
 
 Senior channel marketing managers work with our channel account managers, field marketing managers, global channel marketing team driving customer acquisition and revenue growth for GitLab.
 
-This team works from a global charter to develop key services offerings and repeatable practices that scale to support our growing partner and channel ecosystems. The team is responsible for working cross-functionally with channel sales, marketing operations, product marketing, finance, and legal to ensure our programs reflect GitLab’s culture, goals and objectives while mandating they are held to the highest ethical standards.  The Senior channel marketing manager reports to the Director of Global Channels and Alliances Marketing.
+This team works from a global charter to develop key services offerings and repeatable practices that scale to support our growing partner and channel ecosystems. The team is responsible for working cross-functionally with channel sales, marketing operations, product marketing, finance, and legal to ensure our programs reflect GitLab's culture, goals and objectives while mandating they are held to the highest ethical standards.  The Senior channel marketing manager reports to the Director of Global Channels and Alliances Marketing.
 
 ### Job Grade
 
@@ -129,7 +127,7 @@ A successful channel marketing manager would consider their next step to be a se
 
 As the Senior Partner Program Manager you will work with our marketing, operations and sales teams to build the foundation for a world class global partner marketing program that will drive customer acquisition and revenue growth for GitLab.
 
-This team has a global charter to develop standard business operations and repeatable practices that scale to support our growing partner and channel ecosystems. In addition, this team is responsible for working cross-functionally with channel sales, channel operations, finance and legal to ensure our programs reflect GitLab’s culture, goals and objectives while mandating they are held to the highest ethical standards.
+This team has a global charter to develop standard business operations and repeatable practices that scale to support our growing partner and channel ecosystems. In addition, this team is responsible for working cross-functionally with channel sales, channel operations, finance and legal to ensure our programs reflect GitLab's culture, goals and objectives while mandating they are held to the highest ethical standards.
 
 The Senior Partner Program manager, Channel reports to the Director of Global Channels and Alliances marketing.
 
@@ -221,7 +219,7 @@ Within this department, this team member would take on more strategic projects t
 
 The Senior Partner Program Manager works with our marketing, operations and sales teams to build the foundation for a world class global partner marketing program that will drive customer acquisition and revenue growth for GitLab.
 
-This team has a global charter to develop programs focused on engagement programs that target our partner Executive team including but not limited to Partner Summit, Executive Roundtables, Partner Awards and much, much more. These programs will scale to support our growing partner and channel ecosystems. In addition, the team is responsible for working cross-functionally with channel sales, channel operations, finance and legal to ensure our programs reflect GitLab’s culture, goals and objectives while mandating they are held to the highest ethical standards.
+This team has a global charter to develop programs focused on engagement programs that target our partner Executive team including but not limited to Partner Summit, Executive Roundtables, Partner Awards and much, much more. These programs will scale to support our growing partner and channel ecosystems. In addition, the team is responsible for working cross-functionally with channel sales, channel operations, finance and legal to ensure our programs reflect GitLab's culture, goals and objectives while mandating they are held to the highest ethical standards.
 
 The Senior Partner Program manager, Executive Engagement reports to the Director of Global Channels and Alliances marketing.
 
@@ -233,8 +231,8 @@ The Senior Partner Program manager, Executive Engagement is a [grade 8](/handboo
 
 - Design, develop and deploy an annual Regional Partner Summit program bringing the most strategic of our partners together to showcase their commitment to GitLab and our growing partnership.
 - Architect an agenda and cadence for Regional Partner Roundtable meetings that encourage continued engagement with partner executives.  These sessions will support our continued evolution of our channel strategy.
-- Develop thought leadership strategy to externally promote and amplify GitLab’s Partner Program and voice to our partners through a variety of paid and organic media channels inclusive of social media.
-- Develop a strategy for AR and PR engagements that support the Channel organization’s goals and objectives.
+- Develop thought leadership strategy to externally promote and amplify GitLab's Partner Program and voice to our partners through a variety of paid and organic media channels inclusive of social media.
+- Develop a strategy for AR and PR engagements that support the Channel organization's goals and objectives.
 - Develop standard, repeatable and stable processes that promote and enable operational efficiency.
 - Implement channel marketing initiatives, programs, communication vehicles, and sales tools to drive increased market adoption and channel revenue goals.
 - Assist sales team in the development of actionable and measurable programs for our channel partners.
@@ -263,12 +261,39 @@ Career progression for this role can take many forms.  This team member receives
 
 Within this department, this team member would take on more strategic projects that continue to drive value for our channel partners. Projects that offer exposure into sales and sales leadership and have a measurable effect on revenue. A natural next step for the right person could include people management.
 
-### Hiring Process
+## Director, Partner Marketing
 
-Candidates for these positions can expect the hiring process to follow the order below. Please keep in mind that candidates can be declined from the position at any stage of the process.
+GitLab is successfully partnering with top cloud and LLM providers, including Amazon Web Services and Google Cloud Platform, to meet our customers needs and to continue to deliver on their success. This role requires an experienced and full-stack marketer to support these relationships by driving and delivering on a co-marketing strategy. This role will include working with our partners’ marketing and sales teams, as well as cross-functionally at GitLab to create messaging, content, campaigns, programs, and events that build awareness around the partnerships and drive pipeline.
 
-- Qualified candidates will be invited to schedule a 30 minute [screening call](/handbook/hiring/interviewing/#screening-call) with one of our Global Recruiters.
-- Upon successful screening, all candidates will be interviewed by two individual contributors for 30 min each.  One from the global channel and alliances marketing team.  That interview will focus on sharing team culture, team dynamics, and role clarity.  The other individual contributor interview will be someone from Channel or Alliances sales that is be peer of this candidate.  This interview focuses on the candidates relative experience and it's applicability to the role.
-- The final interview will be with the Director of Global Channels and Alliances marketing who will focus on the candidates applicable experience and ensure it's in alignment with the needs of the business.  This interview will last 45 minutes.  The Director of Global Channels and Alliances marketing is deeply focused on building a team with a diverse skill set so the team can learn and grow together.  Softer skills will be assessed to see how the best candidate can add to the existing teams skill set as well as grow from their experience.
+### Responsibilities
 
-Additional details about our process can be found on our [hiring page](/handbook/hiring/).
+- Messaging and Positioning: Partner to develop internal and external-facing better together messaging that delivers on the strengths, key differentiators, and customer value of our partnerships.
+- Content: Drive the creation of relevant partnership content, including joint customer success stories, blog posts, whitepapers, and webinars, .
+- Event Planning and Execution: Conceptualize and manage partnership presence and activation at owned and third-party events. 
+- Integrated Campaigns: Develop and manage marketing campaigns that drive awareness of our partnerships and contribute to marketing pipeline. 
+- Collaboration: Be the face of partner marketing, building strong and productive relationships with our partner marketing and sales organizations, and GitLab colleagues.
+
+### Requirements
+
+- 10+ years enterprise software marketing experience, ideally working with software partners. 
+- Product marketing or product management experience is required. 
+- Understanding of Agile and DevOps methodologies across the entire Software Development Lifecycle, especially in large enterprise environments.
+- Excellent communication and writing skills, and the ability to distill down complex ideas in a variety of mediums (including content, decks, meetings). 
+- Able to coordinate across many teams and iterate and deliver in a fast-moving startup environment.
+- Proven experience being self-directed and working with minimal supervision.
+- Data-driven, use data to measure results and inform decision making and strategy development.
+- Experience managing marketing budgets and allocating resources across tactics.
+- High EQ and an excellent relationship builder, with the ability to secure resources and get buy-in from stakeholders.
+- You share our values and work according to those values.
+- Ability to travel if needed and comply with the company’s travel policy.
+
+### Performance Indicators
+
+- Strong and productive relationships with AWS and GCP peers & GTM team
+- Building "better together" messaging for AWS and GCP partnerships
+- Co-creating and executing Hyperscaler co-marketing strategy
+- Meet/exceed assigned quarterly OKRs
+
+### Career Ladder
+
+Career progression for this role can take many forms and is not yet clearly defined at GitLab. 

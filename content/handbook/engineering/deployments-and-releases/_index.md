@@ -6,8 +6,8 @@ title: "Deployments and Releases"
 
 This page describes the deployment and release approach used to deliver changes to users. The overall process consists of two significant parts:
 
-1 **Monthly self-managed release**: GitLab version (XX.YY.0) [published every month][process-monthly-release]. From this monthly release, [patch][process-patch-release], [non-critical][process-security-release-non-critical], and [critical][process-security-release-critical] security releases are created as needed
-1 **GitLab.com deployment**: A Continous Delivery process to deploy [branches created from master branch][auto-deploy], on regular intervals.
+1. **Monthly self-managed release**: GitLab version (XX.YY.0) [published every month](https://gitlab.com/gitlab-org/release/docs/blob/master/general/monthly/process.md). From this monthly release, [planned patches](/handbook/engineering/releases/patch-releases/) are scheduled twice a month and [unplanned critical patches](/handbook/engineering/releases/patch-releases/#unplanned-critical-patch-release-process) are created as needed.
+2. **GitLab.com deployment**: A Continous Delivery process to deploy [branches created from master branch](https://www.youtube.com/watch?v=_G-EWRpCAz4), on regular intervals.
 
 For more details on the individual processes and how to use them please see the [Deployments page](/handbook/engineering/deployments-and-releases/deployments) for GitLab.com changes and the [Releases page](/handbook/engineering/releases/) for changes for self-managed users.
 
@@ -23,7 +23,7 @@ For testing purposes, all changes are deployed to GitLab.com before being consid
 
 This overview shows how the two processes are connected:
 
-![Deployment and Release process overview](deployment-and-release-process-overview.png)
+![Deployment and Release process overview](/images/engineering/deployments-and-releases/deployment-and-release-process-overview.png)
 
 - [Diagram source](https://docs.google.com/presentation/d/1YRjA1dYCXNXp06VltDYlik1MdFyzUvaeXKk69mMPcA4/edit?usp=sharing)
 
@@ -42,7 +42,7 @@ For a more detailed explaination of the processes see the [deployments page](/ha
 
 The overall coordination and operation of the deployment and release process is the responsibility of the release managers.
 
-See the GitLab [Release Managers schedule] to find out who the current release managers are.
+See the GitLab [Release Managers schedule](https://about.gitlab.com/community/release-managers/) to find out who the current release managers are.
 
 ### How to contact a Release Manager
 
@@ -53,19 +53,18 @@ You can contact the current Release Managers:
 
 We use the `#releases` and `#f_upcoming_releases` channels to discuss and coordinate deployments and releases. Automated deployment status announcements are made to the `#announcements` channel.
 
-If you need to escalate a request, please use the [release management escalation process](/handbook/engineering/infrastructure/team/delivery/#release-management-escalation)
+If you need to escalate a request, please use the [release management escalation process](/handbook/engineering/infrastructure-platforms/gitlab-delivery/delivery/#release-management-escalation)
 
 ### Weekly Delivery Metrics Review
 
 Each week, the current Release Managers walk through the key Delivery Group metrics in the EMEA/AMER Delivery Weekly sync ([YouTube Playlist](https://www.youtube.com/playlist?list=PL05JrBw4t0KoPzC03-4yXuJEWdUo7VZfX)). The goal is to share experiences about recent deployments and releases, and for the Group to identify ways we can improve our tools and processes.
 
-[MTTP Monthly](https://about.gitlab.com/handbook/engineering/infrastructure-quality/performance-indicators/#mean-time-to-production-mttp) - [MTTP Weekly](https://app.periscopedata.com/app/gitlab/573702/WIP:-Delivery-team-PIs) - [Deployment blockers](https://gitlab.com/groups/gitlab-com/gl-infra/-/epics/873) - [Deployment SLO](https://dashboards.gitlab.net/d/delivery-deployment_slo/delivery-deployment-slo?orgId=1) - [GitLab: deployment frequency](https://gitlab.com/gitlab-org/gitlab/-/pipelines/charts?chart=deployment-frequency) - [GitLab: lead time](https://gitlab.com/gitlab-org/gitlab/-/pipelines/charts?chart=deployment-frequency)
+[MTTP Monthly](/handbook/engineering/infrastructure/performance-indicators/#mean-time-to-production-mttp) - [Deployment blockers](https://gitlab.com/groups/gitlab-com/gl-infra/-/epics/1496) - [Deployment SLO](https://dashboards.gitlab.net/d/delivery-deployment_slo/delivery-deployment-slo?orgId=1) - [GitLab: deployment frequency](https://gitlab.com/gitlab-org/gitlab/-/pipelines/charts?chart=deployment-frequency) - [GitLab: lead time](https://gitlab.com/gitlab-org/gitlab/-/pipelines/charts?chart=deployment-frequency)
 
 1. Walkthrough [Auto-Deploy packages dashboard](https://dashboards.gitlab.net/d/delivery-auto_deploy_packages/delivery-auto-deploy-packages-information?orgId=1)
 1. Walkthrough the monthly view of [GitLab: deployment frequency](https://gitlab.com/gitlab-org/gitlab/-/pipelines/charts?chart=deployment-frequency) and [GitLab: lead time](https://gitlab.com/gitlab-org/gitlab/-/pipelines/charts?chart=lead-time) - note any patterns
-1. Walkthrough of last week’s [Deployment Blockers](https://gitlab.com/groups/gitlab-com/gl-infra/-/epics/873)
-1. Do we need to take action based on the previous week’s MTTP?
-
+1. Walkthrough of [Deployment Blockers Dashboard](https://dashboards.gitlab.net/d/delivery-deployment_blockers/delivery3a-deployment-blockers?orgId=1) and last week's [Deployment Blockers](https://gitlab.com/groups/gitlab-com/gl-infra/-/epics/1496)
+1. Do we need to take action based on the previous week's MTTP?
 
 ## Resources
 
@@ -78,11 +77,3 @@ Each week, the current Release Managers walk through the key Delivery Group metr
 | Deployment process | [Link](/handbook/engineering/deployments-and-releases/deployments/) |
 | Release process | [Link](/handbook/engineering/releases/) |
 | Maintenance Policy | [Link](https://docs.gitlab.com/ee/policy/maintenance.html) |
-
-[auto-deploy]: https://www.youtube.com/watch?v=_G-EWRpCAz4
-[process-monthly-release]: https://gitlab.com/gitlab-org/release/docs/blob/master/general/monthly/process.md
-[process-patch-release]: https://gitlab.com/gitlab-org/release/docs/blob/master/general/patch/process.md
-[process-auto-deploy]: https://gitlab.com/gitlab-org/release/docs/blob/master/general/deploy/auto-deploy.md
-[process-security-release-critical]: https://gitlab.com/gitlab-org/release/docs/blob/master/general/security/process.md#critical-security-releases
-[process-security-release-non-critical]: https://gitlab.com/gitlab-org/release/docs/blob/master/general/security/process.md#non-critical-security-releases
-[Release Managers schedule]: https://about.gitlab.com/community/release-managers/

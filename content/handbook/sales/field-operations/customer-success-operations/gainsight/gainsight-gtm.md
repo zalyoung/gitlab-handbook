@@ -1,17 +1,7 @@
 ---
-
 title: "Gainsight: Go-To-Market Technical Documentation"
 description: "This page is the key GitLab Handbook page for all technical documentation relating to Gainsight, including the different functions of the tool as well as how we utilize each function to accomplish our integration and automation needs."
 ---
-
-
-
-
-
-
-
-
-
 
 ## Gainsight
 
@@ -19,7 +9,7 @@ Gainsight is a system that our CSMs use in order to support our customers and to
 
 ### Gainsight Rules Engine
 
-The Rules engine is a business automation tool build within Gainsight that allows for automation to be built within Gainsight but also to sync out to other systems. It is used in a variety of ways in our instance from enriching data that we bring in from Salesforce (i.e. Company Hierarchies) to Call To Action automatiosn and even syncing data back from Gainsight to Salesforce. More info can be found on the [Rules Engine on Gainsights Website](https://support.gainsight.com/SFDC_Edition/Rules_Engine/About/Rules_Engine_Overview).
+The Rules engine is a business automation tool build within Gainsight that allows for automation to be built within Gainsight but also to sync out to other systems. It is used in a variety of ways in our instance from enriching data that we bring in from Salesforce (i.e. Company Hierarchies) to Call To Action automatiosn and even syncing data back from Gainsight to Salesforce. More info can be found on the [Rules Engine on Gainsights Website](https://support.gainsight.com/gainsight_nxt/03Rules_Engine/Rules_Engine_(Bionic_Rules)/About/Rules_Engine_Overview).
 
 ## Bi-Directional syncs: Salesforce <> Gainsight
 
@@ -28,15 +18,16 @@ The Rules engine is a business automation tool build within Gainsight that allow
 ### Bi-Directional rules
 
 - Bi-Directional Builds
-   - Pull/Push CSM changes: This rule maintains the Customer Success Manager on the account between the two systems.
+  - Pull/Push CSM changes: This rule maintains the Customer Success Manager on the account between the two systems.
 
 ### Syncing data from Salesforce to Gainsight
 
 #### Connectors 2.0
 
-The `Connectors 2.0` is used as one of the main ingestion methods of data from Salesforce to Gainsight and is a native built integration that exists between the two systems. The connector is authenticated using a Gainsight Integration user in our Salesforce Instance. More information in regards to the connector and how to set it up [in Gainsights Knowledge Base](https://support.gainsight.com/Gainsight_NXT/01Onboarding_and_Implementation/Onboarding_for_Gainsight_NXT_in_Salesforce/Salesforce_Connector/Salesforce_Connector_Overview).
+The `Connectors 2.0` is used as one of the main ingestion methods of data from Salesforce to Gainsight and is a native built integration that exists between the two systems. The connector is authenticated using a Gainsight Integration user in our Salesforce Instance. More information in regards to the connector and how to set it up [in Gainsights Knowledge Base](https://support.gainsight.com/gainsight_nxt/Connectors/CRM_Integrations/Salesforce_Connector).
 
 The `Connectors 2.0` is used between our Salesforce instance and Gainsight instance to mainly sync three objects:
+
 - Accounts
 - Contacts
   - The Upsert key for contacts is their email address. This is useful when it comes to the bi-directional sync of contacts that are created in Gainsight.
@@ -191,4 +182,3 @@ Below are the Gainsight bundles (permission sets) and relevant access categories
 | Admin: Reporting                      | Admin access to build, share, and modify reports and dashboards | ✓                          |             |              |                            |             | ✓           |
 | Admin: Rules Engine                   | Admin access to create rules (workflows) to run CTAs and other operations | ✓                |             |              |                            |             | ✓           |
 | Admin: User Provisioning              | Admin access: user provisioning and deprovisioning access    | ✓                             |             |              |                            |             |             |
-

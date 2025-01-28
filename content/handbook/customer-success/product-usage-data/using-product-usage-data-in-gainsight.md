@@ -1,17 +1,9 @@
 ---
-
 title: "How to Use Product Usage Reporting"
 description: "Effective ways to apply product usage reporting for Sales and Customer Success teams to support their customers' top initiatives and business objectives."
 ---
 
 <link rel="stylesheet" type="text/css" href="/stylesheets/biztech.css" />
-
-
-
-
-
-
-
 
 ---
 
@@ -32,30 +24,48 @@ For a high level overview (7 minutes), see the [Using Product Usage Reporting in
 
 ## Quick links
 
-<div class="flex-row" markdown="0" style="height:80px">
-<a href="/handbook/customer-success/product-usage-data/" class="btn btn-purple" style="width:50%;height:100%;margin:5px;display:flex;justify-content:center;align-items:center;">Operational Data <br> Vision Page</a>
-<a href="https://metrics.gitlab.com/" class="btn btn-purple" style="width:50%;height:100%;margin:5px;display:flex;justify-content:center;align-items:center;">Metrics Dictionary</a>
+<div class="grid-container" markdown="0">
+  <a href="/handbook/customer-success/product-usage-data/" class="btn btn-purple">Operational Data <br> Vision Page</a>
+  <a href="https://metrics.gitlab.com/" class="btn btn-purple">Metrics Dictionary</a>
+  <a href="/handbook/sales/field-operations/sales-systems/license-usage-app/" class="btn btn-purple">Salesforce License <br> Utilizaton App</a>
+  <a href="/handbook/business-technology/data-team/data-catalog/product-usage-data/" class="btn btn-purple">Data Team Handbook</a>
+  <a href="/handbook/customer-success/product-usage-data/use-case-adoption/" class="btn btn-purple">Health Scoring - Calculations and Methodology</a>
+  <a href="/handbook/customer-success/product-usage-data/using-gainsight-data-in-sfdc/" class="btn btn-purple">Using Gainsight Usage Reporting <br> in Salesforce</a>
+  <a href="/handbook/customer-success/product-usage-data/use-case-adoption/#license-utilization-in-gainsight" class="btn btn-purple">License Utilization <br> in Gainsight</a>
+  <a href="/handbook/customer-success/csm/health-score-triage/#gainsight-scorecard-attributes-and-calculations" class="btn btn-purple">Gainsight Scorecard <br> Attributes and Calculations</a>
+  <a href="/handbook/customer-success/product-usage-data/freemium-saas-usage-data/" class="btn btn-purple">SaaS Free/Trial <br>Usage Reporting</a>
+  <a href="/handbook/customer-success/product-usage-data/using-product-usage-data-in-gainsight/#frequently-asked-questions" class="btn btn-purple"> Product Usage Reporting FAQs </a>
 </div>
-<div class="flex-row" markdown="0" style="height:80px">
-<a href="/handbook/sales/field-operations/sales-systems/license-usage-app/" class="btn btn-purple" style="width:50%;height:100%;margin:5px;display:flex;justify-content:center;align-items:center;">Salesforce License <br> Utilizaton App</a>
-<a href="/handbook/business-technology/data-team/data-catalog/product-usage-data/" class="btn btn-purple" style="width:50%;height:100%;margin:5px;left;display:flex;justify-content:center;align-items:center;">Data Team Handbook</a>
-</div>
-<div class="flex-row" markdown="0" style="height:80px">
-<a href="/handbook/customer-success/product-usage-data/use-case-adoption/" class="btn btn-purple" style="width:50%;height:100%;margin:5px;left;display:flex;justify-content:center;align-items:center;">Health Scoring - Calculations and Methodology</a>
-<a href="/handbook/customer-success/product-usage-data/using-gainsight-data-in-sfdc/" class="btn btn-purple" style="width:50%;height:100%;margin:5px;left;display:flex;justify-content:center;align-items:center;">Using Gainsight Usage Reporting <br> in Salesforce</a>
-</div>
-<div class="flex-row" markdown="0" style="height:80px">
-<a href="/handbook/customer-success/product-usage-data/use-case-adoption/#license-utilization-in-gainsight" class="btn btn-purple" style="width:50%;height:100%;margin:5px;left;display:flex;justify-content:center;align-items:center;">License Utilization <br> in Gainsight</a>
-<a href="/handbook/customer-success/csm/health-score-triage/#gainsight-scorecard-attributes-and-calculations" class="btn btn-purple" style="width:50%;height:100%;margin:5px;left;display:flex;justify-content:center;align-items:center;">Gainsight Scorecard <br> Attributes and Calculations</a>
-</div>
-<div class="flex-row" markdown="0" style="height:80px">
-<a href="/handbook/customer-success/product-usage-data/freemium-saas-usage-data/" class="btn btn-purple" style="width:50%;height:100%;margin:5px;left;display:flex;justify-content:center;align-items:center;">SaaS Free/Trial <br>Usage Reporting</a>
-<a href="/handbook/customer-success/product-usage-data/using-product-usage-data-in-gainsight/#frequently-asked-questions" class="btn btn-purple" style="width:50%;height:100%;margin:5px;left;display:flex;justify-content:center;align-items:center;">Product Usage Reporting FAQs</a>
-</div>
+
+<style>
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 10px;
+  width: 100%;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 15px;
+  height: 100%;
+  min-height: 80px;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+.btn-purple {
+  background-color: #6666c4;
+  color: white;
+}
 
 ## Gainsight reports and dashboards
 
-Use the [Product Usage Reporting - v2](https://gitlab.gainsightcloud.com/v1/ui/home#/191fa30f-7632-4000-b57a-edb62d9bb81b) Dashboard to see the full list of your accounts.
+Use the [Product Usage Reporting - v2](https://gitlab--jbcxm.vf.force.com/one/one.app#eyJjb21wb25lbnREZWYiOiJvbmU6YWxvaGFQYWdlIiwiYXR0cmlidXRlcyI6eyJhZGRyZXNzIjoiaHR0cHM6Ly9naXRsYWItLWpiY3htLnZmLmZvcmNlLmNvbS9hcGV4L0dhaW5zaWdodE5YVCNkYXNoYm9hcmQlMjMlMkYxNzE0MTVhNy04ZTJhLTQ3YWYtODFmMy1iYTU1N2IxNjlhOGQifX0=) Dashboard to see the full list of your accounts.
 
 When using the Account C360 page, these topics are most relevant for evaluating usage:
 
@@ -75,8 +85,8 @@ There will be several limitations with the MVC deployment. As you come across us
 | **Understand my customer's usage** | With usage data, quickly look up accounts to see which instances we are receiving usage data. <br> User story: see all instances and namespaces related to your account (Production and non-Production) and activity. <br> **Note*- : Must be tied to active subscriptions. | - Who is sending their service ping data? <br> &bull; Are they sending Production data? <br> &bull; Is their activity in line with my expectations? <br>&bull; Does the activity agree with what I know about their usage? | <br>&bull; [VIDEO: Using Product Usage Data in Gainsight - Introduction](https://www.youtube.com/watch?v=bny-SoH-MNc)<br> &bull; [VIDEO: What is Product Usage Data and How to Find it in Gainsight](https://youtu.be/H6l3_AmQif8) |
 | **C360: Instance and Namespace Details** | I need to know which GitLab version they're on to help them upgrade or patch their self-managed instance. | <br>&bull; Which version(s) are my customers on?<br>&bull; If multiple instances, how do I know the version for their instance?<br>&bull; What is their namespace? | C360: Instance and Namespace<br><br> Product Usage Data Dashboard (`Self Managed Instances - Current GitLab Version Details` report) |
 | **How many licenses has my customer deployed?** | Understand my customers' License Utilization (see above) to know how many licenses have been deployed  `billable_user_count/licensed seats`. <br> Example: a customer purchased 200 licenses and deployed 80 after 9 months, 80/200 = 40%. | <br>&bull; What trends can I see?<br>&bull; How do I understand my customer's License Utilization? | <br>&bull; [VIDEO: How to Find License Utilization and What it Means in Gainsight](https://youtu.be/Mezt6knBxI0)<br>&bull; C360: User Adoption Metrics<br>&bull; Product Usage Data dashboard<br>&bull; [License Utilization Handbook](/handbook/customer-success/product-usage-data/use-case-adoption/)<br>&bull; [VIDEO: Using Product Usage Data in Gainsight - Introduction](https://www.youtube.com/watch?v=bny-SoH-MNc) |
-| **Understand my customer's GitLab adoption** | Know the metrics per use case: SCM, CI, CD, and DevSecOps to understand their adoption.<br> Use the [Use Case Adoption guide](/handbook/customer-success/product-usage-data/use-case-adoption/) for use case adoption definitions. <br> See the [GitLab Adoption Journey](/handbook/customer-success/vision/#high-level-visual-of-gitlab-adoption-journey) for an explanation on the adoption of SCM, CI, CD, and DevSecOps. | <br>&bull; Which use cases has my customer adopted?<br>&bull; What degree have they adopted?<br>&bull; Which features have they adopted?</li><li>Does feature adoption align to customer purchase intent? | C360: Scorecard<br><br>Product Usage Data dashboard |
-| **How do I understand the health score with product usage reporting?** | Use Gainsight for a quick, high level roll-up of the customer's adoption. Identify if the customer is on track per GitLab use case. |<br>&bull; My customer’s Use Case health is red, yellow, or green — how is that calculated?<br>&bull; How is Product Usage Data weighted?<br>&bull; What is "good" health? | [Use Case Adoption methodology](/handbook/customer-success/product-usage-data/use-case-adoption/)<br><br>[Health Score Measure Weightings](/handbook/customer-success/csm/health-score-triage/#enterprise)<br><br>[VIDEO: What is Product Usage Reporting and How to Find it in Gainsight](https://youtu.be/H6l3_AmQif8)<br><br>[Usage Trends Dashboard](https://gitlab.gainsightcloud.com/v1/ui/dashboard#/ced1d18a-62f4-4e22-8efd-a7b1d7abcac2) |
+| **Understand my customer's GitLab adoption** | Know the metrics per use case: SCM, CI, CD, and DevSecOps to understand their adoption.<br> Use the [Use Case Adoption guide](/handbook/customer-success/product-usage-data/use-case-adoption/) for use case adoption definitions. <br> See the [GitLab Adoption Journey](/handbook/customer-success/customer-success-vision/#high-level-visual-of-gitlab-adoption-journey) for an explanation on the adoption of SCM, CI, CD, and DevSecOps. | <br>&bull; Which use cases has my customer adopted?<br>&bull; What degree have they adopted?<br>&bull; Which features have they adopted?</li><li>Does feature adoption align to customer purchase intent? | C360: Scorecard<br><br>Product Usage Data dashboard |
+| **How do I understand the health score with product usage reporting?** | Use Gainsight for a quick, high level roll-up of the customer's adoption. Identify if the customer is on track per GitLab use case. |<br>&bull; My customer's Use Case health is red, yellow, or green — how is that calculated?<br>&bull; How is Product Usage Data weighted?<br>&bull; What is "good" health? | [Use Case Adoption methodology](/handbook/customer-success/product-usage-data/use-case-adoption/)<br><br>[Health Score Measure Weightings](/handbook/customer-success/csm/health-score-triage/#enterprise)<br><br>[VIDEO: What is Product Usage Reporting and How to Find it in Gainsight](https://youtu.be/H6l3_AmQif8)<br><br>[Usage Trends Dashboard](https://gitlab.gainsightcloud.com/v1/ui/dashboard#/ced1d18a-62f4-4e22-8efd-a7b1d7abcac2) |
 
 Remember, this is an MVC — please [create an issue to suggest new metrics](#requesting-new-metrics), different ways to evaluate the customer's journey, or other ideas.
 
@@ -90,10 +100,10 @@ A variety of product usage statistics are pushed back from Gainsight to Salesfor
 
 ### Definitions
 
-- **Instance**: a customer’s *self-managed* deployment of GitLab
-- **Namespace**: a customer’s *SaaS* deployment of GitLab on gitlab.com
+- **Instance**: a customer's *self-managed* deployment of GitLab
+- **Namespace**: a customer's *SaaS* deployment of GitLab on gitlab.com
 - **Labeling**: the practice of internally identifying instances as Production, Non-Production, etc. within Gainsight and syncing to Snowflake. See [link](/handbook/customer-success/product-usage-data/using-product-usage-data-in-gainsight/#viewing-all-unknown-self-managed-instances) for more information
-- **Project**: a specific project or folder within a customer’s GitLab instance (e.g., “field operations” project within the Gitlab-com use)
+- **Project**: a specific project or folder within a customer's GitLab instance (e.g., "field operations" project within the `gitlab-com` use)
 
 ### Why it matters
 
@@ -103,7 +113,7 @@ As a general rule, each subscription has one production instance **or** namespac
 
 #### Self-Managed
 
-A customer’s server lacks identification of the type (production, test, non-production, mirror, etc.). When GitLab receives a customer’s service ping, we do not know if it is used to deploy production code, a test server, or as a mirror.
+A customer's server lacks identification of the type (production, test, non-production, mirror, etc.). When GitLab receives a customer's service ping, we do not know if it is used to deploy production code, a test server, or as a mirror.
 
 **Problem**: this is critical for self-managed customers because a customer may have anywhere from one to ten instances tied to a single subscription and GitLab could be receiving data from one production instance, several, or none based on whether the customer is air-gapped, blocking our IP ports, etc.
 
@@ -153,7 +163,7 @@ While the above process works for any account, we do require automation for the 
 
 #### SaaS
 
-Namespaces are automatically labeled within Gainsight, using the Gainsight Rule “[Load to Instance Data - Label SaaS Instances as Production](https://gitlab.gainsightcloud.com/v1/ui/rules#v2/rule/3027ca2b-34e6-4dbb-be5f-8f640a636074)”.
+Namespaces are automatically labeled within Gainsight, using the Gainsight Rule "[Load to Instance Data - Label SaaS Instances as Production](https://gitlab.gainsightcloud.com/v1/ui/rules#v2/rule/3027ca2b-34e6-4dbb-be5f-8f640a636074)".
 
 ### Caveats and risks
 
@@ -195,23 +205,11 @@ The instance types are synced from Gainsight to Snowflake weekly and updated Sun
 
 ### Multiple Production Instances Health Scoring
 
-When an account has multiple GitLab instances identified as Production (Instructions on how to [Update Self-Managed Instance Type](#self-managed)), the Product Usage health measures the most recently updated instance instead of the primary instance, causing scoring inconsistencies.
+When an account has multiple GitLab instances identified as Production (Instructions on how to [Update Self-Managed Instance Type](#self-managed)).
 
-*Note: this is less than 5% of the time because the vast majority of accounts have a single production instance.*
+Health Scores are now calculated by aggregating usage data at the Account level combining all the instances across the organization as well as in Gainsight health scoring. The values are provided to Gainsight and the proper Red/Yellow/Green values are displayed based on the following [thresholds](/handbook/customer-success/product-usage-data/use-case-adoption/).
 
-#### Solution
-
-[Video Instructions](https://youtu.be/N0JUABX88Hg) to update instance data in Gainsight to include only one instance in Product Usage health measure.
-
-1. On the account C360 scroll to the **Instance and Namespace Details Section**
-2. Scroll right to see the **Included in Health Measure** column
-3. To exclude instances, click **⋮**, **Edit**, and then select “Opt-Out” in the `Included in Health Measures` to EXCLUDE the instance section. NOTE: Make sure you select “Opt-Out” rather than null, or the system may overwrite your update. Then click Update
-4. To select your **primary** instance for health scoring, click on **⋮**, Edit, and click “Included in Health Score” then click "Update"
-
-**Best Practices**:
-1. Only have ONE instance marked as "Included in Health Measure"
-2. All Production instances are automatically marked "Included in Health Measure" unless they are marked "Opt-Out"
-3. Select "Opt-Out" rather than null, or the system may overwrite your update
+Users will still need to verify and assign which instance is the primary one if there are any issues observed.
 
 <details>
 
@@ -220,7 +218,7 @@ When an account has multiple GitLab instances identified as Production (Instruct
 
 Because the DevSecOps health measure looks to the account as "Ultimate", this step was added to make sure the correct production instance is scored in the case of multiple subscriptions under a given account.
 
-If a CSM has marked a production instance under a Premium subscription, DevSecOps health will appear as be “NA”. Meaning, even if there are two subscriptions with one Premium and another Ultimate, as long as the CSM marked the Premium one for health scoring, you will no longer see a DevSecOps health score (generally red) on the account.
+If a CSM has marked a production instance under a Premium subscription, DevSecOps health will appear as be "NA". Meaning, even if there are two subscriptions with one Premium and another Ultimate, as long as the CSM marked the Premium one for health scoring, you will no longer see a DevSecOps health score (generally red) on the account.
 
 **Gainsight Rules:**
 
@@ -233,11 +231,11 @@ If a CSM has marked a production instance under a Premium subscription, DevSecOp
 
 ## Field definitions
 
-The Product Stage definitions have been extracted from the [Metrics Dictionary](https://docs.gitlab.com/ee/development/usage_ping/dictionary.html). For more information on Stage metrics, please review the dictionary.
+The Product Stage definitions have been extracted from the [Metrics Dictionary](https://docs.gitlab.com/ee/development/internal_analytics/metrics/metrics_dictionary.html). For more information on Stage metrics, please review the dictionary.
 
 Eventually, the metrics list and definitions will be embedded directly in the handbook. As a first iteration, the list of metrics and their definitions are in the [Data Mart - Table Definitions](https://docs.google.com/spreadsheets/d/1EhSXqx6YXcpqHg2TpS0ZN5Rk_d2hhrTPrW5FTbmuZjw/edit#gid=0) spreadsheet.
 
-See our technical documentation for our [instance of Gainsight's Adoption Explorer](https://docs.google.com/document/d/1TvSCT_yj73AS0PuLxPonuF5QHWyM3dqG_i8H1U1cwf0/edit).
+See our technical documentation for our [instance of Gainsight Adoption Explorer](https://docs.google.com/document/d/1TvSCT_yj73AS0PuLxPonuF5QHWyM3dqG_i8H1U1cwf0/edit).
 
 ### User and project adoption metrics
 
@@ -295,16 +293,16 @@ When they activate with Cloud Licensing, customers share `Subscription Data`, wh
 #### What is the relationship between Cloud Licensing, Service Ping and Operational Metrics?
 
 - **Cloud Licensing**: an activation method that allows a customer to share `Subscription Data`
-   - Available on 14.1+
-   - [Cloud Licensing Overview](https://about.gitlab.com/pricing/licensing-faq/cloud-licensing/)
+  - Available on 14.1+
+  - [Cloud Licensing Overview](https://about.gitlab.com/pricing/licensing-faq/cloud-licensing/)
 - **Service Ping**: a service that collects the payload including Subscription, Operational, and Optional Metrics
-   - [Operational Service Data](https://internal.gitlab.com/handbook/product/fulfillment/archive/operational-service-data/#register) - internal handbook
-- **Operational Metrics**: a subset of Service Ping containing product usage data that is required to collect the core metrics required metrics per [Customer Success Services](https://about.gitlab.com/services/customer-success-services/))
+  - [Operational Service Data](https://internal.gitlab.com/handbook/product/fulfillment/archive/operational-service-data/#register) - internal handbook
+- **Operational Metrics**: a subset of Service Ping containing product usage data that is required to collect the core metrics required metrics per [Customer Success Services](/handbook/customer-success/csm/digital-journey/))
   -. Available on 14.1+
 
 **References**:
 
-- [Customer Success Services](https://about.gitlab.com/services/customer-success-services/) (client facing)
+- [Customer Success Services](/handbook/customer-success/csm/digital-journey/) (client facing)
 - [Operational Data Vision](/handbook/customer-success/product-usage-data/)
 - [Cloud Licensing Documentation](https://internal.gitlab.com/handbook/product/fulfillment/cloudlicensing/cloud-licensing/) (internal handbook)
 - [Strict Cloud Licensing](https://internal.gitlab.com/handbook/product/fulfillment/cloudlicensing/strictcloudlicensing/) (internal handbook)
@@ -349,7 +347,7 @@ Examples of new metrics can include:
 
 - Self-managed - They are not opted into Service Ping, or they turned it off.
 - Self-managed - None of their instances are labeled as Production. [Here are instructions](#self-managed) on how to label instances as Production.
-- SaaS - If the correct Namespace isn't showing up in Gainsight, the customer will need to associate their Namespace with their (new) subscription. This tends to happen when customers shift from SM to SaaS, or to net new customers where the customer is responsible for tying the namespace back to their subscription. To check if your customer's namespace is tied to their subscription, go to https://customers.gitlab.com/admin/order and type in the most recent `Subscription Name` (i.e. A-S00012345) found in their Salesforce record. If the `Gl namespace` field is blank, then their subscription is not tied to their namespace. This can be fixed by opening an [Internal Support Ticket](https://gitlab-com.gitlab.io/support/internal-requests-form/) on your customer's behalf, or alternatively, they may reach out to support themselves.
+- SaaS - If the correct Namespace isn't showing up in Gainsight, the customer will need to associate their Namespace with their (new) subscription. This tends to happen when customers shift from SM to SaaS, or to net new customers where the customer is responsible for tying the namespace back to their subscription. To check if your customer's namespace is tied to their subscription, go to https://customers.gitlab.com/admin/order and type in the most recent `Subscription Name` (i.e. A-S00012345) found in their Salesforce record. If the `Gl namespace` field is blank, then their subscription is not tied to their namespace. This can be fixed by opening an [Internal Support Ticket](https://support-super-form-gitlab-com-support-support-op-651f22e90ce6d7.gitlab.io/) on your customer's behalf, or alternatively, they may reach out to support themselves.
 
 #### Why is my customer's Billable Users (OR License Utilization) value `Null`?
 
@@ -377,7 +375,7 @@ The customer or the account team may upload the JSON file using this link - http
 
 This process can take anywhere from 24-48 hours before it starts to populate Gainsight reports and scorecards.
 
-#### After updating an instance to be `Included in Health Measures` or alternatively, `Opt-out` an instance, how long does it take for the data to refresh in reports & scorecards?
+#### After updating instance data, how long does it take for the data to refresh?
 
 Please allow 24-48 hours after making any changes to the instances in Gainsight.
 
@@ -385,12 +383,12 @@ Please allow 24-48 hours after making any changes to the instances in Gainsight.
 
 Service Ping is a GitLab process that collects customer analytics on self-managed instances and sends a weekly payload to GitLab. The payload provides important high-level statistics that helps our product, support, and sales teams understand how GitLab is used.
 
-- [Service Ping Guide](https://docs.gitlab.com/ee/development/service_ping/)
+- [Service Ping Guide](https://docs.gitlab.com/ee/development/internal_analytics/service_ping/)
 - [Service Ping FAQ](/handbook/customer-success/csm/service-ping-faq/)
 
 #### How can we confirm that a customer has opted into Service Ping?
 
-The only way to confirm if they have opted into Service Ping is if we have data for them. See the [Service Ping Guide](https://docs.gitlab.com/ee/development/service_ping/) for more information.
+The only way to confirm if they have opted into Service Ping is if we have data for them. See the [Service Ping Guide](https://docs.gitlab.com/ee/development/internal_analytics/service_ping/) for more information.
 
 #### Can my customer opt out of Service Ping?
 
@@ -418,6 +416,7 @@ Usage Statistics are received and collected weekly, and those stats are added to
 - Shows the data for the last 28 days, including the most recent usage ping date.<br>
 
 **Example:**<br>
+
 - Jan 9th ping shows data for Dec 12 - Jan 9
 - Jan 16th ping shows data for Dec 19 - Jan 16
 - Jan 23th ping shows data for Dec 26 - Jan 23
@@ -425,6 +424,7 @@ Usage Statistics are received and collected weekly, and those stats are added to
 - Since this is the final ping, January data is Jan 3 - Jan 30.
 - January data in Gainsight would include Jan 3 - Jan 30 and exclude Jan 1, 2, 31.
 - Feb 6th ping shows data for Jan 9 - Feb 6 <br>
+
 <details>
   <summary markdown="span"> Refer to the visual for example: </summary>
  ![28d Logic](https://lucid.app/publicSegments/view/0de4f2de-99f8-44a1-a47d-a7b31cab896e/image.png)
@@ -438,19 +438,19 @@ No. Please refer to [How do Last 28 Days metrics work?](#how-do-last-28-days-met
 
 You may notice usage stats missing for the first week of a month up until a ping is collected from the customer. The ping snapshot date will differ for each customer.
 
-### Is it true that if you set your CSM sentiment to yellow or green for an account that is Red for DevSecOps, you cannot influence the overall Red health score?
+### Does setting CSM sentiment to y/g for a Red DevSecOps score override the Red health score?
 
-There’s no DevSecOps-specific override, however, there is one option to override which is the CSM Sentiment. The CSM can change that to Red, making the overall account red. [HB Reference](/handbook/customer-success/csm/health-score-triage/#csm-sentiment). CSM Sentiment overall weighting is 25%, whereas Product is 50%
+There's no DevSecOps-specific override, however, there is one option to override which is the CSM Sentiment. The CSM can change that to Red, making the overall account red. [HB Reference](/handbook/customer-success/csm/health-score-triage/#csm-sentiment). CSM Sentiment overall weighting is 25%, whereas Product is 50%
 
 ---
 
 ## Data Definitions
 
-### What’s the best way to understand what a metric is measuring?
+### What's the best way to understand what a metric is measuring?
 
 Check the [Product Usage Data for Gainsight Definitions](https://docs.google.com/spreadsheets/d/1EhSXqx6YXcpqHg2TpS0ZN5Rk_d2hhrTPrW5FTbmuZjw/edit?usp=sharing).
 
-### What’s the best way to understand details about a metric, including availability for SaaS, and in which release we started measuring that metric?
+### What's the best way to understand details about a metric?
 
 Check the [Product Usage Data for Gainsight Definitions](https://docs.google.com/spreadsheets/d/1EhSXqx6YXcpqHg2TpS0ZN5Rk_d2hhrTPrW5FTbmuZjw/edit?usp=sharing).
 

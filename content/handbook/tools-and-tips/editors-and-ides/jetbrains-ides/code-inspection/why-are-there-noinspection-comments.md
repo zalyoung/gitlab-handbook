@@ -15,7 +15,7 @@ JetBrains is a powerful IDE, and is by far the industry leader in traditional "I
 Here's some various surveys showing usage of JetBrains editors:
 
 - [StackOverflow 2023 Developer Survey](https://survey.stackoverflow.co/2023/#section-most-popular-technologies-integrated-development-environment)
-- [Ruby on Rails 2022 Community Survey](https://rails-hosting.com/2022/#what-is-your-preferred-editor)
+- [Ruby on Rails 2022 Community Survey](https://railsdeveloper.com/survey/2022/#what-is-your-preferred-editor)
 - [JetBrains 2022 Developer Ecosystem Survey](https://www.jetbrains.com/lp/devecosystem-2022/ruby/#what-editor-ide-do-you-mostly-use-for-ruby-development-)
 - [GitLab 2023 IDE/Editor usage (INTERNAL DOCUMENT LINK)](https://docs.google.com/document/d/1tITdhdkJm5xaPiPpXQ9wW1X6M3SAMhncJYaNmQfja70/edit)
 
@@ -30,7 +30,7 @@ This support can be a tremendous productivity boost for JetBrains IDE users, bec
 There are multiple JetBrains IDE users who are GitLab team members, and there is an
 active [internal `#jetbrains-ide-users` Slack channel](https://gitlab.slack.com/archives/CR08PTQ6T).
 
-Therefore, on some teams with several JetBrains users, such as the Remote Development team, we invest
+Therefore, on some teams with several JetBrains users, such as the Workspaces team, we invest
 ongoing effort in keeping the [`Code Inspection`](..) for the feature clean and without any warnings/errors,
 which means the "green check" at the top right of each file is useful, and if it's not there, we know
 immediately that we have introduced some problem.
@@ -84,7 +84,7 @@ actively maintained/curated.
 
 In reality, these comments are currently restricted in scope in the `gitlab` codebase. Currently, as of
 [this MR in July 2023](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/125831), all `noinspection`
-comments have been removed from the code except for within the `Remote Development` domain, which is
+comments have been removed from the code except for within the `Workspaces` domain, which is
 the only group actively using it.
 
 But now that we have standardized this process and added

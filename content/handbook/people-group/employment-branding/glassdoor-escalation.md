@@ -3,7 +3,6 @@ title: Tracking reviews
 description: "Process for Tracking and Escalating Glassdoor Reviews"
 ---
 
-
 The Talent Acquisition Operations and Insights team tracks Glassdoor reviews on a regular basis. We share this info regularly through:
 
 - People Group Key Review monthly
@@ -39,7 +38,7 @@ The Talent Brand Manager monitors reviews on a weekly basis, and responds direct
 1. Based on the department, tag the appropriate People Business Partner or talent acquisition lead in the issue to offer additional context and review the response draft.
 1. Determine the right escalation path within that specific department so that the leaders can be tagged and made aware.
 1. Tag the Chief People Officer, VP of Talent Acquisition, and Senior Director of People Success for awareness.
-1. Get feedback and approval from the impacted department, and work with the People Business Partner or talent acquisition lead to determine who is going to respond on behalf of the team. See [Who Should Respond](/#who-should-respond) section below.
+1. Get feedback and approval from the impacted department, and work with the People Business Partner or talent acquisition lead to determine who is going to respond on behalf of the team. See [Who Should Respond](#who-should-respond) section below.
 
 ### Escalating and responding to interview reviews
 
@@ -59,5 +58,3 @@ After we've determined who will respond to the review and the response draft has
 ## More about our presence on Glassdoor
 
 For more details about how we manage our Glassdoor presence, [return to the main Talent Brand page]({{< ref "employment-branding#glassdoor" >}}).
-
-

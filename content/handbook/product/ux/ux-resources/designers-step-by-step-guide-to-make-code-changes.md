@@ -28,7 +28,7 @@ You also need to have Visual Studio Code installed since this is the code editor
 
 Finally, you need to have your Git and SSH credentials correctly set up in your machine. If you haven't configured SSH access in your computer you can do so by completing the configuration explained in the following tutorial:
 
-- [Setting up SSH access](https://docs.gitlab.com/ee/ssh/)
+- [Setting up SSH access](https://docs.gitlab.com/ee/user/ssh.html)
 
 ## Step by step guide
 
@@ -38,7 +38,7 @@ Finally, you need to have your Git and SSH credentials correctly set up in your 
 
     To do this simply type `cd`  in your Terminal. Locate the `gitlab` folder in a Finder window and drag and drop it on the Terminal. The resulting command would look something like this `cd /Users/jj-gitlab/Desktop/GDK/gdk2/gitlab`. Hit `Enter` and you should be inside the right folder. You can make sure that's the case by checking that the name of the folder shows up next to the name of your machine in the Terminal.
 
-1. Start your GDK by running the `gdk start` command. This will spin a local version of GitLab that is available at the test host you setup when installing your GDK or more generally at your localhost: http://127.0.0.1:3000/
+1. Start your GDK by running the `gdk start` command. This will spin a local version of GitLab that is available at the test host you setup when installing your GDK or more generally at your localhost: https://127.0.0.1:3000/
 1. If everything is working well you should be able to see a login page for a GitLab instance in your browser. Log in using the GDK credentials. You can find the GDK credentials by typing `gdk help` in the terminal. The credentials can be found at the bottom of the resulting message.
 1. Prepare your Git so you can start pushing changes once you're ready. The first thing you want to do is to create and switch to a new branch. You can do that by typing the following command in your terminal: `git switch -c "your-branch-name"`. For your branch name make sure to pick a meaningful and short name. Branch names should use kebab/hyphenated case ('a-branch-name').
 1. Once you're checked out into a new branch is time to start exploring some potential changes. This guide mostly focuses on UI text changes so we will use an example of that nature for the rest of the guide. In this guide, we will be changing a text found in the general settings, specifically in the "Naming, Topics, Avatar" section.
@@ -46,7 +46,6 @@ Finally, you need to have your Git and SSH credentials correctly set up in your 
     The text is `Update your project name, topics, description and avatar.`. We will change that text to `Update your project name, topics, description, compliance framework, and avatar.` Have in mind that this is just an example for the tutorial and no actual change will be pushed permanently.
 
     Make sure to check for the existence of this particular text in your GDK-powered environment. Do so by going to one of the sample projects and clicking on Settings and then in General. The helper text of the first section is what we will be changing.
-
 
 1. Now that we have a clear goal of what we are changing is time to find the file or files that need to be modified for this change to happen. To do this go to Visual Studio Code and click on the Global Search icon on the left sidebar of your Visual Studio Code window. This should reveal a text box where you can type your search query. In this particular case, we are searching for a particular string which is `Update your project name, topics, description and avatar`. Simply copy and paste that line in the search box.
 
@@ -69,11 +68,11 @@ Finally, you need to have your Git and SSH credentials correctly set up in your 
 1. Finally, we are ready to open an MR with this change against the main GitLab repo. Don't worry about this step. You won't break anything and your MR can be closed later without affecting anything in the main repo. To push your change you want to do two things:
 
    - Enter the following git command in your terminal:
-    - `git add .`. This command will add the files that you just changed so they can be committed.
-    - `git commit -m 'A meaningful message'`. This command will create a commit with your changes. It's very important that you comply with the commit message rules, otherwise your pipeline will fail. To comply with the rules make sure that your commit message it's a least three words but not more than 75 characters, the first letter needs to be capitalized and it can't end in period `.`.
-    - `git push --set-upstream origin your-branch-name`. This command will create an upstream branch and push your changes against that remote branch. After the push is completed the terminal will show the MR url which you can open in a browser to finalize your change.
+     - `git add .`. This command will add the files that you just changed so they can be committed.
+     - `git commit -m 'A meaningful message'`. This command will create a commit with your changes. It's very important that you comply with the commit message rules, otherwise your pipeline will fail. To comply with the rules make sure that your commit message it's a least three words but not more than 75 characters, the first letter needs to be capitalized and it can't end in period `.`.
+     - `git push --set-upstream origin your-branch-name`. This command will create an upstream branch and push your changes against that remote branch. After the push is completed the terminal will show the MR url which you can open in a browser to finalize your change.
 
-1. You're done! Just make sure that you add all the final details to your MR including a milestone and a [type label](https://about.gitlab.com/handbook/engineering/metrics/#data-classification)
+1. You're done! Just make sure that you add all the final details to your MR including a milestone and a [type label](/handbook/product/groups/product-analysis/engineering/dashboards/#data-classification)
 
 ## Caveats
 

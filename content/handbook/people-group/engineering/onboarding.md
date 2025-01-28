@@ -5,7 +5,7 @@ description: "Information on the automations we have in place to support the Peo
 
 The People Group Engineering team aims to reduce as much manual work as possible. One of the areas we have done this, is everything related to the employment automation flow.
 
-Everything on this page, assumes the team member is already present in Workday. To read more about how they get synced to Workday, you can read [this handbook section](/handbook/people-group/engineering/gh-bhr-sync).
+Everything on this page, assumes the team member is already present in Workday.
 
 ## Onboarding
 
@@ -47,28 +47,9 @@ If you receive a question from a manager about why a template was not linked in 
 
 Note: If a People Connect Team member needs to create the onboarding issue for interns, they can use the same Slack command.
 
-This issue is added to the [team member's epic]({{< ref "/handbook/people-group/engineering/employment-issues#epics" >}}).
+This issue is added to the [team member's epic](/handbook/people-group/engineering/employment-issues#epics).
 
-If you want to read more about how employment issues are set up, please read [this section]({{< ref "/handbook/people-group/engineering/employment-issues" >}}).
-
-## Joining announcement
-
-> This Job has currently been disabled, but may be brought back in the future.
-
-A scheduled pipeline is configured to automatically send a message containing a
-list of all new team members who are joining GitLab in the following week. It
-includes details like name, email address, joining date, and their job title.
-The message also includes a link to a [Sisense chart](https://app.periscopedata.com/app/gitlab/503779) containing a
-detailed breakdown and overview of the hiring process over time.
-
-While we create this message, we check if there are any team members that have
-"missing data". When they do, the message, is sent to `#peopleops-alerts`. This
-way, the People Connect Team member, can make sure the data is added and run the `joiningannouncement` Slack command.
-
-When there is no missing data, the message is posted directly to `#team-member-updates`.
-
-Currently, the pipeline is scheduled to be run at 08:00 AM UTC every
-Thursday.
+If you want to read more about how employment issues are set up, please read [this section](/handbook/people-group/engineering/employment-issues).
 
 ## Invited to GitLab.com
 
@@ -80,14 +61,6 @@ We run a scheduled pipeline every day that invites team members starting the fol
 The invite email is send to their `GitLab` email address which they will get access to the next day.
 
 > These invites are set to expire one month after their start date.
-
-## Enable self-service
-
-Our team members are expected to update their BambooHR profile on their first day at GitLab. To be able to do that they need to have `self-service` access level enable on BambooHR. We run a scheduled pipeline every day that enables this for team members starting the following day.
-
-In the event we failed to enable a particular team members account, a PEA can use the `activateselfservice` Slack command to re-trigger this automation for the team member.
-
-This will attempt to enable the Self Service feature of their BambooHR profile.
 
 ## Onboarding Email
 
@@ -114,7 +87,7 @@ We fetch some other data besides the region as well:
 
 This data is used to populate the email that we then send to them. The email address used to send the email is `onboarding@domain` and is set with a `reply-to: people-connect@domain` as nobody monitors replies to `onboarding@`. The email address is strictly used for automation.
 
-#### Manual Onboarding E-Mail
+### Manual Onboarding E-Mail
 
 If for some reason the e-mail could not be sent, we have added functionality for a People Connect Team member to be able to manually send this by running the `onboardingemail` Slack command.
 
@@ -123,7 +96,7 @@ This  triggers the following flow:
 ```mermaid
 graph TD
     A[PEA triggers the automation via Slack] -->B(Finds the open onboarding issue)
-    B --> C(Finds the BHR profile from the onboarding issue description)
+    B --> C(Finds the Workday profile from the onboarding issue description)
     C --> D(Sends the e-mail to the team member)
 ```
 
@@ -132,7 +105,7 @@ graph TD
 If changes are required to the onboarding email template, follow these steps to update them:
 
 - Browse to the MJML [page](https://mjml.io/try-it-live/)
-- Open the MJML template [template](https://gitlab.com/gitlab-com/people-group/people-operations/employment-templates/-/blob/main/email_templates/onboarding_email.mjml)
+- Open the MJML [template](https://gitlab.com/gitlab-com/people-group/people-operations/employment-templates/-/blob/main/email_templates/onboarding_email.mjml)
 - Copy and paste the template file of your choice into MJML website on the left
 - Make the relevant changes and then select `View HTML` on the top left hand side of the website.
 - Copy the HTML version to the HTML template.
@@ -181,7 +154,7 @@ but if there are two, the code will use both to create the issue, if there is ju
 
 The issue will be created in the [AR project](https://gitlab.com/gitlab-com/team-member-epics/access-requests).
 
-The bot will announce in Slack (#peopleops-alerts) the list of people that we were able to
+The bot will announce in Slack (#peopleops-alerts-private) the list of people that we were able to
 create the AR. As well as the list of people (with their role) that we weren't
 able to create the AR for. This way we can connect with the teams so they can add a template for this role.
 
@@ -210,6 +183,10 @@ Every day at 09AM UTC, we have a pipeline running that syncs our new team member
 
 We fetch all the new team members with a start date of the day before yesterday and check if they opted-in on
 being synced to the team page. Opt-in happens by setting `Export Name Location to Team Page` to `Yes` on their Workday profile. This is a task on day one for the new team member.
+
+{{% alert title="Note" color="primary" %}}
+You can find a Howto guide for setting the Opt-in mentioned above by searching for a doc titled, "How to: Set Team Page Export Preferences" in Google drive.
+{{% /alert %}}
 
 If they selected yes, we grab some data (name, job title, start date, department and country) and format it,
 so it can be added to the team page entry. If they did not opt-in, we still add an entry to the team page.
@@ -242,7 +219,7 @@ that they have to complete the anti-harrassment training.
 There's a scheduled pipeline that runs every day that checks for hires that started a week ago.
 For those hires we will look if the incoming
 team member is a people manager. Currently there's no exact field
-on Workday for us to check this. The way we do this is by by looking
+on Workday for us to check this. The way we do this is by looking
 at their job title. If it **starts** with any of the following:
 
 - `Team Lead`

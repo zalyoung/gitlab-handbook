@@ -20,11 +20,11 @@ Here are some non-exhaustive guidelines:
 - If the application requires credentials (password, access token, etc.) to any of your work accounts (GitLab, Google, Okta, etc.) please do not enter the credentials and remove the application
 - If the application uses OAuth, make sure to only allow access to your account if the permissions required by the application are very minimal (such as accessing your public profile)
 
-    ![OAuth authorization screen with profile scope](/handbook/tools-and-tips/images/oauth1.png)
+    ![OAuth authorization screen with profile scope](/images/tools-and-tips/oauth1.png)
 
     If the application requires anything such as read-only access to the API or anything that could grant access to confidential data please do not continue the authentication process and remove the application
 
-    ![OAuth authorization screen with profile and read_api scope](/handbook/tools-and-tips/images/oauth2.png)
+    ![OAuth authorization screen with profile and read_api scope](/images/tools-and-tips/oauth2.png)
 - When installing something from an "app store" of some sort, look for the reviews, the number of downloads and especially for "badges" that show that the application was reviewed by the app store. For example the Chrome Web Store has a [featured badge](https://support.google.com/chrome_webstore/answer/1050673?visit_id=638011195121439702-999154480&p=cws_badges&rd=1#cws_badges&zippy=%2Cunderstand-chrome-web-store-badges) for popular trustworthy applications
 - When in doubt, do not install the application
 
@@ -36,7 +36,7 @@ In any case, you are encouraged to use our [Individual Use Software Request](/ha
 
 Sharing your screen to get your idea across can be very productive, but having personalized ads show up on a webpage may be undesirable.
 Shut off interest based ads by setting your preferences.
-[Google Ad Settings](https://adssettings.google.com/), [AdChoices](http://optout.aboutads.info)
+[Google Ad Settings](https://adssettings.google.com/), [AdChoices](https://optout.aboutads.info/?c=2&lang=EN)
 
 ### Browser extensions
 
@@ -59,7 +59,7 @@ Adblockers are browser extensions that can block advertising, prevent user track
 A popular one recommended by the Security Team is [uBlock Origin](https://github.com/gorhill/uBlock/) which can be installed by following the links below:
 
 - [Chrome](https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm)
-- [Firefox](https://addons.mozilla.org/addon/ublock-origin/)
+- [Firefox](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/)
 - [Edge](https://microsoftedge.microsoft.com/addons/detail/odfafepnkmbhccpbejgmiehpchacaeak)
 
 #### One Tab
@@ -68,7 +68,7 @@ A popular one recommended by the Security Team is [uBlock Origin](https://github
 
 #### SessionBox
 
-[SessionBox](https://sessionbox.io/discover) is a browser extension that helps you deal with multiple sessions.
+[SessionBox](https://sessionbox.io/) is a browser extension that helps you deal with multiple sessions.
 It binds a particular session to a tab.
 This is particularly useful for testing with different users in the same browser.
 
@@ -83,8 +83,8 @@ After installing the extension, access the project page you are interested in fo
 Certainly do not install it on your local machine.
 But even the Google Chrome plugin that lets you see embedded Flash content in websites can pose a security hazard.
 If you have not already, go to your [Chrome Flash Settings](chrome://settings/content/flash) and disable Flash.
-For further context, note that [Google Chrome is removing Flash support soon](https://nakedsecurity.sophos.com/2016/05/18/yet-more-bad-news-for-flash-as-google-chrome-says-goodbye-sort-of/), and while the [plugin is better than a local install of Flash](http://security.stackexchange.com/questions/98117/should-flash-be-disabled-or-are-sandboxes-secure-enough),
-it still leaves vulnerabilities for [zero-day attacks](http://www.pctools.com/security-news/zero-day-vulnerability/).
+For further context, note that [Google Chrome is removing Flash support soon](https://web.archive.org/web/20230128093704/https://nakedsecurity.sophos.com/2016/05/18/yet-more-bad-news-for-flash-as-google-chrome-says-goodbye-sort-of/), and while the [plugin is better than a local install of Flash](https://security.stackexchange.com/questions/98117/should-flash-be-disabled-or-are-sandboxes-secure-enough),
+it still leaves vulnerabilities for [zero-day attacks](https://en.wikipedia.org/wiki/Zero-day_vulnerability).
 
 ### Prototyping in the browser
 
@@ -107,15 +107,9 @@ You can also make the entire web page editable, using the [`designMode`](https:/
 [Grammarly](https://www.grammarly.com) is a good tool for those who want to feel more comfortable drafting written communication in English (American or British).
 There is a free and premium version.
 
-<div class="panel panel-gitlab-orange">
-**IMPORTANT NOTE FOR GRAMMARLY**
-{: .panel-heading}
-<div class="panel-body">
-
-Grammarly browser extensions are discouraged, Grammarly will have access to everything you type in your browser, and they have had [a security problem](https://gizmodo.com/grammarly-bug-let-snoops-read-everything-you-wrote-onli-1822740378). If you want to use it to check non-confidential text manually, you should download the [desktop version](https://www.grammarly.com/native/mac) instead. The desktop version is not available for Linux. Refer to [GitLab's Data Classification Standard](/handbook/security/data-classification-standard.html) for additional details on how data is classified across the organization.
-
-</div>
-</div>
+{{% panel header="**IMPORTANT NOTE FOR GRAMMARLY**" header-bg="orange" %}}
+Grammarly browser extensions are discouraged, Grammarly will have access to everything you type in your browser, and they have had [a security problem](https://gizmodo.com/grammarly-bug-let-snoops-read-everything-you-wrote-onli-1822740378). If you want to use it to check non-confidential text manually, you should download the [desktop version](https://www.grammarly.com/desktop/mac) instead. The desktop version is not available for Linux. Refer to [GitLab's Data Classification Standard](/handbook/security/data-classification-standard/) for additional details on how data is classified across the organization.
+{{% /panel %}}
 
 ### LanguageTool
 
@@ -123,7 +117,7 @@ As an alternative to [Grammarly](#grammarly), we can combine LanguageTool in the
 with a local LanguageTool server .
 This ensures that spell and grammar checking remains both convenient and confidential:
 
-1. Install the [LanguageTool browser extension](https://www.languagetool.org/#firefox_chrome).
+1. Install the [LanguageTool browser extension](https://languagetool.org/#firefox_chrome).
 1. Either install [LanguageTool as a Homebrew service](https://formulae.brew.sh/formula/languagetool),
    or install [a Docker engine](/handbook/tools-and-tips/mac/#docker-desktop)
    and follow the setup instructions of any
@@ -150,7 +144,7 @@ https://docs.gitlab.com/search/?q={query}
 ```
 
 ```url
-https://about.gitlab.com/handbook/#stq={query}&stp=1
+https://handbook.gitlab.com/handbook/#stq={query}&stp=1
 ```
 
 Read [Searching using Alfred](/handbook/tools-and-tips/searching/#searching-using-alfred-on-macos) to learn more and be able to automatically add them.
@@ -159,7 +153,7 @@ There is also [a repo maintained by GitLab team members](https://gitlab.com/gitl
 
 ### Brain.fm
 
-[Brain.fm (free trial)](http://brain.fm) provides music specially designed to help you focus, relax, meditate, recharge, sleep (great for plane rides).
+[Brain.fm (free trial)](https://www.brain.fm/) provides music specially designed to help you focus, relax, meditate, recharge, sleep (great for plane rides).
 It's not just music though.
 They use scientifically validated brainwave manipulations to get results.
 It is AMAZING and really does work.
@@ -188,7 +182,7 @@ If you are scheduling a meeting with a GitLab team-member, please use Google Cal
 1. Change the event link to `45min`.
 1. The event description needs to be copied to the 15, 30 and 60 minute meetings too.
 1. If you intend to use any of the other event types, make sure to add this to their event descriptions as well.
-1. For people outside of GitLab Inc, send them your Calendly link that links directly to the 45 minute time slot: "Are any of the times on <https://calendly.com/XXXXX/45min/> convenient for you? If so please book one, if not please let me know what times are good for you and we'll find an alternative."
+1. For people outside of GitLab Inc, send them your Calendly link that links directly to the 45 minute time slot: "Are any of the times on `https://calendly.com/XXXXX/45min/` convenient for you? If so please book one, if not please let me know what times are good for you and we'll find an alternative."
 1. Update your availability on [Calendy Event Types](https://calendly.com/event_types/) by clicking the action cog and then the edit option on an event type (For Example: 15 minute meeting) and in the event details clicking on the "When can people book this event?" section then clicking the "Availability" section.
    Here you can set your working hours during which you want to accept meetings, and on the "Advanced" tab you can set the minimum scheduling notice you want enforced.
    Although Calendy does synchronize with Google Calendar to show your availability you may wish to set extra restrictions in Calendy.
@@ -205,7 +199,7 @@ If you find yourself typing `f` and hitting `enter` from muscle memory, you will
 
 ### Paste
 
-[Paste for macOS](https://pasteapp.me/) is a clipboard manager that stores everything you copy and optionally syncs across all your devices.
+[Paste for macOS](https://pasteapp.io/) is a clipboard manager that stores everything you copy and optionally syncs across all your devices.
 It allows you to organize frequently copied data in pinboards, so that you do not need to copy the same data over and over, provides search, multiple paste and has nice visual user interface.
 
 ### Pomodoro technique
@@ -233,14 +227,49 @@ There is [an unofficial extension maintained by GitLab team members](https://www
 
 ### TripMode
 
-[TripMode ($7.99)](https://www.tripmode.ch/) lets you control which apps can use the internet.
+[TripMode ($7.99)](https://tripmode.ch/) lets you control which apps can use the internet.
 This is especially useful when you're working on a cellular/metered connection. TripMode is only available for the Mac.
+
+### Stream Deck
+
+If you're not good at remembering hotkeys, or you are in need of a multi-step automation, a [Stream deck](https://www.elgato.com/ww/en/s/welcome-to-stream-deck) or similar might be the right thing for you. A Stream Deck allows you to program buttons to execute complex sequences of actions with a single press.
+
+#### How to use Apple Shortcuts with the Stream deck
+
+Besides the official integrations, you can also use the Apple Shortcuts app to have an easy way of defining actions without any programming knowledge and without the need of any external plugins.
+
+1. Add a Shortcut in the Shortcut app that you want to bind to a button on the Stream deck to.
+   - Note: Don't use a too complicated name as we will need the name to identify the Shortcut to run later. Blank spaces do work though.
+1. Save the following code as `ShortcutScript.scpt` (you can rename it, just the `scpt` extension is important) on your computer. The Stream deck will reference this script so save it somewhere you can find it later and keep in mind that deleting it will break the button as well.
+
+   ```applescript
+   on run argv
+      tell application "Shortcuts Events"
+         set shortcutName to item 1 of argv
+         run shortcut shortcutName
+      end tell
+   end run
+   ```
+
+1. Add a new Action in your Stream deck application. Use System > Open as template for this. You can freely choose the title of the action, this is only for your own reference and does not have to do anything with the Shortcut. As for the App/File - you can use the file locator to reference the .scpt file from step 2. Afterwards you have to click back into the input field and delete the apostrophes that were added by the file locator around the path. Now we can pass the name of the Shortcut to the script, if your Shortcut had blank spaces in its name you have to enclose it in quotes. So f.e for a Shortcut called `Active Speaker` the App/File input should contain the following `/path/to/script/ShortcutScript.scpt "Activate speaker"`
+
+1. Add more actions as you need them. Since the .scpt file is parameterized you dont have to repeat step 2 and can just use the script for all Shortcuts!
+
+#### Other Stream deck use cases
+
+- Switching scenes in OBS
+- Muting your microphone
+- Switching between speaker and headphones
+- Switching between languages and keyboard layouts
+- Starting timers (there are some great pomodoro apps that show the reminaing time on the button)
+- Enabling/disabling Do not disturb mode
+- Control lightning and change scenes
 
 ## Text editors
 
 ### GitHub Copilot
 
-GitHub released [Copilot](https://copilot.github.com), an AI-powered tool for in-situ suggestions within VSCode, in 2021. It’s an interesting and exciting tool. However at this time it does not guarantee that the code being suggested is strictly sourced from codebases governed by [an open source license compatible with our own project](https://gitlab.com/gitlab-org/gitlab-foss/-/blob/master/LICENSE) which could lead to license conflicts. Until the licensing of the suggestions is established, please don't use Copilot.
+GitHub released [Copilot](https://github.com/features/copilot/), an AI-powered tool for in-situ suggestions within VSCode, in 2021. It's an interesting and exciting tool. However at this time it does not guarantee that the code being suggested is strictly sourced from codebases governed by [an open source license compatible with our own project](https://gitlab.com/gitlab-org/gitlab-foss/-/blob/master/LICENSE) which could lead to license conflicts. Until the licensing of the suggestions is established, please don't use Copilot.
 
 ## Video calling
 
@@ -250,23 +279,23 @@ GitHub released [Copilot](https://copilot.github.com), an AI-powered tool for in
 
 ### Shush
 
-[$4.99 tool for macOS](http://mizage.com/shush/) that lets you set a hotkey (e.g. `fn`) to mute your microphone ("push-to-talk" or "push-to-mute").
+[$4.99 tool for macOS](https://mizage.com/shush/) that lets you set a hotkey (e.g. `fn`) to mute your microphone ("push-to-talk" or "push-to-mute").
 Never again will you have to switch your window focus to Google Hangouts or Zoom to speak or mute.
 The icon will show the current state of your mic input (x means muted).
 With a right click (or your configured hotkey) you can switch from push to talk to push to mute.
 Don't forget to unblock your mic in Zoom/Google Hangouts immediately after joining.
 Be warned that page up with fn+down arrow will activate it.
 Use space for page down instead of fn+up arrow.
-**Warning**: Check your [headset compatility](http://mizage.clarify-it.com/d/jv2enz) before purchase.
-Many usb headsets are unmutable.
+**Warning**: Check your headset compatibility before purchase.
+Many USB headsets are unmutable.
 
 #### Shush alternative for Linux
 
-If you use Linux (e.g. [Arch](https://www.archlinux.org/), [Ubuntu](https://www.ubuntu.com/) or [Fedora](https://getfedora.org/)) you can create a system-wide keyboard shortcut to mute/unmute your mic.
-Please note that it only works for Linux distributions which use [ALSA](http://alsa-project.org) for sounds (most popular Linux distributions use ALSA).
+If you use Linux (e.g. [Arch](https://archlinux.org/), [Ubuntu](https://ubuntu.com/) or [Fedora](https://fedoraproject.org/)) you can create a system-wide keyboard shortcut to mute/unmute your mic.
+Please note that it only works for Linux distributions which use [ALSA](https://www.alsa-project.org/wiki/Main_Page) for sounds (most popular Linux distributions use ALSA).
 All you need to do is go to your desktop environment's *Keyboard Settings* and create a custom shortcut with the command `amixer set Capture toggle` and assign a key combination of your choice (e.g. `Pause Break` key).
 Once this is done, you can mute/unmute your mic using the assigned keyboard shortcut while you're in any application.
-Refer to this original answer on [Askubuntu](http://askubuntu.com/a/13364/12242) to learn more.
+Refer to this original answer on [Askubuntu](https://askubuntu.com/questions/12100/command-to-mute-and-unmute-a-microphone/13364) to learn more.
 
 ### Webex
 
@@ -286,12 +315,12 @@ It also offers a free reliable mobile video conference app.
 
 ### Loom
 
-[Loom (Free)](https://www.useloom.com/) is a handy Chrome plugin tool for video walkthroughs.
+[Loom (Free)](https://www.loom.com/) is a handy Chrome plugin tool for video walkthroughs.
 Nice tool for demo recordings and internal/external documentation. Note, Loom videos are public by default - ensure you are not exposing data that should remain private. GitLab does have a Loom workspace, for a license please follow the instructions on the [tech stack page](/handbook/business-technology/tech-stack/)
 
 ## Language and translation
 
 ### DeepL
 
-The Gitlab handbook and most other content is written in English. Even if a non-native speaker's English is pretty good there might be times when the content is too sophisticated and a translation is welcome. Avoiding tedious copy and paste into another browser tab or app can easily be achieved by using the [DeepL translator](https://www.deepl.com/).
+The GitLab handbook and most other content is written in English. Even if a non-native speaker's English is pretty good there might be times when the content is too sophisticated and a translation is welcome. Avoiding tedious copy and paste into another browser tab or app can easily be achieved by using the [DeepL translator](https://www.deepl.com/en/translator).
 DeepL is available as a Web site but also as a Mac app for free. Using a shortcut on MacOS takes selected text from the handbook right into the app and starts translating. Linux users can only use a Chrome extension and right-click to open another tab for the Web version.

@@ -1,26 +1,19 @@
 ---
-
 title: "Using Gainsight as a CSM"
 description: "The key aspects of how Customer Success Managers use Gainsight to drive success for customers."
 ---
-
-
-
-
-
-
 
 *For an overview of Gainsight, and information about how to login, please refer to the [Gainsight Overview Page](/handbook/sales/gainsight/).*
 
 ## Gainsight for Customer Success Managers
 
-CSMs use Gainsight for a multitude of purposes, including logging their customer calls, updating their call-to-actions (CTAs), updating success plans, and gaining insights on their customer’s product usage data.
+CSMs use Gainsight for a multitude of purposes, including logging their customer calls, updating their call-to-actions (CTAs), updating success plans, and gaining insights on their customer's product usage data.
 
 One of our CSMs created an [8 minute video](https://youtu.be/yk95b6u26So) (internal-only) of her workflow and how she integrates Gainsight into her day to day tasks to reduce the lift and ensure her accounts stay up to date.
 
 The table below represents the steps a CSM would typically take in Gainsight. Please reference each handbook page for further information.
 
-#### Overview
+### Overview
 
 - [Using Gainsight at GitLab](/handbook/sales/gainsight/)
 - [Gainsight Dashboards](/handbook/customer-success/csm/gainsight/dashboards-overview)
@@ -78,7 +71,7 @@ The table below represents the steps a CSM would typically take in Gainsight. Pl
 - [Product Usage Data FAQs](/handbook/customer-success/product-usage-data/using-product-usage-data-in-gainsight/)
 - [Use Case Adoption (definitions)](/handbook/customer-success/product-usage-data/use-case-adoption/)
 - [Customer Health Scoring](/handbook/customer-success/customer-health-scoring/)
-- [Product Usage Data - Data Team](/handbook/business-technology/data-team/data-catalog/product-usage-data/)
+- [Product Usage Data - Data Team](/handbook/enterprise-data/data-catalog/product-usage-data/)
 - [License Utilization](/handbook/customer-success/product-usage-data/use-case-adoption/)
 - [Maturity Scoring](/handbook/customer-success/product-usage-data/maturity-scoring/)
 - [Product usage playbooks with usage metrics](/handbook/customer-success/product-usage-data/metrics-based-playbooks/)
@@ -94,32 +87,31 @@ The table below represents the steps a CSM would typically take in Gainsight. Pl
 
 #### Technical Documentation
 
-- [Gainsight Technical Documentation](/handbook/sales/field-operations/customer-success-operations/gainsight/gainsight-gtm.html)
+- [Gainsight Technical Documentation](/handbook/sales/field-operations/customer-success-operations/gainsight/gainsight-gtm/)
 - [Gainsight Administration](/handbook/sales/field-operations/customer-success-operations/gainsight/)
 - [SalesForce and Zendesk Sync](/handbook/customer-success/csm/gainsight/#salesforce-and-zendesk-syncing)
 
 #### Gainsight University
 
-- [Gainsight End Users eLearning path - Gainsight University](https://education.gainsight.com/page/end-user-training-for-nxt)
+- [Gainsight End Users Learning path - Gainsight University](https://education.gainsight.com/app/learning_paths/86c4a373-8d89-4865-aa13-c1174364e8e9)
 
 #### Video enablement
 
 The videos listed here are internal to GitLab only. You will need to be logged in to the "GitLab Unfiltered" YouTube channel to access them.
+
 - [Gainsight Overview and Demo](https://youtu.be/6NuyNSNipgc)
-- [Gainsight Foundations](https://education.gainsight.com/gainsight-foundations-nxt-fka-101)
+- [Gainsight Foundations](https://education.gainsight.com/app/courses/ac66619f-2082-4305-a3cd-714cc242a320)
 - [Gainsight Enablement 1](https://youtu.be/PL9shBdCMmo): health score, call logging, and creating a success plan
 - [Gainsight CTAs](https://www.youtube.com/watch?v=qkjmTh3Qad4&feature=youtu.be)
 - [Gainsight CSM Dashboard and Customer 360](https://www.youtube.com/watch?v=01IhQpSN2us&feature=youtu.be)
 - [Gainsight Assist Gmail Plugin](https://www.youtube.com/watch?v=7_gPQv-CHHA&feature=youtu.be)
 - [Gainsight Account Triage](https://drive.google.com/file/d/1-jM7j-tpY3kC6kZR4xjXS8iUPrkoBrn9/view)
 - [Executive Business Reviews with Gainsight](https://www.youtube.com/watch?v=LE1aNw4OiHw&feature=youtu.be)
-- [Sally Slackbot](https://education.gainsight.com/series/end-user-training/gainsight-sally)
-- [How a Gainsight CSM Uses Gainsight](https://education.gainsight.com/series/end-user-training-for-nxt/how-a-gainsight-csm-uses-gainsight)
+- [How a Gainsight CSM Uses Gainsight](https://education.gainsight.com/app/courses/1a7c70d2-804f-44c6-b378-3bd7e536ae82)
 - [Using Gainsight in Account Team Meetings](https://youtu.be/gT_pz9PoHHg)
 - [License Usage in Gainsight](https://youtu.be/ZqpmxoUy6EE)
 - [Product Usage Data - Overview](https://youtu.be/5_J9Kfbu5JA)
 - [At Risk Customer Video](https://www.youtube.com/watch?v=MQqfL3WT1zo)
-
 
 ### Sally the Slack bot
 
@@ -127,7 +119,7 @@ Sally is an AI powered Slack bot that allows you to log customer calls, update c
 
 While only Gainsight users can make inquiries with Sally, if she is in a channel and requested for information, her response will be visible to everyone in the channel. As a result, unless you want everyone in the channel to see the information, it's recommended to chat with Sally in a direct message.
 
-To get started with Sally, send her a message that says "help" and she'll let you know what she can do. For more information, see Gainsight's [suggested queries](https://support.gainsight.com/Gainsight_NXT/Sally_AI_Bot/FAQ/Sally_FAQs#What_queries_can_I_ask_Sally_today.3F) and other Sally [user guides](https://support.gainsight.com/Gainsight_NXT/Sally_AI_Bot/User_Guides).
+To get started with Sally, send her a message that says "help" and she'll let you know what she can do. For more information, see Gainsight's [suggested queries](https://support.gainsight.com/gainsight_nxt/Sally_AI_Bot/Sally_for_Slack/FAQ/Sally_FAQs#What_queries_can_I_ask_Sally_today.3F) and other Sally [user guides](https://support.gainsight.com/gainsight_nxt/Sally_AI_Bot/Sally_for_Slack/User_Guides).
 
 When updating account information, be sure that you select the correct account. Some larger organizations can have multiple entries in Salesforce. Requested updates should be available immediately in Gainsight.
 
@@ -141,7 +133,7 @@ CSMs can send these emails to customers in one of two ways:
 
 **1. Directly in Gainsight**: To send an email directly from Gainsight, create a basic CTA for the customer with the email subject/purpose. Once it's opened, click on the CTA, click the three vertical dots at the top right, then click "Send Email". Then choose the appropriate email template from the dropdown and fill in the recipient's email address and send.
 
-**2. In Gmail through a Chrome extension**: Add the [Gainsight extension](https://chrome.google.com/webstore/detail/gainsight-assist/kbiepllbcbandmpckhoejbgcaddcpbno?hl=en-US) to your Google Chrome browser. Once added, to apply a template, open a blank email and click the "G" icon on the right sidebar, choose the template, and click "Apply template". Complete the email as normal. If a recipient's email address is in Gainsight under their account, it will auto-link any emails and update the account's timeline. See Gainsight's support article on [Email Assist](https://support.gainsight.com/Gainsight_NXT/Email_Assist) for more details.
+**2. In Gmail through a Chrome extension**: Add the [Gainsight extension](https://chrome.google.com/webstore/detail/gainsight-assist/kbiepllbcbandmpckhoejbgcaddcpbno?hl=en-US) to your Google Chrome browser. Once added, to apply a template, open a blank email and click the "G" icon on the right sidebar, choose the template, and click "Apply template". Complete the email as normal. If a recipient's email address is in Gainsight under their account, it will auto-link any emails and update the account's timeline. See Gainsight's support article on [Email Assist](https://support.gainsight.com/gainsight_nxt/Email_Assist) for more details.
 
 Please note we recommend [BCCing Salesforce](/handbook/customer-success/using-salesforce-within-customer-success/#tracking-emails-within-salesforce) on all emails rather than syncing every email to Gainsight, although it is also possible to [BCC Gainsight](/handbook/customer-success/csm/gainsight/timeline/#bccing-emails).
 
@@ -172,4 +164,3 @@ To add customer contacts to an account, you can add them in either Salesforce or
 1. When we send emails to contacts (monthly release, marketing, etc.), the contact needs to be loaded into Gainsight.
 1. To share a Success Plan, they need to be a contact in Gainsight.
 1. Sponsor Tracking component requires the contact to be in Gainsight.
-

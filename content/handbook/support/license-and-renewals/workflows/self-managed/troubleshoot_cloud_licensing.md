@@ -1,5 +1,4 @@
 ---
-
 title: Troubleshooting cloud licensing
 description: "How to troubleshoot issues with a cloud license"
 category: GitLab Self-Managed licenses
@@ -109,7 +108,7 @@ In most circumstances, if system `curl` is working, then there won't be a need t
 
 For example, if the customer server is making use of custom certificate authorities (CA), such as when SSL packet inspection is employed, they will need to add that root CA certificate to `/etc/gitlab/trusted-certs` on the server, then [reconfigure GitLab](https://docs.gitlab.com/ee/administration/restart_gitlab.html#omnibus-gitlab-reconfigure).
 
-- Refer to our documentation on [how SSL works in GitLab](https://docs.gitlab.com/omnibus/settings/ssl/#details-on-how-gitlab-and-ssl-work) and [troubleshooting SSL in Gitlab](https://docs.gitlab.com/omnibus/settings/ssl/ssl_troubleshooting.html) for more in-depth information.  In particular, relying on the packaged version of `openssl` to check and verify SSL connectivity:
+- Refer to our documentation on [how SSL works in GitLab](https://docs.gitlab.com/omnibus/settings/ssl/#details-on-how-gitlab-and-ssl-work) and [troubleshooting SSL in GitLab](https://docs.gitlab.com/omnibus/settings/ssl/ssl_troubleshooting.html) for more in-depth information.  In particular, relying on the packaged version of `openssl` to check and verify SSL connectivity:
 
 ```sh
 echo | /opt/gitlab/embedded/bin/openssl s_client -connect customers.gitlab.com:443
@@ -119,7 +118,7 @@ It may be useful to run a [SSL Server Test](https://www.ssllabs.com/ssltest/anal
 
 ### Obtain DevTools > Network HAR file during activation
 
-A user's [browser's DevTools](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Tools_and_setup/What_are_browser_developer_tools) can be particularly useful in diagnosing cloud license connectivity failures, especially since the GitLab internal API ([graphql](https://docs.gitlab.com/ee/api/graphql/)) response can be viewed.
+A user's [browser's DevTools](https://developer.mozilla.org/en-US/docs/Learn_web_development/Howto/Tools_and_setup/What_are_browser_developer_tools) can be particularly useful in diagnosing cloud license connectivity failures, especially since the GitLab internal API ([graphql](https://docs.gitlab.com/ee/api/graphql/)) response can be viewed.
 
 1. Open the DevTools (usually `ctrl+shift+i`) and navigate to the Network tab
 1. (re)Load the page at `/admin/subscription`
@@ -128,7 +127,7 @@ A user's [browser's DevTools](https://developer.mozilla.org/en-US/docs/Learn/Com
 
 - Note that multiple `graphql` resources may be present, and not all will be related to the cloud licensing activation process.
 
-Since there will be a lot of information presented in the DevTools, feel free to suggest that the customer [generate a network HAR file](https://support.zendesk.com/hc/en-us/articles/4408828867098) and attach it to the ticket for closer inspection by us.
+Since there will be a lot of information presented in the DevTools, feel free to suggest that the customer [generate a network HAR file](https://support.zendesk.com/hc/en-us/articles/4408828867098-Generating-a-HAR-file-for-troubleshooting) and attach it to the ticket for closer inspection by us.
 
 Caution: Advise the user to sign out of the GitLab session they recorded to invalidate their session credentials.
 See [sec.Okta.com/harfiles](https://sec.okta.com/harfiles) for context.

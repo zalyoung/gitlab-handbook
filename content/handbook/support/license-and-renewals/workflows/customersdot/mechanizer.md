@@ -1,13 +1,8 @@
 ---
-
-title: Mechanizer 
+title: Mechanizer
 category: CustomersDot
-description: How to use the mechanizer for L&R requests. 
+description: How to use the mechanizer for L&R requests.
 ---
-
-
-
-
 
 ## Overview
 
@@ -21,7 +16,7 @@ The new ZD Mechanizer app can be found by opening the ZD App side bar. You must 
 
 In the app you will have the option to select from the following request types:
 
-#### Note
+### Note
 
 **Your GitLab Username** will be automatically added to the form.
 
@@ -66,7 +61,7 @@ Please note that in order to extend or renew a trial, the customer **MUST** have
 
 These two  fields are mandatory:
 
-- **Namespace**: The customer's namespace as it appears in the URL.  For example, if the customer namespace is located at <http://gitlab.com/gitlab-com> then the namespace would be `gitlab-com`. Please confirm through your own observation and through communication with Sales, the CSM, or the customer that the namespace is the one with the subscription or trial to be updated.
+- **Namespace**: The customer's namespace as it appears in the URL.  For example, if the customer namespace is located at <https://gitlab.com/gitlab-com> then the namespace would be `gitlab-com`. Please confirm through your own observation and through communication with Sales, the CSM, or the customer that the namespace is the one with the subscription or trial to be updated.
 - **Plan**: The subscription plan that you would like applied for the customer's group.  If the `free` option is selected, the customer's namespace will immediately be downgraded and the trial or subscription ended.
 
 These two fields are optional:
@@ -106,9 +101,9 @@ A note on **User Count**:
 
 For Self-Managed licences, GitLab will refuse to install a license key with less than the current number of billable users. Therefore, **User Count** for a trial license should *at least* be the same number as the current number of billable users plus any true-ups owed (if any).  For example, if 25 current billable users, and 5 true-ups owed, set **User Count** to at least 30.
 
-### Add storage to a namespace
+### Add project-level storage to a namespace
 
-Sets additional storage for a namespace to the value specified in the `Extra storage (MiB)` field
+Sets [additional project storage](https://docs.gitlab.com/ee/user/usage_quotas.html#excess-storage-usage) for a namespace to the value specified in the `Extra storage (MiB)` field
 
 - **Namespace:** The customer namespace as it appears in the URL.
 - **Extra storage (MiB):** Additional space to add in MB
@@ -117,7 +112,7 @@ Sets additional storage for a namespace to the value specified in the `Extra sto
 
 ### Set max seats
 
-Modifies the highest number of seats used on the namespace during the current subscription term.  
+Modifies the highest number of seats used on the namespace during the current subscription term.
 
 #### Note
 
