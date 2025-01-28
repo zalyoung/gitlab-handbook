@@ -138,7 +138,7 @@ For customers using **CI/CD**, we're expanding the available types of Runners to
 ### Taking time off
 
 {{% note %}}
-This process is expected for PTO that is five consecutive days or more, inclusive of adjacent public holidays. For PTO that is fewer than five consecutive days, including the cases where there are PTO blocks with a few working days in-between, a coverage issue is not required but a coverage issue can be filed for PTO of any length, especially if it'd be helpful to balance team continuity and individual flexibility.
+This process is expected for PTO that is five consecutive days or more, inclusive of adjacent public holidays. For PTO that is fewer than five consecutive days, including the cases where there are multiple PTO blocks with fewer than 5 consecutive days and a few working days in-between, a coverage issue is not required but a coverage issue can be filed for PTO of any length, especially if it'd be helpful to balance team continuity and individual flexibility.
 {{% /note %}}
 
 In order to ensure business continuity, and deliver on commitments; the Engineering Division is adopting a PTO Coverage Issue Process. Processes like this are already formalized in GitLab (e.g. [PM Coverage Issue](/handbook/product/product-management/product-manager-role/#creating-a-pm-coverage-issue)) and some team's within Engineering have practiced this regularly at the Management+ level. This allows us to continue to support team member well-being through time away without negatively impacting the rest of the team.
