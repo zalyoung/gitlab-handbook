@@ -325,7 +325,6 @@ It is **absolutely essential** that managers complete the required pre-work to e
   - [Values competencies](/handbook/people-group/competencies/#values-competencies)
   - [Remote work competencies](/handbook/people-group/competencies/#remote-work-competencies)
   - [Functional competencies](/handbook/people-group/competencies/#functional-competencies) *(if applicable)*
-- Review our [Unconscious Bias](/handbook/company/culture/inclusion/unconscious-bias/) handbook page and consider watching our [Recognizing Bias Training](/handbook/company/culture/inclusion/unconscious-bias/#recognizing-bias-training) if you haven't already.
 - Determine the appropriate box for each of your team members
 - Add notes for each of your team members to the agenda, at least 12 hours before the session
   - An example of notes could include:
