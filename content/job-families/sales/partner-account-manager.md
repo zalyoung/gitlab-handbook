@@ -197,6 +197,7 @@ The Manager, Ecosystem Sales typically reports to the Director, Ecosystem Sales.
 The Manager, Ecosystesm Sales is a [grade 8]({{< ref "compensation-calculator#gitlab-job-grades" >}}).
 
 #### Manager Expectations
+
 To be added at a later date
 
 ### Senior Manager, Ecosystem Sales
