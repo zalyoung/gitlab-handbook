@@ -672,75 +672,58 @@ Follow the steps below to process a Partner Sourced Deal Registration for a Refe
 
 _The deal registration form is not a quoting tool and will not have all the information needed to create a quote. The GitLab Sales Rep must connect with the partner to request any necessary information prior to creating a quote._
 
-### Service Attached Registration and Opportunities
+### Service Attached Registration
 
 GitLab incentivizes partners that sell their own professional services into a customer environment. The customer could have purchased licenses from the services partner, but that is not required to qualify for Service Attach. They could have purchased licenses directly from GitLab or from another partner. An approved Service Attached Registration makes the partner eligible for a **back-end rebate** (processed quarterly) once (i) GitLab successfully closes the related software deal as won and (ii) the partner completes their services and provides Proof of Execution, as outlined in the [GitLab Partner Program](/handbook/resellers/channel-working-with-gitlab/#definitions-and-qualifications). This is separate from the Partner Sourced Deal Registration for the license sale.
 
 To track the Partner Services, the partner must register the deal on the [Partner Portal](/handbook/resellers/#gitlab-partner-portal).
 
-Follow the steps below to process a Service Attached Registration for an applicable GitLab software sale opportunity:
+Review the steps below to process a Service Attached Registration for an applicable GitLab software sale opportunity beginning FY26:
 
-#### Ecosystem Sales Manager for first review and action
+1. Partner submits Services Attached Registration through the Partner Portal (Deal Registration Type = Services Attach)
+2. Ecosystem Specialists validate and map to software opportunity
+3. Software opportunity is Closed Won
+4. Partner submits valid executed Statement of Work (SOW) to partnersupport@gitlab.com and includes Deal ID
+5. Services Attached Registration is approved 
+6. Rebate is paid within forty-five (45) days following close of the quarter in which the Service Attached Registration was Approved/Closed Won
 
-1. Ecosystem Operations Team:
+### Requirements
 
-   - has first action to review and update the registration when `DR-Status` = `Submitted`. **Important to note**, the registration is _not ready_ for Ecosystem Sales Manager review while in `DR-Status` = `Submitted`.
-   - will update `DR-Status` to `Pending Sales Review` once their work is complete and the registration is ready for Ecosystem Sales Manager review (refer to [How it Works](/handbook/sales/field-operations/channel-operations/#partner-sourced-deal-registration-how-it-works) for details). `DR-Status` being updated to `Pending Sales Review` sends a notification to the Ecosystem Sales Manager to review and action the registration.
+- Services must be connected to a software opportuntity sold direct, via reseller, or via cloud marketplace. MSP deals are excluded.
 
-1. Click the link in either your email or [Deal Registration View](https://gitlab.my.salesforce.com/a9W?fcf=00B4M000004toX7) to open the registration record in Salesforce.
-1. Confirm the `Program Name` is "Service Attached Registration", `Services Attach Type` is populated with the relevant service, and that the partner provided sufficient detail to proceed with the registration. If registration details are _accurate and complete_, proceed to the next step. If registration details are _inaccurate and/or incomplete_, return the registration to request more information from the partner. Select "Returned" in the `PM Approval Status` field, add your information request for the partner in the `PM Comments` field, then click the `Save` button to complete the return process. **Important to note:**
-   - There may also be a Resale or Referral Partner Sourced Deal Registration for the license sale. The Resale or Referral registration will populate in the opportunity fields, while the Service Attached registration will only be linked to the opportunity.
-   - A Service Attached Registration **must** attach to a license sale opportunity.
-   - There should already be an existing license sale opportunity in the system prior to processing approvals on a Service Attached Registration. If there is no existing license opportunity, the Ecosystem Sales Manager should request that the partner submit a Partner Sourced Deal Registration for the license sale. Once the Ecosystem Sales Manager has processed the Partner Sourced Deal Registration, they can attach the Service Attached Registration to the existing opportunity and proceed with approvals.
-    ![16-Returned_Reg](/images/sales/field-operations/channel-operations/16-Returned_Reg.png)
-1. Discuss the Service Attached registration with the GitLab Sales Rep and ASM and decide to either approve or reject.
-1. Click `Link/Create Opportunity`.
-    ![20-Svce_Att_Reg_LinkCreateOpp_Button](/images/sales/field-operations/channel-operations/20-Svce_Att_Reg_LinkCreateOpp_Button.png)
-1. On the "Link/Create Opportunity" page, search for the opportunity in the provided list and/or perform a "Global Search."
-   - **If the opportunity already exists**, click `Link` next to the opportunity name. You will then be brought back to the deal registration record.
-   - **If there is no matching opportunity**, and you plan to:
-     - _**Approve**_ the registration, click the `Back` button and refer to Step 2 above for next steps.
-     - _**Reject**_ the registration, click the `Back` button and proceed to the next step.
-   - **The opportunity must be less than 6 months old to qualify for the incentive. If the Opportunity has already Closed-Won, chatter `@Partner Operations` to link the Service Attached Registration to the Closed-won opportunity**. If the opportunity is greater than 6 months old, the Ecosystem Sales Manager should reject the registration and work with the partner to see if there is an upcoming licensing opportunity that would qualify for partner services.
-     ![21-Svce_Att_Reg_LinkCreateOpp_Screen.png](/images/sales/field-operations/channel-operations/21-Svce_Att_Reg_LinkCreateOpp_Screen.png)
+- Service Attached Registrations are eligble for partner rebates if (i) from PSPs and (ii) for partner initiatiated services (e.g., CAPS deals will not qualify for rebate)
 
-1. Navigate to the Partner Manager Approvals section of the registration record. If you are going to:
-   - _**Approve**_, select "Approved" in the `PM Approval Status` field, then click `Save` to complete your approval.
-   - _**Reject**_, select "Denied" in the `PM Approval Status` field, select a reason in the `PM Denial Reason` field, then click `Save` to complete your rejection.
-    ![17-Approve_Deny_Partner_Manager](/images/sales/field-operations/channel-operations/17-Approve_Deny_Partner_Manager.png)
+**In Scope Services:** Implementation, Integration, Migration, Optimization, Adoption, Security/Compliance, Assessments
 
-#### Area Sales Manager (ASM) for final review and action (if approved by Ecosystem Sales Manager)
+**Out of Scope Services:** Education/Training, subcontracted services, free of charge service 
 
-1. You will receive an approval request email when a registration has entered your queue for review and approval. Click the link in your email or [Deal Registration View](https://gitlab.my.salesforce.com/a9W?fcf=00B8X00000AmOeS) to open the registration record in SFDC.
-2. Confirm alignment with the Ecosystem Sales Manager and GitLab Sales Rep prior to providing final approval or rejection on the registration.
-3. Click `Approve/Deny/Return Registration`.
-    ![18_1-Approve_Reject_Return_Button](/images/sales/field-operations/channel-operations/18_1-Approve_Reject_Return_Button.png)
-4. Select the Approve, Deny, or Return option. Add any message for the partner in the `Comments sent to Partner` field if applicable. Select `Save` to complete the process.
-    ![18_2-ASM_Approval](/images/sales/field-operations/channel-operations/18_2-ASM_Approval.png)
 
-#### Post-Approval
+**Timing:** Executed SOW must be submitted within 6 months of software opportunity close date. SOW must include a description of the services, confirm the dates of the project and include customer signature. Services must be connected to our software (e.g, SOW mentions GitLab)
 
-1. The registration and opportunity records will be updated with the approval information.
+- Approvals will be on first come, first serve basis for the partner that completes the process (i.e., submits Services Attached Registration and provides valied executed SOW)
 
-   - A Service Attached registration will **not** populate the Partner Sourced Deal Registration section of an opportunity. Click the related list link at the top of the opportunity to locate the Service Attached registration. This will bring you to a list of any registration attached to the opportunity, including the Service Attached Registration.
-   ![10-Reg_Related_Lists](/images/sales/field-operations/channel-operations/10-Reg_Related_Lists.png)
-   - Alternatively, you can scroll to the "Registrations" section toward the bottom of the opportunity.
-     ![11-Reg_for_Svc_Att](/images/sales/field-operations/channel-operations/11-Reg_for_Svc_Att.png)
+- No exceptions will be granted for Services Attached Registration submitted in a given quarter without an executes SOW.
 
-1. The Partner delivers services, either before or after the license sale is completed.
+### Status of Services Attached Registration
+**Pending:** If SOW/POE has not been submitted
 
-   - The services can be completed up to six months before or after the license opportunity closes.
-   - Services delivered more than six months before or after the opportunity closes do not qualify for the Services Attach Rebate.
+**Pending Opportunity Closure:** If SOW/POE is submitted and approved but review date is prior to opportunity close won date and/or opportunity is open
+- SOW is approved on Dec 13, opportunity close won date is Dec 15
+- Move to approved on Dec 15
 
-1. The Partner provides Proof of Execution (POE) to `partnersupport@gitlab.com` which can include customer signed statement of work (SOW) or other customer-verified POE.
-1. The Ecosystem Operations team will ensure the `DR - Deal ID` is listed on the POE, upload it to the opportunity, and chatter the Ecosystem Sales Manager. The Ecosystem Operations team will then update the Service Attached Registration Status to Closed-Won.
-1. After the close of quarter in which the software deal is closed-won (rebate payouts are reported and paid after each GitLab quarter close), Ecosystem Operations will pull a report of Closed-Won Service Attached Registrations for rebate payments.
-1. Ecosystem Operations submits the payments to Coupa for reseller payouts. Resellers should receive payment within 45 days of the start of the new quarter.
+**Approved:** If SOW/POE is submitted and approval date is on or after opportunity Closed Won date
 
-Rebate payouts will be reported and paid after each GitLab quarter close.
+**Denied:** If SOW is submitted 6 months past close date or MSP customer account, etc
+
+**Closed:** If opportunity has moved to Closed Lost, or if Partner/ESM/etc communicates the partner did not win the services business
+
+
+
+
 
 ### Additional Information
 
+- Partner Services Amount is calculated as attach rate times net ARR of the associated New/Add-on/Upsell/Renewal software opportunity.
 - The resale discount will be administered as an upfront discount from the GitLab license price on the most recent product sale net license price. The Service Attach incentive will be paid out at the end of each GitLab fiscal quarter.
 - Partner Service Attach incentives are outlined in the [GitLab Channel Partner Program Discounts and Incentive Guide](https://gitlab.highspot.com/items/626018776705c7e7d2df0bce?lfrm=rhp.0)
 - Partners must hold an approved Service Attached Registration and provide proof of performance/execution to qualify for the incentive.
