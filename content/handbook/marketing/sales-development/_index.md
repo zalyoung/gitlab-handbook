@@ -1719,13 +1719,14 @@ Announcement Channels
 
 | Products Considered | Who | Order Type | Segment | Opportunities |
 | ---------- | -------- | ------- | --------- | -------------- |
-| GitLab ultimate/premium, Duo | SDR | FO + New Connected | SMB/Comm | 1 (Duo Pro is excluded) |
-| GitLab ultimate/premium, Duo | SDR | FO + New Connected + Growth (new groups) | Enterprise | 2 (GitLab + Duo Pro) |
-| GitLab ultimate/premium, Duo | BDR | FO | Comm/Ent | 2 |
-| GitLab ultimate/premium, Duo | BDR | New Connected + Growth | Comm/Ent | 2 |
-| Additional seats in current customer department | BDR | Growth | Comm/Ent | 1 |
-| Tier upgrade | BDR | Growth | Comm/Ent | 1 |
-| GitLab ultimate/premium, agile planning | everyone | All motions | All segments | 1 (agile planning is excluded) |
+| GitLab ultimate/premium, add ons | SDR | FO, New Connected, Growth | All segments | 1 |
+| GitLab ultimate/premium, add ons  | BDR | FO | Commercial, Enterprise | 1 |
+| GitLab ultimate/premium, add ons | BDR | New connected, Growth | Commercial, Enterprise | 1 |
+| Additional seats in current customer department | everyone | Growth | All segments | 1 |
+| Tier upgrade | everyone | Growth | All segments | 1 |
+| GitLab Duo | everyone | Growth | All segments | 1 |
+| Agile planning | everyone | Growth | All segments | 1 |
+| Storage, Compute | everyone | Growth | All segments | 0 |
 | Professional services | everyone | All motions | All segments | 0 |
 
 - **NOTE** If an account only has bought CI minutes, the SDR/BDR will still get credit for a first order Opportunity if the account purchases Premium or Ultimate licenses.
