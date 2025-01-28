@@ -100,7 +100,7 @@ We also track results via metrics which are available internally, including MITR
 
 The goal of a Red Team operation is often to test our policies and procedures when reacting to an actual threat. This includes identifying suspicious activity and following the appropriate runbook to investigate and respond to that threat.
 
-If any team member, at any time, could simply ask *"Hey, this looks suspicious. Is this our Red Team?"* then this opportunity would be lost. **Instead, all suspicious activity should be treated as potentially malicious and acted upon accordingly**.
+If any team member, at any time, could simply ask _"Hey, this looks suspicious. Is this our Red Team?"_ then this opportunity would be lost. **Instead, all suspicious activity should be treated as potentially malicious and acted upon accordingly**.
 
 We have private Slack channels in place where designated team members can ask the Red Team if a certain activity belongs to them. This helps us to provide realistic opportunities to practice detection and response without escalating too far. For example, we would not want an emulated attack to affect production operations or escalate to third parties.
 
@@ -110,7 +110,7 @@ You can read more about this process in the ["Requests for Disclosure" section](
 
 ### How the Red Team will respond to this question
 
-If the Red Team is ever asked *"Is this you?"* by someone other than the designated team members mentioned above, they will respond with the following text:
+If the Red Team is ever asked _"Is this you?"_ by someone other than the designated team members mentioned above, they will respond with the following text:
 
 > Thanks for your vigilance! Any suspicious activity should be treated as potentially malicious. If you'd like to contact security, you can follow the process [here](../engaging-security-on-call).
 >

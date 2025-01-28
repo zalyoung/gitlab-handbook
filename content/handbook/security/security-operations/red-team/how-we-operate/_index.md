@@ -2,7 +2,7 @@
 title: "How the Red Team Operates"
 ---
 
-# How the Red Team operates
+## Rules of Engagement
 
 - [rules of engagement](rules-of-engagement.md)
 
