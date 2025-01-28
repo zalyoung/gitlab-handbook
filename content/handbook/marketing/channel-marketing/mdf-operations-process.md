@@ -54,20 +54,6 @@ description: "The page details the operational process for the MDF program."
 
 ## Pre-Activity
 
-### Allocadia
-
-#### Step 1: Confirm details are correct
-
-1. When the approvals have been completed, review the Funds Request and Allocadia to make sure all the details match including the dates and amounts
-     1. Revise accordingly is there are any discrepancy
-     1. You can check the budgeted amount in MDF Tracking View
-
-#### Step 2: Update MDF # in Allocadia & Epic
-
-1. Replace MDF “000” in Allocadia line item name with the new MDF #
-1. In the details panel, check the epic is linked correctly
-1. Once confirmed, hit “Create/Update MDF Epic/Issues” to save changes
-
 ### Marketo
 
 #### Step 1: Create the Marketo Program
@@ -210,9 +196,26 @@ description: "The page details the operational process for the MDF program."
 
 #### Step 3: Add MDF Request on the Salesforce Campaign
 
+1. Edit the Salesforce Campaign to add the MDF Request. This is the foundational step that ensures MDF request data flow between Salesforce, Allocadia and GitLab system during the nightly sync.
+     1. Field Sync to Allocadia - the system automatically transfers four key metrics from Salesforce to Allocadia details panel each night:
+         1. MDF Request Number
+         1. Target Number of Contacts
+         1. Expected Number of Deal Registration
+         1. Estimated Pipeline Created (USD)
+     1. Automated Line Item Name Updates
+         1. When Partner Marketing uses “MDF 000” as a placeholder
+         1. System automatically replaces it with the actual MDF number 
+         1. Updates MDF number in the GitLab issue/epic name
+     1. GitLab Integration Features - the system automatically populates GitLab issues with:
+         1. Salesforce campaign name
+         1. Salesforce campaign link
+         1. Target Number of Contacts
+         1. Expected Number of DR
+         1. Estimated Pipeline Created (USD)
+
 #### Step 4: Update Tracking Sheet and Epic
 
-1. Add Salesforce Campaign and Fund Request to epic and tracking spreadsheet.
+1. Add Fund Request to epic and tracking spreadsheet.
 
 ## Cancelled
 
