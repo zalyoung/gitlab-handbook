@@ -121,7 +121,7 @@ During this period, if you a Support Engineer in APAC and you are working on a t
 Please use the following link to schedule a call with Bernard Ng from the CSE team: <CALENDLY SCHEDULING LINK HERE>
 
 Do let me know if you run into issues scheduling a call, we'll be happy to assist.```
-1. If the customer didn't have any other questions that need Supports input, the ticket can now be marked as Solved. Use a resolution of `CSE Referral`.
+1. If the customer didn't have any other questions that need Supports input, the ticket can now be marked as Solved. Use a resolution of `Other`, and add the text `CSE Referral` in the description.
 1. If the discussion in the CSE channel results in the CSE advising they can not help with the ticket, continue to work it as a support ticket.
 
 ### Helping with a ticket that has an Assigned Support Engineer
