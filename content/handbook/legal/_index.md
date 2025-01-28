@@ -83,7 +83,7 @@ The [Risk Management and Dispute Resolution team](/handbook/legal/risk-managemen
 
 The [Authorization Matrix](/handbook/finance/authorization-matrix/#authorization-matrix) designates who is authorized to sign legal documents. Only GitLab Team Members with signature authority can execute agreements on behalf of GitLab.
 
-## Non-Disclosure Agreements
+## Non-Disclosure Agreements (NDA)
 
 Follow the [Non-Disclosure Agreement Process](/handbook/legal/NDA/) to learn how to send an NDA in DocuSign or request an NDA if you do not have DocuSign access.
 
