@@ -39,7 +39,7 @@ GitLab's global DIB strategy focuses on creating an inclusive environment that s
 
 ### 3. Career Development
 
-GitLab's career development strategy focuses on creating equitable pathways for advancement across all levels of the organization. We're emphasizing inclusive leadership development through targeted training programs and coaching, while expanding mentorship opportunities for underrepresented groups. Additionally, we're working to ensure our talent management processes support equitable career progression through systematic audits and clear development frameworks.
+GitLab's career development strategy focuses on creating pathways for advancement across all levels of the organization. We're emphasizing inclusive leadership development through training programs and coaching, while expanding mentorship opportunities for underrepresented groups. Additionally, we're working to ensure our talent management processes support career progression through systematic audits and clear development frameworks.
 
 ## Goals and Objectives
 
