@@ -4,4 +4,18 @@ title: "Stealth Operations"
 
 # Red Team Stealth Operations
 
-how we do them etc
+Stealth operations is our most significant offering, providing GitLab an opportunity to practice responding to real-world attacks.
+
+## Who is involved?
+
+During a stealth operation, only a small group of GitLab team members are aware of the details. We call these people "trusted participants", and they help keep operations safe and productive.
+
+## How long do they last?
+
+Stealth operations can vary in format and length. Some follow a more defined cycle with clear start and end dates, typically spanning 3-6 months. These operations often conclude when a significant detection event occurs, allowing us to evaluate the full response process. Other operations are continuous, designed to emulate persistent threats. In these cases, if we're detected, we regroup, adapt our tactics, and continue pursuing our objectives — just as real adversaries would.
+
+## What happens during a stealth operation?
+
+All our stealth operations emulate threats most likely to target GitLab, our platform, and our customers. This focused approach sharpens our defenses and keeps us ahead of potential attacks.
+
+Stealth operations require [special rules](red-team-roe#stealth-operations). Examples of techniques we may use and those we will specifically avoid can be found in [Stealth Operation Techniques](red-team-roe#stealth-operation-techniques).
