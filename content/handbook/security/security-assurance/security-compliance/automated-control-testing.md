@@ -1,89 +1,362 @@
----
-title: "Automated evidence collection and control testing"
----
+# Automated Evidence Collection and Control Testing
 
-## Overview
+## Objectives
 
-This document outlines GitLab's approach to automated evidence collection and control testing, detailing two distinct methodologies used to ensure comprehensive security and compliance coverage.
+The automated evidence collection and control testing program aims to:
+
+* Streamline the collection and validation of control evidence through automation
+
+* Ensure comprehensive coverage of both compliance requirements and security risks
+
+* Reduce manual effort in control testing and evidence gathering
+
+* Provide real-time visibility into control effectiveness and compliance status
+
+* Enable data-driven decisions about security and compliance priorities
+
+* Support both certification maintenance and dynamic security needs
 
 ## Executive Summary
 
-Key aspects of GitLab's automated evidence collection and control testing:
+GitLab's automated evidence collection and control testing system consists of:
 
-* Two distinct testing methodologies:
+* Evidence Collection:
 
-- Framework-based: Structured approach for ISO, SOC 2, TISAX, and Cyber Essentials compliance
+    * Multiple source integration (Scripts, CSPM, Security Platforms, Log Analytics)
 
-- Risk-based: Dynamic approach for emerging security challenges and operational risks
+    * Centralized evidence repository
 
-* Shared Infrastructure:
+    * Automated collection and validation
 
-- Centralized evidence collection system
+* Dual Testing Framework:
 
-- Automated collection and validation
+    * Framework-based: Using RCM for ISO, SOC 2, and other certification requirements
 
-- Common storage and retrieval mechanisms
+    * Risk-based: Using GCF with risk categorization and scoping
 
-* Key Differentiators:
+* Outputs:
 
-- Framework testing follows rigid schedules and standardized procedures
+    * Framework compliance reporting
 
-- Risk-based testing adapts to the threat landscape and risk assessments
+    * Risk-based analysis
 
-- Evidence can serve both purposes through proper classification
+    * Consolidated metrics dashboard
 
-* Implementation:
+## System Overview
 
-- Mix of custom automation and security platforms
+```mermaid
+flowchart TD
+    subgraph Sources ["Evidence Sources"]
+        S1[Custom Scripts]
+        S2[CSPM Tools]
+        S3[Security Platforms]
+        S4[Log Analytics]
+    end
 
-- Flexible architecture to accommodate evolving requirements
+    subgraph Storage ["Central Repository"]
+        DB[(Evidence Database)]
+    end
 
-- Comprehensive reporting for both compliance and risk management
+    subgraph Engine ["Analysis Engine"]
+        direction LR
+        T1[Framework Testing]
+        T2[Risk-Based Testing]
+    end
 
-## Introduction
+    subgraph Framework ["Framework Testing Components"]
+        RCM[RCM Framework]
+        Cert1[ISO Requirements]
+        Cert2[SOC 2 Requirements]
+        Cert3[Other Certifications]
+    end
 
-Automated evidence collection and control testing at GitLab follow a sophisticated dual-pronged approach designed to meet compliance requirements and address dynamic security risks. This document outlines our comprehensive strategy, which combines structured framework-based testing with flexible risk-based assessments, ensuring regulatory compliance and a robust security posture.
+    subgraph Risk ["Risk Testing Components"]
+        GCF[GCF Framework]
+        RC[Risk Categorization]
+        Scope[Risk Scoping]
+    end
 
-## Control Testing Methodologies
+    subgraph Output ["Reporting & Metrics"]
+        R1[Framework Reports]
+        R2[Risk-Based Reports]
+        Dashboard[Consolidated Dashboard]
+    end
 
-### Framework-Based Control Testing
+    S1 --> DB
+    S2 --> DB
+    S3 --> DB
+    S4 --> DB
 
-Framework-based control testing forms the foundation of our compliance program, specifically addressing requirements from established frameworks such as ISO, SOC 2, TISAX, and Cyber Essentials. This methodology follows a highly structured approach where control objectives, testing procedures, and evidence requirements are clearly defined and standardized. The predictability of this approach ensures consistent compliance with certification requirements while maintaining audit readiness.
+    DB --> T1
+    DB --> T2
 
-Testing under this approach adheres to strict documentation standards and predetermined frequencies aligned with certification cycles. Each control test must produce evidence that meets specific framework criteria, often following standardized templates and formats acceptable to external auditors. This rigorous structure ensures that our compliance posture remains substantial and verifiable, with clear paths to demonstrate adherence to framework requirements.
+    RCM --> T1
+    Cert1 --> T1
+    Cert2 --> T1
+    Cert3 --> T1
 
-### Risk-Based Control Testing
+    GCF --> T2
+    RC --> T2
+    Scope --> T2
 
-In contrast to the structured framework approach, our risk-based control testing methodology provides the flexibility needed to address emerging security challenges and operational risks. This approach extends beyond baseline compliance requirements to examine additional control aspects and security processes crucial for maintaining a robust security posture that compliance frameworks may not explicitly cover.
-
-The risk-based approach adapts to the evolving threat landscape, allowing for dynamic adjustment of testing parameters and frequencies based on risk indicators. Testing depth and evidence collection requirements vary according to the control context and current risk assessment findings. This flexibility enables the security team to focus resources on areas of most significant risk while maintaining comprehensive coverage of the security landscape.
+    T1 --> R1
+    T2 --> R2
+    R1 --> Dashboard
+    R2 --> Dashboard
+```
 
 ## Evidence Collection Infrastructure
 
-### Centralized Collection and Storage
+### Sources and Integration
 
-Our evidence-collection infrastructure serves both testing methodologies through a centralized system that maintains strict control over evidence quality and integrity. The system incorporates sophisticated metadata tagging, version control, and access management to ensure evidence reliability and availability. Evidence retention policies are carefully crafted to meet both compliance requirements and operational needs, with automated collection schedules optimized for efficient resource utilization.
+The foundation of our control testing program is a robust evidence collection system that integrates multiple data sources through automated means:
 
-The infrastructure handles diverse evidence types, from system configurations and log data to policy documents and security event records. Each piece of evidence is automatically tagged with relevant metadata, including collection timestamps, control identifiers, and validation criteria. This comprehensive metadata enables efficient evidence retrieval and correlation during audit preparation or risk analysis.
+1. Cloud Security Posture Management (CSPM):
 
-### Automation Implementation
+    * Wiz for cloud infrastructure security assessment and compliance monitoring
 
-Evidence-collection automation leverages both custom-developed solutions and integrated security platforms. Custom scripts, typically developed in Python, handle specialized collection tasks and integrate with various data sources through APIs and database queries. These are complemented by established security platforms like Wiz, which provide additional automated collection capabilities and integrated analysis features.
+    * GCP Security Command Center for Google Cloud environment security
 
-The automation framework is designed to be extensible, allowing for the addition of new collection methods and integration with emerging security tools. This flexibility ensures that our evidence-collection capabilities can evolve alongside our security and compliance needs.
+    * AWS Config for AWS environment configuration monitoring
 
-## Testing Execution and Frequency
+2. Infrastructure as Code (IaC) Security:
 
-Control testing execution varies significantly between our two methodologies, yet they share the same evidence-collection infrastructure. Framework-based testing follows rigid schedules aligned with certification requirements, typically operating on fixed daily, weekly, or monthly intervals. Each test execution includes automated compliance checking against predefined validation rules, with robust exception tracking and evidence linking.
+    * Checkov for static analysis of Terraform configurations
 
-Risk-based testing, however, operates on a more dynamic schedule driven by ongoing risk assessments, threat intelligence, and operational changes. Test execution adapts to emerging threats and vulnerabilities, adjusting frequency and depth based on risk indicators and business impact considerations. This adaptive approach ensures that security resources are allocated efficiently to address the most significant risks.
+    * GitLab IaC scanning for pipeline-integrated security checks
+
+    * Custom parsers for configuration validation
+
+3. Custom Evidence Collection:
+
+    * Python scripts for API-based data collection
+
+    * Bash scripts for Linux system evidence collection
+
+    * Custom integrations with internal tools and services
+
+4. Security Information Management:
+
+    * Log aggregation and analysis
+
+    * Metrics collection
+
+    * Custom log parsers for specific application evidence
+
+Each source is integrated through standardized APIs or collection mechanisms, with specific data transformations:
+
+* JSON-formatted output for consistency
+
+* Standardized timestamp formats (UTC)
+
+* Uniform metadata tagging for control mapping
+
+* Structured evidence classification
+
+### Central Repository
+
+All collected evidence flows into a centralized repository designed for secure storage and efficient retrieval. The repository implements strict access controls, version tracking, and retention policies to maintain evidence integrity. Each piece of evidence is tagged with essential metadata including:
+
+* Source identification
+
+* Collection timestamp
+
+* Control mapping
+
+* Data classification
+
+* Validation status
+
+## Analysis Engine
+
+### Framework-Based Testing
+
+The framework-based testing component utilizes our Requirements and Controls Matrix (RCM) to evaluate evidence against specific certification requirements. 
+
+#### Certification Coverage
+
+Our testing framework specifically addresses:
+
+* ISO 27001:2013 certification requirements, including Annex A controls
+
+* SOC 2 Type 2 Trust Services Criteria (Security, Availability, Confidentiality)
+
+* Industry-specific standards (TISAX, Cyber Essentials)
+
+* PCI DSS requirements where applicable
+
+#### Testing Implementation
+
+Evidence evaluation is performed through automated means:
+
+1. Wiz Compliance Module:
+
+    * Real-time cloud infrastructure compliance assessment
+
+    * Automated evidence collection for cloud controls
+
+    * Continuous compliance monitoring and alerting
+
+2. Infrastructure Testing:
+
+    * AWS Config Rules for infrastructure compliance
+
+    * GCP Security Command Center compliance checks
+
+3. Application Security:
+
+    * GitLab security scanning results
+
+    * Container security scanning
+
+    * Dependency scanning results
+
+4. Custom Control Testing:
+
+    * Automated script execution for control validation
+
+    * API-based control status checking
+
+    * Scheduled evidence collection tasks
+
+Testing follows predefined schedules aligned with certification cycles:
+
+* Daily automated control validation
+
+* Weekly comprehensive compliance checks
+
+* Monthly detailed control assessment
+
+* Quarterly full framework evaluation
+
+### Risk-Based Testing
+
+Risk-based testing leverages the GitLab Control Framework (GCF) combined with dynamic risk assessment to provide comprehensive security coverage beyond basic compliance requirements.
+
+#### Testing Strategy
+
+The risk-based approach implements:
+
+1. Continuous Security Validation:
+
+    * Wiz real-time security posture monitoring
+
+    * Cloud infrastructure security assessment
+
+    * Configuration drift detection
+
+    * Vulnerability identification and tracking
+
+2. Dynamic Risk Assessment:
+
+    * Weekly automated risk scoring based on:
+
+        * Threat intelligence feeds
+
+        * Vulnerability scan results
+
+        * Security incident data
+
+        * Asset criticality ratings
+
+    * Automatic adjustment of testing frequency based on risk scores
+
+    * Integration with StORM risk management program
+
+3. Operational Security Testing:
+
+    * Daily security baseline checks
+
+    * Automated security control validation
+
+    * Integration with security incident management
+
+    * Custom control effectiveness measurements
+
+4. Enhanced Control Coverage:
+
+    * Testing of controls beyond certification scope
+
+    * Custom security requirements validation
+
+    * Industry-specific security checks
+
+    * GitLab-specific security controls
 
 ## Analysis and Reporting
 
-Our analysis and reporting framework provides distinct views for compliance and risk-based assessments while maintaining data correlation capabilities. For framework-based controls, reports focus on certification readiness, control effectiveness, and gap analysis, providing clear visibility into our compliance posture. These reports directly support audit preparation and compliance maintenance activities.
+### Framework Compliance Reporting
 
-Risk-based analysis examines control effectiveness trends, threat exposure metrics, and vulnerability status, providing insights into our security risk posture. The reporting system correlates findings across both methodologies to provide a comprehensive view of our security and compliance status, enabling informed decision-making about resource allocation and risk mitigation strategies.
+Framework compliance reports provide clear visibility into certification readiness and control effectiveness. These reports include:
+
+* Control testing status
+
+* Evidence completeness
+
+* Compliance gaps
+
+* [Observation Management](/handbook/security/security-assurance/security-compliance/observation-management-procedure/)
+
+* Audit preparation metrics
+
+### Risk-Based Analysis
+
+Risk-based analysis reports focus on security posture and risk mitigation effectiveness. Key components include:
+
+* Control effectiveness trends
+
+* Risk level indicators
+
+* Threat exposure metrics
+
+* Control coverage analysis
+
+* Remediation priorities
+
+### Consolidated Dashboard
+
+The consolidated dashboard provides a unified view of both compliance status and risk posture. This integration enables:
+
+* Holistic control effectiveness monitoring
+
+* Resource allocation optimization
+
+* Trend analysis across frameworks
+
+* Executive-level reporting
+
+* Operational metrics tracking
+
+## Implementation and Maintenance
+
+### Automation Development
+
+Our automation framework is continuously evolved to improve efficiency and coverage. Development priorities include:
+
+* New source integration
+
+* Testing procedure automation
+
+* Report generation enhancement
+
+* Dashboard customization
+
+* Analysis engine optimization
+
+### Quality Assurance
+
+To maintain the reliability of our testing program, we implement:
+
+* Regular validation of automation scripts
+
+* Evidence quality monitoring
+
+* Testing procedure reviews
+
+* Results verification
+
+* System performance optimization
 
 ## Conclusion
 
-This dual approach to automated evidence collection and control testing provides GitLab with comprehensive coverage of compliance requirements and security risks. The shared infrastructure for evidence collection, combined with distinct testing methodologies, ensures efficient resource utilization while maintaining the flexibility to address both structured compliance needs and dynamic security challenges. This strategy positions GitLab to maintain a substantial compliance posture while effectively managing emerging security risks.
+This comprehensive approach to automated evidence collection and control testing provides GitLab with efficient coverage of both compliance requirements and security risks. The integration of RCM and GCF frameworks, supported by robust evidence collection and analysis capabilities, ensures effective management of our compliance and security posture. Continuous development of automation capabilities and regular system optimization maintain the program's effectiveness as requirements evolve.
