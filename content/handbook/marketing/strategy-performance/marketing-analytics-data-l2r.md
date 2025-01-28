@@ -192,3 +192,78 @@ The dbt solution generates a dimensional model from RAW source data. The excepti
 ### Data Lineage
 
 ### DBT Solution
+
+## Rpt_l2r_prospects
+
+Tableau-specific table that is a filtered view of rpt_lead_to_revenue, focused entirely on First Order Prospects. 
+
+### Use Cases
+
+1. Funnel stage progression of a given record
+1. Count of records in a given funnel stage
+1. Average velocity between funnel stages
+1. Cohorting data around a given attribute
+
+### Key Fields
+
+1. `lead_to_revenue_id` - The surrogate key that identifies a unique row in this model. 
+1. `[kpi]_date_range_*` - KPI-specific date aggregations
+1. `bizible_mql_*` - Bizible TP data on the TP that occurs just prior to the MQL Date.
+1. `bizible_most_recent_*` - Bizible TP data on the most recent TP on a person/opportunity
+
+### Key Metrics
+
+1. Count of records by funnel stage
+1. Count of Touchpoints between specific funnel stages
+1. Overall velocity through the funnel
+1. Funnel stage conversion rates
+
+### Data Lineage
+
+1. Data is sourced from SFDC
+1. The full lineage can be seen [here](https://dbt.gitlabdata.com/#!/model/model.gitlab_snowflake.rpt_l2r_prospects?g_v=1&g_i=%2Brpt_l2r_prospects%2B)
+
+### DBT Solution
+
+The dbt solution generates a dimensional model from RAW source data. The exceptions are the following fields that are calculated based on business logic implemented within specific dbt models:
+
+| Field              | Business Logic   |
+|--------------------|------------------|
+| lead_to_revenue_id | [Defined in model](https://gitlab.com/gitlab-data/analytics/-/blob/master/transform/snowflake-dbt/models/common_mart_marketing/restricted_safe/rpt_lead_to_revenue.sql#L699) |
+| [kpi]_date_range_* | [Defined in model](https://gitlab.com/gitlab-data/analytics/-/blob/master/transform/snowflake-dbt/models/common_mart_marketing/restricted_safe/rpt_lead_to_revenue.sql#L703) | 
+
+## Wk_rpt_l2r_cohort_model
+
+A Tableau-specific table, currently a WIP, that Cohorts the rpt_lead_to_revenue data, pre-calculating velocity and lag time between funnel stages. This is entirely focused around determining cohorted conversion rates and KPI counts. 
+
+### Use Cases
+
+1. Calculating cohorted velocity, conversion rate, and KPI counts
+
+### Key Fields
+
+1. `lead_to_revenue_id` - The surrogate key that identifies a unique row in this model. 
+1. `[kpi]_date_range_*` - KPI-specific date aggregations
+1. `Kpi_to_kpi_days` - Lag time (in days) between specific KPIs/Funnel stages. Also represents conversion velocity. 
+
+### Key Metrics
+
+1. Count of records by funnel stage
+1. Count of Touchpoints between specific funnel stages
+1. Overall velocity through the funnel
+1. Funnel stage conversion rates
+
+### Data Lineage
+
+1. Data is sourced from SFDC
+1. The full lineage can be seen [here](https://dbt.gitlabdata.com/#!/model/model.gitlab_snowflake.wk_rpt_l2r_cohort_model?g_v=1&g_i=%2Bwk_rpt_l2r_cohort_model%2B)
+
+### DBT Solution
+
+The dbt solution generates a dimensional model from RAW source data. The exceptions are the following fields that are calculated based on business logic implemented within specific dbt models:
+
+| Field              | Business Logic   |
+|--------------------|------------------|
+| lead_to_revenue_id | [Defined in model](https://gitlab.com/gitlab-data/analytics/-/blob/master/transform/snowflake-dbt/models/common_mart_marketing/restricted_safe/rpt_lead_to_revenue.sql#L699) |
+| [kpi]_date_range_* | [Defined in model](https://gitlab.com/gitlab-data/analytics/-/blob/master/transform/snowflake-dbt/models/common_mart_marketing/restricted_safe/rpt_lead_to_revenue.sql#L703) |
+| kpi_to_kpi_days    | [Defined in model](https://gitlab.com/gitlab-data/analytics/-/blob/master/transform/snowflake-dbt/models/workspaces/workspace_marketing/restricted_safe/wk_rpt_l2r_cohort_model.sql#L112) |
