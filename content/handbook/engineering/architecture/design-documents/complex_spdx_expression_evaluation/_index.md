@@ -5,7 +5,7 @@ creation-date: "2025-01-06"
 authors: [ "@hacks4oats" ]
 coaches: []
 dris: [ "@johncrowley", "@tkopel" ]
-owning-stage: "~devops::secure"
+owning-stage: "~devops::application security testing"
 participating-stages: ["~devops::security risk management"]
 # Hides this page in the left sidebar. Recommended so we don't pollute it.
 toc_hide: true
