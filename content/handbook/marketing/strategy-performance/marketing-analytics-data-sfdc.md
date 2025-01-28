@@ -15,7 +15,7 @@ The Attribution Touchpoint mart is the consolidated repository of Marketo Measur
 1. Attributed ARR
 1. Touchpoints during a given stage
 
-### Key Terms
+### Key Fields
 
 1. Attribution Touchpoint
    1. The record of engagement, captured through Bizible (Marketo Measure) that is associated with an Opportunity in SFDC. 
@@ -69,7 +69,7 @@ The SFDC Event mart is the organized and formatted consolidation of Event data f
 1. Volume/timeline of Events in the Opportunity lifecycle
 1. Efficacy of a given Event in progressing an Opportunity towards Closed Won. 
 
-### Key Terms
+### Key Fields
 
 1. sales_dev_rep_*
    1. The associated Sales Dev Rep and their Manager’s information from SFDC
@@ -97,7 +97,7 @@ The seamless combination of SFDC Leads and Contacts into a consolidated Person o
 1. Progression of a given person record through the funnel
 1. Conversion from one funnel stage to the next
 
-### Key Terms
+### Key Fields
 
 1. `Dim_crm_person_id` - the unique surrogate key for each person record
 
@@ -133,7 +133,7 @@ The SFDC Tasks mart is the organized and formatted consolidation of Task data fr
 1. Volume/timeline of Tasks in the Opportunity lifecycle
 1. Efficacy of a given Task in progressing an Opportunity towards Closed Won. 
 
-### Key Terms
+### Key Fields
 
 1. sales_dev_rep_*
    1. The associated Sales Dev Rep and their Manager’s information from SFDC
@@ -160,7 +160,7 @@ The Person/Buyer Touchpoint mart is the consolidated repository of Marketo Measu
 1. Touchpoints during a given stage
 1. Touchpoints per record
 
-### Key Terms
+### Key Fields
 
 1. Buyer (Person) Touchpoint
    1. The record of engagement, captured through Bizible (Marketo Measure) that is associated with a Person (Lead/Contact) in SFDC. 
