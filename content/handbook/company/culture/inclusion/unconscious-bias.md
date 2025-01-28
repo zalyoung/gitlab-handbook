@@ -35,8 +35,6 @@ Everyone has unconscious biases, the goal is to bring them to our consciousness 
 - **[Horn Effect](https://en.wikipedia.org/wiki/Horn_effect)**: Opposite of **Halo Effect**. Form of bias that causes one's perception of another to be overly influenced by one or more negative traits. **Example:**  Someone who has failed the project is always like that and incapable of improving.
 - **[Name Bias](https://metro.co.uk/2019/09/17/unconscious-name-bias-damaging-10757825/)**: Form of bias which favors a person based on their name and the perceived origin of their name.
 
-For further reading: Wikipedia has [a comprehensive list of cognitive biases](https://en.wikipedia.org/wiki/List_of_cognitive_biases) that influence us.
-
 ### Can I test it?
 
 Unconscious bias is far more prevalent than conscious prejudice and often incompatible with one's conscious values. Therefore it would be good to have an instrument to detect and fight it.
@@ -78,28 +76,4 @@ The [SPACE2 Model of Inclusion](https://drive.google.com/file/d/1TZ_bkpjtUjzZGip
 
 ## Recognizing Bias Training
 
-On 2020-06-24 we held three Live Learning sessions to cover how to recognize bias. This recording is from the second session and includes content as well as a Q&A portion. The content in the video below follows along with this [slide deck](https://docs.google.com/presentation/d/1xl8beGDfymEfSDyuMcDAJlmvIlTRR06ECfF7UmjFrf8/edit?usp=sharing) and [meeting agenda](https://docs.google.com/document/d/1yrNA9JMBkJRRa1DXtC4TxKbZAQELjBU-E6TYwwfv9Hw/edit?usp=sharing). We also used Mentimeter during the sessions to ask the attendees questions. GitLab team members can view the [Mentimeter results](https://docs.google.com/spreadsheets/d/1qTpLBNdH8FvuVYPuK5WD7DnuK1xwbZEKS7h3ILtcVQo/edit?usp=sharing).
-
-{{< youtube "nlkvRuafwYY" >}}
-
-<figure class="video_container">
-<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQKUZMuPXCYChjokOQlcOrAtKx2inQiwF6Xp-vMzMIyx6tYPLTQVyCzoN6LtGGMI0R0NtvGPyalhDJU/embed?start=false&loop=false&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
-</figure>
-
-## Resources
-
-### Inner resources
-
-- [Ongoing discussion](https://gitlab.com/gitlab-com/diversity-and-inclusion/issues/27)
-- [This MVC is based on Ashley Sullivan's comment here](https://gitlab.com/gitlab-com/people-ops/General/issues/379#note_208972342)
-- [Diversity, Inclusion and Belonging at GitLab](/handbook/company/culture/inclusion/)
-
-### External resources
-
-- [Teaching Tolerance](https://www.learningforjustice.org/professional-development/test-yourself-for-hidden-bias)
-- [Diversity and Outreach, UCSF](https://diversity.ucsf.edu/programs-resources/training/unconscious-bias-training)
-- [The Guardian: Unconscious bias: what is it and can it be eliminated?](https://www.theguardian.com/uk-news/2018/dec/02/unconscious-bias-what-is-it-and-can-it-be-eliminated)
-- [Wikipedia: IAT](https://en.wikipedia.org/wiki/Implicit-association_test)
-- [The world is relying on a flawed psychological test to fight racism](https://qz.com/1144504/the-world-is-relying-on-a-flawed-psychological-test-to-fight-racism)
-- [How to reduce unconscious bias at work](https://lattice.com/articles/how-to-reduce-unconscious-bias-at-work)
-- [Affinity bias](https://web.archive.org/web/20201025085556/https://www.futurelearn.com/courses/diversity-inclusion-awareness/0/steps/39958)
+TBD
