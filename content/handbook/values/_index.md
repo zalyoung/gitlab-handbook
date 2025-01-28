@@ -50,7 +50,7 @@ but they should always take each suggestion seriously and try to respond and exp
 
 ##### Courtesy
 
-In a remote environment, [courtesy](https://en.wikipedia.org/wiki/Courtesy) plays an important role in effective communication. When communicating with others, show courtesy by using a [greeting](https://en.wikipedia.org/wiki/Greeting), using please, and giving thanks where appropriate.
+In a remote environment, [courtesy](https://en.wikipedia.org/wiki/Courtesy) plays an important role in effective communication. When communicating with others, show courtesy by using a [greeting](https://en.wikipedia.org/wiki/Greeting) [as part of your question](https://nohello.net/en/), using please, and giving thanks where appropriate.
 
 ##### Kindness
 
