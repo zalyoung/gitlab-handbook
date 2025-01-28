@@ -232,11 +232,11 @@ Issues in the [GitLab.org group](https://gitlab.com/groups/gitlab-org/-/issues) 
 Each week 5 issues will be randomly selected by a bot and refined by the team. Bugs will be prioritized over feature requests and a go/no go will be given.
 
 1. Refinement issue is created and assigned to engineers. It contains instructions for what to do with each issue and is the source of truth for this part of the process. The rest of the steps below are an overview.
-2. Phase 1: Engineers will select 2-3 issues each and put the label `~"workflow::problem validation` on when they start taking a look.
+2. Phase 1: Engineers will select 1-3 issues each and put the label `~"workflow::problem validation` on when they start taking a look.
    1. If the issue doesn't have the right issue template/enough details, it will be sent back to the author/PM for clarification 
-   2. If the issue is a bug and needs to be reproduced, it will be moved into `~"workflow::problem validation` and reassigned to someone in Phase 2 to reproduce, once reproduced, it can be assigned back
-   3. If the issue is a go, move to `~"workflow::refinement` for Phase 2
+   2. If the issue is a go, move to `~"workflow::refinement` for Phase 2
 3. Phase 2: Engineers will add an implementation guide, the right labels and weights for the issue. Once that is ready, move it to `~"workflow::ready for development` for the PM/EM to schedule.
+   1. For bug issues, the bug first needs to be reproduced as a part of the refinement process. If the bug issue isn't reproducible, the issue can be closed off. Bug issues also need to be assigned a priority/severity in addition to the regular labels. 
 
 ### Bugs Process (Being Deprecated/Combined with the Refinement Process Above)
 
