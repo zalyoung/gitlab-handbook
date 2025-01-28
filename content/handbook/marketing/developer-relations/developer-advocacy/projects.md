@@ -97,32 +97,13 @@ Our demo projects are referenced in blog posts and other public content. Moving 
 
 Some projects require access to Kubernetes clusters, self-managed CI/CD Runners, cloud VMs, domains, etc. The team has access to Google Cloud or AWS cloud resources that allow hosting these types of external infrastructure dependencies for GitLab.com SaaS demos.
 
-### Workflow
+Learn more in the [Cloud Resources for Developer Relations handbook](/handbook/marketing/developer-relations/workflows-tools/cloud-resources).
+
+### Best Practices
 
 1. Document the project setup in its README file (or a in a docs/ structure in the Git repository).
-1. Shutdown resources when not needed (i.e. Kubernetes clusters).
 1. Always add [security scanning](https://docs.gitlab.com/ee/user/application_security/) as default, unless it competes with the demo cases.
-
-For demos that require debugging the deployments, prefer shared resources, for example in Google Cloud.
-
-1. Document access in the 1Password vault if not available via SSO login.
-1. A GitLab app requires oauth setup from an account. Use a group shared account (e.g. DE Bot) for production apps (Code challenge, etc.)
-
-Shared cloud resources examples:
-
-1. All team members can manage resources in Google Cloud in the [community-group project](https://console.cloud.google.com/kubernetes/list/overview?hl=en&project=group-community-a29572) and `Editor` role. Create an [access request](/handbook/it/end-user-services/onboarding-access-requests/access-requests/) to add/remote team members.
-1. Google Cloud/AWS also allows you to [register domains that are not trademarked](/handbook/it/guides/domains-dns/#non-trademark-domain-names) (no `gitlab` in the name!) and use the domains for demo setups.
-
-For individual short-lived tutorials or demo setups for a blog post, prefer the [Cloud Sandbox Realm](/handbook/company/infrastructure-standards/realms/sandbox/#how-to-get-started). This provides automated shutdown, generated domains for easier access, etc.
-
-```mermaid
-flowchart TD;
-  A{Shared resource access required?}
-  A -->|Yes| B[Use cloud group resources]
-  A -->|No| C{Short-lived}
-  C --> |Yes| D[Use individual Cloud Sandbox projects]
-  C --> |No| B
-```
+1. A GitLab app requires OAuth setup from an account. Use a group shared account (for example, [DevRel Bot](/handbook/marketing/developer-relations/developer-advocacy/projects/#developer-relations-bot)) for production apps (Code challenge, etc.)
 
 ### Workspaces
 
