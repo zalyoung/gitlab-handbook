@@ -36,10 +36,6 @@ To see what training is coming soon, view the [Field Enablement Spotlight issue 
 | Apr 17 |  *No session during the last two weeks of the quarter*   |    |
 | Apr 24 |  *No session during the last two weeks of the quarter*   |    |
 
-
-
-
-
 ## Past Sessions
 
 <details>
