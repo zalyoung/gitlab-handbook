@@ -18,7 +18,7 @@ One of the ways we raise awareness about life at GitLab is by applying for emplo
 
 ### Inclusive interviewing
 
-We are building an inclusive workforce to support every demographic. One major component is ensuring our hiring team is fully equipped with the skills necessary to connect with candidates from every background. We strive to have a hiring team that is well-versed in every aspect of diversity, inclusion and cultural competence. We are helping the unconscious become conscious. Our number one priority is a comfortable and positive candidate experience. Our interviewing guide describes [how you can request an adjustment to your interview process](/handbook/hiring/interviewing#adjustments-to-our-interview-process).
+We are building an inclusive workforce to support every demographic. One major component is ensuring our hiring team is fully equipped with the skills necessary to connect with candidates from every background. We strive to have a hiring team that is well-versed in every aspect of diversity, inclusion and cultural competence. We are helping the unconscious become conscious. Our number one priority is a comfortable and positive candidate experience. Our interviewing guide describes how you can request an adjustment to your interview process.
 
 - To aid in our inclusive hiring practices, we've implemented [Greenhouse Inclusion](/handbook/hiring/greenhouse#greenhouse-inclusion).
 
