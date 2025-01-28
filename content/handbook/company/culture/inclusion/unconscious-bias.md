@@ -73,7 +73,3 @@ The [SPACE2 Model of Inclusion](https://drive.google.com/file/d/1TZ_bkpjtUjzZGip
 
 - As an application reviewer or interviewer, if you find yourself biased positively or negatively, excuse yourself and ask someone else to review or interview that applicant. Being positively or negatively biased towards one candidate is unfair to all candidates.
 - Data driven decision making. Rely on pre-defined measurable data points to reduce unconscious bias influences
-
-## Recognizing Bias Training
-
-TBD
