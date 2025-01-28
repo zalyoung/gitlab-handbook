@@ -116,11 +116,13 @@ During this period, if you a Support Engineer in APAC and you are working on a t
 1. During the pilot, Arihant will respond to let you know if the CSE team can help.  If they can, they will provide a  one-time use Calendly scheduling link for the customer to schedule a call. This scheduling link will be posted as an internal note in the Support ticket.
 1. Once received, send a reply to the customer, sharing the scheduling link.  You can use the following text as a starting point:
 
-```Thank you for writing in. Our Customer Success Engineering (CSE) team would love to speak to you regarding your proposal for SAST Enforcement and Deployment Control.
- 
-Please use the following link to schedule a call with Bernard Ng from the CSE team: <CALENDLY SCHEDULING LINK HERE>
+```
+Thank you for writing in. Our Customer Success Engineering (CSE) team would love to speak to you regarding your proposal for SAST Enforcement and Deployment Control.
+ 
+Please use the following link to schedule a call with Bernard Ng from the CSE team: <CALENDLY SCHEDULING LINK HERE>
 
-Do let me know if you run into issues scheduling a call, we'll be happy to assist.```
+Do let me know if you run into issues scheduling a call, we'll be happy to assist.
+```
 1. If the customer didn't have any other questions that need Supports input, the ticket can now be marked as Solved. Use a resolution of `Other`, and add the text `CSE Referral` in the description.
 1. If the discussion in the CSE channel results in the CSE advising they can not help with the ticket, continue to work it as a support ticket.
 
