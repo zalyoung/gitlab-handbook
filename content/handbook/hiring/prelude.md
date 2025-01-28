@@ -16,17 +16,16 @@ You can also download the [ModernLoop Chrome extension](https://chromewebstore.g
 ## How to schedule 1:1 via ModernLoop
 
 - Go to 'My Tasks' using the task bar on the left 
-- Under 'Action required' click on the candiadte who has the label 'ready to Schedule'
-- A side window will open, scroll down to the 'Schedule now' button and click it.  The page will open to the candidate's availability.  On the right press 'Next: Setup Interviews' button.
+- In the 'Action required' bucket, click on the candiadte who has the label 'ready to Schedule'
+- A side window will open, scroll down and click the 'Schedule now' button.  The page will open to the candidate's availability.  On the right press 'Next: Setup Interviews' button.
 - Check the information for the required interview to schedule (time, interviewer, scorecard etc), then click 'Next: Find Schedules'
 - ModernLoop will create a list of interview options.  To see an interviewers calendar you can click on the interviewer or the 'view' option on the top right of the card. 
 - To select a schedule option click on 'use schedule'on the top right corner of the option card. 
-- Change the location to Zoom
-- Select the check box to mark the interview as private 
-- Select slack channel to send slack messages to. 
-- Select Email to canditate template from dropdown list. 
+- The location will be automatically selected as Zoom and a zoom room selected. 
+- The calendaers are 'Candidate Interview CAlendar' for candidate events and 'Interview calendar' for Internal events. 
+- Select the Email to canditate template from dropdown list. 
 - If the interview requires a brief, you can include this by selecting 'Add attachment'
-- For the interviewer Invite, select the correct template from the dropdown list 
+- For the interviewer invite, select the correct template from the dropdown list 
 - Review all details and then press 'Confrim and send' 
 - If you only wish to send the invites to the interviewers before sending the candidate invite, select 'Send internal only'.  This will send the interviewer invites and move the candidate into the Pending section of My tasks.  When you wish to send the candidate invite you can go into the candidate profile and click 'finish and Send'. 
 
