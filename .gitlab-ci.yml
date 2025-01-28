@@ -312,7 +312,9 @@ check_path_change:
   rules:
     - if: $CI_MERGE_REQUEST_LABELS =~ /skip-path-check/
       when: never
-    - <<: *merge-request-or-tag
+    - <<: *is-fork
+      when: never
+    - <<: *merge-request-only
 
 hugolint:
   stage: build
