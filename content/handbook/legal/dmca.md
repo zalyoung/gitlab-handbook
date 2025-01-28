@@ -1,12 +1,12 @@
 ---
-title: DMCA Policy
+title: Content Removal Guidelines
 ---
 
 ## DMCA (Digital Millennium Copyright Act) takedown request requirements
 
 We take the intellectual property rights of others seriously and require that our users do the same. The Digital Millennium Copyright Act (DMCA) established a process for addressing claims of copyright infringement. If you own a copyright or have authority to act on behalf of a copyright owner and want to make a claim that a third party is infringing that copyright on or through GitLab's services, send a notice that meets the minimum requirements of the DMCA to `dmca@gitlab.com`, and we will take appropriate action.
 
-## DMCA notice requirements
+### DMCA notice requirements
 
 You must include:
 
@@ -23,7 +23,7 @@ Submissions under this DMCA Policy should be sent to dmca@gitlab.com.
 
 We will review your submission and take whatever action we deem appropriate under the DMCA, including the removal of the challenged content from the website. Furthermore, we may, in appropriate circumstances, disable access or terminate the account(s) of the reported user(s).
 
-## DMCA counter-notice requirements
+### DMCA counter-notice requirements
 
 The owner of the allegedly-infringing content may submit a DMCA counter-notice to dmca@gitlab.com. The counter-notice must comply with the requirements of the DMCA, and must include the following:
 
@@ -74,3 +74,12 @@ You can send this information to dmca@gitlab.com, you should receive an automate
 Disputes regarding namespaces, ownership and trademarks are not governed by DMCA. These disputes must be resolved by the parties involved. GitLab will never act as arbitrators or intermediaries in these disputes and will not take any action without the appropriate legal orders.
 
 For more information, see our [Namespace and Trademark Policy](https://about.gitlab.com/support/gitlab-com-policies/#namespace--trademarks) and [Ownership Dispute Policy](https://about.gitlab.com/support/gitlab-com-policies/#ownership-disputes)
+
+## EU Illegal Content Reporting
+
+The DSA requires hosting services to provide a method for people to report content that is potentially illegal in the EU.
+
+Please use the [DSA form](/handbook/legal/dsa/) to report content that you believe is illegal in the European Union. This form should be used by individuals claiming legal rights in the EU, as well as individuals or entities designated as trusted flaggers pursuant to the DSA. Trusted flagger reports will be prioritized for review, in accordance with the DSA. We also ask individuals who report potentially illegal content in the EU to provide clear and concise information in English, or provide an English translation, wherever possible.
+
+GitLab may restrict access to content determined to violate the law(s) of the EU country specified in your report. If you want to report a potential violation of GitLab’s [Acceptable Use Policy](/handbook/legal/acceptable-use-policy/)
+or [Community Code of Conduct](https://about.gitlab.com/community/contribute/code-of-conduct/) policies rather than an EU legal violation, please refer to [this guide](https://handbook.gitlab.com/handbook/security/security-operations/trustandsafety/abuse-on-gitlab-com/) on how to report abuse. Note that if you don’t have a GitLab account, you can report potential violations by contacting the GitLab Trust and Safety team at abuse@gitlab.com.
