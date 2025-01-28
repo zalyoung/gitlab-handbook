@@ -697,7 +697,6 @@ Review the steps below to process a Service Attached Registration for an applica
 
 **Out of Scope Services:** Education/Training, subcontracted services, free of charge service 
 
-
 **Timing:** Executed SOW must be submitted within 6 months of software opportunity close date. SOW must include a description of the services, confirm the dates of the project and include customer signature. Services must be connected to our software (e.g, SOW mentions GitLab)
 
 - Approvals will be on first come, first serve basis for the partner that completes the process (i.e., submits Services Attached Registration and provides valied executed SOW)
@@ -716,8 +715,6 @@ Review the steps below to process a Service Attached Registration for an applica
 **Denied:** If SOW is submitted 6 months past close date or MSP customer account, etc
 
 **Closed:** If opportunity has moved to Closed Lost, or if Partner/ESM/etc communicates the partner did not win the services business
-
-
 
 
 
