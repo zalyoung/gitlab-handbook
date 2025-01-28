@@ -19,12 +19,12 @@ We support the Security division's [mission and operating principles](/handbook/
    - Gap Analysis Program: feasibility analysis for certification expansion
    - External Audit coordination and execution
 1. [Continuous Monitoring of GitLab's Security Controls]({{< ref "sec-controls" >}}) which are mapped to applicable regulatory requirements and security certifications/frameworks we have committed to.
-   - [Policy-as-code]('./policy-as-code.md')
-   - [Automated evidence collection and control testing]('./automated-control-testing.md')
-   - [User Access Reviews]('./access-reviews.md')
-   - [Business Continuity Plan (BCP)](/handbook/business-technology/entapps-documentation/policies/gitlab-business-continuity-plan/) and [Information System Continuity (ISCP)]('../../information-system-contingency-plan-iscp.md') testing
-   - [Risk-based control testing]('./risk-based-control-testing.md')
-1. [Observation and Remediation Management]('../observation-management-procedure.md')
+   - [Policy-as-code](./policy-as-code.md)
+   - [Automated evidence collection and control testing](./automated-control-testing.md)
+   - [User Access Reviews](./access-reviews.md)
+   - [Business Continuity Plan (BCP)](/handbook/business-technology/entapps-documentation/policies/gitlab-business-continuity-plan/) and [Information System Continuity (ISCP)](../../information-system-contingency-plan-iscp.md) testing
+   - [Risk-based control testing](./risk-based-control-testing.md)
+1. [Observation and Remediation Management](../observation-management-procedure.md)
    - Specific to Tier 3 (system-level) risks
    - Identify control weaknesses and gaps (observations)
    - Provide remediation recommendations and guidance
