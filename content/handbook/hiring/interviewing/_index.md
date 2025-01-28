@@ -39,7 +39,7 @@ CES uses your Google calendar to schedule interviews. Our scheduling tool, Moder
 
 ## ModernLoop
 
-ModernLoop is the scheduling tool that the Candidate Experience Team uses to book interviews. Modern Loop is integrated with Greenhouse and Slack.
+ModernLoop is the scheduling tool that the Candidate Experience Team uses to book interviews. Modern Loop is integrated with Greenhous, Google Workspace, Zoom and Slack.
 
 **Logging in to ModernLoop**
 
@@ -49,17 +49,16 @@ To log in, go to the ModernLoop Okta tile and log in with SSO.
 
 Within ModernLoop interviewers can set the following: 
 
+Once you log in to the platform, navigate to "your account" and select "Go to Interviewer Portal".  We encourage you to upload a photo, create a bio and set your itnerviewer preferences so we can provide a great candiodate experience.
+
+You can also use this function to update the following: 
+
 - Interview load capacity: Limits of hours or interviews you can participate in.
-- Timezone: We use this timezone for your interview availability.
 - Interview availability: This is when you are available to interview in your timezone.
-
-Other settings which can be edited include: 
-
 - Basic infomration including profile image, job title & pronouns. 
 - Contact infromation.  Note: you can not change your email address
-- Calendar Keywords
+- Calendar Keywords.
 
-For more information on the interviewer portal go this [ModernLoop Resource](https://modernloop.zendesk.com/hc/en-us/articles/27873870073364-Interviewer-Portal#h_01J53W4KZ6Z40CG7ZN3WZCGQHA)
 
 ## Greenhouse
 
