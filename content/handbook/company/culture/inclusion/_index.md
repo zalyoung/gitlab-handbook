@@ -227,11 +227,6 @@ If you are unsure how to answer, please review our [Individual with Disabilities
 
 At GitLab, we are proud to make reasonable accommodations to the known disability of a team member. Please review the [reasonable accommodation](/handbook/people-policies/inc-usa#reasonable-accommodation) handbook section if you need a reasonable accommodation due to your disability. Find more information on GitLab Inc's [Individuals with Disabilities](/handbook/people-policies/inc-usa#individuals-with-disabilities-policy) policy.
 
-#### Related Disability Legislation
-
-- [United Nations Convention on the Rights of Persons with Disabilities (CRPD)](https://social.desa.un.org/issues/disability/crpd/convention-on-the-rights-of-persons-with-disabilities-crpd)
-- [Global Disability Legislation](https://williamsav.com/wp-content/uploads/2020/06/Global_summary_of_disability_leg.pdf)
-
 ### United States Veteran Inclusion
 
 The United States Office of Federal Contract Compliance Programs (OFCCP) enforces the affirmative action provisions of the Vietnam Era Veterans' Readjustment Assistance Act of 1974. This law, sometimes referred to as VEVRAA, requires employers doing business with the United States Federal Government (such as our GitLab Federal entity) to take steps to recruit, hire and promote protected veterans. It also makes it illegal to discriminate against protected veterans when making employment decisions on hiring, firing, pay, benefits, job assignments, promotions, layoffs, training, and other employment-related activities. Under VEVRAA, a veteran who served on active duty in the U.S. military and was discharged or release from service under conditions other than dishonorable may be classified as one or more of the four Protected Veteran categories:
