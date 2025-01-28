@@ -134,7 +134,7 @@ For the avoidance of doubt, GitLab subcontracted Professional Services and MSP d
 
 The following services are **In Scope**: Implementation, Integration, Optimization, Migration, Security/Compliance, Adoption, Assessment
 
-The following services are **Out of Scope**: Education/Training, subscontracted services, free-of-charge services
+The following services are **Out of Scope**: Education/Training, subcontracted services, free-of-charge services
 
 Partner Services Amount is calculated as attach rate times net ARR of the associated New/Add-on/Upsell/Renewal software opportunity. Rebates are paid out no later than 45 days after the end of each quarter in which the Services Attach Reg was Approved/Closed Won. Partners need to have connected with GitLab in our billing system, Coupa, by providing your banking information. To view the GitLab Services Attach Incentive Program, please visit the [GitLab Partner Portal](https://partners.gitlab.com/) and access the resources in the Program Documents folder in the Asset Library.
 
