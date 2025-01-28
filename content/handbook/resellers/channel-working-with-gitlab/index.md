@@ -123,11 +123,19 @@ The Services Attached incentive is based on the volume of licensing opportunitie
 - Services Attach deal registrations are submitted via the Partner Portal as a deal registration (Deal Registration Type = Services Attach) and then linked to GitLab licensing opportunities.
 - In order to receive their rebate, Partners must submit reasonable information and documentation proving that the services meet both program guidelines and customer needs.
 
-Partners need to email proof of execution (POE) for delivery of services. The POE must include customer confirmation of the services and that the services meet/met the guidelines as outlined in the current program guidance (found in the Partner Portal) for the incentive. The most likely form of POE is a signed statement of work (SOW) outlining work and cost to the customer. POEs must be approved by GitLab Sales.
+Partners need to email an executed Statement of Work (SOW) within six (6) months of opportunity close date to partnersupport@gitlab.com for delivery of services. The SOW must include customer confirmation of the services, the services meet/met the guidelines as outlined in the current program guidance (found in the Partner Portal) for the incentive, confirm the dates of the project and include customer signature. Only one (1) Services Attach Reg can be approved per opportunity. SOWs must be approved by GitLab Ecosystem Specialists. 
 
-- Email POE to partnersupport@gitlab.com.
+For the avoidance of doubt, GitLab subcontracted Professional Services and MSP deals do not apply and will not be approved. Services must be connected to our software (e.g., SOW mentiones GitLab). The following services in scope are eligible to be paid:
 
-Rebates are paid out no later than 45 days after the end of each quarter. Partners need to have connected with GitLab in our billing system,Coupa, by providing your banking information. To view the GitLab Services Attach Incentive Program, please visit the [GitLab Partner Portal](https://partners.gitlab.com/) and access the resources in the Program Documents folder in the Asset Library.
+- Implementation
+- Integration
+- Optimization
+- Migration
+- Security/Compliance
+- Adoption 
+- Assessment
+
+Rebates are paid out no later than 45 days after the end of each quarter in which the Services Attach Reg was Approved/Closed Won. Partners need to have connected with GitLab in our billing system,Coupa, by providing your banking information. To view the GitLab Services Attach Incentive Program, please visit the [GitLab Partner Portal](https://partners.gitlab.com/) and access the resources in the Program Documents folder in the Asset Library.
 
 ##### Quote to Order
 
