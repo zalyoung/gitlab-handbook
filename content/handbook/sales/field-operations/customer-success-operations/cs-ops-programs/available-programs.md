@@ -12,11 +12,11 @@ The Digital Success team creates email programs to accelerate customer value thr
 
 The programs below are currently active. For more details on segmentation breakdown and copy doc information refer to the [Digital Success Email Program Documentation](https://docs.google.com/spreadsheets/d/14udgDUoEhzMjkQMYBVmYInPUBHgpfSKm8vVDRTR3NyY/edit?usp=sharing).
 
-| Program                      | Category   | Content  |
+| Program                      | Timing   | Segment  |
 |-----------------|------------|----------|
 | CSM/CSE Introduction | Day 0 of new subscription | CSM / CSE |
 | Net-New  Onboarding | Day 2 of new subscription | All |
-| Ultimate Upgrade  Onboarding | Day 2 of Ultimate upgrade | All |
+| Ultimate Upgrade Onboarding | Day 2 of Ultimate first purhcase | All |
 | Duo Admin Onboarding | Day 0 of new Duo purchase | All |
 | Post-renewal onboarding | Day 3 post renewal | All |
 | CI Product Coach | Monthly / Ad Hoc | CSE Only |
@@ -51,5 +51,5 @@ Email follow-ups are sent to all customers who have registered or attended an ev
 
 ## Connect with the team
 
-- Contact the team in slack digital-success
+- Contact the team in slack # digital-success
 - Submit a [customer-email-request issue](https://gitlab.com/gitlab-com/customer-success/digital-success/program-management/-/issues/new)
