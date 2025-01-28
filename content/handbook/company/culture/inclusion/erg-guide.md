@@ -138,7 +138,6 @@ In general, TMRGs are an excellent support system and key to providing awareness
 
 - Grow GitLab's business and the company from DIB branding as it's top value which will appeal to customers and attract new team members.
 - Support GitLab values and business goals, including the Company's commitment to foster an inclusive work environment.
-- Support GitLab's diversity initiatives, aspirations and goals.
 - Foster communications between GitLab and its team members.
 - Provide mentoring and educational and professional development opportunities for GitLab team members
 
@@ -202,13 +201,7 @@ All names, because they are visible externally and could compete with other proj
 
 ### Defining your TMRGs or TMAG mission statement
 
-A mission statement is the simplest and clearest way to explain the purpose of your group and how it will achieve its goals. Keep your mission statement short, and use simple terms that everyone understands. Finally, make sure the mission is flexible enough to allow for goals and activities to change over time. Below are some examples of mission statements used by similar groups at other companies:
-
-- Deutsche Bank - Rainbow Group Americas: The DB-Rainbow Group Americas is an organization open to all Deutsche Bank employees to promote an inclusive and productive work environment for gay, lesbian, bisexual, and transgender (GLBT) employees to enhance their professional and personal development in alignment with business objectives.
-- General Mills - Black Champions Network: To champion the growth, development and success of all African American employees while maximizing their contribution to General Mills' goals and objectives.
-- ING - Latino Network: The ING Latino Network fosters its members' development and promotes  cultural awareness within ING's corporate strategies and objectives.
-- Salesforce - Women's Network:  We are dedicated to building gender Equality in the workplace and beyond through empowering, supporting, and investing in our global community for women and their allies. We are the largest Ohana group with 6000+ members across 30+ hubs globally. Our programs include LeanIn Circles, volunteer opportunities, International Women's Day events, Woman of the Month series, mentorship opportunities, children's initiatives, and Women in Technology programs. Our focus is always on improving inclusion and Equality for all on the gender spectrum, to help make Salesforce the best place to work for all.
-- Texas Instruments Incorporated—Chinese Initiative: The mission of the Chinese Initiative is to create a work culture in which all people are valued, empowered, and given opportunities to develop and contribute to their full potential, thereby gaining a competitive advantage for Texas Instruments.
+A mission statement is the simplest and clearest way to explain the purpose of your group and how it will achieve its goals. Keep your mission statement short, and use simple terms that everyone understands. Finally, make sure the mission is flexible enough to allow for goals and activities to change over time. 
 
 ### Create a project
 
@@ -259,15 +252,6 @@ An ally is NOT...
 - someone with ready-made answers
 - necessarily a counselor or trained to deal with crisis situations
 expected to proceed with an interaction if levels of comfort or personal safety have been violated
-
-[Adapted from Human Rights Campaign Establishing an Allies/Safe Zone Program, Human Rights Campaign](https://www.hrc.org/resources/establishing-an-allies-safe-zone-program)
-
-Additional resources on how to be an ally:
-
-- [Allyship at GitLab]({{< ref "ally-resources" >}})
-- [Live Learning Ally Training at GitLab](https://ctb.ku.edu/en/table-of-contents/culture/cultural-competence/be-an-ally/main)
-- [Chapter 27. Cultural Competence in a Multicultural World | Section 5. Learning to be an Ally for People from Diverse Gro…Straight for Equality](https://ctb.ku.edu/en/table-of-contents/culture/cultural-competence/be-an-ally/main)
-- [Guide to Allyship](https://guidetoallyship.com/#the-work-of-allyship)
 
 ## TMRG or TMAG Leads
 
@@ -454,11 +438,7 @@ You can use this template which is fairly manual or choose your own methods.
 
 ### What to do if you're asked to provide your opinion on behalf of GitLab
 
-There may be times that you are asked to comment on the state of DIB at GitLab or your TMRG. When or if that happens, please contact/notify PR, Talent Brand and the DIB Manager.  Here are some general best practices that we share are helpful for all GitLab team members to know.
-
-- Don't share information that hasn't already been disclosed publicly. This includes retention and turnover rates, associate demographics, compensation trends, hiring plans or numbers, headcount, new products, corporate strategy, and more.
-- If you're asked about our Diversity, Inclusion & Belonging  stats, refer to our [GitLab identity data](/handbook/company/culture/inclusion/identity-data/)
-- Always remember that although we work in transparency, we want to me mindful of GitLab's reputation and brand.
+There may be times that you are asked to comment on the state of DIB at GitLab or your TMRG. When or if that happens, please refer to the [SAFE Framework](https://handbook.gitlab.com/handbook/legal/safe-framework/)
 
 ### TMRG Success measurement (Capturing Data)
 
