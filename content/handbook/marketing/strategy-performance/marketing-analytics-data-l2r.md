@@ -181,18 +181,6 @@ The dbt solution generates a dimensional model from RAW source data. The excepti
 | Subscription_order                | Defined in model |
 | Is_first_subscription_institution | Defined in model |
 
-## Rpt_l2r_leading_indicators
-
-### Use Cases
-
-### Key Fields
-
-### Key Metrics
-
-### Data Lineage
-
-### DBT Solution
-
 ## Rpt_l2r_prospects
 
 Tableau-specific table that is a filtered view of rpt_lead_to_revenue, focused entirely on First Order Prospects. 
