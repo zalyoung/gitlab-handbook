@@ -53,7 +53,7 @@ As a general guideline, we try to plan each release in this way:
 
 These targets will be [reviewed monthly](/handbook/product/product-processes/) after each release during the [retrospective](https://gitlab.com/gl-retrospectives/manage-stage/optimize/-/issues).
 
-### SSoT for data flows across Optimize features
+#### SSoT for data flows across Optimize features
 
 **Data flow for [Group contribution analytics](https://docs.gitlab.com/ee/user/group/contribution_analytics) & [Group value stream dashboard contributions](https://docs.gitlab.com/ee/user/analytics/value_streams_dashboard.html)**
 
