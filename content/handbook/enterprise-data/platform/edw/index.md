@@ -6,7 +6,7 @@ title: "Enterprise Data Warehouse"
 
 The Enterprise Data Warehouse (EDW) is used for reporting and analysis. It is a central repository of current and historical data from GitLab's Enterprise Applications. We use an ELT method to Extract, Load, and Transform data in the EDW. We use Snowflake as our EDW and use [dbt](/handbook/enterprise-data/platform/dbt-guide/) to transform data in the EDW. The [Data Catalog](/handbook/enterprise-data/data-catalog/) contains Analytics Hubs, Data Guides, Data Dictionaries, and Analysis for the data models built in the EDW.
 
-The EDW is viewed as a series of layers. With five consecutive layers, where data progresses through the layers, and one development layer where data is explored and developed.  Each layer has a purpose is the overall operation and effectiveness of the EDW.
+The EDW is viewed as a series of layers. With five consecutive layers, where data progresses through the layers, and one development layer where data is explored and developed.  Each layer has a purpose in the overall operation and effectiveness of the EDW.
 
 | Layer       | Purpose                                                                                                       | Example Schema             |
 |-------------|---------------------------------------------------------------------------------------------------------------|----------------------------|
@@ -57,7 +57,7 @@ Conforming column names helps the transforming be as self documenting as possibl
 The removal of erroneous records of data, different from filtering data to answer a business question, helps to stream line downstream transformations by preventing the need of extraneous error catching logic when the data is malformed.
 
 **Flattening of Non-Tabular Data:**
-When data in the landing layer is stores in a non-tabular format it is often necessary to flatten the data so that the other staging steps can be performed. 
+When data in the landing layer is stored in a non-tabular format it is often necessary to flatten the data so that the other staging steps can be performed.
 
 ### Preparation
 
@@ -74,7 +74,7 @@ Derived records, such as fanning out date interval data, are defined as being re
 
 ### Modeling
 
-The modeling layer is where the data is transformed in to formal structures that aim to standardize the shape of the data to facilitate maintaining and scaling the data.  These transformations are driven by business logic and adopted standards and may require additional joins, filtering, and field generation depending on the type of model being produced.  The general proactive is to minimize models and design models to sever as many reporting needs in the semantic layer as possible.  Typical transformations in this layer include:
+The modeling layer is where the data is transformed in to formal structures that aim to standardize the shape of the data to facilitate maintaining and scaling the data.  These transformations are driven by business logic and adopted standards and may require additional joins, filtering, and field generation depending on the type of model being produced.  The general principle is to minimize models and design models to serve as many reporting needs in the semantic layer as possible.  Typical transformations in this layer include:
 
 **Creating Facts and Dimensions:**
 Using the principles of Kimball dimensional modeling the data is filtered, grouped, and combined to create reusable dimensions models that describe attributes of a record. And low granularly facts representing a transaction of a business process.
@@ -97,7 +97,7 @@ A report table provides the records and columns necessary to answer a single bus
 
 ### Workspace
 
-The workspace is the layer in the data warehouse where development and exploration takes place. There are no specific transformations that take place in this layer, but any transformation needed should be explored and evaluated.  Once the needed result is identified the transformation should be process through the other standard layers to improve maintenance and scalability.  Tables as the result of the transformations in the workspace do not need to conform to any standards or patterns found in the other layers, but the result should not be used to regularly answer business questions.
+The workspace is the layer in the data warehouse where development and exploration takes place. There are no specific transformation steps that take place in this layer; any transformation can be explored and evaluated. Once the intended result is identified, the transformation should be migrated to the other standard layers to improve maintenance and scalability. Workspace tables do not need to conform to any standards or patterns found in the other layers, but should not be used to regularly answer business questions.
 
 ## Enterprise Dimensional Model (COMMON Schema)
 
