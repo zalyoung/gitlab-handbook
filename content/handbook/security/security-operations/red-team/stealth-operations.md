@@ -1,5 +1,6 @@
 ---
 title: "Red Team Stealth Operations"
+no_list: true
 ---
 
 Stealth operations is our most significant offering, providing GitLab an opportunity to practice responding to real-world attacks. We use stealth operations to emulate threats most likely to target GitLab, our platform, and our customers. This focused approach sharpens our defenses and keeps us ahead of potential attacks.

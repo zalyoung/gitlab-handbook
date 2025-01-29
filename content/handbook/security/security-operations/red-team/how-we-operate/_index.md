@@ -1,5 +1,6 @@
 ---
 title: "How the Red Team Operates"
+no_list: true
 ---
 
 ## General operation guidelines

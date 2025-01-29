@@ -1,5 +1,6 @@
 ---
 title: "Red Team"
+no_list: true
 ---
 
 GitLab’s internal Red Team conducts security exercises that emulate real-world threats. We do this to help assess and improve the effectiveness of the people, processes, and technologies used to keep our organization secure. We follow the GitLab Values as much as possible to transparently collaborate with teams within Security Division, and the wider company, for the best possible result.

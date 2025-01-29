@@ -1,5 +1,6 @@
 ---
 title: Opportunistic Attacks
+no_list: true
 ---
 
 Short operations that allow us to explore intial access vectors we come across.
