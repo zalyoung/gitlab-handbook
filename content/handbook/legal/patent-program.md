@@ -21,6 +21,7 @@ All GitLab-created open source software is distributed under the MIT license whi
 
 GitLab holds the following registered patents:
 
+- US patent [2024/0126542](https://image-ppubs.uspto.gov/dirsearch-public/print/pdfRedirectDownload/20240126542) covering *scalable code testing and benchmarking*
 - US patent [11,983,091](https://image-ppubs.uspto.gov/dirsearch-public/print/downloadPdf/11983091) covering *adaptively generated program model*
 - US patent [2023/0104814](https://image-ppubs.uspto.gov/dirsearch-public/print/downloadPdf/20230104814) covering *vulnerability tracing using scope and offset*
 - US patent [9,910,766](https://image-ppubs.uspto.gov/dirsearch-public/print/downloadPdf/9910766) covering *whitebox network fuzzing*
