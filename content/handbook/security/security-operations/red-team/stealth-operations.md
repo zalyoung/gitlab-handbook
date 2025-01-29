@@ -16,7 +16,7 @@ Stealth operations can vary in format and length. Some follow a more defined cyc
 
 ## What happens during a stealth operation?
 
-Stealth operations require [special rules](rules-of-engagement#stealth-operations). Examples of techniques we may use and those we will specifically avoid can be found in [Stealth Operation Techniques](rules-of-engagement#stealth-operation-techniques).
+Stealth operations require [special rules](how-we-operation/rules-of-engagement#stealth-operations). Examples of techniques we may use and those we will specifically avoid can be found in [Stealth Operation Techniques](how-we-operation/rules-of-engagement#stealth-operation-techniques).
 
 ## What happens after?
 

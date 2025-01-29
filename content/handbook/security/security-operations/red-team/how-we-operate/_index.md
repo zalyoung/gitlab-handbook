@@ -10,7 +10,7 @@ Security breaches happen. We read about them every day. Most of our operations a
 
 If relevant, we may conduct operations specifically looking for initial access vectors to exploit. These require substantial time and resources, so we ensure the investment is justified by the potential for security improvements and learning.
 
-Red Team members can also hunt for ways to "break in" to GitLab at any time in the context of an [Opportunistic Attack](#opportunistic-attacks). This allows us to quickly remediate any discoveries. Successful intrusions can then be re-used in future stealth operations as proof of a realistic initial access vector.
+Red Team members can also hunt for ways to "break in" to GitLab at any time in the context of an [Opportunistic Attack](../#opportunistic-attacks). This allows us to quickly remediate any discoveries. Successful intrusions can then be re-used in future stealth operations as proof of a realistic initial access vector.
 
 [Club Red](../opportunistic-attacks/#club-red) allows team members to collaborate with us to develop an initial access idea they have.
 
@@ -28,11 +28,11 @@ A given operation will continue until we are detected or until we disclose inter
 
 After each operation, we meet with [Signals Engineering](../../signals-engineering/) and [Security Incident Response Team (SIRT)](../../sirt/) review our findings, attack steps and review detections and alerts.
 
-If social engineering is involved, we follow a careful process to offer to meet with anyone who was involved in social engineering to ensure that they feel comfortable. 
+If social engineering is involved, we follow a careful process to offer to meet with anyone who was involved in social engineering to ensure that they feel comfortable.
 
 ### 4. Report and recommendations for security improvements
 
-We then release a [report](#reporting) summarising the operation and our recommendations for improving security posture. We create issues using the [issue template](some_link), apply the relevant labels, and use this for tracking [metrics](#red-team-metrics).
+We then release a [report](#reporting) summarising the operation and our recommendations for improving security posture. We create issues using the [issue template](https://gitlab.com/gitlab-com/gl-security/security-operations/redteam/redteam-public/resources/red-team-issue-templates), apply the relevant labels, and use this for tracking [metrics](#red-team-metrics).
 
 ### Reporting
 
@@ -52,7 +52,7 @@ We will then share the following in `#whats-happening-at-gitlab` and cross-post 
 
 By doing this, we help foster a culture of security awareness throughout the organization and ensure that everyone can benefit from our work.
 
-### Post-operation technique handover 
+### Post-operation technique handover
 
 While this may result in product fixes or infrastructure changes, it is possible that vulnerable configurations may reappear in the environment. At this point, GitLab's [Vulnerability Management](/handbook/security/product-security/vulnerability-management/) group will take over any ongoing scanning required to monitor for this scenario. The Red Team will share any tools they used for the initial discovery, but Vulnerability Management will generally implement a more production-ready permanent scanning solution.
 

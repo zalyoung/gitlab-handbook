@@ -44,7 +44,7 @@ Further details can be found in the [job family description](/job-families/secur
 
 ## Services we offer
 
-In everything we do, we follow our [rules of engagement (RoE)](red-team-roe/)
+In everything we do, we follow our [rules of engagement (RoE)](how-we-operate/rules-of-engagement)
 
 ### Stealth operations
 
@@ -104,7 +104,7 @@ We have private Slack channels in place where designated team members can ask th
 
 Managers at GitLab can also [submit a "Red Team Disclosure Request"](https://gitlab.com/gitlab-com/gl-security/security-operations/redteam/redteam-internal/red-team-operations/-/issues/new?issuable_template=request-for-disclosure) at any time. If the request contains evidence related to an ongoing Red Team operation, we will discuss next steps in the Slack channels mentioned above.
 
-You can read more about this process in the ["Requests for Disclosure" section](how-we-operate/rules-of-engagement#requests-for-disclosure") of our rules of engagement.
+You can read more about this process in the ["Requests for Disclosure" section](how-we-operate/rules-of-engagement#requests-for-disclosure) of our rules of engagement.
 
 ### How the Red Team will respond to this question
 
