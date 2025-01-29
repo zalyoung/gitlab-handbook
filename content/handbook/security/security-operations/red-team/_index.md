@@ -9,7 +9,7 @@ Malicious actors are not constrained by the narrow focus of traditional security
 
 ## What are you looking for? (GitLab team members)
 
-- "**Is this the red team?**" Did you find something potentially malicious and you think it might be us? :point_right: [Is this the Red Team?](#is-this-the-red-team)
+- "**Is this the Red Team? / Is the activity I'm seeing part of a red team operation?**" Did you find something potentially malicious and you think it might be us? :point_right: [Is this the Red Team?](how-we-operate/#is-this-the-red-team)
 - "**I have some attacker related ideas that could be quite interesting!**" :point_right: [Contact us](#contact-us)
 - "**Do you do penetration testing?**" :point_right: No. :smile: We don't do vulnerability enumeration. See [Services we offer](#services-we-offer)
 - "**I want to upskill in Red Teaming**" :point_right: See [resources](#additional-resourcesfurther-reading), [Club Red](opportunistic-attacks#club-red)
@@ -17,12 +17,10 @@ Malicious actors are not constrained by the narrow focus of traditional security
 - "**Can you help us with an incident?** Does this look like hacker stuff in these logs?" :point_right: [Contact us](#contact-us)
 - "**Can you help find bugs in GitLab the product?**" :point_right: You're better off asking [Security Research](../../product-security/security-research/)
 
-GitLab’s internal Red Team conducts security exercises that emulate real-world threats. We do this to help assess and improve the effectiveness of the people, processes, and technologies used to keep our organization secure. We follow the GitLab Values as much as possible to transparently collaborate with teams within Security Division, and the wider company, for the best possible result.
-
 ## Contact Us
 
-- GitLab team members: Slack :point_right: `#sd_security_redteam` or Direct Message.
-- General public :point_right: _email?_
+- GitLab team members: Come chat with us on Slack in `#sd_security_redteam` or via Direct Message.
+- General public: _email?_
 
 ## General Information
 
@@ -41,7 +39,7 @@ Improve GitLab's security posture and sharpen our defenses against constantly-ev
 
 The Red Team is part of the Security Operations department. [See GitLab’s organizational chart in Workday and meet our team members](https://www.myworkday.com/gitlab/d/home.htmld).
 
-Further details can be found in the [job family description](/job-families/security/red-team).
+Further details about Red Team roles can be found in the [job family description](/job-families/security/red-team).
 
 ## Services we offer
 
@@ -66,7 +64,11 @@ Purple team represents a collaborative exercise between the Red team and Blue te
 
 ### Research
 
-We research upcoming technological trends and tools so we are familiar with them to keep current with the TTPs used by adversaries. Examples include:
+Understanding emerging technologies and tools helps us anticipate adversaries' evolving tactics. It also means we can more effecively emulate those attackers.
+
+Formalized operations and opportunistic attacks both require extensive research, and we factor that in when planning these activities. Outside of that context, the Red Team may conduct research with an intent to provide helpful information to others in the security industry and the wider GitLab community.
+
+Examples include:
 
 - social engineering techniques
 - stealth and defense evasion techniques
@@ -74,9 +76,7 @@ We research upcoming technological trends and tools so we are familiar with them
 - tools such as enumeration/scanning tools, command and control (C2) frameworks
 - malware found in the wild
 
-Formalized operations and opportunistic attacks both require extensive research, and we factor that in when planning these activities. Outside of that context, the Red Team may conduct research with an intent to provide helpful information to others in the security industry and the wider GitLab community. This includes blogs, vulnerability disclosures, conference talks, tech notes, and so on. Explore our [public repository of some past research](https://gitlab.com/gitlab-com/gl-security/security-operations/redteam/redteam-public/). _(also blogs?)_
-
-[Read more...](research)
+We publish tech notes that summarise some of our research as part of responsible disclosure. Explore our [list of tech notes, blogs and other research](https://gitlab-com.gitlab.io/gl-security/security-tech-notes/red-team-tech-notes/) and [public Git repository of some past tooling and techniques](https://gitlab.com/gitlab-com/gl-security/security-operations/redteam/redteam-public/).
 
 ## How We Operate
 
@@ -88,37 +88,13 @@ We also track results via metrics which are available internally, including MITR
 
 ## Additional Resources/Further Reading
 
-- Public Red Team repository :point_right: redteam-public
+- [Public Red Team repository](https://gitlab.com/gitlab-com/gl-security/security-operations/redteam/redteam-public)
   - Contains tools, scripts/proofs of concept and tech notes that have been made public
-- Internal Red Team repository :point_right: https://gitlab.com/gitlab-com/gl-security/security-operations/redteam/redteam-internal (Available for GitLab team members only)
+- [Internal Red Team repository](https://gitlab.com/gitlab-com/gl-security/security-operations/redteam/redteam-internal) (Available for GitLab team members only)
 - Link to blogs, tech notes, etc.
 
 ## Is This the Red Team?
 
-### Why we don't answer this question
+GitLab team members: See something potentially suspicious and want to check in with us? We won't answer this question. Read more about why in [_Is This the Red Team?_](how-we-operate/#is-this-the-red-team)
 
-The goal of a Red Team operation is often to test our policies and procedures when reacting to an actual threat. This includes identifying suspicious activity and following the appropriate runbook to investigate and respond to that threat.
-
-If any team member, at any time, could simply ask _"Hey, this looks suspicious. Is this our Red Team?"_ then this opportunity would be lost. **Instead, all suspicious activity should be treated as potentially malicious and acted upon accordingly**.
-
-We have private Slack channels in place where designated team members can ask the Red Team if a certain activity belongs to them. This helps us to provide realistic opportunities to practice detection and response without escalating too far. For example, we would not want an emulated attack to affect production operations or escalate to third parties.
-
-Managers at GitLab can also [submit a "Red Team Disclosure Request"](https://gitlab.com/gitlab-com/gl-security/security-operations/redteam/redteam-internal/red-team-operations/-/issues/new?issuable_template=request-for-disclosure) at any time. If the request contains evidence related to an ongoing Red Team operation, we will discuss next steps in the Slack channels mentioned above.
-
-You can read more about this process in the ["Requests for Disclosure" section](how-we-operate/rules-of-engagement#requests-for-disclosure) of our rules of engagement.
-
-### How the Red Team will respond to this question
-
-If the Red Team is ever asked _"Is this you?"_ by someone other than the designated team members mentioned above, they will respond with the following text:
-
-> Thanks for your vigilance! Any suspicious activity should be treated as potentially malicious. If you'd like to contact security, you can follow the process [here](../sirt/engaging-security-on-call).
->
-> Red Team operations provide an opportunity to practice detecting and responding to real-world attacks, and revealing an operation early might mean we miss out on that opportunity. Because of this, we have a policy to neither confirm nor deny whether an activity belongs to us. You can read more about this policy here: [{{< ref ".#is-this-the-red-team" >}}]({{< ref ".#is-this-the-red-team" >}}).
-
-### How others should respond to this question
-
-Because we want to treat all activity as potentially malicious, anyone else receiving this question should also use a consistent response. Feel free to use your own words. The following can be a guide:
-
-> We want to treat any suspicious activity as potentially malicious. Let's continue following our normal procedures to report and investigate this. Any Red Team operation will have controls in place to keep things from escalating too far. You can read more about this here: [{{< ref ".#is-this-the-red-team" >}}]({{< ref ".#is-this-the-red-team" >}}).
-
-If the person receiving this question happens to be a Security Director or a trusted participant in an ongoing stealth operation, they can then use established channels to communicate with the Red Team.
+**All suspicious activity should be treated as potentially malicious and acted upon accordingly**.
