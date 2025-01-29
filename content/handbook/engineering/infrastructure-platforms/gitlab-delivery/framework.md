@@ -154,6 +154,9 @@ The primary team label is `team::GitLab Delivery Framework`. This label should b
 ### Why :results-for-customers:
 <!-- Explain the importance of this epic and its contributions to delivering results for customer. -->
 
+### Future Maintenance :construction:
+<!-- If this involves building a new piece of tooling, pipelines, or artifacts, clearly identify and align on future maintenance responsibilities. -->
+
 ### Documentation :book:
 
 * Publicly Accessible Documentation:
