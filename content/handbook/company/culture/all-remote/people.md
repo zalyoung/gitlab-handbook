@@ -16,13 +16,13 @@ On this page, we're spotlighting brilliant, creative, passionate people who have
 
 *In the [GitLab Unfiltered video](https://youtu.be/QTPeyRW766Q) above, two GitLab team members share their experiences on working in an all-remote setting, providing a glimpse at what's possible when embracing this style of work.*
 
-All-remote and remote-first organizations [enable lifestyles]({{< ref "remote-benefits" >}}) that simply are not possible in colocated companies, where a daily commute and one's physical presence are required.
+All-remote and remote-first organizations [enable lifestyles](/handbook/company/culture/all-remote/remote-benefits/) that simply are not possible in colocated companies, where a daily commute and one's physical presence are required.
 
 When you're free to choose when and where you live and work, [your work can revolve around your life](stories/) as opposed to the other way around.
 
-All-remote and remote-first [organizations](jobs/) tend to attract people who place a high degree of value on [autonomy](https://about.gitlab.com/blog/2018/10/18/the-case-for-all-remote-companies/), [flexibility](https://about.gitlab.com/blog/2019/06/25/how-remote-work-at-gitlab-enables-location-independence/), [empathy](https://about.gitlab.com/blog/2019/07/09/tips-for-working-from-home-remote-work/), and [mobility]({{< ref "inclusion#fully-distributed-and-completely-connected" >}}). It also presents [outsized opportunity for people who must live or prefer to live in rural areas](https://about.gitlab.com/blog/2019/08/15/all-remote-is-for-everyone/), where well-paying careers in technical industries are few and far between.
+All-remote and remote-first [organizations](jobs/) tend to attract people who place a high degree of value on [autonomy](https://about.gitlab.com/blog/2018/10/18/the-case-for-all-remote-companies/), [flexibility](https://about.gitlab.com/blog/2019/06/25/how-remote-work-at-gitlab-enables-location-independence/), [empathy](https://about.gitlab.com/blog/2019/07/09/tips-for-working-from-home-remote-work/), and [mobility](/handbook/company/culture/inclusion/#fully-distributed-and-completely-connected). It also presents [outsized opportunity for people who must live or prefer to live in rural areas](https://about.gitlab.com/blog/2019/08/15/all-remote-is-for-everyone/), where well-paying careers in technical industries are few and far between.
 
-Below, we're detailing examples of people who have adopted a [remote lifestyle](https://about.gitlab.com/blog/2018/03/15/working-at-gitlab-affects-my-life/). If these resonate with you, chances are high that you would receive a great deal of fulfillment in an [all-remote or remote-first company](jobs/). Similarly, if you're an employer yearning to hire sharp, driven, passionate people like the below, consider [going all-remote]({{< ref "_index.md" >}}) in your own company.
+Below, we're detailing examples of people who have adopted a [remote lifestyle](https://about.gitlab.com/blog/2018/03/15/working-at-gitlab-affects-my-life/). If these resonate with you, chances are high that you would receive a great deal of fulfillment in an [all-remote or remote-first company](jobs/). Similarly, if you're an employer yearning to hire sharp, driven, passionate people like the below, consider [going all-remote](_index.md) in your own company.
 
 ## Travelers
 
@@ -50,7 +50,7 @@ This affords him multiple home bases around the world for less than the cost of 
 
 > I'm definitely spending more time with my children, which they appreciate and I really enjoy. I've always wanted flexibility, but [GitLab] is a place where it's not just lip service. You can live it. - *Melody M., Accounting and External Reporting Manager at GitLab*
 
-Building a career while raising one or more children has its [challenges](https://about.gitlab.com/blog/2019/08/08/remote-kids-part-four/). However, all-remote and remote-first organizations provide an [atmopshere]({{< ref "remote-benefits" >}}{{< ref "" >}}) where those who yearn to continue working may do so without the usual family sacrifices linked to daily commutes in colocated environments.
+Building a career while raising one or more children has its [challenges](https://about.gitlab.com/blog/2019/08/08/remote-kids-part-four/). However, all-remote and remote-first organizations provide an [atmopshere](/handbook/company/culture/all-remote/remote-benefits/) where those who yearn to continue working may do so without the usual family sacrifices linked to daily commutes in colocated environments.
 
 Research has shown that parental presence for [infants, toddlers, and older children](https://www.gsb.stanford.edu/insights/eric-bettinger-why-stay-home-parents-are-good-older-children) has a marked impact on a child's adaptability and aptitude. In high-income families, it's easier for one parent to voluntarily step away from work to care for a child, with another parent supporting the group financially. This creates an outsized negative impact on lower-income families, including those residing in rural areas where well-paying colocated career opportunities are limited.
 
@@ -107,7 +107,7 @@ Military rotations often require families to uproot and relocate on a regular ba
 
 In many cases, the challenge is so significant that [military spouses simply opt out of the workplace](https://www.moaa.org/Content/Take-Action/On-Watch/Military-Spouse-Unemployment-Rate-at-Least-Four-Times-Higher-Than-National-Average), despite a desire to further their career. This can lead to diminished economic potential for a family, and place increased strain on the military member to sustain the group.
 
-All-remote is an ideal anecdote. Even as relocations occur, an all-remote team member can still contribute their insights and knowledge for the betterment of the company. This can create increased loyalty and lower turnover for all-remote employers, while supporting [hiring](hiring/) pipelines which are [more diverse and inclusive]({{< ref "inclusion#fully-distributed-and-completely-connected" >}}).
+All-remote is an ideal anecdote. Even as relocations occur, an all-remote team member can still contribute their insights and knowledge for the betterment of the company. This can create increased loyalty and lower turnover for all-remote employers, while supporting [hiring](hiring/) pipelines which are [more diverse and inclusive](/handbook/company/culture/inclusion/#fully-distributed-and-completely-connected).
 
 At GitLab, several team members are US military spouses.
 
@@ -147,7 +147,7 @@ It's wise to rank all of the above in order of importance for you. If you find t
 
 ### Employer benefits
 
-[Employers](management/) should recognize that this reality [also benefits them]({{< ref "remote-compensation" >}}). When you hire individuals who place a high degree of value on not having to commute and being able to live and work where they're most comfortable, they will generally hold the company in higher regard, find greater connection with their work, and exhibit greater loyalty. Research by [TINYpulse and Owl Labs](https://web.archive.org/web/20230131134608/https://www.tinypulse.com/blog/the-state-of-remote-work) found that "companies that support remote work have a 25% higher retention rate than companies that don't."
+[Employers](management/) should recognize that this reality [also benefits them](/handbook/company/culture/all-remote/remote-compensation/). When you hire individuals who place a high degree of value on not having to commute and being able to live and work where they're most comfortable, they will generally hold the company in higher regard, find greater connection with their work, and exhibit greater loyalty. Research by [TINYpulse and Owl Labs](https://web.archive.org/web/20230131134608/https://www.tinypulse.com/blog/the-state-of-remote-work) found that "companies that support remote work have a 25% higher retention rate than companies that don't."
 
 ## Work/life harmony
 
@@ -203,8 +203,8 @@ Beyond the personal, communal, and societal benefits from empowering people to p
 
 ## Contribute your lessons
 
-GitLab believes that all-remote is the [future of work]({{< ref "remote-vision" >}}), and remote companies have a shared responsibility to show the way for other organizations who are embracing it. If you or your company has an experience that would benefit the greater world, consider creating a [merge request](https://docs.gitlab.com/ee/user/project/merge_requests/) and adding a contribution to this page.
+GitLab believes that all-remote is the [future of work](/handbook/company/culture/all-remote/remote-vision/), and remote companies have a shared responsibility to show the way for other organizations who are embracing it. If you or your company has an experience that would benefit the greater world, consider creating a [merge request](https://docs.gitlab.com/ee/user/project/merge_requests/) and adding a contribution to this page.
 
 ---
 
-Return to the main [all-remote page]({{< ref "_index.md" >}}).
+Return to the main [all-remote page](_index.md).

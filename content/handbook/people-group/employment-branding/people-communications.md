@@ -224,7 +224,7 @@ This runbook outlines key steps to be followed. Additional steps may be added ba
 
 - [Request for Internal Communications Support Template](https://docs.google.com/document/d/1whzG0NxWfUyKDWdIwwojiDy_2xy5W-JIjV34BJm7nek/edit#heading=h.x4nz4qi9s12r)
 - [Internal Comms Tiered System](https://docs.google.com/document/d/1ST6_ArqcAMKQN0hMgD9ZCEyQ6BEWI7y-kcMsYAUpzDw/edit#heading=h.of2gk6rfwgrw)
-- [Communication at GitLab]({{< ref "communication" >}})
+- [Communication at GitLab](/handbook/communication/)
 
 ## More to come
 

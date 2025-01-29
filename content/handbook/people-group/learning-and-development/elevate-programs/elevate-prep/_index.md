@@ -2,7 +2,7 @@
 title: ElevatePrep
 ---
 
-ElevatePrep is a _signature_ program within GitLab's broader Elevate leadership experience aim to enhance leadership performance and capability across the organization. ElevatePrep focuses on skills and capabilities that strengthen self-awareness, goal setting, feedback, and influencing others. This experiece is designed for GitLab individual contributors (ICs) who would like to _one day_ step into a people management role. ElevatePrep lays the foundation for strong 
+ElevatePrep is a _signature_ program within GitLab's broader Elevate leadership experience aim to enhance leadership performance and capability across the organization. ElevatePrep focuses on skills and capabilities that strengthen self-awareness, goal setting, feedback, and influencing others. This experiece is designed for GitLab individual contributors (ICs) who would like to _one day_ step into a people management role. ElevatePrep lays the foundation for strong
 
 ### Important Note About Career Development
 
@@ -50,7 +50,7 @@ While team members can express interest in participating, preference is given to
 
 ## Making up missed sessions
 
-Attendance at all live sessions is required to complete the program. If you cannot attend one of the scheduled GitLab sessions, you will be able to schedule into a public offerings hosted by Hone. We'll share more information on [SAFE](https://handbook.gitlab.com/handbook/legal/safe-framework/#safe) best practices when joining public sessions. These sessions happen globally, so won't be exclusively GitLab team members, but the core concepts of the module will still be taught.
+Attendance at all live sessions is required to complete the program. If you cannot attend one of the scheduled GitLab sessions, you will be able to schedule into a public offerings hosted by Hone. We'll share more information on [SAFE](/handbook/legal/safe-framework/#safe) best practices when joining public sessions. These sessions happen globally, so won't be exclusively GitLab team members, but the core concepts of the module will still be taught.
 
 ## Supporting your team members in ElevatePrep
 

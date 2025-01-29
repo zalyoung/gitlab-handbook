@@ -78,7 +78,7 @@ Do you have an idea, feedback, or recommendation for how Field Security can bett
 - [Evangelism]({{< ref "evangelism" >}})
 - [Field Security Sales Training Program]({{< ref "fsstp" >}})
 - [Independent Security Assurance]({{< ref "independent_security_assurance" >}})
-- [Security Shadow Program]({{< ref "security-shadow-security-assurance" >}})
+- [Security Shadow Program](/handbook/security/security-shadow-security-assurance/)
 
 <div class="d-grid gap-2 my-4">
 <a href="{{< ref "security-assurance" >}}" class="btn bg-primary text-white btn-lg">Return to the Security Assurance Homepage</a>

@@ -79,7 +79,7 @@ To be an effective ally it is important to understand some of the skills and beh
 1. Allies try to understand Perception vs. Reality
 1. Allies don't stop with their power they also leverage others powers of authority
 
-See our [Ally Resources Page]({{< ref "ally-resources" >}}) for more resources on being an ally.
+See our [Ally Resources Page](/handbook/communication/ally-resources/) for more resources on being an ally.
 
 ## Allyship & Empathy
 
@@ -242,8 +242,8 @@ Allies familiarize themselves with GitLab's general DIB content
 
 - [Diversity, Inclusion & Belonging page](/handbook/company/culture/inclusion/)
 - [Gender and Sexual Orientation Identity Definitions and FAQ](/handbook/people-group/orientation-identity)
-- [DIB training resources]({{< ref "inclusion#diversity-inclusion--belonging-training-and-learning-opportunities" >}})
-- [Unconscious bias]({{< ref "unconscious-bias" >}})
+- [DIB training resources](/handbook/company/culture/inclusion/#diversity-inclusion--belonging-training-and-learning-opportunities)
+- [Unconscious bias](/handbook/company/culture/inclusion/unconscious-bias/)
 
 ## Ally Resources
 

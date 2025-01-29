@@ -45,7 +45,7 @@ In an all-remote organization, we want each team member to be a [manager of one]
 
 ## Interim and Acting Leadership
 
-In some cases, a individual in the [Management group](/handbook/company/structure#management-group), [Director group]({{< ref "structure#director-group" >}}), [S-group]({{< ref "structure#s-group" >}}), or even [E-group]({{< ref "structure#e-group" >}}) may have an "Interim" or "Acting" title.
+In some cases, a individual in the [Management group](/handbook/company/structure#management-group), [Director group](/handbook/company/structure/#director-group), [S-group](/handbook/company/structure/#s-group), or even [E-group](/handbook/company/structure/#e-group) may have an "Interim" or "Acting" title.
 
 1. **Acting** means that someone is occupying this role temporarily and will move back to their original role after a set amount of time or other conditions, such as an external hire.
 1. **Interim** means the individual is working on a promotion into the role.
@@ -81,7 +81,7 @@ Giving regular [feedback](/handbook/company/culture/all-remote/effective-communi
 
 ### Identifying root causes
 
-Sometimes when performance dips, the best way to tackle it is to try to determine the root cause. This is easier said than done. There is a great tool that [CEB (now Gartner)](https://www.gartner.com/en) created to help with this called [performance issue root cause diagnostic](https://offices.depaul.edu/human-resources/employee-relations/Documents/Performance%20Issue%20Root%20Cause%20Diagnostic.pdf). It may not always be possible or appropriate to determine the root cause, so the [underperformance process]({{< ref "underperformance" >}}) should be followed.
+Sometimes when performance dips, the best way to tackle it is to try to determine the root cause. This is easier said than done. There is a great tool that [CEB (now Gartner)](https://www.gartner.com/en) created to help with this called [performance issue root cause diagnostic](https://offices.depaul.edu/human-resources/employee-relations/Documents/Performance%20Issue%20Root%20Cause%20Diagnostic.pdf). It may not always be possible or appropriate to determine the root cause, so the [underperformance process](/handbook/leadership/underperformance/) should be followed.
 
 ## Responding to Negative Feedback
 
@@ -186,7 +186,7 @@ As noted in this [medium article](https://medium.com/capchase/escalation-manifes
 
 Folks who are escalating an issue should avoid surprising folks in the management chain. This means that other relevant team members should be aware that an escalation is occurring. For example, in E-Group, members agree that they will not go to the CEO with an escalation without first notifying other relevant members that this is happening.
 
-There may be some exceptions to first notifying managers or peers. For example, a team member [feels unsafe]({{< ref "psychological-safety" >}}) in voicing a concern to a manager or their peers and feels that they can't effectively escalate with standard notification without retribution. While exceptions may be appropriate, they should be rare.
+There may be some exceptions to first notifying managers or peers. For example, a team member [feels unsafe](/handbook/leadership/emotional-intelligence/psychological-safety/) in voicing a concern to a manager or their peers and feels that they can't effectively escalate with standard notification without retribution. While exceptions may be appropriate, they should be rare.
 
 After a team member escalates an issue, it is OK if they [disagree, commit, and advocate](/handbook/values/#disagree-and-commit) with the decisions made by the person they escalated to.
 
@@ -208,7 +208,7 @@ Managers have an tremendous responsibility around talent acquisition and [retent
 
 ## High Output Management
 
-GitLab leadership and management approach was built using principles covered in the book "[High Output Management](https://www.goodreads.com/book/show/324750.High_Output_Management)." Please see [High Output Management]({{< ref "high-output-management" >}}) to learn more.
+GitLab leadership and management approach was built using principles covered in the book "[High Output Management](https://www.goodreads.com/book/show/324750.High_Output_Management)." Please see [High Output Management](/handbook/leadership/high-output-management/) to learn more.
 
 ## Building High Performing Teams
 
@@ -230,10 +230,10 @@ Watch the replay of our conversation with [Jeb Hurley, Co-founder and Managing P
 
 **Skills and behavior of [building high performing teams competency](/handbook/people-group/competencies/#list) for Managers**:
 
-- Models and encourages teamwork by fostering collaboration, communication, [trust]({{< ref "building-trust" >}}), shared goals, mutual accountability and support
+- Models and encourages teamwork by fostering collaboration, communication, [trust](/handbook/leadership/building-trust/), shared goals, mutual accountability and support
 - Fosters an environment where results are balanced with time management of multiple assignments and [Direct Responsible Individuals (DRI's)](/handbook/people-group/directly-responsible-individuals/) on important topics
 - Empowers team members to be a [Manager of One](/handbook/values/#managers-of-one) and gives them the tools to grow professionally in their careers
-- Attracts and retains top talent by creating an inclusive environment [built on trust]({{< ref "building-trust" >}}), delegation, accountability, and teachability
+- Attracts and retains top talent by creating an inclusive environment [built on trust](/handbook/leadership/building-trust/), delegation, accountability, and teachability
 
 ### Strategies to Build High Performing Teams
 
@@ -247,7 +247,7 @@ The [Drexler-Sibbet Team Performance Model](https://www.kaizenko.com/drexler-sib
 **7 Stages to developing high performing teams:**
 
 1. Orientation - Why are we here? Team members need to see a sense of team identity and how individual team members fit in.
-1. [Trust Building]({{< ref "building-trust" >}}) - Who are you? Team members share mutual regard for each other and are open and supportive of trust-based relationships.
+1. [Trust Building](/handbook/leadership/building-trust/) - Who are you? Team members share mutual regard for each other and are open and supportive of trust-based relationships.
 1. Goal Clarification - What are we doing? Assumptions are made clear; individual assumptions are made known with a clear vision of the end state.
 1. Commitment - How will we do it? Team members understand how it will make decisions and do the work.
 1. Implementation - Who does what, when, where? Team members have a sense of clarity and can operate effectively due to the alignment of shared goals.
@@ -286,7 +286,7 @@ If you're interested in starting or joining an m-team meeting, reach out to othe
 
 Books in this section [can be expensed](/handbook/finance/spending-company-money/).
 
-Notable books from the [E-Group Offsite Book Selections]({{< ref "offsite#previous-reads" >}}) may be added to the list below.
+Notable books from the [E-Group Offsite Book Selections](/handbook/company/offsite/#previous-reads) may be added to the list below.
 
 We sometimes self-organize [book clubs]({{< ref "book-clubs" >}}) to read through these books as a group.
 
@@ -296,10 +296,10 @@ We sometimes self-organize [book clubs]({{< ref "book-clubs" >}}) to read throug
 1. [The Hard Thing About Hard Things: Building a Business When There Are No Easy Answers](https://www.goodreads.com/book/show/18176747-the-hard-thing-about-hard-things) - Ben Horowitz
     - [Chase Wright's notes](https://docs.google.com/document/d/1Uxva11x1YX4zci1FHmF45UTYjGLPMU5HmrbmflINoG4/)
 1. [Crucial Conversations: Tools for Talking When Stakes Are High](https://www.goodreads.com/book/show/15014.Crucial_Conversations) - Kerry Patterson
-    - Notes from the [E-group]({{< ref "structure#e-group" >}}) reading:
+    - Notes from the [E-group](/handbook/company/structure/#e-group) reading:
     - Virtual teams are much more likely to fail on crucial conversations than colocated teams
     - We need to develop the skill of sensing the tone of a-sync conversations to uncover potential issues
-    - We need to find a way to create [psychological safety]({{< ref "psychological-safety" >}}) for people in official channels
+    - We need to find a way to create [psychological safety](/handbook/leadership/emotional-intelligence/psychological-safety/) for people in official channels
     - Starting with empathy is a great way to gather the context needed in a tense situation - this is hard a-sync, but more important
     - Consider getting context 1-on-1 (through Slack) before posting a comment in an issue that you might regret later
     - As leaders, we need to give context as well. A good question is: "What would have to change for us to get X prioritized..."
@@ -313,7 +313,7 @@ We sometimes self-organize [book clubs]({{< ref "book-clubs" >}}) to read throug
 
 ## Training
 
-When you give leadership training please [screen share the handbook instead of creating a presentation]({{< ref "handbook-usage#screenshot-the-handbook-instead-of-creating-a-presentation" >}}).
+When you give leadership training please [screen share the handbook instead of creating a presentation](/handbook/about/handbook-usage/#screenshot-the-handbook-instead-of-creating-a-presentation).
 
 ### Leadership Development Opportunities
 
@@ -322,7 +322,7 @@ When you give leadership training please [screen share the handbook instead of c
 1. [Self-led opportunities to be a mentor](/handbook/people-group/learning-and-development/mentor/) - keep an eye out for a company-wide mentorship program with applications opening at the end of January 2022.
 1. [Join the women's TMRG mentorship group](/handbook/company/culture/inclusion/tmrg-gitlab-women/mentorship-program/) to either be a mentor to practice leadership or get paired with a leader to learn from.
 1. Sign up for [Crucial Conversations training](/handbook/people-group/learning-and-development/learning-initiatives/#crucial-conversations)
-1. Explore opportunities to join the [CEO Shadow program](/handbook/ceo/shadow) or other division specific shadow programs with the [Chief of Staff]({{< ref "office-of-the-ceo#chief-of-staff-shadow" >}}), and [Security]({{< ref "security-shadow" >}}).
+1. Explore opportunities to join the [CEO Shadow program](/handbook/ceo/shadow) or other division specific shadow programs with the [Chief of Staff]({{< ref "office-of-the-ceo#chief-of-staff-shadow" >}}), and [Security](/handbook/security/security-shadow/).
 1. Explore the skills needed to successfully transistion from IC to Manager in [GitLab Learn](https://gitlab.edcast.com/channel/coming-soon-transitioning-from-ic-to-manager).
 1. Explore leadership and management courses on [LinkedIn Learning](https://www.linkedin.com/learning/topics/leadership-and-management)
 1. Join a monthly [Leadership Chats](/handbook/people-group/learning-and-development/manager-challenge/leadership-chats/) talk to learn from people leaders across the organization.

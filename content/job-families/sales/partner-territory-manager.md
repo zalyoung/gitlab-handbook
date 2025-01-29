@@ -104,7 +104,7 @@ The Partner Territory Manager (Intermediate) reports to the Director, Partner Te
 
 #### Job Grade
 
-The Partner Territory Manager (intermediate) is a [grade 6]({{< ref "compensation-calculator#gitlab-job-grades" >}}).
+The Partner Territory Manager (intermediate) is a [grade 6](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
 
 #### Intermediate Responsibilities
 
@@ -201,7 +201,7 @@ The Senior Partner Territory Manager reports to the Director, Partner Territory 
 
 #### Job Grade
 
-The Senior Partner Territory Manager is a [grade 7]({{< ref "compensation-calculator#gitlab-job-grades" >}}).
+The Senior Partner Territory Manager is a [grade 7](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
 
 #### Senior Responsibilities
 
@@ -306,7 +306,7 @@ The Staff Partner Territory Manager reports to the {add the reporting position a
 
 #### Job Grade
 
-The Staff Partner Territory Manager is a [grade 9]({{< ref "compensation-calculator#gitlab-job-grades" >}}).
+The Staff Partner Territory Manager is a [grade 9](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
 
 #### Staff Responsibilities
 
@@ -411,7 +411,7 @@ The Senior Manager, Partner Territory Management typically reports to the Vice P
 
 #### Job Grade
 
-The Senior Manager, Partner Territory Management is a [grade 9] ({{< ref "compensation-calculator#gitlab-job-grades" >}}).
+The Senior Manager, Partner Territory Management is a [grade 9] (/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
 
 #### Senior Manager Responsibilities
 
@@ -502,7 +502,7 @@ The Director, Partner Territory Management typically reports to the Vice Preside
 
 #### Job Grade
 
-The {add the role name} is a [grade 10]({{< ref "compensation-calculator#gitlab-job-grades" >}}).
+The {add the role name} is a [grade 10](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
 
 #### Director Responsibilities
 

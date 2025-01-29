@@ -33,7 +33,7 @@ If you determine that a meeting is needed to move a project forward, address a b
 ### Pre-work and meeting kick-off
 
 1. Pre-read/watch or pre-work materials should be emailed to attendees at least 24 hours in advance.
-1. The meeting host ([DRI]({{< ref "directly-responsible-individuals" >}})) may summarize key points and context for the first 1 to 2 minutes of the meeting, but [few meetings should be presentations](/handbook/communication/#few-meetings-with-presentations).
+1. The meeting host ([DRI](/handbook/people-group/directly-responsible-individuals/)) may summarize key points and context for the first 1 to 2 minutes of the meeting, but [few meetings should be presentations](/handbook/communication/#few-meetings-with-presentations).
 1. Questions should be [written](/handbook/values/#write-things-down) and listed in advance of the scheduled meeting time; this tends to increase the quality of questions.
 
 ### Note taking and structure during the meeting
@@ -75,7 +75,7 @@ Not all meetings are inherently bad. We encourage managers to establish [regular
 
 Many meetings can be avoided by understanding how to [work well asynchronously](asynchronous/).
 
-For a deeper dive on how GitLab implements meetings in a remote work environment, visit our [all-remote meetings guide](meetings/). To learn more about how GitLab communications, visit our [Communications page]({{< ref "communication" >}}).
+For a deeper dive on how GitLab implements meetings in a remote work environment, visit our [all-remote meetings guide](meetings/). To learn more about how GitLab communications, visit our [Communications page](/handbook/communication/).
 
 ## Q: What is a live doc meeting?
 
@@ -103,4 +103,4 @@ Live doc meetings can happen fully in-person, fully online, or a on hybrid call 
 
 ---
 
-Return to the main [all-remote page]({{< ref "_index.md" >}}).
+Return to the main [all-remote page](_index.md).

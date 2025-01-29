@@ -5,7 +5,7 @@ description: "Blueprint for read-mostly data"
 
 ## Read-Mostly Data
 
-This document describes the *read-mostly pattern* introduced in the [Database Scalability Working Group]({{< ref "database-scalability#read-mostly-data" >}}). We discuss the characteristics of read-mostly data and propose best practices for GitLab development to consider in this context.
+This document describes the *read-mostly pattern* introduced in the [Database Scalability Working Group](/handbook/company/working-groups/database-scalability/#read-mostly-data). We discuss the characteristics of read-mostly data and propose best practices for GitLab development to consider in this context.
 
 ### Characteristics of read-mostly data
 

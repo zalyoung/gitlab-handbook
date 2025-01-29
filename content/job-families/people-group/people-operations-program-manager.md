@@ -62,7 +62,7 @@ The Senior People Operations Program Manager reports to the Director, People Too
 
 #### Senior People Operations Program Manager Job Grade
 
-The Senior People Operations Program Manager is a [grade 7]({{< ref "compensation-calculator#gitlab-job-grades" >}}).
+The Senior People Operations Program Manager is a [grade 7](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
 
 #### Senior People Operations Program Manager Responsibilities
 
@@ -115,7 +115,7 @@ The Senior People Operations Program Manager reports to the Director, People Too
 
 #### Staff People Operations Program Manager Job Grade
 
-The Senior People Operations Program Manager is a [grade 8]({{< ref "compensation-calculator#gitlab-job-grades" >}}).
+The Senior People Operations Program Manager is a [grade 8](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
 
 #### Staff People Operations Program Manager Responsibilities
 

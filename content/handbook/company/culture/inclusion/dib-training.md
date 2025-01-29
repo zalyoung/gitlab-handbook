@@ -19,7 +19,7 @@ If you are internal to GitLab, please leverage [GitLab Learn here](https://gitla
 
 <i class="fa-brands fa-google-drive"></i> [DIB Definitions Slide Deck {{< external >}}](https://docs.google.com/presentation/d/1yUkifuK1kbZNF0_FfFI7iMcLRL7kmDT4dr21Mu0zDMo/edit?usp=sharing)
 
-<i class="fa-solid fa-book"></i> [What is DIB - Diversity, Inclusion & Belonging]({{< ref "inclusion#gitlabs-definition-of-diversity-inclusion--belonging" >}})
+<i class="fa-solid fa-book"></i> [What is DIB - Diversity, Inclusion & Belonging](/handbook/company/culture/inclusion/#gitlabs-definition-of-diversity-inclusion--belonging)
 
 ## Module 2 - Our Journey in DIB
 
@@ -37,7 +37,7 @@ If you are internal to GitLab, please leverage [GitLab Learn here](https://gitla
 
 <i class="fa-brands fa-youtube"></i> [TMRG - LatinX {{< external >}}](https://youtu.be/tgpANFpoIYE)
 
-<i class="fa-solid fa-book"></i> [TMRG Guide]({{< ref "erg-guide" >}})
+<i class="fa-solid fa-book"></i> [TMRG Guide](/handbook/company/culture/inclusion/erg-guide/)
 
 <i class="fa-brands fa-youtube"></i> [DIB Advisory Board {{< external >}}](https://youtu.be/8ohfv0iyGEg)
 
@@ -53,22 +53,22 @@ If you are internal to GitLab, please leverage [GitLab Learn here](https://gitla
 
 <i class="fa-brands fa-youtube"></i> [PBPs (People Business Partners) and DIB - The Work Being Done to Support the Business {{< external >}}](https://youtu.be/nZ8K-XjgdO0)
 
-<i class="fa-solid fa-book"></i> [DIB Engineering Initiatives]({{< ref "engineering-initiatives" >}})
+<i class="fa-solid fa-book"></i> [DIB Engineering Initiatives](/handbook/company/culture/inclusion/engineering-initiatives/)
 
 <i class="fa-brands fa-youtube"></i> [L&D and DIB Collaboration {{< external >}}](https://youtu.be/TMZdNAEh_9E)
 
 <i class="fa-brands fa-youtube"></i> [Data and DIB - How it Comes Together {{< external >}}](https://youtu.be/-sv0uKjriRs)
 
-<i class="fa-solid fa-book"></i> [People Success KPIs - Key Performance Indicators]({{< ref "people-success-performance-indicators" >}})
+<i class="fa-solid fa-book"></i> [People Success KPIs - Key Performance Indicators](/handbook/people-group/people-success-performance-indicators/)
 
 <i class="fa-solid fa-book"></i> [GitLab Monthly Published Identity Data](/handbook/company/culture/inclusion/identity-data/)
 
 <i class="fa-brands fa-youtube"></i> [DIB in Talent Acquisition {{< external >}}](https://youtu.be/eXcjoPtkGXk)
 
-<i class="fa-solid fa-book"></i> [DIB Talent Acquisition Initiatives]({{< ref "talent-acquisition-initiatives" >}})
+<i class="fa-solid fa-book"></i> [DIB Talent Acquisition Initiatives](/handbook/company/culture/inclusion/talent-acquisition-initiatives/)
 
 <i class="fa-brands fa-youtube"></i> [DIB and Additional Things to Consider - Closing Thoughts {{< external >}}](https://youtu.be/M5jhazNINx8)
 
 ## Module 4 - Testing your DIB Knowledge
 
-<i class="fa-solid fa-book"></i> [TBC]({{< ref "inclusion#diversity-inclusion--belonging-training-and-learning-opportunities" >}})
+<i class="fa-solid fa-book"></i> [TBC](/handbook/company/culture/inclusion/#diversity-inclusion--belonging-training-and-learning-opportunities)

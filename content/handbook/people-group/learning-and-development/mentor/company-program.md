@@ -53,7 +53,7 @@ As a mentor, you benefit from:
 - You have been with GitLab for at least 3 months at the time of application
 - You have availability in your schedule to meet sync or async with your mentee on a bi-weekly basis for at least 30 minute meetings for the entire length of the program
 - You intend to make every effort to participate in the async kickoff discussion and will complete the LinkedIn Learning or text-version of the [How to be a Good Mentor or Mentee](https://www.linkedin.com/learning/how-to-be-a-good-mentee-and-mentor/the-power-of-mentoring) course
-- You are not on a [Formal Coaching plan]({{< ref "underperformance#options-for-remediation" >}}) or PIP (Performance Improvement Plan)
+- You are not on a [Formal Coaching plan](/handbook/leadership/underperformance/#options-for-remediation) or PIP (Performance Improvement Plan)
 - You can complete the [DIB training certification](https://levelup.gitlab.com/access/saml/login/internal-team-members?returnTo=https://levelup.gitlab.com/courses/dib-training-certification) before the program begins
 
 **Applications will be prioritized based on:**
@@ -83,7 +83,7 @@ As a mentee, you benefit from:
 
 - You have been with GitLab for at least 3 months at the time of application
 - You have availability in your schedule to meet sync or async with your mentor on a bi-weekly basis for at least 30 minute meetings for the entire length of the program
-- You are not on a [Formal Coaching plan]({{< ref "underperformance#options-for-remediation" >}}) or PIP (Performance Improvement Plan)
+- You are not on a [Formal Coaching plan](/handbook/leadership/underperformance/#options-for-remediation) or PIP (Performance Improvement Plan)
 - You intend to make every effort to participate in the async kickoff discussion and will complete the LinkedIn Learning or text-version of the [How to be a Good Mentor or Mentee](https://www.linkedin.com/learning/how-to-be-a-good-mentee-and-mentor/the-power-of-mentoring) course
 - You can complete the [DIB training certification](https://levelup.gitlab.com/access/saml/login/internal-team-members?returnTo=https://levelup.gitlab.com/courses/dib-training-certification) before the program begins
 

@@ -3,7 +3,7 @@ title: Crucial Conversations
 description: "GitLab's strategies for being an effective leader during crucial conversations with team members"
 ---
 
-Any synchronous or asynchronous engagement with team members may turn into a crucial conversation. At GitLab, we can develop the skills of sensing the tone of an async or sync conversation to uncover potential pain-points, risks, blockers, etc for team members. We need to find a way to create [psychological safety]({{< ref "psychological-safety#introduction" >}}) for our people. Using a 1-1 can be a great way to gain context on a situation a team member is facing and hold a crucial conversation.
+Any synchronous or asynchronous engagement with team members may turn into a crucial conversation. At GitLab, we can develop the skills of sensing the tone of an async or sync conversation to uncover potential pain-points, risks, blockers, etc for team members. We need to find a way to create [psychological safety](/handbook/leadership/emotional-intelligence/psychological-safety/#introduction) for our people. Using a 1-1 can be a great way to gain context on a situation a team member is facing and hold a crucial conversation.
 
 Team members can take a [crucial conversations training](/handbook/people-group/learning-and-development/learning-initiatives/crucial-conversations/) led by the Learning and Development team.
 
@@ -54,7 +54,7 @@ These are just a few strategies outlined in the Crucial Conversation book. We [h
 
 The ability to influence is an essential leadership skill. To influence is to have an impact on the behaviors, attitudes, opinions and choices of your team members and others across GitLab and externally. Influence should not be confused with power or control. It is also not about manipulating others to get your own way. It is about noticing what motivates team members commitment and using that knowledge to leverage performance and results.
 
-[Leadership]({{< ref "leadership" >}}) has sometimes been described as the ability to influence others. An effective leader does not move team members into action by coercion. An effective leader will articulate the overall vision and goals for the organization. By doing such this can motivate and move team members to action by tapping into their desires and need for success. Positive influence that is properly channeled can also bring about transformation and change for team members, department, division and the company. A leader that exhibits and exerts positive influence in others will build trust and become a true driving force towards transparency, iteration, collaboration and results.
+[Leadership](/handbook/leadership/) has sometimes been described as the ability to influence others. An effective leader does not move team members into action by coercion. An effective leader will articulate the overall vision and goals for the organization. By doing such this can motivate and move team members to action by tapping into their desires and need for success. Positive influence that is properly channeled can also bring about transformation and change for team members, department, division and the company. A leader that exhibits and exerts positive influence in others will build trust and become a true driving force towards transparency, iteration, collaboration and results.
 
 There are many different influencing strategies and in this section we are going to review 9 that leaders can review. Each strategy below will include a definition, example and ways for leaders to develop this strategy.
 

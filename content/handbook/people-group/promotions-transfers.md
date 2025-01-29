@@ -3,9 +3,9 @@ title: Promotions and Transfers
 description: "Information and protocols related to GitLab promotions and transfers."
 ---
 
-Developing talent internally is a key component of our success at GitLab, and our promotion and transfer process is built to support that development in alignment with our [values](/handbook/values/). Team members have two main avenues to pursue career advancement at GitLab: 1) Via our cyclical [promotion calibration process]({{< ref "promotions-transfers#calibration" >}}), and 2) by applying and interviewing for open positions.
+Developing talent internally is a key component of our success at GitLab, and our promotion and transfer process is built to support that development in alignment with our [values](/handbook/values/). Team members have two main avenues to pursue career advancement at GitLab: 1) Via our cyclical [promotion calibration process](/handbook/people-group/promotions-transfers/#calibration), and 2) by applying and interviewing for open positions.
 
-We encourage team members to take control of their own career advancement, and are empowered to own their development.  Team members are encouraged to utilize the  [Individual Growth Plan]({{< ref "career-development#individual-growth-plan" >}}) as a tool to articulate and align with their manager on the skills they want to develop as they think about growing into a different or larger role.
+We encourage team members to take control of their own career advancement, and are empowered to own their development.  Team members are encouraged to utilize the  [Individual Growth Plan](/handbook/people-group/learning-and-development/career-development/#individual-growth-plan) as a tool to articulate and align with their manager on the skills they want to develop as they think about growing into a different or larger role.
 This page captures information about transfers, promotions, realignments and career mobility.
 
 ## Definitions
@@ -55,7 +55,7 @@ Our promotion philosophy comprises core pillars surrounding the approach and pro
 
 ### Pillars
 
-- Promotions are based on performance, not on growth potential. If being considered for an in-line promotion, Team members should already be executing at the next level [job frameworks level]({{< ref "structure#job-frameworks" >}}) prior to promotion. Team members would typically be eligible for promotion to the next level in the same job family after twelve months in their current position.
+- Promotions are based on performance, not on growth potential. If being considered for an in-line promotion, Team members should already be executing at the next level [job frameworks level](/handbook/company/structure/#job-frameworks) prior to promotion. Team members would typically be eligible for promotion to the next level in the same job family after twelve months in their current position.
 - Career growth should be a partnership between team member and manager. As a manager, it is important to create space to regularly discuss your team members' development and career aspirations, and identify opportunities to support them in their advancement and growth.
 - When reviewing a proposed promotion, we consider: 1) readiness of the individual, and 2) business justification/opportunity.
 - All in-line promotions at GitLab require a [promotion document](#promotion-document). We believe in [transparency](/handbook/values/#transparency) within the promotion process.
@@ -85,9 +85,9 @@ The Sales Development organization reviews In-Cycle Promotions on a monthly basi
 
 | Stage | Purpose |
 | ---------- | ----- |
-| [Planning]({{< ref "promotions-transfers#planning" >}}) | Managers and leaders to review their respective teams to determine promotion readiness, business need, and timeline for the upcoming quarters and project promotions. |
-| [Calibration]({{< ref "promotions-transfers#calibration" >}}) | The calibration exercise is an opportunity for leaders (sync or async) to review projected promotions on a twice per year basis. This is an opportunity to create visibility and ensure consistency in who we are promoting and why. |
-| [Processing]({{< ref "promotions-transfers#process-for-managers-requesting-a-promotion" >}}) | The final stage once promotions are defined, is to determine where to process the promotion to finalize (this will take place via Workday or Greenhouse). |
+| [Planning](/handbook/people-group/promotions-transfers/#planning) | Managers and leaders to review their respective teams to determine promotion readiness, business need, and timeline for the upcoming quarters and project promotions. |
+| [Calibration](/handbook/people-group/promotions-transfers/#calibration) | The calibration exercise is an opportunity for leaders (sync or async) to review projected promotions on a twice per year basis. This is an opportunity to create visibility and ensure consistency in who we are promoting and why. |
+| [Processing](/handbook/people-group/promotions-transfers/#process-for-managers-requesting-a-promotion) | The final stage once promotions are defined, is to determine where to process the promotion to finalize (this will take place via Workday or Greenhouse). |
 
 ### Sales Development Process
 
@@ -100,7 +100,7 @@ Sales Development promotions will be reviewed on a monthly basis.
 ### Twice Annual Process
 
 Below is the timeline for FY26:
-*Please note that the Calibration timeline for Senior Director+ promotions will differ slightly from the timelines indicated above, as Senior Director+ promotions are calibrated twice per year at the [E-group offsite]({{< ref "offsite#schedule" >}}).*
+*Please note that the Calibration timeline for Senior Director+ promotions will differ slightly from the timelines indicated above, as Senior Director+ promotions are calibrated twice per year at the [E-group offsite](/handbook/company/offsite/#schedule).*
 
 ### FY26-Q1 (Feb 1)
 
@@ -219,10 +219,10 @@ When creating promotion documents, remember:
 
 - Promotions are based on performance, not growth potential.
 - Promotion documents should not exceed 3 pages total.
-- Please reference the [job frameworks]({{< ref "structure#job-frameworks" >}}) in the handbook for guidance pertaining to expectations at the various levels at GitLab. The job levels should help guide data chosen to be included in the promotion document, in addition to discussion during calibration sessions.
+- Please reference the [job frameworks](/handbook/company/structure/#job-frameworks) in the handbook for guidance pertaining to expectations at the various levels at GitLab. The job levels should help guide data chosen to be included in the promotion document, in addition to discussion during calibration sessions.
 - Please be sure that the promotion document has "comment" access enabled to 'GitLab' to ensure the review and approval process is not delayed. Please delete the instructions associated with each section of the promotion document below before submitting the promotions.
 - If you find yourself struggling to articulate your accomplishments, your manager can help support you and provide feedback. You can also consider reaching out to stakeholders for feedback, or meeting with a trusted colleague or mentor to brainstorm.
-- It should not include Talent Assessment ratings, such as "Exceeding Performance", as these must remain confidential and only discussed in confidential settings such as [Promotion Calibration]({{< ref "promotions-transfers#calibration" >}}), talent assessment calibrations, and within reporting structures.
+- It should not include Talent Assessment ratings, such as "Exceeding Performance", as these must remain confidential and only discussed in confidential settings such as [Promotion Calibration](/handbook/people-group/promotions-transfers/#calibration), talent assessment calibrations, and within reporting structures.
 
 ## Calibration
 
@@ -233,7 +233,7 @@ During calibration sessions, leaders should be prepared to discuss:
 1. Core themes of the promotion document: Values alignment, business justification, business results.
 1. Development areas: The promotion document outlines strengths, but we also want to highlight how we will support a team member's opportunity to develop at the next level.
 1. Cross-functional feedback: As our business goals and initiatives become increasingly cross-functional, managers should have a picture of how their team member collaborates effectively within their immediate teams, and with their core cross-functional partners and stakeholders.
-1. Performance against with the current and (some) next level expectations aligned with the [job framework]({{< ref "structure#job-frameworks" >}}).
+1. Performance against with the current and (some) next level expectations aligned with the [job framework](/handbook/company/structure/#job-frameworks).
 1. [Competencies](/handbook/people-group/competencies/#list): Where available and applicable.
 1. Most recent talent assessment (and any relevant changes since).
 
@@ -241,9 +241,9 @@ Calibration should be aligned to the following levels of leaders and people mana
 
 | Promotion Level | Level Calibrated |
 | ---------- | ----- |
-| Under Director level ([Job Grade]({{< ref "compensation-calculator#gitlab-job-grades" >}}) 5-9) | Calibrated at the Department level |
-| Director/Sr Director level ([Job Grade]({{< ref "compensation-calculator#gitlab-job-grades" >}}) 10) | Calibrated at the Division level, with Sr Director level shared with E-Group for visibility |
-| VP level ([Job Grade]({{< ref "compensation-calculator#gitlab-job-grades" >}}) 11-15) | Calibrated at the E-Group level |
+| Under Director level ([Job Grade](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades) 5-9) | Calibrated at the Department level |
+| Director/Sr Director level ([Job Grade](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades) 10) | Calibrated at the Division level, with Sr Director level shared with E-Group for visibility |
+| VP level ([Job Grade](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades) 11-15) | Calibrated at the E-Group level |
 
 Note that calibration structure may vary by division and department depending on size/scope/etc.
 
@@ -251,7 +251,7 @@ Note that calibration structure may vary by division and department depending on
 
 Philosophically, all promotions at GitLab are approached in the same way, follow the same high level process (Planning, Calibration, Processing), and use the same promotion document template.
 
-Promotions to Senior Director+ level ([job grade 11]({{< ref "compensation-calculator#gitlab-job-grades" >}}) and above) have the following differences:
+Promotions to Senior Director+ level ([job grade 11](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades) and above) have the following differences:
 
 1. **Planning**: Senior Director+ promotions need to be added to E-group's promotion project sheet at least two quarters ahead of the desired promotion quarter for visibility. For example, if I want to promote an individual effective in Q1 (February), then I need to have this team member added to E-group's projection sheet within Q3 (latest October). Please work with your aligned People Business Partner, who will ensure the promotion projection is added.
 1. **Level Scoping**: We want to ensure rigor and consistency in our organization design principles and expectations for senior leadership roles. For Senior Director+ promotions, we utilize a scoping tool to evaluate the role (not the team member) for business need and alignment to the Job Frameworks.
@@ -269,7 +269,7 @@ Promotions to Senior Director+ level ([job grade 11]({{< ref "compensation-calcu
 1. Please provide feedback on X delivery of Y business results, and collaboration with you and/or your team.
 1. Specifically highlight performance against the Job Frameworks, CREDIT Values and HPT Pillars
 
-1. **Calibration**: All Senior Director level promotions are calibrated at the Divisional VP+ leadership level, as opposed to at the Department level. Vice President level promotions are calibrated at E-group. The calibration timeline will align to the timing of the [E-group offsite]({{< ref "offsite#schedule" >}}) or extended monthly meeting, and will thus differ from the Calibration timeline of the rest of the organization. All promotion documents, feedback summaries and scoping tools need to be completed and shared with the E-group for visibility and preparation at least *2 weeks before the off-site date*.
+1. **Calibration**: All Senior Director level promotions are calibrated at the Divisional VP+ leadership level, as opposed to at the Department level. Vice President level promotions are calibrated at E-group. The calibration timeline will align to the timing of the [E-group offsite](/handbook/company/offsite/#schedule) or extended monthly meeting, and will thus differ from the Calibration timeline of the rest of the organization. All promotion documents, feedback summaries and scoping tools need to be completed and shared with the E-group for visibility and preparation at least *2 weeks before the off-site date*.
 
 The only exception to this process is when there is an open budgeted and publicly advertised vacancy for a Director or above level role that an internal team member interviews for and is offered. If external candidates have been considered and interviewed, and the internal candidate earns the role through a standard hiring process (screening, full interview process) then the recruiter may make an offer to the candidate as soon as the offer is approved. There should be no difference in the timing or process of making and accepting an offer for open roles between internal and external candidates.
 
@@ -283,7 +283,7 @@ GitLab tracks Internal Mobility rate. Market data indicates a 15% rolling promot
 
 #### Average % Compensation Change
 
-GitLab targets an average of [5-10% compensation change]({{< ref "promotions-transfers#recommending-a-compensation-increase" >}}) in general for promotions. This metric is in place to ensure we are consistent and equitable across the company when allocating promotion compensation raises to team members, in addition to ensuring competitive and meaningful promotion increases across the board.
+GitLab targets an average of [5-10% compensation change](/handbook/people-group/promotions-transfers/#recommending-a-compensation-increase) in general for promotions. This metric is in place to ensure we are consistent and equitable across the company when allocating promotion compensation raises to team members, in addition to ensuring competitive and meaningful promotion increases across the board.
 
 ### Budget Impact (see below)
 
@@ -293,7 +293,7 @@ FP&A tracks budget impact by Department/Division twice per year.
 
 Promotion budget is held at the division leader level and is scaled down to the director and above level for planning in Workday.
 
-Please review the [Compensation Program Budget]({{< ref "compensation-review-cycle#compensation-program-budget" >}}) to understand how the promotion budget is allocated and the process to review potential tradeoffs if divisions/departments are over/under budget for any given quarter.
+Please review the [Compensation Program Budget](/handbook/total-rewards/compensation/compensation-review-cycle/#compensation-program-budget) to understand how the promotion budget is allocated and the process to review potential tradeoffs if divisions/departments are over/under budget for any given quarter.
 
 ## Promotions Processed Outside of the Twice Per Year Promotion Calibration Process
 
@@ -301,7 +301,7 @@ Certain types of promotions can be handled outside of the Twice Per Year Promoti
 
 1. Application to a new, approved headcount in Greenhouse:
     - Internal candidates go through an interview process as defined further in the Greenhouse Promotions/Transfers section.
-1. Promotions stemming from individuals in [interim/acting roles]({{< ref "promotions-transfers#interim-and-acting-roles" >}}).
+1. Promotions stemming from individuals in [interim/acting roles](/handbook/people-group/promotions-transfers/#interim-and-acting-roles).
 1. Exceptions that are outside of the twice per year process and not aligned with any of the types listed above.
 
 ### How to Process an Exception: Submitting an out-of-cycle Promotion request in Workday
@@ -312,12 +312,12 @@ For exceptional situations where a promotion is not handled through the twice pe
 
 | Promotion Level | Approvals Required |
 | ---------- | ----- |
-| Under Director level ([Job Grade]({{< ref "compensation-calculator#gitlab-job-grades" >}}) 5-9) | 1) Direct Manager, 2) Department Head, 3) People Business Partner, 4) Total Rewards, 5) FP&A |
-| Director+ level ([Job Grade]({{< ref "compensation-calculator#gitlab-job-grades" >}}) 10-15) | 1) Direct Manager, 2) Department Head, 3) People Business Partner, 4) Total Rewards, 5) FP&A, 6) **E-Group Leader** |
+| Under Director level ([Job Grade](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades) 5-9) | 1) Direct Manager, 2) Department Head, 3) People Business Partner, 4) Total Rewards, 5) FP&A |
+| Director+ level ([Job Grade](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades) 10-15) | 1) Direct Manager, 2) Department Head, 3) People Business Partner, 4) Total Rewards, 5) FP&A, 6) **E-Group Leader** |
 
 Approvals for the Director+ level off-cycle promotion exceptions require E-Group approval, and off-cycle promotions for levels under Director require approval through Department head.
 
-Regardless of the promotion level, it is critical that leaders work with their People Business Partner, Total Rewards, and FP&A [as outlined]({{< ref "compensation-review-cycle#compensation-program-budget" >}}) to identify tradeoffs we can review to fund the promotion.
+Regardless of the promotion level, it is critical that leaders work with their People Business Partner, Total Rewards, and FP&A [as outlined](/handbook/total-rewards/compensation/compensation-review-cycle/#compensation-program-budget) to identify tradeoffs we can review to fund the promotion.
 
 ### FY25 CTO Organization Promotion Guidance
 
@@ -441,11 +441,11 @@ The [justification document](https://docs.google.com/document/d/1feA04oVpXYa1QWA
 
 ## Process for Managers: Requesting a Promotion
 
-1. Determine whether the promotion change should be processed through the [twice per year promotion cycle]({{< ref "promotions-transfers#twice-per-year-promotion-calibration-process--timeline" >}}) or through [Greenhouse]({{< ref "promotions-transfers#promotions-processed-outside-of-the-bi-annual-promotion-calibration-process" >}})
-1. If proceeding with the [twice per year promotion cycle]({{< ref "promotions-transfers#twice-per-year-promotion-calibration-process--timeline" >}}), work with your People Business Partner and Leadership to recommend the promotion ahead of the [planning process]({{< ref "promotions-transfers#planning" >}}) so the team member included in planning and calibrations. Ensure the [Promotion or Compensation Change Document](promotions-transfers#promotion-document) has been created at this time.
-   - If the team member you are recommending a promotion for is director or above, please refer to the [promotions to director and above]({{< ref "promotions-transfers#promotions-to-director-and-above" >}}).
-1. If the promotion/compensation change should be processed through Greenhouse, please follow the steps outlined in the [Greenhouse Promotions/Transfers Process section]({{< ref "promotions-transfers#greenhouse-promotions-transfer-process" >}}).
-1. If the promotion is considered an exception, please follow the steps outlined in the [How to Process an Exception: Submitting an out-of-cycle Promotion request in Workday]({{< ref "promotions-transfers#how-to-process-an-exception-submitting-an-out-of-cycle-promotion-request-in-workday" >}}).
+1. Determine whether the promotion change should be processed through the [twice per year promotion cycle](/handbook/people-group/promotions-transfers/#twice-per-year-promotion-calibration-process--timeline) or through [Greenhouse](/handbook/people-group/promotions-transfers/#promotions-processed-outside-of-the-bi-annual-promotion-calibration-process)
+1. If proceeding with the [twice per year promotion cycle](/handbook/people-group/promotions-transfers/#twice-per-year-promotion-calibration-process--timeline), work with your People Business Partner and Leadership to recommend the promotion ahead of the [planning process](/handbook/people-group/promotions-transfers/#planning) so the team member included in planning and calibrations. Ensure the [Promotion or Compensation Change Document](promotions-transfers#promotion-document) has been created at this time.
+   - If the team member you are recommending a promotion for is director or above, please refer to the [promotions to director and above](/handbook/people-group/promotions-transfers/#promotions-to-director-and-above).
+1. If the promotion/compensation change should be processed through Greenhouse, please follow the steps outlined in the [Greenhouse Promotions/Transfers Process section](/handbook/people-group/promotions-transfers/#greenhouse-promotions-transfer-process).
+1. If the promotion is considered an exception, please follow the steps outlined in the [How to Process an Exception: Submitting an out-of-cycle Promotion request in Workday](/handbook/people-group/promotions-transfers/#how-to-process-an-exception-submitting-an-out-of-cycle-promotion-request-in-workday).
 
 **Things to consider before you start the process:**
 
@@ -478,13 +478,13 @@ When reviewing compensation for a transfer in Greenhouse, the Total Rewards team
 This section describes the approval chain after the People Business Partner submits a promotion request in Workday.
 
 1. The changes will route for approval to the manager, next level manager, and e-Group leader.
-1. If the request is approved, the People Connect Team will stage the [Job Change Letter]({{< ref "promotions-transfers#job-change-letter" >}}) in DocuSign.
+1. If the request is approved, the People Connect Team will stage the [Job Change Letter](/handbook/people-group/promotions-transfers/#job-change-letter) in DocuSign.
 1. DocuSign will prompt the manager to discuss the promotion with the team member. The Manager will communicate the change to the team member in their `1-1 meeting by sharing the job change letter on the call`. The Manager and the team member will process/sign the letter. Following the signatures, the manager will announce the promotion on the slack `#team-member-updates` channel. In the announcement the manager will describe how the individual met the promotion criteria and offer congratulations.
 1. For change of departments and managers, People Connect Team members will create a Career Mobility Issue.
 
 ### For People Connect Team: Processing Promotions, Internal Transfers & Compensation Changes
 
-1. If the request is approved through Workday, the People Connect Team will create the [Job Change Letter]({{< ref "promotions-transfers#job-change-letter" >}}), whereas if the request is through Greenhouse the `People Connect Team will be notified via the People Connect team email` inbox that the [Job Change Letter](/handbook/hiring/talent-acquisition-framework/ces-contract-processes/#job-change-letter) has been created by the CES team and signed.
+1. If the request is approved through Workday, the People Connect Team will create the [Job Change Letter](/handbook/people-group/promotions-transfers/#job-change-letter), whereas if the request is through Greenhouse the `People Connect Team will be notified via the People Connect team email` inbox that the [Job Change Letter](/handbook/hiring/talent-acquisition-framework/ces-contract-processes/#job-change-letter) has been created by the CES team and signed.
 
 #### Job Change Letter
 
@@ -535,13 +535,13 @@ When the interim period comes to a close, one of two outcomes can occur:
 
 - The team member successfully completes the interim period aligned with [the success criteria](/handbook/engineering/careers/#interim-manager) and moves into the interim role permanently.
   - As a general guideline, the interim period should last no *less* than 30 days, and no *more* than 4 months .
-  - The People Business Partner should submit the promotion request through Workday using the [Change Job](https://docs.google.com/document/d/1hpPikG0STncYKamaY8XlfMTwYdoszP-0Xogvpp5hyZ4/edit) job aid including the promotion document to make the change official. In Workday, the reason for the change should be `Promotion - Promotion`. The accomplishments leading up to the interim and during the interim can be used for the promotion document. The manager is responsible for creating the promotion document and [recommending a compensation increase]({{< ref "promotions-transfers#recommending-a-compensation-increase" >}}). *Note: Promotion documents are only required if the team member's move results in a promotion. For lateral moves, we do not require promotion documents.*
+  - The People Business Partner should submit the promotion request through Workday using the [Change Job](https://docs.google.com/document/d/1hpPikG0STncYKamaY8XlfMTwYdoszP-0Xogvpp5hyZ4/edit) job aid including the promotion document to make the change official. In Workday, the reason for the change should be `Promotion - Promotion`. The accomplishments leading up to the interim and during the interim can be used for the promotion document. The manager is responsible for creating the promotion document and [recommending a compensation increase](/handbook/people-group/promotions-transfers/#recommending-a-compensation-increase). *Note: Promotion documents are only required if the team member's move results in a promotion. For lateral moves, we do not require promotion documents.*
 - The team member does not complete the interim period successfully or decides that the manager track is not something they want to pursue, and moves back to their role prior to the interim period.
   - A feedback session between the team member and hiring manager should take place, so it is clear to the team member why the interim period was not successful.
   - The People Business Partner at the request of the Manager should submit a [Workday Change Job Process and Approval Flow](https://docs.google.com/document/d/1hpPikG0STncYKamaY8XlfMTwYdoszP-0Xogvpp5hyZ4/edit) in Workday to revert the team member's job title once the interim period comes to an end.
   - Not successfully completing the interim period *does not* mean the team member can not move into a similar role in the future
 
-Regardless of the outcome, when the interim period ends, the manager should review the [Criteria For Eligibility]({{< ref "compensation#criteria-for-eligibility" >}}) for the [Interim Bonus]({{< ref "compensation#calculation-of-interim-bonus" >}}) and [submit an interim bonus request]({{< ref "compensation#submitting" >}}) for the team member. Please ensure that the full bonus calculation is laid out in a comment of the bonus submission.
+Regardless of the outcome, when the interim period ends, the manager should review the [Criteria For Eligibility](/handbook/total-rewards/compensation/#criteria-for-eligibility) for the [Interim Bonus](/handbook/total-rewards/compensation/#calculation-of-interim-bonus) and [submit an interim bonus request](/handbook/total-rewards/compensation/#submitting) for the team member. Please ensure that the full bonus calculation is laid out in a comment of the bonus submission.
 
 #### Updating Interim Movements in Workday
 
@@ -567,7 +567,7 @@ A person "acting" in the role is someone who occupies a role temporarily and wil
 - The hiring manager will determine the most suitable team member for the acting role.
 - *Please make sure that the department head is in the loop and supportive of the acting period and candidate selected before moving forward.*
 
-*When the acting period ends, the manager should review the [Criteria For Eligibility]({{< ref "compensation#criteria-for-eligibility" >}}) for the [Interim Bonus]({{< ref "compensation#calculation-of-interim-bonus" >}}) and [submit an interim bonus request]({{< ref "compensation#submitting" >}}) for the team member.*
+*When the acting period ends, the manager should review the [Criteria For Eligibility](/handbook/total-rewards/compensation/#criteria-for-eligibility) for the [Interim Bonus](/handbook/total-rewards/compensation/#calculation-of-interim-bonus) and [submit an interim bonus request](/handbook/total-rewards/compensation/#submitting) for the team member.*
 
 ### Acting Roles and Internal Mobility
 
@@ -584,10 +584,10 @@ In the event that a team member is working in an acting capacity in a role that 
 Demotions are not always considered a step backwards.  It may be an opportunity for a team member to acquire new skills or to move to a role that more closely aligns with their area of interest. To demote one of your direct reports, a manager should follow the following steps:
 
 - If the demotion is due to performance, the manager should discuss any performance issues or possible demotions with Team Member Relations.
-- Demotions should also include a review of [compensation]({{< ref "compensation" >}}) and [equity](/handbook/total-rewards/stock-options/#equity-incentive-plans) in the google doc. Managers should consult with Total Rewards team on these topics; and of course always adhere to the Global Compensation Calculator.
+- Demotions should also include a review of [compensation](/handbook/total-rewards/compensation/) and [equity](/handbook/total-rewards/stock-options/#equity-incentive-plans) in the google doc. Managers should consult with Total Rewards team on these topics; and of course always adhere to the Global Compensation Calculator.
 - Once agreement is reached on the demotion and changes (if any) in Team will act as the point of escalation to have any demotion reviewed and approved by the Compensation Group once the relevant google doc is complete.
 - Once approved, the manager informs the individual and should request the necessary changes by submitting a [request via HelpLab](https://helplab.gitlab.systems/esc?id=emp_taxonomy_topic&topic_id=c15e3b45478c069067429ee0026d43e1). A [Job Change Letter](https://docs.google.com/document/d/12AscsmP3qnTqCC9h6cx1UpIVrnZUfoN6AvfMjf8guyg/editm) will then be created.
-- The People Connect team should then follow the process listed under the [For People Connect Team: Processing Promotions & Compensation Changes]({{< ref "promotions-transfers#for-people-connect-team-processing-promotions--compensation-changes" >}}).
+- The People Connect team should then follow the process listed under the [For People Connect Team: Processing Promotions & Compensation Changes](/handbook/people-group/promotions-transfers/#for-people-connect-team-processing-promotions--compensation-changes).
 - Communication should be on a need-to-know basis only and should not be made public out of respect for the individual.
 - The manager will initiate any necessary access requests or access change requests.
 
@@ -642,7 +642,7 @@ Job information changes are used to update any information on the team member's 
 
 [This job aid](https://docs.google.com/document/d/1JEobACNSMeHU4pU5DaaF7aqmv9wmSDoXx7veZ6_SM_I/edit?usp=sharing) will help provide people managers with instructions on how to move team members to another manager within Workday. If the manager you need to move your direct report to is not available, it likely means they do not have a “supervisory organization” created.  Even if their management level shows “Manager” a supervisory organization is needed in Workday for a team member to have a direct report. Supervisory organizations should have a name unique to the team they are managing (e.g. Commercial Sales - EMEA, Content Marketing (John Smith), Backend Engineering - Ruby). Please reach out to the People Connect team via [HelpLab](https://helplab.gitlab.systems/esc?id=emp_taxonomy_topic&topic_id=14aff309478c069067429ee0026d4372) with the name of the team member who needs the supervisory organization set up, the unique name, and the effective date of the supervisory organization. We can gladly help set it up in Workday.
 
-Note for Sales Managers: If team members are not moved under the correct sales manager in Workday, credits will not be rolled-up to the correct manager for sales commissions. See additional promotion and transfer considerations for commissionable roles [here]({{< ref "promotions-transfers#promotions-and-transfers-of-employees-in-commissionable-roles" >}}).
+Note for Sales Managers: If team members are not moved under the correct sales manager in Workday, credits will not be rolled-up to the correct manager for sales commissions. See additional promotion and transfer considerations for commissionable roles [here](/handbook/people-group/promotions-transfers/#promotions-and-transfers-of-employees-in-commissionable-roles).
 
 ### For People Connect: Processing Manager changes
 
@@ -692,9 +692,9 @@ For more information please visit our [Internal Hiring Process](/handbook/hiring
 - If the current manager needs to backfill the role in Engineering they should follow [this process](/handbook/engineering/#rd-new-headcount-ghpid-request-backfill--transfer-process). For other divisions they should work with their department leader, recruiter, and the Finance Business Partner to confirm that a backfill is available. When the transfer is confirmed, the current manager should work with recruiter and Finance Partner to obtain a [GHP ID](/handbook/finance/financial-planning-and-analysis/#headcount-and-the-talent-acquisition-single-source-of-truth) for the backfill and open the role in Greenhouse.
 - Before the offer is made the recruiter will confirm with the team member and the gaining manager that they have indeed reached out to the current manager. They will discuss the new opportunity and that an offer will be made to the team member.
 - Talent Acquisition team will ensure that, if applicable, the position has been posted for at least three business days before an offer is made.
-- [Compensation]({{< ref "compensation" >}}) and [equity](/handbook/total-rewards/stock-options/#equity-incentive-plans) may be reviewed during the hiring process to reflect the new level and position.
+- [Compensation](/handbook/total-rewards/compensation/) and [equity](/handbook/total-rewards/stock-options/#equity-incentive-plans) may be reviewed during the hiring process to reflect the new level and position.
 - If after interviews, the manager and the GitLab team member want to proceed with the transfer, internal references should be checked. While a manager cannot block a transfer, there is often good feedback that can help inform the decision. It is advised that the GitLab team member talk to their manager to explain their preference for the new team and to understand the feedback that will be given to the new manager. It should also be noted, that performance requirements are not always equal across roles, so if a GitLab team member struggles in one role, those weakness may not be as pronounced in the new role, and vice versa.
-- The Recruiter and Hiring Manager will review the offer details with the internal candidate and a [Job Change Letter]({{< ref "promotions-transfers#job-change-letter" >}}) will be sent out by the Total Rewards team following the hiring process
+- The Recruiter and Hiring Manager will review the offer details with the internal candidate and a [Job Change Letter](/handbook/people-group/promotions-transfers/#job-change-letter) will be sent out by the Total Rewards team following the hiring process
 - If the team member is transferred, the new manager will announce in the `#team-member-updates` Slack Channel and begin any additional onboarding or offboarding necessary. Before the new manager makes the transfer announcement they must confirm with the team members current manager that the current team has been informed about the team members new position and transfer.
 - Team members changing functional roles should complete onboarding for the new function. For example, a Backend Engineer who transferring to become or work on Frontend work should do Frontend Engineer onboarding.
 
@@ -702,7 +702,7 @@ For more information please visit our [Internal Hiring Process](/handbook/hiring
 
 If the team member is staying in the current Job Family, but changing their Specialty or Department (ex: moving from Plan to Secure or moving from Development to Infrastructure), the above steps will be followed. The recruitment procedure might be shortened if the requirements for the role are the same. At a minimum we ask that the hiring manager interview the team member.
 
-If selected for the role, a [Job Change Letter]({{< ref "promotions-transfers#job-change-letter" >}}) will be sent by the People Connect Team outlining the changes to department and specialty for the People Connect team to process in Workday. If the current manager needs to backfill the role, they should reach out to the Finance Partner.
+If selected for the role, a [Job Change Letter](/handbook/people-group/promotions-transfers/#job-change-letter) will be sent by the People Connect Team outlining the changes to department and specialty for the People Connect team to process in Workday. If the current manager needs to backfill the role, they should reach out to the Finance Partner.
 
 ### Internal Department Transfers
 
@@ -712,7 +712,7 @@ If you are interested in another position within your department and the manager
 - If the vacancy is advertised on the [jobs page](https://about.gitlab.com/jobs/all-jobs/), to be considered, you must submit an application. If there is no vacancy posting, one must be created and shared in the `#new-vacancies` channel so that everyone has the opportunity to apply and be considered.
 - The manager will assess the function requirements; each level should be defined in the vacancy description.
 - If approved, your manager will need to obtain approval from their manager, through the relevant chain of command.
-- [Compensation]({{< ref "compensation" >}}) and [equity](/handbook/total-rewards/stock-options/#equity-incentive-plans) will be reevaluated to ensure it adheres to the compensation calculator. Do not send the proposal until this part is included.
+- [Compensation](/handbook/total-rewards/compensation/) and [equity](/handbook/total-rewards/stock-options/#equity-incentive-plans) will be reevaluated to ensure it adheres to the compensation calculator. Do not send the proposal until this part is included.
 - If the team member is transferred, the manager will announce in the `#team-member-updates` Slack channel and begin any additional onboarding or offboarding necessary.
 
 ## Internal Transfer Start Date
@@ -745,7 +745,7 @@ After the team member applies, the recruiter will reach out to the team member t
 Internal and external candidates will follow the same process with the exception of the full screening call (which will instead be a short conversation to discuss compensation, as mentioned above). However, if the internal applicant will be staying in the same division and the executive level interview is a part of the process, the executive may choose to skip their interview. All interview feedback and notes will be captured in the internal team member's Greenhouse profile, which will be automatically hidden from the team member. After interviews are completed, internal "reference checks" will be completed with the applicant's current manager by the new hiring manager.
 It is recommended that team members inform their manager of their desire to move internally and their career aspirations. Your manager should not hear about your new opportunity from the new hiring manager; it should come from the team member prior to the new hiring manager checking in for references with the current manager.
 
-If you are unsure of the role, set up a coffee chat with the hiring manager to introduce yourself. Express your interest in the role and your desire to learn more about the vacancy requirements and skills needed. If after that conversation you do not feel that you are qualified or comfortable making the move, ask the hiring manager to provide guidance on what you can do to develop yourself so you will be ready for the next opportunity. It may also be possible to set up an [internship for learning]({{< ref "internship-for-learning" >}}) with the hiring manager.
+If you are unsure of the role, set up a coffee chat with the hiring manager to introduce yourself. Express your interest in the role and your desire to learn more about the vacancy requirements and skills needed. If after that conversation you do not feel that you are qualified or comfortable making the move, ask the hiring manager to provide guidance on what you can do to develop yourself so you will be ready for the next opportunity. It may also be possible to set up an [internship for learning](/handbook/people-group/learning-and-development/internship-for-learning/) with the hiring manager.
 
 ### Announcing Internal Promotions/Transfers
 
@@ -762,7 +762,7 @@ While the [Career Mobility Issue](/handbook/people-group/promotions-transfers/#c
 
 **Please Note**: Equity grants require board approval. When communicating, managers should highlight that this equity amount is the proposed amount, but will not be [officially approved](/handbook/total-rewards/stock-options/#grant-levels) until the next [board meeting](/handbook/board-meetings/#board-meeting-schedule).
 
-1. The `new manager` should post the announcement in the `#team-member-updates` Slack channel. This should ideally happen (timezone permitting) on the **same day that the candidate signs their** [Job Change Letter]({{< ref "promotions-transfers#job-change-letter" >}}).
+1. The `new manager` should post the announcement in the `#team-member-updates` Slack channel. This should ideally happen (timezone permitting) on the **same day that the candidate signs their** [Job Change Letter](/handbook/people-group/promotions-transfers/#job-change-letter).
 1. For cases where announcing on the same day the Job Change Letter is signed is not possible, the announcement should be no more than 24 hours after the candidate has signed.
 1. Following this initial announcement, the `current manager` can proceed with making this announcement in other relevant team-specific channels.
 
@@ -770,9 +770,9 @@ NOTE: Although the Total Rewards and People Connect Team may have visibility int
 
 ### For People Success & Talent Acquisition Team
 
-Vacancies will be posted internally using the Greenhouse internal job board for at least 3 business days. If a role is not posted internally there must be a business case documented in the Workday documents of the team member who received the new role. See [Department Transfers]({{< ref "promotions-transfers#department-transfers" >}}) for additional details.
+Vacancies will be posted internally using the Greenhouse internal job board for at least 3 business days. If a role is not posted internally there must be a business case documented in the Workday documents of the team member who received the new role. See [Department Transfers](/handbook/people-group/promotions-transfers/#department-transfers) for additional details.
 
-More details can be found in the [Job Change Letter]({{< ref "promotions-transfers#job-change-letter" >}}) section.
+More details can be found in the [Job Change Letter](/handbook/people-group/promotions-transfers/#job-change-letter) section.
 
 ## Career Mobility Issue
 
@@ -830,7 +830,7 @@ This section describes the steps required for promoting or transferring employee
 
 ### For the Current Sales Managers
 
-1. Determine the right path for the promotion and/or transfer. Our [promotion process]({{< ref "promotions-transfers" >}}) can be found in the handbook. For transfers, please confirm if there is an open role with your Sales recruiting team. Ensure necessary stakeholders and processes are followed in advance of processing a promotion and/or transfer.
+1. Determine the right path for the promotion and/or transfer. Our [promotion process](/handbook/people-group/promotions-transfers/) can be found in the handbook. For transfers, please confirm if there is an open role with your Sales recruiting team. Ensure necessary stakeholders and processes are followed in advance of processing a promotion and/or transfer.
 1. Open a [Territory Change Request issue](https://gitlab.com/gitlab-com/sales-team/field-operations/sales-operations/issues/new?issuable_template=Territory_Change_Request) to inform Sales Operations of the change so they can update Salesforce and the Territory Mapping SSOT.
 
 ### For Sales Recruiting
