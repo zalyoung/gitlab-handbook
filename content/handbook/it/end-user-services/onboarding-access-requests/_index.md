@@ -138,11 +138,13 @@ NOTE: GitLab's IT Ops team uses a corporate discount for our corporate-purchased
 
 #### Apple Hardware
 
-- MacBook Pro 14" -  M3 / 16GB Unified memory / 512GB storage  **Standard model**
-- MacBook Pro 16" - M3 Max / 36GB Unified memory / 512GB or 1TB storage (depending on vendor) **Performance model**
-- MacBook Pro 14" - M3 Max / 36GB Unified memory / 512GB or 1TB storage (depending on vendor) **Performance model**
+Chipset specifications not listed as they will vary based on current inventory levels.
 
-Most roles that require higher performance machines are approved for a 14" or 16" MacBook Pro M3 Max. Please see this [spreadsheet](https://docs.google.com/spreadsheets/d/1OuC0_iliCzASKfOhDLWO4fBmDS-uL3VGRMI6063R6tk/edit?usp=sharing) (public) to locate your department group and determine which machine you are eligible for.
+- MacBook Pro 14-inch - 16GB Unified memory / 512GB storage  **Standard model**
+- MacBook Pro 16-inch - 36GB Unified memory / 1TB storage **Performance model**
+- MacBook Pro 14-inch - 36GB Unified memory / 1TB storage **Performance model**
+
+Most roles that require higher performance machines are approved for a 14" or 16" MacBook Pro performance model. Please see this [spreadsheet](https://docs.google.com/spreadsheets/d/1OuC0_iliCzASKfOhDLWO4fBmDS-uL3VGRMI6063R6tk/edit?usp=sharing) (public) to locate your department group and determine which machine you are eligible for.
 
 #### Linux Hardware
 
