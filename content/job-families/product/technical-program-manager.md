@@ -229,7 +229,7 @@ All of the below are tied to a specific customer’s needs, and would not be a g
 * The support team has a request they need to escalate to the [product team](/handbook/support/workflows/how-to-get-help/) or another department.
 * Proactive planning for breaking or impactful changes. (May be in the future scope of work, but for now it is not part of this role.)
 
-The Escalation TPM is not intended to serve as the [Incident Manager](https://handbook.gitlab.com/handbook/engineering/infrastructure/incident-management/) as that role requires 24-hour coverage.
+The Escalation TPM is not intended to serve as the [Incident Manager](/handbook/engineering/infrastructure/incident-management/) as that role requires 24-hour coverage.
 <br>
 
 **Big-Picture Improvements**
