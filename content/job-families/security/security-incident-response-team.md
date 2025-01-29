@@ -204,7 +204,7 @@ The Security Incident Response Team Senior Manager is a [grade 9](/handbook/tota
   graph LR;
   sec:se(Security Incident Response Engineer)-->sec:sse(Senior Security Incident Response Engineer);
   sec:sse(Senior Security Incident Response Engineer)-->sec:stse(Staff Security Incident Response Engineer);
-  sec:stse(Staff Security Incident Response Engineer)-->sec:pse(Principle Security Engineer, Security Operations);
+  sec:stse(Staff Security Incident Response Engineer)-->sec:pse(Principal Security Engineer, Security Operations);
   sec:pse(Principle Security Engineer, Security Operations)-->sec:dse(Distinguished Security Engineer);
   sec:sse(Senior Security Incident Response Engineer)-->sec:sem(Security Incident Response Manager);
   sec:sem(Security Incident Response Manager)-->sec:sesm(Security Incident Response Senior Manager);
