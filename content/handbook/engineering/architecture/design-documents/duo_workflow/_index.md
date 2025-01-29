@@ -340,11 +340,10 @@ the steps we need to do in order to ship this to customers.
       the pipeline in the context of that branch. This ensures we never run in
       the default branch
    1. We will always pass `create_branch: true` for Duo Workflow
-1. Change Duo Workflow to using [Composite identity](https://docs.google.com/document/d/1JHqEThXqeOXkXunPUuiV1zoDoS5R-UPFZaoyiZ2EGLE/edit?tab=t.0#heading=h.e2f5pz5y6q4x)
+1. Change Duo Workflow -> GitLab Rails auth to using [Composite identity](https://docs.google.com/document/d/1JHqEThXqeOXkXunPUuiV1zoDoS5R-UPFZaoyiZ2EGLE/edit?tab=t.0#heading=h.e2f5pz5y6q4x)
    1. Introduce Global user for Duo Workflow composite identity
    1. By default these new tokens should only have access to the project where the workspace is running in
    1. Introduce this as part of `Ci::CreateWorkloadService` so it is re-usable for other workloads in future. Can take `composite_identity_user_id` and `allowed_projects` as arguments.
-   1. The `$CI_JOB_TOKEN` should be used for the Duo Workflow auth token at this point since there is no reason to distinguish them.
 1. Introduce a UI in GitLab for starting a workflow in a project
 1. Lock Duo Workflow down to [specific purpose built runners](https://gitlab.com/gitlab-org/gitlab/-/issues/511293)
    1. As Duo Workflows might have additional privileges not normally available
