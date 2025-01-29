@@ -413,8 +413,7 @@ To balance [velocity](/handbook/engineering/development/principles/#the-importan
 
 - When a Technical Writer opens a merge request, another Technical Writer must review and merge. 
   - The Technical Writer should not approve or merge their own MR. Instead, they should [request a review](#selecting-a-reviewer) from a peer with Maintainer access. The reviewer merges the MR after the final approval.
-    - This requirement is in place to satisfy the GitLab [Change Management Policy](/handbook/security/security-and-technology-policies/change-management-policy/).
-    - In addition, peer reviews are important to maintain quality and a common voice. 
+    - This requirement aligns with the GitLab [Code Review Guidelines](/ee/development/code_review.html) and satisfies the GitLab [Change Management Policy](/handbook/security/security-and-technology-policies/change-management-policy/).
 - When anyone else (like a developer, community member, or Support team member) opens a merge request:
   - If the MR contains only documentation changes, the Technical Writer:
     - Reviews the content and offers suggestions.
