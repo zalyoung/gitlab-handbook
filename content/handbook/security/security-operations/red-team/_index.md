@@ -2,8 +2,6 @@
 title: "Red Team"
 ---
 
-# Red Team
-
 GitLab’s internal Red Team conducts security exercises that emulate real-world threats. We do this to help assess and improve the effectiveness of the people, processes, and technologies used to keep our organization secure. We follow the GitLab Values as much as possible to transparently collaborate with teams within Security Division, and the wider company, for the best possible result.
 
 Malicious actors are not constrained by the narrow focus of traditional security testing. We must take on this adversarial mindset in order to challenge our own assumptions and identify areas for improvement across our entire organization. We do this by emulating the real-world tactics, techniques, and procedures (TTPs) of threats that are most relevant to our environment.
@@ -60,7 +58,7 @@ These are short (a few days), more spontaneous attacks against GitLab systems wh
 
 Purple team represents a collaborative exercise between the Red team and Blue team (our defensive teams, usually [SIRT](../sirt/) or [Signals Engineering](../signals-engineering)). These can be:
 
-- flash operations which are short (1-2 weeks) exercises to test our defenses against a tool or technique used by an emerging threat or 
+- flash operations which are short (1-2 weeks) exercises to test our defenses against a tool or technique used by an emerging threat or
 - longer-term collaborations such as [Atomic Testing](purple-teaming/atomic-testing.md).
 
 [Read more...](purple-teaming/)
