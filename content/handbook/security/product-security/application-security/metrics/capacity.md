@@ -105,19 +105,20 @@ This KPI tracks our ability to review security-relevant merge requests by measur
 
 #### How It's Measured
 
-1. **Merge Request Classification Requirements**
+1. __Merge Request Classification Requirements__
    - `AppSecWorkType::VulnFixVerification` must be applied to security fix verification Merge Requests
    - `AppSecWorkType::SecurityMRReview` must be applied to all other security code reviews, including those performed during triage rotation.
 
-2. **Vulnerability Source Tracking**
+2. __Vulnerability Source Tracking__
    - Apply `appsec-kpi::vulnerability-introduced` label to Merge Requests identified as introducing vulnerabilities
 
 #### Calculation Method
 
-```
+```text
 Review Coverage = (Vulnerability-introducing Merge Requests without Application Security review / Total vulnerability-introducing Merge Requests) * 100
 ```
 
 Where:
+
 - Total vulnerability-introducing Merge Requests = Merge Requests labeled with `appsec-kpi::vulnerability-introduced`
 - Merge Requests without Application Security review = `appsec-kpi::vulnerability-introduced` Merge Requests lacking either `AppSecWorkType::SecurityMRReview` or `AppSecWorkType::VulnFixVerification`
