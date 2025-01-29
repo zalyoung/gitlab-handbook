@@ -24,4 +24,4 @@ The CSE organization is a global organization and so are the themes, initiatives
 | CSE Enablement                              |  @jconrad2 + AMER CSE  | @ofalk                  |
 | CSE Escalation process                      |  tbd                   | @ofalk                  |
 | CSE Tools: Calendly                         |  @ofalk                | @afrusciano             |
-| CSE Offerings Cataloogue                    |  @jconrad2             | @afrusciano             |
+| CSE Offerings Catalog                       |  @jconrad2             | @afrusciano             |
