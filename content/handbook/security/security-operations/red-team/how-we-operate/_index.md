@@ -5,7 +5,10 @@ no_list: true
 
 ## General operation guidelines
 
-Security breaches happen. We read about them every day. Most of our operations are not meant to prove this risk, as it is a well-accepted industry fact.
+We aim to safely and effectively conduct operations in order to emulate relevant adversaries to GitLab.
+
+- Conduct operations ethically and responsibly without causing harm to GitLab or its team members.
+- Maintain a **good trust relationship** with the rest of the Security division and the wider GitLab company.
 
 ### 1. Initial access vector or assumed breach
 
@@ -29,11 +32,19 @@ A given operation will continue until we are detected or until we disclose inter
 
 After each operation, we meet with [Signals Engineering](../../signals-engineering/) and [Security Incident Response Team (SIRT)](../../sirt/) review our findings, attack steps and review detections and alerts.
 
-If social engineering is involved, we follow a careful process to offer to meet with anyone who was involved in social engineering to ensure that they feel comfortable.
+#### Social resolution
+
+Sometimes our operations involve attacking infrastructure set up by a certain team or compromising a system due to misconfiguration set up by a team member.
+In any retrospective, we **always** aim to focus on improvements rather than assign blame.
+
+If social engineering is involved, we must be careful to ensure that the individuals involved in the exercise feel well supported and not blamed.
+We offer meet with anyone who was involved in social engineering to and thank them for being a part of our operation.
+
+We **never** want anyone to feel like they did something wrong, since our operations test **processes**, not individuals.
 
 ### 4. Report and recommendations for security improvements
 
-We then release a [report](#reporting) summarising the operation and our recommendations for improving security posture. We create issues using the [issue template](https://gitlab.com/gitlab-com/gl-security/security-operations/redteam/redteam-public/resources/red-team-issue-templates), apply the relevant labels, and use this for tracking [metrics](#red-team-metrics).
+We then release a [report](#reporting) summarising the operation and our recommendations for improving security posture. We create issues using the [issue template](https://gitlab.com/gitlab-com/gl-security/security-operations/redteam/redteam-public/resources/red-team-issue-templates), apply the relevant labels, and use this for tracking [metrics](#red-team-metrics). We then hand all our tools and techniques to the Blue Team so they can create relevant detections.
 
 ### Reporting
 
@@ -43,7 +54,7 @@ Security risks affect everyone, and it is essential to make our reports approach
 
 There may also be a short (five minutes or less) video summary, if we feel it's needed.
 
-We will then share the following in `#whats-happening-at-gitlab` and cross-post it in `#security`:
+For stealth operations, or higher-visibility operations, it's beneficial to share the story with the entire company. In that case, we post the following the Slack channel `#whats-happening-at-gitlab` and cross-post it in `#security`:
 
 - A very short summary of the operation, including the video overview if there is one
 - A link to the final report
@@ -117,13 +128,13 @@ We have private Slack channels in place where designated team members can ask th
 
 Managers at GitLab can also [submit a "Red Team Disclosure Request"](https://gitlab.com/gitlab-com/gl-security/security-operations/redteam/redteam-internal/red-team-operations/-/issues/new?issuable_template=request-for-disclosure) at any time. If the request contains evidence related to an ongoing Red Team operation, we will discuss next steps in the Slack channels mentioned above.
 
-You can read more about this process in the ["Requests for Disclosure" section](how-we-operate/rules-of-engagement#requests-for-disclosure) of our rules of engagement.
+You can read more about this process in the ["Requests for Disclosure" section](rules-of-engagement#requests-for-disclosure) of our rules of engagement.
 
 ### How the Red Team will respond to this question
 
 If the Red Team is ever asked _"Is this you?"_ by someone other than the designated team members mentioned above, they will respond with the following text:
 
-> Thanks for your vigilance! Any suspicious activity should be treated as potentially malicious. If you'd like to contact security, you can follow the process [here](../sirt/engaging-security-on-call).
+> Thanks for your vigilance! Any suspicious activity should be treated as potentially malicious. If you'd like to contact security, you can follow the process [here](../../sirt/engaging-security-on-call).
 >
 > Red Team operations provide an opportunity to practice detecting and responding to real-world attacks, and revealing an operation early might mean we miss out on that opportunity. Because of this, we have a policy to neither confirm nor deny whether an activity belongs to us. You can read more about this policy here: [{{< ref ".#is-this-the-red-team" >}}]({{< ref ".#is-this-the-red-team" >}}).
 

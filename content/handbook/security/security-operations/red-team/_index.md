@@ -43,7 +43,9 @@ Further details about Red Team roles can be found in the [job family description
 
 ## Services we offer
 
-In everything we do, we follow our [rules of engagement (RoE)](how-we-operate/rules-of-engagement)
+In everything we do, we follow our [rules of engagement (RoE)](how-we-operate/rules-of-engagement).
+
+We do not perform penetration tests (vulnerability enumeration) or product vulnerability research (see [Security Research](../../product-security/security-research/)).
 
 ### Stealth operations
 
@@ -58,7 +60,7 @@ These are short (a few days), more spontaneous attacks against GitLab systems wh
 Purple team represents a collaborative exercise between the Red team and Blue team (our defensive teams, usually [SIRT](../sirt/) or [Signals Engineering](../signals-engineering)). These can be:
 
 - flash operations which are short (1-2 weeks) exercises to test our defenses against a tool or technique used by an emerging threat or
-- longer-term collaborations such as [Atomic Testing](purple-teaming/atomic-testing).
+- longer-term collaborations such as [Atomic Testing](purple-teaming/atomic-testing)
 
 [Read more...](purple-teaming/)
 
