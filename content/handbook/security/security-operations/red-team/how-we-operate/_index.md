@@ -103,4 +103,3 @@ For each completed operation, we build a flow chart to visualize the attack path
 That same ATT&CK Flow file is imported into our ATT&CK Navigator project, which generates a heatmap visualizing our coverage across the ATT&CK matrix. We maintain a single heatmap for each operation, as well as a combined heatmap for all previous operations.
 
 This is s great way to visualize the types of attack techniques we've emulated, and to help us understand areas we should focus on in future operations.
-
