@@ -126,8 +126,8 @@ If account is unblocked, use the [`Support::SaaS::Gitlab.com::Blocked Accounts::
 
 ## Banned accounts
 
-1. Only proceed with the next steps if any of the following scenarios is true:
-    1. The email address the user has used to raise their request matches an email address associated with the account the request is intended for.
+1. Proceed with the next steps **only** if at least one of the following scenarios is true:
+    1. The email address the user has used to raise their request matches an email address associated with the account the request is intended for. This criteria can be applied to both free users and customers.
     1. The user account is classified as an [Enterprise user]({{< ref "gitlab-com_overview.md#enterprise-users" >}}) and an owner of the top-level group raises the ticket.
 1. Complete the `Trust and Safety` [Account Reinstatement Request](https://gitlab.com/gitlab-com/gl-security/security-operations/trust-and-safety/TS_Operations/account-reinstatements/-/issues/new?issuable_template=Account%20Reinstatement) template in the Trust and Safety Operations tracker. A security member of the team will review the request within 24 hours. If the request is urgent, please reach out in the #abuse Slack channel.
 1. Send the [`Support::SaaS::Gitlab.com::Blocked Accounts::Escalated-TrustAndSafety`](https://gitlab.com/gitlab-com/support/zendesk-global/macros/-/blob/master/active/Support/SaaS/GitLab.com/Blocked%20Accounts/Escalated-TrustAndSafety.md?ref_type=heads) macro for the initial response to the user.
