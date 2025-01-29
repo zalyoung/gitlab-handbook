@@ -64,4 +64,3 @@ GitLab is committed to a work environment that is free of harassment, discrimina
 If managers have any questions regarding their role related to the above topics, process or other related questions please schedule time with your people business partner.  Your people business parter is here to help guide you and provide counsel related to all team member related issues.
 
 ### Diversity, Inclusion & Belonging
-
