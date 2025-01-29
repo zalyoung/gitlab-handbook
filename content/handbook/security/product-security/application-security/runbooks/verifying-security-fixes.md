@@ -39,6 +39,7 @@ to spin up a docker image in their local environment.
 For that, Security Engineers need to follow these steps:
 
 1. On the security merge request, click on the `qa` stage and then trigger the `package-and-qa` build.
+   - If the QA Stage docker build is not present, label the MR with `~"pipeline:run-all-e2e"` to initiate the pipeline in the QA stage that will generate the docker image. Be sure to kick off a new pipeline. For more info see [this handbook page](https://docs.gitlab.com/omnibus/build/team_member_docs.html#test-a-gitlab-orggitlab-project-merge-request).
 1. Internally the `package-and-qa` build will trigger a pipeline on the [Omnibus GitLab Mirror] project.
 1. On the [Omnibus GitLab Mirror](https://gitlab.com/gitlab-org/build/omnibus-gitlab-mirror/) pipeline, wait for the `Trigger:gitlab-docker` build to finish.
 1. In the meantime,
