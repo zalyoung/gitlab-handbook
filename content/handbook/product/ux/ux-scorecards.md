@@ -112,7 +112,7 @@ Following each scenario that is evaluated, a set of three questions are asked to
 
 #### Calculating the score
 
-To detemrine the overall score, use the [UX Scorecard Calculations sheet](https://docs.google.com/spreadsheets/d/1wv3OW3hFGGckTUVwOe5HcRGuc-wV2szwtBHoxhx2f0Y/edit?usp=sharing) (internal only).
+To determine the overall score, use the [UX Scorecard Calculations sheet](https://docs.google.com/spreadsheets/d/1wv3OW3hFGGckTUVwOe5HcRGuc-wV2szwtBHoxhx2f0Y/edit?usp=sharing) (internal only).
 
 | Badge | Summary | Description |
 | ------ | ------ | ------ |
