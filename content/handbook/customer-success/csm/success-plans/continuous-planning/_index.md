@@ -32,26 +32,30 @@ __Continuous Planning__ focuses on automating the creation of presentation mater
 
 ## What we recently completed
 
-- Converted Continuous Planning from private to an open-source project so any users organizing work with GitLab epics and issues can create standardization for documenting and presenting work.
+- Implementation of the [Success Plan Viewer](https://success-plan-viewer-c27524.gitlab.io/group) (private), which queries to collect all success plans within the GitLab [account-management](https://gitlab.com/gitlab-com/account-management) subgroup in one area. This allows managers and other team members to quickly find the associated success plan for customers.
+
+- [Improved the efficiency of success plan data collection](https://gitlab.com/groups/gitlab-sales-continuous-planning/-/epics/5), decreasing the pipeline run time by 60%.
+
+- Rolled out Continuous Planning to EMEA CSMs.
+
+- Created a [Continuous Planning Triage](https://gitlab.com/gitlab-com/account-management/continuous-planning-triage) (private) bot that automates the addition of use case labels based on AI-reasoning, provides recommendations for better objective success criteria, and notifies CSM of overdue due dates, no DRI assigned, among other tasks to keep success plans up-to-date and actionable.
 
 ## What we are currently working on
 
 Our [issue board](https://gitlab.com/groups/gitlab-sales-continuous-planning/-/boards) provides detailed insight into everything currently in flight.
 
-- Using a GraphQL query to collect all success plans within the GitLab [account-management](https://gitlab.com/gitlab-com/account-management) subgroup in one area. - This will allow managers and other team members working on an account to find the associated success plan for that customer.
+- Researching how to [automate our release notes](https://gitlab.com/gitlab-sales-continuous-planning/gitlab-profile/-/issues/21) to document updates related to Continuous Planning, including the [SP Viewer](https://success-plan-viewer-c27524.gitlab.io/group) and [Blueprint](https://gitlab.com/gitlab-com/account-management/emea/continuous-planning-and-success-plan-blueprint).
 
-- [Improve the efficiency of success plan data collection](https://gitlab.com/groups/gitlab-sales-continuous-planning/-/epics/5) - This update decreases the pipeline run time by 60%.
+- Creating documentation for what good looks like with an updated example success plan. Including best practices, FAQ, and customer-facing material on the why of success plans.
 
-- [AMER Rollout (Q3)](https://gitlab.com/gitlab-sales-continuous-planning/gitlab-profile/-/issues/9) - All AMER CSMs will move their existing success plans to using Continuous Planning by the end of October.
+- Standardizing how CSMs track customer feature requests in the collaboration project wiki using GLQL.
+
+- Working on integrating success plan data into Gainsight.
 
 ## What's next for us
 
-- [EMEA and APJ Rollout (Q4)](https://gitlab.com/gitlab-sales-continuous-planning/gitlab-profile/-/issues/10) - We'll take our learnings from the AMER rollout and proceed with the rollout to the EMEA and APJ regions.
+- Q1 FY26 OKRs will be made available soon.
 
 ## Future thinking
 
-- We'll iterate on Continuous Planning to have an API layer that runs a GraphQL query, combining the benefits from the two variations of Continuous Planning we're using today and moving forward with a unified standard.
-
 - We want to extend Continuous Plannings usage beyond CSMs to other GitLab business units and customers. For example, Product Managers can use Continuous Planning to update the "What we recently completed" and "What we're currently working on" sections of their group direction page. The PS team can use it to highlight updates to customers.
-
-- Work with the Gainsight admins to import the data collected from success plans into Gainsight.
