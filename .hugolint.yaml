@@ -24,3 +24,6 @@ exclude:
   - pattern: '^/handbook/people-group/people-success-performance-indicators/?#'
   - pattern: '^/handbook/product/ux/performance-indicators/?#'
   - pattern: '^/handbook/support/performance-indicators/?#'
+
+  # hugolint incorrectly flagged a relative URL with `~:text=` as broken when it isn't - https://gitlab.com/gitlab-com/content-sites/handbook-tools/hugolint/-/issues/8
+  - pattern: '^/handbook/engineering/workflow/?#product-development-timeline:~:text=Monday%2C%205%20days%20before%20the%20milestone%20begins%3A'
