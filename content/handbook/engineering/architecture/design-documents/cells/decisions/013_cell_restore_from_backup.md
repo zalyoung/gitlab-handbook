@@ -1,5 +1,5 @@
 ---
-owning-stage: "~devops::data stores" # because Tenant Scale is under this
+owning-stage: "~devops::tenant scale"
 title: 'Cells ADR 013: Use the same Cell ID for restoring a Cell from backup'
 toc_hide: true
 ---
