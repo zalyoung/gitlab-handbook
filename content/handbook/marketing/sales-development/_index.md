@@ -349,7 +349,7 @@ In both cases, it’s essential to tag your templates with the appropriate colle
 
 #### New Groove Flow creation
 
-Please follow the instructions on [the Groove handbook page here](/handbook/marketing/marketing-operations/groove/index.html)
+Please follow the instructions on [the Groove handbook page here](/handbook/marketing/marketing-operations/groove/index.html/#bdr-flow-creation-process)
 
 **Implement Measurement Clarity and Decision Velocity**
 
@@ -940,49 +940,74 @@ This complementary table can help structure your thinking around what outbound a
 #### Priority Levels for Actively Working Accounts
 
 **Priority 1: Actively Working Accounts (15%)**
+
 - **Qualities:**
+
   - Strong ICP (Ideal Customer Profile) qualities
   - Compelling triggers
+
 - **Strategy:**
+
   - Tailored and targeted
   - Focused on high-value opportunities
+
 - **Next Steps:**
+
   - Future-based next step dates
   - Specific next step notes included
 
 **Priority 2: Actively Working Accounts (35%)**
+
 - **Qualities:**
+
   - ICP qualities
   - No triggers
+
 - **Strategy:**
+
   - Targeted (persona/industry-based)
+
 - **Next Steps:**
+
   - Future-based next step dates updated weekly/bi-weekly
   - Next step notes should only include the week number
 
 **Priority 3: Actively Working Accounts (50%)**
+
 - **Qualities:**
+
   - ICP qualities
   - No recent triggers
+
 - **Strategy:**
+
   - Nurture-based
+
 - **Next Steps:**
+
   - Future-based next step dates updated monthly
   - Next step notes should include a recent release number or event invite
 
 #### Other Good Account Scoring Qualifiers
 
 - **Current CE (Customer Engagement) Usage**
+
 - **250+ employees** in IT/TEDD positions
+
 - **Good Fit Industries/Verticals:**
+
   - High Growth
   - Technology
   - Financial
   - Healthcare
   - Regulated Business
+
 - **Early Adopters / Innovative IT Shops:**
+
   - Keywords: Kubernetes, Containers, Microservices, Multi-cloud, DevOps, DevSecOps, CICD (including open-source and proprietary tools), SAST/DAST, Digital Transformation
+
 - **Current DevOps Adoption:**
+
   - Multiple DevOps roles on staff
   - Actively hiring for multiple DevOps positions
 
@@ -997,7 +1022,6 @@ This complementary table can help structure your thinking around what outbound a
 ---
 
 This structure makes it easier to read, reference, and use in a professional setting or as part of a shared document in a web IDE.
-
 
 ### Growth Strategies, Ranking and RoE
 
