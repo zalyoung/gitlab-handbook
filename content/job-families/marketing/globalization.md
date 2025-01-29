@@ -109,6 +109,50 @@ The next step in the Localization Content Manager job family is not yet defined 
 - Localization quality; average language quality scores
 - Where necessary, ensure that localization decisions align to performance related outcomes for particular content types
 
+### Staff Fullstack Engineer, Localization
+
+The Staff Fullstack Engineer, Globalization and Localization reports to the Senior Manager, Globalization Technology.
+
+#### Staff Fullstack Engineer, Localization Job Grade
+
+The Staff Fullstack Engineer, Localization is a [grade 8](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades) role.
+
+### Engineering Leadership
+
+- Lead and serve as technical expert for the team's technical domains, providing guidance on web development best practices, architectural decisions, and technical strategy
+- Partner with cross-functional stakeholders to define business needs, navigate priorities, and deliver optimal business outcomes
+- Communicate complex technical and architectural solutions clearly to both technical and non-technical stakeholders
+- Mentor team members on engineering practices, documentation, problem-solving, and stakeholder engagement
+- Drive process improvements and technical initiatives that enhance team efficiency and code quality
+- Drive innovation in localization technologies by evaluating emerging tools, frameworks, and AI solutions 
+
+### Technical Expertise
+
+- Deliver high-quality technical solutions for complex web projects using advanced knowledge of globalization technologies
+- Identify and implement architectural improvements that address performance, security, internationalization (i18n) and scalability
+- Decompose complex requirements into actionable deliverables while maintaining flexibility to pivot based on feedback
+- Champion and implement solutions for technical debt reduction, security improvements, and system optimization
+- Guide the team in maintaining high standards for localizability, code quality, testing, and documentation
+- Diagnose and resolve complex performance issues, particularly in B2B/enterprise contexts
+- Design and implement AI-powered translation capabilities that enhance human translation workflows
+- Architect and integrate automated localization solutions, ensuring seamless delivery of internationalized content across platforms
+
+### Development and Collaboration
+
+- Drive results from unclear requirements through iterative development and stakeholder alignment
+- Actively participate in architectural design processes and technical planning
+- Build and maintain effective partnerships across Engineering, Marketing, Product, and leadership teams
+- Champion a culture of continuous improvement and knowledge sharing
+
+### Requirements
+
+- 10+ years in Fullstack engineering, with 5+ years in B2B/enterprise software marketing
+- Demonstrated experience leading cross-functional technical initiatives
+- Strong track record of mentoring and coaching team members
+- Proven ability to work effectively in agile, iterative development environments
+- Experience representing technical domains to diverse stakeholders
+- Deep understanding of globalization technologies and optimization techniques
+
 ### Senior Fullstack Engineer, Localization
 
 The Senior Fullstack Engineer, Globalization and Localization reports to the Senior Manager, Globalization Technology.
