@@ -16,13 +16,13 @@ The Data Architect is a grade 6 and reports to the Director, Data Platform.
 
 - Design and document data architectures across enterprise systems including Snowflake, dbt, Airflow, and various data sources
 - Architect data pipeline patterns for different source systems (using technology like Stitch, Fivetran, custom Python pipelines, Snowpipe)
-- Create and maintain data flow architectures between source systems, the data platform and downsteram systems
+- Create and maintain data flow architectures between source systems, the data platform and downstream systems
 - Define architectural standards for data extraction patterns (full refresh, incremental loads)
 - Design schema structures and warehouse organization following GitLab's multi-layer approach 
 - Work with Data Engineers on implementing efficient ELT patterns
 - Support the development of data quality frameworks and testing strategies
 - Contribute to data warehouse compute resource optimization
-- Collaborate with Business Systems Owners and various other bueinss partners to translate requirements into data architecture solutions
+- Collaborate with Business Systems Owners and various other business partners to translate requirements into data architecture solutions
 - Advise on data governance implementation from an architectural perspective
 - Design and document security patterns for data access and masking
 - Create and maintain architecture documentation in GitLab
