@@ -1,4 +1,4 @@
-#! /bin/bash
+#!/bin/bash
 
 # Define colors and styles
 normal="\033[0m"
