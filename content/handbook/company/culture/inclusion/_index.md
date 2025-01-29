@@ -136,8 +136,6 @@ Please see our [identity data](/handbook/company/culture/inclusion/identity-data
 
 ## What we are doing with Diversity, Inclusion & Belonging
 
-This page outlines the process of [DIB Roundtables](dib-roundtables.md). These can be self-organized or organized by the DIB Team.
-
 ### Talent Acquisition initiatives
 
 [This page provides an overview of our Diversity, Inclusion & Belonging Talent Acquisition initiatives](talent-acquisition-initiatives/).
