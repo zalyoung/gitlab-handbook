@@ -11,7 +11,7 @@ Malicious actors are not constrained by the narrow focus of traditional security
 - "**Is this the red team?**" Did you find something potentially malicious and you think it might be us? :point_right: [Is this the Red Team?](#is-this-the-red-team)
 - "**I have some attacker related ideas that could be quite interesting!**" :point_right: [Contact us](#contact-us)
 - "**Do you do penetration testing?**" :point_right: No. :smile: We don't do vulnerability enumeration. See [Services we offer](#services-we-offer)
-- "**I want to upskill in Red Teaming**" :point_right: See [resources](#additional-resourcesfurther-reading), [Club Red](opportunistic-attacks.md#club-red)
+- "**I want to upskill in Red Teaming**" :point_right: See [resources](#additional-resourcesfurther-reading), [Club Red](opportunistic-attacks#club-red)
 - "**Can you hack me?**" :point_right: GitLab team members can sign up to our [laptop opt-in programme](https://forms.gle/kMTJEjzktcjAbTVn9)
 - "**Can you help us with an incident?** Does this look like hacker stuff in these logs?" :point_right: [Contact us](#contact-us)
 - "**Can you help find bugs in GitLab the product?**" :point_right: You're better off asking [Security Research](../../product-security/security-research/)
@@ -48,7 +48,7 @@ In everything we do, we follow our [rules of engagement (RoE)](red-team-roe/)
 
 ### Stealth operations
 
-Our primary service. Stealth operations are typically 3-9 months in length and are focused on emulation of relevant threats to GitLab. We work closely with the Threat Intelligence team to identify an adversary that might pose a security risk to GitLab. Using tools we've developed similar to those of the adversary, we carry out the attack on GitLab's systems. We use stealth, testing the defenses realistically and without introducing unnecessary risk. [Read more...](stealth-operations.md)
+Our primary service. Stealth operations are typically 3-9 months in length and are focused on emulation of relevant threats to GitLab. We work closely with the Threat Intelligence team to identify an adversary that might pose a security risk to GitLab. Using tools we've developed similar to those of the adversary, we carry out the attack on GitLab's systems. We use stealth, testing the defenses realistically and without introducing unnecessary risk. [Read more...](stealth-operations)
 
 ### Opportunistic attacks
 
@@ -59,7 +59,7 @@ These are short (a few days), more spontaneous attacks against GitLab systems wh
 Purple team represents a collaborative exercise between the Red team and Blue team (our defensive teams, usually [SIRT](../sirt/) or [Signals Engineering](../signals-engineering)). These can be:
 
 - flash operations which are short (1-2 weeks) exercises to test our defenses against a tool or technique used by an emerging threat or
-- longer-term collaborations such as [Atomic Testing](purple-teaming/atomic-testing.md).
+- longer-term collaborations such as [Atomic Testing](purple-teaming/atomic-testing).
 
 [Read more...](purple-teaming/)
 
@@ -75,11 +75,11 @@ We research upcoming technological trends and tools so we are familiar with them
 
 Formalized operations and opportunistic attacks both require extensive research, and we factor that in when planning these activities. Outside of that context, the Red Team may conduct research with an intent to provide helpful information to others in the security industry and the wider GitLab community. This includes blogs, vulnerability disclosures, conference talks, tech notes, and so on. Explore our [public repository of some past research](https://gitlab.com/gitlab-com/gl-security/security-operations/redteam/redteam-public/). _(also blogs?)_
 
-[Read more...](research.md)
+[Read more...](research)
 
 ## How We Operate
 
-The Red Team operates under a predefined set of [rules of engagement](how-we-operate/rules-of-engagement.md). These rules provide guidelines for determining scope, the ethics we employ during our engagements, how we collaborate as a security team, and how we escalate vulnerabilities and exploits we discover during those engagements.
+The Red Team operates under a predefined set of [rules of engagement](how-we-operate/rules-of-engagement). These rules provide guidelines for determining scope, the ethics we employ during our engagements, how we collaborate as a security team, and how we escalate vulnerabilities and exploits we discover during those engagements.
 
 We also track results via metrics which are available internally, including MITRE heatmap to ensure coverage of relevant attacker activity.
 
@@ -104,7 +104,7 @@ We have private Slack channels in place where designated team members can ask th
 
 Managers at GitLab can also [submit a "Red Team Disclosure Request"](https://gitlab.com/gitlab-com/gl-security/security-operations/redteam/redteam-internal/red-team-operations/-/issues/new?issuable_template=request-for-disclosure) at any time. If the request contains evidence related to an ongoing Red Team operation, we will discuss next steps in the Slack channels mentioned above.
 
-You can read more about this process in the ["Requests for Disclosure" section]({{< ref "red-team-roe#requests-for-disclosure" >}}) of our rules of engagement.
+You can read more about this process in the ["Requests for Disclosure" section](how-we-operate/rules-of-engagement#requests-for-disclosure") of our rules of engagement.
 
 ### How the Red Team will respond to this question
 
