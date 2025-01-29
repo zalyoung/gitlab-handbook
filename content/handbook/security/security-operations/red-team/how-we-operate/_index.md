@@ -98,7 +98,7 @@ An outcome label is added to the issue within one week of delivering the recomme
 
 ### MITRE ATT&CK Mapping
 
-[MITRE ATT&CK](https://attack.mitre.org) is a framework for classifying and describing cyber attacks. We use ATT&CK extensively, as it helps us to align our operations to realistic threats and to speak a common language across security groups.
+[MITRE ATT&CK](https://attack.mitre.org) is a framework for classifying and describing cyber attacks. We use ATT&CK extensively, because it helps us to align our operations to realistic threats and to speak a common language across security groups.
 
 We use a combination of GitLab CI pipelines and GitLab Pages to build and host two reporting tools from MITRE:
 

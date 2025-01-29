@@ -3,9 +3,9 @@ title: "Red Team"
 no_list: true
 ---
 
-GitLab’s internal Red Team conducts security exercises that emulate real-world threats. We do this to help assess and improve the effectiveness of the people, processes, and technologies used to keep our organization secure. We follow the GitLab Values as much as possible to transparently collaborate with teams within Security Division, and the wider company, for the best possible result.
+GitLab’s internal Red Team conducts security exercises that emulate real-world threats. We do this to help assess and improve the effectiveness of the people, processes, and technologies used to keep our organization secure. We follow the GitLab Values as much as possible to transparently collaborate with teams within GitLab for the best possible result.
 
-Malicious actors are not constrained by the narrow focus of traditional security testing. We must take on this adversarial mindset in order to challenge our own assumptions and identify areas for improvement across our entire organization. We do this by emulating the real-world tactics, techniques, and procedures (TTPs) of threats that are most relevant to our environment.
+Because malicious actors are not constrained by the narrow focus of traditional security testing, we must take on an adversarial mindset in order to challenge our own assumptions and identify areas for improvement across our entire organization. We emulate the real-world tactics, techniques, and procedures (TTPs) of threats that are most relevant to our environment.
 
 ## What are you looking for? (GitLab team members)
 
