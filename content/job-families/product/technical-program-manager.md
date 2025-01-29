@@ -194,7 +194,7 @@ Additional details about our process can be found on our hiring page.
 
 ##### Escalation Specialist Framework
 
-The projects that the Escalation Specialist handles are called “Platform Escalations”. In short, **a Platform Escalation is a broadly impactful product issue or event that is time sensitive and involves several GitLab departments.** This is not intended to convey full-time coverage but rather to provide additional support when possible. The insights from TPM involvement in a Platform Escalation will be used to inform future process improvements.
+The projects that the Escalation Specialist handles are called “Platform Escalations”. In short, **a Platform Escalation is a broadly impactful product issue or event that is time sensitive and involves several GitLab departments.** The Escalations TPM provides support during working hours and is not an on-call role. Projects will be accepted or declined based on the TPM's capacity and coverage is not guaranteed. The insights from TPM involvement in a Platform Escalation will be used to inform future process improvements.
 
 **Criteria for becoming a Platform Escalation and getting TPM coverage:**
 
