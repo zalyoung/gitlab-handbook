@@ -17,7 +17,7 @@ Additional key benefits of the Assessment Program include:
 
 ## Overview
 
-We use Workday to complete our Talent Assessment. You can review an overview of Workday Talent [here](https://docs.google.com/presentation/d/1CYNNtYWvbDyDu_WndCQ47uvTbZYhNKt5PJLnrwZ_3ek/edit?usp=sharing). Please reach out to your [People Business Partner](/handbook/people-group#people-business-partner-alignment-to-division) if you have any questions.
+We use Workday to complete our Talent Assessment. You can review an overview of Workday Talent [here](https://docs.google.com/presentation/d/1CYNNtYWvbDyDu_WndCQ47uvTbZYhNKt5PJLnrwZ_3ek/edit?usp=sharing). Please reach out to your [People Business Partner](/handbook/people-group/people-business-partners/#people-business-partner-alignments) if you have any questions.
 You can also review the following [guide](https://docs.google.com/document/d/1bdGDq85nY3uLRFLrmKV5RDyQpGkPmnvGAI1pN_RRNto/edit) which mirrors what is included in the Workday Talent Assessment template to prepare you prior to the tool being launched.
 
 There are many talent assessment options, and we have opted to use a Performance/Growth Potential Matrix (commonly known as "9-Box" in the US) and annually review Key Talent.
@@ -300,7 +300,7 @@ The calibration session is one of the most important pieces of the Performance/G
 
 It is likely not necessary to discuss each team member in detail, particularly for larger groups. Calibration sessions typically focus on gaps, outliers and areas that might require additional management attention and/or alignment.
 
-As a best practice, we should calibrate outliers. "Outliers" are typically considered to [Box 1 ("Exceeding Growth Potential" and "Exceeding Performance") and Box 9 ("Developing Growth Potential" and "Developing Performance")](/handbook/people-group/talent-assessment). [People Business Partners](/handbook/people-group#people-business-partner-alignment-to-division) and business leaders have discretion to expand this threshold as needed, but live calibration for team members in Box 1 and Box 9 should be the baseline across the board.
+As a best practice, we should calibrate outliers. "Outliers" are typically considered to [Box 1 ("Exceeding Growth Potential" and "Exceeding Performance") and Box 9 ("Developing Growth Potential" and "Developing Performance")](/handbook/people-group/talent-assessment). [People Business Partners](/handbook/people-group/people-business-partners/#people-business-partner-alignments) and business leaders have discretion to expand this threshold as needed, but live calibration for team members in Box 1 and Box 9 should be the baseline across the board.
 
 A few additional reasons to consider calibrating beyond Box 1 and Box 9 are:
 
