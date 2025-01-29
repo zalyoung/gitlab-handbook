@@ -570,8 +570,9 @@
 /content/handbook/security/product-security/infrastructure-security/ @jacobjernigan
 /content/handbook/security/product-security/data-security/ @jacobjernigan @boconnor @jcamgl
 /content/handbook/security/product-security/application-security/ @juliedavila
-/content/handbook/security/product-security/security-architecture/ @plafoucriere
-/content/handbook/security/product-security/security-research/ @estrike
+/content/handbook/security/product-security/security-architecture/ @plafoucriere @jdicken
+/content/handbook/security/product-security/security-research/ @estrike @jdicken
+/content/handbook/security/product-security/product-security-engineering/ @jdicken 
 /content/handbook/security/security-assurance/ @tdilbeck @corey-oas @jlongo_gitlab @cynthiamiller
 /content/handbook/security/security-operations/ @mcoons @cmoberly @rdickson1 @nslaughter @mjozenazemian
 /content/handbook/security/security-operations/security-logging/ @mcoons
