@@ -85,7 +85,7 @@ If appropriate, consider inviting your child or children into meetings, or let t
 
 ## Q: What are some tips for balancing parenting and work as a remote employee?
 
-Parents bring a great deal of wisdom and experience to the workforce and contribute to a [diverse and inclusive culture]({{< ref "building-diversity-and-inclusion" >}}). No one should feel pressured to apologize for being a parent or [caregiver](people/#caretakers). Instead, embrace the multiple roles you embody and take a few pointers from some of GitLab's employees who are both remote workers and parents/caregivers.
+Parents bring a great deal of wisdom and experience to the workforce and contribute to a diverse and inclusive culture. No one should feel pressured to apologize for being a parent or [caregiver](people/#caretakers). Instead, embrace the multiple roles you embody and take a few pointers from some of GitLab's employees who are both remote workers and parents/caregivers.
 
 ### Create and reinforce supportive values
 
