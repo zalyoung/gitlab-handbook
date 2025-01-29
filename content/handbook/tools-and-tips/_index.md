@@ -14,18 +14,18 @@ This page contains useful tips for working at GitLab and for various tools we us
 ## GitLab tips
 
 ### Change your username at GitLab.com
-<!-- markdownlint-disable MD051 -->
+
 - Starting point: let's say your username is `old-mary` and you want it to be just `mary`.
 - **Note:** each GitLab account is tracked by an **userID**, which is a number stored in a database.
 If we change the username, the userID does not change.
 And all the permissions, issues, MRs, and relevant stuff within GitLab are related to your **userID**, not with your username.
 - **Note:** if you are not a GitLab Team member, the same process applies except your e-mail ([STEP 2](#change-username-step-2)), which will be different (will not be @gitlab.com email), so you can replace it with your own email account.
-<!-- markdownlint-enable MD051 -->
+
 #### STEP 1: Request your new username
 
 - As of this [Merge Request](https://gitlab.com/gitlab-com/support/support-team-meta/-/issues/5170), it is no longer possible to request a username via the [Namesquatting process](/handbook/support/workflows/namesquatting_policy). If the username you wish to use is unavailable, you will have to pick a different one.
 
-#### STEP 2: Create a new account with your new username{#change-username-step-2}
+#### STEP 2: Create a new account with your new username {#change-username-step-2}
 
 - If support replies to you telling that the username is free to use, create a new GitLab.com account with it.
 Use a personal email to register your new account and choose one that has not been used with your old GitLab account.
@@ -63,13 +63,17 @@ This won't affect Pages projects that use custom domains, as they all point to t
 Your groups won't be affected either, as they operate under their own namespace.
 Add both users as members of your groups and nothing changes.
 
-That's it! Don't forget to update your username in the following places:
+That's it!
+
+#### STEP 5: Update your username in other places
+
+Don't forget to update your username in the following places:
 
 - [team page](https://gitlab.com/gitlab-com/www-gitlab-com/blob/master/data/team.yml)
-- [Marketing Handbook](https://gitlab.com/gitlab-com/www-gitlab-com/blob/master/source/handbook/marketing/index.html.md), in case you're a Marketing Team member.
+- If you're part of Marketing, [Marketing Handbook](https://gitlab.com/gitlab-com/www-gitlab-com/blob/master/source/handbook/marketing/index.html.md)
 - Workday - GitLab Username under 'Additional Data' > 'View all' in your profile actions
 
-#### STEP 5: Set up your notifications
+#### STEP 6: Set up your notifications
 
 Team members choose to manage their GitLab activities in different ways. Setup your notifications in a way that works best for you.
 
