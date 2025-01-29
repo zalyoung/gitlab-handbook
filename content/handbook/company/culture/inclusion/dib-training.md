@@ -25,8 +25,6 @@ If you are internal to GitLab, please leverage [GitLab Learn here](https://gitla
 
 <i class="fa-brands fa-youtube"></i> [How DIB started at GitLab and where we are today; Our Journey in DIB {{< external >}}](https://youtu.be/uqe36qKwvUk)
 
-<i class="fa-solid fa-book"></i> [DIB Summary of Events - High Level Timeline]({{< ref "diversity-and-inclusion-events" >}})
-
 <i class="fa-brands fa-youtube"></i> [TMRG - GitLab Pride {{< external >}}](https://youtu.be/wFO2tpzpVno)
 
 <i class="fa-brands fa-youtube"></i> [TMRG - MIT - Minorities in Tech {{< external >}}](https://youtu.be/pv3TMP5AfRY)
