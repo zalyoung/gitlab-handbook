@@ -47,9 +47,6 @@ flowchart LR
     I[Infrastructure]
     click I "/handbook/engineering/infrastructure/"
 
-    I --> TPM[Technical Program Management]
-    click TPM "/handbook/engineering/infrastructure/technical-program-management/"
-
     I --> EP[Engineering Productivity]
     click EP "/handbook/engineering/infrastructure/engineering-productivity/"
     I --> C[Core Platform]
