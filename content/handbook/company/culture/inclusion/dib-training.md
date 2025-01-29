@@ -43,8 +43,6 @@ If you are internal to GitLab, please leverage [GitLab Learn here](https://gitla
 
 <i class="fa-brands fa-youtube"></i> [DIB Advisory Board {{< external >}}](https://youtu.be/8ohfv0iyGEg)
 
-<i class="fa-solid fa-book"></i> [DIB Advisory Board Guidelines]({{< ref "influencer-group-guide" >}})
-
 ## Module 3 - The Culture of DIB at GitLab - We ALL Contribute
 
 <i class="fa-brands fa-youtube"></i> [Module 3 - The Culture of DIB at GitLab - We ALL Contribute {{< external >}}](https://youtu.be/asrNQly1mTo)
@@ -55,13 +53,9 @@ If you are internal to GitLab, please leverage [GitLab Learn here](https://gitla
 
 <i class="fa-brands fa-youtube"></i> [All Remote and DIB {{< external >}}](https://youtu.be/n2CS4XQtaFE)
 
-<i class="fa-solid fa-book"></i> [Building and Inclusive Remote Culture]({{< ref "building-diversity-and-inclusion" >}})
-
 <i class="fa-brands fa-youtube"></i> [PBPs (People Business Partners) and DIB - The Work Being Done to Support the Business {{< external >}}](https://youtu.be/nZ8K-XjgdO0)
 
 <i class="fa-solid fa-book"></i> [DIB Engineering Initiatives]({{< ref "engineering-initiatives" >}})
-
-<i class="fa-solid fa-book"></i> [DIB Sales Initiatives]({{< ref "women-in-sales-mentorship-pilot-program" >}})
 
 <i class="fa-brands fa-youtube"></i> [L&D and DIB Collaboration {{< external >}}](https://youtu.be/TMZdNAEh_9E)
 

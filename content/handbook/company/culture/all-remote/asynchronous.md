@@ -58,7 +58,7 @@ One of the biggest benefits of asynchronous work is that it completely [removes 
 
 Business happens around the clock, in all time zones, in perpetuity. Attempting to shoehorn communications into a single time zone's predefined set of hours is [dysfunctional]({{< ref "#five-dysfunctions" >}}).
 
-As a 100% remote company with team members in more than 65 countries, [working asynchronously]({{< ref "#bias-towards-asynchronous-communication" >}}) removes time zone barriers and is another way GitLab is a more globally [inclusive]({{< ref "building-diversity-and-inclusion" >}}) organization.
+As a 100% remote company with team members in more than 65 countries, [working asynchronously]({{< ref "#bias-towards-asynchronous-communication" >}}) removes time zone barriers and is another way GitLab is a more globally inclusive organization.
 
 ### 4. Asynchronous work alleviates stress and supports mental health
 
@@ -289,7 +289,7 @@ Thus, it's important to leverage Slack statuses to broadcast information on your
 
 While GitLab's approach to [self-service and self-learning](self-service/) is reinforced during onboarding, continual reinforcement may be necessary. It is acceptable to ask someone if they are exercising a bias towards asynchronous communication, regardless of their position on the org chart.
 
-Just as we would hope that all GitLab team members would be quick to ask if something is [inclusive]({{< ref "building-diversity-and-inclusion" >}}), it's important to remember that asynchronous communications *is* [another way]({{< ref "#bias-towards-asynchronous-communication" >}}) for GitLab to be more inclusive.
+Just as we would hope that all GitLab team members would be quick to ask if something is inclusive, it's important to remember that asynchronous communications *is* [another way]({{< ref "#bias-towards-asynchronous-communication" >}}) for GitLab to be more inclusive.
 
 There is [as much to unlearn as there is to learn]({{< ref "candidate-faq" >}}).
 
