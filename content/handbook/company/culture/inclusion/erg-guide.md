@@ -438,7 +438,7 @@ You can use this template which is fairly manual or choose your own methods.
 
 ### What to do if you're asked to provide your opinion on behalf of GitLab
 
-There may be times that you are asked to comment on the state of DIB at GitLab or your TMRG. When or if that happens, please refer to the [SAFE Framework](https://handbook.gitlab.com/handbook/legal/safe-framework/)
+There may be times that you are asked to comment on the state of DIB at GitLab or your TMRG. When or if that happens, please refer to the [SAFE Framework](/handbook/legal/safe-framework/)
 
 ### TMRG Success measurement (Capturing Data)
 
