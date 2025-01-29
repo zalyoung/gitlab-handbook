@@ -287,6 +287,5 @@ We encourage everyone to have an ongoing conversation about career growth with t
 - [Visas]({{< ref "visas" >}})
 - [Leadership handbook]({{< ref "leadership" >}})
 - [People Group READMEs](/handbook/people-group/readmes)
-- [Women in Sales Mentorship Pilot Program]({{< ref "women-in-sales-mentorship-pilot-program" >}})
 - [People Key Performance Indicators]({{< ref "people-success-performance-indicators#key-performance-indicators" >}})
 - [People Performance Indicators]({{< ref "people-success-performance-indicators#regular-performance-indicators" >}})

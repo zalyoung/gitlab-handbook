@@ -8,37 +8,17 @@ The GitLab Talent Acquisition team partners closely with our [Diversity, Inclusi
 
 ## Talent Brand Initiatives
 
-### Spotlighting GitLab team members
-
-Our goal is to tell the story of what it's like to work at GitLab through our people. We'll do this through blogs, videos, social media, and other platforms.
-By sharing these stories, we're able to highlight the diversity of our team in an authentic way.
-
-- Blog posts from team members
-- Recorded videos and panels
-  - [What Diversity, Inclusion and Belonging means to the Sales team](https://www.youtube.com/watch?v=paPXSdfl_To&feature=youtu.be)
-  - [Get to know the Support team at GitLab](https://youtu.be/fLTs1oiKabI)
-  - [Women at GitLab fireside chat](https://youtu.be/qS0kebPUhTo) from Virtual Contribute 2020
-  - [Tips for working remotely + parenting](https://youtu.be/TYdPXSYpBcg)
-
-### Employer and Diversity, Inclusion & Belonging awards
+### Employer Awards
 
 One of the ways we raise awareness about life at GitLab is by applying for employer awards. These award programs are typically run by third-party organizations or media outlets.
-A number of the awards we've applied for (or will apply for in the future) are specifically focused on recognizing companies that are diverse and inclusive employers.
 
 - [Awards we've won](/handbook/people-group/employment-branding#employer-awards-and-recognition)
-
-### Initiatives we're exploring
-
-- Strategic partnerships with gender diversity platforms
-- Recorded podcasts
-- Virtual events: Culture Open House
-- Updating the look and feel across digital channels to ensure the diversity of our team is reflected
 
 ## Hiring Initiatives
 
 ### Inclusive interviewing
 
-We are building an inclusive workforce to support every demographic. One major component is ensuring our hiring team is fully equipped with the skills necessary to connect with candidates from every background. We strive to have a hiring team that is well-versed in every aspect of diversity, inclusion and cultural competence. We are helping the unconscious become conscious. Our number one priority is a comfortable and positive candidate experience. Our interviewing guide describes [how you can request an adjustment to your interview process](/handbook/hiring/interviewing#adjustments-to-our-interview-process).
+We are building an inclusive workforce to support every demographic. One major component is ensuring our hiring team is fully equipped with the skills necessary to connect with candidates from every background. We strive to have a hiring team that is well-versed in every aspect of diversity, inclusion and cultural competence. We are helping the unconscious become conscious. Our number one priority is a comfortable and positive candidate experience. Our interviewing guide describes how you can request an adjustment to your interview process.
 
 - To aid in our inclusive hiring practices, we've implemented [Greenhouse Inclusion](/handbook/hiring/greenhouse#greenhouse-inclusion).
 

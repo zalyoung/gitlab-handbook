@@ -27,7 +27,7 @@ Learn more about emotional intelligence by watching this session titled Being Hu
 
 EQ is a major factor in developing and maintaining [cultural awareness](/handbook/company/culture/all-remote/building-culture/). By fostering emotional intelligence, you are able to promote understanding, respect, and good relationships across all teams, regardless of their locations.
 
-It is a tool that is helping GitLab build an [inclusive environment for everyone](/handbook/company/culture/inclusion/building-diversity-and-inclusion/). By understanding that others might have different responses and customs based on their upbringing, you can develop social and emotional intelligence.
+It is a tool that is helping GitLab build an inclusive environment for everyone By understanding that others might have different responses and customs based on their upbringing, you can develop social and emotional intelligence.
 
 ## Components of EQ
 
