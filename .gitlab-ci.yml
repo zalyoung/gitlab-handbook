@@ -128,6 +128,29 @@ variables:
 
 ###################################
 #
+# JOB TEMPLATES
+#
+###################################
+
+.glab_job:
+  image:
+    name: gitlab/glab
+    entrypoint: [""]
+  before_script:
+    - apk update
+    - apk upgrade
+    - apk add bash git jq sed
+
+.linting_notification_job:
+  extends: .glab_job
+  needs: ["markdownlint", "handbooklint", "vale", "hugolint"]
+  stage: notify
+  rules:
+  - <<: *merge-request-or-tag
+
+
+###################################
+#
 # INTERRUPTION PROTECTION
 #
 ###################################
@@ -162,7 +185,7 @@ build:
     - apk add go npm yq curl coreutils sed
     - echo -e "\e[0Ksection_end:`date +%s`:group3\r\e[0K"
     - echo -e "\e[0Ksection_start:`date +%s`:group4\r\e[0KGroup 4"
-    - ./scripts/sync-data.sh
+    - scripts/sync-data.sh
     - echo -e "\e[0Ksection_end:`date +%s`:group4\r\e[0K"
     - echo -e "\e[0Ksection_start:`date +%s`:group5\r\e[0KGroup 5"
     - npm ci --cache $NPM_CACHE
@@ -241,9 +264,9 @@ markdownlint:
     FORCE_COLOR: 1
   before_script:
     - npm install chalk terminal-link
+    - apk add git bash
   script:
-    - apk add git
-    - sh ./scripts/markdownlint.sh
+    - scripts/markdownlint.sh
   rules:
     - <<: *merge-request-or-tag
     - <<: *is-fork
@@ -263,9 +286,10 @@ vale:
       user: root
   stage: build
   needs: []
+  before_script:
+    - apk add git bash
   script:
-    - apk add git
-    - sh ./scripts/vale.sh
+    - scripts/vale.sh
   rules:
     - <<: *merge-request-or-tag
     - <<: *is-fork
@@ -278,17 +302,11 @@ vale:
       codequality: vale-codequality.json
 
 handbooklint:
-  image:
-    name: gitlab/glab
-    entrypoint: [""]
+  extends: .glab_job
   stage: build
   needs: []
-  before_script:
-    - apk update
-    - apk upgrade
-    - apk add jq sed bash
   script:
-    - bash ./scripts/handbook-lint.sh
+    - scripts/handbook-lint.sh
   rules:
     - <<: *merge-request-or-tag
     - <<: *is-fork
@@ -301,14 +319,10 @@ handbooklint:
       codequality: handbook-codequality.json
 
 check_path_change:
+  extends: .glab_job
   stage: build
-  image:
-    name: gitlab/glab
-    entrypoint: [""]
-  before_script:
-    - apk add git bash jq
   script:
-    - bash ./scripts/check-path-change.sh
+    - scripts/check-path-change.sh
   rules:
     - if: $CI_MERGE_REQUEST_LABELS =~ /skip-path-check/
       when: never
@@ -365,38 +379,22 @@ secret_detection:
 ####################################
 
 post_comment_on_failure:
-  needs: ["markdownlint", "handbooklint", "vale", "hugolint"]
+  extends: .linting_notification_job
   when: on_failure
-  stage: notify
-  image:
-    name: gitlab/glab
-    entrypoint: [""]
-  before_script:
-    - apk add jq sed bash
   script:
-    - bash ./scripts/parse-codequality-report.sh -r ./codequality.json > msg.txt
-    - bash ./scripts/post-comment.sh "$(cat msg.txt)"
-  rules:
-  - <<: *merge-request-or-tag
+    - scripts/parse-codequality-report.sh -r ./codequality.json > msg.txt
+    - scripts/post-comment.sh "$(cat msg.txt)"
 
 resolve_comment_on_success:
-  needs: ["markdownlint", "handbooklint", "vale", "hugolint"]
+  extends: .linting_notification_job
   when: on_success
-  stage: notify
-  image:
-    name: gitlab/glab
-    entrypoint: [""]
-  before_script:
-    - apk add jq sed bash
   script:
-    - bash ./scripts/resolve-comment.sh
-  rules:
-  - <<: *merge-request-or-tag
+    - scripts/resolve-comment.sh
 
 notify_slack_on_build_failures:
   when: on_failure
   stage: notify
-  script: ./scripts/send-failure-notification-to-slack.sh
+  script: scripts/send-failure-notification-to-slack.sh
   rules:
   - <<: *is-fork
     when: never
@@ -412,6 +410,6 @@ update_counts:
   stage: maintenance
   before_script:
     - apk add git
-  script: ./scripts/update-counts.sh
+  script: scripts/update-counts.sh
   rules:
   - <<: *scheduled-update
