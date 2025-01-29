@@ -7,44 +7,44 @@ no_list: true
 
 We aim to safely and effectively conduct operations in order to emulate relevant adversaries to GitLab.
 
-- Conduct operations ethically and responsibly without causing harm to GitLab or its team members.
-- Maintain a **good trust relationship** with the rest of the Security division and the wider GitLab company.
+- We work with Threat Intelligence to identify the most relevant threats and emulate them.
+- We conduct operations ethically and responsibly without causing harm to GitLab or its team members.
+- We maintain a **good trust relationship** with the rest of the Security division and the wider GitLab company.
 
-### 1. Initial access vector or assumed breach
+It's important to us to intentionally and enthusiastically collaborate with the rest of the company, to balance out the semi-private, sometimes hidden nature of our work.
 
-If relevant, we may conduct operations specifically looking for initial access vectors to exploit. These require substantial time and resources, so we ensure the investment is justified by the potential for security improvements and learning.
+### 1. Initial access vector
 
-Red Team members can also hunt for ways to "break in" to GitLab at any time in the context of an [Opportunistic Attack](../#opportunistic-attacks). This allows us to quickly remediate any discoveries. Successful intrusions can then be re-used in future stealth operations as proof of a realistic initial access vector.
+There are several ways we emulate initial access:
 
-[Club Red](../opportunistic-attacks/#club-red) allows team members to collaborate with us to develop an initial access idea they have.
-
-#### "Assumed Breach" first
-
-Our Red Team operations can start from an "assumed breach" scenario where we gain initial access to GitLab's systems through a trusted insider. This is done in a realistic manner, leaving indicators of compromise ([IoCs](https://en.wikipedia.org/wiki/Indicator_of_compromise)) that reflect an actual breach. From there, we focus on post-exploitation tactics and techniques such as establishing persistence and elevating privileges.
+- **Research**. We may conduct operations specifically looking for initial access vectors to exploit. These require substantial time and resources, so we ensure the investment is justified by the potential for security improvements and learning. For example, the [2024 Okta bypass](https://gitlab-com.gitlab.io/gl-security/security-tech-notes/red-team-tech-notes/okta-verify-bypass-sept-2024/) we researched and responsibly disclosed to Okta.
+- **Opportunistic**. Red Team members can also hunt for ways to "break in" to GitLab at any time in the context of an [Opportunistic Attack](../#opportunistic-attacks). This allows us to draw attention to any discoveries and GitLab can quickly remediate. Successful intrusions can then be re-used in future stealth operations as proof of a realistic initial access vector.
+- **Collaborative**. [Club Red](../opportunistic-attacks/#club-red) allows team members to collaborate with us to develop an initial access idea they have, and we can leverage their domain knowledge for a greater overall security result for GitLab.
+- **Assumed Breach**. Sometimes we create a scenario where we gain initial access to GitLab's systems through a trusted insider. This is done in a realistic manner, leaving indicators of compromise ([IoCs](https://en.wikipedia.org/wiki/Indicator_of_compromise)) that reflect an actual breach.  From there, we focus on post-exploitation tactics and techniques such as establishing persistence and elevating privileges.
 
 ### 2. Operation execution
 
-All operations follow our [rules of engagement](rules-of-engagement.md).
+All operations follow our [rules of engagement](rules-of-engagement.md). We try to leave realistic indicators of compromise to simulate a realistic attack by the chosen emulated attacker.
 
 ### 3. Internal disclosure or discovery
 
 A given operation will continue until we are detected or until we disclose internally. Depending on what we find during an operation (for example, if we discover a significant security risk), we may disclose early to mitigate risk.
 
-After each operation, we meet with [Signals Engineering](../../signals-engineering/) and [Security Incident Response Team (SIRT)](../../sirt/) review our findings, attack steps and review detections and alerts.
-
 #### Social resolution
 
-Sometimes our operations involve attacking infrastructure set up by a certain team or compromising a system due to misconfiguration set up by a team member.
+Sometimes our operations involve attacking infrastructure set up by a certain team, socially engineering individual team members, or compromising a system due to misconfiguration set up by a team member.
 In any retrospective, we **always** aim to focus on improvements rather than assign blame.
 
 If social engineering is involved, we must be careful to ensure that the individuals involved in the exercise feel well supported and not blamed.
-We offer meet with anyone who was involved in social engineering to and thank them for being a part of our operation.
+We offer meet with anyone who was involved in social engineering to and thank them for being a part of our operation and to reassure them.
 
 We **never** want anyone to feel like they did something wrong, since our operations test **processes**, not individuals.
 
 ### 4. Report and recommendations for security improvements
 
 We then release a [report](#reporting) summarising the operation and our recommendations for improving security posture. We create issues using the [issue template](https://gitlab.com/gitlab-com/gl-security/security-operations/redteam/redteam-public/resources/red-team-issue-templates), apply the relevant labels, and use this for tracking [metrics](#red-team-metrics). We then hand all our tools and techniques to the Blue Team so they can create relevant detections.
+
+We often work with [Signals Engineering](../../signals-engineering/) and [Security Incident Response Team (SIRT)](../../sirt/) to review our findings, attack steps and review detections and alerts.
 
 ### Reporting
 
