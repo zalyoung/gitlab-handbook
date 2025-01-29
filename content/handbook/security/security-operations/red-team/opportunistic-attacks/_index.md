@@ -4,14 +4,13 @@ no_list: true
 ---
 
 Opportunistic attacks are short (ideally a few days at most) more spontaneous initiatives than [Stealth Operations](../stealth-operations.md).
+They can be done at any time, from any source IP address, and against any GitLab-managed asset without prior approval or notification.
 
 Benefits include:
 
 - They give GitLab more opportunities to practice detecting and responding to realistic threats in a controlled environment, allowing faster iteration on our defensive capabilities including investigation skills.
 - They allow us to quickly demonstrate impact of a security concern we find.
 - They allow us to action this intelligence quickly in order to demonstrate impact of a security risk.
-
-They can be done at any time, from any source IP address, and against any GitLab-managed asset without prior approval or notification.
 
 If vulnerabilities are discovered, we will exploit them and work to safely demonstrate maximum impact. This may involve establishing persistence, escalating privileges, and other common attack techniques.
 
