@@ -182,7 +182,6 @@ The contract phase is unique based upon the team member's relocation. The differ
 1. If applicable:
     - A [Mutual Termination Agreement](https://docs.google.com/document/d/1MJCWQupiqfU7rUk99qowHuxd64OPIHKfD05gLlfs7K8/edit) is needed, if the team member is relocating from IT BV.
     - A [Side letter Relocation - Transfer from one entity to another](https://docs.google.com/document/d/1UesnGAH1y0MMgWU37RRX2DuSP14mDLff/edit) is needed if the team member is relocating from one entity to another.
-    - Please note that a wet signature is necessary if the team member is relocating from GitLab GmbH (Germany).
     - Inform the current PEO of the relocation effective date. See People Connect 1password vault for contact details. A resignation email (within notice period) from the team member to their current PEO is also required, if the team member is relocating away from a location with [PEO Employment]({{< ref "employment-solutions#peo-professional-employer-organization-employer-of-record-and-not-a-gitlab-entity-or-branch" >}}).
 1. Ping a People Connect Team member for auditing in the `#connect-ops-team` private slack channel.
 1. Stage the contract in DocuSign and send for signature first to the GitLab signatory and subsequently to the team member.
@@ -256,7 +255,7 @@ Our PEO in India can only process terminations on working days (typically Monday
 
 - Relocation Contract and Mutual Termination Agreement Process for Germany
 
-These are the steps our People Connect team uses to send contracts to team members relocating to, or moving from Germany. Please note all German documents require a wet signature.
+These are the steps our People Connect team uses to send contracts to team members relocating to, or moving from Germany.
 
 Once the contract or Mutual Termination Agreement (MTA) has been created by the People Connect Team member, next steps are to stage the documents in DocuSign, while also sending the documents to the German counsel to have them physically sign and mail them.
 
