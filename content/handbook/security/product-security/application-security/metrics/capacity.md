@@ -95,7 +95,7 @@ These labels indicate the current status of the issue.
 
 The AppSec Engineer responsible for the task is expected to assign this label to an issue when work on the issue is started or completed.
 
-## Key Performance Indicators (KPI)
+## Key Performance Indicators
 
 These metrics track our team's capacity to handle critical security workloads.
 
@@ -110,7 +110,7 @@ This KPI tracks our ability to review security-relevant merge requests by measur
    - `AppSecWorkType::SecurityMRReview` must be applied to all other security code reviews, including those performed during triage rotation.
 
 2. **Vulnerability Source Tracking**
-   - Apply `Vulnerability Tracked` label to Merge Requests identified as introducing vulnerabilities
+   - Apply `appsec-kpi::vulnerability-introduced` label to Merge Requests identified as introducing vulnerabilities
 
 #### Calculation Method
 
@@ -119,5 +119,5 @@ Review Coverage = (Vulnerability-introducing Merge Requests without Application 
 ```
 
 Where:
-- Total vulnerability-introducing Merge Requests = Merge Requests labeled with `Vulnerability Tracked`
-- Merge Requests without Application Security review = `Vulnerability Tracked` Merge Requests lacking either `AppSecWorkType::SecurityMRReview` or `AppSecWorkType::VulnFixVerification`
+- Total vulnerability-introducing Merge Requests = Merge Requests labeled with `appsec-kpi::vulnerability-introduced`
+- Merge Requests without Application Security review = `appsec-kpi::vulnerability-introduced` Merge Requests lacking either `AppSecWorkType::SecurityMRReview` or `AppSecWorkType::VulnFixVerification`
