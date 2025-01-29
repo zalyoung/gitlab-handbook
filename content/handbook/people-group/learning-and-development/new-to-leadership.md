@@ -64,5 +64,3 @@ GitLab is committed to a work environment that is free of harassment, discrimina
 If managers have any questions regarding their role related to the above topics, process or other related questions please schedule time with your people business partner.  Your people business parter is here to help guide you and provide counsel related to all team member related issues.
 
 ### Diversity, Inclusion & Belonging
-
- A link to the Building an Inclusive Remote Culture can be found here at [Building an Inclusive Remote Culture](/handbook/company/culture/inclusion/building-diversity-and-inclusion/#introduction).  Make sure you review the [Tips for Managers](/handbook/company/culture/inclusion/building-diversity-and-inclusion/#tips-for-managers)

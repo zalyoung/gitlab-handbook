@@ -37,7 +37,6 @@ Sometimes we can see things that make us diverse and sometimes we can't. We beli
 
 The context is "at GitLab" or "in a specific department or team at GitLab."
 This term is generally used in the context of reporting on how GitLab is working on understanding and improving the sourcing, interviewing, hiring, and retention of those who either want to work or currently work at GitLab.
-Institutes like the [National Science Foundation](https://new.nsf.gov/mps/dmr/workforce-development) use the word "underrepresented" when discussing research around diversity so we have chosen to use it as well in order to be able to set goals around the data we have and understand where we need to work harder.
 
 - A single person **should not** be referred to as a "diverse person" or a "diversity hire" which would imply they are not included in the current community or that they are only employed because of a factor that is not directly related to their skills and their ability to do their job.
 - People should not be singled out or "othered" by labels with cold terminology in personal interactions.
@@ -101,15 +100,9 @@ Source: GitLab's People Analytics Team, WorkDay
 
 ## Diversity, Inclusion and Belonging Team
 
-- [Liam McNally](/handbook/company/team/#lmcnally1) - Manager, Diversity, Inclusion and Belonging
 - [Sherida McMullan](/handbook/company/team/#sheridam) - Vice President, Diversity, Inclusion and Belonging
-
-## Request Needed or Want to Learn More?
-
-- Have a request for DIB support?  [Open an issue here](https://gitlab.com/gitlab-com/people-group/dib-diversity-inclusion-and-belonging/diversity-and-inclusion/-/issues/new?issue%5Bmilestone_id%5D=).
-- Stay updated via our slack channel - `#diversity_inclusion_and_belonging`
-- Have questions or suggestions for diversity, inclusion and belonging?  Please email `diversityinclusion@gitlab.com`
-- **Monthly DIB Initiatives Company Call**. This call will allow time for GitLab team members to gain an understanding of what we are doing with DIB here at GitLab. It is the second Wednesday of every month. If you aren't able to attend live calls, and would like to listen in on past calls, you can do so [here](https://www.youtube.com/playlist?list=PL05JrBw4t0KqB4N2ruo8nsCwQzBocw-Hn) with our DIB playlist.  You have to be logged into GitLab Unfiltered. If you are not sure how to log into GitLab Unfiltered, you can review how to [here](/handbook/marketing/marketing-operations/youtube/#unable-to-view-a-video-on-youtube).
+- [Liam McNally](/handbook/company/team/#lmcnally1) - Manager, Diversity, Inclusion and Belonging
+- Naomi Johnson - DIB Business Partner
 
 ## Values
 
@@ -143,12 +136,6 @@ Please see our [identity data](/handbook/company/culture/inclusion/identity-data
 
 ## What we are doing with Diversity, Inclusion & Belonging
 
-### Diversity Inclusion & Belonging Roundtables
-
-A [DIB roundtable](dib-roundtables.md) is a great way to build deeper connections with team members and develop safe spaces to discuss DIB related issues. The DIB roundtable will ask team members to share stories and anecdotes as well as challenge team members to think about how they personally and collectively can positively impact DIB.
-
-This page outlines the process of [DIB Roundtables](dib-roundtables.md). These can be self-organized or organized by the DIB Team.
-
 ### Talent Acquisition initiatives
 
 [This page provides an overview of our Diversity, Inclusion & Belonging Talent Acquisition initiatives](talent-acquisition-initiatives/).
@@ -159,19 +146,15 @@ This page outlines the process of [DIB Roundtables](dib-roundtables.md). These c
 
 ### Sales Initiatives
 
-[This page provides and overview of Diversity, Inclusion and Belonging Initiatives within Sales]({{< ref "women-in-sales-mentorship-pilot-program" >}})
-
-[Sales Sponsorship Program]({{< ref "dib-sponsorship-program" >}})
+- TBD
 
 ### #IamRemarkable Workshop
 
-[#IamRemarkable](https://www.rmrkblty.org/iamremarkable) is a workshop created by Google. The initiative aims to empower women and other underrepresented groups to celebrate their achievements in the workplace and beyond, and to challenge perceptions around self-promotion.
+[#IamRemarkable](https://www.rmrkblty.org/iamremarkable) is a workshop created by Google. The initiative aims to individuals to celebrate their achievements in the workplace and beyond, and to challenge perceptions around self-promotion.
 
 #### Logistics
 
 At GitLab we launched the #IamRemarkable workshop in April 2021, and aim to continue with two workshops per quarter on an ongoing basis. Before the start of each quarter, a quarterly workshop planning issue will be opened where team members have the opportunity to volunteer to participate. Slots will be allocated on first come first serve basis.
-
-Our pilot workshop was for team members who are a part of our Women's TMRG. Our Q2 workshops will be open for any member of an underrepresented group, from Q3 moving forward, we will also have three slots/session for allies to attend the workshops.
 
 The workshops are kept to a max of 15 team members to generate more comfort and psychological safety within the group, in addition to providing everyone with an opportunity to share and contribute to discussion. Each workshop is two hours in duration. Due to the personal nature of the workshop, we do not record #IamRemarkable sessions.
 
@@ -185,19 +168,13 @@ Currently, we have three GitLab team members who are certified to facilitate the
 
 In order to more efficiently scale this initiative at GitLab, we would *love* to have more facilitators join us! Anyone can [register to become a facilitator](https://www.rmrkblty.org/iamremarkableabout-facilitators). As soon as you have been certified, feel free to add your name to the list of facilitators above.
 
-### Stay Interviews or Team Member Experience Interviews
-
-The stay interview with Black Team Members pilot program was developed as part of feedback from the Reverse AMA discussions with the CEO. It was mentioned that "stay" interviews might be helpful in determining retention indicators for underrepresented groups.
-
 ### Inclusive benefits
 
 We list our [Pregnancy & Maternity Care]({{< ref "inc-benefits-us#pregnancy--maternity-care" >}}) publicly so people don't have to ask for them during interviews. In addition GitLab offers an Employee Assistance Program to all team members via [Modern Health]({{< ref "modern-health" >}}), a one-stop shop for all tools related to mental well-being and self-improvement.
 
 ### Inclusive language
 
-In our [GitLab Values](/handbook/values/#inclusive-language--pronouns) we list: 'Use inclusive language. For example, prefer "Hi everybody" or "Hi people" to "Hi guys". And speak about courage instead of [aggression](https://www.huffpost.com/entry/textio-unitive-bias-software_n_7493624). Another example is to avoid terms like "gossip" that have [negative gender connotations](https://inthesetimes.com/article/the-subversive-feminist-power-of-gossip). Also see the note in the [management section of the leadership page]({{< ref "structure#management-group" >}}) to avoid military analogies.
-
-- For an additional resource, we also have a presentation on [Inclusive Language](https://docs.google.com/presentation/d/186RK9QqOYxF8BmVS15AOKvwFpt4WglKKDR7cUCeDGkE/edit?usp=sharing)
+In our [GitLab Values](/handbook/values/#inclusive-language--pronouns) we list: 'Use inclusive language. For example, prefer "Hi everybody" or "Hi people" to "Hi guys". 
 
 ### TMRGs - Team Member Resource Groups
 
@@ -250,16 +227,7 @@ If you are a team member on a GitLab Inc or Federal contract and a disabled vete
 
 ### Diversity, Inclusion & Belonging Learning & Development
 
-- We have a variety of trainings on [GitLab University](https://university.gitlab.com/learn/dashboard) including
-  - DIB @ GitLab
-  - Neurodiversity in the Workplace
-  - Digital Accessibility
-  - With many others to increase your knowledge on DIB Subjects
-- [Live Inclusion training](https://www.youtube.com/watch?v=gsQ2OsmgqVM&feature=youtu.be)
-- [Live Ally training](https://www.youtube.com/watch?v=wwZeFjDc4zE&feature=youtu.be)
-- [Delivering Through Diversity](https://www.mckinsey.com/capabilities/people-and-organizational-performance/our-insights/delivering-through-diversity) McKinsey and Company research on Diversity and its value.
- To earn badges and save your responses, you'll need to sign up! Use your GitLab address to sign in using Google+.
-- To be truly inclusive is to be aware of your biases as well as strategies for stopping the effects of those biases. As part of our efforts, we recommend everyone to partake in [the Harvard project Implicit test](https://implicit.harvard.edu/implicit/takeatest.html) which focuses on the hidden causes of everyday discrimination.
+- TBD
 
 ### Process for learning material and course creators
 
