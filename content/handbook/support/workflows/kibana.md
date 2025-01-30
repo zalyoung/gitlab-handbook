@@ -253,7 +253,7 @@ To investigate if the user was deleted due to an unconfirmed email, follow the [
 
 ### Searching for Remove User from group or subgroup
 
-Kibana can be used to determine if a user was removed (group or subgroup), when, who triggered it, and if it happened in the last 7 days
+If it happened within the retention period (7 days), Kibana can be used to determine if, when and by whom a user was removed from a group or subgroup
 
 To find the log entry in `pubsub-rails-inf-gprd-*` with the following data points:
 
