@@ -30,6 +30,7 @@ We do not ask for the candidate's pronouns in the application form. This informa
 ## How to decline interviews
 
 CES uses your Google calendar to schedule interviews. Our scheduling tool, ModernLoop will provide us with open times during your working hours to schedule. This is why it is *incredibly* important to maintain your calendar. Declined interviews prolong our recruiting process and negatively impact the experience of our candidates and hiring teams. Please only decline an interview invitation for an extenuating circumstance, such as an emergency, illness or childcare. We urge you to attend any scheduled interview to avoid a negative candidate experience. Please see best practices below when needing to decline and reschedule an interview.
+
 - If absolutely necessary, please decline interview calendar invites within 24-48 hours of receiving it. To decline, click "No" on the calendar invite. This will alert CES to work on rescheduling the interview and notifying the candidate in an acceptable amount of time.
 - When applicable, please provide a reason for declining the interview. (For example: if you're feeling too ill to conduct the interview or if you were scheduled for another mandatory meeting, etc.). Then click Send.
 - Declining the calendar invite allows our automated system to pick up the request, triage accordingly and bring it to the notice of the respective CES. All declined interviews will be considered urgent and CES will be prioritizing it accordingly.
@@ -38,7 +39,7 @@ CES uses your Google calendar to schedule interviews. Our scheduling tool, Moder
 
 ## ModernLoop
 
-ModernLoop is the scheduling tool that the Candidate Experience Team uses to book interviews. Modern Loop is integrated with Greenhous, Google Workspace, Zoom and Slack.
+ModernLoop is the scheduling tool that the Candidate Experience Team uses to book interviews. Modern Loop is integrated with Greenhouse, Google Workspace, Zoom and Slack.
 
 **Logging in to ModernLoop**
 
@@ -46,17 +47,18 @@ To log in, go to the ModernLoop Okta tile and log in with SSO.
 
 **Set your ModernLoop preferences**
 
-Within ModernLoop interviewers can set the following: 
+Within ModernLoop interviewers can set the following:
 
-Once you log in to the platform, navigate to "your account" and select "Go to Interviewer Portal".  We encourage you to upload a photo, create a bio and set your itnerviewer preferences so we can provide a great candiodate experience.
+Once you log in to the platform, navigate to "your account" and select "Go to Interviewer Portal".  We encourage you to upload a photo, create a bio and set your itnerviewer preferences so we can provide a great candidate experience.
 
-You can also use this function to update the following: 
+You can also use this function to update the following:
 
 - Interview load capacity: Limits of hours or interviews you can participate in.
 - Interview availability: This is when you are available to interview in your timezone.
-- Basic infomration including profile image, job title & pronouns. 
-- Contact infromation.  Note: you can not change your email address
+- Basic information including profile image, job title & pronouns.
+- Contact information.  Note: you can not change your email address.
 - Calendar Keywords.
+
 ## Greenhouse
 
 Greenhouse is our Applicant Tracking System. To activate your greenhouse profile, simply log into Greenhouse via [Okta](https://gitlab.okta.com). This will launch the application and activate your profile. If you do not have a Greenhouse tile in your Okta account, please reach out to IT and submit and AR to have this added.
