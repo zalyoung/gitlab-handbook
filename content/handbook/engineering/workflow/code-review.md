@@ -71,11 +71,14 @@ Before opening the merge request, the author should:
 
 Before merging, the manager/mentor should:
 
-1. Mention the maintainers from the given specialty and ask them to provide feedback to the manager/mentor directly.
+1. Mention the maintainers from the given specialty and ask them to provide feedback to the manager/mentor directly. Emphasize that any negative feedback should be communicated privately to the manager/mentor, not in the merge request. This is inline with our Collaboration value that [Negative feedback is 1-1](/values/#negative-feedback-is-1-1).
 1. Leave the merge request open for 1 week, to give the maintainers time to provide feedback to the manager/mentor.
 1. Have at least 2 approvals from existing maintainers.
 
-**If the manager/mentor is given feedback that indicates the reviewer is not ready to become a maintainer**: the manager/mentor should close the merge request and provide the feedback directly to the reviewer to address the gaps before the reviewer is re-submitted. The earlier the manager/mentor can solicit this feedback the better.
+**If the manager/mentor receives private feedback indicating the reviewer is not ready to become a maintainer**: 
+
+1. The manager/mentor should close the merge request with a comment about there being feedback for the reviewer to work on. 
+1. The manager/mentor and provide the feedback directly to the reviewer in a one-to-one conversation. This approach allows the reviewer to address the gaps before being re-submitted for maintainer status. The earlier the manager/mentor can solicit and receive this feedback, the better.
 
 Handling disagreements in maintainer readiness:
 
