@@ -4,41 +4,527 @@ title: "Enterprise Data Warehouse"
 
 ## Enterprise Data Warehouse Overview
 
-The Enterprise Data Warehouse (EDW) is used for reporting and analysis. It is a central repository of current and historical data from GitLab's Enterprise Applications. We use an ELT method to Extract, Load, and Transform data in the EDW. We use Snowflake as our EDW and use [dbt](/handbook/enterprise-data/platform/dbt-guide/) to transform data in the EDW. The [Data Catalog](/handbook/enterprise-data/data-catalog/) contains Analytics Hubs, Data Guides, Data Dictionaries, and Analysis for the data models built in the EDW.
+### Architectural Overview
 
-The Production Database in the EDW is used for reporting and analysis by Data Consumers at GitLab. It is composed of 4 major schemas which are `COMMON_`, `SPECIFIC`, `LEGACY_` and `WORKSPACE_` schemas. Below are descriptions of each Schema:
+GitLab's Enterprise Data Warehouse serves as our central repository for analytics and reporting, transforming raw data into actionable insights. Through the combination of Snowflake's powerful data platform and dbt's transformation capabilities, we've implemented a robust ELT (Extract, Load, Transform) framework that adheres to the Kimball methodology.
 
-1. `COMMON_`: This schema is where our Enterprise Dimensional Model (EDM) lives. The EDM is GitLab's centralized data model, designed to enable and support the highest levels of accuracy and quality for reporting and analytics. The data model follows the [Kimball](https://www.kimballgroup.com/data-warehouse-business-intelligence-resources/kimball-techniques/dimensional-modeling-techniques/) technique, including a Bus Matrix and Entity Relationship Diagrams. Dimensional Modeling follows our [Trusted Data Development](/handbook/enterprise-data/data-development/#trusted-data-development) process and enables us to repeatedly produce high-quality data solutions. Our Enterprise Applications that integrate with each other are great candidates for the Kimball Dimensional Modeling Methodology. Foreign keys in a data table from a different source system is a strong indication that a `COMMON_` solution is required. If some data tables qualify for the `COMMON_` solution, then all data from that source system should be modeled in the EDM. This prevents a confusing user experience of having data from a source system modeled with different methods and patterns.
+Our warehouse architecture is organized into four distinct schemas:
 
-1. `SPECIFIC_`: This schema is where data from applications that do not integrate with other applications lives. The EDM in the `COMMON_` schema excels at modeling data from Integrated Enterprise Applications; however, not all application data is integrated nor requires the rigor of Dimensional Modeling. The data models in the `SPECIFIC_` schema follow the [Trusted Data Development](/handbook/enterprise-data/data-development/#trusted-data-development) process with the exception of a Dimensional Modeling methodology not being required. A key acceptance criteria for models entering this schema is that the models are built from application data that is not integrated with other application data. The `SPECIFIC_` schema is not a waypoint for models that should be modeled in the `COMMON_` schema; however, it could be possible for models in this schema to mature and require an EDM solution. This helps us prevent technical debt from building up in the `SPECIFIC_` schema.
+1. **COMMON Schema:** Houses our Enterprise Dimensional Model (EDM), serving as the heart of our integrated application data. This schema implements the Kimball methodology to ensure the highest data quality standards.
+2. **SPECIFIC Schema:** Maintains independent application data that doesn't require integration with other systems, following our Trusted Data Development process while avoiding unnecessary complexity.
+3. **WORKSPACE Schema:** Provides a flexible environment for experimentation and prototyping, serving as a staging area for future EDM solutions.
+4. **LEGACY Schema:** Maintains historical modeling approaches as we strategically deprecate and migrate critical systems to our modern architecture.
 
-1. `WORKSPACE_`: This schema follows the [Ad-Hoc Data Development](/handbook/enterprise-data/data-development/#ad-hoc-data-development) process. This schema is where data modelers can experiment and prototype data solutions. The `WORKSPACE_` schema can also be used as a waypoint for models that need an EDM solution in the `COMMON_` schema. The `WORKSPACE_` should be selected for this and not the `SPECIFIC_` schema.
+## The Data Journey
 
-1. `LEGACY_`: This schema is where data from our old modeling paradigm lives. The [Legacy Structure](/handbook/enterprise-data/platform/dbt-guide/#model-structure) is defined in the dbt guide. Legacy deprecation was a strategic priority for FY24 and FY25 with a focus on deprecating:
-    - Zuora
-    - Salesforce
-    - CustomerDot
-    - Snowplow
-    - GitLab.com
-legacy folders. As of 2024-10-23, we have made significant progress on the goal, with all critical analyses that use these 5 data sources running off the EDM. We still have 75+ non-critical gitlab.com legacy tables to migrate. Going forward, with the exception of the gitlab.com legacy tables, deprecation of legacy models will no longer be a strategic priority. Instead, we will use P3-Other bandwidth to create new EDM replacements and deprecate legacy models. We accept that for the foreseeable future, there will be a long tail of legacy models where the costs to deprecate are not justified by the benefits of deprecation, that will persist in the legacy folder.
+The journey from raw data to dimensional models follows a carefully orchestrated path through three distinct layers:
 
-## Enterprise Dimensional Model (COMMON Schema)
+```mermaid
+flowchart LR
+    Staging --> Preparation --> Modeling
+```
 
-### Primary Dimensional Modeling Artifacts
+### Foundational Principles for Preparing Data Models
 
-- The [Enterprise Bus Matrix](https://docs.google.com/spreadsheets/d/1j3lHKR29AT1dH_jWeqEwjeO81RAXUfXauIfbZbX_2ME/edit#gid=1372061550) consolidates all of our Fact and Dimension tables into an easy-to-use table and is patterned after the [Kimball bus matrix](https://www.kimballgroup.com/data-warehouse-business-intelligence-resources/kimball-techniques/kimball-data-warehouse-bus-architecture/).
-- The [Enterprise Entity Relationship Diagram](https://lucid.app/lucidchart/12ee91c1-7ae5-4e99-96ae-bc51652dfa19/view?page=B47EyN20O.G6#) presents a unified entity-level view of the Fact and Dimension tables.
-- The [Dimensional Modelling Development Process](/handbook/enterprise-data/data-development/#trusted-data-development) covers our modeling standards, including naming conventions.
+The following principles guide how we prepare data for use in data models. These principles form the foundation for what changes should be made to data and help categorize where and when those changes will be made. While these principles provide guidance, individual developers must rely on subject matter knowledge and their understanding of the craft to apply these principles effectively.
 
-### The Enterprise Dimensional Model 'BIG PICTURE' Diagram
+### Staging Layer
 
-- We use Lucidchart's [ER diagram template](https://www.lucidchart.com/pages/er-diagrams) to build [Enterprise Entity Relationship Diagram](https://lucid.app/lucidchart/12ee91c1-7ae5-4e99-96ae-bc51652dfa19/view?page=B47EyN20O.G6#) source.
+The staging layer forms our foundation, where we first conform the data to GitLab standards. This standardization occurs as close to the source as possible, ensuring clean, reliable data for downstream processes. Key aspects include:
 
-A Step-by-Step process of creating an ERD using Lucidchart can be found [here](/handbook/enterprise-data/platform/edw/##create-entity-relationship-(er)-diagrams-using-lucidchart).
+- Conforming column names and data types to GitLab standard conventions
+- Establishing consistent handling of NULL and blank values
+  - Converting blank values to NULL
+  - Setting appropriate defaults when NULL values are not acceptable
+- Normalizing column names to improve readability and self-documentation
+- Avoiding repetitive naming across data models
 
-<div style="width: 640px; height: 480px; margin: 10px; position: relative;"><iframe allowfullscreen frameborder="0" style="width:640px; height:480px" src="https://lucid.app/documents/embeddedchart/12ee91c1-7ae5-4e99-96ae-bc51652dfa19" id="jBktl-f497ew"></iframe></div>
+These transformations ensure expected behavior in downstream processes and help catch malformed data early in the pipeline.
 
-### Entity Relationship Diagram (ERD) Library
+### Preparation Layer
+
+In the preparation layer, business logic meets data. This layer encompasses:
+
+- Filtering malformed records
+- Creating calculated fields
+- Deriving fields and records
+- Applying business logic and quality tests
+
+These transformations should be separated from staging steps to improve maintainability and readability. While many transformations can be performed in a single data model, separate and sequential models may be used when doing so increases readability or maintainability.
+
+For record derivation (such as date interval expansion), it's best to delay processing as long as possible to manage potential performance issues. Field derivation, which requires combining multiple data models, should be performed where it adds the least complexity and minimizes dataset size increases.
+
+### Modeling Layer
+
+The final modeling layer transforms our prepared data into business-ready structures. This layer:
+
+- Implements specific business requirements
+- Optimizes for analytics
+- Creates fact and dimension tables
+- Applies transformations driven by specific business use cases
+
+The transformations in this step should be derived from specific business requirements that couldn't be applied at a broader scale. The result enables self-service analytics while maintaining high performance standards.
+
+## Dimensional Modeling Fundamentals
+
+Dimensional modeling is part of the Business Dimensional Lifecycle methodology developed by [Ralph Kimball](https://en.wikipedia.org/wiki/Ralph_Kimball). It presents data in a standard, intuitive framework that allows for high-performance access while maintaining business process orientation.
+
+### Useful links and resources
+
+- [dbt Discourse about Kimball dimensional modelling](https://discourse.getdbt.com/t/is-kimball-dimensional-modeling-still-relevant-in-a-modern-data-warehouse/225/6) in modern data warehouses including some important ideas why we should still use Kimball
+- [Dimensional modelling manifesto](https://www.kimballgroup.com/1997/08/a-dimensional-modeling-manifesto/)
+- [Dimensional Modelling techniques](https://www.kimballgroup.com/data-warehouse-business-intelligence-resources/kimball-techniques/dimensional-modeling-techniques/) by Kimball Group
+
+
+### Core Concepts
+
+Dimensional modeling uses two primary components:
+- **Facts (Measures)**: Typically numeric values that can be aggregated
+- **Dimensions (Context)**: Groups of hierarchies and descriptors that define the facts
+
+This approach creates several schema patterns:
+- **Star Schema**: Central fact table linked to dimension tables
+- **Snowflake Schema**: Dimensional tables linking to other dimension tables
+- **Galaxy Schema**: Multiple interconnected fact tables
+
+### Development Process
+
+Dimensional models are built in four key steps:
+1. Choose the business process (e.g., track monthly revenue)
+2. Declare the grain (e.g., per customer)
+3. Identify the dimensions
+4. Identify the facts
+
+### Benefits of Dimensional Modeling
+
+1. Industry-standard design proven successful over decades
+2. Easy to understand and access data structures suitable for business teams
+3. Centralized implementation of business logic and consistent definitions
+4. Support for "plug and play" of new subject areas
+5. Increased model power as dimensions are added
+
+The dimensional model grows stronger over time as more dimensions are added, providing a flexible and scalable foundation for enterprise analytics.
+
+# Schemas
+
+Our schema design reflects the natural progression of data through our warehouse, from initial ingestion to final consumption. Raw data enters through dedicated schemas, undergoes transformation in preparation schemas, and ultimately resides in consumption-ready schemas that support our dimensional model. This layered approach allows us to maintain clean handoffs between different stages of data processing while ensuring data quality and consistency throughout the pipeline. Each schema serves as a checkpoint in our data's journey, with clear responsibilities and governance rules that help maintain the integrity of our data warehouse.
+
+## Common Prep Schema
+
+The Common Prep schema serves as a crucial intermediate layer in our data architecture, guided by four fundamental principles that ensure data quality, maintainability, and usability.
+
+### Core Principles
+
+Four fundamental principles guide development and maintenance:
+
+1. **Single Source of Truth**
+  Maintain one prep model per dimensional entity. For example, use a single `prep_charge` model rather than separate variations, pushing specialized versions downstream as `FACT`, `MART`, or `REPORT` models. This approach:
+  - Streamlines data lineage
+  - Keeps code DRY
+  - Reduces maintenance overhead
+  - Prevents redundant implementations
+
+2. **Lowest Grain Preservation**
+  Keep prep models at the lowest possible grain of the dimensional entity. This:
+  - Establishes them as the Single Source of Truth (SSOT)
+  - Enables flexible downstream modeling
+  - Supports various model types (`DIM`, `FACT`, `MART`, `MAPPING`, `BDG`, `REPORT`)
+  - Avoids limiting future analysis capabilities
+
+3. **Comprehensive Data Retention**
+  Avoid filtering records in the `COMMON_PREP` schema. Instead:
+  - Implement filtering in `COMMON` schema and downstream
+  - Maintain data availability for various use cases
+  - Prevent premature data exclusion
+  - Support diverse analytical needs
+
+4. **Pragmatic Model Creation**
+  Skip the prep layer when direct transformation to Common schema is more efficient:
+  - Avoid pattern-based modeling
+  - Eliminate unnecessary complexity
+  - Focus on value addition
+  - Maintain model efficiency
+
+### Use Cases
+
+The schema serves six essential functions:
+
+1. **Surrogate Key Generation**
+  Create and manage keys used throughout the Common Schema.
+
+2. **Data Cleansing**
+  Standardize data types and handle `NULL` values consistently.
+
+3. **Business Logic Application**
+  Implement transformations needed before data combination.
+
+4. **Reference Data Integration**
+  Incorporate foreign keys and identifier fields for proper joining.
+
+5. **Source Unification**
+  Combine multiple data sources with consistent formatting.
+
+6. **Performance Optimization**
+  Break down large datasets for efficient processing.
+
+While the `COMMON_PREP` schema is optional, it provides significant value when used appropriately. These principles establish a foundation for clean, maintainable, and efficient data modeling that supports diverse analytical needs while preventing unnecessary complexity.
+
+## Common Mapping Schema
+
+Mapping/look-up (map_) tables to support dimension tables should be created in the `common_mapping` schema.
+
+## Common Schema
+
+The Common schema is where all of the facts and dimensions that compose the Enterprise Dimensional Model are stored. The Common schema contains a variety of different types of dimensions and facts that create multiple star schemas. The models in this schema are robust and provide the basis for analyzing GitLab's businesses processes. 
+
+Our dimensional model revolves around two core components: dimensions (providing context) and facts (measuring events). Understanding each component's role and characteristics is crucial for effective data modeling.
+
+### Dimension Tables
+
+Dimension tables supply the descriptive attributes that give context to our business events. These are the "who, what, where, when, why, and how" of our data. A dimension table typically represents a business entity like a customer, product, or location.
+
+#### Characteristics of Dimensions
+
+- Contain descriptive attributes (text-based or categorical)
+- Usually have fewer rows than fact tables but more columns
+- Change relatively slowly over time
+- Provide the entry points for querying and filtering
+- Include hierarchical relationships (e.g., geography hierarchies)
+
+#### Common Types of Dimensions
+
+1. **Conformed Dimensions**
+  These dimensions maintain consistent meaning across multiple fact tables. Examples include:
+  - Date dimensions used across various business processes
+  - Customer dimensions used in sales and support
+  - Product dimensions used in inventory and sales
+
+2. **Local Dimensions**
+  Specific to a single business process or fact table, these dimensions provide context for particular events or metrics. Examples include:
+  - Support ticket status
+  - Order types
+  - Campaign attributes
+
+### Fact Tables
+
+Fact tables record the business events we want to analyze. They contain the quantitative metrics (measures) of our business processes, along with references to related dimensions.
+
+#### Characteristics of Facts
+
+- Contain numeric measures that can be aggregated
+- Usually have many rows but fewer columns
+- Grow continuously as new events occur
+- Include foreign keys to dimensions
+- Represent specific business processes
+
+#### Types of Facts
+
+
+**Atomic Facts**
+
+Fact tables record business events at their most granular level, serving as the foundation for all fact-based analysis. These tables:
+- Represent individual business events
+- Maintain complete, unfiltered data
+- Preserve maximum detail level
+- Enable flexible aggregation options
+
+**Derived Facts**
+
+Derived facts build upon atomic facts, creating specialized views for specific analytical needs while maintaining clear lineage to source data. These tables serve three main purposes:
+
+1. **Performance Optimization**
+  
+  Large atomic fact tables can be filtered into focused subsets for specific business needs. For example, if a business analytics team regularly analyzes only 10% of a large event table, a derived fact can provide this subset, optimizing query performance and improving user experience.
+
+2. **Metric Standardization**
+  
+  Derived facts precompute commonly used aggregations, particularly beneficial for complex metrics:
+  - Semi-additive measures like ratios that can't be summed across grains
+  - Balance-type metrics such as ARR or retention numbers
+  - Account balances that require specific aggregation rules
+  
+  This ensures consistency across analyses and simplifies reporting.
+
+3. **Cross-Process Analysis**
+  
+  Through "Drill Across Facts," derived facts can combine multiple fact tables using conformed dimensions. This process:
+  - Links related business processes
+  - Maintains dimensional consistency
+  - Uses full outer joins on common dimensions
+  - Creates unified analytical views
+
+Each derived fact maintains direct reference to its source atomic fact, ensuring clear lineage and auditability. This relationship should be clearly documented in the model's metadata, specifying whether it's an atomic or derived fact table.
+
+#### Fact Measures
+
+Facts typically contain three types of measures:
+
+1. **Additive**: Can be summed across any dimension
+  - Revenue
+  - Quantity sold
+  - Count of events
+
+2. **Semi-Additive**: Can be summed across some dimensions
+  - Account balances (sum across accounts, not time)
+  - Inventory levels (sum across products, not time)
+
+3. **Non-Additive**: Cannot be summed, require other calculations
+  - Ratios
+  - Percentages
+  - Unit prices
+
+This content about Slowly Changing Dimensions (SCDs) should be added as a major section after the Dimensions and Facts explanation and before the Common Mart section. Here's how I'd structure it:
+markdownCopy## Understanding Dimensions and Facts
+[Previous content about dimensions and facts remains]
+
+### Special Purpose Tables
+
+#### Bridge Tables
+
+Bridge (`bdg_`) tables reside in the `common` schema and serve a crucial role in our dimensional model. These intermediate tables resolve many-to-many relationships between tables, maintaining data model flexibility while ensuring proper relationship management.
+
+#### Scaffold Tables
+
+Scaffold tables provide a foundational structure between fact tables, ensuring all potential dimensional combinations are represented in visualizations and analyses. They are particularly valuable when:
+- Working with visualization tools like Tableau
+- Analyzing sparse datasets
+- Comparing actuals against targets
+- Maintaining consistent time-based analysis
+
+##### Implementation Details
+
+- Reside in the `common_mart` schema
+- Use the `rpt_scaffold_` prefix
+- Build on top of fact tables
+- Maintain complete dimensional combinations
+
+#### Example Use Case
+
+When analyzing sales against targets, a scaffold table ensures proper day-by-day and attribute-by-attribute structure. This means:
+- Every day is represented, even without sales
+- All dimension combinations are maintained
+- Targets remain intact and visible
+- Analysis remains consistent across time periods
+
+## Common Mart Schema
+
+The Common Mart schema combines dimensions and facts into business-ready analytics models, serving as the primary access point for business users and analytics tools.
+
+### Purpose and Structure
+
+The mart layer transforms our dimensional model into subject-area specific datasets that:
+- Combine relevant facts and dimensions
+- Pre-join commonly used attributes
+- Apply standard business rules
+- Optimize for specific use cases
+
+### Organization By Business Domain
+
+Mart models are typically organized by business function:
+- Finance
+- Marketing
+- People
+- Product
+- Sales
+
+### Key Characteristics
+
+1. **Built on EDM Foundation**
+  - Uses fact and dimension tables as sources
+  - Maintains consistent business definitions
+  - Leverages standardized keys and relationships
+  - Never built on other mart models
+
+2. **Optimized for Analysis**
+  - Pre-joined for common queries
+  - Includes frequently used calculations
+  - Maintains appropriate grain
+  - Considers performance implications
+
+3. **Business-Oriented Design**
+  - Named for business concepts
+  - Documented in business terms
+  - Structured for self-service
+  - Supports common analysis patterns
+
+### Best Practices
+
+- Keep models focused on specific business domains
+- Document assumptions and limitations
+- Maintain consistent naming across related marts
+- Regular testing of business logic
+- Monitor usage patterns for optimization
+- Maintain clear lineage to source models
+
+## Specific Schema
+
+The `SPECIFIC` schema is to be used for tables that perform a reporting function and act as a source of truth but do not conform to the dimensional modeling structure of the Enterprise Dimensional Model.
+
+## No Transformaion Views
+
+A **No Transformation View** should be direct views of raw source data that are needed for reporting without further transformation.  They should not be used to build additional tables since there will be a table upstream in the `RAW` or `PREP` database that will provide better lineage documentation for further transformations.  They should always be created as a view with no additional transformation or filtering and should be prefixed with `ntv_`.
+
+## Entitlement
+
+To facilitate the use of row level security in both Snowflake and Tableau a schema dedicated for entitlement tables, a mapping between the user or role and the records they are allowed to see, is used.  The tables in this schema follow a standard form but are not limited to an exact structure.  The purpose of these tables is to be joined to other tables in such a way that at query time the second table will be limited to the appropriate records for the runner of the query.
+
+### Naming
+
+The name of the entitlement table should direct users to the other table or tables that it should be used in combination with as well as the application it should be used with. Documentation for exactly what tables the entitlement table should be used for can be found in the data warehouse model [documentation](https://dbt.gitlabdata.com/#!/overview).  For example an entitlement table that would be used with the `mart_team_member_directory` table in Tableau would be named `ent_team_member_directory_tableau`.
+
+### Form
+
+Each entitlement table must have at least two columns: a join key that will connect to an other table and represents a subset of records and a column representing a Tableau user or Snowflake role.  The column that is used to join to an other table should be named the same as it is in that table to make it easier to user the correct table.  The values in the column that is used as a join key should represent the values of that column in the corresponding table.  The column or columns that represent the Tableau users or Snowflake roles should be named to match.
+
+Every combination of user and join key must be explicitly included in as row in the table.
+
+### Example
+
+If row level security is to be implented on the `mart_team_member_directory` table diretly in Snowflake then the following table would be created:
+
+`ent_team_member_directory_snowflake`
+
+| cost_center   | snowflake_role |
+|---------------|----------------|
+| Cost of Sales | TMEMBER1       |
+| G&A           | TMEMBER1       |
+| R&D           | ANALYST_GROUP  |
+| Marketing     | ANALYST_GROUP  |
+
+Then a [row access policy](https://docs.snowflake.com/en/user-guide/security-row-intro) would be applied to the `mart_team_member_directory` table.
+
+If row level security is to be implented on the `mart_team_member_directory` table in a Data Source in Tableau then the following table would be created:
+
+`ent_team_member_directory_tableau`
+
+| cost_center   | tableau_user            |
+|---------------|-------------------------|
+| Cost of Sales | team_member1@gitlab.com |
+| Cost of Sales | team_member2@gitlab.com |
+| Cost of Sales | team_member3@gitlab.com |
+| G&A           | team_member1@gitlab.com |
+| G&A           | team_member2@gitlab.com |
+| Sales         | team_member1@gitlab.com |
+| R&D           | team_member3@gitlab.com |
+| Marketing     | team_member1@gitlab.com |
+
+Then, using the guidelines outlined in [Tableau Developers Guide](/handbook/enterprise-data/platform/tableau/tableau-developer-guide/#row-level-security), a Data Source and filters would be created.
+
+# Technical Implementation Details
+
+### Slowly Changing Dimensions (SCD) and Historical Tracking
+
+#### Understanding Time Perspectives
+
+Data analysis typically requires two viewpoints: current and historical. The current view uses up-to-date dimension values, while historical analysis needs to understand how things looked at specific points in time. For example:
+- Analyzing sales with a previous product catalog
+- Tracking customer location changes over time
+- Understanding organizational structure changes
+
+#### Types of Dimensions
+
+We implement three approaches to handle time-based changes:
+
+1. **Type 1 Dimensions**
+   - Overwrite values when they change
+   - Maintain only current state
+   - Provide simplest implementation
+   - Lose historical context
+
+2. **Type 2 Dimensions (SCD)**
+   - Add new records for changes
+   - Track validity periods with `valid_from` and `valid_to` dates
+   - Enable historical analysis
+   - Maintain complete change history
+
+3. **Type 3 Dimensions**
+   - Maintain current and alternate values
+   - Enable multiple analytical perspectives
+   - Support dual categorization needs
+   - Not currently implemented in our EDM
+
+#### SCD in Practice
+
+Snapshot tables form the backbone of our historical tracking system, capturing the complete lifecycle of business objects from creation through every modification to the present state. These tables maintain a detailed audit trail of changes while enabling efficient historical analysis.
+
+In our implementation, Slowly Changing Dimensions are created using dbt's snapshot functionality. dbt snapshots provide a simple yet powerful way to track historical changes in our data. When a snapshot is run, dbt compares the current state of the data with the previous snapshot and automatically tracks any changes through `valid_from` and `valid_to` dates.
+
+A snapshot tracks changes through validity periods, marking each state with these timestamps. For example, a simple state change might look like:
+
+
+| id | attribute | valid_from_date | valid_to_date |
+|----|-----------|----------------|---------------|
+| 1  | 'open'    | 2022-01-01     | 2021-01-02    |
+| 1  | 'closed'  | 2022-01-02     | NULL          |
+
+While this format efficiently stores historical data, it can be challenging for business users to analyze. To improve usability, we transform these snapshots into daily grain records in the `COMMON` schema. These `_daily_snapshot` models expand the validity periods into individual day records, making time-based analysis more intuitive while maintaining consistency with our dimensional model.
+
+During model development, we start with staging models in `COMMON_PREP` to implement business logic, then use dbt's snapshot functionality to track changes. This foundation allows us to create daily snapshots when needed while managing performance impacts.
+
+Best practices for snapshot implementation include adding clear current record indicators, maintaining consistent grain across related models, and thoroughly documenting validity periods. These practices ensure our historical tracking remains accurate and performant while serving diverse analytical needs.
+
+### Naming Standards
+
+It is critical to be intentional when organizing a self-service data environment, starting with naming conventions. The goal is to make navigating the data warehouse easy for beginner, intermediate, and advanced users. We make this possible by following these best practices:
+
+1. PREP TABLES: `prep_<subject>` = Used to clean raw data and prepare it for dimensional analysis.
+1. FACT TABLES: `fct_<verb>` Facts represent events or real-world processes that occur. Facts can often be identified because they represent the action or 'verb'.  (e.g. session, transaction)
+1. DIMENSION TABLES: `dim_<noun>` = dimension table. Dimensions provide descriptive context to the fact records. Dimensions can often be identified because they are 'nouns' such as a person, place, or thing (e.g. customer, employee) The dimension attributes act as 'adjectives'. (e.g. customer type, employee division)
+1. MART TABLES: `mart_<subject>` = Join dimension and fact tables together with minimal filters and aggregations. Because they have minimal filters and aggregations, mart tables can be used for a wide variety of reporting purposes.
+1. REPORT TABLES: `rpt_<subject>` = Can be built on top of dim, fact, and mart tables. Very specific filters are applied that make report tables applicable to a narrow subset of reporting purposes.
+1. PUMP TABLES: `pump_<subject>` = Can be built on top of dim, fact, mart, and report tables. Used for models that will be piped into a third party tool.
+1. MAP TABLES: `map_<subjects>` = Used to maintain one-to-one relationships between data that come from different sources.
+1. BRIDGE TABLES: `bdg_<subjects>` = Used to maintain many-to-many relationships between data that come from different sources. See the Kimball Group's [documentation](https://www.kimballgroup.com/2012/02/design-tip-142-building-bridges/) for tips on how to build bridge tables.
+1. SCAFFOLD TABLES: `rpt_scaffold_<subject>` = Used to support the visualization layer by creating a template / blueprint with all the combinations of common dimensions between the desired fact tables.
+1. Singular naming should be used, e.g. dim_customer, not dim_customers.
+1. Use prefixes in table and column names to group like data. Data will remain logically grouped when sorted alphabetically, e.g. dim_geo_location, dim_geo_region, dim_geo_sub_region.
+1. Use dimension table names in primary and foreign key naming. This makes it clear to the user what table will need to be joined to pull in additional attributes. For example, the primary key for dim_crm_account is dim_crm_account_id. If this field appears in fct_subscription, it will be named dim_crm_account_id to make it clear the user will need to join to dim_crm_account to get additional account details.
+1. Dimension, fact, and mart tables are not to contain references to operational systems. We abstract the name away from the source system the data is produced into a name that describes the business entity or semantic significance of the data. For example, data from Salesforce is described as `crm` in the dimensional model and not `sfdc` or `salesforce`.
+
+### File-Based Data Sources
+
+When handling non-CSV data sources, we prefer direct extraction from source systems. However, temporary solutions using seed files, Sheetload, or Driveload may be acceptable with a clear deprecation plan. For CSV-type source data, we have three options:
+
+1. **dbt seed**
+  - Version controlled via GitLab
+  - Easy updates via MR
+  - Best for < 1,000 rows
+  - Preferred for small datasets
+
+2. **GCP Driveload**
+  - Stable and predictable
+  - No unexpected changes
+  - Requires manual file updates
+  - Preferred for larger datasets
+
+3. **Sheetload**
+  - Enables team data entry
+  - Less stable implementation
+  - Difficult SOX compliance
+  - Last resort for Tier 1 assets
+
+### Testing Framework
+
+Models require testing and documentation via schema.yml files, following the [Trusted Data Framework (TDF)](/handbook/enterprise-data/platform/dbt-guide/#trusted-data-framework).
+
+### Time Standards
+
+We standardize on Monday as the first day of week across all systems:
+
+```sql
+CASE WHEN day_name = 'Mon' THEN date_day
+    ELSE DATE_TRUNC('week', date_day)
+END AS first_day_of_week
+```
+
+This ensures:
+
+- Consistent weekly reporting
+- Alignment with ISO 8601
+- Accurate metric calculations
+- Standard implementation across models
+
+## Entity Relationship Diagram (ERD) Library
 
 These diagrams provide the relationships between data objects in the Enterprise Dimensional Model across the major business process fly wheels.
 
@@ -80,317 +566,8 @@ These diagrams provide the relationships between data objects in the Enterprise 
 
 </details>
 
-## What Is Dimensional Modeling?
 
-Dimensional modeling is part of the Business Dimensional Lifecycle methodology developed by [Ralph Kimball](https://en.wikipedia.org/wiki/Ralph_Kimball) which includes a set of methods, techniques and concepts for use in data warehouse design.
-
-*a logical design technique that seeks to present the data in a standard, intuitive framework that allows for high-performance access*
-
-Dimensional Modeling is business process oriented and can be built in 4 steps:
-
-1. Choose the business process e.g. track monthly revenue
-1. Declare the grain e.g. per customer
-1. Identify the dimensions
-1. Identify the fact
-
-### Fact and dimension tables
-
-Dimensional modeling always uses the concepts of facts (measures), and dimensions (context).
-Facts are typically (but not always) numeric values that can be aggregated, and dimensions are groups of hierarchies and descriptors that define the facts.
-
-In the simplest version fact table is a central table and is linked to dimensional tables with foreign keys creating a star schema.
-Star schema with dimensional tables linking to more dimensional tables are called snowflake schemas, multi fact tables schemas are called galaxies.
-
-### Why is it worth using dimensional modeling
-
-- Dimensional Modeling has a few flavors, but the overall design is industry standard and has been used successfully for decades
-- The FACT and DIM structures result in easy to understand and access data, suitable for business teams
-- Dimensional modeling supports centralized implementation of business logic and consistent definitions across business users e.g. one source of truth of customer definition
-- The design supports 'plug and play' of new subject areas and in fact the model grows in power as more dimensions are added
-
-## Enterprise Dimensional Model Governance
-
-### Modeling Development Process
-
-1. Extend the [dimension bus matrix](https://docs.google.com/spreadsheets/d/1j3lHKR29AT1dH_jWeqEwjeO81RAXUfXauIfbZbX_2ME/edit#gid=1372061550) as the blueprint for the EDM.
-1. Add the table to the appropriate LucidChart ERD.
-1. Model each source in the `PREP` database using source specific schema names.
-1. Create `PREP` tables in the `COMMON_PREP` schema in the `PROD` database as required by the use case. Building `PREP` tables in the `COMMON_PREP` schema is optional and depends on the use case.
-1. Deploy dimension tables. Each dimension also includes a common record entry of `MD5('-1')` key value to represent `missing`.
-1. Create fact tables. Populate facts with correct dimension keys, and use the `MD5('-1')` key value for missing keys.
-
-### Using Seed, Sheetload, and Driveload files in the EDM
-
-When the canonical source of data is **NOT** a CSV file type upload, our preference is to extract the data directly from the source system application. However, in some cases, a short-term work around such as a seed file, Sheetload, or Driveload file extraction is acceptable. Be cautious in these situations; short term workarounds frequently turn into technical debt, and it may be wise to draft a removal plan before implementing a short term fix. While these approaches should be used sparingly in the Enterprise Dimensional Model, the use of seed, Sheetload, or Driveload files is fine for the workspace schemas.
-
-When the Canonical source of a data set is inherently a CSV file type, we have several options to extract the data into Snowflake. All the options have different pros and cons.
-
-1. dbt seed: This is a solid option. dbt seed is version controlled via GitLab, easy to update via MR in GitLab Web IDE. A con is that it is recommended to be used with low row counts, about a 1,000.
-
-1. GCP Driveload: This is a solid option as well. It is stable and has no unexpected changes to data. A con is that you have to load a new file to driveload to update.
-
-1. Sheetload: Sheetload makes it easy for team members to enter data and self-serve in GSheets. However, there are several issues associated with Sheetload: it is unstable and has broken many times, causing downstream data to get stale; it is hard to keep SOX compliant; it is an uncontrolled entry point into the data warehouse. In certain cases, we've had to disable the Sheetload model extraction to ensure trust for Tier 1 data assets and prevent unexpected changes to data.
-
-Of the 3 options, dbt seed is the highest preference when the use case requires less than 1000 records of data. GCP Driveload is preferred when a row limitation prevents the use of dbt seed. Sheetload is the last option for any of our Tier 1 Data Assets due to low stability and high difficulty of audit.
-
-### Naming Standards
-
-It is critical to be intentional when organizing a self-service data environment, starting with naming conventions. The goal is to make navigating the data warehouse easy for beginner, intermediate, and advanced users. We make this possible by following these best practices:
-
-1. PREP TABLES: `prep_<subject>` = Used to clean raw data and prepare it for dimensional analysis.
-1. FACT TABLES: `fct_<verb>` Facts represent events or real-world processes that occur. Facts can often be identified because they represent the action or 'verb'.  (e.g. session, transaction)
-1. DIMENSION TABLES: `dim_<noun>` = dimension table. Dimensions provide descriptive context to the fact records. Dimensions can often be identified because they are 'nouns' such as a person, place, or thing (e.g. customer, employee) The dimension attributes act as 'adjectives'. (e.g. customer type, employee division)
-1. MART TABLES: `mart_<subject>` = Join dimension and fact tables together with minimal filters and aggregations. Because they have minimal filters and aggregations, mart tables can be used for a wide variety of reporting purposes.
-1. REPORT TABLES: `rpt_<subject>` = Can be built on top of dim, fact, and mart tables. Very specific filters are applied that make report tables applicable to a narrow subset of reporting purposes.
-1. PUMP TABLES: `pump_<subject>` = Can be built on top of dim, fact, mart, and report tables. Used for models that will be piped into a third party tool.
-1. MAP TABLES: `map_<subjects>` = Used to maintain one-to-one relationships between data that come from different sources.
-1. BRIDGE TABLES: `bdg_<subjects>` = Used to maintain many-to-many relationships between data that come from different sources. See the Kimball Group's [documentation](https://www.kimballgroup.com/2012/02/design-tip-142-building-bridges/) for tips on how to build bridge tables.
-1. SCAFFOLD TABLES: `rpt_scaffold_<subject>` = Used to support the visualization layer by creating a template / blueprint with all the combinations of common dimensions between the desired fact tables.
-1. Singular naming should be used, e.g. dim_customer, not dim_customers.
-1. Use prefixes in table and column names to group like data. Data will remain logically grouped when sorted alphabetically, e.g. dim_geo_location, dim_geo_region, dim_geo_sub_region.
-1. Use dimension table names in primary and foreign key naming. This makes it clear to the user what table will need to be joined to pull in additional attributes. For example, the primary key for dim_crm_account is dim_crm_account_id. If this field appears in fct_subscription, it will be named dim_crm_account_id to make it clear the user will need to join to dim_crm_account to get additional account details.
-1. Dimension, fact, and mart tables are not to contain references to operational systems. We abstract the name away from the source system the data is produced into a name that describes the business entity or semantic significance of the data. For example, data from Salesforce is described as `crm` in the dimensional model and not `sfdc` or `salesforce`.
-
-#### Modeling Guidelines
-
-##### Keys for Dimension Tables
-
-- **All dimensions must have a surrogate key:**
-  - The hashed surrogate key is a type of primary key that uniquely identifies each record in a model. It is generated by `dbt_utils.surrogate_key` macro and is not derived from any source application data unlike a natural key. The main uses of the surrogate key are to act as the primary key and be used to join dims and facts together in the dimensional model. This allows the data warehouse to generate and control the key and protect the dimensional model from changes in the source system. The surrogate key cannot be used to filter tables since it is a hashed field.
-  - An example of the surrogate key creation can be found in [prep_order_type](https://gitlab-data.gitlab.io/analytics/#!/model/model.gitlab_snowflake.prep_order_type#code). In this example
-`{{ dbt_utils.surrogate_key(['order_type_stamped']) }}`, the natural key `order_type_stamped` is added to the macro to generate the surrogate key `dim_order_type_id`.
-  - As of June 2022, the hashed surrogate key should not include the id in the column name. This is because a composite surrogate key would no longer be an id, so just using `_sk` will keep it simple to name both composite and non-composite surrogate keys. dim_order_type_id will be dim_order_type_sk. This is a new requirement starting in June 2022; therefore, not all surrogate keys in models will have the `_sk` suffix.
-  - All hashed surrogate keys should have the `dim_` prefix on them. An example is `dim_order_type_id`. This prefix indicates that this is what the dimension should be joined on in the dimensional model. The new requirement would have this key named `dim_order_type_sk`.
-  - The surrogate key should be the first column in the final dimension table and should have a commented section named `--Surrogate Key` so that it is easily identifiable. Also, the surrogate key description can be added to the columns in the `schema.yml` file.
-
-- **All dimensions must have a natural key:**
-  - A natural key is a type of primary key that uniquely identifies each record in a model. The natural key is fetched from the source system application.
-  - A natural key can be a single field key value or the key value can be composed from multiple columns to generate uniqueness. It is not necessary to create a concatenated natural key field in the model and the surrogate key would provide a composite key. Natural keys are useful for filtering and analysis in the data and there is no utility gained by adding a concatenated natural key. In the [prep_order_type](https://gitlab-data.gitlab.io/analytics/#!/model/model.gitlab_snowflake.prep_order_type#code) example, `order_type_stamped` is a single field natural key that is included in the dimension table.
-  - In the first 2 years of the dimensional model build, we used the `dim_` prefix to indicate a natural key for single key or composite natural keys. We will continue to use the `dim_` prefix to name single field natural keys for consistency in the model. For natural keys that are composed of multiple columns, we have not added the `dim_` prefix and we will continue to follow that pattern of not adding the `dim_` prefix. We determined that it would be expensive to refactor all existing models and Sisense dashboards to not have the `dim_` prefix on existing natural keys and it would add little value to do so. Typically, we would prefer to not have the `dim_` prefix at all on the natural key because the dimension should not be joined on the natural key to query or materialize star schemas. The joining of dims and facts and materializations of star schemas in the dimensional model should only be done via the hashed surrogate keys.
-  - The natural key should be the second column(s) in the dimension table. The key should have a commented section named `--Natural Key` so that it is easily identifiable. Also, the natural key description can be added to the columns in the `schema.yml` file.
-
-- **All dimensions must have a missing member value:**
-  - An example of this is in [prep_order_type](https://gitlab-data.gitlab.io/analytics/#!/model/model.gitlab_snowflake.prep_order_type#code). We used the `MD5('-1')` to generate the `dim_order_type_id` value for missing member. As of June 2022, the `dbt_utils.surrogate_key` will be used to generate the value for missing member key. It returns the same value as the `MD5('-1')` and it will be easier to keep the same function that is used to generate the main surrogate key in the dimension. `'Missing order_type_name' AS order_type_name` and `'Missing order_type_grouped' AS order_type_grouped` are added as the values that would be returned when a join is made to the dimension and there is a missing member.
-  - We have developed a [macro](https://gitlab.com/gitlab-data/analytics/-/blob/master/transform/snowflake-dbt/macros/utils/missing_member_column.sql) that can be used to generate the `missing member` value automagically in the dimension. The macro will generate the missing member record as follows:
-    - **primary key**: returns `MD5('-1')` for the primary key supplied
-    - **referential integrity columns**: returns `MD5('-1')` for the columns supplied so referential integrity tests do not fail
-    - **not null test columns: return**s `0` so `not_null` tests do not fail for any column type (text, boolean, numeric)
-    - Values for the remaining fields are automatically filled in with default values based on the field's data type
-
-##### Keys for Fact Tables
-
-- **All fact tables must have a primary key:**
-  - The Primary Key can be either a single column using a column(surrogate key), a column(natural key), or set of columns(composite key) that have meaning to the business user and uniquely identifies a row in a table.
-  - The primary key should be the first column in the fact table. The `dbt_utils.surrogate_key` macro or a concatenation function can be used to create the key.
-  - In some cases, the dimension and the fact will be at the same grain as is the case with [dim_crm_opportunity](https://gitlab-data.gitlab.io/analytics/#!/model/model.gitlab_snowflake.dim_crm_opportunity#code) and [fct_crm_opportunity](https://gitlab-data.gitlab.io/analytics/#!/model/model.gitlab_snowflake.fct_crm_opportunity#code). In those cases, we can use the hashed surrogate key as the primary key for both the fact and the dimension. This will make it simple to use and understand the tables.
-  - The primary key should have a commented section named `--Primary Key` in the SQL script so that it is easily identifiable.
-  - The name of the key should be the table name minus the `fct_` prefix plus the `_pk` suffix on the end. It is not necessary to include `id` in the field name. An example is the [fct_event](https://gitlab-data.gitlab.io/analytics/#!/model/model.gitlab_snowflake.fct_event#code) where `event_id` is the primary key, in a commented `--Primary Key` section, where the key is the table name `fct_event` minus `fct_` plus `id` on the end. However, going forward from June 2022, this primary key would be named `event_pk`.
-
-- **All fact tables should have a foreign key section:**
-  - The foreign key section should be a commented section named `--Foreign Keys`. [fct_event](https://gitlab-data.gitlab.io/analytics/#!/model/model.gitlab_snowflake.fct_event#code) is an example. The foreign keys are the hashed surrogate keys from the dimensions. The star schema should be joined on and materialized using hashed surrogate keys.
-  - The commented `--Foreign Keys` section can also be further organized into a `Conformed Dimensions` and `Local Dimensions` sub-sections for the foreign keys. This will help for readability and makes it easy to identify the conformed and local dimensions.
-  - All foreign keys should use the [get_keyed_nulls macro](https://gitlab-data.gitlab.io/analytics/#!/macro/macro.gitlab_snowflake.get_keyed_nulls) to handle missing members and be able to join to the dimension to fetch the missing member. An example of this is [fct_crm_opportunity](https://gitlab-data.gitlab.io/analytics/#!/model/model.gitlab_snowflake.fct_crm_opportunity#code) where the foreign keys brought into the model use the `get_keyed_nulls` macro.
-
-##### Testing and Documentation
-
-- Models are tested and documented in a schema.yml file in the same directory as the models
-
-##### ERD Requirements
-
-- Generated in Lucidchart
-- Embedded into the dbt docs for all relevant models as an iframe
-- Cross-linking from the ERD to the dbt docs for the give model
-- Proper relationship connections
-- Primary and foreign keys listed
-- At least 3-5 other columns that demonstrate the nature of the table and are unlikely to change
-- Working SQL reference example
-
-##### Definition of First Day Of Week
-
-At GitLab, we standardize the definition of 'first day of week' across all our systems to consistently use **Monday** as the first day of the week. This standard applies to all data models, reports, and analyses within the Enterprise Data Warehouse.
-
-###### Key Points
-
-- The week starts on *Monday* and ends on *Sunday*.
-- This aligns with the `DATE_TRUNC` function output when used with the 'week' parameter.
-- This standard is consistent with many functional analyst teams' practices.
-
-###### Rationale
-
-1. **Consistency**: This standardization improves consistency in our reporting across different teams and systems.
-2. **Accuracy**: It prevents potential misreporting of metrics, especially as we increase our use of weekly reporting.
-3. **Alignment**: It aligns our practices with common business and international standards (ISO 8601).
-
-###### Implementation
-
-- The `first_day_of_week` is calculated in the `date_details_source` model using the following logic:
-
-  ```sql
-  CASE WHEN day_name = 'Mon' THEN date_day
-       ELSE DATE_TRUNC('week', date_day)
-  END AS first_day_of_week
-  ```
-
-  - This field can be cascaded down to the downstream models through the `dim_date` model.
-- All date dimensions and related fields should use this definition of week.
-- When using `DATE_TRUNC('week', date)`, the result will automatically align with this standard.
-- Existing reports and dashboards should be updated to reflect this standard definition.
-
-###### Note for Analysts and Developers
-
-When working with weekly data, always ensure you're using this standard definition. If you encounter any discrepancies or have questions about implementing this standard in your work, please reach out to the Data team for assistance.
-
-##### Additional Guidelines
-
-- The Dimensional Model is meant to be simple to use and designed for the user. Dimensional models are likely to be denormalized, as opposite to source models, making them easier to read and interpret, as well as allowing efficient querying by reducing the number of joins.
-- Typically, we will create the dimensions in the `common` schema first, and then the code that builds the fact tables references these common dimensions (LEFT JOIN) to ensure the common key is available. There are some situation where logically we are 100% confident every key that is in the fact table will be available in the dimension. This depends on the source of the dimension and any logic applied.
-- When building dimensions, we prefer to not use other dimensions to build derived dimensions. This can create spaghetti code lineages that are hard to follow and make sense of from an organizational perspective. If a dimension needs to reference another table, we prefer to use Common_Prep or Source tables. There is one edge case where we do this which is when we have a dimension with sensitive data in a restricted sensitive schema and we want to expose a sanitized version of the dimension to users for analysis. In this case, we can create a type of derived dimension where the sanitized dimension could be built off the sensitive version of the dimension. With more robust Snowflake masking policies and more robust data access controls in the BI Tool, we may be able to avoid creating dimensions in this way in the future.
-- Both facts and dimensions should be tested using [Trusted Data Framework (TDF)](/handbook/enterprise-data/platform/dbt-guide/#trusted-data-framework) tests.
-  - For dimensions, we can test for the existence of the `MD5('-1')` (missing) dimension_id, and total row counts.
-  - For facts, we can test to ensure the number of records/rows is not expanded due to incorrect granularity joins.
-- fct_and dim_ models should be materialized as tables to improve query performance.
-- Before implementing the current dimensional modeling structure, we used a [different data modeling approach](/handbook/enterprise-data/platform/dbt-guide/#model-structure). This structure still exists in our Legacy schema, while some of it has been migrated to the newer methodology. Look at the [Use This Not That](https://docs.google.com/spreadsheets/d/1yr-J4ztkyl9vmJ6Euj58gczDLTIss7xIher5SV-1VDY/edit?usp=sharing) mapping to determine which new Kimball model replaces the legacy model.
-
-### Schemas
-
-The `Common` schemas contain the Enterprise Dimensional Model. Each schema has a specific purpose in the Architecture as described below.
-
-#### Common Prep
-
-The Common Prep Schema has 6 primary use cases at this time. The use cases are as follows:
-
-1. Generate Surrogate Keys used in the Common Schema.
-1. Clean Source System data such as the conversion of data types and replacing `NULL` values.
-1. Apply business process logic that is needed before combining with other data in the Common Schema.
-1. Bring in Foreign Keys/Identifier fields from other models that are useful for joins in dimensions and facts in the Common Schema.
-1. Unioning data coming from multiple sources before loading into tables in the Common Schema.
-1. Breakup big data sources into smaller pieces so models can build and run in the data warehouse.
-
-In order to keep the `COMMON_PREP` schema streamlined and without unnecessary redundancies, we need to have guidelines and preferences for developing models in the Common Prep Schema. As Developers work through the use cases mentioned above, they should take into consideration the below guidelines when developing models in the `COMMON_PREP` schema. The `COMMON_PREP` schema is optional and it is not a requirement that every lineage have a model built in the `COMMON_PREP` schema. However, the `COMMON_PREP` schema is useful to resolve the above mentioned use cases while keeping the data model DRY (Do not repeat yourself) and maintaining a SSOT for business entity use cases.
-
-1. Prefer to have one Prep Model per dimensional entity in the `COMMON` schema. For example, prefer to only have `prep_charge` and NOT a `prep_charge` and `prep_recurring_charge`. The 2nd `prep_recurring_charge` is a filtered down and aggregated version of `prep_charge`. In this case, `prep_recurring_charge` should instead be built as either a `FACT`, `MART`, or `REPORT` downstream in the lineage of `prep_charge`. Doing this will streamline the lineages, keep code DRY, and prevent extra layers and redundancy in the `COMMON_PREP` schema. Multiple Prep models in this case results in the Developer having to update code in both Prep models.
-
-1. Prefer to keep the Prep model at the lowest grain of the dimensional entity it is representing in the `COMMON_PREP` schema. This allows it to be the SSOT Prep model for the lineage where additional dimensional and reporting models can be built downstream from it either in a `DIM`, `FACT`, `MART`, `MAPPING`, `BDG` or `REPORT` table. Pre-aggregating data in the `COMMON_PREP` schema renders the Prep model not useful to build models in the `COMMON` schema that would be at a lower grain.
-
-1. Prefer to not filter records out of the Prep Model in the `COMMON_PREP` schema. This allows it to be the SSOT Prep model for the lineage where additional dimensional and reporting models can be built downstream from it either in a `DIM`, `FACT`, `MART`, `MAPPING`, `BDG` or `REPORT` table. Prefer to start filtering out data in the `COMMON` schema and subsequent downstream models. Filtering out data in the `COMMON_PREP` schema renders the Prep model not useful to build models in the `COMMON` schema that would require the data that was filtered out too early in the `COMMON_PREP` schema.
-
-1. Prefer to not make a model in the `COMMON_PREP` schema that is only for the sake of following the same pattern of having Prep models. For example, if a dimension table is built in the `COMMON` schema and is only built by doing a `SELECT *` from the table in the `COMMON_PREP` schema, then it may be the case that the Prep model is not needed and we can build that model directly in the `COMMON` schema.
-
-#### Common Mapping
-
-Mapping/look-up(map_) tables to support dimension tables should be created in the `common_mapping` schema.
-
-#### Common
-
-The Common schema is where all of the facts and dimensions that compose the Enterprise Dimensional Model are stored. The Common schema contains a variety of different types of dimensions and facts that create multiple star schemas. The models in this schema are robust and provide the basis for analyzing GitLab's businesses processes. The `Common Mart` schema contains materializations of the star schemas stored in the `Common` schema that provide the Analyst and BI Developer with easy to use and query data marts. What follows is a summary of the different types of facts and dimensions that are available in the Common Schema.
-
-##### Conformed Dimensions
-
-Conformed Dimensions serve as the basis for a series of interlocking stars.
-
-1. A conformed dimension is a dimension that has the same meaning to every fact with which it relates to. Different subject areas share conformed dimensions.
-1. Conformed dimensions allow facts and measures to be categorized and described in the same way across multiple fact tables and/or data marts, ensuring consistent analytical reporting and reusability. Allows each subject areas to be analyzed on its own and in conjunction with related with related areas. This cross-area analysis will not work if the dimensions are slightly different in each subject area.
-1. A classic example of a conformed dimension is the [dim_date](https://gitlab-data.gitlab.io/analytics/#!/model/model.gitlab_snowflake.dim_date) model that is used across various fact tables/Subject areas such as ARR [fct_mrr](https://gitlab-data.gitlab.io/analytics/#!/model/model.gitlab_snowflake.fct_mrr) and Salesforce Opportunities [fct_crm_opportunity_daily_snapshot](https://gitlab-data.gitlab.io/analytics/#!/model/model.gitlab_snowflake.fct_crm_opportunity_daily_snapshot). Other examples of conformed dimensions include [dim_crm_account](https://gitlab-data.gitlab.io/analytics/#!/model/model.gitlab_snowflake.dim_crm_account) and [dim_subscription](https://gitlab-data.gitlab.io/analytics/#!/model/model.gitlab_snowflake.dim_subscription).
-1. Kimball refers to the set of conformed dimensions as the conformance bus.
-1. Reuse of Common Dimensions allows for reports that combine subject areas.
-
-##### Local Dimensions
-
-Local dimensions serve as the basis for analyzing one star.
-
-1. These dimensions have not been conformed across multiple subject areas and they cannot be shared by a series of interlocking stars in the same way that a conformed dimension could.
-1. These local dimensions can be useful if we do not want to store the attributes on the single fact table as degenerate dimensions. In that case, we can promote those dimensional attributes to a stand-alone, local dimension table.
-1. An example is [dim_instances](https://gitlab-data.gitlab.io/analytics/#!/model/model.gitlab_snowflake.dim_instances) that contains statistical data for instances from Service ping and is specifically used in Product Usage models like [mart_monthly_product_usage](https://gitlab-data.gitlab.io/analytics/#!/model/model.gitlab_snowflake.mart_monthly_product_usage).
-
-##### Atomic Facts
-
-Facts are the things being measured in a process. The terms `measurement` or `metric` are often used instead of fact to describe what is happening in the model. The Atomic Facts are modeled at the lowest level of the process they are measuring. They do not filter out any data and include all the rows that have been generated from the process the Atomic Fact table is describing. The documentation for the models would include details about the fact table being an atomic one or a derived one.
-
-##### Derived Facts
-
-Derived Facts are built on top of the Atomic Facts. The Derived Fact directly references the Atomic Fact thereby creating an auditable, traceable lineage. The documentation for the models would include details about the fact table being an atomic one or a derived one. There are several use cases for building a Derived Fact table:
-
-1. Filter a large, Atomic Fact table into smaller pieces that provide for an enhanced querying and analysis experience for Data Analytics Professionals. For example, we may have a large event table and one Business Analytics team may only need to query 10% of that data on a regular basis. Creating a Derived Fact table that essentially describes a sub-process within the larger business process the event table is measuring provides for an optimized querying experience.
-1. Precompute and aggregate commonly used aggregations of data. This is particular useful with semi-additive and non-additive measurements. For example, semi-additive metrics such as ratios cannot be summed across different aggregation grains and it is necessary to recompute the ratio at each grain. In this case, creating a Derived Fact would help insure that all Analysts and BI Developers get the same answer for the ratio analysis. Another example is with measures that are semi-additive balances such as ARR, Retention, or a Balance Sheet account balance. In those cases, creating Derived Facts that precompute answers at the required grains would help insure that all Analysts and BI Developers get the same answer for the analyses.
-1. Create `Drill Across Facts` that connect two or more facts together through Conformed Dimensions and store as a Derived Fact table. In this process, separate select statements are issued to each fact in the project and includes the Conformed Dimensions the facts have in Common. The results are combined using a Full Outer Join on the Conformed Dimensions included in the select statement results.
-
-##### Bridge Tables
-
-Bridge(bdg_) tables should reside in the `common` schema. These tables act as intermediate tables to resolve many-to-many relationships between two tables.
-
-#### Common Mart
-
-Marts are a combination of dimensions and facts that are joined together and used by business entities for insights and analytics. They are often grouped by business units such as marketing, finance, product, and sales. When a model is in this directory, it communicates to business stakeholders that the data is cleanly modelled and is ready for querying.
-
-Below are some guidelines to follow when building marts:
-
-1. Following the naming convention for fact and dimension tables, all marts should start with the prefix `mart_`.
-1. Marts should not be built on top of other marts and should be built using FCT and DIM tables.
-
-##### Scaffold Tables
-
-Scaffold tables provide a foundational structure between desired fact tables ensuring that all potential combinations of dimensions are represented in visualizations and analyses, even if some combinations are absent in any of the primary fact tables. This is particularly valuable in tools like Tableau which may necessitate a full dataset for relationships. Here, scaffold tables act as a template or blueprint that the corresponding fact tables can join to.
-
-Examples:
-
-When joining actual sales / opportunity data against target values, a scaffold can ensure a day-by-day / attribute-by-attribute structure. This ensures that even if there's no sales data for a given day for any combination of the joining dimensions , the target remains intact and is represented appropriately.
-
-Scaffold tables should be built on top of the desired fact tables.
-
-Scaffold (rpt_scaffold_) tables should reside in the `common_mart` schema.
-
-## Slowly Changing Dimensions & Snapshots
-
-In broad, generalized terms, there are two perspectives used when analysing data: the current view and the historical view.  When using the current view, an analyst uses the most up-to-date values for dimensions to slice facts, regardless of what these values may have been in the past. However, sometimes it is necessary to look at the world the way it was in a prior period, when the values in a dimension were different. For example, you may want to look at sales numbers using a prior product catalog or calculate the number of customers in a given country over time, to provide insights on customers who change addresses periodically.
-
-We use three types of dimensions to cover both the current and historical view of the data. For a current view, a Type 1 dimension will have the up-to-date values for each attribute. For this historical analysis, a Type 2 slowly changing dimension (SCD) can track infrequent changes to a dimension's attributes and capture the period when these values were valid. This differs from an event/activity table because the attribute values are not expected to change, but are allowed to change. In an activity table, we track the changes made to objects which have lifecycles (ex. opportunities). A third type of dimension can be used to provide an alterative view. This could be used when a product in the catalog could fall into two categories, and the analyst would like to see the data from both perspectives separately. We do not currently employ this Type 3 dimension in the Enterprise Dimensional Model.
-
-For more information about the three types of dimensions:
-
-1. [Type 1](https://www.kimballgroup.com/2008/08/slowly-changing-dimensions/): Dimension values are overwritten when they are updated. This provides a current-state view of the data with no historical context.
-1. [Type 2](https://www.kimballgroup.com/2008/09/slowly-changing-dimensions-part-2/): Dimension values are added as they are updated. Dates (`valid_from` and `valid_to`) are associated with each record in the dimension to indicate when the value was actively used in the source data. Using these dates, we can look back to how the universe looked at a previous state in time. This is what we call a slowly changing dimension.
-1. [Type 3](https://www.kimballgroup.com/2008/09/slowly-changing-dimensions-part-2/): Dimension values are overwritten as in Type 1 slowly changing dimensions, but there is an additional field for an `Alternate Category` which can allow users to slice the data by an alternative version of a dimension. This type of dimension in not currently used in the Enterprise Dimensional Model.
-
-Slowly changing dimensions are useful when coupled with snapshot tables. A snapshot table shows the history of an object, providing analysts with a timeline of the modifications made to the object from its creation to the present day. As an example, an analyst might want to track an opportunity from the day it was created, through each of its states, and see what state it is in today. In another handbook page, we have described how to [create snapshots in dbt](/handbook/enterprise-data/platform/dbt-guide/#snapshots). The end result of this process is a model which has a format similar to the below example:
-
-| id | attribute | valid_from_date | valid_to_date|
-| --- | --- | --- | --- |
-| 1 | 'open' | 2022-01-01 | 2021-01-02 |
-| 1 | 'validating' | 2022-01-02 | 2022-01-02 |
-| 1 | 'approved' | 2022-01-02 | 2022-01-03 |
-| 1 | 'closed' | 2022-01-03 | 2022-01-05 |
-| 1 | 'approved' | 2022-01-05 | NULL |
-| 2 | 'open' | 2022-01-01 | 2022-01-05 |
-| 2 | 'approved' | 2022-01-05 | NULL |
-
-**Tip**: It can be helpful to add a column with logic to indicate the most recent record in a slowly changing dimension.
-
-For performance reasons, it is helpful to keep the slowly changing dimension at the grain in the example above for as long as possible. That being said, it is often easier for users to understand a slowly changing dimension when it is [expanded to a daily snapshot view](/handbook/enterprise-data/platform/dbt-guide/#building-models-on-top-of-snapshots). The example above is transformed into the table below:
-
-| id | attribute | date|
-| --- | --- | --- |
-| 1 | 'open' | 2022-01-01 |
-| 1 | 'validating' | 2022-01-02 |
-| 1 | 'approved' | 2022-01-02 |
-| 1 | 'approved' | 2022-01-03 |
-| 1 | 'closed' | 2022-01-03 |
-| 1 | 'closed' | 2022-01-04 |
-| 1 | 'closed' | 2022-01-05 |
-| 1 | 'approved' | 2022-01-05 |
-| 1 | 'approved' | repeat until chosen date |
-| 2 | 'open' | 2022-01-01 |
-| 2 | 'open' | 2022-01-02 |
-| 2 | 'open' | 2022-01-03 |
-| 2 | 'open' | 2022-01-04 |
-| 2 | 'open' | 2022-01-05 |
-| 2 | 'approved' | 2022-01-05 |
-| 2 | 'approved' | repeat until chosen date |
-
-In the Enterprise Dimensional Model, we introduce the daily grain in the `COMMON` schema so the snapshot models are available in our reporting tool. These daily snapshot models should end with the suffix `_daily_snapshot`. If a slowly changing dimension requires additional business logic beyond what comes out of the source system and is stored in a `_source` model, the best practice is to create a staging model in the `COMMON_PREP` schema with the transformations and then [build the slowly changing dimension](/handbook/enterprise-data/platform/dbt-guide/#create-snapshot-tables-with-dbt-snapshot) and daily snapshot model from the `COMMON_PREP` model.
-
-The dbt solution for building snapshot tables will set the `valid_to` field as NULL for the current version of a record, as shown in the first example above. This is how the data will be presented in the `_source` models. When this is transformed into a daily snapshot in the `COMMON` schema, there is flexibility for the analyst to decide how to [set the end date](https://discourse.getdbt.com/t/building-models-on-top-of-snapshots/517) (today's date, a future date, into the infinite future) depending on the business use case.
-
-## Create Entity Relationship (ER) Diagrams using Lucidchart
+### Create Entity Relationship (ER) Diagrams using Lucidchart
 
 `Lucidchart` is a web-based diagramming application that allows users to visually collaborate on drawing, revising and sharing charts and diagrams, and improve processes, systems, and organizational structures.
 
@@ -476,60 +653,6 @@ Note: The number of fields to be shown for each of the entity can easily be modi
 ![ERD.png](/images/enterprise-data/platform/edw/ERD.png)
 </details> <br>
 
-## Specific Schema
-
-The `SPECIFIC` schema is to be used for tables that perform a reporting function and act as a source of truth but do not conform to the dimensional modeling structure of the Enterprise Dimensional Model.
-
-### No Transformaion Views
-
-A **No Transformation View** should be direct views of raw source data that are needed for reporting without further transformation.  They should not be used to build additional tables since there will be a table upstream in the `RAW` or `PREP` database that will provide better lineage documentation for further transformations.  They should always be created as a view with no additional transformation or filtering and should be prefixed with `ntv_`.
-
-## Entitlement
-
-To facilitate the use of row level security in both Snowflake and Tableau a schema dedicated for entitlement tables, a mapping between the user or role and the records they are allowed to see, is used.  The tables in this schema follow a standard form but are not limited to an exact structure.  The purpose of these tables is to be joined to other tables in such a way that at query time the second table will be limited to the appropriate records for the runner of the query.
-
-### Naming
-
-The name of the entitlement table should direct users to the other table or tables that it should be used in combination with as well as the application it should be used with. Documentation for exactly what tables the entitlement table should be used for can be found in the data warehouse model [documentation](https://dbt.gitlabdata.com/#!/overview).  For example an entitlement table that would be used with the `mart_team_member_directory` table in Tableau would be named `ent_team_member_directory_tableau`.
-
-### Form
-
-Each entitlement table must have at least two columns: a join key that will connect to an other table and represents a subset of records and a column representing a Tableau user or Snowflake role.  The column that is used to join to an other table should be named the same as it is in that table to make it easier to user the correct table.  The values in the column that is used as a join key should represent the values of that column in the corresponding table.  The column or columns that represent the Tableau users or Snowflake roles should be named to match.
-
-Every combination of user and join key must be explicitly included in as row in the table.
-
-### Example
-
-If row level security is to be implented on the `mart_team_member_directory` table diretly in Snowflake then the following table would be created:
-
-`ent_team_member_directory_snowflake`
-
-| cost_center   | snowflake_role |
-|---------------|----------------|
-| Cost of Sales | TMEMBER1       |
-| G&A           | TMEMBER1       |
-| R&D           | ANALYST_GROUP  |
-| Marketing     | ANALYST_GROUP  |
-
-Then a [row access policy](https://docs.snowflake.com/en/user-guide/security-row-intro) would be applied to the `mart_team_member_directory` table.
-
-If row level security is to be implented on the `mart_team_member_directory` table in a Data Source in Tableau then the following table would be created:
-
-`ent_team_member_directory_tableau`
-
-| cost_center   | tableau_user            |
-|---------------|-------------------------|
-| Cost of Sales | team_member1@gitlab.com |
-| Cost of Sales | team_member2@gitlab.com |
-| Cost of Sales | team_member3@gitlab.com |
-| G&A           | team_member1@gitlab.com |
-| G&A           | team_member2@gitlab.com |
-| Sales         | team_member1@gitlab.com |
-| R&D           | team_member3@gitlab.com |
-| Marketing     | team_member1@gitlab.com |
-
-Then, using the guidelines outlined in [Tableau Developers Guide](/handbook/enterprise-data/platform/tableau/tableau-developer-guide/#row-level-security), a Data Source and filters would be created.
-
 ## Big Data
 
 Big Data is a concept that we use to understand the limits of data offerings. Generically, Big Data is anything that exceeds or strains our current technical capacity for processing and delivery.  Dealing with Big Data may be less efficient and more costly as new or creative solutions need to be developed and deployed to expand the capabilities of the data offerings.
@@ -596,8 +719,3 @@ The scope of this Analytics Performance Policy at this time is specifically focu
 
 For example, with only exposing 13 months of product usage data in atomic fact tables and creating an aggregated data table at the month, metric, namespace grain that only provides data for the past 13 months, an historical archive table would be able to provide insights from 2 or 3 years in the past for the aggregated table while the live data model would only provide the last 13 months of data.  
 
-## Useful links and resources
-
-- [dbt Discourse about Kimball dimensional modelling](https://discourse.getdbt.com/t/is-kimball-dimensional-modeling-still-relevant-in-a-modern-data-warehouse/225/6) in modern data warehouses including some important ideas why we should still use Kimball
-- [Dimensional modelling manifesto](https://www.kimballgroup.com/1997/08/a-dimensional-modeling-manifesto/)
-- [Dimensional Modelling techniques](https://www.kimballgroup.com/data-warehouse-business-intelligence-resources/kimball-techniques/dimensional-modeling-techniques/) by Kimball Group
