@@ -55,8 +55,10 @@ Other MR Examples: [Solutions Docs MRs](https://gitlab.com/gitlab-org/gitlab/-/m
 
 ### Navigation Updates MR (if needed)
 
-When creating new files or directories (or moving files or directories) a seperate MR is required to alter the site navigation. If only correcting existing documents that already have satisfactory navigation in place, a navigation MR is not needed.
+When creating new files or directories (or moving files or directories) a seperate but related MR is required to alter the site navigation. If only correcting existing documents that already have satisfactory navigation in place, a navigation MR is not needed.
 
 This is described here: https://docs.gitlab.com/ee/development/documentation/site_architecture/global_nav.html#add-a-navigation-entry 
+
+**IMPORTANT**: Find existing entries for SA Docs and model your updates on them. All pathing is relative and must be exact. Your MR CI jobs will fail if the docs changes are not merged. You can prepare both at once, but the navigation MR cannot be merged until after the actual documentation changes are fully merged.
 
 An example of Navigation MR for a new section - correlates to above RUST Docs MR example: [Add navigation for new solutions docs section for rust](https://gitlab.com/gitlab-org/gitlab-docs/-/merge_requests/4863)
