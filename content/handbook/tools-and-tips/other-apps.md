@@ -43,7 +43,7 @@ Shut off interest based ads by setting your preferences.
 In general, if a particular application or browser extension (sometimes called a plugin) is referenced in the handbook, it is considered "approved".
 For example, [1Password](/handbook/security/#1password-guide) is centered around the browser extension.
 Another application is [Zoom](/handbook/tools-and-tips/#zoom), which has a scheduler extension.
-However, be sure to search for specific information about the application, in case the desktop version is recommended and the browser extension is not (e.g. [Grammarly](#grammarly)).
+However, be sure to search for specific information about the application.
 
 If you wish to use an extension not referenced in the handbook, consider the following before installing and using it:
 
@@ -102,18 +102,9 @@ You can also make the entire web page editable, using the [`designMode`](https:/
 [Bear (Free)](https://bear.app/) is a clean writing tool for notes and long-form writing.
 [Ulysses $5/month](https://ulysses.app/) is also a great choice.
 
-### Grammarly
-
-[Grammarly](https://www.grammarly.com) is a good tool for those who want to feel more comfortable drafting written communication in English (American or British).
-There is a free and premium version.
-
-{{% panel header="**IMPORTANT NOTE FOR GRAMMARLY**" header-bg="orange" %}}
-Grammarly browser extensions are discouraged, Grammarly will have access to everything you type in your browser, and they have had [a security problem](https://gizmodo.com/grammarly-bug-let-snoops-read-everything-you-wrote-onli-1822740378). If you want to use it to check non-confidential text manually, you should download the [desktop version](https://www.grammarly.com/desktop/mac) instead. The desktop version is not available for Linux. Refer to [GitLab's Data Classification Standard](/handbook/security/data-classification-standard/) for additional details on how data is classified across the organization.
-{{% /panel %}}
-
 ### LanguageTool
 
-As an alternative to [Grammarly](#grammarly), we can combine LanguageTool in the browser
+As an alternative to Grammarly, we can combine LanguageTool in the browser
 with a local LanguageTool server .
 This ensures that spell and grammar checking remains both convenient and confidential:
 
