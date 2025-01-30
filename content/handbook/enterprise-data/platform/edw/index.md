@@ -75,14 +75,15 @@ Dimensional modeling is part of the Business Dimensional Lifecycle methodology d
 - [Dimensional modelling manifesto](https://www.kimballgroup.com/1997/08/a-dimensional-modeling-manifesto/)
 - [Dimensional Modelling techniques](https://www.kimballgroup.com/data-warehouse-business-intelligence-resources/kimball-techniques/dimensional-modeling-techniques/) by Kimball Group
 
-
 ### Core Concepts
 
 Dimensional modeling uses two primary components:
+
 - **Facts (Measures)**: Typically numeric values that can be aggregated
 - **Dimensions (Context)**: Groups of hierarchies and descriptors that define the facts
 
 This approach creates several schema patterns:
+
 - **Star Schema**: Central fact table linked to dimension tables
 - **Snowflake Schema**: Dimensional tables linking to other dimension tables
 - **Galaxy Schema**: Multiple interconnected fact tables
@@ -90,6 +91,7 @@ This approach creates several schema patterns:
 ### Development Process
 
 Dimensional models are built in four key steps:
+
 1. Choose the business process (e.g., track monthly revenue)
 2. Declare the grain (e.g., per customer)
 3. Identify the dimensions
@@ -117,55 +119,44 @@ The Common Prep schema serves as a crucial intermediate layer in our data archit
 
 Four fundamental principles guide development and maintenance:
 
-1. **Single Source of Truth**
-  Maintain one prep model per dimensional entity. For example, use a single `prep_charge` model rather than separate variations, pushing specialized versions downstream as `FACT`, `MART`, or `REPORT` models. This approach:
-  - Streamlines data lineage
-  - Keeps code DRY
-  - Reduces maintenance overhead
-  - Prevents redundant implementations
+1. **Single Source of Truth** Maintain one prep model per dimensional entity. For example, use a single `prep_charge` model rather than separate variations, pushing specialized versions downstream as `FACT`, `MART`, or `REPORT` models. This approach:
 
-2. **Lowest Grain Preservation**
-  Keep prep models at the lowest possible grain of the dimensional entity. This:
-  - Establishes them as the Single Source of Truth (SSOT)
-  - Enables flexible downstream modeling
-  - Supports various model types (`DIM`, `FACT`, `MART`, `MAPPING`, `BDG`, `REPORT`)
-  - Avoids limiting future analysis capabilities
+- Streamlines data lineage
+- Keeps code DRY
+- Reduces maintenance overhead
+- Prevents redundant implementations
 
-3. **Comprehensive Data Retention**
-  Avoid filtering records in the `COMMON_PREP` schema. Instead:
-  - Implement filtering in `COMMON` schema and downstream
-  - Maintain data availability for various use cases
-  - Prevent premature data exclusion
-  - Support diverse analytical needs
+2. **Lowest Grain Preservation** Keep prep models at the lowest possible grain of the dimensional entity. This:
 
-4. **Pragmatic Model Creation**
-  Skip the prep layer when direct transformation to Common schema is more efficient:
-  - Avoid pattern-based modeling
-  - Eliminate unnecessary complexity
-  - Focus on value addition
-  - Maintain model efficiency
+- Establishes them as the Single Source of Truth (SSOT)
+- Enables flexible downstream modeling
+- Supports various model types (`DIM`, `FACT`, `MART`, `MAPPING`, `BDG`, `REPORT`)
+- Avoids limiting future analysis capabilities
+
+3. **Comprehensive Data Retention** Avoid filtering records in the `COMMON_PREP` schema. Instead:
+
+- Implement filtering in `COMMON` schema and downstream
+- Maintain data availability for various use cases
+- Prevent premature data exclusion
+- Support diverse analytical needs
+
+4. **Pragmatic Model Creation** Skip the prep layer when direct transformation to Common schema is more efficient:
+
+- Avoid pattern-based modeling
+- Eliminate unnecessary complexity
+- Focus on value addition
+- Maintain model efficiency
 
 ### Use Cases
 
 The schema serves six essential functions:
 
-1. **Surrogate Key Generation**
-  Create and manage keys used throughout the Common Schema.
-
-2. **Data Cleansing**
-  Standardize data types and handle `NULL` values consistently.
-
-3. **Business Logic Application**
-  Implement transformations needed before data combination.
-
-4. **Reference Data Integration**
-  Incorporate foreign keys and identifier fields for proper joining.
-
-5. **Source Unification**
-  Combine multiple data sources with consistent formatting.
-
-6. **Performance Optimization**
-  Break down large datasets for efficient processing.
+1. **Surrogate Key Generation** Create and manage keys used throughout the Common Schema.
+2. **Data Cleansing** Standardize data types and handle `NULL` values consistently.
+3. **Business Logic Application** Implement transformations needed before data combination.
+4. **Reference Data Integration** Incorporate foreign keys and identifier fields for proper joining.
+5. **Source Unification** Combine multiple data sources with consistent formatting.
+6. **Performance Optimization** Break down large datasets for efficient processing.
 
 While the `COMMON_PREP` schema is optional, it provides significant value when used appropriately. These principles establish a foundation for clean, maintainable, and efficient data modeling that supports diverse analytical needs while preventing unnecessary complexity.
 
@@ -193,17 +184,67 @@ Dimension tables supply the descriptive attributes that give context to our busi
 
 #### Common Types of Dimensions
 
-1. **Conformed Dimensions**
-  These dimensions maintain consistent meaning across multiple fact tables. Examples include:
-  - Date dimensions used across various business processes
-  - Customer dimensions used in sales and support
-  - Product dimensions used in inventory and sales
+1. **Conformed Dimensions** These dimensions maintain consistent meaning across multiple fact tables. Examples include:
 
-2. **Local Dimensions**
-  Specific to a single business process or fact table, these dimensions provide context for particular events or metrics. Examples include:
-  - Support ticket status
-  - Order types
-  - Campaign attributes
+- Date dimensions used across various business processes
+- Customer dimensions used in sales and support
+- Product dimensions used in inventory and sales
+
+2. **Local Dimensions** Specific to a single business process or fact table, these dimensions provide context for particular events or metrics. Examples include:
+
+- Support ticket status
+- Order types
+- Campaign attributes
+
+#### Slowly Changing Dimensions (SCD) and Historical Tracking
+
+##### Understanding Time Perspectives
+
+Data analysis typically requires two viewpoints: current and historical. The current view uses up-to-date dimension values, while historical analysis needs to understand how things looked at specific points in time. For example:
+- Analyzing sales with a previous product catalog
+- Tracking customer location changes over time
+- Understanding organizational structure changes
+
+##### Types of Dimensions
+
+We implement three approaches to handle time-based changes:
+
+1. **Type 1 Dimensions**
+ - Overwrite values when they change
+ - Maintain only current state
+ - Provide simplest implementation
+ - Lose historical context
+
+2. **Type 2 Dimensions (SCD)**
+ - Add new records for changes
+ - Track validity periods with `valid_from` and `valid_to` dates
+ - Enable historical analysis
+ - Maintain complete change history
+
+3. **Type 3 Dimensions**
+ - Maintain current and alternate values
+ - Enable multiple analytical perspectives
+ - Support dual categorization needs
+ - Not currently implemented in our EDM
+
+##### SCD in Practice
+
+Snapshot tables form the backbone of our historical tracking system, capturing the complete lifecycle of business objects from creation through every modification to the present state. These tables maintain a detailed audit trail of changes while enabling efficient historical analysis.
+
+In our implementation, Slowly Changing Dimensions are created using dbt's snapshot functionality. dbt snapshots provide a simple yet powerful way to track historical changes in our data. When a snapshot is run, dbt compares the current state of the data with the previous snapshot and automatically tracks any changes through `valid_from` and `valid_to` dates.
+
+A snapshot tracks changes through validity periods, marking each state with these timestamps. For example, a simple state change might look like:
+
+| id | attribute | valid_from_date | valid_to_date |
+|----|-----------|----------------|---------------|
+| 1  | 'open'    | 2022-01-01     | 2021-01-02    |
+| 1  | 'closed'  | 2022-01-02     | NULL          |
+
+While this format efficiently stores historical data, it can be challenging for business users to analyze. To improve usability, we transform these snapshots into daily grain records in the `COMMON` schema. These `_daily_snapshot` models expand the validity periods into individual day records, making time-based analysis more intuitive while maintaining consistency with our dimensional model.
+
+During model development, we start with staging models in `COMMON_PREP` to implement business logic, then use dbt's snapshot functionality to track changes. This foundation allows us to create daily snapshots when needed while managing performance impacts.
+
+Best practices for snapshot implementation include adding clear current record indicators, maintaining consistent grain across related models, and thoroughly documenting validity periods. These practices ensure our historical tracking remains accurate and performant while serving diverse analytical needs.
 
 ### Fact Tables
 
@@ -219,39 +260,29 @@ Fact tables record the business events we want to analyze. They contain the quan
 
 #### Types of Facts
 
+**Atomic Facts** Fact tables record business events at their most granular level, serving as the foundation for all fact-based analysis. These tables:
 
-**Atomic Facts**
-
-Fact tables record business events at their most granular level, serving as the foundation for all fact-based analysis. These tables:
 - Represent individual business events
 - Maintain complete, unfiltered data
 - Preserve maximum detail level
 - Enable flexible aggregation options
 
-**Derived Facts**
+**Derived Facts** Derived facts build upon atomic facts, creating specialized views for specific analytical needs while maintaining clear lineage to source data. These tables serve three main purposes:
 
-Derived facts build upon atomic facts, creating specialized views for specific analytical needs while maintaining clear lineage to source data. These tables serve three main purposes:
+1. **Performance Optimization** Large atomic fact tables can be filtered into focused subsets for specific business needs. For example, if a business analytics team regularly analyzes only 10% of a large event table, a derived fact can provide this subset, optimizing query performance and improving user experience.
 
-1. **Performance Optimization**
-  
-  Large atomic fact tables can be filtered into focused subsets for specific business needs. For example, if a business analytics team regularly analyzes only 10% of a large event table, a derived fact can provide this subset, optimizing query performance and improving user experience.
+2. **Metric Standardization** Derived facts precompute commonly used aggregations, particularly beneficial for complex metrics:
 
-2. **Metric Standardization**
-  
-  Derived facts precompute commonly used aggregations, particularly beneficial for complex metrics:
-  - Semi-additive measures like ratios that can't be summed across grains
-  - Balance-type metrics such as ARR or retention numbers
-  - Account balances that require specific aggregation rules
-  
-  This ensures consistency across analyses and simplifies reporting.
+- Semi-additive measures like ratios that can't be summed across grains
+- Balance-type metrics such as ARR or retention numbers
+- Account balances that require specific aggregation rules
 
-3. **Cross-Process Analysis**
-  
-  Through "Drill Across Facts," derived facts can combine multiple fact tables using conformed dimensions. This process:
-  - Links related business processes
-  - Maintains dimensional consistency
-  - Uses full outer joins on common dimensions
-  - Creates unified analytical views
+3. **Cross-Process Analysis** Through "Drill Across Facts," derived facts can combine multiple fact tables using conformed dimensions. This process:
+
+- Links related business processes
+- Maintains dimensional consistency
+- Uses full outer joins on common dimensions
+- Creates unified analytical views
 
 Each derived fact maintains direct reference to its source atomic fact, ensuring clear lineage and auditability. This relationship should be clearly documented in the model's metadata, specifying whether it's an atomic or derived fact table.
 
@@ -260,22 +291,21 @@ Each derived fact maintains direct reference to its source atomic fact, ensuring
 Facts typically contain three types of measures:
 
 1. **Additive**: Can be summed across any dimension
-  - Revenue
-  - Quantity sold
-  - Count of events
+
+- Revenue
+- Quantity sold
+- Count of events
 
 2. **Semi-Additive**: Can be summed across some dimensions
-  - Account balances (sum across accounts, not time)
-  - Inventory levels (sum across products, not time)
+
+- Account balances (sum across accounts, not time)
+- Inventory levels (sum across products, not time)
 
 3. **Non-Additive**: Cannot be summed, require other calculations
-  - Ratios
-  - Percentages
-  - Unit prices
 
-This content about Slowly Changing Dimensions (SCDs) should be added as a major section after the Dimensions and Facts explanation and before the Common Mart section. Here's how I'd structure it:
-markdownCopy## Understanding Dimensions and Facts
-[Previous content about dimensions and facts remains]
+- Ratios
+- Percentages
+- Unit prices
 
 ### Special Purpose Tables
 
@@ -286,6 +316,7 @@ Bridge (`bdg_`) tables reside in the `common` schema and serve a crucial role in
 #### Scaffold Tables
 
 Scaffold tables provide a foundational structure between fact tables, ensuring all potential dimensional combinations are represented in visualizations and analyses. They are particularly valuable when:
+
 - Working with visualization tools like Tableau
 - Analyzing sparse datasets
 - Comparing actuals against targets
@@ -301,6 +332,7 @@ Scaffold tables provide a foundational structure between fact tables, ensuring a
 #### Example Use Case
 
 When analyzing sales against targets, a scaffold table ensures proper day-by-day and attribute-by-attribute structure. This means:
+
 - Every day is represented, even without sales
 - All dimension combinations are maintained
 - Targets remain intact and visible
@@ -313,6 +345,7 @@ The Common Mart schema combines dimensions and facts into business-ready analyti
 ### Purpose and Structure
 
 The mart layer transforms our dimensional model into subject-area specific datasets that:
+
 - Combine relevant facts and dimensions
 - Pre-join commonly used attributes
 - Apply standard business rules
@@ -321,6 +354,7 @@ The mart layer transforms our dimensional model into subject-area specific datas
 ### Organization By Business Domain
 
 Mart models are typically organized by business function:
+
 - Finance
 - Marketing
 - People
@@ -330,22 +364,25 @@ Mart models are typically organized by business function:
 ### Key Characteristics
 
 1. **Built on EDM Foundation**
-  - Uses fact and dimension tables as sources
-  - Maintains consistent business definitions
-  - Leverages standardized keys and relationships
-  - Never built on other mart models
+
+- Uses fact and dimension tables as sources
+- Maintains consistent business definitions
+- Leverages standardized keys and relationships
+- Never built on other mart models
 
 2. **Optimized for Analysis**
-  - Pre-joined for common queries
-  - Includes frequently used calculations
-  - Maintains appropriate grain
-  - Considers performance implications
+
+- Pre-joined for common queries
+- Includes frequently used calculations
+- Maintains appropriate grain
+- Considers performance implications
 
 3. **Business-Oriented Design**
-  - Named for business concepts
-  - Documented in business terms
-  - Structured for self-service
-  - Supports common analysis patterns
+
+- Named for business concepts
+- Documented in business terms
+- Structured for self-service
+- Supports common analysis patterns
 
 ### Best Practices
 
@@ -412,57 +449,6 @@ Then, using the guidelines outlined in [Tableau Developers Guide](/handbook/ente
 
 # Technical Implementation Details
 
-### Slowly Changing Dimensions (SCD) and Historical Tracking
-
-#### Understanding Time Perspectives
-
-Data analysis typically requires two viewpoints: current and historical. The current view uses up-to-date dimension values, while historical analysis needs to understand how things looked at specific points in time. For example:
-- Analyzing sales with a previous product catalog
-- Tracking customer location changes over time
-- Understanding organizational structure changes
-
-#### Types of Dimensions
-
-We implement three approaches to handle time-based changes:
-
-1. **Type 1 Dimensions**
-   - Overwrite values when they change
-   - Maintain only current state
-   - Provide simplest implementation
-   - Lose historical context
-
-2. **Type 2 Dimensions (SCD)**
-   - Add new records for changes
-   - Track validity periods with `valid_from` and `valid_to` dates
-   - Enable historical analysis
-   - Maintain complete change history
-
-3. **Type 3 Dimensions**
-   - Maintain current and alternate values
-   - Enable multiple analytical perspectives
-   - Support dual categorization needs
-   - Not currently implemented in our EDM
-
-#### SCD in Practice
-
-Snapshot tables form the backbone of our historical tracking system, capturing the complete lifecycle of business objects from creation through every modification to the present state. These tables maintain a detailed audit trail of changes while enabling efficient historical analysis.
-
-In our implementation, Slowly Changing Dimensions are created using dbt's snapshot functionality. dbt snapshots provide a simple yet powerful way to track historical changes in our data. When a snapshot is run, dbt compares the current state of the data with the previous snapshot and automatically tracks any changes through `valid_from` and `valid_to` dates.
-
-A snapshot tracks changes through validity periods, marking each state with these timestamps. For example, a simple state change might look like:
-
-
-| id | attribute | valid_from_date | valid_to_date |
-|----|-----------|----------------|---------------|
-| 1  | 'open'    | 2022-01-01     | 2021-01-02    |
-| 1  | 'closed'  | 2022-01-02     | NULL          |
-
-While this format efficiently stores historical data, it can be challenging for business users to analyze. To improve usability, we transform these snapshots into daily grain records in the `COMMON` schema. These `_daily_snapshot` models expand the validity periods into individual day records, making time-based analysis more intuitive while maintaining consistency with our dimensional model.
-
-During model development, we start with staging models in `COMMON_PREP` to implement business logic, then use dbt's snapshot functionality to track changes. This foundation allows us to create daily snapshots when needed while managing performance impacts.
-
-Best practices for snapshot implementation include adding clear current record indicators, maintaining consistent grain across related models, and thoroughly documenting validity periods. These practices ensure our historical tracking remains accurate and performant while serving diverse analytical needs.
-
 ### Naming Standards
 
 It is critical to be intentional when organizing a self-service data environment, starting with naming conventions. The goal is to make navigating the data warehouse easy for beginner, intermediate, and advanced users. We make this possible by following these best practices:
@@ -486,22 +472,25 @@ It is critical to be intentional when organizing a self-service data environment
 When handling non-CSV data sources, we prefer direct extraction from source systems. However, temporary solutions using seed files, Sheetload, or Driveload may be acceptable with a clear deprecation plan. For CSV-type source data, we have three options:
 
 1. **dbt seed**
-  - Version controlled via GitLab
-  - Easy updates via MR
-  - Best for < 1,000 rows
-  - Preferred for small datasets
+
+- Version controlled via GitLab
+- Easy updates via MR
+- Best for < 1,000 rows
+- Preferred for small datasets
 
 2. **GCP Driveload**
-  - Stable and predictable
-  - No unexpected changes
-  - Requires manual file updates
-  - Preferred for larger datasets
+
+- Stable and predictable
+- No unexpected changes
+- Requires manual file updates
+- Preferred for larger datasets
 
 3. **Sheetload**
-  - Enables team data entry
-  - Less stable implementation
-  - Difficult SOX compliance
-  - Last resort for Tier 1 assets
+
+- Enables team data entry
+- Less stable implementation
+- Difficult SOX compliance
+- Last resort for Tier 1 assets
 
 ### Testing Framework
 
@@ -565,7 +554,6 @@ These diagrams provide the relationships between data objects in the Enterprise 
 - [DRAFT: Recruiting ERD](https://lucid.app/lucidchart/caa98a41-649a-4af0-9d2b-129360dbce96/edit?viewport_loc=-1384%2C-550%2C3649%2C1344%2C0_0&invitationId=inv_5af17fdd-3d57-4966-823a-bba083d80718)
 
 </details>
-
 
 ### Create Entity Relationship (ER) Diagrams using Lucidchart
 
@@ -718,4 +706,3 @@ The scope of this Analytics Performance Policy at this time is specifically focu
 1. For non-idempotent data, which is data that cannot be recreated or otherwise surfaced in the data model due to a performance policy consideration, leverage a data platform archiving methodology to create an historical archive of the data.
 
 For example, with only exposing 13 months of product usage data in atomic fact tables and creating an aggregated data table at the month, metric, namespace grain that only provides data for the past 13 months, an historical archive table would be able to provide insights from 2 or 3 years in the past for the aggregated table while the live data model would only provide the last 13 months of data.  
-
