@@ -171,8 +171,6 @@ Aligned with the [company-wide promotion cadence](/handbook/people-group/promoti
 Development adheres to the company-wide quarterly timeline outlined [here](/handbook/people-group/promotions-transfers/#promotions-process--timeline) as our SSOT.
 
 **The Development Department has an additional formal step built in to our promotion process beyond what the company is currently adhering to through our peer review process**. Ahead of the commencement of the [Calibration](/handbook/people-group/promotions-transfers/#calibration) stage of our process, all promotion documents should be peer reviewed by a Senior Manager or Director. The due date to complete the peer review is _before_ the scheduled Calibration session.
-
-
 Calibration session attendees are the following team members: Senior Managers, Directors, Sr. Directors, VP, and Development's aligned People Business Partner. This is to ensure consistency across the organization. Leaders are welcome to conduct Calibration sessions prior to the scheduled sessions above with their sub-departments as well (though this is not a requirement).
 
 In addition to the [company-wide calibration preparation](/handbook/people-group/promotions-transfers/#calibration), for the Development department we also ask that leaders come prepared to discuss:
