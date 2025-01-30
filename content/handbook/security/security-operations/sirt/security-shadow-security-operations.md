@@ -18,7 +18,7 @@ GitLab's Security Incident Response Team is the first line of defense for the Gi
 **Course Length:**
 4 days, 8 hours
 
-**Team Managers:** Robbie Dickson - @rdickson1, Mitra Jozenazemian - @mjozenazemian
+**Team Managers:** Robbie Dickson - @rdickson1, Mitra Jozenazemian - @mjozenazemian, Nicholas Slaughter - @nslaughter
 
 ## Trust and Safety
 
