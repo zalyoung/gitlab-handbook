@@ -157,33 +157,56 @@ sequenceDiagram
 
 ```mermaid
 sequenceDiagram
-   participant user as User
-   participant gitlab_rails as GitLab Rails
-   box CI-Runner
-      participant executor as Duo Workflow Executor
-   end
-   box AI-gateway service
-     participant duo_workflow_service as Duo Workflow Service
-     participant ai_gateway as AI Gateway
-   end
-   participant llm_provider as LLM Provider
+    autonumber
+    participant user as User
+    participant gitlab_rails as GitLab Rails
+    box CI-Runner #LightYellow
+        participant executor as Duo Workflow Executor
+    end
+    box AI-gateway service #LightBlue
+        participant duo_workflow_service as Duo Workflow Service
+        participant ai_gateway as AI Gateway
+    end
+    participant llm_provider as LLM Provider
 
-   user->>gitlab_rails: trigger workflow from Web UI
-   gitlab_rails->>executor: start executor (sends AI Gateway JWT with request)
-   executor->>+duo_workflow_service: Solve this issue (open grpc connection auth'd with AI Gateway JWT)
-   duo_workflow_service->>gitlab_rails: Request ai_workflow scoped OAuth token using AI Gateway JWT
-   duo_workflow_service->>gitlab_rails: Create the workflow (auth'd with ai_workflow OAuth token)
-   duo_workflow_service->>llm_provider: Ask LLM what to do
-   llm_provider->>duo_workflow_service: Run rails new my_new_app
-   duo_workflow_service->>executor: execute `rails new my_new_app`
-   executor->>duo_workflow_service: result `rails new my_new_app`
-   duo_workflow_service->>gitlab_rails: Save checkpoint
-   duo_workflow_service->>llm_provider: What's next?
-   llm_provider->>duo_workflow_service: You're finished
-   duo_workflow_service->>gitlab_rails: Save checkpoint and mark completed
-   duo_workflow_service->>gitlab_rails: Revoke ai_workflow scoped OAuth token
-   deactivate duo_workflow_service
-   gitlab_rails->>user: Workflow done!
+    note over user,gitlab_rails: User is logged in via web
+    user->>gitlab_rails: trigger workflow from Web UI
+
+    note over gitlab_rails,executor: AI Gateway JWT
+    gitlab_rails->>executor: start executor
+
+    note over executor,duo_workflow_service: AI Gateway JWT
+    executor->>+duo_workflow_service: Solve this issue (open gRPC connection)
+
+    note over duo_workflow_service,gitlab_rails: AI Gateway JWT
+    duo_workflow_service-->>gitlab_rails: Request Composite OAuth token<br/>(token owned by service account, human user id added to token scopes based on AI Gateway JWT claims)
+
+    note over duo_workflow_service,gitlab_rails: Composite OAuth token
+    duo_workflow_service->>gitlab_rails: Create workflow
+
+    note over duo_workflow_service,llm_provider: API Key (from env)
+    duo_workflow_service->>llm_provider: Ask LLM what to do
+    llm_provider-->>duo_workflow_service: Run rails new my_new_app
+
+    note over duo_workflow_service,executor: Authenticated gRPC
+    duo_workflow_service->>executor: execute `rails new my_new_app`
+    executor-->>duo_workflow_service: command result
+
+    note over duo_workflow_service,gitlab_rails: Composite OAuth token
+    duo_workflow_service->>gitlab_rails: Save checkpoint
+
+    note over duo_workflow_service,llm_provider: API Key (from env)
+    duo_workflow_service->>llm_provider: What's next?
+    llm_provider-->>duo_workflow_service: You're finished
+
+    note over duo_workflow_service,gitlab_rails: Composite OAuth token
+    duo_workflow_service->>gitlab_rails: Save checkpoint & mark completed
+    duo_workflow_service->>gitlab_rails: Revoke Composite OAuth token
+    deactivate duo_workflow_service
+
+    note over gitlab_rails,user: No Auth Required
+    gitlab_rails->>user: Workflow done!
+
 ```
 
 ### Self-managed architecture
