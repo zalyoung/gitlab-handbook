@@ -102,6 +102,8 @@ Extends the Senior Data Architect responsibilities:
 - Define long-range architectural goals
 - Drive innovation in data architecture practices
 - Guide cross-functional initiatives
+- Review our the Data Platform effectiveness in meeting the business needs and suggesting on new capabilities to leverage.
+- Supports in driving technology investments and decisions around it.
 
 ### Requirements
 
@@ -137,6 +139,7 @@ Extends the Staff Data Architect responsibilities:
 - Lead architecture design processes
 - Blend technical and product strategy
 - Work with data governance team to establish architectural guardrails
+- Drive technology investments and decisions around it.
 
 ### Requirements
 
