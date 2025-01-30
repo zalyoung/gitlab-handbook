@@ -58,6 +58,7 @@ You can also use this function to update the following:
 - Basic information including profile image, job title & pronouns. 
 - Contact information.  Note: you can not change your email address
 - Calendar Keywords.
+
 ## Greenhouse
 Greenhouse is our Applicant Tracking System. To activate your greenhouse profile, simply log into Greenhouse via [Okta](https://gitlab.okta.com). This will launch the application and activate your profile. If you do not have a Greenhouse tile in your Okta account, please reach out to IT and submit and AR to have this added.
 
