@@ -721,7 +721,8 @@ You may now convert money from your pre-tax source, to the Roth source, all with
 
 <summary>401(k) Rollover</summary>
 
-If you leave GitLab and would like to rollover your 401(k) account, contact Fidelity directly to get more information about this process. If you need to locate your account number, you can find it by clicking Settings and then Accounts. You can reach Fidelity, by Chat in the app, or by phone at 800-835-5097. They also have a Rollovers section on their site going into detail.
+- If you have an existing fund that you would like to transfer to your GitLab 401(k) plan (rolling over an IRA), this is possible. Please complete the steps this [form](https://drive.google.com/file/d/1f8alBu0EijZ78Jh1QgGGWCdOqi_sZiO_/view) to update with Fidelity. If you need additional guidance you can reach out to Fidelity directly at 800-835-5097
+- If you leave GitLab and would like to rollover your 401(k) account, contact Fidelity directly to get more information about this process. If you need to locate your account number, you can find it by clicking Settings and then Accounts. You can reach Fidelity, by Chat in the app, or by phone at 800-835-5097. They also have a Rollovers section on their site going into detail.
 
 </details>
 
