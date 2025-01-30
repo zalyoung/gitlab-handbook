@@ -94,7 +94,7 @@ variables:
 
   ### TOOLING ###
   # Specify versions of tools used in pipelines
-  HUGO_VERSION: '0.142.0'
+  HUGO_VERSION: '0.140.2'
   HUGO_IMAGE: "registry.gitlab.com/pages/hugo/hugo_extended:$HUGO_VERSION"
   HUGOLINT_VERSION: '2.0.3'
   MARKDOWNLINT_VERSION: '0.17.2'
