@@ -193,7 +193,7 @@ The Senior Manager, Customer Onboarding is a [grade 9](/handbook/total-rewards/c
 
 #### Senior Manager, Customer Onboarding Responsibilities
 
-- DRI for establishing and scaling GitLab's dedicated customer onboarding program for On Demand segment
+- DRI for establishing and scaling GitLab's dedicated customer onboarding program for OnDemand segment
 - Action upon opportunities to accelerate time-to-value and enhance customer journey through program improvements
 - Consistent representation of our values to customers, onboarding specialists, and the company as a whole
 - Lead in cross-functional work representing onboarding in GitLab's strategic customer experience initiatives
