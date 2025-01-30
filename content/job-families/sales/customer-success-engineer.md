@@ -201,7 +201,7 @@ The Senior Manager, Customer Onboarding is a [grade 9](/handbook/total-rewards/c
 - Aligned with the objectives of GitLab and is responsible for ensuring the onboarding program contributes to company growth objectives
 - Strategic in thinking to solve challenges across the onboarding journey and drive improvements that impact all On Demand customers
 
-#### Senior Manager, Customer Onobarding Requirements
+#### Senior Manager, Customer Onboarding Requirements
 
 - Demonstrated experience (4+ years) in customer success or enablement roles
 - Demonstrated experience leading customer-facing programs and cross-functional initiatives with focus on program development and stakeholder management
