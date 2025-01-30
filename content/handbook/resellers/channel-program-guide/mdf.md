@@ -43,7 +43,7 @@ To obtain marketing development funds (MDF), please complete the following steps
 ### MDF Request
 
 - Partners can access the MDF Request Form from [the GitLab Partner Portal home page](https://partners.gitlab.com/). Navigate to Marketing and select "MDF Request." Upon selecting MDF Request, complete the first part of the form to create a fund request. Once completed, click "submit it".
-- Please check this [how-to video](https://www.youtube.com/watch?v=fF1YyrYn_3E) on how to submit an MDF Fund Request.
+- Please check this [how-to video](https://content.gitlab.com/viewer/3bee492f70f3f3aba7e0e8434d6215b4) on how to submit an MDF Fund Request.
 - All MDF requests should be submitted at least 10 business days prior to the activity start date
 - You should have a marketing plan in please by working with your designated Channel Marketing Manager & Channel Account Manager and all MDF activities should be agreed to prior to submitting the request form in the portal.
 - Our goal is to have the approval (or rejection) of your MDF request back to the partner within 5 business days.
@@ -123,21 +123,18 @@ For partners who are claiming reimbursement for the **first time** only: <br/>
 
 #### Phase 2: Processing MDF
 
-- When a MDF fund request is received, MDF Program Owner and the Channel Marketing Manager receive an email alert.
-- The Channel Marketing Managers have the ability to approve first, by confirming that all of the information input by the Partner was correct.
-- Once they approve, the MDF Program Owner will do a final approval, also known as a level 2 approval.
-- MDF Program Owner will link the fund request to the regional issues, mentioning its fund request number.
-- At this point, all the MDFs that were approved and are ready to be processed.
+- When a MDF fund request is received, the Channel Marketing Manager receives an email alert to approve the MDF request.
+<!--- At this point, all the MDFs that were approved and are ready to be processed.-->
 
 - Processing an MDF consists of:
-- Adding the MDF line in Allocadia, with all of its information.
+   - Adding the MDF in Salesforce, with all of its information.
 *We don't add this in the pre-planning phase because sometimes fund requests may get canceled or the Marketing Activity/event moves to a different date.*
-- From Allocadia we open an MDF Epic and two sub-issues List Upload and POP (Proof of Performance).
-- Marketo and Salesforce Campaign are created.
+   - From Allocadia we opens issue for the MDF request.
+   - Marketo and Salesforce Campaign are created.
 
-- POP Tracking board:
+<!--- POP Tracking board:
 To better track the POP we have created a [MDF Operations Board](https://gitlab.com/gitlab-com/marketing/partner-marketing/-/boards/5415585?label_name[]=MDF-POP).
-- POP Label description can be found [in this section](/handbook/marketing/channel-marketing/#requesting-mdf-funds) of the handbook.
+- POP Label description can be found [in this section](/handbook/marketing/channel-marketing/#requesting-mdf-funds) of the handbook. -->
 - Channel Marketing Managers are also tagged to create their own activity tracking issue.
 - A Zip requisition request is opened.
 - Zip will now have an MDF approver (MDF Program Owner) to make sure we have all of the correct information updated and to make sure that payment is not process for partner before receiving the POP.
@@ -179,7 +176,7 @@ Once a claim is submitted MDF Program Owner receives an automated email.
 - SFDC: CMPM to add `[CANCELED]` to the campaign name and select `Aborted` in the `Campaign Status` dropdown. Also, unlink the `Partner Account` and unsync to `Vartopia`.
 - Marketo: CMPM to delete Marketo program.
 
-## FY25 Q2 GitLab Biz Development team to prospect leads from MDF Campaigns
+<!--## FY25 Q2 GitLab Biz Development team to prospect leads from MDF Campaigns
 
 - Exciting offering for our partners who are running MDF campaigns with us in FY25 Q2 (May 1, 2024 - July 31, 2024).
 - At the partners election, GitLab's in-house prospecting experts(the GitLab BDR team) will work on your behalf to surface joint opportunities from agreed MDF campaigns, allowing you and your teams to focus on the deal progression and beyond.
@@ -191,7 +188,7 @@ Once a claim is submitted MDF Program Owner receives an automated email.
    1. Leads which have scored enough points to be considered a GitLab marketing qualified lead (MQL).
    1. Are from an actively working account - regardless of how many points they have gathered [and/or] are from a group of accounts called `Actively Working Accounts` which is a set of accounts the BDR team has a specific outbound prospecting strategy for.
 1. The GitLab BDR team will inform you on the records we have worked & send back to you the leads which did not meet the above criteria for your own nurturing.
-1. For more information on  the MDF program, please see the MDF Program Introduction information found in the [partner portal](https://partners.gitlab.com/English/).
+1. For more information on  the MDF program, please see the MDF Program Introduction information found in the [partner portal](https://partners.gitlab.com/English/).-->
 
 ## Contact us
 

@@ -51,7 +51,6 @@ For an in-depth look at the programs and tools we offer our partners, see our [m
   - Support requests for inclusion in third party publications
 - Support the web team in maintaining GitLab's marketing website [partner pages](https://about.gitlab.com/partners/)
 - Working with Sales Ops and Marketing Ops improve attribution and reporting of [partner sourced leads (CQLs), and partner sourced opportunities](/handbook/sales/field-operations/channel-operations/).
-- [Partner Concierge Program](https://gitlab.com/gitlab-com/marketing/demand-generation/fy24-integrated-marketing-planning/-/issues/8#pre-pilot-launch) is starting a pilot program with a list of select partners approved for participation. Partner accepted into the program will have monthly meetings with Program's Manager as well as a customer [content calendar](https://docs.google.com/presentation/d/1vdR-FhJFltPfCijO43L2as-HAlw8zEgUUCk6687CDWg/edit#slide=id.g123a13deda8_0_405) to track all social campaigns scheduled. Participants of the Concierge Program will not be able to participate in the MDF Program.
 
 ## 6 Month Planning Cycle with quarterly reviews: Channel Marketing Managers
 
@@ -163,40 +162,15 @@ GitLab Marketing Ready partners have access to the proposal-based GitLab Marketi
 
 ## Requesting MDF funds
 
-- Marketing Ready Channel partners with marketing plans in place will submit [MDF proposals through the Partner Portal](https://partners.gitlab.com/English/Partner/SFDC/MDF2/Request/Create), and GitLab approvers will be notified of the request via email.
-  - The MDF proposal will go through 2 levels of approvals
-    - Level 1 approval - Channel Marketing Manager
-    - Level 2 approval - Sr Partner Program Manager
+- Marketing Ready Channel partners with marketing plans in place will submit [MDF proposals through the Partner Portal](https://partners.gitlab.com/prm/English/s/add-mdf-request), and GitLab approvers will be notified of the request via email.
+  - The MDF proposal from the Regional Channel Marketing Manager
   - Once the MDF request has been either approved or declined the partner will be notified:
-          - If declined, the Channel Marketing DRI will reach out to the partner and let them know. We will copy the PAM/PTM on the notification
-          - If approved, the MDF Operation's team will [open an epic](/handbook/marketing/channel-marketing/channel-marketing-epics/) and correlating sub-issues defined therein.
-  - Once Epic has been created, the following sub-issues are created automatically and are linked to the Epic (links are to templates):
-    - Campaign Creation
-      - List Upload
-      - MDF POP
-        - For POP issues add labels
-          - `MDF-POP` and use the scoped labels below to work through the approval process:
-          - `MDF::POP Pending`: issues created but POP has not yet been received
-          - `MDF::POP Approval Needed`: once POP is received change this status to have Samara Souza approve the POP documents submitted
-          - `MDF:: POP Approved`: POP has been reviewed and is approved, list can be uploaded into List upload issue, Zip requisition can be created
-          - `MDF:: POP Completed`: Once all of the steps above are completed, change to this status and close the MDF POP issue
-  - Once all sub-issues are completed, close out the epic.
+          - If declined, the partner will receive a notification informing that their request has been denied.
+          - If approved, the MDF Operation's team will [open an issue](/handbook/marketing/channel-marketing/channel-marketing-epics/) 
 
 ### PTO Process for MDF Request Approvers
 
-Prior to your PTO, as an MDF request approver, you will need to update the `Delegated Approver` to your reporting manager so they have access to approve MDF requests while you are away. When you return, please remember to remove the `Delegated Approver`.
-
-When an approval request email is sent to the assigned approver, the delegated approver also receives an email notification that there is an approval request to review. Delegated approvers can't reassign approval requests; they can only approve or reject approval requests.
-
-Following the steps to update your Delegated Approver:
-
-1. Log into Salesforce
-1. On the top right of the page, click on the your name to drop down a menu, then select `My Settings`
-1. On the left column, click on `Personal` > `Approver Settings`
-1. In the settings:
-   1. Select the `Delegated Approver` (This would be your manager)
-   1. Select `If I am an approver or delegated approver`
-   1. Save.
+Note that, when you have a planned PTO, Marketing Ops will need to add your manager as a secondary approver. Previously, you can do this in Salesforce, however, you’ll need to create an issue request for support from MktgOps.
 
 ### Demand Generation activities eligible for MD
 
@@ -213,22 +187,6 @@ We offer Marketing Kit Swag for Marketing Ready partner, these kits consists of:
 - 1000 stickers
 - 200 Swag items (examples would be: colorful cable set, iPhone stand, bottle opener key chain, etc)
 Please work with your Channel Marketing Managers to order your Marketing Kits.
-
-## Concierge Program
-
-The Partner Concierge Program was created to help support partners to promote campaigns in their social channels by using a through-channel marketing automation platform to empower partners to market to their customers using co-branded campaigns.
-The tool is known as TCMA Demand Generation and it will be known for Partners as the Marketing Center within the Partner Portal.
-Partners will have a monthly meeting with the Program's Manager and receive a customized content calendar that best suits their needs.
-In the Marketing Center, Partners will have access to real time reporting.
-
-### Key Features
-
-Social Syndication - SMARTlink technology directs each call to action to the relevant Showcase page that belongs to the partner whose post generated the demand.
-Lead Management - gives your partners the ability to manage all the leads generated within the TCMA system via our simple dashboard.
-
-#### How to Participate
-
-Reach out to partner-marketing@gitlab.com with the subject line: Partner Concierge Program and we will respond within 1 business day to schedule an introductory meeting.
 
 ## Partner Instant Marketing Campaign
 
@@ -254,16 +212,14 @@ Partners and team members may review current campaigns available to partners by 
 
 ## Meet the Team
 
-- **Samara Souza**: Senior Partner Program Manager, Samara's focus is on creating new programs for our partners to leverage in their demand generation motions which are the MDF Program, Partner Concierge Program and Swag Program.
-
 - **Daria Polukanina**: Channel Marketing Manager for EMEA.
-Responsible for Planning, and MDF allocation of EMEA Managed Partners. Works closely with PAMs and PTMs  and the Field Marketing Team
+Responsible for Planning, and MDF allocation of EMEA Managed Partners. Works closely with PAMs and PTMs and the Field Marketing Team
 
 - **Gabby Chorny**: Senior Channel Marketing Manager for AMER and PubSec.
 Responsible for Planning, and MDF allocation of AMER Managed Partners. Works closely with PAMs and PTMs and the Field Marketing Team
 
 - **SJ Lim**: Channel Marketing Manager for APAC.
-Responsible for Planning, and MDF allocation of APAC Managed Partners. Works closely with PAMs and PTMs  and the Field Marketing Team
+Responsible for Planning, and MDF allocation of APAC Managed Partners. Works closely with PAMs and PTMs and the Field Marketing Team
 
 ## The best way to contact our team is through our Slack channel
 

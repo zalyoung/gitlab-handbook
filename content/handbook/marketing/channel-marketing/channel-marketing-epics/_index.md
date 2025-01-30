@@ -14,148 +14,158 @@ Create epic here: https://gitlab.com/groups/gitlab-com/marketing/-/epics/new
 ```markdown
 <!-- Name this Epic:  MDF - PartnerName - Activity -->
 
-## [MDF Request]()
+{{#fields}}
 
-## :key:  Key Details
+## [MDF Request]({{fundRequest}})
 
-* **Operational Program Owner:**
-* **Partner Name**
-* **Partner CRM ID**
-* **Campaign Type:** `Partner - MDF`
-* **Allocadia Sub-Category ID**
-* **Date(s):**
-* [ ] [**Salesforce Campaign**]() - [process to follow](/handbook/marketing/marketing-operations/campaigns-and-programs/#marketo-program-and-salesforce-campaign-set-up)
-* [ ] [**Marketo Program**]() - [process to follow](/handbook/marketing/marketing-operations/campaigns-and-programs/#marketo-program-and-salesforce-campaign-set-up) Remember to paste Allocadia Sub-Category ID into Marketo Description field when syncing to SFDC. The sub-category in Allocadia will auto-tag/update once the SFDC Campaign is created and an ID match found.
+  
+
+## :key: Key Details
+
+  
+### :round_pushpin: DRI  
+  
+* **Campaign Owner (CMM)**: {{userHandle}}
+* **Ecosystem Sales Manager**: `Insert ESM`  
+* [ ] **Manager Approval**: `Insert Ecosystem Director` - Approval required only for EMEA.  
+  
+
+### :handshake: Partner Details  
+  
+
+* **Channel Partner**: {{channelPartnerName}}
+* **Channel CRM ID**: {{channelPartnerCrmId}}
+* **Is an Alliance Partner Involved?**: {{isAlliancePartnerInvolved}}
+* **Alliance Partner**: {{alliancePartnerName}}
+* **Alliance CRM ID**: {{alliancePartnerCrmId}}
+
+  
+### :paperclips: Quick Links
+
+* [ ] **MDF Tracking Sheet** (add link)
+* [x] **Allocadia Sub-Category ID** [{{subCategoryId}}](https://eu1.allocadia.com/budgets/{{budgetId}}/items/{{subCategoryId}}/details)
+* [x]  **Allocadia Line Item ID** [{{itemID}}](https://eu1.allocadia.com/budgets/{{budgetId}}/items/{{itemId}}/details)
+* [x] [**Salesforce Campaign**]({{campaignLink}})(automated)
+  * [ ] **Funds Request** (add link)
+  * [ ] **Fund Claim** (add link)
+* [ ] [**Marketo Program**]() - [process to follow](https://handbook.gitlab.com/handbook/marketing/channel-marketing/#mdf-campaigns) Remember to paste **Allocadia Line Item ID** into Marketo Description field when syncing to SFDC. The line item in Allocadia will auto-tag/update once the SFDC Campaign is created and an ID match found.
+* [ ] [**Zip**]()
+  
 
 ## :notepad_spiral: Campaign Details
 
+  
+
 *Please do not delete anything in this section. Fill out information in full and complete your budget line item before moving to WIP.*
 
-* **Channel Marketing Manager:**
-* **Channel Account Manager:**
-* **Tactic/Event Type:** [Select from here](/handbook/resellers/channel-program-guide/mdf/#eligible-activities-and-required-proof-of-performance-mdf-activities) - If your campaign type is not listed, please list other.
-* **Official Campaign Name:**
-* **Location:** if applicable
-* **Event website:**  if applicable
-* **Allocadia ID (line item ID used for tactic charges):**
-   * [ ] Allocadia ID created in Netsuite (to be checked off by Program Manager once ID has been submitted in [this spreadsheet](https://docs.google.com/spreadsheets/d/1wBqvCvmou4afnb0p8lBXVvFmsl-j0IehS7GdfJybGzg/edit#gid=518252060))
-* **Deal Reg goal:** (answer manually added by CMM)
-* **Budgeted costs:** (answer manually added by CMM)
-* **Total cost of campaign:** (answer manually added by CMM)
+  
+* **Date(s):** {{startDate}} - {{endDate}}
+* **Campaign Type:** Partner - MDF
+* **Worked by Sales Dev:** {{workedBySalesDev}}
+* **Tactic/Event Type:** {{partnerCampaignType}}
+* **Campaign Name:** {{campaignName}}
+* **Location:** `Insert the location of the activity`
+* **Event website:** `Insert the event website`
+* **Expected number of deal registrations:** {{expectedNumberDR}}
+* **Target number of contacts:** {{targetNumberContact}}
+* **Estimated pipeline created (USD):**  {{estimatedPipelineCreated}}
+* **Budgeted costs:** `Insert the budgeted cost`
+* **Total cost of campaign:** `Insert cost of campaign`
 * **Budget holder:** Channel Marketing
-* **Region:**
-* **Sub-Region:**
-* **Sales Territory (if specific):**
+* **Region:** {{partnerRegion}}
+* **Sub-Region**: {{geo}}
+* **Sales Territory (if specific):** `Insert the sales territory`
 * **Sales Segment:** Assumes both Large & MM unless otherwise explicitly noted.
+
+
+  
 
 ## :vertical_traffic_light: User Journey
 
+  
+
 (REQUIRED: Channel Marketing Manager to provide a description of the user journey. What is this campaign? How will the partner attract leads and drive ROI from this spend?)
 
-## Joint Messaging
-Please provide high level joint messaging concepts that you will be using with the campaign
+  
 
-## :paperclip: Channel Marketing & CAM Planning Spreadsheet
-Make a copy of the [Planning Spreadsheet](https://docs.google.com/spreadsheets/d/17s9Qk4xFm8dKUX2P7g0kAc-VmNsf8uG-vEGPIIIFINY/edit#gid=812678489&range=A1) and save here. When doing so, just delete out this entire line and leave the link back to the document itself. NOTE: Be sure the document can be edited by anyone at GitLab.
+## Joint Messaging
+
+Please provide high level joint messaging concepts that you will be using with the campaign 
 
 ## :level_slider: Sponsorship Level & Details
+
 (Fill in if applicable, delete if not.)
+
+  
 
 ## :mega: Does this event have a speaking engagement?
+
 (Fill in if applicable, delete if not.)
-
+  
 ## :busts_in_silhouette: Staffing
-Please read through the [Event Handbook page](/handbook/marketing/events/#employee-booth-guidelines) for best practices at events. Once you commit to an event, please make sure to plan to attend.
-   * [ ] CAM:
-   * [ ] Channel SA: If you need an SA to attend, [please follow their triage process](/handbook/marketing/events/#requesting-technical-staffing).
-   * [ ] Speaker: If you need a customer speaker, [please follow the Customer Reference Process](/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/customer-advocacy/customer-events/#requesting-a-reference-customer).
-   * [ ] other:
 
-### Lead follow-up with Channel Partner
-- [ ] Will the partner do initial lead follow-up? YES, based on [process outlined here](/handbook/marketing/marketing-operations/campaigns-and-programs/#passing-to-vartopia-and-partner-visibility).
-   - [ ] Please describe how the partner plans to follow-up on leads received from this event/campaign:
+ 
+
+Please read through the [Event Handbook page](https://about.gitlab.com/handbook/marketing/events/#employee-booth-guidelines) for best practices at events. Once you commit to an event, please make sure to plan to attend.
+
+* [ ] ESM
+* [ ] SA Request: If you need an SA to attend, [please follow their triage process](https://about.gitlab.com/handbook/marketing/events/#requesting-technical-staffing).
+* [ ] Speaker: If you need a customer speaker, [please follow the Customer Reference Process](https://about.gitlab.com/handbook/marketing/brand-and-product-marketing/product-and-solution-marketing/customer-advocacy/customer-events.html#requesting-a-reference-customer).
+* [ ] GitLab AE
+* [ ] Other:
+
+  
+  
+
+### Lead Follow-up with Channel Partner
+
+- [x] Will the partner do the initial lead follow-up? _(Auto-checked - if Sales Dev is involved make sure to uncheck)_
+
+  - [x] YES, based on [process outlined here](https://handbook.gitlab.com/handbook/marketing/channel-marketing/#channel-partner-lead-sharing-via-vartopia).
+	  - [x] Partner will submit for Deal Registration via Partner Portal
+          - [ ] Please describe how the partner plans to follow-up on leads received from this event/campaign:
+  - [ ] No
 - [ ] Please add any additional, relevant notes regarding the partnership on this event/campaign here:
-
-## :construction_site: Prepare
-
-<details>
-<summary> Expand  </summary>
-
-* [ ] Attendee List: Please link attendee list tab here. NOTE: This should be added as a tab on the planning and recap spreadsheet and should not be in a separate document.
-* [ ]  All calls scheduled or covered in regular synch meetings with attendees
-   * [ ]  Kick-off call with all DRI's scheduled 6 weeks pre-event
-   * [ ]  Prep call scheduled 1 week pre-event
-* [ ]  Logo, company description and artwork sent to organizer - [Company description, product messaging and GitLab positioning](/handbook/marketing/product-marketing/) and [GitLab Logos](https://about.gitlab.com/press/#press-kit)
-* [ ]  Press list requested and shared with GitLab PR (Highwire PR for AMER, Speakeasy for EMEA, Bench PR for APAC)
-* [ ]  Slack channel created and attendees invited
-* [ ]  Tickets allocated and ordered
-* [ ]  Save the Date sent for staff
-* [ ]  Staff registered to event
-
-</details>
-
-## :scroll: Backwall Display Setup Instructions
-
-<details>
-<summary> Expand  </summary>
-
-- [Coyote Display PDF Instructions](https://rhu270.veracore.com/gomi/TowneAp/GIT476/coyote_setupinstr.pdf)
-- [Coyote Display Video Instructions](https://www.youtube.com/watch?v=2oOHHpJ00JY)
-- [Coyote Display Case to Counter PDF Instructions](https://rhu270.veracore.com/gomi/TowneAp/GIT476/is_ocx.pdf)
-- [EuroFit Straightwall Display PDF Instructions](https://rhu270.veracore.com/gomi/TowneAp/GIT476/EUROFIT_setup_instructions.pdf)
-- [EuroFit Straightwall Display Video Instructions](https://www.youtube.com/watch?v=yKTlGCnWO_A)
-
-</details>
-
-## :performing_arts: Booth/Theatre
-
-<details>
-<summary> Expand  </summary>
-
-* [ ]  Booth design issue created (if required)
-* [ ]  Positioning and Messaging confirmed
-* [ ]  Booth items ordered: Electric, AV, furnishings, carpet, booth buildout, etc.
-* [ ]  Booth staff scheduled and added to the Planning Spreadsheet
-* [ ]  Booth slide deck created
-* [ ]  Click through demo set up (iPad)
-
-</details>
 
 ## :package: Swag and Event Assets
 
 <details>
-<summary> Expand  </summary>
 
-For all details regarding swag, [please see here](/handbook/marketing/channel-marketing/#requesting-swag-for-channel-events-and-awards).
+<summary> Expand </summary>
+
+For all details regarding swag, [please see here](https://about.gitlab.com/handbook/marketing/channel-marketing/#requesting-swag-for-channel-events-and-awards).
 
 ### Shipping Details
+
 - [ ] Ship from Vendor:
 - [ ] Please list what is being shipped (including quantities):
 - [ ] Tracking:
-
 </details>
+
+  
+  
 
 ## :checkered_flag: Post Event
 
+
 <details>
-<summary> Expand  </summary>
 
-* [ ]  Lead list received from organizer
-* [ ]  All pictures uploaded to Google Drive
-* [ ]  List locked (all changes after lock to be made in SFDC) and leads uploaded to SFDC campaign
-* [ ]  Lead list cleaned and uploaded and add to nurture submitted
-* [ ]  Follow up email triaged
-* [ ]  Event recap provided by staff in the Planning Spreadsheet
+<summary> Expand </summary>
 
+* [ ] Import lead list to Google Drive 
+* [ ] Add proof of performance to the epic by posting the SFDC Fund Claim link
+ 
 </details>
+ 
 
-## Sub-Issue Creation
-* [ ] [Program Creation + Tracking](https://gitlab.com/gitlab-com/marketing/demand-generation/campaigns/-/issues/new?issuable_template=request-program-tracking) - Partner Team creates, assigns to Verticurl
-* [ ] [List Clean and Upload](https://gitlab.com/gitlab-com/marketing/marketing-operations/-/issues/new?issuable_template=mdf-list-upload) - Partner Team creates, assigns to MOps
-* [ ] [Create Proof of Performance Issue](https://gitlab.com/gitlab-com/marketing/partner-marketing//-/issues/new?issuable_template=channel_mdf_pop) - Partner Team creates
+/label ~"mktg-status::wip" ~“Channel Marketing” ~"Channel" ~"MDF" ~”Pending MDF Approval”
 
-/label ~"mktg-status::wip"  ~"Channel Marketing" ~"Channel" ~"MDF"
+/assign {{userHandle}}
+
 /confidential
+
+{{/fields}}
+
 ```
 
 ## Channel Events
