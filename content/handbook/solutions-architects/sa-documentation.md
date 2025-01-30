@@ -42,7 +42,21 @@ While the solutions area is more flexible to account for solution oriented asset
 
 It is important that MRs for Solution Docs use the appropriate MR Template so that the documentation change is not routed through the normal tech editing process and CI jobs - but through the optimized workflow of Solutions Docs instead.
 
+### Documentation Itself
+
 1. Prepare your changes in https://gitlab.com/gitlab-org/gitlab
 1. **IMPORTANT:** When preparing your Merge Request, use the MR Template called "Documentation SA Solutions Docs"
    1. This leaves off the label ~"docs::improvement" and adds the label ~"Solutions" (which also affects which CI jobs run)
    1. This adds the appropriate reviewers (which can be seen in the MR template here: https://gitlab.com/gitlab-org/gitlab/-/blob/master/.gitlab/merge_request_templates/Documentation%20SA%20Solutions%20Docs.md)
+
+An example of Docs MR to add Rust to Solutions Index: [Rust Solution Index (SSOT)](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/156543)
+
+Other MR Examples: [Solutions Docs MRs](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/?sort=updated_desc&state=merged&label_name%5B%5D=Solutions&first_page_size=20)
+
+### Navigation Updates MR (if needed)
+
+When creating new files or directories (or moving files or directories) a seperate MR is required to alter the site navigation. If only correcting existing documents that already have satisfactory navigation in place, a navigation MR is not needed.
+
+This is described here: https://docs.gitlab.com/ee/development/documentation/site_architecture/global_nav.html#add-a-navigation-entry 
+
+An example of Navigation MR for a new section - correlates to above RUST Docs MR example: [Add navigation for new solutions docs section for rust](https://gitlab.com/gitlab-org/gitlab-docs/-/merge_requests/4863)
