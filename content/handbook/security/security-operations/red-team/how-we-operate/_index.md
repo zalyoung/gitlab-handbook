@@ -8,7 +8,7 @@ no_list: true
 We aim to safely and effectively conduct operations in order to emulate relevant adversaries to GitLab.
 
 - We work with the [Threat Intelligence team](../../threat-intelligence/) to identify the most relevant threats to emulate.
-- We conduct operations ethically and responsibly without causing harm to GitLab or its team members.
+- We conduct operations ethically and responsibly [without causing harm](rules-of-engagement.md/#general-safety-guidelines) to GitLab or its team members.
 - We maintain a **good trust relationship** with the rest of the Security division and the wider GitLab company.
 
 It's important to us to intentionally and enthusiastically collaborate with the rest of the company, to balance out the semi-private, sometimes hidden nature of our work.
