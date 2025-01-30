@@ -354,6 +354,10 @@ the steps we need to do in order to ship this to customers.
    scopes
    1. We should be allow the agent to only push code or only post comments and
       we want this to be enforced in the auth token, not in Duo Workflow Service
+1. Further lock down the auth token used by Duo Workflow:
+   1. Prevent the token from being re-used by a different IP address. Once it is
+      used once we remember the client IP address and block future usage from a
+      different IP address
 1. Introduce a UI in GitLab for HiTL interactions
 1. Roll out to beta customers
 1. Work in improving the user experience for making code changes:
