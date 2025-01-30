@@ -156,7 +156,7 @@ The schema serves six essential functions:
 1. **Business Logic Application** Implement transformations needed before data combination.
 1. **Reference Data Integration** Incorporate foreign keys and identifier fields for proper joining.
 1. **Source Unification** Combine multiple data sources with consistent formatting.
-6. **Performance Optimization** Break down large datasets for efficient processing.
+1. **Performance Optimization** Break down large datasets for efficient processing.
 
 While the `COMMON_PREP` schema is optional, it provides significant value when used appropriately. These principles establish a foundation for clean, maintainable, and efficient data modeling that supports diverse analytical needs while preventing unnecessary complexity.
 
@@ -451,7 +451,7 @@ If row level security is to be implented on the `mart_team_member_directory` tab
 
 Then, using the guidelines outlined in [Tableau Developers Guide](/handbook/enterprise-data/platform/tableau/tableau-developer-guide/#row-level-security), a Data Source and filters would be created.
 
-# Technical Implementation Details
+## Technical Implementation Details
 
 ### Naming Standards
 
