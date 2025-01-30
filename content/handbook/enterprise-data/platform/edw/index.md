@@ -11,9 +11,9 @@ GitLab's Enterprise Data Warehouse serves as our central repository for analytic
 Our warehouse architecture is organized into four distinct schemas:
 
 1. **COMMON Schema:** Houses our Enterprise Dimensional Model (EDM), serving as the heart of our integrated application data. This schema implements the Kimball methodology to ensure the highest data quality standards.
-2. **SPECIFIC Schema:** Maintains independent application data that doesn't require integration with other systems, following our Trusted Data Development process while avoiding unnecessary complexity.
-3. **WORKSPACE Schema:** Provides a flexible environment for experimentation and prototyping, serving as a staging area for future EDM solutions.
-4. **LEGACY Schema:** Maintains historical modeling approaches as we strategically deprecate and migrate critical systems to our modern architecture.
+1. **SPECIFIC Schema:** Maintains independent application data that doesn't require integration with other systems, following our Trusted Data Development process while avoiding unnecessary complexity.
+1. **WORKSPACE Schema:** Provides a flexible environment for experimentation and prototyping, serving as a staging area for future EDM solutions.
+1. **LEGACY Schema:** Maintains historical modeling approaches as we strategically deprecate and migrate critical systems to our modern architecture.
 
 ## The Data Journey
 
@@ -93,21 +93,21 @@ This approach creates several schema patterns:
 Dimensional models are built in four key steps:
 
 1. Choose the business process (e.g., track monthly revenue)
-2. Declare the grain (e.g., per customer)
-3. Identify the dimensions
-4. Identify the facts
+1. Declare the grain (e.g., per customer)
+1. Identify the dimensions
+1. Identify the facts
 
 ### Benefits of Dimensional Modeling
 
 1. Industry-standard design proven successful over decades
-2. Easy to understand and access data structures suitable for business teams
-3. Centralized implementation of business logic and consistent definitions
-4. Support for "plug and play" of new subject areas
-5. Increased model power as dimensions are added
+1. Easy to understand and access data structures suitable for business teams
+1. Centralized implementation of business logic and consistent definitions
+1. Support for "plug and play" of new subject areas
+1. Increased model power as dimensions are added
 
 The dimensional model grows stronger over time as more dimensions are added, providing a flexible and scalable foundation for enterprise analytics.
 
-# Schemas
+## Schemas
 
 Our schema design reflects the natural progression of data through our warehouse, from initial ingestion to final consumption. Raw data enters through dedicated schemas, undergoes transformation in preparation schemas, and ultimately resides in consumption-ready schemas that support our dimensional model. This layered approach allows us to maintain clean handoffs between different stages of data processing while ensuring data quality and consistency throughout the pipeline. Each schema serves as a checkpoint in our data's journey, with clear responsibilities and governance rules that help maintain the integrity of our data warehouse.
 
@@ -126,21 +126,21 @@ Four fundamental principles guide development and maintenance:
 - Reduces maintenance overhead
 - Prevents redundant implementations
 
-2. **Lowest Grain Preservation** Keep prep models at the lowest possible grain of the dimensional entity. This:
+1. **Lowest Grain Preservation** Keep prep models at the lowest possible grain of the dimensional entity. This:
 
 - Establishes them as the Single Source of Truth (SSOT)
 - Enables flexible downstream modeling
 - Supports various model types (`DIM`, `FACT`, `MART`, `MAPPING`, `BDG`, `REPORT`)
 - Avoids limiting future analysis capabilities
 
-3. **Comprehensive Data Retention** Avoid filtering records in the `COMMON_PREP` schema. Instead:
+1. **Comprehensive Data Retention** Avoid filtering records in the `COMMON_PREP` schema. Instead:
 
 - Implement filtering in `COMMON` schema and downstream
 - Maintain data availability for various use cases
 - Prevent premature data exclusion
 - Support diverse analytical needs
 
-4. **Pragmatic Model Creation** Skip the prep layer when direct transformation to Common schema is more efficient:
+1. **Pragmatic Model Creation** Skip the prep layer when direct transformation to Common schema is more efficient:
 
 - Avoid pattern-based modeling
 - Eliminate unnecessary complexity
@@ -152,10 +152,10 @@ Four fundamental principles guide development and maintenance:
 The schema serves six essential functions:
 
 1. **Surrogate Key Generation** Create and manage keys used throughout the Common Schema.
-2. **Data Cleansing** Standardize data types and handle `NULL` values consistently.
-3. **Business Logic Application** Implement transformations needed before data combination.
-4. **Reference Data Integration** Incorporate foreign keys and identifier fields for proper joining.
-5. **Source Unification** Combine multiple data sources with consistent formatting.
+1. **Data Cleansing** Standardize data types and handle `NULL` values consistently.
+1. **Business Logic Application** Implement transformations needed before data combination.
+1. **Reference Data Integration** Incorporate foreign keys and identifier fields for proper joining.
+1. **Source Unification** Combine multiple data sources with consistent formatting.
 6. **Performance Optimization** Break down large datasets for efficient processing.
 
 While the `COMMON_PREP` schema is optional, it provides significant value when used appropriately. These principles establish a foundation for clean, maintainable, and efficient data modeling that supports diverse analytical needs while preventing unnecessary complexity.
@@ -190,7 +190,7 @@ Dimension tables supply the descriptive attributes that give context to our busi
 - Customer dimensions used in sales and support
 - Product dimensions used in inventory and sales
 
-2. **Local Dimensions** Specific to a single business process or fact table, these dimensions provide context for particular events or metrics. Examples include:
+1. **Local Dimensions** Specific to a single business process or fact table, these dimensions provide context for particular events or metrics. Examples include:
 
 - Support ticket status
 - Order types
@@ -201,6 +201,7 @@ Dimension tables supply the descriptive attributes that give context to our busi
 ##### Understanding Time Perspectives
 
 Data analysis typically requires two viewpoints: current and historical. The current view uses up-to-date dimension values, while historical analysis needs to understand how things looked at specific points in time. For example:
+
 - Analyzing sales with a previous product catalog
 - Tracking customer location changes over time
 - Understanding organizational structure changes
@@ -210,22 +211,25 @@ Data analysis typically requires two viewpoints: current and historical. The cur
 We implement three approaches to handle time-based changes:
 
 1. **Type 1 Dimensions**
- - Overwrite values when they change
- - Maintain only current state
- - Provide simplest implementation
- - Lose historical context
 
-2. **Type 2 Dimensions (SCD)**
- - Add new records for changes
- - Track validity periods with `valid_from` and `valid_to` dates
- - Enable historical analysis
- - Maintain complete change history
+- Overwrite values when they change
+- Maintain only current state
+- Provide simplest implementation
+- Lose historical context
 
-3. **Type 3 Dimensions**
- - Maintain current and alternate values
- - Enable multiple analytical perspectives
- - Support dual categorization needs
- - Not currently implemented in our EDM
+1. **Type 2 Dimensions (SCD)**
+
+- Add new records for changes
+- Track validity periods with `valid_from` and `valid_to` dates
+- Enable historical analysis
+- Maintain complete change history
+
+1. **Type 3 Dimensions**
+
+- Maintain current and alternate values
+- Enable multiple analytical perspectives
+- Support dual categorization needs
+- Not currently implemented in our EDM
 
 ##### SCD in Practice
 
@@ -271,13 +275,13 @@ Fact tables record the business events we want to analyze. They contain the quan
 
 1. **Performance Optimization** Large atomic fact tables can be filtered into focused subsets for specific business needs. For example, if a business analytics team regularly analyzes only 10% of a large event table, a derived fact can provide this subset, optimizing query performance and improving user experience.
 
-2. **Metric Standardization** Derived facts precompute commonly used aggregations, particularly beneficial for complex metrics:
+1. **Metric Standardization** Derived facts precompute commonly used aggregations, particularly beneficial for complex metrics:
 
 - Semi-additive measures like ratios that can't be summed across grains
 - Balance-type metrics such as ARR or retention numbers
 - Account balances that require specific aggregation rules
 
-3. **Cross-Process Analysis** Through "Drill Across Facts," derived facts can combine multiple fact tables using conformed dimensions. This process:
+1. **Cross-Process Analysis** Through "Drill Across Facts," derived facts can combine multiple fact tables using conformed dimensions. This process:
 
 - Links related business processes
 - Maintains dimensional consistency
@@ -296,12 +300,12 @@ Facts typically contain three types of measures:
 - Quantity sold
 - Count of events
 
-2. **Semi-Additive**: Can be summed across some dimensions
+1. **Semi-Additive**: Can be summed across some dimensions
 
 - Account balances (sum across accounts, not time)
 - Inventory levels (sum across products, not time)
 
-3. **Non-Additive**: Cannot be summed, require other calculations
+1. **Non-Additive**: Cannot be summed, require other calculations
 
 - Ratios
 - Percentages
@@ -370,14 +374,14 @@ Mart models are typically organized by business function:
 - Leverages standardized keys and relationships
 - Never built on other mart models
 
-2. **Optimized for Analysis**
+1. **Optimized for Analysis**
 
 - Pre-joined for common queries
 - Includes frequently used calculations
 - Maintains appropriate grain
 - Considers performance implications
 
-3. **Business-Oriented Design**
+1. **Business-Oriented Design**
 
 - Named for business concepts
 - Documented in business terms
@@ -478,14 +482,14 @@ When handling non-CSV data sources, we prefer direct extraction from source syst
 - Best for < 1,000 rows
 - Preferred for small datasets
 
-2. **GCP Driveload**
+1. **GCP Driveload**
 
 - Stable and predictable
 - No unexpected changes
 - Requires manual file updates
 - Preferred for larger datasets
 
-3. **Sheetload**
+1. **Sheetload**
 
 - Enables team data entry
 - Less stable implementation
@@ -517,7 +521,7 @@ This ensures:
 
 These diagrams provide the relationships between data objects in the Enterprise Dimensional Model across the major business process fly wheels.
 
-#### Lead to Cash ERDs
+### Lead to Cash ERDs
 
 <details markdown=1>
 
@@ -533,7 +537,7 @@ These diagrams provide the relationships between data objects in the Enterprise 
 
 </details>
 
-#### Product Release to Adoption ERDs
+### Product Release to Adoption ERDs
 
 <details markdown=1>
 
@@ -544,7 +548,7 @@ These diagrams provide the relationships between data objects in the Enterprise 
 
 </details>
 
-#### Team Member ERDs
+### Team Member ERDs
 
 <details markdown=1>
 
