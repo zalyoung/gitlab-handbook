@@ -258,6 +258,7 @@ Kibana can be used to determine if a user was removed (group or subgroup), when,
 To find the log entry in `pubsub-rails-inf-gprd-*` with the following data points:
 
 #### Confirm the Remove User (DELETE)
+
 1. Add a positive filter on `madejson.meta.caller_id` for `Groups::GroupMembersController#destroy`
 1. Add a positive filter on `json.meta.user_id` for user id of person that performed the remove user action in the UI
 1. Add a positive filter on `json.method` for `DELETE`
@@ -406,7 +407,7 @@ Kibana can be used to search for specific errors related to a purchase attempt. 
 
 #### GitLab.com purchase errors
 
-**Note**: You need to have the **GitLab username** of the account used to make the purchase. Sometimes the user fills the `GitLab username` value of the ticket fields, or you can check the ticket requester's GitLab username in the [GitLab User Lookup Zendesk App](/handbook/support/readiness/operations/docs/zendesk/apps/#gitlab-super-app).
+**Note**: You need to have the **GitLab username** of the account used to make the purchase. Sometimes the user fills the `GitLab username` value of the ticket fields, or you can check the ticket requester's GitLab username in the [GitLab User Lookup Zendesk App](https://handbook.gitlab.com/handbook/support/readiness/operations/docs/zendesk/apps/#gitlab-user-lookup).
 
 1. Navigate to [Kibana](https://log.gprd.gitlab.net/)
 1. Ensure the `pubsub-rails-inf-gprd-*` index pattern (GitLab.com logs) is selected.
