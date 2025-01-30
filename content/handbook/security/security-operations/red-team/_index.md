@@ -88,13 +88,6 @@ We also track results via metrics which are available internally, including MITR
 
 [Read more...](how-we-operate/)
 
-## Additional Resources/Further Reading
-
-- [Public Red Team repository](https://gitlab.com/gitlab-com/gl-security/security-operations/redteam/redteam-public)
-  - Contains tools, scripts/proofs of concept and tech notes that have been made public
-- [Internal Red Team repository](https://gitlab.com/gitlab-com/gl-security/security-operations/redteam/redteam-internal) (Available for GitLab team members only)
-- Link to blogs, tech notes, etc.
-
 ## Is This the Red Team?
 
 GitLab team members: See something potentially suspicious and want to check in with us? We won't answer this question. Read more about why in [_Is This the Red Team?_](how-we-operate/#is-this-the-red-team)
