@@ -8,7 +8,7 @@ Maintaining an effective and efficient agenda is important to get the best out o
 
 1. Make sure you use a consistent agenda format for each 1-1.
 1. Both parties add items to the agenda. Preferably, the majority added by the team member. If the manager puts more than half of the items on the agenda this is an indication that something is wrong.
-1. Reference the [suggested format for leadership]({{< ref "suggested-agenda-format" >}}) as necessary.
+1. Reference the [suggested format for leadership](/handbook/leadership/1-1/suggested-agenda-format/) as necessary.
 
 ## Conducting a 1-1
 

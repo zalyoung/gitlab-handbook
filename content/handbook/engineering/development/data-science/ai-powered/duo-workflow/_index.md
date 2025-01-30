@@ -90,7 +90,7 @@ The Duo Workflow Team communicates based on the following guidelines:
 
 ### ⏲ Time Off
 
-Team members should add any [planned time off](/handbook/people-group/paid-time-off/#paid-time-off) in the "Workday" slack app, in accordance with the [taking time off](https://handbook.gitlab.com/handbook/engineering/#taking-time-off) policy, including creating a [PTO coverage issue](https://gitlab.com/gitlab-com/engineering-division/pto-coverage/-/issues/new).
+Team members should add any [planned time off](/handbook/people-group/paid-time-off/#paid-time-off) in the "Workday" slack app, in accordance with the [taking time off](/handbook/engineering/#taking-time-off) policy, including creating a [PTO coverage issue](https://gitlab.com/gitlab-com/engineering-division/pto-coverage/-/issues/new).
 
 ### 🤙 Ad-hoc sync calls
 

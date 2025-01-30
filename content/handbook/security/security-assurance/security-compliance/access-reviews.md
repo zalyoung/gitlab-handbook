@@ -64,7 +64,7 @@ The [Authomize review runbook here](https://gitlab.com/gitlab-com/gl-security/se
 
 In the event access is identified to no longer be required, open an [Access Removal](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/new?issue%5Bassignee_id%5D=&issue%5Bmilestone_id%5D=) issue for each account that no longer requires access and relate it to the system access review issue.
 
-If you have any questions or require assistance with completing an access review, please [contact the GitLab Security Compliance team]({{< ref "../security-compliance" >}}).
+If you have any questions or require assistance with completing an access review, please [contact the GitLab Security Compliance team](../security-compliance/).
 
 ### Access Review Cadence
 

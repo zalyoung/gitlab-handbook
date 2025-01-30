@@ -108,4 +108,4 @@ The Security Risk team acts as a shield between GitLab and the dangers lurking w
 
 ## Enrollment
 
-Ready to enroll? [Click here]({{< ref "security-shadow" >}}) for more information.
+Ready to enroll? [Click here](/handbook/security/security-shadow/) for more information.

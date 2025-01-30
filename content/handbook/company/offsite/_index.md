@@ -230,7 +230,7 @@ Examples of prep work include:
 - Executives working with their People Business Partners to prep any [Director + promotion nominations](/handbook/people-group/promotions-transfers/#promotions-to-senior-director)
 - Reviewing any Section Direction Materials for reviews, such as the [Growth Section's Direction](/handbook/marketing/growth/)
 - Executives propose [draft Key Results for their functions](/handbook/company/okrs/#executives-propose-okrs-for-their-functions)
-- [Watch this short clip on the danger of sticky bears]({{< ref "beware-sticky-bears" >}})
+- [Watch this short clip on the danger of sticky bears](/handbook/company/offsite/beware-sticky-bears/)
 
 Anyone who is presenting for a topic should share materials with the prep work.
 

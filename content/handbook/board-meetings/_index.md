@@ -196,7 +196,7 @@ Each quarter, E-Group can choose to invite an additional team member as a Key Ta
 1. High performance
 1. Clear results
 1. Function (should have representation across functions throughout the year)
-1. Diversity (participation from members in [GitLab Team Member Resource Groups]({{< ref "erg-guide" >}}))
+1. Diversity (participation from members in [GitLab Team Member Resource Groups](/handbook/company/culture/inclusion/erg-guide/))
 
 Once the Key Talent Guest has been identified, it is the relevant E-Group team member's responsibility to ensure that managers of this person are aware of the invite. The EBA to the CEO will then confirm that the guest is able to join. If not, the invite will go to the runner up. Once a Key Talent Guest is confirmed, the EBA to the CEO should enter their name in the [Key Talent Board Dinner Guests](#key-talent-board-dinner-guests).
 

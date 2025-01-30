@@ -24,7 +24,7 @@ The following rotations are defined:
     the either queue spikes.
   - Responsible for reviewing [security dashboards]({{< ref "security-dashboard-review" >}}) on a best-effort level
 - (Weekly Assignment) Triage Rotation (mentions and issues), by order of priority:
-  - First responder to [JiHu Contribution pings]({{< ref "jihu-security-review-process" >}}) that come into the `#sec-appsec` Slack channel
+  - First responder to [JiHu Contribution pings](/handbook/ceo/office-of-the-ceo/jihu-support/jihu-security-review-process/) that come into the `#sec-appsec` Slack channel
   - First responder to automated messages posted in the `#public_merge_requests_referencing_confidential_issues` Slack channel
     - Add a check mark emoji if the merge request can be public
     - If the merge request references a legitimate security issue
@@ -36,7 +36,7 @@ The following rotations are defined:
     - @gitlab-com/gl-security/product-security/appsec on GitLab.com
     - @appsec-team in Slack
   - First responder for issues created needing triage: [~security-triage-appsec issue search](https://gitlab.com/groups/gitlab-org/-/issues?scope=all&utf8=%E2%9C%93&state=opened&label_name%5B%5D=security-triage-appsec)
-    - Refer to [this page]({{ ref "engaging-with-security#reproducibility-on-security-issues" }}) to learn about the different labels that we can apply to issues when they're not vulnerabilities
+    - Refer to [this page](/handbook/security/engaging-with-security/#reproducibility-on-security-issues) to learn about the different labels that we can apply to issues when they're not vulnerabilities
 - (~Fortnightly Assignment) Security Engineer for [Security & Patch Releases](https://about.gitlab.com/releases/#patch-releases)
 - (Fortnightly Assignment, Federal AppSec only) Release Certifications
   - Responsible for the [release certification process]({{< ref "release-certification" >}})

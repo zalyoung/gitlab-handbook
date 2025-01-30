@@ -5,7 +5,7 @@ description: "The purpose of the Critical Logging Tiering Methodology is to supp
 
 ## Purpose
 
-The purpose of the Critical Logging Tiering Methodology is to support GitLab in categorizing logs based on their effect on GitLab's SaaS subscriptions and the achievement of GitLab's [mission]({{< ref "mission#mission" >}}) and [goals]({{< ref "mission#goals" >}}). Ultimately, this provides GitLab with a mechanism to take a proactive approach to comprehensive risk management which considers risks, such as information security and privacy risks, impacting business operations across the organization. Additionally, by classifying logging into specific tiers, GitLab will be in a better position to appropriately prioritize risk mitigation activities and tailor internal controls based on a log's related tier.
+The purpose of the Critical Logging Tiering Methodology is to support GitLab in categorizing logs based on their effect on GitLab's SaaS subscriptions and the achievement of GitLab's [mission](/handbook/company/mission/#mission) and goals. Ultimately, this provides GitLab with a mechanism to take a proactive approach to comprehensive risk management which considers risks, such as information security and privacy risks, impacting business operations across the organization. Additionally, by classifying logging into specific tiers, GitLab will be in a better position to appropriately prioritize risk mitigation activities and tailor internal controls based on a log's related tier.
 
 ## Scope
 

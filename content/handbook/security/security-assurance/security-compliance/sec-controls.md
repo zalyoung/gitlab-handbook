@@ -104,4 +104,4 @@ Note: In some instances, GitLab has created custom controls for the GCF which ex
 
 ## References
 
-<a href="{{< ref "../security-compliance" >}}" class="btn bg-primary text-white btn-lg">Return to the Security Compliance</a>
+<a href="../security-compliance/" class="btn bg-primary text-white btn-lg">Return to the Security Compliance</a>

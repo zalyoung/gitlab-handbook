@@ -7,7 +7,7 @@ Welcome to the Corporate FP&A team page!
 {.h2}
 
 - The Corporate FP&A handbook focuses on the partnerships with various teams and the expectations, deliverables, and cadence.
-- Please see the [team FP&A page]({{< ref "_index.md" >}}) for our mission, objectives, and key processes.
+- Please see the [team FP&A page](_index.md) for our mission, objectives, and key processes.
 - If you'd like to collaborate with Corporate FP&A, tag the **@corp-finance-team group** in the [#fpanda](https://gitlab.slack.com/archives/CLT54CDFE) channel or the channel where your team directly collaborates with FP&A
 
 ### Accounting Partnership
@@ -65,7 +65,7 @@ We collaborate with tax to review actual tax expenses, forecast tax provision fo
 ### Talent & Total Rewards Partnership
 
 - We collaborate with Total Rewards to align on budget and actuals for the Annual Compensation Review, promotions and benefits programs. We analyze scenarios in alignment with their team's strategic programs and benefits roadmap.  We collaborate in the Slack channel #fpa-total-rewards and have a weekly recurring meeting.
-- More details on how the [Compensation Program Budget]({{< ref "compensation-review-cycle#compensation-program-budget" >}}) is determined can be found in the total rewards handbook.
+- More details on how the [Compensation Program Budget](/handbook/total-rewards/compensation/compensation-review-cycle/) is determined can be found in the total rewards handbook.
 - As part of the annual planning process, FP&A helps to draft the next year's executive/director bonus plan structure as it relates to key performance metrics, payouts structure, acceleration milestones, etc. The Chief Financial Officer and the Chief People Officer will approve the bonus structure prior to Compensation Committee review. The deliverable for the Compensation Committee is a slide deck illustrating payment structure, milestone, and attainment various scenarios.
 - We further collaborate with Total Rewards regarding in-year executive/director bonus attainment/payout. We provide Total Rewards with quarterly forecasts for estimated executive/director bonus in preparation for Compensation Committee meetings. The deliverable to the Total Rewards team is a summary slide(s) detailing attainment in each key metric.
 - We assist Total Rewards with modeling for equity, including sizing equity pool sizes for the Employee Stock Purchase Plan and Equity Compensation.

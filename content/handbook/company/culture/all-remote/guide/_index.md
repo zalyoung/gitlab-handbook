@@ -11,7 +11,7 @@ GitLab is one of the world's largest all-remote companies with over 1,500 [team 
 
 Our all-remote workforce implementation is featured in [The Journal of Organizational Design](https://link.springer.com/article/10.1186/s41469-020-00087-8). It is also the centerpiece of case studies authored by [Harvard Business School](https://www.hbs.edu/faculty/Pages/item.aspx?num=57917) and [INSEAD](https://publishing.insead.edu/case/gitlab).
 
-On this page and subpages, we'll share what "all-remote" really means, [how it works at GitLab]({{< ref "../tips#how-it-works-at-gitlab" >}}), some [tips and tricks]({{< ref "../tips#tips-for-leaders-and-other-companies" >}}) for remote teams, and [resources]({{< ref "../resources" >}}) to learn more.
+On this page and subpages, we'll share what "all-remote" really means, [how it works at GitLab]({{< ref "../tips#how-it-works-at-gitlab" >}}), some [tips and tricks]({{< ref "../tips#tips-for-leaders-and-other-companies" >}}) for remote teams, and [resources](../resources/) to learn more.
 
 ## The Remote Manifesto
 
@@ -39,17 +39,17 @@ But we also recognize that being part of an all-remote company isn't for everyon
 
 ## Our long-term vision for remote work
 
-Learn more about GitLab's [long-term vision for remote work]({{< ref "remote-vision" >}}), and why we can embrace the future of work right now.
+Learn more about GitLab's [long-term vision for remote work](/handbook/company/culture/all-remote/remote-vision/), and why we can embrace the future of work right now.
 
 ## Why GitLab uses the term all-remote to describe its 100% remote workforce
 
 All-remote means that each individual in an organization is empowered to work and live where they are most fulfilled. By including the word "all" in "all-remote," it makes clear that every team member is equal. No one, not even the executive team, meets in-person on a daily basis.
 
-Learn more about [why GitLab uses the term **all-remote** to describe its 100% remote workforce]({{< ref "../terminology" >}}).
+Learn more about [why GitLab uses the term **all-remote** to describe its 100% remote workforce](../terminology/).
 
 ## The Remote Work Report by GitLab
 
-Created to foster collaboration, innovation, and evolution in the future of work, the [2020 Global Remote Work Report]({{< ref "remote-work-report" >}}) dissects the state of distributed work and surfaces key motivators for both employees and employers.
+Created to foster collaboration, innovation, and evolution in the future of work, the [2020 Global Remote Work Report](/handbook/company/culture/all-remote/remote-work-report/) dissects the state of distributed work and surfaces key motivators for both employees and employers.
 
 [Download the full report now](https://learn.gitlab.com/all-remote/remote-work-report).
 
@@ -57,7 +57,7 @@ Created to foster collaboration, innovation, and evolution in the future of work
 
 GitLab is a collaboration tool designed to help people work better together whether they are in the same location or spread across multiple time zones. Originally, GitLab let software developers collaborate on writing code and packaging it up into software applications. Today, GitLab has a wide range of capabilities used by people around the globe in all kinds of companies and roles.
 
-You can learn more at GitLab's [remote team solutions page]({{< ref "gitlab-for-remote" >}}).
+You can learn more at GitLab's [remote team solutions page](/handbook/company/culture/all-remote/gitlab-for-remote/).
 
 ## How we built our all-remote team
 
@@ -69,37 +69,37 @@ Find out [how GitLab makes it work]({{< ref "../tips#how-it-works-at-gitlab" >}}
 
 Operating in an all-remote environment provides a multitude of benefits and competitive advantages for employees, employers, and the world.
 
-Learn more about [benefits and advantages to operating in an all-remote environment]({{< ref "remote-benefits" >}}).
+Learn more about [benefits and advantages to operating in an all-remote environment](/handbook/company/culture/all-remote/remote-benefits/).
 
 ## Disadvantages
 
 Despite its many [advantages](benefits/), all-remote work isn't for everyone. It can have disadvantages for potential employees depending on their lifestyle and work preferences, as well as the organization.
 
-Learn more about [disadvantages to all-remote, along with solutions to these challenges]({{< ref "../drawbacks" >}}).
+Learn more about [disadvantages to all-remote, along with solutions to these challenges](../drawbacks/).
 
 ## The GitLab Test: 12 Steps to Better Remote
 
-Borrowing format from The Joel Test, this [12 question test]({{< ref "the-gitlab-test-remote-work" >}}) helps leaders understand if you're running a great remote operation.
+Borrowing format from The Joel Test, this [12 question test](/handbook/company/culture/all-remote/the-gitlab-test-remote-work/) helps leaders understand if you're running a great remote operation.
 
 ## Remote work emergency plan: What to do (and where to start)
 
 Due to global issues concerning COVID-19 (Coronavirus), many employees and employers are facing a new reality: they're remote, and they're unsure of when they'll be able to return to the office.
 
-For leaders who are suddenly managing work-from-home teams, here are [five things you can focus on right now]({{< ref "remote-work-emergency-plan" >}}) to maximize stability.
+For leaders who are suddenly managing work-from-home teams, here are [five things you can focus on right now](/handbook/company/culture/all-remote/remote-work-emergency-plan/) to maximize stability.
 
 ## Remote work starter guide: how to adjust to work-from-home
 
-For employees who are grappling with a new remote reality (or forced work-from-home), here are [five tips to implement straight away in your journey to acclimate]({{< ref "remote-work-starter-guide" >}}).
+For employees who are grappling with a new remote reality (or forced work-from-home), here are [five tips to implement straight away in your journey to acclimate](/handbook/company/culture/all-remote/remote-work-starter-guide/).
 
 ## The phases of remote adaptation
 
 As teams grapple with transitioning from a colocated environment to a remote one, it's common to see differing levels of adaptability.
 
-Learn more about the [phases of remote adaptation]({{< ref "phases-of-remote-adaptation" >}}).
+Learn more about the [phases of remote adaptation](/handbook/company/culture/all-remote/phases-of-remote-adaptation/).
 
 ## GitLab pioneers the 'Head of Remote' role
 
-By hiring a Head of Remote in 2019, GitLab [triggered a global movement]({{< ref "../head-of-remote" >}}) of appointing a dedicated leader to evolve a company's remote fluency.
+By hiring a Head of Remote in 2019, GitLab [triggered a global movement](../head-of-remote/) of appointing a dedicated leader to evolve a company's remote fluency.
 
 This page details the backstory of the movement's origins, explains what a Head of Remote is, provides job description templates, and open source certifications to enhance your markability as a remote work leader.
 
@@ -107,47 +107,47 @@ This page details the backstory of the movement's origins, explains what a Head 
 
 Many traits found in superb remote managers are also found in managers of colocated teams, though there are nuances to serving, leading, and guiding when managing teams that you do not see in-person each day.
 
-Learn what it takes to be a [great remote manager]({{< ref "being-a-great-remote-manager" >}}).
+Learn what it takes to be a [great remote manager](/handbook/company/culture/all-remote/being-a-great-remote-manager/).
 
 ## People
 
 All-remote organizations tend to attract people who place a high degree of value on autonomy, flexibility, empathy, and mobility. It also presents outsized opportunity for people who must live or prefer to live in rural areas, where well-paying careers in technical industries are few and far between.
 
-Learn more about the [types of people who are adopting a remote lifestyle]({{< ref "../people" >}}).
+Learn more about the [types of people who are adopting a remote lifestyle](../people/).
 
 ## Non-linear workday
 
 How diverse, invigorating, gratifying, and productive could your day be if you threw away the notion that you had to stick to a daily routine?
 
-Learn more about what life can look and feel like when [embracing a non-linear workday]({{< ref "non-linear-workday" >}}).
+Learn more about what life can look and feel like when [embracing a non-linear workday](/handbook/company/culture/all-remote/non-linear-workday/).
 
 ## Values
 
 While all-remote isn't a value itself, it's something we do in order to practice our values.
 
-Learn how a collection of values at GitLab [contributes to a thriving all-remote environment]({{< ref "remote-values" >}}).
+Learn how a collection of values at GitLab [contributes to a thriving all-remote environment](/handbook/company/culture/all-remote/remote-values/).
 
 ## Building and reinforcing a sustainable culture
 
 Culture is best defined not by how a company or team acts when all is well; rather, by the behaviors shown during times of crisis or duress.
 
-Learn more about [creating a thriving, lasting remote culture]({{< ref "building-culture" >}}).
+Learn more about [creating a thriving, lasting remote culture](/handbook/company/culture/all-remote/building-culture/).
 
 ## Combating burnout, isolation, and anxiety
 
 Mental health is an important topic for all companies, and creating a healthy remote workplace is essential to business success.
 
-Learn more about [combating burnout, isolation, and anxiety in the remote workplace]({{< ref "../mental-health" >}}).
+Learn more about [combating burnout, isolation, and anxiety in the remote workplace](../mental-health/).
 
 ## Jobs
 
 Job seekers are wise to point their efforts towards companies that are built to support 100% remote. You're able to bypass hours of lobbying for a remote arrangement during the interview process, and you're assured that the tools you need to operate effectively from anywhere will be included from the get-go.
 
-Learn more about [all-remote and remote-first organizations leading the way,  job boards that curate high-quality remote roles, and informal job searching tactics]({{< ref "../jobs" >}}).
+Learn more about [all-remote and remote-first organizations leading the way,  job boards that curate high-quality remote roles, and informal job searching tactics](../jobs/).
 
 ## How to evaluate a remote role
 
-Not every remote job is created equal. Learn more about [considerations and questions to ask when evaluating a remote role]({{< ref "../evaluate" >}}).
+Not every remote job is created equal. Learn more about [considerations and questions to ask when evaluating a remote role](../evaluate/).
 
 ## Getting started in a remote role
 
@@ -157,45 +157,45 @@ Learn more about [considerations and tips for starting a new remote role](/handb
 
 Managing an all-remote company is much like managing any other company. It comes down to trust, communication, and company-wide support of shared goals.
 
-Learn more about [what's required to effectively and efficiently manage an all-remote company]({{< ref "../management" >}}).
+Learn more about [what's required to effectively and efficiently manage an all-remote company](../management/).
 
 ## Forcing functions to work remote-first
 
 Whether it's unwinding from offices entirely and going all-remote, or attempting to create a level playing field for in-office and remote team members in a hybrid-remote arrangement, leaders should consider key forcing functions to ensure a commitment to remote-first practices.
 
-Learn more about [tactical, actionable steps]({{< ref "how-to-work-remote-first" >}}) that will send a clear message that leadership is serious about implementing remote in the organization.
+Learn more about [tactical, actionable steps](/handbook/company/culture/all-remote/how-to-work-remote-first/) that will send a clear message that leadership is serious about implementing remote in the organization.
 
 ## Collaboration and whiteboarding with remote teams
 
 "How do you collaborate and whiteboard in a remote environment?" is a frequently asked question. In a colocated setting, collaboration often happens face-to-face with a whiteboard on hand in a conference room. Working remotely sometimes feels like working on your own, with your own calendar, and your own schedule. With a common goal, strategic planning, and the right collaboration tools, working in a remote environment can be even more productive than working in an office.
 
-Learn more about [collaboration and whiteboarding in remote work environments]({{< ref "collaboration-and-whiteboarding" >}}).
+Learn more about [collaboration and whiteboarding in remote work environments](/handbook/company/culture/all-remote/collaboration-and-whiteboarding/).
 
 ## Remote onboarding
 
 Onboarding remotely should focus on three key dimensions: the organizational, the technical, and the social. By using this integrated approach, top companies enable their employees to stay and thrive in their roles. We'll show how you can focus on these three key dimensions of onboarding through an all-remote onboarding process.
 
-Learn more in GitLab's [guide to remote onboarding]({{< ref "../onboarding" >}}).
+Learn more in GitLab's [guide to remote onboarding](../onboarding/).
 
 ## Scaling
 
 GitLab believes that all-remote is the future of work, and that it not only works well at scale, but works *better* at scale than antiquated colocated models.
 
-Learn more about [challenges, solutions, and benefits of all-remote at scale]({{< ref "../scaling" >}}).
+Learn more about [challenges, solutions, and benefits of all-remote at scale](../scaling/).
 
 ## Stages of remote work
 
-Learn more about the [various stages of remote work]({{< ref "../stages" >}}), from no remote to all-remote.
+Learn more about the [various stages of remote work](../stages/), from no remote to all-remote.
 
 ## Tips for working remotely
 
-Building a remote team or starting your first all-remote job? Check out our [tips for working remotely.]({{< ref "../tips" >}})
+Building a remote team or starting your first all-remote job? Check out our [tips for working remotely.](../tips/)
 
 ## Resources
 
-Browse our [resources page]({{< ref "../resources" >}}) to learn more about GitLab's approach, read about remote work in the news, and see what other companies are leading the way.
+Browse our [resources page](../resources/) to learn more about GitLab's approach, read about remote work in the news, and see what other companies are leading the way.
 
-We've also compiled a [list of companies]({{< ref "inspired-by-gitlab" >}}) that have been inspired by GitLab's culture.
+We've also compiled a [list of companies](/handbook/company/inspired-by-gitlab/) that have been inspired by GitLab's culture.
 
 ## Hiring
 
@@ -203,125 +203,125 @@ GitLab envisions a world where talented, driven individuals can find roles and s
 
 Hiring across the globe isn't without its challenges. There are local regulations and risks unique to countries and regions around the globe. We believe that these challenges are worth overcoming, and opening our talent acquisition pipeline beyond the usual job centers creates a competitive advantage. We hope to see this advantage wane as more all-remote companies are created.
 
-Learn more about [hiring in an all-remote environment]({{< ref "../hiring" >}}).
+Learn more about [hiring in an all-remote environment](../hiring/).
 
 ## Compensation
 
-While there are certain complexities to paying team members who are spread out in over 50 countries, we believe that it's worthwhile. Being an all-remote company enables us to [hire the world's best talent]({{< ref "../hiring" >}}), not just the best talent from a few cities.
+While there are certain complexities to paying team members who are spread out in over 50 countries, we believe that it's worthwhile. Being an all-remote company enables us to [hire the world's best talent](../hiring/), not just the best talent from a few cities.
 
-Learn more about [compensation in an all-remote environment]({{< ref "remote-compensation" >}}).
+Learn more about [compensation in an all-remote environment](/handbook/company/culture/all-remote/remote-compensation/).
 
 ## Learning and Development
 
 We believe that all-remote companies are at a competitive advantage when it comes to educating and developing team members.
 
-Learn more on how to make [learning and development a companywide mindset in an all-remote environment]({{< ref "../learning-and-development" >}}).
+Learn more on how to make [learning and development a companywide mindset in an all-remote environment](../learning-and-development/).
 
 ## Self-service
 
 It's not what you know. It's knowing **where to look**. This is true at GitLab and other organizations that are intentional about documenting processes, and it is entirely counter to how typical work environments are structured.
 
-Learn more about the [importance of self-searching, self-learning, and self-service in an all-remote organization]({{< ref "../self-service" >}}).
+Learn more about the [importance of self-searching, self-learning, and self-service in an all-remote organization](../self-service/).
 
 ## Informal Communication
 
 In an all-remote environment, informal communication should be formally addressed. Leaders should organize informal communication, and to whatever degree possible, design an atmosphere where team members all over the globe feel comfortable reaching out to anyone to converse about topics unrelated to work.
 
-Learn more about [enabling informal communication in an all-remote company]({{< ref "../informal-communication" >}}).
+Learn more about [enabling informal communication in an all-remote company](../informal-communication/).
 
 ## Asynchronous communication
 
 In an all-remote setting, where team members are empowered to live and work where they're most fulfilled, mastering asynchronous workflows is vital to avoiding dysfunction and enjoying outsized efficiencies. Increasingly, operating asynchronously is necessary even in colocated companies which have team members on various floors or offices, especially when multiple time zones are involved.
 
-Learn more about [implementing asynchronous workflows]({{< ref "../asynchronous" >}}) in your organization, and the benefits to both employee and employer.
+Learn more about [implementing asynchronous workflows](../asynchronous/) in your organization, and the benefits to both employee and employer.
 
 ## Handbook-first documentation
 
 A handbook-first organization is home to team members who benefit from having a single source of truth to lean on. This type of organization is able to operate with almost supernatural efficiency. An organization that does not put concerted effort into documenting has no choice but to watch its team members ask and re-ask for same bits of data in perpetuity, creating a torturous loop of interruptions, meetings, and suboptimal knowledge transfers.
 
-Learn more about the [significance of handbook-first documentation]({{< ref "../handbook-first" >}}).
+Learn more about the [significance of handbook-first documentation](../handbook-first/).
 
 ## Meetings
 
-Learn how to decide when a meeting is necessary and [how to optimize them in an all-remote environment]({{< ref "../meetings" >}}).
+Learn how to decide when a meeting is necessary and [how to optimize them in an all-remote environment](../meetings/).
 
 ## Communicating effectively and responsibly through text
 
 Embracing text communication and learning to use it effectively requires a mental shift. This can feel unusual or even uncomfortable for those who come from a colocated environment, where in-person meetings and vocalized communiques are the norm.
 
-Learn more about [mastering the use of the written word in an all-remote setting]({{< ref "../effective-communication/" >}}).
+Learn more about [mastering the use of the written word in an all-remote setting](../effective-communication/).
 
 ## In-person interactions
 
 While there are tremendous advantages to operating a 100% remote company, leaders should consider being intentional about planning in-person elements, even if they're optional for team members.
 
-Learn more about [considerations for in-person interactions in a remote company]({{< ref "../in-person" >}}).
+Learn more about [considerations for in-person interactions in a remote company](../in-person/).
 
 ## Workspace
 
 All-remote enables the creation of a custom office, perfectly tailored for your desires and ergonomic needs.
 
-Learn more about [key considerations when building and evolving your remote workspace]({{< ref "../workspace" >}}).
+Learn more about [key considerations when building and evolving your remote workspace](../workspace/).
 
 ## Parenting as a remote worker
 
 Parents who work from home have unique demands and expectations, as well as unique challenges. Being an excellent coworker and an excellent parent is a tall order, particularly when childcare and school are impacted by a global crisis.
 
-Learn more about [balancing remote work and parenting]({{< ref "../parenting" >}}).
+Learn more about [balancing remote work and parenting](../parenting/).
 
 ## Stories
 
-Read the [stories]({{< ref "../stories" >}}) of some of our team members and hear how remote work has impacted their lives.
+Read the [stories](../stories/) of some of our team members and hear how remote work has impacted their lives.
 
 ## Interviews
 
-Read and listen to [interviews]({{< ref "../interviews" >}}) on the topic of working remotely, hosted by GitLab team members.
+Read and listen to [interviews](../interviews/) on the topic of working remotely, hosted by GitLab team members.
 
 ## History
 
-Learn about [historical milestones, inflection points, and prescient interviews]({{< ref "remote-history" >}}) in the evolution and expansion of remote work.
+Learn about [historical milestones, inflection points, and prescient interviews](/handbook/company/culture/all-remote/remote-history/) in the evolution and expansion of remote work.
 
 ## Hybrid-remote
 
 Hybrid-remote companies have one or more offices where a subset of the company commutes to each day, paired with a subset of the company that works remotely.
 
-Learn more about [advantages, challenges, and the primary differences between all-remote and other forms of remote working]({{< ref "../hybrid-remote" >}}).
+Learn more about [advantages, challenges, and the primary differences between all-remote and other forms of remote working](../hybrid-remote/).
 
 ## Comparing All-Remote Benefits vs. Hybrid-Remote Benefits
 
-Learn more about the [differences in workplace experience]({{< ref "all-remote-vs-hybrid-remote-comparison" >}}) by individuals who are *remote by default* in an all-remote setting vs. a hybrid-remote setting, working with colleagues who are onsite by default.
+Learn more about the [differences in workplace experience](/handbook/company/culture/all-remote/hybrid-remote/) by individuals who are *remote by default* in an all-remote setting vs. a hybrid-remote setting, working with colleagues who are onsite by default.
 
 ## Transitioning or adding remote
 
-Learn more about [considerations for transitioning a colocated or hybrid-remote company to 100% remote]({{< ref "../transition" >}}).
+Learn more about [considerations for transitioning a colocated or hybrid-remote company to 100% remote](../transition/).
 
 ## What not to do when implementing remote
 
 An organization should not attempt to merely replicate the in-office/colocated experience, remotely.
 
-Learn more about [what not to do when transitioning to remote, or moving towards remote]({{< ref "../what-not-to-do" >}}).
+Learn more about [what not to do when transitioning to remote, or moving towards remote](../what-not-to-do/).
 
 ## Working while traveling
 
 Working remotely enables a tremendous amount of freedom, enabling team members to work from anywhere so long as there is a reliable internet connection.
 
-Learn more about [optimizing comfort and efficiency when taking your office with you while traveling]({{< ref "working-while-traveling" >}}).
+Learn more about [optimizing comfort and efficiency when taking your office with you while traveling](/handbook/company/culture/all-remote/working-while-traveling/).
 
 ## Remote work conferences, summits, and events
 
 Particularly for those who are seeking a new role with an all-remote or remote-first company, events can be a great place to meet others who have experience and connections in the space.
 
-Learn more about [remote work conferences and summits, the power of networking, and the unique elements of experiencing a virtual event]({{< ref "../events" >}}).
+Learn more about [remote work conferences and summits, the power of networking, and the unique elements of experiencing a virtual event](../events/).
 
 ## Remote internships
 
 Remote internships  are unique in one primary way: there is no physical office involved.
 
-Learn more about considerations for both employee and employer as it relates to [remote internships]({{< ref "../internship" >}}) (also referred to as apprenticeships and co-ops).
+Learn more about considerations for both employee and employer as it relates to [remote internships](../internship/) (also referred to as apprenticeships and co-ops).
 
 ## All-remote Certification
 
-GitLab is a pioneer in the all-remote space. As one of the world's largest all-remote companies, we have developed a [custom certification program]({{< ref "remote-certification" >}}) to test and apply knowledge attained throughout the all-remote section of the handbook. Emerging leaders must quickly learn and deploy remote-first practices and skills while expanding their knowledge of remote management and overall remote fluency.
+GitLab is a pioneer in the all-remote space. As one of the world's largest all-remote companies, we have developed a [custom certification program](/handbook/company/culture/all-remote/remote-certification/) to test and apply knowledge attained throughout the all-remote section of the handbook. Emerging leaders must quickly learn and deploy remote-first practices and skills while expanding their knowledge of remote management and overall remote fluency.
 
 ## Remote work guides for teams
 
@@ -341,7 +341,7 @@ These remote work guides are written specifically for external parties who wish 
 
 ## All-remote Pick Your Brain interviews
 
-If people want advice on structuring or managing an all-remote organization, we'd love to connect. Learn more about [requesting a Pick Your Brain interview on all-remote]({{< ref "pick-your-brain" >}}).
+If people want advice on structuring or managing an all-remote organization, we'd love to connect. Learn more about [requesting a Pick Your Brain interview on all-remote](/handbook/company/culture/all-remote/pick-your-brain/).
 
 ## Contribute to this page
 
