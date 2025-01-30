@@ -33,4 +33,4 @@ In cases where an application code change triggers the emergency change process,
 
 Developers follow the standard review process, where the codebase maintainers review, approve, and merge the MR to resolve the issue. The MR author has to follow the [auto-deploy process](/handbook/engineering/deployments-and-releases/deployments/#gitlabcom-pick-label), and once the deployment is ready, the Release Manager will promote the deployment to GitLab SaaS, in coordination with the person on call.
 
-In cases where the emergency change is required as a means to rectify a security vulnerability, the [security release process](https://gitlab.com/gitlab-org/release/docs/-/blob/master/general/security/process.md) is followed.
+In cases where the emergency change is required as a means to rectify a security vulnerability, the [security release process](https://gitlab.com/gitlab-org/release/docs/-/blob/master/general/security/readme.md) is followed.
