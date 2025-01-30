@@ -614,7 +614,7 @@ See the [disability insurance flyer](https://drive.google.com/file/d/1sN3LR0mz7m
 
 <summary>GitLab Process for Disability Claims</summary>
 
-1. Team Members unable to work due to disability, as defined by the applicable short-term disability plan, should contact the Absence Management team (leaves@gitlab.com) as soon as possible.  See [Sick Time reporting procedures in the US]({{< ref "paid-time-off#sick-time-procedures---usa" >}}).
+1. Team Members unable to work due to disability, as defined by the applicable short-term disability plan, should contact the Absence Management team (leaves@gitlab.com) as soon as possible.  See [Sick Time reporting procedures in the US](/handbook/people-group/paid-time-off/#sick-time-procedures---usa).
 1. The Absence Management team will complete the Employer portion of the [Short-Term disability](https://drive.google.com/file/d/1guydUTEc0vBFMaa_IsSktZ5hXAbOXdvD/view?usp=sharing) application and email the completed portion along with the [Assignment of Benefits](https://drive.google.com/file/d/1nd0r5qj9PS21HDFH97Jbft9dZzlpTOsr/view?usp=sharing) form.
 1. At the end of the maximum benefit period for short-term disability of 12 weeks, the team member will determine whether they are able to return back to work.
    - If the team member intends to return on or before the end of the 12 weeks, they should email leaves@gitlab.com a Return to Work authorization form from their physician stating that they are able to return to work and listing any accommodations needed, if applicable, at least 5 calendar days before their return date. The Absence Management team will request this at least 5 business days before the team member's anticipated return to work date if not already provided by the team member.
@@ -721,7 +721,8 @@ You may now convert money from your pre-tax source, to the Roth source, all with
 
 <summary>401(k) Rollover</summary>
 
-If you leave GitLab and would like to rollover your 401(k) account, contact Fidelity directly to get more information about this process. If you need to locate your account number, you can find it by clicking Settings and then Accounts. You can reach Fidelity, by Chat in the app, or by phone at 800-835-5097. They also have a Rollovers section on their site going into detail.
+- If you have an existing fund that you would like to transfer to your GitLab 401(k) plan (rolling over an IRA), this is possible. Please complete the steps this [form](https://drive.google.com/file/d/1f8alBu0EijZ78Jh1QgGGWCdOqi_sZiO_/view) to update with Fidelity. If you need additional guidance you can reach out to Fidelity directly at 800-835-5097
+- If you leave GitLab and would like to rollover your 401(k) account, contact Fidelity directly to get more information about this process. If you need to locate your account number, you can find it by clicking Settings and then Accounts. You can reach Fidelity, by Chat in the app, or by phone at 800-835-5097. They also have a Rollovers section on their site going into detail.
 
 </details>
 

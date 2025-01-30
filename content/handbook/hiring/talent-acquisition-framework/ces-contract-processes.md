@@ -17,7 +17,7 @@ First, be sure to validate the following:
 
 ### Entity Contract Signatories
 
-This chart reflects the available signatories for each of GitLab's entities. They are listed in order of preferred signatory first. This chart should only be used for new hire contracts where GitLab has entities. This is not for internal moves such as [contract renewals]({{< ref "contracts-probation-periods#contract-renewals" >}}), [job change letters]({{< ref "contracts-probation-periods#job-change-letter" >}}), or [relocations]({{< ref "relocation" >}}).
+This chart reflects the available signatories for each of GitLab's entities. They are listed in order of preferred signatory first. This chart should only be used for new hire contracts where GitLab has entities. This is not for internal moves such as [contract renewals](/handbook/people-group/contracts-probation-periods/#contract-renewals), [job change letters](/handbook/people-group/contracts-probation-periods/#job-change-letter), or [relocations](/handbook/people-group/relocation/).
 
 | Entity | Signatory |
 |-------- | -----|
@@ -26,18 +26,18 @@ This chart reflects the available signatories for each of GitLab's entities. The
 | GitLab BV Belgium, Dutch & English | Marissa Farris, Jake Foster & Pattie Egan|
 | GitLab BV, Netherlands | Marissa Farris, Jake Foster & Pattie Egan|
 | GitLab Canada Corp | Simon Mundy |
-| GitLab France S.A.S. | Jake Foster, Pattie Egan, & Rob Allen |
+| GitLab France S.A.S. | Jake Foster, Rob Allen |
 | GitLab GK, Japan | Jess Dallmar, Rob Allen & Jack Connors Backup: Simon Mundy|
-| GitLab GmbH | Marissa Farris, Rob Allen & Pattie Egan|
-| GitLab Iberia S.L (Spain) | Jake Foster, Rob Allen, Pattie Egan. Backups: Jim Gladen & Simon Mundy |
-| GitLab Ireland LTD | Marissa Farris, Rob Allen, Jake Foster, Jack Connors & Pattie Egan|
+| GitLab GmbH | Marissa Farris, Rob Allen |
+| GitLab Iberia S.L (Spain) | Jake Foster, Rob Allen. Backups: Jim Gladen & Simon Mundy |
+| GitLab Ireland LTD | Marissa Farris, Rob Allen, Jake Foster, Jack Connors |
 | GitLab Israel LTD | Jim Gladen, Simon Mundy|
 | GitLab IT BV | Marissa Farris, Pattie Egan, Jake Foster, Jack Connors |
 | GitLab PTY Ltd, Australia | Jess Dallmar & Rob Allen, Jack Connors. Backup: Jim Gladen|
 | GitLab PTY Ltd, New Zealand | Jess Dallman & Rob Allen, Jack Connors. Backup: Jim Gladen|
 | GitLab South Korea | Jess Dallmar, Jack Connors & Rob Allen |
 | GitLab Singapore PTE. LTD. | Jess Dallmar, Jack Connors & Rob Allen. Backup: Simon Mundy |
-| GitLab UK Ltd | Marissa Farris, Jake Foster, Rob Allen, Pattie Egan|
+| GitLab UK Ltd | Marissa Farris, Jake Foster, Rob Allen |
 | JCLs | Choose signatory from the list above. For the US, Morgan Wilkins can also sign. |
 | PEOs | The Candidate Experience Specialist processing the offer. For JCLs, choose Morgan Wilkins or Marissa Farris |
 
@@ -370,7 +370,7 @@ The Candidate Experience Specialist needs to merge any additional candidate prof
 
 When an internal transition is taking place and the start date for that JCL is amended, please ensure to update the People Connect team via Slack in the `#people-connect_ces` channel of the new start date.
 
-If a team member goes through a promotion through WorkDay versus Greenhouse, a [Job Change Letter]({{< ref "promotions-transfers#job-change-letter" >}}) is prepared by the Total Rewards team as listed on their handbook page.
+If a team member goes through a promotion through WorkDay versus Greenhouse, a [Job Change Letter](/handbook/people-group/promotions-transfers/#job-change-letter) is prepared by the Total Rewards team as listed on their handbook page.
 
 CES: Follow the instructions below on how to create and send a job change letter.
 
@@ -445,7 +445,7 @@ The process for New Hires is as follows:
 1. The Candidate Experience Specialist will stage the contract for signature via DocuSign, CC the hiring manager, and CC the HRSavvy group email. This will ensure our payroll provider in this location can start their onboarding, well ahead of ours.
 1. Please note that you should *not* be running a criminal background check for the Netherlands, because they'll be doing a different process (Certificate of Good Conduct/VoGS) instead. Please select the Netherlands background check package which only includes employment verification and an extended global sanctions search.
 
-The People Operation Specialist are in charge of [contract renewals]({{< ref "contracts-probation-periods#contract-renewals" >}}). The process the **end of the first 12-month GitLab BV Netherlands temporary contract** is listed in their [Netherlands Renewal Process]({{< ref "contracts-probation-periods#netherlands-renewal-process" >}}) section of the [Contracts, Probation Periods & PIAA]({{< ref "contracts-probation-periods" >}}) handbook page.
+The People Operation Specialist are in charge of [contract renewals](/handbook/people-group/contracts-probation-periods/#contract-renewals). The process the **end of the first 12-month GitLab BV Netherlands temporary contract** is listed in their [Netherlands Renewal Process](/handbook/people-group/contracts-probation-periods/#netherlands-renewal-process) section of the [Contracts, Probation Periods & PIAA](/handbook/people-group/contracts-probation-periods/) handbook page.
 
 *GitLab IT BV contracts should only be used for contractors. All Netherlands **employees** should be issued the GitLab BV contract.*
 
@@ -504,7 +504,7 @@ To create the contract:
     - Click "Send Email"
 1. Ensure the start date is on a Monday, unless Monday is a holiday or the non-Monday date is legally required.
 1. The Candidate Experience Specialist will check if there is a probationary period.
-    - Go to [Probationary Periods for Team Members Employed by a PEO]({{< ref "contracts-probation-periods#probation-periods-of-team-members-employed-through-a-peo-or-an-entity" >}}) and check the candidate's country.
+    - Go to [Probationary Periods for Team Members Employed by a PEO](/handbook/people-group/contracts-probation-periods/#probation-period) and check the candidate's country.
     - Select the duration of the probationary period (if any) in the "Offer Details" dropdown. If there isn't one, select "N/A" in that field.
 1. The Candidate Experience Specialist will check if the contract is indefinite or fixed.
     - If the contract is indefinite, select "Indefinite" from the dropdown in "Offer Details".
@@ -586,7 +586,7 @@ The process for creating and sending an agreement is as follows:
 1. If the Nationality field is not filled out and cannot be found in the Reference Check form, CES sends "Contract Info Request-Global Upside" email to the new hire to collect additional details.
 1. Ensure the start date is on a Monday, unless Monday is a holiday or the non-Monday date is legally required.
 1. The Candidate Experience Specialist will check if there is a probationary period.
-    - Go to [Probationary Periods for Team Members Employed by a PEO]({{< ref "contracts-probation-periods#probation-periods-of-team-members-employed-through-a-peo-or-an-entity" >}}) and check the candidate's country.
+    - Go to [Probationary Periods for Team Members Employed by a PEO](/handbook/people-group/contracts-probation-periods/#probation-period) and check the candidate's country.
     - Select the duration of the probationary period (if any) in the "Offer Details" dropdown. If there isn't one, select "N/A" in that field.
 1. The Candidate Experience Specialist will check if the contract is indefinite or fixed.
     - If the contract is definite, select "Indefinite" from the dropdown in "Offer Details".
@@ -621,7 +621,7 @@ To create the contract:
     - Click "Send Email"
 1. Ensure the start date is on a Monday, unless Monday is a holiday or the non-Monday date is legally required.
 1. The Candidate Experience Specialist will check if there is a probationary period.
-    - Go to [Probationary Periods for Team Members Employed by a PEO]({{< ref "contracts-probation-periods#probation-periods-of-team-members-employed-through-a-peo-or-an-entity" >}}) and check the candidate's country.
+    - Go to [Probationary Periods for Team Members Employed by a PEO](/handbook/people-group/contracts-probation-periods/#probation-period) and check the candidate's country.
     - Select the duration of the probationary period (if any) in the "Offer Details" dropdown. If there isn't one, select "N/A" in that field.
 1. The Candidate Experience Specialist will check if the contract is indefinite or fixed.
     - If the contract is indefinite, select "Indefinite" from the dropdown in "Offer Details".
@@ -652,7 +652,7 @@ To create the contract:
 Kindly note the following when filling in this section:
 
 1. Contract Duration: Most contracts will be indefinite, unless specified by the Recruiter
-    - Probation Period: Use the default or minimum options specified by Remote. Please utilize the [Probation Section]({{< ref "contracts-probation-periods#probation-periods-of-team-members-employed-through-a-peo-or-an-entity" >}}) of the handbook to determine probation.
+    - Probation Period: Use the default or minimum options specified by Remote. Please utilize the [Probation Section](/handbook/people-group/contracts-probation-periods/#probation-period) of the handbook to determine probation.
     - For Mexico: When adding a team member to the Remote platform you should select 30 days as a Christmas bonus, not 15.
 1. Type of employee: Full time
 1. Annual Gross salary: as stated in the offer details in GH

@@ -4,7 +4,7 @@ title: "Red Team Rules of Engagement"
 
 This page outlines the general rules that apply to all work conducted by the Red Team. Individual operations may include additional rules defined during planning stages.
 
-Please refer to [our general handbook page]({{< ref "_index.md" >}}) to learn more about our team and what we do.
+Please refer to [our general handbook page](_index.md) to learn more about our team and what we do.
 
 ## Systems in Scope
 

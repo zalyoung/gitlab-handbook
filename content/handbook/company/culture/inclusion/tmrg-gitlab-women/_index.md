@@ -77,9 +77,9 @@ Join the [#candidate_tmrg-call Slack channel](https://app.slack.com/client/T0259
 
 ## Related Performance Indicators and Goals
 
-- [Women at GitLab]({{< ref "people-success-performance-indicators#diversity---women-at-gitlab" >}})
-- [GitLab Women in Management - 40% Goal]({{< ref "people-success-performance-indicators#diversity---women-in-management" >}})
-- [GitLab Women in Senior Leadership and Executive Roles]({{< ref "people-success-performance-indicators#diversity---women-in-senior-leadership-and-executive-roles" >}})
+- [Women at GitLab](/handbook/people-group/people-success-performance-indicators/#diversity---women-at-gitlab)
+- [GitLab Women in Management - 40% Goal](/handbook/people-group/people-success-performance-indicators/#diversity---women-in-management)
+- [GitLab Women in Senior Leadership and Executive Roles](/handbook/people-group/people-success-performance-indicators/#diversity---women-in-senior-leadership-and-executive-roles)
 
 ## Career Development Resources
 
@@ -91,7 +91,7 @@ If you have a resource you'd like to include, please open a merge request and co
 | ----- | ----- |
 | [Women at GitLab Mentorship Program](mentorship-program/) | FY22 Q2-Q3 program opportunity for mentorship at GitLab |
 | [WISE: Women in Sales Everywhere Memberships](https://www.womeninsaleseverywhere.com/) | In calendar year 2022, GitLab has allocated 15 licenses for women in the Sales organization to acceses memberships with [WISE](https://www.womeninsaleseverywhere.com/) including mentorship, events, and training. Reach out to TMRG leads if you are interested in a membership |
-| [GitLab Internship for Learning]({{< ref "internship-for-learning" >}}) | If your manager has coverage, you can spend a percentage of your time working (through an 'internship') with another team |
+| [GitLab Internship for Learning](/handbook/people-group/learning-and-development/internship-for-learning/) | If your manager has coverage, you can spend a percentage of your time working (through an 'internship') with another team |
 | [Growth and Development benefit]({{< ref "general-and-entity-benefits#growth-and-development-benefit" >}}) | This benefit is available for GitLab team members and can be used to cover professional development costs associated with external resources |
 | [CEO Shadow Program](/handbook/ceo/shadow)| The goal of the CEO Shadow Program is to give current and future directors and senior leaders at GitLab an overview of all aspects of the company |
 | [Women in the Workplace Study Webinar](https://web.archive.org/web/20220704095935/https://www.hracuity.com/webinar/leaninstudy-2020) | A webinar from Lean In discussing the unique impact that COVID-19 has had on women of different races and ethnicities, working mothers, women in senior leadership and women with disabilities |

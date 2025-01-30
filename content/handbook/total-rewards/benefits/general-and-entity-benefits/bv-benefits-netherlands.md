@@ -145,9 +145,9 @@ See the relevant information in our [Global Travel and Expense Policy - Internet
 ## GitLab B.V. Netherlands Leave Policy
 
 - Statutory Sick Leave
-  - Team members who are unable to work due to illness are entitled to 70% of their salary for up to 104 weeks. This leave runs concurrently with GitLab's [Sick Time Policy]({{< ref "paid-time-off#sick-time---taking-and-reporting" >}}). Team members will receive 100% of their salary for the first 25 days of illness.
+  - Team members who are unable to work due to illness are entitled to 70% of their salary for up to 104 weeks. This leave runs concurrently with GitLab's [Sick Time Policy](/handbook/people-group/paid-time-off/#sick-time---taking-and-reporting). Team members will receive 100% of their salary for the first 25 days of illness.
   - GitLab complies with [Dutch local Laws](https://business.gov.nl/regulation/reporting-employee-illness-recovery/) regarding sick leave. Local laws override any leave policy we have in the benefit of the team members.
-  - Team members must select `Out Sick` in Workday to ensure that all sick time is properly tracked. For complete reporting procedures, please review [the sick time procedure for The Netherlands here]({{< ref "paid-time-off#sick-time-procedures---netherlands" >}}).
+  - Team members must select `Out Sick` in Workday to ensure that all sick time is properly tracked. For complete reporting procedures, please review [the sick time procedure for The Netherlands here](/handbook/people-group/paid-time-off/#sick-time-procedures---netherlands).
 - Statutory Vacation Leave
   - Team members are entitled to at least 20 vacation days per year which run concurrently with GitLab PTO. The days will accrue at 1.67 days/month from the team member's start date. Any unused days will be carried into the next calendar year, but expire on July 1st. Should the team member leave GitLab within the calendar year, an entitlement to a pro rata part vacation days exists. Team members must designate all vacation days taken as `Paid Time OFF` in Workday to ensure that vacation entitlement is properly tracked.
 

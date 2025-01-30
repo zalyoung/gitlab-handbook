@@ -81,7 +81,7 @@ Ops Engineer always adds the reason why an issue is moved to blocked.
 
 #### Triaging new tickets
 
-We have a [performance indicator]({{< ref "people-success-performance-indicators#people-group-engineering-new-requests-are-triaged" >}})
+We have a [performance indicator](/handbook/people-group/people-success-performance-indicators/#people-group-engineering-new-requests-are-triaged)
 set to having new tickets being triaged within 7 working days. Everyone in the People Engineering team can triage new tickets. What we do when a new ticket comes in:
 
 - check if everything in the template is filled in, if not ask the author to fill it in and add the label `Workflow::Waiting`
@@ -92,7 +92,7 @@ set to having new tickets being triaged within 7 working days. Everyone in the P
 - determine if it is a new project `~PopsEng::New Project` or a bug `~PopsEng::Bug` or an addition to an existing project or integration `~PopsEng::Addition`
 - when we have all the information needed to start working on the ticket, label it with either `Workflow::Ready for Development` or `Workflow::Next Up`
 
-Note: for bugs, we have another [performance indicator]({{< ref "people-success-performance-indicators#people-group-engineering-bug-to-first-action" >}})
+Note: for bugs, we have another [performance indicator](/handbook/people-group/people-success-performance-indicators/#people-group-engineering-bug-to-first-action)
 that requires us to take action within one working day. This is because often a bug in any of the integrations would lead to inefficiences and manual work
 for the People Group.
 

@@ -297,7 +297,7 @@ Please plan your timelines accordingly based on the below SLAs. Keep in mind the
 
 *Please note that this is an interim process while the Regional Marketing team begins utilizing [Asana](/handbook/marketing/marketing-operations/asana/). Automations are still being implemented, so there will be many iterations to the below instructions as all global teams move to Asana.*
 
-- FMM pings the FMC in the main Field Marketing issue and requests the FMC move the GitLab issue to WIP
+- FMM pings the FMC in the main Field Marketing issue and requests the FMC create the Asana project
 - FMC reviews the Allocadia sub-category and line item panel details, as well as checks that the forecasted cost is in the correct month (according to the [prepaid policy](/handbook/finance/accounting/#prepaid-expense-policy)) for the tactic and makes any changes necessary
 - FMC creates a new project in Asana by following the below steps:
   - FMC adds the `Testing In-Progress` label to the GitLab issue. Adding this label will trigger the Asana project to be created utilizing the GitLab > Asana sync.
@@ -308,6 +308,7 @@ Please plan your timelines accordingly based on the below SLAs. Keep in mind the
 - FMC then pings the FMM in the GitLab issue that the event has been moved to Asana and is ready for the FMM to work through their tasks in Asana
 - FMM follows the tasks assigned to them in the project in Asana. Once the FMM completes the `FMC Checklist` and `Ecosystem Involvement` tasks, the FMC will be notified to move the project to WIP.
 - The FMC will then proceed with their tasks in Asana
+- Once the event is over, the FMM will confirm the lead list has been processed and any remaining tasks for the event have been completed. The FMM will then go to the top of the page and click `Set status` and select `Complete`.
 
 ## Plan to WIP Recorded Training 
 

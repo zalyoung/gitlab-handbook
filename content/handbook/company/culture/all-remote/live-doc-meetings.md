@@ -33,7 +33,7 @@ If you determine that a meeting is needed to move a project forward, address a b
 ### Pre-work and meeting kick-off
 
 1. Pre-read/watch or pre-work materials should be emailed to attendees at least 24 hours in advance.
-1. The meeting host ([DRI]({{< ref "directly-responsible-individuals" >}})) may summarize key points and context for the first 1 to 2 minutes of the meeting, but [few meetings should be presentations](/handbook/communication/#few-meetings-with-presentations).
+1. The meeting host ([DRI](/handbook/people-group/directly-responsible-individuals/)) may summarize key points and context for the first 1 to 2 minutes of the meeting, but [few meetings should be presentations](/handbook/communication/#few-meetings-with-presentations).
 1. Questions should be [written](/handbook/values/#write-things-down) and listed in advance of the scheduled meeting time; this tends to increase the quality of questions.
 
 ### Note taking and structure during the meeting
@@ -65,7 +65,7 @@ Establishing a culture where team members are cognizant that they work with othe
 Improving your meeting hygiene can start by shifting to live doc meetings. It is a relatively simple step, and tends to create an understanding of the value of documentation. If you're looking for a place to start in capturing team-wide buy-in on documentation, consider adding agendas to all work-related meetings and insist on live documentation during them.
 
 1. It prevents [knowledge leaks](effective-communication/#why-text-communication-is-important-for-successful-remote-working). Meetings without agendas are only useful to those in it, and even then, it's likely that outcomes will be forgotten, or critical pieces of the puzzle will become less familiar over time.
-1. It creates a more [inclusive]({{< ref "building-diversity-and-inclusion" >}}) meeting atmosphere. People can add questions and insights before (and even after) a synchronous meeting. Plus, those who are less comfortable verbalizing points in front of management can use the agenda doc to properly articulate their complete thoughts.
+1. It creates a more inclusive meeting atmosphere. People can add questions and insights before (and even after) a synchronous meeting. Plus, those who are less comfortable verbalizing points in front of management can use the agenda doc to properly articulate their complete thoughts.
 1. It creates a takeaway. The agenda doc lives longer after the meeting. If you want to share it further, perhaps sending to a person or team that you realize would have benefited from attending, you're able to do so.
 1. It shifts the memorization burden away from humans. If there's an agenda doc affixed to each calendar invite, you can easily search your calendar for key words (marketing, CEO, engineering, etc.), find a given meeting, and immediately access a documented history of what was discussed.
 
@@ -75,7 +75,7 @@ Not all meetings are inherently bad. We encourage managers to establish [regular
 
 Many meetings can be avoided by understanding how to [work well asynchronously](asynchronous/).
 
-For a deeper dive on how GitLab implements meetings in a remote work environment, visit our [all-remote meetings guide](meetings/). To learn more about how GitLab communications, visit our [Communications page]({{< ref "communication" >}}).
+For a deeper dive on how GitLab implements meetings in a remote work environment, visit our [all-remote meetings guide](meetings/). To learn more about how GitLab communications, visit our [Communications page](/handbook/communication/).
 
 ## Q: What is a live doc meeting?
 
@@ -103,4 +103,4 @@ Live doc meetings can happen fully in-person, fully online, or a on hybrid call 
 
 ---
 
-Return to the main [all-remote page]({{< ref "_index.md" >}}).
+Return to the main [all-remote page](_index.md).

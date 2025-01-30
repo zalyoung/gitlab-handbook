@@ -83,11 +83,11 @@ Below, use the infographic and list to understand what resources are available t
 
 | Resource | Details | Integrate It |
 | ---------- | ------------ | ------------ |
-| [Individual Growth Plan (IGP)]({{< ref "career-development#individual-growth-plan" >}}) | Organize career goals in one place. | **Idea Zone** and **Respond to Change** |
+| [Individual Growth Plan (IGP)](/handbook/people-group/learning-and-development/career-development/#individual-growth-plan) | Organize career goals in one place. | **Idea Zone** and **Respond to Change** |
 | [Growth and Development Benefit](/handbook/people-group/learning-and-development/growth-and-development/) | Complete academic study, professional certification, and more. | **Respond to Change** |
-| Coaching with [Modern Health]({{< ref "modern-health" >}}) or [Coaching Right Now (job grade 8+)](/handbook/people-group/learning-and-development/growth-and-development/#professional-coaching)**| Coaching (and therapy) sessions available. | **Activate your Feedback Squad |
-| [CEO Shadow](/handbook/ceo/shadow) (and other shadow programs) | Did you know of all the others shadow programs at GitLab: [Security]({{< ref "security-shadow" >}}), [Engineering Fellow](/handbook/engineering/fellow/shadow/), [CFO]({{< ref "cfo-shadow-program" >}}), [CMO](/handbook/marketing/cmo-shadow/). | **Work as a Set of Projects** |
-| [Internship for Learning]({{< ref "internship-for-learning" >}}) | Spend time during your work week on a new team, exploring and contributing to a new project. | **A/B test your Career** |
+| Coaching with [Modern Health](/handbook/total-rewards/benefits/modern-health/) or [Coaching Right Now (job grade 8+)](/handbook/people-group/learning-and-development/growth-and-development/#professional-coaching)**| Coaching (and therapy) sessions available. | **Activate your Feedback Squad |
+| [CEO Shadow](/handbook/ceo/shadow) (and other shadow programs) | Did you know of all the others shadow programs at GitLab: [Security](/handbook/security/security-shadow/), [Engineering Fellow](/handbook/engineering/fellow/shadow/), [CFO](/handbook/finance/growth-and-development/cfo-shadow-program/), [CMO](/handbook/marketing/cmo-shadow/). | **Work as a Set of Projects** |
+| [Internship for Learning](/handbook/people-group/learning-and-development/internship-for-learning/) | Spend time during your work week on a new team, exploring and contributing to a new project. | **A/B test your Career** |
 | Self-Paced Learning | Use free licenses from resources like [O'Reilly Learning]({{< ref "self-paced-learning#oreilly-learning" >}}), and [the Linux Foundation]({{< ref "self-paced-learning#linux-foundation-courses" >}})  | **Respond to Change** |
-| [Attend Group Conversations]({{< ref "group-conversations" >}}) | Check the GitLab Team Meetings calendar for schedule. | **Idea Zone** |
-| [Join a TMRG]({{< ref "erg-guide" >}}) | Review the handbook for active groups | **Activate your Feedback Squad** |
+| [Attend Group Conversations](/handbook/company/group-conversations/) | Check the GitLab Team Meetings calendar for schedule. | **Idea Zone** |
+| [Join a TMRG](/handbook/company/culture/inclusion/erg-guide/) | Review the handbook for active groups | **Activate your Feedback Squad** |

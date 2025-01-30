@@ -7,10 +7,10 @@ controlled_document: true
 
 ## Purpose
 
-The [Security Incident Response Team (SIRT)]({{< ref "sirt" >}}) is on-call [24/7/365](/handbook/engineering/on-call/#security-team-on-call-rotation) to assist with any security incidents. If an urgent security incident has been identified or you suspect an incident may have occurred, please refer to [Engaging the Security Engineer On-Call]({{< ref "engaging-security-on-call" >}}) and use the Slack /security command by going to a new message thread anywhere in Slack, typing the following command and pressing enter:
+The [Security Incident Response Team (SIRT)]({{< ref "sirt" >}}) is on-call [24/7/365](/handbook/engineering/on-call/#security-team-on-call-rotation) to assist with any security incidents. If an urgent security incident has been identified or you suspect an incident may have occurred, please refer to [Engaging the Security Engineer On-Call](/handbook/security/security-operations/sirt/engaging-security-on-call/) and use the Slack /security command by going to a new message thread anywhere in Slack, typing the following command and pressing enter:
 /security
 
-Information about SIRT responsibilities and incident ownership is available in the [SIRT On-Call Guide]({{< ref "secops-oncall" >}}).
+Information about SIRT responsibilities and incident ownership is available in the [SIRT On-Call Guide](/handbook/security/security-operations/secops-oncall/).
 
 ## Scope
 
@@ -74,7 +74,7 @@ Which team members have access to a specific incident is defined on a case to ca
 
 ### Incident Tracking
 
-Security incident investigations are opened in the [SIRT](https://gitlab.com/gitlab-sirt/) group. The project will be created using the [Incident Response project template](https://gitlab.com/gitlab-sirt/operations/-/blob/main/.gitlab/issue_templates/incident_slack_reported.md?ref_type=heads). To create the incident, the `/security` command in Slack has to be used over manual creation. Please refer to the [Engaging the Security Engineer On-Call page]({{< ref "engaging-security-on-call#engage-the-security-engineer-on-call" >}}) for further detail.
+Security incident investigations are opened in the [SIRT](https://gitlab.com/gitlab-sirt/) group. The project will be created using the [Incident Response project template](https://gitlab.com/gitlab-sirt/operations/-/blob/main/.gitlab/issue_templates/incident_slack_reported.md?ref_type=heads). To create the incident, the `/security` command in Slack has to be used over manual creation. Please refer to the [Engaging the Security Engineer On-Call page](/handbook/security/security-operations/sirt/engaging-security-on-call/#engage-the-security-engineer-on-call) for further detail.
 
 All artifacts from an investigation must be handled per the [Artifact Handling and Sharing](https://internal.gitlab.com/handbook/security/security_operations/sirt/operations/artifacts_handling_sharing/) internal handbook page.
 

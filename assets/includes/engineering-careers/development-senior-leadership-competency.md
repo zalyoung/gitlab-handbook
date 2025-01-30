@@ -1,2 +1,3 @@
-<%# ##### Development %>
-<%# No differences between engineering and Development senior leadership competencies %>
+##### Development
+
+* No differences between engineering and Development senior leadership competencies

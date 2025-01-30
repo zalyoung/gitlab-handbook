@@ -36,7 +36,7 @@ Team members registered to the Social Insurance are also registered with the Emp
 #### Sick Leave
 
 - When a person is unable to work because of injury or sickness and GitLab provides no pay, team members are allowed to use their statutorily accrued vacation but are not required to. They are also eligible for Japan's government Health Insurance Scheme which provides 60% of the standard monthly remuneration (determined on the basis of the insured person's basic monthly salary/wage) as a sickness or injury benefit from the fourth day, for up to 18 months. Team members will need to apply for this [here](https://www.ibmjapankenpo.jp/eng/member/application/rest_b.html). Per GitLab's work rules, team members with less than 5 years of service are entitled to 3 months of job protected leave.
-- Team members must designate any time off for illness as `Out Sick` in Workday to ensure that time off is properly tracked. In the event that a team member is out sick for greater than three consecutive calendar days, the team member must then follow the process with regard to [Communicating Illness-Related Leave]({{< ref "paid-time-off#communicating-illness-related-leave" >}}).
+- Team members must designate any time off for illness as `Out Sick` in Workday to ensure that time off is properly tracked. In the event that a team member is out sick for greater than three consecutive calendar days, the team member must then follow the process with regard to [Communicating Illness-Related Leave](/handbook/people-group/paid-time-off/#communicating-illness-related-leave).
 
 #### Annual/Vacation Leave
 

@@ -53,7 +53,7 @@ You will be added as `Owner` in these groups and can make changes at-will, inclu
 
 ## Cloud Testing Environments
 
-You can create (ephemeral) testing environments. We recommend using the [Sandbox Cloud Realm](https://handbook.gitlab.com/handbook/company/infrastructure-standards/realms/sandbox/) at [gitlabsandbox.cloud](https://gitlabsandbox.cloud) for doing so.
+You can create (ephemeral) testing environments. We recommend using the [Sandbox Cloud Realm](/handbook/company/infrastructure-standards/realms/sandbox/) at [gitlabsandbox.cloud](https://gitlabsandbox.cloud) for doing so.
 
 You're free to create any testing environments that you need in order to perform your role, however be advised that:
 
