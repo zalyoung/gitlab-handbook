@@ -6,7 +6,7 @@ title: "Enterprise Data Warehouse"
 
 The Enterprise Data Warehouse (EDW) is used for reporting and analysis. It is a central repository of current and historical data from GitLab's Enterprise Applications. We use an ELT method to Extract, Load, and Transform data in the EDW. We use Snowflake as our EDW and use [dbt](/handbook/enterprise-data/platform/dbt-guide/) to transform data in the EDW. The [Data Catalog](/handbook/enterprise-data/data-catalog/) contains Analytics Hubs, Data Guides, Data Dictionaries, and Analysis for the data models built in the EDW.
 
-The EDW is viewed as a series of layers. With five consecutive layers, where data progresses through the layers, and one development layer where data is explored and developed.  Each layer has a purpose in the overall operation and effectiveness of the EDW.
+The EDW is viewed as a series of layers. With five consecutive layers, where data progresses through the layers, and one development layer where data is explored and developed.  Each layer has a purpose in the overall operation and effectiveness of the EDW. All data within the EDW will land in `Landing`. Subsequently all following layers are optional, with the remark that Tableau should [connect](/handbook/enterprise-data/platform/#data-storage) only to `prod` database schemas. 
 
 | Layer       | Purpose                                                                                                       | Example Schema             |
 |-------------|---------------------------------------------------------------------------------------------------------------|----------------------------|
@@ -54,14 +54,14 @@ As part of conforming data types is the disposition of NULL and blank values sho
 Conforming column names helps the transforming be as self documenting as possible and will improve readability if future transformations.  Care should be taken to avoid repetitive naming across data models to improve readability.
 
 **Cleansing Data:**
-The removal of erroneous records of data, different from filtering data to answer a business question, helps to stream line downstream transformations by preventing the need of extraneous error catching logic when the data is malformed.
+The removal of erroneous records of data (i.e. duplicates), different from filtering data to answer a business question, helps to stream line downstream transformations by preventing the need of extraneous error catching logic when the data is malformed.
 
 **Flattening of Non-Tabular Data:**
 When data in the landing layer is stored in a non-tabular format it is often necessary to flatten the data so that the other staging steps can be performed.
 
 ### Preparation
 
-The preparation layer is the first place where general business logic transformations are applied to the data.  These transformations are intended to be intermediary and are to help organize the data in a way that allows for maintenance and scalability. In many cases all of these transformations can be performed in a single data model. However; separate, and preferably sequential, data models can be used when doing so increases readability or maintainability of the given transformations.  As a general rule transformations should be applied as early and on as simple version of the data as possible to improve performance of the transformation. Typical transformations in this layer include:
+The preparation layer is the first place where general business logic transformations are applied to the data.  These transformations are intended to be intermediary and are to help organize the data in a way that allows for maintenance and scalability. In many cases all of these transformations can be performed in a single data model. However; separate, and preferably sequential, data models can be used when doing so increases performance, readability or maintainability of the given transformations.  As a general rule transformations should be applied as early and on as simple version of the data as possible to improve performance of the transformation. Typical transformations in this layer include:
 
 **Calculating Fields:**
 Calculated fields are defined as being fields that did not originate in a source system but can be formed through the application of business logic to data within a single data set.
@@ -74,7 +74,7 @@ Derived records, such as fanning out date interval data, are defined as being re
 
 ### Modeling
 
-The modeling layer is where the data is transformed in to formal structures that aim to standardize the shape of the data to facilitate maintaining and scaling the data.  These transformations are driven by business logic and adopted standards and may require additional joins, filtering, and field generation depending on the type of model being produced.  The general principle is to minimize models and design models to serve as many reporting needs in the semantic layer as possible.  Typical transformations in this layer include:
+The modeling layer is where the data is transformed in to formal structures that aim to standardize the shape of the data to facilitate maintaining and scaling the data.  These transformations are driven by general business logic (reflecting the business process) and adopted standards and may require additional joins, filtering, and field generation depending on the type of model being produced.  The general principle is to minimize models and design models to serve as many reporting needs in the semantic layer as possible.  Typical transformations in this layer include:
 
 **Creating Facts and Dimensions:**
 Using the principles of Kimball dimensional modeling the data is filtered, grouped, and combined to create reusable dimensions models that describe attributes of a record. And low granularly facts representing a transaction of a business process.
@@ -87,7 +87,7 @@ Entitlement models aim to create list of person identifiers and join conditions 
 
 ### Semantic
 
-The semantic layer is where the data is transformed in to meet the needs of business reporting.  These transformations are where the most specific business logic is applied to the data.  Typical transformations in this layer include:
+The semantic layer is where the data is transformed in to meet the needs of business reporting.  These transformations are where the specific business logic is applied to the data.  Typical transformations in this layer include:
 
 **Creating Mart Tables:**
 A mart table provides the records and columns necessary to answer many related business questions.  These tables may be build from the direct joins of the fact and dimension tables, materializing the dimensional modeling schemas, or by derivation from other tables from the modeling layer.  Typically, mart tables should be build from tabes in the modeling layer and not from other tables in the semantic layer.
