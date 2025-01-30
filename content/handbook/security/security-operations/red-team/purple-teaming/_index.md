@@ -23,8 +23,8 @@ At a high level, the goals of an operation generally fall into one of the follow
 
 These are very short (1-2 weeks) and start with the identification of a relevant threat. Generally one or more Red Team members will meet with one or more Blue Team members to plan and carry out the execution.
 
-1. We work with [Threat Intelligence](/handbook/security/security-operations/threat-intelligence) to identify a relevant TTP (tool, technique and procedure) that is worth exploring collaboratively.
-2. We arrange a time to run the TTP, usually inside a virtual machine, and the Blue Team confirms detection (or no detection).
+1. We work with the [Threat Intelligence team](/handbook/security/security-operations/threat-intelligence) to identify one or more relevant TTPs (tool, technique and procedure) that is worth exploring collaboratively.
+2. We arrange a time to run the TTP(s), usually inside a virtual machine, and the Blue Team confirms detection (or no detection).
 3. The detections are created or improved, resulting in a better security result for GitLab.
 4. We collaborate on a report and share it within the security division (and wider company if applicable), so everyone is aware.
 
@@ -42,6 +42,6 @@ These are very short (1-2 weeks) and start with the identification of a relevant
 
 ### Training
 
-- [Red Team Development and Operations](https://redteam.guide/): An excellent book by Joe Vest and James Tubberville.
 - [Purple Teaming Execution Framework](https://github.com/scythe-io/purple-team-exercise-framework): Another great resource, this one by Scythe.
-- [MITRE ATT&CK: Getting Started](https://attack.mitre.org/resources/getting-started/): A collection of resources realted to the ATT&CK framework, which is used as the foundation for much of our work.
+
+See also [Red Team Resources](../_index.md#additional-resourcesfurther-reading)
