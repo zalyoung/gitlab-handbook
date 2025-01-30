@@ -59,7 +59,7 @@ Although we have a bias for asynchronous communication, synchronous meetings are
 | SaaS Availability                           | Weekly        | Infrastructure  | Incident corrective actions, Feature Change Lock status, Past Due Infradev, Error Budget, or Security updates                                                                                                        |
 | Engineering Stage Review                    | Monthly       | Michelle Gill   | Productivity metrics, Technical Roadmap updates                                                                                                                                                                      |
 | Foundations and Data Science EM Meeting     | Biweekly      | Michelle Gill   | Standards discussions, questions, help needed, FYIs, process improvements, collaborating on engineering stage direction, team event planning, leadership communication dissemination, wider initiative brainstorming, OKRs |
-| Core Development Staff Meeting              | Biweekly      | Tim Zallmann    | Recurring staff meeting for updates across engineering management within Tim's organization |
+| [Core Development Staff Meeting](https://docs.google.com/document/d/1fx6Indy9rDX9-btjRvElRwgidP3rSzzVrK8QwDvSpDk/edit?tab=t.0#heading=h.ky78crs5w5jj)              | Biweekly      | Tim Zallmann    | Recurring staff meeting for updates across engineering management within Tim's organization |
 
 For one-off, topic specific meetings, please always consider recording these calls and sharing them (or taking notes in an internally available document.
 
