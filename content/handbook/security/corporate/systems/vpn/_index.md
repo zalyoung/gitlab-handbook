@@ -51,12 +51,6 @@ Dedicated IP's are listed below for reference by Security teams or incident resp
 | Location | IP |
 | --- | --- |
 | GitLab - Los Angeles | 216.74.107.115 |
-| GitLab - New York | 146.70.186.59 |
-| GitLab - Atlanta | 205.234.251.167 |
-| GitLab - Belgium | 146.70.55.7 |
-| GitLab - Hungary | 217.138.192.12 |
-| GitLab - Japan | 146.70.138.86 |
-| GitLab - Australia | 88.216.59.30 |
 
 ## System Owner and Support
 
