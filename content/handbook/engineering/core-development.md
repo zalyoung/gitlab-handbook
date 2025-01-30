@@ -216,22 +216,7 @@ In line with our [guidance on feedback](/handbook/people-group/guidance-on-feedb
 
 ### Talent Assessment Process
 
-Talent Assessment Process guidelines specific for the Core Development Department is documented in [this handbook page](processes/talent-assessment/).
-
-### Annual Compensation Review
-
-The SSOT timeline for the upcoming Annual Compensation Review can be found [here](/handbook/total-rewards/compensation/compensation-review-cycle/#january). Below you will find additional dates specific to the Development department to ensure all levels have time to review as we move through the process.
-
-Phase 1 (cash only):
-
-- January 9-13 @5pm PT - Manager level finalizes comp recommendations
-- January 16-17 @5pm PT - Sr Mgr (or next level; Director in some cases) finalize comp recommendations
-- January 18-19 @5pm PT - VP, Development direct reports (Dir/Sr Dir) finalize comp recommendations
-- January 20-23 @ 5pm PT - VP/PBP finalize comp recommendations
-
-Phase 2 (equity only):
-
-- February TBD
+Talent Assessment Process guidelines specific for the Core Development Department is documented in [this handbook page](/handbook/people-group/talent-assessment/).
 
 ### How we hire contractors
 
