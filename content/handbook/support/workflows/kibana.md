@@ -251,6 +251,26 @@ In cases where the SCIM provisioned account is deleted:
 
 To investigate if the user was deleted due to an unconfirmed email, follow the [Deleted User](#deleted-user) procedure.
 
+### Searching for Remove User from group or subgroup
+
+Kibana can be used to determine if a user was removed (group or subgroup), when, who triggered it, and if it happened in the last 7 days
+
+To find the log entry in `pubsub-rails-inf-gprd-*` with the following data points:
+
+#### Confirm the Remove User (DELETE)
+1. Add a positive filter on `madejson.meta.caller_id` for `Groups::GroupMembersController#destroy`
+1. Add a positive filter on `json.meta.user_id` for user id of person that performed the remove user action in the UI
+1. Add a positive filter on `json.method` for `DELETE`
+
+#### Retrieve further details about the Remove User request
+
+The following filters can help identify users that were removed and what group or subgroups they have been removed from
+
+1. Add a positive filter on `json.custom_message` for `Membership destroyed`
+1. Add a positive filter on `json.meta.caller_id` for `Groups::GroupMembersController#destroy`
+1. Add a filter for user id `json.meta.user_id` or username `json.meta.user` of the user that performed the Remove User action
+1. Add a filter for target user id `json.details.target_id`
+
 ### Searching for Deleted Container Registry tags
 
 Kibana can be used to determine whether a container registry tag was deleted, when, and who triggered it, if the deletion happened in the last 7 days.
