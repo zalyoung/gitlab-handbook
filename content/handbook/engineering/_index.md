@@ -37,7 +37,7 @@ Engineering decisions at GitLab are guided by a deep understanding of customer n
 
 The [Customer Empathy](/handbook/engineering/customer-empathy/) handbook page outlines resources and practical guidance for engineers to better understand and interact with customers.
 
-## Engineering Initiatives
+### Engineering Initiatives
 
 Engineering is the primary advocate for the performance, availability, and security of the GitLab project. Product Management prioritizes 60% of engineering time, so everyone in the engineering function should participate in the Product Management [prioritization process](/handbook/product/product-processes/cross-functional-prioritization/) to ensure that our project stays ahead in these areas. Engineering prioritizes 40% of time on initiatives that improve the product, underlying platform, and foundational technologies we use.
 
