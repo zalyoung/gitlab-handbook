@@ -13,6 +13,8 @@ We aim to safely and effectively conduct operations in order to emulate relevant
 
 It's important to us to intentionally and enthusiastically collaborate with the rest of the company, to balance out the semi-private, sometimes hidden nature of our work.
 
+**Win together**: our goal is to improve security at GitLab, and that's the same goal our defensive teams have. We "win" when GitLab wins and security is improved - whether that's by us doing super 1337 hax or by SIRT stopping us in our tracks. We're not trying to establish "dominance" over defensive teams, we partner with them.
+
 ### 1. Initial access vector
 
 There are several ways we emulate initial access:
