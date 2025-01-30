@@ -204,7 +204,7 @@ description: "The page details the operational process for the MDF program."
          1. Estimated Pipeline Created (USD)
      1. Automated Line Item Name Updates
          1. When Partner Marketing uses “MDF 000” as a placeholder
-         1. System automatically replaces it with the actual MDF number 
+         1. System automatically replaces it with the actual MDF number
          1. Updates MDF number in the GitLab issue/epic name
      1. GitLab Integration Features - the system automatically populates GitLab issues with:
          1. Salesforce campaign name
@@ -270,7 +270,7 @@ This is not applicable to distributors with the exception of Carahsoft.
 
 1. Clone the [List Import Template](https://docs.google.com/spreadsheets/d/143REaMQLyIy7to-CFktL45TTTLZxBQRJUDIOMCA3CVo/edit#gid=257616838)
 1. Paste the information to the spreadsheet - don’t forget Marketo Program Name, First Name, Last Name, Email, Company Country, Province (only USA/Canada), Member Status, CRM Partner ID are mandatory.
-     1. For Distributor: In the CRM ID, add each individual partner CRM ID that each leads corresponds to.  
+     1. For Distributor: In the CRM ID, add each individual partner CRM ID that each leads corresponds to.
 1. Download the csv file: File > Download > csv
 1. Drop the csv file to [Google Drive Folder](https://drive.google.com/drive/folders/1SvDR2KW8_vtPZjJ7WWihA1iOgSJn0_fv?usp=share_link)
 
