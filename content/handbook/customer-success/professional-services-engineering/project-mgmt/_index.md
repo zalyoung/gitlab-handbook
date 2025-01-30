@@ -165,8 +165,6 @@ Project scope for Professional Services is the outline of the work required to d
       * Be sure close out work exception issues at the end of each quarter to assure proper quarterly accounting.
       * Adding labels & detail within the issue as a PM is crucial, as this is how we will work to improve our internal PS processes.
 
-      [Work Exception Report](https://gitlab.com/groups/gitlab-com/customer-success/professional-services-group/-/issues/?sort=updated_desc&state=opened&or%5Blabel_name%5D%5B%5D=WE-product&or%5Blabel_name%5D%5B%5D=WE-ps&or%5Blabel_name%5D%5B%5D=WE-scoping&or%5Blabel_name%5D%5B%5D=WE-time&first_page_size=20) - callouts for reasonings behind additional PS effort without a CO request. This  includes Product challenges, scoping definition misalignment, insufficient PS hours, or other PS related items.
-
 ### Deploy & Close
 
    1. Project Closure Meeting
