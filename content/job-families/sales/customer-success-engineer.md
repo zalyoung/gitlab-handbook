@@ -208,7 +208,6 @@ The Senior Manager, Customer Onboarding is a [grade 9](/handbook/total-rewards/c
 - Proven experience with B2B SaaS customer success principles, onboarding program design, and scalable program architecture
 - Background in building and scaling customer-facing programs with data-driven optimization approach
 
-
 ## Performance Indicators
 
 - net ARR (such as: retention and expansion)
