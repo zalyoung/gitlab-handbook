@@ -66,4 +66,3 @@ Greenhouse is our Applicant Tracking System. To activate your greenhouse profile
 Once CES schedules you for an interview, you will have access to the candidates interview kit and be able to submit your scorecard/feedback after the interview concludes.
 
 Interviewers can find a scorecard link on their Greenhouse dashboard for any upcoming or past interviews.
-
