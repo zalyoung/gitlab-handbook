@@ -196,7 +196,7 @@ Dimension tables supply the descriptive attributes that give context to our busi
 - Order types
 - Campaign attributes
 
-#### Slowly Changing Dimensions (SCD) and Historical Tracking
+#### Slowly Changing Dimensions & Snapshots
 
 ##### Understanding Time Perspectives
 
