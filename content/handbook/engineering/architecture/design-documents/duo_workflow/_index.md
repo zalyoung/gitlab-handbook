@@ -564,8 +564,7 @@ There are 2 primary problems with the `ai_workflows` static scope approach:
 
 - Not every Workflow will need access to the same API endpoints. By using the
   same scope for every Workflow, we are providing more access than is necessary.
-  This violates the [principle of least
-  privilege](https://en.wikipedia.org/wiki/Principle_of_least_privilege).
+  This violates the [principle of least privilege](https://en.wikipedia.org/wiki/Principle_of_least_privilege).
 - Each GitLab API endpoint must be manually allow-listed for this scope.
   [Example](https://gitlab.com/gitlab-org/gitlab/-/merge_requests/162671).
   This means that code changes are required to provide new functionality to
