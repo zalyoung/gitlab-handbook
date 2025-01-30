@@ -53,7 +53,7 @@ Both department-level and company-wide mentorship programs have their own unique
 | **Set Expectations** | Be realistic and uphold your commitment. Share access to resources and people, but make it clear you do not wield your influence over others.|
 | **Listen** | Establish [trust](/handbook/leadership/building-trust) and openness in communication. Give your full, undivided attention. Hear concerns before offering advice and guidance.|
 | **Acknowledge Independence** | Recognize mentee goals and autonomy. Your role as a mentor is to guide; it's up to the mentee to decide what to implement in their own career. |
-| **Respect Diverse Experiences** | Recognise that underrepresented groups might face additional barriers to advancement. Educate yourself and ask for advice and support via the [appropriate DIB channels](/handbook/company/culture/inclusion/erg-guide/#how-to-join-current-tmrgs-and-their-slack-channels). |
+| **Respect Diverse Experiences** | Recognise that underrepresented groups might face additional barriers to advancement. Educate yourself and ask for advice and support via the [appropriate DIB channels](/handbook/company/culture/inclusion/erg-guide/#how-to-join-current-tmrgs-and-tmags-slack-channels). |
 | **Practice Self-Awareness** | Identify your strengths, weaknesses, and [biases](/handbook/values/#unconscious-bias). Be aware of and respect other's experiences, ideas, and goals. |
 | **Advocate** | Mentor others on being effective managers or colleagues to those who might have different experiences to them. Teach your mentee how to become a mentor themselves – by example and by encouragement.|
 | **Express Gratitude** | Share openly about your experience. Express gratitude for the skills or experiences developed over time. |

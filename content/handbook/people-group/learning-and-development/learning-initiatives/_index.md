@@ -40,7 +40,7 @@ Live Learning sessions are conducted on an ad hoc. There will be a Zoom video co
 - January - [Compensation Review: Manager Cycle (Compaas)](https://youtu.be/crkPeOjkqTQ)
 - January - [Ally Training](/handbook/company/culture/inclusion/being-an-ally/)
 - February - [Receiving Feedback](/handbook/people-group/guidance-on-feedback/#receiving-feedback)
-- June - [Delivering Feedback](/handbook/people-group/guidance-on-feedback/#guidelines-for-delivering-feedback)
+- June - [Delivering Feedback](/handbook/people-group/guidance-on-feedback/#giving-feedback)
 - June - [Recognizing Bias](/handbook/company/culture/inclusion/unconscious-bias/)
 - September - [Manager Challenge Pilot](/handbook/people-group/learning-and-development/manager-challenge/#pilot-program)
 - November - [Belonging](https://www.youtube.com/watch?v=WZun1ktIQiw)
@@ -70,7 +70,7 @@ The L&D team hosted a quarterly newsletter for five quarters for the community.
 
 ## Take Time Out To Learn Campaign
 
-[Focus Friday's](/handbook/communication/#focus-fridays) are a great benefit at GitLab. We try to schedule minimal meetings on Fridays to catch up on work and grow our skills professionally. Use Focus Fridays to take time out to learn. Team members can work with their manager through a [career development conversation]({{< ref "1-1#career-development-discussion-at-the-1-1" >}}) to determine what skills that want to grow in the future. Aspirations can be documented in an [individual growth plan](/handbook/people-group/learning-and-development/career-development/#internal-resources).
+[Focus Friday's](/handbook/communication/#focus-fridays) are a great benefit at GitLab. We try to schedule minimal meetings on Fridays to catch up on work and grow our skills professionally. Use Focus Fridays to take time out to learn. Team members can work with their manager through a [career development conversation]({{< ref "1-1#career-development-discussion-at-the-1-1" >}}) to determine what skills that want to grow in the future. Aspirations can be documented in an [individual growth plan](/handbook/people-group/learning-and-development/career-development/#resources-and-tools).
 
 From there, identify what will be needed to attain the new skills and consider using the [Growth and Development Benefit]({{< ref "general-and-entity-benefits#growth-and-development-benefit" >}}) or [expensing professional development opportunities such as coaching, worskshops, conferencces, self-service learning, etc.](/handbook/people-group/learning-and-development/growth-and-development/#types-of-growth-and-development-reimbursements). Block time off your calendar every week or month to devote to learning new skills. Share what you are learning with team members and in the `#learninganddevelopment` slack channel.
 

@@ -42,7 +42,7 @@ It *is* possible to [find remote-first companies](jobs/#remote-first-companies) 
 
 ### No company-owned offices
 
-The company [does not have an office occupied by their employees](/handbook/company/culture/all-remote/remote-benefits/#for-your-organization) in an all-remote setting. By extension, this ensures that [every member of leadership is remote](transition/#make-the-executive-team-remote), creating a level playing field that is not possible when even one or two executives congregate daily in the same physical space.
+The company [does not have an office occupied by their employees](/handbook/company/culture/all-remote/remote-benefits/#benefits-for-all-remote-organizations) in an all-remote setting. By extension, this ensures that [every member of leadership is remote](transition/#make-the-executive-team-remote), creating a level playing field that is not possible when even one or two executives congregate daily in the same physical space.
 
 ### A more inclusive work environment
 

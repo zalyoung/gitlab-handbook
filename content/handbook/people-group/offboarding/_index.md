@@ -26,7 +26,7 @@ For any other offboarding questions from active team members please reach out to
 ### Prior to Resignation
 
 1. **Team Member:** Please reach out to your Direct Manager prior to submitting your resignation particularly to discuss the handover process and the [communication plan](#communicating-departures) regarding your departure.
-1. **Team Member:** Review the documented [notice period](/handbook/people-group/contracts-probation-periods/#probation-periods-of-team-members-employed-through-a-peo-or-an-entity) for your location if applicable and factor in the notice period when submitting your resignation through Workday.
+1. **Team Member:** Review the documented [notice period](/handbook/people-group/contracts-probation-periods/#probation-period) for your location if applicable and factor in the notice period when submitting your resignation through Workday.
 1. **Team Member:** Compile your Letter of Resignation for uploading into Workday.  If you are employed through a PEO or Third-Party Employer, send a copy of your resignation letter to the PEO contact as well.
 
 ### Resignation

@@ -21,7 +21,7 @@ Gartner calls the combination of DevOps/MLOps/DataOps/AIOps [xOps](https://www.g
 
 ## Cadence
 
-Our [Mission](/handbook/company/mission/) is on a 30-year cadence. It is the inspiration for this company vision, which is on a [10-year cadence](/handbook/company/cadence/#vision).
+Our [Mission](/handbook/company/mission/) is on a 30-year cadence. It is the inspiration for this company vision, which is on a [10-year cadence](/handbook/company/cadence/#update-cadence).
 
 The vision here is reflected in our [company strategy](/handbook/company/strategy), which is on a 3-year cadence. You can find additional product vision details on our [direction page](https://about.gitlab.com/direction/#vision).
 

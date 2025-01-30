@@ -85,7 +85,7 @@ Culture at GitLab is composed of three things.
 1. Camaraderie (mutual trust and friendship). This is created and maintained by [informal communication](all-remote/informal-communication/). We also build trust by [effectively collaborating](/handbook/values/#dont-let-each-other-fail) with others.
 1. Work style (how we work). This is defined and articulated in our [communication guide](/handbook/communication/) and [handbook usage guide](/handbook/about/handbook-usage/).
 
-In other organizations, culture may be defined through the *personality of the group*. This includes people who have traits in common and people who you enjoy spending time with. Note that this is not something that should matter when [evaluating people for work](#culture-fit-is-a-bad-excuse), and this is not what we mean with Culture at GitLab.
+In other organizations, culture may be defined through the *personality of the group*. This includes people who have traits in common and people who you enjoy spending time with. Note that this is not something that should matter when [evaluating people for work](/handbook/values/#culture-fit-is-a-bad-excuse), and this is not what we mean with Culture at GitLab.
 
 Watch this live speaker series, hosted on 2021-11-18, with Carter Gibson and Markus Mühlbauer from Google on Building Internal Culture.
 

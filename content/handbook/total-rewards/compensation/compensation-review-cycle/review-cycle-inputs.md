@@ -52,7 +52,7 @@ The location factor review is an internal process completed by the Total Rewards
 
 1. Create a copy of the `Location Factor Review` sheet for the upcoming FY.
 1. Ensure all location factors, including ones added throughout the year and ones marked for further review, have been added to the analysis.
-1. [Pull in refreshed data](/handbook/total-rewards/compensation/compensation-review-cycle/#pulling-survey-data-and-matching) for all data sources: ERI, Robert Half, Dice, Radford, and Comptryx.
+1. [Pull in refreshed data](/handbook/total-rewards/compensation/compensation-review-cycle/) for all data sources: ERI, Robert Half, Dice, Radford, and Comptryx.
    1. Check these resources for new matches to our location factors and pull data for all available metros.
 1. Using the refreshed data, compare the new data to our current location factors for fluctuations noting that we will not decrease a location factor.
     1. Analyze the average data for all locations in a geographical region to determine the location factor for that geographical region.

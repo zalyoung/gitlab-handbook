@@ -31,7 +31,7 @@ GitLab has created a **[comprehensive guide to working well remotely](/handbook/
 1. [Building culture](/handbook/company/culture/all-remote/building-culture/)
 1. [Combating burnout, isolation, and anxiety](/handbook/company/culture/all-remote/mental-health/)
 1. [Embracing asynchronous workflows](/handbook/company/culture/all-remote/asynchronous/)
-1. [Remote workspaces](/handbook/company/culture/all-remote/guide/#workspac)
+1. [Remote workspaces](/handbook/company/culture/all-remote/guide/#workspace)
 1. [Getting started in a remote role](/handbook/company/culture/all-remote/getting-started/)
 
 The pages within, just like the entire GitLab [handbook](/handbook), are [publicly accessible](hiring/#make-your-strategy-public). Please consider studying these guides, implementing them, and contributing your learnings to make them better.
@@ -111,7 +111,7 @@ Leaders should ensure that new remote hires read a [getting started guide](getti
 
 To operate well as a remote enterprise, your values [must be in support of this way of working](/handbook/company/culture/all-remote/remote-values/). GitLab's collection of [values](/handbook/values/) and [operating principles](/handbook/values/#operating-principles) contribute to a thriving all-remote environment. Consider studying the nuances of these values and adjusting or adding to your company's existing values. Values that were established to support colocated norms may not apply to remote, particularly those which obstruct transparency.
 
-Don't be quick to brush values off as understood, either. For example, collaboration in a colocated space  is routinely demonstrated by gathering people in a shared physical space in search of [consensus](management/#separating-decision-gathering-from-decision-making). [Collaboration](/handbook/values/#collaboration) in a remote setting is demonstrated by empowering the greatest amount of people to contribute insights asynchronously while enabling the DRI (directly responsible individual) to [make decisions without explanation](/handbook/people-group/directly-responsible-individuals/#empowering-dris-no-explanation-needed).
+Don't be quick to brush values off as understood, either. For example, collaboration in a colocated space  is routinely demonstrated by gathering people in a shared physical space in search of [consensus](management/#separating-decision-gathering-from-decision-making). [Collaboration](/handbook/values/#collaboration) in a remote setting is demonstrated by empowering the greatest amount of people to contribute insights asynchronously while enabling the DRI (directly responsible individual) to [make decisions without explanation](/handbook/people-group/directly-responsible-individuals/#empowering-dris).
 
 {{% include "includes/is_this_advice_any_good_remote.md" %}}
 

@@ -7,7 +7,7 @@ description: Find answers to your questions about GitLab's benefits.
 
 - [General & Entity Specific Benefits]({{< ref "general-and-entity-benefits" >}})
 - [Modern Health](/handbook/total-rewards/benefits/modern-health/)
-- [Global Benefits Survey](/handbook/total-rewards/benefits/-survey)
+- [Global Benefits Survey](/handbook/total-rewards/benefits/benefits-survey/)
 - [Parental Leave and Return Tool Kit for GitLab Managers and Team Members](/handbook/total-rewards/benefits/parental-leave-toolkit/)
 
 ## Introduction

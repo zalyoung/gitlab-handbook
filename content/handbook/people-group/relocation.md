@@ -202,7 +202,7 @@ The contract phase is unique based upon the team member's relocation. The differ
 ##### Tasks for Team Members - Relocation Approved
 
 Once your relocation has been approved and the contract has been signed, a [relocation issue](https://gitlab.com/gitlab-com/people-group/people-operations/employment-templates/-/blob/main/.gitlab/issue_templates/onboarding_tasks/relocations.md) will get opened and assigned to you by the People Connect Team. Please ensure you complete any tasks by the due date to ensure a smooth onboarding and to have everything ready for your first payroll in the new country.
-If you are relocating away from a location with PEO Employment, you must give notice to the PEO directly within the notice period. Most [notice periods](/handbook/people-group/contracts-probation-periods/#probation-periods-of-team-members-employed-through-a-peo-or-an-entity) are usually 30 days, but you must review your own contract, as it will be specified there.
+If you are relocating away from a location with PEO Employment, you must give notice to the PEO directly within the notice period. Most [notice periods](/handbook/people-group/contracts-probation-periods/#probation-period) are usually 30 days, but you must review your own contract, as it will be specified there.
 
 ### Country Specific Tasks
 

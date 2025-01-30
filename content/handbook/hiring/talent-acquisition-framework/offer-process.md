@@ -164,7 +164,7 @@ Offer details usually include:
 - Salary
 - General and specific [benefits](/handbook/total-rewards/benefits/)
 - Contract type and [employment type](/handbook/people-group/employment-solutions#team-member-types-at-gitlab)
-- [Onboarding process](/handbook/people-group/general-onboarding/#onboarding-at-gitlab)
+- [Onboarding process](/handbook/people-group/general-onboarding/)
 - [Asynchronous communication](/handbook/company/culture/all-remote/asynchronous/)
 - [Stock options](/handbook/total-rewards/stock-options/)
 - [Unlimited paid-time-off](/handbook/people-group/paid-time-off/)

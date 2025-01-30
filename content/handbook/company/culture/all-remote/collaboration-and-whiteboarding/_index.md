@@ -173,7 +173,7 @@ Every week the Plan designs and Plan PMs meet and discuss research in-flight or 
 
 ### Social hours
 
-Create a [social hour](/handbook/company/culture/all-remote/informal-communication/#team-social-calls) where everyone is welcome to join to chat or play games together. Try two social hours every other week with the purpose of capturing enough time zones so that teammates can be "in-person." This isn't exactly "work" collaboration related, but creates a bond with teammates in order to feel more comfortable together and therefore more effective and excited to collaborate.
+Create a [social hour](/handbook/company/culture/all-remote/informal-communication/#team-days-and-social-calls) where everyone is welcome to join to chat or play games together. Try two social hours every other week with the purpose of capturing enough time zones so that teammates can be "in-person." This isn't exactly "work" collaboration related, but creates a bond with teammates in order to feel more comfortable together and therefore more effective and excited to collaborate.
 
 ## Asynchronous collaboration
 

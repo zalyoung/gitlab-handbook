@@ -96,7 +96,7 @@ Not only does this create a less [inclusive](/handbook/company/culture/inclusion
    - For example, GitLab has a KPI of [65 tickets closed per support staff per month](/handbook/support/performance-indicators#average-daily-tickets-closed-per-support-team-member).
 1. [Increased savings on office costs](https://globalworkplaceanalytics.com/wp-content/The%20Remote%20Work%20ROI%20Calculator%20V0.97/The%20Remote%20Work%20ROI%20Calculator%20V0.97.htm) and [compensation](https://about.gitlab.com/blog/2019/02/28/why-we-pay-local-rates/) (due to hiring in lower-cost regions).
    - GitLab **maintains a more balanced payroll** than other San Francisco Bay Area colocated companies. Learn more in the [Compensation Calculator](/handbook/total-rewards/compensation/compensation-calculator) section of GitLab's handbook.
-   - Each function has a new hire location factor target. As an example, [marketing](/handbook/company/kpis/#marketing-kpis) targets < 0.72 and [finance](/handbook/company/kpis/#finance-team-kpis) targets < 0.69.  (For reference, San Francisco is 1.00)
+   - Each function has a new hire location factor target. As an example, [marketing](/handbook/company/kpis/#marketing-kpis) targets < 0.72 and [finance](/handbook/company/kpis/#finance-kpis) targets < 0.69.  (For reference, San Francisco is 1.00)
    - We have a [people group KPI](/handbook/company/kpis/#people-group-kpis) for our average overall location factor to be < 0.65.
 1. All-remote naturally attracts [self-motivated people](https://about.gitlab.com/blog/2019/03/28/what-its-like-to-interview-at-gitlab/).
 1. It's easier to quickly grow and scale your company.

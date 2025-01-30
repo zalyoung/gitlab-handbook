@@ -30,7 +30,7 @@ Particularly for leaders who survey their workforce to understand their perspect
 ![GitLab all-remote illustration](/images/all-remote/gitlab-all-remote-v1-opengraph-social-1200x630.jpg)
 {style="max-width: 50%"}
 
-Shifting an entire division or company to remote triggers a [shockwave of change](transition/). Evaluate current managers and rally a team of experts who have remote work experience, and are able to communicate nuances and serve as resources to those who will inevitably have questions. A core part of this team's role will be to document challenges in real time, transparently prioritize those challenges, and assign DRIs ([directly responsible individuals](/handbook/people-group/directly-responsible-individuals/#empowering-dris-no-explanation-needed)) to find solutions.
+Shifting an entire division or company to remote triggers a [shockwave of change](transition/). Evaluate current managers and rally a team of experts who have remote work experience, and are able to communicate nuances and serve as resources to those who will inevitably have questions. A core part of this team's role will be to document challenges in real time, transparently prioritize those challenges, and assign DRIs ([directly responsible individuals](/handbook/people-group/directly-responsible-individuals/#empowering-dris)) to find solutions.
 
 Executive assistants may take on a more significant role in the transition, functioning as a documentarian in meetings and aiding with internal communications cascaded to the rest of the organization.
 

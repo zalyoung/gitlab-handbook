@@ -54,9 +54,9 @@ One of the biggest benefits of asynchronous work is that it completely [removes 
 
 >"At GitLab, we have people spread across 60+ countries, so almost every time zone is covered. But, that also means that someone on your team is likely in a vastly different time zone. In fact, they may be asleep the entire time you're up working." - Darren M., GitLab's Head of Remote
 
-Business happens around the clock, in all time zones, in perpetuity. Attempting to shoehorn communications into a single time zone's predefined set of hours is [dysfunctional](#five-dysfunctions).
+Business happens around the clock, in all time zones, in perpetuity. Attempting to shoehorn communications into a single time zone's predefined set of hours is [dysfunctional](/handbook/values/#five-dysfunctions).
 
-As a 100% remote company with team members in more than 65 countries, [working asynchronously](#bias-towards-asynchronous-communication) removes time zone barriers and is another way GitLab is a more globally inclusive organization.
+As a 100% remote company with team members in more than 65 countries, [working asynchronously](/handbook/values/#bias-towards-asynchronous-communication) removes time zone barriers and is another way GitLab is a more globally inclusive organization.
 
 ### 4. Asynchronous work alleviates stress and supports mental health
 
@@ -287,7 +287,7 @@ Thus, it's important to leverage Slack statuses to broadcast information on your
 
 While GitLab's approach to [self-service and self-learning](self-service/) is reinforced during onboarding, continual reinforcement may be necessary. It is acceptable to ask someone if they are exercising a bias towards asynchronous communication, regardless of their position on the org chart.
 
-Just as we would hope that all GitLab team members would be quick to ask if something is inclusive, it's important to remember that asynchronous communications *is* [another way](#bias-towards-asynchronous-communication) for GitLab to be more inclusive.
+Just as we would hope that all GitLab team members would be quick to ask if something is inclusive, it's important to remember that asynchronous communications *is* [another way](/handbook/values/#bias-towards-asynchronous-communication) for GitLab to be more inclusive.
 
 There is [as much to unlearn as there is to learn](/handbook/hiring/candidate-faq/).
 
@@ -305,13 +305,13 @@ Examples:
 ![GitLab collaboration path illustration](/images/all-remote/gitlab-collaboration-illustration.jpg)
 {style="max-width: 50%;"}
 
-At GitLab, we have a [bias towards asynchronous communication](#bias-towards-asynchronous-communication). As a meeting participant, whether you are scheduling or an invitee, question every work-related meeting.
+At GitLab, we have a [bias towards asynchronous communication](/handbook/values/#bias-towards-asynchronous-communication). As a meeting participant, whether you are scheduling or an invitee, question every work-related meeting.
 
 1. What is the outcome I am trying to achieve that has led to my desire to schedule a meeting?
 1. Can the desired outcome be broken down into [smaller tasks](/handbook/values/#iteration)?
 1. Can the desired outcome be achieved or worked towards by [dogfooding](/handbook/engineering/development/principles/#dogfooding) and using a [GitLab issue](https://docs.gitlab.com/ee/user/project/issues/) or [merge request](https://docs.gitlab.com/ee/user/project/merge_requests/creating_merge_requests.html)?
 1. Am I trying to gather consensus? (*If so, this can be done asynchronously*.)
-1. Am I trying to make a decision after consensus is gathered and there is a [proposal](#make-a-proposal) to react to? (If so, a meeting may be acceptable if it cannot be agreed upon asynchronously, but remember that outcomes must [still be documented in the handbook](/handbook/about/handbook-usage/#why-handbook-first). If your outcome(s) will be documented in the end, it calls into question the [efficiency](/handbook/values/#efficiency) of a synchronous meeting.)
+1. Am I trying to make a decision after consensus is gathered and there is a [proposal](/handbook/values/#make-a-proposal) to react to? (If so, a meeting may be acceptable if it cannot be agreed upon asynchronously, but remember that outcomes must [still be documented in the handbook](/handbook/about/handbook-usage/#why-handbook-first). If your outcome(s) will be documented in the end, it calls into question the [efficiency](/handbook/values/#efficiency) of a synchronous meeting.)
 
 ### When to start synchronously
 
@@ -338,8 +338,8 @@ Suggesting to "hop on a quick videocall" may feel insignificant, but it can have
 
 *For an example of starting async first in a highly complex scenario*: View [Vision Statement: gitlab.tv](https://gitlab.com/groups/gitlab-com/marketing/-/epics/858) (`Vision Statement: gitlab.tv`). In this scenario, the project began asynchronously, as the initiator needed to convey a complex series of assumptions and examples in order to provide enough context for team members to contribute feedback.
 
-1. Due to the large volume of information, the creator of the Epic added a series of `Highlights` at the top, an indication of [being respectful of others' time](#be-respectful-of-others-time).
-1. The creator [time-boxed feedback](#set-a-due-date), providing a specific window of time that asynchronous input would be accepted.
+1. Due to the large volume of information, the creator of the Epic added a series of `Highlights` at the top, an indication of [being respectful of others' time](/handbook/values/#be-respectful-of-others-time).
+1. The creator [time-boxed feedback](/handbook/values/#set-a-due-date), providing a specific window of time that asynchronous input would be accepted.
 1. The creator transparently notified the group that a focused synchronous meeting would follow in order to make a decision on the asynchronous feedback and proposals.
 
 ### When to pivot from asynchronous to synchronous
@@ -394,7 +394,7 @@ For existing and upcoming meetings, add this question at the top or bottom of th
 
 Consider sharing these learnings in a [public channel](/handbook/communication/#use-public-channels) to create additional awareness of what's possible through asynchronous workflows. Take time to reflect on which meetings you've attended or scheduled in recent weeks. Which were a valuable use of time and which could have been handled asynchronously?
 
-There are many tasks which can be handled synchronously *and* asynchronously. The goal is to always select asynchronous where feasible, creating more focus time in your day. This also creates a higher likelihood that team members will have more energy for synchronous connections that bolster work relationships. [Informal communication](informal-communication/) is vital in an all-remote setting; by being ruthless in one's [bias towards asynchronous work](#bias-towards-asynchronous-communication), it creates more space for synchronous team bonding. We each have a finite amount of tolerance for work-related meetings and video calls; synchronous moments are better saved for informal communication such as [coffee chats](informal-communication/#coffee-chats) and [team trivia](informal-communication/#virtual-trivia) where feasible.
+There are many tasks which can be handled synchronously *and* asynchronously. The goal is to always select asynchronous where feasible, creating more focus time in your day. This also creates a higher likelihood that team members will have more energy for synchronous connections that bolster work relationships. [Informal communication](informal-communication/) is vital in an all-remote setting; by being ruthless in one's [bias towards asynchronous work](/handbook/values/#bias-towards-asynchronous-communication), it creates more space for synchronous team bonding. We each have a finite amount of tolerance for work-related meetings and video calls; synchronous moments are better saved for informal communication such as [coffee chats](informal-communication/#coffee-chats) and [team trivia](informal-communication/#virtual-trivia) where feasible.
 
 ## Limitations and challenges of asynchronous communications
 
@@ -518,7 +518,7 @@ GitLab team members were polled on `2020-09-02` in the public `#company-fyi` Sla
 
 Team members were asked: *Why would you choose synchronous communication over asynchronous for work-related (e.g. not [informal communication](informal-communication/)) discussions?*
 
-- I was unaware of GitLab's operating principle '[Bias towards asynchronous communication](#bias-towards-asynchronous-communication)' - 1%
+- I was unaware of GitLab's operating principle '[Bias towards asynchronous communication](/handbook/values/#bias-towards-asynchronous-communication)' - 1%
 - I prefer verbal communication over written communication - 3%
 - I believe the subject matter is confidential - 10%
 - Someone else on my team can join and document the takeaways from a synchronous meeting - 1%

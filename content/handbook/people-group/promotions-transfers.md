@@ -293,7 +293,7 @@ FP&A tracks budget impact by Department/Division twice per year.
 
 Promotion budget is held at the division leader level and is scaled down to the director and above level for planning in Workday.
 
-Please review the [Compensation Program Budget](/handbook/total-rewards/compensation/compensation-review-cycle/#compensation-program-budget) to understand how the promotion budget is allocated and the process to review potential tradeoffs if divisions/departments are over/under budget for any given quarter.
+Please review the [Compensation Program Budget](/handbook/total-rewards/compensation/compensation-review-cycle/) to understand how the promotion budget is allocated and the process to review potential tradeoffs if divisions/departments are over/under budget for any given quarter.
 
 ## Promotions Processed Outside of the Twice Per Year Promotion Calibration Process
 
@@ -317,7 +317,7 @@ For exceptional situations where a promotion is not handled through the twice pe
 
 Approvals for the Director+ level off-cycle promotion exceptions require E-Group approval, and off-cycle promotions for levels under Director require approval through Department head.
 
-Regardless of the promotion level, it is critical that leaders work with their People Business Partner, Total Rewards, and FP&A [as outlined](/handbook/total-rewards/compensation/compensation-review-cycle/#compensation-program-budget) to identify tradeoffs we can review to fund the promotion.
+Regardless of the promotion level, it is critical that leaders work with their People Business Partner, Total Rewards, and FP&A [as outlined](/handbook/total-rewards/compensation/compensation-review-cycle/) to identify tradeoffs we can review to fund the promotion.
 
 ### FY25 CTO Organization Promotion Guidance
 
@@ -441,10 +441,10 @@ The [justification document](https://docs.google.com/document/d/1feA04oVpXYa1QWA
 
 ## Process for Managers: Requesting a Promotion
 
-1. Determine whether the promotion change should be processed through the [twice per year promotion cycle](/handbook/people-group/promotions-transfers/#twice-per-year-promotion-calibration-process--timeline) or through [Greenhouse](/handbook/people-group/promotions-transfers/#promotions-processed-outside-of-the-bi-annual-promotion-calibration-process)
+1. Determine whether the promotion change should be processed through the [twice per year promotion cycle](/handbook/people-group/promotions-transfers/#twice-per-year-promotion-calibration-process--timeline) or through [Greenhouse](/handbook/people-group/promotions-transfers/#how-to-process-an-exception-submitting-an-out-of-cycle-promotion-request-in-workday)
 1. If proceeding with the [twice per year promotion cycle](/handbook/people-group/promotions-transfers/#twice-per-year-promotion-calibration-process--timeline), work with your People Business Partner and Leadership to recommend the promotion ahead of the [planning process](/handbook/people-group/promotions-transfers/#planning) so the team member included in planning and calibrations. Ensure the [Promotion or Compensation Change Document](promotions-transfers#promotion-document) has been created at this time.
-   - If the team member you are recommending a promotion for is director or above, please refer to the [promotions to director and above](/handbook/people-group/promotions-transfers/#promotions-to-director-and-above).
-1. If the promotion/compensation change should be processed through Greenhouse, please follow the steps outlined in the [Greenhouse Promotions/Transfers Process section](/handbook/people-group/promotions-transfers/#greenhouse-promotions-transfer-process).
+   - If the team member you are recommending a promotion for is director or above, please refer to the [promotions to director and above](/handbook/people-group/promotions-transfers/#promotions-to-senior-director).
+1. If the promotion/compensation change should be processed through Greenhouse, please follow the steps outlined in the [Greenhouse Promotions/Transfers Process section](/handbook/people-group/promotions-transfers/#process-for-managers-requesting-a-promotion).
 1. If the promotion is considered an exception, please follow the steps outlined in the [How to Process an Exception: Submitting an out-of-cycle Promotion request in Workday](/handbook/people-group/promotions-transfers/#how-to-process-an-exception-submitting-an-out-of-cycle-promotion-request-in-workday).
 
 **Things to consider before you start the process:**
@@ -587,7 +587,7 @@ Demotions are not always considered a step backwards.  It may be an opportunity 
 - Demotions should also include a review of [compensation](/handbook/total-rewards/compensation/) and [equity](/handbook/total-rewards/stock-options/#equity-incentive-plans) in the google doc. Managers should consult with Total Rewards team on these topics; and of course always adhere to the Global Compensation Calculator.
 - Once agreement is reached on the demotion and changes (if any) in Team will act as the point of escalation to have any demotion reviewed and approved by the Compensation Group once the relevant google doc is complete.
 - Once approved, the manager informs the individual and should request the necessary changes by submitting a [request via HelpLab](https://helplab.gitlab.systems/esc?id=emp_taxonomy_topic&topic_id=c15e3b45478c069067429ee0026d43e1). A [Job Change Letter](https://docs.google.com/document/d/12AscsmP3qnTqCC9h6cx1UpIVrnZUfoN6AvfMjf8guyg/editm) will then be created.
-- The People Connect team should then follow the process listed under the [For People Connect Team: Processing Promotions & Compensation Changes](/handbook/people-group/promotions-transfers/#for-people-connect-team-processing-promotions--compensation-changes).
+- The People Connect team should then follow the process listed under the [For People Connect Team: Processing Promotions & Compensation Changes](/handbook/people-group/promotions-transfers/#for-people-connect-team-processing-promotions-internal-transfers--compensation-changes).
 - Communication should be on a need-to-know basis only and should not be made public out of respect for the individual.
 - The manager will initiate any necessary access requests or access change requests.
 

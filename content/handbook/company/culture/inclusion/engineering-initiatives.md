@@ -10,8 +10,8 @@ This page is in [draft](/handbook/values/#everything-is-in-draft). We are workin
 At GitLab, Diversity, Inclusion & Belonging is infused into our company culture, from our [values](/handbook/values/) to our [all-remote way of working](/handbook/company/culture/all-remote/).
 Engineering partners closely with our [Diversity, Inclusion & Belonging](/handbook/company/culture/inclusion/) team to ensure we're building a diverse and inclusive workforce around the globe as the company continues to grow.
 
-- [Team Member Resource Groups](/handbook/company/culture/inclusion/erg-guide/#how-to-join-current-tmrgs-and-their-slack-channels)
-- [Diversity, Inclusion and Belonging GitLab initiatives](/handbook/company/culture/inclusion/#diversity-inclusion--belonging-mission-at-gitlab)
+- [Team Member Resource Groups](/handbook/company/culture/inclusion/erg-guide/#how-to-join-current-tmrgs-and-tmags-slack-channels)
+- [Diversity, Inclusion and Belonging GitLab initiatives](/handbook/company/culture/inclusion/#gitlabs-diversity-inclusion-and-belonging-mission)
 
 ## Overview
 

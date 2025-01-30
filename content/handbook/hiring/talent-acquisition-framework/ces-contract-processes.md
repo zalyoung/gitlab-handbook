@@ -504,7 +504,7 @@ To create the contract:
     - Click "Send Email"
 1. Ensure the start date is on a Monday, unless Monday is a holiday or the non-Monday date is legally required.
 1. The Candidate Experience Specialist will check if there is a probationary period.
-    - Go to [Probationary Periods for Team Members Employed by a PEO](/handbook/people-group/contracts-probation-periods/#probation-periods-of-team-members-employed-through-a-peo-or-an-entity) and check the candidate's country.
+    - Go to [Probationary Periods for Team Members Employed by a PEO](/handbook/people-group/contracts-probation-periods/#probation-period) and check the candidate's country.
     - Select the duration of the probationary period (if any) in the "Offer Details" dropdown. If there isn't one, select "N/A" in that field.
 1. The Candidate Experience Specialist will check if the contract is indefinite or fixed.
     - If the contract is indefinite, select "Indefinite" from the dropdown in "Offer Details".
@@ -586,7 +586,7 @@ The process for creating and sending an agreement is as follows:
 1. If the Nationality field is not filled out and cannot be found in the Reference Check form, CES sends "Contract Info Request-Global Upside" email to the new hire to collect additional details.
 1. Ensure the start date is on a Monday, unless Monday is a holiday or the non-Monday date is legally required.
 1. The Candidate Experience Specialist will check if there is a probationary period.
-    - Go to [Probationary Periods for Team Members Employed by a PEO](/handbook/people-group/contracts-probation-periods/#probation-periods-of-team-members-employed-through-a-peo-or-an-entity) and check the candidate's country.
+    - Go to [Probationary Periods for Team Members Employed by a PEO](/handbook/people-group/contracts-probation-periods/#probation-period) and check the candidate's country.
     - Select the duration of the probationary period (if any) in the "Offer Details" dropdown. If there isn't one, select "N/A" in that field.
 1. The Candidate Experience Specialist will check if the contract is indefinite or fixed.
     - If the contract is definite, select "Indefinite" from the dropdown in "Offer Details".
@@ -621,7 +621,7 @@ To create the contract:
     - Click "Send Email"
 1. Ensure the start date is on a Monday, unless Monday is a holiday or the non-Monday date is legally required.
 1. The Candidate Experience Specialist will check if there is a probationary period.
-    - Go to [Probationary Periods for Team Members Employed by a PEO](/handbook/people-group/contracts-probation-periods/#probation-periods-of-team-members-employed-through-a-peo-or-an-entity) and check the candidate's country.
+    - Go to [Probationary Periods for Team Members Employed by a PEO](/handbook/people-group/contracts-probation-periods/#probation-period) and check the candidate's country.
     - Select the duration of the probationary period (if any) in the "Offer Details" dropdown. If there isn't one, select "N/A" in that field.
 1. The Candidate Experience Specialist will check if the contract is indefinite or fixed.
     - If the contract is indefinite, select "Indefinite" from the dropdown in "Offer Details".
@@ -652,7 +652,7 @@ To create the contract:
 Kindly note the following when filling in this section:
 
 1. Contract Duration: Most contracts will be indefinite, unless specified by the Recruiter
-    - Probation Period: Use the default or minimum options specified by Remote. Please utilize the [Probation Section](/handbook/people-group/contracts-probation-periods/#probation-periods-of-team-members-employed-through-a-peo-or-an-entity) of the handbook to determine probation.
+    - Probation Period: Use the default or minimum options specified by Remote. Please utilize the [Probation Section](/handbook/people-group/contracts-probation-periods/#probation-period) of the handbook to determine probation.
     - For Mexico: When adding a team member to the Remote platform you should select 30 days as a Christmas bonus, not 15.
 1. Type of employee: Full time
 1. Annual Gross salary: as stated in the offer details in GH

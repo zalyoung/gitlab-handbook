@@ -286,7 +286,7 @@ If you're interested in starting or joining an m-team meeting, reach out to othe
 
 Books in this section [can be expensed](/handbook/finance/spending-company-money/).
 
-Notable books from the [E-Group Offsite Book Selections](/handbook/company/offsite/#previous-reads) may be added to the list below.
+Notable books from the [E-Group Offsite Book Selections](/handbook/company/offsite/#content-choice) may be added to the list below.
 
 We sometimes self-organize [book clubs]({{< ref "book-clubs" >}}) to read through these books as a group.
 

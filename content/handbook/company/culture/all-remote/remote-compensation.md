@@ -27,7 +27,7 @@ We continually look at where our team is growing, which guides us in prioritizin
 
 ## What currency do you use?
 
-The preference is for team members and future team members to be paid in their local currency. However, there may be instances where this is not possible and another currency may be chosen by the team member. For the full list of countries where GitLab can pay using local currency, visit the [Contracts section of our Handbook](/handbook/people-group/contracts-probation-periods/#available-currencies).
+The preference is for team members and future team members to be paid in their local currency. However, there may be instances where this is not possible and another currency may be chosen by the team member. For the full list of countries where GitLab can pay using local currency, visit the [Compensation section of our Handbook](/handbook/total-rewards/compensation/#paying-local-rates).
 
 ## Why do you pay local rates?
 
@@ -49,7 +49,7 @@ To talk through Best Practices for Remote Compensation, GitLab partnered with [C
 
 ## How do you decide how much to pay people?
 
-Plainly, we want our compensation to be at a level were we can recruit and retain people who meet our requirements. A far more elaborate explanation can be found in the [Compensation Principles section of GitLab's Handbook](/handbook/total-rewards/compensation/#compensation-principles).
+Plainly, we want our compensation to be at a level were we can recruit and retain people who meet our requirements. A far more elaborate explanation can be found in the [Compensation Principles section of GitLab's Handbook](/handbook/total-rewards/compensation/#gitlabs-compensation-principles).
 
 Deciding how much we pay people who live and work in a multitude of regions across the globe is a continual process. [Iteration](/handbook/values/#iteration) and [Transparency](/handbook/values/#transparency) are values at GitLab, and both apply to compensation calculations.
 
@@ -73,7 +73,7 @@ For all-remote companies looking to enact a similar process, please study our [A
 
 For GitLab team members — with the exception of [Executive Compensation](/handbook/total-rewards/compensation/#executive-compensation) and anyone on a quota — the following factors are factored into their salary. We invite other all-remote companies to study this formula if considering how to pay a truly global team.
 
-Your salary = [SF benchmark](/handbook/total-rewards/compensation/compensation-calculator/#sf-benchmark) x [Location Factor](/handbook/total-rewards/compensation/compensation-calculator/#location-factor) x [Level Factor](/handbook/total-rewards/compensation/compensation-calculator/#level-factor) x [Compa Ratio](/handbook/total-rewards/compensation/compensation-calculator/#compa-ratio) x [Contract Factor](/handbook/total-rewards/compensation/compensation-calculator/#contract-factor) x [Exchange Rate](/handbook/total-rewards/compensation/#exchange-rate)
+Your salary = [SF benchmark](/handbook/total-rewards/compensation/compensation-calculator/#sf-benchmark) x [Location Factor](/handbook/total-rewards/compensation/compensation-calculator/#location-factor) x [Level Factor](/handbook/total-rewards/compensation/compensation-calculator/#level-factor) x [Compa Ratio](/handbook/total-rewards/compensation/compensation-calculator/#compa-ratio) x [Exchange Rate](/handbook/total-rewards/compensation/#exchange-rates)
 
 ## What role does experience play?
 

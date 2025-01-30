@@ -62,7 +62,7 @@ Letting candidates know what to expect allows them to focus on whether the role 
 
 #### Compensation
 
-As an all-remote organization with team members and candidates around the world, it's also important that we're as open as possible about our [compensation principles](/handbook/total-rewards/compensation/#compensation-principles).
+As an all-remote organization with team members and candidates around the world, it's also important that we're as open as possible about our [compensation principles](/handbook/total-rewards/compensation/#gitlabs-compensation-principles).
 
 That's why we created a [compensation calculator](/handbook/total-rewards/compensation/compensation-calculator/) that helps determine compensation for more than 200 regions globally.
 

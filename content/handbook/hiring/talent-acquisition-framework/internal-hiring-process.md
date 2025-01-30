@@ -27,7 +27,7 @@ description: "This page discusses the Internal Hiring Process"
 
 ## Recruiter Responsibilities
 
-- Recruiter will post a job internally following the [req creation process]({{< ref "req-creation" >}}), and the [transfer, promotion guidelines](/handbook/people-group/promotions-transfers/#greenhouse).
+- Recruiter will post a job internally following the [req creation process](/handbook/hiring/talent-acquisition-framework/req-creation/), and the [transfer, promotion guidelines](/handbook/people-group/promotions-transfers/).
 - Recruiters will set up notifications for internal applications, to ensure they are notified when internal candidates apply to the role
 - Once the Recruiter receives an internal team members application, they will proceed with the following:
   - Review the application as you would with an external candidate and determine if they are qualified for the role. If they are not qualified, please ensure you communicate the decision via email (or slack) and provide clear feedback as to why they are not qualified, and add the hiring manager so they are looped in and can add additional feedback if appropriate.

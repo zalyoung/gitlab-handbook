@@ -84,4 +84,4 @@ Exceptions to this standard will be tracked as per the [Information Security Pol
 ## References
 
 - Parent Policy: [Information Security Policy](_index.md)
-- [Token Management Standard](/handbook/company/working-groups/token-management/-standard)
+- [Token Management Standard](/handbook/company/working-groups/token-management/)

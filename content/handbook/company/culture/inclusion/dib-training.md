@@ -71,4 +71,4 @@ If you are internal to GitLab, please leverage [GitLab Learn here](https://gitla
 
 ## Module 4 - Testing your DIB Knowledge
 
-<i class="fa-solid fa-book"></i> [TBC](/handbook/company/culture/inclusion/#diversity-inclusion--belonging-training-and-learning-opportunities)
+<i class="fa-solid fa-book"></i> [TBC](/handbook/company/culture/inclusion/#diversity-inclusion--belonging-learning--development)

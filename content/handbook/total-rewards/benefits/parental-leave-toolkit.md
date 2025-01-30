@@ -68,8 +68,8 @@ Welcome them back! Whether your team member was gone for several months, or just
 If you have a team member going out on parental leave, a common question might be "how should I reallocate their tasks and output while they are out?" Below are general guidelines for managers based on the length of leave taken by the team member. **Note** - local law supersedes these guidelines where applicable:
 
 - Leave less than 1 month: Use internal resources.
-- Leave less than 6 months: Use internal resources who may be eligible for an [interim bonus](/handbook/total-rewards/compensation/#compensation-for-interim-roles), and/or consider hiring a temporary contractor
-- Leave longer than 6 months: Use internal resources who may be eligible for an [interim bonus](/handbook/total-rewards/compensation/#compensation-for-interim-roles), hire a temporary contractor.
+- Leave less than 6 months: Use internal resources who may be eligible for an [interim bonus](/handbook/total-rewards/compensation/#compensation-for-acting-and-interim-roles), and/or consider hiring a temporary contractor
+- Leave longer than 6 months: Use internal resources who may be eligible for an [interim bonus](/handbook/total-rewards/compensation/#compensation-for-acting-and-interim-roles), hire a temporary contractor.
 - Leave longer than 1 year: Consider a backfill ensuring there will be a similar (level, scope, etc) role for the person when they return.
 
 ## Parental Leave Reentry Buddies

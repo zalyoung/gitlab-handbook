@@ -50,7 +50,7 @@ The Senior Manager, Global Enablement reviews if all Greenhouse tokens are corre
 If a team member changes roles at GitLab and the approval goes through Greenhouse, the process for a Job Change Letter is laid out in the [Job Change Letter](/handbook/hiring/talent-acquisition-framework/ces-contract-processes/#job-change-letter) section on the CES Contract Processes handbook page.
 If a team member changes roles at GitLab and the approval goes through Workday, the process for a Job Change Letter is laid out in the [Job Change Letter](/handbook/people-group/promotions-transfers/#job-change-letter) section on the Promotions & Transfers handbook page.
 
-For other instances such as a [Relocation](/handbook/people-group/relocation/), the People Connect Team member will create a [Relocation letter](/handbook/people-group/relocation/#tasks-for-people-operations) according to the parameters as listed in the [Relocation within the Same Country](/handbook/people-group/relocation/#tasks-for-people-operations) section on the Relocation handbook page.
+For other instances such as a [Relocation](/handbook/people-group/relocation/), the People Connect Team member will create a [Relocation letter](/handbook/people-group/relocation/#once-approved) according to the parameters as listed in the [Relocation within the Same Country](/handbook/people-group/relocation/#once-approved) section on the Relocation handbook page.
 
 ### Background Screenings
 

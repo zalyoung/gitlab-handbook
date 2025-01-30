@@ -162,7 +162,7 @@ Scorecards are required in all stages that require interviews. Confidential, per
 {{% details summary="Scheduling tools in Greenhouse" %}}
 
 - Candidate Experience Specialists use [Prelude]({{< ref "prelude#prelude" >}}) to schedule.
-- Interview confirmations are sent through [Guide](/handbook/hiring/guide/#guide). Because of this, confirmations have calendar invites that can be downloaded rather than being sent through. For this reason, Recruiters are not able to be added to candidate interview invites.
+- Interview confirmations are sent through [Guide](/handbook/hiring/guide/). Because of this, confirmations have calendar invites that can be downloaded rather than being sent through. For this reason, Recruiters are not able to be added to candidate interview invites.
 {{% /details %}}
 
 {{% details summary="Greenhouse for internal candidates" %}}

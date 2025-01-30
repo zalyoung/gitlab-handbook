@@ -144,7 +144,7 @@ Because you are likely to work alone most times, it's more difficult to remember
 
 #### Create clarity through documentation
 
-The aforementioned reality makes it all the more important for any company hiring remote workers to place a great deal of focus on [documenting processes](/handbook/total-rewards/benefits/modern-health/#what-does-modern-health-offer) for team members who face these difficulties. Along with offering professional assistance (see [GitLab Modern Health](/handbook/total-rewards/benefits/#employee-assistance-program) as an example), be sure to showcase documented resources of where to turn during [onboarding](learning-and-development/#how-do-you-onboard-new-team-members), and reinforce this in ongoing [learning and development](learning-and-development/) sessions.
+The aforementioned reality makes it all the more important for any company hiring remote workers to place a great deal of focus on [documenting processes](/handbook/total-rewards/benefits/modern-health/#what-does-modern-health-offer) for team members who face these difficulties. Along with offering professional assistance (see [GitLab Modern Health](/handbook/total-rewards/benefits/modern-health/) as an example), be sure to showcase documented resources of where to turn during [onboarding](learning-and-development/#how-do-you-onboard-new-team-members), and reinforce this in ongoing [learning and development](learning-and-development/) sessions.
 
 Remote team members may feel less comfortable reaching out to a person when experiencing mental duress, so it's vital to ensure that answers and resources are easily discoverable within a company's handbook.
 
