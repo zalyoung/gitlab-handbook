@@ -87,7 +87,7 @@ The Staff Data Architect is a grade 8 and reports to the Director, Data Platform
 Extends the Senior Data Architect responsibilities:
 
 - Drive strategic data architecture decisions
-- Define data strategy aligned with business objectives
+- Contribute to the data strategy aligned with business objectives
 - Lead data initiatives
 - Establish standards for data platform components including:
   - Pipeline orchestration patterns
