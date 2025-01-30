@@ -82,7 +82,7 @@ Please enter the dates in Workday and select the `Bereavement` option.
 
 ### Marriage Leave
 
-Team Members in Brazil are entitled to three consecutive days of paid leave when they get married.  Team members needing more time away should refer to our [PTO policy]({{< ref "paid-time-off" >}}).
+Team Members in Brazil are entitled to three consecutive days of paid leave when they get married.  Team members needing more time away should refer to our [PTO policy](/handbook/people-group/paid-time-off/).
 
 Please enter the time away in Workday and select the `Paid Time Off` option.
 

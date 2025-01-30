@@ -150,7 +150,7 @@ Security Program Management is responsible for complete overview and driving sec
 
 ### Product development
 
-In keeping with our [core values](/handbook/values/) and the belief that [everyone can contribute]({{< ref "mission#everyone-can-contribute" >}}), the Security Division is committed to [dogfooding](/handbook/values/#dogfooding) and contributing to the development of the GitLab product.
+In keeping with our [core values](/handbook/values/) and the belief that [everyone can contribute](/handbook/company/mission/#contribute-with-gitlab), the Security Division is committed to [dogfooding](/handbook/values/#dogfooding) and contributing to the development of the GitLab product.
 
 ---
 
@@ -162,7 +162,7 @@ For information regarding GitLab's [HackerOne bug bounty program]({{< ref "hacke
 
 #### Reporting an Incident
 
-If an urgent security incident has been identified or you suspect an incident may have occurred, please refer to [Engaging the Security Engineer On-Call]({{< ref "engaging-security-on-call" >}}).  Examples include, but are not limited to:
+If an urgent security incident has been identified or you suspect an incident may have occurred, please refer to [Engaging the Security Engineer On-Call](/handbook/security/security-operations/sirt/engaging-security-on-call/).  Examples include, but are not limited to:
 
 - Lost or stolen devices
 - Leaked credentials
@@ -254,7 +254,7 @@ For an overview of the communication and response process for a suspected ransom
 
 #### Tokens
 
-The following best practices will help ensure tokens are handled appropriately at GitLab. For detailed requirements regarding the use of tokens at GitLab, please see our [token management standard]({{< ref "token-management-standard" >}}).
+The following best practices will help ensure tokens are handled appropriately at GitLab. For detailed requirements regarding the use of tokens at GitLab, please see our [token management standard](/handbook/company/working-groups/token-management/).
 
 1. When creating a [Personal Access Token](https://docs.gitlab.com/ee/user/profile/personal_access_tokens.html), be sure to choose the appropriate [scopes](/handbook/security/security-operations/sirt/engaging-security-on-call/) that only have the permissions that are absolutely necessary.
 1. Oftentimes a [Project Access Token](https://docs.gitlab.com/ee/user/project/settings/project_access_tokens.html) might be sufficient instead of a Personal Access Token. Project Access Tokens have a much more limited scope and should be preferred over Personal Access Tokens whenever possible.

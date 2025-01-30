@@ -53,4 +53,4 @@ If you think this is something you would be interested in learning about, maybe 
 
 ## Enrollment
 
-Ready to enroll? [Click here]({{< ref "security-shadow" >}}) for more information.
+Ready to enroll? [Click here](/handbook/security/security-shadow/) for more information.

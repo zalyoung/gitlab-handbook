@@ -99,7 +99,7 @@ Once an exception request is submitted, the following general flow will commence
   - The Controlled Document Owner will review the request to ensure appropriate compensating controls have been documented and will consider inputs from Security Compliance and other SMEs when determining the overall level of risk associated with the request.
 - The Controlled Document Owner will document a final decision, and if appropriate, a recommended action plan to mitigate risk from the exception request.
 - The exception will be logged in the central exception management space.
-- The exception will be reviewed as its expiration date approaches, and any extension of the exception will require a new and approved extension request. 
+- The exception will be reviewed as its expiration date approaches, and any extension of the exception will require a new and approved extension request.
 
 ## References
 

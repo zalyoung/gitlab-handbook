@@ -88,7 +88,7 @@ There are five teams in the Security Assurance sub-department.
 ### Security Compliance Core Competencies
 
 - [Continuous Control Monitoring]({{< ref "sec-controls" >}})
-- [Security Certifications and Attestations]({{< ref "../security-assurance/security-compliance/certifications" >}})
+- [Security Certifications and Attestations](../security-assurance/security-compliance/certifications/)
 - [User Access Reviews (non-SOX)]({{< ref "access-reviews" >}})
 - [Observation management for control failures and Tier 3 (system-level) risks]({{< ref "observation-management-procedure" >}})
 - [GitLab Production Readiness: Compliance Assessment]({{< ref "production-readiness-compliance-assessment" >}})
@@ -131,4 +131,4 @@ Check out these great security resources built with our customers in mind:
 
 - GitLab's [Customer Assurance Package](https://trust.gitlab.com/)
 - GitLab's [Security - Trust Center](https://about.gitlab.com/security/)
-- GitLab's [Security Team Page]({{< ref "../_index.md" >}})
+- GitLab's [Security Team Page](../_index.md)

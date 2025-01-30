@@ -13,7 +13,7 @@ The reasons for creating a Gender and Sexual Orientation Identity page in the Gi
 
 ### Additional resources
 
-- [GitLab Ally Resources]({{< ref "ally-resources" >}})
+- [GitLab Ally Resources](/handbook/communication/ally-resources/)
 - [Diversity, Inclusion and Belonging at GitLab](/handbook/company/culture/inclusion/)
 - [Human Rights Campaign website](https://www.hrc.org/)
   - [HRC Sexual Orientation and Gender Identity Definitions](https://www.hrc.org/resources/sexual-orientation-and-gender-identity-terminology-and-definitions)

@@ -77,11 +77,11 @@ Each entry in OpenSearch can be expanded to show more information by clicking th
 
 ## Searching logs
 
-Since GitLab Dedicated uses [Cloud Native Hybrid reference architecture](https://docs.gitlab.com/ee/administration/reference_architectures/10k_users.html#cloud-native-hybrid-reference-architecture-with-helm-charts-alternative), searching logs on OpenSearch is a bit different from [Kibana]({{ ref "kibana" >}}).
+Since GitLab Dedicated uses [Cloud Native Hybrid reference architecture](https://docs.gitlab.com/ee/administration/reference_architectures/10k_users.html#cloud-native-hybrid-reference-architecture-with-helm-charts-alternative), searching logs on OpenSearch is a bit different from [Kibana](kibana.md).
 
 - In OpenSearch, terms can be freely typed in the search bar.
-  - By comparison, freely typing in the search bar is [discouraged]({{< ref "kibana#fields-and-filters" >}}) in Kibana.
-- Fields can also be used as filters, similarly to [Kibana]({{< ref "kibana" >}}).
+  - By comparison, freely typing in the search bar is [discouraged](kibana.md#fields-and-filters) in Kibana.
+- Fields can also be used as filters, similarly to [Kibana](kibana.md).
 
 ### Fields and Filters
 

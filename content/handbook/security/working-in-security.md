@@ -54,7 +54,7 @@ For information on the security internship, see the [Internship page](internship
 
 The Security Organization is piloting a fully immersive on-the-job cross-training program among our various sub-organizations and teams. Participants will get a true behind the scenes look at how the Security Organization protects, defends, and assures our customers and team members day in and day out.
 
-For more information, see the [Security Shadow Program]({{< ref "security-shadow" >}}) page.
+For more information, see the [Security Shadow Program](/handbook/security/security-shadow/) page.
 
 ## Security Gearing Ratios
 

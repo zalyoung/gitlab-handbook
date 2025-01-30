@@ -16,7 +16,7 @@ Compensation decisions are based on:
 
 1. Individual factors such as talent assessments outlining performance and growth potential in the role.
 1. Internal assessment of our roles and compensation within teams and departments
-1. Assessing external market changes in the [compensation calculator]({{< ref "compensation-calculator" >}}) inputs
+1. Assessing external market changes in the [compensation calculator](/handbook/total-rewards/compensation/compensation-calculator/) inputs
 1. Other factors includes company performance and available budget, local pay practices and regulations, and eligibility as outlined below
 
 ### Process overview

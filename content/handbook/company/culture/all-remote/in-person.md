@@ -10,7 +10,7 @@ twitter_creator: "@gitlab"
 ![GitLab all-remote transport](/images/all-remote/gitlab-transport.jpg)
 {style="max-width: 50%;"}
 
-Humans are social creatures, and [research](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2443551) has shown that there is value in in-person interactions. While there are tremendous [advantages]({{< ref "remote-benefits" >}}) to operating a 100% remote company, leaders should consider being intentional about [planning in-person elements](https://www.fastcompany.com/3051518/the-science-of-when-you-need-in-person-communication), even if they're optional for team members.
+Humans are social creatures, and [research](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2443551) has shown that there is value in in-person interactions. While there are tremendous [advantages](/handbook/company/culture/all-remote/remote-benefits/) to operating a 100% remote company, leaders should consider being intentional about [planning in-person elements](https://www.fastcompany.com/3051518/the-science-of-when-you-need-in-person-communication), even if they're optional for team members.
 
 ## Bridging the gap during the pandemic
 
@@ -61,7 +61,7 @@ In-person meeting prep is similar to getting ready for a [video call](/handbook/
 
 ## The importance of social interaction
 
-We believe that [in-person interactions](in-person/) are extremely important, especially in an all-remote [culture]({{< ref "culture#culture-at-gitlab" >}}). Remote workers have increased risk of experiencing [loneliness](https://about.gitlab.com/blog/2018/04/27/remote-future-how-remote-companies-stay-connected/) or [burnout](mental-health/).
+We believe that [in-person interactions](in-person/) are extremely important, especially in an all-remote [culture](/handbook/company/culture/#culture-at-gitlab). Remote workers have increased risk of experiencing [loneliness](https://about.gitlab.com/blog/2018/04/27/remote-future-how-remote-companies-stay-connected/) or [burnout](mental-health/).
 
 One way to prevent loneliness and burnout are through relationship-building by prioritizing regular social interactions via informal communication throughout the workday, week, and month.
 
@@ -145,7 +145,7 @@ GitLab recognizes that not everyone can or will prefer to work from their home. 
 
 Savings on real estate — and the litany of associated costs with operating one or more offices — is a key financial reason for a company to organize itself as completely remote. Consider returning some of those savings to employees by [subsidizing travel costs](https://about.gitlab.com/blog/2017/06/30/there-and-back-again-in-one-release/) associated with [visiting colleagues around the globe](https://about.gitlab.com/blog/2017/01/31/around-the-world-in-6-releases/).
 
-GitLab's [Visiting Grant incentive]({{< ref "incentives#visiting-grant" >}}) is one such example. While some colleagues may prefer to stay put, there is value in transparently encouraging colleagues to [spend time](https://about.gitlab.com/blog/2019/09/12/not-everyone-has-a-home-office/) with one another in a physical space. When a colleague travels to visit someone else, they are [immersed](people/#travelers) in a new place and new culture, which leads to greater empathy and understanding.
+GitLab's [Visiting Grant incentive](/handbook/total-rewards/incentives/#visiting-grant) is one such example. While some colleagues may prefer to stay put, there is value in transparently encouraging colleagues to [spend time](https://about.gitlab.com/blog/2019/09/12/not-everyone-has-a-home-office/) with one another in a physical space. When a colleague travels to visit someone else, they are [immersed](people/#travelers) in a new place and new culture, which leads to greater empathy and understanding.
 
 This also reinforces a company's ability to create a more [geographically diverse and inclusive work environment](/handbook/company/culture/inclusion/).
 
@@ -167,4 +167,4 @@ Anyone can test their knowledge on considerations for in-person interactions in 
 
 ---
 
-Return to the main [all-remote page]({{< ref "_index.md" >}}).
+Return to the main [all-remote page](_index.md).

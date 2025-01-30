@@ -8,14 +8,14 @@ description: "Security Compliance Team"
 We support the Security division's [mission and operating principles](/handbook/security/_index.md) by:
 
 1. Maintaining GitLab's position as the most trusted DevSecOps offering on the market
-1. Maintaining and achieving [security certifications and attestations]({{< ref "../security-compliance/certifications" >}}) that meet the needs of our customers
+1. Maintaining and achieving [security certifications and attestations](../security-compliance/certifications/) that meet the needs of our customers
 1. Identifying and mitigating information security risk through [continuous control monitoring]({{< ref "sec-controls" >}}) and [risk-based control testing] ({{< ref "risk-based-control-testing" >}}) of assets
 1. Applying compliance automation and [policy-as-code](/handbook/security/security-assurance/security-compliance/policy-as-code/)  guardrails to minimize [toil](https://sre.google/sre-book/eliminating-toil/) and enable product, development, and infrastructure teams
 1. Using our own product ([dogfooding](/handbook/values/#dogfooding)) to meet key security controls, improve our offering, and demonstrate to customers how they can do the same
 
 ## Core Competencies
 
-1. [Security certifications and attestations]({{< ref "../security-compliance/certifications" >}})
+1. [Security certifications and attestations](../security-compliance/certifications/)
    - Gap Analysis Program: feasibility analysis for certification expansion
    - External Audit coordination and execution
 1. [Continuous Monitoring of GitLab's Security Controls]({{< ref "sec-controls" >}}) which are mapped to applicable regulatory requirements and security certifications/frameworks we have committed to.
@@ -254,7 +254,7 @@ The SSOT for our metrics is Tableau. Our metrics are largely collected from issu
 
 ## References
 
-- [Security Certifications]({{< ref "../security-compliance/certifications" >}})
+- [Security Certifications](../security-compliance/certifications/)
 - [GCF Security Control Lifecycle]({{< ref "security-control-lifecycle" >}})
 - [GCF Security Controls]({{< ref "sec-controls" >}})
 - [User Access Reviews]({{< ref "access-reviews" >}})

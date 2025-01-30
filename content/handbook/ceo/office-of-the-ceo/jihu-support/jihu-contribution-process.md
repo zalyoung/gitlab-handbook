@@ -98,7 +98,7 @@ Contributions from [JiHu team members](https://gitlab.com/groups/gitlab-jh/jh-te
     1. [Code review by domain experts](#what-approvals-are-required)
     1. Review from owners of specific code files. JiHu merge request author is responsible to mention team members from list of require approvals in the MR Approvals widget. Currently for the following area:
         1. Authentication related code
-    1. [GitLab Security Review]({{< ref "jihu-security-review-process" >}}#security-review-workflow-for-jihu-contributions), which will be triggered automatically.
+    1. [GitLab Security Review](/handbook/ceo/office-of-the-ceo/jihu-support/jihu-security-review-process/#security-review-workflow-for-jihu-contributions), which will be triggered automatically.
 
 #### What approvals are required
 

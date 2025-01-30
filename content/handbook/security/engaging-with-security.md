@@ -138,7 +138,7 @@ release.
 
 For review by the Application Security team, @ mention `@gitlab-com/gl-security/product-security/appsec`.
 
-For more *immediate* attention, refer to [Engaging security on-call]({{< ref "engaging-security-on-call" >}}).
+For more *immediate* attention, refer to [Engaging security on-call](/handbook/security/security-operations/sirt/engaging-security-on-call/).
 
 ### Severity and Priority Labels on `~security` Issues
 

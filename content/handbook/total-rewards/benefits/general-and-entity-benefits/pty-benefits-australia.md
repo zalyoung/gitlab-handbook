@@ -132,13 +132,13 @@ Engineers based in Australia who are part of the Development and Infrastructure 
 - 8-hour shift = 1 day time in lieu
 - 24-hour shift = 3 days time in lieu
 
-For weekend shifts please be particularly mindful about managing your time to **ensure you are not exceeding a 38 hour work-week**, and feel free to leverage our [flexible PTO policy]({{< ref "paid-time-off#paid-time-off" >}}) to complement time in lieu.
+For weekend shifts please be particularly mindful about managing your time to **ensure you are not exceeding a 38 hour work-week**, and feel free to leverage our [flexible PTO policy](/handbook/people-group/paid-time-off/#paid-time-off) to complement time in lieu.
 
 *Note: The full shift (state of readiness) is compensated by time in lieu - rather than only the "actual time worked"*
 
 #### What should I do when I want to take more time off after an on-call shift?
 
-If you need additional time to ensure a good work/life balance, on top of the time in lieu, you can leverage our Flexible [PTO policy as described here]({{< ref "paid-time-off#paid-time-off" >}}).
+If you need additional time to ensure a good work/life balance, on top of the time in lieu, you can leverage our Flexible [PTO policy as described here](/handbook/people-group/paid-time-off/#paid-time-off).
 
 #### When can time in lieu be taken?
 
@@ -483,7 +483,7 @@ If it's impossible to find a replacement and the team member ends up taking the 
 
 - Team members in New Zealand are entitled to 10 days' of statutory sick leave after six months of current continuous employment with GitLab. For each 12 months after meeting the above criteria, each team member gets at least ten days sick leave.
 - If in any year the team member doesn't meet the criteria, then they don't get any new sick leave entitlement, but can use their sick leave balance which may have carried over. An employee may re-qualify for sick leave as soon as they meet the criteria.  The maximum amount of sick leave that can be accumulated under the Holidays Act 2003 is 20 days.
-- Sick Leave runs concurrently with GitLab's [Sick Time Policy]({{< ref "paid-time-off#sick-time---taking-and-reporting" >}}).
+- Sick Leave runs concurrently with GitLab's [Sick Time Policy](/handbook/people-group/paid-time-off/#sick-time---taking-and-reporting).
 
 *How to Apply:*
 
@@ -565,7 +565,7 @@ For more information related to this policy, please reivew the [Employment New Z
 
 <summary>Election Voting Leave</summary>
 
-- Team members are entitled to 2 hours of paid time off to vote in general (parliamentary) elections on polling day if they are registered as an elector of the district and have not had a reasonable opportunity to vote before starting work. GitLab encourages you to [take time off to vote]({{< ref "paid-time-off#a-gitlab-team-members-guide-to-time-off" >}}) or volunteer at the polls.
+- Team members are entitled to 2 hours of paid time off to vote in general (parliamentary) elections on polling day if they are registered as an elector of the district and have not had a reasonable opportunity to vote before starting work. GitLab encourages you to [take time off to vote](/handbook/people-group/paid-time-off/#a-gitlab-team-members-guide-to-time-off) or volunteer at the polls.
 - This leave runs concurrently with GitLab PTO. Team members must select `Paid Time Off` in Workday to ensure that statutory entitlements are properly tracked.
 
 For more information related to this policy, please reivew the [Employment New Zealand website](https://www.employment.govt.nz/leave-and-holidays/time-off-to-vote)

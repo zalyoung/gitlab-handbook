@@ -30,7 +30,7 @@ All of our open positions can be found on our [jobs page](https://about.gitlab.c
 {{% details summary="Internal applicants" %}}
 Interested in another role internally? Review internal mobility eligibility [here]({{< ref "internal-hiring-process#team-member-responsibilities" >}}).
 
-If you are a [current team member and are interested in applying]({{< ref "promotions-transfers#department-transfers" >}}) for a current vacancy, please follow the steps below.
+If you are a [current team member and are interested in applying](/handbook/people-group/promotions-transfers/#department-transfers) for a current vacancy, please follow the steps below.
 
 1. Log in to your [Greenhouse account](https://gitlab.greenhouse.io/dashboard)
 1. If you are a GitLab team member who signed in to Greenhouse you can access the [Internal Job Board](https://gitlab.greenhouse.io/internal_job_board). If you do not yet have a Greenhouse account, you can activate yours by clicking the Greenhouse tile in Okta.
@@ -161,7 +161,7 @@ The GitLab team understands the importance of inclusive interviewing, and we str
 ### How we conduct remote interviews on a global scale
 
 {{% details summary="How we work during holidays" %}}
-As an all-remote, global company, GitLab gives all team members the flexibility to determine their [time away from work]({{< ref "paid-time-off" >}}), including the holidays they observe.
+As an all-remote, global company, GitLab gives all team members the flexibility to determine their [time away from work](/handbook/people-group/paid-time-off/), including the holidays they observe.
 There will likely be holidays that our candidates observe that a Recruiter, Hiring Manager, or CES may not.
 If there's a time during the year when a significant portion of the company will be taking time off, we'll be sure to send a communication to all active candidates to let them know of a possible delay in communication.
 Please note that not every member of the team will be observing that holiday, so you may still receive emails from them.
@@ -233,7 +233,7 @@ Note: In countries with a star (*) hiring is limited to only certain roles
 
 ## What's it like to work at GitLab?
 
-Our [mission]({{< ref "mission" >}}) makes it clear that we believe in a world where everyone can contribute. We make that possible at GitLab by [running our operations on our product]({{< ref "using-gitlab-at-gitlab" >}}) and staying aligned with our [values](/handbook/values/).
+Our [mission](/handbook/company/mission/) makes it clear that we believe in a world where everyone can contribute. We make that possible at GitLab by [running our operations on our product]({{< ref "using-gitlab-at-gitlab" >}}) and staying aligned with our [values](/handbook/values/).
 
 {{% details summary="Explore the resources below for a deeper understanding of working at GitLab — one of the world's largest all-remote companies" %}}
 
