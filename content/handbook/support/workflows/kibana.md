@@ -259,7 +259,7 @@ To find the log entry in `pubsub-rails-inf-gprd-*` with the following data point
 
 #### Confirm the Remove User (DELETE)
 
-1. Add a positive filter on `madejson.meta.caller_id` for `Groups::GroupMembersController#destroy`
+1. Add a positive filter on `json.meta.caller_id` for `Groups::GroupMembersController#destroy`
 1. Add a positive filter on `json.meta.user_id` for user id of person that performed the remove user action in the UI
 1. Add a positive filter on `json.method` for `DELETE`
 
