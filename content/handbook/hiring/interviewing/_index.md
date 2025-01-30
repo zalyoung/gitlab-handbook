@@ -39,7 +39,7 @@ CES uses your Google calendar to schedule interviews. Our scheduling tool, Moder
 
 ## ModernLoop
 
-ModernLoop is the scheduling tool that the Candidate Experience Team uses to book interviews. Modern Loop is integrated with Greenhous, Google Workspace, Zoom and Slack.
+ModernLoop is the scheduling tool that the Candidate Experience Team uses to book interviews. Modern Loop is integrated with Greenhouse, Google Workspace, Zoom and Slack.
 
 **Logging in to ModernLoop**
 
