@@ -1,4 +1,3 @@
-
 ---
 title: "PCI Internal Control Review Procedures"
 ---
@@ -12,6 +11,7 @@ As part of our [Continuous Control Monitoring](./sec-controls.md) and to support
 Quarterly, issues are created to confirm that specified activities are performed as required, including testing of the Change Management process, and confirmation that log reviews and configuration reviews occur, alerts are responded to, and configurations are applied to systems per the standards. Procedures for conducting the review activity are detailed in the quarterly issues.    
 
 ## Requirements
+
 12.4.1: 12.4.1 Reviews are performed at least once every three months to confirm that personnel are performing their tasks in accordance with all security policies and operational procedures. Reviews are performed by personnel other than those responsible for performing the given task and include, but are not limited to, the following tasks:
 
   • Daily log reviews.
