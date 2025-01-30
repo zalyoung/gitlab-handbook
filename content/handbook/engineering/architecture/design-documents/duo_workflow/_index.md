@@ -512,10 +512,12 @@ To accomplish this, we will:
 
 - Create a service account for the Duo Workflow AI agent with its own distinct
   identity.
-  - On GitLab.com: there will be one service account per top-level group.
-  - For self-managed GitLab instances: there will be one service account per
-    instance.
-- Generate an OAuth access token for the service account.
+  - For all GitLab instances (including GitLab.com): there will be one service
+    account per instance.
+- Generate a new GitLab OAuth application that accepts both the `ai_workflows` and
+  `user:*` scopes (latter scope is a "dynamic scope," which is what makes
+  composite identity tokens possible).
+- Generate an OAuth access token for the new OAuth application and service account user.
   - In this scenario, the OAuth client and server are both GitLab. The request to
     authenticate comes in from either the IDE or GitLab. The IDE already has a
     token for the user and GitLab exchanges that token for a service account
@@ -527,17 +529,8 @@ To accomplish this, we will:
     would authorize the 3rd-party app to use the service account.
 - The OAuth access token will have the `ai_workflows` scope to narrow down the
   access permissions of the AI agent.
-- Implement dynamic scopes in Doorkeeper (e.g. `project:/my/project`,
-  `user:123`, `resource:*`). For `v2` we only implement the human user scope.
-  The rest is part of `v3`.
-- The ID token we will create for the AI Agent will have a human user scope
+- The OAuth access token we will create for the AI Agent will have a human user scope
   (`user:123` using the user id).
-- Implement composite identity through `Gitlab::Auth::Identity`.
-- Implement support for composite identity in our [declarative policies](https://docs.gitlab.com/ee/development/policies.html).
-- Update the definition of `Ability.allowed?` so that, when a composite identity
-  token is passed, we always do permissions checks for both the token
-  owner and the user specified in the token's dynamic scopes
-  (`can?(ai_agent, :do_something) && can?(human_user, :do_something)`).
 
 The authentication sequence for OAuth v2 identical to OAuth v1, the only difference is that the
 generated OAuth token is a composite token rather than a regular user OAuth
