@@ -71,7 +71,7 @@ Before opening the merge request, the author should:
 
 Before merging, the manager/mentor should:
 
-1. Mention the maintainers from the given specialty and ask them to provide feedback to the manager/mentor directly. Emphasize that any negative feedback should be communicated privately to the manager/mentor, not in the merge request. This is inline with our Collaboration value that [Negative feedback is 1-1](/values/#negative-feedback-is-1-1).
+1. Mention the maintainers from the given specialty and ask them to provide feedback to the manager/mentor directly. Emphasize that any negative feedback should be communicated privately to the manager/mentor, not in the merge request. This is inline with our Collaboration value that [Negative feedback is 1-1](/handbook/values/#negative-feedback-is-1-1).
 1. Leave the merge request open for 1 week, to give the maintainers time to provide feedback to the manager/mentor.
 1. Have at least 2 approvals from existing maintainers.
 
@@ -133,7 +133,7 @@ Upon approval, the maintainer who merges the MR will:
 
 [`design.gitlab.com`](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com) or [`gitlab-svgs`](https://gitlab.com/gitlab-org/gitlab-svgs)
 
-- Understand [how to become a maintainer](/handbook/engineering/ux/pajamas-design-system/design-review/#maintainer).
+- Understand [how to become a maintainer](/handbook/product/ux/pajamas-design-system/design-review/#how-to-become-a-maintainer).
 - All designers are maintainers of [`gitlab-design`](https://gitlab.com/gitlab-org/gitlab-design) project. If you are interested in becoming a Maintainer of UI (`.scss`) for `gitlab`, and `gitlab-ui` projects, please follow the [Engineering Review Workflow](/handbook/engineering/workflow/code-review).
 - It is up to you to ensure that you are getting enough MRs to review, and of varied types. You could also seek out more reviews from your team, for example by asking for reviews on the `#ux` and `#pajamas-design-system` Slack channels. If you are not receiving enough MRs to advance in your training, be proactive and work on your own improvements to Pajamas. This will demonstrate overall understanding of the product, as well as quality contributions, and help propel your progress. Maintainers are available to help guide you.
 - Your reviews should aim to cover maintainer responsibilities as well as reviewer responsibilities. Design Maintainers should be focused on MRs that have an impact on usability, iterate on existing user experience, and/or include usage of design guidelines, standards, and patterns. Your approval means you think it is ready to merge.
@@ -169,7 +169,7 @@ Upon approval, the maintainer who merges the MR will:
 - Review the [GitLab Elasticsearch Indexer development and release](https://gitlab.com/gitlab-org/gitlab-elasticsearch-indexer/-/blob/main/PROCESS.md) process.
 - Join the `#g_global_search` Slack channel.
 - Work on issues to gain familiarity with the project.
-- *Optional:* Reach out to an [existing maintainer](https://gitlab.com/gitlab-org/gitlab-elasticsearch-indexer/-/project_members?with_inherited_permissions=exclude) to [help you become](/handbook/engineering/workflow/code-review/#trainee-maintainer-mentorship-pilot-program) a maintainer.
+- *Optional:* Reach out to an [existing maintainer](https://gitlab.com/gitlab-org/gitlab-elasticsearch-indexer/-/project_members?with_inherited_permissions=exclude) to [help you become](#how-to-become-a-project-maintainer) a maintainer.
 
 #### Project maintainer process for `customers-gitlab-com`
 
@@ -438,7 +438,7 @@ entitled to the ```Leading Organization``` status, will receive the label ```Lea
 
 > Leading Organization = 20 merged Merge Requests or more within the last 3 completed months.
 
-Eligible merge requests include contributions to the [GitLab product](/handbook/product/groups/product-analysis/engineering/dashboards/#projects-that-are-part-of-the-product) and documentation. Contributions to the [www-gitlab-com](https://gitlab.com/gitlab-com/www-gitlab-com) repository (e.g. the GitLab handbook) are not currently included or entitled to a review response SLO.
+Eligible merge requests include contributions to the [GitLab product](/handbook/product/groups/product-analysis/engineering/dashboards/) and documentation. Contributions to the [www-gitlab-com](https://gitlab.com/gitlab-com/www-gitlab-com) repository (e.g. the GitLab handbook) are not currently included or entitled to a review response SLO.
 
 ## Domain Experts
 
@@ -494,7 +494,7 @@ The expertise of a team member can be seen on the [Engineering Projects](/handbo
 
 ## Review turnaround time
 
-Because [unblocking others is always a top priority](/handbook/values/#global-optimization),
+Because [unblocking others is always a top priority](/handbook/values/#iteration),
 reviewers are expected to review merge requests in a timely manner,
 even when this may negatively impact their other tasks and priorities.
 
