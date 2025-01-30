@@ -39,7 +39,7 @@ CES uses your Google calendar to schedule interviews. Our scheduling tool, Moder
 
 ## ModernLoop
 
-ModernLoop is the scheduling tool that the Candidate Experience Team uses to book interviews. Modern Loop is integrated with Greenhous, Google Workspace, Zoom and Slack.
+ModernLoop is the scheduling tool that the Candidate Experience Team uses to book interviews. Modern Loop is integrated with Greenhouse, Google Workspace, Zoom and Slack.
 
 **Logging in to ModernLoop**
 
@@ -47,20 +47,20 @@ To log in, go to the ModernLoop Okta tile and log in with SSO.
 
 **Set your ModernLoop preferences**
 
-Within ModernLoop interviewers can set the following: 
+Within ModernLoop interviewers can set the following:
 
-Once you log in to the platform, navigate to "your account" and select "Go to Interviewer Portal".  We encourage you to upload a photo, create a bio and set your itnerviewer preferences so we can provide a great candiodate experience.
+Once you log in to the platform, navigate to "your account" and select "Go to Interviewer Portal".  We encourage you to upload a photo, create a bio and set your interviewer preferences so we can provide a great candidate experience.
 
-You can also use this function to update the following: 
+You can also use this function to update the following:
 
 - Interview load capacity: Limits of hours or interviews you can participate in.
 - Interview availability: This is when you are available to interview in your timezone.
-- Basic information including profile image, job title & pronouns. 
-- Contact information.  Note: you can not change your email address
+- Basic information including profile image, job title & pronouns.
+- Contact information.  Note: you can not change your email address.
 - Calendar Keywords.
 
 ## Greenhouse
 
-Greenhouse is our Applicant Tracking System. To activate your greenhouse profile, simply log into Greenhouse via [Okta](https://gitlab.okta.com). This will launch the application and activate your profile. If you do not have a Greenhouse tile in your Okta account, please reach out to IT and submit and AR to have this added.
+Greenhouse is our Applicant Tracking System. To activate your greenhouse profile, simply log into Greenhouse through [Okta](https://gitlab.okta.com). This will launch the application and activate your profile. If you do not have a Greenhouse tile in your Okta account, please reach out to IT and submit and AR to have this added.
 
 Once CES schedules you for an interview, you will have access to the candidates interview kit and be able to submit your scorecard/feedback after the interview concludes. Interviewers can find a scorecard link on their Greenhouse dashboard for any upcoming or past interviews.
