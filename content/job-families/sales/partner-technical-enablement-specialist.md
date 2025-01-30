@@ -105,4 +105,5 @@ Candidates for this position can expect the hiring process to follow the order b
 1. Phone screen with a GitLab Recruiting team member.
 1. Video Interview with the Hiring Manager to outline a take home assignment.
 1. Team Interviews with 1-4 team members
+
 Additional details about our process can be found on our [hiring page](/handbook/hiring/).
