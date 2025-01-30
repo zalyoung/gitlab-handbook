@@ -3,7 +3,7 @@ title: "Hiring & Talent Acquisition Handbook"
 description: "Landing page for many of the handbook pages the talent acquisition team at GitLab uses."
 ---
 
-At the core of our team's vision, mission, and strategy is our ability to impact GitLab's overarching [mission]({{< ref "mission" >}}): to make it so that **everyone can contribute to and co-create the software that powers our world**. When **everyone can contribute**, users become contributors and we greatly increase the rate of innovation.
+At the core of our team's vision, mission, and strategy is our ability to impact GitLab's overarching [mission](/handbook/company/mission/): to make it so that **everyone can contribute to and co-create the software that powers our world**. When **everyone can contribute**, users become contributors and we greatly increase the rate of innovation.
 
 As a Talent Acquisition team, we have an outsized impact on GitLab's ability to make this mission a reality, by connecting top talent to profound careers from wherever they are in a truly distributed, remote workforce.
 
@@ -52,7 +52,7 @@ We strive to be as transparent as possible, but these sections are only availabl
 
 Please find pages for potential and active applicants below.
 
-- [Candidate Handbook Page]({{< ref "candidate-faq" >}})
+- [Candidate Handbook Page](/handbook/hiring/candidate-faq/)
 - [Talent Acquisition Privacy Policy]({{< ref "recruitment-privacy-policy" >}})
 
 ### Interviewer Processes
@@ -162,7 +162,7 @@ Scorecards are required in all stages that require interviews. Confidential, per
 {{% details summary="Scheduling tools in Greenhouse" %}}
 
 - Candidate Experience Specialists use [Prelude]({{< ref "prelude#prelude" >}}) to schedule.
-- Interview confirmations are sent through [Guide]({{< ref "guide#guide" >}}). Because of this, confirmations have calendar invites that can be downloaded rather than being sent through. For this reason, Recruiters are not able to be added to candidate interview invites.
+- Interview confirmations are sent through [Guide](/handbook/hiring/guide/). Because of this, confirmations have calendar invites that can be downloaded rather than being sent through. For this reason, Recruiters are not able to be added to candidate interview invites.
 {{% /details %}}
 
 {{% details summary="Greenhouse for internal candidates" %}}
@@ -266,7 +266,7 @@ There are no perfect or required ways to set up your Greenhouse notifications, b
 
 - [Referral Operations]({{< ref "referral-operations" >}})
 - [Referral Process]({{< ref "referral-process" >}})
-- [Details on who is eligible for referrals]({{< ref "incentives#referral-bonuses" >}})
+- [Details on who is eligible for referrals](/handbook/total-rewards/incentives/#referral-bonuses)
 
 ### Acquisitions
 
@@ -338,16 +338,16 @@ Processing for the United Arab Emirates could take up to a month, so we recommen
 ## Other Hiring Pages
 
 - [Greenhouse]({{< ref "greenhouse" >}})
-- [Talent Acquisition Process Framework]({{< ref "talent-acquisition-framework" >}})
+- [Talent Acquisition Process Framework](/handbook/hiring/talent-acquisition-framework/)
 
 ## Additional Resources
 
 - [Overview of Job Families](/handbook/hiring/job-families)
 - [Background checks](/handbook/people-policies#background-checks)
-- [Benefits]({{< ref "benefits" >}})
-- [Compensation]({{< ref "compensation" >}})
+- [Benefits](/handbook/total-rewards/benefits/)
+- [Compensation](/handbook/total-rewards/compensation/)
 - [Contracts](https://internal.gitlab.com/handbook/people-group/people-operations/people-connect/employment_contracts/)
-- [GitLab talent ambassador]({{< ref "gitlab-ambassadors" >}})
-- [Onboarding]({{< ref "general-onboarding" >}})
+- [GitLab talent ambassador](/handbook/hiring/gitlab-ambassadors/)
+- [Onboarding](/handbook/people-group/general-onboarding/)
 - [Stock options](/handbook/total-rewards/stock-options/)
 - [Visas]({{< ref "visas" >}})

@@ -5,7 +5,7 @@ description: "We are the Generational Understanding Resource Group (TMAG) founde
 
 ## Mission
 
-The mission of the generational understanding [TMAG]({{< ref "erg-guide" >}}) is to ensure that team members of all ages feel they have a safe space to communicate, unite and share issues that are reflective of their experience while at GitLab, and to explicitly foster more sharing of wisdom across generations. We encourage a work culture where GitLab team members of all ages are valued, empowered, and given opportunities to develop and contribute to their full potential. This culture will be a competitive advantage for GitLab, as it helps GitLab become a thought leader on this topic. It will leverage the wisdom of all team members, as it helps identify ongoing patterns as well as best practices for mentoring.
+The mission of the generational understanding [TMAG](/handbook/company/culture/inclusion/erg-guide/) is to ensure that team members of all ages feel they have a safe space to communicate, unite and share issues that are reflective of their experience while at GitLab, and to explicitly foster more sharing of wisdom across generations. We encourage a work culture where GitLab team members of all ages are valued, empowered, and given opportunities to develop and contribute to their full potential. This culture will be a competitive advantage for GitLab, as it helps GitLab become a thought leader on this topic. It will leverage the wisdom of all team members, as it helps identify ongoing patterns as well as best practices for mentoring.
 
 ## Lead(s)
 
@@ -67,9 +67,9 @@ Links to interesting handbook pages, articles, books, and training
 
 ### Handbook
 
-- [Speaking with TMAG members in the hiring process]({{< ref "talent-acquisition-initiatives#speaking-with-tmrg-members-in-the-hiring-process" >}})
+- [Speaking with TMAG members in the hiring process](/handbook/company/culture/inclusion/talent-acquisition-initiatives/#speaking-with-tmrg-members-in-the-hiring-process)
 - [Team member identity data]({{< ref "identity-data#age-distribution" >}})
-- [Lack of dates on resume]({{< ref "talent-acquisition-initiatives#lack-of-dates-on-your-resume" >}})
+- [Lack of dates on resume](/handbook/company/culture/inclusion/talent-acquisition-initiatives/#lack-of-dates-on-your-resume)
 
 ### Articles
 

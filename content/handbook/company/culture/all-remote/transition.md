@@ -80,7 +80,7 @@ If at all possible, close the office. Shuttering an office (or multiple offices)
 
 ### Equip and educate team members
 
-While remote work is liberating and empowering, it can be [jarring and isolating](drawbacks/) for those who are not equipped to manage the change. In an all-remote or remote-first company, team members are well aware of [what to expect]({{< ref "culture#life-at-gitlab" >}}) even before they apply for a role. In fact, many remote companies receive outsized interest in roles specifically *because* of their remote nature.
+While remote work is liberating and empowering, it can be [jarring and isolating](drawbacks/) for those who are not equipped to manage the change. In an all-remote or remote-first company, team members are well aware of [what to expect](/handbook/company/culture/#life-at-gitlab) even before they apply for a role. In fact, many remote companies receive outsized interest in roles specifically *because* of their remote nature.
 
 It's vital for leadership to understand that there may be resistance to a remote transition from employees who would prefer not to work remotely, or are anxious about the [lifestyle change](people/).
 
@@ -109,7 +109,7 @@ Clear and proactive internal communication is essential to removing fear and ins
 >
 > This is going slow to go fast. Lots of energy up front — you go slow — but that accelerates things dramatically a year or so down the road. — *[Gabe W.](https://gitlab.com/gweaver), Senior Product Manager, GitLab*
 
-Expect bumps along the road. As with any significant business transformation, it's wise to communicate proactively to team members, customers, and investors that obstacles will emerge. Transitioning a company to fully remote, while still running the business, is not easy. It's a long-term bet that the short-term pain will be [worthwhile]({{< ref "remote-benefits" >}}).
+Expect bumps along the road. As with any significant business transformation, it's wise to communicate proactively to team members, customers, and investors that obstacles will emerge. Transitioning a company to fully remote, while still running the business, is not easy. It's a long-term bet that the short-term pain will be [worthwhile](/handbook/company/culture/all-remote/remote-benefits/).
 
 Leadership should be completely [transparent](/handbook/values/#transparency) with team members as the transition unfolds. Share headaches and roadblocks as well as successes. This should occur in an agreed channel so that discussion and feedback is centralized, and action items can be clearly disseminated.
 
@@ -146,11 +146,11 @@ A sample of questions to be answered by a Head of Remote Work:
 1. Who will be the voice of the distributed worker, ensuring equality and belonging for those who may never step foot in a corporate office?
 1. Who will ensure that [learning and development](learning-and-development/) principles address the challenges of remote [hiring](hiring/), remote [interviewing](interviews/), remote [onboarding](onboarding/), remote [management](management/), remote promotions, and beyond?
 1. Who will conduct an end-to-end process audit and provide structured replacements for remote-last workflows, such as a reliance on [synchronous meetings](meetings/) for consensus gathering and collaboration?
-1. Who will lead the reevaluation of company [values]({{< ref "remote-values" >}}), and subsequent editing and bolstering such that everyone understands how to treat others without the need for routine in-person contact?
+1. Who will lead the reevaluation of company [values](/handbook/company/culture/all-remote/remote-values/), and subsequent editing and bolstering such that everyone understands how to treat others without the need for routine in-person contact?
 1. Who will put a travel strategy in place such that [in-person engagements](in-person/) become a core part of [building company culture](building-culture/)?
 1. Who will revise your company's talent acquisition strategy, creating a clear and concise answer to "What's your stance on workplace flexibility?"
-1. Who will build a visible [talent brand]({{< ref "culture#life-at-gitlab" >}}) demonstrating how remote workers are supported and included? (This will create significant sway in your Glassdoor reviews.)
-1. Who will lead existing executives in [transforming](being-a-great-remote-manager/) their expectations and ways of working, coaching them to model the [unlearning of old habits]({{< ref "candidate-faq" >}}) and embracing new ones in transparent fashion?
+1. Who will build a visible [talent brand](/handbook/company/culture/#life-at-gitlab) demonstrating how remote workers are supported and included? (This will create significant sway in your Glassdoor reviews.)
+1. Who will lead existing executives in [transforming](being-a-great-remote-manager/) their expectations and ways of working, coaching them to model the [unlearning of old habits](/handbook/hiring/candidate-faq/) and embracing new ones in transparent fashion?
 1. Who will ensure that teams have the tools, direction, and coaching they need to [become documentarians](self-service/)?
 1. Who will outline a multi-year remote transformation strategy with quarterly milestones and objectives, coaching a team through iterative change and celebrating small wins along the way?
 1. Who will champion your culture and values, not only to galvanize teams through a pandemic, but excite them by building a more disciplined, cohesive, [asynchronous](asynchronous/), inclusive, and diverse future?
@@ -165,7 +165,7 @@ The larger your organization is, or the more deeply it is entrenched in colocate
 ![GitLab values illustration](/images/all-remote/gitlab-values-tanukis.jpg)
 {style="max-width: 50%;"}
 
-While GitLab believes that all-remote is the best structure to ensure that [our values are lived]({{< ref "remote-values" >}}) and no one is treated as a second-class team member, the reality is that most companies formed to date have at least one physical office.
+While GitLab believes that all-remote is the best structure to ensure that [our values are lived](/handbook/company/culture/all-remote/remote-values/) and no one is treated as a second-class team member, the reality is that most companies formed to date have at least one physical office.
 
 In many instances, it is not feasible to transition entirely to all-remote, though leaders and recruiters are starting to realize that remote work is the future. Stripe, for example, has stated that its "[fifth engineering hub is remote](https://stripe.com/blog/remote-hub)."
 
@@ -197,4 +197,4 @@ Anyone can test their knowledge on Transitioning a Company to Remote by completi
 
 Making remote work well, particularly in companies with colocated roots, is a shared challenge. If you or your company has an experience that would benefit the greater world, consider creating a [merge request](https://docs.gitlab.com/ee/user/project/merge_requests/) and adding a contribution to this page.
 
-Return to the main [all-remote page]({{< ref "_index.md" >}}).
+Return to the main [all-remote page](_index.md).

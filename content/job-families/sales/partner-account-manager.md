@@ -72,7 +72,7 @@ The Ecosystem Sales Manager (Intermediate) typically reports to the Director, Ec
 
 #### Job Grade
 
-The Ecosystem Sales Manager (Intermediate) is a [grade 6]({{< ref "compensation-calculator#gitlab-job-grades" >}}).
+The Ecosystem Sales Manager (Intermediate) is a [grade 6](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
 
 #### Intermediate Expectations
 
@@ -87,7 +87,7 @@ The Senior Ecosystem Sales Manager typically reports to the Director, Ecosystem 
 
 #### Job Grade
 
-The Senior Ecosystem Sales Manager is a [grade 7]({{< ref "compensation-calculator#gitlab-job-grades" >}}).
+The Senior Ecosystem Sales Manager is a [grade 7](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
 
 #### Senior Expectations
 
@@ -102,7 +102,7 @@ The Staff Ecosystem Sales Manager reports to either the Director, Partner Territ
 
 #### Job Grade
 
-The Staff Ecosystem Sales Manager is a [grade 8]({{< ref "compensation-calculator#gitlab-job-grades" >}}).
+The Staff Ecosystem Sales Manager is a [grade 8](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
 
 #### Staff Expectations
 
@@ -161,7 +161,7 @@ The Senior Manager, Ecosystem   Sales typically reports to the Vice President, E
 
 #### Job Grade
 
-The Senior Manager, Ecosystesm Sales is a [grade 9]({{< ref "compensation-calculator#gitlab-job-grades" >}}).
+The Senior Manager, Ecosystesm Sales is a [grade 9](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
 
 #### Senior Manager Expectations
 
@@ -176,7 +176,7 @@ The Director, Ecosystem Sales typically reports to the Vice President, Ecosystem
 
 #### Job Grade
 
-The Director, Ecosystem Sales is a [grade 10]({{< ref "compensation-calculator#gitlab-job-grades" >}}).
+The Director, Ecosystem Sales is a [grade 10](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
 
 #### Director Expectations
 
@@ -191,7 +191,7 @@ The Senior Director, Ecosystem  Sales typically reports to the Vice President, E
 
 #### Job Grade
 
-The Senior Director, Ecosystem Sales is a [grade 11]({{< ref "compensation-calculator#gitlab-job-grades" >}}).
+The Senior Director, Ecosystem Sales is a [grade 11](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
 
 #### Senior Director Exepctations
 
@@ -206,7 +206,7 @@ The Vice President, Ecosystem Sales typically reports to the Chief Revenue Offic
 
 #### Job Grade
 
-The Vice President, Ecosystem Sales is a [grade 12]({{< ref "compensation-calculator#gitlab-job-grades" >}}).
+The Vice President, Ecosystem Sales is a [grade 12](/handbook/total-rewards/compensation/compensation-calculator/#gitlab-job-grades).
 
 #### Vice President Exepectations
 

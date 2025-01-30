@@ -85,7 +85,7 @@ The purpose of creating a new issue for each ancillary event is to better facili
 
 ### Step 3 - Contract Completed - FMM
 
-1. Please reference the Plan to WIP process [here](https://handbook.gitlab.com/handbook/marketing/field-marketing/#slas).
+1. Please reference the Plan to WIP process [here](/handbook/marketing/field-marketing/#slas).
 
 ### Step 3 - Contract Completed- Corporate Event DRI
 

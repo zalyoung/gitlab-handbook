@@ -180,7 +180,7 @@ Employer contributions are made to the federal Canada Pension Plan (CPP).
 
 ## PTO and Vacation Information
 
-GitLab Canada Corp's statutory vacation requirements are found on the [GitLab PTO handbook page]({{< ref "paid-time-off#statutory-vacation-requirements" >}}). Vacation time runs concurrently with GitLab PTO. Team members must designate all vacation time taken as `Paid Time off` in Workday to ensure that vacation entitlement is properly tracked.
+GitLab Canada Corp's statutory vacation requirements are found on the [GitLab PTO handbook page](/handbook/people-group/paid-time-off/#statutory-vacation-requirements). Vacation time runs concurrently with GitLab PTO. Team members must designate all vacation time taken as `Paid Time off` in Workday to ensure that vacation entitlement is properly tracked.
 
 ## Sick Pay
 

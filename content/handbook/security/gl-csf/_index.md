@@ -102,7 +102,7 @@ system helps to get started with the Threat Modeling activity.
 
 #### Threat Modeling
 
-Create or update a corresponding [Threat Model]({{< ref "../product-security/application-security/threat-modeling" >}}).
+Create or update a corresponding [Threat Model](../product-security/application-security/threat-modeling/).
 
 #### OSS Ecosystem Testing
 

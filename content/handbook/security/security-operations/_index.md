@@ -23,8 +23,8 @@ Our department consists of:
 ## Contacting Security Operations
 
 - Slack channel to interact with the Security Operations Department [#security-operations](https://gitlab.enterprise.slack.com/archives/C0477TK9RHB)
-- The Security Operations department follows the [Security Team On-Call Rotation](/handbook/engineering/on-call/#security-team-on-call-rotation) with more details available in [Security Operations On-Call]({{< ref "secops-oncall" >}})
-- [How to Engage the Security Engineer On-Call]({{< ref "engaging-security-on-call" >}})
+- The Security Operations department follows the [Security Team On-Call Rotation](/handbook/engineering/on-call/#security-team-on-call-rotation) with more details available in [Security Operations On-Call](/handbook/security/security-operations/secops-oncall/)
+- [How to Engage the Security Engineer On-Call](/handbook/security/security-operations/sirt/engaging-security-on-call/)
 
 ## Common Links
 

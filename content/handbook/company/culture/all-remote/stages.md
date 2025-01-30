@@ -174,7 +174,7 @@ As part of a Harvard Business School case study [interview](https://youtu.be/jdN
 
 ### Benefits and challenges of all-remote work arrangements
 
-GitLab believes that the benefits of remote work outshine its challenges. Benefits include the ability to hire top-tier talent anywhere in the world; happier and more engaged team members; and societal impacts such as distribution of opportunity, increased diversity, and reduced traffic. There's plenty more: read our [guide to the benefits of remote work]({{< ref "remote-benefits" >}}).
+GitLab believes that the benefits of remote work outshine its challenges. Benefits include the ability to hire top-tier talent anywhere in the world; happier and more engaged team members; and societal impacts such as distribution of opportunity, increased diversity, and reduced traffic. There's plenty more: read our [guide to the benefits of remote work](/handbook/company/culture/all-remote/remote-benefits/).
 
 However, this does come with disadvantages. These may include loneliness, challenges with onboarding, difficulty building and maintaining culture, and breakdown of boundaries between work and life. Read our complete [guide to the drawbacks of remote work](drawbacks/) for more detail.
 
@@ -190,8 +190,8 @@ To test your knowledge about remote work, consider taking the [GitLab Remote Fou
 
 ## Contribute your lessons
 
-GitLab believes that all-remote is the [future of work]({{< ref "remote-vision" >}}), and remote companies have a shared responsibility to show the way for other organizations who are embracing it. If you or your company has an experience that would benefit the greater world, consider creating a [merge request](https://docs.gitlab.com/ee/user/project/merge_requests/) and adding a contribution to this page.
+GitLab believes that all-remote is the [future of work](/handbook/company/culture/all-remote/remote-vision/), and remote companies have a shared responsibility to show the way for other organizations who are embracing it. If you or your company has an experience that would benefit the greater world, consider creating a [merge request](https://docs.gitlab.com/ee/user/project/merge_requests/) and adding a contribution to this page.
 
 ---
 
-Return to the main [all-remote page]({{< ref "_index.md" >}}).
+Return to the main [all-remote page](_index.md).

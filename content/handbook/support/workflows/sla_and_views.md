@@ -133,7 +133,7 @@ and verify that it is associated with the appropriate organization and SLA.
 #### Example: full sequence of actions that should be done to fix incorrectly expired organization
 
 - A ticket comes to Zendesk and you spot that `GitLab Plan` is shown as `Expired`.
-- First, search for [any info about this organization]({{ ref "looking_up_customer_account_details" >}}) in SFDC and CustomersDot.
+- First, search for [any info about this organization](looking_up_customer_account_details.md) in SFDC and CustomersDot.
 - If you found that they have a valid license or subscription i.e. it is not expired, you are likely facing [this issue](https://gitlab.com/gitlab-com/sales-team/field-operations/systems/-/issues/634).
 - Fix SFDC side first by following [the steps above](#handling-customers-with-incorrect-expired-support).
   Sales Support will usually reply to your message in SFDC, and you will be able to see it in the feed at the organization's page there.

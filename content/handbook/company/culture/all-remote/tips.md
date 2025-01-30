@@ -49,7 +49,7 @@ With Google Docs, we use indentations to go more in-depth on a given topic. This
 Documentation also helps with transparency, which is critical to remote work. While decisions made around office water coolers may be familiar in traditional workplaces, input is limited to those present.
 Those who are not present feel left out, and you're missing an opportunity to hear different perspectives.
 
-The GitLab way of working is more [inclusive]({{< ref "inclusion#fully-distributed-and-completely-connected" >}}). By documenting everything, no one is left out of the conversation and a diverse set of perspectives can be heard, not only from GitLab team members but also from customers and community contributors.
+The GitLab way of working is more [inclusive](/handbook/company/culture/inclusion/#fully-distributed-and-completely-connected). By documenting everything, no one is left out of the conversation and a diverse set of perspectives can be heard, not only from GitLab team members but also from customers and community contributors.
 
 ### We're transparent about hiring and compensation principles
 
@@ -62,15 +62,15 @@ Letting candidates know what to expect allows them to focus on whether the role 
 
 #### Compensation
 
-As an all-remote organization with team members and candidates around the world, it's also important that we're as open as possible about our [compensation principles]({{< ref "compensation#compensation-principles" >}}).
+As an all-remote organization with team members and candidates around the world, it's also important that we're as open as possible about our [compensation principles](/handbook/total-rewards/compensation/#gitlabs-compensation-principles).
 
-That's why we created a [compensation calculator]({{< ref "compensation-calculator" >}}) that helps determine compensation for more than 200 regions globally.
+That's why we created a [compensation calculator](/handbook/total-rewards/compensation/compensation-calculator/) that helps determine compensation for more than 200 regions globally.
 
-Take a look at [how our compensation calculator works]({{< ref "compensation-calculator" >}}), and learn more about [why we pay local rates](https://about.gitlab.com/blog/2019/02/28/why-we-pay-local-rates/).
+Take a look at [how our compensation calculator works](/handbook/total-rewards/compensation/compensation-calculator/), and learn more about [why we pay local rates](https://about.gitlab.com/blog/2019/02/28/why-we-pay-local-rates/).
 
 #### Country hiring guidelines
 
-Hiring globally as an all-remote company has many [advantages]({{< ref "remote-benefits" >}}), including bringing diversity to our team. But it also poses unique [challenges](hiring/) because many countries differ in their rules, laws, and regulations.
+Hiring globally as an all-remote company has many [advantages](/handbook/company/culture/all-remote/remote-benefits/), including bringing diversity to our team. But it also poses unique [challenges](hiring/) because many countries differ in their rules, laws, and regulations.
 
 Find out more about how we handle this in our [country hiring guidelines](/handbook/people-group/employment-solutions#country-hiring-guidelines) in the handbook.
 
@@ -97,7 +97,7 @@ We have a channel on Slack called `#office-today` where our team members can sha
 
 It's important to clarify that being able to work from anywhere does **not** replace the need to take time off of work.
 
-We recognize how crucial it is to build in time when you can mentally take a break from your work, and as a company, we encourage our team members to do that. Learn more about [how time off works at GitLab.]({{< ref "paid-time-off" >}})
+We recognize how crucial it is to build in time when you can mentally take a break from your work, and as a company, we encourage our team members to do that. Learn more about [how time off works at GitLab.](/handbook/people-group/paid-time-off/)
 
 > **"I work closely with our executive team here, and they have been so supportive and encouraging when family-related conflicts arise. They are constantly reminding me that "family first" is our mantra, and give me ease of mind to take time away when needed. Sid, our co-founder and CEO, told me if it's a beautiful day out and I just want to go enjoy it, I should do that. Moments like these make me so proud to be a part of the GitLab team."**
 [- Cheri, Manager, Executive Assistant](/handbook/company/team#cheriholmes)
@@ -154,7 +154,7 @@ I often find the midday slump to be so real, so if I'm feeling this way I step a
 
 ### Balance work and life
 
-- Explicitly plan your [time off]({{< ref "paid-time-off" >}}) so that you'll intentionally take time for yourself.
+- Explicitly plan your [time off](/handbook/people-group/paid-time-off/) so that you'll intentionally take time for yourself.
 - When you're not working, disconnect by turning off Slack and closing down your email client. At GitLab, this only works if all team members abide by the [communication guidelines](https://about.gitlab.com/blog/2016/03/23/remote-communication/#asynchronous-communication-so-everyone-can-focus).
 - Enable the "working hours" feature on your calendar so that team members in other time zones know not to schedule meetings during times when you're not working.
 
@@ -233,4 +233,4 @@ Here's how you can participate:
 
 ---
 
-Return to the main [all-remote page]({{< ref "_index.md" >}}).
+Return to the main [all-remote page](_index.md).
