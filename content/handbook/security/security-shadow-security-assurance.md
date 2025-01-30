@@ -94,7 +94,7 @@ The Security Risk team acts as a shield between GitLab and the dangers lurking w
 
 ### Course Length
 
-2-3 days, 6-8 hours
+6-8 hours over the course of a a few days or weeks depending upon your schedule.
 
 ### Team Manager
 
