@@ -189,7 +189,7 @@ Team member participation is voluntary, should not interfere with work commitmen
 
 #### How to Request Volunteer Time Off
 
-Team Members taking time off to volunteer should communicate time off in advance with their manager. To request volunteer time off, follow the [Paid Time Off](/handbook/people-group/paid-time-off/#paid-time-off) procedures outlined in our handbook and reach out to People Connect via HelpLab should you have any concerns. A step-by-step guide on how to request paid time off can be found [here](https://docs.google.com/document/d/1CZvTbPfvCOHDqA9riifMNNN0wsZyaxIql14cj_M5TK8/edit?tab=t.0). Note that volunteer time off should be used towards [acceptable volunteer activities](/handbook/legal/philanthropy-policy/) and in adherence with our [GitLab Philanthropy Policy](/handbook/legal/philanthropy-policy/).
+Team Members taking time off to volunteer should communicate time off in advance with their manager. To request volunteer time off, follow the [Paid Time Off](/handbook/people-group/paid-time-off/#paid-time-off) procedures outlined in our handbook and reach out to People Connect via HelpLab should you have any concerns. A step-by-step guide on how to request paid time off can be found [here](https://docs.google.com/document/d/1CZvTbPfvCOHDqA9riifMNNN0wsZyaxIql14cj_M5TK8/edit?tab=t.0). Note that volunteer time off should be used towards acceptable volunteer activities and in adherence with our [GitLab Philanthropy Policy](/handbook/legal/philanthropy-policy/).
 
 #### Expenses and Reimbursements for Participation
 
