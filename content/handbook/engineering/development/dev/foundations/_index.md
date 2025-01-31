@@ -52,7 +52,7 @@ pages under the "Categories" header) is the single source of truth on where we'r
 
 ## Meetings
 
-Although we have a bias for asynchronous communication, synchronous meetings are necessary and should adhere to our [communication guidelines](/handbook/communication/#video-calls). Some regular meetings that take place in Manage are:
+Although we have a bias for asynchronous communication, synchronous meetings are necessary and should adhere to our [communication guidelines](/handbook/communication/#video-calls). Some regular meetings that take place are:
 
 | **Meeting (Internal Only, limited access)** | **Frequency** | **DRI**         | **Topics**                                                                                                                                                                                                           |
 |---------------------------------------------|---------------|------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------|
