@@ -62,8 +62,8 @@ from looking up the metric definition on the SLA Policy in use (ticket events
 can show this) and the ticket's _Priority_ field (not to be confused with
 _Customer Severity_ or _Customer Priority_).
 
-So as an example, if a ticket starting in the Billing team's queue, got a few
-back and forth replies, and then go moved to the L&R team, we would classify
+So as an example, if a ticket starting in the Billing team's queue got a few
+back and forth replies and then got moved to the L&R team, we would classify
 the ticket as using the FRT definition at that time (largely due to Support
 Readiness manually changing the _Ticket Stage_ value during the transition).
 
