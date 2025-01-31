@@ -62,10 +62,7 @@ When running a test on the GitLab Support Dedicated instance,
 As the test instance is shared within the GitLab Support team, post a message at the beginning of a test with an estimate duration if the test is likely to impact the performance of the instance.
 Upon test completion, revert your changes and use the emoji `:done:` to show the test is completed and the instance has been restored to the previous state.
 
-The Switchboard console can be accessed at https://console.gitlab-private.org/tenants/40.
-Follow [these instructions](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/switchboard/-/tree/main#process-to-provision-new-users-pre-production-environment)
-to request access. You may use this [example access request](https://gitlab.com/gitlab-com/team-member-epics/access-requests/-/issues/25151)
-as a starting point.
+The Switchboard console can be accessed at https://console.gitlab-private.org/tenants/40. 
 
 This instance is deployed to the [`Test` environment](https://gitlab.com/gitlab-com/gl-infra/gitlab-dedicated/team/-/tree/main#deployed-environments).
 
