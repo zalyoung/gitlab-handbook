@@ -16,7 +16,7 @@ The process for Ops is a mix of the current [hiring manager (HM) tasks](/handboo
 
 [Identify hiring need](/handbook/hiring/talent-acquisition-framework/hiring-manager/#step-1hm-identifying-hiring-need)
 
-1. Work with Product Manager as they are [DRI of headcount planning](/handbook/engineering/#headcount-planning), Finance, and Talent Acquisition to [include vacancy in the hiring plan](https://handbook.gitlab.com/handbook/finance/financial-planning-and-analysis/#hiring-plan-process).
+1. Work with Product Manager as they are [DRI of headcount planning](/handbook/engineering/#headcount-planning), Finance, and Talent Acquisition to [include vacancy in the hiring plan](/handbook/finance/financial-planning-and-analysis/#hiring-plan-process).
 1. [Create or Review the Job Family](/handbook/hiring/talent-acquisition-framework/req-creation/#create-or-review-the-job-family-dri-hiring-manager)
 
 ### Step 2. Kickoff
