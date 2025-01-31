@@ -66,7 +66,7 @@ Additionally, please note that a small number of team members can sign agreement
 
 #### 4. Vendor Onboarding
 
-In order for vendors to be paid, they need to complete their onboarding in our systems. Please see the [New Vendor Onboarding](#1b-new-supplier-onboarding-2-3-days-if-required) section for more details.
+In order for vendors to be paid, they need to complete their onboarding in our systems. Please see the [New Vendor Onboarding](#2b-new-supplier-onboarding-2-3-days-if-required) section for more details.
 
 #### 5. Recurring Vendor Reviews and Management
 
