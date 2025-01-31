@@ -61,7 +61,7 @@ These are do-able, but just to reduce scope and complexity we can iterate on add
 ![Architecture](images/GitHubGitLabWorkflow.png)
 
 GitHub will communicate with GitLab via our GitHubApp via webhooks.
-GitLab will use ther webhook's sender user OAuth tokens to fetch the repo and update GitHub
+GitLab will generate a user access token via the GitHub App for the user that triggered the webhook, and create a pipeline for that user.
 When runners poll GitLab's api, GitLab will provide the GitHub repo location and access token for the runner to fetch the code from.
 GitLab will then use GitHub's API to update the commit with the pipeline status.
 
@@ -69,7 +69,7 @@ GitLab will then use GitHub's API to update the commit with the pipeline status.
 
 ### Prerequisites
 
-To start off this whole process. The 'admin' of GitHub would start off creating projects in GitLab that would need linking.
+The process begins with a [GitHub organization owner](https://docs.github.com/en/enterprise-cloud@latest/apps/oauth-apps/building-oauth-apps/differences-between-github-apps-and-oauth-apps#who-can-install-github-apps-and-authorize-oauth-apps) creating the projects in GitLab that would be used as CI/CD.
 
 We would reuse [CI/CD For External Repositories](https://GitLab.com/projects/new#cicd_for_external_repo), and have a "checkbox" to not mirror the repository (UI pending). During the import we'll save the GitHub repository id. [Issue for discussion](https://gitlab.com/gitlab-org/gitlab/-/issues/509200)
 
