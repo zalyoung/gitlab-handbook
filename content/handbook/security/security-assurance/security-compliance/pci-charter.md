@@ -20,3 +20,7 @@ The Chief Information Security Officer, supported by the Security Assurance team
 ## Communication and Reporting
 
 Results and status are communicated to executive management.
+
+## Program Diagrams
+
+[Network](https://gitlab.com/gitlab-com/gl-security/security-assurance/security-compliance/team/-/blob/main/Certifications-Attestations/PCI%20DSS/pci-networking-diagram.md) and [Data Flow](https://docs.gitlab.com/ee/development/architecture.html#component-diagram) Diagrams are maintained to illustrate the in-scope environment for PCI requirements. These diagrams are maintained and updated as needed upon significant changes to the environment.
