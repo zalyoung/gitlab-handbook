@@ -15,6 +15,25 @@ Every reviewer at GitLab must strive for our [reviewer values](/handbook/marketi
 
 ## Getting your merge request reviewed, approved, and merged
 
+### Assigning Reviewers
+
+While it's important to involve the team in the review process, assigning reviews to the entire team can lead to diffusion of responsibility and inefficiencies. Instead, we recommend the following approach:
+
+1. Assign one primary reviewer for each merge request:
+
+2. For significant changes or when additional perspectives are needed:
+   - Assign the review to an additional maintainer of the project
+   - Use the @dex-engineering mention to notify the broader team
+   - Clearly state a due date for additional feedback (e.g., "Please provide any feedback by [date/time]")
+
+3. Utilize GitLab's review features for asynchronous collaboration:
+   - Use threaded discussions for specific points
+   - Resolve threads as items are addressed
+
+Remember:
+- Team mentions (@dex-engineering) are for additional input, not primary review responsibility
+- Set clear expectations for feedback timelines to prevent delays
+
 ### Acceptance Checklist
 
 This checklist encourages the authors, reviewers, and maintainers of merge requests (MRs) to confirm changes were analyzed for high-impact risks to quality, performance, reliability, security, observability, and maintainability.
