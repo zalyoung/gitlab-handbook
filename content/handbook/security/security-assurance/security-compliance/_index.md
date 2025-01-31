@@ -24,6 +24,7 @@ We support the Security division's [mission and operating principles](/handbook/
    - [User Access Reviews](./access-reviews.md)
    - [Business Continuity Plan (BCP)](/handbook/business-technology/entapps-documentation/policies/gitlab-business-continuity-plan/) and [Information System Continuity (ISCP)](../../information-system-contingency-plan-iscp.md) testing
    - [Risk-based control testing](./risk-based-control-testing.md)
+   - [PCI Internal Control Review](./pci-internal-control-review.md)
 1. [Observation and Remediation Management](../observation-management-procedure.md)
    - Specific to Tier 3 (system-level) risks
    - Identify control weaknesses and gaps (observations)
