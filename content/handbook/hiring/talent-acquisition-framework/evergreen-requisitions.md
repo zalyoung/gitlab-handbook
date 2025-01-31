@@ -16,7 +16,7 @@ Contact the [Recruiting Manager](/handbook/hiring/recruiting-alignment/#talent-a
 
 ## Creating an Evergreen Requisition
 
-- Follow the Req Creation process found [here]({{< ref "req-creation#requisition-creation-process" >}}). In addition, please be aware of these added steps:
+- Follow the Req Creation process found [here](/handbook/handbook/hiring/talent-acquisition-framework/req-creation/#requisition-creation-process). In addition, please be aware of these added steps:
   - Start the Req title with "Evergreen" followed by the name of the req (example Evergreen - Sales Development Representative)
   - Select "Evergreen" when selecting opening Type
 

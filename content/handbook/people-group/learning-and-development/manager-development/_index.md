@@ -51,7 +51,7 @@ An important task is to create a retrospective thread within the Becoming a GitL
 
 ### Coaching remote work practices
 
-Do not assume that team members understand good remote work practices. GitLab managers are [expected](/handbook/company/structure/#management-group) to [coach]({{< ref "coaching" >}}) their reports to utilize [asyncronous communication](/handbook/company/culture/all-remote/management/#asynchronous), be [handbook-first](/handbook/about/handbook-usage/#why-handbook-first), design an [optimal workspace](/handbook/company/culture/all-remote/workspace/), and understand the importance of [self-learning and self-service](/handbook/company/culture/all-remote/self-service/).
+Do not assume that team members understand good remote work practices. GitLab managers are [expected](/handbook/company/structure/#management-group) to [coach](/handbook/handbook/leadership/coaching/) their reports to utilize [asyncronous communication](/handbook/company/culture/all-remote/management/#asynchronous), be [handbook-first](/handbook/about/handbook-usage/#why-handbook-first), design an [optimal workspace](/handbook/company/culture/all-remote/workspace/), and understand the importance of [self-learning and self-service](/handbook/company/culture/all-remote/self-service/).
 
 Leaders should ensure that new remote hires read a [getting started guide](/handbook/company/culture/all-remote/getting-started/), and make themselves available to answer questions throughout one's journey with the company.
 

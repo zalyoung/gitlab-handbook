@@ -60,7 +60,7 @@ The majority of results as entries that returned `200`, which aren't in the scop
 
 ### Identify cause of IP Blocks
 
-There are some useful tips [here]({{< ref "ip-blocks" >}}) about searching kibana for errors related to IP blocks.
+There are some useful tips [here](/handbook/handbook/support/workflows/ip-blocks/) about searching kibana for errors related to IP blocks.
 
 ### Log Identification
 
@@ -296,7 +296,7 @@ Kibana is not typically used to locate `5XX` errors, but there are times where t
 1. Choose relevant fields from the sidebar. For a `500` error, you want to filter for `json.status` and choose `is`, then enter `500`.
 1. Continue to use relevant fields from the list on the sidebar to narrow down the search.
 
-See the [500 errors workflow]({{< ref "500_errors" >}}) for more information on searching and finding errors on GitLab.com
+See the [500 errors workflow](/handbook/handbook/support/workflows/500_errors/) for more information on searching and finding errors on GitLab.com
 
 ### Filter by IP Range
 

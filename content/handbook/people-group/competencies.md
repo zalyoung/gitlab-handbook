@@ -34,7 +34,7 @@ For example, we should have one SSoT for how to articulate the value of GitLab.
 1. [Learning and development](/handbook/people-group/learning-and-development)
 1. [PDPs/PIPs](/handbook/leadership/underperformance/)
 1. [Career development](/handbook/people-group/learning-and-development/career-development/)
-1. [360 reviews]({{< ref "360-feedback" >}})
+1. [360 reviews](/handbook/handbook/people-group/360-feedback/)
 1. [Sales training](/handbook/sales/training/)
 1. [Sales enablement sessions](/handbook/sales/training/sales-enablement-sessions/)
 1. [Field enablement](/handbook/sales/field-operations/field-enablement/)
@@ -113,7 +113,7 @@ In addition to our values, remote work, and functional competencies, we have ide
 
 1. [Emotional Intelligence]({{< ref "emotional-intelligence" >}})
 1. [Modeling a Culture of Feedback](/handbook/people-group/guidance-on-feedback/#modeling-a-culture-of-feedback-manager-competency)
-1. [Coaching]({{< ref "coaching" >}})
+1. [Coaching](/handbook/handbook/leadership/coaching/)
 1. [Conflict Resolution]({{< ref "managing-conflict" >}})
 1. [Building High Performing Teams](/handbook/leadership/#building-high-performing-teams)
 

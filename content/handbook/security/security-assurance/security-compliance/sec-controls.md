@@ -35,11 +35,11 @@ As our security compliance goals and requirements have evolved so have our requi
 
 ## Security Control Lifecycle
 
-The lifecycle of our security controls can be found at [this handbook page]({{< ref "security-control-lifecycle" >}}). As part of the security control lifecycle, all GCF security controls are reviewed and tested at a minimum on an annual basis or as required by regulation.
+The lifecycle of our security controls can be found at [this handbook page](/handbook/handbook/security/security-assurance/security-compliance/security-control-lifecycle/). As part of the security control lifecycle, all GCF security controls are reviewed and tested at a minimum on an annual basis or as required by regulation.
 
 GCF security controls are assessed at the entity level or the system level depending upon the nature of the control.
 
-GCF security controls assessed at system level are based upon the system's [critical system tiering]({{< ref "critical-systems" >}}). Dependent upon the system's tier, a subset of GCF controls are evaluated based upon overall risk and impact to the organization. This is broken out as follows:
+GCF security controls assessed at system level are based upon the system's [critical system tiering](/handbook/handbook/security/security-assurance/security-risk/storm-program/critical-systems/). Dependent upon the system's tier, a subset of GCF controls are evaluated based upon overall risk and impact to the organization. This is broken out as follows:
 
 |Tier |     GCF Control Scope |     Hyperproof Link|
 |--|--|--|
@@ -63,7 +63,7 @@ ITGCs are a subset of the GCF controls. Please refer to [GitLab SOX ITGC Complia
 
 ## Security System Intake
 
-To assess newly acquired/developed systems that enable security controls OR are/may be in scope for compliance programs for potential inclusion into our [GitLab Control Framework (GCF)]({{< ref "sec-controls#gitlab-control-framework-gcf" >}}) and compliance programs  (e.g., [Security Compliance Program]({{< ref "../security-compliance#-core-competencies" >}}) and [SOX Program](https://internal.gitlab.com/handbook/internal-audit/sarbanes-oxley/)).
+To assess newly acquired/developed systems that enable security controls OR are/may be in scope for compliance programs for potential inclusion into our [GitLab Control Framework (GCF)](/handbook/handbook/security/security-assurance/security-compliance/sec-controls/#gitlab-control-framework-gcf) and compliance programs  (e.g., [Security Compliance Program]({{< ref "../security-compliance#-core-competencies" >}}) and [SOX Program](https://internal.gitlab.com/handbook/internal-audit/sarbanes-oxley/)).
 
 ### 1. System identification
 
@@ -78,7 +78,7 @@ If the system meets the criteria, we open up a new [Security Compliance Intake I
 - System overview
 - Implemented security controls or impacted regulatory or compliance program
 - Link to TPRM reviews or Production Readiness reviews
-- [Critical System Tier]({{< ref "critical-systems#critical-systems-tiering-methodolgy" >}}) (CST)
+- [Critical System Tier](/handbook/handbook/security/security-assurance/security-risk/storm-program/critical-systems/#critical-systems-tiering-methodolgy) (CST)
 - Key Contact Details
 - Deployment model and implementation status
 - Data classification
@@ -92,7 +92,7 @@ Once the Security Compliance Intake issue is populated, Security Risk assigns th
 - Determine impact (if any) to compliance control environment (for example, determining if applicable to the PCI environment and need for inspecting PCI AoC and Responsibility Matrix documentation)
 - Notify stakeholders and system owners of upcoming testing requirements
 - Incorporate testing requirements (driven by CST and regulatory/compliance requirements) and recommendations into the fiscal year audit schedule
-- Determine when [user access reviews]({{< ref "access-reviews" >}}) for the new system need to start and communicate to compliance teams
+- Determine when [user access reviews](/handbook/handbook/security/security-assurance/security-compliance/access-reviews/) for the new system need to start and communicate to compliance teams
 
 ## NIST 800-53
 

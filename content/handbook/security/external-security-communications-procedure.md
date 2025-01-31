@@ -59,4 +59,4 @@ Exceptions to this procedure will be tracked as per the [Information Security Po
 
 ## References
 
-[Security incident communications plan]({{< ref "security-incident-communication-plan" >}})
+[Security incident communications plan](/handbook/handbook/security/security-operations/sirt/security-incident-communication-plan/)

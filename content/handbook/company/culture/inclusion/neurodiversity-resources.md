@@ -68,7 +68,7 @@ You can use this [template](https://gitlab.com/gitlab-com/people-group/dib-diver
 
 ## Reasonable Accommodations
 
-We provide [reasonable accommodations]({{< ref "inc-usa#reasonable-accommodation" >}}) to individuals in order to remove any artificial barriers to success.  Our [EAP program](/handbook/total-rewards/benefits/modern-health/) is also always available for team members to help them identify the best reasonable accommodations for them.
+We provide [reasonable accommodations](/handbook/handbook/people-policies/inc-usa/#reasonable-accommodation) to individuals in order to remove any artificial barriers to success.  Our [EAP program](/handbook/total-rewards/benefits/modern-health/) is also always available for team members to help them identify the best reasonable accommodations for them.
 
 *Please note that all accommodations discussed below are potential accommodations that can be reviewed on a case-by-case basis, but are not guaranteed. Any accommodations and/or adjustments made are in line with the applicable laws/regulations of the jurisdiction in question.*
 

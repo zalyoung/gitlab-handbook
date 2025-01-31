@@ -19,7 +19,7 @@ first. In order to facilitate this process, the framework supports the engineeri
 the life cycle of the feature, to facilitate the creation of the required documentation and other
 artifacts.
 
-The framework relies heavily on the [data classification]({{< ref "data-classification-standard" >}}) of the feature in
+The framework relies heavily on the [data classification](/handbook/handbook/security/data-classification-standard/) of the feature in
 scope. It is not necessary for features managing Green data, and more activities are required as the
 level increases, up to Red data.
 
@@ -85,7 +85,7 @@ A value among: `Green`, `Yellow`, `Orange`, or `Red`.
 
 ##### Resources
 
-1. The [Data Classification Standard]({{< ref "data-classification-standard" >}}) handbook page
+1. The [Data Classification Standard](/handbook/handbook/security/data-classification-standard/) handbook page
 
 #### Architecture
 

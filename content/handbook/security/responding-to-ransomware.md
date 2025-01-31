@@ -7,7 +7,7 @@ Ransomware is a persistent threat to many organizations, including GitLab.  In t
 ***Critical First Steps:***
 
 - Engage the SIRT team as soon as a ransomware attack is detected
-- The SIRT team will then follow the [incident response guide](/handbook/security/security-operations/sirt/sec-incident-response/) and [incident communication plan]({{< ref "security-incident-communication-plan" >}}) and reference the [relevant run book](https://gitlab.com/gitlab-com/gl-security/runbooks/-/blob/master/sirt/infrastructure/ransomware-attack.md).
+- The SIRT team will then follow the [incident response guide](/handbook/security/security-operations/sirt/sec-incident-response/) and [incident communication plan](/handbook/handbook/security/security-operations/sirt/security-incident-communication-plan/) and reference the [relevant run book](https://gitlab.com/gitlab-com/gl-security/runbooks/-/blob/master/sirt/infrastructure/ransomware-attack.md).
 - Responders should leverage GitLab's established [rapid engineering response](/handbook/engineering/workflow/#rapid-engineering-response) plan during the mitigation phase.
 - The Business Continuity & Disaster Recovery Controls handbook page should be referenced for relevant information.
 
@@ -26,4 +26,4 @@ Depending on the impacted resources, the following teams should be engaged and m
 
 ***Communications:***
 
-Once we've determined that we need to communicate externally about an incident, the SIMOC should kick off our [Security incident communications plan]({{< ref "security-incident-communication-plan#process-for-security-incidents-external-communications" >}}) and [key stakeholders will be engaged]({{< ref "security-incident-communication-plan#designated-key-approvers" >}}) for collaboration, review and approval on any external-facing communications.  *Note:* if customer data is exposed, external communications may be required by law.
+Once we've determined that we need to communicate externally about an incident, the SIMOC should kick off our [Security incident communications plan](/handbook/handbook/security/security-operations/sirt/security-incident-communication-plan/#process-for-security-incidents-external-communications) and [key stakeholders will be engaged](/handbook/handbook/security/security-operations/sirt/security-incident-communication-plan/#designated-key-approvers) for collaboration, review and approval on any external-facing communications.  *Note:* if customer data is exposed, external communications may be required by law.

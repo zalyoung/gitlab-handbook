@@ -38,7 +38,7 @@ You can continue working with the original requester once an owner/maintainer pr
 
 In cases where a user has lost access to their account, all other options (such as SSH recovery codes, password reset) should be exhausted first.
 
-For unconfirmed accounts, the only account action support will typically take is an [email typo fix]({{< ref "confirmation_emails#typo-fix" >}}).
+For unconfirmed accounts, the only account action support will typically take is an [email typo fix](/handbook/handbook/support/workflows/confirmation_emails/#typo-fix).
 
 Before taking any action on confirmed accounts, ensure that you have verified the account owner using the [Account Ownership Verification](/handbook/support/workflows/account_verification) workflow.
 
@@ -57,7 +57,7 @@ Similar to **Account Access Requests**, if a user has lost access to their accou
 
 We can also use this workflow when a user cannot add an email address to their account because it is on a different account *and* is unverified. This often happens if a user has accidentally created an account using one of the single sign-on registration methods or cannot recall creating the account.
 
-For more information on unverified/unconfirmed accounts, please see the [confirmation emails]({{< ref "confirmation_emails" >}}) workflow.
+For more information on unverified/unconfirmed accounts, please see the [confirmation emails](/handbook/handbook/support/workflows/confirmation_emails/) workflow.
 
 The primary (for paid users only, all users should be able to get a new confirmation email) and secondary email (for all users until [#367823](https://gitlab.com/gitlab-org/gitlab/-/issues/367823) is resolved) can be released following one of the processes below.
 
@@ -76,7 +76,7 @@ The primary (for paid users only, all users should be able to get a new confirma
 
 Check the user's activity page:
 
-1. If an account shows any activity tied to any type of contribution (such as snippets, or comments in a project or group), use the [Account Ownership Verification]({{< ref "account_verification" >}}) workflow to verify ownership.
+1. If an account shows any activity tied to any type of contribution (such as snippets, or comments in a project or group), use the [Account Ownership Verification](/handbook/handbook/support/workflows/account_verification/) workflow to verify ownership.
 1. If the account shows **no** activity:
 1. Confirm that the email address the user is trying to add exists on a different account.
 1. Verify that the account shows **no activity** and is not a member of any projects or groups. Additionally, confirm that the following are true:
@@ -89,8 +89,8 @@ Check the user's activity page:
 
 1. If applicable, add the new email address as a CC to the ticket and ask the user to respond to the ticket from the email address they wish to add.
 1. Once the user has replied to confirm they own the email address, update the email address with `+release`. For example, if the email address is `johndoe@example.com`, then update the email address on the account to `johndoe+release@example.com`.
-    - This can be done with Admin access or [via Chatops]({{< ref "chatops#Update-a-Users-Primary-Email" >}})
-1. Add an [Admin Note]({{< ref "admin_note" >}}) to the user's account.
+    - This can be done with Admin access or [via Chatops](/handbook/handbook/support/workflows/chatops/#Update-a-Users-Primary-Email)
+1. Add an [Admin Note](/handbook/handbook/support/workflows/admin_note/) to the user's account.
 1. Advise the customer to add the newly released email address again to their primary account.
 1. Consider commenting on [this feature request](https://gitlab.com/gitlab-org/gitlab/-/issues/352514)
 
@@ -202,7 +202,7 @@ Account Ownership Change Requests are initiated when the sole Owner of a group l
    1. Add a link to the issue to the Zendesk ticket;
    1. Reply to the requestor using the `Legal::General` [macro](https://gitlab.com/search?utf8=%E2%9C%93&group_id=2573624&project_id=17008590&scope=&search_code=true&snippets=false&repository_ref=master&nav_source=navbar&search=id%3A+360056569419) and set the ticket to "On-Hold". If you don't receive a reply after the On-Hold ticket reverts to open (4 days), ping in the `#legal` [Slack channel](https://app.slack.com/client/T02592416/C78E74A6L).
    1. After receiving approval from Legal, [elevate the requestor to Owner role](#how-to-elevate-the-requestor-to-the-owner-role).
-1. Add an [Admin note]({{< ref "admin_note" >}}) on the group admin page.
+1. Add an [Admin note](/handbook/handbook/support/workflows/admin_note/) on the group admin page.
 
 #### How to elevate the requestor to the Owner role
 

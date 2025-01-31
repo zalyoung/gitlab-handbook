@@ -656,7 +656,7 @@ Kindly note the following when filling in this section:
     - For Mexico: When adding a team member to the Remote platform you should select 30 days as a Christmas bonus, not 15.
 1. Type of employee: Full time
 1. Annual Gross salary: as stated in the offer details in GH
-1. Annual leave: Is usually the statutory minimum. You can also utilize the [General & Entity Specific Benefits page]({{< ref "remote-com" >}})
+1. Annual leave: Is usually the statutory minimum. You can also utilize the [General & Entity Specific Benefits page](/handbook/handbook/total-rewards/benefits/general-and-entity-benefits/remote-com/)
    - Mexico you can input 20 days
 1. Is this employee approved for outside employment: No
 1. Signing bonus: as stated in the offer details in GH
@@ -681,7 +681,7 @@ Kindly note the following when filling in this section:
 | Switzerland | None |
 | Sweden | None |
 
-1. Life Insurance Coverage - For Mexico Hires, Please select "Life/ADD Insurance of 350 MXN (~18 USD)". For more details on benefits for team members who are contracted through Remote. Click [here]({{< ref "remote-com#brazil" >}}).
+1. Life Insurance Coverage - For Mexico Hires, Please select "Life/ADD Insurance of 350 MXN (~18 USD)". For more details on benefits for team members who are contracted through Remote. Click [here](/handbook/handbook/total-rewards/benefits/general-and-entity-benefits/remote-com/#brazil).
 If there are any questions, these should be directed to help@remote.com.
 1. Click on the benefits acknowledgement and continue
 1. You be will be on the 'billing cycle' page.

@@ -87,19 +87,19 @@ Please find pages for potential and active applicants below.
 {{% details summary="Get your headcount assignments" %}}
 
 - [How to open headcount on R&D](/handbook/engineering/hiring/#hiring-practices)
-- [How to open headcount on Sales and G&A]({{< ref "req-creation#creation-and-approval" >}})
+- [How to open headcount on Sales and G&A](/handbook/handbook/hiring/talent-acquisition-framework/req-creation/#creation-and-approval)
 {{% /details %}}
 
 {{% details summary="Open a req in Greenhouse" %}}
 
-- [Instructions here]({{< ref "req-creation#opening-vacancies-in-greenhouse" >}})
+- [Instructions here](/handbook/handbook/hiring/talent-acquisition-framework/req-creation/#opening-vacancies-in-greenhouse)
 - [Open a kickoff session]({{< ref "req-overview#step-3-complete-kick-off-session-agree-on-priority-level--complete-a-sourcing-session" >}})
 {{% /details %}}
 
 {{% details summary="Evergreen requisitions" %}}
 
-- [Creating an evergreen req]({{< ref "req-creation#creating-an-evergreen-requisition" >}})
-- [Evergreen req guide]({{< ref "evergreen-requisitions" >}})
+- [Creating an evergreen req](/handbook/handbook/hiring/talent-acquisition-framework/req-creation/#creating-an-evergreen-requisition)
+- [Evergreen req guide](/handbook/handbook/hiring/talent-acquisition-framework/evergreen-requisitions/)
 - An Evergreen Job is a requisition that is 'always open'. More specifically, it is used when we have at least 3 openings for a particular job repeated each quarter. There is then one Evergreen job posted for internal, external and passive candidates. It is important that no candidate is hired to an Evergreen job, and instead is moved to an approved opening (aka an opening with a single corresponding GHPiD). TA Leadership will open EVG roles at the start of a fiscal year, with a quarterly review cadence, by leveraging the hiring plan and attrition assumptions. See the pages above for more information.
 - {{% details summary="Tips and Tricks" %}}
 - Know your department before you open your req. If you need to change the department name later, the approval chain will not automatically update. If this happens to you, please contact Enablement.
@@ -109,14 +109,14 @@ Please find pages for potential and active applicants below.
 
 {{% details summary="Post a job in Greenhouse" %}}
 
-- [Post an **internal** job]({{< ref "req-creation#opening-vacancies-in-greenhouse-dri-recruiter" >}})
-- [Post an **external** job]({{< ref "req-creation#publish-the-job-to-the-careers-page--review-greenhouse-configuration" >}})
-- [Using Rules]({{< ref "req-creation#using-job-posting-rules-in-greenhouse" >}})
+- [Post an **internal** job](/handbook/handbook/hiring/talent-acquisition-framework/req-creation/#opening-vacancies-in-greenhouse-dri-recruiter)
+- [Post an **external** job](/handbook/handbook/hiring/talent-acquisition-framework/req-creation/#publish-the-job-to-the-careers-page--review-greenhouse-configuration)
+- [Using Rules](/handbook/handbook/hiring/talent-acquisition-framework/req-creation/#using-job-posting-rules-in-greenhouse)
 - [Auto-tags](/handbook/hiring/greenhouse/#auto-tags)
 - {{% details summary="Tips and Tricks" %}}
 - Salary transparency: In select US states, GitLab discloses salaries in job descriptions in accordance with local laws. Total Rewards will add this information to the job's approvals page. When you create your *external* job post, utilize Pay Transparency Rules and select Hiring in the USA. If the job will not be posted in the US, select N/A.
 - EEOC questions should be checked off in the US only
-- [Click here]({{< ref "req-creation#choosing-the-correct-location-for-your-published-job" >}}) for more information on selecting the correct location for your job. This will help ensure that your LinkedIn listings are posted in the correct countries.
+- [Click here](/handbook/handbook/hiring/talent-acquisition-framework/req-creation/#choosing-the-correct-location-for-your-published-job) for more information on selecting the correct location for your job. This will help ensure that your LinkedIn listings are posted in the correct countries.
 - Our jobs are now set up to automatically go to Indeed and Glassdoor and be posted as remote roles on both sites. Recruiters should unselect or leave unselected the option in Greenhouse to "publish to free job boards" as this requires us to input city, state, and country data that overrides the remote job listing. There is an automation in place to automatically send jobs to Indeed and Glassdoor.
 {{% /details %}}
 {{% /details %}}
@@ -150,11 +150,11 @@ Scorecards are required in all stages that require interviews. Confidential, per
 
 - **Get to Know Us:** This is an application review stage.
 - **Qualified:** This is the stage where positive applications will be triaged. Candidates can wait here to be scheduled for interviews, to ensure the right mix of well-qualified candidates are screened at the right times.
-- [**Screening:**]({{< ref "req-overview#screening" >}}) Phone or video interview with a recruiter, scheduled through Calendly.
-- [**Assessment:**]({{< ref "req-creation#update-the-interview-plan" >}}) This is an optional stage where written assignments can be submitted. Learn more [here]({{< ref "req-creation#update-the-interview-plan" >}}).
+- [**Screening:**](/handbook/handbook/hiring/talent-acquisition-framework/req-overview/#screening) Phone or video interview with a recruiter, scheduled through Calendly.
+- [**Assessment:**](/handbook/handbook/hiring/talent-acquisition-framework/req-creation/#update-the-interview-plan) This is an optional stage where written assignments can be submitted. Learn more [here](/handbook/handbook/hiring/talent-acquisition-framework/req-creation/#update-the-interview-plan).
 - **Initial Interview:** This is the first video interview with a member of the team, which helps determine if they will move forward to additional interviews. This stage ensures we are utilizing the interviewers' and candidates' time thoughtfully, and is typically either a Hiring Manager or Technical interview.
-- [**Team Interview:**]({{< ref "req-overview#team-interview" >}}) All other team interviews live here.
-- [**Debrief:**]({{< ref "offer-process#debrief" >}}) This will come after the reference check stage for Engineering requisitions, because the reference checks will be initiated as the Justification (R&D's process for the Debrief stage) is initiated. For non-Engineering departments, this will be a holding stage where candidates wait until a decision is made, to track the time it takes for us to reach a decision on a candidate who has completed their interviews. See the [Engineering's Justification process]({{< ref "offer-process#debrief" >}}).
+- [**Team Interview:**](/handbook/handbook/hiring/talent-acquisition-framework/req-overview/#team-interview) All other team interviews live here.
+- [**Debrief:**](/handbook/handbook/hiring/talent-acquisition-framework/offer-process/#debrief) This will come after the reference check stage for Engineering requisitions, because the reference checks will be initiated as the Justification (R&D's process for the Debrief stage) is initiated. For non-Engineering departments, this will be a holding stage where candidates wait until a decision is made, to track the time it takes for us to reach a decision on a candidate who has completed their interviews. See the [Engineering's Justification process](/handbook/handbook/hiring/talent-acquisition-framework/offer-process/#debrief).
 - [**Reference Check:**](#offers-and-closing-reqs) The reference check stage can sometimes be done in tandem with the Debrief and Background Check and Offer stages. They can be completed by the Hiring Manager or Recruiter.
 - [**Background Check and Offer:**](#offers-and-closing-reqs) Recruiters move candidates into this stage once they're ready to receive their verbal offer. Before that time, this stage is where an offer is prepared and goes through approvals. This is the final stage in the process.
 {{% /details %}}
@@ -211,7 +211,7 @@ Scorecards are required in all stages that require interviews. Confidential, per
 
 {{% details summary="Reference Checks" %}}
 
-- [Reference check information]({{< ref "offer-process#reference-reviews" >}})
+- [Reference check information](/handbook/handbook/hiring/talent-acquisition-framework/offer-process/#reference-reviews)
 - Reference check forms are mandatory. If you receive reference check information outside of the form and don't want a candidate to fill it out again, Enablement can help you adjust the form to collect the remaining information. These forms are important because they provide necessary information for the accuracy and completion of a contract.
 - {{% details summary="Tips and Tricks" %}}
 - These forms, just like an offer in Greenhouse, **do not transfer** when you move a candidate from one job to another. Ensure that your candidate is in the role they'll be hired for before sending.
@@ -223,13 +223,13 @@ Scorecards are required in all stages that require interviews. Confidential, per
 
 {{% details summary="Offers" %}}
 
-- [Creating an offer in Greenhouse]({{< ref "offer-process#offer-approvals" >}})
+- [Creating an offer in Greenhouse](/handbook/handbook/hiring/talent-acquisition-framework/offer-process/#offer-approvals)
 - {{% details summary="Common approval challenges" %}}
 - Offer stuck in approvals: If the offer is stuck in the approvals chain because someone is out of office, the recruiter can talk to the approver's manager about an appropriate temporary adjustment and recommend this to the Enablement team. Recruiters should be proactive in reaching out to approvers if an offer is urgent or a candidate is being inconvenienced by a long wait time. If there is a known OOO, this discussion should happen before there's an offer waiting for approval. Enablement can help with any changes needed.
 - Offer approvals chain is incorrect: If approvers are missing or incorrect, the Recruiter should contact a member of the Enablement team to adjust. The only people with access to make approvers changes are Enablement and Director, Executive Recruiting, who change approval chains to maintain confidentiality for executive positions. Often, approval chains are incorrect because you have chosen the wrong department, so it's important to choose the right one before opening your req.
 {{% /details %}}
-- [Verbal offer information]({{< ref "offer-process#verbal-job-offer" >}})
-- [Declined offer steps]({{< ref "offer-process#declined-offers" >}})
+- [Verbal offer information](/handbook/handbook/hiring/talent-acquisition-framework/offer-process/#verbal-job-offer)
+- [Declined offer steps](/handbook/handbook/hiring/talent-acquisition-framework/offer-process/#declined-offers)
 
 {{% details summary="Background screens" %}}
 
@@ -264,7 +264,7 @@ There are no perfect or required ways to set up your Greenhouse notifications, b
 
 ### Referrals
 
-- [Referral Operations]({{< ref "referral-operations" >}})
+- [Referral Operations](/handbook/handbook/hiring/referral-operations/)
 - [Referral Process](/handbook/hiring/referral-process/)
 - [Details on who is eligible for referrals](/handbook/total-rewards/incentives/#referral-bonuses)
 
@@ -274,13 +274,13 @@ There are no perfect or required ways to set up your Greenhouse notifications, b
 
 ### Internal Mobility
 
-- [Internal Hiring Process]({{< ref "internal-hiring-process" >}})
-- [Posting a job internally]({{< ref "req-creation#post-the-job-internally" >}})
-- [In the offer process]({{< ref "offer-process#offer-approvals" >}})
+- [Internal Hiring Process](/handbook/handbook/hiring/talent-acquisition-framework/internal-hiring-process/)
+- [Posting a job internally](/handbook/handbook/hiring/talent-acquisition-framework/req-creation/#post-the-job-internally)
+- [In the offer process](/handbook/handbook/hiring/talent-acquisition-framework/offer-process/#offer-approvals)
 
 ### Executive Hiring
 
-- [Executive Search]({{< ref "executive-search" >}})
+- [Executive Search](/handbook/handbook/hiring/talent-acquisition-framework/executive-search/)
 
 ### Emerging Talent
 

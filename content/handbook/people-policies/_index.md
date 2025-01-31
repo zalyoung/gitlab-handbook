@@ -73,7 +73,7 @@ Exceptions to this procedure will be tracked as per the [Information Security Po
 
 ### Anti-Harassment
 
-Please see the [Anti-Harassment Policy]({{< ref "anti-harassment" >}}).
+Please see the [Anti-Harassment Policy](/handbook/handbook/people-group/anti-harassment/).
 
 ### Anti-Retaliation
 
@@ -388,7 +388,7 @@ To ensure the physical and mental health and safety of our team members in New Z
 
 **Workplace Harassment Policy**
 
-- [Anti-Harassment Policy]({{< ref "anti-harassment#introduction" >}})
+- [Anti-Harassment Policy](/handbook/handbook/people-group/anti-harassment/#introduction)
 - [Code of Business Conduct & Ethics](https://ir.gitlab.com/static-files/7d8c7eb3-cb17-4d68-a607-1b7a1fa1c95d)
 
 **Fair Employment Practices Policy**

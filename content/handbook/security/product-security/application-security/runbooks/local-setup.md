@@ -30,4 +30,4 @@ When testing requires using multiple users, an Incognito / Private tab is an eas
 
 ## Mocking Servers / tunnels
 
-Making your local machine accessible from the internet is [not permitted](/handbook/security/corporate/systems/#other-servicesdevices), which precludes tools like `ngrok` or `localtunnel`. Use GitLab's [Sandbox Cloud](/handbook/company/infrastructure-standards/realms/sandbox) to host mock servers instead. Refer to [Secure Cloud testing environments]({{< ref "test_env#securing-cloud-testing-environments" >}}) for advice on how to secure your Sandbox Cloud test environments.
+Making your local machine accessible from the internet is [not permitted](/handbook/security/corporate/systems/#other-servicesdevices), which precludes tools like `ngrok` or `localtunnel`. Use GitLab's [Sandbox Cloud](/handbook/company/infrastructure-standards/realms/sandbox) to host mock servers instead. Refer to [Secure Cloud testing environments](/handbook/handbook/support/workflows/test_env/#securing-cloud-testing-environments) for advice on how to secure your Sandbox Cloud test environments.

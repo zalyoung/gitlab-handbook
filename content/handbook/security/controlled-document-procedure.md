@@ -55,7 +55,7 @@ At minimum, controlled documents should cover the following key topic areas:
 
 Creation of, or changes to, controlled documents must be approved by management or a formally designated representative of the owning department as defined in the Code Owners file prior to publishing.
 
-Most controlled documents will be published to our public facing [handbook](/). However, if there is [non public data]({{< ref "data-classification-standard" >}}) included in the controlled document, it should be published via an *internal facing only* mechanism (e.g. an internal GitLab project or an internal only handbook page). Controlled documents should be accessible to all internal team members.
+Most controlled documents will be published to our public facing [handbook](/). However, if there is [non public data](/handbook/handbook/security/data-classification-standard/) included in the controlled document, it should be published via an *internal facing only* mechanism (e.g. an internal GitLab project or an internal only handbook page). Controlled documents should be accessible to all internal team members.
 
 #### Handbook header
 
@@ -103,6 +103,6 @@ Once an exception request is submitted, the following general flow will commence
 
 ## References
 
-- [GCF Compliance Controls]({{< ref "sec-controls" >}})
-- [Data Classifiation Standard]({{< ref "data-classification-standard" >}})
+- [GCF Compliance Controls](/handbook/handbook/security/security-assurance/security-compliance/sec-controls/)
+- [Data Classifiation Standard](/handbook/handbook/security/data-classification-standard/)
 - [Controlled Documents Work Instruction](https://gitlab.com/gitlab-com/gl-security/security-assurance/governance/controlled-documents-program/-/blob/main/runbooks/controlled_document_annual_review_work_instruction.md)

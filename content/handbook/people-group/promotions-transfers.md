@@ -69,7 +69,7 @@ Our promotion philosophy is also aligned with our [values](/handbook/values/):
 - **Collaboration**: Cross-functional lens for feedback and calibration
 - **Results**: Business justification, scope, and team member results are demonstrated and documented to support promotions
 - **Efficiency**: Consistency and scalability in our promotion processes by twice per year planning and calibration. The planning and calibration timing considers existing programs and cycles for the business and aims to embed promotions into cadences where they best align for efficiency.
-- **Diversity, Inclusion, and Belonging**: Fairness and equity reflected through a consistent approach and documentation to promotions at all levels in the organization and supported by our [job frameworks](/handbook/company/structure/) and Total Rewards [URG]({{< ref "review-cycle-inputs#underrepresented-group-audit" >}}) audit
+- **Diversity, Inclusion, and Belonging**: Fairness and equity reflected through a consistent approach and documentation to promotions at all levels in the organization and supported by our [job frameworks](/handbook/company/structure/) and Total Rewards [URG](/handbook/handbook/total-rewards/compensation/compensation-review-cycle/review-cycle-inputs/#underrepresented-group-audit) audit
 - **Iteration**: Process is improved each cycle. In FY24, we moved to a twice per year. We continue to look at ways we can iterate on our process for efficiency and scalability.
 - **Transparency**: Clarity and efficacy of promotion metrics, budget, and guidelines, in addition to transparency in promotion justification through internally public promotion documents.
 
@@ -800,7 +800,7 @@ The [People Connect Specialist](/job-families/people-group/people-connect) in th
 
 The People Connect Leads will pull a monthly report to check that any qualifying team members did get their Career Mobility issue is opened.
 
-The [Career Mobility Issue](https://gitlab.com/gitlab-com/people-group/people-operations/employment-templates/-/blob/main/.gitlab/issue_templates/career_mobility.md) will then be created by the People Connect Team member assigned by using the [automated Slack command]({{< ref "employment-issues#career-mobility-issues" >}}) three days prior to the effective date to allow for the managers to start preparing for the team member's transition.
+The [Career Mobility Issue](https://gitlab.com/gitlab-com/people-group/people-operations/employment-templates/-/blob/main/.gitlab/issue_templates/career_mobility.md) will then be created by the People Connect Team member assigned by using the [automated Slack command](/handbook/handbook/people-group/engineering/employment-issues/#career-mobility-issues) three days prior to the effective date to allow for the managers to start preparing for the team member's transition.
 
 Important things to ensure:
 

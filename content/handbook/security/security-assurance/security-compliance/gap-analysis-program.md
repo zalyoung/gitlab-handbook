@@ -66,8 +66,8 @@ Gap analysis requests will be prioritized by the Gap Analysis Program DRI with a
 
 ## References
 
-- [GCF Contol Lifecycle]({{< ref "security-control-lifecycle" >}})
-- [GitLab's Security Compliance Controls]({{< ref "sec-controls" >}})
+- [GCF Contol Lifecycle](/handbook/handbook/security/security-assurance/security-compliance/security-control-lifecycle/)
+- [GitLab's Security Compliance Controls](/handbook/handbook/security/security-assurance/security-compliance/sec-controls/)
 
 ## Contact
 

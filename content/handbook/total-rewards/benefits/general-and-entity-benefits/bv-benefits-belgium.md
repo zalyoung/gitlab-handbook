@@ -11,7 +11,7 @@ Belgian employees are on state benefits. This includes sickness, medical, disabi
 
 GitLab does not plan on offering pension benefits at this time due to the government cover.
 
-GitLab will continue to review responses from the [Global Benefits Survey]({{< ref "benefits-survey#global-benefits-survey" >}}) as well as budgetary availability with respect to adding a Life Insurance policy for team members in Belgium.
+GitLab will continue to review responses from the [Global Benefits Survey](/handbook/handbook/total-rewards/benefits/benefits-survey/#global-benefits-survey) as well as budgetary availability with respect to adding a Life Insurance policy for team members in Belgium.
 
 Mandatory Indexation: Belgian GitLab team members fall under Joint Industrial Committee 227 (JIC 227). Under JIC 227 regulations, wages are automatically adjusted by increasing or decreasing them by 2% when the smoothed health index reaches or is brought back to one of the pivot index numbers. This indexation aims to maintain purchasing power as living costs change. Gitlab may process these mandated increases as part of the Annual Compensation Review. An email will be sent to affected team members that will state their salary increase is an advance payment (partly) on the given year indexation, aiming at compensating (partly) for the increased costs of living and will ask for an acknowledgment of receipt of said email to each employee.
 

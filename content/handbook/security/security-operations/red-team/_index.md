@@ -10,7 +10,7 @@ Malicious actors are not constrained by the narrow focus of traditional security
 
 This approach allows groups across GitLab to practice detecting and responding to threats in a controlled manner. We can then better understand our current defensive capabilities and work to improve them before we are faced with the real thing.
 
-The Red Team operates under a predefined set of [rules of engagement]({{< ref "red-team-roe" >}}). The rules of engagement exist to inform GitLab's team members on how the team operates during engagements. It provides guidelines for determining scope, the ethics we employ during our engagements, how we collaborate as a security team, and how we escalate vulnerabilities and exploits we discover during those engagements.
+The Red Team operates under a predefined set of [rules of engagement](/handbook/handbook/security/security-operations/red-team/red-team-roe/). The rules of engagement exist to inform GitLab's team members on how the team operates during engagements. It provides guidelines for determining scope, the ethics we employ during our engagements, how we collaborate as a security team, and how we escalate vulnerabilities and exploits we discover during those engagements.
 
 Further details can be found in the [job family description](/job-families/security/red-team).
 
@@ -46,7 +46,7 @@ If vulnerabilities are discovered, we will exploit them and work to safely demon
 
 When immediate action is required, we will follow the standard process for [reporting an incident](/handbook/security/#reporting-an-incident). For vulnerabilities that appear wide-spread or recurring, we will create an issue inside the [Vulnerability Management issue tracker](https://gitlab.com/gitlab-com/gl-security/product-security/vulnerability-management/vulnerability-management-internal/vulnerability-management-tracker/-/issues) to implement automated scanning capabilities.
 
-We list examples of [opportunistic attack techniques]({{< ref "red-team-roe#opportunistic-attack-techniques" >}}) inside our rules of engagement.
+We list examples of [opportunistic attack techniques](/handbook/handbook/security/security-operations/red-team/red-team-roe/#opportunistic-attack-techniques) inside our rules of engagement.
 
 ### Research
 
@@ -185,7 +185,7 @@ We have private Slack channels in place where designated team members can ask th
 
 Managers at GitLab can also [submit a "Red Team Disclosure Request"](https://gitlab.com/gitlab-com/gl-security/security-operations/redteam/redteam-internal/red-team-operations/-/issues/new?issuable_template=request-for-disclosure) at any time. If the request contains evidence related to an ongoing Red Team operation, we will discuss next steps in the Slack channels mentioned above.
 
-You can read more about this process in the ["Requests for Disclosure" section]({{< ref "red-team-roe#requests-for-disclosure" >}}) of our rules of engagement.
+You can read more about this process in the ["Requests for Disclosure" section](/handbook/handbook/security/security-operations/red-team/red-team-roe/#requests-for-disclosure) of our rules of engagement.
 
 ### How the Red Team will respond to this question
 

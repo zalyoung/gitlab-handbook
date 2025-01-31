@@ -54,4 +54,4 @@ For further details, please review GitLab's [Penetration Testing Standard](https
 
 ## Exceptions
 
-Exceptions to this policy will be tracked as per the [Security and Technology Policy Exception Management Process]({{< ref "security-and-technology-policy-exception" >}}).
+Exceptions to this policy will be tracked as per the [Security and Technology Policy Exception Management Process](/handbook/handbook/security/security-and-technology-policy-exception/).

@@ -22,7 +22,7 @@ L&D also has courses on [Level Up](https://levelup.gitlab.com/learn/dashboard) t
 
 ### Professional Coaching
 
-As a team member, you have access to multiple avenues for professional coaching to enhance leadership skills. A coach can help a leader identify skills to be developed, key strengths, and strategies for improvement. [Coaching]({{< ref "coaching" >}}) can focus on achieving goals within a leader's current job or move in new direction.
+As a team member, you have access to multiple avenues for professional coaching to enhance leadership skills. A coach can help a leader identify skills to be developed, key strengths, and strategies for improvement. [Coaching](/handbook/handbook/leadership/coaching/) can focus on achieving goals within a leader's current job or move in new direction.
 
 GitLab offers the following benefits for team members to receive coaching:
 

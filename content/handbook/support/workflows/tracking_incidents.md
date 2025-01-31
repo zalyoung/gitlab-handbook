@@ -34,4 +34,4 @@ For example:
 
 ## See Also
 
-- [How To Perform CMOC Duties]({{< ref "cmoc_workflows" >}}) for how to handle production incidents as the CMOC.
+- [How To Perform CMOC Duties](/handbook/handbook/support/workflows/cmoc_workflows/) for how to handle production incidents as the CMOC.

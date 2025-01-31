@@ -18,11 +18,11 @@ The communicated Talent Acquisition Process Framework specifically focuses on ap
 
 ### **Step 1: Identify hiring need**
 
-The Hiring Manager will determine the need for an opening and ensure it is an approved headcount (confirm with your [finance business partner](/handbook/finance/#finance-business-partner-alignment) if you are not sure). Once confirmed, the Hiring Manager will notify the [Talent Acquisition Manager/Lead specific to their org](/handbook/hiring/recruiting-alignment/) utilizing the steps provided on the [req creation process]({{< ref "req-creation#requisition-creation-process" >}}).
+The Hiring Manager will determine the need for an opening and ensure it is an approved headcount (confirm with your [finance business partner](/handbook/finance/#finance-business-partner-alignment) if you are not sure). Once confirmed, the Hiring Manager will notify the [Talent Acquisition Manager/Lead specific to their org](/handbook/hiring/recruiting-alignment/) utilizing the steps provided on the [req creation process](/handbook/handbook/hiring/talent-acquisition-framework/req-creation/#requisition-creation-process).
 
 ### **Step 2: Create opening in Greenhouse**
 
-The Recruiter will create the opening in Greenhouse following the [req creation]({{< ref "req-creation#opening-vacancies-in-greenhouse" >}}) guidelines. The assigned Recruiter, CES, and Sourcer should receive an email notification from Greenhouse when the req is approved.
+The Recruiter will create the opening in Greenhouse following the [req creation](/handbook/handbook/hiring/talent-acquisition-framework/req-creation/#opening-vacancies-in-greenhouse) guidelines. The assigned Recruiter, CES, and Sourcer should receive an email notification from Greenhouse when the req is approved.
 
 ### **Step 3: Complete kick-off session, agree on priority level, & complete a sourcing session**
 
@@ -206,4 +206,4 @@ If there are any special circumstances regarding a known relocation for the cand
 
 Once references are completed or are in progress, and the offer has been approved, the Recruiter will move the candidate to offer stage to show that they are ready to present a verbal offer.
 
-For details about these final stages, please visit the [Job Offer Process]({{< ref "offer-process" >}}) page.
+For details about these final stages, please visit the [Job Offer Process](/handbook/handbook/hiring/talent-acquisition-framework/offer-process/) page.

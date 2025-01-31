@@ -57,13 +57,13 @@ The Field Security Team also maintains the following resources for **GitLab Team
 
 ### Knowledge Base
 
-For information on how Field Security uses SafeBase and how it can support your workflows, please visit our [Knowledge Base]({{< ref "knowledge_base" >}}) page.
+For information on how Field Security uses SafeBase and how it can support your workflows, please visit our [Knowledge Base](/handbook/handbook/security/security-assurance/field-security/knowledge_base/) page.
 
 ### Feedback from Field Security
 
-The Field Security Team has the unique privilege of conversing with and receiving feedback from both customers and fellow GitLab team members. To ensure we always support our customers, Field Security follows GitLab's [observation creation procedure]({{< ref "observation-management-procedure" >}}) to relay customers' requirements or concerns internally to the appropriate teams. To proactively request feedback from Field Security, use the [Internal Feedback]({{< ref "customer-security-assessment-process#collaborate-with-field-security" >}}) button to open a request.
+The Field Security Team has the unique privilege of conversing with and receiving feedback from both customers and fellow GitLab team members. To ensure we always support our customers, Field Security follows GitLab's [observation creation procedure](/handbook/handbook/security/security-assurance/observation-management-procedure/) to relay customers' requirements or concerns internally to the appropriate teams. To proactively request feedback from Field Security, use the [Internal Feedback](/handbook/handbook/security/security-assurance/field-security/customer-security-assessment-process/#collaborate-with-field-security) button to open a request.
 
-**Note:** Field Security's observations must follow the [Field Security Observation and OFI Quality Guide]({{< ref "field_security_observation_and_ofi_quality_guide" >}})
+**Note:** Field Security's observations must follow the [Field Security Observation and OFI Quality Guide](/handbook/handbook/security/security-assurance/field-security/field_security_observation_and_ofi_quality_guide/)
 
 ---
 

@@ -86,7 +86,7 @@ Optional, but highly recommended:
 - [Stage](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/doc/development/contributing/issue_workflow.md#stage-labels)
 - `~Reproduced on GitLab.com` if applicable
 
-For L&R related issues, please see the [specific guidance on Fulfillment issues]({{< ref "managing_product_issues" >}}).
+For L&R related issues, please see the [specific guidance on Fulfillment issues](/handbook/handbook/support/license-and-renewals/workflows/managing_product_issues/).
 
 ## Escalate New and Existing Issues
 

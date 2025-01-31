@@ -133,10 +133,10 @@ and works as expected will reduce the number of support cases organically.
 Support plays a vital role in surfacing issues that our users encounter while using GitLab
 by:
 
-- [reporting bugs]({{< ref "working-with-issues#creating-issues" >}})
-- [tagging issues]({{< ref "working-with-issues#adding-labels" >}})
-- [participating in issues]({{< ref "working-with-issues#adding-comments-on-existing-issues" >}})
-- [surfacing feedback]({{< ref "feedbacks_and_complaints#product-feedback" >}})
+- [reporting bugs](/handbook/handbook/support/workflows/working-with-issues/#creating-issues)
+- [tagging issues](/handbook/handbook/support/workflows/working-with-issues/#adding-labels)
+- [participating in issues](/handbook/handbook/support/workflows/working-with-issues/#adding-comments-on-existing-issues)
+- [surfacing feedback](/handbook/handbook/support/workflows/feedbacks_and_complaints/#product-feedback)
 - [fixing issues by submitting an MR](https://about.gitlab.com/community/contribute/)
 
 #### Statement of Support

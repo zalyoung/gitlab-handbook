@@ -4,5 +4,5 @@ description: >-
   Calendars for team members and managers to help plan for the year at GitLab.
 ---
 
-1. [People Managers Calendar]({{< ref "manager-calendar" >}})
-1. [All Team Member Calendar]({{< ref "team-member-calendar" >}})
+1. [People Managers Calendar](/handbook/handbook/people-group/calendars/manager-calendar/)
+1. [All Team Member Calendar](/handbook/handbook/people-group/calendars/team-member-calendar/)

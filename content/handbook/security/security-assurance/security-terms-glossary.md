@@ -16,7 +16,7 @@ A document that is meant to provide an overview of a Security Program or portion
 
 ## Security Assessment
 
-An activity in which a Security Program or portions thereof are investigated for fit and function. For instance GitLab conducts [Third Party Risk Management assessments]({{< ref "third-party-risk-management" >}}) of our third parties. Security Assessments are generally conducted by an organization who is intending to procure services from another organization. GitLab supports Security Assessments for customers by publishing and maintaining the [Customer Assurance Package](https://trust.gitlab.com/)
+An activity in which a Security Program or portions thereof are investigated for fit and function. For instance GitLab conducts [Third Party Risk Management assessments](/handbook/handbook/security/security-assurance/security-risk/third-party-risk-management/) of our third parties. Security Assessments are generally conducted by an organization who is intending to procure services from another organization. GitLab supports Security Assessments for customers by publishing and maintaining the [Customer Assurance Package](https://trust.gitlab.com/)
 
 ## Security Audit
 

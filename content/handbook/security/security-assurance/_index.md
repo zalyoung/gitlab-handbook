@@ -65,33 +65,33 @@ There are five teams in the Security Assurance sub-department.
 ### Field Security Core Competencies
 
 - [Sales Training (Security)](/handbook/sales/onboarding/sqs-learning-objectives/)
-- [Sales Enablement (Security)]({{< ref "field-security-rfp" >}})
-- [Customer Assurance (Security)]({{< ref "customer-security-assessment-process" >}})
-- [Security Evangelization]({{< ref "evangelism" >}})
+- [Sales Enablement (Security)](/handbook/handbook/security/security-assurance/field-security/field-security-rfp/)
+- [Customer Assurance (Security)](/handbook/handbook/security/security-assurance/field-security/customer-security-assessment-process/)
+- [Security Evangelization](/handbook/handbook/security/security-assurance/field-security/evangelism/)
 
 ### Security Governance Core Competencies
 
-- [Security Policies, Standards and Control maintenance]({{< ref "controlled-document-procedure" >}})
+- [Security Policies, Standards and Control maintenance](/handbook/handbook/security/controlled-document-procedure/)
 - [Security Assurance Metrics]({{< ref "governance#security-assurance-metrics" >}})
 - [Regulatory Landscape Monitoring]({{< ref "governance#regulatory-and-compliance-landscape-monitoring" >}})
-- [Security Awareness and Training]({{< ref "sec-awareness-training" >}})
+- [Security Awareness and Training](/handbook/handbook/security/security-assurance/governance/sec-awareness-training/)
 - [Security Assurance Application Administration]({{< ref "security-assurance#core-tools-and-systems" >}})
-- [Security Assurance Automation]({{< ref "security-assurance-automation" >}})
+- [Security Assurance Automation](/handbook/handbook/security/security-assurance/governance/security-assurance-automation/)
 
 ### Security Risk Core Competencies
 
-- [Security Third Party Risk Management]({{< ref "third-party-risk-management" >}})
+- [Security Third Party Risk Management](/handbook/handbook/security/security-assurance/security-risk/third-party-risk-management/)
 - [Tier 2 Operational Security Risk Management]({{< ref "storm-program" >}})
-- [Business Impact Assessments]({{< ref "business-impact-analysis" >}})
-- [Critical System Tiering]({{< ref "critical-systems" >}})
+- [Business Impact Assessments](/handbook/handbook/security/security-assurance/security-risk/storm-program/business-impact-analysis/)
+- [Critical System Tiering](/handbook/handbook/security/security-assurance/security-risk/storm-program/critical-systems/)
 
 ### Security Compliance Core Competencies
 
-- [Continuous Control Monitoring]({{< ref "sec-controls" >}})
+- [Continuous Control Monitoring](/handbook/handbook/security/security-assurance/security-compliance/sec-controls/)
 - [Security Certifications and Attestations](../security-assurance/security-compliance/certifications/)
-- [User Access Reviews (non-SOX)]({{< ref "access-reviews" >}})
-- [Observation management for control failures and Tier 3 (system-level) risks]({{< ref "observation-management-procedure" >}})
-- [GitLab Production Readiness: Compliance Assessment]({{< ref "production-readiness-compliance-assessment" >}})
+- [User Access Reviews (non-SOX)](/handbook/handbook/security/security-assurance/security-compliance/access-reviews/)
+- [Observation management for control failures and Tier 3 (system-level) risks](/handbook/handbook/security/security-assurance/observation-management-procedure/)
+- [GitLab Production Readiness: Compliance Assessment](/handbook/handbook/security/security-assurance/production-readiness-compliance-assessment/)
 
 ## <i id="biz-tech-icons" class="far fa-newspaper"></i> Core Tools and Systems
 

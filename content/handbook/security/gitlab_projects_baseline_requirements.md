@@ -44,7 +44,7 @@ As a general rule, we want to protect our branches in such a way that we [requir
 
 ![Example 1 of Protected Branch Settings configured to Require an MR](https://about.gitlab.com/images/protected_branch_settings_example.jpg "Example of Protected Branch Settings")
 
-See [Note on usage of Code Owners]({{< ref "gitlab_projects_baseline_requirements#note-on-usage-of-code-owners" >}})
+See [Note on usage of Code Owners](/handbook/handbook/security/gitlab_projects_baseline_requirements/#note-on-usage-of-code-owners)
 
 ## MR Approval Rule Configurations
 
@@ -58,7 +58,7 @@ MRs should be reviewed following GitLab's [Code Review Guidelines](/handbook/eng
 
 ![Example 2 of MR Approval Rules configured WITH Code Owners](https://about.gitlab.com/images/MR_approvals_with_code_owners.png "Example 2 of MR Approval Rules configured WITH Code Owners")
 
-See [Note on usage of Code Owners]({{< ref "gitlab_projects_baseline_requirements#note-on-usage-of-code-owners" >}})
+See [Note on usage of Code Owners](/handbook/handbook/security/gitlab_projects_baseline_requirements/#note-on-usage-of-code-owners)
 
 ## Note on usage of Code Owners
 
@@ -72,10 +72,10 @@ Please review thoroughly and ask questions in the `#sec-assurance` slack channel
 
 ## Ongoing Monitoring
 
-Please note that projects that meet the criteria for requiring these baseline configurations may be selected at any point for testing of configurations by the [GitLab Security Compliance team](security-assurance/security-compliance/) as part of our continuous control monitoring program to make sure we're adhering to the guidance outlined on this page. Please see the [GCF Security Control Lifecycle]({{< ref "security-control-lifecycle" >}}) page for an overview of the program.
+Please note that projects that meet the criteria for requiring these baseline configurations may be selected at any point for testing of configurations by the [GitLab Security Compliance team](security-assurance/security-compliance/) as part of our continuous control monitoring program to make sure we're adhering to the guidance outlined on this page. Please see the [GCF Security Control Lifecycle](/handbook/handbook/security/security-assurance/security-compliance/security-control-lifecycle/) page for an overview of the program.
 
 ## References
 
 - [GitLab Repositories](/handbook/engineering/gitlab-repositories/#creating-a-new-project) (for guidance on creating a new project)
-- [Change Management Policy]({{< ref "change-management-policy" >}})
-- [GCF Security Control Lifecycle]({{< ref "security-control-lifecycle" >}})
+- [Change Management Policy](/handbook/handbook/security/security-and-technology-policies/change-management-policy/)
+- [GCF Security Control Lifecycle](/handbook/handbook/security/security-assurance/security-compliance/security-control-lifecycle/)

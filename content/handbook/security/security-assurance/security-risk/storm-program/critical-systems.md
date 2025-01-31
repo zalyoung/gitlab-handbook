@@ -22,7 +22,7 @@ The Critical System Tiering methodology is applicable to all systems utilized ac
 
 ## Critical System Tiering Procedure
 
-Defining what a critical system means at GitLab can be complex given the nature of our environment and the number of integrations that exist across the many systems that are used to carry out business activities. GitLab's [Business Impact Analysis (BIA)]({{< ref "business-impact-analysis" >}}) procedure enables the designation of a Critical System Tier for a new system by the Security Risk Team. The BIA questions used to designate Critical System Tier are:
+Defining what a critical system means at GitLab can be complex given the nature of our environment and the number of integrations that exist across the many systems that are used to carry out business activities. GitLab's [Business Impact Analysis (BIA)](/handbook/handbook/security/security-assurance/security-risk/storm-program/business-impact-analysis/) procedure enables the designation of a Critical System Tier for a new system by the Security Risk Team. The BIA questions used to designate Critical System Tier are:
 
 1. What is the impact of System disruption (System is unavailable)?
 2. Please describe the potential impact of System disruption. Specify any GitLab team(s) affected.
@@ -57,7 +57,7 @@ Systems are designated a Critical System Tier based on the following matrix:
   </tr>
   <tr>
     <td class="tg-e02t">Tier 1 Mission Critical<span style="color:#DB3B21;">**</span></td>
-    <td class="tg-zqun">Disruption or breach has an immediate and significant impact on the availability/security of GitLab SaaS subscriptions and Customer data (See <a href="{{< ref "data-classification-standard#data-classification-definitions" >}}">Data Classification Standard</a> for definitions).</td>
+    <td class="tg-zqun">Disruption or breach has an immediate and significant impact on the availability/security of GitLab SaaS subscriptions and Customer data (See <a href="[data-classification-standard](/handbook/handbook/security/data-classification-standard/#data-classification-definitions)">Data Classification Standard</a> for definitions).</td>
     <td class="tg-zqun">GitLab.com, Google Cloud Platform, Devo</td>
   </tr>
   <tr>
@@ -81,10 +81,10 @@ Systems are designated a Critical System Tier based on the following matrix:
 
 {{% panel header="**Notes**" header-bg="primary" %}}
 {{% note %}}
-<span style="color:#DB3B21;"><b>\*</b></span> As an extension of tiering methodology, the [Data Classification Standard]({{< ref "data-classification-standard" >}}) prescribes **specific** [Security and Privacy]({{< ref "data-classification-standard#security-and-privacy-controls" >}}) control requirements for each data classification level. These requirements should be followed based on a system's data classification, regardless of the system's tier.
+<span style="color:#DB3B21;"><b>\*</b></span> As an extension of tiering methodology, the [Data Classification Standard](/handbook/handbook/security/data-classification-standard/) prescribes **specific** [Security and Privacy](/handbook/handbook/security/data-classification-standard/#security-and-privacy-controls) control requirements for each data classification level. These requirements should be followed based on a system's data classification, regardless of the system's tier.
 {{% /note %}}
 {{% note %}}
-<span style="color:#DB3B21;"><b>\**</b></span> By default, any system that contains <b>RED Data</b> per the [Data Classification Standard]({{< ref "data-classification-standard#red" >}}) OR is a [Third Party Sub-Processor](https://about.gitlab.com/privacy/subprocessors/#third-party-sub-processors) will be a **Tier 1 Mission Critical** system. This is due to the fact that this data is Customer-owned and uploaded and as such, has been deemed to be mission critical in nature.
+<span style="color:#DB3B21;"><b>\**</b></span> By default, any system that contains <b>RED Data</b> per the [Data Classification Standard](/handbook/handbook/security/data-classification-standard/#red) OR is a [Third Party Sub-Processor](https://about.gitlab.com/privacy/subprocessors/#third-party-sub-processors) will be a **Tier 1 Mission Critical** system. This is due to the fact that this data is Customer-owned and uploaded and as such, has been deemed to be mission critical in nature.
 {{% /note %}}
 {{% note %}}
 <span style="color:#DB3B21;"><b>*\*\*</b></span> By default, any system in-scope for [SOX](https://internal.gitlab.com/handbook/internal-audit/sarbanes-oxley/) will be a **Tier 2 Business Critical** system, at minimum.
@@ -105,5 +105,5 @@ Critical System Tiers for existing systems are validated periodically. A system'
 
 ## References
 
-- [Business Impact Analysis]({{< ref "business-impact-analysis" >}})
-- [Data Classification Standard]({{< ref "data-classification-standard" >}})
+- [Business Impact Analysis](/handbook/handbook/security/security-assurance/security-risk/storm-program/business-impact-analysis/)
+- [Data Classification Standard](/handbook/handbook/security/data-classification-standard/)

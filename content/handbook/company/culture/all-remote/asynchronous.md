@@ -375,7 +375,7 @@ Team needs are as unique as their objectives and will experience asynchronous co
 1. Percent reduction of minutes spent in synchronous meetings
 1. Percent increase in GitLab issue/epic/merge request usage
 1. Improved ratio of meeting minutes-to-[GitLab contributions](https://docs.gitlab.com/ee/user/group/contribution_analytics/)
-1. Increase in [360 feedback]({{< ref "360-feedback" >}}) citing '[bias towards asynchronous communication](/handbook/values/#bias-towards-asynchronous-communication)' in the Diversity, Inclusion & Belonging field
+1. Increase in [360 feedback](/handbook/handbook/people-group/360-feedback/) citing '[bias towards asynchronous communication](/handbook/values/#bias-towards-asynchronous-communication)' in the Diversity, Inclusion & Belonging field
 
 ### How to have an async 1:1 meeting
 
@@ -534,7 +534,7 @@ Team members were asked: *Why would you choose synchronous communication over as
 Responses are open to interpretation, though the data provide key insights that GitLab leaders may use to better understand the dynamics of their teams and iterate on solutions.
 
 1. While only 1% noted that they were unaware of an operating principle related to asynchronous communication, leaders should not assume that all [operating principles](/handbook/values/) are acknowledged and well-understood. Reinforce and discuss values in [1:1 meetings]({{< ref "1-1" >}}) and day-to-day workflows.
-1. GitLab is [public by default](/handbook/values/#public-by-default). If you believe a matter is confidential, check this in the [Not Public]({{< ref "confidentiality-levels#not-public" >}}) section of the Communication handbook.
+1. GitLab is [public by default](/handbook/values/#public-by-default). If you believe a matter is confidential, check this in the [Not Public](/handbook/handbook/communication/confidentiality-levels/#not-public) section of the Communication handbook.
 1. If you find it difficult to get someone's attention via asynchronous means, consider leveraging a synchronous engagement to discuss potential gaps in expectations. While GitLab is articulate about where work happens, some team members work exclusively from [GitLab's To-Do List](https://docs.gitlab.com/ee/user/todos.html) or Scoped Labels and have varying approaches to prioritization (*see Brand and Digital Design's [Working With Us](/handbook/marketing/digital-experience/#working-with-us) handbook for an example*). Assume positive intent, as delays in response may be attributable to putting [family and friends first](/handbook/values/#family-and-friends-first-work-second).
 1. The majority of respondents indicated that they leverage synchronous engagements to build rapport and catalyze future async conversations. Having a meeting not because it's *easy*, but because it will create *future efficiencies and cohesion*, is a positive outcome.
 1. It is encouraging that GitLab team members feel that they have the tools, support, and training to rely on asynchronous workflows. However, leaders should be mindful of new tools and practices that GitLab can pilot and surface these in the public `#values` Slack channel. [Iteration](/handbook/values/#iteration) also applies to our approach to asynchronous communication.

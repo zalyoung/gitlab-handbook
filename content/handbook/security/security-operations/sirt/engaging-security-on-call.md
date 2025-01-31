@@ -11,7 +11,7 @@ Information about SIRT responsibilities and incident ownership is available in t
 
 ## Incident Severity
 
-Before engaging the SEOC, please review [our severity and priority levels]({{< ref "severity-matrix" >}}) to ensure that the incident has been assigned the appropriate level of response.
+Before engaging the SEOC, please review [our severity and priority levels](/handbook/handbook/security/security-operations/sirt/severity-matrix/) to ensure that the incident has been assigned the appropriate level of response.
 
 For phishing related issues, see [Phishing](#phishing). For other non-urgent issues, see [Low Severity Issues](#low-severity-issues)/
 
@@ -19,7 +19,7 @@ Note: Additional information on Recovery Time Objective (RTO) and Recovery Point
 
 The following items are out of scope for SIRT and should be escalated to the respective teams mentioned below:
 
-- **Vulnerability reports and HackerOne**: please escalate to [Application Security]({{< ref "engaging-with-security#vulnerability-reports-and-hackerone" >}})
+- **Vulnerability reports and HackerOne**: please escalate to [Application Security](/handbook/handbook/security/engaging-with-security/#vulnerability-reports-and-hackerone)
 - **Abuse reports and DMCA notices**: please escalate to [Trust & Safety]({{< ref "trustandsafety" >}})
 - **General Customer Inquiries**: please escalate to [Field Security]({{< ref "../../security-assurance/field-security" >}})
 - **Self-Managed Instances**: please escalate to [TBD]
@@ -34,7 +34,7 @@ Please be advised the SLA for Slack mentions is **6 hours** on business days.
 
 ## Phishing
 
-If you suspect you've received a phishing email and have not engaged with the sender, please see: [What to do if you suspect an email is a phishing attack]({{< ref "phishing#what-to-do-if-you-suspect-an-email-is-a-phishing-attack" >}}).
+If you suspect you've received a phishing email and have not engaged with the sender, please see: [What to do if you suspect an email is a phishing attack](/handbook/handbook/security/security-assurance/governance/phishing/#what-to-do-if-you-suspect-an-email-is-a-phishing-attack).
 
 If you have engaged a phisher by replying to an email, clicking on a link, have sent and received text messages, or have purchased goods requested by the phisher, please [engage the SEOC](#engage-the-security-engineer-on-call).
 
@@ -46,7 +46,7 @@ If you have identified a security incident or you need immediate assistance from
 
 The Slack command triggers SIRT's Escalation Workflow. You will be sent a link to file a security incident using a Tines webform. This form asks questions about the incident that help the SIRT automatically determine *severity* and *priority*. Depending on which labels get assigned, the SEOC will be paged.
 
-For more information on how the form is processed and labels are assigned, consult SIRT's [incident classification]({{< ref "severity-matrix" >}}) methodology.
+For more information on how the form is processed and labels are assigned, consult SIRT's [incident classification](/handbook/handbook/security/security-operations/sirt/severity-matrix/) methodology.
 
 The workflow uses your answers to create a new issue and track the reported incident. Please provide as many details as possible when answering the open questions to aid the SEOC in their investigation of the incident. If you do not receive a link to the incident issue, please contact a SIRT engineer.
 

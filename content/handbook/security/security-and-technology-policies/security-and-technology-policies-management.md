@@ -27,13 +27,13 @@ All in-scope policies must be listed in the policies section of the CODEOWNERS f
 
 At a minimum, all in-scope policies must include a purpose, scope, roles and responsibilities, and policy statements.
 
-All policy statements for in-scope policies must be mapped to the appropriate [GCF]({{< ref "sec-controls" >}}) control(s).
+All policy statements for in-scope policies must be mapped to the appropriate [GCF](/handbook/handbook/security/security-assurance/security-compliance/sec-controls/) control(s).
 
 ### Policy review and approval
 
 All in-scope policies must be reviewed and approved by appropriate stakeholders prior to merging the initial MR to create the policy.
 
-All in-scope policies must be reviewed and approved by appropriate stakeholders on at least an annual basis in coordination with the [Controlled Document Procedure]({{< ref "controlled-document-procedure" >}}) annual review.
+All in-scope policies must be reviewed and approved by appropriate stakeholders on at least an annual basis in coordination with the [Controlled Document Procedure](/handbook/handbook/security/controlled-document-procedure/) annual review.
 
 ### Policy communication and training
 

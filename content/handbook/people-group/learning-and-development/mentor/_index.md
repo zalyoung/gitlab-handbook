@@ -40,7 +40,7 @@ In FY23 Q1, 17% of mentees in current organized mentorship programs completed a 
 ### Benefits for the mentor
 
 1. Serve as a [leader in the organization](/handbook/leadership/) by enabling growth for other team members
-1. Practice leadership, [effective communication](/handbook/communication/), and [coaching]({{< ref "coaching" >}}) skills
+1. Practice leadership, [effective communication](/handbook/communication/), and [coaching](/handbook/handbook/leadership/coaching/) skills
 1. Establish yourself as an expert in a field or speciality
 1. [Build trust](/handbook/leadership/building-trust/) with team members
 

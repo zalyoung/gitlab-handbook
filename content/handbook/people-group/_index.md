@@ -60,7 +60,7 @@ In the event a team member is in an unsafe situation due to a natural disaster, 
 
 As stated in the [Code of Business Conduct and Ethics](https://ir.gitlab.com/static-files/7d8c7eb3-cb17-4d68-a607-1b7a1fa1c95d), we have a section related to reporting violations. GitLab has engaged Navex to provide EthicsPoint, a comprehensive and confidential reporting tool, an anonymous ethics hotline for all team members. The purpose of the service is to insure that any team member wishing to submit a report anonymously about conduct addressed in the [Code of Business Conduct and Ethics](https://ir.gitlab.com/static-files/7d8c7eb3-cb17-4d68-a607-1b7a1fa1c95d) can do so without the fear of retaliation.
 
-In addition to EthicsPoint, GitLab has engaged Lighthouse Services to provide an anonymous reporting hotline for all team members to submit reports regarding team member relations. Reports may cover but are not limited to the following topics: wrongful discharge or disciplinary action, [sexual harassment]({{< ref "anti-harassment#sexual-harassment" >}}), discrimination, conduct violations, alcohol and substance abuse, threats, improper conduct, violation of company policy.
+In addition to EthicsPoint, GitLab has engaged Lighthouse Services to provide an anonymous reporting hotline for all team members to submit reports regarding team member relations. Reports may cover but are not limited to the following topics: wrongful discharge or disciplinary action, [sexual harassment](/handbook/handbook/people-group/anti-harassment/#sexual-harassment), discrimination, conduct violations, alcohol and substance abuse, threats, improper conduct, violation of company policy.
 
 Please note that the information provided by you may be the basis for an internal and/or external investigation into the issue you are reporting and your anonymity will be protected by Lighthouse to the extent possible by law. However, your identity may become known during the course of the investigation because of the information you have provided. Reports are submitted by Lighthouse to a company designee for investigation according to our company policies.
 
@@ -76,7 +76,7 @@ Lighthouse has a toll free number and other methods of reporting are available 2
 - E-mail: reports@lighthouse-services.com (must include company name with report)
 - Fax: (215) 689-3885 (must include company name with report)
 
-In addition to EthicsPoint and Lighthouse, please review the [Team Member Relations]({{< ref "team-member-relations" >}}) page. GitLab also offers a [Harassment Complaint Form](https://docs.google.com/document/d/1Xk5SXvh2kpO-w-TdykiczjhXNrEBjbMwDQHEt6lMhIk/edit?usp=sharing) that any team member may use to document any instance of any type of workplace harassment. Simply copy the form, fill it out with your information and send it to our Team Member Relations Specialist at teammemberrelations@gitlab.com.
+In addition to EthicsPoint and Lighthouse, please review the [Team Member Relations](/handbook/handbook/people-group/team-member-relations/) page. GitLab also offers a [Harassment Complaint Form](https://docs.google.com/document/d/1Xk5SXvh2kpO-w-TdykiczjhXNrEBjbMwDQHEt6lMhIk/edit?usp=sharing) that any team member may use to document any instance of any type of workplace harassment. Simply copy the form, fill it out with your information and send it to our Team Member Relations Specialist at teammemberrelations@gitlab.com.
 
 ## How to reach the right member of the People Group
 
@@ -92,7 +92,7 @@ This table lists the aliases to use, when you are looking to reach a specific gr
 | [Absence Management Team]({{< ref "leave-of-absence" >}}) | @lyndemeiers | leaves@gitlab.com | [HelpLab](https://helplab.gitlab.systems/esc?id=emp_taxonomy_topic&topic_id=3df7f70d474c069067429ee0026d434c&in_context=true)| n/a |  |
 | [People Group Engineering](https://gitlab.com/gitlab-com/people-group/peopleops-eng/people-operations-engineering) | @gl-people-engineering | No email group, create issues for People Engineering [here](https://gitlab.com/gitlab-com/people-group/peopleops-eng/people-operations-engineering/-/issues/new?issue%5Bassignee_id%5D=&issue%5Bmilestone_id%5D=) | #peopleops-eng | n/a | https://gitlab.com/groups/gitlab-com/people-group/peopleops-eng/-/boards/3941171 |
 | [Diversity, Inclusion and Belonging](https://gitlab.com/gitlab-com/diversity-and-inclusion) | No alias yet, @mention the |  |  |  |  |
-| [Diversity, Inclusion and Belonging Partner]({{< ref "diversity-inclusion-partner" >}}) | diversityinclusion@ gitlab.com | n/a | n/a |  | [Diversity, Inclusion and Belonging issue tracker](https://gitlab.com/gitlab-com/diversity-and-inclusion/-/issues) |
+| [Diversity, Inclusion and Belonging Partner](/handbook/job-families/people-group/diversity-inclusion-partner/) | diversityinclusion@ gitlab.com | n/a | n/a |  | [Diversity, Inclusion and Belonging issue tracker](https://gitlab.com/gitlab-com/diversity-and-inclusion/-/issues) |
 | [Learning and Development](https://gitlab.com/gitlab-com/people-group/Training) | `@gitlab-com/people-group/learning-development` | learning@ gitlab.com | #learninganddevelopment | n/a | [L&D Issue Board](https://gitlab.com/groups/gitlab-com/people-group/learning-development/-/boards/1958538)  |
 | [Talent Acquisition](/handbook/company/team/?department=talent-acquisition) | @gl-talent-acquisition | recruiting@ gitlab.com | @talent-acquisition-team | n/a |  |
 | Employer Branding | No alias yet, @mention the [Senior Talent Brand Manager](/handbook/company/team/#bchurch) | employmentbranding@ gitlab.com | n/a | n/a |  |
@@ -154,17 +154,17 @@ Please note that the source of truth for role responsibilites is the job family 
 | Responsibility | Response Timeline |
 | -------------- | ----------------- |
 | [Onboarding](https://internal.gitlab.com/handbook/people-group/people-operations/people-connect/onboarding_process/) | 2 weeks prior to start date |
-| [Offboarding]({{< ref "offboarding_standards" >}}) | Immediate action for involuntary & 24 hours for voluntary |
+| [Offboarding](/handbook/handbook/people-group/offboarding/offboarding_standards/) | Immediate action for involuntary & 24 hours for voluntary |
 | [Career Mobility](/handbook/people-group/promotions-transfers/#career-mobility-issue) | Within 24 hours |
-| [Letters of Employment]({{< ref "frequent-requests#letter-of-employment" >}}) | Within 24 hours |
-| [Employment Verification]({{< ref "frequent-requests#employment-history-verification-current-team-members" >}}) | Within 24 hours |
-| [Anniversary Emails]({{< ref "celebrations#anniversary-gifts" >}}) | First day of the following month |
+| [Letters of Employment](/handbook/handbook/people-group/frequent-requests/#letter-of-employment) | Within 24 hours |
+| [Employment Verification](/handbook/handbook/people-group/frequent-requests/#employment-history-verification-current-team-members) | Within 24 hours |
+| [Anniversary Emails](/handbook/handbook/people-group/celebrations/#anniversary-gifts) | First day of the following month |
 | HelpLab Queries | Within 24 hours |
 | [Probation Period Notifications](/handbook/people-group/contracts-probation-periods/#probation-period) | Daily (when applicable) |
 | [Contract Renewals](/handbook/people-group/contracts-probation-periods/#contract-renewals) | 30 days or more prior to team member's renewal date |
-| [Exit Interviews]({{< ref "offboarding#exit-survey" >}}) | During voluntary offboarding team member's last week |
+| [Exit Interviews](/handbook/handbook/people-group/engineering/offboarding/#exit-survey) | During voluntary offboarding team member's last week |
 | [Administration of the signing of our Code of Business Conduct and Ethics](https://ir.gitlab.com/static-files/7d8c7eb3-cb17-4d68-a607-1b7a1fa1c95d) | Annually in Feb/March |
-| [US Unemployment Claim Management]({{< ref "offboarding#us-unemployment-claim-management" >}}) | As Needed and Audited Quarterly |
+| [US Unemployment Claim Management](/handbook/handbook/people-group/engineering/offboarding/#us-unemployment-claim-management) | As Needed and Audited Quarterly |
 
 Other listed processes for the People Connect Team can be found [here](https://internal.gitlab.com/handbook/people-group/people-operations/people-connect/people_connect_team/)
 
@@ -173,11 +173,11 @@ Other listed processes for the People Connect Team can be found [here](https://i
 | Responsibility | Response Timeline |
 | -------------- | ----------------- |
 | [Relocations](/handbook/people-group/relocation/) | As requested, usually completed 30 days or more prior to team member's relocation date |
-| [Country Conversions]({{< ref "employment-solutions#country-conversions" >}}) | As soon as approval is given by CFO. Conversion turnaround time can vary based on a variety of factors. |
+| [Country Conversions](/handbook/handbook/people-group/employment-solutions/#country-conversions) | As soon as approval is given by CFO. Conversion turnaround time can vary based on a variety of factors. |
 
 ## Frequently Requested
 
-Please review the [frequently requested section]({{< ref "frequent-requests" >}}) of the People Handbook before reaching out to the team. The page includes information on accessing a team directory, requesting a letter of employment, mortgage forms, the companies reference request policy, ordering business cards, and changing your name in GitLab systems.
+Please review the [frequently requested section](/handbook/handbook/people-group/frequent-requests/) of the People Handbook before reaching out to the team. The page includes information on accessing a team directory, requesting a letter of employment, mortgage forms, the companies reference request policy, ordering business cards, and changing your name in GitLab systems.
 
 ## Addresses
 
@@ -256,12 +256,12 @@ We encourage everyone to have an ongoing conversation about career growth with t
 
 - [Code of Business Conduct and Ethics](https://ir.gitlab.com/static-files/7d8c7eb3-cb17-4d68-a607-1b7a1fa1c95d)
 - [Promotions and Transfers](/handbook/people-group/promotions-transfers/)
-- [Employment Solutions (International Expansion)]({{< ref "employment-solutions" >}})
+- [Employment Solutions (International Expansion)](/handbook/handbook/people-group/employment-solutions/)
 - [Contracts](https://internal.gitlab.com/handbook/people-group/people-operations/people-connect/employment_contracts/)
 - [Probation Periods & PIAA](/handbook/people-group/contracts-probation-periods/)
 - [Onboarding](/handbook/people-group/general-onboarding/)
-- [Offboarding]({{< ref "offboarding" >}})
-- [Celebrations]({{< ref "celebrations" >}})
+- [Offboarding](/handbook/handbook/people-group/engineering/offboarding/)
+- [Celebrations](/handbook/handbook/people-group/celebrations/)
 - [People Connect](https://internal.gitlab.com/handbook/people-group/people-operations/people-connect/people_connect_team/)
 - [People Analytics](people-ops-tech-analytics/people-analytics/_index.md)
 
@@ -273,12 +273,12 @@ We encourage everyone to have an ongoing conversation about career growth with t
 
 ### Learning and Development
 
-- [Learning & Development]({{< ref "learning-and-development" >}})
+- [Learning & Development](/handbook/handbook/company/culture/all-remote/learning-and-development/)
 - [Guidance on Feedback](/handbook/people-group/guidance-on-feedback/)
 
 ### Diversity, Inclusion and Belonging
 
-- [Gender and Sexual-orientation Identity Definitions and FAQ]({{< ref "orientation-identity" >}})
+- [Gender and Sexual-orientation Identity Definitions and FAQ](/handbook/handbook/people-group/orientation-identity/)
 
 ### Other People Group Links
 

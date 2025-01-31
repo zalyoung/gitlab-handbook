@@ -18,7 +18,7 @@ The scope of the StORM program is limited to operational, technology-agnostic se
 **Out of Scope** Unless they are related to a StORM risk (for example security compliance observations that span multiple systems), the following risk-types are not in scope for StORM:
 
 1. Operational risks that are not security-related are out of scope (ex. accounting-specific risks)
-1. [Individual, system-specific security compliance observations]({{< ref "observation-management-procedure" >}}) (ex. inadequate password settings for a specific system)
+1. [Individual, system-specific security compliance observations](/handbook/handbook/security/security-assurance/observation-management-procedure/) (ex. inadequate password settings for a specific system)
 1. [Enterprise Risk Management (ERM)](https://internal.gitlab.com/handbook/internal-audit/erm/) - internal only. Examples of ERM risks can be found on our [Mitigating Concerns](https://internal.gitlab.com/handbook/leadership/mitigating-concerns/) (internal only) handbook page.
 
 ## Roles and Responsibilities
@@ -88,7 +88,7 @@ There are multiple ways the team can be engaged for risk:
 1. (**Preferred**) Submit a [Risk Escalation issue](https://gitlab.com/gitlab-com/gl-security/security-assurance/security-risk-team/storm/-/issues/new?issuable_template=risk-escalation) on the StORM Repo.
 1. If the risk is identified within an issue, team members can tag the team directly by @ mentioning `@gitlab-com/gl-security/security-assurance/security-risk-team` on the issue or MR
 
-When documenting risks, team members can leverage [Observation Description guidance]({{< ref "observation-management-procedure#drafting-observation-description-guidance" >}}) for existing issues/observations or [risk drafting guidance](#risk-drafting-guidance).
+When documenting risks, team members can leverage [Observation Description guidance](/handbook/handbook/security/security-assurance/observation-management-procedure/#drafting-observation-description-guidance) for existing issues/observations or [risk drafting guidance](#risk-drafting-guidance).
 
 #### Risks identified during risk assessments
 
@@ -105,9 +105,9 @@ In order to effectively identify, manage, and treat operational risks, GitLab ha
 
 #### Risk Drafting Guidance
 
-StORM Program considerations include both risks (what might happen) and observations (what has happened/non-compliance). For guidance on writing observations, please refer to the[Observation Management Procedure Handbook page]({{< ref "observation-management-procedure" >}}).
+StORM Program considerations include both risks (what might happen) and observations (what has happened/non-compliance). For guidance on writing observations, please refer to the[Observation Management Procedure Handbook page](/handbook/handbook/security/security-assurance/observation-management-procedure/).
 
-When drafting a risk, start with a risk statement. This will represent the title of the Risk in our GRC system and is an attempt to condense the risk into a single sentence. In the spirit of [low-context communication]({{< ref "shared-reality#low-context-communication" >}}), avoid using single words or short phrases for the risk statement (ex. Supply Chain). As we largely deal with negative risks (vs. positive risks/opportunities), starting the statement with negative language like "Failure to", "Inadequate", "Incomplete", "Lack of", etc. is appropriate, but not required. As risks represent what might happen, use "may" before describing the negative effect it *may* have on the confidentiality, integrity, availability, security, and privacy of GitLab data. Example: *Inadequate physical security controls may result in the loss of GitLab/Customer data and physical assets.* The risk description should contain details related to the assets/resources at risk, the event that may occur, the source that would trigger the event (root cause), and the consequence (impact/loss) [source](https://www.srmam.com/post/how-to-write-a-risk-statement).
+When drafting a risk, start with a risk statement. This will represent the title of the Risk in our GRC system and is an attempt to condense the risk into a single sentence. In the spirit of [low-context communication](/handbook/teamops/shared-reality/#low-context-communication), avoid using single words or short phrases for the risk statement (ex. Supply Chain). As we largely deal with negative risks (vs. positive risks/opportunities), starting the statement with negative language like "Failure to", "Inadequate", "Incomplete", "Lack of", etc. is appropriate, but not required. As risks represent what might happen, use "may" before describing the negative effect it *may* have on the confidentiality, integrity, availability, security, and privacy of GitLab data. Example: *Inadequate physical security controls may result in the loss of GitLab/Customer data and physical assets.* The risk description should contain details related to the assets/resources at risk, the event that may occur, the source that would trigger the event (root cause), and the consequence (impact/loss) [source](https://www.srmam.com/post/how-to-write-a-risk-statement).
 
 #### Risk Factors and Risk Scoring
 
@@ -206,7 +206,7 @@ By accepting the risk, the Risk Owner and risk acceptance approvers (if separate
 
 ### Risk Tracking and Reporting
 
-Identified risks are formally tracked via an internal risk register. Given the nature of the sensitivity of this information in aggregate, the risk register is [not made public]({{< ref "confidentiality-levels#not-public" >}}), and is not distributed externally. However, a publicly viewable GitLab Risk Register Template is available [here](https://docs.google.com/spreadsheets/d/1Lvn-ZjPNcZ-QMh-pkC6HqjwR-acUf70V9w2pquhRmH0/edit?usp=sharing) for those interested in getting some more insight into the type of information tracked in GitLab's risk register. StORM-related risk activities are centralized [within GitLab](https://gitlab.com/gitlab-com/gl-security/security-assurance/security-risk-team/storm-risk-register/-/issues/?sort=weight_desc&state=opened&first_page_size=100) (internal only).
+Identified risks are formally tracked via an internal risk register. Given the nature of the sensitivity of this information in aggregate, the risk register is [not made public](/handbook/handbook/communication/confidentiality-levels/#not-public), and is not distributed externally. However, a publicly viewable GitLab Risk Register Template is available [here](https://docs.google.com/spreadsheets/d/1Lvn-ZjPNcZ-QMh-pkC6HqjwR-acUf70V9w2pquhRmH0/edit?usp=sharing) for those interested in getting some more insight into the type of information tracked in GitLab's risk register. StORM-related risk activities are centralized [within GitLab](https://gitlab.com/gitlab-com/gl-security/security-assurance/security-risk-team/storm-risk-register/-/issues/?sort=weight_desc&state=opened&first_page_size=100) (internal only).
 
 We report on our top 5 risks on a quarterly basis (the Security Risk Quarterly or "SRQ") in alignment with our values. To learn more about the SRQ, please see our YouTube unfiltered video linked [here](https://www.youtube.com/watch?v=sHZr-5SR7yg). The template we've used can be found [here](https://docs.google.com/document/d/1cpBbn_0kIWpEzbzLrzEcVesN-3Y0y1K6SD6wiv0-Vaw/edit?usp=sharing) for reference. Additionally, we perform an annual exercise to refresh our Risk Appetite and our Top 5 risks.
 
@@ -244,7 +244,7 @@ The only exceptions to this procedure are those risks that are out of scope (as 
 ## References
 
 - GitLab Handbook References:
-  - [GitLab's Communication Page, Not Public Section]({{< ref "confidentiality-levels#not-public" >}})
+  - [GitLab's Communication Page, Not Public Section](/handbook/handbook/communication/confidentiality-levels/#not-public)
 - External References
   - [NIST SP 800-30 Rev. 1](https://csrc.nist.gov/pubs/sp/800/30/r1/final)
   - [ISO 31000 Risk Management Methodology](https://www.iso.org/standard/65694.html)

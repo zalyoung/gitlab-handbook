@@ -18,10 +18,10 @@ Changes, in the context of this policy, are defined as **modifications**, includ
 - New access or role creation
 - Broadly speaking, any change that will impact how team members carry out their responsibilities
 
-The policy applies to changes that are made to systems assigned a [Critical System Tier]({{< ref "critical-systems" >}}) of `Tier 1 Mission Critical`, `Tier 2 Business Critical`, and `Tier 3 Business Operational`.
+The policy applies to changes that are made to systems assigned a [Critical System Tier](/handbook/handbook/security/security-assurance/security-risk/storm-program/critical-systems/) of `Tier 1 Mission Critical`, `Tier 2 Business Critical`, and `Tier 3 Business Operational`.
 
 {{% note %}}
-While Tier 4 Administrative systems are not subject to the scope of this policy, team members are encouraged to proactively adopt the requirements established by this policy across all systems, especially if there is a good probability that a system may move from a `Tier 4 Administrative` system to a [higher system tier]({{< ref "critical-systems" >}}) handbook page.
+While Tier 4 Administrative systems are not subject to the scope of this policy, team members are encouraged to proactively adopt the requirements established by this policy across all systems, especially if there is a good probability that a system may move from a `Tier 4 Administrative` system to a [higher system tier](/handbook/handbook/security/security-assurance/security-risk/storm-program/critical-systems/) handbook page.
 {{% /note %}}
 
 ## Roles & Responsibilities
@@ -51,11 +51,11 @@ For further details, please review GitLab's [Change Management Standard](https:/
 
 ## Exceptions
 
-Exceptions to this policy will be tracked as per the [Security and Technology Policy Exception Management Process]({{< ref "security-and-technology-policy-exception" >}}).
+Exceptions to this policy will be tracked as per the [Security and Technology Policy Exception Management Process](/handbook/handbook/security/security-and-technology-policy-exception/).
 
 ## References
 
 - [Infrastructure Change Management Procedure](/handbook/engineering/infrastructure/change-management/)
 - [Business Technology Change Management Procedure](https://internal.gitlab.com/handbook/it/it-change-management/) (internal only)
 - [Organizational Change Management Procedure](/handbook/people-group/organizational-change-management/)
-- [Security Change Management Procedure]({{< ref "security-change-management-procedure" >}})
+- [Security Change Management Procedure](/handbook/handbook/security/security-change-management-procedure/)

@@ -78,7 +78,7 @@ Getting to know your people through personality assessments is a tool to build t
 
 An abundance of free personality assessments are available. Several are outlined below:
 
-- [Understanding Social Styles]({{< ref "social-styles" >}})
+- [Understanding Social Styles](/handbook/handbook/leadership/emotional-intelligence/social-styles/)
 - [Emotional Intelligence Assessments]({{< ref "emotional-intelligence" >}})
 - [Gallup Strengths Finder](https://www.gallup.com/cliftonstrengths/en/252137/home.aspx)
 - [16 Personalities](https://www.16personalities.com/) (also known as Myers-Briggs)
@@ -127,7 +127,7 @@ One of our Managers said this about the Zoom Background Ice-Breaker:
 
 Use the '#thanks' [Slack channel](/handbook/communication/) to give recognition to team members in a public setting. Review team accomplishments weekly, monthly, and quarterly. Meet with each team member to review their accomplishments.
 
-Take a [coaching approach]({{< ref "coaching" >}}) and have the team members talk through what their accomplishments were. Managers should identify opportunities for [executives](/handbook/company/structure/#executives) to recognize the team. They should also look for opportunities to recognize the team in front of executives.
+Take a [coaching approach](/handbook/handbook/leadership/coaching/) and have the team members talk through what their accomplishments were. Managers should identify opportunities for [executives](/handbook/company/structure/#executives) to recognize the team. They should also look for opportunities to recognize the team in front of executives.
 
 **How to apply giving credit to team members:** Managers can set a weekly reminder to review team accomplishments and areas for individual recognition. Scheduling a regular cadence of giving credit will show team members that leaders are playing an active role in their career.
 
@@ -178,7 +178,7 @@ Managers can set up a more relaxed call with their team that is specifically foc
 
 ### Managers Enable Team Members to Make Decisions
 
-Managers play a unique role at GitLab. When a team member on their team excels in their role, they should be given an opportunity to [make decisions]({{< ref "making-decisions" >}}). Allowing team members to play a role in decision-making can enable trust by catering to the team members' skills and attributes.
+Managers play a unique role at GitLab. When a team member on their team excels in their role, they should be given an opportunity to [make decisions](/handbook/handbook/leadership/making-decisions/). Allowing team members to play a role in decision-making can enable trust by catering to the team members' skills and attributes.
 
 ### Host a Team Day
 

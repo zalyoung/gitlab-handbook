@@ -142,7 +142,7 @@ This short questionnaire below should help you in quickly deciding if you should
 
 If the change is doing one or more of the following:
 
-1. Processing, storing, or transferring any kind of [RED or ORANGE data]({{< ref "data-classification-standard" >}})
+1. Processing, storing, or transferring any kind of [RED or ORANGE data](/handbook/handbook/security/data-classification-standard/)
 1. If your changes have a goal which requires a **cryptographic function** such as: confidentiality, integrity, authentication, or non-repudiation, it *should* be reviewed by the [application security team](https://gitlab.com/gitlab-com/gl-security/product-security/appsec).
 1. Deployment of a customer facing application into a new environment
 1. Changes to an existing security control
@@ -150,7 +150,7 @@ If the change is doing one or more of the following:
 1. A new authentication mechanism
 1. Adding code that touches the authentication model, tokens or sessions
 1. Dealing with user supplied data
-1. Touching cryptography functions, see the [GitLab Cryptography Standard]({{< ref "cryptographic-standard" >}}) for more details
+1. Touching cryptography functions, see the [GitLab Cryptography Standard](/handbook/handbook/security/cryptographic-standard/) for more details
 1. Touching the permission model
 1. Implement new security controls (i.e. new library for a specific protection, HTTP header, ...)
 1. Exposing a new API endpoint, or modifying an existing one
@@ -160,8 +160,8 @@ If the change is doing one or more of the following:
    - validate user supplied data
    - make decisions related to authorisation and authentication
 
-1. A new feature that can manipulate or display sensitive data (i.e PII), see our [Data Classification Standard]({{< ref "data-classification-standard" >}}) for more details
-1. Persisting sensitive data such as tokens, crypto keys, credentials, PII in temp storages/files/DB, manipulating or displaying sensitive data (i.e PII), see our [Data Classification Standard]({{< ref "data-classification-standard" >}}) for more details
+1. A new feature that can manipulate or display sensitive data (i.e PII), see our [Data Classification Standard](/handbook/handbook/security/data-classification-standard/) for more details
+1. Persisting sensitive data such as tokens, crypto keys, credentials, PII in temp storages/files/DB, manipulating or displaying sensitive data (i.e PII), see our [Data Classification Standard](/handbook/handbook/security/data-classification-standard/) for more details
 
 You should engage `@gitlab-com/gl-security/product-security/appsec`.
 
@@ -198,7 +198,7 @@ To help speed up a review, it's recommended to provide any or all of the followi
 
 ### What does the security process look like?
 
-The current process for larger scale internal application security reviews be found [here]({{< ref "appsec-reviews" >}})
+The current process for larger scale internal application security reviews be found [here](/handbook/handbook/security/product-security/application-security/appsec-reviews/)
 
 ### My changes have been reviewed by security, so is my project now secure?
 

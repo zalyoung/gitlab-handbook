@@ -188,7 +188,7 @@ Transgender is an umbrella term to refer to and capture all non-traditional gend
 
 No, being transgender is not a mental illness.
 
-Transgender people can experience a mental illness known as [gender dysphoria]({{< ref "orientation-identity#gender-dysphoria" >}}), however not all trans people have this experience, so being trans in and of itself is not a mental illness.
+Transgender people can experience a mental illness known as [gender dysphoria](/handbook/handbook/people-group/orientation-identity/#gender-dysphoria), however not all trans people have this experience, so being trans in and of itself is not a mental illness.
 
 This [Vox article on transgender mental health](https://www.vox.com/identities/2016/5/13/17938120/transgender-people-mental-illness-health-care) says it well,
 
@@ -210,7 +210,7 @@ Asking for someone's pronouns is the same as asking for their name. In the same 
 
 In English, there are [many common pronouns](https://uwm.edu/lgbtrc/support-resources/gender-pronouns/) such as the singular they/them and ze/hir/hirs. To learn more see this [Time article on pronouns](https://time.com/4327915/gender-neutral-pronouns/).
 
-For more information on pronouns, check out [Pronoun Guidance and Information]({{< ref "pronouns" >}}).
+For more information on pronouns, check out [Pronoun Guidance and Information](/handbook/handbook/people-group/pronouns/).
 
 ### What if I accidentally use the wrong pronouns?
 
@@ -222,4 +222,4 @@ At GitLab, you will not get fired for any of the following reasons, no matter wh
 
 Race, color, religion, national origin, sex (including pregnancy), age, disability, HIV status, sexual orientation, gender identity, marital status, past or present military service, or any other status protected by the laws or regulations in the locations where we operate.
 
-Please review our [anti-discrimination guidelines]({{< ref "anti-harassment#discrimination" >}}) for more information on what is not tolerated at GitLab.
+Please review our [anti-discrimination guidelines](/handbook/handbook/people-group/anti-harassment/#discrimination) for more information on what is not tolerated at GitLab.
